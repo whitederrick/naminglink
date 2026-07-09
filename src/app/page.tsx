@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Globe2, Languages, Sparkles } from "lucide-react";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SiteFooter } from "@/components/SiteFooter";
+import { getLandingCopy, getTextDirection } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
-import { localeLabels, serviceList, type Locale } from "@/lib/services";
+import { serviceList } from "@/lib/services";
 
 const iconMap = {
   hanja: Languages,
   passport: Globe2,
   korean: Sparkles,
 };
-
-const navLocales: Locale[] = ["ko", "en", "ja", "zh", "de", "es"];
 
 type HomeProps = {
   searchParams?: Promise<{ lang?: string }>;
@@ -19,12 +20,22 @@ type HomeProps = {
 export default async function Home({ searchParams }: HomeProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
+  const copy = getLandingCopy(locale);
+  const isKoreanEntry = locale === "ko";
+  const heroImage = isKoreanEntry
+    ? "/images/landing-hero.png"
+    : "/images/landing-hero-global.png";
+  const visibleServices = serviceList.filter((service) =>
+    isKoreanEntry
+      ? service.slug === "hanja-meaning" || service.slug === "korean-to-global"
+      : service.slug === "global-to-korean",
+  );
 
   return (
-    <main className="min-h-screen bg-background">
-      <section className="relative min-h-screen overflow-hidden">
+    <main className="min-h-screen bg-background" dir={getTextDirection(locale)}>
+      <section className="relative flex min-h-screen flex-col overflow-hidden">
         <Image
-          src="/images/landing-hero.png"
+          src={heroImage}
           alt="Korean calligraphy, name seal, passport, and keepsake card on a refined desk"
           fill
           priority
@@ -38,75 +49,47 @@ export default async function Home({ searchParams }: HomeProps) {
             <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-foreground">
               <Sparkles aria-hidden="true" size={20} />
             </span>
-            <span>
-              <span className="block text-lg font-semibold">Naming-Link</span>
-              <span className="text-sm font-medium text-white/80">
-                Global Naming Studio
-              </span>
-            </span>
+            <span className="text-lg font-semibold">Naming-Link</span>
           </Link>
-          <nav className="flex flex-wrap gap-2 text-sm">
-            {navLocales.map((item) => (
-              <Link
-                key={item}
-                href={`/?lang=${item}`}
-                className={`rounded-lg border px-3 py-2 transition ${
-                  locale === item
-                    ? "border-white bg-white text-foreground"
-                    : "border-white/35 bg-white/10 text-white hover:bg-white/20"
-                }`}
-              >
-                {localeLabels[item]}
-              </Link>
-            ))}
-          </nav>
+          <LanguageSwitcher
+            locale={locale}
+            currentLanguageLabel={copy.currentLanguage}
+            moreLabel={copy.moreLanguages}
+            closeLabel={copy.closeLanguages}
+          />
         </header>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-6 px-5 pb-6 pt-4 text-white sm:px-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-center lg:px-10 lg:pb-8 lg:pt-6">
+        <div className="relative z-10 mx-auto grid w-full max-w-7xl flex-1 gap-5 px-5 py-4 text-white sm:px-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-center lg:px-10">
           <section className="max-w-3xl">
-            <p className="inline-flex rounded-lg border border-white/30 bg-white/12 px-4 py-2 text-base font-semibold text-white shadow-sm backdrop-blur">
-              Global Naming Studio
+            <p className="inline-flex rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-xl font-semibold text-white shadow-sm backdrop-blur sm:text-2xl">
+              {copy.badge}
             </p>
-            <h1 className="mt-5 break-keep text-4xl font-semibold leading-tight tracking-normal sm:text-5xl xl:text-6xl">
-              <span className="block">소리, 의미, 문화권,</span>
-              <span className="block">생년월일의 균형까지</span>
-              <span className="block">설계하는 이름 서비스</span>
+            <h1 className="mt-5 break-keep text-4xl font-semibold leading-tight tracking-normal sm:text-5xl xl:text-[3.55rem]">
+              {copy.heroLines.map((line) => (
+                <span key={line} className="block">
+                  {line}
+                </span>
+              ))}
             </h1>
             <p className="mt-5 max-w-2xl break-keep text-base leading-7 text-white/82 sm:text-lg">
-              <span className="block">
-                한글 이름에 맞는 한자 의미부터 글로벌 이름 변환까지,
-              </span>
-              <span className="block">
-                이름이 실제로 쓰일 언어와 지역의 감각을 함께 살핍니다.
-              </span>
-              <span className="block">
-                부모의 바람, 사용 목적, 문화권의 뉘앙스를 한 흐름으로 연결합니다.
-              </span>
+              {copy.descriptionLines.map((line) => (
+                <span key={line} className="block">
+                  {line}
+                </span>
+              ))}
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Link
-                href={`/hanja-meaning?lang=${locale}`}
-                className="inline-flex h-12 items-center gap-2 rounded-lg bg-white px-5 text-sm font-semibold text-foreground transition hover:bg-surface-strong"
-              >
-                한자 의미 매칭 시작
-                <ArrowRight aria-hidden="true" size={17} />
-              </Link>
-              <Link
-                href={`/global-to-korean?lang=${locale}`}
-                className="inline-flex h-12 items-center gap-2 rounded-lg border border-white/35 bg-white/10 px-5 text-sm font-semibold text-white transition hover:bg-white/20"
-              >
-                한국 이름 만들기
-              </Link>
-            </div>
           </section>
 
           <section className="grid gap-3 lg:pl-6">
             <div className="flex items-center justify-between gap-3">
-              <p className="text-sm font-semibold text-white/80">목적별 시작</p>
-              <p className="text-xs text-white/60">첫 화면에서 바로 선택</p>
+              <p className="text-sm font-semibold text-white/80">
+                {copy.servicePickerTitle}
+              </p>
+              <p className="text-xs text-white/60">{copy.servicePickerHint}</p>
             </div>
-            {serviceList.map((service) => {
+            {visibleServices.map((service) => {
               const Icon = iconMap[service.icon];
+              const serviceCopy = copy.services[service.slug] ?? service;
 
               return (
                 <Link
@@ -120,13 +103,13 @@ export default async function Home({ searchParams }: HomeProps) {
                     </span>
                     <div className="min-w-0 flex-1">
                       <p className="break-keep text-xs font-semibold text-white/70">
-                        {service.audience}
+                        {serviceCopy.audience}
                       </p>
                       <h2 className="mt-1 break-keep text-lg font-semibold">
-                        {service.title}
+                        {serviceCopy.title}
                       </h2>
                       <p className="mt-1 break-keep text-sm leading-6 text-white/74">
-                        {service.description}
+                        {serviceCopy.description}
                       </p>
                     </div>
                     <ArrowRight
@@ -140,6 +123,11 @@ export default async function Home({ searchParams }: HomeProps) {
             })}
           </section>
         </div>
+
+        <SiteFooter
+          tone="light"
+          className="relative z-10 bg-foreground/50 backdrop-blur"
+        />
       </section>
     </main>
   );

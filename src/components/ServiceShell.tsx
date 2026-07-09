@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, BadgeCheck, Sparkles } from "lucide-react";
+import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
 import { NamingForm } from "@/components/NamingForm";
 import { serviceList } from "@/lib/services";
@@ -71,6 +72,7 @@ export function ServiceShell({
 
         <NamingForm service={service} />
       </section>
+      <SiteFooter />
     </main>
   );
 }

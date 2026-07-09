@@ -1,8 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import { FormEvent, useMemo, useState } from "react";
 import { Eye, FileText, Palette, Send, Stamp } from "lucide-react";
-import type { FieldConfig, ServiceConfig } from "@/lib/services";
+import {
+  getCountryOption,
+  type CountryOption,
+  type FieldConfig,
+  type ServiceConfig,
+} from "@/lib/services";
 import { AdBanner } from "@/components/AdBanner";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { ResultCard } from "@/components/ResultCard";
@@ -76,6 +82,23 @@ function FieldInput({
   );
 }
 
+function selectedCountryFromValues(values: Record<string, string>) {
+  return getCountryOption(values.country ?? values.targetCountry);
+}
+
+function resolveMotivation(
+  values: Record<string, string>,
+  country: CountryOption | undefined,
+) {
+  const selected = values.nameMotivation;
+
+  if (selected === "auto_by_country") {
+    return country?.suggestedMotivation ?? "general";
+  }
+
+  return selected || "general";
+}
+
 export function NamingForm({ service }: { service: ServiceConfig }) {
   const initialValues = useMemo(() => {
     const entries = service.sections.flatMap((section) =>
@@ -90,18 +113,40 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<ApiResult | null>(null);
   const [revealAll, setRevealAll] = useState(false);
+  const [agreedToTerms, setAgreedToTerms] = useState(false);
+  const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [selectedAddOns, setSelectedAddOns] = useState<string[]>([
     "premiumPdf",
   ]);
+  const selectedCountry = selectedCountryFromValues(values);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setLoading(true);
     setError(null);
     setResult(null);
     setRevealAll(false);
 
+    if (!agreedToTerms || !agreedToPrivacy) {
+      setError("이용약관과 개인정보처리방침에 동의해야 분석을 시작할 수 있습니다.");
+      return;
+    }
+
+    setLoading(true);
+
     try {
+      const countryProfile = selectedCountry
+        ? {
+            code: selectedCountry.value,
+            label: selectedCountry.label,
+            defaultLocale: selectedCountry.locale,
+            languageName: selectedCountry.languageName,
+            localNameHint: selectedCountry.localNameHint,
+            suggestedMotivation: selectedCountry.suggestedMotivation ?? null,
+            motivationNote: selectedCountry.motivationNote ?? null,
+            resolvedMotivation: resolveMotivation(values, selectedCountry),
+          }
+        : null;
+
       const response = await fetch("/api/naming", {
         method: "POST",
         headers: {
@@ -113,6 +158,12 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
             ...values,
             selectedAddOns,
             serviceSlug: service.slug,
+            countryProfile,
+            legalConsent: {
+              termsVersion: "2026-07-09",
+              privacyVersion: "2026-07-09",
+              consentedAt: new Date().toISOString(),
+            },
           },
         }),
       });
@@ -137,6 +188,25 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
         ? current.filter((item) => item !== key)
         : [...current, key],
     );
+  }
+
+  function updateField(field: FieldConfig, value: string) {
+    setValues((current) => {
+      const next = {
+        ...current,
+        [field.name]: value,
+      };
+
+      if (field.name === "country" || field.name === "targetCountry") {
+        const country = getCountryOption(value);
+
+        if (country && "outputLanguage" in next) {
+          next.outputLanguage = country.locale;
+        }
+      }
+
+      return next;
+    });
   }
 
   return (
@@ -166,13 +236,19 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
                   <FieldInput
                     field={field}
                     value={values[field.name] ?? ""}
-                    onChange={(value) =>
-                      setValues((current) => ({
-                        ...current,
-                        [field.name]: value,
-                      }))
-                    }
+                    onChange={(value) => updateField(field, value)}
                   />
+                  {(field.name === "country" ||
+                    field.name === "targetCountry") &&
+                  selectedCountry ? (
+                    <span className="text-xs leading-5 text-muted">
+                      기본 언어: {selectedCountry.languageName} · 현지 이름
+                      예시: {selectedCountry.localNameHint}
+                      {selectedCountry.motivationNote
+                        ? ` · 추천 옵션: ${selectedCountry.motivationNote}`
+                        : ""}
+                    </span>
+                  ) : null}
                   {field.hint ? (
                     <span className="text-xs leading-5 text-muted">
                       {field.hint}
@@ -220,6 +296,44 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
                 </button>
               );
             })}
+          </div>
+        </section>
+
+        <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
+          <h2 className="text-lg font-semibold">필수 동의</h2>
+          <p className="mt-2 text-sm leading-6 text-muted">
+            이름, 생년월일, 국가, 사용 목적 등 입력값은 작명 분석과 결과 저장을
+            위해 처리됩니다.
+          </p>
+          <div className="mt-4 grid gap-3">
+            <label className="flex items-start gap-3 text-sm leading-6">
+              <input
+                type="checkbox"
+                checked={agreedToTerms}
+                onChange={(event) => setAgreedToTerms(event.target.checked)}
+                className="mt-1 h-4 w-4"
+              />
+              <span>
+                <Link href="/terms" className="font-semibold text-foreground">
+                  이용약관
+                </Link>
+                에 동의합니다.
+              </span>
+            </label>
+            <label className="flex items-start gap-3 text-sm leading-6">
+              <input
+                type="checkbox"
+                checked={agreedToPrivacy}
+                onChange={(event) => setAgreedToPrivacy(event.target.checked)}
+                className="mt-1 h-4 w-4"
+              />
+              <span>
+                <Link href="/privacy" className="font-semibold text-foreground">
+                  개인정보처리방침
+                </Link>
+                에 동의합니다.
+              </span>
+            </label>
           </div>
         </section>
 

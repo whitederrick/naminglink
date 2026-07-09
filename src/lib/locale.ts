@@ -1,32 +1,40 @@
 import { headers } from "next/headers";
-import type { Locale } from "@/lib/services";
-
-const supportedLocales: Locale[] = ["ko", "en", "ja", "zh", "de", "es", "fr"];
+import { supportedLocales, type Locale } from "@/lib/services";
 
 const countryLocaleMap: Record<string, Locale> = {
   KR: "ko",
   JP: "ja",
+  VN: "vi",
+  PH: "fil",
+  TH: "th",
+  ID: "id",
   CN: "zh",
   TW: "zh",
   HK: "zh",
   MO: "zh",
-  DE: "de",
-  AT: "de",
-  CH: "de",
-  ES: "es",
+  UZ: "uz",
+  MN: "mn",
+  IN: "hi",
+  US: "en",
   MX: "es",
+  BR: "pt",
+  FR: "fr",
+  GB: "en",
+  TR: "tr",
+  RU: "ru",
+  AE: "ar",
+  EG: "ar",
+  SA: "ar",
+  KH: "km",
+  MY: "ms",
+  DE: "de",
+  AU: "en",
+  CA: "en",
   AR: "es",
   CL: "es",
-  CO: "es",
-  PE: "es",
-  FR: "fr",
-  BE: "fr",
-  CA: "en",
-  US: "en",
-  GB: "en",
-  IE: "en",
-  AU: "en",
-  NZ: "en",
+  KZ: "kk",
+  PL: "pl",
+  IT: "it",
 };
 
 export function isLocale(value: string | null | undefined): value is Locale {

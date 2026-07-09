@@ -1,4 +1,27 @@
-export type Locale = "ko" | "en" | "ja" | "zh" | "de" | "es" | "fr";
+export type Locale =
+  | "ko"
+  | "en"
+  | "ja"
+  | "zh"
+  | "de"
+  | "es"
+  | "fr"
+  | "it"
+  | "pt"
+  | "vi"
+  | "th"
+  | "id"
+  | "ru"
+  | "ar"
+  | "fil"
+  | "uz"
+  | "mn"
+  | "hi"
+  | "tr"
+  | "km"
+  | "ms"
+  | "kk"
+  | "pl";
 
 export type ServiceType =
   | "HANJA_MEANING_MATCH"
@@ -8,6 +31,14 @@ export type ServiceType =
 export type FieldOption = {
   value: string;
   label: string;
+};
+
+export type CountryOption = FieldOption & {
+  locale: Locale;
+  languageName: string;
+  localNameHint: string;
+  suggestedMotivation?: "korean_education" | "k_culture";
+  motivationNote?: string;
 };
 
 export type FieldConfig = {
@@ -57,7 +88,50 @@ export const localeLabels: Record<Locale, string> = {
   de: "Deutsch",
   es: "Español",
   fr: "Français",
+  it: "Italiano",
+  pt: "Português",
+  vi: "Tiếng Việt",
+  th: "ไทย",
+  id: "Bahasa Indonesia",
+  ru: "Русский",
+  ar: "العربية",
+  fil: "Filipino",
+  uz: "O‘zbekcha",
+  mn: "Монгол",
+  hi: "हिन्दी",
+  tr: "Türkçe",
+  km: "ភាសាខ្មែរ",
+  ms: "Bahasa Melayu",
+  kk: "Қазақша",
+  pl: "Polski",
 };
+
+export const primaryLocales: Locale[] = ["ko", "en", "ja", "zh", "de", "es"];
+
+export const secondaryLocales: Locale[] = [
+  "fr",
+  "it",
+  "pt",
+  "vi",
+  "th",
+  "id",
+  "ru",
+  "ar",
+  "fil",
+  "uz",
+  "mn",
+  "hi",
+  "tr",
+  "km",
+  "ms",
+  "kk",
+  "pl",
+];
+
+export const supportedLocales: Locale[] = [
+  ...primaryLocales,
+  ...secondaryLocales,
+];
 
 const currentYear = new Date().getFullYear();
 
@@ -94,13 +168,10 @@ export const birthHourOptions = [
 
 const languageOptions: FieldOption[] = [
   { value: "auto", label: "접속 환경에 맞춤" },
-  { value: "ko", label: "한국어" },
-  { value: "en", label: "English" },
-  { value: "ja", label: "日本語" },
-  { value: "zh", label: "中文" },
-  { value: "de", label: "Deutsch" },
-  { value: "es", label: "Español" },
-  { value: "fr", label: "Français" },
+  ...supportedLocales.map((locale) => ({
+    value: locale,
+    label: localeLabels[locale],
+  })),
 ];
 
 const genderOptions: FieldOption[] = [
@@ -110,39 +181,266 @@ const genderOptions: FieldOption[] = [
   { value: "neutral", label: "중성/무관" },
 ];
 
-const targetRegionOptions: FieldOption[] = [
-  { value: "en_us_ca", label: "영어권 - 미국/캐나다" },
-  { value: "en_uk_ie", label: "영어권 - 영국/아일랜드" },
-  { value: "ja_jp", label: "일본" },
-  { value: "zh_cn", label: "중국어권 - 간체" },
-  { value: "zh_tw_hk", label: "중국어권 - 번체" },
-  { value: "de_dach", label: "독일어권 - 독일/오스트리아/스위스" },
-  { value: "es_es", label: "스페인" },
-  { value: "es_latam", label: "라틴아메리카 스페인어권" },
-  { value: "fr_fr_ca", label: "프랑스어권 - 프랑스/캐나다" },
-  { value: "global_business", label: "글로벌 비즈니스 공통" },
+export const nameMotivationOptions: FieldOption[] = [
+  {
+    value: "auto_by_country",
+    label: "국가별 추천 목적 자동 선택",
+  },
+  {
+    value: "korean_education",
+    label: "한국어 교육, 취업, 유학 실용 목적",
+  },
+  {
+    value: "k_culture",
+    label: "K-culture, SNS, 부캐, 애칭 이름",
+  },
+  {
+    value: "business",
+    label: "비즈니스, 명함, 글로벌 업무",
+  },
+  {
+    value: "daily_social",
+    label: "친구, 학교, 일상 생활",
+  },
+  {
+    value: "family_pet",
+    label: "자녀, 가족, 반려동물 이름",
+  },
+  {
+    value: "creator_brand",
+    label: "크리에이터, 브랜드, 공개 프로필",
+  },
 ];
 
-const countryOptions: FieldOption[] = [
-  { value: "us", label: "United States" },
-  { value: "ca", label: "Canada" },
-  { value: "gb", label: "United Kingdom" },
-  { value: "ie", label: "Ireland" },
-  { value: "jp", label: "Japan" },
-  { value: "cn", label: "China" },
-  { value: "tw", label: "Taiwan" },
-  { value: "hk", label: "Hong Kong" },
-  { value: "de", label: "Germany" },
-  { value: "at", label: "Austria" },
-  { value: "ch", label: "Switzerland" },
-  { value: "es", label: "Spain" },
-  { value: "mx", label: "Mexico" },
-  { value: "ar", label: "Argentina" },
-  { value: "cl", label: "Chile" },
-  { value: "fr", label: "France" },
-  { value: "au", label: "Australia" },
-  { value: "other", label: "Other" },
+export const countryOptions: CountryOption[] = [
+  {
+    value: "jp",
+    label: "Japan / 日本",
+    locale: "ja",
+    languageName: "Japanese",
+    localNameHint: "例: 山田 太郎",
+  },
+  {
+    value: "vn",
+    label: "Vietnam / Việt Nam",
+    locale: "vi",
+    languageName: "Vietnamese",
+    localNameHint: "Ví dụ: Nguyễn Minh Anh",
+    suggestedMotivation: "korean_education",
+    motivationNote:
+      "한국어 교육과 취업/유학 목적의 실용 수요가 매우 강한 우선 국가입니다.",
+  },
+  {
+    value: "ph",
+    label: "Philippines / Pilipinas",
+    locale: "fil",
+    languageName: "Filipino",
+    localNameHint: "Hal: Maria Santos",
+  },
+  {
+    value: "th",
+    label: "Thailand / ประเทศไทย",
+    locale: "th",
+    languageName: "Thai",
+    localNameHint: "เช่น: สมชาย ใจดี",
+    suggestedMotivation: "k_culture",
+    motivationNote:
+      "K-culture 기반으로 한국 이름을 직접 지어 쓰는 문화적 유행 수요가 강한 우선 국가입니다.",
+  },
+  {
+    value: "id",
+    label: "Indonesia",
+    locale: "id",
+    languageName: "Indonesian",
+    localNameHint: "Contoh: Budi Santoso",
+    suggestedMotivation: "k_culture",
+    motivationNote:
+      "K-culture 기반으로 한국 이름 짓기 관심이 두드러지는 우선 국가입니다.",
+  },
+  {
+    value: "cn",
+    label: "China / 中国",
+    locale: "zh",
+    languageName: "Chinese",
+    localNameHint: "例如: 王小明",
+  },
+  {
+    value: "tw",
+    label: "Taiwan / 臺灣",
+    locale: "zh",
+    languageName: "Traditional Chinese",
+    localNameHint: "例如: 陳怡君",
+  },
+  {
+    value: "uz",
+    label: "Uzbekistan / O‘zbekiston",
+    locale: "uz",
+    languageName: "Uzbek",
+    localNameHint: "Masalan: Aziz Karimov",
+  },
+  {
+    value: "mn",
+    label: "Mongolia / Монгол",
+    locale: "mn",
+    languageName: "Mongolian",
+    localNameHint: "Жишээ: Бат Эрдэнэ",
+  },
+  {
+    value: "in",
+    label: "India / भारत",
+    locale: "hi",
+    languageName: "Hindi / English",
+    localNameHint: "उदाहरण: आरव शर्मा",
+  },
+  {
+    value: "us",
+    label: "United States",
+    locale: "en",
+    languageName: "English",
+    localNameHint: "e.g. Daniel Brooks",
+  },
+  {
+    value: "mx",
+    label: "Mexico / México",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: José Hernández",
+  },
+  {
+    value: "br",
+    label: "Brazil / Brasil",
+    locale: "pt",
+    languageName: "Portuguese",
+    localNameHint: "Ex: João Silva",
+  },
+  {
+    value: "fr",
+    label: "France",
+    locale: "fr",
+    languageName: "French",
+    localNameHint: "Ex: Camille Dubois",
+  },
+  {
+    value: "gb",
+    label: "United Kingdom",
+    locale: "en",
+    languageName: "English",
+    localNameHint: "e.g. Olivia Bennett",
+  },
+  {
+    value: "tr",
+    label: "Türkiye",
+    locale: "tr",
+    languageName: "Turkish",
+    localNameHint: "Örn: Elif Yılmaz",
+  },
+  {
+    value: "ru",
+    label: "Russia / Россия",
+    locale: "ru",
+    languageName: "Russian",
+    localNameHint: "Напр.: Анна Иванова",
+  },
+  {
+    value: "ae",
+    label: "United Arab Emirates / الإمارات",
+    locale: "ar",
+    languageName: "Arabic",
+    localNameHint: "مثال: أحمد المنصوري",
+  },
+  {
+    value: "eg",
+    label: "Egypt / مصر",
+    locale: "ar",
+    languageName: "Arabic",
+    localNameHint: "مثال: مريم حسن",
+  },
+  {
+    value: "sa",
+    label: "Saudi Arabia / السعودية",
+    locale: "ar",
+    languageName: "Arabic",
+    localNameHint: "مثال: خالد العتيبي",
+  },
+  {
+    value: "kh",
+    label: "Cambodia / កម្ពុជា",
+    locale: "km",
+    languageName: "Khmer",
+    localNameHint: "ឧ: សុខ ស្រីនាង",
+  },
+  {
+    value: "my",
+    label: "Malaysia",
+    locale: "ms",
+    languageName: "Malay",
+    localNameHint: "Contoh: Nur Aisyah",
+  },
+  {
+    value: "de",
+    label: "Germany / Deutschland",
+    locale: "de",
+    languageName: "German",
+    localNameHint: "z. B. Lukas Schneider",
+  },
+  {
+    value: "au",
+    label: "Australia",
+    locale: "en",
+    languageName: "English",
+    localNameHint: "e.g. Amelia Wilson",
+  },
+  {
+    value: "ca",
+    label: "Canada",
+    locale: "en",
+    languageName: "English / French",
+    localNameHint: "e.g. Noah Tremblay",
+  },
+  {
+    value: "ar",
+    label: "Argentina",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: Valentina García",
+  },
+  {
+    value: "cl",
+    label: "Chile",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: Martín González",
+  },
+  {
+    value: "kz",
+    label: "Kazakhstan / Қазақстан",
+    locale: "kk",
+    languageName: "Kazakh / Russian",
+    localNameHint: "Мысалы: Айдана Нұрлан",
+  },
+  {
+    value: "pl",
+    label: "Poland / Polska",
+    locale: "pl",
+    languageName: "Polish",
+    localNameHint: "Np.: Anna Kowalska",
+  },
+  {
+    value: "it",
+    label: "Italy / Italia",
+    locale: "it",
+    languageName: "Italian",
+    localNameHint: "Es: Giulia Rossi",
+  },
 ];
+
+export function getCountryOption(value: string | undefined) {
+  return countryOptions.find((country) => country.value === value);
+}
+
+export function getCountryDefaultLocale(value: string | undefined) {
+  return getCountryOption(value)?.locale;
+}
 
 const sharedPremiumAddOns: AddOn[] = [
   {
@@ -363,10 +661,10 @@ export const services = {
         description: "이름을 실제로 쓸 국가, 맥락, 직업 이미지를 선택합니다.",
         fields: [
           {
-            name: "targetRegion",
-            label: "목표 지역",
+            name: "targetCountry",
+            label: "전환 대상 국가",
             type: "select",
-            options: targetRegionOptions,
+            options: countryOptions,
             required: true,
           },
           {
@@ -467,15 +765,22 @@ export const services = {
         fields: [
           {
             name: "originalName",
-            label: "Original name",
-            placeholder: "e.g. Daniel Brooks",
+            label: "현지어 이름 / Original name",
+            placeholder: "예: Daniel Brooks, Nguyễn Minh Anh, 山田 太郎",
             required: true,
           },
           {
             name: "country",
-            label: "Country",
+            label: "국가 / Country",
             type: "select",
             options: countryOptions,
+            required: true,
+          },
+          {
+            name: "nameMotivation",
+            label: "한국 이름 사용 목적",
+            type: "select",
+            options: nameMotivationOptions,
             required: true,
           },
           {
