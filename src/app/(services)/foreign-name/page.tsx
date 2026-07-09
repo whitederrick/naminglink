@@ -1,6 +1,5 @@
-import { ServiceShell } from "@/components/ServiceShell";
-import { services } from "@/lib/services";
+import { redirect } from "next/navigation";
 
-export default function ForeignNamePage() {
-  return <ServiceShell service={services.foreignName} />;
+export default function ForeignNameRedirect() {
+  redirect("/korean-to-global");
 }

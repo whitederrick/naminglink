@@ -3,9 +3,9 @@ create table if not exists public.naming_logs (
   user_id uuid references auth.users(id) on delete set null,
   service_type text not null check (
     service_type in (
-      'BABY_HANJA',
-      'KOREAN_FOR_FOREIGNER',
-      'FOREIGN_FOR_KOREAN'
+      'HANJA_MEANING_MATCH',
+      'KOREAN_TO_GLOBAL',
+      'GLOBAL_TO_KOREAN'
     )
   ),
   input_factors jsonb not null,
@@ -14,12 +14,56 @@ create table if not exists public.naming_logs (
   created_at timestamptz not null default now()
 );
 
+create table if not exists public.orders (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid references auth.users(id) on delete set null,
+  naming_log_id uuid references public.naming_logs(id) on delete set null,
+  order_type text not null check (
+    order_type in ('PREMIUM_PDF', 'CALLIGRAPHY_IMAGE', 'STAMP_DELIVERY')
+  ),
+  customer_name text,
+  customer_email text,
+  shipping_address text,
+  payment_status text not null default 'UNPAID',
+  payment_amount integer not null default 0,
+  fulfillment_status text not null default 'PENDING',
+  provider_payment_id text,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create table if not exists public.ad_events (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid references auth.users(id) on delete set null,
+  naming_log_id uuid references public.naming_logs(id) on delete set null,
+  slot_key text not null,
+  event_type text not null check (
+    event_type in ('IMPRESSION', 'CLICK', 'REWARD_GRANTED', 'ERROR')
+  ),
+  provider text,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now()
+);
+
 alter table public.naming_logs enable row level security;
+alter table public.orders enable row level security;
+alter table public.ad_events enable row level security;
 
 create policy "Users can view own naming logs"
   on public.naming_logs
   for select
   using (auth.uid() = user_id);
 
--- Inserts are performed by the Next.js API route with the service role key.
--- Do not expose SUPABASE_SERVICE_ROLE_KEY to the browser.
+create policy "Users can view own orders"
+  on public.orders
+  for select
+  using (auth.uid() = user_id);
+
+create policy "Users can view own ad events"
+  on public.ad_events
+  for select
+  using (auth.uid() = user_id);
+
+-- Inserts and admin reads should be performed by trusted Next.js API routes
+-- with SUPABASE_SERVICE_ROLE_KEY. Do not expose the service role key to clients.

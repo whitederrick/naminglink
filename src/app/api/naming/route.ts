@@ -8,9 +8,9 @@ export const runtime = "nodejs";
 const requestSchema = z.object({
   userId: z.string().uuid().optional(),
   serviceType: z.enum([
-    "BABY_HANJA",
-    "KOREAN_FOR_FOREIGNER",
-    "FOREIGN_FOR_KOREAN",
+    "HANJA_MEANING_MATCH",
+    "KOREAN_TO_GLOBAL",
+    "GLOBAL_TO_KOREAN",
   ]),
   inputFactors: z.record(z.string(), z.unknown()),
 });

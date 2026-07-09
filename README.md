@@ -1,6 +1,15 @@
 # naminglink
 
-Global Naming Studio MVP built with Next.js, Supabase, and OpenAI.
+Premium global naming service built with Next.js, Supabase, OpenAI, and Vercel.
+
+## Product Areas
+
+- Public landing page with locale-aware service routing
+- Hanja meaning matching for Korean baby names
+- Korean name to global name conversion
+- Foreign name to Korean name conversion
+- System admin screens for operations, add-ons, ads, and service status
+- Add-on scaffolding for premium PDF, calligraphy, stamp delivery, and ad unlocks
 
 ## Stack
 
@@ -9,13 +18,14 @@ Global Naming Studio MVP built with Next.js, Supabase, and OpenAI.
 - Tailwind CSS
 - Supabase PostgreSQL
 - OpenAI JSON responses
+- Vercel deployment
 
 ## Local Setup
 
 ```bash
 pnpm install
 copy .env.example .env.local
-pnpm dev
+pnpm dev -- -p 3001
 ```
 
 Add the Supabase and OpenAI values to `.env.local`.
@@ -24,13 +34,19 @@ Add the Supabase and OpenAI values to `.env.local`.
 
 Run the SQL in `docs/supabase_schema.sql` from the Supabase SQL editor.
 
-The MVP stores generated naming logs through the server API route at
-`/api/naming`. The service role key is used only on the server.
-
 ## Routes
 
-- `/` service selector
-- `/baby-hanja` baby Hanja story generator
-- `/korean-name` Korean name generator for foreigners
-- `/foreign-name` foreign name generator for Korean users
+- `/` landing page
+- `/hanja-meaning` Korean Hanja meaning matching
+- `/korean-to-global` Korean name to foreign/global name
+- `/global-to-korean` foreign name to Korean name
+- `/admin` system admin overview
+- `/admin/orders` order queue scaffold
+- `/admin/ads` ad slot scaffold
 - `/api/naming` unified naming API
+
+## Deployment
+
+Production URL:
+
+https://naminglink.vercel.app

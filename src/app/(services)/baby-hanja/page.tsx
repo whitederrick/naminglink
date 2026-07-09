@@ -1,6 +1,5 @@
-import { ServiceShell } from "@/components/ServiceShell";
-import { services } from "@/lib/services";
+import { redirect } from "next/navigation";
 
-export default function BabyHanjaPage() {
-  return <ServiceShell service={services.babyHanja} />;
+export default function BabyHanjaRedirect() {
+  redirect("/hanja-meaning");
 }
