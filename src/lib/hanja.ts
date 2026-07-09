@@ -69,6 +69,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["축복", "기쁨", "칭찬"],
       sourceStatus: "sample",
     },
+    {
+      character: "可",
+      reading: "가",
+      meaning: "옳을/가능할 가",
+      note: "가능성과 허락, 바르게 받아들여지는 이미지를 줍니다.",
+      element: "earth",
+      tags: ["가능성", "긍정", "바름"],
+      sourceStatus: "sample",
+    },
   ],
   나: [
     {
@@ -87,6 +96,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "넓은 가능성과 여유를 상징적으로 연결합니다.",
       element: "earth",
       tags: ["가능성", "여유"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "拏",
+      reading: "나",
+      meaning: "잡을 나",
+      note: "기회를 붙잡고 자기 방향을 놓치지 않는 이미지를 더합니다.",
+      element: "metal",
+      tags: ["기회", "집중", "의지"],
       sourceStatus: "sample",
     },
   ],
@@ -109,6 +127,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["균형", "기준", "절제"],
       sourceStatus: "sample",
     },
+    {
+      character: "都",
+      reading: "도",
+      meaning: "도읍 도",
+      note: "사람이 모이는 중심성과 넓은 활동 무대를 담습니다.",
+      element: "earth",
+      tags: ["중심", "무대", "사회성"],
+      sourceStatus: "sample",
+    },
   ],
   린: [
     {
@@ -118,6 +145,24 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "맑게 빛나는 재능과 품격을 담습니다.",
       element: "metal",
       tags: ["맑음", "빛", "재능"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "潾",
+      reading: "린",
+      meaning: "맑을 린",
+      note: "맑게 흐르는 물처럼 깨끗하고 유연한 인상을 줍니다.",
+      element: "water",
+      tags: ["맑음", "흐름", "유연함"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "麟",
+      reading: "린",
+      meaning: "기린 린",
+      note: "귀하고 상서로운 존재감을 상징적으로 더합니다.",
+      element: "fire",
+      tags: ["귀함", "상서로움", "존재감"],
       sourceStatus: "sample",
     },
   ],
@@ -169,6 +214,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["시작", "빛", "희망"],
       sourceStatus: "sample",
     },
+    {
+      character: "敍",
+      reading: "서",
+      meaning: "펼 서",
+      note: "생각과 이야기를 차분히 펼치는 이미지를 줍니다.",
+      element: "wood",
+      tags: ["표현", "질서", "이야기"],
+      sourceStatus: "sample",
+    },
   ],
   수: [
     {
@@ -187,6 +241,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "꾸준히 자신을 갈고닦는 이미지를 줍니다.",
       element: "metal",
       tags: ["성실", "수양"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "守",
+      reading: "수",
+      meaning: "지킬 수",
+      note: "소중한 가치를 지키는 책임감과 안정감을 더합니다.",
+      element: "earth",
+      tags: ["책임", "안정", "보호"],
       sourceStatus: "sample",
     },
   ],
@@ -209,6 +272,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["시작", "개척"],
       sourceStatus: "sample",
     },
+    {
+      character: "是",
+      reading: "시",
+      meaning: "옳을 시",
+      note: "바른 판단과 분명한 기준을 가진 이미지를 줍니다.",
+      element: "metal",
+      tags: ["바름", "판단", "기준"],
+      sourceStatus: "sample",
+    },
   ],
   아: [
     {
@@ -227,6 +299,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "고운 아름다움과 부드러운 이미지를 담습니다.",
       element: "wood",
       tags: ["아름다움", "부드러움"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "兒",
+      reading: "아",
+      meaning: "아이 아",
+      note: "맑고 순수한 시작의 이미지를 더합니다.",
+      element: "water",
+      tags: ["순수", "아이", "시작"],
       sourceStatus: "sample",
     },
   ],
@@ -249,6 +330,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["자연", "진정성"],
       sourceStatus: "sample",
     },
+    {
+      character: "延",
+      reading: "연",
+      meaning: "늘일 연",
+      note: "좋은 흐름이 오래 이어지는 성장의 이미지를 줍니다.",
+      element: "wood",
+      tags: ["성장", "지속", "흐름"],
+      sourceStatus: "sample",
+    },
   ],
   우: [
     {
@@ -267,6 +357,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "넓은 세계와 안정된 기반을 함께 표현합니다.",
       element: "earth",
       tags: ["넓음", "안정", "세계"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "優",
+      reading: "우",
+      meaning: "뛰어날 우",
+      note: "실력과 배려가 함께 느껴지는 우수함을 담습니다.",
+      element: "metal",
+      tags: ["우수함", "배려", "실력"],
       sourceStatus: "sample",
     },
   ],
@@ -289,6 +388,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["유연함", "온화함"],
       sourceStatus: "sample",
     },
+    {
+      character: "有",
+      reading: "유",
+      meaning: "있을 유",
+      note: "충분한 가능성과 갖추어진 내면을 표현합니다.",
+      element: "earth",
+      tags: ["가능성", "충분함", "내면"],
+      sourceStatus: "sample",
+    },
   ],
   윤: [
     {
@@ -307,6 +415,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "삶을 풍요롭게 적시는 부드러운 기운을 담습니다.",
       element: "water",
       tags: ["풍요", "부드러움", "물"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "尹",
+      reading: "윤",
+      meaning: "다스릴 윤",
+      note: "질서를 세우고 조화롭게 이끄는 이미지를 더합니다.",
+      element: "earth",
+      tags: ["질서", "조화", "리더십"],
       sourceStatus: "sample",
     },
   ],
@@ -329,6 +446,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["맑음", "귀함"],
       sourceStatus: "sample",
     },
+    {
+      character: "殷",
+      reading: "은",
+      meaning: "성할 은",
+      note: "넉넉하고 성대한 기운을 이름에 더합니다.",
+      element: "fire",
+      tags: ["풍성함", "성장", "활기"],
+      sourceStatus: "sample",
+    },
   ],
   이: [
     {
@@ -349,6 +475,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["이로움", "실용"],
       sourceStatus: "sample",
     },
+    {
+      character: "怡",
+      reading: "이",
+      meaning: "기쁠 이",
+      note: "편안한 기쁨과 밝은 마음을 표현합니다.",
+      element: "fire",
+      tags: ["기쁨", "편안함", "밝음"],
+      sourceStatus: "sample",
+    },
   ],
   준: [
     {
@@ -367,6 +502,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "흔들리지 않는 기준과 신뢰감을 담습니다.",
       element: "metal",
       tags: ["기준", "신뢰"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "峻",
+      reading: "준",
+      meaning: "높을 준",
+      note: "높은 목표와 당당한 성취의 이미지를 줍니다.",
+      element: "earth",
+      tags: ["목표", "성취", "당당함"],
       sourceStatus: "sample",
     },
   ],
@@ -418,6 +562,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       tags: ["밝음", "생동감"],
       sourceStatus: "sample",
     },
+    {
+      character: "賀",
+      reading: "하",
+      meaning: "하례할 하",
+      note: "축하와 기쁨이 깃든 이름 이야기를 만들 수 있습니다.",
+      element: "fire",
+      tags: ["축하", "기쁨", "복"],
+      sourceStatus: "sample",
+    },
   ],
   현: [
     {
@@ -436,6 +589,15 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       note: "분명하게 드러나는 재능과 존재감을 담습니다.",
       element: "fire",
       tags: ["빛", "재능", "존재감"],
+      sourceStatus: "sample",
+    },
+    {
+      character: "玄",
+      reading: "현",
+      meaning: "깊을 현",
+      note: "깊이 있는 생각과 차분한 분위기를 더합니다.",
+      element: "water",
+      tags: ["깊이", "차분함", "사유"],
       sourceStatus: "sample",
     },
   ],
@@ -558,37 +720,132 @@ function scoreOption(
 }
 
 function buildCombination(
-  syllables: string[],
-  index: number,
   inputFactors: Record<string, unknown>,
+  optionsBySyllable: HanjaOption[][],
 ) {
   const preferredElement = getSajuElementHint(inputFactors);
 
-  return syllables.map((syllable, syllableIndex) => {
-    const options = hanjaBank[syllable];
-
-    if (!options?.length) {
-      return null;
-    }
-
+  return optionsBySyllable.map((options) => {
     const ranked = [...options].sort(
       (a, b) =>
         scoreOption(b, inputFactors, preferredElement) -
         scoreOption(a, inputFactors, preferredElement),
     );
 
-    return ranked[(index + syllableIndex) % ranked.length];
+    return ranked;
   });
 }
 
-function hasMissingOptions(options: Array<HanjaOption | null>) {
-  return options.some((option) => option === null);
+function combineOptions(optionGroups: HanjaOption[][], limit = 80) {
+  const combinations: HanjaOption[][] = [];
+
+  function visit(groupIndex: number, current: HanjaOption[]) {
+    if (combinations.length >= limit) {
+      return;
+    }
+
+    if (groupIndex === optionGroups.length) {
+      combinations.push(current);
+      return;
+    }
+
+    for (const option of optionGroups[groupIndex]) {
+      visit(groupIndex + 1, [...current, option]);
+    }
+  }
+
+  visit(0, []);
+
+  return combinations;
 }
 
 function candidateMeaning(options: HanjaOption[]) {
   return options
     .map((option) => `${option.character}(${option.meaning})`)
     .join(", ");
+}
+
+function recommendationReason(
+  options: HanjaOption[],
+  inputFactors: Record<string, unknown>,
+  preferredElement: HanjaElement,
+) {
+  const parentWishes = stringValue(inputFactors.parentWishes);
+  const matchedTags = [
+    ...new Set(
+      options
+        .flatMap((option) => option.tags)
+        .filter((tag) => parentWishes.includes(tag)),
+    ),
+  ];
+  const readingSummary = options
+    .map((option) => `${option.character}는 '${option.reading}' 발음`)
+    .join(", ");
+  const tagSummary = options
+    .flatMap((option) => option.tags.slice(0, 2))
+    .slice(0, 4)
+    .join(", ");
+
+  return [
+    `${readingSummary}이라 입력한 한글 이름의 소리를 바꾸지 않습니다.`,
+    matchedTags.length
+      ? `부모가 적은 바람과 직접 맞닿는 키워드(${matchedTags.join(", ")})가 포함되어 있습니다.`
+      : `후보의 핵심 이미지(${tagSummary})가 이름의 긍정적 설명력을 높입니다.`,
+    `출생 월 기준 참고 기운은 ${preferredElement}로 보았고, 조합 안에 그 균형을 보완할 수 있는 한자를 우선 배치했습니다.`,
+  ].join(" ");
+}
+
+function singleHanjaReason(
+  option: HanjaOption,
+  inputFactors: Record<string, unknown>,
+  preferredElement: HanjaElement,
+) {
+  const parentWishes = stringValue(inputFactors.parentWishes);
+  const matchedTags = option.tags.filter((tag) => parentWishes.includes(tag));
+
+  if (matchedTags.length) {
+    return `${option.character}는 ${matchedTags.join(", ")} 키워드가 부모의 바람과 직접 맞아 추천합니다.`;
+  }
+
+  if (option.element === preferredElement) {
+    return `${option.character}는 출생 월 기준 보완 기운(${preferredElement})과 맞아 우선 검토할 만합니다.`;
+  }
+
+  return `${option.character}는 '${option.reading}' 지정 발음을 유지하면서 ${option.tags.slice(0, 2).join(", ")} 이미지를 더합니다.`;
+}
+
+function buildHanjaOptionDetails(
+  syllables: string[],
+  optionGroups: HanjaOption[][],
+  selectedOptions: HanjaOption[],
+  inputFactors: Record<string, unknown>,
+  preferredElement: HanjaElement,
+) {
+  return syllables.map((syllable, index) => ({
+    syllable,
+    selected_character: selectedOptions[index]?.character ?? "",
+    options: optionGroups[index].slice(0, 3).map((option) => {
+      const matchingRate = Math.max(
+        45,
+        Math.min(98, Math.round(scoreOption(option, inputFactors, preferredElement))),
+      );
+
+      return {
+        character: option.character,
+        designated_reading: option.reading,
+        meaning: option.meaning,
+        interpretation: option.note,
+        recommendation_reason: singleHanjaReason(
+          option,
+          inputFactors,
+          preferredElement,
+        ),
+        matching_rate: matchingRate,
+        selected: option.character === selectedOptions[index]?.character,
+        source_status: option.sourceStatus,
+      };
+    }),
+  }));
 }
 
 function officialRulesText() {
@@ -649,28 +906,42 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   }
 
   const missingSyllables = givenSyllables.filter((syllable) => !hanjaBank[syllable]);
-  const maxCandidates = missingSyllables.length ? 0 : Math.min(3, givenSyllables.length + 1);
+  const optionGroups = missingSyllables.length
+    ? []
+    : buildCombination(
+        inputFactors,
+        givenSyllables.map((syllable) => hanjaBank[syllable]!),
+      );
+  const combinations = missingSyllables.length ? [] : combineOptions(optionGroups);
+  const preferredElement = getSajuElementHint(inputFactors);
 
-  const candidates = Array.from({ length: maxCandidates }, (_, index) => {
-    const combination = buildCombination(givenSyllables, index, inputFactors);
-
-    if (hasMissingOptions(combination)) {
-      return null;
-    }
-
-    const options = combination as HanjaOption[];
+  const candidates = combinations
+    .map((options) => {
     const hanja = options.map((option) => option.character).join("");
-    const preferredElement = getSajuElementHint(inputFactors);
     const baseScore =
       options.reduce(
         (sum, option) => sum + scoreOption(option, inputFactors, preferredElement),
         0,
       ) / options.length;
+    const matchingRate = Math.max(45, Math.min(98, Math.round(baseScore)));
 
     return {
       hangul: rawGivenName,
       hanja,
       meaning: candidateMeaning(options),
+      recommendation_reason: recommendationReason(
+        options,
+        inputFactors,
+        preferredElement,
+      ),
+      matching_rate: matchingRate,
+      hanja_options: buildHanjaOptionDetails(
+        givenSyllables,
+        optionGroups,
+        options,
+        inputFactors,
+        preferredElement,
+      ),
       official_status:
         "현재 후보는 내장 샘플 기반입니다. 운영 확정 전 official_hanja_entries production 데이터와 대조해야 합니다.",
       character_breakdown: options.map((option, optionIndex) => ({
@@ -685,11 +956,13 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         .map((option) => option.note)
         .join(" ")} ${parentWishes ? `부모가 적은 바람인 "${parentWishes}"와도 연결해 볼 수 있습니다.` : ""}`,
       saju_note: `입력한 출생 정보(${birthLabel(inputFactors) || "미입력"})를 참고하면 ${preferredElement} 기운을 보완 축으로 볼 수 있습니다. 이 항목은 전통 해석 보조값이며 법적 등록 기준은 아닙니다.`,
-      suitability_score: Math.max(70, Math.min(96, Math.round(baseScore) - index * 3)),
+      suitability_score: matchingRate,
       caution_notes:
         "한자는 지정 발음으로만 검토해야 하며, 동자/속자/약자와 부수 변형은 공식 조회에서 확인되는 경우에만 허용합니다.",
     };
-  }).filter(Boolean);
+  })
+    .sort((a, b) => a.matching_rate - b.matching_rate)
+    .slice(0, 5);
 
   const rejectedFromSound = givenSyllables.flatMap((syllable) => negativeHanja[syllable] ?? []);
   const missingRejected = missingSyllables.map((syllable) => ({
@@ -702,7 +975,7 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   return {
     analysis_summary: missingSyllables.length
       ? `'${rawGivenName}' 중 ${missingSyllables.join(", ")} 음절은 아직 서비스 내 공식 한자 DB 후보가 없습니다. 잘못된 한자를 제안하지 않도록 추천을 보류하고, PDF 검수 데이터 보강이 필요한 항목으로 표시했습니다.`
-      : `'${rawGivenName}'의 각 음절 발음에 맞는 한자 후보만 조합했습니다. 후보는 부모의 바람, 제외 조건, 출생 정보 참고값을 함께 반영해 정렬했습니다.`,
+      : `'${rawGivenName}'의 각 음절 발음에 맞는 한자 후보만 조합했습니다. 최종 후보는 5개까지, 매칭률이 낮은 후보부터 보여주며 각 후보 안에는 음절별 추천 한자 최대 3개와 의미/해석을 함께 제공합니다.`,
     candidates,
     rejected_hanja: [...rejectedFromSound, ...excludedCondition(inputFactors), ...missingRejected],
     official_verification_note:

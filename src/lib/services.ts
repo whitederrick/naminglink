@@ -175,6 +175,37 @@ const sharedPremiumAddOns: AddOn[] = [
   },
 ];
 
+const globalToKoreanAddOns: AddOn[] = [
+  {
+    key: "premiumPdf",
+    title: "한자 의미 확장 리포트 PDF",
+    priceLabel: "₩9,900",
+    description:
+      "기본 결과는 한글 이름 중심으로 제공하고, 선택 시 한자 의미, 해석, 등록 가능성 검토 메모를 별도 리포트로 확장합니다.",
+  },
+  {
+    key: "calligraphy",
+    title: "한글 이름 캘리그라피",
+    priceLabel: "₩6,900",
+    description:
+      "선택한 한글 이름을 카드, 프로필, 한국 생활 소개용 이미지로 제작합니다.",
+  },
+  {
+    key: "stamp",
+    title: "한글 이름 도장 신청",
+    priceLabel: "₩39,000",
+    description:
+      "외국인 사용자가 실제로 쓰기 쉬운 한글 이름 기준으로 도장 문구와 제작 신청을 연결합니다.",
+  },
+  {
+    key: "adUnlock",
+    title: "광고 시청 후 후보 잠금 해제",
+    priceLabel: "광고",
+    description:
+      "광고 네트워크 연동 전에도 보상형 광고 슬롯과 잠금 해제 흐름을 테스트할 수 있습니다.",
+  },
+];
+
 export const services = {
   hanjaMeaning: {
     slug: "hanja-meaning",
@@ -425,7 +456,7 @@ export const services = {
     description:
       "원래 이름, 출신 국가, 생년월일과 생시, 한국에서의 사용 맥락을 선택값으로 받아 자연스럽고 설명 가능한 한국 이름을 제안합니다.",
     promise:
-      "발음만 옮긴 이름이 아니라 성씨 선택, 한자 의미, 한국어 자연스러움, 소개/서류 맥락을 함께 고려합니다.",
+      "기본 결과는 외국인이 실제로 부르고 쓰기 쉬운 한글 이름을 중심으로 제안하고, 한자 풀이는 부가 리포트에서 확장합니다.",
     icon: "korean",
     defaultLocale: "auto",
     resultLabel: "추천 한국 이름",
@@ -538,7 +569,7 @@ export const services = {
         ],
       },
     ],
-    addOns: sharedPremiumAddOns,
+    addOns: globalToKoreanAddOns,
   },
 } satisfies Record<string, ServiceConfig>;
 

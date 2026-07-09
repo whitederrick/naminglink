@@ -32,6 +32,64 @@ function getCandidates(record: Record<string, unknown>) {
   return arrayRecords(record.candidates);
 }
 
+function numberValue(value: unknown) {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return value;
+  }
+
+  if (typeof value === "string" && value.trim()) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+
+  return null;
+}
+
+function candidateRate(item: Record<string, unknown>) {
+  return numberValue(item.matching_rate) ?? numberValue(item.suitability_score);
+}
+
+function candidateTitle(
+  service: ServiceConfig,
+  item: Record<string, unknown>,
+  index: number,
+) {
+  if (service.serviceType === "GLOBAL_TO_KOREAN") {
+    return text(item.hangul) || text(item.name) || `후보 ${index + 1}`;
+  }
+
+  if (service.serviceType === "KOREAN_TO_GLOBAL") {
+    return text(item.name) || text(item.hangul) || `후보 ${index + 1}`;
+  }
+
+  return text(item.hanja) || text(item.hangul) || `후보 ${index + 1}`;
+}
+
+function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
+  if (service.serviceType === "GLOBAL_TO_KOREAN") {
+    return [
+      ["추천 이유", item.recommendation_reason],
+      ["발음", item.pronunciation],
+      ["이름 의미", item.meaning],
+      ["한국어 자연스러움", item.cultural_fit],
+      ["사용 맥락", item.usage_note],
+      ["한자 확장", item.hanja_addon_note],
+      ["주의", item.caution_notes],
+    ] satisfies Array<[string, unknown]>;
+  }
+
+  return [
+    ["추천 이유", item.recommendation_reason],
+    ["의미", item.meaning || item.meaning_connection],
+    ["이름 이야기", item.story],
+    ["사주/정교화 메모", item.saju_note],
+    ["현지/문화 적합성", item.cultural_fit || item.local_cautions],
+    ["사용 인상", item.professional_impression || item.usage_note],
+    ["주의", item.caution_notes],
+    ["공식 데이터 상태", item.official_status],
+  ] satisfies Array<[string, unknown]>;
+}
+
 function getRejected(record: Record<string, unknown>) {
   return [
     ...arrayRecords(record.rejected_hanja),
@@ -43,9 +101,16 @@ function getBreakdown(value: unknown) {
   return arrayRecords(value);
 }
 
+function getNestedOptions(value: unknown) {
+  const record = asRecord(value);
+  return arrayRecords(record.options);
+}
+
 export function ResultCard({ service, result, revealAll }: ResultCardProps) {
   const record = asRecord(result);
-  const candidates = getCandidates(record);
+  const candidates = getCandidates(record)
+    .sort((a, b) => (candidateRate(a) ?? 101) - (candidateRate(b) ?? 101))
+    .slice(0, 5);
   const rejected = getRejected(record);
 
   return (
@@ -65,16 +130,12 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
 
         {candidates.map((item, index) => {
           const locked = index > 0 && !revealAll;
-          const title =
-            text(item.hanja) ||
-            text(item.name) ||
-            text(item.hangul) ||
-            `후보 ${index + 1}`;
+          const title = candidateTitle(service, item, index);
           const subtitle =
             [text(item.hangul), text(item.pronunciation), text(item.region_fit)]
               .filter(Boolean)
               .join(" · ") || "추천 후보";
-          const score = text(item.suitability_score);
+          const matchingRate = candidateRate(item);
 
           return (
             <article
@@ -89,31 +150,15 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                       {title}
                     </h3>
                   </div>
-                  {score ? (
+                  {matchingRate !== null ? (
                     <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
-                      {score}/100
+                      매칭률 {matchingRate}%
                     </span>
                   ) : null}
                 </div>
 
                 <dl className="mt-4 grid gap-3 text-sm leading-6">
-                  {(
-                    [
-                      ["의미", item.meaning || item.meaning_connection],
-                      ["이름 이야기", item.story],
-                      ["사주/정교화 메모", item.saju_note],
-                      [
-                        "현지/문화 적합성",
-                        item.cultural_fit || item.local_cautions,
-                      ],
-                      [
-                        "사용 인상",
-                        item.professional_impression || item.usage_note,
-                      ],
-                      ["주의", item.caution_notes],
-                      ["공식 데이터 상태", item.official_status],
-                    ] satisfies Array<[string, unknown]>
-                  )
+                  {candidateRows(service, item)
                     .filter(([, value]) => text(value))
                     .map(([label, value]) => (
                       <div key={label} className="grid gap-1">
@@ -122,6 +167,64 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                       </div>
                     ))}
                 </dl>
+
+                {service.serviceType === "HANJA_MEANING_MATCH" &&
+                getBreakdown(item.hanja_options).length ? (
+                  <div className="mt-5 rounded-lg bg-surface-strong p-4">
+                    <p className="text-sm font-semibold">추천 한자 상세</p>
+                    <div className="mt-3 grid gap-4">
+                      {getBreakdown(item.hanja_options).map(
+                        (group, groupIndex) => (
+                          <div
+                            key={`${text(group.syllable)}-${groupIndex}`}
+                            className="grid gap-2"
+                          >
+                            <p className="text-sm font-semibold">
+                              {text(group.syllable)} 음절 후보
+                            </p>
+                            <div className="grid gap-2 md:grid-cols-3">
+                              {getNestedOptions(group).map(
+                                (option, optionIndex) => (
+                                  <div
+                                    key={`${text(option.character)}-${optionIndex}`}
+                                    className={`rounded-lg border px-3 py-3 text-sm ${
+                                      option.selected
+                                        ? "border-foreground bg-surface"
+                                        : "border-line bg-background"
+                                    }`}
+                                  >
+                                    <div className="flex items-start justify-between gap-2">
+                                      <p className="text-xl font-semibold">
+                                        {text(option.character)}
+                                      </p>
+                                      {candidateRate(option) !== null ? (
+                                        <span className="rounded-lg bg-surface-strong px-2 py-1 text-xs font-semibold text-brand-teal">
+                                          {candidateRate(option)}%
+                                        </span>
+                                      ) : null}
+                                    </div>
+                                    <p className="mt-2 font-medium">
+                                      {text(option.meaning)}
+                                    </p>
+                                    <p className="mt-1 text-muted">
+                                      지정 발음 {text(option.designated_reading)}
+                                    </p>
+                                    <p className="mt-2 leading-5 text-muted">
+                                      {text(option.interpretation)}
+                                    </p>
+                                    <p className="mt-2 leading-5 text-muted">
+                                      {text(option.recommendation_reason)}
+                                    </p>
+                                  </div>
+                                ),
+                              )}
+                            </div>
+                          </div>
+                        ),
+                      )}
+                    </div>
+                  </div>
+                ) : null}
 
                 {getBreakdown(item.character_breakdown).length ? (
                   <div className="mt-5 rounded-lg bg-surface-strong p-4">
