@@ -1,0 +1,83 @@
+{
+  "source": {
+    "sourceKey": "scourt-hanja-2024-06-11",
+    "title": "인명용 한자표",
+    "publisher": "대한민국 법원 가족관계등록",
+    "ruleReference": "가족관계의 등록 등에 관한 규칙 제37조",
+    "versionLabel": "2024. 5. 23. 일부개정, 2024. 6. 11. 시행",
+    "effectiveDate": "2024-06-11",
+    "fileName": "hanja.pdf",
+    "sha256": "",
+    "status": "draft",
+    "notes": "원본 PDF에서 OCR 또는 수기 검수로 확정한 행만 production 상태로 승격합니다."
+  },
+  "rules": [
+    {
+      "code": "DESIGNATED_READING_ONLY",
+      "description": "한자는 지정된 발음으로만 사용할 수 있습니다."
+    },
+    {
+      "code": "INITIAL_N_R_EXCEPTION",
+      "description": "첫소리(初聲)가 ㄴ 또는 ㄹ인 한자는 각각 소리나는 바에 따라 ㅇ 또는 ㄴ으로 사용할 수 있습니다."
+    },
+    {
+      "code": "REGISTERED_VARIANTS_ONLY",
+      "description": "동자(同字), 속자(俗字), 약자(略字)는 조회되는 한자에 한하여 사용할 수 있습니다."
+    },
+    {
+      "code": "RADICAL_INTERCHANGE",
+      "description": "示변과 礻변, ++변과 艹변은 서로 바꾸어 쓸 수 있습니다."
+    }
+  ],
+  "entries": [
+    {
+      "hangul": "가",
+      "hanja": "佳",
+      "reading": "가",
+      "meaningKo": "아름다울",
+      "section": "sample",
+      "isNameUsable": true,
+      "reviewStatus": "sample",
+      "page": 1,
+      "notes": "샘플 행입니다. 운영 반영 전 PDF 원문과 대조가 필요합니다."
+    },
+    {
+      "hangul": "가",
+      "hanja": "嘉",
+      "reading": "가",
+      "meaningKo": "아름다울, 기릴",
+      "section": "sample",
+      "isNameUsable": true,
+      "reviewStatus": "sample",
+      "page": 1,
+      "notes": "샘플 행입니다. 운영 반영 전 PDF 원문과 대조가 필요합니다."
+    },
+    {
+      "hangul": "서",
+      "hanja": "瑞",
+      "reading": "서",
+      "meaningKo": "상서로울",
+      "section": "sample",
+      "isNameUsable": true,
+      "reviewStatus": "sample",
+      "page": null,
+      "notes": "샘플 행입니다. 운영 반영 전 PDF 원문과 대조가 필요합니다."
+    }
+  ],
+  "variants": [
+    {
+      "baseHanja": "示",
+      "variantHanja": "礻",
+      "variantType": "radical",
+      "ruleCode": "RADICAL_INTERCHANGE",
+      "notes": "사용자 주의사항에 명시된 허용 변형입니다."
+    },
+    {
+      "baseHanja": "艹",
+      "variantHanja": "++",
+      "variantType": "radical",
+      "ruleCode": "RADICAL_INTERCHANGE",
+      "notes": "사용자 주의사항에 명시된 허용 변형입니다."
+    }
+  ]
+}

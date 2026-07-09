@@ -1,4 +1,4 @@
-export type Locale = "ko" | "en" | "ja" | "zh";
+export type Locale = "ko" | "en" | "ja" | "zh" | "de" | "es" | "fr";
 
 export type ServiceType =
   | "HANJA_MEANING_MATCH"
@@ -54,10 +54,15 @@ export const localeLabels: Record<Locale, string> = {
   en: "English",
   ja: "日本語",
   zh: "中文",
+  de: "Deutsch",
+  es: "Español",
+  fr: "Français",
 };
 
-export const yearOptions = Array.from({ length: 90 }, (_, index) => {
-  const year = 2026 - index;
+const currentYear = new Date().getFullYear();
+
+export const yearOptions = Array.from({ length: 120 }, (_, index) => {
+  const year = currentYear - index;
   return { value: String(year), label: String(year) };
 });
 
@@ -93,6 +98,9 @@ const languageOptions: FieldOption[] = [
   { value: "en", label: "English" },
   { value: "ja", label: "日本語" },
   { value: "zh", label: "中文" },
+  { value: "de", label: "Deutsch" },
+  { value: "es", label: "Español" },
+  { value: "fr", label: "Français" },
 ];
 
 const genderOptions: FieldOption[] = [
@@ -103,24 +111,35 @@ const genderOptions: FieldOption[] = [
 ];
 
 const targetRegionOptions: FieldOption[] = [
-  { value: "north_america", label: "북미권" },
-  { value: "uk_ireland", label: "영국/아일랜드" },
-  { value: "france", label: "프랑스권" },
-  { value: "germany", label: "독일권" },
-  { value: "spain_latin", label: "스페인/라틴권" },
-  { value: "japan", label: "일본" },
-  { value: "china", label: "중국어권" },
-  { value: "global_business", label: "글로벌 비즈니스" },
+  { value: "en_us_ca", label: "영어권 - 미국/캐나다" },
+  { value: "en_uk_ie", label: "영어권 - 영국/아일랜드" },
+  { value: "ja_jp", label: "일본" },
+  { value: "zh_cn", label: "중국어권 - 간체" },
+  { value: "zh_tw_hk", label: "중국어권 - 번체" },
+  { value: "de_dach", label: "독일어권 - 독일/오스트리아/스위스" },
+  { value: "es_es", label: "스페인" },
+  { value: "es_latam", label: "라틴아메리카 스페인어권" },
+  { value: "fr_fr_ca", label: "프랑스어권 - 프랑스/캐나다" },
+  { value: "global_business", label: "글로벌 비즈니스 공통" },
 ];
 
 const countryOptions: FieldOption[] = [
   { value: "us", label: "United States" },
   { value: "ca", label: "Canada" },
   { value: "gb", label: "United Kingdom" },
-  { value: "fr", label: "France" },
-  { value: "de", label: "Germany" },
+  { value: "ie", label: "Ireland" },
   { value: "jp", label: "Japan" },
   { value: "cn", label: "China" },
+  { value: "tw", label: "Taiwan" },
+  { value: "hk", label: "Hong Kong" },
+  { value: "de", label: "Germany" },
+  { value: "at", label: "Austria" },
+  { value: "ch", label: "Switzerland" },
+  { value: "es", label: "Spain" },
+  { value: "mx", label: "Mexico" },
+  { value: "ar", label: "Argentina" },
+  { value: "cl", label: "Chile" },
+  { value: "fr", label: "France" },
   { value: "au", label: "Australia" },
   { value: "other", label: "Other" },
 ];
@@ -129,30 +148,30 @@ const sharedPremiumAddOns: AddOn[] = [
   {
     key: "premiumPdf",
     title: "프리미엄 작명 리포트 PDF",
-    priceLabel: "₩2,900",
+    priceLabel: "₩9,900",
     description:
-      "이름 후보, 배제 사유, 발음/문화권 분석, 추천 스토리를 인쇄 가능한 보고서로 제공합니다.",
+      "후보별 의미, 배제 사유, 발음/문화권 분석, 사주 참고 메모를 인쇄 가능한 보고서로 제공합니다.",
   },
   {
     key: "calligraphy",
     title: "캘리그라피 이미지",
-    priceLabel: "₩9,900",
+    priceLabel: "₩6,900",
     description:
-      "선택한 이름을 디지털 캘리그라피 이미지로 제작해 모바일 배경과 카드에 활용할 수 있게 합니다.",
+      "선택한 이름을 카드, 모바일 배경, 출생 알림에 쓸 수 있는 이미지로 제작하는 부가 서비스입니다.",
   },
   {
     key: "stamp",
-    title: "수제 이름 도장 신청",
+    title: "이름 도장 신청",
     priceLabel: "₩39,000",
     description:
-      "한글/한자 이름을 기반으로 도장 시안을 만들고 배송 정보를 받아 실물 제작으로 연결합니다.",
+      "한글 또는 한자 이름을 기준으로 도장 문구를 제안하고 제작/배송 신청으로 연결합니다.",
   },
   {
     key: "adUnlock",
     title: "광고 시청 후 후보 잠금 해제",
     priceLabel: "광고",
     description:
-      "실제 광고 네트워크 연동 전까지 슬롯과 보상 로직을 테스트할 수 있는 광고 상품 영역입니다.",
+      "광고 네트워크 연동 전에도 보상형 광고 슬롯과 잠금 해제 흐름을 테스트할 수 있습니다.",
   },
 ];
 
@@ -160,21 +179,21 @@ export const services = {
   hanjaMeaning: {
     slug: "hanja-meaning",
     serviceType: "HANJA_MEANING_MATCH",
-    title: "한글 이름 한자 의미 매칭",
-    shortTitle: "한자 의미 매칭",
+    title: "한글 이름에 맞는 한자 의미 매칭",
+    shortTitle: "한자 의미",
     eyebrow: "부모를 위한 인명용 한자 설계",
     audience: "이미 한글 이름을 정한 부모",
     description:
-      "한글 이름의 소리와 부모의 바람, 생년월일·생시를 함께 검토해 인명용 한자 후보와 배제 사유를 제안합니다.",
+      "먼저 정한 한글 이름의 소리를 유지하면서 부모의 바람, 제외하고 싶은 의미, 출생 정보 참고값을 함께 검토해 한자 후보와 배제 사유를 제안합니다.",
     promise:
-      "뜻이 좋아 보여도 이름에 쓰기 어려운 한자, 불길한 의미, 발음 충돌, 과도한 획수 부담을 함께 설명합니다.",
+      "공식 인명용 한자표의 지정 발음, 첫소리 ㄴ/ㄹ 예외, 동자/속자/약자와 부수 변형 주의사항을 결과 설명에 반영합니다.",
     icon: "hanja",
     defaultLocale: "ko",
     resultLabel: "추천 한자 조합",
     sections: [
       {
-        title: "아이와 한글 이름",
-        description: "먼저 확정한 한글 이름과 기본 정보를 입력합니다.",
+        title: "아이의 한글 이름",
+        description: "먼저 정해 둔 한글 이름과 기본 이미지를 입력합니다.",
         fields: [
           {
             name: "familyName",
@@ -215,7 +234,7 @@ export const services = {
             name: "birthYear",
             label: "출생 연도",
             type: "select",
-            options: yearOptions.slice(0, 20),
+            options: yearOptions.slice(0, 25),
             required: true,
           },
           {
@@ -243,19 +262,19 @@ export const services = {
       },
       {
         title: "의미와 제한 조건",
-        description: "부모가 담고 싶은 가치와 피하고 싶은 방향을 적습니다.",
+        description: "부모가 담고 싶은 가치와 피하고 싶은 뜻을 적습니다.",
         fields: [
           {
             name: "parentWishes",
             label: "담고 싶은 가치",
-            placeholder: "예: 지혜, 온화함, 자기 길을 잃지 않는 사람",
+            placeholder: "예: 지혜, 평안, 밝음, 자기 길을 잃지 않는 사람",
             type: "textarea",
             required: true,
           },
           {
             name: "excludedMeanings",
             label: "피하고 싶은 의미/한자",
-            placeholder: "예: 너무 강한 기운, 흔한 한자, 특정 가족 이름과 중복",
+            placeholder: "예: 너무 강한 기운, 죽음/병/원망 계열 의미, 가족 이름과 중복",
             type: "textarea",
           },
           {
@@ -272,32 +291,32 @@ export const services = {
   koreanToGlobal: {
     slug: "korean-to-global",
     serviceType: "KOREAN_TO_GLOBAL",
-    title: "한글 이름의 외국 이름 변환",
+    title: "한글 이름을 글로벌 이름으로 변환",
     shortTitle: "글로벌 이름",
     eyebrow: "해외 활동을 위한 고급 네이밍",
-    audience: "해외 진출, 유학, 글로벌 브랜딩 사용자",
+    audience: "유학, 이민, 해외 비즈니스, 크리에이터",
     description:
-      "한국 이름의 소리·뜻·사주 참고값·활동 지역을 바탕으로 돈값 하는 수준의 외국 이름 후보를 설계합니다.",
+      "한글 이름의 소리와 한자 의미, 사용 국가, 직업 이미지, 지역별 발음 감각을 함께 반영해 영어/일본어/중국어/독일어/스페인어권 후보를 제안합니다.",
     promise:
-      "단순 발음 변환이 아니라 지역별 어감, 직업 이미지, 문서 사용성, 온라인 핸들까지 함께 검토합니다.",
+      "단순 발음 변환이 아니라 국가별 자연스러움, 문서 사용성, 소개 문구, 피해야 할 현지 인상을 함께 검토합니다.",
     icon: "passport",
     defaultLocale: "ko",
-    resultLabel: "추천 외국 이름",
+    resultLabel: "추천 글로벌 이름",
     sections: [
       {
         title: "기존 이름과 정체성",
-        description: "이름의 소리와 뜻을 최대한 보존할 기준을 입력합니다.",
+        description: "이름의 소리와 의미를 최대한 보존하기 위한 기준을 입력합니다.",
         fields: [
           {
             name: "koreanName",
-            label: "한국 이름",
-            placeholder: "예: 김지훈",
+            label: "한글 이름",
+            placeholder: "예: 김지윤",
             required: true,
           },
           {
             name: "hanjaMeaning",
             label: "이름의 한자/의미",
-            placeholder: "예: 지혜 지, 빛날 훈",
+            placeholder: "예: 智 지혜, 潤 윤택함",
             required: true,
           },
           {
@@ -328,13 +347,14 @@ export const services = {
               { value: "study", label: "유학/학교" },
               { value: "creator", label: "크리에이터/브랜드" },
               { value: "daily", label: "일상/친구 관계" },
+              { value: "legal_alias", label: "영문 별칭/서류" },
             ],
             required: true,
           },
           {
             name: "industry",
             label: "직업/분야",
-            placeholder: "예: 디자이너, 개발자, 창업가",
+            placeholder: "예: 디자이너, 개발자, 창업가, 의료, 금융",
           },
           {
             name: "preferredTone",
@@ -381,7 +401,7 @@ export const services = {
           {
             name: "pronunciationRules",
             label: "발음/철자 조건",
-            placeholder: "예: R 발음 피하기, 두 음절 선호, 한국 이름과 첫소리 연결",
+            placeholder: "예: R 발음 피하기, 두 음절 유지, 한국 이름과 첫소리 연결",
             type: "textarea",
           },
           {
@@ -398,14 +418,14 @@ export const services = {
   globalToKorean: {
     slug: "global-to-korean",
     serviceType: "GLOBAL_TO_KOREAN",
-    title: "외국 이름의 한글 이름 변환",
+    title: "외국 이름을 한국 이름으로 변환",
     shortTitle: "한국 이름",
-    eyebrow: "한국 생활과 브랜딩을 위한 이름",
+    eyebrow: "한국 생활과 브랜드를 위한 이름",
     audience: "한국 이름이 필요한 외국인, 교포, 글로벌 브랜드",
     description:
-      "원래 이름, 출신 국가, 생년월일·생시, 한국에서의 사용 맥락을 드롭다운 중심으로 받아 자연스러운 한국 이름을 제안합니다.",
+      "원래 이름, 출신 국가, 생년월일과 생시, 한국에서의 사용 맥락을 선택값으로 받아 자연스럽고 설명 가능한 한국 이름을 제안합니다.",
     promise:
-      "발음만 옮기는 이름이 아니라 성씨 선택, 한자 의미, 한국어 어감, 서류/소개 상황을 함께 고려합니다.",
+      "발음만 옮긴 이름이 아니라 성씨 선택, 한자 의미, 한국어 자연스러움, 소개/서류 맥락을 함께 고려합니다.",
     icon: "korean",
     defaultLocale: "auto",
     resultLabel: "추천 한국 이름",

@@ -100,8 +100,8 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                   {(
                     [
                       ["의미", item.meaning || item.meaning_connection],
-                      ["스토리", item.story],
-                      ["사주/정교화", item.saju_note],
+                      ["이름 이야기", item.story],
+                      ["사주/정교화 메모", item.saju_note],
                       [
                         "현지/문화 적합성",
                         item.cultural_fit || item.local_cautions,
@@ -111,6 +111,7 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                         item.professional_impression || item.usage_note,
                       ],
                       ["주의", item.caution_notes],
+                      ["공식 데이터 상태", item.official_status],
                     ] satisfies Array<[string, unknown]>
                   )
                     .filter(([, value]) => text(value))
@@ -134,6 +135,9 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                           >
                             <p className="font-semibold">
                               {text(part.syllable)} → {text(part.character)}
+                              {text(part.designated_reading)
+                                ? ` / 지정 발음 ${text(part.designated_reading)}`
+                                : ""}
                             </p>
                             <p className="text-muted">
                               {text(part.meaning)}

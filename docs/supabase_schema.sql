@@ -46,9 +46,94 @@ create table if not exists public.ad_events (
   created_at timestamptz not null default now()
 );
 
+create table if not exists public.official_hanja_sources (
+  id uuid primary key default gen_random_uuid(),
+  source_key text not null unique,
+  title text not null,
+  publisher text,
+  rule_reference text,
+  version_label text,
+  effective_date date,
+  source_file_name text,
+  source_sha256 text,
+  status text not null default 'draft' check (
+    status in ('draft', 'reviewed', 'production', 'archived')
+  ),
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create table if not exists public.official_hanja_rules (
+  id uuid primary key default gen_random_uuid(),
+  source_id uuid not null references public.official_hanja_sources(id) on delete cascade,
+  rule_code text not null,
+  description text not null,
+  is_active boolean not null default true,
+  sort_order integer not null default 0,
+  created_at timestamptz not null default now(),
+  unique (source_id, rule_code)
+);
+
+create table if not exists public.official_hanja_entries (
+  id uuid primary key default gen_random_uuid(),
+  source_id uuid not null references public.official_hanja_sources(id) on delete cascade,
+  hangul_syllable text not null,
+  hanja text not null,
+  designated_reading text not null,
+  meaning_ko text not null,
+  table_section text not null default 'unknown',
+  page_number integer,
+  stroke_count integer,
+  radical text,
+  is_name_usable boolean not null default true,
+  review_status text not null default 'draft' check (
+    review_status in ('draft', 'ocr', 'reviewed', 'production', 'rejected', 'sample')
+  ),
+  notes text,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique (
+    source_id,
+    hangul_syllable,
+    hanja,
+    designated_reading,
+    table_section
+  )
+);
+
+create table if not exists public.official_hanja_variants (
+  id uuid primary key default gen_random_uuid(),
+  source_id uuid not null references public.official_hanja_sources(id) on delete cascade,
+  base_hanja text not null,
+  variant_hanja text not null,
+  variant_type text not null default 'variant' check (
+    variant_type in ('same_character', 'popular_form', 'abbreviation', 'radical', 'other')
+  ),
+  rule_code text,
+  notes text,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  unique (source_id, base_hanja, variant_hanja, variant_type)
+);
+
+create index if not exists official_hanja_entries_lookup_idx
+  on public.official_hanja_entries (hangul_syllable, designated_reading, review_status);
+
+create index if not exists official_hanja_entries_hanja_idx
+  on public.official_hanja_entries (hanja);
+
+create index if not exists official_hanja_variants_lookup_idx
+  on public.official_hanja_variants (base_hanja, variant_hanja);
+
 alter table public.naming_logs enable row level security;
 alter table public.orders enable row level security;
 alter table public.ad_events enable row level security;
+alter table public.official_hanja_sources enable row level security;
+alter table public.official_hanja_rules enable row level security;
+alter table public.official_hanja_entries enable row level security;
+alter table public.official_hanja_variants enable row level security;
 
 create policy "Users can view own naming logs"
   on public.naming_logs
@@ -65,5 +150,50 @@ create policy "Users can view own ad events"
   for select
   using (auth.uid() = user_id);
 
--- Inserts and admin reads should be performed by trusted Next.js API routes
--- with SUPABASE_SERVICE_ROLE_KEY. Do not expose the service role key to clients.
+create policy "Anyone can read production Hanja sources"
+  on public.official_hanja_sources
+  for select
+  using (status = 'production');
+
+create policy "Anyone can read active production Hanja rules"
+  on public.official_hanja_rules
+  for select
+  using (
+    is_active = true
+    and exists (
+      select 1
+      from public.official_hanja_sources sources
+      where sources.id = official_hanja_rules.source_id
+        and sources.status = 'production'
+    )
+  );
+
+create policy "Anyone can read production Hanja entries"
+  on public.official_hanja_entries
+  for select
+  using (
+    review_status = 'production'
+    and is_name_usable = true
+    and exists (
+      select 1
+      from public.official_hanja_sources sources
+      where sources.id = official_hanja_entries.source_id
+        and sources.status = 'production'
+    )
+  );
+
+create policy "Anyone can read production Hanja variants"
+  on public.official_hanja_variants
+  for select
+  using (
+    exists (
+      select 1
+      from public.official_hanja_sources sources
+      where sources.id = official_hanja_variants.source_id
+        and sources.status = 'production'
+    )
+  );
+
+-- Inserts, updates, admin reads, and draft/reviewed data access should be
+-- performed only by trusted Next.js API routes or scripts using
+-- SUPABASE_SERVICE_ROLE_KEY. Do not expose the service role key to clients.

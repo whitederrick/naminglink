@@ -187,8 +187,7 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
           <h2 className="text-lg font-semibold">부가 서비스</h2>
           <p className="mt-2 text-sm leading-6 text-muted">
-            실제 결제와 광고 연동 전에도 상품 구조와 신청 흐름을 확인할 수
-            있습니다.
+            결제와 광고 연동 전에도 실제 상품 구조와 신청 흐름을 확인할 수 있습니다.
           </p>
           <div className="mt-5 grid gap-3 md:grid-cols-2">
             {service.addOns.map((addOn) => {
@@ -275,8 +274,7 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
           <div className="rounded-lg border border-line bg-surface p-5 shadow-sm">
             <p className="text-sm font-medium">프리미엄 결과 미리보기</p>
             <p className="mt-2 text-sm leading-6 text-muted">
-              제출 후 후보, 배제 사유, 사주 참고 메모, 부가 서비스 제안이 이
-              영역에 표시됩니다.
+              제출 후 후보, 배제 사유, 사주 참고 메모, 부가 서비스 제안이 이 영역에 표시됩니다.
             </p>
           </div>
         ) : null}

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "naminglink | Global Naming Studio",
   description:
-    "한자 의미, 글로벌 이름, 한국 이름 변환을 제공하는 프리미엄 AI 네이밍 서비스",
+    "한글 이름 한자 의미 매칭, 글로벌 이름 변환, 한국 이름 변환을 제공하는 프리미엄 네이밍 서비스",
 };
 
 export default function RootLayout({

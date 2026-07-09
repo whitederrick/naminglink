@@ -10,13 +10,15 @@ import {
   Sparkles,
 } from "lucide-react";
 import { getRequestLocale } from "@/lib/locale";
-import { localeLabels, serviceList } from "@/lib/services";
+import { localeLabels, serviceList, type Locale } from "@/lib/services";
 
 const iconMap = {
   hanja: Languages,
   passport: Globe2,
   korean: Sparkles,
 };
+
+const navLocales: Locale[] = ["ko", "en", "ja", "zh", "de", "es"];
 
 type HomeProps = {
   searchParams?: Promise<{ lang?: string }>;
@@ -37,7 +39,7 @@ export default async function Home({ searchParams }: HomeProps) {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,24,20,0.82),rgba(18,24,20,0.52),rgba(18,24,20,0.18))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,24,20,0.84),rgba(18,24,20,0.54),rgba(18,24,20,0.16))]" />
 
         <header className="relative z-10 mx-auto flex w-full max-w-7xl flex-col gap-4 px-5 py-6 text-white sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
           <Link href="/" className="flex items-center gap-3">
@@ -52,7 +54,7 @@ export default async function Home({ searchParams }: HomeProps) {
             </span>
           </Link>
           <nav className="flex flex-wrap gap-2 text-sm">
-            {(["ko", "en", "ja", "zh"] as const).map((item) => (
+            {navLocales.map((item) => (
               <Link
                 key={item}
                 href={`/?lang=${item}`}
@@ -74,17 +76,17 @@ export default async function Home({ searchParams }: HomeProps) {
           </nav>
         </header>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-8 px-5 pb-16 pt-16 text-white sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10 lg:pt-24">
+        <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-8 px-5 pb-16 pt-14 text-white sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10 lg:pt-20">
           <section>
             <p className="text-sm font-semibold text-white/80">
               이름은 한 사람의 첫 번째 이야기입니다.
             </p>
             <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight tracking-normal sm:text-6xl">
-              뜻, 발음, 문화권, 생년의 균형까지 설계하는 프리미엄 네이밍.
+              소리, 의미, 문화권, 생년월일의 균형까지 설계하는 이름 서비스
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-white/80">
-              한글 이름에 어울리는 한자, 한국 이름의 글로벌 변환, 외국 이름의
-              자연스러운 한국 이름화를 하나의 서비스 흐름으로 제공합니다.
+              이미 정한 한글 이름에 맞는 한자 의미, 한국 이름의 글로벌 변환,
+              외국 이름의 한국 이름 변환을 하나의 흐름으로 제공합니다.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -105,9 +107,9 @@ export default async function Home({ searchParams }: HomeProps) {
 
           <section className="grid content-end gap-3 text-sm lg:pl-10">
             {[
-              ["인명용 한자 검토", "배제 한자와 이유까지 설명"],
-              ["지역별 이름 설계", "북미·유럽·아시아권 뉘앙스 반영"],
-              ["상품화 구조", "PDF, 캘리그라피, 도장, 광고 슬롯 포함"],
+              ["공식 인명용 한자 기준", "지정 발음, 변형 한자, 부수 교체 규칙을 따로 관리"],
+              ["다국어 이름 설계", "영어, 일본어, 중국어, 독일어, 스페인어권까지 확장"],
+              ["부가 상품 구조", "PDF, 캘리그라피, 도장, 광고 보상 슬롯 포함"],
             ].map(([title, body]) => (
               <div
                 key={title}
@@ -131,11 +133,10 @@ export default async function Home({ searchParams }: HomeProps) {
               사용자 서비스
             </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-normal">
-              랜딩에서 목적별로 분기합니다.
+              랜딩에서 목적별로 바로 분기합니다.
             </h2>
             <p className="mt-4 text-sm leading-6 text-muted">
-              접속 지역과 언어 헤더를 참고해 기본 언어를 정하고, 메뉴별로
-              한국어/영어 중심 경험을 조정합니다.
+              접속 국가와 언어 헤더를 참고해 기본 언어를 정하고, 메뉴별로 한국어 중심 또는 글로벌 중심 경험을 제공합니다.
             </p>
           </div>
 
@@ -185,17 +186,17 @@ export default async function Home({ searchParams }: HomeProps) {
             {
               icon: ShieldCheck,
               title: "공식 기준 확인 전제",
-              body: "인명용 한자와 등록 가능성은 공식 기준 확인이 필요한 항목으로 별도 안내합니다.",
+              body: "인명용 한자는 등록 가능성을 공식 기준으로 확인해야 한다는 안내를 결과마다 표시합니다.",
             },
             {
               icon: Brush,
               title: "부가 상품 내장",
-              body: "분석 결과에서 PDF, 캘리그라피, 도장 신청, 광고 잠금 해제가 이어집니다.",
+              body: "분석 결과에서 PDF, 캘리그라피, 도장 신청, 광고 잠금 해제로 자연스럽게 이어집니다.",
             },
             {
               icon: BadgeCheck,
               title: "관리자 운영 화면",
-              body: "주문, 광고 슬롯, 서비스 카피, 언어 설정을 시스템 화면에서 관리하는 구조입니다.",
+              body: "주문, 광고 슬롯, 인명용 한자 DB, 서비스 카피를 시스템 화면에서 관리하는 구조입니다.",
             },
           ].map((item) => {
             const Icon = item.icon;

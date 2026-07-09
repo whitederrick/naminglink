@@ -37,7 +37,7 @@ export function ServiceShell({
               href="/admin"
               className="rounded-lg border border-line bg-surface px-3 py-2 transition hover:border-foreground"
             >
-              시스템 관리자
+              관리자
             </Link>
           </nav>
         </header>
