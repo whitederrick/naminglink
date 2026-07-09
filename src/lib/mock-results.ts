@@ -1,55 +1,13 @@
 import type { ServiceType } from "@/lib/services";
+import { buildHanjaMeaningResult } from "@/lib/hanja";
 
-export function getMockResult(serviceType: ServiceType) {
+export function getMockResult(
+  serviceType: ServiceType,
+  inputFactors: Record<string, unknown> = {},
+) {
   switch (serviceType) {
     case "HANJA_MEANING_MATCH":
-      return {
-        analysis_summary:
-          "한글 이름의 부드러운 발음과 부모가 입력한 가치관을 기준으로, 밝고 안정적인 뜻을 가진 인명용 한자 후보를 우선 제안합니다. 최종 사용 전에는 공식 인명용 한자 조회가 필요합니다.",
-        candidates: [
-          {
-            hangul: "서윤",
-            hanja: "瑞潤",
-            meaning: "상서로운 기운으로 주변을 부드럽게 윤택하게 하는 사람",
-            story:
-              "瑞는 좋은 징조와 축복의 이미지를, 潤은 마르지 않는 온기와 배려의 이미지를 줍니다. 두 글자는 아이가 자신의 속도로 성장하면서도 주변에 안정감을 주는 이름 스토리로 확장하기 좋습니다.",
-            saju_note:
-              "생시가 명확하지 않을 때는 오행 균형을 단정하지 않고, 물의 부드러움과 토대의 안정감을 보완하는 방향으로 해석합니다.",
-            suitability_score: 92,
-            caution_notes:
-              "획수와 세부 사주 균형은 가족이 쓰는 성씨와 함께 한 번 더 검토하는 것이 좋습니다.",
-          },
-          {
-            hangul: "서윤",
-            hanja: "書潤",
-            meaning: "배움으로 마음을 윤택하게 하는 사람",
-            story:
-              "書는 배움과 기록의 이미지를 주어 지적인 인상을 강화합니다. 부드러운 이름을 원하면서도 차분하고 학구적인 느낌을 원할 때 적합합니다.",
-            saju_note:
-              "목·수의 이미지를 강조하는 해석으로, 지나치게 강한 기운보다 성장과 순환의 이미지를 살립니다.",
-            suitability_score: 86,
-            caution_notes:
-              "書는 의미가 명확한 대신 다소 학구적 이미지가 강해질 수 있습니다.",
-          },
-        ],
-        rejected_hanja: [
-          {
-            character: "災",
-            reason:
-              "재앙의 의미가 직접적이어서 이름의 축복성, 사회적 인상, 설명 가능성 측면에서 배제합니다.",
-            severity: "high",
-          },
-          {
-            character: "尹",
-            reason:
-              "소리는 맞을 수 있으나 단독 의미 설계가 약하고 성씨/이름 조합에 따라 의도가 흐려질 수 있어 후순위로 둡니다.",
-            severity: "medium",
-          },
-        ],
-        official_verification_note:
-          "법적 이름 등록 전 대한민국 전자가족관계등록시스템 또는 관할 기관의 최신 인명용 한자 기준을 확인해야 합니다.",
-        add_on_recommendations: ["premiumPdf", "calligraphy", "stamp"],
-      };
+      return buildHanjaMeaningResult(inputFactors);
     case "KOREAN_TO_GLOBAL":
       return {
         analysis_summary:

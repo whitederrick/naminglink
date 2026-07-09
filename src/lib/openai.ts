@@ -24,7 +24,7 @@ export async function generateNamingResult(
   const openai = getOpenAIClient();
 
   if (!openai) {
-    return getMockResult(serviceType);
+    return getMockResult(serviceType, inputFactors);
   }
 
   const completion = await openai.chat.completions.create({

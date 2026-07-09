@@ -39,6 +39,10 @@ function getRejected(record: Record<string, unknown>) {
   ];
 }
 
+function getBreakdown(value: unknown) {
+  return arrayRecords(value);
+}
+
 export function ResultCard({ service, result, revealAll }: ResultCardProps) {
   const record = asRecord(result);
   const candidates = getCandidates(record);
@@ -95,12 +99,18 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                 <dl className="mt-4 grid gap-3 text-sm leading-6">
                   {(
                     [
-                    ["의미", item.meaning || item.meaning_connection],
-                    ["스토리", item.story],
-                    ["사주/정교화", item.saju_note],
-                    ["현지/문화 적합성", item.cultural_fit || item.local_cautions],
-                    ["사용 인상", item.professional_impression || item.usage_note],
-                    ["주의", item.caution_notes],
+                      ["의미", item.meaning || item.meaning_connection],
+                      ["스토리", item.story],
+                      ["사주/정교화", item.saju_note],
+                      [
+                        "현지/문화 적합성",
+                        item.cultural_fit || item.local_cautions,
+                      ],
+                      [
+                        "사용 인상",
+                        item.professional_impression || item.usage_note,
+                      ],
+                      ["주의", item.caution_notes],
                     ] satisfies Array<[string, unknown]>
                   )
                     .filter(([, value]) => text(value))
@@ -111,6 +121,30 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                       </div>
                     ))}
                 </dl>
+
+                {getBreakdown(item.character_breakdown).length ? (
+                  <div className="mt-5 rounded-lg bg-surface-strong p-4">
+                    <p className="text-sm font-semibold">음절별 한자 매칭</p>
+                    <div className="mt-3 grid gap-2">
+                      {getBreakdown(item.character_breakdown).map(
+                        (part, partIndex) => (
+                          <div
+                            key={`${text(part.syllable)}-${text(part.character)}-${partIndex}`}
+                            className="grid gap-1 rounded-lg bg-surface px-3 py-2 text-sm"
+                          >
+                            <p className="font-semibold">
+                              {text(part.syllable)} → {text(part.character)}
+                            </p>
+                            <p className="text-muted">
+                              {text(part.meaning)}
+                              {text(part.note) ? ` · ${text(part.note)}` : ""}
+                            </p>
+                          </div>
+                        ),
+                      )}
+                    </div>
+                  </div>
+                ) : null}
               </div>
 
               {locked ? (
