@@ -17,7 +17,7 @@ export function ServiceShell({
         <header className="flex flex-col gap-4 border-b border-line pb-5 sm:flex-row sm:items-center sm:justify-between">
           <Link href="/" className="inline-flex items-center gap-2 text-sm">
             <ArrowLeft aria-hidden="true" size={17} />
-            naminglink
+            Naming-Link
           </Link>
           <nav className="flex flex-wrap gap-2 text-sm">
             {serviceList.map((item) => (
@@ -33,12 +33,6 @@ export function ServiceShell({
                 {item.shortTitle}
               </Link>
             ))}
-            <Link
-              href="/admin"
-              className="rounded-lg border border-line bg-surface px-3 py-2 transition hover:border-foreground"
-            >
-              관리자
-            </Link>
           </nav>
         </header>
 

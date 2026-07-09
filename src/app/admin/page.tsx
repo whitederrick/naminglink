@@ -53,7 +53,7 @@ export default function AdminPage() {
         <header className="flex flex-col gap-4 border-b border-line pb-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <Link href="/" className="text-sm text-muted hover:text-foreground">
-              naminglink
+              Naming-Link
             </Link>
             <h1 className="mt-2 text-3xl font-semibold tracking-normal">
               시스템 관리자
