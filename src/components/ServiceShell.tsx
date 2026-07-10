@@ -72,7 +72,7 @@ export function ServiceShell({
 
         <NamingForm service={service} />
       </section>
-      <SiteFooter />
+      <SiteFooter locale={locale} />
     </main>
   );
 }
