@@ -53,7 +53,17 @@ export default async function Home({ searchParams }: HomeProps) {
         <header className="relative z-40 mx-auto grid w-full max-w-7xl gap-3 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-center lg:gap-5 lg:px-10">
           <Link href="/" className="flex items-center gap-3">
             <BrandMark />
-            <span className="text-lg font-semibold">Naming-Link</span>
+            <span className="flex flex-col gap-1">
+              <span className="text-xl font-semibold leading-none">
+                Naming-Link
+              </span>
+              <span
+                className="text-[15px] font-medium leading-none text-white/78"
+                style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
+              >
+                네이밍 링크
+              </span>
+            </span>
           </Link>
           <LanguageSwitcher
             locale={locale}
@@ -88,10 +98,7 @@ export default async function Home({ searchParams }: HomeProps) {
           </section>
 
           <section className="grid w-full max-w-[37.5rem] justify-self-end gap-2 lg:min-h-[18rem]">
-            <div className="flex items-center justify-between gap-3">
-              <p className="text-sm font-semibold text-white/80">
-                {copy.servicePickerTitle}
-              </p>
+            <div className="flex items-center justify-end gap-3">
               <p className="text-xs text-white/60">{copy.servicePickerHint}</p>
             </div>
             {visibleServices.map((service) => {
