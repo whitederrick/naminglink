@@ -100,6 +100,7 @@ function resolveMotivation(
 }
 
 export function NamingForm({ service }: { service: ServiceConfig }) {
+  const isGlobalToKorean = service.serviceType === "GLOBAL_TO_KOREAN";
   const initialValues = useMemo(() => {
     const entries = service.sections.flatMap((section) =>
       section.fields.map((field) => [field.name, fieldInitialValue(field)]),
@@ -210,55 +211,69 @@ export function NamingForm({ service }: { service: ServiceConfig }) {
   }
 
   return (
-    <div className="grid gap-5 xl:grid-cols-[0.9fr_1.1fr]">
+    <div className="grid gap-6">
       <form onSubmit={onSubmit} className="grid gap-4">
-        {service.sections.map((section) => (
-          <section
-            key={section.title}
-            className="rounded-lg border border-line bg-surface p-5 shadow-sm"
-          >
-            <h2 className="text-lg font-semibold">{section.title}</h2>
-            <p className="mt-2 text-sm leading-6 text-muted">
-              {section.description}
-            </p>
+        <div
+          className={
+            isGlobalToKorean
+              ? "grid gap-4 lg:grid-cols-3"
+              : "grid gap-4"
+          }
+        >
+          {service.sections.map((section) => (
+            <section
+              key={section.title}
+              className="rounded-lg border border-line bg-surface p-5 shadow-sm"
+            >
+              <h2 className="text-lg font-semibold">{section.title}</h2>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                {section.description}
+              </p>
 
-            <div className="mt-5 grid gap-4 md:grid-cols-2">
-              {section.fields.map((field) => (
-                <label
-                  key={field.name}
-                  className={
-                    field.type === "textarea"
-                      ? "grid gap-2 md:col-span-2"
-                      : "grid gap-2"
-                  }
-                >
-                  <span className="text-sm font-medium">{field.label}</span>
-                  <FieldInput
-                    field={field}
-                    value={values[field.name] ?? ""}
-                    onChange={(value) => updateField(field, value)}
-                  />
-                  {(field.name === "country" ||
-                    field.name === "targetCountry") &&
-                  selectedCountry ? (
-                    <span className="text-xs leading-5 text-muted">
-                      기본 언어: {selectedCountry.languageName} · 현지 이름
-                      예시: {selectedCountry.localNameHint}
-                      {selectedCountry.motivationNote
-                        ? ` · 추천 옵션: ${selectedCountry.motivationNote}`
-                        : ""}
-                    </span>
-                  ) : null}
-                  {field.hint ? (
-                    <span className="text-xs leading-5 text-muted">
-                      {field.hint}
-                    </span>
-                  ) : null}
-                </label>
-              ))}
-            </div>
-          </section>
-        ))}
+              <div
+                className={
+                  isGlobalToKorean
+                    ? "mt-5 grid gap-4"
+                    : "mt-5 grid gap-4 md:grid-cols-2"
+                }
+              >
+                {section.fields.map((field) => (
+                  <label
+                    key={field.name}
+                    className={
+                      field.type === "textarea" && !isGlobalToKorean
+                        ? "grid gap-2 md:col-span-2"
+                        : "grid gap-2"
+                    }
+                  >
+                    <span className="text-sm font-medium">{field.label}</span>
+                    <FieldInput
+                      field={field}
+                      value={values[field.name] ?? ""}
+                      onChange={(value) => updateField(field, value)}
+                    />
+                    {(field.name === "country" ||
+                      field.name === "targetCountry") &&
+                    selectedCountry ? (
+                      <span className="text-xs leading-5 text-muted">
+                        기본 언어: {selectedCountry.languageName} · 현지 이름
+                        예시: {selectedCountry.localNameHint}
+                        {selectedCountry.motivationNote
+                          ? ` · 추천 옵션: ${selectedCountry.motivationNote}`
+                          : ""}
+                      </span>
+                    ) : null}
+                    {field.hint ? (
+                      <span className="text-xs leading-5 text-muted">
+                        {field.hint}
+                      </span>
+                    ) : null}
+                  </label>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
 
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
           <h2 className="text-lg font-semibold">부가 서비스</h2>
