@@ -20,7 +20,7 @@ type LandingCopy = {
   services: Record<string, ServiceLandingCopy>;
 };
 
-const serviceCopies: Partial<Record<Locale, LandingCopy["services"]>> = {
+const serviceCopies: Record<Locale, LandingCopy["services"]> = {
   ko: {
     "hanja-meaning": {
       audience: "이미 한글 이름을 정한 부모",
@@ -301,9 +301,189 @@ const serviceCopies: Partial<Record<Locale, LandingCopy["services"]>> = {
         "اقتراح أسماء هانغول طبيعية حسب الدولة وبيانات الميلاد والاستخدام في كوريا.",
     },
   },
+  fil: {
+    "hanja-meaning": {
+      audience: "Mga magulang na may Korean name",
+      title: "Kahulugan ng Hanja",
+      description:
+        "Itinutugma ang Korean name sa Hanja para sa pangalan, kasama ang kahulugan at dahilan ng pag-alis.",
+    },
+    "korean-to-global": {
+      audience: "Pag-aaral, migrasyon, global work",
+      title: "Global name",
+      description:
+        "Inaangkop ang tunog at kahulugan ng Korean name para sa internasyonal na paggamit.",
+    },
+    "global-to-korean": {
+      audience: "Dayuhang kailangan ng Korean name",
+      title: "Gumawa ng Korean name",
+      description:
+        "Nagmumungkahi ng natural na Hangul name ayon sa bansa, kapanganakan, at gamit sa Korea.",
+    },
+  },
+  uz: {
+    "hanja-meaning": {
+      audience: "Koreyscha ism tanlagan ota-onalar",
+      title: "Hanja ma'nosi",
+      description:
+        "Koreyscha ism tovushiga mos Hanja, ma'no va chiqarish sabablarini taklif qiladi.",
+    },
+    "korean-to-global": {
+      audience: "O'qish, migratsiya, global ish",
+      title: "Global ism",
+      description:
+        "Koreyscha ism tovushi va ma'nosini xalqaro muhitga moslashtiradi.",
+    },
+    "global-to-korean": {
+      audience: "Koreyscha ism kerak bo'lgan xorijliklar",
+      title: "Koreyscha ism yaratish",
+      description:
+        "Mamlakat, tug'ilish profili va Koreyada ishlatish maqsadiga mos Hangul ism taklif qiladi.",
+    },
+  },
+  mn: {
+    "hanja-meaning": {
+      audience: "Солонгос нэр сонгосон эцэг эх",
+      title: "Ханжа утга",
+      description:
+        "Солонгос нэрийн дуунд тохирох нэрийн ханжа, утга, хасах шалтгааныг санал болгоно.",
+    },
+    "korean-to-global": {
+      audience: "Суралцах, шилжих, олон улсын ажил",
+      title: "Глобал нэр",
+      description:
+        "Солонгос нэрийн дуу, утгыг олон улсын орчинд байгалийн болгоно.",
+    },
+    "global-to-korean": {
+      audience: "Солонгос нэр хэрэгтэй гадаад хүн",
+      title: "Солонгос нэр бүтээх",
+      description:
+        "Улс, төрсөн мэдээлэл, Солонгост хэрэглэх нөхцөлд тохирсон Хангыл нэр санал болгоно.",
+    },
+  },
+  hi: {
+    "hanja-meaning": {
+      audience: "कोरियाई नाम चुन चुके माता-पिता",
+      title: "हंजा अर्थ मिलान",
+      description:
+        "कोरियाई नाम की ध्वनि रखते हुए नाम-उपयोग हंजा, अर्थ और हटाने के कारण सुझाता है.",
+    },
+    "korean-to-global": {
+      audience: "पढ़ाई, प्रवास, वैश्विक काम",
+      title: "वैश्विक नाम",
+      description:
+        "कोरियाई नाम की ध्वनि और अर्थ को अंतरराष्ट्रीय संदर्भों के लिए ढालता है.",
+    },
+    "global-to-korean": {
+      audience: "जिन विदेशियों को कोरियाई नाम चाहिए",
+      title: "कोरियाई नाम बनाएं",
+      description:
+        "देश, जन्म प्रोफाइल और कोरिया में उपयोग के आधार पर स्वाभाविक हांगुल नाम सुझाता है.",
+    },
+  },
+  tr: {
+    "hanja-meaning": {
+      audience: "Korece adı seçen aileler",
+      title: "Hanja anlamı",
+      description:
+        "Korece adın sesini koruyarak ad için Hanja, anlam ve eleme nedenleri önerir.",
+    },
+    "korean-to-global": {
+      audience: "Eğitim, göç, global iş",
+      title: "Global ad",
+      description:
+        "Korece adın sesini ve anlamını uluslararası bağlamlara uyarlar.",
+    },
+    "global-to-korean": {
+      audience: "Korece ada ihtiyaç duyan yabancılar",
+      title: "Korece ad oluştur",
+      description:
+        "Ülke, doğum profili ve Kore'deki kullanım amacına göre doğal Hangul adlar önerir.",
+    },
+  },
+  km: {
+    "hanja-meaning": {
+      audience: "ឪពុកម្តាយដែលមានឈ្មោះកូរ៉េរួចហើយ",
+      title: "អត្ថន័យ Hanja",
+      description:
+        "ផ្គូផ្គងឈ្មោះកូរ៉េជាមួយ Hanja សម្រាប់ឈ្មោះមនុស្ស អត្ថន័យ និងមូលហេតុដែលគួរដកចេញ។",
+    },
+    "korean-to-global": {
+      audience: "ការសិក្សា អន្តោប្រវេសន៍ ការងារសកល",
+      title: "ឈ្មោះសកល",
+      description:
+        "កែសំឡេង និងអត្ថន័យឈ្មោះកូរ៉េឱ្យសមនឹងបរិបទអន្តរជាតិ។",
+    },
+    "global-to-korean": {
+      audience: "ជនបរទេសដែលត្រូវការឈ្មោះកូរ៉េ",
+      title: "បង្កើតឈ្មោះកូរ៉េ",
+      description:
+        "ណែនាំឈ្មោះ Hangul ធម្មជាតិតាមប្រទេស ព័ត៌មានកំណើត និងការប្រើប្រាស់នៅកូរ៉េ។",
+    },
+  },
+  ms: {
+    "hanja-meaning": {
+      audience: "Ibu bapa dengan nama Korea",
+      title: "Makna Hanja",
+      description:
+        "Memadankan nama Korea dengan Hanja nama orang, makna, dan sebab pengecualian.",
+    },
+    "korean-to-global": {
+      audience: "Belajar, migrasi, kerja global",
+      title: "Nama global",
+      description:
+        "Menyesuaikan bunyi dan makna nama Korea untuk konteks antarabangsa.",
+    },
+    "global-to-korean": {
+      audience: "Warga asing yang perlukan nama Korea",
+      title: "Cipta nama Korea",
+      description:
+        "Mencadangkan nama Hangul semula jadi mengikut negara, kelahiran, dan kegunaan di Korea.",
+    },
+  },
+  kk: {
+    "hanja-meaning": {
+      audience: "Корейше есім таңдаған ата-ана",
+      title: "Ханча мағынасы",
+      description:
+        "Корей есімінің дыбысына сай адам атына арналған ханча, мағына және алып тастау себептерін ұсынады.",
+    },
+    "korean-to-global": {
+      audience: "Оқу, көшу, халықаралық жұмыс",
+      title: "Ғаламдық есім",
+      description:
+        "Корей есімінің дыбысы мен мағынасын халықаралық ортаға бейімдейді.",
+    },
+    "global-to-korean": {
+      audience: "Корейше есім қажет шетелдіктер",
+      title: "Корейше есім жасау",
+      description:
+        "Ел, туған күн профилі және Кореяда қолдану мақсатына сай Hangul есімдерін ұсынады.",
+    },
+  },
+  pl: {
+    "hanja-meaning": {
+      audience: "Rodzice z koreańskim imieniem",
+      title: "Znaczenie Hanja",
+      description:
+        "Dobiera Hanja do koreańskiego imienia, wraz ze znaczeniem i powodami odrzucenia.",
+    },
+    "korean-to-global": {
+      audience: "Studia, migracja, praca globalna",
+      title: "Nazwa globalna",
+      description:
+        "Dostosowuje brzmienie i sens koreańskiego imienia do kontekstu międzynarodowego.",
+    },
+    "global-to-korean": {
+      audience: "Cudzoziemcy potrzebujący koreańskiego imienia",
+      title: "Stwórz koreańskie imię",
+      description:
+        "Proponuje naturalne imiona Hangul według kraju, urodzenia i użycia w Korei.",
+    },
+  },
 };
 
-export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
+export const landingCopies: Record<Locale, LandingCopy> = {
   ko: {
     badge: "Global Naming Studio",
     heroLines: ["소리, 의미, 문화권,", "생년월일의 균형까지", "설계하는 이름 서비스"],
@@ -323,7 +503,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   en: {
     badge: "Global Naming Studio",
-    heroLines: ["Sound, meaning, culture,", "and birth-date balance", "designed into one name"],
+    heroLines: ["Sound, meaning,", "culture and birth,", "one name designed"],
     descriptionLines: [
       "From Hanja meaning for Korean names to global name adaptation,",
       "we read how a name feels in the language and region where it will be used.",
@@ -374,7 +554,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   de: {
     badge: "Global Naming Studio",
-    heroLines: ["Klang, Bedeutung, Kultur", "und Geburtsbalance", "als Namensservice"],
+    heroLines: ["Klang, Sinn, Kultur", "Geburt im Blick", "Namen gestalten"],
     descriptionLines: [
       "Von Hanja-Bedeutungen für koreanische Namen bis zur globalen Namensanpassung,",
       "wir prüfen, wie ein Name in Sprache und Region tatsächlich wirkt.",
@@ -391,7 +571,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   es: {
     badge: "Global Naming Studio",
-    heroLines: ["Sonido, significado, cultura,", "y equilibrio de nacimiento", "en un servicio de nombres"],
+    heroLines: ["Sonido, sentido,", "cultura y nacimiento", "en un nombre"],
     descriptionLines: [
       "Desde el significado Hanja de un nombre coreano hasta su adaptación global,",
       "analizamos cómo se siente el nombre en el idioma y la región donde se usará.",
@@ -408,7 +588,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   fr: {
     badge: "Global Naming Studio",
-    heroLines: ["Son, sens, culture,", "et équilibre de naissance", "dans un service de nom"],
+    heroLines: ["Son, sens, culture", "naissance équilibrée", "dans un nom"],
     descriptionLines: [
       "Du sens Hanja d'un prénom coréen à son adaptation mondiale,",
       "nous lisons l'effet du nom dans la langue et la région d'usage.",
@@ -425,7 +605,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   it: {
     badge: "Global Naming Studio",
-    heroLines: ["Suono, significato, cultura,", "e equilibrio di nascita", "in un servizio di nomi"],
+    heroLines: ["Suono, senso,", "cultura e nascita", "in un nome"],
     descriptionLines: [
       "Dal significato Hanja di un nome coreano all'adattamento globale,",
       "valutiamo come il nome risuona nella lingua e nella regione d'uso.",
@@ -442,7 +622,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   pt: {
     badge: "Global Naming Studio",
-    heroLines: ["Som, significado, cultura,", "e equilíbrio de nascimento", "em um serviço de nomes"],
+    heroLines: ["Som, sentido,", "cultura e nascimento", "em um nome"],
     descriptionLines: [
       "Do significado Hanja de nomes coreanos à adaptação global,",
       "avaliamos como o nome funciona no idioma e na região de uso.",
@@ -459,7 +639,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   vi: {
     badge: "Global Naming Studio",
-    heroLines: ["Âm thanh, ý nghĩa, văn hóa,", "và cân bằng ngày sinh", "trong một dịch vụ đặt tên"],
+    heroLines: ["Âm, nghĩa, văn hóa", "và ngày sinh", "trong một tên"],
     descriptionLines: [
       "Từ nghĩa Hanja cho tên Hàn đến chuyển đổi tên toàn cầu,",
       "chúng tôi xem tên sẽ được cảm nhận thế nào trong ngôn ngữ và khu vực sử dụng.",
@@ -476,7 +656,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   th: {
     badge: "Global Naming Studio",
-    heroLines: ["เสียง ความหมาย วัฒนธรรม", "และสมดุลวันเกิด", "ในบริการออกแบบชื่อ"],
+    heroLines: ["เสียงและความหมาย", "วัฒนธรรม วันเกิด", "ในชื่อเดียว"],
     descriptionLines: [
       "ตั้งแต่ความหมายฮันจาของชื่อเกาหลีจนถึงการปรับชื่อสากล",
       "เราดูว่าชื่อนั้นให้ความรู้สึกอย่างไรในภาษาและภูมิภาคที่ใช้จริง",
@@ -493,7 +673,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   id: {
     badge: "Global Naming Studio",
-    heroLines: ["Bunyi, makna, budaya,", "dan keseimbangan lahir", "dalam layanan nama"],
+    heroLines: ["Bunyi, makna,", "budaya dan lahir", "dalam satu nama"],
     descriptionLines: [
       "Dari makna Hanja untuk nama Korea hingga adaptasi nama global,",
       "kami menilai rasa nama dalam bahasa dan wilayah pemakaian nyata.",
@@ -510,7 +690,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   ru: {
     badge: "Global Naming Studio",
-    heroLines: ["Звучание, смысл, культура,", "и баланс даты рождения", "в сервисе имен"],
+    heroLines: ["Звук и смысл", "культура и дата", "в одном имени"],
     descriptionLines: [
       "От значения ханча для корейского имени до глобальной адаптации,",
       "мы смотрим, как имя воспринимается в языке и регионе использования.",
@@ -527,7 +707,7 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
   },
   ar: {
     badge: "Global Naming Studio",
-    heroLines: ["الصوت والمعنى والثقافة،", "وتوازن تاريخ الميلاد", "في خدمة اسم واحدة"],
+    heroLines: ["الصوت والمعنى", "والثقافة والميلاد", "في اسم واحد"],
     descriptionLines: [
       "من معنى الهانجا للأسماء الكورية إلى تحويل الاسم عالميا،",
       "نقرأ كيف سيبدو الاسم في اللغة والمنطقة التي سيستخدم فيها.",
@@ -541,6 +721,159 @@ export const landingCopies: Partial<Record<Locale, LandingCopy>> = {
     moreLanguages: "المزيد",
     closeLanguages: "إغلاق",
     services: serviceCopies.ar!,
+  },
+  fil: {
+    badge: "Global Naming Studio",
+    heroLines: ["Tunog at kahulugan", "kultura at buhay", "isang pangalan"],
+    descriptionLines: [
+      "Mula sa kahulugan ng Hanja para sa Korean name hanggang sa global name adaptation,",
+      "binabasa namin kung paano mararamdaman ang pangalan sa wika at lugar ng paggamit.",
+      "Pinagdurugtong ang hiling ng pamilya, praktikal na layunin, at cultural nuance.",
+    ],
+    primaryCta: "Simulan ang Hanja",
+    secondaryCta: "Gumawa ng Korean name",
+    servicePickerTitle: "Piliin ang layunin",
+    servicePickerHint: "Magsimula rito",
+    currentLanguage: "Kasalukuyang wika",
+    moreLanguages: "Higit pa",
+    closeLanguages: "Isara",
+    services: serviceCopies.fil!,
+  },
+  uz: {
+    badge: "Global Naming Studio",
+    heroLines: ["Tovush, ma'no,", "madaniyat va tug'ilish", "bitta ismda"],
+    descriptionLines: [
+      "Koreyscha ism uchun Hanja ma'nosidan global ism moslashuvigacha,",
+      "ism ishlatiladigan til va hududda qanday eshitilishini baholaymiz.",
+      "Oila istagi, amaliy maqsad va madaniy ohang bitta oqimda ulanadi.",
+    ],
+    primaryCta: "Hanja bilan boshlash",
+    secondaryCta: "Koreyscha ism yaratish",
+    servicePickerTitle: "Maqsadni tanlang",
+    servicePickerHint: "Birinchi ekrandan boshlang",
+    currentLanguage: "Joriy til",
+    moreLanguages: "Yana",
+    closeLanguages: "Yopish",
+    services: serviceCopies.uz!,
+  },
+  mn: {
+    badge: "Global Naming Studio",
+    heroLines: ["Дуу, утга, соёл", "төрсөн өдөр", "нэг нэрэнд"],
+    descriptionLines: [
+      "Солонгос нэрийн ханжа утгаас олон улсын нэрийн хувилбар хүртэл,",
+      "нэрийг ашиглах хэл, бүс нутагт хэрхэн мэдрэгдэхийг харна.",
+      "Гэр бүлийн хүсэл, хэрэглээний зорилго, соёлын өнгө аясыг нэгтгэнэ.",
+    ],
+    primaryCta: "Ханжа эхлүүлэх",
+    secondaryCta: "Солонгос нэр бүтээх",
+    servicePickerTitle: "Зорилгоо сонго",
+    servicePickerHint: "Эхний дэлгэцээс эхэл",
+    currentLanguage: "Одоогийн хэл",
+    moreLanguages: "Дэлгэрэнгүй",
+    closeLanguages: "Хаах",
+    services: serviceCopies.mn!,
+  },
+  hi: {
+    badge: "Global Naming Studio",
+    heroLines: ["ध्वनि, अर्थ,", "संस्कृति और जन्म", "एक नाम में"],
+    descriptionLines: [
+      "कोरियाई नाम के हंजा अर्थ से लेकर वैश्विक नाम रूपांतरण तक,",
+      "हम देखते हैं कि नाम उपयोग की भाषा और क्षेत्र में कैसा महसूस होगा.",
+      "परिवार की इच्छा, उपयोग का उद्देश्य और सांस्कृतिक nuance एक साथ जुड़ते हैं.",
+    ],
+    primaryCta: "हंजा शुरू करें",
+    secondaryCta: "कोरियाई नाम बनाएं",
+    servicePickerTitle: "उद्देश्य चुनें",
+    servicePickerHint: "पहली स्क्रीन से शुरू करें",
+    currentLanguage: "वर्तमान भाषा",
+    moreLanguages: "और",
+    closeLanguages: "बंद",
+    services: serviceCopies.hi!,
+  },
+  tr: {
+    badge: "Global Naming Studio",
+    heroLines: ["Ses, anlam,", "kültür ve doğum", "tek bir isimde"],
+    descriptionLines: [
+      "Korece adlar için Hanja anlamından global ad uyarlamasına kadar,",
+      "adın kullanılacağı dil ve bölgede nasıl hissedileceğini inceleriz.",
+      "Aile isteği, kullanım amacı ve kültürel nüans tek akışta birleşir.",
+    ],
+    primaryCta: "Hanja ile başla",
+    secondaryCta: "Korece ad oluştur",
+    servicePickerTitle: "Amacı seç",
+    servicePickerHint: "İlk ekrandan başla",
+    currentLanguage: "Geçerli dil",
+    moreLanguages: "Daha",
+    closeLanguages: "Kapat",
+    services: serviceCopies.tr!,
+  },
+  km: {
+    badge: "Global Naming Studio",
+    heroLines: ["សំឡេង អត្ថន័យ", "វប្បធម៌ និងថ្ងៃកំណើត", "ក្នុងឈ្មោះមួយ"],
+    descriptionLines: [
+      "ពីអត្ថន័យ Hanja សម្រាប់ឈ្មោះកូរ៉េ ដល់ការកែឈ្មោះសកល,",
+      "យើងពិនិត្យថាឈ្មោះនោះមានអារម្មណ៍យ៉ាងដូចម្តេចក្នុងភាសា និងតំបន់ដែលប្រើ។",
+      "បំណងគ្រួសារ គោលបំណងប្រើប្រាស់ និងបរិបទវប្បធម៌ត្រូវបានភ្ជាប់ជាមួយគ្នា។",
+    ],
+    primaryCta: "ចាប់ផ្តើម Hanja",
+    secondaryCta: "បង្កើតឈ្មោះកូរ៉េ",
+    servicePickerTitle: "ជ្រើសគោលបំណង",
+    servicePickerHint: "ចាប់ផ្តើមពីទំព័រដំបូង",
+    currentLanguage: "ភាសាបច្ចុប្បន្ន",
+    moreLanguages: "បន្ថែម",
+    closeLanguages: "បិទ",
+    services: serviceCopies.km!,
+  },
+  ms: {
+    badge: "Global Naming Studio",
+    heroLines: ["Bunyi, makna,", "budaya dan lahir", "dalam satu nama"],
+    descriptionLines: [
+      "Daripada makna Hanja untuk nama Korea hingga penyesuaian nama global,",
+      "kami menilai rasa nama dalam bahasa dan wilayah penggunaannya.",
+      "Harapan keluarga, tujuan praktikal, dan nuansa budaya disatukan.",
+    ],
+    primaryCta: "Mula Hanja",
+    secondaryCta: "Cipta nama Korea",
+    servicePickerTitle: "Pilih tujuan",
+    servicePickerHint: "Mula dari skrin pertama",
+    currentLanguage: "Bahasa semasa",
+    moreLanguages: "Lagi",
+    closeLanguages: "Tutup",
+    services: serviceCopies.ms!,
+  },
+  kk: {
+    badge: "Global Naming Studio",
+    heroLines: ["Дыбыс, мағына,", "мәдениет пен туу", "бір есімде"],
+    descriptionLines: [
+      "Корей есіміне арналған ханча мағынасынан ғаламдық есімге дейін,",
+      "есімнің қолданылатын тіл мен аймақта қалай қабылданатынын қараймыз.",
+      "Отбасы тілегі, қолдану мақсаты және мәдени реңк бір ағынға бірігеді.",
+    ],
+    primaryCta: "Ханчадан бастау",
+    secondaryCta: "Корейше есім жасау",
+    servicePickerTitle: "Мақсатты таңдаңыз",
+    servicePickerHint: "Бірінші экраннан бастаңыз",
+    currentLanguage: "Қазіргі тіл",
+    moreLanguages: "Тағы",
+    closeLanguages: "Жабу",
+    services: serviceCopies.kk!,
+  },
+  pl: {
+    badge: "Global Naming Studio",
+    heroLines: ["Brzmienie, sens,", "kultura i data", "w jednym imieniu"],
+    descriptionLines: [
+      "Od znaczenia Hanja dla koreańskiego imienia po adaptację globalną,",
+      "sprawdzamy, jak imię brzmi w języku i regionie użycia.",
+      "Życzenie rodziny, cel praktyczny i niuans kulturowy łączą się w całość.",
+    ],
+    primaryCta: "Zacznij Hanja",
+    secondaryCta: "Stwórz koreańskie imię",
+    servicePickerTitle: "Wybierz cel",
+    servicePickerHint: "Zacznij od pierwszego ekranu",
+    currentLanguage: "Obecny język",
+    moreLanguages: "Więcej",
+    closeLanguages: "Zamknij",
+    services: serviceCopies.pl!,
   },
 };
 
