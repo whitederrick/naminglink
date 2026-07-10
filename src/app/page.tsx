@@ -54,14 +54,14 @@ export default async function Home({ searchParams }: HomeProps) {
           <Link href="/" className="flex items-center gap-3">
             <BrandMark />
             <span className="flex flex-col gap-1">
-              <span className="text-xl font-semibold leading-none">
-                Naming-Link
+              <span className="text-[22px] font-semibold leading-none">
+                Naming - Link
               </span>
               <span
-                className="text-[15px] font-medium leading-none text-white/78"
+                className="text-[18px] font-medium leading-none text-white/78"
                 style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
               >
-                네이밍 링크
+                네이밍 - 링크
               </span>
             </span>
           </Link>
