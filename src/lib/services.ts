@@ -297,7 +297,7 @@ export const countryOptions: CountryOption[] = [
     label: "United States",
     locale: "en",
     languageName: "English",
-    localNameHint: "e.g. Daniel Brooks",
+    localNameHint: "e.g. your full name in its original spelling",
   },
   {
     value: "mx",
@@ -766,7 +766,7 @@ export const services = {
           {
             name: "originalName",
             label: "현지어 이름 / Original name",
-            placeholder: "예: Daniel Brooks, Nguyễn Minh Anh, 山田 太郎",
+            placeholder: "예: Nguyễn Minh Anh, 山田 太郎, María García",
             required: true,
           },
           {
@@ -877,6 +877,53 @@ export const services = {
     addOns: globalToKoreanAddOns,
   },
 } satisfies Record<string, ServiceConfig>;
+
+export const globalNameToHangulService: ServiceConfig = {
+  ...services.globalToKorean,
+  slug: "global-name-to-hangul",
+  title: "글로벌 이름을 발음대로 한글로 표기",
+  shortTitle: "한글 발음 표기",
+  eyebrow: "원래 이름의 소리를 유지하는 한글 표기",
+  audience: "한글로 이름을 소개하거나 기록하려는 글로벌 사용자",
+  description:
+    "이름을 새로 만들지 않고 원래 이름의 발음을 분석해 자연스러운 한글 표기를 제안합니다.",
+  promise:
+    "원래 이름의 소리와 음절을 우선하며, 한국어 발음 규칙에 맞는 표기와 대안을 안내합니다.",
+  resultLabel: "추천 한글 발음 표기",
+  sections: [
+    {
+      title: "Original name",
+      description: "Enter the name exactly as it is normally written and pronounced.",
+      fields: [
+        {
+          name: "originalName",
+          label: "현지어 이름 / Original name",
+          placeholder: "예: 현지 철자로 쓴 전체 이름",
+          required: true,
+        },
+        {
+          name: "country",
+          label: "국가 / Country",
+          type: "select",
+          options: countryOptions,
+          required: true,
+        },
+        {
+          name: "pronunciationHint",
+          label: "현지 발음 힌트 / Pronunciation hint",
+          placeholder: "예: DAN-yuhl bruks (선택)",
+        },
+        {
+          name: "outputLanguage",
+          label: "설명 언어 / Explanation language",
+          type: "select",
+          options: languageOptions,
+        },
+      ],
+    },
+  ],
+  addOns: [],
+};
 
 export const serviceList = Object.values(services);
 

@@ -37,6 +37,35 @@ const nameWordByLocale: Record<Locale, string> = {
   pl: "Imię",
 };
 
+const hangulPronunciationCopy: Record<
+  Locale,
+  { audience: string; title: string; description: string }
+> = {
+  ko: { audience: "한글 발음 표기가 필요한 외국인", title: "글로벌 이름 한글 표기", description: "새로운 한국 이름을 만들지 않고, 원래 이름의 발음을 자연스러운 한글 표기로 바꿉니다." },
+  en: { audience: "Keep your name, written in Korean", title: "Write My Name as It Sounds in Hangul", description: "Turn your name’s original pronunciation into a natural Hangul spelling—without creating a new Korean name." },
+  ja: { audience: "ハングル発音表記が必要な方", title: "名前をハングルで表記", description: "新しい韓国名を作らず、元の名前の発音を自然なハングル表記に変換します。" },
+  zh: { audience: "需要韩文发音标记的用户", title: "用韩文标记姓名发音", description: "不创建新的韩国姓名，而是将原名发音转换为自然的韩文写法。" },
+  de: { audience: "Für eine Hangul-Aussprache", title: "Namen in Hangul schreiben", description: "Überträgt die ursprüngliche Aussprache natürlich in Hangul, ohne einen neuen koreanischen Namen zu erfinden." },
+  es: { audience: "Para escribir la pronunciación en hangul", title: "Escribir mi nombre en hangul", description: "Convierte la pronunciación original en una escritura natural en hangul, sin crear un nombre coreano nuevo." },
+  fr: { audience: "Pour une transcription en hangeul", title: "Écrire mon nom en hangeul", description: "Transcrit naturellement la prononciation d’origine en hangeul, sans créer un nouveau nom coréen." },
+  it: { audience: "Per la pronuncia in hangul", title: "Scrivi il mio nome in hangul", description: "Trascrive naturalmente la pronuncia originale in hangul, senza creare un nuovo nome coreano." },
+  pt: { audience: "Para pronúncia em hangul", title: "Escrever meu nome em hangul", description: "Converte a pronúncia original em uma escrita natural em hangul, sem criar um novo nome coreano." },
+  vi: { audience: "Dành cho cách đọc bằng Hangul", title: "Viết tên bằng Hangul", description: "Chuyển cách phát âm tên gốc sang cách viết Hangul tự nhiên, không tạo tên Hàn Quốc mới." },
+  th: { audience: "สำหรับการเขียนเสียงอ่านด้วยฮันกึล", title: "เขียนชื่อเป็นฮันกึล", description: "ถอดเสียงชื่อเดิมเป็นฮันกึลอย่างเป็นธรรมชาติ โดยไม่สร้างชื่อเกาหลีใหม่" },
+  id: { audience: "Untuk pelafalan dalam Hangul", title: "Tulis nama saya dalam Hangul", description: "Mengubah pelafalan nama asli menjadi tulisan Hangul yang alami tanpa membuat nama Korea baru." },
+  ru: { audience: "Для записи произношения на хангыле", title: "Записать имя на хангыле", description: "Передаёт исходное произношение естественной записью на хангыле, не создавая новое корейское имя." },
+  ar: { audience: "لكتابة النطق بالهانغول", title: "اكتب اسمي بالهانغول", description: "يحوّل نطق الاسم الأصلي إلى كتابة طبيعية بالهانغول من دون إنشاء اسم كوري جديد." },
+  fil: { audience: "Para sa bigkas sa Hangul", title: "Isulat ang pangalan sa Hangul", description: "Isinusulat sa natural na Hangul ang orihinal na bigkas nang hindi gumagawa ng bagong Koreanong pangalan." },
+  uz: { audience: "Hangulcha talaffuz uchun", title: "Ismni Hangulda yozish", description: "Yangi koreyscha ism yaratmay, asl ism talaffuzini tabiiy Hangul yozuviga o‘giradi." },
+  mn: { audience: "Хангыл дуудлагын бичлэг", title: "Нэрийг хангыляар бичих", description: "Шинэ солонгос нэр зохиолгүйгээр эх нэрийн дуудлагыг хангыляар байгалийн байдлаар бичнэ." },
+  hi: { audience: "हंगुल उच्चारण लिखने के लिए", title: "नाम हंगुल में लिखें", description: "नया कोरियाई नाम बनाए बिना मूल नाम के उच्चारण को स्वाभाविक हंगुल लेखन में बदलता है।" },
+  tr: { audience: "Hangul telaffuzu için", title: "Adımı Hangul ile yaz", description: "Yeni bir Korece ad oluşturmadan özgün telaffuzu doğal bir Hangul yazımına dönüştürür." },
+  km: { audience: "សម្រាប់ការសរសេរសំឡេងជាហាន់ហ្គុល", title: "សរសេរឈ្មោះជាហាន់ហ្គុល", description: "បម្លែងសំឡេងឈ្មោះដើមទៅជាអក្សរហាន់ហ្គុលធម្មជាតិ ដោយមិនបង្កើតឈ្មោះកូរ៉េថ្មី។" },
+  ms: { audience: "Untuk sebutan dalam Hangul", title: "Tulis nama saya dalam Hangul", description: "Menukar sebutan nama asal kepada ejaan Hangul semula jadi tanpa mencipta nama Korea baharu." },
+  kk: { audience: "Хангыльша айтылуы үшін", title: "Есімді хангыльмен жазу", description: "Жаңа корей есімін жасамай, бастапқы есімнің айтылуын табиғи хангыль жазуына айналдырады." },
+  pl: { audience: "Do zapisu wymowy w hangulu", title: "Zapisz imię w hangulu", description: "Przenosi oryginalną wymowę do naturalnego zapisu w hangulu bez tworzenia nowego koreańskiego imienia." },
+};
+
 function LocalizedNamePlateIcon({ locale }: { locale: Locale }) {
   const label = nameWordByLocale[locale] ?? nameWordByLocale.en;
   const labelSizeClass =
@@ -72,6 +101,28 @@ function LocalizedNamePlateIcon({ locale }: { locale: Locale }) {
         </span>
       </span>
     </span>
+  );
+}
+
+function HangulPronunciationIcon() {
+  return (
+    <InkIconShell>
+      <span className="relative flex h-[3.45rem] w-[3.45rem] rotate-[-1deg] flex-col items-center justify-center rounded-md border-[2.5px] border-black bg-[#fffefa] text-black shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+        <span className="text-[9px] font-black leading-none tracking-wide">
+          ABC
+        </span>
+        <span className="my-1 flex items-center gap-0.5 text-[7px] font-black leading-none text-[#9b2f28]">
+          <span>발음</span>
+          <span>→</span>
+        </span>
+        <span
+          className="text-[15px] font-black leading-none"
+          style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
+        >
+          한글
+        </span>
+      </span>
+    </InkIconShell>
   );
 }
 
@@ -138,7 +189,7 @@ export default async function Home({ searchParams }: HomeProps) {
     ? "/images/landing-hero.png"
     : "/images/landing-hero-global.png";
   const heroHeadingClass = isKoreanEntry
-    ? "text-4xl sm:text-5xl xl:text-[3.55rem]"
+    ? "text-[2.125rem] sm:text-[2.75rem] xl:text-[3.25rem]"
     : "text-3xl sm:text-4xl xl:text-5xl";
   const descriptionText = copy.descriptionLines.join(" ");
   const visibleServices = serviceList.filter((service) =>
@@ -149,7 +200,7 @@ export default async function Home({ searchParams }: HomeProps) {
 
   return (
     <main className="min-h-screen bg-background" dir="ltr">
-      <section className="relative flex min-h-[100svh] flex-col overflow-hidden">
+      <section className="relative flex min-h-[100svh] flex-col overflow-hidden lg:h-[100svh] lg:min-h-0">
         <Image
           src={heroImage}
           alt="Korean calligraphy, name seal, passport, and keepsake card on a refined desk"
@@ -184,8 +235,8 @@ export default async function Home({ searchParams }: HomeProps) {
           />
         </header>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-7xl flex-1 gap-5 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-start lg:px-10 lg:pt-[clamp(8rem,18vh,10.5rem)]">
-          <section className="max-w-3xl text-left lg:grid lg:max-w-none lg:grid-rows-[5.75rem_12rem_6.25rem] lg:content-start">
+        <div className="relative z-10 mx-auto grid w-full max-w-7xl flex-1 gap-5 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-start lg:px-10 lg:pt-[clamp(6.5rem,14vh,8.5rem)]">
+          <section className="max-w-3xl text-left lg:-translate-y-8 lg:grid lg:max-w-none lg:grid-rows-[5.75rem_12rem_6.25rem] lg:content-start">
             <p className="inline-flex w-fit items-center justify-center justify-self-start self-start rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-center text-xl font-semibold text-white shadow-sm backdrop-blur sm:text-2xl">
               {copy.badge}
             </p>
@@ -211,6 +262,34 @@ export default async function Home({ searchParams }: HomeProps) {
             <div className="flex items-center justify-end gap-3">
               <p className="text-xs text-white/60">{copy.servicePickerHint}</p>
             </div>
+            {!isKoreanEntry ? (
+              <Link
+                href={`/global-to-korean?lang=${locale}&mode=transliteration`}
+                className="group h-[7.25rem] rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
+              >
+                <div className="relative flex items-start gap-3 pr-7">
+                  <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg bg-white text-foreground">
+                    <HangulPronunciationIcon />
+                  </span>
+                  <div className="min-w-0 flex-1 text-left" dir={textDirection}>
+                    <p className="truncate break-keep text-xs font-semibold text-white/70">
+                      {hangulPronunciationCopy[locale].audience}
+                    </p>
+                    <h2 className="mt-1 truncate break-keep text-base font-semibold sm:text-lg">
+                      {hangulPronunciationCopy[locale].title}
+                    </h2>
+                    <p className="mt-1 overflow-hidden break-keep text-[13px] leading-5 text-white/74 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
+                      {hangulPronunciationCopy[locale].description}
+                    </p>
+                  </div>
+                  <ArrowRight
+                    aria-hidden="true"
+                    className="absolute right-0 top-1 transition group-hover:translate-x-1"
+                    size={19}
+                  />
+                </div>
+              </Link>
+            ) : null}
             {visibleServices.map((service) => {
               const serviceCopy = copy.services[service.slug] ?? service;
 
@@ -256,7 +335,7 @@ export default async function Home({ searchParams }: HomeProps) {
 
         <SiteFooter
           tone="light"
-          className="relative z-10 bg-foreground/50 backdrop-blur"
+          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-3 !pt-2 backdrop-blur"
           locale={locale}
         />
       </section>

@@ -100,7 +100,9 @@ function resolveMotivation(
 }
 
 export function NamingForm({ service }: { service: ServiceConfig }) {
-  const isGlobalToKorean = service.serviceType === "GLOBAL_TO_KOREAN";
+  const isGlobalToKorean =
+    service.serviceType === "GLOBAL_TO_KOREAN" &&
+    service.slug !== "global-name-to-hangul";
   const initialValues = useMemo(() => {
     const entries = service.sections.flatMap((section) =>
       section.fields.map((field) => [field.name, fieldInitialValue(field)]),

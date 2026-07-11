@@ -5,6 +5,33 @@ export function getMockResult(
   serviceType: ServiceType,
   inputFactors: Record<string, unknown> = {},
 ) {
+  if (inputFactors.serviceSlug === "global-name-to-hangul") {
+    const originalName =
+      typeof inputFactors.originalName === "string"
+        ? inputFactors.originalName
+        : "입력한 원래 이름";
+
+    return {
+      analysis_summary: `${originalName}의 원래 발음을 유지하면서 한국어 화자가 자연스럽게 읽을 수 있는 한글 표기를 제안합니다.`,
+      candidates: [
+        {
+          hangul: "원음 기반 한글 표기",
+          recommendation_reason:
+            "영어권의 일반적인 발음과 음절 구분을 한글 외래어 표기 방식에 가깝게 옮긴 예시입니다.",
+          matching_rate: 95,
+          pronunciation: originalName,
+          cultural_fit: "한국어 문서와 소개 문구에서 쉽게 읽을 수 있습니다.",
+          usage_note: "실제 본인의 현지 발음이 다르면 발음 힌트를 입력해 조정하세요.",
+          caution_notes:
+            "현재 결과는 API 키가 없을 때 표시되는 예시이며 입력 이름별 실제 음역은 AI 연결 후 생성됩니다.",
+          suitability_score: 95,
+        },
+      ],
+      rejected_options: [],
+      add_on_recommendations: [],
+    };
+  }
+
   switch (serviceType) {
     case "HANJA_MEANING_MATCH":
       return buildHanjaMeaningResult(inputFactors);

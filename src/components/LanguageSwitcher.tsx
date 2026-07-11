@@ -50,7 +50,7 @@ export function LanguageSwitcher({
             {closeLabel}
           </span>
         </summary>
-        <div className="absolute right-0 z-50 mt-1.5 grid w-[min(92vw,36rem)] grid-cols-2 gap-x-2 gap-y-1 rounded-lg border border-white/20 bg-foreground/96 p-2 shadow-xl backdrop-blur sm:grid-cols-3 lg:grid-cols-4">
+        <div className="absolute right-0 z-50 mt-1.5 grid w-[min(92vw,48rem)] grid-cols-2 gap-x-2 gap-y-1 rounded-lg border border-white/20 bg-foreground/96 p-2 shadow-xl backdrop-blur sm:grid-cols-3 lg:grid-cols-6">
           {secondaryLocales.map((item) => (
             <Link
               key={item}
