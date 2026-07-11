@@ -3,8 +3,10 @@
 ## Current Git State
 
 - Branch: `main`
-- Current HEAD: `7a6f498 Refine logo and global naming input layout`
-- Today's changes are still uncommitted and have not been pushed or deployed.
+- Feature commit: `6f859a0 Add Hangul pronunciation service and polish landing`
+- The feature commit was pushed to `origin/main` and deployed to Vercel production.
+- Production URL: `https://naminglink.vercel.app`
+- Vercel deployment status: `Ready`
 - The worktree also contains pre-existing untracked logo files that were intentionally left untouched:
   - `public/images/logo_blank - 복사본.png`
   - `public/images/logo_full.png`
@@ -100,12 +102,11 @@
 - The no-API-key mock result is intentionally generic and is not a real transliteration engine; real name-specific output requires the configured OpenAI path.
 - Review whether pronunciation mode should eventually get a dedicated route instead of sharing `/global-to-korean` through a query parameter.
 - Confirm mobile behavior for the fixed-height desktop landing changes and the two global service cards.
-- No commit, push, or Vercel deployment was performed today.
+- Commit, push, and Vercel production deployment were completed after final verification.
 
 ## Suggested Next Steps
 
 1. Run `git status --short` and review the current diff.
 2. Visually verify Korean and English landing pages at desktop and mobile sizes.
 3. Test both global service detail flows, including a real API-backed pronunciation request if an API key is configured.
-4. Commit only the intended source changes and this status document.
-5. Push and deploy only after user approval.
+4. Review the three intentionally untracked logo assets separately before deciding whether to keep or remove them.
