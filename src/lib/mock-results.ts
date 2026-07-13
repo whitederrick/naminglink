@@ -41,12 +41,12 @@ export function getMockResult(
     case "KOREAN_TO_GLOBAL":
       return {
         analysis_summary:
-          "한글 이름의 소리와 의미, 목표 지역의 발음 습관, 직업적 인상을 함께 고려하면 단순 번역보다 실제로 소개하기 쉬운 이름이 적합합니다. 후보는 매칭률이 낮은 순서부터 표시합니다.",
+          "한글 이름의 소리와 의미, 목표 지역의 발음 습관, 직업적 인상을 함께 고려하면 단순 번역보다 실제로 소개하기 쉬운 이름이 적합합니다. 후보는 매칭률이 높은 순서부터 표시합니다.",
         candidates: [
           {
             name: "Ariel",
             recommendation_reason:
-              "부드럽고 기억하기 쉽지만 지역에 따라 성별 이미지가 다르게 읽힐 수 있어 낮은 매칭률 후보로 먼저 제시했습니다.",
+              "부드럽고 기억하기 쉽지만 지역에 따라 성별 이미지가 다르게 읽힐 수 있어 상대적으로 매칭률이 낮은 대안 후보입니다.",
             matching_rate: 61,
             region_fit: "영어권과 스페인어권에서 사용 가능하나 이미지 편차 있음",
             pronunciation: "AIR-ee-el",
@@ -131,12 +131,12 @@ export function getMockResult(
     case "GLOBAL_TO_KOREAN":
       return {
         analysis_summary:
-          "외국인 사용자의 목적은 한글 이름을 갖는 것이므로 결과의 중심은 한글 이름입니다. 한자 풀이는 기본 결과가 아니라 프리미엄 확장 리포트에서 제공합니다. 후보는 매칭률이 낮은 순서부터 표시합니다.",
+          "외국인 사용자의 목적은 한글 이름을 갖는 것이므로 결과의 중심은 한글 이름입니다. 한자 풀이는 기본 결과가 아니라 프리미엄 확장 리포트에서 제공합니다. 후보는 매칭률이 높은 순서부터 표시합니다.",
         candidates: [
           {
             hangul: "강브룩",
             recommendation_reason:
-              "원래 이름의 소리를 직접 살리지만 한국 이름으로는 다소 번역투가 강해 낮은 매칭률 후보로 먼저 보여줍니다.",
+              "원래 이름의 소리를 직접 살리지만 한국 이름으로는 다소 번역투가 강해 상대적으로 매칭률이 낮은 대안 후보입니다.",
             matching_rate: 52,
             pronunciation: "Kang Beu-ruk",
             meaning:

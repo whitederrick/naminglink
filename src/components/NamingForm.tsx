@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
-import { Eye, FileText, Palette, Send, Stamp } from "lucide-react";
+import { Send } from "lucide-react";
 import {
   getCountryOption,
   getCountryOptionsForLocale,
@@ -13,6 +13,8 @@ import {
 } from "@/lib/services";
 import { AdBanner } from "@/components/AdBanner";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
+import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
+import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 
@@ -22,13 +24,6 @@ type ApiResult = {
   result?: unknown;
   persistence?: "saved" | "skipped" | "failed";
   error?: string;
-};
-
-const addOnIcons = {
-  premiumPdf: FileText,
-  calligraphy: Palette,
-  stamp: Stamp,
-  adUnlock: Eye,
 };
 
 function fieldInitialValue(field: FieldConfig) {
@@ -102,6 +97,13 @@ function resolveMotivation(
   return selected || "general";
 }
 
+const ANALYSIS_AD_SECONDS = 5;
+
+function resultCandidateCount(result: unknown) {
+  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
+  const candidates = (result as Record<string, unknown>).candidates;
+  return Array.isArray(candidates) ? Math.min(candidates.length, 5) : 0;
+}
 export function NamingForm({
   service,
   locale,
@@ -142,20 +144,21 @@ export function NamingForm({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<ApiResult | null>(null);
-  const [revealAll, setRevealAll] = useState(false);
+  const [revealedCount, setRevealedCount] = useState(1);
+  const [analysisCountdown, setAnalysisCountdown] = useState(0);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [legalDocument, setLegalDocument] = useState<LegalDocument | null>(null);
-  const [selectedAddOns, setSelectedAddOns] = useState<string[]>([
-    "premiumPdf",
-  ]);
   const selectedCountry = selectedCountryFromValues(values);
+  const candidateCount = result?.result
+    ? resultCandidateCount(result.result)
+    : 0;
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError(null);
     setResult(null);
-    setRevealAll(false);
+    setRevealedCount(1);
 
     if (!agreedToTerms || !agreedToPrivacy) {
       setError("이용약관과 개인정보처리방침에 동의해야 분석을 시작할 수 있습니다.");
@@ -163,6 +166,21 @@ export function NamingForm({
     }
 
     setLoading(true);
+    setAnalysisCountdown(ANALYSIS_AD_SECONDS);
+    const adStartedAt = Date.now();
+    const countdownTimer = window.setInterval(() => {
+      const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
+      setAnalysisCountdown(Math.max(0, ANALYSIS_AD_SECONDS - elapsed));
+    }, 250);
+    let adWindowComplete = false;
+    const completeAdWindow = async () => {
+      const remaining = ANALYSIS_AD_SECONDS * 1000 - (Date.now() - adStartedAt);
+      if (remaining > 0) {
+        await new Promise((resolve) => window.setTimeout(resolve, remaining));
+      }
+      adWindowComplete = true;
+      setAnalysisCountdown(0);
+    };
 
     try {
       const countryProfile = selectedCountry
@@ -181,7 +199,7 @@ export function NamingForm({
       const inputFactors = {
         ...values,
         outputLanguage: values.outputLanguage || locale,
-        selectedAddOns,
+        selectedAddOns: [],
         serviceSlug: service.slug,
         countryProfile,
         legalConsent: {
@@ -202,6 +220,8 @@ export function NamingForm({
       });
 
       const payload = (await response.json()) as ApiResult;
+
+      await completeAdWindow();
 
       if (!response.ok || !payload.ok) {
         throw new Error(payload.error || "작명 요청을 처리하지 못했습니다.");
@@ -227,18 +247,13 @@ export function NamingForm({
 
       setResult(payload);
     } catch (caught) {
+      if (!adWindowComplete) await completeAdWindow();
       setError(caught instanceof Error ? caught.message : "오류가 발생했습니다.");
     } finally {
+      window.clearInterval(countdownTimer);
+      setAnalysisCountdown(0);
       setLoading(false);
     }
-  }
-
-  function toggleAddOn(key: string) {
-    setSelectedAddOns((current) =>
-      current.includes(key)
-        ? current.filter((item) => item !== key)
-        : [...current, key],
-    );
   }
 
   function updateField(field: FieldConfig, value: string) {
@@ -393,46 +408,6 @@ export function NamingForm({
           ) : null}
         </div>
 
-        {!isHangulTransliteration ? (
-          <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-            <h2 className="text-lg font-semibold">부가 서비스</h2>
-            <p className="mt-2 text-sm leading-6 text-muted">
-              필요한 추가 서비스를 선택해 분석 결과와 함께 신청할 수 있습니다.
-            </p>
-            <div className="mt-5 grid gap-3 md:grid-cols-2">
-              {service.addOns.map((addOn) => {
-                const Icon = addOnIcons[addOn.key];
-                const selected = selectedAddOns.includes(addOn.key);
-
-                return (
-                  <button
-                    key={addOn.key}
-                    type="button"
-                    onClick={() => toggleAddOn(addOn.key)}
-                    className={`rounded-lg border p-4 text-left transition ${
-                      selected
-                        ? "border-foreground bg-surface-strong"
-                        : "border-line bg-background hover:border-foreground"
-                    }`}
-                  >
-                    <span className="flex items-center justify-between gap-3">
-                      <span className="flex items-center gap-2 font-semibold">
-                        <Icon aria-hidden="true" size={17} />
-                        {addOn.title}
-                      </span>
-                      <span className="text-sm text-brand-teal">
-                        {addOn.priceLabel}
-                      </span>
-                    </span>
-                    <span className="mt-2 block text-sm leading-6 text-muted">
-                      {addOn.description}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-          </section>
-        ) : null}
 
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
           <h2 className="text-lg font-semibold">필수 동의</h2>
@@ -486,7 +461,7 @@ export function NamingForm({
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
         >
           <Send aria-hidden="true" size={17} />
-          {isHangulTransliteration ? "한글 발음 분석 시작" : "프리미엄 분석 시작"}
+          {isHangulTransliteration ? "한글 발음 분석 시작" : "광고 확인 후 분석 시작"}
         </button>
 
         {error ? (
@@ -497,48 +472,39 @@ export function NamingForm({
       </form>
 
       <section className="grid content-start gap-4">
-        {!isHangulTransliteration || loading ? (
-          <AdBanner variant="leaderboard" />
+        {loading ? (
+          <div className="grid gap-3">
+            <AdBanner variant="leaderboard" />
+            <p className="text-center text-sm font-medium text-brand-teal">
+              광고 확인 후 결과를 공개합니다. {analysisCountdown}초
+            </p>
+            <AILoadingSteps />
+          </div>
         ) : null}
-        {loading ? <AILoadingSteps /> : null}
 
         {result?.result && !isHangulTransliteration ? (
           <div className="grid gap-4">
-            <div className="flex flex-col gap-3 rounded-lg border border-line bg-surface p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="text-sm font-medium">분석 완료</p>
-                <p className="mt-1 text-sm text-muted">
-                  저장 상태: {result.persistence ?? "skipped"}
-                  {result.logId ? ` · ${result.logId}` : ""}
-                </p>
-              </div>
-              {!isHangulTransliteration ? (
-                <button
-                  type="button"
-                  onClick={() => setRevealAll((current) => !current)}
-                  className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line px-3 text-sm font-medium transition hover:border-foreground"
-                >
-                  <Eye aria-hidden="true" size={17} />
-                  {revealAll ? "잠금 보기" : "전체 후보 보기"}
-                </button>
-              ) : null}
+            <div className="rounded-lg border border-line bg-surface p-4 shadow-sm">
+              <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
+              <p className="mt-1 text-sm leading-6 text-muted">
+                가장 적합한 후보 1개를 먼저 공개했습니다. 추가 후보는 광고 확인 또는 향후 결제로 한 개씩 열 수 있습니다.
+              </p>
             </div>
             <ResultCard
               service={service}
               result={result.result}
-              revealAll={revealAll}
+              revealedCount={revealedCount}
             />
-
-          </div>
-        ) : null}
-
-        {!loading && !result && !isHangulTransliteration ? (
-          <div className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-            <p className="text-sm font-medium">프리미엄 결과 미리보기</p>
-            <p className="mt-2 text-sm leading-6 text-muted">
-              제출 후 후보, 배제 사유, 사주 참고 메모, 부가 서비스 제안이 이 영역에 표시됩니다.
-
-            </p>
+            <CandidateUnlockPanel
+              revealedCount={revealedCount}
+              totalCount={candidateCount}
+              onUnlock={() =>
+                setRevealedCount((current) =>
+                  Math.min(candidateCount, current + 1),
+                )
+              }
+            />
+            <ResultAddOnServices service={service} />
           </div>
         ) : null}
       </section>

@@ -6,7 +6,7 @@ const sharedRules = [
   "If a legal, registry, or official Hanja statement is uncertain, mark it as needs_official_verification.",
   "Support the requested outputLanguage and countryProfile.defaultLocale whenever possible, including Korean, English, Japanese, Chinese, German, Spanish, French, Italian, Portuguese, Vietnamese, Thai, Indonesian, Russian, Arabic, Filipino, Uzbek, Mongolian, Hindi, Turkish, Khmer, Malay, Kazakh, and Polish.",
   "When countryProfile is present, use its label, languageName, localNameHint, motivationNote, and resolvedMotivation as structured context.",
-  "Return exactly 5 candidates whenever possible. Every candidate must include matching_rate as a 0-100 number. Sort candidates from the lowest matching_rate to the highest matching_rate.",
+  "Return exactly 5 candidates whenever possible. Every candidate must include matching_rate as a 0-100 number. Sort candidates from the highest matching_rate to the lowest matching_rate. The first candidate must be the strongest recommendation.",
   "Include add_on_recommendations with suitable premiumPdf, calligraphy, stamp, or adUnlock suggestions.",
 ].join(" ");
 

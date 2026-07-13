@@ -4,7 +4,7 @@ import type { ServiceConfig } from "@/lib/services";
 type ResultCardProps = {
   service: ServiceConfig;
   result: unknown;
-  revealAll: boolean;
+  revealedCount: number;
 };
 
 function asRecord(value: unknown): Record<string, unknown> {
@@ -197,14 +197,10 @@ function PronunciationCandidateDetails({
   );
 }
 
-export function ResultCard({ service, result, revealAll }: ResultCardProps) {
+export function ResultCard({ service, result, revealedCount }: ResultCardProps) {
   const record = asRecord(result);
   const candidates = getCandidates(record)
-    .sort((a, b) =>
-      service.slug === "global-name-to-hangul"
-        ? (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1)
-        : (candidateRate(a) ?? 101) - (candidateRate(b) ?? 101),
-    )
+    .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
     .slice(0, 5);
   const rejected = getRejected(record);
 
@@ -223,12 +219,14 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold">{service.resultLabel}</h2>
           {service.slug !== "global-name-to-hangul" ? (
-            <span className="text-sm text-muted">{candidates.length}개 후보</span>
+            <span className="text-sm text-muted">
+              {Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금
+            </span>
           ) : null}
         </div>
 
         {candidates.map((item, index) => {
-          const locked = index > 0 && !revealAll;
+          const locked = index >= revealedCount;
           const title = candidateTitle(service, item, index);
           const subtitle =
             [text(item.hangul), text(item.pronunciation), text(item.region_fit)]
@@ -239,9 +237,12 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
           return (
             <article
               key={`${title}-${index}`}
-              className="relative overflow-hidden rounded-lg border border-line bg-surface p-5 shadow-sm"
+              className={`relative overflow-hidden rounded-lg border border-line bg-surface p-5 shadow-sm ${
+                locked ? "min-h-32" : ""
+              }`}
             >
-              <div className={locked ? "select-none blur-sm" : ""}>
+              {!locked ? (
+                <div>
                 {service.slug === "global-name-to-hangul" ? (
                   <PronunciationCandidateDetails
                     item={item}
@@ -365,11 +366,13 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
                 ) : null}
               </div>
 
+              ) : null}
+
               {locked ? (
                 <div className="absolute inset-0 flex items-center justify-center bg-white/70 px-4 text-center">
                   <span className="inline-flex items-center gap-2 rounded-lg bg-foreground px-3 py-2 text-sm font-medium text-background">
                     <Lock aria-hidden="true" size={16} />
-                    프리미엄 후보 잠금
+                    추가 광고 또는 결제로 공개
                   </span>
                 </div>
               ) : null}

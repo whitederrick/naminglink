@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FooterPolicyLinks } from "@/components/FooterPolicyLinks";
 import { companyInfo } from "@/lib/company";
 import type { Locale } from "@/lib/services";
 
@@ -6,6 +7,7 @@ type SiteFooterProps = {
   tone?: "light" | "dark";
   className?: string;
   locale?: Locale;
+  policyMode?: "links" | "modal";
 };
 
 type FooterCopy = {
@@ -640,6 +642,7 @@ export function SiteFooter({
   tone = "dark",
   className = "",
   locale = "ko",
+  policyMode = "links",
 }: SiteFooterProps) {
   const isLight = tone === "light";
   const wrapperClass = isLight
@@ -677,16 +680,29 @@ export function SiteFooter({
     >
       <div className="mx-auto max-w-7xl">
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 font-semibold">
-          {footerLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={linkClass}
-              dir={textDirection}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {policyMode === "modal" ? (
+            <FooterPolicyLinks
+              labels={{
+                terms: copy.links.terms,
+                privacy: copy.links.privacy,
+                refund: copy.links.refund,
+                pricing: copy.links.pricing,
+              }}
+              linkClass={linkClass}
+              textDirection={textDirection}
+            />
+          ) : (
+            footerLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={linkClass}
+                dir={textDirection}
+              >
+                {link.label}
+              </Link>
+            ))
+          )}
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5">

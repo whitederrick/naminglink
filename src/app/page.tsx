@@ -1,41 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { ArrowRight, Globe2 } from "lucide-react";
+import { ArrowRight, AudioLines, Globe2, Signature, Sparkles } from "lucide-react";
 import { BrandMark } from "@/components/BrandMark";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getLandingCopy, getTextDirection } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 import { serviceList, type Locale } from "@/lib/services";
-
-const logoBlankImageSrc = "/images/logo_blank.png?v=ink-nameplate-blank-20260710";
-
-const nameWordByLocale: Record<Locale, string> = {
-  ko: "이름",
-  en: "Name",
-  ja: "名前",
-  zh: "名字",
-  de: "Name",
-  es: "Nombre",
-  fr: "Nom",
-  it: "Nome",
-  pt: "Nome",
-  vi: "Tên",
-  th: "ชื่อ",
-  id: "Nama",
-  ru: "Имя",
-  ar: "اسم",
-  fil: "Pangalan",
-  uz: "Ism",
-  mn: "Нэр",
-  hi: "नाम",
-  tr: "İsim",
-  km: "ឈ្មោះ",
-  ms: "Nama",
-  kk: "Аты",
-  pl: "Imię",
-};
 
 const hangulPronunciationCopy: Record<
   Locale,
@@ -66,115 +38,87 @@ const hangulPronunciationCopy: Record<
   pl: { audience: "Do zapisu wymowy w hangulu", title: "Zapisz imię w hangulu", description: "Przenosi oryginalną wymowę do naturalnego zapisu w hangulu bez tworzenia nowego koreańskiego imienia." },
 };
 
-function LocalizedNamePlateIcon({ locale }: { locale: Locale }) {
-  const label = nameWordByLocale[locale] ?? nameWordByLocale.en;
-  const labelSizeClass =
-    label.length > 7
-      ? "text-[7px] sm:text-[8px]"
-      : label.length > 5
-        ? "text-[9px] sm:text-[10px]"
-        : label.length > 4
-          ? "text-[10px] sm:text-[11px]"
-          : label.length > 3
-            ? "text-[13px] sm:text-[14px]"
-            : "text-[15px] sm:text-[16px]";
-
+function LandingIconShell({ children }: { children: ReactNode }) {
   return (
     <span
       aria-hidden="true"
-      className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-black/10"
+      className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-md border border-white/20 bg-black/18 text-white shadow-inner backdrop-blur-sm"
     >
-      <Image
-        src={logoBlankImageSrc}
-        alt=""
-        fill
-        unoptimized
-        className="scale-[1.55] object-cover"
-        sizes="72px"
-      />
-      <span className="absolute left-1/2 top-1/2 flex h-[42%] w-[64%] -translate-x-1/2 -translate-y-[43%] items-center justify-center px-0.5">
-        <span
-          className={`max-w-full whitespace-nowrap text-center font-bold leading-none tracking-normal text-black ${labelSizeClass}`}
-          dir={locale === "ar" ? "rtl" : "ltr"}
-        >
-          {label}
-        </span>
-      </span>
-    </span>
-  );
-}
-
-function HangulPronunciationIcon() {
-  return (
-    <InkIconShell>
-      <span className="relative flex h-[3.45rem] w-[3.45rem] rotate-[-1deg] flex-col items-center justify-center rounded-md border-[2.5px] border-black bg-[#fffefa] text-black shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
-        <span className="text-[9px] font-black leading-none tracking-wide">
-          ABC
-        </span>
-        <span className="my-1 flex items-center gap-0.5 text-[7px] font-black leading-none text-[#9b2f28]">
-          <span>발음</span>
-          <span>→</span>
-        </span>
-        <span
-          className="text-[15px] font-black leading-none"
-          style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
-        >
-          한글
-        </span>
-      </span>
-    </InkIconShell>
-  );
-}
-
-function InkIconShell({ children }: { children: ReactNode }) {
-  return (
-    <span
-      aria-hidden="true"
-      className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-[#fbfaf5] shadow-sm ring-1 ring-black/10"
-    >
-      <span className="absolute inset-0 bg-[radial-gradient(circle_at_50%_52%,rgba(12,12,10,0.36),rgba(12,12,10,0.18)_42%,rgba(12,12,10,0.05)_64%,rgba(12,12,10,0)_78%)]" />
-      <span className="absolute -left-2 top-3 h-10 w-12 rotate-[-16deg] rounded-[44%] bg-black/14 blur-[2px]" />
-      <span className="absolute bottom-0 right-0 h-11 w-12 rotate-[15deg] rounded-[44%] bg-black/13 blur-[2px]" />
+      <span className="absolute inset-x-2 top-2 h-px bg-white/16" />
+      <span className="absolute inset-x-2 bottom-2 h-px bg-white/10" />
       {children}
     </span>
   );
 }
 
-function FancyKoreanServiceIcon({ icon }: { icon: "hanja" | "passport" | "korean" }) {
+function LocalizedNamePlateIcon() {
+  return (
+    <LandingIconShell>
+      <span className="relative flex h-[3.45rem] w-[3.45rem] items-center justify-center rounded-md border border-white/42 bg-white/6 text-white">
+        <Signature aria-hidden="true" size={31} strokeWidth={1.7} />
+        <Sparkles
+          aria-hidden="true"
+          size={13}
+          strokeWidth={1.8}
+          className="absolute right-1.5 top-1.5 text-[#e6c8b6]"
+        />
+      </span>
+    </LandingIconShell>
+  );
+}
+function HangulPronunciationIcon() {
+  return (
+    <LandingIconShell>
+      <span className="relative flex h-[3.45rem] w-[3.45rem] flex-col items-center justify-center rounded-md border border-white/42 bg-white/6 text-white">
+        <AudioLines
+          aria-hidden="true"
+          size={33}
+          strokeWidth={1.7}
+          className="text-white"
+        />
+        <span className="absolute bottom-1.5 right-1.5 size-1.5 rounded-full bg-[#e6c8b6]" />
+      </span>
+    </LandingIconShell>
+  );
+}
+
+function FancyKoreanServiceIcon({
+  icon,
+}: {
+  icon: "hanja" | "passport" | "korean";
+}) {
   if (icon === "passport") {
     return (
-      <InkIconShell>
-        <span className="relative flex h-[3.25rem] w-[2.45rem] rotate-[2deg] flex-col items-center justify-center rounded-md border border-white/60 bg-[#23372f] text-white shadow-[0_4px_10px_rgba(0,0,0,0.28)]">
-          <span className="absolute inset-x-1 top-1.5 h-px bg-white/30" />
-          <Globe2 aria-hidden="true" size={25} strokeWidth={1.9} />
-          <span className="mt-1 text-[7px] font-black leading-none tracking-normal">
+      <LandingIconShell>
+        <span className="relative flex h-[3.45rem] w-[3.45rem] flex-col items-center justify-center rounded-md border border-white/42 bg-white/6 text-white">
+          <Globe2 aria-hidden="true" size={24} strokeWidth={1.7} />
+          <span className="mt-1 text-[8px] font-semibold tracking-[0.12em] text-white/70">
             NAME
           </span>
-          <span className="absolute -right-2 -top-1 flex h-5 w-5 rotate-[12deg] items-center justify-center rounded-[3px] border border-[#9b2f28]/70 bg-[#fffefa] text-[8px] font-black leading-none text-[#9b2f28]">
+          <span className="absolute right-1.5 top-1.5 text-[8px] font-semibold text-[#e6c8b6]">
             名
           </span>
         </span>
-      </InkIconShell>
+      </LandingIconShell>
     );
   }
 
   return (
-    <InkIconShell>
-      <span className="relative flex h-[3.2rem] w-[3.35rem] rotate-[-2deg] items-center justify-center rounded-md border-[2.5px] border-black bg-[#fffefa] shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+    <LandingIconShell>
+      <span className="relative flex h-[3.45rem] w-[3.45rem] items-center justify-center rounded-md border border-white/42 bg-white/6">
         <span
-          className="text-[1.85rem] font-black leading-none text-black"
+          className="text-[1.75rem] font-semibold leading-none text-white"
           style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
         >
           漢
         </span>
-        <span className="absolute bottom-1 right-1 rounded-sm border border-[#9b2f28]/75 px-0.5 text-[8px] font-black leading-none text-[#9b2f28]">
+        <span className="absolute bottom-1.5 right-1.5 text-[8px] font-semibold text-[#e6c8b6]">
           意
         </span>
       </span>
-    </InkIconShell>
+    </LandingIconShell>
   );
 }
-
 type HomeProps = {
   searchParams?: Promise<{ lang?: string }>;
 };
@@ -216,7 +160,7 @@ export default async function Home({ searchParams }: HomeProps) {
             <BrandMark />
             <span className="flex flex-col gap-1">
               <span className="text-[22px] font-semibold leading-none">
-                Naming - Link
+                Naming-Link
               </span>
               <span
                 className="text-[18px] font-medium leading-none text-white/78"
@@ -268,7 +212,7 @@ export default async function Home({ searchParams }: HomeProps) {
                 className="group h-[7.25rem] rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
               >
                 <div className="relative flex items-start gap-3 pr-7">
-                  <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg bg-white text-foreground">
+                  <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg border border-white/18 bg-black/20 p-1 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-sm">
                     <HangulPronunciationIcon />
                   </span>
                   <div className="min-w-0 flex-1 text-left" dir={textDirection}>
@@ -300,11 +244,11 @@ export default async function Home({ searchParams }: HomeProps) {
                   className="group h-[7.25rem] rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
                 >
                   <div className="relative flex items-start gap-3 pr-7">
-                    <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg bg-white text-foreground">
+                    <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg border border-white/18 bg-black/20 p-1 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-sm">
                       {isKoreanEntry ? (
                         <FancyKoreanServiceIcon icon={service.icon} />
                       ) : (
-                        <LocalizedNamePlateIcon locale={locale} />
+                        <LocalizedNamePlateIcon />
                       )}
                     </span>
                     <div
@@ -335,8 +279,9 @@ export default async function Home({ searchParams }: HomeProps) {
 
         <SiteFooter
           tone="light"
-          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-3 !pt-2 backdrop-blur"
+          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-4 !pt-2 backdrop-blur"
           locale={locale}
+          policyMode="modal"
         />
       </section>
     </main>

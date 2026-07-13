@@ -961,7 +961,7 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         "한자는 지정 발음으로만 검토해야 하며, 동자/속자/약자와 부수 변형은 공식 조회에서 확인되는 경우에만 허용합니다.",
     };
   })
-    .sort((a, b) => a.matching_rate - b.matching_rate)
+    .sort((a, b) => b.matching_rate - a.matching_rate)
     .slice(0, 5);
 
   const rejectedFromSound = givenSyllables.flatMap((syllable) => negativeHanja[syllable] ?? []);
@@ -975,7 +975,7 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   return {
     analysis_summary: missingSyllables.length
       ? `'${rawGivenName}' 중 ${missingSyllables.join(", ")} 음절은 아직 서비스 내 공식 한자 DB 후보가 없습니다. 잘못된 한자를 제안하지 않도록 추천을 보류하고, PDF 검수 데이터 보강이 필요한 항목으로 표시했습니다.`
-      : `'${rawGivenName}'의 각 음절 발음에 맞는 한자 후보만 조합했습니다. 최종 후보는 5개까지, 매칭률이 낮은 후보부터 보여주며 각 후보 안에는 음절별 추천 한자 최대 3개와 의미/해석을 함께 제공합니다.`,
+      : `'${rawGivenName}'의 각 음절 발음에 맞는 한자 후보만 조합했습니다. 최종 후보는 5개까지, 매칭률이 높은 후보부터 보여주며 각 후보 안에는 음절별 추천 한자 최대 3개와 의미/해석을 함께 제공합니다.`,
     candidates,
     rejected_hanja: [...rejectedFromSound, ...excludedCondition(inputFactors), ...missingRejected],
     official_verification_note:

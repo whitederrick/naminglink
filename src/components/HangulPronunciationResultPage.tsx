@@ -258,7 +258,7 @@ export function HangulPronunciationResultPage({
             <ResultCard
               service={globalNameToHangulService}
               result={currentStored.result}
-              revealAll={false}
+              revealedCount={1}
             />
             <ReanalysisSection
               key={currentStored.createdAt}

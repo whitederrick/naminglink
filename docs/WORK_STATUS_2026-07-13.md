@@ -110,3 +110,52 @@ Updated the Korean copy shown on the two global-name service introduction screen
 
 - `pnpm lint`: passed
 - `pnpm build`: passed
+## Follow-up: Landing Brand and Service Icon System
+
+- Reworked the existing watercolor logo into a compact dark-glass mark with a white-ink treatment, removing the detached white-square appearance.
+- Reduced the logo frame from 64px to 56px and aligned its border, corner radius, shadow, and transparency with the landing controls.
+- Standardized the brand label to `Naming-Link`.
+- Replaced the mixed photo, paper, passport, and ink-cloud icon treatments with one code-native monochrome glass icon system.
+- Applied the same frame, border, background transparency, line weight, and restrained warm accent to Hanja, global-name conversion, Hangul pronunciation, and Korean-name cards.
+- Removed the landing dependency on the raster `logo_blank.png` service icon while retaining the user-provided main logo asset.
+
+### Verification
+
+- `pnpm lint`: passed
+- `pnpm build`: passed
+- Browser visual check completed for Korean and English landing pages at desktop size.
+- Confirmed that the logo no longer appears as a separate white image tile and that all service icons share one visual language.
+## Follow-up: Landing Footer Policy Modals
+
+- Changed the landing footer policy actions for Terms, Privacy Policy, Refund Policy, and Pricing from page navigation to in-place modal dialogs.
+- Removed the Login action from the landing footer without assigning it a new location.
+- Kept the existing policy-page links and Login link on non-landing footers.
+- Reused the same shared policy document content for the modal dialogs and standalone refund/pricing pages.
+- Retained backdrop click, Escape key, top close control, and bottom close button behavior for all four dialogs.
+
+### Verification
+
+- `git diff --check`: passed
+- `pnpm lint`: passed
+- `pnpm build`: passed
+- Browser check: confirmed four policy buttons, modal open/close behavior, unchanged landing URL, and no Login action in the landing footer.
+## Follow-up: Shared Ad-Gated Candidate Results
+
+- Applied the rewarded-ad analysis flow to all non-transliteration naming services that use the shared naming form.
+- Removed the always-visible pre-analysis ad and pre-analysis add-on selection area.
+- Every analysis now keeps the ad/loading state visible for at least five seconds before showing a result.
+- Opens only the strongest candidate initially and orders candidates from highest matching rate to lowest.
+- Replaced the previous all-at-once reveal toggle with one-candidate-at-a-time unlocking.
+- Each rewarded-ad confirmation waits five seconds and unlocks exactly one additional candidate.
+- Added a disabled one-candidate payment option as the integration point for the future payment provider.
+- Locked candidates no longer render their hidden details in the DOM; only the lock card is rendered.
+- Added post-result add-on cards tailored to Hanja analysis, Korean-to-global naming, and Korean-name creation.
+- Detailed reports and goods requests remain clearly marked as preparation-stage until payment, order, and catalog integrations are connected.
+- Updated mock, built-in Hanja, and OpenAI prompt ordering so the first candidate is consistently the strongest recommendation.
+
+### Verification
+
+- `git diff --check`: passed
+- `pnpm lint`: passed
+- `pnpm build`: passed after the final locked-DOM refinement.
+- Browser check: confirmed the five-second initial ad state, one initially open candidate, four locked candidates without leaked details, a five-second unlock ad, and exactly one additional candidate opening.

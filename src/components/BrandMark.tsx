@@ -10,16 +10,16 @@ export function BrandMark({ className = "" }: BrandMarkProps) {
   return (
     <span
       aria-hidden="true"
-      className={`relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-white/45 ${className}`}
+      className={`relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-white/25 bg-black/20 shadow-[0_8px_24px_rgba(0,0,0,0.18)] backdrop-blur-sm ${className}`}
     >
       <Image
         src={logoImageSrc}
         alt=""
-        width={64}
-        height={64}
+        width={56}
+        height={56}
         unoptimized
-        className="h-full w-full scale-[1.28] object-cover"
-        sizes="64px"
+        className="h-full w-full scale-[1.52] object-cover grayscale invert contrast-125 opacity-90 mix-blend-screen"
+        sizes="56px"
       />
     </span>
   );
