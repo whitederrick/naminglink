@@ -74,7 +74,6 @@ function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
       ["한글 표기 발음", item.pronunciation],
       ["추천 이유", item.recommendation_reason],
       ["한국어 자연스러움", item.cultural_fit],
-      ["사용 안내", item.usage_note],
       ["주의", item.caution_notes],
     ] satisfies Array<[string, unknown]>;
   }
@@ -117,6 +116,85 @@ function getBreakdown(value: unknown) {
 function getNestedOptions(value: unknown) {
   const record = asRecord(value);
   return arrayRecords(record.options);
+}
+
+function PronunciationCandidateDetails({
+  item,
+  title,
+  matchingRate,
+}: {
+  item: Record<string, unknown>;
+  title: string;
+  matchingRate: number | null;
+}) {
+  const pronunciationFacts = [
+    ["원어 발음 기준", item.source_pronunciation_basis],
+    ["발음 기호", item.ipa],
+    ["음절 분석", item.syllables],
+    ["한글 표기 발음", item.pronunciation],
+  ] satisfies Array<[string, unknown]>;
+  const explanations = [
+    ["표기 근거", item.recommendation_reason],
+    ["한국어 표기 특징", item.cultural_fit],
+  ] satisfies Array<[string, unknown]>;
+
+  return (
+    <div className="grid gap-4">
+      <div className="flex flex-wrap items-start justify-between gap-4 rounded-lg bg-surface-strong p-5">
+        <div>
+          <p className="text-sm font-semibold text-brand-teal">
+            추천 한글 표기
+          </p>
+          <h3 className="mt-2 text-3xl font-semibold tracking-normal sm:text-4xl">
+            {title}
+          </h3>
+        </div>
+        {matchingRate !== null ? (
+          <span className="rounded-lg bg-background px-3 py-2 text-sm font-semibold text-brand-teal shadow-sm">
+            매칭률 {matchingRate}%
+          </span>
+        ) : null}
+      </div>
+
+      <dl className="grid gap-3 sm:grid-cols-2">
+        {pronunciationFacts
+          .filter(([, value]) => text(value))
+          .map(([label, value]) => (
+            <div
+              key={label}
+              className="rounded-lg border border-line bg-background p-4"
+            >
+              <dt className="text-xs font-semibold text-brand-teal">{label}</dt>
+              <dd className="mt-2 text-base font-medium leading-6 text-foreground">
+                {text(value)}
+              </dd>
+            </div>
+          ))}
+      </dl>
+
+      <dl className="grid gap-3 md:grid-cols-2">
+        {explanations
+          .filter(([, value]) => text(value))
+          .map(([label, value]) => (
+            <div key={label} className="rounded-lg bg-surface-strong p-4">
+              <dt className="text-sm font-semibold">{label}</dt>
+              <dd className="mt-2 text-sm leading-6 text-muted">
+                {text(value)}
+              </dd>
+            </div>
+          ))}
+      </dl>
+
+      {text(item.caution_notes) ? (
+        <div className="rounded-lg border border-brand-rose/20 bg-brand-rose/5 p-4">
+          <p className="text-sm font-semibold">확인 사항</p>
+          <p className="mt-2 text-sm leading-6 text-muted">
+            {text(item.caution_notes)}
+          </p>
+        </div>
+      ) : null}
+    </div>
+  );
 }
 
 export function ResultCard({ service, result, revealAll }: ResultCardProps) {
@@ -164,30 +242,42 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
               className="relative overflow-hidden rounded-lg border border-line bg-surface p-5 shadow-sm"
             >
               <div className={locked ? "select-none blur-sm" : ""}>
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <p className="text-sm text-muted">{subtitle}</p>
-                    <h3 className="mt-1 text-2xl font-semibold tracking-normal">
-                      {title}
-                    </h3>
-                  </div>
-                  {matchingRate !== null ? (
-                    <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
-                      매칭률 {matchingRate}%
-                    </span>
-                  ) : null}
-                </div>
-
-                <dl className="mt-4 grid gap-3 text-sm leading-6">
-                  {candidateRows(service, item)
-                    .filter(([, value]) => text(value))
-                    .map(([label, value]) => (
-                      <div key={label} className="grid gap-1">
-                        <dt className="font-medium text-foreground">{label}</dt>
-                        <dd className="text-muted">{text(value)}</dd>
+                {service.slug === "global-name-to-hangul" ? (
+                  <PronunciationCandidateDetails
+                    item={item}
+                    title={title}
+                    matchingRate={matchingRate}
+                  />
+                ) : (
+                  <>
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                      <div>
+                        <p className="text-sm text-muted">{subtitle}</p>
+                        <h3 className="mt-1 text-2xl font-semibold tracking-normal">
+                          {title}
+                        </h3>
                       </div>
-                    ))}
-                </dl>
+                      {matchingRate !== null ? (
+                        <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
+                          매칭률 {matchingRate}%
+                        </span>
+                      ) : null}
+                    </div>
+
+                    <dl className="mt-4 grid gap-3 text-sm leading-6">
+                      {candidateRows(service, item)
+                        .filter(([, value]) => text(value))
+                        .map(([label, value]) => (
+                          <div key={label} className="grid gap-1">
+                            <dt className="font-medium text-foreground">
+                              {label}
+                            </dt>
+                            <dd className="text-muted">{text(value)}</dd>
+                          </div>
+                        ))}
+                    </dl>
+                  </>
+                )}
 
                 {service.serviceType === "HANJA_MEANING_MATCH" &&
                 getBreakdown(item.hanja_options).length ? (

@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Headphones, Home, ShoppingBag } from "lucide-react";
-import { useMemo, useSyncExternalStore } from "react";
+import { Headphones, Home, RotateCcw, ShoppingBag } from "lucide-react";
+import { useMemo, useState, useSyncExternalStore } from "react";
+import { AdBanner } from "@/components/AdBanner";
 import { ResultCard } from "@/components/ResultCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
@@ -15,7 +16,133 @@ type StoredResult = {
   logId: string | null;
   persistence: "saved" | "skipped" | "failed";
   createdAt: string;
+  inputFactors?: Record<string, unknown>;
 };
+
+type ApiResult = {
+  ok: boolean;
+  logId?: string | null;
+  result?: unknown;
+  persistence?: "saved" | "skipped" | "failed";
+  error?: string;
+};
+
+function ReanalysisSection({
+  stored,
+  storageKey,
+  onUpdated,
+}: {
+  stored: StoredResult;
+  storageKey: string;
+  onUpdated: (next: StoredResult) => void;
+}) {
+  const savedInputFactors = stored.inputFactors ?? {};
+  const initialHint =
+    typeof savedInputFactors.pronunciationHint === "string"
+      ? savedInputFactors.pronunciationHint
+      : "";
+  const [pronunciationHint, setPronunciationHint] = useState(initialHint);
+  const [loading, setLoading] = useState(false);
+  const [countdown, setCountdown] = useState(0);
+  const [error, setError] = useState<string | null>(null);
+
+  async function reanalyze() {
+    setError(null);
+    setLoading(true);
+    setCountdown(5);
+    const timer = window.setInterval(() => {
+      setCountdown((current) => Math.max(0, current - 1));
+    }, 1000);
+
+    try {
+      const inputFactors = {
+        ...savedInputFactors,
+        pronunciationHint: pronunciationHint.trim(),
+      };
+      const request = fetch("/api/naming", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          serviceType: "GLOBAL_TO_KOREAN",
+          inputFactors,
+        }),
+      });
+      const [response] = await Promise.all([
+        request,
+        new Promise((resolve) => window.setTimeout(resolve, 5000)),
+      ]);
+      const payload = (await response.json()) as ApiResult;
+
+      if (!response.ok || !payload.ok || !payload.result) {
+        throw new Error(payload.error || "발음 재분석을 완료하지 못했습니다.");
+      }
+
+      const next: StoredResult = {
+        result: payload.result,
+        logId: payload.logId ?? null,
+        persistence: payload.persistence ?? "skipped",
+        createdAt: new Date().toISOString(),
+        inputFactors,
+      };
+      sessionStorage.setItem(storageKey, JSON.stringify(next));
+      onUpdated(next);
+    } catch (caught) {
+      setError(
+        caught instanceof Error
+          ? caught.message
+          : "발음 재분석 중 오류가 발생했습니다.",
+      );
+    } finally {
+      window.clearInterval(timer);
+      setCountdown(0);
+      setLoading(false);
+    }
+  }
+
+  return (
+    <section className="rounded-lg border border-brand-teal/25 bg-surface p-5 shadow-sm">
+      <p className="text-sm font-semibold text-brand-teal">
+        실제 발음과 다른가요?
+      </p>
+      <h2 className="mt-2 text-lg font-semibold">발음 힌트로 다시 분석</h2>
+      <p className="mt-2 text-sm leading-6 text-muted">
+        실제 발음 방법을 더 구체적으로 입력하면 같은 이름과 언어·국가 조건으로
+        다시 분석합니다.
+      </p>
+      <label className="mt-5 grid gap-2">
+        <span className="text-sm font-medium">실제 발음 힌트</span>
+        <input
+          value={pronunciationHint}
+          onChange={(event) => setPronunciationHint(event.target.value)}
+          placeholder="예: Dan-yell과 비슷함"
+          className="h-11 rounded-lg border border-line bg-background px-3 text-sm outline-none transition focus:border-foreground"
+        />
+      </label>
+      {loading ? (
+        <div className="mt-5 grid gap-3">
+          <AdBanner variant="leaderboard" />
+          <p className="text-center text-sm font-medium text-brand-teal">
+            광고 확인 후 다시 분석합니다. {countdown}초
+          </p>
+        </div>
+      ) : null}
+      {error ? (
+        <p className="mt-4 rounded-lg border border-brand-rose/30 bg-brand-rose/10 px-3 py-2 text-sm text-brand-rose">
+          {error}
+        </p>
+      ) : null}
+      <button
+        type="button"
+        onClick={reanalyze}
+        disabled={loading || !pronunciationHint.trim()}
+        className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        <RotateCcw aria-hidden="true" size={17} />
+        {loading ? "다시 분석 중" : "발음 힌트로 다시 분석"}
+      </button>
+    </section>
+  );
+}
 
 function ResultServices() {
   return (
@@ -99,6 +226,8 @@ export function HangulPronunciationResultPage({
       return null;
     }
   }, [raw]);
+  const [updatedStored, setUpdatedStored] = useState<StoredResult | null>(null);
+  const currentStored = updatedStored ?? stored;
 
   return (
     <main className="min-h-screen">
@@ -118,7 +247,7 @@ export function HangulPronunciationResultPage({
           <section className="rounded-lg border border-line bg-surface p-6 text-sm text-muted shadow-sm">
             결과를 불러오고 있습니다.
           </section>
-        ) : stored ? (
+        ) : currentStored ? (
           <div className="grid gap-5">
             <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
               <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
@@ -128,8 +257,14 @@ export function HangulPronunciationResultPage({
             </section>
             <ResultCard
               service={globalNameToHangulService}
-              result={stored.result}
+              result={currentStored.result}
               revealAll={false}
+            />
+            <ReanalysisSection
+              key={currentStored.createdAt}
+              stored={currentStored}
+              storageKey={storageKey}
+              onUpdated={setUpdatedStored}
             />
             <ResultServices />
           </div>

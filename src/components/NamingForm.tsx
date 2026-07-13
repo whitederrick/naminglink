@@ -178,6 +178,18 @@ export function NamingForm({
           }
         : null;
 
+      const inputFactors = {
+        ...values,
+        outputLanguage: values.outputLanguage || locale,
+        selectedAddOns,
+        serviceSlug: service.slug,
+        countryProfile,
+        legalConsent: {
+          termsVersion: "2026-07-09",
+          privacyVersion: "2026-07-09",
+          consentedAt: new Date().toISOString(),
+        },
+      };
       const response = await fetch("/api/naming", {
         method: "POST",
         headers: {
@@ -185,18 +197,7 @@ export function NamingForm({
         },
         body: JSON.stringify({
           serviceType: service.serviceType,
-          inputFactors: {
-            ...values,
-            outputLanguage: values.outputLanguage || locale,
-            selectedAddOns,
-            serviceSlug: service.slug,
-            countryProfile,
-            legalConsent: {
-              termsVersion: "2026-07-09",
-              privacyVersion: "2026-07-09",
-              consentedAt: new Date().toISOString(),
-            },
-          },
+          inputFactors,
         }),
       });
 
@@ -215,6 +216,7 @@ export function NamingForm({
             logId: payload.logId ?? null,
             persistence: payload.persistence ?? "skipped",
             createdAt: new Date().toISOString(),
+            inputFactors,
           }),
         );
         router.replace(

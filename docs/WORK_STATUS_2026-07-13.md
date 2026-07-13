@@ -82,3 +82,31 @@ Updated the Korean copy shown on the two global-name service introduction screen
 - `pnpm build`: passed
 - Build route confirmed: `/global-to-korean/result`
 - Removed the redundant analysis-summary panel and single-candidate count from the Hangul pronunciation result screen.
+
+## Follow-up: Pronunciation Hint Reanalysis
+
+- Removed the generic `사용 안내` row from Hangul pronunciation result details.
+- Added a separate `실제 발음과 다른가요?` section below the basic result.
+- Preserves the original name, selected source language, country, consent metadata, and other input factors in tab-scoped session storage.
+- Lets the user enter or revise only the pronunciation hint and request analysis again with the same original conditions.
+- Shows the ad banner and enforces a minimum five-second wait for every reanalysis request.
+- Disables repeated clicks while reanalysis is running and replaces the result in the same dedicated result screen when complete.
+- The existing API daily rate limit still applies to every reanalysis request.
+
+### Verification
+
+- `pnpm lint`: passed
+- `pnpm build`: passed
+## Follow-up: Pronunciation Result Detail Layout
+
+- Replaced the sparse single-column pronunciation result details with a dedicated responsive layout.
+- Highlights the recommended Hangul spelling and matching rate in a compact header panel.
+- Arranges source-pronunciation basis, IPA, syllable analysis, and Hangul pronunciation in a two-by-two information grid.
+- Arranges transliteration evidence and Korean-naturalness guidance side by side.
+- Shows caution text only when present and uses the full card width.
+- Keeps the generic usage-note row removed; pronunciation correction now lives in the separate reanalysis section.
+
+### Verification
+
+- `pnpm lint`: passed
+- `pnpm build`: passed
