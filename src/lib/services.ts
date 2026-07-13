@@ -749,7 +749,7 @@ export const services = {
     serviceType: "GLOBAL_TO_KOREAN",
     title: "외국 이름을 한국 이름으로 변환",
     shortTitle: "한국 이름",
-    eyebrow: "한국 생활과 브랜드를 위한 이름",
+    eyebrow: "한국 생활과 브랜드를 위한 한글 이름",
     audience: "한국 이름이 필요한 외국인, 교포, 글로벌 브랜드",
     description:
       "원래 이름, 출신 국가, 생년월일과 생시, 한국에서의 사용 맥락을 선택값으로 받아 자연스럽고 설명 가능한 한국 이름을 제안합니다.",
@@ -883,12 +883,12 @@ export const globalNameToHangulService: ServiceConfig = {
   slug: "global-name-to-hangul",
   title: "글로벌 이름을 발음대로 한글로 표기",
   shortTitle: "한글 발음 표기",
-  eyebrow: "원래 이름의 소리를 유지하는 한글 표기",
+  eyebrow: "본인 이름을 한글로 표기",
   audience: "한글로 이름을 소개하거나 기록하려는 글로벌 사용자",
   description:
-    "이름을 새로 만들지 않고 원래 이름의 발음을 분석해 자연스러운 한글 표기를 제안합니다.",
+    "본인 이름의 발음을 분석해 자연스러운 한글 표기를 제안합니다.",
   promise:
-    "원래 이름의 소리와 음절을 우선하며, 한국어 발음 규칙에 맞는 표기와 대안을 안내합니다.",
+    "본인 이름의 소리와 음절을 우선하며, 한국어 발음 규칙에 맞춰 안내합니다.",
   resultLabel: "추천 한글 발음 표기",
   sections: [
     {

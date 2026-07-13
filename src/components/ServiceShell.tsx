@@ -95,13 +95,10 @@ function ServicePromisePanel({
             </p>
           </div>
           {isGlobalToKorean && !isHangulTransliteration ? (
-            <div className="mt-3 grid gap-1 text-sm leading-6 text-muted">
-              <p>
-                생성 결과는 실제 부르고 쓰기 쉬운 한글 이름 중심으로
-                제안합니다.
-              </p>
-              <p>이름의 의미와 발음 등을 확인할 수 있습니다.</p>
-            </div>
+            <p className="mt-3 text-sm leading-6 text-muted">
+              부르고 쓰기 쉬운 이름으로 제안하며, 의미와 발음 등을 확인할 수
+              있습니다.
+            </p>
           ) : (
             <p className="mt-2 text-sm leading-6 text-muted">
               {service.promise}
