@@ -132,17 +132,21 @@ export function ResultCard({ service, result, revealAll }: ResultCardProps) {
 
   return (
     <div className="grid gap-4">
-      <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-        <p className="text-sm font-semibold text-brand-teal">분석 요약</p>
-        <p className="mt-3 text-sm leading-6 text-muted">
-          {text(record.analysis_summary) || "분석 결과가 준비되었습니다."}
-        </p>
-      </section>
+      {service.slug !== "global-name-to-hangul" ? (
+        <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
+          <p className="text-sm font-semibold text-brand-teal">분석 요약</p>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            {text(record.analysis_summary) || "분석 결과가 준비되었습니다."}
+          </p>
+        </section>
+      ) : null}
 
       <section className="grid gap-3">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold">{service.resultLabel}</h2>
-          <span className="text-sm text-muted">{candidates.length}개 후보</span>
+          {service.slug !== "global-name-to-hangul" ? (
+            <span className="text-sm text-muted">{candidates.length}개 후보</span>
+          ) : null}
         </div>
 
         {candidates.map((item, index) => {

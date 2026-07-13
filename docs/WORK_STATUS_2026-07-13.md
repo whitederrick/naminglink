@@ -81,3 +81,4 @@ Updated the Korean copy shown on the two global-name service introduction screen
 - `pnpm lint`: passed
 - `pnpm build`: passed
 - Build route confirmed: `/global-to-korean/result`
+- Removed the redundant analysis-summary panel and single-candidate count from the Hangul pronunciation result screen.
