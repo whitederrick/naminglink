@@ -779,7 +779,7 @@ export const services = {
     sections: [
       {
         title: "Original identity",
-        description: "Choose structured identity data for a Korean name.",
+        description: "한글 이름 추천에 필요한 기본 정보를 선택합니다.",
         fields: [
           {
             name: "originalName",
@@ -811,7 +811,7 @@ export const services = {
       },
       {
         title: "Birth profile",
-        description: "Use dropdowns so the input stays clean and comparable.",
+        description: "정확한 비교와 분석을 위해 항목별 정보를 선택합니다.",
         fields: [
           {
             name: "birthYear",
@@ -845,7 +845,7 @@ export const services = {
       },
       {
         title: "Korean usage context",
-        description: "Select the tone and practical Korean context.",
+        description: "원하는 이름의 분위기와 한국에서의 사용 목적을 선택합니다.",
         fields: [
           {
             name: "koreanFamilyName",

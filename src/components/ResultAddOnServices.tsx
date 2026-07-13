@@ -31,9 +31,9 @@ function serviceCopy(service: ServiceConfig) {
     reportBody:
       "이름의 의미, 발음, 문화권 적합성과 후보별 차이를 상세 리포트로 제공합니다. PDF로 저장할 수 있습니다.",
     goodsTitle: "한글 이름 굿즈",
-    goodsExamples: "모자 · 키링 · 흰색 티셔츠 등",
+    goodsExamples: "모자 · 키링 · 티셔츠 등",
     goodsBody:
-      "선택한 한글 이름을 모자, 키링, 흰색 티셔츠 등에 적용해 제작을 신청할 수 있습니다.",
+      "선택한 한글 이름을 모자, 키링, 티셔츠 등에 적용해 제작을 신청할 수 있습니다.",
   };
 }
 

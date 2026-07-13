@@ -176,11 +176,11 @@ function ResultServices() {
           <h3 className="mt-4 font-semibold">
             한글 이름 굿즈
             <span className="ml-1 text-sm font-medium text-muted">
-              (모자 · 키링 · 흰색 티셔츠 등)
+              (모자 · 키링 · 티셔츠 등)
             </span>
           </h3>
           <p className="mt-2 text-sm leading-6 text-muted">
-            선택한 한글 이름을 모자, 키링, 흰색 티셔츠 등에 새겨 나만의 굿즈를
+            선택한 한글 이름을 모자, 키링, 티셔츠 등에 새겨 나만의 굿즈를
             만들어보세요.
           </p>
 

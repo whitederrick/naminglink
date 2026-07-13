@@ -159,3 +159,20 @@ Updated the Korean copy shown on the two global-name service introduction screen
 - `pnpm lint`: passed
 - `pnpm build`: passed after the final locked-DOM refinement.
 - Browser check: confirmed the five-second initial ad state, one initially open candidate, four locked candidates without leaked details, a five-second unlock ad, and exactly one additional candidate opening.
+## Follow-up: Post-deploy Korean-name Copy Cleanup (Uncommitted)
+
+- Production baseline remains commit `2d23521` at `https://naminglink.vercel.app`.
+- Removed the color restriction from Hangul-name goods examples and descriptions: `모자 · 키링 · 티셔츠 등`.
+- Applied the goods wording change to both the dedicated Hangul-pronunciation result and the shared post-result add-on component.
+- Replaced the three English Korean-name-creation section descriptions with Korean drafts:
+  - `한글 이름 추천에 필요한 기본 정보를 선택합니다.`
+  - `정확한 비교와 분석을 위해 항목별 정보를 선택합니다.`
+  - `원하는 이름의 분위기와 한국에서의 사용 목적을 선택합니다.`
+- The section titles and field labels around these descriptions are still mixed Korean/English and are expected to be reviewed in the next copy-editing pass.
+- Current uncommitted source files: `src/components/HangulPronunciationResultPage.tsx`, `src/components/ResultAddOnServices.tsx`, `src/lib/services.ts`.
+- Preserve the three user-provided untracked logo image files; they are not part of this copy change.
+
+### Verification
+
+- `git diff --check`: passed
+- Full lint/build has not been rerun because these are copy-only changes.
