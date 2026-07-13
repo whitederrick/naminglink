@@ -66,6 +66,19 @@ function candidateTitle(
 }
 
 function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
+  if (service.slug === "global-name-to-hangul") {
+    return [
+      ["원어 발음 기준", item.source_pronunciation_basis],
+      ["발음 기호", item.ipa],
+      ["음절 분석", item.syllables],
+      ["한글 표기 발음", item.pronunciation],
+      ["추천 이유", item.recommendation_reason],
+      ["한국어 자연스러움", item.cultural_fit],
+      ["사용 안내", item.usage_note],
+      ["주의", item.caution_notes],
+    ] satisfies Array<[string, unknown]>;
+  }
+
   if (service.serviceType === "GLOBAL_TO_KOREAN") {
     return [
       ["추천 이유", item.recommendation_reason],
@@ -109,7 +122,11 @@ function getNestedOptions(value: unknown) {
 export function ResultCard({ service, result, revealAll }: ResultCardProps) {
   const record = asRecord(result);
   const candidates = getCandidates(record)
-    .sort((a, b) => (candidateRate(a) ?? 101) - (candidateRate(b) ?? 101))
+    .sort((a, b) =>
+      service.slug === "global-name-to-hangul"
+        ? (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1)
+        : (candidateRate(a) ?? 101) - (candidateRate(b) ?? 101),
+    )
     .slice(0, 5);
   const rejected = getRejected(record);
 

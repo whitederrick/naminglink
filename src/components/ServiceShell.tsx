@@ -192,7 +192,7 @@ export function ServiceShell({
           <ServicePromisePanel service={service} locale={locale} />
         </section>
 
-        <NamingForm service={service} />
+        <NamingForm service={service} locale={locale} />
       </section>
       <SiteFooter locale={locale} />
     </main>

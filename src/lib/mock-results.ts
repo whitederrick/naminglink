@@ -17,8 +17,11 @@ export function getMockResult(
         {
           hangul: "원음 기반 한글 표기",
           recommendation_reason:
-            "영어권의 일반적인 발음과 음절 구분을 한글 외래어 표기 방식에 가깝게 옮긴 예시입니다.",
+            "선택한 표기 언어와 국가·지역, 사용자가 제공한 발음 힌트를 순서대로 반영한 예시입니다.",
           matching_rate: 95,
+          source_pronunciation_basis: "선택한 본명 표기 언어와 국가·지역",
+          ipa: "API 연결 후 실제 발음 기호 제공",
+          syllables: "API 연결 후 실제 음절 분석 제공",
           pronunciation: originalName,
           cultural_fit: "한국어 문서와 소개 문구에서 쉽게 읽을 수 있습니다.",
           usage_note: "실제 본인의 현지 발음이 다르면 발음 힌트를 입력해 조정하세요.",

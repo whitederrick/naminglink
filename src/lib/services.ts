@@ -37,6 +37,7 @@ export type CountryOption = FieldOption & {
   locale: Locale;
   languageName: string;
   localNameHint: string;
+  languageLocales?: Locale[];
   suggestedMotivation?: "korean_education" | "k_culture";
   motivationNote?: string;
 };
@@ -173,6 +174,11 @@ const languageOptions: FieldOption[] = [
     label: localeLabels[locale],
   })),
 ];
+
+const nameLanguageOptions: FieldOption[] = supportedLocales.map((locale) => ({
+  value: locale,
+  label: localeLabels[locale],
+}));
 
 const genderOptions: FieldOption[] = [
   { value: "not_specified", label: "선택 안 함" },
@@ -436,6 +442,18 @@ export const countryOptions: CountryOption[] = [
 
 export function getCountryOption(value: string | undefined) {
   return countryOptions.find((country) => country.value === value);
+}
+
+export function getCountryOptionsForLocale(locale: string | undefined) {
+  if (!locale) return countryOptions;
+
+  const isLanguageMatch = (country: CountryOption) =>
+    country.locale === locale || country.languageLocales?.includes(locale as Locale);
+
+  return [
+    ...countryOptions.filter(isLanguageMatch),
+    ...countryOptions.filter((country) => !isLanguageMatch(country)),
+  ];
 }
 
 export function getCountryDefaultLocale(value: string | undefined) {
@@ -893,31 +911,36 @@ export const globalNameToHangulService: ServiceConfig = {
   sections: [
     {
       title: "Original name",
-      description: "Enter the name exactly as it is normally written and pronounced.",
+      description: "본명을 실제로 표기하고 발음하는 언어와 국가를 선택해 주세요.",
       fields: [
         {
           name: "originalName",
-          label: "현지어 이름 / Original name",
-          placeholder: "예: 현지 철자로 쓴 전체 이름",
+          label: "본명 / Original name",
+          hint: "※ 현지 언어로 쓴 전체 이름을 입력하세요.",
+          placeholder: "예: Daniel Brooks",
+          required: true,
+        },
+        {
+          name: "originalNameLanguage",
+          label: "본명 표기 언어",
+          hint: "※ 이름 발음에 사용하는 언어를 선택하세요.",
+          type: "select",
+          options: nameLanguageOptions,
           required: true,
         },
         {
           name: "country",
           label: "국가 / Country",
+          hint: "※ 국가에 따른 발음 차이를 반영하는 보조 정보입니다.\n    국가 변경 시 발음이 달라질 수 있습니다.",
           type: "select",
           options: countryOptions,
           required: true,
         },
         {
           name: "pronunciationHint",
-          label: "현지 발음 힌트 / Pronunciation hint",
-          placeholder: "예: DAN-yuhl bruks (선택)",
-        },
-        {
-          name: "outputLanguage",
-          label: "설명 언어 / Explanation language",
-          type: "select",
-          options: languageOptions,
+          label: "실제 발음 힌트 (선택)",
+          hint: "※ 발음 음절 구분 및 발음 힌트를 입력하세요.\n    입력한 힌트를 가장 우선하여 적용합니다.",
+          placeholder: "예: Dan-yell과 비슷함",
         },
       ],
     },
