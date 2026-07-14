@@ -4,10 +4,11 @@
 
 - Workspace: `C:\myProjects\naminglink`
 - Branch: `main`
-- Current HEAD: `a4b320a Fix landing policy modal layout`
+- Baseline before this work: `a4b320a Fix landing policy modal layout`
+- Feature commit: `fdffbac Add secure operations console and analytics`
 - Production URL: `https://naminglink.vercel.app`
-- All work described below is currently uncommitted and has not been redeployed.
-- The worktree contains the administrator, analytics, content-management, and advertising-layout change set described in this document. Do not clean unrelated files broadly.
+- All work described below was committed locally in `fdffbac` and has not been pushed or redeployed.
+- The three untracked logo images were deleted at the user's explicit request before commit.
 
 ## Completed in the current worktree
 
@@ -194,7 +195,7 @@ Required before commit or deployment:
 - PDF, audio, calligraphy, stamp, and other goods fulfillment pipelines
 - Domain-specific master-data screens and left-sidebar submenu refactor
 - Runtime consumption of every managed master-data category
-- Production deployment of the current worktree
+- Push and production deployment of commit `fdffbac`
 
 ## Removed untracked image files
 
@@ -208,7 +209,6 @@ The following untracked images were excluded from the commit and then deleted at
 
 1. Refactor the administrator sidebar and master-data pages into domain-specific submenus and forms.
 2. Rerun production build and visually verify the two header banner positions on desktop and mobile.
-3. Review and stage the intended worktree only.
-4. Commit, push, and deploy only when explicitly requested.
-5. After advertising-account approval, connect AdSense banners and GPT rewarded ads with consent and anti-abuse controls.
-6. Implement checkout-only membership, payment, order creation, and temporary shipping-address retention.
+3. Push and deploy only when explicitly requested.
+4. After advertising-account approval, connect AdSense banners and GPT rewarded ads with consent and anti-abuse controls.
+5. Implement checkout-only membership, payment, order creation, and temporary shipping-address retention.
