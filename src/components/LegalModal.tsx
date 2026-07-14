@@ -2,6 +2,7 @@
 
 import { X } from "lucide-react";
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import {
   PricingDocumentContent,
   PrivacyDocumentContent,
@@ -44,7 +45,7 @@ export function LegalModal({
     };
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/55 p-4"
       role="presentation"
@@ -56,14 +57,17 @@ export function LegalModal({
         role="dialog"
         aria-modal="true"
         aria-labelledby="legal-modal-title"
-        className="flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-background shadow-2xl"
+        className="flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-[#ded9cc] bg-white text-[#17201b] shadow-2xl"
       >
-        <header className="flex items-start justify-between gap-4 border-b border-line px-5 py-4 sm:px-6">
+        <header className="flex items-start justify-between gap-4 border-b border-[#ded9cc] px-5 py-4 sm:px-6">
           <div>
-            <h2 id="legal-modal-title" className="text-xl font-semibold">
+            <h2
+              id="legal-modal-title"
+              className="text-xl font-semibold text-[#17201b]"
+            >
               {title}
             </h2>
-            <p className="mt-1 text-xs text-muted">
+            <p className="mt-1 text-xs text-[#6b716d]">
               {"\uC2DC\uD589\uC77C"}: {LEGAL_EFFECTIVE_DATE}
             </p>
           </div>
@@ -71,7 +75,7 @@ export function LegalModal({
             type="button"
             onClick={onClose}
             aria-label={`${title} ${"\uB2EB\uAE30"}`}
-            className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-line transition hover:border-foreground"
+            className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-[#ded9cc] bg-white text-[#17201b] transition hover:border-[#17201b] hover:bg-[#f1eadb]"
           >
             <X aria-hidden="true" size={18} />
           </button>
@@ -82,16 +86,17 @@ export function LegalModal({
           {kind === "refund" && <RefundDocumentContent />}
           {kind === "pricing" && <PricingDocumentContent />}
         </div>
-        <footer className="border-t border-line px-5 py-4 sm:px-6">
+        <footer className="border-t border-[#ded9cc] px-5 py-4 sm:px-6">
           <button
             type="button"
             onClick={onClose}
-            className="inline-flex h-10 w-full items-center justify-center rounded-lg bg-foreground px-4 text-sm font-semibold text-background"
+            className="inline-flex h-10 w-full items-center justify-center rounded-lg bg-[#17201b] px-4 text-sm font-semibold text-white"
           >
             {"\uB2EB\uAE30"}
           </button>
         </footer>
       </section>
-    </div>
+    </div>,
+    document.body,
   );
 }
