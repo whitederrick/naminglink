@@ -4,6 +4,7 @@ import {
   Brush,
   ClipboardList,
   Database,
+  FilePenLine,
   FileText,
   Globe2,
   Megaphone,
@@ -20,6 +21,12 @@ const metrics = [
 ];
 
 const operationQueues = [
+  {
+    icon: FilePenLine,
+    title: "정책 및 푸터 콘텐츠",
+    body: "이용약관, 개인정보처리방침, 환불정책, 요금안내와 푸터 사업자 정보를 초안·게시 방식으로 관리합니다.",
+    href: "/admin/content",
+  },
   {
     icon: FileText,
     title: "프리미엄 리포트",

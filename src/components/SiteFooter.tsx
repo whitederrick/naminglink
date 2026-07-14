@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { FooterPolicyLinks } from "@/components/FooterPolicyLinks";
-import { companyInfo } from "@/lib/company";
+import {
+  fallbackFooterContent,
+  type FooterContent,
+} from "@/lib/site-content";
 import type { Locale } from "@/lib/services";
 
 type SiteFooterProps = {
@@ -644,6 +650,9 @@ export function SiteFooter({
   locale = "ko",
   policyMode = "links",
 }: SiteFooterProps) {
+  const [footerContent, setFooterContent] = useState<FooterContent>(
+    fallbackFooterContent,
+  );
   const isLight = tone === "light";
   const wrapperClass = isLight
     ? "border-white/15 text-white/72"
@@ -652,24 +661,41 @@ export function SiteFooter({
     ? "text-white/86 hover:text-white"
     : "text-foreground hover:text-brand-teal";
   const copy = footerCopies[locale];
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch("/api/site-content?kind=footer", { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((payload) => {
+        if (payload?.content) setFooterContent(payload.content);
+      })
+      .catch((error) => {
+        if (error instanceof Error && error.name !== "AbortError") {
+          console.error("Failed to load footer content", error);
+        }
+      });
+
+    return () => controller.abort();
+  }, []);
+
   const footerLinks = [
     { href: "/terms", label: copy.links.terms },
     { href: "/privacy", label: copy.links.privacy },
     { href: "/refund-policy", label: copy.links.refund },
     { href: "/pricing", label: copy.links.pricing },
-    { href: "/login", label: copy.links.login },
   ];
   const firstLine = [
-    `${copy.labels.legalEntity} ${companyInfo.legalEntity}`,
-    `${copy.labels.representative} ${copy.values.pending}`,
-    `${copy.labels.businessNumber} ${copy.values.registrationPending}`,
-    `${copy.labels.address} ${copy.values.address}`,
+    `${copy.labels.legalEntity} ${footerContent.legalEntity}`,
+    `${copy.labels.representative} ${footerContent.representative}`,
+    `${copy.labels.businessNumber} ${footerContent.businessNumber}`,
+    `${copy.labels.address} ${footerContent.address}`,
   ];
   const secondLine = [
-    `${copy.labels.email} ${companyInfo.email}`,
-    `${copy.labels.privacyOfficer} ${copy.values.pending}`,
-    `${copy.labels.mailOrderNumber} ${copy.values.mailOrderPending}`,
-    `${copy.labels.hostingProvider} ${companyInfo.hostingProvider}`,
+    `${copy.labels.email} ${footerContent.email}`,
+    `${copy.labels.privacyOfficer} ${footerContent.privacyOfficer}`,
+    `${copy.labels.mailOrderNumber} ${footerContent.mailOrderNumber}`,
+    `${copy.labels.hostingProvider} ${footerContent.hostingProvider}`,
   ];
   const textDirection = locale === "ar" ? "rtl" : "ltr";
 
@@ -690,6 +716,7 @@ export function SiteFooter({
               }}
               linkClass={linkClass}
               textDirection={textDirection}
+              locale={locale}
             />
           ) : (
             footerLinks.map((link) => (
@@ -722,8 +749,8 @@ export function SiteFooter({
           </div>
         </div>
         <p className="font-medium" dir={textDirection}>
-          © 2026 {companyInfo.serviceName} · {copy.values.providedBy}{" "}
-          {companyInfo.studioName}
+          © {footerContent.copyrightYear} {footerContent.serviceName} ·{" "}
+          {copy.values.providedBy} {footerContent.studioName}
         </p>
       </div>
     </footer>

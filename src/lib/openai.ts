@@ -26,7 +26,16 @@ export async function generateNamingResult(
     inputFactors.serviceSlug === "global-name-to-hangul";
 
   if (!openai) {
-    return getMockResult(serviceType, inputFactors);
+    return {
+      result: getMockResult(serviceType, inputFactors),
+      usage: {
+        model: "mock",
+        promptTokens: 0,
+        completionTokens: 0,
+        totalTokens: 0,
+        providerRequestId: null,
+      },
+    };
   }
 
   const completion = await openai.chat.completions.create({
@@ -62,5 +71,14 @@ export async function generateNamingResult(
     throw new Error("OpenAI returned an empty response.");
   }
 
-  return JSON.parse(content) as unknown;
+  return {
+    result: JSON.parse(content) as unknown,
+    usage: {
+      model: completion.model,
+      promptTokens: completion.usage?.prompt_tokens ?? 0,
+      completionTokens: completion.usage?.completion_tokens ?? 0,
+      totalTokens: completion.usage?.total_tokens ?? 0,
+      providerRequestId: completion.id,
+    },
+  };
 }

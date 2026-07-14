@@ -1,17 +1,35 @@
 type AdBannerProps = {
-  variant?: "leaderboard" | "inline" | "sidebar";
+  variant?: "header" | "leaderboard" | "inline" | "sidebar";
+  slotKey?: string;
+  label?: string;
 };
 
 const labels = {
-  leaderboard: "광고 슬롯 · 결과 대기 화면 상단",
-  inline: "네이티브 광고 슬롯",
-  sidebar: "사이드 광고 슬롯",
+  header: "상단 배너 광고",
+  leaderboard: "가로 배너 광고",
+  inline: "콘텐츠 배너 광고",
+  sidebar: "사이드 배너 광고",
 };
 
-export function AdBanner({ variant = "inline" }: AdBannerProps) {
+export function AdBanner({
+  variant = "inline",
+  slotKey,
+  label,
+}: AdBannerProps) {
+  const heightClass =
+    variant === "header"
+      ? "min-h-[100px] lg:min-h-[90px]"
+      : "min-h-20";
+  const displayLabel = label ?? labels[variant];
+
   return (
-    <div className="flex min-h-20 items-center justify-center rounded-lg border border-dashed border-line bg-surface-strong px-4 py-5 text-center text-sm text-muted">
-      {labels[variant]}
+    <div
+      data-ad-placement={variant}
+      data-ad-slot={slotKey}
+      aria-label={displayLabel}
+      className={`flex w-full items-center justify-center rounded-lg border border-dashed border-line bg-surface-strong px-4 text-center text-xs text-muted ${heightClass}`}
+    >
+      {displayLabel}
     </div>
   );
 }

@@ -9,10 +9,12 @@ export function FooterPolicyLinks({
   labels,
   linkClass,
   textDirection,
+  locale,
 }: {
   labels: PolicyLabels;
   linkClass: string;
   textDirection: "ltr" | "rtl";
+  locale: import("@/lib/services").Locale;
 }) {
   const [openDocument, setOpenDocument] = useState<LegalDocument | null>(null);
   const documents: LegalDocument[] = ["terms", "privacy", "refund", "pricing"];
@@ -33,8 +35,10 @@ export function FooterPolicyLinks({
 
       {openDocument && (
         <LegalModal
+          key={`${openDocument}-${locale}`}
           kind={openDocument}
           title={labels[openDocument]}
+          locale={locale}
           onClose={() => setOpenDocument(null)}
         />
       )}

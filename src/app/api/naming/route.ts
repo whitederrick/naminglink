@@ -2,11 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { generateNamingResult } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
+import { getDailyVisitorHash } from "@/lib/request-context";
 
 export const runtime = "nodejs";
 
 const requestSchema = z.object({
-  userId: z.string().uuid().optional(),
   serviceType: z.enum([
     "HANJA_MEANING_MATCH",
     "KOREAN_TO_GLOBAL",
@@ -15,39 +15,8 @@ const requestSchema = z.object({
   inputFactors: z.record(z.string(), z.unknown()),
 });
 
-const rateLimitStore = new Map<string, { day: string; count: number }>();
-
-function getDayKey() {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function getIp(request: NextRequest) {
-  return (
-    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
-    request.headers.get("x-real-ip") ||
-    "local"
-  );
-}
-
-function checkRateLimit(ip: string) {
-  const limit = Number(process.env.FREE_DAILY_LIMIT ?? 20);
-  const day = getDayKey();
-  const current = rateLimitStore.get(ip);
-
-  if (!current || current.day !== day) {
-    rateLimitStore.set(ip, { day, count: 1 });
-    return true;
-  }
-
-  if (current.count >= limit) {
-    return false;
-  }
-
-  current.count += 1;
-  return true;
-}
-
 export async function POST(request: NextRequest) {
+  const startedAt = Date.now();
   try {
     const body = await request.json();
     const parsed = requestSchema.safeParse(body);
@@ -63,9 +32,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const ip = getIp(request);
-
-    if (!checkRateLimit(ip)) {
+    const supabase = getSupabaseAdminClient();
+    const visitorHash = getDailyVisitorHash(request);
+    if (supabase && visitorHash) {
+      const { data: allowed, error: quotaError } = await supabase.rpc("consume_daily_quota", {
+        p_visitor_hash: visitorHash,
+        p_limit: Number(process.env.FREE_DAILY_LIMIT ?? 20),
+      });
+      if (quotaError) console.error("Failed to check daily quota", quotaError);
+      if (allowed === false) {
       return NextResponse.json(
         {
           ok: false,
@@ -73,14 +48,13 @@ export async function POST(request: NextRequest) {
         },
         { status: 429 },
       );
+      }
     }
 
-    const generated = await generateNamingResult(
+    const generation = await generateNamingResult(
       parsed.data.serviceType,
       parsed.data.inputFactors,
     );
-
-    const supabase = getSupabaseAdminClient();
     let logId: string | null = null;
     let persistence: "saved" | "skipped" | "failed" = "skipped";
 
@@ -88,10 +62,10 @@ export async function POST(request: NextRequest) {
       const { data, error } = await supabase
         .from("naming_logs")
         .insert({
-          user_id: parsed.data.userId ?? null,
+          user_id: null,
           service_type: parsed.data.serviceType,
           input_factors: parsed.data.inputFactors,
-          generated_names: generated,
+          generated_names: generation.result,
         })
         .select("id")
         .single();
@@ -103,13 +77,27 @@ export async function POST(request: NextRequest) {
         logId = data.id as string;
         persistence = "saved";
       }
+
+      const { error: usageError } = await supabase.from("ai_usage_logs").insert({
+        naming_log_id: logId,
+        user_id: null,
+        service_type: parsed.data.serviceType,
+        model: generation.usage.model,
+        prompt_tokens: generation.usage.promptTokens,
+        completion_tokens: generation.usage.completionTokens,
+        total_tokens: generation.usage.totalTokens,
+        latency_ms: Date.now() - startedAt,
+        status: "SUCCESS",
+        provider_request_id: generation.usage.providerRequestId,
+      });
+      if (usageError) console.error("Failed to persist AI usage", usageError);
     }
 
     return NextResponse.json({
       ok: true,
       logId,
       persistence,
-      result: generated,
+      result: generation.result,
     });
   } catch (error) {
     console.error(error);

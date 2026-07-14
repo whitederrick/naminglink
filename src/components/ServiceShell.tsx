@@ -3,6 +3,7 @@ import { ArrowLeft, BadgeCheck, Sparkles } from "lucide-react";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
 import { NamingForm } from "@/components/NamingForm";
+import { AdBanner } from "@/components/AdBanner";
 import {
   globalNameToHangulService,
   serviceList,
@@ -133,39 +134,48 @@ export function ServiceShell({
     <main className="min-h-screen">
       <section className="mx-auto grid w-full max-w-7xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="border-b border-line pb-5">
-          <div className="flex flex-wrap items-center gap-3">
-            <Link
-              href={`/?lang=${locale}`}
-              className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm transition hover:border-foreground hover:bg-foreground"
-            >
-              <ArrowLeft aria-hidden="true" size={17} />
-              {homeLabel}
-            </Link>
-            {navigationServices.length > 0 ? (
-              <nav className="flex flex-wrap gap-2 text-sm">
-                {navigationServices.map((item) => (
-                  <Link
-                    key={item.slug}
-                    href={
-                      item.slug === "global-name-to-hangul"
-                        ? `/global-to-korean?lang=${locale}&mode=transliteration`
-                        : `/${item.slug}?lang=${locale}`
-                    }
-                    className={`rounded-lg border px-3 py-2 transition ${
-                      item.slug === service.slug
-                        ? "border-foreground bg-foreground text-background"
-                        : "border-line bg-surface hover:border-foreground"
-                    }`}
-                  >
-                    {locale === "ko"
-                      ? item.shortTitle
-                      : item.slug === "global-name-to-hangul"
-                        ? globalLabels.transliteration
-                        : globalLabels.koreanName}
-                  </Link>
-                ))}
-              </nav>
-            ) : null}
+          <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
+            <div className="order-2 flex shrink-0 flex-wrap items-center gap-3 lg:order-1">
+              <Link
+                href={`/?lang=${locale}`}
+                className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm transition hover:border-foreground hover:bg-foreground"
+              >
+                <ArrowLeft aria-hidden="true" size={17} />
+                {homeLabel}
+              </Link>
+              {navigationServices.length > 0 ? (
+                <nav className="flex flex-wrap gap-2 text-sm">
+                  {navigationServices.map((item) => (
+                    <Link
+                      key={item.slug}
+                      href={
+                        item.slug === "global-name-to-hangul"
+                          ? `/global-to-korean?lang=${locale}&mode=transliteration`
+                          : `/${item.slug}?lang=${locale}`
+                      }
+                      className={`rounded-lg border px-3 py-2 transition ${
+                        item.slug === service.slug
+                          ? "border-foreground bg-foreground text-background"
+                          : "border-line bg-surface hover:border-foreground"
+                      }`}
+                    >
+                      {locale === "ko"
+                        ? item.shortTitle
+                        : item.slug === "global-name-to-hangul"
+                          ? globalLabels.transliteration
+                          : globalLabels.koreanName}
+                    </Link>
+                  ))}
+                </nav>
+              ) : null}
+            </div>
+            <div className="order-1 min-w-0 flex-1 lg:order-2">
+              <AdBanner
+                variant="header"
+                slotKey="service_header"
+                label="서비스 상단 배너 광고"
+              />
+            </div>
           </div>
         </header>
 

@@ -3,16 +3,23 @@
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
 
 export function CandidateUnlockPanel({
   revealedCount,
   totalCount,
+  namingLogId,
+  locale,
+  serviceType,
   onUnlock,
 }: {
   revealedCount: number;
   totalCount: number;
+  namingLogId?: string | null;
+  locale?: string;
+  serviceType?: string;
   onUnlock: () => void;
 }) {
   const [loading, setLoading] = useState(false);
@@ -23,6 +30,7 @@ export function CandidateUnlockPanel({
     if (loading || remainingCount === 0) return;
 
     setLoading(true);
+    trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", namingLogId, locale, serviceType });
     setCountdown(UNLOCK_AD_SECONDS);
     const startedAt = Date.now();
     const timer = window.setInterval(() => {
@@ -35,6 +43,7 @@ export function CandidateUnlockPanel({
         window.setTimeout(resolve, UNLOCK_AD_SECONDS * 1000),
       );
       onUnlock();
+      trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", namingLogId, locale, serviceType });
     } finally {
       window.clearInterval(timer);
       setCountdown(0);

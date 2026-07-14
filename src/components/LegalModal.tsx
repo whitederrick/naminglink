@@ -1,17 +1,17 @@
 "use client";
 
 import { X } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import { ManagedLegalDocumentContent } from "@/components/LegalDocumentContent";
 import {
-  PricingDocumentContent,
-  PrivacyDocumentContent,
-  RefundDocumentContent,
-  TermsDocumentContent,
-} from "@/components/LegalDocumentContent";
-import { LEGAL_EFFECTIVE_DATE } from "@/lib/company";
+  getFallbackPolicyDocument,
+  type LegalDocumentKind,
+  type PolicyDocumentContent,
+} from "@/lib/site-content";
+import type { Locale } from "@/lib/services";
 
-export type LegalDocument = "terms" | "privacy" | "refund" | "pricing";
+export type LegalDocument = LegalDocumentKind;
 
 const documentTitles: Record<LegalDocument, string> = {
   terms: "\uC774\uC6A9\uC57D\uAD00",
@@ -24,12 +24,36 @@ export function LegalModal({
   kind,
   onClose,
   title: titleOverride,
+  locale = "ko",
 }: {
   kind: LegalDocument;
   onClose: () => void;
   title?: string;
+  locale?: Locale;
 }) {
-  const title = titleOverride ?? documentTitles[kind];
+  const [content, setContent] = useState<PolicyDocumentContent>(() =>
+    getFallbackPolicyDocument(kind),
+  );
+  const title = titleOverride ?? content.title ?? documentTitles[kind];
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch(`/api/site-content?kind=${kind}&locale=${locale}`, {
+      signal: controller.signal,
+    })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((payload) => {
+        if (payload?.content) setContent(payload.content);
+      })
+      .catch((error) => {
+        if (error instanceof Error && error.name !== "AbortError") {
+          console.error("Failed to load legal content", error);
+        }
+      });
+
+    return () => controller.abort();
+  }, [kind, locale]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -68,7 +92,7 @@ export function LegalModal({
               {title}
             </h2>
             <p className="mt-1 text-xs text-[#6b716d]">
-              {"\uC2DC\uD589\uC77C"}: {LEGAL_EFFECTIVE_DATE}
+              {"\uC2DC\uD589\uC77C"}: {content.effectiveDate}
             </p>
           </div>
           <button
@@ -81,10 +105,7 @@ export function LegalModal({
           </button>
         </header>
         <div className="grid gap-7 overflow-y-auto px-5 py-2 sm:px-6">
-          {kind === "terms" && <TermsDocumentContent />}
-          {kind === "privacy" && <PrivacyDocumentContent />}
-          {kind === "refund" && <RefundDocumentContent />}
-          {kind === "pricing" && <PricingDocumentContent />}
+          <ManagedLegalDocumentContent content={content} />
         </div>
         <footer className="border-t border-[#ded9cc] px-5 py-4 sm:px-6">
           <button

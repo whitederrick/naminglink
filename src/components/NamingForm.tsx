@@ -17,6 +17,7 @@ import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
+import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
 
 type ApiResult = {
   ok: boolean;
@@ -166,6 +167,8 @@ export function NamingForm({
     }
 
     setLoading(true);
+    trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: service.serviceType });
+    trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
     setAnalysisCountdown(ANALYSIS_AD_SECONDS);
     const adStartedAt = Date.now();
     const countdownTimer = window.setInterval(() => {
@@ -227,6 +230,9 @@ export function NamingForm({
         throw new Error(payload.error || "작명 요청을 처리하지 못했습니다.");
       }
 
+      trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: service.serviceType });
+      trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", namingLogId: payload.logId, locale, serviceType: service.serviceType });
+
       if (isHangulTransliteration && payload.result) {
         const resultId = payload.logId ?? crypto.randomUUID();
         sessionStorage.setItem(
@@ -247,6 +253,7 @@ export function NamingForm({
 
       setResult(payload);
     } catch (caught) {
+      trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: service.serviceType });
       if (!adWindowComplete) await completeAdWindow();
       setError(caught instanceof Error ? caught.message : "오류가 발생했습니다.");
     } finally {
@@ -498,6 +505,9 @@ export function NamingForm({
             <CandidateUnlockPanel
               revealedCount={revealedCount}
               totalCount={candidateCount}
+              namingLogId={result.logId}
+              locale={locale}
+              serviceType={service.serviceType}
               onUnlock={() =>
                 setRevealedCount((current) =>
                   Math.min(candidateCount, current + 1),

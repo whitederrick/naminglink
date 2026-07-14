@@ -1,14 +1,23 @@
 import { TermsDocumentContent } from "@/components/LegalDocumentContent";
 import { PolicyLayout } from "@/components/PolicyLayout";
-import { LEGAL_EFFECTIVE_DATE, companyInfo } from "@/lib/company";
+import { getRequestLocale } from "@/lib/locale";
+import { getPublishedPolicyDocument } from "@/lib/site-content-server";
 
-export default function TermsPage() {
+export default async function TermsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const { lang } = await searchParams;
+  const locale = await getRequestLocale(lang);
+  const content = await getPublishedPolicyDocument("terms", locale);
+
   return (
     <PolicyLayout
-      title="이용약관"
-      description={`${companyInfo.serviceName} 이용 조건과 서비스 범위를 안내합니다. 시행일: ${LEGAL_EFFECTIVE_DATE}`}
+      title={content.title}
+      description={`${content.description} 시행일: ${content.effectiveDate}`}
     >
-      <TermsDocumentContent />
+      <TermsDocumentContent content={content} />
     </PolicyLayout>
   );
 }
