@@ -19,6 +19,16 @@ function text(value: unknown) {
     : "";
 }
 
+function publicFacingHanjaText(value: unknown) {
+  const content = text(value);
+
+  if (/내장 샘플|PDF 검수 데이터|import 대상|서비스 내 공식 한자 DB/.test(content)) {
+    return "현재 검토 자료만으로 지정 음가와 등록 가능성을 충분히 확인하기 어렵습니다. 검증되지 않은 글자를 임의로 제안하지 않고, 공식 인명용 한자 조회 기준과 대조하기 전까지 추천을 보류했습니다.";
+  }
+
+  return content;
+}
+
 function arrayRecords(value: unknown) {
   return Array.isArray(value)
     ? value.filter(
@@ -90,6 +100,13 @@ function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
     ] satisfies Array<[string, unknown]>;
   }
 
+  if (service.serviceType === "HANJA_MEANING_MATCH") {
+    return [
+      ["자의·결합 분석", item.story || item.meaning],
+      ["실사용 해석", item.practical_analysis],
+    ] satisfies Array<[string, unknown]>;
+  }
+
   return [
     ["추천 이유", item.recommendation_reason],
     ["의미", item.meaning || item.meaning_connection],
@@ -116,6 +133,76 @@ function getBreakdown(value: unknown) {
 function getNestedOptions(value: unknown) {
   const record = asRecord(value);
   return arrayRecords(record.options);
+}
+
+const hanjaRecommendationFocus = [
+  {
+    label: "종합 적합도 우선안",
+    description: "음가, 자의 결합, 보조 해석과 실사용성을 종합 평가한 우선안",
+  },
+  {
+    label: "선호 가치 우선안",
+    description: "가족이 담고 싶은 가치와 한자 결합 의미의 연결성을 우선한 대안",
+  },
+  {
+    label: "전통 오행 보완안",
+    description: "출생월 기반의 간이 전통 오행 참고를 비교축으로 강조한 대안",
+  },
+  {
+    label: "실사용 안정안",
+    description: "자의의 명확성, 설명 용이성과 일상적인 사용성을 중시한 대안",
+  },
+  {
+    label: "개성·희소성 대안",
+    description: "지정 음가는 유지하면서 상대적으로 차별화된 자의와 인상을 검토한 대안",
+  },
+] as const;
+
+function getHanjaFocus(item: Record<string, unknown>, index: number) {
+  const fallback = hanjaRecommendationFocus[index] ?? {
+    label: `추천 관점 ${index + 1}`,
+    description: "다른 기준으로 비교할 수 있는 추천 대안",
+  };
+
+  return {
+    label: text(item.recommendation_focus) || fallback.label,
+    description: text(item.focus_summary) || fallback.description,
+  };
+}
+
+function collectHanjaOptions(candidates: Record<string, unknown>[]) {
+  const grouped = new Map<
+    string,
+    Map<string, Record<string, unknown>>
+  >();
+
+  for (const candidate of candidates) {
+    for (const group of getBreakdown(candidate.hanja_options)) {
+      const syllable = text(group.syllable) || "이름";
+      const options = grouped.get(syllable) ?? new Map();
+
+      for (const option of getNestedOptions(group)) {
+        const character = text(option.character);
+        if (!character) continue;
+        const existing = options.get(character);
+        if (
+          !existing ||
+          (candidateRate(option) ?? -1) > (candidateRate(existing) ?? -1)
+        ) {
+          options.set(character, option);
+        }
+      }
+
+      grouped.set(syllable, options);
+    }
+  }
+
+  return Array.from(grouped, ([syllable, options]) => ({
+    syllable,
+    options: Array.from(options.values()).sort(
+      (a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1),
+    ),
+  }));
 }
 
 function PronunciationCandidateDetails({
@@ -203,15 +290,64 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
     .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
     .slice(0, 5);
   const rejected = getRejected(record);
+  const commonAnalysis = asRecord(record.common_analysis);
+  const firstCandidate = candidates[0] ?? {};
+  const allCandidatesRevealed =
+    candidates.length > 0 && revealedCount >= candidates.length;
+  const comprehensiveHanjaOptions = collectHanjaOptions(candidates);
 
   return (
     <div className="grid gap-4">
       {service.slug !== "global-name-to-hangul" ? (
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-          <p className="text-sm font-semibold text-brand-teal">분석 요약</p>
+          {service.serviceType === "HANJA_MEANING_MATCH" ? (
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
+                <h1 className="mt-1 text-2xl font-semibold">분석 요약</h1>
+              </div>
+              <span className="rounded-full bg-brand-teal/10 px-3 py-1.5 text-xs font-semibold text-brand-teal">
+                {candidates.length > 0 ? "종합 우선안 1개 공개" : "공식 확인 필요"}
+              </span>
+            </div>
+          ) : (
+            <p className="text-sm font-semibold text-brand-teal">분석 요약</p>
+          )}
           <p className="mt-3 text-sm leading-6 text-muted">
-            {text(record.analysis_summary) || "분석 결과가 준비되었습니다."}
+            {publicFacingHanjaText(record.analysis_summary) || "분석 결과가 준비되었습니다."}
           </p>
+          {service.serviceType === "HANJA_MEANING_MATCH" ? (
+            <div className="mt-5 grid gap-4 border-t border-line pt-5 md:grid-cols-2">
+              {[
+                [
+                  "음가 적합성",
+                  commonAnalysis.sound_basis ||
+                    "정해 둔 한글 이름의 각 음절과 공식 지정 발음이 일치하는 한자만 후보로 검토했습니다.",
+                ],
+                [
+                  "출생 정보 보조 해석",
+                  commonAnalysis.birth_reference || firstCandidate.saju_note,
+                ],
+                [
+                  "자형 적용 기준",
+                  commonAnalysis.caution_notes || firstCandidate.caution_notes,
+                ],
+                [
+                  "등록 가능성 판단 기준",
+                  commonAnalysis.official_status || firstCandidate.official_status,
+                ],
+              ]
+                .filter(([, value]) => text(value))
+                .map(([label, value]) => (
+                  <div key={String(label)} className="rounded-lg bg-surface-strong p-4">
+                    <p className="text-sm font-semibold">{text(label)}</p>
+                    <p className="mt-2 text-sm leading-6 text-muted">
+                      {text(value)}
+                    </p>
+                  </div>
+                ))}
+            </div>
+          ) : null}
         </section>
       ) : null}
 
@@ -220,10 +356,18 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
           <h2 className="text-lg font-semibold">{service.resultLabel}</h2>
           {service.slug !== "global-name-to-hangul" ? (
             <span className="text-sm text-muted">
-              {Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금
+              {candidates.length > 0
+                ? `${Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금`
+                : "추천 보류"}
             </span>
           ) : null}
         </div>
+
+        {candidates.length === 0 ? (
+          <div className="rounded-lg border border-line bg-surface p-5 text-sm leading-6 text-muted shadow-sm">
+            확인되지 않은 한자를 임의로 추천하지 않았습니다. 아래 검토 사유를 확인해 주세요.
+          </div>
+        ) : null}
 
         {candidates.map((item, index) => {
           const locked = index >= revealedCount;
@@ -233,6 +377,7 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
               .filter(Boolean)
               .join(" · ") || "추천 후보";
           const matchingRate = candidateRate(item);
+          const focus = getHanjaFocus(item, index);
 
           return (
             <article
@@ -253,10 +398,20 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
                   <>
                     <div className="flex flex-wrap items-start justify-between gap-3">
                       <div>
+                        {service.serviceType === "HANJA_MEANING_MATCH" ? (
+                          <p className="mb-2 inline-flex rounded-full bg-brand-teal/10 px-2.5 py-1 text-xs font-semibold text-brand-teal">
+                            {focus.label}
+                          </p>
+                        ) : null}
                         <p className="text-sm text-muted">{subtitle}</p>
                         <h3 className="mt-1 text-2xl font-semibold tracking-normal">
                           {title}
                         </h3>
+                        {service.serviceType === "HANJA_MEANING_MATCH" ? (
+                          <p className="mt-2 text-sm leading-6 text-muted">
+                            {focus.description}
+                          </p>
+                        ) : null}
                       </div>
                       {matchingRate !== null ? (
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
@@ -280,65 +435,8 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
                   </>
                 )}
 
-                {service.serviceType === "HANJA_MEANING_MATCH" &&
-                getBreakdown(item.hanja_options).length ? (
-                  <div className="mt-5 rounded-lg bg-surface-strong p-4">
-                    <p className="text-sm font-semibold">추천 한자 상세</p>
-                    <div className="mt-3 grid gap-4">
-                      {getBreakdown(item.hanja_options).map(
-                        (group, groupIndex) => (
-                          <div
-                            key={`${text(group.syllable)}-${groupIndex}`}
-                            className="grid gap-2"
-                          >
-                            <p className="text-sm font-semibold">
-                              {text(group.syllable)} 음절 후보
-                            </p>
-                            <div className="grid gap-2 md:grid-cols-3">
-                              {getNestedOptions(group).map(
-                                (option, optionIndex) => (
-                                  <div
-                                    key={`${text(option.character)}-${optionIndex}`}
-                                    className={`rounded-lg border px-3 py-3 text-sm ${
-                                      option.selected
-                                        ? "border-foreground bg-surface"
-                                        : "border-line bg-background"
-                                    }`}
-                                  >
-                                    <div className="flex items-start justify-between gap-2">
-                                      <p className="text-xl font-semibold">
-                                        {text(option.character)}
-                                      </p>
-                                      {candidateRate(option) !== null ? (
-                                        <span className="rounded-lg bg-surface-strong px-2 py-1 text-xs font-semibold text-brand-teal">
-                                          {candidateRate(option)}%
-                                        </span>
-                                      ) : null}
-                                    </div>
-                                    <p className="mt-2 font-medium">
-                                      {text(option.meaning)}
-                                    </p>
-                                    <p className="mt-1 text-muted">
-                                      지정 발음 {text(option.designated_reading)}
-                                    </p>
-                                    <p className="mt-2 leading-5 text-muted">
-                                      {text(option.interpretation)}
-                                    </p>
-                                    <p className="mt-2 leading-5 text-muted">
-                                      {text(option.recommendation_reason)}
-                                    </p>
-                                  </div>
-                                ),
-                              )}
-                            </div>
-                          </div>
-                        ),
-                      )}
-                    </div>
-                  </div>
-                ) : null}
-
-                {getBreakdown(item.character_breakdown).length ? (
+                {service.serviceType !== "HANJA_MEANING_MATCH" &&
+                getBreakdown(item.character_breakdown).length ? (
                   <div className="mt-5 rounded-lg bg-surface-strong p-4">
                     <p className="text-sm font-semibold">음절별 한자 매칭</p>
                     <div className="mt-3 grid gap-2">
@@ -369,10 +467,20 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
               ) : null}
 
               {locked ? (
-                <div className="absolute inset-0 flex items-center justify-center bg-white/70 px-4 text-center">
-                  <span className="inline-flex items-center gap-2 rounded-lg bg-foreground px-3 py-2 text-sm font-medium text-background">
+                <div className="grid min-h-32 content-center gap-3 text-center">
+                  {service.serviceType === "HANJA_MEANING_MATCH" ? (
+                    <div>
+                      <p className="text-sm font-semibold text-brand-teal">
+                        {index + 1}순위 · {focus.label}
+                      </p>
+                      <p className="mt-2 text-sm leading-6 text-muted">
+                        {focus.description}
+                      </p>
+                    </div>
+                  ) : null}
+                  <span className="mx-auto inline-flex items-center gap-2 rounded-lg bg-foreground px-3 py-2 text-sm font-medium text-background">
                     <Lock aria-hidden="true" size={16} />
-                    추가 광고 또는 결제로 공개
+                    광고 1회 또는 전체 결제로 공개
                   </span>
                 </div>
               ) : null}
@@ -380,6 +488,78 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
           );
         })}
       </section>
+
+      {service.serviceType === "HANJA_MEANING_MATCH" && candidates.length > 0 ? (
+        allCandidatesRevealed && comprehensiveHanjaOptions.length ? (
+          <section className="rounded-lg border border-brand-teal/25 bg-surface p-5 shadow-sm">
+            <div className="flex items-start gap-3">
+              <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-brand-teal/10 text-brand-teal">
+                <CheckCircle2 aria-hidden="true" size={20} />
+              </span>
+              <div>
+                <p className="text-sm font-semibold text-brand-teal">
+                  전체 후보 확인 완료
+                </p>
+                <h2 className="mt-1 text-lg font-semibold">한자 종합 상세</h2>
+                <p className="mt-2 text-sm leading-6 text-muted">
+                  다섯 후보에 사용된 한자를 음절별로 합쳐, 중복 없이 비교합니다.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-5 grid gap-5">
+              {comprehensiveHanjaOptions.map((group) => (
+                <div key={group.syllable} className="grid gap-3">
+                  <p className="text-sm font-semibold">
+                    {group.syllable} 음절 추천 한자
+                  </p>
+                  <div className="grid gap-3 md:grid-cols-3">
+                    {group.options.map((option) => (
+                      <div
+                        key={`${group.syllable}-${text(option.character)}`}
+                        className="rounded-lg border border-line bg-background p-4 text-sm"
+                      >
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="text-2xl font-semibold">
+                            {text(option.character)}
+                          </p>
+                          {candidateRate(option) !== null ? (
+                            <span className="rounded-lg bg-surface-strong px-2 py-1 text-xs font-semibold text-brand-teal">
+                              {candidateRate(option)}%
+                            </span>
+                          ) : null}
+                        </div>
+                        <p className="mt-2 font-medium">{text(option.meaning)}</p>
+                        <p className="mt-1 text-muted">
+                          지정 발음 {text(option.designated_reading)}
+                        </p>
+                        {text(option.interpretation) ? (
+                          <p className="mt-2 leading-5 text-muted">
+                            {text(option.interpretation)}
+                          </p>
+                        ) : null}
+                        {text(option.recommendation_reason) ? (
+                          <p className="mt-2 leading-5 text-muted">
+                            {text(option.recommendation_reason)}
+                          </p>
+                        ) : null}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : (
+          <section className="rounded-lg border border-dashed border-line bg-surface-strong p-5 text-center">
+            <Lock aria-hidden="true" className="mx-auto text-muted" size={20} />
+            <h2 className="mt-3 text-base font-semibold">한자 종합 상세 잠금</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              모든 추천 후보를 확인하면 음절별 한자 뜻과 추천 근거를 한 번에 비교할 수 있습니다.
+            </p>
+          </section>
+        )
+      ) : null}
 
       {rejected.length ? (
         <section className="rounded-lg border border-brand-rose/25 bg-brand-rose/5 p-5">
@@ -400,14 +580,19 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
                 <p className="font-semibold">
                   {text(item.character || item.name || item.hangul)}
                 </p>
-                <p className="mt-1 leading-6 text-muted">{text(item.reason)}</p>
+                <p className="mt-1 leading-6 text-muted">
+                  {service.serviceType === "HANJA_MEANING_MATCH"
+                    ? publicFacingHanjaText(item.reason)
+                    : text(item.reason)}
+                </p>
               </div>
             ))}
           </div>
         </section>
       ) : null}
 
-      {text(record.official_verification_note) ? (
+      {service.serviceType !== "HANJA_MEANING_MATCH" &&
+      text(record.official_verification_note) ? (
         <section className="rounded-lg border border-line bg-surface p-5">
           <div className="flex items-center gap-2">
             <CheckCircle2

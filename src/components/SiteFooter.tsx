@@ -644,6 +644,14 @@ const footerCopies: Record<Locale, FooterCopy> = {
   },
 };
 
+function displayFooterValue(label: string, value: string) {
+  const trimmedValue = value.trim();
+
+  return trimmedValue.startsWith(label)
+    ? trimmedValue.slice(label.length).trim()
+    : trimmedValue;
+}
+
 export function SiteFooter({
   tone = "dark",
   className = "",
@@ -685,19 +693,36 @@ export function SiteFooter({
     { href: "/refund-policy", label: copy.links.refund },
     { href: "/pricing", label: copy.links.pricing },
   ];
+  const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
   const firstLine = [
-    `${copy.labels.legalEntity} ${footerContent.legalEntity}`,
-    `${copy.labels.representative} ${footerContent.representative}`,
-    `${copy.labels.businessNumber} ${footerContent.businessNumber}`,
-    `${copy.labels.address} ${footerContent.address}`,
+    { label: copy.labels.legalEntity, value: displayFooterValue(copy.labels.legalEntity, footerContent.companyName) },
+    { label: copy.labels.representative, value: displayFooterValue(copy.labels.representative, footerContent.representative) },
+    { label: copy.labels.businessNumber, value: displayFooterValue(copy.labels.businessNumber, footerContent.businessNumber) },
+    { label: copy.labels.address, value: displayFooterValue(copy.labels.address, footerContent.address) },
   ];
   const secondLine = [
-    `${copy.labels.email} ${footerContent.email}`,
-    `${copy.labels.privacyOfficer} ${footerContent.privacyOfficer}`,
-    `${copy.labels.mailOrderNumber} ${footerContent.mailOrderNumber}`,
-    `${copy.labels.hostingProvider} ${footerContent.hostingProvider}`,
+    { label: customerCenterLabel, value: displayFooterValue(customerCenterLabel, footerContent.customerCenter) },
+    { label: copy.labels.email, value: displayFooterValue(copy.labels.email, footerContent.email) },
+    { label: copy.labels.privacyOfficer, value: displayFooterValue(copy.labels.privacyOfficer, footerContent.privacyOfficer) },
+    { label: copy.labels.mailOrderNumber, value: displayFooterValue(copy.labels.mailOrderNumber, footerContent.mailOrderNumber) },
+    { label: copy.labels.hostingProvider, value: displayFooterValue(copy.labels.hostingProvider, footerContent.hostingProvider) },
+  ];
+  const mobileRows = [
+    [firstLine[0], firstLine[1]],
+    [firstLine[2]],
+    [secondLine[3]],
+    [firstLine[3]],
+    [secondLine[0], secondLine[1]],
+    [secondLine[2]],
+    [secondLine[4]],
   ];
   const textDirection = locale === "ar" ? "rtl" : "ltr";
+  const valueClass = isLight
+    ? "font-semibold text-white"
+    : "font-semibold text-foreground";
+  const providerName = footerContent.companyName
+    .replace(/^\(주\)\s*/, "")
+    .replace(/^주식회사\s*/, "");
 
   return (
     <footer
@@ -732,25 +757,43 @@ export function SiteFooter({
           )}
         </nav>
 
-        <div className="mt-1 grid gap-0.5 text-[11px] leading-5">
+        <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">
+          {mobileRows.map((row, rowIndex) => (
+            <div
+              key={`mobile-footer-row-${rowIndex}`}
+              className="flex flex-wrap items-center justify-center gap-x-3 gap-y-0"
+            >
+              {row.map((item) => (
+                <span key={item.label} className="whitespace-nowrap" dir={textDirection}>
+                  {item.label}{" "}
+                  <strong className={valueClass}>{item.value}</strong>
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
+        <div className="mt-1 hidden gap-0.5 text-[11px] leading-5 sm:grid">
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-0 lg:flex-nowrap">
             {firstLine.map((item) => (
-              <span key={item} className="whitespace-nowrap" dir={textDirection}>
-                {item}
+              <span key={item.label} className="whitespace-nowrap" dir={textDirection}>
+                {item.label}{" "}
+                <strong className={valueClass}>{item.value}</strong>
               </span>
             ))}
           </div>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-0 lg:flex-nowrap">
             {secondLine.map((item) => (
-              <span key={item} className="whitespace-nowrap" dir={textDirection}>
-                {item}
+              <span key={item.label} className="whitespace-nowrap" dir={textDirection}>
+                {item.label}{" "}
+                <strong className={valueClass}>{item.value}</strong>
               </span>
             ))}
           </div>
         </div>
         <p className="font-medium" dir={textDirection}>
-          © {footerContent.copyrightYear} {footerContent.serviceName} ·{" "}
-          {copy.values.providedBy} {footerContent.studioName}
+          © {footerContent.copyrightYear} {footerContent.serviceName}(
+          {footerContent.subtitle}) ·{" "}
+          {copy.values.providedBy} {providerName}
         </p>
       </div>
     </footer>

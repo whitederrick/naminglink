@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/admin-auth";
 import { isLocale } from "@/lib/locale";
 import {
   fallbackFooterContent,
+  footerContentSchema,
   getContentKey,
   getFallbackPolicyDocument,
   legalDocumentKinds,
@@ -59,11 +60,26 @@ export async function GET(request: NextRequest) {
     );
   }
 
+  const rawDraft = result.data?.draft_content ?? result.data?.published_content ?? fallback;
+  const rawPublished = result.data?.published_content ?? null;
+  const parsedDraft = isFooter ? footerContentSchema.safeParse(rawDraft) : null;
+  const parsedPublished = isFooter && rawPublished
+    ? footerContentSchema.safeParse(rawPublished)
+    : null;
+
   return NextResponse.json({
     ok: true,
     contentKey,
-    draft: result.data?.draft_content ?? result.data?.published_content ?? fallback,
-    published: result.data?.published_content ?? null,
+    draft: isFooter
+      ? parsedDraft?.success
+        ? parsedDraft.data
+        : fallbackFooterContent
+      : rawDraft,
+    published: isFooter
+      ? parsedPublished?.success
+        ? parsedPublished.data
+        : null
+      : rawPublished,
     draftVersion: result.data?.draft_version ?? 0,
     publishedVersion: result.data?.published_version ?? 0,
     updatedAt: result.data?.updated_at ?? null,

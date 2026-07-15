@@ -37,6 +37,10 @@ function nullableNumber(value) {
   return typeof value === "number" && Number.isFinite(value) ? value : null;
 }
 
+function nullableString(value) {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
 function chunk(items, size) {
   const chunks = [];
 
@@ -105,7 +109,7 @@ const entries = (payload.entries ?? []).map((entry) => ({
   hangul_syllable: requireString(entry.hangul, "entries[].hangul"),
   hanja: requireString(entry.hanja, "entries[].hanja"),
   designated_reading: requireString(entry.reading ?? entry.hangul, "entries[].reading"),
-  meaning_ko: requireString(entry.meaningKo ?? entry.meaning, "entries[].meaningKo"),
+  meaning_ko: nullableString(entry.meaningKo ?? entry.meaning),
   table_section: entry.section ?? "unknown",
   page_number: nullableNumber(entry.page),
   stroke_count: nullableNumber(entry.strokeCount),

@@ -24,13 +24,14 @@ export type PolicyDocumentContent = {
 };
 
 export type FooterContent = {
+  companyName: string;
   serviceName: string;
-  studioName: string;
-  legalEntity: string;
+  subtitle: string;
   representative: string;
   businessNumber: string;
   mailOrderNumber: string;
   address: string;
+  customerCenter: string;
   email: string;
   privacyOfficer: string;
   hostingProvider: string;
@@ -49,19 +50,50 @@ export const policyDocumentSchema = z.object({
   sections: z.array(policySectionSchema).min(1).max(40),
 });
 
-export const footerContentSchema = z.object({
-  serviceName: z.string().trim().min(1).max(120),
-  studioName: z.string().trim().min(1).max(120),
-  legalEntity: z.string().trim().min(1).max(200),
-  representative: z.string().trim().min(1).max(120),
-  businessNumber: z.string().trim().min(1).max(120),
-  mailOrderNumber: z.string().trim().min(1).max(120),
-  address: z.string().trim().min(1).max(500),
-  email: z.string().trim().email().max(320),
-  privacyOfficer: z.string().trim().min(1).max(120),
-  hostingProvider: z.string().trim().min(1).max(200),
-  copyrightYear: z.number().int().min(2020).max(2100),
-});
+export const footerContentSchema = z.preprocess(
+  (value) => {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+
+    const content = value as Record<string, unknown>;
+
+    const isLegacyContent = typeof content.companyName !== "string";
+
+    const sourceServiceName = isLegacyContent
+      ? "Naming-Link"
+      : typeof content.serviceName === "string"
+        ? content.serviceName
+        : "Naming-Link";
+    const combinedServiceName = sourceServiceName.match(/^(.+?)\((.+)\)$/);
+
+    return {
+      ...content,
+      companyName: isLegacyContent
+        ? "(주)Platforest"
+        : content.companyName,
+      serviceName: combinedServiceName?.[1]?.trim() ?? sourceServiceName,
+      subtitle:
+        content.subtitle ??
+        combinedServiceName?.[2]?.trim() ??
+        content.studioName ??
+        "Global Naming Studio",
+      customerCenter: content.customerCenter ?? companyInfo.customerCenter,
+    };
+  },
+  z.object({
+    companyName: z.string().trim().min(1).max(120),
+    serviceName: z.string().trim().min(1).max(120),
+    subtitle: z.string().trim().min(1).max(160),
+    representative: z.string().trim().min(1).max(120),
+    businessNumber: z.string().trim().min(1).max(120),
+    mailOrderNumber: z.string().trim().min(1).max(120),
+    address: z.string().trim().min(1).max(500),
+    customerCenter: z.string().trim().min(1).max(120),
+    email: z.string().trim().email().max(320),
+    privacyOfficer: z.string().trim().min(1).max(120),
+    hostingProvider: z.string().trim().min(1).max(200),
+    copyrightYear: z.number().int().min(2020).max(2100),
+  }),
+);
 
 export const managedContentRequestSchema = z.discriminatedUnion("kind", [
   z.object({
@@ -86,13 +118,14 @@ export function getContentKey(
 }
 
 export const fallbackFooterContent: FooterContent = {
-  serviceName: companyInfo.serviceName,
-  studioName: companyInfo.studioName,
-  legalEntity: companyInfo.legalEntity,
+  companyName: "(주)Platforest",
+  serviceName: "Naming-Link",
+  subtitle: "Global Naming Studio",
   representative: companyInfo.representative,
   businessNumber: companyInfo.businessNumber,
   mailOrderNumber: companyInfo.mailOrderNumber,
   address: companyInfo.address,
+  customerCenter: companyInfo.customerCenter,
   email: companyInfo.email,
   privacyOfficer: companyInfo.privacyOfficer,
   hostingProvider: companyInfo.hostingProvider,

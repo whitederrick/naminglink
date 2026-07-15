@@ -134,7 +134,7 @@ export const supportedLocales: Locale[] = [
   ...secondaryLocales,
 ];
 
-const currentYear = new Date().getFullYear();
+export const currentYear = new Date().getFullYear();
 
 export const yearOptions = Array.from({ length: 120 }, (_, index) => {
   const year = currentYear - index;
@@ -151,6 +151,22 @@ export const dayOptions = Array.from({ length: 31 }, (_, index) => {
   return { value: String(day).padStart(2, "0"), label: `${day}일` };
 });
 
+const hanjaBirthYearOptions = [
+  yearOptions[0],
+  { value: String(currentYear + 1), label: `${currentYear + 1}(예정)` },
+  ...yearOptions.slice(1, 25),
+];
+
+const hanjaBirthMonthOptions = [
+  ...monthOptions,
+  { value: "unknown", label: "미정" },
+];
+
+const hanjaBirthDayOptions = [
+  ...dayOptions,
+  { value: "unknown", label: "미정" },
+];
+
 export const birthHourOptions = [
   { value: "unknown", label: "모름" },
   { value: "23-01", label: "자시 23:00-01:00" },
@@ -166,6 +182,10 @@ export const birthHourOptions = [
   { value: "19-21", label: "술시 19:00-21:00" },
   { value: "21-23", label: "해시 21:00-23:00" },
 ];
+
+const hanjaBirthHourOptions = birthHourOptions.map((option) =>
+  option.value === "unknown" ? { ...option, label: "미정" } : option,
+);
 
 const languageOptions: FieldOption[] = [
   { value: "auto", label: "접속 환경에 맞춤" },
@@ -531,16 +551,16 @@ export const services = {
     eyebrow: "부모를 위한 인명용 한자 설계",
     audience: "이미 한글 이름을 정한 부모",
     description:
-      "먼저 정한 한글 이름의 소리를 유지하면서 부모의 바람, 제외하고 싶은 의미, 출생 정보 참고값을 함께 검토해 한자 후보와 배제 사유를 제안합니다.",
+      "먼저 정한 한글 이름의 소리를 유지하면서 부모의 바람,\n제외하고 싶은 의미, 출생 정보를 함께 검토해 한자 후보와\n배제 사유를 제안합니다.",
     promise:
-      "공식 인명용 한자표의 지정 발음, 첫소리 ㄴ/ㄹ 예외, 동자/속자/약자와 부수 변형 주의사항을 결과 설명에 반영합니다.",
+      "공식 인명용 한자표의 지정 발음, 첫소리 ㄴ/ㄹ 예외, 동자/속자/약자와 부수 변형 주의사항을 반영합니다.",
     icon: "hanja",
     defaultLocale: "ko",
     resultLabel: "추천 한자 조합",
     sections: [
       {
         title: "아이의 한글 이름",
-        description: "먼저 정해 둔 한글 이름과 기본 이미지를 입력합니다.",
+        description: "먼저 정해 둔 한글 이름과 돌림자 정보를 입력합니다.",
         fields: [
           {
             name: "familyName",
@@ -550,23 +570,53 @@ export const services = {
           },
           {
             name: "givenNameHangul",
-            label: "한글 이름",
+            label: "이름(한글)",
             placeholder: "예: 서윤",
             required: true,
           },
           {
             name: "gender",
-            label: "성별/이미지",
+            label: "성별(선택)",
             type: "select",
             options: genderOptions,
+          },
+          {
+            name: "generationNameUsage",
+            label: "돌림자 여부",
+            type: "select",
+            options: [
+              { value: "none", label: "사용 안 함" },
+              { value: "used", label: "사용함" },
+              { value: "unknown", label: "모름" },
+            ],
+          },
+          {
+            name: "generationSyllable",
+            label: "돌림자 글자",
+            placeholder: "예: 준",
+          },
+          {
+            name: "generationHanja",
+            label: "사용 한자",
+            placeholder: "예: 俊",
           },
         ],
       },
       {
         title: "사주 참고 정보",
         description:
-          "생년월일과 생시는 전통적 균형감을 참고하기 위한 입력값입니다.",
+          "출생 전에는 예정 정보를 선택할 수 있으며, 미정 항목은 전통 오행 참고에서 제외합니다.",
         fields: [
+          {
+            name: "birthStatus",
+            label: "출생 여부",
+            type: "select",
+            options: [
+              { value: "born", label: "출생" },
+              { value: "expected", label: "출생 예정" },
+            ],
+            required: true,
+          },
           {
             name: "calendarType",
             label: "달력 기준",
@@ -581,28 +631,28 @@ export const services = {
             name: "birthYear",
             label: "출생 연도",
             type: "select",
-            options: yearOptions.slice(0, 25),
+            options: hanjaBirthYearOptions,
             required: true,
           },
           {
             name: "birthMonth",
             label: "출생 월",
             type: "select",
-            options: monthOptions,
+            options: hanjaBirthMonthOptions,
             required: true,
           },
           {
             name: "birthDay",
             label: "출생 일",
             type: "select",
-            options: dayOptions,
+            options: hanjaBirthDayOptions,
             required: true,
           },
           {
             name: "birthHour",
-            label: "생시",
+            label: "태어난 시간",
             type: "select",
-            options: birthHourOptions,
+            options: hanjaBirthHourOptions,
             required: true,
           },
         ],
@@ -613,22 +663,15 @@ export const services = {
         fields: [
           {
             name: "parentWishes",
-            label: "담고 싶은 가치",
+            label: "담고 싶은 가치(선택)",
             placeholder: "예: 지혜, 평안, 밝음, 자기 길을 잃지 않는 사람",
             type: "textarea",
-            required: true,
           },
           {
             name: "excludedMeanings",
-            label: "피하고 싶은 의미/한자",
+            label: "피하고 싶은 의미/한자(선택)",
             placeholder: "예: 너무 강한 기운, 죽음/병/원망 계열 의미, 가족 이름과 중복",
             type: "textarea",
-          },
-          {
-            name: "outputLanguage",
-            label: "결과 언어",
-            type: "select",
-            options: languageOptions,
           },
         ],
       },

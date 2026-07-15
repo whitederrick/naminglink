@@ -79,6 +79,44 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       sourceStatus: "sample",
     },
   ],
+  규: [
+    {
+      character: "圭",
+      reading: "규",
+      meaning: "홀 규",
+      note: "반듯하게 다듬은 옥 홀에서 바른 기준과 품격의 이미지를 읽을 수 있습니다.",
+      element: "earth",
+      tags: ["바름", "품격", "기준"],
+      sourceStatus: "production",
+    },
+    {
+      character: "奎",
+      reading: "규",
+      meaning: "별 규",
+      note: "별자리의 빛과 문채를 연결해 학문적 밝음과 재능의 이미지를 더합니다.",
+      element: "fire",
+      tags: ["학문", "재능", "밝음"],
+      sourceStatus: "production",
+    },
+    {
+      character: "珪",
+      reading: "규",
+      meaning: "서옥 규",
+      note: "귀하게 다듬은 옥처럼 맑은 품성과 단정한 품격을 나타냅니다.",
+      element: "metal",
+      tags: ["맑음", "귀함", "품격"],
+      sourceStatus: "production",
+    },
+    {
+      character: "規",
+      reading: "규",
+      meaning: "법 규",
+      note: "스스로 세운 바른 기준과 원칙을 지키는 안정적인 인상을 줍니다.",
+      element: "metal",
+      tags: ["원칙", "바름", "안정"],
+      sourceStatus: "production",
+    },
+  ],
   나: [
     {
       character: "娜",
@@ -106,6 +144,26 @@ const hanjaBank: Record<string, HanjaOption[]> = {
       element: "metal",
       tags: ["기회", "집중", "의지"],
       sourceStatus: "sample",
+    },
+  ],
+  남: [
+    {
+      character: "南",
+      reading: "남",
+      meaning: "남녘 남",
+      note: "따뜻한 방향성과 밝게 펼쳐지는 기상을 상징적으로 담습니다.",
+      element: "fire",
+      tags: ["따뜻함", "밝음", "방향성"],
+      sourceStatus: "production",
+    },
+    {
+      character: "楠",
+      reading: "남",
+      meaning: "녹나무 남",
+      note: "푸른 녹나무처럼 단단한 생명력과 꾸준한 성장을 나타냅니다.",
+      element: "wood",
+      tags: ["성장", "생명력", "굳셈"],
+      sourceStatus: "production",
     },
   ],
   도: [
@@ -652,26 +710,140 @@ function stringValue(value: unknown) {
   return typeof value === "string" ? value.trim() : "";
 }
 
+const elementLabels: Record<HanjaElement, string> = {
+  wood: "목(木)",
+  fire: "화(火)",
+  earth: "토(土)",
+  metal: "금(金)",
+  water: "수(水)",
+  neutral: "중립",
+};
+
+const birthHourLabels: Record<string, string> = {
+  "23-01": "자시(23:00-01:00)",
+  "01-03": "축시(01:00-03:00)",
+  "03-05": "인시(03:00-05:00)",
+  "05-07": "묘시(05:00-07:00)",
+  "07-09": "진시(07:00-09:00)",
+  "09-11": "사시(09:00-11:00)",
+  "11-13": "오시(11:00-13:00)",
+  "13-15": "미시(13:00-15:00)",
+  "15-17": "신시(15:00-17:00)",
+  "17-19": "유시(17:00-19:00)",
+  "19-21": "술시(19:00-21:00)",
+  "21-23": "해시(21:00-23:00)",
+};
+
+function hasFinalConsonant(value: string) {
+  const last = Array.from(value).at(-1) ?? "";
+  const code = last.charCodeAt(0);
+
+  return code >= 0xac00 && code <= 0xd7a3 && (code - 0xac00) % 28 !== 0;
+}
+
+function andParticle(value: string) {
+  return hasFinalConsonant(value) ? "과" : "와";
+}
+
+function descriptorParticle(value: string) {
+  return hasFinalConsonant(value) ? "이라는" : "라는";
+}
+
+function objectParticle(value: string) {
+  return hasFinalConsonant(value) ? "을" : "를";
+}
+
+function topicParticle(value: string) {
+  return hasFinalConsonant(value) ? "은" : "는";
+}
+
+function characterMeaningFlow(options: HanjaOption[]) {
+  return options
+    .map(
+      (option, index) =>
+        `${option.character}의 '${option.meaning}'${
+          index < options.length - 1 ? andParticle(option.meaning) : ""
+        }`,
+    )
+    .join(" ");
+}
+
 function hangulSyllables(value: string) {
   return Array.from(value.replace(/\s/g, "")).filter((char) =>
     /^[가-힣]$/.test(char),
   );
 }
 
+function officialOptionsFromInput(
+  inputFactors: Record<string, unknown>,
+  syllable: string,
+) {
+  const rawGroups = inputFactors.officialHanjaCandidates;
+  if (!rawGroups || typeof rawGroups !== "object" || Array.isArray(rawGroups)) {
+    return null;
+  }
+
+  const rawOptions = (rawGroups as Record<string, unknown>)[syllable];
+  if (!Array.isArray(rawOptions) || !rawOptions.length) return null;
+
+  const options = rawOptions.flatMap((rawOption) => {
+    if (!rawOption || typeof rawOption !== "object" || Array.isArray(rawOption)) {
+      return [];
+    }
+
+    const option = rawOption as Record<string, unknown>;
+    const character = stringValue(option.character);
+    const reading = stringValue(option.reading);
+    if (!character || reading !== syllable) return [];
+
+    return [{
+      character,
+      reading,
+      meaning: stringValue(option.meaning) || "AI 의미 해석 대상",
+      note:
+        stringValue(option.note) ||
+        "공식 인명용 한자표에서 지정 발음을 확인한 후보입니다.",
+      element: "neutral" as HanjaElement,
+      tags: Array.isArray(option.tags)
+        ? option.tags.filter((tag): tag is string => typeof tag === "string")
+        : [],
+      sourceStatus: "production" as const,
+    }];
+  });
+
+  return options.length ? options : null;
+}
+
 function birthLabel(inputFactors: Record<string, unknown>) {
+  const birthStatus = stringValue(inputFactors.birthStatus);
   const calendarType = stringValue(inputFactors.calendarType);
   const year = stringValue(inputFactors.birthYear);
   const month = stringValue(inputFactors.birthMonth);
   const day = stringValue(inputFactors.birthDay);
   const hour = stringValue(inputFactors.birthHour);
-  const date = [year, month, day].filter(Boolean).join(".");
+  const date = [year, month, day]
+    .filter((value) => value && value !== "unknown")
+    .join(".");
   const type = calendarType === "lunar" ? "음력" : calendarType === "solar" ? "양력" : "";
 
-  return [type, date, hour && hour !== "unknown" ? hour : ""].filter(Boolean).join(" / ");
+  return [
+    birthStatus === "expected" ? "출생 예정" : "",
+    type,
+    date,
+    hour && hour !== "unknown" ? birthHourLabels[hour] ?? hour : "",
+  ]
+    .filter(Boolean)
+    .join(" / ");
 }
 
 function getSajuElementHint(inputFactors: Record<string, unknown>): HanjaElement {
-  const month = Number(stringValue(inputFactors.birthMonth));
+  const birthMonth = stringValue(inputFactors.birthMonth);
+
+  if (!birthMonth || birthMonth === "unknown") {
+    return "neutral";
+  }
+
+  const month = Number(birthMonth);
 
   if ([3, 4, 5].includes(month)) {
     return "wood";
@@ -702,7 +874,7 @@ function scoreOption(
   const targetText = `${option.meaning} ${option.note} ${option.tags.join(" ")}`;
   let score = 72;
 
-  if (option.element === preferredElement) {
+  if (preferredElement !== "neutral" && option.element === preferredElement) {
     score += 8;
   }
 
@@ -760,15 +932,17 @@ function combineOptions(optionGroups: HanjaOption[][], limit = 80) {
 }
 
 function candidateMeaning(options: HanjaOption[]) {
-  return options
+  const characters = options
     .map((option) => `${option.character}(${option.meaning})`)
-    .join(", ");
+    .join(" · ");
+  const interpretations = options.map((option) => option.note).join(" ");
+
+  return `${characters}. ${interpretations}`;
 }
 
 function recommendationReason(
   options: HanjaOption[],
   inputFactors: Record<string, unknown>,
-  preferredElement: HanjaElement,
 ) {
   const parentWishes = stringValue(inputFactors.parentWishes);
   const matchedTags = [
@@ -778,21 +952,67 @@ function recommendationReason(
         .filter((tag) => parentWishes.includes(tag)),
     ),
   ];
-  const readingSummary = options
-    .map((option) => `${option.character}는 '${option.reading}' 발음`)
-    .join(", ");
-  const tagSummary = options
-    .flatMap((option) => option.tags.slice(0, 2))
+  const tagSummary = [
+    ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
+  ]
     .slice(0, 4)
-    .join(", ");
+    .join("·");
+  const characterFlow = characterMeaningFlow(options);
 
   return [
-    `${readingSummary}이라 입력한 한글 이름의 소리를 바꾸지 않습니다.`,
     matchedTags.length
-      ? `부모가 적은 바람과 직접 맞닿는 키워드(${matchedTags.join(", ")})가 포함되어 있습니다.`
-      : `후보의 핵심 이미지(${tagSummary})가 이름의 긍정적 설명력을 높입니다.`,
-    `출생 월 기준 참고 기운은 ${preferredElement}로 보았고, 조합 안에 그 균형을 보완할 수 있는 한자를 우선 배치했습니다.`,
+      ? `${characterFlow} 의미가 부모가 담고 싶은 바람인 '${parentWishes}'에 포함된 ${matchedTags.join("·")}의 가치와 자연스럽게 이어집니다.`
+      : `${characterFlow} 의미가 만나 ${tagSummary}의 인상을 만들며, 두 글자를 함께 읽었을 때 하나의 긍정적인 서사가 완성됩니다.`,
+    `이 후보는 ${tagSummary}의 방향이 다른 조합보다 선명해, 같은 '${stringValue(inputFactors.givenNameHangul)}' 소리 안에서도 고유한 선택 이유를 갖습니다.`,
   ].join(" ");
+}
+
+function candidateStory(
+  displayName: string,
+  options: HanjaOption[],
+  parentWishes: string,
+) {
+  const characterStories = options
+    .map(
+      (option) =>
+        `${option.character}(${option.meaning})${topicParticle(option.reading)} ${option.note}`,
+    )
+    .join(" ");
+  const combinedImage = [
+    ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
+  ].join("·");
+  const wishSentence = parentWishes
+    ? `입력한 선호 가치 '${parentWishes}'${andParticle(parentWishes)}의 연관성을 검토하면, 이 조합은 해당 가치가 이름의 뜻으로 분명하게 설명될 수 있다는 장점이 있습니다.`
+    : `별도의 선호 가치를 입력하지 않은 경우에도 ${combinedImage}${descriptorParticle(combinedImage)} 해석 방향이 명확해 이름의 뜻을 설명하기 수월합니다.`;
+
+  return `${characterStories} 두 글자의 자의(字義)를 결합하면 ${combinedImage}${objectParticle(combinedImage)} 중심으로 한 의미 구조가 형성됩니다. ${wishSentence} 종합하면 '${displayName}'에 안정적인 설명력과 일관된 인상을 부여하는 조합입니다.`;
+}
+
+function practicalNameAnalysis(
+  displayName: string,
+  options: HanjaOption[],
+) {
+  const characterMeanings = options
+    .map((option) => `${option.character}(${option.meaning})`)
+    .join("·");
+  const keywords = [
+    ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
+  ].join("·");
+
+  return `실사용 시 '${displayName}'의 한자 뜻은 ${characterMeanings}로 풀어 설명할 수 있습니다. 각 글자의 자의가 독립적으로 분명하고 결합 방향도 ${keywords}${objectParticle(keywords)} 중심으로 일관되어, 학교·사회생활·공식 문서 등에서 이름의 의미를 간결하게 전달하기 좋습니다.`;
+}
+
+function sajuReferenceNote(
+  inputFactors: Record<string, unknown>,
+  preferredElement: HanjaElement,
+) {
+  const label = birthLabel(inputFactors) || "출생 시간 미상";
+
+  if (preferredElement === "neutral") {
+    return `입력한 출생 정보(${label})에서 출생월이 미정이므로 전통 오행 참고는 이번 분석에서 제외했습니다. 알 수 없는 출생 정보를 임의로 추정하지 않고, 음가, 자의 결합, 가족의 선호 가치와 실제 등록 가능성을 중심으로 후보를 비교했습니다.`;
+  }
+
+  return `입력한 출생 정보(${label}) 가운데 출생월을 중심으로 한 간이 전통 오행 참고에서는 ${elementLabels[preferredElement]}을 보완 관점으로 살폈습니다. 이는 정밀한 사주 원국 분석이 아니라 후보 간 의미 균형을 비교하기 위한 보조 기준이며, 이름의 운명이나 성격을 단정하지 않습니다. 최종 선택에서는 음가, 자의 결합, 가족의 선호 가치와 실제 등록 가능 여부를 우선해야 합니다.`;
 }
 
 function singleHanjaReason(
@@ -807,8 +1027,8 @@ function singleHanjaReason(
     return `${option.character}는 ${matchedTags.join(", ")} 키워드가 부모의 바람과 직접 맞아 추천합니다.`;
   }
 
-  if (option.element === preferredElement) {
-    return `${option.character}는 출생 월 기준 보완 기운(${preferredElement})과 맞아 우선 검토할 만합니다.`;
+  if (preferredElement !== "neutral" && option.element === preferredElement) {
+    return `${option.character}는 출생 정보에서 참고한 ${elementLabels[preferredElement]}의 보완 관점과 연결되며, '${option.meaning}'의 뜻도 이름의 긍정적인 인상을 더합니다.`;
   }
 
   return `${option.character}는 '${option.reading}' 지정 발음을 유지하면서 ${option.tags.slice(0, 2).join(", ")} 이미지를 더합니다.`;
@@ -905,15 +1125,29 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
     };
   }
 
-  const missingSyllables = givenSyllables.filter((syllable) => !hanjaBank[syllable]);
+  const optionsForSyllable = (syllable: string) =>
+    officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable];
+  const missingSyllables = givenSyllables.filter(
+    (syllable) => !optionsForSyllable(syllable)?.length,
+  );
   const optionGroups = missingSyllables.length
     ? []
     : buildCombination(
         inputFactors,
-        givenSyllables.map((syllable) => hanjaBank[syllable]!),
+        givenSyllables.map((syllable) => optionsForSyllable(syllable)!),
       );
   const combinations = missingSyllables.length ? [] : combineOptions(optionGroups);
   const preferredElement = getSajuElementHint(inputFactors);
+  const hasBirthElementReference = preferredElement !== "neutral";
+  const recommendationFocuses = [
+    ["종합 적합도 우선안", "음가, 자의 결합, 보조 해석과 실사용성을 종합 평가한 우선안입니다."],
+    ["선호 가치 우선안", "가족이 담고 싶은 가치와 한자 결합 의미의 연결성을 우선한 대안입니다."],
+    hasBirthElementReference
+      ? ["전통 오행 보완안", "출생월 기반의 간이 전통 오행 참고를 비교축으로 강조한 대안입니다."]
+      : ["의미 균형 대안", "미정인 출생 정보는 제외하고 한자 간 의미의 균형과 조화를 비교한 대안입니다."],
+    ["실사용 안정안", "자의의 명확성, 설명 용이성과 일상적인 사용성을 중시한 대안입니다."],
+    ["개성·희소성 대안", "지정 음가는 유지하면서 상대적으로 차별화된 자의와 인상을 검토한 대안입니다."],
+  ] as const;
 
   const candidates = combinations
     .map((options) => {
@@ -932,7 +1166,6 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
       recommendation_reason: recommendationReason(
         options,
         inputFactors,
-        preferredElement,
       ),
       matching_rate: matchingRate,
       hanja_options: buildHanjaOptionDetails(
@@ -943,7 +1176,7 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         preferredElement,
       ),
       official_status:
-        "현재 후보는 내장 샘플 기반입니다. 운영 확정 전 official_hanja_entries production 데이터와 대조해야 합니다.",
+        "현재 결과는 서비스가 검토 중인 인명용 한자 자료를 바탕으로 제안했습니다. 출생신고나 개명에 사용하기 전에는 대법원 전자가족관계등록시스템의 인명용 한자 조회에서 해당 글자와 지정 발음을 다시 확인해 주세요.",
       character_breakdown: options.map((option, optionIndex) => ({
         syllable: givenSyllables[optionIndex],
         character: option.character,
@@ -952,30 +1185,62 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         note: option.note,
         source_status: option.sourceStatus,
       })),
-      story: `${displayName}의 '${rawGivenName}' 소리를 그대로 유지하면서 ${options
-        .map((option) => option.note)
-        .join(" ")} ${parentWishes ? `부모가 적은 바람인 "${parentWishes}"와도 연결해 볼 수 있습니다.` : ""}`,
-      saju_note: `입력한 출생 정보(${birthLabel(inputFactors) || "미입력"})를 참고하면 ${preferredElement} 기운을 보완 축으로 볼 수 있습니다. 이 항목은 전통 해석 보조값이며 법적 등록 기준은 아닙니다.`,
+      story: candidateStory(
+        displayName,
+        options,
+        parentWishes,
+      ),
+      practical_analysis: practicalNameAnalysis(displayName, options),
+      saju_note: sajuReferenceNote(inputFactors, preferredElement),
       suitability_score: matchingRate,
       caution_notes:
-        "한자는 지정 발음으로만 검토해야 하며, 동자/속자/약자와 부수 변형은 공식 조회에서 확인되는 경우에만 허용합니다.",
+        "같은 모양처럼 보이는 한자라도 지정 발음이나 공식 등록 여부가 다를 수 있습니다. 특히 동자·속자·약자와 示/礻, 艹 등의 부수 변형은 임의로 바꾸지 말고 공식 조회 결과에 표시된 글자 형태와 발음을 기준으로 확인해 주세요.",
     };
   })
     .sort((a, b) => b.matching_rate - a.matching_rate)
-    .slice(0, 5);
+    .slice(0, 5)
+    .map((candidate, index) => ({
+      ...candidate,
+      recommendation_focus:
+        recommendationFocuses[index]?.[0] ?? `추천 관점 ${index + 1}`,
+      focus_summary:
+        recommendationFocuses[index]?.[1] ??
+        "다른 기준으로 비교할 수 있는 추천 대안입니다.",
+    }));
 
   const rejectedFromSound = givenSyllables.flatMap((syllable) => negativeHanja[syllable] ?? []);
+  const soundReadingSummary = candidates[0]?.character_breakdown
+    .map(
+      (part) =>
+        `${part.character}${topicParticle(part.designated_reading)} '${part.designated_reading}'`,
+    )
+    .join(", ");
   const missingRejected = missingSyllables.map((syllable) => ({
     character: syllable,
-    reason:
-      "현재 내장 샘플 후보에 이 음절의 한자 데이터가 없습니다. 임의 한자를 추천하지 않고 공식 PDF 검수 데이터 import 대상으로 표시합니다.",
+    reason: `‘${syllable}’ 음절에 대응하는 인명용 한자 후보는 현재 검토 자료만으로 지정 음가와 등록 가능성을 충분히 확인하기 어렵습니다. 검증되지 않은 글자를 임의로 제안하지 않고, 공식 인명용 한자 조회 기준과 대조하기 전까지 추천에서 제외했습니다.`,
     severity: "medium" as const,
   }));
 
   return {
     analysis_summary: missingSyllables.length
-      ? `'${rawGivenName}' 중 ${missingSyllables.join(", ")} 음절은 아직 서비스 내 공식 한자 DB 후보가 없습니다. 잘못된 한자를 제안하지 않도록 추천을 보류하고, PDF 검수 데이터 보강이 필요한 항목으로 표시했습니다.`
-      : `'${rawGivenName}'의 각 음절 발음에 맞는 한자 후보만 조합했습니다. 최종 후보는 5개까지, 매칭률이 높은 후보부터 보여주며 각 후보 안에는 음절별 추천 한자 최대 3개와 의미/해석을 함께 제공합니다.`,
+      ? `'${rawGivenName}' 중 ${missingSyllables.join(", ")} 음절은 현재 검토 자료만으로 지정 음가와 등록 가능성을 확인하기 어렵습니다. 정확성을 위해 해당 음절의 추천을 보류했으며, 공식 인명용 한자 조회 기준과 대조한 뒤 후보를 제시해야 합니다.`
+      : `'${rawGivenName}'에 어울리는 한자 조합을 종합 적합도·부모의 바람·출생 정보 균형·실사용 안정성·개성과 희소성의 다섯 관점으로 나누어 비교했습니다. 각 후보에서는 다른 조합과 구별되는 의미와 이야기만 보여드립니다.`,
+    common_analysis: {
+      sound_basis: soundReadingSummary
+        ? `${soundReadingSummary}${
+            hasFinalConsonant(
+              candidates[0]?.character_breakdown.at(-1)?.designated_reading ?? "",
+            )
+              ? "이라고"
+              : "라고"
+          } 읽습니다. 이 지정 발음을 기준으로 정해 둔 '${rawGivenName}'의 소리가 달라지지 않는 한자만 검토했습니다.`
+        : `정해 둔 '${rawGivenName}'의 각 음절과 지정 발음이 일치하는 한자만 검토했습니다.`,
+      birth_reference: sajuReferenceNote(inputFactors, preferredElement),
+      caution_notes:
+        "자형 판단은 공식 인명용 한자 조회에 등재된 글자 형태와 지정 발음을 기준으로 합니다. 동자·속자·약자는 공식표에서 해당 관계가 확인되는 경우에만 같은 사용 범주로 인정하며, 示/礻 및 艹 계열의 부수 변형도 규정에서 허용한 범위 안에서만 적용합니다.",
+      official_status:
+        `등록 가능성은 ${OFFICIAL_HANJA_SOURCE.title}(${OFFICIAL_HANJA_SOURCE.versionLabel})과 ${OFFICIAL_HANJA_SOURCE.ruleReference}를 기준으로 판단합니다. 후보 한자가 신고 시점의 대법원 인명용 한자 조회에 등재되어 있고, 이름 음절과 지정 발음이 일치하는 경우에만 등록 가능 후보로 봅니다. 서비스 추천 결과만으로 등록 가능성을 확정하지 않습니다.`,
+    },
     candidates,
     rejected_hanja: [...rejectedFromSound, ...excludedCondition(inputFactors), ...missingRejected],
     official_verification_note:

@@ -3,6 +3,7 @@ import { z } from "zod";
 import { generateNamingResult } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
+import { validateHanjaMeaningInput } from "@/lib/naming-validation";
 
 export const runtime = "nodejs";
 
@@ -30,6 +31,21 @@ export async function POST(request: NextRequest) {
         },
         { status: 400 },
       );
+    }
+
+    if (parsed.data.serviceType === "HANJA_MEANING_MATCH") {
+      const fieldErrors = validateHanjaMeaningInput(parsed.data.inputFactors);
+
+      if (Object.keys(fieldErrors).length > 0) {
+        return NextResponse.json(
+          {
+            ok: false,
+            error: "정확한 분석을 위해 입력 형식을 확인해 주세요.",
+            fieldErrors,
+          },
+          { status: 400 },
+        );
+      }
     }
 
     const supabase = getSupabaseAdminClient();

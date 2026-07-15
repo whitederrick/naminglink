@@ -101,7 +101,7 @@ function ServicePromisePanel({
               있습니다.
             </p>
           ) : (
-            <p className="mt-2 text-sm leading-6 text-muted">
+            <p className="mt-2 whitespace-pre-line text-sm leading-6 text-muted">
               {service.promise}
             </p>
           )}
@@ -192,7 +192,7 @@ export function ServiceShell({
               {service.title}
             </h1>
             <p
-              className={`mt-4 text-base leading-7 text-muted ${
+              className={`mt-4 whitespace-pre-line text-base leading-7 text-muted sm:whitespace-normal ${
                 isGlobalToKorean ? "lg:whitespace-nowrap" : "max-w-3xl"
               }`}
             >
@@ -204,7 +204,7 @@ export function ServiceShell({
 
         <NamingForm service={service} locale={locale} />
       </section>
-      <SiteFooter locale={locale} />
+      <SiteFooter locale={locale} policyMode="modal" />
     </main>
   );
 }

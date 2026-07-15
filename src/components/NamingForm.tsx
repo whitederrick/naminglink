@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
 import { Send } from "lucide-react";
 import {
+  currentYear,
   getCountryOption,
   getCountryOptionsForLocale,
   type CountryOption,
@@ -18,6 +19,10 @@ import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
+import {
+  validateHanjaMeaningInput,
+  type NamingFieldErrors,
+} from "@/lib/naming-validation";
 
 type ApiResult = {
   ok: boolean;
@@ -25,6 +30,7 @@ type ApiResult = {
   result?: unknown;
   persistence?: "saved" | "skipped" | "failed";
   error?: string;
+  fieldErrors?: NamingFieldErrors;
 };
 
 function fieldInitialValue(field: FieldConfig) {
@@ -35,18 +41,28 @@ function FieldInput({
   field,
   value,
   onChange,
+  invalid = false,
+  errorId,
 }: {
   field: FieldConfig;
   value: string;
   onChange: (value: string) => void;
+  invalid?: boolean;
+  errorId?: string;
 }) {
   if (field.type === "select") {
     return (
       <select
         required={field.required}
+        aria-invalid={invalid}
+        aria-describedby={invalid ? errorId : undefined}
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="h-11 rounded-lg border border-line bg-background px-3 text-sm outline-none transition focus:border-foreground"
+        className={`h-11 w-full min-w-0 rounded-lg border bg-background px-3 text-sm outline-none transition ${
+          invalid
+            ? "border-brand-rose focus:border-brand-rose"
+            : "border-line focus:border-foreground"
+        }`}
       >
         {field.options?.map((option) => (
           <option key={option.value} value={option.value}>
@@ -61,11 +77,17 @@ function FieldInput({
     return (
       <textarea
         required={field.required}
+        aria-invalid={invalid}
+        aria-describedby={invalid ? errorId : undefined}
         value={value}
         placeholder={field.placeholder}
         rows={4}
         onChange={(event) => onChange(event.target.value)}
-        className="min-h-28 resize-y rounded-lg border border-line bg-background px-3 py-3 text-sm outline-none transition focus:border-foreground"
+        className={`min-h-28 w-full min-w-0 resize-y rounded-lg border bg-background px-3 py-3 text-sm outline-none transition ${
+          invalid
+            ? "border-brand-rose focus:border-brand-rose"
+            : "border-line focus:border-foreground"
+        }`}
       />
     );
   }
@@ -73,10 +95,16 @@ function FieldInput({
   return (
     <input
       required={field.required}
+      aria-invalid={invalid}
+      aria-describedby={invalid ? errorId : undefined}
       value={value}
       placeholder={field.placeholder}
       onChange={(event) => onChange(event.target.value)}
-      className="h-11 rounded-lg border border-line bg-background px-3 text-sm outline-none transition focus:border-foreground"
+      className={`h-11 w-full min-w-0 rounded-lg border bg-background px-3 text-sm outline-none transition ${
+        invalid
+          ? "border-brand-rose focus:border-brand-rose"
+          : "border-line focus:border-foreground"
+      }`}
     />
   );
 }
@@ -114,6 +142,7 @@ export function NamingForm({
 }) {
   const router = useRouter();
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
+  const isHanjaMeaning = service.serviceType === "HANJA_MEANING_MATCH";
   const isGlobalToKorean =
     service.serviceType === "GLOBAL_TO_KOREAN" && !isHangulTransliteration;
   const initialValues = useMemo(() => {
@@ -144,9 +173,11 @@ export function NamingForm({
   const [values, setValues] = useState(initialValues);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [fieldErrors, setFieldErrors] = useState<NamingFieldErrors>({});
   const [result, setResult] = useState<ApiResult | null>(null);
   const [revealedCount, setRevealedCount] = useState(1);
   const [analysisCountdown, setAnalysisCountdown] = useState(0);
+  const [analysisAdActive, setAnalysisAdActive] = useState(false);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [legalDocument, setLegalDocument] = useState<LegalDocument | null>(null);
@@ -161,6 +192,18 @@ export function NamingForm({
     setResult(null);
     setRevealedCount(1);
 
+    if (isHanjaMeaning) {
+      const validationErrors = validateHanjaMeaningInput(values);
+      setFieldErrors(validationErrors);
+
+      if (Object.keys(validationErrors).length > 0) {
+        setError("정확한 분석을 위해 입력 형식을 확인해 주세요.");
+        return;
+      }
+    } else {
+      setFieldErrors({});
+    }
+
     if (!agreedToTerms || !agreedToPrivacy) {
       setError("이용약관과 개인정보처리방침에 동의해야 분석을 시작할 수 있습니다.");
       return;
@@ -168,22 +211,36 @@ export function NamingForm({
 
     setLoading(true);
     trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: service.serviceType });
-    trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
-    setAnalysisCountdown(ANALYSIS_AD_SECONDS);
-    const adStartedAt = Date.now();
-    const countdownTimer = window.setInterval(() => {
-      const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
-      setAnalysisCountdown(Math.max(0, ANALYSIS_AD_SECONDS - elapsed));
-    }, 250);
-    let adWindowComplete = false;
+    let adStartedAt: number | null = null;
+    let countdownTimer: number | null = null;
+    let adWindowComplete = true;
+    const startAdWindow = () => {
+      if (adStartedAt !== null) return;
+
+      adStartedAt = Date.now();
+      adWindowComplete = false;
+      setAnalysisAdActive(true);
+      setAnalysisCountdown(ANALYSIS_AD_SECONDS);
+      trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
+      countdownTimer = window.setInterval(() => {
+        if (adStartedAt === null) return;
+        const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
+        setAnalysisCountdown(Math.max(0, ANALYSIS_AD_SECONDS - elapsed));
+      }, 250);
+    };
     const completeAdWindow = async () => {
+      if (adWindowComplete || adStartedAt === null) return;
+
       const remaining = ANALYSIS_AD_SECONDS * 1000 - (Date.now() - adStartedAt);
       if (remaining > 0) {
         await new Promise((resolve) => window.setTimeout(resolve, remaining));
       }
       adWindowComplete = true;
       setAnalysisCountdown(0);
+      setAnalysisAdActive(false);
     };
+
+    if (!isHanjaMeaning) startAdWindow();
 
     try {
       const countryProfile = selectedCountry
@@ -201,7 +258,7 @@ export function NamingForm({
 
       const inputFactors = {
         ...values,
-        outputLanguage: values.outputLanguage || locale,
+        outputLanguage: isHanjaMeaning ? "ko" : values.outputLanguage || locale,
         selectedAddOns: [],
         serviceSlug: service.slug,
         countryProfile,
@@ -224,14 +281,21 @@ export function NamingForm({
 
       const payload = (await response.json()) as ApiResult;
 
-      await completeAdWindow();
-
       if (!response.ok || !payload.ok) {
+        if (payload.fieldErrors) setFieldErrors(payload.fieldErrors);
         throw new Error(payload.error || "작명 요청을 처리하지 못했습니다.");
       }
 
+      const hasRewardableResult =
+        !isHanjaMeaning || resultCandidateCount(payload.result) > 0;
+
+      if (isHanjaMeaning && hasRewardableResult) startAdWindow();
+      await completeAdWindow();
+
       trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: service.serviceType });
-      trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", namingLogId: payload.logId, locale, serviceType: service.serviceType });
+      if (hasRewardableResult) {
+        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", namingLogId: payload.logId, locale, serviceType: service.serviceType });
+      }
 
       if (isHangulTransliteration && payload.result) {
         const resultId = payload.logId ?? crypto.randomUUID();
@@ -251,24 +315,71 @@ export function NamingForm({
         return;
       }
 
+      if (isHanjaMeaning && payload.result) {
+        const resultId = payload.logId ?? crypto.randomUUID();
+        sessionStorage.setItem(
+          `naminglink:hanja-result:${resultId}`,
+          JSON.stringify({
+            result: payload.result,
+            logId: payload.logId ?? null,
+            persistence: payload.persistence ?? "skipped",
+            createdAt: new Date().toISOString(),
+          }),
+        );
+        router.replace(
+          `/hanja-meaning/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
+        );
+        return;
+      }
+
       setResult(payload);
     } catch (caught) {
       trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: service.serviceType });
       if (!adWindowComplete) await completeAdWindow();
       setError(caught instanceof Error ? caught.message : "오류가 발생했습니다.");
     } finally {
-      window.clearInterval(countdownTimer);
+      if (countdownTimer !== null) window.clearInterval(countdownTimer);
       setAnalysisCountdown(0);
+      setAnalysisAdActive(false);
       setLoading(false);
     }
   }
 
   function updateField(field: FieldConfig, value: string) {
+    setFieldErrors((current) => {
+      if (!(field.name in current) && field.name !== "generationNameUsage") {
+        return current;
+      }
+
+      const next = { ...current };
+      delete next[field.name];
+
+      if (field.name === "generationNameUsage") {
+        delete next.generationSyllable;
+        delete next.generationHanja;
+      }
+
+      return next;
+    });
     setValues((current) => {
       const next = {
         ...current,
         [field.name]: value,
       };
+
+      if (isHanjaMeaning && field.name === "birthStatus") {
+        if (value === "expected") {
+          next.birthYear = String(currentYear + 1);
+          next.birthMonth = "unknown";
+          next.birthDay = "unknown";
+          next.birthHour = "unknown";
+        } else {
+          next.birthYear = String(currentYear);
+          next.birthMonth = "01";
+          next.birthDay = "01";
+          next.birthHour = "unknown";
+        }
+      }
 
       if (
         isHangulTransliteration &&
@@ -298,13 +409,17 @@ export function NamingForm({
               ? "grid gap-4 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]"
               : isGlobalToKorean
                 ? "grid gap-4 lg:grid-cols-3"
-                : "grid gap-4"
+                : isHanjaMeaning
+                  ? "grid gap-4 lg:grid-cols-2"
+                  : "grid gap-4"
           }
         >
-          {service.sections.map((section) => (
+          {service.sections.map((section, sectionIndex) => (
             <section
               key={section.title}
-              className="rounded-lg border border-line bg-surface p-5 shadow-sm"
+              className={`rounded-lg border border-line bg-surface p-5 shadow-sm ${
+                isHanjaMeaning && sectionIndex >= 2 ? "lg:col-span-2" : ""
+              }`}
 
             >
               <h2 className="text-lg font-semibold">{section.title}</h2>
@@ -318,17 +433,44 @@ export function NamingForm({
                     ? "mt-5 grid gap-4"
                     : isHangulTransliteration
                       ? "mt-5 grid gap-x-4 gap-y-6 md:grid-cols-2"
-                      : "mt-5 grid gap-4 md:grid-cols-2"
+                      : isHanjaMeaning && sectionIndex === 0
+                        ? "mt-5 grid grid-cols-[minmax(0,0.88fr)_minmax(0,1.08fr)_minmax(0,1.04fr)] gap-4"
+                        : isHanjaMeaning && sectionIndex === 1
+                          ? "mt-5 grid grid-cols-6 gap-4 md:grid-cols-4"
+                          : "mt-5 grid gap-4 md:grid-cols-2"
                 }
               >
                 {section.fields.map((field) => (
+                  (() => {
+                    const fieldError = fieldErrors[field.name];
+                    const fieldErrorId = `${service.slug}-${field.name}-error`;
+
+                    return (
                   <label
                     key={field.name}
-                    className={
-                      field.type === "textarea" && !isGlobalToKorean
-                        ? "grid gap-2 md:col-span-2"
-                        : "grid gap-2"
-                    }
+                    className={`min-w-0 ${
+                      isHanjaMeaning &&
+                            sectionIndex === 1 &&
+                            field.name === "birthStatus"
+                          ? "col-span-6 grid gap-2 md:col-span-4"
+                          : isHanjaMeaning &&
+                              sectionIndex === 1 &&
+                              (field.name === "calendarType" || field.name === "birthYear")
+                          ? "col-span-3 grid gap-2 md:col-span-1"
+                          : isHanjaMeaning &&
+                              sectionIndex === 1 &&
+                              field.name === "birthHour"
+                            ? "col-span-2 grid gap-2 md:col-span-4"
+                            : isHanjaMeaning && sectionIndex === 1
+                              ? "col-span-2 grid gap-2 md:col-span-1"
+                              : isHanjaMeaning &&
+                                  sectionIndex === 2 &&
+                                  field.type === "textarea"
+                                ? "grid gap-2 rounded-lg border border-line bg-surface-strong/60 p-4 [&_textarea]:border-foreground/20 [&_textarea]:bg-surface"
+                                : field.type === "textarea" && !isGlobalToKorean
+                                    ? "grid gap-2 md:col-span-2"
+                                    : "grid gap-2"
+                    }`}
                   >
                     <span className="text-sm font-medium">{field.label}</span>
                     <FieldInput
@@ -344,7 +486,18 @@ export function NamingForm({
                       }
                       value={values[field.name] ?? ""}
                       onChange={(value) => updateField(field, value)}
+                      invalid={Boolean(fieldError)}
+                      errorId={fieldErrorId}
                     />
+                    {fieldError ? (
+                      <span
+                        id={fieldErrorId}
+                        role="alert"
+                        className="text-xs leading-5 text-brand-rose"
+                      >
+                        {fieldError}
+                      </span>
+                    ) : null}
                     {(field.name === "country" ||
                       field.name === "targetCountry") &&
                     selectedCountry && !isHangulTransliteration ? (
@@ -369,6 +522,8 @@ export function NamingForm({
                       </span>
                     ) : null}
                   </label>
+                    );
+                  })()
                 ))}
               </div>
             </section>
@@ -417,48 +572,59 @@ export function NamingForm({
 
 
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-          <h2 className="text-lg font-semibold">필수 동의</h2>
-          <p className="mt-2 text-sm leading-6 text-muted">
-            이름, 생년월일, 국가, 사용 목적 등 입력값은 작명 분석과 결과 저장을
-            위해 처리됩니다.
-          </p>
-          <div className="mt-4 grid gap-3">
-            <label className="flex items-start gap-3 text-sm leading-6">
-              <input
-                type="checkbox"
-                checked={agreedToTerms}
-                onChange={(event) => setAgreedToTerms(event.target.checked)}
-                className="mt-1 h-4 w-4"
+          <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,26rem)]">
+            <div>
+              <h2 className="text-lg font-semibold">필수 동의</h2>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                이름, 생년월일, 국가 등의 입력 내용은 작명 분석 및 한자 추천,
+                <span className="block sm:inline"> 결과 저장을 위해 처리됩니다.</span>
+              </p>
+              <div className="mt-4 grid gap-3">
+                <label className="flex items-start gap-3 text-sm leading-6">
+                  <input
+                    type="checkbox"
+                    checked={agreedToTerms}
+                    onChange={(event) => setAgreedToTerms(event.target.checked)}
+                    className="mt-1 h-4 w-4"
+                  />
+                  <span>
+                    <button
+                      type="button"
+                      onClick={() => setLegalDocument("terms")}
+                      className="font-semibold text-foreground underline decoration-line underline-offset-4"
+                    >
+                      이용약관
+                    </button>
+                    에 동의합니다.
+                  </span>
+                </label>
+                <label className="flex items-start gap-3 text-sm leading-6">
+                  <input
+                    type="checkbox"
+                    checked={agreedToPrivacy}
+                    onChange={(event) => setAgreedToPrivacy(event.target.checked)}
+                    className="mt-1 h-4 w-4"
+                  />
+                  <span>
+                    <button
+                      type="button"
+                      onClick={() => setLegalDocument("privacy")}
+                      className="font-semibold text-foreground underline decoration-line underline-offset-4"
+                    >
+                      개인정보처리방침
+                    </button>
+                    에 동의합니다.
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div className="flex border-t border-line pt-5 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
+              <AdBanner
+                variant="inline"
+                slotKey="consent_card"
+                label="필수 동의 영역 광고"
               />
-              <span>
-                <button
-                  type="button"
-                  onClick={() => setLegalDocument("terms")}
-                  className="font-semibold text-foreground underline decoration-line underline-offset-4"
-                >
-                  이용약관
-                </button>
-                에 동의합니다.
-              </span>
-            </label>
-            <label className="flex items-start gap-3 text-sm leading-6">
-              <input
-                type="checkbox"
-                checked={agreedToPrivacy}
-                onChange={(event) => setAgreedToPrivacy(event.target.checked)}
-                className="mt-1 h-4 w-4"
-              />
-              <span>
-                <button
-                  type="button"
-                  onClick={() => setLegalDocument("privacy")}
-                  className="font-semibold text-foreground underline decoration-line underline-offset-4"
-                >
-                  개인정보처리방침
-                </button>
-                에 동의합니다.
-              </span>
-            </label>
+            </div>
           </div>
         </section>
 
@@ -479,7 +645,7 @@ export function NamingForm({
       </form>
 
       <section className="grid content-start gap-4">
-        {loading ? (
+        {loading && !isHanjaMeaning ? (
           <div className="grid gap-3">
             <AdBanner variant="leaderboard" />
             <p className="text-center text-sm font-medium text-brand-teal">
@@ -518,6 +684,40 @@ export function NamingForm({
           </div>
         ) : null}
       </section>
+      {loading && isHanjaMeaning ? (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="보상 광고 확인 및 한자 분석 진행"
+          className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
+        >
+          <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
+            <div>
+              <p className="text-sm font-semibold text-brand-teal">
+                {analysisAdActive ? "보상 광고 확인" : "한자 후보 검토 중"}
+              </p>
+              <h2 className="mt-1 text-lg font-semibold">
+                {analysisAdActive
+                  ? "광고 확인 후 1순위 결과를 공개합니다"
+                  : "추천 가능한 한자 조합을 먼저 확인합니다"}
+              </h2>
+            </div>
+            {analysisAdActive ? (
+              <>
+                <AdBanner variant="leaderboard" />
+                <p className="text-center text-sm font-medium text-brand-teal">
+                  광고 확인 및 분석 진행 중 · {analysisCountdown}초
+                </p>
+              </>
+            ) : (
+              <p className="text-center text-sm leading-6 text-muted">
+                지정 음가와 검토 가능한 인명용 한자 후보를 확인하고 있습니다.
+              </p>
+            )}
+            <AILoadingSteps />
+          </div>
+        </div>
+      ) : null}
       {legalDocument ? (
         <LegalModal
           kind={legalDocument}

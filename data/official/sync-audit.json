@@ -1,0 +1,20 @@
+{
+  "syncedAt": "2026-07-15T08:12:26.117Z",
+  "romanization": {
+    "expectedRows": 2321,
+    "extractedRows": 2321,
+    "uniqueHangul": 2272,
+    "complete": true
+  },
+  "hanja": {
+    "announcedPrimaryCharacters": 9389,
+    "extractedReadingEntries": 10380,
+    "listedUniqueCodePoints": 9493,
+    "additionalListedCodePoints": 104,
+    "queriedReadings": 2272,
+    "officialLookupCompleted": true,
+    "countReviewRequired": true,
+    "readingsWithHanja": 488,
+    "readingsWithoutHanja": 1784
+  }
+}

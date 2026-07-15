@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, Bot, Boxes, FilePenLine, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 const basePath = "/naming-artist";
@@ -14,6 +14,7 @@ const nav = [
   ["AI 사용량", `${basePath}/ai-usage`, Bot],
   ["글로벌 접속", `${basePath}/analytics`, Globe2],
   ["활용·광고", `${basePath}/usage`, BarChart3],
+  ["한자·발음 기준", `${basePath}/hanja`, BookOpenCheck],
   ["정책·푸터", `${basePath}/content`, FilePenLine],
   ["기준 데이터", `${basePath}/data`, Boxes],
 ] as const;

@@ -51,7 +51,7 @@ export function CandidateUnlockPanel({
     }
   }
 
-  if (totalCount <= 1) return null;
+  if (totalCount <= 1 || remainingCount === 0) return null;
 
   return (
     <section className="rounded-lg border border-brand-teal/25 bg-surface p-5 shadow-sm">
@@ -65,7 +65,7 @@ export function CandidateUnlockPanel({
             현재 {Math.min(revealedCount, totalCount)}개 공개 · {remainingCount}개 잠금
           </h2>
           <p className="mt-2 text-sm leading-6 text-muted">
-            광고를 한 번 확인할 때마다 다음 후보 1개가 열립니다. 추가 결제 방식은 결제 연동 후 제공됩니다.
+            광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 전체 결제 시에는 모든 후보와 한자 종합 상세를 광고 없이 확인할 수 있도록 준비 중입니다.
           </p>
         </div>
       </div>
@@ -87,11 +87,7 @@ export function CandidateUnlockPanel({
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
         >
           <Eye aria-hidden="true" size={17} />
-          {remainingCount === 0
-            ? "모든 후보 공개 완료"
-            : loading
-              ? "광고 확인 중"
-              : "광고 보고 후보 1개 열기"}
+          {loading ? "광고 확인 중" : "광고 보고 다음 후보 열기"}
         </button>
         <button
           type="button"
@@ -99,7 +95,7 @@ export function CandidateUnlockPanel({
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-line bg-surface-strong px-4 text-sm font-semibold text-muted disabled:cursor-not-allowed"
         >
           <CreditCard aria-hidden="true" size={17} />
-          결제로 후보 1개 열기 · 준비 중
+          전체 결과 즉시 보기 · 결제 준비 중
         </button>
       </div>
     </section>

@@ -24,6 +24,36 @@ const editorLabels: Record<EditorKind, string> = {
   footer: "푸터 정보",
 };
 
+const footerFieldOrder: Array<keyof FooterContent> = [
+  "companyName",
+  "representative",
+  "businessNumber",
+  "address",
+  "customerCenter",
+  "email",
+  "privacyOfficer",
+  "mailOrderNumber",
+  "hostingProvider",
+  "serviceName",
+  "subtitle",
+  "copyrightYear",
+];
+
+const footerFieldLabels: Record<keyof FooterContent, string> = {
+  companyName: "상호",
+  serviceName: "서비스명",
+  subtitle: "서브 타이틀",
+  representative: "대표자",
+  businessNumber: "사업자등록번호",
+  mailOrderNumber: "통신판매업 신고번호",
+  address: "주소",
+  customerCenter: "고객센터",
+  email: "이메일",
+  privacyOfficer: "개인정보 보호책임자",
+  hostingProvider: "호스팅 제공",
+  copyrightYear: "저작권 연도",
+};
+
 function isAdmin(metadata: Record<string, unknown>) {
   return (
     metadata.role === "admin" ||
@@ -404,10 +434,11 @@ export function AdminContentManager() {
 
       {!loading && footerContent ? (
         <section className="grid gap-4 rounded-xl border border-line bg-surface p-5 shadow-sm md:grid-cols-2">
-          {(Object.keys(footerContent) as Array<keyof FooterContent>).map(
-            (field) => (
+          {footerFieldOrder.map((field) => (
               <label key={field} className="grid gap-2">
-                <span className="text-sm font-medium">{field}</span>
+                <span className="text-sm font-medium">
+                  {footerFieldLabels[field]}
+                </span>
                 <input
                   type={
                     field === "email"
@@ -429,8 +460,7 @@ export function AdminContentManager() {
                   className="h-11 rounded-lg border border-line bg-background px-3"
                 />
               </label>
-            ),
-          )}
+            ))}
         </section>
       ) : null}
 

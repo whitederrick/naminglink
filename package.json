@@ -11,13 +11,20 @@
     "start": "next start",
     "lint": "eslint",
     "hanja:prepare-pdf": "node scripts/run-python.mjs scripts/prepare-hanja-pdf.py",
-    "hanja:import": "node scripts/import-hanja-json.mjs"
+    "hanja:import": "node scripts/import-hanja-json.mjs",
+    "pronunciation:import": "node scripts/import-pronunciation-json.mjs",
+    "reference:ocr": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/extract-reference-pdf-ocr.ps1",
+    "reference:ocr-batch": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/extract-reference-pdf-batch.ps1",
+    "official:sync": "node scripts/sync-official-reference-data.mjs",
+    "official:validate": "node scripts/validate-official-reference-data.mjs",
+    "official:publish": "node scripts/verify-official-database.mjs --publish"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.1",
     "lucide-react": "^1.23.0",
     "next": "16.2.10",
     "openai": "^6.45.0",
+    "pdfjs-dist": "^6.1.200",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "zod": "^4.4.3"

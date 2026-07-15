@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import type { ServiceType } from "@/lib/services";
 import { getMockResult } from "@/lib/mock-results";
 import { getSystemPrompt } from "@/lib/prompts";
+import { getOfficialHanjaCandidates } from "@/lib/official-hanja-db";
 
 let client: OpenAI | null = null;
 
@@ -21,13 +22,24 @@ export async function generateNamingResult(
   serviceType: ServiceType,
   inputFactors: Record<string, unknown>,
 ) {
+  const officialHanja =
+    serviceType === "HANJA_MEANING_MATCH"
+      ? await getOfficialHanjaCandidates(inputFactors)
+      : null;
+  const enrichedInputFactors = officialHanja
+    ? {
+        ...inputFactors,
+        officialHanjaCandidates: officialHanja.candidates,
+        officialHanjaSource: officialHanja.source,
+      }
+    : inputFactors;
   const openai = getOpenAIClient();
   const isHangulTransliteration =
-    inputFactors.serviceSlug === "global-name-to-hangul";
+    enrichedInputFactors.serviceSlug === "global-name-to-hangul";
 
   if (!openai) {
     return {
-      result: getMockResult(serviceType, inputFactors),
+      result: getMockResult(serviceType, enrichedInputFactors),
       usage: {
         model: "mock",
         promptTokens: 0,
@@ -60,7 +72,7 @@ export async function generateNamingResult(
       },
       {
         role: "user",
-        content: `Input factors:\n${JSON.stringify(inputFactors, null, 2)}`,
+        content: `Input factors:\n${JSON.stringify(enrichedInputFactors, null, 2)}`,
       },
     ],
   });
