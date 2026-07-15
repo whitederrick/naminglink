@@ -1,538 +1,651 @@
-# Naming-Link Work Status - 2026-07-15
+# Naming-Link 작업 현황 및 출시 준비 문서 - 2026-07-15
 
-## Continuation baseline
+## 1. 문서 기준
 
-- Workspace: `C:\myProjects\naminglink`
-- Branch: `main`
-- Verified HEAD: `8b3e9bf Add official Hanja data and matching flow`
-- Verified remote ref: `origin/main` also points to `8b3e9bf`
-- Previous handoff: `docs/WORK_STATUS_2026-07-14.md`
-- This document records the current implementation check and the architecture guidance received on 2026-07-15.
-- At the time this status snapshot was written, the result-retention code changes were still local and not yet committed or deployed.
-- With explicit user approval, remote migration `20260715150000_explicit_result_saving.sql` was applied successfully on 2026-07-15. It removed 11 legacy anonymous naming-result rows.
+- 작업 폴더: `C:\myProjects\naminglink`
+- 브랜치: `main`
+- 현재 확인한 HEAD: `75fdfc2 Add explicit result retention and architecture status`
+- 현재 확인한 원격 기준: `origin/main`도 `75fdfc2`를 가리킴
+- 이전 인수인계 문서: `docs/WORK_STATUS_2026-07-14.md`
+- 이 문서는 2026-07-15까지 확인한 구현 상태, 사용자 제공 아이디어, 검증 결과, 결정이 필요한 사항과 출시 전 작업을 함께 기록한다.
+- 아래에서 `구현 완료`, `현재 확인 상태`, `아이디어`, `출시 차단 항목`을 구분한다. 아이디어로 기록된 내용은 확정된 사업모델이나 반드시 따라야 할 구현 지시가 아니다.
 
-## Local result-retention work completed and verified
+## 2. 결과 저장·운영 로그 정책
 
-The four user-facing analysis flows now share the following intended policy:
+### 적용 대상 서비스
 
-1. Hanja meaning matching for a Korean name
-2. Global-name creation from a Korean name
-3. Hangul pronunciation rendering of a global name
-4. Korean-name creation from a global name
+1. 한글 이름에 맞는 한자 의미 매칭
+2. 한글 이름을 바탕으로 글로벌 이름 만들기
+3. 글로벌 이름의 발음을 한글로 표기하기
+4. 글로벌 이름을 바탕으로 한글 이름 만들기
 
-Policy implemented locally:
+### 구현·배포된 정책
 
-- Anonymous results are not written to `naming_logs`.
-- A signed-in user must explicitly select result saving.
-- The API verifies the Supabase bearer token before saving.
-- Operational AI and advertising logs do not contain raw input, generated output, `user_id`, or a saved-result link.
-- Result pages disclose whether the result was saved, skipped, or failed to save.
-- The local privacy-policy fallback copy reflects this retention policy.
-- Migration `20260715150000_explicit_result_saving.sql` deletes legacy anonymous naming results, requires a member owner for future saved results, and removes member/result links from operational logs.
+- 비회원 분석 결과는 `naming_logs`에 저장하지 않는다.
+- 로그인 회원도 사용자가 명시적으로 저장을 선택한 경우에만 결과를 저장한다.
+- 저장 API는 Supabase bearer token을 확인해 실제 로그인 사용자인지 검증한다.
+- AI 사용량 로그와 광고 운영 로그에는 이름, 생년월일, 부모의 바람, 제외 의미, 원문 프롬프트, 생성 결과, `user_id`, 저장 결과 링크를 넣지 않는다.
+- 결과 화면은 저장 완료·저장 안 함·저장 실패 상태를 구분해 안내한다.
+- 개인정보 처리방침의 기본 문구도 이 원칙에 맞췄다.
+- 원격 마이그레이션 `20260715150000_explicit_result_saving.sql`을 적용했다.
+- 마이그레이션 적용 과정에서 기존 비회원 결과 11건을 삭제했다.
+- 이후 저장 결과는 회원 소유자를 필수로 요구하며, 운영 로그에서 회원·결과 연결 정보를 제거했다.
 
-Verification completed:
+### 확인한 결과
 
-- Next.js production build: passed.
-- TypeScript: passed as part of the production build.
-- ESLint: passed.
-- `git diff --check`: passed.
+- Next.js 프로덕션 빌드 통과
+- TypeScript 검사 통과
+- ESLint 통과
+- `git diff --check` 통과
+- 커밋·원격 푸시·Vercel 배포 완료
+- 프로덕션 홈페이지와 개인정보 처리방침 응답 확인
+- 비로그인 저장 요청은 `401` 반환 확인
+- 비회원 분석은 결과를 만들되 `persistence: skipped`, `logId: null` 반환 확인
 
-Important remaining work:
+### 남은 작업
 
-- Verify the production API/UI after the authorized commit and Vercel deployment.
-- Add an account result-history screen so members can list and delete explicitly saved results.
-- Future migrations and deployments still require explicit approval.
+- 회원이 명시적으로 저장한 결과를 조회하고 삭제할 수 있는 결과 보관함이 필요하다.
+- 향후 원격 마이그레이션과 배포는 계속 사용자의 명시적 승인 후 진행한다.
 
-## Architecture guidance register and current verification
+## 3. 아키텍처·제품 요구사항과 현재 검증
 
-### A. Strict structured AI output
+### A. AI 구조화 출력과 스트리밍
 
-Status: **partially implemented**
+상태: **부분 구현, 출시 전 보강 필요**
 
-Confirmed current state:
+현재 확인 상태:
 
-- `src/lib/openai.ts` requests `response_format: { type: "json_object" }`.
-- The response is parsed with `JSON.parse`, but the parsed result remains `unknown`.
-- There is no service-specific Zod schema validating the generated response.
-- There is no strict JSON Schema response contract, schema-repair retry, or structured streaming.
-- The project currently uses the OpenAI Node SDK directly, not Vercel AI SDK `streamObject`.
+- `src/lib/openai.ts`는 `response_format: { type: "json_object" }`를 요청한다.
+- 전체 응답을 받은 뒤 `JSON.parse`를 실행한다.
+- 파싱한 결과는 여전히 `unknown`이며 서비스별 Zod 결과 스키마로 검사하지 않는다.
+- 엄격한 `json_schema`, 스키마 복구 재시도, 결과 스트리밍은 아직 없다.
+- 현재 OpenAI Node SDK를 직접 사용하며 Vercel AI SDK의 `streamObject`는 사용하지 않는다.
 
-Required work:
+필요 작업:
 
-1. Define a separate Zod result schema for all four user-facing services.
-2. Require schema-bound model output rather than JSON-object mode alone.
-3. Reject or repair malformed responses before they reach React components.
-4. Add bounded retry behavior for schema failure; never retry indefinitely.
-5. Record only prompt version, schema version, error category, token counts, and latency in operational logs.
-6. Evaluate structured streaming only where progressive rendering provides real UX value. Strict validation is required whether the response is streamed or generated at once.
-7. Add contract tests using valid, missing-field, wrong-type, extra-field, and malformed model responses.
+1. 네 가지 서비스마다 버전이 있는 별도 Zod 결과 스키마를 만든다.
+2. 단순 JSON 모드가 아니라 엄격한 Structured Outputs를 적용한다.
+3. React 컴포넌트에 전달하기 전에 서버에서 스키마를 검사한다.
+4. 스키마 실패 시 횟수가 제한된 재시도 또는 안전한 실패 응답을 사용한다.
+5. 거부, 응답 잘림, 시간 초과, 연결 중단, 잘못된 문자, 스키마 불일치를 각각 처리한다.
+6. 스트리밍은 체감 대기시간 개선에 실제 도움이 되는 화면에만 적용한다. 스트리밍 여부와 관계없이 최종 객체 검증은 필수다.
+7. 정상값, 필드 누락, 잘못된 타입, 초과 필드, 깨진 JSON, 빈 후보를 포함한 계약 테스트를 만든다.
 
-Acceptance criteria:
+통과 기준:
 
-- No result component receives an unvalidated `unknown` object.
-- Every stored member result includes `service_type`, `prompt_version`, and `schema_version`.
-- Invalid output cannot be displayed or saved.
+- 검증되지 않은 `unknown` 객체가 결과 컴포넌트나 DB에 도달하지 않는다.
+- 회원 저장 결과에는 `service_type`, `prompt_version`, `schema_version`이 포함된다.
+- 부분 스트리밍 내용은 최종 검증 전 확정 결과로 표시하지 않는다.
 
-### B. Official Hanja DB as the authority and AI as a constrained selector
+### B. 인명용 한자 DB와 AI 제한 선택
 
-Status: **pre-query implemented; post-validation incomplete**
+상태: **DB 선조회 구현, 생성 후 재검증 미완료**
 
-Confirmed current state:
+현재 확인 상태:
 
-- `getOfficialHanjaCandidates` splits `givenNameHangul` into Hangul syllables.
-- It queries only the latest production source, production-reviewed entries, and `is_name_usable = true` rows.
-- The resulting official candidates are added to the AI input.
-- `official_hanja_entries` already has a lookup index on `(hangul_syllable, designated_reading, review_status)` and an index on `hanja`.
-- The current query has a 500-row ceiling.
-- The AI response is not yet rechecked against the exact candidates supplied by the server.
+- `getOfficialHanjaCandidates`가 `givenNameHangul`을 음절로 분리한다.
+- 최신 운영 소스, 운영 검수 완료, `is_name_usable = true`인 항목만 조회한다.
+- 공식 후보를 AI 입력에 제공한다.
+- `official_hanja_entries`에 음절·지정 발음·검수 상태 및 한자 인덱스가 있다.
+- 현재 조회 상한은 500행이다.
+- AI가 반환한 글자가 서버가 제공한 후보와 정확히 일치하는지 생성 후 다시 검사하지 않는다.
 
-Required work:
+필요 작업:
 
-1. Represent candidates with stable database IDs, not only character/read/meaning strings.
-2. Apply generation-character, excluded-Hanja, designated-reading, variant, review-status, and name-usability filters before prompting.
-3. Reduce each syllable candidate set before the AI call to avoid unnecessary input tokens.
-4. Ask the AI to select only candidate IDs supplied by the server.
-5. Re-query or compare every returned ID/character after generation.
-6. Drop any combination containing an unknown, mismatched, unreviewed, or unusable character.
-7. Calculate factual fields and exclusion reasons on the server; use AI only for ranking, differentiated interpretation, and readable expert narrative.
-8. Return a controlled `NO_VERIFIED_CANDIDATE` state instead of inventing a character when no verified combination exists.
+1. 글자·음·뜻 문자열이 아니라 안정적인 DB 후보 ID를 사용한다.
+2. 돌림자, 제외 한자, 지정 발음, 동자·속자·약자, 검수 상태, 인명 사용 가능 여부를 프롬프트 전에 걸러낸다.
+3. 음절별 후보 수를 줄여 토큰 낭비를 막는다.
+4. AI에는 서버가 제공한 후보 ID만 고르게 한다.
+5. 생성 결과의 모든 ID·한자·발음을 공식 DB와 다시 대조한다.
+6. 알 수 없거나 발음이 다르거나 검수되지 않았거나 인명용이 아닌 글자가 포함된 조합은 제거한다.
+7. 사실 정보와 배제 사유는 서버가 만들고, AI는 순위·차별화된 해석·전문가형 설명만 담당한다.
+8. 검증 후보가 없으면 임의 한자를 만들지 말고 `NO_VERIFIED_CANDIDATE` 상태를 반환한다.
 
-Target flow:
+목표 흐름:
 
-`input validation -> syllable split -> official DB lookup -> deterministic filtering -> bounded combination creation -> constrained AI selection -> strict schema validation -> official DB post-validation -> final result`
+`입력 검증 → 음절 분리 → 공식 DB 조회 → 결정론적 필터 → 제한된 조합 생성 → AI 제한 선택 → Zod 검증 → 공식 DB 사후 검증 → 최종 결과`
 
-Acceptance criteria:
+통과 기준:
 
-- A Hanja character not present in the supplied production candidate set can never reach the final response.
-- Every final character is traceable to its official source row and review status.
+- 서버가 제공하지 않은 한자는 최종 결과에 절대 포함되지 않는다.
+- 모든 최종 한자는 공식 출처 행과 검수 상태까지 추적할 수 있다.
 
-### C. Romanization and pronunciation reference DB
+### C. 로마자 표기와 외국 이름 발음 참고 DB
 
-Status: **database/import implemented; runtime integration not implemented**
+상태: **DB·가져오기 도구 구현, 실제 서비스 연결 미완료**
 
-Confirmed current state:
+현재 확인 상태:
 
-- Official pronunciation source, chunk, and entry tables exist.
-- Imported pronunciation entries have lookup indexes.
-- Import, verification, and administrator source-management tooling exists.
-- No user-facing runtime code currently queries `official_pronunciation_entries`.
-- The global-name-to-Hangul flow still asks the LLM to perform pronunciation analysis.
+- 공식 발음 소스·청크·항목 테이블과 조회 인덱스가 있다.
+- 자료 가져오기·검증·관리자 소스 관리 도구가 있다.
+- 사용자 서비스가 아직 `official_pronunciation_entries`를 조회하지 않는다.
+- 글로벌 이름의 한글 발음 표기는 여전히 LLM에 발음 분석을 요청한다.
 
-Required work:
+필요 작업:
 
-1. Separate two different domains clearly:
-   - Korean name to official Roman alphabet notation
-   - Foreign/global name pronunciation to natural Hangul notation
-2. Implement Korean-to-Roman output with a deterministic Node.js rule engine backed by official rules and reviewed exception data; do not let the LLM determine the official spelling.
-3. Treat passport spelling, established personal spelling, and strict standard notation as separate output categories.
-4. Use the pronunciation DB as reviewed evidence for the foreign-name-to-Hangul flow, but do not assume Korean romanization rules are a complete inverse transliteration engine.
-5. Let AI explain alternatives only after deterministic/reference-based candidates have been produced.
-6. Add regression fixtures for assimilation, syllable boundaries, surnames, ambiguous source-language pronunciation, and user-provided pronunciation hints.
+1. `한글 이름의 공식 로마자 표기`와 `외국 이름 발음의 자연스러운 한글 표기`를 서로 다른 문제로 분리한다.
+2. 한글→로마자 표기는 공식 규칙과 검수 예외 자료를 사용하는 결정론적 Node.js 엔진으로 처리한다.
+3. 여권 표기, 기존 개인 표기, 표준 규칙 표기를 별도 결과로 구분한다.
+4. 외국 이름→한글 서비스에서는 발음 DB를 검수된 근거로 사용하되 한국어 로마자 규칙을 역변환 엔진처럼 사용하지 않는다.
+5. 결정론적·참고자료 기반 후보가 나온 후에만 AI가 차이와 선택 이유를 설명한다.
+6. 음운 변화, 음절 경계, 성씨, 원어 발음 모호성, 사용자 발음 힌트 회귀 테스트를 만든다.
 
-Acceptance criteria:
+통과 기준:
 
-- Official Romanization output is reproducible without an AI call.
-- AI cannot overwrite a deterministic official result.
-- Foreign-name Hangul candidates state the evidence source and uncertainty level.
+- 공식 로마자 결과는 AI 호출 없이 재현 가능하다.
+- AI가 결정론적 공식 결과를 덮어쓰지 못한다.
+- 외국 이름의 한글 후보에는 근거와 불확실성 수준이 표시된다.
 
-### D. Prompt tuning and administrator management
+### D. 프롬프트 튜닝과 관리자 관리
 
-Status: **storage foundation exists; runtime prompt versioning is not connected**
+상태: **저장 기반만 존재, 런타임 버전 관리 미연결**
 
-Confirmed current state:
+현재 확인 상태:
 
-- Master-data storage can hold AI service and prompt configuration.
-- The live generation path still reads prompts from `src/lib/prompts.ts` and inline strings in `src/lib/openai.ts`.
-- Prompt drafts, activation, controlled rollout, rollback, and prompt-version attribution are not part of the live generation path.
+- 마스터 데이터에 AI 서비스·프롬프트 설정을 저장할 기반이 있다.
+- 실제 생성은 `src/lib/prompts.ts`와 `src/lib/openai.ts`의 코드 내 문구를 사용한다.
+- 초안, 발행, 단계 배포, 롤백, 결과별 프롬프트 버전 기록은 연결되지 않았다.
 
-Required work:
+필요 작업:
 
-1. Add service-specific prompt records with draft/published state and immutable versions.
-2. Validate prompt variables and result schema compatibility before publishing.
-3. Resolve the active prompt on the server and attach its version to the usage log and explicitly saved member result.
-4. Add rollback and a small percentage canary option before full activation.
-5. Maintain curated synthetic or administrator-authored success/failure test cases.
-6. Do not accumulate anonymous raw prompts and completions as tuning data.
-7. Permit raw case retention only in a separately consented member workflow or an administrator-created test dataset with retention/deletion controls.
+1. 서비스별 초안·발행 상태와 변경 불가능한 버전을 만든다.
+2. 발행 전 변수와 결과 스키마 호환성을 검사한다.
+3. 서버가 활성 프롬프트를 가져오고 사용량 로그·회원 저장 결과에 버전을 남긴다.
+4. 롤백과 소규모 카나리 배포를 지원한다.
+5. 관리자 작성 테스트와 합성 성공·실패 케이스를 관리한다.
+6. 비회원 원문 프롬프트와 결과를 튜닝 데이터로 축적하지 않는다.
+7. 원문 사례 보관은 별도 동의를 받은 회원 흐름이나 보존·삭제 정책이 있는 관리자 테스트 데이터에서만 허용한다.
 
-Acceptance criteria:
+통과 기준:
 
-- Every AI call is attributable to an immutable prompt and schema version without retaining personal input.
-- A prompt can be tested and rolled back without a code deployment.
+- 개인정보 원문을 보관하지 않고도 모든 AI 호출을 프롬프트·스키마 버전으로 추적할 수 있다.
+- 코드 배포 없이 테스트·발행·롤백이 가능하다.
 
-### E. Locale routing and page separation
+### E. 다국어 URL과 화면 분리
 
-Status: **language detection exists; locale-path routing is not implemented**
+상태: **언어 감지는 존재, 경로 기반 라우팅 미구현**
 
-Confirmed current state:
+현재 확인 상태:
 
-- `getRequestLocale` accepts the `lang` query parameter first, then checks `x-vercel-ip-country`, then `Accept-Language`.
-- Public URLs currently use forms such as `/?lang=ko` and `/service?lang=fr`.
-- `src/proxy.ts` only blocks `/admin`; it does not perform locale routing.
-- There is no `app/[locale]/` public route tree.
-- Root `<html lang>` is fixed to `ko` in `src/app/layout.tsx`.
-- Korean and global services already have meaningfully different page flows, but they share several common components.
+- `getRequestLocale`은 `lang` 쿼리, `x-vercel-ip-country`, `Accept-Language` 순으로 확인한다.
+- 현재 공개 URL은 `/?lang=ko`, `/service?lang=fr` 형태다.
+- `src/proxy.ts`는 관리자 경로 차단만 하며 locale 라우팅은 하지 않는다.
+- `app/[locale]/` 공개 경로 트리가 없다.
+- 루트 `<html lang>`은 `ko`로 고정돼 있다.
 
-Required work:
+필요 작업:
 
-1. Decide and document canonical locale URLs, preferably `/{locale}/...` for indexable public pages.
-2. Add locale detection and a one-time redirect only when the URL has no locale.
-3. Preserve an explicit user language selection and prevent redirect loops.
-4. Redirect legacy `?lang=` URLs to the canonical locale path with a permanent redirect after link migration is complete.
-5. Validate locale parameters against the supported-locale allowlist.
-6. Set `<html lang>` dynamically.
-7. Split locale-specific page composition where Korean/global product structure differs, while continuing to share domain logic, validation, and design-system components.
-8. Verify authentication callbacks, result URLs, legal modals, advertising slots, analytics paths, and existing inbound links after routing migration.
+1. 검색 노출용 대표 URL을 `/{locale}/...` 형태로 확정한다.
+2. URL에 locale이 없을 때만 최초 감지 후 한 번 리디렉션한다.
+3. 사용자가 고른 언어를 보존하고 반복 리디렉션을 방지한다.
+4. 기존 `?lang=` 링크 이전 후 대표 경로로 영구 리디렉션한다.
+5. locale 허용 목록을 검증하고 `<html lang>`을 동적으로 설정한다.
+6. 한국어·글로벌 상품 구성이 다른 화면은 조합을 분리하되 도메인 로직·검증·디자인 시스템은 공유한다.
+7. 로그인 콜백, 결과 URL, 약관 모달, 광고, 분석 경로, 기존 유입 링크를 회귀 테스트한다.
 
-Acceptance criteria:
+### F. 글로벌 SEO와 `hreflang`
 
-- Every indexable page has one stable locale-specific canonical URL.
-- Browser/country detection never overrides a locale already present in the URL or explicitly chosen by the user.
-- Unsupported locale paths return a controlled fallback or 404.
+상태: **미구현**
 
-### F. Global SEO and `hreflang`
+필요 작업:
 
-Status: **not implemented**
+- locale·서비스별 제목, 설명, canonical URL, 언어 대체 링크를 생성한다.
+- 글로벌 기본 진입점에 `x-default`를 둔다.
+- 모든 공개 locale·서비스 조합을 sitemap에 포함한다.
+- 번역이 불완전하거나 영어 대체 문구가 남은 locale은 검색 노출하지 않는다.
+- Open Graph locale과 공유 문구를 현지화한다.
+- 프로덕션에서 메타데이터, canonical, 대체 URL, robots, sitemap을 확인한다.
 
-Confirmed current state:
+통과 기준:
 
-- Root metadata contains one static title and description.
-- No locale-specific `generateMetadata` implementation was found.
-- No canonical alternates or `hreflang` language alternates were found.
-- Locale-specific sitemap generation was not found.
+- 각 공개 locale 페이지는 자기 자신을 canonical로 가리키고 유효한 모든 언어 대체 링크를 제공한다.
+- URL 이전 후 canonical에 `?lang=`을 사용하지 않는다.
 
-Required work:
+### G. 네 가지 서비스 분석 기준
 
-1. Generate localized title, description, canonical URL, and language alternates for each public service page.
-2. Add an `x-default` alternate for the global/default entry page.
-3. Generate a sitemap containing every canonical locale/service combination.
-4. Keep translated pages equivalent in purpose; do not publish thin or fallback-English pages as localized SEO pages.
-5. Add Open Graph locale metadata and localized share copy.
-6. Verify rendered metadata, canonical tags, alternate URLs, robots behavior, and sitemap output in production.
-7. Monitor indexing and duplicate-page reports after the URL migration.
+상태: **현재 세 개의 서비스 타입이 네 개 화면을 함께 표현함**
 
-Acceptance criteria:
+현재 값:
 
-- Every supported, publishable locale points to itself as canonical and to all valid alternates.
-- No canonical URL uses the old `?lang=` form after migration.
-- More-menu/fallback-English translations must be complete before a locale is made indexable.
+- `HANJA_MEANING_MATCH`
+- `KOREAN_TO_GLOBAL`
+- `GLOBAL_TO_KOREAN`
 
-### G. Four distinct service analytics dimensions
+문제:
 
-Status: **three service types currently represent four user-facing flows**
+- 글로벌 이름의 한글 발음 표기와 글로벌 이름 기반 한글 이름 만들기가 모두 `GLOBAL_TO_KOREAN`을 사용한다.
+- 서비스별 사용량, 광고, 전환, 지연시간, 결제를 정확히 비교할 수 없다.
 
-Confirmed current state:
-
-- Current values are `HANJA_MEANING_MATCH`, `KOREAN_TO_GLOBAL`, and `GLOBAL_TO_KOREAN`.
-- Both global-name Hangul pronunciation and global-to-Korean-name creation use `GLOBAL_TO_KOREAN`.
-- This prevents accurate per-product usage, advertising, conversion, latency, and payment analysis.
-- Operational event tables already index `service_type`, so the dimension can remain efficient after correcting the taxonomy.
-
-Target service keys:
+목표 키:
 
 - `HANJA_MATCH`
 - `KOREAN_TO_GLOBAL`
 - `GLOBAL_NAME_TO_HANGUL`
 - `GLOBAL_TO_KOREAN_NAME`
 
-Required work:
-
-1. Define one canonical service-key registry shared by UI, API schemas, prompts, result schemas, analytics, advertising, orders, and administrator labels.
-2. Add the fourth service key before collecting meaningful production conversion data.
-3. Migrate constraints and code references without rewriting historical records incorrectly.
-4. Preserve `path` and locale/country as separate analytics dimensions.
-5. Define funnel events such as started, completed, first result viewed, rewarded unlock, save selected, checkout started, paid, and refunded.
-6. Do not add personal input or generated result content to conversion logs.
-7. Add composite indexes only after verifying real query shapes, for example `(service_type, created_at)` and possibly `(country_code, service_type, created_at)`.
-
-Acceptance criteria:
-
-- The administrator dashboard reports all four services separately.
-- Advertising and payment conversion can be compared by service, locale, and country without joining personal result data.
-
-### H. Multilingual AI output, token budget, and cultural quality
-
-Status: **23 UI locales are declared; end-to-end multilingual AI quality controls are incomplete**
-
-Confirmed current state:
-
-- The application declares 23 supported locales: Korean, English, Japanese, Chinese, German, Spanish, French, Italian, Portuguese, Vietnamese, Thai, Indonesian, Russian, Arabic, Filipino, Uzbek, Mongolian, Hindi, Turkish, Khmer, Malay, Kazakh, and Polish.
-- Landing-page static copy is maintained in code through `src/lib/i18n.ts`; fixed UI text is not generated by AI at request time.
-- Arabic text direction support exists in parts of the landing page and footer.
-- Several service-page and result labels remain hard-coded rather than coming from one complete locale message catalog.
-- Non-Hanja requests pass an `outputLanguage`, and the prompt asks the model to use it “when possible.” This is guidance, not an enforceable language contract.
-- Hanja meaning matching currently forces `outputLanguage: "ko"` in `NamingForm`, so it is not an end-to-end multilingual result flow.
-- The AI request has no explicit completion-token ceiling or per-field text-length constraints.
-- The current temperature is `0.85`, which may increase variation in translation, terminology, and cultural-safety wording.
-- `ai_usage_logs` stores token counts and latency but not output locale, so cost and latency cannot currently be compared by language.
-- Prompts request cultural fit and caution notes but do not provide locale-specific reviewed terminology, prohibited associations, or quality gates.
-
-Important validation note:
-
-- Do not assume every non-Latin language always consumes exactly three to four times as many tokens. Tokenization varies by model, script, wording, and output structure. Establish budgets using measured prompt/completion tokens for every supported locale and target model.
-- A universal “150 words” limit is not reliable for languages without English-style word boundaries. Enforce model-level output-token limits plus schema field limits measured in characters or grapheme clusters, with locale-specific test thresholds.
-
-Required work:
-
-1. Keep static UI messages completely separate from AI-generated content. Buttons, labels, validation messages, legal text, payment copy, result headings, and error states must come from reviewed locale catalogs.
-2. Evaluate `next-intl` or an equivalent typed message-catalog approach during the locale-route migration; do not use AI at runtime to translate UI chrome.
-3. Audit every one of the 23 locales for missing keys, English/Korean fallback, overflow, RTL behavior, font support, plural/number/date formatting, and mobile wrapping.
-4. Restrict AI generation to dynamic analysis fields such as meaning interpretation, story, differentiated recommendation reason, cultural-fit explanation, and exclusion reason.
-5. Make `output_locale` a validated enum derived from the canonical URL/user choice, not free-form user input or country inference alone.
-6. Include the required output locale in the strict result schema and reject a response that is substantially in the wrong language.
-7. Add `output_locale`, `prompt_version`, and `schema_version` to non-identifying AI usage logs so token cost, latency, and schema failures can be compared by locale.
-8. Configure a model-level maximum output-token budget and field-level limits for summaries, candidate reasons, stories, cautions, and rejected-option reasons.
-9. Preserve premium usefulness by using different limits per field instead of reducing the entire result to one short generic paragraph.
-10. Measure p50/p95 latency, prompt tokens, completion tokens, schema failures, and retry rates for all locales before defining the five-second UX target.
-11. Create a locale benchmark set using identical naming cases across all 23 languages and compare meaning preservation, terminology consistency, tone, and length.
-12. Add reviewed locale terminology for Korean naming concepts such as 음가, 자의, 결합 의미, 지정 발음, 인명용 한자, and traditional-reference disclaimers.
-13. Add locale/culture-specific negative-association test cases and reviewed prohibited or caution terminology. A system-prompt warning alone does not guarantee cultural safety.
-14. For lower-confidence locales, display a restrained uncertainty notice and require human/native review before using strong claims in paid reports.
-15. Keep names, birth data, wishes, exclusions, raw prompts, and raw completions out of anonymous quality/usage logs.
-
-Target responsibility split:
-
-- Locale catalog: all fixed UI, legal, payment, validation, and navigation text
-- Deterministic server logic/official DB: factual name, Hanja, pronunciation, and eligibility fields
-- AI: bounded dynamic interpretation and storytelling in the validated output locale
-- Post-validation: language match, schema/length limits, official-data consistency, prohibited terminology, and safe fallback
-
-Acceptance criteria:
-
-- All 23 locale builds have complete static messages without unintended Korean or English fallback.
-- Every dynamic response passes schema, locale, length, official-data, and safety validation before display or member saving.
-- The administrator dashboard can compare token cost, latency, retries, and failures by non-identifying output locale and service.
-- Locale-specific p95 latency and cost budgets are based on measured production-like fixtures rather than a fixed multiplier assumption.
-
-### I. Model selection, strict Structured Outputs, and free/premium routing
-
-Status: **GPT-4o-mini is the current code default; suitability and tier routing require benchmark validation**
-
-Confirmed current state:
-
-- `src/lib/openai.ts` defaults to `gpt-4o-mini` when `OPENAI_MODEL` is unset.
-- OpenAI currently describes GPT-4o-mini as a fast, affordable small model for focused tasks and confirms that it supports streaming and Structured Outputs.
-- The current code uses Chat Completions JSON-object mode, not strict JSON Schema Structured Outputs.
-- OpenAI documents JSON-object mode as the older JSON mode and recommends `json_schema` for supported models. Strict schema adherence supports only a subset of JSON Schema, so service schemas must be designed and tested within that subset.
-- The current OpenAI model catalog recommends newer GPT-5.6 variants for new workloads. Therefore GPT-4o-mini remains a candidate baseline, not a permanently “perfect” or latest model choice.
-- No measured Naming-Link benchmark currently proves that five candidates and multilingual narrative consistently complete within five seconds.
-- No advertising revenue data currently proves that one impression funds tens or hundreds of AI calls.
-- There is no free/premium model router, tier-specific prompt, quality evaluation, or fallback policy in the live generation path.
-
-Official references checked on 2026-07-15:
-
-- GPT-4o-mini model capabilities and current token pricing: `https://developers.openai.com/api/docs/models/gpt-4o-mini`
-- Current OpenAI model-selection catalog: `https://developers.openai.com/api/docs/models`
-- Structured output API reference: `https://platform.openai.com/docs/api-reference/responses-streaming/response/refusal/delta`
-
-Required work:
-
-1. Replace `json_object` plus unchecked `JSON.parse` with strict `json_schema` Structured Outputs and service-specific Zod validation.
-2. Treat strict model output as a parsing guarantee only; continue official Hanja/pronunciation DB post-validation because schema adherence does not prove factual correctness.
-3. Benchmark GPT-4o-mini against current cost-sensitive and balanced model candidates using the same 23-locale fixture set.
-4. Measure per service/locale: factual pass rate, schema pass rate, cultural-quality score, human-review score, prompt/completion tokens, p50/p95 latency, retry rate, and cost per completed result.
-5. Define the five-second target as a measured service-level objective with a timeout/fallback policy, not as a model marketing assumption.
-6. Calculate unit economics using actual ad fill rate, eCPM/reward revenue, payment conversion, model tokens, retries, Supabase/Vercel cost, refunds, and taxes. Do not assume one ad funds a fixed number of calls.
-7. Add a versioned server-side model-routing registry. Never let the browser choose an arbitrary model or premium entitlement.
-8. Keep factual inputs, official candidate constraints, strict result schema, and post-validation identical across free and premium tiers.
-9. Differentiate premium primarily through deeper reviewed narrative, more comparison dimensions, longer report limits, optional second-pass critique, and downloadable output—not by relaxing factual controls.
-10. Use stable model snapshots where available, then run regression evaluation before changing an alias or snapshot.
-11. Add bounded fallback behavior for timeout, rate limit, refusal, schema failure, and provider outage.
-12. Keep provider-specific premium candidates configurable. Do not hard-code GPT-4o or Claude 3.5 Sonnet as a future tier before rechecking current availability, pricing, data terms, multilingual quality, and migration cost.
-13. Strengthen localization instructions so dynamic prose is natural and culturally respectful rather than literal, but validate this with native-language fixtures and review; prompt wording alone is not a quality guarantee.
-
-Proposed routing policy:
+필요 작업:
 
-- Free/ad-supported: lowest-cost model that passes the factual, schema, multilingual, and latency thresholds
-- Premium: best-value model that materially improves evaluated narrative quality while preserving the same verified facts
-- Fallback: validated lower-cost model or controlled retry, never an unvalidated free-form response
-- Configuration: server/admin-managed model, snapshot, prompt version, schema version, output limits, timeout, and rollout percentage
-
-Acceptance criteria:
-
-- Strict schema output is used for every production model route, and server Zod plus official-data validation still runs afterward.
-- Free and premium model choices are backed by repeatable 23-locale evaluation results and measured unit economics.
-- A model or snapshot can be canaried, rolled back, or replaced without changing the public result contract.
-- Premium copy makes no unsupported claim such as “better AI” unless the evaluated quality difference is material and documented.
-
-### J. Viral sharing loop, digital name card, and referral reward
-
-Status: **not implemented; phased growth design required**
-
-Confirmed current state:
-
-- No Web Share API integration was found.
-- No Instagram-story card, client/server image renderer, watermark, referral token, referral attribution, or share-reward flow was found.
-- Result pages currently support advertising-based candidate unlock placeholders but no sharing alternative.
-- Existing anonymous result-retention policy means a share feature must not depend on storing raw anonymous input or full results.
-
-Important product and security notes:
-
-- Sharing is not literally zero-cost: image rendering, fonts, CDN traffic, QA, fraud prevention, analytics, and support still have costs.
-- Calling `navigator.share()` does not prove that a recipient opened the link or became a new user. The user may cancel, share to themselves, or repeat the action.
-- Do not grant a candidate merely because the share sheet opened or returned. Start with non-rewarded sharing, then add referral rewards only after qualified referral verification exists.
-- Instagram Story does not expose one universal browser publishing path. Use capability detection, file sharing where supported, and a downloadable 9:16 image fallback.
-- A public share URL must not reveal a child's birth data, gender, wishes, excluded meanings, full analysis, member ID, or private saved-result ID.
-
-Phase 1 required work — safe organic sharing:
-
-1. Add a 9:16 digital name-card template with selected name, pronunciation, one reviewed short meaning, locale-aware typography, and a clear `Created by Naming-Link` plus canonical site address watermark.
-2. Let the user preview and explicitly choose what will appear before generating the card.
-3. Default to privacy-minimal content. Never include birth information, gender, detailed exclusions, analysis scores, official-registration claims, or internal identifiers.
-4. Prefer client-side image generation where reliable so anonymous result content does not need server persistence. If server rendering is later used, process on demand without retaining the payload or generated file by default.
-5. Support `navigator.share` with an image file and canonical service link where the browser permits it.
-6. Provide image download/copy-link fallback for unsupported browsers and Instagram workflows.
-7. Load reviewed multilingual fonts and verify Korean, Arabic RTL, Hindi, Thai, Khmer, Kazakh, Mongolian, and other supported scripts without clipping or broken glyphs.
-8. Add a localized result-end nudge such as “친구에게도 어울리는 한국 이름을 찾아보세요,” linked to the relevant locale/service input page.
-9. Keep the watermark readable but visually restrained. Do not imply official registration approval or hide material service limitations.
-10. Add accessibility labels, keyboard operation, image alternative text, and reduced-motion behavior.
-
-Phase 2 required work — qualified referral unlock:
-
-1. Issue a short-lived, signed, single-purpose referral token that contains no name, birth data, raw result, or member identity.
-2. Link to the canonical locale/service entry page, not to a private result payload.
-3. Count a qualified referral only after a different visitor opens the link and reaches a defined activation event such as analysis start or valid completion.
-4. Add nonce, expiry, idempotency, per-result/per-visitor daily limits, self-referral prevention, duplicate-device/network heuristics, and replay protection.
-5. Grant at most one candidate per qualified referral under a server-verified entitlement. Never trust a browser-only `shared = true` value.
-6. Define behavior for cookie rejection, private browsing, shared networks, no-fill advertising, and users without Web Share support.
-7. Keep referral analytics non-identifying: referral campaign/token hash, service, locale, country, timestamps, qualified state, and reward state only.
-8. Add retention and deletion rules for referral tokens/events and prevent joins to raw member results.
-9. Display transparent reward terms before sharing and avoid manipulative or spam-inducing copy.
-
-Suggested funnel metrics:
-
-- Name-card preview opened
-- Image generated
-- Share intent or download selected
-- Referral landing reached
-- Qualified referral activation
-- Referred analysis completed
-- Referral reward granted
-- Referred checkout and payment conversion
-
-Do not label share-sheet invocation as a completed acquisition. The business metric is qualified referred activation and downstream conversion.
-
-Acceptance criteria:
-
-- A shared image or link contains no sensitive/private analysis data unless the user explicitly selected that exact visible content.
-- All 23 locale cards render at 9:16 without clipped text, missing glyphs, or broken RTL layout.
-- Referral candidate unlock is granted only by a server-verified, idempotent qualified referral event.
-- The original analysis result remains unstored for anonymous users.
-- Viral conversion and abuse rates can be measured without storing names, birth data, prompts, or generated result text in referral logs.
-
-### K. Naming-Link x place-link Seoul pickup integration
-
-Status: **cross-service concept accepted for validation; commerce and pickup foundations are not implemented**
-
-Product concept:
-
-- A foreign customer ordering a personalized Naming-Link stamp can choose international shipping or pickup during a future Seoul trip.
-- A pickup location may be a reviewed place or partner venue surfaced through place-link.
-- After purchase, Naming-Link can deep-link the customer into place-link to view the pickup venue, directions, nearby places, and a suggested local itinerary.
-- The objective is to reduce international fulfillment friction while creating a measurable, consent-aware acquisition path into place-link.
-
-Confirmed current Naming-Link state:
-
-- `orders.order_type` includes `STAMP_DELIVERY`, but the schema models only a shipping address and generic fulfillment status.
-- No `fulfillment_method`, pickup location, pickup window, pickup code, ready date, collection event, expiry, or unclaimed-item state exists.
-- The administrator order screen supports generic pending/processing/shipped/completed/cancelled handling only.
-- Stamp checkout, payment, manufacturing, shipping, refund, and fulfillment pipelines are still intentionally incomplete.
-- No `place-link` identifier, API client, webhook, deep link, analytics bridge, or shared authentication was found in the Naming-Link checkout.
-- The place-link repository, production API, place taxonomy, partner model, authentication, and current deployment were not inspected in this task; they must be verified separately before an integration contract is designed.
-
-Architecture principles:
-
-1. Naming-Link owns the product, payment, manufacturing request, order, pickup entitlement, refund, and fulfillment history.
-2. place-link owns place identity, editorial/place data, maps, directions, nearby recommendations, and visitor discovery UX.
-3. Do not couple both products by letting them write directly into each other's database tables. Use a versioned API/webhook or stable public place identifier.
-4. Save an immutable purchase-time snapshot of the pickup venue name, address, instructions, and policy in the Naming-Link order so later place edits do not change the agreed fulfillment terms.
-5. A place-link deep link must contain only a public place ID and non-identifying campaign/referral token, never the customer's name, stamp text, email, order ID, or pickup code.
-6. Shared login is not required for the first pilot. Add cross-service identity only if a clear user benefit and explicit consent justify it.
-
-Required Naming-Link data model:
-
-- `fulfillment_method`: `INTERNATIONAL_SHIPPING` or `SEOUL_PICKUP`
-- `pickup_location_id`: internal immutable location record
-- `place_link_place_id`: optional stable place-link public identifier
-- Purchase-time venue snapshot: localized name, address, coordinates, opening hours, contact/instructions, timezone
-- Pickup window start/end and customer travel-date preference
-- `pickup_code_hash` or signed one-time QR entitlement; never store the plaintext code after issuance
-- `ready_at`, `picked_up_at`, `expires_at`, cancellation/return/unclaimed status
-- Append-only fulfillment events for production, venue handoff, ready notification, collection, expiry, return, and refund
-- Partner/venue agreement status, capacity, active dates, storage limit, handoff SLA, and incident contact
-
-Required operational flow:
-
-1. Customer selects shipping or Seoul pickup before payment and sees the price, estimated readiness, pickup window, venue policy, and refund/unclaimed terms.
-2. Server validates that the selected venue is active, has capacity, and can accept the expected production date.
-3. Payment confirmation creates an immutable order and pickup entitlement; browser state alone is never trusted.
-4. Stamp production and partner-venue handoff are confirmed before the customer receives a ready notification.
-5. Customer receives a one-time QR/code plus a place-link deep link for directions and nearby recommendations.
-6. Venue staff verifies the one-time entitlement with the minimum customer information needed and records collection idempotently.
-7. Expired or unclaimed items follow a disclosed return, storage, disposal, reshipment, and refund policy.
-8. Every cross-service webhook is signed, timestamped, idempotent, retried safely, and audited without exposing stamp/name details to place-link.
-
-Privacy, policy, and partnership requirements:
-
-- Obtain separate, explicit disclosure before sharing any pickup contact information with a partner venue.
-- Share only the minimum operational data; prefer a pickup alias/code over full analysis or account data.
-- Define controller/processor or independent-party roles, retention, breach handling, customer support ownership, and deletion procedures in the partner agreement.
-- Publish pickup availability, accessibility, opening-hour exceptions, holiday closures, late arrival, lost/damaged item, unclaimed item, cancellation, and refund terms before payment.
-- Confirm payment, tax, e-commerce, custom-made goods, consumer-protection, liability, and venue-partnership requirements before launch.
-- Do not choose venues only for popularity. Verify secure storage, staff training, reliable hours, accessibility, tourist navigation, handoff capacity, and incident response.
-
-Recommended phased rollout:
-
-1. Complete the ordinary stamp product, payment, manufacturing, administrator, refund, and delivery workflow first.
-2. Pilot `SEOUL_PICKUP` at one directly controlled or highly reliable venue with manual partner operations and no place-link API dependency.
-3. Measure readiness accuracy, pickup success, no-show rate, support volume, storage incidents, and fulfillment savings.
-4. Add the place-link public place deep link and nearby-itinerary CTA after the pickup pilot is operationally stable.
-5. Add signed status webhooks/partner tools only when more venues make manual operation inefficient.
-6. Expand from Seoul only after venue economics, traveler demand, customer satisfaction, and operational controls meet approved thresholds.
-
-Cross-service metrics:
-
-- Shipping versus Seoul-pickup selection rate
-- Manufacturing-to-ready lead time
-- Ready-to-collected time and successful pickup rate
-- No-show, expiry, damage, support, refund, and reshipment rate
-- Naming-Link to place-link deep-link open and activated-visitor rate
-- Nearby-place/detail views and itinerary starts after pickup-link entry
-- Partner-venue attributable visits and conversion, using non-identifying campaign data
-- Fulfillment savings and incremental place-link value net of venue fees and support cost
-
-Acceptance criteria:
-
-- A pickup order cannot be paid for unless venue availability, production readiness range, and policy snapshot are valid.
-- place-link never receives private naming-analysis content or a reusable pickup credential.
-- Collection is one-time, server-verified, idempotent, auditable, and reversible only through an authorized support process.
-- The one-venue pilot demonstrates acceptable pickup, no-show, support, privacy, and unit-economics metrics before expansion.
-
-## Recommended implementation sequence
-
-1. Finish and deploy the explicit-save/non-identifying-log migration after reviewing its cleanup impact.
-2. Split the service taxonomy into four stable service keys before more analytics data accumulates.
-3. Add strict result schemas and server-side validation for all four services.
-4. Complete Hanja candidate-ID constraints and post-generation DB validation.
-5. Implement deterministic Romanization/runtime pronunciation evidence integration.
-6. Connect versioned prompt management to the live generation path.
-7. Add strict Structured Outputs and run the model/23-locale quality, latency, cost, and unit-economics benchmark.
-8. Implement server-managed free/premium/fallback model routing only after benchmark thresholds are approved.
-9. Add multilingual AI token/length controls, output-locale validation, and locale usage metrics.
-10. Design and migrate canonical `/{locale}/...` routes with redirects from existing `?lang=` URLs.
-11. Move all fixed UI text into complete reviewed locale catalogs and finish RTL/mobile validation.
-12. Add localized metadata, canonical URLs, `hreflang`, and locale sitemap generation.
-13. Complete the stamp product, checkout, payment, manufacturing, delivery, refund, and administrator fulfillment baseline.
-14. Pilot one-venue Seoul pickup with manual operations, one-time pickup entitlement, and full policy disclosure.
-15. Verify place-link's current code/API and add a public-place deep link before designing broader cross-service webhooks or identity sharing.
-16. Implement privacy-minimal 9:16 name cards, capability-aware sharing/download fallback, and localized friend-name nudges without referral rewards.
-17. Measure organic share and referred activation before deciding the reward value.
-18. Add server-verified referral candidate unlock only after signed-token and anti-abuse controls pass review.
-19. Run desktop/mobile, authentication, analytics, multilingual quality, model-routing, commerce, pickup, cross-service privacy, sharing, referral-abuse, SEO, and production regression checks before deployment.
-
-## Release boundary
-
-- Do not treat this document as proof that the listed required work is implemented.
-- Only the items explicitly marked as completed or confirmed current state have been verified in the current checkout.
-- The architecture items above are the required validation and implementation backlog received from the user.
-- Do not push, apply remote migrations, or deploy without explicit user approval.
+1. UI·API·프롬프트·결과 스키마·분석·광고·주문·관리자에 공통 서비스 키 레지스트리를 둔다.
+2. 의미 있는 프로덕션 데이터가 더 쌓이기 전에 네 번째 타입을 추가한다.
+3. 과거 데이터를 잘못 재분류하지 않도록 제약과 코드 참조를 이전한다.
+4. 경로, locale, 국가는 별도 분석 차원으로 유지한다.
+5. 시작, 완료, 1순위 확인, 보상 해제, 저장 선택, 결제 시작, 결제 완료, 환불 이벤트를 정의한다.
+6. 전환 로그에 개인정보 입력이나 생성 결과를 넣지 않는다.
+
+### H. 23개 언어 AI 출력과 문화 품질
+
+상태: **UI locale 선언은 존재, 전체 품질 통제 미완료**
+
+현재 확인 상태:
+
+- 지원 locale은 한국어, 영어, 일본어, 중국어, 독일어, 스페인어, 프랑스어, 이탈리아어, 포르투갈어, 베트남어, 태국어, 인도네시아어, 러시아어, 아랍어, 필리핀어, 우즈베크어, 몽골어, 힌디어, 터키어, 크메르어, 말레이어, 카자흐어, 폴란드어 등 23개다.
+- 랜딩의 고정 문구는 `src/lib/i18n.ts`에서 관리한다.
+- 일부 화면에는 하드코딩 문구와 불완전한 RTL 처리가 남아 있다.
+- `outputLanguage` 요청은 강제 가능한 언어 계약이 아니다.
+- 한자 의미 매칭은 현재 `outputLanguage: "ko"`를 강제한다.
+- 출력 토큰 상한과 필드별 길이 제한이 없다.
+- 사용량 로그에 출력 locale이 없어 언어별 비용·속도를 비교할 수 없다.
+
+원칙:
+
+- 버튼, 제목, 오류, 약관, 결제 문구는 검수된 정적 locale 카탈로그에서 제공한다.
+- AI는 의미 해석, 이름 이야기, 차별화된 추천 이유, 문화 적합성, 배제 이유 같은 동적 내용만 만든다.
+- 사실 한자·발음·등록 기준은 공식 DB와 결정론적 서버 로직이 담당한다.
+- 출력 후에는 언어 일치, 길이, 공식자료 일치, 금지 표현을 검사한다.
+- 비라틴 문자가 언제나 영어보다 정확히 3~4배 토큰을 쓴다고 가정하지 말고 모델·언어별로 측정한다.
+- 영어식 단어 수만 제한하지 말고 토큰과 문자·그래핌 단위 제한을 함께 사용한다.
+
+필요 작업:
+
+1. 모든 고정 문구를 완전한 locale 카탈로그로 옮긴다.
+2. `next-intl` 등 타입 안전한 방식 도입을 검토한다.
+3. 23개 locale의 누락, 잘못된 대체 언어, 넘침, RTL, 폰트, 숫자·날짜, 모바일 줄바꿈을 검사한다.
+4. URL·사용자 선택에서 검증된 `output_locale`을 만들고 자유문자 입력으로 받지 않는다.
+5. 결과 스키마에 출력 locale을 포함하고 다른 언어 응답을 거부한다.
+6. 비식별 사용량 로그에 locale·프롬프트 버전·스키마 버전을 추가한다.
+7. 모델 출력 토큰 상한과 필드별 길이 제한을 설정한다.
+8. 23개 언어 동일 사례 벤치마크로 p50/p95 속도, 비용, 재시도, 의미 보존, 자연스러움을 측정한다.
+9. 문화권별 부정 연상·금기어 테스트와 검수 용어집을 만든다.
+10. 확신이 낮은 언어는 과도한 단정을 피하고 유료 보고서 전 원어민 검수를 고려한다.
+
+### I. 모델 선택과 무료·유료 경로
+
+상태: **현재 기본값은 `gpt-4o-mini`, 적합성과 등급별 라우팅은 검증 필요**
+
+현재 확인 상태:
+
+- `OPENAI_MODEL`이 없으면 `gpt-4o-mini`를 사용한다.
+- 현재 구현은 엄격한 Structured Outputs가 아닌 JSON 모드다.
+- 무료·유료·장애 대체 모델 라우팅이 없다.
+
+원칙:
+
+- 모델 이름을 영구 확정하지 않고 Naming-Link 전용 평가 결과로 선택한다.
+- 무료 사용자는 비용·속도 중심, 유료 사용자는 실제로 품질 차이가 입증된 경우에만 더 높은 등급을 사용한다.
+- 유료 모델 실패 시 대체 결과를 몰래 제공하지 말고 사용자에게 재시도·환불 기준을 안내한다.
+- `더 좋은 AI` 같은 표현은 측정된 품질 차이가 있을 때만 사용한다.
+
+필요 작업:
+
+- 서비스·언어별 정확도, 문화 자연스러움, 지연시간, 토큰 비용, 스키마 실패율을 비교한다.
+- 공식 한자 제한, 발음 근거, 금지 의미 준수 여부를 별도 평가한다.
+- 모델·프롬프트·스키마 버전을 함께 기록하고 카나리·롤백을 지원한다.
+- 무료·유료 후보 모델을 같은 입력·같은 스키마·같은 채점 기준으로 비교한다.
+- `gpt-4o-mini`라는 이름만으로 5초 이내 응답이나 충분한 다국어 품질을 보장하지 않는다. 실제 Naming-Link 사례로 p50·p95를 측정한다.
+- 공급자 장애, 사용량 제한, 시간 초과 시 재시도와 대체 모델 순서를 서버 설정으로 관리한다.
+- 유료 요청이 최종 실패하면 자동으로 낮은 등급 결과를 유료 결과처럼 제공하지 않고 재시도·환불·권한 복구 기준을 적용한다.
+
+평가 항목:
+
+- 한글 발음 보존과 원어 근거 정확성
+- 공식 인명용 한자와 지정 발음 준수율
+- 후보 간 차별성, 이야기 품질, 중복률
+- 23개 언어의 자연스러움과 문화적 안전성
+- 스키마 성공률, 재시도율, p50·p95 지연시간
+- 요청 1건당 토큰·모델 비용과 `$1.99` 상품 공헌이익
+
+### J. 디지털 네임 카드와 바이럴 구조
+
+상태: **핵심 제품 방향 확정, 렌더러·공유·결제·서버 권한은 미구현**
+
+#### 제품 역할
+
+- 디지털 네임 카드는 단순 부가 기능이 아니라 소장 가치, 결제 가치, 공유 유입을 만드는 핵심 제품이다.
+- 글로벌 이름의 한글 발음 표기 결과에서 우선 적용한다.
+- 결과 화면 하단에 `내 이름 자랑하기` 버튼을 둔다.
+- 비회원 원본 결과와 생성 파일은 기본적으로 서버에 보관하지 않는다.
+
+#### 표준 규격
+
+- 기본 출력은 Instagram Story·TikTok·YouTube Shorts에 맞는 9:16, 1080×1920 PNG다.
+- 상단과 하단 플랫폼 UI에 가려지지 않도록 안전 영역을 둔다.
+- 긴 이름, 혼합 문자, 23개 locale, RTL, 모바일 고밀도 화면을 검증한다.
+
+#### 정보 배치
+
+1. 상단: 현지화한 `The perfect Korean name for [원래 이름]`
+2. 중앙: 가장 큰 한글 이름
+3. 보조: 짧은 로마자 발음 표기
+4. 선택: 공식 DB로 검증된 경우에만 한자·한국어 뜻·현지어 뜻
+5. 중하단: 스키마로 길이를 제한한 한 줄 이름 이야기
+6. 선택: 한글 이름을 넣은 장식용 붉은 낙관 그래픽
+7. 하단: 무료 카드에 `Created by Naming-Link`와 검증된 대표 도메인
+
+주의:
+
+- 단순 발음 변환 결과에 한자를 임의로 붙이지 않는다.
+- 장식 낙관은 법적 도장이나 등록 가능성을 뜻하지 않는다.
+- `naming-link.com`은 도메인 소유와 프로덕션 대표 URL이 확인되기 전 하드코딩하지 않는다.
+- 한지 질감, 전통 문양, 폰트, 이미지의 상업 이용·재배포 라이선스를 기록한다.
+
+#### 두 가지 스타일
+
+- `Traditional`: 은은한 한지, 수묵 또는 가는 전통 문양, 넉넉한 여백, 검수한 붓글씨·명조 계열 폰트, 선택형 붉은 낙관
+- `Modern`: 정제된 그라데이션 또는 에디토리얼 색면, 고딕·산세리프, 현대 K-pop 앨범형 간격과 그래픽 계층
+- 단순 색상만 바꾼 복제 템플릿이 아니라 배치·서체·질감이 분명히 달라야 한다.
+
+#### 무료·광고·프리미엄 정책안
+
+- 광고 경로: 후보를 하나씩 정상 해제한 뒤 전체 확인 완료 시 워터마크가 있는 기본 스타일 1종을 제공한다.
+- 무료 사용자는 두 스타일을 미리 볼 수 있지만 한 가지를 골라 생성한다.
+- `$1.99` 디지털 프리미엄 패스: 광고 없이 포함 결과 전체 즉시 공개, Traditional·Modern 모두 사용, 고화질 저장, 워터마크 제거, 상세 이름 이야기 제공.
+- `5종`이 후보 5개인지 템플릿 5개인지 상품 정의가 필요하다. 현재 글로벌 이름→한글 발음 서비스는 최대 후보 3개이므로 후보 5개를 약속하면 안 된다.
+- 결제 대신 추천 링크를 공유하고 실제 다른 방문자가 분석 시작·완료 등 검증 가능한 행동을 하면 두 번째 스타일을 해제하는 대안을 둘 수 있다.
+- 공유창을 열었다는 사실만으로 보상을 주지 않는다.
+- Instagram 태그·해시태그 자동 감지는 API 자격, 권한, 심사, 개인정보 처리가 검증되지 않아 초기 출시 범위에서 제외한다.
+
+#### 현재 보안 문제
+
+- 현재는 전체 후보 배열을 브라우저에 보낸 뒤 UI에서만 잠근다.
+- 기술적으로 브라우저에 이미 잠긴 데이터가 있으므로 광고·결제 게이트로 안전하지 않다.
+- 현재 5초 타이머는 실제 보상 광고 완료 증명이 아니다.
+
+필요한 권한 구조:
+
+1. 최초에는 공개 후보와 불투명한 결과 참조만 브라우저에 전달한다.
+2. 나머지 후보는 만료되는 서버 임시 저장 또는 권한 확인 후 생성 방식으로 보호한다.
+3. 광고 해제는 광고 사업자의 신뢰 가능한 완료 이벤트를 서버가 검증한 뒤 1회성 권한으로 부여한다.
+4. 유료 권한은 결제 성공 리디렉션이 아니라 서버 결제 조회·서명 웹훅 확인 후 멱등하게 발급한다.
+5. 프리미엄 파일은 권한 확인 후 만들고 기본적으로 장기 보관하지 않는다.
+6. 로그에는 상품·권한·결제·템플릿·locale·전환 정보만 비식별로 남긴다.
+
+#### 렌더링 기술 검토
+
+- `html2canvas`는 DOM 기반 빠른 시제품에 적합하지만 폰트, CORS 이미지, 지원하지 않는 CSS, 모바일 메모리, 브라우저 차이를 검증해야 한다.
+- 현재 Next.js 16.2.10에서는 별도 `@vercel/og` 추가보다 `next/og`의 `ImageResponse`를 우선 검토한다.
+- `ImageResponse`는 JSX·일부 CSS·사용자 폰트·PNG를 지원하지만 flexbox 중심이며 CSS 일부만 지원하고 번들 제한이 있다.
+- 서버 렌더링은 유료 원본 보호와 결과 일관성에 유리하다.
+- 클라이언트 렌더링은 비회원 무저장 원칙과 서버 비용에 유리하지만 유료 보호와 브라우저 일관성이 약하다.
+- 권장 검토안은 무료 미리보기·대체 다운로드는 클라이언트, 권한이 필요한 프리미엄 파일은 서버에서 일시 생성하는 혼합 방식이다.
+- Web Share API의 파일 공유 가능 여부를 확인하고 항상 직접 다운로드 대체 수단을 제공한다.
+
+#### 공유·추천 보상 통제
+
+- 추천 토큰은 이름·생년월일·결과·회원 ID를 포함하지 않는 짧은 서명 토큰으로 만든다.
+- 다른 방문자의 유효 행동 후에만 보상을 부여한다.
+- 만료, nonce, 멱등성, 일일 한도, 자기추천, 재사용, 다중 탭·기기 방어가 필요하다.
+- 공유 이미지는 생년월일, 성별, 부모의 바람, 제외 의미, 상세 분석 점수, 내부 ID를 기본적으로 포함하지 않는다.
+
+측정 지표:
+
+- 네임 카드 미리보기 진입
+- 스타일 선택과 이미지 생성 성공
+- 다운로드·공유 시도
+- 추천 링크 도착
+- 추천 방문자의 유효 분석 시작·완료
+- 추천 보상 발급과 중복·부정 사용 차단
+- 추천 방문자의 결제 전환
+
+통과 기준:
+
+- 무료·유료 권한에 따라 허용된 스타일·해상도·워터마크 정책이 서버 기준과 일치한다.
+- 23개 locale 카드가 글자 잘림, 깨진 글리프, RTL 오류 없이 1080×1920으로 생성된다.
+- 공유 링크나 이미지에 사용자가 선택하지 않은 개인정보가 포함되지 않는다.
+- 추천 보상은 서버에서 검증된 멱등 이벤트로만 한 번 발급된다.
+- 비회원 원본 분석 결과는 계속 미저장 상태를 유지한다.
+
+### K. Naming-Link와 place-link의 서울 픽업 연계
+
+상태: **아이디어·검증 항목으로 기록, 전자상거래·픽업 기반 미구현**
+
+아이디어:
+
+- 외국인 고객이 실물 상품 주문 시 국제배송 또는 향후 서울 여행 중 픽업을 선택한다.
+- 픽업 장소를 place-link의 검수된 장소·파트너 공간과 연결한다.
+- 구매 후 장소, 길찾기, 주변 추천, 일정으로 연결한다.
+
+현재 확인 상태:
+
+- `orders.order_type`에 `STAMP_DELIVERY`가 있지만 배송 주소와 일반 처리 상태만 있다.
+- 픽업 방식, 장소, 시간, 코드, 준비일, 수령, 만료, 미수령 상태가 없다.
+- 도장 결제·제작·배송·환불 흐름은 미완료다.
+- Naming-Link에서 place-link ID, API, 웹훅, 딥링크, 분석 연계, 공통 인증을 찾지 못했다.
+- 이번 작업에서는 place-link 저장소와 운영 API를 직접 검증하지 않았다.
+
+원칙:
+
+- Naming-Link는 상품, 결제, 제작, 주문, 픽업 권한, 환불, 처리 이력을 소유한다.
+- place-link는 장소 정보, 지도, 주변 추천, 방문 UX를 소유한다.
+- 서로 상대 DB에 직접 쓰지 말고 버전 API·서명 웹훅·안정적인 공개 장소 ID를 사용한다.
+- 주문 시점의 장소명·주소·안내·정책을 변경 불가능한 스냅샷으로 보관한다.
+- place-link 링크에는 공개 장소 ID와 비식별 캠페인 토큰만 넣고 이름·도장 문구·이메일·주문 ID·픽업 코드를 넣지 않는다.
+- 첫 시범 운영에는 공통 로그인이 필수가 아니다.
+
+필요 데이터:
+
+- `fulfillment_method`: `INTERNATIONAL_SHIPPING` 또는 `SEOUL_PICKUP`
+- 변경되지 않는 내부 픽업 장소 ID와 선택형 place-link 공개 장소 ID
+- 주문 당시 장소명, 현지화 주소, 좌표, 운영시간, 연락·안내, 시간대 스냅샷
+- 픽업 가능 시작·종료 시각과 고객 여행일 선호값
+- 평문을 보관하지 않는 픽업 코드 해시 또는 서명된 일회용 QR 권한
+- `ready_at`, `picked_up_at`, `expires_at`과 취소·반품·미수령 상태
+- 제작, 장소 전달, 준비 알림, 수령, 만료, 반품, 환불의 추가 전용 이벤트 이력
+- 파트너 계약 상태, 수용량, 운영기간, 보관 한도, 전달 SLA, 사고 연락처
+
+운영 흐름:
+
+1. 결제 전에 배송·서울 픽업, 가격, 준비 예상기간, 픽업 기간, 장소 정책, 미수령·환불 기준을 보여준다.
+2. 서버가 장소 활성 상태, 수용량, 예상 제작일 수용 가능 여부를 확인한다.
+3. 결제 확인 후 변경 불가능한 주문과 일회용 픽업 권한을 만든다. 브라우저 상태만 신뢰하지 않는다.
+4. 제작과 파트너 장소 전달이 확인된 뒤 준비 알림을 보낸다.
+5. 고객에게 일회용 QR·코드와 place-link 길찾기·주변 추천 링크를 제공한다.
+6. 장소 직원은 최소 정보로 권한을 확인하고 수령을 멱등하게 기록한다.
+7. 만료·미수령 상품은 사전에 고지한 보관, 반품, 폐기, 재배송, 환불 정책을 따른다.
+8. 서비스 간 웹훅은 서명, 시각, 멱등성, 안전한 재시도, 최소 감사 로그를 사용한다.
+
+개인정보·파트너 기준:
+
+- 장소에 연락 정보를 제공해야 한다면 결제 전에 별도 고지하고 최소 정보만 공유한다.
+- 가능하면 실명 대신 픽업 별칭·코드를 사용한다.
+- 파트너 계약에 개인정보 역할, 보존, 사고 대응, 고객지원 책임, 삭제 절차를 정한다.
+- 휴일·운영시간 변경, 접근성, 지각, 분실·파손, 미수령, 취소·환불 조건을 결제 전에 공개한다.
+- 인기만으로 장소를 고르지 않고 보관 보안, 직원 교육, 안정적인 운영시간, 관광객 길찾기, 처리량, 사고 대응을 확인한다.
+
+단계:
+
+1. 일반 실물 상품의 결제·제작·관리·환불·배송을 먼저 완성한다.
+2. 직접 통제 가능한 장소 한 곳에서 수동 서울 픽업을 시범 운영한다.
+3. 준비 정확도, 수령률, 노쇼, 문의, 보관 사고, 비용을 측정한다.
+4. 안정화 후 place-link 공개 장소 딥링크와 주변 추천을 붙인다.
+5. 장소 수가 늘어 수동 운영이 비효율적일 때 서명 웹훅과 파트너 도구를 만든다.
+
+측정·통과 기준:
+
+- 배송 대비 픽업 선택률, 제작→준비 시간, 준비→수령 시간, 수령 성공률을 측정한다.
+- 노쇼, 만료, 파손, 문의, 환불, 재배송, 장소 사고를 측정한다.
+- Naming-Link→place-link 링크 열기, 장소 상세 확인, 주변 장소·일정 시작을 비식별 캠페인으로 측정한다.
+- 장소 사용 가능성, 제작 준비 범위, 정책 스냅샷이 유효하지 않으면 픽업 결제를 허용하지 않는다.
+- place-link에는 비공개 작명 내용이나 재사용 가능한 픽업 자격을 보내지 않는다.
+- 한 장소 시범 운영에서 개인정보·운영·노쇼·비용 기준을 통과한 뒤 확장한다.
+
+### L. 캐주얼 도장·EMS 묶음 아이디어와 단위경제
+
+상태: **잊지 않기 위한 비교 아이디어이며 확정 제품·필수 구현·고정 사업모델이 아님**
+
+결정 경계:
+
+- 캐주얼 도장, EMS 포함 가격, 자체 제작, `$49.99`, 아래 순서를 반드시 따를 필요가 없다.
+- 프리미엄 제품, 외주 제작, 서울 픽업, 다른 배송사, 디지털 전용 수익모델과 비교한 뒤 채택·변경·보류·폐기할 수 있다.
+
+가설:
+
+- 가벼운 만년도장 또는 안전한 소재의 소형 레이저 각인 나무 도장을 K-컬처 기념품으로 시험한다.
+- 한글 도장, 키링, 이름 의미 카드 묶음을 검토한다.
+- `$49.99, 배송 포함`은 결제 이탈을 줄일 수 있는 시험 가격일 뿐 확정 가격이 아니다.
+- 국가 제외, 도서산간 추가비, 관세·세금, 배송 한계를 정확히 고지해야 한다.
+- 자체 각인은 외주 의존을 줄일 수 있지만 자재, 장비, 소모품, 안전, 유지보수 의존은 남는다.
+
+현재 확인 상태:
+
+- 일반 `stamp` 부가 상품과 `STAMP_DELIVERY` 타입만 있고 운영 SKU·재질·제작법·시안 승인·무게·포장·재고·국가별 요금·통관 정보가 없다.
+- `PRODUCT_PRICING`, `PAYMENT_SHIPPING`은 설정 기반일 뿐 실제 가격 엔진이나 도메인 관리자 화면이 아니다.
+- 결제, 제작 작업지시, 검수, 운송장, 추적, 사고, 재제작, 환불, 알림은 미완료다.
+
+단위경제 보정:
+
+- `재료 5,000원 + EMS 25,000원 + 매출 약 65,000원 = 이익 35,000원`은 검증 전 가설이다.
+- 인건비, 포장, 결제·환전 수수료, 세금, 불량, 재작업, 재배송, 환불, 문의, 장비 감가, 플랫폼 비용을 빼기 전에는 순이익이라 부르지 않는다.
+- `30건 × 35,000원 = 1,050,000원` 계산은 맞지만 실제 공헌이익이 유지되고 30건을 정상 처리했을 때만 성립한다.
+- EMS는 국가, 실중량과 부피중량, 추가운송수수료에 따라 달라지므로 25,000원을 모든 국가에 고정 적용하지 않는다.
+
+공헌이익 계산식:
+
+`할인·환율 반영 후 원화 정산 매출`
+
+`- 도장·키링·카드·잉크·포장 재료비`
+
+`- 제작·포장 직접 인건비`
+
+`- 우편료·추가운송비·방문접수비·배송 포장비`
+
+`- 결제·마켓·환전 수수료`
+
+`- 판매자가 부담하는 관세·세금·통관 비용`
+
+`- 예상 불량·재작업·분실·교환·환불·문의 비용`
+
+`= 주문 1건당 검증된 공헌이익`
+
+검증 절차:
+
+1. 완제품 시제품 3~5개를 만들고 손작업 시간, 기계 시간, 정리, 실패율, 품질, 내구성을 측정한다.
+2. 첫 SKU의 이름 길이, 배치, 크기, 재질, 색상, 키링·카드, 포장을 제한한다.
+3. 레이저, 환기, 화재, 소재 안전을 확인하고 알 수 없는 PVC·코팅·처리 소재는 각인하지 않는다.
+4. 돌이킬 수 없는 제작 전 고객 시안 승인을 받고 승인본을 주문 이력에 남긴다.
+5. 실제 포장 무게·세 변을 측정하고 우선 5개국의 EMS·EMS Premium·가능한 추적 배송을 비교한다.
+6. HS 코드, 품명, 신고가격, 원산지, 잉크·소재 제한, 상업송장, 도착국 세금·반품을 확인한다.
+7. 국가·권역별 버전 가격표를 만들고 결제 주문에 당시 가격 버전을 저장한다.
+8. 총액, 제작·배송 예상기간, 세금 책임, 맞춤제작 취소 시점, 오타, 분실·파손, 교환·환불 기준을 결제 전에 표시한다.
+9. `PAID`, `PROOF_PENDING`, `PROOF_APPROVED`, `IN_PRODUCTION`, `QC_FAILED`, `QC_PASSED`, `PACKED`, `SHIPPED`, `DELIVERED`, `EXCEPTION`, `REPLACEMENT`, `REFUNDED` 이력을 추가한다.
+10. 장비·재고 확대 전 유료 10~30건을 수동 검수하고 예상 비용과 실제 비용을 대조한다.
+
+시험 가능한 상품 구성:
+
+- `Digital`: 분석과 공유 가능한 네임 카드만 제공
+- `Seoul pickup`: 국제 우편료가 없는 캐주얼 도장 묶음. 일반 상품·픽업 통제가 완성된 뒤에만 제공
+- `International bundle`: 도장, 키링, 이름 의미 카드와 목적지별 추적 배송을 가능한 범위에서 표시 총액에 포함
+- `$49.99`는 배송비와 목표 공헌이익이 실제로 성립하는 국가에서만 시험한다. 성립하지 않으면 가격 인상, 추가비, 다른 배송사 또는 판매 제외를 사용한다.
+
+측정·통과 기준:
+
+- 상품→결제 전환, 가격·주소 단계 이탈, 유료 전환, 제작시간, 재료비, 불량·재작업·교환을 국가·SKU별로 측정한다.
+- 예상 우편료와 실제 우편료, 배달기간, 통관 지연, 문의, 환불, 공헌이익을 대조한다.
+- 첫 운영 출시는 포장 시제품, 반복 가능한 안전 작업법, 시안 승인·검수 흐름, 목적지별 배송 근거가 있어야 한다.
+- 판매 국가별 가격은 평균 우편료뿐 아니라 승인된 변동비 여유분을 포함해야 한다.
+- 주문 화면과 영수증은 상품가, 포함 배송, 예상 관세·세금 책임, 제외 추가비를 오해 없이 구분한다.
+- 검증된 공헌이익과 월 손익분기 주문 수를 승인하기 전에는 `월 30건 = 100만 원`을 확정 목표로 사용하지 않는다.
+
+### M. Naming-Link 최종 출시 점검표
+
+상태: **점검표 기록 완료, 아래 증거가 없으면 완료로 간주하지 않음**
+
+#### 1) AI 결과 계약·점진 표시 - 출시 차단
+
+- 서비스별 Zod 결과 스키마와 엄격한 Structured Outputs를 적용한다.
+- 한글 이름, 검증 한자, 로마자·발음 근거, 이야기, 배제 사유, 점수를 정해진 필드로 표시한다.
+- 최종 검증 전 스트리밍 조각을 확정 결과로 저장·공개하지 않는다.
+- 모든 한자와 지정 발음을 공식 DB와 생성 후 다시 대조한다.
+- 23개 locale, 긴 이름, 혼합 문자, 빈 선택값, 후보 없음, 공급자 장애 테스트를 통과한다.
+
+#### 2) 디지털 네임 카드 - 출시 차단·핵심 상품
+
+- 결과 하단에 `내 이름 자랑하기`와 스타일 선택 모달을 둔다.
+- Traditional·Modern 1080×1920 카드, 파일 공유, 다운로드 대체 수단을 제공한다.
+- iOS, Android, 데스크톱, Instagram 저장 흐름, RTL, 긴 이름을 시각 확인한다.
+- 폰트·질감·문양 라이선스와 대표 도메인을 확인한다.
+- 비회원 결과와 생성 파일은 기본적으로 저장하지 않는다.
+
+#### 3) 보상형 광고 - 광고 수익 출시 차단
+
+- 2순위 이하 후보는 실제 보상형 영상 완료를 서버가 확인한 뒤 연다.
+- 현재 5초 타이머와 자리표시자 광고는 운영용 보상 광고가 아니다.
+- 미공개 결과를 서버에서 보호하고 1회성·멱등 권한을 발급한다.
+- 광고 미송출, 차단, 동의, 미성년자, 국가 제한, 장애, 접근성 대안을 정의한다.
+- 재생 반복, 다중 탭·기기, 새로고침, API 직접 호출, 클라이언트 변조를 시험한다.
+
+#### 4) 디지털 프리미엄 패스 `$1.99` - 결제 출시 차단
+
+제공안:
+
+- 광고 없이 포함 결과 전체 즉시 공개
+- 상세 이름 이야기
+- Traditional·Modern 모두 제공
+- 워터마크 제거 고해상도 파일
+
+현재 확인 상태:
+
+- PortOne·PayPal·Stripe SDK, 결제 API, 결제·권한 모델, 웹훅, 환불, 세금·영수증, 프리미엄 파일 권한이 없다.
+- PortOne V2 공식 자료에서 PayPal 지원은 확인했다.
+- PortOne V2 지원 PG 목록에서 Stripe는 확인하지 못했으므로 두 방식을 같은 포트원 경로로 가정하지 않는다.
+
+출시 기준:
+
+- PortOne V2 PayPal Smart Payment Buttons의 국가·통화, 디지털 상품 위험 정보, 입점, 수수료, 정산, 분쟁, 환불을 확인한다.
+- Stripe를 고르면 별도 직접 연동으로 보고 한국 법인 입점, 국가·통화, 수수료, 세금, 정산, 환불, 웹훅을 따로 검증한다.
+- 브라우저 성공 콜백만으로 권한을 주지 않고 서버 조회 또는 서명 웹훅 후 멱등하게 발급한다.
+- 후보 수, 이야기 필드, 템플릿 수, 해상도, 워터마크 제거, 다운로드 만료·횟수, 회원 필요 여부, 재다운로드, 환불, 세금 포함 표시를 상품 정의서에 확정한다.
+- 모델·렌더링·결제·환전·세금·환불·차지백·문의 비용을 반영해 `$1.99` 수익성을 확인한다.
+
+#### 5) 실물 도장 - Phase 2, 디지털 출시 차단 아님
+
+- 약 `$49.99`의 가벼운 나무 도장·미니 인주 패키지는 선택 가능한 Phase 2 아이디어다.
+- 디지털 출시를 이 항목 때문에 늦추지 않는다.
+- 제품 비교, 안전 시제품, 실제 무게·크기, 국가별 배송비, 통관·법률, 공헌이익, 제한된 유료 시범 운영 후에만 진행한다.
+
+#### 출시 판단 원칙
+
+- 디지털 출시는 AI 결과 계약과 네임 카드가 통과해야 하며 개인정보·약관·분석·접근성·모바일·다국어 회귀 테스트도 필요하다.
+- 실제 보상 광고가 준비되지 않으면 가짜 타이머 대신 투명한 무료 제한 정책으로 출시한다.
+- 결제 검증 전에는 활성화된 `$1.99` 결제 버튼을 노출하지 않는다.
+- 실물 상품은 독립적으로 연기할 수 있다.
+
+## 4. 권장 구현 순서
+
+1. 서비스 타입을 네 가지 안정적인 키로 분리한다.
+2. 네 서비스의 엄격한 결과 스키마와 서버 검증을 만든다.
+3. 한자 후보 ID 제한과 생성 후 공식 DB 재검증을 완성한다.
+4. 결정론적 로마자·발음 근거 연결을 구현한다.
+5. 버전 프롬프트 관리 기능을 실제 생성 경로에 연결한다.
+6. Structured Outputs와 23개 언어 품질·속도·비용·단위경제 벤치마크를 수행한다.
+7. 검증 기준을 통과한 뒤에만 서버 관리 무료·유료·대체 모델 라우팅을 적용한다.
+8. 출력 토큰·필드 길이·출력 locale 검증·언어별 사용량 지표를 추가한다.
+9. 대표 `/{locale}/...` 경로를 만들고 기존 `?lang=` URL을 이전한다.
+10. 모든 고정 문구를 검수된 locale 카탈로그로 옮기고 RTL·모바일을 확인한다.
+11. locale 메타데이터, canonical, `hreflang`, sitemap을 만든다.
+12. 미공개 후보를 서버에서 보호하고 광고·결제 권한 모델을 먼저 만든다.
+13. 개인정보 최소화 9:16 네임 카드, Traditional·Modern 스타일, 공유·다운로드를 구현한다.
+14. 실제 보상 광고 사업자와 서버 검증 해제 흐름을 연결한다.
+15. PortOne PayPal 또는 별도 검증한 결제사를 통해 `$1.99` 상품과 웹훅·환불·권한을 구현한다.
+16. 자연 공유와 추천 유입을 측정한 뒤 추천 보상 가치를 정한다.
+17. 서명 토큰과 부정 사용 방어를 통과한 경우에만 추천인 스타일·후보 해제를 추가한다.
+18. 실물 상품 진행 여부를 캐주얼·프리미엄·외주·자체 제작·픽업·배송·디지털 전용 모델과 비교해 결정한다.
+19. 실물 모델을 승인한 경우에만 결제·시안·제작·검수·배송·사고·환불·관리자 처리를 만든다.
+20. 필요성이 확인되면 서울 장소 한 곳에서 수동 픽업을 시범 운영한 뒤 place-link 연계를 검토한다.
+21. 데스크톱·모바일·인증·분석·다국어·모델 라우팅·광고·결제·공유·추천 부정 사용·SEO·프로덕션 회귀 테스트를 수행한다.
+
+## 5. 릴리스 경계
+
+- 이 문서는 필요한 작업을 기록한 것이며 모든 항목이 구현됐다는 증거가 아니다.
+- `구현·배포 완료` 또는 `현재 확인 상태`로 명시한 항목만 현재 체크아웃에서 검증한 사실이다.
+- 아이디어·가설은 검토 대상이며 확정 제품 방향으로 자동 승격하지 않는다.
+- 원격 마이그레이션, 커밋, 푸시, 배포는 사용자의 명시적 승인 없이 진행하지 않는다.
