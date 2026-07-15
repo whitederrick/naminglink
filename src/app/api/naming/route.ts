@@ -4,6 +4,7 @@ import { generateNamingResult } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
+import { getAuthenticatedUser } from "@/lib/user-auth";
 
 export const runtime = "nodejs";
 
@@ -14,6 +15,7 @@ const requestSchema = z.object({
     "GLOBAL_TO_KOREAN",
   ]),
   inputFactors: z.record(z.string(), z.unknown()),
+  saveResult: z.boolean().default(false),
 });
 
 export async function POST(request: NextRequest) {
@@ -67,6 +69,20 @@ export async function POST(request: NextRequest) {
       }
     }
 
+    const authenticatedUser = parsed.data.saveResult
+      ? await getAuthenticatedUser(request)
+      : null;
+
+    if (parsed.data.saveResult && !authenticatedUser) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "분석 결과를 저장하려면 다시 로그인해 주세요.",
+        },
+        { status: 401 },
+      );
+    }
+
     const generation = await generateNamingResult(
       parsed.data.serviceType,
       parsed.data.inputFactors,
@@ -74,11 +90,11 @@ export async function POST(request: NextRequest) {
     let logId: string | null = null;
     let persistence: "saved" | "skipped" | "failed" = "skipped";
 
-    if (supabase) {
+    if (supabase && authenticatedUser && parsed.data.saveResult) {
       const { data, error } = await supabase
         .from("naming_logs")
         .insert({
-          user_id: null,
+          user_id: authenticatedUser.id,
           service_type: parsed.data.serviceType,
           input_factors: parsed.data.inputFactors,
           generated_names: generation.result,
@@ -94,9 +110,10 @@ export async function POST(request: NextRequest) {
         persistence = "saved";
       }
 
+    }
+
+    if (supabase) {
       const { error: usageError } = await supabase.from("ai_usage_logs").insert({
-        naming_log_id: logId,
-        user_id: null,
         service_type: parsed.data.serviceType,
         model: generation.usage.model,
         prompt_tokens: generation.usage.promptTokens,

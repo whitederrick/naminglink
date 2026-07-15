@@ -5,6 +5,7 @@ import { Headphones, Home, RotateCcw, ShoppingBag } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { ResultCard } from "@/components/ResultCard";
+import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
   globalNameToHangulService,
@@ -256,6 +257,7 @@ export function HangulPronunciationResultPage({
           </section>
         ) : currentStored ? (
           <div className="grid gap-5">
+            <ResultStorageNotice persistence={currentStored.persistence} />
             <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
               <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
               <h1 className="mt-2 text-2xl font-semibold">

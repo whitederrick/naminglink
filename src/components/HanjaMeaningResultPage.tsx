@@ -7,6 +7,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
+import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 
@@ -78,6 +79,7 @@ export function HanjaMeaningResultPage({
           </section>
         ) : stored ? (
           <div className="grid gap-5">
+            <ResultStorageNotice persistence={stored.persistence} />
             <ResultCard
               service={services.hanjaMeaning}
               result={stored.result}
@@ -86,7 +88,6 @@ export function HanjaMeaningResultPage({
             <CandidateUnlockPanel
               revealedCount={revealedCount}
               totalCount={totalCount}
-              namingLogId={stored.logId}
               locale={locale}
               serviceType={services.hanjaMeaning.serviceType}
               onUnlock={() =>

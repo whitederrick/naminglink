@@ -37,7 +37,6 @@ export function trackAnalytics(event: AnalyticsEvent) {
 export function trackAdEvent(input: {
   eventType: "IMPRESSION" | "CLICK" | "REWARD_GRANTED" | "ERROR";
   slotKey: string;
-  namingLogId?: string | null;
   locale?: string;
   serviceType?: string;
 }) {

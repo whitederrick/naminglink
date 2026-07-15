@@ -8,7 +8,6 @@ export const runtime = "nodejs";
 const schema = z.object({
   eventType: z.enum(["IMPRESSION", "CLICK", "REWARD_GRANTED", "ERROR"]),
   slotKey: z.string().min(1).max(100),
-  namingLogId: z.string().uuid().nullable().optional(),
   locale: z.string().max(20).optional(),
   serviceType: z.string().max(80).optional(),
 });
@@ -19,7 +18,6 @@ export async function POST(request: NextRequest) {
   const supabase = getSupabaseAdminClient();
   if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
   const { error } = await supabase.from("ad_events").insert({
-    naming_log_id: parsed.data.namingLogId ?? null,
     slot_key: parsed.data.slotKey,
     event_type: parsed.data.eventType,
     provider: "placeholder",

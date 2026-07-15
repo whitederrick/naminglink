@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import { Send } from "lucide-react";
 import {
   currentYear,
@@ -17,12 +18,14 @@ import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
+import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
 import {
   validateHanjaMeaningInput,
   type NamingFieldErrors,
 } from "@/lib/naming-validation";
+import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 type ApiResult = {
   ok: boolean;
@@ -180,11 +183,32 @@ export function NamingForm({
   const [analysisAdActive, setAnalysisAdActive] = useState(false);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  const [saveResult, setSaveResult] = useState(false);
   const [legalDocument, setLegalDocument] = useState<LegalDocument | null>(null);
   const selectedCountry = selectedCountryFromValues(values);
   const candidateCount = result?.result
     ? resultCandidateCount(result.result)
     : 0;
+
+  useEffect(() => {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+
+    void supabase.auth.getSession().then(({ data }) => {
+      setIsSignedIn(Boolean(data.session?.user));
+    });
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      const signedIn = Boolean(session?.user);
+      setIsSignedIn(signedIn);
+      if (!signedIn) setSaveResult(false);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -207,6 +231,22 @@ export function NamingForm({
     if (!agreedToTerms || !agreedToPrivacy) {
       setError("이용약관과 개인정보처리방침에 동의해야 분석을 시작할 수 있습니다.");
       return;
+    }
+
+    let accessToken: string | null = null;
+    if (saveResult) {
+      const supabase = getSupabaseBrowserClient();
+      const { data } = (await supabase?.auth.getSession()) ?? {
+        data: { session: null },
+      };
+      accessToken = data.session?.access_token ?? null;
+
+      if (!accessToken) {
+        setSaveResult(false);
+        setIsSignedIn(false);
+        setError("분석 결과를 저장하려면 다시 로그인해 주세요.");
+        return;
+      }
     }
 
     setLoading(true);
@@ -272,10 +312,12 @@ export function NamingForm({
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
         },
         body: JSON.stringify({
           serviceType: service.serviceType,
           inputFactors,
+          saveResult,
         }),
       });
 
@@ -294,7 +336,7 @@ export function NamingForm({
 
       trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: service.serviceType });
       if (hasRewardableResult) {
-        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", namingLogId: payload.logId, locale, serviceType: service.serviceType });
+        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
       }
 
       if (isHangulTransliteration && payload.result) {
@@ -576,8 +618,8 @@ export function NamingForm({
             <div>
               <h2 className="text-lg font-semibold">필수 동의</h2>
               <p className="mt-2 text-sm leading-6 text-muted">
-                이름, 생년월일, 국가 등의 입력 내용은 작명 분석 및 한자 추천,
-                <span className="block sm:inline"> 결과 저장을 위해 처리됩니다.</span>
+                이름, 생년월일, 국가 등의 입력 내용은 분석 결과 생성에 사용되며,
+                <span className="block sm:inline"> 저장을 선택한 회원의 입력 내용과 결과만 저장됩니다.</span>
               </p>
               <div className="mt-4 grid gap-3">
                 <label className="flex items-start gap-3 text-sm leading-6">
@@ -616,6 +658,35 @@ export function NamingForm({
                     에 동의합니다.
                   </span>
                 </label>
+                {isSignedIn ? (
+                  <label className="flex items-start gap-3 rounded-lg border border-brand-teal/25 bg-background p-3 text-sm leading-6">
+                    <input
+                      type="checkbox"
+                      checked={saveResult}
+                      onChange={(event) => setSaveResult(event.target.checked)}
+                      className="mt-1 h-4 w-4"
+                    />
+                    <span>
+                      <strong className="block font-semibold text-foreground">
+                        분석 결과를 내 계정에 저장(선택)
+                      </strong>
+                      <span className="text-muted">
+                        선택한 경우에만 입력 내용과 분석 결과를 저장합니다.
+                      </span>
+                    </span>
+                  </label>
+                ) : (
+                  <p className="rounded-lg border border-line bg-background p-3 text-sm leading-6 text-muted">
+                    비회원 분석 결과는 저장하지 않습니다. 결과 보관이 필요하면{" "}
+                    <Link
+                      href="/login"
+                      className="font-semibold text-foreground underline decoration-line underline-offset-4"
+                    >
+                      로그인
+                    </Link>
+                    한 뒤 저장을 선택해 주세요.
+                  </p>
+                )}
               </div>
             </div>
             <div className="flex border-t border-line pt-5 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
@@ -657,6 +728,7 @@ export function NamingForm({
 
         {result?.result && !isHangulTransliteration ? (
           <div className="grid gap-4">
+            <ResultStorageNotice persistence={result.persistence} />
             <div className="rounded-lg border border-line bg-surface p-4 shadow-sm">
               <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
               <p className="mt-1 text-sm leading-6 text-muted">
@@ -671,7 +743,6 @@ export function NamingForm({
             <CandidateUnlockPanel
               revealedCount={revealedCount}
               totalCount={candidateCount}
-              namingLogId={result.logId}
               locale={locale}
               serviceType={service.serviceType}
               onUnlock={() =>
