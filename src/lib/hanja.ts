@@ -1112,6 +1112,13 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   const parentWishes = stringValue(inputFactors.parentWishes);
   const givenSyllables = hangulSyllables(rawGivenName);
   const displayName = `${familyName}${rawGivenName}` || rawGivenName;
+  const generationIsUsed =
+    stringValue(inputFactors.generationNameUsage) === "used";
+  const generationSyllable = stringValue(inputFactors.generationSyllable);
+  const generationHanja = stringValue(inputFactors.generationHanja);
+  const generationIndex = generationIsUsed
+    ? givenSyllables.indexOf(generationSyllable)
+    : -1;
 
   if (!givenSyllables.length) {
     return {
@@ -1125,16 +1132,24 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
     };
   }
 
-  const optionsForSyllable = (syllable: string) =>
-    officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable];
+  const optionsForPosition = (syllable: string, index: number) => {
+    const options =
+      officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable];
+
+    return index === generationIndex
+      ? options?.filter((option) => option.character === generationHanja)
+      : options;
+  };
   const missingSyllables = givenSyllables.filter(
-    (syllable) => !optionsForSyllable(syllable)?.length,
+    (syllable, index) => !optionsForPosition(syllable, index)?.length,
   );
   const optionGroups = missingSyllables.length
     ? []
     : buildCombination(
         inputFactors,
-        givenSyllables.map((syllable) => optionsForSyllable(syllable)!),
+        givenSyllables.map((syllable, index) =>
+          optionsForPosition(syllable, index)!,
+        ),
       );
   const combinations = missingSyllables.length ? [] : combineOptions(optionGroups);
   const preferredElement = getSajuElementHint(inputFactors);

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { generateNamingResult } from "@/lib/openai";
+import { generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
@@ -131,9 +131,21 @@ export async function POST(request: NextRequest) {
       logId,
       persistence,
       result: generation.result,
+      analysisMeta: generation.analysisMeta,
     });
   } catch (error) {
     console.error(error);
+    if (error instanceof NamingInputConstraintError) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: error.message,
+          fieldErrors: error.fieldErrors,
+        },
+        { status: 400 },
+      );
+    }
+
 
     return NextResponse.json(
       {

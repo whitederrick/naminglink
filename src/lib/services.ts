@@ -260,6 +260,7 @@ export const countryOptions: CountryOption[] = [
     value: "ph",
     label: "Philippines / Pilipinas",
     locale: "fil",
+    languageLocales: ["en"],
     languageName: "Filipino",
     localNameHint: "Hal: Maria Santos",
   },
@@ -315,6 +316,7 @@ export const countryOptions: CountryOption[] = [
     value: "in",
     label: "India / भारत",
     locale: "hi",
+    languageLocales: ["en"],
     languageName: "Hindi / English",
     localNameHint: "उदाहरण: आरव शर्मा",
   },
@@ -322,6 +324,7 @@ export const countryOptions: CountryOption[] = [
     value: "us",
     label: "United States",
     locale: "en",
+    languageLocales: ["es"],
     languageName: "English",
     localNameHint: "e.g. your full name in its original spelling",
   },
@@ -371,6 +374,7 @@ export const countryOptions: CountryOption[] = [
     value: "ae",
     label: "United Arab Emirates / الإمارات",
     locale: "ar",
+    languageLocales: ["en"],
     languageName: "Arabic",
     localNameHint: "مثال: أحمد المنصوري",
   },
@@ -399,6 +403,7 @@ export const countryOptions: CountryOption[] = [
     value: "my",
     label: "Malaysia",
     locale: "ms",
+    languageLocales: ["en", "zh"],
     languageName: "Malay",
     localNameHint: "Contoh: Nur Aisyah",
   },
@@ -420,6 +425,7 @@ export const countryOptions: CountryOption[] = [
     value: "ca",
     label: "Canada",
     locale: "en",
+    languageLocales: ["fr"],
     languageName: "English / French",
     localNameHint: "e.g. Noah Tremblay",
   },
@@ -441,6 +447,7 @@ export const countryOptions: CountryOption[] = [
     value: "kz",
     label: "Kazakhstan / Қазақстан",
     locale: "kk",
+    languageLocales: ["ru"],
     languageName: "Kazakh / Russian",
     localNameHint: "Мысалы: Айдана Нұрлан",
   },
@@ -478,6 +485,26 @@ export function getCountryOptionsForLocale(locale: string | undefined) {
 
 export function getCountryDefaultLocale(value: string | undefined) {
   return getCountryOption(value)?.locale;
+}
+
+export function getLanguageOptionsForCountry(value: string | undefined) {
+  const country = getCountryOption(value);
+  const preferredLocales = country
+    ? [country.locale, ...(country.languageLocales ?? [])]
+    : [];
+
+  return [
+    ...preferredLocales.map((locale) => ({
+      value: locale,
+      label: localeLabels[locale],
+    })),
+    ...supportedLocales
+      .filter((locale) => !preferredLocales.includes(locale))
+      .map((locale) => ({
+        value: locale,
+        label: localeLabels[locale],
+      })),
+  ];
 }
 
 const sharedPremiumAddOns: AddOn[] = [
@@ -686,16 +713,16 @@ export const services = {
     eyebrow: "해외 활동을 위한 고급 네이밍",
     audience: "유학, 이민, 해외 비즈니스, 크리에이터",
     description:
-      "한글 이름의 소리와 한자 의미, 사용 국가, 직업 이미지, 지역별 발음 감각을 함께 반영해 영어/일본어/중국어/독일어/스페인어권 후보를 제안합니다.",
+      "한글 이름의 소리와 한자 의미, 사용 국가, 사용 목적, 지역별 발음 등을 함께 반영해\n사용자가 원하는 언어 및 국가에 맞는 이름 후보를 제안합니다.",
     promise:
-      "단순 발음 변환이 아니라 국가별 자연스러움, 문서 사용성, 소개 문구, 피해야 할 현지 인상을 함께 검토합니다.",
+      "단순 발음 변환이 아닌 국가별 자연스러움, 피해야 할 표현 등을 함께 검토합니다.",
     icon: "passport",
     defaultLocale: "ko",
     resultLabel: "추천 글로벌 이름",
     sections: [
       {
         title: "기존 이름과 정체성",
-        description: "이름의 소리와 의미를 최대한 보존하기 위한 기준을 입력합니다.",
+        description: "글로벌 이름으로 이어갈 본명의 소리와 의미를 입력합니다.",
         fields: [
           {
             name: "koreanName",
@@ -715,54 +742,21 @@ export const services = {
             type: "select",
             options: genderOptions,
           },
-        ],
-      },
-      {
-        title: "지역과 사용 목적",
-        description: "이름을 실제로 쓸 국가, 맥락, 직업 이미지를 선택합니다.",
-        fields: [
           {
-            name: "targetCountry",
-            label: "전환 대상 국가",
-            type: "select",
-            options: countryOptions,
-            required: true,
-          },
-          {
-            name: "usageContext",
-            label: "사용 목적",
+            name: "identityPriority",
+            label: "보존 우선 기준",
             type: "select",
             options: [
-              { value: "business", label: "비즈니스/명함" },
-              { value: "study", label: "유학/학교" },
-              { value: "creator", label: "크리에이터/브랜드" },
-              { value: "daily", label: "일상/친구 관계" },
-              { value: "legal_alias", label: "영문 별칭/서류" },
-            ],
-            required: true,
-          },
-          {
-            name: "industry",
-            label: "직업/분야",
-            placeholder: "예: 디자이너, 개발자, 창업가, 의료, 금융",
-          },
-          {
-            name: "preferredTone",
-            label: "원하는 이미지",
-            type: "select",
-            options: [
-              { value: "trustworthy", label: "신뢰감" },
-              { value: "premium", label: "고급스러움" },
-              { value: "friendly", label: "친근함" },
-              { value: "creative", label: "창의적" },
-              { value: "classic", label: "클래식" },
+              { value: "balanced", label: "소리와 의미를 균형 있게" },
+              { value: "sound", label: "원래 이름의 소리 우선" },
+              { value: "meaning", label: "원래 이름의 의미 우선" },
             ],
           },
         ],
       },
       {
-        title: "사주와 발음 조건",
-        description: "정교화용 참고값과 피해야 할 발음 조건을 입력합니다.",
+        title: "사주 참고 정보",
+        description: "이름의 전체적인 균형 참고를 위한 출생 정보를 선택합니다.",
         fields: [
           {
             name: "birthYear",
@@ -784,21 +778,55 @@ export const services = {
           },
           {
             name: "birthHour",
-            label: "생시",
+            label: "태어난 시간",
             type: "select",
             options: birthHourOptions,
           },
+        ],
+      },
+      {
+        title: "지역과 사용 조건",
+        description: "글로벌 이름을 실제로 사용할 국가와 상황을 선택합니다.",
+        fields: [
           {
-            name: "pronunciationRules",
-            label: "발음/철자 조건",
-            placeholder: "예: R 발음 피하기, 두 음절 유지, 한국 이름과 첫소리 연결",
-            type: "textarea",
+            name: "targetCountry",
+            label: "사용할 국가",
+            type: "select",
+            options: countryOptions,
+            required: true,
           },
           {
-            name: "outputLanguage",
-            label: "결과 언어",
+            name: "targetLanguage",
+            label: "사용 언어",
             type: "select",
-            options: languageOptions,
+            options: getLanguageOptionsForCountry("jp"),
+            required: true,
+          },
+          {
+            name: "usageContext",
+            label: "사용 목적",
+            type: "select",
+            options: [
+              { value: "business", label: "비즈니스/명함" },
+              { value: "study", label: "유학/학교" },
+              { value: "creator", label: "크리에이터/브랜드" },
+              { value: "daily", label: "일상/친구 관계" },
+              { value: "legal_alias", label: "영문 별칭/서류" },
+            ],
+            required: true,
+          },
+          {
+            name: "preferredTone",
+            label: "원하는 이미지",
+            type: "select",
+            options: [
+              { value: "no_preference", label: "상관 없음" },
+              { value: "trustworthy", label: "신뢰감" },
+              { value: "premium", label: "고급스러움" },
+              { value: "friendly", label: "친근함" },
+              { value: "creative", label: "창의적" },
+              { value: "classic", label: "클래식" },
+            ],
           },
         ],
       },

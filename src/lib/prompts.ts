@@ -16,6 +16,8 @@ export function getSystemPrompt(serviceType: ServiceType) {
       return [
         "You are a premium Korean personal-name Hanja consultant.",
         "The user has already chosen a Hangul name. Keep the Hangul sound unchanged and suggest Hanja only when the designated reading matches.",
+        "familyName is the surname and is never part of the given-name Hanja selection. Work only on givenNameHangul and keep every candidate hangul exactly equal to givenNameHangul, regardless of whether the surname or given name has one, two, three, or more Hangul syllables.",
+        "When generationConstraint is present, it is an immutable hard constraint, not a preference. At generationConstraint.index in every candidate, use exactly generationConstraint.syllable and generationConstraint.hanja. Never move it, replace it, reinterpret another syllable as the generation name, or offer another Hanja at that position. The matching hanja_options group must contain only that fixed Hanja and mark it selected.",
         "When officialHanjaCandidates is present, it is the authoritative allow-list for this request. Use only characters listed under the matching Hangul syllable, never add a character from memory, and cite officialHanjaSource in common_analysis. Meaning text may be professionally interpreted, but legal usability comes only from the supplied allow-list and still requires final official lookup at registration time.",
         "Respect these official-use cautions: Hanja must be used only with its designated reading; initial ㄴ/ㄹ readings may be used according to actual sound as ㅇ/ㄴ; same-character, popular, and abbreviated forms are allowed only when listed in the official lookup; 示/礻 and ++/艹 radical forms may be interchanged only under the stated rule.",
         "Explain excluded Hanja with concrete reasons such as negative meaning, reading mismatch, variant not found in official data, cultural collision, or user-provided exclusion.",
@@ -37,10 +39,10 @@ export function getSystemPrompt(serviceType: ServiceType) {
     case "KOREAN_TO_GLOBAL":
       return [
         "You are a premium global naming consultant converting Korean names into names for the selected target country and its local language context.",
-        "Use the Korean name sound, Hanja meaning, target country, countryProfile, profession, desired tone, pronunciation constraints, and birth profile as inputs.",
+        "Use the Korean name sound, Hanja meaning, identity preservation priority, target country, selected target language, countryProfile, usage context, desired tone, and birth profile as inputs.",
         "For each candidate explain local pronunciation, cultural fit, professional impression, risks, and why it preserves the Korean identity.",
         "Do not produce a simple translation list; produce candidates that a real person could use on documents, in school, in business, or as a public alias.",
-        "Every candidate must include recommendation_reason explaining why this name fits the user's Korean name meaning, target country, local language, usage context, profession, tone, birth profile, and pronunciation constraints.",
+        "Every candidate must include recommendation_reason explaining why this name fits the user's Korean name sound and meaning, identity preservation priority, target country, selected target language, usage context, tone, and birth profile.",
         "JSON shape: { analysis_summary, candidates: [{ name, recommendation_reason, matching_rate, region_fit, pronunciation, meaning_connection, professional_impression, local_cautions, suitability_score }], rejected_options: [{ name, reason }], add_on_recommendations }.",
         sharedRules,
       ].join(" ");

@@ -34,6 +34,18 @@ export function validateHanjaMeaningInput(
     errors.generationSyllable = "사용하는 돌림자 한 글자를 입력해 주세요.";
   } else if (generationSyllable && !singleHangulPattern.test(generationSyllable)) {
     errors.generationSyllable = "돌림자 글자는 한글 한 글자로 입력해 주세요.";
+  } else if (generationUsage === "used" && givenName && generationSyllable) {
+    const occurrenceCount = Array.from(givenName).filter(
+      (syllable) => syllable === generationSyllable,
+    ).length;
+
+    if (occurrenceCount === 0) {
+      errors.generationSyllable =
+        "\ub3cc\ub9bc\uc790 \uae00\uc790\ub294 \uc785\ub825\ud55c \uc774\ub984\uc5d0 \ubc18\ub4dc\uc2dc \ud3ec\ud568\ub418\uc5b4\uc57c \ud569\ub2c8\ub2e4.";
+    } else if (occurrenceCount > 1) {
+      errors.generationSyllable =
+        "\uac19\uc740 \uc74c\uc808\uc774 \uc774\ub984\uc5d0 \ub450 \ubc88 \uc788\uc5b4 \ub3cc\ub9bc\uc790 \uc704\uce58\ub97c \uc815\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.";
+    }
   }
 
   if (generationUsage === "used" && !generationHanja) {

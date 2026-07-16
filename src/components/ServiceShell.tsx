@@ -84,7 +84,7 @@ function ServicePromisePanel({
       <div className="flex items-start gap-3">
         <BadgeCheck
           aria-hidden="true"
-          className="mt-0.5 text-brand-teal"
+          className="mt-0.5 shrink-0 text-brand-teal"
           size={20}
         />
         <div className="min-w-0">
@@ -193,7 +193,11 @@ export function ServiceShell({
             </h1>
             <p
               className={`mt-4 whitespace-pre-line text-base leading-7 text-muted sm:whitespace-normal ${
-                isGlobalToKorean ? "lg:whitespace-nowrap" : "max-w-3xl"
+                isGlobalToKorean
+                  ? "lg:whitespace-nowrap"
+                  : service.serviceType === "KOREAN_TO_GLOBAL"
+                    ? "max-w-3xl sm:whitespace-pre-line"
+                    : "max-w-3xl"
               }`}
             >
               {introDescription}

@@ -8,6 +8,7 @@ import {
   currentYear,
   getCountryOption,
   getCountryOptionsForLocale,
+  getLanguageOptionsForCountry,
   type CountryOption,
   type FieldConfig,
   type Locale,
@@ -33,8 +34,9 @@ type ApiResult = {
   result?: unknown;
   persistence?: "saved" | "skipped" | "failed";
   error?: string;
-  fieldErrors?: NamingFieldErrors;
+  fieldErrors?: NamingFieldErrors; analysisMeta?: { officialCandidateCount?: number | null };
 };
+// Analysis metadata is returned while the result is being prepared.
 
 function fieldInitialValue(field: FieldConfig) {
   return field.type === "select" ? field.options?.[0]?.value ?? "" : "";
@@ -129,7 +131,8 @@ function resolveMotivation(
   return selected || "general";
 }
 
-const ANALYSIS_AD_SECONDS = 5;
+const DEFAULT_ANALYSIS_AD_SECONDS = 5;
+const HANJA_ANALYSIS_AD_SECONDS = 15;
 
 function resultCandidateCount(result: unknown) {
   if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
@@ -146,8 +149,13 @@ export function NamingForm({
   const router = useRouter();
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
   const isHanjaMeaning = service.serviceType === "HANJA_MEANING_MATCH";
+  const analysisAdSeconds = isHanjaMeaning
+    ? HANJA_ANALYSIS_AD_SECONDS
+    : DEFAULT_ANALYSIS_AD_SECONDS;
+  const isKoreanToGlobal = service.serviceType === "KOREAN_TO_GLOBAL";
   const isGlobalToKorean =
     service.serviceType === "GLOBAL_TO_KOREAN" && !isHangulTransliteration;
+  const usesDedicatedResultPage = isHanjaMeaning || isKoreanToGlobal;
   const initialValues = useMemo(() => {
     const preferredNameLocale =
       isHangulTransliteration && getCountryOptionsForLocale(locale).length > 0
@@ -180,7 +188,8 @@ export function NamingForm({
   const [result, setResult] = useState<ApiResult | null>(null);
   const [revealedCount, setRevealedCount] = useState(1);
   const [analysisCountdown, setAnalysisCountdown] = useState(0);
-  const [analysisAdActive, setAnalysisAdActive] = useState(false);
+  const [officialCandidateCount, setOfficialCandidateCount] =
+    useState<number | null>(null);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [isSignedIn, setIsSignedIn] = useState(false);
@@ -249,6 +258,7 @@ export function NamingForm({
       }
     }
 
+    setOfficialCandidateCount(null);
     setLoading(true);
     trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: service.serviceType });
     let adStartedAt: number | null = null;
@@ -259,28 +269,26 @@ export function NamingForm({
 
       adStartedAt = Date.now();
       adWindowComplete = false;
-      setAnalysisAdActive(true);
-      setAnalysisCountdown(ANALYSIS_AD_SECONDS);
+      setAnalysisCountdown(analysisAdSeconds);
       trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
       countdownTimer = window.setInterval(() => {
         if (adStartedAt === null) return;
         const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
-        setAnalysisCountdown(Math.max(0, ANALYSIS_AD_SECONDS - elapsed));
+        setAnalysisCountdown(Math.max(0, analysisAdSeconds - elapsed));
       }, 250);
     };
     const completeAdWindow = async () => {
       if (adWindowComplete || adStartedAt === null) return;
 
-      const remaining = ANALYSIS_AD_SECONDS * 1000 - (Date.now() - adStartedAt);
+      const remaining = analysisAdSeconds * 1000 - (Date.now() - adStartedAt);
       if (remaining > 0) {
         await new Promise((resolve) => window.setTimeout(resolve, remaining));
       }
       adWindowComplete = true;
       setAnalysisCountdown(0);
-      setAnalysisAdActive(false);
     };
 
-    if (!isHanjaMeaning) startAdWindow();
+    startAdWindow();
 
     try {
       const countryProfile = selectedCountry
@@ -298,7 +306,9 @@ export function NamingForm({
 
       const inputFactors = {
         ...values,
-        outputLanguage: isHanjaMeaning ? "ko" : values.outputLanguage || locale,
+        outputLanguage: isHanjaMeaning
+          ? "ko"
+          : values.targetLanguage || values.outputLanguage || locale,
         selectedAddOns: [],
         serviceSlug: service.slug,
         countryProfile,
@@ -321,7 +331,10 @@ export function NamingForm({
         }),
       });
 
-      const payload = (await response.json()) as ApiResult;
+      // Candidate count is available after the response body is parsed.
+      // It is shown during any remaining part of the ten-second analysis window.
+
+      const payload = (await response.json()) as ApiResult; setOfficialCandidateCount(payload.analysisMeta?.officialCandidateCount ?? null);
 
       if (!response.ok || !payload.ok) {
         if (payload.fieldErrors) setFieldErrors(payload.fieldErrors);
@@ -331,7 +344,6 @@ export function NamingForm({
       const hasRewardableResult =
         !isHanjaMeaning || resultCandidateCount(payload.result) > 0;
 
-      if (isHanjaMeaning && hasRewardableResult) startAdWindow();
       await completeAdWindow();
 
       trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: service.serviceType });
@@ -374,6 +386,23 @@ export function NamingForm({
         return;
       }
 
+      if (isKoreanToGlobal && payload.result) {
+        const resultId = payload.logId ?? crypto.randomUUID();
+        sessionStorage.setItem(
+          `naminglink:korean-to-global-result:${resultId}`,
+          JSON.stringify({
+            result: payload.result,
+            logId: payload.logId ?? null,
+            persistence: payload.persistence ?? "skipped",
+            createdAt: new Date().toISOString(),
+          }),
+        );
+        router.replace(
+          `/korean-to-global/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
+        );
+        return;
+      }
+
       setResult(payload);
     } catch (caught) {
       trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: service.serviceType });
@@ -382,7 +411,6 @@ export function NamingForm({
     } finally {
       if (countdownTimer !== null) window.clearInterval(countdownTimer);
       setAnalysisCountdown(0);
-      setAnalysisAdActive(false);
       setLoading(false);
     }
   }
@@ -433,6 +461,10 @@ export function NamingForm({
       if (field.name === "country" || field.name === "targetCountry") {
         const country = getCountryOption(value);
 
+        if (field.name === "targetCountry" && country && "targetLanguage" in next) {
+          next.targetLanguage = country.locale;
+        }
+
         if (country && "outputLanguage" in next) {
           next.outputLanguage = country.locale;
         }
@@ -449,7 +481,7 @@ export function NamingForm({
           className={
             isHangulTransliteration
               ? "grid gap-4 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]"
-              : isGlobalToKorean
+              : isGlobalToKorean || isKoreanToGlobal
                 ? "grid gap-4 lg:grid-cols-3"
                 : isHanjaMeaning
                   ? "grid gap-4 lg:grid-cols-2"
@@ -471,7 +503,7 @@ export function NamingForm({
 
               <div
                 className={
-                  isGlobalToKorean
+                  isGlobalToKorean || isKoreanToGlobal
                     ? "mt-5 grid gap-4"
                     : isHangulTransliteration
                       ? "mt-5 grid gap-x-4 gap-y-6 md:grid-cols-2"
@@ -509,7 +541,7 @@ export function NamingForm({
                                   sectionIndex === 2 &&
                                   field.type === "textarea"
                                 ? "grid gap-2 rounded-lg border border-line bg-surface-strong/60 p-4 [&_textarea]:border-foreground/20 [&_textarea]:bg-surface"
-                                : field.type === "textarea" && !isGlobalToKorean
+                              : field.type === "textarea" && !isGlobalToKorean && !isKoreanToGlobal
                                     ? "grid gap-2 md:col-span-2"
                                     : "grid gap-2"
                     }`}
@@ -524,6 +556,13 @@ export function NamingForm({
                                 values.originalNameLanguage,
                               ),
                             }
+                          : isKoreanToGlobal && field.name === "targetLanguage"
+                            ? {
+                                ...field,
+                                options: getLanguageOptionsForCountry(
+                                  values.targetCountry,
+                                ),
+                              }
                           : field
                       }
                       value={values[field.name] ?? ""}
@@ -542,7 +581,9 @@ export function NamingForm({
                     ) : null}
                     {(field.name === "country" ||
                       field.name === "targetCountry") &&
-                    selectedCountry && !isHangulTransliteration ? (
+                    selectedCountry &&
+                    !isHangulTransliteration &&
+                    !isKoreanToGlobal ? (
                       <span className="text-xs leading-5 text-muted">
                         기본 언어: {selectedCountry.languageName} · 현지 이름
                         예시: {selectedCountry.localNameHint}
@@ -716,7 +757,7 @@ export function NamingForm({
       </form>
 
       <section className="grid content-start gap-4">
-        {loading && !isHanjaMeaning ? (
+        {loading && !usesDedicatedResultPage ? (
           <div className="grid gap-3">
             <AdBanner variant="leaderboard" />
             <p className="text-center text-sm font-medium text-brand-teal">
@@ -726,7 +767,7 @@ export function NamingForm({
           </div>
         ) : null}
 
-        {result?.result && !isHangulTransliteration ? (
+        {result?.result && !isHangulTransliteration && !usesDedicatedResultPage ? (
           <div className="grid gap-4">
             <ResultStorageNotice persistence={result.persistence} />
             <div className="rounded-lg border border-line bg-surface p-4 shadow-sm">
@@ -755,37 +796,38 @@ export function NamingForm({
           </div>
         ) : null}
       </section>
-      {loading && isHanjaMeaning ? (
+      {loading && usesDedicatedResultPage ? (
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="보상 광고 확인 및 한자 분석 진행"
+          aria-label="보상 광고 확인 및 이름 분석 진행"
           className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
         >
           <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
             <div>
               <p className="text-sm font-semibold text-brand-teal">
-                {analysisAdActive ? "보상 광고 확인" : "한자 후보 검토 중"}
+                {isHanjaMeaning ? "광고와 함께 진행하는 한자 이름 분석" : "이름 분석 중"}
               </p>
               <h2 className="mt-1 text-lg font-semibold">
-                {analysisAdActive
-                  ? "광고 확인 후 1순위 결과를 공개합니다"
-                  : "추천 가능한 한자 조합을 먼저 확인합니다"}
+                {isHanjaMeaning
+                  ? "부모님의 바람이 오래 남을 한자 이름을 정성껏 찾고 있습니다"
+                  : "사용 환경에 어울리는 이름을 비교하고 있습니다"}
               </h2>
             </div>
-            {analysisAdActive ? (
-              <>
-                <AdBanner variant="leaderboard" />
-                <p className="text-center text-sm font-medium text-brand-teal">
-                  광고 확인 및 분석 진행 중 · {analysisCountdown}초
-                </p>
-              </>
-            ) : (
-              <p className="text-center text-sm leading-6 text-muted">
-                지정 음가와 검토 가능한 인명용 한자 후보를 확인하고 있습니다.
-              </p>
-            )}
-            <AILoadingSteps />
+            <AdBanner variant="leaderboard" />
+            <p className="text-center text-sm font-medium text-brand-teal">
+              {analysisCountdown > 0
+                ? isHanjaMeaning
+                  ? `광고와 한자 분석을 함께 진행하고 있습니다 · ${analysisCountdown}초`
+                  : `광고 확인 및 분석 진행 중 · ${analysisCountdown}초`
+                : isHanjaMeaning
+                  ? "광고 확인 완료 · 한자 분석 결과를 마무리하고 있습니다"
+                  : "광고 확인 완료 · 분석 결과를 준비하고 있습니다"}
+            </p>
+            <AILoadingSteps
+              variant={isHanjaMeaning ? "hanja" : "general"}
+              candidateCount={officialCandidateCount}
+            />
           </div>
         </div>
       ) : null}
