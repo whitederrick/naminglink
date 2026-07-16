@@ -209,7 +209,7 @@ export async function generateNamingResult(
   const isHangulTransliteration =
     enrichedInputFactors.serviceSlug === "global-name-to-hangul";
 
-  if (!openai) {
+  if (serviceType === "HANJA_MEANING_MATCH" || !openai) {
     const result = getMockResult(serviceType, enrichedInputFactors);
     assertGenerationConstraint(result, enrichedInputFactors, generationConstraint);
     const clientResult = prepareResultForClient(result, generationConstraint);
@@ -218,7 +218,9 @@ export async function generateNamingResult(
       result: clientResult,
       analysisMeta: { officialCandidateCount },
       usage: {
-        model: "mock",
+        model:
+          serviceType === "HANJA_MEANING_MATCH"
+            ? "official-hanja-rules-v1" : "mock",
         promptTokens: 0,
         completionTokens: 0,
         totalTokens: 0,
