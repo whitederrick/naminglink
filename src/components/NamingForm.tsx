@@ -139,6 +139,31 @@ function resultCandidateCount(result: unknown) {
   const candidates = (result as Record<string, unknown>).candidates;
   return Array.isArray(candidates) ? Math.min(candidates.length, 5) : 0;
 }
+
+function restoredDraftValues(
+  initialValues: Record<string, string>,
+  storageKey: string,
+) {
+  if (typeof window === "undefined") return initialValues;
+  const rawDraft = sessionStorage.getItem(storageKey);
+  if (!rawDraft) return initialValues;
+
+  try {
+    const parsedDraft = JSON.parse(rawDraft) as Record<string, unknown>;
+    const restored = Object.fromEntries(
+      Object.keys(initialValues).flatMap((fieldName) =>
+        typeof parsedDraft[fieldName] === "string"
+          ? [[fieldName, parsedDraft[fieldName]]]
+          : [],
+      ),
+    ) as Record<string, string>;
+    return { ...initialValues, ...restored };
+  } catch {
+    sessionStorage.removeItem(storageKey);
+    return initialValues;
+  }
+}
+
 export function NamingForm({
   service,
   locale,
@@ -180,8 +205,11 @@ export function NamingForm({
 
     return Object.fromEntries(entries) as Record<string, string>;
   }, [isHangulTransliteration, locale, service.sections]);
+  const draftStorageKey = `naminglink:form-draft:${service.slug}`;
 
-  const [values, setValues] = useState(initialValues);
+  const [values, setValues] = useState(() =>
+    restoredDraftValues(initialValues, draftStorageKey),
+  );
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<NamingFieldErrors>({});
@@ -318,6 +346,7 @@ export function NamingForm({
           consentedAt: new Date().toISOString(),
         },
       };
+      sessionStorage.setItem(draftStorageKey, JSON.stringify(values));
       const response = await fetch("/api/naming", {
         method: "POST",
         headers: {
@@ -363,7 +392,7 @@ export function NamingForm({
             inputFactors,
           }),
         );
-        router.replace(
+        router.push(
           `/global-to-korean/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
         );
         return;
@@ -381,7 +410,7 @@ export function NamingForm({
             inputFactors,
           }),
         );
-        router.replace(
+        router.push(
           `/hanja-meaning/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
         );
         return;
@@ -398,7 +427,7 @@ export function NamingForm({
             createdAt: new Date().toISOString(),
           }),
         );
-        router.replace(
+        router.push(
           `/korean-to-global/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
         );
         return;
@@ -470,6 +499,8 @@ export function NamingForm({
           next.outputLanguage = country.locale;
         }
       }
+
+      sessionStorage.setItem(draftStorageKey, JSON.stringify(next));
 
       return next;
     });

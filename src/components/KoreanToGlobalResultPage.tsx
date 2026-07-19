@@ -61,10 +61,7 @@ export function KoreanToGlobalResultPage({
           <div className="order-2 flex flex-wrap gap-2 lg:order-1">
             <button
               type="button"
-              onClick={() => {
-                if (window.history.length > 1) router.back();
-                else router.push(`/korean-to-global?lang=${locale}`);
-              }}
+              onClick={() => router.push(`/korean-to-global?lang=${locale}`)}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
             >
               <ArrowLeft aria-hidden="true" size={17} />
