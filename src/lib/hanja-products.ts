@@ -10,7 +10,7 @@ export const HANJA_PRODUCTS = {
   FIVE_DETAIL: {
     code: "FIVE_DETAIL",
     orderType: "PREMIUM_PDF",
-    name: "한자 후보 5개 상세",
+    name: "한자 후보 최대 5개 상세",
     amount: 2900,
     candidateLimit: 5,
     includesSaju: false,
@@ -19,7 +19,7 @@ export const HANJA_PRODUCTS = {
   TEN_DETAIL: {
     code: "TEN_DETAIL",
     orderType: "PREMIUM_PDF",
-    name: "한자 후보 10개 확장 상세 PDF",
+    name: "한자 후보 최대 10개 확장 상세 PDF",
     amount: 4900,
     candidateLimit: 10,
     includesSaju: false,
@@ -28,7 +28,7 @@ export const HANJA_PRODUCTS = {
   TEN_SAJU_PDF: {
     code: "TEN_SAJU_PDF",
     orderType: "PREMIUM_PDF",
-    name: "한자 후보 10개 사주·오행 종합 리포트",
+    name: "한자 후보 최대 10개 사주·오행 종합 리포트",
     amount: 9900,
     candidateLimit: 10,
     includesSaju: true,

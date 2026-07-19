@@ -823,6 +823,28 @@ function hasUnsuitableMeaning(meaning: string) {
   return unsuitableMeaningTerms.some((term) => meaning.includes(term));
 }
 
+function isVariantOnlyMeaning(meaning: string) {
+  return /^\p{Script=Han}+의\s*[略略]字$/u.test(meaning) || /^(?:약자|략자)$/.test(meaning);
+}
+
+function isReadingListOnlyMeaning(meaning: string) {
+  return /^[가-힣](?:\s*[,/·]\s*[가-힣])+$/u.test(meaning);
+}
+
+function meaningIdentity(meaning: string) {
+  return meaning.replace(/[\s,./·()'"-]/g, "");
+}
+
+function dedupeOptionsByMeaning(options: HanjaOption[]) {
+  const seen = new Set<string>();
+  return options.filter((option) => {
+    const identity = meaningIdentity(option.meaning);
+    if (seen.has(identity)) return false;
+    seen.add(identity);
+    return true;
+  });
+}
+
 function matchesUserExcludedMeaning(
   option: Pick<HanjaOption, "meaning" | "note" | "tags">,
   inputFactors: Record<string, unknown>,
@@ -855,6 +877,8 @@ function isCandidateOptionAllowed(
     !unsuitableNameCharacters.has(option.character) &&
     hasUsableMeaning(option.meaning, option.reading) &&
     !hasUnsuitableMeaning(option.meaning) &&
+    !isVariantOnlyMeaning(option.meaning) &&
+    !isReadingListOnlyMeaning(option.meaning) &&
     !conflictsWithGenderContext(option, inputFactors) &&
     !matchesUserExcludedMeaning(option, inputFactors)
   );
@@ -1003,10 +1027,14 @@ function rejectedOfficialMeaningOptions(
       const character = stringValue(option.character);
       const meaning = displayMeaning(option.meaning);
       const genderConflict = conflictsWithGenderContext({ meaning }, inputFactors);
+      const variantOnly = isVariantOnlyMeaning(meaning);
+      const readingListOnly = isReadingListOnlyMeaning(meaning);
       if (
         !character ||
         (!unsuitableNameCharacters.has(character) &&
           !hasUnsuitableMeaning(meaning) &&
+          !variantOnly &&
+          !readingListOnly &&
           !genderConflict)
       ) return [];
 
@@ -1014,10 +1042,17 @@ function rejectedOfficialMeaningOptions(
         character,
         reason: unsuitableNameCharacters.has(character)
           ? `${character}은 감옥을 뜻하는 글자로 이름에 담기 부적절해 추천에서 제외했습니다.`
+          : variantOnly
+            ? `${character}은 본자의 약자 표기만 제시되어 독립된 의미 후보로 중복 추천하지 않습니다.`
+          : readingListOnly
+            ? `${character}은 뜻풀이 대신 음가 목록만 확인되어 의미 추천 후보에서 제외했습니다.`
           : genderConflict
             ? `${character}의 '${meaning}'은 입력한 성별 조건과 맞지 않아 추천에서 제외했습니다.`
           : `'${meaning}'에 이름 추천에 부적합한 부정적 의미가 포함되어 의미 안전 기준에서 제외했습니다.`,
-        severity: genderConflict ? "medium" as const : "high" as const,
+        severity:
+          genderConflict || variantOnly || readingListOnly
+            ? "medium" as const
+            : "high" as const,
       }];
     });
   });
@@ -1391,9 +1426,9 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   }
 
   const optionsForPosition = (syllable: string, index: number) => {
-    const options = (
+    const options = dedupeOptionsByMeaning((
       officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable]
-    )?.filter((option) => isCandidateOptionAllowed(option, inputFactors));
+    )?.filter((option) => isCandidateOptionAllowed(option, inputFactors)) ?? []);
 
     return index === generationIndex
       ? options?.filter((option) => option.character === generationHanja)

@@ -154,3 +154,45 @@ if (
 console.log(
   `영환 돌림자·뜻 정리 검증 통과: ${generationCandidates.map((candidate) => candidate.hanja).join(", ")}`,
 );
+
+const deokGyuResult = buildHanjaMeaningResult({
+  familyName: "안",
+  givenNameHangul: "덕규",
+  birthMonth: "unknown",
+  generationNameUsage: "used",
+  generationSyllable: "규",
+  generationHanja: "奎",
+  officialHanjaCandidates: {
+    덕: [
+      { character: "徳", reading: "덕", meaning: "德의 略字", note: "약자", tags: [] },
+      { character: "德", reading: "덕", meaning: "덕 덕베풀", note: "본자", tags: [] },
+      { character: "㯖", reading: "덕", meaning: "덕,적", note: "음가 목록", tags: [] },
+      { character: "悳", reading: "덕", meaning: "덕 덕베풀", note: "동일 의미", tags: [] },
+    ],
+    규: [
+      { character: "奎", reading: "규", meaning: "별이름", note: "돌림자", tags: [] },
+    ],
+  },
+});
+
+const deokGyuCandidates = deokGyuResult.candidates as Array<{ hanja: string }>;
+const deokGyuRejected = new Set(
+  (deokGyuResult.rejected_hanja as Array<{ character: string }>).map(
+    (item) => item.character,
+  ),
+);
+
+if (
+  deokGyuCandidates.length !== 1 ||
+  deokGyuCandidates[0]?.hanja !== "德奎" ||
+  !deokGyuRejected.has("徳") ||
+  !deokGyuRejected.has("㯖")
+) {
+  throw new Error(
+    `덕규 의미 중복·돌림자 검증 실패: ${deokGyuCandidates.map((candidate) => candidate.hanja).join(", ")}`,
+  );
+}
+
+console.log(
+  `덕규 의미 중복·돌림자 검증 통과: ${deokGyuCandidates.map((candidate) => candidate.hanja).join(", ")}`,
+);

@@ -622,7 +622,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
         <Page size="A4" style={styles.page}>
           <View style={styles.sectionHeader}>
             <Text style={styles.eyebrow}>FINAL · SAJU & NAME COMPARISON</Text>
-            <Text style={styles.sectionTitle}>10개 후보 종합 비교와 선택 가이드</Text>
+            <Text style={styles.sectionTitle}>{candidates.length}개 후보 종합 비교와 선택 가이드</Text>
             <Text style={styles.sectionLead}>
               사주 원국과 오행 참고, 각 후보의 자의와 실사용 설명력을 함께 놓고 최종 비교합니다.
             </Text>

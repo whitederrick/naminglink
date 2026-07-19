@@ -32,6 +32,12 @@ type PremiumResult = {
   entitlement?: { candidateLimit?: 5 | 10; includesSaju?: boolean; includesPdf?: boolean };
 };
 
+function availableCandidateCount(result: unknown) {
+  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
+  const candidates = (result as Record<string, unknown>).candidates;
+  return Array.isArray(candidates) ? candidates.length : 0;
+}
+
 function saveCheckout(checkout: Checkout) {
   localStorage.setItem(
     `naminglink:premium:${checkout.sessionId}`,
@@ -82,6 +88,7 @@ export function PremiumHanjaCheckoutPanel({
   );
   const redirectHandled = useRef(false);
   const selectedProduct = HANJA_PRODUCTS[selectedProductCode];
+  const availableCandidates = availableCandidateCount(result);
 
   async function postJson(path: string, body: unknown) {
     const response = await fetch(path, {
@@ -335,7 +342,10 @@ export function PremiumHanjaCheckoutPanel({
                       <span className="mt-1 block text-sm">{product.name}</span>
                     </span>
                   </span>
-                  <span className="mt-3 block text-xs leading-5 text-muted">후보 {product.candidateLimit}개 상세 · 한자 종합 상세{product.includesSaju ? " · 사주·오행 · PDF" : ""}</span>
+                  <span className="mt-3 block text-xs leading-5 text-muted">
+                    후보 최대 {product.candidateLimit}개 상세 · 현재 결과 {Math.min(product.candidateLimit, availableCandidates)}개 제공 · 한자 종합 상세
+                    {product.includesSaju ? " · 사주·오행 · PDF" : ""}
+                  </span>
                   {disabled ? <span className="mt-2 block text-xs text-brand-rose">출생 연·월·일 확정 후 이용 가능</span> : null}
                 </label>
               );
