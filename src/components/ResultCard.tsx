@@ -347,9 +347,10 @@ export function ResultCard({
   detailedHanja = false,
 }: ResultCardProps) {
   const record = asRecord(result);
-  const candidates = getCandidates(record)
-    .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
-    .slice(0, candidateLimit);
+  const allCandidates = getCandidates(record).sort(
+    (a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1),
+  );
+  const candidates = allCandidates.slice(0, candidateLimit);
   const rejected = getRejected(record);
   const rejectedGroups = groupRejected(
     rejected,
@@ -358,7 +359,9 @@ export function ResultCard({
   const commonAnalysis = asRecord(record.common_analysis);
   const firstCandidate = candidates[0] ?? {};
   const allCandidatesRevealed =
-    candidates.length > 0 && revealedCount >= candidates.length;
+    allCandidates.length > 0 &&
+    candidateLimit >= allCandidates.length &&
+    revealedCount >= allCandidates.length;
   const comprehensiveHanjaOptions = collectHanjaOptions(candidates);
 
   return (
@@ -368,11 +371,15 @@ export function ResultCard({
           {service.serviceType === "HANJA_MEANING_MATCH" ? (
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <p className="text-sm font-semibold text-brand-teal">무료 후보 조회 완료</p>
+                <p className="text-sm font-semibold text-brand-teal">
+                  {allCandidatesRevealed ? "전체 후보 조회 완료" : "무료 후보 조회 완료"}
+                </p>
                 <h1 className="mt-1 text-2xl font-semibold">기본 검토 요약</h1>
               </div>
               <span className="rounded-full bg-brand-teal/10 px-3 py-1.5 text-xs font-semibold text-brand-teal">
-                {candidates.length > 0 ? "추천 이름 조합 1개 공개" : "공식 확인 필요"}
+                {candidates.length > 0
+                  ? `추천 이름 조합 ${Math.min(revealedCount, candidates.length)}개 공개`
+                  : "공식 확인 필요"}
               </span>
             </div>
           ) : (
@@ -422,7 +429,9 @@ export function ResultCard({
           {service.slug !== "global-name-to-hangul" ? (
             <span className="text-sm text-muted">
               {candidates.length > 0
-                ? `${Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금`
+                ? allCandidatesRevealed
+                  ? `${allCandidates.length}개 전체 공개`
+                  : `${Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금`
                 : "추천 보류"}
             </span>
           ) : null}

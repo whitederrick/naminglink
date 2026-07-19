@@ -52,7 +52,8 @@ export async function POST(request: NextRequest) {
 
     const supabase = getSupabaseAdminClient();
     const visitorHash = getDailyVisitorHash(request);
-    if (supabase && visitorHash) {
+    const enforceFreeQuota = process.env.NODE_ENV === "production";
+    if (enforceFreeQuota && supabase && visitorHash) {
       const { data: allowed, error: quotaError } = await supabase.rpc("consume_daily_quota", {
         p_visitor_hash: visitorHash,
         p_limit: Number(process.env.FREE_DAILY_LIMIT ?? 20),
@@ -62,7 +63,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           ok: false,
-          error: "오늘 무료 생성 횟수를 모두 사용했습니다.",
+          error:
+            "오늘의 무료 후보 조회 횟수를 모두 사용했습니다. 이미 결제한 상세 리포트는 해당 결과 화면에서 계속 확인하거나 다시 다운로드할 수 있습니다.",
         },
         { status: 429 },
       );

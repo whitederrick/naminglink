@@ -102,3 +102,55 @@ if (
 console.log(
   `정민 후보 품질 필터 검증 통과: ${qualityCandidates.map((candidate) => candidate.hanja).join(", ")}`,
 );
+
+const generationNameResult = buildHanjaMeaningResult({
+  familyName: "안",
+  givenNameHangul: "영환",
+  gender: "male",
+  birthMonth: "1",
+  generationNameUsage: "used",
+  generationSyllable: "환",
+  generationHanja: "煥",
+  officialHanjaCandidates: {
+    영: [
+      { character: "瑩", reading: "영", meaning: "옥돌 맑을(형)", note: "", tags: [] },
+      { character: "寗", reading: "영", meaning: "寧(평안할(령/영))과 同字", note: "", tags: [] },
+      { character: "囹", reading: "영", meaning: "옥(영/령)", note: "", tags: [] },
+      { character: "姈", reading: "영", meaning: "계집슬기로울(영/령) 여자이름(영/령)", note: "", tags: [] },
+      ...options("영", "瑛玲瓔暎昤泠"),
+    ],
+    환: [
+      { character: "煥", reading: "환", meaning: "빛날", note: "", tags: [] },
+      ...options("환", "桓丸晥奐幻喚換歡"),
+    ],
+  },
+});
+
+const generationCandidates = generationNameResult.candidates as Array<{
+  hanja: string;
+  character_breakdown: Array<{ meaning: string }>;
+}>;
+const generationRejected = new Set(
+  (generationNameResult.rejected_hanja as Array<{ character: string }>).map(
+    (item) => item.character,
+  ),
+);
+const generationText = JSON.stringify(generationCandidates);
+
+if (
+  generationCandidates.length !== 8 ||
+  generationCandidates.some((candidate) => !candidate.hanja.endsWith("煥")) ||
+  generationText.includes("囹") ||
+  generationText.includes("姈") ||
+  generationText.includes("영/령") ||
+  generationText.includes("同字") ||
+  generationText.includes("(형)") ||
+  !generationRejected.has("囹") ||
+  !generationRejected.has("姈")
+) {
+  throw new Error(`영환 돌림자·뜻 정리 검증 실패: ${generationText}`);
+}
+
+console.log(
+  `영환 돌림자·뜻 정리 검증 통과: ${generationCandidates.map((candidate) => candidate.hanja).join(", ")}`,
+);

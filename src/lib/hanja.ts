@@ -712,11 +712,20 @@ function stringValue(value: unknown) {
 }
 
 function displayMeaning(value: unknown) {
-  return stringValue(value)
+  const rawMeaning = stringValue(value)
     .replace(/\(\s*한\s*국\s*한\s*자\s*\)/g, "")
     .replace(/\(\s*일\s*본\s*한\s*자\s*\)/g, "")
+    .replace(/^\p{Script=Han}+\((.+)\)과\s*同字$/u, "$1")
+    .replace(/\((?:[가-힣]{1,3})(?:\/[가-힣]{1,3})*\)/g, "")
+    .replace(/계집슬기로울/g, "슬기로울")
+    .replace(/여자이름/g, "여자 이름")
+    .replace(/맑은소리/g, "맑은 소리")
+    .replace(/금옥소리/g, "금옥 소리")
+    .replace(/날빛영롱할/g, "날빛 영롱할")
     .replace(/\s{2,}/g, " ")
     .trim();
+
+  return rawMeaning;
 }
 
 const unsuitableMeaningTerms = [
@@ -748,7 +757,14 @@ const unsuitableMeaningTerms = [
   "숙취",
   "없어질",
   "탐할",
+  "감옥",
+  "옥(영/령)",
+  "옥(령/영)",
+  "갇힐",
+  "죄수",
 ];
+
+const unsuitableNameCharacters = new Set(["囹"]);
 
 const preferredMeaningWeights = [
   { terms: ["상서", "길할", "복", "평안", "맑", "밝", "슬기", "지혜", "어진"], weight: 10 },
@@ -820,14 +836,26 @@ function matchesUserExcludedMeaning(
   return excludedTerms.some((term) => target.includes(term));
 }
 
+function conflictsWithGenderContext(
+  option: Pick<HanjaOption, "meaning">,
+  inputFactors: Record<string, unknown>,
+) {
+  const gender = stringValue(inputFactors.gender);
+  if (gender === "male") return /여자\s*이름|여성/.test(option.meaning);
+  if (gender === "female") return /남자\s*이름|남성/.test(option.meaning);
+  return false;
+}
+
 function isCandidateOptionAllowed(
   option: HanjaOption,
   inputFactors: Record<string, unknown>,
 ) {
   return (
     !isPrivateUseCharacter(option.character) &&
+    !unsuitableNameCharacters.has(option.character) &&
     hasUsableMeaning(option.meaning, option.reading) &&
     !hasUnsuitableMeaning(option.meaning) &&
+    !conflictsWithGenderContext(option, inputFactors) &&
     !matchesUserExcludedMeaning(option, inputFactors)
   );
 }
@@ -974,12 +1002,22 @@ function rejectedOfficialMeaningOptions(
       const option = rawOption as Record<string, unknown>;
       const character = stringValue(option.character);
       const meaning = displayMeaning(option.meaning);
-      if (!character || !hasUnsuitableMeaning(meaning)) return [];
+      const genderConflict = conflictsWithGenderContext({ meaning }, inputFactors);
+      if (
+        !character ||
+        (!unsuitableNameCharacters.has(character) &&
+          !hasUnsuitableMeaning(meaning) &&
+          !genderConflict)
+      ) return [];
 
       return [{
         character,
-        reason: `'${meaning}'에 이름 추천에 부적합한 부정적 의미가 포함되어 의미 안전 기준에서 제외했습니다.`,
-        severity: "high" as const,
+        reason: unsuitableNameCharacters.has(character)
+          ? `${character}은 감옥을 뜻하는 글자로 이름에 담기 부적절해 추천에서 제외했습니다.`
+          : genderConflict
+            ? `${character}의 '${meaning}'은 입력한 성별 조건과 맞지 않아 추천에서 제외했습니다.`
+          : `'${meaning}'에 이름 추천에 부적합한 부정적 의미가 포함되어 의미 안전 기준에서 제외했습니다.`,
+        severity: genderConflict ? "medium" as const : "high" as const,
       }];
     });
   });
