@@ -8,6 +8,7 @@ type HanjaOption = {
   element: HanjaElement;
   tags: string[];
   sourceStatus: "sample" | "production";
+  originLabel?: string;
 };
 
 type RejectedHanja = {
@@ -710,6 +711,14 @@ function stringValue(value: unknown) {
   return typeof value === "string" ? value.trim() : "";
 }
 
+function displayMeaning(value: unknown) {
+  return stringValue(value)
+    .replace(/\(\s*한\s*국\s*한\s*자\s*\)/g, "")
+    .replace(/\(\s*일\s*본\s*한\s*자\s*\)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 const unsuitableMeaningTerms = [
   "고독할",
   "외로울",
@@ -738,6 +747,7 @@ const unsuitableMeaningTerms = [
   "술취할",
   "숙취",
   "없어질",
+  "탐할",
 ];
 
 const preferredMeaningWeights = [
@@ -915,7 +925,7 @@ function officialOptionsFromInput(
     const option = rawOption as Record<string, unknown>;
     const character = stringValue(option.character);
     const reading = stringValue(option.reading);
-    const meaning = stringValue(option.meaning);
+    const meaning = displayMeaning(option.meaning);
     if (
       !character ||
       reading !== syllable ||
@@ -936,6 +946,7 @@ function officialOptionsFromInput(
         ? option.tags.filter((tag): tag is string => typeof tag === "string")
         : [],
       sourceStatus: "production" as const,
+      originLabel: stringValue(option.originLabel) || undefined,
     };
     return isCandidateOptionAllowed(candidate, inputFactors) ? [candidate] : [];
   });
@@ -962,7 +973,7 @@ function rejectedOfficialMeaningOptions(
       }
       const option = rawOption as Record<string, unknown>;
       const character = stringValue(option.character);
-      const meaning = stringValue(option.meaning);
+      const meaning = displayMeaning(option.meaning);
       if (!character || !hasUnsuitableMeaning(meaning)) return [];
 
       return [{
@@ -1153,11 +1164,6 @@ function recommendationReason(
         .filter((tag) => parentWishes.includes(tag)),
     ),
   ];
-  const tagSummary = [
-    ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
-  ]
-    .slice(0, 4)
-    .join("·");
   const characterFlow = characterMeaningFlow(options);
   const factualDifference = options
     .map(
@@ -1166,14 +1172,9 @@ function recommendationReason(
     )
     .join(", ");
 
-  return [
-    matchedTags.length
-      ? `${characterFlow} 의미가 부모가 담고 싶은 바람인 '${parentWishes}'에 포함된 ${matchedTags.join("·")}의 가치와 자연스럽게 이어집니다.`
-      : `${factualDifference}을 배치한 조합입니다.`,
-    tagSummary
-      ? `이 후보는 ${tagSummary}의 방향이 다른 조합보다 선명합니다.`
-      : `이 조합은 ${options.map((option) => option.meaning).join("·")}의 의미가 함께 드러난다는 점에서 다른 후보와 구별됩니다.`,
-  ].join(" ");
+  return matchedTags.length
+    ? `${characterFlow} 뜻이 부모가 담고 싶은 '${parentWishes}' 가운데 ${matchedTags.join("·")}의 가치와 연결됩니다.`
+    : `${factualDifference}을 사용해 ${options.map((option) => `'${option.meaning}'`).join("과 ")}의 뜻을 한 이름 안에 담았습니다.`;
 }
 
 function candidateStory(
@@ -1193,10 +1194,10 @@ function candidateStory(
   const meaningImage = [...new Set(options.map((option) => option.meaning))].join("·");
   const combinedImage = tagImage || meaningImage;
   const wishSentence = parentWishes
-    ? `부모가 담고 싶은 '${parentWishes}'의 가치와는 각 글자의 사전 뜻을 기준으로 연결 가능성을 비교해야 합니다.`
-    : `${combinedImage}${descriptorParticle(combinedImage)} 뜻의 조합으로 설명할 수 있습니다.`;
+    ? `두 뜻은 부모가 담고 싶은 '${parentWishes}'의 가치 중 실제로 맞닿는 부분을 구체적으로 살펴볼 수 있게 합니다.`
+    : `${combinedImage}${descriptorParticle(combinedImage)} 의미 흐름으로 이름을 설명할 수 있습니다.`;
 
-  return `${characterStories} 각 글자의 자의(字義)를 함께 보면 ${combinedImage}${objectParticle(combinedImage)} 중심으로 이름의 의미를 풀 수 있습니다. ${wishSentence} '${displayName}'에 적용할 때에는 이 의미가 가족이 원하는 이름의 방향과 맞는지 최종 비교해 보세요.`;
+  return `${characterStories} ${displayName}의 자의(字義)는 ${combinedImage}${objectParticle(combinedImage)} 중심으로 이어집니다. ${wishSentence}`;
 }
 
 function practicalNameAnalysis(
@@ -1213,7 +1214,7 @@ function practicalNameAnalysis(
     )
     .join(". ");
 
-  return `실사용 시 '${displayName}'의 한자 뜻은 ${characterMeanings}로 표기합니다. ${explanation}. 학교나 공식 문서에서는 지정 음가와 글자 형태를 정확히 확인하고, 이름을 소개할 때에는 각 글자의 뜻을 나누어 설명하는 편이 명확합니다.`;
+  return `'${displayName}'은 ${characterMeanings}로 표기하며, ${explanation}. 두 글자의 뜻을 연결하면 ${options.map((option) => option.meaning).join("에서 ")}로 이어지는 의미 구조가 됩니다.`;
 }
 
 function sajuReferenceNote(
@@ -1439,6 +1440,7 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         meaning: option.meaning,
         note: option.note,
         source_status: option.sourceStatus,
+        origin_label: option.originLabel ?? null,
       })),
       story: candidateStory(
         displayName,

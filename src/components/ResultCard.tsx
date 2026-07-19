@@ -31,6 +31,16 @@ function publicFacingHanjaText(value: unknown) {
   return content;
 }
 
+function compactRejectedReason(value: unknown) {
+  const content = publicFacingHanjaText(value);
+  if (/부정적 의미|자의.*부적합|이름.*부적합/.test(content)) return "부정적 의미 포함";
+  if (/제외 조건|원하지 않는 의미/.test(content)) return "입력한 제외 조건과 일치";
+  if (/지정 음가|공식.*확인|등록 가능/.test(content)) return "공식 음가·등록 기준 확인 필요";
+  if (/사설영역|표시|글자 형태/.test(content)) return "표시·글자 형태 확인 필요";
+  const firstSentence = content.split(/[.!?]/)[0]?.trim() || "추천 기준에 맞지 않음";
+  return firstSentence.length > 32 ? `${firstSentence.slice(0, 32)}…` : firstSentence;
+}
+
 function arrayRecords(value: unknown) {
   return Array.isArray(value)
     ? value.filter(
@@ -109,7 +119,7 @@ function candidateRows(
   if (service.serviceType === "HANJA_MEANING_MATCH") {
     const rows: Array<[string, unknown]> = [
       ["한자 구성과 기본 뜻", compactHanjaComposition(item) || item.meaning],
-      ["이 후보의 구별점", item.recommendation_reason],
+      ["이 후보의 의미 구성", item.recommendation_reason],
     ];
     if (detailedHanja) {
       rows.push(
@@ -117,7 +127,7 @@ function candidateRows(
         ["실사용 이름 해석", item.practical_analysis],
       );
     }
-    return rows;
+    return rows.filter((row) => Boolean(row[1]));
   }
 
   return [
@@ -151,6 +161,24 @@ function getRejected(record: Record<string, unknown>) {
     ...arrayRecords(record.rejected_hanja),
     ...arrayRecords(record.rejected_options),
   ];
+}
+
+function groupRejected(
+  rejected: Record<string, unknown>[],
+  compactHanja: boolean,
+) {
+  const groups = new Map<string, string[]>();
+  for (const item of rejected) {
+    const character = text(item.character || item.name || item.hangul);
+    if (!character) continue;
+    const reason = compactHanja
+      ? compactRejectedReason(item.reason)
+      : text(item.reason) || "추천 기준에 맞지 않음";
+    const characters = groups.get(reason) ?? [];
+    if (!characters.includes(character)) characters.push(character);
+    groups.set(reason, characters);
+  }
+  return [...groups.entries()];
 }
 
 function getBreakdown(value: unknown) {
@@ -323,6 +351,10 @@ export function ResultCard({
     .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
     .slice(0, candidateLimit);
   const rejected = getRejected(record);
+  const rejectedGroups = groupRejected(
+    rejected,
+    service.serviceType === "HANJA_MEANING_MATCH",
+  );
   const commonAnalysis = asRecord(record.common_analysis);
   const firstCandidate = candidates[0] ?? {};
   const allCandidatesRevealed =
@@ -440,6 +472,20 @@ export function ResultCard({
                         <h3 className="mt-1 text-2xl font-semibold tracking-normal">
                           {title}
                         </h3>
+                        {service.serviceType === "HANJA_MEANING_MATCH" ? (
+                          <div className="mt-2 flex flex-wrap gap-2">
+                            {getBreakdown(item.character_breakdown)
+                              .filter((part) => text(part.origin_label))
+                              .map((part) => (
+                                <span
+                                  key={`${text(part.character)}-${text(part.origin_label)}`}
+                                  className="rounded-full border border-brand-teal/25 bg-brand-teal/5 px-2.5 py-1 text-xs font-semibold text-brand-teal"
+                                >
+                                  {text(part.character)} · {text(part.origin_label)}
+                                </span>
+                              ))}
+                          </div>
+                        ) : null}
                         {service.serviceType === "HANJA_MEANING_MATCH" ? (
                           <p className="mt-2 text-sm leading-6 text-muted">
                             {focus.description}
@@ -608,21 +654,17 @@ export function ResultCard({
               className="text-brand-rose"
               size={18}
             />
-            <h2 className="text-base font-semibold">배제 후보와 이유</h2>
+            <h2 className="text-base font-semibold">배제 후보 요약</h2>
           </div>
-          <div className="mt-4 grid gap-3">
-            {rejected.map((item, index) => (
+          <div className="mt-4 grid gap-2">
+            {rejectedGroups.map(([reason, characters]) => (
               <div
-                key={`${text(item.character || item.name || item.hangul)}-${index}`}
-                className="rounded-lg bg-surface px-4 py-3 text-sm"
+                key={reason}
+                className="flex flex-wrap items-center gap-x-3 gap-y-2 rounded-lg bg-surface px-4 py-2.5 text-sm"
               >
-                <p className="font-semibold">
-                  {text(item.character || item.name || item.hangul)}
-                </p>
-                <p className="mt-1 leading-6 text-muted">
-                  {service.serviceType === "HANJA_MEANING_MATCH"
-                    ? publicFacingHanjaText(item.reason)
-                    : text(item.reason)}
+                <p className="font-semibold">{reason}</p>
+                <p className="text-base font-semibold tracking-wide text-brand-rose">
+                  {characters.join(" · ")}
                 </p>
               </div>
             ))}

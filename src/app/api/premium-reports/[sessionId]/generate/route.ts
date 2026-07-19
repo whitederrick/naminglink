@@ -44,7 +44,7 @@ export async function POST(request: Request, context: Context) {
       const payload = session.input_payload as Record<string, unknown>;
       const inputFactors = payload.inputFactors as Record<string, unknown>;
       const product = getHanjaProduct(session.product_code as HanjaProductCode);
-      if (!product.includesSaju) {
+      if (!product.includesSaju && !product.includesPdf) {
         const premium = {
           entitlement: {
             productCode: product.code,
@@ -68,7 +68,10 @@ export async function POST(request: Request, context: Context) {
         if (error) throw error;
         return NextResponse.json({ ok: true, status: "READY", premium, expiresAt: session.expires_at });
       }
-      const premium = await buildPremiumHanjaTestResult(inputFactors, payload.freeResult);
+      const premium = await buildPremiumHanjaTestResult(inputFactors, payload.freeResult, {
+        candidateLimit: product.candidateLimit,
+        includeSaju: product.includesSaju,
+      });
       const readyAt = new Date().toISOString();
       const { error } = await supabase
         .from("premium_analysis_sessions")

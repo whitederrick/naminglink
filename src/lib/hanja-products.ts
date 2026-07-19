@@ -19,11 +19,11 @@ export const HANJA_PRODUCTS = {
   TEN_DETAIL: {
     code: "TEN_DETAIL",
     orderType: "PREMIUM_PDF",
-    name: "한자 후보 10개 확장 상세",
+    name: "한자 후보 10개 확장 상세 PDF",
     amount: 4900,
     candidateLimit: 10,
     includesSaju: false,
-    includesPdf: false,
+    includesPdf: true,
   },
   TEN_SAJU_PDF: {
     code: "TEN_SAJU_PDF",

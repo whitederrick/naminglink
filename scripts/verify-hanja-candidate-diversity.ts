@@ -15,15 +15,29 @@ const result = buildHanjaMeaningResult({
   givenNameHangul: "남규",
   birthMonth: "unknown",
   officialHanjaCandidates: {
-    남: options("남", "㛦南男湳楠枏柟喃娚"),
+    남: options("남", "㛦南男湳楠枏柟喃娚").map((option) =>
+      option.character === "娚"
+        ? {
+            ...option,
+            meaning: "말소리 오라비(한국한자)",
+            originLabel: "한국 고유 한자(국자)",
+          }
+        : option,
+    ),
     규: options("규", "奎圭珪葵槻硅閨規赳"),
   },
 });
 
 const candidates = result.candidates as Array<{ hanja: string }>;
 const firstCharacters = new Set(candidates.map((candidate) => [...candidate.hanja][0]));
+const resultText = JSON.stringify(result);
 
-if (candidates.length !== 10 || firstCharacters.size < 5) {
+if (
+  candidates.length !== 10 ||
+  firstCharacters.size < 5 ||
+  resultText.includes("(한국한자)") ||
+  !resultText.includes("한국 고유 한자(국자)")
+) {
   throw new Error(
     `남규 후보 다양성 검증 실패: ${candidates.map((candidate) => candidate.hanja).join(", ")}`,
   );
@@ -75,6 +89,9 @@ if (
   qualityText.includes(" 를 중심") ||
   qualityText.includes("라는 해석 방향") ||
   qualityText.includes("하면서  이미지를") ||
+  qualityText.includes("가족이 원하는 이름의 방향") ||
+  qualityText.includes("의미가 함께 드러난다는 점") ||
+  qualityText.includes("학교나 공식 문서에서는") ||
   !["仃", "佂", "怋", "悶", "泯"].every((character) =>
     rejectedCharacters.has(character),
   )

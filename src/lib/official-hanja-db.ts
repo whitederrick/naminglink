@@ -9,12 +9,21 @@ export type OfficialHanjaCandidate = {
   element: "neutral";
   tags: string[];
   sourceStatus: "production";
+  originLabel?: string;
 };
 
 function hangulSyllables(value: unknown) {
   return typeof value === "string"
     ? [...new Set([...value.trim()].filter((char) => /^[가-힣]$/u.test(char)))]
     : [];
+}
+
+function displayMeaning(value: unknown) {
+  return String(value || "AI 의미 해석 대상")
+    .replace(/\(\s*한\s*국\s*한\s*자\s*\)/g, "")
+    .replace(/\(\s*일\s*본\s*한\s*자\s*\)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
 }
 
 export async function getOfficialHanjaCandidates(
@@ -63,11 +72,16 @@ export async function getOfficialHanjaCandidates(
       (candidates[syllable] ??= []).push({
         character: String(entry.hanja),
         reading: String(entry.designated_reading),
-        meaning: String(entry.meaning_ko || "AI 의미 해석 대상"),
+        meaning: displayMeaning(entry.meaning_ko),
         note: String(entry.notes || "공식 인명용 한자표의 지정 발음 확인 후보입니다."),
         element: "neutral",
         tags,
         sourceStatus: "production",
+        originLabel: /한\s*국\s*한\s*자/.test(
+          String(metadata.officialDescription ?? entry.meaning_ko ?? ""),
+        )
+          ? "한국 고유 한자(국자)"
+          : undefined,
       });
     }
 

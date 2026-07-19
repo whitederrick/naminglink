@@ -14,6 +14,7 @@ const inputFactors = {
   parentWishes: "밝은 지혜와 바른 마음",
   excludedMeanings: "병약함",
 };
+const productCode = process.env.PRODUCT_CODE || "TEN_SAJU_PDF";
 
 async function jsonRequest(path, body) {
   const response = await fetch(`http://localhost:3001${path}`, {
@@ -32,6 +33,7 @@ const free = await jsonRequest("/api/naming", {
   saveResult: false,
 });
 const premium = await jsonRequest("/api/premium-reports/test", {
+  productCode,
   inputFactors,
   result: free.data.result,
 });
@@ -42,16 +44,25 @@ const pdfResponse = await fetch("http://localhost:3001/api/premium-reports/test/
   body: JSON.stringify({ reportData }),
 });
 const pdfBytes = new Uint8Array(await pdfResponse.arrayBuffer());
+await mkdir("tmp/pdfs", { recursive: true });
+await writeFile(`tmp/pdfs/premium-hanja-report-${productCode.toLowerCase()}.pdf`, pdfBytes);
 
 console.log(JSON.stringify({
   freeHanja: free.data.result.candidates[0].hanja,
   premiumHanja: reportData.primaryCandidate.hanjaName,
   fixedGeneration: reportData.primaryCandidate.hanjaName.endsWith("奎"),
   analysisSource: premium.data.premium.analysisSource,
-  pillars: Object.values(reportData.saju.pillars).map((pillar) => pillar?.hanja ?? null),
+  pillars: reportData.saju
+    ? Object.values(reportData.saju.pillars).map((pillar) => pillar?.hanja ?? null)
+    : [],
+  productCode,
   storyLength: premium.data.premium.interpretation.story.length,
+  candidateCount: reportData.candidates.length,
+  candidateAnalysisCount: premium.data.premium.interpretation.candidateAnalyses.length,
+  rejectedCount: reportData.rejectedCandidates.length,
   pdfStatus: pdfResponse.status,
   pdfType: pdfResponse.headers.get("content-type"),
   pdfBytes: pdfBytes.length,
   pdfMagic: String.fromCharCode(...pdfBytes.slice(0, 4)),
 }, null, 2));
+import { mkdir, writeFile } from "node:fs/promises";

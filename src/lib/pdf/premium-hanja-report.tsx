@@ -25,10 +25,14 @@ export type PremiumHanjaReportCandidate = {
     hanja: string;
     meaning: string;
     elementLabel?: string | null;
+    originLabel?: string | null;
     officialReadingConfirmed: boolean;
   }>;
   story: string;
   practicalUse: string;
+  selectionGuide?: string;
+  meaningCaution?: string;
+  sajuConnection?: string | null;
   officialSourceLabel: string;
 };
 
@@ -37,8 +41,20 @@ export type PremiumHanjaReportData = {
   generatedAt: string;
   expiresAt: string;
   childNameHangul: string;
-  saju: PremiumSajuResult;
+  saju?: PremiumSajuResult | null;
   primaryCandidate: PremiumHanjaReportCandidate;
+  candidates?: PremiumHanjaReportCandidate[];
+  sajuInterpretation?: {
+    overview: string;
+    fiveElements: string;
+    namingBalance: string;
+    candidateComparison: string;
+  } | null;
+  rejectedCandidates?: Array<{
+    character: string;
+    reason: string;
+    severity?: string;
+  }>;
   parentWishes?: string | null;
   excludedMeanings?: string | null;
 };
@@ -137,6 +153,14 @@ const styles = StyleSheet.create({
     paddingBottom: 42,
     paddingLeft: 44,
   },
+  candidatePage: {
+    paddingTop: 28,
+    paddingRight: 40,
+    paddingBottom: 34,
+    paddingLeft: 40,
+    fontSize: 8.5,
+    lineHeight: 1.42,
+  },
   brandRule: { width: 42, height: 4, backgroundColor: colors.teal, marginBottom: 13 },
   eyebrow: { color: colors.teal, fontSize: 8.5, fontWeight: 700, letterSpacing: 1.5 },
   title: { marginTop: 8, fontSize: 25, fontWeight: 700, lineHeight: 1.28 },
@@ -187,6 +211,17 @@ const styles = StyleSheet.create({
     fontSize: 8.5,
   },
   sectionHeader: { marginBottom: 20 },
+  candidateHeader: { marginBottom: 10 },
+  titleBadgeRow: { flexDirection: "row", alignItems: "center", gap: 7, marginTop: 5 },
+  titleBadge: {
+    borderRadius: 8,
+    backgroundColor: colors.tealSoft,
+    color: colors.teal,
+    fontSize: 6.7,
+    fontWeight: 700,
+    paddingVertical: 3,
+    paddingHorizontal: 7,
+  },
   sectionTitle: { marginTop: 7, marginBottom: 9, fontSize: 20, fontWeight: 700 },
   sectionLead: { marginTop: 5, color: colors.muted, fontSize: 9 },
   gridFour: { flexDirection: "row", gap: 8 },
@@ -249,12 +284,47 @@ const styles = StyleSheet.create({
   recommendationSummary: { marginTop: 7, color: colors.muted, fontSize: 9 },
   characterRow: { marginTop: 15, flexDirection: "row", gap: 10 },
   characterCard: { flexGrow: 1, flexBasis: 0, backgroundColor: colors.sand, padding: 13 },
+  candidateNameCard: { padding: 15 },
+  candidateCharacterRow: { marginTop: 10 },
+  candidateCharacterCard: { padding: 10 },
+  characterCardTop: { flexDirection: "row", alignItems: "flex-start", justifyContent: "space-between", gap: 6 },
+  verifiedBadge: {
+    borderRadius: 7,
+    backgroundColor: colors.white,
+    color: colors.teal,
+    fontSize: 5.6,
+    fontWeight: 700,
+    paddingVertical: 2.5,
+    paddingHorizontal: 5,
+  },
   characterTitle: { fontSize: 15, fontWeight: 700 },
   characterMeaning: { marginTop: 5, color: colors.muted, fontSize: 8.5 },
   verified: { marginTop: 8, color: colors.teal, fontSize: 7.5, fontWeight: 700 },
   storyBox: { marginTop: 16, borderTopWidth: 1, borderTopColor: colors.line, paddingTop: 14 },
+  candidateStoryBox: { marginTop: 9, paddingTop: 7 },
   storyLabel: { fontSize: 9, fontWeight: 700 },
   storyText: { marginTop: 6, color: colors.muted, fontSize: 8.7 },
+  candidateStoryText: { marginTop: 4, fontSize: 7.4, lineHeight: 1.38 },
+  analysisSection: {
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: colors.line,
+    backgroundColor: colors.white,
+    padding: 15,
+  },
+  analysisTitle: { color: colors.teal, fontSize: 10, fontWeight: 700 },
+  analysisText: { marginTop: 7, color: colors.muted, fontSize: 8.8 },
+  candidateNumber: { color: colors.muted, fontSize: 8, marginBottom: 4 },
+  sajuConnection: { marginTop: 16, backgroundColor: colors.tealSoft, padding: 14 },
+  candidateSajuConnection: { marginTop: 9, padding: 10 },
+  rejectedRow: {
+    marginBottom: 9,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.line,
+    paddingBottom: 9,
+  },
+  rejectedTitle: { fontSize: 11, fontWeight: 700 },
+  rejectedReason: { marginTop: 4, color: colors.muted, fontSize: 8.5 },
   methodRow: { marginBottom: 12, flexDirection: "row", gap: 12 },
   methodNumber: {
     width: 24,
@@ -306,16 +376,29 @@ function ReportFooter({ reportId }: { reportId: string }) {
 }
 
 export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportData }) {
-  const pillars = [
-    ["년주", data.saju.pillars.year],
-    ["월주", data.saju.pillars.month],
-    ["일주", data.saju.pillars.day],
-    ["시주", data.saju.pillars.hour],
-  ] as const;
+  const saju = data.saju ?? null;
+  const candidates = data.candidates?.length
+    ? data.candidates.slice(0, 10)
+    : [data.primaryCandidate];
+  const pillars = saju
+    ? ([
+        ["년주", saju.pillars.year],
+        ["월주", saju.pillars.month],
+        ["일주", saju.pillars.day],
+        ["시주", saju.pillars.hour],
+      ] as const)
+    : [];
   const elementOrder = ["WOOD", "FIRE", "EARTH", "METAL", "WATER"] as const;
-  const totalVisible = Object.values(data.saju.visibleFiveElements.counts).reduce(
-    (sum, count) => sum + count,
-    0,
+  const totalVisible = saju
+    ? Object.values(saju.visibleFiveElements.counts).reduce(
+        (sum, count) => sum + count,
+        0,
+      )
+    : 0;
+  const rejected = data.rejectedCandidates ?? [];
+  const rejectedPages = Array.from(
+    { length: Math.ceil(rejected.length / 8) },
+    (_, index) => rejected.slice(index * 8, index * 8 + 8),
   );
 
   return (
@@ -340,7 +423,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
             style={styles.nameHanja}
             fontWeight={700}
           />
-          <Text style={styles.certificateSummary}>{data.primaryCandidate.summary}</Text>
+          <HanjaText value={data.primaryCandidate.summary} style={styles.certificateSummary} />
         </View>
 
         <View style={styles.metaRow}>
@@ -359,7 +442,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
         <ReportFooter reportId={data.reportId} />
       </Page>
 
-      <Page size="A4" style={styles.page}>
+      {saju ? <Page size="A4" style={styles.page}>
         <View style={styles.sectionHeader}>
           <Text style={styles.eyebrow}>01 · FOUR PILLARS REFERENCE</Text>
           <Text style={styles.sectionTitle}>사주 원국과 오행 참고</Text>
@@ -386,7 +469,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
           <View style={[styles.card, styles.splitSide]}>
             <Text style={styles.cardTitle}>일간 참고</Text>
             <HanjaText
-              value={`${data.saju.dayMaster.character} · ${data.saju.dayMaster.elementLabel}`}
+              value={`${saju.dayMaster.character} · ${saju.dayMaster.elementLabel}`}
               style={styles.dayMaster}
               fontWeight={700}
             />
@@ -397,13 +480,13 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
           <View style={[styles.card, styles.splitMain]}>
             <Text style={styles.cardTitle}>천간·지지 표면 오행 분포</Text>
             {elementOrder.map((element) => {
-              const count = data.saju.visibleFiveElements.counts[element];
+              const count = saju.visibleFiveElements.counts[element];
               const width = totalVisible ? Math.max(3, (count / totalVisible) * 100) : 3;
               return (
                 <View key={element} style={styles.elementRow}>
                   <View style={styles.elementTop}>
                     <Text style={styles.elementLabel}>
-                      {data.saju.visibleFiveElements.labels[element]}
+                      {saju.visibleFiveElements.labels[element]}
                     </Text>
                     <Text style={styles.elementCount}>{count}개</Text>
                   </View>
@@ -418,74 +501,164 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
 
         <View style={styles.caution}>
           <Text style={styles.cautionTitle}>해석 원칙</Text>
-          <Text style={styles.cautionText}>{data.saju.interpretationPolicy.namingUse}</Text>
-          {data.saju.interpretationPolicy.incompleteTime ? (
-            <Text style={styles.cautionText}>{data.saju.interpretationPolicy.incompleteTime}</Text>
+          <Text style={styles.cautionText}>{saju.interpretationPolicy.namingUse}</Text>
+          {saju.interpretationPolicy.incompleteTime ? (
+            <Text style={styles.cautionText}>{saju.interpretationPolicy.incompleteTime}</Text>
           ) : null}
         </View>
         <ReportFooter reportId={data.reportId} />
-      </Page>
+      </Page> : null}
 
-      <Page size="A4" style={styles.page}>
-        <View style={styles.sectionHeader}>
-          <Text style={styles.eyebrow}>02 · NAME RECOMMENDATION</Text>
-          <Text style={styles.sectionTitle}>추천 한자 이름 분석</Text>
+      {saju && data.sajuInterpretation ? (
+        <Page size="A4" style={styles.page}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.eyebrow}>02 · FOUR PILLARS INTERPRETATION</Text>
+            <Text style={styles.sectionTitle}>사주 원국과 오행 상세 해설</Text>
+            <Text style={styles.sectionLead}>
+              계산 결과를 이름 후보와 연결하기 전에 원국, 오행 분포와 적용 원칙을 각각 나누어 설명합니다.
+            </Text>
+          </View>
+          <View style={styles.analysisSection}>
+            <Text style={styles.analysisTitle}>사주 원국 해설</Text>
+            <HanjaText value={data.sajuInterpretation.overview} style={styles.analysisText} />
+          </View>
+          <View style={styles.analysisSection}>
+            <Text style={styles.analysisTitle}>오행 분포 해설</Text>
+            <HanjaText value={data.sajuInterpretation.fiveElements} style={styles.analysisText} />
+          </View>
+          <View style={styles.analysisSection}>
+            <Text style={styles.analysisTitle}>이름 후보에 적용하는 기준</Text>
+            <HanjaText value={data.sajuInterpretation.namingBalance} style={styles.analysisText} />
+          </View>
+          <ReportFooter reportId={data.reportId} />
+        </Page>
+      ) : null}
+
+      {candidates.map((candidate, candidateIndex) => (
+      <Page key={`${candidate.hanjaName}-${candidateIndex}`} size="A4" style={[styles.page, styles.candidatePage]}>
+        <View style={[styles.sectionHeader, styles.candidateHeader]}>
+          <Text style={styles.eyebrow}>NAME CANDIDATE · {String(candidateIndex + 1).padStart(2, "0")} / {candidates.length}</Text>
+          <View style={styles.titleBadgeRow}>
+            <Text style={[styles.sectionTitle, { marginTop: 0, marginBottom: 0 }]}>추천 한자 이름 상세 분석</Text>
+            <Text style={styles.titleBadge}>후보 {candidateIndex + 1}</Text>
+            <Text style={styles.titleBadge}>{candidate.focusLabel}</Text>
+          </View>
           <Text style={styles.sectionLead}>
-            한글 이름의 지정 음가를 지키면서 각 글자의 자의와 결합 의미, 실사용 설명력을 함께 살폈습니다.
+            각 글자의 사전 뜻, 두 글자의 결합 의미와 실제 설명 방식을 후보별로 정리했습니다.
           </Text>
         </View>
 
-        <View style={styles.nameCard}>
-          <Text style={styles.badge}>{data.primaryCandidate.focusLabel}</Text>
+        <View style={[styles.nameCard, styles.candidateNameCard]}>
           <HanjaText
-            value={`${data.primaryCandidate.displayName} · ${data.primaryCandidate.hanjaName}`}
+            value={`${candidate.displayName} · ${candidate.hanjaName}`}
             style={styles.recommendationName}
             fontWeight={700}
           />
-          <Text style={styles.recommendationSummary}>{data.primaryCandidate.summary}</Text>
-          <View style={styles.characterRow}>
-            {data.primaryCandidate.characters.map((character) => (
-              <View key={`${character.hanja}-${character.hangul}`} style={styles.characterCard}>
+          <HanjaText value={candidate.summary} style={styles.recommendationSummary} />
+          <View style={[styles.characterRow, styles.candidateCharacterRow]}>
+            {candidate.characters.map((character) => (
+              <View key={`${character.hanja}-${character.hangul}`} style={[styles.characterCard, styles.candidateCharacterCard]}>
+                <View style={styles.characterCardTop}>
+                  <HanjaText
+                    value={`${character.hangul} · ${character.hanja}`}
+                    style={styles.characterTitle}
+                    fontWeight={700}
+                  />
+                  <Text style={styles.verifiedBadge}>
+                    {character.officialReadingConfirmed
+                      ? "공식 자료 지정 음가 확인"
+                      : "최종 공식 조회 필요"}
+                  </Text>
+                </View>
                 <HanjaText
-                  value={`${character.hangul} · ${character.hanja}`}
-                  style={styles.characterTitle}
-                  fontWeight={700}
+                  value={`${character.meaning}${character.elementLabel ? ` · 오행 분류 ${character.elementLabel}` : ""}`}
+                  style={styles.characterMeaning}
                 />
-                <Text style={styles.characterMeaning}>
-                  {character.meaning}
-                  {character.elementLabel ? ` · 오행 분류 ${character.elementLabel}` : ""}
-                </Text>
-                <Text style={styles.verified}>
-                  {character.officialReadingConfirmed
-                    ? "공식 자료 지정 음가 확인"
-                    : "최종 공식 조회 필요"}
-                </Text>
+                {character.originLabel ? (
+                  <Text style={styles.verified}>{character.originLabel}</Text>
+                ) : null}
               </View>
             ))}
           </View>
-          <View style={styles.storyBox}>
-            <Text style={styles.storyLabel}>이름에 담긴 이야기</Text>
-            <Text style={styles.storyText}>{data.primaryCandidate.story}</Text>
+          <View style={[styles.storyBox, styles.candidateStoryBox]}>
+            <Text style={styles.storyLabel}>글자별 뜻과 결합 의미</Text>
+            <HanjaText value={candidate.story} style={[styles.storyText, styles.candidateStoryText]} />
           </View>
-          <View style={styles.storyBox}>
-            <Text style={styles.storyLabel}>실사용 해석</Text>
-            <Text style={styles.storyText}>{data.primaryCandidate.practicalUse}</Text>
+          <View style={[styles.storyBox, styles.candidateStoryBox]}>
+            <Text style={styles.storyLabel}>실사용 설명</Text>
+            <HanjaText value={candidate.practicalUse} style={[styles.storyText, styles.candidateStoryText]} />
           </View>
+          {candidate.selectionGuide ? (
+            <View style={[styles.storyBox, styles.candidateStoryBox]}>
+              <Text style={styles.storyLabel}>이 후보를 선택할 때의 판단 기준</Text>
+              <HanjaText value={candidate.selectionGuide} style={[styles.storyText, styles.candidateStoryText]} />
+            </View>
+          ) : null}
+          {candidate.meaningCaution ? (
+            <View style={[styles.storyBox, styles.candidateStoryBox]}>
+              <Text style={styles.storyLabel}>의미 해석에서 살필 점</Text>
+              <HanjaText value={candidate.meaningCaution} style={[styles.storyText, styles.candidateStoryText]} />
+            </View>
+          ) : null}
+          {saju && candidate.sajuConnection ? (
+            <View style={[styles.sajuConnection, styles.candidateSajuConnection]}>
+              <Text style={styles.cautionTitle}>사주·오행과 이 후보의 연결 해석</Text>
+              <HanjaText value={candidate.sajuConnection} style={[styles.cautionText, styles.candidateStoryText]} />
+            </View>
+          ) : null}
         </View>
 
-        {data.parentWishes ? (
-          <View style={styles.caution}>
-            <Text style={styles.cautionTitle}>부모가 담고 싶은 가치</Text>
-            <Text style={styles.cautionText}>{data.parentWishes}</Text>
-          </View>
-        ) : null}
-        {data.excludedMeanings ? (
-          <Text style={styles.notice}>
-            입력한 제외 조건: {data.excludedMeanings}. 이 조건은 후보 필터와 비교에만 사용했습니다.
-          </Text>
-        ) : null}
         <ReportFooter reportId={data.reportId} />
       </Page>
+      ))}
+
+      {saju && data.sajuInterpretation?.candidateComparison ? (
+        <Page size="A4" style={styles.page}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.eyebrow}>FINAL · SAJU & NAME COMPARISON</Text>
+            <Text style={styles.sectionTitle}>10개 후보 종합 비교와 선택 가이드</Text>
+            <Text style={styles.sectionLead}>
+              사주 원국과 오행 참고, 각 후보의 자의와 실사용 설명력을 함께 놓고 최종 비교합니다.
+            </Text>
+          </View>
+          <View style={styles.analysisSection}>
+            <Text style={styles.analysisTitle}>종합 비교 해설</Text>
+            <HanjaText
+              value={data.sajuInterpretation.candidateComparison}
+              style={styles.analysisText}
+            />
+          </View>
+          <View style={styles.caution}>
+            <Text style={styles.cautionTitle}>최종 선택 원칙</Text>
+            <Text style={styles.cautionText}>
+              전통 명리 참고는 선택을 돕는 하나의 비교축입니다. 최종 결정에서는 부모가 담고 싶은 가치, 글자별 사전 뜻, 부르기 쉬운 음감과 공식 등록 가능 여부를 함께 확인해 주세요.
+            </Text>
+          </View>
+          <ReportFooter reportId={data.reportId} />
+        </Page>
+      ) : null}
+
+      {rejectedPages.map((items, pageIndex) => (
+        <Page key={`rejected-${pageIndex}`} size="A4" style={styles.page}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.eyebrow}>APPENDIX · EXCLUDED HANJA</Text>
+            <Text style={styles.sectionTitle}>배제 후보 상세 근거</Text>
+            <Text style={styles.sectionLead}>
+              추천에서 제외한 글자와 전체 배제 사유를 기록했습니다. 등록 가능 여부와 추천 적합성은 서로 다른 기준입니다.
+            </Text>
+          </View>
+          {items.map((item, index) => (
+            <View key={`${item.character}-${index}`} style={styles.rejectedRow}>
+              <HanjaText value={item.character} style={styles.rejectedTitle} fontWeight={700} />
+              <HanjaText value={item.reason} style={styles.rejectedReason} />
+              {item.severity ? (
+                <Text style={styles.verified}>배제 기준 등급 · {item.severity}</Text>
+              ) : null}
+            </View>
+          ))}
+          <ReportFooter reportId={data.reportId} />
+        </Page>
+      ))}
 
       <Page size="A4" style={styles.page}>
         <View style={styles.sectionHeader}>
@@ -497,8 +670,8 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
         </View>
 
         {[
-          ["1", "만세력 계산", `${data.saju.engine.name} ${data.saju.engine.version}을 사용해 사주 원국을 계산했습니다. 운영 전 KASI 음양력·24절기 자료와 경계일 표본을 교차검증합니다.`],
-          ["2", "전통 명리 참고", "오행 분포는 전통적인 해석의 참고 자료입니다. 특정 오행이 적게 보인다는 이유만으로 반드시 보완해야 한다고 단정하지 않습니다."],
+          ...(saju ? [["1", "만세력 계산", `${saju.engine.name} ${saju.engine.version}을 사용해 사주 원국을 계산했습니다. 운영 전 KASI 음양력·24절기 자료와 경계일 표본을 교차검증합니다.`]] : []),
+          ...(saju ? [["2", "전통 명리 참고", "오행 분포는 전통적인 해석의 참고 자료입니다. 특정 오행이 적게 보인다는 이유만으로 반드시 보완해야 한다고 단정하지 않습니다."]] : []),
           ["3", "인명용 한자 검토", data.primaryCandidate.officialSourceLabel],
           ["4", "최종 등록 재확인", "법령과 공식 한자표는 변경될 수 있으므로 출생신고 직전에 대법원 인명용 한자 조회에서 글자와 지정 음가를 다시 확인해 주세요."],
         ].map(([number, title, description]) => (
@@ -513,9 +686,28 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
 
         <View style={styles.sourceBox}>
           <Text style={styles.sourceTitle}>리포트의 성격</Text>
-          <Text style={styles.sourceText}>{data.saju.interpretationPolicy.wording}</Text>
-          <Text style={styles.sourceText}>{data.saju.interpretationPolicy.officialHanja}</Text>
+          <Text style={styles.sourceText}>
+            {saju
+              ? saju.interpretationPolicy.wording
+              : "이 리포트는 공식 음가와 한자의 사전 뜻을 바탕으로 후보를 비교하며 사주·오행 해석을 포함하지 않습니다."}
+          </Text>
+          <Text style={styles.sourceText}>
+            {saju
+              ? saju.interpretationPolicy.officialHanja
+              : "후보 한자는 서비스의 공식 자료 기준으로 필터링하되 최종 등록 가능 여부는 신고 시점의 공식 조회에서 다시 확인해야 합니다."}
+          </Text>
         </View>
+        {data.parentWishes ? (
+          <View style={styles.caution}>
+            <Text style={styles.cautionTitle}>입력한 이름 가치</Text>
+            <Text style={styles.cautionText}>{data.parentWishes}</Text>
+          </View>
+        ) : null}
+        {data.excludedMeanings ? (
+          <Text style={styles.notice}>
+            입력한 제외 조건: {data.excludedMeanings}. 후보 전체의 의미 안전 필터에 적용했습니다.
+          </Text>
+        ) : null}
         <Text style={styles.notice}>
           개인정보와 분석 결과, PDF 파일은 결제 완료 후 24시간이 지나면 자동 삭제됩니다. 결제·환불 처리를 위한 최소 거래 기록은 관련 법령과 내부 보존 정책에 따라 별도로 보관될 수 있습니다.
         </Text>

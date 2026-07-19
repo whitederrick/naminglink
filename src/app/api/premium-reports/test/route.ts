@@ -35,7 +35,7 @@ export async function POST(request: Request) {
       { status: 400 },
     );
   }
-  if (!product.includesSaju) {
+  if (!product.includesSaju && !product.includesPdf) {
     return NextResponse.json({
       ok: true,
       premium: {
@@ -53,6 +53,10 @@ export async function POST(request: Request) {
     const premium = await buildPremiumHanjaTestResult(
       body.data.inputFactors,
       body.data.result,
+      {
+        candidateLimit: product.candidateLimit,
+        includeSaju: product.includesSaju,
+      },
     );
     return NextResponse.json({ ok: true, premium });
   } catch (error) {
