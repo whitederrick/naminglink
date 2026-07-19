@@ -509,63 +509,21 @@ export function getLanguageOptionsForCountry(value: string | undefined) {
 
 const sharedPremiumAddOns: AddOn[] = [
   {
-    key: "premiumPdf",
-    title: "프리미엄 작명 리포트 PDF",
-    priceLabel: "₩9,900",
-    description:
-      "후보별 의미, 배제 사유, 발음/문화권 분석, 사주 참고 메모를 인쇄 가능한 보고서로 제공합니다.",
-  },
-  {
-    key: "calligraphy",
-    title: "캘리그라피 이미지",
-    priceLabel: "₩6,900",
-    description:
-      "선택한 이름을 카드, 모바일 배경, 출생 알림에 쓸 수 있는 이미지로 제작하는 부가 서비스입니다.",
-  },
-  {
     key: "stamp",
     title: "이름 도장 신청",
     priceLabel: "₩39,000",
     description:
       "한글 또는 한자 이름을 기준으로 도장 문구를 제안하고 제작/배송 신청으로 연결합니다.",
   },
-  {
-    key: "adUnlock",
-    title: "광고 시청 후 후보 잠금 해제",
-    priceLabel: "광고",
-    description:
-      "광고 네트워크 연동 전에도 보상형 광고 슬롯과 잠금 해제 흐름을 테스트할 수 있습니다.",
-  },
 ];
 
 const globalToKoreanAddOns: AddOn[] = [
-  {
-    key: "premiumPdf",
-    title: "한자 의미 확장 리포트 PDF",
-    priceLabel: "₩9,900",
-    description:
-      "기본 결과는 한글 이름 중심으로 제공하고, 선택 시 한자 의미, 해석, 등록 가능성 검토 메모를 별도 리포트로 확장합니다.",
-  },
-  {
-    key: "calligraphy",
-    title: "한글 이름 캘리그라피",
-    priceLabel: "₩6,900",
-    description:
-      "선택한 한글 이름을 카드, 프로필, 한국 생활 소개용 이미지로 제작합니다.",
-  },
   {
     key: "stamp",
     title: "한글 이름 도장 신청",
     priceLabel: "₩39,000",
     description:
       "외국인 사용자가 실제로 쓰기 쉬운 한글 이름 기준으로 도장 문구와 제작 신청을 연결합니다.",
-  },
-  {
-    key: "adUnlock",
-    title: "광고 시청 후 후보 잠금 해제",
-    priceLabel: "광고",
-    description:
-      "광고 네트워크 연동 전에도 보상형 광고 슬롯과 잠금 해제 흐름을 테스트할 수 있습니다.",
   },
 ];
 

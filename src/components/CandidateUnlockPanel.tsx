@@ -87,14 +87,13 @@ export function CandidateUnlockPanel({
           <Eye aria-hidden="true" size={17} />
           {loading ? "광고 확인 중" : "광고 보고 다음 후보 열기"}
         </button>
-        <button
-          type="button"
-          disabled
-          className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-line bg-surface-strong px-4 text-sm font-semibold text-muted disabled:cursor-not-allowed"
+        <a
+          href="#premium-hanja-analysis"
+          className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal"
         >
           <CreditCard aria-hidden="true" size={17} />
-          전체 결과 즉시 보기 · 결제 준비 중
-        </button>
+          전체 후보 상품 보기 · 2,900원부터
+        </a>
       </div>
     </section>
   );

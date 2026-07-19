@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { Home } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft, Home } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
+import { PremiumHanjaCheckoutPanel } from "@/components/PremiumHanjaCheckoutPanel";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 
@@ -16,12 +18,13 @@ type StoredResult = {
   logId: string | null;
   persistence: "saved" | "skipped" | "failed";
   createdAt: string;
+  inputFactors?: Record<string, unknown>;
 };
 
 function candidateCount(result: unknown) {
   if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
   const candidates = (result as Record<string, unknown>).candidates;
-  return Array.isArray(candidates) ? Math.min(candidates.length, 5) : 0;
+  return Array.isArray(candidates) ? Math.min(candidates.length, 10) : 0;
 }
 
 const emptySubscribe = () => () => {};
@@ -29,10 +32,15 @@ const emptySubscribe = () => () => {};
 export function HanjaMeaningResultPage({
   resultId,
   locale,
+  premiumTestMode,
+  paymentConfigured,
 }: {
   resultId: string;
   locale: Locale;
+  premiumTestMode: boolean;
+  paymentConfigured: boolean;
 }) {
+  const router = useRouter();
   const storageKey = `naminglink:hanja-result:${resultId}`;
   const raw = useSyncExternalStore(
     emptySubscribe,
@@ -50,19 +58,35 @@ export function HanjaMeaningResultPage({
     }
   }, [raw]);
   const [revealedCount, setRevealedCount] = useState(1);
+  const [candidateLimit, setCandidateLimit] = useState(5);
+  const [detailedHanja, setDetailedHanja] = useState(false);
   const totalCount = stored ? candidateCount(stored.result) : 0;
+  const freeCandidateCount = Math.min(totalCount, 5);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen font-hanja">
       <section className="mx-auto grid w-full max-w-5xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="grid gap-3 border-b border-line pb-5 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-center">
-          <Link
-            href={`/?lang=${locale}`}
-            className="order-2 inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm lg:order-1"
-          >
-            <Home aria-hidden="true" size={17} />
-            홈
-          </Link>
+          <div className="order-2 flex flex-wrap gap-2 lg:order-1">
+            <button
+              type="button"
+              onClick={() => {
+                if (window.history.length > 1) router.back();
+                else router.push(`/hanja-meaning?lang=${locale}`);
+              }}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
+            >
+              <ArrowLeft aria-hidden="true" size={17} />
+              입력 수정
+            </button>
+            <Link
+              href={`/?lang=${locale}`}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm"
+            >
+              <Home aria-hidden="true" size={17} />
+              홈
+            </Link>
+          </div>
           <div className="order-1 min-w-0 lg:order-2">
             <AdBanner
               variant="header"
@@ -84,15 +108,28 @@ export function HanjaMeaningResultPage({
               service={services.hanjaMeaning}
               result={stored.result}
               revealedCount={revealedCount}
+              candidateLimit={candidateLimit}
+              detailedHanja={detailedHanja}
+            />
+            <PremiumHanjaCheckoutPanel
+              inputFactors={stored.inputFactors}
+              result={stored.result}
+              paymentConfigured={paymentConfigured}
+              premiumTestMode={premiumTestMode}
+              onPremiumReady={(unlockedCandidateCount) => {
+                setCandidateLimit(unlockedCandidateCount);
+                setRevealedCount(unlockedCandidateCount);
+                setDetailedHanja(true);
+              }}
             />
             <CandidateUnlockPanel
               revealedCount={revealedCount}
-              totalCount={totalCount}
+              totalCount={freeCandidateCount}
               locale={locale}
               serviceType={services.hanjaMeaning.serviceType}
               onUnlock={() =>
                 setRevealedCount((current) =>
-                  Math.min(totalCount, current + 1),
+                  Math.min(freeCandidateCount, current + 1),
                 )
               }
             />

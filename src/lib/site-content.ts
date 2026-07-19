@@ -292,10 +292,11 @@ const fallbackDocuments: Record<LegalDocumentKind, PolicyDocumentContent> = {
         ],
       },
       {
-        title: "부가 서비스 예정가",
+        title: "한자 이름 상세 상품",
         paragraphs: [
-          "프리미엄 작명 리포트 PDF: 9,900원",
-          "캘리그라피 이미지: 6,900원",
+          "후보 5개 상세 설명 및 한자 종합 상세: 2,900원",
+          "후보 10개 확장 상세 설명 및 한자 종합 상세: 4,900원",
+          "후보 10개 상세, 한자 종합 상세, 사주·오행 분석 및 PDF: 9,900원",
           "한글 이름 굿즈: 상품별 별도 고지",
         ],
       },

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Headphones, Home, RotateCcw, ShoppingBag } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft, Home, RotateCcw, ShoppingBag } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { ResultCard } from "@/components/ResultCard";
@@ -151,25 +152,8 @@ function ResultServices() {
       <p className="text-sm font-semibold text-brand-teal">
         결과를 더 활용해 보세요
       </p>
-      <h2 className="mt-2 text-lg font-semibold">부가 서비스</h2>
-      <div className="mt-5 grid gap-4 md:grid-cols-2">
-        <article className="flex h-full flex-col rounded-lg border border-line bg-background p-5">
-          <span className="flex size-10 items-center justify-center rounded-lg bg-surface-strong text-brand-teal">
-            <Headphones aria-hidden="true" size={20} />
-          </span>
-          <h3 className="mt-4 font-semibold">상세 발음 분석 리포트</h3>
-          <p className="mt-2 text-sm leading-6 text-muted">
-            음절·발음 기호·표기 근거와 대안을 확인하고, 한글 발음을 음성으로
-            들어보세요. PDF로 저장할 수 있습니다.
-          </p>
-          <button
-            type="button"
-            disabled
-            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-surface-strong px-3 text-sm font-semibold text-muted disabled:cursor-not-allowed"
-          >
-            신청 준비 중
-          </button>
-        </article>
+      <h2 className="mt-2 text-lg font-semibold">이름 굿즈</h2>
+      <div className="mt-5 grid gap-4">
         <article className="flex h-full flex-col rounded-lg border border-line bg-background p-5">
           <span className="flex size-10 items-center justify-center rounded-lg bg-surface-strong text-brand-teal">
             <ShoppingBag aria-hidden="true" size={20} />
@@ -207,6 +191,7 @@ export function HangulPronunciationResultPage({
   resultId: string;
   locale: Locale;
 }) {
+  const router = useRouter();
   const storageKey = `naminglink:hangul-result:${resultId}`;
   const raw = useSyncExternalStore(
     emptySubscribe,
@@ -234,13 +219,26 @@ export function HangulPronunciationResultPage({
     <main className="min-h-screen">
       <section className="mx-auto grid w-full max-w-5xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="grid gap-3 border-b border-line pb-5 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-center">
-          <Link
-            href={`/?lang=${locale}`}
-            className="order-2 inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm lg:order-1"
-          >
-            <Home aria-hidden="true" size={17} />
-            홈
-          </Link>
+          <div className="order-2 flex flex-wrap gap-2 lg:order-1">
+            <button
+              type="button"
+              onClick={() => {
+                if (window.history.length > 1) router.back();
+                else router.push(`/global-to-korean?lang=${locale}&mode=transliteration`);
+              }}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
+            >
+              <ArrowLeft aria-hidden="true" size={17} />
+              입력 수정
+            </button>
+            <Link
+              href={`/?lang=${locale}`}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm"
+            >
+              <Home aria-hidden="true" size={17} />
+              홈
+            </Link>
+          </div>
           <div className="order-1 min-w-0 lg:order-2">
             <AdBanner
               variant="header"

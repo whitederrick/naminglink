@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 
@@ -11,6 +12,13 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const namingHanja = localFont({
+  src: "../../assets/fonts/NotoSansCJKkr-Naming.otf",
+  variable: "--font-naming-hanja",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -25,7 +33,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="ko"
+      className={`${geistSans.variable} ${geistMono.variable} ${namingHanja.variable}`}
+    >
       <body>
         <AnalyticsTracker />
         {children}

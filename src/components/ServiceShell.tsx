@@ -179,25 +179,21 @@ export function ServiceShell({
           </div>
         </header>
 
-        <section className="grid gap-5 rounded-lg border border-line bg-surface p-6 shadow-sm lg:grid-cols-[minmax(0,1fr)_minmax(24rem,34rem)] lg:items-center">
+        <section className="grid gap-5 rounded-lg border border-line bg-surface p-6 shadow-sm xl:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] xl:items-center">
           <div className="min-w-0">
             <p className="text-sm font-semibold text-brand-teal">
               {service.eyebrow}
             </p>
             <h1
-              className={`mt-3 text-3xl font-semibold leading-tight tracking-normal sm:text-4xl ${
-                isGlobalToKorean ? "lg:whitespace-nowrap" : "max-w-3xl"
-              }`}
+              className="mt-3 max-w-3xl text-3xl font-semibold leading-tight tracking-normal sm:text-4xl"
             >
               {service.title}
             </h1>
             <p
-              className={`mt-4 whitespace-pre-line text-base leading-7 text-muted sm:whitespace-normal ${
-                isGlobalToKorean
-                  ? "lg:whitespace-nowrap"
-                  : service.serviceType === "KOREAN_TO_GLOBAL"
-                    ? "max-w-3xl sm:whitespace-pre-line"
-                    : "max-w-3xl"
+              className={`mt-4 max-w-3xl whitespace-pre-line text-base leading-7 text-muted sm:whitespace-normal ${
+                service.serviceType === "KOREAN_TO_GLOBAL"
+                  ? "sm:whitespace-pre-line"
+                  : ""
               }`}
             >
               {introDescription}

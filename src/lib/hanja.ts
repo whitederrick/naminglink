@@ -710,6 +710,127 @@ function stringValue(value: unknown) {
   return typeof value === "string" ? value.trim() : "";
 }
 
+const unsuitableMeaningTerms = [
+  "고독할",
+  "외로울",
+  "민망할",
+  "어지러울",
+  "번민",
+  "근심할",
+  "병들",
+  "질병",
+  "죽을",
+  "흉할",
+  "악할",
+  "원망",
+  "재앙",
+  "가난할",
+  "미워할",
+  "어리석을",
+  "괴로울",
+  "두려워할",
+  "황겁할",
+  "멸할",
+  "슬플",
+  "우환",
+  "염탐할",
+  "함정",
+  "술취할",
+  "숙취",
+  "없어질",
+];
+
+const preferredMeaningWeights = [
+  { terms: ["상서", "길할", "복", "평안", "맑", "밝", "슬기", "지혜", "어진"], weight: 10 },
+  { terms: ["옥", "보배", "아름", "바르", "정직", "성실", "화목", "사랑", "귀할"], weight: 8 },
+  { terms: ["기쁨", "믿", "번성", "돕", "건강", "푸를", "빛"], weight: 6 },
+  { terms: ["힘쓸", "클", "넓", "높"], weight: 3 },
+] as const;
+
+const lessDistinctiveNameMeaningTerms = [
+  "넓은집",
+  "높은산",
+  "네째천간",
+  "넷째천간",
+  "우물",
+  "정자",
+  "조정",
+  "정사",
+];
+
+function meaningPreferenceScore(meaning: string) {
+  const positiveScore = preferredMeaningWeights.reduce(
+    (score, group) =>
+      score +
+      group.terms.filter((term) => meaning.includes(term)).length * group.weight,
+    0,
+  );
+  const lessDistinctivePenalty = lessDistinctiveNameMeaningTerms.some((term) =>
+    meaning.includes(term),
+  )
+    ? 5
+    : 0;
+
+  return positiveScore - lessDistinctivePenalty;
+}
+
+function isPrivateUseCharacter(value: string) {
+  const codePoint = value.codePointAt(0) ?? 0;
+  return (
+    (codePoint >= 0xe000 && codePoint <= 0xf8ff) ||
+    (codePoint >= 0xf0000 && codePoint <= 0xffffd) ||
+    (codePoint >= 0x100000 && codePoint <= 0x10fffd)
+  );
+}
+
+function hasUsableMeaning(meaning: string, reading: string) {
+  const normalizedMeaning = meaning.replace(/[\s()·,.'"-]/g, "");
+  const normalizedReading = reading.replace(/\s/g, "");
+  return Boolean(
+    normalizedMeaning &&
+      normalizedMeaning !== normalizedReading &&
+      !/^(AI의미해석대상|뜻확인필요|의미확인필요)$/.test(normalizedMeaning),
+  );
+}
+
+function hasUnsuitableMeaning(meaning: string) {
+  return unsuitableMeaningTerms.some((term) => meaning.includes(term));
+}
+
+function matchesUserExcludedMeaning(
+  option: Pick<HanjaOption, "meaning" | "note" | "tags">,
+  inputFactors: Record<string, unknown>,
+) {
+  const excludedTerms = stringValue(inputFactors.excludedMeanings)
+    .split(/[\s,;/·]+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+  if (!excludedTerms.length) return false;
+  const target = `${option.meaning} ${option.note} ${option.tags.join(" ")}`;
+  return excludedTerms.some((term) => target.includes(term));
+}
+
+function isCandidateOptionAllowed(
+  option: HanjaOption,
+  inputFactors: Record<string, unknown>,
+) {
+  return (
+    !isPrivateUseCharacter(option.character) &&
+    hasUsableMeaning(option.meaning, option.reading) &&
+    !hasUnsuitableMeaning(option.meaning) &&
+    !matchesUserExcludedMeaning(option, inputFactors)
+  );
+}
+
+function characterUsabilityScore(character: string) {
+  const codePoint = character.codePointAt(0) ?? 0;
+  if (codePoint >= 0x4e00 && codePoint <= 0x9fff) return 4;
+  if (codePoint >= 0xf900 && codePoint <= 0xfaff) return 2;
+  if (codePoint >= 0x3400 && codePoint <= 0x4dbf) return -3;
+  if (codePoint >= 0x20000) return -5;
+  return 0;
+}
+
 const elementLabels: Record<HanjaElement, string> = {
   wood: "목(木)",
   fire: "화(火)",
@@ -794,12 +915,19 @@ function officialOptionsFromInput(
     const option = rawOption as Record<string, unknown>;
     const character = stringValue(option.character);
     const reading = stringValue(option.reading);
-    if (!character || reading !== syllable) return [];
+    const meaning = stringValue(option.meaning);
+    if (
+      !character ||
+      reading !== syllable ||
+      isPrivateUseCharacter(character) ||
+      !hasUsableMeaning(meaning, reading) ||
+      hasUnsuitableMeaning(meaning)
+    ) return [];
 
-    return [{
+    const candidate = {
       character,
       reading,
-      meaning: stringValue(option.meaning) || "AI 의미 해석 대상",
+      meaning,
       note:
         stringValue(option.note) ||
         "공식 인명용 한자표에서 지정 발음을 확인한 후보입니다.",
@@ -808,10 +936,47 @@ function officialOptionsFromInput(
         ? option.tags.filter((tag): tag is string => typeof tag === "string")
         : [],
       sourceStatus: "production" as const,
-    }];
+    };
+    return isCandidateOptionAllowed(candidate, inputFactors) ? [candidate] : [];
   });
 
-  return options.length ? options : null;
+  return options;
+}
+
+function rejectedOfficialMeaningOptions(
+  inputFactors: Record<string, unknown>,
+  syllables: string[],
+) {
+  const rawGroups = inputFactors.officialHanjaCandidates;
+  if (!rawGroups || typeof rawGroups !== "object" || Array.isArray(rawGroups)) {
+    return [] as RejectedHanja[];
+  }
+
+  const rejected = syllables.flatMap((syllable) => {
+    const rawOptions = (rawGroups as Record<string, unknown>)[syllable];
+    if (!Array.isArray(rawOptions)) return [];
+
+    return rawOptions.flatMap((rawOption) => {
+      if (!rawOption || typeof rawOption !== "object" || Array.isArray(rawOption)) {
+        return [];
+      }
+      const option = rawOption as Record<string, unknown>;
+      const character = stringValue(option.character);
+      const meaning = stringValue(option.meaning);
+      if (!character || !hasUnsuitableMeaning(meaning)) return [];
+
+      return [{
+        character,
+        reason: `'${meaning}'에 이름 추천에 부적합한 부정적 의미가 포함되어 의미 안전 기준에서 제외했습니다.`,
+        severity: "high" as const,
+      }];
+    });
+  });
+
+  return rejected.filter(
+    (item, index) =>
+      rejected.findIndex((candidate) => candidate.character === item.character) === index,
+  );
 }
 
 function birthLabel(inputFactors: Record<string, unknown>) {
@@ -874,6 +1039,9 @@ function scoreOption(
   const targetText = `${option.meaning} ${option.note} ${option.tags.join(" ")}`;
   let score = 72;
 
+  score += characterUsabilityScore(option.character);
+  score += meaningPreferenceScore(option.meaning);
+
   if (preferredElement !== "neutral" && option.element === preferredElement) {
     score += 8;
   }
@@ -890,6 +1058,22 @@ function scoreOption(
 
   return score;
 }
+function hasComparisonSignal(
+  option: HanjaOption,
+  inputFactors: Record<string, unknown>,
+  preferredElement: HanjaElement,
+) {
+  const parentWishes = stringValue(inputFactors.parentWishes);
+  const excludedMeanings = stringValue(inputFactors.excludedMeanings);
+  const targetText = `${option.meaning} ${option.note} ${option.tags.join(" ")}`;
+
+  return (
+    (preferredElement !== "neutral" && option.element === preferredElement) ||
+    option.tags.some((tag) => parentWishes.includes(tag)) ||
+    Boolean(excludedMeanings && targetText.includes(excludedMeanings))
+  );
+}
+
 
 function buildCombination(
   inputFactors: Record<string, unknown>,
@@ -910,34 +1094,51 @@ function buildCombination(
 
 function combineOptions(optionGroups: HanjaOption[][], limit = 80) {
   const combinations: HanjaOption[][] = [];
+  const maximumIndexSum = optionGroups.reduce(
+    (sum, options) => sum + Math.max(0, options.length - 1),
+    0,
+  );
 
-  function visit(groupIndex: number, current: HanjaOption[]) {
+  function visit(
+    groupIndex: number,
+    remainingIndexSum: number,
+    current: HanjaOption[],
+  ) {
     if (combinations.length >= limit) {
       return;
     }
 
     if (groupIndex === optionGroups.length) {
-      combinations.push(current);
+      if (remainingIndexSum === 0) combinations.push(current);
       return;
     }
 
-    for (const option of optionGroups[groupIndex]) {
-      visit(groupIndex + 1, [...current, option]);
+    const options = optionGroups[groupIndex];
+    const maximumIndex = Math.min(options.length - 1, remainingIndexSum);
+    for (let optionIndex = maximumIndex; optionIndex >= 0; optionIndex -= 1) {
+      visit(
+        groupIndex + 1,
+        remainingIndexSum - optionIndex,
+        [...current, options[optionIndex]],
+      );
     }
   }
 
-  visit(0, []);
+  for (
+    let indexSum = 0;
+    indexSum <= maximumIndexSum && combinations.length < limit;
+    indexSum += 1
+  ) {
+    visit(0, indexSum, []);
+  }
 
   return combinations;
 }
 
 function candidateMeaning(options: HanjaOption[]) {
-  const characters = options
-    .map((option) => `${option.character}(${option.meaning})`)
-    .join(" · ");
-  const interpretations = options.map((option) => option.note).join(" ");
-
-  return `${characters}. ${interpretations}`;
+  return options
+    .map((option) => `${option.character}(${option.meaning}) — ${option.note}`)
+    .join(" ");
 }
 
 function recommendationReason(
@@ -958,12 +1159,20 @@ function recommendationReason(
     .slice(0, 4)
     .join("·");
   const characterFlow = characterMeaningFlow(options);
+  const factualDifference = options
+    .map(
+      (option) =>
+        `${option.reading} 음절에 ${option.character}의 '${option.meaning}'`,
+    )
+    .join(", ");
 
   return [
     matchedTags.length
       ? `${characterFlow} 의미가 부모가 담고 싶은 바람인 '${parentWishes}'에 포함된 ${matchedTags.join("·")}의 가치와 자연스럽게 이어집니다.`
-      : `${characterFlow} 의미가 만나 ${tagSummary}의 인상을 만들며, 두 글자를 함께 읽었을 때 하나의 긍정적인 서사가 완성됩니다.`,
-    `이 후보는 ${tagSummary}의 방향이 다른 조합보다 선명해, 같은 '${stringValue(inputFactors.givenNameHangul)}' 소리 안에서도 고유한 선택 이유를 갖습니다.`,
+      : `${factualDifference}을 배치한 조합입니다.`,
+    tagSummary
+      ? `이 후보는 ${tagSummary}의 방향이 다른 조합보다 선명합니다.`
+      : `이 조합은 ${options.map((option) => option.meaning).join("·")}의 의미가 함께 드러난다는 점에서 다른 후보와 구별됩니다.`,
   ].join(" ");
 }
 
@@ -975,17 +1184,19 @@ function candidateStory(
   const characterStories = options
     .map(
       (option) =>
-        `${option.character}(${option.meaning})${topicParticle(option.reading)} ${option.note}`,
+        `${option.reading} 음절의 ${option.character}는 '${option.meaning}'의 뜻을 담습니다.`,
     )
     .join(" ");
-  const combinedImage = [
+  const tagImage = [
     ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
   ].join("·");
+  const meaningImage = [...new Set(options.map((option) => option.meaning))].join("·");
+  const combinedImage = tagImage || meaningImage;
   const wishSentence = parentWishes
-    ? `입력한 선호 가치 '${parentWishes}'${andParticle(parentWishes)}의 연관성을 검토하면, 이 조합은 해당 가치가 이름의 뜻으로 분명하게 설명될 수 있다는 장점이 있습니다.`
-    : `별도의 선호 가치를 입력하지 않은 경우에도 ${combinedImage}${descriptorParticle(combinedImage)} 해석 방향이 명확해 이름의 뜻을 설명하기 수월합니다.`;
+    ? `부모가 담고 싶은 '${parentWishes}'의 가치와는 각 글자의 사전 뜻을 기준으로 연결 가능성을 비교해야 합니다.`
+    : `${combinedImage}${descriptorParticle(combinedImage)} 뜻의 조합으로 설명할 수 있습니다.`;
 
-  return `${characterStories} 두 글자의 자의(字義)를 결합하면 ${combinedImage}${objectParticle(combinedImage)} 중심으로 한 의미 구조가 형성됩니다. ${wishSentence} 종합하면 '${displayName}'에 안정적인 설명력과 일관된 인상을 부여하는 조합입니다.`;
+  return `${characterStories} 각 글자의 자의(字義)를 함께 보면 ${combinedImage}${objectParticle(combinedImage)} 중심으로 이름의 의미를 풀 수 있습니다. ${wishSentence} '${displayName}'에 적용할 때에는 이 의미가 가족이 원하는 이름의 방향과 맞는지 최종 비교해 보세요.`;
 }
 
 function practicalNameAnalysis(
@@ -995,11 +1206,14 @@ function practicalNameAnalysis(
   const characterMeanings = options
     .map((option) => `${option.character}(${option.meaning})`)
     .join("·");
-  const keywords = [
-    ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
-  ].join("·");
+  const explanation = options
+    .map(
+      (option) =>
+        `${option.reading}에는 ${option.character}의 '${option.meaning}'을 썼다고 설명할 수 있습니다`,
+    )
+    .join(". ");
 
-  return `실사용 시 '${displayName}'의 한자 뜻은 ${characterMeanings}로 풀어 설명할 수 있습니다. 각 글자의 자의가 독립적으로 분명하고 결합 방향도 ${keywords}${objectParticle(keywords)} 중심으로 일관되어, 학교·사회생활·공식 문서 등에서 이름의 의미를 간결하게 전달하기 좋습니다.`;
+  return `실사용 시 '${displayName}'의 한자 뜻은 ${characterMeanings}로 표기합니다. ${explanation}. 학교나 공식 문서에서는 지정 음가와 글자 형태를 정확히 확인하고, 이름을 소개할 때에는 각 글자의 뜻을 나누어 설명하는 편이 명확합니다.`;
 }
 
 function sajuReferenceNote(
@@ -1031,7 +1245,10 @@ function singleHanjaReason(
     return `${option.character}는 출생 정보에서 참고한 ${elementLabels[preferredElement]}의 보완 관점과 연결되며, '${option.meaning}'의 뜻도 이름의 긍정적인 인상을 더합니다.`;
   }
 
-  return `${option.character}는 '${option.reading}' 지정 발음을 유지하면서 ${option.tags.slice(0, 2).join(", ")} 이미지를 더합니다.`;
+  const tagSummary = option.tags.slice(0, 2).join(", ");
+  return tagSummary
+    ? `${option.character}는 '${option.reading}' 지정 발음을 유지하면서 ${tagSummary} 이미지를 더합니다.`
+    : `${option.character}는 '${option.reading}' 지정 발음이 확인된 한자로, '${option.meaning}'의 뜻을 담습니다.`;
 }
 
 function buildHanjaOptionDetails(
@@ -1045,10 +1262,12 @@ function buildHanjaOptionDetails(
     syllable,
     selected_character: selectedOptions[index]?.character ?? "",
     options: optionGroups[index].slice(0, 3).map((option) => {
-      const matchingRate = Math.max(
-        45,
-        Math.min(98, Math.round(scoreOption(option, inputFactors, preferredElement))),
-      );
+      const matchingRate = hasComparisonSignal(option, inputFactors, preferredElement)
+        ? Math.max(
+            45,
+            Math.min(98, Math.round(scoreOption(option, inputFactors, preferredElement))),
+          )
+        : null;
 
       return {
         character: option.character,
@@ -1133,8 +1352,9 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   }
 
   const optionsForPosition = (syllable: string, index: number) => {
-    const options =
-      officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable];
+    const options = (
+      officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable]
+    )?.filter((option) => isCandidateOptionAllowed(option, inputFactors));
 
     return index === generationIndex
       ? options?.filter((option) => option.character === generationHanja)
@@ -1153,18 +1373,33 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
       );
   const combinations = missingSyllables.length ? [] : combineOptions(optionGroups);
   const preferredElement = getSajuElementHint(inputFactors);
-  const hasBirthElementReference = preferredElement !== "neutral";
+  const hasClassifiedElement = optionGroups.some((options) =>
+    options.some((option) => option.element !== "neutral"),
+  );
+  const hasBirthElementReference =
+    preferredElement !== "neutral" && hasClassifiedElement;
+  const hasParentWishes = Boolean(parentWishes);
+  const hasExcludedMeanings = Boolean(stringValue(inputFactors.excludedMeanings));
   const recommendationFocuses = [
-    ["종합 적합도 우선안", "음가, 자의 결합, 보조 해석과 실사용성을 종합 평가한 우선안입니다."],
-    ["선호 가치 우선안", "가족이 담고 싶은 가치와 한자 결합 의미의 연결성을 우선한 대안입니다."],
+    ["종합 의미 우선안", "음가, 자의 결합과 실사용 설명력을 종합적으로 살핀 우선안입니다."],
+    hasParentWishes
+      ? ["선호 가치 우선안", "입력한 선호 가치와 한자 결합 의미의 연결성을 우선한 대안입니다."]
+      : ["자의 명확성 우선안", "선택 조건을 가정하지 않고 각 한자의 뜻이 분명한 조합을 우선한 대안입니다."],
     hasBirthElementReference
-      ? ["전통 오행 보완안", "출생월 기반의 간이 전통 오행 참고를 비교축으로 강조한 대안입니다."]
-      : ["의미 균형 대안", "미정인 출생 정보는 제외하고 한자 간 의미의 균형과 조화를 비교한 대안입니다."],
+      ? ["전통 오행 참고안", "입력한 출생월을 기반으로 한 간이 전통 오행 참고를 적용한 대안입니다."]
+      : ["의미 균형 대안", "선택 조건을 가정하지 않고 한자 간 의미의 균형과 조화를 비교한 대안입니다."],
     ["실사용 안정안", "자의의 명확성, 설명 용이성과 일상적인 사용성을 중시한 대안입니다."],
     ["개성·희소성 대안", "지정 음가는 유지하면서 상대적으로 차별화된 자의와 인상을 검토한 대안입니다."],
   ] as const;
+  const analysisPerspectives = [
+    "자의와 결합 의미",
+    hasParentWishes ? "입력한 선호 가치" : null,
+    hasExcludedMeanings ? "입력한 제외 의미" : null,
+    hasBirthElementReference ? "출생월 기반 간이 전통 참고" : null,
+    "실사용 안정성",
+  ].filter((value): value is string => Boolean(value));
 
-  const candidates = combinations
+  const rankedCandidates = combinations
     .map((options) => {
     const hanja = options.map((option) => option.character).join("");
     const baseScore =
@@ -1172,9 +1407,14 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         (sum, option) => sum + scoreOption(option, inputFactors, preferredElement),
         0,
       ) / options.length;
-    const matchingRate = Math.max(45, Math.min(98, Math.round(baseScore)));
+    const hasMatchingSignal = options.some((option) =>
+      hasComparisonSignal(option, inputFactors, preferredElement),
+    );
+    const matchingRate = hasMatchingSignal
+      ? Math.max(45, Math.min(98, Math.round(baseScore))) : null;
 
     return {
+      ranking_score: baseScore,
       hangul: rawGivenName,
       hanja,
       meaning: candidateMeaning(options),
@@ -1212,19 +1452,57 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         "같은 모양처럼 보이는 한자라도 지정 발음이나 공식 등록 여부가 다를 수 있습니다. 특히 동자·속자·약자와 示/礻, 艹 등의 부수 변형은 임의로 바꾸지 말고 공식 조회 결과에 표시된 글자 형태와 발음을 기준으로 확인해 주세요.",
     };
   })
-    .sort((a, b) => b.matching_rate - a.matching_rate)
-    .slice(0, 5)
-    .map((candidate, index) => ({
-      ...candidate,
-      recommendation_focus:
-        recommendationFocuses[index]?.[0] ?? `추천 관점 ${index + 1}`,
-      focus_summary:
-        recommendationFocuses[index]?.[1] ??
-        "다른 기준으로 비교할 수 있는 추천 대안입니다.",
-    }));
+    .sort((a, b) => b.ranking_score - a.ranking_score);
+  const candidates = [] as typeof rankedCandidates;
+  const remainingCandidates = [...rankedCandidates];
+  const seenCharacters = givenSyllables.map(() => new Set<string>());
+  const seenMeanings = givenSyllables.map(() => new Set<string>());
+
+  while (candidates.length < 10 && remainingCandidates.length) {
+    remainingCandidates.sort((a, b) => {
+      const novelty = (candidate: (typeof rankedCandidates)[number]) =>
+        candidate.character_breakdown.reduce(
+          (count, part, position) =>
+            count +
+            (seenCharacters[position].has(part.character) ? 0 : 2) +
+            (seenMeanings[position].has(part.meaning) ? 0 : 1),
+          0,
+        );
+      return (
+        novelty(b) - novelty(a) ||
+        b.ranking_score - a.ranking_score
+      );
+    });
+    const selected = remainingCandidates.shift()!;
+    candidates.push(selected);
+    selected.character_breakdown.forEach((part, position) => {
+      seenCharacters[position].add(part.character);
+      seenMeanings[position].add(part.meaning);
+    });
+  }
+
+  const labeledCandidates = candidates
+    .map((candidate, index) => {
+      const { ranking_score: _rankingScore, ...publicCandidate } = candidate;
+      void _rankingScore;
+      return {
+        ...publicCandidate,
+        recommendation_focus:
+          recommendationFocuses[index]?.[0] ?? `확장 비교안 ${index - 4}`,
+        focus_summary:
+          recommendationFocuses[index]?.[1] ??
+          `${candidate.character_breakdown
+            .map((part) => `${part.character}의 '${part.meaning}'`)
+            .join("과 ")}을 상위 후보와 비교하기 위한 확장안입니다.`,
+      };
+    });
 
   const rejectedFromSound = givenSyllables.flatMap((syllable) => negativeHanja[syllable] ?? []);
-  const soundReadingSummary = candidates[0]?.character_breakdown
+  const rejectedFromOfficialMeanings = rejectedOfficialMeaningOptions(
+    inputFactors,
+    givenSyllables,
+  );
+  const soundReadingSummary = labeledCandidates[0]?.character_breakdown
     .map(
       (part) =>
         `${part.character}${topicParticle(part.designated_reading)} '${part.designated_reading}'`,
@@ -1239,12 +1517,12 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   return {
     analysis_summary: missingSyllables.length
       ? `'${rawGivenName}' 중 ${missingSyllables.join(", ")} 음절은 현재 검토 자료만으로 지정 음가와 등록 가능성을 확인하기 어렵습니다. 정확성을 위해 해당 음절의 추천을 보류했으며, 공식 인명용 한자 조회 기준과 대조한 뒤 후보를 제시해야 합니다.`
-      : `'${rawGivenName}'에 어울리는 한자 조합을 종합 적합도·부모의 바람·출생 정보 균형·실사용 안정성·개성과 희소성의 다섯 관점으로 나누어 비교했습니다. 각 후보에서는 다른 조합과 구별되는 의미와 이야기만 보여드립니다.`,
+      : `'${rawGivenName}'에 어울리는 한자 조합을 ${analysisPerspectives.join("·")} 관점으로 비교했습니다. 입력하지 않은 선택 조건은 분석에서 제외했으며, 각 후보에서는 다른 조합과 구별되는 의미와 이야기만 보여드립니다.`,
     common_analysis: {
       sound_basis: soundReadingSummary
         ? `${soundReadingSummary}${
             hasFinalConsonant(
-              candidates[0]?.character_breakdown.at(-1)?.designated_reading ?? "",
+              labeledCandidates[0]?.character_breakdown.at(-1)?.designated_reading ?? "",
             )
               ? "이라고"
               : "라고"
@@ -1256,8 +1534,13 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
       official_status:
         `등록 가능성은 ${OFFICIAL_HANJA_SOURCE.title}(${OFFICIAL_HANJA_SOURCE.versionLabel})과 ${OFFICIAL_HANJA_SOURCE.ruleReference}를 기준으로 판단합니다. 후보 한자가 신고 시점의 대법원 인명용 한자 조회에 등재되어 있고, 이름 음절과 지정 발음이 일치하는 경우에만 등록 가능 후보로 봅니다. 서비스 추천 결과만으로 등록 가능성을 확정하지 않습니다.`,
     },
-    candidates,
-    rejected_hanja: [...rejectedFromSound, ...excludedCondition(inputFactors), ...missingRejected],
+    candidates: labeledCandidates,
+    rejected_hanja: [
+      ...rejectedFromSound,
+      ...rejectedFromOfficialMeanings,
+      ...excludedCondition(inputFactors),
+      ...missingRejected,
+    ],
     official_verification_note:
       `기준 원본: ${OFFICIAL_HANJA_SOURCE.title}, ${OFFICIAL_HANJA_SOURCE.ruleReference}, ${OFFICIAL_HANJA_SOURCE.versionLabel}. ${officialRulesText()} 출생신고 또는 개명 전에는 대법원/가족관계등록 기준으로 최종 확인해야 합니다.`,
     add_on_recommendations: ["premiumPdf", "calligraphy", "stamp"],

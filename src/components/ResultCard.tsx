@@ -5,6 +5,8 @@ type ResultCardProps = {
   service: ServiceConfig;
   result: unknown;
   revealedCount: number;
+  candidateLimit?: number;
+  detailedHanja?: boolean;
 };
 
 function asRecord(value: unknown): Record<string, unknown> {
@@ -75,7 +77,11 @@ function candidateTitle(
   return text(item.hanja) || text(item.hangul) || `후보 ${index + 1}`;
 }
 
-function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
+function candidateRows(
+  service: ServiceConfig,
+  item: Record<string, unknown>,
+  detailedHanja = false,
+) {
   if (service.slug === "global-name-to-hangul") {
     return [
       ["원어 발음 기준", item.source_pronunciation_basis],
@@ -101,10 +107,17 @@ function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
   }
 
   if (service.serviceType === "HANJA_MEANING_MATCH") {
-    return [
-      ["자의·결합 분석", item.story || item.meaning],
-      ["실사용 해석", item.practical_analysis],
-    ] satisfies Array<[string, unknown]>;
+    const rows: Array<[string, unknown]> = [
+      ["한자 구성과 기본 뜻", compactHanjaComposition(item) || item.meaning],
+      ["이 후보의 구별점", item.recommendation_reason],
+    ];
+    if (detailedHanja) {
+      rows.push(
+        ["이름 의미 이야기", item.story],
+        ["실사용 이름 해석", item.practical_analysis],
+      );
+    }
+    return rows;
   }
 
   return [
@@ -117,6 +130,20 @@ function candidateRows(service: ServiceConfig, item: Record<string, unknown>) {
     ["주의", item.caution_notes],
     ["공식 데이터 상태", item.official_status],
   ] satisfies Array<[string, unknown]>;
+}
+
+function compactHanjaComposition(item: Record<string, unknown>) {
+  return getBreakdown(item.character_breakdown)
+    .map((part) => {
+      const character = text(part.character);
+      const meaning = text(part.meaning);
+      const reading = text(part.designated_reading) || text(part.syllable);
+      if (!character) return "";
+      if (!meaning) return reading ? `${character} (${reading})` : character;
+      return `${character} · ${meaning}${reading ? ` (${reading})` : ""}`;
+    })
+    .filter(Boolean)
+    .join(" / ");
 }
 
 function getRejected(record: Record<string, unknown>) {
@@ -137,12 +164,12 @@ function getNestedOptions(value: unknown) {
 
 const hanjaRecommendationFocus = [
   {
-    label: "종합 적합도 우선안",
-    description: "음가, 자의 결합, 보조 해석과 실사용성을 종합 평가한 우선안",
+    label: "종합 의미 우선안",
+    description: "음가, 자의 결합과 실사용 설명력을 종합적으로 살핀 우선안",
   },
   {
-    label: "선호 가치 우선안",
-    description: "가족이 담고 싶은 가치와 한자 결합 의미의 연결성을 우선한 대안",
+    label: "자의 명확성 우선안",
+    description: "선택 조건을 가정하지 않고 각 한자의 뜻이 분명한 조합을 우선한 대안",
   },
   {
     label: "전통 오행 보완안",
@@ -284,11 +311,17 @@ function PronunciationCandidateDetails({
   );
 }
 
-export function ResultCard({ service, result, revealedCount }: ResultCardProps) {
+export function ResultCard({
+  service,
+  result,
+  revealedCount,
+  candidateLimit = 5,
+  detailedHanja = false,
+}: ResultCardProps) {
   const record = asRecord(result);
   const candidates = getCandidates(record)
     .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
-    .slice(0, 5);
+    .slice(0, candidateLimit);
   const rejected = getRejected(record);
   const commonAnalysis = asRecord(record.common_analysis);
   const firstCandidate = candidates[0] ?? {};
@@ -303,11 +336,11 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
           {service.serviceType === "HANJA_MEANING_MATCH" ? (
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
-                <h1 className="mt-1 text-2xl font-semibold">분석 요약</h1>
+                <p className="text-sm font-semibold text-brand-teal">무료 후보 조회 완료</p>
+                <h1 className="mt-1 text-2xl font-semibold">기본 검토 요약</h1>
               </div>
               <span className="rounded-full bg-brand-teal/10 px-3 py-1.5 text-xs font-semibold text-brand-teal">
-                {candidates.length > 0 ? "종합 우선안 1개 공개" : "공식 확인 필요"}
+                {candidates.length > 0 ? "추천 이름 조합 1개 공개" : "공식 확인 필요"}
               </span>
             </div>
           ) : (
@@ -325,7 +358,7 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
                     "정해 둔 한글 이름의 각 음절과 공식 지정 발음이 일치하는 한자만 후보로 검토했습니다.",
                 ],
                 [
-                  "출생 정보 보조 해석",
+                  "출생 정보 참고 범위",
                   commonAnalysis.birth_reference || firstCandidate.saju_note,
                 ],
                 [
@@ -415,13 +448,19 @@ export function ResultCard({ service, result, revealedCount }: ResultCardProps) 
                       </div>
                       {matchingRate !== null ? (
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
-                          매칭률 {matchingRate}%
+                          {service.serviceType === "HANJA_MEANING_MATCH"
+                            ? `조건 적합도 ${matchingRate}점`
+                            : `매칭률 ${matchingRate}%`}
+                        </span>
+                      ) : service.serviceType === "HANJA_MEANING_MATCH" ? (
+                        <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
+                          공식 음가 확인
                         </span>
                       ) : null}
                     </div>
 
                     <dl className="mt-4 grid gap-3 text-sm leading-6">
-                      {candidateRows(service, item)
+                      {candidateRows(service, item, detailedHanja)
                         .filter(([, value]) => text(value))
                         .map(([label, value]) => (
                           <div key={label} className="grid gap-1">

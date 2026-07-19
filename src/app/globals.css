@@ -32,6 +32,16 @@ body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
+.font-hanja {
+  font-family:
+    var(--font-geist-sans),
+    var(--font-naming-hanja),
+    "Malgun Gothic",
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
 button,
 input,
 textarea,

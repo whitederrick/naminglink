@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import { Send } from "lucide-react";
+import { ArrowLeft, Send } from "lucide-react";
 import {
   currentYear,
   getCountryOption,
@@ -378,6 +378,7 @@ export function NamingForm({
             logId: payload.logId ?? null,
             persistence: payload.persistence ?? "skipped",
             createdAt: new Date().toISOString(),
+            inputFactors,
           }),
         );
         router.replace(
@@ -476,7 +477,7 @@ export function NamingForm({
 
   return (
     <div className="grid gap-6">
-      <form onSubmit={onSubmit} className="grid gap-4">
+      <form id="naming-input-form" onSubmit={onSubmit} className="grid gap-4">
         <div
           className={
             isHangulTransliteration
@@ -771,7 +772,16 @@ export function NamingForm({
           <div className="grid gap-4">
             <ResultStorageNotice persistence={result.persistence} />
             <div className="rounded-lg border border-line bg-surface p-4 shadow-sm">
-              <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
+                <a
+                  href="#naming-input-form"
+                  className="inline-flex h-9 items-center justify-center gap-2 rounded-lg border border-line bg-background px-3 text-sm font-semibold"
+                >
+                  <ArrowLeft aria-hidden="true" size={16} />
+                  입력 수정
+                </a>
+              </div>
               <p className="mt-1 text-sm leading-6 text-muted">
                 가장 적합한 후보 1개를 먼저 공개했습니다. 추가 후보는 광고 확인 또는 향후 결제로 한 개씩 열 수 있습니다.
               </p>

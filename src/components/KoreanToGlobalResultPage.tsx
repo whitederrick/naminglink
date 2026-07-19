@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Home } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft, Home } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -33,6 +34,7 @@ export function KoreanToGlobalResultPage({
   resultId: string;
   locale: Locale;
 }) {
+  const router = useRouter();
   const storageKey = `naminglink:korean-to-global-result:${resultId}`;
   const raw = useSyncExternalStore(
     emptySubscribe,
@@ -56,13 +58,26 @@ export function KoreanToGlobalResultPage({
     <main className="min-h-screen">
       <section className="mx-auto grid w-full max-w-5xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="grid gap-3 border-b border-line pb-5 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-center">
-          <Link
-            href={`/?lang=${locale}`}
-            className="order-2 inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm lg:order-1"
-          >
-            <Home aria-hidden="true" size={17} />
-            홈
-          </Link>
+          <div className="order-2 flex flex-wrap gap-2 lg:order-1">
+            <button
+              type="button"
+              onClick={() => {
+                if (window.history.length > 1) router.back();
+                else router.push(`/korean-to-global?lang=${locale}`);
+              }}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
+            >
+              <ArrowLeft aria-hidden="true" size={17} />
+              입력 수정
+            </button>
+            <Link
+              href={`/?lang=${locale}`}
+              className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm"
+            >
+              <Home aria-hidden="true" size={17} />
+              홈
+            </Link>
+          </div>
           <div className="order-1 min-w-0 lg:order-2">
             <AdBanner
               variant="header"
