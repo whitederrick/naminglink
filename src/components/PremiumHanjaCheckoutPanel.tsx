@@ -10,6 +10,14 @@ import {
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 import { countCandidates } from "@/lib/candidate-count";
+import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+
+function hasAdminRole(appMetadata: unknown) {
+  if (!appMetadata || typeof appMetadata !== "object") return false;
+  const meta = appMetadata as { role?: unknown; roles?: unknown };
+  const isAdmin = (value: unknown) => value === "admin" || value === "super_admin";
+  return isAdmin(meta.role) || (Array.isArray(meta.roles) && meta.roles.some(isAdmin));
+}
 
 type Checkout = {
   sessionId: string;
@@ -134,17 +142,33 @@ export function PremiumHanjaCheckoutPanel({
   const redirectHandled = useRef(false);
   const selectedProduct = HANJA_PRODUCTS[selectedProductCode];
   const availableCandidates = countCandidates(result);
+  // 운영자(admin)로 로그인한 경우에만 결제 없이 테스트 버튼을 노출하고, 서버 검증용 토큰을 확보한다.
+  const [adminToken, setAdminToken] = useState<string | null>(null);
 
-  async function postJson(path: string, body: unknown) {
+  useEffect(() => {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+    void supabase.auth.getSession().then(({ data }) => {
+      const session = data.session;
+      if (session?.user && hasAdminRole(session.user.app_metadata)) {
+        setAdminToken(session.access_token);
+      }
+    });
+  }, []);
+
+  async function postJson(path: string, body: unknown, extraHeaders?: Record<string, string>) {
     const response = await fetch(path, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", ...(extraHeaders ?? {}) },
       body: JSON.stringify(body),
     });
     const payload = await response.json().catch(() => null) as Record<string, unknown> | null;
     if (!response.ok || !payload?.ok) throw new Error(String(payload?.error || "요청 처리에 실패했습니다."));
     return payload;
   }
+
+  const adminAuthHeader = () =>
+    adminToken ? { Authorization: `Bearer ${adminToken}` } : undefined;
 
   async function finishPremium(nextCheckout: Checkout) {
     // 상품 식별은 저장된 productCode를 신뢰 소스로 사용한다(금액 역추론은 가격 개정 시 어긋난다).
@@ -317,7 +341,7 @@ export function PremiumHanjaCheckoutPanel({
       try {
         const response = await fetch("/api/premium-reports/test/pdf", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: { "Content-Type": "application/json", ...(adminAuthHeader() ?? {}) },
           body: JSON.stringify({ reportData: premium.reportData }),
         });
         if (!response.ok) throw new Error("테스트 PDF 생성에 실패했습니다.");
@@ -356,7 +380,7 @@ export function PremiumHanjaCheckoutPanel({
         productCode: selectedProductCode,
         inputFactors: detailedInputFactors(),
         result,
-      });
+      }, adminAuthHeader());
       setPremium(generated.premium as PremiumResult);
       onPremiumReady?.(selectedProduct.candidateLimit);
       setStage("ready");
@@ -468,14 +492,14 @@ export function PremiumHanjaCheckoutPanel({
           이전 결제 결과 이어서 받기
         </button>
       ) : null}
-      {stage === "idle" && premiumTestMode ? (
+      {stage === "idle" && (premiumTestMode || adminToken) ? (
         <button
           type="button"
           onClick={runDeveloperTest}
           disabled={!inputFactors}
           className="mt-2 inline-flex h-10 w-full items-center justify-center rounded-lg border border-brand-teal/40 px-4 text-sm font-semibold text-brand-teal disabled:opacity-50"
         >
-          선택 상품을 결제 없이 테스트
+          {adminToken && !premiumTestMode ? "운영자 테스트: 결제 없이 상세 확인" : "선택 상품을 결제 없이 테스트"}
         </button>
       ) : null}
       {!paymentConfigured ? <p className="mt-3 text-xs text-muted">포트원 환경변수를 등록하면 실제 결제 버튼이 활성화됩니다. 로컬에서는 아래 개발자 테스트를 이용할 수 있습니다.</p> : null}

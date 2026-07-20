@@ -7,8 +7,8 @@ export const runtime = "nodejs";
 export const maxDuration = 60;
 
 export async function POST(request: Request) {
-  if (!isPremiumTestRequestAllowed(request)) {
-    return NextResponse.json({ ok: false, error: "프리미엄 테스트 모드가 꺼져 있습니다." }, { status: 403 });
+  if (!(await isPremiumTestRequestAllowed(request))) {
+    return NextResponse.json({ ok: false, error: "운영자 로그인 후 결제 없이 테스트할 수 있습니다." }, { status: 403 });
   }
   const body = (await request.json().catch(() => null)) as { reportData?: PremiumHanjaTestResult["reportData"] } | null;
   if (!body?.reportData || typeof body.reportData !== "object") {

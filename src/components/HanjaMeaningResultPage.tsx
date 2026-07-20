@@ -98,6 +98,18 @@ export function HanjaMeaningResultPage({
         ) : stored ? (
           <div className="grid gap-5">
             <ResultStorageNotice persistence={stored.persistence} />
+            {totalCount > 0 && totalCount < 5 ? (
+              <div className="rounded-lg border border-brand-teal/25 bg-brand-teal/5 p-4 text-sm leading-6 text-muted">
+                <p className="font-semibold text-foreground">
+                  유효한 한자 후보 {totalCount}개
+                </p>
+                <p className="mt-1">
+                  제공된 공식 인명용 한자 데이터에서 지정 발음과 의미가 분명한 후보가 {totalCount}개만
+                  확인되었습니다. 약자 표기만 있는 글자, 뜻 없이 음가 목록만 있는 글자, 의미가 겹치거나
+                  부적합한 글자는 결과 품질을 위해 제외했으며, 후보 수를 억지로 채우지 않습니다.
+                </p>
+              </div>
+            ) : null}
             <ResultCard
               service={services.hanjaMeaning}
               result={stored.result}
