@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/premium-reports/**/*": [
       "./assets/fonts/*.otf",
-      "./node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-*.woff",
+      "./assets/fonts/*.ttf",
     ],
   },
 };

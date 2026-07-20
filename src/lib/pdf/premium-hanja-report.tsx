@@ -72,21 +72,18 @@ const colors = {
   rose: "#b15c51",
 };
 
+// 한글 폰트는 반드시 TTF를 쓴다. @react-pdf가 woff를 임베딩할 때 유독 느려(한 렌더에 20초+)
+// PDF 생성이 60초 타임아웃 나던 실제 원인이었다. TTF는 같은 폰트를 28ms에 임베딩한다.
+// (assets/fonts/NotoSansKR-*.ttf는 @fontsource woff의 압축만 해제한 동일 폰트)
 Font.register({
   family: "NotoSansKR",
   fonts: [
     {
-      src: path.join(
-        process.cwd(),
-        "node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-400-normal.woff",
-      ),
+      src: path.join(process.cwd(), "assets/fonts/NotoSansKR-400.ttf"),
       fontWeight: 400,
     },
     {
-      src: path.join(
-        process.cwd(),
-        "node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-700-normal.woff",
-      ),
+      src: path.join(process.cwd(), "assets/fonts/NotoSansKR-700.ttf"),
       fontWeight: 700,
     },
   ],
@@ -104,6 +101,11 @@ Font.register({
     },
   ],
 });
+
+// @react-pdf 기본 하이프네이션은 단어마다 분할 지점을 계산해 한글·한자 문단에서 렌더가 매우 느려진다.
+// 분할을 비활성화(단어를 그대로 반환)하면 레이아웃이 크게 빨라진다. 한글은 원래 단어 중간에서
+// 끊지 않으므로 표시 품질에 문제가 없다.
+Font.registerHyphenationCallback((word) => [word]);
 
 function HanjaText({
   value,
@@ -123,18 +125,27 @@ function HanjaText({
       (codePoint >= 0x20000 && codePoint <= 0x2fa1f)
     );
   };
+  // 글자마다 Text 노드를 만들면 긴 문단에서 노드가 수천 개로 폭증해 PDF 렌더가 수십 초 걸린다.
+  // 연속된 같은 스크립트(한자/그 외) 글자를 하나의 런으로 묶어 노드 수를 스크립트 전환 횟수로 줄인다.
+  const runs: { text: string; cjk: boolean }[] = [];
+  for (const character of Array.from(value)) {
+    const cjk = isCjk(character);
+    const last = runs[runs.length - 1];
+    if (last && last.cjk === cjk) last.text += character;
+    else runs.push({ text: character, cjk });
+  }
   return (
     <Text style={style}>
-      {Array.from(value).map((character, index) => (
+      {runs.map((run, index) => (
         <Text
-          key={`${character}-${index}`}
+          key={`run-${index}`}
           style={{
-            fontFamily: isCjk(character) ? "NotoSansCJKkr" : "NotoSansKR",
+            fontFamily: run.cjk ? "NotoSansCJKkr" : "NotoSansKR",
             // CJK는 400만 등록돼 있으므로 bold 요청이 와도 400으로 렌더한다(같은 파일이라 시각 차이 없음).
-            fontWeight: isCjk(character) ? 400 : fontWeight,
+            fontWeight: run.cjk ? 400 : fontWeight,
           }}
         >
-          {character}
+          {run.text}
         </Text>
       ))}
     </Text>
