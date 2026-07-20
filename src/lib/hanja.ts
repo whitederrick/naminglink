@@ -13,6 +13,7 @@ type HanjaOption = {
 
 type RejectedHanja = {
   character: string;
+  reading?: string;
   reason: string;
   severity: "high" | "medium" | "low";
 };
@@ -1045,6 +1046,7 @@ function rejectedOfficialMeaningOptions(
       }
       const option = rawOption as Record<string, unknown>;
       const character = stringValue(option.character);
+      const reading = stringValue(option.reading);
       const meaning = displayMeaning(option.meaning);
       const genderConflict = conflictsWithGenderContext({ meaning }, inputFactors);
       const variantOnly = isVariantOnlyMeaning(meaning);
@@ -1060,6 +1062,7 @@ function rejectedOfficialMeaningOptions(
 
       return [{
         character,
+        reading,
         reason: unsuitableNameCharacters.has(character)
           ? `${character}은 감옥을 뜻하는 글자로 이름에 담기 부적절해 추천에서 제외했습니다.`
           : variantOnly
@@ -1614,7 +1617,9 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
       };
     });
 
-  const rejectedFromSound = givenSyllables.flatMap((syllable) => negativeHanja[syllable] ?? []);
+  const rejectedFromSound = givenSyllables.flatMap((syllable) =>
+    (negativeHanja[syllable] ?? []).map((item) => ({ ...item, reading: item.reading ?? syllable })),
+  );
   const rejectedFromOfficialMeanings = rejectedOfficialMeaningOptions(
     inputFactors,
     givenSyllables,

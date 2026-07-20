@@ -312,13 +312,14 @@ async function generateCandidateSection(
             "당신은 아이의 이름에 담긴 한자의 의미를 부모가 마음으로 느끼도록 풀어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
             "아래 '한 후보'에 대해서만 씁니다. 한자나 지정 음가는 절대 바꾸지 마십시오.",
             "글자 뜻(meaning)이 사전 원문이라 투박하면 '덕 덕베풀'처럼 그대로 인용하지 말고, 그 글자가 품은 심상을 자연스러운 우리말로 풀어 설명하십시오(예: 德 → 너그러움과 베풂, 사람을 품는 덕).",
-            "summary: 글자들이 어우러져 만드는 이름 이미지를 2~3문장으로.",
-            "story: 이 이름만의 고유한 서사를 4문장 이상으로, 각 글자의 심상이 어떻게 이어지고 확장되는지 그림 그리듯 구체적으로.",
-            "practicalUse: 부모가 이 이름을 소개할 때 쓸 표현과 이름이 주는 인상을 4문장 이상으로. '이 이름은 ~한 느낌을 줍니다'처럼 인상 묘사는 권장.",
-            "selectionGuide: 어떤 가치를 중히 여기는 가족에게 어울리는지, 다른 후보와 무엇으로 비교하면 좋은지 4문장 이상으로.",
-            "meaningCaution: 글자 뜻의 다의성·현대적 어감에서 짚어둘 점을 2문장 이상으로. 근거 없는 빈도·평가는 금지.",
+            "각 항목은 한 페이지에 담기도록 간결하되 밀도 있게 씁니다(장황한 반복 금지).",
+            "summary: 글자들이 어우러져 만드는 이름 이미지를 2문장으로.",
+            "story: 이 이름만의 고유한 서사를 3~4문장으로, 각 글자의 심상이 어떻게 이어지는지 그림 그리듯.",
+            "practicalUse: 부모가 이 이름을 소개할 때 쓸 표현과 이름이 주는 인상을 3~4문장으로. '이 이름은 ~한 느낌을 줍니다'처럼 인상 묘사 권장.",
+            "selectionGuide: 어떤 가치의 가족에게 어울리는지, 다른 후보와 무엇으로 비교하면 좋은지 3문장으로.",
+            "meaningCaution: 글자 뜻의 다의성·현대적 어감에서 짚어둘 점을 2문장으로. 근거 없는 빈도·평가는 금지.",
             args.includeSaju
-              ? "sajuConnection: 이 후보의 글자 심상을 아이의 원국·일간·오행과 잇되, 오행 사실은 elementSummary와 100% 일치해야 하고 4문장 이상. '이 글자가 특정 오행을 보충한다'는 단정 금지, 자의와 원국 분위기의 어울림을 상징적으로."
+              ? "sajuConnection: 이 후보의 글자 심상을 아이의 원국·일간·오행과 잇되, 오행 사실은 elementSummary와 100% 일치해야 하고 3~4문장. '이 글자가 특정 오행을 보충한다'는 단정 금지, 자의와 원국 분위기의 어울림을 상징적으로."
               : "sajuConnection은 빈 문자열로 두십시오.",
             PREMIUM_GUARDRAILS,
             "응답은 JSON 객체이며 필드는 summary, story, practicalUse, selectionGuide, meaningCaution, sajuConnection입니다.",
@@ -494,6 +495,7 @@ export async function buildPremiumHanjaTestResult(
     : new Date(generatedAt.getTime() + 24 * 60 * 60 * 1000);
   const rejectedCandidates = records(resultRecord.rejected_hanja).map((item) => ({
     character: text(item.character),
+    reading: text(item.reading),
     reason: text(item.reason),
     severity: text(item.severity),
   }));

@@ -52,6 +52,7 @@ export type PremiumHanjaReportData = {
   } | null;
   rejectedCandidates?: Array<{
     character: string;
+    reading?: string;
     reason: string;
     severity?: string;
   }>;
@@ -201,12 +202,13 @@ const styles = StyleSheet.create({
     letterSpacing: 6,
     marginBottom: 13,
   },
-  certificateSummary: {
-    marginTop: 18,
-    maxWidth: 390,
-    color: colors.muted,
+  coverQuoteRule: { width: 28, height: 2, backgroundColor: colors.sandDark, marginTop: 20, marginBottom: 16 },
+  coverQuote: {
+    maxWidth: 400,
+    color: colors.ink,
     textAlign: "center",
-    fontSize: 9.5,
+    fontSize: 11,
+    lineHeight: 1.7,
   },
   metaRow: { marginTop: 22, flexDirection: "row", gap: 10 },
   metaCard: { flexGrow: 1, flexBasis: 0, backgroundColor: colors.sand, padding: 13 },
@@ -225,19 +227,18 @@ const styles = StyleSheet.create({
   candidateHeader: { marginBottom: 15 },
   titleBadgeRow: {
     flexDirection: "row",
-    alignItems: "center",
+    alignItems: "flex-end",
     gap: 7,
     marginTop: 6,
-    minHeight: 30,
   },
   titleBadge: {
-    borderRadius: 8,
+    borderRadius: 9,
     backgroundColor: colors.tealSoft,
     color: colors.teal,
-    fontSize: 6.7,
+    fontSize: 9,
     fontWeight: 700,
-    paddingVertical: 3,
-    paddingHorizontal: 7,
+    paddingVertical: 4,
+    paddingHorizontal: 9,
   },
   sectionTitle: { marginTop: 7, marginBottom: 9, fontSize: 20, fontWeight: 700 },
   sectionLead: { marginTop: 9, color: colors.muted, fontSize: 9, lineHeight: 1.55 },
@@ -318,10 +319,10 @@ const styles = StyleSheet.create({
   characterMeaning: { marginTop: 5, color: colors.muted, fontSize: 8.5 },
   verified: { marginTop: 8, color: colors.teal, fontSize: 7.5, fontWeight: 700 },
   storyBox: { marginTop: 16, borderTopWidth: 1, borderTopColor: colors.line, paddingTop: 14 },
-  candidateStoryBox: { marginTop: 11, paddingTop: 9 },
-  storyLabel: { fontSize: 9, fontWeight: 700 },
+  candidateStoryBox: { marginTop: 9, paddingTop: 8 },
+  storyLabel: { fontSize: 9.5, fontWeight: 700 },
   storyText: { marginTop: 6, color: colors.muted, fontSize: 8.7 },
-  candidateStoryText: { marginTop: 5, fontSize: 8, lineHeight: 1.55 },
+  candidateStoryText: { marginTop: 5, color: colors.muted, fontSize: 8.7, lineHeight: 1.5 },
   analysisSection: {
     marginBottom: 14,
     borderWidth: 1,
@@ -435,14 +436,17 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
         </Text>
 
         <View style={styles.certificate}>
-          <Text style={styles.certificateLabel}>작명 분석 기록</Text>
+          <Text style={styles.certificateLabel}>분 석 대 상 자</Text>
           <Text style={styles.nameHangul}>{data.childNameHangul}</Text>
           <HanjaText
             value={data.primaryCandidate.hanjaName}
             style={styles.nameHanja}
             fontWeight={700}
           />
-          <HanjaText value={data.primaryCandidate.summary} style={styles.certificateSummary} />
+          <View style={styles.coverQuoteRule} />
+          <Text style={styles.coverQuote}>
+            이름은 부모가 아이에게 건네는 첫 번째 선물이자,{`\n`}평생 가장 다정하게 불릴 한마디입니다.
+          </Text>
         </View>
 
         <View style={styles.metaRow}>
@@ -668,7 +672,11 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
           </View>
           {items.map((item, index) => (
             <View key={`${item.character}-${index}`} style={styles.rejectedRow}>
-              <HanjaText value={item.character} style={styles.rejectedTitle} fontWeight={700} />
+              <HanjaText
+                value={item.reading ? `${item.character}(${item.reading})` : item.character}
+                style={styles.rejectedTitle}
+                fontWeight={700}
+              />
               <HanjaText value={item.reason} style={styles.rejectedReason} />
               {item.severity ? (
                 <Text style={styles.verified}>배제 기준 등급 · {item.severity}</Text>
