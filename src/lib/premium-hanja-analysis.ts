@@ -219,6 +219,143 @@ function fallbackCandidateAnalysis(
   };
 }
 
+const PREMIUM_GUARDRAILS =
+  "지켜야 할 선(중요): 사주로 아이의 성격·능력·재능·미래를 예측하거나 '~할 것입니다/~할 가능성이 큽니다/~을 키울 것으로 기대됩니다'처럼 단정하지 마십시오. 운세·운명·성공·재물·합격을 약속하지 마십시오. 사주는 '기질의 밑그림·분위기 참고'로만 서술하고, 아이 본인에 대한 예언이 아니라 '이름에 담을 수 있는 상징과 바람'으로 표현하십시오. 통계·빈도를 지어내지 마십시오. 상투적 문구 반복 금지.";
+
+type GeneralSections = {
+  sajuOverview: string;
+  fiveElementsAnalysis: string;
+  namingBalance: string;
+  candidateComparison: string;
+};
+
+// 사주 종합 해설 1회 호출. 후보별 호출과 병렬로 돌려 전체 생성 시간을 줄인다.
+async function generateGeneralSections(
+  client: OpenAI,
+  model: string,
+  args: {
+    displayName: string;
+    candidates: PremiumHanjaReportCandidate[];
+    parentWishes: string | null;
+    saju: ReturnType<typeof calculatePremiumSaju>;
+    fallback: GeneralSections;
+  },
+): Promise<GeneralSections> {
+  try {
+    const completion = await client.chat.completions.create({
+      model,
+      temperature: 0.6,
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content: [
+            "당신은 아이의 이름에 담긴 한자의 의미와 전통 명리 참고를 부모가 마음으로 느끼도록 풀어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
+            "아래 아이의 실제 사주 원국을 근거로 종합 해설을 씁니다. 한자나 지정 음가는 바꾸지 마십시오.",
+            "sajuOverview: 년·월·일주와 시주, 일간을 근거로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게. '중심/축'은 일간(자기 자신)이며 오행 개수상 가장 많은 기운(elementSummary.dominant)과 다를 수 있으니 구분하십시오. 표면 집계라는 한계도 자연스럽게 곁들이십시오.",
+            "fiveElementsAnalysis: 오행 분포를 해석하되 개수·최다/최소 기운은 반드시 elementSummary 사실만 사용하고 임의로 바꾸지 마십시오. 일간과의 관계 속 분위기를 6~8문장으로.",
+            "namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로.",
+            `candidateComparison: ${args.candidates.length}개 후보를 나란히 놓고 어떤 가족에게 어떤 후보가 어울리는지 후보 한자와 구체적 이유로 8~12문장으로.`,
+            PREMIUM_GUARDRAILS,
+            "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison입니다.",
+          ].join(" "),
+        },
+        {
+          role: "user",
+          content: JSON.stringify({
+            displayName: args.displayName,
+            candidates: args.candidates.map((c) => ({ hanjaName: c.hanjaName, characters: c.characters })),
+            parentWishes: args.parentWishes,
+            elementSummary: buildElementSummary(args.saju),
+            saju: args.saju,
+          }),
+        },
+      ],
+    });
+    const content = completion.choices[0]?.message?.content;
+    if (!content) return args.fallback;
+    const parsed = parseJsonObject(content);
+    return {
+      sajuOverview: safeDetailedText(parsed.sajuOverview, args.fallback.sajuOverview, 4),
+      fiveElementsAnalysis: safeDetailedText(parsed.fiveElementsAnalysis, args.fallback.fiveElementsAnalysis, 4),
+      namingBalance: safeDetailedText(parsed.namingBalance, args.fallback.namingBalance, 3),
+      candidateComparison: safeDetailedText(parsed.candidateComparison, args.fallback.candidateComparison, 4),
+    };
+  } catch {
+    return args.fallback;
+  }
+}
+
+// 후보 1개 분석 호출. 후보 수만큼 병렬로 실행한다. 한 후보 실패는 그 후보만 폴백된다.
+async function generateCandidateSection(
+  client: OpenAI,
+  model: string,
+  args: {
+    displayName: string;
+    candidate: PremiumHanjaReportCandidate;
+    parentWishes: string | null;
+    excludedMeanings: string | null;
+    saju: ReturnType<typeof calculatePremiumSaju> | null;
+    includeSaju: boolean;
+    fallback: CandidateAnalysis;
+  },
+): Promise<CandidateAnalysis> {
+  try {
+    const completion = await client.chat.completions.create({
+      model,
+      temperature: 0.6,
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content: [
+            "당신은 아이의 이름에 담긴 한자의 의미를 부모가 마음으로 느끼도록 풀어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
+            "아래 '한 후보'에 대해서만 씁니다. 한자나 지정 음가는 절대 바꾸지 마십시오.",
+            "글자 뜻(meaning)이 사전 원문이라 투박하면 '덕 덕베풀'처럼 그대로 인용하지 말고, 그 글자가 품은 심상을 자연스러운 우리말로 풀어 설명하십시오(예: 德 → 너그러움과 베풂, 사람을 품는 덕).",
+            "summary: 글자들이 어우러져 만드는 이름 이미지를 2~3문장으로.",
+            "story: 이 이름만의 고유한 서사를 4문장 이상으로, 각 글자의 심상이 어떻게 이어지고 확장되는지 그림 그리듯 구체적으로.",
+            "practicalUse: 부모가 이 이름을 소개할 때 쓸 표현과 이름이 주는 인상을 4문장 이상으로. '이 이름은 ~한 느낌을 줍니다'처럼 인상 묘사는 권장.",
+            "selectionGuide: 어떤 가치를 중히 여기는 가족에게 어울리는지, 다른 후보와 무엇으로 비교하면 좋은지 4문장 이상으로.",
+            "meaningCaution: 글자 뜻의 다의성·현대적 어감에서 짚어둘 점을 2문장 이상으로. 근거 없는 빈도·평가는 금지.",
+            args.includeSaju
+              ? "sajuConnection: 이 후보의 글자 심상을 아이의 원국·일간·오행과 잇되, 오행 사실은 elementSummary와 100% 일치해야 하고 4문장 이상. '이 글자가 특정 오행을 보충한다'는 단정 금지, 자의와 원국 분위기의 어울림을 상징적으로."
+              : "sajuConnection은 빈 문자열로 두십시오.",
+            PREMIUM_GUARDRAILS,
+            "응답은 JSON 객체이며 필드는 summary, story, practicalUse, selectionGuide, meaningCaution, sajuConnection입니다.",
+          ].join(" "),
+        },
+        {
+          role: "user",
+          content: JSON.stringify({
+            displayName: args.displayName,
+            candidate: { hanjaName: args.candidate.hanjaName, characters: args.candidate.characters },
+            parentWishes: args.parentWishes,
+            excludedMeanings: args.excludedMeanings,
+            elementSummary: args.includeSaju && args.saju ? buildElementSummary(args.saju) : null,
+            saju: args.includeSaju ? args.saju : null,
+          }),
+        },
+      ],
+    });
+    const content = completion.choices[0]?.message?.content;
+    if (!content) return args.fallback;
+    const p = parseJsonObject(content);
+    return {
+      hanjaName: args.candidate.hanjaName,
+      summary: safeDetailedText(p.summary, args.fallback.summary, 2),
+      story: safeDetailedText(p.story, args.fallback.story, 3),
+      practicalUse: safeDetailedText(p.practicalUse, args.fallback.practicalUse, 3),
+      selectionGuide: safeDetailedText(p.selectionGuide, args.fallback.selectionGuide, 3),
+      meaningCaution: safeDetailedText(p.meaningCaution, args.fallback.meaningCaution, 2),
+      sajuConnection: args.includeSaju
+        ? safeDetailedText(p.sajuConnection, args.fallback.sajuConnection ?? "", 3)
+        : null,
+    };
+  } catch {
+    return args.fallback;
+  }
+}
+
 export async function buildPremiumHanjaTestResult(
   inputFactors: UnknownRecord,
   freeResult: unknown,
@@ -305,118 +442,40 @@ export async function buildPremiumHanjaTestResult(
   let candidateAnalyses = fallbackCandidates;
   let analysisSource: PremiumHanjaTestResult["analysisSource"] = "rules-fallback";
   if (process.env.OPENAI_API_KEY) {
-    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 45_000, maxRetries: 0 });
-    const completion = await client.chat.completions.create({
-      model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
-      temperature: 0.6,
-      response_format: { type: "json_object" },
-      messages: [
-        {
-          role: "system",
-          content: [
-            "당신은 아이의 이름에 담긴 한자의 의미를 부모가 마음으로 느낄 수 있도록 풀어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
-            "목표는 '규칙 설명'이 아니라 '이 이름을 왜 아름답게 여길 수 있는지'를 부모에게 전하는 것입니다. 읽는 사람이 이름에 애정을 느끼도록, 구체적 심상과 자연스러운 우리말 문장으로 쓰십시오.",
-            `고정된 후보 ${candidates.length}개를 동일한 순서로 분석하되 한자나 지정 음가는 절대 바꾸지 마십시오.`,
-            "제공된 글자 뜻(meaning)은 사전 원문이라 투박할 수 있습니다. '덕 덕베풀'처럼 원문을 그대로 인용하지 말고, 그 글자가 품은 심상을 자연스러운 우리말로 풀어 설명하십시오(예: 德 → 너그러움과 베풂, 사람을 품는 덕).",
-            "각 candidateAnalyses 항목에는 hanjaName, summary, story, practicalUse, selectionGuide, meaningCaution, sajuConnection을 작성합니다.",
-            "summary: 글자들이 어떻게 어우러져 하나의 이름 이미지를 만드는지 2~3문장으로 압축합니다.",
-            "story: 이 이름만의 고유한 서사를 4문장 이상으로. 각 글자의 심상이 어떻게 이어지고 확장되는지, 아이의 삶에 어떤 분위기와 바람을 담을 수 있는지를 그림 그리듯 구체적으로 씁니다. 상투적 문구 반복 금지.",
-            "practicalUse: 부모가 이 이름을 남에게 소개할 때 쓸 수 있는 실제 표현과, 이름이 주는 인상을 4문장 이상으로. '이 이름은 ~한 느낌을 줍니다'처럼 이름의 인상·분위기를 묘사하는 것은 권장합니다.",
-            "selectionGuide: 어떤 가치를 중히 여기는 가족에게 이 후보가 어울리는지, 다른 후보와 무엇을 기준으로 비교하면 좋은지 4문장 이상으로 구체적으로.",
-            "meaningCaution: 글자 뜻의 다의성이나 현대적 어감에서 짚어둘 점을 2문장 이상으로. 단, 근거 없는 빈도·사회적 평가는 지어내지 마십시오.",
-            includeSaju
-              ? "sajuOverview: 실제 원국(년·월·일주와 시주, 일간)을 근거로 각 기둥이 무엇을 보는 자리인지, 일간을 축으로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게 해석하십시오. 단, '중심/축'은 일간(자기 자신)을 뜻하며 이는 오행 개수상 '가장 많은 기운(elementSummary.dominant)'과 다를 수 있으니 둘을 혼동하지 말고 구분해 쓰십시오. 표를 읽어주는 데 그치지 말고 의미를 부여하되, 표면 집계라는 한계도 자연스럽게 곁들이십시오."
-              : "사주·오행은 언급하지 말고 sajuConnection은 모두 빈 문자열로 두십시오.",
-            includeSaju
-              ? "fiveElementsAnalysis: 표면 오행 분포를 해석하되, 개수와 '가장 많은 기운/가장 적은 기운'은 반드시 입력의 elementSummary에 적힌 사실만 사용하고 임의로 바꾸지 마십시오. 그 분포가 일간과의 관계 속에서 어떤 분위기를 만드는지 6~8문장으로. namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로."
-              : "",
-            includeSaju
-              ? "각 sajuConnection: 이 후보의 글자 심상을 원국·일간·오행 분포와 잇되, 오행 사실은 elementSummary와 100% 일치해야 하고 fiveElementsAnalysis와도 모순되면 안 됩니다. 검수된 한자 오행 분류가 없으므로 '이 글자가 특정 오행을 보충한다'고 단정하지 말고, 자의와 원국의 분위기가 어떻게 어울리는지 상징적으로 4문장 이상 이어 주십시오."
-              : "",
-            "지켜야 할 선(중요): 사주로 아이의 성격·능력·재능·미래를 예측하거나 '~할 것입니다/~할 가능성이 큽니다/~을 키울 것으로 기대됩니다'처럼 단정하지 마십시오. 운세·운명·성공·재물·합격을 약속하지 마십시오. 사주는 '기질의 밑그림·분위기 참고'로만 서술하고, 아이 본인에 대한 예언이 아니라 '이름에 담을 수 있는 상징과 바람'으로 표현하십시오. 통계·빈도를 지어내지 마십시오.",
-            "후보마다 같은 결론 문장이나 '다른 후보와 구별됩니다', '공식 문서에서 확인하세요' 같은 공통 안내 반복 금지. 공식 등록 재확인 안내는 넣지 마십시오.",
-            includeSaju
-              ? `candidateComparison: ${candidates.length}개 후보를 나란히 놓고 자의·실사용·사주 참고를 종합해 어떤 가족에게 어떤 후보가 어울리는지 후보 한자와 구체적 이유를 들어 8~12문장으로.`
-              : "candidateComparison은 빈 문자열로 두십시오.",
-            "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison, candidateAnalyses입니다.",
-          ].filter(Boolean).join(" "),
-        },
-        {
-          role: "user",
-          content: JSON.stringify({
+    // 후보 수가 많으면 한 번의 호출로는 45초를 넘겨 타임아웃 난다. 사주 종합 1회 + 후보별 1회를
+    // 모두 병렬로 돌려 전체 시간을 한 호출 수준으로 줄인다(풍성함 유지, 벽시계 시간 단축).
+    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 40_000, maxRetries: 1 });
+    const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+    const parentWishes = text(inputFactors.parentWishes) || null;
+    const excludedMeanings = text(inputFactors.excludedMeanings) || null;
+
+    const [generalResult, candidateResults] = await Promise.all([
+      saju
+        ? generateGeneralSections(client, model, {
             displayName,
-            candidates: candidates.map((candidate) => ({
-              hanjaName: candidate.hanjaName,
-              focusLabel: candidate.focusLabel,
-              characters: candidate.characters,
-            })),
-            parentWishes: text(inputFactors.parentWishes) || null,
-            excludedMeanings: text(inputFactors.excludedMeanings) || null,
-            // AI가 오행 개수를 지어내거나 서로 모순되지 않도록, 확정된 사실만 명확히 전달한다.
-            elementSummary: saju ? buildElementSummary(saju) : null,
+            candidates,
+            parentWishes,
             saju,
+            fallback: fallbackGeneral,
+          })
+        : Promise.resolve(fallbackGeneral),
+      Promise.all(
+        candidates.map((candidate, index) =>
+          generateCandidateSection(client, model, {
+            displayName,
+            candidate,
+            parentWishes,
+            excludedMeanings,
+            saju,
+            includeSaju,
+            fallback: fallbackCandidates[index],
           }),
-        },
-      ],
-    });
-    const content = completion.choices[0]?.message?.content;
-    if (content) {
-      const parsed = parseJsonObject(content);
-      const parsedCandidates = records(parsed.candidateAnalyses);
-      general = {
-        sajuOverview: safeDetailedText(
-          parsed.sajuOverview,
-          fallbackGeneral.sajuOverview,
-          5,
         ),
-        fiveElementsAnalysis:
-          safeDetailedText(
-            parsed.fiveElementsAnalysis,
-            fallbackGeneral.fiveElementsAnalysis,
-            5,
-          ),
-        namingBalance: safeDetailedText(
-          parsed.namingBalance,
-          fallbackGeneral.namingBalance,
-          4,
-        ),
-        candidateComparison:
-          safeDetailedText(
-            parsed.candidateComparison,
-            fallbackGeneral.candidateComparison,
-            5,
-          ),
-      };
-      candidateAnalyses = candidates.map((candidate, index) => {
-        const parsedCandidate =
-          parsedCandidates.find((item) => text(item.hanjaName) === candidate.hanjaName) ??
-          parsedCandidates[index] ??
-          {};
-        const fallback = fallbackCandidates[index];
-        return {
-          hanjaName: candidate.hanjaName,
-          summary: safeDetailedText(parsedCandidate.summary, fallback.summary, 2),
-          story: safeDetailedText(parsedCandidate.story, fallback.story, 4),
-          practicalUse: safeDetailedText(
-            parsedCandidate.practicalUse,
-            fallback.practicalUse,
-            4,
-          ),
-          selectionGuide:
-            safeDetailedText(parsedCandidate.selectionGuide, fallback.selectionGuide, 4),
-          meaningCaution:
-            safeDetailedText(parsedCandidate.meaningCaution, fallback.meaningCaution, 2),
-          sajuConnection: includeSaju
-            ? safeDetailedText(
-                parsedCandidate.sajuConnection,
-                fallback.sajuConnection ?? "",
-                4,
-              )
-            : null,
-        };
-      });
-      analysisSource = "openai";
-    }
+      ),
+    ]);
+    general = generalResult;
+    candidateAnalyses = candidateResults;
+    analysisSource = "openai";
   }
 
   const detailedCandidates = candidates.map((candidate, index) => ({
