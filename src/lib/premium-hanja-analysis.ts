@@ -226,8 +226,104 @@ type GeneralSections = {
   sajuOverview: string;
   fiveElementsAnalysis: string;
   namingBalance: string;
-  candidateComparison: string;
 };
+
+function numberedLines(lines: string[]) {
+  return lines.map((line, index) => `${index + 1}. ${line}`).join("\n");
+}
+
+// 종합 비교 폴백: 후보마다 자의·초점 라벨·마무리 문장을 달리해 동일 문구 반복을 피한다.
+function buildComparisonFallbackLines(candidates: PremiumHanjaReportCandidate[]) {
+  const closers = [
+    "이 뜻이 가족이 담고 싶은 가치와 맞닿아 있는지를 비교의 기준으로 삼아 보세요.",
+    "이름을 소리 내어 불렀을 때 이 뜻이 자연스럽게 떠오르는지 살펴보세요.",
+    "두 자의를 한 문장으로 이었을 때 과장 없이 설명되는지 확인해 보세요.",
+    "주변에 이름의 뜻을 소개하는 장면을 떠올려 보면 다른 후보와의 비교가 쉬워집니다.",
+  ];
+  return candidates.map((candidate, index) => {
+    const meanings = candidate.characters.map((item) => item.meaning).filter(Boolean);
+    const parts = candidate.characters.map((item) => `${item.hanja}(${item.meaning})`).join("·");
+    const flow =
+      candidate.characters.length >= 2
+        ? `${meanings.join("에서 ")}로 이어지는 의미 흐름`
+        : `'${meanings[0] ?? ""}'의 뜻`;
+    const focus = /^후보 \d+$/.test(candidate.focusLabel)
+      ? ""
+      : `'${candidate.focusLabel}' 방향으로 제안된 후보입니다. `;
+    return `${candidate.hanjaName} — ${parts}로 구성해 ${flow}을 담은 이름입니다. ${focus}${closers[index % closers.length]}`;
+  });
+}
+
+// 종합 비교 해설 전용 호출. 후보별 항목 배열(items)로 받아 항목 단위로 검증하므로,
+// 한 항목이 금지어 게이트에 걸리거나 비어도 그 항목만 폴백되고 나머지 AI 문장은 살아남는다.
+// (예전에는 종합 4개 섹션 중 한 덩어리라, 하나만 걸려도 10개 후보 전체가 동일 템플릿 폴백으로 교체됐다.)
+async function generateCandidateComparison(
+  client: OpenAI,
+  model: string,
+  args: {
+    displayName: string;
+    candidates: PremiumHanjaReportCandidate[];
+    parentWishes: string | null;
+    saju: ReturnType<typeof calculatePremiumSaju>;
+    fallbackLines: string[];
+  },
+): Promise<string> {
+  try {
+    const completion = await client.chat.completions.create({
+      model,
+      temperature: 0.7,
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content: [
+            "당신은 아이의 이름 후보들을 나란히 놓고 각 후보만의 매력을 짚어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
+            `items 배열에 후보 순서대로 ${args.candidates.length}개 항목을 넣으십시오.`,
+            "각 항목은 그 후보에 대한 설명 2~3문장입니다: 자의 조합이 만드는 고유한 인상, 어떤 바람을 담고 싶은 가족에게 어울리는지, 다른 후보와 견주었을 때의 차이를 구체적으로 쓰십시오.",
+            "항목마다 문장 구조와 어휘를 다르게 하여 같은 표현을 반복하지 마십시오.",
+            "항목 앞에 번호나 한자 이름을 붙이지 말고 설명 문장만 쓰십시오. 한자나 지정 음가는 바꾸지 마십시오.",
+            "사주 참고(elementSummary)와의 연결은 단정 없이 부드럽게만 언급하십시오.",
+            PREMIUM_GUARDRAILS,
+            '응답은 JSON 객체 {"items": ["...", "..."]} 형식이며 items 길이는 후보 수와 같아야 합니다.',
+          ].join(" "),
+        },
+        {
+          role: "user",
+          content: JSON.stringify({
+            displayName: args.displayName,
+            parentWishes: args.parentWishes,
+            elementSummary: buildElementSummary(args.saju),
+            candidates: args.candidates.map((candidate) => ({
+              hanjaName: candidate.hanjaName,
+              focusLabel: candidate.focusLabel,
+              characters: candidate.characters.map((item) => ({
+                hanja: item.hanja,
+                meaning: item.meaning,
+                elementLabel: item.elementLabel,
+              })),
+            })),
+          }),
+        },
+      ],
+    });
+    const content = completion.choices[0]?.message?.content;
+    if (!content) return numberedLines(args.fallbackLines);
+    const parsed = parseJsonObject(content);
+    const items = Array.isArray(parsed.items) ? parsed.items : [];
+    const lines = args.candidates.map((candidate, index) => {
+      // 모델이 지시를 어기고 붙였을 수 있는 번호·한자 접두어(뒤따르는 조사 포함)를 걷어낸 뒤 코드에서 형식을 통일한다.
+      const raw = text(items[index])
+        .replace(/^\s*\d+\s*[.)]\s*/, "")
+        .replace(new RegExp(`^\\s*${candidate.hanjaName}\\s*(?:[—\\-:·]|[은는이가의를와과](?=\\s))?\\s*`), "")
+        .trim();
+      const usable = raw.length >= 40 && !unsupportedPredictionPattern.test(raw);
+      return usable ? `${candidate.hanjaName} — ${raw}` : args.fallbackLines[index];
+    });
+    return numberedLines(lines);
+  } catch {
+    return numberedLines(args.fallbackLines);
+  }
+}
 
 // 사주 종합 해설 1회 호출. 후보별 호출과 병렬로 돌려 전체 생성 시간을 줄인다.
 async function generateGeneralSections(
@@ -255,9 +351,8 @@ async function generateGeneralSections(
             "sajuOverview: 년·월·일주와 시주, 일간을 근거로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게. '중심/축'은 일간(자기 자신)이며 오행 개수상 가장 많은 기운(elementSummary.dominant)과 다를 수 있으니 구분하십시오. 표면 집계라는 한계도 자연스럽게 곁들이십시오.",
             "fiveElementsAnalysis: 오행 분포를 해석하되 개수·최다/최소 기운은 반드시 elementSummary 사실만 사용하고 임의로 바꾸지 마십시오. 일간과의 관계 속 분위기를 6~8문장으로.",
             "namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로.",
-            `candidateComparison: ${args.candidates.length}개 후보를 '1. 한자 — 설명' 형식의 번호 목록으로만 정리하십시오. 각 후보를 하나의 번호 항목으로 하고, 그 후보의 한자와 어떤 가족에게 어울리는지 구체적 이유를 2~3문장으로 씁니다. 항목은 '1.', '2.', '3.'처럼 번호로 시작하고 후보 순서대로. 목록 앞뒤에 서론·결론·마무리 문장을 절대 붙이지 말고, 오직 번호 항목만 출력하십시오.`,
             PREMIUM_GUARDRAILS,
-            "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison입니다.",
+            "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance입니다.",
           ].join(" "),
         },
         {
@@ -279,7 +374,6 @@ async function generateGeneralSections(
       sajuOverview: safeDetailedText(parsed.sajuOverview, args.fallback.sajuOverview, 4),
       fiveElementsAnalysis: safeDetailedText(parsed.fiveElementsAnalysis, args.fallback.fiveElementsAnalysis, 4),
       namingBalance: safeDetailedText(parsed.namingBalance, args.fallback.namingBalance, 3),
-      candidateComparison: safeDetailedText(parsed.candidateComparison, args.fallback.candidateComparison, 4),
     };
   } catch {
     return args.fallback;
@@ -427,24 +521,19 @@ export async function buildPremiumHanjaTestResult(
         sajuOverview: `입력한 출생 정보를 기준으로 년주 ${saju.pillars.year.hanja}, 월주 ${saju.pillars.month.hanja}, 일주 ${saju.pillars.day.hanja}${saju.pillars.hour ? `, 시주 ${saju.pillars.hour.hanja}` : "로 계산했고 출생 시각 미상으로 시주는 제외"}했습니다. 년주는 전통적으로 가계와 성장 배경을 살피는 자리, 월주는 태어난 절기와 사회적 환경을 살피는 자리로 봅니다. 일주는 본인을 중심으로 관계와 생활 기반을 읽는 자리이며, 그중 첫 글자인 일간 ${saju.dayMaster.character}(${saju.dayMaster.elementLabel})을 해석의 기준점으로 삼습니다. ${saju.pillars.hour ? "시주는 후반의 관심과 표현 방향을 참고하는 자리로 함께 살핍니다." : "시주가 없으므로 시간대에 따른 세부 해석은 포함하지 않습니다."} 각 기둥은 서로의 관계 속에서 읽어야 하므로 한 글자만으로 성격이나 운명을 단정하지 않습니다.`,
         fiveElementsAnalysis: `천간·지지의 표면 오행 분포는 목 ${saju.visibleFiveElements.counts.WOOD}, 화 ${saju.visibleFiveElements.counts.FIRE}, 토 ${saju.visibleFiveElements.counts.EARTH}, 금 ${saju.visibleFiveElements.counts.METAL}, 수 ${saju.visibleFiveElements.counts.WATER}입니다. 이 분포는 여덟 글자의 겉오행을 집계한 것으로 어떤 기운이 반복되어 보이는지 한눈에 확인하는 자료입니다. 일간은 ${saju.dayMaster.elementLabel}에 해당하므로 다른 오행과의 생극 관계를 해석할 때 기준으로 삼습니다. 개수가 적은 오행이 곧바로 부족하거나 반드시 보충해야 할 오행이라는 뜻은 아닙니다. 계절과 월령, 지장간과 기운의 강약까지 검토하지 않은 표면 집계이므로 이름에서는 균형을 비교하는 보조 자료로만 사용합니다.`,
         namingBalance: "사주 원국과 오행 분포는 후보를 자동으로 탈락시키거나 특정 한자를 강제하는 단독 기준이 아닙니다. 먼저 공식 지정 음가, 자의의 긍정성, 가족이 담고 싶은 가치와 실사용 설명력을 확인합니다. 그다음 후보의 의미가 원국에서 두드러진 흐름을 부드럽게 조절하거나 가족이 원하는 상징을 더하는지 비교합니다. 검수된 한자 오행 분류가 없는 글자는 특정 오행의 직접 보완자로 단정하지 않고 자의의 상징적 연결만 설명합니다.",
-        candidateComparison: candidates
-          .map(
-            (candidate, index) =>
-              `${index + 1}. ${candidate.hanjaName} — ${candidate.characters.map((item) => item.meaning).join("·")}의 자의를 중심으로 한 이름입니다. 자의가 분명하고 가족이 담고 싶은 가치와 잘 연결되는지, 일상에서 뜻을 자연스럽게 설명할 수 있는지를 기준으로 비교해 보세요.`,
-          )
-          .join("\n"),
       }
     : {
         sajuOverview: "",
         fiveElementsAnalysis: "",
         namingBalance: "",
-        candidateComparison: "",
       };
+  const fallbackComparisonLines = buildComparisonFallbackLines(candidates);
   const fallbackCandidates = candidates.map((candidate) =>
     fallbackCandidateAnalysis(candidate, saju),
   );
 
   let general = fallbackGeneral;
+  let candidateComparison = saju ? numberedLines(fallbackComparisonLines) : "";
   let candidateAnalyses = fallbackCandidates;
   let analysisSource: PremiumHanjaTestResult["analysisSource"] = "rules-fallback";
   if (process.env.OPENAI_API_KEY) {
@@ -455,7 +544,7 @@ export async function buildPremiumHanjaTestResult(
     const parentWishes = text(inputFactors.parentWishes) || null;
     const excludedMeanings = text(inputFactors.excludedMeanings) || null;
 
-    const [generalResult, candidateResults] = await Promise.all([
+    const [generalResult, comparisonResult, candidateResults] = await Promise.all([
       saju
         ? generateGeneralSections(client, model, {
             displayName,
@@ -465,6 +554,15 @@ export async function buildPremiumHanjaTestResult(
             fallback: fallbackGeneral,
           })
         : Promise.resolve(fallbackGeneral),
+      saju
+        ? generateCandidateComparison(client, model, {
+            displayName,
+            candidates,
+            parentWishes,
+            saju,
+            fallbackLines: fallbackComparisonLines,
+          })
+        : Promise.resolve(""),
       Promise.all(
         candidates.map((candidate, index) =>
           generateCandidateSection(client, model, {
@@ -480,6 +578,7 @@ export async function buildPremiumHanjaTestResult(
       ),
     ]);
     general = generalResult;
+    candidateComparison = comparisonResult;
     candidateAnalyses = candidateResults;
     analysisSource = "openai";
   }
@@ -517,7 +616,7 @@ export async function buildPremiumHanjaTestResult(
           overview: general.sajuOverview,
           fiveElements: general.fiveElementsAnalysis,
           namingBalance: general.namingBalance,
-          candidateComparison: general.candidateComparison,
+          candidateComparison,
         }
       : null,
     primaryCandidate: detailedCandidates[0],
@@ -529,6 +628,7 @@ export async function buildPremiumHanjaTestResult(
     reportData,
     interpretation: {
       ...general,
+      candidateComparison,
       candidateSummary: primaryAnalysis.summary,
       story: primaryAnalysis.story,
       practicalUse: primaryAnalysis.practicalUse,

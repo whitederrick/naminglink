@@ -40,7 +40,7 @@ export async function POST(request: Request, context: RouteContext) {
 
   const { data: session, error: sessionError } = await supabase
     .from("premium_analysis_sessions")
-    .select("id,status,access_token_hash,expires_at,deleted_at,product_code")
+    .select("id,status,access_token_hash,expires_at,deleted_at,product_code,interpretation_result")
     .eq("id", parsedSessionId.data)
     .maybeSingle();
 
@@ -111,11 +111,23 @@ export async function POST(request: Request, context: RouteContext) {
     );
   }
 
+  // 저장 파일명에 분석 대상자 이름을 넣는다(예: naminglink-premium-안준수.pdf).
+  // 파일명에 못 쓰는 문자만 제거하고, 이름을 찾지 못하면 기존 고정 파일명을 쓴다.
+  const interpretation = session.interpretation_result as
+    | { reportData?: { childNameHangul?: string } }
+    | null;
+  const childName = String(interpretation?.reportData?.childNameHangul ?? "")
+    .replace(/[\\/:*?"<>|.\s]+/g, "")
+    .slice(0, 20);
+  const downloadFileName = childName
+    ? `naminglink-premium-${childName}.pdf`
+    : "naminglink-premium-report.pdf";
+
   const signedUrlLifetime = Math.max(1, Math.min(60, remainingSeconds));
   const { data: signedUrl, error: signedUrlError } = await supabase.storage
     .from(String(artifact.storage_bucket))
     .createSignedUrl(String(artifact.storage_path), signedUrlLifetime, {
-      download: "naming-link-premium-report.pdf",
+      download: downloadFileName,
     });
 
   if (signedUrlError || !signedUrl?.signedUrl) {

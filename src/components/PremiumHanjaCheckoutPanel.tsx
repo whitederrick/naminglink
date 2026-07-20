@@ -41,7 +41,7 @@ type Checkout = {
 
 type PremiumResult = {
   interpretation?: Record<string, string>;
-  reportData?: { primaryCandidate?: { hanjaName?: string }; expiresAt?: string };
+  reportData?: { primaryCandidate?: { hanjaName?: string }; childNameHangul?: string; expiresAt?: string };
   entitlement?: { candidateLimit?: 5 | 10; includesSaju?: boolean; includesPdf?: boolean };
 };
 
@@ -348,7 +348,13 @@ export function PremiumHanjaCheckoutPanel({
         const url = URL.createObjectURL(await response.blob());
         const anchor = document.createElement("a");
         anchor.href = url;
-        anchor.download = "naminglink-premium-test.pdf";
+        // 파일명에 분석 대상자 이름을 넣는다(예: naminglink-premium-안준수.pdf).
+        const childName = String(premium.reportData.childNameHangul ?? "")
+          .replace(/[\\/:*?"<>|.\s]+/g, "")
+          .slice(0, 20);
+        anchor.download = childName
+          ? `naminglink-premium-${childName}.pdf`
+          : "naminglink-premium-test.pdf";
         anchor.click();
         URL.revokeObjectURL(url);
       } catch (caught) {
