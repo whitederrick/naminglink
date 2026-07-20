@@ -1,8 +1,10 @@
+import { readFileSync } from "node:fs";
 import path from "node:path";
 import React from "react";
 import {
   Document,
   Font,
+  Image,
   Page,
   StyleSheet,
   Text,
@@ -108,12 +110,21 @@ Font.register({
 // 끊지 않으므로 표시 품질에 문제가 없다.
 Font.registerHyphenationCallback((word) => [word]);
 
-// "1. ... 2. ... 3. ..." 처럼 번호로 나열된 텍스트를 항목마다 줄바꿈해 보여준다.
+// 표지 우측 상단 로고를 base64 data URI로 미리 읽어둔다(@react-pdf가 로컬 파일 경로를 직접 fetch하려다 실패하는 문제 회피).
+let coverLogoSrc: string | null = null;
+try {
+  const data = readFileSync(path.join(process.cwd(), "public/images/logo-current.png"));
+  coverLogoSrc = `data:image/png;base64,${data.toString("base64")}`;
+} catch {
+  coverLogoSrc = null;
+}
+
+// "1. ... 2. ... 10. ..." 처럼 번호로 나열된 텍스트를 항목마다 줄바꿈해 보여준다.
 function toNumberedLines(text: string) {
   if (!text) return text;
-  const parts = text.split(/\s*(?=\d+\.\s)/).map((p) => p.trim()).filter(Boolean);
-  // 번호 항목이 2개 이상일 때만 줄바꿈 적용(일반 문단은 그대로).
-  return parts.filter((p) => /^\d+\.\s/.test(p)).length >= 2 ? parts.join("\n") : text;
+  // 항목(숫자.) 앞의 공백/줄바꿈만 줄바꿈으로 바꾼다. '10'의 '0'은 앞이 숫자라 매칭되지 않아 안 끊긴다.
+  const numbered = text.replace(/\s+(?=\d+\.\s)/g, "\n").replace(/^\n+/, "").trim();
+  return (numbered.match(/(?:^|\n)\d+\.\s/g) || []).length >= 2 ? numbered : text;
 }
 
 function HanjaText({
@@ -210,6 +221,7 @@ const styles = StyleSheet.create({
     letterSpacing: 6,
     marginBottom: 13,
   },
+  coverLogo: { position: "absolute", top: 38, right: 44, width: 60, opacity: 0.35 },
   coverQuoteRule: { width: 28, height: 2, backgroundColor: colors.sandDark, marginTop: 20, marginBottom: 16 },
   coverQuote: {
     maxWidth: 400,
@@ -397,7 +409,7 @@ function formatDate(value: string) {
 function ReportFooter({ reportId }: { reportId: string }) {
   return (
     <View style={styles.footer} fixed>
-      <Text>NAMING-LINK · PREMIUM NAMING REPORT</Text>
+      <Text>NAMING-LINK(GLOBAL NAMING STUDIO) · PREMIUM NAMING REPORT</Text>
       <Text>{reportId}</Text>
     </View>
   );
@@ -438,6 +450,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
       subject="전통 명리 참고와 공식 인명용 한자 기준을 결합한 이름 분석 리포트"
     >
       <Page size="A4" style={styles.page}>
+        {coverLogoSrc ? <Image src={coverLogoSrc} style={styles.coverLogo} /> : null}
         <View style={styles.brandRule} />
         <Text style={styles.eyebrow}>NAMING-LINK PREMIUM REPORT</Text>
         <Text style={styles.title}>아이의 이름에 담긴 뜻을{`\n`}오래 간직하는 기록</Text>

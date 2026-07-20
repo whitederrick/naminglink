@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     "/api/premium-reports/**/*": [
       "./assets/fonts/*.otf",
       "./assets/fonts/*.ttf",
+      "./public/images/logo-current.png",
     ],
   },
 };

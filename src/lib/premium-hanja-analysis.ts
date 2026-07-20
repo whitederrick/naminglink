@@ -255,7 +255,7 @@ async function generateGeneralSections(
             "sajuOverview: 년·월·일주와 시주, 일간을 근거로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게. '중심/축'은 일간(자기 자신)이며 오행 개수상 가장 많은 기운(elementSummary.dominant)과 다를 수 있으니 구분하십시오. 표면 집계라는 한계도 자연스럽게 곁들이십시오.",
             "fiveElementsAnalysis: 오행 분포를 해석하되 개수·최다/최소 기운은 반드시 elementSummary 사실만 사용하고 임의로 바꾸지 마십시오. 일간과의 관계 속 분위기를 6~8문장으로.",
             "namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로.",
-            `candidateComparison: ${args.candidates.length}개 후보를 '1. 한자 — 설명' 형식의 번호 목록으로 정리하십시오. 각 후보를 하나의 번호 항목으로 하고, 그 후보의 한자와 어떤 가족에게 어울리는지 구체적 이유를 2~3문장으로 씁니다. 항목은 '1.', '2.', '3.'처럼 번호로 시작하고 후보 순서대로.`,
+            `candidateComparison: ${args.candidates.length}개 후보를 '1. 한자 — 설명' 형식의 번호 목록으로만 정리하십시오. 각 후보를 하나의 번호 항목으로 하고, 그 후보의 한자와 어떤 가족에게 어울리는지 구체적 이유를 2~3문장으로 씁니다. 항목은 '1.', '2.', '3.'처럼 번호로 시작하고 후보 순서대로. 목록 앞뒤에 서론·결론·마무리 문장을 절대 붙이지 말고, 오직 번호 항목만 출력하십시오.`,
             PREMIUM_GUARDRAILS,
             "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison입니다.",
           ].join(" "),
