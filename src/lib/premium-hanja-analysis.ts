@@ -255,7 +255,7 @@ async function generateGeneralSections(
             "sajuOverview: 년·월·일주와 시주, 일간을 근거로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게. '중심/축'은 일간(자기 자신)이며 오행 개수상 가장 많은 기운(elementSummary.dominant)과 다를 수 있으니 구분하십시오. 표면 집계라는 한계도 자연스럽게 곁들이십시오.",
             "fiveElementsAnalysis: 오행 분포를 해석하되 개수·최다/최소 기운은 반드시 elementSummary 사실만 사용하고 임의로 바꾸지 마십시오. 일간과의 관계 속 분위기를 6~8문장으로.",
             "namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로.",
-            `candidateComparison: ${args.candidates.length}개 후보를 나란히 놓고 어떤 가족에게 어떤 후보가 어울리는지 후보 한자와 구체적 이유로 8~12문장으로.`,
+            `candidateComparison: ${args.candidates.length}개 후보를 '1. 한자 — 설명' 형식의 번호 목록으로 정리하십시오. 각 후보를 하나의 번호 항목으로 하고, 그 후보의 한자와 어떤 가족에게 어울리는지 구체적 이유를 2~3문장으로 씁니다. 항목은 '1.', '2.', '3.'처럼 번호로 시작하고 후보 순서대로.`,
             PREMIUM_GUARDRAILS,
             "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison입니다.",
           ].join(" "),
@@ -427,7 +427,12 @@ export async function buildPremiumHanjaTestResult(
         sajuOverview: `입력한 출생 정보를 기준으로 년주 ${saju.pillars.year.hanja}, 월주 ${saju.pillars.month.hanja}, 일주 ${saju.pillars.day.hanja}${saju.pillars.hour ? `, 시주 ${saju.pillars.hour.hanja}` : "로 계산했고 출생 시각 미상으로 시주는 제외"}했습니다. 년주는 전통적으로 가계와 성장 배경을 살피는 자리, 월주는 태어난 절기와 사회적 환경을 살피는 자리로 봅니다. 일주는 본인을 중심으로 관계와 생활 기반을 읽는 자리이며, 그중 첫 글자인 일간 ${saju.dayMaster.character}(${saju.dayMaster.elementLabel})을 해석의 기준점으로 삼습니다. ${saju.pillars.hour ? "시주는 후반의 관심과 표현 방향을 참고하는 자리로 함께 살핍니다." : "시주가 없으므로 시간대에 따른 세부 해석은 포함하지 않습니다."} 각 기둥은 서로의 관계 속에서 읽어야 하므로 한 글자만으로 성격이나 운명을 단정하지 않습니다.`,
         fiveElementsAnalysis: `천간·지지의 표면 오행 분포는 목 ${saju.visibleFiveElements.counts.WOOD}, 화 ${saju.visibleFiveElements.counts.FIRE}, 토 ${saju.visibleFiveElements.counts.EARTH}, 금 ${saju.visibleFiveElements.counts.METAL}, 수 ${saju.visibleFiveElements.counts.WATER}입니다. 이 분포는 여덟 글자의 겉오행을 집계한 것으로 어떤 기운이 반복되어 보이는지 한눈에 확인하는 자료입니다. 일간은 ${saju.dayMaster.elementLabel}에 해당하므로 다른 오행과의 생극 관계를 해석할 때 기준으로 삼습니다. 개수가 적은 오행이 곧바로 부족하거나 반드시 보충해야 할 오행이라는 뜻은 아닙니다. 계절과 월령, 지장간과 기운의 강약까지 검토하지 않은 표면 집계이므로 이름에서는 균형을 비교하는 보조 자료로만 사용합니다.`,
         namingBalance: "사주 원국과 오행 분포는 후보를 자동으로 탈락시키거나 특정 한자를 강제하는 단독 기준이 아닙니다. 먼저 공식 지정 음가, 자의의 긍정성, 가족이 담고 싶은 가치와 실사용 설명력을 확인합니다. 그다음 후보의 의미가 원국에서 두드러진 흐름을 부드럽게 조절하거나 가족이 원하는 상징을 더하는지 비교합니다. 검수된 한자 오행 분류가 없는 글자는 특정 오행의 직접 보완자로 단정하지 않고 자의의 상징적 연결만 설명합니다.",
-        candidateComparison: `${candidates.length}개 후보는 모두 같은 한글 음가를 유지하지만 글자별 자의와 결합 서사가 다릅니다. ${candidates.slice(0, 3).map((candidate) => `${candidate.hanjaName}은 ${candidate.characters.map((item) => item.meaning).join("·")}의 의미를 중심으로 합니다`).join(". ")}. 원국 참고에서는 특정 오행을 기계적으로 채우는 후보보다 자의가 분명하고 가족의 가치와 연결되는 후보를 우선 비교합니다. 상위 후보를 고를 때에는 사주 연결 해석과 함께 일상에서 뜻을 자연스럽게 설명할 수 있는지도 확인해야 합니다.`,
+        candidateComparison: candidates
+          .map(
+            (candidate, index) =>
+              `${index + 1}. ${candidate.hanjaName} — ${candidate.characters.map((item) => item.meaning).join("·")}의 자의를 중심으로 한 이름입니다. 자의가 분명하고 가족이 담고 싶은 가치와 잘 연결되는지, 일상에서 뜻을 자연스럽게 설명할 수 있는지를 기준으로 비교해 보세요.`,
+          )
+          .join("\n"),
       }
     : {
         sajuOverview: "",

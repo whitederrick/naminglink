@@ -108,6 +108,14 @@ Font.register({
 // 끊지 않으므로 표시 품질에 문제가 없다.
 Font.registerHyphenationCallback((word) => [word]);
 
+// "1. ... 2. ... 3. ..." 처럼 번호로 나열된 텍스트를 항목마다 줄바꿈해 보여준다.
+function toNumberedLines(text: string) {
+  if (!text) return text;
+  const parts = text.split(/\s*(?=\d+\.\s)/).map((p) => p.trim()).filter(Boolean);
+  // 번호 항목이 2개 이상일 때만 줄바꿈 적용(일반 문단은 그대로).
+  return parts.filter((p) => /^\d+\.\s/.test(p)).length >= 2 ? parts.join("\n") : text;
+}
+
 function HanjaText({
   value,
   style,
@@ -227,21 +235,22 @@ const styles = StyleSheet.create({
   candidateHeader: { marginBottom: 15 },
   titleBadgeRow: {
     flexDirection: "row",
-    alignItems: "flex-end",
-    gap: 7,
+    alignItems: "center",
+    gap: 8,
     marginTop: 6,
+    marginBottom: 12,
   },
   titleBadge: {
-    borderRadius: 9,
+    borderRadius: 10,
     backgroundColor: colors.tealSoft,
     color: colors.teal,
-    fontSize: 9,
+    fontSize: 11,
     fontWeight: 700,
-    paddingVertical: 4,
-    paddingHorizontal: 9,
+    paddingVertical: 5,
+    paddingHorizontal: 11,
   },
-  sectionTitle: { marginTop: 7, marginBottom: 9, fontSize: 20, fontWeight: 700 },
-  sectionLead: { marginTop: 9, color: colors.muted, fontSize: 9, lineHeight: 1.55 },
+  sectionTitle: { marginTop: 7, marginBottom: 9, fontSize: 20, fontWeight: 700, lineHeight: 1.3 },
+  sectionLead: { marginTop: 4, color: colors.muted, fontSize: 9.5, lineHeight: 1.55 },
   gridFour: { flexDirection: "row", gap: 8 },
   pillarCard: {
     flexGrow: 1,
@@ -299,7 +308,7 @@ const styles = StyleSheet.create({
     fontSize: 23,
     fontWeight: 700,
   },
-  recommendationSummary: { marginTop: 7, color: colors.muted, fontSize: 9 },
+  recommendationSummary: { marginTop: 8, color: colors.muted, fontSize: 9.8, lineHeight: 1.55 },
   characterRow: { marginTop: 15, flexDirection: "row", gap: 10 },
   characterCard: { flexGrow: 1, flexBasis: 0, backgroundColor: colors.sand, padding: 13 },
   candidateNameCard: { padding: 17 },
@@ -316,13 +325,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
   },
   characterTitle: { fontSize: 15, fontWeight: 700 },
-  characterMeaning: { marginTop: 5, color: colors.muted, fontSize: 8.5 },
+  characterMeaning: { marginTop: 6, color: colors.muted, fontSize: 9.2 },
   verified: { marginTop: 8, color: colors.teal, fontSize: 7.5, fontWeight: 700 },
   storyBox: { marginTop: 16, borderTopWidth: 1, borderTopColor: colors.line, paddingTop: 14 },
-  candidateStoryBox: { marginTop: 9, paddingTop: 8 },
-  storyLabel: { fontSize: 9.5, fontWeight: 700 },
+  candidateStoryBox: { marginTop: 12, paddingTop: 10 },
+  storyLabel: { fontSize: 10.5, fontWeight: 700 },
   storyText: { marginTop: 6, color: colors.muted, fontSize: 8.7 },
-  candidateStoryText: { marginTop: 5, color: colors.muted, fontSize: 8.7, lineHeight: 1.5 },
+  candidateStoryText: { marginTop: 6, color: colors.muted, fontSize: 9.6, lineHeight: 1.6 },
   analysisSection: {
     marginBottom: 14,
     borderWidth: 1,
@@ -330,8 +339,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     padding: 15,
   },
-  analysisTitle: { color: colors.teal, fontSize: 10, fontWeight: 700 },
-  analysisText: { marginTop: 7, color: colors.muted, fontSize: 8.8 },
+  analysisTitle: { color: colors.teal, fontSize: 11, fontWeight: 700 },
+  analysisText: { marginTop: 8, color: colors.muted, fontSize: 9.6, lineHeight: 1.65 },
   candidateNumber: { color: colors.muted, fontSize: 8, marginBottom: 4 },
   sajuConnection: { marginTop: 16, backgroundColor: colors.tealSoft, padding: 14 },
   candidateSajuConnection: { marginTop: 11, padding: 11 },
@@ -438,11 +447,6 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
         <View style={styles.certificate}>
           <Text style={styles.certificateLabel}>분 석 대 상 자</Text>
           <Text style={styles.nameHangul}>{data.childNameHangul}</Text>
-          <HanjaText
-            value={data.primaryCandidate.hanjaName}
-            style={styles.nameHanja}
-            fontWeight={700}
-          />
           <View style={styles.coverQuoteRule} />
           <Text style={styles.coverQuote}>
             이름은 부모가 아이에게 건네는 첫 번째 선물이자,{`\n`}평생 가장 다정하게 불릴 한마디입니다.
@@ -647,7 +651,7 @@ export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportD
           <View style={styles.analysisSection}>
             <Text style={styles.analysisTitle}>종합 비교 해설</Text>
             <HanjaText
-              value={data.sajuInterpretation.candidateComparison}
+              value={toNumberedLines(data.sajuInterpretation.candidateComparison)}
               style={styles.analysisText}
             />
           </View>
