@@ -92,16 +92,15 @@ Font.register({
   ],
 });
 
+// 한자용 CJK 폰트는 400·700 굵기가 같은 파일이라 굵기 차이가 없다.
+// 두 번 등록하면 5.4MB 폰트를 서버리스 콜드스타트에서 두 번 파싱해 PDF 생성이 60초를 넘길 수 있어,
+// 하나만 등록한다(HanjaText도 CJK는 항상 400으로 렌더).
 Font.register({
   family: "NotoSansCJKkr",
   fonts: [
     {
       src: path.join(process.cwd(), "assets/fonts/NotoSansCJKkr-Naming.otf"),
       fontWeight: 400,
-    },
-    {
-      src: path.join(process.cwd(), "assets/fonts/NotoSansCJKkr-Naming.otf"),
-      fontWeight: 700,
     },
   ],
 });
@@ -131,7 +130,8 @@ function HanjaText({
           key={`${character}-${index}`}
           style={{
             fontFamily: isCjk(character) ? "NotoSansCJKkr" : "NotoSansKR",
-            fontWeight,
+            // CJK는 400만 등록돼 있으므로 bold 요청이 와도 400으로 렌더한다(같은 파일이라 시각 차이 없음).
+            fontWeight: isCjk(character) ? 400 : fontWeight,
           }}
         >
           {character}
