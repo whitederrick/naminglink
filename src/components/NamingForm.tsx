@@ -58,17 +58,21 @@ function FieldInput({
   onChange,
   invalid = false,
   errorId,
+  disabled = false,
 }: {
   field: FieldConfig;
   value: string;
   onChange: (value: string) => void;
   invalid?: boolean;
   errorId?: string;
+  disabled?: boolean;
 }) {
+  const disabledClass = disabled ? " disabled:cursor-not-allowed disabled:opacity-50" : "";
   if (field.type === "select") {
     return (
       <select
         required={field.required}
+        disabled={disabled}
         aria-invalid={invalid}
         aria-describedby={invalid ? errorId : undefined}
         value={value}
@@ -77,7 +81,7 @@ function FieldInput({
           invalid
             ? "border-brand-rose focus:border-brand-rose"
             : "border-line focus:border-foreground"
-        }`}
+        }${disabledClass}`}
       >
         {field.options?.map((option) => (
           <option key={option.value} value={option.value}>
@@ -92,6 +96,7 @@ function FieldInput({
     return (
       <textarea
         required={field.required}
+        disabled={disabled}
         aria-invalid={invalid}
         aria-describedby={invalid ? errorId : undefined}
         value={value}
@@ -102,7 +107,7 @@ function FieldInput({
           invalid
             ? "border-brand-rose focus:border-brand-rose"
             : "border-line focus:border-foreground"
-        }`}
+        }${disabledClass}`}
       />
     );
   }
@@ -110,6 +115,7 @@ function FieldInput({
   return (
     <input
       required={field.required}
+      disabled={disabled}
       aria-invalid={invalid}
       aria-describedby={invalid ? errorId : undefined}
       value={value}
@@ -119,7 +125,7 @@ function FieldInput({
         invalid
           ? "border-brand-rose focus:border-brand-rose"
           : "border-line focus:border-foreground"
-      }`}
+      }${disabledClass}`}
     />
   );
 }
@@ -595,6 +601,11 @@ export function NamingForm({
                       field.name,
                       field.hint,
                     );
+                    // 돌림자를 '사용함'으로 선택했을 때만 돌림자 글자·한자 입력을 허용한다.
+                    const fieldDisabled =
+                      (field.name === "generationSyllable" ||
+                        field.name === "generationHanja") &&
+                      values.generationNameUsage !== "used";
 
                     return (
                   <label
@@ -650,6 +661,7 @@ export function NamingForm({
                       onChange={(value) => updateField(field, value)}
                       invalid={Boolean(fieldError)}
                       errorId={fieldErrorId}
+                      disabled={fieldDisabled}
                     />
                     {fieldError ? (
                       <span
