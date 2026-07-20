@@ -810,6 +810,20 @@ function isPrivateUseCharacter(value: string) {
   );
 }
 
+// 표준 CJK 표의문자 영역인지. PUA·미할당(예: U+A0142) 같은 글자는 화면·PDF에서 깨져 보이므로
+// 후보·배제 목록 어디에도 노출하지 않는다.
+function isCjkIdeograph(value: string) {
+  const codePoint = value.codePointAt(0) ?? 0;
+  return (
+    (codePoint >= 0x3400 && codePoint <= 0x4dbf) ||
+    (codePoint >= 0x4e00 && codePoint <= 0x9fff) ||
+    (codePoint >= 0xf900 && codePoint <= 0xfaff) ||
+    (codePoint >= 0x20000 && codePoint <= 0x2a6df) ||
+    (codePoint >= 0x2a700 && codePoint <= 0x2ebef) ||
+    (codePoint >= 0x2f800 && codePoint <= 0x2fa1f)
+  );
+}
+
 function hasUsableMeaning(meaning: string, reading: string) {
   const normalizedMeaning = meaning.replace(/[\s()·,.'"-]/g, "");
   const normalizedReading = reading.replace(/\s/g, "");
@@ -894,6 +908,7 @@ function isCandidateOptionAllowed(
   inputFactors: Record<string, unknown>,
 ) {
   return (
+    isCjkIdeograph(option.character) &&
     !isPrivateUseCharacter(option.character) &&
     !unsuitableNameCharacters.has(option.character) &&
     hasUsableMeaning(option.meaning, option.reading) &&
@@ -1002,6 +1017,7 @@ function officialOptionsFromInput(
     if (
       !character ||
       reading !== syllable ||
+      !isCjkIdeograph(character) ||
       isPrivateUseCharacter(character) ||
       !hasUsableMeaning(meaning, reading) ||
       hasUnsuitableMeaning(meaning)
@@ -1048,16 +1064,17 @@ function rejectedOfficialMeaningOptions(
       const character = stringValue(option.character);
       const reading = stringValue(option.reading);
       const meaning = displayMeaning(option.meaning);
+      // PUA·미할당 등 렌더 안 되는 글자는 배제 목록에도 노출하지 않는다(정상 CJK 표의문자만 허용).
+      if (!character || !isCjkIdeograph(character)) return [];
       const genderConflict = conflictsWithGenderContext({ meaning }, inputFactors);
       const variantOnly = isVariantOnlyMeaning(meaning);
       const readingListOnly = isReadingListOnlyMeaning(meaning);
       if (
-        !character ||
-        (!unsuitableNameCharacters.has(character) &&
-          !hasUnsuitableMeaning(meaning) &&
-          !variantOnly &&
-          !readingListOnly &&
-          !genderConflict)
+        !unsuitableNameCharacters.has(character) &&
+        !hasUnsuitableMeaning(meaning) &&
+        !variantOnly &&
+        !readingListOnly &&
+        !genderConflict
       ) return [];
 
       return [{
