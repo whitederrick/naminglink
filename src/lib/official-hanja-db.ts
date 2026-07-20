@@ -45,17 +45,25 @@ export async function getOfficialHanjaCandidates(
     if (sourceError || !sources?.length) return null;
 
     const source = sources[0];
-    const { data: entries, error: entryError } = await supabase
-      .from("official_hanja_entries")
-      .select("hangul_syllable,hanja,designated_reading,meaning_ko,notes,metadata")
-      .eq("source_id", source.id)
-      .eq("review_status", "production")
-      .eq("is_name_usable", true)
-      .in("hangul_syllable", syllables)
-      .order("hangul_syllable")
-      .limit(500);
+    // 음절별로 나눠 조회해 전체 행 제한 때문에 특정 음절의 후보가 통째로 잘리는 것을 막고,
+    // hanja 2차 정렬로 같은 음절 안의 후보 순서를 결정적으로 유지한다(동점 랭킹의 재현성 보장).
+    const entryResults = await Promise.all(
+      syllables.map((syllable) =>
+        supabase
+          .from("official_hanja_entries")
+          .select("hangul_syllable,hanja,designated_reading,meaning_ko,notes,metadata")
+          .eq("source_id", source.id)
+          .eq("review_status", "production")
+          .eq("is_name_usable", true)
+          .eq("hangul_syllable", syllable)
+          .order("hanja")
+          .limit(500),
+      ),
+    );
+    if (entryResults.some((result) => result.error)) return null;
+    const entries = entryResults.flatMap((result) => result.data ?? []);
 
-    if (entryError || !entries?.length) return null;
+    if (!entries.length) return null;
 
     const candidates: Record<string, OfficialHanjaCandidate[]> = {};
 

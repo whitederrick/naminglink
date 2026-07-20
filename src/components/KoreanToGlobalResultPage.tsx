@@ -11,6 +11,7 @@ import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
+import { cappedCandidateCount } from "@/lib/candidate-count";
 
 type StoredResult = {
   result: unknown;
@@ -19,11 +20,7 @@ type StoredResult = {
   createdAt: string;
 };
 
-function candidateCount(result: unknown) {
-  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
-  const candidates = (result as Record<string, unknown>).candidates;
-  return Array.isArray(candidates) ? Math.min(candidates.length, 5) : 0;
-}
+const candidateCount = (result: unknown) => cappedCandidateCount(result, 5);
 
 const emptySubscribe = () => () => {};
 

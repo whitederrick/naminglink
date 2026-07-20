@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { requireAdmin } from "@/lib/admin-auth";
@@ -101,12 +102,18 @@ export async function POST(request: NextRequest) {
   if (!sourceKey || !title) {
     return NextResponse.json({ ok: false, error: "원본 키와 문서명을 입력해 주세요." }, { status: 400 });
   }
+  // sourceKey는 스토리지 경로에 들어가므로 경로 이탈 문자를 막고 화이트리스트만 허용한다.
+  if (!/^[a-zA-Z0-9_-]{1,64}$/.test(sourceKey)) {
+    return NextResponse.json({ ok: false, error: "원본 키는 영문·숫자·하이픈·밑줄만 사용할 수 있습니다." }, { status: 400 });
+  }
   if (file.size > MAX_PDF_BYTES) {
     return NextResponse.json({ ok: false, error: "PDF는 30MB 이하만 업로드할 수 있습니다." }, { status: 400 });
   }
 
   const buffer = Buffer.from(await file.arrayBuffer());
-  const filePath = `${documentType.toLowerCase()}/${sourceKey}/${file.name}`;
+  // 파일명은 사용자 입력이므로 경로에 그대로 쓰지 않고 서버에서 안전한 이름을 생성한다.
+  const safeDocumentType = /^[a-zA-Z0-9_-]{1,32}$/.test(documentType) ? documentType.toLowerCase() : "hanja";
+  const filePath = `${safeDocumentType}/${sourceKey}/${randomUUID()}.pdf`;
   const { error: uploadError } = await supabase.storage
     .from("official-hanja")
     .upload(filePath, buffer, { contentType: "application/pdf", upsert: true });

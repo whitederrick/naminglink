@@ -83,7 +83,12 @@ function assertValidSolarDate(year: number, month: number, day: number) {
   }
 }
 
-function normalizeInput(input: PremiumSajuInput) {
+export function validatePremiumBirthDate(
+  input: Pick<
+    PremiumSajuInput,
+    "calendarType" | "year" | "month" | "day" | "lunarLeapMonth"
+  >,
+) {
   assertIntegerInRange(
     input.year,
     SAJU_ENGINE.supportedYearFrom,
@@ -91,7 +96,52 @@ function normalizeInput(input: PremiumSajuInput) {
     "출생 연도",
   );
   assertIntegerInRange(input.month, 1, 12, "출생 월");
-  assertIntegerInRange(input.day, 1, 31, "출생 일");
+  assertIntegerInRange(
+    input.day,
+    1,
+    input.calendarType === "lunar" ? 30 : 31,
+    "출생 일",
+  );
+
+  if (input.calendarType !== "lunar") {
+    const solarDate = { year: input.year, month: input.month, day: input.day };
+    assertValidSolarDate(solarDate.year, solarDate.month, solarDate.day);
+    return solarDate;
+  }
+
+  const leap = input.lunarLeapMonth ?? false;
+  let solarDate: { year: number; month: number; day: number };
+  let lunarEcho: { year: number; month: number; day: number; isLeapMonth: boolean };
+  try {
+    solarDate = lunarToSolar(input.year, input.month, input.day, leap).solar;
+    lunarEcho = solarToLunar(solarDate.year, solarDate.month, solarDate.day).lunar;
+  } catch {
+    throw new RangeError(
+      "입력한 음력 출생일이 실제 달력에 존재하지 않습니다. 날짜와 윤달 여부를 확인해 주세요.",
+    );
+  }
+  if (
+    lunarEcho.year !== input.year ||
+    lunarEcho.month !== input.month ||
+    lunarEcho.day !== input.day ||
+    lunarEcho.isLeapMonth !== leap
+  ) {
+    throw new RangeError(
+      "음력-양력 변환 결과가 입력한 출생일과 일치하지 않습니다. 날짜를 확인해 주세요.",
+    );
+  }
+  assertValidSolarDate(solarDate.year, solarDate.month, solarDate.day);
+  assertIntegerInRange(
+    solarDate.year,
+    SAJU_ENGINE.supportedYearFrom,
+    SAJU_ENGINE.supportedYearTo,
+    "출생 연도(양력 변환)",
+  );
+  return solarDate;
+}
+
+function normalizeInput(input: PremiumSajuInput) {
+  const solarDate = validatePremiumBirthDate(input);
 
   if (input.birthHour !== null) {
     assertIntegerInRange(input.birthHour, 0, 23, "출생 시");
@@ -99,18 +149,6 @@ function normalizeInput(input: PremiumSajuInput) {
   } else if (input.birthMinute !== null) {
     throw new RangeError("출생 시를 모르는 경우 출생 분도 입력하지 않아야 합니다.");
   }
-
-  const solarDate =
-    input.calendarType === "lunar"
-      ? lunarToSolar(
-          input.year,
-          input.month,
-          input.day,
-          input.lunarLeapMonth ?? false,
-        ).solar
-      : { year: input.year, month: input.month, day: input.day };
-
-  assertValidSolarDate(solarDate.year, solarDate.month, solarDate.day);
 
   return {
     solarDate,

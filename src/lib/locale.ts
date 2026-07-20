@@ -42,12 +42,27 @@ export function isLocale(value: string | null | undefined): value is Locale {
 }
 
 function localeFromAcceptLanguage(value: string): Locale | null {
-  const lower = value.toLowerCase();
+  // "fr-FR,fr;q=0.9,en;q=0.7"을 q값 내림차순으로 정렬한 뒤 언어 태그의 primary subtag를
+  // 정확히 대조한다. 부분 문자열 매칭은 목록 순서에 따라 엉뚱한 언어를 고를 수 있어 쓰지 않는다.
+  const ranked = value
+    .split(",")
+    .map((part) => {
+      const [tag, ...params] = part.trim().split(";");
+      const qParam = params.find((param) => param.trim().startsWith("q="));
+      const quality = qParam ? Number(qParam.trim().slice(2)) : 1;
+      return {
+        // ko-KR·ko_KR 등 하이픈·언더스코어 구분 모두에서 primary subtag를 뽑는다.
+        primary: tag.trim().toLowerCase().split(/[-_]/)[0],
+        quality: Number.isFinite(quality) ? quality : 0,
+      };
+    })
+    // q=0은 "수용 불가"를 뜻하므로 제외한다.
+    .filter((entry) => entry.primary && entry.quality > 0)
+    .sort((a, b) => b.quality - a.quality);
 
-  for (const locale of supportedLocales) {
-    if (lower.includes(locale)) {
-      return locale;
-    }
+  for (const entry of ranked) {
+    const matched = supportedLocales.find((locale) => locale === entry.primary);
+    if (matched) return matched;
   }
 
   return null;

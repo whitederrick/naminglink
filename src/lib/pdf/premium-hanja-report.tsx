@@ -383,8 +383,10 @@ function ReportFooter({ reportId }: { reportId: string }) {
 
 export function PremiumHanjaReportDocument({ data }: { data: PremiumHanjaReportData }) {
   const saju = data.saju ?? null;
+  // 후보 수는 상위(buildPremiumHanjaTestResult)에서 상품별 상한으로 이미 제한된다.
+  // 여기서 다시 자르면 조용히 축소될 수 있으므로 받은 후보를 그대로 렌더링한다.
   const candidates = data.candidates?.length
-    ? data.candidates.slice(0, 10)
+    ? data.candidates
     : [data.primaryCandidate];
   const pillars = saju
     ? ([

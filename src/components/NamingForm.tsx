@@ -27,6 +27,14 @@ import {
   type NamingFieldErrors,
 } from "@/lib/naming-validation";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { cappedCandidateCount } from "@/lib/candidate-count";
+import { getFormCopy } from "@/lib/i18n-form";
+import {
+  getServiceOverride,
+  localizeFieldLabel,
+  localizeOptions,
+  localizeSectionDescription,
+} from "@/lib/i18n-service";
 
 type ApiResult = {
   ok: boolean;
@@ -134,11 +142,7 @@ function resolveMotivation(
 const DEFAULT_ANALYSIS_AD_SECONDS = 5;
 const HANJA_ANALYSIS_AD_SECONDS = 15;
 
-function resultCandidateCount(result: unknown) {
-  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
-  const candidates = (result as Record<string, unknown>).candidates;
-  return Array.isArray(candidates) ? Math.min(candidates.length, 5) : 0;
-}
+const resultCandidateCount = (result: unknown) => cappedCandidateCount(result, 5);
 
 function restoredDraftValues(
   initialValues: Record<string, string>,
@@ -181,6 +185,12 @@ export function NamingForm({
   const isGlobalToKorean =
     service.serviceType === "GLOBAL_TO_KOREAN" && !isHangulTransliteration;
   const usesDedicatedResultPage = isHanjaMeaning || isKoreanToGlobal;
+  // 외국인 대상 서비스(GLOBAL_TO_KOREAN: 한국 이름 만들기·발음 표기)만 로케일에 따라 번역한다.
+  // 한국어 대상 서비스는 항상 ko를 사용해 기존 한국어 문구를 그대로 유지한다.
+  const isForeignAudience = service.serviceType === "GLOBAL_TO_KOREAN";
+  const t = getFormCopy(isForeignAudience ? locale : "ko");
+  // 외국인 대상 서비스일 때만 폼 설정(섹션 설명·필드 라벨·옵션) 로케일 오버라이드를 적용한다.
+  const serviceOverride = isForeignAudience ? getServiceOverride(locale) : null;
   const initialValues = useMemo(() => {
     const preferredNameLocale =
       isHangulTransliteration && getCountryOptionsForLocale(locale).length > 0
@@ -207,9 +217,21 @@ export function NamingForm({
   }, [isHangulTransliteration, locale, service.sections]);
   const draftStorageKey = `naminglink:form-draft:${service.slug}`;
 
-  const [values, setValues] = useState(() =>
-    restoredDraftValues(initialValues, draftStorageKey),
-  );
+  // SSR과 클라이언트 첫 렌더가 동일하도록 초기값은 결정적인 initialValues를 쓰고,
+  // sessionStorage 초안 복원은 마운트 후 useEffect에서 적용해 hydration 불일치를 막는다.
+  const [values, setValues] = useState(initialValues);
+  useEffect(() => {
+    void Promise.resolve().then(() => {
+      const restored = restoredDraftValues(initialValues, draftStorageKey);
+      setValues((current) =>
+        Object.keys(restored).some((key) => restored[key] !== current[key])
+          ? restored
+          : current,
+      );
+    });
+    // 마운트 시 한 번만 초안을 복원한다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [draftStorageKey]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<NamingFieldErrors>({});
@@ -258,7 +280,7 @@ export function NamingForm({
       setFieldErrors(validationErrors);
 
       if (Object.keys(validationErrors).length > 0) {
-        setError("정확한 분석을 위해 입력 형식을 확인해 주세요.");
+        setError(t.errorCheckInput);
         return;
       }
     } else {
@@ -266,7 +288,7 @@ export function NamingForm({
     }
 
     if (!agreedToTerms || !agreedToPrivacy) {
-      setError("이용약관과 개인정보처리방침에 동의해야 분석을 시작할 수 있습니다.");
+      setError(t.errorConsent);
       return;
     }
 
@@ -281,7 +303,7 @@ export function NamingForm({
       if (!accessToken) {
         setSaveResult(false);
         setIsSignedIn(false);
-        setError("분석 결과를 저장하려면 다시 로그인해 주세요.");
+        setError(t.errorLoginToSave);
         return;
       }
     }
@@ -367,7 +389,7 @@ export function NamingForm({
 
       if (!response.ok || !payload.ok) {
         if (payload.fieldErrors) setFieldErrors(payload.fieldErrors);
-        throw new Error(payload.error || "작명 요청을 처리하지 못했습니다.");
+        throw new Error(payload.error || t.errorRequestFailed);
       }
 
       const hasRewardableResult =
@@ -437,7 +459,7 @@ export function NamingForm({
     } catch (caught) {
       trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: service.serviceType });
       if (!adWindowComplete) await completeAdWindow();
-      setError(caught instanceof Error ? caught.message : "오류가 발생했습니다.");
+      setError(caught instanceof Error ? caught.message : t.errorGeneric);
     } finally {
       if (countdownTimer !== null) window.clearInterval(countdownTimer);
       setAnalysisCountdown(0);
@@ -500,11 +522,15 @@ export function NamingForm({
         }
       }
 
-      sessionStorage.setItem(draftStorageKey, JSON.stringify(next));
-
       return next;
     });
   }
+
+  // 초안 저장은 상태 업데이터 밖에서 수행한다(업데이터 내부 부수효과는 StrictMode에서 이중 실행됨).
+  useEffect(() => {
+    if (values === initialValues) return;
+    sessionStorage.setItem(draftStorageKey, JSON.stringify(values));
+  }, [values, initialValues, draftStorageKey]);
 
   return (
     <div className="grid gap-6">
@@ -530,7 +556,11 @@ export function NamingForm({
             >
               <h2 className="text-lg font-semibold">{section.title}</h2>
               <p className="mt-2 text-sm leading-6 text-muted">
-                {section.description}
+                {localizeSectionDescription(
+                  serviceOverride,
+                  section.title,
+                  section.description,
+                )}
               </p>
 
               <div
@@ -550,6 +580,11 @@ export function NamingForm({
                   (() => {
                     const fieldError = fieldErrors[field.name];
                     const fieldErrorId = `${service.slug}-${field.name}-error`;
+                    const localizedLabel = localizeFieldLabel(
+                      serviceOverride,
+                      field.name,
+                      field.label,
+                    );
 
                     return (
                   <label
@@ -578,25 +613,23 @@ export function NamingForm({
                                     : "grid gap-2"
                     }`}
                   >
-                    <span className="text-sm font-medium">{field.label}</span>
+                    <span className="text-sm font-medium">{localizedLabel}</span>
                     <FieldInput
-                      field={
-                        isHangulTransliteration && field.name === "country"
-                          ? {
-                              ...field,
-                              options: getCountryOptionsForLocale(
-                                values.originalNameLanguage,
-                              ),
-                            }
-                          : isKoreanToGlobal && field.name === "targetLanguage"
-                            ? {
-                                ...field,
-                                options: getLanguageOptionsForCountry(
-                                  values.targetCountry,
-                                ),
-                              }
-                          : field
-                      }
+                      field={(() => {
+                        const resolvedOptions =
+                          isHangulTransliteration && field.name === "country"
+                            ? getCountryOptionsForLocale(values.originalNameLanguage)
+                            : isKoreanToGlobal && field.name === "targetLanguage"
+                              ? getLanguageOptionsForCountry(values.targetCountry)
+                              : field.options;
+                        return {
+                          ...field,
+                          label: localizedLabel,
+                          options: resolvedOptions
+                            ? localizeOptions(serviceOverride, resolvedOptions)
+                            : resolvedOptions,
+                        };
+                      })()}
                       value={values[field.name] ?? ""}
                       onChange={(value) => updateField(field, value)}
                       invalid={Boolean(fieldError)}
@@ -617,11 +650,11 @@ export function NamingForm({
                     !isHangulTransliteration &&
                     !isKoreanToGlobal ? (
                       <span className="text-xs leading-5 text-muted">
-                        기본 언어: {selectedCountry.languageName} · 현지 이름
-                        예시: {selectedCountry.localNameHint}
-                        {selectedCountry.motivationNote
-                          ? ` · 추천 옵션: ${selectedCountry.motivationNote}`
-                          : ""}
+                        {t.countryHint({
+                          languageName: selectedCountry.languageName,
+                          localNameHint: selectedCountry.localNameHint,
+                          motivationNote: selectedCountry.motivationNote,
+                        })}
                       </span>
                     ) : null}
                     {field.hint ? (
@@ -689,10 +722,10 @@ export function NamingForm({
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
           <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,26rem)]">
             <div>
-              <h2 className="text-lg font-semibold">필수 동의</h2>
+              <h2 className="text-lg font-semibold">{t.consentTitle}</h2>
               <p className="mt-2 text-sm leading-6 text-muted">
-                이름, 생년월일, 국가 등의 입력 내용은 분석 결과 생성에 사용되며,
-                <span className="block sm:inline"> 저장을 선택한 회원의 입력 내용과 결과만 저장됩니다.</span>
+                {t.consentIntro}
+                <span className="block sm:inline">{t.consentIntroSaved}</span>
               </p>
               <div className="mt-4 grid gap-3">
                 <label className="flex items-start gap-3 text-sm leading-6">
@@ -708,9 +741,9 @@ export function NamingForm({
                       onClick={() => setLegalDocument("terms")}
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
-                      이용약관
+                      {t.termsLink}
                     </button>
-                    에 동의합니다.
+                    {t.agreeToTermsSuffix}
                   </span>
                 </label>
                 <label className="flex items-start gap-3 text-sm leading-6">
@@ -726,9 +759,9 @@ export function NamingForm({
                       onClick={() => setLegalDocument("privacy")}
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
-                      개인정보처리방침
+                      {t.privacyLink}
                     </button>
-                    에 동의합니다.
+                    {t.agreeToPrivacySuffix}
                   </span>
                 </label>
                 {isSignedIn ? (
@@ -741,23 +774,23 @@ export function NamingForm({
                     />
                     <span>
                       <strong className="block font-semibold text-foreground">
-                        분석 결과를 내 계정에 저장(선택)
+                        {t.saveResultLabel}
                       </strong>
                       <span className="text-muted">
-                        선택한 경우에만 입력 내용과 분석 결과를 저장합니다.
+                        {t.saveResultHint}
                       </span>
                     </span>
                   </label>
                 ) : (
                   <p className="rounded-lg border border-line bg-background p-3 text-sm leading-6 text-muted">
-                    비회원 분석 결과는 저장하지 않습니다. 결과 보관이 필요하면{" "}
+                    {t.guestNoSavePrefix}
                     <Link
                       href="/login"
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
-                      로그인
+                      {t.loginLink}
                     </Link>
-                    한 뒤 저장을 선택해 주세요.
+                    {t.guestNoSaveSuffix}
                   </p>
                 )}
               </div>
@@ -766,7 +799,7 @@ export function NamingForm({
               <AdBanner
                 variant="inline"
                 slotKey="consent_card"
-                label="필수 동의 영역 광고"
+                label={t.adConsentLabel}
               />
             </div>
           </div>
@@ -778,7 +811,7 @@ export function NamingForm({
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
         >
           <Send aria-hidden="true" size={17} />
-          {isHangulTransliteration ? "한글 발음 분석 시작" : "광고 확인 후 분석 시작"}
+          {isHangulTransliteration ? t.submitTransliteration : t.submitDefault}
         </button>
 
         {error ? (
@@ -793,7 +826,7 @@ export function NamingForm({
           <div className="grid gap-3">
             <AdBanner variant="leaderboard" />
             <p className="text-center text-sm font-medium text-brand-teal">
-              광고 확인 후 결과를 공개합니다. {analysisCountdown}초
+              {t.adRevealNote(analysisCountdown)}
             </p>
             <AILoadingSteps />
           </div>
@@ -804,17 +837,17 @@ export function NamingForm({
             <ResultStorageNotice persistence={result.persistence} />
             <div className="rounded-lg border border-line bg-surface p-4 shadow-sm">
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <p className="text-sm font-semibold text-brand-teal">분석 완료</p>
+                <p className="text-sm font-semibold text-brand-teal">{t.analysisDone}</p>
                 <a
                   href="#naming-input-form"
                   className="inline-flex h-9 items-center justify-center gap-2 rounded-lg border border-line bg-background px-3 text-sm font-semibold"
                 >
                   <ArrowLeft aria-hidden="true" size={16} />
-                  입력 수정
+                  {t.editInput}
                 </a>
               </div>
               <p className="mt-1 text-sm leading-6 text-muted">
-                가장 적합한 후보 1개를 먼저 공개했습니다. 추가 후보는 광고 확인 또는 향후 결제로 한 개씩 열 수 있습니다.
+                {t.previewNote}
               </p>
             </div>
             <ResultCard

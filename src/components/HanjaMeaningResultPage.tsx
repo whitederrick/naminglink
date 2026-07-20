@@ -12,6 +12,7 @@ import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { PremiumHanjaCheckoutPanel } from "@/components/PremiumHanjaCheckoutPanel";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
+import { cappedCandidateCount } from "@/lib/candidate-count";
 
 type StoredResult = {
   result: unknown;
@@ -21,11 +22,7 @@ type StoredResult = {
   inputFactors?: Record<string, unknown>;
 };
 
-function candidateCount(result: unknown) {
-  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
-  const candidates = (result as Record<string, unknown>).candidates;
-  return Array.isArray(candidates) ? Math.min(candidates.length, 10) : 0;
-}
+const candidateCount = (result: unknown) => cappedCandidateCount(result, 10);
 
 const emptySubscribe = () => () => {};
 

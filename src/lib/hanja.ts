@@ -758,13 +758,13 @@ const unsuitableMeaningTerms = [
   "없어질",
   "탐할",
   "감옥",
-  "옥(영/령)",
-  "옥(령/영)",
   "갇힐",
   "죄수",
 ];
 
-const unsuitableNameCharacters = new Set(["囹"]);
+// "옥(영/령)" 같은 괄호 음가 표기는 displayMeaning이 먼저 제거해 의미 문자열로는
+// 감옥 뜻을 감지할 수 없다. 감옥 계열 글자는 문자 단위로 직접 제외한다.
+const unsuitableNameCharacters = new Set(["囹", "圄", "圉", "獄"]);
 
 const preferredMeaningWeights = [
   { terms: ["상서", "길할", "복", "평안", "맑", "밝", "슬기", "지혜", "어진"], weight: 10 },
@@ -824,11 +824,18 @@ function hasUnsuitableMeaning(meaning: string) {
 }
 
 function isVariantOnlyMeaning(meaning: string) {
-  return /^\p{Script=Han}+의\s*[略略]字$/u.test(meaning) || /^(?:약자|략자)$/.test(meaning);
+  // 略(U+7565)·畧(U+7567)·호환 한자 略(U+F976)과 한글 표기, 俗字·同字 안내까지 포함한다.
+  // 괄호형 "X(뜻)과 同字"는 displayMeaning이 뜻 문자열로 바꿔 주므로 여기 도달하지 않는다.
+  return (
+    /^\p{Script=Han}+의?\s*(?:[略略畧]字|俗字|약자|략자|속자)$/u.test(meaning) ||
+    /^\p{Script=Han}+[과와]\s*同字$/u.test(meaning) ||
+    /^(?:약자|략자|속자)$/.test(meaning)
+  );
 }
 
 function isReadingListOnlyMeaning(meaning: string) {
-  return /^[가-힣](?:\s*[,/·]\s*[가-힣])+$/u.test(meaning);
+  // 공백 구분("클 태")은 뜻+음 표기 형식과 구분할 수 없어 구두점 구분 목록만 걸러낸다.
+  return /^[가-힣](?:\s*[,/·、，;；]\s*[가-힣])+$/u.test(meaning);
 }
 
 function meaningIdentity(meaning: string) {
@@ -836,13 +843,26 @@ function meaningIdentity(meaning: string) {
 }
 
 function dedupeOptionsByMeaning(options: HanjaOption[]) {
-  const seen = new Set<string>();
-  return options.filter((option) => {
+  const keptIndexByIdentity = new Map<string, number>();
+  const result: HanjaOption[] = [];
+  for (const option of options) {
     const identity = meaningIdentity(option.meaning);
-    if (seen.has(identity)) return false;
-    seen.add(identity);
-    return true;
-  });
+    const keptIndex = keptIndexByIdentity.get(identity);
+    if (keptIndex === undefined) {
+      keptIndexByIdentity.set(identity, result.length);
+      result.push(option);
+      continue;
+    }
+    // 같은 뜻이면 상용 한자 영역 글자를 우선해, 목록 순서 때문에 희귀 글자가
+    // 상용 글자를 밀어내는 것을 막는다. 점수가 같으면 먼저 나온 글자를 유지한다.
+    if (
+      characterUsabilityScore(option.character) >
+      characterUsabilityScore(result[keptIndex].character)
+    ) {
+      result[keptIndex] = option;
+    }
+  }
+  return result;
 }
 
 function matchesUserExcludedMeaning(
@@ -863,8 +883,8 @@ function conflictsWithGenderContext(
   inputFactors: Record<string, unknown>,
 ) {
   const gender = stringValue(inputFactors.gender);
-  if (gender === "male") return /여자\s*이름|여성/.test(option.meaning);
-  if (gender === "female") return /남자\s*이름|남성/.test(option.meaning);
+  if (gender === "male") return /여자\s*이름|여성|계집|며느리/.test(option.meaning);
+  if (gender === "female") return /남자\s*이름|남성|사내|사나이/.test(option.meaning);
   return false;
 }
 
@@ -1093,6 +1113,10 @@ function getSajuElementHint(inputFactors: Record<string, unknown>): HanjaElement
   }
 
   const month = Number(birthMonth);
+  // 1~12 범위를 벗어난 값(0, 13, 소수, NaN)은 계절 참고 대상이 아니므로 중립으로 둔다.
+  if (!Number.isInteger(month) || month < 1 || month > 12) {
+    return "neutral";
+  }
 
   if ([3, 4, 5].includes(month)) {
     return "wood";
@@ -1119,8 +1143,6 @@ function scoreOption(
   preferredElement: HanjaElement,
 ) {
   const parentWishes = stringValue(inputFactors.parentWishes);
-  const excludedMeanings = stringValue(inputFactors.excludedMeanings);
-  const targetText = `${option.meaning} ${option.note} ${option.tags.join(" ")}`;
   let score = 72;
 
   score += characterUsabilityScore(option.character);
@@ -1136,7 +1158,9 @@ function scoreOption(
     }
   }
 
-  if (excludedMeanings && targetText.includes(excludedMeanings)) {
+  // 제외어 감점은 필터(matchesUserExcludedMeaning)와 동일한 토큰 분해 로직을 써야
+  // "죽음, 병"처럼 여러 단어를 입력했을 때도 각 단어로 매칭된다(전체 문자열 includes는 매칭 안 됨).
+  if (matchesUserExcludedMeaning(option, inputFactors)) {
     score -= 50;
   }
 
@@ -1332,10 +1356,22 @@ function buildHanjaOptionDetails(
   inputFactors: Record<string, unknown>,
   preferredElement: HanjaElement,
 ) {
-  return syllables.map((syllable, index) => ({
+  return syllables.map((syllable, index) => {
+    const selectedCharacter = selectedOptions[index]?.character ?? "";
+    // 상위 3개를 보여주되, 다양성 선택으로 4순위 이하가 채택되면 그 글자가 목록에서 빠져
+    // selected 표시가 사라진다. 선택된 글자가 상위 3개에 없으면 목록에 함께 넣는다.
+    const topOptions = optionGroups[index].slice(0, 3);
+    const selectedOption = optionGroups[index].find(
+      (option) => option.character === selectedCharacter,
+    );
+    const shownOptions =
+      selectedOption && !topOptions.some((option) => option.character === selectedCharacter)
+        ? [selectedOption, ...topOptions].slice(0, 4)
+        : topOptions;
+    return {
     syllable,
-    selected_character: selectedOptions[index]?.character ?? "",
-    options: optionGroups[index].slice(0, 3).map((option) => {
+    selected_character: selectedCharacter,
+    options: shownOptions.map((option) => {
       const matchingRate = hasComparisonSignal(option, inputFactors, preferredElement)
         ? Math.max(
             45,
@@ -1354,11 +1390,12 @@ function buildHanjaOptionDetails(
           preferredElement,
         ),
         matching_rate: matchingRate,
-        selected: option.character === selectedOptions[index]?.character,
+        selected: option.character === selectedCharacter,
         source_status: option.sourceStatus,
       };
     }),
-  }));
+    };
+  });
 }
 
 function officialRulesText() {
@@ -1426,13 +1463,18 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   }
 
   const optionsForPosition = (syllable: string, index: number) => {
-    const options = dedupeOptionsByMeaning((
-      officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable]
-    )?.filter((option) => isCandidateOptionAllowed(option, inputFactors)) ?? []);
-
-    return index === generationIndex
-      ? options?.filter((option) => option.character === generationHanja)
-      : options;
+    const rawOptions =
+      officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable] ?? [];
+    // 돌림자는 가족이 확정한 글자이므로 의미 품질 필터(isCandidateOptionAllowed)와 중복 제거보다
+    // 먼저 고정한다. 약자 설명 글자(예: 徳)나 의미 중복 글자도 돌림자로 지정되면 그대로 쓴다.
+    // 단, 공식 DB 경로(officialOptionsFromInput)는 PUA·무의미·부정 의미를 이미 걸러내므로,
+    // 그런 글자가 돌림자면 여기서도 후보가 비어 정상적으로 "확인 어려움"으로 처리된다.
+    if (index === generationIndex) {
+      return rawOptions.filter((option) => option.character === generationHanja);
+    }
+    return dedupeOptionsByMeaning(
+      rawOptions.filter((option) => isCandidateOptionAllowed(option, inputFactors)),
+    );
   };
   const missingSyllables = givenSyllables.filter(
     (syllable, index) => !optionsForPosition(syllable, index)?.length,

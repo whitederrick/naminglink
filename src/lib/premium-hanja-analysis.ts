@@ -6,6 +6,8 @@ import {
   type PremiumHanjaReportData,
 } from "@/lib/pdf/premium-hanja-report";
 import { calculatePremiumSaju } from "@/lib/saju/engine";
+import { isLunarCalendar } from "@/lib/premium-hanja-eligibility";
+import { birthHourRangeToHour } from "@/lib/birth-hour";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -20,6 +22,9 @@ function text(value: unknown) {
 }
 
 function number(value: unknown) {
+  // Number(null)과 Number("")은 0이 되어 미입력이 0시·0분으로 계산되는 것을 막는다.
+  if (value === null || value === undefined) return null;
+  if (typeof value === "string" && !value.trim()) return null;
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : null;
 }
@@ -30,14 +35,6 @@ function records(value: unknown) {
     : [];
 }
 
-function birthHour(value: unknown) {
-  const raw = text(value);
-  if (!raw || raw === "unknown") return null;
-  const [start, end] = raw.split("-").map(Number);
-  if (!Number.isInteger(start) || !Number.isInteger(end)) return null;
-  if (start === 23 && end === 1) return 0;
-  return (start + 1) % 24;
-}
 
 function parseJsonObject(value: string) {
   const parsed = JSON.parse(value) as unknown;
@@ -108,6 +105,8 @@ export type PremiumHanjaTestResult = {
 type BuildOptions = {
   candidateLimit?: 5 | 10;
   includeSaju?: boolean;
+  reportId?: string;
+  expiresAt?: string;
 };
 
 function baseCandidate(
@@ -172,12 +171,28 @@ function fallbackCandidateAnalysis(
         return `표면 오행에서는 ${context.highest.label}${subjectParticle(context.highest.label)} ${context.highest.count}개로 가장 많이 나타나고 ${context.lowest}${subjectParticle(context.lowest)} 가장 적게 나타납니다. 일간 ${saju.dayMaster.character}(${saju.dayMaster.elementLabel})을 기준으로 이 분포가 어떤 환경을 만드는지 참고합니다. 이 후보는 ${meanings.map((meaning) => `'${meaning}'`).join("과 ")}의 자의를 통해 이름의 상징적 방향을 제시합니다. 각 한자의 검수된 오행 분류가 없는 상태에서는 이 글자들이 특정 오행을 직접 보완한다고 단정하지 않습니다. 따라서 원국의 균형과 자의의 조화를 함께 비교하는 의미 참고안으로 해석합니다.`;
       })()
     : null;
+  // 이름 글자 수(외자·두 글자 이상)에 따라 문장을 동적으로 만든다.
+  // 예전에는 둘째 글자를 고정 가정해 외자 이름에서 "undefined의 'undefined'"가 인쇄됐다.
+  const syllableLabels = ["첫", "둘째", "셋째", "넷째", "다섯째"];
+  const perSyllableUse = candidate.characters
+    .map(
+      (item, index) =>
+        `${syllableLabels[index] ?? `${index + 1}번째`} 음절에는 ${item.hanja}의 '${item.meaning}' 뜻을 사용했다고 설명합니다.`,
+    )
+    .join(" ");
+  const multiChar = candidate.characters.length >= 2;
+  const storyFlow = multiChar
+    ? "첫 글자의 자의는 이름의 출발 이미지를 만들고, 이어지는 글자의 자의가 그 이미지를 받아 의미의 방향을 구체화합니다."
+    : "이 글자의 자의가 이름의 중심 이미지를 만듭니다.";
+  const guideFlow = multiChar
+    ? "첫 글자가 만드는 인상이 가족의 바람과 맞는지, 이어지는 글자가 의미를 자연스럽게 확장하는지 확인해야 합니다."
+    : "이 글자가 만드는 인상이 가족의 바람과 맞는지 확인해야 합니다.";
   return {
     hanjaName: candidate.hanjaName,
     summary: `${candidate.characters.map((item) => `${item.hanja}(${item.meaning})`).join("·")}을 조합해 ${meanings.join("과 ")}의 의미를 담은 이름입니다.`,
-    story: `${characterDetails}. 첫 글자의 자의는 이름의 출발 이미지를 만듭니다. 둘째 글자의 자의는 그 이미지를 이어 받아 의미의 방향을 구체화합니다. 두 자의를 함께 읽으면 ${meanings.join("에서 ")}로 이어지는 의미 흐름이 형성됩니다.`,
-    practicalUse: `${candidate.displayName}을 ${candidate.hanjaName}으로 표기할 수 있습니다. 첫 음절에는 ${candidate.characters[0]?.hanja}의 '${candidate.characters[0]?.meaning}' 뜻을 사용했다고 설명합니다. 둘째 음절에는 ${candidate.characters[1]?.hanja}의 '${candidate.characters[1]?.meaning}' 뜻을 사용했다고 설명합니다. 두 글자를 함께 소개할 때에는 ${meanings.join("에서 ")}로 이어지는 의미라고 풀어 말할 수 있습니다.`,
-    selectionGuide: candidate.selectionGuide || `${meanings.join("·")}의 의미를 이름의 중심 가치로 삼고 싶은 경우 우선 비교할 수 있습니다. 첫 글자가 만드는 인상이 가족의 바람과 맞는지 확인해야 합니다. 둘째 글자가 의미를 자연스럽게 확장하는지도 살펴야 합니다. 두 자의를 한 문장으로 설명했을 때 과장 없이 이해되는지를 최종 판단 기준으로 삼을 수 있습니다.`,
+    story: `${characterDetails}. ${storyFlow} 자의를 함께 읽으면 ${meanings.join("에서 ")}로 이어지는 의미 흐름이 형성됩니다.`,
+    practicalUse: `${candidate.displayName}을 ${candidate.hanjaName}으로 표기할 수 있습니다. ${perSyllableUse} 글자를 함께 소개할 때에는 ${meanings.join("에서 ")}로 이어지는 의미라고 풀어 말할 수 있습니다.`,
+    selectionGuide: candidate.selectionGuide || `${meanings.join("·")}의 의미를 이름의 중심 가치로 삼고 싶은 경우 우선 비교할 수 있습니다. ${guideFlow} 자의를 한 문장으로 설명했을 때 과장 없이 이해되는지를 최종 판단 기준으로 삼을 수 있습니다.`,
     meaningCaution: candidate.meaningCaution || `자의는 상징적 해석이며 이름 사용자의 성격이나 미래를 단정하지 않습니다. ${meanings.join("·")}의 현대적 어감과 가족의 선호를 함께 살펴야 합니다.`,
     sajuConnection: connection,
   };
@@ -194,7 +209,22 @@ export async function buildPremiumHanjaTestResult(
   const familyName = text(inputFactors.familyName);
   const givenName = text(inputFactors.givenNameHangul);
   const displayName = `${familyName}${givenName}`;
-  const selectedCandidateRecords = records(resultRecord.candidates).slice(0, candidateLimit);
+  // 화면(ResultCard)과 동일하게 matching_rate(없으면 suitability_score) 내림차순으로 정렬한 뒤
+  // 상한을 적용해야 표지 대표 후보와 후보 번호가 화면 순서와 일치한다.
+  const candidateRate = (item: UnknownRecord) => {
+    const rate =
+      typeof item.matching_rate === "number" && Number.isFinite(item.matching_rate)
+        ? item.matching_rate
+        : null;
+    const score =
+      typeof item.suitability_score === "number" && Number.isFinite(item.suitability_score)
+        ? item.suitability_score
+        : null;
+    return rate ?? score;
+  };
+  const selectedCandidateRecords = records(resultRecord.candidates)
+    .sort((a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1))
+    .slice(0, candidateLimit);
   const candidates = selectedCandidateRecords
     .map((candidate, index) => baseCandidate(candidate, displayName, index))
     .filter((candidate) => candidate.hanjaName && candidate.characters.length);
@@ -211,18 +241,20 @@ export async function buildPremiumHanjaTestResult(
     if (!year || !month || !day) {
       throw new Error("사주·오행 종합 분석에는 출생 연·월·일이 모두 필요합니다.");
     }
+    const resolvedBirthHour =
+      inputFactors.birthTimeKnown === false
+        ? null
+        : number(inputFactors.premiumBirthHour) ?? birthHourRangeToHour(inputFactors.birthHour);
     saju = calculatePremiumSaju({
-      calendarType: text(inputFactors.calendarType) === "lunar" ? "lunar" : "solar",
+      calendarType: isLunarCalendar(inputFactors.calendarType) ? "lunar" : "solar",
       year,
       month,
       day,
       lunarLeapMonth: inputFactors.lunarLeapMonth === true,
-      birthHour:
-        inputFactors.birthTimeKnown === false
-          ? null
-          : number(inputFactors.premiumBirthHour) ?? birthHour(inputFactors.birthHour),
+      birthHour: resolvedBirthHour,
+      // 출생 시를 확정하지 못하면 분도 함께 미상으로 처리해야 엔진 검증을 통과한다.
       birthMinute:
-        inputFactors.birthTimeKnown === false
+        resolvedBirthHour === null
           ? null
           : number(inputFactors.premiumBirthMinute) ?? 0,
       longitude: number(inputFactors.longitude) ?? 126.978,
@@ -252,7 +284,7 @@ export async function buildPremiumHanjaTestResult(
   let candidateAnalyses = fallbackCandidates;
   let analysisSource: PremiumHanjaTestResult["analysisSource"] = "rules-fallback";
   if (process.env.OPENAI_API_KEY) {
-    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 45_000, maxRetries: 0 });
     const completion = await client.chat.completions.create({
       model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
       temperature: 0.55,
@@ -363,14 +395,17 @@ export async function buildPremiumHanjaTestResult(
     sajuConnection: candidateAnalyses[index].sajuConnection,
   }));
   const generatedAt = new Date();
-  const expiresAt = new Date(generatedAt.getTime() + 24 * 60 * 60 * 1000);
+  // 실제 만료는 결제 시각 기준(premium-session)이므로 호출자가 세션 만료 시각을 넘기면 그대로 쓴다.
+  const expiresAt = options.expiresAt
+    ? new Date(options.expiresAt)
+    : new Date(generatedAt.getTime() + 24 * 60 * 60 * 1000);
   const rejectedCandidates = records(resultRecord.rejected_hanja).map((item) => ({
     character: text(item.character),
     reason: text(item.reason),
     severity: text(item.severity),
   }));
   const reportData: PremiumHanjaReportData = {
-    reportId: `NL-TEST-${generatedAt.getTime()}`,
+    reportId: options.reportId ?? `NL-${generatedAt.getTime()}`,
     generatedAt: generatedAt.toISOString(),
     expiresAt: expiresAt.toISOString(),
     childNameHangul: displayName,

@@ -6,17 +6,14 @@ import {
   HANJA_PRODUCT_CODES,
 } from "@/lib/hanja-products";
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
+import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
 import { z } from "zod";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-function testModeEnabled() {
-  return process.env.NODE_ENV !== "production" || process.env.PREMIUM_TEST_MODE === "true";
-}
-
 export async function POST(request: Request) {
-  if (!testModeEnabled()) {
+  if (!isPremiumTestRequestAllowed(request)) {
     return NextResponse.json({ ok: false, error: "프리미엄 테스트 모드가 꺼져 있습니다." }, { status: 403 });
   }
 

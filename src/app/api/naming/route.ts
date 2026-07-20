@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
+import { AIServiceUnavailableError, generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
@@ -53,22 +53,29 @@ export async function POST(request: NextRequest) {
     const supabase = getSupabaseAdminClient();
     const visitorHash = getDailyVisitorHash(request);
     const enforceFreeQuota = process.env.NODE_ENV === "production";
-    if (enforceFreeQuota && supabase && visitorHash) {
+    // HANJA는 규칙 엔진이라 OpenAI 비용이 없다 → 생성 성공 후 차감해 실패(돌림자 제약 400 등)에는 소모하지 않는다.
+    // AI 서비스는 OpenAI 비용이 있으므로 생성 전에 차감해 비용 남용을 막는다.
+    const isHanja = parsed.data.serviceType === "HANJA_MEANING_MATCH";
+    const quotaExhaustedResponse = NextResponse.json(
+      {
+        ok: false,
+        error:
+          "오늘의 무료 후보 조회 횟수를 모두 사용했습니다. 이미 결제한 상세 리포트는 해당 결과 화면에서 계속 확인하거나 다시 다운로드할 수 있습니다.",
+      },
+      { status: 429 },
+    );
+    const consumeFreeQuota = async () => {
+      if (!enforceFreeQuota || !supabase || !visitorHash) return true;
       const { data: allowed, error: quotaError } = await supabase.rpc("consume_daily_quota", {
         p_visitor_hash: visitorHash,
         p_limit: Number(process.env.FREE_DAILY_LIMIT ?? 20),
       });
       if (quotaError) console.error("Failed to check daily quota", quotaError);
-      if (allowed === false) {
-      return NextResponse.json(
-        {
-          ok: false,
-          error:
-            "오늘의 무료 후보 조회 횟수를 모두 사용했습니다. 이미 결제한 상세 리포트는 해당 결과 화면에서 계속 확인하거나 다시 다운로드할 수 있습니다.",
-        },
-        { status: 429 },
-      );
-      }
+      return allowed !== false;
+    };
+
+    if (!isHanja && !(await consumeFreeQuota())) {
+      return quotaExhaustedResponse;
     }
 
     const authenticatedUser = parsed.data.saveResult
@@ -89,6 +96,11 @@ export async function POST(request: NextRequest) {
       parsed.data.serviceType,
       parsed.data.inputFactors,
     );
+
+    // HANJA는 생성이 성공한 뒤에만 무료 한도를 차감한다.
+    if (isHanja && !(await consumeFreeQuota())) {
+      return quotaExhaustedResponse;
+    }
     let logId: string | null = null;
     let persistence: "saved" | "skipped" | "failed" = "skipped";
 
@@ -146,6 +158,10 @@ export async function POST(request: NextRequest) {
         },
         { status: 400 },
       );
+    }
+
+    if (error instanceof AIServiceUnavailableError) {
+      return NextResponse.json({ ok: false, error: error.message }, { status: 503 });
     }
 
 

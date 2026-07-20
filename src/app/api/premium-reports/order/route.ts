@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { generateNamingResult } from "@/lib/openai";
+import { generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
 import { getPortOnePublicConfig } from "@/lib/portone";
 import {
   createPremiumReportAccess,
@@ -12,7 +12,22 @@ import {
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
-import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
+import { hasCompletePremiumBirthDate, isLunarCalendar } from "@/lib/premium-hanja-eligibility";
+import { validatePremiumBirthDate } from "@/lib/saju/engine";
+
+// 생성 단계에서 시·분 범위 오류로 결제 후 FAILED가 되지 않도록, 조작된 시·분 값을 미리 거른다.
+// UI는 0-23/0-59로 클램프하므로 정상 사용자에게는 영향이 없다.
+function hasValidPremiumBirthTime(inputFactors: Record<string, unknown>) {
+  if (inputFactors.birthTimeKnown === false) return true;
+  const hour = inputFactors.premiumBirthHour;
+  const minute = inputFactors.premiumBirthMinute;
+  const inRange = (value: unknown, max: number) =>
+    value === null ||
+    value === undefined ||
+    value === "" ||
+    (Number.isInteger(Number(value)) && Number(value) >= 0 && Number(value) <= max);
+  return inRange(hour, 23) && inRange(minute, 59);
+}
 
 export const runtime = "nodejs";
 
@@ -36,11 +51,38 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: "한자 분석 입력값을 다시 확인해 주세요.", fieldErrors }, { status: 400 });
   }
   const product = getHanjaProduct(parsed.data.productCode);
-  if (product.includesSaju && !hasCompletePremiumBirthDate(parsed.data.inputFactors)) {
-    return NextResponse.json(
-      { ok: false, error: "출생 연·월·일이 확정된 경우에만 사주·오행 상세 분석을 이용할 수 있습니다." },
-      { status: 400 },
-    );
+  if (product.includesSaju) {
+    if (!hasCompletePremiumBirthDate(parsed.data.inputFactors)) {
+      return NextResponse.json(
+        { ok: false, error: "출생 연·월·일이 확정된 경우에만 사주·오행 상세 분석을 이용할 수 있습니다." },
+        { status: 400 },
+      );
+    }
+    // 결제 후 생성 단계에서 날짜·시간 오류로 FAILED가 되지 않도록 미리 검증한다.
+    // calendarType은 생성 단계와 동일하게 trim 기준으로 판별해 " lunar " 같은 값의 불일치를 막는다.
+    if (!hasValidPremiumBirthTime(parsed.data.inputFactors)) {
+      return NextResponse.json(
+        { ok: false, error: "출생 시·분이 올바르지 않습니다. 시(0-23)와 분(0-59)을 확인해 주세요." },
+        { status: 400 },
+      );
+    }
+    try {
+      validatePremiumBirthDate({
+        calendarType: isLunarCalendar(parsed.data.inputFactors.calendarType) ? "lunar" : "solar",
+        year: Number(parsed.data.inputFactors.birthYear),
+        month: Number(parsed.data.inputFactors.birthMonth),
+        day: Number(parsed.data.inputFactors.birthDay),
+        lunarLeapMonth: parsed.data.inputFactors.lunarLeapMonth === true,
+      });
+    } catch (error) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: error instanceof RangeError ? error.message : "출생일을 다시 확인해 주세요.",
+        },
+        { status: 400 },
+      );
+    }
   }
   const portone = getPortOnePublicConfig();
   const supabase = getSupabaseAdminClient();
@@ -53,6 +95,13 @@ export async function POST(request: NextRequest) {
 
   try {
     const generated = await generateNamingResult("HANJA_MEANING_MATCH", parsed.data.inputFactors);
+    const generatedCandidates = (generated.result as { candidates?: unknown[] } | null)?.candidates;
+    if (!Array.isArray(generatedCandidates) || generatedCandidates.length === 0) {
+      return NextResponse.json(
+        { ok: false, error: "제공 가능한 한자 후보가 없어 상세 리포트를 만들 수 없습니다. 입력한 이름과 조건을 확인해 주세요." },
+        { status: 400 },
+      );
+    }
     const orderId = randomUUID();
     const sessionId = randomUUID();
     const paymentId = `nl_${orderId.replaceAll("-", "")}`;
@@ -115,6 +164,12 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error("Failed to create premium order", error);
+    if (error instanceof NamingInputConstraintError) {
+      return NextResponse.json(
+        { ok: false, error: error.message, fieldErrors: error.fieldErrors },
+        { status: 400 },
+      );
+    }
     return NextResponse.json({ ok: false, error: "프리미엄 주문을 만들지 못했습니다." }, { status: 500 });
   }
 }

@@ -13,6 +13,8 @@ function getOpenAIClient() {
 
   client ??= new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
+    timeout: 30_000,
+    maxRetries: 1,
   });
 
   return client;
@@ -30,6 +32,13 @@ export class NamingInputConstraintError extends Error {
   ) {
     super(message);
     this.name = "NamingInputConstraintError";
+  }
+}
+
+export class AIServiceUnavailableError extends Error {
+  constructor() {
+    super("AI 이름 생성 기능이 일시적으로 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.");
+    this.name = "AIServiceUnavailableError";
   }
 }
 
@@ -64,9 +73,11 @@ function assertGenerationConstraint(
 
   const candidates = (result as Record<string, unknown>).candidates;
   const givenName = inputString(inputFactors.givenNameHangul);
-  if (!Array.isArray(candidates) || candidates.length === 0) {
-    throw new Error("No candidate preserved the required generation-name character.");
+  if (!Array.isArray(candidates)) {
+    throw new Error("The AI result cannot be validated for the generation-name constraint.");
   }
+  // 규칙 엔진이 후보 부족을 안내문과 함께 빈 목록으로 반환하는 것은 정상 결과다.
+  if (candidates.length === 0) return;
 
   const invalidCandidate = candidates.some((candidate) => {
     if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) {
@@ -210,6 +221,11 @@ export async function generateNamingResult(
     enrichedInputFactors.serviceSlug === "global-name-to-hangul";
 
   if (serviceType === "HANJA_MEANING_MATCH" || !openai) {
+    // 한자 서비스는 규칙 엔진으로 정상 동작하지만, AI 기반 서비스는 키 없이는
+    // 입력과 무관한 예시(mock)만 반환하므로 운영에서는 제공하지 않는다.
+    if (serviceType !== "HANJA_MEANING_MATCH" && process.env.NODE_ENV === "production") {
+      throw new AIServiceUnavailableError();
+    }
     const result = getMockResult(serviceType, enrichedInputFactors);
     assertGenerationConstraint(result, enrichedInputFactors, generationConstraint);
     const clientResult = prepareResultForClient(result, generationConstraint);

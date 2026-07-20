@@ -34,7 +34,7 @@ export async function markPremiumSessionPaid(
   const expiresAt = premiumReportExpiresAt(paidAt);
   const now = new Date().toISOString();
 
-  const { error: orderError } = await supabase
+  const { data: updatedOrders, error: orderError } = await supabase
     .from("orders")
     .update({
       payment_status: "PAID",
@@ -50,8 +50,12 @@ export async function markPremiumSessionPaid(
       updated_at: now,
     })
     .eq("id", orderId)
-    .eq("provider_payment_id", payment.id);
+    .eq("provider_payment_id", payment.id)
+    .select("id");
   if (orderError) throw orderError;
+  if (!updatedOrders?.length) {
+    throw new Error("결제 정보가 이 주문과 일치하지 않습니다.");
+  }
 
   const { error: sessionError } = await supabase
     .from("premium_analysis_sessions")

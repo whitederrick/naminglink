@@ -8,6 +8,8 @@ import {
   type HanjaProductCode,
 } from "@/lib/hanja-products";
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
+import { birthHourRangeToHour } from "@/lib/birth-hour";
+import { countCandidates } from "@/lib/candidate-count";
 
 type Checkout = {
   sessionId: string;
@@ -24,6 +26,9 @@ type Checkout = {
   includesPdf: boolean;
   customer?: { fullName?: string; email?: string; phoneNumber?: string } | null;
   savedAt?: number;
+  paid?: boolean;
+  confirmed?: boolean;
+  nameSignature?: string;
 };
 
 type PremiumResult = {
@@ -32,17 +37,59 @@ type PremiumResult = {
   entitlement?: { candidateLimit?: 5 | 10; includesSaju?: boolean; includesPdf?: boolean };
 };
 
-function availableCandidateCount(result: unknown) {
-  if (!result || typeof result !== "object" || Array.isArray(result)) return 0;
-  const candidates = (result as Record<string, unknown>).candidates;
-  return Array.isArray(candidates) ? candidates.length : 0;
+
+const CHECKOUT_KEY_PREFIX = "naminglink:premium:";
+
+function checkoutKey(sessionId: string) {
+  return `${CHECKOUT_KEY_PREFIX}${sessionId}`;
 }
 
-function saveCheckout(checkout: Checkout) {
+// 현재 화면의 이름과 복구 대상 결제가 같은 이름인지 확인하기 위한 서명.
+function nameSignatureOf(inputFactors?: Record<string, unknown>) {
+  if (!inputFactors) return "";
+  const family = typeof inputFactors.familyName === "string" ? inputFactors.familyName : "";
+  const given = typeof inputFactors.givenNameHangul === "string" ? inputFactors.givenNameHangul : "";
+  return `${family}|${given}`;
+}
+
+// localStorage는 손상되거나 예전 스키마일 수 있으므로, 진행에 필요한 핵심 필드를 검증한 뒤에만 Checkout으로 취급한다.
+function parseStoredCheckout(raw: string | null): Checkout | null {
+  if (!raw) return null;
+  let value: unknown;
+  try {
+    value = JSON.parse(raw);
+  } catch {
+    return null;
+  }
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const record = value as Record<string, unknown>;
+  const isString = (key: string) => typeof record[key] === "string" && (record[key] as string).length > 0;
+  if (
+    !isString("sessionId") ||
+    !isString("paymentId") ||
+    !isString("accessToken") ||
+    !isString("productCode") ||
+    !(record.productCode as string in HANJA_PRODUCTS)
+  ) {
+    return null;
+  }
+  return record as Checkout;
+}
+
+function saveCheckout(checkout: Checkout, nameSignature: string) {
   localStorage.setItem(
-    `naminglink:premium:${checkout.sessionId}`,
-    JSON.stringify({ ...checkout, savedAt: Date.now() }),
+    checkoutKey(checkout.sessionId),
+    JSON.stringify({ ...checkout, savedAt: Date.now(), nameSignature }),
   );
+}
+
+function updateStoredCheckout(sessionId: string, patch: Partial<Checkout>) {
+  const parsed = parseStoredCheckout(localStorage.getItem(checkoutKey(sessionId)));
+  if (!parsed) {
+    localStorage.removeItem(checkoutKey(sessionId));
+    return;
+  }
+  localStorage.setItem(checkoutKey(sessionId), JSON.stringify({ ...parsed, ...patch }));
 }
 
 const birthplaces = [
@@ -51,9 +98,7 @@ const birthplaces = [
 ] as const;
 
 function suggestedHour(value: unknown) {
-  if (typeof value !== "string" || value === "unknown") return 12;
-  const [start, end] = value.split("-").map(Number);
-  return start === 23 && end === 1 ? 0 : Number.isFinite(start) ? (start + 1) % 24 : 12;
+  return birthHourRangeToHour(value) ?? 12;
 }
 
 export function PremiumHanjaCheckoutPanel({
@@ -88,7 +133,7 @@ export function PremiumHanjaCheckoutPanel({
   );
   const redirectHandled = useRef(false);
   const selectedProduct = HANJA_PRODUCTS[selectedProductCode];
-  const availableCandidates = availableCandidateCount(result);
+  const availableCandidates = countCandidates(result);
 
   async function postJson(path: string, body: unknown) {
     const response = await fetch(path, {
@@ -102,9 +147,8 @@ export function PremiumHanjaCheckoutPanel({
   }
 
   async function finishPremium(nextCheckout: Checkout) {
-    const fallbackProduct = Object.values(HANJA_PRODUCTS).find(
-      (product) => product.amount === nextCheckout.totalAmount,
-    ) ?? HANJA_PRODUCTS.TEN_SAJU_PDF;
+    // 상품 식별은 저장된 productCode를 신뢰 소스로 사용한다(금액 역추론은 가격 개정 시 어긋난다).
+    const fallbackProduct = HANJA_PRODUCTS[nextCheckout.productCode] ?? HANJA_PRODUCTS.TEN_SAJU_PDF;
     const candidateLimit = nextCheckout.candidateLimit ?? fallbackProduct.candidateLimit;
     const includesPdf = nextCheckout.includesPdf ?? fallbackProduct.includesPdf;
     setStage("verifying");
@@ -113,11 +157,29 @@ export function PremiumHanjaCheckoutPanel({
       paymentId: nextCheckout.paymentId,
       accessToken: nextCheckout.accessToken,
     });
+    // 결제 확인에 성공한 주문만 이후 복구 후보로 삼는다.
+    updateStoredCheckout(nextCheckout.sessionId, { confirmed: true });
 
     setStage("analyzing");
-    const generated = await postJson(`/api/premium-reports/${nextCheckout.sessionId}/generate`, {
-      accessToken: nextCheckout.accessToken,
-    });
+    // 다른 요청이 생성을 선점하면 202(GENERATING)가 돌아오므로 READY까지 폴링한다.
+    // 서버는 150초 이상 멈춘 GENERATING 세션을 재청구하므로 그보다 길게 기다린다.
+    let generated: Record<string, unknown> | null = null;
+    for (let attempt = 0; attempt < 70; attempt++) {
+      const response = await postJson(`/api/premium-reports/${nextCheckout.sessionId}/generate`, {
+        accessToken: nextCheckout.accessToken,
+      });
+      if (response.status === "READY") {
+        generated = response;
+        break;
+      }
+      if (response.status !== "GENERATING") {
+        throw new Error("상세 분석 상태를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.");
+      }
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+    }
+    if (!generated) {
+      throw new Error("상세 분석 생성이 지연되고 있습니다. 잠시 후 '이전 결제 결과 이어서 받기'로 다시 시도해 주세요.");
+    }
     setPremium((generated.premium ?? null) as PremiumResult | null);
     onPremiumReady?.(candidateLimit);
 
@@ -158,7 +220,7 @@ export function PremiumHanjaCheckoutPanel({
       });
       const nextCheckout = order.checkout as Checkout;
       setCheckout(nextCheckout);
-      saveCheckout(nextCheckout);
+      saveCheckout(nextCheckout, nameSignatureOf(inputFactors));
 
       setStage("paying");
       const redirectUrl = new URL(window.location.href);
@@ -178,6 +240,9 @@ export function PremiumHanjaCheckoutPanel({
       if (!payment) return;
       if (payment.code) throw new Error(payment.message || "결제가 완료되지 않았습니다.");
       if (payment.paymentId !== nextCheckout.paymentId) throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
+      // 결제창을 통과한 시점에 결제됨으로 표시한다. 이후 confirm이 실패해도 복구 후보로 남겨
+      // 사용자가 재결제하지 않고 이어받도록 한다(confirm은 서버에서 실결제를 재검증한다).
+      updateStoredCheckout(nextCheckout.sessionId, { paid: true });
       await finishPremium(nextCheckout);
     } catch (caught) {
       setStage("idle");
@@ -190,15 +255,11 @@ export function PremiumHanjaCheckoutPanel({
     const params = new URLSearchParams(window.location.search);
     const sessionId = params.get("premiumSession");
     const paymentId = params.get("paymentId");
+    const failureCode = params.get("code");
+    const failureMessage = params.get("message");
     if (!sessionId || !paymentId) return;
     redirectHandled.current = true;
-    void Promise.resolve().then(async () => {
-      const stored = localStorage.getItem(`naminglink:premium:${sessionId}`);
-      if (!stored) throw new Error("결제는 완료되었지만 이 브라우저에서 주문 접근 정보를 찾을 수 없습니다.");
-      const resumed = JSON.parse(stored) as Checkout;
-      if (resumed.paymentId !== paymentId) throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
-      setCheckout(resumed);
-      await finishPremium(resumed);
+    const clearParams = () => {
       params.delete("premiumSession");
       params.delete("paymentId");
       params.delete("txId");
@@ -206,6 +267,24 @@ export function PremiumHanjaCheckoutPanel({
       params.delete("message");
       const query = params.toString();
       window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
+    };
+    void Promise.resolve().then(async () => {
+      // 모바일 카드 리디렉션이 실패로 돌아오면 code/message가 붙는다. 이때는 결제 확인을
+      // 시도하지 않고 실패 원인을 그대로 안내한다.
+      if (failureCode) {
+        setStage("idle");
+        setError(failureMessage || "결제가 완료되지 않았습니다. 다시 시도해 주세요.");
+        clearParams();
+        return;
+      }
+      const resumed = parseStoredCheckout(localStorage.getItem(checkoutKey(sessionId)));
+      if (!resumed) throw new Error("결제는 완료되었지만 이 브라우저에서 주문 접근 정보를 찾을 수 없습니다.");
+      if (resumed.paymentId !== paymentId) throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
+      // 리디렉션 복귀는 결제가 끝난 뒤이므로 결제됨으로 표시해 복구 후보로 남긴다.
+      updateStoredCheckout(resumed.sessionId, { paid: true });
+      setCheckout(resumed);
+      await finishPremium(resumed);
+      clearParams();
     }).catch((caught) => {
       setStage("idle");
       setError(caught instanceof Error ? caught.message : "결제 주문을 복구하지 못했습니다.");
@@ -216,19 +295,21 @@ export function PremiumHanjaCheckoutPanel({
 
   useEffect(() => {
     void Promise.resolve().then(() => {
+      const currentSignature = nameSignatureOf(inputFactors);
       const candidates = Object.keys(localStorage)
-        .filter((key) => key.startsWith("naminglink:premium:"))
+        .filter((key) => key.startsWith(CHECKOUT_KEY_PREFIX))
         .flatMap((key) => {
-          try {
-            return [JSON.parse(localStorage.getItem(key) ?? "") as Checkout];
-          } catch {
-            return [];
-          }
+          const parsed = parseStoredCheckout(localStorage.getItem(key));
+          return parsed ? [parsed] : [];
         })
+        // 결제창을 통과(paid)했거나 확인까지 끝난(confirmed) 주문 중 현재 화면과 같은 이름만
+        // 복구 대상으로 둔다. 미결제 중단 주문·다른 이름의 결제가 섞이는 것을 막으면서,
+        // 결제 후 confirm이 실패한 주문도 이어받을 수 있게 한다.
+        .filter((entry) => (entry.paid || entry.confirmed) && entry.nameSignature === currentSignature)
         .sort((a, b) => (b.savedAt ?? 0) - (a.savedAt ?? 0));
       setRecoverable(candidates[0] ?? null);
     });
-  }, []);
+  }, [inputFactors]);
 
   async function download() {
     if (testResult && premium?.reportData) {
@@ -314,7 +395,7 @@ export function PremiumHanjaCheckoutPanel({
   }[stage];
   const interpretation = premium?.interpretation ?? {};
   const readyIncludesPdf = checkout
-    ? (checkout.includesPdf ?? checkout.totalAmount === 9900)
+    ? (checkout.includesPdf ?? HANJA_PRODUCTS[checkout.productCode]?.includesPdf ?? false)
     : testResult && selectedProduct.includesPdf;
 
   return (
