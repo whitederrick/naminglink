@@ -31,7 +31,9 @@ import { cappedCandidateCount } from "@/lib/candidate-count";
 import { getFormCopy } from "@/lib/i18n-form";
 import {
   getServiceOverride,
+  localizeFieldHint,
   localizeFieldLabel,
+  localizeFieldPlaceholder,
   localizeOptions,
   localizeSectionDescription,
 } from "@/lib/i18n-service";
@@ -558,6 +560,7 @@ export function NamingForm({
               <p className="mt-2 text-sm leading-6 text-muted">
                 {localizeSectionDescription(
                   serviceOverride,
+                  service.slug,
                   section.title,
                   section.description,
                 )}
@@ -582,8 +585,15 @@ export function NamingForm({
                     const fieldErrorId = `${service.slug}-${field.name}-error`;
                     const localizedLabel = localizeFieldLabel(
                       serviceOverride,
+                      service.slug,
                       field.name,
                       field.label,
+                    );
+                    const localizedHint = localizeFieldHint(
+                      serviceOverride,
+                      service.slug,
+                      field.name,
+                      field.hint,
                     );
 
                     return (
@@ -625,6 +635,12 @@ export function NamingForm({
                         return {
                           ...field,
                           label: localizedLabel,
+                          placeholder: localizeFieldPlaceholder(
+                            serviceOverride,
+                            service.slug,
+                            field.name,
+                            field.placeholder,
+                          ),
                           options: resolvedOptions
                             ? localizeOptions(serviceOverride, resolvedOptions)
                             : resolvedOptions,
@@ -657,9 +673,9 @@ export function NamingForm({
                         })}
                       </span>
                     ) : null}
-                    {field.hint ? (
+                    {localizedHint ? (
                       <span className="text-xs leading-5 text-muted">
-                        {field.hint.split("\n").map((line, index) => (
+                        {localizedHint.split("\n").map((line, index) => (
                           <span
                             key={`${field.name}-hint-${index}`}
                             className={index === 0 ? "block" : "block pl-4"}

@@ -2,22 +2,58 @@ import type { FieldOption, Locale } from "@/lib/services";
 
 // 외국인 대상 서비스(GLOBAL_TO_KOREAN)의 폼 설정 문자열을 로케일별로 치환한다.
 // services.ts의 공유 설정 원본은 건드리지 않고, 렌더 시점에 안정적 키
-// (섹션 제목·필드 이름·옵션 value)로만 라벨을 갈아끼운다. 한국어 대상 서비스는
-// 이 경로를 타지 않으므로 기존 한국어 문구가 그대로 유지된다.
+// (서비스 slug + 섹션 제목/필드 이름, 옵션 value)로만 라벨을 갈아끼운다.
+// 한국어 대상 서비스는 이 경로를 타지 않아 기존 한국어 문구가 그대로 유지된다.
+type ServiceTextOverride = {
+  sectionDescriptions?: Record<string, string>; // 섹션 제목 → 설명
+  fieldLabels?: Record<string, string>; // 필드 name → 라벨
+  fieldHints?: Record<string, string>; // 필드 name → 힌트
+  fieldPlaceholders?: Record<string, string>; // 필드 name → 플레이스홀더
+};
+
 export type ServiceCopyOverride = {
-  sectionDescriptions: Record<string, string>; // 섹션 제목(영문 키) → 설명
-  fieldLabels: Record<string, string>; // 필드 name → 라벨
-  optionLabels: Record<string, string>; // 옵션 value → 라벨
+  // originalName처럼 서비스마다 내용이 다른 필드가 있어 텍스트는 slug 기준으로 구분한다.
+  byService: Record<string, ServiceTextOverride>;
+  // 옵션 value는 서비스 간 의미가 동일하므로 전역으로 둔다.
+  optionLabels: Record<string, string>;
 };
 
 const en: ServiceCopyOverride = {
-  sectionDescriptions: {
-    "Original identity": "Choose the basic details we need to suggest a Korean name.",
-    "Birth profile": "Select each item for an accurate comparison and analysis.",
-    "Korean usage context": "Choose the tone you want and how you'll use the name in Korea.",
-  },
-  fieldLabels: {
-    nameMotivation: "Purpose of your Korean name",
+  byService: {
+    "global-to-korean": {
+      sectionDescriptions: {
+        "Original identity": "Choose the basic details we need to suggest a Korean name.",
+        "Birth profile": "Select each item for an accurate comparison and analysis.",
+        "Korean usage context": "Choose the tone you want and how you'll use the name in Korea.",
+      },
+      fieldLabels: {
+        nameMotivation: "Purpose of your Korean name",
+      },
+      fieldPlaceholders: {
+        originalName: "e.g., Nguyễn Minh Anh, 山田 太郎, María García",
+      },
+    },
+    "global-name-to-hangul": {
+      sectionDescriptions: {
+        "Original name": "Choose the language and country used to write and pronounce your name.",
+      },
+      fieldLabels: {
+        originalNameLanguage: "Source language of your name",
+        pronunciationHint: "Pronunciation hint (optional)",
+      },
+      fieldHints: {
+        originalName: "※ Enter your full name in your local language.",
+        originalNameLanguage: "※ Choose the language used to pronounce your name.",
+        country:
+          "※ This helps reflect pronunciation differences by country.\nChanging the country may change the result.",
+        pronunciationHint:
+          "※ Enter syllable breaks and pronunciation hints.\nWe apply your hint with top priority.",
+      },
+      fieldPlaceholders: {
+        originalName: "e.g., Daniel Brooks",
+        pronunciationHint: "e.g., sounds like Dan-yell",
+      },
+    },
   },
   optionLabels: {
     // 출력 언어
@@ -63,18 +99,38 @@ export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {
 
 export function localizeSectionDescription(
   override: ServiceCopyOverride | null,
+  slug: string,
   sectionTitle: string,
   original: string,
 ) {
-  return override?.sectionDescriptions[sectionTitle] ?? original;
+  return override?.byService[slug]?.sectionDescriptions?.[sectionTitle] ?? original;
 }
 
 export function localizeFieldLabel(
   override: ServiceCopyOverride | null,
+  slug: string,
   fieldName: string,
   original: string,
 ) {
-  return override?.fieldLabels[fieldName] ?? original;
+  return override?.byService[slug]?.fieldLabels?.[fieldName] ?? original;
+}
+
+export function localizeFieldHint(
+  override: ServiceCopyOverride | null,
+  slug: string,
+  fieldName: string,
+  original: string | undefined,
+) {
+  return override?.byService[slug]?.fieldHints?.[fieldName] ?? original;
+}
+
+export function localizeFieldPlaceholder(
+  override: ServiceCopyOverride | null,
+  slug: string,
+  fieldName: string,
+  original: string | undefined,
+) {
+  return override?.byService[slug]?.fieldPlaceholders?.[fieldName] ?? original;
 }
 
 export function localizeOptions(
