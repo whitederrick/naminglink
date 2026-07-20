@@ -53,11 +53,17 @@ function sentenceCount(value: string) {
 
 function detailedText(value: unknown, fallback: string, minimumSentences: number) {
   const candidate = text(value);
-  return sentenceCount(candidate) >= minimumSentences ? candidate : fallback;
+  // 문장 수가 살짝 모자라도 충분히 서술적이면(글자 수 기준) AI 텍스트를 살린다.
+  // 예전에는 문장 수만 봐서 풍성한 3문장 단락도 기계적 폴백으로 교체되곤 했다.
+  const richEnough =
+    sentenceCount(candidate) >= minimumSentences ||
+    candidate.length >= minimumSentences * 24;
+  return richEnough ? candidate : fallback;
 }
 
+// 운세·운명 '단정'만 막는다. 이름이 주는 인상·느낌·상징 같은 묘사는 프리미엄 서술의 핵심이라 허용한다.
 const unsupportedPredictionPattern =
-  /성격|운명|긍정적인 영향|좋은 인상|학업|직업적|성취|어려움.{0,12}극복|영감을|약점|감정.{0,12}조절|직관력|기여할 가능성|삶을 살게|될 것입니다/;
+  /운명|사주가?\s*좋|복을?\s*받|성공할|출세|재물운|합격운|어려움을?\s*(반드시\s*)?극복할\s*것|반드시\s*[^.]{0,20}것입니다/;
 
 function safeDetailedText(
   value: unknown,
@@ -143,6 +149,21 @@ function baseCandidate(
     sajuConnection: null,
     officialSourceLabel:
       "서비스에 등록된 공식 인명용 한자 자료의 지정 음가 후보를 기준으로 했으며, 신고 시점에 공식 조회를 다시 확인해야 합니다.",
+  };
+}
+
+// AI에 넘길 '확정된 오행 사실' 요약. 개수·최다·최소 기운을 명시해 서술이 데이터와 어긋나지 않게 한다.
+function buildElementSummary(saju: ReturnType<typeof calculatePremiumSaju>) {
+  const counts = saju.visibleFiveElements.counts;
+  const labels = saju.visibleFiveElements.labels;
+  const entries = Object.entries(counts) as [keyof typeof counts, number][];
+  const max = Math.max(...entries.map(([, n]) => n));
+  const min = Math.min(...entries.map(([, n]) => n));
+  return {
+    counts: `목 ${counts.WOOD}, 화 ${counts.FIRE}, 토 ${counts.EARTH}, 금 ${counts.METAL}, 수 ${counts.WATER}`,
+    dominant: entries.filter(([, n]) => n === max).map(([k]) => labels[k]).join("·"),
+    weakest: entries.filter(([, n]) => n === min).map(([k]) => labels[k]).join("·"),
+    dayMaster: `${saju.dayMaster.character}(${saju.dayMaster.elementLabel})`,
   };
 }
 
@@ -287,27 +308,38 @@ export async function buildPremiumHanjaTestResult(
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 45_000, maxRetries: 0 });
     const completion = await client.chat.completions.create({
       model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
-      temperature: 0.55,
+      temperature: 0.6,
       response_format: { type: "json_object" },
       messages: [
         {
           role: "system",
           content: [
-            "당신은 한국 이름의 한자 자의와 전통 명리 참고 정보를 설명하는 전문 리포트 에디터입니다.",
-            `고정된 후보 ${candidates.length}개를 빠짐없이 동일한 순서로 분석하고 한자나 지정 음가를 변경하지 마십시오.`,
-            "candidateAnalyses의 각 항목에는 hanjaName, summary, story, practicalUse, selectionGuide, meaningCaution, sajuConnection을 작성하십시오.",
-            "summary는 글자별 사전 뜻과 결합 구조를 2~3문장, story는 후보마다 고유한 의미 서사를 4~6문장, practicalUse는 실제 이름 설명 방식을 반드시 4문장 이상으로 작성하십시오.",
-            "selectionGuide는 이 후보가 어울리는 가치와 다른 후보와 비교할 판단축을 반드시 4문장 이상으로, meaningCaution은 자의의 다의성·현대적 어감·설명 시 주의점을 반드시 2문장 이상으로 쓰되 근거 없는 빈도나 사회적 평가를 만들지 마십시오.",
+            "당신은 아이의 이름에 담긴 한자의 의미를 부모가 마음으로 느낄 수 있도록 풀어 주는, 따뜻하고 품격 있는 이름 이야기 작가입니다.",
+            "목표는 '규칙 설명'이 아니라 '이 이름을 왜 아름답게 여길 수 있는지'를 부모에게 전하는 것입니다. 읽는 사람이 이름에 애정을 느끼도록, 구체적 심상과 자연스러운 우리말 문장으로 쓰십시오.",
+            `고정된 후보 ${candidates.length}개를 동일한 순서로 분석하되 한자나 지정 음가는 절대 바꾸지 마십시오.`,
+            "제공된 글자 뜻(meaning)은 사전 원문이라 투박할 수 있습니다. '덕 덕베풀'처럼 원문을 그대로 인용하지 말고, 그 글자가 품은 심상을 자연스러운 우리말로 풀어 설명하십시오(예: 德 → 너그러움과 베풂, 사람을 품는 덕).",
+            "각 candidateAnalyses 항목에는 hanjaName, summary, story, practicalUse, selectionGuide, meaningCaution, sajuConnection을 작성합니다.",
+            "summary: 글자들이 어떻게 어우러져 하나의 이름 이미지를 만드는지 2~3문장으로 압축합니다.",
+            "story: 이 이름만의 고유한 서사를 4문장 이상으로. 각 글자의 심상이 어떻게 이어지고 확장되는지, 아이의 삶에 어떤 분위기와 바람을 담을 수 있는지를 그림 그리듯 구체적으로 씁니다. 상투적 문구 반복 금지.",
+            "practicalUse: 부모가 이 이름을 남에게 소개할 때 쓸 수 있는 실제 표현과, 이름이 주는 인상을 4문장 이상으로. '이 이름은 ~한 느낌을 줍니다'처럼 이름의 인상·분위기를 묘사하는 것은 권장합니다.",
+            "selectionGuide: 어떤 가치를 중히 여기는 가족에게 이 후보가 어울리는지, 다른 후보와 무엇을 기준으로 비교하면 좋은지 4문장 이상으로 구체적으로.",
+            "meaningCaution: 글자 뜻의 다의성이나 현대적 어감에서 짚어둘 점을 2문장 이상으로. 단, 근거 없는 빈도·사회적 평가는 지어내지 마십시오.",
             includeSaju
-              ? "sajuOverview와 fiveElementsAnalysis는 각각 6~8문장, namingBalance는 4~6문장으로 상세히 쓰고, 년주·월주·일주·시주의 역할, 일간, 표면 오행 분포와 적용 한계를 빠짐없이 설명하십시오. 각 후보의 sajuConnection에는 원국·일간·오행 분포와 그 후보의 자의를 연결한 서로 다른 해석을 반드시 4문장 이상 작성하십시오. '주인의 성격과 운명에 긍정적인 영향을 미칠 것입니다' 또는 이와 같은 운명 단정 문장을 사용하지 마십시오. 검수된 한자 오행 분류가 없으면 특정 글자가 특정 오행을 보완한다고 단정하지 마십시오."
-              : "사주·오행은 언급하지 말고 모든 sajuConnection을 빈 문자열로 작성하십시오.",
-            "후보마다 같은 결론 문장이나 '다른 후보와 구별됩니다', '가족이 원하는 방향과 비교하세요', '공식 문서에서 확인하세요' 같은 공통 안내를 반복하지 마십시오.",
-            "성격·운명·미래를 예측하거나 어려움을 극복할 것이라고 단정하지 마십시오. 공식 등록 재확인 안내는 후보 분석에 넣지 마십시오.",
+              ? "sajuOverview: 실제 원국(년·월·일주와 시주, 일간)을 근거로 각 기둥이 무엇을 보는 자리인지, 일간을 축으로 이 구성이 어떤 '기질의 밑그림'을 그리는지 6~8문장으로 따뜻하게 해석하십시오. 단, '중심/축'은 일간(자기 자신)을 뜻하며 이는 오행 개수상 '가장 많은 기운(elementSummary.dominant)'과 다를 수 있으니 둘을 혼동하지 말고 구분해 쓰십시오. 표를 읽어주는 데 그치지 말고 의미를 부여하되, 표면 집계라는 한계도 자연스럽게 곁들이십시오."
+              : "사주·오행은 언급하지 말고 sajuConnection은 모두 빈 문자열로 두십시오.",
             includeSaju
-              ? `candidateComparison에는 ${candidates.length}개 후보를 함께 비교하고 자의·실사용·사주 참고를 종합한 선택 가이드를 후보 한자와 구체적 이유를 포함해 8~12문장으로 작성하십시오.`
-              : "candidateComparison은 빈 문자열로 작성하십시오.",
+              ? "fiveElementsAnalysis: 표면 오행 분포를 해석하되, 개수와 '가장 많은 기운/가장 적은 기운'은 반드시 입력의 elementSummary에 적힌 사실만 사용하고 임의로 바꾸지 마십시오. 그 분포가 일간과의 관계 속에서 어떤 분위기를 만드는지 6~8문장으로. namingBalance: 사주 참고와 자의·실사용을 함께 저울질해 이름을 고르는 법을 4~6문장으로."
+              : "",
+            includeSaju
+              ? "각 sajuConnection: 이 후보의 글자 심상을 원국·일간·오행 분포와 잇되, 오행 사실은 elementSummary와 100% 일치해야 하고 fiveElementsAnalysis와도 모순되면 안 됩니다. 검수된 한자 오행 분류가 없으므로 '이 글자가 특정 오행을 보충한다'고 단정하지 말고, 자의와 원국의 분위기가 어떻게 어울리는지 상징적으로 4문장 이상 이어 주십시오."
+              : "",
+            "지켜야 할 선(중요): 사주로 아이의 성격·능력·재능·미래를 예측하거나 '~할 것입니다/~할 가능성이 큽니다/~을 키울 것으로 기대됩니다'처럼 단정하지 마십시오. 운세·운명·성공·재물·합격을 약속하지 마십시오. 사주는 '기질의 밑그림·분위기 참고'로만 서술하고, 아이 본인에 대한 예언이 아니라 '이름에 담을 수 있는 상징과 바람'으로 표현하십시오. 통계·빈도를 지어내지 마십시오.",
+            "후보마다 같은 결론 문장이나 '다른 후보와 구별됩니다', '공식 문서에서 확인하세요' 같은 공통 안내 반복 금지. 공식 등록 재확인 안내는 넣지 마십시오.",
+            includeSaju
+              ? `candidateComparison: ${candidates.length}개 후보를 나란히 놓고 자의·실사용·사주 참고를 종합해 어떤 가족에게 어떤 후보가 어울리는지 후보 한자와 구체적 이유를 들어 8~12문장으로.`
+              : "candidateComparison은 빈 문자열로 두십시오.",
             "응답은 JSON 객체이며 필드는 sajuOverview, fiveElementsAnalysis, namingBalance, candidateComparison, candidateAnalyses입니다.",
-          ].join(" "),
+          ].filter(Boolean).join(" "),
         },
         {
           role: "user",
@@ -320,6 +352,8 @@ export async function buildPremiumHanjaTestResult(
             })),
             parentWishes: text(inputFactors.parentWishes) || null,
             excludedMeanings: text(inputFactors.excludedMeanings) || null,
+            // AI가 오행 개수를 지어내거나 서로 모순되지 않도록, 확정된 사실만 명확히 전달한다.
+            elementSummary: saju ? buildElementSummary(saju) : null,
             saju,
           }),
         },
