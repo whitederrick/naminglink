@@ -9,6 +9,7 @@ import {
   serviceList,
   services,
 } from "@/lib/services";
+import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
 
 const homeLabels: Record<Locale, string> = {
   ko: "홈",
@@ -67,6 +68,43 @@ const globalNavigationLabels: Record<
   pl: { transliteration: "Imię w hangulu", koreanName: "Koreańskie imię" },
 };
 
+// 외국인 대상 서비스에서만 로케일 문구를 쓰고, 한국어 대상 서비스는 항상 ko를 유지한다(다른 로케일은 영어 폴백).
+const shellCopies: Record<
+  "ko" | "en",
+  {
+    promiseLabel: string;
+    defaultLanguage: string;
+    g2kPromise: string;
+    g2kIntro: string;
+    headerAdLabel: string;
+  }
+> = {
+  ko: {
+    promiseLabel: "서비스 약속",
+    defaultLanguage: "기본 언어",
+    g2kPromise:
+      "부르고 쓰기 쉬운 이름으로 제안하며, 의미와 발음 등을 확인할 수 있습니다.",
+    g2kIntro:
+      "아래의 다양한 조건을 입력하면 자연스럽고 설명 가능한 한국 이름을 제안합니다.",
+    headerAdLabel: "서비스 상단 배너 광고",
+  },
+  en: {
+    promiseLabel: "Our promise",
+    defaultLanguage: "Default language",
+    g2kPromise:
+      "We suggest names that are easy to call and write, with meaning and pronunciation you can verify.",
+    g2kIntro:
+      "Fill in the details below and we'll suggest natural, explainable Korean names.",
+    headerAdLabel: "Service header banner ad",
+  },
+};
+
+function getShellCopy(service: ServiceConfig, locale: Locale) {
+  return service.serviceType === "GLOBAL_TO_KOREAN" && locale !== "ko"
+    ? shellCopies.en
+    : shellCopies.ko;
+}
+
 function ServicePromisePanel({
   service,
   locale,
@@ -78,6 +116,7 @@ function ServicePromisePanel({
 }) {
   const isGlobalToKorean = service.serviceType === "GLOBAL_TO_KOREAN";
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
+  const copy = getShellCopy(service, locale);
 
   return (
     <div className={`rounded-lg bg-surface-strong p-5 ${className}`}>
@@ -89,16 +128,15 @@ function ServicePromisePanel({
         />
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-3">
-            <p className="font-semibold">서비스 약속</p>
+            <p className="font-semibold">{copy.promiseLabel}</p>
             <p className="inline-flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm text-muted">
               <Sparkles aria-hidden="true" size={15} />
-              기본 언어: {locale.toUpperCase()}
+              {copy.defaultLanguage}: {locale.toUpperCase()}
             </p>
           </div>
           {isGlobalToKorean && !isHangulTransliteration ? (
             <p className="mt-3 text-sm leading-6 text-muted">
-              부르고 쓰기 쉬운 이름으로 제안하며, 의미와 발음 등을 확인할 수
-              있습니다.
+              {copy.g2kPromise}
             </p>
           ) : (
             <p className="mt-2 whitespace-pre-line text-sm leading-6 text-muted">
@@ -121,9 +159,15 @@ export function ServiceShell({
   const homeLabel = homeLabels[locale] ?? homeLabels.en;
   const isGlobalToKorean = service.serviceType === "GLOBAL_TO_KOREAN";
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
+  const shellCopy = getShellCopy(service, locale);
+  // 외국인 대상 서비스의 소개 문구(제목·설명·약속·결과 라벨)를 로케일 사전으로 덮어쓴다.
+  const displayService = localizeServiceHero(
+    isGlobalToKorean ? getServiceOverride(locale) : null,
+    service,
+  );
   const introDescription = isGlobalToKorean && !isHangulTransliteration
-    ? "아래의 다양한 조건을 입력하면 자연스럽고 설명 가능한 한국 이름을 제안합니다."
-    : service.description;
+    ? shellCopy.g2kIntro
+    : displayService.description;
   const navigationServices =
     locale === "ko"
       ? serviceList.filter((item) => koreanEntryServiceSlugs.has(item.slug))
@@ -173,7 +217,7 @@ export function ServiceShell({
               <AdBanner
                 variant="header"
                 slotKey="service_header"
-                label="서비스 상단 배너 광고"
+                label={shellCopy.headerAdLabel}
               />
             </div>
           </div>
@@ -182,12 +226,12 @@ export function ServiceShell({
         <section className="grid gap-5 rounded-lg border border-line bg-surface p-6 shadow-sm xl:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] xl:items-center">
           <div className="min-w-0">
             <p className="text-sm font-semibold text-brand-teal">
-              {service.eyebrow}
+              {displayService.eyebrow}
             </p>
             <h1
               className="mt-3 max-w-3xl text-3xl font-semibold leading-tight tracking-normal sm:text-4xl"
             >
-              {service.title}
+              {displayService.title}
             </h1>
             <p
               className={`mt-4 max-w-3xl whitespace-pre-line text-base leading-7 text-muted sm:whitespace-normal ${
@@ -199,10 +243,10 @@ export function ServiceShell({
               {introDescription}
             </p>
           </div>
-          <ServicePromisePanel service={service} locale={locale} />
+          <ServicePromisePanel service={displayService} locale={locale} />
         </section>
 
-        <NamingForm service={service} locale={locale} />
+        <NamingForm service={displayService} locale={locale} />
       </section>
       <SiteFooter locale={locale} policyMode="modal" />
     </main>

@@ -1,11 +1,19 @@
-import type { FieldOption, Locale } from "@/lib/services";
+import type { FieldOption, Locale, ServiceConfig } from "@/lib/services";
 
 // 외국인 대상 서비스(GLOBAL_TO_KOREAN)의 폼 설정 문자열을 로케일별로 치환한다.
 // services.ts의 공유 설정 원본은 건드리지 않고, 렌더 시점에 안정적 키
 // (서비스 slug + 섹션 제목/필드 이름, 옵션 value)로만 라벨을 갈아끼운다.
 // 한국어 대상 서비스는 이 경로를 타지 않아 기존 한국어 문구가 그대로 유지된다.
 type ServiceTextOverride = {
-  sectionDescriptions?: Record<string, string>; // 섹션 제목 → 설명
+  hero?: {
+    title?: string;
+    eyebrow?: string;
+    description?: string;
+    promise?: string;
+    resultLabel?: string;
+  };
+  sectionTitles?: Record<string, string>; // 원본(한국어) 섹션 제목 → 번역 제목
+  sectionDescriptions?: Record<string, string>; // 원본 섹션 제목 → 설명
   fieldLabels?: Record<string, string>; // 필드 name → 라벨
   fieldHints?: Record<string, string>; // 필드 name → 힌트
   fieldPlaceholders?: Record<string, string>; // 필드 name → 플레이스홀더
@@ -21,24 +29,63 @@ export type ServiceCopyOverride = {
 const en: ServiceCopyOverride = {
   byService: {
     "global-to-korean": {
+      hero: {
+        title: "Turn your name into a Korean name",
+        eyebrow: "A Korean name for life and work in Korea",
+        description:
+          "Tell us your original name, country, birth details, and how you'll use the name in Korea, and we'll suggest natural, explainable Korean names.",
+        promise:
+          "We recommend names that are easy to call and write, with meaning and pronunciation you can verify.",
+        resultLabel: "Recommended Korean names",
+      },
+      sectionTitles: {
+        "기본 정보": "Original identity",
+        "출생 정보": "Birth profile",
+        "한국 사용 맥락": "Korean usage context",
+      },
       sectionDescriptions: {
-        "Original identity": "Choose the basic details we need to suggest a Korean name.",
-        "Birth profile": "Select each item for an accurate comparison and analysis.",
-        "Korean usage context": "Choose the tone you want and how you'll use the name in Korea.",
+        "기본 정보": "Choose the basic details we need to suggest a Korean name.",
+        "출생 정보": "Select each item for an accurate comparison and analysis.",
+        "한국 사용 맥락": "Choose the tone you want and how you'll use the name in Korea.",
       },
       fieldLabels: {
+        originalName: "Original name",
+        country: "Country",
         nameMotivation: "Purpose of your Korean name",
+        gender: "Gender / image",
+        birthYear: "Birth year",
+        birthMonth: "Birth month",
+        birthDay: "Birth day",
+        birthHour: "Birth time",
+        koreanFamilyName: "Preferred Korean family name",
+        koreanTone: "Name tone",
+        usageContext: "Usage context",
+        outputLanguage: "Output language",
       },
       fieldPlaceholders: {
         originalName: "e.g., Nguyễn Minh Anh, 山田 太郎, María García",
       },
     },
     "global-name-to-hangul": {
+      hero: {
+        title: "Write your name in Hangul, by its real pronunciation",
+        eyebrow: "Your name in Hangul",
+        description:
+          "We analyze how your name is pronounced and suggest a natural Hangul spelling.",
+        promise:
+          "We prioritize your name's own sounds and syllables, following Korean pronunciation rules.",
+        resultLabel: "Recommended Hangul spellings",
+      },
+      sectionTitles: {
+        "본명 정보": "Original name",
+      },
       sectionDescriptions: {
-        "Original name": "Choose the language and country used to write and pronounce your name.",
+        "본명 정보": "Choose the language and country used to write and pronounce your name.",
       },
       fieldLabels: {
+        originalName: "Original name",
         originalNameLanguage: "Source language of your name",
+        country: "Country",
         pronunciationHint: "Pronunciation hint (optional)",
       },
       fieldHints: {
@@ -56,6 +103,19 @@ const en: ServiceCopyOverride = {
     },
   },
   optionLabels: {
+    // 선호 한국 성
+    recommend: "Recommend for me",
+    // 이름 분위기
+    natural_modern: "Natural and modern",
+    traditional: "Traditional",
+    business_friendly: "Business-friendly",
+    soft: "Soft and warm",
+    distinctive: "Distinctive",
+    // 사용 맥락
+    korean_workplace: "Korean workplace",
+    school: "School / exchange",
+    creator: "Creator / public profile",
+    daily: "Daily life",
     // 출력 언어
     auto: "Match my browser locale",
     // 성별
@@ -95,6 +155,31 @@ const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en };
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {
   if (locale === "ko") return null;
   return overrides[locale] ?? en;
+}
+
+export function localizeSectionTitle(
+  override: ServiceCopyOverride | null,
+  slug: string,
+  sectionTitle: string,
+) {
+  return override?.byService[slug]?.sectionTitles?.[sectionTitle] ?? sectionTitle;
+}
+
+// 서비스 소개 영역(제목·아이브로·설명·약속·결과 라벨)을 로케일에 맞게 덮어쓴 설정 사본을 돌려준다.
+export function localizeServiceHero(
+  override: ServiceCopyOverride | null,
+  service: ServiceConfig,
+): ServiceConfig {
+  const hero = override?.byService[service.slug]?.hero;
+  if (!hero) return service;
+  return {
+    ...service,
+    title: hero.title ?? service.title,
+    eyebrow: hero.eyebrow ?? service.eyebrow,
+    description: hero.description ?? service.description,
+    promise: hero.promise ?? service.promise,
+    resultLabel: hero.resultLabel ?? service.resultLabel,
+  };
 }
 
 export function localizeSectionDescription(

@@ -14,6 +14,7 @@ import {
   type Locale,
 } from "@/lib/services";
 import { getResultCopy, type ResultCopy } from "@/lib/i18n-result";
+import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
 
 type StoredResult = {
   result: unknown;
@@ -272,7 +273,10 @@ export function HangulPronunciationResultPage({
               </h1>
             </section>
             <ResultCard
-              service={globalNameToHangulService}
+              service={localizeServiceHero(
+                getServiceOverride(locale),
+                globalNameToHangulService,
+              )}
               result={currentStored.result}
               revealedCount={revealedCount}
               locale={locale}

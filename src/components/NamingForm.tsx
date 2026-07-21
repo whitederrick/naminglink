@@ -36,6 +36,7 @@ import {
   localizeFieldPlaceholder,
   localizeOptions,
   localizeSectionDescription,
+  localizeSectionTitle,
 } from "@/lib/i18n-service";
 
 type ApiResult = {
@@ -596,7 +597,9 @@ export function NamingForm({
               }`}
 
             >
-              <h2 className="text-lg font-semibold">{section.title}</h2>
+              <h2 className="text-lg font-semibold">
+                {localizeSectionTitle(serviceOverride, service.slug, section.title)}
+              </h2>
               <p className="mt-2 text-sm leading-6 text-muted">
                 {localizeSectionDescription(
                   serviceOverride,
@@ -741,28 +744,10 @@ export function NamingForm({
           {isHangulTransliteration ? (
             <aside className="rounded-lg border border-brand-teal/25 bg-surface-strong p-5 shadow-sm lg:col-span-1">
               <h2 className="text-lg font-semibold">
-                본인 이름이 한글로 바뀌는 단계
+                {t.transliterationStepsTitle}
               </h2>
               <ol className="mt-5 grid gap-4">
-                {[
-                  ["본명 확인", "입력한 원래 철자와 음절을 확인합니다."],
-                  [
-                    "언어·지역 발음 분석",
-                    "표기 언어를 우선하고, 국가별 발음 차이를 반영합니다.",
-                  ],
-                  [
-                    "발음 힌트 우선 반영",
-                    "입력된 발음 힌트는 일반적인 발음 규칙보다 우선합니다.",
-                  ],
-                  [
-                    "발음 구조화",
-                    "실제 발음을 음절과 발음 기호로 분석합니다.",
-                  ],
-                  [
-                    "한글 표기 제안",
-                    "원래 발음을 유지하며, 자연스러운 한글로 제안합니다.",
-                  ],
-                ].map(([title, description], index) => (
+                {t.transliterationSteps.map(([title, description], index) => (
                   <li key={title} className="grid grid-cols-[2rem_1fr] gap-3">
                     <span className="flex size-8 items-center justify-center rounded-full bg-brand-teal text-sm font-semibold text-white">
                       {index + 1}

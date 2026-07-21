@@ -37,6 +37,8 @@ export type FormCopy = {
     localNameHint: string;
     motivationNote?: string | null;
   }) => string;
+  transliterationStepsTitle: string;
+  transliterationSteps: Array<[string, string]>;
 };
 
 const ko: FormCopy = {
@@ -74,6 +76,14 @@ const ko: FormCopy = {
     `기본 언어: ${languageName} · 현지 이름 예시: ${localNameHint}${
       motivationNote ? ` · 추천 옵션: ${motivationNote}` : ""
     }`,
+  transliterationStepsTitle: "본인 이름이 한글로 바뀌는 단계",
+  transliterationSteps: [
+    ["본명 확인", "입력한 원래 철자와 음절을 확인합니다."],
+    ["언어·지역 발음 분석", "표기 언어를 우선하고, 국가별 발음 차이를 반영합니다."],
+    ["발음 힌트 우선 반영", "입력된 발음 힌트는 일반적인 발음 규칙보다 우선합니다."],
+    ["발음 구조화", "실제 발음을 음절과 발음 기호로 분석합니다."],
+    ["한글 표기 제안", "원래 발음을 유지하며, 자연스러운 한글로 제안합니다."],
+  ],
 };
 
 const en: FormCopy = {
@@ -112,6 +122,14 @@ const en: FormCopy = {
     `Default language: ${languageName} · Local name example: ${localNameHint}${
       motivationNote ? ` · Suggested option: ${motivationNote}` : ""
     }`,
+  transliterationStepsTitle: "How your name becomes Hangul",
+  transliterationSteps: [
+    ["Confirm your name", "We confirm the original spelling and syllables you entered."],
+    ["Analyze language & region", "Your source language comes first, with country-level pronunciation differences applied."],
+    ["Apply your pronunciation hint", "Any hint you entered overrides general pronunciation rules."],
+    ["Structure the pronunciation", "We break the actual pronunciation into syllables and phonetic notation."],
+    ["Suggest Hangul spellings", "We keep your original pronunciation and suggest natural Hangul."],
+  ],
 };
 
 // ko/en만 작성했고, 나머지 로케일은 영어로 폴백한다(번역가가 언어별로 채워 넣을 수 있는 구조).
