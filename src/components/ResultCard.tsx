@@ -312,7 +312,7 @@ function PronunciationCandidateDetails({
         </div>
         {matchingRate !== null ? (
           <span className="rounded-lg bg-background px-3 py-2 text-sm font-semibold text-brand-teal shadow-sm">
-            매칭률 {matchingRate}%
+            적합도(참고) {matchingRate}점
           </span>
         ) : null}
       </div>
@@ -524,7 +524,7 @@ export function ResultCard({
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
                           {service.serviceType === "HANJA_MEANING_MATCH"
                             ? `조건 적합도 ${matchingRate}점`
-                            : `매칭률 ${matchingRate}%`}
+                            : `적합도(참고) ${matchingRate}점`}
                         </span>
                       ) : service.serviceType === "HANJA_MEANING_MATCH" ? (
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
