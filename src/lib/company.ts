@@ -1,4 +1,4 @@
-export const LEGAL_EFFECTIVE_DATE = "2026-07-09";
+export const LEGAL_EFFECTIVE_DATE = "2026-07-22";
 
 export const companyInfo = {
   serviceName: "Naming-Link",

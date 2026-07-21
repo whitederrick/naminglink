@@ -120,7 +120,7 @@ export function AdminContentManager() {
         payload.draft ??
           (nextKind === "footer"
             ? fallbackFooterContent
-            : getFallbackPolicyDocument(nextKind)),
+            : getFallbackPolicyDocument(nextKind, nextLocale)),
       );
       setStatus({
         draftVersion: payload.draftVersion,
@@ -164,7 +164,7 @@ export function AdminContentManager() {
       setContent(
         nextKind === "footer"
           ? fallbackFooterContent
-          : getFallbackPolicyDocument(nextKind),
+          : getFallbackPolicyDocument(nextKind, locale),
       );
     }
   }

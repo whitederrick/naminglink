@@ -5,10 +5,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 export function PolicyLayout({
   title,
   description,
+  loginLabel = "로그인",
   children,
 }: {
   title: string;
   description: string;
+  loginLabel?: string;
   children: React.ReactNode;
 }) {
   return (
@@ -24,7 +26,7 @@ export function PolicyLayout({
             className="inline-flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-sm font-semibold transition hover:border-foreground"
           >
             <Sparkles aria-hidden="true" size={15} />
-            로그인
+            {loginLabel}
           </Link>
         </div>
       </header>

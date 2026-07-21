@@ -24,7 +24,7 @@ export async function getPublishedPolicyDocument(
   kind: LegalDocumentKind,
   locale: Locale,
 ): Promise<PolicyDocumentContent> {
-  const fallback = getFallbackPolicyDocument(kind);
+  const fallback = getFallbackPolicyDocument(kind, locale);
   const supabase = getSupabaseAdminClient();
 
   if (!supabase) return fallback;
