@@ -840,7 +840,7 @@ export function NamingForm({
                   <p className="rounded-lg border border-line bg-background p-3 text-sm leading-6 text-muted">
                     {t.guestNoSavePrefix}
                     <Link
-                      href="/login"
+                      href={locale && locale !== "ko" ? `/login?lang=${locale}` : "/login"}
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
                       {t.loginLink}

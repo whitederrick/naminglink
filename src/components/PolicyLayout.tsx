@@ -6,23 +6,29 @@ export function PolicyLayout({
   title,
   description,
   loginLabel = "로그인",
+  locale,
   children,
 }: {
   title: string;
   description: string;
   loginLabel?: string;
+  locale?: string;
   children: React.ReactNode;
 }) {
+  const langQuery = locale && locale !== "ko" ? `?lang=${locale}` : "";
   return (
     <main className="min-h-screen bg-background">
       <header className="border-b border-line bg-surface">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
-          <Link href="/" className="inline-flex items-center gap-2 text-sm">
+          <Link
+            href={`/${langQuery}`}
+            className="inline-flex items-center gap-2 text-sm"
+          >
             <ArrowLeft aria-hidden="true" size={17} />
             Naming-Link
           </Link>
           <Link
-            href="/login"
+            href={`/login${langQuery}`}
             className="inline-flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-sm font-semibold transition hover:border-foreground"
           >
             <Sparkles aria-hidden="true" size={15} />

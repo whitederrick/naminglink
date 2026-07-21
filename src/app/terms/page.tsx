@@ -19,6 +19,7 @@ export default async function TermsPage({
       title={content.title}
       description={`${content.description} ${labels.effectiveDate}: ${content.effectiveDate}`}
       loginLabel={labels.login}
+      locale={locale}
     >
       <TermsDocumentContent content={content} />
     </PolicyLayout>

@@ -19,6 +19,7 @@ export default async function PrivacyPage({
       title={content.title}
       description={`${content.description} ${labels.effectiveDate}: ${content.effectiveDate}`}
       loginLabel={labels.login}
+      locale={locale}
     >
       <PrivacyDocumentContent content={content} />
     </PolicyLayout>

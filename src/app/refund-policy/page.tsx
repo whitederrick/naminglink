@@ -19,6 +19,7 @@ export default async function RefundPolicyPage({
       title={content.title}
       description={`${content.description} ${labels.effectiveDate}: ${content.effectiveDate}`}
       loginLabel={labels.login}
+      locale={locale}
     >
       <RefundDocumentContent content={content} />
     </PolicyLayout>

@@ -19,6 +19,7 @@ export default async function PricingPage({
       title={content.title}
       description={`${content.description} ${labels.referenceDate}: ${content.effectiveDate}`}
       loginLabel={labels.login}
+      locale={locale}
     >
       <PricingDocumentContent content={content} />
     </PolicyLayout>
