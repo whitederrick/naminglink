@@ -189,9 +189,39 @@ const KOREAN_SURNAME_ROMAN: Record<string, string> = {
   표: "Pyo", 은: "Eun", 탁: "Tak", 공: "Kong",
 };
 
-// 로마자 언어권에서 모델의 표기 실수를 코드에서 확정적으로 교정한다.
-// - full_name_local에 한글·한자 성을 섞는 실수('안 Nathan') → '이름 성' 로마자 재조립
-// - pronunciation에 한글만 두 번 쓰는 실수('가스파르 / 가스파르') → '철자 / 한글' 재조립
+const CYRILLIC_LANGUAGES = new Set(["ru", "mn", "kk"]);
+
+// 비로마자 언어에서 name 필드가 로마자로 나오는 실수를 막기 위해, 사용자 메시지에 명시 규칙을 넣는다.
+const NAME_SCRIPT_RULES: Record<string, string> = {
+  ja: "name 필드는 반드시 일본어 한자 또는 가나로 표기하십시오 (예: 陽翔). 로마자 금지.",
+  zh: "name 필드는 반드시 한자로 표기하십시오. 로마자 금지.",
+  ru: "name 필드는 반드시 키릴 문자로 표기하십시오 (예: Никита). 로마자 금지.",
+  mn: "name 필드는 반드시 키릴 문자로 표기하십시오. 로마자 금지.",
+  kk: "name 필드는 반드시 키릴 문자로 표기하십시오 (예: Нұрлан). 로마자 금지.",
+  th: "name 필드는 반드시 태국 문자로 표기하십시오 (예: ณัฐวุฒิ). 로마자 금지.",
+  km: "name 필드는 반드시 크메르 문자로 표기하십시오 (예: សុខា). 로마자 금지.",
+  ar: "name 필드는 반드시 아랍 문자로 표기하십시오 (예: خالد). 로마자 금지.",
+};
+
+// 주요 한국 성의 가타카나·키릴 표기(재일·고려인 사회 통용 표기 기준).
+const KOREAN_SURNAME_KATAKANA: Record<string, string> = {
+  김: "キム", 이: "イ", 박: "パク", 최: "チェ", 정: "チョン", 강: "カン",
+  조: "チョ", 윤: "ユン", 장: "チャン", 임: "イム", 한: "ハン", 오: "オ",
+  서: "ソ", 신: "シン", 권: "クォン", 황: "ファン", 안: "アン", 송: "ソン",
+  전: "チョン", 홍: "ホン", 유: "ユ", 고: "コ", 문: "ムン", 양: "ヤン",
+  손: "ソン", 배: "ペ", 백: "ペク", 남: "ナム", 노: "ノ", 하: "ハ",
+};
+const KOREAN_SURNAME_CYRILLIC: Record<string, string> = {
+  김: "Ким", 이: "Ли", 박: "Пак", 최: "Цой", 정: "Чон", 강: "Кан",
+  조: "Чо", 윤: "Юн", 장: "Чан", 임: "Им", 한: "Хан", 오: "О",
+  서: "Со", 신: "Син", 권: "Квон", 황: "Хван", 안: "Ан", 송: "Сон",
+  전: "Чон", 홍: "Хон", 유: "Ю", 고: "Ко", 문: "Мун", 양: "Ян",
+  손: "Сон", 배: "Пэ", 백: "Пэк", 남: "Нам", 노: "Но", 하: "Ха",
+};
+
+// 모델의 표기 실수를 코드에서 확정적으로 교정한다.
+// - 로마자권: full_name_local('안 Nathan')과 pronunciation('가스파르 / 가스파르')을 재조립
+// - 비로마자권: full_name_local에 한글 성이 남으면 가타카나·키릴 표 또는 로마자 성으로 재조립
 // (프롬프트 지시만으로는 gpt-4o-mini가 이 형식들을 반복적으로 틀림.)
 function normalizeKoreanToGlobalResult(
   result: unknown,
@@ -199,8 +229,16 @@ function normalizeKoreanToGlobalResult(
 ) {
   if (!result || typeof result !== "object") return result;
   const language = String(inputFactors.targetLanguage ?? "");
-  if (!LATIN_SCRIPT_LANGUAGES.has(language)) return result;
-  const surname = KOREAN_SURNAME_ROMAN[String(inputFactors.familyName ?? "").trim()];
+  if (!language || language === "ko") return result;
+  const familyName = String(inputFactors.familyName ?? "").trim();
+  const roman = KOREAN_SURNAME_ROMAN[familyName];
+  const isLatin = LATIN_SCRIPT_LANGUAGES.has(language);
+  const localSurname =
+    language === "ja"
+      ? KOREAN_SURNAME_KATAKANA[familyName]
+      : CYRILLIC_LANGUAGES.has(language)
+        ? KOREAN_SURNAME_CYRILLIC[familyName]
+        : undefined;
   const candidates = (result as Record<string, unknown>).candidates;
   if (!Array.isArray(candidates)) return result;
   for (const candidate of candidates) {
@@ -208,11 +246,33 @@ function normalizeKoreanToGlobalResult(
     const item = candidate as Record<string, unknown>;
     const name = typeof item.name === "string" ? item.name.trim() : "";
     if (!name) continue;
-    if (surname) item.full_name_local = `${name} ${surname}`;
     const pronunciation =
       typeof item.pronunciation === "string" ? item.pronunciation : "";
     const hangulReading = pronunciation.match(/[가-힣]+(?:\s[가-힣]+)*/)?.[0];
-    if (hangulReading) item.pronunciation = `${name} / ${hangulReading}`;
+    const romanGiven = pronunciation.split("/")[0]?.trim() ?? "";
+
+    if (isLatin) {
+      if (roman) item.full_name_local = `${name} ${roman}`;
+      if (hangulReading) item.pronunciation = `${name} / ${hangulReading}`;
+      continue;
+    }
+
+    const full = typeof item.full_name_local === "string" ? item.full_name_local : "";
+    if (!/[가-힣]/.test(full)) continue;
+    const romanFull =
+      roman && /^[A-Za-z .'-]+$/.test(romanGiven)
+        ? ` (${roman} ${romanGiven})`
+        : roman
+          ? ` (${roman})`
+          : "";
+    if (localSurname) {
+      item.full_name_local =
+        language === "ja"
+          ? `${localSurname}・${name}${romanFull}`
+          : `${name} ${localSurname}${romanFull}`;
+    } else {
+      item.full_name_local = `${name}${romanFull}`;
+    }
   }
   return result;
 }
@@ -309,7 +369,21 @@ export async function generateNamingResult(
     ...(generationConstraint ? { generationConstraint } : {}),
     ...(sajuReference ? { sajuReference } : {}),
     // 구버전 클라이언트가 outputLanguage를 대상 언어로 보내도 설명 언어는 한국어로 강제한다.
-    ...(serviceType === "KOREAN_TO_GLOBAL" ? { outputLanguage: "ko" } : {}),
+    // 성의 여권식 로마자를 함께 넘겨 비로마자 문자권(키릴·아랍 등)에서도 성 음차의 기준을 준다.
+    ...(serviceType === "KOREAN_TO_GLOBAL"
+      ? {
+          outputLanguage: "ko",
+          ...(KOREAN_SURNAME_ROMAN[String(inputFactors.familyName ?? "").trim()]
+            ? {
+                familyNameRoman:
+                  KOREAN_SURNAME_ROMAN[String(inputFactors.familyName ?? "").trim()],
+              }
+            : {}),
+          ...(NAME_SCRIPT_RULES[String(inputFactors.targetLanguage ?? "")]
+            ? { nameScriptRule: NAME_SCRIPT_RULES[String(inputFactors.targetLanguage ?? "")] }
+            : {}),
+        }
+      : {}),
   };
   const openai = getOpenAIClient();
   const isHangulTransliteration =
