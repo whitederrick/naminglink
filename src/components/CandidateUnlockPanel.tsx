@@ -63,7 +63,9 @@ export function CandidateUnlockPanel({
             현재 {Math.min(revealedCount, totalCount)}개 공개 · {remainingCount}개 잠금
           </h2>
           <p className="mt-2 text-sm leading-6 text-muted">
-            광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 전체 결제 시에는 모든 후보와 한자 종합 상세를 광고 없이 확인할 수 있도록 준비 중입니다.
+            {serviceType === "HANJA_MEANING_MATCH"
+              ? "광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 전체 결제 시에는 모든 후보와 한자 종합 상세를 광고 없이 확인할 수 있도록 준비 중입니다."
+              : "광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 990원 결제로 남은 후보 전체를 광고 없이 한 번에 공개하는 기능을 준비 중입니다."}
           </p>
         </div>
       </div>
@@ -87,13 +89,25 @@ export function CandidateUnlockPanel({
           <Eye aria-hidden="true" size={17} />
           {loading ? "광고 확인 중" : "광고 보고 다음 후보 열기"}
         </button>
-        <a
-          href="#premium-hanja-analysis"
-          className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal"
-        >
-          <CreditCard aria-hidden="true" size={17} />
-          전체 후보 상품 보기 · 2,900원부터
-        </a>
+        {serviceType === "HANJA_MEANING_MATCH" ? (
+          <a
+            href="#premium-hanja-analysis"
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal"
+          >
+            <CreditCard aria-hidden="true" size={17} />
+            전체 후보 상품 보기 · 2,900원부터
+          </a>
+        ) : (
+          <button
+            type="button"
+            disabled
+            title="결제 기능 준비 중입니다."
+            className="inline-flex h-11 cursor-not-allowed items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal opacity-60"
+          >
+            <CreditCard aria-hidden="true" size={17} />
+            전체 후보 일괄 공개 · 990원 (준비 중)
+          </button>
+        )}
       </div>
     </section>
   );

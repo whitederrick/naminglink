@@ -81,7 +81,10 @@ function candidateTitle(
   }
 
   if (service.serviceType === "KOREAN_TO_GLOBAL") {
-    return text(item.name) || text(item.hangul) || `후보 ${index + 1}`;
+    // 일본어 등은 한자+읽기 병기 표기(local_script, 예: 陽翔(はると))를 제목으로 우선 사용한다.
+    return (
+      text(item.local_script) || text(item.name) || text(item.hangul) || `후보 ${index + 1}`
+    );
   }
 
   return text(item.hanja) || text(item.hangul) || `후보 ${index + 1}`;
@@ -101,6 +104,22 @@ function candidateRows(
       ["추천 이유", item.recommendation_reason],
       ["한국어 자연스러움", item.cultural_fit],
       ["주의", item.caution_notes],
+    ] satisfies Array<[string, unknown]>;
+  }
+
+  if (service.serviceType === "KOREAN_TO_GLOBAL") {
+    return [
+      ["현지 표기", item.local_script],
+      ["성까지 붙인 전체 표기", item.full_name_local],
+      ["발음", item.pronunciation],
+      ["변환 전략", item.conversion_strategy],
+      ["추천 이유", item.recommendation_reason],
+      ["이름의 의미", item.name_meaning],
+      ["의미 연결", item.meaning_connection],
+      ["현지에서의 인식", item.local_perception],
+      ["직업적 인상", item.professional_impression],
+      ["지역 적합성", item.region_fit],
+      ["주의", item.local_cautions],
     ] satisfies Array<[string, unknown]>;
   }
 

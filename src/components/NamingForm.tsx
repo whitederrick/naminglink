@@ -147,7 +147,7 @@ function resolveMotivation(
   return selected || "general";
 }
 
-const DEFAULT_ANALYSIS_AD_SECONDS = 5;
+const DEFAULT_ANALYSIS_AD_SECONDS = 10;
 const HANJA_ANALYSIS_AD_SECONDS = 15;
 
 const resultCandidateCount = (result: unknown) => cappedCandidateCount(result, 5);
@@ -364,9 +364,12 @@ export function NamingForm({
 
       const inputFactors = {
         ...values,
-        outputLanguage: isHanjaMeaning
-          ? "ko"
-          : values.targetLanguage || values.outputLanguage || locale,
+        // KOREAN_TO_GLOBAL은 사용자가 한국인이므로 설명 언어는 항상 한국어다.
+        // 대상 언어(targetLanguage)를 outputLanguage로 넘기면 모델이 설명까지 그 언어로 써 버린다.
+        outputLanguage:
+          isHanjaMeaning || service.serviceType === "KOREAN_TO_GLOBAL"
+            ? "ko"
+            : values.targetLanguage || values.outputLanguage || locale,
         selectedAddOns: [],
         serviceSlug: service.slug,
         countryProfile,
@@ -856,7 +859,9 @@ export function NamingForm({
             <p className="text-center text-sm font-medium text-brand-teal">
               {t.adRevealNote(analysisCountdown)}
             </p>
-            <AILoadingSteps />
+            <AILoadingSteps
+              variant={service.serviceType === "KOREAN_TO_GLOBAL" ? "global" : "general"}
+            />
           </div>
         ) : null}
 
@@ -927,7 +932,13 @@ export function NamingForm({
                   : "광고 확인 완료 · 분석 결과를 준비하고 있습니다"}
             </p>
             <AILoadingSteps
-              variant={isHanjaMeaning ? "hanja" : "general"}
+              variant={
+                isHanjaMeaning
+                  ? "hanja"
+                  : service.serviceType === "KOREAN_TO_GLOBAL"
+                    ? "global"
+                    : "general"
+              }
               candidateCount={officialCandidateCount}
             />
           </div>

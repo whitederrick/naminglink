@@ -6,8 +6,33 @@ const generalSteps = [
   "입력값의 의미와 조건을 정리하고 있습니다.",
   "발음, 문화권, 사주 참고값을 대조하고 있습니다.",
   "이름 후보의 이야기와 배제 사유를 구성하고 있습니다.",
-  "JSON 결과를 검증하고 화면에 맞게 정리하고 있습니다.",
+  "결과를 검토하고 화면에 맞게 정리하고 있습니다.",
 ];
+
+// 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.
+const globalNameSteps = [
+  "이름은 나라가 바뀌어도 그 사람의 이야기를 담습니다.",
+  "같은 이름도 나라마다 첫인상이 다릅니다. 현지의 귀로 듣고 있습니다.",
+  "원래 이름의 소리와 뜻을 현지 이름들과 하나하나 견주고 있습니다.",
+  "명함, 학교, 서류에서 자연스럽게 불릴 이름인지 살피고 있습니다.",
+  "현지인이 듣자마자 편하게 부를 수 있는 이름을 고르고 있습니다.",
+  "이름의 어원과 유래를 확인해 근거 있는 후보만 남기고 있습니다.",
+  "성과 이름을 이었을 때의 울림까지 확인하고 있습니다.",
+  "발음이 쉬운지, 오해를 살 여지는 없는지 꼼꼼히 점검하고 있습니다.",
+  "원래 이름의 정체성이 새 이름에도 이어지도록 다듬고 있습니다.",
+  "세대와 지역에 따라 이름이 주는 느낌의 차이를 비교하고 있습니다.",
+  "좋은 이름은 소개가 필요 없는 첫인사가 됩니다.",
+  "당신의 이름이 세계 어디서든 당당하게 불리길 바랍니다.",
+];
+
+function shuffled<T>(items: readonly T[]) {
+  const array = [...items];
+  for (let i = array.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 const OFFICIAL_HANJA_ENTRY_TOTAL = 10_380;
 function hanjaSteps(candidateCount?: number | null) {
   const databaseStep = candidateCount
@@ -28,30 +53,47 @@ function hanjaSteps(candidateCount?: number | null) {
   ];
 }
 
-export function AILoadingSteps({ variant = "general", candidateCount }: { variant?: "general" | "hanja"; candidateCount?: number | null }) {
+export function AILoadingSteps({ variant = "general", candidateCount }: { variant?: "general" | "hanja" | "global"; candidateCount?: number | null }) {
   const [index, setIndex] = useState(0);
+  // 글로벌 변환은 매번 다른 순서로 문구가 나오도록 마운트 시 한 번 섞는다.
+  const [randomizedGlobalSteps] = useState(() => shuffled(globalNameSteps));
   const activeSteps =
-    variant === "hanja" ? hanjaSteps(candidateCount) : generalSteps;
-
+    variant === "hanja"
+      ? hanjaSteps(candidateCount)
+      : variant === "global"
+        ? randomizedGlobalSteps
+        : generalSteps;
+  // 글로벌 변환 대기는 광고 10초 + 생성 시간이라 문구를 끝없이 순환시킨다.
+  const loops = variant === "global";
 
   useEffect(() => {
-    const timer = window.setInterval(() => {
-      setIndex((current) => Math.min(current + 1, activeSteps.length - 1));
-    }, 1000);
+    const timer = window.setInterval(
+      () => {
+        setIndex((current) =>
+          loops ? current + 1 : Math.min(current + 1, activeSteps.length - 1),
+        );
+      },
+      loops ? 2600 : 1000,
+    );
 
     return () => window.clearInterval(timer);
-  }, [activeSteps.length]);
+  }, [activeSteps.length, loops]);
+
+  const displayIndex = loops ? index % activeSteps.length : index;
+  const progress = loops
+    ? Math.min(95, ((index + 1) / activeSteps.length) * 100)
+    : ((index + 1) / activeSteps.length) * 100;
 
   return (
     <div className="rounded-lg border border-line bg-surface p-4">
       <div className="flex items-center gap-3">
         <span className="h-3 w-3 animate-pulse rounded-full bg-brand-teal" />
-        <p className="text-sm font-medium">{activeSteps[index]}</p>
+        <p className="text-sm font-medium">{activeSteps[displayIndex]}</p>
       </div>
       <div className="mt-4 h-2 overflow-hidden rounded-full bg-surface-strong">
         <div
           className="h-full rounded-full bg-brand-teal transition-[width] duration-500"
-          style={{ width: `${((index + 1) / activeSteps.length) * 100}%` }}
+          style={{ width: `${progress}%` }}
         />
       </div>
     </div>

@@ -680,19 +680,35 @@ export const services = {
     sections: [
       {
         title: "기존 이름과 정체성",
-        description: "글로벌 이름으로 이어갈 본명의 소리와 의미를 입력합니다.",
+        description: "글로벌 이름으로 이어갈 본명의 소리와 의미를 입력합니다. 한자와 의미를 자세히 적을수록 뜻을 살린 이름이 나옵니다.",
         fields: [
           {
-            name: "koreanName",
-            label: "한글 이름",
-            placeholder: "예: 김지윤",
+            name: "familyName",
+            label: "성(한글)",
+            placeholder: "예: 안",
             required: true,
           },
           {
-            name: "hanjaMeaning",
-            label: "이름의 한자/의미",
-            placeholder: "예: 智 지혜, 潤 윤택함",
+            name: "givenName",
+            label: "이름(한글)",
+            placeholder: "예: 남규",
             required: true,
+          },
+          {
+            name: "familyNameHanja",
+            label: "성의 한자(선택)",
+            placeholder: "예: 安",
+          },
+          {
+            name: "givenNameHanja",
+            label: "이름의 한자(선택)",
+            placeholder: "예: 南奎",
+          },
+          {
+            name: "nameMeaning",
+            label: "이름의 의미(선택)",
+            placeholder: "예: 南 남녘, 奎 별이름 — 남쪽 하늘의 큰 별처럼 넓게 비추길 바라는 이름. 한자가 없는 순우리말 이름도 뜻을 적어 주세요.",
+            type: "textarea",
           },
           {
             name: "gender",
