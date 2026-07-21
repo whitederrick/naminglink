@@ -219,6 +219,67 @@ const KOREAN_SURNAME_CYRILLIC: Record<string, string> = {
   손: "Сон", 배: "Пэ", 백: "Пэк", 남: "Нам", 노: "Но", 하: "Ха",
 };
 
+// 외국인 대상 서비스의 설명 언어를 모델에 명시하기 위한 언어명 표.
+// outputLanguage 코드만 주면 gpt-4o-mini가 지시를 무시하고 영어로 쓰는 사례가 있어
+// 사람이 읽는 언어명을 함께 주입하고 프롬프트에서 필수 규칙으로 강제한다.
+const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
+  ko: "Korean (한국어)",
+  en: "English",
+  ja: "Japanese (日本語)",
+  zh: "Simplified Chinese (简体中文)",
+  de: "German (Deutsch)",
+  es: "Spanish (Español)",
+  fr: "French (Français)",
+  it: "Italian (Italiano)",
+  pt: "Portuguese (Português)",
+  vi: "Vietnamese (Tiếng Việt)",
+  th: "Thai (ไทย)",
+  id: "Indonesian (Bahasa Indonesia)",
+  ru: "Russian (Русский)",
+  ar: "Arabic (العربية)",
+  fil: "Filipino (Tagalog)",
+  uz: "Uzbek (O'zbekcha)",
+  mn: "Mongolian (Монгол)",
+  hi: "Hindi (हिन्दी)",
+  tr: "Turkish (Türkçe)",
+  km: "Khmer (ភាសាខ្មែរ)",
+  ms: "Malay (Bahasa Melayu)",
+  kk: "Kazakh (Қазақша)",
+  pl: "Polish (Polski)",
+};
+
+// 발음 표기(음차) 결과의 후보 목록을 확정적으로 정리한다.
+// - 같은 한글 표기가 반복되면 첫 후보만 남긴다(모델이 "최대 3개" 지시를 채우려고
+//   동일 표기를 복제하는 문제를 코드에서 차단; 유일하면 1개만 남아 잠금 패널도 숨겨짐).
+// - matching_rate 내림차순 정렬을 보장한다.
+function normalizeHangulTransliterationResult(result: unknown) {
+  if (!result || typeof result !== "object") return result;
+  const record = result as Record<string, unknown>;
+  const candidates = record.candidates;
+  if (!Array.isArray(candidates)) return result;
+
+  const seen = new Set<string>();
+  const deduped: unknown[] = [];
+  const sorted = [...candidates].sort((a, b) => {
+    const rate = (value: unknown) =>
+      value && typeof value === "object"
+        ? Number((value as Record<string, unknown>).matching_rate) || 0
+        : 0;
+    return rate(b) - rate(a);
+  });
+  for (const candidate of sorted) {
+    if (!candidate || typeof candidate !== "object") continue;
+    const hangul = String((candidate as Record<string, unknown>).hangul ?? "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (!hangul || seen.has(hangul)) continue;
+    seen.add(hangul);
+    deduped.push(candidate);
+  }
+  record.candidates = deduped.length > 0 ? deduped : candidates;
+  return result;
+}
+
 // 모델의 표기 실수를 코드에서 확정적으로 교정한다.
 // - 로마자권: full_name_local('안 Nathan')과 pronunciation('가스파르 / 가스파르')을 재조립
 // - 비로마자권: full_name_local에 한글 성이 남으면 가타카나·키릴 표 또는 로마자 성으로 재조립
@@ -386,6 +447,17 @@ export async function generateNamingResult(
       : {}),
     // 구버전 클라이언트가 outputLanguage를 대상 언어로 보내도 설명 언어는 한국어로 강제한다.
     // 성의 여권식 로마자를 함께 넘겨 비로마자 문자권(키릴·아랍 등)에서도 성 음차의 기준을 준다.
+    // 외국인 대상 서비스: 설명 언어를 코드+언어명으로 확정 주입(미지원 코드는 영어 폴백).
+    ...(serviceType === "GLOBAL_TO_KOREAN"
+      ? (() => {
+          const requested = String(inputFactors.outputLanguage ?? "");
+          const language = OUTPUT_LANGUAGE_NAMES[requested] ? requested : "en";
+          return {
+            outputLanguage: language,
+            outputLanguageName: OUTPUT_LANGUAGE_NAMES[language],
+          };
+        })()
+      : {}),
     ...(serviceType === "KOREAN_TO_GLOBAL"
       ? {
           outputLanguage: "ko",
@@ -433,7 +505,12 @@ export async function generateNamingResult(
   const completion = await openai.chat.completions.create({
     model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
     // 이름 실존성이 중요한 글로벌 변환은 온도를 낮춰 지어낸 이름 조합을 줄인다.
-    temperature: serviceType === "KOREAN_TO_GLOBAL" ? 0.6 : 0.85,
+    // 음차(발음 표기)는 창작이 아니라 결정적 변환이라 온도를 크게 낮춘다(표기 흔들림 방지).
+    temperature: isHangulTransliteration
+      ? 0.4
+      : serviceType === "KOREAN_TO_GLOBAL"
+        ? 0.6
+        : 0.85,
     response_format: { type: "json_object" },
     messages: [
       {
@@ -447,7 +524,9 @@ export async function generateNamingResult(
               "First analyze the likely source pronunciation, then structure it into syllables and IPA when reasonably known, and only then map it to natural Korean phonology. If the evidence is ambiguous, provide up to 3 plausible Hangul alternatives and explain why they differ.",
               "Return valid JSON with this shape: { analysis_summary, candidates: [{ hangul, recommendation_reason, matching_rate, source_pronunciation_basis, ipa, syllables, pronunciation, cultural_fit, usage_note, caution_notes, suitability_score }], rejected_options: [{ hangul, reason }], add_on_recommendations: [] }.",
               "Return up to 3 plausible Hangul spellings, ordered from the highest matching_rate to the lowest. The first candidate should be the most natural and faithful Korean pronunciation.",
-              "Explain in the requested outputLanguage when possible.",
+              "Every candidate's hangul must be a genuinely different spelling. Never repeat the same Hangul spelling to fill the list: if only one natural spelling exists, return exactly one candidate. Alternatives are only for real ambiguity (different syllable divisions, vowel mappings, or regional readings), and each alternative's recommendation_reason must state how and why it differs from the first candidate.",
+              "pronunciation: the romanized reading of the candidate's Hangul spelling, syllable by syllable, so the user can read the Hangul aloud (example shape: 왕샤오밍 -> 'Wang-sya-o-ming'). Do not put the original name's native romanization here; that belongs to source_pronunciation_basis.",
+              `Language rule (mandatory, overrides any language used elsewhere in the input): write analysis_summary and every candidate's recommendation_reason, source_pronunciation_basis, syllables, cultural_fit, usage_note, and caution_notes, plus rejected_options reasons, entirely in ${String(enrichedInputFactors.outputLanguageName ?? "English")}. Never use Korean or English for these fields unless that IS the requested language. Only hangul stays in Hangul, pronunciation stays romanized, and ipa stays in IPA symbols.`,
             ].join(" ")
           : getSystemPrompt(serviceType),
       },
@@ -467,6 +546,9 @@ export async function generateNamingResult(
   let result = JSON.parse(content) as unknown;
   if (serviceType === "KOREAN_TO_GLOBAL") {
     result = normalizeKoreanToGlobalResult(result, enrichedInputFactors);
+  }
+  if (isHangulTransliteration) {
+    result = normalizeHangulTransliterationResult(result);
   }
   assertGenerationConstraint(result, enrichedInputFactors, generationConstraint);
   const clientResult = prepareResultForClient(result, generationConstraint);
