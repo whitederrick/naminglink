@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   localeLabels,
   primaryLocales,
-  secondaryLocales,
+  supportedLocales,
   type Locale,
 } from "@/lib/services";
 
@@ -21,6 +21,19 @@ export function LanguageSwitcher({
   closeLabel,
   className = "",
 }: LanguageSwitcherProps) {
+  // 접속 위치/브라우저 언어로 감지된(또는 선택된) 언어가 '더보기'에 숨지 않도록
+  // 기본 노출 줄에 끼워 넣는다. 자리는 한국어 다음, 마지막 기본 항목은 더보기로 내려간다.
+  const primaryRow = primaryLocales.includes(locale)
+    ? primaryLocales
+    : [
+        primaryLocales[0],
+        locale,
+        ...primaryLocales.slice(1, primaryLocales.length - 1),
+      ];
+  const secondaryRow = supportedLocales.filter(
+    (item) => !primaryRow.includes(item),
+  );
+
   return (
     <div
       className={`flex max-w-full flex-wrap items-center justify-end gap-2 text-sm lg:flex-nowrap ${className}`}
@@ -28,7 +41,7 @@ export function LanguageSwitcher({
       <span className="sr-only">
         {currentLanguageLabel}: {localeLabels[locale]}
       </span>
-      {primaryLocales.map((item) => (
+      {primaryRow.map((item) => (
         <Link
           key={item}
           href={`/?lang=${item}`}
@@ -51,7 +64,7 @@ export function LanguageSwitcher({
           </span>
         </summary>
         <div className="absolute right-0 z-50 mt-1.5 grid w-[min(92vw,48rem)] grid-cols-2 gap-x-2 gap-y-1 rounded-lg border border-white/20 bg-foreground/96 p-2 shadow-xl backdrop-blur sm:grid-cols-3 lg:grid-cols-6">
-          {secondaryLocales.map((item) => (
+          {secondaryRow.map((item) => (
             <Link
               key={item}
               href={`/?lang=${item}`}
