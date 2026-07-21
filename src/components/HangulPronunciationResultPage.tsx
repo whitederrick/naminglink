@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw, ShoppingBag } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -214,6 +215,15 @@ export function HangulPronunciationResultPage({
   }, [raw]);
   const [updatedStored, setUpdatedStored] = useState<StoredResult | null>(null);
   const currentStored = updatedStored ?? stored;
+  // 대안 표기 후보(최대 3개)도 다른 서비스와 동일하게 광고 확인으로 하나씩 연다.
+  const [revealedCount, setRevealedCount] = useState(1);
+  const candidateCount = useMemo(() => {
+    const record =
+      currentStored?.result && typeof currentStored.result === "object"
+        ? (currentStored.result as Record<string, unknown>)
+        : null;
+    return Array.isArray(record?.candidates) ? record.candidates.length : 0;
+  }, [currentStored]);
 
   return (
     <main className="min-h-screen">
@@ -264,7 +274,16 @@ export function HangulPronunciationResultPage({
             <ResultCard
               service={globalNameToHangulService}
               result={currentStored.result}
-              revealedCount={1}
+              revealedCount={revealedCount}
+            />
+            <CandidateUnlockPanel
+              revealedCount={revealedCount}
+              totalCount={candidateCount}
+              locale={locale}
+              serviceType={globalNameToHangulService.serviceType}
+              onUnlock={() =>
+                setRevealedCount((current) => Math.min(candidateCount, current + 1))
+              }
             />
             <ReanalysisSection
               key={currentStored.createdAt}

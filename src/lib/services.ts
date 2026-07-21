@@ -465,6 +465,13 @@ export const countryOptions: CountryOption[] = [
     languageName: "Italian",
     localNameHint: "Es: Giulia Rossi",
   },
+  {
+    value: "es",
+    label: "Spain / España",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: Carlos García",
+  },
 ];
 
 export function getCountryOption(value: string | undefined) {
