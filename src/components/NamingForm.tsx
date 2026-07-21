@@ -906,6 +906,7 @@ export function NamingForm({
               service={service}
               result={result.result}
               revealedCount={revealedCount}
+              locale={isForeignAudience ? locale : "ko"}
             />
             <CandidateUnlockPanel
               revealedCount={revealedCount}

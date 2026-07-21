@@ -7,7 +7,99 @@ type ResultCardProps = {
   revealedCount: number;
   candidateLimit?: number;
   detailedHanja?: boolean;
+  locale?: string;
 };
+
+// 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서만 로케일 문구를 쓰고, 한국어 대상 서비스는 항상 ko를 유지한다.
+type ResultCardCopy = {
+  analysisSummary: string;
+  summaryFallback: string;
+  allRevealed: (count: number) => string;
+  partialRevealed: (count: number) => string;
+  noRecommendation: string;
+  candidateFallbackSubtitle: string;
+  lockedNote: string;
+  fitScore: (score: number) => string;
+  rejectedTitle: string;
+  rejectedFallbackReason: string;
+  officialNoteTitle: string;
+  rowReason: string;
+  rowPronunciation: string;
+  rowMeaning: string;
+  rowNaturalness: string;
+  rowUsageNote: string;
+  rowHanjaAddon: string;
+  rowCaution: string;
+  rowSourceBasis: string;
+  rowIpa: string;
+  rowSyllables: string;
+  rowHangulPronunciation: string;
+  rowNotationBasis: string;
+  rowNotationTraits: string;
+};
+
+const resultCardCopies: Record<"ko" | "en", ResultCardCopy> = {
+  ko: {
+    analysisSummary: "분석 요약",
+    summaryFallback: "분석 결과가 준비되었습니다.",
+    allRevealed: (count) => `${count}개 전체 공개`,
+    partialRevealed: (count) => `${count}개 공개 · 추가 후보 잠금`,
+    noRecommendation: "추천 보류",
+    candidateFallbackSubtitle: "추천 후보",
+    lockedNote: "광고 1회 또는 전체 결제로 공개",
+    fitScore: (score) => `적합도(참고) ${score}점`,
+    rejectedTitle: "배제 후보 요약",
+    rejectedFallbackReason: "추천 기준에 맞지 않음",
+    officialNoteTitle: "공식 확인 안내",
+    rowReason: "추천 이유",
+    rowPronunciation: "발음",
+    rowMeaning: "이름 의미",
+    rowNaturalness: "한국어 자연스러움",
+    rowUsageNote: "사용 맥락",
+    rowHanjaAddon: "한자 확장",
+    rowCaution: "주의",
+    rowSourceBasis: "원어 발음 기준",
+    rowIpa: "발음 기호",
+    rowSyllables: "음절 분석",
+    rowHangulPronunciation: "한글 표기 발음",
+    rowNotationBasis: "표기 근거",
+    rowNotationTraits: "한국어 표기 특징",
+  },
+  en: {
+    analysisSummary: "Analysis summary",
+    summaryFallback: "Your analysis result is ready.",
+    allRevealed: (count) => `All ${count} revealed`,
+    partialRevealed: (count) => `${count} revealed · more locked`,
+    noRecommendation: "No recommendation",
+    candidateFallbackSubtitle: "Recommended candidate",
+    lockedNote: "Unlock with one ad or full purchase",
+    fitScore: (score) => `Fit (reference) ${score}`,
+    rejectedTitle: "Excluded options",
+    rejectedFallbackReason: "Did not meet the recommendation criteria",
+    officialNoteTitle: "Official verification note",
+    rowReason: "Why we recommend it",
+    rowPronunciation: "Pronunciation",
+    rowMeaning: "Name meaning",
+    rowNaturalness: "Naturalness in Korean",
+    rowUsageNote: "Usage context",
+    rowHanjaAddon: "Hanja add-on",
+    rowCaution: "Caution",
+    rowSourceBasis: "Source pronunciation basis",
+    rowIpa: "Phonetic notation",
+    rowSyllables: "Syllable analysis",
+    rowHangulPronunciation: "Hangul pronunciation",
+    rowNotationBasis: "Notation basis",
+    rowNotationTraits: "Korean notation traits",
+  },
+};
+
+function getResultCardCopy(service: ServiceConfig, locale: string | undefined) {
+  const useLocale =
+    service.serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko"
+      ? "en"
+      : "ko";
+  return resultCardCopies[useLocale];
+}
 
 function asRecord(value: unknown): Record<string, unknown> {
   return value && typeof value === "object" && !Array.isArray(value)
@@ -94,16 +186,17 @@ function candidateRows(
   service: ServiceConfig,
   item: Record<string, unknown>,
   detailedHanja = false,
+  copy: ResultCardCopy = resultCardCopies.ko,
 ) {
   if (service.slug === "global-name-to-hangul") {
     return [
-      ["원어 발음 기준", item.source_pronunciation_basis],
-      ["발음 기호", item.ipa],
-      ["음절 분석", item.syllables],
-      ["한글 표기 발음", item.pronunciation],
-      ["추천 이유", item.recommendation_reason],
-      ["한국어 자연스러움", item.cultural_fit],
-      ["주의", item.caution_notes],
+      [copy.rowSourceBasis, item.source_pronunciation_basis],
+      [copy.rowIpa, item.ipa],
+      [copy.rowSyllables, item.syllables],
+      [copy.rowHangulPronunciation, item.pronunciation],
+      [copy.rowReason, item.recommendation_reason],
+      [copy.rowNaturalness, item.cultural_fit],
+      [copy.rowCaution, item.caution_notes],
     ] satisfies Array<[string, unknown]>;
   }
 
@@ -125,13 +218,13 @@ function candidateRows(
 
   if (service.serviceType === "GLOBAL_TO_KOREAN") {
     return [
-      ["추천 이유", item.recommendation_reason],
-      ["발음", item.pronunciation],
-      ["이름 의미", item.meaning],
-      ["한국어 자연스러움", item.cultural_fit],
-      ["사용 맥락", item.usage_note],
-      ["한자 확장", item.hanja_addon_note],
-      ["주의", item.caution_notes],
+      [copy.rowReason, item.recommendation_reason],
+      [copy.rowPronunciation, item.pronunciation],
+      [copy.rowMeaning, item.meaning],
+      [copy.rowNaturalness, item.cultural_fit],
+      [copy.rowUsageNote, item.usage_note],
+      [copy.rowHanjaAddon, item.hanja_addon_note],
+      [copy.rowCaution, item.caution_notes],
     ] satisfies Array<[string, unknown]>;
   }
 
@@ -185,6 +278,7 @@ function getRejected(record: Record<string, unknown>) {
 function groupRejected(
   rejected: Record<string, unknown>[],
   compactHanja: boolean,
+  fallbackReason: string,
 ) {
   const groups = new Map<string, string[]>();
   for (const item of rejected) {
@@ -192,7 +286,7 @@ function groupRejected(
     if (!character) continue;
     const reason = compactHanja
       ? compactRejectedReason(item.reason)
-      : text(item.reason) || "추천 기준에 맞지 않음";
+      : text(item.reason) || fallbackReason;
     const characters = groups.get(reason) ?? [];
     if (!characters.includes(character)) characters.push(character);
     groups.set(reason, characters);
@@ -283,20 +377,22 @@ function PronunciationCandidateDetails({
   item,
   title,
   matchingRate,
+  copy,
 }: {
   item: Record<string, unknown>;
   title: string;
   matchingRate: number | null;
+  copy: ResultCardCopy;
 }) {
   const pronunciationFacts = [
-    ["원어 발음 기준", item.source_pronunciation_basis],
-    ["발음 기호", item.ipa],
-    ["음절 분석", item.syllables],
-    ["한글 표기 발음", item.pronunciation],
+    [copy.rowSourceBasis, item.source_pronunciation_basis],
+    [copy.rowIpa, item.ipa],
+    [copy.rowSyllables, item.syllables],
+    [copy.rowHangulPronunciation, item.pronunciation],
   ] satisfies Array<[string, unknown]>;
   const explanations = [
-    ["표기 근거", item.recommendation_reason],
-    ["한국어 표기 특징", item.cultural_fit],
+    [copy.rowNotationBasis, item.recommendation_reason],
+    [copy.rowNotationTraits, item.cultural_fit],
   ] satisfies Array<[string, unknown]>;
 
   return (
@@ -312,7 +408,7 @@ function PronunciationCandidateDetails({
         </div>
         {matchingRate !== null ? (
           <span className="rounded-lg bg-background px-3 py-2 text-sm font-semibold text-brand-teal shadow-sm">
-            적합도(참고) {matchingRate}점
+            {copy.fitScore(matchingRate)}
           </span>
         ) : null}
       </div>
@@ -364,7 +460,9 @@ export function ResultCard({
   revealedCount,
   candidateLimit = 5,
   detailedHanja = false,
+  locale,
 }: ResultCardProps) {
+  const copy = getResultCardCopy(service, locale);
   const record = asRecord(result);
   const allCandidates = getCandidates(record).sort(
     (a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1),
@@ -374,6 +472,7 @@ export function ResultCard({
   const rejectedGroups = groupRejected(
     rejected,
     service.serviceType === "HANJA_MEANING_MATCH",
+    copy.rejectedFallbackReason,
   );
   const commonAnalysis = asRecord(record.common_analysis);
   const firstCandidate = candidates[0] ?? {};
@@ -402,10 +501,10 @@ export function ResultCard({
               </span>
             </div>
           ) : (
-            <p className="text-sm font-semibold text-brand-teal">분석 요약</p>
+            <p className="text-sm font-semibold text-brand-teal">{copy.analysisSummary}</p>
           )}
           <p className="mt-3 text-sm leading-6 text-muted">
-            {publicFacingHanjaText(record.analysis_summary) || "분석 결과가 준비되었습니다."}
+            {publicFacingHanjaText(record.analysis_summary) || copy.summaryFallback}
           </p>
           {service.serviceType === "HANJA_MEANING_MATCH" ? (
             <div className="mt-5 grid gap-4 border-t border-line pt-5 md:grid-cols-2">
@@ -449,9 +548,9 @@ export function ResultCard({
             <span className="text-sm text-muted">
               {candidates.length > 0
                 ? allCandidatesRevealed
-                  ? `${allCandidates.length}개 전체 공개`
-                  : `${Math.min(revealedCount, candidates.length)}개 공개 · 추가 후보 잠금`
-                : "추천 보류"}
+                  ? copy.allRevealed(allCandidates.length)
+                  : copy.partialRevealed(Math.min(revealedCount, candidates.length))
+                : copy.noRecommendation}
             </span>
           ) : null}
         </div>
@@ -468,7 +567,7 @@ export function ResultCard({
           const subtitle =
             [text(item.hangul), text(item.pronunciation), text(item.region_fit)]
               .filter(Boolean)
-              .join(" · ") || "추천 후보";
+              .join(" · ") || copy.candidateFallbackSubtitle;
           const matchingRate = candidateRate(item);
           const focus = getHanjaFocus(item, index);
 
@@ -486,6 +585,7 @@ export function ResultCard({
                     item={item}
                     title={title}
                     matchingRate={matchingRate}
+                    copy={copy}
                   />
                 ) : (
                   <>
@@ -524,7 +624,7 @@ export function ResultCard({
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
                           {service.serviceType === "HANJA_MEANING_MATCH"
                             ? `조건 적합도 ${matchingRate}점`
-                            : `적합도(참고) ${matchingRate}점`}
+                            : copy.fitScore(matchingRate)}
                         </span>
                       ) : service.serviceType === "HANJA_MEANING_MATCH" ? (
                         <span className="rounded-lg bg-surface-strong px-3 py-2 text-sm font-semibold text-brand-teal">
@@ -534,7 +634,7 @@ export function ResultCard({
                     </div>
 
                     <dl className="mt-4 grid gap-3 text-sm leading-6">
-                      {candidateRows(service, item, detailedHanja)
+                      {candidateRows(service, item, detailedHanja, copy)
                         .filter(([, value]) => text(value))
                         .map(([label, value]) => (
                           <div key={label} className="grid gap-1">
@@ -593,7 +693,7 @@ export function ResultCard({
                   ) : null}
                   <span className="mx-auto inline-flex items-center gap-2 rounded-lg bg-foreground px-3 py-2 text-sm font-medium text-background">
                     <Lock aria-hidden="true" size={16} />
-                    광고 1회 또는 전체 결제로 공개
+                    {copy.lockedNote}
                   </span>
                 </div>
               ) : null}
@@ -682,7 +782,7 @@ export function ResultCard({
               className="text-brand-rose"
               size={18}
             />
-            <h2 className="text-base font-semibold">배제 후보 요약</h2>
+            <h2 className="text-base font-semibold">{copy.rejectedTitle}</h2>
           </div>
           <div className="mt-4 grid gap-2">
             {rejectedGroups.map(([reason, characters]) => (
@@ -709,7 +809,7 @@ export function ResultCard({
               className="text-brand-teal"
               size={18}
             />
-            <h2 className="text-base font-semibold">공식 확인 안내</h2>
+            <h2 className="text-base font-semibold">{copy.officialNoteTitle}</h2>
           </div>
           <p className="mt-3 text-sm leading-6 text-muted">
             {text(record.official_verification_note)}

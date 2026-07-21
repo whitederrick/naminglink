@@ -472,6 +472,62 @@ export const countryOptions: CountryOption[] = [
     languageName: "Spanish",
     localNameHint: "Ej: Carlos García",
   },
+  {
+    value: "pt",
+    label: "Portugal",
+    locale: "pt",
+    languageName: "Portuguese",
+    localNameHint: "Ex: João Silva",
+  },
+  {
+    value: "at",
+    label: "Austria / Österreich",
+    locale: "de",
+    languageName: "German",
+    localNameHint: "z. B. Anna Gruber",
+  },
+  {
+    value: "ch",
+    label: "Switzerland / Schweiz",
+    locale: "de",
+    languageName: "German",
+    localNameHint: "z. B. Lukas Müller",
+  },
+  {
+    value: "co",
+    label: "Colombia",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: Camila Torres",
+  },
+  {
+    value: "pe",
+    label: "Peru / Perú",
+    locale: "es",
+    languageName: "Spanish",
+    localNameHint: "Ej: Diego Quispe",
+  },
+  {
+    value: "nz",
+    label: "New Zealand",
+    locale: "en",
+    languageName: "English",
+    localNameHint: "e.g. Liam Walker",
+  },
+  {
+    value: "ie",
+    label: "Ireland / Éire",
+    locale: "en",
+    languageName: "English",
+    localNameHint: "e.g. Aoife Murphy",
+  },
+  {
+    value: "be",
+    label: "Belgium / Belgique",
+    locale: "fr",
+    languageName: "French",
+    localNameHint: "Ex : Louis Dubois",
+  },
 ];
 
 export function getCountryOption(value: string | undefined) {

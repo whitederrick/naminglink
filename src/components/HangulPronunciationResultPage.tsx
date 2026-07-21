@@ -275,6 +275,7 @@ export function HangulPronunciationResultPage({
               service={globalNameToHangulService}
               result={currentStored.result}
               revealedCount={revealedCount}
+              locale={locale}
             />
             <CandidateUnlockPanel
               revealedCount={revealedCount}
