@@ -91,8 +91,39 @@ const en: ResultCopy = {
   backToInput: "Back to the input screen",
 };
 
-// ko/en만 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en };
+const vi: ResultCopy = {
+  reanalysisError: "Không thể hoàn tất việc phân tích lại phát âm.",
+  reanalysisErrorGeneric: "Đã xảy ra lỗi khi phân tích lại.",
+  reanalysisEyebrow: "Phát âm nghe khác với thực tế?",
+  reanalysisTitle: "Phân tích lại với gợi ý phát âm",
+  reanalysisDescription:
+    "Nhập cách phát âm cụ thể hơn, chúng tôi sẽ phân tích lại với cùng tên, ngôn ngữ và quốc gia.",
+  hintLabel: "Gợi ý phát âm",
+  hintPlaceholder: "VD: đọc gần giống Đa-ni-en",
+  reanalysisCountdown: (seconds) => `Sẽ phân tích lại sau quảng cáo. ${seconds} giây`,
+  reanalyzing: "Đang phân tích lại",
+  goodsEyebrow: "Tận dụng kết quả của bạn",
+  goodsSectionTitle: "Quà lưu niệm theo tên",
+  goodsItemTitle: "Quà lưu niệm tên Hangul",
+  goodsItemSub: "(mũ, móc khóa, áo thun...)",
+  goodsItemDescription:
+    "In tên Hangul bạn chọn lên mũ, móc khóa, áo thun và nhiều món đồ để tạo quà lưu niệm của riêng bạn.",
+  goodsButton: "Sắp mở đặt hàng quà lưu niệm",
+  editInput: "Chỉnh sửa thông tin",
+  home: "Trang chủ",
+  headerAdLabel: "Quảng cáo đầu trang kết quả Hangul",
+  headerCaption: "Kết quả phát âm Hangul",
+  loading: "Đang tải kết quả của bạn.",
+  analysisDone: "Phân tích hoàn tất",
+  resultHeading: "Tên của bạn theo phát âm Hangul",
+  emptyTitle: "Không thể tải kết quả.",
+  emptyDescription:
+    "Kết quả này chỉ xem được trong tab trình duyệt đã chạy phân tích.",
+  backToInput: "Quay lại màn hình nhập",
+};
+
+// ko/en/vi를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

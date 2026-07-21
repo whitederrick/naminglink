@@ -118,10 +118,9 @@ const en: FormCopy = {
   loadingTitle: "Comparing names that fit your context",
   loadingCountdown: (seconds) => `Watching ad and analyzing · ${seconds}s`,
   loadingDone: "Ad complete · preparing your result",
-  countryHint: ({ languageName, localNameHint, motivationNote }) =>
-    `Default language: ${languageName} · Local name example: ${localNameHint}${
-      motivationNote ? ` · Suggested option: ${motivationNote}` : ""
-    }`,
+  // motivationNote는 한국어 원문이라 외국어 화면에서는 표시하지 않는다.
+  countryHint: ({ languageName, localNameHint }) =>
+    `Default language: ${languageName} · Local name example: ${localNameHint}`,
   transliterationStepsTitle: "How your name becomes Hangul",
   transliterationSteps: [
     ["Confirm your name", "We confirm the original spelling and syllables you entered."],
@@ -132,8 +131,52 @@ const en: FormCopy = {
   ],
 };
 
-// ko/en만 작성했고, 나머지 로케일은 영어로 폴백한다(번역가가 언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en };
+const vi: FormCopy = {
+  errorCheckInput: "Vui lòng kiểm tra định dạng thông tin để phân tích chính xác.",
+  errorConsent: "Bạn cần đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư để bắt đầu.",
+  errorLoginToSave: "Vui lòng đăng nhập lại để lưu kết quả phân tích.",
+  errorRequestFailed: "Không thể xử lý yêu cầu đặt tên của bạn.",
+  errorGeneric: "Đã xảy ra lỗi.",
+  consentTitle: "Đồng ý bắt buộc",
+  consentIntro:
+    "Thông tin bạn nhập như tên, ngày sinh và quốc gia được dùng để tạo kết quả,",
+  consentIntroSaved: " và chỉ thành viên chọn lưu mới được lưu thông tin cùng kết quả.",
+  termsLink: "Điều khoản dịch vụ",
+  privacyLink: "Chính sách quyền riêng tư",
+  agreeToTermsSuffix: ".",
+  agreeToPrivacySuffix: ".",
+  saveResultLabel: "Lưu kết quả vào tài khoản của tôi (tùy chọn)",
+  saveResultHint: "Chúng tôi chỉ lưu thông tin và kết quả khi bạn chọn lưu.",
+  guestNoSavePrefix: "Kết quả của khách không được lưu. Nếu muốn giữ kết quả, hãy ",
+  loginLink: "đăng nhập",
+  guestNoSaveSuffix: " rồi chọn lưu.",
+  adConsentLabel: "Quảng cáo khu vực đồng ý bắt buộc",
+  submitTransliteration: "Bắt đầu phân tích phát âm Hangul",
+  submitDefault: "Xem quảng cáo và bắt đầu phân tích",
+  adRevealNote: (seconds) => `Kết quả sẽ hiển thị sau quảng cáo. ${seconds} giây`,
+  analysisDone: "Phân tích hoàn tất",
+  editInput: "Chỉnh sửa thông tin",
+  previewNote:
+    "Chúng tôi đã mở ứng viên phù hợp nhất trước. Bạn có thể mở thêm từng ứng viên bằng cách xem quảng cáo hoặc thanh toán.",
+  adDialogLabel: "Xem quảng cáo và chạy phân tích tên",
+  loadingEyebrow: "Đang phân tích tên của bạn",
+  loadingTitle: "Đang so sánh những cái tên phù hợp với hoàn cảnh của bạn",
+  loadingCountdown: (seconds) => `Đang xem quảng cáo và phân tích · ${seconds} giây`,
+  loadingDone: "Đã xem xong quảng cáo · đang chuẩn bị kết quả",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Ngôn ngữ mặc định: ${languageName} · Ví dụ tên bản địa: ${localNameHint}`,
+  transliterationStepsTitle: "Các bước tên bạn trở thành Hangul",
+  transliterationSteps: [
+    ["Xác nhận tên gốc", "Chúng tôi xác nhận đúng chính tả và âm tiết bạn đã nhập."],
+    ["Phân tích phát âm theo ngôn ngữ và khu vực", "Ưu tiên ngôn ngữ gốc, đồng thời phản ánh khác biệt phát âm theo quốc gia."],
+    ["Ưu tiên gợi ý phát âm", "Gợi ý phát âm bạn nhập được ưu tiên hơn quy tắc chung."],
+    ["Cấu trúc hoá phát âm", "Phân tích phát âm thực tế thành âm tiết và ký hiệu ngữ âm."],
+    ["Đề xuất cách viết Hangul", "Giữ nguyên phát âm gốc và đề xuất cách viết Hangul tự nhiên."],
+  ],
+};
+
+// ko/en/vi를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

@@ -21,7 +21,7 @@ type UnlockCopy = {
   bulkPreparing: string;
 };
 
-const unlockCopies: Record<"ko" | "en", UnlockCopy> = {
+const unlockCopies: Record<string, UnlockCopy> = {
   ko: {
     title: "추가 후보 열기",
     status: (revealed, locked) => `현재 ${revealed}개 공개 · ${locked}개 잠금`,
@@ -35,6 +35,20 @@ const unlockCopies: Record<"ko" | "en", UnlockCopy> = {
     hanjaProductsLink: "전체 후보 상품 보기 · 2,900원부터",
     bulkButton: "전체 후보 일괄 공개 · 990원 (준비 중)",
     bulkPreparing: "결제 기능 준비 중입니다.",
+  },
+  vi: {
+    title: "Mở thêm ứng viên",
+    status: (revealed, locked) => `Đã mở ${revealed} · còn khóa ${locked}`,
+    descHanja:
+      "Mỗi lần xem quảng cáo sẽ mở thêm một ứng viên với góc nhìn khác.",
+    descDefault:
+      "Mỗi lần xem quảng cáo sẽ mở thêm một ứng viên với góc nhìn khác. Tính năng mở toàn bộ ứng viên còn lại với ₩990 sắp ra mắt.",
+    watchingNote: (seconds) => `Sẽ mở một ứng viên sau quảng cáo. ${seconds} giây`,
+    watching: "Đang xem quảng cáo",
+    watchButton: "Xem quảng cáo để mở ứng viên tiếp theo",
+    hanjaProductsLink: "Xem gói toàn bộ ứng viên · từ ₩2.900",
+    bulkButton: "Mở toàn bộ ứng viên · ₩990 (sắp ra mắt)",
+    bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
   },
   en: {
     title: "Unlock more candidates",
@@ -68,9 +82,10 @@ export function CandidateUnlockPanel({
   const [loading, setLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const remainingCount = Math.max(0, totalCount - revealedCount);
-  const copyLocale =
-    serviceType === "GLOBAL_TO_KOREAN" && locale !== "ko" ? "en" : "ko";
-  const copy = unlockCopies[copyLocale];
+  const copy =
+    serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko"
+      ? unlockCopies[locale] ?? unlockCopies.en
+      : unlockCopies.ko;
 
   async function unlockWithAd() {
     if (loading || remainingCount === 0) return;

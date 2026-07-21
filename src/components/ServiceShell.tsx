@@ -70,7 +70,7 @@ const globalNavigationLabels: Record<
 
 // 외국인 대상 서비스에서만 로케일 문구를 쓰고, 한국어 대상 서비스는 항상 ko를 유지한다(다른 로케일은 영어 폴백).
 const shellCopies: Record<
-  "ko" | "en",
+  string,
   {
     promiseLabel: string;
     defaultLanguage: string;
@@ -88,6 +88,15 @@ const shellCopies: Record<
       "아래의 다양한 조건을 입력하면 자연스럽고 설명 가능한 한국 이름을 제안합니다.",
     headerAdLabel: "서비스 상단 배너 광고",
   },
+  vi: {
+    promiseLabel: "Cam kết dịch vụ",
+    defaultLanguage: "Ngôn ngữ mặc định",
+    g2kPromise:
+      "Chúng tôi đề xuất những cái tên dễ gọi, dễ viết, có thể kiểm chứng ý nghĩa và phát âm.",
+    g2kIntro:
+      "Điền các thông tin bên dưới và chúng tôi sẽ đề xuất những tên tiếng Hàn tự nhiên, dễ giải thích.",
+    headerAdLabel: "Quảng cáo banner đầu trang dịch vụ",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",
@@ -100,9 +109,10 @@ const shellCopies: Record<
 };
 
 function getShellCopy(service: ServiceConfig, locale: Locale) {
-  return service.serviceType === "GLOBAL_TO_KOREAN" && locale !== "ko"
-    ? shellCopies.en
-    : shellCopies.ko;
+  if (service.serviceType === "GLOBAL_TO_KOREAN" && locale !== "ko") {
+    return shellCopies[locale] ?? shellCopies.en;
+  }
+  return shellCopies.ko;
 }
 
 function ServicePromisePanel({

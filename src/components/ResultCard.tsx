@@ -38,7 +38,7 @@ type ResultCardCopy = {
   rowNotationTraits: string;
 };
 
-const resultCardCopies: Record<"ko" | "en", ResultCardCopy> = {
+const resultCardCopies: Record<string, ResultCardCopy> = {
   ko: {
     analysisSummary: "분석 요약",
     summaryFallback: "분석 결과가 준비되었습니다.",
@@ -64,6 +64,32 @@ const resultCardCopies: Record<"ko" | "en", ResultCardCopy> = {
     rowHangulPronunciation: "한글 표기 발음",
     rowNotationBasis: "표기 근거",
     rowNotationTraits: "한국어 표기 특징",
+  },
+  vi: {
+    analysisSummary: "Tóm tắt phân tích",
+    summaryFallback: "Kết quả phân tích của bạn đã sẵn sàng.",
+    allRevealed: (count) => `Đã mở toàn bộ ${count}`,
+    partialRevealed: (count) => `Đã mở ${count} · còn khóa thêm`,
+    noRecommendation: "Chưa có đề xuất",
+    candidateFallbackSubtitle: "Ứng viên được đề xuất",
+    lockedNote: "Mở bằng một quảng cáo hoặc thanh toán trọn gói",
+    fitScore: (score) => `Độ phù hợp (tham khảo) ${score}`,
+    rejectedTitle: "Các phương án bị loại",
+    rejectedFallbackReason: "Không đạt tiêu chí đề xuất",
+    officialNoteTitle: "Ghi chú xác minh chính thức",
+    rowReason: "Lý do đề xuất",
+    rowPronunciation: "Phát âm",
+    rowMeaning: "Ý nghĩa tên",
+    rowNaturalness: "Độ tự nhiên trong tiếng Hàn",
+    rowUsageNote: "Bối cảnh sử dụng",
+    rowHanjaAddon: "Mở rộng Hanja",
+    rowCaution: "Lưu ý",
+    rowSourceBasis: "Cơ sở phát âm gốc",
+    rowIpa: "Ký hiệu ngữ âm",
+    rowSyllables: "Phân tích âm tiết",
+    rowHangulPronunciation: "Phát âm Hangul",
+    rowNotationBasis: "Cơ sở cách viết",
+    rowNotationTraits: "Đặc điểm cách viết tiếng Hàn",
   },
   en: {
     analysisSummary: "Analysis summary",
@@ -94,11 +120,10 @@ const resultCardCopies: Record<"ko" | "en", ResultCardCopy> = {
 };
 
 function getResultCardCopy(service: ServiceConfig, locale: string | undefined) {
-  const useLocale =
-    service.serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko"
-      ? "en"
-      : "ko";
-  return resultCardCopies[useLocale];
+  if (service.serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko") {
+    return resultCardCopies[locale] ?? resultCardCopies.en;
+  }
+  return resultCardCopies.ko;
 }
 
 function asRecord(value: unknown): Record<string, unknown> {

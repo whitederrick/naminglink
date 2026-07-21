@@ -148,8 +148,123 @@ const en: ServiceCopyOverride = {
   },
 };
 
-// ko/en만 작성했고, 나머지 로케일은 영어로 폴백한다.
-const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en };
+const vi: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Biến tên của bạn thành tên tiếng Hàn",
+        eyebrow: "Tên tiếng Hàn cho cuộc sống và công việc tại Hàn Quốc",
+        description:
+          "Cho chúng tôi biết tên gốc, quốc gia, thông tin ngày sinh và cách bạn sẽ dùng tên tại Hàn Quốc — chúng tôi sẽ đề xuất những tên tiếng Hàn tự nhiên, dễ giải thích.",
+        promise:
+          "Chúng tôi đề xuất những cái tên dễ gọi, dễ viết, có thể kiểm chứng ý nghĩa và phát âm.",
+        resultLabel: "Tên tiếng Hàn được đề xuất",
+      },
+      sectionTitles: {
+        "기본 정보": "Thông tin cơ bản",
+        "출생 정보": "Thông tin ngày sinh",
+        "한국 사용 맥락": "Bối cảnh sử dụng tại Hàn Quốc",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Chọn các thông tin cơ bản cần thiết để đề xuất tên tiếng Hàn.",
+        "출생 정보": "Chọn từng mục để so sánh và phân tích chính xác.",
+        "한국 사용 맥락": "Chọn phong cách tên mong muốn và cách bạn sẽ dùng tên tại Hàn Quốc.",
+      },
+      fieldLabels: {
+        originalName: "Tên gốc",
+        country: "Quốc gia",
+        nameMotivation: "Mục đích dùng tên tiếng Hàn",
+        gender: "Giới tính / hình ảnh",
+        birthYear: "Năm sinh",
+        birthMonth: "Tháng sinh",
+        birthDay: "Ngày sinh",
+        birthHour: "Giờ sinh",
+        koreanFamilyName: "Họ tiếng Hàn mong muốn",
+        koreanTone: "Phong cách tên",
+        usageContext: "Bối cảnh sử dụng",
+        outputLanguage: "Ngôn ngữ kết quả",
+      },
+      fieldPlaceholders: {
+        originalName: "VD: Nguyễn Minh Anh",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Viết tên bạn bằng Hangul theo đúng phát âm",
+        eyebrow: "Tên của bạn bằng Hangul",
+        description:
+          "Chúng tôi phân tích cách phát âm tên bạn và đề xuất cách viết Hangul tự nhiên.",
+        promise:
+          "Ưu tiên âm và âm tiết trong chính tên bạn, tuân theo quy tắc phát âm tiếng Hàn.",
+        resultLabel: "Cách viết Hangul được đề xuất",
+      },
+      sectionTitles: {
+        "본명 정보": "Thông tin tên gốc",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Chọn ngôn ngữ và quốc gia dùng để viết và phát âm tên bạn.",
+      },
+      fieldLabels: {
+        originalName: "Tên gốc",
+        originalNameLanguage: "Ngôn ngữ của tên bạn",
+        country: "Quốc gia",
+        pronunciationHint: "Gợi ý phát âm (tùy chọn)",
+      },
+      fieldHints: {
+        originalName: "※ Nhập họ tên đầy đủ bằng ngôn ngữ bản địa của bạn.",
+        originalNameLanguage: "※ Chọn ngôn ngữ dùng để phát âm tên bạn.",
+        country:
+          "※ Giúp phản ánh khác biệt phát âm theo quốc gia.\nĐổi quốc gia có thể làm thay đổi kết quả.",
+        pronunciationHint:
+          "※ Nhập cách ngắt âm tiết và gợi ý phát âm.\nGợi ý của bạn được ưu tiên cao nhất.",
+      },
+      fieldPlaceholders: {
+        originalName: "VD: Nguyễn Minh Anh",
+        pronunciationHint: "VD: đọc gần giống Đa-ni-en",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Đề xuất giúp tôi",
+    natural_modern: "Tự nhiên và hiện đại",
+    traditional: "Truyền thống",
+    business_friendly: "Phù hợp công việc",
+    soft: "Nhẹ nhàng, ấm áp",
+    distinctive: "Khác biệt",
+    korean_workplace: "Nơi làm việc Hàn Quốc",
+    school: "Trường học / trao đổi",
+    creator: "Nhà sáng tạo / hồ sơ công khai",
+    daily: "Cuộc sống hằng ngày",
+    auto: "Theo ngôn ngữ trình duyệt",
+    not_specified: "Không xác định",
+    female: "Nữ",
+    male: "Nam",
+    neutral: "Trung tính / bất kỳ",
+    auto_by_country: "Tự chọn theo quốc gia",
+    korean_education: "Học tiếng Hàn, làm việc, du học",
+    k_culture: "K-culture, mạng xã hội, biệt danh",
+    business: "Kinh doanh, danh thiếp, công việc toàn cầu",
+    daily_social: "Bạn bè, trường học, đời sống",
+    family_pet: "Tên cho con, gia đình, thú cưng",
+    creator_brand: "Nhà sáng tạo, thương hiệu, hồ sơ công khai",
+    unknown: "Không rõ",
+    "23-01": "23:00–01:00 (giờ Tý)",
+    "01-03": "01:00–03:00 (giờ Sửu)",
+    "03-05": "03:00–05:00 (giờ Dần)",
+    "05-07": "05:00–07:00 (giờ Mão)",
+    "07-09": "07:00–09:00 (giờ Thìn)",
+    "09-11": "09:00–11:00 (giờ Tỵ)",
+    "11-13": "11:00–13:00 (giờ Ngọ)",
+    "13-15": "13:00–15:00 (giờ Mùi)",
+    "15-17": "15:00–17:00 (giờ Thân)",
+    "17-19": "17:00–19:00 (giờ Dậu)",
+    "19-21": "19:00–21:00 (giờ Tuất)",
+    "21-23": "21:00–23:00 (giờ Hợi)",
+  },
+};
+
+// ko(원본)/en/vi를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi };
 
 // 한국어는 원본 설정(services.ts)을 그대로 쓰므로 null을 반환한다.
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {

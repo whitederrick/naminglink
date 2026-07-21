@@ -9,13 +9,21 @@ const generalSteps = [
   "결과를 검토하고 화면에 맞게 정리하고 있습니다.",
 ];
 
-// 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서 로케일이 한국어가 아닐 때 쓰는 영어 문구(그 외 로케일은 영어 폴백).
-const generalStepsEn = [
-  "Organizing the meaning and conditions of your input.",
-  "Comparing pronunciation, culture, and reference details.",
-  "Composing each candidate's story and exclusion reasons.",
-  "Reviewing the result and preparing it for display.",
-];
+// 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서 쓰는 로케일별 문구(없는 로케일은 영어 폴백).
+const generalStepsByLocale: Record<string, string[]> = {
+  en: [
+    "Organizing the meaning and conditions of your input.",
+    "Comparing pronunciation, culture, and reference details.",
+    "Composing each candidate's story and exclusion reasons.",
+    "Reviewing the result and preparing it for display.",
+  ],
+  vi: [
+    "Đang sắp xếp ý nghĩa và điều kiện bạn đã nhập.",
+    "Đang so sánh phát âm, văn hóa và các thông tin tham chiếu.",
+    "Đang xây dựng câu chuyện của từng ứng viên và lý do loại trừ.",
+    "Đang kiểm tra kết quả và chuẩn bị hiển thị.",
+  ],
+};
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.
 const globalNameSteps = [
@@ -72,7 +80,7 @@ export function AILoadingSteps({ variant = "general", locale = "ko", candidateCo
         ? randomizedGlobalSteps
         : locale === "ko"
           ? generalSteps
-          : generalStepsEn;
+          : generalStepsByLocale[locale] ?? generalStepsByLocale.en;
   // 글로벌 변환 대기는 광고 10초 + 생성 시간이라 문구를 끝없이 순환시킨다.
   const loops = variant === "global";
 
