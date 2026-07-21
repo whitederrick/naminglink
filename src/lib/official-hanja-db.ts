@@ -26,6 +26,58 @@ function displayMeaning(value: unknown) {
     .trim();
 }
 
+// 입력에 명시된 한자 글자들의 공식 지정 음가·뜻을 글자 단위로 조회한다.
+// 한글→글로벌 변환에서 원 이름 분석이 동음이의 한자의 뜻으로 흐르지 않도록,
+// 모델에 '이 글자의 확정된 뜻'을 데이터로 주입하는 용도.
+export async function getOfficialHanjaMeanings(characters: string[]) {
+  const unique = [
+    ...new Set(
+      characters.filter((char) => /[㐀-䶿一-鿿豈-﫿]/u.test(char)),
+    ),
+  ];
+  const supabase = getSupabaseAdminClient();
+  if (!supabase || !unique.length) return null;
+
+  try {
+    const { data: sources, error: sourceError } = await supabase
+      .from("official_hanja_sources")
+      .select("id")
+      .eq("status", "production")
+      .order("effective_date", { ascending: false, nullsFirst: false })
+      .limit(1);
+    if (sourceError || !sources?.length) return null;
+
+    const { data, error } = await supabase
+      .from("official_hanja_entries")
+      .select("hanja,designated_reading,meaning_ko")
+      .eq("source_id", sources[0].id)
+      .eq("review_status", "production")
+      .in("hanja", unique)
+      .limit(unique.length * 8);
+    if (error || !data?.length) return null;
+
+    const byCharacter = new Map<string, { readings: Set<string>; meanings: Set<string> }>();
+    for (const row of data) {
+      const character = String(row.hanja);
+      const entry =
+        byCharacter.get(character) ?? { readings: new Set<string>(), meanings: new Set<string>() };
+      entry.readings.add(String(row.designated_reading));
+      entry.meanings.add(displayMeaning(row.meaning_ko));
+      byCharacter.set(character, entry);
+    }
+    const elements = unique
+      .filter((character) => byCharacter.has(character))
+      .map((character) => ({
+        hanja: character,
+        reading: [...byCharacter.get(character)!.readings].join("·"),
+        meaning: [...byCharacter.get(character)!.meanings].join(" / "),
+      }));
+    return elements.length ? elements : null;
+  } catch {
+    return null;
+  }
+}
+
 export async function getOfficialHanjaCandidates(
   inputFactors: Record<string, unknown>,
 ) {

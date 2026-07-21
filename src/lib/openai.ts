@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import type { ServiceType } from "@/lib/services";
 import { getMockResult } from "@/lib/mock-results";
 import { getSystemPrompt } from "@/lib/prompts";
-import { getOfficialHanjaCandidates } from "@/lib/official-hanja-db";
+import { getOfficialHanjaCandidates, getOfficialHanjaMeanings } from "@/lib/official-hanja-db";
 import { calculatePremiumSaju } from "@/lib/saju/engine";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 
@@ -358,6 +358,15 @@ export async function generateNamingResult(
     serviceType === "KOREAN_TO_GLOBAL"
       ? buildKoreanToGlobalSajuReference(inputFactors)
       : null;
+  // 입력에 명시된 한자는 공식 자료에서 뜻·지정 음가를 조회해 확정 근거로 주입한다.
+  // (모델이 동음이의 한자의 뜻으로 임의 해석하는 것을 데이터 차원에서 차단.)
+  const originalNameElements =
+    serviceType === "KOREAN_TO_GLOBAL"
+      ? await getOfficialHanjaMeanings([
+          ...String(inputFactors.familyNameHanja ?? ""),
+          ...String(inputFactors.givenNameHanja ?? ""),
+        ])
+      : null;
   const enrichedInputFactors: Record<string, unknown> = {
     ...inputFactors,
     ...(officialHanja
@@ -368,6 +377,13 @@ export async function generateNamingResult(
       : {}),
     ...(generationConstraint ? { generationConstraint } : {}),
     ...(sajuReference ? { sajuReference } : {}),
+    ...(originalNameElements
+      ? {
+          originalNameElements,
+          originalNameElementsNote:
+            "공식 인명용 한자 자료에서 조회한 원 이름 각 글자의 지정 음가와 뜻. 원 이름 분석과 의미 연결은 반드시 이 표의 뜻만 근거로 사용할 것.",
+        }
+      : {}),
     // 구버전 클라이언트가 outputLanguage를 대상 언어로 보내도 설명 언어는 한국어로 강제한다.
     // 성의 여권식 로마자를 함께 넘겨 비로마자 문자권(키릴·아랍 등)에서도 성 음차의 기준을 준다.
     ...(serviceType === "KOREAN_TO_GLOBAL"
