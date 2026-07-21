@@ -97,6 +97,15 @@ const shellCopies: Record<
       "Điền các thông tin bên dưới và chúng tôi sẽ đề xuất những tên tiếng Hàn tự nhiên, dễ giải thích.",
     headerAdLabel: "Quảng cáo banner đầu trang dịch vụ",
   },
+  th: {
+    promiseLabel: "คำมั่นสัญญาของบริการ",
+    defaultLanguage: "ภาษาเริ่มต้น",
+    g2kPromise:
+      "เราแนะนำชื่อที่เรียกง่าย เขียนง่าย พร้อมความหมายและการออกเสียงที่ตรวจสอบได้",
+    g2kIntro:
+      "กรอกข้อมูลด้านล่างแล้วเราจะแนะนำชื่อเกาหลีที่เป็นธรรมชาติและอธิบายที่มาได้",
+    headerAdLabel: "โฆษณาแบนเนอร์ด้านบนของหน้าบริการ",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",

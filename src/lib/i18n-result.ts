@@ -122,8 +122,39 @@ const vi: ResultCopy = {
   backToInput: "Quay lại màn hình nhập",
 };
 
-// ko/en/vi를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi };
+const th: ResultCopy = {
+  reanalysisError: "ไม่สามารถวิเคราะห์การออกเสียงใหม่ให้เสร็จสมบูรณ์ได้",
+  reanalysisErrorGeneric: "เกิดข้อผิดพลาดระหว่างการวิเคราะห์ใหม่",
+  reanalysisEyebrow: "เสียงต่างจากการออกเสียงจริงหรือไม่",
+  reanalysisTitle: "วิเคราะห์ใหม่ด้วยคำใบ้การออกเสียง",
+  reanalysisDescription:
+    "กรอกวิธีการออกเสียงจริงให้เจาะจงมากขึ้น แล้วเราจะวิเคราะห์ใหม่ด้วยชื่อ ภาษา และประเทศเดิม",
+  hintLabel: "คำใบ้การออกเสียงจริง",
+  hintPlaceholder: "เช่น ออกเสียงคล้าย แดน-เยล",
+  reanalysisCountdown: (seconds) => `จะวิเคราะห์ใหม่หลังชมโฆษณา ${seconds} วินาที`,
+  reanalyzing: "กำลังวิเคราะห์ใหม่",
+  goodsEyebrow: "ใช้ประโยชน์จากผลลัพธ์ของคุณให้มากขึ้น",
+  goodsSectionTitle: "สินค้าที่ระลึกตามชื่อ",
+  goodsItemTitle: "สินค้าที่ระลึกชื่อฮันกึล",
+  goodsItemSub: "(หมวก พวงกุญแจ เสื้อยืด และอื่น ๆ)",
+  goodsItemDescription:
+    "นำชื่อฮันกึลที่คุณเลือกไปใส่บนหมวก พวงกุญแจ เสื้อยืด และอื่น ๆ เพื่อสร้างสินค้าที่ระลึกของคุณเอง",
+  goodsButton: "การสั่งซื้อสินค้าที่ระลึกกำลังจะเปิดเร็ว ๆ นี้",
+  editInput: "แก้ไขข้อมูล",
+  home: "หน้าแรก",
+  headerAdLabel: "โฆษณาแบนเนอร์ด้านบนของผลลัพธ์ฮันกึล",
+  headerCaption: "ผลการวิเคราะห์การออกเสียงฮันกึล",
+  loading: "กำลังโหลดผลลัพธ์ของคุณ",
+  analysisDone: "การวิเคราะห์เสร็จสมบูรณ์",
+  resultHeading: "ชื่อของคุณในการเขียนแบบฮันกึลตามการออกเสียง",
+  emptyTitle: "ไม่สามารถโหลดผลลัพธ์ได้",
+  emptyDescription:
+    "ผลลัพธ์นี้ดูได้เฉพาะในแท็บเบราว์เซอร์ที่ใช้ทำการวิเคราะห์เท่านั้น",
+  backToInput: "กลับไปยังหน้ากรอกข้อมูล",
+};
+
+// ko/en/vi/th를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

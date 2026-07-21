@@ -141,6 +141,43 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "Không thể đăng nhập vì khóa công khai Supabase chưa được cấu hình.",
   },
+  th: {
+    back: "ย้อนกลับ",
+    home: "หน้าแรก",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "เข้าสู่ระบบ",
+    loginDescription:
+      "บัญชีของคุณช่วยเก็บรักษาผลการตั้งชื่อ รายงานพรีเมียม และประวัติการสั่งซื้อสินค้าที่ระลึกอย่างปลอดภัย",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "บัญชี",
+    accountDescription:
+      "หลังจากเข้าสู่ระบบ หน้าจอนี้จะขยายให้คุณจัดการประวัติการตั้งชื่อ ประวัติการชำระเงิน รายงานพรีเมียม และสถานะการสั่งทำตราประทับได้",
+    panelEyebrowLogin: "เข้าสู่ระบบด้วยอีเมล",
+    panelEyebrowAccount: "การเข้าถึงบัญชี",
+    panelTitle: "เข้าสู่ระบบอย่างปลอดภัยด้วยลิงก์เดียว",
+    panelDescription:
+      "เราไม่จัดเก็บรหัสผ่าน — คุณเข้าสู่ระบบด้วยลิงก์ยืนยันที่ส่งทางอีเมล กรุณาอ่านข้อกำหนดการใช้บริการและนโยบายความเป็นส่วนตัวก่อนใช้งาน",
+    emailLabel: "อีเมล",
+    emailPlaceholder: "name@example.com",
+    submitButton: "รับลิงก์เข้าสู่ระบบ",
+    legalBefore: "เมื่อดำเนินการต่อ ถือว่าคุณได้อ่าน",
+    legalTerms: "ข้อกำหนดการใช้บริการ",
+    legalBetween: "และ",
+    legalPrivacy: "นโยบายความเป็นส่วนตัว",
+    legalAfter: "แล้ว",
+    sentMessage:
+      "เราได้ส่งลิงก์เข้าสู่ระบบไปยังอีเมลของคุณแล้ว กรุณาตรวจสอบกล่องจดหมาย",
+    loggedInEyebrow: "เข้าสู่ระบบแล้ว",
+    loggedInDescription:
+      "ผลการตั้งชื่อและประวัติการสั่งซื้อจะถูกบันทึกไว้ตามบัญชีนี้ เมื่อฟีเจอร์การชำระเงินและการออกไฟล์ PDF เชื่อมต่อแล้ว คุณจะสามารถดาวน์โหลดได้อีกครั้งจากหน้าจอนี้",
+    logoutButton: "ออกจากระบบ",
+    loggedOutMessage: "คุณออกจากระบบแล้ว",
+    configWaitTitle: "รอการตั้งค่าการเข้าสู่ระบบ",
+    configWaitDescription:
+      "การเข้าสู่ระบบด้วยลิงก์อีเมลจะใช้งานได้เมื่อมีการตั้งค่า Supabase URL และ anon key ในสภาพแวดล้อมการใช้งานจริง",
+    supabaseMissingError:
+      "ไม่สามารถเข้าสู่ระบบได้เนื่องจากยังไม่ได้ตั้งค่าคีย์สาธารณะของ Supabase",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

@@ -50,6 +50,20 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "Mở toàn bộ ứng viên · ₩990 (sắp ra mắt)",
     bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
   },
+  th: {
+    title: "เปิดชื่อที่แนะนำเพิ่มเติม",
+    status: (revealed, locked) => `เปิดแล้ว ${revealed} รายการ · ล็อกอยู่ ${locked} รายการ`,
+    descHanja:
+      "การชมโฆษณาแต่ละครั้งจะเปิดชื่อที่แนะนำถัดไปอีก 1 รายการจากมุมมองการแนะนำที่ต่างกัน",
+    descDefault:
+      "การชมโฆษณาแต่ละครั้งจะเปิดชื่อที่แนะนำถัดไปอีก 1 รายการจากมุมมองการแนะนำที่ต่างกัน ฟีเจอร์ปลดล็อกชื่อที่แนะนำที่เหลือทั้งหมดในครั้งเดียวด้วย ₩990 กำลังจะเปิดเร็ว ๆ นี้",
+    watchingNote: (seconds) => `จะเปิดชื่อที่แนะนำ 1 รายการหลังชมโฆษณา ${seconds} วินาที`,
+    watching: "กำลังชมโฆษณา",
+    watchButton: "ชมโฆษณาเพื่อเปิดชื่อที่แนะนำถัดไป",
+    hanjaProductsLink: "ดูแพ็กเกจชื่อที่แนะนำทั้งหมด · เริ่มต้น ₩2,900",
+    bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · ₩990 (เร็ว ๆ นี้)",
+    bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,
