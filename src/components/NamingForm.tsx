@@ -152,6 +152,17 @@ const HANJA_ANALYSIS_AD_SECONDS = 15;
 
 const resultCandidateCount = (result: unknown) => cappedCandidateCount(result, 5);
 
+// 초안 보존 시간. 결과 페이지에서 "입력 수정"으로 돌아오는 흐름은 살리되,
+// 한참 뒤 다시 방문했을 때 옛 입력이 계속 남아 있는 문제를 막는다.
+const DRAFT_TTL_MS = 60 * 60 * 1000;
+
+function persistDraft(storageKey: string, values: Record<string, string>) {
+  sessionStorage.setItem(
+    storageKey,
+    JSON.stringify({ values, savedAt: Date.now() }),
+  );
+}
+
 function restoredDraftValues(
   initialValues: Record<string, string>,
   storageKey: string,
@@ -162,10 +173,21 @@ function restoredDraftValues(
 
   try {
     const parsedDraft = JSON.parse(rawDraft) as Record<string, unknown>;
+    const savedAt =
+      typeof parsedDraft.savedAt === "number" ? parsedDraft.savedAt : null;
+    const draftValues =
+      parsedDraft.values && typeof parsedDraft.values === "object"
+        ? (parsedDraft.values as Record<string, unknown>)
+        : null;
+    // 구버전(평면 객체) 초안이거나 보존 시간이 지난 초안은 버린다.
+    if (!savedAt || !draftValues || Date.now() - savedAt > DRAFT_TTL_MS) {
+      sessionStorage.removeItem(storageKey);
+      return initialValues;
+    }
     const restored = Object.fromEntries(
       Object.keys(initialValues).flatMap((fieldName) =>
-        typeof parsedDraft[fieldName] === "string"
-          ? [[fieldName, parsedDraft[fieldName]]]
+        typeof draftValues[fieldName] === "string"
+          ? [[fieldName, draftValues[fieldName]]]
           : [],
       ),
     ) as Record<string, string>;
@@ -217,13 +239,22 @@ export function NamingForm({
           ];
         }
 
+        // 외국인 대상 서비스(한국 이름 만들기)도 랜딩에서 고른 언어(lang)에 맞는 국가를 기본 선택한다.
+        if (!isHangulTransliteration && field.name === "country") {
+          const localizedCountry = getCountryOptionsForLocale(locale)[0]?.value;
+          if (localizedCountry) return [field.name, localizedCountry];
+        }
+
         return [field.name, fieldInitialValue(field)];
       }),
     );
 
     return Object.fromEntries(entries) as Record<string, string>;
   }, [isHangulTransliteration, locale, service.sections]);
-  const draftStorageKey = `naminglink:form-draft:${service.slug}`;
+  // 외국인 대상 서비스는 로케일별로 초안을 분리해, 랜딩에서 다른 언어를 고르면 새 기본값(국가 프리셋)이 적용되게 한다.
+  const draftStorageKey = `naminglink:form-draft:${service.slug}${
+    isForeignAudience ? `:${locale}` : ""
+  }`;
 
   // SSR과 클라이언트 첫 렌더가 동일하도록 초기값은 결정적인 initialValues를 쓰고,
   // sessionStorage 초안 복원은 마운트 후 useEffect에서 적용해 hydration 불일치를 막는다.
@@ -379,7 +410,7 @@ export function NamingForm({
           consentedAt: new Date().toISOString(),
         },
       };
-      sessionStorage.setItem(draftStorageKey, JSON.stringify(values));
+      persistDraft(draftStorageKey, values);
       const response = await fetch("/api/naming", {
         method: "POST",
         headers: {
@@ -540,7 +571,7 @@ export function NamingForm({
   // 초안 저장은 상태 업데이터 밖에서 수행한다(업데이터 내부 부수효과는 StrictMode에서 이중 실행됨).
   useEffect(() => {
     if (values === initialValues) return;
-    sessionStorage.setItem(draftStorageKey, JSON.stringify(values));
+    persistDraft(draftStorageKey, values);
   }, [values, initialValues, draftStorageKey]);
 
   return (
@@ -853,18 +884,6 @@ export function NamingForm({
       </form>
 
       <section className="grid content-start gap-4">
-        {loading && !usesDedicatedResultPage ? (
-          <div className="grid gap-3">
-            <AdBanner variant="leaderboard" />
-            <p className="text-center text-sm font-medium text-brand-teal">
-              {t.adRevealNote(analysisCountdown)}
-            </p>
-            <AILoadingSteps
-              variant={service.serviceType === "KOREAN_TO_GLOBAL" ? "global" : "general"}
-            />
-          </div>
-        ) : null}
-
         {result?.result && !isHangulTransliteration && !usesDedicatedResultPage ? (
           <div className="grid gap-4">
             <ResultStorageNotice persistence={result.persistence} />
@@ -903,22 +922,22 @@ export function NamingForm({
           </div>
         ) : null}
       </section>
-      {loading && usesDedicatedResultPage ? (
+      {loading ? (
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="보상 광고 확인 및 이름 분석 진행"
+          aria-label={t.adDialogLabel}
           className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
         >
           <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
             <div>
               <p className="text-sm font-semibold text-brand-teal">
-                {isHanjaMeaning ? "광고와 함께 진행하는 한자 이름 분석" : "이름 분석 중"}
+                {isHanjaMeaning ? "광고와 함께 진행하는 한자 이름 분석" : t.loadingEyebrow}
               </p>
               <h2 className="mt-1 text-lg font-semibold">
                 {isHanjaMeaning
                   ? "부모님의 바람이 오래 남을 한자 이름을 정성껏 찾고 있습니다"
-                  : "사용 환경에 어울리는 이름을 비교하고 있습니다"}
+                  : t.loadingTitle}
               </h2>
             </div>
             <AdBanner variant="leaderboard" />
@@ -926,10 +945,10 @@ export function NamingForm({
               {analysisCountdown > 0
                 ? isHanjaMeaning
                   ? `광고와 한자 분석을 함께 진행하고 있습니다 · ${analysisCountdown}초`
-                  : `광고 확인 및 분석 진행 중 · ${analysisCountdown}초`
+                  : t.loadingCountdown(analysisCountdown)
                 : isHanjaMeaning
                   ? "광고 확인 완료 · 한자 분석 결과를 마무리하고 있습니다"
-                  : "광고 확인 완료 · 분석 결과를 준비하고 있습니다"}
+                  : t.loadingDone}
             </p>
             <AILoadingSteps
               variant={
@@ -939,6 +958,7 @@ export function NamingForm({
                     ? "global"
                     : "general"
               }
+              locale={isForeignAudience ? locale : "ko"}
               candidateCount={officialCandidateCount}
             />
           </div>

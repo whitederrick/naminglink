@@ -9,6 +9,14 @@ const generalSteps = [
   "결과를 검토하고 화면에 맞게 정리하고 있습니다.",
 ];
 
+// 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서 로케일이 한국어가 아닐 때 쓰는 영어 문구(그 외 로케일은 영어 폴백).
+const generalStepsEn = [
+  "Organizing the meaning and conditions of your input.",
+  "Comparing pronunciation, culture, and reference details.",
+  "Composing each candidate's story and exclusion reasons.",
+  "Reviewing the result and preparing it for display.",
+];
+
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.
 const globalNameSteps = [
   "이름은 나라가 바뀌어도 그 사람의 이야기를 담습니다.",
@@ -53,7 +61,7 @@ function hanjaSteps(candidateCount?: number | null) {
   ];
 }
 
-export function AILoadingSteps({ variant = "general", candidateCount }: { variant?: "general" | "hanja" | "global"; candidateCount?: number | null }) {
+export function AILoadingSteps({ variant = "general", locale = "ko", candidateCount }: { variant?: "general" | "hanja" | "global"; locale?: string; candidateCount?: number | null }) {
   const [index, setIndex] = useState(0);
   // 글로벌 변환은 매번 다른 순서로 문구가 나오도록 마운트 시 한 번 섞는다.
   const [randomizedGlobalSteps] = useState(() => shuffled(globalNameSteps));
@@ -62,7 +70,9 @@ export function AILoadingSteps({ variant = "general", candidateCount }: { varian
       ? hanjaSteps(candidateCount)
       : variant === "global"
         ? randomizedGlobalSteps
-        : generalSteps;
+        : locale === "ko"
+          ? generalSteps
+          : generalStepsEn;
   // 글로벌 변환 대기는 광고 10초 + 생성 시간이라 문구를 끝없이 순환시킨다.
   const loops = variant === "global";
 
