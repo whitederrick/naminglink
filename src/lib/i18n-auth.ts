@@ -251,6 +251,117 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "由于尚未配置 Supabase 公钥，暂时无法登录。",
   },
+  id: {
+    back: "Kembali",
+    home: "Beranda",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Masuk",
+    loginDescription:
+      "Akun Anda menyimpan hasil penamaan, laporan premium, dan riwayat pesanan merchandise dengan aman.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Akun",
+    accountDescription:
+      "Setelah masuk, layar ini akan diperluas untuk mengelola riwayat penamaan, pembayaran, laporan premium, dan status pesanan stempel.",
+    panelEyebrowLogin: "Masuk dengan email",
+    panelEyebrowAccount: "Akses akun",
+    panelTitle: "Masuk dengan aman melalui satu tautan",
+    panelDescription:
+      "Kata sandi tidak disimpan — Anda masuk dengan tautan verifikasi email. Silakan baca Ketentuan Layanan dan Kebijakan Privasi sebelum menggunakan layanan.",
+    emailLabel: "Email",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Kirim tautan masuk",
+    legalBefore: "Dengan melanjutkan, Anda dianggap telah membaca ",
+    legalTerms: "Ketentuan Layanan",
+    legalBetween: " dan ",
+    legalPrivacy: "Kebijakan Privasi",
+    legalAfter: ".",
+    sentMessage:
+      "Kami telah mengirim tautan masuk ke email Anda. Silakan periksa kotak masuk Anda.",
+    loggedInEyebrow: "Sudah masuk",
+    loggedInDescription:
+      "Hasil penamaan dan riwayat pesanan disimpan berdasarkan akun ini. Setelah fitur pembayaran dan penerbitan PDF terhubung, Anda dapat mengunduhnya kembali dari layar ini.",
+    logoutButton: "Keluar",
+    loggedOutMessage: "Anda telah keluar.",
+    configWaitTitle: "Menunggu konfigurasi login",
+    configWaitDescription:
+      "Login melalui tautan email tersedia setelah Supabase URL dan anon key dikonfigurasi di lingkungan deployment.",
+    supabaseMissingError:
+      "Login tidak tersedia karena kunci publik Supabase belum dikonfigurasi.",
+  },
+  de: {
+    back: "Zurück",
+    home: "Startseite",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Anmelden",
+    loginDescription:
+      "Ihr Konto verwahrt Naming-Ergebnisse, Premium-Berichte und die Bestellhistorie von Merchandise-Artikeln sicher.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Konto",
+    accountDescription:
+      "Nach der Anmeldung wird dieser Bereich erweitert, damit Sie Naming-Verlauf, Zahlungen, Premium-Berichte und den Status von Stempelbestellungen verwalten können.",
+    panelEyebrowLogin: "E-Mail-Anmeldung",
+    panelEyebrowAccount: "Kontozugang",
+    panelTitle: "Mit einem einzigen Link sicher anmelden",
+    panelDescription:
+      "Es werden keine Passwörter gespeichert — Sie melden sich über einen E-Mail-Bestätigungslink an. Bitte lesen Sie vor der Nutzung die Nutzungsbedingungen und die Datenschutzerklärung.",
+    emailLabel: "E-Mail",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Anmeldelink senden",
+    legalBefore: "Wenn Sie fortfahren, gelten die ",
+    legalTerms: "Nutzungsbedingungen",
+    legalBetween: " und die ",
+    legalPrivacy: "Datenschutzerklärung",
+    legalAfter: " als zur Kenntnis genommen.",
+    sentMessage:
+      "Wir haben Ihnen einen Anmeldelink per E-Mail gesendet. Bitte prüfen Sie Ihren Posteingang.",
+    loggedInEyebrow: "Angemeldet",
+    loggedInDescription:
+      "Naming-Ergebnisse und Bestellhistorie werden unter diesem Konto gespeichert. Sobald Zahlung und PDF-Ausstellung verbunden sind, können Sie sie hier erneut herunterladen.",
+    logoutButton: "Abmelden",
+    loggedOutMessage: "Sie wurden abgemeldet.",
+    configWaitTitle: "Anmeldekonfiguration ausstehend",
+    configWaitDescription:
+      "Die Anmeldung per E-Mail-Link steht zur Verfügung, sobald Supabase URL und Anon Key in der Bereitstellungsumgebung konfiguriert sind.",
+    supabaseMissingError:
+      "Die Anmeldung ist nicht verfügbar, da der öffentliche Supabase-Schlüssel nicht konfiguriert ist.",
+  },
+  es: {
+    back: "Volver",
+    home: "Inicio",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Iniciar sesión",
+    loginDescription:
+      "Tu cuenta guarda de forma segura los resultados de nombres, los informes premium y el historial de pedidos de merchandising.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Cuenta",
+    accountDescription:
+      "Tras iniciar sesión, esta pantalla se ampliará para gestionar tu historial de nombres, pagos, informes premium y el estado de los pedidos de sellos.",
+    panelEyebrowLogin: "Inicio de sesión por correo",
+    panelEyebrowAccount: "Acceso a la cuenta",
+    panelTitle: "Inicia sesión de forma segura con un solo enlace",
+    panelDescription:
+      "No guardamos contraseñas: inicias sesión con un enlace de verificación por correo. Revisa los Términos del servicio y la Política de privacidad antes de usar el servicio.",
+    emailLabel: "Correo electrónico",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Enviar enlace de acceso",
+    legalBefore: "Al continuar, confirmas que has revisado los ",
+    legalTerms: "Términos del servicio",
+    legalBetween: " y la ",
+    legalPrivacy: "Política de privacidad",
+    legalAfter: ".",
+    sentMessage:
+      "Hemos enviado un enlace de acceso a tu correo. Revisa tu bandeja de entrada.",
+    loggedInEyebrow: "Sesión iniciada",
+    loggedInDescription:
+      "Los resultados de nombres y el historial de pedidos se guardan en esta cuenta. Cuando el pago y la emisión de PDF estén conectados, podrás volver a descargarlos desde esta pantalla.",
+    logoutButton: "Cerrar sesión",
+    loggedOutMessage: "Has cerrado sesión.",
+    configWaitTitle: "Configuración de acceso pendiente",
+    configWaitDescription:
+      "El inicio de sesión por enlace de correo estará disponible cuando la Supabase URL y la anon key estén configuradas en el entorno de despliegue.",
+    supabaseMissingError:
+      "No se puede iniciar sesión porque la clave pública de Supabase no está configurada.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

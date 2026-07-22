@@ -309,8 +309,151 @@ const zh: FormCopy = {
   ],
 };
 
-// ko/en/vi/th/ja/zh를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh };
+const id: FormCopy = {
+  errorCheckInput: "Periksa format input agar analisis akurat.",
+  errorConsent:
+    "Anda harus menyetujui Ketentuan Layanan dan Kebijakan Privasi untuk memulai analisis.",
+  errorLoginToSave: "Silakan masuk kembali untuk menyimpan hasil analisis Anda.",
+  errorRequestFailed: "Kami tidak dapat memproses permintaan penamaan Anda.",
+  errorGeneric: "Terjadi kesalahan.",
+  consentTitle: "Persetujuan wajib",
+  consentIntro:
+    "Data yang Anda masukkan seperti nama, tanggal lahir, dan negara digunakan untuk membuat hasil analisis,",
+  consentIntroSaved:
+    " dan hanya data serta hasil dari anggota yang memilih menyimpan yang akan disimpan.",
+  termsLink: "Ketentuan Layanan",
+  privacyLink: "Kebijakan Privasi",
+  agreeToTermsSuffix: " — saya setuju.",
+  agreeToPrivacySuffix: " — saya setuju.",
+  saveResultLabel: "Simpan hasil analisis ke akun saya (opsional)",
+  saveResultHint:
+    "Kami hanya menyimpan data input dan hasil analisis jika Anda memilih menyimpan.",
+  guestNoSavePrefix:
+    "Hasil analisis tamu tidak disimpan. Jika ingin menyimpan hasil, silakan ",
+  loginLink: "masuk",
+  guestNoSaveSuffix: " lalu pilih simpan.",
+  adConsentLabel: "Iklan area persetujuan wajib",
+  submitTransliteration: "Mulai analisis pelafalan Hangul",
+  submitDefault: "Tonton iklan lalu mulai analisis",
+  adRevealNote: (seconds) => `Hasil akan ditampilkan setelah iklan. ${seconds} detik`,
+  analysisDone: "Analisis selesai",
+  editInput: "Ubah input",
+  previewNote:
+    "Kami menampilkan satu kandidat terbaik terlebih dahulu. Anda dapat membuka kandidat lainnya satu per satu dengan menonton iklan atau melalui pembayaran.",
+  adDialogLabel: "Tonton iklan berhadiah dan jalankan analisis nama",
+  loadingEyebrow: "Menganalisis nama Anda",
+  loadingTitle: "Membandingkan nama yang sesuai dengan konteks Anda",
+  loadingCountdown: (seconds) => `Menonton iklan dan menganalisis · ${seconds} detik`,
+  loadingDone: "Iklan selesai · menyiapkan hasil Anda",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Bahasa default: ${languageName} · Contoh nama lokal: ${localNameHint}`,
+  transliterationStepsTitle: "Bagaimana nama Anda menjadi Hangul",
+  transliterationSteps: [
+    ["Konfirmasi nama asli", "Kami mengonfirmasi ejaan dan suku kata asli yang Anda masukkan."],
+    ["Analisis bahasa & wilayah", "Bahasa sumber diutamakan, dengan mempertimbangkan perbedaan pelafalan tiap negara."],
+    ["Terapkan petunjuk pelafalan", "Petunjuk pelafalan yang Anda masukkan diutamakan di atas aturan pelafalan umum."],
+    ["Strukturkan pelafalan", "Kami memecah pelafalan sebenarnya menjadi suku kata dan simbol fonetik."],
+    ["Usulkan penulisan Hangul", "Kami mempertahankan pelafalan asli dan mengusulkan Hangul yang alami."],
+  ],
+};
+
+const de: FormCopy = {
+  errorCheckInput: "Bitte überprüfen Sie das Eingabeformat für eine genaue Analyse.",
+  errorConsent:
+    "Sie müssen den Nutzungsbedingungen und der Datenschutzerklärung zustimmen, um die Analyse zu starten.",
+  errorLoginToSave: "Bitte melden Sie sich erneut an, um Ihr Analyseergebnis zu speichern.",
+  errorRequestFailed: "Ihre Naming-Anfrage konnte nicht verarbeitet werden.",
+  errorGeneric: "Ein Fehler ist aufgetreten.",
+  consentTitle: "Erforderliche Zustimmung",
+  consentIntro:
+    "Ihre Eingaben wie Name, Geburtsdatum und Land werden zur Erstellung des Ergebnisses verwendet,",
+  consentIntroSaved:
+    " und nur bei Mitgliedern, die das Speichern wählen, werden Eingaben und Ergebnisse gespeichert.",
+  termsLink: "Nutzungsbedingungen",
+  privacyLink: "Datenschutzerklärung",
+  agreeToTermsSuffix: " – ich stimme zu.",
+  agreeToPrivacySuffix: " – ich stimme zu.",
+  saveResultLabel: "Ergebnis in meinem Konto speichern (optional)",
+  saveResultHint:
+    "Wir speichern Ihre Eingaben und Ergebnisse nur, wenn Sie das Speichern wählen.",
+  guestNoSavePrefix:
+    "Ergebnisse von Gästen werden nicht gespeichert. Wenn Sie Ihr Ergebnis behalten möchten, ",
+  loginLink: "melden Sie sich an",
+  guestNoSaveSuffix: " und wählen Sie dann das Speichern.",
+  adConsentLabel: "Werbung im Bereich der erforderlichen Zustimmung",
+  submitTransliteration: "Hangul-Ausspracheanalyse starten",
+  submitDefault: "Werbung ansehen und Analyse starten",
+  adRevealNote: (seconds) => `Ihr Ergebnis wird nach der Werbung angezeigt. ${seconds} Sek.`,
+  analysisDone: "Analyse abgeschlossen",
+  editInput: "Eingabe bearbeiten",
+  previewNote:
+    "Wir haben zuerst den am besten passenden Kandidaten veröffentlicht. Weitere Kandidaten können Sie einzeln freischalten, indem Sie Werbung ansehen oder künftig per Zahlung.",
+  adDialogLabel: "Prämienwerbung ansehen und Namensanalyse durchführen",
+  loadingEyebrow: "Ihr Name wird analysiert",
+  loadingTitle: "Wir vergleichen Namen, die zu Ihrem Kontext passen",
+  loadingCountdown: (seconds) => `Werbung läuft und Analyse wird durchgeführt · ${seconds} Sek.`,
+  loadingDone: "Werbung abgeschlossen · Ihr Ergebnis wird vorbereitet",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Standardsprache: ${languageName} · Beispiel für einen lokalen Namen: ${localNameHint}`,
+  transliterationStepsTitle: "So wird Ihr Name zu Hangul",
+  transliterationSteps: [
+    ["Namen bestätigen", "Wir bestätigen die ursprüngliche Schreibweise und die Silben, die Sie eingegeben haben."],
+    ["Sprache & Region analysieren", "Ihre Ausgangssprache hat Vorrang, Ausspracheunterschiede je Land werden berücksichtigt."],
+    ["Aussprachehinweis anwenden", "Ein von Ihnen eingegebener Hinweis hat Vorrang vor allgemeinen Ausspracheregeln."],
+    ["Aussprache strukturieren", "Wir zerlegen die tatsächliche Aussprache in Silben und Lautschrift."],
+    ["Hangul-Schreibweisen vorschlagen", "Wir bewahren Ihre ursprüngliche Aussprache und schlagen natürliches Hangul vor."],
+  ],
+};
+
+const es: FormCopy = {
+  errorCheckInput: "Revisa el formato de los datos para un análisis preciso.",
+  errorConsent:
+    "Debes aceptar los Términos del servicio y la Política de privacidad para comenzar.",
+  errorLoginToSave: "Inicia sesión de nuevo para guardar tu resultado de análisis.",
+  errorRequestFailed: "No pudimos procesar tu solicitud de nombre.",
+  errorGeneric: "Se ha producido un error.",
+  consentTitle: "Consentimiento obligatorio",
+  consentIntro:
+    "Los datos que introduces, como nombre, fecha de nacimiento y país, se usan para generar el resultado,",
+  consentIntroSaved:
+    " y solo se guardan los datos y resultados de los miembros que eligen guardarlos.",
+  termsLink: "Términos del servicio",
+  privacyLink: "Política de privacidad",
+  agreeToTermsSuffix: " — acepto.",
+  agreeToPrivacySuffix: " — acepto.",
+  saveResultLabel: "Guardar el resultado en mi cuenta (opcional)",
+  saveResultHint: "Solo guardamos tus datos y resultados si eliges guardarlos.",
+  guestNoSavePrefix:
+    "Los resultados de invitados no se guardan. Si quieres conservar tu resultado, ",
+  loginLink: "inicia sesión",
+  guestNoSaveSuffix: " y luego elige guardar.",
+  adConsentLabel: "Anuncio del área de consentimiento obligatorio",
+  submitTransliteration: "Iniciar el análisis de pronunciación en hangul",
+  submitDefault: "Ver el anuncio y comenzar el análisis",
+  adRevealNote: (seconds) => `El resultado se mostrará después del anuncio. ${seconds} s`,
+  analysisDone: "Análisis completado",
+  editInput: "Editar datos",
+  previewNote:
+    "Mostramos primero el mejor candidato. Puedes desbloquear más candidatos uno a uno viendo un anuncio o mediante pago.",
+  adDialogLabel: "Ver anuncio con recompensa y ejecutar el análisis del nombre",
+  loadingEyebrow: "Analizando tu nombre",
+  loadingTitle: "Comparando nombres que encajan con tu contexto",
+  loadingCountdown: (seconds) => `Viendo el anuncio y analizando · ${seconds} s`,
+  loadingDone: "Anuncio completado · preparando tu resultado",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Idioma predeterminado: ${languageName} · Ejemplo de nombre local: ${localNameHint}`,
+  transliterationStepsTitle: "Cómo tu nombre se convierte en hangul",
+  transliterationSteps: [
+    ["Confirmar tu nombre", "Confirmamos la ortografía y las sílabas originales que introdujiste."],
+    ["Analizar idioma y región", "Priorizamos tu idioma de origen y aplicamos las diferencias de pronunciación por país."],
+    ["Aplicar tu pista de pronunciación", "Cualquier pista que introduzcas prevalece sobre las reglas generales de pronunciación."],
+    ["Estructurar la pronunciación", "Descomponemos la pronunciación real en sílabas y notación fonética."],
+    ["Sugerir escrituras en hangul", "Mantenemos tu pronunciación original y sugerimos un hangul natural."],
+  ],
+};
+
+// ko/en/vi/th/ja/zh/id/de/es를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

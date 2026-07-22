@@ -41,6 +41,24 @@ const generalStepsByLocale: Record<string, string[]> = {
     "正在构建每个候选名字的故事和排除理由。",
     "正在检查结果并准备在页面上呈现。",
   ],
+  id: [
+    "Menyusun makna dan kondisi dari data yang Anda masukkan.",
+    "Membandingkan pelafalan, budaya, dan informasi referensi.",
+    "Menyusun cerita setiap kandidat beserta alasan pengecualiannya.",
+    "Memeriksa hasil dan menyiapkannya untuk ditampilkan.",
+  ],
+  de: [
+    "Bedeutung und Bedingungen Ihrer Eingaben werden geordnet.",
+    "Aussprache, Kulturkreis und Referenzangaben werden abgeglichen.",
+    "Die Geschichte jedes Kandidaten und die Ausschlussgründe werden zusammengestellt.",
+    "Das Ergebnis wird geprüft und für die Anzeige aufbereitet.",
+  ],
+  es: [
+    "Organizando el significado y las condiciones de tus datos.",
+    "Comparando pronunciación, cultura y datos de referencia.",
+    "Componiendo la historia de cada candidato y los motivos de exclusión.",
+    "Revisando el resultado y preparándolo para mostrarlo.",
+  ],
 };
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.

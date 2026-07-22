@@ -92,6 +92,48 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "一次性解锁全部候选名字 · ₩990（即将上线）",
     bulkPreparing: "支付功能即将上线。",
   },
+  id: {
+    title: "Buka kandidat lainnya",
+    status: (revealed, locked) => `${revealed} terbuka · ${locked} terkunci`,
+    descHanja:
+      "Setiap kali menonton iklan, satu kandidat berikutnya dengan sudut pandang rekomendasi berbeda akan terbuka.",
+    descDefault:
+      "Setiap kali menonton iklan, satu kandidat berikutnya dengan sudut pandang rekomendasi berbeda akan terbuka. Fitur membuka seluruh kandidat tersisa sekaligus seharga ₩990 segera hadir.",
+    watchingNote: (seconds) => `Satu kandidat terbuka setelah iklan. ${seconds} detik`,
+    watching: "Menonton iklan",
+    watchButton: "Tonton iklan untuk membuka kandidat berikutnya",
+    hanjaProductsLink: "Lihat produk seluruh kandidat · mulai ₩2,900",
+    bulkButton: "Buka seluruh kandidat sekaligus · ₩990 (segera hadir)",
+    bulkPreparing: "Fitur pembayaran segera hadir.",
+  },
+  de: {
+    title: "Weitere Kandidaten freischalten",
+    status: (revealed, locked) => `${revealed} freigeschaltet · ${locked} gesperrt`,
+    descHanja:
+      "Mit jeder angesehenen Werbung wird der nächste Kandidat mit einer anderen Empfehlungsperspektive freigeschaltet.",
+    descDefault:
+      "Mit jeder angesehenen Werbung wird der nächste Kandidat mit einer anderen Empfehlungsperspektive freigeschaltet. Eine einmalige Freischaltung aller verbleibenden Kandidaten für ₩990 ist in Vorbereitung.",
+    watchingNote: (seconds) => `Nach der Werbung wird ein Kandidat freigeschaltet. ${seconds} Sek.`,
+    watching: "Werbung läuft",
+    watchButton: "Werbung ansehen und nächsten Kandidaten freischalten",
+    hanjaProductsLink: "Alle Kandidaten-Produkte ansehen · ab ₩2,900",
+    bulkButton: "Alle Kandidaten freischalten · ₩990 (in Vorbereitung)",
+    bulkPreparing: "Die Zahlungsfunktion ist in Vorbereitung.",
+  },
+  es: {
+    title: "Desbloquea más candidatos",
+    status: (revealed, locked) => `${revealed} revelados · ${locked} bloqueados`,
+    descHanja:
+      "Cada anuncio que ves desbloquea el siguiente candidato con una perspectiva de recomendación distinta.",
+    descDefault:
+      "Cada anuncio que ves desbloquea el siguiente candidato con una perspectiva de recomendación distinta. Próximamente podrás desbloquear de una sola vez todos los candidatos restantes por ₩990.",
+    watchingNote: (seconds) => `Se desbloqueará un candidato tras el anuncio. ${seconds} s`,
+    watching: "Viendo el anuncio",
+    watchButton: "Ver un anuncio para desbloquear el siguiente candidato",
+    hanjaProductsLink: "Ver productos con todos los candidatos · desde ₩2,900",
+    bulkButton: "Desbloquear todos los candidatos · ₩990 (próximamente)",
+    bulkPreparing: "El pago estará disponible próximamente.",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,

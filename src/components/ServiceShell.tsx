@@ -124,6 +124,33 @@ const shellCopies: Record<
       "填写下面的各项信息，我们将为您推荐自然、可解释的韩国名字。",
     headerAdLabel: "服务页顶部横幅广告",
   },
+  id: {
+    promiseLabel: "Janji layanan",
+    defaultLanguage: "Bahasa default",
+    g2kPromise:
+      "Kami merekomendasikan nama yang mudah dipanggil dan ditulis, dengan arti dan pelafalan yang dapat diverifikasi.",
+    g2kIntro:
+      "Isi berbagai informasi di bawah ini dan kami akan mengusulkan nama Korea yang alami dan mudah dijelaskan.",
+    headerAdLabel: "Iklan banner atas halaman layanan",
+  },
+  de: {
+    promiseLabel: "Unser Versprechen",
+    defaultLanguage: "Standardsprache",
+    g2kPromise:
+      "Wir schlagen Namen vor, die leicht zu rufen und zu schreiben sind — mit überprüfbarer Bedeutung und Aussprache.",
+    g2kIntro:
+      "Füllen Sie die Angaben unten aus, und wir schlagen Ihnen natürliche, gut erklärbare koreanische Namen vor.",
+    headerAdLabel: "Banner-Werbung oben auf der Serviceseite",
+  },
+  es: {
+    promiseLabel: "Nuestro compromiso",
+    defaultLanguage: "Idioma predeterminado",
+    g2kPromise:
+      "Recomendamos nombres fáciles de pronunciar y escribir, con significado y pronunciación que puedes verificar.",
+    g2kIntro:
+      "Completa los datos a continuación y te sugeriremos nombres coreanos naturales y fáciles de explicar.",
+    headerAdLabel: "Anuncio de banner superior de la página del servicio",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",
