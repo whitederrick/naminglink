@@ -197,6 +197,15 @@ export async function GET(request: Request) {
     cleanedOrders = updatedOrders?.length ?? 0;
   }
 
+  // 지난 레이트리밋 카운터를 정리한다(창이 이미 지난 행은 불필요). 테이블이 없어도 무시.
+  const rateLimitCutoff = new Date(
+    Date.now() - 2 * 24 * 60 * 60 * 1000,
+  ).toISOString();
+  await supabase
+    .from("rate_limit_counters")
+    .delete()
+    .lt("window_start", rateLimitCutoff);
+
   return NextResponse.json({
     ok: true,
     processed: sessionIds.length,

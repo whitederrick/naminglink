@@ -14,6 +14,7 @@ import { getAuthenticatedUser } from "@/lib/user-auth";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
 import {
   checkInputFactorsSize,
+  checkRateLimit,
   readJsonBodyLimited,
   RequestTooLargeError,
 } from "@/lib/request-guard";
@@ -60,6 +61,17 @@ export async function POST(request: NextRequest) {
   const parsed = schema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ ok: false, error: "주문 정보가 올바르지 않습니다." }, { status: 400 });
+  }
+  // 인증 없이 열려 있는 주문 생성 엔드포인트의 남용(무한 UNPAID 주문·세션 생성)을 시간당으로 제한.
+  const allowed = await checkRateLimit(request, "premium_order", {
+    windowSeconds: 3600,
+    limit: 20,
+  });
+  if (!allowed) {
+    return NextResponse.json(
+      { ok: false, error: "주문 요청이 너무 많습니다. 잠시 후 다시 시도해 주세요." },
+      { status: 429 },
+    );
   }
   const sizeError = checkInputFactorsSize(parsed.data.inputFactors);
   if (sizeError) {
