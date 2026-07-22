@@ -15,14 +15,16 @@ export type LegalDocument = LegalDocumentKind;
 
 // 로케일 문서는 번들에 넣지 않고 API에서 로케일 버전을 바로 받아 렌더한다.
 // (예전에는 한국어 폴백을 먼저 그려서 비한국어 사용자에게 한글이 번쩍이는 문제가 있었음.)
+type LoadedDoc = { content: PolicyDocumentContent; labels: LegalPageLabels };
+
 type LoadState =
   | { status: "loading" }
   | { status: "error" }
-  | {
-      status: "ready";
-      content: PolicyDocumentContent;
-      labels: LegalPageLabels;
-    };
+  | ({ status: "ready" } & LoadedDoc);
+
+// 세션 내 메모리 캐시(kind:locale 단위). 한 번 받아온 약관은 재열람 시 네트워크 없이 즉시 렌더한다.
+// 새로고침하면 비워지므로 운영자 DB 수정이 세션 경계에서 반영된다(엣지 캐시 TTL과 별개).
+const legalCache = new Map<string, LoadedDoc>();
 
 export function LegalModal({
   kind,
@@ -35,37 +37,44 @@ export function LegalModal({
   title?: string;
   locale?: Locale;
 }) {
-  const [state, setState] = useState<LoadState>({ status: "loading" });
+  const cacheKey = `${kind}:${locale}`;
+  // 캐시가 있으면 스켈레톤 없이 곧바로 렌더한다.
+  const [state, setState] = useState<LoadState>(() => {
+    const cached = legalCache.get(cacheKey);
+    return cached ? { status: "ready", ...cached } : { status: "loading" };
+  });
   const title =
     titleOverride ?? (state.status === "ready" ? state.content.title : "");
 
   useEffect(() => {
     const controller = new AbortController();
-
+    // 캐시로 이미 렌더 중이어도 백그라운드로 갱신해 최신 DB 내용을 반영한다(stale-while-revalidate).
     fetch(`/api/site-content?kind=${kind}&locale=${locale}`, {
       signal: controller.signal,
     })
       .then((response) => (response.ok ? response.json() : null))
       .then((payload) => {
         if (payload?.content && payload?.labels) {
-          setState({
-            status: "ready",
+          const loaded: LoadedDoc = {
             content: payload.content,
             labels: payload.labels,
-          });
-        } else {
+          };
+          legalCache.set(cacheKey, loaded);
+          setState({ status: "ready", ...loaded });
+        } else if (!legalCache.has(cacheKey)) {
           setState({ status: "error" });
         }
       })
       .catch((error) => {
         if (error instanceof Error && error.name !== "AbortError") {
           console.error("Failed to load legal content", error);
-          setState({ status: "error" });
+          // 캐시된 내용이 있으면 그대로 두고, 없을 때만 오류를 표시한다.
+          if (!legalCache.has(cacheKey)) setState({ status: "error" });
         }
       });
 
     return () => controller.abort();
-  }, [kind, locale]);
+  }, [kind, locale, cacheKey]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {

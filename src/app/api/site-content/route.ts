@@ -32,9 +32,19 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  return NextResponse.json({
-    ok: true,
-    content: await getPublishedPolicyDocument(kind, locale),
-    labels: getLegalLocaleContent(locale).labels,
-  });
+  return NextResponse.json(
+    {
+      ok: true,
+      content: await getPublishedPolicyDocument(kind, locale),
+      labels: getLegalLocaleContent(locale).labels,
+    },
+    {
+      // 약관은 공개 문서라 엣지 CDN에 캐시한다. 첫 열람 후 다른 사용자·재열람은 즉시 응답되고,
+      // 운영자가 DB에서 수정하면 최대 5분(s-maxage) 뒤 반영, 그 사이에는 stale을 즉시 주고 백그라운드 갱신.
+      headers: {
+        "Cache-Control":
+          "public, s-maxage=300, stale-while-revalidate=86400",
+      },
+    },
+  );
 }
