@@ -399,10 +399,15 @@ export function NamingForm({
         ...values,
         // KOREAN_TO_GLOBAL은 사용자가 한국인이므로 설명 언어는 항상 한국어다.
         // 대상 언어(targetLanguage)를 outputLanguage로 넘기면 모델이 설명까지 그 언어로 써 버린다.
+        // "auto"(기본값)는 truthy라 그대로 두면 서버가 IP로 언어를 추정해, ja UI로 보면서
+        // 한국 IP면 설명이 한국어가 되는 사고가 난다 — 사용자가 실제로 읽고 있는 UI 로케일로 확정한다.
         outputLanguage:
           isHanjaMeaning || service.serviceType === "KOREAN_TO_GLOBAL"
             ? "ko"
-            : values.targetLanguage || values.outputLanguage || locale,
+            : values.targetLanguage ||
+              (values.outputLanguage && values.outputLanguage !== "auto"
+                ? values.outputLanguage
+                : locale),
         selectedAddOns: [],
         serviceSlug: service.slug,
         countryProfile,

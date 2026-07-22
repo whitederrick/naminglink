@@ -187,6 +187,9 @@ const KOREAN_SURNAME_ROMAN: Record<string, string> = {
   현: "Hyun", 함: "Ham", 변: "Byun", 염: "Yeom", 여: "Yeo", 추: "Chu",
   도: "Do", 소: "So", 석: "Seok", 설: "Seol", 마: "Ma", 길: "Gil",
   표: "Pyo", 은: "Eun", 탁: "Tak", 공: "Kong",
+  // 외국 성 소리 매칭에 쓰이는 실존 성(왕 Wang→王, 예 Ye→叶 등). GLOBAL_TO_KOREAN 성 추천
+  // 목록에도 주입되므로 실존 성만 추가할 것.
+  왕: "Wang", 예: "Ye", 반: "Ban", 연: "Yeon", 명: "Myung", 태: "Tae",
 };
 
 const CYRILLIC_LANGUAGES = new Set(["ru", "mn", "kk"]);
@@ -468,10 +471,15 @@ export async function generateNamingResult(
             outputLanguage: language,
             outputLanguageName: OUTPUT_LANGUAGE_NAMES[language],
             // 사용자가 구체적인 성을 골랐으면 한글 성을 확정 주입해 모델이 옵션 코드(kim 등)를
-            // 잘못 해석하거나 성을 빠뜨리는 것을 막는다. "recommend"는 주입하지 않아 추천 모드.
+            // 잘못 해석하거나 성을 빠뜨리는 것을 막는다. "recommend"면 실존 성씨 목록을 주입해
+            // 그 안에서만 고르게 한다(지어낸 성·지어낸 추천 사유 방지).
             ...(KOREAN_FAMILY_NAME_OPTION_HANGUL[surnameOption]
               ? { koreanFamilyNameHangul: KOREAN_FAMILY_NAME_OPTION_HANGUL[surnameOption] }
-              : {}),
+              : {
+                  koreanSurnameChoices: Object.entries(KOREAN_SURNAME_ROMAN).map(
+                    ([hangul, romanized]) => `${hangul} (${romanized})`,
+                  ),
+                }),
           };
         })()
       : {}),
