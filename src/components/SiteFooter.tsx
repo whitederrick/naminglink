@@ -652,6 +652,27 @@ function displayFooterValue(label: string, value: string) {
     : trimmedValue;
 }
 
+// DB(footer.global)는 한국어 단일본이므로, 비한국어 로케일에서는 알려진 값을 영문(로마자)
+// 표기로 바꿔 보여준다. 주소·인명은 관례상 언어별 번역 대신 로마자 한 벌을 쓰고, "준비 중"류
+// 상태 문구만 로케일별 문구로 치환한다. 사전에 없는 값(관리자가 새로 입력한 값)은 원문 유지.
+const KOREAN_FOOTER_VALUE_TO_ENGLISH: Record<string, string> = {
+  "(주)Platforest": "Platforest Inc.",
+  곽은하: "Gwak Eunha",
+  "곽은하(대표)": "Gwak Eunha (CEO)",
+  "서울특별시 금천구 디지털로 130, 13층 1309호 (가산동, 남성프라자)":
+    "13F #1309, Namseong Plaza, 130 Digital-ro, Geumcheon-gu, Seoul, Republic of Korea",
+  서울특별시: "Seoul, Republic of Korea",
+};
+
+function localizeFooterValue(locale: Locale, copy: FooterCopy, value: string) {
+  if (locale === "ko") return value;
+  const trimmed = value.trim();
+  if (trimmed === "통신판매업 신고 준비 중") return copy.values.mailOrderPending;
+  if (trimmed === "사업자등록번호 준비 중") return copy.values.registrationPending;
+  if (trimmed === "확인 예정") return copy.values.pending;
+  return KOREAN_FOOTER_VALUE_TO_ENGLISH[trimmed] ?? value;
+}
+
 export function SiteFooter({
   tone = "dark",
   className = "",
@@ -696,18 +717,20 @@ export function SiteFooter({
     { href: `/pricing${langQuery}`, label: copy.links.pricing },
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
+  const footerValue = (label: string, value: string) =>
+    localizeFooterValue(locale, copy, displayFooterValue(label, value));
   const firstLine = [
-    { label: copy.labels.legalEntity, value: displayFooterValue(copy.labels.legalEntity, footerContent.companyName) },
-    { label: copy.labels.representative, value: displayFooterValue(copy.labels.representative, footerContent.representative) },
-    { label: copy.labels.businessNumber, value: displayFooterValue(copy.labels.businessNumber, footerContent.businessNumber) },
-    { label: copy.labels.address, value: displayFooterValue(copy.labels.address, footerContent.address) },
+    { label: copy.labels.legalEntity, value: footerValue(copy.labels.legalEntity, footerContent.companyName) },
+    { label: copy.labels.representative, value: footerValue(copy.labels.representative, footerContent.representative) },
+    { label: copy.labels.businessNumber, value: footerValue(copy.labels.businessNumber, footerContent.businessNumber) },
+    { label: copy.labels.address, value: footerValue(copy.labels.address, footerContent.address) },
   ];
   const secondLine = [
-    { label: customerCenterLabel, value: displayFooterValue(customerCenterLabel, footerContent.customerCenter) },
-    { label: copy.labels.email, value: displayFooterValue(copy.labels.email, footerContent.email) },
-    { label: copy.labels.privacyOfficer, value: displayFooterValue(copy.labels.privacyOfficer, footerContent.privacyOfficer) },
-    { label: copy.labels.mailOrderNumber, value: displayFooterValue(copy.labels.mailOrderNumber, footerContent.mailOrderNumber) },
-    { label: copy.labels.hostingProvider, value: displayFooterValue(copy.labels.hostingProvider, footerContent.hostingProvider) },
+    { label: customerCenterLabel, value: footerValue(customerCenterLabel, footerContent.customerCenter) },
+    { label: copy.labels.email, value: footerValue(copy.labels.email, footerContent.email) },
+    { label: copy.labels.privacyOfficer, value: footerValue(copy.labels.privacyOfficer, footerContent.privacyOfficer) },
+    { label: copy.labels.mailOrderNumber, value: footerValue(copy.labels.mailOrderNumber, footerContent.mailOrderNumber) },
+    { label: copy.labels.hostingProvider, value: footerValue(copy.labels.hostingProvider, footerContent.hostingProvider) },
   ];
   const mobileRows = [
     [firstLine[0], firstLine[1]],
