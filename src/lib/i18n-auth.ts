@@ -362,6 +362,117 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "No se puede iniciar sesión porque la clave pública de Supabase no está configurada.",
   },
+  fr: {
+    back: "Retour",
+    home: "Accueil",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Connexion",
+    loginDescription:
+      "Votre compte conserve en toute sécurité vos résultats de prénoms, vos rapports premium et votre historique de commandes d'articles dérivés.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Compte",
+    accountDescription:
+      "Après la connexion, cet écran s'enrichira pour gérer votre historique de prénoms, vos paiements, vos rapports premium et l'état de vos commandes de sceaux.",
+    panelEyebrowLogin: "Connexion par e-mail",
+    panelEyebrowAccount: "Accès au compte",
+    panelTitle: "Connectez-vous en toute sécurité avec un seul lien",
+    panelDescription:
+      "Aucun mot de passe n'est enregistré : vous vous connectez via un lien de vérification envoyé par e-mail. Veuillez consulter les Conditions d'utilisation et la Politique de confidentialité avant utilisation.",
+    emailLabel: "E-mail",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Recevoir le lien de connexion",
+    legalBefore: "En continuant, vous confirmez avoir consulté les ",
+    legalTerms: "Conditions d'utilisation",
+    legalBetween: " et la ",
+    legalPrivacy: "Politique de confidentialité",
+    legalAfter: ".",
+    sentMessage:
+      "Nous avons envoyé un lien de connexion à votre adresse e-mail. Veuillez vérifier votre boîte de réception.",
+    loggedInEyebrow: "Connecté",
+    loggedInDescription:
+      "Les résultats de prénoms et l'historique de commandes sont conservés sous ce compte. Une fois le paiement et l'émission de PDF connectés, vous pourrez les retélécharger depuis cet écran.",
+    logoutButton: "Se déconnecter",
+    loggedOutMessage: "Vous avez été déconnecté.",
+    configWaitTitle: "Configuration de la connexion en attente",
+    configWaitDescription:
+      "La connexion par lien e-mail sera disponible une fois l'URL Supabase et la clé anon configurées dans l'environnement de déploiement.",
+    supabaseMissingError:
+      "La connexion est indisponible car la clé publique Supabase n'est pas configurée.",
+  },
+  it: {
+    back: "Indietro",
+    home: "Home",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Accedi",
+    loginDescription:
+      "Il tuo account conserva in sicurezza i risultati dei nomi, i report premium e la cronologia degli ordini di merchandising.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Account",
+    accountDescription:
+      "Dopo l'accesso, questa schermata verrà ampliata per gestire la cronologia dei nomi, i pagamenti, i report premium e lo stato degli ordini di timbri.",
+    panelEyebrowLogin: "Accesso via email",
+    panelEyebrowAccount: "Accesso all'account",
+    panelTitle: "Accedi in sicurezza con un solo link",
+    panelDescription:
+      "Nessuna password viene salvata: accedi con un link di verifica inviato via email. Prima dell'uso, consulta i Termini di servizio e l'Informativa sulla privacy.",
+    emailLabel: "Email",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Ricevi il link di accesso",
+    legalBefore: "Proseguendo, confermi di aver letto i ",
+    legalTerms: "Termini di servizio",
+    legalBetween: " e l'",
+    legalPrivacy: "Informativa sulla privacy",
+    legalAfter: ".",
+    sentMessage:
+      "Ti abbiamo inviato un link di accesso via email. Controlla la tua casella di posta.",
+    loggedInEyebrow: "Accesso effettuato",
+    loggedInDescription:
+      "I risultati dei nomi e la cronologia degli ordini sono salvati con questo account. Quando il pagamento e l'emissione dei PDF saranno collegati, potrai scaricarli di nuovo da questa schermata.",
+    logoutButton: "Esci",
+    loggedOutMessage: "Sei uscito dall'account.",
+    configWaitTitle: "Configurazione dell'accesso in sospeso",
+    configWaitDescription:
+      "L'accesso tramite link email sarà disponibile quando la Supabase URL e la anon key saranno configurate nell'ambiente di deployment.",
+    supabaseMissingError:
+      "L'accesso non è disponibile perché la chiave pubblica di Supabase non è configurata.",
+  },
+  pt: {
+    back: "Voltar",
+    home: "Início",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Entrar",
+    loginDescription:
+      "Sua conta guarda com segurança os resultados de nomes, os relatórios premium e o histórico de pedidos de produtos personalizados.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Conta",
+    accountDescription:
+      "Depois de entrar, esta tela será ampliada para gerenciar seu histórico de nomes, pagamentos, relatórios premium e o status dos pedidos de carimbos.",
+    panelEyebrowLogin: "Login por e-mail",
+    panelEyebrowAccount: "Acesso à conta",
+    panelTitle: "Entre com segurança com um único link",
+    panelDescription:
+      "Não armazenamos senhas: você entra com um link de verificação enviado por e-mail. Leia os Termos de Serviço e a Política de Privacidade antes de usar.",
+    emailLabel: "E-mail",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Receber link de acesso",
+    legalBefore: "Ao continuar, você confirma que leu os ",
+    legalTerms: "Termos de Serviço",
+    legalBetween: " e a ",
+    legalPrivacy: "Política de Privacidade",
+    legalAfter: ".",
+    sentMessage:
+      "Enviamos um link de acesso para o seu e-mail. Verifique sua caixa de entrada.",
+    loggedInEyebrow: "Conectado",
+    loggedInDescription:
+      "Os resultados de nomes e o histórico de pedidos são salvos nesta conta. Quando o pagamento e a emissão de PDF estiverem conectados, você poderá baixá-los novamente nesta tela.",
+    logoutButton: "Sair",
+    loggedOutMessage: "Você saiu da conta.",
+    configWaitTitle: "Configuração de login pendente",
+    configWaitDescription:
+      "O login por link de e-mail ficará disponível quando a Supabase URL e a anon key forem configuradas no ambiente de implantação.",
+    supabaseMissingError:
+      "O login está indisponível porque a chave pública do Supabase não está configurada.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

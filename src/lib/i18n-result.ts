@@ -308,8 +308,101 @@ const es: ResultCopy = {
   backToInput: "Volver a la pantalla de entrada",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es };
+const fr: ResultCopy = {
+  reanalysisError: "Nous n'avons pas pu terminer la nouvelle analyse de la prononciation.",
+  reanalysisErrorGeneric: "Une erreur s'est produite lors de la nouvelle analyse.",
+  reanalysisEyebrow: "Le résultat sonne différemment de la prononciation réelle ?",
+  reanalysisTitle: "Réanalyser avec une indication de prononciation",
+  reanalysisDescription:
+    "Indiquez plus précisément la prononciation réelle et nous relancerons l'analyse avec le même prénom, la même langue et le même pays.",
+  hintLabel: "Indication de prononciation",
+  hintPlaceholder: "Ex. : se prononce comme Loui-s Mar-tin",
+  reanalysisCountdown: (seconds) => `Nouvelle analyse après la publicité. ${seconds} s`,
+  reanalyzing: "Nouvelle analyse en cours",
+  goodsEyebrow: "Tirez encore plus de votre résultat",
+  goodsSectionTitle: "Articles dérivés avec votre prénom",
+  goodsItemTitle: "Articles dérivés avec votre prénom en hangeul",
+  goodsItemSub: "(casquettes, porte-clés, t-shirts et plus)",
+  goodsItemDescription:
+    "Faites inscrire le prénom en hangeul que vous avez choisi sur des casquettes, porte-clés, t-shirts et plus pour créer vos propres articles dérivés.",
+  goodsButton: "Commande d'articles dérivés bientôt disponible",
+  editInput: "Modifier la saisie",
+  home: "Accueil",
+  headerAdLabel: "Bannière publicitaire en haut du résultat en hangeul",
+  headerCaption: "Résultat de prononciation en hangeul",
+  loading: "Chargement de votre résultat.",
+  analysisDone: "Analyse terminée",
+  resultHeading: "Votre prénom en prononciation hangeul",
+  emptyTitle: "Nous n'avons pas pu charger votre résultat.",
+  emptyDescription:
+    "Ce résultat n'est disponible que dans l'onglet du navigateur où vous avez lancé l'analyse.",
+  backToInput: "Revenir à l'écran de saisie",
+};
+
+const it: ResultCopy = {
+  reanalysisError: "Non siamo riusciti a completare la nuova analisi della pronuncia.",
+  reanalysisErrorGeneric: "Si è verificato un errore durante la nuova analisi.",
+  reanalysisEyebrow: "Suona diverso dalla pronuncia reale?",
+  reanalysisTitle: "Analizza di nuovo con un suggerimento di pronuncia",
+  reanalysisDescription:
+    "Inserisci la pronuncia reale in modo più preciso e analizzeremo di nuovo con lo stesso nome, la stessa lingua e lo stesso paese.",
+  hintLabel: "Suggerimento di pronuncia",
+  hintPlaceholder: "Es.: si pronuncia come Mar-co Ros-si",
+  reanalysisCountdown: (seconds) => `Nuova analisi dopo l'annuncio. ${seconds} s`,
+  reanalyzing: "Nuova analisi in corso",
+  goodsEyebrow: "Sfrutta al massimo il tuo risultato",
+  goodsSectionTitle: "Merchandising con il tuo nome",
+  goodsItemTitle: "Merchandising con il tuo nome in hangul",
+  goodsItemSub: "(cappellini, portachiavi, t-shirt e altro)",
+  goodsItemDescription:
+    "Stampa il nome in hangul che hai scelto su cappellini, portachiavi, t-shirt e altro per creare i tuoi articoli di merchandising.",
+  goodsButton: "Ordini di merchandising in arrivo",
+  editInput: "Modifica i dati",
+  home: "Home",
+  headerAdLabel: "Banner pubblicitario in alto del risultato in hangul",
+  headerCaption: "Risultato della pronuncia in hangul",
+  loading: "Caricamento del tuo risultato.",
+  analysisDone: "Analisi completata",
+  resultHeading: "Il tuo nome in pronuncia hangul",
+  emptyTitle: "Non siamo riusciti a caricare il tuo risultato.",
+  emptyDescription:
+    "Questo risultato è disponibile solo nella scheda del browser in cui hai eseguito l'analisi.",
+  backToInput: "Torna alla schermata di inserimento",
+};
+
+const pt: ResultCopy = {
+  reanalysisError: "Não foi possível concluir a nova análise da pronúncia.",
+  reanalysisErrorGeneric: "Ocorreu um erro ao analisar novamente.",
+  reanalysisEyebrow: "Soa diferente da pronúncia real?",
+  reanalysisTitle: "Analisar novamente com uma dica de pronúncia",
+  reanalysisDescription:
+    "Informe a pronúncia real com mais detalhes e analisaremos novamente com o mesmo nome, idioma e país.",
+  hintLabel: "Dica de pronúncia",
+  hintPlaceholder: "Ex.: soa como A-na Sil-va",
+  reanalysisCountdown: (seconds) => `Analisaremos novamente após o anúncio. ${seconds} s`,
+  reanalyzing: "Analisando novamente",
+  goodsEyebrow: "Aproveite ainda mais o seu resultado",
+  goodsSectionTitle: "Produtos personalizados com seu nome",
+  goodsItemTitle: "Produtos personalizados com seu nome em hangul",
+  goodsItemSub: "(bonés, chaveiros, camisetas e mais)",
+  goodsItemDescription:
+    "Estampe o nome em hangul que você escolheu em bonés, chaveiros, camisetas e mais para criar seus próprios produtos personalizados.",
+  goodsButton: "Pedidos de produtos personalizados em breve",
+  editInput: "Editar dados",
+  home: "Início",
+  headerAdLabel: "Anúncio de banner no topo do resultado em hangul",
+  headerCaption: "Resultado de pronúncia em hangul",
+  loading: "Carregando seu resultado.",
+  analysisDone: "Análise concluída",
+  resultHeading: "Seu nome na pronúncia em hangul",
+  emptyTitle: "Não foi possível carregar seu resultado.",
+  emptyDescription:
+    "Este resultado só está disponível na aba do navegador em que você executou a análise.",
+  backToInput: "Voltar à tela de entrada",
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

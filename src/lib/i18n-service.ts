@@ -953,8 +953,353 @@ const es: ServiceCopyOverride = {
   },
 };
 
-// ko(원본)/en/vi/th/ja/zh/id/de/es를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh, id, de, es };
+const fr: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Transformez votre prénom en prénom coréen",
+        eyebrow: "Un prénom coréen pour vivre et travailler en Corée",
+        description:
+          "Indiquez-nous votre prénom d'origine, votre pays, vos informations de naissance et l'usage prévu du prénom en Corée : nous vous proposerons des prénoms coréens naturels et faciles à expliquer.",
+        promise:
+          "Nous recommandons des prénoms faciles à appeler et à écrire, dont vous pouvez vérifier le sens et la prononciation.",
+        resultLabel: "Prénoms coréens recommandés",
+      },
+      sectionTitles: {
+        "기본 정보": "Informations de base",
+        "출생 정보": "Informations de naissance",
+        "한국 사용 맥락": "Contexte d'utilisation en Corée",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Choisissez les informations de base nécessaires pour vous proposer un prénom coréen.",
+        "출생 정보": "Sélectionnez chaque élément pour une comparaison et une analyse précises.",
+        "한국 사용 맥락": "Choisissez le style de prénom souhaité et l'usage que vous en ferez en Corée.",
+      },
+      fieldLabels: {
+        originalName: "Prénom d'origine",
+        country: "Pays",
+        nameMotivation: "Finalité de votre prénom coréen",
+        gender: "Genre / image",
+        birthYear: "Année de naissance",
+        birthMonth: "Mois de naissance",
+        birthDay: "Jour de naissance",
+        birthHour: "Heure de naissance",
+        koreanFamilyName: "Nom de famille coréen souhaité",
+        koreanTone: "Style du prénom",
+        usageContext: "Contexte d'utilisation",
+        outputLanguage: "Langue du résultat",
+      },
+      fieldPlaceholders: {
+        originalName: "Ex. : Louis Martin",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Écrivez votre prénom en hangeul, selon sa vraie prononciation",
+        eyebrow: "Votre prénom en hangeul",
+        description:
+          "Nous analysons la prononciation de votre prénom et proposons une graphie naturelle en hangeul.",
+        promise:
+          "Nous privilégions les sons et syllabes propres à votre prénom, en suivant les règles de prononciation du coréen.",
+        resultLabel: "Graphies en hangeul recommandées",
+      },
+      sectionTitles: {
+        "본명 정보": "Informations sur le prénom d'origine",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Choisissez la langue et le pays utilisés pour écrire et prononcer votre prénom.",
+      },
+      fieldLabels: {
+        originalName: "Prénom d'origine",
+        originalNameLanguage: "Langue d'origine de votre prénom",
+        country: "Pays",
+        pronunciationHint: "Indication de prononciation (facultatif)",
+      },
+      fieldHints: {
+        originalName: "※ Saisissez votre nom complet dans votre langue locale.",
+        originalNameLanguage: "※ Choisissez la langue utilisée pour prononcer votre prénom.",
+        country:
+          "※ Cela permet de refléter les différences de prononciation selon le pays.\nChanger de pays peut modifier le résultat.",
+        pronunciationHint:
+          "※ Indiquez la coupure des syllabes et des indications de prononciation.\nVotre indication est appliquée en priorité absolue.",
+      },
+      fieldPlaceholders: {
+        originalName: "Ex. : Louis Martin",
+        pronunciationHint: "Ex. : se prononce comme Loui-s Mar-tin",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Recommandez pour moi",
+    natural_modern: "Naturel et moderne",
+    traditional: "Traditionnel",
+    business_friendly: "Adapté au monde professionnel",
+    soft: "Doux et chaleureux",
+    distinctive: "Original",
+    korean_workplace: "Travail en Corée",
+    school: "École / échange",
+    creator: "Créateur / profil public",
+    daily: "Vie quotidienne",
+    auto: "Selon la langue de mon navigateur",
+    not_specified: "Non précisé",
+    female: "Féminin",
+    male: "Masculin",
+    neutral: "Neutre / indifférent",
+    auto_by_country: "Sélection automatique selon le pays",
+    korean_education: "Étude du coréen, travail ou échange",
+    k_culture: "Culture K, réseaux sociaux, pseudonyme",
+    business: "Affaires, cartes de visite, travail international",
+    daily_social: "Amis, école, vie quotidienne",
+    family_pet: "Prénom pour un enfant, la famille ou un animal",
+    creator_brand: "Créateur, marque, profil public",
+    unknown: "Inconnue",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+const it: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Trasforma il tuo nome in un nome coreano",
+        eyebrow: "Un nome coreano per vivere e lavorare in Corea",
+        description:
+          "Raccontaci il tuo nome originale, il paese, i dati di nascita e come userai il nome in Corea: ti suggeriremo nomi coreani naturali e facili da spiegare.",
+        promise:
+          "Raccomandiamo nomi facili da chiamare e da scrivere, con significato e pronuncia verificabili.",
+        resultLabel: "Nomi coreani consigliati",
+      },
+      sectionTitles: {
+        "기본 정보": "Informazioni di base",
+        "출생 정보": "Dati di nascita",
+        "한국 사용 맥락": "Contesto d'uso in Corea",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Scegli i dati di base necessari per suggerirti un nome coreano.",
+        "출생 정보": "Seleziona ogni voce per un confronto e un'analisi accurati.",
+        "한국 사용 맥락": "Scegli lo stile di nome desiderato e come userai il nome in Corea.",
+      },
+      fieldLabels: {
+        originalName: "Nome originale",
+        country: "Paese",
+        nameMotivation: "Scopo del tuo nome coreano",
+        gender: "Genere / immagine",
+        birthYear: "Anno di nascita",
+        birthMonth: "Mese di nascita",
+        birthDay: "Giorno di nascita",
+        birthHour: "Ora di nascita",
+        koreanFamilyName: "Cognome coreano preferito",
+        koreanTone: "Stile del nome",
+        usageContext: "Contesto d'uso",
+        outputLanguage: "Lingua del risultato",
+      },
+      fieldPlaceholders: {
+        originalName: "Es.: Marco Rossi",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Scrivi il tuo nome in hangul, secondo la sua pronuncia reale",
+        eyebrow: "Il tuo nome in hangul",
+        description:
+          "Analizziamo come si pronuncia il tuo nome e suggeriamo una grafia naturale in hangul.",
+        promise:
+          "Diamo priorità ai suoni e alle sillabe propri del tuo nome, seguendo le regole di pronuncia del coreano.",
+        resultLabel: "Grafie in hangul consigliate",
+      },
+      sectionTitles: {
+        "본명 정보": "Informazioni sul nome originale",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Scegli la lingua e il paese usati per scrivere e pronunciare il tuo nome.",
+      },
+      fieldLabels: {
+        originalName: "Nome originale",
+        originalNameLanguage: "Lingua di origine del tuo nome",
+        country: "Paese",
+        pronunciationHint: "Suggerimento di pronuncia (facoltativo)",
+      },
+      fieldHints: {
+        originalName: "※ Inserisci il tuo nome completo nella tua lingua locale.",
+        originalNameLanguage: "※ Scegli la lingua con cui si pronuncia il tuo nome.",
+        country:
+          "※ Serve a riflettere le differenze di pronuncia tra i paesi.\nCambiare paese può cambiare il risultato.",
+        pronunciationHint:
+          "※ Indica la divisione in sillabe e i suggerimenti di pronuncia.\nIl tuo suggerimento viene applicato con la massima priorità.",
+      },
+      fieldPlaceholders: {
+        originalName: "Es.: Marco Rossi",
+        pronunciationHint: "Es.: si pronuncia come Mar-co Ros-si",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Consigliamelo tu",
+    natural_modern: "Naturale e moderno",
+    traditional: "Tradizionale",
+    business_friendly: "Adatto al lavoro",
+    soft: "Morbido e caldo",
+    distinctive: "Distintivo",
+    korean_workplace: "Lavoro in Corea",
+    school: "Scuola / scambio",
+    creator: "Creator / profilo pubblico",
+    daily: "Vita quotidiana",
+    auto: "In base alla lingua del browser",
+    not_specified: "Non specificato",
+    female: "Femminile",
+    male: "Maschile",
+    neutral: "Neutro / indifferente",
+    auto_by_country: "Selezione automatica in base al paese",
+    korean_education: "Studio del coreano, lavoro o scambio",
+    k_culture: "Cultura K, social media, alias",
+    business: "Affari, biglietti da visita, lavoro internazionale",
+    daily_social: "Amici, scuola, vita quotidiana",
+    family_pet: "Nome per figli, famiglia o animali",
+    creator_brand: "Creator, brand, profilo pubblico",
+    unknown: "Sconosciuta",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+const pt: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Transforme seu nome em um nome coreano",
+        eyebrow: "Um nome coreano para viver e trabalhar na Coreia",
+        description:
+          "Conte-nos seu nome original, país, dados de nascimento e como você usará o nome na Coreia — vamos sugerir nomes coreanos naturais e fáceis de explicar.",
+        promise:
+          "Recomendamos nomes fáceis de chamar e de escrever, com significado e pronúncia que você pode verificar.",
+        resultLabel: "Nomes coreanos recomendados",
+      },
+      sectionTitles: {
+        "기본 정보": "Informações básicas",
+        "출생 정보": "Dados de nascimento",
+        "한국 사용 맥락": "Contexto de uso na Coreia",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Escolha os dados básicos de que precisamos para sugerir um nome coreano.",
+        "출생 정보": "Selecione cada item para uma comparação e uma análise precisas.",
+        "한국 사용 맥락": "Escolha o estilo de nome desejado e como você usará o nome na Coreia.",
+      },
+      fieldLabels: {
+        originalName: "Nome original",
+        country: "País",
+        nameMotivation: "Finalidade do seu nome coreano",
+        gender: "Gênero / imagem",
+        birthYear: "Ano de nascimento",
+        birthMonth: "Mês de nascimento",
+        birthDay: "Dia de nascimento",
+        birthHour: "Hora de nascimento",
+        koreanFamilyName: "Sobrenome coreano preferido",
+        koreanTone: "Estilo do nome",
+        usageContext: "Contexto de uso",
+        outputLanguage: "Idioma do resultado",
+      },
+      fieldPlaceholders: {
+        originalName: "Ex.: Ana Silva",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Escreva seu nome em hangul, conforme a pronúncia real",
+        eyebrow: "Seu nome em hangul",
+        description:
+          "Analisamos como seu nome é pronunciado e sugerimos uma grafia natural em hangul.",
+        promise:
+          "Priorizamos os sons e as sílabas do seu próprio nome, seguindo as regras de pronúncia do coreano.",
+        resultLabel: "Grafias em hangul recomendadas",
+      },
+      sectionTitles: {
+        "본명 정보": "Informações do nome original",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Escolha o idioma e o país usados para escrever e pronunciar seu nome.",
+      },
+      fieldLabels: {
+        originalName: "Nome original",
+        originalNameLanguage: "Idioma de origem do seu nome",
+        country: "País",
+        pronunciationHint: "Dica de pronúncia (opcional)",
+      },
+      fieldHints: {
+        originalName: "※ Digite seu nome completo no seu idioma local.",
+        originalNameLanguage: "※ Escolha o idioma usado para pronunciar seu nome.",
+        country:
+          "※ Isso ajuda a refletir as diferenças de pronúncia entre países.\nMudar o país pode mudar o resultado.",
+        pronunciationHint:
+          "※ Informe a separação de sílabas e dicas de pronúncia.\nSua dica é aplicada com prioridade máxima.",
+      },
+      fieldPlaceholders: {
+        originalName: "Ex.: Ana Silva",
+        pronunciationHint: "Ex.: soa como A-na Sil-va",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Recomende para mim",
+    natural_modern: "Natural e moderno",
+    traditional: "Tradicional",
+    business_friendly: "Adequado para negócios",
+    soft: "Suave e acolhedor",
+    distinctive: "Marcante",
+    korean_workplace: "Trabalho na Coreia",
+    school: "Escola / intercâmbio",
+    creator: "Criador / perfil público",
+    daily: "Dia a dia",
+    auto: "Conforme o idioma do meu navegador",
+    not_specified: "Não especificado",
+    female: "Feminino",
+    male: "Masculino",
+    neutral: "Neutro / qualquer um",
+    auto_by_country: "Seleção automática por país",
+    korean_education: "Estudo de coreano, trabalho ou intercâmbio",
+    k_culture: "Cultura K, redes sociais, apelido",
+    business: "Negócios, cartões de visita, trabalho global",
+    daily_social: "Amigos, escola, dia a dia",
+    family_pet: "Nome para filhos, família ou pets",
+    creator_brand: "Criador, marca, perfil público",
+    unknown: "Não sei",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+// ko(원본)/en/vi/th/ja/zh/id/de/es/fr/it/pt를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh, id, de, es, fr, it, pt };
 
 // 한국어는 원본 설정(services.ts)을 그대로 쓰므로 null을 반환한다.
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {

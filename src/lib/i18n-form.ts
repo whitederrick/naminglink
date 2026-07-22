@@ -452,8 +452,150 @@ const es: FormCopy = {
   ],
 };
 
-// ko/en/vi/th/ja/zh/id/de/es를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es };
+const fr: FormCopy = {
+  errorCheckInput: "Veuillez vérifier le format des informations saisies pour une analyse précise.",
+  errorConsent:
+    "Vous devez accepter les Conditions d'utilisation et la Politique de confidentialité pour commencer.",
+  errorLoginToSave: "Veuillez vous reconnecter pour enregistrer votre résultat d'analyse.",
+  errorRequestFailed: "Nous n'avons pas pu traiter votre demande de prénom.",
+  errorGeneric: "Une erreur s'est produite.",
+  consentTitle: "Consentement obligatoire",
+  consentIntro:
+    "Les informations saisies, telles que le prénom, la date de naissance et le pays, servent à générer le résultat,",
+  consentIntroSaved:
+    " et seuls les membres ayant choisi l'enregistrement voient leurs saisies et résultats conservés.",
+  termsLink: "Conditions d'utilisation",
+  privacyLink: "Politique de confidentialité",
+  agreeToTermsSuffix: " — j'accepte.",
+  agreeToPrivacySuffix: " — j'accepte.",
+  saveResultLabel: "Enregistrer le résultat dans mon compte (facultatif)",
+  saveResultHint:
+    "Nous ne conservons vos saisies et résultats que si vous choisissez de les enregistrer.",
+  guestNoSavePrefix:
+    "Les résultats des visiteurs ne sont pas conservés. Pour garder votre résultat, ",
+  loginLink: "connectez-vous",
+  guestNoSaveSuffix: " puis choisissez l'enregistrement.",
+  adConsentLabel: "Publicité de la zone de consentement obligatoire",
+  submitTransliteration: "Lancer l'analyse de la prononciation en hangeul",
+  submitDefault: "Regarder la publicité et lancer l'analyse",
+  adRevealNote: (seconds) => `Le résultat sera dévoilé après la publicité. ${seconds} s`,
+  analysisDone: "Analyse terminée",
+  editInput: "Modifier la saisie",
+  previewNote:
+    "Nous avons d'abord dévoilé le meilleur candidat. Vous pouvez débloquer d'autres candidats un par un en regardant une publicité ou via un paiement.",
+  adDialogLabel: "Regarder la publicité récompensée et lancer l'analyse du prénom",
+  loadingEyebrow: "Analyse de votre prénom en cours",
+  loadingTitle: "Nous comparons les prénoms adaptés à votre contexte",
+  loadingCountdown: (seconds) => `Publicité en cours et analyse · ${seconds} s`,
+  loadingDone: "Publicité terminée · préparation de votre résultat",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Langue par défaut : ${languageName} · Exemple de prénom local : ${localNameHint}`,
+  transliterationStepsTitle: "Comment votre prénom devient du hangeul",
+  transliterationSteps: [
+    ["Confirmer votre prénom", "Nous confirmons l'orthographe et les syllabes d'origine que vous avez saisies."],
+    ["Analyser la langue et la région", "Votre langue d'origine est prioritaire, avec les différences de prononciation propres à chaque pays."],
+    ["Appliquer votre indication de prononciation", "Toute indication que vous saisissez prévaut sur les règles générales de prononciation."],
+    ["Structurer la prononciation", "Nous décomposons la prononciation réelle en syllabes et en notation phonétique."],
+    ["Proposer des graphies en hangeul", "Nous conservons votre prononciation d'origine et proposons un hangeul naturel."],
+  ],
+};
+
+const it: FormCopy = {
+  errorCheckInput: "Controlla il formato dei dati inseriti per un'analisi accurata.",
+  errorConsent:
+    "Devi accettare i Termini di servizio e l'Informativa sulla privacy per iniziare.",
+  errorLoginToSave: "Accedi di nuovo per salvare il risultato dell'analisi.",
+  errorRequestFailed: "Non siamo riusciti a elaborare la tua richiesta di nome.",
+  errorGeneric: "Si è verificato un errore.",
+  consentTitle: "Consenso obbligatorio",
+  consentIntro:
+    "I dati inseriti, come nome, data di nascita e paese, vengono usati per generare il risultato,",
+  consentIntroSaved:
+    " e solo i membri che scelgono di salvare vedono conservati i propri dati e risultati.",
+  termsLink: "Termini di servizio",
+  privacyLink: "Informativa sulla privacy",
+  agreeToTermsSuffix: " — accetto.",
+  agreeToPrivacySuffix: " — accetto.",
+  saveResultLabel: "Salva il risultato nel mio account (facoltativo)",
+  saveResultHint: "Conserviamo i tuoi dati e risultati solo se scegli di salvarli.",
+  guestNoSavePrefix:
+    "I risultati degli ospiti non vengono salvati. Se vuoi conservare il tuo risultato, ",
+  loginLink: "accedi",
+  guestNoSaveSuffix: " e poi scegli di salvare.",
+  adConsentLabel: "Annuncio dell'area del consenso obbligatorio",
+  submitTransliteration: "Avvia l'analisi della pronuncia in hangul",
+  submitDefault: "Guarda l'annuncio e avvia l'analisi",
+  adRevealNote: (seconds) => `Il risultato verrà mostrato dopo l'annuncio. ${seconds} s`,
+  analysisDone: "Analisi completata",
+  editInput: "Modifica i dati",
+  previewNote:
+    "Abbiamo mostrato prima il candidato migliore. Puoi sbloccare altri candidati uno alla volta guardando un annuncio o tramite pagamento.",
+  adDialogLabel: "Guarda l'annuncio con ricompensa ed esegui l'analisi del nome",
+  loadingEyebrow: "Analisi del tuo nome in corso",
+  loadingTitle: "Stiamo confrontando i nomi adatti al tuo contesto",
+  loadingCountdown: (seconds) => `Annuncio in corso e analisi · ${seconds} s`,
+  loadingDone: "Annuncio completato · stiamo preparando il tuo risultato",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Lingua predefinita: ${languageName} · Esempio di nome locale: ${localNameHint}`,
+  transliterationStepsTitle: "Come il tuo nome diventa hangul",
+  transliterationSteps: [
+    ["Conferma il tuo nome", "Confermiamo l'ortografia e le sillabe originali che hai inserito."],
+    ["Analizza lingua e regione", "La tua lingua di origine ha la priorità, con le differenze di pronuncia di ciascun paese."],
+    ["Applica il tuo suggerimento di pronuncia", "Qualsiasi suggerimento inserito prevale sulle regole generali di pronuncia."],
+    ["Struttura la pronuncia", "Scomponiamo la pronuncia reale in sillabe e notazione fonetica."],
+    ["Suggerisci le grafie in hangul", "Manteniamo la tua pronuncia originale e suggeriamo un hangul naturale."],
+  ],
+};
+
+const pt: FormCopy = {
+  errorCheckInput: "Verifique o formato dos dados inseridos para uma análise precisa.",
+  errorConsent:
+    "Você precisa aceitar os Termos de Serviço e a Política de Privacidade para começar.",
+  errorLoginToSave: "Entre novamente para salvar o resultado da análise.",
+  errorRequestFailed: "Não foi possível processar sua solicitação de nome.",
+  errorGeneric: "Ocorreu um erro.",
+  consentTitle: "Consentimento obrigatório",
+  consentIntro:
+    "Os dados inseridos, como nome, data de nascimento e país, são usados para gerar o resultado,",
+  consentIntroSaved:
+    " e somente os membros que optam por salvar têm seus dados e resultados armazenados.",
+  termsLink: "Termos de Serviço",
+  privacyLink: "Política de Privacidade",
+  agreeToTermsSuffix: " — eu aceito.",
+  agreeToPrivacySuffix: " — eu aceito.",
+  saveResultLabel: "Salvar o resultado na minha conta (opcional)",
+  saveResultHint: "Só armazenamos seus dados e resultados se você optar por salvar.",
+  guestNoSavePrefix:
+    "Resultados de visitantes não são armazenados. Se quiser guardar seu resultado, ",
+  loginLink: "entre",
+  guestNoSaveSuffix: " e depois escolha salvar.",
+  adConsentLabel: "Anúncio da área de consentimento obrigatório",
+  submitTransliteration: "Iniciar a análise de pronúncia em hangul",
+  submitDefault: "Assistir ao anúncio e iniciar a análise",
+  adRevealNote: (seconds) => `O resultado será revelado após o anúncio. ${seconds} s`,
+  analysisDone: "Análise concluída",
+  editInput: "Editar dados",
+  previewNote:
+    "Revelamos primeiro o melhor candidato. Você pode desbloquear mais candidatos um a um assistindo a um anúncio ou por pagamento.",
+  adDialogLabel: "Assistir ao anúncio com recompensa e executar a análise do nome",
+  loadingEyebrow: "Analisando seu nome",
+  loadingTitle: "Comparando nomes que combinam com o seu contexto",
+  loadingCountdown: (seconds) => `Assistindo ao anúncio e analisando · ${seconds} s`,
+  loadingDone: "Anúncio concluído · preparando seu resultado",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Idioma padrão: ${languageName} · Exemplo de nome local: ${localNameHint}`,
+  transliterationStepsTitle: "Como seu nome vira hangul",
+  transliterationSteps: [
+    ["Confirmar seu nome", "Confirmamos a grafia e as sílabas originais que você inseriu."],
+    ["Analisar idioma e região", "Seu idioma de origem tem prioridade, com as diferenças de pronúncia de cada país."],
+    ["Aplicar sua dica de pronúncia", "Qualquer dica inserida prevalece sobre as regras gerais de pronúncia."],
+    ["Estruturar a pronúncia", "Decompomos a pronúncia real em sílabas e notação fonética."],
+    ["Sugerir grafias em hangul", "Mantemos sua pronúncia original e sugerimos um hangul natural."],
+  ],
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

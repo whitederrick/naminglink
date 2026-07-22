@@ -59,6 +59,24 @@ const generalStepsByLocale: Record<string, string[]> = {
     "Componiendo la historia de cada candidato y los motivos de exclusión.",
     "Revisando el resultado y preparándolo para mostrarlo.",
   ],
+  fr: [
+    "Organisation du sens et des conditions de vos informations.",
+    "Comparaison de la prononciation, de la culture et des données de référence.",
+    "Composition de l'histoire de chaque candidat et des motifs d'exclusion.",
+    "Vérification du résultat et préparation de l'affichage.",
+  ],
+  it: [
+    "Stiamo organizzando il significato e le condizioni dei tuoi dati.",
+    "Stiamo confrontando pronuncia, cultura e informazioni di riferimento.",
+    "Stiamo componendo la storia di ogni candidato e i motivi di esclusione.",
+    "Stiamo controllando il risultato e preparandolo per la visualizzazione.",
+  ],
+  pt: [
+    "Organizando o significado e as condições dos seus dados.",
+    "Comparando pronúncia, cultura e informações de referência.",
+    "Compondo a história de cada candidato e os motivos de exclusão.",
+    "Revisando o resultado e preparando a exibição.",
+  ],
 };
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.
