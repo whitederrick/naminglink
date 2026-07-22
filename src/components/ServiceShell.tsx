@@ -106,6 +106,24 @@ const shellCopies: Record<
       "กรอกข้อมูลด้านล่างแล้วเราจะแนะนำชื่อเกาหลีที่เป็นธรรมชาติและอธิบายที่มาได้",
     headerAdLabel: "โฆษณาแบนเนอร์ด้านบนของหน้าบริการ",
   },
+  ja: {
+    promiseLabel: "サービスの約束",
+    defaultLanguage: "基本言語",
+    g2kPromise:
+      "呼びやすく書きやすい名前を、意味と発音を確認できる形でご提案します。",
+    g2kIntro:
+      "以下のさまざまな条件を入力すると、自然で由来を説明できる韓国の名前をご提案します。",
+    headerAdLabel: "サービス上部バナー広告",
+  },
+  zh: {
+    promiseLabel: "服务承诺",
+    defaultLanguage: "默认语言",
+    g2kPromise:
+      "我们推荐好叫又好写的名字，含义和发音都可以核实。",
+    g2kIntro:
+      "填写下面的各项信息，我们将为您推荐自然、可解释的韩国名字。",
+    headerAdLabel: "服务页顶部横幅广告",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",

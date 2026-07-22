@@ -221,8 +221,96 @@ const th: FormCopy = {
   ],
 };
 
-// ko/en/vi/th를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th };
+const ja: FormCopy = {
+  errorCheckInput: "正確な分析のため、入力形式をご確認ください。",
+  errorConsent: "利用規約とプライバシーポリシーに同意すると分析を開始できます。",
+  errorLoginToSave: "分析結果を保存するには、もう一度ログインしてください。",
+  errorRequestFailed: "ネーミングのリクエストを処理できませんでした。",
+  errorGeneric: "エラーが発生しました。",
+  consentTitle: "必須の同意",
+  consentIntro:
+    "お名前、生年月日、国などの入力内容は分析結果の生成に使用され、",
+  consentIntroSaved: "保存を選択した会員の入力内容と結果のみが保存されます。",
+  termsLink: "利用規約",
+  privacyLink: "プライバシーポリシー",
+  agreeToTermsSuffix: "に同意します。",
+  agreeToPrivacySuffix: "に同意します。",
+  saveResultLabel: "分析結果を自分のアカウントに保存（任意）",
+  saveResultHint: "選択した場合にのみ、入力内容と分析結果を保存します。",
+  guestNoSavePrefix: "非会員の分析結果は保存されません。結果を保管したい場合は、",
+  loginLink: "ログイン",
+  guestNoSaveSuffix: "してから保存を選択してください。",
+  adConsentLabel: "必須同意エリアの広告",
+  submitTransliteration: "ハングル発音分析を開始",
+  submitDefault: "広告の確認後に分析を開始",
+  adRevealNote: (seconds) => `広告の確認後に結果を公開します。${seconds}秒`,
+  analysisDone: "分析完了",
+  editInput: "入力を修正",
+  previewNote:
+    "最も適した候補1件を先に公開しました。追加の候補は、広告の視聴または今後の決済で1件ずつ開くことができます。",
+  adDialogLabel: "リワード広告を確認して名前分析を実行",
+  loadingEyebrow: "名前を分析中",
+  loadingTitle: "ご利用の環境に合う名前を比較しています",
+  loadingCountdown: (seconds) => `広告の確認と分析を進行中 · ${seconds}秒`,
+  loadingDone: "広告の確認完了 · 分析結果を準備しています",
+  countryHint: ({ languageName, localNameHint }) =>
+    `基本言語: ${languageName} · 現地の名前の例: ${localNameHint}`,
+  transliterationStepsTitle: "お名前がハングルになるまでのステップ",
+  transliterationSteps: [
+    ["本名の確認", "入力された元のつづりと音節を確認します。"],
+    ["言語・地域の発音分析", "表記言語を優先し、国ごとの発音の違いを反映します。"],
+    ["発音ヒントを最優先で反映", "入力された発音ヒントは、一般的な発音規則より優先されます。"],
+    ["発音の構造化", "実際の発音を音節と発音記号に分析します。"],
+    ["ハングル表記の提案", "元の発音を保ちながら、自然なハングルでご提案します。"],
+  ],
+};
+
+const zh: FormCopy = {
+  errorCheckInput: "为确保分析准确，请检查输入格式。",
+  errorConsent: "您需要同意服务条款和个人信息处理方针后才能开始分析。",
+  errorLoginToSave: "如需保存分析结果，请重新登录。",
+  errorRequestFailed: "无法处理您的起名请求。",
+  errorGeneric: "发生了错误。",
+  consentTitle: "必要同意事项",
+  consentIntro:
+    "您输入的姓名、出生日期、国家等信息将用于生成分析结果，",
+  consentIntroSaved: "并且只有选择保存的会员的输入内容和结果才会被保存。",
+  termsLink: "服务条款",
+  privacyLink: "个人信息处理方针",
+  agreeToTermsSuffix: "——我同意。",
+  agreeToPrivacySuffix: "——我同意。",
+  saveResultLabel: "将分析结果保存到我的账户（可选）",
+  saveResultHint: "只有在您选择保存时，我们才会保存输入内容和分析结果。",
+  guestNoSavePrefix: "非会员的分析结果不会被保存。如需保留结果，请先",
+  loginLink: "登录",
+  guestNoSaveSuffix: "，然后选择保存。",
+  adConsentLabel: "必要同意区域广告",
+  submitTransliteration: "开始韩文发音分析",
+  submitDefault: "观看广告后开始分析",
+  adRevealNote: (seconds) => `观看广告后即可查看结果。${seconds} 秒`,
+  analysisDone: "分析完成",
+  editInput: "修改输入",
+  previewNote:
+    "我们已先公开最合适的 1 个候选名字。您可以通过观看广告或今后的付费方式逐个解锁更多候选名字。",
+  adDialogLabel: "观看奖励广告并进行名字分析",
+  loadingEyebrow: "正在分析名字",
+  loadingTitle: "正在比较适合您使用场景的名字",
+  loadingCountdown: (seconds) => `正在观看广告并进行分析 · ${seconds} 秒`,
+  loadingDone: "广告观看完成 · 正在准备分析结果",
+  countryHint: ({ languageName, localNameHint }) =>
+    `默认语言：${languageName} · 当地名字示例：${localNameHint}`,
+  transliterationStepsTitle: "您的名字变成韩文的步骤",
+  transliterationSteps: [
+    ["确认原名", "确认您输入的原始拼写和音节。"],
+    ["按语言与地区分析发音", "优先考虑源语言，并反映各国的发音差异。"],
+    ["优先采用发音提示", "您输入的发音提示优先于一般发音规则。"],
+    ["构建发音结构", "将实际发音解析为音节和音标。"],
+    ["建议韩文写法", "保留原有发音，并给出自然的韩文写法。"],
+  ],
+};
+
+// ko/en/vi/th/ja/zh를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

@@ -178,6 +178,79 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "ไม่สามารถเข้าสู่ระบบได้เนื่องจากยังไม่ได้ตั้งค่าคีย์สาธารณะของ Supabase",
   },
+  ja: {
+    back: "前の画面に戻る",
+    home: "ホーム",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "ログイン",
+    loginDescription:
+      "ネーミング結果、プレミアムレポート、グッズの注文履歴を安全に管理するためのアカウントです。",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "アカウント",
+    accountDescription:
+      "ログイン後、この画面でネーミング履歴、決済履歴、プレミアムレポート、はんこの注文状況を管理できるように拡張していきます。",
+    panelEyebrowLogin: "メールログイン",
+    panelEyebrowAccount: "アカウントアクセス",
+    panelTitle: "リンク1つで安全にログイン",
+    panelDescription:
+      "パスワードを保存せず、メール認証リンクでログインします。ご利用前に利用規約とプライバシーポリシーをご確認ください。",
+    emailLabel: "メールアドレス",
+    emailPlaceholder: "name@example.com",
+    submitButton: "ログインリンクを受け取る",
+    legalBefore: "続行すると、",
+    legalTerms: "利用規約",
+    legalBetween: "と",
+    legalPrivacy: "プライバシーポリシー",
+    legalAfter: "を確認したものとみなされます。",
+    sentMessage:
+      "ログインリンクをメールでお送りしました。受信トレイをご確認ください。",
+    loggedInEyebrow: "ログイン済み",
+    loggedInDescription:
+      "ネーミング結果と注文履歴はこのアカウントを基準に保存されます。決済とPDF発行機能が連携されると、この画面から再ダウンロードできるようになります。",
+    logoutButton: "ログアウト",
+    loggedOutMessage: "ログアウトしました。",
+    configWaitTitle: "ログイン設定の準備中",
+    configWaitDescription:
+      "Supabase URLとAnon Keyがデプロイ環境に設定されると、メールリンクによるログインを利用できます。",
+    supabaseMissingError:
+      "Supabaseの公開キーが設定されていないため、ログインを利用できません。",
+  },
+  zh: {
+    back: "返回上一页",
+    home: "首页",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "登录",
+    loginDescription:
+      "账户用于安全管理您的起名结果、高级报告和周边商品订单记录。",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "账户",
+    accountDescription:
+      "登录后，此页面将逐步扩展，可管理您的起名记录、支付记录、高级报告以及印章订单状态。",
+    panelEyebrowLogin: "邮箱登录",
+    panelEyebrowAccount: "账户访问",
+    panelTitle: "一条链接，安全登录",
+    panelDescription:
+      "我们不保存密码——您通过发送到邮箱的验证链接登录。使用前请查看服务条款和个人信息处理方针。",
+    emailLabel: "电子邮箱",
+    emailPlaceholder: "name@example.com",
+    submitButton: "获取登录链接",
+    legalBefore: "继续操作即视为您已确认",
+    legalTerms: "服务条款",
+    legalBetween: "和",
+    legalPrivacy: "个人信息处理方针",
+    legalAfter: "。",
+    sentMessage: "登录链接已发送到您的邮箱，请查收。",
+    loggedInEyebrow: "已登录",
+    loggedInDescription:
+      "起名结果和订单记录将保存在此账户下。支付与 PDF 发放功能接入后，您可以在此页面重新下载。",
+    logoutButton: "退出登录",
+    loggedOutMessage: "您已退出登录。",
+    configWaitTitle: "等待登录配置",
+    configWaitDescription:
+      "在部署环境中配置 Supabase URL 和 anon key 后，即可使用邮箱链接登录。",
+    supabaseMissingError:
+      "由于尚未配置 Supabase 公钥，暂时无法登录。",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

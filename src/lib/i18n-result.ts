@@ -153,8 +153,70 @@ const th: ResultCopy = {
   backToInput: "กลับไปยังหน้ากรอกข้อมูล",
 };
 
-// ko/en/vi/th를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th };
+const ja: ResultCopy = {
+  reanalysisError: "発音の再分析を完了できませんでした。",
+  reanalysisErrorGeneric: "発音の再分析中にエラーが発生しました。",
+  reanalysisEyebrow: "実際の発音と違いますか？",
+  reanalysisTitle: "発音ヒントで再分析",
+  reanalysisDescription:
+    "実際の発音をより具体的に入力すると、同じ名前・言語・国の条件で再分析します。",
+  hintLabel: "実際の発音ヒント",
+  hintPlaceholder: "例: 「ダニエル」に近い発音",
+  reanalysisCountdown: (seconds) => `広告の確認後に再分析します。${seconds}秒`,
+  reanalyzing: "再分析中",
+  goodsEyebrow: "結果をもっと活用しましょう",
+  goodsSectionTitle: "名前グッズ",
+  goodsItemTitle: "ハングル名前グッズ",
+  goodsItemSub: "（キャップ・キーリング・Tシャツなど）",
+  goodsItemDescription:
+    "選んだハングルの名前をキャップ、キーリング、Tシャツなどに入れて、自分だけのグッズを作ってみましょう。",
+  goodsButton: "グッズ注文は準備中です",
+  editInput: "入力を修正",
+  home: "ホーム",
+  headerAdLabel: "ハングル発音結果上部バナー広告",
+  headerCaption: "ハングル発音分析結果",
+  loading: "結果を読み込んでいます。",
+  analysisDone: "分析完了",
+  resultHeading: "あなたの名前のハングル発音表記",
+  emptyTitle: "結果を読み込めませんでした。",
+  emptyDescription:
+    "この結果は、分析を実行したブラウザのタブでのみ確認できます。",
+  backToInput: "入力画面に戻る",
+};
+
+const zh: ResultCopy = {
+  reanalysisError: "未能完成发音的重新分析。",
+  reanalysisErrorGeneric: "重新分析时发生了错误。",
+  reanalysisEyebrow: "和实际发音不一样吗？",
+  reanalysisTitle: "使用发音提示重新分析",
+  reanalysisDescription:
+    "输入更具体的实际发音后，我们会以相同的名字、语言和国家条件重新分析。",
+  hintLabel: "实际发音提示",
+  hintPlaceholder: "例如：读音接近 Dan-yell",
+  reanalysisCountdown: (seconds) => `观看广告后将重新分析。${seconds} 秒`,
+  reanalyzing: "正在重新分析",
+  goodsEyebrow: "让结果发挥更多价值",
+  goodsSectionTitle: "名字周边商品",
+  goodsItemTitle: "韩文名字周边商品",
+  goodsItemSub: "（帽子、钥匙扣、T恤等）",
+  goodsItemDescription:
+    "把您选定的韩文名字印在帽子、钥匙扣、T恤等物品上，制作专属于您的周边商品。",
+  goodsButton: "周边商品下单即将开放",
+  editInput: "修改输入",
+  home: "首页",
+  headerAdLabel: "韩文发音结果顶部横幅广告",
+  headerCaption: "韩文发音分析结果",
+  loading: "正在加载结果。",
+  analysisDone: "分析完成",
+  resultHeading: "您名字的韩文发音写法",
+  emptyTitle: "无法加载结果。",
+  emptyDescription:
+    "此结果仅能在进行分析的浏览器标签页中查看。",
+  backToInput: "返回输入页面",
+};
+
+// ko/en/vi/th/ja/zh를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

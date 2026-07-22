@@ -64,6 +64,34 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · ₩990 (เร็ว ๆ นี้)",
     bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
   },
+  ja: {
+    title: "追加の候補を開く",
+    status: (revealed, locked) => `現在${revealed}件公開 · ${locked}件ロック中`,
+    descHanja:
+      "広告を1回確認するごとに、異なる推薦観点の次の候補が1件開きます。",
+    descDefault:
+      "広告を1回確認するごとに、異なる推薦観点の次の候補が1件開きます。残りの候補全体を₩990で広告なしで一括公開する機能を準備中です。",
+    watchingNote: (seconds) => `広告の確認後に候補を1件開きます。${seconds}秒`,
+    watching: "広告を確認中",
+    watchButton: "広告を見て次の候補を開く",
+    hanjaProductsLink: "全候補の商品を見る · ₩2,900から",
+    bulkButton: "全候補を一括公開 · ₩990（準備中）",
+    bulkPreparing: "決済機能は準備中です。",
+  },
+  zh: {
+    title: "解锁更多候选名字",
+    status: (revealed, locked) => `已公开 ${revealed} 个 · 锁定 ${locked} 个`,
+    descHanja:
+      "每观看一次广告，即可解锁下一个不同推荐角度的候选名字。",
+    descDefault:
+      "每观看一次广告，即可解锁下一个不同推荐角度的候选名字。以 ₩990 一次性无广告解锁全部剩余候选名字的功能即将上线。",
+    watchingNote: (seconds) => `观看广告后将解锁 1 个候选名字。${seconds} 秒`,
+    watching: "正在观看广告",
+    watchButton: "观看广告解锁下一个候选名字",
+    hanjaProductsLink: "查看全部候选产品 · ₩2,900 起",
+    bulkButton: "一次性解锁全部候选名字 · ₩990（即将上线）",
+    bulkPreparing: "支付功能即将上线。",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,

@@ -378,8 +378,238 @@ const th: ServiceCopyOverride = {
   },
 };
 
-// ko(원본)/en/vi/th를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th };
+const ja: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "あなたの名前を韓国の名前に",
+        eyebrow: "韓国での生活や仕事のための韓国名",
+        description:
+          "元のお名前、国、出生情報、韓国での名前の使い方を教えていただければ、自然で由来を説明できる韓国の名前をご提案します。",
+        promise:
+          "呼びやすく書きやすい名前を、意味と発音を確認できる形でご提案します。",
+        resultLabel: "おすすめの韓国名",
+      },
+      sectionTitles: {
+        "기본 정보": "基本情報",
+        "출생 정보": "出生情報",
+        "한국 사용 맥락": "韓国での使用シーン",
+      },
+      sectionDescriptions: {
+        "기본 정보": "韓国名のご提案に必要な基本情報を選択してください。",
+        "출생 정보": "正確な比較・分析のために各項目を選択してください。",
+        "한국 사용 맥락": "希望する名前の雰囲気と、韓国での名前の使い方を選択してください。",
+      },
+      fieldLabels: {
+        originalName: "本名",
+        country: "国",
+        nameMotivation: "韓国名の使用目的",
+        gender: "性別 / イメージ",
+        birthYear: "生まれた年",
+        birthMonth: "生まれた月",
+        birthDay: "生まれた日",
+        birthHour: "出生時刻",
+        koreanFamilyName: "希望する韓国の姓",
+        koreanTone: "名前の雰囲気",
+        usageContext: "使用シーン",
+        outputLanguage: "結果の言語",
+      },
+      fieldPlaceholders: {
+        originalName: "例: 山田 太郎",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "あなたの名前を実際の発音どおりにハングルで",
+        eyebrow: "ハングルで書くあなたの名前",
+        description:
+          "お名前の発音を分析し、自然なハングル表記をご提案します。",
+        promise:
+          "韓国語の発音規則に沿いながら、お名前本来の音と音節を最優先します。",
+        resultLabel: "おすすめのハングル表記",
+      },
+      sectionTitles: {
+        "본명 정보": "本名の情報",
+      },
+      sectionDescriptions: {
+        "본명 정보": "お名前の表記と発音に使う言語と国を選択してください。",
+      },
+      fieldLabels: {
+        originalName: "本名",
+        originalNameLanguage: "名前の元の言語",
+        country: "国",
+        pronunciationHint: "発音ヒント（任意）",
+      },
+      fieldHints: {
+        originalName: "※ 現地の言語でフルネームを入力してください。",
+        originalNameLanguage: "※ お名前の発音に使う言語を選択してください。",
+        country:
+          "※ 国ごとの発音の違いを反映するために使用します。\n国を変更すると結果が変わることがあります。",
+        pronunciationHint:
+          "※ 音節の区切りや発音のヒントを入力してください。\n入力されたヒントを最優先で反映します。",
+      },
+      fieldPlaceholders: {
+        originalName: "例: 山田 太郎",
+        pronunciationHint: "例: 「やまだ たろう」と発音します",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "おすすめしてもらう",
+    natural_modern: "自然でモダン",
+    traditional: "伝統的",
+    business_friendly: "ビジネス向き",
+    soft: "やわらかく温かい",
+    distinctive: "個性的",
+    korean_workplace: "韓国の職場",
+    school: "学校 / 交換留学",
+    creator: "クリエイター / 公開プロフィール",
+    daily: "日常生活",
+    auto: "ブラウザの言語に合わせる",
+    not_specified: "指定しない",
+    female: "女性",
+    male: "男性",
+    neutral: "中性 / どちらでも",
+    auto_by_country: "国に合わせて自動選択",
+    korean_education: "韓国語学習・仕事・交換留学",
+    k_culture: "K-カルチャー・SNS・ニックネーム",
+    business: "ビジネス・名刺・グローバルな仕事",
+    daily_social: "友人・学校・日常生活",
+    family_pet: "子ども・家族・ペットの名前",
+    creator_brand: "クリエイター・ブランド・公開プロフィール",
+    unknown: "不明",
+    "23-01": "23:00–01:00（子時）",
+    "01-03": "01:00–03:00（丑時）",
+    "03-05": "03:00–05:00（寅時）",
+    "05-07": "05:00–07:00（卯時）",
+    "07-09": "07:00–09:00（辰時）",
+    "09-11": "09:00–11:00（巳時）",
+    "11-13": "11:00–13:00（午時）",
+    "13-15": "13:00–15:00（未時）",
+    "15-17": "15:00–17:00（申時）",
+    "17-19": "17:00–19:00（酉時）",
+    "19-21": "19:00–21:00（戌時）",
+    "21-23": "21:00–23:00（亥時）",
+  },
+};
+
+const zh: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "把您的名字变成韩国名字",
+        eyebrow: "适合在韩国生活与工作的韩国名字",
+        description:
+          "告诉我们您的原名、国家、出生信息以及在韩国使用名字的场景，我们将为您推荐自然、可解释的韩国名字。",
+        promise:
+          "我们推荐好叫又好写的名字，含义和发音都可以核实。",
+        resultLabel: "推荐的韩国名字",
+      },
+      sectionTitles: {
+        "기본 정보": "基本信息",
+        "출생 정보": "出生信息",
+        "한국 사용 맥락": "在韩国的使用场景",
+      },
+      sectionDescriptions: {
+        "기본 정보": "请选择推荐韩国名字所需的基本信息。",
+        "출생 정보": "请选择各项内容，以便进行准确的比较和分析。",
+        "한국 사용 맥락": "请选择您想要的名字风格以及在韩国使用名字的方式。",
+      },
+      fieldLabels: {
+        originalName: "原名",
+        country: "国家",
+        nameMotivation: "韩国名字的用途",
+        gender: "性别 / 形象",
+        birthYear: "出生年份",
+        birthMonth: "出生月份",
+        birthDay: "出生日期",
+        birthHour: "出生时辰",
+        koreanFamilyName: "期望的韩国姓氏",
+        koreanTone: "名字风格",
+        usageContext: "使用场景",
+        outputLanguage: "结果语言",
+      },
+      fieldPlaceholders: {
+        originalName: "例如：王小明",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "按真实发音，用韩文写出您的名字",
+        eyebrow: "用韩文书写您的名字",
+        description:
+          "我们会分析您名字的发音，并推荐自然的韩文写法。",
+        promise:
+          "遵循韩语发音规则，优先保留您名字本身的读音和音节。",
+        resultLabel: "推荐的韩文写法",
+      },
+      sectionTitles: {
+        "본명 정보": "原名信息",
+      },
+      sectionDescriptions: {
+        "본명 정보": "请选择书写和读出您名字所用的语言和国家。",
+      },
+      fieldLabels: {
+        originalName: "原名",
+        originalNameLanguage: "名字的源语言",
+        country: "国家",
+        pronunciationHint: "发音提示（可选）",
+      },
+      fieldHints: {
+        originalName: "※ 请用您的母语输入完整姓名。",
+        originalNameLanguage: "※ 请选择读出您名字时使用的语言。",
+        country:
+          "※ 用于反映各国的发音差异。\n更改国家可能会改变结果。",
+        pronunciationHint:
+          "※ 请输入音节划分和发音提示。\n您的提示将被优先采用。",
+      },
+      fieldPlaceholders: {
+        originalName: "例如：王小明",
+        pronunciationHint: "例如：读音接近 Wang Xiao-ming",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "由系统为我推荐",
+    natural_modern: "自然现代",
+    traditional: "传统",
+    business_friendly: "适合商务",
+    soft: "温柔亲切",
+    distinctive: "独特有个性",
+    korean_workplace: "韩国职场",
+    school: "学校 / 交换",
+    creator: "创作者 / 公开主页",
+    daily: "日常生活",
+    auto: "跟随浏览器语言",
+    not_specified: "不指定",
+    female: "女",
+    male: "男",
+    neutral: "中性 / 均可",
+    auto_by_country: "按国家自动选择",
+    korean_education: "学韩语、工作或交换",
+    k_culture: "韩流文化、社交媒体、昵称",
+    business: "商务、名片、国际工作",
+    daily_social: "朋友、学校、日常生活",
+    family_pet: "孩子、家人或宠物的名字",
+    creator_brand: "创作者、品牌、公开主页",
+    unknown: "不清楚",
+    "23-01": "23:00–01:00（子时）",
+    "01-03": "01:00–03:00（丑时）",
+    "03-05": "03:00–05:00（寅时）",
+    "05-07": "05:00–07:00（卯时）",
+    "07-09": "07:00–09:00（辰时）",
+    "09-11": "09:00–11:00（巳时）",
+    "11-13": "11:00–13:00（午时）",
+    "13-15": "13:00–15:00（未时）",
+    "15-17": "15:00–17:00（申时）",
+    "17-19": "17:00–19:00（酉时）",
+    "19-21": "19:00–21:00（戌时）",
+    "21-23": "21:00–23:00（亥时）",
+  },
+};
+
+// ko(원본)/en/vi/th/ja/zh를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh };
 
 // 한국어는 원본 설정(services.ts)을 그대로 쓰므로 null을 반환한다.
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {
