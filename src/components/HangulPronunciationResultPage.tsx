@@ -265,7 +265,10 @@ export function HangulPronunciationResultPage({
           </section>
         ) : currentStored ? (
           <div className="grid gap-5">
-            <ResultStorageNotice persistence={currentStored.persistence} />
+            <ResultStorageNotice
+              persistence={currentStored.persistence}
+              locale={locale}
+            />
             <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
               <p className="text-sm font-semibold text-brand-teal">{copy.analysisDone}</p>
               <h1 className="mt-2 text-2xl font-semibold">

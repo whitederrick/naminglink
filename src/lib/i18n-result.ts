@@ -28,6 +28,9 @@ export type ResultCopy = {
   emptyTitle: string;
   emptyDescription: string;
   backToInput: string;
+  storageSaved: string;
+  storageSkipped: string;
+  storageFailed: string;
 };
 
 const ko: ResultCopy = {
@@ -58,6 +61,11 @@ const ko: ResultCopy = {
   emptyTitle: "결과를 불러올 수 없습니다.",
   emptyDescription: "이 결과는 분석을 진행한 브라우저 탭에서만 확인할 수 있습니다.",
   backToInput: "입력 화면으로 돌아가기",
+  storageSaved: "이 분석 결과를 내 계정에 저장했습니다.",
+  storageSkipped:
+    "이 분석 결과는 서버에 저장하지 않았습니다. 현재 화면을 벗어나기 전에 필요한 내용을 확인해 주세요.",
+  storageFailed:
+    "분석은 완료했지만 계정 저장에 실패했습니다. 결과를 확인한 뒤 다시 분석해 주세요.",
 };
 
 const en: ResultCopy = {
@@ -89,6 +97,11 @@ const en: ResultCopy = {
   emptyDescription:
     "This result is only available in the browser tab where you ran the analysis.",
   backToInput: "Back to the input screen",
+  storageSaved: "This analysis was saved to your account.",
+  storageSkipped:
+    "This result was not saved to our server. Please review anything you need before leaving this screen.",
+  storageFailed:
+    "The analysis finished, but saving to your account failed. Review the result, then run the analysis again.",
 };
 
 const vi: ResultCopy = {
@@ -120,6 +133,11 @@ const vi: ResultCopy = {
   emptyDescription:
     "Kết quả này chỉ xem được trong tab trình duyệt đã chạy phân tích.",
   backToInput: "Quay lại màn hình nhập",
+  storageSaved: "Kết quả phân tích này đã được lưu vào tài khoản của bạn.",
+  storageSkipped:
+    "Kết quả phân tích này chưa được lưu lên máy chủ. Vui lòng xem lại những nội dung cần thiết trước khi rời khỏi màn hình này.",
+  storageFailed:
+    "Phân tích đã hoàn tất, nhưng việc lưu vào tài khoản đã thất bại. Hãy xem lại kết quả rồi chạy phân tích lại.",
 };
 
 const th: ResultCopy = {
@@ -151,6 +169,11 @@ const th: ResultCopy = {
   emptyDescription:
     "ผลลัพธ์นี้ดูได้เฉพาะในแท็บเบราว์เซอร์ที่ใช้ทำการวิเคราะห์เท่านั้น",
   backToInput: "กลับไปยังหน้ากรอกข้อมูล",
+  storageSaved: "บันทึกผลการวิเคราะห์นี้ไว้ในบัญชีของคุณแล้ว",
+  storageSkipped:
+    "ผลการวิเคราะห์นี้ไม่ได้บันทึกไว้บนเซิร์ฟเวอร์ กรุณาตรวจสอบข้อมูลที่จำเป็นก่อนออกจากหน้าจอนี้",
+  storageFailed:
+    "การวิเคราะห์เสร็จสมบูรณ์แล้ว แต่การบันทึกลงบัญชีล้มเหลว กรุณาตรวจสอบผลลัพธ์แล้ววิเคราะห์ใหม่อีกครั้ง",
 };
 
 const ja: ResultCopy = {
@@ -182,6 +205,11 @@ const ja: ResultCopy = {
   emptyDescription:
     "この結果は、分析を実行したブラウザのタブでのみ確認できます。",
   backToInput: "入力画面に戻る",
+  storageSaved: "この分析結果をあなたのアカウントに保存しました。",
+  storageSkipped:
+    "この分析結果はサーバーに保存していません。この画面を離れる前に、必要な内容をご確認ください。",
+  storageFailed:
+    "分析は完了しましたが、アカウントへの保存に失敗しました。結果を確認したうえで、もう一度分析してください。",
 };
 
 const zh: ResultCopy = {
@@ -213,6 +241,11 @@ const zh: ResultCopy = {
   emptyDescription:
     "此结果仅能在进行分析的浏览器标签页中查看。",
   backToInput: "返回输入页面",
+  storageSaved: "已将此分析结果保存到您的账户。",
+  storageSkipped:
+    "此分析结果未保存到服务器。请在离开当前页面前确认您需要的内容。",
+  storageFailed:
+    "分析已完成，但保存到账户失败。请确认结果后重新分析。",
 };
 
 const id: ResultCopy = {
@@ -244,6 +277,11 @@ const id: ResultCopy = {
   emptyDescription:
     "Hasil ini hanya tersedia di tab browser tempat Anda menjalankan analisis.",
   backToInput: "Kembali ke layar input",
+  storageSaved: "Hasil analisis ini telah disimpan ke akun Anda.",
+  storageSkipped:
+    "Hasil analisis ini tidak disimpan ke server kami. Silakan periksa apa pun yang Anda perlukan sebelum meninggalkan layar ini.",
+  storageFailed:
+    "Analisis selesai, tetapi penyimpanan ke akun Anda gagal. Periksa hasilnya, lalu jalankan analisis lagi.",
 };
 
 const de: ResultCopy = {
@@ -275,6 +313,11 @@ const de: ResultCopy = {
   emptyDescription:
     "Dieses Ergebnis ist nur in dem Browser-Tab verfügbar, in dem Sie die Analyse durchgeführt haben.",
   backToInput: "Zurück zur Eingabe",
+  storageSaved: "Dieses Analyseergebnis wurde in Ihrem Konto gespeichert.",
+  storageSkipped:
+    "Dieses Analyseergebnis wurde nicht auf unserem Server gespeichert. Bitte prüfen Sie alles Nötige, bevor Sie diese Seite verlassen.",
+  storageFailed:
+    "Die Analyse wurde abgeschlossen, aber das Speichern in Ihrem Konto ist fehlgeschlagen. Prüfen Sie das Ergebnis und führen Sie die Analyse erneut aus.",
 };
 
 const es: ResultCopy = {
@@ -306,6 +349,11 @@ const es: ResultCopy = {
   emptyDescription:
     "Este resultado solo está disponible en la pestaña del navegador donde ejecutaste el análisis.",
   backToInput: "Volver a la pantalla de entrada",
+  storageSaved: "Este resultado de análisis se guardó en tu cuenta.",
+  storageSkipped:
+    "Este resultado de análisis no se guardó en nuestro servidor. Revisa lo que necesites antes de salir de esta pantalla.",
+  storageFailed:
+    "El análisis finalizó, pero no se pudo guardar en tu cuenta. Revisa el resultado y vuelve a ejecutar el análisis.",
 };
 
 const fr: ResultCopy = {
@@ -337,6 +385,11 @@ const fr: ResultCopy = {
   emptyDescription:
     "Ce résultat n'est disponible que dans l'onglet du navigateur où vous avez lancé l'analyse.",
   backToInput: "Revenir à l'écran de saisie",
+  storageSaved: "Ce résultat d'analyse a été enregistré dans votre compte.",
+  storageSkipped:
+    "Ce résultat d'analyse n'a pas été enregistré sur notre serveur. Veuillez vérifier tout ce dont vous avez besoin avant de quitter cet écran.",
+  storageFailed:
+    "L'analyse est terminée, mais l'enregistrement dans votre compte a échoué. Vérifiez le résultat, puis relancez l'analyse.",
 };
 
 const it: ResultCopy = {
@@ -368,6 +421,11 @@ const it: ResultCopy = {
   emptyDescription:
     "Questo risultato è disponibile solo nella scheda del browser in cui hai eseguito l'analisi.",
   backToInput: "Torna alla schermata di inserimento",
+  storageSaved: "Questo risultato dell'analisi è stato salvato nel tuo account.",
+  storageSkipped:
+    "Questo risultato dell'analisi non è stato salvato sul nostro server. Controlla tutto ciò che ti serve prima di lasciare questa schermata.",
+  storageFailed:
+    "L'analisi è terminata, ma il salvataggio nel tuo account non è riuscito. Controlla il risultato, poi esegui di nuovo l'analisi.",
 };
 
 const pt: ResultCopy = {
@@ -399,6 +457,11 @@ const pt: ResultCopy = {
   emptyDescription:
     "Este resultado só está disponível na aba do navegador em que você executou a análise.",
   backToInput: "Voltar à tela de entrada",
+  storageSaved: "Este resultado da análise foi salvo na sua conta.",
+  storageSkipped:
+    "Este resultado da análise não foi salvo em nosso servidor. Confira tudo o que você precisa antes de sair desta tela.",
+  storageFailed:
+    "A análise foi concluída, mas não foi possível salvar na sua conta. Confira o resultado e execute a análise novamente.",
 };
 
 const ru: ResultCopy = {
@@ -430,6 +493,11 @@ const ru: ResultCopy = {
   emptyDescription:
     "Этот результат доступен только во вкладке браузера, в которой выполнялся анализ.",
   backToInput: "Вернуться к экрану ввода",
+  storageSaved: "Этот результат анализа сохранён в вашем аккаунте.",
+  storageSkipped:
+    "Этот результат анализа не был сохранён на нашем сервере. Пожалуйста, проверьте всё необходимое, прежде чем покинуть этот экран.",
+  storageFailed:
+    "Анализ завершён, но сохранить его в вашем аккаунте не удалось. Проверьте результат и запустите анализ ещё раз.",
 };
 
 const ar: ResultCopy = {
@@ -461,6 +529,11 @@ const ar: ResultCopy = {
   emptyDescription:
     "هذه النتيجة متاحة فقط في علامة تبويب المتصفح التي أجريت فيها التحليل.",
   backToInput: "العودة إلى شاشة الإدخال",
+  storageSaved: "تم حفظ نتيجة هذا التحليل في حسابك.",
+  storageSkipped:
+    "لم يتم حفظ نتيجة هذا التحليل على خادمنا. يُرجى مراجعة كل ما تحتاجه قبل مغادرة هذه الشاشة.",
+  storageFailed:
+    "اكتمل التحليل، لكن فشل حفظه في حسابك. راجع النتيجة ثم أعد إجراء التحليل.",
 };
 
 const tr: ResultCopy = {
@@ -492,6 +565,11 @@ const tr: ResultCopy = {
   emptyDescription:
     "Bu sonuç yalnızca analizi çalıştırdığınız tarayıcı sekmesinde görüntülenebilir.",
   backToInput: "Giriş ekranına dön",
+  storageSaved: "Bu analiz sonucu hesabınıza kaydedildi.",
+  storageSkipped:
+    "Bu analiz sonucu sunucumuza kaydedilmedi. Bu ekrandan ayrılmadan önce lütfen ihtiyaç duyduğunuz her şeyi kontrol edin.",
+  storageFailed:
+    "Analiz tamamlandı ancak hesabınıza kaydetme başarısız oldu. Sonucu kontrol edin ve analizi yeniden çalıştırın.",
 };
 
 const fil: ResultCopy = {
@@ -523,6 +601,11 @@ const fil: ResultCopy = {
   emptyDescription:
     "Makikita lamang ang resultang ito sa browser tab kung saan mo pinatakbo ang pagsusuri.",
   backToInput: "Bumalik sa input screen",
+  storageSaved: "Na-save ang resulta ng pagsusuring ito sa iyong account.",
+  storageSkipped:
+    "Hindi na-save sa aming server ang resulta ng pagsusuring ito. Pakisuri ang anumang kailangan mo bago umalis sa screen na ito.",
+  storageFailed:
+    "Natapos ang pagsusuri, ngunit nabigo ang pag-save sa iyong account. Suriin ang resulta, pagkatapos ay patakbuhing muli ang pagsusuri.",
 };
 
 const uz: ResultCopy = {
@@ -554,6 +637,11 @@ const uz: ResultCopy = {
   emptyDescription:
     "Bu natija faqat tahlil o‘tkazilgan brauzer tabida ko‘rinadi.",
   backToInput: "Kiritish oynasiga qaytish",
+  storageSaved: "Ushbu tahlil natijasi hisobingizga saqlandi.",
+  storageSkipped:
+    "Ushbu tahlil natijasi serverimizga saqlanmadi. Bu oynadan chiqishdan oldin kerakli narsalarni ko‘rib chiqing.",
+  storageFailed:
+    "Tahlil yakunlandi, lekin uni hisobingizga saqlab bo‘lmadi. Natijani ko‘rib chiqing va tahlilni qayta ishga tushiring.",
 };
 
 const mn: ResultCopy = {
@@ -585,6 +673,11 @@ const mn: ResultCopy = {
   emptyDescription:
     "Энэ үр дүнг зөвхөн шинжилгээ хийсэн хөтчийн таб дээр л үзэх боломжтой.",
   backToInput: "Мэдээлэл оруулах дэлгэц рүү буцах",
+  storageSaved: "Энэ шинжилгээний үр дүнг таны бүртгэлд хадгаллаа.",
+  storageSkipped:
+    "Энэ шинжилгээний үр дүнг серверт хадгалаагүй. Энэ дэлгэцээс гарахаасаа өмнө шаардлагатай зүйлээ шалгана уу.",
+  storageFailed:
+    "Шинжилгээ дууссан ч бүртгэлд хадгалж чадсангүй. Үр дүнг шалгаад дахин шинжилгээ хийнэ үү.",
 };
 
 const hi: ResultCopy = {
@@ -616,6 +709,11 @@ const hi: ResultCopy = {
   emptyDescription:
     "यह परिणाम केवल उसी ब्राउज़र टैब में उपलब्ध है जिसमें आपने विश्लेषण चलाया था।",
   backToInput: "इनपुट स्क्रीन पर वापस जाएँ",
+  storageSaved: "यह विश्लेषण परिणाम आपके खाते में सहेज लिया गया है।",
+  storageSkipped:
+    "यह विश्लेषण परिणाम हमारे सर्वर पर सहेजा नहीं गया है। इस स्क्रीन से बाहर जाने से पहले कृपया जो भी आपको चाहिए उसे देख लें।",
+  storageFailed:
+    "विश्लेषण पूरा हो गया, लेकिन आपके खाते में सहेजना विफल रहा। परिणाम देखें, फिर विश्लेषण दोबारा चलाएँ।",
 };
 
 const km: ResultCopy = {
@@ -647,6 +745,11 @@ const km: ResultCopy = {
   emptyDescription:
     "លទ្ធផលនេះអាចមើលបានតែក្នុងផ្ទាំងកម្មវិធីរុករកដែលអ្នកបានដំណើរការការវិភាគប៉ុណ្ណោះ។",
   backToInput: "ត្រឡប់ទៅអេក្រង់បញ្ចូលវិញ",
+  storageSaved: "លទ្ធផលវិភាគនេះត្រូវបានរក្សាទុកក្នុងគណនីរបស់អ្នក។",
+  storageSkipped:
+    "លទ្ធផលវិភាគនេះមិនត្រូវបានរក្សាទុកនៅលើម៉ាស៊ីនមេរបស់យើងទេ។ សូមពិនិត្យមើលអ្វីដែលអ្នកត្រូវការ មុនពេលចាកចេញពីអេក្រង់នេះ។",
+  storageFailed:
+    "ការវិភាគបានបញ្ចប់ ប៉ុន្តែការរក្សាទុកទៅគណនីរបស់អ្នកបានបរាជ័យ។ សូមពិនិត្យលទ្ធផល រួចដំណើរការវិភាគម្តងទៀត។",
 };
 
 const kk: ResultCopy = {
@@ -678,6 +781,11 @@ const kk: ResultCopy = {
   emptyDescription:
     "Бұл нәтиже тек талдау жүргізілген браузер қойындысында ғана көрінеді.",
   backToInput: "Енгізу экранына оралу",
+  storageSaved: "Бұл талдау нәтижесі есептік жазбаңызға сақталды.",
+  storageSkipped:
+    "Бұл талдау нәтижесі серверімізге сақталмады. Осы экраннан шықпас бұрын қажет нәрсенің бәрін тексеріп алыңыз.",
+  storageFailed:
+    "Талдау аяқталды, бірақ есептік жазбаңызға сақтау сәтсіз аяқталды. Нәтижені тексеріп, талдауды қайта жүргізіңіз.",
 };
 
 const ms: ResultCopy = {
@@ -709,6 +817,11 @@ const ms: ResultCopy = {
   emptyDescription:
     "Hasil ini hanya tersedia dalam tab pelayar tempat anda menjalankan analisis.",
   backToInput: "Kembali ke skrin input",
+  storageSaved: "Hasil analisis ini telah disimpan ke akaun anda.",
+  storageSkipped:
+    "Hasil analisis ini tidak disimpan ke pelayan kami. Sila semak apa-apa yang anda perlukan sebelum meninggalkan skrin ini.",
+  storageFailed:
+    "Analisis selesai, tetapi penyimpanan ke akaun anda gagal. Semak hasilnya, kemudian jalankan analisis sekali lagi.",
 };
 
 const pl: ResultCopy = {
@@ -740,6 +853,11 @@ const pl: ResultCopy = {
   emptyDescription:
     "Ten wynik jest dostępny tylko w karcie przeglądarki, w której uruchomiono analizę.",
   backToInput: "Wróć do ekranu wprowadzania",
+  storageSaved: "Ten wynik analizy został zapisany na Twoim koncie.",
+  storageSkipped:
+    "Ten wynik analizy nie został zapisany na naszym serwerze. Sprawdź wszystko, czego potrzebujesz, zanim opuścisz ten ekran.",
+  storageFailed:
+    "Analiza się zakończyła, ale zapis na Twoim koncie się nie powiódł. Sprawdź wynik, a następnie uruchom analizę ponownie.",
 };
 
 // ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk/ms/pl을 작성했고, 나머지 로케일은 영어로 폴백한다.

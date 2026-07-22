@@ -1,40 +1,71 @@
 import { ShoppingBag } from "lucide-react";
-import type { ServiceConfig } from "@/lib/services";
+import type { ServiceConfig, Locale } from "@/lib/services";
+import { getResultCopy } from "@/lib/i18n-result";
 
-function serviceCopy(service: ServiceConfig) {
+// 한국어 대상 서비스(한자·한글→글로벌)는 서비스별 한국어 굿즈 문구를 유지한다.
+function koreanServiceCopy(service: ServiceConfig) {
   if (service.serviceType === "HANJA_MEANING_MATCH") {
     return {
+      eyebrow: "결과를 더 활용해 보세요",
+      sectionTitle: "이름 굿즈",
       goodsTitle: "선택 이름 굿즈",
       goodsExamples: "도장 · 액자 · 키링 등",
       goodsBody:
         "선택한 한글·한자 이름을 도장, 액자, 키링 등에 적용해 제작을 신청할 수 있습니다.",
+      button: "굿즈 신청 준비 중",
     };
   }
 
   if (service.serviceType === "KOREAN_TO_GLOBAL") {
     return {
+      eyebrow: "결과를 더 활용해 보세요",
+      sectionTitle: "이름 굿즈",
       goodsTitle: "글로벌 이름 굿즈",
       goodsExamples: "명함 · 키링 · 티셔츠 등",
       goodsBody:
         "선택한 글로벌 이름을 명함, 키링, 티셔츠 등에 적용해 제작을 신청할 수 있습니다.",
+      button: "굿즈 신청 준비 중",
     };
   }
 
   return {
+    eyebrow: "결과를 더 활용해 보세요",
+    sectionTitle: "이름 굿즈",
     goodsTitle: "한글 이름 굿즈",
     goodsExamples: "모자 · 키링 · 티셔츠 등",
     goodsBody:
       "선택한 한글 이름을 모자, 키링, 티셔츠 등에 적용해 제작을 신청할 수 있습니다.",
+    button: "굿즈 신청 준비 중",
   };
 }
 
-export function ResultAddOnServices({ service }: { service: ServiceConfig }) {
-  const copy = serviceCopy(service);
+export function ResultAddOnServices({
+  service,
+  locale,
+}: {
+  service: ServiceConfig;
+  locale?: string;
+}) {
+  // 외국인 대상 서비스는 결과 페이지 사전(i18n-result)의 굿즈 문구를 로케일별로 사용한다.
+  const foreign = locale && locale !== "ko";
+  const copy = foreign
+    ? (() => {
+        const r = getResultCopy(locale as Locale);
+        return {
+          eyebrow: r.goodsEyebrow,
+          sectionTitle: r.goodsSectionTitle,
+          goodsTitle: r.goodsItemTitle,
+          goodsExamples: r.goodsItemSub.replace(/^\(|\)$/g, ""),
+          goodsBody: r.goodsItemDescription,
+          button: r.goodsButton,
+        };
+      })()
+    : koreanServiceCopy(service);
 
   return (
     <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-      <p className="text-sm font-semibold text-brand-teal">결과를 더 활용해 보세요</p>
-      <h2 className="mt-2 text-lg font-semibold">이름 굿즈</h2>
+      <p className="text-sm font-semibold text-brand-teal">{copy.eyebrow}</p>
+      <h2 className="mt-2 text-lg font-semibold">{copy.sectionTitle}</h2>
       <div className="mt-5 grid gap-4">
         <article className="flex h-full flex-col rounded-lg border border-line bg-background p-5">
           <span className="flex size-10 items-center justify-center rounded-lg bg-surface-strong text-brand-teal">
@@ -52,7 +83,7 @@ export function ResultAddOnServices({ service }: { service: ServiceConfig }) {
             disabled
             className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-surface-strong px-3 text-sm font-semibold text-muted disabled:cursor-not-allowed"
           >
-            굿즈 신청 준비 중
+            {copy.button}
           </button>
         </article>
       </div>

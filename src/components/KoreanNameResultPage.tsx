@@ -97,7 +97,10 @@ export function KoreanNameResultPage({
           </section>
         ) : stored ? (
           <div className="grid gap-5">
-            <ResultStorageNotice persistence={stored.persistence} />
+            <ResultStorageNotice
+              persistence={stored.persistence}
+              locale={locale}
+            />
             <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
               <p className="text-sm font-semibold text-brand-teal">
                 {copy.analysisDone}
@@ -121,7 +124,9 @@ export function KoreanNameResultPage({
                 setRevealedCount((current) => Math.min(totalCount, current + 1))
               }
             />
-            {totalCount > 0 ? <ResultAddOnServices service={service} /> : null}
+            {totalCount > 0 ? (
+              <ResultAddOnServices service={service} locale={locale} />
+            ) : null}
           </div>
         ) : (
           <section className="rounded-lg border border-line bg-surface p-6 shadow-sm">
