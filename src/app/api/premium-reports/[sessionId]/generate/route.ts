@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
+import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
+import { isGlobalNamePdfProduct } from "@/lib/global-products";
 import { buildPremiumHanjaTestResult } from "@/lib/premium-hanja-analysis";
 import { getHanjaProduct, type HanjaProductCode } from "@/lib/hanja-products";
 import { getAuthorizedPremiumSession } from "@/lib/premium-session";
@@ -72,6 +74,31 @@ export async function POST(request: Request, context: Context) {
     try {
       const payload = session.input_payload as Record<string, unknown>;
       const inputFactors = payload.inputFactors as Record<string, unknown>;
+      // 글로벌 프리미엄 PDF: 주문 시 저장한 선택 후보·입력값만 근거로 3장 리포트 데이터를 생성한다.
+      if (isGlobalNamePdfProduct(session.product_code)) {
+        const premium = await buildGlobalNamePremiumResult({
+          inputFactors: inputFactors ?? {},
+          candidate: (payload.candidate as Record<string, unknown>) ?? {},
+          outputLanguage: String(payload.outputLanguage ?? "en"),
+          reportId: `NL-${String(session.id).replaceAll("-", "").slice(0, 12).toUpperCase()}`,
+        });
+        const readyAt = new Date().toISOString();
+        const { error } = await supabase
+          .from("premium_analysis_sessions")
+          .update({
+            status: "READY",
+            calculation_result: premium.reportData.saju ?? null,
+            interpretation_result: premium,
+            calculation_engine: premium.reportData.saju?.engineName ?? "gpt-4o-mini",
+            calculation_engine_version: premium.reportData.saju?.engineVersion ?? "1",
+            ready_at: readyAt,
+            updated_at: readyAt,
+          })
+          .eq("id", session.id);
+        if (error) throw error;
+        await markOrderFulfilled();
+        return NextResponse.json({ ok: true, status: "READY", premium, expiresAt: session.expires_at });
+      }
       const product = getHanjaProduct(session.product_code as HanjaProductCode);
       if (!product.includesSaju && !product.includesPdf) {
         const premium = {

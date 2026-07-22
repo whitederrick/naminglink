@@ -6,6 +6,7 @@ import { ArrowLeft, Home } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
+import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
@@ -20,7 +21,32 @@ type StoredResult = {
   logId: string | null;
   persistence: "saved" | "skipped" | "failed";
   createdAt: string;
+  // 2026-07-23부터 저장(프리미엄 PDF 주문에 필요). 이전 결과에는 없을 수 있다.
+  inputFactors?: Record<string, unknown>;
 };
+
+function premiumCandidatesOf(result: unknown) {
+  const candidates = (result as { candidates?: unknown[] } | null)?.candidates;
+  if (!Array.isArray(candidates)) return [];
+  return candidates
+    .map((candidate) => {
+      const record =
+        candidate && typeof candidate === "object"
+          ? (candidate as Record<string, unknown>)
+          : {};
+      const textOf = (value: unknown) => (typeof value === "string" ? value : undefined);
+      const hangul = textOf(record.hangul)?.trim() ?? "";
+      return {
+        hangul,
+        pronunciation: textOf(record.pronunciation),
+        meaning: textOf(record.meaning),
+        recommendation_reason: textOf(record.recommendation_reason),
+        cultural_fit: textOf(record.cultural_fit),
+        usage_note: textOf(record.usage_note),
+      };
+    })
+    .filter((candidate) => /^[가-힣]{2,6}$/.test(candidate.hangul));
+}
 
 const candidateCount = (result: unknown) => cappedCandidateCount(result, 5);
 
@@ -124,6 +150,12 @@ export function KoreanNameResultPage({
                 setRevealedCount((current) => Math.min(totalCount, current + 1))
               }
               onUnlockAll={() => setRevealedCount(totalCount)}
+            />
+            <GlobalNamePremiumPanel
+              candidates={premiumCandidatesOf(stored.result)}
+              revealedCount={revealedCount}
+              inputFactors={stored.inputFactors}
+              locale={locale}
             />
             {totalCount > 0 ? (
               <ResultAddOnServices service={service} locale={locale} />

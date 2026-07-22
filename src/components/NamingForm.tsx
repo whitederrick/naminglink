@@ -483,6 +483,8 @@ export function NamingForm({
             logId: payload.logId ?? null,
             persistence: payload.persistence ?? "skipped",
             createdAt: new Date().toISOString(),
+            // 프리미엄 PDF 주문(결과 페이지)에서 원 입력값이 필요하다.
+            inputFactors,
           }),
         );
         router.push(

@@ -2,6 +2,9 @@ import { createHash } from "node:crypto";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
+import type { GlobalNamePremiumResult } from "@/lib/global-name-premium";
+import { isGlobalNamePdfProduct } from "@/lib/global-products";
+import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderPremiumHanjaTestPdf, type PremiumHanjaTestResult } from "@/lib/premium-hanja-analysis";
 import { PREMIUM_HANJA_REPORT, premiumReportRemainingSeconds } from "@/lib/premium-reports";
 import { getAuthorizedPremiumSession } from "@/lib/premium-session";
@@ -22,7 +25,8 @@ export async function POST(request: Request, context: Context) {
   }
   try {
     const { supabase, session } = await getAuthorizedPremiumSession(id.data, body.data.accessToken);
-    if (!getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
+    const isGlobalReport = isGlobalNamePdfProduct(session.product_code);
+    if (!isGlobalReport && !getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
       return NextResponse.json({ ok: false, error: "선택한 상품에는 PDF가 포함되지 않습니다." }, { status: 403 });
     }
     if (session.status !== "READY" || premiumReportRemainingSeconds(String(session.expires_at ?? "")) <= 0) {
@@ -37,9 +41,16 @@ export async function POST(request: Request, context: Context) {
       .maybeSingle();
     if (existing) return NextResponse.json({ ok: true, status: "READY" });
 
-    const premium = session.interpretation_result as PremiumHanjaTestResult;
-    if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
-    const buffer = await renderPremiumHanjaTestPdf(premium.reportData);
+    let buffer: Buffer;
+    if (isGlobalReport) {
+      const premium = session.interpretation_result as GlobalNamePremiumResult;
+      if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
+      buffer = await renderGlobalNameReportPdf(premium.reportData);
+    } else {
+      const premium = session.interpretation_result as PremiumHanjaTestResult;
+      if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
+      buffer = await renderPremiumHanjaTestPdf(premium.reportData);
+    }
     const path = `${session.id}/naminglink-premium-report.pdf`;
     const { error: uploadError } = await supabase.storage
       .from(PREMIUM_HANJA_REPORT.storageBucket)

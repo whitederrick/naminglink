@@ -232,7 +232,7 @@ const KOREAN_SURNAME_CYRILLIC: Record<string, string> = {
 // 외국인 대상 서비스의 설명 언어를 모델에 명시하기 위한 언어명 표.
 // outputLanguage 코드만 주면 gpt-4o-mini가 지시를 무시하고 영어로 쓰는 사례가 있어
 // 사람이 읽는 언어명을 함께 주입하고 프롬프트에서 필수 규칙으로 강제한다.
-const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
+export const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
   ko: "Korean (한국어)",
   en: "English",
   ja: "Japanese (日本語)",

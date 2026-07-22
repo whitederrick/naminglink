@@ -7,6 +7,7 @@ import {
 } from "@/lib/premium-reports";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getHanjaProduct, type HanjaProductCode } from "@/lib/hanja-products";
+import { isGlobalNamePdfProduct } from "@/lib/global-products";
 
 export const runtime = "nodejs";
 
@@ -63,7 +64,8 @@ export async function POST(request: Request, context: RouteContext) {
     );
   }
 
-  if (!getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
+  const isGlobalReport = isGlobalNamePdfProduct(session.product_code);
+  if (!isGlobalReport && !getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
     return NextResponse.json(
       { ok: false, error: "선택한 상품에는 PDF가 포함되지 않습니다." },
       { status: 403 },
@@ -114,13 +116,17 @@ export async function POST(request: Request, context: RouteContext) {
   // 저장 파일명에 분석 대상자 이름을 넣는다(예: naminglink-premium-안준수.pdf).
   // 파일명에 못 쓰는 문자만 제거하고, 이름을 찾지 못하면 기존 고정 파일명을 쓴다.
   const interpretation = session.interpretation_result as
-    | { reportData?: { childNameHangul?: string } }
+    | { reportData?: { childNameHangul?: string; name?: { hangul?: string } } }
     | null;
-  const childName = String(interpretation?.reportData?.childNameHangul ?? "")
+  const reportName = String(
+    interpretation?.reportData?.childNameHangul ??
+      interpretation?.reportData?.name?.hangul ??
+      "",
+  )
     .replace(/[\\/:*?"<>|.\s]+/g, "")
     .slice(0, 20);
-  const downloadFileName = childName
-    ? `naminglink-premium-${childName}.pdf`
+  const downloadFileName = reportName
+    ? `naminglink-premium-${reportName}.pdf`
     : "naminglink-premium-report.pdf";
 
   const signedUrlLifetime = Math.max(1, Math.min(60, remainingSeconds));
