@@ -60,6 +60,33 @@
 - **해소**: GitHub Actions 시간별 크론 `.github/workflows/premium-cleanup-cron.yml` 신설(매시 정각, workflow_dispatch 수동 실행 가능, Vercel 일 1회 크론은 백업 유지). 리포지토리 시크릿 CRON_SECRET 등록, 수동 트리거로 200 확인.
 - **주의**: .env.local의 CRON_SECRET 값은 큰따옴표 포함이라 다른 곳에 복사 등록 시 따옴표를 벗겨야 함(첫 등록 때 401 원인). GitHub 스케줄은 리포지토리 60일 무활동 시 자동 비활성화되므로 장기 방치 시 재활성화 필요.
 
+## 하드닝 백로그 2차 완료 (2026-07-22 밤, 커밋 65ca630)
+
+- **레이트리밋 확장**: ad-events 60건/시간·analytics 120건/시간(방문자 해시 기준). checkRateLimit에 identifier 오버라이드 추가.
+- **AI 비용 전역 상한**: IP 로테이션으로 개별 한도(일 20회)를 우회해도 서비스 전체 AI 호출이 `NAMING_AI_GLOBAL_DAILY_LIMIT`(기본 2,000/일)에서 멈춤. fail-open.
+- **무료 쿼터 환불**: AI 생성 실패 시 `release_daily_quota` RPC로 차감 복원. 마이그레이션 `20260722180000` **원격 적용·실호출 검증 완료**(2 소비+1 환불=1).
+- **PartialCancelled 분리**: 부분취소는 주문만 `PARTIALLY_REFUNDED`로 표시하고 리포트·세션 유지(기존엔 전액환불처럼 리포트 파기). 열람은 세션 status 기준이라 영향 없음.
+- **프리미엄 localStorage TTL**: 체크아웃 항목(접근 토큰+연락처 PII) 48시간 후 파싱 시점 자동 삭제.
+- **geo-IP 맵**: ES·CO·PE→es, AT·CH→de, BE→fr, NZ·IE→en 추가.
+- **CSP**: base-uri·object-src 추가. **전체 script-src CSP는 보류** — PortOne 결제창(cdn.portone.io + PG iframe)을 깨뜨릴 수 있는데 현재 결제 테스트 불가라 검증 불능. 포트원 실결제 테스트 시 확정.
+- **광고 잠금 서버화는 보류 권고**: 무료 결과는 "비회원 결과 미저장" 원칙(2026-07-15 확정)에 따라 서버에 저장되지 않아, 서버 권한형 잠금은 결과 저장이 전제라 원칙과 충돌. 현재 광고 자체가 placeholder(수익 없음)이므로 실제 보상형 광고 도입 시 제품 결정과 함께 재설계.
+
+## GLOBAL_TO_KOREAN 성씨 누락·설명 언어 무시 수정 (2026-07-22 밤, 커밋 f373f4c)
+
+사용자 리포트 2건(Stark Tony/en·王蘇/zh) 처리:
+- **성씨**: 프롬프트·스키마에 성 요구가 아예 없었음 → hangul을 성+이름 완전한 성명으로 강제, 선택 성(kim 등)은 한글(김)로 확정 주입(`koreanFamilyNameHangul`), 추천 모드는 원 이름과 조화로운 성 1개를 전 후보에 일관 사용. "같은 이름에 성만 5개 바꿔 채우기" 방지 규칙 포함.
+- **언어**: 음차 서비스에만 있던 시스템 프롬프트 언어명 직접 보간을 본 서비스에도 적용(입력 JSON만으로는 mini가 무시하고 한국어로 작성).
+- **부수**: 힌디어 데바나가리 스크립트 규칙 추가, KOREAN_TO_GLOBAL pronunciation 재조립이 한글 산문에 오작동하던 정규식 수정("/" 구획 전체가 한글일 때만 인정).
+- **실호출 검증 ALL PASS**: en 추천·zh 추천·es 김 선택 3케이스 — 성 포함, 이름 5개 상이, 설명 언어 준수.
+
+## 잔여 백로그 (감사 항목 중)
+
+- 광고 잠금 서버화(위 보류 사유), 전체 CSP(포트원 테스트 후), 힌디어 외 스크립트 규칙 검증 스윕(선택). `ANALYTICS_HASH_SALT`·`PREMIUM_TEST_SECRET` 등록은 사용자 결정 대기.
+
+## 푸터 영문 표기 (2026-07-22 밤, 커밋 6f81765)
+
+비한국어 로케일에서 대표자·개인정보보호책임자 "Gwak Eunha (CEO)", 주소 영문 로마자, "(주)Platforest"→"Platforest Inc.", "통신판매업 신고 준비 중"→로케일별 문구로 표시(표시 단계 변환, DB 원본은 한국어 유지). 사전에 없는 값(관리자 신규 입력)은 원문 유지되므로 회사 정보 변경 시 `SiteFooter.tsx`의 매핑 갱신 필요.
+
 ## 남은 작업 (우선순위순)
 
 1. **PortOne 운영 결제 활성화** — 유일한 실질 런칭 블로커. **CRON_SECRET·PREMIUM_ABANDONED_TTL_HOURS(선택) 함께 등록**해야 24h 자동삭제가 실동작.
