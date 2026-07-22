@@ -1,3 +1,4 @@
+import { AccountDashboard } from "@/components/AccountDashboard";
 import { AuthPageNav } from "@/components/AuthPageNav";
 import { AuthPanel } from "@/components/AuthPanel";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -29,6 +30,7 @@ export default async function AccountPage({
           </p>
         </div>
         <AuthPanel intent="account" locale={locale} />
+        <AccountDashboard locale={locale} />
       </section>
       <SiteFooter locale={locale} />
     </main>
