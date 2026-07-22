@@ -191,6 +191,11 @@ const KOREAN_SURNAME_ROMAN: Record<string, string> = {
 
 const CYRILLIC_LANGUAGES = new Set(["ru", "mn", "kk"]);
 
+// GLOBAL_TO_KOREAN 폼의 선호 성 옵션 코드 → 한글 성. "recommend"는 의도적으로 제외한다.
+const KOREAN_FAMILY_NAME_OPTION_HANGUL: Record<string, string> = {
+  kim: "김", lee: "이", park: "박", choi: "최", jung: "정",
+};
+
 // 비로마자 언어에서 name 필드가 로마자로 나오는 실수를 막기 위해, 사용자 메시지에 명시 규칙을 넣는다.
 const NAME_SCRIPT_RULES: Record<string, string> = {
   ja: "name 필드는 반드시 일본어 한자 또는 가나로 표기하십시오 (예: 陽翔). 로마자 금지.",
@@ -201,6 +206,7 @@ const NAME_SCRIPT_RULES: Record<string, string> = {
   th: "name 필드는 반드시 태국 문자로 표기하십시오 (예: ณัฐวุฒิ). 로마자 금지.",
   km: "name 필드는 반드시 크메르 문자로 표기하십시오 (예: សុខា). 로마자 금지.",
   ar: "name 필드는 반드시 아랍 문자로 표기하십시오 (예: خالد). 로마자 금지.",
+  hi: "name 필드는 반드시 데바나가리 문자로 표기하십시오 (예: आरव). 로마자 금지.",
 };
 
 // 주요 한국 성의 가타카나·키릴 표기(재일·고려인 사회 통용 표기 기준).
@@ -309,7 +315,12 @@ function normalizeKoreanToGlobalResult(
     if (!name) continue;
     const pronunciation =
       typeof item.pronunciation === "string" ? item.pronunciation : "";
-    const hangulReading = pronunciation.match(/[가-힣]+(?:\s[가-힣]+)*/)?.[0];
+    // pronunciation 기대 형식은 "로마자 / 한글읽기"다. 모델이 한글 산문을 돌려주면 첫 어절만
+    // 잘려 들어가므로, "/" 구획 하나가 통째로 한글(공백 허용)일 때만 읽기로 인정한다.
+    const hangulReading = pronunciation
+      .split("/")
+      .map((part) => part.trim())
+      .find((part) => part.length > 0 && /^[가-힣]+(?:\s[가-힣]+)*$/.test(part));
     const romanGiven = pronunciation.split("/")[0]?.trim() ?? "";
 
     if (isLatin) {
@@ -452,9 +463,15 @@ export async function generateNamingResult(
       ? (() => {
           const requested = String(inputFactors.outputLanguage ?? "");
           const language = OUTPUT_LANGUAGE_NAMES[requested] ? requested : "en";
+          const surnameOption = String(inputFactors.koreanFamilyName ?? "");
           return {
             outputLanguage: language,
             outputLanguageName: OUTPUT_LANGUAGE_NAMES[language],
+            // 사용자가 구체적인 성을 골랐으면 한글 성을 확정 주입해 모델이 옵션 코드(kim 등)를
+            // 잘못 해석하거나 성을 빠뜨리는 것을 막는다. "recommend"는 주입하지 않아 추천 모드.
+            ...(KOREAN_FAMILY_NAME_OPTION_HANGUL[surnameOption]
+              ? { koreanFamilyNameHangul: KOREAN_FAMILY_NAME_OPTION_HANGUL[surnameOption] }
+              : {}),
           };
         })()
       : {}),
@@ -528,7 +545,12 @@ export async function generateNamingResult(
               "pronunciation: the romanized reading of the candidate's Hangul spelling, syllable by syllable, so the user can read the Hangul aloud (example shape: 왕샤오밍 -> 'Wang-sya-o-ming'). Do not put the original name's native romanization here; that belongs to source_pronunciation_basis.",
               `Language rule (mandatory, overrides any language used elsewhere in the input): write analysis_summary and every candidate's recommendation_reason, source_pronunciation_basis, syllables, cultural_fit, usage_note, and caution_notes, plus rejected_options reasons, entirely in ${String(enrichedInputFactors.outputLanguageName ?? "English")}. Never use Korean or English for these fields unless that IS the requested language. Only hangul stays in Hangul, pronunciation stays romanized, and ipa stays in IPA symbols.`,
             ].join(" ")
-          : getSystemPrompt(serviceType),
+          : serviceType === "GLOBAL_TO_KOREAN"
+            ? // 언어명을 입력 JSON에만 넣으면 gpt-4o-mini가 무시하고 한국어로 쓰는 사례가
+              // 확인되어(2026-07-22 사용자 리포트), 음차 서비스와 동일하게 시스템 프롬프트에
+              // 언어명을 직접 보간해 강제한다.
+              `${getSystemPrompt(serviceType)} Language rule (mandatory, overrides every other language instruction in this prompt or the input): write analysis_summary and every explanation field (recommendation_reason, meaning, cultural_fit, usage_note, hanja_addon_note, rejected_options reasons) entirely in ${String(enrichedInputFactors.outputLanguageName ?? "English")}. This is a Korean-naming task, but the reader does not read Korean — never write these fields in Korean or English unless that IS the requested language. Only hangul stays in Hangul and pronunciation stays romanized.`
+            : getSystemPrompt(serviceType),
       },
       {
         role: "user",
