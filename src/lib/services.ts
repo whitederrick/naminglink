@@ -134,6 +134,42 @@ export const supportedLocales: Locale[] = [
   ...secondaryLocales,
 ];
 
+// GLOBAL_TO_KOREAN에서 선택 가능한 한국 성: 상위 20개(인구 약 80% 커버) + 외국 성 소리
+// 매칭용 실존 성(왕·진·백·마·나·유). 라벨은 "한글 (로마자)"라 언어 중립적이어서 로케일 사전
+// 번역이 필요 없고, 서버(openai.ts)는 이 표로 옵션 코드를 한글 성으로 변환해 주입한다.
+export const koreanFamilyNameChoices: Array<{
+  value: string;
+  hangul: string;
+  roman: string;
+}> = [
+  { value: "kim", hangul: "김", roman: "Kim" },
+  { value: "lee", hangul: "이", roman: "Lee" },
+  { value: "park", hangul: "박", roman: "Park" },
+  { value: "choi", hangul: "최", roman: "Choi" },
+  { value: "jung", hangul: "정", roman: "Jung" },
+  { value: "kang", hangul: "강", roman: "Kang" },
+  { value: "cho", hangul: "조", roman: "Cho" },
+  { value: "yoon", hangul: "윤", roman: "Yoon" },
+  { value: "jang", hangul: "장", roman: "Jang" },
+  { value: "lim", hangul: "임", roman: "Lim" },
+  { value: "han", hangul: "한", roman: "Han" },
+  { value: "oh", hangul: "오", roman: "Oh" },
+  { value: "seo", hangul: "서", roman: "Seo" },
+  { value: "shin", hangul: "신", roman: "Shin" },
+  { value: "kwon", hangul: "권", roman: "Kwon" },
+  { value: "hwang", hangul: "황", roman: "Hwang" },
+  { value: "ahn", hangul: "안", roman: "Ahn" },
+  { value: "song", hangul: "송", roman: "Song" },
+  { value: "jeon", hangul: "전", roman: "Jeon" },
+  { value: "hong", hangul: "홍", roman: "Hong" },
+  { value: "wang", hangul: "왕", roman: "Wang" },
+  { value: "jin", hangul: "진", roman: "Jin" },
+  { value: "baek", hangul: "백", roman: "Baek" },
+  { value: "ma", hangul: "마", roman: "Ma" },
+  { value: "na", hangul: "나", roman: "Na" },
+  { value: "yoo", hangul: "유", roman: "Yoo" },
+];
+
 export const currentYear = new Date().getFullYear();
 
 export const yearOptions = Array.from({ length: 120 }, (_, index) => {
@@ -969,11 +1005,10 @@ export const services = {
             type: "select",
             options: [
               { value: "recommend", label: "추천 받기" },
-              { value: "kim", label: "김 (Kim)" },
-              { value: "lee", label: "이 (Lee)" },
-              { value: "park", label: "박 (Park)" },
-              { value: "choi", label: "최 (Choi)" },
-              { value: "jung", label: "정 (Jung)" },
+              ...koreanFamilyNameChoices.map((choice) => ({
+                value: choice.value,
+                label: `${choice.hangul} (${choice.roman})`,
+              })),
             ],
           },
           {

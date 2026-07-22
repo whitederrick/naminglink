@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import type { ServiceType } from "@/lib/services";
+import { koreanFamilyNameChoices, type ServiceType } from "@/lib/services";
 import { getMockResult } from "@/lib/mock-results";
 import { getSystemPrompt } from "@/lib/prompts";
 import { getOfficialHanjaCandidates, getOfficialHanjaMeanings } from "@/lib/official-hanja-db";
@@ -194,10 +194,11 @@ const KOREAN_SURNAME_ROMAN: Record<string, string> = {
 
 const CYRILLIC_LANGUAGES = new Set(["ru", "mn", "kk"]);
 
-// GLOBAL_TO_KOREAN 폼의 선호 성 옵션 코드 → 한글 성. "recommend"는 의도적으로 제외한다.
-const KOREAN_FAMILY_NAME_OPTION_HANGUL: Record<string, string> = {
-  kim: "김", lee: "이", park: "박", choi: "최", jung: "정",
-};
+// GLOBAL_TO_KOREAN 폼의 선호 성 옵션 코드 → 한글 성. 옵션 목록(services.ts)과 단일 원천을
+// 공유해 폼과 서버 매핑이 어긋나지 않게 한다. "recommend"는 목록에 없어 자동으로 추천 모드.
+const KOREAN_FAMILY_NAME_OPTION_HANGUL: Record<string, string> = Object.fromEntries(
+  koreanFamilyNameChoices.map((choice) => [choice.value, choice.hangul]),
+);
 
 // 비로마자 언어에서 name 필드가 로마자로 나오는 실수를 막기 위해, 사용자 메시지에 명시 규칙을 넣는다.
 const NAME_SCRIPT_RULES: Record<string, string> = {
