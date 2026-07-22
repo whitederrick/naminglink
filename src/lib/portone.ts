@@ -8,11 +8,28 @@ import {
 
 let paymentClient: ReturnType<typeof PaymentClient> | null = null;
 
-export function getPortOnePublicConfig() {
+// 결제 채널 계획(2026-07-23 확정): 포트원 경유 카카오페이(국내 KRW) + 페이팔(해외 USD).
+// 카카오페이 키가 없으면 기존 단일 채널 키(NEXT_PUBLIC_PORTONE_CHANNEL_KEY)로 폴백해
+// 테스트 채널 하나로 쓰던 기존 환경 구성이 계속 동작한다. payMethod는 채널에 따라
+// 확정된다(카카오페이=EASY_PAY, 페이팔=PAYPAL, 폴백 채널=CARD).
+export type PortOneChannel = "kakaopay" | "paypal";
+
+export function getPortOnePublicConfig(channel: PortOneChannel = "kakaopay") {
   const storeId = process.env.NEXT_PUBLIC_PORTONE_STORE_ID;
-  const channelKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY;
-  if (!storeId || !channelKey) return null;
-  return { storeId, channelKey };
+  if (!storeId) return null;
+  if (channel === "paypal") {
+    const channelKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL;
+    if (!channelKey) return null;
+    return { storeId, channelKey, payMethod: "PAYPAL" as const };
+  }
+  const kakaopayKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY;
+  const channelKey = kakaopayKey ?? process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY;
+  if (!channelKey) return null;
+  return {
+    storeId,
+    channelKey,
+    payMethod: kakaopayKey ? ("EASY_PAY" as const) : ("CARD" as const),
+  };
 }
 
 function getPaymentClient() {
@@ -31,8 +48,9 @@ export async function getVerifiedPremiumPayment(
   if (isUnrecognizedPayment(payment) || payment.status !== "PAID") {
     throw new Error("포트원에서 결제 완료 상태를 확인하지 못했습니다.");
   }
-  const config = getPortOnePublicConfig();
-  if (!config || payment.storeId !== config.storeId) {
+  // 채널과 무관하게 상점은 하나이므로 storeId만 직접 검증한다(특정 채널 키 미등록과 무관).
+  const storeId = process.env.NEXT_PUBLIC_PORTONE_STORE_ID;
+  if (!storeId || payment.storeId !== storeId) {
     throw new Error("결제 상점 정보가 일치하지 않습니다.");
   }
   if (

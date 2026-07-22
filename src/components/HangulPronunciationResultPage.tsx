@@ -292,6 +292,7 @@ export function HangulPronunciationResultPage({
               onUnlock={() =>
                 setRevealedCount((current) => Math.min(candidateCount, current + 1))
               }
+              onUnlockAll={() => setRevealedCount(candidateCount)}
             />
             <ReanalysisSection
               key={currentStored.createdAt}

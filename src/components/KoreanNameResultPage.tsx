@@ -123,6 +123,7 @@ export function KoreanNameResultPage({
               onUnlock={() =>
                 setRevealedCount((current) => Math.min(totalCount, current + 1))
               }
+              onUnlockAll={() => setRevealedCount(totalCount)}
             />
             {totalCount > 0 ? (
               <ResultAddOnServices service={service} locale={locale} />

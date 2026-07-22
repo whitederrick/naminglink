@@ -25,6 +25,7 @@ type Checkout = {
   accessToken: string;
   storeId: string;
   channelKey: string;
+  payMethod?: "CARD" | "EASY_PAY";
   orderName: string;
   totalAmount: number;
   currency: "KRW";
@@ -262,7 +263,8 @@ export function PremiumHanjaCheckoutPanel({
         orderName: nextCheckout.orderName,
         totalAmount: nextCheckout.totalAmount,
         currency: nextCheckout.currency,
-        payMethod: "CARD",
+        // 카카오페이 채널 키가 등록되면 서버가 EASY_PAY를 내려준다(폴백 채널은 CARD).
+        payMethod: nextCheckout.payMethod ?? "CARD",
         customer: nextCheckout.customer ?? undefined,
         redirectUrl: redirectUrl.toString(),
         customData: { sessionId: nextCheckout.sessionId },

@@ -39,6 +39,7 @@ const ko: AccountCopy = {
     PREMIUM_PDF: "프리미엄 리포트",
     CALLIGRAPHY_IMAGE: "캘리그래피 이미지",
     STAMP_DELIVERY: "이름 도장",
+    CANDIDATE_UNLOCK: "후보 일괄 공개",
   },
   paymentStatus: {
     UNPAID: "미결제",
@@ -76,6 +77,7 @@ const en: AccountCopy = {
     PREMIUM_PDF: "Premium report",
     CALLIGRAPHY_IMAGE: "Calligraphy image",
     STAMP_DELIVERY: "Name stamp",
+    CANDIDATE_UNLOCK: "Unlock all candidates",
   },
   paymentStatus: {
     UNPAID: "Unpaid",
@@ -113,6 +115,7 @@ const vi: AccountCopy = {
     PREMIUM_PDF: "Báo cáo cao cấp",
     CALLIGRAPHY_IMAGE: "Hình thư pháp",
     STAMP_DELIVERY: "Con dấu tên",
+    CANDIDATE_UNLOCK: "Mở toàn bộ ứng viên",
   },
   paymentStatus: {
     UNPAID: "Chưa thanh toán",
@@ -150,6 +153,7 @@ const ja: AccountCopy = {
     PREMIUM_PDF: "プレミアムレポート",
     CALLIGRAPHY_IMAGE: "カリグラフィー画像",
     STAMP_DELIVERY: "名前はんこ",
+    CANDIDATE_UNLOCK: "全候補一括公開",
   },
   paymentStatus: {
     UNPAID: "未決済",
@@ -187,6 +191,7 @@ const zh: AccountCopy = {
     PREMIUM_PDF: "高级报告",
     CALLIGRAPHY_IMAGE: "书法图像",
     STAMP_DELIVERY: "姓名印章",
+    CANDIDATE_UNLOCK: "解锁全部候选名字",
   },
   paymentStatus: {
     UNPAID: "未支付",
@@ -224,6 +229,7 @@ const th: AccountCopy = {
     PREMIUM_PDF: "รายงานพรีเมียม",
     CALLIGRAPHY_IMAGE: "ภาพอักษรวิจิตร",
     STAMP_DELIVERY: "ตราประทับชื่อ",
+    CANDIDATE_UNLOCK: "เปิดชื่อที่แนะนำทั้งหมด",
   },
   paymentStatus: {
     UNPAID: "ยังไม่ชำระเงิน",
@@ -261,6 +267,7 @@ const id: AccountCopy = {
     PREMIUM_PDF: "Laporan premium",
     CALLIGRAPHY_IMAGE: "Gambar kaligrafi",
     STAMP_DELIVERY: "Stempel nama",
+    CANDIDATE_UNLOCK: "Buka seluruh kandidat",
   },
   paymentStatus: {
     UNPAID: "Belum dibayar",
@@ -298,6 +305,7 @@ const de: AccountCopy = {
     PREMIUM_PDF: "Premium-Bericht",
     CALLIGRAPHY_IMAGE: "Kalligrafie-Bild",
     STAMP_DELIVERY: "Namensstempel",
+    CANDIDATE_UNLOCK: "Freischaltung aller Kandidaten",
   },
   paymentStatus: {
     UNPAID: "Nicht bezahlt",
@@ -335,6 +343,7 @@ const es: AccountCopy = {
     PREMIUM_PDF: "Informe premium",
     CALLIGRAPHY_IMAGE: "Imagen de caligrafía",
     STAMP_DELIVERY: "Sello de nombre",
+    CANDIDATE_UNLOCK: "Desbloqueo de todos los candidatos",
   },
   paymentStatus: {
     UNPAID: "Sin pagar",
@@ -372,6 +381,7 @@ const fr: AccountCopy = {
     PREMIUM_PDF: "Rapport premium",
     CALLIGRAPHY_IMAGE: "Image de calligraphie",
     STAMP_DELIVERY: "Tampon de nom",
+    CANDIDATE_UNLOCK: "Déblocage de tous les candidats",
   },
   paymentStatus: {
     UNPAID: "Non payé",
@@ -409,6 +419,7 @@ const it: AccountCopy = {
     PREMIUM_PDF: "Rapporto premium",
     CALLIGRAPHY_IMAGE: "Immagine di calligrafia",
     STAMP_DELIVERY: "Timbro del nome",
+    CANDIDATE_UNLOCK: "Sblocco di tutti i candidati",
   },
   paymentStatus: {
     UNPAID: "Non pagato",
@@ -446,6 +457,7 @@ const pt: AccountCopy = {
     PREMIUM_PDF: "Relatório premium",
     CALLIGRAPHY_IMAGE: "Imagem de caligrafia",
     STAMP_DELIVERY: "Carimbo de nome",
+    CANDIDATE_UNLOCK: "Desbloqueio de todos os candidatos",
   },
   paymentStatus: {
     UNPAID: "Não pago",
@@ -483,6 +495,7 @@ const ru: AccountCopy = {
     PREMIUM_PDF: "Премиум-отчёт",
     CALLIGRAPHY_IMAGE: "Каллиграфическое изображение",
     STAMP_DELIVERY: "Именная печать",
+    CANDIDATE_UNLOCK: "Открытие всех вариантов",
   },
   paymentStatus: {
     UNPAID: "Не оплачено",
@@ -520,6 +533,7 @@ const ar: AccountCopy = {
     PREMIUM_PDF: "تقرير مميّز",
     CALLIGRAPHY_IMAGE: "صورة خط فني",
     STAMP_DELIVERY: "ختم الاسم",
+    CANDIDATE_UNLOCK: "فتح جميع المرشحات",
   },
   paymentStatus: {
     UNPAID: "غير مدفوع",
@@ -557,6 +571,7 @@ const fil: AccountCopy = {
     PREMIUM_PDF: "Premium na ulat",
     CALLIGRAPHY_IMAGE: "Larawan ng calligraphy",
     STAMP_DELIVERY: "Name stamp",
+    CANDIDATE_UNLOCK: "Pagbubukas ng lahat ng kandidato",
   },
   paymentStatus: {
     UNPAID: "Hindi pa bayad",
@@ -594,6 +609,7 @@ const uz: AccountCopy = {
     PREMIUM_PDF: "Premium hisobot",
     CALLIGRAPHY_IMAGE: "Kalligrafiya tasviri",
     STAMP_DELIVERY: "Ism muhri",
+    CANDIDATE_UNLOCK: "Barcha nomzodlarni ochish",
   },
   paymentStatus: {
     UNPAID: "To'lanmagan",
@@ -631,6 +647,7 @@ const mn: AccountCopy = {
     PREMIUM_PDF: "Премиум тайлан",
     CALLIGRAPHY_IMAGE: "Уран бичлэгийн зураг",
     STAMP_DELIVERY: "Нэрийн тамга",
+    CANDIDATE_UNLOCK: "Бүх хувилбарыг нээх",
   },
   paymentStatus: {
     UNPAID: "Төлөгдөөгүй",
@@ -668,6 +685,7 @@ const hi: AccountCopy = {
     PREMIUM_PDF: "प्रीमियम रिपोर्ट",
     CALLIGRAPHY_IMAGE: "सुलेख छवि",
     STAMP_DELIVERY: "नाम की मुहर",
+    CANDIDATE_UNLOCK: "सभी उम्मीदवार नाम अनलॉक",
   },
   paymentStatus: {
     UNPAID: "अवैतनिक",
@@ -705,6 +723,7 @@ const tr: AccountCopy = {
     PREMIUM_PDF: "Premium rapor",
     CALLIGRAPHY_IMAGE: "Kaligrafi görseli",
     STAMP_DELIVERY: "İsim mührü",
+    CANDIDATE_UNLOCK: "Tüm adayların açılması",
   },
   paymentStatus: {
     UNPAID: "Ödenmedi",
@@ -742,6 +761,7 @@ const km: AccountCopy = {
     PREMIUM_PDF: "របាយការណ៍ព្រីមៀម",
     CALLIGRAPHY_IMAGE: "រូបភាពអក្សរផ្ចង់",
     STAMP_DELIVERY: "ត្រាឈ្មោះ",
+    CANDIDATE_UNLOCK: "បើកបេក្ខឈ្មោះទាំងអស់",
   },
   paymentStatus: {
     UNPAID: "មិនទាន់បង់ប្រាក់",
@@ -779,6 +799,7 @@ const ms: AccountCopy = {
     PREMIUM_PDF: "Laporan premium",
     CALLIGRAPHY_IMAGE: "Imej kaligrafi",
     STAMP_DELIVERY: "Cop nama",
+    CANDIDATE_UNLOCK: "Buka semua calon",
   },
   paymentStatus: {
     UNPAID: "Belum dibayar",
@@ -816,6 +837,7 @@ const kk: AccountCopy = {
     PREMIUM_PDF: "Премиум есеп",
     CALLIGRAPHY_IMAGE: "Каллиграфия суреті",
     STAMP_DELIVERY: "Есім мөрі",
+    CANDIDATE_UNLOCK: "Барлық нұсқаны ашу",
   },
   paymentStatus: {
     UNPAID: "Төленбеген",
@@ -853,6 +875,7 @@ const pl: AccountCopy = {
     PREMIUM_PDF: "Raport premium",
     CALLIGRAPHY_IMAGE: "Obraz kaligrafii",
     STAMP_DELIVERY: "Pieczęć imienna",
+    CANDIDATE_UNLOCK: "Odblokowanie wszystkich kandydatów",
   },
   paymentStatus: {
     UNPAID: "Nieopłacone",

@@ -65,22 +65,40 @@ export async function POST(request: Request) {
     if (type === "Transaction.Paid" && paymentId) {
       const { data: order } = await supabase
         .from("orders")
-        .select("id,payment_amount")
+        .select("id,order_type,payment_amount,payment_currency,metadata")
         .eq("provider_payment_id", paymentId)
         .maybeSingle();
       if (!order) throw new Error("웹훅 결제에 해당하는 주문이 없습니다.");
       const payment = await getVerifiedPremiumPayment(
         paymentId,
         Number(order.payment_amount),
-        "KRW",
+        String(order.payment_currency ?? "KRW"),
       );
-      const { data: session } = await supabase
-        .from("premium_analysis_sessions")
-        .select("id")
-        .eq("order_id", order.id)
-        .maybeSingle();
-      if (!session) throw new Error("웹훅 결제에 해당하는 분석 세션이 없습니다.");
-      await markPremiumSessionPaid(String(session.id), String(order.id), payment);
+      if (order.order_type === "CANDIDATE_UNLOCK") {
+        // 일괄 공개는 분석 세션이 없는 즉시 전달 상품 — 주문만 결제·처리 완료로 만든다
+        // (confirm 라우트와 동일 처리, 웹훅이 먼저 도착해도 confirm은 멱등이라 안전).
+        await supabase
+          .from("orders")
+          .update({
+            payment_status: "PAID",
+            fulfillment_status: "COMPLETED",
+            metadata: {
+              ...record(order.metadata),
+              transactionId: payment.transactionId,
+              paidAt: payment.paidAt,
+            },
+            updated_at: new Date().toISOString(),
+          })
+          .eq("id", order.id);
+      } else {
+        const { data: session } = await supabase
+          .from("premium_analysis_sessions")
+          .select("id")
+          .eq("order_id", order.id)
+          .maybeSingle();
+        if (!session) throw new Error("웹훅 결제에 해당하는 분석 세션이 없습니다.");
+        await markPremiumSessionPaid(String(session.id), String(order.id), payment);
+      }
     } else if (type === "Transaction.Cancelled" && paymentId) {
       const now = new Date().toISOString();
       const { data: order } = await supabase

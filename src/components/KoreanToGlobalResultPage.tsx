@@ -104,6 +104,7 @@ export function KoreanToGlobalResultPage({
                   Math.min(totalCount, current + 1),
                 )
               }
+              onUnlockAll={() => setRevealedCount(totalCount)}
             />
             {totalCount > 0 ? (
               <ResultAddOnServices service={services.koreanToGlobal} />

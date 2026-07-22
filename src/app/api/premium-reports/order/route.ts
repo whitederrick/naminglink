@@ -183,6 +183,7 @@ export async function POST(request: NextRequest) {
         accessToken: access.token,
         storeId: portone.storeId,
         channelKey: portone.channelKey,
+        payMethod: portone.payMethod,
         productCode: product.code,
         candidateLimit: product.candidateLimit,
         includesSaju: product.includesSaju,

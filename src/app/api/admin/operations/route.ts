@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
 
   if (view === "orders") {
     const { data, error } = await supabase.from("orders")
-      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address")
+      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address")
       .order("created_at", { ascending: false }).limit(300);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
     return NextResponse.json({ ok: true, orders: (data ?? []).map(({ shipping_address, ...order }) => ({ ...order, has_shipping_address: Boolean(shipping_address) })) });
@@ -50,7 +50,7 @@ export async function GET(request: NextRequest) {
   // 대시보드의 주문·결제 현황: 결제는 됐지만 제작·배송 처리가 끝나지 않은 주문 목록.
   // 오래 기다린 주문부터 처리하도록 주문일 오름차순으로 내려준다.
   const { data: pendingOrders, error: pendingError } = await supabase.from("orders")
-    .select("id,order_type,customer_name,customer_email,payment_amount,fulfillment_status,created_at")
+    .select("id,order_type,customer_name,customer_email,payment_amount,payment_currency,fulfillment_status,created_at")
     .eq("payment_status", "PAID")
     .in("fulfillment_status", ["PENDING", "PROCESSING", "SHIPPED"])
     .order("created_at", { ascending: true }).limit(300);

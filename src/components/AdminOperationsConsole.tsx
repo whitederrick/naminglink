@@ -252,7 +252,12 @@ const orderTypeLabels: Record<string, string> = {
   PREMIUM_PDF: "프리미엄 PDF",
   CALLIGRAPHY_IMAGE: "캘리그라피",
   STAMP_DELIVERY: "도장 배송",
+  CANDIDATE_UNLOCK: "후보 일괄 공개",
 };
+
+// USD 주문의 payment_amount는 센트 단위 정수로 저장되므로 원화와 표기를 구분한다.
+const orderAmount = (amount: number, currency?: string | null) =>
+  currency === "USD" ? `US$${(amount / 100).toFixed(2)}` : `${number.format(amount)}원`;
 
 function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body: Record<string, string>) => void }) {
   const [search, setSearch] = useState("");
@@ -277,7 +282,18 @@ function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body:
       <div className="grid gap-4 sm:grid-cols-3">
         <Metric label="전체 주문" value={number.format(orders.length)} />
         <Metric label="결제 완료" value={number.format(paid.length)} />
-        <Metric label="결제 매출" value={`${number.format(paid.reduce((sum, order) => sum + Number(order.payment_amount), 0))}원`} />
+        <Metric
+          label="결제 매출"
+          value={(() => {
+            const krw = paid
+              .filter((order) => String(order.payment_currency ?? "KRW") !== "USD")
+              .reduce((sum, order) => sum + Number(order.payment_amount), 0);
+            const usdCents = paid
+              .filter((order) => String(order.payment_currency) === "USD")
+              .reduce((sum, order) => sum + Number(order.payment_amount), 0);
+            return `${number.format(krw)}원${usdCents ? ` + US$${(usdCents / 100).toFixed(2)}` : ""}`;
+          })()}
+        />
       </div>
       <FilterBar>
         <FilterSearch value={search} onChange={setSearch} placeholder="구매자 이메일·이름 검색" />
@@ -301,10 +317,10 @@ function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body:
         headers={["주문일", "상품", "구매자", "결제", "금액", "처리", "배송정보"]}
         rows={paged.pageItems.map((order) => [
           date.format(new Date(String(order.created_at))),
-          order.order_type,
+          orderTypeLabels[String(order.order_type)] ?? order.order_type,
           order.customer_email ?? order.customer_name ?? "-",
           order.payment_status,
-          `${number.format(Number(order.payment_amount))}원`,
+          orderAmount(Number(order.payment_amount), order.payment_currency as string | null),
           <select
             key="status"
             value={String(order.fulfillment_status)}
@@ -458,6 +474,7 @@ type PendingOrderRow = {
   customer_name: string | null;
   customer_email: string | null;
   payment_amount: number;
+  payment_currency: string | null;
   fulfillment_status: string;
   created_at: string;
 };
@@ -543,7 +560,7 @@ function DashboardView({ snapshot, summary, pendingOrders }: { snapshot: Snapsho
                 {row.customer_email ?? row.customer_name ?? "-"}
               </div>,
               orderTypeLabels[row.order_type] ?? row.order_type,
-              `${number.format(row.payment_amount)}원`,
+              orderAmount(row.payment_amount, row.payment_currency),
               fulfillmentLabels[row.fulfillment_status] ?? row.fulfillment_status,
             ])}
           />

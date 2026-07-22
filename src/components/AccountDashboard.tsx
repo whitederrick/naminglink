@@ -20,6 +20,7 @@ type OrderRow = {
   paymentStatus: string;
   fulfillmentStatus: string;
   amount: number;
+  currency?: string;
   createdAt: string;
 };
 
@@ -257,7 +258,9 @@ export function AccountDashboard({ locale }: { locale?: string }) {
                     <span className="flex items-center gap-3 text-xs text-muted">
                       {order.amount > 0 ? (
                         <span className="font-semibold text-foreground">
-                          ₩{order.amount.toLocaleString()}
+                          {order.currency === "USD"
+                            ? `US$${(order.amount / 100).toFixed(2)}`
+                            : `₩${order.amount.toLocaleString()}`}
                         </span>
                       ) : null}
                       {formatDate(order.createdAt, locale ?? "ko")}

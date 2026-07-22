@@ -55,7 +55,7 @@ export async function GET(request: NextRequest) {
     supabase
       .from("orders")
       .select(
-        "id,order_type,payment_status,fulfillment_status,payment_amount,created_at",
+        "id,order_type,payment_status,fulfillment_status,payment_amount,payment_currency,created_at",
       )
       .eq("user_id", user.id)
       .order("created_at", { ascending: false })
@@ -85,6 +85,7 @@ export async function GET(request: NextRequest) {
     paymentStatus: row.payment_status as string,
     fulfillmentStatus: row.fulfillment_status as string,
     amount: (row.payment_amount as number) ?? 0,
+    currency: (row.payment_currency as string) ?? "KRW",
     createdAt: row.created_at as string,
   }));
 

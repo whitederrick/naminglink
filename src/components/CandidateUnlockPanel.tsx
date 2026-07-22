@@ -1,7 +1,8 @@
 "use client";
 
+import * as PortOne from "@portone/browser-sdk/v2";
 import { CreditCard, Eye, Unlock } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { trackAdEvent } from "@/lib/analytics-client";
 
@@ -19,6 +20,9 @@ type UnlockCopy = {
   hanjaProductsLink: string;
   bulkButton: string;
   bulkPreparing: string;
+  bulkButtonReady: string;
+  bulkPaying: string;
+  bulkFailed: string;
 };
 
 const unlockCopies: Record<string, UnlockCopy> = {
@@ -35,6 +39,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "전체 후보 상품 보기 · 2,900원부터",
     bulkButton: "전체 후보 일괄 공개 · 990원 (준비 중)",
     bulkPreparing: "결제 기능 준비 중입니다.",
+    bulkButtonReady: "전체 후보 일괄 공개 · 990원",
+    bulkPaying: "결제 진행 중…",
+    bulkFailed: "결제가 완료되지 않았습니다. 다시 시도해 주세요.",
   },
   vi: {
     title: "Mở thêm ứng viên",
@@ -49,6 +56,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Xem gói toàn bộ ứng viên · từ ₩2.900",
     bulkButton: "Mở toàn bộ ứng viên · US$1.99 (sắp ra mắt)",
     bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
+    bulkButtonReady: "Mở toàn bộ ứng viên · US$1.99",
+    bulkPaying: "Đang xử lý thanh toán…",
+    bulkFailed: "Thanh toán chưa hoàn tất. Vui lòng thử lại.",
   },
   th: {
     title: "เปิดชื่อที่แนะนำเพิ่มเติม",
@@ -63,6 +73,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "ดูแพ็กเกจชื่อที่แนะนำทั้งหมด · เริ่มต้น ₩2,900",
     bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · US$1.99 (เร็ว ๆ นี้)",
     bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
+    bulkButtonReady: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · US$1.99",
+    bulkPaying: "กำลังดำเนินการชำระเงิน…",
+    bulkFailed: "การชำระเงินยังไม่เสร็จสิ้น กรุณาลองอีกครั้ง",
   },
   ja: {
     title: "追加の候補を開く",
@@ -77,6 +90,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "全候補の商品を見る · ₩2,900から",
     bulkButton: "全候補を一括公開 · US$1.99（準備中）",
     bulkPreparing: "決済機能は準備中です。",
+    bulkButtonReady: "全候補を一括公開 · US$1.99",
+    bulkPaying: "決済処理中…",
+    bulkFailed: "決済が完了しませんでした。もう一度お試しください。",
   },
   zh: {
     title: "解锁更多候选名字",
@@ -91,6 +107,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "查看全部候选产品 · ₩2,900 起",
     bulkButton: "一次性解锁全部候选名字 · US$1.99（即将上线）",
     bulkPreparing: "支付功能即将上线。",
+    bulkButtonReady: "一次性解锁全部候选名字 · US$1.99",
+    bulkPaying: "正在处理付款…",
+    bulkFailed: "付款未完成，请重试。",
   },
   id: {
     title: "Buka kandidat lainnya",
@@ -105,6 +124,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Lihat produk seluruh kandidat · mulai ₩2,900",
     bulkButton: "Buka seluruh kandidat sekaligus · US$1.99 (segera hadir)",
     bulkPreparing: "Fitur pembayaran segera hadir.",
+    bulkButtonReady: "Buka seluruh kandidat sekaligus · US$1.99",
+    bulkPaying: "Memproses pembayaran…",
+    bulkFailed: "Pembayaran belum selesai. Silakan coba lagi.",
   },
   de: {
     title: "Weitere Kandidaten freischalten",
@@ -119,6 +141,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Alle Kandidaten-Produkte ansehen · ab ₩2,900",
     bulkButton: "Alle Kandidaten freischalten · US$1.99 (in Vorbereitung)",
     bulkPreparing: "Die Zahlungsfunktion ist in Vorbereitung.",
+    bulkButtonReady: "Alle Kandidaten freischalten · US$1.99",
+    bulkPaying: "Zahlung wird verarbeitet…",
+    bulkFailed: "Die Zahlung wurde nicht abgeschlossen. Bitte versuchen Sie es erneut.",
   },
   es: {
     title: "Desbloquea más candidatos",
@@ -133,6 +158,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Ver productos con todos los candidatos · desde ₩2,900",
     bulkButton: "Desbloquear todos los candidatos · US$1.99 (próximamente)",
     bulkPreparing: "El pago estará disponible próximamente.",
+    bulkButtonReady: "Desbloquear todos los candidatos · US$1.99",
+    bulkPaying: "Procesando el pago…",
+    bulkFailed: "El pago no se completó. Inténtalo de nuevo.",
   },
   fr: {
     title: "Débloquez plus de candidats",
@@ -147,6 +175,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Voir les offres tous candidats · à partir de ₩2,900",
     bulkButton: "Débloquer tous les candidats · US$1.99 (bientôt)",
     bulkPreparing: "Le paiement sera bientôt disponible.",
+    bulkButtonReady: "Débloquer tous les candidats · US$1.99",
+    bulkPaying: "Paiement en cours…",
+    bulkFailed: "Le paiement n'a pas été finalisé. Veuillez réessayer.",
   },
   it: {
     title: "Sblocca altri candidati",
@@ -161,6 +192,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Vedi i prodotti con tutti i candidati · da ₩2,900",
     bulkButton: "Sblocca tutti i candidati · US$1.99 (in arrivo)",
     bulkPreparing: "Il pagamento sarà presto disponibile.",
+    bulkButtonReady: "Sblocca tutti i candidati · US$1.99",
+    bulkPaying: "Pagamento in corso…",
+    bulkFailed: "Il pagamento non è stato completato. Riprova.",
   },
   pt: {
     title: "Desbloqueie mais candidatos",
@@ -175,6 +209,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Ver produtos com todos os candidatos · a partir de ₩2,900",
     bulkButton: "Desbloquear todos os candidatos · US$1.99 (em breve)",
     bulkPreparing: "O pagamento estará disponível em breve.",
+    bulkButtonReady: "Desbloquear todos os candidatos · US$1.99",
+    bulkPaying: "Processando o pagamento…",
+    bulkFailed: "O pagamento não foi concluído. Tente novamente.",
   },
   ru: {
     title: "Откройте больше вариантов",
@@ -189,6 +226,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Смотреть продукты со всеми вариантами · от ₩2,900",
     bulkButton: "Открыть все варианты · US$1.99 (скоро)",
     bulkPreparing: "Оплата скоро появится.",
+    bulkButtonReady: "Открыть все варианты · US$1.99",
+    bulkPaying: "Обработка платежа…",
+    bulkFailed: "Платёж не был завершён. Попробуйте ещё раз.",
   },
   ar: {
     title: "افتح مزيدًا من المرشحات",
@@ -203,6 +243,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "عرض منتجات جميع المرشحات · ابتداءً من ₩2,900",
     bulkButton: "فتح جميع المرشحات · US$1.99 (قريبًا)",
     bulkPreparing: "الدفع متاح قريبًا.",
+    bulkButtonReady: "فتح جميع المرشحات · US$1.99",
+    bulkPaying: "جارٍ معالجة الدفع…",
+    bulkFailed: "لم يكتمل الدفع. يرجى المحاولة مرة أخرى.",
   },
   tr: {
     title: "Daha fazla adayın kilidini açın",
@@ -217,6 +260,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Tüm aday ürünlerini gör · ₩2,900'dan itibaren",
     bulkButton: "Tüm adayları aç · US$1.99 (yakında)",
     bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
+    bulkButtonReady: "Tüm adayları aç · US$1.99",
+    bulkPaying: "Ödeme işleniyor…",
+    bulkFailed: "Ödeme tamamlanmadı. Lütfen tekrar deneyin.",
   },
   fil: {
     title: "Magbukas ng higit pang kandidato",
@@ -231,6 +277,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Tingnan ang mga produkto ng buong kandidato · mula ₩2,900",
     bulkButton: "Buksan ang lahat ng kandidato · US$1.99 (malapit na)",
     bulkPreparing: "Malapit nang magbukas ang pagbabayad.",
+    bulkButtonReady: "Buksan ang lahat ng kandidato · US$1.99",
+    bulkPaying: "Pinoproseso ang bayad…",
+    bulkFailed: "Hindi natapos ang bayad. Pakisubukang muli.",
   },
   uz: {
     title: "Ko‘proq nomzodlarni oching",
@@ -245,6 +294,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Barcha nomzodli mahsulotlarni ko‘rish · ₩2,900 dan",
     bulkButton: "Barcha nomzodlarni ochish · US$1.99 (tez orada)",
     bulkPreparing: "To‘lov tez orada ishga tushadi.",
+    bulkButtonReady: "Barcha nomzodlarni ochish · US$1.99",
+    bulkPaying: "To‘lov amalga oshirilmoqda…",
+    bulkFailed: "To‘lov yakunlanmadi. Qayta urinib ko‘ring.",
   },
   mn: {
     title: "Нэрийн хувилбар нэмж нээх",
@@ -259,6 +311,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Бүх хувилбарын бүтээгдэхүүнийг үзэх · ₩2,900-с эхэлнэ",
     bulkButton: "Бүх хувилбарыг нэг дор нээх · US$1.99 (тун удахгүй)",
     bulkPreparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
+    bulkButtonReady: "Бүх хувилбарыг нэг дор нээх · US$1.99",
+    bulkPaying: "Төлбөр боловсруулж байна…",
+    bulkFailed: "Төлбөр амжилтгүй боллоо. Дахин оролдоно уу.",
   },
   hi: {
     title: "और उम्मीदवार नाम अनलॉक करें",
@@ -273,6 +328,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "सभी उम्मीदवार नामों के प्रोडक्ट देखें · ₩2,900 से",
     bulkButton: "सभी उम्मीदवार नाम अनलॉक करें · US$1.99 (जल्द आ रहा है)",
     bulkPreparing: "भुगतान सुविधा जल्द आ रही है।",
+    bulkButtonReady: "सभी उम्मीदवार नाम अनलॉक करें · US$1.99",
+    bulkPaying: "भुगतान प्रोसेस हो रहा है…",
+    bulkFailed: "भुगतान पूरा नहीं हुआ। कृपया फिर से कोशिश करें।",
   },
   km: {
     title: "បើកបេក្ខឈ្មោះបន្ថែម",
@@ -287,6 +345,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "មើលផលិតផលបេក្ខឈ្មោះទាំងអស់ · ចាប់ពី ₩2,900",
     bulkButton: "បើកបេក្ខឈ្មោះទាំងអស់ · US$1.99 (ឆាប់ៗនេះ)",
     bulkPreparing: "មុខងារទូទាត់នឹងមកដល់ឆាប់ៗនេះ។",
+    bulkButtonReady: "បើកបេក្ខឈ្មោះទាំងអស់ · US$1.99",
+    bulkPaying: "កំពុងដំណើរការទូទាត់…",
+    bulkFailed: "ការទូទាត់មិនបានបញ្ចប់ទេ។ សូមព្យាយាមម្តងទៀត។",
   },
   kk: {
     title: "Қосымша есім нұсқаларын ашу",
@@ -301,6 +362,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Барлық нұсқа қамтылған өнімдерді көру · ₩2,900-ден бастап",
     bulkButton: "Барлық нұсқаны бірден ашу · US$1.99 (жақында)",
     bulkPreparing: "Төлем мүмкіндігі жақында қосылады.",
+    bulkButtonReady: "Барлық нұсқаны бірден ашу · US$1.99",
+    bulkPaying: "Төлем өңделуде…",
+    bulkFailed: "Төлем аяқталмады. Қайталап көріңіз.",
   },
   ms: {
     title: "Buka lebih banyak calon",
@@ -315,6 +379,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Lihat produk semua calon · dari ₩2,900",
     bulkButton: "Buka semua calon sekali gus · US$1.99 (akan datang)",
     bulkPreparing: "Fungsi pembayaran akan datang tidak lama lagi.",
+    bulkButtonReady: "Buka semua calon sekali gus · US$1.99",
+    bulkPaying: "Memproses pembayaran…",
+    bulkFailed: "Pembayaran tidak selesai. Sila cuba lagi.",
   },
   pl: {
     title: "Odblokuj więcej kandydatów",
@@ -329,6 +396,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "Zobacz produkty ze wszystkimi kandydatami · od ₩2,900",
     bulkButton: "Odblokuj wszystkich kandydatów · US$1.99 (wkrótce)",
     bulkPreparing: "Płatności będą dostępne wkrótce.",
+    bulkButtonReady: "Odblokuj wszystkich kandydatów · US$1.99",
+    bulkPaying: "Przetwarzanie płatności…",
+    bulkFailed: "Płatność nie została ukończona. Spróbuj ponownie.",
   },
   en: {
     title: "Unlock more candidates",
@@ -343,8 +413,26 @@ const unlockCopies: Record<string, UnlockCopy> = {
     hanjaProductsLink: "View full candidate products · from ₩2,900",
     bulkButton: "Unlock all candidates · US$1.99 (coming soon)",
     bulkPreparing: "Payment is coming soon.",
+    bulkButtonReady: "Unlock all candidates · US$1.99",
+    bulkPaying: "Processing payment…",
+    bulkFailed: "The payment was not completed. Please try again.",
   },
 };
+
+type UnlockCheckout = {
+  orderId: string;
+  paymentId: string;
+  storeId: string;
+  channelKey: string;
+  payMethod: "CARD" | "EASY_PAY" | "PAYPAL";
+  uiType: "PAYPAL_SPB" | null;
+  orderName: string;
+  totalAmount: number;
+  currency: "KRW" | "USD";
+};
+
+// 모바일 간편결제 리디렉션 복귀 시 confirm에 필요한 주문 정보(비밀 아님, 같은 탭 한정).
+const PENDING_UNLOCK_KEY = "nl_unlock_pending";
 
 export function CandidateUnlockPanel({
   revealedCount,
@@ -352,20 +440,191 @@ export function CandidateUnlockPanel({
   locale,
   serviceType,
   onUnlock,
+  onUnlockAll,
 }: {
   revealedCount: number;
   totalCount: number;
   locale?: string;
   serviceType?: string;
   onUnlock: () => void;
+  onUnlockAll?: () => void;
 }) {
   const [loading, setLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
+  const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
+  const [bulkError, setBulkError] = useState("");
+  const [paypalCheckout, setPaypalCheckout] = useState<UnlockCheckout | null>(null);
+  const redirectHandled = useRef(false);
   const remainingCount = Math.max(0, totalCount - revealedCount);
-  const copy =
-    serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko"
-      ? unlockCopies[locale] ?? unlockCopies.en
-      : unlockCopies.ko;
+  const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
+  const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
+  // 문구와 동일한 기준으로 결제권역 결정: 외국인 대상 화면=페이팔 US$1.99, 그 외=카카오페이 990원.
+  const region = isForeign ? "global" : "domestic";
+  // NEXT_PUBLIC_* 값은 빌드 시 클라이언트 번들에 인라인되므로 채널 키 미등록이면 버튼이 "준비 중"으로 남는다.
+  const bulkConfigured = Boolean(
+    process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
+      (region === "global"
+        ? process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL
+        : process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY ??
+          process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY),
+  );
+
+  async function confirmUnlock(orderId: string, paymentId: string) {
+    const response = await fetch("/api/candidate-unlock/confirm", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ orderId, paymentId }),
+    });
+    const data = (await response.json().catch(() => null)) as
+      | { ok?: boolean; error?: string }
+      | null;
+    if (!response.ok || !data?.ok) throw new Error(data?.error || copy.bulkFailed);
+  }
+
+  async function unlockAllWithPayment() {
+    if (bulkStage !== "idle") return;
+    setBulkError("");
+    setBulkStage("ordering");
+    try {
+      const response = await fetch("/api/candidate-unlock/order", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ region, serviceType, locale }),
+      });
+      const data = (await response.json().catch(() => null)) as
+        | { ok?: boolean; error?: string; checkout?: UnlockCheckout }
+        | null;
+      if (!response.ok || !data?.ok || !data.checkout) {
+        throw new Error(data?.error || copy.bulkFailed);
+      }
+      const checkout = data.checkout;
+      if (checkout.uiType === "PAYPAL_SPB") {
+        // 페이팔은 결제창 팝업이 아니라 SPB 버튼을 패널 안에 렌더하는 방식(loadPaymentUI).
+        setPaypalCheckout(checkout);
+        setBulkStage("paypal");
+        return;
+      }
+      setBulkStage("paying");
+      // 모바일 간편결제는 리디렉션으로 페이지를 떠나므로 복구 정보를 먼저 남긴다.
+      sessionStorage.setItem(
+        PENDING_UNLOCK_KEY,
+        JSON.stringify({ orderId: checkout.orderId, paymentId: checkout.paymentId }),
+      );
+      const redirectUrl = new URL(window.location.href);
+      redirectUrl.searchParams.set("unlockOrder", checkout.orderId);
+      const payment = await PortOne.requestPayment({
+        storeId: checkout.storeId,
+        channelKey: checkout.channelKey,
+        paymentId: checkout.paymentId,
+        orderName: checkout.orderName,
+        totalAmount: checkout.totalAmount,
+        currency: checkout.currency,
+        payMethod: checkout.payMethod,
+        redirectUrl: redirectUrl.toString(),
+      });
+      if (!payment) return;
+      if (payment.code) throw new Error(payment.message || copy.bulkFailed);
+      if (payment.paymentId !== checkout.paymentId) throw new Error(copy.bulkFailed);
+      await confirmUnlock(checkout.orderId, checkout.paymentId);
+      sessionStorage.removeItem(PENDING_UNLOCK_KEY);
+      setBulkStage("idle");
+      onUnlockAll?.();
+    } catch (caught) {
+      sessionStorage.removeItem(PENDING_UNLOCK_KEY);
+      setBulkStage("idle");
+      setBulkError(caught instanceof Error ? caught.message : copy.bulkFailed);
+    }
+  }
+
+  // 페이팔 SPB 버튼 렌더: 컨테이너(div.portone-ui-container)가 그려진 뒤 SDK를 호출해야 한다.
+  useEffect(() => {
+    if (bulkStage !== "paypal" || !paypalCheckout) return;
+    const checkout = paypalCheckout;
+    const finish = (error?: string) => {
+      setBulkStage("idle");
+      setPaypalCheckout(null);
+      if (error) setBulkError(error);
+    };
+    void PortOne.loadPaymentUI(
+      {
+        uiType: "PAYPAL_SPB",
+        storeId: checkout.storeId,
+        channelKey: checkout.channelKey,
+        paymentId: checkout.paymentId,
+        orderName: checkout.orderName,
+        totalAmount: checkout.totalAmount,
+        currency: checkout.currency,
+      },
+      {
+        onPaymentSuccess: () => {
+          void confirmUnlock(checkout.orderId, checkout.paymentId)
+            .then(() => {
+              finish();
+              onUnlockAll?.();
+            })
+            .catch((caught) =>
+              finish(caught instanceof Error ? caught.message : copy.bulkFailed),
+            );
+        },
+        onPaymentFail: (error) => finish(error.message || copy.bulkFailed),
+      },
+    ).catch((caught) =>
+      finish(caught instanceof Error ? caught.message : copy.bulkFailed),
+    );
+    // SPB 렌더는 결제 시도 단위로 한 번만 실행한다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bulkStage, paypalCheckout]);
+
+  // 간편결제 리디렉션 복귀 처리: 결제 후 돌아온 URL의 주문 식별값으로 confirm을 마저 수행한다.
+  useEffect(() => {
+    if (redirectHandled.current) return;
+    const params = new URLSearchParams(window.location.search);
+    const orderId = params.get("unlockOrder");
+    if (!orderId) return;
+    redirectHandled.current = true;
+    const failureCode = params.get("code");
+    const failureMessage = params.get("message");
+    const clearParams = () => {
+      for (const key of ["unlockOrder", "paymentId", "txId", "code", "message"]) {
+        params.delete(key);
+      }
+      const query = params.toString();
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${query ? `?${query}` : ""}`,
+      );
+    };
+    const pendingRaw = sessionStorage.getItem(PENDING_UNLOCK_KEY);
+    sessionStorage.removeItem(PENDING_UNLOCK_KEY);
+    let pending: { orderId?: string; paymentId?: string } | null = null;
+    try {
+      pending = pendingRaw
+        ? (JSON.parse(pendingRaw) as { orderId?: string; paymentId?: string })
+        : null;
+    } catch {
+      pending = null;
+    }
+    void Promise.resolve()
+      .then(async () => {
+        if (failureCode) throw new Error(failureMessage || copy.bulkFailed);
+        if (!pending || pending.orderId !== orderId || !pending.paymentId) {
+          throw new Error(copy.bulkFailed);
+        }
+        setBulkStage("paying");
+        await confirmUnlock(orderId, pending.paymentId);
+        onUnlockAll?.();
+      })
+      .catch((caught) => {
+        setBulkError(caught instanceof Error ? caught.message : copy.bulkFailed);
+      })
+      .finally(() => {
+        setBulkStage("idle");
+        clearParams();
+      });
+    // 리디렉션 복구는 최초 마운트에서 한 번만 실행한다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function unlockWithAd() {
     if (loading || remainingCount === 0) return;
@@ -438,6 +697,16 @@ export function CandidateUnlockPanel({
             <CreditCard aria-hidden="true" size={17} />
             {copy.hanjaProductsLink}
           </a>
+        ) : bulkConfigured ? (
+          <button
+            type="button"
+            onClick={unlockAllWithPayment}
+            disabled={bulkStage !== "idle"}
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-background disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            <CreditCard aria-hidden="true" size={17} />
+            {bulkStage === "idle" ? copy.bulkButtonReady : copy.bulkPaying}
+          </button>
         ) : (
           <button
             type="button"
@@ -450,6 +719,11 @@ export function CandidateUnlockPanel({
           </button>
         )}
       </div>
+
+      {bulkStage === "paypal" ? <div className="portone-ui-container mt-4" /> : null}
+      {bulkError ? (
+        <p className="mt-3 text-sm font-medium text-red-600">{bulkError}</p>
+      ) : null}
     </section>
   );
 }

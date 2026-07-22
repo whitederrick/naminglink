@@ -941,6 +941,7 @@ export function NamingForm({
                   Math.min(candidateCount, current + 1),
                 )
               }
+              onUnlockAll={() => setRevealedCount(candidateCount)}
             />
             <ResultAddOnServices service={service} />
           </div>
