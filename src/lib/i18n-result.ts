@@ -192,7 +192,7 @@ const zh: ResultCopy = {
   reanalysisDescription:
     "输入更具体的实际发音后，我们会以相同的名字、语言和国家条件重新分析。",
   hintLabel: "实际发音提示",
-  hintPlaceholder: "例如：读音接近 Dan-yell",
+  hintPlaceholder: "例如：读音接近 Wang Xiao-ming",
   reanalysisCountdown: (seconds) => `观看广告后将重新分析。${seconds} 秒`,
   reanalyzing: "正在重新分析",
   goodsEyebrow: "让结果发挥更多价值",
