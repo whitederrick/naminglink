@@ -494,8 +494,101 @@ const tr: ResultCopy = {
   backToInput: "Giriş ekranına dön",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr };
+const fil: ResultCopy = {
+  reanalysisError: "Hindi namin natapos ang muling pagsusuri ng bigkas.",
+  reanalysisErrorGeneric: "May naganap na error habang muling nagsusuri.",
+  reanalysisEyebrow: "Iba ba ito sa aktwal na bigkas?",
+  reanalysisTitle: "Suriing muli gamit ang pahiwatig sa bigkas",
+  reanalysisDescription:
+    "Ilagay nang mas espesipiko ang aktwal na bigkas at susuriin naming muli gamit ang parehong pangalan, wika, at bansa.",
+  hintLabel: "Pahiwatig sa bigkas",
+  hintPlaceholder: "Hal.: binibigkas na parang Hu-wan De-la Cruz",
+  reanalysisCountdown: (seconds) => `Susuriin muli pagkatapos ng ad. ${seconds} segundo`,
+  reanalyzing: "Muling sinusuri",
+  goodsEyebrow: "Sulitin pa ang iyong resulta",
+  goodsSectionTitle: "Merchandise ng pangalan",
+  goodsItemTitle: "Merchandise ng pangalang Hangul",
+  goodsItemSub: "(cap, keyring, t-shirt, at iba pa)",
+  goodsItemDescription:
+    "Ilagay ang napili mong pangalang Hangul sa cap, keyring, t-shirt, at iba pa para gumawa ng sarili mong merchandise.",
+  goodsButton: "Malapit nang magbukas ang pag-order ng merchandise",
+  editInput: "I-edit ang input",
+  home: "Home",
+  headerAdLabel: "Banner ad sa itaas ng resulta ng Hangul",
+  headerCaption: "Resulta ng pagsusuri ng bigkas sa Hangul",
+  loading: "Nilo-load ang iyong resulta.",
+  analysisDone: "Tapos na ang pagsusuri",
+  resultHeading: "Ang iyong pangalan sa bigkas na Hangul",
+  emptyTitle: "Hindi namin ma-load ang iyong resulta.",
+  emptyDescription:
+    "Makikita lamang ang resultang ito sa browser tab kung saan mo pinatakbo ang pagsusuri.",
+  backToInput: "Bumalik sa input screen",
+};
+
+const uz: ResultCopy = {
+  reanalysisError: "Talaffuzni qayta tahlil qilishni yakunlay olmadik.",
+  reanalysisErrorGeneric: "Qayta tahlil paytida xatolik yuz berdi.",
+  reanalysisEyebrow: "Haqiqiy talaffuzdan farq qiladimi?",
+  reanalysisTitle: "Talaffuz ko‘rsatmasi bilan qayta tahlil qilish",
+  reanalysisDescription:
+    "Haqiqiy talaffuzni aniqroq kiriting — o‘sha ism, til va mamlakat bilan qayta tahlil qilamiz.",
+  hintLabel: "Talaffuz ko‘rsatmasi",
+  hintPlaceholder: "Masalan: A-ziz Ka-ri-mov kabi o‘qiladi",
+  reanalysisCountdown: (seconds) => `Reklamadan so‘ng qayta tahlil qilamiz. ${seconds} soniya`,
+  reanalyzing: "Qayta tahlil qilinmoqda",
+  goodsEyebrow: "Natijangizdan ko‘proq foydalaning",
+  goodsSectionTitle: "Ismli esdalik buyumlari",
+  goodsItemTitle: "Hangul ismli esdalik buyumlari",
+  goodsItemSub: "(kepka, brelok, futbolka va boshqalar)",
+  goodsItemDescription:
+    "Tanlagan Hangul ismingizni kepka, brelok, futbolka va boshqa buyumlarga tushirib, o‘zingizning esdalik buyumlaringizni yarating.",
+  goodsButton: "Esdalik buyumlariga buyurtma tez orada ochiladi",
+  editInput: "Ma’lumotlarni tahrirlash",
+  home: "Bosh sahifa",
+  headerAdLabel: "Hangul natijasi yuqorisidagi banner reklama",
+  headerCaption: "Hangul talaffuz tahlili natijasi",
+  loading: "Natijangiz yuklanmoqda.",
+  analysisDone: "Tahlil yakunlandi",
+  resultHeading: "Ismingizning Hangul talaffuz yozuvi",
+  emptyTitle: "Natijangizni yuklay olmadik.",
+  emptyDescription:
+    "Bu natija faqat tahlil o‘tkazilgan brauzer tabida ko‘rinadi.",
+  backToInput: "Kiritish oynasiga qaytish",
+};
+
+const mn: ResultCopy = {
+  reanalysisError: "Дуудлагын дахин шинжилгээг дуусгаж чадсангүй.",
+  reanalysisErrorGeneric: "Дахин шинжлэх явцад алдаа гарлаа.",
+  reanalysisEyebrow: "Бодит дуудлагаас өөр сонсогдож байна уу?",
+  reanalysisTitle: "Дуудлагын зөвлөмжтэйгөөр дахин шинжлэх",
+  reanalysisDescription:
+    "Бодит дуудлагаа илүү тодорхой оруулбал ижил нэр, хэл, улсын нөхцөлөөр дахин шинжилнэ.",
+  hintLabel: "Дуудлагын зөвлөмж",
+  hintPlaceholder: "Жишээ: Бат-Эр-дэ-нэ гэж дуудагдана",
+  reanalysisCountdown: (seconds) => `Зар үзсэний дараа дахин шинжилнэ. ${seconds} секунд`,
+  reanalyzing: "Дахин шинжилж байна",
+  goodsEyebrow: "Үр дүнгээ илүү ашиглаарай",
+  goodsSectionTitle: "Нэртэй дурсгалын бүтээгдэхүүн",
+  goodsItemTitle: "Хангыль нэртэй дурсгалын бүтээгдэхүүн",
+  goodsItemSub: "(малгай, түлхүүрийн оосор, футболк гэх мэт)",
+  goodsItemDescription:
+    "Сонгосон хангыль нэрээ малгай, түлхүүрийн оосор, футболк зэрэгт хэвлүүлж өөрийн дурсгалын бүтээгдэхүүнийг бүтээгээрэй.",
+  goodsButton: "Дурсгалын бүтээгдэхүүний захиалга тун удахгүй",
+  editInput: "Оруулсан мэдээллийг засах",
+  home: "Нүүр",
+  headerAdLabel: "Хангыль үр дүнгийн дээд баннер зар",
+  headerCaption: "Хангыль дуудлагын шинжилгээний үр дүн",
+  loading: "Таны үр дүнг ачаалж байна.",
+  analysisDone: "Шинжилгээ дууслаа",
+  resultHeading: "Таны нэрийн хангыль дуудлагын бичиглэл",
+  emptyTitle: "Таны үр дүнг ачаалж чадсангүй.",
+  emptyDescription:
+    "Энэ үр дүнг зөвхөн шинжилгээ хийсэн хөтчийн таб дээр л үзэх боломжтой.",
+  backToInput: "Мэдээлэл оруулах дэлгэц рүү буцах",
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn을 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

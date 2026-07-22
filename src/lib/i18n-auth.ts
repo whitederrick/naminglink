@@ -584,6 +584,117 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "Supabase genel anahtarı yapılandırılmadığı için giriş kullanılamıyor.",
   },
+  fil: {
+    back: "Bumalik",
+    home: "Home",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Mag-log in",
+    loginDescription:
+      "Ligtas na iniingatan ng iyong account ang mga resulta ng pagpapangalan, premium na report, at kasaysayan ng order ng merchandise.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Account",
+    accountDescription:
+      "Pagkatapos mag-log in, palalawakin ang screen na ito para pamahalaan ang iyong kasaysayan ng pagpapangalan, mga pagbabayad, premium na report, at status ng order ng stamp.",
+    panelEyebrowLogin: "Pag-log in gamit ang email",
+    panelEyebrowAccount: "Access sa account",
+    panelTitle: "Ligtas na mag-log in gamit ang isang link",
+    panelDescription:
+      "Walang password na iniimbak — nagla-log in ka gamit ang email verification link. Pakisuri muna ang Mga Tuntunin ng Serbisyo at Patakaran sa Privacy bago gamitin.",
+    emailLabel: "Email",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Ipadala ang login link",
+    legalBefore: "Sa pagpapatuloy, kinukumpirma mong nabasa mo ang ",
+    legalTerms: "Mga Tuntunin ng Serbisyo",
+    legalBetween: " at ang ",
+    legalPrivacy: "Patakaran sa Privacy",
+    legalAfter: ".",
+    sentMessage:
+      "Nagpadala kami ng login link sa iyong email. Pakisuri ang iyong inbox.",
+    loggedInEyebrow: "Naka-log in",
+    loggedInDescription:
+      "Ang mga resulta ng pagpapangalan at kasaysayan ng order ay iniimbak sa ilalim ng account na ito. Kapag naikonekta na ang pagbabayad at pag-isyu ng PDF, maaari mo itong muling i-download mula sa screen na ito.",
+    logoutButton: "Mag-log out",
+    loggedOutMessage: "Naka-log out ka na.",
+    configWaitTitle: "Hinihintay ang setup ng login",
+    configWaitDescription:
+      "Magagamit ang pag-log in sa pamamagitan ng email link kapag naikonpigura na ang Supabase URL at anon key sa deployment environment.",
+    supabaseMissingError:
+      "Hindi magagamit ang login dahil hindi pa naikonpigura ang public key ng Supabase.",
+  },
+  uz: {
+    back: "Orqaga",
+    home: "Bosh sahifa",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Kirish",
+    loginDescription:
+      "Hisobingiz ism natijalari, premium hisobotlar va esdalik buyumlari buyurtmalari tarixini xavfsiz saqlaydi.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Hisob",
+    accountDescription:
+      "Tizimga kirgandan so‘ng bu ekran ism tarixi, to‘lovlar, premium hisobotlar va muhr buyurtmalari holatini boshqarish uchun kengaytiriladi.",
+    panelEyebrowLogin: "Email orqali kirish",
+    panelEyebrowAccount: "Hisobga kirish",
+    panelTitle: "Bitta havola bilan xavfsiz kiring",
+    panelDescription:
+      "Parollar saqlanmaydi — email tasdiqlash havolasi orqali kirasiz. Foydalanishdan oldin Foydalanish shartlari va Maxfiylik siyosati bilan tanishing.",
+    emailLabel: "Email",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Kirish havolasini yuborish",
+    legalBefore: "Davom etish orqali siz ",
+    legalTerms: "Foydalanish shartlari",
+    legalBetween: " va ",
+    legalPrivacy: "Maxfiylik siyosati",
+    legalAfter: " bilan tanishganingizni tasdiqlaysiz.",
+    sentMessage:
+      "Kirish havolasini emailingizga yubordik. Pochta qutingizni tekshiring.",
+    loggedInEyebrow: "Tizimga kirilgan",
+    loggedInDescription:
+      "Ism natijalari va buyurtmalar tarixi shu hisob ostida saqlanadi. To‘lov va PDF berish ulangach, ularni shu ekrandan qayta yuklab olishingiz mumkin bo‘ladi.",
+    logoutButton: "Chiqish",
+    loggedOutMessage: "Tizimdan chiqdingiz.",
+    configWaitTitle: "Kirish sozlamalari kutilmoqda",
+    configWaitDescription:
+      "Email havolasi orqali kirish Supabase URL va anon key joylashtirish muhitida sozlangach ishlaydi.",
+    supabaseMissingError:
+      "Supabase ochiq kaliti sozlanmagani uchun kirish ishlamaydi.",
+  },
+  mn: {
+    back: "Буцах",
+    home: "Нүүр",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Нэвтрэх",
+    loginDescription:
+      "Таны бүртгэл нэрийн үр дүн, премиум тайлан, дурсгалын бүтээгдэхүүний захиалгын түүхийг аюулгүй хадгална.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Бүртгэл",
+    accountDescription:
+      "Нэвтэрсний дараа энэ дэлгэц нэрийн түүх, төлбөр, премиум тайлан, тамганы захиалгын төлөвийг удирдах боломжтой болж өргөжнө.",
+    panelEyebrowLogin: "Имэйлээр нэвтрэх",
+    panelEyebrowAccount: "Бүртгэлд хандах",
+    panelTitle: "Ганц холбоосоор аюулгүй нэвтрээрэй",
+    panelDescription:
+      "Нууц үг хадгалдаггүй — имэйлийн баталгаажуулах холбоосоор нэвтэрнэ. Ашиглахаасаа өмнө Үйлчилгээний нөхцөл болон Нууцлалын бодлоготой танилцана уу.",
+    emailLabel: "Имэйл",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Нэвтрэх холбоос авах",
+    legalBefore: "Үргэлжлүүлснээр та ",
+    legalTerms: "Үйлчилгээний нөхцөл",
+    legalBetween: " болон ",
+    legalPrivacy: "Нууцлалын бодлого",
+    legalAfter: "-той танилцсанд тооцно.",
+    sentMessage:
+      "Нэвтрэх холбоосыг имэйл рүү тань илгээлээ. Ирсэн мэйлээ шалгана уу.",
+    loggedInEyebrow: "Нэвтэрсэн",
+    loggedInDescription:
+      "Нэрийн үр дүн болон захиалгын түүх энэ бүртгэлээр хадгалагдана. Төлбөр болон PDF олгох функц холбогдсоны дараа тэдгээрийг энэ дэлгэцээс дахин татаж авах боломжтой болно.",
+    logoutButton: "Гарах",
+    loggedOutMessage: "Та системээс гарлаа.",
+    configWaitTitle: "Нэвтрэх тохиргоо хүлээгдэж байна",
+    configWaitDescription:
+      "Supabase URL болон anon key байршуулах орчинд тохируулагдсаны дараа имэйл холбоосоор нэвтрэх боломжтой болно.",
+    supabaseMissingError:
+      "Supabase-ийн нийтийн түлхүүр тохируулагдаагүй тул нэвтрэх боломжгүй.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

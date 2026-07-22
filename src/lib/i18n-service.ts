@@ -1643,8 +1643,353 @@ const tr: ServiceCopyOverride = {
   },
 };
 
-// ko(원본)/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr };
+const fil: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Gawing pangalang Koreano ang iyong pangalan",
+        eyebrow: "Pangalang Koreano para sa buhay at trabaho sa Korea",
+        description:
+          "Sabihin sa amin ang iyong orihinal na pangalan, bansa, detalye ng kapanganakan, at kung paano mo gagamitin ang pangalan sa Korea — magmumungkahi kami ng natural at madaling ipaliwanag na mga pangalang Koreano.",
+        promise:
+          "Nagrerekomenda kami ng mga pangalang madaling tawagin at isulat, na may kahulugan at bigkas na maaari mong beripikahin.",
+        resultLabel: "Mga inirerekomendang pangalang Koreano",
+      },
+      sectionTitles: {
+        "기본 정보": "Pangunahing impormasyon",
+        "출생 정보": "Impormasyon ng kapanganakan",
+        "한국 사용 맥락": "Konteksto ng paggamit sa Korea",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Piliin ang mga pangunahing detalyeng kailangan namin para magmungkahi ng pangalang Koreano.",
+        "출생 정보": "Piliin ang bawat aytem para sa tumpak na paghahambing at pagsusuri.",
+        "한국 사용 맥락": "Piliin ang gusto mong estilo ng pangalan at kung paano mo ito gagamitin sa Korea.",
+      },
+      fieldLabels: {
+        originalName: "Orihinal na pangalan",
+        country: "Bansa",
+        nameMotivation: "Layunin ng iyong pangalang Koreano",
+        gender: "Kasarian / imahe",
+        birthYear: "Taon ng kapanganakan",
+        birthMonth: "Buwan ng kapanganakan",
+        birthDay: "Araw ng kapanganakan",
+        birthHour: "Oras ng kapanganakan",
+        koreanFamilyName: "Gustong apelyidong Koreano",
+        koreanTone: "Estilo ng pangalan",
+        usageContext: "Konteksto ng paggamit",
+        outputLanguage: "Wika ng resulta",
+      },
+      fieldPlaceholders: {
+        originalName: "Hal.: Juan Dela Cruz",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Isulat ang iyong pangalan sa Hangul ayon sa tunay na bigkas",
+        eyebrow: "Ang iyong pangalan sa Hangul",
+        description:
+          "Sinusuri namin kung paano binibigkas ang iyong pangalan at nagmumungkahi ng natural na baybay sa Hangul.",
+        promise:
+          "Inuuna namin ang sariling tunog at pantig ng iyong pangalan, alinsunod sa mga tuntunin ng bigkas sa Korean.",
+        resultLabel: "Mga inirerekomendang baybay sa Hangul",
+      },
+      sectionTitles: {
+        "본명 정보": "Impormasyon ng orihinal na pangalan",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Piliin ang wika at bansang ginagamit sa pagsulat at pagbigkas ng iyong pangalan.",
+      },
+      fieldLabels: {
+        originalName: "Orihinal na pangalan",
+        originalNameLanguage: "Pinagmulang wika ng iyong pangalan",
+        country: "Bansa",
+        pronunciationHint: "Pahiwatig sa bigkas (opsyonal)",
+      },
+      fieldHints: {
+        originalName: "※ Ilagay ang iyong buong pangalan sa sarili mong lokal na wika.",
+        originalNameLanguage: "※ Piliin ang wikang ginagamit sa pagbigkas ng iyong pangalan.",
+        country:
+          "※ Nakakatulong ito para maipakita ang pagkakaiba ng bigkas sa bawat bansa.\nMaaaring magbago ang resulta kapag pinalitan ang bansa.",
+        pronunciationHint:
+          "※ Ilagay ang paghahati ng pantig at mga pahiwatig sa bigkas.\nInuuna namin ang iyong pahiwatig nang may pinakamataas na priyoridad.",
+      },
+      fieldPlaceholders: {
+        originalName: "Hal.: Juan Dela Cruz",
+        pronunciationHint: "Hal.: binibigkas na parang Hu-wan De-la Cruz",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Irekomenda para sa akin",
+    natural_modern: "Natural at moderno",
+    traditional: "Tradisyonal",
+    business_friendly: "Angkop sa negosyo",
+    soft: "Malumanay at mainit",
+    distinctive: "Natatangi",
+    korean_workplace: "Lugar ng trabaho sa Korea",
+    school: "Paaralan / exchange",
+    creator: "Creator / pampublikong profile",
+    daily: "Pang-araw-araw na buhay",
+    auto: "Ayon sa wika ng aking browser",
+    not_specified: "Hindi tinukoy",
+    female: "Babae",
+    male: "Lalaki",
+    neutral: "Neutral / kahit alin",
+    auto_by_country: "Awtomatikong pipiliin ayon sa bansa",
+    korean_education: "Pag-aaral ng Korean, trabaho, o exchange",
+    k_culture: "K-culture, social media, alyas",
+    business: "Negosyo, business card, global na trabaho",
+    daily_social: "Mga kaibigan, paaralan, pang-araw-araw na buhay",
+    family_pet: "Pangalan para sa anak, pamilya, o alagang hayop",
+    creator_brand: "Creator, brand, pampublikong profile",
+    unknown: "Hindi alam",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+const uz: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Ismingizni koreyscha ismga aylantiring",
+        eyebrow: "Koreyada yashash va ishlash uchun koreyscha ism",
+        description:
+          "Asl ismingiz, mamlakatingiz, tug‘ilgan ma’lumotlaringiz va ismni Koreyada qanday ishlatishingizni ayting — sizga tabiiy va izohlash oson koreyscha ismlarni taklif qilamiz.",
+        promise:
+          "Chaqirish va yozish oson, ma’nosi va talaffuzini tekshirish mumkin bo‘lgan ismlarni tavsiya qilamiz.",
+        resultLabel: "Tavsiya etilgan koreyscha ismlar",
+      },
+      sectionTitles: {
+        "기본 정보": "Asosiy ma’lumotlar",
+        "출생 정보": "Tug‘ilish ma’lumotlari",
+        "한국 사용 맥락": "Koreyada foydalanish konteksti",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Koreyscha ism taklif qilishimiz uchun kerakli asosiy ma’lumotlarni tanlang.",
+        "출생 정보": "Aniq taqqoslash va tahlil uchun har bir bandni tanlang.",
+        "한국 사용 맥락": "Istagan ism uslubini va ismni Koreyada qanday ishlatishingizni tanlang.",
+      },
+      fieldLabels: {
+        originalName: "Asl ism",
+        country: "Mamlakat",
+        nameMotivation: "Koreyscha ismingizdan maqsad",
+        gender: "Jins / obraz",
+        birthYear: "Tug‘ilgan yil",
+        birthMonth: "Tug‘ilgan oy",
+        birthDay: "Tug‘ilgan kun",
+        birthHour: "Tug‘ilgan vaqt",
+        koreanFamilyName: "Istalgan koreys familiyasi",
+        koreanTone: "Ism uslubi",
+        usageContext: "Foydalanish konteksti",
+        outputLanguage: "Natija tili",
+      },
+      fieldPlaceholders: {
+        originalName: "Masalan: Aziz Karimov",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Ismingizni haqiqiy talaffuziga ko‘ra Hangulda yozing",
+        eyebrow: "Ismingiz Hangul yozuvida",
+        description:
+          "Ismingiz qanday talaffuz qilinishini tahlil qilib, tabiiy Hangul yozuvini taklif qilamiz.",
+        promise:
+          "Koreys talaffuz qoidalariga rioya qilgan holda ismingizning o‘z tovushlari va bo‘g‘inlariga ustunlik beramiz.",
+        resultLabel: "Tavsiya etilgan Hangul yozuvlari",
+      },
+      sectionTitles: {
+        "본명 정보": "Asl ism ma’lumotlari",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Ismingizni yozish va talaffuz qilishda ishlatiladigan til va mamlakatni tanlang.",
+      },
+      fieldLabels: {
+        originalName: "Asl ism",
+        originalNameLanguage: "Ismingizning manba tili",
+        country: "Mamlakat",
+        pronunciationHint: "Talaffuz ko‘rsatmasi (ixtiyoriy)",
+      },
+      fieldHints: {
+        originalName: "※ To‘liq ismingizni o‘z ona tilingizda kiriting.",
+        originalNameLanguage: "※ Ismingiz talaffuzida ishlatiladigan tilni tanlang.",
+        country:
+          "※ Bu mamlakatlararo talaffuz farqlarini aks ettirishga yordam beradi.\nMamlakatni o‘zgartirish natijani o‘zgartirishi mumkin.",
+        pronunciationHint:
+          "※ Bo‘g‘in ajratish va talaffuz ko‘rsatmalarini kiriting.\nKo‘rsatmangiz eng yuqori ustuvorlik bilan qo‘llanadi.",
+      },
+      fieldPlaceholders: {
+        originalName: "Masalan: Aziz Karimov",
+        pronunciationHint: "Masalan: A-ziz Ka-ri-mov kabi o‘qiladi",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Men uchun tavsiya qiling",
+    natural_modern: "Tabiiy va zamonaviy",
+    traditional: "An’anaviy",
+    business_friendly: "Ish muhitiga mos",
+    soft: "Yumshoq va iliq",
+    distinctive: "O‘ziga xos",
+    korean_workplace: "Koreyadagi ish joyi",
+    school: "Maktab / almashinuv",
+    creator: "Kontent yaratuvchi / ochiq profil",
+    daily: "Kundalik hayot",
+    auto: "Brauzerim tiliga mos",
+    not_specified: "Ko‘rsatilmagan",
+    female: "Ayol",
+    male: "Erkak",
+    neutral: "Neytral / farqi yo‘q",
+    auto_by_country: "Mamlakatga qarab avtomatik tanlash",
+    korean_education: "Koreys tili o‘rganish, ish yoki almashinuv",
+    k_culture: "K-madaniyat, ijtimoiy tarmoqlar, taxallus",
+    business: "Biznes, tashrif qog‘ozi, xalqaro ish",
+    daily_social: "Do‘stlar, maktab, kundalik hayot",
+    family_pet: "Farzand, oila yoki uy hayvoni ismi",
+    creator_brand: "Kontent yaratuvchi, brend, ochiq profil",
+    unknown: "Noma’lum",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+const mn: ServiceCopyOverride = {
+  byService: {
+    "global-to-korean": {
+      hero: {
+        title: "Нэрээ солонгос нэр болгон хувиргаарай",
+        eyebrow: "Солонгост амьдрах, ажиллахад зориулсан солонгос нэр",
+        description:
+          "Анхны нэр, улс, төрсөн мэдээлэл болон нэрээ Солонгост хэрхэн ашиглахаа хэлээрэй — бид аяндаа ойлгогдох, тайлбарлахад хялбар солонгос нэрсийг санал болгоно.",
+        promise:
+          "Дуудахад, бичихэд хялбар бөгөөд утга, дуудлагыг нь нягтлах боломжтой нэрсийг санал болгоно.",
+        resultLabel: "Санал болгож буй солонгос нэрс",
+      },
+      sectionTitles: {
+        "기본 정보": "Үндсэн мэдээлэл",
+        "출생 정보": "Төрөлтийн мэдээлэл",
+        "한국 사용 맥락": "Солонгост ашиглах нөхцөл",
+      },
+      sectionDescriptions: {
+        "기본 정보": "Солонгос нэр санал болгоход шаардлагатай үндсэн мэдээллээ сонгоно уу.",
+        "출생 정보": "Оновчтой харьцуулалт, шинжилгээ хийхийн тулд хэсэг бүрийг сонгоно уу.",
+        "한국 사용 맥락": "Хүссэн нэрийн уур амьсгал болон нэрээ Солонгост хэрхэн ашиглахаа сонгоно уу.",
+      },
+      fieldLabels: {
+        originalName: "Анхны нэр",
+        country: "Улс",
+        nameMotivation: "Солонгос нэрийн зорилго",
+        gender: "Хүйс / төрх",
+        birthYear: "Төрсөн он",
+        birthMonth: "Төрсөн сар",
+        birthDay: "Төрсөн өдөр",
+        birthHour: "Төрсөн цаг",
+        koreanFamilyName: "Хүсэж буй солонгос овог",
+        koreanTone: "Нэрийн уур амьсгал",
+        usageContext: "Хэрэглээний нөхцөл",
+        outputLanguage: "Үр дүнгийн хэл",
+      },
+      fieldPlaceholders: {
+        originalName: "Жишээ: Бат-Эрдэнэ",
+      },
+    },
+    "global-name-to-hangul": {
+      hero: {
+        title: "Нэрээ бодит дуудлагаар нь хангылиар бичээрэй",
+        eyebrow: "Таны нэр хангылиар",
+        description:
+          "Таны нэр хэрхэн дуудагддагийг шинжилж, аяндаа ойлгогдох хангыль бичиглэлийг санал болгоно.",
+        promise:
+          "Солонгос хэлний дуудлагын дүрмийг баримтлан таны нэрийн өөрийнх нь авиа, үеийг тэргүүн ээлжинд тавина.",
+        resultLabel: "Санал болгож буй хангыль бичиглэлүүд",
+      },
+      sectionTitles: {
+        "본명 정보": "Жинхэнэ нэрийн мэдээлэл",
+      },
+      sectionDescriptions: {
+        "본명 정보": "Нэрээ бичих, дуудахад ашигладаг хэл болон улсаа сонгоно уу.",
+      },
+      fieldLabels: {
+        originalName: "Жинхэнэ нэр",
+        originalNameLanguage: "Нэрийн эх хэл",
+        country: "Улс",
+        pronunciationHint: "Дуудлагын зөвлөмж (сонголтоор)",
+      },
+      fieldHints: {
+        originalName: "※ Бүтэн нэрээ өөрийн орон нутгийн хэлээр оруулна уу.",
+        originalNameLanguage: "※ Нэрээ дуудахад ашигладаг хэлээ сонгоно уу.",
+        country:
+          "※ Энэ нь улс бүрийн дуудлагын ялгааг тусгахад тусална.\nУлс солибол үр дүн өөрчлөгдөж болно.",
+        pronunciationHint:
+          "※ Үеийн хуваалт болон дуудлагын зөвлөмжөө оруулна уу.\nТаны зөвлөмжийг хамгийн түрүүнд тусгана.",
+      },
+      fieldPlaceholders: {
+        originalName: "Жишээ: Бат-Эрдэнэ",
+        pronunciationHint: "Жишээ: Бат-Эр-дэ-нэ гэж дуудагдана",
+      },
+    },
+  },
+  optionLabels: {
+    recommend: "Надад санал болгооч",
+    natural_modern: "Энгийн бөгөөд орчин үеийн",
+    traditional: "Уламжлалт",
+    business_friendly: "Ажил хэрэгт тохиромжтой",
+    soft: "Зөөлөн, дулаахан",
+    distinctive: "Өвөрмөц",
+    korean_workplace: "Солонгос дахь ажлын байр",
+    school: "Сургууль / солилцоо",
+    creator: "Контент бүтээгч / нийтийн профайл",
+    daily: "Өдөр тутмын амьдрал",
+    auto: "Хөтчийн минь хэлээр",
+    not_specified: "Заагаагүй",
+    female: "Эмэгтэй",
+    male: "Эрэгтэй",
+    neutral: "Саармаг / аль нь ч болно",
+    auto_by_country: "Улсаар нь автоматаар сонгох",
+    korean_education: "Солонгос хэл сурах, ажил, солилцоо",
+    k_culture: "К-соёл, сошиал медиа, хоч нэр",
+    business: "Бизнес, нэрийн хуудас, олон улсын ажил",
+    daily_social: "Найзууд, сургууль, өдөр тутмын амьдрал",
+    family_pet: "Хүүхэд, гэр бүл, тэжээвэр амьтны нэр",
+    creator_brand: "Контент бүтээгч, брэнд, нийтийн профайл",
+    unknown: "Мэдэхгүй",
+    "23-01": "23:00–01:00 (Jasi)",
+    "01-03": "01:00–03:00 (Chuksi)",
+    "03-05": "03:00–05:00 (Insi)",
+    "05-07": "05:00–07:00 (Myosi)",
+    "07-09": "07:00–09:00 (Jinsi)",
+    "09-11": "09:00–11:00 (Sasi)",
+    "11-13": "11:00–13:00 (Osi)",
+    "13-15": "13:00–15:00 (Misi)",
+    "15-17": "15:00–17:00 (Sinsi)",
+    "17-19": "17:00–19:00 (Yusi)",
+    "19-21": "19:00–21:00 (Sulsi)",
+    "21-23": "21:00–23:00 (Haesi)",
+  },
+};
+
+// ko(원본)/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn을 작성했고, 나머지 로케일은 영어로 폴백한다.
+const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn };
 
 // 한국어는 원본 설정(services.ts)을 그대로 쓰므로 null을 반환한다.
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {

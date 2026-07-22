@@ -205,6 +205,33 @@ const shellCopies: Record<
       "Aşağıdaki bilgileri doldurun; size doğal ve kolayca açıklanabilen Kore isimleri önerelim.",
     headerAdLabel: "Hizmet sayfası üst banner reklamı",
   },
+  fil: {
+    promiseLabel: "Ang aming pangako",
+    defaultLanguage: "Default na wika",
+    g2kPromise:
+      "Nagrerekomenda kami ng mga pangalang madaling tawagin at isulat, na may kahulugan at bigkas na maaari mong beripikahin.",
+    g2kIntro:
+      "Punan ang mga detalye sa ibaba at magmumungkahi kami ng natural at madaling ipaliwanag na mga pangalang Koreano.",
+    headerAdLabel: "Banner ad sa itaas ng pahina ng serbisyo",
+  },
+  uz: {
+    promiseLabel: "Bizning va’damiz",
+    defaultLanguage: "Asosiy til",
+    g2kPromise:
+      "Chaqirish va yozish oson, ma’nosi va talaffuzini tekshirish mumkin bo‘lgan ismlarni tavsiya qilamiz.",
+    g2kIntro:
+      "Quyidagi ma’lumotlarni to‘ldiring — sizga tabiiy va izohlash oson koreyscha ismlarni taklif qilamiz.",
+    headerAdLabel: "Xizmat sahifasi yuqorisidagi banner reklama",
+  },
+  mn: {
+    promiseLabel: "Бидний амлалт",
+    defaultLanguage: "Үндсэн хэл",
+    g2kPromise:
+      "Дуудахад, бичихэд хялбар бөгөөд утга, дуудлагыг нь нягтлах боломжтой нэрсийг санал болгоно.",
+    g2kIntro:
+      "Доорх мэдээллийг бөглөвөл аяндаа ойлгогдох, тайлбарлахад хялбар солонгос нэрсийг санал болгоно.",
+    headerAdLabel: "Үйлчилгээний хуудасны дээд баннер зар",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",

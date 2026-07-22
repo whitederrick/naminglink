@@ -218,6 +218,48 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "Tüm adayları aç · ₩990 (yakında)",
     bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
   },
+  fil: {
+    title: "Magbukas ng higit pang kandidato",
+    status: (revealed, locked) => `${revealed} bukas · ${locked} naka-lock`,
+    descHanja:
+      "Bawat ad na pinapanood mo ay nagbubukas ng susunod na kandidato mula sa ibang pananaw ng rekomendasyon.",
+    descDefault:
+      "Bawat ad na pinapanood mo ay nagbubukas ng susunod na kandidato mula sa ibang pananaw ng rekomendasyon. Malapit na ang isang beses na pagbubukas ng lahat ng natitirang kandidato sa halagang ₩990.",
+    watchingNote: (seconds) => `Magbubukas ng isang kandidato pagkatapos ng ad. ${seconds} segundo`,
+    watching: "Nanonood ng ad",
+    watchButton: "Manood ng ad para buksan ang susunod na kandidato",
+    hanjaProductsLink: "Tingnan ang mga produkto ng buong kandidato · mula ₩2,900",
+    bulkButton: "Buksan ang lahat ng kandidato · ₩990 (malapit na)",
+    bulkPreparing: "Malapit nang magbukas ang pagbabayad.",
+  },
+  uz: {
+    title: "Ko‘proq nomzodlarni oching",
+    status: (revealed, locked) => `${revealed} ta ochilgan · ${locked} ta yopiq`,
+    descHanja:
+      "Har bir ko‘rilgan reklama boshqacha tavsiya nuqtai nazaridagi navbatdagi nomzodni ochadi.",
+    descDefault:
+      "Har bir ko‘rilgan reklama boshqacha tavsiya nuqtai nazaridagi navbatdagi nomzodni ochadi. Qolgan barcha nomzodlarni ₩990 evaziga bir vaqtda ochish imkoniyati tez orada ishga tushadi.",
+    watchingNote: (seconds) => `Reklamadan so‘ng bitta nomzod ochiladi. ${seconds} soniya`,
+    watching: "Reklama ko‘rilmoqda",
+    watchButton: "Navbatdagi nomzodni ochish uchun reklama ko‘ring",
+    hanjaProductsLink: "Barcha nomzodli mahsulotlarni ko‘rish · ₩2,900 dan",
+    bulkButton: "Barcha nomzodlarni ochish · ₩990 (tez orada)",
+    bulkPreparing: "To‘lov tez orada ishga tushadi.",
+  },
+  mn: {
+    title: "Нэрийн хувилбар нэмж нээх",
+    status: (revealed, locked) => `${revealed} нээгдсэн · ${locked} түгжээтэй`,
+    descHanja:
+      "Зар үзэх бүрд өөр өнцгөөс санал болгосон дараагийн нэрийн хувилбар нэг нэгээр нээгдэнэ.",
+    descDefault:
+      "Зар үзэх бүрд өөр өнцгөөс санал болгосон дараагийн нэрийн хувилбар нэг нэгээр нээгдэнэ. Үлдсэн бүх хувилбарыг ₩990-өөр нэг дор нээх боломж тун удахгүй нэмэгдэнэ.",
+    watchingNote: (seconds) => `Зар үзсэний дараа нэг хувилбар нээгдэнэ. ${seconds} секунд`,
+    watching: "Зар үзэж байна",
+    watchButton: "Зар үзээд дараагийн хувилбарыг нээх",
+    hanjaProductsLink: "Бүх хувилбарын бүтээгдэхүүнийг үзэх · ₩2,900-с эхэлнэ",
+    bulkButton: "Бүх хувилбарыг нэг дор нээх · ₩990 (тун удахгүй)",
+    bulkPreparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,

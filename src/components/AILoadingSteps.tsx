@@ -95,6 +95,24 @@ const generalStepsByLocale: Record<string, string[]> = {
     "Her adayın hikâyesi ve eleme nedenleri oluşturuluyor.",
     "Sonuç gözden geçiriliyor ve görüntülenmeye hazırlanıyor.",
   ],
+  fil: [
+    "Inaayos ang kahulugan at mga kondisyon ng iyong input.",
+    "Inihahambing ang bigkas, kultura, at mga sangguniang detalye.",
+    "Binubuo ang kuwento ng bawat kandidato at ang mga dahilan ng pagbubukod.",
+    "Sinusuri ang resulta at inihahanda ito para ipakita.",
+  ],
+  uz: [
+    "Kiritgan ma’lumotlaringiz ma’nosi va shartlari tartibga solinmoqda.",
+    "Talaffuz, madaniyat va ma’lumotnoma tafsilotlari solishtirilmoqda.",
+    "Har bir nomzodning hikoyasi va chiqarib tashlash sabablari shakllantirilmoqda.",
+    "Natija tekshirilib, ko‘rsatishga tayyorlanmoqda.",
+  ],
+  mn: [
+    "Таны оруулсан мэдээллийн утга, нөхцөлийг эмхэлж байна.",
+    "Дуудлага, соёл, лавлагааны мэдээллийг харьцуулж байна.",
+    "Нэрийн хувилбар бүрийн түүх болон хасах шалтгааныг боловсруулж байна.",
+    "Үр дүнг хянаж, дэлгэцэд харуулахад бэлтгэж байна.",
+  ],
 };
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.

@@ -736,8 +736,152 @@ const tr: FormCopy = {
   ],
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr };
+const fil: FormCopy = {
+  errorCheckInput: "Pakisuri ang format ng iyong input para sa tumpak na pagsusuri.",
+  errorConsent:
+    "Kailangan mong sumang-ayon sa Mga Tuntunin ng Serbisyo at Patakaran sa Privacy para magsimula.",
+  errorLoginToSave: "Mag-log in muli para i-save ang resulta ng iyong pagsusuri.",
+  errorRequestFailed: "Hindi namin naproseso ang iyong kahilingan sa pagpapangalan.",
+  errorGeneric: "May naganap na error.",
+  consentTitle: "Kinakailangang pahintulot",
+  consentIntro:
+    "Ang mga inilagay mong impormasyon tulad ng pangalan, petsa ng kapanganakan, at bansa ay ginagamit sa paggawa ng resulta,",
+  consentIntroSaved:
+    " at tanging ang mga miyembrong pumili ng pag-save ang may iniimbak na impormasyon at resulta.",
+  termsLink: "Mga Tuntunin ng Serbisyo",
+  privacyLink: "Patakaran sa Privacy",
+  agreeToTermsSuffix: " — sumasang-ayon ako.",
+  agreeToPrivacySuffix: " — sumasang-ayon ako.",
+  saveResultLabel: "I-save ang resulta sa aking account (opsyonal)",
+  saveResultHint:
+    "Iniimbak lamang namin ang iyong impormasyon at resulta kapag pinili mong i-save.",
+  guestNoSavePrefix:
+    "Hindi iniimbak ang mga resulta ng bisita. Kung gusto mong itago ang resulta, ",
+  loginLink: "mag-log in",
+  guestNoSaveSuffix: " at pagkatapos ay piliin ang pag-save.",
+  adConsentLabel: "Ad sa bahagi ng kinakailangang pahintulot",
+  submitTransliteration: "Simulan ang pagsusuri ng bigkas sa Hangul",
+  submitDefault: "Manood ng ad at simulan ang pagsusuri",
+  adRevealNote: (seconds) => `Ipapakita ang resulta pagkatapos ng ad. ${seconds} segundo`,
+  analysisDone: "Tapos na ang pagsusuri",
+  editInput: "I-edit ang input",
+  previewNote:
+    "Inilabas muna namin ang pinakaangkop na kandidato. Maaari kang magbukas ng karagdagang mga kandidato nang paisa-isa sa pamamagitan ng panonood ng ad o ng pagbabayad.",
+  adDialogLabel: "Manood ng reward ad at patakbuhin ang pagsusuri ng pangalan",
+  loadingEyebrow: "Sinusuri ang iyong pangalan",
+  loadingTitle: "Inihahambing ang mga pangalang angkop sa iyong sitwasyon",
+  loadingCountdown: (seconds) => `Nanonood ng ad at nagsusuri · ${seconds} segundo`,
+  loadingDone: "Tapos na ang ad · inihahanda ang iyong resulta",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Default na wika: ${languageName} · Halimbawa ng lokal na pangalan: ${localNameHint}`,
+  transliterationStepsTitle: "Paano nagiging Hangul ang iyong pangalan",
+  transliterationSteps: [
+    ["Kumpirmahin ang iyong pangalan", "Kinukumpirma namin ang orihinal na baybay at mga pantig na inilagay mo."],
+    ["Suriin ang wika at rehiyon", "Inuuna ang pinagmulang wika, at isinasaalang-alang ang pagkakaiba ng bigkas sa bawat bansa."],
+    ["Iangkop ang iyong pahiwatig sa bigkas", "Ang anumang pahiwatig na inilagay mo ay nangingibabaw sa mga pangkalahatang tuntunin ng bigkas."],
+    ["Ayusin ang istruktura ng bigkas", "Hinahati namin ang aktwal na bigkas sa mga pantig at phonetic notation."],
+    ["Magmungkahi ng baybay sa Hangul", "Pinapanatili namin ang orihinal na bigkas at nagmumungkahi ng natural na Hangul."],
+  ],
+};
+
+const uz: FormCopy = {
+  errorCheckInput: "Aniq tahlil uchun kiritilgan ma’lumotlar formatini tekshiring.",
+  errorConsent:
+    "Tahlilni boshlash uchun Foydalanish shartlari va Maxfiylik siyosatiga rozilik bildirishingiz kerak.",
+  errorLoginToSave: "Tahlil natijasini saqlash uchun qaytadan tizimga kiring.",
+  errorRequestFailed: "Ism bo‘yicha so‘rovingizni qayta ishlay olmadik.",
+  errorGeneric: "Xatolik yuz berdi.",
+  consentTitle: "Majburiy rozilik",
+  consentIntro:
+    "Ism, tug‘ilgan sana va mamlakat kabi kiritgan ma’lumotlaringiz natijani yaratish uchun ishlatiladi,",
+  consentIntroSaved:
+    " va faqat saqlashni tanlagan a’zolarning ma’lumotlari va natijalari saqlanadi.",
+  termsLink: "Foydalanish shartlari",
+  privacyLink: "Maxfiylik siyosati",
+  agreeToTermsSuffix: " — roziman.",
+  agreeToPrivacySuffix: " — roziman.",
+  saveResultLabel: "Natijani hisobimga saqlash (ixtiyoriy)",
+  saveResultHint:
+    "Ma’lumotlaringiz va natijalaringizni faqat saqlashni tanlaganingizda saqlaymiz.",
+  guestNoSavePrefix:
+    "Mehmon natijalari saqlanmaydi. Natijangizni saqlab qolmoqchi bo‘lsangiz, ",
+  loginLink: "tizimga kiring",
+  guestNoSaveSuffix: ", so‘ng saqlashni tanlang.",
+  adConsentLabel: "Majburiy rozilik maydonidagi reklama",
+  submitTransliteration: "Hangul talaffuz tahlilini boshlash",
+  submitDefault: "Reklamani ko‘rib, tahlilni boshlash",
+  adRevealNote: (seconds) => `Natija reklamadan so‘ng ochiladi. ${seconds} soniya`,
+  analysisDone: "Tahlil yakunlandi",
+  editInput: "Ma’lumotlarni tahrirlash",
+  previewNote:
+    "Avval eng mos bitta nomzodni ochib berdik. Qo‘shimcha nomzodlarni reklama ko‘rish yoki to‘lov orqali bittadan ochishingiz mumkin.",
+  adDialogLabel: "Mukofotli reklamani ko‘rish va ism tahlilini ishga tushirish",
+  loadingEyebrow: "Ismingiz tahlil qilinmoqda",
+  loadingTitle: "Vaziyatingizga mos ismlarni solishtiryapmiz",
+  loadingCountdown: (seconds) => `Reklama ko‘rilmoqda va tahlil qilinmoqda · ${seconds} soniya`,
+  loadingDone: "Reklama yakunlandi · natijangiz tayyorlanmoqda",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Asosiy til: ${languageName} · Mahalliy ism namunasi: ${localNameHint}`,
+  transliterationStepsTitle: "Ismingiz qanday qilib Hangulga aylanadi",
+  transliterationSteps: [
+    ["Ismingizni tasdiqlash", "Siz kiritgan asl imlo va bo‘g‘inlarni tasdiqlaymiz."],
+    ["Til va hududni tahlil qilish", "Manba tilingiz birinchi o‘rinda turadi, mamlakatlararo talaffuz farqlari ham hisobga olinadi."],
+    ["Talaffuz ko‘rsatmangizni qo‘llash", "Siz kiritgan har qanday ko‘rsatma umumiy talaffuz qoidalaridan ustun turadi."],
+    ["Talaffuzni tuzilmaga solish", "Haqiqiy talaffuzni bo‘g‘inlar va fonetik belgilarga ajratamiz."],
+    ["Hangul yozuvini taklif qilish", "Asl talaffuzingizni saqlab, tabiiy Hangul yozuvini taklif qilamiz."],
+  ],
+};
+
+const mn: FormCopy = {
+  errorCheckInput: "Шинжилгээ оновчтой байхын тулд оруулсан мэдээллийн форматыг шалгана уу.",
+  errorConsent:
+    "Шинжилгээг эхлүүлэхийн тулд Үйлчилгээний нөхцөл болон Нууцлалын бодлогыг зөвшөөрөх шаардлагатай.",
+  errorLoginToSave: "Шинжилгээний үр дүнг хадгалахын тулд дахин нэвтэрнэ үү.",
+  errorRequestFailed: "Таны нэрийн хүсэлтийг боловсруулж чадсангүй.",
+  errorGeneric: "Алдаа гарлаа.",
+  consentTitle: "Заавал өгөх зөвшөөрөл",
+  consentIntro:
+    "Нэр, төрсөн огноо, улс зэрэг таны оруулсан мэдээллийг үр дүн гаргахад ашиглах бөгөөд,",
+  consentIntroSaved:
+    " хадгалахыг сонгосон гишүүдийн мэдээлэл, үр дүн л хадгалагдана.",
+  termsLink: "Үйлчилгээний нөхцөл",
+  privacyLink: "Нууцлалын бодлого",
+  agreeToTermsSuffix: " — зөвшөөрч байна.",
+  agreeToPrivacySuffix: " — зөвшөөрч байна.",
+  saveResultLabel: "Үр дүнг миний бүртгэлд хадгалах (сонголтоор)",
+  saveResultHint:
+    "Таныг хадгалахыг сонгосон үед л оруулсан мэдээлэл, үр дүнг хадгална.",
+  guestNoSavePrefix:
+    "Зочны үр дүн хадгалагдахгүй. Үр дүнгээ хадгалахыг хүсвэл ",
+  loginLink: "нэвтэрч",
+  guestNoSaveSuffix: " орсны дараа хадгалахыг сонгоно уу.",
+  adConsentLabel: "Заавал өгөх зөвшөөрлийн хэсгийн зар сурталчилгаа",
+  submitTransliteration: "Хангыль дуудлагын шинжилгээг эхлүүлэх",
+  submitDefault: "Зар үзээд шинжилгээг эхлүүлэх",
+  adRevealNote: (seconds) => `Зар үзсэний дараа үр дүнг харуулна. ${seconds} секунд`,
+  analysisDone: "Шинжилгээ дууслаа",
+  editInput: "Оруулсан мэдээллийг засах",
+  previewNote:
+    "Хамгийн тохиромжтой нэг нэрийн хувилбарыг эхэлж нээлээ. Зар үзэх эсвэл төлбөр төлөх замаар нэмэлт хувилбаруудыг нэг нэгээр нээж болно.",
+  adDialogLabel: "Урамшуулалт зар үзэж нэрийн шинжилгээ хийх",
+  loadingEyebrow: "Таны нэрийг шинжилж байна",
+  loadingTitle: "Таны нөхцөлд тохирох нэрсийг харьцуулж байна",
+  loadingCountdown: (seconds) => `Зар үзэж, шинжилж байна · ${seconds} секунд`,
+  loadingDone: "Зар дууслаа · таны үр дүнг бэлтгэж байна",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Үндсэн хэл: ${languageName} · Нутгийн нэрийн жишээ: ${localNameHint}`,
+  transliterationStepsTitle: "Таны нэр хангыль болох алхмууд",
+  transliterationSteps: [
+    ["Нэрээ баталгаажуулах", "Таны оруулсан анхны бичиглэл болон үеийг баталгаажуулна."],
+    ["Хэл, бүс нутгийг шинжлэх", "Эх хэлийг тэргүүн ээлжинд авч, улс бүрийн дуудлагын ялгааг тусгана."],
+    ["Дуудлагын зөвлөмжийг эхэлж тусгах", "Таны оруулсан дуудлагын зөвлөмж ерөнхий дуудлагын дүрмээс давуу үйлчилнэ."],
+    ["Дуудлагыг бүтэцжүүлэх", "Бодит дуудлагыг үе болон авиа зүйн тэмдэглэгээгээр задлан шинжилнэ."],
+    ["Хангыль бичиглэл санал болгох", "Анхны дуудлагыг тань хадгалж, аяндаа ойлгогдох хангыль бичиглэл санал болгоно."],
+  ],
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn을 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;
