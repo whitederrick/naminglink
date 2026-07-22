@@ -129,6 +129,12 @@ export default async function Home({ searchParams }: HomeProps) {
   const copy = getLandingCopy(locale);
   const textDirection = getTextDirection(locale);
   const isKoreanEntry = locale === "ko";
+  // break-keep(keep-all)은 한국어 단어 단위 줄바꿈용. 띄어쓰기가 없는 문자권(일본어·중국어·
+  // 태국어·크메르어)에서는 줄바꿈 지점이 사라져 텍스트가 뷰포트 밖으로 잘리므로 일반 줄바꿈을 쓴다.
+  const spacelessScript = ["ja", "zh", "th", "km"].includes(locale);
+  const wordBreakClass = spacelessScript
+    ? "break-normal [overflow-wrap:anywhere]"
+    : "break-keep";
   const heroImage = isKoreanEntry
     ? "/images/landing-hero.png"
     : "/images/landing-hero-global.png";
@@ -185,7 +191,7 @@ export default async function Home({ searchParams }: HomeProps) {
               {copy.badge}
             </p>
             <h1
-              className={`mt-5 min-h-[9.75rem] max-w-[18ch] break-keep text-left font-semibold leading-[1.08] tracking-normal [text-wrap:balance] sm:min-h-[11.25rem] sm:max-w-[20ch] lg:mt-0 lg:min-h-0 lg:max-w-[20ch] xl:min-h-0 ${heroHeadingClass}`}
+              className={`mt-5 min-h-[9.75rem] max-w-[18ch] ${wordBreakClass} text-left font-semibold leading-[1.08] tracking-normal [text-wrap:balance] sm:min-h-[11.25rem] sm:max-w-[20ch] lg:mt-0 lg:min-h-0 lg:max-w-[20ch] xl:min-h-0 ${heroHeadingClass}`}
               dir={textDirection}
             >
               {copy.heroLines.map((line) => (
@@ -195,7 +201,7 @@ export default async function Home({ searchParams }: HomeProps) {
               ))}
             </h1>
             <p
-              className="mt-5 max-w-2xl break-keep text-left text-base leading-7 text-white/82 [text-wrap:pretty] sm:min-h-[5.25rem] sm:text-lg lg:mt-0 lg:min-h-0"
+              className={`mt-5 max-w-2xl ${wordBreakClass} text-left text-base leading-7 text-white/82 [text-wrap:pretty] sm:min-h-[5.25rem] sm:text-lg lg:mt-0 lg:min-h-0`}
               dir={textDirection}
             >
               {descriptionText}
@@ -222,7 +228,7 @@ export default async function Home({ searchParams }: HomeProps) {
                     <h2 className="mt-1 truncate break-keep text-base font-semibold sm:text-lg">
                       {hangulPronunciationCopy[locale].title}
                     </h2>
-                    <p className="mt-1 overflow-hidden break-keep text-[13px] leading-5 text-white/74 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
+                    <p className={`mt-1 overflow-hidden ${wordBreakClass} text-[13px] leading-5 text-white/74 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]`}>
                       {hangulPronunciationCopy[locale].description}
                     </p>
                   </div>
@@ -261,7 +267,7 @@ export default async function Home({ searchParams }: HomeProps) {
                       <h2 className="mt-1 truncate break-keep text-base font-semibold sm:text-lg">
                         {serviceCopy.title}
                       </h2>
-                      <p className="mt-1 overflow-hidden break-keep text-[13px] leading-5 text-white/74 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
+                      <p className={`mt-1 overflow-hidden ${wordBreakClass} text-[13px] leading-5 text-white/74 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]`}>
                         {serviceCopy.description}
                       </p>
                     </div>
