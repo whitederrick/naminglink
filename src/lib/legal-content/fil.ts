@@ -207,7 +207,7 @@ const content: LegalLocaleContent = {
         {
           title: "Paunawa Bago ang Opisyal na Pagbabayad",
           paragraphs: [
-            "Kapag napagtibay na ang pagsusuri ng PG (payment gateway), pagpaparehistro ng negosyong mail-order, at mga kondisyon ng pakikipagsosyo sa produksyon, muling ipapaalam sa screen ng produkto ang aktuwal na halaga ng pagbabayad, bayad sa paghahatid, panahon ng paggawa, at mga kondisyon sa refund.",
+            "Kapag napagtibay na ang pagsusuri ng PG (payment gateway), pagpaparehistro ng negosyong online selling, at mga kondisyon ng pakikipagsosyo sa produksyon, muling ipapaalam sa screen ng produkto ang aktuwal na halaga ng pagbabayad, bayad sa paghahatid, panahon ng paggawa, at mga kondisyon sa refund.",
           ],
         },
       ],

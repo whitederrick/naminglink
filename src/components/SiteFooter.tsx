@@ -85,7 +85,7 @@ const footerCopies: Record<Locale, FooterCopy> = {
       address: "Address",
       email: "Email",
       privacyOfficer: "Privacy Officer",
-      mailOrderNumber: "Mail-order",
+      mailOrderNumber: "E-commerce registration",
       hostingProvider: "Hosting",
     },
     values: {
@@ -137,7 +137,7 @@ const footerCopies: Record<Locale, FooterCopy> = {
       address: "地址",
       email: "邮箱",
       privacyOfficer: "隐私负责人",
-      mailOrderNumber: "通信销售",
+      mailOrderNumber: "网络销售",
       hostingProvider: "托管",
     },
     values: {
