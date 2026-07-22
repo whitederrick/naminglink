@@ -61,9 +61,11 @@ export function PolicySection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="border-t border-line pt-6">
-      <h2 className="text-xl font-semibold">{title}</h2>
-      <div className="mt-3 grid gap-3 text-sm leading-7 text-muted">
+    <section>
+      <h2 className="rounded-lg bg-surface-strong px-4 py-2.5 text-lg font-semibold">
+        {title}
+      </h2>
+      <div className="mt-3 grid gap-3 px-1 text-sm leading-7 text-muted">
         {children}
       </div>
     </section>
