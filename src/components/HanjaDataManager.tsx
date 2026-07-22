@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { CheckCircle2, Database, FileSearch, RefreshCw, UploadCloud } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { Pagination, usePagedList } from "@/components/admin-ui";
 
 type Source = {
   id: string;
@@ -187,6 +188,7 @@ export function HanjaDataManager() {
 
   const source = payload?.activeSource;
   const counts = payload?.statusCounts ?? {};
+  const pagedEntries = usePagedList(payload?.entries ?? [], `${syllable}|${status}|${payload?.entries.length ?? 0}`);
 
   return (
     <div className="grid gap-6">
@@ -194,7 +196,7 @@ export function HanjaDataManager() {
         <div>
           <p className="text-sm font-semibold text-brand-teal">Service Operations</p>
           <h1 className="mt-1 text-3xl font-semibold">한자·발음 기준 데이터</h1>
-          <p className="mt-2 text-sm leading-6 text-muted">공식 원본 보존, 자동 추출, 사람 검수, 운영 승인을 분리해 관리합니다.</p>
+          <p className="mt-2 max-w-3xl text-sm leading-6 text-muted">공식 자료(PDF)에서 추출한 한자·발음 기준 데이터를 검수하는 화면입니다. 원본 업로드 → 자동 추출 → 사람 검수 → 운영 승인 순서로 상태를 올리고, 운영 원본으로 반영하면 이전 운영 데이터는 자동 보관됩니다. 음절·검수 상태 필터로 대상을 좁혀 작업하세요.</p>
         </div>
         <button type="button" onClick={() => void load()} className="inline-flex h-10 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-sm"><RefreshCw size={16} />새로고침</button>
       </header>
@@ -248,10 +250,11 @@ export function HanjaDataManager() {
           <button type="button" onClick={() => void load()} className="h-10 rounded-lg border border-line bg-surface px-4 text-sm font-semibold">조회</button>
         </div>
         <div className="overflow-x-auto rounded-xl border border-line bg-surface">
-          <table className="w-full min-w-[1050px] text-left"><thead className="bg-surface-strong text-sm"><tr><th className="px-3 py-3 text-center">음절</th><th className="px-3 py-3 text-center">한자</th><th className="px-3 py-3">지정 발음</th><th className="px-3 py-3">의미·검수 메모</th><th className="px-3 py-3">원본</th><th className="px-3 py-3">상태</th><th className="px-3 py-3">관리</th></tr></thead><tbody>{payload?.entries.map((entry) => <EntryEditor key={entry.id} entry={entry} onSaved={() => void load()} />)}</tbody></table>
+          <table className="w-full min-w-[1050px] text-left"><thead className="bg-surface-strong text-sm"><tr><th className="px-3 py-3 text-center">음절</th><th className="px-3 py-3 text-center">한자</th><th className="px-3 py-3">지정 발음</th><th className="px-3 py-3">의미·검수 메모</th><th className="px-3 py-3">원본</th><th className="px-3 py-3">상태</th><th className="px-3 py-3">관리</th></tr></thead><tbody>{pagedEntries.pageItems.map((entry) => <EntryEditor key={entry.id} entry={entry} onSaved={() => void load()} />)}</tbody></table>
           {!loading && !payload?.entries.length ? <p className="p-8 text-center text-sm text-muted">조건에 해당하는 한자 데이터가 없습니다.</p> : null}
           {loading ? <p className="p-8 text-center text-sm text-muted">한자 데이터를 불러오는 중입니다.</p> : null}
         </div>
+        <Pagination page={pagedEntries.page} totalPages={pagedEntries.totalPages} total={pagedEntries.total} onChange={pagedEntries.setPage} />
       </section>
 
       <section className="rounded-xl border border-line bg-surface p-5 shadow-sm">

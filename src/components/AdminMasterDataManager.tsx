@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Database, History, Plus, Save } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { FilterBar, FilterSearch, FilterSelect, Pagination, usePagedList } from "@/components/admin-ui";
 
 const categories = [
   { key: "COUNTRY_LANGUAGE", label: "국가·언어", help: "국가 코드, 기본 언어, 지역별 발음 특성과 서비스 노출 순서", sample: { countryCode: "KR", defaultLocale: "ko", languageNames: ["Korean"], pronunciationNotes: "" } },
@@ -48,7 +49,21 @@ export function AdminMasterDataManager() {
   const [error, setError] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const [revisions, setRevisions] = useState<Revision[]>([]);
+  const [recordSearch, setRecordSearch] = useState("");
+  const [activeFilter, setActiveFilter] = useState("all");
   const descriptor = useMemo(() => categories.find((item) => item.key === category)!, [category]);
+  const filteredRecords = useMemo(
+    () =>
+      records.filter((record) => {
+        const keyword = recordSearch.toLowerCase();
+        if (keyword && !record.label.toLowerCase().includes(keyword) && !record.record_key.toLowerCase().includes(keyword)) return false;
+        if (activeFilter === "active" && !record.is_active) return false;
+        if (activeFilter === "inactive" && record.is_active) return false;
+        return true;
+      }),
+    [records, recordSearch, activeFilter],
+  );
+  const pagedRecords = usePagedList(filteredRecords, `${category}|${recordSearch}|${activeFilter}|${records.length}`);
 
   const loadRecords = useCallback(async (accessToken: string, nextCategory: Category) => {
     setLoading(true);
@@ -121,7 +136,7 @@ export function AdminMasterDataManager() {
 
   return <div className="grid gap-6">
     <header className="flex flex-wrap items-end justify-between gap-4">
-      <div><p className="text-sm text-brand-teal">Master Data</p><h1 className="mt-1 text-3xl font-semibold">기준 데이터 관리</h1><p className="mt-2 text-sm text-muted">서비스 운영 기준을 종류별로 저장하고 활성화 상태와 변경 이력을 관리합니다.</p></div>
+      <div className="max-w-3xl"><p className="text-sm text-brand-teal">Master Data</p><h1 className="mt-1 text-3xl font-semibold">기준 데이터 관리</h1><p className="mt-2 text-sm leading-6 text-muted">서비스 구동에 쓰는 기준 정보(국가·언어, 상품 가격, 광고 슬롯 등)를 종류별로 관리합니다. 항목을 수정하면 변경 이력이 남고, 비활성화하면 서비스에서 제외됩니다. &lsquo;현재 기준 가져오기&rsquo;로 코드에 정의된 기본값을 불러올 수 있습니다.</p></div>
       <div className="flex gap-2"><button type="button" onClick={() => void importDefaults()} disabled={saving} className="inline-flex h-10 items-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold">현재 기준 가져오기</button><button type="button" onClick={startNew} className="inline-flex h-10 items-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background"><Plus size={16}/>새 항목</button></div>
     </header>
 
@@ -132,7 +147,7 @@ export function AdminMasterDataManager() {
     <section className="rounded-xl border border-line bg-surface p-4"><h2 className="font-semibold">{descriptor.label}</h2><p className="mt-1 text-sm text-muted">{descriptor.help}</p>{category === "HANJA" ? <Link href="/naming-artist/hanja" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-brand-teal"><Database size={16}/>한자 원본·가져오기 관리</Link> : null}</section>
 
     <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
-      <section className="min-w-0"><h2 className="mb-3 text-lg font-semibold">등록 항목 <span className="text-sm font-normal text-muted">{records.length}</span></h2>{loading ? <p className="rounded-xl border border-line bg-surface p-6 text-sm text-muted">불러오는 중입니다.</p> : records.length === 0 ? <p className="rounded-xl border border-dashed border-line bg-surface p-8 text-center text-sm text-muted">등록된 항목이 없습니다. 새 항목을 추가하십시오.</p> : <div className="grid gap-2">{records.map((record) => <button key={record.id} type="button" onClick={() => void editRecord(record)} className={`rounded-xl border p-4 text-left ${form.id === record.id ? "border-foreground bg-surface-strong" : "border-line bg-surface"}`}><div className="flex items-center justify-between gap-3"><span className="font-semibold">{record.label}</span><span className={`rounded-full px-2 py-1 text-xs ${record.is_active ? "bg-brand-teal/10 text-brand-teal" : "bg-surface-strong text-muted"}`}>{record.is_active ? "활성" : "비활성"}</span></div><p className="mt-1 font-mono text-xs text-muted">{record.record_key}</p><p className="mt-2 text-xs text-muted">정렬 {record.sort_order} · {new Date(record.updated_at).toLocaleString("ko-KR")}</p></button>)}</div>}</section>
+      <section className="min-w-0 grid content-start gap-3"><h2 className="text-lg font-semibold">등록 항목 <span className="text-sm font-normal text-muted">{records.length}</span></h2><FilterBar><FilterSearch value={recordSearch} onChange={setRecordSearch} placeholder="이름·키 검색" /><FilterSelect label="상태" value={activeFilter} onChange={setActiveFilter} options={[{ value: "all", label: "전체" }, { value: "active", label: "활성" }, { value: "inactive", label: "비활성" }]} /></FilterBar>{loading ? <p className="rounded-xl border border-line bg-surface p-6 text-sm text-muted">불러오는 중입니다.</p> : filteredRecords.length === 0 ? <p className="rounded-xl border border-dashed border-line bg-surface p-8 text-center text-sm text-muted">{records.length === 0 ? "등록된 항목이 없습니다. 새 항목을 추가하십시오." : "조건에 맞는 항목이 없습니다. 검색어나 필터를 바꿔 보세요."}</p> : <div className="grid gap-2">{pagedRecords.pageItems.map((record) => <button key={record.id} type="button" onClick={() => void editRecord(record)} className={`rounded-xl border p-4 text-left ${form.id === record.id ? "border-foreground bg-surface-strong" : "border-line bg-surface"}`}><div className="flex items-center justify-between gap-3"><span className="font-semibold">{record.label}</span><span className={`rounded-full px-2 py-1 text-xs ${record.is_active ? "bg-brand-teal/10 text-brand-teal" : "bg-surface-strong text-muted"}`}>{record.is_active ? "활성" : "비활성"}</span></div><p className="mt-1 font-mono text-xs text-muted">{record.record_key}</p><p className="mt-2 text-xs text-muted">정렬 {record.sort_order} · {new Date(record.updated_at).toLocaleString("ko-KR")}</p></button>)}</div>}<Pagination page={pagedRecords.page} totalPages={pagedRecords.totalPages} total={pagedRecords.total} onChange={pagedRecords.setPage} /></section>
 
       <section className="rounded-xl border border-line bg-surface p-5"><h2 className="text-lg font-semibold">{form.id ? "항목 편집" : "새 항목"}</h2><div className="mt-5 grid gap-4"><label className="grid gap-2"><span className="text-sm font-medium">관리 키</span><input value={form.recordKey} onChange={(e) => setForm((current) => ({ ...current, recordKey: e.target.value }))} placeholder="영문, 숫자, ., _, - 사용" className="h-10 rounded-lg border border-line bg-background px-3 font-mono text-sm"/></label><label className="grid gap-2"><span className="text-sm font-medium">표시 이름</span><input value={form.label} onChange={(e) => setForm((current) => ({ ...current, label: e.target.value }))} className="h-10 rounded-lg border border-line bg-background px-3 text-sm"/></label><div className="grid grid-cols-2 gap-3"><label className="grid gap-2"><span className="text-sm font-medium">정렬 순서</span><input type="number" value={form.sortOrder} onChange={(e) => setForm((current) => ({ ...current, sortOrder: Number(e.target.value) }))} className="h-10 rounded-lg border border-line bg-background px-3 text-sm"/></label><label className="flex items-end gap-2 pb-2 text-sm"><input type="checkbox" checked={form.isActive} onChange={(e) => setForm((current) => ({ ...current, isActive: e.target.checked }))}/>활성 상태</label></div><label className="grid gap-2"><span className="text-sm font-medium">구조화 데이터(JSON)</span><textarea value={form.json} onChange={(e) => setForm((current) => ({ ...current, json: e.target.value }))} spellCheck={false} rows={14} className="rounded-lg border border-line bg-background p-3 font-mono text-xs leading-5"/></label><button type="button" onClick={() => void save()} disabled={saving || !form.recordKey || !form.label} className="inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background disabled:opacity-50"><Save size={16}/>{saving ? "저장 중…" : "저장"}</button>{error ? <p className="text-sm text-brand-rose">{error}</p> : null}{message ? <p className="text-sm text-brand-teal">{message}</p> : null}</div>
 

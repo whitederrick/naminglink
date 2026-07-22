@@ -232,8 +232,10 @@ export function AdminContentManager() {
               <FilePenLine className="text-brand-teal" size={20} />
               <h1 className="text-2xl font-semibold">사이트 콘텐츠 관리</h1>
             </div>
-            <p className="mt-2 text-sm leading-6 text-muted">
-              초안은 공개되지 않으며, 게시를 눌러야 사용자 화면에 반영됩니다.
+            <p className="mt-2 max-w-3xl text-sm leading-6 text-muted">
+              약관·개인정보처리방침·환불정책·요금안내 문서와 푸터 회사 정보를 관리합니다.
+              언어별로 편집할 수 있고, 비워 두면 코드에 내장된 기본 문서가 사용됩니다.
+              초안 저장은 공개되지 않으며, 게시를 눌러야 사용자 화면에 반영됩니다.
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
