@@ -215,7 +215,8 @@ export function NamingForm({
   const isKoreanToGlobal = service.serviceType === "KOREAN_TO_GLOBAL";
   const isGlobalToKorean =
     service.serviceType === "GLOBAL_TO_KOREAN" && !isHangulTransliteration;
-  const usesDedicatedResultPage = isHanjaMeaning || isKoreanToGlobal;
+  const usesDedicatedResultPage =
+    isHanjaMeaning || isKoreanToGlobal || isGlobalToKorean;
   // 외국인 대상 서비스(GLOBAL_TO_KOREAN: 한국 이름 만들기·발음 표기)만 로케일에 따라 번역한다.
   // 한국어 대상 서비스는 항상 ko를 사용해 기존 한국어 문구를 그대로 유지한다.
   const isForeignAudience = service.serviceType === "GLOBAL_TO_KOREAN";
@@ -455,6 +456,23 @@ export function NamingForm({
             persistence: payload.persistence ?? "skipped",
             createdAt: new Date().toISOString(),
             inputFactors,
+          }),
+        );
+        router.push(
+          `/global-to-korean/result?lang=${locale}&mode=transliteration&id=${encodeURIComponent(resultId)}`,
+        );
+        return;
+      }
+
+      if (isGlobalToKorean && payload.result) {
+        const resultId = payload.logId ?? crypto.randomUUID();
+        sessionStorage.setItem(
+          `naminglink:korean-name-result:${resultId}`,
+          JSON.stringify({
+            result: payload.result,
+            logId: payload.logId ?? null,
+            persistence: payload.persistence ?? "skipped",
+            createdAt: new Date().toISOString(),
           }),
         );
         router.push(
