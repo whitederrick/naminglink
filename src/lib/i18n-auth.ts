@@ -695,6 +695,117 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "Supabase-ийн нийтийн түлхүүр тохируулагдаагүй тул нэвтрэх боломжгүй.",
   },
+  hi: {
+    back: "वापस",
+    home: "होम",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "लॉग इन",
+    loginDescription:
+      "आपका अकाउंट नामकरण परिणाम, प्रीमियम रिपोर्ट और मर्चेंडाइज़ ऑर्डर इतिहास को सुरक्षित रखता है।",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "अकाउंट",
+    accountDescription:
+      "लॉग इन के बाद यह स्क्रीन आपके नामकरण इतिहास, भुगतान, प्रीमियम रिपोर्ट और मुहर ऑर्डर की स्थिति प्रबंधित करने के लिए विस्तारित की जाएगी।",
+    panelEyebrowLogin: "ईमेल लॉगिन",
+    panelEyebrowAccount: "अकाउंट एक्सेस",
+    panelTitle: "एक ही लिंक से सुरक्षित लॉगिन",
+    panelDescription:
+      "पासवर्ड सहेजे नहीं जाते — आप ईमेल सत्यापन लिंक से लॉग इन करते हैं। उपयोग से पहले कृपया सेवा की शर्तें और गोपनीयता नीति देख लें।",
+    emailLabel: "ईमेल",
+    emailPlaceholder: "name@example.com",
+    submitButton: "लॉगिन लिंक भेजें",
+    legalBefore: "जारी रखने पर यह माना जाएगा कि आपने ",
+    legalTerms: "सेवा की शर्तें",
+    legalBetween: " और ",
+    legalPrivacy: "गोपनीयता नीति",
+    legalAfter: " देख ली हैं।",
+    sentMessage:
+      "हमने आपके ईमेल पर लॉगिन लिंक भेज दिया है। कृपया अपना इनबॉक्स देखें।",
+    loggedInEyebrow: "लॉग इन हो गया",
+    loggedInDescription:
+      "नामकरण परिणाम और ऑर्डर इतिहास इसी अकाउंट के अंतर्गत सहेजे जाते हैं। भुगतान और PDF जारी करने की सुविधा जुड़ने के बाद आप उन्हें इसी स्क्रीन से फिर से डाउनलोड कर सकेंगे।",
+    logoutButton: "लॉग आउट",
+    loggedOutMessage: "आप लॉग आउट हो गए हैं।",
+    configWaitTitle: "लॉगिन सेटअप लंबित है",
+    configWaitDescription:
+      "डिप्लॉयमेंट परिवेश में Supabase URL और anon key कॉन्फ़िगर होने पर ईमेल लिंक लॉगिन उपलब्ध हो जाएगा।",
+    supabaseMissingError:
+      "Supabase सार्वजनिक कुंजी कॉन्फ़िगर न होने के कारण लॉगिन उपलब्ध नहीं है।",
+  },
+  km: {
+    back: "ត្រឡប់ក្រោយ",
+    home: "ទំព័រដើម",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "ចូលគណនី",
+    loginDescription:
+      "គណនីរបស់អ្នករក្សាទុកលទ្ធផលដាក់ឈ្មោះ របាយការណ៍ព្រីមៀម និងប្រវត្តិបញ្ជាទិញផលិតផលអនុស្សាវរីយ៍ដោយសុវត្ថិភាព។",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "គណនី",
+    accountDescription:
+      "បន្ទាប់ពីចូលគណនី អេក្រង់នេះនឹងត្រូវពង្រីកដើម្បីគ្រប់គ្រងប្រវត្តិដាក់ឈ្មោះ ការទូទាត់ របាយការណ៍ព្រីមៀម និងស្ថានភាពបញ្ជាទិញត្រា។",
+    panelEyebrowLogin: "ចូលតាមអ៊ីមែល",
+    panelEyebrowAccount: "ការចូលប្រើគណនី",
+    panelTitle: "ចូលដោយសុវត្ថិភាពដោយតំណតែមួយ",
+    panelDescription:
+      "យើងមិនរក្សាទុកពាក្យសម្ងាត់ទេ — អ្នកចូលតាមតំណផ្ទៀងផ្ទាត់ដែលផ្ញើតាមអ៊ីមែល។ សូមអានលក្ខខណ្ឌនៃការប្រើប្រាស់ និងគោលការណ៍ឯកជនភាពមុនពេលប្រើ។",
+    emailLabel: "អ៊ីមែល",
+    emailPlaceholder: "name@example.com",
+    submitButton: "ផ្ញើតំណចូល",
+    legalBefore: "ដោយបន្ត អ្នកត្រូវបានចាត់ទុកថាបានអាន",
+    legalTerms: "លក្ខខណ្ឌនៃការប្រើប្រាស់",
+    legalBetween: " និង",
+    legalPrivacy: "គោលការណ៍ឯកជនភាព",
+    legalAfter: "រួចហើយ។",
+    sentMessage:
+      "យើងបានផ្ញើតំណចូលទៅអ៊ីមែលរបស់អ្នកហើយ។ សូមពិនិត្យប្រអប់សាររបស់អ្នក។",
+    loggedInEyebrow: "បានចូលគណនី",
+    loggedInDescription:
+      "លទ្ធផលដាក់ឈ្មោះ និងប្រវត្តិបញ្ជាទិញត្រូវបានរក្សាទុកតាមគណនីនេះ។ នៅពេលការទូទាត់ និងការចេញឯកសារ PDF ត្រូវបានភ្ជាប់ អ្នកអាចទាញយកវាឡើងវិញពីអេក្រង់នេះ។",
+    logoutButton: "ចាកចេញ",
+    loggedOutMessage: "អ្នកបានចាកចេញពីគណនីហើយ។",
+    configWaitTitle: "កំពុងរង់ចាំការកំណត់ការចូល",
+    configWaitDescription:
+      "ការចូលតាមតំណអ៊ីមែលនឹងអាចប្រើបាន នៅពេល Supabase URL និង anon key ត្រូវបានកំណត់ក្នុងបរិយាកាសដាក់ឱ្យដំណើរការ។",
+    supabaseMissingError:
+      "មិនអាចចូលបានទេ ព្រោះសោសាធារណៈរបស់ Supabase មិនទាន់បានកំណត់។",
+  },
+  kk: {
+    back: "Артқа",
+    home: "Басты бет",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Кіру",
+    loginDescription:
+      "Тіркелгіңіз есім нәтижелерін, премиум есептерді және кәдесый өнімдер тапсырыстарының тарихын қауіпсіз сақтайды.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Тіркелгі",
+    accountDescription:
+      "Жүйеге кіргеннен кейін бұл экран есім тарихын, төлемдерді, премиум есептерді және мөр тапсырыстарының күйін басқару үшін кеңейтіледі.",
+    panelEyebrowLogin: "Email арқылы кіру",
+    panelEyebrowAccount: "Тіркелгіге қол жеткізу",
+    panelTitle: "Бір сілтемемен қауіпсіз кіріңіз",
+    panelDescription:
+      "Құпиясөздер сақталмайды — email растау сілтемесі арқылы кіресіз. Пайдаланбас бұрын Қызмет көрсету шарттарымен және Құпиялылық саясатымен танысыңыз.",
+    emailLabel: "Email",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Кіру сілтемесін жіберу",
+    legalBefore: "Жалғастыру арқылы сіз ",
+    legalTerms: "Қызмет көрсету шарттары",
+    legalBetween: " және ",
+    legalPrivacy: "Құпиялылық саясаты",
+    legalAfter: " құжаттарымен танысқаныңызды растайсыз.",
+    sentMessage:
+      "Кіру сілтемесін email мекенжайыңызға жібердік. Кіріс жәшігіңізді тексеріңіз.",
+    loggedInEyebrow: "Жүйеге кірдіңіз",
+    loggedInDescription:
+      "Есім нәтижелері мен тапсырыстар тарихы осы тіркелгіде сақталады. Төлем және PDF беру қосылғаннан кейін оларды осы экраннан қайта жүктеп ала аласыз.",
+    logoutButton: "Шығу",
+    loggedOutMessage: "Жүйеден шықтыңыз.",
+    configWaitTitle: "Кіру баптауы күтілуде",
+    configWaitDescription:
+      "Email сілтемесі арқылы кіру Supabase URL және anon key орналастыру ортасында бапталғаннан кейін қолжетімді болады.",
+    supabaseMissingError:
+      "Supabase жалпыға ортақ кілті бапталмағандықтан, кіру мүмкін емес.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

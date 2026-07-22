@@ -587,8 +587,101 @@ const mn: ResultCopy = {
   backToInput: "Мэдээлэл оруулах дэлгэц рүү буцах",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn을 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn };
+const hi: ResultCopy = {
+  reanalysisError: "हम उच्चारण का पुनर्विश्लेषण पूरा नहीं कर सके।",
+  reanalysisErrorGeneric: "पुनर्विश्लेषण के दौरान एक त्रुटि हुई।",
+  reanalysisEyebrow: "क्या यह असली उच्चारण से अलग लगता है?",
+  reanalysisTitle: "उच्चारण संकेत के साथ फिर से विश्लेषण करें",
+  reanalysisDescription:
+    "असली उच्चारण को और स्पष्ट रूप से दर्ज करें, हम उसी नाम, भाषा और देश के साथ फिर से विश्लेषण करेंगे।",
+  hintLabel: "उच्चारण संकेत",
+  hintPlaceholder: "जैसे: रा-हुल शर-मा जैसा उच्चारण",
+  reanalysisCountdown: (seconds) => `विज्ञापन के बाद फिर से विश्लेषण करेंगे। ${seconds} सेकंड`,
+  reanalyzing: "फिर से विश्लेषण हो रहा है",
+  goodsEyebrow: "अपने परिणाम का और लाभ उठाएँ",
+  goodsSectionTitle: "नाम मर्चेंडाइज़",
+  goodsItemTitle: "हांगुल नाम मर्चेंडाइज़",
+  goodsItemSub: "(कैप, कीरिंग, टी-शर्ट आदि)",
+  goodsItemDescription:
+    "अपने चुने हुए हांगुल नाम को कैप, कीरिंग, टी-शर्ट आदि पर छपवाकर अपना खुद का मर्चेंडाइज़ बनाएँ।",
+  goodsButton: "मर्चेंडाइज़ ऑर्डर जल्द शुरू होगा",
+  editInput: "इनपुट संपादित करें",
+  home: "होम",
+  headerAdLabel: "हांगुल परिणाम शीर्ष बैनर विज्ञापन",
+  headerCaption: "हांगुल उच्चारण विश्लेषण परिणाम",
+  loading: "आपका परिणाम लोड हो रहा है।",
+  analysisDone: "विश्लेषण पूर्ण",
+  resultHeading: "हांगुल उच्चारण में आपका नाम",
+  emptyTitle: "हम आपका परिणाम लोड नहीं कर सके।",
+  emptyDescription:
+    "यह परिणाम केवल उसी ब्राउज़र टैब में उपलब्ध है जिसमें आपने विश्लेषण चलाया था।",
+  backToInput: "इनपुट स्क्रीन पर वापस जाएँ",
+};
+
+const km: ResultCopy = {
+  reanalysisError: "យើងមិនអាចបញ្ចប់ការវិភាគការបញ្ចេញសំឡេងឡើងវិញបានទេ។",
+  reanalysisErrorGeneric: "មានបញ្ហាកើតឡើងពេលវិភាគឡើងវិញ។",
+  reanalysisEyebrow: "តើវាខុសពីការបញ្ចេញសំឡេងពិតមែនទេ?",
+  reanalysisTitle: "វិភាគឡើងវិញដោយប្រើគន្លឹះបញ្ចេញសំឡេង",
+  reanalysisDescription:
+    "បញ្ចូលរបៀបបញ្ចេញសំឡេងពិតឱ្យបានច្បាស់ជាងមុន ហើយយើងនឹងវិភាគឡើងវិញដោយប្រើឈ្មោះ ភាសា និងប្រទេសដដែល។",
+  hintLabel: "គន្លឹះបញ្ចេញសំឡេង",
+  hintPlaceholder: "ឧ. បញ្ចេញសំឡេងស្រដៀង សុខ ចន្ថា",
+  reanalysisCountdown: (seconds) => `យើងនឹងវិភាគឡើងវិញបន្ទាប់ពីការផ្សាយពាណិជ្ជកម្ម។ ${seconds} វិនាទី`,
+  reanalyzing: "កំពុងវិភាគឡើងវិញ",
+  goodsEyebrow: "ប្រើប្រាស់លទ្ធផលរបស់អ្នកបន្ថែមទៀត",
+  goodsSectionTitle: "ផលិតផលអនុស្សាវរីយ៍តាមឈ្មោះ",
+  goodsItemTitle: "ផលិតផលអនុស្សាវរីយ៍ឈ្មោះហាន់គុល",
+  goodsItemSub: "(មួក ខ្សែកូនសោ អាវយឺត និងច្រើនទៀត)",
+  goodsItemDescription:
+    "ដាក់ឈ្មោះហាន់គុលដែលអ្នកបានជ្រើសរើសលើមួក ខ្សែកូនសោ អាវយឺត និងច្រើនទៀត ដើម្បីបង្កើតផលិតផលអនុស្សាវរីយ៍ផ្ទាល់ខ្លួនរបស់អ្នក។",
+  goodsButton: "ការបញ្ជាទិញផលិតផលអនុស្សាវរីយ៍នឹងបើកឆាប់ៗនេះ",
+  editInput: "កែសម្រួលការបញ្ចូល",
+  home: "ទំព័រដើម",
+  headerAdLabel: "ផ្ទាំងផ្សាយពាណិជ្ជកម្មខាងលើលទ្ធផលហាន់គុល",
+  headerCaption: "លទ្ធផលវិភាគការបញ្ចេញសំឡេងហាន់គុល",
+  loading: "កំពុងផ្ទុកលទ្ធផលរបស់អ្នក។",
+  analysisDone: "ការវិភាគបានបញ្ចប់",
+  resultHeading: "ឈ្មោះរបស់អ្នកសរសេរតាមសំឡេងជាហាន់គុល",
+  emptyTitle: "យើងមិនអាចផ្ទុកលទ្ធផលរបស់អ្នកបានទេ។",
+  emptyDescription:
+    "លទ្ធផលនេះអាចមើលបានតែក្នុងផ្ទាំងកម្មវិធីរុករកដែលអ្នកបានដំណើរការការវិភាគប៉ុណ្ណោះ។",
+  backToInput: "ត្រឡប់ទៅអេក្រង់បញ្ចូលវិញ",
+};
+
+const kk: ResultCopy = {
+  reanalysisError: "Дыбысталуды қайта талдауды аяқтай алмадық.",
+  reanalysisErrorGeneric: "Қайта талдау кезінде қате орын алды.",
+  reanalysisEyebrow: "Нақты дыбысталудан өзгеше ме?",
+  reanalysisTitle: "Дыбысталу нұсқауымен қайта талдау",
+  reanalysisDescription:
+    "Нақты дыбысталуды нақтырақ енгізіңіз — сол есім, тіл және ел бойынша қайта талдаймыз.",
+  hintLabel: "Дыбысталу нұсқауы",
+  hintPlaceholder: "Мысалы: Ай-дос Се-рік-ұлы сияқты оқылады",
+  reanalysisCountdown: (seconds) => `Жарнамадан кейін қайта талдаймыз. ${seconds} секунд`,
+  reanalyzing: "Қайта талдануда",
+  goodsEyebrow: "Нәтижеңізді көбірек пайдаланыңыз",
+  goodsSectionTitle: "Есімі бар кәдесый өнімдер",
+  goodsItemTitle: "Хангыль есімі бар кәдесый өнімдер",
+  goodsItemSub: "(кепка, брелок, футболка және т.б.)",
+  goodsItemDescription:
+    "Таңдаған хангыль есіміңізді кепка, брелок, футболка және басқа заттарға бастырып, өз кәдесый өнімдеріңізді жасаңыз.",
+  goodsButton: "Кәдесый өнімдерге тапсырыс жақында ашылады",
+  editInput: "Енгізілген деректерді өзгерту",
+  home: "Басты бет",
+  headerAdLabel: "Хангыль нәтижесінің жоғарғы баннерлік жарнамасы",
+  headerCaption: "Хангыль дыбысталу талдауының нәтижесі",
+  loading: "Нәтижеңіз жүктелуде.",
+  analysisDone: "Талдау аяқталды",
+  resultHeading: "Есіміңіздің хангыль дыбысталу жазылымы",
+  emptyTitle: "Нәтижеңізді жүктей алмадық.",
+  emptyDescription:
+    "Бұл нәтиже тек талдау жүргізілген браузер қойындысында ғана көрінеді.",
+  backToInput: "Енгізу экранына оралу",
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk을 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;
