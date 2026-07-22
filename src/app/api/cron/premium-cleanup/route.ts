@@ -41,22 +41,48 @@ export async function GET(request: Request) {
   }
 
   const now = new Date().toISOString();
-  const { data: sessions, error: sessionError } = await supabase
+  // 방치된 결제 대기(PENDING_PAYMENT) 세션은 결제 시점에만 expires_at이 채워지므로 만료 조회에 걸리지
+  // 않는다. 생성 후 일정 시간이 지난 미결제 세션은 사실상 이탈로 보고 PII를 파기한다(기본 24시간).
+  const abandonedCutoff = new Date(
+    Date.now() -
+      Number(process.env.PREMIUM_ABANDONED_TTL_HOURS ?? 24) * 60 * 60 * 1000,
+  ).toISOString();
+
+  // 결제 후 만료된 세션: 정책상 결제 24시간 뒤 전부 자동 삭제되어야 하므로 PAID·GENERATING까지 포함한다
+  // (예전에는 READY·EXPIRED·FAILED만 지워 결제 후 미생성/생성 중단 세션의 PII가 무기한 잔존했다).
+  const { data: expiredSessions, error: expiredError } = await supabase
     .from("premium_analysis_sessions")
-    .select("id,status")
+    .select("id,status,order_id")
     .lte("expires_at", now)
     .is("deleted_at", null)
-    .in("status", ["READY", "EXPIRED", "FAILED"])
+    .in("status", ["READY", "EXPIRED", "FAILED", "PAID", "GENERATING"])
     .limit(BATCH_SIZE);
 
-  if (sessionError) {
+  if (expiredError) {
     return NextResponse.json(
       { ok: false, error: "만료 세션 조회에 실패했습니다." },
       { status: 500 },
     );
   }
 
-  if (!sessions?.length) {
+  const { data: abandonedSessions, error: abandonedError } = await supabase
+    .from("premium_analysis_sessions")
+    .select("id,status,order_id")
+    .eq("status", "PENDING_PAYMENT")
+    .is("deleted_at", null)
+    .lte("created_at", abandonedCutoff)
+    .limit(BATCH_SIZE);
+
+  if (abandonedError) {
+    return NextResponse.json(
+      { ok: false, error: "방치 세션 조회에 실패했습니다." },
+      { status: 500 },
+    );
+  }
+
+  const sessions = [...(expiredSessions ?? []), ...(abandonedSessions ?? [])];
+
+  if (!sessions.length) {
     return NextResponse.json({ ok: true, processed: 0, deleted: 0, retry: 0 });
   }
 
@@ -153,11 +179,30 @@ export async function GET(request: Request) {
       .in("id", [...retrySessionIds]);
   }
 
+  // 세션 파기가 확정된 이탈 주문의 UNPAID 연락처 PII를 함께 제거한다(PAID 주문은 제외).
+  // 방치 세션은 PDF 산출물이 없어 재시도 대상이 아니므로, 실제 DELETED 처리된 세션의 주문만 고른다.
+  const deletedSessionIdSet = new Set(deletedSessionIds);
+  const wipedOrderIds = (abandonedSessions ?? [])
+    .filter((session) => deletedSessionIdSet.has(String(session.id)))
+    .map((session) => session.order_id)
+    .filter((orderId): orderId is string => typeof orderId === "string");
+  let cleanedOrders = 0;
+  if (wipedOrderIds.length) {
+    const { data: updatedOrders } = await supabase
+      .from("orders")
+      .update({ customer_name: null, customer_email: null })
+      .in("id", wipedOrderIds)
+      .eq("payment_status", "UNPAID")
+      .select("id");
+    cleanedOrders = updatedOrders?.length ?? 0;
+  }
+
   return NextResponse.json({
     ok: true,
     processed: sessionIds.length,
     deleted: deletedSessionIds.length,
     deletedArtifacts,
+    cleanedOrders,
     retry: retrySessionIds.size,
   });
 }
