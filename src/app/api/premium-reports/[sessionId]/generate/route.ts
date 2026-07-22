@@ -51,6 +51,24 @@ export async function POST(request: Request, context: Context) {
       : await claimUpdate.eq("status", "PAID").select("id").maybeSingle();
     if (!claimed) return NextResponse.json({ ok: true, status: "GENERATING" }, { status: 202 });
 
+    // 프리미엄 PDF는 리포트가 READY가 되는 순간이 곧 전달 완료다. 결제 시점이 아니라 READY 시점에
+    // 완료 처리해야 생성 실패(FAILED) 건이 미처리로 남아 관리자 눈에 띈다. READY 저장 후의 실패이므로
+    // 여기서 오류를 던지면 세션이 FAILED로 뒤집히는 모순이 생겨 best-effort로만 처리한다(실패 시
+    // 주문이 미처리 목록에 남을 뿐). 환불(CANCELLED) 등은 덮어쓰지 않는다.
+    const markOrderFulfilled = async () => {
+      if (!session.order_id) return;
+      try {
+        const { error } = await supabase
+          .from("orders")
+          .update({ fulfillment_status: "COMPLETED", updated_at: new Date().toISOString() })
+          .eq("id", String(session.order_id))
+          .in("fulfillment_status", ["PENDING", "PROCESSING"]);
+        if (error) throw error;
+      } catch (error) {
+        console.error("Failed to mark premium order fulfillment as completed", error);
+      }
+    };
+
     try {
       const payload = session.input_payload as Record<string, unknown>;
       const inputFactors = payload.inputFactors as Record<string, unknown>;
@@ -77,6 +95,7 @@ export async function POST(request: Request, context: Context) {
           })
           .eq("id", session.id);
         if (error) throw error;
+        await markOrderFulfilled();
         return NextResponse.json({ ok: true, status: "READY", premium, expiresAt: session.expires_at });
       }
       const premium = await buildPremiumHanjaTestResult(inputFactors, payload.freeResult, {
@@ -100,6 +119,7 @@ export async function POST(request: Request, context: Context) {
         })
         .eq("id", session.id);
       if (error) throw error;
+      await markOrderFulfilled();
       return NextResponse.json({ ok: true, status: "READY", premium, expiresAt: session.expires_at });
     } catch (error) {
       await supabase
