@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { getCountryCode, getDailyVisitorHash } from "@/lib/request-context";
+import { readJsonBodyLimited } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -14,7 +15,8 @@ const schema = z.object({
 });
 
 export async function POST(request: NextRequest) {
-  const parsed = schema.safeParse(await request.json().catch(() => null));
+  const body = await readJsonBodyLimited(request, 4 * 1024).catch(() => null);
+  const parsed = schema.safeParse(body);
   if (!parsed.success) return NextResponse.json({ ok: false, error: "잘못된 이벤트입니다." }, { status: 400 });
   const supabase = getSupabaseAdminClient();
   if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });

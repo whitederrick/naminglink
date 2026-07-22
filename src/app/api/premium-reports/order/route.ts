@@ -12,6 +12,11 @@ import {
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
+import {
+  checkInputFactorsSize,
+  readJsonBodyLimited,
+  RequestTooLargeError,
+} from "@/lib/request-guard";
 import { hasCompletePremiumBirthDate, isLunarCalendar } from "@/lib/premium-hanja-eligibility";
 import { validatePremiumBirthDate } from "@/lib/saju/engine";
 
@@ -42,9 +47,23 @@ const schema = z.object({
 });
 
 export async function POST(request: NextRequest) {
-  const parsed = schema.safeParse(await request.json().catch(() => null));
+  let body: unknown;
+  try {
+    body = await readJsonBodyLimited(request, 16 * 1024);
+  } catch (guardError) {
+    const message =
+      guardError instanceof RequestTooLargeError
+        ? guardError.message
+        : "주문 정보가 올바르지 않습니다.";
+    return NextResponse.json({ ok: false, error: message }, { status: 413 });
+  }
+  const parsed = schema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ ok: false, error: "주문 정보가 올바르지 않습니다." }, { status: 400 });
+  }
+  const sizeError = checkInputFactorsSize(parsed.data.inputFactors);
+  if (sizeError) {
+    return NextResponse.json({ ok: false, error: sizeError }, { status: 400 });
   }
   const fieldErrors = validateHanjaMeaningInput(parsed.data.inputFactors);
   if (Object.keys(fieldErrors).length) {

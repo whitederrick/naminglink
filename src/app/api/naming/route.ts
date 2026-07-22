@@ -5,6 +5,11 @@ import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
+import {
+  checkInputFactorsSize,
+  readJsonBodyLimited,
+  RequestTooLargeError,
+} from "@/lib/request-guard";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
 export const runtime = "nodejs";
@@ -45,7 +50,17 @@ function stripPaidHanjaDetail(result: unknown) {
 export async function POST(request: NextRequest) {
   const startedAt = Date.now();
   try {
-    const body = await request.json();
+    let body: unknown;
+    try {
+      body = await readJsonBodyLimited(request, 16 * 1024);
+    } catch (guardError) {
+      const message =
+        guardError instanceof RequestTooLargeError
+          ? guardError.message
+          : "요청 본문이 올바르지 않습니다.";
+      return NextResponse.json({ ok: false, error: message }, { status: 413 });
+    }
+
     const parsed = requestSchema.safeParse(body);
 
     if (!parsed.success) {
@@ -57,6 +72,12 @@ export async function POST(request: NextRequest) {
         },
         { status: 400 },
       );
+    }
+
+    // 거대한/과다한 inputFactors가 OpenAI 프롬프트로 흘러 들어가는 것을 막는다(비용 방어).
+    const sizeError = checkInputFactorsSize(parsed.data.inputFactors);
+    if (sizeError) {
+      return NextResponse.json({ ok: false, error: sizeError }, { status: 400 });
     }
 
     if (parsed.data.serviceType === "HANJA_MEANING_MATCH") {
