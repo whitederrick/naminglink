@@ -1,6 +1,8 @@
+// 이 파일은 클라이언트 번들(푸터·모달 등)에 포함되므로 legal-content의 로케일 문서를
+// 값으로 임포트하지 않는다(23개 언어 전체가 번들에 끌려 들어가는 것 방지).
+// 폴백 문서가 필요한 서버 코드는 @/lib/legal-content의 getFallbackPolicyDocument를 쓴다.
 import { z } from "zod";
 import { companyInfo } from "@/lib/company";
-import { getLegalLocaleContent } from "@/lib/legal-content";
 import { legalDocumentKinds } from "@/lib/legal-content/types";
 import { supportedLocales, type Locale } from "@/lib/services";
 
@@ -120,13 +122,6 @@ export const fallbackFooterContent: FooterContent = {
   hostingProvider: companyInfo.hostingProvider,
   copyrightYear: 2026,
 };
-
-export function getFallbackPolicyDocument(
-  kind: LegalDocumentKind,
-  locale: Locale = "ko",
-) {
-  return getLegalLocaleContent(locale).documents[kind];
-}
 
 export function parseManagedContent(
   kind: LegalDocumentKind | "footer",

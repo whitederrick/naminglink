@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Petsa ng pagkakabisa",
     referenceDate: "Simula noong",
     login: "Mag-log in",
+    close: "Isara",
   },
   documents: {
     terms: {

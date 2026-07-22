@@ -55,3 +55,12 @@ const contentByLocale: Record<Locale, LegalLocaleContent> = {
 export function getLegalLocaleContent(locale: Locale): LegalLocaleContent {
   return contentByLocale[locale] ?? contentByLocale.en;
 }
+
+// 주의: 이 모듈은 23개 로케일 문서 전체를 임포트하므로 서버 코드(페이지·API·admin)에서만
+// 사용할 것. 일반 클라이언트 컴포넌트는 /api/site-content로 조회한다(번들 크기 보호).
+export function getFallbackPolicyDocument(
+  kind: import("./types").LegalDocumentKind,
+  locale: Locale = "ko",
+) {
+  return getLegalLocaleContent(locale).documents[kind];
+}

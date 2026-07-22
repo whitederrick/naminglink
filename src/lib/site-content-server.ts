@@ -1,9 +1,9 @@
 import "server-only";
 import { getSupabaseAdminClient } from "@/lib/supabase";
+import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import {
   fallbackFooterContent,
   getContentKey,
-  getFallbackPolicyDocument,
   parseManagedContent,
   type FooterContent,
   type LegalDocumentKind,

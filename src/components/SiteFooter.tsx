@@ -687,11 +687,13 @@ export function SiteFooter({
     return () => controller.abort();
   }, []);
 
+  // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 전달한다(IP·브라우저 언어 재추정 방지).
+  const langQuery = locale && locale !== "ko" ? `?lang=${locale}` : "";
   const footerLinks = [
-    { href: "/terms", label: copy.links.terms },
-    { href: "/privacy", label: copy.links.privacy },
-    { href: "/refund-policy", label: copy.links.refund },
-    { href: "/pricing", label: copy.links.pricing },
+    { href: `/terms${langQuery}`, label: copy.links.terms },
+    { href: `/privacy${langQuery}`, label: copy.links.privacy },
+    { href: `/refund-policy${langQuery}`, label: copy.links.refund },
+    { href: `/pricing${langQuery}`, label: copy.links.pricing },
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
   const firstLine = [

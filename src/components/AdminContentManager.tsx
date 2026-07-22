@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { FilePenLine, LogOut, Plus, Save, Send, Trash2 } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import {
   fallbackFooterContent,
-  getFallbackPolicyDocument,
   type FooterContent,
   type LegalDocumentKind,
   type PolicyDocumentContent,

@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Күшіне енген күні",
     referenceDate: "Жағдай бойынша",
     login: "Кіру",
+    close: "Жабу",
   },
   documents: {
     terms: {

@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Yürürlük tarihi",
     referenceDate: "Geçerlilik tarihi",
     login: "Giriş yap",
+    close: "Kapat",
   },
   documents: {
     terms: {

@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Kuchga kirgan sana",
     referenceDate: "Holat sanasi",
     login: "Kirish",
+    close: "Yopish",
   },
   documents: {
     terms: {

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { getLegalLocaleContent } from "@/lib/legal-content";
 import { isLocale } from "@/lib/locale";
 import {
   getPublishedFooterContent,
@@ -34,5 +35,6 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({
     ok: true,
     content: await getPublishedPolicyDocument(kind, locale),
+    labels: getLegalLocaleContent(locale).labels,
   });
 }

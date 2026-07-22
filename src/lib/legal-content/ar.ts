@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "تاريخ السريان",
     referenceDate: "اعتبارًا من",
     login: "تسجيل الدخول",
+    close: "إغلاق",
   },
   documents: {
     terms: {

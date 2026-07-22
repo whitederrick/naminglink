@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "生效日期",
     referenceDate: "基准日期",
     login: "登录",
+    close: "关闭",
   },
   documents: {
     terms: {

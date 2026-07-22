@@ -4,21 +4,25 @@ import { X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { ManagedLegalDocumentContent } from "@/components/LegalDocumentContent";
-import {
-  getFallbackPolicyDocument,
-  type LegalDocumentKind,
-  type PolicyDocumentContent,
+import type {
+  LegalDocumentKind,
+  PolicyDocumentContent,
 } from "@/lib/site-content";
+import type { LegalPageLabels } from "@/lib/legal-content/types";
 import type { Locale } from "@/lib/services";
 
 export type LegalDocument = LegalDocumentKind;
 
-const documentTitles: Record<LegalDocument, string> = {
-  terms: "\uC774\uC6A9\uC57D\uAD00",
-  privacy: "\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68",
-  refund: "\uD658\uBD88\uC815\uCC45",
-  pricing: "\uC694\uAE08\uC548\uB0B4",
-};
+// 로케일 문서는 번들에 넣지 않고 API에서 로케일 버전을 바로 받아 렌더한다.
+// (예전에는 한국어 폴백을 먼저 그려서 비한국어 사용자에게 한글이 번쩍이는 문제가 있었음.)
+type LoadState =
+  | { status: "loading" }
+  | { status: "error" }
+  | {
+      status: "ready";
+      content: PolicyDocumentContent;
+      labels: LegalPageLabels;
+    };
 
 export function LegalModal({
   kind,
@@ -31,10 +35,9 @@ export function LegalModal({
   title?: string;
   locale?: Locale;
 }) {
-  const [content, setContent] = useState<PolicyDocumentContent>(() =>
-    getFallbackPolicyDocument(kind),
-  );
-  const title = titleOverride ?? content.title ?? documentTitles[kind];
+  const [state, setState] = useState<LoadState>({ status: "loading" });
+  const title =
+    titleOverride ?? (state.status === "ready" ? state.content.title : "");
 
   useEffect(() => {
     const controller = new AbortController();
@@ -44,11 +47,20 @@ export function LegalModal({
     })
       .then((response) => (response.ok ? response.json() : null))
       .then((payload) => {
-        if (payload?.content) setContent(payload.content);
+        if (payload?.content && payload?.labels) {
+          setState({
+            status: "ready",
+            content: payload.content,
+            labels: payload.labels,
+          });
+        } else {
+          setState({ status: "error" });
+        }
       })
       .catch((error) => {
         if (error instanceof Error && error.name !== "AbortError") {
           console.error("Failed to load legal content", error);
+          setState({ status: "error" });
         }
       });
 
@@ -91,21 +103,38 @@ export function LegalModal({
             >
               {title}
             </h2>
-            <p className="mt-1 text-xs text-[#6b716d]">
-              {"\uC2DC\uD589\uC77C"}: {content.effectiveDate}
-            </p>
+            {state.status === "ready" ? (
+              <p className="mt-1 text-xs text-[#6b716d]">
+                {state.labels.effectiveDate}: {state.content.effectiveDate}
+              </p>
+            ) : null}
           </div>
           <button
             type="button"
             onClick={onClose}
-            aria-label={`${title} ${"\uB2EB\uAE30"}`}
+            aria-label={`${title} ×`}
             className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-[#ded9cc] bg-white text-[#17201b] transition hover:border-[#17201b] hover:bg-[#f1eadb]"
           >
             <X aria-hidden="true" size={18} />
           </button>
         </header>
         <div className="grid gap-7 overflow-y-auto px-5 py-2 sm:px-6">
-          <ManagedLegalDocumentContent content={content} />
+          {state.status === "ready" ? (
+            <ManagedLegalDocumentContent content={state.content} />
+          ) : state.status === "error" ? (
+            <p className="py-8 text-center text-sm text-[#6b716d]">
+              일시적인 오류로 문서를 불러오지 못했습니다. / Failed to load the
+              document. Please try again.
+            </p>
+          ) : (
+            <div className="grid gap-3 py-6" aria-hidden="true">
+              <span className="h-4 w-2/3 animate-pulse rounded bg-[#f1eadb]" />
+              <span className="h-4 w-full animate-pulse rounded bg-[#f1eadb]" />
+              <span className="h-4 w-full animate-pulse rounded bg-[#f1eadb]" />
+              <span className="h-4 w-5/6 animate-pulse rounded bg-[#f1eadb]" />
+              <span className="h-4 w-3/4 animate-pulse rounded bg-[#f1eadb]" />
+            </div>
+          )}
         </div>
         <footer className="border-t border-[#ded9cc] px-5 py-4 sm:px-6">
           <button
@@ -113,7 +142,7 @@ export function LegalModal({
             onClick={onClose}
             className="inline-flex h-10 w-full items-center justify-center rounded-lg bg-[#17201b] px-4 text-sm font-semibold text-white"
           >
-            {"\uB2EB\uAE30"}
+            {state.status === "ready" ? state.labels.close : "×"}
           </button>
         </footer>
       </section>

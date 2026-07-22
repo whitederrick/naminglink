@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Ngày hiệu lực",
     referenceDate: "Ngày tham chiếu",
     login: "Đăng nhập",
+    close: "Đóng",
   },
   documents: {
     terms: {

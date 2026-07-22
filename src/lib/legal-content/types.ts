@@ -25,6 +25,7 @@ export type LegalPageLabels = {
   effectiveDate: string;
   referenceDate: string;
   login: string;
+  close: string;
 };
 
 export type LegalLocaleContent = {

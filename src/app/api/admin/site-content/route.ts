@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
+import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import { isLocale } from "@/lib/locale";
 import {
   fallbackFooterContent,
   footerContentSchema,
   getContentKey,
-  getFallbackPolicyDocument,
   legalDocumentKinds,
   managedContentRequestSchema,
   type LegalDocumentKind,
@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
     : getContentKey(kind as LegalDocumentKind, locale as Locale);
   const fallback = isFooter
     ? fallbackFooterContent
-    : getFallbackPolicyDocument(kind as LegalDocumentKind);
+    : getFallbackPolicyDocument(kind as LegalDocumentKind, locale as Locale);
   const result = await getManagedContentRow(contentKey);
 
   if (result.error) {

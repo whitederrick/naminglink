@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "Fecha de entrada en vigor",
     referenceDate: "Fecha de referencia",
     login: "Iniciar sesión",
+    close: "Cerrar",
   },
   documents: {
     terms: {

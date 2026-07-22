@@ -1,8 +1,5 @@
 import { PolicySection } from "@/components/PolicyLayout";
-import {
-  getFallbackPolicyDocument,
-  type PolicyDocumentContent,
-} from "@/lib/site-content";
+import type { PolicyDocumentContent } from "@/lib/site-content";
 
 export function ManagedLegalDocumentContent({
   content,
@@ -28,33 +25,33 @@ export function ManagedLegalDocumentContent({
 }
 
 export function TermsDocumentContent({
-  content = getFallbackPolicyDocument("terms"),
+  content,
 }: {
-  content?: PolicyDocumentContent;
+  content: PolicyDocumentContent;
 }) {
   return <ManagedLegalDocumentContent content={content} />;
 }
 
 export function PrivacyDocumentContent({
-  content = getFallbackPolicyDocument("privacy"),
+  content,
 }: {
-  content?: PolicyDocumentContent;
+  content: PolicyDocumentContent;
 }) {
   return <ManagedLegalDocumentContent content={content} />;
 }
 
 export function RefundDocumentContent({
-  content = getFallbackPolicyDocument("refund"),
+  content,
 }: {
-  content?: PolicyDocumentContent;
+  content: PolicyDocumentContent;
 }) {
   return <ManagedLegalDocumentContent content={content} />;
 }
 
 export function PricingDocumentContent({
-  content = getFallbackPolicyDocument("pricing"),
+  content,
 }: {
-  content?: PolicyDocumentContent;
+  content: PolicyDocumentContent;
 }) {
   return <ManagedLegalDocumentContent content={content} />;
 }

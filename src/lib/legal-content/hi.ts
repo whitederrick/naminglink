@@ -6,6 +6,7 @@ const content: LegalLocaleContent = {
     effectiveDate: "प्रभावी तिथि",
     referenceDate: "यथा तिथि",
     login: "लॉग इन",
+    close: "बंद करें",
   },
   documents: {
     terms: {
