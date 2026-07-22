@@ -24,19 +24,19 @@ export function PageHeader({
       <div className="max-w-3xl">
         <p className="text-sm text-brand-teal">{eyebrow}</p>
         <h1 className="mt-1 text-3xl font-semibold">{title}</h1>
-        <p className="mt-2 text-sm leading-6 text-muted">{description}</p>
+        <p className="mt-2 whitespace-pre-line text-sm leading-6 text-muted">{description}</p>
       </div>
       {children}
     </header>
   );
 }
 
-export function Metric({ label, value, note }: { label: string; value: ReactNode; note?: string }) {
+export function Metric({ label, value, note, dense }: { label: string; value: ReactNode; note?: string; dense?: boolean }) {
   return (
-    <article className="rounded-xl border border-line bg-surface p-5 shadow-sm">
-      <p className="text-sm text-muted">{label}</p>
-      <p className="mt-2 text-3xl font-semibold">{value}</p>
-      {note ? <p className="mt-2 text-xs text-muted">{note}</p> : null}
+    <article className={`rounded-xl border border-line bg-surface shadow-sm ${dense ? "p-3" : "p-5"}`}>
+      <p className={`${dense ? "text-xs" : "text-sm"} text-muted`}>{label}</p>
+      <p className={`mt-2 font-semibold ${dense ? "text-center text-xl" : "text-3xl"}`}>{value}</p>
+      {note ? <p className={`mt-2 whitespace-pre-line text-xs text-muted ${dense ? "text-center" : ""}`}>{note}</p> : null}
     </article>
   );
 }
@@ -49,19 +49,27 @@ export function Empty({ children }: { children: ReactNode }) {
   );
 }
 
-export function Table({ headers, rows }: { headers: string[]; rows: ReactNode[][] }) {
+// compact: 대시보드 2단 그리드처럼 좁은 자리에 넣는 표. 최소 너비 강제를 풀고 셀 여백을 줄인다.
+// columnWidths: 열 너비를 비율로 고정해 나란히 놓인 표끼리 열을 맞출 때 사용한다.
+export function Table({ headers, rows, compact, columnWidths }: { headers: string[]; rows: ReactNode[][]; compact?: boolean; columnWidths?: string[] }) {
   if (!rows.length) return <Empty>조건에 맞는 데이터가 없습니다. 필터를 바꾸거나 기간을 넓혀 보세요.</Empty>;
+  const cellPadding = compact ? "px-3 py-2" : "px-3 py-2.5";
   return (
     <div className="overflow-x-auto rounded-xl border border-line bg-surface">
-      <table className="w-full min-w-[720px] text-left text-sm">
+      <table className={`w-full text-left text-sm ${compact ? "" : "min-w-[720px]"} ${columnWidths ? "table-fixed" : ""}`}>
+        {columnWidths ? (
+          <colgroup>
+            {columnWidths.map((width, index) => <col key={index} style={{ width }} />)}
+          </colgroup>
+        ) : null}
         <thead className="bg-surface-strong">
-          <tr>{headers.map((header) => <th key={header} className="px-4 py-3 font-semibold">{header}</th>)}</tr>
+          <tr>{headers.map((header) => <th key={header} className={`${cellPadding} font-semibold`}>{header}</th>)}</tr>
         </thead>
         <tbody>
           {rows.map((row, index) => (
             <tr key={index} className="border-t border-line">
               {row.map((cell, cellIndex) => (
-                <td key={cellIndex} className="px-4 py-3 text-muted first:text-foreground">{cell}</td>
+                <td key={cellIndex} className={`${cellPadding} text-muted first:text-foreground`}>{cell}</td>
               ))}
             </tr>
           ))}
@@ -75,18 +83,18 @@ export const ADMIN_PAGE_SIZE = 10;
 
 // 필터가 바뀌면(resetKey 변경) 1페이지로 돌아가는 클라이언트 페이징.
 // 관리자 목록은 서버에서 상한을 걸어 내려받은 데이터라 클라이언트 페이징으로 충분하다.
-export function usePagedList<T>(items: T[], resetKey: string) {
+export function usePagedList<T>(items: T[], resetKey: string, pageSize: number = ADMIN_PAGE_SIZE) {
   const [page, setPage] = useState(1);
   const [lastResetKey, setLastResetKey] = useState(resetKey);
   if (lastResetKey !== resetKey) {
     setLastResetKey(resetKey);
     setPage(1);
   }
-  const totalPages = Math.max(1, Math.ceil(items.length / ADMIN_PAGE_SIZE));
+  const totalPages = Math.max(1, Math.ceil(items.length / pageSize));
   const safePage = Math.min(page, totalPages);
   const pageItems = useMemo(
-    () => items.slice((safePage - 1) * ADMIN_PAGE_SIZE, safePage * ADMIN_PAGE_SIZE),
-    [items, safePage],
+    () => items.slice((safePage - 1) * pageSize, safePage * pageSize),
+    [items, safePage, pageSize],
   );
   return { pageItems, page: safePage, setPage, totalPages, total: items.length };
 }

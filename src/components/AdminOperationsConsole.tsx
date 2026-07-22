@@ -62,13 +62,20 @@ type Snapshot = {
 
 const number = new Intl.NumberFormat("ko-KR");
 const date = new Intl.DateTimeFormat("ko-KR", { dateStyle: "medium", timeStyle: "short" });
+// 주문일 표기: 시간 없이 2026.07.02 형태(연도 네 자리, 월·일 두 자리)로 표시한다.
+const orderDate = (value: string) => {
+  const parsed = new Date(value);
+  const month = String(parsed.getMonth() + 1).padStart(2, "0");
+  const day = String(parsed.getDate()).padStart(2, "0");
+  return `${parsed.getFullYear()}.${month}.${day}`;
+};
 const countryNames = new Intl.DisplayNames(["ko"], { type: "region" });
 
 const viewCopy: Record<View, { title: string; description: string }> = {
   dashboard: {
     title: "통합 대시보드",
     description:
-      "서비스 전체 현황을 한눈에 확인하는 화면입니다. 매출·방문·AI 사용·광고 지표와 일별 추이를 기간별로 비교하고, 완료율 하락이나 처리 대기 주문 증가 같은 이상 징후가 보이면 해당 상세 화면으로 이동해 원인을 확인하세요.",
+      "서비스 전체 현황을 한눈에 확인하는 화면입니다.\n매출·방문·AI 사용·광고 지표와 일별 추이를 기간별로 비교하고, 이상 징후가 보이면 해당 상세 화면으로 이동해 원인을 확인하세요.",
   },
   users: {
     title: "회원 정보 관리",
@@ -113,10 +120,10 @@ export function AdminShell({ children }: { children: ReactNode }) {
           <nav className="mt-6 space-y-4">
             {navGroups.map((group) => (
               <div key={group.heading}>
-                <p className="hidden px-3 pb-1 text-[11px] font-semibold uppercase tracking-wide text-muted lg:block">
+                <p className="hidden px-3 pb-1.5 text-sm font-bold text-brand-teal lg:block">
                   {group.heading}
                 </p>
-                <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 lg:grid-cols-1">
+                <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 lg:grid-cols-1 lg:pl-4">
                   {group.items.map(([label, href, Icon]) => {
                     const active = pathname === href;
                     return (
@@ -222,6 +229,31 @@ const fulfillmentLabels: Record<string, string> = {
   CANCELLED: "취소",
 };
 
+// ai_usage_logs.model에는 LLM 외에 내부 엔진 라벨도 섞여 있어 표시명으로 구분한다.
+const modelLabels: Record<string, string> = {
+  "official-hanja-rules-v1": "한자 규칙 엔진 (AI 아님)",
+  mock: "개발용 모의 응답",
+};
+const modelLabel = (model: string) => modelLabels[model] ?? model;
+// 정렬: 실제 LLM(gpt 등) → 규칙 엔진 → 모의 응답 순.
+const modelRank = (model: string) => (model in modelLabels ? (model === "mock" ? 2 : 1) : 0);
+
+// 서비스 활용 고정 행. 이용이 없는 서비스도 항상 표시하고, 수치만 실제 데이터를 붙인다.
+// GLOBAL_NAME_TO_HANGUL은 통계 전용 구분 키(API상으로는 GLOBAL_TO_KOREAN).
+const serviceTypeLabels: Record<string, string> = {
+  HANJA_MEANING_MATCH: "한글 → 한자 의미 매칭",
+  KOREAN_TO_GLOBAL: "한글 이름 → 글로벌 이름 변환",
+  GLOBAL_NAME_TO_HANGUL: "글로벌 이름 → 한글 발음 확인",
+  GLOBAL_TO_KOREAN: "글로벌 이름 → 한글 이름 전환",
+};
+const serviceTypeLabel = (serviceType: string) => serviceTypeLabels[serviceType] ?? serviceType;
+
+const orderTypeLabels: Record<string, string> = {
+  PREMIUM_PDF: "프리미엄 PDF",
+  CALLIGRAPHY_IMAGE: "캘리그라피",
+  STAMP_DELIVERY: "도장 배송",
+};
+
 function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body: Record<string, string>) => void }) {
   const [search, setSearch] = useState("");
   const [payment, setPayment] = useState("all");
@@ -320,7 +352,7 @@ function AiUsageView({ usage }: { usage: UsageRow[] }) {
           label="서비스"
           value={service}
           onChange={setService}
-          options={[{ value: "all", label: "전체" }, ...services.map((value) => ({ value, label: value }))]}
+          options={[{ value: "all", label: "전체" }, ...services.map((value) => ({ value, label: serviceTypeLabel(value) }))]}
         />
         <FilterSelect
           label="상태"
@@ -336,15 +368,15 @@ function AiUsageView({ usage }: { usage: UsageRow[] }) {
           label="모델"
           value={model}
           onChange={setModel}
-          options={[{ value: "all", label: "전체" }, ...models.map((value) => ({ value, label: value }))]}
+          options={[{ value: "all", label: "전체" }, ...models.map((value) => ({ value, label: modelLabel(value) }))]}
         />
       </FilterBar>
       <Table
         headers={["시간", "서비스", "모델", "입력 토큰", "출력 토큰", "지연시간", "상태"]}
         rows={paged.pageItems.map((row) => [
           date.format(new Date(String(row.created_at))),
-          row.service_type,
-          row.model,
+          serviceTypeLabel(String(row.service_type)),
+          modelLabel(String(row.model)),
           number.format(Number(row.prompt_tokens)),
           number.format(Number(row.completion_tokens)),
           `${number.format(Number(row.latency_ms))}ms`,
@@ -420,66 +452,104 @@ function UsageView({ snapshot, summary }: { snapshot: Snapshot; summary: Record<
   );
 }
 
-function DashboardView({ snapshot, summary, days }: { snapshot: Snapshot; summary: Record<string, number>; days: number }) {
-  const pendingOrders = snapshot.orderStatuses
+type PendingOrderRow = {
+  id: string;
+  order_type: string;
+  customer_name: string | null;
+  customer_email: string | null;
+  payment_amount: number;
+  fulfillment_status: string;
+  created_at: string;
+};
+
+function DashboardView({ snapshot, summary, pendingOrders }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[] }) {
+  const pagedOrders = usePagedList(pendingOrders, "pending-orders", 16);
+  const pendingOrderCount = snapshot.orderStatuses
     .filter((row) => row.payment_status === "PAID" && ["PENDING", "PROCESSING"].includes(row.fulfillment_status))
     .reduce((sum, row) => sum + row.count, 0);
   return (
     <>
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <Metric label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
-        <Metric label="처리 대기 주문" value={number.format(pendingOrders)} note="결제됐지만 완료되지 않은 주문 — 0이 목표" />
-        <Metric label="익명 방문자" value={number.format(summary.visitors ?? 0)} note={`${days}일간 · 페이지 조회 ${number.format(summary.visits ?? 0)}`} />
-        <Metric label="분석 완료" value={number.format(summary.analyses ?? 0)} />
-        <Metric label="AI 호출" value={number.format(summary.aiCalls ?? 0)} note={`토큰 ${number.format(summary.aiTokens ?? 0)} — 곧 비용`} />
-        <Metric label="광고 노출" value={number.format(summary.adImpressions ?? 0)} note={`보상 지급 ${number.format(summary.adRewards ?? 0)}`} />
-        <Metric label="회원" value={number.format(summary.members ?? 0)} note="서비스 이용은 비회원 중심" />
-        <Metric label="전체 주문" value={number.format(summary.orders ?? 0)} />
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
+        <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
+        <Metric dense label="처리 대기 주문" value={number.format(pendingOrderCount)} note={"결제 후, 미완료\n(목표 건수 : 0)"} />
+        <Metric dense label="익명 방문자" value={number.format(summary.visitors ?? 0)} note={`페이지 조회 ${number.format(summary.visits ?? 0)}`} />
+        <Metric dense label="분석 완료" value={number.format(summary.analyses ?? 0)} />
+        <Metric dense label="AI 호출" value={number.format(summary.aiCalls ?? 0)} note={`토큰 ${number.format(summary.aiTokens ?? 0)}\n(운영 비용)`} />
+        <Metric dense label="광고 노출" value={number.format(summary.adImpressions ?? 0)} note={`보상 지급 ${number.format(summary.adRewards ?? 0)}건\n(운영 수익)`} />
+        <Metric dense label="회원 수" value={number.format(summary.members ?? 0)} />
+        <Metric dense label="전체 주문" value={number.format(summary.orders ?? 0)} />
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         <DailyTrendChart title="일별 방문" points={snapshot.daily.map((row) => ({ day: row.day, value: row.visits }))} />
         <DailyTrendChart title="일별 분석 완료" points={snapshot.daily.map((row) => ({ day: row.day, value: row.analyses }))} />
       </div>
+      {/* 두 컬럼을 같은 높이로 늘려, 오른쪽 표의 페이징이 왼쪽 컬럼 하단과 나란히 떨어지게 한다. */}
       <div className="grid gap-5 xl:grid-cols-2">
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">주문·결제 현황</h2>
+        <div className="grid gap-5">
+          <section>
+            <h2 className="mb-3 text-lg font-semibold">AI 모델별 사용</h2>
+            <Table
+              compact
+              columnWidths={["46%", "18%", "18%", "18%"]}
+              headers={["모델", "호출", "토큰", "평균 응답"]}
+              rows={[...snapshot.aiModels]
+                .sort((a, b) => modelRank(a.model) - modelRank(b.model) || b.calls - a.calls)
+                .map((row) => [
+                  modelLabel(row.model),
+                  number.format(row.calls),
+                  number.format(row.tokens),
+                  `${number.format(Math.round(row.avg_latency_ms))}ms`,
+                ])}
+            />
+          </section>
+          <section>
+            <h2 className="mb-3 text-lg font-semibold">서비스 활용</h2>
+            <Table
+              compact
+              columnWidths={["46%", "18%", "18%", "18%"]}
+              headers={["서비스", "시작", "완료", "실패"]}
+              rows={Object.entries(serviceTypeLabels).map(([serviceType, label]) => {
+                const row = snapshot.services.find((item) => item.service_type === serviceType);
+                return [
+                  label,
+                  number.format(row?.started ?? 0),
+                  number.format(row?.completed ?? 0),
+                  number.format(row?.failed ?? 0),
+                ];
+              })}
+            />
+          </section>
+          <section>
+            <h2 className="mb-3 text-lg font-semibold">국가별 접속 상위 5</h2>
+            <Table
+              compact
+              columnWidths={["46%", "27%", "27%"]}
+              headers={["국가", "조회", "방문자"]}
+              rows={snapshot.countries.slice(0, 5).map((row) => [countryLabel(row.country_code), number.format(row.visits), number.format(row.visitors)])}
+            />
+          </section>
+        </div>
+        <section className="flex flex-col">
+          <h2 className="mb-3 text-lg font-semibold">
+            주문·결제 현황{" "}
+            <span className="text-xs font-normal text-muted">(결제 완료 후 제작·배송 처리가 끝나지 않은 주문입니다. 오래 기다린 주문부터 표시됩니다.)</span>
+          </h2>
           <Table
-            headers={["결제 상태", "처리 상태", "건수", "금액"]}
-            rows={snapshot.orderStatuses.map((row) => [
-              row.payment_status,
+            compact
+            headers={["주문일", "고객", "주문 유형", "금액", "처리 상태"]}
+            rows={pagedOrders.pageItems.map((row) => [
+              orderDate(row.created_at),
+              <div key="customer" className="max-w-[180px] truncate" title={row.customer_email ?? row.customer_name ?? undefined}>
+                {row.customer_email ?? row.customer_name ?? "-"}
+              </div>,
+              orderTypeLabels[row.order_type] ?? row.order_type,
+              `${number.format(row.payment_amount)}원`,
               fulfillmentLabels[row.fulfillment_status] ?? row.fulfillment_status,
-              number.format(row.count),
-              `${number.format(row.amount)}원`,
             ])}
           />
-        </section>
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">AI 모델별 사용</h2>
-          <Table
-            headers={["모델", "호출", "토큰", "평균 지연"]}
-            rows={snapshot.aiModels.map((row) => [
-              row.model,
-              number.format(row.calls),
-              number.format(row.tokens),
-              `${number.format(Math.round(row.avg_latency_ms))}ms`,
-            ])}
-          />
-        </section>
-      </div>
-      <div className="grid gap-5 xl:grid-cols-2">
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">국가별 접속 상위 10</h2>
-          <Table
-            headers={["국가", "조회", "방문자"]}
-            rows={snapshot.countries.slice(0, 10).map((row) => [countryLabel(row.country_code), number.format(row.visits), number.format(row.visitors)])}
-          />
-        </section>
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">서비스 활용</h2>
-          <Table
-            headers={["서비스", "시작", "완료", "실패"]}
-            rows={snapshot.services.map((row) => [row.service_type, number.format(row.started), number.format(row.completed), number.format(row.failed)])}
-          />
+          <div className="mt-auto pt-3">
+            <Pagination page={pagedOrders.page} totalPages={pagedOrders.totalPages} total={pagedOrders.total} onChange={pagedOrders.setPage} />
+          </div>
         </section>
       </div>
     </>
@@ -489,6 +559,7 @@ function DashboardView({ snapshot, summary, days }: { snapshot: Snapshot; summar
 export function AdminOperationsConsole({ view }: { view: View }) {
   const router = useRouter();
   const [days, setDays] = useState(30);
+  const [customRange, setCustomRange] = useState(false);
   const [payload, setPayload] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -553,21 +624,53 @@ export function AdminOperationsConsole({ view }: { view: View }) {
     if (!snapshot) return null;
     if (view === "analytics") return <AnalyticsView snapshot={snapshot} summary={summary} />;
     if (view === "usage") return <UsageView snapshot={snapshot} summary={summary} />;
-    return <DashboardView snapshot={snapshot} summary={summary} days={days} />;
+    return <DashboardView snapshot={snapshot} summary={summary} pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]} />;
   })();
 
   return (
     <AdminShell>
       <PageHeader title={copy.title} description={copy.description}>
         {showRange ? (
-          <label className="text-sm text-muted">
+          <label className="flex items-center gap-2 text-sm text-muted">
             조회 기간
-            <select value={days} onChange={(event) => setDays(Number(event.target.value))} className="ml-2 h-10 rounded-lg border border-line bg-surface px-3 text-foreground">
-              <option value={7}>7일</option>
-              <option value={30}>30일</option>
-              <option value={90}>90일</option>
-              <option value={365}>1년</option>
+            <select
+              value={customRange ? "custom" : String(days)}
+              onChange={(event) => {
+                if (event.target.value === "custom") {
+                  setCustomRange(true);
+                } else {
+                  setCustomRange(false);
+                  setDays(Number(event.target.value));
+                }
+              }}
+              className="h-10 rounded-lg border border-line bg-surface px-3 text-foreground"
+            >
+              <option value="7">7일</option>
+              <option value="30">30일</option>
+              <option value="90">90일</option>
+              <option value="365">1년</option>
+              <option value="custom">직접 입력</option>
             </select>
+            {customRange ? (
+              <>
+                <input
+                  type="number"
+                  min={1}
+                  max={365}
+                  defaultValue={days}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter") event.currentTarget.blur();
+                  }}
+                  onBlur={(event) => {
+                    const value = Math.max(1, Math.min(Math.floor(Number(event.target.value)) || days, 365));
+                    event.target.value = String(value);
+                    setDays(value);
+                  }}
+                  className="h-10 w-24 rounded-lg border border-line bg-surface px-3 text-foreground"
+                />
+                일
+              </>
+            ) : null}
           </label>
         ) : null}
       </PageHeader>

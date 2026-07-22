@@ -47,7 +47,15 @@ export async function GET(request: NextRequest) {
 
   const { data, error } = await supabase.rpc("admin_analytics_snapshot", { p_days: days });
   if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
-  return NextResponse.json({ ok: true, snapshot: data });
+  // 대시보드의 주문·결제 현황: 결제는 됐지만 제작·배송 처리가 끝나지 않은 주문 목록.
+  // 오래 기다린 주문부터 처리하도록 주문일 오름차순으로 내려준다.
+  const { data: pendingOrders, error: pendingError } = await supabase.from("orders")
+    .select("id,order_type,customer_name,customer_email,payment_amount,fulfillment_status,created_at")
+    .eq("payment_status", "PAID")
+    .in("fulfillment_status", ["PENDING", "PROCESSING", "SHIPPED"])
+    .order("created_at", { ascending: true }).limit(300);
+  if (pendingError) return NextResponse.json({ ok: false, error: pendingError.message }, { status: 500 });
+  return NextResponse.json({ ok: true, snapshot: data, pendingOrders: pendingOrders ?? [] });
 }
 
 const actionSchema = z.discriminatedUnion("action", [

@@ -208,6 +208,11 @@ export function NamingForm({
 }) {
   const router = useRouter();
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
+  // 한글 발음 표기는 API에서는 GLOBAL_TO_KOREAN을 재사용하지만,
+  // 통계(site_events)에서는 별도 서비스로 구분해 집계한다.
+  const analyticsServiceType = isHangulTransliteration
+    ? "GLOBAL_NAME_TO_HANGUL"
+    : service.serviceType;
   const isHanjaMeaning = service.serviceType === "HANJA_MEANING_MATCH";
   const analysisAdSeconds = isHanjaMeaning
     ? HANJA_ANALYSIS_AD_SECONDS
@@ -351,7 +356,7 @@ export function NamingForm({
 
     setOfficialCandidateCount(null);
     setLoading(true);
-    trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: service.serviceType });
+    trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: analyticsServiceType });
     let adStartedAt: number | null = null;
     let countdownTimer: number | null = null;
     let adWindowComplete = true;
@@ -361,7 +366,7 @@ export function NamingForm({
       adStartedAt = Date.now();
       adWindowComplete = false;
       setAnalysisCountdown(analysisAdSeconds);
-      trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
+      trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: analyticsServiceType });
       countdownTimer = window.setInterval(() => {
         if (adStartedAt === null) return;
         const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
@@ -446,9 +451,9 @@ export function NamingForm({
 
       await completeAdWindow();
 
-      trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: service.serviceType });
+      trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: analyticsServiceType });
       if (hasRewardableResult) {
-        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", locale, serviceType: service.serviceType });
+        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "analysis_wait", locale, serviceType: analyticsServiceType });
       }
 
       if (isHangulTransliteration && payload.result) {
@@ -523,7 +528,7 @@ export function NamingForm({
 
       setResult(payload);
     } catch (caught) {
-      trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: service.serviceType });
+      trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: analyticsServiceType });
       if (!adWindowComplete) await completeAdWindow();
       setError(caught instanceof Error ? caught.message : t.errorGeneric);
     } finally {
