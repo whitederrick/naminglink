@@ -961,6 +961,7 @@ export function NamingForm({
       {legalDocument ? (
         <LegalModal
           kind={legalDocument}
+          locale={isForeignAudience ? locale : "ko"}
           onClose={() => setLegalDocument(null)}
         />
       ) : null}
