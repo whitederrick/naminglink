@@ -806,6 +806,80 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "Supabase жалпыға ортақ кілті бапталмағандықтан, кіру мүмкін емес.",
   },
+  ms: {
+    back: "Kembali",
+    home: "Laman utama",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Log masuk",
+    loginDescription:
+      "Akaun anda menyimpan hasil penamaan, laporan premium dan sejarah pesanan barangan cenderamata dengan selamat.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Akaun",
+    accountDescription:
+      "Selepas log masuk, skrin ini akan diperluas untuk mengurus sejarah penamaan, pembayaran, laporan premium dan status pesanan cop.",
+    panelEyebrowLogin: "Log masuk e-mel",
+    panelEyebrowAccount: "Akses akaun",
+    panelTitle: "Log masuk dengan selamat melalui satu pautan",
+    panelDescription:
+      "Tiada kata laluan disimpan — anda log masuk melalui pautan pengesahan e-mel. Sila semak Terma Perkhidmatan dan Dasar Privasi sebelum menggunakan.",
+    emailLabel: "E-mel",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Hantar pautan log masuk",
+    legalBefore: "Dengan meneruskan, anda mengakui telah menyemak ",
+    legalTerms: "Terma Perkhidmatan",
+    legalBetween: " dan ",
+    legalPrivacy: "Dasar Privasi",
+    legalAfter: ".",
+    sentMessage:
+      "Kami telah menghantar pautan log masuk ke e-mel anda. Sila semak peti masuk anda.",
+    loggedInEyebrow: "Telah log masuk",
+    loggedInDescription:
+      "Hasil penamaan dan sejarah pesanan disimpan di bawah akaun ini. Setelah pembayaran dan penghantaran PDF disambungkan, anda boleh memuat turunnya semula dari skrin ini.",
+    logoutButton: "Log keluar",
+    loggedOutMessage: "Anda telah log keluar.",
+    configWaitTitle: "Persediaan log masuk belum selesai",
+    configWaitDescription:
+      "Log masuk melalui pautan e-mel akan tersedia setelah Supabase URL dan anon key dikonfigurasi dalam persekitaran pelancaran.",
+    supabaseMissingError:
+      "Log masuk tidak tersedia kerana kunci awam Supabase belum dikonfigurasi.",
+  },
+  pl: {
+    back: "Wstecz",
+    home: "Strona główna",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Zaloguj się",
+    loginDescription:
+      "Twoje konto bezpiecznie przechowuje wyniki nazewnicze, raporty premium i historię zamówień gadżetów.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Konto",
+    accountDescription:
+      "Po zalogowaniu ten ekran zostanie rozbudowany o zarządzanie historią imion, płatnościami, raportami premium i statusem zamówień pieczątek.",
+    panelEyebrowLogin: "Logowanie e-mailem",
+    panelEyebrowAccount: "Dostęp do konta",
+    panelTitle: "Zaloguj się bezpiecznie jednym linkiem",
+    panelDescription:
+      "Nie przechowujemy haseł — logujesz się linkiem weryfikacyjnym wysłanym e-mailem. Przed użyciem zapoznaj się z Regulaminem i Polityką prywatności.",
+    emailLabel: "E-mail",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Wyślij link do logowania",
+    legalBefore: "Kontynuując, potwierdzasz zapoznanie się z ",
+    legalTerms: "Regulaminem",
+    legalBetween: " i ",
+    legalPrivacy: "Polityką prywatności",
+    legalAfter: ".",
+    sentMessage:
+      "Wysłaliśmy link do logowania na Twój e-mail. Sprawdź swoją skrzynkę odbiorczą.",
+    loggedInEyebrow: "Zalogowano",
+    loggedInDescription:
+      "Wyniki nazewnicze i historia zamówień są przechowywane na tym koncie. Gdy płatności i wydawanie PDF zostaną podłączone, będzie można pobrać je ponownie z tego ekranu.",
+    logoutButton: "Wyloguj się",
+    loggedOutMessage: "Wylogowano.",
+    configWaitTitle: "Oczekiwanie na konfigurację logowania",
+    configWaitDescription:
+      "Logowanie linkiem e-mail będzie dostępne po skonfigurowaniu Supabase URL i klucza anon w środowisku wdrożeniowym.",
+    supabaseMissingError:
+      "Logowanie jest niedostępne, ponieważ klucz publiczny Supabase nie został skonfigurowany.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

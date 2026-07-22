@@ -302,6 +302,34 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "Барлық нұсқаны бірден ашу · ₩990 (жақында)",
     bulkPreparing: "Төлем мүмкіндігі жақында қосылады.",
   },
+  ms: {
+    title: "Buka lebih banyak calon",
+    status: (revealed, locked) => `${revealed} dibuka · ${locked} berkunci`,
+    descHanja:
+      "Setiap iklan yang anda tonton membuka calon seterusnya dengan perspektif cadangan yang berbeza.",
+    descDefault:
+      "Setiap iklan yang anda tonton membuka calon seterusnya dengan perspektif cadangan yang berbeza. Ciri membuka semua calon yang berbaki sekali gus dengan ₩990 akan datang tidak lama lagi.",
+    watchingNote: (seconds) => `Satu calon akan dibuka selepas iklan. ${seconds} saat`,
+    watching: "Menonton iklan",
+    watchButton: "Tonton iklan untuk membuka calon seterusnya",
+    hanjaProductsLink: "Lihat produk semua calon · dari ₩2,900",
+    bulkButton: "Buka semua calon sekali gus · ₩990 (akan datang)",
+    bulkPreparing: "Fungsi pembayaran akan datang tidak lama lagi.",
+  },
+  pl: {
+    title: "Odblokuj więcej kandydatów",
+    status: (revealed, locked) => `Odblokowano: ${revealed} · zablokowano: ${locked}`,
+    descHanja:
+      "Każda obejrzana reklama odblokowuje kolejnego kandydata z innej perspektywy rekomendacji.",
+    descDefault:
+      "Każda obejrzana reklama odblokowuje kolejnego kandydata z innej perspektywy rekomendacji. Wkrótce będzie można jednorazowo odblokować wszystkich pozostałych kandydatów za ₩990.",
+    watchingNote: (seconds) => `Po reklamie odblokujemy jednego kandydata. ${seconds} s`,
+    watching: "Trwa reklama",
+    watchButton: "Obejrzyj reklamę, aby odblokować kolejnego kandydata",
+    hanjaProductsLink: "Zobacz produkty ze wszystkimi kandydatami · od ₩2,900",
+    bulkButton: "Odblokuj wszystkich kandydatów · ₩990 (wkrótce)",
+    bulkPreparing: "Płatności będą dostępne wkrótce.",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,

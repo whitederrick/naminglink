@@ -1024,8 +1024,104 @@ const kk: FormCopy = {
   ],
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk을 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk };
+const ms: FormCopy = {
+  errorCheckInput: "Sila semak format input untuk analisis yang tepat.",
+  errorConsent:
+    "Anda perlu bersetuju dengan Terma Perkhidmatan dan Dasar Privasi untuk memulakan analisis.",
+  errorLoginToSave: "Sila log masuk semula untuk menyimpan hasil analisis anda.",
+  errorRequestFailed: "Kami tidak dapat memproses permintaan penamaan anda.",
+  errorGeneric: "Ralat telah berlaku.",
+  consentTitle: "Persetujuan wajib",
+  consentIntro:
+    "Maklumat yang anda masukkan seperti nama, tarikh lahir dan negara digunakan untuk menjana hasil analisis,",
+  consentIntroSaved:
+    " dan hanya maklumat serta hasil ahli yang memilih untuk menyimpan akan disimpan.",
+  termsLink: "Terma Perkhidmatan",
+  privacyLink: "Dasar Privasi",
+  agreeToTermsSuffix: " — saya bersetuju.",
+  agreeToPrivacySuffix: " — saya bersetuju.",
+  saveResultLabel: "Simpan hasil ke akaun saya (pilihan)",
+  saveResultHint:
+    "Kami hanya menyimpan maklumat dan hasil anda apabila anda memilih untuk menyimpan.",
+  guestNoSavePrefix:
+    "Hasil bukan ahli tidak disimpan. Jika mahu menyimpan hasil anda, sila ",
+  loginLink: "log masuk",
+  guestNoSaveSuffix: " kemudian pilih simpan.",
+  adConsentLabel: "Iklan kawasan persetujuan wajib",
+  submitTransliteration: "Mulakan analisis sebutan Hangul",
+  submitDefault: "Tonton iklan dan mulakan analisis",
+  adRevealNote: (seconds) => `Hasil akan dipaparkan selepas iklan. ${seconds} saat`,
+  analysisDone: "Analisis selesai",
+  editInput: "Sunting input",
+  previewNote:
+    "Kami memaparkan satu calon terbaik terlebih dahulu. Anda boleh membuka calon tambahan satu demi satu dengan menonton iklan atau melalui pembayaran.",
+  adDialogLabel: "Tonton iklan ganjaran dan jalankan analisis nama",
+  loadingEyebrow: "Menganalisis nama anda",
+  loadingTitle: "Membandingkan nama yang sesuai dengan konteks anda",
+  loadingCountdown: (seconds) => `Menonton iklan dan menganalisis · ${seconds} saat`,
+  loadingDone: "Iklan selesai · menyediakan hasil anda",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Bahasa lalai: ${languageName} · Contoh nama tempatan: ${localNameHint}`,
+  transliterationStepsTitle: "Bagaimana nama anda menjadi Hangul",
+  transliterationSteps: [
+    ["Sahkan nama anda", "Kami mengesahkan ejaan dan suku kata asal yang anda masukkan."],
+    ["Analisis bahasa & wilayah", "Bahasa sumber diutamakan, dengan mengambil kira perbezaan sebutan mengikut negara."],
+    ["Terapkan petunjuk sebutan anda", "Sebarang petunjuk yang anda masukkan mengatasi peraturan sebutan umum."],
+    ["Strukturkan sebutan", "Kami memecahkan sebutan sebenar kepada suku kata dan simbol fonetik."],
+    ["Cadangkan ejaan Hangul", "Kami mengekalkan sebutan asal anda dan mencadangkan Hangul yang semula jadi."],
+  ],
+};
+
+const pl: FormCopy = {
+  errorCheckInput: "Sprawdź format wprowadzonych danych, aby analiza była dokładna.",
+  errorConsent:
+    "Aby rozpocząć, musisz zaakceptować Regulamin i Politykę prywatności.",
+  errorLoginToSave: "Zaloguj się ponownie, aby zapisać wynik analizy.",
+  errorRequestFailed: "Nie udało się przetworzyć Twojego zapytania o imię.",
+  errorGeneric: "Wystąpił błąd.",
+  consentTitle: "Wymagana zgoda",
+  consentIntro:
+    "Wprowadzone dane, takie jak imię, data urodzenia i kraj, służą do wygenerowania wyniku,",
+  consentIntroSaved:
+    " a dane i wyniki są zapisywane wyłącznie u członków, którzy wybiorą zapisanie.",
+  termsLink: "Regulamin",
+  privacyLink: "Polityka prywatności",
+  agreeToTermsSuffix: " — akceptuję.",
+  agreeToPrivacySuffix: " — akceptuję.",
+  saveResultLabel: "Zapisz wynik na moim koncie (opcjonalnie)",
+  saveResultHint:
+    "Przechowujemy Twoje dane i wyniki tylko wtedy, gdy wybierzesz zapisanie.",
+  guestNoSavePrefix:
+    "Wyniki gości nie są zapisywane. Jeśli chcesz zachować wynik, ",
+  loginLink: "zaloguj się",
+  guestNoSaveSuffix: ", a następnie wybierz zapisanie.",
+  adConsentLabel: "Reklama w obszarze wymaganej zgody",
+  submitTransliteration: "Rozpocznij analizę wymowy w hangul",
+  submitDefault: "Obejrzyj reklamę i rozpocznij analizę",
+  adRevealNote: (seconds) => `Wynik zostanie pokazany po reklamie. ${seconds} s`,
+  analysisDone: "Analiza zakończona",
+  editInput: "Edytuj dane",
+  previewNote:
+    "Najpierw pokazaliśmy najlepszego kandydata. Kolejnych kandydatów możesz odblokowywać pojedynczo, oglądając reklamę lub poprzez płatność.",
+  adDialogLabel: "Obejrzyj reklamę z nagrodą i uruchom analizę imienia",
+  loadingEyebrow: "Analizujemy Twoje imię",
+  loadingTitle: "Porównujemy imiona pasujące do Twojego kontekstu",
+  loadingCountdown: (seconds) => `Trwa reklama i analiza · ${seconds} s`,
+  loadingDone: "Reklama zakończona · przygotowujemy Twój wynik",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Język domyślny: ${languageName} · Przykład lokalnego imienia: ${localNameHint}`,
+  transliterationStepsTitle: "Jak Twoje imię zamienia się w hangul",
+  transliterationSteps: [
+    ["Potwierdzenie imienia", "Potwierdzamy oryginalną pisownię i sylaby, które wprowadzono."],
+    ["Analiza języka i regionu", "Priorytet ma język źródłowy, z uwzględnieniem różnic wymowy w poszczególnych krajach."],
+    ["Zastosowanie wskazówki wymowy", "Wprowadzona przez Ciebie wskazówka ma pierwszeństwo przed ogólnymi zasadami wymowy."],
+    ["Strukturyzacja wymowy", "Rozkładamy rzeczywistą wymowę na sylaby i zapis fonetyczny."],
+    ["Propozycje zapisu w hangul", "Zachowujemy oryginalną wymowę i proponujemy naturalny hangul."],
+  ],
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk/ms/pl을 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

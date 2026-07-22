@@ -131,6 +131,18 @@ const generalStepsByLocale: Record<string, string[]> = {
     "Әр есім нұсқасының тарихы мен шығарып тастау себептері құрастырылуда.",
     "Нәтиже тексеріліп, көрсетуге дайындалуда.",
   ],
+  ms: [
+    "Menyusun makna dan syarat input anda.",
+    "Membandingkan sebutan, budaya dan butiran rujukan.",
+    "Menyusun kisah setiap calon dan sebab pengecualiannya.",
+    "Menyemak hasil dan menyediakannya untuk paparan.",
+  ],
+  pl: [
+    "Porządkujemy znaczenie i warunki wprowadzonych danych.",
+    "Porównujemy wymowę, kulturę i informacje referencyjne.",
+    "Układamy historię każdego kandydata i powody wykluczenia.",
+    "Sprawdzamy wynik i przygotowujemy go do wyświetlenia.",
+  ],
 };
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.

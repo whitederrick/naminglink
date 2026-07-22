@@ -680,8 +680,70 @@ const kk: ResultCopy = {
   backToInput: "Енгізу экранына оралу",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk을 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk };
+const ms: ResultCopy = {
+  reanalysisError: "Kami tidak dapat menyelesaikan analisis semula sebutan.",
+  reanalysisErrorGeneric: "Ralat berlaku semasa menganalisis semula.",
+  reanalysisEyebrow: "Bunyinya berbeza daripada sebutan sebenar?",
+  reanalysisTitle: "Analisis semula dengan petunjuk sebutan",
+  reanalysisDescription:
+    "Masukkan sebutan sebenar dengan lebih terperinci, dan kami akan menganalisis semula dengan nama, bahasa dan negara yang sama.",
+  hintLabel: "Petunjuk sebutan",
+  hintPlaceholder: "Contoh: disebut seperti Ah-mad Fai-zal",
+  reanalysisCountdown: (seconds) => `Kami akan menganalisis semula selepas iklan. ${seconds} saat`,
+  reanalyzing: "Menganalisis semula",
+  goodsEyebrow: "Manfaatkan hasil anda dengan lebih lanjut",
+  goodsSectionTitle: "Barangan cenderamata nama",
+  goodsItemTitle: "Barangan cenderamata nama Hangul",
+  goodsItemSub: "(topi, gantungan kunci, kemeja-T dan banyak lagi)",
+  goodsItemDescription:
+    "Letakkan nama Hangul pilihan anda pada topi, gantungan kunci, kemeja-T dan banyak lagi untuk membuat barangan cenderamata anda sendiri.",
+  goodsButton: "Tempahan barangan cenderamata akan dibuka tidak lama lagi",
+  editInput: "Sunting input",
+  home: "Laman utama",
+  headerAdLabel: "Iklan sepanduk atas hasil Hangul",
+  headerCaption: "Hasil sebutan Hangul",
+  loading: "Memuatkan hasil anda.",
+  analysisDone: "Analisis selesai",
+  resultHeading: "Nama anda dalam sebutan Hangul",
+  emptyTitle: "Kami tidak dapat memuatkan hasil anda.",
+  emptyDescription:
+    "Hasil ini hanya tersedia dalam tab pelayar tempat anda menjalankan analisis.",
+  backToInput: "Kembali ke skrin input",
+};
+
+const pl: ResultCopy = {
+  reanalysisError: "Nie udało się dokończyć ponownej analizy wymowy.",
+  reanalysisErrorGeneric: "Podczas ponownej analizy wystąpił błąd.",
+  reanalysisEyebrow: "Brzmi inaczej niż prawdziwa wymowa?",
+  reanalysisTitle: "Przeanalizuj ponownie ze wskazówką wymowy",
+  reanalysisDescription:
+    "Podaj dokładniej rzeczywistą wymowę, a przeanalizujemy ponownie z tym samym imieniem, językiem i krajem.",
+  hintLabel: "Wskazówka wymowy",
+  hintPlaceholder: "np. brzmi jak Jan Ko-wal-ski",
+  reanalysisCountdown: (seconds) => `Ponowna analiza rozpocznie się po reklamie. ${seconds} s`,
+  reanalyzing: "Trwa ponowna analiza",
+  goodsEyebrow: "Wykorzystaj swój wynik jeszcze bardziej",
+  goodsSectionTitle: "Gadżety z imieniem",
+  goodsItemTitle: "Gadżety z imieniem w hangul",
+  goodsItemSub: "(czapki, breloki, koszulki i nie tylko)",
+  goodsItemDescription:
+    "Umieść wybrane imię w hangul na czapkach, brelokach, koszulkach i innych przedmiotach, aby stworzyć własne gadżety.",
+  goodsButton: "Zamawianie gadżetów już wkrótce",
+  editInput: "Edytuj dane",
+  home: "Strona główna",
+  headerAdLabel: "Reklama banerowa nad wynikiem hangul",
+  headerCaption: "Wynik wymowy w hangul",
+  loading: "Wczytywanie wyniku.",
+  analysisDone: "Analiza zakończona",
+  resultHeading: "Twoje imię w wymowie hangul",
+  emptyTitle: "Nie udało się wczytać wyniku.",
+  emptyDescription:
+    "Ten wynik jest dostępny tylko w karcie przeglądarki, w której uruchomiono analizę.",
+  backToInput: "Wróć do ekranu wprowadzania",
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk/ms/pl을 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

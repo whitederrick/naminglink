@@ -259,6 +259,24 @@ const shellCopies: Record<
       "Төмендегі мәліметтерді толтырыңыз — сізге табиғи әрі түсіндіруге оңай корей есімдерін ұсынамыз.",
     headerAdLabel: "Қызмет бетінің жоғарғы баннерлік жарнамасы",
   },
+  ms: {
+    promiseLabel: "Janji perkhidmatan kami",
+    defaultLanguage: "Bahasa lalai",
+    g2kPromise:
+      "Kami mencadangkan nama yang mudah disebut dan ditulis, dengan makna dan sebutan yang boleh anda sahkan.",
+    g2kIntro:
+      "Isikan maklumat di bawah dan kami akan mencadangkan nama Korea yang semula jadi dan mudah dijelaskan.",
+    headerAdLabel: "Iklan sepanduk atas halaman perkhidmatan",
+  },
+  pl: {
+    promiseLabel: "Nasza obietnica",
+    defaultLanguage: "Język domyślny",
+    g2kPromise:
+      "Polecamy imiona łatwe do wymówienia i zapisania, o znaczeniu i wymowie, które możesz zweryfikować.",
+    g2kIntro:
+      "Wypełnij poniższe dane, a zaproponujemy naturalne, łatwe do wyjaśnienia koreańskie imiona.",
+    headerAdLabel: "Reklama banerowa u góry strony usługi",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",
