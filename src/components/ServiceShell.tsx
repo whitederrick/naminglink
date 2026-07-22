@@ -178,6 +178,33 @@ const shellCopies: Record<
       "Preencha os dados abaixo e vamos sugerir nomes coreanos naturais e fáceis de explicar.",
     headerAdLabel: "Anúncio de banner no topo da página do serviço",
   },
+  ru: {
+    promiseLabel: "Наше обещание",
+    defaultLanguage: "Язык по умолчанию",
+    g2kPromise:
+      "Мы рекомендуем имена, которые легко произносить и писать, со значением и произношением, которые можно проверить.",
+    g2kIntro:
+      "Заполните данные ниже, и мы предложим естественные корейские имена с понятным объяснением.",
+    headerAdLabel: "Баннерная реклама вверху страницы сервиса",
+  },
+  ar: {
+    promiseLabel: "وعدنا",
+    defaultLanguage: "اللغة الافتراضية",
+    g2kPromise:
+      "نوصي بأسماء يسهل نداؤها وكتابتها، مع معنى ونطق يمكنك التحقق منهما.",
+    g2kIntro:
+      "املأ البيانات أدناه وسنقترح عليك أسماء كورية طبيعية يسهل شرحها.",
+    headerAdLabel: "إعلان الشريط العلوي لصفحة الخدمة",
+  },
+  tr: {
+    promiseLabel: "Sözümüz",
+    defaultLanguage: "Varsayılan dil",
+    g2kPromise:
+      "Çağırması ve yazması kolay, anlamı ve telaffuzu doğrulanabilir isimler öneriyoruz.",
+    g2kIntro:
+      "Aşağıdaki bilgileri doldurun; size doğal ve kolayca açıklanabilen Kore isimleri önerelim.",
+    headerAdLabel: "Hizmet sayfası üst banner reklamı",
+  },
   en: {
     promiseLabel: "Our promise",
     defaultLanguage: "Default language",

@@ -176,6 +176,48 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButton: "Desbloquear todos os candidatos · ₩990 (em breve)",
     bulkPreparing: "O pagamento estará disponível em breve.",
   },
+  ru: {
+    title: "Откройте больше вариантов",
+    status: (revealed, locked) => `Открыто: ${revealed} · Заблокировано: ${locked}`,
+    descHanja:
+      "Каждый просмотр рекламы открывает следующий вариант с другой точкой зрения рекомендации.",
+    descDefault:
+      "Каждый просмотр рекламы открывает следующий вариант с другой точкой зрения рекомендации. Скоро появится разовая разблокировка всех оставшихся вариантов за ₩990.",
+    watchingNote: (seconds) => `После рекламы откроется один вариант. ${seconds} с`,
+    watching: "Просмотр рекламы",
+    watchButton: "Посмотреть рекламу и открыть следующий вариант",
+    hanjaProductsLink: "Смотреть продукты со всеми вариантами · от ₩2,900",
+    bulkButton: "Открыть все варианты · ₩990 (скоро)",
+    bulkPreparing: "Оплата скоро появится.",
+  },
+  ar: {
+    title: "افتح مزيدًا من المرشحات",
+    status: (revealed, locked) => `${revealed} مكشوف · ${locked} مقفل`,
+    descHanja:
+      "كل إعلان تشاهده يكشف المرشح التالي من منظور توصية مختلف.",
+    descDefault:
+      "كل إعلان تشاهده يكشف المرشح التالي من منظور توصية مختلف. قريبًا: فتح جميع المرشحات المتبقية دفعة واحدة مقابل ₩990.",
+    watchingNote: (seconds) => `سيُكشف مرشح واحد بعد الإعلان. ${seconds} ثانية`,
+    watching: "جارٍ مشاهدة الإعلان",
+    watchButton: "شاهد إعلانًا لكشف المرشح التالي",
+    hanjaProductsLink: "عرض منتجات جميع المرشحات · ابتداءً من ₩2,900",
+    bulkButton: "فتح جميع المرشحات · ₩990 (قريبًا)",
+    bulkPreparing: "الدفع متاح قريبًا.",
+  },
+  tr: {
+    title: "Daha fazla adayın kilidini açın",
+    status: (revealed, locked) => `${revealed} açıldı · ${locked} kilitli`,
+    descHanja:
+      "İzlediğiniz her reklam, farklı bir öneri bakış açısına sahip bir sonraki adayı açar.",
+    descDefault:
+      "İzlediğiniz her reklam, farklı bir öneri bakış açısına sahip bir sonraki adayı açar. Kalan tüm adayları ₩990 karşılığında tek seferde açma özelliği yakında geliyor.",
+    watchingNote: (seconds) => `Reklamdan sonra bir aday açılacak. ${seconds} sn`,
+    watching: "Reklam izleniyor",
+    watchButton: "Bir sonraki adayı açmak için reklam izleyin",
+    hanjaProductsLink: "Tüm aday ürünlerini gör · ₩2,900'dan itibaren",
+    bulkButton: "Tüm adayları aç · ₩990 (yakında)",
+    bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
+  },
   en: {
     title: "Unlock more candidates",
     status: (revealed, locked) => `${revealed} revealed · ${locked} locked`,

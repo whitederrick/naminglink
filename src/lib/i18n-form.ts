@@ -594,8 +594,150 @@ const pt: FormCopy = {
   ],
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
-const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt };
+const ru: FormCopy = {
+  errorCheckInput: "Проверьте формат введённых данных для точного анализа.",
+  errorConsent:
+    "Чтобы начать, необходимо согласиться с Пользовательским соглашением и Политикой конфиденциальности.",
+  errorLoginToSave: "Войдите снова, чтобы сохранить результат анализа.",
+  errorRequestFailed: "Не удалось обработать ваш запрос на подбор имени.",
+  errorGeneric: "Произошла ошибка.",
+  consentTitle: "Обязательное согласие",
+  consentIntro:
+    "Введённые данные, такие как имя, дата рождения и страна, используются для формирования результата,",
+  consentIntroSaved:
+    " и только у участников, выбравших сохранение, данные и результаты сохраняются.",
+  termsLink: "Пользовательское соглашение",
+  privacyLink: "Политика конфиденциальности",
+  agreeToTermsSuffix: " — я согласен(на).",
+  agreeToPrivacySuffix: " — я согласен(на).",
+  saveResultLabel: "Сохранить результат в моей учётной записи (по желанию)",
+  saveResultHint:
+    "Мы сохраняем ваши данные и результаты только при выборе сохранения.",
+  guestNoSavePrefix:
+    "Результаты гостей не сохраняются. Если хотите сохранить результат, ",
+  loginLink: "войдите",
+  guestNoSaveSuffix: " и затем выберите сохранение.",
+  adConsentLabel: "Реклама в области обязательного согласия",
+  submitTransliteration: "Начать анализ произношения хангылем",
+  submitDefault: "Посмотреть рекламу и начать анализ",
+  adRevealNote: (seconds) => `Результат откроется после рекламы. ${seconds} с`,
+  analysisDone: "Анализ завершён",
+  editInput: "Изменить данные",
+  previewNote:
+    "Мы сначала открыли самый подходящий вариант. Остальные варианты можно открывать по одному, посмотрев рекламу или через оплату.",
+  adDialogLabel: "Посмотреть рекламу с вознаграждением и запустить анализ имени",
+  loadingEyebrow: "Анализируем ваше имя",
+  loadingTitle: "Сравниваем имена, подходящие вашему контексту",
+  loadingCountdown: (seconds) => `Просмотр рекламы и анализ · ${seconds} с`,
+  loadingDone: "Реклама завершена · готовим ваш результат",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Язык по умолчанию: ${languageName} · Пример местного имени: ${localNameHint}`,
+  transliterationStepsTitle: "Как ваше имя записывается хангылем",
+  transliterationSteps: [
+    ["Подтверждение имени", "Мы подтверждаем исходное написание и слоги, которые вы ввели."],
+    ["Анализ языка и региона", "Приоритет отдаётся исходному языку с учётом различий произношения по странам."],
+    ["Учёт подсказки произношения", "Введённая вами подсказка имеет приоритет над общими правилами произношения."],
+    ["Структурирование произношения", "Мы разбиваем реальное произношение на слоги и фонетическую запись."],
+    ["Предложение записи хангылем", "Мы сохраняем исходное произношение и предлагаем естественный хангыль."],
+  ],
+};
+
+const ar: FormCopy = {
+  errorCheckInput: "يرجى التحقق من صيغة البيانات المدخلة للحصول على تحليل دقيق.",
+  errorConsent: "يجب الموافقة على شروط الخدمة وسياسة الخصوصية لبدء التحليل.",
+  errorLoginToSave: "يرجى تسجيل الدخول مرة أخرى لحفظ نتيجة التحليل.",
+  errorRequestFailed: "تعذّرت معالجة طلب التسمية الخاص بك.",
+  errorGeneric: "حدث خطأ ما.",
+  consentTitle: "الموافقة المطلوبة",
+  consentIntro:
+    "تُستخدم البيانات التي تدخلها، مثل الاسم وتاريخ الميلاد والدولة، لإنشاء النتيجة،",
+  consentIntroSaved:
+    " ولا تُحفظ البيانات والنتائج إلا للأعضاء الذين يختارون الحفظ.",
+  termsLink: "شروط الخدمة",
+  privacyLink: "سياسة الخصوصية",
+  agreeToTermsSuffix: " — أوافق.",
+  agreeToPrivacySuffix: " — أوافق.",
+  saveResultLabel: "حفظ النتيجة في حسابي (اختياري)",
+  saveResultHint: "نحفظ بياناتك ونتائجك فقط عندما تختار الحفظ.",
+  guestNoSavePrefix:
+    "نتائج الزوار لا تُحفظ. إذا أردت الاحتفاظ بنتيجتك، يرجى ",
+  loginLink: "تسجيل الدخول",
+  guestNoSaveSuffix: " ثم اختيار الحفظ.",
+  adConsentLabel: "إعلان منطقة الموافقة المطلوبة",
+  submitTransliteration: "بدء تحليل النطق بالهانغل",
+  submitDefault: "مشاهدة الإعلان وبدء التحليل",
+  adRevealNote: (seconds) => `ستظهر النتيجة بعد الإعلان. ${seconds} ثانية`,
+  analysisDone: "اكتمل التحليل",
+  editInput: "تعديل البيانات",
+  previewNote:
+    "كشفنا أولًا عن أفضل مرشح واحد. يمكنك فتح مرشحات إضافية واحدًا تلو الآخر عبر مشاهدة إعلان أو عبر الدفع.",
+  adDialogLabel: "مشاهدة الإعلان المكافئ وتشغيل تحليل الاسم",
+  loadingEyebrow: "جارٍ تحليل اسمك",
+  loadingTitle: "نقارن الأسماء المناسبة لسياق استخدامك",
+  loadingCountdown: (seconds) => `جارٍ مشاهدة الإعلان والتحليل · ${seconds} ثانية`,
+  loadingDone: "اكتملت مشاهدة الإعلان · نجهّز نتيجتك",
+  countryHint: ({ languageName, localNameHint }) =>
+    `اللغة الافتراضية: ${languageName} · مثال على اسم محلي: ${localNameHint}`,
+  transliterationStepsTitle: "كيف يتحول اسمك إلى الهانغل",
+  transliterationSteps: [
+    ["تأكيد اسمك", "نتأكد من التهجئة الأصلية والمقاطع التي أدخلتها."],
+    ["تحليل اللغة والمنطقة", "تُمنح الأولوية للغة المصدر مع مراعاة اختلافات النطق بين الدول."],
+    ["تطبيق إرشاد النطق", "أي إرشاد نطق تدخله يتقدم على قواعد النطق العامة."],
+    ["هيكلة النطق", "نحلل النطق الفعلي إلى مقاطع ورموز صوتية."],
+    ["اقتراح الكتابة بالهانغل", "نحافظ على نطقك الأصلي ونقترح كتابة طبيعية بالهانغل."],
+  ],
+};
+
+const tr: FormCopy = {
+  errorCheckInput: "Doğru bir analiz için girdi biçimini kontrol edin.",
+  errorConsent:
+    "Analize başlamak için Kullanım Koşulları'nı ve Gizlilik Politikası'nı kabul etmeniz gerekir.",
+  errorLoginToSave: "Analiz sonucunuzu kaydetmek için lütfen yeniden giriş yapın.",
+  errorRequestFailed: "İsim talebiniz işlenemedi.",
+  errorGeneric: "Bir hata oluştu.",
+  consentTitle: "Zorunlu onay",
+  consentIntro:
+    "İsim, doğum tarihi ve ülke gibi girdiğiniz bilgiler sonucun oluşturulmasında kullanılır,",
+  consentIntroSaved:
+    " ve yalnızca kaydetmeyi seçen üyelerin girdileri ve sonuçları saklanır.",
+  termsLink: "Kullanım Koşulları",
+  privacyLink: "Gizlilik Politikası",
+  agreeToTermsSuffix: " — kabul ediyorum.",
+  agreeToPrivacySuffix: " — kabul ediyorum.",
+  saveResultLabel: "Sonucu hesabıma kaydet (isteğe bağlı)",
+  saveResultHint:
+    "Girdilerinizi ve sonuçlarınızı yalnızca kaydetmeyi seçtiğinizde saklarız.",
+  guestNoSavePrefix:
+    "Misafir sonuçları saklanmaz. Sonucunuzu saklamak istiyorsanız ",
+  loginLink: "giriş yapın",
+  guestNoSaveSuffix: " ve ardından kaydetmeyi seçin.",
+  adConsentLabel: "Zorunlu onay alanı reklamı",
+  submitTransliteration: "Hangıl telaffuz analizini başlat",
+  submitDefault: "Reklamı izle ve analizi başlat",
+  adRevealNote: (seconds) => `Sonucunuz reklamdan sonra gösterilecek. ${seconds} sn`,
+  analysisDone: "Analiz tamamlandı",
+  editInput: "Girdiyi düzenle",
+  previewNote:
+    "Önce en uygun adayı gösterdik. Diğer adayları reklam izleyerek veya ödeme yaparak tek tek açabilirsiniz.",
+  adDialogLabel: "Ödüllü reklamı izle ve isim analizini çalıştır",
+  loadingEyebrow: "İsminiz analiz ediliyor",
+  loadingTitle: "Bağlamınıza uygun isimleri karşılaştırıyoruz",
+  loadingCountdown: (seconds) => `Reklam izleniyor ve analiz sürüyor · ${seconds} sn`,
+  loadingDone: "Reklam tamamlandı · sonucunuz hazırlanıyor",
+  countryHint: ({ languageName, localNameHint }) =>
+    `Varsayılan dil: ${languageName} · Yerel isim örneği: ${localNameHint}`,
+  transliterationStepsTitle: "İsminiz nasıl Hangıl'a dönüşür",
+  transliterationSteps: [
+    ["İsminizi doğrulama", "Girdiğiniz özgün yazımı ve heceleri doğrularız."],
+    ["Dil ve bölge analizi", "Kaynak diliniz önceliklidir; ülkelere göre telaffuz farkları da uygulanır."],
+    ["Telaffuz ipucunuzu uygulama", "Girdiğiniz herhangi bir ipucu, genel telaffuz kurallarının önüne geçer."],
+    ["Telaffuzu yapılandırma", "Gerçek telaffuzu hecelere ve fonetik gösterime ayırırız."],
+    ["Hangıl yazımları önerme", "Özgün telaffuzunuzu koruyarak doğal Hangıl yazımları öneririz."],
+  ],
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr를 작성했고, 나머지 로케일은 영어로 폴백한다(언어별로 채워 넣을 수 있는 구조).
+const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr };
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;

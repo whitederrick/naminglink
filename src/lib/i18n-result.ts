@@ -401,8 +401,101 @@ const pt: ResultCopy = {
   backToInput: "Voltar à tela de entrada",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt를 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt };
+const ru: ResultCopy = {
+  reanalysisError: "Не удалось завершить повторный анализ произношения.",
+  reanalysisErrorGeneric: "Произошла ошибка при повторном анализе.",
+  reanalysisEyebrow: "Звучит не так, как на самом деле?",
+  reanalysisTitle: "Повторный анализ с подсказкой произношения",
+  reanalysisDescription:
+    "Укажите реальное произношение подробнее, и мы повторим анализ с тем же именем, языком и страной.",
+  hintLabel: "Подсказка произношения",
+  hintPlaceholder: "Напр.: звучит как И-ван Пет-ров",
+  reanalysisCountdown: (seconds) => `Повторный анализ начнётся после рекламы. ${seconds} с`,
+  reanalyzing: "Повторный анализ",
+  goodsEyebrow: "Используйте результат по максимуму",
+  goodsSectionTitle: "Сувенирная продукция с именем",
+  goodsItemTitle: "Сувенирная продукция с именем хангылем",
+  goodsItemSub: "(кепки, брелоки, футболки и другое)",
+  goodsItemDescription:
+    "Нанесите выбранное имя хангылем на кепки, брелоки, футболки и другое, чтобы создать собственную сувенирную продукцию.",
+  goodsButton: "Заказ сувенирной продукции скоро откроется",
+  editInput: "Изменить данные",
+  home: "Главная",
+  headerAdLabel: "Баннерная реклама над результатом хангылем",
+  headerCaption: "Результат анализа произношения хангылем",
+  loading: "Загружаем ваш результат.",
+  analysisDone: "Анализ завершён",
+  resultHeading: "Ваше имя в записи хангылем по произношению",
+  emptyTitle: "Не удалось загрузить результат.",
+  emptyDescription:
+    "Этот результат доступен только во вкладке браузера, в которой выполнялся анализ.",
+  backToInput: "Вернуться к экрану ввода",
+};
+
+const ar: ResultCopy = {
+  reanalysisError: "تعذّر إكمال إعادة تحليل النطق.",
+  reanalysisErrorGeneric: "حدث خطأ أثناء إعادة التحليل.",
+  reanalysisEyebrow: "هل يبدو مختلفًا عن النطق الفعلي؟",
+  reanalysisTitle: "إعادة التحليل مع إرشاد النطق",
+  reanalysisDescription:
+    "أدخل النطق الفعلي بشكل أكثر تحديدًا وسنعيد التحليل بنفس الاسم واللغة والدولة.",
+  hintLabel: "إرشاد النطق",
+  hintPlaceholder: "مثال: يُنطق مثل سا-را أح-مد",
+  reanalysisCountdown: (seconds) => `سنعيد التحليل بعد الإعلان. ${seconds} ثانية`,
+  reanalyzing: "جارٍ إعادة التحليل",
+  goodsEyebrow: "استفد أكثر من نتيجتك",
+  goodsSectionTitle: "منتجات تذكارية بالاسم",
+  goodsItemTitle: "منتجات تذكارية بالاسم المكتوب بالهانغل",
+  goodsItemSub: "(قبعات، ميداليات مفاتيح، قمصان وغيرها)",
+  goodsItemDescription:
+    "اطبع اسمك المختار بالهانغل على القبعات وميداليات المفاتيح والقمصان وغيرها لصنع منتجاتك التذكارية الخاصة.",
+  goodsButton: "طلب المنتجات التذكارية متاح قريبًا",
+  editInput: "تعديل البيانات",
+  home: "الرئيسية",
+  headerAdLabel: "إعلان الشريط العلوي لنتيجة الهانغل",
+  headerCaption: "نتيجة تحليل النطق بالهانغل",
+  loading: "جارٍ تحميل نتيجتك.",
+  analysisDone: "اكتمل التحليل",
+  resultHeading: "اسمك مكتوبًا بالهانغل حسب النطق",
+  emptyTitle: "تعذّر تحميل نتيجتك.",
+  emptyDescription:
+    "هذه النتيجة متاحة فقط في علامة تبويب المتصفح التي أجريت فيها التحليل.",
+  backToInput: "العودة إلى شاشة الإدخال",
+};
+
+const tr: ResultCopy = {
+  reanalysisError: "Telaffuzun yeniden analizi tamamlanamadı.",
+  reanalysisErrorGeneric: "Yeniden analiz sırasında bir hata oluştu.",
+  reanalysisEyebrow: "Gerçek telaffuzdan farklı mı geliyor?",
+  reanalysisTitle: "Telaffuz ipucuyla yeniden analiz et",
+  reanalysisDescription:
+    "Gerçek telaffuzu daha ayrıntılı girin; aynı isim, dil ve ülke koşullarıyla yeniden analiz edelim.",
+  hintLabel: "Telaffuz ipucu",
+  hintPlaceholder: "Örn.: E-lif Yıl-maz gibi okunur",
+  reanalysisCountdown: (seconds) => `Reklamdan sonra yeniden analiz edeceğiz. ${seconds} sn`,
+  reanalyzing: "Yeniden analiz ediliyor",
+  goodsEyebrow: "Sonucunuzdan daha fazla yararlanın",
+  goodsSectionTitle: "İsimli hediyelik ürünler",
+  goodsItemTitle: "Hangıl isimli hediyelik ürünler",
+  goodsItemSub: "(şapka, anahtarlık, tişört ve daha fazlası)",
+  goodsItemDescription:
+    "Seçtiğiniz Hangıl ismi şapkalara, anahtarlıklara, tişörtlere ve daha fazlasına işleterek kendi hediyelik ürünlerinizi oluşturun.",
+  goodsButton: "Hediyelik ürün siparişi yakında",
+  editInput: "Girdiyi düzenle",
+  home: "Ana sayfa",
+  headerAdLabel: "Hangıl sonucu üst banner reklamı",
+  headerCaption: "Hangıl telaffuz analizi sonucu",
+  loading: "Sonucunuz yükleniyor.",
+  analysisDone: "Analiz tamamlandı",
+  resultHeading: "İsminizin Hangıl telaffuz yazımı",
+  emptyTitle: "Sonucunuz yüklenemedi.",
+  emptyDescription:
+    "Bu sonuç yalnızca analizi çalıştırdığınız tarayıcı sekmesinde görüntülenebilir.",
+  backToInput: "Giriş ekranına dön",
+};
+
+// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr를 작성했고, 나머지 로케일은 영어로 폴백한다.
+const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr };
 
 export function getResultCopy(locale: Locale): ResultCopy {
   return resultCopies[locale] ?? en;

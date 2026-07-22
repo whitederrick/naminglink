@@ -473,6 +473,117 @@ const authCopies: Record<string, AuthCopy> = {
     supabaseMissingError:
       "O login está indisponível porque a chave pública do Supabase não está configurada.",
   },
+  ru: {
+    back: "Назад",
+    home: "Главная",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Вход",
+    loginDescription:
+      "Учётная запись надёжно хранит результаты подбора имён, премиум-отчёты и историю заказов сувенирной продукции.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Учётная запись",
+    accountDescription:
+      "После входа этот экран будет расширен для управления историей подбора имён, платежами, премиум-отчётами и статусом заказов печатей.",
+    panelEyebrowLogin: "Вход по электронной почте",
+    panelEyebrowAccount: "Доступ к учётной записи",
+    panelTitle: "Безопасный вход по одной ссылке",
+    panelDescription:
+      "Пароли не хранятся — вы входите по ссылке подтверждения из письма. Перед использованием ознакомьтесь с Пользовательским соглашением и Политикой конфиденциальности.",
+    emailLabel: "Электронная почта",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Получить ссылку для входа",
+    legalBefore: "Продолжая, вы подтверждаете, что ознакомились с ",
+    legalTerms: "Пользовательским соглашением",
+    legalBetween: " и ",
+    legalPrivacy: "Политикой конфиденциальности",
+    legalAfter: ".",
+    sentMessage:
+      "Мы отправили ссылку для входа на вашу электронную почту. Проверьте входящие.",
+    loggedInEyebrow: "Вход выполнен",
+    loggedInDescription:
+      "Результаты подбора имён и история заказов сохраняются в этой учётной записи. Когда будут подключены оплата и выдача PDF, вы сможете снова скачивать их на этом экране.",
+    logoutButton: "Выйти",
+    loggedOutMessage: "Вы вышли из учётной записи.",
+    configWaitTitle: "Ожидается настройка входа",
+    configWaitDescription:
+      "Вход по ссылке из письма станет доступен после настройки Supabase URL и anon key в среде развёртывания.",
+    supabaseMissingError:
+      "Вход недоступен, так как публичный ключ Supabase не настроен.",
+  },
+  ar: {
+    back: "رجوع",
+    home: "الرئيسية",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "تسجيل الدخول",
+    loginDescription:
+      "يحفظ حسابك بأمان نتائج التسمية والتقارير المميزة وسجل طلبات المنتجات التذكارية.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "الحساب",
+    accountDescription:
+      "بعد تسجيل الدخول، ستتوسع هذه الشاشة لإدارة سجل التسمية والمدفوعات والتقارير المميزة وحالة طلبات الأختام.",
+    panelEyebrowLogin: "تسجيل الدخول بالبريد الإلكتروني",
+    panelEyebrowAccount: "الوصول إلى الحساب",
+    panelTitle: "سجّل الدخول بأمان برابط واحد",
+    panelDescription:
+      "لا نحفظ كلمات المرور — تسجّل الدخول عبر رابط تحقق يُرسل بالبريد الإلكتروني. يرجى الاطلاع على شروط الخدمة وسياسة الخصوصية قبل الاستخدام.",
+    emailLabel: "البريد الإلكتروني",
+    emailPlaceholder: "name@example.com",
+    submitButton: "إرسال رابط تسجيل الدخول",
+    legalBefore: "بالمتابعة، فإنك تقرّ بالاطلاع على ",
+    legalTerms: "شروط الخدمة",
+    legalBetween: " و",
+    legalPrivacy: "سياسة الخصوصية",
+    legalAfter: ".",
+    sentMessage:
+      "أرسلنا رابط تسجيل الدخول إلى بريدك الإلكتروني. يرجى التحقق من صندوق الوارد.",
+    loggedInEyebrow: "تم تسجيل الدخول",
+    loggedInDescription:
+      "تُحفظ نتائج التسمية وسجل الطلبات ضمن هذا الحساب. عند ربط الدفع وإصدار ملفات PDF، ستتمكن من تنزيلها مجددًا من هذه الشاشة.",
+    logoutButton: "تسجيل الخروج",
+    loggedOutMessage: "تم تسجيل خروجك.",
+    configWaitTitle: "إعداد تسجيل الدخول قيد الانتظار",
+    configWaitDescription:
+      "يصبح تسجيل الدخول عبر رابط البريد الإلكتروني متاحًا بعد ضبط Supabase URL و anon key في بيئة النشر.",
+    supabaseMissingError:
+      "تسجيل الدخول غير متاح لأن مفتاح Supabase العام غير مضبوط.",
+  },
+  tr: {
+    back: "Geri",
+    home: "Ana sayfa",
+    loginEyebrow: "Naming-Link",
+    loginTitle: "Giriş yap",
+    loginDescription:
+      "Hesabınız; isim sonuçlarını, premium raporları ve hediyelik ürün sipariş geçmişini güvenle saklar.",
+    accountEyebrow: "Naming-Link",
+    accountTitle: "Hesap",
+    accountDescription:
+      "Giriş yaptıktan sonra bu ekran; isim geçmişinizi, ödemelerinizi, premium raporlarınızı ve mühür siparişlerinizin durumunu yönetecek şekilde genişletilecektir.",
+    panelEyebrowLogin: "E-posta ile giriş",
+    panelEyebrowAccount: "Hesap erişimi",
+    panelTitle: "Tek bir bağlantıyla güvenle giriş yapın",
+    panelDescription:
+      "Parola saklanmaz — e-posta doğrulama bağlantısıyla giriş yaparsınız. Kullanmadan önce lütfen Kullanım Koşulları'nı ve Gizlilik Politikası'nı inceleyin.",
+    emailLabel: "E-posta",
+    emailPlaceholder: "name@example.com",
+    submitButton: "Giriş bağlantısı gönder",
+    legalBefore: "Devam ederek ",
+    legalTerms: "Kullanım Koşulları",
+    legalBetween: " ve ",
+    legalPrivacy: "Gizlilik Politikası",
+    legalAfter: " belgelerini incelediğinizi kabul etmiş olursunuz.",
+    sentMessage:
+      "Giriş bağlantısını e-posta adresinize gönderdik. Lütfen gelen kutunuzu kontrol edin.",
+    loggedInEyebrow: "Giriş yapıldı",
+    loggedInDescription:
+      "İsim sonuçları ve sipariş geçmişi bu hesap altında saklanır. Ödeme ve PDF teslimi bağlandığında bunları bu ekrandan yeniden indirebileceksiniz.",
+    logoutButton: "Çıkış yap",
+    loggedOutMessage: "Çıkış yaptınız.",
+    configWaitTitle: "Giriş yapılandırması bekleniyor",
+    configWaitDescription:
+      "E-posta bağlantısıyla giriş, Supabase URL ve anon key dağıtım ortamında yapılandırıldığında kullanılabilir olur.",
+    supabaseMissingError:
+      "Supabase genel anahtarı yapılandırılmadığı için giriş kullanılamıyor.",
+  },
 };
 
 export function getAuthCopy(locale?: string): AuthCopy {

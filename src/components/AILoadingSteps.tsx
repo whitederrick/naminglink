@@ -77,6 +77,24 @@ const generalStepsByLocale: Record<string, string[]> = {
     "Compondo a história de cada candidato e os motivos de exclusão.",
     "Revisando o resultado e preparando a exibição.",
   ],
+  ru: [
+    "Систематизируем смысл и условия введённых данных.",
+    "Сопоставляем произношение, культуру и справочные сведения.",
+    "Составляем историю каждого варианта и причины исключения.",
+    "Проверяем результат и готовим его к показу.",
+  ],
+  ar: [
+    "نرتب معنى بياناتك المدخلة وشروطها.",
+    "نقارن النطق والثقافة والمعلومات المرجعية.",
+    "نصوغ قصة كل مرشح وأسباب الاستبعاد.",
+    "نراجع النتيجة ونجهزها للعرض.",
+  ],
+  tr: [
+    "Girdiğiniz bilgilerin anlamı ve koşulları düzenleniyor.",
+    "Telaffuz, kültür ve referans bilgileri karşılaştırılıyor.",
+    "Her adayın hikâyesi ve eleme nedenleri oluşturuluyor.",
+    "Sonuç gözden geçiriliyor ve görüntülenmeye hazırlanıyor.",
+  ],
 };
 
 // 한글 이름 → 글로벌 이름 변환 대기 문구. 기술 용어 없이, 이름 여정에 어울리는 이야기로 채운다.
