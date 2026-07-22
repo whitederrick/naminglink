@@ -677,9 +677,11 @@ export function NamingForm({
                         const resolvedOptions =
                           isHangulTransliteration && field.name === "country"
                             ? getCountryOptionsForLocale(values.originalNameLanguage)
-                            : isKoreanToGlobal && field.name === "targetLanguage"
-                              ? getLanguageOptionsForCountry(values.targetCountry)
-                              : field.options;
+                            : isGlobalToKorean && field.name === "country"
+                              ? getCountryOptionsForLocale(locale)
+                              : isKoreanToGlobal && field.name === "targetLanguage"
+                                ? getLanguageOptionsForCountry(values.targetCountry)
+                                : field.options;
                         // 본명 입력 예시는 선택된 국가의 현지 이름 예시를 따라간다.
                         // (모든 언어에서 'Daniel Brooks'가 나오던 문제 방지 — 국가를 바꾸면 예시도 바뀐다.)
                         const resolvedPlaceholder =

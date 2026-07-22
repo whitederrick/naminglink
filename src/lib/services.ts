@@ -537,12 +537,20 @@ export function getCountryOption(value: string | undefined) {
 export function getCountryOptionsForLocale(locale: string | undefined) {
   if (!locale) return countryOptions;
 
-  const isLanguageMatch = (country: CountryOption) =>
-    country.locale === locale || country.languageLocales?.includes(locale as Locale);
+  // 주 언어가 일치하는 국가(예: en→미국·영국)를 먼저, 보조 언어로만 일치하는 국가(예: en을
+  // 제2언어로 쓰는 필리핀)를 그다음, 나머지를 마지막에 둔다. 첫 항목이 폼의 기본 국가가 되므로,
+  // 이 순서가 곧 "영어 기본값=미국" 규칙이 된다.
+  const isPrimaryMatch = (country: CountryOption) => country.locale === locale;
+  const isSecondaryMatch = (country: CountryOption) =>
+    country.locale !== locale &&
+    Boolean(country.languageLocales?.includes(locale as Locale));
 
   return [
-    ...countryOptions.filter(isLanguageMatch),
-    ...countryOptions.filter((country) => !isLanguageMatch(country)),
+    ...countryOptions.filter(isPrimaryMatch),
+    ...countryOptions.filter(isSecondaryMatch),
+    ...countryOptions.filter(
+      (country) => !isPrimaryMatch(country) && !isSecondaryMatch(country),
+    ),
   ];
 }
 

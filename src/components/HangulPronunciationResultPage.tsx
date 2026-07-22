@@ -314,7 +314,7 @@ export function HangulPronunciationResultPage({
           </section>
         )}
       </section>
-      <SiteFooter locale={locale} />
+      <SiteFooter locale={locale} policyMode="modal" />
     </main>
   );
 }
