@@ -53,6 +53,13 @@
 - **프리미엄 주문 레이트리밋** (a70225f): `consume_rate_limit` RPC(고정 시간창) 마이그레이션 `20260722120000_rate_limit.sql` + `checkRateLimit`. RPC 부재·오류 시 fail-open이라 배포는 안전.
 - **마이그레이션 적용 완료** (2026-07-22, 사용자 승인 후): 공유 Supabase에 트랜잭션으로 적용, RPC 실호출 검증(한도 2 설정 시 3번째 호출 false + 초과분 롤백 정상), healthcheck 테스트 행 삭제. 레이트리밋 실동작 상태.
 
+## 크론 실동작 확인 + 시간별 외부 스케줄러 (2026-07-22 저녁, 커밋 f374089)
+
+- **CRON_SECRET 등록 검증**: 사용자가 .env.local·Vercel에 등록 → 프로덕션 실호출로 무인증 401 / 시크릿 200 확인. 24h 자동삭제 크론 실동작.
+- **발견**: `vercel.json` 크론이 `0 18 * * *`(일 1회 03:00 KST) — Vercel Hobby 플랜이 크론을 일 1회로 제한(감사 문서의 "시간별" 기록은 부정확했음). 만료 후 최대 ~24h 추가 잔존 가능해 약관의 24시간 삭제 약속과 불일치.
+- **해소**: GitHub Actions 시간별 크론 `.github/workflows/premium-cleanup-cron.yml` 신설(매시 정각, workflow_dispatch 수동 실행 가능, Vercel 일 1회 크론은 백업 유지). 리포지토리 시크릿 CRON_SECRET 등록, 수동 트리거로 200 확인.
+- **주의**: .env.local의 CRON_SECRET 값은 큰따옴표 포함이라 다른 곳에 복사 등록 시 따옴표를 벗겨야 함(첫 등록 때 401 원인). GitHub 스케줄은 리포지토리 60일 무활동 시 자동 비활성화되므로 장기 방치 시 재활성화 필요.
+
 ## 남은 작업 (우선순위순)
 
 1. **PortOne 운영 결제 활성화** — 유일한 실질 런칭 블로커. **CRON_SECRET·PREMIUM_ABANDONED_TTL_HOURS(선택) 함께 등록**해야 24h 자동삭제가 실동작.
