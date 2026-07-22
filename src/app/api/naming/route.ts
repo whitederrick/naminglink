@@ -3,6 +3,7 @@ import { z } from "zod";
 import { AIServiceUnavailableError, generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
+import { getRequestLocale, isLocale } from "@/lib/locale";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
@@ -17,6 +18,29 @@ const requestSchema = z.object({
   inputFactors: z.record(z.string(), z.unknown()),
   saveResult: z.boolean().default(false),
 });
+
+// 유료 상세 상품에만 제공하는 후보별 필드. 무료 응답에서 제거한다.
+const PAID_HANJA_DETAIL_FIELDS = ["story", "practical_analysis"] as const;
+
+function stripPaidHanjaDetail(result: unknown) {
+  if (!result || typeof result !== "object" || Array.isArray(result)) {
+    return result;
+  }
+  const record = result as Record<string, unknown>;
+  if (!Array.isArray(record.candidates)) return result;
+
+  return {
+    ...record,
+    candidates: record.candidates.map((candidate) => {
+      if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) {
+        return candidate;
+      }
+      const next = { ...(candidate as Record<string, unknown>) };
+      for (const field of PAID_HANJA_DETAIL_FIELDS) delete next[field];
+      return next;
+    }),
+  };
+}
 
 export async function POST(request: NextRequest) {
   const startedAt = Date.now();
@@ -48,6 +72,19 @@ export async function POST(request: NextRequest) {
           { status: 400 },
         );
       }
+    }
+
+    // 외국인 대상 서비스의 결과 언어가 "auto"(기본값)이거나 미지원 코드면, 하드코딩 영어가 아니라
+    // 접속 환경(IP 국가·Accept-Language)으로 감지한 요청 로케일로 확정한다. 사용자가 결과 언어를
+    // 직접 고른 경우에는 그 선택을 존중한다.
+    const inputFactors = { ...parsed.data.inputFactors };
+    if (parsed.data.serviceType === "GLOBAL_TO_KOREAN") {
+      const requested = inputFactors.outputLanguage;
+      inputFactors.outputLanguage = isLocale(
+        typeof requested === "string" ? requested : undefined,
+      )
+        ? requested
+        : await getRequestLocale();
     }
 
     const supabase = getSupabaseAdminClient();
@@ -94,8 +131,16 @@ export async function POST(request: NextRequest) {
 
     const generation = await generateNamingResult(
       parsed.data.serviceType,
-      parsed.data.inputFactors,
+      inputFactors,
     );
+
+    // 한자 상세 설명(story·practical_analysis)은 유료 상품(2,900원~)에 판매하는 내용이다.
+    // 무료 응답에는 규칙 엔진이 만든 이 필드가 그대로 담겨 결제 없이 열람될 수 있으므로,
+    // 클라이언트로 내보내기 전과 저장 전에 서버에서 제거한다. 유료 리포트는 결제 후 서버에서
+    // 다시 생성하므로(‑ /api/premium-reports/order가 재생성) 상품 품질에는 영향이 없다.
+    const clientResult = isHanja
+      ? stripPaidHanjaDetail(generation.result)
+      : generation.result;
 
     // HANJA는 생성이 성공한 뒤에만 무료 한도를 차감한다.
     if (isHanja && !(await consumeFreeQuota())) {
@@ -110,8 +155,8 @@ export async function POST(request: NextRequest) {
         .insert({
           user_id: authenticatedUser.id,
           service_type: parsed.data.serviceType,
-          input_factors: parsed.data.inputFactors,
-          generated_names: generation.result,
+          input_factors: inputFactors,
+          generated_names: clientResult,
         })
         .select("id")
         .single();
@@ -144,7 +189,7 @@ export async function POST(request: NextRequest) {
       ok: true,
       logId,
       persistence,
-      result: generation.result,
+      result: clientResult,
       analysisMeta: generation.analysisMeta,
     });
   } catch (error) {
