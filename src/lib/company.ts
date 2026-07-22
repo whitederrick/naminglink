@@ -8,7 +8,7 @@ export const companyInfo = {
   businessNumber: "사업자등록번호 준비 중",
   mailOrderNumber: "통신판매업 신고 준비 중",
   address: "서울특별시",
-  customerCenter: "platforest.inc@gmail.com",
+  customerCenter: "070-4300-7141",
   email: "platforest.inc@gmail.com",
   privacyOfficer: "곽은하",
   hostingProvider: "Vercel Inc.",
