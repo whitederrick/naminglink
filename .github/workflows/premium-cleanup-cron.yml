@@ -1,0 +1,36 @@
+# 유료 리포트 24시간 자동삭제 크론(시간별). Vercel Hobby 플랜은 크론이 일 1회로 제한되어
+# 약관의 "24시간 열람 후 자동 삭제"를 지키지 못하므로 GitHub Actions가 시간별 호출을 담당한다.
+# vercel.json의 일 1회 크론(03:00 KST)은 백업으로 유지한다.
+name: premium-cleanup-cron
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: premium-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Call cleanup endpoint
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          if [ -z "$CRON_SECRET" ]; then
+            echo "CRON_SECRET repository secret is not set" >&2
+            exit 1
+          fi
+          response=$(curl -sS -w "\n%{http_code}" \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            "https://naminglink.vercel.app/api/cron/premium-cleanup")
+          body=$(echo "$response" | head -n -1)
+          status=$(echo "$response" | tail -n 1)
+          echo "HTTP $status: $body"
+          [ "$status" = "200" ]
