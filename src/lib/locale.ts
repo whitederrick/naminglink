@@ -35,6 +35,15 @@ const countryLocaleMap: Record<string, Locale> = {
   KZ: "kk",
   PL: "pl",
   IT: "it",
+  ES: "es",
+  CO: "es",
+  PE: "es",
+  AT: "de",
+  // 다언어 국가는 최대 사용 언어로 두되, Accept-Language가 있으면 그쪽이 우선한다.
+  CH: "de",
+  BE: "fr",
+  NZ: "en",
+  IE: "en",
 };
 
 export function isLocale(value: string | null | undefined): value is Locale {

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { getCountryCode, getDailyVisitorHash } from "@/lib/request-context";
-import { readJsonBodyLimited } from "@/lib/request-guard";
+import { checkRateLimit, readJsonBodyLimited } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -20,6 +20,11 @@ export async function POST(request: NextRequest) {
   if (!parsed.success) return NextResponse.json({ ok: false, error: "잘못된 이벤트입니다." }, { status: 400 });
   const supabase = getSupabaseAdminClient();
   if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
+  // 무인증 insert 남용으로 인한 테이블 팽창·통계 조작 방어. 페이지뷰+분석 이벤트를 합쳐도
+  // 정상 세션은 시간당 수십 건이라 120건이면 넉넉하다.
+  if (!(await checkRateLimit(request, "analytics", { windowSeconds: 3600, limit: 120 }))) {
+    return NextResponse.json({ ok: false, error: "요청이 너무 잦습니다." }, { status: 429 });
+  }
   const { error } = await supabase.from("site_events").insert({
     event_type: parsed.data.eventType,
     path: parsed.data.path,

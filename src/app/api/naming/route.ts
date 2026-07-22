@@ -7,6 +7,7 @@ import { getRequestLocale, isLocale } from "@/lib/locale";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
 import {
   checkInputFactorsSize,
+  checkRateLimit,
   readJsonBodyLimited,
   RequestTooLargeError,
 } from "@/lib/request-guard";
@@ -49,6 +50,9 @@ function stripPaidHanjaDetail(result: unknown) {
 
 export async function POST(request: NextRequest) {
   const startedAt = Date.now();
+  // AI 서비스는 생성 전에 무료 쿼터를 차감하므로, 생성이 실패하면 catch에서 되돌려
+  // 사용자가 결과 없이 쿼터만 잃지 않게 한다. 생성 성공 시 null로 되돌림을 해제한다.
+  let refundFreeQuota: (() => Promise<void>) | null = null;
   try {
     let body: unknown;
     try {
@@ -132,8 +136,36 @@ export async function POST(request: NextRequest) {
       return allowed !== false;
     };
 
-    if (!isHanja && !(await consumeFreeQuota())) {
-      return quotaExhaustedResponse;
+    if (!isHanja) {
+      // 개별 IP 한도(일 20회)는 IP 로테이션으로 우회할 수 있으므로, OpenAI 비용의 최종
+      // 방어선으로 서비스 전체 AI 호출량에 일일 상한을 둔다. RPC 부재·오류 시 fail-open.
+      const underGlobalCap = await checkRateLimit(request, "naming-ai-global", {
+        windowSeconds: 24 * 60 * 60,
+        limit: Number(process.env.NAMING_AI_GLOBAL_DAILY_LIMIT ?? 2000),
+        identifier: "global",
+      });
+      if (!underGlobalCap) {
+        return NextResponse.json(
+          {
+            ok: false,
+            error:
+              "지금은 무료 분석 요청이 많아 잠시 이용이 어렵습니다. 잠시 후 다시 시도해 주세요.",
+          },
+          { status: 429 },
+        );
+      }
+
+      if (!(await consumeFreeQuota())) {
+        return quotaExhaustedResponse;
+      }
+      if (enforceFreeQuota && supabase && visitorHash) {
+        refundFreeQuota = async () => {
+          const { error: refundError } = await supabase.rpc("release_daily_quota", {
+            p_visitor_hash: visitorHash,
+          });
+          if (refundError) console.error("Failed to refund daily quota", refundError);
+        };
+      }
     }
 
     const authenticatedUser = parsed.data.saveResult
@@ -154,6 +186,7 @@ export async function POST(request: NextRequest) {
       parsed.data.serviceType,
       inputFactors,
     );
+    refundFreeQuota = null;
 
     // 한자 상세 설명(story·practical_analysis)은 유료 상품(2,900원~)에 판매하는 내용이다.
     // 무료 응답에는 규칙 엔진이 만든 이 필드가 그대로 담겨 결제 없이 열람될 수 있으므로,
@@ -215,6 +248,7 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error(error);
+    await refundFreeQuota?.();
     if (error instanceof NamingInputConstraintError) {
       return NextResponse.json(
         {

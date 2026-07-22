@@ -81,7 +81,7 @@ export async function POST(request: Request) {
         .maybeSingle();
       if (!session) throw new Error("웹훅 결제에 해당하는 분석 세션이 없습니다.");
       await markPremiumSessionPaid(String(session.id), String(order.id), payment);
-    } else if ((type === "Transaction.Cancelled" || type === "Transaction.PartialCancelled") && paymentId) {
+    } else if (type === "Transaction.Cancelled" && paymentId) {
       const now = new Date().toISOString();
       const { data: order } = await supabase
         .from("orders")
@@ -95,6 +95,14 @@ export async function POST(request: Request) {
           .update({ status: "REFUNDED", input_payload: {}, calculation_result: null, interpretation_result: null, updated_at: now })
           .eq("order_id", order.id);
       }
+    } else if (type === "Transaction.PartialCancelled" && paymentId) {
+      // 부분취소는 일부 금액만 환불된 것이므로 리포트·세션을 파기하지 않는다.
+      // 주문에 상태만 기록하고, 전액 환불되면 별도의 Transaction.Cancelled가 도착한다.
+      await supabase
+        .from("orders")
+        .update({ payment_status: "PARTIALLY_REFUNDED", updated_at: new Date().toISOString() })
+        .eq("provider_payment_id", paymentId)
+        .eq("payment_status", "PAID");
     } else if (type === "Transaction.Failed" && paymentId) {
       await supabase
         .from("orders")

@@ -9,10 +9,15 @@ import { getDailyVisitorHash } from "@/lib/request-context";
 export async function checkRateLimit(
   request: NextRequest,
   scope: string,
-  { windowSeconds, limit }: { windowSeconds: number; limit: number },
+  {
+    windowSeconds,
+    limit,
+    identifier: identifierOverride,
+  }: { windowSeconds: number; limit: number; identifier?: string },
 ): Promise<boolean> {
   const supabase = getSupabaseAdminClient();
-  const identifier = getDailyVisitorHash(request);
+  // identifier를 지정하면 방문자 단위가 아닌 전역("global" 등) 한도로 동작한다.
+  const identifier = identifierOverride ?? getDailyVisitorHash(request);
   if (!supabase || !identifier) return true;
 
   const { data, error } = await supabase.rpc("consume_rate_limit", {

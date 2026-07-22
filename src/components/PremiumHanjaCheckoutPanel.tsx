@@ -60,6 +60,10 @@ function nameSignatureOf(inputFactors?: Record<string, unknown>) {
   return `${family}|${given}`;
 }
 
+// 리포트는 결제 후 24시간이면 서버에서 삭제되므로, 그보다 오래된 항목은 접근 토큰·연락처
+// PII를 브라우저에 남겨둘 이유가 없다. 파싱 시점에 만료 항목을 지워 영구 잔존을 막는다.
+const CHECKOUT_TTL_MS = 48 * 60 * 60 * 1000;
+
 // localStorage는 손상되거나 예전 스키마일 수 있으므로, 진행에 필요한 핵심 필드를 검증한 뒤에만 Checkout으로 취급한다.
 function parseStoredCheckout(raw: string | null): Checkout | null {
   if (!raw) return null;
@@ -71,6 +75,8 @@ function parseStoredCheckout(raw: string | null): Checkout | null {
   }
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const record = value as Record<string, unknown>;
+  const savedAt = typeof record.savedAt === "number" ? record.savedAt : 0;
+  if (!savedAt || Date.now() - savedAt > CHECKOUT_TTL_MS) return null;
   const isString = (key: string) => typeof record[key] === "string" && (record[key] as string).length > 0;
   if (
     !isString("sessionId") ||
@@ -324,6 +330,8 @@ export function PremiumHanjaCheckoutPanel({
         .filter((key) => key.startsWith(CHECKOUT_KEY_PREFIX))
         .flatMap((key) => {
           const parsed = parseStoredCheckout(localStorage.getItem(key));
+          // 만료(TTL 경과)·손상 항목은 스캔 시점에 정리해 토큰·PII 잔존을 막는다.
+          if (!parsed) localStorage.removeItem(key);
           return parsed ? [parsed] : [];
         })
         // 결제창을 통과(paid)했거나 확인까지 끝난(confirmed) 주문 중 현재 화면과 같은 이름만
