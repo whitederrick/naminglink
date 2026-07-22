@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Dịch vụ trả phí",
           paragraphs: [
             "Dịch vụ ghép ý nghĩa Hanja cung cấp các gói chi tiết sau: (1) giải thích chi tiết tối đa 5 ứng viên kèm phân tích Hanja tổng hợp: ₩2,900 (KRW); (2) giải thích mở rộng tối đa 10 ứng viên, phân tích Hanja tổng hợp và file PDF lưu niệm: ₩4,900; (3) chi tiết tối đa 10 ứng viên, phân tích Hanja tổng hợp, phân tích Tứ Trụ (Saju) và Ngũ Hành cùng file PDF lưu niệm: ₩9,900.",
-            "Trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul, có thể cung cấp gói mở khóa toàn bộ ứng viên còn lại cùng lúc mà không cần xem quảng cáo (₩990). Trước khi tính năng thanh toán được kích hoạt, ứng viên chỉ có thể được mở khóa thông qua xem quảng cáo.",
+            "Trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul, có thể cung cấp gói mở khóa toàn bộ ứng viên còn lại cùng lúc mà không cần xem quảng cáo (US$1.99). Trước khi tính năng thanh toán được kích hoạt, ứng viên chỉ có thể được mở khóa thông qua xem quảng cáo.",
             "Báo cáo chi tiết trả phí, kết quả phân tích và file PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi thanh toán; hết thời hạn lưu trữ, chúng sẽ tự động bị xóa.",
             "Các sản phẩm hữu hình như sản phẩm lưu niệm tên tiếng Hàn có thể được cung cấp với giá và điều kiện riêng. Với mọi sản phẩm trả phí, nội dung sản phẩm, giá, phương thức cung cấp và điều kiện hoàn tiền đều được thông báo trên màn hình trước khi thanh toán.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Mở khóa toàn bộ ứng viên (₩990)",
+          title: "3. Mở khóa toàn bộ ứng viên (US$1.99)",
           paragraphs: [
             "Việc mở khóa toàn bộ ứng viên trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul là nội dung kỹ thuật số được cung cấp ngay sau khi thanh toán. Quý khách có thể hủy trước khi bắt đầu xem ứng viên; sau khi đã xem, việc hoàn tiền do đổi ý đơn thuần có thể bị hạn chế.",
             "Nếu ứng viên không được mở khóa đúng cách do lỗi hệ thống, chúng tôi sẽ cung cấp lại hoặc hoàn tiền.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Mở khóa toàn bộ ứng viên",
           paragraphs: [
-            "Mở khóa toàn bộ ứng viên còn lại cùng lúc, không cần xem quảng cáo, trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul: ₩990 (tính năng thanh toán đang được chuẩn bị)",
+            "Mở khóa toàn bộ ứng viên còn lại cùng lúc, không cần xem quảng cáo, trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul: US$1.99 (tính năng thanh toán đang được chuẩn bị)",
           ],
         },
         {

@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Services payants",
           paragraphs: [
             "Le service d'association de sens en hanja propose les produits détaillés suivants : (1) explications détaillées pour un maximum de 5 candidats et analyse complète des hanja : ₩2,900 (KRW) ; (2) explications détaillées étendues pour un maximum de 10 candidats, analyse complète des hanja et PDF de collection : ₩4,900 ; (3) détails pour un maximum de 10 candidats, analyse complète des hanja, analyse saju (Quatre Piliers) et Cinq Éléments, et PDF de collection : ₩9,900.",
-            "Dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul, un produit débloquant en une seule fois l'ensemble des candidats restants, sans publicité (₩990), peut être proposé. Tant que la fonction de paiement n'est pas activée, seul le déblocage par visionnage de publicités est disponible.",
+            "Dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul, un produit débloquant en une seule fois l'ensemble des candidats restants, sans publicité (US$1.99), peut être proposé. Tant que la fonction de paiement n'est pas activée, seul le déblocage par visionnage de publicités est disponible.",
             "Les rapports détaillés payants, les résultats d'analyse et les fichiers PDF restent consultables et téléchargeables pendant 24 heures après le paiement, puis sont automatiquement supprimés à l'expiration de cette période de conservation.",
             "Les produits physiques, tels que les articles dérivés de prénoms coréens, peuvent être proposés à des prix et conditions distincts. Pour chaque produit payant, le contenu du produit, le prix, le mode de fourniture et les conditions de remboursement sont indiqués à l'écran avant le paiement.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Déblocage de l'ensemble des candidats (₩990)",
+          title: "3. Déblocage de l'ensemble des candidats (US$1.99)",
           paragraphs: [
             "Le déblocage groupé des candidats dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul est un contenu numérique fourni immédiatement après le paiement. L'annulation est possible avant le début de la consultation des candidats ; après consultation, le remboursement pour simple changement d'avis peut être restreint.",
             "Si les candidats ne sont pas correctement débloqués en raison d'une erreur système, nous procédons à une nouvelle fourniture ou à un remboursement.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Déblocage de l'ensemble des candidats",
           paragraphs: [
-            "Déblocage en une seule fois, sans publicité, de l'ensemble des candidats restants dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul : ₩990 (fonction de paiement en préparation)",
+            "Déblocage en une seule fois, sans publicité, de l'ensemble des candidats restants dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul : US$1.99 (fonction de paiement en préparation)",
           ],
         },
         {

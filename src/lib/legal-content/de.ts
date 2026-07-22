@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Kostenpflichtige Dienste",
           paragraphs: [
             "Der Dienst zur Hanja-Bedeutungszuordnung bietet die folgenden Detailprodukte an: (1) ausführliche Erläuterungen zu bis zu 5 Kandidaten sowie eine umfassende Hanja-Detailanalyse: ₩2,900 (KRW); (2) erweiterte ausführliche Erläuterungen zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse und ein PDF zum Aufbewahren: ₩4,900; (3) Details zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse, eine Analyse nach Saju (Vier Säulen) und den Fünf Elementen sowie ein PDF zum Aufbewahren: ₩9,900.",
-            "In den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift kann ein Produkt angeboten werden, das alle verbleibenden Kandidaten auf einmal und ohne Werbung freischaltet (₩990). Bis zur Aktivierung der Zahlungsfunktionen steht ausschließlich die Freischaltung über Werbeprämien zur Verfügung.",
+            "In den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift kann ein Produkt angeboten werden, das alle verbleibenden Kandidaten auf einmal und ohne Werbung freischaltet (US$1.99). Bis zur Aktivierung der Zahlungsfunktionen steht ausschließlich die Freischaltung über Werbeprämien zur Verfügung.",
             "Kostenpflichtige Detailberichte, Analyseergebnisse und PDF-Dateien können nach Zahlungsabschluss 24 Stunden lang erneut eingesehen und heruntergeladen werden; nach Ablauf der Aufbewahrungsfrist werden sie automatisch gelöscht.",
             "Physische Produkte wie Merchandise-Artikel mit koreanischen Namen können zu gesonderten Preisen und Bedingungen angeboten werden. Bei jedem kostenpflichtigen Produkt werden Produktinhalt, Preis, Bereitstellungsart und Erstattungsbedingungen vor der Zahlung auf dem Bildschirm angegeben.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Freischaltung aller Kandidaten (₩990)",
+          title: "3. Freischaltung aller Kandidaten (US$1.99)",
           paragraphs: [
             "Die Gesamtfreischaltung der Kandidaten in den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift ist ein digitaler Inhalt, der unmittelbar nach der Zahlung bereitgestellt wird. Vor Beginn der Einsichtnahme in die Kandidaten ist eine Stornierung möglich; nach der Einsichtnahme kann eine Erstattung bei bloßer Meinungsänderung eingeschränkt sein.",
             "Werden die Kandidaten aufgrund eines Systemfehlers nicht ordnungsgemäß freigeschaltet, erfolgt eine erneute Bereitstellung oder eine Erstattung.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Freischaltung aller Kandidaten",
           paragraphs: [
-            "Freischaltung aller verbleibenden Kandidaten auf einmal und ohne Werbung in den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift: ₩990 (Zahlungsfunktion in Vorbereitung)",
+            "Freischaltung aller verbleibenden Kandidaten auf einmal und ohne Werbung in den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift: US$1.99 (Zahlungsfunktion in Vorbereitung)",
           ],
         },
         {

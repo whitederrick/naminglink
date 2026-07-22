@@ -44,10 +44,16 @@ for (const locale of supportedLocales) {
       }
     }
     if (doc.effectiveDate !== "2026-07-22") problems.push(`${kind}: effectiveDate ${doc.effectiveDate}`);
+    // 일괄 공개 상품은 국내 990원·해외 US$1.99 이원 가격: 한국어 원본은 둘 다 병기하고,
+    // 비한국어 번역은 해외 결제 가격(US$1.99)만 표기한다.
+    const expectedPrices =
+      locale === "ko"
+        ? ["2,900", "4,900", "9,900", "990", "US$1.99"]
+        : ["2,900", "4,900", "9,900", "US$1.99"];
     const priceOk = kind === "pricing" || kind === "refund" || kind === "terms"
-      ? ["2,900", "4,900", "9,900", "990"].every((p) => JSON.stringify(doc).includes(p))
+      ? expectedPrices.every((p) => JSON.stringify(doc).includes(p))
       : true;
-    if (!priceOk) problems.push(`${kind}: missing one of the prices 2,900/4,900/9,900/990`);
+    if (!priceOk) problems.push(`${kind}: missing one of the prices ${expectedPrices.join("/")}`);
   }
 
   if (problems.length) {

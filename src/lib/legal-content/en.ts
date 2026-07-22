@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Paid Services",
           paragraphs: [
             "The Hanja meaning-matching service offers the following detailed products: (1) detailed explanations for up to 5 candidates plus a comprehensive Hanja analysis: ₩2,900; (2) extended explanations for up to 10 candidates, a comprehensive Hanja analysis, and a keepsake PDF: ₩4,900; (3) details for up to 10 candidates, a comprehensive Hanja analysis, a Saju (Four Pillars) and Five Elements analysis, and a keepsake PDF: ₩9,900.",
-            "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (₩990) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
+            "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (US$1.99) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
             "Paid detailed reports, analysis results, and PDF files remain available for viewing and download for 24 hours after payment, after which they are automatically deleted.",
             "Physical products such as Korean name merchandise may be offered at separate prices and conditions. For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Unlock All Candidates (₩990)",
+          title: "3. Unlock All Candidates (US$1.99)",
           paragraphs: [
             "Unlocking all candidates in the global name conversion, Korean name conversion, and Hangul pronunciation services is digital content delivered immediately upon payment. You may cancel before viewing begins; after viewing, refunds for a simple change of mind may be restricted.",
             "If candidates fail to unlock properly due to a system error, we will re-deliver them or provide a refund.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Unlock All Candidates",
           paragraphs: [
-            "Unlock all remaining candidates at once, without ads, in the global name conversion, Korean name conversion, and Hangul pronunciation services: ₩990 (payment feature in preparation)",
+            "Unlock all remaining candidates at once, without ads, in the global name conversion, Korean name conversion, and Hangul pronunciation services: US$1.99 (payment feature in preparation)",
           ],
         },
         {

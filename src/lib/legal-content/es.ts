@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Servicios de pago",
           paragraphs: [
             "El servicio de asociación de significados de hanja ofrece los siguientes productos detallados: (1) explicaciones detalladas de hasta 5 candidatos más un análisis integral de hanja: ₩2,900 (KRW); (2) explicaciones detalladas ampliadas de hasta 10 candidatos, análisis integral de hanja y PDF de colección: ₩4,900; (3) detalles de hasta 10 candidatos, análisis integral de hanja, análisis de saju (Cuatro Pilares) y los Cinco Elementos, y PDF de colección: ₩9,900.",
-            "En los servicios de conversión a nombres globales, conversión a nombres coreanos y transcripción de pronunciación en hangul puede ofrecerse un producto que desbloquea de una sola vez todos los candidatos restantes sin anuncios (₩990). Hasta que se active la función de pago, solo se ofrece el desbloqueo mediante anuncios con recompensa.",
+            "En los servicios de conversión a nombres globales, conversión a nombres coreanos y transcripción de pronunciación en hangul puede ofrecerse un producto que desbloquea de una sola vez todos los candidatos restantes sin anuncios (US$1.99). Hasta que se active la función de pago, solo se ofrece el desbloqueo mediante anuncios con recompensa.",
             "Los informes detallados de pago, los resultados de análisis y los archivos PDF pueden volver a consultarse y descargarse durante las 24 horas posteriores al pago; transcurrido el periodo de conservación, se eliminan automáticamente.",
             "Los productos físicos, como los artículos de merchandising con nombres coreanos, pueden ofrecerse con precios y condiciones independientes. Para todos los productos de pago, el contenido del producto, el precio, la forma de entrega y las condiciones de reembolso se comunican en pantalla antes del pago.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Desbloqueo de todos los candidatos (₩990)",
+          title: "3. Desbloqueo de todos los candidatos (US$1.99)",
           paragraphs: [
             "El desbloqueo de todos los candidatos en los servicios de conversión a nombres globales, conversión a nombres coreanos y transcripción de pronunciación en hangul es un contenido digital que se entrega inmediatamente tras el pago. La cancelación es posible antes de que comience la consulta de los candidatos; tras la consulta, el reembolso por simple cambio de opinión puede estar limitado.",
             "Si los candidatos no se desbloquean correctamente debido a un error del sistema, se procederá a una nueva entrega o al reembolso.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Desbloqueo de todos los candidatos",
           paragraphs: [
-            "Desbloqueo de una sola vez, sin anuncios, de todos los candidatos restantes en los servicios de conversión a nombres globales, conversión a nombres coreanos y transcripción de pronunciación en hangul: ₩990 (función de pago en preparación)",
+            "Desbloqueo de una sola vez, sin anuncios, de todos los candidatos restantes en los servicios de conversión a nombres globales, conversión a nombres coreanos y transcripción de pronunciación en hangul: US$1.99 (función de pago en preparación)",
           ],
         },
         {

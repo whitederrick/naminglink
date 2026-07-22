@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Pullik xizmatlar",
           paragraphs: [
             "Hanja ma'nosini moslashtirish xizmatining batafsil mahsulotlari quyidagilardan iborat: ① 5 tagacha nomzod uchun batafsil izoh va Hanja bo‘yicha umumiy batafsil tahlil: ₩2,900 (KRW); ② 10 tagacha nomzod uchun kengaytirilgan batafsil izoh, Hanja bo‘yicha umumiy batafsil tahlil va esdalik uchun PDF: ₩4,900; ③ 10 tagacha nomzod uchun batafsil tahlil, Hanja bo‘yicha umumiy batafsil tahlil, Saju (To‘rt ustun) va Besh unsur tahlili hamda esdalik uchun PDF: ₩9,900.",
-            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochib beruvchi mahsulot (₩990) taklif etilishi mumkin. To‘lov funksiyasi ishga tushirilgunga qadar faqat reklama evaziga ko‘rish taqdim etiladi.",
+            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochib beruvchi mahsulot (US$1.99) taklif etilishi mumkin. To‘lov funksiyasi ishga tushirilgunga qadar faqat reklama evaziga ko‘rish taqdim etiladi.",
             "Pullik batafsil hisobotlar, tahlil natijalari va PDF fayllarni to‘lov yakunlangandan so‘ng 24 soat davomida qayta ko‘rish va yuklab olish mumkin; saqlash muddati tugagach, ular avtomatik o‘chiriladi.",
             "Koreyscha ism tushirilgan esdalik buyumlari kabi jismoniy mahsulotlar alohida narx va shartlarda taklif etilishi mumkin. Barcha pullik mahsulotlar bo‘yicha mahsulot mazmuni, narxi, taqdim etish usuli va pulni qaytarish shartlari to‘lovdan oldin ekranda e'lon qilinadi.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Barcha nomzodlarni birdaniga ochish (₩990)",
+          title: "3. Barcha nomzodlarni birdaniga ochish (US$1.99)",
           paragraphs: [
             "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida nomzodlarni birdaniga ochish — to‘lov amalga oshirilishi bilanoq taqdim etiladigan raqamli kontent. Nomzodlarni ko‘rish boshlangunga qadar bekor qilish mumkin; ko‘rish boshlangandan so‘ng shunchaki fikrdan qaytish sababli pulni qaytarish cheklanishi mumkin.",
             "Tizim xatosi tufayli nomzodlar to‘g‘ri ochilmagan bo‘lsa, ular qayta taqdim etiladi yoki pul qaytariladi.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Barcha nomzodlarni birdaniga ochish",
           paragraphs: [
-            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochish: ₩990 (to‘lov funksiyasi tayyorlanmoqda)",
+            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochish: US$1.99 (to‘lov funksiyasi tayyorlanmoqda)",
           ],
         },
         {

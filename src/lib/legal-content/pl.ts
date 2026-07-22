@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Usługi płatne",
           paragraphs: [
             "Usługa dopasowywania znaczeń hanja oferuje następujące produkty szczegółowe: (1) szczegółowe opisy maksymalnie 5 kandydatów oraz kompleksowa analiza hanja: ₩2,900 (KRW); (2) rozszerzone opisy maksymalnie 10 kandydatów, kompleksowa analiza hanja oraz pamiątkowy plik PDF: ₩4,900; (3) szczegóły maksymalnie 10 kandydatów, kompleksowa analiza hanja, analiza saju (Cztery Filary) i Pięciu Żywiołów oraz pamiątkowy plik PDF: ₩9,900.",
-            "W usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul może być oferowany produkt odblokowujący jednorazowo wszystkich pozostałych kandydatów bez reklam (₩990). Do czasu aktywacji funkcji płatności dostępne jest wyłącznie odblokowywanie za obejrzenie reklamy.",
+            "W usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul może być oferowany produkt odblokowujący jednorazowo wszystkich pozostałych kandydatów bez reklam (US$1.99). Do czasu aktywacji funkcji płatności dostępne jest wyłącznie odblokowywanie za obejrzenie reklamy.",
             "Płatne raporty szczegółowe, wyniki analiz i pliki PDF pozostają dostępne do ponownego przeglądania i pobierania przez 24 godziny od dokonania płatności, po czym są automatycznie usuwane.",
             "Produkty fizyczne, takie jak gadżety z imieniem w hangul, mogą być oferowane po odrębnych cenach i na odrębnych warunkach. W przypadku każdego płatnego produktu treść produktu, cena, sposób dostarczenia oraz warunki zwrotu są podawane na ekranie przed dokonaniem płatności.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Jednorazowe odblokowanie wszystkich kandydatów (₩990)",
+          title: "3. Jednorazowe odblokowanie wszystkich kandydatów (US$1.99)",
           paragraphs: [
             "Jednorazowe odblokowanie kandydatów w usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul to treść cyfrowa dostarczana natychmiast po dokonaniu płatności. Anulowanie jest możliwe przed rozpoczęciem przeglądania kandydatów; po rozpoczęciu przeglądania zwrot z powodu zwykłej zmiany zdania może być ograniczony.",
             "Jeżeli z powodu błędu systemu kandydaci nie zostaną prawidłowo odblokowani, zapewniamy ponowne dostarczenie lub zwrot pieniędzy.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Jednorazowe odblokowanie wszystkich kandydatów",
           paragraphs: [
-            "Jednorazowe odblokowanie wszystkich pozostałych kandydatów bez reklam w usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul: ₩990 (funkcja płatności w przygotowaniu)",
+            "Jednorazowe odblokowanie wszystkich pozostałych kandydatów bez reklam w usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul: US$1.99 (funkcja płatności w przygotowaniu)",
           ],
         },
         {

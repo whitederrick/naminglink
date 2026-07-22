@@ -42,12 +42,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Mỗi lần xem quảng cáo sẽ mở thêm một ứng viên với góc nhìn khác.",
     descDefault:
-      "Mỗi lần xem quảng cáo sẽ mở thêm một ứng viên với góc nhìn khác. Tính năng mở toàn bộ ứng viên còn lại với ₩990 sắp ra mắt.",
+      "Mỗi lần xem quảng cáo sẽ mở thêm một ứng viên với góc nhìn khác. Tính năng mở toàn bộ ứng viên còn lại với US$1.99 sắp ra mắt.",
     watchingNote: (seconds) => `Sẽ mở một ứng viên sau quảng cáo. ${seconds} giây`,
     watching: "Đang xem quảng cáo",
     watchButton: "Xem quảng cáo để mở ứng viên tiếp theo",
     hanjaProductsLink: "Xem gói toàn bộ ứng viên · từ ₩2.900",
-    bulkButton: "Mở toàn bộ ứng viên · ₩990 (sắp ra mắt)",
+    bulkButton: "Mở toàn bộ ứng viên · US$1.99 (sắp ra mắt)",
     bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
   },
   th: {
@@ -56,12 +56,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "การชมโฆษณาแต่ละครั้งจะเปิดชื่อที่แนะนำถัดไปอีก 1 รายการจากมุมมองการแนะนำที่ต่างกัน",
     descDefault:
-      "การชมโฆษณาแต่ละครั้งจะเปิดชื่อที่แนะนำถัดไปอีก 1 รายการจากมุมมองการแนะนำที่ต่างกัน ฟีเจอร์ปลดล็อกชื่อที่แนะนำที่เหลือทั้งหมดในครั้งเดียวด้วย ₩990 กำลังจะเปิดเร็ว ๆ นี้",
+      "การชมโฆษณาแต่ละครั้งจะเปิดชื่อที่แนะนำถัดไปอีก 1 รายการจากมุมมองการแนะนำที่ต่างกัน ฟีเจอร์ปลดล็อกชื่อที่แนะนำที่เหลือทั้งหมดในครั้งเดียวด้วย US$1.99 กำลังจะเปิดเร็ว ๆ นี้",
     watchingNote: (seconds) => `จะเปิดชื่อที่แนะนำ 1 รายการหลังชมโฆษณา ${seconds} วินาที`,
     watching: "กำลังชมโฆษณา",
     watchButton: "ชมโฆษณาเพื่อเปิดชื่อที่แนะนำถัดไป",
     hanjaProductsLink: "ดูแพ็กเกจชื่อที่แนะนำทั้งหมด · เริ่มต้น ₩2,900",
-    bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · ₩990 (เร็ว ๆ นี้)",
+    bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · US$1.99 (เร็ว ๆ นี้)",
     bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
   },
   ja: {
@@ -70,12 +70,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "広告を1回確認するごとに、異なる推薦観点の次の候補が1件開きます。",
     descDefault:
-      "広告を1回確認するごとに、異なる推薦観点の次の候補が1件開きます。残りの候補全体を₩990で広告なしで一括公開する機能を準備中です。",
+      "広告を1回確認するごとに、異なる推薦観点の次の候補が1件開きます。残りの候補全体をUS$1.99で広告なしで一括公開する機能を準備中です。",
     watchingNote: (seconds) => `広告の確認後に候補を1件開きます。${seconds}秒`,
     watching: "広告を確認中",
     watchButton: "広告を見て次の候補を開く",
     hanjaProductsLink: "全候補の商品を見る · ₩2,900から",
-    bulkButton: "全候補を一括公開 · ₩990（準備中）",
+    bulkButton: "全候補を一括公開 · US$1.99（準備中）",
     bulkPreparing: "決済機能は準備中です。",
   },
   zh: {
@@ -84,12 +84,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "每观看一次广告，即可解锁下一个不同推荐角度的候选名字。",
     descDefault:
-      "每观看一次广告，即可解锁下一个不同推荐角度的候选名字。以 ₩990 一次性无广告解锁全部剩余候选名字的功能即将上线。",
+      "每观看一次广告，即可解锁下一个不同推荐角度的候选名字。以 US$1.99 一次性无广告解锁全部剩余候选名字的功能即将上线。",
     watchingNote: (seconds) => `观看广告后将解锁 1 个候选名字。${seconds} 秒`,
     watching: "正在观看广告",
     watchButton: "观看广告解锁下一个候选名字",
     hanjaProductsLink: "查看全部候选产品 · ₩2,900 起",
-    bulkButton: "一次性解锁全部候选名字 · ₩990（即将上线）",
+    bulkButton: "一次性解锁全部候选名字 · US$1.99（即将上线）",
     bulkPreparing: "支付功能即将上线。",
   },
   id: {
@@ -98,12 +98,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Setiap kali menonton iklan, satu kandidat berikutnya dengan sudut pandang rekomendasi berbeda akan terbuka.",
     descDefault:
-      "Setiap kali menonton iklan, satu kandidat berikutnya dengan sudut pandang rekomendasi berbeda akan terbuka. Fitur membuka seluruh kandidat tersisa sekaligus seharga ₩990 segera hadir.",
+      "Setiap kali menonton iklan, satu kandidat berikutnya dengan sudut pandang rekomendasi berbeda akan terbuka. Fitur membuka seluruh kandidat tersisa sekaligus seharga US$1.99 segera hadir.",
     watchingNote: (seconds) => `Satu kandidat terbuka setelah iklan. ${seconds} detik`,
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka kandidat berikutnya",
     hanjaProductsLink: "Lihat produk seluruh kandidat · mulai ₩2,900",
-    bulkButton: "Buka seluruh kandidat sekaligus · ₩990 (segera hadir)",
+    bulkButton: "Buka seluruh kandidat sekaligus · US$1.99 (segera hadir)",
     bulkPreparing: "Fitur pembayaran segera hadir.",
   },
   de: {
@@ -112,12 +112,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Mit jeder angesehenen Werbung wird der nächste Kandidat mit einer anderen Empfehlungsperspektive freigeschaltet.",
     descDefault:
-      "Mit jeder angesehenen Werbung wird der nächste Kandidat mit einer anderen Empfehlungsperspektive freigeschaltet. Eine einmalige Freischaltung aller verbleibenden Kandidaten für ₩990 ist in Vorbereitung.",
+      "Mit jeder angesehenen Werbung wird der nächste Kandidat mit einer anderen Empfehlungsperspektive freigeschaltet. Eine einmalige Freischaltung aller verbleibenden Kandidaten für US$1.99 ist in Vorbereitung.",
     watchingNote: (seconds) => `Nach der Werbung wird ein Kandidat freigeschaltet. ${seconds} Sek.`,
     watching: "Werbung läuft",
     watchButton: "Werbung ansehen und nächsten Kandidaten freischalten",
     hanjaProductsLink: "Alle Kandidaten-Produkte ansehen · ab ₩2,900",
-    bulkButton: "Alle Kandidaten freischalten · ₩990 (in Vorbereitung)",
+    bulkButton: "Alle Kandidaten freischalten · US$1.99 (in Vorbereitung)",
     bulkPreparing: "Die Zahlungsfunktion ist in Vorbereitung.",
   },
   es: {
@@ -126,12 +126,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Cada anuncio que ves desbloquea el siguiente candidato con una perspectiva de recomendación distinta.",
     descDefault:
-      "Cada anuncio que ves desbloquea el siguiente candidato con una perspectiva de recomendación distinta. Próximamente podrás desbloquear de una sola vez todos los candidatos restantes por ₩990.",
+      "Cada anuncio que ves desbloquea el siguiente candidato con una perspectiva de recomendación distinta. Próximamente podrás desbloquear de una sola vez todos los candidatos restantes por US$1.99.",
     watchingNote: (seconds) => `Se desbloqueará un candidato tras el anuncio. ${seconds} s`,
     watching: "Viendo el anuncio",
     watchButton: "Ver un anuncio para desbloquear el siguiente candidato",
     hanjaProductsLink: "Ver productos con todos los candidatos · desde ₩2,900",
-    bulkButton: "Desbloquear todos los candidatos · ₩990 (próximamente)",
+    bulkButton: "Desbloquear todos los candidatos · US$1.99 (próximamente)",
     bulkPreparing: "El pago estará disponible próximamente.",
   },
   fr: {
@@ -140,12 +140,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Chaque publicité regardée dévoile le candidat suivant, avec une perspective de recommandation différente.",
     descDefault:
-      "Chaque publicité regardée dévoile le candidat suivant, avec une perspective de recommandation différente. Un déblocage unique de tous les candidats restants pour ₩990 arrive bientôt.",
+      "Chaque publicité regardée dévoile le candidat suivant, avec une perspective de recommandation différente. Un déblocage unique de tous les candidats restants pour US$1.99 arrive bientôt.",
     watchingNote: (seconds) => `Un candidat sera dévoilé après la publicité. ${seconds} s`,
     watching: "Publicité en cours",
     watchButton: "Regarder une publicité pour dévoiler le candidat suivant",
     hanjaProductsLink: "Voir les offres tous candidats · à partir de ₩2,900",
-    bulkButton: "Débloquer tous les candidats · ₩990 (bientôt)",
+    bulkButton: "Débloquer tous les candidats · US$1.99 (bientôt)",
     bulkPreparing: "Le paiement sera bientôt disponible.",
   },
   it: {
@@ -154,12 +154,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Ogni annuncio guardato sblocca il candidato successivo, con una prospettiva di raccomandazione diversa.",
     descDefault:
-      "Ogni annuncio guardato sblocca il candidato successivo, con una prospettiva di raccomandazione diversa. Presto potrai sbloccare in una sola volta tutti i candidati rimanenti per ₩990.",
+      "Ogni annuncio guardato sblocca il candidato successivo, con una prospettiva di raccomandazione diversa. Presto potrai sbloccare in una sola volta tutti i candidati rimanenti per US$1.99.",
     watchingNote: (seconds) => `Un candidato verrà sbloccato dopo l'annuncio. ${seconds} s`,
     watching: "Annuncio in corso",
     watchButton: "Guarda un annuncio per sbloccare il prossimo candidato",
     hanjaProductsLink: "Vedi i prodotti con tutti i candidati · da ₩2,900",
-    bulkButton: "Sblocca tutti i candidati · ₩990 (in arrivo)",
+    bulkButton: "Sblocca tutti i candidati · US$1.99 (in arrivo)",
     bulkPreparing: "Il pagamento sarà presto disponibile.",
   },
   pt: {
@@ -168,12 +168,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Cada anúncio assistido revela o próximo candidato, com uma perspectiva de recomendação diferente.",
     descDefault:
-      "Cada anúncio assistido revela o próximo candidato, com uma perspectiva de recomendação diferente. Em breve você poderá desbloquear de uma só vez todos os candidatos restantes por ₩990.",
+      "Cada anúncio assistido revela o próximo candidato, com uma perspectiva de recomendação diferente. Em breve você poderá desbloquear de uma só vez todos os candidatos restantes por US$1.99.",
     watchingNote: (seconds) => `Um candidato será revelado após o anúncio. ${seconds} s`,
     watching: "Assistindo ao anúncio",
     watchButton: "Assistir a um anúncio para revelar o próximo candidato",
     hanjaProductsLink: "Ver produtos com todos os candidatos · a partir de ₩2,900",
-    bulkButton: "Desbloquear todos os candidatos · ₩990 (em breve)",
+    bulkButton: "Desbloquear todos os candidatos · US$1.99 (em breve)",
     bulkPreparing: "O pagamento estará disponível em breve.",
   },
   ru: {
@@ -182,12 +182,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Каждый просмотр рекламы открывает следующий вариант с другой точкой зрения рекомендации.",
     descDefault:
-      "Каждый просмотр рекламы открывает следующий вариант с другой точкой зрения рекомендации. Скоро появится разовая разблокировка всех оставшихся вариантов за ₩990.",
+      "Каждый просмотр рекламы открывает следующий вариант с другой точкой зрения рекомендации. Скоро появится разовая разблокировка всех оставшихся вариантов за US$1.99.",
     watchingNote: (seconds) => `После рекламы откроется один вариант. ${seconds} с`,
     watching: "Просмотр рекламы",
     watchButton: "Посмотреть рекламу и открыть следующий вариант",
     hanjaProductsLink: "Смотреть продукты со всеми вариантами · от ₩2,900",
-    bulkButton: "Открыть все варианты · ₩990 (скоро)",
+    bulkButton: "Открыть все варианты · US$1.99 (скоро)",
     bulkPreparing: "Оплата скоро появится.",
   },
   ar: {
@@ -196,12 +196,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "كل إعلان تشاهده يكشف المرشح التالي من منظور توصية مختلف.",
     descDefault:
-      "كل إعلان تشاهده يكشف المرشح التالي من منظور توصية مختلف. قريبًا: فتح جميع المرشحات المتبقية دفعة واحدة مقابل ₩990.",
+      "كل إعلان تشاهده يكشف المرشح التالي من منظور توصية مختلف. قريبًا: فتح جميع المرشحات المتبقية دفعة واحدة مقابل US$1.99.",
     watchingNote: (seconds) => `سيُكشف مرشح واحد بعد الإعلان. ${seconds} ثانية`,
     watching: "جارٍ مشاهدة الإعلان",
     watchButton: "شاهد إعلانًا لكشف المرشح التالي",
     hanjaProductsLink: "عرض منتجات جميع المرشحات · ابتداءً من ₩2,900",
-    bulkButton: "فتح جميع المرشحات · ₩990 (قريبًا)",
+    bulkButton: "فتح جميع المرشحات · US$1.99 (قريبًا)",
     bulkPreparing: "الدفع متاح قريبًا.",
   },
   tr: {
@@ -210,12 +210,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "İzlediğiniz her reklam, farklı bir öneri bakış açısına sahip bir sonraki adayı açar.",
     descDefault:
-      "İzlediğiniz her reklam, farklı bir öneri bakış açısına sahip bir sonraki adayı açar. Kalan tüm adayları ₩990 karşılığında tek seferde açma özelliği yakında geliyor.",
+      "İzlediğiniz her reklam, farklı bir öneri bakış açısına sahip bir sonraki adayı açar. Kalan tüm adayları US$1.99 karşılığında tek seferde açma özelliği yakında geliyor.",
     watchingNote: (seconds) => `Reklamdan sonra bir aday açılacak. ${seconds} sn`,
     watching: "Reklam izleniyor",
     watchButton: "Bir sonraki adayı açmak için reklam izleyin",
     hanjaProductsLink: "Tüm aday ürünlerini gör · ₩2,900'dan itibaren",
-    bulkButton: "Tüm adayları aç · ₩990 (yakında)",
+    bulkButton: "Tüm adayları aç · US$1.99 (yakında)",
     bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
   },
   fil: {
@@ -224,12 +224,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Bawat ad na pinapanood mo ay nagbubukas ng susunod na kandidato mula sa ibang pananaw ng rekomendasyon.",
     descDefault:
-      "Bawat ad na pinapanood mo ay nagbubukas ng susunod na kandidato mula sa ibang pananaw ng rekomendasyon. Malapit na ang isang beses na pagbubukas ng lahat ng natitirang kandidato sa halagang ₩990.",
+      "Bawat ad na pinapanood mo ay nagbubukas ng susunod na kandidato mula sa ibang pananaw ng rekomendasyon. Malapit na ang isang beses na pagbubukas ng lahat ng natitirang kandidato sa halagang US$1.99.",
     watchingNote: (seconds) => `Magbubukas ng isang kandidato pagkatapos ng ad. ${seconds} segundo`,
     watching: "Nanonood ng ad",
     watchButton: "Manood ng ad para buksan ang susunod na kandidato",
     hanjaProductsLink: "Tingnan ang mga produkto ng buong kandidato · mula ₩2,900",
-    bulkButton: "Buksan ang lahat ng kandidato · ₩990 (malapit na)",
+    bulkButton: "Buksan ang lahat ng kandidato · US$1.99 (malapit na)",
     bulkPreparing: "Malapit nang magbukas ang pagbabayad.",
   },
   uz: {
@@ -238,12 +238,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Har bir ko‘rilgan reklama boshqacha tavsiya nuqtai nazaridagi navbatdagi nomzodni ochadi.",
     descDefault:
-      "Har bir ko‘rilgan reklama boshqacha tavsiya nuqtai nazaridagi navbatdagi nomzodni ochadi. Qolgan barcha nomzodlarni ₩990 evaziga bir vaqtda ochish imkoniyati tez orada ishga tushadi.",
+      "Har bir ko‘rilgan reklama boshqacha tavsiya nuqtai nazaridagi navbatdagi nomzodni ochadi. Qolgan barcha nomzodlarni US$1.99 evaziga bir vaqtda ochish imkoniyati tez orada ishga tushadi.",
     watchingNote: (seconds) => `Reklamadan so‘ng bitta nomzod ochiladi. ${seconds} soniya`,
     watching: "Reklama ko‘rilmoqda",
     watchButton: "Navbatdagi nomzodni ochish uchun reklama ko‘ring",
     hanjaProductsLink: "Barcha nomzodli mahsulotlarni ko‘rish · ₩2,900 dan",
-    bulkButton: "Barcha nomzodlarni ochish · ₩990 (tez orada)",
+    bulkButton: "Barcha nomzodlarni ochish · US$1.99 (tez orada)",
     bulkPreparing: "To‘lov tez orada ishga tushadi.",
   },
   mn: {
@@ -252,12 +252,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Зар үзэх бүрд өөр өнцгөөс санал болгосон дараагийн нэрийн хувилбар нэг нэгээр нээгдэнэ.",
     descDefault:
-      "Зар үзэх бүрд өөр өнцгөөс санал болгосон дараагийн нэрийн хувилбар нэг нэгээр нээгдэнэ. Үлдсэн бүх хувилбарыг ₩990-өөр нэг дор нээх боломж тун удахгүй нэмэгдэнэ.",
+      "Зар үзэх бүрд өөр өнцгөөс санал болгосон дараагийн нэрийн хувилбар нэг нэгээр нээгдэнэ. Үлдсэн бүх хувилбарыг US$1.99-өөр нэг дор нээх боломж тун удахгүй нэмэгдэнэ.",
     watchingNote: (seconds) => `Зар үзсэний дараа нэг хувилбар нээгдэнэ. ${seconds} секунд`,
     watching: "Зар үзэж байна",
     watchButton: "Зар үзээд дараагийн хувилбарыг нээх",
     hanjaProductsLink: "Бүх хувилбарын бүтээгдэхүүнийг үзэх · ₩2,900-с эхэлнэ",
-    bulkButton: "Бүх хувилбарыг нэг дор нээх · ₩990 (тун удахгүй)",
+    bulkButton: "Бүх хувилбарыг нэг дор нээх · US$1.99 (тун удахгүй)",
     bulkPreparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
   },
   hi: {
@@ -266,12 +266,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "हर विज्ञापन देखने पर एक अलग सिफ़ारिश दृष्टिकोण वाला अगला उम्मीदवार नाम खुलता है।",
     descDefault:
-      "हर विज्ञापन देखने पर एक अलग सिफ़ारिश दृष्टिकोण वाला अगला उम्मीदवार नाम खुलता है। ₩990 में बचे हुए सभी उम्मीदवार नाम एक साथ अनलॉक करने की सुविधा जल्द आ रही है।",
+      "हर विज्ञापन देखने पर एक अलग सिफ़ारिश दृष्टिकोण वाला अगला उम्मीदवार नाम खुलता है। US$1.99 में बचे हुए सभी उम्मीदवार नाम एक साथ अनलॉक करने की सुविधा जल्द आ रही है।",
     watchingNote: (seconds) => `विज्ञापन के बाद एक उम्मीदवार नाम खुलेगा। ${seconds} सेकंड`,
     watching: "विज्ञापन देखा जा रहा है",
     watchButton: "अगला उम्मीदवार नाम खोलने के लिए विज्ञापन देखें",
     hanjaProductsLink: "सभी उम्मीदवार नामों के प्रोडक्ट देखें · ₩2,900 से",
-    bulkButton: "सभी उम्मीदवार नाम अनलॉक करें · ₩990 (जल्द आ रहा है)",
+    bulkButton: "सभी उम्मीदवार नाम अनलॉक करें · US$1.99 (जल्द आ रहा है)",
     bulkPreparing: "भुगतान सुविधा जल्द आ रही है।",
   },
   km: {
@@ -280,12 +280,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "រាល់ការមើលពាណិជ្ជកម្មម្តង នឹងបើកបេក្ខឈ្មោះបន្ទាប់មួយ ដែលមានទស្សនៈណែនាំខុសគ្នា។",
     descDefault:
-      "រាល់ការមើលពាណិជ្ជកម្មម្តង នឹងបើកបេក្ខឈ្មោះបន្ទាប់មួយ ដែលមានទស្សនៈណែនាំខុសគ្នា។ មុខងារបើកបេក្ខឈ្មោះដែលនៅសល់ទាំងអស់ក្នុងតម្លៃ ₩990 នឹងមកដល់ឆាប់ៗនេះ។",
+      "រាល់ការមើលពាណិជ្ជកម្មម្តង នឹងបើកបេក្ខឈ្មោះបន្ទាប់មួយ ដែលមានទស្សនៈណែនាំខុសគ្នា។ មុខងារបើកបេក្ខឈ្មោះដែលនៅសល់ទាំងអស់ក្នុងតម្លៃ US$1.99 នឹងមកដល់ឆាប់ៗនេះ។",
     watchingNote: (seconds) => `បេក្ខឈ្មោះមួយនឹងបើកបន្ទាប់ពីពាណិជ្ជកម្ម។ ${seconds} វិនាទី`,
     watching: "កំពុងមើលពាណិជ្ជកម្ម",
     watchButton: "មើលពាណិជ្ជកម្មដើម្បីបើកបេក្ខឈ្មោះបន្ទាប់",
     hanjaProductsLink: "មើលផលិតផលបេក្ខឈ្មោះទាំងអស់ · ចាប់ពី ₩2,900",
-    bulkButton: "បើកបេក្ខឈ្មោះទាំងអស់ · ₩990 (ឆាប់ៗនេះ)",
+    bulkButton: "បើកបេក្ខឈ្មោះទាំងអស់ · US$1.99 (ឆាប់ៗនេះ)",
     bulkPreparing: "មុខងារទូទាត់នឹងមកដល់ឆាប់ៗនេះ។",
   },
   kk: {
@@ -294,12 +294,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Әр жарнаманы көрген сайын басқа ұсыныс көзқарасындағы келесі есім нұсқасы ашылады.",
     descDefault:
-      "Әр жарнаманы көрген сайын басқа ұсыныс көзқарасындағы келесі есім нұсқасы ашылады. Қалған барлық нұсқаны ₩990-ға бір сәтте ашу мүмкіндігі жақында қосылады.",
+      "Әр жарнаманы көрген сайын басқа ұсыныс көзқарасындағы келесі есім нұсқасы ашылады. Қалған барлық нұсқаны US$1.99-ға бір сәтте ашу мүмкіндігі жақында қосылады.",
     watchingNote: (seconds) => `Жарнамадан кейін бір нұсқа ашылады. ${seconds} секунд`,
     watching: "Жарнама көрсетілуде",
     watchButton: "Келесі нұсқаны ашу үшін жарнама көріңіз",
     hanjaProductsLink: "Барлық нұсқа қамтылған өнімдерді көру · ₩2,900-ден бастап",
-    bulkButton: "Барлық нұсқаны бірден ашу · ₩990 (жақында)",
+    bulkButton: "Барлық нұсқаны бірден ашу · US$1.99 (жақында)",
     bulkPreparing: "Төлем мүмкіндігі жақында қосылады.",
   },
   ms: {
@@ -308,12 +308,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Setiap iklan yang anda tonton membuka calon seterusnya dengan perspektif cadangan yang berbeza.",
     descDefault:
-      "Setiap iklan yang anda tonton membuka calon seterusnya dengan perspektif cadangan yang berbeza. Ciri membuka semua calon yang berbaki sekali gus dengan ₩990 akan datang tidak lama lagi.",
+      "Setiap iklan yang anda tonton membuka calon seterusnya dengan perspektif cadangan yang berbeza. Ciri membuka semua calon yang berbaki sekali gus dengan US$1.99 akan datang tidak lama lagi.",
     watchingNote: (seconds) => `Satu calon akan dibuka selepas iklan. ${seconds} saat`,
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka calon seterusnya",
     hanjaProductsLink: "Lihat produk semua calon · dari ₩2,900",
-    bulkButton: "Buka semua calon sekali gus · ₩990 (akan datang)",
+    bulkButton: "Buka semua calon sekali gus · US$1.99 (akan datang)",
     bulkPreparing: "Fungsi pembayaran akan datang tidak lama lagi.",
   },
   pl: {
@@ -322,12 +322,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Każda obejrzana reklama odblokowuje kolejnego kandydata z innej perspektywy rekomendacji.",
     descDefault:
-      "Każda obejrzana reklama odblokowuje kolejnego kandydata z innej perspektywy rekomendacji. Wkrótce będzie można jednorazowo odblokować wszystkich pozostałych kandydatów za ₩990.",
+      "Każda obejrzana reklama odblokowuje kolejnego kandydata z innej perspektywy rekomendacji. Wkrótce będzie można jednorazowo odblokować wszystkich pozostałych kandydatów za US$1.99.",
     watchingNote: (seconds) => `Po reklamie odblokujemy jednego kandydata. ${seconds} s`,
     watching: "Trwa reklama",
     watchButton: "Obejrzyj reklamę, aby odblokować kolejnego kandydata",
     hanjaProductsLink: "Zobacz produkty ze wszystkimi kandydatami · od ₩2,900",
-    bulkButton: "Odblokuj wszystkich kandydatów · ₩990 (wkrótce)",
+    bulkButton: "Odblokuj wszystkich kandydatów · US$1.99 (wkrótce)",
     bulkPreparing: "Płatności będą dostępne wkrótce.",
   },
   en: {
@@ -336,12 +336,12 @@ const unlockCopies: Record<string, UnlockCopy> = {
     descHanja:
       "Each ad you watch reveals the next candidate with a different perspective.",
     descDefault:
-      "Each ad you watch reveals the next candidate with a different perspective. A one-time ₩990 unlock for all remaining candidates is coming soon.",
+      "Each ad you watch reveals the next candidate with a different perspective. A one-time US$1.99 unlock for all remaining candidates is coming soon.",
     watchingNote: (seconds) => `Revealing one candidate after the ad. ${seconds}s`,
     watching: "Watching ad",
     watchButton: "Watch an ad to reveal the next candidate",
     hanjaProductsLink: "View full candidate products · from ₩2,900",
-    bulkButton: "Unlock all candidates · ₩990 (coming soon)",
+    bulkButton: "Unlock all candidates · US$1.99 (coming soon)",
     bulkPreparing: "Payment is coming soon.",
   },
 };

@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Layanan Berbayar",
           paragraphs: [
             "Produk detail dari layanan pencocokan makna Hanja adalah sebagai berikut: (1) penjelasan detail untuk maksimal 5 kandidat beserta analisis Hanja komprehensif: ₩2,900 (KRW); (2) penjelasan detail yang diperluas untuk maksimal 10 kandidat, analisis Hanja komprehensif, dan PDF koleksi: ₩4,900; (3) detail untuk maksimal 10 kandidat, analisis Hanja komprehensif, analisis Saju (Empat Pilar) dan Lima Elemen, serta PDF koleksi: ₩9,900.",
-            "Pada layanan konversi nama global, konversi nama Korea, dan transkripsi pelafalan Hangul, dapat ditawarkan produk yang membuka seluruh kandidat tersisa sekaligus tanpa iklan (₩990). Sebelum fitur pembayaran diaktifkan, kandidat hanya dapat dibuka melalui imbalan iklan.",
+            "Pada layanan konversi nama global, konversi nama Korea, dan transkripsi pelafalan Hangul, dapat ditawarkan produk yang membuka seluruh kandidat tersisa sekaligus tanpa iklan (US$1.99). Sebelum fitur pembayaran diaktifkan, kandidat hanya dapat dibuka melalui imbalan iklan.",
             "Laporan detail berbayar, hasil analisis, dan berkas PDF dapat dilihat dan diunduh kembali selama 24 jam setelah pembayaran selesai, dan akan dihapus secara otomatis setelah masa penyimpanan berakhir.",
             "Produk fisik seperti merchandise nama Korea dapat ditawarkan dengan harga dan ketentuan tersendiri. Untuk setiap produk berbayar, isi produk, harga, cara penyediaan, dan ketentuan pengembalian dana diberitahukan di layar sebelum pembayaran.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Pembukaan Seluruh Kandidat Sekaligus (₩990)",
+          title: "3. Pembukaan Seluruh Kandidat Sekaligus (US$1.99)",
           paragraphs: [
             "Pembukaan seluruh kandidat pada layanan konversi nama global, konversi nama Korea, dan transkripsi pelafalan Hangul merupakan konten digital yang disediakan segera setelah pembayaran. Pembatalan dapat dilakukan sebelum penayangan kandidat dimulai; setelah ditayangkan, pengembalian dana karena perubahan pikiran semata dapat dibatasi.",
             "Apabila kandidat tidak terbuka dengan benar akibat kesalahan sistem, kami akan menyediakannya kembali atau mengembalikan dana.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Pembukaan Seluruh Kandidat Sekaligus",
           paragraphs: [
-            "Membuka seluruh kandidat tersisa sekaligus tanpa iklan pada layanan konversi nama global, konversi nama Korea, dan transkripsi pelafalan Hangul: ₩990 (fitur pembayaran dalam persiapan)",
+            "Membuka seluruh kandidat tersisa sekaligus tanpa iklan pada layanan konversi nama global, konversi nama Korea, dan transkripsi pelafalan Hangul: US$1.99 (fitur pembayaran dalam persiapan)",
           ],
         },
         {

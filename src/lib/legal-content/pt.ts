@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Serviços Pagos",
           paragraphs: [
             "O serviço de correspondência de significados de hanja oferece os seguintes produtos detalhados: (1) explicações detalhadas de até 5 candidatos e análise abrangente de hanja: ₩2,900 (KRW); (2) explicações detalhadas ampliadas de até 10 candidatos, análise abrangente de hanja e PDF para colecionar: ₩4,900; (3) detalhes de até 10 candidatos, análise abrangente de hanja, análise de saju (Quatro Pilares) e os Cinco Elementos, e PDF para colecionar: ₩9,900.",
-            "Nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em hangul, poderá ser oferecido um produto que revela de uma só vez, sem anúncios, todos os candidatos restantes (₩990). Antes da ativação das funcionalidades de pagamento, é oferecido apenas o desbloqueio mediante recompensa por anúncios.",
+            "Nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em hangul, poderá ser oferecido um produto que revela de uma só vez, sem anúncios, todos os candidatos restantes (US$1.99). Antes da ativação das funcionalidades de pagamento, é oferecido apenas o desbloqueio mediante recompensa por anúncios.",
             "Os relatórios detalhados pagos, os resultados de análise e os arquivos PDF podem ser visualizados e baixados novamente por 24 horas após a conclusão do pagamento e são excluídos automaticamente ao término do período de retenção.",
             "Produtos físicos, como produtos personalizados com nomes coreanos, podem ser oferecidos com preços e condições próprios. Para todo produto pago, o conteúdo do produto, o preço, a forma de entrega e as condições de reembolso são informados na tela antes do pagamento.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Revelação de Todos os Candidatos (₩990)",
+          title: "3. Revelação de Todos os Candidatos (US$1.99)",
           paragraphs: [
             "A revelação de todos os candidatos nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em hangul é um conteúdo digital fornecido imediatamente após o pagamento. O cancelamento é possível antes do início da visualização dos candidatos; após a visualização, o reembolso por simples desistência poderá ser restringido.",
             "Se os candidatos não forem revelados corretamente devido a um erro do sistema, o fornecimento será refeito ou o valor será reembolsado.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Revelação de Todos os Candidatos",
           paragraphs: [
-            "Revelação de todos os candidatos restantes de uma só vez, sem anúncios, nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em hangul: ₩990 (funcionalidade de pagamento em preparação)",
+            "Revelação de todos os candidatos restantes de uma só vez, sem anúncios, nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em hangul: US$1.99 (funcionalidade de pagamento em preparação)",
           ],
         },
         {

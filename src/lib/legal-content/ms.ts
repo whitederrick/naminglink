@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Perkhidmatan Berbayar",
           paragraphs: [
             "Produk terperinci bagi perkhidmatan pemadanan makna Hanja adalah seperti berikut: (1) penerangan terperinci bagi sehingga 5 calon serta analisis Hanja komprehensif: ₩2,900 (KRW); (2) penerangan terperinci lanjutan bagi sehingga 10 calon, analisis Hanja komprehensif, dan PDF untuk simpanan: ₩4,900; (3) butiran bagi sehingga 10 calon, analisis Hanja komprehensif, analisis Saju (Empat Tiang) dan Lima Unsur, serta PDF untuk simpanan: ₩9,900.",
-            "Dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul, produk yang membuka semua calon yang berbaki sekali gus tanpa iklan (₩990) mungkin disediakan. Sebelum fungsi pembayaran diaktifkan, hanya pembukaan melalui ganjaran iklan disediakan.",
+            "Dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul, produk yang membuka semua calon yang berbaki sekali gus tanpa iklan (US$1.99) mungkin disediakan. Sebelum fungsi pembayaran diaktifkan, hanya pembukaan melalui ganjaran iklan disediakan.",
             "Laporan terperinci berbayar, hasil analisis, dan fail PDF boleh dilihat serta dimuat turun semula selama 24 jam selepas pembayaran selesai, dan akan dipadamkan secara automatik setelah tempoh simpanan tamat.",
             "Produk fizikal seperti barangan cenderamata nama Hangul mungkin ditawarkan dengan harga dan syarat berasingan. Bagi semua produk berbayar, butiran produk, harga, kaedah penyediaan, dan syarat bayaran balik akan dimaklumkan pada skrin sebelum pembayaran.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Pembukaan Semua Calon Sekali Gus (₩990)",
+          title: "3. Pembukaan Semua Calon Sekali Gus (US$1.99)",
           paragraphs: [
             "Pembukaan semua calon sekali gus dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul ialah kandungan digital yang disediakan serta-merta sebaik pembayaran dibuat. Pembatalan boleh dibuat sebelum paparan calon bermula; selepas paparan, bayaran balik atas sebab perubahan fikiran semata-mata boleh disekat.",
             "Sekiranya calon tidak dibuka dengan sewajarnya akibat ralat sistem, kami akan menyediakannya semula atau memberikan bayaran balik.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Pembukaan Semua Calon Sekali Gus",
           paragraphs: [
-            "Membuka semua calon yang berbaki sekali gus tanpa iklan dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul: ₩990 (fungsi pembayaran dalam persediaan)",
+            "Membuka semua calon yang berbaki sekali gus tanpa iklan dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul: US$1.99 (fungsi pembayaran dalam persediaan)",
           ],
         },
         {

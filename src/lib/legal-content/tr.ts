@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Ücretli Hizmetler",
           paragraphs: [
             "Hanja anlam eşleştirme hizmetinin ayrıntılı ürünleri şunlardır: (1) En fazla 5 aday için ayrıntılı açıklama ve kapsamlı Hanja analizi: ₩2,900 (KRW); (2) en fazla 10 aday için genişletilmiş ayrıntılı açıklama, kapsamlı Hanja analizi ve saklanabilir PDF: ₩4,900; (3) en fazla 10 aday için ayrıntılı açıklama, kapsamlı Hanja analizi, Saju (Dört Sütun) ve Beş Element analizi ve saklanabilir PDF: ₩9,900.",
-            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde, kalan tüm adayları reklamsız olarak tek seferde açan bir ürün (₩990) sunulabilir. Ödeme özellikleri etkinleştirilene kadar yalnızca reklam ödüllü görüntüleme sağlanır.",
+            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde, kalan tüm adayları reklamsız olarak tek seferde açan bir ürün (US$1.99) sunulabilir. Ödeme özellikleri etkinleştirilene kadar yalnızca reklam ödüllü görüntüleme sağlanır.",
             "Ücretli ayrıntılı raporlar, analiz sonuçları ve PDF dosyaları, ödemenin tamamlanmasından sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
             "Korece isim hediyelik ürünleri gibi fiziksel ürünler ayrı fiyat ve koşullarla sunulabilir. Tüm ücretli ürünlerde ürün içeriği, fiyat, teslim yöntemi ve iade koşulları ödeme öncesinde ekranda bildirilir.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Tüm Adayların Tek Seferde Açılması (₩990)",
+          title: "3. Tüm Adayların Tek Seferde Açılması (US$1.99)",
           paragraphs: [
             "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde adayların topluca açılması, ödemenin hemen ardından sunulan dijital bir içeriktir. Aday görüntüleme başlamadan önce iptal mümkündür; görüntüleme başladıktan sonra yalnızca fikir değişikliğine dayanan iadeler kısıtlanabilir.",
             "Adayların sistem hatası nedeniyle düzgün biçimde açılmaması hâlinde içerik yeniden sunulur veya ücret iade edilir.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Tüm Adayların Tek Seferde Açılması",
           paragraphs: [
-            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde kalan tüm adayların reklamsız olarak tek seferde açılması: ₩990 (ödeme özelliği hazırlık aşamasındadır)",
+            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde kalan tüm adayların reklamsız olarak tek seferde açılması: US$1.99 (ödeme özelliği hazırlık aşamasındadır)",
           ],
         },
         {

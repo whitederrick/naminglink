@@ -37,7 +37,7 @@ const content: LegalLocaleContent = {
           title: "4. Mga Bayad na Serbisyo",
           paragraphs: [
             "Ang mga detalyadong produkto ng serbisyo ng pagtutugma ng kahulugan ng Hanja ay ang mga sumusunod: (1) detalyadong paliwanag para sa hanggang 5 kandidato at komprehensibong detalyadong pagsusuri ng Hanja: ₩2,900 (KRW); (2) pinalawak na detalyadong paliwanag para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, at PDF na maiingatan: ₩4,900; (3) detalye para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, pagsusuri ng Saju (Apat na Haligi) at Limang Elemento, at PDF na maiingatan: ₩9,900.",
-            "Sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul, maaaring ialok ang isang produkto na nagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad (₩990). Bago ma-activate ang feature ng pagbabayad, pagbubukas sa pamamagitan lamang ng ad reward ang ibinibigay.",
+            "Sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul, maaaring ialok ang isang produkto na nagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad (US$1.99). Bago ma-activate ang feature ng pagbabayad, pagbubukas sa pamamagitan lamang ng ad reward ang ibinibigay.",
             "Ang mga bayad na detalyadong report, resulta ng pagsusuri, at PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos makumpleto ang pagbabayad, at awtomatikong ide-delete pagkalipas ng panahon ng pag-iingat.",
             "Ang mga pisikal na produkto tulad ng merchandise ng pangalang Hangul ay maaaring ialok sa hiwalay na presyo at kondisyon. Para sa lahat ng bayad na produkto, ipinapaalam sa screen bago ang pagbabayad ang nilalaman ng produkto, presyo, paraan ng paghahatid, at mga kondisyon sa refund.",
           ],
@@ -141,7 +141,7 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "3. Sabay-sabay na Pagbubukas ng Lahat ng Kandidato (₩990)",
+          title: "3. Sabay-sabay na Pagbubukas ng Lahat ng Kandidato (US$1.99)",
           paragraphs: [
             "Ang sabay-sabay na pagbubukas ng mga kandidato sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul ay digital na content na ibinibigay kaagad pagkatapos ng pagbabayad. Maaaring kanselahin bago magsimula ang pagtingin sa mga kandidato; pagkatapos ng pagtingin, maaaring paghigpitan ang refund dahil sa simpleng pagbabago ng isip.",
             "Kung hindi maayos na naibukas ang mga kandidato dahil sa error ng system, ipoproseso ito sa pamamagitan ng muling pagbibigay o refund.",
@@ -195,7 +195,7 @@ const content: LegalLocaleContent = {
         {
           title: "Sabay-sabay na Pagbubukas ng Lahat ng Kandidato",
           paragraphs: [
-            "Pagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul: ₩990 (inihahanda pa ang feature ng pagbabayad)",
+            "Pagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul: US$1.99 (inihahanda pa ang feature ng pagbabayad)",
           ],
         },
         {
