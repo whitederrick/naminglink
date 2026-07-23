@@ -7,6 +7,7 @@ import {
   CANDIDATE_UNLOCK_REGIONS,
   getCandidateUnlockProduct,
 } from "@/lib/unlock-products";
+import { displayPrice, getProductSetting } from "@/lib/product-settings";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import {
@@ -51,6 +52,15 @@ export async function POST(request: NextRequest) {
   }
 
   const product = getCandidateUnlockProduct(parsed.data.region);
+  // 가격·통화는 관리자 조정형 상품 설정에서 읽는다.
+  let setting;
+  try {
+    setting = await getProductSetting(
+      parsed.data.region === "global" ? "CANDIDATE_UNLOCK_USD" : "CANDIDATE_UNLOCK_KRW",
+    );
+  } catch {
+    return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
+  }
   const portone = getPortOnePublicConfig(product.channel);
   const supabase = getSupabaseAdminClient();
   if (!portone || !process.env.PORTONE_API_SECRET) {
@@ -74,8 +84,8 @@ export async function POST(request: NextRequest) {
       order_type: product.orderType,
       customer_email: user?.email ?? null,
       payment_status: "UNPAID",
-      payment_amount: product.amount,
-      payment_currency: product.currency,
+      payment_amount: setting.amount,
+      payment_currency: setting.currency,
       fulfillment_status: "PENDING",
       provider_payment_id: paymentId,
       metadata: {
@@ -97,9 +107,9 @@ export async function POST(request: NextRequest) {
         payMethod: portone.payMethod,
         uiType: product.uiType,
         orderName: product.orderName,
-        totalAmount: product.amount,
-        currency: product.currency,
-        display: product.display,
+        totalAmount: setting.amount,
+        currency: setting.currency,
+        display: displayPrice(setting),
       },
     });
   } catch (error) {

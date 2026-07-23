@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { GLOBAL_PREMIUM_PRODUCTS } from "@/lib/global-products";
+import { displayPrice, getProductSetting } from "@/lib/product-settings";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { getPortOnePublicConfig } from "@/lib/portone";
 import { createPremiumReportAccess } from "@/lib/premium-reports";
@@ -52,7 +53,9 @@ const artCandidateSchema = z.object({
 const schema = z.object({
   product: z.enum(["GLOBAL_NAME_PDF", "HANGUL_ART_PDF"]).default("GLOBAL_NAME_PDF"),
   inputFactors: z.record(z.string(), z.unknown()),
-  candidate: z.record(z.string(), z.unknown()),
+  // GLOBAL_NAME_PDF: 전체 후보(1~5개) / HANGUL_ART_PDF: 선택 후보 1개.
+  candidate: z.record(z.string(), z.unknown()).optional(),
+  candidates: z.array(z.record(z.string(), z.unknown())).min(1).max(5).optional(),
   locale: z.string().trim().max(10).optional(),
 });
 
@@ -86,11 +89,23 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: sizeError }, { status: 400 });
   }
   const product = GLOBAL_PREMIUM_PRODUCTS[parsed.data.product];
-  const candidateParsed = (
-    product.code === "HANGUL_ART_PDF" ? artCandidateSchema : nameCandidateSchema
-  ).safeParse(parsed.data.candidate);
-  if (!candidateParsed.success) {
+  const candidatePayload =
+    product.code === "HANGUL_ART_PDF"
+      ? artCandidateSchema.safeParse(parsed.data.candidate)
+      : z
+          .array(nameCandidateSchema)
+          .min(1)
+          .max(5)
+          .safeParse(parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []));
+  if (!candidatePayload.success) {
     return NextResponse.json({ ok: false, error: "주문 정보가 올바르지 않습니다." }, { status: 400 });
+  }
+  // 가격·통화·서체 수는 관리자 조정형 상품 설정에서 읽는다.
+  let setting;
+  try {
+    setting = await getProductSetting(product.code);
+  } catch {
+    return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }
 
   const portone = getPortOnePublicConfig(product.channel);
@@ -121,8 +136,8 @@ export async function POST(request: NextRequest) {
       order_type: product.orderType,
       customer_email: user?.email ?? null,
       payment_status: "UNPAID",
-      payment_amount: product.amount,
-      payment_currency: product.currency,
+      payment_amount: setting.amount,
+      payment_currency: setting.currency,
       fulfillment_status: "PENDING",
       provider_payment_id: paymentId,
       metadata: { provider: "PORTONE_V2", sessionId, productCode: product.code },
@@ -136,12 +151,14 @@ export async function POST(request: NextRequest) {
       service_type: product.serviceType,
       status: "PENDING_PAYMENT",
       product_code: product.code,
-      price_amount: product.amount,
-      currency: product.currency,
+      price_amount: setting.amount,
+      currency: setting.currency,
       access_token_hash: access.tokenHash,
       input_payload: {
         inputFactors: parsed.data.inputFactors,
-        candidate: candidateParsed.data,
+        ...(product.code === "HANGUL_ART_PDF"
+          ? { candidate: candidatePayload.data }
+          : { candidates: candidatePayload.data }),
         outputLanguage,
         productCode: product.code,
       },
@@ -164,9 +181,9 @@ export async function POST(request: NextRequest) {
         uiType: "PAYPAL_SPB",
         productCode: product.code,
         orderName: product.orderName,
-        totalAmount: product.amount,
-        currency: product.currency,
-        display: product.display,
+        totalAmount: setting.amount,
+        currency: setting.currency,
+        display: displayPrice(setting),
       },
     });
   } catch (error) {

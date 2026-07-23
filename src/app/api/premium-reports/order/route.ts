@@ -9,6 +9,7 @@ import {
   getHanjaProduct,
   HANJA_PRODUCT_CODES,
 } from "@/lib/premium-reports";
+import { getProductSetting } from "@/lib/product-settings";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
@@ -115,6 +116,13 @@ export async function POST(request: NextRequest) {
       );
     }
   }
+  // 가격은 관리자 조정형 상품 설정에서 읽는다(단일 원천).
+  let setting;
+  try {
+    setting = await getProductSetting(product.code);
+  } catch {
+    return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
+  }
   const portone = getPortOnePublicConfig();
   const supabase = getSupabaseAdminClient();
   if (!portone || !process.env.PORTONE_API_SECRET) {
@@ -147,7 +155,7 @@ export async function POST(request: NextRequest) {
       customer_name: customer?.fullName ?? null,
       customer_email: customer?.email ?? user?.email ?? null,
       payment_status: "UNPAID",
-      payment_amount: product.amount,
+      payment_amount: setting.amount,
       fulfillment_status: "PENDING",
       provider_payment_id: paymentId,
       metadata: { provider: "PORTONE_V2", sessionId, productCode: product.code },
@@ -160,8 +168,8 @@ export async function POST(request: NextRequest) {
       user_id: user?.id ?? null,
       status: "PENDING_PAYMENT",
       product_code: product.code,
-      price_amount: product.amount,
-      currency: "KRW",
+      price_amount: setting.amount,
+      currency: setting.currency,
       access_token_hash: access.tokenHash,
       input_payload: {
         inputFactors: parsed.data.inputFactors,
@@ -189,8 +197,8 @@ export async function POST(request: NextRequest) {
         includesSaju: product.includesSaju,
         includesPdf: product.includesPdf,
         orderName: `Naming-Link ${product.name}`,
-        totalAmount: product.amount,
-        currency: "KRW",
+        totalAmount: setting.amount,
+        currency: setting.currency,
         customer: customer ?? null,
       },
     });
