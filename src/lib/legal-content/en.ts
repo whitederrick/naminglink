@@ -37,9 +37,10 @@ const content: LegalLocaleContent = {
           title: "4. Paid Services",
           paragraphs: [
             "The Hanja meaning-matching service offers the following detailed products: (1) detailed explanations for up to 5 candidates plus a comprehensive Hanja analysis: ₩2,900; (2) extended explanations for up to 10 candidates, a comprehensive Hanja analysis, and a keepsake PDF: ₩4,900; (3) details for up to 10 candidates, a comprehensive Hanja analysis, a Saju (Four Pillars) and Five Elements analysis, and a keepsake PDF: ₩9,900.",
-            "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (US$1.99) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
+            "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (₩990 domestic, US$1.99 international) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
+            "Digital products for global users include: (4) Korean Name Report PDF (US$9.99): name art in your chosen typeface for all recommended candidates, meaning explanations, and a Five Elements (Saju) reference; (5) Hangul Pronunciation Art PDF (US$2.99): name art in your chosen typeface with a pronunciation guide; (6) Name Art Pack PDF (US$1.99): one chosen name rendered as art in each typeface you pick. The price and number of typefaces for each product follow the values shown on screen.",
             "Paid detailed reports, analysis results, and PDF files remain available for viewing and download for 24 hours after payment, after which they are automatically deleted.",
-            "Physical products such as Korean name merchandise may be offered at separate prices and conditions. For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
+            "Physical merchandise such as name stamps is offered at per-product prices and conditions (₩39,000 domestic, US$34.99 international with shipping included). For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
           ],
         },
         {
@@ -75,6 +76,7 @@ const content: LegalLocaleContent = {
           title: "1. Personal Information We Process",
           paragraphs: [
             "When you use the name services as a guest, your name, date and time of birth, country, language, purpose of use, and pronunciation hints are processed temporarily to generate results. Your inputs and the generated results are not stored in the service database.",
+            "When you sign up or log in as a member, your email address and sign-in records (authentication history) are processed.",
             "When you purchase a paid detailed report, order identifiers, payment status, and the inputs and analysis results needed to generate the report are processed for the retention period (24 hours after payment). Payment method details such as card numbers are handled directly by the payment gateway; the company does not store them.",
             "Only when you use the merchandise ordering feature may the orderer's name, email, phone number, shipping address, payment status, and order processing information additionally be processed.",
             "For service stability and abuse prevention, we may keep minimal operational logs: a de-identified visitor hash that changes daily, request time, service type, free-usage counts, AI token usage, response time, processing status, and ad impression and reward events.",
@@ -101,9 +103,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. International Transfers",
+          title: "5. International Transfers of Personal Data",
           paragraphs: [
-            "Personal information may be processed on servers outside your country during cloud hosting, authentication, AI API calls, advertising, and email delivery. The destination countries, processors, purposes, and retention periods will be disclosed in detail once service providers are finalized.",
+            "To provide the service, the company transfers personal data abroad (as processing entrustment) as set out below. Transfers are made electronically over the network.",
+            "(1) OpenAI, L.L.C. (United States) — Items transferred: analysis inputs such as name, date and time of birth, gender, country, and language — Purpose: AI-based name, pronunciation, and meaning analysis — Retention: for the service period (per OpenAI's policy, API inputs are not used to train models and are retained for up to 30 days for abuse monitoring, then deleted).",
+            "(2) Supabase, Inc. (United States) — Items transferred: order and payment status, member email, paid-report inputs and results (24 hours after payment), and orderer name, contact, and shipping address for merchandise orders — Purpose: database, authentication, and storage — Retention: for the service period or each item's retention period.",
+            "(3) Vercel, Inc. (United States) — Items transferred: connection and request information sent while using the service — Purpose: application hosting — Retention: for the service period.",
+            "You may refuse consent to the international transfer of your personal data; however, because this processing is essential to providing the service, refusal may limit your use of the service.",
           ],
         },
         {
@@ -148,9 +154,16 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "4. Custom-Made Merchandise",
+          title: "4. Global Digital PDF Products (US$9.99 / US$2.99 / US$1.99)",
           paragraphs: [
-            "Personalized items can be cancelled until production begins. After production begins, refunds for a simple change of mind may be restricted. Typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
+            "The Korean Name Report (US$9.99), Hangul Pronunciation Art (US$2.99), and Name Art Pack (US$1.99) are digital content generated after payment. You may cancel before PDF generation begins; after generation completes and the download becomes available, refunds for a simple change of mind may be restricted.",
+            "If generation fails, the content is defective, or a payment-amount mismatch is confirmed, we will re-issue or refund. Expiry of the download window (24 hours after payment) is not itself grounds for a refund.",
+          ],
+        },
+        {
+          title: "5. Custom-Made Merchandise (Name Stamps, etc.)",
+          paragraphs: [
+            "Personalized items such as name stamps (₩39,000 domestic / US$34.99 international, shipping included) can be cancelled until production begins. After production begins the engraved text is personalized, so refunds for a simple change of mind may be restricted; typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
           ],
         },
         {
@@ -199,9 +212,18 @@ const content: LegalLocaleContent = {
           ],
         },
         {
+          title: "Global Digital PDF Products",
+          paragraphs: [
+            "Korean Name Report PDF (name art, meaning explanations, and Five Elements reference for all recommended candidates): US$9.99",
+            "Hangul Pronunciation Art PDF (name art in your chosen typeface with a pronunciation guide): US$2.99",
+            "Name Art Pack PDF (one chosen name rendered as art in each typeface you pick): US$1.99",
+            "Prices and the number of typefaces follow the values shown on screen. PDFs remain downloadable for 24 hours after payment and are automatically deleted afterward. (payment feature in preparation)",
+          ],
+        },
+        {
           title: "Korean Name Merchandise",
           paragraphs: [
-            "Physical merchandise such as name stamps is announced separately with per-product prices, shipping fees, and production times.",
+            "Name stamp: ₩39,000 domestic / US$34.99 international (shipping included). Other physical merchandise is announced separately with per-product prices, shipping fees, and production times.",
           ],
         },
         {

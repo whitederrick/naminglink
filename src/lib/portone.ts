@@ -61,5 +61,13 @@ export async function getVerifiedPremiumPayment(
   ) {
     throw new Error("결제 금액 또는 통화 정보가 주문과 일치하지 않습니다.");
   }
+  // 채널 타입 검증: 실 결제는 반드시 LIVE 채널이어야 한다. 하나의 상점에 TEST 채널이
+  // 공존할 수 있고 채널 키는 브라우저에 노출되므로, 이 검증이 없으면 공격자가 TEST 채널로
+  // "결제"해 실제 금액 없이 주문을 PAID로 만들 수 있다. 다크런치/테스트 기간에만
+  // PORTONE_ALLOW_TEST_CHANNEL=true로 TEST 채널을 한시 허용한다(운영 정식 오픈 시 제거).
+  const allowTestChannel = process.env.PORTONE_ALLOW_TEST_CHANNEL === "true";
+  if (!allowTestChannel && payment.channel?.type !== "LIVE") {
+    throw new Error("실 결제 채널이 아닙니다.");
+  }
   return payment as PaidPayment;
 }
