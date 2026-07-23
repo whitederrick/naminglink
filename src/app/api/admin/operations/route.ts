@@ -1,7 +1,25 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
+import { STAMP_MODELS, type StampModelCode } from "@/lib/goods-products";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { z } from "zod";
+
+// 주문 목록에서 관리자가 제작·전달 내용을 바로 보도록 metadata를 요약한다.
+// (도장: 새길 문구·모델, 그 외: 상품 코드)
+function orderItemSummary(orderType: unknown, metadata: unknown) {
+  const meta =
+    metadata && typeof metadata === "object" && !Array.isArray(metadata)
+      ? (metadata as Record<string, unknown>)
+      : {};
+  if (orderType === "STAMP_DELIVERY") {
+    const modelName = STAMP_MODELS[meta.stampModel as StampModelCode]?.name;
+    const parts = [meta.stampName, modelName].filter(
+      (value): value is string => typeof value === "string" && value.length > 0,
+    );
+    return parts.join(" · ") || null;
+  }
+  return typeof meta.productCode === "string" ? meta.productCode : null;
+}
 
 export const runtime = "nodejs";
 
@@ -30,10 +48,14 @@ export async function GET(request: NextRequest) {
 
   if (view === "orders") {
     const { data, error } = await supabase.from("orders")
-      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address")
+      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address,metadata")
       .order("created_at", { ascending: false }).limit(300);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
-    return NextResponse.json({ ok: true, orders: (data ?? []).map(({ shipping_address, ...order }) => ({ ...order, has_shipping_address: Boolean(shipping_address) })) });
+    return NextResponse.json({ ok: true, orders: (data ?? []).map(({ shipping_address, metadata, ...order }) => ({
+      ...order,
+      has_shipping_address: Boolean(shipping_address),
+      item_summary: orderItemSummary(order.order_type, metadata),
+    })) });
   }
 
   if (view === "ai") {

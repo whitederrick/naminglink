@@ -314,10 +314,11 @@ function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body:
         />
       </FilterBar>
       <Table
-        headers={["주문일", "상품", "구매자", "결제", "금액", "처리", "배송정보"]}
+        headers={["주문일", "상품", "내용", "구매자", "결제", "금액", "처리", "배송정보"]}
         rows={paged.pageItems.map((order) => [
           date.format(new Date(String(order.created_at))),
           orderTypeLabels[String(order.order_type)] ?? order.order_type,
+          order.item_summary ?? "-",
           order.customer_email ?? order.customer_name ?? "-",
           order.payment_status,
           orderAmount(Number(order.payment_amount), order.payment_currency as string | null),

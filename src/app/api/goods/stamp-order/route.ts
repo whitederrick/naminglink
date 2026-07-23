@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { STAMP_PRODUCT } from "@/lib/goods-products";
+import { STAMP_MODEL_CODES, STAMP_MODELS, STAMP_PRODUCT } from "@/lib/goods-products";
 import { getPortOnePublicConfig } from "@/lib/portone";
 import {
   checkRateLimit,
@@ -22,6 +22,7 @@ const schema = z.object({
     .string()
     .trim()
     .regex(/^[가-힣㐀-䶿一-鿿]{1,8}$/u, "도장 문구는 한글 또는 한자 1~8자여야 합니다."),
+  model: z.enum(STAMP_MODEL_CODES),
   recipient: z.string().trim().min(1).max(40),
   phone: z
     .string()
@@ -95,6 +96,7 @@ export async function POST(request: NextRequest) {
         provider: "PORTONE_V2",
         productCode: STAMP_PRODUCT.code,
         stampName: parsed.data.stampName,
+        stampModel: parsed.data.model,
         phone: parsed.data.phone,
         note: parsed.data.note || null,
       },
@@ -109,7 +111,7 @@ export async function POST(request: NextRequest) {
         storeId: portone.storeId,
         channelKey: portone.channelKey,
         payMethod: portone.payMethod,
-        orderName: `${STAMP_PRODUCT.orderName} (${parsed.data.stampName})`,
+        orderName: `${STAMP_PRODUCT.orderName} ${STAMP_MODELS[parsed.data.model].name} (${parsed.data.stampName})`,
         totalAmount: STAMP_PRODUCT.amount,
         currency: STAMP_PRODUCT.currency,
         display: STAMP_PRODUCT.display,

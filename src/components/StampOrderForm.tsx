@@ -4,6 +4,12 @@ import * as PortOne from "@portone/browser-sdk/v2";
 import { Stamp } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
+import {
+  STAMP_MODEL_CODES,
+  STAMP_MODELS,
+  type StampModelCode,
+} from "@/lib/goods-products";
+
 // 이름 도장 주문 폼(한국어 전용 v1 — 한국어 대상 서비스에서 진입, 국내 배송).
 // 카카오페이 채널 키 등록 전에는 결제 버튼이 "준비 중"으로 남는 다크 런치 상태.
 
@@ -22,6 +28,7 @@ const PENDING_STAMP_KEY = "nl_stamp_pending";
 
 export function StampOrderForm({ initialName }: { initialName?: string }) {
   const [stampName, setStampName] = useState(initialName ?? "");
+  const [model, setModel] = useState<StampModelCode>("ROUND_WOOD");
   const [recipient, setRecipient] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -69,6 +76,7 @@ export function StampOrderForm({ initialName }: { initialName?: string }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           stampName: stampName.trim(),
+          model,
           recipient: recipient.trim(),
           phone: phone.trim(),
           email: email.trim(),
@@ -199,6 +207,39 @@ export function StampOrderForm({ initialName }: { initialName?: string }) {
           </p>
         </div>
       </div>
+
+      <fieldset className="grid gap-2">
+        <legend className="text-sm font-medium">도장 종류</legend>
+        <div className="grid gap-2 sm:grid-cols-3">
+          {STAMP_MODEL_CODES.map((code) => {
+            const item = STAMP_MODELS[code];
+            const selected = model === code;
+            return (
+              <label
+                key={code}
+                className={`flex cursor-pointer flex-col gap-1 rounded-lg border p-3 text-sm transition ${
+                  selected
+                    ? "border-brand-teal bg-surface-strong"
+                    : "border-line bg-background hover:border-brand-teal/50"
+                }`}
+              >
+                <span className="flex items-center gap-2 font-semibold">
+                  <input
+                    type="radio"
+                    name="stampModel"
+                    value={code}
+                    checked={selected}
+                    onChange={() => setModel(code)}
+                    className="accent-current"
+                  />
+                  {item.name}
+                </span>
+                <span className="text-xs leading-5 text-muted">{item.description}</span>
+              </label>
+            );
+          })}
+        </div>
+      </fieldset>
 
       <label className="grid gap-1 text-sm">
         <span className="font-medium">도장에 새길 이름 (한글 또는 한자, 1~8자)</span>
