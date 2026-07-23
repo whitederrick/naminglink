@@ -1,6 +1,6 @@
 import path from "node:path";
 import React from "react";
-import { Font, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
+import { Font, Image, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
 
 import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
 import { HanjiBackdrop } from "@/lib/pdf/report-decor";
@@ -84,6 +84,19 @@ const styles = StyleSheet.create({
   },
 });
 
+// 배경 레이어: 관리자 등록 이미지가 있으면 그 이미지를 전면에 깔고,
+// 없으면 내장 벡터 배경(생성 월 기준 계절 자동)을 그린다.
+export function ArtBackdrop({ image }: { image?: string | null }) {
+  if (!image) return <HanjiBackdrop />;
+  return (
+    <View style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }} fixed>
+      {/* react-pdf Image에는 alt 개념이 없다(a11y 규칙은 웹 img 대상). */}
+      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      <Image src={image} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+    </View>
+  );
+}
+
 export function artNameSize(hangul: string) {
   const length = Math.max(1, [...hangul.replace(/\s/g, "")].length);
   if (length <= 2) return 172;
@@ -121,6 +134,7 @@ export function ArtPage({
   reportId,
   generatedDate,
   font,
+  backdropImage,
 }: {
   eyebrow: string;
   forName: string;
@@ -130,12 +144,13 @@ export function ArtPage({
   reportId: string;
   generatedDate: string;
   font: ReportFontSnapshot | null;
+  backdropImage?: string | null;
 }) {
   return (
     <Page size="A4" orientation="landscape" style={styles.coverPage}>
       <View style={styles.frameOuter}>
         <View style={styles.frameInner}>
-          <HanjiBackdrop />
+          <ArtBackdrop image={backdropImage} />
           <View style={{ alignItems: "center" }}>
             <Text style={styles.eyebrow}>{eyebrow}</Text>
             <MixedText style={styles.original} text={`for ${forName}`} />

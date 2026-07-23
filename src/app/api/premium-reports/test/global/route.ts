@@ -10,6 +10,7 @@ import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { renderNameArtPackPdf } from "@/lib/pdf/name-art-pack-report";
 import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
+import { loadActiveBackdropDataUri } from "@/lib/report-backdrops";
 import { getProductSetting } from "@/lib/product-settings";
 import {
   getReportFontsByCodes,
@@ -82,6 +83,7 @@ export async function POST(request: Request) {
       source_url: row.source_url,
     }));
     const families = await registerReportFonts(fontRows);
+    const backdropImage = await loadActiveBackdropDataUri();
     const reportId = "NL-GLOBALTEST";
 
     let pdf: Buffer;
@@ -93,7 +95,7 @@ export async function POST(request: Request) {
         outputLanguage,
         reportId,
       });
-      pdf = await renderNameArtPackPdf(premium.reportData, families);
+      pdf = await renderNameArtPackPdf(premium.reportData, families, backdropImage);
     } else if (parsed.data.product === "HANGUL_ART_PDF") {
       const premium = buildHangulArtResult({
         inputFactors: parsed.data.inputFactors,
@@ -102,7 +104,7 @@ export async function POST(request: Request) {
         outputLanguage,
         reportId,
       });
-      pdf = await renderHangulArtPdf(premium.reportData, families);
+      pdf = await renderHangulArtPdf(premium.reportData, families, backdropImage);
     } else {
       const premium = await buildGlobalNamePremiumResult({
         inputFactors: parsed.data.inputFactors,
@@ -111,7 +113,7 @@ export async function POST(request: Request) {
         outputLanguage,
         reportId,
       });
-      pdf = await renderGlobalNameReportPdf(premium.reportData, families);
+      pdf = await renderGlobalNameReportPdf(premium.reportData, families, backdropImage);
     }
     return new NextResponse(new Uint8Array(pdf), {
       headers: {

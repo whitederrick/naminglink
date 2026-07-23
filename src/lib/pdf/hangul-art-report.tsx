@@ -182,9 +182,11 @@ function GuidePage({
 export function HangulArtReportDocument({
   data,
   families,
+  backdropImage,
 }: {
   data: HangulArtReportData;
   families: Record<string, string>;
+  backdropImage?: string | null;
 }) {
   const generatedDate = data.generatedAt.slice(0, 10);
   const fonts = data.fonts.length > 0 ? data.fonts : [null];
@@ -202,6 +204,7 @@ export function HangulArtReportDocument({
             reportId={data.reportId}
             generatedDate={generatedDate}
             font={font}
+            backdropImage={backdropImage}
           />
         )),
       )}
@@ -221,6 +224,9 @@ export function HangulArtReportDocument({
 export async function renderHangulArtPdf(
   data: HangulArtReportData,
   families: Record<string, string> = {},
+  backdropImage?: string | null,
 ) {
-  return renderToBuffer(<HangulArtReportDocument data={data} families={families} />);
+  return renderToBuffer(
+    <HangulArtReportDocument data={data} families={families} backdropImage={backdropImage} />,
+  );
 }

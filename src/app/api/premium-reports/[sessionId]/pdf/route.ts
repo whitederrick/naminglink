@@ -12,6 +12,7 @@ import {
   isNameArtPackProduct,
 } from "@/lib/global-products";
 import { registerReportFonts } from "@/lib/pdf/dynamic-fonts";
+import { loadActiveBackdropDataUri } from "@/lib/report-backdrops";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { renderNameArtPackPdf } from "@/lib/pdf/name-art-pack-report";
@@ -58,6 +59,8 @@ export async function POST(request: Request, context: Context) {
       const rows = await getReportFontRowsForRender(codes);
       return registerReportFonts(rows);
     };
+    // 적용 기간에 해당하는 관리자 등록 배경(없으면 내장 벡터 배경으로 폴백).
+    const backdropImage = await loadActiveBackdropDataUri();
     let buffer: Buffer;
     if (isNameArtPackProduct(session.product_code)) {
       const premium = session.interpretation_result as NameArtPackResult;
@@ -65,6 +68,7 @@ export async function POST(request: Request, context: Context) {
       buffer = await renderNameArtPackPdf(
         premium.reportData,
         await loadFamilies(premium.reportData.fonts),
+        backdropImage,
       );
     } else if (isHangulArtPdfProduct(session.product_code)) {
       const premium = session.interpretation_result as HangulArtPremiumResult;
@@ -72,6 +76,7 @@ export async function POST(request: Request, context: Context) {
       buffer = await renderHangulArtPdf(
         premium.reportData,
         await loadFamilies(premium.reportData.fonts),
+        backdropImage,
       );
     } else if (isGlobalNamePdfProduct(session.product_code)) {
       const premium = session.interpretation_result as GlobalNamePremiumResult;
@@ -79,6 +84,7 @@ export async function POST(request: Request, context: Context) {
       buffer = await renderGlobalNameReportPdf(
         premium.reportData,
         await loadFamilies(premium.reportData.fonts),
+        backdropImage,
       );
     } else {
       const premium = session.interpretation_result as PremiumHanjaTestResult;

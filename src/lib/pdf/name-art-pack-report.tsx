@@ -9,9 +9,11 @@ import { ArtPage, FALLBACK_ART_FAMILY } from "@/lib/pdf/art-shared";
 export function NameArtPackDocument({
   data,
   families,
+  backdropImage,
 }: {
   data: NameArtPackReportData;
   families: Record<string, string>;
+  backdropImage?: string | null;
 }) {
   const generatedDate = data.generatedAt.slice(0, 10);
   return (
@@ -27,6 +29,7 @@ export function NameArtPackDocument({
           reportId={data.reportId}
           generatedDate={generatedDate}
           font={font}
+          backdropImage={backdropImage}
         />
       ))}
     </Document>
@@ -36,6 +39,9 @@ export function NameArtPackDocument({
 export async function renderNameArtPackPdf(
   data: NameArtPackReportData,
   families: Record<string, string> = {},
+  backdropImage?: string | null,
 ) {
-  return renderToBuffer(<NameArtPackDocument data={data} families={families} />);
+  return renderToBuffer(
+    <NameArtPackDocument data={data} families={families} backdropImage={backdropImage} />,
+  );
 }

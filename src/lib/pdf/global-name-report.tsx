@@ -17,11 +17,11 @@ import type {
   GlobalNameReportData,
 } from "@/lib/global-name-premium";
 import {
+  ArtBackdrop,
   ArtPage,
   FALLBACK_ART_FAMILY,
   FontCreditsBlock,
 } from "@/lib/pdf/art-shared";
-import { HanjiBackdrop } from "@/lib/pdf/report-decor";
 import { MixedText } from "@/lib/pdf/report-fonts";
 
 // 글로벌 프리미엄 PDF (2026-07-23 사용자 확정 구성 — 한자 의미 매칭 프리미엄과 동일한 형태):
@@ -243,14 +243,22 @@ function PageHeader({ data, subtitle }: { data: GlobalNameReportData; subtitle: 
 }
 
 // 1장: 표지 — 전체 후보 이름을 선택 서체로 나열한다.
-function CoverPage({ data, artFamily }: { data: GlobalNameReportData; artFamily: string }) {
+function CoverPage({
+  data,
+  artFamily,
+  backdropImage,
+}: {
+  data: GlobalNameReportData;
+  artFamily: string;
+  backdropImage?: string | null;
+}) {
   const generatedDate = data.generatedAt.slice(0, 10);
   const names = data.candidates.map((candidate) => candidate.name.hangul);
   return (
     <Page size="A4" orientation="landscape" style={styles.coverPage}>
       <View style={styles.coverFrameOuter}>
         <View style={styles.coverFrameInner}>
-          <HanjiBackdrop />
+          <ArtBackdrop image={backdropImage} />
           <View style={{ alignItems: "center" }}>
             <Text style={styles.coverEyebrow}>Korean Name Premium Report</Text>
             <MixedText style={styles.coverOriginal} text={`for ${data.original.name}`} />
@@ -339,9 +347,11 @@ function CandidateDetailPage({
 export function GlobalNameReportDocument({
   data,
   families,
+  backdropImage,
 }: {
   data: GlobalNameReportData;
   families: Record<string, string>;
+  backdropImage?: string | null;
 }) {
   const maxElementCount = Math.max(1, ...(data.saju?.counts.map((entry) => entry.count) ?? [1]));
   const generatedDate = data.generatedAt.slice(0, 10);
@@ -351,7 +361,7 @@ export function GlobalNameReportDocument({
     : FALLBACK_ART_FAMILY;
   return (
     <Document title={`Naming-Link Korean Name Report ${data.original.name}`}>
-      <CoverPage data={data} artFamily={primaryFamily} />
+      <CoverPage data={data} artFamily={primaryFamily} backdropImage={backdropImage} />
       {data.candidates.map((candidate, index) => (
         <React.Fragment key={index}>
           {fonts.map((font, fontIndex) => (
@@ -365,6 +375,7 @@ export function GlobalNameReportDocument({
               reportId={data.reportId}
               generatedDate={generatedDate}
               font={font}
+              backdropImage={backdropImage}
             />
           ))}
           <CandidateDetailPage data={data} candidate={candidate} index={index} />
@@ -443,6 +454,9 @@ export function GlobalNameReportDocument({
 export async function renderGlobalNameReportPdf(
   data: GlobalNameReportData,
   families: Record<string, string> = {},
+  backdropImage?: string | null,
 ) {
-  return renderToBuffer(<GlobalNameReportDocument data={data} families={families} />);
+  return renderToBuffer(
+    <GlobalNameReportDocument data={data} families={families} backdropImage={backdropImage} />,
+  );
 }
