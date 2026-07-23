@@ -4,6 +4,15 @@ import * as PortOne from "@portone/browser-sdk/v2";
 import { FileText, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
 
+import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+
+function hasAdminRole(appMetadata: unknown) {
+  if (!appMetadata || typeof appMetadata !== "object") return false;
+  const meta = appMetadata as { role?: unknown; roles?: unknown };
+  const isAdmin = (value: unknown) => value === "admin" || value === "super_admin";
+  return isAdmin(meta.role) || (Array.isArray(meta.roles) && meta.roles.some(isAdmin));
+}
+
 // GLOBAL_TO_KOREAN 결과 페이지의 글로벌 프리미엄 3장 PDF(US$9.99) 체크아웃 패널.
 // 결제는 포트원 페이팔 SPB(loadPaymentUI, 페이지 내 버튼 렌더)라 리디렉션 복구가 필요 없다.
 // 채널 키 env가 없으면 버튼이 "준비 중"으로 남는 다크 런치 상태를 유지한다.
@@ -381,13 +390,56 @@ export function GlobalNamePremiumPanel({
     process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
       process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
   );
+  // 운영자(admin) 로그인 시에만 결제 없이 PDF를 받는 테스트 버튼을 노출한다(개발 환경은 항상).
+  const [adminToken, setAdminToken] = useState<string | null>(null);
+  const [testBusy, setTestBusy] = useState(false);
   // 결제 완료 표시가 있는 저장 체크아웃만 이어받기 대상으로 노출한다.
   useEffect(() => {
     void Promise.resolve().then(() => {
       const stored = readStoredCheckout();
       if (stored?.paid) setResumable(stored);
     });
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+    void supabase.auth.getSession().then(({ data }) => {
+      const session = data.session;
+      if (session?.user && hasAdminRole(session.user.app_metadata)) {
+        setAdminToken(session.access_token);
+      }
+    });
   }, []);
+  const testVisible = process.env.NODE_ENV !== "production" || Boolean(adminToken);
+
+  async function runOperatorTest() {
+    if (testBusy || !inputFactors) return;
+    setError("");
+    setTestBusy(true);
+    try {
+      const candidate = selectable[selectedIndex] ?? selectable[0];
+      const response = await fetch("/api/premium-reports/test/global", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(adminToken ? { Authorization: `Bearer ${adminToken}` } : {}),
+        },
+        body: JSON.stringify({ inputFactors, candidate, locale }),
+      });
+      if (!response.ok) {
+        const data = (await response.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(data?.error || "테스트 PDF 생성에 실패했습니다.");
+      }
+      const url = URL.createObjectURL(await response.blob());
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = `naminglink-global-premium-${candidate.hangul}.pdf`;
+      anchor.click();
+      URL.revokeObjectURL(url);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : copy.failed);
+    } finally {
+      setTestBusy(false);
+    }
+  }
 
   const selectable = candidates.slice(0, Math.max(1, revealedCount));
 
@@ -611,6 +663,18 @@ export function GlobalNamePremiumPanel({
         )}
       </div>
 
+      {testVisible ? (
+        <button
+          type="button"
+          onClick={runOperatorTest}
+          disabled={testBusy}
+          className="mt-3 inline-flex h-10 w-full items-center justify-center rounded-lg border border-brand-teal/40 px-4 text-sm font-semibold text-brand-teal disabled:opacity-50"
+        >
+          {testBusy
+            ? "테스트 PDF 생성 중… (약 30초)"
+            : "운영자 테스트: 결제 없이 3장 PDF 받기"}
+        </button>
+      ) : null}
       {stage === "paying" ? <div className="portone-ui-container mt-4" /> : null}
       {resumable && stage === "idle" ? (
         <button
