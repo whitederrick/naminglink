@@ -2,24 +2,26 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 
 import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
+import { buildHangulArtResult } from "@/lib/hangul-art-premium";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
+import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-// 글로벌 프리미엄 3장 PDF의 운영자 테스트: 결제 없이 분석 생성 + PDF를 한 번에 반환한다.
+// 글로벌 프리미엄 PDF(한글 이름 4장 · 발음 표기 3장)의 운영자 테스트:
+// 결제 없이 산출물 생성 + PDF를 한 번에 반환한다.
 const schema = z.object({
+  product: z.enum(["GLOBAL_NAME_PDF", "HANGUL_ART_PDF"]).default("GLOBAL_NAME_PDF"),
   inputFactors: z.record(z.string(), z.unknown()),
-  candidate: z.object({
-    hangul: z.string().trim().regex(/^[가-힣]{2,6}$/),
-    pronunciation: z.string().trim().max(200).optional(),
-    meaning: z.string().trim().max(2000).optional(),
-    recommendation_reason: z.string().trim().max(2000).optional(),
-    cultural_fit: z.string().trim().max(2000).optional(),
-    usage_note: z.string().trim().max(2000).optional(),
-  }),
+  candidate: z
+    .record(z.string(), z.unknown())
+    .refine(
+      (value) => /^[가-힣]{1,12}(?:\s[가-힣]{1,12}){0,3}$/.test(String(value.hangul ?? "").trim()),
+      "한글 표기 형식이 아닙니다.",
+    ),
   locale: z.string().trim().max(10).optional(),
 });
 
@@ -41,13 +43,24 @@ export async function POST(request: Request) {
     const outputLanguage = OUTPUT_LANGUAGE_NAMES[parsed.data.locale ?? ""]
       ? String(parsed.data.locale)
       : "en";
-    const premium = await buildGlobalNamePremiumResult({
-      inputFactors: parsed.data.inputFactors,
-      candidate: parsed.data.candidate,
-      outputLanguage,
-      reportId: "NL-GLOBALTEST",
-    });
-    const pdf = await renderGlobalNameReportPdf(premium.reportData);
+    let pdf: Buffer;
+    if (parsed.data.product === "HANGUL_ART_PDF") {
+      const premium = buildHangulArtResult({
+        inputFactors: parsed.data.inputFactors,
+        candidate: parsed.data.candidate,
+        outputLanguage,
+        reportId: "NL-GLOBALTEST",
+      });
+      pdf = await renderHangulArtPdf(premium.reportData);
+    } else {
+      const premium = await buildGlobalNamePremiumResult({
+        inputFactors: parsed.data.inputFactors,
+        candidate: parsed.data.candidate,
+        outputLanguage,
+        reportId: "NL-GLOBALTEST",
+      });
+      pdf = await renderGlobalNameReportPdf(premium.reportData);
+    }
     return new NextResponse(new Uint8Array(pdf), {
       headers: {
         "Content-Type": "application/pdf",

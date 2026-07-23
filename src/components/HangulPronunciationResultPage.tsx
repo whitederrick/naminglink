@@ -6,6 +6,7 @@ import { ArrowLeft, Home, RotateCcw, ShoppingBag } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
+import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -31,6 +32,34 @@ type ApiResult = {
   persistence?: "saved" | "skipped" | "failed";
   error?: string;
 };
+
+// 발음 표기 아트 PDF(HANGUL_ART_PDF) 주문에 넘길 후보 데이터 추출.
+function artCandidatesOf(result: unknown) {
+  const candidates = (result as { candidates?: unknown[] } | null)?.candidates;
+  if (!Array.isArray(candidates)) return [];
+  return candidates
+    .map((candidate) => {
+      const record =
+        candidate && typeof candidate === "object"
+          ? (candidate as Record<string, unknown>)
+          : {};
+      const textOf = (value: unknown) => (typeof value === "string" ? value : undefined);
+      return {
+        hangul: textOf(record.hangul)?.replace(/\s+/g, " ").trim() ?? "",
+        pronunciation: textOf(record.pronunciation),
+        ipa: textOf(record.ipa),
+        syllables: textOf(record.syllables),
+        source_pronunciation_basis: textOf(record.source_pronunciation_basis),
+        recommendation_reason: textOf(record.recommendation_reason),
+        cultural_fit: textOf(record.cultural_fit),
+        usage_note: textOf(record.usage_note),
+        caution_notes: textOf(record.caution_notes),
+      };
+    })
+    .filter((candidate) =>
+      /^[가-힣]{1,12}(?:\s[가-힣]{1,12}){0,3}$/.test(candidate.hangul),
+    );
+}
 
 function ReanalysisSection({
   stored,
@@ -293,6 +322,13 @@ export function HangulPronunciationResultPage({
                 setRevealedCount((current) => Math.min(candidateCount, current + 1))
               }
               onUnlockAll={() => setRevealedCount(candidateCount)}
+            />
+            <GlobalNamePremiumPanel
+              product="HANGUL_ART_PDF"
+              candidates={artCandidatesOf(currentStored.result)}
+              revealedCount={revealedCount}
+              inputFactors={currentStored.inputFactors}
+              locale={locale}
             />
             <ReanalysisSection
               key={currentStored.createdAt}

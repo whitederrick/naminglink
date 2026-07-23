@@ -3,8 +3,14 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 
 import type { GlobalNamePremiumResult } from "@/lib/global-name-premium";
-import { isGlobalNamePdfProduct } from "@/lib/global-products";
+import type { HangulArtPremiumResult } from "@/lib/hangul-art-premium";
+import {
+  isGlobalNamePdfProduct,
+  isGlobalPremiumPdfProduct,
+  isHangulArtPdfProduct,
+} from "@/lib/global-products";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
+import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { renderPremiumHanjaTestPdf, type PremiumHanjaTestResult } from "@/lib/premium-hanja-analysis";
 import { PREMIUM_HANJA_REPORT, premiumReportRemainingSeconds } from "@/lib/premium-reports";
 import { getAuthorizedPremiumSession } from "@/lib/premium-session";
@@ -25,7 +31,7 @@ export async function POST(request: Request, context: Context) {
   }
   try {
     const { supabase, session } = await getAuthorizedPremiumSession(id.data, body.data.accessToken);
-    const isGlobalReport = isGlobalNamePdfProduct(session.product_code);
+    const isGlobalReport = isGlobalPremiumPdfProduct(session.product_code);
     if (!isGlobalReport && !getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
       return NextResponse.json({ ok: false, error: "선택한 상품에는 PDF가 포함되지 않습니다." }, { status: 403 });
     }
@@ -42,7 +48,11 @@ export async function POST(request: Request, context: Context) {
     if (existing) return NextResponse.json({ ok: true, status: "READY" });
 
     let buffer: Buffer;
-    if (isGlobalReport) {
+    if (isHangulArtPdfProduct(session.product_code)) {
+      const premium = session.interpretation_result as HangulArtPremiumResult;
+      if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
+      buffer = await renderHangulArtPdf(premium.reportData);
+    } else if (isGlobalNamePdfProduct(session.product_code)) {
       const premium = session.interpretation_result as GlobalNamePremiumResult;
       if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
       buffer = await renderGlobalNameReportPdf(premium.reportData);

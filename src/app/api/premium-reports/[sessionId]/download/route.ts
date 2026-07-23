@@ -7,7 +7,7 @@ import {
 } from "@/lib/premium-reports";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getHanjaProduct, type HanjaProductCode } from "@/lib/hanja-products";
-import { isGlobalNamePdfProduct } from "@/lib/global-products";
+import { isGlobalPremiumPdfProduct } from "@/lib/global-products";
 
 export const runtime = "nodejs";
 
@@ -64,7 +64,7 @@ export async function POST(request: Request, context: RouteContext) {
     );
   }
 
-  const isGlobalReport = isGlobalNamePdfProduct(session.product_code);
+  const isGlobalReport = isGlobalPremiumPdfProduct(session.product_code);
   if (!isGlobalReport && !getHanjaProduct(session.product_code as HanjaProductCode).includesPdf) {
     return NextResponse.json(
       { ok: false, error: "선택한 상품에는 PDF가 포함되지 않습니다." },

@@ -14,10 +14,10 @@ import {
 
 import type { GlobalNameReportData } from "@/lib/global-name-premium";
 
-// 글로벌 프리미엄 3장 PDF.
-// 1장: 한국적 배경 위 붓글씨풍 한글 이름 + 로마자 발음 (기념장 성격의 표지)
-// 2장: 이름의 의미(음절별)·선정 이유·소리 연결·발음 안내
-// 3장: 사주·오행 참고와 이름의 상징적 연결 + 문화·사용 안내
+// 글로벌 프리미엄 4장 PDF (2026-07-23 사용자 확정: 표지 서체 2종).
+// 1장: 붓글씨(나눔붓) 이름 아트, 2장: 손글씨 펜(나눔펜) 이름 아트,
+// 3장: 이름의 의미(음절별)·선정 이유·소리 연결·발음 안내
+// 4장: 사주·오행 참고와 이름의 상징적 연결 + 문화·사용 안내
 // 폰트는 TTF만 사용한다(woff 임베딩은 렌더당 20초+로 타임아웃의 실제 원인이었음).
 Font.register({
   family: "NotoSansKR",
@@ -30,6 +30,19 @@ Font.register({
   family: "NanumBrush",
   fonts: [
     { src: path.join(process.cwd(), "assets/fonts/NanumBrushScript-Regular.ttf"), fontWeight: 400 },
+  ],
+});
+Font.register({
+  family: "NanumPen",
+  fonts: [
+    { src: path.join(process.cwd(), "assets/fonts/NanumPenScript-Regular.ttf"), fontWeight: 400 },
+  ],
+});
+// 원 이름(山田 太郎 등)·설명 텍스트에 한자가 섞일 수 있어 CJK 글리프가 있는 폰트를 본문에 쓴다.
+Font.register({
+  family: "NotoSansCJKkr",
+  fonts: [
+    { src: path.join(process.cwd(), "assets/fonts/NotoSansCJKkr-Naming.otf"), fontWeight: 400 },
   ],
 });
 Font.registerHyphenationCallback((word) => [word]);
@@ -85,7 +98,7 @@ const styles = StyleSheet.create({
     color: colors.muted,
     textTransform: "uppercase",
   },
-  coverOriginal: { marginTop: 8, fontSize: 12, color: colors.muted },
+  coverOriginal: { marginTop: 8, fontSize: 12, color: colors.muted, fontFamily: "NotoSansCJKkr" },
   coverNameBlock: { alignItems: "center", justifyContent: "center" },
   coverName: { fontFamily: "NanumBrush", color: colors.ink },
   coverRomanized: {
@@ -146,7 +159,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
     marginTop: 14,
   },
-  paragraph: { color: colors.ink },
+  paragraph: { color: colors.ink, fontFamily: "NotoSansCJKkr" },
   syllableRow: {
     flexDirection: "row",
     borderWidth: 1,
@@ -232,7 +245,7 @@ function PageFooter({ data, page }: { data: GlobalNameReportData; page: number }
     <View style={styles.footer} fixed>
       <Text style={styles.footerText}>NAMING-LINK · Korean Name Premium Report</Text>
       <Text style={styles.footerText}>
-        {data.reportId} · {page}/3
+        {data.reportId} · {page}/4
       </Text>
     </View>
   );
@@ -245,7 +258,9 @@ function PageHeader({ data }: { data: GlobalNameReportData }) {
         <Text style={styles.pageHeaderName}>
           {data.name.hangul} · {data.name.romanized}
         </Text>
-        <Text style={{ fontSize: 8.5, color: colors.muted, marginTop: 2 }}>
+        <Text
+          style={{ fontSize: 8.5, color: colors.muted, marginTop: 2, fontFamily: "NotoSansCJKkr" }}
+        >
           Korean name report for {data.original.name}
         </Text>
       </View>
@@ -254,46 +269,66 @@ function PageHeader({ data }: { data: GlobalNameReportData }) {
   );
 }
 
-export function GlobalNameReportDocument({ data }: { data: GlobalNameReportData }) {
+// 서체 2종 공용 표지. fontFamily만 바꿔 같은 구도의 아트 페이지를 만든다.
+function CoverPage({
+  data,
+  fontFamily,
+  styleLabel,
+}: {
+  data: GlobalNameReportData;
+  fontFamily: "NanumBrush" | "NanumPen";
+  styleLabel: string;
+}) {
   const generatedDate = data.generatedAt.slice(0, 10);
-  const maxElementCount = Math.max(1, ...(data.saju?.counts.map((entry) => entry.count) ?? [1]));
   return (
-    <Document title={`Naming-Link Korean Name Report ${data.name.hangul}`}>
-      {/* 1장: 붓글씨 표지 */}
-      <Page size="A4" style={styles.coverPage}>
-        <View style={styles.coverFrameOuter}>
-          <View style={styles.coverFrameInner}>
-            <View style={{ alignItems: "center" }}>
-              <Text style={styles.coverEyebrow}>Korean Name Certificate</Text>
-              <Text style={styles.coverOriginal}>for {data.original.name}</Text>
-            </View>
-            <View style={styles.coverNameBlock}>
-              <Text style={[styles.coverName, { fontSize: coverNameSize(data.name.hangul) }]}>
-                {data.name.hangul}
-              </Text>
-              <View style={styles.coverDivider} />
-              <Text style={styles.coverRomanized}>{data.name.romanized}</Text>
-            </View>
-            <View style={styles.sealBlock}>
-              <View style={styles.seal}>
-                {[...data.name.hangul].slice(0, 3).map((char, index) => (
-                  <Text key={index} style={styles.sealChar}>
-                    {char}
-                  </Text>
-                ))}
-              </View>
-              <View style={[styles.coverFooter, { marginTop: 14 }]}>
-                <Text style={styles.coverFooterBrand}>NAMING-LINK</Text>
-                <Text style={styles.coverFooterMeta}>
-                  {data.reportId} · {generatedDate}
+    <Page size="A4" style={styles.coverPage}>
+      <View style={styles.coverFrameOuter}>
+        <View style={styles.coverFrameInner}>
+          <View style={{ alignItems: "center" }}>
+            <Text style={styles.coverEyebrow}>Korean Name Certificate</Text>
+            <Text style={styles.coverOriginal}>for {data.original.name}</Text>
+          </View>
+          <View style={styles.coverNameBlock}>
+            <Text
+              style={[
+                styles.coverName,
+                { fontFamily, fontSize: coverNameSize(data.name.hangul) },
+              ]}
+            >
+              {data.name.hangul}
+            </Text>
+            <View style={styles.coverDivider} />
+            <Text style={styles.coverRomanized}>{data.name.romanized}</Text>
+          </View>
+          <View style={styles.sealBlock}>
+            <View style={styles.seal}>
+              {[...data.name.hangul].slice(0, 3).map((char, index) => (
+                <Text key={index} style={[styles.sealChar, { fontFamily }]}>
+                  {char}
                 </Text>
-              </View>
+              ))}
+            </View>
+            <View style={[styles.coverFooter, { marginTop: 14 }]}>
+              <Text style={styles.coverFooterBrand}>NAMING-LINK</Text>
+              <Text style={styles.coverFooterMeta}>
+                {data.reportId} · {generatedDate} · {styleLabel}
+              </Text>
             </View>
           </View>
         </View>
-      </Page>
+      </View>
+    </Page>
+  );
+}
 
-      {/* 2장: 의미·이유·발음 */}
+export function GlobalNameReportDocument({ data }: { data: GlobalNameReportData }) {
+  const maxElementCount = Math.max(1, ...(data.saju?.counts.map((entry) => entry.count) ?? [1]));
+  return (
+    <Document title={`Naming-Link Korean Name Report ${data.name.hangul}`}>
+      <CoverPage data={data} fontFamily="NanumBrush" styleLabel="Brush" />
+      <CoverPage data={data} fontFamily="NanumPen" styleLabel="Pen" />
+
+      {/* 3장: 의미·이유·발음 */}
       <Page size="A4" style={styles.page}>
         <PageHeader data={data} />
         <Section title="Overview" body={data.sections.analysisSummary} />
@@ -304,17 +339,17 @@ export function GlobalNameReportDocument({ data }: { data: GlobalNameReportData 
               <Text style={styles.syllableChar}>{entry.syllable}</Text>
             </View>
             <View style={styles.syllableMeaning}>
-              <Text>{entry.meaning}</Text>
+              <Text style={{ fontFamily: "NotoSansCJKkr" }}>{entry.meaning}</Text>
             </View>
           </View>
         ))}
         <Section title="Why this name" body={data.sections.whyThisName} />
         <Section title="Connection to your original name" body={data.sections.soundConnection} />
         <Section title="How to pronounce it" body={data.sections.pronunciationTips} />
-        <PageFooter data={data} page={2} />
+        <PageFooter data={data} page={3} />
       </Page>
 
-      {/* 3장: 사주·오행 + 문화·사용 안내 */}
+      {/* 4장: 사주·오행 + 문화·사용 안내 */}
       <Page size="A4" style={styles.page}>
         <PageHeader data={data} />
         {data.saju ? (
@@ -365,7 +400,7 @@ export function GlobalNameReportDocument({ data }: { data: GlobalNameReportData 
         )}
         <Section title="How Koreans will hear this name" body={data.sections.culturalNotes} />
         <Section title="Using your Korean name" body={data.sections.usageGuide} />
-        <PageFooter data={data} page={3} />
+        <PageFooter data={data} page={4} />
       </Page>
     </Document>
   );
