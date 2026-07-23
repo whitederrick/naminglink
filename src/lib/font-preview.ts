@@ -1,6 +1,7 @@
 import "server-only";
 
-import fontkit, { type Font } from "fontkit";
+// fontkit ESM 빌드는 default export가 없다(named export만) — default import는 터보팩 빌드가 깨진다.
+import { create as createFont, type Font } from "fontkit";
 
 // 서체 미리보기 SVG 생성(서버리스에서 PNG 렌더 체인 없이 동작).
 // fontkit으로 샘플 문구의 글리프 외곽선을 뽑아 로컬 스크립트 PNG와 같은
@@ -14,7 +15,7 @@ const BACKGROUND = "#f6efdf";
 const INK = "#221c14";
 
 export function renderFontPreviewSvg(buffer: Buffer, text = SAMPLE) {
-  const opened = fontkit.create(buffer);
+  const opened = createFont(buffer);
   // TTC 컬렉션이면 첫 폰트를 사용한다.
   const font: Font = "fonts" in opened ? (opened as unknown as { fonts: Font[] }).fonts[0] : opened;
   const scale = FONT_SIZE / font.unitsPerEm;
