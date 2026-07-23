@@ -74,7 +74,22 @@ export async function POST(request: Request) {
         Number(order.payment_amount),
         String(order.payment_currency ?? "KRW"),
       );
-      if (order.order_type === "CANDIDATE_UNLOCK") {
+      if (order.order_type === "STAMP_DELIVERY") {
+        // 실물 굿즈: 결제만 확정하고 fulfillment는 PENDING 유지(관리자가 제작·발송 전환).
+        await supabase
+          .from("orders")
+          .update({
+            payment_status: "PAID",
+            metadata: {
+              ...record(order.metadata),
+              transactionId: payment.transactionId,
+              paidAt: payment.paidAt,
+            },
+            updated_at: new Date().toISOString(),
+          })
+          .eq("id", order.id)
+          .eq("payment_status", "UNPAID");
+      } else if (order.order_type === "CANDIDATE_UNLOCK") {
         // 일괄 공개는 분석 세션이 없는 즉시 전달 상품 — 주문만 결제·처리 완료로 만든다
         // (confirm 라우트와 동일 처리, 웹훅이 먼저 도착해도 confirm은 멱등이라 안전).
         await supabase
