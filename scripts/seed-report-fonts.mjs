@@ -27,6 +27,30 @@ const LOCALES = [
 
 const fonts = [
   {
+    code: "jeongmuk-bawi",
+    name_ko: "정묵바위체",
+    name_en: "Jeongmuk Bawi",
+    copyright_holder: "상상토끼 (SangSangTokki)",
+    license_type: "FREE-EMBED",
+    source_url: "https://sangsangfont.com/21/?idx=122",
+    story_ko:
+      "서예가 정묵의 붓글씨를 바탕으로 상상토끼가 만든 서체입니다. 바위처럼 단단하고 힘찬 획이 특징으로, 강인하고 진중한 인상의 이름 표현에 잘 어울립니다.",
+    file: "C:/Users/white/.claude/uploads/75952ee8-b9f5-4335-9a3a-9080fb0b880e/1e5da21d-SSRockRegular_otf.otf",
+    sort_order: 5,
+  },
+  {
+    code: "kkotgil",
+    name_ko: "꽃길체",
+    name_en: "Kkotgil (Flower Road)",
+    copyright_holder: "상상토끼 (SangSangTokki)",
+    license_type: "FREE-EMBED",
+    source_url: "https://sangsangfont.com/21/?idx=79",
+    story_ko:
+      "캘리그라피 작가의 손글씨 붓 터치를 살려 상상토끼가 만든 서체입니다. '꽃길'이라는 이름처럼 부드럽고 따뜻한 감성이 담겨 있어 다정한 축복의 마음을 전하는 이름 표현에 어울립니다.",
+    file: "C:/Users/white/.claude/uploads/75952ee8-b9f5-4335-9a3a-9080fb0b880e/30cb64db-SSFlowerRoadRegular_otf.otf",
+    sort_order: 45,
+  },
+  {
     code: "east-sea-dokdo",
     name_ko: "동해독도체",
     name_en: "East Sea Dokdo",
@@ -73,6 +97,150 @@ const fonts = [
       "막걸리로 이름난 경기도 포천시가 지역의 술 문화를 담아 만든 손붓글씨 서체입니다. 자연스럽고 부드러운 곡선이 친근하고 정감 있는 인상을 줍니다.",
     file: `${SCRATCH}/Makgeolli.ttf`,
     sort_order: 40,
+  },
+  {
+    code: "shilla-culture",
+    name_ko: "신라문화체",
+    name_en: "Shilla Culture",
+    copyright_holder: "경주시 (Gyeongju City)",
+    license_type: "FREE-EMBED",
+    source_url: "https://www.gyeongju.go.kr/open_content/ko/page.do?mnu_uid=3288",
+    story_ko:
+      "천년 고도 경주시가 신라의 문화를 담아 배포한 서체입니다. 붓 획의 질감을 그대로 살린 거칠고 힘 있는 붓글씨의 매력이 특징으로, 전통적이면서도 경쾌한 인상의 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/ShillaCultureB.ttf`,
+    sort_order: 50,
+  },
+  {
+    code: "jeongseon-arirang-hon",
+    name_ko: "정선아리랑혼체",
+    name_en: "Jeongseon Arirang Hon",
+    copyright_holder: "정선군 (Jeongseon County)",
+    license_type: "KOGL-1",
+    source_url: "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+    story_ko:
+      "아리랑의 고장 강원도 정선군이 배포한 서체로, 정선아리랑의 '혼(魂)'을 담았다는 이름처럼 힘차고 자유로운 붓 획이 특징입니다. 강렬하고 생동감 있는 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/JeongseonArirangHon.ttf`,
+    sort_order: 55,
+  },
+  {
+    code: "jeongseon-arirang",
+    name_ko: "정선아리랑체",
+    name_en: "Jeongseon Arirang",
+    copyright_holder: "정선군 (Jeongseon County)",
+    license_type: "KOGL-1",
+    source_url: "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+    story_ko:
+      "아리랑의 고장 강원도 정선군이 정선아리랑의 정서를 담아 배포한 손글씨 서체입니다. 노랫가락처럼 자연스럽게 흐르는 획이 정감 있는 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/JeongseonArirang.ttf`,
+    sort_order: 60,
+  },
+  {
+    code: "jeongseon-arirang-ppuri",
+    name_ko: "정선아리랑뿌리체",
+    name_en: "Jeongseon Arirang Ppuri",
+    copyright_holder: "정선군 (Jeongseon County)",
+    license_type: "KOGL-1",
+    source_url: "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+    story_ko:
+      "강원도 정선군이 배포한 정선아리랑 서체 가족 중 하나로, 전통의 '뿌리'를 담았다는 이름처럼 단단하고 소박한 획이 특징입니다. 묵직하고 진솔한 인상의 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/JeongseonArirangPpuri.ttf`,
+    sort_order: 65,
+  },
+  {
+    code: "jeju-hallasan",
+    name_ko: "제주한라산체",
+    name_en: "Jeju Hallasan",
+    copyright_holder: "제주특별자치도 (Jeju Province)",
+    license_type: "KOGL-1",
+    source_url: "https://www.jeju.go.kr/jeju/symbol/font/infor.htm",
+    story_ko:
+      "제주특별자치도가 배포하는 제주서체 중 하나로, 한라산의 힘찬 기상을 담은 붓글씨풍 서체입니다. 굵고 당당한 획이 큰 제목처럼 시원한 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/JejuHallasan.ttf`,
+    sort_order: 70,
+  },
+  {
+    code: "yeongwol",
+    name_ko: "영월체",
+    name_en: "Yeongwol",
+    copyright_holder: "영월군 (Yeongwol County)",
+    license_type: "FREE-EMBED",
+    source_url: "https://www.yw.go.kr/www/contents.do?key=1500",
+    story_ko:
+      "강원도 영월군이 지역의 이름을 담아 배포한 손글씨 서체입니다. 꾸밈없이 자연스러운 획이 소박하고 정겨운 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/Yeongwol.otf`,
+    sort_order: 75,
+  },
+  {
+    code: "solmoe-kimdaegeon",
+    name_ko: "솔뫼김대건체",
+    name_en: "Solmoe KimDaeGeon",
+    copyright_holder: "써밋디자인 (Summit Design)",
+    license_type: "OFL",
+    source_url: "http://www.kimdaegeon.com/design/node/?menu=n050500",
+    story_ko:
+      "한국 최초의 천주교 사제 김대건 신부의 탄생지 '솔뫼'의 이름을 딴 서체로, 김대건 신부의 친필 서한 글씨에서 모티브를 얻어 만들어졌습니다. 단정하면서도 붓의 결이 살아 있는 획이 차분한 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/SolmoeKimDaeGeonM.ttf`,
+    sort_order: 80,
+  },
+  {
+    code: "happy-goheung",
+    name_ko: "행복고흥체",
+    name_en: "Happy Goheung",
+    copyright_holder: "고흥군 × 헤움디자인 (Goheung County)",
+    license_type: "FREE-EMBED",
+    source_url: "https://www.goheung.go.kr/contentsView.do?pageId=www158",
+    story_ko:
+      "전라남도 고흥군이 배포한 '행복고흥' 서체입니다. 부드럽고 밝은 손글씨 획이 따뜻하고 행복한 기운의 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/HappyGoheungB.ttf`,
+    sort_order: 85,
+  },
+  {
+    code: "healthset-joritdae",
+    name_ko: "헬스셋조릿대체",
+    name_en: "Healthset Joritdae",
+    copyright_holder: "헬스셋 (Healthset)",
+    license_type: "FREE-EMBED",
+    source_url: "http://shop2.hangria.cafe24.com/product/detail.html?product_no=98",
+    story_ko:
+      "폰트 공방 헬스셋이 만든 손글씨 서체로, 산에서 자라는 작은 대나무 '조릿대'의 이름을 담았습니다. 가늘고 유연하게 뻗는 획이 맑고 산뜻한 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/HealthsetBamboo.ttf`,
+    sort_order: 90,
+  },
+  {
+    code: "dobong-yetgil",
+    name_ko: "도봉옛길체",
+    name_en: "Dobong Yetgil",
+    copyright_holder: "도봉문화원 (Dobong Cultural Center)",
+    license_type: "KOGL-1",
+    source_url: "http://www.dobong.or.kr/main/main.php?categoryid=05&menuid=04&groupid=05&partid=00",
+    story_ko:
+      "서울 도봉문화원이 도봉산 자락의 옛길을 모티브로 만든 서체입니다. 옛길을 걷는 듯한 고졸한 멋이 있어 전통적인 정취의 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/DobongYetgil.ttf`,
+    sort_order: 95,
+  },
+  {
+    code: "deogon-princess",
+    name_ko: "덕온공주체",
+    name_en: "Deogon Princess",
+    copyright_holder: "국립한글박물관 (National Hangeul Museum)",
+    license_type: "KOGL-3",
+    source_url: "https://hanfont.hangeul.go.kr/relaxfont/font/deokon.do",
+    story_ko:
+      "조선 순조의 셋째 딸 덕온공주가 남긴 친필 한글 자료 '자경전기'의 글씨를 바탕으로 국립한글박물관이 개발한 서체입니다. 조선 왕실 여성의 단아하고 기품 있는 궁체의 멋이 우아한 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/DeogonPrincess.ttf`,
+    sort_order: 100,
+  },
+  {
+    code: "chosun-centennial",
+    name_ko: "조선100년체",
+    name_en: "Chosun Centennial",
+    copyright_holder: "방일영문화재단 (Bang Il-young Cultural Foundation)",
+    license_type: "FREE-EMBED",
+    source_url: "https://event.chosun.com/100/100font.html",
+    story_ko:
+      "1920년대 조선일보 지면에 쓰인 한글 활자를 현대적으로 복원한 서체로, 조선일보 창간 100주년을 기념해 방일영문화재단이 배포했습니다. 오래된 활자의 곧고 단정한 골격이 고전적인 품격의 이름 표현에 어울립니다.",
+    file: `${SCRATCH}/fonts-staged/ChosunCentennial.ttf`,
+    sort_order: 105,
   },
 ];
 
@@ -124,7 +292,16 @@ for (const font of fonts) {
     console.error(`업로드 실패: ${font.code}`, uploadError.message);
     process.exit(1);
   }
-  const stories = await translate(font.story_ko);
+  // 재실행 시 스토리가 그대로면 기존 번역을 재사용한다(불필요한 번역 호출·문구 변동 방지).
+  const { data: existing } = await supabase
+    .from("report_fonts")
+    .select("story_ko,stories")
+    .eq("code", font.code)
+    .maybeSingle();
+  const stories =
+    existing && existing.story_ko === font.story_ko && Object.keys(existing.stories ?? {}).length > 0
+      ? existing.stories
+      : await translate(font.story_ko);
   const { error: upsertError } = await supabase.from("report_fonts").upsert(
     {
       code: font.code,
