@@ -313,6 +313,7 @@ export function HangulPronunciationResultPage({
               locale={locale}
             />
             <CandidateUnlockPanel
+              persistKey={resultId}
               revealedCount={revealedCount}
               totalCount={candidateCount}
               locale={locale}

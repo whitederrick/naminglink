@@ -142,6 +142,7 @@ export function KoreanNameResultPage({
               locale={locale}
             />
             <CandidateUnlockPanel
+              persistKey={resultId}
               revealedCount={revealedCount}
               totalCount={totalCount}
               locale={locale}

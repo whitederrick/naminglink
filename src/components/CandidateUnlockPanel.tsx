@@ -441,6 +441,7 @@ export function CandidateUnlockPanel({
   serviceType,
   onUnlock,
   onUnlockAll,
+  persistKey,
 }: {
   revealedCount: number;
   totalCount: number;
@@ -448,6 +449,10 @@ export function CandidateUnlockPanel({
   serviceType?: string;
   onUnlock: () => void;
   onUnlockAll?: () => void;
+  // 결제로 일괄 공개한 결과의 식별자(예: resultId). 지정하면 결제 성공 시 해금 상태를
+  // localStorage에 남겨, 새로고침·재방문에도 잠기지 않고 복원된다(비회원 결과는 미저장이라
+  // 서버 엔티틀먼트가 없으므로 클라이언트 로컬로 보존한다).
+  persistKey?: string;
 }) {
   const [loading, setLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
@@ -455,6 +460,30 @@ export function CandidateUnlockPanel({
   const [bulkError, setBulkError] = useState("");
   const [paypalCheckout, setPaypalCheckout] = useState<UnlockCheckout | null>(null);
   const redirectHandled = useRef(false);
+  // 결제 성공으로 일괄 공개를 확정할 때 호출: 로컬에 해금 상태를 남기고 부모에 반영한다.
+  const completeUnlock = () => {
+    if (persistKey) {
+      try {
+        localStorage.setItem(`nl_unlock:${persistKey}`, "1");
+      } catch {
+        // 로컬 저장 실패(용량·비활성)해도 현재 세션 표시는 진행한다.
+      }
+    }
+    onUnlockAll?.();
+  };
+  // 마운트 시 이전 결제 해금 상태를 복원한다(새로고침·재방문 대응).
+  const unlockRestored = useRef(false);
+  useEffect(() => {
+    if (unlockRestored.current || !persistKey) return;
+    unlockRestored.current = true;
+    try {
+      if (localStorage.getItem(`nl_unlock:${persistKey}`) === "1") onUnlockAll?.();
+    } catch {
+      // 접근 불가 시 복원 생략.
+    }
+    // 최초 마운트에서 한 번만.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [persistKey]);
   const remainingCount = Math.max(0, totalCount - revealedCount);
   const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
   const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
@@ -528,7 +557,7 @@ export function CandidateUnlockPanel({
       await confirmUnlock(checkout.orderId, checkout.paymentId);
       sessionStorage.removeItem(PENDING_UNLOCK_KEY);
       setBulkStage("idle");
-      onUnlockAll?.();
+      completeUnlock();
     } catch (caught) {
       sessionStorage.removeItem(PENDING_UNLOCK_KEY);
       setBulkStage("idle");
@@ -560,7 +589,7 @@ export function CandidateUnlockPanel({
           void confirmUnlock(checkout.orderId, checkout.paymentId)
             .then(() => {
               finish();
-              onUnlockAll?.();
+              completeUnlock();
             })
             .catch((caught) =>
               finish(caught instanceof Error ? caught.message : copy.bulkFailed),
@@ -608,12 +637,19 @@ export function CandidateUnlockPanel({
     void Promise.resolve()
       .then(async () => {
         if (failureCode) throw new Error(failureMessage || copy.bulkFailed);
-        if (!pending || pending.orderId !== orderId || !pending.paymentId) {
+        // 다른 브라우징 컨텍스트로 복귀해 sessionStorage(pending)가 없을 수 있으므로,
+        // 포트원이 리디렉션 URL에 붙인 paymentId를 폴백으로 사용한다(confirm이 서버에서
+        // 주문·금액을 재검증하므로 안전하다). orderId는 결제 자체를 보증하지 않는다.
+        const paymentId =
+          pending && pending.orderId === orderId && pending.paymentId
+            ? pending.paymentId
+            : params.get("paymentId") || undefined;
+        if (!paymentId) {
           throw new Error(copy.bulkFailed);
         }
         setBulkStage("paying");
-        await confirmUnlock(orderId, pending.paymentId);
-        onUnlockAll?.();
+        await confirmUnlock(orderId, paymentId);
+        completeUnlock();
       })
       .catch((caught) => {
         setBulkError(caught instanceof Error ? caught.message : copy.bulkFailed);

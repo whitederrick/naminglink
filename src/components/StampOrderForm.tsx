@@ -292,11 +292,17 @@ export function StampOrderForm({
     void Promise.resolve()
       .then(async () => {
         if (failureCode) throw new Error(failureMessage || copy.payIncomplete);
-        if (!pending || pending.orderId !== orderId || !pending.paymentId) {
+        // 다른 컨텍스트로 복귀해 sessionStorage(pending)가 없을 수 있으므로, 포트원이 리디렉션
+        // URL에 붙인 paymentId를 폴백으로 사용한다(confirm이 서버에서 주문·금액을 재검증).
+        const paymentId =
+          pending && pending.orderId === orderId && pending.paymentId
+            ? pending.paymentId
+            : params.get("paymentId") || undefined;
+        if (!paymentId) {
           throw new Error(copy.recoverFailed);
         }
         setStage("confirming");
-        await confirmOrder(orderId, pending.paymentId);
+        await confirmOrder(orderId, paymentId);
         setCompletedOrderId(orderId);
         setStage("done");
       })
