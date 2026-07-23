@@ -200,6 +200,14 @@ export async function POST(request: NextRequest) {
       throw sessionError;
     }
 
+    // 인기순 정렬용 선택 집계(주문 생성 기준, best-effort).
+    if (parsed.data.fontCodes.length > 0) {
+      const { error: pickError } = await supabase.rpc("increment_font_picks", {
+        font_codes: parsed.data.fontCodes,
+      });
+      if (pickError) console.error("Failed to increment font picks", pickError);
+    }
+
     return NextResponse.json({
       ok: true,
       checkout: {

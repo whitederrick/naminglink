@@ -32,6 +32,7 @@ type PremiumCopy = {
   artDesc: string;
   artBuy: string;
   fontSelect: string;
+  fontMore: string;
   packTitle: string;
   packDesc: string;
   packBuy: string;
@@ -56,6 +57,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "이름 아트 팩 (PDF)",
     packDesc: "선택한 이름 하나를, 고른 붓글씨 서체마다 아트 한 장씩으로 만들어 드립니다. 서체마다 담긴 이야기가 함께합니다. 결제 후 24시간 다운로드.",
     packBuy: "아트 팩 구매",
+    fontMore: "서체 더보기",
   },
   en: {
     title: "Premium Korean Name Report (PDF)",
@@ -75,6 +77,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Name Art Pack (PDF)",
     packDesc: "One chosen name, rendered as a keepsake art page in each calligraphy typeface you pick — every typeface carries its own story. Downloadable for 24 hours.",
     packBuy: "Buy the art pack",
+    fontMore: "See all typefaces",
   },
   vi: {
     title: "Báo cáo tên tiếng Hàn cao cấp (PDF)",
@@ -94,6 +97,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Gói nghệ thuật tên (PDF)",
     packDesc: "Một cái tên bạn chọn, được thể hiện thành một trang nghệ thuật với mỗi kiểu chữ thư pháp bạn chọn — mỗi kiểu chữ đều có câu chuyện riêng. Tải xuống trong 24 giờ.",
     packBuy: "Mua gói nghệ thuật",
+    fontMore: "Xem tất cả kiểu chữ",
   },
   th: {
     title: "รายงานชื่อเกาหลีพรีเมียม (PDF)",
@@ -113,6 +117,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "แพ็กศิลปะชื่อ (PDF)",
     packDesc: "ชื่อที่คุณเลือกหนึ่งชื่อ ถูกสร้างเป็นหน้าศิลปะหนึ่งหน้าต่อแบบอักษรพู่กันที่คุณเลือก — แต่ละแบบอักษรมีเรื่องราวของตัวเอง ดาวน์โหลดได้ 24 ชั่วโมง",
     packBuy: "ซื้อแพ็กศิลปะ",
+    fontMore: "ดูแบบอักษรทั้งหมด",
   },
   ja: {
     title: "プレミアム韓国語名前レポート (PDF)",
@@ -132,6 +137,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "名前アートパック (PDF)",
     packDesc: "選んだ名前ひとつを、選んだ書体ごとに1枚ずつのアートに仕上げます。各書体にはそれぞれの物語があります。購入後24時間ダウンロードできます。",
     packBuy: "アートパックを購入",
+    fontMore: "書体をすべて見る",
   },
   zh: {
     title: "高级韩文名字报告 (PDF)",
@@ -151,6 +157,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "名字艺术包 (PDF)",
     packDesc: "将您选择的一个名字，以每种所选书法字体各制成一页艺术作品 — 每种字体都有自己的故事。购买后 24 小时内可下载。",
     packBuy: "购买艺术包",
+    fontMore: "查看全部字体",
   },
   id: {
     title: "Laporan Nama Korea Premium (PDF)",
@@ -170,6 +177,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Paket Seni Nama (PDF)",
     packDesc: "Satu nama pilihan Anda, dijadikan satu halaman seni untuk tiap gaya kaligrafi yang Anda pilih — setiap gaya huruf punya kisahnya sendiri. Dapat diunduh 24 jam.",
     packBuy: "Beli paket seni",
+    fontMore: "Lihat semua gaya huruf",
   },
   de: {
     title: "Premium-Bericht zum koreanischen Namen (PDF)",
@@ -189,6 +197,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Namenskunst-Paket (PDF)",
     packDesc: "Ein gewählter Name, als Kunstseite in jedem von Ihnen gewählten Kalligrafie-Stil — jeder Schriftstil trägt seine eigene Geschichte. 24 Stunden herunterladbar.",
     packBuy: "Kunst-Paket kaufen",
+    fontMore: "Alle Schriftstile ansehen",
   },
   es: {
     title: "Informe premium de tu nombre coreano (PDF)",
@@ -208,6 +217,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pack de arte del nombre (PDF)",
     packDesc: "Un nombre elegido, convertido en una página de arte por cada caligrafía que elijas — cada caligrafía tiene su propia historia. Descargable durante 24 horas.",
     packBuy: "Comprar el pack de arte",
+    fontMore: "Ver todas las caligrafías",
   },
   fr: {
     title: "Rapport premium de votre nom coréen (PDF)",
@@ -227,6 +237,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pack d'art du prénom (PDF)",
     packDesc: "Un prénom choisi, transformé en une page d'art pour chaque calligraphie sélectionnée — chaque style porte sa propre histoire. Téléchargeable pendant 24 h.",
     packBuy: "Acheter le pack d'art",
+    fontMore: "Voir toutes les calligraphies",
   },
   it: {
     title: "Report premium del tuo nome coreano (PDF)",
@@ -246,6 +257,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pacchetto d'arte del nome (PDF)",
     packDesc: "Un nome scelto, reso come pagina d'arte in ogni stile calligrafico selezionato — ogni stile porta la propria storia. Scaricabile per 24 ore.",
     packBuy: "Acquista il pacchetto",
+    fontMore: "Vedi tutti gli stili",
   },
   pt: {
     title: "Relatório premium do seu nome coreano (PDF)",
@@ -265,6 +277,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pacote de arte do nome (PDF)",
     packDesc: "Um nome escolhido, transformado em uma página de arte para cada caligrafia selecionada — cada estilo carrega sua própria história. Disponível por 24 horas.",
     packBuy: "Comprar o pacote de arte",
+    fontMore: "Ver todas as caligrafias",
   },
   ru: {
     title: "Премиум-отчёт о корейском имени (PDF)",
@@ -284,6 +297,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Арт-набор имени (PDF)",
     packDesc: "Одно выбранное имя — по одной арт-странице в каждом выбранном каллиграфическом шрифте. У каждого шрифта своя история. Доступно для скачивания 24 часа.",
     packBuy: "Купить арт-набор",
+    fontMore: "Показать все шрифты",
   },
   ar: {
     title: "تقرير مميز لاسمك الكوري (PDF)",
@@ -303,6 +317,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "باقة فن الاسم (PDF)",
     packDesc: "اسم واحد تختاره، يُصمم كصفحة فنية بكل خط تختاره — ولكل خط قصته الخاصة. يمكن تنزيله خلال 24 ساعة.",
     packBuy: "شراء الباقة الفنية",
+    fontMore: "عرض كل الخطوط",
   },
   tr: {
     title: "Premium Korece İsim Raporu (PDF)",
@@ -322,6 +337,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "İsim Sanat Paketi (PDF)",
     packDesc: "Seçtiğiniz bir isim, seçtiğiniz her hat stilinde birer sanat sayfası olarak — her yazı stilinin kendi hikâyesi var. 24 saat indirilebilir.",
     packBuy: "Sanat paketini satın al",
+    fontMore: "Tüm yazı stillerini gör",
   },
   fil: {
     title: "Premium na Ulat ng Koreanong Pangalan (PDF)",
@@ -341,6 +357,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Name Art Pack (PDF)",
     packDesc: "Isang napiling pangalan, ginawang isang art page sa bawat kaligrapiyang pipiliin mo — bawat estilo may sariling kuwento. Maida-download sa loob ng 24 oras.",
     packBuy: "Bilhin ang art pack",
+    fontMore: "Tingnan lahat ng estilo",
   },
   uz: {
     title: "Premium koreys ismi hisoboti (PDF)",
@@ -360,6 +377,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Ism san’at to‘plami (PDF)",
     packDesc: "Tanlangan bitta ism, siz tanlagan har bir xattotlik uslubida bittadan san’at sahifasi sifatida — har bir uslubning o‘z hikoyasi bor. 24 soat yuklab olinadi.",
     packBuy: "San’at to‘plamini sotib olish",
+    fontMore: "Barcha uslublarni ko‘rish",
   },
   mn: {
     title: "Премиум солонгос нэрийн тайлан (PDF)",
@@ -379,6 +397,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Нэрийн урлагийн багц (PDF)",
     packDesc: "Сонгосон нэг нэрийг таны сонгосон бичгийн хэв бүрээр нэг нэг урлагийн хуудас болгоно — хэв бүр өөрийн түүхтэй. 24 цагийн дотор татаж авна.",
     packBuy: "Урлагийн багц худалдан авах",
+    fontMore: "Бүх бичгийн хэвийг харах",
   },
   hi: {
     title: "प्रीमियम कोरियाई नाम रिपोर्ट (PDF)",
@@ -398,6 +417,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "नाम आर्ट पैक (PDF)",
     packDesc: "आपका चुना एक नाम, आपकी चुनी हर सुलेख शैली में एक-एक आर्ट पेज के रूप में — हर शैली की अपनी कहानी है। 24 घंटे तक डाउनलोड करें।",
     packBuy: "आर्ट पैक खरीदें",
+    fontMore: "सभी लिपि शैलियाँ देखें",
   },
   km: {
     title: "របាយការណ៍ឈ្មោះកូរ៉េពិសេស (PDF)",
@@ -417,6 +437,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "កញ្ចប់សិល្បៈឈ្មោះ (PDF)",
     packDesc: "ឈ្មោះមួយដែលអ្នកជ្រើសរើស ត្រូវបានបង្កើតជាទំព័រសិល្បៈមួយទំព័រក្នុងមួយរចនាប័ទ្មអក្សរដែលអ្នកជ្រើស — រចនាប័ទ្មនីមួយៗមានរឿងរ៉ាវផ្ទាល់ខ្លួន។ ទាញយកបាន 24 ម៉ោង។",
     packBuy: "ទិញកញ្ចប់សិល្បៈ",
+    fontMore: "មើលរចនាប័ទ្មអក្សរទាំងអស់",
   },
   kk: {
     title: "Премиум корей есімі есебі (PDF)",
@@ -436,6 +457,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Есім өнер жинағы (PDF)",
     packDesc: "Таңдалған бір есім — сіз таңдаған әр каллиграфиялық стильде бір-бір өнер бетінен. Әр стильдің өз тарихы бар. 24 сағат жүктеледі.",
     packBuy: "Өнер жинағын сатып алу",
+    fontMore: "Барлық қаріп стильдерін көру",
   },
   ms: {
     title: "Laporan Nama Korea Premium (PDF)",
@@ -455,6 +477,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pek Seni Nama (PDF)",
     packDesc: "Satu nama pilihan anda, dijadikan satu halaman seni bagi setiap gaya kaligrafi yang anda pilih — setiap gaya ada kisahnya sendiri. Boleh dimuat turun 24 jam.",
     packBuy: "Beli pek seni",
+    fontMore: "Lihat semua gaya tulisan",
   },
   pl: {
     title: "Raport premium o koreańskim imieniu (PDF)",
@@ -474,6 +497,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     packTitle: "Pakiet artystyczny imienia (PDF)",
     packDesc: "Jedno wybrane imię — po jednej stronie artystycznej w każdym wybranym stylu kaligrafii. Każdy styl ma własną historię. Do pobrania przez 24 godziny.",
     packBuy: "Kup pakiet artystyczny",
+    fontMore: "Zobacz wszystkie style",
   },
 };
 
@@ -543,6 +567,52 @@ function readStoredCheckout(product: PremiumProductKey): StoredPremiumCheckout |
   }
 }
 
+// 서체 칩(메인 그리드·더보기 시트 공용) — 모바일 터치 타깃을 넉넉히 잡는다.
+function FontChip({
+  font,
+  selected,
+  disabled,
+  onToggle,
+  onInfo,
+}: {
+  font: FontOption;
+  selected: boolean;
+  disabled: boolean;
+  onToggle: () => void;
+  onInfo: () => void;
+}) {
+  return (
+    <div
+      className={`relative rounded-lg border p-2.5 transition ${
+        selected
+          ? "border-brand-teal bg-surface-strong"
+          : "border-line bg-background hover:border-brand-teal/50"
+      }`}
+    >
+      <button
+        type="button"
+        onClick={onToggle}
+        disabled={disabled}
+        className="block min-h-[84px] w-full text-left"
+      >
+        {font.preview ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={font.preview} alt={font.name} className="h-20 w-full object-contain" />
+        ) : null}
+        <span className="mt-1.5 block truncate text-xs font-medium">{font.name}</span>
+      </button>
+      <button
+        type="button"
+        onClick={onInfo}
+        aria-label={`${font.name} info`}
+        className="absolute right-1.5 top-1.5 flex size-7 items-center justify-center rounded-full border border-line bg-surface text-xs font-semibold text-muted"
+      >
+        i
+      </button>
+    </div>
+  );
+}
+
 function makeStoredCheckout(
   base: Omit<StoredPremiumCheckout, "savedAt">,
 ): StoredPremiumCheckout {
@@ -586,6 +656,7 @@ export function GlobalNamePremiumPanel({
   const [productInfo, setProductInfo] = useState<ProductInfo | null>(null);
   const [selectedFonts, setSelectedFonts] = useState<string[]>([]);
   const [infoFont, setInfoFont] = useState<FontOption | null>(null);
+  const [showAllFonts, setShowAllFonts] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [stage, setStage] = useState<
     "idle" | "ordering" | "paying" | "confirming" | "generating" | "ready"
@@ -868,48 +939,30 @@ export function GlobalNamePremiumPanel({
           <p className="text-xs font-medium text-muted">
             {copy.fontSelect} ({selectedFonts.length}/{requiredFonts})
           </p>
-          <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3">
-            {fontOptions.map((font) => {
-              const selected = selectedFonts.includes(font.code);
-              return (
-                <div
-                  key={font.code}
-                  className={`relative rounded-lg border p-2 transition ${
-                    selected
-                      ? "border-brand-teal bg-surface-strong"
-                      : "border-line bg-background hover:border-brand-teal/50"
-                  }`}
-                >
-                  <button
-                    type="button"
-                    onClick={() => toggleFont(font.code)}
-                    disabled={busy || stage === "ready"}
-                    className="block w-full text-left"
-                  >
-                    {font.preview ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={font.preview}
-                        alt={font.name}
-                        className="h-12 w-full object-contain"
-                      />
-                    ) : null}
-                    <span className="mt-1 block truncate text-xs font-medium">{font.name}</span>
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setInfoFont(font)}
-                    aria-label={`${font.name} info`}
-                    className="absolute right-1.5 top-1.5 flex size-5 items-center justify-center rounded-full border border-line bg-surface text-[11px] font-semibold text-muted"
-                  >
-                    i
-                  </button>
-                </div>
-              );
-            })}
+          {/* 인기순 상위 4종만 크게 노출하고, 나머지는 더보기 시트에서 고른다(모바일 우선). */}
+          <div className="mt-2 grid grid-cols-2 gap-3">
+            {fontOptions.slice(0, 4).map((font) => (
+              <FontChip
+                key={font.code}
+                font={font}
+                selected={selectedFonts.includes(font.code)}
+                disabled={busy || stage === "ready"}
+                onToggle={() => toggleFont(font.code)}
+                onInfo={() => setInfoFont(font)}
+              />
+            ))}
           </div>
+          {fontOptions.length > 4 ? (
+            <button
+              type="button"
+              onClick={() => setShowAllFonts(true)}
+              className="mt-3 inline-flex h-11 w-full items-center justify-center rounded-lg border border-line bg-background text-sm font-semibold text-foreground"
+            >
+              {copy.fontMore} ({fontOptions.length})
+            </button>
+          ) : null}
           {selectedFonts.length > 0 ? (
-            <div className="mt-2 grid gap-1.5">
+            <div className="mt-3 grid gap-1.5">
               {selectedFonts.map((code) => {
                 const font = fontOptions.find((option) => option.code === code);
                 if (!font) return null;
@@ -1000,6 +1053,56 @@ export function GlobalNamePremiumPanel({
         </button>
       ) : null}
       {error ? <p className="mt-3 text-sm font-medium text-red-600">{error}</p> : null}
+
+      {showAllFonts ? (
+        <div
+          className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 sm:items-center sm:p-5"
+          onClick={() => setShowAllFonts(false)}
+          role="presentation"
+        >
+          <div
+            className="flex max-h-[85vh] w-full max-w-lg flex-col rounded-t-2xl bg-surface sm:rounded-lg"
+            onClick={(event) => event.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+          >
+            <div className="flex items-center justify-between border-b border-line px-5 py-3">
+              <p className="text-sm font-semibold">
+                {copy.fontSelect} ({selectedFonts.length}/{requiredFonts})
+              </p>
+              <button
+                type="button"
+                onClick={() => setShowAllFonts(false)}
+                aria-label="close"
+                className="flex size-8 items-center justify-center rounded-full border border-line text-sm text-muted"
+              >
+                ×
+              </button>
+            </div>
+            <div className="grid flex-1 grid-cols-2 gap-3 overflow-y-auto p-5">
+              {fontOptions.map((font) => (
+                <FontChip
+                  key={font.code}
+                  font={font}
+                  selected={selectedFonts.includes(font.code)}
+                  disabled={busy || stage === "ready"}
+                  onToggle={() => toggleFont(font.code)}
+                  onInfo={() => setInfoFont(font)}
+                />
+              ))}
+            </div>
+            <div className="border-t border-line p-4">
+              <button
+                type="button"
+                onClick={() => setShowAllFonts(false)}
+                className="inline-flex h-11 w-full items-center justify-center rounded-lg bg-foreground text-sm font-semibold text-background"
+              >
+                OK ({selectedFonts.length}/{requiredFonts})
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
 
       {infoFont ? (
         <div

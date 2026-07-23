@@ -40,17 +40,20 @@ export type ReportFontRow = {
   preview_path: string | null;
   enabled: boolean;
   sort_order: number;
+  pick_count: number;
 };
 
 const FONT_SELECT =
-  "id,code,name_ko,name_en,copyright_holder,license_type,source_url,story_ko,stories,storage_path,file_sha256,preview_path,enabled,sort_order";
+  "id,code,name_ko,name_en,copyright_holder,license_type,source_url,story_ko,stories,storage_path,file_sha256,preview_path,enabled,sort_order,pick_count";
 
 export async function listReportFonts(options?: { enabledOnly?: boolean }) {
   const supabase = getSupabaseAdminClient();
   if (!supabase) throw new Error("서체 저장소 연결이 설정되지 않았습니다.");
+  // 인기순(선택 횟수) → 관리자 정렬 순.
   let query = supabase
     .from("report_fonts")
     .select(FONT_SELECT)
+    .order("pick_count", { ascending: false })
     .order("sort_order", { ascending: true })
     .order("created_at", { ascending: true });
   if (options?.enabledOnly) query = query.eq("enabled", true);
