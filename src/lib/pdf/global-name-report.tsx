@@ -13,6 +13,7 @@ import {
 } from "@react-pdf/renderer";
 
 import type { GlobalNameReportData } from "@/lib/global-name-premium";
+import { MixedText } from "@/lib/pdf/report-fonts";
 
 // 글로벌 프리미엄 4장 PDF (2026-07-23 사용자 확정: 표지 서체 2종).
 // 1장: 붓글씨(나눔붓) 이름 아트, 2장: 손글씨 펜(나눔펜) 이름 아트,
@@ -32,10 +33,11 @@ Font.register({
     { src: path.join(process.cwd(), "assets/fonts/NanumBrushScript-Regular.ttf"), fontWeight: 400 },
   ],
 });
+// 표지 서체 2종: 거친 붓(동해독도체) + 부드러운 붓(나눔붓글씨).
 Font.register({
-  family: "NanumPen",
+  family: "EastSeaDokdo",
   fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NanumPenScript-Regular.ttf"), fontWeight: 400 },
+    { src: path.join(process.cwd(), "assets/fonts/EastSeaDokdo-Regular.ttf"), fontWeight: 400 },
   ],
 });
 // 원 이름(山田 太郎 등)·설명 텍스트에 한자가 섞일 수 있어 CJK 글리프가 있는 폰트를 본문에 쓴다.
@@ -159,7 +161,10 @@ const styles = StyleSheet.create({
     marginBottom: 6,
     marginTop: 14,
   },
-  paragraph: { color: colors.ink, fontFamily: "NotoSansCJKkr" },
+  paragraph: { color: colors.ink },
+  // 가로(landscape) 내용 페이지는 2단으로 배치해 세로 공간 부족으로 페이지가 넘치지 않게 한다.
+  columns: { flexDirection: "row", gap: 22 },
+  column: { flex: 1, minWidth: 0 },
   syllableRow: {
     flexDirection: "row",
     borderWidth: 1,
@@ -235,18 +240,19 @@ function Section({ title, body }: { title: string; body: string }) {
   return (
     <View wrap={false}>
       <Text style={styles.sectionTitle}>{title}</Text>
-      <Text style={styles.paragraph}>{body}</Text>
+      <MixedText style={styles.paragraph} text={body} />
     </View>
   );
 }
 
-function PageFooter({ data, page }: { data: GlobalNameReportData; page: number }) {
+function PageFooter({ data }: { data: GlobalNameReportData }) {
   return (
     <View style={styles.footer} fixed>
       <Text style={styles.footerText}>NAMING-LINK · Korean Name Premium Report</Text>
-      <Text style={styles.footerText}>
-        {data.reportId} · {page}/4
-      </Text>
+      <Text
+        style={styles.footerText}
+        render={({ pageNumber, totalPages }) => `${data.reportId} · ${pageNumber}/${totalPages}`}
+      />
     </View>
   );
 }
@@ -258,11 +264,10 @@ function PageHeader({ data }: { data: GlobalNameReportData }) {
         <Text style={styles.pageHeaderName}>
           {data.name.hangul} · {data.name.romanized}
         </Text>
-        <Text
-          style={{ fontSize: 8.5, color: colors.muted, marginTop: 2, fontFamily: "NotoSansCJKkr" }}
-        >
-          Korean name report for {data.original.name}
-        </Text>
+        <MixedText
+          style={{ fontSize: 8.5, color: colors.muted, marginTop: 2 }}
+          text={`Korean name report for ${data.original.name}`}
+        />
       </View>
       {logoSrc ? <Image src={logoSrc} style={styles.logo} /> : null}
     </View>
@@ -276,17 +281,17 @@ function CoverPage({
   styleLabel,
 }: {
   data: GlobalNameReportData;
-  fontFamily: "NanumBrush" | "NanumPen";
+  fontFamily: "EastSeaDokdo" | "NanumBrush";
   styleLabel: string;
 }) {
   const generatedDate = data.generatedAt.slice(0, 10);
   return (
-    <Page size="A4" style={styles.coverPage}>
+    <Page size="A4" orientation="landscape" style={styles.coverPage}>
       <View style={styles.coverFrameOuter}>
         <View style={styles.coverFrameInner}>
           <View style={{ alignItems: "center" }}>
             <Text style={styles.coverEyebrow}>Korean Name Certificate</Text>
-            <Text style={styles.coverOriginal}>for {data.original.name}</Text>
+            <MixedText style={styles.coverOriginal} text={`for ${data.original.name}`} />
           </View>
           <View style={styles.coverNameBlock}>
             <Text
@@ -325,82 +330,96 @@ export function GlobalNameReportDocument({ data }: { data: GlobalNameReportData 
   const maxElementCount = Math.max(1, ...(data.saju?.counts.map((entry) => entry.count) ?? [1]));
   return (
     <Document title={`Naming-Link Korean Name Report ${data.name.hangul}`}>
-      <CoverPage data={data} fontFamily="NanumBrush" styleLabel="Brush" />
-      <CoverPage data={data} fontFamily="NanumPen" styleLabel="Pen" />
+      <CoverPage data={data} fontFamily="EastSeaDokdo" styleLabel="Brush" />
+      <CoverPage data={data} fontFamily="NanumBrush" styleLabel="Soft Brush" />
 
-      {/* 3장: 의미·이유·발음 */}
-      <Page size="A4" style={styles.page}>
+      {/* 3장: 의미·이유·발음 (가로 2단) */}
+      <Page size="A4" orientation="landscape" style={styles.page}>
         <PageHeader data={data} />
-        <Section title="Overview" body={data.sections.analysisSummary} />
-        <Text style={styles.sectionTitle}>Meaning, syllable by syllable</Text>
-        {data.sections.meaningBreakdown.map((entry, index) => (
-          <View key={index} style={styles.syllableRow} wrap={false}>
-            <View style={styles.syllableCell}>
-              <Text style={styles.syllableChar}>{entry.syllable}</Text>
-            </View>
-            <View style={styles.syllableMeaning}>
-              <Text style={{ fontFamily: "NotoSansCJKkr" }}>{entry.meaning}</Text>
-            </View>
-          </View>
-        ))}
-        <Section title="Why this name" body={data.sections.whyThisName} />
-        <Section title="Connection to your original name" body={data.sections.soundConnection} />
-        <Section title="How to pronounce it" body={data.sections.pronunciationTips} />
-        <PageFooter data={data} page={3} />
-      </Page>
-
-      {/* 4장: 사주·오행 + 문화·사용 안내 */}
-      <Page size="A4" style={styles.page}>
-        <PageHeader data={data} />
-        {data.saju ? (
-          <View>
-            <Text style={styles.sectionTitle}>Five elements reference (사주·오행)</Text>
-            <View style={styles.sajuMetaRow}>
-              <View style={styles.sajuMetaBox}>
-                <Text style={styles.sajuMetaLabel}>Birth (solar)</Text>
-                <Text style={styles.sajuMetaValue}>{data.saju.birthLabel}</Text>
-              </View>
-              <View style={styles.sajuMetaBox}>
-                <Text style={styles.sajuMetaLabel}>Day master (일간)</Text>
-                <Text style={styles.sajuMetaValue}>{data.saju.dayMaster}</Text>
-              </View>
-            </View>
-            {data.saju.counts.map((entry) => (
-              <View key={entry.element} style={styles.elementRow}>
-                <Text style={styles.elementLabel}>{entry.label}</Text>
-                <View style={styles.elementBarTrack}>
-                  <View
-                    style={[
-                      styles.elementBarFill,
-                      { width: `${Math.round((entry.count / maxElementCount) * 100)}%` },
-                    ]}
-                  />
+        <View style={styles.columns}>
+          <View style={styles.column}>
+            <Section title="Overview" body={data.sections.analysisSummary} />
+            <Text style={styles.sectionTitle}>Meaning, syllable by syllable</Text>
+            {data.sections.meaningBreakdown.map((entry, index) => (
+              <View key={index} style={styles.syllableRow} wrap={false}>
+                <View style={styles.syllableCell}>
+                  <Text style={styles.syllableChar}>{entry.syllable}</Text>
                 </View>
-                <Text style={styles.elementCount}>{entry.count}</Text>
+                <View style={styles.syllableMeaning}>
+                  <MixedText text={entry.meaning} />
+                </View>
               </View>
             ))}
-            <View style={[styles.sajuMetaRow, { marginTop: 8 }]}>
-              <View style={styles.sajuMetaBox}>
-                <Text style={styles.sajuMetaLabel}>Strongest</Text>
-                <Text style={styles.sajuMetaValue}>{data.saju.dominant}</Text>
-              </View>
-              <View style={styles.sajuMetaBox}>
-                <Text style={styles.sajuMetaLabel}>Least present</Text>
-                <Text style={styles.sajuMetaValue}>{data.saju.weakest}</Text>
-              </View>
-            </View>
-            <Section title="Reading the balance" body={data.saju.overview} />
-            <Section title="How the name aligns" body={data.saju.nameAlignment} />
           </View>
-        ) : (
-          <Text style={{ fontSize: 9, color: colors.muted }}>
-            Birth details were not provided, so the five-element reference is not included in this
-            report.
-          </Text>
-        )}
-        <Section title="How Koreans will hear this name" body={data.sections.culturalNotes} />
-        <Section title="Using your Korean name" body={data.sections.usageGuide} />
-        <PageFooter data={data} page={4} />
+          <View style={styles.column}>
+            <Section title="Why this name" body={data.sections.whyThisName} />
+            <Section title="Connection to your original name" body={data.sections.soundConnection} />
+            <Section title="How to pronounce it" body={data.sections.pronunciationTips} />
+          </View>
+        </View>
+        <PageFooter data={data} />
+      </Page>
+
+      {/* 4장: 사주·오행 + 문화·사용 안내 (가로 2단) */}
+      <Page size="A4" orientation="landscape" style={styles.page}>
+        <PageHeader data={data} />
+        <View style={styles.columns}>
+          <View style={styles.column}>
+            {data.saju ? (
+              <View>
+                <Text style={styles.sectionTitle}>Five elements reference (사주·오행)</Text>
+                <View style={styles.sajuMetaRow}>
+                  <View style={styles.sajuMetaBox}>
+                    <Text style={styles.sajuMetaLabel}>Birth (solar)</Text>
+                    <Text style={styles.sajuMetaValue}>{data.saju.birthLabel}</Text>
+                  </View>
+                  <View style={styles.sajuMetaBox}>
+                    <Text style={styles.sajuMetaLabel}>Day master (일간)</Text>
+                    <Text style={styles.sajuMetaValue}>{data.saju.dayMaster}</Text>
+                  </View>
+                </View>
+                {data.saju.counts.map((entry) => (
+                  <View key={entry.element} style={styles.elementRow}>
+                    <Text style={styles.elementLabel}>{entry.label}</Text>
+                    <View style={styles.elementBarTrack}>
+                      <View
+                        style={[
+                          styles.elementBarFill,
+                          { width: `${Math.round((entry.count / maxElementCount) * 100)}%` },
+                        ]}
+                      />
+                    </View>
+                    <Text style={styles.elementCount}>{entry.count}</Text>
+                  </View>
+                ))}
+                <View style={[styles.sajuMetaRow, { marginTop: 8 }]}>
+                  <View style={styles.sajuMetaBox}>
+                    <Text style={styles.sajuMetaLabel}>Strongest</Text>
+                    <Text style={styles.sajuMetaValue}>{data.saju.dominant}</Text>
+                  </View>
+                  <View style={styles.sajuMetaBox}>
+                    <Text style={styles.sajuMetaLabel}>Least present</Text>
+                    <Text style={styles.sajuMetaValue}>{data.saju.weakest}</Text>
+                  </View>
+                </View>
+                <Section title="Reading the balance" body={data.saju.overview} />
+              </View>
+            ) : (
+              <Text style={{ fontSize: 9, color: colors.muted }}>
+                Birth details were not provided, so the five-element reference is not included in
+                this report.
+              </Text>
+            )}
+          </View>
+          <View style={styles.column}>
+            {data.saju ? (
+              <Section title="How the name aligns" body={data.saju.nameAlignment} />
+            ) : null}
+            <Section title="How Koreans will hear this name" body={data.sections.culturalNotes} />
+            <Section title="Using your Korean name" body={data.sections.usageGuide} />
+          </View>
+        </View>
+        <PageFooter data={data} />
       </Page>
     </Document>
   );

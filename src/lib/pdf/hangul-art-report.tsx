@@ -13,6 +13,7 @@ import {
 } from "@react-pdf/renderer";
 
 import type { HangulArtReportData } from "@/lib/hangul-art-premium";
+import { MixedText } from "@/lib/pdf/report-fonts";
 
 // 발음 표기 붓글씨 3장 PDF (2026-07-23 사용자 확정: 서체 2종).
 // 1장: 붓글씨(나눔붓) 표기 아트, 2장: 손글씨 펜(나눔펜) 표기 아트,
@@ -31,10 +32,12 @@ Font.register({
     { src: path.join(process.cwd(), "assets/fonts/NanumBrushScript-Regular.ttf"), fontWeight: 400 },
   ],
 });
+// 표지 서체 2종: 거친 붓(동해독도체) + 부드러운 붓(나눔붓글씨). 2026-07-23 사용자 피드백으로
+// 볼펜 느낌의 나눔펜 대신 더 붓글씨다운 동해독도체를 1번 서체로 채택.
 Font.register({
-  family: "NanumPen",
+  family: "EastSeaDokdo",
   fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NanumPenScript-Regular.ttf"), fontWeight: 400 },
+    { src: path.join(process.cwd(), "assets/fonts/EastSeaDokdo-Regular.ttf"), fontWeight: 400 },
   ],
 });
 // 원 이름·발음 근거에 한자(예: 王小明)가 섞일 수 있어 CJK 글리프가 있는 폰트를 본문에 쓴다.
@@ -124,6 +127,8 @@ const styles = StyleSheet.create({
   pageHeaderName: { fontSize: 15, fontWeight: 700 },
   logo: { width: 64, objectFit: "contain" },
   sectionTitle: { fontSize: 11.5, fontWeight: 700, color: colors.teal, marginBottom: 6, marginTop: 14 },
+  columns: { flexDirection: "row", gap: 22 },
+  column: { flex: 1, minWidth: 0 },
   metaRow: { flexDirection: "row", gap: 10, marginBottom: 4 },
   metaBox: {
     flex: 1,
@@ -163,7 +168,7 @@ function Section({ title, body }: { title: string; body: string }) {
   return (
     <View wrap={false}>
       <Text style={styles.sectionTitle}>{title}</Text>
-      <Text style={{ fontFamily: "NotoSansCJKkr" }}>{body}</Text>
+      <MixedText text={body} />
     </View>
   );
 }
@@ -175,17 +180,17 @@ function ArtCoverPage({
   styleLabel,
 }: {
   data: HangulArtReportData;
-  fontFamily: "NanumBrush" | "NanumPen";
+  fontFamily: "EastSeaDokdo" | "NanumBrush";
   styleLabel: string;
 }) {
   const generatedDate = data.generatedAt.slice(0, 10);
   return (
-    <Page size="A4" style={styles.coverPage}>
+    <Page size="A4" orientation="landscape" style={styles.coverPage}>
       <View style={styles.coverFrameOuter}>
         <View style={styles.coverFrameInner}>
           <View style={{ alignItems: "center" }}>
             <Text style={styles.coverEyebrow}>Hangul Name Art</Text>
-            <Text style={styles.coverOriginal}>for {data.original.name}</Text>
+            <MixedText style={styles.coverOriginal} text={`for ${data.original.name}`} />
           </View>
           <View style={{ alignItems: "center" }}>
             <Text
@@ -223,46 +228,55 @@ function ArtCoverPage({
 export function HangulArtReportDocument({ data }: { data: HangulArtReportData }) {
   return (
     <Document title={`Naming-Link Hangul Name Art ${data.name.hangul}`}>
-      <ArtCoverPage data={data} fontFamily="NanumBrush" styleLabel="Brush" />
-      <ArtCoverPage data={data} fontFamily="NanumPen" styleLabel="Pen" />
+      <ArtCoverPage data={data} fontFamily="EastSeaDokdo" styleLabel="Brush" />
+      <ArtCoverPage data={data} fontFamily="NanumBrush" styleLabel="Soft Brush" />
 
       {/* 3장: 발음 안내 */}
-      <Page size="A4" style={styles.page}>
+      <Page size="A4" orientation="landscape" style={styles.page}>
         <View style={styles.pageHeader}>
           <View>
             <Text style={styles.pageHeaderName}>
               {data.name.hangul} · {data.name.romanized}
             </Text>
-            <Text
-              style={{ fontSize: 8.5, color: colors.muted, marginTop: 2, fontFamily: "NotoSansCJKkr" }}
-            >
-              Hangul spelling of {data.original.name}
-            </Text>
+            <MixedText
+              style={{ fontSize: 8.5, color: colors.muted, marginTop: 2 }}
+              text={`Hangul spelling of ${data.original.name}`}
+            />
           </View>
           {logoSrc ? <Image src={logoSrc} style={styles.logo} /> : null}
         </View>
 
         {/* IPA는 폰트에 확장 기호 글리프가 없어 PDF에는 싣지 않는다(웹 결과 화면에서 제공). */}
-        <View style={styles.metaRow}>
-          <View style={styles.metaBox}>
-            <Text style={styles.metaLabel}>Syllables</Text>
-            <Text style={styles.metaValue}>{data.pronunciation.syllables || data.name.romanized}</Text>
+        <View style={styles.columns}>
+          <View style={styles.column}>
+            <View style={styles.metaRow}>
+              <View style={styles.metaBox}>
+                <Text style={styles.metaLabel}>Syllables</Text>
+                <Text style={styles.metaValue}>
+                  {data.pronunciation.syllables || data.name.romanized}
+                </Text>
+              </View>
+              <View style={styles.metaBox}>
+                <Text style={styles.metaLabel}>Read as</Text>
+                <Text style={styles.metaValue}>{data.name.romanized}</Text>
+              </View>
+            </View>
+            <Section title="Where this spelling comes from" body={data.pronunciation.basis} />
+            <Section title="Why this spelling" body={data.pronunciation.reason} />
           </View>
-          <View style={styles.metaBox}>
-            <Text style={styles.metaLabel}>Read as</Text>
-            <Text style={styles.metaValue}>{data.name.romanized}</Text>
+          <View style={styles.column}>
+            <Section title="How it sounds in Korea" body={data.pronunciation.culturalFit} />
+            <Section title="Using your Hangul name" body={data.pronunciation.usageNote} />
+            <Section title="Good to know" body={data.pronunciation.cautionNotes} />
           </View>
         </View>
 
-        <Section title="Where this spelling comes from" body={data.pronunciation.basis} />
-        <Section title="Why this spelling" body={data.pronunciation.reason} />
-        <Section title="How it sounds in Korea" body={data.pronunciation.culturalFit} />
-        <Section title="Using your Hangul name" body={data.pronunciation.usageNote} />
-        <Section title="Good to know" body={data.pronunciation.cautionNotes} />
-
         <View style={styles.footer} fixed>
           <Text style={styles.footerText}>NAMING-LINK · Hangul Name Art</Text>
-          <Text style={styles.footerText}>{data.reportId} · 3/3</Text>
+          <Text
+            style={styles.footerText}
+            render={({ pageNumber, totalPages }) => `${data.reportId} · ${pageNumber}/${totalPages}`}
+          />
         </View>
       </Page>
     </Document>
