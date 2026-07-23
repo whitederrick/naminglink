@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { requireAdmin } from "@/lib/admin-auth";
+import { renderFontPreviewSvg } from "@/lib/font-preview";
 import {
   listReportFonts,
   translateFontStory,
@@ -81,6 +82,23 @@ export async function POST(request: NextRequest) {
       });
     if (uploadError) throw uploadError;
 
+    // 미리보기 SVG 자동 생성(best-effort): 실패해도 등록은 진행하고 preview 없이 노출된다.
+    let previewPath: string | null = null;
+    try {
+      const svg = renderFontPreviewSvg(buffer);
+      previewPath = `${parsed.data.code}/preview.svg`;
+      const { error: previewError } = await supabase.storage
+        .from("font-previews")
+        .upload(previewPath, Buffer.from(svg, "utf8"), {
+          contentType: "image/svg+xml",
+          upsert: true,
+        });
+      if (previewError) throw previewError;
+    } catch (previewError) {
+      console.error("Failed to generate font preview", previewError);
+      previewPath = null;
+    }
+
     const stories = await translateFontStory(parsed.data.story_ko);
     const { data: inserted, error: insertError } = await supabase
       .from("report_fonts")
@@ -89,6 +107,7 @@ export async function POST(request: NextRequest) {
         stories,
         storage_path: storagePath,
         file_sha256: sha,
+        preview_path: previewPath,
         enabled: true,
       })
       .select("id,code")
