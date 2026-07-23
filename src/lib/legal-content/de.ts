@@ -15,54 +15,57 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Art des Dienstes",
+          title: "1. Art der Dienstleistung",
           paragraphs: [
-            "Naming-Link ist ein KI-gestütztes Naming-Studio und bietet die folgenden vier Dienste an: (1) Zuordnung passender Hanja (chinesischer Schriftzeichen) mit Bedeutung zu koreanischen Namen, (2) Umwandlung koreanischer Namen in internationale Namen, (3) Umwandlung ausländischer Namen in koreanische Namen und (4) Umschrift internationaler Namen nach ihrer Aussprache in koreanisches Hangul.",
-            "Die Ergebnisse sind Referenzmaterial zur Unterstützung bei der Namensfindung und -deutung. Sie garantieren keine Eignung für amtliche Eintragungen, etwa in Personenstandsregistern, Pässen, Visa, Marken oder Rechtsdokumenten.",
+            "Naming-Link ist ein KI-gestütztes Namensstudio, das die folgenden vier Dienstleistungen anbietet: ① Zuordnung von Hanzi-Bedeutungen zu koreanischen Namen ② Umwandlung koreanischer Namen in globale Namen ③ Umwandlung ausländischer Namen in koreanische Namen ④ Transkription globaler Namen in koreanische Schrift nach Aussprache.",
+            "Die Ergebnisse sind Referenzmaterialien zur Unterstützung bei der Namensgebung und Interpretation und garantieren nicht die Möglichkeit einer offiziellen Registrierung, wie z.B. bei Geburtsurkunden, Reisepässen, Visa, Marken oder rechtlichen Dokumenten.",
           ],
         },
         {
-          title: "2. Nutzung durch Mitglieder und Gäste",
+          title: "2. Nutzung durch Mitglieder und Nicht-Mitglieder",
           paragraphs: [
-            "Die Namensanalyse und das Freischalten von Namenskandidaten über Werbeprämien stehen auch ohne Konto zur Verfügung. Eine Registrierung oder Anmeldung wird nur für Funktionen verlangt, die ein Konto erfordern, etwa die Bestellung von Merchandise-Artikeln und die Einsicht in die Bestellhistorie.",
+            "Die Analyse von Namen und die Einsicht in werbefinanzierte Vorschläge können auch von Nicht-Mitgliedern genutzt werden. Die Registrierung oder Anmeldung ist nur für Funktionen erforderlich, die ein Konto benötigen, wie z.B. die Bestellung von Waren und die Überprüfung von Bestellhistorien.",
           ],
         },
         {
-          title: "3. KI-Ergebnisse und Prüfpflicht der Nutzer",
+          title: "3. Verantwortung für KI-Ergebnisse und Überprüfung",
           paragraphs: [
-            "KI-Empfehlungen enthalten sprachliche, kulturelle und traditionelle Bezüge. Vor der endgültigen Namenswahl sollten Nutzer die Eignung des Namens durch zuständige Stellen, Fachleute, Muttersprachler vor Ort sowie eine rechtliche oder markenrechtliche Prüfung bestätigen lassen.",
+            "Die von der KI empfohlenen Ergebnisse enthalten sprachliche, kulturelle und traditionelle Referenzen. Die Nutzer müssen die Eignung vor der endgültigen Namenswahl durch relevante Institutionen, Fachleute, lokale Nutzer sowie rechtliche und markenrechtliche Prüfungen bestätigen.",
           ],
         },
         {
-          title: "4. Kostenpflichtige Dienste",
+          title: "4. Kostenpflichtige Dienstleistungen",
           paragraphs: [
-            "Der Dienst zur Hanja-Bedeutungszuordnung bietet die folgenden Detailprodukte an: (1) ausführliche Erläuterungen zu bis zu 5 Kandidaten sowie eine umfassende Hanja-Detailanalyse: ₩2,900 (KRW); (2) erweiterte ausführliche Erläuterungen zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse und ein PDF zum Aufbewahren: ₩4,900; (3) Details zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse, eine Analyse nach Saju (Vier Säulen) und den Fünf Elementen sowie ein PDF zum Aufbewahren: ₩9,900.",
-            "In den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift kann ein Produkt angeboten werden, das alle verbleibenden Kandidaten auf einmal und ohne Werbung freischaltet (US$1.99). Bis zur Aktivierung der Zahlungsfunktionen steht ausschließlich die Freischaltung über Werbeprämien zur Verfügung.",
-            "Kostenpflichtige Detailberichte, Analyseergebnisse und PDF-Dateien können nach Zahlungsabschluss 24 Stunden lang erneut eingesehen und heruntergeladen werden; nach Ablauf der Aufbewahrungsfrist werden sie automatisch gelöscht.",
-            "Physische Produkte wie Merchandise-Artikel mit koreanischen Namen können zu gesonderten Preisen und Bedingungen angeboten werden. Bei jedem kostenpflichtigen Produkt werden Produktinhalt, Preis, Bereitstellungsart und Erstattungsbedingungen vor der Zahlung auf dem Bildschirm angegeben.",
+            "Die detaillierten Produkte der Hanzi-Bedeutungszuordnungsdienstleistung sind wie folgt: ① Bis zu 5 Vorschläge mit detaillierter Beschreibung und umfassender Hanzi-Analyse: 2.900 Won ② Bis zu 10 Vorschläge mit erweiterten detaillierten Beschreibungen, umfassender Hanzi-Analyse und PDF für den persönlichen Gebrauch: 4.900 Won ③ Bis zu 10 Vorschläge mit detaillierten Informationen, umfassender Hanzi-Analyse, Analyse von Schicksal und fünf Elementen sowie PDF für den persönlichen Gebrauch: 9.900 Won.",
+            "Für die Dienstleistungen zur Umwandlung in globale Namen, Umwandlung in koreanische Namen und Transkription in koreanische Schrift kann ein Produkt angeboten werden, das alle verbleibenden Vorschläge ohne Werbung auf einmal offenlegt (Inlandszahlung 990 Won, Auslandszahlung US$1.99). Vor der Aktivierung der Zahlungsfunktion wird nur die werbefinanzierte Einsicht angeboten.",
+            "Für globale Nutzer werden digitale Produkte angeboten: ④ Umfassender Bericht über koreanische Namen als PDF (US$9.99): Auswahl der Schriftart, Namenskunst, Bedeutungsinterpretation und Referenz zu Schicksal und fünf Elementen ⑤ Kunst-PDF zur Umwandlung in koreanische Aussprache (US$2.99): Kunst des ausgewählten Namens und Ausspracheanleitung ⑥ Kunstpaket-PDF (US$1.99): Bereitstellung eines ausgewählten Namens in verschiedenen Schriftarten. Die Preise und die Anzahl der angewendeten Schriftarten jedes Produkts richten sich nach den auf dem Bildschirm angegebenen Werten.",
+            "Kostenpflichtige detaillierte Berichte und Analyseergebnisse sowie PDF-Dateien können innerhalb von 24 Stunden nach Abschluss der Zahlung erneut eingesehen und heruntergeladen werden; nach Ablauf der Aufbewahrungsfrist werden sie automatisch gelöscht.",
+            "Physische Waren wie Namensstempel werden zu Preisen und Bedingungen angeboten, die inländisch 39.000 Won und international US$34.99 (einschließlich internationaler Versandkosten) betragen. Alle kostenpflichtigen Produkte zeigen vor der Zahlung die Produktinhalte, Preise, Bereitstellungsarten und Rückgabebedingungen auf dem Bildschirm an.",
           ],
         },
         {
-          title: "5. Werbeprämien-Funktionen",
+          title: "5. Werbefinanzierte Dienstleistungen",
           paragraphs: [
-            "Das Freischalten von Kandidaten durch das Ansehen von Werbung gilt nur, wenn der Werbeanbieter eine ordnungsgemäße Prämie bestätigt hat. Automatisierte Werbewiedergabe, Manipulation von Prämien und ungewöhnlich wiederholte Anfragen können eingeschränkt werden.",
+            "Das Entsperren von Vorschlägen durch das Ansehen von Werbung gilt nur, wenn die reguläre Entschädigungsbestätigung des Werbeanbieters abgeschlossen ist. Automatisierte Werbeeinspielungen, Manipulation von Entschädigungen und unzulässige wiederholte Anfragen können eingeschränkt werden.",
           ],
         },
         {
           title: "6. Verbotene Handlungen",
           paragraphs: [
-            "Untersagt sind: die unbefugte Eingabe personenbezogener Daten Dritter, die Erzeugung von Namen zu diskriminierenden, hasserfüllten oder Identitätsmissbrauch bezweckenden Zwecken, automatisierte übermäßige Anfragen, die Herbeiführung von Betriebsstörungen des Dienstes sowie die wahrheitswidrige Darstellung von Ergebnissen als amtlich zertifiziert.",
+            "Die unbefugte Eingabe personenbezogener Daten Dritter, die Erstellung von Namen zu diskriminierenden, hasserfüllten oder betrügerischen Zwecken, automatisierte übermäßige Anfragen, die Verursachung von Dienstunterbrechungen und die falsche offizielle Zertifizierung von Ergebnissen sind verboten.",
           ],
         },
         {
           title: "7. Haftungsbeschränkung",
           paragraphs: [
-            "Sofern kein Vorsatz oder keine grobe Fahrlässigkeit vorliegt, haftet das Unternehmen nicht für mittelbare Schäden, entgangene erwartete Gewinne, die Ablehnung amtlicher Eintragungen oder Streitigkeiten mit Dritten, die aus der Nutzung von KI-Empfehlungen entstehen.",
+            "Das Unternehmen haftet nicht für indirekte Schäden, entgangene Gewinne, Ablehnung der offiziellen Registrierung oder Streitigkeiten Dritter, die aus der Nutzung der AI-Empfehlungsergebnisse entstehen, es sei denn, es liegt Vorsatz oder grobe Fahrlässigkeit vor.",
           ],
         },
         {
           title: "8. Kontakt",
-          paragraphs: [`Anfragen zum Dienst: ${companyInfo.email}`],
+          paragraphs: [
+            "Serviceanfragen: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -74,49 +77,54 @@ const content: LegalLocaleContent = {
         {
           title: "1. Verarbeitete personenbezogene Daten",
           paragraphs: [
-            "Bei der Nutzung der Namensdienste als Gast werden Name, Geburtsdatum und Geburtszeit, Land, Sprache, Nutzungszweck und Aussprachehinweise im Rahmen der Ergebniserstellung vorübergehend verarbeitet; die Eingaben und die erzeugten Ergebnisse werden jedoch nicht in der Datenbank des Dienstes gespeichert.",
-            "Beim Kauf eines kostenpflichtigen Detailberichts werden Bestellkennungen, der Zahlungsstatus sowie die für die Berichtserstellung erforderlichen Eingaben und Analyseergebnisse für die Dauer der Aufbewahrungsfrist (24 Stunden nach der Zahlung) verarbeitet. Zahlungsdaten wie Kartennummern werden unmittelbar vom Zahlungsdienstleister verarbeitet; das Unternehmen speichert sie nicht.",
-            "Nur bei Nutzung der Bestellfunktion für Merchandise-Artikel können zusätzlich Name des Bestellers, E-Mail-Adresse, Telefonnummer, Lieferanschrift, Zahlungsstatus und Angaben zur Bestellabwicklung verarbeitet werden.",
-            "Zur Stabilität des Dienstes und zur Missbrauchsprävention können minimale Betriebsprotokolle verarbeitet werden: ein sich täglich ändernder, nicht identifizierender Besucher-Hash, der Zeitpunkt der Anfrage, die Art des Dienstes, die Anzahl der kostenlosen Nutzungen, KI-Token-Verbrauch, Antwortzeit und Verarbeitungsstatus sowie Ereignisse zu Werbeeinblendungen und Prämien.",
+            "Bei der Nutzung des Namensdienstes durch Nicht-Mitglieder werden Name, Geburtsdatum, Geburtszeit, Land, Sprache, Verwendungszweck und Aussprachehinweise vorübergehend im Analyseprozess verarbeitet, jedoch werden die Eingaben und die generierten Ergebnisse nicht in der Servicedatenbank gespeichert.",
+            "Bei der Registrierung und Anmeldung werden die E-Mail-Adresse und die Anmeldeprotokolle (Authentifizierungshistorie) verarbeitet.",
+            "Beim Kauf eines kostenpflichtigen Detailberichts werden Bestellidentifikationsinformationen, Zahlungsstatus sowie Eingaben und Analyseergebnisse, die für die Erstellung des Berichts erforderlich sind, während der Aufbewahrungsfrist (24 Stunden nach der Zahlung) verarbeitet. Informationen zu Zahlungsmethoden wie Kreditkartennummern werden direkt von den Zahlungsdienstleistern verarbeitet, und das Unternehmen speichert diese nicht.",
+            "Bei der Nutzung der Funktion zur Bestellung von Merchandise-Artikeln können zusätzlich Bestellername, E-Mail, Kontaktinformationen, Lieferadresse, Zahlungsstatus und Bestellverarbeitungsinformationen verarbeitet werden.",
+            "Zur Gewährleistung der Stabilität des Dienstes und zur Verhinderung von Missbrauch können anonymisierte Besucher-Hashes, Anforderungszeitpunkte, Dienstarten, Anzahl der kostenlosen Nutzungen, AI-Token, Antwortzeiten, Verarbeitungsstatus sowie Werbungseinblendungen und Belohnungsveranstaltungen als minimale Betriebsprotokolle täglich verarbeitet werden.",
           ],
         },
         {
-          title: "2. Zwecke der Verarbeitung",
+          title: "2. Zweck der Verarbeitung personenbezogener Daten",
           paragraphs: [
-            "Personenbezogene Daten werden verarbeitet für Namensempfehlungen auf Grundlage der Eingaben, Ausspracheanalysen, länderspezifische Sprach- und Kulturraumanalysen, die Begrenzung der kostenlosen Nutzung, die Prüfung von Werbeprämien, die Beantwortung von Kundenanfragen, die Zahlungs- und Versandabwicklung sowie die Verhinderung missbräuchlicher Nutzung.",
+            "Die Verarbeitung personenbezogener Daten erfolgt zur Empfehlung von Namen basierend auf Eingabewerten, zur Analyse der Aussprache, zur Analyse von Sprachen und Kulturräumen nach Ländern, zur Begrenzung der kostenlosen Nutzung, zur Überprüfung von Werbevergütungen, zur Bearbeitung von Kundenanfragen, zur Zahlungs- und Versandabwicklung sowie zur Verhinderung von Missbrauch.",
           ],
         },
         {
-          title: "3. Aufbewahrung und Löschung",
+          title: "3. Aufbewahrung und Vernichtung",
           paragraphs: [
-            "Analyseeingaben und -ergebnisse werden nur dann im Konto gespeichert, wenn ein angemeldetes Mitglied die Speicherung der Ergebnisse ausdrücklich wählt; sie werden gelöscht, wenn das Mitglied sie löscht oder der Aufbewahrungszweck entfällt. Eingaben und Ergebnisse von Gästen sowie von Mitgliedern, die keine Speicherung wählen, werden nicht gespeichert.",
-            "Eingaben, Analyseergebnisse und PDF-Dateien kostenpflichtiger Detailberichte werden 24 Stunden nach Zahlungsabschluss automatisch gelöscht. Zahlungs- und Bestelltransaktionsunterlagen werden gemäß den gesetzlichen Aufbewahrungsfristen der einschlägigen Vorschriften gesondert aufbewahrt.",
-            "Versanddetails werden gelöscht oder anonymisiert, sobald der für die Bestellabwicklung, Rücksendungen und Streitbeilegung erforderliche Zeitraum abgelaufen ist.",
+            "Eingaben und Ergebnisse der Analyse werden nur dann im Konto eines angemeldeten Mitglieds gespeichert, wenn das Mitglied dies ausdrücklich wählt, und werden vernichtet, wenn das Mitglied sie löscht oder der Aufbewahrungszweck endet. Eingaben und Ergebnisse von Nicht-Mitgliedern sowie von Mitgliedern, die keine Speicherung gewählt haben, werden nicht gespeichert.",
+            "Eingaben, Analyseergebnisse und PDF-Dateien des kostenpflichtigen Detailberichts werden 24 Stunden nach Abschluss der Zahlung automatisch gelöscht. Zahlungs- und Bestelltransaktionsprotokolle werden gemäß den gesetzlichen Aufbewahrungsfristen der relevanten Gesetze separat aufbewahrt.",
+            "Lieferdetails werden nach Ablauf der für die Bearbeitung von Bestellungen sowie für Rücksendungen und Streitbeilegungen erforderlichen Zeit vernichtet oder anonymisiert.",
           ],
         },
         {
-          title: "4. Weitergabe an Dritte und Auftragsverarbeitung",
+          title: "4. Bereitstellung an Dritte und Auftragsverarbeitung",
           paragraphs: [
-            "Zum Betrieb des Dienstes können erforderliche Daten an folgende Stellen weitergegeben oder zur Verarbeitung übertragen werden: Supabase (Datenbank und Authentifizierung), Vercel (Hosting), OpenAI API (KI-Analyse), Werbenetzwerke, den Zahlungsdienstleister (PortOne) sowie Versand- und Produktionspartner.",
+            "Zur Durchführung des Dienstes können erforderliche Informationen an Supabase (Datenbank, Authentifizierung), Vercel (Hosting), OpenAI API (AI-Analyse), Werbenetzwerke, Zahlungsdienstleister (PortOne) sowie an Partner für Versand und Produktion verarbeitet oder ausgelagert werden.",
           ],
         },
         {
-          title: "5. Mögliche Übermittlung ins Ausland",
+          title: "5. Übertragung personenbezogener Daten ins Ausland",
           paragraphs: [
-            "Im Rahmen einzelner Verarbeitungsschritte wie Cloud-Hosting, Authentifizierung, KI-API-Aufrufen, Werbung und E-Mail-Versand können personenbezogene Daten auf Servern im Ausland verarbeitet werden. Empfängerländer, Auftragsverarbeiter, Zwecke und Aufbewahrungsfristen werden im Einzelnen bekannt gegeben, sobald die Dienstleister feststehen.",
+            "Das Unternehmen überträgt personenbezogene Daten ins Ausland (Auftragsverarbeitung), um den Dienst bereitzustellen, wie unten beschrieben. Die Übertragung erfolgt über Übertragungsmethoden im Informations- und Kommunikationsnetz.",
+            "① OpenAI, L.L.C. (USA) — Übertragene Daten: Name, Geburtsdatum, Geburtszeit, Geschlecht, Land, Sprache usw. — Übertragungszweck: AI-basierte Analyse von Namen, Aussprache und Bedeutung — Aufbewahrungs- und Nutzungsdauer: Dauer der Dienstbereitstellung (Eingabedaten werden gemäß der OpenAI-Richtlinie nicht für das Modelltraining verwendet und maximal 30 Tage zur Missbrauchsüberwachung aufbewahrt, bevor sie gelöscht werden).",
+            "② Supabase, Inc. (USA) — Übertragene Daten: Bestell- und Zahlungsstatusinformationen, E-Mail der Mitglieder, Eingaben und Ergebnisse des kostenpflichtigen Berichts (24 Stunden nach der Zahlung), Bestellername, Kontaktinformationen und Lieferadresse bei der Bestellung von Merchandise — Übertragungszweck: Datenbank, Authentifizierung, Speicherung — Aufbewahrungs- und Nutzungsdauer: Dauer der Dienstbereitstellung oder bis zur jeweiligen Aufbewahrungsfrist.",
+            "③ Vercel, Inc. (USA) — Übertragene Daten: Zugriffs- und Anforderungsinformationen, die während der Nutzung des Dienstes übertragen werden — Übertragungszweck: Anwendungs-Hosting — Aufbewahrungs- und Nutzungsdauer: Dauer der Dienstbereitstellung.",
+            "Nutzer können der Übertragung personenbezogener Daten ins Ausland widersprechen, jedoch kann die Ablehnung dieser Verarbeitung, da sie für die Bereitstellung des Dienstes unerlässlich ist, zu Einschränkungen bei der Nutzung des Dienstes führen.",
           ],
         },
         {
           title: "6. Rechte der Nutzer",
           paragraphs: [
-            "Nutzer können Auskunft über ihre personenbezogenen Daten sowie deren Berichtigung, Löschung oder die Aussetzung der Verarbeitung verlangen und ihre Einwilligung widerrufen. Anträge werden per E-Mail beim Kundenservice entgegengenommen und nach Identitätsprüfung bearbeitet.",
+            "Nutzer können die Einsichtnahme, Berichtigung, Löschung, Verarbeitungseinstellung und Widerruf der Einwilligung zu ihren personenbezogenen Daten anfordern. Anfragen werden per E-Mail an den Kundenservice entgegengenommen und nach Identitätsprüfung bearbeitet.",
           ],
         },
         {
           title: "7. Datenschutzbeauftragter",
           paragraphs: [
-            `Beauftragter: ${companyInfo.privacyOfficer}`,
-            `E-Mail: ${companyInfo.email}`,
+            "Verantwortlicher: 곽은하",
+            "E-Mail: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Allgemeine Grundsätze",
+          title: "1. Gemeinsames Prinzip",
           paragraphs: [
-            "Nach Aktivierung der Zahlungsfunktionen kann der erstattungsfähige Umfang je nach Bereitstellungsart des jeweiligen Produkts, Zeitpunkt des Fertigungsbeginns und Download-Status variieren. Die konkreten Bedingungen werden vor der Zahlung auf der Produktseite angegeben.",
+            "Sobald die Zahlungsfunktion aktiviert ist, kann der Umfang der Rückerstattung je nach Art der Bereitstellung des Produkts, dem Zeitpunkt des Produktionsbeginns und der Möglichkeit des Downloads variieren. Die spezifischen Bedingungen werden vor der Zahlung auf der Produktseite angezeigt.",
           ],
         },
         {
-          title: "2. Hanja-Detailberichte (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Detaillierter Bericht über Hanja (2.900 ₩·4.900 ₩·9.900 ₩)",
           paragraphs: [
-            "Nach der Zahlung ist eine Stornierung möglich, solange die Erstellung der KI-Detailanalyse noch nicht begonnen hat. Sobald die Erstellung abgeschlossen ist und der Bericht eingesehen oder heruntergeladen werden kann, kann eine Erstattung bei bloßer Meinungsänderung eingeschränkt sein.",
-            "Werden inhaltliche Fehler, ein Erstellungsfehlschlag aufgrund einer Systemstörung oder Abweichungen des Zahlungsbetrags festgestellt, erfolgt eine Neuausstellung oder eine Erstattung. Das Auslaufen der Downloadmöglichkeit nach Ablauf der Aufbewahrungsfrist (24 Stunden nach der Zahlung) stellt keinen Erstattungsgrund dar.",
+            "Eine Stornierung ist möglich, bevor die KI-Detailanalyse nach der Zahlung beginnt. Nach Abschluss der Analyse und der Möglichkeit zur Einsichtnahme oder zum Download kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein.",
+            "Bei festgestellten Inhaltsfehlern, Systemausfällen, die zu einem Erstellungsfehler führen, oder Unstimmigkeiten im Zahlungsbetrag erfolgt eine Neuausstellung oder Rückerstattung. Wenn der Download aufgrund des Ablaufs der Aufbewahrungsfrist (24 Stunden nach der Zahlung) beendet ist, gilt dies nicht als Rückerstattungsgrund.",
           ],
         },
         {
-          title: "3. Freischaltung aller Kandidaten (US$1.99)",
+          title: "3. Gesamte Kandidatenveröffentlichung (inländisch 990 ₩ · international US$1.99)",
           paragraphs: [
-            "Die Gesamtfreischaltung der Kandidaten in den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift ist ein digitaler Inhalt, der unmittelbar nach der Zahlung bereitgestellt wird. Vor Beginn der Einsichtnahme in die Kandidaten ist eine Stornierung möglich; nach der Einsichtnahme kann eine Erstattung bei bloßer Meinungsänderung eingeschränkt sein.",
-            "Werden die Kandidaten aufgrund eines Systemfehlers nicht ordnungsgemäß freigeschaltet, erfolgt eine erneute Bereitstellung oder eine Erstattung.",
+            "Die Veröffentlichung der Kandidaten für den globalen Namenswechsel, den koreanischen Namenswechsel und den Service zur phonetischen Transkription in Hangul ist digitale Inhalte, die sofort nach der Zahlung bereitgestellt werden. Eine Stornierung ist möglich, bevor die Einsichtnahme der Kandidaten beginnt; nach der Einsichtnahme kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein.",
+            "Bei Systemfehlern, die dazu führen, dass die Kandidaten nicht ordnungsgemäß veröffentlicht werden, erfolgt eine Neuausstellung oder Rückerstattung.",
           ],
         },
         {
-          title: "4. Individuell gefertigte Merchandise-Artikel",
+          title: "4. Globale digitale PDF-Produkte (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Individuell angefertigte Artikel können bis zum Fertigungsbeginn storniert werden. Nach Fertigungsbeginn kann eine Erstattung bei bloßer Meinungsänderung eingeschränkt sein; Schreibfehler, Beschädigungen, Fehlanfertigungen oder Versandprobleme werden nach Prüfung in geeigneter Weise durch Umtausch, Neuanfertigung oder Erstattung behandelt.",
+            "Der umfassende Bericht über koreanische Namen (US$9.99), die Kunst zur phonetischen Umwandlung in Hangul (US$2.99) und das Namenskunstpaket (US$1.99) sind digitale Inhalte, die nach der Zahlung erstellt werden. Eine Stornierung ist möglich, bevor die PDF-Erstellung beginnt; nach Abschluss der Erstellung und der Möglichkeit zum Download kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein.",
+            "Bei Erstellungsfehlern, Inhaltsfehlern oder festgestellten Unstimmigkeiten im Zahlungsbetrag erfolgt eine Neuausstellung oder Rückerstattung. Wenn der Download aufgrund des Ablaufs der Aufbewahrungsfrist (24 Stunden nach der Zahlung) beendet ist, gilt dies nicht als Rückerstattungsgrund.",
+          ],
+        },
+        {
+          title: "5. Maßgeschneiderte Produkte (z. B. Namensstempel)",
+          paragraphs: [
+            "Personalisierte Produkte wie Namensstempel (inländisch 39.000 ₩ · international US$34.99, einschließlich internationaler Versandkosten) können bis zum Produktionsbeginn storniert werden. Nach Produktionsbeginn ist der eingravierte Text personalisiert und daher kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein; Tippfehler, Beschädigungen, fehlerhafte Produktion oder Versandprobleme werden nach Überprüfung durch Austausch, Neuproduktion oder Rückerstattung entsprechend behandelt.",
           ],
         },
         {
           title: "5. Werbebasierte Freischaltung",
           paragraphs: [
-            "Vorteile aus dem Ansehen von Werbung sind keine kostenpflichtigen Produkte. Wird eine Prämie aufgrund eines Fehlers des Werbenetzwerks nicht gutgeschrieben, erfolgt die Behandlung über einen erneuten Versuch innerhalb des Dienstes oder eine Anfrage beim Kundenservice.",
+            "Die Vorteile des Werbeschauens sind kein Zahlungsprodukt. Bei einem Fehler im Werbenetzwerk, der dazu führt, dass keine Entschädigung gezahlt wird, wird dies innerhalb des Dienstes durch einen erneuten Versuch oder durch Kontakt mit dem Kundenservice bearbeitet.",
           ],
         },
         {
           title: "6. Kontakt",
-          paragraphs: [`Anfragen zu Erstattungen: ${companyInfo.email}`],
+          paragraphs: [
+            "Rückerstattungsanfragen: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Basisanalyse (kostenlos)",
           paragraphs: [
-            "Die Basisanalyse der vier Dienste — Hanja-Bedeutungszuordnung, Umwandlung in internationale Namen, Umwandlung in koreanische Namen und Hangul-Ausspracheumschrift — ist für Gäste kostenlos; es können tägliche Nutzungslimits gelten.",
+            "Die Basisanalyse der vier Dienstleistungen: Bedeutungszuordnung von Hanja, globale Namensumwandlung, koreanische Namensumwandlung und koreanische Lautschrift, wird nicht registrierten Benutzern kostenlos angeboten, wobei eine tägliche Nutzungseinschränkung gelten kann.",
           ],
         },
         {
-          title: "Nutzung über Werbeprämien",
+          title: "Werbevergütungsnutzung",
           paragraphs: [
-            "Das Freischalten von Kandidaten nach dem Ansehen einer Werbung ist ein werbebasierter Vorteil ohne gesonderte Zahlung. Pro Werbung wird der jeweils nächste Kandidat freigeschaltet. Die Verfügbarkeit kann je nach Werbeinventar, Land, Gerät oder den Richtlinien des Werbeanbieters variieren.",
+            "Das Entsperren von Kandidaten nach dem Ansehen von Werbung ist ein werbebasiertes Angebot, das ohne zusätzliche Zahlung bereitgestellt wird. Bei jeder Werbung wird ein weiterer Kandidat freigeschaltet. Die Verfügbarkeit kann je nach Werbevorrat, Land, Gerät oder den Richtlinien des Werbeanbieters variieren.",
           ],
         },
         {
-          title: "Detailprodukte der Hanja-Bedeutungszuordnung",
+          title: "Detailprodukt zur Bedeutungszuordnung von Hanja",
           paragraphs: [
-            "Ausführliche Erläuterungen zu bis zu 5 Kandidaten sowie eine umfassende Hanja-Detailanalyse: ₩2,900 (KRW)",
-            "Erweiterte ausführliche Erläuterungen zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse und ein PDF zum Aufbewahren: ₩4,900",
-            "Details zu bis zu 10 Kandidaten, eine umfassende Hanja-Detailanalyse, eine Analyse nach Saju (Vier Säulen) und den Fünf Elementen sowie ein PDF zum Aufbewahren: ₩9,900",
-            "Kostenpflichtige Berichte und PDFs können nach der Zahlung 24 Stunden lang erneut eingesehen und heruntergeladen werden; danach werden sie automatisch gelöscht.",
+            "Maximal 5 Kandidaten mit detaillierter Beschreibung und umfassenden Hanja-Details: 2.900 Won",
+            "Maximal 10 Kandidaten mit erweiterten detaillierten Beschreibungen, umfassenden Hanja-Details und PDF zur Aufbewahrung: 4.900 Won",
+            "Maximal 10 Kandidaten mit Details, umfassenden Hanja-Details, Analyse von Schicksal und fünf Elementen sowie PDF zur Aufbewahrung: 9.900 Won",
+            "Bezahlte Berichte und PDFs können nach der Zahlung innerhalb von 24 Stunden erneut eingesehen und heruntergeladen werden und werden danach automatisch gelöscht.",
           ],
         },
         {
-          title: "Freischaltung aller Kandidaten",
+          title: "Gesamte Kandidaten auf einmal freigeben",
           paragraphs: [
-            "Freischaltung aller verbleibenden Kandidaten auf einmal und ohne Werbung in den Diensten zur Umwandlung in internationale Namen, zur Umwandlung in koreanische Namen und zur Hangul-Ausspracheumschrift: US$1.99 (Zahlungsfunktion in Vorbereitung)",
+            "Die gesamte verbleibende Kandidatenliste aus den Dienstleistungen zur globalen Namensumwandlung, koreanischen Namensumwandlung und koreanischen Lautschrift wird ohne Werbung auf einmal freigegeben: Inlandszahlung 990 Won, Auslandszahlung US$1.99 (Zahlungsfunktion in Vorbereitung)",
           ],
         },
         {
-          title: "Merchandise-Artikel mit koreanischen Namen",
+          title: "Globale digitale PDF-Produkte",
           paragraphs: [
-            "Für physische Merchandise-Artikel wie Namensstempel werden Preise, Versandkosten und Fertigungszeiten je Produkt gesondert bekannt gegeben.",
+            "Umfassender Bericht PDF für koreanische Namen (Kunst und Bedeutungsinterpretation aller empfohlenen Kandidaten sowie Referenz für Schicksal und fünf Elemente): US$9.99",
+            "PDF für die Umwandlung koreanischer Lautschrift (Kunst des ausgewählten Schriftartnamens und Lauthinweise): US$2.99",
+            "PDF für Namenskunstpaket (Kunst für einen ausgewählten Namen in verschiedenen Schriftarten): US$1.99",
+            "Die Preise und die Anzahl der verwendeten Schriftarten richten sich nach den auf dem Bildschirm angegebenen Werten, und das PDF kann nach der Zahlung innerhalb von 24 Stunden erneut heruntergeladen werden und wird danach automatisch gelöscht. (Zahlungsfunktion in Vorbereitung)",
           ],
         },
         {
-          title: "Hinweise vor dem offiziellen Zahlungsstart",
+          title: "Koreanische Namenswaren",
           paragraphs: [
-            "Sobald die Prüfung durch den Zahlungsdienstleister (PG), die Anmeldung als Versandhandelsunternehmen und die Bedingungen der Produktionspartnerschaften feststehen, werden der tatsächliche Zahlungsbetrag, die Versandkosten, die Fertigungszeit und die Erstattungsbedingungen erneut auf der jeweiligen Produktseite angegeben.",
+            "Namensstempel: Inlands 39.000 Won · Ausland US$34.99 (einschließlich internationaler Versandkosten). Andere physische Waren haben separate Preise, Versandkosten und Produktionszeiten, die gesondert angegeben werden.",
+          ],
+        },
+        {
+          title: "Hinweise vor der offiziellen Zahlung",
+          paragraphs: [
+            "Sobald die PG-Prüfung, die Meldung des Fernabsatzhandels und die Bedingungen für die Produktionspartnerschaft festgelegt sind, werden die tatsächlichen Zahlungskosten, Versandkosten, Produktionszeiten und Rückerstattungsbedingungen erneut auf dem Produktbildschirm angezeigt.",
           ],
         },
       ],

@@ -17,52 +17,55 @@ const content: LegalLocaleContent = {
         {
           title: "1. Nature du service",
           paragraphs: [
-            "Naming-Link est un studio de nommage basé sur l'IA qui propose les quatre services suivants : (1) l'association de hanja (caractères chinois) porteurs de sens aux prénoms coréens, (2) la conversion de prénoms coréens en prénoms internationaux, (3) la conversion de prénoms étrangers en prénoms coréens, et (4) la transcription phonétique de prénoms internationaux en hangeul.",
-            "Les résultats constituent des documents de référence destinés à faciliter le choix et l'interprétation d'un prénom. Ils ne garantissent aucune possibilité d'enregistrement officiel, notamment auprès des registres d'état civil, pour les passeports, les visas, les marques ou les documents juridiques.",
+            "Naming-Link est un studio de nommage basé sur l'IA qui propose les quatre services suivants : ① Correspondance de signification des caractères chinois pour les noms en coréen ② Conversion de noms coréens en noms globaux ③ Conversion de noms étrangers en noms coréens ④ Transcription phonétique de noms globaux en coréen.",
+            "Les résultats sont des documents de référence pour aider à la nomination et à l'interprétation, et ne garantissent pas la possibilité d'enregistrement officiel, tels que l'enregistrement des relations familiales, les passeports, les visas, les marques, les documents juridiques, etc.",
           ],
         },
         {
-          title: "2. Utilisation avec ou sans compte",
+          title: "2. Utilisation par les membres et les non-membres",
           paragraphs: [
-            "L'analyse de prénoms et le déblocage de candidats par visionnage de publicités sont accessibles sans compte. L'inscription ou la connexion n'est demandée que pour les fonctionnalités nécessitant un compte, telles que la commande d'articles dérivés et la consultation de l'historique des commandes.",
+            "L'analyse des noms et la consultation des candidats avec compensation publicitaire sont accessibles aux non-membres. L'inscription ou la connexion est requise uniquement pour les fonctionnalités nécessitant un compte, telles que la commande de produits et la vérification de l'historique des commandes.",
           ],
         },
         {
-          title: "3. Résultats de l'IA et responsabilité de vérification",
+          title: "3. Résultats de l'IA et responsabilité de révision",
           paragraphs: [
-            "Les recommandations de l'IA comportent des références linguistiques, culturelles et traditionnelles. Avant de choisir définitivement un prénom, l'utilisateur doit en vérifier la pertinence auprès des organismes compétents, d'experts, de locuteurs locaux, et par un examen juridique ou en matière de marques.",
+            "Les résultats recommandés par l'IA incluent des références linguistiques, culturelles et traditionnelles. Les utilisateurs doivent vérifier la pertinence auprès des organismes concernés, des experts, des utilisateurs locaux, ainsi que par des examens juridiques et de marques avant de choisir un nom final.",
           ],
         },
         {
           title: "4. Services payants",
           paragraphs: [
-            "Le service d'association de sens en hanja propose les produits détaillés suivants : (1) explications détaillées pour un maximum de 5 candidats et analyse complète des hanja : ₩2,900 (KRW) ; (2) explications détaillées étendues pour un maximum de 10 candidats, analyse complète des hanja et PDF de collection : ₩4,900 ; (3) détails pour un maximum de 10 candidats, analyse complète des hanja, analyse saju (Quatre Piliers) et Cinq Éléments, et PDF de collection : ₩9,900.",
-            "Dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul, un produit débloquant en une seule fois l'ensemble des candidats restants, sans publicité (US$1.99), peut être proposé. Tant que la fonction de paiement n'est pas activée, seul le déblocage par visionnage de publicités est disponible.",
-            "Les rapports détaillés payants, les résultats d'analyse et les fichiers PDF restent consultables et téléchargeables pendant 24 heures après le paiement, puis sont automatiquement supprimés à l'expiration de cette période de conservation.",
-            "Les produits physiques, tels que les articles dérivés de prénoms coréens, peuvent être proposés à des prix et conditions distincts. Pour chaque produit payant, le contenu du produit, le prix, le mode de fourniture et les conditions de remboursement sont indiqués à l'écran avant le paiement.",
+            "Les détails des services de correspondance de signification des caractères chinois sont les suivants : ① Description détaillée de jusqu'à 5 candidats et détails complets des caractères chinois : 2 900 ₩ ② Description détaillée étendue de jusqu'à 10 candidats, détails complets des caractères chinois et PDF à conserver : 4 900 ₩ ③ Détails de jusqu'à 10 candidats, détails complets des caractères chinois, analyse des quatre piliers et des cinq éléments, et PDF à conserver : 9 900 ₩.",
+            "Pour les services de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en coréen, un produit peut être proposé pour révéler tous les candidats restants sans publicité en une seule fois (990 ₩ pour les paiements nationaux, 1,99 US$ pour les paiements internationaux). Avant l'activation de la fonction de paiement, seule la consultation avec compensation publicitaire est disponible.",
+            "Pour les utilisateurs globaux, les produits numériques suivants sont proposés : ④ Rapport complet sur les noms en coréen PDF (9,99 US$) : Art des noms des candidats recommandés, explication des significations et références aux quatre piliers et aux cinq éléments ⑤ Art de conversion phonétique en coréen PDF (2,99 US$) : Art des noms avec police choisie et guide de prononciation ⑥ Pack d'art de noms PDF (1,99 US$) : Fourniture d'un art pour un nom choisi selon la police sélectionnée. Les prix et le nombre de polices appliquées pour chaque produit sont conformes aux valeurs affichées à l'écran.",
+            "Les rapports détaillés payants et les résultats d'analyse, ainsi que les fichiers PDF, peuvent être consultés et téléchargés à nouveau pendant 24 heures après le paiement, et seront automatiquement supprimés après la période de conservation.",
+            "Les produits physiques tels que les tampons de nom sont proposés à des prix et conditions spécifiques, notamment 39 000 ₩ en Corée et 34,99 US$ à l'étranger (frais de livraison internationale inclus). Tous les produits payants affichent les détails du produit, le prix, le mode de fourniture et les conditions de remboursement à l'écran avant le paiement.",
           ],
         },
         {
-          title: "5. Services avec récompense publicitaire",
+          title: "5. Service de compensation publicitaire",
           paragraphs: [
-            "Le déblocage de candidats par visionnage de publicités ne s'applique que lorsque le fournisseur publicitaire a normalement confirmé la récompense. La lecture automatisée de publicités, la manipulation des récompenses et les demandes répétées anormales peuvent être restreintes.",
+            "Le déverrouillage des candidats par la visualisation de publicités ne s'applique que lorsque la vérification de la compensation normale par le fournisseur de publicité est terminée. La lecture automatique des publicités, la manipulation de compensation et les demandes répétées anormales peuvent être limitées.",
           ],
         },
         {
-          title: "6. Comportements interdits",
+          title: "6. Actes interdits",
           paragraphs: [
-            "Sont interdits : la saisie sans autorisation des données personnelles d'autrui, la génération de prénoms à des fins discriminatoires, haineuses ou d'usurpation d'identité, les demandes excessives automatisées, la provocation de dysfonctionnements du service et la présentation mensongère des résultats comme officiellement certifiés.",
+            "Il est interdit d'entrer sans autorisation des informations personnelles d'autrui, de générer des noms à des fins de discrimination, de haine ou d'usurpation, de soumettre des demandes excessives automatisées, de provoquer des dysfonctionnements du service, et d'afficher de manière fausse des certifications officielles des résultats.",
           ],
         },
         {
           title: "7. Limitation de responsabilité",
           paragraphs: [
-            "Sauf faute intentionnelle ou négligence grave, la société décline toute responsabilité pour les dommages indirects, la perte de gains escomptés, le refus d'enregistrement officiel ou les litiges avec des tiers résultant de l'utilisation des recommandations de l'IA.",
+            "La société n'est pas responsable des dommages indirects, de la perte de bénéfices escomptés, du refus d'enregistrement officiel ou des litiges avec des tiers résultant de l'utilisation des résultats recommandés par l'IA, sauf en cas de faute intentionnelle ou de négligence grave.",
           ],
         },
         {
           title: "8. Contact",
-          paragraphs: [`Demandes concernant le service : ${companyInfo.email}`],
+          paragraphs: [
+            "Pour toute question concernant le service : platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Données personnelles traitées",
+          title: "1. Catégories de données personnelles traitées",
           paragraphs: [
-            "Lors de l'utilisation des services de prénoms sans compte, le prénom, la date et l'heure de naissance, le pays, la langue, la finalité d'utilisation et les indications de prononciation sont traités temporairement pour générer les résultats d'analyse ; les données saisies et les résultats générés ne sont toutefois pas enregistrés dans la base de données du service.",
-            "Lors de l'achat d'un rapport détaillé payant, les informations d'identification de la commande, l'état du paiement ainsi que les données saisies et résultats d'analyse nécessaires à la génération du rapport sont traités pendant la période de conservation (24 heures après le paiement). Les informations relatives aux moyens de paiement, telles que les numéros de carte, sont traitées directement par le prestataire de paiement ; la société ne les conserve pas.",
-            "Ce n'est que lors de l'utilisation de la fonction de commande d'articles dérivés que le nom du commanditaire, l'adresse e-mail, le numéro de téléphone, l'adresse de livraison, l'état du paiement et les informations de traitement de la commande peuvent en outre être traités.",
-            "Afin d'assurer la stabilité du service et de prévenir les abus, nous pouvons traiter, à titre de journaux d'exploitation minimaux, un hachage de visiteur anonymisé renouvelé quotidiennement, l'heure des requêtes, le type de service, le nombre d'utilisations gratuites, les jetons d'IA, les temps de réponse, l'état de traitement, ainsi que les événements d'affichage publicitaire et de récompense.",
+            "Lors de l'utilisation du service de nom sans inscription, le nom, la date de naissance, l'heure de naissance, le pays, la langue, l'objectif d'utilisation et les indices de prononciation sont temporairement traités au cours du processus de génération des résultats d'analyse, mais les données saisies et les résultats générés ne sont pas stockés dans la base de données du service.",
+            "Lors de l'inscription et de la connexion, l'adresse e-mail et l'historique de connexion (historique d'authentification) sont traités.",
+            "Lors du paiement d'un rapport détaillé payant, les informations d'identification de la commande, l'état du paiement et les entrées/résultats d'analyse nécessaires à la génération du rapport sont traités pendant la période de conservation (24 heures après le paiement). Les informations sur les moyens de paiement, telles que le numéro de carte, sont traitées directement par le prestataire de paiement, et la société ne les stocke pas.",
+            "Les informations supplémentaires telles que le nom du commanditaire, l'adresse e-mail, les coordonnées, l'adresse de livraison, l'état du paiement et les informations de traitement de la commande peuvent être traitées uniquement lors de l'utilisation de la fonction de commande de marchandises.",
+            "Pour assurer la stabilité du service et prévenir les abus, des journaux d'exploitation minimaux peuvent être traités, comprenant des hachages de visiteurs anonymisés changeant quotidiennement, l'heure de la demande, le type de service, le nombre d'utilisations gratuites, les temps de réponse et d'AI token, l'état de traitement, ainsi que l'affichage de publicités et les événements de récompense.",
           ],
         },
         {
-          title: "2. Finalités du traitement",
+          title: "2. Objectifs du traitement des données personnelles",
           paragraphs: [
-            "Les données personnelles sont traitées aux fins suivantes : recommandation de prénoms à partir des données saisies, analyse de la prononciation, analyse linguistique et culturelle par pays, limitation de l'utilisation gratuite, vérification des récompenses publicitaires, réponse aux demandes des clients, traitement des paiements et des livraisons, et prévention des utilisations frauduleuses.",
+            "Les données personnelles sont traitées pour des recommandations de noms basées sur les valeurs saisies, l'analyse de la prononciation, l'analyse des langues et des cultures par pays, la limitation de l'utilisation gratuite, la vérification des récompenses publicitaires, la réponse aux demandes des clients, le traitement des paiements et des livraisons, ainsi que la prévention des abus.",
           ],
         },
         {
-          title: "3. Conservation et suppression",
+          title: "3. Conservation et destruction des données",
           paragraphs: [
-            "Les données saisies et les résultats d'analyse ne sont conservés dans le compte que lorsqu'un membre connecté choisit expressément de les enregistrer ; ils sont supprimés lorsque le membre les efface ou lorsque la finalité de conservation prend fin. Les données saisies et les résultats des utilisateurs sans compte, ainsi que des membres n'ayant pas choisi l'enregistrement, ne sont pas conservés.",
-            "Les données saisies, les résultats d'analyse et les fichiers PDF des rapports détaillés payants sont automatiquement supprimés 24 heures après le paiement. Les enregistrements de transactions de paiement et de commande sont conservés séparément pendant les durées légales prévues par la réglementation applicable.",
-            "Les informations détaillées de livraison sont supprimées ou anonymisées à l'expiration de la période nécessaire au traitement des commandes, aux retours et à la gestion des litiges.",
+            "Les entrées et résultats d'analyse ne sont conservés dans le compte d'un membre que si ce dernier choisit explicitement de les sauvegarder, et ils sont détruits lorsque le membre les supprime ou lorsque l'objectif de conservation prend fin. Les entrées et résultats des membres qui ne choisissent pas de sauvegarder et des non-membres ne sont pas stockés.",
+            "Les entrées, résultats d'analyse et fichiers PDF des rapports détaillés payants sont automatiquement supprimés 24 heures après la finalisation du paiement. Les enregistrements de transactions de paiement et de commande sont conservés séparément conformément aux périodes de conservation légales prévues par la législation applicable.",
+            "Les informations détaillées sur la livraison sont détruites ou anonymisées après la période nécessaire pour le traitement des commandes et la gestion des retours ou des litiges.",
           ],
         },
         {
-          title: "4. Communication à des tiers et sous-traitance",
+          title: "4. Fourniture à des tiers et sous-traitance du traitement",
           paragraphs: [
-            "Pour l'exploitation du service, les informations nécessaires peuvent être traitées par, ou confiées à, Supabase (base de données et authentification), Vercel (hébergement), l'OpenAI API (analyse par IA), des réseaux publicitaires, le prestataire de paiement (PortOne) et des partenaires de livraison et de fabrication.",
+            "Pour l'exploitation du service, des informations nécessaires peuvent être traitées ou sous-traitées à Supabase (base de données, authentification), Vercel (hébergement), OpenAI API (analyse AI), réseaux publicitaires, prestataires de paiement (PortOne), et partenaires de livraison et de fabrication.",
           ],
         },
         {
-          title: "5. Possibilité de transfert à l'étranger",
+          title: "5. Transfert de données personnelles à l'étranger",
           paragraphs: [
-            "Dans le cadre de certains traitements — hébergement cloud, authentification, API d'IA, publicité, envoi d'e-mails — les données personnelles peuvent être traitées sur des serveurs situés à l'étranger. Les pays de destination, les sous-traitants, les finalités et les durées de conservation seront communiqués en détail une fois les prestataires de services définitivement désignés.",
+            "La société transfère (sous-traite) des données personnelles à l'étranger comme suit pour fournir le service. Le transfert se fait par transmission via des réseaux de communication.",
+            "① OpenAI, L.L.C. (États-Unis) — Éléments transférés : nom, date de naissance, heure de naissance, sexe, pays, langue, etc. — Objectif du transfert : analyse des noms, prononciation et signification basée sur l'IA — Durée de conservation et d'utilisation : durée de fourniture du service (les données saisies ne sont pas utilisées pour l'apprentissage des modèles selon la politique d'OpenAI et sont supprimées après un maximum de 30 jours à des fins de surveillance des abus).",
+            "② Supabase, Inc. (États-Unis) — Éléments transférés : informations sur l'état des commandes et des paiements, e-mail des membres, entrées et résultats des rapports payants (24 heures après le paiement), nom du commanditaire, coordonnées et adresse de livraison lors de la commande de marchandises — Objectif du transfert : base de données, authentification, stockage — Durée de conservation et d'utilisation : durée de fourniture du service ou jusqu'à la période de conservation de chaque élément.",
+            "③ Vercel, Inc. (États-Unis) — Éléments transférés : informations de connexion et de demande transmises lors de l'utilisation du service — Objectif du transfert : hébergement d'applications — Durée de conservation et d'utilisation : durée de fourniture du service.",
+            "Les utilisateurs peuvent refuser leur consentement au transfert de données personnelles à l'étranger, mais ce traitement étant essentiel à la fourniture du service, le refus peut limiter l'utilisation du service.",
           ],
         },
         {
           title: "6. Droits des utilisateurs",
           paragraphs: [
-            "Les utilisateurs peuvent demander l'accès à leurs données personnelles, leur rectification, leur suppression, la suspension de leur traitement, ainsi que le retrait de leur consentement. Les demandes sont reçues par e-mail auprès du service client et traitées après vérification de l'identité.",
+            "Les utilisateurs peuvent demander l'accès, la rectification, la suppression, l'arrêt du traitement et le retrait de leur consentement concernant leurs données personnelles. Les demandes sont reçues par e-mail au service client et seront traitées après vérification de l'identité.",
           ],
         },
         {
           title: "7. Responsable de la protection des données personnelles",
           paragraphs: [
-            `Responsable : ${companyInfo.privacyOfficer}`,
-            `E-mail : ${companyInfo.email}`,
+            "Responsable : 곽은하",
+            "E-mail : platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Principes généraux",
+          title: "1. Principes communs",
           paragraphs: [
-            "Une fois la fonction de paiement activée, l'étendue des remboursements possibles peut varier selon le mode de fourniture de chaque produit, le moment du début de la fabrication et l'état du téléchargement. Les conditions précises sont indiquées sur l'écran du produit avant le paiement.",
+            "Lorsque la fonction de paiement est activée, la portée des remboursements peut varier en fonction du mode de fourniture de chaque produit, du moment de début de la production et de la possibilité de téléchargement. Les conditions spécifiques seront indiquées sur l'écran du produit avant le paiement.",
           ],
         },
         {
-          title: "2. Rapports détaillés de hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Rapport détaillé en caractères chinois (2,900₩·4,900₩·9,900₩)",
           paragraphs: [
-            "L'annulation est possible après le paiement tant que la génération de l'analyse détaillée par l'IA n'a pas commencé. Une fois la génération achevée et le rapport consultable ou téléchargeable, le remboursement pour simple changement d'avis peut être restreint.",
-            "En cas d'erreur de contenu, d'échec de génération dû à une défaillance du système ou de montant de paiement non conforme, nous procédons à une nouvelle émission du rapport ou à un remboursement. L'expiration de la période de conservation (24 heures après le paiement) mettant fin au téléchargement ne constitue pas un motif de remboursement.",
+            "Il est possible d'annuler avant le début de la génération de l'analyse détaillée par l'IA après le paiement. Une fois la génération de l'analyse terminée et accessible pour consultation ou téléchargement, le remboursement pour simple changement d'avis peut être limité.",
+            "En cas d'erreur de contenu, d'échec de génération dû à un dysfonctionnement du système, ou de non-concordance du montant payé, un réémission ou un remboursement sera effectué. Si le téléchargement est terminé en raison de l'expiration de la période de conservation (24 heures après le paiement), cela ne constitue pas un motif de remboursement.",
           ],
         },
         {
-          title: "3. Déblocage de l'ensemble des candidats (US$1.99)",
+          title: "3. Publication groupée de tous les candidats (990₩ en Corée · US$1.99 à l'étranger)",
           paragraphs: [
-            "Le déblocage groupé des candidats dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul est un contenu numérique fourni immédiatement après le paiement. L'annulation est possible avant le début de la consultation des candidats ; après consultation, le remboursement pour simple changement d'avis peut être restreint.",
-            "Si les candidats ne sont pas correctement débloqués en raison d'une erreur système, nous procédons à une nouvelle fourniture ou à un remboursement.",
+            "La publication groupée des candidats pour le service de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en coréen est un contenu numérique fourni immédiatement après le paiement. Il est possible d'annuler avant le début de la consultation des candidats, et après consultation, le remboursement pour simple changement d'avis peut être limité.",
+            "En cas d'erreur système empêchant la publication normale des candidats, un réémission ou un remboursement sera effectué.",
           ],
         },
         {
-          title: "4. Articles dérivés personnalisés",
+          title: "4. Produit numérique PDF global (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Les articles personnalisés peuvent être annulés jusqu'au début de la fabrication. Après le début de la fabrication, le remboursement pour simple changement d'avis peut être restreint ; les fautes de frappe, dommages, erreurs de fabrication ou problèmes de livraison sont traités, après vérification, par échange, refabrication ou remboursement, selon le mode approprié.",
+            "Le rapport complet sur les noms coréens (US$9.99), l'art de conversion phonétique en coréen (US$2.99), et le pack d'art de noms (US$1.99) sont des contenus numériques générés après le paiement. Il est possible d'annuler avant le début de la génération du PDF, et une fois la génération terminée et le téléchargement disponible, le remboursement pour simple changement d'avis peut être limité.",
+            "En cas d'échec de génération, d'erreur de contenu, ou de non-concordance du montant payé, un réémission ou un remboursement sera effectué. Si le téléchargement est terminé en raison de l'expiration de la période de conservation (24 heures après le paiement), cela ne constitue pas un motif de remboursement.",
           ],
         },
         {
-          title: "5. Déblocage par publicité",
+          title: "5. Produits personnalisés (tampons de nom, etc.)",
           paragraphs: [
-            "Les avantages obtenus par visionnage de publicités ne sont pas des produits payants. Si une récompense n'est pas accordée en raison d'une erreur du réseau publicitaire, la situation est traitée par une nouvelle tentative au sein du service ou en contactant le service client.",
+            "Les articles personnalisés tels que les tampons de nom (39,000₩ en Corée · US$34.99 à l'étranger, frais de livraison internationale inclus) peuvent être annulés jusqu'à avant le début de la production. Après le début de la production, le texte gravé est confirmé de manière personnalisée, donc le remboursement pour simple changement d'avis peut être limité, et les erreurs de frappe, les dommages, les erreurs de production ou les problèmes de livraison seront traités de manière appropriée par échange, nouvelle production ou remboursement après vérification.",
+          ],
+        },
+        {
+          title: "5. Déverrouillage par publicité",
+          paragraphs: [
+            "Les avantages liés à la visualisation de publicités ne sont pas des produits payants. En cas de non-paiement de la récompense en raison d'une erreur du réseau publicitaire, cela sera traité par une nouvelle tentative dans le service ou en contactant le service client.",
           ],
         },
         {
           title: "6. Contact",
-          paragraphs: [`Demandes de remboursement : ${companyInfo.email}`],
+          paragraphs: [
+            "Pour toute demande de remboursement : platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Analyse de base (gratuite)",
           paragraphs: [
-            "L'analyse de base des quatre services — association de sens en hanja (caractères chinois), conversion en prénom international, conversion en prénom coréen et transcription phonétique en hangeul — est fournie gratuitement aux utilisateurs sans compte ; des limites d'utilisation quotidiennes peuvent s'appliquer.",
+            "L'analyse de base des quatre services de correspondance de signification des caractères chinois, de conversion de noms mondiaux, de conversion de noms coréens et de transcription phonétique en hangeul est fournie gratuitement aux non-membres, avec une limite d'utilisation quotidienne pouvant s'appliquer.",
           ],
         },
         {
-          title: "Utilisation avec récompense publicitaire",
+          title: "Utilisation avec compensation publicitaire",
           paragraphs: [
-            "Le déblocage de candidats après le visionnage d'une publicité est un avantage publicitaire fourni sans paiement supplémentaire. Chaque publicité débloque le candidat suivant. La disponibilité peut varier selon l'inventaire publicitaire, le pays, l'appareil ou la politique du fournisseur publicitaire.",
+            "Le déverrouillage des candidats après visionnage de publicités est un avantage publicitaire fourni sans paiement supplémentaire. Une publicité permet d'ouvrir un candidat. La disponibilité peut varier en fonction des stocks publicitaires, du pays, de l'appareil ou des politiques du fournisseur de publicité.",
           ],
         },
         {
-          title: "Produits détaillés d'association de sens en hanja",
+          title: "Détails du produit de correspondance de signification des caractères chinois",
           paragraphs: [
-            "Explications détaillées pour un maximum de 5 candidats et analyse complète des hanja : ₩2,900 (KRW)",
-            "Explications détaillées étendues pour un maximum de 10 candidats, analyse complète des hanja et PDF de collection : ₩4,900",
-            "Détails pour un maximum de 10 candidats, analyse complète des hanja, analyse saju (Quatre Piliers) et Cinq Éléments, et PDF de collection : ₩9,900",
-            "Les rapports payants et les PDF restent consultables et téléchargeables pendant 24 heures après le paiement, puis sont automatiquement supprimés.",
+            "Description détaillée de jusqu'à 5 candidats et détails complets des caractères chinois : 2,900₩",
+            "Description détaillée étendue de jusqu'à 10 candidats, détails complets des caractères chinois et PDF à conserver : 4,900₩",
+            "Détails de jusqu'à 10 candidats, détails complets des caractères chinois, analyse des quatre piliers et des cinq éléments, et PDF à conserver : 9,900₩",
+            "Les rapports payants et les PDF peuvent être consultés et téléchargés à nouveau pendant 24 heures après le paiement, puis seront automatiquement supprimés.",
           ],
         },
         {
-          title: "Déblocage de l'ensemble des candidats",
+          title: "Publication groupée de tous les candidats",
           paragraphs: [
-            "Déblocage en une seule fois, sans publicité, de l'ensemble des candidats restants dans les services de conversion en prénom international, de conversion en prénom coréen et de transcription phonétique en hangeul : US$1.99 (fonction de paiement en préparation)",
+            "Publication de tous les candidats restants dans les services de conversion de noms mondiaux, de conversion de noms coréens et de transcription phonétique en hangeul sans publicité : paiement national 990₩, paiement international US$1.99 (fonction de paiement en préparation)",
           ],
         },
         {
-          title: "Articles dérivés de prénoms coréens",
+          title: "Produits PDF numériques mondiaux",
           paragraphs: [
-            "Pour les articles dérivés physiques, tels que les tampons de nom, le prix, les frais de livraison et le délai de fabrication sont indiqués séparément pour chaque produit.",
+            "Rapport PDF complet sur les noms en hangeul (art des noms recommandés, explication des significations, référence aux quatre piliers et aux cinq éléments) : US$9.99",
+            "Art de conversion phonétique en hangeul PDF (art des noms avec police choisie et guide de prononciation) : US$2.99",
+            "Pack d'art de noms PDF (art d'un nom choisi fourni selon la police sélectionnée) : US$1.99",
+            "Les prix et le nombre de polices appliquées suivent les valeurs indiquées à l'écran, et le PDF peut être téléchargé à nouveau pendant 24 heures après le paiement, puis sera automatiquement supprimé. (fonction de paiement en préparation)",
           ],
         },
         {
-          title: "Informations avant le lancement officiel des paiements",
+          title: "Produits dérivés de noms en hangeul",
           paragraphs: [
-            "Une fois finalisés l'examen par le prestataire de paiement, la déclaration d'activité de vente à distance et les conditions de partenariat de fabrication, le montant réel du paiement, les frais de livraison, le délai de fabrication et les conditions de remboursement seront de nouveau indiqués sur l'écran de chaque produit.",
+            "Tampon de nom : 39,000₩ en national · US$34.99 à l'international (frais de livraison internationale inclus). D'autres produits physiques auront des prix, frais de livraison et délais de production indiqués séparément.",
+          ],
+        },
+        {
+          title: "Informations avant paiement officiel",
+          paragraphs: [
+            "Une fois que l'examen PG, l'enregistrement de la vente à distance et les conditions de partenariat de production sont confirmés, le montant réel du paiement, les frais de livraison, le délai de production et les conditions de remboursement seront à nouveau indiqués sur l'écran du produit.",
           ],
         },
       ],

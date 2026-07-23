@@ -17,52 +17,55 @@ const content: LegalLocaleContent = {
         {
           title: "1. Natura del servizio",
           paragraphs: [
-            "Naming-Link è uno studio di naming basato sull'IA che offre quattro servizi: (1) abbinamento di nomi coreani con hanja (caratteri cinesi) dal significato appropriato, (2) conversione di nomi coreani in nomi globali, (3) conversione di nomi stranieri in nomi coreani e (4) trascrizione fonetica di nomi globali in hangul.",
-            "I risultati costituiscono materiale di riferimento a supporto della scelta e dell'interpretazione dei nomi. Non garantiscono l'idoneità alla registrazione ufficiale, ad esempio nei registri di stato civile, passaporti, visti, marchi o documenti legali.",
+            "Naming-Link è uno studio di naming basato su AI che offre i seguenti quattro servizi: ① abbinamento del significato dei caratteri cinesi ai nomi in coreano ② conversione di nomi coreani in nomi globali ③ conversione di nomi stranieri in nomi coreani ④ trascrizione di nomi globali in coreano secondo la pronuncia.",
+            "I risultati sono materiali di riferimento che aiutano nella creazione e nell'interpretazione dei nomi e non garantiscono la possibilità di registrazione ufficiale per registri di stato civile, passaporti, visti, marchi, documenti legali, ecc.",
           ],
         },
         {
-          title: "2. Utilizzo da parte di membri e ospiti",
+          title: "2. Utilizzo da parte di membri e non membri",
           paragraphs: [
-            "L'analisi dei nomi e lo sblocco dei candidati tramite pubblicità con ricompensa sono disponibili anche senza account. La registrazione o l'accesso possono essere richiesti solo per le funzioni che necessitano di un account, come l'ordine di articoli di merchandising e la consultazione della cronologia degli ordini.",
+            "L'analisi dei nomi e la visualizzazione dei candidati con compenso pubblicitario sono accessibili anche ai non membri. L'iscrizione o il login sono richiesti solo per funzionalità che necessitano di un account, come l'ordine di prodotti e la verifica della cronologia degli ordini.",
           ],
         },
         {
-          title: "3. Risultati dell'IA e responsabilità di verifica",
+          title: "3. Responsabilità per i risultati dell'AI e revisione",
           paragraphs: [
-            "I risultati raccomandati dall'IA includono riferimenti linguistici, culturali e tradizionali. Prima della scelta definitiva di un nome, l'utente deve verificarne l'idoneità tramite le autorità competenti, esperti, parlanti locali e verifiche legali o di marchio.",
+            "I risultati raccomandati dall'AI includono riferimenti linguistici, culturali e tradizionali. Gli utenti devono verificare l'idoneità attraverso enti competenti, esperti, utenti locali e revisioni legali/marchiali prima di scegliere il nome finale.",
           ],
         },
         {
           title: "4. Servizi a pagamento",
           paragraphs: [
-            "Il servizio di abbinamento del significato degli hanja offre i seguenti prodotti dettagliati: (1) spiegazioni dettagliate per un massimo di 5 candidati più un'analisi complessiva degli hanja: ₩2,900 (KRW); (2) spiegazioni dettagliate estese per un massimo di 10 candidati, un'analisi complessiva degli hanja e un PDF da conservare: ₩4,900; (3) dettagli per un massimo di 10 candidati, un'analisi complessiva degli hanja, un'analisi saju (Quattro Pilastri) e Cinque Elementi e un PDF da conservare: ₩9,900.",
-            "Nei servizi di conversione in nomi globali, conversione in nomi coreani e trascrizione fonetica in hangul può essere offerto un prodotto che sblocca in una sola volta, senza pubblicità, tutti i candidati rimanenti (US$1.99). Prima dell'attivazione delle funzioni di pagamento è disponibile soltanto lo sblocco tramite pubblicità con ricompensa.",
-            "I report dettagliati a pagamento, i risultati delle analisi e i file PDF restano consultabili e scaricabili per 24 ore dopo il pagamento; al termine del periodo di conservazione vengono eliminati automaticamente.",
-            "I prodotti fisici, come gli articoli di merchandising con nomi coreani, possono essere offerti a prezzi e condizioni separati. Per ogni prodotto a pagamento, il contenuto del prodotto, il prezzo, la modalità di fornitura e le condizioni di rimborso sono indicati a schermo prima del pagamento.",
+            "I dettagli del servizio di abbinamento del significato dei caratteri cinesi sono i seguenti: ① massimo 5 candidati con descrizione dettagliata e dettagli complessivi dei caratteri cinesi: 2.900 ₩ ② massimo 10 candidati con descrizione dettagliata estesa, dettagli complessivi dei caratteri cinesi e PDF per la conservazione: 4.900 ₩ ③ massimo 10 candidati con dettagli, dettagli complessivi dei caratteri cinesi, analisi del destino e degli elementi e PDF per la conservazione: 9.900 ₩.",
+            "Nei servizi di conversione di nomi globali, conversione di nomi coreani e trascrizione fonetica in coreano, può essere offerto un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale 990 ₩, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con compenso pubblicitario.",
+            "Per gli utenti globali, i prodotti digitali comprendono ④ PDF del rapporto completo sui nomi in coreano (US$9.99): arte del nome con caratteri consigliati, interpretazione del significato e riferimento all'analisi del destino e degli elementi ⑤ PDF dell'arte di conversione della pronuncia in coreano (US$2.99): arte del nome con caratteri scelti e guida alla pronuncia ⑥ PDF del pacchetto di arte del nome (US$1.99): fornitura di un nome scelto in arte con caratteri selezionati. I prezzi e il numero di caratteri applicabili per ciascun prodotto seguono i valori indicati sullo schermo.",
+            "I rapporti dettagliati a pagamento e i risultati delle analisi, i file PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il completamento del pagamento e verranno eliminati automaticamente dopo il periodo di conservazione.",
+            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come 39.000 ₩ in Corea e US$34.99 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
           ],
         },
         {
-          title: "5. Funzioni con pubblicità a ricompensa",
+          title: "5. Servizio con compenso pubblicitario",
           paragraphs: [
-            "Lo sblocco dei candidati tramite visione di pubblicità si applica solo dopo che il fornitore pubblicitario ha confermato regolarmente la ricompensa. La riproduzione automatizzata di annunci, la manipolazione delle ricompense e le richieste ripetute anomale possono essere limitate.",
+            "Lo sblocco dei candidati tramite la visione di pubblicità si applica solo quando la conferma della normale compensazione da parte del fornitore di pubblicità è completata. La riproduzione automatizzata di pubblicità, la manipolazione della compensazione e le richieste ripetute anomale possono essere limitate.",
           ],
         },
         {
-          title: "6. Condotte vietate",
+          title: "6. Atti vietati",
           paragraphs: [
-            "Sono vietati: l'inserimento non autorizzato di dati personali di terzi, la generazione di nomi a fini discriminatori, di odio o di sostituzione di persona, le richieste eccessive automatizzate, il causare interruzioni del servizio e la presentazione dei risultati come falsamente certificati in via ufficiale.",
+            "È vietato inserire senza autorizzazione i dati personali di altri, generare nomi per scopi di discriminazione, odio o impersonificazione, effettuare richieste eccessive automatizzate, causare malfunzionamenti del servizio e indicare falsamente l'autenticità ufficiale dei risultati.",
           ],
         },
         {
-          title: "7. Limitazione di responsabilità",
+          title: "7. Limitazione della responsabilità",
           paragraphs: [
-            "Salvo dolo o colpa grave, la società non risponde di danni indiretti, mancato guadagno atteso, rifiuto di registrazioni ufficiali o controversie con terzi derivanti dall'uso dei risultati raccomandati dall'IA.",
+            "L'azienda non è responsabile per danni indiretti, perdita di profitti attesi, rifiuto di registrazione ufficiale o controversie di terzi derivanti dall'uso dei risultati raccomandati dall'AI, a meno che non ci sia dolo o grave negligenza.",
           ],
         },
         {
           title: "8. Contatti",
-          paragraphs: [`Richieste sul servizio: ${companyInfo.email}`],
+          paragraphs: [
+            "Richieste di servizio: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Dati personali trattati",
+          title: "1. Categorie di dati personali trattati",
           paragraphs: [
-            "Quando i servizi sui nomi vengono utilizzati come ospite, nome, data e ora di nascita, paese, lingua, finalità d'uso e indicazioni sulla pronuncia sono trattati temporaneamente nel processo di generazione dei risultati dell'analisi, ma i contenuti inseriti e i risultati generati non vengono salvati nel database del servizio.",
-            "In caso di acquisto di un report dettagliato a pagamento, gli identificativi dell'ordine, lo stato del pagamento e gli input e i risultati di analisi necessari alla generazione del report sono trattati per il periodo di conservazione (24 ore dopo il pagamento). I dati dei mezzi di pagamento, come il numero di carta, sono trattati direttamente dal fornitore di servizi di pagamento e la società non li conserva.",
-            "Solo in caso di utilizzo della funzione di ordine degli articoli di merchandising possono essere trattati in aggiunta il nome dell'ordinante, l'email, il recapito, l'indirizzo di consegna, lo stato del pagamento e le informazioni di gestione dell'ordine.",
-            "Per la stabilità del servizio e la prevenzione degli abusi possono essere trattati, come log operativi minimi, un hash de-identificato del visitatore che cambia ogni giorno, l'orario della richiesta, il tipo di servizio, il numero di utilizzi gratuiti, i token IA, i tempi di risposta, lo stato di elaborazione e gli eventi di visualizzazione delle pubblicità e di ricompensa.",
+            "Quando si utilizza il servizio di nomi per non membri, il nome, la data di nascita, l'ora di nascita, il paese, la lingua, lo scopo d'uso e gli indizi di pronuncia vengono trattati temporaneamente durante il processo di generazione dei risultati analitici, ma i contenuti inseriti e i risultati generati non vengono memorizzati nel database del servizio.",
+            "Durante la registrazione e il login, vengono trattati l'indirizzo email e la cronologia di accesso (storico di autenticazione).",
+            "Quando si effettua il pagamento per un rapporto dettagliato a pagamento, le informazioni identificative dell'ordine, lo stato del pagamento e i dati di input e risultati analitici necessari per la generazione del rapporto vengono trattati per un periodo di conservazione (24 ore dopo il pagamento). Le informazioni sui metodi di pagamento, come il numero della carta, vengono trattate direttamente dal fornitore di servizi di pagamento e l'azienda non le memorizza.",
+            "Solo quando si utilizza la funzione di ordinazione di beni, possono essere trattati ulteriormente il nome dell'ordinante, l'email, il numero di contatto, l'indirizzo di spedizione, lo stato del pagamento e le informazioni sul trattamento dell'ordine.",
+            "Per garantire la stabilità del servizio e prevenire abusi, possono essere trattati come log operativi minimi gli hash dei visitatori non identificabili che cambiano quotidianamente, l'orario della richiesta, il tipo di servizio, il numero di utilizzi gratuiti, i token AI, i tempi di risposta, lo stato di elaborazione e la visualizzazione degli annunci e gli eventi di ricompensa.",
           ],
         },
         {
-          title: "2. Finalità del trattamento dei dati personali",
+          title: "2. Scopi del trattamento dei dati personali",
           paragraphs: [
-            "I dati personali sono trattati per la raccomandazione di nomi basata sui valori inseriti, l'analisi della pronuncia, l'analisi per paese della lingua e dell'area culturale, i limiti di utilizzo gratuito, la verifica delle ricompense pubblicitarie, l'assistenza clienti, la gestione dei pagamenti e delle consegne e la prevenzione degli usi fraudolenti.",
+            "I dati personali vengono trattati per raccomandazioni di nomi basate sui valori di input, analisi della pronuncia, analisi delle lingue e delle culture per paese, limitazione dell'uso gratuito, verifica delle ricompense pubblicitarie, gestione delle richieste dei clienti, elaborazione dei pagamenti e delle spedizioni, e prevenzione di utilizzi fraudolenti.",
           ],
         },
         {
-          title: "3. Conservazione e cancellazione",
+          title: "3. Conservazione e distruzione",
           paragraphs: [
-            "Gli input e i risultati delle analisi sono conservati nell'account solo quando un membro che ha effettuato l'accesso sceglie esplicitamente di salvarli, e vengono cancellati quando il membro li elimina o quando cessa la finalità di conservazione. Gli input e i risultati degli ospiti e dei membri che non scelgono di salvarli non vengono conservati.",
-            "Gli input, i risultati di analisi e i file PDF dei report dettagliati a pagamento vengono eliminati automaticamente 24 ore dopo il completamento del pagamento. I registri delle transazioni di pagamento e degli ordini sono conservati separatamente per i periodi di conservazione previsti dalla normativa applicabile.",
-            "I dettagli di consegna vengono cancellati o de-identificati una volta trascorso il periodo necessario per la gestione dell'ordine, i resi e la risoluzione delle controversie.",
+            "I dati di input e i risultati analitici vengono conservati nell'account solo se il membro loggato ha esplicitamente scelto di salvare i risultati, e vengono distrutti se il membro li elimina o se lo scopo di conservazione termina. I dati di input e i risultati di membri non registrati e di membri che non hanno scelto di salvare non vengono memorizzati.",
+            "I dati di input, i risultati analitici e i file PDF del rapporto dettagliato a pagamento vengono automaticamente eliminati dopo 24 ore dal completamento del pagamento. Le registrazioni delle transazioni di pagamento e degli ordini vengono conservate separatamente in base ai periodi di conservazione legali previsti dalla normativa vigente.",
+            "Le informazioni dettagliate sulla spedizione vengono distrutte o rese anonime dopo il periodo necessario per il trattamento degli ordini e per la gestione di resi e controversie.",
           ],
         },
         {
-          title: "4. Comunicazione a terzi e trattamento su incarico",
+          title: "4. Fornitura a terzi e delega del trattamento",
           paragraphs: [
-            "Per il funzionamento del servizio, le informazioni necessarie possono essere trattate da o affidate a Supabase (database e autenticazione), Vercel (hosting), OpenAI API (analisi IA), reti pubblicitarie, il fornitore di servizi di pagamento (PortOne) e partner di consegna e produzione.",
+            "Per il funzionamento del servizio, le informazioni necessarie possono essere trattate o delegate a Supabase (database, autenticazione), Vercel (hosting), OpenAI API (analisi AI), reti pubblicitarie, fornitori di servizi di pagamento (PortOne) e partner di spedizione e produzione.",
           ],
         },
         {
-          title: "5. Possibili trasferimenti all'estero",
+          title: "5. Trasferimento di dati personali all'estero",
           paragraphs: [
-            "In alcune fasi del trattamento, come hosting cloud, autenticazione, API di IA, pubblicità e invio di email, i dati personali possono essere trattati su server all'estero. I paesi di destinazione, gli incaricati del trattamento, le finalità e i periodi di conservazione saranno comunicati in dettaglio una volta definiti i fornitori dei servizi.",
+            "L'azienda trasferisce (delega il trattamento) i dati personali all'estero come segue per fornire il servizio. Il trasferimento avviene tramite modalità di trasmissione attraverso reti di telecomunicazione.",
+            "① OpenAI, L.L.C. (Stati Uniti) — Categorie trasferite: nome, data di nascita, ora di nascita, sesso, paese, lingua e altri valori di input analitici — Scopo del trasferimento: analisi di nomi, pronunce e significati basati su AI — Periodo di conservazione e utilizzo: durata del servizio fornito (i dati di input non vengono utilizzati per l'apprendimento del modello secondo le politiche di OpenAI e vengono conservati per un massimo di 30 giorni per scopi di monitoraggio degli abusi prima di essere eliminati).",
+            "② Supabase, Inc. (Stati Uniti) — Categorie trasferite: informazioni sullo stato degli ordini e dei pagamenti, email dei membri, input e risultati dei rapporti a pagamento (24 ore dopo il pagamento), nome dell'ordinante, numero di contatto e indirizzo di spedizione durante l'ordinazione di beni — Scopo del trasferimento: database, autenticazione, conservazione — Periodo di conservazione e utilizzo: durata del servizio fornito o fino al periodo di conservazione di ciascuna voce.",
+            "③ Vercel, Inc. (Stati Uniti) — Categorie trasferite: informazioni di accesso e richiesta trasmesse durante l'utilizzo del servizio — Scopo del trasferimento: hosting dell'applicazione — Periodo di conservazione e utilizzo: durata del servizio fornito.",
+            "Gli utenti possono rifiutare il consenso al trasferimento dei dati personali all'estero, tuttavia, poiché tale trattamento è essenziale per la fornitura del servizio, il rifiuto potrebbe limitare l'utilizzo del servizio.",
           ],
         },
         {
           title: "6. Diritti degli utenti",
           paragraphs: [
-            "Gli utenti possono richiedere l'accesso ai propri dati personali, la loro rettifica, cancellazione o sospensione del trattamento, nonché revocare il consenso. Le richieste sono ricevute tramite l'email del servizio clienti e gestite dopo la verifica dell'identità.",
+            "Gli utenti possono richiedere l'accesso, la correzione, la cancellazione, la sospensione del trattamento e la revoca del consenso ai dati personali. Le richieste vengono ricevute tramite email al servizio clienti e vengono elaborate dopo la verifica dell'identità.",
           ],
         },
         {
           title: "7. Responsabile della protezione dei dati personali",
           paragraphs: [
-            `Responsabile: ${companyInfo.privacyOfficer}`,
-            `Email: ${companyInfo.email}`,
+            "Responsabile: Gwak Eun-ha",
+            "Email: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Principi generali",
+          title: "1. Principi comuni",
           paragraphs: [
-            "Una volta attivate le funzioni di pagamento, l'ambito rimborsabile può variare a seconda della modalità di fornitura di ciascun prodotto, del momento di avvio della produzione e dello stato di download. Le condizioni specifiche sono indicate sulla schermata del prodotto prima del pagamento.",
+            "Una volta attivata la funzione di pagamento, l'ambito di rimborso può variare a seconda del modo in cui viene fornito ciascun prodotto, del momento di avvio della produzione e della possibilità di download. Le condizioni specifiche saranno comunicate nella schermata del prodotto prima del pagamento.",
           ],
         },
         {
-          title: "2. Report dettagliati sugli hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Rapporto dettagliato sui caratteri cinesi (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
-            "Dopo il pagamento, la cancellazione è possibile finché la generazione dell'analisi dettagliata da parte dell'IA non è iniziata. Una volta completata la generazione e resi possibili la consultazione o il download, il rimborso per semplice ripensamento può essere limitato.",
-            "In caso di errori nei contenuti, mancata generazione dovuta a guasti di sistema o incongruenze nell'importo pagato accertate, si procede alla riemissione o al rimborso. La scadenza del periodo di conservazione (24 ore dopo il pagamento) con conseguente fine della possibilità di download non costituisce motivo di rimborso.",
+            "È possibile annullare l'ordine prima dell'inizio della generazione dell'analisi dettagliata da parte dell'AI. Una volta completata la generazione dell'analisi e resa disponibile per la visualizzazione o il download, il rimborso per semplice ripensamento potrebbe essere limitato.",
+            "In caso di errore di contenuto, guasto del sistema che causa il fallimento della generazione o discrepanza nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Se il download termina a causa del superamento del periodo di conservazione (24 ore dopo il pagamento), ciò non costituisce motivo di rimborso.",
           ],
         },
         {
-          title: "3. Sblocco di tutti i candidati (US$1.99)",
+          title: "3. Pubblicazione complessiva dei candidati (₩990 in Corea · US$1.99 all'estero)",
           paragraphs: [
-            "Lo sblocco in blocco dei candidati nei servizi di conversione in nomi globali, conversione in nomi coreani e trascrizione fonetica in hangul è un contenuto digitale fornito immediatamente al pagamento. La cancellazione è possibile prima dell'inizio della consultazione dei candidati; dopo la consultazione, il rimborso per semplice ripensamento può essere limitato.",
-            "Se, a causa di un errore di sistema, i candidati non vengono sbloccati correttamente, si procede a una nuova fornitura o al rimborso.",
+            "La pubblicazione complessiva dei candidati per il servizio di conversione dei nomi globali, conversione dei nomi coreani e trascrizione fonetica in hangul è contenuto digitale fornito immediatamente dopo il pagamento. È possibile annullare l'ordine prima dell'inizio della visualizzazione dei candidati, mentre dopo la visualizzazione il rimborso per semplice ripensamento potrebbe essere limitato.",
+            "In caso di errore di sistema che impedisca la pubblicazione normale dei candidati, verrà effettuata una riemissione o un rimborso.",
           ],
         },
         {
-          title: "4. Articoli di merchandising personalizzati",
+          title: "4. Prodotto digitale PDF globale (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Gli articoli personalizzati possono essere cancellati fino all'avvio della produzione. Dopo l'avvio della produzione, il rimborso per semplice ripensamento può essere limitato; errori di scrittura, danni, difetti di produzione o problemi di consegna vengono gestiti, previa verifica, con la modalità appropriata tra sostituzione, nuova produzione o rimborso.",
+            "Il rapporto completo sui nomi in hangul (US$9.99), l'arte di conversione della pronuncia in hangul (US$2.99) e il pacchetto di arte dei nomi (US$1.99) sono contenuti digitali generati dopo il pagamento. È possibile annullare l'ordine prima dell'inizio della generazione del PDF, mentre dopo il completamento della generazione e la disponibilità per il download, il rimborso per semplice ripensamento potrebbe essere limitato.",
+            "In caso di fallimento della generazione, errore di contenuto o discrepanza nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Se il download termina a causa del superamento del periodo di conservazione (24 ore dopo il pagamento), ciò non costituisce motivo di rimborso.",
           ],
         },
         {
-          title: "5. Sblocco tramite pubblicità",
+          title: "5. Prodotti personalizzati (timbri per nomi, ecc.)",
           paragraphs: [
-            "I vantaggi ottenuti tramite la visione di pubblicità non sono prodotti a pagamento. Se la ricompensa non viene erogata a causa di un errore della rete pubblicitaria, la questione viene gestita con un nuovo tentativo all'interno del servizio o contattando il servizio clienti.",
+            "I prodotti personalizzati come i timbri per nomi (₩39,000 in Corea · US$34.99 all'estero, spese di spedizione internazionale incluse) possono essere annullati fino all'inizio della produzione. Dopo l'inizio della produzione, poiché la frase di incisione viene confermata in modo personalizzato, il rimborso per semplice ripensamento potrebbe essere limitato, mentre errori di battitura, danni, produzione errata o problemi di spedizione verranno gestiti in modo appropriato tramite scambio, riemissione o rimborso dopo verifica.",
+          ],
+        },
+        {
+          title: "5. Sblocco pubblicitario",
+          paragraphs: [
+            "I vantaggi della visione di annunci non sono prodotti a pagamento. In caso di mancato pagamento della compensazione a causa di un errore nella rete pubblicitaria, verrà gestito tramite ripetizione all'interno del servizio o contattando il servizio clienti.",
           ],
         },
         {
           title: "6. Contatti",
-          paragraphs: [`Richieste di rimborso: ${companyInfo.email}`],
+          paragraphs: [
+            "Richiesta di rimborso: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Analisi di base (gratuita)",
           paragraphs: [
-            "L'analisi di base dei quattro servizi — abbinamento del significato degli hanja (caratteri cinesi), conversione in nomi globali, conversione in nomi coreani e trascrizione fonetica in hangul — è offerta gratuitamente anche agli ospiti e può essere soggetta a limiti di utilizzo giornalieri.",
+            "L'analisi di base dei quattro servizi di corrispondenza del significato dei caratteri cinesi, conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul è fornita gratuitamente agli utenti non registrati, con possibili limiti di utilizzo giornaliero.",
           ],
         },
         {
-          title: "Utilizzo con pubblicità a ricompensa",
+          title: "Utilizzo con compenso pubblicitario",
           paragraphs: [
-            "Lo sblocco dei candidati dopo la visione di una pubblicità è un vantaggio pubblicitario fornito senza pagamento aggiuntivo. Ogni pubblicità sblocca il candidato successivo. La disponibilità può variare in base all'inventario pubblicitario, al paese, al dispositivo o alle politiche del fornitore pubblicitario.",
+            "Lo sblocco dei candidati dopo la visione di annunci è un beneficio pubblicitario fornito senza pagamento separato. Per ogni annuncio visualizzato, si sblocca un candidato successivo. La disponibilità può variare in base alle scorte pubblicitarie, al paese, al dispositivo o alle politiche del fornitore di annunci.",
           ],
         },
         {
-          title: "Prodotti dettagliati di abbinamento del significato degli hanja",
+          title: "Dettagli del prodotto di corrispondenza del significato dei caratteri cinesi",
           paragraphs: [
-            "Spiegazioni dettagliate per un massimo di 5 candidati più un'analisi complessiva degli hanja: ₩2,900",
-            "Spiegazioni dettagliate estese per un massimo di 10 candidati, un'analisi complessiva degli hanja e un PDF da conservare: ₩4,900",
-            "Dettagli per un massimo di 10 candidati, un'analisi complessiva degli hanja, un'analisi saju (Quattro Pilastri) e Cinque Elementi e un PDF da conservare: ₩9,900",
-            "I report a pagamento e i PDF restano consultabili e scaricabili per 24 ore dopo il pagamento; in seguito vengono eliminati automaticamente.",
+            "Descrizione dettagliata di un massimo di 5 candidati e dettagli completi sui caratteri cinesi: 2.900 won",
+            "Descrizione dettagliata estesa di un massimo di 10 candidati, dettagli completi sui caratteri cinesi e PDF per collezionisti: 4.900 won",
+            "Dettagli di un massimo di 10 candidati, dettagli completi sui caratteri cinesi, analisi del destino e dei cinque elementi e PDF per collezionisti: 9.900 won",
+            "I rapporti a pagamento e i PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il pagamento e verranno automaticamente eliminati successivamente.",
           ],
         },
         {
-          title: "Sblocco di tutti i candidati",
+          title: "Pubblicazione totale dei candidati",
           paragraphs: [
-            "Sblocco in una sola volta, senza pubblicità, di tutti i candidati rimanenti nei servizi di conversione in nomi globali, conversione in nomi coreani e trascrizione fonetica in hangul: US$1.99 (funzione di pagamento in preparazione)",
+            "Pubblicazione simultanea di tutti i candidati rimanenti senza pubblicità nei servizi di conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul: pagamento nazionale 990 won, pagamento internazionale US$1.99 (funzione di pagamento in preparazione)",
           ],
         },
         {
-          title: "Articoli di merchandising con nomi coreani",
+          title: "Prodotti PDF digitali globali",
           paragraphs: [
-            "Per gli articoli di merchandising fisici, come il timbro del nome, il prezzo per prodotto, le spese di spedizione e i tempi di produzione sono comunicati separatamente.",
+            "Rapporto PDF completo sui nomi in Hangul (arte dei nomi e interpretazione del significato di tutti i candidati raccomandati, riferimento al destino e ai cinque elementi): US$9.99",
+            "Arte PDF per la traslitterazione in Hangul (arte del nome con caratteri scelti e guida alla pronuncia): US$2.99",
+            "Pacchetto arte del nome PDF (fornito come arte in base ai caratteri scelti per un nome selezionato): US$1.99",
+            "I prezzi e il numero di caratteri applicabili seguono i valori indicati sullo schermo, e il PDF può essere scaricato nuovamente entro 24 ore dopo il pagamento e verrà automaticamente eliminato successivamente. (funzione di pagamento in preparazione)",
           ],
         },
         {
-          title: "Informazioni prima del lancio ufficiale dei pagamenti",
+          title: "Merchandising di nomi in Hangul",
           paragraphs: [
-            "Una volta definiti l'esame del gestore dei pagamenti (PG), la registrazione dell'attività di vendita a distanza e le condizioni delle partnership di produzione, l'importo effettivo del pagamento, le spese di spedizione, i tempi di produzione e le condizioni di rimborso saranno comunicati nuovamente sulla schermata di ciascun prodotto.",
+            "Timbro con nome: 39.000 won in Corea · US$34.99 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
+          ],
+        },
+        {
+          title: "Informazioni prima del pagamento ufficiale",
+          paragraphs: [
+            "Una volta definiti i requisiti per la revisione PG, la registrazione per la vendita per corrispondenza e le condizioni di partnership per la produzione, l'importo effettivo del pagamento, le spese di spedizione, i tempi di produzione e le condizioni di rimborso verranno nuovamente comunicati sulla schermata del prodotto.",
           ],
         },
       ],

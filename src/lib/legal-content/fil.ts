@@ -15,54 +15,57 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Katangian ng Serbisyo",
+          title: "1. Kalikasan ng Serbisyo",
           paragraphs: [
-            "Ang Naming-Link ay isang AI-powered na naming studio na nag-aalok ng apat na serbisyo: (1) pagtutugma ng mga pangalang Koreano sa makahulugang Hanja (mga karakter na Tsino), (2) pagko-convert ng mga pangalang Koreano sa mga global na pangalan, (3) pagko-convert ng mga banyagang pangalan sa mga pangalang Koreano, at (4) pagsusulat ng mga global na pangalan sa Hangul ayon sa bigkas.",
-            "Ang mga resulta ay sangguniang materyal upang tulungan ang pagpapangalan at interpretasyon. Hindi nito ginagarantiyahan ang pagiging karapat-dapat para sa opisyal na pagpaparehistro tulad ng rehistro ng ugnayang pampamilya, pasaporte, visa, trademark, o mga legal na dokumento.",
+            "Ang Naming-Link ay isang AI-based naming studio na nag-aalok ng apat na pangunahing serbisyo. ① Pagtutugma ng kahulugan ng Hanja sa mga pangalan sa Korean ② Pag-convert ng mga pangalan sa Korean sa mga pandaigdigang pangalan ③ Pag-convert ng mga banyagang pangalan sa mga pangalan sa Korean ④ Pag-transliterate ng mga pandaigdigang pangalan sa Korean ayon sa pagbigkas.",
+            "Ang mga resulta ay mga sanggunian na tumutulong sa pagbibigay ng pangalan at interpretasyon, at hindi nagbibigay ng garantiya para sa posibilidad ng opisyal na pagpaparehistro tulad ng sa mga tala ng pamilya, pasaporte, visa, trademark, at mga legal na dokumento.",
           ],
         },
         {
           title: "2. Paggamit ng mga Miyembro at Hindi Miyembro",
           paragraphs: [
-            "Ang pagsusuri ng pangalan at ang pagbubukas ng mga kandidato sa pamamagitan ng ad reward ay magagamit kahit hindi miyembro. Ang pag-sign up o pag-log in ay hihilingin lamang para sa mga feature na nangangailangan ng account, tulad ng pag-order ng merchandise at pagtingin sa kasaysayan ng mga order.",
+            "Ang pagsusuri ng pangalan at pagtingin sa mga kandidato na may gantimpala sa advertising ay maaaring gamitin ng mga hindi miyembro. Ang pagpaparehistro bilang miyembro o pag-login ay kinakailangan lamang para sa mga tampok na nangangailangan ng account tulad ng pag-order ng mga produkto at pag-verify ng kasaysayan ng order.",
           ],
         },
         {
-          title: "3. Mga Resulta ng AI at Responsibilidad sa Pagsusuri",
+          title: "3. Responsibilidad sa AI Resulta at Pagsusuri",
           paragraphs: [
-            "Kasama sa mga rekomendasyon ng AI ang mga sangguniang pangwika, pangkultura, at tradisyonal. Bago pumili ng pinal na pangalan, dapat tiyakin ng user ang pagiging angkop nito sa pamamagitan ng mga kaugnay na institusyon, eksperto, lokal na gumagamit ng wika, at pagsusuring legal o pang-trademark.",
+            "Ang mga rekomendasyon ng AI ay naglalaman ng mga linggwistik, kultural, at tradisyunal na sanggunian. Dapat tiyakin ng mga gumagamit ang pagiging angkop bago ang huling pagpili ng pangalan sa pamamagitan ng mga kaugnay na ahensya, mga eksperto, lokal na gumagamit, at pagsusuri ng batas at trademark.",
           ],
         },
         {
-          title: "4. Mga Bayad na Serbisyo",
+          title: "4. Bayad na Serbisyo",
           paragraphs: [
-            "Ang mga detalyadong produkto ng serbisyo ng pagtutugma ng kahulugan ng Hanja ay ang mga sumusunod: (1) detalyadong paliwanag para sa hanggang 5 kandidato at komprehensibong detalyadong pagsusuri ng Hanja: ₩2,900 (KRW); (2) pinalawak na detalyadong paliwanag para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, at PDF na maiingatan: ₩4,900; (3) detalye para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, pagsusuri ng Saju (Apat na Haligi) at Limang Elemento, at PDF na maiingatan: ₩9,900.",
-            "Sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul, maaaring ialok ang isang produkto na nagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad (US$1.99). Bago ma-activate ang feature ng pagbabayad, pagbubukas sa pamamagitan lamang ng ad reward ang ibinibigay.",
-            "Ang mga bayad na detalyadong report, resulta ng pagsusuri, at PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos makumpleto ang pagbabayad, at awtomatikong ide-delete pagkalipas ng panahon ng pag-iingat.",
-            "Ang mga pisikal na produkto tulad ng merchandise ng pangalang Hangul ay maaaring ialok sa hiwalay na presyo at kondisyon. Para sa lahat ng bayad na produkto, ipinapaalam sa screen bago ang pagbabayad ang nilalaman ng produkto, presyo, paraan ng paghahatid, at mga kondisyon sa refund.",
+            "Ang detalyadong produkto ng serbisyo ng pagtutugma ng kahulugan ng Hanja ay ang mga sumusunod. ① Hanggang 5 kandidato na may detalyadong paglalarawan at komprehensibong Hanja: 2,900 won ② Hanggang 10 kandidato na may pinalawak na detalyadong paglalarawan, komprehensibong Hanja at PDF para sa koleksyon: 4,900 won ③ Hanggang 10 kandidato na may detalyado, komprehensibong Hanja, pagsusuri ng fortune-telling at mga elemento, at PDF para sa koleksyon: 9,900 won.",
+            "Sa mga serbisyo ng pag-convert ng pandaigdigang pangalan, pag-convert ng pangalan sa Korean, at pag-transliterate ng pangalan sa Korean, maaaring mag-alok ng produkto na naglalantad ng lahat ng natitirang kandidato nang walang advertising sa isang pagkakataon (990 won para sa domestic payment, US$1.99 para sa international payment). Bago ma-activate ang function ng pagbabayad, ang pagtingin ay limitado lamang sa gantimpala sa advertising.",
+            "Para sa mga pandaigdigang gumagamit, ang mga digital na produkto ay ④ PDF ng komprehensibong ulat ng pangalan sa Korean (US$9.99): lahat ng inirekomendang kandidato na may pangalan ng font art, paliwanag ng kahulugan, at sanggunian sa fortune-telling ⑤ PDF ng art ng pag-convert ng pagbigkas sa Korean (US$2.99): art ng pangalan ng napiling font at gabay sa pagbigkas ⑥ PDF ng art pack ng pangalan (US$1.99): isang napiling pangalan na ibinibigay sa art ayon sa napiling font. Ang mga presyo ng bawat produkto at ang bilang ng mga font na inilapat ay sumusunod sa mga halagang nakasaad sa screen.",
+            "Ang mga bayad na detalyadong ulat at resulta ng pagsusuri, PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagkumpleto ng pagbabayad, at awtomatikong mabubura pagkatapos ng panahon ng pag-iimbak.",
+            "Ang mga pisikal na produkto tulad ng pangalan ng selyo ay ibinibigay sa mga presyo at kondisyon ng produkto tulad ng 39,000 won para sa domestic at US$34.99 (kasama ang internasyonal na pagpapadala). Lahat ng bayad na produkto ay may impormasyon tungkol sa nilalaman ng produkto, presyo, paraan ng pagbibigay, at mga kondisyon ng refund na nakasaad sa screen bago ang pagbabayad.",
           ],
         },
         {
-          title: "5. Serbisyong Nakabatay sa Ad Reward",
+          title: "5. Serbisyo na may Gantimpala sa Advertising",
           paragraphs: [
-            "Ang pagbubukas ng mga kandidato sa pamamagitan ng panonood ng ad ay iaaplay lamang kapag nakumpleto ang normal na pagkumpirma ng reward mula sa ad provider. Maaaring paghigpitan ang automated na pag-play ng ad, pagmamanipula ng reward, at abnormal na paulit-ulit na mga request.",
+            "Ang pag-unlock ng mga kandidato sa pamamagitan ng panonood ng advertising ay nalalapat lamang kapag nakumpleto ang normal na pagkumpirma ng gantimpala ng nagbibigay ng advertising. Ang automated na pag-play ng advertising, manipulasyon ng gantimpala, at hindi normal na paulit-ulit na mga kahilingan ay maaaring limitahan.",
           ],
         },
         {
-          title: "6. Mga Ipinagbabawal na Gawain",
+          title: "6. Bawal na Gawain",
           paragraphs: [
-            "Ipinagbabawal ang mga sumusunod: paglalagay ng personal na impormasyon ng ibang tao nang walang pahintulot, paglikha ng pangalan para sa layuning diskriminasyon, pagkamuhi, o panggagaya, automated na labis na mga request, pagdudulot ng abala sa serbisyo, at maling pagpapakita ng mga resulta bilang opisyal na sertipikado.",
+            "Ipinagbabawal ang hindi awtorisadong pag-input ng personal na impormasyon ng ibang tao, paglikha ng mga pangalan para sa layunin ng diskriminasyon, poot, o impersonation, automated na labis na mga kahilingan, pagdudulot ng pagkasira ng serbisyo, at maling opisyal na sertipikasyon ng mga resulta.",
           ],
         },
         {
-          title: "7. Limitasyon ng Pananagutan",
+          title: "7. Limitasyon ng Responsibilidad",
           paragraphs: [
-            "Maliban sa mga kaso ng sadyang gawa o malubhang kapabayaan, hindi mananagot ang kumpanya para sa mga hindi direktang pinsala, pagkawala ng inaasahang kita, pagtanggi ng opisyal na pagpaparehistro, o mga alitan sa third party na nagmumula sa paggamit ng mga rekomendasyon ng AI.",
+            "Ang kumpanya ay hindi mananagot para sa mga hindi tuwirang pinsala, pagkawala ng inaasahang kita, pagtanggi sa opisyal na pagpaparehistro, o mga hidwaan sa ikatlong partido na nagmula sa paggamit ng mga rekomendasyon ng AI maliban kung mayroong intensyon o malubhang kapabayaan.",
           ],
         },
         {
-          title: "8. Mga Katanungan",
-          paragraphs: [`Mga katanungan tungkol sa serbisyo: ${companyInfo.email}`],
+          title: "8. Mga Tanong",
+          paragraphs: [
+            "Mga tanong tungkol sa serbisyo: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Mga Personal na Impormasyong Pinoproseso",
+          title: "1. Mga Item ng Personal na Impormasyon na Pinoproseso",
           paragraphs: [
-            "Kapag ginamit ang mga serbisyo ng pangalan bilang hindi miyembro, ang pangalan, petsa ng kapanganakan, oras ng kapanganakan, bansa, wika, layunin ng paggamit, at mga pahiwatig sa bigkas ay pansamantalang pinoproseso sa paglikha ng mga resulta ng pagsusuri, ngunit ang mga inilagay na impormasyon at nalikhang resulta ay hindi iniimbak sa database ng serbisyo.",
-            "Kapag nagbayad para sa isang bayad na detalyadong report, ang impormasyon ng pagkakakilanlan ng order, status ng pagbabayad, at ang mga input at resulta ng pagsusuring kailangan sa paglikha ng report ay pinoproseso sa loob ng panahon ng pag-iingat (24 na oras pagkatapos ng pagbabayad). Ang impormasyon ng paraan ng pagbabayad tulad ng numero ng card ay direktang pinoproseso ng payment gateway at hindi ito iniimbak ng kumpanya.",
-            "Kapag ginamit lamang ang feature ng pag-order ng merchandise, maaaring karagdagang iproseso ang pangalan ng nag-order, email, numero ng contact, address ng paghahatid, status ng pagbabayad, at impormasyon ng pagproseso ng order.",
-            "Para sa katatagan ng serbisyo at pag-iwas sa pang-aabuso, maaari naming iproseso bilang pinakamababang operational log ang isang de-identified na visitor hash na nagbabago araw-araw, oras ng request, uri ng serbisyo, bilang ng libreng paggamit, paggamit ng AI token, oras ng pagtugon, status ng pagproseso, at mga event ng pagpapakita ng ad at reward.",
+            "Sa paggamit ng serbisyo ng pangalan para sa mga hindi rehistradong miyembro, ang pangalan, petsa ng kapanganakan, oras ng kapanganakan, bansa, wika, layunin ng paggamit, at mga pahiwatig sa pagbigkas ay pansamantalang pinoproseso sa proseso ng pagbuo ng mga resulta ng pagsusuri, ngunit ang mga nilalaman ng input at mga resulta ng pagbuo ay hindi nakaimbak sa database ng serbisyo.",
+            "Sa pagpaparehistro at pag-login, ang email address at mga tala ng pag-login (kasaysayan ng pagpapatunay) ay pinoproseso.",
+            "Kapag nagbabayad para sa bayad na detalyadong ulat, ang impormasyon sa pagkakakilanlan ng order, estado ng pagbabayad, at mga input at resulta ng pagsusuri na kinakailangan para sa pagbuo ng ulat ay pinoproseso sa loob ng panahon ng pag-iimbak (24 na oras pagkatapos ng pagbabayad). Ang impormasyon sa paraan ng pagbabayad tulad ng numero ng card ay direktang pinoproseso ng ahensya ng pagbabayad at hindi ito iniimbak ng kumpanya.",
+            "Ang impormasyon ng pangalan ng nag-order, email, contact number, address, estado ng pagbabayad, at impormasyon sa pagproseso ng order ay maaari ring idagdag sa tanging paggamit ng function ng pag-order ng mga produkto.",
+            "Para sa katatagan ng serbisyo at pag-iwas sa pang-aabuso, ang mga hash ng hindi nakikilalang bisita na nagbabago araw-araw, oras ng kahilingan, uri ng serbisyo, bilang ng libreng paggamit, AI token, oras ng tugon, estado ng pagproseso, at mga ad exposure at reward event ay maaaring iproseso bilang minimum na operating log.",
           ],
         },
         {
-          title: "2. Mga Layunin ng Pagproseso ng Personal na Impormasyon",
+          title: "2. Layunin ng Pagproseso ng Personal na Impormasyon",
           paragraphs: [
-            "Pinoproseso ang personal na impormasyon para sa rekomendasyon ng pangalan batay sa mga input, pagsusuri ng bigkas, pagsusuri ng wika at kultura ayon sa bansa, limitasyon sa libreng paggamit, pagkumpirma ng ad reward, pagtugon sa mga katanungan ng customer, pagproseso ng pagbabayad at paghahatid, at pag-iwas sa mapanlinlang na paggamit.",
+            "Pinoproseso ang personal na impormasyon para sa rekomendasyon ng pangalan batay sa input, pagsusuri ng pagbigkas, pagsusuri ng wika at kultura ayon sa bansa, limitasyon ng libreng paggamit, pag-verify ng mga gantimpala sa advertising, pagtugon sa mga katanungan ng customer, pagproseso ng pagbabayad at pagpapadala, at pag-iwas sa maling paggamit.",
           ],
         },
         {
-          title: "3. Pag-iingat at Pagsira",
+          title: "3. Imbakan at Pagsira",
           paragraphs: [
-            "Ang mga input at resulta ng pagsusuri ay iniimbak sa account lamang kapag tahasang pinili ng naka-log in na miyembro na i-save ang mga resulta, at sinisira kapag dinelete ito ng miyembro o natapos na ang layunin ng pag-iingat. Hindi iniimbak ang mga input at resulta ng mga hindi miyembro at ng mga miyembrong hindi pumili na mag-save.",
-            "Ang mga input, resulta ng pagsusuri, at PDF file ng bayad na detalyadong report ay awtomatikong ide-delete 24 na oras pagkatapos makumpleto ang pagbabayad. Ang mga talaan ng transaksyon ng pagbabayad at order ay hiwalay na iniingatan alinsunod sa mga panahong itinakda ng nauukol na batas.",
-            "Ang mga detalye ng paghahatid ay sinisira o dine-de-identify pagkalipas ng panahong kailangan para sa pagproseso ng order at pagtugon sa mga pagsasauli at alitan.",
+            "Ang mga input at resulta ng pagsusuri ay iniimbak sa account ng rehistradong miyembro lamang kung tahasang pinili ng miyembro na i-save ang mga resulta, at ito ay sisirain kapag ang miyembro ay nagtanggal o natapos na ang layunin ng pag-iimbak. Ang mga input at resulta ng mga hindi rehistradong miyembro at mga miyembrong hindi pumili ng pag-iimbak ay hindi iniimbak.",
+            "Ang mga input, resulta ng pagsusuri, at PDF file ng bayad na detalyadong ulat ay awtomatikong mabubura pagkatapos ng 24 na oras mula sa pagkumpleto ng pagbabayad. Ang mga tala ng transaksyon sa pagbabayad at order ay hiwalay na iniimbak alinsunod sa legal na panahon ng pag-iimbak ng mga kaugnay na batas.",
+            "Ang mga detalye ng pagpapadala ay sisirain o magiging hindi nakikilalang pagkatapos ng kinakailangang panahon para sa pagproseso ng order at pagtugon sa mga pagbabalik at alitan.",
           ],
         },
         {
-          title: "4. Pagbibigay sa Third Party at Pagpapagawa ng Pagproseso",
+          title: "4. Pagbibigay at Pagsasagawa ng Ikatlong Partido",
           paragraphs: [
-            "Para sa pagpapatakbo ng serbisyo, maaaring iproseso o ipagkatiwala ang kinakailangang impormasyon sa Supabase (database at authentication), Vercel (hosting), OpenAI API (pagsusuri ng AI), mga ad network, payment gateway (PortOne), at mga kasosyo sa paghahatid at produksyon.",
+            "Upang mapatakbo ang serbisyo, ang mga kinakailangang impormasyon ay maaaring iproseso o ipasa sa Supabase (database at pagpapatunay), Vercel (hosting), OpenAI API (AI analysis), advertising network, ahensya ng pagbabayad (PortOne), at mga kasosyo sa pagpapadala at paggawa.",
           ],
         },
         {
-          title: "5. Posibilidad ng Paglipat sa Ibang Bansa",
+          title: "5. Paglipat ng Personal na Impormasyon sa Ibang Bansa",
           paragraphs: [
-            "Sa ilang proseso tulad ng cloud hosting, authentication, AI API, advertising, at pagpapadala ng email, maaaring maproseso ang personal na impormasyon sa mga server sa ibang bansa. Ang bansang paglilipatan, tagapagproseso, layunin, at panahon ng pag-iingat ay detalyadong ipapaalam kapag napagtibay na ang mga service provider.",
+            "Ang kumpanya ay lumilipat (nagpapasa) ng personal na impormasyon sa ibang bansa para sa pagbibigay ng serbisyo gaya ng nakasaad sa ibaba. Ang paglipat ay isinasagawa sa pamamagitan ng paraan ng pagpapadala sa pamamagitan ng mga network ng impormasyon.",
+            "① OpenAI, L.L.C. (Estados Unidos) — Mga item na ililipat: pangalan, petsa ng kapanganakan, oras ng kapanganakan, kasarian, bansa, wika at iba pang mga input para sa pagsusuri — Layunin ng paglipat: pagsusuri ng pangalan, pagbigkas, at kahulugan batay sa AI — Panahon ng paghawak at paggamit: panahon ng pagbibigay ng serbisyo (ang input data ay hindi ginagamit para sa pagsasanay ng modelo ayon sa patakaran ng OpenAI at mabubura pagkatapos ng maximum na 30 araw para sa layunin ng pagmamanman ng pang-aabuso).",
+            "② Supabase, Inc. (Estados Unidos) — Mga item na ililipat: impormasyon sa estado ng order at pagbabayad, email ng miyembro, input at resulta ng bayad na ulat (24 na oras pagkatapos ng pagbabayad), pangalan ng nag-order, contact number, at address sa oras ng pag-order ng produkto — Layunin ng paglipat: database, pagpapatunay, at pag-iimbak — Panahon ng paghawak at paggamit: panahon ng pagbibigay ng serbisyo o hanggang sa panahon ng pag-iimbak ng bawat item.",
+            "③ Vercel, Inc. (Estados Unidos) — Mga item na ililipat: impormasyon sa pag-access at kahilingan na ipinapadala sa proseso ng paggamit ng serbisyo — Layunin ng paglipat: hosting ng aplikasyon — Panahon ng paghawak at paggamit: panahon ng pagbibigay ng serbisyo.",
+            "Maaaring tumanggi ang mga gumagamit sa pahintulot para sa paglipat ng personal na impormasyon sa ibang bansa, ngunit dahil ang pagproseso na ito ay mahalaga para sa pagbibigay ng serbisyo, ang pagtanggi ay maaaring magresulta sa limitasyon sa paggamit ng serbisyo.",
           ],
         },
         {
-          title: "6. Mga Karapatan ng User",
+          title: "6. Mga Karapatan ng Gumagamit",
           paragraphs: [
-            "Maaaring hilingin ng user ang pagtingin, pagwawasto, pag-delete, pagpapahinto ng pagproseso ng kanyang personal na impormasyon, at pagbawi ng pahintulot. Ang mga kahilingan ay tinatanggap sa email ng customer center at pinoproseso pagkatapos ng pagpapatunay ng pagkakakilanlan.",
+            "Maaaring humiling ang mga gumagamit ng pag-access, pagwawasto, pagtanggal, paghinto ng pagproseso, at pag-atras ng pahintulot sa kanilang personal na impormasyon. Ang mga kahilingan ay tinatanggap sa pamamagitan ng email ng customer service at ipoproseso pagkatapos ng pagkilala sa pagkatao.",
           ],
         },
         {
-          title: "7. Opisyal na Tagapangasiwa ng Privacy",
+          title: "7. Tagapangalaga ng Personal na Impormasyon",
           paragraphs: [
-            `Tagapangasiwa: ${companyInfo.privacyOfficer}`,
-            `Email: ${companyInfo.email}`,
+            "Tagapangalaga: Kwak Eun-ha",
+            "Email: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Mga Pangkalahatang Prinsipyo",
+          title: "1. Pangkalahatang Prinsipyo",
           paragraphs: [
-            "Kapag na-activate na ang feature ng pagbabayad, maaaring mag-iba ang saklaw ng maaaring i-refund depende sa paraan ng paghahatid ng bawat produkto, oras ng pagsisimula ng produksyon, at kung na-download na. Ang mga tiyak na kondisyon ay ipinapaalam sa screen ng produkto bago ang pagbabayad.",
+            "Kapag na-activate ang function ng pagbabayad, ang saklaw ng refund ay maaaring magbago batay sa paraan ng pagbibigay ng bawat produkto, oras ng pagsisimula ng paggawa, at kung ito ay maaaring i-download. Ang mga tiyak na kondisyon ay ipapaalam bago ang pagbabayad sa screen ng produkto.",
           ],
         },
         {
-          title: "2. Detalyadong Report ng Hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Detalyadong Ulat ng Hanja (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
-            "Maaaring kanselahin pagkatapos ng pagbabayad hangga't hindi pa nagsisimula ang paglikha ng detalyadong pagsusuri ng AI. Kapag nakumpleto na ang paglikha ng pagsusuri at maaari na itong tingnan o i-download, maaaring paghigpitan ang refund dahil sa simpleng pagbabago ng isip.",
-            "Kung makumpirma ang mga error sa nilalaman, pagkabigo ng paglikha dahil sa sira ng system, o hindi pagtutugma ng halagang binayaran, ipoproseso ito sa pamamagitan ng muling pag-isyu o refund. Ang pagtatapos ng pag-download dahil sa paglipas ng panahon ng pag-iingat (24 na oras pagkatapos ng pagbabayad) ay hindi batayan para sa refund.",
+            "Bago magsimula ang paglikha ng AI detalyadong pagsusuri pagkatapos ng pagbabayad, maaari itong kanselahin. Kapag natapos na ang paglikha ng pagsusuri at ito ay maaaring ma-access o ma-download, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
+            "Kung may mga pagkakamali sa nilalaman, pagkasira ng sistema na nagdudulot ng pagkabigo sa paglikha, o kung may hindi pagkakatugma sa halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang pag-expire ng panahon ng pag-iimbak (24 na oras pagkatapos ng pagbabayad) na nagdudulot ng pagtigil ng pag-download ay hindi itinuturing na dahilan para sa refund.",
           ],
         },
         {
-          title: "3. Sabay-sabay na Pagbubukas ng Lahat ng Kandidato (US$1.99)",
+          title: "3. Pangkalahatang Pagbubunyag ng Mga Kandidato (₩990 · US$1.99)",
           paragraphs: [
-            "Ang sabay-sabay na pagbubukas ng mga kandidato sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul ay digital na content na ibinibigay kaagad pagkatapos ng pagbabayad. Maaaring kanselahin bago magsimula ang pagtingin sa mga kandidato; pagkatapos ng pagtingin, maaaring paghigpitan ang refund dahil sa simpleng pagbabago ng isip.",
-            "Kung hindi maayos na naibukas ang mga kandidato dahil sa error ng system, ipoproseso ito sa pamamagitan ng muling pagbibigay o refund.",
+            "Ang pangkalahatang pagbubunyag ng mga kandidato para sa global name conversion, Korean name conversion, at Korean pronunciation notation service ay digital content na ibinibigay agad pagkatapos ng pagbabayad. Bago magsimula ang pag-access sa mga kandidato, maaari itong kanselahin, at pagkatapos ng pag-access, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
+            "Kung ang mga kandidato ay hindi maayos na nailabas dahil sa pagkakamali ng sistema, ito ay ipoproseso bilang muling pagbibigay o refund.",
           ],
         },
         {
-          title: "4. Custom na Gawang Merchandise",
+          title: "4. Global Digital PDF na Produkto (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Ang mga personalized na gawa ay maaaring kanselahin hangga't hindi pa nagsisimula ang produksyon. Pagkatapos magsimula ang produksyon, maaaring paghigpitan ang refund dahil sa simpleng pagbabago ng isip, at ang mga maling spelling, pinsala, maling paggawa, o problema sa paghahatid ay ipoproseso pagkatapos ng pagkumpirma sa angkop na paraan mula sa palitan, muling paggawa, o refund.",
+            "Ang Comprehensive Report ng Korean Name (US$9.99), Korean Pronunciation Conversion Art (US$2.99), at Name Art Pack (US$1.99) ay digital content na nalikha pagkatapos ng pagbabayad. Bago magsimula ang paglikha ng PDF, maaari itong kanselahin, at pagkatapos ng pagkumpleto ng paglikha at pagkakaroon ng posibilidad na ma-download, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
+            "Kung may pagkabigo sa paglikha, pagkakamali sa nilalaman, o hindi pagkakatugma sa halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang pag-expire ng panahon ng pag-iimbak (24 na oras pagkatapos ng pagbabayad) na nagdudulot ng pagtigil ng pag-download ay hindi itinuturing na dahilan para sa refund.",
           ],
         },
         {
-          title: "5. Pagbubukas sa Pamamagitan ng Ad",
+          title: "5. Customized Goods (Tulad ng Name Stamp)",
           paragraphs: [
-            "Ang mga benepisyo sa pamamagitan ng panonood ng ad ay hindi mga bayad na produkto. Kung hindi naibigay ang reward dahil sa error ng ad network, ipoproseso ito sa pamamagitan ng muling pagsubok sa loob ng serbisyo o pagtatanong sa customer center.",
+            "Ang mga personal na customized na produkto (₩39,000 · US$34.99, kasama ang international shipping fee) ay maaaring kanselahin hanggang bago magsimula ang paggawa. Pagkatapos ng pagsisimula ng paggawa, ang inskripsyon ay nakumpirma na bilang personal na customized, kaya ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado, at ang mga pagkakamali sa pagbaybay, pinsala, maling paggawa o problema sa paghahatid ay ipoproseso sa pamamagitan ng palitan, muling paggawa, o refund batay sa angkop na paraan pagkatapos ng pagsusuri.",
           ],
         },
         {
-          title: "6. Mga Katanungan",
-          paragraphs: [`Mga katanungan tungkol sa refund: ${companyInfo.email}`],
+          title: "5. Advertising Unlock",
+          paragraphs: [
+            "Ang mga benepisyo mula sa panonood ng advertisement ay hindi produkto ng pagbabayad. Kung ang kabayaran ay hindi ibinibigay dahil sa pagkakamali ng advertising network, ito ay ipoproseso sa pamamagitan ng muling pagtatangkang gawin sa loob ng serbisyo o sa pamamagitan ng pakikipag-ugnayan sa customer service.",
+          ],
+        },
+        {
+          title: "6. Mga Tanong",
+          paragraphs: [
+            "Para sa mga tanong tungkol sa refund: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -172,42 +189,51 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "Batayang Pagsusuri (Libre)",
+          title: "Pangunahing Pagsusuri (Libre)",
           paragraphs: [
-            "Ang batayang pagsusuri ng apat na serbisyo — pagtutugma ng kahulugan ng Hanja (mga karakter na Tsino), pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul — ay libreng ibinibigay sa mga hindi miyembro, at maaaring may limitasyon sa pang-araw-araw na paggamit.",
+            "Ang pangunahing pagsusuri ng apat na serbisyo: pagtutugma ng kahulugan ng Hanja, global na pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at pagbigkas ng Hangeul ay ibinibigay nang libre sa mga hindi miyembro, at maaaring may limitasyon sa pang-araw-araw na paggamit.",
           ],
         },
         {
-          title: "Paggamit sa Pamamagitan ng Ad Reward",
+          title: "Paggamit ng Advertising Reward",
           paragraphs: [
-            "Ang pagbubukas ng kandidato pagkatapos manood ng ad ay isang benepisyong nakabatay sa ad na ibinibigay nang walang hiwalay na bayad. Bawat isang ad ay nagbubukas ng isang susunod na kandidato. Maaaring mag-iba ang availability depende sa imbentaryo ng ad, bansa, device, o patakaran ng ad provider.",
+            "Ang pag-unlock ng mga kandidato pagkatapos manood ng advertisement ay isang benepisyo ng advertising na ibinibigay nang walang karagdagang bayad. Isang kandidato ang mabubuksan para sa bawat advertisement na napanood. Ang availability ay maaaring magbago batay sa imbentaryo ng advertisement, bansa, aparato, o mga patakaran ng provider ng advertisement.",
           ],
         },
         {
-          title: "Mga Detalyadong Produkto ng Pagtutugma ng Kahulugan ng Hanja",
+          title: "Detalyadong Produkto ng Pagtutugma ng Kahulugan ng Hanja",
           paragraphs: [
-            "Detalyadong paliwanag para sa hanggang 5 kandidato at komprehensibong detalyadong pagsusuri ng Hanja: ₩2,900 (KRW)",
-            "Pinalawak na detalyadong paliwanag para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, at PDF na maiingatan: ₩4,900",
-            "Detalye para sa hanggang 10 kandidato, komprehensibong detalyadong pagsusuri ng Hanja, pagsusuri ng Saju (Apat na Haligi) at Limang Elemento, at PDF na maiingatan: ₩9,900",
-            "Ang mga bayad na report at PDF ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagbabayad, at pagkatapos nito ay awtomatikong ide-delete.",
+            "Hanggang 5 kandidato na may detalyadong paglalarawan at komprehensibong detalye ng Hanja: ₩2,900",
+            "Hanggang 10 kandidato na may pinalawak na detalyadong paglalarawan, komprehensibong detalye ng Hanja at PDF para sa koleksyon: ₩4,900",
+            "Hanggang 10 kandidato na may detalyado, komprehensibong detalye ng Hanja, pagsusuri ng Saju at Limang Elemento, at PDF para sa koleksyon: ₩9,900",
+            "Ang mga bayad na ulat at PDF ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagbabayad, at pagkatapos ay awtomatikong mabubura.",
           ],
         },
         {
-          title: "Sabay-sabay na Pagbubukas ng Lahat ng Kandidato",
+          title: "Pangkalahatang Pagbubukas ng Lahat ng Kandidato",
           paragraphs: [
-            "Pagbubukas nang sabay-sabay ng lahat ng natitirang kandidato nang walang ad sa mga serbisyo ng pagko-convert sa global na pangalan, pagko-convert sa pangalang Koreano, at pagsusulat ng bigkas sa Hangul: US$1.99 (inihahanda pa ang feature ng pagbabayad)",
+            "Ang lahat ng natitirang kandidato mula sa global na pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at serbisyo ng pagbigkas ng Hangeul ay ibubukas nang sabay-sabay nang walang advertisement: ₩990 para sa domestic na pagbabayad, US$1.99 para sa international na pagbabayad (nasa proseso ng paghahanda ang function ng pagbabayad)",
           ],
         },
         {
-          title: "Merchandise ng Pangalang Hangul",
+          title: "Global na Digital PDF na Produkto",
           paragraphs: [
-            "Para sa mga pisikal na merchandise tulad ng name stamp, hiwalay na ipinapaalam ang presyo ng bawat produkto, bayad sa paghahatid, at panahon ng paggawa.",
+            "Komprehensibong ulat ng pangalan sa Hangeul PDF (art ng pangalan at paliwanag ng kahulugan ng lahat ng inirerekomendang kandidato, at sanggunian sa Saju at Limang Elemento): US$9.99",
+            "Art ng pagbigkas ng Hangeul PDF (art ng pangalan gamit ang napiling font at gabay sa pagbigkas): US$2.99",
+            "Art pack ng pangalan PDF (isang napiling pangalan na ibinibigay bilang art gamit ang napiling font): US$1.99",
+            "Ang presyo at bilang ng mga font na naaangkop ay susunod sa mga halagang nakasaad sa screen, at ang PDF ay maaaring muling i-download sa loob ng 24 na oras pagkatapos ng pagbabayad at pagkatapos ay awtomatikong mabubura. (nasa proseso ng paghahanda ang function ng pagbabayad)",
           ],
         },
         {
-          title: "Paunawa Bago ang Opisyal na Pagbabayad",
+          title: "Mga Produkto ng Pangalan sa Hangeul",
           paragraphs: [
-            "Kapag napagtibay na ang pagsusuri ng PG (payment gateway), pagpaparehistro ng negosyong online selling, at mga kondisyon ng pakikipagsosyo sa produksyon, muling ipapaalam sa screen ng produkto ang aktuwal na halaga ng pagbabayad, bayad sa paghahatid, panahon ng paggawa, at mga kondisyon sa refund.",
+            "Timbangan ng pangalan: ₩39,000 para sa domestic · US$34.99 para sa international (kasama ang bayad sa internasyonal na pagpapadala). Ang iba pang mga pisikal na produkto ay magkakaroon ng hiwalay na abiso para sa presyo, bayad sa pagpapadala, at panahon ng paggawa.",
+          ],
+        },
+        {
+          title: "Pabatid Bago ang Pormal na Pagbabayad",
+          paragraphs: [
+            "Kapag nakumpirma na ang pagsusuri ng PG, pag-uulat ng negosyo sa telekomunikasyon, at mga kondisyon ng pakikipagtulungan sa paggawa, ang aktwal na halaga ng pagbabayad, bayad sa pagpapadala, panahon ng paggawa, at mga kondisyon ng refund ay muling ibibigay sa screen ng produkto.",
           ],
         },
       ],

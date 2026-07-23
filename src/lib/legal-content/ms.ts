@@ -17,52 +17,55 @@ const content: LegalLocaleContent = {
         {
           title: "1. Sifat Perkhidmatan",
           paragraphs: [
-            "Naming-Link ialah studio penamaan berasaskan AI yang menyediakan empat perkhidmatan berikut: (1) pemadanan makna Hanja (aksara Cina) yang sesuai dengan nama Hangul, (2) penukaran nama Hangul kepada nama global, (3) penukaran nama asing kepada nama Korea, dan (4) penulisan nama global dalam Hangul mengikut sebutan.",
-            "Hasil yang diberikan adalah bahan rujukan untuk membantu penamaan dan pentafsiran, dan tidak menjamin kelayakan untuk pendaftaran rasmi seperti daftar hubungan keluarga, pasport, visa, tanda dagangan, atau dokumen undang-undang.",
+            "Naming-Link adalah studio penamaan berasaskan AI yang menawarkan empat perkhidmatan berikut. ① Pemadanan makna Hanja yang sesuai dengan nama Hangul ② Menukar nama Hangul kepada nama global ③ Menukar nama asing kepada nama Korea ④ Menyatakan nama global dalam Hangul berdasarkan sebutan.",
+            "Keputusan adalah bahan rujukan untuk membantu penamaan dan tafsiran, dan tidak menjamin kemungkinan pendaftaran rasmi seperti pendaftaran hubungan keluarga, pasport, visa, tanda dagangan, dokumen undang-undang, dan lain-lain.",
           ],
         },
         {
           title: "2. Penggunaan oleh Ahli dan Bukan Ahli",
           paragraphs: [
-            "Analisis nama dan pembukaan calon melalui ganjaran iklan boleh digunakan oleh bukan ahli. Pendaftaran akaun atau log masuk hanya akan diminta bagi fungsi yang memerlukan akaun, seperti pesanan barangan cenderamata dan semakan sejarah pesanan.",
+            "Analisis nama dan paparan calon dengan ganjaran iklan boleh diakses oleh bukan ahli. Pendaftaran atau log masuk hanya diperlukan untuk fungsi yang memerlukan akaun seperti pesanan barang dan semakan sejarah pesanan.",
           ],
         },
         {
-          title: "3. Hasil AI dan Tanggungjawab Semakan",
+          title: "3. Tanggungjawab Hasil AI dan Semakan",
           paragraphs: [
-            "Hasil cadangan AI mengandungi rujukan linguistik, budaya, dan tradisi. Sebelum membuat pilihan nama muktamad, pengguna hendaklah mengesahkan kesesuaiannya melalui pihak berkuasa berkaitan, pakar, penutur tempatan, serta semakan undang-undang dan tanda dagangan.",
+            "Hasil cadangan AI termasuk rujukan linguistik, budaya, dan tradisional. Pengguna perlu mengesahkan kesesuaian melalui institusi berkaitan, pakar, pengguna tempatan, dan semakan undang-undang/tanda dagangan sebelum membuat pilihan nama akhir.",
           ],
         },
         {
           title: "4. Perkhidmatan Berbayar",
           paragraphs: [
-            "Produk terperinci bagi perkhidmatan pemadanan makna Hanja adalah seperti berikut: (1) penerangan terperinci bagi sehingga 5 calon serta analisis Hanja komprehensif: ₩2,900 (KRW); (2) penerangan terperinci lanjutan bagi sehingga 10 calon, analisis Hanja komprehensif, dan PDF untuk simpanan: ₩4,900; (3) butiran bagi sehingga 10 calon, analisis Hanja komprehensif, analisis Saju (Empat Tiang) dan Lima Unsur, serta PDF untuk simpanan: ₩9,900.",
-            "Dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul, produk yang membuka semua calon yang berbaki sekali gus tanpa iklan (US$1.99) mungkin disediakan. Sebelum fungsi pembayaran diaktifkan, hanya pembukaan melalui ganjaran iklan disediakan.",
-            "Laporan terperinci berbayar, hasil analisis, dan fail PDF boleh dilihat serta dimuat turun semula selama 24 jam selepas pembayaran selesai, dan akan dipadamkan secara automatik setelah tempoh simpanan tamat.",
-            "Produk fizikal seperti barangan cenderamata nama Hangul mungkin ditawarkan dengan harga dan syarat berasingan. Bagi semua produk berbayar, butiran produk, harga, kaedah penyediaan, dan syarat bayaran balik akan dimaklumkan pada skrin sebelum pembayaran.",
+            "Butiran produk untuk perkhidmatan pemadanan makna Hanja adalah seperti berikut. ① Maksimum 5 calon dengan penerangan terperinci dan makna Hanja secara keseluruhan: 2,900 won ② Maksimum 10 calon dengan penerangan terperinci yang diperluas, makna Hanja secara keseluruhan dan PDF untuk simpanan: 4,900 won ③ Maksimum 10 calon dengan penerangan terperinci, makna Hanja secara keseluruhan, analisis nasib dan elemen serta PDF untuk simpanan: 9,900 won.",
+            "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penyataan sebutan Hangul mungkin menawarkan produk yang mendedahkan semua calon yang tinggal tanpa iklan sekaligus (pembayaran domestik 990 won, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
+            "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama Hangul dalam PDF (US$9.99): Seni nama jenis huruf untuk semua calon yang dicadangkan, penjelasan makna, dan rujukan nasib elemen ⑤ Seni PDF penukaran sebutan Hangul (US$2.99): Seni nama jenis huruf yang dipilih dan panduan sebutan ⑥ Pakej seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan jenis huruf yang dipilih. Harga dan bilangan jenis huruf yang dikenakan untuk setiap produk adalah mengikut nilai yang dipaparkan di skrin.",
+            "Laporan terperinci berbayar dan hasil analisis, fail PDF boleh dibuka semula dan dimuat turun dalam tempoh 24 jam selepas pembayaran selesai, dan akan dipadam secara automatik selepas tempoh penyimpanan tamat.",
+            "Barang fizikal seperti cap nama disediakan dengan harga domestik 39,000 won, luar negara US$34.99 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
           ],
         },
         {
           title: "5. Perkhidmatan Ganjaran Iklan",
           paragraphs: [
-            "Pembukaan calon melalui tontonan iklan hanya terpakai apabila pengesahan ganjaran yang sah oleh penyedia iklan telah selesai. Mainan iklan secara automatik, manipulasi ganjaran, dan permintaan berulang yang tidak normal boleh disekat.",
+            "Pelepasan kunci calon melalui tontonan iklan hanya akan diterapkan setelah pengesahan ganjaran normal oleh penyedia iklan selesai. Pengulangan permintaan secara automatik, manipulasi ganjaran, dan permintaan berulang yang tidak normal mungkin terhad.",
           ],
         },
         {
-          title: "6. Perbuatan yang Dilarang",
+          title: "6. Tindakan Dilarang",
           paragraphs: [
-            "Perkara berikut adalah dilarang: memasukkan maklumat peribadi orang lain tanpa kebenaran, menjana nama untuk tujuan diskriminasi, kebencian, atau penyamaran, permintaan berlebihan secara automatik, menyebabkan gangguan perkhidmatan, dan mempersembahkan hasil secara palsu sebagai diperakui secara rasmi.",
+            "Memasukkan maklumat peribadi orang lain tanpa kebenaran, mencipta nama untuk tujuan diskriminasi, kebencian, atau penyamaran, permintaan berlebihan secara automatik, menyebabkan gangguan perkhidmatan, dan menunjukkan pengesahan rasmi yang palsu adalah dilarang.",
           ],
         },
         {
-          title: "7. Had Liabiliti",
+          title: "7. Had Tanggungjawab",
           paragraphs: [
-            "Kecuali dalam kes niat atau kecuaian melampau, syarikat tidak bertanggungjawab atas kerugian tidak langsung, kehilangan keuntungan yang dijangka, penolakan pendaftaran rasmi, atau pertikaian pihak ketiga yang timbul daripada penggunaan hasil cadangan AI.",
+            "Syarikat tidak bertanggungjawab terhadap kerugian tidak langsung, kehilangan keuntungan yang dijangkakan, penolakan pendaftaran rasmi, dan pertikaian pihak ketiga yang timbul daripada penggunaan hasil cadangan AI, kecuali dalam kes niat atau kecuaian yang serius.",
           ],
         },
         {
           title: "8. Pertanyaan",
-          paragraphs: [`Pertanyaan perkhidmatan: ${companyInfo.email}`],
+          paragraphs: [
+            "Pertanyaan perkhidmatan: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Maklumat Peribadi yang Diproses",
+          title: "1. Jenis Maklumat Peribadi yang Diproses",
           paragraphs: [
-            "Apabila perkhidmatan nama digunakan sebagai bukan ahli, nama, tarikh dan masa lahir, negara, bahasa, tujuan penggunaan, dan petunjuk sebutan diproses secara sementara dalam proses penjanaan hasil analisis, tetapi kandungan input dan hasil yang dijana tidak disimpan dalam pangkalan data perkhidmatan.",
-            "Apabila laporan terperinci berbayar dibeli, maklumat pengenalan pesanan, status pembayaran, serta input dan hasil analisis yang diperlukan untuk menjana laporan diproses sepanjang tempoh simpanan (24 jam selepas pembayaran). Maklumat kaedah pembayaran seperti nombor kad diproses secara langsung oleh penyedia perkhidmatan pembayaran dan syarikat tidak menyimpannya.",
-            "Hanya apabila fungsi pesanan barangan cenderamata digunakan, nama pemesan, e-mel, nombor telefon, alamat penghantaran, status pembayaran, dan maklumat pemprosesan pesanan mungkin diproses secara tambahan.",
-            "Bagi kestabilan perkhidmatan dan pencegahan penyalahgunaan, kami boleh memproses log operasi minimum: cincangan (hash) pelawat tanpa pengenalan diri yang berubah setiap hari, masa permintaan, jenis perkhidmatan, bilangan penggunaan percuma, penggunaan token AI, masa respons, status pemprosesan, serta peristiwa paparan iklan dan ganjaran.",
+            "Semasa menggunakan perkhidmatan nama tanpa keahlian, nama, tarikh lahir, waktu lahir, negara, bahasa, tujuan penggunaan dan petunjuk sebutan diproses secara sementara dalam proses penghasilan hasil analisis, tetapi kandungan input dan hasil yang dihasilkan tidak disimpan dalam pangkalan data perkhidmatan.",
+            "Semasa pendaftaran keahlian dan log masuk, alamat emel dan rekod log masuk (rekod pengesahan) diproses.",
+            "Apabila membayar laporan terperinci berbayar, maklumat pengenalan pesanan, status pembayaran dan input serta hasil analisis yang diperlukan untuk penghasilan laporan diproses selama tempoh penyimpanan (24 jam selepas pembayaran). Maklumat kaedah pembayaran seperti nombor kad diproses secara langsung oleh agensi pemprosesan pembayaran dan syarikat tidak menyimpannya.",
+            "Hanya apabila menggunakan fungsi pesanan barangan, nama pemesan, emel, nombor hubungan, alamat penghantaran, status pembayaran dan maklumat pemprosesan pesanan mungkin diproses tambahan.",
+            "Untuk kestabilan perkhidmatan dan pencegahan penyalahgunaan, hash pelawat tanpa pengenalan yang berubah setiap hari, waktu permintaan, jenis perkhidmatan, bilangan penggunaan percuma, token AI, masa respons, status pemprosesan dan pendedahan iklan serta acara ganjaran boleh diproses sebagai log operasi minimum.",
           ],
         },
         {
           title: "2. Tujuan Pemprosesan Maklumat Peribadi",
           paragraphs: [
-            "Maklumat peribadi diproses untuk menyediakan cadangan nama berdasarkan input, analisis sebutan, analisis bahasa dan budaya mengikut negara, had penggunaan percuma, pengesahan ganjaran iklan, khidmat pelanggan, pemprosesan pembayaran dan penghantaran, serta pencegahan penggunaan secara tidak wajar.",
+            "Maklumat peribadi diproses untuk cadangan nama berdasarkan input, analisis sebutan, analisis bahasa dan budaya mengikut negara, had penggunaan percuma, pengesahan ganjaran iklan, respons kepada pertanyaan pelanggan, pemprosesan pembayaran dan penghantaran, serta pencegahan penyalahgunaan.",
           ],
         },
         {
           title: "3. Penyimpanan dan Pemusnahan",
           paragraphs: [
-            "Input dan hasil analisis disimpan dalam akaun hanya apabila ahli yang telah log masuk memilih secara jelas untuk menyimpannya, dan akan dimusnahkan apabila ahli memadamkannya atau tujuan penyimpanan tamat. Input dan hasil bukan ahli, serta ahli yang tidak memilih untuk menyimpan, tidak disimpan.",
-            "Input, hasil analisis, dan fail PDF laporan terperinci berbayar dipadamkan secara automatik 24 jam selepas pembayaran selesai. Rekod transaksi pembayaran dan pesanan disimpan secara berasingan mengikut tempoh penyimpanan berkanun di bawah undang-undang yang berkaitan.",
-            "Butiran penghantaran akan dimusnahkan atau dinyahkenalpastikan setelah tempoh yang diperlukan untuk pemprosesan pesanan, pemulangan, dan penyelesaian pertikaian berakhir.",
+            "Input analisis dan hasil hanya disimpan dalam akaun jika ahli log masuk secara eksplisit memilih untuk menyimpan hasil, dan akan dimusnahkan apabila ahli memadam atau tujuan penyimpanan berakhir. Input dan hasil daripada bukan ahli dan ahli yang tidak memilih untuk menyimpan tidak akan disimpan.",
+            "Input, hasil analisis dan fail PDF laporan terperinci berbayar akan dipadam secara automatik selepas 24 jam dari penyelesaian pembayaran. Rekod transaksi pembayaran dan pesanan akan disimpan secara berasingan mengikut tempoh penyimpanan yang ditetapkan oleh undang-undang yang berkaitan.",
+            "Maklumat terperinci penghantaran akan dimusnahkan atau dinyahpengenalan selepas tempoh yang diperlukan untuk pemprosesan pesanan dan respons kepada pemulangan atau pertikaian.",
           ],
         },
         {
-          title: "4. Pemberian kepada Pihak Ketiga dan Perwakilan Pemprosesan",
+          title: "4. Pemberian kepada Pihak Ketiga dan Penyerahan Pemprosesan",
           paragraphs: [
-            "Bagi pengendalian perkhidmatan, maklumat yang diperlukan mungkin diproses oleh atau diamanahkan kepada Supabase (pangkalan data dan pengesahan), Vercel (pengehosan), OpenAI API (analisis AI), rangkaian pengiklanan, penyedia perkhidmatan pembayaran (PortOne), serta rakan kongsi penghantaran dan pengeluaran.",
+            "Untuk operasi perkhidmatan, maklumat yang diperlukan mungkin diproses atau diserahkan kepada Supabase (pangkalan data, pengesahan), Vercel (hosing), OpenAI API (analisis AI), rangkaian iklan, agensi pemprosesan pembayaran (PortOne), dan rakan kongsi penghantaran serta pembuatan.",
           ],
         },
         {
-          title: "5. Kemungkinan Pemindahan ke Luar Negara",
+          title: "5. Pemindahan Maklumat Peribadi ke Luar Negara",
           paragraphs: [
-            "Dalam sesetengah proses seperti pengehosan awan, pengesahan, API AI, pengiklanan, dan penghantaran e-mel, maklumat peribadi mungkin diproses pada pelayan di luar negara. Negara destinasi, pihak yang diamanahkan, tujuan, dan tempoh penyimpanan akan dimaklumkan secara terperinci setelah penyedia perkhidmatan dimuktamadkan.",
+            "Syarikat memindahkan (menyerahkan pemprosesan) maklumat peribadi ke luar negara seperti berikut untuk penyediaan perkhidmatan. Pemindahan dilakukan melalui kaedah penghantaran melalui rangkaian komunikasi.",
+            "① OpenAI, L.L.C. (Amerika Syarikat) — Item yang dipindahkan: nama, tarikh lahir, waktu lahir, jantina, negara, bahasa dan lain-lain input analisis — Tujuan pemindahan: analisis nama, sebutan, dan makna berdasarkan AI — Tempoh penyimpanan dan penggunaan: tempoh penyediaan perkhidmatan (data input tidak digunakan untuk latihan model mengikut dasar OpenAI dan disimpan selama maksimum 30 hari untuk tujuan pemantauan penyalahgunaan sebelum dipadam).",
+            "② Supabase, Inc. (Amerika Syarikat) — Item yang dipindahkan: maklumat status pesanan dan pembayaran, emel ahli, input dan hasil laporan berbayar (24 jam selepas pembayaran), nama pemesan, nombor hubungan, dan alamat penghantaran semasa pesanan barangan — Tujuan pemindahan: pangkalan data, pengesahan, penyimpanan — Tempoh penyimpanan dan penggunaan: tempoh penyediaan perkhidmatan atau sehingga tempoh penyimpanan setiap item.",
+            "③ Vercel, Inc. (Amerika Syarikat) — Item yang dipindahkan: maklumat akses dan permintaan yang dihantar semasa menggunakan perkhidmatan — Tujuan pemindahan: hos aplikasi — Tempoh penyimpanan dan penggunaan: tempoh penyediaan perkhidmatan.",
+            "Pengguna boleh menolak persetujuan untuk pemindahan maklumat peribadi ke luar negara, tetapi kerana pemprosesan tersebut adalah penting untuk penyediaan perkhidmatan, penolakan mungkin mengehadkan penggunaan perkhidmatan.",
           ],
         },
         {
           title: "6. Hak Pengguna",
           paragraphs: [
-            "Pengguna boleh meminta akses kepada, pembetulan, pemadaman, penggantungan pemprosesan maklumat peribadi, serta penarikan balik persetujuan. Permintaan diterima melalui e-mel pusat khidmat pelanggan dan diproses selepas pengesahan identiti.",
+            "Pengguna boleh meminta akses, pembetulan, pemadaman, penghentian pemprosesan, dan penarikan balik persetujuan terhadap maklumat peribadi. Permintaan akan diterima melalui emel pusat pelanggan dan akan diproses selepas pengesahan identiti.",
           ],
         },
         {
-          title: "7. Pegawai Perlindungan Maklumat Peribadi",
+          title: "7. Pegawai Bertanggungjawab untuk Perlindungan Maklumat Peribadi",
           paragraphs: [
-            `Pegawai bertanggungjawab: ${companyInfo.privacyOfficer}`,
-            `E-mel: ${companyInfo.email}`,
+            "Pegawai: Gwak Eun-ha",
+            "Emel: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -130,38 +138,47 @@ const content: LegalLocaleContent = {
         {
           title: "1. Prinsip Umum",
           paragraphs: [
-            "Apabila fungsi pembayaran diaktifkan, skop bayaran balik yang dibenarkan mungkin berbeza mengikut kaedah penyediaan setiap produk, masa pengeluaran dimulakan, dan status muat turun. Syarat khusus akan dimaklumkan pada skrin produk sebelum pembayaran.",
+            "Apabila fungsi pembayaran diaktifkan, skop pemulangan mungkin berbeza bergantung kepada cara penyampaian setiap produk, waktu permulaan pengeluaran, dan sama ada muat turun dibenarkan. Syarat khusus akan dinyatakan pada skrin produk sebelum pembayaran.",
           ],
         },
         {
-          title: "2. Laporan Terperinci Hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Laporan Terperinci Hanzi (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
-            "Pembatalan boleh dibuat selepas pembayaran selagi penjanaan analisis terperinci AI belum bermula. Setelah penjanaan analisis selesai dan laporan boleh dilihat atau dimuat turun, bayaran balik atas sebab perubahan fikiran semata-mata boleh disekat.",
-            "Sekiranya kesilapan kandungan, kegagalan penjanaan akibat gangguan sistem, atau ketidakpadanan jumlah pembayaran disahkan, kami akan mengeluarkan semula laporan atau memberikan bayaran balik. Tamatnya tempoh simpanan (24 jam selepas pembayaran) yang menyebabkan muat turun berakhir bukan alasan untuk bayaran balik.",
+            "Pembatalan boleh dilakukan sebelum analisis terperinci AI dimulakan selepas pembayaran. Setelah analisis selesai dan boleh dilihat atau dimuat turun, pemulangan atas alasan perubahan fikiran mungkin terhad.",
+            "Kesalahan kandungan, kegagalan pengeluaran akibat gangguan sistem, dan ketidakcocokan jumlah pembayaran yang disahkan akan diproses sebagai pengeluaran semula atau pemulangan. Jika muat turun tamat selepas tempoh penyimpanan (24 jam selepas pembayaran), ia tidak dianggap sebagai alasan untuk pemulangan.",
           ],
         },
         {
-          title: "3. Pembukaan Semua Calon Sekali Gus (US$1.99)",
+          title: "3. Pendedahan Keseluruhan Calon (₩990 dalam negara · US$1.99 luar negara)",
           paragraphs: [
-            "Pembukaan semua calon sekali gus dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul ialah kandungan digital yang disediakan serta-merta sebaik pembayaran dibuat. Pembatalan boleh dibuat sebelum paparan calon bermula; selepas paparan, bayaran balik atas sebab perubahan fikiran semata-mata boleh disekat.",
-            "Sekiranya calon tidak dibuka dengan sewajarnya akibat ralat sistem, kami akan menyediakannya semula atau memberikan bayaran balik.",
+            "Pendedahan keseluruhan calon untuk perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul adalah kandungan digital yang disediakan sebaik sahaja pembayaran dilakukan. Pembatalan boleh dilakukan sebelum pendedahan calon dimulakan, dan selepas pendedahan, pemulangan atas alasan perubahan fikiran mungkin terhad.",
+            "Jika calon tidak dipaparkan dengan betul akibat ralat sistem, ia akan diproses sebagai penyediaan semula atau pemulangan.",
           ],
         },
         {
-          title: "4. Barangan Cenderamata Tempahan Khas",
+          title: "4. Produk PDF Digital Global (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Barangan tempahan peribadi boleh dibatalkan sebelum pengeluaran dimulakan. Selepas pengeluaran bermula, bayaran balik atas sebab perubahan fikiran semata-mata boleh disekat, manakala kesilapan ejaan, kerosakan, kesilapan pengeluaran, atau masalah penghantaran akan diselesaikan selepas pengesahan melalui kaedah yang sesuai, sama ada penukaran, pembuatan semula, atau bayaran balik.",
+            "Laporan komprehensif nama Hangul (US$9.99), seni penukaran sebutan Hangul (US$2.99), dan pek seni nama (US$1.99) adalah kandungan digital yang dihasilkan selepas pembayaran. Pembatalan boleh dilakukan sebelum penghasilan PDF dimulakan, dan setelah penghasilan selesai dan boleh dimuat turun, pemulangan atas alasan perubahan fikiran mungkin terhad.",
+            "Kegagalan penghasilan, kesalahan kandungan, dan ketidakcocokan jumlah pembayaran yang disahkan akan diproses sebagai pengeluaran semula atau pemulangan. Jika muat turun tamat selepas tempoh penyimpanan (24 jam selepas pembayaran), ia tidak dianggap sebagai alasan untuk pemulangan.",
           ],
         },
         {
-          title: "5. Pembukaan Melalui Iklan",
+          title: "5. Barangan Buatan Khusus (stempel nama dan lain-lain)",
           paragraphs: [
-            "Manfaat tontonan iklan bukanlah produk berbayar. Sekiranya ganjaran tidak diberikan akibat ralat rangkaian pengiklanan, perkara ini diselesaikan melalui cubaan semula dalam perkhidmatan atau pertanyaan kepada pusat khidmat pelanggan.",
+            "Barangan buatan khusus seperti stempel nama (₩39,000 dalam negara · US$34.99 luar negara, termasuk kos penghantaran antarabangsa) boleh dibatalkan sehingga sebelum pengeluaran dimulakan. Setelah pengeluaran dimulakan, frasa ukiran akan disahkan secara peribadi, jadi pemulangan atas alasan perubahan fikiran mungkin terhad, dan kesalahan cetakan, kerosakan, pengeluaran salah, atau masalah penghantaran akan diproses dengan cara yang sesuai melalui pertukaran, pengeluaran semula, atau pemulangan setelah disahkan.",
+          ],
+        },
+        {
+          title: "5. Pembatalan Kunci Berasaskan Iklan",
+          paragraphs: [
+            "Manfaat menonton iklan bukanlah produk yang dibayar. Jika pampasan tidak diberikan akibat ralat rangkaian iklan, ia akan diproses melalui percubaan semula dalam perkhidmatan atau melalui pertanyaan kepada pusat khidmat pelanggan.",
           ],
         },
         {
           title: "6. Pertanyaan",
-          paragraphs: [`Pertanyaan bayaran balik: ${companyInfo.email}`],
+          paragraphs: [
+            "Pertanyaan mengenai pemulangan: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Analisis Asas (Percuma)",
           paragraphs: [
-            "Analisis asas bagi keempat-empat perkhidmatan — pemadanan makna Hanja (aksara Cina), penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul — disediakan secara percuma kepada bukan ahli, dan had penggunaan harian mungkin dikenakan.",
+            "Analisis asas untuk empat perkhidmatan iaitu pemadanan makna Hanzi, penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul disediakan secara percuma kepada bukan ahli dan mungkin dikenakan had penggunaan harian.",
           ],
         },
         {
-          title: "Penggunaan Melalui Ganjaran Iklan",
+          title: "Penggunaan Berbasis Iklan",
           paragraphs: [
-            "Pembukaan calon selepas menonton iklan ialah manfaat berasaskan iklan yang disediakan tanpa sebarang pembayaran berasingan. Setiap satu iklan membuka satu calon seterusnya. Ketersediaan mungkin berbeza mengikut inventori iklan, negara, peranti, atau dasar penyedia iklan.",
+            "Membuka kunci calon selepas menonton iklan adalah manfaat berbentuk iklan yang disediakan tanpa pembayaran tambahan. Satu iklan membolehkan satu calon dibuka. Ketersediaan mungkin berbeza bergantung kepada stok iklan, negara, peranti, atau dasar penyedia iklan.",
           ],
         },
         {
-          title: "Produk Terperinci Pemadanan Makna Hanja",
+          title: "Butiran Produk Pemadanan Makna Hanzi",
           paragraphs: [
-            "Penerangan terperinci bagi sehingga 5 calon serta analisis Hanja komprehensif: ₩2,900 (KRW)",
-            "Penerangan terperinci lanjutan bagi sehingga 10 calon, analisis Hanja komprehensif, dan PDF untuk simpanan: ₩4,900",
-            "Butiran bagi sehingga 10 calon, analisis Hanja komprehensif, analisis Saju (Empat Tiang) dan Lima Unsur, serta PDF untuk simpanan: ₩9,900",
-            "Laporan berbayar dan PDF boleh dilihat serta dimuat turun semula selama 24 jam selepas pembayaran, dan akan dipadamkan secara automatik selepas itu.",
+            "Maksimum 5 calon dengan penerangan terperinci dan maklumat komprehensif Hanzi: 2,900 won",
+            "Maksimum 10 calon dengan penerangan terperinci yang diperluas, maklumat komprehensif Hanzi dan PDF untuk simpanan: 4,900 won",
+            "Maksimum 10 calon dengan penerangan terperinci, maklumat komprehensif Hanzi, analisis Bazi dan Lima Elemen serta PDF untuk simpanan: 9,900 won",
+            "Laporan berbayar dan PDF boleh dilihat dan dimuat turun semula dalam tempoh 24 jam selepas pembayaran, dan akan dipadam secara automatik selepas itu.",
           ],
         },
         {
-          title: "Pembukaan Semua Calon Sekali Gus",
+          title: "Pendedahan Keseluruhan Calon Secara Serentak",
           paragraphs: [
-            "Membuka semua calon yang berbaki sekali gus tanpa iklan dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul: US$1.99 (fungsi pembayaran dalam persediaan)",
+            "Mendedahkan semua calon yang tinggal dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul tanpa iklan sekaligus: pembayaran domestik 990 won, pembayaran luar negara US$1.99 (fungsi pembayaran sedang disediakan)",
           ],
         },
         {
-          title: "Barangan Cenderamata Nama Hangul",
+          title: "Produk PDF Digital Global",
           paragraphs: [
-            "Barangan fizikal seperti cop nama akan dimaklumkan secara berasingan dengan harga mengikut produk, kos penghantaran, dan tempoh pengeluaran.",
+            "Laporan PDF komprehensif nama Hangul (seni nama dan penjelasan makna untuk semua calon yang disyorkan serta rujukan Bazi Lima Elemen): US$9.99",
+            "PDF seni penukaran sebutan Hangul (seni nama dengan jenis huruf pilihan dan panduan sebutan): US$2.99",
+            "PDF pek seni nama (seni untuk satu nama yang dipilih dengan jenis huruf yang dipilih): US$1.99",
+            "Harga dan jumlah jenis huruf yang dikenakan adalah mengikut nilai yang dinyatakan di skrin, dan PDF boleh dimuat turun semula dalam tempoh 24 jam selepas pembayaran dan akan dipadam secara automatik selepas itu. (fungsi pembayaran sedang disediakan)",
           ],
         },
         {
-          title: "Makluman Sebelum Pelancaran Pembayaran Rasmi",
+          title: "Barangan Nama Hangul",
           paragraphs: [
-            "Setelah semakan penyedia perkhidmatan pembayaran (PG), pendaftaran perniagaan jualan jarak jauh, dan syarat kerjasama pengeluaran dimuktamadkan, jumlah pembayaran sebenar, kos penghantaran, tempoh pengeluaran, dan syarat bayaran balik akan dimaklumkan semula pada skrin produk.",
+            "Stempel nama: domestik 39,000 won · luar negara US$34.99 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
+          ],
+        },
+        {
+          title: "Pemberitahuan Sebelum Pembayaran Rasmi",
+          paragraphs: [
+            "Apabila penilaian PG, pendaftaran perniagaan dalam talian, dan syarat kerjasama pembuatan telah disahkan, jumlah pembayaran sebenar, kos penghantaran, tempoh pembuatan, dan syarat pemulangan akan dinyatakan semula di skrin produk.",
           ],
         },
       ],

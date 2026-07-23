@@ -17,52 +17,55 @@ const content: LegalLocaleContent = {
         {
           title: "1. Charakter usługi",
           paragraphs: [
-            "Naming-Link to studio nazewnicze oparte na sztucznej inteligencji, oferujące cztery usługi: (1) dopasowywanie znaczeń hanja (znaków chińskich) do imion zapisanych w hangul, (2) przekształcanie imion koreańskich w imiona międzynarodowe, (3) przekształcanie imion obcych w imiona koreańskie oraz (4) zapisywanie imion międzynarodowych w hangul zgodnie z wymową.",
-            "Wyniki stanowią materiał pomocniczy wspierający nadawanie imion i ich interpretację. Nie gwarantują one możliwości oficjalnej rejestracji, na przykład w rejestrach stanu cywilnego, paszportach, wizach, znakach towarowych ani dokumentach prawnych.",
+            "Naming-Link jest studiem nazewnictwa opartym na sztucznej inteligencji, które oferuje cztery usługi. ① Dopasowanie znaczenia znaków chińskich do imion w języku koreańskim ② Przekształcenie imion koreańskich w imiona globalne ③ Przekształcenie imion zagranicznych w imiona koreańskie ④ Transkrypcja imion globalnych na język koreański zgodnie z wymową.",
+            "Wyniki są materiałami pomocniczymi w zakresie nadawania imion i interpretacji, nie gwarantują możliwości oficjalnej rejestracji w takich dokumentach jak rejestracja stanu cywilnego, paszporty, wizy, znaki towarowe, dokumenty prawne itp.",
           ],
         },
         {
-          title: "2. Korzystanie przez członków i gości",
+          title: "2. Użytkownicy zarejestrowani i niezarejestrowani",
           paragraphs: [
-            "Analiza imion oraz odblokowywanie kandydatów za obejrzenie reklamy są dostępne również bez konta. Rejestracja lub logowanie mogą być wymagane wyłącznie w przypadku funkcji wymagających konta, takich jak zamawianie gadżetów i przeglądanie historii zamówień.",
+            "Analiza imion oraz przegląd kandydatów w systemie wynagradzania za reklamy są dostępne również dla użytkowników niezarejestrowanych. Rejestracja lub logowanie są wymagane jedynie w przypadku funkcji, które wymagają konta, takich jak zamówienia towarów i sprawdzanie historii zamówień.",
           ],
         },
         {
-          title: "3. Wyniki AI i obowiązek weryfikacji",
+          title: "3. Odpowiedzialność za wyniki AI i przegląd",
           paragraphs: [
-            "Rekomendacje AI zawierają odniesienia językowe, kulturowe i tradycyjne. Przed ostatecznym wyborem imienia użytkownik powinien potwierdzić jego odpowiedniość u właściwych instytucji, ekspertów, rodzimych użytkowników języka oraz poprzez weryfikację prawną i w zakresie znaków towarowych.",
+            "Wyniki rekomendacji AI zawierają odniesienia językowe, kulturowe i tradycyjne. Użytkownicy powinni potwierdzić odpowiedniość wyboru imienia przed podjęciem decyzji, konsultując się z odpowiednimi instytucjami, ekspertami, lokalnymi użytkownikami oraz przeprowadzając przegląd prawny i znaków towarowych.",
           ],
         },
         {
           title: "4. Usługi płatne",
           paragraphs: [
-            "Usługa dopasowywania znaczeń hanja oferuje następujące produkty szczegółowe: (1) szczegółowe opisy maksymalnie 5 kandydatów oraz kompleksowa analiza hanja: ₩2,900 (KRW); (2) rozszerzone opisy maksymalnie 10 kandydatów, kompleksowa analiza hanja oraz pamiątkowy plik PDF: ₩4,900; (3) szczegóły maksymalnie 10 kandydatów, kompleksowa analiza hanja, analiza saju (Cztery Filary) i Pięciu Żywiołów oraz pamiątkowy plik PDF: ₩9,900.",
-            "W usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul może być oferowany produkt odblokowujący jednorazowo wszystkich pozostałych kandydatów bez reklam (US$1.99). Do czasu aktywacji funkcji płatności dostępne jest wyłącznie odblokowywanie za obejrzenie reklamy.",
-            "Płatne raporty szczegółowe, wyniki analiz i pliki PDF pozostają dostępne do ponownego przeglądania i pobierania przez 24 godziny od dokonania płatności, po czym są automatycznie usuwane.",
-            "Produkty fizyczne, takie jak gadżety z imieniem w hangul, mogą być oferowane po odrębnych cenach i na odrębnych warunkach. W przypadku każdego płatnego produktu treść produktu, cena, sposób dostarczenia oraz warunki zwrotu są podawane na ekranie przed dokonaniem płatności.",
+            "Szczegółowe usługi dopasowania znaczenia znaków chińskich są następujące. ① Maksymalnie 5 kandydatów z szczegółowym opisem oraz kompleksowym opisem znaków chińskich: 2,900₩ ② Maksymalnie 10 kandydatów z rozszerzonym szczegółowym opisem, kompleksowym opisem znaków chińskich oraz PDF do pobrania: 4,900₩ ③ Maksymalnie 10 kandydatów z szczegółowym opisem, kompleksowym opisem znaków chińskich, analizą astrologiczną i PDF do pobrania: 9,900₩.",
+            "W ramach usług przekształcania imion globalnych, przekształcania imion koreańskich oraz transkrypcji fonetycznej w języku koreańskim, może być dostępny produkt, który ujawnia wszystkie pozostałe kandydaty bez reklam w jednym kroku (płatność krajowa 990₩, płatność zagraniczna US$1.99). Przed aktywacją funkcji płatności dostępne są jedynie przeglądy w systemie wynagradzania za reklamy.",
+            "Dla użytkowników globalnych dostępne są cyfrowe produkty: ④ Kompleksowy raport PDF dotyczący imion w języku koreańskim (US$9.99): sztuka nazw, interpretacja znaczenia oraz odniesienia do astrologii ⑤ PDF sztuki konwersji fonetycznej w języku koreańskim (US$2.99): sztuka nazw i wskazówki dotyczące wymowy ⑥ PDF pakietu sztuki imion (US$1.99): sztuka jednego wybranego imienia w różnych czcionkach. Ceny i liczba zastosowanych czcionek dla każdego produktu są zgodne z wartościami podanymi na ekranie.",
+            "Płatne szczegółowe raporty i wyniki analizy, pliki PDF mogą być przeglądane i pobierane przez 24 godziny po zakończeniu płatności, a po upływie okresu przechowywania zostaną automatycznie usunięte.",
+            "Fizyczne towary, takie jak pieczątki imienne, są oferowane w cenach 39,000₩ w kraju oraz US$34.99 za granicą (w tym koszty wysyłki międzynarodowej) w zależności od produktu. Wszystkie płatne produkty mają wyświetlane informacje o treści produktu, cenie, sposobie dostarczenia oraz warunkach zwrotu przed dokonaniem płatności.",
           ],
         },
         {
-          title: "5. Usługi z nagrodą za reklamę",
+          title: "5. Usługi wynagradzania za reklamy",
           paragraphs: [
-            "Odblokowanie kandydatów poprzez obejrzenie reklamy następuje wyłącznie po prawidłowym potwierdzeniu nagrody przez dostawcę reklam. Zautomatyzowane odtwarzanie reklam, manipulowanie nagrodami oraz nietypowe, powtarzające się żądania mogą podlegać ograniczeniom.",
+            "Odblokowanie kandydatów poprzez oglądanie reklam ma zastosowanie tylko w przypadku, gdy normalne potwierdzenie wynagrodzenia przez dostawcę reklam zostało zakończone. Automatyczne odtwarzanie reklam, manipulacja wynagrodzeniem oraz nienormalne powtarzające się żądania mogą być ograniczone.",
           ],
         },
         {
-          title: "6. Działania zabronione",
+          title: "6. Zakazane działania",
           paragraphs: [
-            "Zabronione są: wprowadzanie danych osobowych innych osób bez ich zgody, generowanie imion w celach dyskryminacyjnych, nienawistnych lub w celu podszywania się, zautomatyzowane nadmierne żądania, powodowanie zakłóceń w działaniu serwisu oraz fałszywe przedstawianie wyników jako oficjalnie certyfikowanych.",
+            "Zabronione jest wprowadzanie danych osobowych innych osób bez zgody, generowanie imion w celu dyskryminacji, nienawiści lub podszywania się, automatyczne nadmierne żądania, powodowanie zakłóceń w usłudze oraz fałszywe oficjalne certyfikaty wyników.",
           ],
         },
         {
           title: "7. Ograniczenie odpowiedzialności",
           paragraphs: [
-            "O ile nie zachodzi wina umyślna lub rażące niedbalstwo, spółka nie ponosi odpowiedzialności za szkody pośrednie, utratę spodziewanych korzyści, odmowę oficjalnej rejestracji ani spory z osobami trzecimi wynikające z korzystania z rekomendacji AI.",
+            "Firma nie ponosi odpowiedzialności za pośrednie szkody, utratę oczekiwanych korzyści, odmowę rejestracji oficjalnej oraz spory z osobami trzecimi wynikające z użycia wyników rekomendacji AI, chyba że wystąpiły one z winy umyślnej lub rażącego niedbalstwa.",
           ],
         },
         {
           title: "8. Kontakt",
-          paragraphs: [`Zapytania dotyczące usługi: ${companyInfo.email}`],
+          paragraphs: [
+            "Zapytania dotyczące usługi: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Przetwarzane dane osobowe",
+          title: "1. Przetwarzane kategorie danych osobowych",
           paragraphs: [
-            "Podczas korzystania z usług nazewniczych jako gość imię, data i godzina urodzenia, kraj, język, cel korzystania oraz wskazówki dotyczące wymowy są przetwarzane tymczasowo w procesie generowania wyników analizy, jednak wprowadzone dane i wygenerowane wyniki nie są zapisywane w bazie danych serwisu.",
-            "Przy zakupie płatnego raportu szczegółowego identyfikatory zamówienia, status płatności oraz dane wejściowe i wyniki analizy niezbędne do wygenerowania raportu są przetwarzane przez okres przechowywania (24 godziny od płatności). Dane instrumentów płatniczych, takie jak numery kart, są przetwarzane bezpośrednio przez operatora płatności; spółka ich nie przechowuje.",
-            "Wyłącznie przy korzystaniu z funkcji zamawiania gadżetów dodatkowo mogą być przetwarzane: imię i nazwisko zamawiającego, adres e-mail, numer telefonu, adres dostawy, status płatności oraz informacje o realizacji zamówienia.",
-            "W celu zapewnienia stabilności serwisu i zapobiegania nadużyciom możemy przetwarzać minimalne logi operacyjne: zanonimizowany hash odwiedzającego zmieniany codziennie, czas żądania, rodzaj usługi, liczbę bezpłatnych użyć, zużycie tokenów AI, czas odpowiedzi, status przetwarzania oraz zdarzenia wyświetleń reklam i przyznania nagród.",
+            "Podczas korzystania z usługi nazewnictwa dla osób niebędących członkami, imię, data urodzenia, czas urodzenia, kraj, język, cel użycia oraz wskazówki dotyczące wymowy są tymczasowo przetwarzane w trakcie procesu generowania wyników analizy, jednak wprowadzone dane i wyniki generacji nie są przechowywane w bazie danych usługi.",
+            "Podczas rejestracji i logowania przetwarzany jest adres e-mail oraz historia logowania (historia autoryzacji).",
+            "Podczas płatności za szczegółowy raport płatny, informacje identyfikacyjne zamówienia, status płatności oraz dane wejściowe i wyniki analizy potrzebne do generowania raportu są przetwarzane przez okres przechowywania (24 godziny po płatności). Informacje o metodach płatności, takie jak numer karty, są przetwarzane bezpośrednio przez agencję płatniczą, a firma ich nie przechowuje.",
+            "Dodatkowe informacje, takie jak imię zamawiającego, adres e-mail, dane kontaktowe, adres dostawy, status płatności oraz informacje o przetwarzaniu zamówienia, mogą być przetwarzane tylko podczas korzystania z funkcji zamawiania towarów.",
+            "W celu zapewnienia stabilności usługi oraz zapobiegania nadużyciom, mogą być przetwarzane minimalne logi operacyjne, takie jak hasz odwiedzających bez identyfikacji, czas żądania, rodzaj usługi, liczba darmowych użyć, czas odpowiedzi AI, status przetwarzania oraz ekspozycja reklamowa i wydarzenia związane z nagrodami, które zmieniają się codziennie.",
           ],
         },
         {
-          title: "2. Cele przetwarzania danych osobowych",
+          title: "2. Cel przetwarzania danych osobowych",
           paragraphs: [
-            "Dane osobowe są przetwarzane w celu: rekomendowania imion na podstawie wprowadzonych danych, analizy wymowy, analizy językowej i kulturowej według krajów, egzekwowania limitów bezpłatnego użycia, weryfikacji nagród za reklamy, obsługi zapytań klientów, realizacji płatności i dostaw oraz zapobiegania nadużyciom.",
+            "Przetwarzamy dane osobowe w celu rekomendacji imion opartych na wprowadzonych danych, analizy wymowy, analizy języków i kultur według krajów, ograniczenia darmowego użycia, weryfikacji nagród reklamowych, obsługi zapytań klientów, przetwarzania płatności i dostaw oraz zapobiegania nadużyciom.",
           ],
         },
         {
           title: "3. Przechowywanie i usuwanie",
           paragraphs: [
-            "Dane wejściowe i wyniki analizy są przechowywane na koncie wyłącznie wtedy, gdy zalogowany członek wyraźnie wybierze opcję ich zapisania, i są usuwane, gdy członek je usunie lub gdy ustanie cel przechowywania. Dane wejściowe i wyniki gości oraz członków, którzy nie wybrali zapisania, nie są przechowywane.",
-            "Dane wejściowe, wyniki analizy oraz pliki PDF płatnych raportów szczegółowych są automatycznie usuwane po upływie 24 godzin od dokonania płatności. Zapisy transakcji płatności i zamówień są przechowywane odrębnie przez ustawowe okresy wymagane właściwymi przepisami prawa.",
-            "Szczegółowe dane dostawy są usuwane lub anonimizowane po upływie okresu niezbędnego do realizacji zamówienia, obsługi zwrotów i rozstrzygania sporów.",
+            "Dane wejściowe i wyniki analizy są przechowywane na koncie tylko wtedy, gdy zalogowany użytkownik wyraźnie wybierze opcję przechowywania wyników, a po ich usunięciu przez użytkownika lub zakończeniu celu przechowywania są usuwane. Dane wejściowe i wyniki użytkowników niebędących członkami oraz tych, którzy nie wybrali opcji przechowywania, nie są przechowywane.",
+            "Dane wejściowe, wyniki analizy oraz pliki PDF szczegółowego raportu płatnego są automatycznie usuwane po upływie 24 godzin od zakończenia płatności. Historia transakcji płatności i zamówień jest przechowywana oddzielnie zgodnie z ustawowymi okresami przechowywania określonymi w odpowiednich przepisach prawnych.",
+            "Szczegóły dostawy są usuwane lub anonimizowane po upływie okresu niezbędnego do przetwarzania zamówienia oraz obsługi zwrotów i sporów.",
           ],
         },
         {
-          title: "4. Udostępnianie osobom trzecim i powierzenie przetwarzania",
+          title: "4. Udostępnianie danych osobowych osobom trzecim i zlecanie przetwarzania",
           paragraphs: [
-            "W celu prowadzenia serwisu niezbędne informacje mogą być przetwarzane przez lub powierzane następującym podmiotom: Supabase (baza danych i uwierzytelnianie), Vercel (hosting), OpenAI API (analiza AI), sieci reklamowe, operator płatności (PortOne) oraz partnerzy zajmujący się dostawą i produkcją.",
+            "W celu prowadzenia usługi, informacje niezbędne do przetwarzania lub zlecania mogą być przekazywane do Supabase (baza danych, autoryzacja), Vercel (hosting), OpenAI API (analiza AI), sieci reklamowych, agencji płatniczych (PortOne) oraz partnerów zajmujących się dostawą i produkcją.",
           ],
         },
         {
-          title: "5. Możliwość przekazywania danych za granicę",
+          title: "5. Przekazywanie danych osobowych za granicę",
           paragraphs: [
-            "W ramach niektórych procesów przetwarzania, takich jak hosting w chmurze, uwierzytelnianie, wywołania API AI, reklamy i wysyłka e-maili, dane osobowe mogą być przetwarzane na serwerach zagranicznych. Kraje docelowe, podmioty przetwarzające, cele i okresy przechowywania zostaną szczegółowo podane po ostatecznym ustaleniu dostawców usług.",
+            "Firma przekazuje dane osobowe za granicę w celu świadczenia usług, jak opisano poniżej. Przekazanie odbywa się za pomocą transmisji przez sieć telekomunikacyjną.",
+            "① OpenAI, L.L.C. (USA) — Przekazywane dane: imię, data urodzenia, czas urodzenia, płeć, kraj, język itp. — Cel przekazania: analiza imion, wymowy i znaczenia oparta na AI — Okres przechowywania i wykorzystania: czas świadczenia usługi (dane wejściowe nie są wykorzystywane do uczenia modeli zgodnie z polityką OpenAI i są przechowywane maksymalnie przez 30 dni w celach monitorowania nadużyć, a następnie usuwane).",
+            "② Supabase, Inc. (USA) — Przekazywane dane: informacje o zamówieniu i statusie płatności, adres e-mail członka, dane wejściowe i wyniki płatnych raportów (24 godziny po płatności), imię zamawiającego, dane kontaktowe i adres dostawy podczas zamawiania towarów — Cel przekazania: baza danych, autoryzacja, przechowywanie — Okres przechowywania i wykorzystania: czas świadczenia usługi lub do końca okresu przechowywania dla poszczególnych danych.",
+            "③ Vercel, Inc. (USA) — Przekazywane dane: informacje o dostępie i żądaniach przesyłane w trakcie korzystania z usługi — Cel przekazania: hosting aplikacji — Okres przechowywania i wykorzystania: czas świadczenia usługi.",
+            "Użytkownicy mogą odmówić zgody na przekazywanie danych osobowych za granicę, jednakże ponieważ przetwarzanie to jest niezbędne do świadczenia usług, odmowa może skutkować ograniczeniem dostępu do usługi.",
           ],
         },
         {
           title: "6. Prawa użytkowników",
           paragraphs: [
-            "Użytkownik może żądać dostępu do swoich danych osobowych, ich sprostowania, usunięcia lub wstrzymania przetwarzania, a także wycofać zgodę. Żądania przyjmowane są za pośrednictwem adresu e-mail centrum obsługi klienta i realizowane po weryfikacji tożsamości.",
+            "Użytkownicy mogą żądać dostępu do danych osobowych, ich poprawy, usunięcia, wstrzymania przetwarzania oraz wycofania zgody. Żądania są przyjmowane za pośrednictwem e-maila do centrum obsługi klienta i są przetwarzane po weryfikacji tożsamości.",
           ],
         },
         {
           title: "7. Inspektor ochrony danych osobowych",
           paragraphs: [
-            `Osoba odpowiedzialna: ${companyInfo.privacyOfficer}`,
-            `E-mail: ${companyInfo.email}`,
+            "Osoba odpowiedzialna: Gwak Eun-ha",
+            "E-mail: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -130,38 +138,47 @@ const content: LegalLocaleContent = {
         {
           title: "1. Zasady ogólne",
           paragraphs: [
-            "Po aktywacji funkcji płatności zakres możliwych zwrotów może się różnić w zależności od sposobu dostarczenia danego produktu, momentu rozpoczęcia produkcji oraz statusu pobrania. Szczegółowe warunki są podawane na ekranie produktu przed dokonaniem płatności.",
+            "Po aktywacji funkcji płatności zakres możliwości zwrotu może się różnić w zależności od sposobu dostarczenia produktu, momentu rozpoczęcia produkcji oraz możliwości pobrania. Szczegółowe warunki będą podane na ekranie produktu przed dokonaniem płatności.",
           ],
         },
         {
-          title: "2. Szczegółowe raporty hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Szczegółowy raport o znakach (2,900₩·4,900₩·9,900₩)",
           paragraphs: [
-            "Anulowanie po dokonaniu płatności jest możliwe, dopóki nie rozpoczęło się generowanie szczegółowej analizy AI. Po zakończeniu generowania, gdy raport staje się dostępny do przeglądania lub pobrania, zwrot z powodu zwykłej zmiany zdania może być ograniczony.",
-            "W przypadku potwierdzenia błędów w treści, niepowodzenia generowania z powodu awarii systemu lub niezgodności kwoty płatności raport zostanie wydany ponownie lub nastąpi zwrot pieniędzy. Zakończenie możliwości pobrania wskutek upływu okresu przechowywania (24 godziny od płatności) nie stanowi podstawy do zwrotu.",
+            "Można anulować zamówienie przed rozpoczęciem generowania szczegółowej analizy AI po dokonaniu płatności. Po zakończeniu generowania analizy i uzyskaniu możliwości przeglądania lub pobierania, zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku stwierdzenia błędów w treści, awarii systemu prowadzącej do niepowodzenia w generowaniu, lub niezgodności kwoty płatności, zostanie przeprowadzona ponowna emisja lub zwrot. Upłynięcie okresu przechowywania (24 godziny po dokonaniu płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
           ],
         },
         {
-          title: "3. Jednorazowe odblokowanie wszystkich kandydatów (US$1.99)",
+          title: "3. Całkowite ujawnienie kandydatów (krajowe 990₩ · zagraniczne US$1.99)",
           paragraphs: [
-            "Jednorazowe odblokowanie kandydatów w usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul to treść cyfrowa dostarczana natychmiast po dokonaniu płatności. Anulowanie jest możliwe przed rozpoczęciem przeglądania kandydatów; po rozpoczęciu przeglądania zwrot z powodu zwykłej zmiany zdania może być ograniczony.",
-            "Jeżeli z powodu błędu systemu kandydaci nie zostaną prawidłowo odblokowani, zapewniamy ponowne dostarczenie lub zwrot pieniędzy.",
+            "Całkowite ujawnienie kandydatów dla usług konwersji nazw globalnych, konwersji nazw koreańskich oraz transkrypcji fonetycznej w hangulu jest cyfrową treścią dostarczaną natychmiast po dokonaniu płatności. Można anulować zamówienie przed rozpoczęciem przeglądania kandydatów, natomiast po przeglądaniu zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku, gdy kandydaci nie są prawidłowo ujawniani z powodu błędu systemu, zostanie przeprowadzona ponowna emisja lub zwrot.",
           ],
         },
         {
-          title: "4. Gadżety wykonywane na zamówienie",
+          title: "4. Globalny produkt PDF (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Produkty personalizowane można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji zwrot z powodu zwykłej zmiany zdania może być ograniczony, a literówki, uszkodzenia, błędy produkcyjne lub problemy z dostawą są rozpatrywane po weryfikacji poprzez wymianę, ponowne wykonanie lub zwrot pieniędzy — w zależności od tego, co jest właściwe.",
+            "Kompleksowy raport o imionach w hangulu (US$9.99), sztuka konwersji fonetycznej w hangulu (US$2.99), pakiet sztuki imienia (US$1.99) to cyfrowe treści generowane po dokonaniu płatności. Można anulować zamówienie przed rozpoczęciem generowania PDF, natomiast po zakończeniu generowania i uzyskaniu możliwości pobrania, zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku stwierdzenia niepowodzenia w generowaniu, błędów w treści lub niezgodności kwoty płatności, zostanie przeprowadzona ponowna emisja lub zwrot. Upłynięcie okresu przechowywania (24 godziny po dokonaniu płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
           ],
         },
         {
-          title: "5. Odblokowanie za obejrzenie reklamy",
+          title: "5. Spersonalizowane produkty (np. pieczątki z imieniem)",
           paragraphs: [
-            "Korzyści uzyskiwane za obejrzenie reklamy nie są produktami płatnymi. Jeżeli nagroda nie zostanie przyznana z powodu błędu sieci reklamowej, należy ponowić próbę w serwisie lub skontaktować się z centrum obsługi klienta.",
+            "Produkty spersonalizowane, takie jak pieczątki z imieniem (krajowe 39,000₩ · zagraniczne US$34.99, w tym międzynarodowe koszty wysyłki), można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji, ponieważ tekst grawerunku jest ustalany indywidualnie, zwroty z powodu zmiany zdania mogą być ograniczone, a błędy, uszkodzenia, błędna produkcja lub problemy z dostawą będą rozpatrywane w odpowiedni sposób poprzez wymianę, ponowną produkcję lub zwrot po weryfikacji.",
+          ],
+        },
+        {
+          title: "5. Odblokowanie z reklamą",
+          paragraphs: [
+            "Korzyści z oglądania reklam nie są produktem płatnym. W przypadku, gdy nagroda nie została przyznana z powodu błędu w sieci reklamowej, można to rozwiązać poprzez ponowną próbę w usłudze lub kontakt z obsługą klienta.",
           ],
         },
         {
           title: "6. Kontakt",
-          paragraphs: [`Zapytania dotyczące zwrotów: ${companyInfo.email}`],
+          paragraphs: [
+            "Zapytania dotyczące zwrotów: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -172,42 +189,51 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "Analiza podstawowa (bezpłatna)",
+          title: "Podstawowa analiza (bezpłatnie)",
           paragraphs: [
-            "Analiza podstawowa czterech usług — dopasowywania znaczeń hanja (znaków chińskich), przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul — jest dostępna bezpłatnie dla gości; mogą obowiązywać dzienne limity użycia.",
+            "Podstawowa analiza czterech usług: dopasowanie znaczenia znaków, globalna konwersja nazw, konwersja nazw koreańskich oraz transkrypcja fonetyczna w Hangulu jest dostępna bezpłatnie dla użytkowników niezarejestrowanych, z możliwością nałożenia ograniczeń dotyczących dziennego zużycia.",
           ],
         },
         {
-          title: "Korzystanie z nagrodą za reklamę",
+          title: "Usługa z nagrodą za oglądanie reklam",
           paragraphs: [
-            "Odblokowanie kandydata po obejrzeniu reklamy to korzyść reklamowa udostępniana bez dodatkowej płatności. Jedna reklama odblokowuje jednego kolejnego kandydata. Dostępność może się różnić w zależności od dostępności reklam, kraju, urządzenia lub zasad dostawcy reklam.",
+            "Odblokowanie kandydatów po obejrzeniu reklamy jest oferowane jako korzyść reklamowa bez dodatkowej opłaty. Po każdej reklamie odblokowywany jest jeden kolejny kandydat. Dostępność może się różnić w zależności od zapasów reklamowych, kraju, urządzenia lub polityki dostawcy reklam.",
           ],
         },
         {
-          title: "Produkty szczegółowe dopasowywania znaczeń hanja",
+          title: "Szczegółowy produkt dopasowania znaczenia znaków",
           paragraphs: [
-            "Szczegółowe opisy maksymalnie 5 kandydatów oraz kompleksowa analiza hanja: ₩2,900 (KRW)",
-            "Rozszerzone opisy maksymalnie 10 kandydatów, kompleksowa analiza hanja oraz pamiątkowy plik PDF: ₩4,900",
-            "Szczegóły maksymalnie 10 kandydatów, kompleksowa analiza hanja, analiza saju (Cztery Filary) i Pięciu Żywiołów oraz pamiątkowy plik PDF: ₩9,900",
-            "Płatne raporty i pliki PDF pozostają dostępne do ponownego przeglądania i pobierania przez 24 godziny od płatności, po czym są automatycznie usuwane.",
+            "Szczegółowy opis maksymalnie 5 kandydatów oraz kompleksowe szczegóły dotyczące znaków: 2,900₩",
+            "Rozszerzony szczegółowy opis maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków oraz PDF do pobrania: 4,900₩",
+            "Szczegóły maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków, analiza BaZi i pięciu elementów oraz PDF do pobrania: 9,900₩",
+            "Płatne raporty i PDF mogą być przeglądane i pobierane ponownie w ciągu 24 godzin po dokonaniu płatności, a następnie są automatycznie usuwane.",
           ],
         },
         {
-          title: "Jednorazowe odblokowanie wszystkich kandydatów",
+          title: "Całkowite ujawnienie kandydatów",
           paragraphs: [
-            "Jednorazowe odblokowanie wszystkich pozostałych kandydatów bez reklam w usługach przekształcania na imiona międzynarodowe, przekształcania na imiona koreańskie oraz zapisu wymowy w hangul: US$1.99 (funkcja płatności w przygotowaniu)",
+            "Globalna konwersja nazw, konwersja nazw koreańskich oraz usługa transkrypcji fonetycznej w Hangulu umożliwiają jednorazowe ujawnienie wszystkich pozostałych kandydatów bez reklam: płatność krajowa 990₩, płatność zagraniczna US$1.99 (funkcja płatności w przygotowaniu)",
           ],
         },
         {
-          title: "Gadżety z imieniem w hangul",
+          title: "Globalny produkt PDF",
           paragraphs: [
-            "Ceny poszczególnych produktów fizycznych, takich jak pieczątka z imieniem, koszty dostawy i czas produkcji są podawane odrębnie dla każdego produktu.",
+            "Kompleksowy raport PDF dotyczący nazw w Hangulu (sztuka nazw, interpretacja znaczenia, odniesienia do BaZi i pięciu elementów dla wszystkich rekomendowanych kandydatów): US$9.99",
+            "PDF sztuki konwersji fonetycznej w Hangulu (sztuka nazw w wybranym kroju pisma oraz wskazówki dotyczące wymowy): US$2.99",
+            "Pakiet sztuki nazw PDF (sztuka dla jednego wybranego imienia w wybranym kroju pisma): US$1.99",
+            "Ceny oraz liczba zastosowanych krojów pisma są zgodne z wartościami podanymi na ekranie, a PDF mogą być pobierane ponownie w ciągu 24 godzin po dokonaniu płatności, a następnie są automatycznie usuwane. (funkcja płatności w przygotowaniu)",
           ],
         },
         {
-          title: "Informacja przed pełnym uruchomieniem płatności",
+          title: "Towary z nazwami w Hangulu",
           paragraphs: [
-            "Po ostatecznym ustaleniu weryfikacji operatora płatności (PG), rejestracji działalności w zakresie sprzedaży wysyłkowej oraz warunków partnerstwa produkcyjnego rzeczywista kwota płatności, koszty dostawy, czas produkcji i warunki zwrotu zostaną ponownie podane na ekranie każdego produktu.",
+            "Stempel z imieniem: krajowa cena 39,000₩ · zagraniczna cena US$34.99 (w tym koszty wysyłki międzynarodowej). Inne fizyczne towary będą miały osobno podane ceny, koszty wysyłki oraz czas produkcji.",
+          ],
+        },
+        {
+          title: "Informacje przed dokonaniem płatności",
+          paragraphs: [
+            "Po zatwierdzeniu oceny PG, zgłoszeniu działalności handlowej oraz ustaleniu warunków współpracy produkcyjnej, rzeczywista kwota płatności, koszty wysyłki, czas produkcji oraz warunki zwrotu będą ponownie podane na ekranie produktu.",
           ],
         },
       ],

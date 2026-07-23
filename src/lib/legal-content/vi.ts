@@ -15,54 +15,57 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Bản chất của dịch vụ",
+          title: "1. Tính chất dịch vụ",
           paragraphs: [
-            "Naming-Link là studio đặt tên ứng dụng AI, cung cấp bốn dịch vụ sau: (1) ghép ý nghĩa Hanja (chữ Hán) phù hợp với tên tiếng Hàn, (2) chuyển đổi tên tiếng Hàn thành tên quốc tế, (3) chuyển đổi tên nước ngoài thành tên Hàn Quốc, (4) phiên âm tên quốc tế sang chữ Hangul theo cách phát âm.",
-            "Kết quả chỉ là tài liệu tham khảo hỗ trợ việc đặt tên và diễn giải, không bảo đảm khả năng đăng ký chính thức như đăng ký hộ tịch, hộ chiếu, thị thực, nhãn hiệu hay các giấy tờ pháp lý.",
+            "Naming-Link là một studio đặt tên dựa trên AI cung cấp bốn dịch vụ sau: ① Phù hợp ý nghĩa Hán tự với tên Hàn Quốc ② Chuyển đổi tên Hàn Quốc thành tên toàn cầu ③ Chuyển đổi tên nước ngoài thành tên Hàn Quốc ④ Ghi tên toàn cầu theo cách phát âm bằng Hàn Quốc.",
+            "Kết quả là tài liệu tham khảo hỗ trợ việc đặt tên và giải thích, không đảm bảo khả năng đăng ký chính thức như đăng ký hộ tịch, hộ chiếu, visa, nhãn hiệu, tài liệu pháp lý, v.v.",
           ],
         },
         {
-          title: "2. Thành viên và khách không đăng ký",
+          title: "2. Sử dụng của thành viên và không phải thành viên",
           paragraphs: [
-            "Phân tích tên và mở khóa ứng viên bằng cách xem quảng cáo có thể sử dụng mà không cần tài khoản. Việc đăng ký thành viên hoặc đăng nhập chỉ được yêu cầu đối với các tính năng cần tài khoản, như đặt mua sản phẩm lưu niệm và xem lịch sử đơn hàng.",
+            "Phân tích tên và xem xét ứng cử viên theo hình thức quảng cáo có thể được sử dụng bởi cả thành viên và không phải thành viên. Đăng ký thành viên hoặc đăng nhập chỉ được yêu cầu cho các chức năng cần tài khoản như đặt hàng hàng hóa và kiểm tra lịch sử đặt hàng.",
           ],
         },
         {
-          title: "3. Kết quả AI và trách nhiệm kiểm tra",
+          title: "3. Trách nhiệm về kết quả AI và xem xét",
           paragraphs: [
-            "Kết quả gợi ý của AI bao gồm các tham chiếu về ngôn ngữ, văn hóa và truyền thống. Trước khi lựa chọn tên cuối cùng, người dùng cần xác nhận tính phù hợp thông qua cơ quan liên quan, chuyên gia, người bản ngữ, cũng như thẩm định pháp lý và nhãn hiệu.",
+            "Kết quả gợi ý từ AI bao gồm các tham khảo về ngôn ngữ, văn hóa và truyền thống. Người dùng phải xác nhận tính phù hợp thông qua các cơ quan liên quan, chuyên gia, người dùng địa phương, xem xét pháp lý và nhãn hiệu trước khi chọn tên cuối cùng.",
           ],
         },
         {
           title: "4. Dịch vụ trả phí",
           paragraphs: [
-            "Dịch vụ ghép ý nghĩa Hanja cung cấp các gói chi tiết sau: (1) giải thích chi tiết tối đa 5 ứng viên kèm phân tích Hanja tổng hợp: ₩2,900 (KRW); (2) giải thích mở rộng tối đa 10 ứng viên, phân tích Hanja tổng hợp và file PDF lưu niệm: ₩4,900; (3) chi tiết tối đa 10 ứng viên, phân tích Hanja tổng hợp, phân tích Tứ Trụ (Saju) và Ngũ Hành cùng file PDF lưu niệm: ₩9,900.",
-            "Trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul, có thể cung cấp gói mở khóa toàn bộ ứng viên còn lại cùng lúc mà không cần xem quảng cáo (US$1.99). Trước khi tính năng thanh toán được kích hoạt, ứng viên chỉ có thể được mở khóa thông qua xem quảng cáo.",
-            "Báo cáo chi tiết trả phí, kết quả phân tích và file PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi thanh toán; hết thời hạn lưu trữ, chúng sẽ tự động bị xóa.",
-            "Các sản phẩm hữu hình như sản phẩm lưu niệm tên tiếng Hàn có thể được cung cấp với giá và điều kiện riêng. Với mọi sản phẩm trả phí, nội dung sản phẩm, giá, phương thức cung cấp và điều kiện hoàn tiền đều được thông báo trên màn hình trước khi thanh toán.",
+            "Chi tiết sản phẩm của dịch vụ phù hợp ý nghĩa Hán tự như sau: ① Tối đa 5 ứng cử viên với mô tả chi tiết và tổng hợp Hán tự: 2.900 won ② Tối đa 10 ứng cử viên với mô tả chi tiết mở rộng, tổng hợp Hán tự và PDF lưu trữ: 4.900 won ③ Tối đa 10 ứng cử viên với chi tiết, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: 9.900 won.",
+            "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm tên bằng Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng cử viên còn lại mà không có quảng cáo (thanh toán trong nước 990 won, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp hình thức xem xét theo quảng cáo.",
+            "Sản phẩm kỹ thuật số cho người dùng toàn cầu bao gồm ④ Báo cáo tổng hợp tên Hàn Quốc PDF (US$9.99): nghệ thuật tên phông chữ được đề xuất, giải thích ý nghĩa, tham khảo bát tự và ngũ hành ⑤ Nghệ thuật chuyển đổi âm Hàn Quốc PDF (US$2.99): nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm ⑥ Gói nghệ thuật tên PDF (US$1.99): cung cấp một tên đã chọn dưới dạng nghệ thuật theo từng phông chữ. Giá cả và số lượng phông chữ áp dụng cho từng sản phẩm sẽ theo giá trị được thông báo trên màn hình.",
+            "Báo cáo chi tiết trả phí và kết quả phân tích, tệp PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi hoàn tất thanh toán, và sẽ tự động bị xóa sau thời gian lưu trữ.",
+            "Hàng hóa vật lý như con dấu tên được cung cấp với giá 39.000 won trong nước, US$34.99 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
           ],
         },
         {
-          title: "5. Dịch vụ nhận thưởng qua quảng cáo",
+          title: "5. Dịch vụ thưởng quảng cáo",
           paragraphs: [
-            "Việc mở khóa ứng viên bằng cách xem quảng cáo chỉ được áp dụng khi nhà cung cấp quảng cáo đã xác nhận phần thưởng hợp lệ. Việc phát quảng cáo tự động, thao túng phần thưởng hoặc gửi yêu cầu lặp lại bất thường có thể bị hạn chế.",
+            "Việc mở khóa ứng cử viên thông qua việc xem quảng cáo chỉ được áp dụng khi việc xác nhận thưởng bình thường của nhà cung cấp quảng cáo đã hoàn tất. Việc phát quảng cáo tự động, thao tác thưởng, và yêu cầu lặp lại không bình thường có thể bị hạn chế.",
           ],
         },
         {
           title: "6. Hành vi bị cấm",
           paragraphs: [
-            "Nghiêm cấm các hành vi sau: nhập thông tin cá nhân của người khác khi chưa được phép, tạo tên nhằm mục đích phân biệt đối xử, thù ghét hoặc mạo danh, gửi yêu cầu tự động quá mức, gây gián đoạn dịch vụ, và trình bày sai kết quả như thể đã được chứng nhận chính thức.",
+            "Cấm nhập thông tin cá nhân của người khác mà không có sự cho phép, tạo tên với mục đích phân biệt, thù hận, giả mạo, yêu cầu quá mức tự động, gây ra sự cố dịch vụ, và hiển thị chứng nhận chính thức giả mạo của sản phẩm.",
           ],
         },
         {
           title: "7. Giới hạn trách nhiệm",
           paragraphs: [
-            "Trừ trường hợp cố ý hoặc lỗi nghiêm trọng, công ty không chịu trách nhiệm đối với thiệt hại gián tiếp, mất lợi nhuận kỳ vọng, việc bị từ chối đăng ký chính thức hoặc tranh chấp với bên thứ ba phát sinh từ việc sử dụng kết quả gợi ý của AI.",
+            "Công ty không chịu trách nhiệm về thiệt hại gián tiếp, mất lợi ích kỳ vọng, từ chối đăng ký chính thức, và tranh chấp với bên thứ ba phát sinh từ việc sử dụng kết quả gợi ý AI, trừ khi có hành vi cố ý hoặc sơ suất nghiêm trọng.",
           ],
         },
         {
           title: "8. Liên hệ",
-          paragraphs: [`Liên hệ về dịch vụ: ${companyInfo.email}`],
+          paragraphs: [
+            "Liên hệ dịch vụ: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Các loại thông tin cá nhân được xử lý",
+          title: "1. Các mục thông tin cá nhân được xử lý",
           paragraphs: [
-            "Khi sử dụng dịch vụ đặt tên với tư cách khách không đăng ký, tên, ngày sinh, giờ sinh, quốc gia, ngôn ngữ, mục đích sử dụng và gợi ý phát âm được xử lý tạm thời trong quá trình tạo kết quả phân tích, nhưng nội dung nhập vào và kết quả tạo ra không được lưu vào cơ sở dữ liệu của dịch vụ.",
-            "Khi thanh toán báo cáo chi tiết trả phí, thông tin định danh đơn hàng, trạng thái thanh toán cùng dữ liệu nhập vào và kết quả phân tích cần thiết để tạo báo cáo được xử lý trong thời hạn lưu trữ (24 giờ sau khi thanh toán). Thông tin phương thức thanh toán như số thẻ do đơn vị trung gian thanh toán trực tiếp xử lý; công ty không lưu trữ các thông tin này.",
-            "Chỉ khi sử dụng tính năng đặt mua sản phẩm lưu niệm, tên người đặt hàng, email, số liên lạc, địa chỉ giao hàng, trạng thái thanh toán và thông tin xử lý đơn hàng mới có thể được xử lý thêm.",
-            "Để bảo đảm sự ổn định của dịch vụ và ngăn ngừa lạm dụng, chúng tôi có thể xử lý nhật ký vận hành ở mức tối thiểu gồm: mã băm ẩn danh của khách truy cập thay đổi theo ngày, thời điểm yêu cầu, loại dịch vụ, số lần sử dụng miễn phí, số token AI, thời gian phản hồi, trạng thái xử lý cùng các sự kiện hiển thị quảng cáo và trao thưởng.",
+            "Khi sử dụng dịch vụ tên không phải thành viên, tên, ngày sinh, giờ sinh, quốc gia, ngôn ngữ, mục đích sử dụng và gợi ý phát âm sẽ được xử lý tạm thời trong quá trình tạo ra kết quả phân tích, nhưng nội dung nhập và kết quả tạo ra sẽ không được lưu trữ trong cơ sở dữ liệu dịch vụ.",
+            "Khi đăng ký thành viên và đăng nhập, địa chỉ email và lịch sử đăng nhập (lịch sử xác thực) sẽ được xử lý.",
+            "Khi thanh toán cho báo cáo chi tiết trả phí, thông tin nhận diện đơn hàng, trạng thái thanh toán và các đầu vào, kết quả phân tích cần thiết cho việc tạo báo cáo sẽ được xử lý trong thời gian lưu trữ (24 giờ sau khi thanh toán). Thông tin phương thức thanh toán như số thẻ sẽ được xử lý trực tiếp bởi đơn vị thanh toán và công ty sẽ không lưu trữ chúng.",
+            "Chỉ khi sử dụng chức năng đặt hàng hàng hóa, tên người đặt hàng, email, số liên lạc, địa chỉ giao hàng, trạng thái thanh toán và thông tin xử lý đơn hàng có thể được xử lý thêm.",
+            "Để đảm bảo tính ổn định của dịch vụ và ngăn chặn lạm dụng, các thông tin không xác định về khách truy cập, thời gian yêu cầu, loại dịch vụ, số lần sử dụng miễn phí, thời gian phản hồi AI, trạng thái xử lý và quảng cáo hiển thị, sự kiện thưởng có thể được xử lý như là nhật ký hoạt động tối thiểu.",
           ],
         },
         {
           title: "2. Mục đích xử lý thông tin cá nhân",
           paragraphs: [
-            "Thông tin cá nhân được xử lý nhằm: gợi ý tên dựa trên dữ liệu nhập vào, phân tích phát âm, phân tích ngôn ngữ và văn hóa theo từng quốc gia, giới hạn lượt sử dụng miễn phí, xác nhận phần thưởng quảng cáo, hỗ trợ khách hàng, xử lý thanh toán và giao hàng, và ngăn ngừa sử dụng gian lận.",
+            "Chúng tôi xử lý thông tin cá nhân để đề xuất tên dựa trên giá trị nhập, phân tích phát âm, phân tích ngôn ngữ và văn hóa theo quốc gia, giới hạn số lượng sử dụng miễn phí, xác nhận thưởng quảng cáo, phản hồi yêu cầu của khách hàng, xử lý thanh toán và giao hàng, và ngăn chặn việc sử dụng trái phép.",
           ],
         },
         {
-          title: "3. Lưu trữ và hủy dữ liệu",
+          title: "3. Lưu trữ và tiêu hủy",
           paragraphs: [
-            "Dữ liệu nhập vào và kết quả phân tích chỉ được lưu vào tài khoản khi thành viên đã đăng nhập chủ động chọn lưu kết quả, và sẽ bị hủy khi thành viên xóa hoặc khi mục đích lưu trữ kết thúc. Dữ liệu nhập vào và kết quả của khách không đăng ký cũng như của thành viên không chọn lưu sẽ không được lưu trữ.",
-            "Dữ liệu nhập vào, kết quả phân tích và file PDF của báo cáo chi tiết trả phí sẽ tự động bị xóa sau 24 giờ kể từ khi thanh toán hoàn tất. Hồ sơ giao dịch thanh toán và đơn hàng được lưu trữ riêng theo thời hạn luật định của pháp luật liên quan.",
-            "Thông tin chi tiết về giao hàng sẽ bị hủy hoặc ẩn danh hóa khi hết thời gian cần thiết cho việc xử lý đơn hàng, đổi trả và giải quyết tranh chấp.",
+            "Các đầu vào phân tích và kết quả chỉ được lưu trữ trong tài khoản của thành viên khi thành viên đó chọn lưu trữ một cách rõ ràng, và sẽ bị tiêu hủy khi thành viên xóa hoặc khi mục đích lưu trữ kết thúc. Các đầu vào và kết quả của thành viên không lưu trữ sẽ không được lưu trữ.",
+            "Các đầu vào, kết quả phân tích và tệp PDF của báo cáo chi tiết trả phí sẽ tự động bị xóa sau 24 giờ kể từ khi hoàn tất thanh toán. Hồ sơ giao dịch thanh toán và đơn hàng sẽ được lưu trữ riêng theo thời gian lưu trữ theo quy định của pháp luật liên quan.",
+            "Thông tin chi tiết giao hàng sẽ bị tiêu hủy hoặc được làm không xác định sau khi thời gian cần thiết cho việc xử lý đơn hàng và phản hồi hoàn trả, tranh chấp đã qua.",
           ],
         },
         {
           title: "4. Cung cấp cho bên thứ ba và ủy thác xử lý",
           paragraphs: [
-            "Để vận hành dịch vụ, các thông tin cần thiết có thể được xử lý hoặc ủy thác cho Supabase (cơ sở dữ liệu và xác thực), Vercel (lưu trữ máy chủ), OpenAI API (phân tích AI), các mạng quảng cáo, đơn vị trung gian thanh toán (PortOne) và các đối tác giao hàng, sản xuất.",
+            "Để vận hành dịch vụ, thông tin cần thiết có thể được xử lý hoặc ủy thác cho Supabase (cơ sở dữ liệu, xác thực), Vercel (lưu trữ), OpenAI API (phân tích AI), mạng quảng cáo, đơn vị thanh toán (PortOne), và các đối tác giao hàng, sản xuất.",
           ],
         },
         {
-          title: "5. Khả năng chuyển dữ liệu ra nước ngoài",
+          title: "5. Chuyển giao thông tin cá nhân ra nước ngoài",
           paragraphs: [
-            "Trong một số quá trình xử lý như lưu trữ đám mây, xác thực, gọi API AI, quảng cáo và gửi email, thông tin cá nhân có thể được xử lý trên máy chủ ở nước ngoài. Quốc gia tiếp nhận, bên nhận ủy thác, mục đích và thời hạn lưu trữ sẽ được thông báo chi tiết sau khi các nhà cung cấp dịch vụ được xác định.",
+            "Công ty sẽ chuyển giao thông tin cá nhân ra nước ngoài như sau để cung cấp dịch vụ. Việc chuyển giao sẽ được thực hiện qua phương thức truyền tải qua mạng thông tin.",
+            "① OpenAI, L.L.C. (Mỹ) — Các mục chuyển giao: tên, ngày sinh, giờ sinh, giới tính, quốc gia, ngôn ngữ và các giá trị đầu vào phân tích — Mục đích chuyển giao: phân tích tên, phát âm, ý nghĩa dựa trên AI — Thời gian lưu trữ và sử dụng: trong thời gian cung cấp dịch vụ (dữ liệu đầu vào sẽ không được sử dụng cho việc học mô hình theo chính sách của OpenAI và sẽ được lưu trữ tối đa 30 ngày để giám sát lạm dụng trước khi bị xóa).",
+            "② Supabase, Inc. (Mỹ) — Các mục chuyển giao: thông tin trạng thái đơn hàng, thanh toán, email thành viên, đầu vào và kết quả báo cáo trả phí (24 giờ sau khi thanh toán), tên người đặt hàng, số liên lạc, địa chỉ giao hàng khi đặt hàng hàng hóa — Mục đích chuyển giao: cơ sở dữ liệu, xác thực, lưu trữ — Thời gian lưu trữ và sử dụng: trong thời gian cung cấp dịch vụ hoặc đến thời gian lưu trữ của từng mục.",
+            "③ Vercel, Inc. (Mỹ) — Các mục chuyển giao: thông tin truy cập và yêu cầu được gửi trong quá trình sử dụng dịch vụ — Mục đích chuyển giao: lưu trữ ứng dụng — Thời gian lưu trữ và sử dụng: trong thời gian cung cấp dịch vụ.",
+            "Người sử dụng có thể từ chối đồng ý với việc chuyển giao thông tin cá nhân ra nước ngoài, nhưng vì việc xử lý này là cần thiết cho việc cung cấp dịch vụ, việc từ chối có thể dẫn đến việc hạn chế sử dụng dịch vụ.",
           ],
         },
         {
-          title: "6. Quyền của người dùng",
+          title: "6. Quyền của người sử dụng",
           paragraphs: [
-            "Người dùng có quyền yêu cầu truy cập, chỉnh sửa, xóa, tạm ngừng xử lý thông tin cá nhân và rút lại sự đồng ý. Yêu cầu được tiếp nhận qua email của trung tâm hỗ trợ khách hàng và được xử lý sau khi xác minh danh tính.",
+            "Người sử dụng có quyền yêu cầu xem, chỉnh sửa, xóa, ngừng xử lý và rút lại sự đồng ý về thông tin cá nhân. Các yêu cầu sẽ được tiếp nhận qua email của trung tâm dịch vụ khách hàng và sẽ được xử lý sau khi xác minh danh tính.",
           ],
         },
         {
-          title: "7. Người phụ trách bảo vệ thông tin cá nhân",
+          title: "7. Người chịu trách nhiệm bảo vệ thông tin cá nhân",
           paragraphs: [
-            `Người phụ trách: ${companyInfo.privacyOfficer}`,
-            `Email: ${companyInfo.email}`,
+            "Người chịu trách nhiệm: 곽은하",
+            "Email: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -130,38 +138,47 @@ const content: LegalLocaleContent = {
         {
           title: "1. Nguyên tắc chung",
           paragraphs: [
-            "Khi tính năng thanh toán được kích hoạt, phạm vi hoàn tiền có thể khác nhau tùy theo phương thức cung cấp, thời điểm bắt đầu sản xuất và tình trạng tải xuống của từng sản phẩm. Điều kiện cụ thể được thông báo trên màn hình sản phẩm trước khi thanh toán.",
+            "Khi chức năng thanh toán được kích hoạt, phạm vi hoàn tiền có thể khác nhau tùy thuộc vào cách cung cấp từng sản phẩm, thời điểm bắt đầu sản xuất và khả năng tải xuống. Điều kiện cụ thể sẽ được thông báo trên màn hình sản phẩm trước khi thanh toán.",
           ],
         },
         {
-          title: "2. Báo cáo chi tiết Hanja (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Báo cáo chi tiết Hán tự (2.900₩·4.900₩·9.900₩)",
           paragraphs: [
-            "Sau khi thanh toán, quý khách có thể hủy trước khi quá trình tạo phân tích chi tiết bằng AI bắt đầu. Khi phân tích đã được tạo xong và có thể xem hoặc tải xuống, việc hoàn tiền do đổi ý đơn thuần có thể bị hạn chế.",
-            "Nếu xác nhận có lỗi nội dung, tạo báo cáo thất bại do sự cố hệ thống hoặc chênh lệch số tiền thanh toán, chúng tôi sẽ cấp lại báo cáo hoặc hoàn tiền. Việc hết thời hạn lưu trữ (24 giờ sau khi thanh toán) khiến không thể tải xuống nữa không phải là căn cứ hoàn tiền.",
+            "Trước khi bắt đầu tạo phân tích chi tiết AI sau khi thanh toán, có thể hủy bỏ. Sau khi quá trình tạo phân tích hoàn tất và có thể xem hoặc tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
+            "Trong trường hợp phát hiện lỗi nội dung, thất bại trong việc tạo do sự cố hệ thống, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc sẽ không được coi là lý do hoàn tiền.",
           ],
         },
         {
-          title: "3. Mở khóa toàn bộ ứng viên (US$1.99)",
+          title: "3. Công khai toàn bộ ứng viên (990₩ trong nước · US$1.99 quốc tế)",
           paragraphs: [
-            "Việc mở khóa toàn bộ ứng viên trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul là nội dung kỹ thuật số được cung cấp ngay sau khi thanh toán. Quý khách có thể hủy trước khi bắt đầu xem ứng viên; sau khi đã xem, việc hoàn tiền do đổi ý đơn thuần có thể bị hạn chế.",
-            "Nếu ứng viên không được mở khóa đúng cách do lỗi hệ thống, chúng tôi sẽ cung cấp lại hoặc hoàn tiền.",
+            "Việc công khai toàn bộ ứng viên cho dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và dịch vụ ghi âm bằng Hangul là nội dung kỹ thuật số được cung cấp ngay lập tức sau khi thanh toán. Trước khi bắt đầu xem ứng viên, có thể hủy bỏ, và sau khi xem, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
+            "Trong trường hợp hệ thống gặp lỗi và ứng viên không được công khai bình thường, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền.",
           ],
         },
         {
-          title: "4. Sản phẩm lưu niệm đặt làm theo yêu cầu",
+          title: "4. Sản phẩm PDF kỹ thuật số toàn cầu (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Sản phẩm cá nhân hóa có thể hủy cho đến khi bắt đầu sản xuất. Sau khi đã bắt đầu sản xuất, việc hoàn tiền do đổi ý đơn thuần có thể bị hạn chế; các trường hợp sai chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng hình thức phù hợp — đổi hàng, làm lại hoặc hoàn tiền — sau khi xác nhận.",
+            "Báo cáo tổng hợp tên Hàn Quốc (US$9.99), nghệ thuật chuyển đổi âm Hàn (US$2.99), gói nghệ thuật tên (US$1.99) là nội dung kỹ thuật số được tạo ra sau khi thanh toán. Trước khi bắt đầu tạo PDF, có thể hủy bỏ, và sau khi quá trình tạo hoàn tất và có thể tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
+            "Trong trường hợp thất bại trong việc tạo, phát hiện lỗi nội dung, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc sẽ không được coi là lý do hoàn tiền.",
           ],
         },
         {
-          title: "5. Mở khóa bằng quảng cáo",
+          title: "5. Hàng hóa tùy chỉnh (như con dấu tên)",
           paragraphs: [
-            "Ưu đãi nhận được qua việc xem quảng cáo không phải là sản phẩm trả phí. Nếu phần thưởng không được cấp do lỗi của mạng quảng cáo, vui lòng thử lại trong dịch vụ hoặc liên hệ trung tâm hỗ trợ khách hàng.",
+            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (39.000₩ trong nước · US$34.99 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
+          ],
+        },
+        {
+          title: "5. Mở khóa quảng cáo",
+          paragraphs: [
+            "Lợi ích xem quảng cáo không phải là sản phẩm thanh toán. Trong trường hợp không nhận được bồi thường do lỗi mạng quảng cáo, sẽ được xử lý bằng cách thử lại trong dịch vụ hoặc liên hệ với trung tâm khách hàng.",
           ],
         },
         {
           title: "6. Liên hệ",
-          paragraphs: [`Liên hệ về hoàn tiền: ${companyInfo.email}`],
+          paragraphs: [
+            "Yêu cầu hoàn tiền: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -172,42 +189,51 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "Phân tích cơ bản (miễn phí)",
+          title: "Phân tích cơ bản (Miễn phí)",
           paragraphs: [
-            "Phân tích cơ bản của bốn dịch vụ — ghép ý nghĩa Hanja (chữ Hán), chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul — được cung cấp miễn phí cho khách không đăng ký và có thể áp dụng giới hạn số lần sử dụng mỗi ngày.",
+            "Phân tích cơ bản của bốn dịch vụ bao gồm: Khớp nghĩa Hán tự, Chuyển đổi tên toàn cầu, Chuyển đổi tên Hàn Quốc, và Ghi âm phát âm Hàn Quốc được cung cấp miễn phí cho người không phải thành viên, có thể áp dụng giới hạn sử dụng hàng ngày.",
           ],
         },
         {
-          title: "Sử dụng qua phần thưởng quảng cáo",
+          title: "Sử dụng theo hình thức thưởng quảng cáo",
           paragraphs: [
-            "Mở khóa ứng viên sau khi xem quảng cáo là ưu đãi dạng quảng cáo, không cần thanh toán riêng. Mỗi lượt quảng cáo mở khóa một ứng viên tiếp theo. Khả năng sử dụng có thể thay đổi tùy theo kho quảng cáo, quốc gia, thiết bị hoặc chính sách của nhà cung cấp quảng cáo.",
+            "Việc mở khóa ứng viên sau khi xem quảng cáo là lợi ích quảng cáo được cung cấp mà không cần thanh toán riêng. Mỗi lần quảng cáo sẽ mở ra một ứng viên tiếp theo. Tình trạng khả dụng có thể thay đổi tùy thuộc vào tồn kho quảng cáo, quốc gia, thiết bị hoặc chính sách của nhà cung cấp quảng cáo.",
           ],
         },
         {
-          title: "Các gói chi tiết ghép ý nghĩa Hanja",
+          title: "Chi tiết sản phẩm khớp nghĩa Hán tự",
           paragraphs: [
-            "Giải thích chi tiết tối đa 5 ứng viên kèm phân tích Hanja tổng hợp: ₩2,900",
-            "Giải thích mở rộng tối đa 10 ứng viên, phân tích Hanja tổng hợp và file PDF lưu niệm: ₩4,900",
-            "Chi tiết tối đa 10 ứng viên, phân tích Hanja tổng hợp, phân tích Tứ Trụ (Saju) và Ngũ Hành cùng file PDF lưu niệm: ₩9,900",
-            "Báo cáo trả phí và file PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa.",
+            "Mô tả chi tiết tối đa 5 ứng viên và tổng hợp Hán tự: 2,900 won",
+            "Mô tả chi tiết mở rộng tối đa 10 ứng viên, tổng hợp Hán tự và PDF lưu trữ: 4,900 won",
+            "Mô tả tối đa 10 ứng viên, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: 9,900 won",
+            "Báo cáo trả phí và PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa.",
           ],
         },
         {
-          title: "Mở khóa toàn bộ ứng viên",
+          title: "Công khai toàn bộ ứng viên một lần",
           paragraphs: [
-            "Mở khóa toàn bộ ứng viên còn lại cùng lúc, không cần xem quảng cáo, trong các dịch vụ chuyển đổi tên quốc tế, chuyển đổi tên Hàn Quốc và phiên âm Hangul: US$1.99 (tính năng thanh toán đang được chuẩn bị)",
+            "Công khai toàn bộ ứng viên còn lại từ dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm phát âm Hàn Quốc mà không có quảng cáo: Thanh toán trong nước 990 won, thanh toán quốc tế US$1.99 (chức năng thanh toán đang được chuẩn bị).",
           ],
         },
         {
-          title: "Sản phẩm lưu niệm tên tiếng Hàn",
+          title: "Sản phẩm PDF kỹ thuật số toàn cầu",
           paragraphs: [
-            "Các sản phẩm hữu hình như con dấu khắc tên sẽ được thông báo riêng về giá theo từng sản phẩm, phí vận chuyển và thời gian sản xuất.",
+            "Báo cáo PDF tổng hợp tên Hàn Quốc (bao gồm nghệ thuật tên, giải thích ý nghĩa và tham khảo bát tự ngũ hành của toàn bộ ứng viên được đề xuất): US$9.99",
+            "PDF nghệ thuật chuyển đổi phát âm Hàn Quốc (nghệ thuật tên với phông chữ lựa chọn và hướng dẫn phát âm): US$2.99",
+            "Gói PDF nghệ thuật tên (cung cấp nghệ thuật cho một tên đã chọn theo từng phông chữ): US$1.99",
+            "Giá cả và số lượng phông chữ áp dụng sẽ theo giá trị được thông báo trên màn hình, và PDF có thể được tải xuống lại trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa. (Chức năng thanh toán đang được chuẩn bị).",
           ],
         },
         {
-          title: "Thông báo trước khi thanh toán chính thức",
+          title: "Hàng hóa tên Hàn Quốc",
           paragraphs: [
-            "Khi việc thẩm định cổng thanh toán (PG), đăng ký kinh doanh bán hàng qua mạng và các điều kiện hợp tác sản xuất được xác định, số tiền thanh toán thực tế, phí vận chuyển, thời gian sản xuất và điều kiện hoàn tiền sẽ được thông báo lại trên màn hình từng sản phẩm.",
+            "Con dấu tên: Trong nước 39,000 won · Quốc tế US$34.99 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
+          ],
+        },
+        {
+          title: "Hướng dẫn trước khi thanh toán chính thức",
+          paragraphs: [
+            "Khi điều kiện hợp tác sản xuất, đăng ký kinh doanh thương mại điện tử và thẩm định PG được xác nhận, số tiền thanh toán thực tế, phí vận chuyển, thời gian sản xuất và điều kiện hoàn tiền sẽ được thông báo lại trên màn hình sản phẩm.",
           ],
         },
       ],

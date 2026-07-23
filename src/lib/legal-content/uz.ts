@@ -15,54 +15,57 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Xizmatning mohiyati",
+          title: "1. Xizmatning tabiati",
           paragraphs: [
-            "Naming-Link — sun'iy intellekt (AI) asosidagi nomlash studiyasi bo‘lib, quyidagi to‘rt xizmatni taqdim etadi: ① Hangul (koreys) yozuvidagi ismga mos Hanja (xitoy ierogliflari) ma'nolarini moslashtirish; ② koreyscha ismni xalqaro (global) ismga aylantirish; ③ chet el ismini koreyscha ismga aylantirish; ④ xalqaro ismni talaffuziga ko‘ra Hangul yozuvida ifodalash.",
-            "Natijalar ism tanlash va talqin qilishga yordam beruvchi ma'lumotnoma hisoblanadi hamda oilaviy holat reyestri, pasport, viza, tovar belgisi, huquqiy hujjatlar kabi rasmiy ro‘yxatdan o‘tkazish imkoniyatini kafolatlamaydi.",
+            "Naming-Link AI asosidagi nom berish studiyasi bo'lib, quyidagi to'rt xizmatni taqdim etadi: ① Koreyscha nomga mos keladigan Xitoycha ma'no moslashuvi ② Koreyscha nomni global nomga aylantirish ③ Chet el nomini Koreyscha nomga aylantirish ④ Global nomni talaffuzga ko'ra Koreyscha yozish.",
+            "Natijalar nom berish va talqin qilishda yordam beruvchi ma'lumotlar bo'lib, oilaviy munosabatlar ro'yxati, pasport, viza, brend, huquqiy hujjatlar kabi rasmiy ro'yxatga olish imkoniyatini kafolatlamaydi.",
           ],
         },
         {
-          title: "2. A'zolar va mehmon foydalanuvchilar",
+          title: "2. A'zo va a'zo bo'lmagan foydalanuvchilar",
           paragraphs: [
-            "Ism tahlili va reklama evaziga nomzodlarni ko‘rish xizmatidan a'zo bo‘lmagan foydalanuvchilar ham foydalanishi mumkin. Ro‘yxatdan o‘tish yoki tizimga kirish faqat esdalik buyumlariga buyurtma berish va buyurtmalar tarixini ko‘rish kabi hisob talab qilinadigan funksiyalarda so‘ralishi mumkin.",
+            "Nom tahlili va reklama mukofoti asosidagi nomlar ko'rinishi a'zo bo'lmagan foydalanuvchilar tomonidan ham foydalanilishi mumkin. A'zolik yoki kirish faqat mahsulot buyurtma qilish va buyurtma tarixini tekshirish kabi hisob qaydnomasi talab qilinadigan funksiyalar uchun so'ralishi mumkin.",
           ],
         },
         {
-          title: "3. AI natijalari va tekshirish mas'uliyati",
+          title: "3. AI natijalari va ko'rib chiqish mas'uliyati",
           paragraphs: [
-            "AI tavsiyalari lingvistik, madaniy va an'anaviy ma'lumotlarni o‘z ichiga oladi. Foydalanuvchi yakuniy ismni tanlashdan oldin tegishli idoralar, mutaxassislar, mahalliy foydalanuvchilar hamda huquqiy va tovar belgisi tekshiruvi orqali ismning mosligini tasdiqlashi lozim.",
+            "AI tavsiya natijalari til, madaniyat va an'anaviy ma'lumotlarni o'z ichiga oladi. Foydalanuvchilar oxirgi nomni tanlashdan oldin tegishli tashkilotlar, mutaxassislar, mahalliy foydalanuvchilar, huquqiy va brend ko'rib chiqishlari orqali mosligini tasdiqlashlari kerak.",
           ],
         },
         {
           title: "4. Pullik xizmatlar",
           paragraphs: [
-            "Hanja ma'nosini moslashtirish xizmatining batafsil mahsulotlari quyidagilardan iborat: ① 5 tagacha nomzod uchun batafsil izoh va Hanja bo‘yicha umumiy batafsil tahlil: ₩2,900 (KRW); ② 10 tagacha nomzod uchun kengaytirilgan batafsil izoh, Hanja bo‘yicha umumiy batafsil tahlil va esdalik uchun PDF: ₩4,900; ③ 10 tagacha nomzod uchun batafsil tahlil, Hanja bo‘yicha umumiy batafsil tahlil, Saju (To‘rt ustun) va Besh unsur tahlili hamda esdalik uchun PDF: ₩9,900.",
-            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochib beruvchi mahsulot (US$1.99) taklif etilishi mumkin. To‘lov funksiyasi ishga tushirilgunga qadar faqat reklama evaziga ko‘rish taqdim etiladi.",
-            "Pullik batafsil hisobotlar, tahlil natijalari va PDF fayllarni to‘lov yakunlangandan so‘ng 24 soat davomida qayta ko‘rish va yuklab olish mumkin; saqlash muddati tugagach, ular avtomatik o‘chiriladi.",
-            "Koreyscha ism tushirilgan esdalik buyumlari kabi jismoniy mahsulotlar alohida narx va shartlarda taklif etilishi mumkin. Barcha pullik mahsulotlar bo‘yicha mahsulot mazmuni, narxi, taqdim etish usuli va pulni qaytarish shartlari to‘lovdan oldin ekranda e'lon qilinadi.",
+            "Xitoycha ma'no moslashuvi xizmatining batafsil mahsulotlari quyidagilardir: ① nomlar uchun maksimal 5 ta batafsil tavsif va Xitoycha umumiy batafsil: 2,900 won ② nomlar uchun maksimal 10 ta kengaytirilgan batafsil tavsif, Xitoycha umumiy batafsil va saqlash uchun PDF: 4,900 won ③ nomlar uchun maksimal 10 ta batafsil, Xitoycha umumiy batafsil, saju va besh element tahlili va saqlash uchun PDF: 9,900 won.",
+            "Global nomni aylantirish, Koreyscha nomni aylantirish, Koreyscha talaffuz yozish xizmatlarida qolgan nomlarning barchasini reklamasiz bir marta ochiq ko'rsatadigan mahsulot (ichki to'lov 990 won, xorijiy to'lov US$1.99) taqdim etilishi mumkin. To'lov funksiyasi faollashtirilgunga qadar faqat reklama mukofoti asosidagi ko'rinish taqdim etiladi.",
+            "Global foydalanuvchilar uchun raqamli mahsulot sifatida ④ Koreyscha nomlar bo'yicha umumiy hisobot PDF (US$9.99): tavsiya etilgan nomlarning barchasining tanlangan shrift nomi san'ati, ma'no talqini, besh element tahlili ⑤ Koreyscha talaffuz o'tkazish san'ati PDF (US$2.99): tanlangan shrift nomi san'ati va talaffuz ko'rsatmasi ⑥ Nom san'ati to'plami PDF (US$1.99): tanlangan nomni bir xil shrift bo'yicha san'at sifatida taqdim etish. Har bir mahsulotning narxi va qo'llaniladigan shriftlar soni ekranda ko'rsatilgan qiymatlarga muvofiq bo'ladi.",
+            "Pullik batafsil hisobotlar va tahlil natijalari, PDF fayllari to'lov amalga oshirilgandan so'ng 24 soat davomida qayta ko'rish va yuklab olish mumkin, saqlash muddati o'tgach avtomatik ravishda o'chiriladi.",
+            "Nom muhrlari kabi jismoniy mahsulotlar ichki 39,000 won, xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan) kabi mahsulotlar bo'yicha narx va shartlar bilan taqdim etiladi. Barcha pullik mahsulotlar to'lovdan oldin mahsulot mazmuni, narxi, taqdimot usuli, qaytarish shartlari ekranda ko'rsatiladi.",
           ],
         },
         {
-          title: "5. Reklama evaziga taqdim etiladigan xizmatlar",
+          title: "5. Reklama mukofoti asosidagi xizmatlar",
           paragraphs: [
-            "Reklama tomosha qilish orqali nomzodlarni ochish faqat reklama provayderi tomonidan mukofot to‘g‘ri tasdiqlangan taqdirda qo‘llaniladi. Avtomatlashtirilgan reklama ijrosi, mukofotni soxtalashtirish va g‘ayritabiiy takroriy so‘rovlar cheklanishi mumkin.",
+            "Reklama ko'rish orqali nomlarni qulflashni ochish faqat reklama taqdimotchisi tomonidan normal mukofot tasdiqlanganda qo'llaniladi. Avtomatlashtirilgan reklama qayta ijro etish, mukofot manipulyatsiyasi, noaniq takroriy so'rovlar cheklanishi mumkin.",
           ],
         },
         {
-          title: "6. Taqiqlangan harakatlar",
+          title: "6. Ta'qiqlangan harakatlar",
           paragraphs: [
-            "Boshqa shaxsning shaxsiy ma'lumotlarini ruxsatsiz kiritish, kamsitish, nafrat uyg‘otish yoki o‘zini boshqa shaxs qilib ko‘rsatish maqsadida ism yaratish, avtomatlashtirilgan ortiqcha so‘rovlar yuborish, xizmat ishlashiga xalal berish hamda natijalarni yolg‘on ravishda rasmiy tasdiqlangan deb ko‘rsatish taqiqlanadi.",
+            "Boshqalarning shaxsiy ma'lumotlarini ruxsatsiz kiritish, kamsitish, nafrat, o'zini o'zi tanitish maqsadida nomlar yaratish, avtomatlashtirilgan ortiqcha so'rovlar, xizmatni buzish, natijalarni yolg'on rasmiy tasdiqlash taqiqlanadi.",
           ],
         },
         {
-          title: "7. Javobgarlikni cheklash",
+          title: "7. Mas'uliyatni cheklash",
           paragraphs: [
-            "Qasddan yoki qo‘pol ehtiyotsizlik holatlari bundan mustasno, kompaniya AI tavsiyalaridan foydalanish natijasida yuzaga kelgan bilvosita zararlar, kutilgan foydaning yo‘qotilishi, rasmiy ro‘yxatdan o‘tkazishning rad etilishi yoki uchinchi shaxslar bilan nizolar uchun javobgar bo‘lmaydi.",
+            "Kompaniya, qasddan yoki jiddiy xatolar bo'lmasa, AI tavsiya natijalaridan foydalanish natijasida yuzaga kelgan bilvosita zararlar, kutgan foyda yo'qotilishi, rasmiy ro'yxatga olishni rad etish, uchinchi tomon nizolari uchun mas'uliyatni o'z zimmasiga olmaydi.",
           ],
         },
         {
-          title: "8. Aloqa",
-          paragraphs: [`Xizmat bo‘yicha murojaatlar: ${companyInfo.email}`],
+          title: "8. Murojaat",
+          paragraphs: [
+            "Xizmat bo'yicha murojaat: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Qayta ishlanadigan shaxsiy ma'lumotlar",
+          title: "1. Shaxsiy ma'lumotlarni qayta ishlash bo'yicha ma'lumotlar",
           paragraphs: [
-            "Mehmon sifatida ism xizmatlaridan foydalanilganda ism, tug‘ilgan sana va vaqt, mamlakat, til, foydalanish maqsadi hamda talaffuz bo‘yicha ko‘rsatmalar tahlil natijalarini yaratish jarayonida vaqtincha qayta ishlanadi, biroq kiritilgan ma'lumotlar va yaratilgan natijalar xizmat ma'lumotlar bazasida saqlanmaydi.",
-            "Pullik batafsil hisobot uchun to‘lov amalga oshirilganda buyurtma identifikatsiya ma'lumotlari, to‘lov holati hamda hisobotni yaratish uchun zarur kiritilgan ma'lumotlar va tahlil natijalari saqlash muddati (to‘lovdan keyin 24 soat) davomida qayta ishlanadi. Karta raqami kabi to‘lov vositasi ma'lumotlari to‘lov operatori tomonidan bevosita qayta ishlanadi va kompaniya ularni saqlamaydi.",
-            "Faqat esdalik buyumlariga buyurtma berish funksiyasidan foydalanilganda buyurtmachining ismi, elektron pochtasi, telefon raqami, yetkazib berish manzili, to‘lov holati va buyurtmani qayta ishlash ma'lumotlari qo‘shimcha ravishda qayta ishlanishi mumkin.",
-            "Xizmat barqarorligi va suiiste'molning oldini olish maqsadida har kuni o‘zgarib turadigan identifikatsiyalab bo‘lmaydigan tashrif buyuruvchi xeshi, so‘rov vaqti, xizmat turi, bepul foydalanishlar soni, AI tokenlari, javob vaqti, qayta ishlash holati hamda reklama ko‘rsatilishi va mukofot hodisalari minimal operatsion jurnallar sifatida qayta ishlanishi mumkin.",
+            "A'zolik bo'lmagan foydalanuvchilar ism xizmatidan foydalanganda ism, tug'ilgan sana, tug'ilgan vaqt, mamlakat, til, foydalanish maqsadi va talaffuz ko'rsatmalari tahlil natijalari jarayonida vaqtincha qayta ishlanadi, ammo kiritilgan ma'lumotlar va natijalar xizmat ma'lumotlar bazasida saqlanmaydi.",
+            "A'zolik ro'yxatdan o'tish va kirish jarayonida elektron pochta manzili va kirish tarixi (tasdiq tarixi) qayta ishlanadi.",
+            "Pullik batafsil hisobot uchun to'lov amalga oshirilganda buyurtma identifikatsiya ma'lumotlari, to'lov holati va hisobotni yaratish uchun zarur bo'lgan kiritish va tahlil natijalari saqlash muddati (to'lovdan keyin 24 soat) davomida qayta ishlanadi. Kartochka raqami kabi to'lov vositalari ma'lumotlari to'lov xizmat ko'rsatuvchisi tomonidan bevosita qayta ishlanadi va kompaniya buni saqlamaydi.",
+            "Tovar buyurtma funksiyasidan faqat buyurtmachining ismi, elektron pochta, aloqa ma'lumotlari, yetkazib berish manzili, to'lov holati va buyurtma qayta ishlash ma'lumotlari qo'shimcha ravishda qayta ishlanishi mumkin.",
+            "Xizmat barqarorligini ta'minlash va suiiste'molni oldini olish maqsadida kunlik o'zgaradigan shaxsiylashtirilmagan tashrif buyuruvchilar hash, so'rov vaqti, xizmat turi, bepul foydalanish soni, AI tokenlari, javob vaqti, qayta ishlash holati va reklama ko'rsatish, mukofot tadbirlari minimal operatsion jurnal sifatida qayta ishlanishi mumkin.",
           ],
         },
         {
-          title: "2. Shaxsiy ma'lumotlarni qayta ishlash maqsadlari",
+          title: "2. Shaxsiy ma'lumotlarni qayta ishlash maqsadi",
           paragraphs: [
-            "Shaxsiy ma'lumotlar kiritilgan ma'lumotlar asosida ism tavsiya qilish, talaffuz tahlili, mamlakatlar bo‘yicha til va madaniy muhit tahlili, bepul foydalanish miqdorini cheklash, reklama mukofotini tasdiqlash, mijozlar murojaatlariga javob berish, to‘lov va yetkazib berishni amalga oshirish hamda insofsiz foydalanishning oldini olish maqsadida qayta ishlanadi.",
+            "Kiritilgan qiymatlar asosida ism tavsiyalari, talaffuz tahlili, mamlakatlarga qarab til va madaniyat tahlili, bepul foydalanish chegaralari, reklama mukofotlarini tasdiqlash, mijozlar so'rovlariga javob berish, to'lov va yetkazib berish jarayonlarini amalga oshirish, suiiste'molni oldini olish maqsadida shaxsiy ma'lumotlar qayta ishlanadi.",
           ],
         },
         {
-          title: "3. Saqlash va yo‘q qilish",
+          title: "3. Saqlash va yo'q qilish",
           paragraphs: [
-            "Tahlil uchun kiritilgan ma'lumotlar va natijalar faqat tizimga kirgan a'zo natijalarni saqlashni aniq tanlagan taqdirdagina uning hisobida saqlanadi hamda a'zo ularni o‘chirganda yoki saqlash maqsadi tugaganda yo‘q qilinadi. Mehmonlarning hamda saqlashni tanlamagan a'zolarning kiritgan ma'lumotlari va natijalari saqlanmaydi.",
-            "Pullik batafsil hisobotning kiritilgan ma'lumotlari, tahlil natijalari va PDF fayllari to‘lov yakunlangandan 24 soat o‘tgach avtomatik o‘chiriladi. To‘lov va buyurtma bo‘yicha bitim yozuvlari tegishli qonunchilikda belgilangan qonuniy saqlash muddatlariga muvofiq alohida saqlanadi.",
-            "Yetkazib berish tafsilotlari buyurtmani qayta ishlash, qaytarish va nizolarni hal qilish uchun zarur muddat o‘tgach yo‘q qilinadi yoki identifikatsiyalab bo‘lmaydigan holga keltiriladi.",
+            "Tahlil kiritish va natijalar faqat kirgan a'zo natijalarni saqlashni aniq tanlagan taqdirda hisobga saqlanadi, a'zo o'chirgan yoki saqlash maqsadi tugagandan so'ng yo'q qilinadi. A'zolik bo'lmagan foydalanuvchilar va saqlashni tanlamagan a'zolarning kiritish va natijalari saqlanmaydi.",
+            "Pullik batafsil hisobotning kiritish, tahlil natijalari va PDF fayli to'lov amalga oshirilgandan so'ng 24 soatdan keyin avtomatik ravishda o'chiriladi. To'lov va buyurtma tranzaksiya yozuvlari tegishli qonun hujjatlarining qonuniy saqlash muddati bo'yicha alohida saqlanadi.",
+            "Yetkazib berish tafsilotlari buyurtma qayta ishlash va qaytarish, nizolarni hal qilish uchun zarur bo'lgan muddat o'tgach yo'q qilinadi yoki shaxsiylashtirilmaydi.",
           ],
         },
         {
-          title: "4. Uchinchi shaxslarga taqdim etish va qayta ishlashni topshirish",
+          title: "4. Uchinchi tomonlarga taqdim etish va qayta ishlashni topshirish",
           paragraphs: [
-            "Xizmatni yuritish maqsadida zarur ma'lumotlar Supabase (ma'lumotlar bazasi va autentifikatsiya), Vercel (hosting), OpenAI API (AI tahlili), reklama tarmoqlari, to‘lov operatori (PortOne) hamda yetkazib berish va ishlab chiqarish bo‘yicha hamkorlar tomonidan qayta ishlanishi yoki ularga topshirilishi mumkin.",
+            "Xizmatni boshqarish uchun Supabase (ma'lumotlar bazasi, tasdiqlash), Vercel (hosting), OpenAI API (AI tahlili), reklama tarmog'i, to'lov xizmat ko'rsatuvchisi (PortOne), yetkazib berish va ishlab chiqarish hamkorlariga zarur bo'lgan ma'lumotlar qayta ishlanishi yoki topshirilishi mumkin.",
           ],
         },
         {
-          title: "5. Xorijga uzatish ehtimoli",
+          title: "5. Shaxsiy ma'lumotlarni xorijga o'tkazish",
           paragraphs: [
-            "Bulutli hosting, autentifikatsiya, AI API, reklama, elektron pochta yuborish kabi ayrim jarayonlarda shaxsiy ma'lumotlar xorijdagi serverlarda qayta ishlanishi mumkin. Uzatiladigan mamlakatlar, qayta ishlovchilar, maqsadlar va saqlash muddatlari xizmat provayderlari uzil-kesil belgilangach batafsil e'lon qilinadi.",
+            "Kompaniya xizmat ko'rsatish maqsadida quyidagi tarzda shaxsiy ma'lumotlarni xorijga o'tkazadi (qayta ishlashni topshirish). O'tkazish axborot-kommunikatsiya tarmog'i orqali amalga oshiriladi.",
+            "① OpenAI, L.L.C. (AQSh) — o'tkaziladigan ma'lumotlar: ism, tug'ilgan sana, tug'ilgan vaqt, jins, mamlakat, til va boshqalar — o'tkazish maqsadi: AI asosidagi ism, talaffuz, ma'no tahlili — saqlash va foydalanish muddati: xizmat ko'rsatish muddati (kiritilgan ma'lumotlar OpenAI siyosati bo'yicha model o'qitish uchun ishlatilmaydi va suiiste'molni monitoring qilish maqsadida maksimal 30 kun saqlanadi).",
+            "② Supabase, Inc. (AQSh) — o'tkaziladigan ma'lumotlar: buyurtma va to'lov holati ma'lumotlari, a'zo elektron pochta manzili, pullik hisobot kiritish va natijalari (to'lovdan keyin 24 soat), tovar buyurtma qilinganda buyurtmachining ismi, aloqa ma'lumotlari, yetkazib berish manzili — o'tkazish maqsadi: ma'lumotlar bazasi, tasdiqlash, saqlash — saqlash va foydalanish muddati: xizmat ko'rsatish muddati yoki har bir elementning saqlash muddati.",
+            "③ Vercel, Inc. (AQSh) — o'tkaziladigan ma'lumotlar: xizmatdan foydalanish jarayonida uzatiladigan ulanish va so'rov ma'lumotlari — o'tkazish maqsadi: ilova hostingi — saqlash va foydalanish muddati: xizmat ko'rsatish muddati.",
+            "Foydalanuvchilar shaxsiy ma'lumotlarni xorijga o'tkazishga rozilik berishni rad etishlari mumkin, ammo ushbu jarayon xizmat ko'rsatish uchun zarur bo'lganligi sababli, rad etish xizmatdan foydalanishni cheklashi mumkin.",
           ],
         },
         {
-          title: "6. Foydalanuvchi huquqlari",
+          title: "6. Foydalanuvchilarning huquqlari",
           paragraphs: [
-            "Foydalanuvchi o‘z shaxsiy ma'lumotlari bilan tanishish, ularni tuzatish, o‘chirish, qayta ishlashni to‘xtatib turish va rozilikni qaytarib olishni so‘rashi mumkin. So‘rovlar mijozlarga xizmat ko‘rsatish elektron pochtasi orqali qabul qilinadi va shaxs tasdiqlangach ko‘rib chiqiladi.",
+            "Foydalanuvchilar shaxsiy ma'lumotlarni ko'rish, tuzatish, o'chirish, qayta ishlashni to'xtatish, rozilikni bekor qilishni so'rashlari mumkin. So'rovlar mijozlar markazining elektron pochta manziliga qabul qilinadi va shaxsni tasdiqlashdan so'ng amalga oshiriladi.",
           ],
         },
         {
-          title: "7. Shaxsiy ma'lumotlarni himoya qilish bo‘yicha mas'ul shaxs",
+          title: "7. Shaxsiy ma'lumotlarni himoya qilish bo'yicha mas'ul shaxs",
           paragraphs: [
-            `Mas'ul shaxs: ${companyInfo.privacyOfficer}`,
-            `Elektron pochta: ${companyInfo.email}`,
+            "Mas'ul shaxs: Kvak Unha",
+            "Elektron pochta: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Umumiy tamoyillar",
+          title: "1. Umumiy printsiplar",
           paragraphs: [
-            "To‘lov funksiyasi ishga tushirilgach, har bir mahsulotning taqdim etish usuli, ishlab chiqarish boshlangan vaqti va yuklab olinganligiga qarab pulni qaytarish doirasi turlicha bo‘lishi mumkin. Aniq shartlar to‘lovdan oldin mahsulot ekranida e'lon qilinadi.",
+            "To'lov funksiyasi faollashtirilgandan so'ng, har bir mahsulotning taqdim etilish usuli, ishlab chiqarishni boshlash vaqti, yuklab olish imkoniyatiga qarab, qaytarish mumkin bo'lgan doira o'zgarishi mumkin. Aniq shartlar to'lovdan oldin mahsulot ekranida e'lon qilinadi.",
           ],
         },
         {
-          title: "2. Hanja batafsil hisobotlari (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Xitoycha batafsil hisobot (2,900 won · 4,900 won · 9,900 won)",
           paragraphs: [
-            "To‘lovdan so‘ng AI batafsil tahlilini yaratish boshlangunga qadar buyurtmani bekor qilish mumkin. Tahlil yaratilib, uni ko‘rish yoki yuklab olish imkoni paydo bo‘lgach, shunchaki fikrdan qaytish sababli pulni qaytarish cheklanishi mumkin.",
-            "Mazmundagi xatolik, tizim nosozligi tufayli yaratishning muvaffaqiyatsiz yakunlanishi yoki to‘lov summasining mos kelmasligi aniqlansa, hisobot qayta taqdim etiladi yoki pul qaytariladi. Saqlash muddati (to‘lovdan keyin 24 soat) tugashi sababli yuklab olish imkonining yopilishi pulni qaytarish uchun asos hisoblanmaydi.",
+            "To'lovdan so'ng AI batafsil tahlil yaratish boshlanmaguncha bekor qilish mumkin. Tahlil yaratish tugagach va ko'rish yoki yuklab olish mumkin bo'lgach, oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin.",
+            "Mazmun xatosi, tizim nosozligi sababli yaratish muvaffaqiyatsizligi, to'lov summasi mos kelmasligi aniqlangan taqdirda qayta berish yoki qaytarish bilan hal qilinadi. Saqlash muddati (to'lovdan keyin 24 soat) o'tgan taqdirda yuklab olish tugatilgan bo'lsa, bu qaytarish sababi hisoblanmaydi.",
           ],
         },
         {
-          title: "3. Barcha nomzodlarni birdaniga ochish (US$1.99)",
+          title: "3. Nomzodlarning umumiy ochilishi (ichki 990 won · xorijiy US$1.99)",
           paragraphs: [
-            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida nomzodlarni birdaniga ochish — to‘lov amalga oshirilishi bilanoq taqdim etiladigan raqamli kontent. Nomzodlarni ko‘rish boshlangunga qadar bekor qilish mumkin; ko‘rish boshlangandan so‘ng shunchaki fikrdan qaytish sababli pulni qaytarish cheklanishi mumkin.",
-            "Tizim xatosi tufayli nomzodlar to‘g‘ri ochilmagan bo‘lsa, ular qayta taqdim etiladi yoki pul qaytariladi.",
+            "Global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuzini yozish xizmatining nomzodlarning umumiy ochilishi to'lov darhol taqdim etiladigan raqamli kontentdir. Nomzodlarni ko'rish boshlanmaguncha bekor qilish mumkin, ko'rishdan so'ng oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin.",
+            "Tizim xatosi sababli nomzodlar normal ravishda ochilmagan taqdirda qayta taqdim etish yoki qaytarish bilan hal qilinadi.",
           ],
         },
         {
-          title: "4. Buyurtma asosida tayyorlanadigan esdalik buyumlari",
+          title: "4. Global raqamli PDF mahsulotlari (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Shaxsiy buyurtma asosida tayyorlanadigan mahsulotlarni ishlab chiqarish boshlangunga qadar bekor qilish mumkin. Ishlab chiqarish boshlangach, shunchaki fikrdan qaytish sababli pulni qaytarish cheklanishi mumkin; imlo xatosi, shikastlanish, noto‘g‘ri tayyorlanish yoki yetkazib berishdagi muammolar tekshirilgach, almashtirish, qayta tayyorlash yoki pulni qaytarish usullaridan mosi bilan hal qilinadi.",
+            "Koreys nomi bo'yicha umumiy hisobot (US$9.99), Koreys talaffuzini o'zgartirish san'ati (US$2.99), nom san'ati to'plami (US$1.99) to'lovdan so'ng yaratiladigan raqamli kontentdir. PDF yaratish boshlanmaguncha bekor qilish mumkin, yaratish tugagach va yuklab olish mumkin bo'lgach, oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin.",
+            "Yaratish muvaffaqiyatsizligi, mazmun xatosi, to'lov summasi mos kelmasligi aniqlangan taqdirda qayta berish yoki qaytarish bilan hal qilinadi. Saqlash muddati (to'lovdan keyin 24 soat) o'tgan taqdirda yuklab olish tugatilgan bo'lsa, bu qaytarish sababi hisoblanmaydi.",
           ],
         },
         {
-          title: "5. Reklama orqali ochish",
+          title: "5. Maxsus tayyorlangan mahsulotlar (nom muhrlari va boshqalar)",
           paragraphs: [
-            "Reklama tomosha qilish evaziga beriladigan imtiyozlar pullik mahsulot emas. Reklama tarmog‘idagi xatolik tufayli mukofot berilmagan bo‘lsa, masala xizmat ichida qayta urinish yoki mijozlarga xizmat ko‘rsatish markaziga murojaat qilish orqali hal qilinadi.",
+            "Nom muhrlari kabi shaxsiy maxsus tayyorlangan mahsulotlar (ichki 39,000 won · xorijiy US$34.99, xalqaro yetkazib berish xarajatlari kiritilgan) ishlab chiqarishni boshlashgacha bekor qilinishi mumkin. Ishlab chiqarishni boshlagandan so'ng, o'yin matni shaxsiylashtirilgan holda tasdiqlanadi, shuning uchun oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin, xatolar, buzilishlar, noto'g'ri ishlab chiqarish yoki yetkazib berish muammolari aniqlangandan so'ng almashtirish, qayta ishlab chiqarish yoki qaytarish orqali hal qilinadi.",
           ],
         },
         {
-          title: "6. Aloqa",
-          paragraphs: [`Pulni qaytarish bo‘yicha murojaatlar: ${companyInfo.email}`],
+          title: "5. Reklama asosidagi qulfni ochish",
+          paragraphs: [
+            "Reklama ko'rish orqali taqdim etiladigan imtiyozlar to'lov mahsuloti emas. Reklama tarmog'idagi xato sababli kompensatsiya berilmagan taqdirda, xizmat ichida qayta urinib ko'rish yoki mijozlar markaziga murojaat qilish orqali hal qilinadi.",
+          ],
+        },
+        {
+          title: "6. Murojaat",
+          paragraphs: [
+            "Qaytarish bo'yicha murojaat: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Asosiy tahlil (bepul)",
           paragraphs: [
-            "Hanja (xitoy ierogliflari) ma'nosini moslashtirish, xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi — to‘rtala xizmatning asosiy tahlili mehmon foydalanuvchilarga bepul taqdim etiladi va kunlik foydalanish cheklovi qo‘llanilishi mumkin.",
+            "Xanji ma'nosi moslashuvi, global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuz belgilash to'rt xil xizmatning asosiy tahlili a'zolarga bepul taqdim etiladi va kunlik foydalanish cheklovlari qo'llanilishi mumkin.",
           ],
         },
         {
-          title: "Reklama evaziga foydalanish",
+          title: "Reklama mukofotli foydalanish",
           paragraphs: [
-            "Reklama tomosha qilingandan so‘ng nomzodlarni ochish alohida to‘lovsiz taqdim etiladigan reklama asosidagi imtiyozdir. Har bir reklama uchun keyingi bitta nomzod ochiladi. Reklama zaxirasi, mamlakat, qurilma yoki reklama provayderi siyosatiga qarab foydalanish imkoniyati o‘zgarishi mumkin.",
+            "Reklama ko'rilgandan so'ng nomzodlarni ochish, qo'shimcha to'lovsiz taqdim etiladigan reklama turidagi imtiyozdir. Har bir reklama uchun keyingi nomzodlardan biri ochiladi. Reklama zaxirasi, mamlakat, qurilma yoki reklama ta'minotchisi siyosatiga qarab foydalanish imkoniyati o'zgarishi mumkin.",
           ],
         },
         {
-          title: "Hanja ma'nosini moslashtirish bo‘yicha batafsil mahsulotlar",
+          title: "Xanji ma'nosi moslashuvi batafsil mahsulot",
           paragraphs: [
-            "5 tagacha nomzod uchun batafsil izoh va Hanja bo‘yicha umumiy batafsil tahlil: ₩2,900",
-            "10 tagacha nomzod uchun kengaytirilgan batafsil izoh, Hanja bo‘yicha umumiy batafsil tahlil va esdalik uchun PDF: ₩4,900",
-            "10 tagacha nomzod uchun batafsil tahlil, Hanja bo‘yicha umumiy batafsil tahlil, Saju (To‘rt ustun) va Besh unsur tahlili hamda esdalik uchun PDF: ₩9,900",
-            "Pullik hisobotlar va PDF fayllarni to‘lovdan keyin 24 soat davomida qayta ko‘rish va yuklab olish mumkin; so‘ngra ular avtomatik o‘chiriladi.",
+            "Nomzod maksimal 5 ta batafsil tavsif va xanji umumiy batafsil: 2,900 won",
+            "Nomzod maksimal 10 ta kengaytirilgan batafsil tavsif, xanji umumiy batafsil va saqlash uchun PDF: 4,900 won",
+            "Nomzod maksimal 10 ta batafsil, xanji umumiy batafsil, saju·o'lar tahlili va saqlash uchun PDF: 9,900 won",
+            "Pullik hisobotlar va PDF to'lovdan so'ng 24 soat davomida qayta ko'rish va yuklab olish mumkin, keyin avtomatik ravishda o'chiriladi.",
           ],
         },
         {
-          title: "Barcha nomzodlarni birdaniga ochish",
+          title: "Nomzodlarni to'liq bir martada ochish",
           paragraphs: [
-            "Xalqaro ismga aylantirish, koreyscha ismga aylantirish va Hangul talaffuz yozuvi xizmatlarida qolgan barcha nomzodlarni reklamasiz bir vaqtning o‘zida ochish: US$1.99 (to‘lov funksiyasi tayyorlanmoqda)",
+            "Global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuz belgilash xizmatlarida qolgan nomzodlarni reklamasiz bir martada ochish: ichki to'lov 990 won, xorijiy to'lov US$1.99 (to'lov funksiyasi tayyorlanmoqda)",
           ],
         },
         {
-          title: "Koreyscha ism tushirilgan esdalik buyumlari",
+          title: "Global raqamli PDF mahsuloti",
           paragraphs: [
-            "Ism muhri kabi jismoniy esdalik buyumlari uchun har bir mahsulot narxi, yetkazib berish haqi va tayyorlash muddati alohida e'lon qilinadi.",
+            "Koreys nomi umumiy hisobot PDF (tavsiya etilgan nomlarning badiiy san'ati, ma'nosi izoh va o'lar tahliliga oid ma'lumotlar): US$9.99",
+            "Koreys talaffuz o'zgartirish san'ati PDF (tanlangan shrift nomi san'ati va talaffuz ko'rsatmalari): US$2.99",
+            "Nom san'ati to'plami PDF (tanlangan nom 1 ta shrift bo'yicha san'at sifatida taqdim etiladi): US$1.99",
+            "Narxlar va qo'llaniladigan shriftlar soni ekranda ko'rsatilgan qiymatlarga muvofiq bo'ladi, PDF to'lovdan so'ng 24 soat davomida qayta yuklab olish mumkin va keyin avtomatik ravishda o'chiriladi. (to'lov funksiyasi tayyorlanmoqda)",
           ],
         },
         {
-          title: "To‘lov to‘liq ishga tushirilishidan oldingi ma'lumot",
+          title: "Koreys nomi mahsulotlari",
           paragraphs: [
-            "To‘lov operatori (PG) tekshiruvi, masofaviy savdo faoliyatini ro‘yxatdan o‘tkazish va ishlab chiqarish bo‘yicha hamkorlik shartlari uzil-kesil belgilangach, haqiqiy to‘lov summasi, yetkazib berish haqi, tayyorlash muddati va pulni qaytarish shartlari mahsulot ekranlarida qayta e'lon qilinadi.",
+            "Nom muhr: ichki 39,000 won · xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan). Boshqa jismoniy mahsulotlar uchun narx, yetkazib berish xarajatlari va ishlab chiqarish muddati alohida ko'rsatiladi.",
+          ],
+        },
+        {
+          title: "Rasmiy to'lovdan oldin ma'lumot",
+          paragraphs: [
+            "PG tekshiruvi, aloqa savdo faoliyati haqida xabar berish, ishlab chiqarish hamkorlik shartlari tasdiqlangandan so'ng haqiqiy to'lov miqdori, yetkazib berish xarajatlari, ishlab chiqarish muddati, qaytarish shartlari mahsulot ekranida yana ko'rsatiladi.",
           ],
         },
       ],

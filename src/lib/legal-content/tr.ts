@@ -17,52 +17,55 @@ const content: LegalLocaleContent = {
         {
           title: "1. Hizmetin Niteliği",
           paragraphs: [
-            "Naming-Link, yapay zekâ destekli bir isim stüdyosu olarak şu dört hizmeti sunar: (1) Korece isimlere anlamlı Hanja (Çince karakterler) eşleştirme, (2) Korece isimleri küresel isimlere dönüştürme, (3) yabancı isimleri Korece isimlere dönüştürme ve (4) küresel isimleri telaffuzlarına göre Hangıl (Hangul) alfabesiyle yazma.",
-            "Sonuçlar, isim seçimine ve yorumlamaya yardımcı olmayı amaçlayan referans materyalidir; aile kütüğü, pasaport, vize, marka tescili veya hukuki belgeler gibi resmi kayıtlara uygunluğu garanti etmez.",
+            "Naming-Link, AI tabanlı bir isimlendirme stüdyosu olarak aşağıdaki dört hizmeti sunmaktadır. ① Korece isimlere uygun Hanja anlam eşleştirmesi ② Korece isimleri küresel isimlere dönüştürme ③ Yabancı isimleri Korece isimlere dönüştürme ④ Küresel isimleri telaffuzlarına göre Korece yazma.",
+            "Sonuçlar, isimlendirme ve yorumlama için yardımcı referans materyallerdir ve aile kayıtları, pasaport, vize, marka, hukuki belgeler gibi resmi kayıt olasılıklarını garanti etmez.",
           ],
         },
         {
-          title: "2. Üyeler ve Misafir Kullanıcılar",
+          title: "2. Üye ve Üye Olmayan Kullanım",
           paragraphs: [
-            "İsim analizi ve reklam ödüllü aday görüntüleme, üye olmayan kullanıcılar tarafından da kullanılabilir. Üyelik kaydı veya giriş, yalnızca hediyelik ürün siparişi ve sipariş geçmişini görüntüleme gibi hesap gerektiren özellikler için istenebilir.",
+            "İsim analizi ve reklam ödüllü aday görüntüleme, üye olmayanlar tarafından da kullanılabilir. Üyelik kaydı veya giriş, ürün siparişi ve sipariş geçmişi kontrolü gibi hesap gerektiren işlevlerde yalnızca talep edilebilir.",
           ],
         },
         {
-          title: "3. Yapay Zekâ Sonuçları ve İnceleme Sorumluluğu",
+          title: "3. AI Sonuçları ve İnceleme Sorumluluğu",
           paragraphs: [
-            "Yapay zekâ öneri sonuçları dilsel, kültürel ve geleneksel referanslar içerir. Kullanıcılar, nihai isim seçiminden önce ilgili kurumlar, uzmanlar, yerel konuşurlar ve hukuki veya marka incelemesi yoluyla ismin uygunluğunu doğrulamalıdır.",
+            "AI öneri sonuçları dilsel, kültürel ve geleneksel referanslar içermektedir. Kullanıcılar, nihai isim seçiminden önce ilgili kurumlar, uzmanlar, yerel kullanıcılar, hukuki ve marka incelemeleri aracılığıyla uygunluğu doğrulamalıdır.",
           ],
         },
         {
           title: "4. Ücretli Hizmetler",
           paragraphs: [
-            "Hanja anlam eşleştirme hizmetinin ayrıntılı ürünleri şunlardır: (1) En fazla 5 aday için ayrıntılı açıklama ve kapsamlı Hanja analizi: ₩2,900 (KRW); (2) en fazla 10 aday için genişletilmiş ayrıntılı açıklama, kapsamlı Hanja analizi ve saklanabilir PDF: ₩4,900; (3) en fazla 10 aday için ayrıntılı açıklama, kapsamlı Hanja analizi, Saju (Dört Sütun) ve Beş Element analizi ve saklanabilir PDF: ₩9,900.",
-            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde, kalan tüm adayları reklamsız olarak tek seferde açan bir ürün (US$1.99) sunulabilir. Ödeme özellikleri etkinleştirilene kadar yalnızca reklam ödüllü görüntüleme sağlanır.",
-            "Ücretli ayrıntılı raporlar, analiz sonuçları ve PDF dosyaları, ödemenin tamamlanmasından sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
-            "Korece isim hediyelik ürünleri gibi fiziksel ürünler ayrı fiyat ve koşullarla sunulabilir. Tüm ücretli ürünlerde ürün içeriği, fiyat, teslim yöntemi ve iade koşulları ödeme öncesinde ekranda bildirilir.",
+            "Hanja anlam eşleştirme hizmetinin detaylı ürünleri aşağıdaki gibidir. ① Aday maksimum 5 adet detaylı açıklama ve Hanja kapsamlı detay: 2,900₩ ② Aday maksimum 10 adet genişletilmiş detaylı açıklama, Hanja kapsamlı detay ve saklama amaçlı PDF: 4,900₩ ③ Aday maksimum 10 adet detay, Hanja kapsamlı detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: 9,900₩.",
+            "Küresel isim dönüştürme, Korece isim dönüştürme, Korece telaffuz yazım hizmetlerinde, kalan adayların tamamını reklamsız bir şekilde bir kerede sunan bir ürün (yurt içi ödeme 990₩, yurt dışı ödeme US$1.99) sağlanabilir. Ödeme işlevi aktif hale gelmeden önce yalnızca reklam ödüllü görüntüleme sunulmaktadır.",
+            "Küresel kullanıcılar için dijital ürün olarak ④ Korece isim kapsamlı rapor PDF (US$9.99): önerilen adayların tamamının seçilen yazı tipi isim sanatı, anlam açıklaması ve beş element doğum haritası referansı ⑤ Korece telaffuz dönüşüm sanatı PDF (US$2.99): seçilen yazı tipi isim sanatı ve telaffuz rehberi ⑥ İsim sanatı paketi PDF (US$1.99): seçilen bir ismi farklı yazı tipleriyle sunma. Her ürünün fiyatı ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir.",
+            "Ücretli detay raporları ve analiz sonuçları, PDF dosyaları ödeme tamamlandıktan sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
+            "İsim mührü gibi fiziksel ürünler, yurt içinde 39,000₩, yurt dışında US$34.99 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
           ],
         },
         {
           title: "5. Reklam Ödüllü Hizmetler",
           paragraphs: [
-            "Reklam izleyerek aday kilidini açma, yalnızca reklam sağlayıcısının geçerli ödül doğrulaması tamamlandığında uygulanır. Otomatikleştirilmiş reklam oynatma, ödül manipülasyonu ve olağan dışı tekrarlanan istekler kısıtlanabilir.",
+            "Reklam izleyerek adayların kilidini açma, yalnızca reklam sağlayıcısının normal ödül doğrulaması tamamlandığında geçerlidir. Otomatik reklam oynatma, ödül manipülasyonu, anormal tekrar talepleri kısıtlanabilir.",
           ],
         },
         {
-          title: "6. Yasak Davranışlar",
+          title: "6. Yasaklı Davranışlar",
           paragraphs: [
-            "Başkalarının kişisel verilerinin izinsiz girilmesi; ayrımcılık, nefret veya kimliğe bürünme amaçlı isim oluşturulması; otomatikleştirilmiş aşırı istekler; hizmetin aksamasına yol açılması ve sonuçların resmi olarak onaylanmış gibi yanlış biçimde sunulması yasaktır.",
+            "Başka birinin kişisel verilerini izinsiz girmek, ayrımcılık, nefret veya sahtecilik amacıyla isim oluşturmak, otomatik aşırı talepler yapmak, hizmet kesintisine neden olmak, sonuçların yanlış resmi onayını göstermek yasaktır.",
           ],
         },
         {
-          title: "7. Sorumluluğun Sınırlandırılması",
+          title: "7. Sorumluluk Sınırlaması",
           paragraphs: [
-            "Şirket, kast veya ağır ihmal bulunmadıkça, yapay zekâ öneri sonuçlarının kullanımından doğan dolaylı zararlardan, beklenen kâr kaybından, resmi kayıt başvurularının reddinden veya üçüncü taraflarla yaşanan uyuşmazlıklardan sorumlu değildir.",
+            "Şirket, kasıtlı veya ağır ihmal yoksa, AI öneri sonuçlarının kullanımından kaynaklanan dolaylı zararlar, beklenen kazanç kaybı, resmi kayıt reddi, üçüncü taraf anlaşmazlıkları için sorumluluk kabul etmez.",
           ],
         },
         {
           title: "8. İletişim",
-          paragraphs: [`Hizmetle ilgili sorular: ${companyInfo.email}`],
+          paragraphs: [
+            "Hizmet ile ilgili sorular: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -72,51 +75,56 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. İşlenen Kişisel Veri Kategorileri",
+          title: "1. İşlenen Kişisel Veriler",
           paragraphs: [
-            "İsim hizmetlerinin üye olmadan kullanılması sırasında isim, doğum tarihi, doğum saati, ülke, dil, kullanım amacı ve telaffuz ipuçları, analiz sonuçlarının oluşturulması sürecinde geçici olarak işlenir; ancak girilen bilgiler ve oluşturulan sonuçlar hizmet veritabanına kaydedilmez.",
-            "Ücretli ayrıntılı rapor satın alındığında; sipariş tanımlama bilgileri, ödeme durumu ile raporun oluşturulması için gereken girdiler ve analiz sonuçları, saklama süresi (ödemeden sonra 24 saat) boyunca işlenir. Kart numarası gibi ödeme aracı bilgileri doğrudan ödeme aracı kuruluşu tarafından işlenir; şirket bu bilgileri saklamaz.",
-            "Yalnızca hediyelik ürün sipariş özelliği kullanıldığında; sipariş verenin adı, e-posta adresi, telefon numarası, teslimat adresi, ödeme durumu ve sipariş işleme bilgileri ek olarak işlenebilir.",
-            "Hizmet kararlılığı ve kötüye kullanımın önlenmesi amacıyla; günlük olarak değişen kimliksizleştirilmiş ziyaretçi karma değeri (hash), istek zamanı, hizmet türü, ücretsiz kullanım sayısı, yapay zekâ token kullanımı, yanıt süresi, işlem durumu ile reklam gösterim ve ödül olayları asgari işletim günlükleri olarak işlenebilir.",
+            "Üye olmayanların isim hizmetini kullanması durumunda isim, doğum tarihi, doğum saati, ülke, dil, kullanım amacı ve telaffuz ipuçları analiz sonuçları oluşturma sürecinde geçici olarak işlenmektedir, ancak girilen veriler ve oluşturulan sonuçlar hizmet veri tabanında saklanmamaktadır.",
+            "Üyelik kaydı ve giriş sırasında e-posta adresi ve giriş kayıtları (kimlik doğrulama geçmişi) işlenmektedir.",
+            "Ücretli detay raporları ödenirken, sipariş tanımlama bilgileri, ödeme durumu ve rapor oluşturma için gerekli giriş ve analiz sonuçları saklama süresi (ödeme sonrası 24 saat) boyunca işlenmektedir. Kart numarası gibi ödeme aracı bilgileri, ödeme aracısı tarafından doğrudan işlenmekte olup, şirket bunları saklamamaktadır.",
+            "Ürün siparişi işlevi kullanıldığında yalnızca sipariş verenin adı, e-posta, iletişim bilgileri, teslimat adresi, ödeme durumu ve sipariş işleme bilgileri ek olarak işlenebilir.",
+            "Hizmetin istikrarı ve kötüye kullanımın önlenmesi amacıyla günlük olarak değişen kimliksiz ziyaretçi hash'i, istek zamanı, hizmet türü, ücretsiz kullanım sayısı, AI token'ları, yanıt süresi, işleme durumu ve reklam gösterimi ile ödül etkinlikleri minimum işletim kaydı olarak işlenebilir.",
           ],
         },
         {
           title: "2. Kişisel Verilerin İşlenme Amaçları",
           paragraphs: [
-            "Kişisel veriler; girdilere dayalı isim önerisi, telaffuz analizi, ülkeye göre dil ve kültür analizi, ücretsiz kullanım sınırlaması, reklam ödülü doğrulaması, müşteri sorularının yanıtlanması, ödeme ve teslimat işlemleri ile hizmetin kötüye kullanılmasının önlenmesi amaçlarıyla işlenir.",
+            "Girdi değerlerine dayalı isim önerileri, telaffuz analizi, ülkelere göre dil ve kültür analizi, ücretsiz kullanım miktarı sınırlaması, reklam ödül doğrulaması, müşteri taleplerine yanıt verme, ödeme ve teslimat işlemleri, kötüye kullanımın önlenmesi amacıyla kişisel veriler işlenmektedir.",
           ],
         },
         {
           title: "3. Saklama ve İmha",
           paragraphs: [
-            "Analiz girdileri ve sonuçları, yalnızca giriş yapmış bir üyenin sonuçları kaydetmeyi açıkça seçmesi hâlinde hesabında saklanır; üye bunları sildiğinde veya saklama amacı sona erdiğinde imha edilir. Üye olmayan kullanıcıların ve kaydetmeyi seçmeyen üyelerin girdileri ile sonuçları saklanmaz.",
-            "Ücretli ayrıntılı raporların girdileri, analiz sonuçları ve PDF dosyaları, ödemenin tamamlanmasından 24 saat sonra otomatik olarak silinir. Ödeme ve sipariş işlem kayıtları, ilgili mevzuatın öngördüğü yasal saklama sürelerine göre ayrıca saklanır.",
-            "Teslimat ayrıntıları; sipariş işleme, iade ve uyuşmazlık çözümü için gereken süre dolduğunda imha edilir veya kimliksizleştirilir.",
+            "Analiz girişi ve sonuçları, giriş yapan üyelerin sonuçları açıkça saklama seçeneğini seçtiği durumlarda yalnızca hesaplarında saklanır ve üye silme işlemi yaptığında veya saklama amacı sona erdiğinde imha edilir. Üye olmayanlar ve saklama seçeneğini seçmeyen üyelerin girdi ve sonuçları saklanmaz.",
+            "Ücretli detay raporlarının girdi, analiz sonuçları ve PDF dosyası, ödeme tamamlandıktan 24 saat sonra otomatik olarak silinir. Ödeme ve sipariş işlem kayıtları, ilgili mevzuatın yasal saklama süresine göre ayrı olarak saklanır.",
+            "Teslimat detay bilgileri, sipariş işleme ve iade/uyuşmazlık yanıtı için gerekli sürenin sona ermesinin ardından imha edilir veya kimliksiz hale getirilir.",
           ],
         },
         {
-          title: "4. Üçüncü Taraflara Aktarım ve İşleme Faaliyetinin Devri",
+          title: "4. Üçüncü Taraflara Sağlama ve İşleme Dışa Yükleme",
           paragraphs: [
-            "Hizmetin işletilmesi için gerekli bilgiler; Supabase (veritabanı ve kimlik doğrulama), Vercel (barındırma), OpenAI API (yapay zekâ analizi), reklam ağları, ödeme aracı kuruluşu (PortOne) ile teslimat ve üretim iş ortakları tarafından işlenebilir veya bunlara devredilebilir.",
+            "Hizmetin işletilmesi için Supabase (veritabanı, kimlik doğrulama), Vercel (barındırma), OpenAI API (AI analizi), reklam ağı, ödeme aracısı (PortOne), teslimat ve üretim ortaklarına gerekli bilgiler işlenebilir veya dışa yüklenebilir.",
           ],
         },
         {
-          title: "5. Yurt Dışına Aktarım Olasılığı",
+          title: "5. Kişisel Verilerin Yurt Dışına Aktarılması",
           paragraphs: [
-            "Bulut barındırma, kimlik doğrulama, yapay zekâ API çağrıları, reklamcılık ve e-posta gönderimi gibi bazı işleme süreçlerinde kişisel veriler yurt dışındaki sunucularda işlenebilir. Aktarım yapılan ülkeler, veri işleyenler, amaçlar ve saklama süreleri, hizmet sağlayıcılar kesinleştiğinde ayrıntılı olarak bildirilecektir.",
+            "Şirket, hizmet sağlamak amacıyla aşağıda belirtilen kişisel verileri yurt dışına aktarmaktadır (işleme dışa yükleme). Aktarım, bilgi iletişim ağı üzerinden yapılmaktadır.",
+            "① OpenAI, L.L.C. (ABD) — Aktarılan veriler: isim, doğum tarihi ve saati, cinsiyet, ülke, dil gibi analiz girdi değerleri — Aktarım amacı: AI tabanlı isim, telaffuz, anlam analizi — Saklama ve kullanım süresi: hizmet sağlama süresi (girdi verileri OpenAI politikası gereği model eğitimi için kullanılmaz ve kötüye kullanım izleme amacıyla en fazla 30 gün saklanır ve ardından silinir).",
+            "② Supabase, Inc. (ABD) — Aktarılan veriler: sipariş ve ödeme durumu bilgileri, üye e-posta adresi, ücretli rapor girdi ve sonuçları (ödeme sonrası 24 saat), ürün siparişi sırasında sipariş verenin adı, iletişim bilgileri, teslimat adresi — Aktarım amacı: veritabanı, kimlik doğrulama, saklama — Saklama ve kullanım süresi: hizmet sağlama süresi veya her bir öğenin saklama süresine kadar.",
+            "③ Vercel, Inc. (ABD) — Aktarılan veriler: hizmet kullanımı sırasında iletilen erişim ve istek bilgileri — Aktarım amacı: uygulama barındırma — Saklama ve kullanım süresi: hizmet sağlama süresi.",
+            "Kullanıcı, kişisel verilerin yurt dışına aktarılmasına ilişkin onayı reddedebilir, ancak bu işlemin hizmet sağlama açısından zorunlu olması nedeniyle reddedilmesi durumunda hizmet kullanımı kısıtlanabilir.",
           ],
         },
         {
-          title: "6. Kullanıcı Hakları",
+          title: "6. Kullanıcıların Hakları",
           paragraphs: [
-            "Kullanıcılar; kişisel verilerine erişim, bunların düzeltilmesi, silinmesi, işlenmesinin durdurulması ve verdikleri onayın geri alınmasını talep edebilir. Talepler müşteri hizmetleri e-posta adresi üzerinden alınır ve kimlik doğrulamasının ardından işleme konulur.",
+            "Kullanıcılar, kişisel verilere erişim, düzeltme, silme, işleme durdurma ve onay iptali talep edebilirler. Talepler, müşteri hizmetleri e-posta adresine iletilir ve kimlik doğrulama sonrası işlenir.",
           ],
         },
         {
-          title: "7. Kişisel Verilerin Korunması Sorumlusu",
+          title: "7. Kişisel Verilerin Korunmasından Sorumlu Kişi",
           paragraphs: [
-            `Sorumlu: ${companyInfo.privacyOfficer}`,
-            `E-posta: ${companyInfo.email}`,
+            "Sorumlu kişi: Kwak Eun-ha",
+            "E-posta: platforest.inc@gmail.com",
           ],
         },
       ],
@@ -128,40 +136,49 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "1. Genel İlkeler",
+          title: "1. Ortak İlkeler",
           paragraphs: [
-            "Ödeme özellikleri etkinleştirildiğinde; iade edilebilecek kapsam, her ürünün teslim yöntemine, üretime başlama zamanına ve indirme durumuna göre değişebilir. Ayrıntılı koşullar ödeme öncesinde ürün ekranında bildirilir.",
+            "Ödeme işlevi etkinleştirildiğinde, her ürünün sağlanma şekli, üretim başlangıç tarihi ve indirme durumu gibi faktörlere bağlı olarak iade edilebilirlik kapsamı değişiklik gösterebilir. Belirli koşullar, ödeme öncesi ürün ekranında bildirilecektir.",
           ],
         },
         {
-          title: "2. Ayrıntılı Hanja Raporları (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Hanja Detay Raporu (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
-            "Ödeme sonrasında, yapay zekâ ayrıntılı analiz oluşturma işlemi başlamadan önce iptal mümkündür. Analiz oluşturma tamamlanıp rapor görüntülenebilir veya indirilebilir hâle geldikten sonra, yalnızca fikir değişikliğine dayanan iadeler kısıtlanabilir.",
-            "İçerik hatası, sistem arızası nedeniyle oluşturma başarısızlığı veya ödeme tutarı uyuşmazlığı tespit edilirse, rapor yeniden düzenlenir veya ücret iade edilir. Saklama süresinin (ödemeden sonra 24 saat) dolması nedeniyle indirmenin sona ermesi iade sebebi sayılmaz.",
+            "Ödeme yapıldıktan sonra AI detay analizi oluşturulmadan önce iptal edilebilir. Analiz oluşturulduktan ve görüntüleme veya indirme mümkün hale geldikten sonra, basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
+            "İçerik hatası, sistem arızası nedeniyle oluşturma başarısızlığı veya ödeme tutarı uyuşmazlığı tespit edildiğinde, yeniden düzenleme veya iade işlemi yapılacaktır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona ererse, bu durum iade nedeni sayılmaz.",
           ],
         },
         {
-          title: "3. Tüm Adayların Tek Seferde Açılması (US$1.99)",
+          title: "3. Adayların Toplu Yayınlanması (Yerel ₩990 · Yurt Dışı US$1.99)",
           paragraphs: [
-            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde adayların topluca açılması, ödemenin hemen ardından sunulan dijital bir içeriktir. Aday görüntüleme başlamadan önce iptal mümkündür; görüntüleme başladıktan sonra yalnızca fikir değişikliğine dayanan iadeler kısıtlanabilir.",
-            "Adayların sistem hatası nedeniyle düzgün biçimde açılmaması hâlinde içerik yeniden sunulur veya ücret iade edilir.",
+            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterim hizmetinin adayların toplu yayınlanması, ödeme anında sağlanan dijital içeriktir. Adayların görüntülenmesine başlanmadan önce iptal edilebilir; görüntüleme sonrasında basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
+            "Sistem hatası nedeniyle adaylar normal şekilde yayınlanmadığında, yeniden sağlama veya iade işlemi yapılacaktır.",
           ],
         },
         {
-          title: "4. Kişiye Özel Üretilen Hediyelik Ürünler",
+          title: "4. Küresel Dijital PDF Ürünleri (US$9.99·US$2.99·US$1.99)",
           paragraphs: [
-            "Kişiye özel üretilen ürünler, üretime başlanana kadar iptal edilebilir. Üretime başlandıktan sonra yalnızca fikir değişikliğine dayanan iadeler kısıtlanabilir; yazım hatası, hasar, hatalı üretim veya teslimat sorunları, incelemenin ardından duruma uygun olarak değişim, yeniden üretim veya iade yoluyla çözülür.",
+            "Hangul isim kapsamlı raporu (US$9.99), Hangul telaffuz dönüşüm sanatı (US$2.99), isim sanatı paketi (US$1.99) ödeme sonrası oluşturulan dijital içeriklerdir. PDF oluşturulmadan önce iptal edilebilir; oluşturma tamamlandıktan ve indirme mümkün hale geldikten sonra basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
+            "Oluşturma başarısızlığı, içerik hatası veya ödeme tutarı uyuşmazlığı tespit edildiğinde, yeniden düzenleme veya iade işlemi yapılacaktır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona ererse, bu durum iade nedeni sayılmaz.",
           ],
         },
         {
-          title: "5. Reklam Yoluyla Kilit Açma",
+          title: "5. Özel Üretim Ürünler (İsim Mühürü vb.)",
           paragraphs: [
-            "Reklam izleme karşılığı sunulan avantajlar ücretli ürün değildir. Reklam ağı hatası nedeniyle ödülün verilmemesi hâlinde, hizmet içinde yeniden deneme yapılır veya müşteri hizmetlerine başvurularak çözülür.",
+            "İsim mühürü gibi kişiye özel üretilen ürünler (Yerel ₩39,000 · Yurt Dışı US$34.99, uluslararası kargo ücreti dahil) üretim başlangıcına kadar iptal edilebilir. Üretim başladıktan sonra, yazım metni kişiye özel olarak kesinleşeceğinden, basit fikir değişikliği nedeniyle iade kısıtlanabilir; yazım hatası, hasar, yanlış üretim veya teslimat sorunları tespit edildikten sonra uygun bir yöntemle değişim, yeniden üretim veya iade işlemi yapılacaktır.",
+          ],
+        },
+        {
+          title: "5. Reklam Tabanlı Kilit Açma",
+          paragraphs: [
+            "Reklam izleme avantajları, ödeme ürünü değildir. Reklam ağı hatası nedeniyle ödemenin yapılmadığı durumlarda, hizmet içinde yeniden deneme veya müşteri hizmetleri ile iletişim kurarak işlem yapılacaktır.",
           ],
         },
         {
           title: "6. İletişim",
-          paragraphs: [`İadeyle ilgili sorular: ${companyInfo.email}`],
+          paragraphs: [
+            "İade talepleri için: platforest.inc@gmail.com",
+          ],
         },
       ],
     },
@@ -174,40 +191,49 @@ const content: LegalLocaleContent = {
         {
           title: "Temel Analiz (Ücretsiz)",
           paragraphs: [
-            "Hanja (Çince karakterler) anlam eşleştirme, küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl (Hangul) telaffuz yazımı olmak üzere dört hizmetin temel analizi, üye olmayan kullanıcılara ücretsiz sunulur; günlük kullanım sınırları uygulanabilir.",
+            "Hanja anlam eşleştirme, küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi gibi dört hizmetin temel analizi, üye olmayan kullanıcılara ücretsiz olarak sunulmakta olup, günlük kullanım kısıtlamaları uygulanabilir.",
           ],
         },
         {
-          title: "Reklam Ödüllü Kullanım",
+          title: "Reklam Tabanlı Kullanım",
           paragraphs: [
-            "Reklam izledikten sonra aday kilidinin açılması, ek ödeme gerektirmeyen reklam tabanlı bir avantajdır. Her reklam izlemesi bir sonraki adayı açar. Kullanılabilirlik; reklam envanterine, ülkeye, cihaza veya reklam sağlayıcısının politikasına göre değişebilir.",
+            "Reklam izledikten sonra adayların kilidinin açılması, ek bir ödeme olmaksızın sunulan reklam tabanlı bir avantajdır. Her bir reklam için bir sonraki aday açılmaktadır. Reklam stoğu, ülke, cihaz veya reklam sağlayıcısının politikalarına bağlı olarak kullanılabilirlik değişiklik gösterebilir.",
           ],
         },
         {
-          title: "Hanja Anlam Eşleştirme Ayrıntılı Ürünleri",
+          title: "Hanja Anlam Eşleştirme Detaylı Ürün",
           paragraphs: [
-            "En fazla 5 aday için ayrıntılı açıklama ve kapsamlı Hanja analizi: ₩2,900 (KRW)",
-            "En fazla 10 aday için genişletilmiş ayrıntılı açıklama, kapsamlı Hanja analizi ve saklanabilir PDF: ₩4,900",
-            "En fazla 10 aday için ayrıntılı açıklama, kapsamlı Hanja analizi, Saju (Dört Sütun) ve Beş Element analizi ve saklanabilir PDF: ₩9,900",
-            "Ücretli raporlar ve PDF dosyaları, ödemeden sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; bu sürenin ardından otomatik olarak silinir.",
+            "Maksimum 5 aday için detaylı açıklama ve Hanja genel detay: 2,900₩",
+            "Maksimum 10 aday için genişletilmiş detaylı açıklama, Hanja genel detay ve saklama amaçlı PDF: 4,900₩",
+            "Maksimum 10 aday için detay, Hanja genel detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: 9,900₩",
+            "Ücretli raporlar ve PDF'ler, ödeme sonrasında 24 saat boyunca tekrar görüntülenebilir veya indirilebilir ve sonrasında otomatik olarak silinir.",
           ],
         },
         {
-          title: "Tüm Adayların Tek Seferde Açılması",
+          title: "Adayların Tam Toplu Açıklaması",
           paragraphs: [
-            "Küresel isim dönüştürme, Korece isim dönüştürme ve Hangıl telaffuz yazımı hizmetlerinde kalan tüm adayların reklamsız olarak tek seferde açılması: US$1.99 (ödeme özelliği hazırlık aşamasındadır)",
+            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi hizmetlerinde kalan tüm adayların reklam olmaksızın bir seferde açıklanması: Yerel ödeme 990₩, yurtdışı ödeme US$1.99 (ödeme işlevi hazırlanıyor)",
           ],
         },
         {
-          title: "Korece İsim Hediyelik Ürünleri",
+          title: "Küresel Dijital PDF Ürün",
           paragraphs: [
-            "İsim mührü gibi fiziksel hediyelik ürünlerin fiyatı, kargo ücreti ve üretim süresi her ürün için ayrıca bildirilir.",
+            "Hangul isim genel rapor PDF (önerilen adayların isim sanatı, anlam açıklaması, beş element doğum haritası referansı): US$9.99",
+            "Hangul telaffuz dönüşüm sanatı PDF (seçilen yazı tipi isim sanatı ve telaffuz rehberi): US$2.99",
+            "İsim sanatı paketi PDF (seçilen bir ismin belirlenen yazı tipine göre sanatı): US$1.99",
+            "Fiyatlar ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir ve PDF, ödeme sonrasında 24 saat boyunca tekrar indirilebilir ve sonrasında otomatik olarak silinir. (ödeme işlevi hazırlanıyor)",
+          ],
+        },
+        {
+          title: "Hangul İsim Ürünleri",
+          paragraphs: [
+            "İsim mührü: Yerel 39,000₩ · Yurtdışı US$34.99 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
           ],
         },
         {
           title: "Resmi Ödeme Öncesi Bilgilendirme",
           paragraphs: [
-            "Ödeme kuruluşu incelemesi, mesafeli satış işletmesi bildirimi ve üretim iş birliği koşulları kesinleştiğinde; gerçek ödeme tutarı, kargo ücreti, üretim süresi ve iade koşulları ürün ekranında yeniden bildirilecektir.",
+            "PG incelemesi, ticari satış kaydı, üretim ortaklık şartları kesinleştirildiğinde, gerçek ödeme tutarı, kargo ücreti, üretim süresi ve iade koşulları ürün ekranında tekrar bildirilecektir.",
           ],
         },
       ],
