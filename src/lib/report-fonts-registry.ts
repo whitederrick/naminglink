@@ -37,12 +37,13 @@ export type ReportFontRow = {
   stories: Record<string, string>;
   storage_path: string;
   file_sha256: string | null;
+  preview_path: string | null;
   enabled: boolean;
   sort_order: number;
 };
 
 const FONT_SELECT =
-  "id,code,name_ko,name_en,copyright_holder,license_type,source_url,story_ko,stories,storage_path,file_sha256,enabled,sort_order";
+  "id,code,name_ko,name_en,copyright_holder,license_type,source_url,story_ko,stories,storage_path,file_sha256,preview_path,enabled,sort_order";
 
 export async function listReportFonts(options?: { enabledOnly?: boolean }) {
   const supabase = getSupabaseAdminClient();

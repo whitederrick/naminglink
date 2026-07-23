@@ -32,27 +32,55 @@ async function main() {
       birthDay: "17",
       birthHour: "unknown",
     },
-    candidate: {
-      hangul: "김하늘",
-      pronunciation: "Kim Ha-neul",
-      meaning:
-        "'하늘' is a native Korean word meaning 'sky', evoking openness and honesty. '김' is the most common Korean family name.",
-      recommendation_reason:
-        "The soft two-syllable given name 하늘 keeps a gentle sound close to 'Emily' while feeling natural and modern in Korea.",
-      cultural_fit:
-        "하늘 is a beloved unisex native-Korean name, common among younger generations and easy for colleagues to call.",
-      usage_note: "Works well in workplaces and everyday introductions; no awkward homonyms.",
-    },
+    candidates: [
+      {
+        hangul: "김하늘",
+        pronunciation: "Kim Ha-neul",
+        meaning: "'하늘' is a native Korean word meaning 'sky', evoking openness and honesty.",
+        recommendation_reason:
+          "The soft two-syllable given name 하늘 keeps a gentle sound close to 'Emily'.",
+        cultural_fit: "하늘 is a beloved unisex native-Korean name among younger generations.",
+        usage_note: "Works well in workplaces and everyday introductions.",
+      },
+      {
+        hangul: "김에밀리",
+        pronunciation: "Kim Emily",
+        meaning: "A direct, friendly adaptation keeping the original given name.",
+        recommendation_reason: "Keeps your original name recognizable while adding a Korean surname.",
+        cultural_fit: "Immediately recognizable as an international name in Korea.",
+        usage_note: "Good for informal settings and nametags.",
+      },
+      {
+        hangul: "김은솔",
+        pronunciation: "Kim Eun-sol",
+        meaning: "'은' evokes grace; '솔' is the Korean word for pine, symbolizing steadiness.",
+        recommendation_reason: "Shares the soft 'e' opening of Emily and feels calm and modern.",
+        cultural_fit: "은솔 is a gentle modern name, popular for its natural imagery.",
+        usage_note: "Suited to workplaces and formal introductions.",
+      },
+      {
+        hangul: "김미리",
+        pronunciation: "Kim Mi-ri",
+        meaning: "'미리' echoes the sound of Emily's ending and reads smoothly in Korean.",
+        recommendation_reason: "Strong sound echo with 'Emily' with a light, friendly tone.",
+        cultural_fit: "Reads as cute and approachable to Korean ears.",
+        usage_note: "Great for daily life and friendly workplaces.",
+      },
+      {
+        hangul: "김하린",
+        pronunciation: "Kim Ha-rin",
+        meaning: "'하' suggests sky or greatness; '린' adds a refined, gentle finish.",
+        recommendation_reason: "Modern two-syllable name whose flow mirrors Emily's rhythm.",
+        cultural_fit: "하린 is trendy among younger Koreans, polished yet warm.",
+        usage_note: "Fits professional and social settings alike.",
+      },
+    ],
     outputLanguage: "en",
     reportId: "NL-TESTSAMPLE01",
   });
   console.log("생성 데이터 요약:");
-  console.log("- name:", premium.reportData.name);
-  console.log("- summary:", premium.reportData.sections.analysisSummary.slice(0, 140));
-  console.log(
-    "- breakdown:",
-    premium.reportData.sections.meaningBreakdown.map((entry) => entry.syllable).join(","),
-  );
+  console.log("- candidates:", premium.reportData.candidates.map((c) => c.name.hangul).join(", "));
+  console.log("- summary:", premium.reportData.analysisSummary.slice(0, 120));
   console.log("- saju:", premium.reportData.saju ? premium.reportData.saju.dominant : "(없음)");
   const buffer = await renderGlobalNameReportPdf(premium.reportData);
   writeFileSync(outputPath, buffer);

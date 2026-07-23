@@ -14,12 +14,19 @@ export async function GET(request: NextRequest) {
   const locale = request.nextUrl.searchParams.get("lang") ?? "en";
   try {
     const rows = await listReportFonts({ enabledOnly: true });
+    const storageBase = process.env.NEXT_PUBLIC_SUPABASE_URL;
     return NextResponse.json({
       ok: true,
       fonts: rows.map((row) => ({
         code: row.code,
         name: fontDisplayName(row, locale),
         story: fontStoryFor(row, locale),
+        copyright: `© ${row.copyright_holder} · ${row.license_type}`,
+        sourceUrl: row.source_url,
+        preview:
+          row.preview_path && storageBase
+            ? `${storageBase}/storage/v1/object/public/font-previews/${row.preview_path}`
+            : null,
       })),
     });
   } catch (error) {

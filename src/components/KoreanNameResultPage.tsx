@@ -157,6 +157,13 @@ export function KoreanNameResultPage({
               inputFactors={stored.inputFactors}
               locale={locale}
             />
+            <GlobalNamePremiumPanel
+              product="NAME_ART_PACK"
+              candidates={premiumCandidatesOf(stored.result)}
+              revealedCount={revealedCount}
+              inputFactors={stored.inputFactors}
+              locale={locale}
+            />
             {totalCount > 0 ? (
               <ResultAddOnServices service={service} locale={locale} />
             ) : null}

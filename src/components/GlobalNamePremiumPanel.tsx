@@ -31,6 +31,10 @@ type PremiumCopy = {
   artTitle: string;
   artDesc: string;
   artBuy: string;
+  fontSelect: string;
+  packTitle: string;
+  packDesc: string;
+  packBuy: string;
 };
 
 const premiumCopies: Record<string, PremiumCopy> = {
@@ -48,6 +52,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "한글 표기 아트 (PDF)",
     artDesc: "이름의 한글 표기를 붓글씨·손글씨 두 서체 아트 2장과 발음 안내 1장, 총 3장 PDF로 만들어 드립니다. 결제 후 24시간 다운로드.",
     artBuy: "아트 PDF 구매 · US$2.99",
+    fontSelect: "서체 선택",
+    packTitle: "이름 아트 팩 (PDF)",
+    packDesc: "선택한 이름 하나를, 고른 붓글씨 서체마다 아트 한 장씩으로 만들어 드립니다. 서체마다 담긴 이야기가 함께합니다. 결제 후 24시간 다운로드.",
+    packBuy: "아트 팩 구매",
   },
   en: {
     title: "Premium Korean Name Report (PDF)",
@@ -63,6 +71,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Hangul Name Art (PDF)",
     artDesc: "Your name's Hangul spelling in two calligraphy styles plus a pronunciation guide — a 3-page PDF, downloadable for 24 hours after purchase.",
     artBuy: "Buy the art PDF · US$2.99",
+    fontSelect: "Choose typefaces",
+    packTitle: "Name Art Pack (PDF)",
+    packDesc: "One chosen name, rendered as a keepsake art page in each calligraphy typeface you pick — every typeface carries its own story. Downloadable for 24 hours.",
+    packBuy: "Buy the art pack",
   },
   vi: {
     title: "Báo cáo tên tiếng Hàn cao cấp (PDF)",
@@ -78,6 +90,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Nghệ thuật tên Hangul (PDF)",
     artDesc: "Cách viết Hangul của tên bạn trong 2 kiểu thư pháp kèm hướng dẫn phát âm — PDF 3 trang, tải xuống trong 24 giờ sau khi mua.",
     artBuy: "Mua PDF nghệ thuật · US$2.99",
+    fontSelect: "Chọn kiểu chữ",
+    packTitle: "Gói nghệ thuật tên (PDF)",
+    packDesc: "Một cái tên bạn chọn, được thể hiện thành một trang nghệ thuật với mỗi kiểu chữ thư pháp bạn chọn — mỗi kiểu chữ đều có câu chuyện riêng. Tải xuống trong 24 giờ.",
+    packBuy: "Mua gói nghệ thuật",
   },
   th: {
     title: "รายงานชื่อเกาหลีพรีเมียม (PDF)",
@@ -93,6 +109,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "ศิลปะชื่อฮันกึล (PDF)",
     artDesc: "การเขียนชื่อของคุณเป็นฮันกึลใน 2 สไตล์ลายมือ พร้อมคู่มือการออกเสียง — PDF 3 หน้า ดาวน์โหลดได้ 24 ชั่วโมงหลังซื้อ",
     artBuy: "ซื้อ PDF ศิลปะ · US$2.99",
+    fontSelect: "เลือกแบบอักษร",
+    packTitle: "แพ็กศิลปะชื่อ (PDF)",
+    packDesc: "ชื่อที่คุณเลือกหนึ่งชื่อ ถูกสร้างเป็นหน้าศิลปะหนึ่งหน้าต่อแบบอักษรพู่กันที่คุณเลือก — แต่ละแบบอักษรมีเรื่องราวของตัวเอง ดาวน์โหลดได้ 24 ชั่วโมง",
+    packBuy: "ซื้อแพ็กศิลปะ",
   },
   ja: {
     title: "プレミアム韓国語名前レポート (PDF)",
@@ -108,6 +128,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "ハングル表記アート (PDF)",
     artDesc: "お名前のハングル表記を2種の書体アートと発音ガイドで、全3ページのPDFに。購入後24時間ダウンロードできます。",
     artBuy: "アートPDFを購入 · US$2.99",
+    fontSelect: "書体を選択",
+    packTitle: "名前アートパック (PDF)",
+    packDesc: "選んだ名前ひとつを、選んだ書体ごとに1枚ずつのアートに仕上げます。各書体にはそれぞれの物語があります。購入後24時間ダウンロードできます。",
+    packBuy: "アートパックを購入",
   },
   zh: {
     title: "高级韩文名字报告 (PDF)",
@@ -123,6 +147,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "韩文名字艺术 (PDF)",
     artDesc: "以两种书法风格呈现您名字的韩文写法，并附发音指南 — 共 3 页 PDF，购买后 24 小时内可下载。",
     artBuy: "购买艺术 PDF · US$2.99",
+    fontSelect: "选择字体",
+    packTitle: "名字艺术包 (PDF)",
+    packDesc: "将您选择的一个名字，以每种所选书法字体各制成一页艺术作品 — 每种字体都有自己的故事。购买后 24 小时内可下载。",
+    packBuy: "购买艺术包",
   },
   id: {
     title: "Laporan Nama Korea Premium (PDF)",
@@ -138,6 +166,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Seni Nama Hangul (PDF)",
     artDesc: "Ejaan Hangul nama Anda dalam dua gaya kaligrafi plus panduan pelafalan — PDF 3 halaman, dapat diunduh 24 jam setelah pembelian.",
     artBuy: "Beli PDF seni · US$2.99",
+    fontSelect: "Pilih gaya huruf",
+    packTitle: "Paket Seni Nama (PDF)",
+    packDesc: "Satu nama pilihan Anda, dijadikan satu halaman seni untuk tiap gaya kaligrafi yang Anda pilih — setiap gaya huruf punya kisahnya sendiri. Dapat diunduh 24 jam.",
+    packBuy: "Beli paket seni",
   },
   de: {
     title: "Premium-Bericht zum koreanischen Namen (PDF)",
@@ -153,6 +185,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Hangul-Namenskunst (PDF)",
     artDesc: "Die Hangul-Schreibweise Ihres Namens in zwei Schriftstilen plus Ausspracheführer — ein 3-seitiges PDF, 24 Stunden nach dem Kauf herunterladbar.",
     artBuy: "Kunst-PDF kaufen · US$2.99",
+    fontSelect: "Schriftstil wählen",
+    packTitle: "Namenskunst-Paket (PDF)",
+    packDesc: "Ein gewählter Name, als Kunstseite in jedem von Ihnen gewählten Kalligrafie-Stil — jeder Schriftstil trägt seine eigene Geschichte. 24 Stunden herunterladbar.",
+    packBuy: "Kunst-Paket kaufen",
   },
   es: {
     title: "Informe premium de tu nombre coreano (PDF)",
@@ -168,6 +204,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Arte de tu nombre en hangul (PDF)",
     artDesc: "La escritura en hangul de tu nombre en dos estilos caligráficos más una guía de pronunciación — PDF de 3 páginas, descargable durante 24 horas tras la compra.",
     artBuy: "Comprar el PDF de arte · US$2.99",
+    fontSelect: "Elige caligrafías",
+    packTitle: "Pack de arte del nombre (PDF)",
+    packDesc: "Un nombre elegido, convertido en una página de arte por cada caligrafía que elijas — cada caligrafía tiene su propia historia. Descargable durante 24 horas.",
+    packBuy: "Comprar el pack de arte",
   },
   fr: {
     title: "Rapport premium de votre nom coréen (PDF)",
@@ -183,6 +223,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Art de votre nom en hangeul (PDF)",
     artDesc: "L'écriture en hangeul de votre nom en deux styles calligraphiques avec un guide de prononciation — PDF de 3 pages, téléchargeable pendant 24 h après l'achat.",
     artBuy: "Acheter le PDF d'art · US$2.99",
+    fontSelect: "Choisir les calligraphies",
+    packTitle: "Pack d'art du prénom (PDF)",
+    packDesc: "Un prénom choisi, transformé en une page d'art pour chaque calligraphie sélectionnée — chaque style porte sa propre histoire. Téléchargeable pendant 24 h.",
+    packBuy: "Acheter le pack d'art",
   },
   it: {
     title: "Report premium del tuo nome coreano (PDF)",
@@ -198,6 +242,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Arte del tuo nome in hangul (PDF)",
     artDesc: "La scrittura in hangul del tuo nome in due stili calligrafici con una guida alla pronuncia — PDF di 3 pagine, scaricabile per 24 ore dopo l'acquisto.",
     artBuy: "Acquista il PDF d'arte · US$2.99",
+    fontSelect: "Scegli gli stili",
+    packTitle: "Pacchetto d'arte del nome (PDF)",
+    packDesc: "Un nome scelto, reso come pagina d'arte in ogni stile calligrafico selezionato — ogni stile porta la propria storia. Scaricabile per 24 ore.",
+    packBuy: "Acquista il pacchetto",
   },
   pt: {
     title: "Relatório premium do seu nome coreano (PDF)",
@@ -213,6 +261,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Arte do seu nome em hangul (PDF)",
     artDesc: "A escrita em hangul do seu nome em dois estilos caligráficos com um guia de pronúncia — PDF de 3 páginas, disponível para download por 24 horas após a compra.",
     artBuy: "Comprar o PDF de arte · US$2.99",
+    fontSelect: "Escolha os estilos",
+    packTitle: "Pacote de arte do nome (PDF)",
+    packDesc: "Um nome escolhido, transformado em uma página de arte para cada caligrafia selecionada — cada estilo carrega sua própria história. Disponível por 24 horas.",
+    packBuy: "Comprar o pacote de arte",
   },
   ru: {
     title: "Премиум-отчёт о корейском имени (PDF)",
@@ -228,6 +280,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Арт вашего имени на хангыле (PDF)",
     artDesc: "Запись вашего имени на хангыле в двух каллиграфических стилях плюс гид по произношению — PDF из 3 страниц, доступен для скачивания 24 часа после покупки.",
     artBuy: "Купить арт-PDF · US$2.99",
+    fontSelect: "Выберите шрифты",
+    packTitle: "Арт-набор имени (PDF)",
+    packDesc: "Одно выбранное имя — по одной арт-странице в каждом выбранном каллиграфическом шрифте. У каждого шрифта своя история. Доступно для скачивания 24 часа.",
+    packBuy: "Купить арт-набор",
   },
   ar: {
     title: "تقرير مميز لاسمك الكوري (PDF)",
@@ -243,6 +299,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "فن اسمك بالهانغول (PDF)",
     artDesc: "كتابة اسمك بالهانغول بأسلوبين خطّيين مع دليل النطق — PDF من 3 صفحات، يمكن تنزيله خلال 24 ساعة بعد الشراء.",
     artBuy: "شراء PDF الفني · US$2.99",
+    fontSelect: "اختر الخطوط",
+    packTitle: "باقة فن الاسم (PDF)",
+    packDesc: "اسم واحد تختاره، يُصمم كصفحة فنية بكل خط تختاره — ولكل خط قصته الخاصة. يمكن تنزيله خلال 24 ساعة.",
+    packBuy: "شراء الباقة الفنية",
   },
   tr: {
     title: "Premium Korece İsim Raporu (PDF)",
@@ -258,6 +318,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Hangul İsim Sanatı (PDF)",
     artDesc: "İsminizin Hangul yazımı iki hat stilinde, telaffuz rehberiyle birlikte — 3 sayfalık PDF, satın alımdan sonra 24 saat indirilebilir.",
     artBuy: "Sanat PDF'sini satın al · US$2.99",
+    fontSelect: "Yazı stilini seçin",
+    packTitle: "İsim Sanat Paketi (PDF)",
+    packDesc: "Seçtiğiniz bir isim, seçtiğiniz her hat stilinde birer sanat sayfası olarak — her yazı stilinin kendi hikâyesi var. 24 saat indirilebilir.",
+    packBuy: "Sanat paketini satın al",
   },
   fil: {
     title: "Premium na Ulat ng Koreanong Pangalan (PDF)",
@@ -273,6 +337,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Sining ng Pangalan sa Hangul (PDF)",
     artDesc: "Ang Hangul na baybay ng pangalan mo sa dalawang istilo ng kaligrapiya kasama ang gabay sa bigkas — 3-pahinang PDF, maida-download sa loob ng 24 oras.",
     artBuy: "Bilhin ang art PDF · US$2.99",
+    fontSelect: "Pumili ng estilo ng titik",
+    packTitle: "Name Art Pack (PDF)",
+    packDesc: "Isang napiling pangalan, ginawang isang art page sa bawat kaligrapiyang pipiliin mo — bawat estilo may sariling kuwento. Maida-download sa loob ng 24 oras.",
+    packBuy: "Bilhin ang art pack",
   },
   uz: {
     title: "Premium koreys ismi hisoboti (PDF)",
@@ -288,6 +356,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Hangul ism san’ati (PDF)",
     artDesc: "Ismingizning Hangul yozuvi ikki xattotlik uslubida, talaffuz qo‘llanmasi bilan — 3 sahifalik PDF, xariddan keyin 24 soat yuklab olinadi.",
     artBuy: "San’at PDF sotib olish · US$2.99",
+    fontSelect: "Yozuv uslubini tanlang",
+    packTitle: "Ism san’at to‘plami (PDF)",
+    packDesc: "Tanlangan bitta ism, siz tanlagan har bir xattotlik uslubida bittadan san’at sahifasi sifatida — har bir uslubning o‘z hikoyasi bor. 24 soat yuklab olinadi.",
+    packBuy: "San’at to‘plamini sotib olish",
   },
   mn: {
     title: "Премиум солонгос нэрийн тайлан (PDF)",
@@ -303,6 +375,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Хангыл нэрийн урлаг (PDF)",
     artDesc: "Таны нэрийн хангыл бичлэгийг хоёр бичгийн хэв маягаар, дуудлагын зааврын хамт — 3 хуудас PDF, худалдан авснаас хойш 24 цаг татаж авна.",
     artBuy: "Урлагийн PDF худалдан авах · US$2.99",
+    fontSelect: "Бичгийн хэв сонгох",
+    packTitle: "Нэрийн урлагийн багц (PDF)",
+    packDesc: "Сонгосон нэг нэрийг таны сонгосон бичгийн хэв бүрээр нэг нэг урлагийн хуудас болгоно — хэв бүр өөрийн түүхтэй. 24 цагийн дотор татаж авна.",
+    packBuy: "Урлагийн багц худалдан авах",
   },
   hi: {
     title: "प्रीमियम कोरियाई नाम रिपोर्ट (PDF)",
@@ -318,6 +394,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "हंगुल नाम आर्ट (PDF)",
     artDesc: "आपके नाम की हंगुल लिखावट दो सुलेख शैलियों में, उच्चारण गाइड के साथ — 3 पन्नों का PDF, खरीद के बाद 24 घंटे तक डाउनलोड करें।",
     artBuy: "आर्ट PDF खरीदें · US$2.99",
+    fontSelect: "लिपि शैली चुनें",
+    packTitle: "नाम आर्ट पैक (PDF)",
+    packDesc: "आपका चुना एक नाम, आपकी चुनी हर सुलेख शैली में एक-एक आर्ट पेज के रूप में — हर शैली की अपनी कहानी है। 24 घंटे तक डाउनलोड करें।",
+    packBuy: "आर्ट पैक खरीदें",
   },
   km: {
     title: "របាយការណ៍ឈ្មោះកូរ៉េពិសេស (PDF)",
@@ -333,6 +413,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "សិល្បៈឈ្មោះហាន់ហ្គុល (PDF)",
     artDesc: "ការសរសេរឈ្មោះរបស់អ្នកជាហាន់ហ្គុលពីរបែបអក្សរសាស្ត្រ រួមជាមួយការណែនាំការបញ្ចេញសំឡេង — PDF 3 ទំព័រ ទាញយកបាន 24 ម៉ោងបន្ទាប់ពីទិញ។",
     artBuy: "ទិញ PDF សិល្បៈ · US$2.99",
+    fontSelect: "ជ្រើសរើសរចនាប័ទ្មអក្សរ",
+    packTitle: "កញ្ចប់សិល្បៈឈ្មោះ (PDF)",
+    packDesc: "ឈ្មោះមួយដែលអ្នកជ្រើសរើស ត្រូវបានបង្កើតជាទំព័រសិល្បៈមួយទំព័រក្នុងមួយរចនាប័ទ្មអក្សរដែលអ្នកជ្រើស — រចនាប័ទ្មនីមួយៗមានរឿងរ៉ាវផ្ទាល់ខ្លួន។ ទាញយកបាន 24 ម៉ោង។",
+    packBuy: "ទិញកញ្ចប់សិល្បៈ",
   },
   kk: {
     title: "Премиум корей есімі есебі (PDF)",
@@ -348,6 +432,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Хангыл есім өнері (PDF)",
     artDesc: "Есіміңіздің хангыл жазылуы екі каллиграфиялық стильде, айтылу нұсқаулығымен — 3 беттік PDF, сатып алғаннан кейін 24 сағат жүктеледі.",
     artBuy: "Өнер PDF сатып алу · US$2.99",
+    fontSelect: "Қаріп стилін таңдаңыз",
+    packTitle: "Есім өнер жинағы (PDF)",
+    packDesc: "Таңдалған бір есім — сіз таңдаған әр каллиграфиялық стильде бір-бір өнер бетінен. Әр стильдің өз тарихы бар. 24 сағат жүктеледі.",
+    packBuy: "Өнер жинағын сатып алу",
   },
   ms: {
     title: "Laporan Nama Korea Premium (PDF)",
@@ -363,6 +451,10 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Seni Nama Hangul (PDF)",
     artDesc: "Ejaan Hangul nama anda dalam dua gaya kaligrafi berserta panduan sebutan — PDF 3 halaman, boleh dimuat turun selama 24 jam selepas pembelian.",
     artBuy: "Beli PDF seni · US$2.99",
+    fontSelect: "Pilih gaya tulisan",
+    packTitle: "Pek Seni Nama (PDF)",
+    packDesc: "Satu nama pilihan anda, dijadikan satu halaman seni bagi setiap gaya kaligrafi yang anda pilih — setiap gaya ada kisahnya sendiri. Boleh dimuat turun 24 jam.",
+    packBuy: "Beli pek seni",
   },
   pl: {
     title: "Raport premium o koreańskim imieniu (PDF)",
@@ -378,10 +470,31 @@ const premiumCopies: Record<string, PremiumCopy> = {
     artTitle: "Sztuka imienia w hangulu (PDF)",
     artDesc: "Zapis imienia w hangulu w dwóch stylach kaligrafii wraz z przewodnikiem wymowy — 3-stronicowy PDF, do pobrania przez 24 godziny po zakupie.",
     artBuy: "Kup artystyczny PDF · US$2.99",
+    fontSelect: "Wybierz style pisma",
+    packTitle: "Pakiet artystyczny imienia (PDF)",
+    packDesc: "Jedno wybrane imię — po jednej stronie artystycznej w każdym wybranym stylu kaligrafii. Każdy styl ma własną historię. Do pobrania przez 24 godziny.",
+    packBuy: "Kup pakiet artystyczny",
   },
 };
 
-type PremiumProductKey = "GLOBAL_NAME_PDF" | "HANGUL_ART_PDF";
+type PremiumProductKey = "GLOBAL_NAME_PDF" | "HANGUL_ART_PDF" | "NAME_ART_PACK";
+
+type FontOption = {
+  code: string;
+  name: string;
+  story: string;
+  copyright: string;
+  sourceUrl: string;
+  preview: string | null;
+};
+
+type ProductInfo = { amount: number; currency: string; display: string; fontCount: number };
+
+// 문구에 박힌 가격 표기를 떼고 관리자 설정의 현재 가격을 붙인다(가격 조정형 대응).
+function withPrice(label: string, info: ProductInfo | null) {
+  const base = label.replace(/\s*·\s*US\$[\d.]+\s*$/, "");
+  return info ? `${base} · ${info.display}` : base;
+}
 
 type PremiumCandidate = {
   hangul: string;
@@ -463,9 +576,16 @@ export function GlobalNamePremiumPanel({
 }) {
   const copy = premiumCopies[locale ?? "en"] ?? premiumCopies.en;
   const isArt = product === "HANGUL_ART_PDF";
-  const productCopy = isArt
-    ? { title: copy.artTitle, desc: copy.artDesc, buy: copy.artBuy }
-    : { title: copy.title, desc: copy.desc, buy: copy.buy };
+  const isPack = product === "NAME_ART_PACK";
+  const productCopy = isPack
+    ? { title: copy.packTitle, desc: copy.packDesc, buy: copy.packBuy }
+    : isArt
+      ? { title: copy.artTitle, desc: copy.artDesc, buy: copy.artBuy }
+      : { title: copy.title, desc: copy.desc, buy: copy.buy };
+  const [fontOptions, setFontOptions] = useState<FontOption[]>([]);
+  const [productInfo, setProductInfo] = useState<ProductInfo | null>(null);
+  const [selectedFonts, setSelectedFonts] = useState<string[]>([]);
+  const [infoFont, setInfoFont] = useState<FontOption | null>(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [stage, setStage] = useState<
     "idle" | "ordering" | "paying" | "confirming" | "generating" | "ready"
@@ -497,6 +617,39 @@ export function GlobalNamePremiumPanel({
       }
     });
   }, [product]);
+
+  // 가격·서체 수(관리자 설정)와 서체 목록(로케일 스토리 포함)을 불러온다.
+  useEffect(() => {
+    void (async () => {
+      try {
+        const [infoResponse, fontsResponse] = await Promise.all([
+          fetch(`/api/product-info?codes=${product}`),
+          fetch(`/api/report-fonts?lang=${locale ?? "en"}`),
+        ]);
+        const info = (await infoResponse.json().catch(() => null)) as
+          | { ok?: boolean; products?: Record<string, ProductInfo> }
+          | null;
+        const fonts = (await fontsResponse.json().catch(() => null)) as
+          | { ok?: boolean; fonts?: FontOption[] }
+          | null;
+        setProductInfo(info?.products?.[product] ?? null);
+        setFontOptions(fonts?.fonts ?? []);
+      } catch {
+        // 로드 실패 시 버튼은 준비 중 상태로 남는다.
+      }
+    })();
+  }, [product, locale]);
+
+  const requiredFonts = productInfo?.fontCount ?? 0;
+
+  function toggleFont(code: string) {
+    setSelectedFonts((current) => {
+      if (current.includes(code)) return current.filter((item) => item !== code);
+      if (current.length < requiredFonts) return [...current, code];
+      // 이미 가득 차 있으면 가장 먼저 고른 것을 새 선택으로 교체한다.
+      return [...current.slice(1), code];
+    });
+  }
   const testVisible = process.env.NODE_ENV !== "production" || Boolean(adminToken);
 
   async function runOperatorTest() {
@@ -511,7 +664,11 @@ export function GlobalNamePremiumPanel({
           "Content-Type": "application/json",
           ...(adminToken ? { Authorization: `Bearer ${adminToken}` } : {}),
         },
-        body: JSON.stringify({ product, inputFactors, candidate, locale }),
+        body: JSON.stringify(
+          isPack
+            ? { product, inputFactors, candidate, locale, fontCodes: selectedFonts }
+            : { product, inputFactors, candidates, locale, fontCodes: selectedFonts },
+        ),
       });
       if (!response.ok) {
         const data = (await response.json().catch(() => null)) as { error?: string } | null;
@@ -520,7 +677,7 @@ export function GlobalNamePremiumPanel({
       const url = URL.createObjectURL(await response.blob());
       const anchor = document.createElement("a");
       anchor.href = url;
-      anchor.download = `naminglink-global-premium-${candidate.hangul}.pdf`;
+      anchor.download = `naminglink-global-premium-${isPack ? candidate.hangul : candidates[0]?.hangul ?? "report"}.pdf`;
       anchor.click();
       URL.revokeObjectURL(url);
     } catch (caught) {
@@ -584,10 +741,12 @@ export function GlobalNamePremiumPanel({
     setStage("ordering");
     try {
       const candidate = selectable[selectedIndex] ?? selectable[0];
+      // 아트 팩은 선택한 후보 1개, 나머지는 전체 후보를 담는다. 서체 코드도 함께 보낸다.
       const order = await postJson("/api/premium-reports/global-order", {
         product,
         inputFactors,
-        candidate,
+        ...(isPack ? { candidate } : { candidates }),
+        fontCodes: selectedFonts,
         locale,
       });
       if (!order.response.ok || !order.data?.ok || !order.data.checkout) {
@@ -604,7 +763,7 @@ export function GlobalNamePremiumPanel({
         orderId: orderCheckout.orderId,
         paymentId: orderCheckout.paymentId,
         accessToken: orderCheckout.accessToken,
-        hangul: candidate.hangul,
+        hangul: isPack ? candidate.hangul : candidates.map((item) => item.hangul).join(" · "),
       });
       persistCheckout(stored);
       setStage("paying");
@@ -704,23 +863,90 @@ export function GlobalNamePremiumPanel({
         </div>
       </div>
 
+      {requiredFonts > 0 && fontOptions.length > 0 ? (
+        <div className="mt-4">
+          <p className="text-xs font-medium text-muted">
+            {copy.fontSelect} ({selectedFonts.length}/{requiredFonts})
+          </p>
+          <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {fontOptions.map((font) => {
+              const selected = selectedFonts.includes(font.code);
+              return (
+                <div
+                  key={font.code}
+                  className={`relative rounded-lg border p-2 transition ${
+                    selected
+                      ? "border-brand-teal bg-surface-strong"
+                      : "border-line bg-background hover:border-brand-teal/50"
+                  }`}
+                >
+                  <button
+                    type="button"
+                    onClick={() => toggleFont(font.code)}
+                    disabled={busy || stage === "ready"}
+                    className="block w-full text-left"
+                  >
+                    {font.preview ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={font.preview}
+                        alt={font.name}
+                        className="h-12 w-full object-contain"
+                      />
+                    ) : null}
+                    <span className="mt-1 block truncate text-xs font-medium">{font.name}</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setInfoFont(font)}
+                    aria-label={`${font.name} info`}
+                    className="absolute right-1.5 top-1.5 flex size-5 items-center justify-center rounded-full border border-line bg-surface text-[11px] font-semibold text-muted"
+                  >
+                    i
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+          {selectedFonts.length > 0 ? (
+            <div className="mt-2 grid gap-1.5">
+              {selectedFonts.map((code) => {
+                const font = fontOptions.find((option) => option.code === code);
+                if (!font) return null;
+                return (
+                  <p key={code} className="text-xs leading-5 text-muted">
+                    <span className="font-semibold text-foreground">{font.name}</span> — {font.story}
+                  </p>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+
       <div className="mt-5 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto]">
-        <label className="grid gap-1 text-sm">
-          <span className="text-xs font-medium text-muted">{copy.select}</span>
-          <select
-            value={selectedIndex}
-            onChange={(event) => setSelectedIndex(Number(event.target.value))}
-            disabled={busy || stage === "ready"}
-            className="h-11 rounded-lg border border-line bg-background px-3 text-sm"
-          >
-            {selectable.map((candidate, index) => (
-              <option key={`${candidate.hangul}-${index}`} value={index}>
-                {candidate.hangul}
-                {candidate.pronunciation ? ` · ${candidate.pronunciation}` : ""}
-              </option>
-            ))}
-          </select>
-        </label>
+        {isPack ? (
+          <label className="grid gap-1 text-sm">
+            <span className="text-xs font-medium text-muted">{copy.select}</span>
+            <select
+              value={selectedIndex}
+              onChange={(event) => setSelectedIndex(Number(event.target.value))}
+              disabled={busy || stage === "ready"}
+              className="h-11 rounded-lg border border-line bg-background px-3 text-sm"
+            >
+              {selectable.map((candidate, index) => (
+                <option key={`${candidate.hangul}-${index}`} value={index}>
+                  {candidate.hangul}
+                  {candidate.pronunciation ? ` · ${candidate.pronunciation}` : ""}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : (
+          <p className="self-end pb-2 text-sm font-medium">
+            {candidates.map((candidate) => candidate.hangul).join(" · ")}
+          </p>
+        )}
         {stage === "ready" ? (
           <button
             type="button"
@@ -730,15 +956,15 @@ export function GlobalNamePremiumPanel({
             <FileText aria-hidden="true" size={17} />
             {copy.download}
           </button>
-        ) : configured ? (
+        ) : configured && productInfo ? (
           <button
             type="button"
             onClick={startPurchase}
-            disabled={busy}
+            disabled={busy || (requiredFonts > 0 && selectedFonts.length !== requiredFonts)}
             className="inline-flex h-11 items-center justify-center gap-2 self-end rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
           >
             <FileText aria-hidden="true" size={17} />
-            {busy ? busyLabel : productCopy.buy}
+            {busy ? busyLabel : withPrice(productCopy.buy, productInfo)}
           </button>
         ) : (
           <button
@@ -748,7 +974,7 @@ export function GlobalNamePremiumPanel({
             className="inline-flex h-11 cursor-not-allowed items-center justify-center gap-2 self-end rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal opacity-60"
           >
             <FileText aria-hidden="true" size={17} />
-            {productCopy.buy}
+            {withPrice(productCopy.buy, productInfo)}
           </button>
         )}
       </div>
@@ -760,9 +986,7 @@ export function GlobalNamePremiumPanel({
           disabled={testBusy}
           className="mt-3 inline-flex h-10 w-full items-center justify-center rounded-lg border border-brand-teal/40 px-4 text-sm font-semibold text-brand-teal disabled:opacity-50"
         >
-          {testBusy
-            ? "테스트 PDF 생성 중… (약 30초)"
-            : "운영자 테스트: 결제 없이 3장 PDF 받기"}
+          {testBusy ? "테스트 PDF 생성 중…" : "운영자 테스트: 결제 없이 PDF 받기"}
         </button>
       ) : null}
       {stage === "paying" ? <div className="portone-ui-container mt-4" /> : null}
@@ -776,6 +1000,48 @@ export function GlobalNamePremiumPanel({
         </button>
       ) : null}
       {error ? <p className="mt-3 text-sm font-medium text-red-600">{error}</p> : null}
+
+      {infoFont ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-5"
+          onClick={() => setInfoFont(null)}
+          role="presentation"
+        >
+          <div
+            className="w-full max-w-md rounded-lg bg-surface p-5 shadow-lg"
+            onClick={(event) => event.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+          >
+            {infoFont.preview ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={infoFont.preview}
+                alt={infoFont.name}
+                className="h-20 w-full object-contain"
+              />
+            ) : null}
+            <p className="mt-3 text-base font-semibold">{infoFont.name}</p>
+            <p className="mt-2 text-sm leading-6 text-muted">{infoFont.story}</p>
+            <p className="mt-3 text-xs text-muted">{infoFont.copyright}</p>
+            <a
+              href={infoFont.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 block truncate text-xs text-brand-teal underline underline-offset-2"
+            >
+              {infoFont.sourceUrl}
+            </a>
+            <button
+              type="button"
+              onClick={() => setInfoFont(null)}
+              className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-lg bg-foreground text-sm font-semibold text-background"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }
