@@ -4,13 +4,18 @@ import { z } from "zod";
 
 import type { GlobalNamePremiumResult } from "@/lib/global-name-premium";
 import type { HangulArtPremiumResult } from "@/lib/hangul-art-premium";
+import type { NameArtPackResult } from "@/lib/name-art-pack";
 import {
   isGlobalNamePdfProduct,
   isGlobalPremiumPdfProduct,
   isHangulArtPdfProduct,
+  isNameArtPackProduct,
 } from "@/lib/global-products";
+import { registerReportFonts } from "@/lib/pdf/dynamic-fonts";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
+import { renderNameArtPackPdf } from "@/lib/pdf/name-art-pack-report";
+import { getReportFontRowsForRender } from "@/lib/report-fonts-registry";
 import { renderPremiumHanjaTestPdf, type PremiumHanjaTestResult } from "@/lib/premium-hanja-analysis";
 import { PREMIUM_HANJA_REPORT, premiumReportRemainingSeconds } from "@/lib/premium-reports";
 import { getAuthorizedPremiumSession } from "@/lib/premium-session";
@@ -47,15 +52,34 @@ export async function POST(request: Request, context: Context) {
       .maybeSingle();
     if (existing) return NextResponse.json({ ok: true, status: "READY" });
 
+    // 선택 서체를 저장소에서 동적 등록한다(숨김 처리된 서체도 결제 문서는 렌더).
+    const loadFamilies = async (fonts: Array<{ code: string }> | undefined) => {
+      const codes = (fonts ?? []).map((font) => font.code);
+      const rows = await getReportFontRowsForRender(codes);
+      return registerReportFonts(rows);
+    };
     let buffer: Buffer;
-    if (isHangulArtPdfProduct(session.product_code)) {
+    if (isNameArtPackProduct(session.product_code)) {
+      const premium = session.interpretation_result as NameArtPackResult;
+      if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
+      buffer = await renderNameArtPackPdf(
+        premium.reportData,
+        await loadFamilies(premium.reportData.fonts),
+      );
+    } else if (isHangulArtPdfProduct(session.product_code)) {
       const premium = session.interpretation_result as HangulArtPremiumResult;
       if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
-      buffer = await renderHangulArtPdf(premium.reportData);
+      buffer = await renderHangulArtPdf(
+        premium.reportData,
+        await loadFamilies(premium.reportData.fonts),
+      );
     } else if (isGlobalNamePdfProduct(session.product_code)) {
       const premium = session.interpretation_result as GlobalNamePremiumResult;
       if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");
-      buffer = await renderGlobalNameReportPdf(premium.reportData);
+      buffer = await renderGlobalNameReportPdf(
+        premium.reportData,
+        await loadFamilies(premium.reportData.fonts),
+      );
     } else {
       const premium = session.interpretation_result as PremiumHanjaTestResult;
       if (!premium?.reportData) throw new Error("PDF 원본 분석 데이터가 없습니다.");

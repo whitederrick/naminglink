@@ -3,7 +3,13 @@ import { z } from "zod";
 
 import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
 import { buildHangulArtResult } from "@/lib/hangul-art-premium";
-import { isGlobalNamePdfProduct, isHangulArtPdfProduct } from "@/lib/global-products";
+import { buildNameArtPackResult } from "@/lib/name-art-pack";
+import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
+import {
+  isGlobalNamePdfProduct,
+  isHangulArtPdfProduct,
+  isNameArtPackProduct,
+} from "@/lib/global-products";
 import { buildPremiumHanjaTestResult } from "@/lib/premium-hanja-analysis";
 import { getHanjaProduct, type HanjaProductCode } from "@/lib/hanja-products";
 import { getAuthorizedPremiumSession } from "@/lib/premium-session";
@@ -75,13 +81,48 @@ export async function POST(request: Request, context: Context) {
     try {
       const payload = session.input_payload as Record<string, unknown>;
       const inputFactors = payload.inputFactors as Record<string, unknown>;
+      const storedFonts = (Array.isArray(payload.fonts)
+        ? payload.fonts
+        : []) as ReportFontSnapshot[];
+      const reportId = `NL-${String(session.id).replaceAll("-", "").slice(0, 12).toUpperCase()}`;
+      const storedCandidatesRaw = Array.isArray(payload.candidates)
+        ? (payload.candidates as Array<Record<string, unknown>>)
+        : payload.candidate
+          ? [payload.candidate as Record<string, unknown>]
+          : [];
+      // 이름 아트 팩: 이름 1개 × 선택 서체 N개, 즉시(무 AI) 생성.
+      if (isNameArtPackProduct(session.product_code)) {
+        const premium = buildNameArtPackResult({
+          inputFactors: inputFactors ?? {},
+          candidate: storedCandidatesRaw[0] ?? {},
+          fonts: storedFonts,
+          outputLanguage: String(payload.outputLanguage ?? "en"),
+          reportId,
+        });
+        const readyAt = new Date().toISOString();
+        const { error } = await supabase
+          .from("premium_analysis_sessions")
+          .update({
+            status: "READY",
+            interpretation_result: premium,
+            calculation_engine: "name-art-pack-v1",
+            calculation_engine_version: "1",
+            ready_at: readyAt,
+            updated_at: readyAt,
+          })
+          .eq("id", session.id);
+        if (error) throw error;
+        await markOrderFulfilled();
+        return NextResponse.json({ ok: true, status: "READY", premium, expiresAt: session.expires_at });
+      }
       // 발음 표기 붓글씨 PDF: 저장된 음차 후보 데이터만으로 즉시(무 AI) 리포트 데이터를 만든다.
       if (isHangulArtPdfProduct(session.product_code)) {
         const premium = buildHangulArtResult({
           inputFactors: inputFactors ?? {},
-          candidate: (payload.candidate as Record<string, unknown>) ?? {},
+          candidates: storedCandidatesRaw,
+          fonts: storedFonts,
           outputLanguage: String(payload.outputLanguage ?? "en"),
-          reportId: `NL-${String(session.id).replaceAll("-", "").slice(0, 12).toUpperCase()}`,
+          reportId,
         });
         const readyAt = new Date().toISOString();
         const { error } = await supabase
@@ -103,9 +144,10 @@ export async function POST(request: Request, context: Context) {
       if (isGlobalNamePdfProduct(session.product_code)) {
         const premium = await buildGlobalNamePremiumResult({
           inputFactors: inputFactors ?? {},
-          candidate: (payload.candidate as Record<string, unknown>) ?? {},
+          candidates: storedCandidatesRaw,
+          fonts: storedFonts,
           outputLanguage: String(payload.outputLanguage ?? "en"),
-          reportId: `NL-${String(session.id).replaceAll("-", "").slice(0, 12).toUpperCase()}`,
+          reportId,
         });
         const readyAt = new Date().toISOString();
         const { error } = await supabase

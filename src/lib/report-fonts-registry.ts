@@ -15,6 +15,16 @@ import { getSupabaseAdminClient } from "@/lib/supabase";
 // - 파일: Storage(report-fonts) → 서버리스 /tmp에 sha 기준 캐시 후 react-pdf에 등록
 // - 스토리 번역: 등록 시 1회 생성해 stories(jsonb)에 저장(23로케일)
 
+// 주문 시점에 저장하는 서체 메타 스냅샷(이후 서체 정보가 바뀌어도 문서 표기를 보존).
+export type ReportFontSnapshot = {
+  code: string;
+  name_ko: string;
+  name_en: string;
+  copyright_holder: string;
+  license_type: string;
+  source_url: string;
+};
+
 export type ReportFontRow = {
   id: string;
   code: string;
@@ -63,6 +73,20 @@ export async function getReportFontsByCodes(codes: string[]) {
     throw new Error("선택한 서체를 찾을 수 없습니다.");
   }
   return codes.map((code) => rows.find((row) => row.code === code) as ReportFontRow);
+}
+
+// 렌더용 조회: 결제 완료된 문서는 이후 서체가 숨김 처리돼도 렌더돼야 하므로
+// enabled 필터 없이 찾고, 없는 코드는 조용히 제외한다(렌더러가 폴백 서체 사용).
+export async function getReportFontRowsForRender(codes: string[]) {
+  if (codes.length === 0) return [];
+  const supabase = getSupabaseAdminClient();
+  if (!supabase) throw new Error("서체 저장소 연결이 설정되지 않았습니다.");
+  const { data, error } = await supabase
+    .from("report_fonts")
+    .select(FONT_SELECT)
+    .in("code", codes);
+  if (error) throw error;
+  return (data ?? []) as ReportFontRow[];
 }
 
 // 로케일에 맞는 스토리(없으면 en → ko 순 폴백).

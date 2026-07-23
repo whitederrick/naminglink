@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import { GLOBAL_PREMIUM_PRODUCTS } from "@/lib/global-products";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
+import { getReportFontsByCodes } from "@/lib/report-fonts-registry";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { getPortOnePublicConfig } from "@/lib/portone";
 import { createPremiumReportAccess } from "@/lib/premium-reports";
@@ -51,11 +52,15 @@ const artCandidateSchema = z.object({
 });
 
 const schema = z.object({
-  product: z.enum(["GLOBAL_NAME_PDF", "HANGUL_ART_PDF"]).default("GLOBAL_NAME_PDF"),
+  product: z
+    .enum(["GLOBAL_NAME_PDF", "HANGUL_ART_PDF", "NAME_ART_PACK"])
+    .default("GLOBAL_NAME_PDF"),
   inputFactors: z.record(z.string(), z.unknown()),
-  // GLOBAL_NAME_PDF: 전체 후보(1~5개) / HANGUL_ART_PDF: 선택 후보 1개.
+  // GLOBAL_NAME_PDF: 전체 후보(1~5) / HANGUL_ART_PDF: 표기 후보(1~3) / NAME_ART_PACK: 선택 후보 1개.
   candidate: z.record(z.string(), z.unknown()).optional(),
   candidates: z.array(z.record(z.string(), z.unknown())).min(1).max(5).optional(),
+  // 사용자가 고른 서체 코드. 필요 개수는 product_settings.font_count가 결정한다.
+  fontCodes: z.array(z.string().trim().regex(/^[a-z0-9-]{2,40}$/)).max(10).default([]),
   locale: z.string().trim().max(10).optional(),
 });
 
@@ -89,14 +94,14 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: sizeError }, { status: 400 });
   }
   const product = GLOBAL_PREMIUM_PRODUCTS[parsed.data.product];
+  const candidateList =
+    parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []);
   const candidatePayload =
     product.code === "HANGUL_ART_PDF"
-      ? artCandidateSchema.safeParse(parsed.data.candidate)
-      : z
-          .array(nameCandidateSchema)
-          .min(1)
-          .max(5)
-          .safeParse(parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []));
+      ? z.array(artCandidateSchema).min(1).max(3).safeParse(candidateList)
+      : product.code === "NAME_ART_PACK"
+        ? z.array(nameCandidateSchema).length(1).safeParse(candidateList)
+        : z.array(nameCandidateSchema).min(1).max(5).safeParse(candidateList);
   if (!candidatePayload.success) {
     return NextResponse.json({ ok: false, error: "주문 정보가 올바르지 않습니다." }, { status: 400 });
   }
@@ -106,6 +111,33 @@ export async function POST(request: NextRequest) {
     setting = await getProductSetting(product.code);
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
+  }
+  // 서체 검증: 설정된 개수와 정확히 일치해야 하고, 전부 활성 서체여야 한다.
+  // 통과하면 이름·저작권 정보를 스냅샷으로 저장해 이후 서체 메타 변경과 무관하게 표기를 보존한다.
+  let fontSnapshots: Array<Record<string, string>> = [];
+  if (setting.font_count > 0) {
+    if (
+      parsed.data.fontCodes.length !== setting.font_count ||
+      new Set(parsed.data.fontCodes).size !== setting.font_count
+    ) {
+      return NextResponse.json(
+        { ok: false, error: `서체를 ${setting.font_count}개 선택해 주세요.` },
+        { status: 400 },
+      );
+    }
+    try {
+      const fontRows = await getReportFontsByCodes(parsed.data.fontCodes);
+      fontSnapshots = fontRows.map((row) => ({
+        code: row.code,
+        name_ko: row.name_ko,
+        name_en: row.name_en,
+        copyright_holder: row.copyright_holder,
+        license_type: row.license_type,
+        source_url: row.source_url,
+      }));
+    } catch {
+      return NextResponse.json({ ok: false, error: "선택한 서체를 찾을 수 없습니다." }, { status: 400 });
+    }
   }
 
   const portone = getPortOnePublicConfig(product.channel);
@@ -156,9 +188,9 @@ export async function POST(request: NextRequest) {
       access_token_hash: access.tokenHash,
       input_payload: {
         inputFactors: parsed.data.inputFactors,
-        ...(product.code === "HANGUL_ART_PDF"
-          ? { candidate: candidatePayload.data }
-          : { candidates: candidatePayload.data }),
+        candidates: candidatePayload.data,
+        fontCodes: parsed.data.fontCodes,
+        fonts: fontSnapshots,
         outputLanguage,
         productCode: product.code,
       },

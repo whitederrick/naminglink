@@ -4,21 +4,18 @@ import OpenAI from "openai";
 
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
+import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
 import { calculatePremiumSaju } from "@/lib/saju/engine";
 
 // 글로벌 프리미엄 PDF(GLOBAL_NAME_PDF)의 분석 데이터 생성.
-// 원칙(데이터 근거): 모델에는 주문 시 저장된 입력값·선택 후보·서버 계산 사주 요약만 주입하고,
-// 그 데이터만 근거로 서술하게 한다. 설명 언어는 outputLanguage를 시스템 프롬프트에
-// 언어명으로 직접 보간해 강제한다(코드만 주면 gpt-4o-mini가 무시하는 사례가 확인됨).
+// 구성(2026-07-23 사용자 확정): 한자 의미 매칭 프리미엄과 동일하게 **전체 후보(최대 5개)**
+// 각각의 상세 해설 + 사주·오행 종합. 후보별 해설은 병렬 호출로 생성한다(전체 시간 단축).
+// 원칙(데이터 근거): 모델에는 주문 시 저장된 입력값·후보 데이터·서버 계산 사주 요약만 주입.
+// 설명 언어는 outputLanguage를 언어명으로 시스템 프롬프트에 직접 보간해 강제한다.
 
-export type GlobalNameReportData = {
-  reportId: string;
-  generatedAt: string;
-  outputLanguage: string;
+export type GlobalNameCandidateReport = {
   name: { hangul: string; romanized: string };
-  original: { name: string; country: string };
   sections: {
-    analysisSummary: string;
     meaningBreakdown: Array<{ syllable: string; meaning: string }>;
     whyThisName: string;
     soundConnection: string;
@@ -26,6 +23,16 @@ export type GlobalNameReportData = {
     culturalNotes: string;
     usageGuide: string;
   };
+};
+
+export type GlobalNameReportData = {
+  reportId: string;
+  generatedAt: string;
+  outputLanguage: string;
+  original: { name: string; country: string };
+  analysisSummary: string;
+  fonts: ReportFontSnapshot[];
+  candidates: GlobalNameCandidateReport[];
   saju: {
     engineName: string;
     engineVersion: string;
@@ -101,7 +108,7 @@ function buildSajuCalculation(inputFactors: Record<string, unknown>) {
       birthLabel: `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}${
         birthHour === null ? "" : ` ${String(birthHour).padStart(2, "0")}:00`
       }`,
-      // PDF 폰트(NotoSansKR)에 한자 글리프가 없어 일간은 오행 표기로만 나타낸다.
+      // PDF 폰트에 한자 글리프가 없어 일간은 오행 표기로만 나타낸다.
       dayMaster: ELEMENT_LABELS[String(saju.dayMaster.element)] ?? String(saju.dayMaster.elementLabel),
       counts: entries.map(([key, count]) => ({
         element: key,
@@ -116,13 +123,27 @@ function buildSajuCalculation(inputFactors: Record<string, unknown>) {
   }
 }
 
+const LANGUAGE_RULE = (languageName: string) =>
+  `Language rule (mandatory): write every field entirely in ${languageName}. Never use Korean or English unless that IS the requested language. Only Hangul name strings stay in Hangul.`;
+
+function parseJson(content: string | null | undefined) {
+  try {
+    return JSON.parse(content ?? "{}") as Record<string, unknown>;
+  } catch {
+    return {};
+  }
+}
+
 export async function buildGlobalNamePremiumResult(payload: {
   inputFactors: Record<string, unknown>;
-  candidate: Record<string, unknown>;
+  candidates: Array<Record<string, unknown>>;
+  fonts?: ReportFontSnapshot[];
   outputLanguage: string;
   reportId: string;
 }): Promise<GlobalNamePremiumResult> {
-  const { inputFactors, candidate, reportId } = payload;
+  const { inputFactors, reportId } = payload;
+  const candidates = payload.candidates.filter((candidate) => text(candidate.hangul));
+  if (candidates.length === 0) throw new Error("리포트로 만들 후보가 없습니다.");
   const outputLanguage = OUTPUT_LANGUAGE_NAMES[payload.outputLanguage]
     ? payload.outputLanguage
     : "en";
@@ -131,23 +152,14 @@ export async function buildGlobalNamePremiumResult(payload: {
     throw new Error("AI 분석 기능이 준비되지 않았습니다.");
   }
 
-  const hangul = text(candidate.hangul);
   const sajuCalculation = buildSajuCalculation(inputFactors);
-  const grounding = {
+  const sharedGrounding = {
     originalName: text(inputFactors.originalName),
     country: text(inputFactors.country),
     gender: text(inputFactors.gender) || null,
     nameMotivation: text(inputFactors.nameMotivation) || null,
     koreanTone: text(inputFactors.koreanTone) || null,
     usageContext: text(inputFactors.usageContext) || null,
-    chosenName: {
-      hangul,
-      pronunciation: text(candidate.pronunciation),
-      meaning: text(candidate.meaning),
-      recommendationReason: text(candidate.recommendation_reason),
-      culturalFit: text(candidate.cultural_fit),
-      usageNote: text(candidate.usage_note),
-    },
     sajuReference: sajuCalculation
       ? {
           counts: sajuCalculation.counts.map(({ label, count }) => `${label}: ${count}`).join(", "),
@@ -158,41 +170,103 @@ export async function buildGlobalNamePremiumResult(payload: {
         }
       : null,
   };
-
-  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 40_000, maxRetries: 1 });
-  const completion = await openai.chat.completions.create({
-    model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
-    temperature: 0.5,
-    response_format: { type: "json_object" },
-    messages: [
-      {
-        role: "system",
-        content: [
-          "You are a premium Korean naming consultant writing the text for a paid keepsake report about ONE chosen Korean name.",
-          "Ground every statement ONLY in the provided input data (chosenName fields, original name, usage context, sajuReference). Never invent meanings, hanja, or facts that are not in the input. If a connection is not supported by the data, describe the name's qualities without claiming that connection.",
-          "Write warmly and concretely for the person who will keep this report, in second person. No fortune-telling, no promises of luck or success; saju content is symbolic reference only.",
-          "Return valid JSON: { analysis_summary, meaning_breakdown: [{ syllable, meaning }], why_this_name, sound_connection, pronunciation_tips, cultural_notes, usage_guide, saju_overview, saju_name_alignment }.",
-          "meaning_breakdown: one entry per Hangul syllable of chosenName.hangul (family name syllable included), each meaning grounded in chosenName.meaning or, when the input gives no meaning for that syllable, a factual note about its role (e.g. common Korean family name).",
-          "analysis_summary: 3-4 sentences. why_this_name: why this name suits this person (sound, meaning, context) — cite only input data. sound_connection: how the Korean name echoes the original name's sound, honestly (if there is no real sound link, say the name was chosen for naturalness instead). pronunciation_tips: how to pronounce the Hangul name, syllable by syllable, for a speaker of the report language. cultural_notes: how the name is perceived in Korea. usage_guide: where and how to use it (from usageContext).",
-          "saju_overview and saju_name_alignment: ONLY when sajuReference exists — explain the five-element balance and how the name symbolically aligns, quoting the given counts/dominant/weakest/dayMaster verbatim. When sajuReference is null, return empty strings for both.",
-          `Language rule (mandatory): write every field entirely in ${languageName}. Never use Korean or English unless that IS the requested language. Only Hangul name strings stay in Hangul.`,
-        ].join(" "),
-      },
-      {
-        role: "user",
-        content: `Report input data:\n${JSON.stringify(grounding, null, 2)}`,
-      },
-    ],
+  const candidateGrounding = (candidate: Record<string, unknown>) => ({
+    hangul: text(candidate.hangul),
+    pronunciation: text(candidate.pronunciation),
+    meaning: text(candidate.meaning),
+    recommendationReason: text(candidate.recommendation_reason),
+    culturalFit: text(candidate.cultural_fit),
+    usageNote: text(candidate.usage_note),
   });
 
-  const parsed = JSON.parse(completion.choices[0]?.message?.content ?? "{}") as Record<string, unknown>;
-  const breakdownRaw = Array.isArray(parsed.meaning_breakdown) ? parsed.meaning_breakdown : [];
-  const meaningBreakdown = breakdownRaw
-    .map((entry) => {
-      const record = entry && typeof entry === "object" ? (entry as Record<string, unknown>) : {};
-      return { syllable: text(record.syllable), meaning: text(record.meaning) };
-    })
-    .filter((entry) => entry.syllable.length > 0);
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 40_000, maxRetries: 1 });
+  const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+
+  // 후보별 상세 해설(병렬) — 한 번의 큰 호출은 타임아웃 위험이 있어 후보 단위로 나눈다.
+  const candidateCall = async (candidate: Record<string, unknown>) => {
+    const grounding = candidateGrounding(candidate);
+    const completion = await openai.chat.completions.create({
+      model,
+      temperature: 0.5,
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content: [
+            "You are a premium Korean naming consultant writing the detailed section about ONE Korean name candidate in a paid keepsake report.",
+            "Ground every statement ONLY in the provided input data (candidate fields, original name, usage context, sajuReference). Never invent meanings, hanja, or facts not in the input. If a connection is not supported by the data, describe the name's qualities without claiming that connection.",
+            "Write warmly and concretely in second person. No fortune-telling or promises of luck.",
+            "Return valid JSON: { meaning_breakdown: [{ syllable, meaning }], why_this_name, sound_connection, pronunciation_tips, cultural_notes, usage_guide }.",
+            "meaning_breakdown: one entry per Hangul syllable of the candidate name (family-name syllable included), each grounded in the candidate meaning or a factual note about its role.",
+            "why_this_name: why this name suits this person. sound_connection: how it echoes the original name's sound, honestly (if no real sound link, say it was chosen for naturalness). pronunciation_tips: how to pronounce it, syllable by syllable, for a speaker of the report language. cultural_notes: how the name is perceived in Korea. usage_guide: where and how to use it.",
+            LANGUAGE_RULE(languageName),
+          ].join(" "),
+        },
+        {
+          role: "user",
+          content: `Shared context:\n${JSON.stringify(sharedGrounding, null, 2)}\n\nCandidate:\n${JSON.stringify(grounding, null, 2)}`,
+        },
+      ],
+    });
+    const parsed = parseJson(completion.choices[0]?.message?.content);
+    const breakdownRaw = Array.isArray(parsed.meaning_breakdown) ? parsed.meaning_breakdown : [];
+    const meaningBreakdown = breakdownRaw
+      .map((entry) => {
+        const record = entry && typeof entry === "object" ? (entry as Record<string, unknown>) : {};
+        return { syllable: text(record.syllable), meaning: text(record.meaning) };
+      })
+      .filter((entry) => entry.syllable.length > 0);
+    return {
+      name: { hangul: grounding.hangul, romanized: romanizedOf(candidate) },
+      sections: {
+        meaningBreakdown:
+          meaningBreakdown.length > 0
+            ? meaningBreakdown
+            : [...grounding.hangul].map((syllable) => ({ syllable, meaning: "" })),
+        whyThisName: text(parsed.why_this_name),
+        soundConnection: text(parsed.sound_connection),
+        pronunciationTips: text(parsed.pronunciation_tips),
+        culturalNotes: text(parsed.cultural_notes),
+        usageGuide: text(parsed.usage_guide),
+      },
+    } satisfies GlobalNameCandidateReport;
+  };
+
+  // 종합(개요 + 사주 해석) 호출 — 후보 전체를 함께 본다.
+  const overviewCall = async () => {
+    const completion = await openai.chat.completions.create({
+      model,
+      temperature: 0.5,
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content: [
+            "You are a premium Korean naming consultant writing the overview of a paid keepsake report that covers ALL Korean name candidates for one person.",
+            "Ground every statement ONLY in the provided data. No fortune-telling; saju content is symbolic reference only.",
+            "Return valid JSON: { analysis_summary, saju_overview, saju_name_alignment }.",
+            "analysis_summary: 3-5 sentences introducing how the candidate set connects to the original name, purpose and tone.",
+            "saju_overview and saju_name_alignment: ONLY when sajuReference exists — explain the five-element balance and how the candidate names symbolically align, quoting the given counts/dominant/weakest/dayMaster verbatim. When sajuReference is null, return empty strings for both.",
+            LANGUAGE_RULE(languageName),
+          ].join(" "),
+        },
+        {
+          role: "user",
+          content: `Shared context:\n${JSON.stringify(sharedGrounding, null, 2)}\n\nCandidates:\n${JSON.stringify(
+            candidates.map(candidateGrounding),
+            null,
+            2,
+          )}`,
+        },
+      ],
+    });
+    return parseJson(completion.choices[0]?.message?.content);
+  };
+
+  const [overview, ...candidateReports] = await Promise.all([
+    overviewCall(),
+    ...candidates.map((candidate) => candidateCall(candidate)),
+  ]);
 
   return {
     entitlement: { productCode: "GLOBAL_NAME_PDF", includesPdf: true },
@@ -200,25 +274,15 @@ export async function buildGlobalNamePremiumResult(payload: {
       reportId,
       generatedAt: new Date().toISOString(),
       outputLanguage,
-      name: { hangul, romanized: romanizedOf(candidate) },
-      original: { name: grounding.originalName, country: grounding.country },
-      sections: {
-        analysisSummary: text(parsed.analysis_summary),
-        meaningBreakdown:
-          meaningBreakdown.length > 0
-            ? meaningBreakdown
-            : [...hangul].map((syllable) => ({ syllable, meaning: "" })),
-        whyThisName: text(parsed.why_this_name),
-        soundConnection: text(parsed.sound_connection),
-        pronunciationTips: text(parsed.pronunciation_tips),
-        culturalNotes: text(parsed.cultural_notes),
-        usageGuide: text(parsed.usage_guide),
-      },
+      original: { name: sharedGrounding.originalName, country: sharedGrounding.country },
+      analysisSummary: text(overview.analysis_summary),
+      fonts: payload.fonts ?? [],
+      candidates: candidateReports,
       saju: sajuCalculation
         ? {
             ...sajuCalculation,
-            overview: text(parsed.saju_overview),
-            nameAlignment: text(parsed.saju_name_alignment),
+            overview: text(overview.saju_overview),
+            nameAlignment: text(overview.saju_name_alignment),
           }
         : null,
     },
