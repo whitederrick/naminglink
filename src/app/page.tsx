@@ -186,7 +186,9 @@ export default async function Home({ searchParams }: HomeProps) {
         </header>
 
         <div className="relative z-10 mx-auto grid w-full max-w-7xl flex-1 gap-5 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-start lg:px-10 lg:pt-[clamp(6.5rem,14vh,8.5rem)]">
-          <section className="max-w-3xl text-left lg:-translate-y-8 lg:grid lg:max-w-none lg:grid-rows-[5.75rem_12rem_6.25rem] lg:content-start">
+          {/* min-w-0: 카드 제목(truncate=nowrap)의 전체 폭이 min-width:auto를 타고 그리드 트랙을
+              뷰포트 밖까지 부풀리는 것을 차단한다(제목이 긴 언어에서 우측 잘림의 원인이었음). */}
+          <section className="min-w-0 max-w-3xl text-left lg:-translate-y-8 lg:grid lg:max-w-none lg:grid-rows-[5.75rem_12rem_6.25rem] lg:content-start">
             <p className="inline-flex w-fit items-center justify-center justify-self-start self-start rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-center text-xl font-semibold text-white shadow-sm backdrop-blur sm:text-2xl">
               {copy.badge}
             </p>
@@ -208,14 +210,14 @@ export default async function Home({ searchParams }: HomeProps) {
             </p>
           </section>
 
-          <section className="grid w-full max-w-[37.5rem] justify-self-end gap-2 lg:min-h-[18rem]">
+          <section className="grid w-full min-w-0 max-w-[37.5rem] justify-self-end gap-2 lg:min-h-[18rem]">
             <div className="flex items-center justify-end gap-3">
               <p className="text-xs text-white/60">{copy.servicePickerHint}</p>
             </div>
             {!isKoreanEntry ? (
               <Link
                 href={`/global-to-korean?lang=${locale}&mode=transliteration`}
-                className="group h-[7.25rem] rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
+                className="group h-[7.25rem] min-w-0 rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
               >
                 <div className="relative flex items-start gap-3 pr-7">
                   <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg border border-white/18 bg-black/20 p-1 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-sm">
@@ -247,7 +249,7 @@ export default async function Home({ searchParams }: HomeProps) {
                 <Link
                   key={service.slug}
                   href={`/${service.slug}?lang=${locale}`}
-                  className="group h-[7.25rem] rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
+                  className="group h-[7.25rem] min-w-0 rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
                 >
                   <div className="relative flex items-start gap-3 pr-7">
                     <span className="flex h-[4.5rem] w-[4.5rem] shrink-0 items-center justify-center rounded-lg border border-white/18 bg-black/20 p-1 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-sm">

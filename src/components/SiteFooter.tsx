@@ -789,7 +789,16 @@ export function SiteFooter({
               className="flex flex-wrap items-center justify-center gap-x-3 gap-y-0"
             >
               {row.map((item) => (
-                <span key={item.label} className="whitespace-nowrap" dir={textDirection}>
+                // 주소처럼 긴 값은 nowrap이면 390px 뷰포트를 넘어 잘리므로 줄바꿈을 허용한다.
+                <span
+                  key={item.label}
+                  className={
+                    String(item.value ?? "").length > 30
+                      ? "max-w-full [overflow-wrap:break-word]"
+                      : "whitespace-nowrap"
+                  }
+                  dir={textDirection}
+                >
                   {item.label}{" "}
                   <strong className={valueClass}>{item.value}</strong>
                 </span>
