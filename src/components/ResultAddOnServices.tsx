@@ -79,23 +79,12 @@ export function ResultAddOnServices({
             </span>
           </h3>
           <p className="mt-2 flex-1 text-sm leading-6 text-muted">{copy.goodsBody}</p>
-          {foreign ? (
-            // 외국인 로케일은 도장 주문 페이지가 아직 한국어 전용이라 준비 중 상태를 유지한다.
-            <button
-              type="button"
-              disabled
-              className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-surface-strong px-3 text-sm font-semibold text-muted disabled:cursor-not-allowed"
-            >
-              {copy.button}
-            </button>
-          ) : (
-            <Link
-              href={`/stamp-order?lang=${locale ?? "ko"}`}
-              className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
-            >
-              이름 도장 신청 · ₩39,000
-            </Link>
-          )}
+          <Link
+            href={`/stamp-order?lang=${locale ?? "ko"}`}
+            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
+          >
+            {foreign ? copy.button : "이름 도장 신청 · ₩39,000"}
+          </Link>
         </article>
       </div>
     </section>

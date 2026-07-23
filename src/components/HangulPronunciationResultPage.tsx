@@ -177,7 +177,7 @@ function ReanalysisSection({
   );
 }
 
-function ResultServices({ copy }: { copy: ResultCopy }) {
+function ResultServices({ copy, locale }: { copy: ResultCopy; locale: string }) {
   return (
     <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
       <p className="text-sm font-semibold text-brand-teal">
@@ -199,13 +199,12 @@ function ResultServices({ copy }: { copy: ResultCopy }) {
             {copy.goodsItemDescription}
           </p>
 
-          <button
-            type="button"
-            disabled
-            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-surface-strong px-3 text-sm font-semibold text-muted disabled:cursor-not-allowed"
+          <Link
+            href={`/stamp-order?lang=${locale}`}
+            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
           >
             {copy.goodsButton}
-          </button>
+          </Link>
         </article>
       </div>
     </section>
@@ -337,7 +336,7 @@ export function HangulPronunciationResultPage({
               onUpdated={setUpdatedStored}
               copy={copy}
             />
-            <ResultServices copy={copy} />
+            <ResultServices copy={copy} locale={locale} />
           </div>
         ) : (
           <section className="rounded-lg border border-line bg-surface p-6 shadow-sm">
