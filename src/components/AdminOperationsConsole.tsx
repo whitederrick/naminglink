@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import {
   DailyTrendChart,
@@ -23,7 +23,13 @@ const basePath = "/naming-artist";
 // 메뉴는 목적별 4개 그룹으로 나눈다(그룹당 최대 3개). 데스크톱은 그룹 제목이 보이고,
 // 모바일은 공간이 좁아 제목 없이 납작한 그리드로 표시된다.
 const navGroups = [
-  { heading: "운영 현황", items: [["대시보드", basePath, LayoutDashboard]] },
+  {
+    heading: "운영 현황",
+    items: [
+      ["대시보드", basePath, LayoutDashboard],
+      ["PDF 테스트", `${basePath}/pdf-test`, FileText],
+    ],
+  },
   {
     heading: "고객·주문",
     items: [
