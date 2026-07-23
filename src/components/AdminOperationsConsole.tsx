@@ -44,6 +44,7 @@ const navGroups = [
     items: [
       ["한자·발음 기준", `${basePath}/hanja`, BookOpenCheck],
       ["기준 데이터", `${basePath}/data`, Boxes],
+      ["서체 관리", `${basePath}/fonts`, FilePenLine],
       ["정책·푸터", `${basePath}/content`, FilePenLine],
     ],
   },
