@@ -160,7 +160,8 @@ export function ArtPage({
               {hangul}
             </Text>
             <View style={styles.divider} />
-            <Text style={styles.romanized}>{romanized}</Text>
+            {/* 로마자 발음에 성조·발음부호(라틴 확장)가 있어도 두부가 되지 않도록 폰트를 라우팅한다. */}
+            <MixedText style={styles.romanized} text={romanized} />
           </View>
           <View style={{ alignItems: "center" }}>
             <View style={styles.seal}>

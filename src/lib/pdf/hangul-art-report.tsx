@@ -148,13 +148,15 @@ function GuidePage({
           <View style={styles.metaRow}>
             <View style={styles.metaBox}>
               <Text style={styles.metaLabel}>Syllables</Text>
-              <Text style={styles.metaValue}>
-                {candidate.pronunciation.syllables || candidate.name.romanized}
-              </Text>
+              {/* 발음 표기라 로마자에 성조·발음부호가 들어온다. 두부 방지로 폰트를 라우팅한다. */}
+              <MixedText
+                style={styles.metaValue}
+                text={candidate.pronunciation.syllables || candidate.name.romanized}
+              />
             </View>
             <View style={styles.metaBox}>
               <Text style={styles.metaLabel}>Read as</Text>
-              <Text style={styles.metaValue}>{candidate.name.romanized}</Text>
+              <MixedText style={styles.metaValue} text={candidate.name.romanized} />
             </View>
           </View>
           <Section title="Where this spelling comes from" body={candidate.pronunciation.basis} />

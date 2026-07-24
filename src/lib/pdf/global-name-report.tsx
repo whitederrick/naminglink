@@ -231,7 +231,9 @@ function PageHeader({ data, subtitle }: { data: GlobalNameReportData; subtitle: 
   return (
     <View style={styles.pageHeader}>
       <View>
-        <Text style={styles.pageHeaderName}>{subtitle}</Text>
+        {/* 한글 이름 + 로마자 발음이 한 줄에 섞인다. raw Text면 상속된 NotoSansKR가 로마자 성조·
+            발음부호(라틴 확장)를 두부로 만든다. MixedText가 한글·라틴을 각 폰트로 나눠 렌더한다. */}
+        <MixedText style={styles.pageHeaderName} text={subtitle} />
         <MixedText
           style={{ fontSize: 8.5, color: colors.muted, marginTop: 2 }}
           text={`Korean name report for ${data.original.name}`}

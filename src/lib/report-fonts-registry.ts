@@ -115,16 +115,19 @@ export async function ensureReportFontFile(row: ReportFontRow) {
   if (!supabase) throw new Error("서체 저장소 연결이 설정되지 않았습니다.");
   const cacheDir = path.join(os.tmpdir(), "naminglink-report-fonts");
   const extension = path.extname(row.storage_path) || ".ttf";
-  const cacheKey = row.file_sha256 ?? row.code;
-  const cachePath = path.join(cacheDir, `${cacheKey}${extension}`);
+  // 캐시 키는 반드시 파일 내용 해시(sha256)여야 한다. 예전에는 sha가 없으면 code로 폴백했는데,
+  // 그러면 파일을 교체해도 캐시 키가 그대로라 웜 람다의 /tmp에 남은 옛 파일이 계속 쓰였다.
+  // sha를 강제하면 파일이 바뀔 때 캐시 경로도 바뀌고, 무결성 검증도 항상 돈다.
+  if (!row.file_sha256) {
+    throw new Error(`서체에 무결성 해시가 없어 사용할 수 없습니다: ${row.code}`);
+  }
+  const cachePath = path.join(cacheDir, `${row.file_sha256}${extension}`);
   if (existsSync(cachePath)) return cachePath;
   const { data, error } = await supabase.storage.from("report-fonts").download(row.storage_path);
   if (error || !data) throw new Error(`서체 파일을 내려받지 못했습니다: ${row.code}`);
   const buffer = Buffer.from(await data.arrayBuffer());
-  if (row.file_sha256) {
-    const sha = createHash("sha256").update(buffer).digest("hex");
-    if (sha !== row.file_sha256) throw new Error(`서체 파일 무결성 검증 실패: ${row.code}`);
-  }
+  const sha = createHash("sha256").update(buffer).digest("hex");
+  if (sha !== row.file_sha256) throw new Error(`서체 파일 무결성 검증 실패: ${row.code}`);
   mkdirSync(cacheDir, { recursive: true });
   writeFileSync(cachePath, buffer);
   return cachePath;
