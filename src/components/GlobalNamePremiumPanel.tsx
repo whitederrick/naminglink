@@ -27,6 +27,7 @@ type PremiumCopy = {
   download: string;
   resume: string;
   failed: string;
+  cancel: string;
   preparing: string;
   artTitle: string;
   artDesc: string;
@@ -49,6 +50,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF 다운로드",
     resume: "이전 구매 이어받기",
     failed: "처리에 실패했습니다. 다시 시도해 주세요.",
+    cancel: "결제 취소",
     preparing: "결제 기능 준비 중입니다.",
     artTitle: "한글 표기 아트 (PDF)",
     artDesc: "이름의 한글 표기를 선택한 붓글씨 서체의 아트와 발음 안내 페이지로 만들어 드립니다. 결제 후 24시간 다운로드.",
@@ -69,6 +71,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Download PDF",
     resume: "Resume previous purchase",
     failed: "Something went wrong. Please try again.",
+    cancel: "Cancel payment",
     preparing: "Payment is coming soon.",
     artTitle: "Hangul Name Art (PDF)",
     artDesc: "Your name's Hangul spelling as calligraphy art in the typeface you choose, plus a pronunciation guide. Downloadable for 24 hours after purchase.",
@@ -89,6 +92,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Tải PDF",
     resume: "Tiếp tục giao dịch trước",
     failed: "Đã xảy ra lỗi. Vui lòng thử lại.",
+    cancel: "Hủy thanh toán",
     preparing: "Tính năng thanh toán sắp ra mắt.",
     artTitle: "Nghệ thuật tên Hangul (PDF)",
     artDesc: "Cách viết Hangul của tên bạn thành tác phẩm thư pháp theo kiểu chữ bạn chọn, kèm hướng dẫn phát âm. Tải xuống trong 24 giờ sau khi mua.",
@@ -109,6 +113,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "ดาวน์โหลด PDF",
     resume: "ดำเนินการซื้อก่อนหน้าต่อ",
     failed: "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง",
+    cancel: "ยกเลิกการชำระเงิน",
     preparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
     artTitle: "ศิลปะชื่อฮันกึล (PDF)",
     artDesc: "การเขียนชื่อของคุณเป็นฮันกึลในรูปแบบศิลปะลายพู่กันตามแบบอักษรที่คุณเลือก พร้อมคู่มือการออกเสียง ดาวน์โหลดได้ 24 ชั่วโมงหลังซื้อ",
@@ -129,6 +134,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDFをダウンロード",
     resume: "前回の購入を再開",
     failed: "処理に失敗しました。もう一度お試しください。",
+    cancel: "決済をキャンセル",
     preparing: "決済機能は準備中です。",
     artTitle: "ハングル表記アート (PDF)",
     artDesc: "お名前のハングル表記を、選んだ書体の書アートと発音ガイドのページに仕上げます。購入後24時間ダウンロードできます。",
@@ -149,6 +155,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "下载 PDF",
     resume: "继续上次购买",
     failed: "处理失败，请重试。",
+    cancel: "取消支付",
     preparing: "支付功能即将上线。",
     artTitle: "韩文名字艺术 (PDF)",
     artDesc: "以您选择的书法字体将名字的韩文写法制成艺术页，并附发音指南。付款后 24 小时内可下载。",
@@ -169,6 +176,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Unduh PDF",
     resume: "Lanjutkan pembelian sebelumnya",
     failed: "Terjadi kesalahan. Silakan coba lagi.",
+    cancel: "Batalkan pembayaran",
     preparing: "Fitur pembayaran segera hadir.",
     artTitle: "Seni Nama Hangul (PDF)",
     artDesc: "Ejaan Hangul nama Anda sebagai seni kaligrafi dalam gaya huruf pilihan Anda, plus panduan pelafalan. Dapat diunduh 24 jam setelah pembelian.",
@@ -189,6 +197,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF herunterladen",
     resume: "Vorherigen Kauf fortsetzen",
     failed: "Es ist ein Fehler aufgetreten. Bitte erneut versuchen.",
+    cancel: "Zahlung abbrechen",
     preparing: "Die Zahlungsfunktion ist in Vorbereitung.",
     artTitle: "Hangul-Namenskunst (PDF)",
     artDesc: "Die Hangul-Schreibweise Ihres Namens als Kalligrafie-Kunst im gewählten Schriftstil, plus Ausspracheführer. 24 Stunden nach dem Kauf herunterladbar.",
@@ -209,6 +218,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Descargar PDF",
     resume: "Continuar compra anterior",
     failed: "Algo salió mal. Inténtalo de nuevo.",
+    cancel: "Cancelar el pago",
     preparing: "El pago estará disponible próximamente.",
     artTitle: "Arte de tu nombre en hangul (PDF)",
     artDesc: "La escritura en hangul de tu nombre como arte caligráfico en la tipografía que elijas, con guía de pronunciación. Descargable durante 24 horas tras la compra.",
@@ -229,6 +239,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Télécharger le PDF",
     resume: "Reprendre l'achat précédent",
     failed: "Une erreur est survenue. Veuillez réessayer.",
+    cancel: "Annuler le paiement",
     preparing: "Le paiement sera bientôt disponible.",
     artTitle: "Art de votre nom en hangeul (PDF)",
     artDesc: "L'écriture en hangeul de votre prénom en art calligraphique dans le style de votre choix, avec un guide de prononciation. Téléchargeable pendant 24 h après l'achat.",
@@ -249,6 +260,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Scarica il PDF",
     resume: "Riprendi l'acquisto precedente",
     failed: "Si è verificato un errore. Riprova.",
+    cancel: "Annulla il pagamento",
     preparing: "Il pagamento sarà presto disponibile.",
     artTitle: "Arte del tuo nome in hangul (PDF)",
     artDesc: "La scrittura in hangul del tuo nome come arte calligrafica nello stile che scegli, con guida alla pronuncia. Scaricabile per 24 ore dopo l'acquisto.",
@@ -269,6 +281,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Baixar PDF",
     resume: "Retomar compra anterior",
     failed: "Algo deu errado. Tente novamente.",
+    cancel: "Cancelar pagamento",
     preparing: "O pagamento estará disponível em breve.",
     artTitle: "Arte do seu nome em hangul (PDF)",
     artDesc: "A escrita em hangul do seu nome como arte caligráfica na tipografia que você escolher, com guia de pronúncia. Disponível para download por 24 horas após a compra.",
@@ -289,6 +302,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Скачать PDF",
     resume: "Продолжить предыдущую покупку",
     failed: "Произошла ошибка. Попробуйте ещё раз.",
+    cancel: "Отменить оплату",
     preparing: "Оплата скоро появится.",
     artTitle: "Арт вашего имени на хангыле (PDF)",
     artDesc: "Запись вашего имени на хангыле в виде каллиграфического искусства выбранным шрифтом, плюс гид по произношению. Доступно для скачивания 24 часа после покупки.",
@@ -309,6 +323,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "تنزيل PDF",
     resume: "متابعة الشراء السابق",
     failed: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    cancel: "إلغاء الدفع",
     preparing: "الدفع متاح قريبًا.",
     artTitle: "فن اسمك بالهانغول (PDF)",
     artDesc: "كتابة اسمك بالهانغول كعمل فني بالخط الذي تختاره، مع دليل النطق. يمكن تنزيله خلال 24 ساعة بعد الشراء.",
@@ -329,6 +344,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF indir",
     resume: "Önceki satın alımına devam et",
     failed: "Bir hata oluştu. Lütfen tekrar deneyin.",
+    cancel: "Ödemeyi iptal et",
     preparing: "Ödeme yakında kullanılabilir olacak.",
     artTitle: "Hangul İsim Sanatı (PDF)",
     artDesc: "İsminizin Hangul yazılışı, seçtiğiniz yazı tipinde hat sanatı olarak, telaffuz rehberiyle birlikte. Satın alımdan sonra 24 saat indirilebilir.",
@@ -349,6 +365,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "I-download ang PDF",
     resume: "Ipagpatuloy ang naunang pagbili",
     failed: "Nagkaproblema. Pakisubukang muli.",
+    cancel: "Kanselahin ang bayad",
     preparing: "Malapit nang magbukas ang pagbabayad.",
     artTitle: "Sining ng Pangalan sa Hangul (PDF)",
     artDesc: "Ang Hangul na baybay ng iyong pangalan bilang sining ng kaligrapiya sa tipong pipiliin mo, may kasamang gabay sa pagbigkas. Maida-download sa loob ng 24 oras pagkatapos bumili.",
@@ -369,6 +386,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF yuklab olish",
     resume: "Avvalgi xaridni davom ettirish",
     failed: "Xatolik yuz berdi. Qayta urinib ko‘ring.",
+    cancel: "To'lovni bekor qilish",
     preparing: "To‘lov tez orada ishga tushadi.",
     artTitle: "Hangul ism san’ati (PDF)",
     artDesc: "Ismingizning hangul yozuvi siz tanlagan uslubda xattotlik san’ati sifatida, talaffuz qo‘llanmasi bilan. Xariddan keyin 24 soat davomida yuklab olish mumkin.",
@@ -389,6 +407,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF татах",
     resume: "Өмнөх худалдан авалтыг үргэлжлүүлэх",
     failed: "Алдаа гарлаа. Дахин оролдоно уу.",
+    cancel: "Төлбөрийг цуцлах",
     preparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
     artTitle: "Хангыл нэрийн урлаг (PDF)",
     artDesc: "Таны нэрийн хангыль бичлэгийг сонгосон бичгийн хэв маягаар урлагийн хуудас болгож, дуудлагын заавартай хамт. Худалдан авснаас хойш 24 цагийн дотор татаж авна.",
@@ -409,6 +428,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF डाउनलोड करें",
     resume: "पिछली खरीद जारी रखें",
     failed: "कुछ गलत हुआ। कृपया फिर से कोशिश करें।",
+    cancel: "भुगतान रद्द करें",
     preparing: "भुगतान सुविधा जल्द आ रही है।",
     artTitle: "हंगुल नाम आर्ट (PDF)",
     artDesc: "आपके नाम की हांगुल लिखावट, आपकी चुनी शैली में सुलेख कला के रूप में, उच्चारण गाइड के साथ। खरीद के बाद 24 घंटे तक डाउनलोड करें।",
@@ -429,6 +449,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "ទាញយក PDF",
     resume: "បន្តការទិញមុន",
     failed: "មានបញ្ហាកើតឡើង។ សូមព្យាយាមម្តងទៀត។",
+    cancel: "បោះបង់ការទូទាត់",
     preparing: "មុខងារទូទាត់នឹងមកដល់ឆាប់ៗនេះ។",
     artTitle: "សិល្បៈឈ្មោះហាន់ហ្គុល (PDF)",
     artDesc: "ការសរសេរឈ្មោះរបស់អ្នកជាអក្សរហាំងកឹល ជាសិល្បៈអក្សរសាស្ត្រតាមបែបអក្សរដែលអ្នកជ្រើសរើស រួមជាមួយការណែនាំការបញ្ចេញសំឡេង។ ទាញយកបានក្នុងរយៈពេល 24 ម៉ោងបន្ទាប់ពីទិញ។",
@@ -449,6 +470,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "PDF жүктеп алу",
     resume: "Алдыңғы сатып алуды жалғастыру",
     failed: "Қате пайда болды. Қайталап көріңіз.",
+    cancel: "Төлемді болдырмау",
     preparing: "Төлем мүмкіндігі жақында қосылады.",
     artTitle: "Хангыл есім өнері (PDF)",
     artDesc: "Есіміңіздің хангыль жазылуы сіз таңдаған стильдегі каллиграфиялық өнер ретінде, айтылу нұсқаулығымен бірге. Сатып алғаннан кейін 24 сағат ішінде жүктеп алуға болады.",
@@ -469,6 +491,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Muat turun PDF",
     resume: "Sambung pembelian sebelumnya",
     failed: "Berlaku ralat. Sila cuba lagi.",
+    cancel: "Batalkan pembayaran",
     preparing: "Fungsi pembayaran akan datang tidak lama lagi.",
     artTitle: "Seni Nama Hangul (PDF)",
     artDesc: "Ejaan Hangul nama anda sebagai seni kaligrafi dalam gaya huruf pilihan anda, berserta panduan sebutan. Boleh dimuat turun selama 24 jam selepas pembelian.",
@@ -489,6 +512,7 @@ const premiumCopies: Record<string, PremiumCopy> = {
     download: "Pobierz PDF",
     resume: "Wznów poprzedni zakup",
     failed: "Coś poszło nie tak. Spróbuj ponownie.",
+    cancel: "Anuluj płatność",
     preparing: "Płatności będą dostępne wkrótce.",
     artTitle: "Sztuka imienia w hangulu (PDF)",
     artDesc: "Zapis twojego imienia w hangul jako sztuka kaligrafii w wybranym stylu, z przewodnikiem wymowy. Do pobrania przez 24 godziny po zakupie.",
@@ -1074,7 +1098,24 @@ export function GlobalNamePremiumPanel({
           {testBusy ? "테스트 PDF 생성 중…" : "운영자 테스트: 결제 없이 PDF 받기"}
         </button>
       ) : null}
-      {stage === "paying" ? <div className="portone-ui-container mt-4" /> : null}
+      {stage === "paying" ? (
+        <>
+          <div className="portone-ui-container mt-4" />
+          {/* 페이팔 SPB는 페이지 안에 버튼을 그리는 방식이라, 결제를 그만두려는 사람에게 빠져나갈
+              길이 없으면 결제 단계에 갇힌 채로 남는다. 아직 결제가 성립하지 않은 단계이므로
+              화면 상태만 되돌리면 되고, 미결제 주문은 파기 크론이 24시간 뒤 정리한다. */}
+          <button
+            type="button"
+            onClick={() => {
+              setPaypalRequest(null);
+              setStage("idle");
+            }}
+            className="mt-2 w-full rounded-lg border border-line px-4 py-2 text-sm text-muted-foreground"
+          >
+            {copy.cancel}
+          </button>
+        </>
+      ) : null}
       {resumable && stage === "idle" ? (
         <button
           type="button"

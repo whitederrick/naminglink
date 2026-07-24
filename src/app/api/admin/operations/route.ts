@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
+import { KRW_PER_USD, summarizeAiUsage } from "@/lib/ai-pricing";
 import { STAMP_MODELS, type StampModelCode } from "@/lib/goods-products";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { z } from "zod";
@@ -64,7 +65,17 @@ export async function GET(request: NextRequest) {
       .select("id,service_type,model,prompt_tokens,completion_tokens,total_tokens,latency_ms,status,error_code,created_at")
       .gte("created_at", since).order("created_at", { ascending: false }).limit(500);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
-    return NextResponse.json({ ok: true, usage: data ?? [] });
+    // 상세 표는 최근 500건만 보여주지만 원가 집계는 기간 전체를 봐야 한다. 집계에 필요한 열만
+    // 따로 넓게 읽어 서버에서 합산하므로 응답 크기는 서비스 수만큼만 늘어난다.
+    const { data: costRows } = await supabase.from("ai_usage_logs")
+      .select("service_type,model,prompt_tokens,completion_tokens,total_tokens,status")
+      .gte("created_at", since).limit(20000);
+    return NextResponse.json({
+      ok: true,
+      usage: data ?? [],
+      usageSummary: summarizeAiUsage(costRows ?? []),
+      krwPerUsd: KRW_PER_USD,
+    });
   }
 
   const { data, error } = await supabase.rpc("admin_analytics_snapshot", { p_days: days });

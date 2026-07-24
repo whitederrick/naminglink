@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
+import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import {
   DailyTrendChart,
@@ -163,6 +164,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
 type UserRow = Record<string, string | boolean | null>;
 type OrderRow = Record<string, string | number | boolean | null>;
 type UsageRow = Record<string, string | number>;
+type CostRow = AiUsageSummaryRow;
 
 function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Record<string, string>) => void }) {
   const [search, setSearch] = useState("");
@@ -366,7 +368,50 @@ function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body:
   );
 }
 
-function AiUsageView({ usage }: { usage: UsageRow[] }) {
+// 서비스별 원가는 서버에서 기간 전체를 합산해 내려준다(아래 상세 표는 최근 500건만 보여준다).
+function AiCostSummary({ summary, krwPerUsd }: { summary: CostRow[]; krwPerUsd: number }) {
+  if (!summary.length) return null;
+  const totalUsd = summary.reduce((sum, row) => sum + row.costUsd, 0);
+  const krw = (usd: number) => `₩${number.format(Math.round(usd * krwPerUsd))}`;
+  const perCall = (row: CostRow) => (row.calls ? row.costUsd / row.calls : 0);
+  return (
+    <section className="mt-6">
+      <h3 className="text-sm font-semibold">서비스별 토큰·추정 원가</h3>
+      <p className="mt-1 text-xs text-muted-foreground">
+        기간 내 전체 호출 기준입니다. 토큰 단가로 환산한 추정치이며 실제 청구액이 아닙니다 —
+        단가는 <code>src/lib/ai-pricing.ts</code>에 있고, 주기적으로 청구서와 대조하세요.
+        규칙 엔진·모의 응답은 AI 호출이 아니라 0원으로 잡힙니다.
+      </p>
+      <div className="mt-3">
+        <Table
+          headers={["서비스", "모델", "호출", "입력 토큰", "출력 토큰", "건당 원가", "합계 원가"]}
+          rows={summary.map((row) => [
+            serviceTypeLabel(row.serviceType),
+            modelLabel(row.model),
+            `${number.format(row.calls)}${row.errors ? ` (오류 ${row.errors})` : ""}`,
+            number.format(row.promptTokens),
+            number.format(row.completionTokens),
+            perCall(row) > 0 ? `${krw(perCall(row))} / $${perCall(row).toFixed(6)}` : "—",
+            row.costUsd > 0 ? `${krw(row.costUsd)} / $${row.costUsd.toFixed(4)}` : "—",
+          ])}
+        />
+      </div>
+      <p className="mt-2 text-sm font-medium">
+        기간 합계 ≈ {krw(totalUsd)} (${totalUsd.toFixed(4)})
+      </p>
+    </section>
+  );
+}
+
+function AiUsageView({
+  usage,
+  summary,
+  krwPerUsd,
+}: {
+  usage: UsageRow[];
+  summary: CostRow[];
+  krwPerUsd: number;
+}) {
   const [service, setService] = useState("all");
   const [status, setStatus] = useState("all");
   const [model, setModel] = useState("all");
@@ -427,6 +472,7 @@ function AiUsageView({ usage }: { usage: UsageRow[] }) {
         ])}
       />
       <Pagination page={paged.page} totalPages={paged.totalPages} total={paged.total} onChange={paged.setPage} />
+      <AiCostSummary summary={summary} krwPerUsd={krwPerUsd} />
     </>
   );
 }
@@ -664,7 +710,14 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const content = (() => {
     if (view === "users") return <UsersView users={(payload?.users ?? []) as UserRow[]} onAction={(body) => void runAction(body)} />;
     if (view === "orders") return <OrdersView orders={(payload?.orders ?? []) as OrderRow[]} onAction={(body) => void runAction(body)} />;
-    if (view === "ai") return <AiUsageView usage={(payload?.usage ?? []) as UsageRow[]} />;
+    if (view === "ai")
+      return (
+        <AiUsageView
+          usage={(payload?.usage ?? []) as UsageRow[]}
+          summary={(payload?.usageSummary ?? []) as CostRow[]}
+          krwPerUsd={Number(payload?.krwPerUsd ?? 1400)}
+        />
+      );
     if (!snapshot) return null;
     if (view === "analytics") return <AnalyticsView snapshot={snapshot} summary={summary} />;
     if (view === "usage") return <UsageView snapshot={snapshot} summary={summary} />;
