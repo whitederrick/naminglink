@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Layanan Berbayar",
           paragraphs: [
-            "Rincian produk layanan pencocokan makna Hanja adalah sebagai berikut. ① Deskripsi rinci maksimum 5 kandidat dan rincian komprehensif Hanja: 2,900 won ② Deskripsi rinci maksimum 10 kandidat, rincian komprehensif Hanja, dan PDF untuk disimpan: 4,900 won ③ Deskripsi rinci maksimum 10 kandidat, rincian komprehensif Hanja, analisis Saju/Oheong, dan PDF untuk disimpan: 9,900 won.",
-            "Dalam layanan konversi nama global, konversi nama Korea, dan penulisan pengucapan Hangul, produk yang menampilkan semua kandidat yang tersisa tanpa iklan sekaligus (pembayaran domestik 990 won, pembayaran luar negeri US$1.99) dapat tersedia. Sebelum fungsi pembayaran diaktifkan, hanya akses berbasis iklan yang akan disediakan.",
+            "Rincian produk layanan pencocokan makna Hanja adalah sebagai berikut. ① Deskripsi rinci maksimum 5 kandidat dan rincian komprehensif Hanja: ₩2,900 ② Deskripsi rinci maksimum 10 kandidat, rincian komprehensif Hanja, dan PDF untuk disimpan: ₩4,900 ③ Deskripsi rinci maksimum 10 kandidat, rincian komprehensif Hanja, analisis Saju/Oheong, dan PDF untuk disimpan: ₩9,900.",
+            "Dalam layanan konversi nama global, konversi nama Korea, dan penulisan pengucapan Hangul, produk yang menampilkan semua kandidat yang tersisa tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negeri US$1.99) dapat tersedia. Sebelum fungsi pembayaran diaktifkan, hanya akses berbasis iklan yang akan disediakan.",
             "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama dalam Hangul PDF (US$9.99): Seni nama dengan font yang direkomendasikan, penjelasan makna, dan referensi Saju Oheong ⑤ Seni konversi pengucapan Hangul PDF (US$2.99): Seni nama dengan font yang dipilih dan panduan pengucapan ⑥ Paket seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan font yang dipilih. Harga dan jumlah font yang diterapkan untuk setiap produk mengikuti nilai yang tertera di layar.",
             "Laporan rinci berbayar dan hasil analisis, file PDF dapat dilihat dan diunduh kembali dalam waktu 24 jam setelah pembayaran selesai, dan akan dihapus secara otomatis setelah masa penyimpanan berakhir.",
-            "Barang fisik seperti stempel nama disediakan dengan harga masing-masing 39,000 won untuk domestik dan US$34.99 (termasuk biaya pengiriman internasional). Semua produk berbayar akan diinformasikan tentang isi produk, harga, cara penyediaan, dan syarat pengembalian sebelum pembayaran.",
+            "Barang fisik seperti stempel nama disediakan dengan harga masing-masing ₩39,000 untuk domestik dan US$34.99 (termasuk biaya pengiriman internasional). Semua produk berbayar akan diinformasikan tentang isi produk, harga, cara penyediaan, dan syarat pengembalian sebelum pembayaran.",
           ],
         },
         {

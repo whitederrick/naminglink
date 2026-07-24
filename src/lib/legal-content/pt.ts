@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Produto Detalhado de Correspondência de Significados de Caracteres Chineses",
           paragraphs: [
-            "Descrição detalhada de até 5 candidatos e resumo abrangente de caracteres chineses: 2,900₩",
-            "Descrição detalhada expandida de até 10 candidatos, resumo abrangente de caracteres chineses e PDF para download: 4,900₩",
-            "Detalhes de até 10 candidatos, resumo abrangente de caracteres chineses, análise de quatro pilares e cinco elementos e PDF para download: 9,900₩",
+            "Descrição detalhada de até 5 candidatos e resumo abrangente de caracteres chineses: ₩2,900",
+            "Descrição detalhada expandida de até 10 candidatos, resumo abrangente de caracteres chineses e PDF para download: ₩4,900",
+            "Detalhes de até 10 candidatos, resumo abrangente de caracteres chineses, análise de quatro pilares e cinco elementos e PDF para download: ₩9,900",
             "Relatórios pagos e PDFs podem ser visualizados e baixados novamente por 24 horas após o pagamento, sendo automaticamente excluídos após esse período.",
           ],
         },
         {
           title: "Divulgação Total de Candidatos",
           paragraphs: [
-            "Divulgação de todos os candidatos restantes nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em hangul, sem anúncios, de uma só vez: pagamento nacional 990₩, pagamento internacional US$1.99 (função de pagamento em preparação)",
+            "Divulgação de todos os candidatos restantes nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em hangul, sem anúncios, de uma só vez: pagamento nacional ₩990, pagamento internacional US$1.99 (função de pagamento em preparação)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Produtos de Nome em Hangul",
           paragraphs: [
-            "Carimbo de nome: 39,000₩ no país · US$34.99 no exterior (incluindo frete internacional). Outros produtos físicos têm preços, custos de envio e prazos de produção informados separadamente.",
+            "Carimbo de nome: ₩39,000 no país · US$34.99 no exterior (incluindo frete internacional). Outros produtos físicos têm preços, custos de envio e prazos de produção informados separadamente.",
           ],
         },
         {

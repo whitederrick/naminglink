@@ -46,10 +46,13 @@ for (const locale of supportedLocales) {
     if (doc.effectiveDate !== "2026-07-22") problems.push(`${kind}: effectiveDate ${doc.effectiveDate}`);
     // 일괄 공개 상품은 국내 990원·해외 US$1.99 이원 가격: 한국어 원본은 둘 다 병기하고,
     // 비한국어 번역은 해외 결제 가격(US$1.99)만 표기한다.
+    // 비한국어는 금액 표기를 결제 화면(displayPrice)과 같은 ₩2,900·US$1.99 형식으로 고정한다.
+    // 번역이 로케일 관습대로 2.900 / 990 Won / 1,99 US$ 등으로 되돌리면 여기서 걸린다
+    // (되돌았을 때는 scripts/normalize-legal-prices.mjs·normalize-legal-usd.mjs 실행).
     const expectedPrices =
       locale === "ko"
         ? ["2,900", "4,900", "9,900", "990", "US$1.99"]
-        : ["2,900", "4,900", "9,900", "US$1.99"];
+        : ["₩2,900", "₩4,900", "₩9,900", "US$1.99"];
     const priceOk = kind === "pricing" || kind === "refund" || kind === "terms"
       ? expectedPrices.every((p) => JSON.stringify(doc).includes(p))
       : true;

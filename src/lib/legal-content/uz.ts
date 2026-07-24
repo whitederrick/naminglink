@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Pullik xizmatlar",
           paragraphs: [
-            "Xitoycha ma'no moslashuvi xizmatining batafsil mahsulotlari quyidagilardir: ① nomlar uchun maksimal 5 ta batafsil tavsif va Xitoycha umumiy batafsil: 2,900 won ② nomlar uchun maksimal 10 ta kengaytirilgan batafsil tavsif, Xitoycha umumiy batafsil va saqlash uchun PDF: 4,900 won ③ nomlar uchun maksimal 10 ta batafsil, Xitoycha umumiy batafsil, saju va besh element tahlili va saqlash uchun PDF: 9,900 won.",
-            "Global nomni aylantirish, Koreyscha nomni aylantirish, Koreyscha talaffuz yozish xizmatlarida qolgan nomlarning barchasini reklamasiz bir marta ochiq ko'rsatadigan mahsulot (ichki to'lov 990 won, xorijiy to'lov US$1.99) taqdim etilishi mumkin. To'lov funksiyasi faollashtirilgunga qadar faqat reklama mukofoti asosidagi ko'rinish taqdim etiladi.",
+            "Xitoycha ma'no moslashuvi xizmatining batafsil mahsulotlari quyidagilardir: ① nomlar uchun maksimal 5 ta batafsil tavsif va Xitoycha umumiy batafsil: ₩2,900 ② nomlar uchun maksimal 10 ta kengaytirilgan batafsil tavsif, Xitoycha umumiy batafsil va saqlash uchun PDF: ₩4,900 ③ nomlar uchun maksimal 10 ta batafsil, Xitoycha umumiy batafsil, saju va besh element tahlili va saqlash uchun PDF: ₩9,900.",
+            "Global nomni aylantirish, Koreyscha nomni aylantirish, Koreyscha talaffuz yozish xizmatlarida qolgan nomlarning barchasini reklamasiz bir marta ochiq ko'rsatadigan mahsulot (ichki to'lov ₩990, xorijiy to'lov US$1.99) taqdim etilishi mumkin. To'lov funksiyasi faollashtirilgunga qadar faqat reklama mukofoti asosidagi ko'rinish taqdim etiladi.",
             "Global foydalanuvchilar uchun raqamli mahsulot sifatida ④ Koreyscha nomlar bo'yicha umumiy hisobot PDF (US$9.99): tavsiya etilgan nomlarning barchasining tanlangan shrift nomi san'ati, ma'no talqini, besh element tahlili ⑤ Koreyscha talaffuz o'tkazish san'ati PDF (US$2.99): tanlangan shrift nomi san'ati va talaffuz ko'rsatmasi ⑥ Nom san'ati to'plami PDF (US$1.99): tanlangan nomni bir xil shrift bo'yicha san'at sifatida taqdim etish. Har bir mahsulotning narxi va qo'llaniladigan shriftlar soni ekranda ko'rsatilgan qiymatlarga muvofiq bo'ladi.",
             "Pullik batafsil hisobotlar va tahlil natijalari, PDF fayllari to'lov amalga oshirilgandan so'ng 24 soat davomida qayta ko'rish va yuklab olish mumkin, saqlash muddati o'tgach avtomatik ravishda o'chiriladi.",
-            "Nom muhrlari kabi jismoniy mahsulotlar ichki 39,000 won, xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan) kabi mahsulotlar bo'yicha narx va shartlar bilan taqdim etiladi. Barcha pullik mahsulotlar to'lovdan oldin mahsulot mazmuni, narxi, taqdimot usuli, qaytarish shartlari ekranda ko'rsatiladi.",
+            "Nom muhrlari kabi jismoniy mahsulotlar ichki ₩39,000, xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan) kabi mahsulotlar bo'yicha narx va shartlar bilan taqdim etiladi. Barcha pullik mahsulotlar to'lovdan oldin mahsulot mazmuni, narxi, taqdimot usuli, qaytarish shartlari ekranda ko'rsatiladi.",
           ],
         },
         {
@@ -142,14 +142,14 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Xitoycha batafsil hisobot (2,900 won · 4,900 won · 9,900 won)",
+          title: "2. Xitoycha batafsil hisobot (₩2,900 · ₩4,900 · ₩9,900)",
           paragraphs: [
             "To'lovdan so'ng AI batafsil tahlil yaratish boshlanmaguncha bekor qilish mumkin. Tahlil yaratish tugagach va ko'rish yoki yuklab olish mumkin bo'lgach, oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin.",
             "Mazmun xatosi, tizim nosozligi sababli yaratish muvaffaqiyatsizligi, to'lov summasi mos kelmasligi aniqlangan taqdirda qayta berish yoki qaytarish bilan hal qilinadi. Saqlash muddati (to'lovdan keyin 24 soat) o'tgan taqdirda yuklab olish tugatilgan bo'lsa, bu qaytarish sababi hisoblanmaydi.",
           ],
         },
         {
-          title: "3. Nomzodlarning umumiy ochilishi (ichki 990 won · xorijiy US$1.99)",
+          title: "3. Nomzodlarning umumiy ochilishi (ichki ₩990 · xorijiy US$1.99)",
           paragraphs: [
             "Global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuzini yozish xizmatining nomzodlarning umumiy ochilishi to'lov darhol taqdim etiladigan raqamli kontentdir. Nomzodlarni ko'rish boshlanmaguncha bekor qilish mumkin, ko'rishdan so'ng oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin.",
             "Tizim xatosi sababli nomzodlar normal ravishda ochilmagan taqdirda qayta taqdim etish yoki qaytarish bilan hal qilinadi.",
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Maxsus tayyorlangan mahsulotlar (nom muhrlari va boshqalar)",
           paragraphs: [
-            "Nom muhrlari kabi shaxsiy maxsus tayyorlangan mahsulotlar (ichki 39,000 won · xorijiy US$34.99, xalqaro yetkazib berish xarajatlari kiritilgan) ishlab chiqarishni boshlashgacha bekor qilinishi mumkin. Ishlab chiqarishni boshlagandan so'ng, o'yin matni shaxsiylashtirilgan holda tasdiqlanadi, shuning uchun oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin, xatolar, buzilishlar, noto'g'ri ishlab chiqarish yoki yetkazib berish muammolari aniqlangandan so'ng almashtirish, qayta ishlab chiqarish yoki qaytarish orqali hal qilinadi.",
+            "Nom muhrlari kabi shaxsiy maxsus tayyorlangan mahsulotlar (ichki ₩39,000 · xorijiy US$34.99, xalqaro yetkazib berish xarajatlari kiritilgan) ishlab chiqarishni boshlashgacha bekor qilinishi mumkin. Ishlab chiqarishni boshlagandan so'ng, o'yin matni shaxsiylashtirilgan holda tasdiqlanadi, shuning uchun oddiy kayfiyat o'zgarishi sababli qaytarish cheklanishi mumkin, xatolar, buzilishlar, noto'g'ri ishlab chiqarish yoki yetkazib berish muammolari aniqlangandan so'ng almashtirish, qayta ishlab chiqarish yoki qaytarish orqali hal qilinadi.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Xanji ma'nosi moslashuvi batafsil mahsulot",
           paragraphs: [
-            "Nomzod maksimal 5 ta batafsil tavsif va xanji umumiy batafsil: 2,900 won",
-            "Nomzod maksimal 10 ta kengaytirilgan batafsil tavsif, xanji umumiy batafsil va saqlash uchun PDF: 4,900 won",
-            "Nomzod maksimal 10 ta batafsil, xanji umumiy batafsil, saju·o'lar tahlili va saqlash uchun PDF: 9,900 won",
+            "Nomzod maksimal 5 ta batafsil tavsif va xanji umumiy batafsil: ₩2,900",
+            "Nomzod maksimal 10 ta kengaytirilgan batafsil tavsif, xanji umumiy batafsil va saqlash uchun PDF: ₩4,900",
+            "Nomzod maksimal 10 ta batafsil, xanji umumiy batafsil, saju·o'lar tahlili va saqlash uchun PDF: ₩9,900",
             "Pullik hisobotlar va PDF to'lovdan so'ng 24 soat davomida qayta ko'rish va yuklab olish mumkin, keyin avtomatik ravishda o'chiriladi.",
           ],
         },
         {
           title: "Nomzodlarni to'liq bir martada ochish",
           paragraphs: [
-            "Global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuz belgilash xizmatlarida qolgan nomzodlarni reklamasiz bir martada ochish: ichki to'lov 990 won, xorijiy to'lov US$1.99 (to'lov funksiyasi tayyorlanmoqda)",
+            "Global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuz belgilash xizmatlarida qolgan nomzodlarni reklamasiz bir martada ochish: ichki to'lov ₩990, xorijiy to'lov US$1.99 (to'lov funksiyasi tayyorlanmoqda)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Koreys nomi mahsulotlari",
           paragraphs: [
-            "Nom muhr: ichki 39,000 won · xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan). Boshqa jismoniy mahsulotlar uchun narx, yetkazib berish xarajatlari va ishlab chiqarish muddati alohida ko'rsatiladi.",
+            "Nom muhr: ichki ₩39,000 · xorijiy US$34.99 (xalqaro yetkazib berish xarajatlari kiritilgan). Boshqa jismoniy mahsulotlar uchun narx, yetkazib berish xarajatlari va ishlab chiqarish muddati alohida ko'rsatiladi.",
           ],
         },
         {

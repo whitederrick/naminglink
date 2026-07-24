@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Perkhidmatan Berbayar",
           paragraphs: [
-            "Butiran produk untuk perkhidmatan pemadanan makna Hanja adalah seperti berikut. ① Maksimum 5 calon dengan penerangan terperinci dan makna Hanja secara keseluruhan: 2,900 won ② Maksimum 10 calon dengan penerangan terperinci yang diperluas, makna Hanja secara keseluruhan dan PDF untuk simpanan: 4,900 won ③ Maksimum 10 calon dengan penerangan terperinci, makna Hanja secara keseluruhan, analisis nasib dan elemen serta PDF untuk simpanan: 9,900 won.",
-            "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penyataan sebutan Hangul mungkin menawarkan produk yang mendedahkan semua calon yang tinggal tanpa iklan sekaligus (pembayaran domestik 990 won, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
+            "Butiran produk untuk perkhidmatan pemadanan makna Hanja adalah seperti berikut. ① Maksimum 5 calon dengan penerangan terperinci dan makna Hanja secara keseluruhan: ₩2,900 ② Maksimum 10 calon dengan penerangan terperinci yang diperluas, makna Hanja secara keseluruhan dan PDF untuk simpanan: ₩4,900 ③ Maksimum 10 calon dengan penerangan terperinci, makna Hanja secara keseluruhan, analisis nasib dan elemen serta PDF untuk simpanan: ₩9,900.",
+            "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penyataan sebutan Hangul mungkin menawarkan produk yang mendedahkan semua calon yang tinggal tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
             "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama Hangul dalam PDF (US$9.99): Seni nama jenis huruf untuk semua calon yang dicadangkan, penjelasan makna, dan rujukan nasib elemen ⑤ Seni PDF penukaran sebutan Hangul (US$2.99): Seni nama jenis huruf yang dipilih dan panduan sebutan ⑥ Pakej seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan jenis huruf yang dipilih. Harga dan bilangan jenis huruf yang dikenakan untuk setiap produk adalah mengikut nilai yang dipaparkan di skrin.",
             "Laporan terperinci berbayar dan hasil analisis, fail PDF boleh dibuka semula dan dimuat turun dalam tempoh 24 jam selepas pembayaran selesai, dan akan dipadam secara automatik selepas tempoh penyimpanan tamat.",
-            "Barang fizikal seperti cap nama disediakan dengan harga domestik 39,000 won, luar negara US$34.99 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
+            "Barang fizikal seperti cap nama disediakan dengan harga domestik ₩39,000, luar negara US$34.99 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Butiran Produk Pemadanan Makna Hanzi",
           paragraphs: [
-            "Maksimum 5 calon dengan penerangan terperinci dan maklumat komprehensif Hanzi: 2,900 won",
-            "Maksimum 10 calon dengan penerangan terperinci yang diperluas, maklumat komprehensif Hanzi dan PDF untuk simpanan: 4,900 won",
-            "Maksimum 10 calon dengan penerangan terperinci, maklumat komprehensif Hanzi, analisis Bazi dan Lima Elemen serta PDF untuk simpanan: 9,900 won",
+            "Maksimum 5 calon dengan penerangan terperinci dan maklumat komprehensif Hanzi: ₩2,900",
+            "Maksimum 10 calon dengan penerangan terperinci yang diperluas, maklumat komprehensif Hanzi dan PDF untuk simpanan: ₩4,900",
+            "Maksimum 10 calon dengan penerangan terperinci, maklumat komprehensif Hanzi, analisis Bazi dan Lima Elemen serta PDF untuk simpanan: ₩9,900",
             "Laporan berbayar dan PDF boleh dilihat dan dimuat turun semula dalam tempoh 24 jam selepas pembayaran, dan akan dipadam secara automatik selepas itu.",
           ],
         },
         {
           title: "Pendedahan Keseluruhan Calon Secara Serentak",
           paragraphs: [
-            "Mendedahkan semua calon yang tinggal dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul tanpa iklan sekaligus: pembayaran domestik 990 won, pembayaran luar negara US$1.99 (fungsi pembayaran sedang disediakan)",
+            "Mendedahkan semua calon yang tinggal dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul tanpa iklan sekaligus: pembayaran domestik ₩990, pembayaran luar negara US$1.99 (fungsi pembayaran sedang disediakan)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Barangan Nama Hangul",
           paragraphs: [
-            "Stempel nama: domestik 39,000 won · luar negara US$34.99 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
+            "Stempel nama: domestik ₩39,000 · luar negara US$34.99 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
           ],
         },
         {

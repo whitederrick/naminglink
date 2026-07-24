@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Ücretli Hizmetler",
           paragraphs: [
-            "Hanja anlam eşleştirme hizmetinin detaylı ürünleri aşağıdaki gibidir. ① Aday maksimum 5 adet detaylı açıklama ve Hanja kapsamlı detay: 2,900₩ ② Aday maksimum 10 adet genişletilmiş detaylı açıklama, Hanja kapsamlı detay ve saklama amaçlı PDF: 4,900₩ ③ Aday maksimum 10 adet detay, Hanja kapsamlı detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: 9,900₩.",
-            "Küresel isim dönüştürme, Korece isim dönüştürme, Korece telaffuz yazım hizmetlerinde, kalan adayların tamamını reklamsız bir şekilde bir kerede sunan bir ürün (yurt içi ödeme 990₩, yurt dışı ödeme US$1.99) sağlanabilir. Ödeme işlevi aktif hale gelmeden önce yalnızca reklam ödüllü görüntüleme sunulmaktadır.",
+            "Hanja anlam eşleştirme hizmetinin detaylı ürünleri aşağıdaki gibidir. ① Aday maksimum 5 adet detaylı açıklama ve Hanja kapsamlı detay: ₩2,900 ② Aday maksimum 10 adet genişletilmiş detaylı açıklama, Hanja kapsamlı detay ve saklama amaçlı PDF: ₩4,900 ③ Aday maksimum 10 adet detay, Hanja kapsamlı detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: ₩9,900.",
+            "Küresel isim dönüştürme, Korece isim dönüştürme, Korece telaffuz yazım hizmetlerinde, kalan adayların tamamını reklamsız bir şekilde bir kerede sunan bir ürün (yurt içi ödeme ₩990, yurt dışı ödeme US$1.99) sağlanabilir. Ödeme işlevi aktif hale gelmeden önce yalnızca reklam ödüllü görüntüleme sunulmaktadır.",
             "Küresel kullanıcılar için dijital ürün olarak ④ Korece isim kapsamlı rapor PDF (US$9.99): önerilen adayların tamamının seçilen yazı tipi isim sanatı, anlam açıklaması ve beş element doğum haritası referansı ⑤ Korece telaffuz dönüşüm sanatı PDF (US$2.99): seçilen yazı tipi isim sanatı ve telaffuz rehberi ⑥ İsim sanatı paketi PDF (US$1.99): seçilen bir ismi farklı yazı tipleriyle sunma. Her ürünün fiyatı ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir.",
             "Ücretli detay raporları ve analiz sonuçları, PDF dosyaları ödeme tamamlandıktan sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
-            "İsim mührü gibi fiziksel ürünler, yurt içinde 39,000₩, yurt dışında US$34.99 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
+            "İsim mührü gibi fiziksel ürünler, yurt içinde ₩39,000, yurt dışında US$34.99 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Hanja Anlam Eşleştirme Detaylı Ürün",
           paragraphs: [
-            "Maksimum 5 aday için detaylı açıklama ve Hanja genel detay: 2,900₩",
-            "Maksimum 10 aday için genişletilmiş detaylı açıklama, Hanja genel detay ve saklama amaçlı PDF: 4,900₩",
-            "Maksimum 10 aday için detay, Hanja genel detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: 9,900₩",
+            "Maksimum 5 aday için detaylı açıklama ve Hanja genel detay: ₩2,900",
+            "Maksimum 10 aday için genişletilmiş detaylı açıklama, Hanja genel detay ve saklama amaçlı PDF: ₩4,900",
+            "Maksimum 10 aday için detay, Hanja genel detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: ₩9,900",
             "Ücretli raporlar ve PDF'ler, ödeme sonrasında 24 saat boyunca tekrar görüntülenebilir veya indirilebilir ve sonrasında otomatik olarak silinir.",
           ],
         },
         {
           title: "Adayların Tam Toplu Açıklaması",
           paragraphs: [
-            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi hizmetlerinde kalan tüm adayların reklam olmaksızın bir seferde açıklanması: Yerel ödeme 990₩, yurtdışı ödeme US$1.99 (ödeme işlevi hazırlanıyor)",
+            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi hizmetlerinde kalan tüm adayların reklam olmaksızın bir seferde açıklanması: Yerel ödeme ₩990, yurtdışı ödeme US$1.99 (ödeme işlevi hazırlanıyor)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Hangul İsim Ürünleri",
           paragraphs: [
-            "İsim mührü: Yerel 39,000₩ · Yurtdışı US$34.99 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
+            "İsim mührü: Yerel ₩39,000 · Yurtdışı US$34.99 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
           ],
         },
         {

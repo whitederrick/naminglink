@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Usługi płatne",
           paragraphs: [
-            "Szczegółowe usługi dopasowania znaczenia znaków chińskich są następujące. ① Maksymalnie 5 kandydatów z szczegółowym opisem oraz kompleksowym opisem znaków chińskich: 2,900₩ ② Maksymalnie 10 kandydatów z rozszerzonym szczegółowym opisem, kompleksowym opisem znaków chińskich oraz PDF do pobrania: 4,900₩ ③ Maksymalnie 10 kandydatów z szczegółowym opisem, kompleksowym opisem znaków chińskich, analizą astrologiczną i PDF do pobrania: 9,900₩.",
-            "W ramach usług przekształcania imion globalnych, przekształcania imion koreańskich oraz transkrypcji fonetycznej w języku koreańskim, może być dostępny produkt, który ujawnia wszystkie pozostałe kandydaty bez reklam w jednym kroku (płatność krajowa 990₩, płatność zagraniczna US$1.99). Przed aktywacją funkcji płatności dostępne są jedynie przeglądy w systemie wynagradzania za reklamy.",
+            "Szczegółowe usługi dopasowania znaczenia znaków chińskich są następujące. ① Maksymalnie 5 kandydatów z szczegółowym opisem oraz kompleksowym opisem znaków chińskich: ₩2,900 ② Maksymalnie 10 kandydatów z rozszerzonym szczegółowym opisem, kompleksowym opisem znaków chińskich oraz PDF do pobrania: ₩4,900 ③ Maksymalnie 10 kandydatów z szczegółowym opisem, kompleksowym opisem znaków chińskich, analizą astrologiczną i PDF do pobrania: ₩9,900.",
+            "W ramach usług przekształcania imion globalnych, przekształcania imion koreańskich oraz transkrypcji fonetycznej w języku koreańskim, może być dostępny produkt, który ujawnia wszystkie pozostałe kandydaty bez reklam w jednym kroku (płatność krajowa ₩990, płatność zagraniczna US$1.99). Przed aktywacją funkcji płatności dostępne są jedynie przeglądy w systemie wynagradzania za reklamy.",
             "Dla użytkowników globalnych dostępne są cyfrowe produkty: ④ Kompleksowy raport PDF dotyczący imion w języku koreańskim (US$9.99): sztuka nazw, interpretacja znaczenia oraz odniesienia do astrologii ⑤ PDF sztuki konwersji fonetycznej w języku koreańskim (US$2.99): sztuka nazw i wskazówki dotyczące wymowy ⑥ PDF pakietu sztuki imion (US$1.99): sztuka jednego wybranego imienia w różnych czcionkach. Ceny i liczba zastosowanych czcionek dla każdego produktu są zgodne z wartościami podanymi na ekranie.",
             "Płatne szczegółowe raporty i wyniki analizy, pliki PDF mogą być przeglądane i pobierane przez 24 godziny po zakończeniu płatności, a po upływie okresu przechowywania zostaną automatycznie usunięte.",
-            "Fizyczne towary, takie jak pieczątki imienne, są oferowane w cenach 39,000₩ w kraju oraz US$34.99 za granicą (w tym koszty wysyłki międzynarodowej) w zależności od produktu. Wszystkie płatne produkty mają wyświetlane informacje o treści produktu, cenie, sposobie dostarczenia oraz warunkach zwrotu przed dokonaniem płatności.",
+            "Fizyczne towary, takie jak pieczątki imienne, są oferowane w cenach ₩39,000 w kraju oraz US$34.99 za granicą (w tym koszty wysyłki międzynarodowej) w zależności od produktu. Wszystkie płatne produkty mają wyświetlane informacje o treści produktu, cenie, sposobie dostarczenia oraz warunkach zwrotu przed dokonaniem płatności.",
           ],
         },
         {
@@ -142,14 +142,14 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Szczegółowy raport o znakach (2,900₩·4,900₩·9,900₩)",
+          title: "2. Szczegółowy raport o znakach (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
             "Można anulować zamówienie przed rozpoczęciem generowania szczegółowej analizy AI po dokonaniu płatności. Po zakończeniu generowania analizy i uzyskaniu możliwości przeglądania lub pobierania, zwroty z powodu zmiany zdania mogą być ograniczone.",
             "W przypadku stwierdzenia błędów w treści, awarii systemu prowadzącej do niepowodzenia w generowaniu, lub niezgodności kwoty płatności, zostanie przeprowadzona ponowna emisja lub zwrot. Upłynięcie okresu przechowywania (24 godziny po dokonaniu płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
           ],
         },
         {
-          title: "3. Całkowite ujawnienie kandydatów (krajowe 990₩ · zagraniczne US$1.99)",
+          title: "3. Całkowite ujawnienie kandydatów (krajowe ₩990 · zagraniczne US$1.99)",
           paragraphs: [
             "Całkowite ujawnienie kandydatów dla usług konwersji nazw globalnych, konwersji nazw koreańskich oraz transkrypcji fonetycznej w hangulu jest cyfrową treścią dostarczaną natychmiast po dokonaniu płatności. Można anulować zamówienie przed rozpoczęciem przeglądania kandydatów, natomiast po przeglądaniu zwroty z powodu zmiany zdania mogą być ograniczone.",
             "W przypadku, gdy kandydaci nie są prawidłowo ujawniani z powodu błędu systemu, zostanie przeprowadzona ponowna emisja lub zwrot.",
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Spersonalizowane produkty (np. pieczątki z imieniem)",
           paragraphs: [
-            "Produkty spersonalizowane, takie jak pieczątki z imieniem (krajowe 39,000₩ · zagraniczne US$34.99, w tym międzynarodowe koszty wysyłki), można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji, ponieważ tekst grawerunku jest ustalany indywidualnie, zwroty z powodu zmiany zdania mogą być ograniczone, a błędy, uszkodzenia, błędna produkcja lub problemy z dostawą będą rozpatrywane w odpowiedni sposób poprzez wymianę, ponowną produkcję lub zwrot po weryfikacji.",
+            "Produkty spersonalizowane, takie jak pieczątki z imieniem (krajowe ₩39,000 · zagraniczne US$34.99, w tym międzynarodowe koszty wysyłki), można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji, ponieważ tekst grawerunku jest ustalany indywidualnie, zwroty z powodu zmiany zdania mogą być ograniczone, a błędy, uszkodzenia, błędna produkcja lub problemy z dostawą będą rozpatrywane w odpowiedni sposób poprzez wymianę, ponowną produkcję lub zwrot po weryfikacji.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Szczegółowy produkt dopasowania znaczenia znaków",
           paragraphs: [
-            "Szczegółowy opis maksymalnie 5 kandydatów oraz kompleksowe szczegóły dotyczące znaków: 2,900₩",
-            "Rozszerzony szczegółowy opis maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków oraz PDF do pobrania: 4,900₩",
-            "Szczegóły maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków, analiza BaZi i pięciu elementów oraz PDF do pobrania: 9,900₩",
+            "Szczegółowy opis maksymalnie 5 kandydatów oraz kompleksowe szczegóły dotyczące znaków: ₩2,900",
+            "Rozszerzony szczegółowy opis maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków oraz PDF do pobrania: ₩4,900",
+            "Szczegóły maksymalnie 10 kandydatów, kompleksowe szczegóły dotyczące znaków, analiza BaZi i pięciu elementów oraz PDF do pobrania: ₩9,900",
             "Płatne raporty i PDF mogą być przeglądane i pobierane ponownie w ciągu 24 godzin po dokonaniu płatności, a następnie są automatycznie usuwane.",
           ],
         },
         {
           title: "Całkowite ujawnienie kandydatów",
           paragraphs: [
-            "Globalna konwersja nazw, konwersja nazw koreańskich oraz usługa transkrypcji fonetycznej w Hangulu umożliwiają jednorazowe ujawnienie wszystkich pozostałych kandydatów bez reklam: płatność krajowa 990₩, płatność zagraniczna US$1.99 (funkcja płatności w przygotowaniu)",
+            "Globalna konwersja nazw, konwersja nazw koreańskich oraz usługa transkrypcji fonetycznej w Hangulu umożliwiają jednorazowe ujawnienie wszystkich pozostałych kandydatów bez reklam: płatność krajowa ₩990, płatność zagraniczna US$1.99 (funkcja płatności w przygotowaniu)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Towary z nazwami w Hangulu",
           paragraphs: [
-            "Stempel z imieniem: krajowa cena 39,000₩ · zagraniczna cena US$34.99 (w tym koszty wysyłki międzynarodowej). Inne fizyczne towary będą miały osobno podane ceny, koszty wysyłki oraz czas produkcji.",
+            "Stempel z imieniem: krajowa cena ₩39,000 · zagraniczna cena US$34.99 (w tym koszty wysyłki międzynarodowej). Inne fizyczne towary będą miały osobno podane ceny, koszty wysyłki oraz czas produkcji.",
           ],
         },
         {

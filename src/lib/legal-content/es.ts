@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Servicios de pago",
           paragraphs: [
-            "Los productos detallados del servicio de coincidencia de significados de caracteres chinos son los siguientes: ① Descripción detallada de hasta 5 candidatos y resumen completo de caracteres chinos: 2,900₩ ② Descripción detallada ampliada de hasta 10 candidatos, resumen completo de caracteres chinos y PDF para archivo: 4,900₩ ③ Detalle de hasta 10 candidatos, resumen completo de caracteres chinos, análisis de destino y elementos de los cinco elementos y PDF para archivo: 9,900₩.",
-            "En los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en coreano, puede ofrecerse un producto que revela todos los candidatos restantes sin publicidad de una sola vez (pago nacional 990₩, pago internacional US$1.99). Antes de activar la función de pago, solo se ofrecerá la visualización con compensación publicitaria.",
+            "Los productos detallados del servicio de coincidencia de significados de caracteres chinos son los siguientes: ① Descripción detallada de hasta 5 candidatos y resumen completo de caracteres chinos: ₩2,900 ② Descripción detallada ampliada de hasta 10 candidatos, resumen completo de caracteres chinos y PDF para archivo: ₩4,900 ③ Detalle de hasta 10 candidatos, resumen completo de caracteres chinos, análisis de destino y elementos de los cinco elementos y PDF para archivo: ₩9,900.",
+            "En los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en coreano, puede ofrecerse un producto que revela todos los candidatos restantes sin publicidad de una sola vez (pago nacional ₩990, pago internacional US$1.99). Antes de activar la función de pago, solo se ofrecerá la visualización con compensación publicitaria.",
             "Como productos digitales para usuarios globales, ④ Informe completo en PDF de nombres en coreano (US$9.99): arte del nombre de la fuente seleccionada, interpretación de significados y referencia de los cinco elementos ⑤ Arte en PDF de conversión de pronunciación en coreano (US$2.99): arte del nombre de la fuente seleccionada y guía de pronunciación ⑥ Paquete de arte de nombres en PDF (US$1.99): un nombre seleccionado proporcionado como arte en diferentes fuentes. Los precios de cada producto y el número de fuentes aplicables se basan en los valores indicados en la pantalla.",
             "Los informes detallados de pago y los resultados de análisis, así como los archivos PDF, se pueden volver a visualizar y descargar durante 24 horas después de completar el pago, y se eliminarán automáticamente después de que expire el período de retención.",
-            "Los productos físicos como sellos de nombres se ofrecen a precios y condiciones por producto, como 39,000₩ en Corea y US$34.99 (incluido el costo de envío internacional). Todos los productos de pago mostrarán en pantalla el contenido del producto, precio, método de entrega y condiciones de reembolso antes del pago.",
+            "Los productos físicos como sellos de nombres se ofrecen a precios y condiciones por producto, como ₩39,000 en Corea y US$34.99 (incluido el costo de envío internacional). Todos los productos de pago mostrarán en pantalla el contenido del producto, precio, método de entrega y condiciones de reembolso antes del pago.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Producto Detallado de Coincidencia de Significados de Caracteres Chinos",
           paragraphs: [
-            "Máximo de 5 candidatos con descripción detallada y resumen de caracteres chinos: 2,900₩",
-            "Máximo de 10 candidatos con descripción detallada ampliada, resumen de caracteres chinos y PDF para guardar: 4,900₩",
-            "Máximo de 10 candidatos con detalles, resumen de caracteres chinos, análisis de destino y elementos de los cinco elementos, y PDF para guardar: 9,900₩",
+            "Máximo de 5 candidatos con descripción detallada y resumen de caracteres chinos: ₩2,900",
+            "Máximo de 10 candidatos con descripción detallada ampliada, resumen de caracteres chinos y PDF para guardar: ₩4,900",
+            "Máximo de 10 candidatos con detalles, resumen de caracteres chinos, análisis de destino y elementos de los cinco elementos, y PDF para guardar: ₩9,900",
             "Los informes de pago y el PDF se pueden volver a ver y descargar durante 24 horas después del pago, y luego se eliminarán automáticamente.",
           ],
         },
         {
           title: "Divulgación Total de Candidatos",
           paragraphs: [
-            "Divulgación de todos los candidatos restantes en los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en hangul, sin anuncios, de una sola vez: pago nacional 990₩, pago internacional US$1.99 (función de pago en preparación)",
+            "Divulgación de todos los candidatos restantes en los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en hangul, sin anuncios, de una sola vez: pago nacional ₩990, pago internacional US$1.99 (función de pago en preparación)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Productos de Merchandising de Nombres en Hangul",
           paragraphs: [
-            "Sello de nombre: 39,000₩ en el país · US$34.99 en el extranjero (incluido el costo de envío internacional). Otros productos físicos tendrán precios, costos de envío y plazos de producción indicados por separado.",
+            "Sello de nombre: ₩39,000 en el país · US$34.99 en el extranjero (incluido el costo de envío internacional). Otros productos físicos tendrán precios, costos de envío y plazos de producción indicados por separado.",
           ],
         },
         {

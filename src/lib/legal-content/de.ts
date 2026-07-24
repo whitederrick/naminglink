@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Kostenpflichtige Dienstleistungen",
           paragraphs: [
-            "Die detaillierten Produkte der Hanzi-Bedeutungszuordnungsdienstleistung sind wie folgt: ① Bis zu 5 Vorschläge mit detaillierter Beschreibung und umfassender Hanzi-Analyse: 2,900 Won ② Bis zu 10 Vorschläge mit erweiterten detaillierten Beschreibungen, umfassender Hanzi-Analyse und PDF für den persönlichen Gebrauch: 4,900 Won ③ Bis zu 10 Vorschläge mit detaillierten Informationen, umfassender Hanzi-Analyse, Analyse von Schicksal und fünf Elementen sowie PDF für den persönlichen Gebrauch: 9,900 Won.",
-            "Für die Dienstleistungen zur Umwandlung in globale Namen, Umwandlung in koreanische Namen und Transkription in koreanische Schrift kann ein Produkt angeboten werden, das alle verbleibenden Vorschläge ohne Werbung auf einmal offenlegt (Inlandszahlung 990 Won, Auslandszahlung US$1.99). Vor der Aktivierung der Zahlungsfunktion wird nur die werbefinanzierte Einsicht angeboten.",
+            "Die detaillierten Produkte der Hanzi-Bedeutungszuordnungsdienstleistung sind wie folgt: ① Bis zu 5 Vorschläge mit detaillierter Beschreibung und umfassender Hanzi-Analyse: ₩2,900 ② Bis zu 10 Vorschläge mit erweiterten detaillierten Beschreibungen, umfassender Hanzi-Analyse und PDF für den persönlichen Gebrauch: ₩4,900 ③ Bis zu 10 Vorschläge mit detaillierten Informationen, umfassender Hanzi-Analyse, Analyse von Schicksal und fünf Elementen sowie PDF für den persönlichen Gebrauch: ₩9,900.",
+            "Für die Dienstleistungen zur Umwandlung in globale Namen, Umwandlung in koreanische Namen und Transkription in koreanische Schrift kann ein Produkt angeboten werden, das alle verbleibenden Vorschläge ohne Werbung auf einmal offenlegt (Inlandszahlung ₩990, Auslandszahlung US$1.99). Vor der Aktivierung der Zahlungsfunktion wird nur die werbefinanzierte Einsicht angeboten.",
             "Für globale Nutzer werden digitale Produkte angeboten: ④ Umfassender Bericht über koreanische Namen als PDF (US$9.99): Auswahl der Schriftart, Namenskunst, Bedeutungsinterpretation und Referenz zu Schicksal und fünf Elementen ⑤ Kunst-PDF zur Umwandlung in koreanische Aussprache (US$2.99): Kunst des ausgewählten Namens und Ausspracheanleitung ⑥ Kunstpaket-PDF (US$1.99): Bereitstellung eines ausgewählten Namens in verschiedenen Schriftarten. Die Preise und die Anzahl der angewendeten Schriftarten jedes Produkts richten sich nach den auf dem Bildschirm angegebenen Werten.",
             "Kostenpflichtige detaillierte Berichte und Analyseergebnisse sowie PDF-Dateien können innerhalb von 24 Stunden nach Abschluss der Zahlung erneut eingesehen und heruntergeladen werden; nach Ablauf der Aufbewahrungsfrist werden sie automatisch gelöscht.",
-            "Physische Waren wie Namensstempel werden zu Preisen und Bedingungen angeboten, die inländisch 39,000 Won und international US$34.99 (einschließlich internationaler Versandkosten) betragen. Alle kostenpflichtigen Produkte zeigen vor der Zahlung die Produktinhalte, Preise, Bereitstellungsarten und Rückgabebedingungen auf dem Bildschirm an.",
+            "Physische Waren wie Namensstempel werden zu Preisen und Bedingungen angeboten, die inländisch ₩39,000 und international US$34.99 (einschließlich internationaler Versandkosten) betragen. Alle kostenpflichtigen Produkte zeigen vor der Zahlung die Produktinhalte, Preise, Bereitstellungsarten und Rückgabebedingungen auf dem Bildschirm an.",
           ],
         },
         {
@@ -142,14 +142,14 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Detaillierter Bericht über Hanja (2,900 ₩·4,900 ₩·9,900 ₩)",
+          title: "2. Detaillierter Bericht über Hanja (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
             "Eine Stornierung ist möglich, bevor die KI-Detailanalyse nach der Zahlung beginnt. Nach Abschluss der Analyse und der Möglichkeit zur Einsichtnahme oder zum Download kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein.",
             "Bei festgestellten Inhaltsfehlern, Systemausfällen, die zu einem Erstellungsfehler führen, oder Unstimmigkeiten im Zahlungsbetrag erfolgt eine Neuausstellung oder Rückerstattung. Wenn der Download aufgrund des Ablaufs der Aufbewahrungsfrist (24 Stunden nach der Zahlung) beendet ist, gilt dies nicht als Rückerstattungsgrund.",
           ],
         },
         {
-          title: "3. Gesamte Kandidatenveröffentlichung (inländisch 990 ₩ · international US$1.99)",
+          title: "3. Gesamte Kandidatenveröffentlichung (inländisch ₩990 · international US$1.99)",
           paragraphs: [
             "Die Veröffentlichung der Kandidaten für den globalen Namenswechsel, den koreanischen Namenswechsel und den Service zur phonetischen Transkription in Hangul ist digitale Inhalte, die sofort nach der Zahlung bereitgestellt werden. Eine Stornierung ist möglich, bevor die Einsichtnahme der Kandidaten beginnt; nach der Einsichtnahme kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein.",
             "Bei Systemfehlern, die dazu führen, dass die Kandidaten nicht ordnungsgemäß veröffentlicht werden, erfolgt eine Neuausstellung oder Rückerstattung.",
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Maßgeschneiderte Produkte (z. B. Namensstempel)",
           paragraphs: [
-            "Personalisierte Produkte wie Namensstempel (inländisch 39,000 ₩ · international US$34.99, einschließlich internationaler Versandkosten) können bis zum Produktionsbeginn storniert werden. Nach Produktionsbeginn ist der eingravierte Text personalisiert und daher kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein; Tippfehler, Beschädigungen, fehlerhafte Produktion oder Versandprobleme werden nach Überprüfung durch Austausch, Neuproduktion oder Rückerstattung entsprechend behandelt.",
+            "Personalisierte Produkte wie Namensstempel (inländisch ₩39,000 · international US$34.99, einschließlich internationaler Versandkosten) können bis zum Produktionsbeginn storniert werden. Nach Produktionsbeginn ist der eingravierte Text personalisiert und daher kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein; Tippfehler, Beschädigungen, fehlerhafte Produktion oder Versandprobleme werden nach Überprüfung durch Austausch, Neuproduktion oder Rückerstattung entsprechend behandelt.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Detailprodukt zur Bedeutungszuordnung von Hanja",
           paragraphs: [
-            "Maximal 5 Kandidaten mit detaillierter Beschreibung und umfassenden Hanja-Details: 2,900 Won",
-            "Maximal 10 Kandidaten mit erweiterten detaillierten Beschreibungen, umfassenden Hanja-Details und PDF zur Aufbewahrung: 4,900 Won",
-            "Maximal 10 Kandidaten mit Details, umfassenden Hanja-Details, Analyse von Schicksal und fünf Elementen sowie PDF zur Aufbewahrung: 9,900 Won",
+            "Maximal 5 Kandidaten mit detaillierter Beschreibung und umfassenden Hanja-Details: ₩2,900",
+            "Maximal 10 Kandidaten mit erweiterten detaillierten Beschreibungen, umfassenden Hanja-Details und PDF zur Aufbewahrung: ₩4,900",
+            "Maximal 10 Kandidaten mit Details, umfassenden Hanja-Details, Analyse von Schicksal und fünf Elementen sowie PDF zur Aufbewahrung: ₩9,900",
             "Bezahlte Berichte und PDFs können nach der Zahlung innerhalb von 24 Stunden erneut eingesehen und heruntergeladen werden und werden danach automatisch gelöscht.",
           ],
         },
         {
           title: "Gesamte Kandidaten auf einmal freigeben",
           paragraphs: [
-            "Die gesamte verbleibende Kandidatenliste aus den Dienstleistungen zur globalen Namensumwandlung, koreanischen Namensumwandlung und koreanischen Lautschrift wird ohne Werbung auf einmal freigegeben: Inlandszahlung 990 Won, Auslandszahlung US$1.99 (Zahlungsfunktion in Vorbereitung)",
+            "Die gesamte verbleibende Kandidatenliste aus den Dienstleistungen zur globalen Namensumwandlung, koreanischen Namensumwandlung und koreanischen Lautschrift wird ohne Werbung auf einmal freigegeben: Inlandszahlung ₩990, Auslandszahlung US$1.99 (Zahlungsfunktion in Vorbereitung)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Koreanische Namenswaren",
           paragraphs: [
-            "Namensstempel: Inlands 39,000 Won · Ausland US$34.99 (einschließlich internationaler Versandkosten). Andere physische Waren haben separate Preise, Versandkosten und Produktionszeiten, die gesondert angegeben werden.",
+            "Namensstempel: Inlands ₩39,000 · Ausland US$34.99 (einschließlich internationaler Versandkosten). Andere physische Waren haben separate Preise, Versandkosten und Produktionszeiten, die gesondert angegeben werden.",
           ],
         },
         {

@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Dịch vụ trả phí",
           paragraphs: [
-            "Chi tiết sản phẩm của dịch vụ phù hợp ý nghĩa Hán tự như sau: ① Tối đa 5 ứng cử viên với mô tả chi tiết và tổng hợp Hán tự: 2,900 won ② Tối đa 10 ứng cử viên với mô tả chi tiết mở rộng, tổng hợp Hán tự và PDF lưu trữ: 4,900 won ③ Tối đa 10 ứng cử viên với chi tiết, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: 9,900 won.",
-            "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm tên bằng Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng cử viên còn lại mà không có quảng cáo (thanh toán trong nước 990 won, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp hình thức xem xét theo quảng cáo.",
+            "Chi tiết sản phẩm của dịch vụ phù hợp ý nghĩa Hán tự như sau: ① Tối đa 5 ứng cử viên với mô tả chi tiết và tổng hợp Hán tự: ₩2,900 ② Tối đa 10 ứng cử viên với mô tả chi tiết mở rộng, tổng hợp Hán tự và PDF lưu trữ: ₩4,900 ③ Tối đa 10 ứng cử viên với chi tiết, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: ₩9,900.",
+            "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm tên bằng Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng cử viên còn lại mà không có quảng cáo (thanh toán trong nước ₩990, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp hình thức xem xét theo quảng cáo.",
             "Sản phẩm kỹ thuật số cho người dùng toàn cầu bao gồm ④ Báo cáo tổng hợp tên Hàn Quốc PDF (US$9.99): nghệ thuật tên phông chữ được đề xuất, giải thích ý nghĩa, tham khảo bát tự và ngũ hành ⑤ Nghệ thuật chuyển đổi âm Hàn Quốc PDF (US$2.99): nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm ⑥ Gói nghệ thuật tên PDF (US$1.99): cung cấp một tên đã chọn dưới dạng nghệ thuật theo từng phông chữ. Giá cả và số lượng phông chữ áp dụng cho từng sản phẩm sẽ theo giá trị được thông báo trên màn hình.",
             "Báo cáo chi tiết trả phí và kết quả phân tích, tệp PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi hoàn tất thanh toán, và sẽ tự động bị xóa sau thời gian lưu trữ.",
-            "Hàng hóa vật lý như con dấu tên được cung cấp với giá 39,000 won trong nước, US$34.99 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
+            "Hàng hóa vật lý như con dấu tên được cung cấp với giá ₩39,000 trong nước, US$34.99 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
           ],
         },
         {
@@ -142,14 +142,14 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Báo cáo chi tiết Hán tự (2,900₩·4,900₩·9,900₩)",
+          title: "2. Báo cáo chi tiết Hán tự (₩2,900·₩4,900·₩9,900)",
           paragraphs: [
             "Trước khi bắt đầu tạo phân tích chi tiết AI sau khi thanh toán, có thể hủy bỏ. Sau khi quá trình tạo phân tích hoàn tất và có thể xem hoặc tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
             "Trong trường hợp phát hiện lỗi nội dung, thất bại trong việc tạo do sự cố hệ thống, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc sẽ không được coi là lý do hoàn tiền.",
           ],
         },
         {
-          title: "3. Công khai toàn bộ ứng viên (990₩ trong nước · US$1.99 quốc tế)",
+          title: "3. Công khai toàn bộ ứng viên (₩990 trong nước · US$1.99 quốc tế)",
           paragraphs: [
             "Việc công khai toàn bộ ứng viên cho dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và dịch vụ ghi âm bằng Hangul là nội dung kỹ thuật số được cung cấp ngay lập tức sau khi thanh toán. Trước khi bắt đầu xem ứng viên, có thể hủy bỏ, và sau khi xem, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
             "Trong trường hợp hệ thống gặp lỗi và ứng viên không được công khai bình thường, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền.",
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Hàng hóa tùy chỉnh (như con dấu tên)",
           paragraphs: [
-            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (39,000₩ trong nước · US$34.99 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
+            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (₩39,000 trong nước · US$34.99 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Chi tiết sản phẩm khớp nghĩa Hán tự",
           paragraphs: [
-            "Mô tả chi tiết tối đa 5 ứng viên và tổng hợp Hán tự: 2,900 won",
-            "Mô tả chi tiết mở rộng tối đa 10 ứng viên, tổng hợp Hán tự và PDF lưu trữ: 4,900 won",
-            "Mô tả tối đa 10 ứng viên, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: 9,900 won",
+            "Mô tả chi tiết tối đa 5 ứng viên và tổng hợp Hán tự: ₩2,900",
+            "Mô tả chi tiết mở rộng tối đa 10 ứng viên, tổng hợp Hán tự và PDF lưu trữ: ₩4,900",
+            "Mô tả tối đa 10 ứng viên, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: ₩9,900",
             "Báo cáo trả phí và PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa.",
           ],
         },
         {
           title: "Công khai toàn bộ ứng viên một lần",
           paragraphs: [
-            "Công khai toàn bộ ứng viên còn lại từ dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm phát âm Hàn Quốc mà không có quảng cáo: Thanh toán trong nước 990 won, thanh toán quốc tế US$1.99 (chức năng thanh toán đang được chuẩn bị).",
+            "Công khai toàn bộ ứng viên còn lại từ dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm phát âm Hàn Quốc mà không có quảng cáo: Thanh toán trong nước ₩990, thanh toán quốc tế US$1.99 (chức năng thanh toán đang được chuẩn bị).",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Hàng hóa tên Hàn Quốc",
           paragraphs: [
-            "Con dấu tên: Trong nước 39,000 won · Quốc tế US$34.99 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
+            "Con dấu tên: Trong nước ₩39,000 · Quốc tế US$34.99 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
           ],
         },
         {

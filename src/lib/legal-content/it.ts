@@ -36,11 +36,11 @@ const content: LegalLocaleContent = {
         {
           title: "4. Servizi a pagamento",
           paragraphs: [
-            "I dettagli del servizio di abbinamento del significato dei caratteri cinesi sono i seguenti: ① massimo 5 candidati con descrizione dettagliata e dettagli complessivi dei caratteri cinesi: 2,900 ₩ ② massimo 10 candidati con descrizione dettagliata estesa, dettagli complessivi dei caratteri cinesi e PDF per la conservazione: 4,900 ₩ ③ massimo 10 candidati con dettagli, dettagli complessivi dei caratteri cinesi, analisi del destino e degli elementi e PDF per la conservazione: 9,900 ₩.",
-            "Nei servizi di conversione di nomi globali, conversione di nomi coreani e trascrizione fonetica in coreano, può essere offerto un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale 990 ₩, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con compenso pubblicitario.",
+            "I dettagli del servizio di abbinamento del significato dei caratteri cinesi sono i seguenti: ① massimo 5 candidati con descrizione dettagliata e dettagli complessivi dei caratteri cinesi: ₩2,900 ② massimo 10 candidati con descrizione dettagliata estesa, dettagli complessivi dei caratteri cinesi e PDF per la conservazione: ₩4,900 ③ massimo 10 candidati con dettagli, dettagli complessivi dei caratteri cinesi, analisi del destino e degli elementi e PDF per la conservazione: ₩9,900.",
+            "Nei servizi di conversione di nomi globali, conversione di nomi coreani e trascrizione fonetica in coreano, può essere offerto un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale ₩990, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con compenso pubblicitario.",
             "Per gli utenti globali, i prodotti digitali comprendono ④ PDF del rapporto completo sui nomi in coreano (US$9.99): arte del nome con caratteri consigliati, interpretazione del significato e riferimento all'analisi del destino e degli elementi ⑤ PDF dell'arte di conversione della pronuncia in coreano (US$2.99): arte del nome con caratteri scelti e guida alla pronuncia ⑥ PDF del pacchetto di arte del nome (US$1.99): fornitura di un nome scelto in arte con caratteri selezionati. I prezzi e il numero di caratteri applicabili per ciascun prodotto seguono i valori indicati sullo schermo.",
             "I rapporti dettagliati a pagamento e i risultati delle analisi, i file PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il completamento del pagamento e verranno eliminati automaticamente dopo il periodo di conservazione.",
-            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come 39,000 ₩ in Corea e US$34.99 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
+            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come ₩39,000 in Corea e US$34.99 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
           ],
         },
         {
@@ -203,16 +203,16 @@ const content: LegalLocaleContent = {
         {
           title: "Dettagli del prodotto di corrispondenza del significato dei caratteri cinesi",
           paragraphs: [
-            "Descrizione dettagliata di un massimo di 5 candidati e dettagli completi sui caratteri cinesi: 2,900 won",
-            "Descrizione dettagliata estesa di un massimo di 10 candidati, dettagli completi sui caratteri cinesi e PDF per collezionisti: 4,900 won",
-            "Dettagli di un massimo di 10 candidati, dettagli completi sui caratteri cinesi, analisi del destino e dei cinque elementi e PDF per collezionisti: 9,900 won",
+            "Descrizione dettagliata di un massimo di 5 candidati e dettagli completi sui caratteri cinesi: ₩2,900",
+            "Descrizione dettagliata estesa di un massimo di 10 candidati, dettagli completi sui caratteri cinesi e PDF per collezionisti: ₩4,900",
+            "Dettagli di un massimo di 10 candidati, dettagli completi sui caratteri cinesi, analisi del destino e dei cinque elementi e PDF per collezionisti: ₩9,900",
             "I rapporti a pagamento e i PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il pagamento e verranno automaticamente eliminati successivamente.",
           ],
         },
         {
           title: "Pubblicazione totale dei candidati",
           paragraphs: [
-            "Pubblicazione simultanea di tutti i candidati rimanenti senza pubblicità nei servizi di conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul: pagamento nazionale 990 won, pagamento internazionale US$1.99 (funzione di pagamento in preparazione)",
+            "Pubblicazione simultanea di tutti i candidati rimanenti senza pubblicità nei servizi di conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul: pagamento nazionale ₩990, pagamento internazionale US$1.99 (funzione di pagamento in preparazione)",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Merchandising di nomi in Hangul",
           paragraphs: [
-            "Timbro con nome: 39,000 won in Corea · US$34.99 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
+            "Timbro con nome: ₩39,000 in Corea · US$34.99 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
           ],
         },
         {
