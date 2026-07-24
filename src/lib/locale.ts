@@ -77,6 +77,10 @@ function localeFromAcceptLanguage(value: string): Locale | null {
   return null;
 }
 
+export function isRtlLocale(locale: Locale) {
+  return locale === "ar";
+}
+
 export async function getRequestLocale(searchLocale?: string) {
   if (isLocale(searchLocale)) {
     return searchLocale;
