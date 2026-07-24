@@ -2,6 +2,7 @@ import "server-only";
 
 import OpenAI from "openai";
 
+import { AiUsageRecorder } from "@/lib/ai-usage";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
@@ -206,6 +207,8 @@ export async function buildGlobalNamePremiumResult(payload: {
 
   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 40_000, maxRetries: 1 });
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+  // 후보 수만큼 호출이 늘어나는 유료 경로다. 리포트 단위로 합산해 한 줄 남긴다.
+  const usage = new AiUsageRecorder("GLOBAL_NAME_PDF");
 
   // 후보별 상세 해설(병렬) — 한 번의 큰 호출은 타임아웃 위험이 있어 후보 단위로 나눈다.
   const requestCandidate = async (grounding: Record<string, string>, retry: boolean) =>
@@ -240,6 +243,7 @@ export async function buildGlobalNamePremiumResult(payload: {
     const grounding = candidateGrounding(candidate);
     for (let attempt = 0; attempt < 2; attempt += 1) {
       const completion = await requestCandidate(grounding, attempt > 0);
+      usage.record(completion);
       const parsed = parseJson(completion.choices[0]?.message?.content);
       const meaningBreakdown = fieldArray(parsed, "meaning_breakdown")
         .map((entry) => {
@@ -299,6 +303,7 @@ export async function buildGlobalNamePremiumResult(payload: {
   const overviewCall = async () => {
     for (let attempt = 0; attempt < 2; attempt += 1) {
       const completion = await requestOverview(attempt > 0);
+      usage.record(completion);
       const parsed = parseJson(completion.choices[0]?.message?.content);
       const analysisSummary = fieldText(parsed, "analysis_summary");
       const sajuOverview = fieldText(parsed, "saju_overview");
@@ -312,10 +317,19 @@ export async function buildGlobalNamePremiumResult(payload: {
     throw new Error("리포트 개요를 생성하지 못했습니다.");
   };
 
-  const [overview, ...candidateReports] = await Promise.all([
-    overviewCall(),
-    ...candidates.map((candidate) => candidateCall(candidate)),
-  ]);
+  let overview: Awaited<ReturnType<typeof overviewCall>>;
+  let candidateReports: GlobalNameCandidateReport[];
+  try {
+    [overview, ...candidateReports] = await Promise.all([
+      overviewCall(),
+      ...candidates.map((candidate) => candidateCall(candidate)),
+    ]);
+  } catch (error) {
+    // 실패한 호출도 토큰은 이미 소비했다. 실패 건이 사용량에서 빠지면 비용이 과소 집계된다.
+    await usage.flush("ERROR", "PREMIUM_GENERATION_FAILED");
+    throw error;
+  }
+  await usage.flush("SUCCESS");
 
   return {
     entitlement: { productCode: "GLOBAL_NAME_PDF", includesPdf: true },

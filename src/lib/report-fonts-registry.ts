@@ -7,6 +7,7 @@ import path from "node:path";
 
 import OpenAI from "openai";
 
+import { AiUsageRecorder } from "@/lib/ai-usage";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
@@ -152,6 +153,10 @@ export async function translateFontStory(storyKo: string) {
       { role: "user", content: storyKo },
     ],
   });
+  // 관리자 작업이라 빈도는 낮지만 22개 로케일을 한 번에 만드는 호출이라 토큰이 적지 않다.
+  const usage = new AiUsageRecorder("FONT_STORY_TRANSLATION");
+  usage.record(completion);
+  await usage.flush("SUCCESS");
   const parsed = JSON.parse(completion.choices[0]?.message?.content ?? "{}") as Record<
     string,
     unknown

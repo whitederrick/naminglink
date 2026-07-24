@@ -1,5 +1,7 @@
 import OpenAI from "openai";
 
+import { AiUsageRecorder } from "@/lib/ai-usage";
+
 import {
   renderPremiumHanjaReport,
   type PremiumHanjaReportCandidate,
@@ -267,6 +269,7 @@ async function generateCandidateComparison(
     saju: ReturnType<typeof calculatePremiumSaju>;
     fallbackLines: string[];
   },
+  usage: AiUsageRecorder,
 ): Promise<string> {
   try {
     const completion = await client.chat.completions.create({
@@ -306,6 +309,7 @@ async function generateCandidateComparison(
         },
       ],
     });
+    usage.record(completion);
     const content = completion.choices[0]?.message?.content;
     if (!content) return numberedLines(args.fallbackLines);
     const parsed = parseJsonObject(content);
@@ -336,6 +340,7 @@ async function generateGeneralSections(
     saju: ReturnType<typeof calculatePremiumSaju>;
     fallback: GeneralSections;
   },
+  usage: AiUsageRecorder,
 ): Promise<GeneralSections> {
   try {
     const completion = await client.chat.completions.create({
@@ -367,6 +372,7 @@ async function generateGeneralSections(
         },
       ],
     });
+    usage.record(completion);
     const content = completion.choices[0]?.message?.content;
     if (!content) return args.fallback;
     const parsed = parseJsonObject(content);
@@ -393,6 +399,7 @@ async function generateCandidateSection(
     includeSaju: boolean;
     fallback: CandidateAnalysis;
   },
+  usage: AiUsageRecorder,
 ): Promise<CandidateAnalysis> {
   try {
     const completion = await client.chat.completions.create({
@@ -432,6 +439,7 @@ async function generateCandidateSection(
         },
       ],
     });
+    usage.record(completion);
     const content = completion.choices[0]?.message?.content;
     if (!content) return args.fallback;
     const p = parseJsonObject(content);
@@ -543,40 +551,59 @@ export async function buildPremiumHanjaTestResult(
     const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
     const parentWishes = text(inputFactors.parentWishes) || null;
     const excludedMeanings = text(inputFactors.excludedMeanings) || null;
+    // 후보 수만큼 호출이 늘어나는 유료 경로다. 리포트 단위로 합산해 한 줄 남긴다.
+    // 개별 호출이 실패하면 각 함수가 규칙 폴백으로 대체하므로 그만큼 집계에서 빠진다.
+    const usage = new AiUsageRecorder("PREMIUM_HANJA_REPORT");
 
     const [generalResult, comparisonResult, candidateResults] = await Promise.all([
       saju
-        ? generateGeneralSections(client, model, {
-            displayName,
-            candidates,
-            parentWishes,
-            saju,
-            fallback: fallbackGeneral,
-          })
+        ? generateGeneralSections(
+            client,
+            model,
+            {
+              displayName,
+              candidates,
+              parentWishes,
+              saju,
+              fallback: fallbackGeneral,
+            },
+            usage,
+          )
         : Promise.resolve(fallbackGeneral),
       saju
-        ? generateCandidateComparison(client, model, {
-            displayName,
-            candidates,
-            parentWishes,
-            saju,
-            fallbackLines: fallbackComparisonLines,
-          })
+        ? generateCandidateComparison(
+            client,
+            model,
+            {
+              displayName,
+              candidates,
+              parentWishes,
+              saju,
+              fallbackLines: fallbackComparisonLines,
+            },
+            usage,
+          )
         : Promise.resolve(""),
       Promise.all(
         candidates.map((candidate, index) =>
-          generateCandidateSection(client, model, {
-            displayName,
-            candidate,
-            parentWishes,
-            excludedMeanings,
-            saju,
-            includeSaju,
-            fallback: fallbackCandidates[index],
-          }),
+          generateCandidateSection(
+            client,
+            model,
+            {
+              displayName,
+              candidate,
+              parentWishes,
+              excludedMeanings,
+              saju,
+              includeSaju,
+              fallback: fallbackCandidates[index],
+            },
+            usage,
+          ),
         ),
       ),
     ]);
+    await usage.flush("SUCCESS");
     general = generalResult;
     candidateComparison = comparisonResult;
     candidateAnalyses = candidateResults;
