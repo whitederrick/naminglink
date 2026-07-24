@@ -166,7 +166,15 @@ export function KoreanNameResultPage({
               locale={locale}
             />
             {totalCount > 0 ? (
-              <ResultAddOnServices service={service} locale={locale} />
+              <ResultAddOnServices
+                service={service}
+                locale={locale}
+                // 오픈된 후보의 한글 이름만 도장 문구 선택지로 넘긴다(잠금 후보는 제외).
+                stampNameOptions={premiumCandidatesOf(stored.result)
+                  .slice(0, Math.max(1, revealedCount))
+                  .map((candidate) => candidate.hangul)
+                  .filter((hangul) => /^[가-힣]{2,6}$/.test(hangul))}
+              />
             ) : null}
           </div>
         ) : (

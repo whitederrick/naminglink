@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { ShoppingBag } from "lucide-react";
 import type { ServiceConfig, Locale } from "@/lib/services";
 import { getResultCopy } from "@/lib/i18n-result";
@@ -43,10 +46,15 @@ function koreanServiceCopy(service: ServiceConfig) {
 export function ResultAddOnServices({
   service,
   locale,
+  stampNameOptions,
 }: {
   service: ServiceConfig;
   locale?: string;
+  // 도장에 새길 후보 한글 이름(오픈된 것만). 있으면 사용자가 후보를 골라 도장 신청으로 넘긴다.
+  stampNameOptions?: string[];
 }) {
+  const options = stampNameOptions?.filter((name) => name.length > 0) ?? [];
+  const [selectedName, setSelectedName] = useState(options[0] ?? "");
   // 외국인 대상 서비스는 결과 페이지 사전(i18n-result)의 굿즈 문구를 로케일별로 사용한다.
   const foreign = locale && locale !== "ko";
   const copy = foreign
@@ -79,8 +87,35 @@ export function ResultAddOnServices({
             </span>
           </h3>
           <p className="mt-2 flex-1 text-sm leading-6 text-muted">{copy.goodsBody}</p>
+          {options.length > 0 ? (
+            <div className="mt-4">
+              <p className="text-xs font-medium text-muted">
+                {foreign ? "Choose a name to carve" : "도장에 새길 이름 선택"}
+              </p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {options.map((name) => (
+                  <button
+                    key={name}
+                    type="button"
+                    onClick={() => setSelectedName(name)}
+                    className={`rounded-lg border px-3 py-1.5 text-sm font-semibold transition ${
+                      selectedName === name
+                        ? "border-brand-teal bg-surface-strong text-brand-teal"
+                        : "border-line bg-background hover:border-brand-teal/50"
+                    }`}
+                  >
+                    {name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : null}
           <Link
-            href={`/stamp-order?lang=${locale ?? "ko"}`}
+            href={
+              selectedName
+                ? `/stamp-order?lang=${locale ?? "ko"}&name=${encodeURIComponent(selectedName)}`
+                : `/stamp-order?lang=${locale ?? "ko"}`
+            }
             className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
           >
             {foreign ? copy.button : "이름 도장 신청 · ₩39,000"}
