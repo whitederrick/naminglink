@@ -82,6 +82,7 @@ export async function GET(request: NextRequest) {
 
 const actionSchema = z.discriminatedUnion("action", [
   z.object({ action: z.enum(["DISABLE_USER", "ENABLE_USER"]), userId: z.string().uuid() }),
+  z.object({ action: z.literal("DELETE_USER"), userId: z.string().uuid() }),
   z.object({ action: z.literal("UPDATE_ORDER"), orderId: z.string().uuid(), fulfillmentStatus: z.enum(["PENDING", "PROCESSING", "SHIPPED", "COMPLETED", "CANCELLED"]) }),
 ]);
 
@@ -97,6 +98,24 @@ export async function PATCH(request: NextRequest) {
     if (parsed.data.userId === auth.admin.id) return NextResponse.json({ ok: false, error: "현재 로그인한 관리자 계정은 비활성화할 수 없습니다." }, { status: 400 });
     const { error } = await supabase.auth.admin.updateUserById(parsed.data.userId, { ban_duration: parsed.data.action === "DISABLE_USER" ? "876000h" : "none" });
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+    return NextResponse.json({ ok: true });
+  }
+
+  // 개인정보처리방침이 정한 삭제 요청 이행 수단(이메일 접수 → 본인 확인 → 관리자 처리).
+  // auth 사용자를 지우면 저장한 작명 결과(naming_logs)는 cascade로 함께 삭제되고, 주문의 user_id는
+  // set null이 되어 법정 보관 대상인 거래기록만 회원 연결 없이 남는다.
+  if (parsed.data.action === "DELETE_USER") {
+    if (parsed.data.userId === auth.admin.id) {
+      return NextResponse.json({ ok: false, error: "현재 로그인한 관리자 계정은 삭제할 수 없습니다." }, { status: 400 });
+    }
+    const { error } = await supabase.auth.admin.deleteUser(parsed.data.userId);
+    if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+    // 처리 이력은 식별자만 남긴다 — 이메일을 로그에 남기면 그 자체가 파기하지 못한 개인정보가 된다.
+    console.info("Admin deleted user account", {
+      userId: parsed.data.userId,
+      by: auth.admin.id,
+      at: new Date().toISOString(),
+    });
     return NextResponse.json({ ok: true });
   }
 

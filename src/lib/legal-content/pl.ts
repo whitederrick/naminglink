@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Dane wejściowe i wyniki analizy są przechowywane na koncie tylko wtedy, gdy zalogowany użytkownik wyraźnie wybierze opcję przechowywania wyników, a po ich usunięciu przez użytkownika lub zakończeniu celu przechowywania są usuwane. Dane wejściowe i wyniki użytkowników niebędących członkami oraz tych, którzy nie wybrali opcji przechowywania, nie są przechowywane.",
             "Dane wejściowe, wyniki analizy oraz pliki PDF szczegółowego raportu płatnego są automatycznie usuwane po upływie 24 godzin od zakończenia płatności. Historia transakcji płatności i zamówień jest przechowywana oddzielnie zgodnie z ustawowymi okresami przechowywania określonymi w odpowiednich przepisach prawnych.",
-            "Szczegóły dostawy są usuwane lub anonimizowane po upływie okresu niezbędnego do przetwarzania zamówienia oraz obsługi zwrotów i sporów.",
+            "Szczegóły dostawy zamówienia towarów (imię i nazwisko zamawiającego, adres e-mail, numer kontaktowy, adres dostawy, uwagi, tekst do wygrawerowania na pieczęci) będą niszczone po upływie 90 dni od dnia zakończenia dostawy lub anulowania zamówienia. Informacje wprowadzone w przypadku zamówienia, które nie zostało zrealizowane do etapu płatności, będą niszczone po upływie 24 godzin. Po zniszczeniu, dane dotyczące płatności i historii zamówień będą przechowywane zgodnie z ustawowymi okresami przechowywania określonymi w odpowiednich przepisach prawa.",
           ],
         },
         {

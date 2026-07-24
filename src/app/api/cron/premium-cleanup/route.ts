@@ -1,6 +1,7 @@
 import { timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
 
+import { purgeGoodsOrderPii } from "@/lib/goods-pii-cleanup";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -41,6 +42,11 @@ export async function GET(request: Request) {
   }
 
   const now = new Date().toISOString();
+
+  // 굿즈(도장) 주문의 배송 PII 파기. 아래 세션 정리와 대상이 겹치지 않고, 세션이 하나도 없을 때도
+  // 반드시 돌아야 하므로 조기 반환보다 앞에서 실행한다.
+  const goods = await purgeGoodsOrderPii(supabase, now);
+
   // 방치된 결제 대기(PENDING_PAYMENT) 세션은 결제 시점에만 expires_at이 채워지므로 만료 조회에 걸리지
   // 않는다. 생성 후 일정 시간이 지난 미결제 세션은 사실상 이탈로 보고 PII를 파기한다(기본 24시간).
   const abandonedCutoff = new Date(
@@ -83,7 +89,7 @@ export async function GET(request: Request) {
   const sessions = [...(expiredSessions ?? []), ...(abandonedSessions ?? [])];
 
   if (!sessions.length) {
-    return NextResponse.json({ ok: true, processed: 0, deleted: 0, retry: 0 });
+    return NextResponse.json({ ok: true, processed: 0, deleted: 0, retry: 0, goods });
   }
 
   const sessionIds = sessions.map((session) => String(session.id));
@@ -213,5 +219,6 @@ export async function GET(request: Request) {
     deletedArtifacts,
     cleanedOrders,
     retry: retrySessionIds.size,
+    goods,
   });
 }

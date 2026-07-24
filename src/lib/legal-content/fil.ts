@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Ang mga input at resulta ng pagsusuri ay iniimbak sa account ng rehistradong miyembro lamang kung tahasang pinili ng miyembro na i-save ang mga resulta, at ito ay sisirain kapag ang miyembro ay nagtanggal o natapos na ang layunin ng pag-iimbak. Ang mga input at resulta ng mga hindi rehistradong miyembro at mga miyembrong hindi pumili ng pag-iimbak ay hindi iniimbak.",
             "Ang mga input, resulta ng pagsusuri, at PDF file ng bayad na detalyadong ulat ay awtomatikong mabubura pagkatapos ng 24 na oras mula sa pagkumpleto ng pagbabayad. Ang mga tala ng transaksyon sa pagbabayad at order ay hiwalay na iniimbak alinsunod sa legal na panahon ng pag-iimbak ng mga kaugnay na batas.",
-            "Ang mga detalye ng pagpapadala ay sisirain o magiging hindi nakikilalang pagkatapos ng kinakailangang panahon para sa pagproseso ng order at pagtugon sa mga pagbabalik at alitan.",
+            "Ang mga detalye ng pagpapadala ng order ng mga produkto (pangalan ng nag-order, email, contact number, address ng pagpapadala, mga kahilingan, at mga mensahe na ukit sa selyo) ay wawasakin pagkatapos ng 90 araw mula sa araw ng pagkumpleto ng pagpapadala o pagkansela ng order. Ang mga impormasyon ng input ng order na hindi umabot sa pagbabayad at nahinto ay wawasakin pagkatapos ng 24 na oras. Kahit na wawasakin, ang mga tala ng transaksyon sa pagbabayad at order ay mananatili alinsunod sa mga legal na panahon ng pag-iimbak ayon sa mga umiiral na batas.",
           ],
         },
         {

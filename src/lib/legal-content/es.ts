@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Las entradas de análisis y los resultados se almacenan en la cuenta solo si el miembro ha seleccionado explícitamente guardar los resultados, y se eliminan si el miembro los elimina o si el propósito de almacenamiento ha finalizado. Las entradas y resultados de no miembros y de miembros que no seleccionaron guardar no se almacenan.",
             "Las entradas, resultados de análisis y archivos PDF del informe detallado de pago se eliminan automáticamente 24 horas después de completar el pago. Los registros de transacciones de pago y pedidos se almacenan por separado de acuerdo con el período de retención legal establecido por las leyes aplicables.",
-            "La información detallada de envío se elimina o se desidentifica una vez transcurrido el período necesario para el procesamiento de pedidos y la respuesta a devoluciones o disputas.",
+            "Los detalles de envío del pedido de mercancías (nombre del solicitante, correo electrónico, número de contacto, dirección de envío, solicitudes, texto a grabar en el sello) se destruirán 90 días después de que se complete el envío o se cancele el pedido. La información de entrada de pedidos que se interrumpieron sin llegar a la etapa de pago se destruirá 24 horas después. Incluso después de la destrucción, los registros de transacciones de pago y pedidos se conservarán de acuerdo con el período de retención legal establecido por las leyes pertinentes.",
           ],
         },
         {

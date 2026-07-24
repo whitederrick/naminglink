@@ -93,7 +93,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Analysis inputs and results are stored in your account only when a logged-in member explicitly chooses to save them, and are deleted when the member deletes them or the purpose of retention ends. Inputs and results of guests, and of members who do not choose to save, are not stored.",
             "The inputs, analysis results, and PDF files of paid detailed reports are automatically deleted 24 hours after payment. Payment and order transaction records are retained separately for the statutory periods required by applicable law.",
-            "Shipping details are deleted or de-identified once the period needed for order processing, returns, and dispute resolution has passed.",
+            "Shipping details for goods orders (orderer name, email, phone number, delivery address, order notes, and the text to be engraved on the stamp) are deleted 90 days after the delivery is completed or the order is cancelled. Information entered for orders abandoned before payment is deleted after 24 hours. Payment and order transaction records remain after this deletion, retained for the statutory periods required by applicable law.",
           ],
         },
         {

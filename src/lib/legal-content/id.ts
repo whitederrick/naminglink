@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Input analisis dan hasil hanya akan disimpan di akun anggota jika anggota secara eksplisit memilih untuk menyimpan hasil tersebut, dan akan dihapus jika anggota menghapusnya atau tujuan penyimpanan telah berakhir. Input dan hasil dari anggota yang tidak terdaftar dan yang tidak memilih untuk menyimpan tidak akan disimpan.",
             "Input, hasil analisis, dan file PDF dari laporan rinci berbayar akan dihapus secara otomatis setelah 24 jam dari penyelesaian pembayaran. Catatan transaksi pembayaran dan pemesanan akan disimpan secara terpisah sesuai dengan periode penyimpanan yang ditetapkan oleh undang-undang yang berlaku.",
-            "Informasi detail pengiriman akan dihapus atau dianonimkan setelah periode yang diperlukan untuk pemrosesan pesanan dan penanganan pengembalian/perselisihan telah berlalu.",
+            "Detail pengiriman pesanan barang (nama pemesan, email, kontak, alamat pengiriman, permintaan, teks yang akan diukir pada stempel) akan dihancurkan setelah 90 hari sejak tanggal pengiriman selesai atau pesanan dibatalkan. Informasi input dari pesanan yang terhenti sebelum pembayaran akan dihancurkan setelah 24 jam. Meskipun telah dihancurkan, catatan transaksi pembayaran dan pesanan akan disimpan sesuai dengan periode penyimpanan yang ditetapkan oleh undang-undang yang berlaku.",
           ],
         },
         {

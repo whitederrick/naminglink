@@ -89,7 +89,7 @@ const viewCopy: Record<View, { title: string; description: string }> = {
   users: {
     title: "회원 정보 관리",
     description:
-      "가입 회원을 조회하고 계정 상태를 관리합니다. 이메일 검색과 권한·상태 필터로 대상을 찾고, 이상 행동 계정은 '비활성화'로 로그인을 차단하세요. 서비스 이용은 비회원 중심이라 회원은 결과 저장·굿즈 구매·관리자 계정 위주입니다.",
+      "가입 회원을 조회하고 계정 상태를 관리합니다. 이메일 검색과 권한·상태 필터로 대상을 찾고, 이상 행동 계정은 '비활성화'로 로그인을 차단하세요. '삭제'는 개인정보 삭제 요청(고객센터 이메일 접수·본인 확인 완료)을 이행할 때만 사용합니다 — 저장한 작명 결과까지 함께 지워지고 되돌릴 수 없으며, 주문 거래기록은 회원 연결만 끊긴 채 법정 보관 기간까지 남습니다. 서비스 이용은 비회원 중심이라 회원은 결과 저장·굿즈 구매·관리자 계정 위주입니다.",
   },
   orders: {
     title: "굿즈 주문 관리",
@@ -215,14 +215,31 @@ function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Rec
           date.format(new Date(String(user.createdAt))),
           user.lastSignInAt ? date.format(new Date(String(user.lastSignInAt))) : "없음",
           user.disabled ? "비활성" : "정상",
-          <button
-            key="action"
-            type="button"
-            onClick={() => onAction({ action: user.disabled ? "ENABLE_USER" : "DISABLE_USER", userId: String(user.id) })}
-            className="rounded border border-line px-2 py-1 text-xs"
-          >
-            {user.disabled ? "활성화" : "비활성화"}
-          </button>,
+          <div key="action" className="flex gap-1">
+            <button
+              type="button"
+              onClick={() => onAction({ action: user.disabled ? "ENABLE_USER" : "DISABLE_USER", userId: String(user.id) })}
+              className="rounded border border-line px-2 py-1 text-xs"
+            >
+              {user.disabled ? "활성화" : "비활성화"}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                // 되돌릴 수 없으므로 무엇이 지워지고 무엇이 남는지 명시하고 한 번 더 확인받는다.
+                const confirmed = window.confirm(
+                  `${user.email ?? "이 계정"}을(를) 삭제합니다.\n\n` +
+                    "· 저장한 작명 결과는 함께 삭제됩니다.\n" +
+                    "· 주문 거래기록은 회원 연결만 끊긴 채 법정 보관 기간까지 남습니다.\n\n" +
+                    "되돌릴 수 없습니다. 계속할까요?",
+                );
+                if (confirmed) onAction({ action: "DELETE_USER", userId: String(user.id) });
+              }}
+              className="rounded border border-red-300 px-2 py-1 text-xs text-red-600"
+            >
+              삭제
+            </button>
+          </div>,
         ])}
       />
       <Pagination page={paged.page} totalPages={paged.totalPages} total={paged.total} onChange={paged.setPage} />

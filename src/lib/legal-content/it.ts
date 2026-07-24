@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "I dati di input e i risultati analitici vengono conservati nell'account solo se il membro loggato ha esplicitamente scelto di salvare i risultati, e vengono distrutti se il membro li elimina o se lo scopo di conservazione termina. I dati di input e i risultati di membri non registrati e di membri che non hanno scelto di salvare non vengono memorizzati.",
             "I dati di input, i risultati analitici e i file PDF del rapporto dettagliato a pagamento vengono automaticamente eliminati dopo 24 ore dal completamento del pagamento. Le registrazioni delle transazioni di pagamento e degli ordini vengono conservate separatamente in base ai periodi di conservazione legali previsti dalla normativa vigente.",
-            "Le informazioni dettagliate sulla spedizione vengono distrutte o rese anonime dopo il periodo necessario per il trattamento degli ordini e per la gestione di resi e controversie.",
+            "I dettagli di spedizione dell'ordine di beni (nome dell'ordinante, email, contatto, indirizzo di spedizione, richieste, frase da incidere sul timbro) saranno distrutti dopo 90 giorni dalla data di completamento della spedizione o dalla data di cancellazione dell'ordine. Le informazioni inserite per ordini interrotti che non sono stati completati fino al pagamento saranno distrutte dopo 24 ore. Anche dopo la distruzione, i registri delle transazioni di pagamento e di ordine rimarranno in base ai periodi di conservazione legali previsti dalla normativa vigente.",
           ],
         },
         {

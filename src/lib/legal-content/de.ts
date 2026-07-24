@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Eingaben und Ergebnisse der Analyse werden nur dann im Konto eines angemeldeten Mitglieds gespeichert, wenn das Mitglied dies ausdrücklich wählt, und werden vernichtet, wenn das Mitglied sie löscht oder der Aufbewahrungszweck endet. Eingaben und Ergebnisse von Nicht-Mitgliedern sowie von Mitgliedern, die keine Speicherung gewählt haben, werden nicht gespeichert.",
             "Eingaben, Analyseergebnisse und PDF-Dateien des kostenpflichtigen Detailberichts werden 24 Stunden nach Abschluss der Zahlung automatisch gelöscht. Zahlungs- und Bestelltransaktionsprotokolle werden gemäß den gesetzlichen Aufbewahrungsfristen der relevanten Gesetze separat aufbewahrt.",
-            "Lieferdetails werden nach Ablauf der für die Bearbeitung von Bestellungen sowie für Rücksendungen und Streitbeilegungen erforderlichen Zeit vernichtet oder anonymisiert.",
+            "Die Versanddetails der Bestellungen von Merchandise-Artikeln (Name des Bestellers, E-Mail, Kontaktinformationen, Lieferadresse, Anfragen, Text für den Stempel) werden 90 Tage nach Abschluss der Lieferung oder nach dem Datum der Stornierung der Bestellung vernichtet. Die Eingabedaten von Bestellungen, die nicht bis zur Zahlung fortgeführt werden, werden 24 Stunden nach der Unterbrechung vernichtet. Auch nach der Vernichtung bleiben die Zahlungs- und Bestelltransaktionsaufzeichnungen gemäß den gesetzlichen Aufbewahrungsfristen der relevanten Gesetze erhalten.",
           ],
         },
         {

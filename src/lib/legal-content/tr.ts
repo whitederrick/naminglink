@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Analiz girişi ve sonuçları, giriş yapan üyelerin sonuçları açıkça saklama seçeneğini seçtiği durumlarda yalnızca hesaplarında saklanır ve üye silme işlemi yaptığında veya saklama amacı sona erdiğinde imha edilir. Üye olmayanlar ve saklama seçeneğini seçmeyen üyelerin girdi ve sonuçları saklanmaz.",
             "Ücretli detay raporlarının girdi, analiz sonuçları ve PDF dosyası, ödeme tamamlandıktan 24 saat sonra otomatik olarak silinir. Ödeme ve sipariş işlem kayıtları, ilgili mevzuatın yasal saklama süresine göre ayrı olarak saklanır.",
-            "Teslimat detay bilgileri, sipariş işleme ve iade/uyuşmazlık yanıtı için gerekli sürenin sona ermesinin ardından imha edilir veya kimliksiz hale getirilir.",
+            "Ürün siparişinin teslimat detay bilgileri (sipariş verenin adı, e-posta, iletişim bilgileri, teslimat adresi, istekler, damgaya yazılacak metin), teslimatın tamamlandığı veya siparişin iptal edildiği günden itibaren 90 gün sonra imha edilir. Ödeme aşamasına ulaşmadan durdurulan siparişin giriş bilgileri 24 saat sonra imha edilir. İmha sonrasında bile ödeme ve sipariş işlem kayıtları, ilgili mevzuatın yasal saklama süresine göre saklanır.",
           ],
         },
         {

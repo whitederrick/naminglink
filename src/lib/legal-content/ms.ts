@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Input analisis dan hasil hanya disimpan dalam akaun jika ahli log masuk secara eksplisit memilih untuk menyimpan hasil, dan akan dimusnahkan apabila ahli memadam atau tujuan penyimpanan berakhir. Input dan hasil daripada bukan ahli dan ahli yang tidak memilih untuk menyimpan tidak akan disimpan.",
             "Input, hasil analisis dan fail PDF laporan terperinci berbayar akan dipadam secara automatik selepas 24 jam dari penyelesaian pembayaran. Rekod transaksi pembayaran dan pesanan akan disimpan secara berasingan mengikut tempoh penyimpanan yang ditetapkan oleh undang-undang yang berkaitan.",
-            "Maklumat terperinci penghantaran akan dimusnahkan atau dinyahpengenalan selepas tempoh yang diperlukan untuk pemprosesan pesanan dan respons kepada pemulangan atau pertikaian.",
+            "Maklumat terperinci penghantaran pesanan barang (nama pemesan, emel, nombor telefon, alamat penghantaran, permintaan, dan teks yang akan diukir pada cap) akan dimusnahkan selepas 90 hari dari tarikh penghantaran selesai atau pesanan dibatalkan. Maklumat input pesanan yang dihentikan tanpa mencapai pembayaran akan dimusnahkan selepas 24 jam. Walaupun selepas pemusnahan, rekod transaksi pembayaran dan pesanan akan disimpan mengikut tempoh penyimpanan yang ditetapkan oleh undang-undang yang berkaitan.",
           ],
         },
         {

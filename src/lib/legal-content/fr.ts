@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Les entrées et résultats d'analyse ne sont conservés dans le compte d'un membre que si ce dernier choisit explicitement de les sauvegarder, et ils sont détruits lorsque le membre les supprime ou lorsque l'objectif de conservation prend fin. Les entrées et résultats des membres qui ne choisissent pas de sauvegarder et des non-membres ne sont pas stockés.",
             "Les entrées, résultats d'analyse et fichiers PDF des rapports détaillés payants sont automatiquement supprimés 24 heures après la finalisation du paiement. Les enregistrements de transactions de paiement et de commande sont conservés séparément conformément aux périodes de conservation légales prévues par la législation applicable.",
-            "Les informations détaillées sur la livraison sont détruites ou anonymisées après la période nécessaire pour le traitement des commandes et la gestion des retours ou des litiges.",
+            "Les détails de livraison de la commande de marchandises (nom du commanditaire, e-mail, numéro de contact, adresse de livraison, demandes spéciales, texte à graver sur le tampon) seront détruits 90 jours après la date de livraison ou d'annulation de la commande. Les informations saisies pour les commandes interrompues qui n'ont pas abouti au paiement seront détruites 24 heures après l'interruption. Même après la destruction, les enregistrements de transactions de paiement et de commande seront conservés conformément aux périodes de conservation légales prévues par la législation applicable.",
           ],
         },
         {

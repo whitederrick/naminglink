@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Các đầu vào phân tích và kết quả chỉ được lưu trữ trong tài khoản của thành viên khi thành viên đó chọn lưu trữ một cách rõ ràng, và sẽ bị tiêu hủy khi thành viên xóa hoặc khi mục đích lưu trữ kết thúc. Các đầu vào và kết quả của thành viên không lưu trữ sẽ không được lưu trữ.",
             "Các đầu vào, kết quả phân tích và tệp PDF của báo cáo chi tiết trả phí sẽ tự động bị xóa sau 24 giờ kể từ khi hoàn tất thanh toán. Hồ sơ giao dịch thanh toán và đơn hàng sẽ được lưu trữ riêng theo thời gian lưu trữ theo quy định của pháp luật liên quan.",
-            "Thông tin chi tiết giao hàng sẽ bị tiêu hủy hoặc được làm không xác định sau khi thời gian cần thiết cho việc xử lý đơn hàng và phản hồi hoàn trả, tranh chấp đã qua.",
+            "Thông tin chi tiết về việc giao hàng của đơn hàng hàng hóa (tên người đặt, email, số điện thoại, địa chỉ giao hàng, yêu cầu, câu chữ khắc lên con dấu) sẽ bị tiêu hủy sau 90 ngày kể từ ngày giao hàng hoàn tất hoặc đơn hàng bị hủy. Thông tin nhập của đơn hàng bị ngừng lại mà chưa đến bước thanh toán sẽ bị tiêu hủy sau 24 giờ. Sau khi bị tiêu hủy, các ghi chép giao dịch thanh toán và đơn hàng sẽ được giữ lại theo thời gian lưu trữ theo quy định của pháp luật liên quan.",
           ],
         },
         {

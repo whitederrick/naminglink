@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "Tahlil kiritish va natijalar faqat kirgan a'zo natijalarni saqlashni aniq tanlagan taqdirda hisobga saqlanadi, a'zo o'chirgan yoki saqlash maqsadi tugagandan so'ng yo'q qilinadi. A'zolik bo'lmagan foydalanuvchilar va saqlashni tanlamagan a'zolarning kiritish va natijalari saqlanmaydi.",
             "Pullik batafsil hisobotning kiritish, tahlil natijalari va PDF fayli to'lov amalga oshirilgandan so'ng 24 soatdan keyin avtomatik ravishda o'chiriladi. To'lov va buyurtma tranzaksiya yozuvlari tegishli qonun hujjatlarining qonuniy saqlash muddati bo'yicha alohida saqlanadi.",
-            "Yetkazib berish tafsilotlari buyurtma qayta ishlash va qaytarish, nizolarni hal qilish uchun zarur bo'lgan muddat o'tgach yo'q qilinadi yoki shaxsiylashtirilmaydi.",
+            "Tovar buyurtmalarining yetkazib berish tafsilotlari (buyurtma beruvchining ismi, elektron pochta manzili, aloqa raqami, yetkazib berish manzili, so'rovlar, muhrga yoziladigan matn) yetkazib berish tugallangandan yoki buyurtma bekor qilingan kundan boshlab 90 kun o'tgach yo'q qilinadi. To'lovga yetib bormagan va to'xtatilgan buyurtmalar bo'yicha kiritilgan ma'lumotlar 24 soatdan so'ng yo'q qilinadi. Yo'q qilinganidan keyin ham to'lov va buyurtma tranzaktsiya yozuvlari tegishli qonun hujjatlarining qonuniy saqlash muddati bo'yicha saqlanadi.",
           ],
         },
         {

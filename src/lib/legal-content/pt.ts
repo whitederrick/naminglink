@@ -95,7 +95,7 @@ const content: LegalLocaleContent = {
           paragraphs: [
             "As entradas de análise e resultados são armazenados na conta apenas se o membro logado optar explicitamente por salvar os resultados, e serão destruídos se o membro os excluir ou se o propósito de armazenamento for encerrado. As entradas e resultados de não-membros e de membros que não optaram por salvar não são armazenados.",
             "As entradas, resultados de análise e arquivos PDF de relatórios detalhados pagos serão automaticamente excluídos após 24 horas da conclusão do pagamento. Os registros de transações de pagamento e pedidos são armazenados separadamente de acordo com o período legal de retenção estabelecido pela legislação aplicável.",
-            "As informações detalhadas de entrega serão destruídas ou desidentificadas após o período necessário para o processamento do pedido e para a resposta a devoluções e disputas.",
+            "As informações detalhadas sobre a entrega do pedido de mercadorias (nome do solicitante, e-mail, contato, endereço de entrega, solicitações, texto a ser gravado no selo) serão destruídas 90 dias após a conclusão da entrega ou a data de cancelamento do pedido. As informações inseridas de pedidos que foram interrompidos antes da finalização do pagamento serão destruídas 24 horas após a interrupção. Mesmo após a destruição, os registros de transações de pagamento e pedidos permanecerão de acordo com o período de retenção legal estabelecido pela legislação aplicável.",
           ],
         },
         {
