@@ -2,6 +2,9 @@
 // sections를 AI 번역으로 재생성한다. 구조(섹션 수·순서)는 ko와 정확히 일치시킨다.
 // labels/description/effectiveDate/companyInfo 참조는 건드리지 않고 sections 배열만 교체한다.
 // 실행: cd scripts && node translate-legal-content.mjs [locale ...]
+// 실행 후 반드시: node normalize-legal-prices.mjs && node normalize-legal-usd.mjs
+//   (번역이 금액을 로케일 관습대로 2.900 / 1,99 US$ 등으로 바꿔놓아 표기가 결제 화면과 어긋난다.
+//    마지막으로 validate-legal-content.ts로 확인할 것.)
 // 안전장치: 파일별로 sections 배열을 브래킷 매칭으로 치환하고, 끝나면 호출부(상위)에서 tsc로 검증.
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";

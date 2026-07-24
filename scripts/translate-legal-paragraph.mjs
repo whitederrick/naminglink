@@ -6,6 +6,7 @@
 //
 // 실행: cd scripts && node translate-legal-paragraph.mjs <document> <sectionIndex> <paragraphIndex> [locale ...]
 // 예:   node translate-legal-paragraph.mjs privacy 2 2
+// 금액이 든 문단을 바꿨다면 이어서 normalize-legal-prices.mjs·normalize-legal-usd.mjs를 실행할 것.
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
