@@ -58,6 +58,7 @@ export default async function StampOrderPage({ searchParams }: StampOrderPagePro
         <StampOrderForm
           region={region}
           display={display}
+          locale={locale}
           initialName={/^[가-힣㐀-䶿一-鿿]{1,8}$/u.test(initialName) ? initialName : undefined}
         />
       </section>
