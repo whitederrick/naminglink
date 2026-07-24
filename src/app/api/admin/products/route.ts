@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { requireAdmin } from "@/lib/admin-auth";
-import { invalidateProductSettingsCache } from "@/lib/product-settings";
+import { displayPrice, invalidateProductSettingsCache } from "@/lib/product-settings";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -35,6 +35,13 @@ const patchSchema = z.object({
   enabled: z.boolean().optional(),
 });
 
+// amount는 통화의 최소 단위로 저장한다(KRW=원, USD=센트). 통화별 상한·하한이 크게 달라서
+// 한쪽 기준의 숫자가 다른 통화에 그대로 남으면 자릿수 사고가 난다(₩39,000 → US$390.00).
+const AMOUNT_LIMITS = {
+  KRW: { min: 100, max: 10_000_000 },
+  USD: { min: 50, max: 1_000_000 },
+} as const;
+
 export async function PATCH(request: NextRequest) {
   const auth = await requireAdmin(request);
   if (!auth.ok) return NextResponse.json({ ok: false, error: auth.error }, { status: auth.status });
@@ -55,6 +62,31 @@ export async function PATCH(request: NextRequest) {
       .maybeSingle();
     if (!current) {
       return NextResponse.json({ ok: false, error: "상품을 찾을 수 없습니다." }, { status: 404 });
+    }
+    const currentCurrency = current.currency === "USD" ? "USD" : "KRW";
+    const nextCurrency = changes.currency ?? currentCurrency;
+    const nextAmount = changes.amount ?? Number(current.amount);
+    // 통화만 바꾸면 이전 통화 기준 금액이 그대로 남아 실제 청구액이 뒤바뀐다. 함께 받도록 강제한다.
+    if (nextCurrency !== currentCurrency && changes.amount === undefined) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "통화를 변경할 때는 새 통화 기준 금액도 함께 입력해야 합니다(KRW=원, USD=센트).",
+        },
+        { status: 400 },
+      );
+    }
+    const limit = AMOUNT_LIMITS[nextCurrency];
+    if (nextAmount < limit.min || nextAmount > limit.max) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: `${nextCurrency} 금액은 ${limit.min.toLocaleString("ko-KR")}~${limit.max.toLocaleString(
+            "ko-KR",
+          )} 범위여야 합니다(USD는 센트 단위).`,
+        },
+        { status: 400 },
+      );
     }
     const { error: updateError } = await supabase
       .from("product_settings")
@@ -78,10 +110,17 @@ export async function PATCH(request: NextRequest) {
     invalidateProductSettingsCache();
     return NextResponse.json({
       ok: true,
+      // 해석된 금액을 되돌려줘야 관리자가 자릿수 실수를 즉시 알아본다(센트/원 혼동).
       // 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 한다는 경고를 함께 내려준다.
       warning:
         changes.amount !== undefined || changes.currency !== undefined
-          ? "가격이 변경되었습니다. 요금안내·약관 문서의 표기 금액 갱신이 필요합니다."
+          ? `가격이 ${displayPrice({
+              amount: Number(current.amount),
+              currency: currentCurrency,
+            })} → ${displayPrice({
+              amount: nextAmount,
+              currency: nextCurrency,
+            })}로 변경되었습니다. 요금안내·약관 문서의 표기 금액 갱신이 필요합니다.`
           : null,
     });
   } catch (error) {

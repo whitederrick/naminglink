@@ -673,20 +673,45 @@ export function GlobalNamePremiumPanel({
   // 운영자(admin) 로그인 시에만 결제 없이 PDF를 받는 테스트 버튼을 노출한다(개발 환경은 항상).
   const [adminToken, setAdminToken] = useState<string | null>(null);
   const [testBusy, setTestBusy] = useState(false);
-  // 결제 완료 표시가 있는 저장 체크아웃만 이어받기 대상으로 노출한다.
+  // 결제 완료 표시가 있는 저장 체크아웃은 그대로 이어받기로 노출한다. 다만 페이팔 승인 직후 탭이 닫히면
+  // onPaymentSuccess가 실행되지 못해 표시가 남지 않으므로, 표시가 없는 체크아웃은 서버에 결제 여부를
+  // 확인한다(confirm은 멱등이고 미결제면 실패만 돌려준다). 없으면 "돈은 빠졌는데 이어받기가 안 보이는"
+  // 상태로 남는다.
   useEffect(() => {
-    void Promise.resolve().then(() => {
+    let cancelled = false;
+    void (async () => {
       const stored = readStoredCheckout(product);
-      if (stored?.paid) setResumable(stored);
-    });
-    const supabase = getSupabaseBrowserClient();
-    if (!supabase) return;
-    void supabase.auth.getSession().then(({ data }) => {
-      const session = data.session;
-      if (session?.user && hasAdminRole(session.user.app_metadata)) {
-        setAdminToken(session.access_token);
+      if (!stored) return;
+      if (stored.paid) {
+        setResumable(stored);
+        return;
       }
-    });
+      const confirmed = await postJson("/api/premium-reports/confirm", {
+        sessionId: stored.sessionId,
+        paymentId: stored.paymentId,
+        accessToken: stored.accessToken,
+      }).catch(() => null);
+      if (cancelled || !confirmed?.response.ok || !confirmed.data?.ok) return;
+      const recovered = { ...stored, paid: true };
+      try {
+        localStorage.setItem(checkoutStorageKey(product), JSON.stringify(recovered));
+      } catch {
+        // 저장에 실패해도 이 화면 안에서는 이어받기가 가능하다.
+      }
+      setResumable(recovered);
+    })();
+    const supabase = getSupabaseBrowserClient();
+    if (supabase) {
+      void supabase.auth.getSession().then(({ data }) => {
+        const session = data.session;
+        if (!cancelled && session?.user && hasAdminRole(session.user.app_metadata)) {
+          setAdminToken(session.access_token);
+        }
+      });
+    }
+    return () => {
+      cancelled = true;
+    };
   }, [product]);
 
   // 가격·서체 수(관리자 설정)와 서체 목록(로케일 스토리 포함)을 불러온다.
@@ -809,6 +834,13 @@ export function GlobalNamePremiumPanel({
   async function startPurchase() {
     if (stage !== "idle" || !inputFactors) return;
     setError("");
+    // 결제는 끝났는데 리포트를 아직 못 받은 구매가 남아 있으면 새 주문으로 덮어쓰지 않는다.
+    // 덮어쓰면 그 구매의 접근 토큰이 사라져 결제한 산출물을 영영 못 받는다.
+    const pending = readStoredCheckout(product);
+    if (pending?.paid) {
+      setResumable(pending);
+      return;
+    }
     setStage("ordering");
     try {
       const candidate = selectable[selectedIndex] ?? selectable[0];

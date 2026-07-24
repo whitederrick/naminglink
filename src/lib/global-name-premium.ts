@@ -134,6 +134,31 @@ function parseJson(content: string | null | undefined) {
   }
 }
 
+// mini는 지시한 snake_case 키를 camelCase로 돌려주는 실수를 종종 한다. 프롬프트로 막기보다
+// 읽는 쪽에서 두 표기를 모두 흡수한다(빈 문자열로 흘러가 빈 리포트가 되는 것을 막는 1차 방어).
+function camelOf(key: string) {
+  return key.replace(/_([a-z])/g, (_, letter: string) => letter.toUpperCase());
+}
+
+function fieldText(parsed: Record<string, unknown>, key: string) {
+  return text(parsed[key]) || text(parsed[camelOf(key)]);
+}
+
+function fieldArray(parsed: Record<string, unknown>, key: string) {
+  const value = parsed[key] ?? parsed[camelOf(key)];
+  return Array.isArray(value) ? value : [];
+}
+
+// 유료 리포트의 본문이므로 한 섹션이라도 비면 전달할 수 없다(빈 PDF 방지).
+function hasEveryTextSection(report: GlobalNameCandidateReport) {
+  return Object.values(report.sections)
+    .filter((value): value is string => typeof value === "string")
+    .every((value) => value.length > 0);
+}
+
+const RETRY_NOTE =
+  "Your previous reply was rejected because required keys were missing or empty. Return every key exactly as named above, each with a non-empty string value.";
+
 export async function buildGlobalNamePremiumResult(payload: {
   inputFactors: Record<string, unknown>;
   candidates: Array<Record<string, unknown>>;
@@ -183,9 +208,8 @@ export async function buildGlobalNamePremiumResult(payload: {
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 
   // 후보별 상세 해설(병렬) — 한 번의 큰 호출은 타임아웃 위험이 있어 후보 단위로 나눈다.
-  const candidateCall = async (candidate: Record<string, unknown>) => {
-    const grounding = candidateGrounding(candidate);
-    const completion = await openai.chat.completions.create({
+  const requestCandidate = async (grounding: Record<string, string>, retry: boolean) =>
+    openai.chat.completions.create({
       model,
       temperature: 0.5,
       response_format: { type: "json_object" },
@@ -200,6 +224,7 @@ export async function buildGlobalNamePremiumResult(payload: {
             "meaning_breakdown: one entry per Hangul syllable of the candidate name (family-name syllable included), each grounded in the candidate meaning or a factual note about its role.",
             "why_this_name: why this name suits this person. sound_connection: how it echoes the original name's sound, honestly (if no real sound link, say it was chosen for naturalness). pronunciation_tips: how to pronounce it, syllable by syllable, for a speaker of the report language. cultural_notes: how the name is perceived in Korea. usage_guide: where and how to use it.",
             LANGUAGE_RULE(languageName),
+            ...(retry ? [RETRY_NOTE] : []),
           ].join(" "),
         },
         {
@@ -208,33 +233,42 @@ export async function buildGlobalNamePremiumResult(payload: {
         },
       ],
     });
-    const parsed = parseJson(completion.choices[0]?.message?.content);
-    const breakdownRaw = Array.isArray(parsed.meaning_breakdown) ? parsed.meaning_breakdown : [];
-    const meaningBreakdown = breakdownRaw
-      .map((entry) => {
-        const record = entry && typeof entry === "object" ? (entry as Record<string, unknown>) : {};
-        return { syllable: text(record.syllable), meaning: text(record.meaning) };
-      })
-      .filter((entry) => entry.syllable.length > 0);
-    return {
-      name: { hangul: grounding.hangul, romanized: romanizedOf(candidate) },
-      sections: {
-        meaningBreakdown:
-          meaningBreakdown.length > 0
-            ? meaningBreakdown
-            : [...grounding.hangul].map((syllable) => ({ syllable, meaning: "" })),
-        whyThisName: text(parsed.why_this_name),
-        soundConnection: text(parsed.sound_connection),
-        pronunciationTips: text(parsed.pronunciation_tips),
-        culturalNotes: text(parsed.cultural_notes),
-        usageGuide: text(parsed.usage_guide),
-      },
-    } satisfies GlobalNameCandidateReport;
+
+  // 키 표기를 흡수해도 본문이 비어 오면 한 번 더 부른다. 그래도 비면 빈 리포트를 전달하느니 실패시킨다
+  // — confirm 재호출이 세션을 PAID로 되돌리므로 구매자는 재생성으로 회복할 수 있다.
+  const candidateCall = async (candidate: Record<string, unknown>) => {
+    const grounding = candidateGrounding(candidate);
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const completion = await requestCandidate(grounding, attempt > 0);
+      const parsed = parseJson(completion.choices[0]?.message?.content);
+      const meaningBreakdown = fieldArray(parsed, "meaning_breakdown")
+        .map((entry) => {
+          const record = entry && typeof entry === "object" ? (entry as Record<string, unknown>) : {};
+          return { syllable: text(record.syllable), meaning: text(record.meaning) };
+        })
+        .filter((entry) => entry.syllable.length > 0);
+      const report = {
+        name: { hangul: grounding.hangul, romanized: romanizedOf(candidate) },
+        sections: {
+          meaningBreakdown:
+            meaningBreakdown.length > 0
+              ? meaningBreakdown
+              : [...grounding.hangul].map((syllable) => ({ syllable, meaning: "" })),
+          whyThisName: fieldText(parsed, "why_this_name"),
+          soundConnection: fieldText(parsed, "sound_connection"),
+          pronunciationTips: fieldText(parsed, "pronunciation_tips"),
+          culturalNotes: fieldText(parsed, "cultural_notes"),
+          usageGuide: fieldText(parsed, "usage_guide"),
+        },
+      } satisfies GlobalNameCandidateReport;
+      if (hasEveryTextSection(report)) return report;
+    }
+    throw new Error(`리포트 본문을 생성하지 못했습니다(${grounding.hangul}).`);
   };
 
   // 종합(개요 + 사주 해석) 호출 — 후보 전체를 함께 본다.
-  const overviewCall = async () => {
-    const completion = await openai.chat.completions.create({
+  const requestOverview = async (retry: boolean) =>
+    openai.chat.completions.create({
       model,
       temperature: 0.5,
       response_format: { type: "json_object" },
@@ -248,6 +282,7 @@ export async function buildGlobalNamePremiumResult(payload: {
             "analysis_summary: 3-5 sentences introducing how the candidate set connects to the original name, purpose and tone.",
             "saju_overview and saju_name_alignment: ONLY when sajuReference exists — explain the five-element balance and how the candidate names symbolically align, quoting the given counts/dominant/weakest/dayMaster verbatim. When sajuReference is null, return empty strings for both.",
             LANGUAGE_RULE(languageName),
+            ...(retry ? [RETRY_NOTE] : []),
           ].join(" "),
         },
         {
@@ -260,7 +295,21 @@ export async function buildGlobalNamePremiumResult(payload: {
         },
       ],
     });
-    return parseJson(completion.choices[0]?.message?.content);
+
+  const overviewCall = async () => {
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const completion = await requestOverview(attempt > 0);
+      const parsed = parseJson(completion.choices[0]?.message?.content);
+      const analysisSummary = fieldText(parsed, "analysis_summary");
+      const sajuOverview = fieldText(parsed, "saju_overview");
+      const sajuAlignment = fieldText(parsed, "saju_name_alignment");
+      // 사주 섹션은 계산이 성립할 때만 필수다(생년월일 미입력이면 애초에 페이지가 없다).
+      const sajuReady = !sajuCalculation || (sajuOverview.length > 0 && sajuAlignment.length > 0);
+      if (analysisSummary.length > 0 && sajuReady) {
+        return { analysisSummary, sajuOverview, sajuAlignment };
+      }
+    }
+    throw new Error("리포트 개요를 생성하지 못했습니다.");
   };
 
   const [overview, ...candidateReports] = await Promise.all([
@@ -275,14 +324,14 @@ export async function buildGlobalNamePremiumResult(payload: {
       generatedAt: new Date().toISOString(),
       outputLanguage,
       original: { name: sharedGrounding.originalName, country: sharedGrounding.country },
-      analysisSummary: text(overview.analysis_summary),
+      analysisSummary: overview.analysisSummary,
       fonts: payload.fonts ?? [],
       candidates: candidateReports,
       saju: sajuCalculation
         ? {
             ...sajuCalculation,
-            overview: text(overview.saju_overview),
-            nameAlignment: text(overview.saju_name_alignment),
+            overview: overview.sajuOverview,
+            nameAlignment: overview.sajuAlignment,
           }
         : null,
     },
