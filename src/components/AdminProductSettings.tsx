@@ -30,9 +30,14 @@ type HistoryRow = {
   new_currency: string | null;
   old_font_count: number | null;
   new_font_count: number | null;
+  // 이 컬럼이 생기기 전 이력은 null이다.
+  old_enabled: boolean | null;
+  new_enabled: boolean | null;
   changed_by: string | null;
   changed_at: string;
 };
+
+const enabledLabel = (enabled: boolean) => (enabled ? "판매" : "중단");
 
 function price(amount: number, currency: string) {
   return currency === "USD" ? `US$${(amount / 100).toFixed(2)}` : `₩${amount.toLocaleString("ko-KR")}`;
@@ -191,12 +196,18 @@ export function AdminProductSettings() {
       <section className="mt-6">
         <p className="mb-2 text-sm font-semibold">변경 이력 (최근 30건)</p>
         <Table
-          headers={["일시", "상품", "금액", "서체 수", "변경자"]}
+          headers={["일시", "상품", "금액", "서체 수", "판매", "변경자"]}
           rows={history.map((row) => [
             new Date(row.changed_at).toLocaleString("ko-KR"),
             row.code,
             `${price(row.old_amount ?? 0, row.old_currency ?? "KRW")} → ${price(row.new_amount ?? 0, row.new_currency ?? "KRW")}`,
             `${row.old_font_count ?? 0} → ${row.new_font_count ?? 0}`,
+            // 컬럼 추가 이전 행은 값이 없다. 바뀌지 않은 경우와 구분해서 표시한다.
+            row.old_enabled === null || row.new_enabled === null
+              ? "-"
+              : row.old_enabled === row.new_enabled
+                ? enabledLabel(row.new_enabled)
+                : `${enabledLabel(row.old_enabled)} → ${enabledLabel(row.new_enabled)}`,
             row.changed_by ?? "-",
           ])}
         />

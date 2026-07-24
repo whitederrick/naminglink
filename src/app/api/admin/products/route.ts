@@ -105,24 +105,34 @@ export async function PATCH(request: NextRequest) {
       new_currency: changes.currency ?? current.currency,
       old_font_count: current.font_count,
       new_font_count: changes.font_count ?? current.font_count,
+      // 판매 중단·재개는 매출에 직접 영향을 주는 조작이라 가격 변경과 같은 무게로 남긴다.
+      old_enabled: current.enabled,
+      new_enabled: changes.enabled ?? current.enabled,
       changed_by: auth.admin.email ?? auth.admin.id,
     });
     invalidateProductSettingsCache();
-    return NextResponse.json({
-      ok: true,
-      // 해석된 금액을 되돌려줘야 관리자가 자릿수 실수를 즉시 알아본다(센트/원 혼동).
-      // 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 한다는 경고를 함께 내려준다.
-      warning:
-        changes.amount !== undefined || changes.currency !== undefined
-          ? `가격이 ${displayPrice({
-              amount: Number(current.amount),
-              currency: currentCurrency,
-            })} → ${displayPrice({
-              amount: nextAmount,
-              currency: nextCurrency,
-            })}로 변경되었습니다. 요금안내·약관 문서의 표기 금액 갱신이 필요합니다.`
-          : null,
-    });
+    // 해석된 금액을 되돌려줘야 관리자가 자릿수 실수를 즉시 알아본다(센트/원 혼동).
+    // 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 한다.
+    const notes: string[] = [];
+    if (changes.amount !== undefined || changes.currency !== undefined) {
+      notes.push(
+        `가격이 ${displayPrice({
+          amount: Number(current.amount),
+          currency: currentCurrency,
+        })} → ${displayPrice({
+          amount: nextAmount,
+          currency: nextCurrency,
+        })}로 변경되었습니다. 요금안내·약관 문서의 표기 금액 갱신이 필요합니다.`,
+      );
+    }
+    if (changes.enabled !== undefined && changes.enabled !== current.enabled) {
+      notes.push(
+        changes.enabled
+          ? "판매를 재개했습니다. 결제 화면에 즉시 반영됩니다(설정 캐시 60초)."
+          : "판매를 중단했습니다. 이 상품의 주문 요청은 즉시 거부됩니다.",
+      );
+    }
+    return NextResponse.json({ ok: true, warning: notes.length ? notes.join(" ") : null });
   } catch (error) {
     console.error("Failed to update product setting", error);
     return NextResponse.json({ ok: false, error: "상품 설정 수정에 실패했습니다." }, { status: 500 });
