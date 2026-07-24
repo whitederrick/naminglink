@@ -7,6 +7,7 @@ import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
+import { HangulStampCard } from "@/components/HangulStampCard";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -328,6 +329,12 @@ export function HangulPronunciationResultPage({
               candidates={artCandidatesOf(currentStored.result)}
               revealedCount={revealedCount}
               inputFactors={currentStored.inputFactors}
+              locale={locale}
+            />
+            {/* 오픈된 음차 표기 후보에서 이름 조각을 골라 도장을 신청한다(발음 이름은 길어서 파트 선택). */}
+            <HangulStampCard
+              candidates={artCandidatesOf(currentStored.result)}
+              revealedCount={revealedCount}
               locale={locale}
             />
             <ReanalysisSection

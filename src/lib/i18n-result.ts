@@ -18,6 +18,10 @@ export type ResultCopy = {
   goodsItemSub: string;
   goodsItemDescription: string;
   goodsButton: string;
+  // 발음 표기 → 도장: 음차 표기 후보 선택, 이름 조각(공백 단위) 다중 선택, 길이 초과 안내.
+  stampChooseSpelling: string;
+  stampChooseParts: string;
+  stampTooLong: string;
   editInput: string;
   home: string;
   headerAdLabel: string;
@@ -47,6 +51,9 @@ const ko: ResultCopy = {
   goodsEyebrow: "결과를 더 활용해 보세요",
   goodsSectionTitle: "이름 굿즈",
   goodsItemTitle: "이름 도장",
+  stampChooseSpelling: "표기 선택",
+  stampChooseParts: "새길 이름 조각 선택",
+  stampTooLong: "도장에 넣기엔 글자가 많습니다. 조각을 줄여 주세요.",
   goodsItemSub: "(원목 도장 · 국내 배송)",
   goodsItemDescription:
     "선택한 한글·한자 이름을 새긴 전통 이름 도장을 제작해 배송해 드립니다.",
@@ -86,6 +93,9 @@ const en: ResultCopy = {
   goodsItemDescription:
     "Have your Hangul name carved into a traditional Korean name stamp (dojang) and shipped to you — international shipping included.",
   goodsButton: "Order a name stamp",
+  stampChooseSpelling: "Choose a spelling",
+  stampChooseParts: "Choose which parts to carve",
+  stampTooLong: "That is too long for a stamp. Please choose fewer parts.",
   editInput: "Edit input",
   home: "Home",
   headerAdLabel: "Hangul result top banner ad",
@@ -122,6 +132,9 @@ const vi: ResultCopy = {
   goodsItemDescription:
     "Khắc tên Hangul của bạn lên con dấu tên truyền thống Hàn Quốc (dojang) và giao tận nơi — đã bao gồm phí vận chuyển quốc tế.",
   goodsButton: "Đặt con dấu tên",
+  stampChooseSpelling: "Chọn cách viết",
+  stampChooseParts: "Chọn các phần để khắc",
+  stampTooLong: "Điều đó quá dài cho một con dấu. Vui lòng chọn ít phần hơn.",
   editInput: "Chỉnh sửa thông tin",
   home: "Trang chủ",
   headerAdLabel: "Quảng cáo đầu trang kết quả Hangul",
@@ -158,6 +171,9 @@ const th: ResultCopy = {
   goodsItemDescription:
     "สลักชื่อฮันกึลของคุณลงบนตราประทับชื่อแบบดั้งเดิมของเกาหลี (โทจัง) และจัดส่งถึงคุณ รวมค่าจัดส่งระหว่างประเทศแล้ว",
   goodsButton: "สั่งทำตราประทับชื่อ",
+  stampChooseSpelling: "เลือกการสะกด",
+  stampChooseParts: "เลือกส่วนที่ต้องการแกะสลัก",
+  stampTooLong: "ยาวเกินไปสำหรับตรายาง กรุณาเลือกส่วนที่น้อยลง",
   editInput: "แก้ไขข้อมูล",
   home: "หน้าแรก",
   headerAdLabel: "โฆษณาแบนเนอร์ด้านบนของผลลัพธ์ฮันกึล",
@@ -194,6 +210,9 @@ const ja: ResultCopy = {
   goodsItemDescription:
     "お選びのハングル名を伝統的な名前はんこ(図章)に彫刻してお届けします。国際送料込みです。",
   goodsButton: "名前はんこを注文",
+  stampChooseSpelling: "スペルを選択",
+  stampChooseParts: "彫刻する部分を選択",
+  stampTooLong: "それはスタンプには長すぎます。より少ない部分を選択してください。",
   editInput: "入力を修正",
   home: "ホーム",
   headerAdLabel: "ハングル発音結果上部バナー広告",
@@ -230,6 +249,9 @@ const zh: ResultCopy = {
   goodsItemDescription:
     "将您选择的韩文名字刻在传统名字印章(图章)上寄送给您 — 已含国际运费。",
   goodsButton: "订购名字印章",
+  stampChooseSpelling: "选择拼写",
+  stampChooseParts: "选择要雕刻的部分",
+  stampTooLong: "这对于印章来说太长了。请选择更少的部分。",
   editInput: "修改输入",
   home: "首页",
   headerAdLabel: "韩文发音结果顶部横幅广告",
@@ -266,6 +288,9 @@ const id: ResultCopy = {
   goodsItemDescription:
     "Nama Hangul pilihan Anda diukir pada stempel nama tradisional Korea (dojang) dan dikirim ke alamat Anda — sudah termasuk ongkos kirim internasional.",
   goodsButton: "Pesan stempel nama",
+  stampChooseSpelling: "Pilih ejaan",
+  stampChooseParts: "Pilih bagian mana yang akan diukir",
+  stampTooLong: "Itu terlalu panjang untuk sebuah stempel. Silakan pilih bagian yang lebih sedikit.",
   editInput: "Ubah input",
   home: "Beranda",
   headerAdLabel: "Iklan banner atas hasil Hangul",
@@ -302,6 +327,9 @@ const de: ResultCopy = {
   goodsItemDescription:
     "Ihr gewählter Hangul-Name wird in einen traditionellen koreanischen Namensstempel (Dojang) graviert und zu Ihnen geliefert — internationaler Versand inklusive.",
   goodsButton: "Namensstempel bestellen",
+  stampChooseSpelling: "Wählen Sie eine Schreibweise",
+  stampChooseParts: "Wählen Sie, welche Teile eingraviert werden sollen",
+  stampTooLong: "Das ist zu lang für einen Stempel. Bitte wählen Sie weniger Teile.",
   editInput: "Eingabe bearbeiten",
   home: "Startseite",
   headerAdLabel: "Banner-Werbung über dem Hangul-Ergebnis",
@@ -338,6 +366,9 @@ const es: ResultCopy = {
   goodsItemDescription:
     "Tu nombre en hangul grabado en un sello de nombre tradicional coreano (dojang), enviado a tu casa — envío internacional incluido.",
   goodsButton: "Pedir un sello de nombre",
+  stampChooseSpelling: "Elige una ortografía",
+  stampChooseParts: "Elige qué partes grabar",
+  stampTooLong: "Eso es demasiado largo para un sello. Por favor, elige menos partes.",
   editInput: "Editar datos",
   home: "Inicio",
   headerAdLabel: "Anuncio de banner superior del resultado en hangul",
@@ -374,6 +405,9 @@ const fr: ResultCopy = {
   goodsItemDescription:
     "Votre prénom en hangeul gravé sur un sceau de nom traditionnel coréen (dojang), livré chez vous — livraison internationale incluse.",
   goodsButton: "Commander un sceau de nom",
+  stampChooseSpelling: "Choisissez une orthographe",
+  stampChooseParts: "Choisissez les parties à graver",
+  stampTooLong: "C'est trop long pour un tampon. Veuillez choisir moins de parties.",
   editInput: "Modifier la saisie",
   home: "Accueil",
   headerAdLabel: "Bannière publicitaire en haut du résultat en hangeul",
@@ -410,6 +444,9 @@ const it: ResultCopy = {
   goodsItemDescription:
     "Il tuo nome in hangul inciso su un tradizionale timbro coreano del nome (dojang), spedito a casa tua — spedizione internazionale inclusa.",
   goodsButton: "Ordina un timbro del nome",
+  stampChooseSpelling: "Scegli un'ortografia",
+  stampChooseParts: "Scegli quali parti incidere",
+  stampTooLong: "È troppo lungo per un timbro. Si prega di scegliere meno parti.",
   editInput: "Modifica i dati",
   home: "Home",
   headerAdLabel: "Banner pubblicitario in alto del risultato in hangul",
@@ -446,6 +483,9 @@ const pt: ResultCopy = {
   goodsItemDescription:
     "Seu nome em hangul gravado em um carimbo de nome tradicional coreano (dojang), enviado até você — frete internacional incluído.",
   goodsButton: "Pedir um carimbo de nome",
+  stampChooseSpelling: "Escolha uma grafia",
+  stampChooseParts: "Escolha quais partes gravar",
+  stampTooLong: "Isso é muito longo para um carimbo. Por favor, escolha menos partes.",
   editInput: "Editar dados",
   home: "Início",
   headerAdLabel: "Anúncio de banner no topo do resultado em hangul",
@@ -482,6 +522,9 @@ const ru: ResultCopy = {
   goodsItemDescription:
     "Ваше имя на хангыле, вырезанное на традиционной корейской именной печати (тоджан), с доставкой к вам — международная доставка включена.",
   goodsButton: "Заказать именную печать",
+  stampChooseSpelling: "Выберите написание",
+  stampChooseParts: "Выберите, какие части выгравировать",
+  stampTooLong: "Это слишком длинно для штампа. Пожалуйста, выберите меньше частей.",
   editInput: "Изменить данные",
   home: "Главная",
   headerAdLabel: "Баннерная реклама над результатом хангылем",
@@ -518,6 +561,9 @@ const ar: ResultCopy = {
   goodsItemDescription:
     "اسمك بالهانغول منقوش على ختم الاسم الكوري التقليدي (دوجانغ) ويُشحن إليك — الشحن الدولي مشمول.",
   goodsButton: "اطلب ختم الاسم",
+  stampChooseSpelling: "اختر تهجئة",
+  stampChooseParts: "اختر الأجزاء التي تريد نقشها",
+  stampTooLong: "هذا طويل جدًا لختم. يرجى اختيار أجزاء أقل.",
   editInput: "تعديل البيانات",
   home: "الرئيسية",
   headerAdLabel: "إعلان الشريط العلوي لنتيجة الهانغل",
@@ -554,6 +600,9 @@ const tr: ResultCopy = {
   goodsItemDescription:
     "Hangul isminiz geleneksel Kore isim mührüne (dojang) kazınır ve size gönderilir — uluslararası kargo dahildir.",
   goodsButton: "İsim mührü sipariş et",
+  stampChooseSpelling: "Bir yazım seçin",
+  stampChooseParts: "Hangi kısımların kazınacağını seçin",
+  stampTooLong: "Bu, bir damga için çok uzun. Lütfen daha az parça seçin.",
   editInput: "Girdiyi düzenle",
   home: "Ana sayfa",
   headerAdLabel: "Hangıl sonucu üst banner reklamı",
@@ -590,6 +639,9 @@ const fil: ResultCopy = {
   goodsItemDescription:
     "Ipauukit ang iyong pangalang Hangul sa tradisyonal na Korean name stamp (dojang) at ipapadala sa iyo — kasama na ang international shipping.",
   goodsButton: "Umorder ng name stamp",
+  stampChooseSpelling: "Pumili ng baybay",
+  stampChooseParts: "Pumili kung aling bahagi ang i-ukit",
+  stampTooLong: "Iyan ay masyadong mahaba para sa isang selyo. Mangyaring pumili ng mas kaunting bahagi.",
   editInput: "I-edit ang input",
   home: "Home",
   headerAdLabel: "Banner ad sa itaas ng resulta ng Hangul",
@@ -626,6 +678,9 @@ const uz: ResultCopy = {
   goodsItemDescription:
     "Hangul ismingiz an’anaviy koreys ism muhriga (dojang) o‘yib tushiriladi va sizga yetkaziladi — xalqaro yetkazib berish narxga kiritilgan.",
   goodsButton: "Ism muhriga buyurtma berish",
+  stampChooseSpelling: "Imlo tanlang",
+  stampChooseParts: "Qaysi qismlarni o'yish kerakligini tanlang",
+  stampTooLong: "Bu muhr uchun juda uzun. Iltimos, kamroq qismlarni tanlang.",
   editInput: "Ma’lumotlarni tahrirlash",
   home: "Bosh sahifa",
   headerAdLabel: "Hangul natijasi yuqorisidagi banner reklama",
@@ -662,6 +717,9 @@ const mn: ResultCopy = {
   goodsItemDescription:
     "Таны хангыль нэрийг уламжлалт солонгос нэрийн тамганд (тожан) сийлж, танд хүргэнэ — олон улсын хүргэлт багтсан.",
   goodsButton: "Нэрийн тамга захиалах",
+  stampChooseSpelling: "Бичгийн хэлбэрийг сонгоно уу",
+  stampChooseParts: "Гаргах хэсгүүдийг сонгоно уу",
+  stampTooLong: "Энэ тамга хийхэд хэт урт байна. Битүү хэсгүүдийг сонгоно уу.",
   editInput: "Оруулсан мэдээллийг засах",
   home: "Нүүр",
   headerAdLabel: "Хангыль үр дүнгийн дээд баннер зар",
@@ -698,6 +756,9 @@ const hi: ResultCopy = {
   goodsItemDescription:
     "आपका हांगुल नाम पारंपरिक कोरियाई नाम मुहर (दोजांग) पर उकेरा जाएगा और आप तक पहुँचाया जाएगा — अंतरराष्ट्रीय शिपिंग शामिल।",
   goodsButton: "नाम मुहर ऑर्डर करें",
+  stampChooseSpelling: "स्पेलिंग चुनें",
+  stampChooseParts: "कौन से भाग उकेरने के लिए चुनें",
+  stampTooLong: "यह स्टाम्प के लिए बहुत लंबा है। कृपया कम भाग चुनें।",
   editInput: "इनपुट संपादित करें",
   home: "होम",
   headerAdLabel: "हांगुल परिणाम शीर्ष बैनर विज्ञापन",
@@ -734,6 +795,9 @@ const km: ResultCopy = {
   goodsItemDescription:
     "ឈ្មោះហាំងកឹលរបស់អ្នកត្រូវបានឆ្លាក់លើត្រាឈ្មោះប្រពៃណីកូរ៉េ (dojang) ហើយដឹកជញ្ជូនដល់អ្នក — រួមបញ្ចូលថ្លៃដឹកជញ្ជូនអន្តរជាតិ។",
   goodsButton: "បញ្ជាទិញត្រាឈ្មោះ",
+  stampChooseSpelling: "ជ្រើសរើសអក្សរ",
+  stampChooseParts: "ជ្រើសរើសផ្នែកដែលត្រូវកាត់",
+  stampTooLong: "វាយ៉ាងខ្លាំងសម្រាប់ស្តាំ។ សូមជ្រើសរើសផ្នែកតិចជាងនេះ។",
   editInput: "កែសម្រួលការបញ្ចូល",
   home: "ទំព័រដើម",
   headerAdLabel: "ផ្ទាំងផ្សាយពាណិជ្ជកម្មខាងលើលទ្ធផលហាន់គុល",
@@ -770,6 +834,9 @@ const kk: ResultCopy = {
   goodsItemDescription:
     "Хангыль есіміңіз дәстүрлі корей есім мөріне (тоджан) ойылып, сізге жеткізіледі — халықаралық жеткізу құны қосылған.",
   goodsButton: "Есім мөріне тапсырыс беру",
+  stampChooseSpelling: "Жазуды таңдаңыз",
+  stampChooseParts: "Қай бөліктерді ойып алуды таңдаңыз",
+  stampTooLong: "Бұл мөр үшін тым ұзын. Аз бөліктерді таңдаңыз.",
   editInput: "Енгізілген деректерді өзгерту",
   home: "Басты бет",
   headerAdLabel: "Хангыль нәтижесінің жоғарғы баннерлік жарнамасы",
@@ -806,6 +873,9 @@ const ms: ResultCopy = {
   goodsItemDescription:
     "Nama Hangul pilihan anda diukir pada cop nama tradisional Korea (dojang) dan dihantar kepada anda — penghantaran antarabangsa termasuk.",
   goodsButton: "Tempah cop nama",
+  stampChooseSpelling: "Pilih ejaan",
+  stampChooseParts: "Pilih bahagian yang ingin diukir",
+  stampTooLong: "Itu terlalu panjang untuk cap. Sila pilih bahagian yang lebih sedikit.",
   editInput: "Sunting input",
   home: "Laman utama",
   headerAdLabel: "Iklan sepanduk atas hasil Hangul",
@@ -842,6 +912,9 @@ const pl: ResultCopy = {
   goodsItemDescription:
     "Twoje imię w hangul wygrawerowane na tradycyjnej koreańskiej pieczęci imiennej (dojang), dostarczone do ciebie — wysyłka międzynarodowa w cenie.",
   goodsButton: "Zamów pieczęć imienną",
+  stampChooseSpelling: "Wybierz zapis",
+  stampChooseParts: "Wybierz, które części wyryć",
+  stampTooLong: "To jest za długie na stempel. Proszę wybrać mniej części.",
   editInput: "Edytuj dane",
   home: "Strona główna",
   headerAdLabel: "Reklama banerowa nad wynikiem hangul",
