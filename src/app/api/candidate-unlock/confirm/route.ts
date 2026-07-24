@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+import { classifyPaymentError } from "@/lib/payment-errors";
 import { getVerifiedPremiumPayment } from "@/lib/portone";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { checkRateLimit, readJsonBodyLimited, RequestTooLargeError } from "@/lib/request-guard";
@@ -82,9 +83,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error("Failed to confirm candidate unlock payment", error);
-    return NextResponse.json(
-      { ok: false, error: error instanceof Error ? error.message : "결제 확인에 실패했습니다." },
-      { status: 500 },
-    );
+    const { status, message } = classifyPaymentError(error);
+    return NextResponse.json({ ok: false, error: message }, { status });
   }
 }

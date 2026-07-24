@@ -1,8 +1,10 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+import { classifyPaymentError } from "@/lib/payment-errors";
 import { getVerifiedPremiumPayment } from "@/lib/portone";
 import { getAuthorizedPremiumSession, markPremiumSessionPaid } from "@/lib/premium-session";
+import { checkRateLimit, readJsonBodyLimited, RequestTooLargeError } from "@/lib/request-guard";
 
 export const runtime = "nodejs";
 
@@ -12,10 +14,31 @@ const schema = z.object({
   accessToken: z.string().min(32).max(256),
 });
 
-export async function POST(request: Request) {
-  const parsed = schema.safeParse(await request.json().catch(() => null));
+export async function POST(request: NextRequest) {
+  let body: unknown;
+  try {
+    body = await readJsonBodyLimited(request, 4 * 1024);
+  } catch (guardError) {
+    const message =
+      guardError instanceof RequestTooLargeError
+        ? guardError.message
+        : "결제 확인 요청이 올바르지 않습니다.";
+    return NextResponse.json({ ok: false, error: message }, { status: 413 });
+  }
+  const parsed = schema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ ok: false, error: "결제 확인 요청이 올바르지 않습니다." }, { status: 400 });
+  }
+  // 이어받기·모바일 복구가 같은 세션으로 여러 번 부르는 정상 경로가 있어 한도를 넉넉히 잡는다.
+  const allowed = await checkRateLimit(request, "premium_confirm", {
+    windowSeconds: 3600,
+    limit: 60,
+  });
+  if (!allowed) {
+    return NextResponse.json(
+      { ok: false, error: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요." },
+      { status: 429 },
+    );
   }
   try {
     const { supabase, session } = await getAuthorizedPremiumSession(parsed.data.sessionId, parsed.data.accessToken);
@@ -45,11 +68,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true, status: "PAID", ...paid });
   } catch (error) {
     console.error("Premium payment verification failed", error);
-    const status = error instanceof HttpError ? error.status : statusForError(error);
-    return NextResponse.json(
-      { ok: false, error: error instanceof Error ? error.message : "결제를 확인하지 못했습니다." },
-      { status },
-    );
+    // HttpError는 이 라우트가 직접 만든 이용자용 문구라 그대로 쓰고, 그 밖의 오류는 내부 내용이
+    // 섞여 있으므로 분류된 문구로 바꿔 내보낸다.
+    if (error instanceof HttpError) {
+      return NextResponse.json({ ok: false, error: error.message }, { status: error.status });
+    }
+    const { status, message } = classifyPaymentError(error);
+    return NextResponse.json({ ok: false, error: message }, { status });
   }
 }
 
@@ -58,21 +83,4 @@ class HttpError extends Error {
     super(message);
     this.name = "HttpError";
   }
-}
-
-// lib에서 올라오는 오류 메시지로 상태 코드를 구분한다(연결/저장소 문제는 서버 오류, 결제 상태 문제는 결제 오류).
-function statusForError(error: unknown) {
-  const message = error instanceof Error ? error.message : "";
-  if (message.includes("저장소 연결") || message.includes("설정되지 않")) return 503;
-  if (message.includes("접근 정보가 올바르지 않")) return 403;
-  if (message.includes("찾을 수 없")) return 404;
-  if (
-    message.includes("포트원") ||
-    message.includes("결제 상점") ||
-    message.includes("결제 금액") ||
-    message.includes("결제 정보가")
-  ) {
-    return 402;
-  }
-  return 500;
 }
