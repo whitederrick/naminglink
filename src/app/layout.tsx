@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
+import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
 
 const geistSans = Geist({
@@ -43,6 +44,7 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${namingHanja.variable}`}
     >
       <body>
+        <LocaleHtmlSync />
         <AnalyticsTracker />
         {children}
       </body>
