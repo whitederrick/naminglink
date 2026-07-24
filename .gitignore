@@ -48,3 +48,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ko 약관 스냅샷(scripts/extract-ko-docs.ts로 재생성)
+src/lib/legal-content/_ko-docs.json

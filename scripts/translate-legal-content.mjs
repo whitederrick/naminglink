@@ -1,6 +1,7 @@
 // ko.ts를 원본으로, 나머지 21개 로케일 legal-content 파일의 4개 문서(terms/privacy/refund/pricing)
 // sections를 AI 번역으로 재생성한다. 구조(섹션 수·순서)는 ko와 정확히 일치시킨다.
 // labels/description/effectiveDate/companyInfo 참조는 건드리지 않고 sections 배열만 교체한다.
+// 실행 전: npx tsx --tsconfig tsconfig.json scripts/extract-ko-docs.ts (ko 스냅샷 _ko-docs.json 생성)
 // 실행: cd scripts && node translate-legal-content.mjs [locale ...]
 // 실행 후 반드시: node normalize-legal-prices.mjs && node normalize-legal-usd.mjs
 //   (번역이 금액을 로케일 관습대로 2.900 / 1,99 US$ 등으로 바꿔놓아 표기가 결제 화면과 어긋난다.
@@ -42,6 +43,7 @@ async function translateDoc(langName, docKey, sections) {
           content: [
             `You are a legal/UX localizer for a Korean naming web service. Translate the given Korean legal document sections into ${langName}.`,
             "Rules: translate faithfully and formally as legal/policy text; keep all numbers, prices (₩990, US$9.99 etc.), company/brand names (OpenAI L.L.C., Supabase Inc., Vercel Inc., PortOne, Naming-Link), and country names accurate and unchanged in meaning.",
+            `CRITICAL: this service is about KOREAN names, the KOREAN language, Hangul and Hanja (Chinese characters). Never substitute the reader's own language, script, or country for Korea/Korean/Hangul — a ${langName} reader must still be told the names are Korean. Translating "한글 이름" as "${langName} name" misdescribes the product being sold.`,
             "Preserve the exact structure: return JSON {\"sections\":[{\"title\":\"...\",\"paragraphs\":[\"...\",...]}]} with the SAME number of sections and the SAME number of paragraphs per section as the input. Do not add, drop, split, or merge items.",
           ].join(" "),
         },
