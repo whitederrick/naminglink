@@ -39,3 +39,43 @@ body {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
+
+/* 랜딩 히어로 배경.
+   naminglink는 사진 위에 어두운 그라데이션을 덮어 흰 글씨를 얹는다. 이 서비스는 아직 사진
+   자산이 없으므로 같은 인상을 그라데이션만으로 만든다 — 자두·구리·세이지가 어둠 속에서
+   번지는 형태라 naminglink와 문법은 같고 색만 다르다. 사진이 준비되면 이 클래스를 이미지로
+   바꾸고 아래 오버레이는 그대로 두면 된다. */
+.hero-backdrop {
+  background-color: #170f13;
+  background-image:
+    radial-gradient(
+      1100px 620px at 12% 18%,
+      rgba(134, 51, 90, 0.55),
+      transparent 62%
+    ),
+    radial-gradient(
+      880px 520px at 88% 12%,
+      rgba(180, 99, 47, 0.34),
+      transparent 58%
+    ),
+    radial-gradient(
+      760px 700px at 72% 92%,
+      rgba(79, 111, 94, 0.3),
+      transparent 62%
+    ),
+    linear-gradient(180deg, #1c1116 0%, #241419 52%, #120c0f 100%);
+}
+
+/* 아주 옅은 점 격자. 평평한 그라데이션에 종이 같은 결을 준다. */
+.hero-texture {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.055) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+::selection {
+  background: #f0d3dd;
+  color: #3d1327;
+}

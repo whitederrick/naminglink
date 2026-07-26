@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import { MatchResultView } from "@/components/MatchResultView";
+import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 
@@ -16,14 +15,13 @@ export default async function ResultPage({
   const dictionary = getDictionary(locale);
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col px-6 py-8">
-      <header>
-        <Link href={`/?lang=${locale}`} className="text-sm font-semibold text-brand-plum">
-          {dictionary.brand}
-        </Link>
-      </header>
-      <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
-      <MatchResultView dictionary={dictionary} locale={locale} />
+    <main className="min-h-screen bg-background">
+      <PageHeader brand={dictionary.brand} locale={locale} />
+
+      <div className="mx-auto w-full max-w-2xl px-6 pb-16">
+        <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
+        <MatchResultView dictionary={dictionary} locale={locale} />
+      </div>
     </main>
   );
 }
