@@ -24,8 +24,11 @@ export { BRANCH_ANIMALS } from "./branches";
  * v4: 점수 외에 읽을거리 추가 — 사주 원국·오행 세력·강점/주의/조언. 점수 규칙은 v3과 같다.
  * v5: 배우자성을 오행에서 십신으로 교체(정재·정관과 편재·편관을 구분) + 관계의 모양 추가.
  *     배우자성 점수가 바뀌므로 v4와 총점이 다를 수 있다.
+ * v6: 점수 규칙은 v5와 같다. 다만 사주 엔진이 v2가 되면서(`@naminglink/core`) 출생지를
+ *     넘기지 않은 경우에도 진태양시 경로를 타고, 자정 직후 출생은 진태양시 날짜로 일주를
+ *     잡는다. 사주 원국이 달라지는 입력이 있으므로 총점도 달라질 수 있다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v5";
+export const ENGINE_VERSION = "inyeonlink-match-v6";
 
 /**
  * 엔진별 비중.

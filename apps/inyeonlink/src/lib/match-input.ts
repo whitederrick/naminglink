@@ -39,8 +39,9 @@ export const matchInputSchema = z.object({
 export type MatchInput = z.infer<typeof matchInputSchema>;
 
 export function toPerson(value: z.infer<typeof personSchema>): Person {
-  // 목록에 없는 코드가 오면 출생지를 넘기지 않는다. 그러면 엔진이 기존 방식(한국 기준)으로
-  // 계산하므로 값이 틀리는 대신 조용히 넘어가는데, 코드는 화면이 고른 값이라 실제로는 없다.
+  // 목록에 없는 코드가 오면 출생지를 넘기지 않는다. 그러면 엔진이 서울(Asia/Seoul, 126.978°)
+  // 기준 진태양시로 계산하므로 해외 출생이면 값이 틀리는 대신 조용히 넘어가는데, 코드는 화면이
+  // 고른 값이라 실제로는 없다.
   const place = value.birthplaceCode ? findBirthplace(value.birthplaceCode) : null;
 
   return {

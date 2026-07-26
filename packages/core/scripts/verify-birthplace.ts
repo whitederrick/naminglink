@@ -35,34 +35,36 @@ function hourPillar(c: Case) {
   };
 }
 
+// v2부터 출생지를 넘기지 않아도 같은 경로(IANA 진태양시)를 탄다. 넘기지 않으면 기준점이
+// 서울(Asia/Seoul, 126.978°)일 뿐이다 — 그래서 "미지정"과 "서울"은 결과가 같아야 한다.
 const cases: Case[] = [
   {
-    title: "NY 1990-05-12 13:45 (출생지 미지정 = 한국 기준)",
+    title: "NY 1990-05-12 13:45 (출생지 미지정 = 서울 기준)",
     year: 1990, month: 5, day: 12, hour: 13, minute: 45,
-    expect: "라이브러리 보정(-32분) -> 13:13",
+    expect: "서울 기준 진태양시 13:12 — 뉴욕 출생을 서울로 계산한 잘못된 값",
   },
   {
     title: "NY 1990-05-12 13:45 (출생지 뉴욕)",
     year: 1990, month: 5, day: 12, hour: 13, minute: 45,
     birthplace: NEW_YORK,
-    expect: "EDT(UTC-4) -> 진태양시 12:49",
+    expect: "EDT(UTC-4) -> 진태양시 12:48",
   },
   {
     title: "KR 1988-06-15 10:00 (출생지 미지정)",
     year: 1988, month: 6, day: 15, hour: 10, minute: 0,
-    expect: "서머타임 무시 -> 09:28",
+    expect: "서울 기준 + 서머타임 반영 -> 08:27 (아래 '서울'과 같아야 함)",
   },
   {
     title: "KR 1988-06-15 10:00 (출생지 서울, 서머타임 시행 중)",
     year: 1988, month: 6, day: 15, hour: 10, minute: 0,
     birthplace: SEOUL,
-    expect: "KDT(UTC+10) 반영 -> 08:28",
+    expect: "KDT(UTC+10) 반영 -> 08:27",
   },
   {
     title: "KR 1957-06-15 10:00 (출생지 서울, 당시 UTC+8:30)",
     year: 1957, month: 6, day: 15, hour: 10, minute: 0,
     birthplace: SEOUL,
-    expect: "UTC+8:30 반영",
+    expect: "UTC+8:30 반영 -> 08:57",
   },
 ];
 
