@@ -2,6 +2,7 @@ import {
   calculatePremiumSaju,
   type FiveElement,
 } from "@naminglink/core/saju";
+import { calculateElementStrength } from "@naminglink/core/saju/elements";
 
 import { BRANCH_RELATION_SCORE, branchOf, branchRelation } from "./branches";
 import {
@@ -83,11 +84,14 @@ const SPOUSE_STAR_SCORE: Record<SpouseStarMatch, number> = {
 };
 
 /**
- * 두 사람의 표면 오행을 합쳤을 때 다섯 기운이 고르게 퍼지는가.
+ * 두 사람의 오행 세력을 합쳤을 때 다섯 기운이 고르게 퍼지는가.
  *
  * 한쪽에 없는 기운을 다른 쪽이 채워 주면 높아지고, 둘 다 같은 기운에 몰려 있으면 낮아진다.
  * 변동계수(표준편차/평균)로 재는데, 오행이 완전히 균등하면 0이고 한 기운에 전부 몰리면 2에
  * 가까워진다. 이를 뒤집어 55~100 구간으로 옮긴다 — 0점을 주지 않는 이유는 지지 관계와 같다.
+ *
+ * 넘어오는 값은 표면 글자 **개수**가 아니라 지장간·월령을 반영한 **세력**이다
+ * (@naminglink/core/saju/elements 참고).
  */
 export function elementBalanceScore(counts: Record<FiveElement, number>) {
   const values = ELEMENTS.map((element) => counts[element]);
@@ -129,11 +133,15 @@ export const sajuEngine: MatchEngine = {
 
     const relation = elementRelation(elementA, elementB);
 
+    // 표면 글자 개수(visibleFiveElements)가 아니라 지장간·월령을 반영한 세력을 합친다.
+    // 같은 木이라도 봄에 난 木과 가을에 난 木은 힘이 다르고, 지지가 품은 기운은 겉으로
+    // 드러나지 않는다 — 개수만 세면 둘 다 놓친다.
+    const strengthA = calculateElementStrength(toPillarHanja(sajuA));
+    const strengthB = calculateElementStrength(toPillarHanja(sajuB));
     const combined = Object.fromEntries(
       ELEMENTS.map((element) => [
         element,
-        sajuA.visibleFiveElements.counts[element] +
-          sajuB.visibleFiveElements.counts[element],
+        strengthA.strength[element] + strengthB.strength[element],
       ]),
     ) as Record<FiveElement, number>;
 
@@ -200,6 +208,15 @@ function scarcestElement(counts: Record<FiveElement, number>) {
   return ELEMENTS.reduce((lowest, element) =>
     counts[element] < counts[lowest] ? element : lowest,
   );
+}
+
+function toPillarHanja(saju: ReturnType<typeof calculatePremiumSaju>) {
+  return {
+    year: saju.pillars.year.hanja,
+    month: saju.pillars.month.hanja,
+    day: saju.pillars.day.hanja,
+    hour: saju.pillars.hour?.hanja ?? null,
+  };
 }
 
 function toSaju(person: Person) {

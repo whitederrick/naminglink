@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     "./saju": "./src/saju/engine.ts",
-    "./saju/timezone": "./src/saju/timezone.ts"
+    "./saju/timezone": "./src/saju/timezone.ts",
+    "./saju/elements": "./src/saju/elements.ts"
   },
   "dependencies": {
     "@fullstackfamily/manseryeok": "1.0.8"

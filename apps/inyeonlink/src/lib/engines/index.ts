@@ -9,8 +9,9 @@ export { BRANCH_ANIMALS } from "./branches";
  * 엔진 버전. 점수 규칙을 바꾸면 반드시 올린다 — 결과 링크가 언제 계산된 것인지 구분된다.
  *
  * v2: 출생지 진태양시 보정(해외 출생 시주 오류 수정) + 배우자성 항목(성별) 추가.
+ * v3: 오행 보완도를 표면 글자 개수에서 지장간·월령을 반영한 세력으로 교체.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v2";
+export const ENGINE_VERSION = "inyeonlink-match-v3";
 
 /**
  * 엔진별 비중.
