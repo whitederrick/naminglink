@@ -121,8 +121,10 @@ function PersonFields({
   const set = <K extends keyof PersonDraft>(key: K, next: PersonDraft[K]) =>
     onChange({ ...value, [key]: next });
 
+  // 카드와 입력칸을 반투명으로 두어 배경 이미지가 비치게 한다. 흐림(backdrop-blur)을 함께
+  // 거는 것은 장식이 아니라 가독성 때문이다 — 이미지의 결이 그대로 비치면 글씨와 겹친다.
   return (
-    <fieldset className="rounded-2xl border border-line bg-surface p-5">
+    <fieldset className="rounded-2xl border border-line/70 bg-surface/70 p-5 shadow-sm backdrop-blur-md">
       <legend className="px-2 text-sm font-semibold text-brand-plum">
         {legend}
       </legend>
@@ -135,7 +137,7 @@ function PersonFields({
           maxLength={24}
           placeholder={t.nicknamePlaceholder}
           onChange={(event) => set("label", event.target.value)}
-          className="mt-1 w-full rounded-lg border border-line bg-background px-3 py-2"
+          className="mt-1 w-full rounded-lg border border-line/70 bg-background/60 px-3 py-2 backdrop-blur-sm"
         />
         <span className="mt-1 block text-xs text-muted">{t.nicknameHint}</span>
       </label>
@@ -152,7 +154,7 @@ function PersonFields({
               className={
                 value.gender === option
                   ? "rounded-full bg-brand-plum px-4 py-1.5 text-sm text-white"
-                  : "rounded-full border border-line px-4 py-1.5 text-sm text-muted"
+                  : "rounded-full border border-line/70 bg-surface/45 px-4 py-1.5 text-sm text-muted backdrop-blur-sm"
               }
             >
               {option === "male"
@@ -173,7 +175,7 @@ function PersonFields({
         <select
           value={value.birthplaceCode}
           onChange={(event) => set("birthplaceCode", event.target.value)}
-          className="mt-1 w-full rounded-lg border border-line bg-background px-3 py-2"
+          className="mt-1 w-full rounded-lg border border-line/70 bg-background/60 px-3 py-2 backdrop-blur-sm"
         >
           {BIRTHPLACES.map((place) => (
             <option key={place.code} value={place.code}>
@@ -198,7 +200,7 @@ function PersonFields({
               className={
                 value.calendarType === type
                   ? "rounded-full bg-brand-plum px-4 py-1.5 text-sm text-white"
-                  : "rounded-full border border-line px-4 py-1.5 text-sm text-muted"
+                  : "rounded-full border border-line/70 bg-surface/45 px-4 py-1.5 text-sm text-muted backdrop-blur-sm"
               }
             >
               {type === "solar" ? t.solar : t.lunar}
@@ -300,7 +302,7 @@ function NumberField({
         min={min}
         max={max}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-0.5 w-full rounded-lg border border-line bg-background px-3 py-2"
+        className="mt-0.5 w-full rounded-lg border border-line/70 bg-background/60 px-3 py-2 backdrop-blur-sm"
       />
     </label>
   );
