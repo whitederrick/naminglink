@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { AdBanner } from "@/components/AdBanner";
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
@@ -47,6 +48,10 @@ export default async function CompatibilityPage({
 
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
+
+          {/* 광고는 미저장 안내 아래, 즉 화면의 맨 끝에 둔다. 제출 버튼 근처에 두면 오클릭이
+              나고 그건 애드센스 계정 정지 사유다. */}
+          <AdBanner placement="form" locale={locale} className="mt-10" />
         </div>
 
         <SiteFooter locale={locale} />

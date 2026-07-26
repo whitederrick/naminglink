@@ -1,3 +1,4 @@
+import { adsEnabled } from "@/lib/ads";
 import { companyInfo, LEGAL_EFFECTIVE_DATE } from "@/lib/company";
 import type { Locale } from "@/lib/i18n";
 
@@ -22,6 +23,59 @@ export type LegalDocument = {
 };
 
 export type LegalDocumentKey = "privacy" | "terms";
+
+// 광고 관련 조항은 광고가 실제로 켜져 있는지에 따라 달라진다. 문구를 하나로 고정하면 둘 중
+// 한 상태에서는 방침이 사실과 어긋난다 — 아직 광고가 없는데 "게재합니다"라고 적거나, 이미
+// 광고를 싣고 있는데 "향후 게재하는 경우"라고 적는 식이다. 그래서 `adsEnabled`를 따라간다.
+// 환경변수로 광고를 켜면 방침도 함께 현재형으로 바뀐다.
+
+const adsSectionKo: LegalSection = adsEnabled
+  ? {
+      heading: "4. 쿠키와 광고",
+      paragraphs: [
+        "서비스 자체는 이용자를 식별하거나 추적하기 위한 쿠키를 사용하지 않습니다. 궁합 계산에 입력한 정보는 광고 사업자에게 전달되지 않습니다.",
+        "이 서비스는 Google AdSense를 통해 광고를 게재합니다. 이 과정에서 다음과 같은 일이 일어납니다.",
+      ],
+      bullets: [
+        "Google을 포함한 제3자 공급업체가 이용자의 브라우저에 쿠키를 저장하거나 읽을 수 있습니다.",
+        "Google은 이 사이트를 비롯한 여러 사이트의 방문 기록을 바탕으로 광고를 게재하기 위해 쿠키를 사용합니다.",
+        "이용자는 Google 광고 설정(google.com/settings/ads)에서 맞춤형 광고를 해제할 수 있습니다. 해제해도 광고 자체는 계속 표시되며, 이용자와의 관련성만 낮아집니다.",
+        "제3자 공급업체 전반의 맞춤형 광고는 aboutads.info/choices 에서 한 번에 해제할 수 있습니다.",
+        "브라우저 설정에서 쿠키를 차단하는 방법도 있습니다.",
+        "유럽경제지역·영국·스위스 이용자에게는 광고 쿠키 사용에 대한 동의를 먼저 묻습니다.",
+      ],
+    }
+  : {
+      heading: "4. 쿠키와 광고",
+      paragraphs: [
+        "서비스 자체는 이용자를 추적하기 위한 쿠키를 사용하지 않습니다.",
+        "현재 이 서비스에는 광고가 게재되지 않습니다. 향후 광고를 게재하는 경우, 광고 제공자(예: Google)가 광고 게재를 위해 쿠키를 사용할 수 있습니다. 그때는 이 조항을 먼저 고쳐 무엇이 달라지는지 밝힌 뒤 시작합니다.",
+      ],
+    };
+
+const adsSectionEn: LegalSection = adsEnabled
+  ? {
+      heading: "4. Cookies and advertising",
+      paragraphs: [
+        "The service itself does not use cookies to identify or track visitors. What you enter for a compatibility reading is never passed to an advertising provider.",
+        "This service shows advertising through Google AdSense. That involves the following.",
+      ],
+      bullets: [
+        "Third-party vendors, including Google, may store and read cookies in your browser.",
+        "Google uses cookies to serve ads based on your prior visits to this and other websites.",
+        "You can opt out of personalised advertising through Google Ads Settings (google.com/settings/ads). Ads still appear after opting out; they simply become less relevant to you.",
+        "You can opt out of personalised advertising from third-party vendors generally at aboutads.info/choices.",
+        "You can also block cookies in your browser settings.",
+        "Visitors in the European Economic Area, the United Kingdom and Switzerland are asked for consent before advertising cookies are used.",
+      ],
+    }
+  : {
+      heading: "4. Cookies and advertising",
+      paragraphs: [
+        "The service itself does not use cookies to track visitors.",
+        "There is currently no advertising on this service. If advertising is introduced, a provider such as Google may use cookies to serve ads. We will revise this section to say what changes before that begins.",
+      ],
+    };
 
 const ko: Record<LegalDocumentKey, LegalDocument> = {
   privacy: {
@@ -53,13 +107,7 @@ const ko: Record<LegalDocumentKey, LegalDocument> = {
           "국가 정보 — 화면 언어를 자동으로 정하는 데만 사용하며 저장하지 않습니다",
         ],
       },
-      {
-        heading: "4. 쿠키와 광고",
-        paragraphs: [
-          "서비스 자체는 이용자를 추적하기 위한 쿠키를 사용하지 않습니다.",
-          "향후 광고를 게재하는 경우, 광고 제공자(예: Google)가 광고 게재를 위해 쿠키를 사용할 수 있습니다. 이용자는 브라우저 설정에서 쿠키를 차단할 수 있으며, Google 광고 설정 페이지에서 맞춤형 광고를 해제할 수 있습니다.",
-        ],
-      },
+      adsSectionKo,
       {
         heading: "5. 제3자 제공 및 처리위탁",
         paragraphs: [
@@ -193,13 +241,7 @@ const en: Record<LegalDocumentKey, LegalDocument> = {
           "Country, used only to choose the interface language, and not stored",
         ],
       },
-      {
-        heading: "4. Cookies and advertising",
-        paragraphs: [
-          "The service itself does not use cookies to track visitors.",
-          "If advertising is introduced, an advertising provider such as Google may use cookies to serve ads. You can block cookies in your browser settings and opt out of personalised advertising through Google's Ads Settings page.",
-        ],
-      },
+      adsSectionEn,
       {
         heading: "5. Sharing and processing by others",
         paragraphs: [

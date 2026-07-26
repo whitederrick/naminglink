@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
+import { AdBanner } from "@/components/AdBanner";
 import {
   scoreBand,
   type EngineResult,
@@ -202,6 +203,11 @@ export function MatchResultView({
       <p className="mt-10 text-xs text-muted">
         {t.engineVersion}: {outcome.engineVersion}
       </p>
+
+      {/* 광고는 결과 화면 안쪽, 그것도 '결과가 실제로 나온' 갈래에만 둔다. 페이지 쪽에 두면
+          입력을 못 읽어 오류가 뜬 화면에도 광고가 실리는데, 내용 없는 화면의 광고는 애드센스
+          정책 위반이다. 다시 계산·링크 복사 버튼과는 한 칸 떨어뜨려 오클릭을 피한다. */}
+      <AdBanner placement="result" locale={locale} className="mt-10" />
     </div>
   );
 }

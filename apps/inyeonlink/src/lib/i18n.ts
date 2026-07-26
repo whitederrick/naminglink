@@ -156,6 +156,11 @@ export type Dictionary = {
     engineVersion: string;
     disclaimer: string;
   };
+  /**
+   * 광고 자리 표시. 애드센스는 광고에 라벨을 붙일 때 "광고"에 해당하는 말만 허용한다
+   * ("추천", "관련 글" 같은 표현은 정책 위반이다).
+   */
+  ads: { label: string };
   footer: {
     privacy: string;
     terms: string;
@@ -365,6 +370,7 @@ const ko: Dictionary = {
     disclaimer:
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
   },
+  ads: { label: "광고" },
   footer: {
     privacy: "개인정보처리방침",
     terms: "이용약관",
@@ -661,6 +667,7 @@ const en: Dictionary = {
     disclaimer:
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
   },
+  ads: { label: "Advertisement" },
   footer: {
     privacy: "Privacy Policy",
     terms: "Terms of Service",
