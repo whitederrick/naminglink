@@ -113,6 +113,27 @@ export type Dictionary = {
     errorInvalidDate: string;
     errorGeneric: string;
   };
+  reading: {
+    chartTitle: string;
+    chartHint: string;
+    pillarYear: string;
+    pillarMonth: string;
+    pillarDay: string;
+    pillarHour: string;
+    pillarHourUnknown: string;
+    dayMasterLabel: string;
+    animalLabel: string;
+    seasonLabel: string;
+    elementsTitle: string;
+    strongest: string;
+    scarcest: string;
+    strengthTitle: string;
+    cautionTitle: string;
+  };
+  /** 일간(천간) 10종 성향 */
+  dayMasters: Record<string, { name: string; trait: string }>;
+  /** 십이지 성향 */
+  animalTraits: Record<string, string>;
   result: {
     title: string;
     totalLabel: string;
@@ -124,6 +145,20 @@ export type Dictionary = {
     partialTime: string;
     engineVersion: string;
     disclaimer: string;
+  };
+  footer: {
+    disclaimer: string;
+    linksLabel: string;
+    privacy: string;
+    terms: string;
+    legalEntity: string;
+    representative: string;
+    businessNumber: string;
+    mailOrderNumber: string;
+    address: string;
+    contact: string;
+    effective: string;
+    backHome: string;
   };
   bands: Record<"EXCELLENT" | "GOOD" | "FAIR" | "CHALLENGING", string>;
   engines: Record<"saju" | "zodiac", { name: string; description: string }>;
@@ -195,6 +230,50 @@ const ko: Dictionary = {
       "입력한 생년월일을 확인해 주세요. 음력이면 윤달 여부도 확인이 필요합니다.",
     errorGeneric: "계산에 실패했습니다. 잠시 후 다시 시도해 주세요.",
   },
+  reading: {
+    chartTitle: "두 사람의 사주",
+    chartHint:
+      "태어난 연·월·일·시를 각각 두 글자로 나타낸 것이 사주(四柱)입니다. 아래 궁합 점수는 이 여덟 글자에서 나옵니다.",
+    pillarYear: "연주",
+    pillarMonth: "월주",
+    pillarDay: "일주",
+    pillarHour: "시주",
+    pillarHourUnknown: "시각 미입력",
+    dayMasterLabel: "일간",
+    animalLabel: "띠",
+    seasonLabel: "태어난 계절의 기운",
+    elementsTitle: "오행의 세력",
+    strongest: "가장 강한 기운",
+    scarcest: "가장 약한 기운",
+    strengthTitle: "이 관계의 강점",
+    cautionTitle: "눈여겨볼 점",
+  },
+  dayMasters: {
+    甲: { name: "갑목(甲木)", trait: "곧게 자라는 큰 나무입니다. 방향이 정해지면 흔들리지 않고, 굽히기보다 버티는 쪽을 택합니다." },
+    乙: { name: "을목(乙木)", trait: "덩굴처럼 유연한 풀입니다. 상황에 맞춰 휘어지며 나아가고, 끊어지지 않는 끈기가 있습니다." },
+    丙: { name: "병화(丙火)", trait: "한낮의 태양입니다. 감정을 숨기지 않고 주위를 환하게 만들며, 앞에 나서는 일을 꺼리지 않습니다." },
+    丁: { name: "정화(丁火)", trait: "촛불과 등불입니다. 은은하게 오래 가고, 가까운 사람에게 먼저 온기를 나눕니다." },
+    戊: { name: "무토(戊土)", trait: "넓은 들과 산입니다. 쉽게 흔들리지 않아 기댈 곳이 되어 주지만, 한번 정한 것은 잘 바꾸지 않습니다." },
+    己: { name: "기토(己土)", trait: "밭의 흙입니다. 무엇이든 받아 길러 내며, 드러내기보다 챙기는 쪽에 가깝습니다." },
+    庚: { name: "경금(庚金)", trait: "다듬지 않은 쇠입니다. 결단이 빠르고 맺고 끊음이 분명해 일이 지체되는 것을 견디지 못합니다." },
+    辛: { name: "신금(辛金)", trait: "다듬어진 보석입니다. 감각이 섬세하고 기준이 높아, 어설픈 것을 그냥 넘기지 못합니다." },
+    壬: { name: "임수(壬水)", trait: "큰 강과 바다입니다. 품이 넓고 흐름을 읽는 눈이 있어 상황을 크게 봅니다." },
+    癸: { name: "계수(癸水)", trait: "이슬과 빗물입니다. 조용히 스며들며, 말보다 분위기로 먼저 알아챕니다." },
+  },
+  animalTraits: {
+    rat: "빠르게 눈치채고 실속을 챙깁니다. 위기에서 먼저 움직입니다.",
+    ox: "느려 보여도 끝을 봅니다. 한번 맡으면 놓지 않습니다.",
+    tiger: "겁이 없고 앞장섭니다. 불의를 그냥 지나치지 못합니다.",
+    rabbit: "부드럽고 눈치가 빠릅니다. 부딪치기보다 돌아가는 쪽을 압니다.",
+    dragon: "품이 크고 이상이 높습니다. 평범한 일에는 잘 만족하지 않습니다.",
+    snake: "속을 잘 드러내지 않고 깊이 생각합니다. 판단이 정확합니다.",
+    horse: "밝고 활동적입니다. 갇혀 있는 것을 가장 힘들어합니다.",
+    goat: "정이 많고 배려가 깊습니다. 모진 말을 오래 담아 둡니다.",
+    monkey: "재주가 많고 응용이 빠릅니다. 같은 일을 반복하는 걸 지루해합니다.",
+    rooster: "부지런하고 꼼꼼합니다. 어긋난 것을 그냥 두지 못합니다.",
+    dog: "의리가 두텁고 한번 믿으면 끝까지 갑니다. 배신에 특히 아파합니다.",
+    pig: "너그럽고 솔직합니다. 사람을 잘 믿어 손해를 보기도 합니다.",
+  },
   result: {
     title: "궁합 결과",
     totalLabel: "매칭률",
@@ -208,6 +287,21 @@ const ko: Dictionary = {
     engineVersion: "계산 기준",
     disclaimer:
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
+  },
+  footer: {
+    disclaimer:
+      "전통 명리 관점의 참고 자료이며 과학적 예측이 아닙니다. 입력한 정보는 저장하지 않습니다.",
+    linksLabel: "약관 및 정책",
+    privacy: "개인정보처리방침",
+    terms: "이용약관",
+    legalEntity: "상호",
+    representative: "대표",
+    businessNumber: "사업자등록번호",
+    mailOrderNumber: "통신판매업",
+    address: "주소",
+    contact: "문의",
+    effective: "시행일",
+    backHome: "처음으로",
   },
   bands: {
     EXCELLENT: "아주 잘 맞는 사이",
@@ -233,6 +327,28 @@ const ko: Dictionary = {
     branchRelation: "띠 관계",
   },
   notes: {
+    // 강점·주의점 문구. 항목별로 "잘 맞을 때"와 "걸릴 때"를 각각 적어 둔다.
+    "strength.dayMasterRelation":
+      "두 사람의 기질이 서로에게 필요한 방향으로 놓여 있습니다. 상대의 방식이 낯설게 느껴질 때도 결국은 자기에게 없는 것을 채워 주는 쪽으로 작용합니다.",
+    "strength.spouseStar":
+      "전통적으로 배우자 자리에 해당하는 기운을 서로 지니고 있습니다. 처음부터 이유 없이 편했다면 이 부분일 가능성이 큽니다.",
+    "strength.elementBalance":
+      "둘이 함께 있을 때 다섯 기운이 고르게 채워집니다. 혼자일 때 부족했던 자리를 상대가 메워 주는 조합입니다.",
+    "strength.dayBranchRelation":
+      "일지는 전통적으로 배우자 자리로 봅니다. 이 자리가 서로 어울려 함께 지내는 시간이 편안한 편입니다.",
+    "strength.branchRelation":
+      "띠의 관계가 좋습니다. 처음 만났을 때의 인상이나 주변에서 보는 그림이 자연스러운 조합입니다.",
+    "caution.dayMasterRelation":
+      "기질이 부딪히기 쉬운 자리입니다. 같은 일을 두고도 속도와 방식이 달라, 상대가 일부러 그런다고 느끼기 쉽습니다. 결론보다 과정을 먼저 맞춰 보십시오.",
+    "caution.spouseStar":
+      "서로가 전통적으로 말하는 배우자 자리의 기운은 아닙니다. 끌림이 즉각적이지 않을 수 있으나, 오래 겪으며 쌓이는 쪽에 가깝습니다.",
+    "caution.elementBalance":
+      "기운이 한쪽으로 몰려 있습니다. 둘 다 잘하는 일은 아주 잘하지만, 둘 다 약한 부분은 계속 비어 있게 됩니다. 그 자리는 밖에서 채우는 편이 낫습니다.",
+    "caution.dayBranchRelation":
+      "함께 지내는 자리에서 마찰이 생기기 쉽습니다. 큰 문제보다 생활 습관 같은 작은 것에서 부딪히는 경우가 많으니, 규칙을 미리 정해 두면 줄어듭니다.",
+    "caution.branchRelation":
+      "띠로는 서로 반대편에 놓입니다. 보는 방식이 다른 만큼 부딪히기도 하지만, 그만큼 상대에게 배울 것이 있는 조합이기도 합니다.",
+
     "spouseStar.BOTH":
       "서로가 상대의 배우자 자리에 해당하는 기운입니다. 전통 궁합에서 가장 좋게 보는 짝입니다.",
     "spouseStar.ONE":
@@ -340,6 +456,50 @@ const en: Dictionary = {
       "Please check the birth date. For lunar dates, also check whether it falls in a leap month.",
     errorGeneric: "The calculation failed. Please try again in a moment.",
   },
+  reading: {
+    chartTitle: "Both charts",
+    chartHint:
+      "Saju renders the year, month, day and hour of birth as two characters each. The scores below all come from these eight characters.",
+    pillarYear: "Year",
+    pillarMonth: "Month",
+    pillarDay: "Day",
+    pillarHour: "Hour",
+    pillarHourUnknown: "No birth time",
+    dayMasterLabel: "Day master",
+    animalLabel: "Zodiac",
+    seasonLabel: "Season of birth",
+    elementsTitle: "Elemental strength",
+    strongest: "Strongest",
+    scarcest: "Scarcest",
+    strengthTitle: "What this pairing has going for it",
+    cautionTitle: "What to watch",
+  },
+  dayMasters: {
+    甲: { name: "Yang Wood (甲)", trait: "A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend." },
+    乙: { name: "Yin Wood (乙)", trait: "A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap." },
+    丙: { name: "Yang Fire (丙)", trait: "The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally." },
+    丁: { name: "Yin Fire (丁)", trait: "Candlelight. It burns quietly and long, and warms those closest first." },
+    戊: { name: "Yang Earth (戊)", trait: "Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made." },
+    己: { name: "Yin Earth (己)", trait: "Field soil. It takes in whatever comes and grows it, tending rather than displaying." },
+    庚: { name: "Yang Metal (庚)", trait: "Unworked iron. Decisive and clear-cut, with little patience for things left hanging." },
+    辛: { name: "Yin Metal (辛)", trait: "A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass." },
+    壬: { name: "Yang Water (壬)", trait: "River and sea. Broad in outlook, with an eye for how things are flowing." },
+    癸: { name: "Yin Water (癸)", trait: "Dew and rain. It seeps in quietly and reads the mood before the words." },
+  },
+  animalTraits: {
+    rat: "Quick to notice and quick to secure what matters. First to move in a crisis.",
+    ox: "Slow-looking but sees things through. What it takes on, it does not drop.",
+    tiger: "Fearless and out in front. Cannot let unfairness pass.",
+    rabbit: "Gentle and perceptive. Knows how to go around rather than collide.",
+    dragon: "Large-hearted with high ideals. Rarely content with the ordinary.",
+    snake: "Keeps its own counsel and thinks deeply. Judges accurately.",
+    horse: "Bright and restless. Being fenced in is the hardest thing.",
+    goat: "Warm and considerate. Holds harsh words for a long time.",
+    monkey: "Resourceful and quick to adapt. Bored by repetition.",
+    rooster: "Diligent and exacting. Cannot leave a thing out of place.",
+    dog: "Loyal to the end once trust is given. Betrayal cuts especially deep.",
+    pig: "Generous and straightforward. Trusts readily, sometimes at a cost.",
+  },
   result: {
     title: "Compatibility result",
     totalLabel: "Match rate",
@@ -353,6 +513,21 @@ const en: Dictionary = {
     engineVersion: "Calculated with",
     disclaimer:
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
+  },
+  footer: {
+    disclaimer:
+      "A traditional Saju reading offered for reference, not a scientific prediction. Nothing you enter is stored.",
+    linksLabel: "Legal",
+    privacy: "Privacy Policy",
+    terms: "Terms of Service",
+    legalEntity: "Business",
+    representative: "Representative",
+    businessNumber: "Registration no.",
+    mailOrderNumber: "E-commerce reg.",
+    address: "Address",
+    contact: "Contact",
+    effective: "Effective",
+    backHome: "Back to home",
   },
   bands: {
     EXCELLENT: "An exceptional match",
@@ -379,6 +554,27 @@ const en: Dictionary = {
     branchRelation: "Zodiac signs",
   },
   notes: {
+    "strength.dayMasterRelation":
+      "Your temperaments sit in a position that serves the other. Even when the other's way feels foreign, it tends to supply what you lack.",
+    "strength.spouseStar":
+      "You each carry the element traditionally read as the spouse position. If things felt easy from the start for no obvious reason, this is likely why.",
+    "strength.elementBalance":
+      "Together the five elements fill out evenly. What was thin on your own gets covered by the other.",
+    "strength.dayBranchRelation":
+      "The day branch is traditionally read as the spouse's seat. Yours sit well together, which tends to make shared time comfortable.",
+    "strength.branchRelation":
+      "The zodiac signs sit well together — the kind of pairing that looks natural from the outside and reads easily on first meeting.",
+    "caution.dayMasterRelation":
+      "This is where temperaments rub. Faced with the same task your pace and method differ, which is easy to misread as deliberate. Agree on the process before the conclusion.",
+    "caution.spouseStar":
+      "Neither of you carries what tradition calls the other's spouse-position element. The pull may not be immediate; this is a pairing that accumulates over time instead.",
+    "caution.elementBalance":
+      "The elements lean one way. What you are both good at, you are very good at — but what you both lack stays unfilled. Better to source that from outside.",
+    "caution.dayBranchRelation":
+      "Friction is likely in the shared-life position. Usually it shows up in small habits rather than large matters, so settling a few ground rules early helps.",
+    "caution.branchRelation":
+      "Your zodiac signs sit opposite each other. You see things differently, which causes friction — and also means there is plenty to learn from each other.",
+
     "spouseStar.BOTH":
       "Each of you carries the element that sits in the other's spouse position — the pairing traditional Saju rates most highly.",
     "spouseStar.ONE":

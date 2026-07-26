@@ -29,6 +29,8 @@ export default async function RootLayout({
     >
       <body>
         <LocaleHtmlSync />
+        {/* 푸터는 레이아웃이 아니라 각 페이지에 둔다. 레이아웃은 searchParams를 받지 못해
+            ?lang=으로 바꾼 언어를 알 수 없고, 그러면 한국어 화면에 영어 푸터가 붙는다. */}
         {children}
       </body>
     </html>

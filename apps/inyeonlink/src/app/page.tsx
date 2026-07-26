@@ -1,7 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { BrandMark } from "@/components/BrandMark";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
+import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 
@@ -21,6 +23,15 @@ export default async function LandingPage({
   return (
     <main className="min-h-screen bg-background">
       <section className="hero-backdrop relative flex min-h-[100svh] flex-col overflow-hidden">
+        <Image
+          src="/images/landing-hero.png"
+          alt=""
+          fill
+          priority
+          aria-hidden
+          className="object-cover object-[62%_center] sm:object-center"
+          sizes="100vw"
+        />
         <div aria-hidden className="hero-texture absolute inset-0" />
         {/* naminglink와 같은 좌→우 어둠 그라데이션. 왼쪽 글씨의 대비를 확보한다. */}
         <div
@@ -100,6 +111,8 @@ export default async function LandingPage({
           {landing.disclaimer}
         </p>
       </section>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }

@@ -1,5 +1,8 @@
+import Image from "next/image";
+
 import { MatchResultView } from "@/components/MatchResultView";
 import { PageHeader } from "@/components/PageHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 
@@ -15,12 +18,31 @@ export default async function ResultPage({
   const dictionary = getDictionary(locale);
 
   return (
-    <main className="min-h-screen bg-background">
-      <PageHeader brand={dictionary.brand} locale={locale} />
+    <main className="relative min-h-screen overflow-hidden bg-background">
+      <div aria-hidden className="fixed inset-0 z-0">
+        <Image
+          src="/images/compatibility-result-bg.png"
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+      </div>
+      <div
+        aria-hidden
+        className="fixed inset-0 z-0 bg-[#fbf7f6]/35"
+      />
 
-      <div className="mx-auto w-full max-w-2xl px-6 pb-16">
-        <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
-        <MatchResultView dictionary={dictionary} locale={locale} />
+      <div className="relative z-10">
+        <PageHeader brand={dictionary.brand} locale={locale} />
+
+        <div className="mx-auto w-full max-w-2xl px-6 pb-16">
+          <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
+          <MatchResultView dictionary={dictionary} locale={locale} />
+        </div>
+
+        <SiteFooter locale={locale} />
       </div>
     </main>
   );

@@ -1,5 +1,6 @@
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 
@@ -32,6 +33,8 @@ export default async function CompatibilityPage({
           {dictionary.landing.privacyBody}
         </p>
       </div>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }

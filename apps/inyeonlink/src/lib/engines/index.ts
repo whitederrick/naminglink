@@ -1,8 +1,17 @@
+import { prepare, toReading, type PersonReading } from "./prepare";
 import { sajuEngine } from "./saju";
-import { clampScore, type EngineKey, type EngineResult, type Person } from "./types";
+import {
+  clampScore,
+  type EngineKey,
+  type EngineResult,
+  type Factor,
+  type FactorKey,
+  type Person,
+} from "./types";
 import { zodiacEngine } from "./zodiac";
 
 export * from "./types";
+export type { PersonReading } from "./prepare";
 export { BRANCH_ANIMALS } from "./branches";
 
 /**
@@ -10,8 +19,9 @@ export { BRANCH_ANIMALS } from "./branches";
  *
  * v2: 출생지 진태양시 보정(해외 출생 시주 오류 수정) + 배우자성 항목(성별) 추가.
  * v3: 오행 보완도를 표면 글자 개수에서 지장간·월령을 반영한 세력으로 교체.
+ * v4: 점수 외에 읽을거리 추가 — 사주 원국·오행 세력·강점/주의/조언. 점수 규칙은 v3과 같다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v3";
+export const ENGINE_VERSION = "inyeonlink-match-v4";
 
 /**
  * 엔진별 비중.
@@ -25,6 +35,18 @@ export const ENGINE_WEIGHTS: Record<EngineKey, number> = {
   zodiac: 0.3,
 };
 
+/**
+ * 화면에 크게 뽑아 줄 세 가지.
+ *
+ * 항목별 점수만 나열하면 "그래서 뭐"가 남는다. 가장 높은 항목을 강점으로, 가장 낮은 항목을
+ * 주의점으로 뽑고 거기에 맞는 조언을 붙이면 읽는 사람이 무엇을 보면 되는지 알게 된다.
+ * 모두 규칙으로 고르므로 같은 입력이면 같은 문장이 나온다.
+ */
+export type Highlights = {
+  strength: { factor: FactorKey; note: string; params?: Record<string, string> };
+  caution: { factor: FactorKey; note: string; params?: Record<string, string> };
+};
+
 export type MatchOutcome = {
   engineVersion: string;
   /** 0~100 */
@@ -32,6 +54,9 @@ export type MatchOutcome = {
   engines: EngineResult[];
   /** 두 사람 모두 출생 시각을 입력했는지. 하나라도 없으면 시주를 뺀 채 계산한다. */
   precision: "COMPLETE" | "PARTIAL_NO_TIME";
+  /** 각자의 사주 원국·일간·띠·오행 세력 */
+  people: [PersonReading, PersonReading];
+  highlights: Highlights;
 };
 
 /**
@@ -41,7 +66,13 @@ export type MatchOutcome = {
  * 값이 나온다 — 캐시가 하던 "재조회 시 동일 보장"을 결정성으로 대신한다.
  */
 export function runMatch(a: Person, b: Person): MatchOutcome {
-  const engines = [sajuEngine.run(a, b), zodiacEngine.run(a, b)];
+  const preparedA = prepare(a);
+  const preparedB = prepare(b);
+
+  const engines = [
+    sajuEngine.run(preparedA, preparedB),
+    zodiacEngine.run(preparedA, preparedB),
+  ];
   const totalScore = engines.reduce(
     (sum, engine) => sum + engine.score * ENGINE_WEIGHTS[engine.key],
     0,
@@ -55,6 +86,29 @@ export function runMatch(a: Person, b: Person): MatchOutcome {
       a.birthHour !== null && b.birthHour !== null
         ? "COMPLETE"
         : "PARTIAL_NO_TIME",
+    people: [toReading(preparedA), toReading(preparedB)],
+    highlights: pickHighlights(engines),
+  };
+}
+
+function pickHighlights(engines: EngineResult[]): Highlights {
+  const factors = engines.flatMap((engine) => engine.factors);
+  const sorted = [...factors].sort((left, right) => right.score - left.score);
+  const best = sorted[0];
+  // 항목이 하나뿐일 리는 없지만, 최고와 최저가 같은 항목이 되지 않게 한다.
+  const worst = sorted.length > 1 ? sorted[sorted.length - 1] : best;
+
+  return {
+    strength: toHighlight(best, "strength"),
+    caution: toHighlight(worst, "caution"),
+  };
+}
+
+function toHighlight(factor: Factor, kind: "strength" | "caution") {
+  return {
+    factor: factor.key,
+    note: `${kind}.${factor.key}`,
+    params: factor.noteParams,
   };
 }
 

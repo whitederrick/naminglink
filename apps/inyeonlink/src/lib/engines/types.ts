@@ -61,9 +61,13 @@ export type Person = {
   birthplace?: { timeZone: string; longitude: number };
 };
 
-export type MatchEngine = {
+/**
+ * 엔진은 사람이 아니라 **준비된 사주**를 받는다. 만세력 계산이 사람당 한 번만 돌게 하려는
+ * 것이고, 엔진이 늘어나도 계산량이 늘지 않는다.
+ */
+export type MatchEngine<TPrepared = unknown> = {
   key: EngineKey;
-  run(a: Person, b: Person): EngineResult;
+  run(a: TPrepared, b: TPrepared): EngineResult;
 };
 
 export function clampScore(value: number) {

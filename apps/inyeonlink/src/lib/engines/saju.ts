@@ -1,16 +1,12 @@
-import {
-  calculatePremiumSaju,
-  type FiveElement,
-} from "@naminglink/core/saju";
-import { calculateElementStrength } from "@naminglink/core/saju/elements";
+import type { FiveElement } from "@naminglink/core/saju";
 
-import { BRANCH_RELATION_SCORE, branchOf, branchRelation } from "./branches";
+import { BRANCH_RELATION_SCORE, branchRelation } from "./branches";
+import type { Prepared } from "./prepare";
 import {
   clampScore,
   type Factor,
   type Gender,
   type MatchEngine,
-  type Person,
 } from "./types";
 
 const ELEMENTS: FiveElement[] = ["WOOD", "FIRE", "EARTH", "METAL", "WATER"];
@@ -123,32 +119,24 @@ export const SAJU_WEIGHTS = {
   dayBranchRelation: 0.2,
 } as const;
 
-export const sajuEngine: MatchEngine = {
+export const sajuEngine: MatchEngine<Prepared> = {
   key: "saju",
-  run(a: Person, b: Person) {
-    const sajuA = toSaju(a);
-    const sajuB = toSaju(b);
-    const elementA = sajuA.dayMaster.element;
-    const elementB = sajuB.dayMaster.element;
+  run(a, b) {
+    const elementA = a.dayMaster.element;
+    const elementB = b.dayMaster.element;
 
     const relation = elementRelation(elementA, elementB);
 
-    // 표면 글자 개수(visibleFiveElements)가 아니라 지장간·월령을 반영한 세력을 합친다.
-    // 같은 木이라도 봄에 난 木과 가을에 난 木은 힘이 다르고, 지지가 품은 기운은 겉으로
-    // 드러나지 않는다 — 개수만 세면 둘 다 놓친다.
-    const strengthA = calculateElementStrength(toPillarHanja(sajuA));
-    const strengthB = calculateElementStrength(toPillarHanja(sajuB));
+    // 표면 글자 개수가 아니라 지장간·월령을 반영한 세력을 합친다. 같은 木이라도 봄에 난 木과
+    // 가을에 난 木은 힘이 다르고, 지지가 품은 기운은 겉으로 드러나지 않는다.
     const combined = Object.fromEntries(
       ELEMENTS.map((element) => [
         element,
-        strengthA.strength[element] + strengthB.strength[element],
+        a.elements.strength[element] + b.elements.strength[element],
       ]),
     ) as Record<FiveElement, number>;
 
-    const dayBranch = branchRelation(
-      branchOf(sajuA.pillars.day.hanja),
-      branchOf(sajuB.pillars.day.hanja),
-    );
+    const dayBranch = branchRelation(a.dayBranch, b.dayBranch);
 
     const factors: Factor[] = [
       {
@@ -177,8 +165,8 @@ export const sajuEngine: MatchEngine = {
     const balance = factors[1].score;
     factors[1].note = `balance.${balance >= 80 ? "HIGH" : balance >= 65 ? "MID" : "LOW"}`;
 
-    const spouseStarA = spouseStarElement(elementA, a.gender);
-    const spouseStarB = spouseStarElement(elementB, b.gender);
+    const spouseStarA = spouseStarElement(elementA, a.person.gender);
+    const spouseStarB = spouseStarElement(elementB, b.person.gender);
     if (spouseStarA !== null && spouseStarB !== null) {
       const matches =
         Number(spouseStarA === elementB) + Number(spouseStarB === elementA);
@@ -208,26 +196,4 @@ function scarcestElement(counts: Record<FiveElement, number>) {
   return ELEMENTS.reduce((lowest, element) =>
     counts[element] < counts[lowest] ? element : lowest,
   );
-}
-
-function toPillarHanja(saju: ReturnType<typeof calculatePremiumSaju>) {
-  return {
-    year: saju.pillars.year.hanja,
-    month: saju.pillars.month.hanja,
-    day: saju.pillars.day.hanja,
-    hour: saju.pillars.hour?.hanja ?? null,
-  };
-}
-
-function toSaju(person: Person) {
-  return calculatePremiumSaju({
-    calendarType: person.calendarType,
-    year: person.year,
-    month: person.month,
-    day: person.day,
-    lunarLeapMonth: person.lunarLeapMonth,
-    birthHour: person.birthHour,
-    birthMinute: person.birthMinute,
-    birthplace: person.birthplace,
-  });
 }
