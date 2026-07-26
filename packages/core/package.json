@@ -6,7 +6,8 @@
   "exports": {
     "./saju": "./src/saju/engine.ts",
     "./saju/timezone": "./src/saju/timezone.ts",
-    "./saju/elements": "./src/saju/elements.ts"
+    "./saju/elements": "./src/saju/elements.ts",
+    "./saju/ten-gods": "./src/saju/ten-gods.ts"
   },
   "dependencies": {
     "@fullstackfamily/manseryeok": "1.0.8"

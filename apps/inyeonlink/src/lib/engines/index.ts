@@ -1,4 +1,5 @@
 import { prepare, toReading, type PersonReading } from "./prepare";
+import { mutualRelation, type MutualRelation } from "./relations";
 import { sajuEngine } from "./saju";
 import {
   clampScore,
@@ -12,6 +13,7 @@ import { zodiacEngine } from "./zodiac";
 
 export * from "./types";
 export type { PersonReading } from "./prepare";
+export type { MutualRelation, RelationShape } from "./relations";
 export { BRANCH_ANIMALS } from "./branches";
 
 /**
@@ -20,8 +22,10 @@ export { BRANCH_ANIMALS } from "./branches";
  * v2: 출생지 진태양시 보정(해외 출생 시주 오류 수정) + 배우자성 항목(성별) 추가.
  * v3: 오행 보완도를 표면 글자 개수에서 지장간·월령을 반영한 세력으로 교체.
  * v4: 점수 외에 읽을거리 추가 — 사주 원국·오행 세력·강점/주의/조언. 점수 규칙은 v3과 같다.
+ * v5: 배우자성을 오행에서 십신으로 교체(정재·정관과 편재·편관을 구분) + 관계의 모양 추가.
+ *     배우자성 점수가 바뀌므로 v4와 총점이 다를 수 있다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v4";
+export const ENGINE_VERSION = "inyeonlink-match-v5";
 
 /**
  * 엔진별 비중.
@@ -56,6 +60,8 @@ export type MatchOutcome = {
   precision: "COMPLETE" | "PARTIAL_NO_TIME";
   /** 각자의 사주 원국·일간·띠·오행 세력 */
   people: [PersonReading, PersonReading];
+  /** 두 일간이 서로에게 무엇인가(십신)와 관계의 모양 */
+  relation: MutualRelation;
   highlights: Highlights;
 };
 
@@ -87,6 +93,7 @@ export function runMatch(a: Person, b: Person): MatchOutcome {
         ? "COMPLETE"
         : "PARTIAL_NO_TIME",
     people: [toReading(preparedA), toReading(preparedB)],
+    relation: mutualRelation(preparedA, preparedB),
     highlights: pickHighlights(engines),
   };
 }

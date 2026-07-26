@@ -4,23 +4,39 @@
  * 두 사람이 이어진다는 뜻이고, 브랜드명의 "link"와도 겹친다. naminglink의 마크와 같은
  * 크기·선 굵기를 써서 형제 서비스로 읽히게 한다.
  */
-export function BrandMark({ className = "" }: { className?: string }) {
+export function BrandMark({
+  className = "",
+  compact = false,
+}: {
+  className?: string;
+  compact?: boolean;
+}) {
   return (
     <span
       aria-hidden="true"
-      className={`flex size-11 items-center justify-center rounded-lg border border-white/30 bg-white/12 backdrop-blur ${className}`}
+      className={`flex items-center justify-center rounded-lg border border-white/30 bg-white/12 backdrop-blur ${
+        compact ? "size-8" : "size-11"
+      } ${className}`}
     >
       <svg
-        width="26"
-        height="26"
-        viewBox="0 0 26 26"
+        width={compact ? 20 : 28}
+        height={compact ? 20 : 28}
+        viewBox="0 0 64 64"
         fill="none"
-        stroke="currentColor"
-        strokeWidth="1.7"
-        className="text-white"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle cx="10" cy="13" r="6.2" />
-        <circle cx="16" cy="13" r="6.2" />
+        <path
+          d="M32 8 49 25 32 42 15 25 32 8Z"
+          stroke="#e2b7c6"
+          strokeWidth="7"
+        />
+        <path
+          d="M32 22 49 39 32 56 15 39 32 22Z"
+          stroke="#b9c9be"
+          strokeWidth="7"
+        />
+        <path d="m32 27 5 5-5 5-5-5 5-5Z" fill="#d9a079" />
       </svg>
     </span>
   );

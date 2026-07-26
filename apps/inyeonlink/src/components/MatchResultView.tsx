@@ -8,6 +8,7 @@ import {
   type EngineResult,
   type Factor,
   type MatchOutcome,
+  type MutualRelation,
   type PersonReading,
 } from "@/lib/engines";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
@@ -150,6 +151,12 @@ export function MatchResultView({
         />
       </div>
 
+      <RelationSection
+        relation={outcome.relation}
+        names={[nameA, nameB]}
+        dictionary={dictionary}
+      />
+
       <h2 className="mt-12 text-xl font-semibold">
         {dictionary.reading.chartTitle}
       </h2>
@@ -195,6 +202,91 @@ export function MatchResultView({
       </p>
       <p className="break-keep-all mt-2 text-xs text-muted">{t.disclaimer}</p>
     </div>
+  );
+}
+
+/**
+ * 관계의 모양과 십신. 점수표가 "얼마나"를 말한다면 이 절은 "어떻게"를 말한다 —
+ * 읽을거리로는 이쪽이 본론이라 점수 바로 다음에 둔다.
+ */
+function RelationSection({
+  relation,
+  names,
+  dictionary,
+}: {
+  relation: MutualRelation;
+  names: [string, string];
+  dictionary: Dictionary;
+}) {
+  const t = dictionary.relation;
+  const shape = t.shapes[relation.shape];
+  const leadTemplate =
+    relation.shape === "ALIKE" || relation.leadIndex === null
+      ? null
+      : t.leadNote[relation.shape];
+
+  const directions = [
+    { from: names[0], to: names[1], god: relation.aSeesB },
+    { from: names[1], to: names[0], god: relation.bSeesA },
+  ];
+
+  return (
+    <>
+      <h2 className="mt-12 text-xl font-semibold">{t.title}</h2>
+      <p className="break-keep-all mt-2 text-sm text-muted">{t.hint}</p>
+
+      <section className="mt-4 rounded-2xl border border-brand-plum/25 bg-brand-plum/6 p-5">
+        <p className="text-lg font-semibold text-brand-plum">{shape.name}</p>
+        <p className="break-keep-all mt-2 text-sm leading-6 text-muted">
+          {shape.body}
+        </p>
+        {leadTemplate ? (
+          <p className="break-keep-all mt-3 text-sm leading-6">
+            {emphasize(
+              fillTemplate(leadTemplate, {
+                lead: names[relation.leadIndex as 0 | 1],
+              }),
+            )}
+          </p>
+        ) : null}
+      </section>
+
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        {directions.map((direction) => {
+          const god = dictionary.tenGods[direction.god];
+          return (
+            <section
+              key={`${direction.from}-${direction.to}`}
+              className="rounded-2xl border border-line bg-surface p-5"
+            >
+              <p className="text-xs text-muted">
+                {fillTemplate(t.directionLabel, {
+                  from: direction.from,
+                  to: direction.to,
+                })}
+              </p>
+              <p className="mt-1 font-semibold">{god?.name ?? direction.god}</p>
+              <p className="break-keep-all mt-2 text-sm leading-6 text-muted">
+                {god?.body}
+              </p>
+            </section>
+          );
+        })}
+      </div>
+    </>
+  );
+}
+
+/** 문구의 `**…**`만 굵게 만든다. 마크다운 전체를 지원할 이유는 없다. */
+function emphasize(text: string) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, index) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={index} className="font-semibold">
+        {part.slice(2, -2)}
+      </strong>
+    ) : (
+      part
+    ),
   );
 }
 

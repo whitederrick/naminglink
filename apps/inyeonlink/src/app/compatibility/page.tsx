@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -14,27 +16,41 @@ export default async function CompatibilityPage({
   const dictionary = getDictionary(locale);
 
   return (
-    <main className="min-h-screen bg-background">
-      <PageHeader brand={dictionary.brand} locale={locale} />
-
-      <div className="mx-auto w-full max-w-2xl px-6 pb-16">
-        <section className="mt-10">
-          <h1 className="break-keep-all text-3xl font-bold">
-            {dictionary.form.title}
-          </h1>
-          <p className="break-keep-all mt-3 text-muted">
-            {dictionary.form.description}
-          </p>
-        </section>
-
-        <CompatibilityForm dictionary={dictionary} locale={locale} />
-
-        <p className="break-keep-all mt-8 text-xs text-muted">
-          {dictionary.landing.privacyBody}
-        </p>
+    <main className="relative min-h-screen overflow-hidden bg-background">
+      <div aria-hidden className="fixed inset-0 z-0">
+        <Image
+          src="/images/compatibility-form-bg.png"
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
       </div>
+      <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/25" />
 
-      <SiteFooter locale={locale} />
+      <div className="relative z-10">
+        <PageHeader brand={dictionary.brand} locale={locale} />
+
+        <div className="mx-auto w-full max-w-2xl px-6 pb-16">
+          <section className="mt-10">
+            <h1 className="break-keep-all text-3xl font-bold">
+              {dictionary.form.title}
+            </h1>
+            <p className="break-keep-all mt-3 text-muted">
+              {dictionary.form.description}
+            </p>
+          </section>
+
+          <CompatibilityForm dictionary={dictionary} locale={locale} />
+
+          <p className="break-keep-all mt-8 text-xs text-muted">
+            {dictionary.landing.privacyBody}
+          </p>
+        </div>
+
+        <SiteFooter locale={locale} />
+      </div>
     </main>
   );
 }

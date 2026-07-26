@@ -2,12 +2,8 @@ import type { FiveElement } from "@naminglink/core/saju";
 
 import { BRANCH_RELATION_SCORE, branchRelation } from "./branches";
 import type { Prepared } from "./prepare";
-import {
-  clampScore,
-  type Factor,
-  type Gender,
-  type MatchEngine,
-} from "./types";
+import { mutualRelation, spouseStar } from "./relations";
+import { clampScore, type Factor, type MatchEngine } from "./types";
 
 const ELEMENTS: FiveElement[] = ["WOOD", "FIRE", "EARTH", "METAL", "WATER"];
 
@@ -29,11 +25,6 @@ const CONTROLS: Record<FiveElement, FiveElement> = {
   METAL: "WOOD",
 };
 
-/** 나를 극하는 오행. 관성(官星)을 찾을 때 쓴다. */
-const CONTROLLED_BY: Record<FiveElement, FiveElement> = Object.fromEntries(
-  ELEMENTS.map((element) => [CONTROLS[element], element]),
-) as Record<FiveElement, FiveElement>;
-
 export type ElementRelation = "GENERATE" | "SAME" | "CONTROL";
 
 export function elementRelation(
@@ -51,32 +42,6 @@ const ELEMENT_RELATION_SCORE: Record<ElementRelation, number> = {
   GENERATE: 88,
   SAME: 76,
   CONTROL: 58,
-};
-
-/**
- * 배우자성(配偶者星)이 되는 오행.
- *
- * 전통 명리에서 배우자를 가리키는 십신은 성별에 따라 다르다.
- *   남성 → 재성(財星): 일간이 극하는 오행
- *   여성 → 관성(官星): 일간을 극하는 오행
- *
- * 성별을 밝히지 않으면 null을 돌려주고, 호출부가 이 항목을 계산에서 뺀다.
- */
-export function spouseStarElement(
-  dayMaster: FiveElement,
-  gender: Gender,
-): FiveElement | null {
-  if (gender === "male") return CONTROLS[dayMaster];
-  if (gender === "female") return CONTROLLED_BY[dayMaster];
-  return null;
-}
-
-export type SpouseStarMatch = "BOTH" | "ONE" | "NONE";
-
-const SPOUSE_STAR_SCORE: Record<SpouseStarMatch, number> = {
-  BOTH: 95,
-  ONE: 82,
-  NONE: 66,
 };
 
 /**
@@ -137,6 +102,7 @@ export const sajuEngine: MatchEngine<Prepared> = {
     ) as Record<FiveElement, number>;
 
     const dayBranch = branchRelation(a.dayBranch, b.dayBranch);
+    const relation2 = mutualRelation(a, b);
 
     const factors: Factor[] = [
       {
@@ -165,19 +131,15 @@ export const sajuEngine: MatchEngine<Prepared> = {
     const balance = factors[1].score;
     factors[1].note = `balance.${balance >= 80 ? "HIGH" : balance >= 65 ? "MID" : "LOW"}`;
 
-    const spouseStarA = spouseStarElement(elementA, a.person.gender);
-    const spouseStarB = spouseStarElement(elementB, b.person.gender);
-    if (spouseStarA !== null && spouseStarB !== null) {
-      const matches =
-        Number(spouseStarA === elementB) + Number(spouseStarB === elementA);
-      const match: SpouseStarMatch =
-        matches === 2 ? "BOTH" : matches === 1 ? "ONE" : "NONE";
+    // 배우자성은 오행이 아니라 십신으로 본다. 같은 재성이라도 음양이 어긋난 정재라야
+    // 배우자 자리이고, 편재는 활동·재물의 성격에 가깝다.
+    const spouse = spouseStar(relation2, a.person.gender, b.person.gender);
+    if (spouse) {
       factors.splice(1, 0, {
         key: "spouseStar",
-        score: SPOUSE_STAR_SCORE[match],
+        score: spouse.score,
         weight: SAJU_WEIGHTS.spouseStar,
-        note: `spouseStar.${match}`,
-        noteParams: { starA: spouseStarA, starB: spouseStarB },
+        note: `spouseStar.${spouse.level}`,
       });
     }
 

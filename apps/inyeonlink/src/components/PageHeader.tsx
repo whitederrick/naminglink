@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { BrandMark } from "@/components/BrandMark";
 import type { Locale } from "@/lib/i18n";
 
 /**
@@ -21,22 +22,7 @@ export function PageHeader({
           href={`/?lang=${locale}`}
           className="inline-flex items-center gap-2.5 text-white"
         >
-          <span
-            aria-hidden
-            className="flex size-8 items-center justify-center rounded-md border border-white/30 bg-white/12 backdrop-blur"
-          >
-            <svg
-              width="19"
-              height="19"
-              viewBox="0 0 26 26"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.8"
-            >
-              <circle cx="10" cy="13" r="6.2" />
-              <circle cx="16" cy="13" r="6.2" />
-            </svg>
-          </span>
+          <BrandMark compact />
           <span className="text-base font-semibold">{brand}</span>
         </Link>
       </div>

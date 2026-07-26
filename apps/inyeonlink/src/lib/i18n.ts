@@ -130,6 +130,16 @@ export type Dictionary = {
     strengthTitle: string;
     cautionTitle: string;
   };
+  relation: {
+    title: string;
+    hint: string;
+    /** "{from}이 볼 때 {to}는" 꼴의 안내 */
+    directionLabel: string;
+    shapes: Record<"ALIKE" | "NURTURING" | "TENSION", { name: string; body: string }>;
+    leadNote: Record<"NURTURING" | "TENSION", string>;
+  };
+  /** 십신 10종 — 이름과 관계에서의 의미 */
+  tenGods: Record<string, { name: string; body: string }>;
   /** 일간(천간) 10종 성향 */
   dayMasters: Record<string, { name: string; trait: string }>;
   /** 십이지 성향 */
@@ -248,6 +258,71 @@ const ko: Dictionary = {
     strengthTitle: "이 관계의 강점",
     cautionTitle: "눈여겨볼 점",
   },
+  relation: {
+    title: "두 사람의 관계",
+    hint: "일간끼리 서로를 어떻게 보는지를 십신(十神)이라는 열 가지 이름으로 나눕니다. 방향이 있어서, 내가 상대를 보는 자리와 상대가 나를 보는 자리가 다를 수 있습니다.",
+    directionLabel: "{from} → {to}",
+    shapes: {
+      ALIKE: {
+        name: "닮은 사이",
+        body: "두 사람의 일간이 같은 기운입니다. 설명하지 않아도 통하는 부분이 많고 취향도 겹칩니다. 대신 잘하는 것과 못하는 것이 같아, 어려운 상황에서는 둘 다 같은 지점에서 막힙니다.",
+      },
+      NURTURING: {
+        name: "키우고 피어나는 사이",
+        body: "한쪽의 기운이 다른 쪽으로 흘러갑니다. 받는 쪽은 편안하고 하고 싶은 것이 늘어나며, 주는 쪽은 상대가 잘되는 것에서 보람을 얻습니다. 다만 흐름이 한 방향이라 주는 쪽이 지치지 않도록 돌아오는 것이 있어야 오래갑니다.",
+      },
+      TENSION: {
+        name: "다잡는 사이",
+        body: "한쪽이 다른 쪽을 누르는 자리입니다. 긴장이 있는 만큼 서로를 느슨해지지 않게 하고, 함께 일할 때 성과가 잘 납니다. 대신 눌리는 쪽이 계속 평가받는다고 느끼기 쉬워, 지적보다 인정이 먼저여야 합니다.",
+      },
+    },
+    leadNote: {
+      NURTURING: "이 관계에서는 **{lead}** 쪽이 기운을 내주는 자리입니다.",
+      TENSION: "이 관계에서는 **{lead}** 쪽이 이끄는 자리입니다.",
+    },
+  },
+  tenGods: {
+    BIGYEON: {
+      name: "비견(比肩)",
+      body: "나와 어깨를 나란히 하는 자리입니다. 말이 잘 통하고 편하지만, 같은 것을 원할 때는 양보가 어렵습니다.",
+    },
+    GEOPJAE: {
+      name: "겁재(劫財)",
+      body: "닮았으나 방식이 다른 자리입니다. 함께 밀어붙일 때 힘이 크고, 나눌 것이 생기면 셈이 예민해집니다.",
+    },
+    SIKSIN: {
+      name: "식신(食神)",
+      body: "내 안의 것을 꺼내게 하는 자리입니다. 같이 있으면 말이 늘고 하고 싶은 것이 생깁니다. 가장 편안한 상대 중 하나입니다.",
+    },
+    SANGGWAN: {
+      name: "상관(傷官)",
+      body: "내 틀을 흔드는 자리입니다. 재미있고 자극이 되지만, 서로의 말이 날카로워지면 상처가 오래갑니다.",
+    },
+    PYEONJAE: {
+      name: "편재(偏財)",
+      body: "챙겨 주고 싶어지는 자리입니다. 활동적이고 즉흥적인 즐거움이 많되, 관계의 무게는 가볍게 흐르기 쉽습니다.",
+    },
+    JEONGJAE: {
+      name: "정재(正財)",
+      body: "전통적으로 남성에게 배우자를 뜻하는 자리입니다. 성실히 아끼게 되고, 관계가 일상 속에서 차분히 자리 잡습니다.",
+    },
+    PYEONGWAN: {
+      name: "편관(偏官)",
+      body: "나를 긴장시키는 자리입니다. 끌림이 강하고 눈을 떼기 어렵지만, 함께 오래 있으면 압박으로 느껴질 수 있습니다.",
+    },
+    JEONGGWAN: {
+      name: "정관(正官)",
+      body: "전통적으로 여성에게 배우자를 뜻하는 자리입니다. 나를 바로잡아 주며, 관계에 질서와 안정감을 줍니다.",
+    },
+    PYEONIN: {
+      name: "편인(偏印)",
+      body: "남다른 방식으로 나를 돕는 자리입니다. 깊이 통하는 순간이 있으나, 서로의 방식을 이해하는 데 시간이 걸립니다.",
+    },
+    JEONGIN: {
+      name: "정인(正印)",
+      body: "나를 품고 돌보는 자리입니다. 기대고 싶어지고 마음이 놓입니다. 다만 기대는 쪽이 계속 받기만 하면 관계가 기웁니다.",
+    },
+  },
   dayMasters: {
     甲: { name: "갑목(甲木)", trait: "곧게 자라는 큰 나무입니다. 방향이 정해지면 흔들리지 않고, 굽히기보다 버티는 쪽을 택합니다." },
     乙: { name: "을목(乙木)", trait: "덩굴처럼 유연한 풀입니다. 상황에 맞춰 휘어지며 나아가고, 끊어지지 않는 끈기가 있습니다." },
@@ -349,12 +424,16 @@ const ko: Dictionary = {
     "caution.branchRelation":
       "띠로는 서로 반대편에 놓입니다. 보는 방식이 다른 만큼 부딪히기도 하지만, 그만큼 상대에게 배울 것이 있는 조합이기도 합니다.",
 
-    "spouseStar.BOTH":
-      "서로가 상대의 배우자 자리에 해당하는 기운입니다. 전통 궁합에서 가장 좋게 보는 짝입니다.",
-    "spouseStar.ONE":
-      "한쪽에게 상대가 배우자 자리의 기운입니다. 끌리는 방향이 한쪽으로 기울 수 있습니다.",
+    "spouseStar.MUTUAL":
+      "서로가 상대의 배우자 자리(정재·정관)에 정확히 해당합니다. 전통 궁합에서 가장 좋게 보는 짝입니다.",
+    "spouseStar.STRONG":
+      "한쪽은 배우자 자리에 정확히 해당하고, 다른 쪽도 그에 준하는 자리입니다. 서로에게 향하는 마음의 크기가 조금 다를 수 있습니다.",
+    "spouseStar.PARTIAL":
+      "한쪽에게만 상대가 배우자 자리입니다. 처음 끌리는 쪽이 한쪽으로 기울기 쉬우니, 표현을 미루지 않는 편이 좋습니다.",
+    "spouseStar.SLIGHT":
+      "배우자 자리에 준하는 관계가 한쪽에 있습니다. 즉각적인 끌림보다 겪으면서 쌓이는 쪽입니다.",
     "spouseStar.NONE":
-      "배우자 자리에 해당하는 기운은 서로 아닙니다. 다른 항목에서 어울림을 찾는 조합입니다.",
+      "전통적으로 말하는 배우자 자리는 서로 아닙니다. 이 조합은 끌림보다 함께 지내며 만들어 가는 쪽에 가깝습니다.",
     "dayMaster.GENERATE":
       "{elementA}과 {elementB}이 서로를 살리는 상생 관계입니다. 한쪽의 기운이 다른 쪽으로 자연스럽게 흘러갑니다.",
     "dayMaster.SAME":
@@ -474,6 +553,71 @@ const en: Dictionary = {
     strengthTitle: "What this pairing has going for it",
     cautionTitle: "What to watch",
   },
+  relation: {
+    title: "How you two sit together",
+    hint: "Saju names the way two day masters see each other with ten terms. The reading has direction — how you see them and how they see you can differ.",
+    directionLabel: "{from} → {to}",
+    shapes: {
+      ALIKE: {
+        name: "Alike",
+        body: "Your day masters carry the same energy. Much goes without saying and your tastes overlap. The catch is that you are strong and weak in the same places, so difficulty tends to stall you both at the same point.",
+      },
+      NURTURING: {
+        name: "One nourishes, one flourishes",
+        body: "Energy flows one way. The receiving side feels at ease and finds more they want to do; the giving side takes satisfaction in the other doing well. Because the flow is one-directional, something has to come back or the giver eventually runs dry.",
+      },
+      TENSION: {
+        name: "One steadies the other",
+        body: "One of you sits in the position that restrains the other. The tension keeps you both from going slack and tends to produce results when you work together. The restrained side can feel permanently assessed, so recognition has to come before correction.",
+      },
+    },
+    leadNote: {
+      NURTURING: "Here **{lead}** is the one giving energy.",
+      TENSION: "Here **{lead}** is the one setting the pace.",
+    },
+  },
+  tenGods: {
+    BIGYEON: {
+      name: "Companion (比肩)",
+      body: "Someone standing shoulder to shoulder. Easy to talk to and easy to be around — but hard to yield to when you both want the same thing.",
+    },
+    GEOPJAE: {
+      name: "Rival (劫財)",
+      body: "Alike, but going about it differently. Formidable when pushing in the same direction; sharp about the arithmetic once there is something to divide.",
+    },
+    SIKSIN: {
+      name: "Expression (食神)",
+      body: "Someone who draws what is in you out. You talk more and want to do more around them. One of the most comfortable positions there is.",
+    },
+    SANGGWAN: {
+      name: "Disruptor (傷官)",
+      body: "Someone who unsettles your frame. Interesting and stimulating — but once words turn sharp between you, the cut lasts.",
+    },
+    PYEONJAE: {
+      name: "Windfall (偏財)",
+      body: "Someone you want to look after. Plenty of spontaneous fun, though the weight of the relationship can stay light.",
+    },
+    JEONGJAE: {
+      name: "Steady Wealth (正財)",
+      body: "Traditionally the spouse position for a man. Care comes steadily, and the relationship settles into ordinary days rather than peaks.",
+    },
+    PYEONGWAN: {
+      name: "Challenger (偏官)",
+      body: "Someone who keeps you on edge. The pull is strong and hard to look away from, but sustained closeness can start to feel like pressure.",
+    },
+    JEONGGWAN: {
+      name: "Authority (正官)",
+      body: "Traditionally the spouse position for a woman. They set you straight, and bring order and steadiness to the relationship.",
+    },
+    PYEONIN: {
+      name: "Unconventional Support (偏印)",
+      body: "Someone who helps you in an unusual way. There are moments of real depth, though it takes time to understand each other's method.",
+    },
+    JEONGIN: {
+      name: "Nurture (正印)",
+      body: "Someone who holds and looks after you. You want to lean, and your mind settles. If the leaning only goes one way, though, the relationship tilts.",
+    },
+  },
   dayMasters: {
     甲: { name: "Yang Wood (甲)", trait: "A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend." },
     乙: { name: "Yin Wood (乙)", trait: "A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap." },
@@ -575,12 +719,16 @@ const en: Dictionary = {
     "caution.branchRelation":
       "Your zodiac signs sit opposite each other. You see things differently, which causes friction — and also means there is plenty to learn from each other.",
 
-    "spouseStar.BOTH":
-      "Each of you carries the element that sits in the other's spouse position — the pairing traditional Saju rates most highly.",
-    "spouseStar.ONE":
-      "One of you carries the element in the other's spouse position. The pull may run stronger in one direction.",
+    "spouseStar.MUTUAL":
+      "Each of you sits exactly in the other's spouse position — the pairing traditional Saju rates most highly.",
+    "spouseStar.STRONG":
+      "One of you sits exactly in the spouse position and the other close to it. What each feels toward the other may differ a little in size.",
+    "spouseStar.PARTIAL":
+      "Only one of you sits in the other's spouse position. The initial pull tends to run one way, so it is worth not putting off saying so.",
+    "spouseStar.SLIGHT":
+      "One of you sits adjacent to the spouse position. This accumulates through time together rather than arriving as immediate attraction.",
     "spouseStar.NONE":
-      "Neither of you carries the other's spouse-position element. This pairing finds its fit in the other factors.",
+      "Neither of you occupies what tradition calls the spouse position. This pairing is built through living alongside each other rather than through pull.",
     "dayMaster.GENERATE":
       "{elementA} and {elementB} nourish each other. Energy flows naturally from one to the other.",
     "dayMaster.SAME":
