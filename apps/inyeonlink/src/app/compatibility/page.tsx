@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
+import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
@@ -44,9 +45,8 @@ export default async function CompatibilityPage({
 
           <CompatibilityForm dictionary={dictionary} locale={locale} />
 
-          <p className="break-keep-all mt-8 text-xs text-muted">
-            {dictionary.landing.privacyBody}
-          </p>
+          {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
+          <PrivacyNotice locale={locale} className="mt-10" />
         </div>
 
         <SiteFooter locale={locale} />

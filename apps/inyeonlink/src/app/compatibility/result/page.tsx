@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { MatchResultView } from "@/components/MatchResultView";
 import { PageHeader } from "@/components/PageHeader";
+import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
@@ -40,6 +41,9 @@ export default async function ResultPage({
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
           <MatchResultView dictionary={dictionary} locale={locale} />
+
+          {/* 결과를 읽은 직후에 "이건 참고 자료"라는 것과 "저장되지 않았다"는 것을 함께 본다. */}
+          <PrivacyNotice locale={locale} className="mt-12" />
         </div>
 
         <SiteFooter locale={locale} />

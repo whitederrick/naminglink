@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { BrandMark } from "@/components/BrandMark";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
+import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
@@ -22,7 +23,7 @@ export default async function LandingPage({
 
   return (
     <main className="min-h-screen bg-background">
-      <section className="hero-backdrop relative flex min-h-[100svh] flex-col overflow-hidden">
+      <section className="hero-backdrop relative flex min-h-[100svh] flex-col overflow-hidden lg:h-[100svh] lg:min-h-0">
         <Image
           src="/images/landing-hero.png"
           alt=""
@@ -57,62 +58,58 @@ export default async function LandingPage({
           <LocaleSwitcher current={locale} tone="onDark" />
         </header>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-6xl flex-1 items-start gap-10 px-5 py-10 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(380px,420px)] lg:gap-12 lg:px-10 lg:pt-[clamp(4rem,11vh,7rem)]">
+        <div className="relative z-10 mx-auto grid w-full max-w-6xl flex-1 items-start gap-8 overflow-hidden px-5 py-8 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(380px,420px)] lg:gap-10 lg:px-10 lg:pt-[clamp(2rem,6vh,4rem)]">
           <section className="min-w-0 max-w-2xl">
             <p className="inline-flex w-fit items-center rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-lg font-semibold shadow-sm backdrop-blur sm:text-xl">
               {dictionary.tagline}
             </p>
-            <h1 className="break-keep-all mt-6 whitespace-pre-line text-[2.125rem] font-semibold leading-[1.1] [text-wrap:balance] sm:text-[2.75rem] xl:text-[3.25rem]">
+            <h1 className="break-keep-all mt-5 whitespace-pre-line text-[2.125rem] font-semibold leading-[1.1] [text-wrap:balance] sm:text-[2.75rem] xl:text-[3.25rem]">
               {landing.title}
             </h1>
-            <p className="break-keep-all mt-6 max-w-xl text-base leading-7 text-white/80 [text-wrap:pretty] sm:text-lg">
+            <p className="break-keep-all mt-4 max-w-xl text-base leading-7 text-white/80 [text-wrap:pretty] sm:text-lg">
               {landing.subtitle}
             </p>
             <Link
               href={`/compatibility${query}`}
-              className="mt-9 inline-block rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
+              className="mt-7 inline-block rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
             >
               {landing.cta}
             </Link>
           </section>
 
-          {/* 계산 방식을 히어로 안에서 바로 보여 준다. naminglink가 서비스 카드를 두는 자리다. */}
-          <section className="w-full rounded-2xl border border-white/20 bg-white/10 p-6 shadow-sm backdrop-blur">
-            <h2 className="text-base font-semibold">{landing.howTitle}</h2>
-            <ol className="mt-5 space-y-4">
-              {landing.steps.map((step, index) => (
-                <li key={step} className="flex gap-3">
-                  <span
-                    aria-hidden
-                    className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full border border-white/30 bg-white/15 text-xs font-semibold"
-                  >
-                    {index + 1}
-                  </span>
-                  <p className="break-keep-all text-sm leading-6 text-white/80">
-                    {step}
-                  </p>
-                </li>
-              ))}
-            </ol>
-          </section>
-        </div>
-      </section>
+          {/* 계산 방식과 미저장 안내를 히어로 안에서 바로 보여 준다. naminglink가 서비스
+              카드를 두는 자리다. */}
+          <div className="grid w-full gap-4">
+            <section className="rounded-2xl border border-white/20 bg-white/10 p-5 shadow-sm backdrop-blur">
+              <h2 className="text-base font-semibold">{landing.howTitle}</h2>
+              <ol className="mt-4 space-y-3">
+                {landing.steps.map((step, index) => (
+                  <li key={step} className="flex gap-3">
+                    <span
+                      aria-hidden
+                      className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full border border-white/30 bg-white/15 text-xs font-semibold"
+                    >
+                      {index + 1}
+                    </span>
+                    <p className="break-keep-all text-sm leading-6 text-white/80">
+                      {step}
+                    </p>
+                  </li>
+                ))}
+              </ol>
+            </section>
 
-      <section className="mx-auto w-full max-w-6xl px-5 py-16 sm:px-8 lg:px-10">
-        <div className="rounded-2xl border border-line bg-surface p-6 sm:p-8">
-          <h2 className="text-lg font-semibold text-brand-sage">
-            {landing.privacyTitle}
-          </h2>
-          <p className="break-keep-all mt-3 max-w-3xl text-sm leading-relaxed text-muted">
-            {landing.privacyBody}
-          </p>
+            <PrivacyNotice locale={locale} tone="onDark" />
+          </div>
         </div>
-        <p className="break-keep-all mt-8 text-xs text-muted">
-          {landing.disclaimer}
-        </p>
-      </section>
 
-      <SiteFooter locale={locale} />
+        {/* naminglink와 같다 — 푸터를 히어로 섹션 안에 두어 데스크탑에서 한 화면에 담는다. */}
+        <SiteFooter
+          locale={locale}
+          tone="light"
+          className="shrink-0 bg-black/25 !pb-4 !pt-2 backdrop-blur"
+        />
+      </section>
     </main>
   );
 }

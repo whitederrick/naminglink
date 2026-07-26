@@ -157,8 +157,6 @@ export type Dictionary = {
     disclaimer: string;
   };
   footer: {
-    disclaimer: string;
-    linksLabel: string;
     privacy: string;
     terms: string;
     legalEntity: string;
@@ -166,7 +164,11 @@ export type Dictionary = {
     businessNumber: string;
     mailOrderNumber: string;
     address: string;
-    contact: string;
+    customerCenter: string;
+    email: string;
+    privacyOfficer: string;
+    hostingProvider: string;
+    providedBy: string;
     effective: string;
     backHome: string;
   };
@@ -364,17 +366,18 @@ const ko: Dictionary = {
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
   },
   footer: {
-    disclaimer:
-      "전통 명리 관점의 참고 자료이며 과학적 예측이 아닙니다. 입력한 정보는 저장하지 않습니다.",
-    linksLabel: "약관 및 정책",
     privacy: "개인정보처리방침",
     terms: "이용약관",
     legalEntity: "상호",
-    representative: "대표",
+    representative: "대표자",
     businessNumber: "사업자등록번호",
     mailOrderNumber: "통신판매업",
     address: "주소",
-    contact: "문의",
+    customerCenter: "고객센터",
+    email: "이메일",
+    privacyOfficer: "개인정보 보호책임자",
+    hostingProvider: "호스팅 제공",
+    providedBy: "Provided by",
     effective: "시행일",
     backHome: "처음으로",
   },
@@ -659,9 +662,6 @@ const en: Dictionary = {
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
   },
   footer: {
-    disclaimer:
-      "A traditional Saju reading offered for reference, not a scientific prediction. Nothing you enter is stored.",
-    linksLabel: "Legal",
     privacy: "Privacy Policy",
     terms: "Terms of Service",
     legalEntity: "Business",
@@ -669,7 +669,11 @@ const en: Dictionary = {
     businessNumber: "Registration no.",
     mailOrderNumber: "E-commerce reg.",
     address: "Address",
-    contact: "Contact",
+    customerCenter: "Customer service",
+    email: "Email",
+    privacyOfficer: "Privacy officer",
+    hostingProvider: "Hosting",
+    providedBy: "Provided by",
     effective: "Effective",
     backHome: "Back to home",
   },

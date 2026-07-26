@@ -197,10 +197,11 @@ export function MatchResultView({
         </button>
       </div>
 
+      {/* 면책 문구는 바로 아래 PrivacyNotice가 본문 크기로 싣는다. 여기서 또 적으면
+          같은 말이 두 번 나온다. */}
       <p className="mt-10 text-xs text-muted">
         {t.engineVersion}: {outcome.engineVersion}
       </p>
-      <p className="break-keep-all mt-2 text-xs text-muted">{t.disclaimer}</p>
     </div>
   );
 }
