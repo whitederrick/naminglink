@@ -1,0 +1,13 @@
+{
+  "name": "@naminglink/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./saju": "./src/saju/engine.ts",
+    "./saju/timezone": "./src/saju/timezone.ts"
+  },
+  "dependencies": {
+    "@fullstackfamily/manseryeok": "1.0.8"
+  }
+}

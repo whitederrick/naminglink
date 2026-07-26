@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* naminglink(청록·베이지)와 의도적으로 다른 색을 쓴다. 두 서비스가 형제 브랜드이되 같은
+   사이트로 읽히지 않아야 한다. 인연링크는 자두·구리색 계열. */
+:root {
+  --background: #fbf7f6;
+  --foreground: #1d1518;
+  --muted: #77696d;
+  --line: #e6d9da;
+  --surface: #ffffff;
+  --surface-strong: #f5e9ea;
+  --plum: #86335a;
+  --copper: #b4632f;
+  --sage: #4f6f5e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-brand-plum: var(--plum);
+  --color-brand-copper: var(--copper);
+  --color-brand-sage: var(--sage);
+  --font-sans: var(--font-geist-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* 띄어쓰기가 없는 언어(중국어·일본어·태국어·크메르어)에서 단어가 아무 데서나 끊기는 것을
+   막는다. naminglink 랜딩에서 같은 문제를 겪고 넣은 규칙이다. */
+.break-keep-all {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}

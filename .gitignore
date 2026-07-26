@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules/
 /.pnpm-store
 /.pnp
 .pnp.*
@@ -12,17 +12,17 @@
 !.yarn/versions
 
 # testing
-/coverage
+coverage/
 /tmp/
 __pycache__/
 *.pyc
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 
 # production
-/build
+build/
 
 # misc
 .DS_Store
@@ -50,4 +50,4 @@ yarn-error.log*
 next-env.d.ts
 
 # ko 약관 스냅샷(scripts/extract-ko-docs.ts로 재생성)
-src/lib/legal-content/_ko-docs.json
+**/src/lib/legal-content/_ko-docs.json

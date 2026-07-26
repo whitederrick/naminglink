@@ -1,0 +1,311 @@
+import {
+  calculateSaju,
+  lunarToSolar,
+  solarToLunar,
+} from "@fullstackfamily/manseryeok";
+
+import { resolveTrueSolarTime, type Birthplace } from "./timezone";
+
+export const SAJU_ENGINE = {
+  name: "@fullstackfamily/manseryeok",
+  version: "1.0.8",
+  algorithmVersion: "naminglink-saju-v1",
+  referenceVersionKey: "manseryeok-js-1.0.8-kasi-pending",
+  supportedYearFrom: 1900,
+  supportedYearTo: 2050,
+} as const;
+
+export type FiveElement = "WOOD" | "FIRE" | "EARTH" | "METAL" | "WATER";
+
+export type PremiumSajuInput = {
+  calendarType: "solar" | "lunar";
+  year: number;
+  month: number;
+  day: number;
+  lunarLeapMonth?: boolean;
+  birthHour: number | null;
+  birthMinute: number | null;
+  longitude?: number;
+  birthplaceLabel?: string;
+  timeZone?: "Asia/Seoul";
+  /**
+   * 해외 출생지를 지원할 때 넘긴다. 넘기면 표준시간대·서머타임·과거 시간대 규칙까지 반영한
+   * 진태양시로 시주를 계산한다(`./timezone` 참고).
+   *
+   * 넘기지 않으면 기존 동작 그대로다 — 만세력 라이브러리의 자체 보정(표준 자오선 135° 고정)을
+   * 쓴다. naminglink는 한국 출생지만 다루므로 이 값을 넘기지 않는다.
+   */
+  birthplace?: Birthplace;
+};
+
+const elementLabels: Record<FiveElement, string> = {
+  WOOD: "목",
+  FIRE: "화",
+  EARTH: "토",
+  METAL: "금",
+  WATER: "수",
+};
+
+const pillarCharacterElements: Record<string, FiveElement> = {
+  甲: "WOOD",
+  乙: "WOOD",
+  寅: "WOOD",
+  卯: "WOOD",
+  丙: "FIRE",
+  丁: "FIRE",
+  巳: "FIRE",
+  午: "FIRE",
+  戊: "EARTH",
+  己: "EARTH",
+  辰: "EARTH",
+  戌: "EARTH",
+  丑: "EARTH",
+  未: "EARTH",
+  庚: "METAL",
+  辛: "METAL",
+  申: "METAL",
+  酉: "METAL",
+  壬: "WATER",
+  癸: "WATER",
+  亥: "WATER",
+  子: "WATER",
+};
+
+function assertIntegerInRange(
+  value: number,
+  minimum: number,
+  maximum: number,
+  label: string,
+) {
+  if (!Number.isInteger(value) || value < minimum || value > maximum) {
+    throw new RangeError(`${label} 값이 지원 범위를 벗어났습니다.`);
+  }
+}
+
+function assertValidSolarDate(year: number, month: number, day: number) {
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== month - 1 ||
+    date.getUTCDate() !== day
+  ) {
+    throw new RangeError("유효한 출생일을 입력해 주세요.");
+  }
+}
+
+export function validatePremiumBirthDate(
+  input: Pick<
+    PremiumSajuInput,
+    "calendarType" | "year" | "month" | "day" | "lunarLeapMonth"
+  >,
+) {
+  assertIntegerInRange(
+    input.year,
+    SAJU_ENGINE.supportedYearFrom,
+    SAJU_ENGINE.supportedYearTo,
+    "출생 연도",
+  );
+  assertIntegerInRange(input.month, 1, 12, "출생 월");
+  assertIntegerInRange(
+    input.day,
+    1,
+    input.calendarType === "lunar" ? 30 : 31,
+    "출생 일",
+  );
+
+  if (input.calendarType !== "lunar") {
+    const solarDate = { year: input.year, month: input.month, day: input.day };
+    assertValidSolarDate(solarDate.year, solarDate.month, solarDate.day);
+    return solarDate;
+  }
+
+  const leap = input.lunarLeapMonth ?? false;
+  let solarDate: { year: number; month: number; day: number };
+  let lunarEcho: { year: number; month: number; day: number; isLeapMonth: boolean };
+  try {
+    solarDate = lunarToSolar(input.year, input.month, input.day, leap).solar;
+    lunarEcho = solarToLunar(solarDate.year, solarDate.month, solarDate.day).lunar;
+  } catch {
+    throw new RangeError(
+      "입력한 음력 출생일이 실제 달력에 존재하지 않습니다. 날짜와 윤달 여부를 확인해 주세요.",
+    );
+  }
+  if (
+    lunarEcho.year !== input.year ||
+    lunarEcho.month !== input.month ||
+    lunarEcho.day !== input.day ||
+    lunarEcho.isLeapMonth !== leap
+  ) {
+    throw new RangeError(
+      "음력-양력 변환 결과가 입력한 출생일과 일치하지 않습니다. 날짜를 확인해 주세요.",
+    );
+  }
+  assertValidSolarDate(solarDate.year, solarDate.month, solarDate.day);
+  assertIntegerInRange(
+    solarDate.year,
+    SAJU_ENGINE.supportedYearFrom,
+    SAJU_ENGINE.supportedYearTo,
+    "출생 연도(양력 변환)",
+  );
+  return solarDate;
+}
+
+function normalizeInput(input: PremiumSajuInput) {
+  const solarDate = validatePremiumBirthDate(input);
+
+  if (input.birthHour !== null) {
+    assertIntegerInRange(input.birthHour, 0, 23, "출생 시");
+    assertIntegerInRange(input.birthMinute ?? 0, 0, 59, "출생 분");
+  } else if (input.birthMinute !== null) {
+    throw new RangeError("출생 시를 모르는 경우 출생 분도 입력하지 않아야 합니다.");
+  }
+
+  return {
+    solarDate,
+    lunarDate: solarToLunar(
+      solarDate.year,
+      solarDate.month,
+      solarDate.day,
+    ).lunar,
+  };
+}
+
+function countVisibleElements(pillars: Array<string | null>) {
+  const counts: Record<FiveElement, number> = {
+    WOOD: 0,
+    FIRE: 0,
+    EARTH: 0,
+    METAL: 0,
+    WATER: 0,
+  };
+
+  pillars
+    .filter((pillar): pillar is string => Boolean(pillar))
+    .flatMap((pillar) => Array.from(pillar))
+    .forEach((character) => {
+      const element = pillarCharacterElements[character];
+      if (element) counts[element] += 1;
+    });
+
+  const minimum = Math.min(...Object.values(counts));
+  const observedLowestElements = (Object.keys(counts) as FiveElement[]).filter(
+    (element) => counts[element] === minimum,
+  );
+
+  return {
+    counts,
+    labels: Object.fromEntries(
+      (Object.keys(counts) as FiveElement[]).map((element) => [
+        element,
+        elementLabels[element],
+      ]),
+    ) as Record<FiveElement, string>,
+    observedLowestElements,
+  };
+}
+
+export function calculatePremiumSaju(input: PremiumSajuInput) {
+  const { solarDate, lunarDate } = normalizeInput(input);
+  const hasBirthTime = input.birthHour !== null;
+  const longitude = input.birthplace?.longitude ?? input.longitude ?? 126.978;
+
+  // 출생지를 받은 경우: 벽시계 시각을 그 지역의 진태양시로 직접 바꾼 뒤 라이브러리 보정을 끈다.
+  // 라이브러리 보정은 표준 자오선이 135°로 고정돼 있어 한국 밖에서는 쓸 수 없다.
+  const trueSolar =
+    hasBirthTime && input.birthplace
+      ? resolveTrueSolarTime(
+          solarDate,
+          { hour: input.birthHour as number, minute: input.birthMinute ?? 0 },
+          input.birthplace,
+        )
+      : null;
+
+  const saju = trueSolar
+    ? calculateSaju(
+        trueSolar.year,
+        trueSolar.month,
+        trueSolar.day,
+        trueSolar.hour,
+        trueSolar.minute,
+        { applyTimeCorrection: false },
+      )
+    : hasBirthTime
+      ? calculateSaju(
+          solarDate.year,
+          solarDate.month,
+          solarDate.day,
+          input.birthHour ?? undefined,
+          input.birthMinute ?? 0,
+          { longitude, applyTimeCorrection: true },
+        )
+      : calculateSaju(solarDate.year, solarDate.month, solarDate.day);
+  const visibleElements = countVisibleElements([
+    saju.yearPillarHanja,
+    saju.monthPillarHanja,
+    saju.dayPillarHanja,
+    saju.hourPillarHanja,
+  ]);
+  const dayMasterCharacter = Array.from(saju.dayPillarHanja)[0];
+  const dayMasterElement = pillarCharacterElements[dayMasterCharacter];
+
+  return {
+    engine: SAJU_ENGINE,
+    calculationStatus: hasBirthTime ? "COMPLETE" : "PARTIAL_NO_TIME",
+    input: {
+      calendarType: input.calendarType,
+      originalDate: {
+        year: input.year,
+        month: input.month,
+        day: input.day,
+        lunarLeapMonth:
+          input.calendarType === "lunar"
+            ? (input.lunarLeapMonth ?? false)
+            : undefined,
+      },
+      birthTime: hasBirthTime
+        ? { hour: input.birthHour, minute: input.birthMinute ?? 0 }
+        : null,
+      birthplaceLabel: input.birthplaceLabel ?? "대한민국 표준 위치",
+      longitude,
+      timeZone: input.birthplace?.timeZone ?? input.timeZone ?? "Asia/Seoul",
+    },
+    convertedDate: {
+      solar: solarDate,
+      lunar: lunarDate,
+    },
+    pillars: {
+      year: { hangul: saju.yearPillar, hanja: saju.yearPillarHanja },
+      month: { hangul: saju.monthPillar, hanja: saju.monthPillarHanja },
+      day: { hangul: saju.dayPillar, hanja: saju.dayPillarHanja },
+      hour: saju.hourPillar
+        ? { hangul: saju.hourPillar, hanja: saju.hourPillarHanja }
+        : null,
+    },
+    timeCorrection: {
+      // 출생지를 받은 경우 보정은 라이브러리가 아니라 이 모듈이 했으므로 직접 표시한다.
+      applied: trueSolar ? true : saju.isTimeCorrected,
+      correctedTime: trueSolar
+        ? { hour: trueSolar.hour, minute: trueSolar.minute }
+        : (saju.correctedTime ?? null),
+      method: trueSolar ? ("TRUE_SOLAR_AT_BIRTHPLACE" as const) : ("KST_MERIDIAN" as const),
+    },
+    dayMaster: {
+      character: dayMasterCharacter,
+      element: dayMasterElement,
+      elementLabel: elementLabels[dayMasterElement],
+    },
+    visibleFiveElements: visibleElements,
+    interpretationPolicy: {
+      wording:
+        "전통 명리 관점의 참고 분석이며 과학적 예측이나 운명에 대한 단정이 아닙니다.",
+      namingUse:
+        "표면 오행 개수만으로 특정 오행을 반드시 보완한다고 단정하지 않고, 절기·월령과 검수된 해석 규칙을 함께 확인한 뒤 이름 후보의 참고 근거로만 사용합니다.",
+      officialHanja:
+        "후보 한자는 공식 자료 기준으로 필터링하되, 최종 출생신고 가능 여부는 신고 시점의 대법원 인명용 한자 조회에서 다시 확인해야 합니다.",
+      incompleteTime:
+        hasBirthTime
+          ? null
+          : "출생 시각이 없어 시주와 시간 보정은 계산에서 제외했습니다.",
+    },
+  };
+}
