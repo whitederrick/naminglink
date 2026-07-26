@@ -21,6 +21,4 @@ export const companyInfo = {
   email: "platforest.inc@gmail.com",
   privacyOfficer: "곽은하",
   hostingProvider: "Vercel Inc.",
-  siblingServiceName: "Naming-Link",
-  siblingServiceUrl: "https://naming-link.com",
 } as const;

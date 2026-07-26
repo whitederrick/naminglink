@@ -40,7 +40,7 @@ export default async function LandingPage({
           className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,12,15,0.9),rgba(18,12,15,0.55),rgba(18,12,15,0.15))]"
         />
 
-        <header className="relative z-10 mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-10">
+        <header className="relative z-10 mx-auto flex w-full max-w-[80rem] items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-10">
           <Link href={`/${query}`} className="flex items-center gap-3 text-white">
             <BrandMark />
             <span className="flex flex-col gap-1">
@@ -58,7 +58,9 @@ export default async function LandingPage({
           <LocaleSwitcher current={locale} tone="onDark" />
         </header>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-6xl flex-1 items-start gap-8 overflow-hidden px-5 py-8 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(380px,420px)] lg:gap-10 lg:px-10 lg:pt-[clamp(2rem,6vh,4rem)]">
+        {/* 오른쪽 카드 열을 넉넉히 잡는다. 380~420px에서는 3단계 설명과 미저장 안내가 줄마다
+            끊겨 빽빽해 보였다. 왼쪽 글 폭이 조금 줄어드는 대신 양쪽 다 숨이 트인다. */}
+        <div className="relative z-10 mx-auto grid w-full max-w-[80rem] flex-1 items-start gap-8 overflow-hidden px-5 py-8 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(30rem,34rem)] lg:gap-12 lg:px-10 lg:pt-[clamp(2rem,6vh,4rem)]">
           <section className="min-w-0 max-w-2xl">
             <p className="inline-flex w-fit items-center rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-lg font-semibold shadow-sm backdrop-blur sm:text-xl">
               {dictionary.tagline}
@@ -66,7 +68,9 @@ export default async function LandingPage({
             <h1 className="break-keep-all mt-5 whitespace-pre-line text-[2.125rem] font-semibold leading-[1.1] [text-wrap:balance] sm:text-[2.75rem] xl:text-[3.25rem]">
               {landing.title}
             </h1>
-            <p className="break-keep-all mt-4 max-w-xl text-base leading-7 text-white/80 [text-wrap:pretty] sm:text-lg">
+            {/* 사전의 \n을 그대로 줄바꿈으로 쓴다. 문장 단위로 끊어야 읽기 쉬운데, 어디서
+                끊을지는 언어마다 달라 화면이 아니라 사전이 정하는 게 맞다. */}
+            <p className="break-keep-all mt-4 max-w-xl whitespace-pre-line text-base leading-7 text-white/80 [text-wrap:pretty] sm:text-lg">
               {landing.subtitle}
             </p>
             <Link
@@ -80,7 +84,7 @@ export default async function LandingPage({
           {/* 계산 방식과 미저장 안내를 히어로 안에서 바로 보여 준다. naminglink가 서비스
               카드를 두는 자리다. */}
           <div className="grid w-full gap-4">
-            <section className="rounded-2xl border border-white/20 bg-white/10 p-5 shadow-sm backdrop-blur">
+            <section className="rounded-2xl border border-white/20 bg-white/10 p-6 shadow-sm backdrop-blur">
               <h2 className="text-base font-semibold">{landing.howTitle}</h2>
               <ol className="mt-4 space-y-3">
                 {landing.steps.map((step, index) => (

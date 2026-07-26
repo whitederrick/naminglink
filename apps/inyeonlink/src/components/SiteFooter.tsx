@@ -86,13 +86,6 @@ export function SiteFooter({
               {link.label}
             </Link>
           ))}
-          <a
-            href={companyInfo.siblingServiceUrl}
-            className={linkClass}
-            rel="noreferrer"
-          >
-            {companyInfo.siblingServiceName}
-          </a>
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">

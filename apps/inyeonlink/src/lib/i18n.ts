@@ -193,7 +193,7 @@ const ko: Dictionary = {
   landing: {
     title: "두 사람의 인연,\n숫자로 확인해 보세요",
     subtitle:
-      "생년월일만 있으면 됩니다. 전통 명리의 사주 궁합과 띠 궁합을 함께 계산해 매칭률로 보여드립니다.",
+      "생년월일만 있으면 됩니다.\n전통 명리의 사주 궁합과 띠 궁합을 함께 계산해 매칭률로 보여드립니다.",
     cta: "궁합 보기",
     howTitle: "이렇게 계산합니다",
     steps: [
@@ -203,7 +203,7 @@ const ko: Dictionary = {
     ],
     privacyTitle: "입력한 정보는 저장하지 않습니다",
     privacyBody:
-      "생년월일은 계산하는 순간에만 사용하고 어디에도 기록하지 않습니다. 회원가입도 필요 없습니다. 결과 링크에 담긴 정보는 브라우저 주소창의 # 뒤에만 있어 서버로 전송되지 않습니다.",
+      "생년월일은 계산하는 순간에만 사용하고 어디에도 기록하지 않습니다. 회원가입도 필요 없습니다. 결과 링크에 담긴 정보는 서버로 전송되지 않습니다.",
     disclaimer:
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
   },
@@ -488,7 +488,7 @@ const en: Dictionary = {
   landing: {
     title: "See how two people\nfit together",
     subtitle:
-      "All you need is a birth date. We combine Saju (Four Pillars) compatibility with zodiac compatibility and show it as a match rate.",
+      "All you need is a birth date.\nWe combine Saju (Four Pillars) compatibility with zodiac compatibility and show it as a match rate.",
     cta: "Check compatibility",
     howTitle: "How it works",
     steps: [
@@ -498,7 +498,7 @@ const en: Dictionary = {
     ],
     privacyTitle: "Nothing you enter is stored",
     privacyBody:
-      "Birth dates are used only while the result is being calculated and are never recorded. No account is needed. Everything in a result link sits after the # in the address bar, which browsers never send to the server.",
+      "Birth dates are used only while the result is being calculated and are never recorded. No account is needed. Nothing carried in a result link is sent to the server.",
     disclaimer:
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
   },

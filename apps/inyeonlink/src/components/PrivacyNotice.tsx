@@ -24,7 +24,7 @@ export function PrivacyNotice({
 
   return (
     <section
-      className={`rounded-2xl border p-5 shadow-sm backdrop-blur ${
+      className={`rounded-2xl border p-6 shadow-sm backdrop-blur ${
         onDark
           ? "border-white/20 bg-white/10 text-white/80"
           : "border-line/70 bg-surface/75 text-muted"
