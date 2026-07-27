@@ -17,7 +17,9 @@ import { getReportPrices } from "@/lib/report-product";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const KINDS: LegalDocumentKey[] = ["privacy", "terms"];
+// 문서 종류를 늘리면 여기도 늘려야 한다. 빠뜨리면 팝업이 INVALID_KIND를 받아 빈 화면이 된다
+// (실제로 환불정책·요금안내를 추가하고 이 목록을 갱신하지 않아 그런 일이 있었다).
+const KINDS: LegalDocumentKey[] = ["privacy", "terms", "refund", "pricing"];
 
 export async function GET(request: NextRequest) {
   const kind = request.nextUrl.searchParams.get("kind") ?? "";
