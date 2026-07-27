@@ -116,16 +116,29 @@ export function sealLayout(hangul: string) {
   const count = characters.length;
   if (count === 0) return { columns: [] as string[][], fontSize: 20 };
 
-  // 네 글자까지는 한 열로 세운다. 그 이상은 두 열로 나누되 오른쪽 열을 길게 잡는다.
-  if (count <= 4) {
-    const fontSize = count <= 3 ? 20 : 17;
-    return { columns: [characters], fontSize };
+  // 네 글자까지는 한 열로 세운다(한국 이름 낙관의 기본 모양). 그 이상은 열을 늘리되 **한 열에
+  // 다섯 글자까지만** 담는다. 열을 둘로 고정하면 이름이 길어질수록 낙관이 세로로 길쭉한 막대가
+  // 되어 도장으로 보이지 않는다 — 스무 글자면 한 열에 열 자가 쌓인다.
+  const MAX_PER_COLUMN = 5;
+  const columnCount =
+    count <= 4 ? 1 : Math.max(2, Math.ceil(count / MAX_PER_COLUMN));
+  const perColumn = Math.ceil(count / columnCount);
+
+  const columns: string[][] = [];
+  for (let index = 0; index < count; index += perColumn) {
+    columns.push(characters.slice(index, index + perColumn));
   }
 
-  const rightCount = Math.ceil(count / 2);
-  const columns = [characters.slice(0, rightCount), characters.slice(rightCount)];
-  // 한 열에 들어가는 글자 수로 크기를 정한다. 8자(한 열 4자)까지는 읽을 만하다.
-  const fontSize = rightCount <= 3 ? 17 : rightCount <= 4 ? 14 : 11;
+  // 크기는 가장 긴 열을 기준으로 정한다. 열이 늘어도 높이는 그 열이 정하기 때문이다.
+  const tallest = Math.max(...columns.map((column) => column.length));
+  const fontSize =
+    columnCount === 1 && tallest <= 3
+      ? 20
+      : tallest <= 3
+        ? 17
+        : tallest === 4
+          ? 14
+          : 11;
   return { columns, fontSize };
 }
 
