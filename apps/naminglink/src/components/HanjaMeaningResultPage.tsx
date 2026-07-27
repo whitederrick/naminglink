@@ -24,6 +24,22 @@ type StoredResult = {
 
 const candidateCount = (result: unknown) => cappedCandidateCount(result, 10);
 
+/** 결과에서 이름 한자만 뽑는다. 도장 후보 선택지로 쓴다. */
+function hanjaOptionsOf(result: unknown, limit: number) {
+  const candidates = (result as { candidates?: unknown[] } | null)?.candidates;
+  if (!Array.isArray(candidates)) return [];
+  return candidates
+    .slice(0, Math.max(1, limit))
+    .map((candidate) => {
+      const record =
+        candidate && typeof candidate === "object"
+          ? (candidate as Record<string, unknown>)
+          : {};
+      return typeof record.hanja === "string" ? record.hanja.trim() : "";
+    })
+    .filter((hanja) => /^[㐀-䶿一-鿿]{1,4}$/u.test(hanja));
+}
+
 const emptySubscribe = () => () => {};
 
 export function HanjaMeaningResultPage({
@@ -140,7 +156,16 @@ export function HanjaMeaningResultPage({
               }
             />
             {totalCount > 0 ? (
-              <ResultAddOnServices service={services.hanjaMeaning} />
+              <ResultAddOnServices
+                service={services.hanjaMeaning}
+                // 오픈된 후보의 이름 한자만 넘긴다(잠금 후보는 제외).
+                hanjaNameOptions={hanjaOptionsOf(stored.result, revealedCount)}
+                familyNameHanja={
+                  typeof stored.inputFactors?.familyNameHanja === "string"
+                    ? stored.inputFactors.familyNameHanja.trim()
+                    : undefined
+                }
+              />
             ) : null}
           </div>
         ) : (

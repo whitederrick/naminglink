@@ -50,14 +50,33 @@ export function ResultAddOnServices({
   service,
   locale,
   stampNameOptions,
+  hanjaNameOptions,
+  familyNameHanja,
 }: {
   service: ServiceConfig;
   locale?: string;
   // 도장에 새길 후보 한글 이름(오픈된 것만). 있으면 사용자가 후보를 골라 도장 신청으로 넘긴다.
   stampNameOptions?: string[];
+  /**
+   * 한자 매핑 결과의 이름 한자 후보(오픈된 것만).
+   *
+   * 도장은 새기고 나면 되돌릴 수 없어 **오타가 그대로 물건이 된다.** 그래서 자유 입력으로 받지
+   * 않고 이미 분석된 후보에서 고르게 한다.
+   */
+  hanjaNameOptions?: string[];
+  /** 입력 화면에서 받은 성의 한자. 없으면 여기서 한 글자 입력받는다. */
+  familyNameHanja?: string;
 }) {
   const options = stampNameOptions?.filter((name) => name.length > 0) ?? [];
   const [selectedName, setSelectedName] = useState(options[0] ?? "");
+
+  // 한자 도장: 성(한자) + 이름(후보에서 선택).
+  const hanjaOptions = hanjaNameOptions?.filter((name) => name.length > 0) ?? [];
+  const [selectedHanja, setSelectedHanja] = useState(hanjaOptions[0] ?? "");
+  const [familyHanja, setFamilyHanja] = useState(familyNameHanja ?? "");
+  // 서버 검증과 같은 규칙(한글 또는 한자 1~8자, 공백 불가)을 화면에서도 지킨다.
+  const composedHanja = `${familyHanja}${selectedHanja}`.replace(/\s/g, "");
+  const hanjaValid = /^[가-힣㐀-䶿一-鿿]{1,8}$/u.test(composedHanja);
   // 권할 굿즈가 없는 흐름에서는 자리를 아예 내지 않는다. 호출부마다 빼는 대신 여기서 거르는
   // 것은 이 컴포넌트를 부르는 곳이 넷이라 한 곳만 놓쳐도 그대로 남기 때문이다.
   const showGoods = goodsAvailableFor(service);
@@ -96,6 +115,54 @@ export function ResultAddOnServices({
             </span>
           </h3>
           <p className="mt-2 flex-1 text-sm leading-6 text-muted">{copy.goodsBody}</p>
+          {/* 한자 도장: 성은 입력, 이름은 분석된 후보에서 고른다. 도장은 새기고 나면 되돌릴 수
+              없으므로 자유 입력으로 받지 않는다. */}
+          {hanjaOptions.length > 0 ? (
+            <div className="mt-4">
+              <p className="text-xs font-medium text-muted">도장에 새길 한자 선택</p>
+              <div className="mt-2 flex items-center gap-2">
+                <label className="flex items-center gap-1.5 text-xs text-muted">
+                  성(한자)
+                  <input
+                    value={familyHanja}
+                    onChange={(event) => setFamilyHanja(event.target.value.trim().slice(0, 2))}
+                    placeholder="예: 金"
+                    className="h-8 w-16 rounded border border-line bg-background px-2 text-center text-sm"
+                  />
+                </label>
+                <span className="text-xs text-muted">+</span>
+                <div className="flex flex-wrap gap-2">
+                  {hanjaOptions.map((name) => (
+                    <button
+                      key={name}
+                      type="button"
+                      onClick={() => setSelectedHanja(name)}
+                      className={`rounded-lg border px-3 py-1.5 text-sm font-semibold transition ${
+                        selectedHanja === name
+                          ? "border-brand-teal bg-surface-strong text-brand-teal"
+                          : "border-line bg-background hover:border-brand-teal/50"
+                      }`}
+                    >
+                      {name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <p className="mt-2 text-xs text-muted">
+                새길 문구{" "}
+                <span className="font-semibold text-foreground">
+                  {composedHanja || "—"}
+                </span>
+                {familyHanja ? null : " · 성의 한자를 넣으면 성명 전체가 새겨집니다"}
+              </p>
+              {!hanjaValid && composedHanja ? (
+                <p className="mt-1 text-xs text-brand-rose">
+                  도장 문구는 한글 또는 한자 1~8자여야 합니다.
+                </p>
+              ) : null}
+            </div>
+          ) : null}
+
           {options.length > 0 ? (
             <div className="mt-4">
               <p className="text-xs font-medium text-muted">
@@ -120,11 +187,15 @@ export function ResultAddOnServices({
             </div>
           ) : null}
           <Link
-            href={
-              selectedName
-                ? `/stamp-order?lang=${locale ?? "ko"}&name=${encodeURIComponent(selectedName)}`
-                : `/stamp-order?lang=${locale ?? "ko"}`
-            }
+            href={(() => {
+              const base = `/stamp-order?lang=${locale ?? "ko"}`;
+              // 한자 후보를 고른 경우가 우선이다(한자 매핑 흐름).
+              if (hanjaOptions.length > 0 && hanjaValid) {
+                return `${base}&name=${encodeURIComponent(composedHanja)}`;
+              }
+              if (selectedName) return `${base}&name=${encodeURIComponent(selectedName)}`;
+              return base;
+            })()}
             className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
           >
             {foreign ? copy.button : "이름 도장 신청 · ₩39,000"}
