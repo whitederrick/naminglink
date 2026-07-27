@@ -51,6 +51,13 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   // packages/core는 .ts 소스를 그대로 export하므로 앱에서 트랜스파일한다.
   transpilePackages: ["@naminglink/core"],
+  // PDF 리포트가 쓰는 폰트를 배포 산출물에 넣는다. `src/lib/pdf/fonts.tsx`가 이 경로를
+  // `process.cwd()` 기준으로 읽으므로 둘 중 하나만 고치면 운영에서만 폰트를 못 찾는다.
+  // 아직 PDF를 내려보내는 라우트가 없어 지금은 걸리는 경로가 없지만, 라우트를 만들 때
+  // 이 설정을 잊지 않도록 먼저 적어 둔다.
+  outputFileTracingIncludes: {
+    "/api/report/**/*": ["./assets/fonts/*.otf", "./assets/fonts/*.ttf"],
+  },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

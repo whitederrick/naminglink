@@ -7,9 +7,23 @@
     "./saju": "./src/saju/engine.ts",
     "./saju/timezone": "./src/saju/timezone.ts",
     "./saju/elements": "./src/saju/elements.ts",
-    "./saju/ten-gods": "./src/saju/ten-gods.ts"
+    "./saju/ten-gods": "./src/saju/ten-gods.ts",
+    "./pdf/script-runs": "./src/pdf/script-runs.tsx"
   },
   "dependencies": {
     "@fullstackfamily/manseryeok": "1.0.8"
+  },
+  "peerDependencies": {
+    "@react-pdf/renderer": "*",
+    "react": "*"
+  },
+  "peerDependenciesMeta": {
+    "@react-pdf/renderer": { "optional": true },
+    "react": { "optional": true }
+  },
+  "devDependencies": {
+    "@react-pdf/renderer": "4.5.1",
+    "@types/react": "^19",
+    "react": "19.2.4"
   }
 }
