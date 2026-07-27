@@ -17,6 +17,31 @@ export const paymentsConfigured = Boolean(
       process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY),
 );
 
+/**
+ * 토스페이먼츠(국내)를 켤 수 있는 상태인가.
+ *
+ * next.config.ts가 읽으므로 `toss.ts`(server-only)와 따로 둔다. 서버 전용 모듈을 설정 파일에서
+ * 부르면 빌드가 깨진다.
+ */
+export const tossConfiguredForCsp = Boolean(
+  process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY && process.env.TOSS_SECRET_KEY,
+);
+
+/**
+ * 토스 결제창이 쓰는 출처.
+ *
+ * **첫 실결제에서 반드시 확인할 것.** 카드사 인증창은 발급사마다 도메인이 달라 여기 목록으로
+ * 다 덮이지 않을 수 있다. 막히면 결제창이 조용히 실패하므로 콘솔의 CSP 위반 보고를 봐야 한다.
+ */
+export const tossCspSources = {
+  script: ["https://js.tosspayments.com"],
+  frame: ["https://js.tosspayments.com", "https://*.tosspayments.com"],
+  connect: ["https://api.tosspayments.com", "https://*.tosspayments.com"],
+  image: ["https://static.tosspayments.com", "https://*.tosspayments.com"],
+  // 카드 인증은 폼 전송으로 발급사로 넘어간다.
+  formAction: ["https://*.tosspayments.com"],
+} as const;
+
 export const paymentCspSources = {
   script: ["https://cdn.portone.io", "https://www.paypal.com", "https://www.paypalobjects.com"],
   frame: [

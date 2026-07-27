@@ -86,6 +86,12 @@ export async function POST(request: NextRequest) {
 
     // 이미 결제가 확인된 주문이면 다시 물어보지 않는다. 재발급은 한도 안에서만 허용한다.
     if (order.payment_status !== "PAID") {
+      // **토스 주문은 여기서 확인하지 않는다.** 토스는 승인 라우트에서 승인과 동시에 PAID가
+      // 되므로, 아직 UNPAID라면 승인이 안 끝난 것이다(또는 만료). 포트원 검증을 대신 돌리면
+      // 엉뚱한 오류가 나므로 갈라 둔다.
+      if (metadata.provider === "TOSS_PAYMENTS") {
+        return jsonError("PAYMENT_NOT_CONFIRMED", 409);
+      }
       await getVerifiedPayment(
         paymentId,
         Number(order.payment_amount),

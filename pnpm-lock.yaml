@@ -25,6 +25,9 @@ importers:
       '@supabase/supabase-js':
         specifier: ^2.110.1
         version: 2.110.1
+      '@tosspayments/tosspayments-sdk':
+        specifier: ^2.7.1
+        version: 2.7.1
       lucide-react:
         specifier: ^1.23.0
         version: 1.23.0(react@19.2.4)
@@ -979,6 +982,9 @@ packages:
 
   '@tailwindcss/postcss@4.3.2':
     resolution: {integrity: sha512-rjVWYCa7Ngbi5AarT6k8TkxUG3Wl1QKzHdIZVsjZSzf36Jmo2IKZt/NHRAwly8oDkbBOH0YTu+CHuf9jPxMc+g==}
+
+  '@tosspayments/tosspayments-sdk@2.7.1':
+    resolution: {integrity: sha512-nHInxgFvFGm1VtaCS+IPLdtmE+B2a+MCYE9Meq0aR/0L0hAgoGllLS4ciQGb1RtLvp3mHcj3lL80XMi4BqQ7uw==}
 
   '@tybys/wasm-util@0.10.3':
     resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
@@ -3324,6 +3330,8 @@ snapshots:
       '@tailwindcss/oxide': 4.3.2
       postcss: 8.5.22
       tailwindcss: 4.3.2
+
+  '@tosspayments/tosspayments-sdk@2.7.1': {}
 
   '@tybys/wasm-util@0.10.3':
     dependencies:

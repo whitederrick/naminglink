@@ -71,6 +71,27 @@ export function MatchResultView({
   // 없이 들어온 경우(주소를 직접 친 경우)에만 마지막에 빈 값을 확정해 오류를 보여 준다.
   const [resolvedFragment, setResolvedFragment] = useState<string | null>(null);
 
+  // 토스 결제에서 돌아온 경우 프래그먼트를 되살린다.
+  //
+  // 국내 결제는 우리 서버 라우트로 리디렉트되어 승인되므로, 돌아온 주소에는 입력값 프래그먼트가
+  // 없다. 결제 직전에 브라우저(sessionStorage)에 맡겨 둔 값을 주소에 되돌려 놓아야 결과를 다시
+  // 그릴 수 있다. **서버에 저장한 것이 아니다** — 탭을 닫으면 함께 사라진다.
+  useEffect(() => {
+    if (window.location.hash) return;
+    const params = new URLSearchParams(window.location.search);
+    if (!params.get("payment")) return;
+    try {
+      const raw = window.sessionStorage.getItem("inyeonlink.pendingPayment");
+      if (!raw) return;
+      const saved = JSON.parse(raw) as { fragment?: string };
+      if (saved.fragment) {
+        window.location.replace(`${window.location.href}#${saved.fragment}`);
+      }
+    } catch {
+      // 복원에 실패하면 아래 흐름이 "결과를 읽을 수 없습니다"로 안내한다.
+    }
+  }, []);
+
   useEffect(() => {
     let stopped = false;
 

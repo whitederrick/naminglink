@@ -26,7 +26,20 @@ function renderEmphasis(text: string) {
   );
 }
 
-type Checkout = {
+// 국내는 토스페이먼츠, 해외는 포트원(페이팔)이다. 서버가 어느 쪽으로 주문을 만들었는지
+// `provider`로 알려 주고, 화면은 그에 맞는 결제창을 띄운다.
+type TossCheckout = {
+  provider: "TOSS";
+  orderId: string;
+  clientKey: string;
+  orderName: string;
+  totalAmount: number;
+  currency: string;
+  display: string;
+};
+
+type PortOneCheckout = {
+  provider: "PORTONE";
   orderId: string;
   paymentId: string;
   storeId: string;
@@ -39,11 +52,33 @@ type Checkout = {
   display: string;
 };
 
+type Checkout = TossCheckout | PortOneCheckout;
+
+/**
+ * 결제창에 다녀오는 동안 궁합 입력값을 브라우저에 맡겨 둔다.
+ *
+ * 입력값은 주소의 프래그먼트(#)에만 있고 서버로 가지 않는다. 토스는 결제 후 우리 서버 라우트로
+ * 리디렉트되므로 그 사이 프래그먼트가 사라진다. sessionStorage는 **이용자 브라우저**이지
+ * 서버가 아니므로, 저장하지 않는다는 원칙과 충돌하지 않는다. 탭을 닫으면 함께 사라진다.
+ */
+const PENDING_KEY = "inyeonlink.pendingPayment";
+
+function rememberForRedirect(orderId: string) {
+  try {
+    window.sessionStorage.setItem(
+      PENDING_KEY,
+      JSON.stringify({ orderId, fragment: window.location.hash.slice(1) }),
+    );
+  } catch {
+    // 저장을 못 해도 결제는 진행한다. 돌아왔을 때 결과를 못 그릴 뿐이다.
+  }
+}
+
 type Stage =
   | { name: "idle" }
   | { name: "ordering" }
   | { name: "paying" }
-  | { name: "paypal"; checkout: Checkout }
+  | { name: "paypal"; checkout: PortOneCheckout }
   | { name: "issuing" }
   | { name: "done"; checkout: Checkout }
   | { name: "failed"; message: string };
@@ -76,7 +111,8 @@ export function ReportPurchasePanel({
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         orderId: checkout.orderId,
-        paymentId: checkout.paymentId,
+        // 토스 주문은 provider_payment_id를 orderId로 저장한다(결제 식별자가 따로 없다).
+        paymentId: checkout.provider === "TOSS" ? checkout.orderId : checkout.paymentId,
         locale,
         input,
       }),
@@ -118,6 +154,39 @@ export function ReportPurchasePanel({
       }
 
       const checkout = data.checkout;
+
+      if (checkout.provider === "TOSS") {
+        // 토스는 결제 후 우리 서버 라우트로 돌아가 승인된다. 그 사이 프래그먼트가 사라지므로
+        // 입력값을 브라우저에 맡겨 두고, 돌아와서 복원한다.
+        rememberForRedirect(checkout.orderId);
+        setStage({ name: "paying" });
+        const { loadTossPayments, ANONYMOUS } = await import(
+          "@tosspayments/tosspayments-sdk"
+        );
+        const tossPayments = await loadTossPayments(checkout.clientKey);
+        const payment = tossPayments.payment({ customerKey: ANONYMOUS });
+        const returnTo = new URL(
+          "/api/payments/toss/confirm",
+          window.location.origin,
+        );
+        returnTo.searchParams.set("lang", locale);
+        const failTo = new URL("/compatibility/result", window.location.origin);
+        failTo.searchParams.set("lang", locale);
+        failTo.searchParams.set("payment", "failed");
+
+        // method: "CARD"가 카드·간편결제 통합결제창이라 토스페이·카카오페이·네이버페이·페이코가
+        // 함께 들어온다. 리디렉트 방식이므로 여기서 함수가 반환되지 않는다.
+        await payment.requestPayment({
+          method: "CARD",
+          amount: { currency: "KRW", value: checkout.totalAmount },
+          orderId: checkout.orderId,
+          orderName: checkout.orderName,
+          successUrl: returnTo.toString(),
+          failUrl: failTo.toString(),
+        });
+        return;
+      }
+
       if (checkout.uiType === "PAYPAL_SPB") {
         // 페이팔은 결제창을 띄우지 않고 버튼을 패널 안에 그린다. 컨테이너가 렌더된 뒤에
         // SDK를 불러야 하므로 단계만 바꾸고 아래 effect에 맡긴다.

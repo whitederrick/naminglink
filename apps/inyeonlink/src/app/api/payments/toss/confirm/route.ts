@@ -1,0 +1,99 @@
+import { NextRequest, NextResponse } from "next/server";
+
+import { getSupabaseAdminClient } from "@/lib/supabase";
+import { confirmTossPayment } from "@/lib/toss";
+
+// 토스 결제창이 돌아오는 자리. **여기서 승인해야 비로소 결제가 된다.**
+//
+//   결제창 → GET /api/payments/toss/confirm?paymentKey&orderId&amount → 승인 → 결과 화면
+//
+// 서버 라우트를 successUrl로 삼은 이유: 브라우저가 우리 서버에 닿는 순간 바로 승인하기
+// 위해서다. 화면이 떠서 자바스크립트가 돌기를 기다리면 그 사이에 창을 닫거나 네트워크가 끊길
+// 여지가 생긴다. 승인은 리디렉트 후 10분 안에 해야 한다.
+//
+// 궁합 입력값은 URL 프래그먼트(#)에만 있어 결제창을 거치는 동안 서버로 오지 않는다. 그래서
+// 결제 전에 브라우저(sessionStorage)에 넣어 두고, 여기서 결과 화면으로 되돌리면 화면이 그것을
+// 복원한다. sessionStorage는 이용자 브라우저이지 서버가 아니므로 미저장 원칙과 충돌하지 않는다.
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+/** 결과 화면으로 되돌린다. 화면이 이 값으로 다음 동작을 정한다. */
+function backToResult(request: NextRequest, params: Record<string, string>) {
+  const url = new URL("/compatibility/result", request.nextUrl.origin);
+  for (const [key, value] of Object.entries(params)) {
+    url.searchParams.set(key, value);
+  }
+  return NextResponse.redirect(url, { status: 303 });
+}
+
+export async function GET(request: NextRequest) {
+  const query = request.nextUrl.searchParams;
+  const paymentKey = query.get("paymentKey") ?? "";
+  const orderId = query.get("orderId") ?? "";
+  const locale = query.get("lang") ?? "ko";
+
+  if (!paymentKey || !UUID.test(orderId)) {
+    return backToResult(request, { lang: locale, payment: "invalid" });
+  }
+
+  const supabase = getSupabaseAdminClient();
+  if (!supabase) {
+    return backToResult(request, { lang: locale, payment: "failed" });
+  }
+
+  try {
+    const { data: order } = await supabase
+      .from("orders")
+      .select("id,payment_status,payment_amount,payment_currency,metadata")
+      .eq("id", orderId)
+      .eq("order_type", "GUNGHAP_PDF")
+      .eq("service", "inyeonlink")
+      .maybeSingle();
+
+    if (!order) return backToResult(request, { lang: locale, payment: "notfound" });
+
+    // 이미 승인된 주문이면 그대로 통과시킨다(새로고침·뒤로가기 대비).
+    if (order.payment_status === "PAID") {
+      return backToResult(request, { lang: locale, payment: "paid", orderId });
+    }
+
+    // **금액은 주문에 저장된 값으로 승인한다.** 쿼리로 돌아온 amount를 그대로 쓰면 위변조를
+    // 그대로 승인하는 셈이 된다.
+    const payment = await confirmTossPayment({
+      paymentKey,
+      orderId,
+      expectedAmount: Number(order.payment_amount),
+    });
+
+    const metadata =
+      order.metadata && typeof order.metadata === "object" && !Array.isArray(order.metadata)
+        ? (order.metadata as Record<string, unknown>)
+        : {};
+
+    const { error: updateError } = await supabase
+      .from("orders")
+      .update({
+        payment_status: "PAID",
+        metadata: {
+          ...metadata,
+          tossPaymentKey: payment.paymentKey,
+          tossMethod: payment.method ?? null,
+          paidAt: payment.approvedAt ?? new Date().toISOString(),
+        },
+        updated_at: new Date().toISOString(),
+      })
+      .eq("id", orderId)
+      .eq("payment_status", "UNPAID");
+    if (updateError) throw updateError;
+
+    return backToResult(request, { lang: locale, payment: "paid", orderId });
+  } catch (error) {
+    // 승인에 실패하면 결제도 되지 않은 상태다(토스는 승인해야 결제가 된다). 화면에서 다시
+    // 시도하도록 안내한다.
+    console.error("Toss confirm route failed", error);
+    return backToResult(request, { lang: locale, payment: "failed" });
+  }
+}

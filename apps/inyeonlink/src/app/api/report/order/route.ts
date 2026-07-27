@@ -11,6 +11,7 @@ import {
   REPORT_REGIONS,
 } from "@/lib/report-product";
 import { checkRateLimit } from "@/lib/request-guard";
+import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 // 궁합 리포트 PDF 주문 생성.
@@ -75,8 +76,14 @@ export async function POST(request: NextRequest) {
     return jsonError("NOT_ON_SALE", 503);
   }
 
-  const portone = getPortOnePublicConfig(product.channel);
-  if (!portone || !process.env.PORTONE_API_SECRET) {
+  // **국내는 토스페이먼츠, 해외는 포트원(페이팔)이다.** 결제사가 갈리므로 주문에도 어느 쪽으로
+  // 만든 주문인지 남긴다 — 확정 경로가 완전히 달라서 나중에 구분할 수 없으면 안 된다.
+  const useToss = product.region === "domestic";
+
+  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
+  if (useToss) {
+    if (!tossConfigured) return jsonError("PAYMENT_NOT_READY", 503);
+  } else if (!portone || !process.env.PORTONE_API_SECRET) {
     return jsonError("PAYMENT_NOT_READY", 503);
   }
 
@@ -85,6 +92,7 @@ export async function POST(request: NextRequest) {
 
   try {
     const orderId = randomUUID();
+    // 토스는 orderId를 그대로 쓴다(6~64자 규칙에 UUID가 들어간다). 포트원은 별도 결제 ID를 쓴다.
     const paymentId = `iy_${orderId.replaceAll("-", "")}`;
 
     const { error } = await supabase.from("orders").insert({
@@ -95,9 +103,9 @@ export async function POST(request: NextRequest) {
       payment_amount: setting.amount,
       payment_currency: setting.currency,
       fulfillment_status: "PENDING",
-      provider_payment_id: paymentId,
+      provider_payment_id: useToss ? orderId : paymentId,
       metadata: {
-        provider: "PORTONE_V2",
+        provider: useToss ? "TOSS_PAYMENTS" : "PORTONE_V2",
         region: product.region,
         locale: input.data.locale ?? null,
         // 동의 사실과 시각. 개인을 가리키는 값이 아니라 미저장 원칙과 충돌하지 않는다.
@@ -109,18 +117,29 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         ok: true,
-        checkout: {
-          orderId,
-          paymentId,
-          storeId: portone.storeId,
-          channelKey: portone.channelKey,
-          payMethod: portone.payMethod,
-          uiType: product.uiType,
-          orderName: product.orderName,
-          totalAmount: setting.amount,
-          currency: setting.currency,
-          display: displayPrice(setting),
-        },
+        checkout: useToss
+          ? {
+              provider: "TOSS" as const,
+              orderId,
+              clientKey: getTossClientKey(),
+              orderName: product.orderName,
+              totalAmount: setting.amount,
+              currency: setting.currency,
+              display: displayPrice(setting),
+            }
+          : {
+              provider: "PORTONE" as const,
+              orderId,
+              paymentId,
+              storeId: portone!.storeId,
+              channelKey: portone!.channelKey,
+              payMethod: portone!.payMethod,
+              uiType: product.uiType,
+              orderName: product.orderName,
+              totalAmount: setting.amount,
+              currency: setting.currency,
+              display: displayPrice(setting),
+            },
       },
       { headers: { "Cache-Control": "no-store" } },
     );
