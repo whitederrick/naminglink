@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { getPortOnePublicConfig } from "@/lib/portone";
@@ -10,6 +10,7 @@ import {
   getReportSetting,
   REPORT_REGIONS,
 } from "@/lib/report-product";
+import { checkRateLimit } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 // 궁합 리포트 PDF 주문 생성.
@@ -36,7 +37,19 @@ const schema = z.object({
   withdrawalConsent: z.literal(true),
 });
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
+  // 미결제 주문이 무한히 쌓이는 것을 막는다. naminglink의 굿즈 주문과 같은 한도다.
+  const allowed = await checkRateLimit(request, "inyeon_report_order", {
+    windowSeconds: 3600,
+    limit: 10,
+  });
+  if (!allowed) {
+    return NextResponse.json(
+      { ok: false, error: "주문 요청이 너무 많습니다. 잠시 후 다시 시도해 주세요." },
+      { status: 429 },
+    );
+  }
+
   const raw = await request.text();
   if (raw.length > 2 * 1024) {
     return jsonError("PAYLOAD_TOO_LARGE", 413);

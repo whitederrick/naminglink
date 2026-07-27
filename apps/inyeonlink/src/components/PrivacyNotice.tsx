@@ -37,7 +37,8 @@ export function PrivacyNotice({
       >
         {landing.privacyTitle}
       </h2>
-      <p className="break-keep-all mt-2 max-w-3xl text-sm leading-6">
+      {/* 문구에 줄바꿈이 들어 있다. pre-line이 없으면 공백으로 접힌다. */}
+      <p className="break-keep-all mt-2 max-w-3xl whitespace-pre-line text-sm leading-6">
         {landing.privacyBody}
       </p>
       <p

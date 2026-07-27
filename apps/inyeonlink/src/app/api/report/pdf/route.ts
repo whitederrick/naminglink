@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { runMatch } from "@/lib/engines";
@@ -6,6 +6,7 @@ import { getDictionary, isLocale } from "@/lib/i18n";
 import { matchInputSchema, toPerson } from "@/lib/match-input";
 import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
 import { getVerifiedPayment } from "@/lib/portone";
+import { checkRateLimit } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 // 결제를 확인하고 그 자리에서 PDF를 만들어 내려보낸다.
@@ -30,7 +31,20 @@ const schema = z.object({
   input: matchInputSchema,
 });
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
+  // PDF 렌더는 무겁다. 주문·결제 검증을 통과해야 실제로 만들어지지만, 그 앞단에서 한 번 막는다.
+  // 같은 주문으로 5회까지 다시 받을 수 있으므로 그보다는 여유를 둔다.
+  const allowed = await checkRateLimit(request, "inyeon_report_pdf", {
+    windowSeconds: 3600,
+    limit: 30,
+  });
+  if (!allowed) {
+    return NextResponse.json(
+      { ok: false, error: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요." },
+      { status: 429 },
+    );
+  }
+
   const raw = await request.text();
   if (raw.length > 8 * 1024) return jsonError("PAYLOAD_TOO_LARGE", 413);
 

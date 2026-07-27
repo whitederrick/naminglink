@@ -1,7 +1,8 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 import { runMatch } from "@/lib/engines";
 import { matchInputSchema, toPerson } from "@/lib/match-input";
+import { checkRateLimit } from "@/lib/request-guard";
 
 // 계산 전용 엔드포인트. 요청 본문은 계산이 끝나면 사라지고 **어디에도 저장하지 않는다**.
 // - DB 쓰기 없음
@@ -15,7 +16,20 @@ export const dynamic = "force-dynamic";
 
 const MAX_BODY_BYTES = 4 * 1024;
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
+  // 규칙 기반이라 AI 비용은 없지만 서버리스 실행 시간은 든다. 사람이 쓰기에는 넉넉하고
+  // 자동화로 긁기에는 좁은 선으로 잡는다.
+  const allowed = await checkRateLimit(request, "inyeon_match", {
+    windowSeconds: 600,
+    limit: 60,
+  });
+  if (!allowed) {
+    return NextResponse.json(
+      { ok: false, error: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요." },
+      { status: 429 },
+    );
+  }
+
   const raw = await request.text();
   if (raw.length > MAX_BODY_BYTES) {
     return jsonError("PAYLOAD_TOO_LARGE", 413);
