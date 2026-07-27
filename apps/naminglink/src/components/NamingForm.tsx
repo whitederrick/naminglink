@@ -1035,11 +1035,11 @@ export function NamingForm({
             {isHanjaMeaning && avoidedExcluded && avoidedExcluded.length > 0 ? (
               <details className="mt-4 rounded-lg border border-line bg-background px-4 py-3">
                 <summary className="cursor-pointer text-sm font-semibold">
-                  전통상 기피되어 제외한 한자 {avoidedExcluded.length}자
+                  후보에서 뺀 불용문자 {avoidedExcluded.length}자
                 </summary>
                 <p className="mt-2 text-xs leading-5 text-muted">
-                  법적 제한이 아니라 전통 성명학의 관습입니다. 원하시면 입력 화면에서
-                  &ldquo;불용문자 제외&rdquo;를 끄고 다시 조회하실 수 있습니다.
+                  법적 제한이 아니라 전통 성명학의 관습입니다. 빼지 않고 표시만 받으시려면 입력
+                  화면에서 &ldquo;불용문자 후보에서 빼기&rdquo;를 끄고 다시 조회하십시오.
                 </p>
                 <ul className="mt-2 grid gap-1.5 text-xs leading-5 text-muted">
                   {avoidedExcluded.map((item) => (

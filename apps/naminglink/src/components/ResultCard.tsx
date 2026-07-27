@@ -1160,6 +1160,19 @@ export function ResultCard({
                                   {text(part.character)} · {text(part.origin_label)}
                                 </span>
                               ))}
+                            {/* 전통상 기피하는 글자. 빼지 않고 표시만 한다 — 법이 아니라 관습이라
+                                판단은 이용자가 한다. 색을 달리해 국자 배지와 구분한다. */}
+                            {getBreakdown(item.character_breakdown)
+                              .filter((part) => text(part.avoid_label))
+                              .map((part) => (
+                                <span
+                                  key={`avoid-${text(part.character)}`}
+                                  title={text(part.avoid_reason)}
+                                  className="rounded-full border border-brand-rose/30 bg-brand-rose/5 px-2.5 py-1 text-xs font-semibold text-brand-rose"
+                                >
+                                  {text(part.character)} · 전통상 기피 ({text(part.avoid_label)})
+                                </span>
+                              ))}
                           </div>
                         ) : null}
                         {service.serviceType === "HANJA_MEANING_MATCH" ? (

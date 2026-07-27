@@ -1036,6 +1036,11 @@ function officialOptionsFromInput(
         : [],
       sourceStatus: "production" as const,
       originLabel: stringValue(option.originLabel) || undefined,
+      // 전통상 기피 표시. 빼지 않고 결과에 실어 화면이 사유와 함께 보여 준다.
+      avoidNote:
+        option.avoidNote && typeof option.avoidNote === "object"
+          ? (option.avoidNote as { label: string; reason: string })
+          : undefined,
     };
     return isCandidateOptionAllowed(candidate, inputFactors) ? [candidate] : [];
   });
@@ -1576,6 +1581,8 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
         note: option.note,
         source_status: option.sourceStatus,
         origin_label: option.originLabel ?? null,
+        avoid_label: option.avoidNote?.label ?? null,
+        avoid_reason: option.avoidNote?.reason ?? null,
       })),
       story: candidateStory(
         displayName,

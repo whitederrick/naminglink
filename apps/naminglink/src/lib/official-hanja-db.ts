@@ -11,6 +11,14 @@ export type OfficialHanjaCandidate = {
   tags: string[];
   sourceStatus: "production";
   originLabel?: string;
+  /**
+   * 전통 작명에서 기피하는 글자라는 표시.
+   *
+   * **기본은 빼지 않고 표시만 한다.** 법이 아니라 관습이므로 판단을 강요하지 않는다 — 珍을
+   * 원하는 사람이 쓸 수 있어야 하고, 왜 기피되는지 아는 것 자체가 정보다. 빼는 것은 이용자가
+   * 토글을 켰을 때뿐이다.
+   */
+  avoidNote?: { label: string; reason: string };
 };
 
 function hangulSyllables(value: unknown) {
@@ -88,7 +96,11 @@ export async function getOfficialHanjaCandidates(
    * 여기서 빠지면 두 경로 모두에서 결정적으로 사라진다. 프롬프트에 "쓰지 말라"고 적는 방식은
    * 모델이 지키지 않으면 그만이다.
    */
-  options?: { excludeAvoided?: boolean; includeCommonlyUsed?: boolean },
+  options?: {
+    /** 켜면 후보에서 뺀다. 끄면 빼지 않고 `avoidNote`만 달아 화면이 표시하게 한다. */
+    excludeAvoided?: boolean;
+    includeCommonlyUsed?: boolean;
+  },
 ) {
   const syllables = hangulSyllables(inputFactors.givenNameHangul);
   const supabase = getSupabaseAdminClient();
@@ -127,9 +139,11 @@ export async function getOfficialHanjaCandidates(
     if (!entries.length) return null;
 
     // 기피 목록은 부류가 켜져 있는 것만 온다. 목록을 못 읽으면 비어 있어 아무것도 걸러지지 않는다.
-    const avoided = options?.excludeAvoided
-      ? await loadAvoidedHanja({ includeCommonlyUsed: options.includeCommonlyUsed })
-      : new Map<string, AvoidedHanja>();
+    // 표시든 제외든 목록은 항상 읽는다. 빼지 않을 때도 어느 글자가 기피 대상인지 알려야 한다.
+    const avoided = await loadAvoidedHanja({
+      includeCommonlyUsed: options?.includeCommonlyUsed,
+    });
+    const removeAvoided = options?.excludeAvoided === true;
     // 어느 음절에서 무엇이 빠졌는지 함께 들고 있어야, 음절을 되살릴 때 그 안내도 같이 거둔다.
     const excludedBySyllable = new Map<string, AvoidedHanja[]>();
 
@@ -138,7 +152,7 @@ export async function getOfficialHanjaCandidates(
     for (const entry of entries) {
       const syllable = String(entry.hangul_syllable);
       const avoidedEntry = avoided.get(String(entry.hanja));
-      if (avoidedEntry) {
+      if (avoidedEntry && removeAvoided) {
         const list = excludedBySyllable.get(syllable) ?? [];
         if (!list.some((item) => item.hanja === avoidedEntry.hanja)) list.push(avoidedEntry);
         excludedBySyllable.set(syllable, list);
@@ -164,6 +178,9 @@ export async function getOfficialHanjaCandidates(
           String(metadata.officialDescription ?? entry.meaning_ko ?? ""),
         )
           ? "한국 고유 한자(국자)"
+          : undefined,
+        avoidNote: avoidedEntry
+          ? { label: avoidedEntry.categoryLabel, reason: avoidedEntry.reason }
           : undefined,
       });
     }
