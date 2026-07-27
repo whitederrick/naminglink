@@ -129,20 +129,21 @@ export async function getOfficialHanjaCandidates(
     // 기피 목록은 부류가 켜져 있는 것만 온다. 목록을 못 읽으면 비어 있어 아무것도 걸러지지 않는다.
     const avoided = options?.excludeAvoided
       ? await loadAvoidedHanja({ includeCommonlyUsed: options.includeCommonlyUsed })
-      : new Map();
-    const excluded: AvoidedHanja[] = [];
+      : new Map<string, AvoidedHanja>();
+    // 어느 음절에서 무엇이 빠졌는지 함께 들고 있어야, 음절을 되살릴 때 그 안내도 같이 거둔다.
+    const excludedBySyllable = new Map<string, AvoidedHanja[]>();
 
     const candidates: Record<string, OfficialHanjaCandidate[]> = {};
 
     for (const entry of entries) {
+      const syllable = String(entry.hangul_syllable);
       const avoidedEntry = avoided.get(String(entry.hanja));
       if (avoidedEntry) {
-        if (!excluded.some((item) => item.hanja === avoidedEntry.hanja)) {
-          excluded.push(avoidedEntry);
-        }
+        const list = excludedBySyllable.get(syllable) ?? [];
+        if (!list.some((item) => item.hanja === avoidedEntry.hanja)) list.push(avoidedEntry);
+        excludedBySyllable.set(syllable, list);
         continue;
       }
-      const syllable = String(entry.hangul_syllable);
       const metadata =
         entry.metadata && typeof entry.metadata === "object"
           ? (entry.metadata as Record<string, unknown>)
@@ -167,6 +168,46 @@ export async function getOfficialHanjaCandidates(
       });
     }
 
+    // **음절이 통째로 비면 그 음절만 필터를 푼다.**
+    //
+    // "녀"는 인명용한자에 女 하나뿐인데 그것이 기피 목록에 있다. 그대로 두면 후보가 0이 되고,
+    // 엔진은 "자료로 확인하기 어려워 보류했다"는 **틀린 이유**를 보여 준다 — 자료가 없는 게
+    // 아니라 우리가 걸러 낸 것이다. 이름을 못 짓게 만드는 것보다 보여 주고 사정을 밝히는 편이
+    // 낫다. 기피 목록이 넓어질수록 이런 음절이 늘어난다.
+    const restoredSyllables: string[] = [];
+    for (const syllable of syllables) {
+      if ((candidates[syllable]?.length ?? 0) > 0) continue;
+      if (!excludedBySyllable.has(syllable)) continue; // 애초에 자료가 없는 음절.
+      restoredSyllables.push(syllable);
+      excludedBySyllable.delete(syllable);
+    }
+
+    if (restoredSyllables.length) {
+      // 되살릴 음절은 걸러 내기 전 상태로 다시 담는다.
+      for (const entry of entries) {
+        const syllable = String(entry.hangul_syllable);
+        if (!restoredSyllables.includes(syllable)) continue;
+        if (!avoided.has(String(entry.hanja))) continue;
+        const metadata =
+          entry.metadata && typeof entry.metadata === "object"
+            ? (entry.metadata as Record<string, unknown>)
+            : {};
+        const tags = Array.isArray(metadata.tags)
+          ? metadata.tags.filter((tag): tag is string => typeof tag === "string")
+          : [];
+        (candidates[syllable] ??= []).push({
+          character: String(entry.hanja),
+          reading: String(entry.designated_reading),
+          meaning: displayMeaning(entry.meaning_ko),
+          note: String(entry.notes || "공식 인명용 한자표의 지정 발음 확인 후보입니다."),
+          element: "neutral",
+          tags,
+          sourceStatus: "production",
+          originLabel: undefined,
+        });
+      }
+    }
+
     return {
       source: {
         sourceKey: source.source_key,
@@ -174,7 +215,9 @@ export async function getOfficialHanjaCandidates(
       },
       candidates,
       /** 기피 목록 때문에 빠진 글자들. 화면에 "왜 없는지"를 밝히는 데 쓴다. */
-      excludedAvoided: excluded,
+      excludedAvoided: [...excludedBySyllable.values()].flat(),
+      /** 전부 기피 대상이라 필터를 푼 음절. 화면에 사정을 밝힌다. */
+      restoredSyllables,
     };
   } catch {
     return null;

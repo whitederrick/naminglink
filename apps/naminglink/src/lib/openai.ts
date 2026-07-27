@@ -439,6 +439,9 @@ export async function generateNamingResult(
     categoryLabel: entry.categoryLabel,
   }));
 
+  // 전부 기피 대상이라 필터를 푼 음절. 화면에 사정을 밝힌다.
+  const avoidRestoredSyllables = officialHanja?.restoredSyllables ?? [];
+
   const officialCandidateCount = officialCandidates
     ? Object.values(officialCandidates).reduce((sum, options) => sum + options.length, 0)
     : null;
@@ -527,7 +530,7 @@ export async function generateNamingResult(
 
     return {
       result: clientResult,
-      analysisMeta: { officialCandidateCount, avoidedExcluded },
+      analysisMeta: { officialCandidateCount, avoidedExcluded, avoidRestoredSyllables },
       usage: {
         model:
           serviceType === "HANJA_MEANING_MATCH"
@@ -598,7 +601,7 @@ export async function generateNamingResult(
 
   return {
     result: clientResult,
-    analysisMeta: { officialCandidateCount, avoidedExcluded },
+    analysisMeta: { officialCandidateCount, avoidedExcluded, avoidRestoredSyllables },
     usage: {
       model: completion.model,
       promptTokens: completion.usage?.prompt_tokens ?? 0,

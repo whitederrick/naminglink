@@ -55,6 +55,8 @@ type ApiResult = {
       reason: string;
       categoryLabel: string;
     }>;
+    /** 쓸 수 있는 글자가 모두 기피 대상이라 필터를 푼 음절. */
+    avoidRestoredSyllables?: string[];
   };
 };
 // Analysis metadata is returned while the result is being prepared.
@@ -317,6 +319,7 @@ export function NamingForm({
   const [avoidedExcluded, setAvoidedExcluded] = useState<
     NonNullable<ApiResult["analysisMeta"]>["avoidedExcluded"]
   >([]);
+  const [avoidRestored, setAvoidRestored] = useState<string[]>([]);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [isSignedIn, setIsSignedIn] = useState(false);
@@ -470,7 +473,7 @@ export function NamingForm({
       // Candidate count is available after the response body is parsed.
       // It is shown during any remaining part of the ten-second analysis window.
 
-      const payload = (await response.json()) as ApiResult; setOfficialCandidateCount(payload.analysisMeta?.officialCandidateCount ?? null); setAvoidedExcluded(payload.analysisMeta?.avoidedExcluded ?? []);
+      const payload = (await response.json()) as ApiResult; setOfficialCandidateCount(payload.analysisMeta?.officialCandidateCount ?? null); setAvoidedExcluded(payload.analysisMeta?.avoidedExcluded ?? []); setAvoidRestored(payload.analysisMeta?.avoidRestoredSyllables ?? []);
 
       if (!response.ok || !payload.ok) {
         if (payload.fieldErrors) setFieldErrors(payload.fieldErrors);
@@ -1022,6 +1025,13 @@ export function NamingForm({
 
             {/* 무엇이 왜 빠졌는지 밝힌다. 이유 없이 후보가 줄면 이용자는 흔한 글자가 없는 것을
                 오류로 여기고, 그 글자를 원하는 사람은 되돌릴 방법도 모른다. */}
+            {isHanjaMeaning && avoidRestored.length > 0 ? (
+              <p className="break-keep-all mt-3 text-xs leading-5 text-muted">
+                {avoidRestored.join("·")} 음절은 쓸 수 있는 한자가 모두 기피 대상이라,
+                제외하지 않고 그대로 보여 드립니다.
+              </p>
+            ) : null}
+
             {isHanjaMeaning && avoidedExcluded && avoidedExcluded.length > 0 ? (
               <details className="mt-4 rounded-lg border border-line bg-background px-4 py-3">
                 <summary className="cursor-pointer text-sm font-semibold">
