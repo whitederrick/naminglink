@@ -9,6 +9,8 @@ type HanjaOption = {
   tags: string[];
   sourceStatus: "sample" | "production";
   originLabel?: string;
+  /** 전통 작명에서 기피하는 글자라는 표시. 빼지 않고 결과에 실어 화면이 사유와 함께 보여 준다. */
+  avoidNote?: { label: string; reason: string };
 };
 
 type RejectedHanja = {

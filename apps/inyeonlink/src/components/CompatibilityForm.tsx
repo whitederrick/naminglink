@@ -228,7 +228,9 @@ function PersonFields({
         </span>
       </label>
 
-      <div className="mt-4">
+      {/* 달력과 생년월일은 한 덩어리로 읽힌다 — 양력/음력을 고르고 바로 옆에 날짜를 넣는다. */}
+      <div className="mt-4 grid gap-3 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-start sm:gap-4">
+      <div>
         <span className="text-sm font-medium">{t.calendar}</span>
         <div className="mt-1 flex gap-2">
           {(["solar", "lunar"] as const).map((type) => (
@@ -259,7 +261,7 @@ function PersonFields({
         ) : null}
       </div>
 
-      <div className="mt-4">
+      <div>
         <span className="text-sm font-medium">{t.birthDate}</span>
         <div className="mt-1 grid grid-cols-3 gap-2">
           <NumberField
@@ -267,6 +269,7 @@ function PersonFields({
             value={value.year}
             min={MIN_BIRTH_YEAR}
             max={MAX_BIRTH_YEAR}
+            digits={4}
             onChange={(next) => set("year", next)}
           />
           <NumberField
@@ -274,6 +277,7 @@ function PersonFields({
             value={value.month}
             min={1}
             max={12}
+            digits={2}
             onChange={(next) => set("month", next)}
           />
           <NumberField
@@ -281,9 +285,11 @@ function PersonFields({
             value={value.day}
             min={1}
             max={31}
+            digits={2}
             onChange={(next) => set("day", next)}
           />
         </div>
+      </div>
       </div>
 
       <div className="mt-4">
@@ -303,6 +309,7 @@ function PersonFields({
               value={value.hour}
               min={0}
               max={23}
+              digits={2}
               onChange={(next) => set("hour", next)}
             />
             <NumberField
@@ -310,6 +317,7 @@ function PersonFields({
               value={value.minute}
               min={0}
               max={59}
+              digits={2}
               onChange={(next) => set("minute", next)}
             />
           </div>
@@ -324,24 +332,47 @@ function NumberField({
   value,
   min,
   max,
+  digits,
   onChange,
 }: {
   label: string;
   value: string;
   min: number;
   max: number;
+  /** 허용 자릿수. 년 4·월 2·일 2. 넘으면 입력 자체를 받지 않는다. */
+  digits?: number;
   onChange: (next: string) => void;
 }) {
+  // `<input type="number">`의 min·max는 **타이핑을 막지 못한다.** 스피너와 브라우저 기본
+  // 유효성 검사에만 쓰여서, 월에 99를 그대로 적을 수 있었다. 그래서 여기서 직접 거른다.
+  //
+  // 지우는 중일 수 있으므로 빈 값은 그대로 통과시킨다. 상한을 넘으면 잘라내지 않고 상한으로
+  // 맞춘다 — 잘라내면 "31"이 "3"이 되어 무엇을 지웠는지 알기 어렵다.
+  const handle = (raw: string) => {
+    const onlyDigits = raw.replace(/\D/g, "");
+    if (!onlyDigits) return onChange("");
+    const limited = digits ? onlyDigits.slice(0, digits) : onlyDigits;
+    const numeric = Number(limited);
+    if (Number.isNaN(numeric)) return;
+    onChange(numeric > max ? String(max) : limited);
+  };
+
   return (
     <label className="block">
       <span className="text-xs text-muted">{label}</span>
       <input
-        type="number"
+        type="text"
         inputMode="numeric"
+        autoComplete="off"
         value={value}
-        min={min}
-        max={max}
-        onChange={(event) => onChange(event.target.value)}
+        maxLength={digits}
+        onChange={(event) => handle(event.target.value)}
+        onBlur={() => {
+          // 자리를 벗어날 때 하한만 맞춘다(0월·0일 방지). 입력 중에는 건드리지 않는다.
+          if (!value) return;
+          const numeric = Number(value);
+          if (!Number.isNaN(numeric) && numeric < min) onChange(String(min));
+        }}
         className="mt-0.5 w-full rounded-lg border border-line/70 bg-background/60 px-3 py-2 backdrop-blur-sm"
       />
     </label>
