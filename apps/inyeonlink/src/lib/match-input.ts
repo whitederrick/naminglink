@@ -15,6 +15,17 @@ import type { Person } from "@/lib/engines";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
+/**
+ * 입력 가능한 출생 연도. 화면과 스키마가 **같은 값**을 써야 한다.
+ *
+ * 예전에는 입력 칸이 2050까지 받고 스키마는 올해까지만 받아서, 미래 연도를 넣으면 폼은
+ * 통과하고 결과 화면이 프래그먼트를 디코드하지 못해 "결과 정보를 읽을 수 없습니다"가 떴다.
+ * 상한(2050)은 만세력 라이브러리의 지원 범위이고, 아직 태어나지 않은 사람의 궁합은 볼 수
+ * 없으므로 올해가 실질적인 상한이다.
+ */
+export const MIN_BIRTH_YEAR = 1900;
+export const MAX_BIRTH_YEAR = Math.min(2050, CURRENT_YEAR);
+
 const personSchema = z.object({
   // 표시용 별칭. 실명을 요구하지 않는다 — 궁합 계산에 쓰이지 않는 값이라 받을 이유가 없다.
   label: z.string().trim().max(24).optional(),
@@ -23,7 +34,7 @@ const personSchema = z.object({
   // 출생지 코드. 시주를 그 지역 진태양시로 계산하는 데 쓴다.
   birthplaceCode: z.string().max(32).optional(),
   calendarType: z.enum(["solar", "lunar"]),
-  year: z.number().int().min(1900).max(Math.min(2050, CURRENT_YEAR)),
+  year: z.number().int().min(MIN_BIRTH_YEAR).max(MAX_BIRTH_YEAR),
   month: z.number().int().min(1).max(12),
   day: z.number().int().min(1).max(31),
   lunarLeapMonth: z.boolean().optional(),

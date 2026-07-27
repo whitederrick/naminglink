@@ -39,31 +39,66 @@ export function MatchResultView({
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
 
-  // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다.
+  // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다. null이면 아직 못 읽은 것이다.
   //
-  // 예전에는 마운트할 때 한 번만 `window.location.hash`를 읽었다. 그런데 결과 화면에서
-  // "다시 계산하기"로 돌아가 두 번째 궁합을 보면 주소만 `#새프래그먼트`로 바뀌고 이 컴포넌트는
-  // 다시 마운트되지 않을 수 있다. 그러면 effect가 다시 돌지 않아 **"계산 중…"에서 멈춘 채
-  // 결과가 영영 나오지 않는다.** 프래그먼트는 훅으로 관찰할 수 없으므로(usePathname·
-  // useSearchParams 둘 다 # 뒤를 모른다) 직접 비교한다.
+  // **두 번째 궁합에서 "결과 정보를 읽을 수 없습니다"가 뜨던 원인이 여기였다.**
+  //
+  // 예전에는 마운트할 때 `window.location.hash`를 딱 한 번 읽었다. 그런데 결과 화면에서
+  // "다시 계산하기"로 돌아가 다시 계산하면, 이번에는 `/compatibility/result`가 Next의 라우터
+  // 캐시에 이미 있어 서버를 다녀오지 않는다. 그러면 전환이 거의 한 틱에 끝나면서 **주소의
+  // 해시가 반영되기 전에 이 컴포넌트가 마운트되어** 빈 문자열을 읽는다. 빈 값은 곧
+  // MISSING_INPUT이고, 그게 그 메시지다. 첫 번째에는 RSC를 받아 오느라 시간이 걸려 그 사이
+  // 주소가 갱신되므로 멀쩡히 동작한다.
+  //
+  // 그래서 **비어 있으면 곧바로 실패로 단정하지 않고 잠깐 기다렸다 다시 본다.** 정말로 해시
+  // 없이 들어온 경우(주소를 직접 친 경우)에만 마지막에 빈 값을 확정해 오류를 보여 준다.
   const [resolvedFragment, setResolvedFragment] = useState<string | null>(null);
 
-  // 렌더가 일어나지 않는 경로도 있다 — 같은 경로로 해시만 바뀌면 리렌더 없이 주소만 바뀐다.
-  // 그때는 이벤트로 잡는다. pushState는 hashchange를 발생시키지 않으므로 popstate도 함께 듣고,
-  // 뒤로 가기로 되살아난 페이지(bfcache)까지 덮도록 pageshow도 듣는다.
   useEffect(() => {
-    const sync = () => {
+    let stopped = false;
+
+    // commitEmpty=false면 빈 해시는 아직 "결론"으로 삼지 않는다.
+    const sync = (commitEmpty: boolean) => {
       const current = window.location.hash.slice(1);
-      setResolvedFragment((previous) => (previous === current ? previous : current));
+      if (!current && !commitEmpty) return false;
+      setResolvedFragment((previous) =>
+        previous === current ? previous : current,
+      );
+      return true;
     };
-    sync();
-    window.addEventListener("hashchange", sync);
-    window.addEventListener("popstate", sync);
-    window.addEventListener("pageshow", sync);
+
+    const timers: number[] = [];
+    if (!sync(false)) {
+      // 주소가 갱신되기를 기다린다. 마지막 한 번은 빈 값이라도 확정해 오류를 띄운다 —
+      // 그렇지 않으면 해시 없이 들어온 사람이 "계산 중…"에 영원히 갇힌다.
+      for (const delay of [0, 30, 100, 300]) {
+        timers.push(
+          window.setTimeout(() => {
+            if (!stopped) sync(false);
+          }, delay),
+        );
+      }
+      timers.push(
+        window.setTimeout(() => {
+          if (!stopped) sync(true);
+        }, 700),
+      );
+    }
+
+    // 리렌더 없이 주소만 바뀌는 경로도 있다. 이벤트가 왔다는 것은 주소가 확정됐다는 뜻이라
+    // 빈 값도 그대로 받는다. pushState는 hashchange를 발생시키지 않으므로 popstate도 듣고,
+    // 뒤로 가기로 되살아난 페이지(bfcache)까지 덮도록 pageshow도 듣는다.
+    const onNavigate = () => sync(true);
+    window.addEventListener("hashchange", onNavigate);
+    window.addEventListener("popstate", onNavigate);
+    window.addEventListener("pageshow", onNavigate);
+
     return () => {
-      window.removeEventListener("hashchange", sync);
-      window.removeEventListener("popstate", sync);
-      window.removeEventListener("pageshow", sync);
+      stopped = true;
+      timers.forEach((timer) => window.clearTimeout(timer));
+      window.removeEventListener("hashchange", onNavigate);
+      window.removeEventListener("popstate", onNavigate);
+      window.removeEventListener("pageshow", onNavigate);
     };
   }, []);
 

@@ -9,7 +9,13 @@ import {
   birthplaceLabel,
 } from "@/lib/birthplaces";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { encodeMatchInput, type MatchInput } from "@/lib/match-input";
+import {
+  encodeMatchInput,
+  matchInputSchema,
+  MAX_BIRTH_YEAR,
+  MIN_BIRTH_YEAR,
+  type MatchInput,
+} from "@/lib/match-input";
 
 type PersonDraft = {
   label: string;
@@ -237,8 +243,8 @@ function PersonFields({
           <NumberField
             label={t.year}
             value={value.year}
-            min={1900}
-            max={2050}
+            min={MIN_BIRTH_YEAR}
+            max={MAX_BIRTH_YEAR}
             onChange={(next) => set("year", next)}
           />
           <NumberField
@@ -324,7 +330,16 @@ function buildInput(a: PersonDraft, b: PersonDraft): MatchInput | null {
   const personA = toPersonInput(a);
   const personB = toPersonInput(b);
   if (!personA || !personB) return null;
-  return { a: personA, b: personB };
+
+  // **반드시 스키마로 확인한 뒤 넘긴다.** 아래 toPersonInput이 규칙을 따로 적어 두는 바람에
+  // 스키마와 어긋난 적이 있다 — 출생 연도 상한이 스키마에는 있고(올해까지) 폼에는 없어서,
+  // 미래 연도를 넣으면 폼은 통과시키고 결과 화면이 프래그먼트를 디코드하지 못해
+  // "결과 정보를 읽을 수 없습니다"라고 말했다. 입력한 사람 입장에서는 영문 모를 오류다.
+  //
+  // 여기서 확인하면 어긋남이 생겨도 **넘어가기 전에** 폼에서 잡힌다. 또 스키마의 기본값
+  // (gender의 null 등)이 적용된 값을 그대로 실으므로 인코딩·디코딩 결과가 같아진다.
+  const parsed = matchInputSchema.safeParse({ a: personA, b: personB });
+  return parsed.success ? parsed.data : null;
 }
 
 function toPersonInput(draft: PersonDraft) {
@@ -334,7 +349,8 @@ function toPersonInput(draft: PersonDraft) {
   if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) {
     return null;
   }
-  if (year < 1900 || month < 1 || month > 12 || day < 1 || day > 31) return null;
+  if (year < MIN_BIRTH_YEAR || year > MAX_BIRTH_YEAR) return null;
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
 
   const hour = draft.knowsTime ? Number(draft.hour) : null;
   const minute = draft.knowsTime ? Number(draft.minute || "0") : null;
