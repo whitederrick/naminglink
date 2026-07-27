@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { Webhook } from "@portone/server-sdk";
 
 import { getVerifiedPremiumPayment } from "@/lib/portone";
-import { markPremiumSessionPaid } from "@/lib/premium-session";
+import { fromPortOnePayment, markPremiumSessionPaid } from "@/lib/premium-session";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -112,7 +112,7 @@ export async function POST(request: Request) {
           .eq("order_id", order.id)
           .maybeSingle();
         if (!session) throw new Error("웹훅 결제에 해당하는 분석 세션이 없습니다.");
-        await markPremiumSessionPaid(String(session.id), String(order.id), payment);
+        await markPremiumSessionPaid(String(session.id), String(order.id), fromPortOnePayment(payment));
       }
     } else if (type === "Transaction.Cancelled" && paymentId) {
       const now = new Date().toISOString();

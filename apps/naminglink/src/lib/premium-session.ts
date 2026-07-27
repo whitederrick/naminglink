@@ -23,10 +23,39 @@ export async function getAuthorizedPremiumSession(sessionId: string, accessToken
   return { supabase, session };
 }
 
+/**
+ * 결제사에 무관한 결제 확정 정보.
+ *
+ * 국내는 토스페이먼츠, 해외는 포트원이라 결제사가 둘이다. 결제사별 응답 형태를 이 함수 안에서
+ * 갈라 두면 결제사가 늘 때마다 세션 처리까지 갈라진다. 호출부가 각자 여기 모양으로 맞춰 넘긴다.
+ */
+export type PaidRecord = {
+  provider: "PORTONE_V2" | "TOSS_PAYMENTS";
+  /** 주문의 provider_payment_id와 대조할 값. */
+  providerPaymentId: string;
+  amountPaid: number;
+  paidAt: string;
+  /** 결제사 쪽 거래 식별자(포트원 transactionId · 토스 paymentKey). */
+  reference?: string | null;
+  storeId?: string | null;
+};
+
+/** 포트원 응답을 공통 형태로 옮긴다. */
+export function fromPortOnePayment(payment: PaidPayment): PaidRecord {
+  return {
+    provider: "PORTONE_V2",
+    providerPaymentId: payment.id,
+    amountPaid: payment.amount.paid,
+    paidAt: payment.paidAt,
+    reference: payment.transactionId,
+    storeId: payment.storeId,
+  };
+}
+
 export async function markPremiumSessionPaid(
   sessionId: string,
   orderId: string,
-  payment: PaidPayment,
+  payment: PaidRecord,
 ) {
   const supabase = getSupabaseAdminClient();
   if (!supabase) throw new Error("리포트 저장소 연결이 설정되지 않았습니다.");
@@ -38,19 +67,19 @@ export async function markPremiumSessionPaid(
     .from("orders")
     .update({
       payment_status: "PAID",
-      payment_amount: payment.amount.paid,
-      provider_payment_id: payment.id,
+      payment_amount: payment.amountPaid,
+      provider_payment_id: payment.providerPaymentId,
       metadata: {
-        provider: "PORTONE_V2",
+        provider: payment.provider,
         sessionId,
-        transactionId: payment.transactionId,
-        storeId: payment.storeId,
+        transactionId: payment.reference ?? null,
+        storeId: payment.storeId ?? null,
         paidAt: payment.paidAt,
       },
       updated_at: now,
     })
     .eq("id", orderId)
-    .eq("provider_payment_id", payment.id)
+    .eq("provider_payment_id", payment.providerPaymentId)
     .select("id");
   if (orderError) throw orderError;
   if (!updatedOrders?.length) {

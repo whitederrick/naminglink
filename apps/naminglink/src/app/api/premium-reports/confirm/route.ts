@@ -3,7 +3,7 @@ import { z } from "zod";
 
 import { classifyPaymentError } from "@/lib/payment-errors";
 import { getVerifiedPremiumPayment } from "@/lib/portone";
-import { getAuthorizedPremiumSession, markPremiumSessionPaid } from "@/lib/premium-session";
+import { fromPortOnePayment, getAuthorizedPremiumSession, markPremiumSessionPaid } from "@/lib/premium-session";
 import { checkRateLimit, readJsonBodyLimited, RequestTooLargeError } from "@/lib/request-guard";
 
 export const runtime = "nodejs";
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
       Number(session.price_amount),
       String(session.currency),
     );
-    const paid = await markPremiumSessionPaid(String(session.id), String(session.order_id), payment);
+    const paid = await markPremiumSessionPaid(String(session.id), String(session.order_id), fromPortOnePayment(payment));
     return NextResponse.json({ ok: true, status: "PAID", ...paid });
   } catch (error) {
     console.error("Premium payment verification failed", error);

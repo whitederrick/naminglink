@@ -10,6 +10,7 @@ import {
   STAMP_REGIONS,
 } from "@/lib/goods-products";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
+import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import { getPortOnePublicConfig } from "@/lib/portone";
 import {
   checkRateLimit,
@@ -98,9 +99,11 @@ export async function POST(request: NextRequest) {
       { status: 400 },
     );
   }
-  const portone = getPortOnePublicConfig(product.channel);
+  // 국내는 토스페이먼츠, 해외는 포트원(페이팔). 토스 키가 없으면 국내도 포트원으로 떨어진다.
+  const useToss = parsed.data.region === "domestic" && tossConfigured;
+  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
   const supabase = getSupabaseAdminClient();
-  if (!portone || !process.env.PORTONE_API_SECRET) {
+  if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
     return NextResponse.json(
       { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },
       { status: 503 },
@@ -130,9 +133,11 @@ export async function POST(request: NextRequest) {
       payment_amount: setting.amount,
       payment_currency: setting.currency,
       fulfillment_status: "PENDING",
-      provider_payment_id: paymentId,
+      provider_payment_id: useToss ? orderId : paymentId,
       metadata: {
-        provider: "PORTONE_V2",
+        provider: useToss ? "TOSS_PAYMENTS" : "PORTONE_V2",
+        // 승인 뒤 돌아갈 자리. 도장은 신청 폼으로 되돌려 완료 안내를 보여 준다.
+        returnPath: "/stamp-order",
         productCode: product.code,
         stampName: parsed.data.stampName,
         stampModel: parsed.data.model,
@@ -150,9 +155,11 @@ export async function POST(request: NextRequest) {
       checkout: {
         orderId,
         paymentId,
-        storeId: portone.storeId,
-        channelKey: portone.channelKey,
-        payMethod: portone.payMethod,
+        provider: useToss ? ("TOSS" as const) : ("PORTONE" as const),
+        clientKey: useToss ? getTossClientKey() : null,
+        storeId: portone?.storeId ?? null,
+        channelKey: portone?.channelKey ?? null,
+        payMethod: portone?.payMethod ?? null,
         uiType: parsed.data.region === "global" ? "PAYPAL_SPB" : null,
         orderName: `${product.orderName} ${STAMP_MODELS[parsed.data.model].name} (${parsed.data.stampName})`,
         totalAmount: setting.amount,

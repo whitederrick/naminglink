@@ -4,6 +4,8 @@ import {
   paymentCspSources,
   paymentsConfigured,
   supabaseCspOrigin,
+  tossConfiguredForCsp,
+  tossCspSources,
 } from "./src/lib/payments-csp";
 
 // 전역 보안 헤더. **인연링크와 같은 기준으로 맞춘다.**
@@ -26,6 +28,12 @@ const pay = (kind: keyof typeof paymentCspSources) =>
     ? paymentCspSources[kind].map((source) => ` ${source}`).join("")
     : "";
 
+// 국내 결제(토스페이먼츠)도 같은 방식이다. 키가 없으면 열지 않는다.
+const toss = (kind: keyof typeof tossCspSources) =>
+  tossConfiguredForCsp
+    ? tossCspSources[kind].map((source) => ` ${source}`).join("")
+    : "";
+
 const supabaseConnect = supabaseCspOrigin ? ` ${supabaseCspOrigin}` : "";
 
 const securityHeaders = [
@@ -34,15 +42,15 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
-      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${pay("script")}`,
+      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${pay("script")}${toss("script")}`,
       "style-src 'self' 'unsafe-inline'",
-      `img-src 'self' data: blob:${pay("image")}`,
+      `img-src 'self' data: blob:${pay("image")}${toss("image")}`,
       "font-src 'self' data:",
-      `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${pay("connect")}`,
-      paymentsConfigured
-        ? `frame-src 'self'${pay("frame")}`
+      `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${pay("connect")}${toss("connect")}`,
+      paymentsConfigured || tossConfiguredForCsp
+        ? `frame-src 'self'${pay("frame")}${toss("frame")}`
         : "frame-src 'none'",
-      `form-action 'self'${pay("formAction")}`,
+      `form-action 'self'${pay("formAction")}${toss("formAction")}`,
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "object-src 'none'",

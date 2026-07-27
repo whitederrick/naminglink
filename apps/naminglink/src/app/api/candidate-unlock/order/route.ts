@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { getPortOnePublicConfig } from "@/lib/portone";
+import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import {
   CANDIDATE_UNLOCK_REGIONS,
   getCandidateUnlockProduct,
@@ -22,6 +23,8 @@ const schema = z.object({
   region: z.enum(CANDIDATE_UNLOCK_REGIONS),
   serviceType: z.string().trim().max(40).optional(),
   locale: z.string().trim().max(10).optional(),
+  /** 승인 뒤 돌아갈 우리 서비스 안의 경로. 열린 리디렉트를 막으려고 "/"로 시작하는 값만 받는다. */
+  returnPath: z.string().trim().max(300).regex(/^\/(?!\/)/).optional(),
   /**
    * 청약철회 제한 동의. 전자상거래법 제17조 제2항 단서는 고지와 **동의**를 함께 요구하고, 그
    * 조치가 없으면 사업자가 철회 제한을 주장할 수 없다. 화면의 체크박스만 믿지 않고 서버가 받아
@@ -67,9 +70,11 @@ export async function POST(request: NextRequest) {
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }
-  const portone = getPortOnePublicConfig(product.channel);
+  // 국내는 토스페이먼츠, 해외는 포트원(페이팔). 토스 키가 없으면 국내도 포트원으로 떨어진다.
+  const useToss = parsed.data.region === "domestic" && tossConfigured;
+  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
   const supabase = getSupabaseAdminClient();
-  if (!portone || !process.env.PORTONE_API_SECRET) {
+  if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
     return NextResponse.json(
       { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },
       { status: 503 },
@@ -93,10 +98,12 @@ export async function POST(request: NextRequest) {
       payment_amount: setting.amount,
       payment_currency: setting.currency,
       fulfillment_status: "PENDING",
-      provider_payment_id: paymentId,
+      provider_payment_id: useToss ? orderId : paymentId,
       metadata: {
-        provider: "PORTONE_V2",
+        provider: useToss ? "TOSS_PAYMENTS" : "PORTONE_V2",
         productCode: product.productCode,
+        // 승인 뒤 돌아갈 자리. 일괄 공개는 보던 결과 화면으로 되돌린다.
+        returnPath: parsed.data.returnPath ?? "/",
         serviceType: parsed.data.serviceType ?? null,
         locale: parsed.data.locale ?? null,
         // 동의 시각. 개인을 가리키는 값이 아니라 개인정보 최소화와 충돌하지 않는다.
@@ -108,11 +115,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       ok: true,
       checkout: {
+        provider: useToss ? ("TOSS" as const) : ("PORTONE" as const),
         orderId,
-        paymentId,
-        storeId: portone.storeId,
-        channelKey: portone.channelKey,
-        payMethod: portone.payMethod,
+        paymentId: useToss ? orderId : paymentId,
+        clientKey: useToss ? getTossClientKey() : null,
+        storeId: portone?.storeId ?? null,
+        channelKey: portone?.channelKey ?? null,
+        payMethod: portone?.payMethod ?? null,
         uiType: product.uiType,
         orderName: product.orderName,
         totalAmount: setting.amount,

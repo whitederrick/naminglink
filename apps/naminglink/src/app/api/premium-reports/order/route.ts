@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import { generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
 import { getPortOnePublicConfig } from "@/lib/portone";
+import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import {
   createPremiumReportAccess,
   getHanjaProduct,
@@ -129,10 +130,13 @@ export async function POST(request: NextRequest) {
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }
-  const portone = getPortOnePublicConfig();
+  // 한자 상세는 국내 상품이라 토스페이먼츠로 간다. 키가 없으면 예전처럼 포트원으로 떨어진다 —
+  // 토스 심사가 끝나기 전에도 결제 경로가 끊기지 않게 하려는 것이다.
+  const useToss = tossConfigured;
+  const portone = useToss ? null : getPortOnePublicConfig();
   const supabase = getSupabaseAdminClient();
-  if (!portone || !process.env.PORTONE_API_SECRET) {
-    return NextResponse.json({ ok: false, error: "포트원 결제 환경변수가 설정되지 않았습니다." }, { status: 503 });
+  if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
+    return NextResponse.json({ ok: false, error: "결제 환경변수가 설정되지 않았습니다." }, { status: 503 });
   }
   if (!supabase) {
     return NextResponse.json({ ok: false, error: "주문 저장소가 설정되지 않았습니다." }, { status: 503 });
@@ -163,11 +167,13 @@ export async function POST(request: NextRequest) {
       payment_status: "UNPAID",
       payment_amount: setting.amount,
       fulfillment_status: "PENDING",
-      provider_payment_id: paymentId,
+      provider_payment_id: useToss ? orderId : paymentId,
       metadata: {
-        provider: "PORTONE_V2",
+        provider: useToss ? "TOSS_PAYMENTS" : "PORTONE_V2",
         sessionId,
         productCode: product.code,
+        // 승인 뒤 돌아갈 자리. 상품마다 결제 후 보여 줄 화면이 달라 주문에 담아 둔다.
+        returnPath: "/hanja-meaning/result",
         // 동의 시각. 개인을 가리키는 값이 아니라 개인정보 최소화와 충돌하지 않는다.
         withdrawalConsentAt: new Date().toISOString(),
       },
@@ -197,13 +203,15 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       ok: true,
       checkout: {
+        provider: useToss ? ("TOSS" as const) : ("PORTONE" as const),
         orderId,
         sessionId,
-        paymentId,
+        paymentId: useToss ? orderId : paymentId,
         accessToken: access.token,
-        storeId: portone.storeId,
-        channelKey: portone.channelKey,
-        payMethod: portone.payMethod,
+        clientKey: useToss ? getTossClientKey() : null,
+        storeId: portone?.storeId ?? null,
+        channelKey: portone?.channelKey ?? null,
+        payMethod: portone?.payMethod ?? null,
         productCode: product.code,
         candidateLimit: product.candidateLimit,
         includesSaju: product.includesSaju,
