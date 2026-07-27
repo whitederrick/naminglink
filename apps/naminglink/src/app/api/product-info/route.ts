@@ -12,8 +12,13 @@ const ALLOWED = new Set([
   "NAME_ART_PACK",
   "CANDIDATE_UNLOCK_KRW",
   "CANDIDATE_UNLOCK_USD",
-  "STAMP_KRW",
-  "STAMP_USD",
+  // 도장은 모델마다 값이 다르다(2026-07-27). 옛 단일 가격 코드는 꺼져 있어 조회하면 실패한다.
+  "STAMP_ROUND_WOOD_KRW",
+  "STAMP_SQUARE_WOOD_KRW",
+  "STAMP_EBONY_KRW",
+  "STAMP_ROUND_WOOD_USD",
+  "STAMP_SQUARE_WOOD_USD",
+  "STAMP_EBONY_USD",
 ]);
 
 export async function GET(request: NextRequest) {

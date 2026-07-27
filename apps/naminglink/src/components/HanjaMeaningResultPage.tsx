@@ -165,6 +165,11 @@ export function HanjaMeaningResultPage({
                     ? stored.inputFactors.familyNameHanja.trim()
                     : undefined
                 }
+                familyNameHangul={
+                  typeof stored.inputFactors?.familyName === "string"
+                    ? stored.inputFactors.familyName.trim()
+                    : undefined
+                }
               />
             ) : null}
           </div>

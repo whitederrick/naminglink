@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ShoppingBag } from "lucide-react";
 import type { ServiceConfig, Locale } from "@/lib/services";
 import { getResultCopy } from "@/lib/i18n-result";
@@ -52,6 +52,7 @@ export function ResultAddOnServices({
   stampNameOptions,
   hanjaNameOptions,
   familyNameHanja,
+  familyNameHangul,
 }: {
   service: ServiceConfig;
   locale?: string;
@@ -64,8 +65,10 @@ export function ResultAddOnServices({
    * 않고 이미 분석된 후보에서 고르게 한다.
    */
   hanjaNameOptions?: string[];
-  /** 입력 화면에서 받은 성의 한자. 없으면 여기서 한 글자 입력받는다. */
+  /** 입력 화면에서 받은 성의 한자. 없으면 여기서 고르거나 직접 넣는다. */
   familyNameHanja?: string;
+  /** 성의 한글. 이걸로 성 한자 후보를 조회한다. */
+  familyNameHangul?: string;
 }) {
   const options = stampNameOptions?.filter((name) => name.length > 0) ?? [];
   const [selectedName, setSelectedName] = useState(options[0] ?? "");
@@ -74,6 +77,28 @@ export function ResultAddOnServices({
   const hanjaOptions = hanjaNameOptions?.filter((name) => name.length > 0) ?? [];
   const [selectedHanja, setSelectedHanja] = useState(hanjaOptions[0] ?? "");
   const [familyHanja, setFamilyHanja] = useState(familyNameHanja ?? "");
+  // 성 한자 후보. **성씨는 인명용한자 제한을 받지 않으므로 목록에 없을 수 있다.** 그래서 후보를
+  // 보여 주되 직접 입력하는 칸을 함께 둔다 — 둘 중 하나만 두면 쓰지 못하는 사람이 생긴다.
+  const [familyOptions, setFamilyOptions] = useState<
+    Array<{ hanja: string; meaning: string }>
+  >([]);
+
+  useEffect(() => {
+    const syllable = (familyNameHangul ?? "").trim();
+    if (hanjaOptions.length === 0 || !/^[가-힣]$/.test(syllable)) return;
+    let cancelled = false;
+    void fetch(`/api/hanja/surname?syllable=${encodeURIComponent(syllable)}`)
+      .then((response) => response.json())
+      .then((data) => {
+        if (!cancelled && Array.isArray(data?.options)) setFamilyOptions(data.options);
+      })
+      .catch(() => {
+        // 후보를 못 받아도 직접 입력으로 진행할 수 있다.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [familyNameHangul, hanjaOptions.length]);
   // 서버 검증과 같은 규칙(한글 또는 한자 1~8자, 공백 불가)을 화면에서도 지킨다.
   const composedHanja = `${familyHanja}${selectedHanja}`.replace(/\s/g, "");
   const hanjaValid = /^[가-힣㐀-䶿一-鿿]{1,8}$/u.test(composedHanja);
@@ -148,6 +173,31 @@ export function ResultAddOnServices({
                   ))}
                 </div>
               </div>
+              {familyOptions.length > 0 ? (
+                <div className="mt-2">
+                  <p className="text-xs text-muted">
+                    성 한자 후보 (직접 입력해도 됩니다)
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {familyOptions.map((option) => (
+                      <button
+                        key={option.hanja}
+                        type="button"
+                        onClick={() => setFamilyHanja(option.hanja)}
+                        title={option.meaning}
+                        className={`rounded border px-2 py-1 text-sm transition ${
+                          familyHanja === option.hanja
+                            ? "border-brand-teal bg-surface-strong text-brand-teal"
+                            : "border-line bg-background hover:border-brand-teal/50"
+                        }`}
+                      >
+                        {option.hanja}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+
               <p className="mt-2 text-xs text-muted">
                 새길 문구{" "}
                 <span className="font-semibold text-foreground">
