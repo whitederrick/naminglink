@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
-import { AnalyzingOverlay } from "@/components/AnalyzingOverlay";
+import { AdRewardGate } from "@/components/AdRewardGate";
 import { adSlotFor } from "@/lib/ads";
 import {
   scoreBand,
@@ -16,20 +16,6 @@ import {
 } from "@/lib/engines";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
-
-/**
- * 계산 중 팝업을 최소한 이만큼은 띄운다.
- *
- * 궁합 계산은 규칙 기반이라 실제로는 0.1초면 끝난다. 광고를 그 안에 띄우려면 화면이 잠깐이라도
- * 머물러야 하므로 결과를 붙잡아 둔다. 이용자를 기다리게 하는 값이니 필요 이상으로 늘리지 말 것 —
- * 광고 한 번 뜨고 문구 두어 개 읽히는 정도가 기준이다.
- *
- * **광고가 꺼져 있으면 붙잡지 않는다.** 지금은 퍼블리셔 ID가 없어 팝업에 광고가 뜨지 않는데,
- * 그 상태에서 6초를 기다리게 하면 얻는 것 없이 느리기만 하다. 팝업 자체는 그대로 보이도록
- * 짧게만 둔다.
- */
-const ANALYZING_MS_WITH_AD = 6000;
-const ANALYZING_MS_WITHOUT_AD = 1200;
 
 // 결과에는 **어느 프래그먼트로 계산한 것인지**를 함께 담는다. 주소의 프래그먼트가 바뀌었는데
 // 상태가 아직 이전 것이면 그건 낡은 화면이므로 "계산 중"으로 보여야 한다. effect 안에서
@@ -54,10 +40,12 @@ export function MatchResultView({
   const [state, setState] = useState<State>({ status: "loading" });
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
-  // 빌드 시점에 정해지는 값이라 서버·클라이언트가 같다(하이드레이션 문제 없음).
-  const analyzingMs = adSlotFor("analyzing")
-    ? ANALYZING_MS_WITH_AD
-    : ANALYZING_MS_WITHOUT_AD;
+
+  // 광고 슬롯이 설정돼 있을 때만 "광고 보고 결과 보기"를 거친다. 지금은 퍼블리셔 ID가 없어
+  // 광고가 뜨지 않는데, 그 상태에서 게이트만 세우면 아무것도 보여 주지 않고 한 번 더 누르게
+  // 하는 셈이다. 빌드 시점에 정해지는 값이라 서버·클라이언트가 같다(하이드레이션 문제 없음).
+  const gateRequired = Boolean(adSlotFor("analyzing"));
+  const [rewarded, setRewarded] = useState(false);
 
   // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다. null이면 아직 못 읽은 것이다.
   //
@@ -160,18 +148,8 @@ export function MatchResultView({
       return { outcome: (await response.json()) as MatchOutcome, input };
     }
 
-    const startedAt = Date.now();
-
     resolve()
-      .then(async ({ outcome, input }) => {
-        // 계산은 규칙 기반이라 0.1초면 끝난다. 그대로 보여 주면 계산 중 팝업이 깜빡이기만
-        // 하고 광고는 뜰 새도 없다. 최소 시간만큼 붙잡아 둔다.
-        //
-        // 실패는 붙잡지 않는다 — 오류를 보여 주려고 기다리게 할 이유가 없다.
-        const remaining = analyzingMs - (Date.now() - startedAt);
-        if (remaining > 0) {
-          await new Promise((resolve) => window.setTimeout(resolve, remaining));
-        }
+      .then(({ outcome, input }) => {
         if (!cancelled) setState({ status: "ready", outcome, input, fragment });
       })
       .catch((cause: Error) => {
@@ -194,7 +172,7 @@ export function MatchResultView({
     return () => {
       cancelled = true;
     };
-  }, [resolvedFragment, dictionary, t.missingInput, analyzingMs]);
+  }, [resolvedFragment, dictionary, t.missingInput]);
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {
@@ -207,11 +185,7 @@ export function MatchResultView({
   // 요청했으면) 계산 중으로 본다.
   if (state.status === "loading" || state.fragment !== resolvedFragment) {
     return (
-      <AnalyzingOverlay
-        dictionary={dictionary}
-        locale={locale}
-        durationMs={analyzingMs}
-      />
+      <p className="mt-16 text-center text-muted">{dictionary.analyzing.title}</p>
     );
   }
 
@@ -228,6 +202,19 @@ export function MatchResultView({
           {t.recalculate}
         </Link>
       </div>
+    );
+  }
+
+  // 결과는 이미 손에 있지만, 광고를 켠 상태에서는 이용자가 "광고 보고 결과 보기"를 누르기
+  // 전까지 열지 않는다. 오류 화면에는 게이트를 세우지 않는다 — 보여 줄 것이 없는데 광고를
+  // 보게 하는 것은 정책 위반이자 무례한 일이다.
+  if (gateRequired && !rewarded) {
+    return (
+      <AdRewardGate
+        dictionary={dictionary}
+        locale={locale}
+        onReward={() => setRewarded(true)}
+      />
     );
   }
 

@@ -161,11 +161,19 @@ export type Dictionary = {
    * ("추천", "관련 글" 같은 표현은 정책 위반이다).
    */
   ads: { label: string };
-  /** 계산 중 띄우는 팝업. 광고 아래에서 문구가 하나씩 바뀐다. */
   analyzing: {
+    /** 계산이 도는 잠깐 동안(0.1초 남짓) 보이는 문구. */
     title: string;
-    /** 궁합에 관한 문장들. 순서를 섞어 하나씩 보여 준다. */
+    /** 궁합에 관한 문장들. 광고를 보는 동안 하나씩 바뀐다. */
     quotes: string[];
+    /** 결과는 준비됐고 광고 시청만 남았을 때 보여 주는 안내. */
+    gateTitle: string;
+    gateBody: string;
+    /** 이용자가 직접 누르는 버튼. 누르지 않으면 광고는 뜨지 않는다. */
+    watchButton: string;
+    watching: string;
+    /** "{seconds}초 후 결과가 열립니다" */
+    remaining: string;
   };
   footer: {
     privacy: string;
@@ -393,6 +401,12 @@ const ko: Dictionary = {
       "점수보다 중요한 것은 그 점수를 어떻게 읽는가입니다.",
       "두 사람의 계절이 다르면, 서로의 계절을 알려 주면 됩니다.",
     ],
+    gateTitle: "두 사람의 궁합이 준비되었습니다",
+    gateBody:
+      "짧은 광고를 보시면 결과가 열립니다. 광고 수익으로 이 서비스를 무료로 운영합니다.",
+    watchButton: "광고 보고 결과 보기",
+    watching: "광고를 보는 중입니다",
+    remaining: "{seconds}초 후 결과가 열립니다",
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -705,6 +719,12 @@ const en: Dictionary = {
       "What matters more than the score is how you read it.",
       "If your seasons differ, tell each other what your season is like.",
     ],
+    gateTitle: "Your result is ready",
+    gateBody:
+      "Watch a short ad to open it. Ad revenue is what keeps this service free.",
+    watchButton: "Watch an ad to see the result",
+    watching: "Watching the ad",
+    remaining: "Your result opens in {seconds}s",
   },
   footer: {
     privacy: "Privacy Policy",
