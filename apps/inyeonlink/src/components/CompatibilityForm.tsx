@@ -223,14 +223,13 @@ function PersonFields({
             </option>
           ))}
         </select>
-        <span className="break-keep-all mt-1 block text-xs text-muted">
+        {/* 안내 문구에 줄바꿈이 들어 있다. pre-line이 없으면 공백으로 접힌다. */}
+        <span className="break-keep-all mt-1 block whitespace-pre-line text-xs text-muted">
           {t.birthplaceHint}
         </span>
       </label>
 
-      {/* 달력과 생년월일은 한 덩어리로 읽힌다 — 양력/음력을 고르고 바로 옆에 날짜를 넣는다. */}
-      <div className="mt-4 grid gap-3 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-start sm:gap-4">
-      <div>
+      <div className="mt-4">
         <span className="text-sm font-medium">{t.calendar}</span>
         <div className="mt-1 flex gap-2">
           {(["solar", "lunar"] as const).map((type) => (
@@ -261,7 +260,7 @@ function PersonFields({
         ) : null}
       </div>
 
-      <div>
+      <div className="mt-4">
         <span className="text-sm font-medium">{t.birthDate}</span>
         <div className="mt-1 grid grid-cols-3 gap-2">
           <NumberField
@@ -289,7 +288,6 @@ function PersonFields({
             onChange={(next) => set("day", next)}
           />
         </div>
-      </div>
       </div>
 
       <div className="mt-4">
