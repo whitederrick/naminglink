@@ -287,7 +287,94 @@ const orderTypeLabels: Record<string, string> = {
 const orderAmount = (amount: number, currency?: string | null) =>
   currency === "USD" ? `US$${(amount / 100).toFixed(2)}` : `${number.format(amount)}원`;
 
-function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body: Record<string, string>) => void }) {
+/** 배송 정보 칸. 누르기 전에는 값이 없고, 누르면 그때 불러온다. */
+function ShippingCell({
+  has,
+  loading,
+  value,
+  onReveal,
+}: {
+  has: boolean;
+  loading: boolean;
+  value: ShippingDetail | string | undefined;
+  onReveal: () => void;
+}) {
+  if (!has) return <span className="text-muted">해당 없음</span>;
+  if (loading) return <span className="text-muted">불러오는 중…</span>;
+
+  if (typeof value === "string") {
+    return <span className="text-brand-rose">{value}</span>;
+  }
+
+  if (!value) {
+    return (
+      <button
+        type="button"
+        onClick={onReveal}
+        className="rounded border border-line px-2 py-1 text-xs font-semibold hover:border-brand-teal hover:text-brand-teal"
+      >
+        배송정보 보기
+      </button>
+    );
+  }
+
+  const lines: Array<[string, string | null]> = [
+    ["받는 분", value.recipient],
+    ["연락처", value.phone],
+    ["주소", value.country ? `[${value.country}] ${value.address ?? ""}`.trim() : value.address],
+    ["이메일", value.email],
+    ["새길 문구", value.stampName],
+    ["모델", value.stampModel],
+    ["요청사항", value.note],
+  ];
+
+  return (
+    <div className="grid min-w-56 gap-0.5 text-xs leading-5">
+      {lines
+        .filter(([, text]) => Boolean(text))
+        .map(([label, text]) => (
+          <div key={label} className="flex gap-1.5">
+            <span className="shrink-0 text-muted">{label}</span>
+            <span className="font-medium [overflow-wrap:anywhere]">{text}</span>
+          </div>
+        ))}
+    </div>
+  );
+}
+
+type ShippingDetail = {
+  recipient: string | null;
+  email: string | null;
+  phone: string | null;
+  country: string | null;
+  address: string | null;
+  note: string | null;
+  stampName: string | null;
+  stampModel: string | null;
+};
+
+function OrdersView({
+  orders,
+  onAction,
+  onLoadShipping,
+}: {
+  orders: OrderRow[];
+  onAction: (body: Record<string, string>) => void;
+  onLoadShipping: (orderId: string) => Promise<ShippingDetail | string>;
+}) {
+  // 배송 정보는 목록에 실려 오지 않는다. 눌렀을 때만 주문 하나씩 불러오고, 그 열람은 서버에
+  // 기록으로 남는다. 목록 한 번 열었다고 전 주문의 주소·연락처가 브라우저로 내려오면 안 된다.
+  const [shipping, setShipping] = useState<Record<string, ShippingDetail | string>>({});
+  const [loadingId, setLoadingId] = useState<string | null>(null);
+
+  async function reveal(orderId: string) {
+    if (shipping[orderId] || loadingId) return;
+    setLoadingId(orderId);
+    const result = await onLoadShipping(orderId);
+    setShipping((current) => ({ ...current, [orderId]: result }));
+    setLoadingId(null);
+  }
+
   const [search, setSearch] = useState("");
   const [payment, setPayment] = useState("all");
   const [fulfillment, setFulfillment] = useState("all");
@@ -360,7 +447,13 @@ function OrdersView({ orders, onAction }: { orders: OrderRow[]; onAction: (body:
               <option key={value} value={value}>{label}</option>
             ))}
           </select>,
-          order.has_shipping_address ? "보유" : "해당 없음",
+          <ShippingCell
+            key="shipping"
+            has={Boolean(order.has_shipping_address)}
+            loading={loadingId === String(order.id)}
+            value={shipping[String(order.id)]}
+            onReveal={() => void reveal(String(order.id))}
+          />,
         ])}
       />
       <Pagination page={paged.page} totalPages={paged.totalPages} total={paged.total} onChange={paged.setPage} />
@@ -687,6 +780,25 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
   const showRange = !["users", "orders"].includes(view);
 
+  /** 주문 하나의 배송 정보를 불러온다. 실패하면 칸에 그대로 보여 줄 문구를 돌려준다. */
+  async function loadShipping(orderId: string): Promise<ShippingDetail | string> {
+    const supabase = getSupabaseBrowserClient();
+    const { data } = (await supabase?.auth.getSession()) ?? { data: { session: null } };
+    if (!data.session) {
+      router.replace(`${basePath}/login`);
+      return "로그인이 필요합니다.";
+    }
+    const response = await fetch(`/api/admin/orders/shipping?orderId=${orderId}`, {
+      headers: { Authorization: `Bearer ${data.session.access_token}` },
+      cache: "no-store",
+    });
+    const result = await response.json().catch(() => null);
+    if (!response.ok || !result?.ok) {
+      return result?.error ?? "배송 정보를 불러오지 못했습니다.";
+    }
+    return result.shipping as ShippingDetail;
+  }
+
   async function runAction(body: Record<string, string>) {
     const supabase = getSupabaseBrowserClient();
     const { data } = (await supabase?.auth.getSession()) ?? { data: { session: null } };
@@ -709,7 +821,15 @@ export function AdminOperationsConsole({ view }: { view: View }) {
 
   const content = (() => {
     if (view === "users") return <UsersView users={(payload?.users ?? []) as UserRow[]} onAction={(body) => void runAction(body)} />;
-    if (view === "orders") return <OrdersView orders={(payload?.orders ?? []) as OrderRow[]} onAction={(body) => void runAction(body)} />;
+    if (view === "orders") {
+      return (
+        <OrdersView
+          orders={(payload?.orders ?? []) as OrderRow[]}
+          onAction={(body) => void runAction(body)}
+          onLoadShipping={loadShipping}
+        />
+      );
+    }
     if (view === "ai")
       return (
         <AiUsageView
