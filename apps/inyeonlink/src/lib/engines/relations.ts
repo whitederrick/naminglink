@@ -81,6 +81,68 @@ export function mutualRelation(a: Prepared, b: Prepared): MutualRelation {
   return { aSeesB, bSeesA, shape: "TENSION", leadIndex: 0 };
 }
 
+/**
+ * 두 일간이 맺는 짝의 종류.
+ *
+ * 예전에는 일간 관계를 오행 셋(상생·같음·상극)으로만 봤다. 그러면 **음양이 사라진다** — 甲(양목)과
+ * 乙(음목)이 甲과 甲처럼 똑같은 "같음"이 되고, 상극은 방향도 음양도 없이 한 점수로 뭉개졌다.
+ * 배우자성은 이미 십신으로 음양을 따지고 있었으므로 한 엔진 안에 기준이 둘이었다.
+ *
+ * 십신으로 통일하면 짝은 **여섯 가지뿐이다.** A가 B를 무엇으로 보는지가 정해지면 B가 A를 보는
+ * 자리도 따라서 정해지기 때문이다(생하면 상대는 인성, 극하면 상대는 관성).
+ *
+ *   비견 ↔ 비견     같은 음양   대등하나 서로 밀어 주지는 않는다
+ *   겁재 ↔ 겁재     다른 음양   끌리지만 같은 자리를 다툰다
+ *   식신 ↔ 편인     같은 음양   효신탈식(梟神奪食) — 내주는 기운을 상대가 거둬 가 흐름이 막힌다
+ *   상관 ↔ 정인     다른 음양   상관패인(傷官佩印) — 격한 기운을 상대가 감싸 준다
+ *   편재 ↔ 편관     같은 음양   무정(無情) — 자극은 크지만 부담도 크다
+ *   정재 ↔ 정관     다른 음양   유정(有情) — 전통이 부부의 자리로 보는 짝
+ *
+ * 음양이 어긋난 쪽(정)이 유정하고 같은 쪽(편)이 무정하다는 것이 십신의 정·편을 가르는 원리
+ * 그대로다. 이 표는 A→B 십신 하나로 정해지고 B→A로 뒤집어도 같은 값이 나오므로(식신↔편인이
+ * 같은 칸) **총점의 대칭성이 구조적으로 보장된다.**
+ */
+export type DayMasterBond =
+  | "PEER_EVEN" // 비견
+  | "PEER_RIVAL" // 겁재
+  | "FLOW_BLOCKED" // 식신-편인
+  | "FLOW_GUARDED" // 상관-정인
+  | "CLASH_HARSH" // 편재-편관
+  | "CLASH_BONDED"; // 정재-정관
+
+const BOND_OF_GOD: Record<TenGod, DayMasterBond> = {
+  BIGYEON: "PEER_EVEN",
+  GEOPJAE: "PEER_RIVAL",
+  SIKSIN: "FLOW_BLOCKED",
+  PYEONIN: "FLOW_BLOCKED",
+  SANGGWAN: "FLOW_GUARDED",
+  JEONGIN: "FLOW_GUARDED",
+  PYEONJAE: "CLASH_HARSH",
+  PYEONGWAN: "CLASH_HARSH",
+  JEONGJAE: "CLASH_BONDED",
+  JEONGGWAN: "CLASH_BONDED",
+};
+
+/**
+ * 짝별 점수.
+ *
+ * 폭은 예전 오행 규칙(58~88)을 그대로 두고 그 안에서 갈랐다. 규칙을 바꾼 목적이 점수를 올리거나
+ * 내리는 것이 아니라 **뭉쳐 있던 것을 나누는 것**이기 때문이다.
+ */
+const BOND_SCORE: Record<DayMasterBond, number> = {
+  CLASH_BONDED: 88,
+  FLOW_GUARDED: 82,
+  PEER_EVEN: 78,
+  PEER_RIVAL: 70,
+  CLASH_HARSH: 66,
+  FLOW_BLOCKED: 62,
+};
+
+export function dayMasterBond(relation: MutualRelation) {
+  const bond = BOND_OF_GOD[relation.aSeesB];
+  return { bond, score: BOND_SCORE[bond] };
+}
+
 export type SpouseLevel = "MUTUAL" | "STRONG" | "PARTIAL" | "SLIGHT" | "NONE";
 
 const SPOUSE_LEVEL_SCORE: Record<SpouseLevel, number> = {

@@ -513,23 +513,33 @@ const ko: Dictionary = {
       "배우자 자리에 준하는 관계가 한쪽에 있습니다. 즉각적인 끌림보다 겪으면서 쌓이는 쪽입니다.",
     "spouseStar.NONE":
       "전통적으로 말하는 배우자 자리는 서로 아닙니다. 이 조합은 끌림보다 함께 지내며 만들어 가는 쪽에 가깝습니다.",
-    "dayMaster.GENERATE":
-      "{elementA}과 {elementB}이 서로를 살리는 상생 관계입니다. 한쪽의 기운이 다른 쪽으로 자연스럽게 흘러갑니다.",
-    "dayMaster.SAME":
-      "두 사람 모두 {elementA} 기운입니다. 서로를 빨리 이해하지만 같은 부분에서 함께 부족해지기 쉽습니다.",
-    "dayMaster.CONTROL":
-      "{elementA}과 {elementB}이 서로를 누르는 상극 관계입니다. 긴장이 있는 대신 서로를 다잡아 주는 힘도 있습니다.",
+    "dayMaster.CLASH_BONDED":
+      "{elementA}과 {elementB}이 서로를 누르되 음양이 어긋난 짝입니다. 전통에서 부부의 자리로 보는 배합으로, 긴장이 애정으로 옮겨 가는 쪽입니다.",
+    "dayMaster.CLASH_HARSH":
+      "{elementA}과 {elementB}이 서로를 누르는데 음양이 같습니다. 자극은 크지만 서로에게 지우는 부담도 그만큼 큽니다.",
+    "dayMaster.FLOW_GUARDED":
+      "한쪽이 기운을 내주고 다른 쪽이 그것을 감싸는 짝입니다. 격한 기운이 상대에게서 다듬어지는 배합(상관패인)입니다.",
+    "dayMaster.FLOW_BLOCKED":
+      "한쪽이 기운을 내주는데 상대가 그것을 거둬 갑니다. 주는 쪽이 지치기 쉬운 배합(효신탈식)이라, 무엇을 주고받는지 서로 말로 확인하는 편이 좋습니다.",
+    "dayMaster.PEER_EVEN":
+      "두 사람 모두 {elementA} 기운이고 음양까지 같습니다. 대등하고 편하지만 서로를 밀어 주는 힘은 약합니다.",
+    "dayMaster.PEER_RIVAL":
+      "두 사람 모두 {elementA} 기운인데 음양이 다릅니다. 빠르게 끌리는 대신 같은 자리를 두고 다투기 쉽습니다.",
     "balance.HIGH":
       "둘을 합치면 다섯 기운이 고르게 채워집니다. 한쪽이 부족한 자리를 다른 쪽이 메웁니다.",
     "balance.MID": "기운이 대체로 고르지만 {scarce} 기운은 둘 다 얇은 편입니다.",
     "balance.LOW":
       "기운이 한쪽으로 몰려 있습니다. 특히 {scarce} 기운이 둘 다 부족합니다.",
     "dayBranch.SAMHAP": "일지가 삼합을 이룹니다. 배우자 자리에서 가장 잘 맞는 조합입니다.",
+    "dayBranch.BANHAP":
+      "일지가 반합입니다. 삼합의 중심 글자를 끼고 있어 배우자 자리에서 잘 어울리는 짝입니다.",
     "dayBranch.YUKHAP": "일지가 육합입니다. 서로 끌어당기는 짝입니다.",
     "dayBranch.SAME": "일지가 같습니다. 닮은 만큼 편하지만 새로움은 적습니다.",
     "dayBranch.NEUTRAL": "일지끼리 특별한 관계는 없습니다.",
     "dayBranch.CHUNG": "일지가 충입니다. 부딪히기 쉬운 자리라 대화의 방식이 중요합니다.",
     "zodiac.SAMHAP": "{animalA}띠와 {animalB}띠는 삼합입니다. 띠 궁합에서 가장 좋은 조합입니다.",
+    "zodiac.BANHAP":
+      "{animalA}띠와 {animalB}띠는 반합입니다. 삼합의 중심을 낀 조합이라 서로 잘 맞습니다.",
     "zodiac.YUKHAP": "{animalA}띠와 {animalB}띠는 육합입니다. 서로 잘 어울립니다.",
     "zodiac.SAME": "둘 다 {animalA}띠입니다. 성향이 닮았습니다.",
     "zodiac.NEUTRAL": "{animalA}띠와 {animalB}띠는 특별한 관계가 없습니다.",
@@ -848,12 +858,18 @@ const en: Dictionary = {
       "One of you sits adjacent to the spouse position. This accumulates through time together rather than arriving as immediate attraction.",
     "spouseStar.NONE":
       "Neither of you occupies what tradition calls the spouse position. This pairing is built through living alongside each other rather than through pull.",
-    "dayMaster.GENERATE":
-      "{elementA} and {elementB} nourish each other. Energy flows naturally from one to the other.",
-    "dayMaster.SAME":
-      "Both carry {elementA} energy. You understand each other quickly, but you also run short in the same places.",
-    "dayMaster.CONTROL":
-      "{elementA} and {elementB} restrain each other. There is friction, but also a steadying influence.",
+    "dayMaster.CLASH_BONDED":
+      "{elementA} and {elementB} restrain each other, but with opposite polarity. Tradition reads this as the spouse pairing — the friction tends to turn into attachment.",
+    "dayMaster.CLASH_HARSH":
+      "{elementA} and {elementB} restrain each other with the same polarity. The charge is strong, and so is the weight each places on the other.",
+    "dayMaster.FLOW_GUARDED":
+      "One of you gives energy out and the other holds it. The sharper impulse gets tempered by the other — what tradition calls a guarded pairing.",
+    "dayMaster.FLOW_BLOCKED":
+      "One of you gives energy out and the other draws it away. The giving side tires easily here, so it helps to say plainly what each of you is giving and taking.",
+    "dayMaster.PEER_EVEN":
+      "Both carry {elementA} energy with the same polarity. That makes things even and easy, but neither pushes the other forward.",
+    "dayMaster.PEER_RIVAL":
+      "Both carry {elementA} energy with opposite polarity. The pull is quick, but you compete for the same ground.",
     "balance.HIGH":
       "Together the five elements fill out evenly. What one lacks, the other supplies.",
     "balance.MID":
@@ -862,6 +878,8 @@ const en: Dictionary = {
       "The elements lean heavily one way. {scarce} in particular is scarce for both of you.",
     "dayBranch.SAMHAP":
       "The day branches form a triple harmony — the strongest pairing in the spouse position.",
+    "dayBranch.BANHAP":
+      "The day branches form a half harmony around the anchor of a triple. A well-suited pairing in the spouse position.",
     "dayBranch.YUKHAP": "The day branches form a six harmony. You draw each other in.",
     "dayBranch.SAME":
       "The day branches are identical. That makes things easy, but leaves little novelty.",
@@ -870,6 +888,8 @@ const en: Dictionary = {
       "The day branches clash. This position is prone to friction, so how you talk to each other matters.",
     "zodiac.SAMHAP":
       "The {animalA} and the {animalB} form a triple harmony — the best zodiac pairing.",
+    "zodiac.BANHAP":
+      "The {animalA} and the {animalB} form a half harmony around a triple's anchor, so you suit each other.",
     "zodiac.YUKHAP": "The {animalA} and the {animalB} form a six harmony. You suit each other well.",
     "zodiac.SAME": "You are both born in the year of the {animalA}, so your temperaments echo.",
     "zodiac.NEUTRAL": "The {animalA} and the {animalB} hold no particular relationship.",

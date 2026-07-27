@@ -2,47 +2,13 @@ import type { FiveElement } from "@naminglink/core/saju";
 
 import { BRANCH_RELATION_SCORE, branchRelation } from "./branches";
 import type { Prepared } from "./prepare";
-import { mutualRelation, spouseStar } from "./relations";
+import { dayMasterBond, mutualRelation, spouseStar } from "./relations";
 import { clampScore, type Factor, type MatchEngine } from "./types";
 
 const ELEMENTS: FiveElement[] = ["WOOD", "FIRE", "EARTH", "METAL", "WATER"];
 
-// 상생(相生): 木生火 火生土 土生金 金生水 水生木
-const GENERATES: Record<FiveElement, FiveElement> = {
-  WOOD: "FIRE",
-  FIRE: "EARTH",
-  EARTH: "METAL",
-  METAL: "WATER",
-  WATER: "WOOD",
-};
-
-// 상극(相剋): 木剋土 土剋水 水剋火 火剋金 金剋木
-const CONTROLS: Record<FiveElement, FiveElement> = {
-  WOOD: "EARTH",
-  EARTH: "WATER",
-  WATER: "FIRE",
-  FIRE: "METAL",
-  METAL: "WOOD",
-};
-
-export type ElementRelation = "GENERATE" | "SAME" | "CONTROL";
-
-export function elementRelation(
-  a: FiveElement,
-  b: FiveElement,
-): ElementRelation {
-  if (a === b) return "SAME";
-  if (GENERATES[a] === b || GENERATES[b] === a) return "GENERATE";
-  if (CONTROLS[a] === b || CONTROLS[b] === a) return "CONTROL";
-  // 오행 다섯 개에서 같음·상생·상극을 빼면 남는 관계가 없다.
-  return "SAME";
-}
-
-const ELEMENT_RELATION_SCORE: Record<ElementRelation, number> = {
-  GENERATE: 88,
-  SAME: 76,
-  CONTROL: 58,
-};
+// 상생·상극표는 십신 계산(@naminglink/core/saju/ten-gods)이 갖고 있다. 일간 관계를 십신으로
+// 옮기면서 여기서 따로 들고 있을 이유가 없어졌다 — 같은 표가 두 곳에 있으면 언젠가 어긋난다.
 
 /**
  * 두 사람의 오행 세력을 합쳤을 때 다섯 기운이 고르게 퍼지는가.
@@ -90,8 +56,6 @@ export const sajuEngine: MatchEngine<Prepared> = {
     const elementA = a.dayMaster.element;
     const elementB = b.dayMaster.element;
 
-    const relation = elementRelation(elementA, elementB);
-
     // 표면 글자 개수가 아니라 지장간·월령을 반영한 세력을 합친다. 같은 木이라도 봄에 난 木과
     // 가을에 난 木은 힘이 다르고, 지지가 품은 기운은 겉으로 드러나지 않는다.
     const combined = Object.fromEntries(
@@ -102,14 +66,15 @@ export const sajuEngine: MatchEngine<Prepared> = {
     ) as Record<FiveElement, number>;
 
     const dayBranch = branchRelation(a.dayBranch, b.dayBranch);
-    const relation2 = mutualRelation(a, b);
+    const relation = mutualRelation(a, b);
+    const bond = dayMasterBond(relation);
 
     const factors: Factor[] = [
       {
         key: "dayMasterRelation",
-        score: ELEMENT_RELATION_SCORE[relation],
+        score: bond.score,
         weight: SAJU_WEIGHTS.dayMasterRelation,
-        note: `dayMaster.${relation}`,
+        note: `dayMaster.${bond.bond}`,
         noteParams: { elementA, elementB },
       },
       {
@@ -133,7 +98,7 @@ export const sajuEngine: MatchEngine<Prepared> = {
 
     // 배우자성은 오행이 아니라 십신으로 본다. 같은 재성이라도 음양이 어긋난 정재라야
     // 배우자 자리이고, 편재는 활동·재물의 성격에 가깝다.
-    const spouse = spouseStar(relation2, a.person.gender, b.person.gender);
+    const spouse = spouseStar(relation, a.person.gender, b.person.gender);
     if (spouse) {
       factors.splice(1, 0, {
         key: "spouseStar",

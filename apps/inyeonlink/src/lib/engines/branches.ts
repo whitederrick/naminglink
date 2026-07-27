@@ -34,19 +34,29 @@ export const BRANCH_ANIMALS: Record<Branch, string> = {
 };
 
 export type BranchRelation =
-  | "SAMHAP" // 삼합(三合) — 가장 잘 맞는 조합
+  | "SAMHAP" // 삼합(三合) — 세 글자가 다 모여 국(局)을 이룬 것
+  | "BANHAP" // 반합(半合) — 왕지를 낀 두 글자
   | "YUKHAP" // 육합(六合) — 서로 끌어당기는 짝
   | "SAME" // 같은 지지
   | "CHUNG" // 충(沖) — 정면으로 부딪치는 짝
   | "NEUTRAL";
 
 // 삼합: 申子辰(수국) 巳酉丑(금국) 寅午戌(화국) 亥卯未(목국)
+//
+// **두 사람의 지지를 하나씩 맞대는 이 서비스에서는 세 글자가 모일 수 없다.** 그래서 여기서
+// 나오는 것은 언제나 반합이고, 반합은 다시 둘로 갈린다 — 국의 중심인 **왕지(旺支)**를 꼈는지
+// 아닌지다. 子·酉·午·卯가 왕지이고, 이것이 빠진 두 글자(申辰·巳丑·寅戌·亥未)는 전통적으로
+// 합력이 거의 없다고 본다. 예전에는 그룹에 둘 다 들어 있기만 하면 삼합 95점을 줬는데, 그러면
+// 申辰처럼 합이라 부르기 어려운 조합이 최고점을 받았다.
 const SAMHAP_GROUPS: Branch[][] = [
   ["申", "子", "辰"],
   ["巳", "酉", "丑"],
   ["寅", "午", "戌"],
   ["亥", "卯", "未"],
 ];
+
+/** 삼합 각 국의 왕지(旺支). 사왕지(四旺支)라고도 한다. */
+const SAMHAP_LEADERS = new Set<Branch>(["子", "酉", "午", "卯"]);
 
 // 육합: 子丑 寅亥 卯戌 辰酉 巳申 午未
 const YUKHAP_PAIRS: Array<[Branch, Branch]> = [
@@ -78,7 +88,8 @@ function hasPair(pairs: Array<[Branch, Branch]>, a: Branch, b: Branch) {
 export function branchRelation(a: Branch, b: Branch): BranchRelation {
   if (a === b) return "SAME";
   if (SAMHAP_GROUPS.some((group) => group.includes(a) && group.includes(b))) {
-    return "SAMHAP";
+    // 왕지를 낀 두 글자라야 반합으로 인정한다. 아니면 합으로 치지 않는다.
+    return SAMHAP_LEADERS.has(a) || SAMHAP_LEADERS.has(b) ? "BANHAP" : "NEUTRAL";
   }
   if (hasPair(YUKHAP_PAIRS, a, b)) return "YUKHAP";
   if (hasPair(CHUNG_PAIRS, a, b)) return "CHUNG";
@@ -91,10 +102,15 @@ export function branchRelation(a: Branch, b: Branch): BranchRelation {
  * 충(沖)에도 45점을 주는 것은 의도적이다. 전통 명리에서 충은 "끝"이 아니라 "부딪침"이고,
  * 0점에 가까운 점수를 주면 서비스가 관계를 단정하는 꼴이 된다. 최저 45 · 최고 95로 폭을
  * 두어 차이는 분명히 보이되 단정하지는 않는다.
+ *
+ * 반합(88)이 육합(90)보다 낮은 것은 두 글자만으로는 국을 이루지 못하기 때문이다. 세 글자가
+ * 다 모인 삼합(95)은 두 사람의 지지를 하나씩 맞대는 지금 구조에서는 나오지 않지만, 각자의
+ * 사주 안에서 국을 볼 때 쓰려고 남겨 둔다.
  */
 export const BRANCH_RELATION_SCORE: Record<BranchRelation, number> = {
   SAMHAP: 95,
   YUKHAP: 90,
+  BANHAP: 88,
   SAME: 72,
   NEUTRAL: 68,
   CHUNG: 45,

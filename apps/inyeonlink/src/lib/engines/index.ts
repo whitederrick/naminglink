@@ -27,8 +27,12 @@ export { BRANCH_ANIMALS } from "./branches";
  * v6: 점수 규칙은 v5와 같다. 다만 사주 엔진이 v2가 되면서(`@naminglink/core`) 출생지를
  *     넘기지 않은 경우에도 진태양시 경로를 타고, 자정 직후 출생은 진태양시 날짜로 일주를
  *     잡는다. 사주 원국이 달라지는 입력이 있으므로 총점도 달라질 수 있다.
+ * v7: 한 엔진 안에서 갈라져 있던 기준을 십신으로 통일한다. ① 일간 관계를 오행 셋(상생·같음·
+ *     상극)에서 십신 짝 여섯으로 교체 — 음양이 점수에 들어간다. ② 삼합을 두 글자만으로
+ *     인정하던 것을 왕지를 낀 반합으로 좁힌다(왕지 없는 두 글자는 합으로 치지 않는다).
+ *     항목 점수가 바뀌므로 총점이 달라진다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v6";
+export const ENGINE_VERSION = "inyeonlink-match-v7";
 
 /**
  * 엔진별 비중.
