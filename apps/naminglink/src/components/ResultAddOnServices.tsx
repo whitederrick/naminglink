@@ -6,7 +6,22 @@ import { ShoppingBag } from "lucide-react";
 import type { ServiceConfig, Locale } from "@/lib/services";
 import { getResultCopy } from "@/lib/i18n-result";
 
-// 한국어 대상 서비스(한자·한글→글로벌)는 서비스별 한국어 굿즈 문구를 유지한다.
+/**
+ * 굿즈를 권할 수 있는 흐름인가.
+ *
+ * 지금 파는 굿즈는 **이름 도장 하나뿐이고, 새기는 것은 한글·한자다.** 그래서 결과가 로마자
+ * 이름인 KOREAN_TO_GLOBAL(한국인이 글로벌 이름을 받는 흐름)에는 권할 물건이 없다. 예전에는
+ * "명함·키링·티셔츠"라고 적고 도장 신청으로 보냈는데, 만들지도 않는 물건을 늘어놓고 엉뚱한
+ * 상품으로 넘기는 자리였다.
+ *
+ * 나머지 둘은 결과가 한글·한자라 도장이 그대로 맞는다 — 한자 매칭(HANJA_MEANING_MATCH)과
+ * 외국인이 한국 이름을 받는 흐름(GLOBAL_TO_KOREAN)이다.
+ */
+function goodsAvailableFor(service: ServiceConfig) {
+  return service.serviceType !== "KOREAN_TO_GLOBAL";
+}
+
+// 한국어 대상 서비스는 서비스별 한국어 굿즈 문구를 유지한다.
 function koreanServiceCopy(service: ServiceConfig) {
   if (service.serviceType === "HANJA_MEANING_MATCH") {
     return {
@@ -16,18 +31,6 @@ function koreanServiceCopy(service: ServiceConfig) {
       goodsExamples: "도장 · 액자 · 키링 등",
       goodsBody:
         "선택한 한글·한자 이름을 도장, 액자, 키링 등에 적용해 제작을 신청할 수 있습니다.",
-      button: "굿즈 신청 준비 중",
-    };
-  }
-
-  if (service.serviceType === "KOREAN_TO_GLOBAL") {
-    return {
-      eyebrow: "결과를 더 활용해 보세요",
-      sectionTitle: "이름 굿즈",
-      goodsTitle: "글로벌 이름 굿즈",
-      goodsExamples: "명함 · 키링 · 티셔츠 등",
-      goodsBody:
-        "선택한 글로벌 이름을 명함, 키링, 티셔츠 등에 적용해 제작을 신청할 수 있습니다.",
       button: "굿즈 신청 준비 중",
     };
   }
@@ -55,6 +58,10 @@ export function ResultAddOnServices({
 }) {
   const options = stampNameOptions?.filter((name) => name.length > 0) ?? [];
   const [selectedName, setSelectedName] = useState(options[0] ?? "");
+  // 권할 굿즈가 없는 흐름에서는 자리를 아예 내지 않는다. 호출부마다 빼는 대신 여기서 거르는
+  // 것은 이 컴포넌트를 부르는 곳이 넷이라 한 곳만 놓쳐도 그대로 남기 때문이다.
+  const showGoods = goodsAvailableFor(service);
+
   // 외국인 대상 서비스는 결과 페이지 사전(i18n-result)의 굿즈 문구를 로케일별로 사용한다.
   const foreign = locale && locale !== "ko";
   const copy = foreign
@@ -70,6 +77,8 @@ export function ResultAddOnServices({
         };
       })()
     : koreanServiceCopy(service);
+
+  if (!showGoods) return null;
 
   return (
     <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
