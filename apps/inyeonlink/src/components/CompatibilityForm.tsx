@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
   BIRTHPLACES,
@@ -52,6 +52,18 @@ export function CompatibilityForm({
   const [personB, setPersonB] = useState<PersonDraft>(emptyPerson);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+
+  // 결과 화면으로 넘어간 뒤 **뒤로 가기**로 이 폼에 돌아오면 브라우저가 페이지를 통째로
+  // 되살리는 경우가 있다(bfcache). 그러면 자바스크립트 상태까지 그대로 복원되어 제출 버튼이
+  // "계산 중…"인 채 잠겨 있고, 다시 눌러도 아무 일도 일어나지 않는다.
+  //
+  // `pageshow`는 그 복원 시점에도 발생하므로 여기서 잠금을 푼다. 일반 로드에서도 한 번
+  // 발생하지만 이미 false라 영향이 없다.
+  useEffect(() => {
+    const unlock = () => setSubmitting(false);
+    window.addEventListener("pageshow", unlock);
+    return () => window.removeEventListener("pageshow", unlock);
+  }, []);
 
   function handleSubmit(event: React.FormEvent) {
     event.preventDefault();

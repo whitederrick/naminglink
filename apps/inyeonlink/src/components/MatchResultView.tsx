@@ -15,10 +15,18 @@ import {
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
 
+// 결과에는 **어느 프래그먼트로 계산한 것인지**를 함께 담는다. 주소의 프래그먼트가 바뀌었는데
+// 상태가 아직 이전 것이면 그건 낡은 화면이므로 "계산 중"으로 보여야 한다. effect 안에서
+// 동기로 상태를 되돌리는 대신 렌더에서 비교하는 방식이라 렌더가 연쇄로 돌지 않는다.
 type State =
   | { status: "loading" }
-  | { status: "error"; message: string }
-  | { status: "ready"; outcome: MatchOutcome; input: MatchInput };
+  | { status: "error"; message: string; fragment: string }
+  | {
+      status: "ready";
+      outcome: MatchOutcome;
+      input: MatchInput;
+      fragment: string;
+    };
 
 export function MatchResultView({
   dictionary,
@@ -31,7 +39,37 @@ export function MatchResultView({
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
 
+  // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다.
+  //
+  // 예전에는 마운트할 때 한 번만 `window.location.hash`를 읽었다. 그런데 결과 화면에서
+  // "다시 계산하기"로 돌아가 두 번째 궁합을 보면 주소만 `#새프래그먼트`로 바뀌고 이 컴포넌트는
+  // 다시 마운트되지 않을 수 있다. 그러면 effect가 다시 돌지 않아 **"계산 중…"에서 멈춘 채
+  // 결과가 영영 나오지 않는다.** 프래그먼트는 훅으로 관찰할 수 없으므로(usePathname·
+  // useSearchParams 둘 다 # 뒤를 모른다) 직접 비교한다.
+  const [resolvedFragment, setResolvedFragment] = useState<string | null>(null);
+
+  // 렌더가 일어나지 않는 경로도 있다 — 같은 경로로 해시만 바뀌면 리렌더 없이 주소만 바뀐다.
+  // 그때는 이벤트로 잡는다. pushState는 hashchange를 발생시키지 않으므로 popstate도 함께 듣고,
+  // 뒤로 가기로 되살아난 페이지(bfcache)까지 덮도록 pageshow도 듣는다.
   useEffect(() => {
+    const sync = () => {
+      const current = window.location.hash.slice(1);
+      setResolvedFragment((previous) => (previous === current ? previous : current));
+    };
+    sync();
+    window.addEventListener("hashchange", sync);
+    window.addEventListener("popstate", sync);
+    window.addEventListener("pageshow", sync);
+    return () => {
+      window.removeEventListener("hashchange", sync);
+      window.removeEventListener("popstate", sync);
+      window.removeEventListener("pageshow", sync);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (resolvedFragment === null) return;
+    const fragment = resolvedFragment;
     let cancelled = false;
 
     // 입력값은 프래그먼트에만 있다. 서버 컴포넌트는 프래그먼트를 볼 수 없으므로(브라우저가
@@ -40,10 +78,15 @@ export function MatchResultView({
     // 프래그먼트 해석 실패도 예외로 던져 한 갈래로 모은다. effect 안에서 setState를 동기로
     // 호출하면 렌더가 연쇄로 도는데, .catch는 마이크로태스크라 그 문제가 없다.
     async function resolve() {
-      const fragment = window.location.hash.slice(1);
-      const input = fragment
-        ? decodeMatchInput(decodeURIComponent(fragment))
-        : null;
+      // 프래그먼트에는 base64가 들어가지만, 사용자가 주소를 손대 잘못된 퍼센트 인코딩이
+      // 섞이면 decodeURIComponent가 던진다. 그것도 "읽을 수 없는 결과"로 같이 다룬다.
+      let decoded: string | null = null;
+      try {
+        decoded = fragment ? decodeURIComponent(fragment) : null;
+      } catch {
+        decoded = null;
+      }
+      const input = decoded ? decodeMatchInput(decoded) : null;
       if (!input) throw new Error("MISSING_INPUT");
 
       const response = await fetch("/api/match", {
@@ -60,11 +103,15 @@ export function MatchResultView({
 
     resolve()
       .then(({ outcome, input }) => {
-        if (!cancelled) setState({ status: "ready", outcome, input });
+        if (!cancelled) setState({ status: "ready", outcome, input, fragment });
       })
       .catch((cause: Error) => {
         if (cancelled) return;
-        setState({ status: "error", message: errorMessage(cause.message) });
+        setState({
+          status: "error",
+          message: errorMessage(cause.message),
+          fragment,
+        });
       });
 
     function errorMessage(code: string) {
@@ -78,7 +125,7 @@ export function MatchResultView({
     return () => {
       cancelled = true;
     };
-  }, [dictionary, t.missingInput]);
+  }, [resolvedFragment, dictionary, t.missingInput]);
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {
@@ -87,7 +134,9 @@ export function MatchResultView({
     });
   }, []);
 
-  if (state.status === "loading") {
+  // 아직 못 읽었거나, 읽어 둔 결과가 지금 주소의 프래그먼트와 다르면(= 두 번째 궁합을 방금
+  // 요청했으면) 계산 중으로 본다.
+  if (state.status === "loading" || state.fragment !== resolvedFragment) {
     return <p className="mt-16 text-center text-muted">{dictionary.form.submitting}</p>;
   }
 
