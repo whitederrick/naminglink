@@ -39,6 +39,7 @@ export type BranchRelation =
   | "YUKHAP" // 육합(六合) — 서로 끌어당기는 짝
   | "SAME" // 같은 지지
   | "CHUNG" // 충(沖) — 정면으로 부딪치는 짝
+  | "WONJIN" // 원진(怨嗔) — 미워하면서도 떨어지지 못하는 짝
   | "NEUTRAL";
 
 // 삼합: 申子辰(수국) 巳酉丑(금국) 寅午戌(화국) 亥卯未(목국)
@@ -56,7 +57,7 @@ const SAMHAP_GROUPS: Branch[][] = [
 ];
 
 /** 삼합 각 국의 왕지(旺支). 사왕지(四旺支)라고도 한다. */
-const SAMHAP_LEADERS = new Set<Branch>(["子", "酉", "午", "卯"]);
+export const SAMHAP_LEADERS = new Set<Branch>(["子", "酉", "午", "卯"]);
 
 // 육합: 子丑 寅亥 卯戌 辰酉 巳申 午未
 const YUKHAP_PAIRS: Array<[Branch, Branch]> = [
@@ -78,6 +79,24 @@ const CHUNG_PAIRS: Array<[Branch, Branch]> = [
   ["巳", "亥"],
 ];
 
+// 원진(怨嗔): 子未 丑午 寅酉 卯申 辰亥 巳戌
+//
+// 궁합에서 충 못지않게 자주 보는 자리인데 표에 없어서 지금까지 전부 NEUTRAL(68점)로 들어갔다.
+// 충이 정면으로 부딪쳐 크게 드러나는 것이라면 원진은 **미워하면서도 떨어지지 못하는** 은근한
+// 어긋남이라, 겉으로는 조용하지만 오래간다고 본다. 그래서 충(45)보다는 높고 무관계(68)보다는
+// 확실히 낮은 자리에 둔다.
+//
+// 여섯 쌍 어느 것도 충·육합·삼합 그룹과 겹치지 않는다(각 지지의 충·육합·원진 상대가 모두 다른
+// 글자다). 판정 순서를 어떻게 두어도 결과가 같지만, 읽는 사람을 위해 합 → 충 → 원진 순으로 둔다.
+const WONJIN_PAIRS: Array<[Branch, Branch]> = [
+  ["子", "未"],
+  ["丑", "午"],
+  ["寅", "酉"],
+  ["卯", "申"],
+  ["辰", "亥"],
+  ["巳", "戌"],
+];
+
 function hasPair(pairs: Array<[Branch, Branch]>, a: Branch, b: Branch) {
   return pairs.some(
     ([left, right]) =>
@@ -93,6 +112,7 @@ export function branchRelation(a: Branch, b: Branch): BranchRelation {
   }
   if (hasPair(YUKHAP_PAIRS, a, b)) return "YUKHAP";
   if (hasPair(CHUNG_PAIRS, a, b)) return "CHUNG";
+  if (hasPair(WONJIN_PAIRS, a, b)) return "WONJIN";
   return "NEUTRAL";
 }
 
@@ -113,6 +133,7 @@ export const BRANCH_RELATION_SCORE: Record<BranchRelation, number> = {
   BANHAP: 88,
   SAME: 72,
   NEUTRAL: 68,
+  WONJIN: 52,
   CHUNG: 45,
 };
 

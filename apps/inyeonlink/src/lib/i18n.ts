@@ -536,6 +536,8 @@ const ko: Dictionary = {
     "dayBranch.YUKHAP": "일지가 육합입니다. 서로 끌어당기는 짝입니다.",
     "dayBranch.SAME": "일지가 같습니다. 닮은 만큼 편하지만 새로움은 적습니다.",
     "dayBranch.NEUTRAL": "일지끼리 특별한 관계는 없습니다.",
+    "dayBranch.WONJIN":
+      "일지가 원진입니다. 크게 부딪치지는 않는데 이유를 대기 어려운 서운함이 쌓이기 쉬운 자리라, 넘어가지 말고 그때그때 말하는 편이 좋습니다.",
     "dayBranch.CHUNG": "일지가 충입니다. 부딪히기 쉬운 자리라 대화의 방식이 중요합니다.",
     "zodiac.SAMHAP": "{animalA}띠와 {animalB}띠는 삼합입니다. 띠 궁합에서 가장 좋은 조합입니다.",
     "zodiac.BANHAP":
@@ -543,6 +545,8 @@ const ko: Dictionary = {
     "zodiac.YUKHAP": "{animalA}띠와 {animalB}띠는 육합입니다. 서로 잘 어울립니다.",
     "zodiac.SAME": "둘 다 {animalA}띠입니다. 성향이 닮았습니다.",
     "zodiac.NEUTRAL": "{animalA}띠와 {animalB}띠는 특별한 관계가 없습니다.",
+    "zodiac.WONJIN":
+      "{animalA}띠와 {animalB}띠는 원진입니다. 크게 다투지는 않아도 은근한 어긋남이 오래가기 쉬운 조합으로 봅니다.",
     "zodiac.CHUNG": "{animalA}띠와 {animalB}띠는 충입니다. 서로 다른 만큼 배울 것도 많습니다.",
   },
   animals: {
@@ -884,6 +888,8 @@ const en: Dictionary = {
     "dayBranch.SAME":
       "The day branches are identical. That makes things easy, but leaves little novelty.",
     "dayBranch.NEUTRAL": "The day branches hold no particular relationship.",
+    "dayBranch.WONJIN":
+      "The day branches sit in quiet resentment. Little breaks out openly, but grievances that are hard to name tend to accumulate — better said at the time than let go.",
     "dayBranch.CHUNG":
       "The day branches clash. This position is prone to friction, so how you talk to each other matters.",
     "zodiac.SAMHAP":
@@ -893,6 +899,8 @@ const en: Dictionary = {
     "zodiac.YUKHAP": "The {animalA} and the {animalB} form a six harmony. You suit each other well.",
     "zodiac.SAME": "You are both born in the year of the {animalA}, so your temperaments echo.",
     "zodiac.NEUTRAL": "The {animalA} and the {animalB} hold no particular relationship.",
+    "zodiac.WONJIN":
+      "The {animalA} and the {animalB} sit in quiet resentment — rarely an open quarrel, but a subtle mismatch that tends to last.",
     "zodiac.CHUNG":
       "The {animalA} and the {animalB} clash. You differ sharply, which also means there is much to learn.",
   },

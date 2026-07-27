@@ -31,8 +31,10 @@ export { BRANCH_ANIMALS } from "./branches";
  *     상극)에서 십신 짝 여섯으로 교체 — 음양이 점수에 들어간다. ② 삼합을 두 글자만으로
  *     인정하던 것을 왕지를 낀 반합으로 좁힌다(왕지 없는 두 글자는 합으로 치지 않는다).
  *     항목 점수가 바뀌므로 총점이 달라진다.
+ * v8: 원진(怨嗔)을 지지 관계표에 넣는다. 여섯 쌍(子未 丑午 寅酉 卯申 辰亥 巳戌)이 지금까지
+ *     전부 무관계 68점으로 들어가고 있었다. 충(45)보다 높고 무관계보다 낮은 52로 둔다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v7";
+export const ENGINE_VERSION = "inyeonlink-match-v8";
 
 /**
  * 엔진별 비중.

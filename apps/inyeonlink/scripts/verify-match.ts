@@ -28,6 +28,7 @@ import {
   EARTHLY_BRANCHES,
   branchRelation,
   BRANCH_RELATION_SCORE,
+  SAMHAP_LEADERS,
 } from "../src/lib/engines/branches";
 
 // tsx는 이 스크립트를 CJS로 돌려서 `import.meta.dirname`이 비어 있다. __dirname을 쓴다.
@@ -91,7 +92,7 @@ const CASES: Array<{ id: string; note: string; a: Person; b: Person }> = [
   },
   {
     id: "wonjin-candidate",
-    note: "원진 후보(子未) — 현재는 NEUTRAL로 들어간다",
+    note: "연지 원진(子未)",
     a: person({ year: 1996, month: 6, day: 10, gender: "female" }),
     b: person({ year: 1991, month: 10, day: 25, gender: "male" }),
   },
@@ -148,9 +149,33 @@ for (const branch of branches) {
     .map((other) => branchRelation(branch, other));
   const count = (kind: string) => relations.filter((r) => r === kind).length;
 
-  // 충은 마주 보는 하나뿐이고, 육합도 하나뿐이다. 삼합은 자기를 뺀 그룹원 둘이다.
+  // 충은 마주 보는 하나뿐이고, 육합도 하나, 원진도 하나다. 반합은 같은 국의 왕지 하나뿐이되
+  // 자기가 왕지이면 나머지 둘 모두와 반합이 된다.
   ok(`${branch} 충 1개`, count("CHUNG") === 1, `실제 ${count("CHUNG")}개`);
   ok(`${branch} 육합 1개`, count("YUKHAP") === 1, `실제 ${count("YUKHAP")}개`);
+  ok(`${branch} 원진 1개`, count("WONJIN") === 1, `실제 ${count("WONJIN")}개`);
+
+  const expectedBanhap = SAMHAP_LEADERS.has(branch) ? 2 : 1;
+  ok(
+    `${branch} 반합 ${expectedBanhap}개`,
+    count("BANHAP") === expectedBanhap,
+    `실제 ${count("BANHAP")}개`,
+  );
+}
+
+// 충·육합·원진의 상대가 서로 겹치면 판정 순서에 따라 결과가 달라진다. 겹치지 않는 것을
+// 표로 확인한다 — 원진을 넣으면서 실제로 확인한 사실이므로 규칙으로 고정해 둔다.
+for (const branch of branches) {
+  const partners = branches.filter((other) => other !== branch);
+  const find = (kind: string) => partners.find((other) => branchRelation(branch, other) === kind);
+  const chung = find("CHUNG");
+  const yukhap = find("YUKHAP");
+  const wonjin = find("WONJIN");
+  ok(
+    `${branch}의 충·육합·원진 상대가 서로 다름`,
+    new Set([chung, yukhap, wonjin]).size === 3,
+    `충 ${chung} 육합 ${yukhap} 원진 ${wonjin}`,
+  );
 }
 
 // 관계는 방향에 무관해야 한다(대칭). 144조합 전수.

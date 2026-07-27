@@ -1,16 +1,16 @@
 {
-  "engineVersion": "inyeonlink-match-v7",
+  "engineVersion": "inyeonlink-match-v8",
   "cases": {
     "banhap-no-leader": {
-      "total": 71,
+      "total": 69,
       "band": "FAIR",
-      "saju": 72,
+      "saju": 69,
       "zodiac": 68,
       "factors": {
         "saju.dayMasterRelation": 70,
         "saju.spouseStar": 66,
         "saju.elementBalance": 84,
-        "saju.dayBranchRelation": 68,
+        "saju.dayBranchRelation": 52,
         "zodiac.branchRelation": 68
       },
       "shape": "ALIKE",
@@ -66,30 +66,30 @@
       "pillarsB": "庚午 丁亥 庚寅 辛巳"
     },
     "wonjin-candidate": {
-      "total": 72,
-      "band": "GOOD",
+      "total": 67,
+      "band": "FAIR",
       "saju": 74,
-      "zodiac": 68,
+      "zodiac": 52,
       "factors": {
         "saju.dayMasterRelation": 78,
         "saju.spouseStar": 66,
         "saju.elementBalance": 83,
         "saju.dayBranchRelation": 68,
-        "zodiac.branchRelation": 68
+        "zodiac.branchRelation": 52
       },
       "shape": "ALIKE",
       "pillarsA": "丙子 甲午 戊寅 丁巳",
       "pillarsB": "辛未 戊戌 戊辰 丁巳"
     },
     "no-gender": {
-      "total": 72,
-      "band": "GOOD",
-      "saju": 74,
+      "total": 69,
+      "band": "FAIR",
+      "saju": 70,
       "zodiac": 68,
       "factors": {
         "saju.dayMasterRelation": 70,
         "saju.elementBalance": 85,
-        "saju.dayBranchRelation": 68,
+        "saju.dayBranchRelation": 52,
         "zodiac.branchRelation": 68
       },
       "shape": "ALIKE",
