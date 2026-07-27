@@ -56,20 +56,39 @@ export const BRANCH_HIDDEN_STEMS: Record<string, Array<[string, number]>> = {
 
 const HIDDEN_STEM_TOTAL_DAYS = 30;
 
-// 상생·상극. 월령 배수를 정하는 데 쓴다.
-const GENERATES: Record<FiveElement, FiveElement> = {
+// 상생·상극. 월령 배수를 정하는 데 쓰고, 억부용신 판정(인연링크)도 같은 표를 가져다 쓴다.
+// **소비자가 늘어도 표는 하나로 둔다** — 같은 표가 두 곳에 있으면 언젠가 어긋난다.
+export const GENERATES: Record<FiveElement, FiveElement> = {
   WOOD: "FIRE",
   FIRE: "EARTH",
   EARTH: "METAL",
   METAL: "WATER",
   WATER: "WOOD",
 };
-const CONTROLS: Record<FiveElement, FiveElement> = {
+export const CONTROLS: Record<FiveElement, FiveElement> = {
   WOOD: "EARTH",
   EARTH: "WATER",
   WATER: "FIRE",
   FIRE: "METAL",
   METAL: "WOOD",
+};
+
+/** X를 생하는 오행(인성 자리). GENERATES를 뒤집은 것이다. */
+export const GENERATED_BY: Record<FiveElement, FiveElement> = {
+  FIRE: "WOOD",
+  EARTH: "FIRE",
+  METAL: "EARTH",
+  WATER: "METAL",
+  WOOD: "WATER",
+};
+
+/** X를 극하는 오행(관성 자리). CONTROLS를 뒤집은 것이다. */
+export const CONTROLLED_BY: Record<FiveElement, FiveElement> = {
+  EARTH: "WOOD",
+  WATER: "EARTH",
+  FIRE: "WATER",
+  METAL: "FIRE",
+  WOOD: "METAL",
 };
 
 /** 월지가 속한 계절의 주인 오행. */

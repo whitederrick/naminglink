@@ -7,6 +7,7 @@ import {
 
 import { BRANCH_ANIMALS, branchOf, type Branch } from "./branches";
 import type { Person } from "./types";
+import { resolveYongsin, type BodyStrength } from "./yongsin";
 
 // 사주는 사람당 한 번만 계산한다. 예전에는 사주 엔진과 띠 엔진이 각자 계산해서 같은 사람의
 // 만세력을 두 번 돌렸다 — 결과는 같지만 그럴 이유가 없다.
@@ -74,6 +75,14 @@ export type PersonReading = {
   scarcestElement: FiveElement;
   /** 태어난 달이 어느 오행의 계절인가 */
   seasonElement: FiveElement;
+  /**
+   * 일간이 강한가 약한가와, 그래서 무엇이 필요한가(억부용신).
+   *
+   * 점수에만 쓰고 마는 것이 아니라 화면에 그대로 내보낸다. "몇 점"보다 **"당신은 지금 이 기운이
+   * 얇고 상대가 그것을 갖고 있다"**가 읽는 사람에게 훨씬 쓸모 있다.
+   */
+  bodyStrength: BodyStrength;
+  favorableElements: FiveElement[];
 };
 
 export function toReading(prepared: Prepared): PersonReading {
@@ -81,6 +90,7 @@ export function toReading(prepared: Prepared): PersonReading {
   const ranked = [...FIVE_ELEMENTS].sort(
     (a, b) => elements.strength[b] - elements.strength[a],
   );
+  const yongsin = resolveYongsin(prepared.dayMaster.element, elements.strength);
 
   return {
     label: prepared.person.label,
@@ -101,5 +111,7 @@ export function toReading(prepared: Prepared): PersonReading {
     strongestElement: ranked[0],
     scarcestElement: ranked[ranked.length - 1],
     seasonElement: elements.seasonElement,
+    bodyStrength: yongsin.strength,
+    favorableElements: yongsin.favorable,
   };
 }

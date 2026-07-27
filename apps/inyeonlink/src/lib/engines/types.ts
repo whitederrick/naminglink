@@ -13,7 +13,7 @@
 export type FactorKey =
   | "dayMasterRelation"
   | "spouseStar"
-  | "elementBalance"
+  | "elementSupply"
   | "dayBranchRelation"
   | "branchRelation";
 

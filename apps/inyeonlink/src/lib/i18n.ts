@@ -129,7 +129,13 @@ export type Dictionary = {
     scarcest: string;
     strengthTitle: string;
     cautionTitle: string;
+    /** 신강·신약 */
+    bodyStrengthTitle: string;
+    /** "지금 필요한 기운" */
+    favorableLabel: string;
   };
+  /** 억부용신 판정 결과의 이름과 설명. */
+  bodyStrength: Record<"STRONG" | "BALANCED" | "WEAK", { name: string; body: string }>;
   relation: {
     title: string;
     hint: string;
@@ -212,7 +218,7 @@ export type Dictionary = {
   factors: Record<
     | "dayMasterRelation"
     | "spouseStar"
-    | "elementBalance"
+    | "elementSupply"
     | "dayBranchRelation"
     | "branchRelation",
     string
@@ -294,6 +300,22 @@ const ko: Dictionary = {
     scarcest: "가장 약한 기운",
     strengthTitle: "이 관계의 강점",
     cautionTitle: "눈여겨볼 점",
+    bodyStrengthTitle: "일간의 힘",
+    favorableLabel: "지금 필요한 기운",
+  },
+  bodyStrength: {
+    STRONG: {
+      name: "신강(身强)",
+      body: "일간을 돕는 기운이 넉넉한 편입니다. 스스로 밀고 나가는 힘이 있는 대신 한쪽으로 쏠리기 쉬워, 덜어 내고 풀어 주는 기운이 있을 때 오히려 편안해집니다.",
+    },
+    BALANCED: {
+      name: "중화(中和)",
+      body: "일간을 돕는 기운과 덜어 내는 기운이 엇비슷합니다. 어느 한쪽으로 단정하기 어려운 자리라, 여기서는 지금 가장 얇은 기운을 필요한 것으로 봅니다.",
+    },
+    WEAK: {
+      name: "신약(身弱)",
+      body: "일간을 돕는 기운이 얇은 편입니다. 주변의 힘을 잘 빌리는 대신 혼자 오래 버티는 일에는 지치기 쉬워, 받쳐 주는 기운이 있을 때 힘이 납니다.",
+    },
   },
   relation: {
     title: "두 사람의 관계",
@@ -476,7 +498,7 @@ const ko: Dictionary = {
   factors: {
     dayMasterRelation: "일간 오행 관계",
     spouseStar: "배우자성",
-    elementBalance: "오행 보완도",
+    elementSupply: "오행 보완(용신)",
     dayBranchRelation: "일지 관계",
     branchRelation: "띠 관계",
   },
@@ -486,8 +508,8 @@ const ko: Dictionary = {
       "두 사람의 기질이 서로에게 필요한 방향으로 놓여 있습니다. 상대의 방식이 낯설게 느껴질 때도 결국은 자기에게 없는 것을 채워 주는 쪽으로 작용합니다.",
     "strength.spouseStar":
       "전통적으로 배우자 자리에 해당하는 기운을 서로 지니고 있습니다. 처음부터 이유 없이 편했다면 이 부분일 가능성이 큽니다.",
-    "strength.elementBalance":
-      "둘이 함께 있을 때 다섯 기운이 고르게 채워집니다. 혼자일 때 부족했던 자리를 상대가 메워 주는 조합입니다.",
+    "strength.elementSupply":
+      "각자에게 지금 필요한 기운을 상대가 갖고 있습니다. 혼자서는 잘 안 풀리던 자리가 이 사람과 함께일 때 수월해지는 조합입니다.",
     "strength.dayBranchRelation":
       "일지는 전통적으로 배우자 자리로 봅니다. 이 자리가 서로 어울려 함께 지내는 시간이 편안한 편입니다.",
     "strength.branchRelation":
@@ -496,8 +518,8 @@ const ko: Dictionary = {
       "기질이 부딪히기 쉬운 자리입니다. 같은 일을 두고도 속도와 방식이 달라, 상대가 일부러 그런다고 느끼기 쉽습니다. 결론보다 과정을 먼저 맞춰 보십시오.",
     "caution.spouseStar":
       "서로가 전통적으로 말하는 배우자 자리의 기운은 아닙니다. 끌림이 즉각적이지 않을 수 있으나, 오래 겪으며 쌓이는 쪽에 가깝습니다.",
-    "caution.elementBalance":
-      "기운이 한쪽으로 몰려 있습니다. 둘 다 잘하는 일은 아주 잘하지만, 둘 다 약한 부분은 계속 비어 있게 됩니다. 그 자리는 밖에서 채우는 편이 낫습니다.",
+    "caution.elementSupply":
+      "각자에게 필요한 기운이 상대에게도 얇습니다. 둘 다 잘하는 일은 아주 잘하지만, 서로가 부족한 자리는 계속 비어 있게 됩니다. 그 자리는 관계 밖에서 채우는 편이 낫습니다.",
     "caution.dayBranchRelation":
       "함께 지내는 자리에서 마찰이 생기기 쉽습니다. 큰 문제보다 생활 습관 같은 작은 것에서 부딪히는 경우가 많으니, 규칙을 미리 정해 두면 줄어듭니다.",
     "caution.branchRelation":
@@ -525,11 +547,14 @@ const ko: Dictionary = {
       "두 사람 모두 {elementA} 기운이고 음양까지 같습니다. 대등하고 편하지만 서로를 밀어 주는 힘은 약합니다.",
     "dayMaster.PEER_RIVAL":
       "두 사람 모두 {elementA} 기운인데 음양이 다릅니다. 빠르게 끌리는 대신 같은 자리를 두고 다투기 쉽습니다.",
-    "balance.HIGH":
-      "둘을 합치면 다섯 기운이 고르게 채워집니다. 한쪽이 부족한 자리를 다른 쪽이 메웁니다.",
-    "balance.MID": "기운이 대체로 고르지만 {scarce} 기운은 둘 다 얇은 편입니다.",
-    "balance.LOW":
-      "기운이 한쪽으로 몰려 있습니다. 특히 {scarce} 기운이 둘 다 부족합니다.",
+    "supply.AMPLE":
+      "서로에게 필요한 기운을 넉넉히 갖고 있습니다. 첫 번째 사람에게는 {needA}, 두 번째 사람에게는 {needB} 기운이 지금 필요한데, 상대가 그 자리를 채워 줍니다.",
+    "supply.ENOUGH":
+      "서로에게 필요한 기운을 어느 정도 갖고 있습니다. 첫 번째 사람에게는 {needA}, 두 번째 사람에게는 {needB} 기운이 필요하며, 상대에게 그만한 몫이 있습니다.",
+    "supply.THIN":
+      "서로에게 필요한 기운이 상대에게 넉넉하지는 않습니다. 첫 번째 사람에게는 {needA}, 두 번째 사람에게는 {needB} 기운이 필요한데 그 자리가 얇습니다.",
+    "supply.SCARCE":
+      "필요한 기운을 서로에게서 얻기는 어려운 조합입니다. 첫 번째 사람에게는 {needA}, 두 번째 사람에게는 {needB} 기운이 필요한데 상대에게도 그 자리가 비어 있습니다. 그 부분은 관계 밖에서 채우는 편이 낫습니다.",
     "dayBranch.SAMHAP": "일지가 삼합을 이룹니다. 배우자 자리에서 가장 잘 맞는 조합입니다.",
     "dayBranch.BANHAP":
       "일지가 반합입니다. 삼합의 중심 글자를 끼고 있어 배우자 자리에서 잘 어울리는 짝입니다.",
@@ -645,6 +670,22 @@ const en: Dictionary = {
     scarcest: "Scarcest",
     strengthTitle: "What this pairing has going for it",
     cautionTitle: "What to watch",
+    bodyStrengthTitle: "Day-master strength",
+    favorableLabel: "What you need now",
+  },
+  bodyStrength: {
+    STRONG: {
+      name: "Strong day master",
+      body: "The elements supporting your day master run full. That gives you drive of your own, but it also tips easily to one side — you tend to settle when something draws the excess off.",
+    },
+    BALANCED: {
+      name: "Balanced day master",
+      body: "What supports your day master and what draws from it sit close to even. Too close to call either way, so here we read whatever is thinnest as what you need.",
+    },
+    WEAK: {
+      name: "Weak day master",
+      body: "The elements supporting your day master run thin. You borrow strength from around you well, but wear down holding out alone — you come into your own when something backs you up.",
+    },
   },
   relation: {
     title: "How you two sit together",
@@ -826,7 +867,7 @@ const en: Dictionary = {
   factors: {
     dayMasterRelation: "Day-master elements",
     spouseStar: "Spouse star",
-    elementBalance: "Elemental balance",
+    elementSupply: "Elemental supply",
     dayBranchRelation: "Day branch",
     branchRelation: "Zodiac signs",
   },
@@ -835,8 +876,8 @@ const en: Dictionary = {
       "Your temperaments sit in a position that serves the other. Even when the other's way feels foreign, it tends to supply what you lack.",
     "strength.spouseStar":
       "You each carry the element traditionally read as the spouse position. If things felt easy from the start for no obvious reason, this is likely why.",
-    "strength.elementBalance":
-      "Together the five elements fill out evenly. What was thin on your own gets covered by the other.",
+    "strength.elementSupply":
+      "Each of you holds what the other currently needs. Things that were hard to move alone tend to come easier together.",
     "strength.dayBranchRelation":
       "The day branch is traditionally read as the spouse's seat. Yours sit well together, which tends to make shared time comfortable.",
     "strength.branchRelation":
@@ -845,8 +886,8 @@ const en: Dictionary = {
       "This is where temperaments rub. Faced with the same task your pace and method differ, which is easy to misread as deliberate. Agree on the process before the conclusion.",
     "caution.spouseStar":
       "Neither of you carries what tradition calls the other's spouse-position element. The pull may not be immediate; this is a pairing that accumulates over time instead.",
-    "caution.elementBalance":
-      "The elements lean one way. What you are both good at, you are very good at — but what you both lack stays unfilled. Better to source that from outside.",
+    "caution.elementSupply":
+      "What each of you needs runs thin in the other too. What you are both good at, you are very good at — but the places you both lack stay unfilled. Better to source those from outside the relationship.",
     "caution.dayBranchRelation":
       "Friction is likely in the shared-life position. Usually it shows up in small habits rather than large matters, so settling a few ground rules early helps.",
     "caution.branchRelation":
@@ -874,12 +915,14 @@ const en: Dictionary = {
       "Both carry {elementA} energy with the same polarity. That makes things even and easy, but neither pushes the other forward.",
     "dayMaster.PEER_RIVAL":
       "Both carry {elementA} energy with opposite polarity. The pull is quick, but you compete for the same ground.",
-    "balance.HIGH":
-      "Together the five elements fill out evenly. What one lacks, the other supplies.",
-    "balance.MID":
-      "The elements are fairly even, though {scarce} runs thin for both of you.",
-    "balance.LOW":
-      "The elements lean heavily one way. {scarce} in particular is scarce for both of you.",
+    "supply.AMPLE":
+      "Each of you holds plenty of what the other needs. The first person needs {needA} and the second needs {needB} — and the other supplies it.",
+    "supply.ENOUGH":
+      "Each of you holds a fair share of what the other needs: {needA} for the first person, {needB} for the second.",
+    "supply.THIN":
+      "What each of you needs — {needA} for the first person, {needB} for the second — runs thin in the other.",
+    "supply.SCARCE":
+      "Neither of you can readily supply what the other needs: {needA} for the first person, {needB} for the second, and both places sit empty. Better to source that from outside the relationship.",
     "dayBranch.SAMHAP":
       "The day branches form a triple harmony — the strongest pairing in the spouse position.",
     "dayBranch.BANHAP":

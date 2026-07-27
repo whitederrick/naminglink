@@ -542,6 +542,27 @@ function PersonCard({
           {t.scarcest} {dictionary.elements[reading.scarcestElement]} ·{" "}
           {t.seasonLabel} {dictionary.elements[reading.seasonElement]}
         </p>
+
+        {/* 신강·신약과 그래서 필요한 기운. 점수의 근거이자 이 사람 혼자만 봐도 읽을거리다. */}
+        <div className="mt-4 rounded-lg bg-surface-strong/60 p-3">
+          <p className="text-xs font-semibold text-muted">
+            {t.bodyStrengthTitle}
+            <span className="ml-2 font-normal text-foreground">
+              {dictionary.bodyStrength[reading.bodyStrength].name}
+            </span>
+          </p>
+          <p className="break-keep-all mt-1.5 text-xs leading-5 text-muted">
+            {dictionary.bodyStrength[reading.bodyStrength].body}
+          </p>
+          <p className="mt-2 text-xs text-muted">
+            {t.favorableLabel}{" "}
+            <span className="font-semibold text-foreground">
+              {reading.favorableElements
+                .map((element) => dictionary.elements[element])
+                .join(" · ")}
+            </span>
+          </p>
+        </div>
       </div>
     </section>
   );

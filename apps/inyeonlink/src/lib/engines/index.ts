@@ -33,8 +33,11 @@ export { BRANCH_ANIMALS } from "./branches";
  *     항목 점수가 바뀌므로 총점이 달라진다.
  * v8: 원진(怨嗔)을 지지 관계표에 넣는다. 여섯 쌍(子未 丑午 寅酉 卯申 辰亥 巳戌)이 지금까지
  *     전부 무관계 68점으로 들어가고 있었다. 충(45)보다 높고 무관계보다 낮은 52로 둔다.
+ * v9: 오행 항목을 균형도에서 억부용신 기반 보완도로 바꾼다. "둘을 합쳐 고른가"가 아니라
+ *     "상대가 내게 필요한 것을 갖고 있는가"를 양방향으로 재고 평균한다. 각자의 신강·신약과
+ *     필요한 오행이 읽을거리로 함께 나간다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v8";
+export const ENGINE_VERSION = "inyeonlink-match-v9";
 
 /**
  * 엔진별 비중.
