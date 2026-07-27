@@ -212,6 +212,8 @@ export type Dictionary = {
   footer: {
     privacy: string;
     terms: string;
+    refund: string;
+    pricing: string;
     legalEntity: string;
     representative: string;
     businessNumber: string;
@@ -494,6 +496,8 @@ const ko: Dictionary = {
   footer: {
     privacy: "개인정보처리방침",
     terms: "이용약관",
+    refund: "환불정책",
+    pricing: "요금안내",
     legalEntity: "상호",
     representative: "대표자",
     businessNumber: "사업자등록번호",
@@ -877,6 +881,8 @@ const en: Dictionary = {
   footer: {
     privacy: "Privacy Policy",
     terms: "Terms of Service",
+    refund: "Cancellation & Refunds",
+    pricing: "Pricing",
     legalEntity: "Business",
     representative: "Representative",
     businessNumber: "Registration no.",

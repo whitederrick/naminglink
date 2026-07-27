@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import { LegalLinks } from "@/components/LegalLinks";
 import { getCompanyInfo } from "@/lib/company-server";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 
@@ -39,8 +38,10 @@ export async function SiteFooter({
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 넘긴다(IP·브라우저 언어 재추정 방지).
   const langQuery = locale === "ko" ? "" : `?lang=${locale}`;
   const footerLinks = [
-    { href: `/terms${langQuery}`, label: copy.terms },
-    { href: `/privacy${langQuery}`, label: copy.privacy },
+    { kind: "terms" as const, href: `/terms${langQuery}`, label: copy.terms },
+    { kind: "privacy" as const, href: `/privacy${langQuery}`, label: copy.privacy },
+    { kind: "refund" as const, href: `/refund-policy${langQuery}`, label: copy.refund },
+    { kind: "pricing" as const, href: `/pricing${langQuery}`, label: copy.pricing },
   ];
 
   const firstLine = [
@@ -76,16 +77,12 @@ export async function SiteFooter({
     >
       <div className="mx-auto max-w-7xl">
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 font-semibold">
-          {footerLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={linkClass}
-              dir={textDirection}
-            >
-              {link.label}
-            </Link>
-          ))}
+          <LegalLinks
+            locale={locale}
+            items={footerLinks}
+            linkClassName={linkClass}
+            textDirection={textDirection}
+          />
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">

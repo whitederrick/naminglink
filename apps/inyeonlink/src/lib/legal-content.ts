@@ -26,7 +26,7 @@ export type LegalDocument = {
   effectiveLabel: string;
 };
 
-export type LegalDocumentKey = "privacy" | "terms";
+export type LegalDocumentKey = "privacy" | "terms" | "refund" | "pricing";
 
 // 광고 관련 조항은 광고가 실제로 켜져 있는지에 따라 달라진다. 문구를 하나로 고정하면 둘 중
 // 한 상태에서는 방침이 사실과 어긋난다 — 아직 광고가 없는데 "게재합니다"라고 적거나, 이미
@@ -111,7 +111,7 @@ const paidProductSectionKo = (prices: ReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
     "판매하는 유료 상품은 **궁합 리포트 PDF** 한 가지입니다. 화면의 결과를 3장짜리 PDF 문서로 만들어 드리며, 화면에 표시되지 않는 오행 세력 수치가 함께 담깁니다.",
-    `가격은 국내 결제 ${prices.domestic}(부가세 포함), 해외 결제 ${prices.global}입니다. 결제 수단은 국내 카카오페이, 해외 페이팔이며 결제는 포트원을 통해 처리됩니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.`,
+    `가격은 국내 결제 ${prices.domestic}(부가세 포함), 해외 결제 ${prices.global}입니다. 국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.`,
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
   ],
@@ -145,7 +145,7 @@ const paidProductSectionEn = (prices: ReportPrices): LegalSection => ({
   heading: "3. Paid product and refunds",
   paragraphs: [
     "There is one paid product: the **compatibility report PDF**. It turns the on-screen result into a three-page document and includes the elemental strength figures that are not shown on screen.",
-    `The price is ${prices.domestic} (VAT included) for domestic payment and ${prices.global} for international payment. Payment is by KakaoPay domestically and PayPal internationally, processed through PortOne. The amount shown on the payment screen is the final amount.`,
+    `The price is ${prices.domestic} (VAT included) for domestic payment and ${prices.global} for international payment. Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.`,
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
   ],
@@ -196,8 +196,8 @@ const thirdPartySectionKo = (company: CompanyInfo): LegalSection => ({
       : "저장하는 개인정보가 없으므로 제3자에게 제공하는 개인정보도 없습니다.",
     `서비스 운영을 위해 ${company.hostingProvider}의 호스팅 인프라를 이용하며, 이 과정에서 위 3항의 접속 기록이 해당 사업자의 정책에 따라 처리됩니다.`,
     paymentsConfigured
-      ? "결제는 포트원을 통해 처리되며, 실제 결제 수단은 카카오페이(국내)와 페이팔(해외)이 제공합니다. 카드번호·계좌번호 등 결제 수단 정보는 이들 사업자가 직접 처리하며, 서비스는 전달받지도 저장하지도 않습니다."
-      : "유료 상품의 판매를 시작하면 결제 처리를 포트원과 결제 수단 제공사(카카오페이·페이팔)에 위탁합니다. 카드번호·계좌번호 등 결제 수단 정보는 그때에도 이들 사업자가 직접 처리하며, 서비스는 전달받지 않습니다.",
+      ? "국내 결제는 토스페이먼츠가, 해외 결제는 포트원을 통한 페이팔이 처리합니다. 카드번호·계좌번호 등 결제 수단 정보는 이들 사업자가 직접 처리하며, 서비스는 전달받지도 저장하지도 않습니다."
+      : "유료 상품의 판매를 시작하면 국내 결제는 토스페이먼츠에, 해외 결제는 포트원(페이팔)에 위탁합니다. 카드번호·계좌번호 등 결제 수단 정보는 그때에도 이들 사업자가 직접 처리하며, 서비스는 전달받지 않습니다.",
   ],
 });
 
@@ -231,8 +231,8 @@ const thirdPartySectionEn = (company: CompanyInfo): LegalSection => ({
       : "Since no personal data is stored, none is shared with third parties.",
     `The service runs on hosting infrastructure provided by ${company.hostingProvider}, and the access records described in section 3 are handled under that provider's policy.`,
     paymentsConfigured
-      ? "Payments are processed through PortOne, with KakaoPay handling domestic payments and PayPal international ones. Card and account details are handled directly by those providers; the service never receives or stores them."
-      : "When sales begin, payment processing will be entrusted to PortOne and the payment providers (KakaoPay and PayPal). Card and account details will be handled directly by those providers and never reach the service.",
+      ? "Domestic payments are processed by Toss Payments and international payments by PayPal through PortOne. Card and account details are handled directly by those providers; the service never receives or stores them."
+      : "When sales begin, domestic payment processing will be entrusted to Toss Payments and international payment to PortOne (PayPal). Card and account details will be handled directly by those providers and never reach the service.",
   ],
 });
 
@@ -365,6 +365,91 @@ const koDocuments = (
     ],
     effectiveLabel: "시행일",
   },
+
+  refund: {
+    title: "환불 및 취소 정책",
+    intro:
+      "궁합 리포트 PDF의 취소·환불 기준입니다. 약관 3항과 같은 내용을 따로 모아 두었습니다.",
+    sections: [
+      {
+        heading: "1. 상품의 성격",
+        paragraphs: [
+          "판매하는 상품은 **궁합 리포트 PDF** 한 가지이며, 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
+          "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 그래서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
+        ],
+      },
+      {
+        heading: "2. 청약철회",
+        paragraphs: ["전자상거래법이 정하는 기준을 따릅니다."],
+        bullets: [
+          "**다운로드가 시작되기 전에는** 언제든 취소하고 전액 환불받을 수 있습니다.",
+          "**다운로드가 완료된 뒤에는** 단순 변심에 의한 청약철회가 제한됩니다. 결제 즉시 제공되어 원상회복이 불가능한 디지털 콘텐츠이며, 이는 「전자상거래 등에서의 소비자보호에 관한 법률」 제17조 제2항이 정하는 제한 사유에 해당합니다. 결제 화면에서 이 사실을 미리 알리고 동의를 받습니다.",
+        ],
+      },
+      {
+        heading: "3. 전액 환불하는 경우",
+        paragraphs: ["다음의 경우에는 사유를 확인한 뒤 재발급 또는 전액 환불로 처리합니다."],
+        bullets: [
+          "시스템 오류로 문서가 만들어지지 않은 경우",
+          "내려받은 파일이 열리지 않는 경우",
+          "결제 금액이 주문과 다른 경우",
+          "**미성년자가 법정대리인의 동의 없이 결제한 경우** — 본인 또는 법정대리인이 취소를 요청하실 수 있습니다.",
+        ],
+      },
+      {
+        heading: "4. 환불 사유가 아닌 경우",
+        paragraphs: [],
+        bullets: [
+          "**결과 내용에 대한 불만.** 궁합 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다.",
+          "재발급 5회를 모두 사용한 뒤의 재요청.",
+        ],
+      },
+      {
+        heading: "5. 접수 방법",
+        paragraphs: [
+          `환불·문의는 고객센터(${company.customerCenter}) 또는 이메일(${company.email})로 접수해 주십시오. 주문번호를 함께 알려 주시면 확인이 빠릅니다.`,
+          "환불은 결제하신 수단으로 돌려드리며, 카드사·결제사 사정에 따라 반영까지 영업일 기준 3~7일이 걸릴 수 있습니다.",
+        ],
+      },
+    ],
+    effectiveLabel: "시행일",
+  },
+  pricing: {
+    title: "요금안내",
+    intro: "무료로 제공하는 범위와 유료 상품의 가격을 안내합니다.",
+    sections: [
+      {
+        heading: "1. 무료",
+        paragraphs: [
+          "**궁합 계산과 결과 조회는 무료입니다.** 회원가입도 필요하지 않습니다.",
+          "매칭률, 항목별 점수, 두 사람의 사주 원국과 오행 세력, 관계의 모양까지 화면에서 모두 보실 수 있습니다.",
+        ],
+      },
+      {
+        heading: "2. 궁합 리포트 PDF (유료)",
+        paragraphs: [
+          `국내 결제 ${prices.domestic}(부가세 포함) · 해외 결제 ${prices.global}`,
+          "화면의 결과를 3장짜리 PDF 문서로 만들어 드립니다. 화면에 표시되지 않는 오행 세력 수치가 함께 담깁니다.",
+          "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
+        ],
+      },
+      {
+        heading: "3. 결제 수단",
+        paragraphs: [
+          "**국내** — 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용하실 수 있습니다.",
+          "**해외** — 포트원을 통한 페이팔로 결제하실 수 있습니다.",
+          "최종 결제 금액은 결제 화면에 표시되는 금액을 따릅니다.",
+        ],
+      },
+      {
+        heading: "4. 가격 변경",
+        paragraphs: [
+          "가격을 변경하는 경우 이 페이지에 먼저 게시합니다. 이미 결제가 끝난 주문에는 변경된 가격이 적용되지 않습니다.",
+        ],
+      },
+    ],
+    effectiveLabel: "시행일",
+  },
 });
 
 const enDocuments = (
@@ -491,6 +576,91 @@ const enDocuments = (
         paragraphs: [
           "Any change to these terms is posted on this page with its effective date.",
           "These terms are governed by the laws of the Republic of Korea, and disputes are handled under the procedures set by applicable law.",
+        ],
+      },
+    ],
+    effectiveLabel: "Effective",
+  },
+
+  refund: {
+    title: "Cancellation and Refunds",
+    intro:
+      "How cancellation and refunds work for the compatibility report PDF. The same terms appear in section 3 of the Terms of Service.",
+    sections: [
+      {
+        heading: "1. What you are buying",
+        paragraphs: [
+          "There is one paid product: the **compatibility report PDF**. Once payment is approved the document is generated in that same request and sent to you immediately.",
+          "**We store neither your input nor the generated PDF.** Please save the downloaded file yourself.",
+        ],
+      },
+      {
+        heading: "2. Withdrawal",
+        paragraphs: ["We follow the Korean E-Commerce Act."],
+        bullets: [
+          "**Before the download begins**, you may cancel at any time for a full refund.",
+          "**After the download completes**, withdrawal for a simple change of mind is restricted — digital content delivered immediately on payment that cannot be returned (Art. 17(2) of the Act). We state this and take your consent on the payment screen.",
+        ],
+      },
+      {
+        heading: "3. Full refunds",
+        paragraphs: ["We reissue the document or refund in full in these cases."],
+        bullets: [
+          "A system error prevented the document from being produced",
+          "The downloaded file cannot be opened",
+          "The amount charged differs from the order",
+          "**A minor paid without the consent of a legal representative** — either may request cancellation.",
+        ],
+      },
+      {
+        heading: "4. Not grounds for a refund",
+        paragraphs: [],
+        bullets: [
+          "**Dissatisfaction with the content.** A compatibility reading is reference material from a traditional interpretive perspective, and this is stated before purchase.",
+          "Requests after all five downloads have been used.",
+        ],
+      },
+      {
+        heading: "5. How to request",
+        paragraphs: [
+          `Contact the customer centre (${company.customerCenter}) or email (${company.email}). Including your order number speeds things up.`,
+          "Refunds return to the payment method used. Depending on the card issuer or payment provider, it can take 3-7 business days to appear.",
+        ],
+      },
+    ],
+    effectiveLabel: "Effective",
+  },
+  pricing: {
+    title: "Pricing",
+    intro: "What is free, and what the paid product costs.",
+    sections: [
+      {
+        heading: "1. Free",
+        paragraphs: [
+          "**Calculating and viewing a compatibility reading is free**, and requires no account.",
+          "The match rate, the score for each factor, both charts with elemental strength, and the shape of the relationship are all shown on screen.",
+        ],
+      },
+      {
+        heading: "2. Compatibility report PDF (paid)",
+        paragraphs: [
+          `${prices.domestic} (VAT included) for domestic payment - ${prices.global} for international payment`,
+          "Turns the on-screen result into a three-page document, including the elemental strength figures that are not shown on screen.",
+          "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
+        ],
+      },
+      {
+        heading: "3. Payment methods",
+        paragraphs: [
+          "**In Korea** - Toss Payments: credit and debit cards, and Korean pay services (Toss Pay, KakaoPay, Naver Pay, Payco and others).",
+          "**Outside Korea** - PayPal through PortOne.",
+          "The amount shown on the payment screen is the final amount.",
+        ],
+      },
+      {
+        heading: "4. Price changes",
+        paragraphs: [
+          "Any price change is posted on this page first. Orders already paid for are not affected.",
         ],
       },
     ],
