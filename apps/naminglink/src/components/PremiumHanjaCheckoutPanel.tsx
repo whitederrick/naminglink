@@ -438,6 +438,12 @@ export function PremiumHanjaCheckoutPanel({
       : "상세 결과 공개 완료",
   }[stage];
   const interpretation = premium?.interpretation ?? {};
+  // 결제한 상품. 주문에 담긴 코드가 기준이고, 운영자 테스트로 열어 본 경우에는 고른 상품을 쓴다.
+  const purchasedProduct = checkout
+    ? (HANJA_PRODUCTS[checkout.productCode] ?? null)
+    : testResult
+      ? selectedProduct
+      : null;
   const readyIncludesPdf = checkout
     ? (checkout.includesPdf ?? HANJA_PRODUCTS[checkout.productCode]?.includesPdf ?? false)
     : testResult && selectedProduct.includesPdf;
@@ -447,9 +453,32 @@ export function PremiumHanjaCheckoutPanel({
       <div className="flex items-start gap-3">
         <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-brand-teal/10 text-brand-teal"><CreditCard size={20} /></span>
         <div>
-          <p className="text-sm font-semibold text-brand-teal">한자 이름 상세 상품</p>
-          <h2 className="mt-1 text-xl font-semibold">원하는 분석 범위만 선택하세요</h2>
-          <p className="mt-2 text-sm leading-6 text-muted">모든 상품에 후보별 상세 설명과 한자 종합 상세가 포함됩니다. 사주·오행이 필요하지 않으면 출생일 없이도 2,900원 또는 4,900원 상품을 이용할 수 있습니다.</p>
+          {/* 결제가 끝난 뒤에는 **고르라는 안내를 지운다.** 이미 산 사람에게 "2,900원 상품도 있다"고
+              말할 이유가 없고, 그 자리에는 무엇을 받았는지가 와야 한다. */}
+          {stage === "ready" && purchasedProduct ? (
+            <>
+              <p className="text-sm font-semibold text-brand-teal">받으신 상품</p>
+              <h2 className="mt-1 text-xl font-semibold">{purchasedProduct.name}</h2>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                {[
+                  `한자 후보 최대 ${purchasedProduct.candidateLimit}개의 후보별 상세 설명`,
+                  "한자 종합 상세",
+                  purchasedProduct.includesSaju ? "사주 원국과 오행 분석" : null,
+                ]
+                  .filter(Boolean)
+                  .join(" · ")}
+                {purchasedProduct.includesPdf
+                  ? "이 담긴 PDF입니다. 아래에서 내려받으세요."
+                  : "를 아래에서 확인하실 수 있습니다."}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="text-sm font-semibold text-brand-teal">한자 이름 상세 상품</p>
+              <h2 className="mt-1 text-xl font-semibold">원하는 분석 범위만 선택하세요</h2>
+              <p className="mt-2 text-sm leading-6 text-muted">모든 상품에 후보별 상세 설명과 한자 종합 상세가 포함됩니다. 사주·오행이 필요하지 않으면 출생일 없이도 2,900원 또는 4,900원 상품을 이용할 수 있습니다.</p>
+            </>
+          )}
         </div>
       </div>
 
