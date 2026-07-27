@@ -22,6 +22,7 @@ const BASELINE_CSP = [
   "font-src 'self' data:",
   `connect-src 'self'${isDev ? " ws: wss:" : ""}`,
   "frame-src 'none'",
+  "form-action 'self'",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "object-src 'none'",

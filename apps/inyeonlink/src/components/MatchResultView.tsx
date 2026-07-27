@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
 import { AdRewardGate } from "@/components/AdRewardGate";
+import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { adSlotFor } from "@/lib/ads";
 import {
   scoreBand,
@@ -314,6 +315,10 @@ export function MatchResultView({
       <p className="mt-10 text-xs text-muted">
         {t.engineVersion}: {outcome.engineVersion}
       </p>
+
+      {/* 결과를 다 읽은 자리에 PDF 판매를 둔다. 판매 전(다크 런치)에는 버튼을 눌러도
+          "준비 중"으로 되돌아온다. */}
+      <ReportPurchasePanel dictionary={dictionary} locale={locale} input={input} />
 
       {/* 광고는 결과 화면 안쪽, 그것도 '결과가 실제로 나온' 갈래에만 둔다. 페이지 쪽에 두면
           입력을 못 읽어 오류가 뜬 화면에도 광고가 실리는데, 내용 없는 화면의 광고는 애드센스

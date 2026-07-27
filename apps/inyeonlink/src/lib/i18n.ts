@@ -175,6 +175,22 @@ export type Dictionary = {
     /** "{seconds}초 후 결과가 열립니다" */
     remaining: string;
   };
+  /** 궁합 리포트 PDF 판매. */
+  report: {
+    title: string;
+    body: string;
+    /** "{price} 결제하고 받기" */
+    buyButton: string;
+    preparing: string;
+    ordering: string;
+    paying: string;
+    issuing: string;
+    done: string;
+    failed: string;
+    /** 결제는 됐는데 파일을 못 받은 경우 다시 시도할 때 */
+    retry: string;
+    contents: string[];
+  };
   footer: {
     privacy: string;
     terms: string;
@@ -407,6 +423,23 @@ const ko: Dictionary = {
     watchButton: "광고 보고 결과 보기",
     watching: "광고를 보는 중입니다",
     remaining: "{seconds}초 후 결과가 열립니다",
+  },
+  report: {
+    title: "궁합 리포트 PDF로 간직하기",
+    body: "화면의 결과를 3장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
+    buyButton: "{price} 결제하고 받기",
+    preparing: "준비 중입니다",
+    ordering: "주문을 만드는 중…",
+    paying: "결제를 진행하는 중…",
+    issuing: "리포트를 만드는 중…",
+    done: "받으셨습니다. 다시 받으려면 아래 버튼을 눌러 주세요.",
+    failed: "결제 또는 발급에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+    retry: "다시 받기",
+    contents: [
+      "1장 — 매칭률과 이 관계의 강점·눈여겨볼 점",
+      "2장 — 관계의 모양과 십신, 항목별 점수",
+      "3장 — 두 사람의 사주 원국과 오행 세력",
+    ],
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -725,6 +758,23 @@ const en: Dictionary = {
     watchButton: "Watch an ad to see the result",
     watching: "Watching the ad",
     remaining: "Your result opens in {seconds}s",
+  },
+  report: {
+    title: "Keep this reading as a PDF",
+    body: "We turn this result into a three-page PDF, including the elemental strength figures that are not shown on screen.",
+    buyButton: "Pay {price} and download",
+    preparing: "Not available yet",
+    ordering: "Creating your order…",
+    paying: "Processing payment…",
+    issuing: "Preparing your report…",
+    done: "Downloaded. Use the button below to download it again.",
+    failed: "The payment or download failed. Please try again in a moment.",
+    retry: "Download again",
+    contents: [
+      "Page 1 — match rate, what the pairing has going for it and what to watch",
+      "Page 2 — the shape of the relationship, the ten gods, and scores by factor",
+      "Page 3 — both charts and elemental strength",
+    ],
   },
   footer: {
     privacy: "Privacy Policy",
