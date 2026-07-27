@@ -32,6 +32,8 @@ export const adSlots = {
   result: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT ?? "").trim(),
   /** 입력 화면 — 맨 아래. 제출 버튼과 멀리 둔다(오클릭 방지는 애드센스 정책이기도 하다). */
   form: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_FORM ?? "").trim(),
+  /** 계산 중 팝업 안. 이 자리는 이용자가 결과를 기다리는 동안 확실히 보게 된다. */
+  analyzing: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_ANALYZING ?? "").trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;

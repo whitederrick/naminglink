@@ -161,6 +161,12 @@ export type Dictionary = {
    * ("추천", "관련 글" 같은 표현은 정책 위반이다).
    */
   ads: { label: string };
+  /** 계산 중 띄우는 팝업. 광고 아래에서 문구가 하나씩 바뀐다. */
+  analyzing: {
+    title: string;
+    /** 궁합에 관한 문장들. 순서를 섞어 하나씩 보여 준다. */
+    quotes: string[];
+  };
   footer: {
     privacy: string;
     terms: string;
@@ -371,6 +377,23 @@ const ko: Dictionary = {
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
   },
   ads: { label: "광고" },
+  analyzing: {
+    title: "두 사람의 사주를 맞춰 보고 있습니다",
+    // 점을 치는 말이 아니라 관계를 읽는 태도에 관한 문장으로 채운다. 결과를 기다리는 동안
+    // 읽히는 자리라 단정하는 표현("반드시", "운명")은 쓰지 않는다.
+    quotes: [
+      "인연은 만나는 것이 아니라 알아보는 것입니다.",
+      "잘 맞는 사이란 다투지 않는 사이가 아니라, 다투고도 돌아오는 사이입니다.",
+      "사주는 정해진 답이 아니라 서로를 이해하는 하나의 언어입니다.",
+      "닮아서 편한 사이가 있고, 달라서 배우는 사이가 있습니다.",
+      "오래가는 관계는 대개 표현을 미루지 않은 관계입니다.",
+      "상대의 방식이 낯설다면, 내게 없는 것을 가진 사람이라는 뜻입니다.",
+      "좋은 궁합은 타고나는 것이 절반, 만들어 가는 것이 절반입니다.",
+      "기대는 쪽과 내주는 쪽이 번갈아 바뀔 때 관계가 오래갑니다.",
+      "점수보다 중요한 것은 그 점수를 어떻게 읽는가입니다.",
+      "두 사람의 계절이 다르면, 서로의 계절을 알려 주면 됩니다.",
+    ],
+  },
   footer: {
     privacy: "개인정보처리방침",
     terms: "이용약관",
@@ -668,6 +691,21 @@ const en: Dictionary = {
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
   },
   ads: { label: "Advertisement" },
+  analyzing: {
+    title: "Reading both charts",
+    quotes: [
+      "You do not so much meet the right person as recognise them.",
+      "A good match is not one that never argues — it is one that comes back after arguing.",
+      "Saju is not a fixed answer. It is one language for understanding each other.",
+      "Some pairings are easy because you are alike; others teach you because you are not.",
+      "Relationships that last are usually the ones where nothing was left unsaid for too long.",
+      "If their way feels foreign, it means they hold something you do not.",
+      "Compatibility is half what you are born with and half what you build.",
+      "A relationship lasts when leaning and giving take turns.",
+      "What matters more than the score is how you read it.",
+      "If your seasons differ, tell each other what your season is like.",
+    ],
+  },
   footer: {
     privacy: "Privacy Policy",
     terms: "Terms of Service",
