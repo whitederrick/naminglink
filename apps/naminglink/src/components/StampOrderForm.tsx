@@ -755,22 +755,25 @@ const COPY = {
 export function StampOrderForm({
   initialName,
   region = "domestic",
-  display,
+  modelPrices,
   locale = "en",
 }: {
   initialName?: string;
   region?: StampRegion;
-  display: string;
+  /** 모델별 표시 가격. 모델마다 값이 다르므로 하나로 받지 않는다. */
+  modelPrices: Record<StampModelCode, string>;
   locale?: string;
 }) {
   const global = region === "global";
   // 국내는 한국어 고정이고, 글로벌은 화면 로케일을 따르되 번역이 없으면 영어로 폴백한다.
   const copy = global ? (COPY[locale as keyof typeof COPY] ?? COPY.en) : COPY.ko;
-  const withPrice = (template: string) => template.replace("{price}", display);
+  // 머리말·버튼의 {price}는 **고른 모델의 값**으로 바꾼다. 모델을 바꾸면 같이 바뀐다.
   const [stampName, setStampName] = useState(initialName ?? "");
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [model, setModel] = useState<StampModelCode>("ROUND_WOOD");
+  // 머리말·버튼의 {price}는 **고른 모델의 값**으로 바꾼다. 모델을 바꾸면 같이 바뀐다.
+  const withPrice = (template: string) => template.replace("{price}", modelPrices[model]);
   const [recipient, setRecipient] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -1030,6 +1033,9 @@ export function StampOrderForm({
                     className="accent-current"
                   />
                   {global ? item.nameEn : item.name}
+                  <span className="ml-auto font-semibold text-brand-teal">
+                    {modelPrices[code]}
+                  </span>
                 </span>
                 <span className="text-xs leading-5 text-muted">
                   {global ? item.descriptionEn : item.description}

@@ -3,7 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { StampOrderForm } from "@/components/StampOrderForm";
-import { getStampProduct, type StampRegion } from "@/lib/goods-products";
+import {
+  stampSettingCode,
+  STAMP_MODEL_CODES,
+  STAMP_MODELS,
+  type StampModelCode,
+  type StampRegion,
+} from "@/lib/goods-products";
 import { getRequestLocale } from "@/lib/locale";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
 
@@ -25,12 +31,26 @@ export default async function StampOrderPage({ searchParams }: StampOrderPagePro
   const initialName = String(params?.name ?? "").trim().slice(0, 8);
 
   // 가격 표기는 관리자 조정형 상품 설정에서 읽고, 실패 시 정적 상품표로 폴백한다.
-  let display = getStampProduct(region).display as string;
-  try {
-    display = displayPrice(await getProductSetting(region === "global" ? "STAMP_USD" : "STAMP_KRW"));
-  } catch {
-    // 설정 조회 실패 시 폴백 유지.
-  }
+  // **모델마다 값이 다르므로 셋을 모두 읽는다.** 하나만 읽어 머리말에 쓰면 고른 모델과 어긋난다.
+  const modelPrices = Object.fromEntries(
+    await Promise.all(
+      STAMP_MODEL_CODES.map(async (code) => {
+        const model = STAMP_MODELS[code];
+        try {
+          const setting = await getProductSetting(stampSettingCode(code, region));
+          return [code, displayPrice(setting)] as const;
+        } catch {
+          return [
+            code,
+            displayPrice({
+              amount: model.fallbackAmount[region],
+              currency: region === "global" ? "USD" : "KRW",
+            }),
+          ] as const;
+        }
+      }),
+    ),
+  ) as Record<StampModelCode, string>;
 
   const heading =
     region === "global"
@@ -57,7 +77,7 @@ export default async function StampOrderPage({ searchParams }: StampOrderPagePro
         </header>
         <StampOrderForm
           region={region}
-          display={display}
+          modelPrices={modelPrices}
           locale={locale}
           initialName={/^[가-힣㐀-䶿一-鿿]{1,8}$/u.test(initialName) ? initialName : undefined}
         />

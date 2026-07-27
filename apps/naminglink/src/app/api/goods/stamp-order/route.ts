@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import {
   getStampProduct,
+  stampSettingCode,
   STAMP_MODEL_CODES,
   STAMP_MODELS,
   STAMP_REGIONS,
@@ -83,7 +84,11 @@ export async function POST(request: NextRequest) {
   // 가격·통화는 관리자 조정형 상품 설정에서 읽는다(단일 원천).
   let setting;
   try {
-    setting = await getProductSetting(parsed.data.region === "global" ? "STAMP_USD" : "STAMP_KRW");
+    // 금액은 고른 모델이 정한다. 원형·사각·흑단이 값이 다르므로 모델을 무시하면 흑단을 고르고
+    // 원형 값을 내는 일이 생긴다.
+    setting = await getProductSetting(
+      stampSettingCode(parsed.data.model, parsed.data.region),
+    );
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }

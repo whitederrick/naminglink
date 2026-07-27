@@ -24,15 +24,22 @@ export const STAMP_PRODUCT_GLOBAL = {
   channel: "paypal",
 } as const;
 
-export const STAMP_REGIONS = ["domestic", "global"] as const;
-
-export type StampRegion = (typeof STAMP_REGIONS)[number];
+/** 모델과 권역으로 `product_settings`의 어느 행을 읽을지 정한다. */
+export function stampSettingCode(model: StampModelCode, region: StampRegion) {
+  return STAMP_MODELS[model].settingCode[region];
+}
 
 export function getStampProduct(region: StampRegion) {
   return region === "global" ? STAMP_PRODUCT_GLOBAL : STAMP_PRODUCT;
 }
 
-// 도장 모델 3종(동일가, 2026-07-23 사용자 확정). 가격은 STAMP_PRODUCT.amount 하나만 쓴다.
+export const STAMP_REGIONS = ["domestic", "global"] as const;
+
+export type StampRegion = (typeof STAMP_REGIONS)[number];
+
+// 도장 모델 3종. **모델마다 값이 다르다**(2026-07-27 사용자 확정 — 재질·형태가 다른데 같은
+// 값을 받던 것을 바로잡았다). 실제 금액은 코드가 아니라 `product_settings`가 정하고, 여기서는
+// 어느 행을 읽을지(settingCode)만 정한다. 폴백 금액은 DB를 못 읽었을 때만 쓴다.
 export const STAMP_MODEL_CODES = ["ROUND_WOOD", "SQUARE_WOOD", "EBONY"] as const;
 
 export type StampModelCode = (typeof STAMP_MODEL_CODES)[number];
@@ -40,6 +47,8 @@ export type StampModelCode = (typeof STAMP_MODEL_CODES)[number];
 export const STAMP_MODELS = {
   ROUND_WOOD: {
     code: "ROUND_WOOD",
+    settingCode: { domestic: "STAMP_ROUND_WOOD_KRW", global: "STAMP_ROUND_WOOD_USD" },
+    fallbackAmount: { domestic: 39000, global: 3990 },
     name: "원형 목도장",
     nameEn: "Round wooden stamp",
     description: "둥근 몸체의 기본형 목도장. 은행·관공서 제출용으로 두루 쓰입니다.",
@@ -47,6 +56,8 @@ export const STAMP_MODELS = {
   },
   SQUARE_WOOD: {
     code: "SQUARE_WOOD",
+    settingCode: { domestic: "STAMP_SQUARE_WOOD_KRW", global: "STAMP_SQUARE_WOOD_USD" },
+    fallbackAmount: { domestic: 59000, global: 5990 },
     name: "사각 목도장",
     nameEn: "Square wooden stamp",
     description: "각진 몸체에 또렷한 인영. 서명 대용과 소장용으로 인기 있는 형태입니다.",
@@ -54,6 +65,8 @@ export const STAMP_MODELS = {
   },
   EBONY: {
     code: "EBONY",
+    settingCode: { domestic: "STAMP_EBONY_KRW", global: "STAMP_EBONY_USD" },
+    fallbackAmount: { domestic: 79000, global: 7990 },
     name: "흑단 도장",
     nameEn: "Ebony stamp",
     description: "단단하고 묵직한 흑단 원목. 선물·기념용으로 좋은 프리미엄 재질입니다.",
@@ -63,6 +76,8 @@ export const STAMP_MODELS = {
   StampModelCode,
   {
     code: StampModelCode;
+    settingCode: Record<StampRegion, string>;
+    fallbackAmount: Record<StampRegion, number>;
     name: string;
     nameEn: string;
     description: string;
