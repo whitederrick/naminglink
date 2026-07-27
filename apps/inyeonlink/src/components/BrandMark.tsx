@@ -7,14 +7,19 @@
 export function BrandMark({
   className = "",
   compact = false,
+  onLight = false,
 }: {
   className?: string;
   compact?: boolean;
+  /** 밝은 배경 위에 놓을 때. 기본값은 히어로 같은 어두운 배경 기준이다. */
+  onLight?: boolean;
 }) {
   return (
     <span
       aria-hidden="true"
-      className={`flex items-center justify-center rounded-lg border border-white/30 bg-white/12 backdrop-blur ${
+      className={`flex items-center justify-center rounded-lg border ${
+        onLight ? "border-line bg-surface" : "border-white/30 bg-white/12 backdrop-blur"
+      } ${
         compact ? "size-8" : "size-11"
       } ${className}`}
     >

@@ -34,6 +34,8 @@ export const adSlots = {
   form: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_FORM ?? "").trim(),
   /** 계산 중 팝업 안. 이 자리는 이용자가 결과를 기다리는 동안 확실히 보게 된다. */
   analyzing: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_ANALYZING ?? "").trim(),
+  /** 머리글 옆 고정 배너. naminglink의 service_header와 같은 자리다. */
+  header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HEADER ?? "").trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;
