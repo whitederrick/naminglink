@@ -1,6 +1,7 @@
 "use client";
 
 import * as PortOne from "@portone/browser-sdk/v2";
+import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Download, LoaderCircle } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -130,6 +131,8 @@ export function PremiumHanjaCheckoutPanel({
   onPremiumReady?: (candidateLimit: 5 | 10) => void;
 }) {
   const [customerName, setCustomerName] = useState("");
+  // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
+  const [consented, setConsented] = useState(false);
   const [customerEmail, setCustomerEmail] = useState("");
   const [birthTimeKnown, setBirthTimeKnown] = useState(inputFactors?.birthHour !== "unknown");
   const [exactHour, setExactHour] = useState(() => suggestedHour(inputFactors?.birthHour));
@@ -248,6 +251,7 @@ export function PremiumHanjaCheckoutPanel({
           fullName: customerName || undefined,
           email: customerEmail || undefined,
         },
+        withdrawalConsent: true,
       });
       const nextCheckout = order.checkout as Checkout;
       setCheckout(nextCheckout);
@@ -490,10 +494,20 @@ export function PremiumHanjaCheckoutPanel({
         </div>
       ) : null}
 
+      {/* 결제 전 고지. 이미 결제가 끝나 내려받기만 남은 단계에서는 다시 묻지 않는다. */}
+      {stage !== "ready" ? (
+        <CheckoutConsent
+          kind="DIGITAL"
+          checked={consented}
+          onChange={setConsented}
+          className="mt-5"
+        />
+      ) : null}
+
       <button
         type="button"
         onClick={stage === "ready" ? download : startPayment}
-        disabled={busy || !inputFactors || (!paymentConfigured && stage !== "ready") || (stage === "ready" && !readyIncludesPdf)}
+        disabled={busy || !inputFactors || (!paymentConfigured && stage !== "ready") || (stage !== "ready" && !consented) || (stage === "ready" && !readyIncludesPdf)}
         className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background disabled:cursor-not-allowed disabled:opacity-50"
       >
         {busy ? <LoaderCircle className="animate-spin" size={17} /> : stage === "ready" && readyIncludesPdf ? <Download size={17} /> : <CreditCard size={17} />}

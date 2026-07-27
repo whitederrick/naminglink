@@ -62,6 +62,12 @@ const schema = z.object({
   // 사용자가 고른 서체 코드. 필요 개수는 product_settings.font_count가 결정한다.
   fontCodes: z.array(z.string().trim().regex(/^[a-z0-9-]{2,40}$/)).max(10).default([]),
   locale: z.string().trim().max(10).optional(),
+  /**
+   * 청약철회 제한 동의. 전자상거래법 제17조 제2항 단서는 고지와 **동의**를 함께 요구하고, 그
+   * 조치가 없으면 사업자가 철회 제한을 주장할 수 없다. 화면의 체크박스만 믿지 않고 서버가 받아
+   * 주문에 남긴다 — 화면 상태는 되돌릴 수 있어 나중에 입증할 수 없다.
+   */
+  withdrawalConsent: z.literal(true),
 });
 
 export async function POST(request: NextRequest) {
@@ -172,7 +178,13 @@ export async function POST(request: NextRequest) {
       payment_currency: setting.currency,
       fulfillment_status: "PENDING",
       provider_payment_id: paymentId,
-      metadata: { provider: "PORTONE_V2", sessionId, productCode: product.code },
+      metadata: {
+        provider: "PORTONE_V2",
+        sessionId,
+        productCode: product.code,
+        // 동의 시각. 개인을 가리키는 값이 아니라 개인정보 최소화와 충돌하지 않는다.
+        withdrawalConsentAt: new Date().toISOString(),
+      },
     });
     if (orderError) throw orderError;
 

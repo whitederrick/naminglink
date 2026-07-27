@@ -1,6 +1,7 @@
 "use client";
 
 import * as PortOne from "@portone/browser-sdk/v2";
+import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { Stamp } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -767,6 +768,8 @@ export function StampOrderForm({
   const copy = global ? (COPY[locale as keyof typeof COPY] ?? COPY.en) : COPY.ko;
   const withPrice = (template: string) => template.replace("{price}", display);
   const [stampName, setStampName] = useState(initialName ?? "");
+  // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
+  const [consented, setConsented] = useState(false);
   const [model, setModel] = useState<StampModelCode>("ROUND_WOOD");
   const [recipient, setRecipient] = useState("");
   const [phone, setPhone] = useState("");
@@ -825,6 +828,7 @@ export function StampOrderForm({
           country: global ? country.trim() : undefined,
           address: address.trim(),
           note: note.trim() || undefined,
+          withdrawalConsent: true,
         }),
       });
       const data = (await response.json().catch(() => null)) as
@@ -1115,10 +1119,17 @@ export function StampOrderForm({
 
       <p className="text-xs leading-5 text-muted">{copy.privacy}</p>
 
+      <CheckoutConsent
+        kind="MADE_TO_ORDER"
+        locale={locale}
+        checked={consented}
+        onChange={setConsented}
+      />
+
       {configured ? (
         <button
           type="submit"
-          disabled={busy}
+          disabled={busy || !consented}
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
         >
           {busy ? copy.paying : withPrice(copy.payButton)}

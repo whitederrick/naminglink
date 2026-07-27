@@ -1,6 +1,7 @@
 "use client";
 
 import * as PortOne from "@portone/browser-sdk/v2";
+import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
@@ -455,6 +456,8 @@ export function CandidateUnlockPanel({
   persistKey?: string;
 }) {
   const [loading, setLoading] = useState(false);
+  // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
+  const [consented, setConsented] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
@@ -518,7 +521,7 @@ export function CandidateUnlockPanel({
       const response = await fetch("/api/candidate-unlock/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ region, serviceType, locale }),
+        body: JSON.stringify({ region, serviceType, locale, withdrawalConsent: true }),
       });
       const data = (await response.json().catch(() => null)) as
         | { ok?: boolean; error?: string; checkout?: UnlockCheckout }
@@ -734,15 +737,24 @@ export function CandidateUnlockPanel({
             {copy.hanjaProductsLink}
           </a>
         ) : bulkConfigured ? (
+          <>
+          <CheckoutConsent
+            kind="DIGITAL"
+            locale={locale}
+            checked={consented}
+            onChange={setConsented}
+            className="w-full"
+          />
           <button
             type="button"
             onClick={unlockAllWithPayment}
-            disabled={bulkStage !== "idle"}
+            disabled={bulkStage !== "idle" || !consented}
             className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-background disabled:cursor-not-allowed disabled:opacity-60"
           >
             <CreditCard aria-hidden="true" size={17} />
             {bulkStage === "idle" ? copy.bulkButtonReady : copy.bulkPaying}
           </button>
+          </>
         ) : (
           <button
             type="button"

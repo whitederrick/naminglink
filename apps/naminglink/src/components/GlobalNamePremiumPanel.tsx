@@ -1,6 +1,7 @@
 "use client";
 
 import * as PortOne from "@portone/browser-sdk/v2";
+import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { FileText, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -681,6 +682,8 @@ export function GlobalNamePremiumPanel({
   const [selectedFonts, setSelectedFonts] = useState<string[]>([]);
   const [infoFont, setInfoFont] = useState<FontOption | null>(null);
   const [showAllFonts, setShowAllFonts] = useState(false);
+  // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
+  const [consented, setConsented] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [stage, setStage] = useState<
     "idle" | "ordering" | "paying" | "confirming" | "generating" | "ready"
@@ -875,6 +878,7 @@ export function GlobalNamePremiumPanel({
         ...(isPack ? { candidate } : { candidates }),
         fontCodes: selectedFonts,
         locale,
+        withdrawalConsent: true,
       });
       if (!order.response.ok || !order.data?.ok || !order.data.checkout) {
         throw new Error(order.data?.error || copy.failed);
@@ -1056,6 +1060,15 @@ export function GlobalNamePremiumPanel({
             {candidates.map((candidate) => candidate.hangul).join(" · ")}
           </p>
         )}
+        {stage !== "ready" ? (
+          <CheckoutConsent
+            kind="DIGITAL"
+            locale={locale}
+            checked={consented}
+            onChange={setConsented}
+            className="w-full"
+          />
+        ) : null}
         {stage === "ready" ? (
           <button
             type="button"
@@ -1069,7 +1082,11 @@ export function GlobalNamePremiumPanel({
           <button
             type="button"
             onClick={startPurchase}
-            disabled={busy || (requiredFonts > 0 && selectedFonts.length !== requiredFonts)}
+            disabled={
+              busy ||
+              !consented ||
+              (requiredFonts > 0 && selectedFonts.length !== requiredFonts)
+            }
             className="inline-flex h-11 items-center justify-center gap-2 self-end rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
           >
             <FileText aria-hidden="true" size={17} />
