@@ -68,9 +68,13 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     paddingVertical: 8,
     paddingHorizontal: 9,
-    alignItems: "center",
+    // 두 열일 때 오른쪽 열이 먼저 오도록 뒤집는다(낙관은 오른쪽에서 왼쪽으로 읽는다).
+    flexDirection: "row-reverse",
+    alignItems: "flex-start",
+    justifyContent: "center",
   },
-  sealChar: { color: colors.white, fontSize: 20, lineHeight: 1.05 },
+  sealColumn: { alignItems: "center", marginHorizontal: 1 },
+  sealChar: { color: colors.white, lineHeight: 1.05 },
   brand: { fontSize: 9, letterSpacing: 1.2, color: colors.muted },
   meta: { marginTop: 4, fontSize: 8, color: colors.muted },
   credit: { marginTop: 4, fontSize: 6.5, color: colors.muted },
@@ -95,6 +99,34 @@ export function ArtBackdrop({ image }: { image?: string | null }) {
       <Image src={image} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
     </View>
   );
+}
+
+/**
+ * 낙관에 새길 글자와 배치.
+ *
+ * 예전에는 `.slice(0, 3)`으로 앞 세 글자만 찍었다. 한국 이름이 대개 세 글자라 그때는 이름 전체가
+ * 들어갔지만, 음차는 사정이 다르다 — "다니엘 브룩스"는 "다니엘"이 되고, 순서만 바뀌었어도
+ * "브룩스"가 됐다. **이름이 아니라 조각이 찍히는 것이고, 우연히 맞을 때만 맞았다.**
+ *
+ * 그래서 자르지 않고 전부 넣는다. 대신 길어지면 전통 낙관처럼 **세로 두 열**로 나누고(오른쪽
+ * 열이 먼저다) 글자 크기를 줄여 상자 안에 들어오게 한다.
+ */
+export function sealLayout(hangul: string) {
+  const characters = [...hangul.replace(/\s/g, "")];
+  const count = characters.length;
+  if (count === 0) return { columns: [] as string[][], fontSize: 20 };
+
+  // 네 글자까지는 한 열로 세운다. 그 이상은 두 열로 나누되 오른쪽 열을 길게 잡는다.
+  if (count <= 4) {
+    const fontSize = count <= 3 ? 20 : 17;
+    return { columns: [characters], fontSize };
+  }
+
+  const rightCount = Math.ceil(count / 2);
+  const columns = [characters.slice(0, rightCount), characters.slice(rightCount)];
+  // 한 열에 들어가는 글자 수로 크기를 정한다. 8자(한 열 4자)까지는 읽을 만하다.
+  const fontSize = rightCount <= 3 ? 17 : rightCount <= 4 ? 14 : 11;
+  return { columns, fontSize };
 }
 
 export function artNameSize(hangul: string) {
@@ -146,6 +178,7 @@ export function ArtPage({
   font: ReportFontSnapshot | null;
   backdropImage?: string | null;
 }) {
+  const seal = sealLayout(hangul);
   return (
     <Page size="A4" orientation="landscape" style={styles.coverPage}>
       <View style={styles.frameOuter}>
@@ -165,10 +198,20 @@ export function ArtPage({
           </View>
           <View style={{ alignItems: "center" }}>
             <View style={styles.seal}>
-              {[...hangul.replace(/\s/g, "")].slice(0, 3).map((char, index) => (
-                <Text key={index} style={[styles.sealChar, { fontFamily }]}>
-                  {char}
-                </Text>
+              {seal.columns.map((column, columnIndex) => (
+                <View key={columnIndex} style={styles.sealColumn}>
+                  {column.map((char, index) => (
+                    <Text
+                      key={index}
+                      style={[
+                        styles.sealChar,
+                        { fontFamily, fontSize: seal.fontSize },
+                      ]}
+                    >
+                      {char}
+                    </Text>
+                  ))}
+                </View>
               ))}
             </View>
             <View style={{ alignItems: "center", marginTop: 12 }}>

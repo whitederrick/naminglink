@@ -792,29 +792,29 @@ export const services = {
           {
             name: "familyName",
             label: "성(한글)",
-            placeholder: "예: 안",
+            placeholder: "예: 이",
             required: true,
           },
           {
             name: "givenName",
             label: "이름(한글)",
-            placeholder: "예: 남규",
+            placeholder: "예: 도현",
             required: true,
           },
           {
             name: "familyNameHanja",
             label: "성의 한자(선택)",
-            placeholder: "예: 安",
+            placeholder: "예: 李",
           },
           {
             name: "givenNameHanja",
             label: "이름의 한자(선택)",
-            placeholder: "예: 南奎",
+            placeholder: "예: 道賢",
           },
           {
             name: "nameMeaning",
             label: "이름의 의미(선택)",
-            placeholder: "예: 南 남녘, 奎 별이름 — 남쪽 하늘의 큰 별처럼 넓게 비추길 바라는 이름. 한자가 없는 순우리말 이름도 뜻을 적어 주세요.",
+            placeholder: "예: 道 길 도, 賢 어질 현 — 바른 길을 걷는 어진 사람이 되길 바라는 이름. 한자가 없는 순우리말 이름도 뜻을 적어 주세요.",
             type: "textarea",
           },
           {
