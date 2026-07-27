@@ -1037,6 +1037,18 @@ export function GlobalNamePremiumPanel({
         </div>
       ) : null}
 
+      {/* 결제 전 고지는 그리드 밖에 둔다. 아래 그리드는 후보 선택|버튼 2열이라 항목을 하나 더
+          끼우면 상자가 좁은 열에 끼고 버튼이 다음 줄로 밀린다. */}
+      {stage !== "ready" ? (
+        <CheckoutConsent
+          kind="DIGITAL"
+          locale={locale}
+          checked={consented}
+          onChange={setConsented}
+          className="mt-5"
+        />
+      ) : null}
+
       <div className="mt-5 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto]">
         {isPack ? (
           <label className="grid gap-1 text-sm">
@@ -1060,15 +1072,6 @@ export function GlobalNamePremiumPanel({
             {candidates.map((candidate) => candidate.hangul).join(" · ")}
           </p>
         )}
-        {stage !== "ready" ? (
-          <CheckoutConsent
-            kind="DIGITAL"
-            locale={locale}
-            checked={consented}
-            onChange={setConsented}
-            className="w-full"
-          />
-        ) : null}
         {stage === "ready" ? (
           <button
             type="button"

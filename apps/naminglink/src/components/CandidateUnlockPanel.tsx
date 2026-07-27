@@ -718,6 +718,19 @@ export function CandidateUnlockPanel({
         </div>
       ) : null}
 
+      {/* 결제 전 고지는 그리드 밖에 둔다. 아래 그리드는 버튼 2개짜리라 항목을 하나 더 끼우면
+          상자가 버튼 자리를 차지하고 버튼이 다음 줄로 밀린다. 유료 일괄 공개가 열려 있을 때만
+          묻는다 — 광고 시청은 결제가 아니다. */}
+      {bulkConfigured && serviceType !== "HANJA_MEANING_MATCH" ? (
+        <CheckoutConsent
+          kind="DIGITAL"
+          locale={locale}
+          checked={consented}
+          onChange={setConsented}
+          className="mt-5"
+        />
+      ) : null}
+
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
         <button
           type="button"
@@ -737,14 +750,6 @@ export function CandidateUnlockPanel({
             {copy.hanjaProductsLink}
           </a>
         ) : bulkConfigured ? (
-          <>
-          <CheckoutConsent
-            kind="DIGITAL"
-            locale={locale}
-            checked={consented}
-            onChange={setConsented}
-            className="w-full"
-          />
           <button
             type="button"
             onClick={unlockAllWithPayment}
@@ -754,7 +759,6 @@ export function CandidateUnlockPanel({
             <CreditCard aria-hidden="true" size={17} />
             {bulkStage === "idle" ? copy.bulkButtonReady : copy.bulkPaying}
           </button>
-          </>
         ) : (
           <button
             type="button"
