@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import {
@@ -52,7 +51,6 @@ export function CompatibilityForm({
   dictionary: Dictionary;
   locale: Locale;
 }) {
-  const router = useRouter();
   const t = dictionary.form;
   const [personA, setPersonA] = useState<PersonDraft>(emptyPerson);
   const [personB, setPersonB] = useState<PersonDraft>(emptyPerson);
@@ -71,6 +69,20 @@ export function CompatibilityForm({
     return () => window.removeEventListener("pageshow", unlock);
   }, []);
 
+  // 결과 화면에서 "다시 계산하기"로 돌아오면 이전 조회의 프래그먼트가 주소에 남아 있다.
+  // 두 가지 이유로 지운다.
+  //   - 새 프래그먼트가 그 뒤에 덧붙어 `#앞것#뒷것`이 되던 원인이다.
+  //   - 이 화면은 그 값이 필요 없는데 남의 생년월일이 주소창에 계속 보인다.
+  // replaceState라 히스토리에 항목이 늘지 않는다.
+  useEffect(() => {
+    if (!window.location.hash) return;
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${window.location.search}`,
+    );
+  }, []);
+
   function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
     setError(null);
@@ -84,8 +96,18 @@ export function CompatibilityForm({
     setSubmitting(true);
     // 생년월일을 쿼리스트링에 싣지 않는다. 프래그먼트(#)는 서버로 전송되지 않으므로 결과
     // 링크를 공유하거나 새로고침해도 접속 로그에는 경로만 남는다.
-    const query = `?lang=${locale}`;
-    router.push(`/compatibility/result${query}#${encodeMatchInput(input)}`);
+    const target = `/compatibility/result?lang=${locale}#${encodeMatchInput(input)}`;
+
+    // **router.push를 쓰지 않는다.** 두 번째 조회에서 주소가
+    // `...result?lang=ko#첫번째프래그먼트#두번째프래그먼트`가 되는 일이 있었다. 프래그먼트가
+    // 둘이면 `location.hash`에 `#`가 섞여 들어가 base64 디코딩이 깨지고, 결과 화면은
+    // "결과 정보를 읽을 수 없습니다"를 띄운다.
+    //
+    // location.assign은 넘긴 문자열이 그대로 주소가 되므로 프래그먼트가 하나임이 보장되고,
+    // 문서가 새로 뜨는 만큼 **스크립트가 돌기 전에 주소가 확정돼 있다** — 결과 화면이 해시를
+    // 빈 값으로 읽는 경합도 함께 사라진다. 전체 이동이라 전환이 조금 느려지지만, 이 화면은
+    // 어차피 결과를 받으러 서버를 한 번 다녀온다.
+    window.location.assign(target);
   }
 
   return (

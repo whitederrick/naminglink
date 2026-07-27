@@ -59,7 +59,11 @@ export function MatchResultView({
 
     // commitEmpty=false면 빈 해시는 아직 "결론"으로 삼지 않는다.
     const sync = (commitEmpty: boolean) => {
-      const current = window.location.hash.slice(1);
+      // 프래그먼트가 둘 붙어 있는 주소가 실제로 만들어졌었다
+      // (`#첫번째조회#두번째조회`). 그런 주소가 이미 공유됐을 수 있으므로 마지막 조각을
+      // 쓴다 — 나중에 붙은 쪽이 그 화면이 보여 주려던 결과다. 프래그먼트가 하나면
+      // split 결과도 하나라 동작이 달라지지 않는다.
+      const current = window.location.hash.slice(1).split("#").pop() ?? "";
       if (!current && !commitEmpty) return false;
       setResolvedFragment((previous) =>
         previous === current ? previous : current,
