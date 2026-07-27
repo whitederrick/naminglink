@@ -45,11 +45,22 @@ type ApiResult = {
   result?: unknown;
   persistence?: "saved" | "skipped" | "failed";
   error?: string;
-  fieldErrors?: NamingFieldErrors; analysisMeta?: { officialCandidateCount?: number | null };
+  fieldErrors?: NamingFieldErrors;
+  analysisMeta?: {
+    officialCandidateCount?: number | null;
+    /** 불용문자로 분류되어 후보에서 빠진 글자들. */
+    avoidedExcluded?: Array<{
+      hanja: string;
+      reading: string;
+      reason: string;
+      categoryLabel: string;
+    }>;
+  };
 };
 // Analysis metadata is returned while the result is being prepared.
 
 function fieldInitialValue(field: FieldConfig) {
+  if (field.type === "checkbox") return field.defaultChecked ? "on" : "";
   return field.type === "select" ? field.options?.[0]?.value ?? "" : "";
 }
 
@@ -69,6 +80,23 @@ function FieldInput({
   disabled?: boolean;
 }) {
   const disabledClass = disabled ? " disabled:cursor-not-allowed disabled:opacity-50" : "";
+
+  // 켬/끔 하나로 끝나는 항목. 라벨은 바깥에서 이미 그리므로 여기서는 설명만 붙인다.
+  if (field.type === "checkbox") {
+    return (
+      <label className="flex items-start gap-2.5 text-sm leading-6">
+        <input
+          type="checkbox"
+          disabled={disabled}
+          checked={value === "on"}
+          onChange={(event) => onChange(event.target.checked ? "on" : "")}
+          className={`mt-1.5 size-4 shrink-0 accent-brand-teal${disabledClass}`}
+        />
+        <span className="break-keep-all text-muted">{field.placeholder}</span>
+      </label>
+    );
+  }
+
   if (field.type === "select") {
     return (
       <select
@@ -286,6 +314,9 @@ export function NamingForm({
   const [analysisCountdown, setAnalysisCountdown] = useState(0);
   const [officialCandidateCount, setOfficialCandidateCount] =
     useState<number | null>(null);
+  const [avoidedExcluded, setAvoidedExcluded] = useState<
+    NonNullable<ApiResult["analysisMeta"]>["avoidedExcluded"]
+  >([]);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
   const [isSignedIn, setIsSignedIn] = useState(false);
@@ -439,7 +470,7 @@ export function NamingForm({
       // Candidate count is available after the response body is parsed.
       // It is shown during any remaining part of the ten-second analysis window.
 
-      const payload = (await response.json()) as ApiResult; setOfficialCandidateCount(payload.analysisMeta?.officialCandidateCount ?? null);
+      const payload = (await response.json()) as ApiResult; setOfficialCandidateCount(payload.analysisMeta?.officialCandidateCount ?? null); setAvoidedExcluded(payload.analysisMeta?.avoidedExcluded ?? []);
 
       if (!response.ok || !payload.ok) {
         if (payload.fieldErrors) setFieldErrors(payload.fieldErrors);
@@ -988,6 +1019,30 @@ export function NamingForm({
               locale={isForeignAudience ? locale : "ko"}
               candidateCount={officialCandidateCount}
             />
+
+            {/* 무엇이 왜 빠졌는지 밝힌다. 이유 없이 후보가 줄면 이용자는 흔한 글자가 없는 것을
+                오류로 여기고, 그 글자를 원하는 사람은 되돌릴 방법도 모른다. */}
+            {isHanjaMeaning && avoidedExcluded && avoidedExcluded.length > 0 ? (
+              <details className="mt-4 rounded-lg border border-line bg-background px-4 py-3">
+                <summary className="cursor-pointer text-sm font-semibold">
+                  전통상 기피되어 제외한 한자 {avoidedExcluded.length}자
+                </summary>
+                <p className="mt-2 text-xs leading-5 text-muted">
+                  법적 제한이 아니라 전통 성명학의 관습입니다. 원하시면 입력 화면에서
+                  &ldquo;불용문자 제외&rdquo;를 끄고 다시 조회하실 수 있습니다.
+                </p>
+                <ul className="mt-2 grid gap-1.5 text-xs leading-5 text-muted">
+                  {avoidedExcluded.map((item) => (
+                    <li key={item.hanja} className="break-keep-all">
+                      <span className="font-semibold text-foreground">
+                        {item.hanja}({item.reading})
+                      </span>{" "}
+                      · {item.categoryLabel} — {item.reason}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : null}
           </div>
         </div>
       ) : null}

@@ -1,0 +1,935 @@
+{
+  "meta": {
+    "title": "naminglink 불용문자(논쟁적) 목록 — 사용자 토글용",
+    "generated": "2026-07-27",
+    "scope": "논쟁적 불용문자만. 확실한 부정·불길자(死·病·凶 등 하드 제외 대상)는 제외.",
+    "notes": [
+      "성명학 관습 기반이라 절대 규칙이 아니며 작명가·시대마다 다름.",
+      "commonly_used=true 는 관습상 기피 목록에 오르지만 실제로는 흔히 쓰여 논쟁적인 글자.",
+      "실제 필터는 LLM이 아니라 이 목록으로 후처리 제외 권장. 결과에 제외 사유를 노출하면 신뢰도↑.",
+      "적용 범위: 한국 이름·한자 작명 흐름 한정(글로벌/타 서비스엔 미적용 권장)."
+    ]
+  },
+  "count": 62,
+  "categories": [
+    {
+      "key": "treasure_object",
+      "label": "귀함·물건(보석·재물)",
+      "principle": "뜻이 지나치게 귀하거나 사물(보석·재물)을 뜻해 사람 이름의 주체성과 안 맞는다고 봄",
+      "chars": [
+        {
+          "hanja": "珍",
+          "reading": "보배 진",
+          "reason": "지극히 귀한 보물이자 '물건'을 뜻해, 뜻이 과하고 사람을 사물화한다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "寶",
+          "reading": "보배 보",
+          "reason": "보물(물건). 뜻이 지나치게 귀해 감당 못 한다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "玉",
+          "reading": "구슬 옥",
+          "reason": "보석(물건). 옛 여성·천민 이름 어감도 겹쳐 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "珠",
+          "reading": "구슬 주",
+          "reason": "구슬·보석(물건)이라 사람 이름에 부적합하다고 봄",
+          "commonly_used": true
+        },
+        {
+          "hanja": "金",
+          "reading": "쇠/성 금",
+          "reason": "금(재물)·쇠를 뜻함. 물건·재물 의미(성씨로 쓰일 때는 무관)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "銀",
+          "reading": "은 은",
+          "reason": "은(재물)이라 물건·재물 의미로 기피",
+          "commonly_used": false
+        },
+        {
+          "hanja": "圭",
+          "reading": "서옥 규",
+          "reason": "옥으로 만든 홀(보석·물건)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "琳",
+          "reading": "옥 림",
+          "reason": "아름다운 옥(보석)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "玲",
+          "reading": "옥소리 령",
+          "reason": "옥이 부딪는 소리, 옥(보석) 계열",
+          "commonly_used": true
+        },
+        {
+          "hanja": "瑚",
+          "reading": "산호 호",
+          "reason": "산호(보석)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "璿",
+          "reading": "구슬 선",
+          "reason": "아름다운 옥(보석)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "瑛",
+          "reading": "옥빛 영",
+          "reason": "옥의 광채(보석)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "貴",
+          "reading": "귀할 귀",
+          "reason": "지나치게 귀함. 과유불급으로 오히려 박복하다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "富",
+          "reading": "부자 부",
+          "reason": "재물. 부는 흥망·시기가 따른다고 보아 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "財",
+          "reading": "재물 재",
+          "reason": "재물(물건)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "錢",
+          "reading": "돈 전",
+          "reason": "돈(물건)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "福",
+          "reading": "복 복",
+          "reason": "복이 지나치면 오히려 화가 된다는 관념(논쟁적, 실제 다용)",
+          "commonly_used": true
+        }
+      ]
+    },
+    {
+      "key": "royalty",
+      "label": "제왕·존귀(기 셈)",
+      "principle": "제왕·최상의 신분이라 그 기운을 감당 못 한다고 봄",
+      "chars": [
+        {
+          "hanja": "王",
+          "reading": "임금 왕",
+          "reason": "제왕의 신분이라 지나쳐 감당 못 한다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "帝",
+          "reading": "임금 제",
+          "reason": "황제. 신분이 극에 달해 기가 세다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "皇",
+          "reading": "임금 황",
+          "reason": "황제. 위와 동일",
+          "commonly_used": false
+        },
+        {
+          "hanja": "君",
+          "reading": "임금 군",
+          "reason": "임금·그대. 존귀함이 과하다고 보나 실제로는 흔히 씀",
+          "commonly_used": true
+        },
+        {
+          "hanja": "上",
+          "reading": "윗 상",
+          "reason": "최상이라 더 오를 데 없음(과유불급)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "元",
+          "reading": "으뜸 원",
+          "reason": "으뜸·처음. 정점의 뜻으로 기피되나 실제 다용",
+          "commonly_used": true
+        },
+        {
+          "hanja": "太",
+          "reading": "클 태",
+          "reason": "지나치게 큼. 과함으로 기피되나 실제 다용",
+          "commonly_used": true
+        },
+        {
+          "hanja": "大",
+          "reading": "큰 대",
+          "reason": "큼. 지나치다고 보나 실제 다용",
+          "commonly_used": true
+        }
+      ]
+    },
+    {
+      "key": "divine",
+      "label": "신령·초월(기 셈)",
+      "principle": "신·불·선 등 인간을 넘어선 존재라 기가 세고 고립된다고 봄",
+      "chars": [
+        {
+          "hanja": "神",
+          "reading": "귀신/신 신",
+          "reason": "인간을 넘어선 신령이라 기가 세다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "仙",
+          "reading": "신선 선",
+          "reason": "속세를 벗어난 신선 → 고립·비현실로 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "聖",
+          "reading": "성인 성",
+          "reason": "성인. 인간이 감당 못 할 경지라고 봄",
+          "commonly_used": true
+        },
+        {
+          "hanja": "佛",
+          "reading": "부처 불",
+          "reason": "부처. 종교적·초월적 존재라 기피",
+          "commonly_used": false
+        },
+        {
+          "hanja": "靈",
+          "reading": "신령 령",
+          "reason": "신령·혼령이라 기가 세다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "龍",
+          "reading": "용 룡",
+          "reason": "상상의 신물. 기가 지나치다고 보나 길상으로도 씀(논쟁적)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "鳳",
+          "reading": "봉새 봉",
+          "reason": "상상의 서조(瑞鳥). 기가 세다고 보나 길상으로도 씀(논쟁적)",
+          "commonly_used": true
+        }
+      ]
+    },
+    {
+      "key": "nature_sky",
+      "label": "자연·천체(지나침·무상)",
+      "principle": "천체·자연물이라 사람이 담기엔 지나치게 크거나, 곧 스러져 무상하다고 봄",
+      "chars": [
+        {
+          "hanja": "天",
+          "reading": "하늘 천",
+          "reason": "하늘. 사람이 담기엔 지나치게 크다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "地",
+          "reading": "땅 지",
+          "reason": "땅. 위와 대비되나 역시 지나치다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "日",
+          "reading": "해 일",
+          "reason": "해. 양기가 지나치게 강하다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "月",
+          "reading": "달 월",
+          "reason": "달. 차고 기우니 무상하다고 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "星",
+          "reading": "별 성",
+          "reason": "별. 멀고 덧없다고 보나 실제 다용",
+          "commonly_used": true
+        },
+        {
+          "hanja": "雲",
+          "reading": "구름 운",
+          "reason": "구름. 흩어져 사라짐(무상)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "雪",
+          "reading": "눈 설",
+          "reason": "눈. 차갑고 곧 녹아 사라짐(무상)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "霜",
+          "reading": "서리 상",
+          "reason": "서리. 차갑고 초목을 시들게 함",
+          "commonly_used": false
+        },
+        {
+          "hanja": "露",
+          "reading": "이슬 로",
+          "reason": "이슬. 곧 사라짐(덧없음)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "霞",
+          "reading": "노을 하",
+          "reason": "노을. 잠깐 빛나고 스러짐",
+          "commonly_used": false
+        },
+        {
+          "hanja": "江",
+          "reading": "강 강",
+          "reason": "강물처럼 흘러가 버린다고 보나 실제 다용",
+          "commonly_used": true
+        },
+        {
+          "hanja": "海",
+          "reading": "바다 해",
+          "reason": "바다. 지나치게 크다고 보나 실제 다용",
+          "commonly_used": true
+        },
+        {
+          "hanja": "山",
+          "reading": "메 산",
+          "reason": "산. 무겁고 외롭다고 보나 실제 다용",
+          "commonly_used": true
+        }
+      ]
+    },
+    {
+      "key": "animal",
+      "label": "동물",
+      "principle": "동물을 뜻해 사람 이름에 부적합하다고 봄",
+      "chars": [
+        {
+          "hanja": "龜",
+          "reading": "거북 귀",
+          "reason": "동물이라 사람 이름에 부적합. 장수 상징이나 어감 기피",
+          "commonly_used": false
+        },
+        {
+          "hanja": "虎",
+          "reading": "범 호",
+          "reason": "맹수라 기가 세고 사납다고 봄",
+          "commonly_used": true
+        },
+        {
+          "hanja": "馬",
+          "reading": "말 마",
+          "reason": "동물이라 사람 이름에 부적합",
+          "commonly_used": false
+        },
+        {
+          "hanja": "牛",
+          "reading": "소 우",
+          "reason": "동물이라 사람 이름에 부적합",
+          "commonly_used": false
+        },
+        {
+          "hanja": "鶴",
+          "reading": "학 학",
+          "reason": "새. 장수 상징으로 쓰기도 하나 동물이라 기피(논쟁적)",
+          "commonly_used": true
+        }
+      ]
+    },
+    {
+      "key": "excess",
+      "label": "과유불급(극단·완성)",
+      "principle": "뜻이 정점·완성에 달해 더 발전할 여지가 없다고 봄(달도 차면 기운다)",
+      "chars": [
+        {
+          "hanja": "完",
+          "reading": "완전할 완",
+          "reason": "이미 완성 → 더 나아갈 여지가 없다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "滿",
+          "reading": "찰 만",
+          "reason": "가득 참 → 차면 기운다(과하면 쇠퇴)",
+          "commonly_used": true
+        },
+        {
+          "hanja": "極",
+          "reading": "다할 극",
+          "reason": "극에 달함 → 더는 없음(극단)",
+          "commonly_used": false
+        },
+        {
+          "hanja": "最",
+          "reading": "가장 최",
+          "reason": "최상 → 더 오를 데 없음",
+          "commonly_used": false
+        },
+        {
+          "hanja": "終",
+          "reading": "마칠 종",
+          "reason": "끝·마침을 뜻해 불길하다고 봄",
+          "commonly_used": false
+        }
+      ]
+    },
+    {
+      "key": "season_etc",
+      "label": "계절·성별 어감",
+      "principle": "특정 계절에 치우치거나 구식·낮은 어감이라 기피",
+      "chars": [
+        {
+          "hanja": "春",
+          "reading": "봄 춘",
+          "reason": "봄에만 왕성하고 다른 계절엔 흉하다는 논리로 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "夏",
+          "reading": "여름 하",
+          "reason": "여름에 치우쳐 균형이 없다고 봄",
+          "commonly_used": false
+        },
+        {
+          "hanja": "秋",
+          "reading": "가을 추",
+          "reason": "가을은 쇠락·조락의 계절이라 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "冬",
+          "reading": "겨울 동",
+          "reason": "겨울은 춥고 만물이 잠드는 계절이라 기피",
+          "commonly_used": false
+        },
+        {
+          "hanja": "順",
+          "reading": "순할 순",
+          "reason": "옛 여성 이름 어감으로 구식·격 낮게 여겨져 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "子",
+          "reading": "아들 자",
+          "reason": "근대 여성 이름(~자) 어감으로 구식이라 기피",
+          "commonly_used": true
+        },
+        {
+          "hanja": "女",
+          "reading": "계집 녀",
+          "reason": "성별을 직접 지칭·낮은 어감이라 기피",
+          "commonly_used": false
+        }
+      ]
+    }
+  ],
+  "flat": [
+    {
+      "hanja": "珍",
+      "reading": "보배 진",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "지극히 귀한 보물이자 '물건'을 뜻해, 뜻이 과하고 사람을 사물화한다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "寶",
+      "reading": "보배 보",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "보물(물건). 뜻이 지나치게 귀해 감당 못 한다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "玉",
+      "reading": "구슬 옥",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "보석(물건). 옛 여성·천민 이름 어감도 겹쳐 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "珠",
+      "reading": "구슬 주",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "구슬·보석(물건)이라 사람 이름에 부적합하다고 봄",
+      "commonly_used": true
+    },
+    {
+      "hanja": "金",
+      "reading": "쇠/성 금",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "금(재물)·쇠를 뜻함. 물건·재물 의미(성씨로 쓰일 때는 무관)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "銀",
+      "reading": "은 은",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "은(재물)이라 물건·재물 의미로 기피",
+      "commonly_used": false
+    },
+    {
+      "hanja": "圭",
+      "reading": "서옥 규",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "옥으로 만든 홀(보석·물건)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "琳",
+      "reading": "옥 림",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "아름다운 옥(보석)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "玲",
+      "reading": "옥소리 령",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "옥이 부딪는 소리, 옥(보석) 계열",
+      "commonly_used": true
+    },
+    {
+      "hanja": "瑚",
+      "reading": "산호 호",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "산호(보석)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "璿",
+      "reading": "구슬 선",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "아름다운 옥(보석)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "瑛",
+      "reading": "옥빛 영",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "옥의 광채(보석)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "貴",
+      "reading": "귀할 귀",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "지나치게 귀함. 과유불급으로 오히려 박복하다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "富",
+      "reading": "부자 부",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "재물. 부는 흥망·시기가 따른다고 보아 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "財",
+      "reading": "재물 재",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "재물(물건)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "錢",
+      "reading": "돈 전",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "돈(물건)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "福",
+      "reading": "복 복",
+      "category": "treasure_object",
+      "category_label": "귀함·물건(보석·재물)",
+      "reason": "복이 지나치면 오히려 화가 된다는 관념(논쟁적, 실제 다용)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "王",
+      "reading": "임금 왕",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "제왕의 신분이라 지나쳐 감당 못 한다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "帝",
+      "reading": "임금 제",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "황제. 신분이 극에 달해 기가 세다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "皇",
+      "reading": "임금 황",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "황제. 위와 동일",
+      "commonly_used": false
+    },
+    {
+      "hanja": "君",
+      "reading": "임금 군",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "임금·그대. 존귀함이 과하다고 보나 실제로는 흔히 씀",
+      "commonly_used": true
+    },
+    {
+      "hanja": "上",
+      "reading": "윗 상",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "최상이라 더 오를 데 없음(과유불급)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "元",
+      "reading": "으뜸 원",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "으뜸·처음. 정점의 뜻으로 기피되나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "太",
+      "reading": "클 태",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "지나치게 큼. 과함으로 기피되나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "大",
+      "reading": "큰 대",
+      "category": "royalty",
+      "category_label": "제왕·존귀(기 셈)",
+      "reason": "큼. 지나치다고 보나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "神",
+      "reading": "귀신/신 신",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "인간을 넘어선 신령이라 기가 세다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "仙",
+      "reading": "신선 선",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "속세를 벗어난 신선 → 고립·비현실로 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "聖",
+      "reading": "성인 성",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "성인. 인간이 감당 못 할 경지라고 봄",
+      "commonly_used": true
+    },
+    {
+      "hanja": "佛",
+      "reading": "부처 불",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "부처. 종교적·초월적 존재라 기피",
+      "commonly_used": false
+    },
+    {
+      "hanja": "靈",
+      "reading": "신령 령",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "신령·혼령이라 기가 세다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "龍",
+      "reading": "용 룡",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "상상의 신물. 기가 지나치다고 보나 길상으로도 씀(논쟁적)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "鳳",
+      "reading": "봉새 봉",
+      "category": "divine",
+      "category_label": "신령·초월(기 셈)",
+      "reason": "상상의 서조(瑞鳥). 기가 세다고 보나 길상으로도 씀(논쟁적)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "天",
+      "reading": "하늘 천",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "하늘. 사람이 담기엔 지나치게 크다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "地",
+      "reading": "땅 지",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "땅. 위와 대비되나 역시 지나치다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "日",
+      "reading": "해 일",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "해. 양기가 지나치게 강하다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "月",
+      "reading": "달 월",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "달. 차고 기우니 무상하다고 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "星",
+      "reading": "별 성",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "별. 멀고 덧없다고 보나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "雲",
+      "reading": "구름 운",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "구름. 흩어져 사라짐(무상)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "雪",
+      "reading": "눈 설",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "눈. 차갑고 곧 녹아 사라짐(무상)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "霜",
+      "reading": "서리 상",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "서리. 차갑고 초목을 시들게 함",
+      "commonly_used": false
+    },
+    {
+      "hanja": "露",
+      "reading": "이슬 로",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "이슬. 곧 사라짐(덧없음)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "霞",
+      "reading": "노을 하",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "노을. 잠깐 빛나고 스러짐",
+      "commonly_used": false
+    },
+    {
+      "hanja": "江",
+      "reading": "강 강",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "강물처럼 흘러가 버린다고 보나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "海",
+      "reading": "바다 해",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "바다. 지나치게 크다고 보나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "山",
+      "reading": "메 산",
+      "category": "nature_sky",
+      "category_label": "자연·천체(지나침·무상)",
+      "reason": "산. 무겁고 외롭다고 보나 실제 다용",
+      "commonly_used": true
+    },
+    {
+      "hanja": "龜",
+      "reading": "거북 귀",
+      "category": "animal",
+      "category_label": "동물",
+      "reason": "동물이라 사람 이름에 부적합. 장수 상징이나 어감 기피",
+      "commonly_used": false
+    },
+    {
+      "hanja": "虎",
+      "reading": "범 호",
+      "category": "animal",
+      "category_label": "동물",
+      "reason": "맹수라 기가 세고 사납다고 봄",
+      "commonly_used": true
+    },
+    {
+      "hanja": "馬",
+      "reading": "말 마",
+      "category": "animal",
+      "category_label": "동물",
+      "reason": "동물이라 사람 이름에 부적합",
+      "commonly_used": false
+    },
+    {
+      "hanja": "牛",
+      "reading": "소 우",
+      "category": "animal",
+      "category_label": "동물",
+      "reason": "동물이라 사람 이름에 부적합",
+      "commonly_used": false
+    },
+    {
+      "hanja": "鶴",
+      "reading": "학 학",
+      "category": "animal",
+      "category_label": "동물",
+      "reason": "새. 장수 상징으로 쓰기도 하나 동물이라 기피(논쟁적)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "完",
+      "reading": "완전할 완",
+      "category": "excess",
+      "category_label": "과유불급(극단·완성)",
+      "reason": "이미 완성 → 더 나아갈 여지가 없다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "滿",
+      "reading": "찰 만",
+      "category": "excess",
+      "category_label": "과유불급(극단·완성)",
+      "reason": "가득 참 → 차면 기운다(과하면 쇠퇴)",
+      "commonly_used": true
+    },
+    {
+      "hanja": "極",
+      "reading": "다할 극",
+      "category": "excess",
+      "category_label": "과유불급(극단·완성)",
+      "reason": "극에 달함 → 더는 없음(극단)",
+      "commonly_used": false
+    },
+    {
+      "hanja": "最",
+      "reading": "가장 최",
+      "category": "excess",
+      "category_label": "과유불급(극단·완성)",
+      "reason": "최상 → 더 오를 데 없음",
+      "commonly_used": false
+    },
+    {
+      "hanja": "終",
+      "reading": "마칠 종",
+      "category": "excess",
+      "category_label": "과유불급(극단·완성)",
+      "reason": "끝·마침을 뜻해 불길하다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "春",
+      "reading": "봄 춘",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "봄에만 왕성하고 다른 계절엔 흉하다는 논리로 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "夏",
+      "reading": "여름 하",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "여름에 치우쳐 균형이 없다고 봄",
+      "commonly_used": false
+    },
+    {
+      "hanja": "秋",
+      "reading": "가을 추",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "가을은 쇠락·조락의 계절이라 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "冬",
+      "reading": "겨울 동",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "겨울은 춥고 만물이 잠드는 계절이라 기피",
+      "commonly_used": false
+    },
+    {
+      "hanja": "順",
+      "reading": "순할 순",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "옛 여성 이름 어감으로 구식·격 낮게 여겨져 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "子",
+      "reading": "아들 자",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "근대 여성 이름(~자) 어감으로 구식이라 기피",
+      "commonly_used": true
+    },
+    {
+      "hanja": "女",
+      "reading": "계집 녀",
+      "category": "season_etc",
+      "category_label": "계절·성별 어감",
+      "reason": "성별을 직접 지칭·낮은 어감이라 기피",
+      "commonly_used": false
+    }
+  ]
+}

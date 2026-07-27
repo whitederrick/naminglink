@@ -47,7 +47,9 @@ export type FieldConfig = {
   label: string;
   hint?: string;
   placeholder?: string;
-  type?: "text" | "textarea" | "select";
+  type?: "text" | "textarea" | "select" | "checkbox";
+  /** checkbox 전용. 체크 상태의 값("on")으로 시작할지. */
+  defaultChecked?: boolean;
   options?: FieldOption[];
   required?: boolean;
 };
@@ -764,6 +766,21 @@ export const services = {
             label: "피하고 싶은 의미/한자(선택)",
             placeholder: "예: 너무 강한 기운, 죽음/병/원망 계열 의미, 가족 이름과 중복",
             type: "textarea",
+          },
+          {
+            name: "avoidTraditionalHanja",
+            label: "불용문자 제외",
+            type: "checkbox",
+            defaultChecked: true,
+            placeholder:
+              "전통적으로 이름에 잘 안 쓰는 한자(불용문자)를 후보에서 뺍니다. 뜻이 지나치게 귀하거나(珍·寶), 기가 너무 세다고 보는 글자(王·帝)가 여기 해당합니다. 법적 제한이 아니라 전통 성명학의 관습이며, 무엇이 빠졌는지는 결과에 함께 보여 드립니다.",
+          },
+          {
+            name: "avoidCommonlyUsedHanja",
+            label: "논쟁적인 글자까지 제외 (고급)",
+            type: "checkbox",
+            placeholder:
+              "기피 목록에 오르지만 실제로는 흔히 쓰이는 글자(圭·琳·玲·元·太·星·海 등)까지 뺍니다. 켜면 후보가 크게 줄어듭니다.",
           },
         ],
       },

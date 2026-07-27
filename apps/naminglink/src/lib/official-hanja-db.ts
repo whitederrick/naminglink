@@ -1,4 +1,5 @@
 import "server-only";
+import { loadAvoidedHanja, type AvoidedHanja } from "@/lib/avoid-hanja";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export type OfficialHanjaCandidate = {
@@ -80,6 +81,14 @@ export async function getOfficialHanjaMeanings(characters: string[]) {
 
 export async function getOfficialHanjaCandidates(
   inputFactors: Record<string, unknown>,
+  /**
+   * 전통 작명에서 기피하는 한자(불용문자)를 허용 목록에서 뺄지.
+   *
+   * **여기서 빼는 것이 핵심이다.** 이 목록은 규칙 엔진과 LLM 프롬프트가 함께 쓰는 단일 출처라,
+   * 여기서 빠지면 두 경로 모두에서 결정적으로 사라진다. 프롬프트에 "쓰지 말라"고 적는 방식은
+   * 모델이 지키지 않으면 그만이다.
+   */
+  options?: { excludeAvoided?: boolean; includeCommonlyUsed?: boolean },
 ) {
   const syllables = hangulSyllables(inputFactors.givenNameHangul);
   const supabase = getSupabaseAdminClient();
@@ -117,9 +126,22 @@ export async function getOfficialHanjaCandidates(
 
     if (!entries.length) return null;
 
+    // 기피 목록은 부류가 켜져 있는 것만 온다. 목록을 못 읽으면 비어 있어 아무것도 걸러지지 않는다.
+    const avoided = options?.excludeAvoided
+      ? await loadAvoidedHanja({ includeCommonlyUsed: options.includeCommonlyUsed })
+      : new Map();
+    const excluded: AvoidedHanja[] = [];
+
     const candidates: Record<string, OfficialHanjaCandidate[]> = {};
 
     for (const entry of entries) {
+      const avoidedEntry = avoided.get(String(entry.hanja));
+      if (avoidedEntry) {
+        if (!excluded.some((item) => item.hanja === avoidedEntry.hanja)) {
+          excluded.push(avoidedEntry);
+        }
+        continue;
+      }
       const syllable = String(entry.hangul_syllable);
       const metadata =
         entry.metadata && typeof entry.metadata === "object"
@@ -151,6 +173,8 @@ export async function getOfficialHanjaCandidates(
         versionLabel: source.version_label,
       },
       candidates,
+      /** 기피 목록 때문에 빠진 글자들. 화면에 "왜 없는지"를 밝히는 데 쓴다. */
+      excludedAvoided: excluded,
     };
   } catch {
     return null;

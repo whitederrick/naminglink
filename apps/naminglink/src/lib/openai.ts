@@ -399,9 +399,13 @@ export async function generateNamingResult(
     serviceType === "HANJA_MEANING_MATCH"
       ? getGenerationConstraint(inputFactors)
       : null;
+  // 불용문자 제외는 한국 이름·한자 흐름에만 적용한다. 관습이 다른 글로벌 서비스에는 붙이지 않는다.
   const officialHanja =
     serviceType === "HANJA_MEANING_MATCH"
-      ? await getOfficialHanjaCandidates(inputFactors)
+      ? await getOfficialHanjaCandidates(inputFactors, {
+          excludeAvoided: inputFactors.avoidTraditionalHanja === "on",
+          includeCommonlyUsed: inputFactors.avoidCommonlyUsedHanja === "on",
+        })
       : null;
   let officialCandidates = officialHanja?.candidates;
 
@@ -426,6 +430,14 @@ export async function generateNamingResult(
       [generationConstraint.syllable]: fixedOptions,
     };
   }
+
+  // 불용문자 때문에 빠진 글자. "왜 흔한 글자가 없지?"에 답하려면 결과에 함께 나가야 한다.
+  const avoidedExcluded = (officialHanja?.excludedAvoided ?? []).map((entry) => ({
+    hanja: entry.hanja,
+    reading: entry.reading,
+    reason: entry.reason,
+    categoryLabel: entry.categoryLabel,
+  }));
 
   const officialCandidateCount = officialCandidates
     ? Object.values(officialCandidates).reduce((sum, options) => sum + options.length, 0)
@@ -515,7 +527,7 @@ export async function generateNamingResult(
 
     return {
       result: clientResult,
-      analysisMeta: { officialCandidateCount },
+      analysisMeta: { officialCandidateCount, avoidedExcluded },
       usage: {
         model:
           serviceType === "HANJA_MEANING_MATCH"
@@ -586,7 +598,7 @@ export async function generateNamingResult(
 
   return {
     result: clientResult,
-    analysisMeta: { officialCandidateCount },
+    analysisMeta: { officialCandidateCount, avoidedExcluded },
     usage: {
       model: completion.model,
       promptTokens: completion.usage?.prompt_tokens ?? 0,
