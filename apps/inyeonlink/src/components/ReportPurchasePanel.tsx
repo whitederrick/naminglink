@@ -183,6 +183,16 @@ export function ReportPurchasePanel({
 
   const busy =
     stage.name === "ordering" || stage.name === "paying" || stage.name === "issuing";
+
+  // 동의는 **주문을 만들기 전에만** 묻는다.
+  //
+  // 팔지도 않는 상품(판매 전)의 청약철회에 먼저 동의하라는 것은 말이 되지 않고, 주문이 만들어진
+  // 뒤에는 동의 사실이 이미 서버에 남아 있어 화면에서 되돌릴 수 있게 두면 기록과 어긋난다.
+  // 다시 받기도 이미 결제하며 동의한 주문이다.
+  const onSale = Boolean(offerPrice);
+  const consentNeeded =
+    onSale && (stage.name === "idle" || stage.name === "failed");
+  const blocked = busy || !onSale || (consentNeeded && !consented);
   const busyLabel =
     stage.name === "ordering"
       ? t.ordering
@@ -218,6 +228,7 @@ export function ReportPurchasePanel({
         </dl>
       </details>
 
+      {consentNeeded ? (
       <label className="mt-4 flex items-start gap-2.5 text-sm leading-6">
         <input
           type="checkbox"
@@ -229,6 +240,7 @@ export function ReportPurchasePanel({
           {renderEmphasis(t.consentLabel)}
         </span>
       </label>
+      ) : null}
 
       {stage.name === "paypal" ? (
         <div className="portone-ui-container mt-5" />
@@ -236,7 +248,7 @@ export function ReportPurchasePanel({
         <button
           type="button"
           onClick={stage.name === "done" ? () => void download(stage.checkout) : buy}
-          disabled={busy || !consented}
+          disabled={blocked}
           className="mt-5 w-full rounded-full bg-brand-plum px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {busy
@@ -249,6 +261,11 @@ export function ReportPurchasePanel({
         </button>
       )}
 
+      {consentNeeded && !consented ? (
+        <p className="break-keep-all mt-2 text-xs leading-5 text-muted">
+          {t.consentRequired}
+        </p>
+      ) : null}
       {stage.name === "done" ? (
         <p className="break-keep-all mt-3 text-sm text-brand-sage">{t.done}</p>
       ) : null}
