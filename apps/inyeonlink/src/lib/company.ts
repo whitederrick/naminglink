@@ -1,17 +1,34 @@
 // 사업자 정보.
 //
-// naminglink(`apps/naminglink/src/lib/company.ts`)와 **같은 사업자**라 값이 같아야 한다.
-// 그런데 naminglink는 관리자 화면에서 DB로 덮어쓸 수 있고 이 앱은 DB를 쓰지 않으므로,
-// 지금은 각자 두고 사람이 맞춘다. 사업자등록번호·통신판매업 신고번호가 나오면
-// **양쪽 다** 고쳐야 한다(naminglink는 관리자 화면, 여기는 이 파일).
+// **값을 여기에 적지 않는다.** naminglink 관리자 화면이 고치는 `site_contents`의 `footer.global`
+// 행이 원본이고, 이 앱은 그것을 읽어 쓴다(`company-server.ts`). 같은 사업자인데 저장 위치가
+// 둘이면 반드시 어긋나기 때문이다 — 실제로 어긋나 있었다. naminglink는 DB에서 사업자등록번호와
+// 실제 주소를 보여 주는데 인연링크만 "준비 중"과 "서울특별시"를 내보내고 있었다.
 //
-// 두 곳을 계속 손으로 맞추는 게 부담이 되면 packages/core로 올린다. 지금은 값이 확정되기
-// 전이라 공유 구조를 먼저 만들 이유가 없다.
+// 아래 값은 **DB를 읽지 못했을 때의 폴백일 뿐**이다. 번호가 새로 나오면 관리자 화면에서 고치고,
+// 이 파일은 건드리지 않는다.
 
 export const LEGAL_EFFECTIVE_DATE = "2026-07-26";
 
-export const companyInfo = {
-  serviceName: "인연링크 (InyeonLink)",
+export type CompanyInfo = {
+  /** 이 서비스의 이름. 사업자 정보가 아니라 서비스 정보라 여기서 정한다. */
+  serviceName: string;
+  legalEntity: string;
+  representative: string;
+  businessNumber: string;
+  mailOrderNumber: string;
+  address: string;
+  customerCenter: string;
+  email: string;
+  privacyOfficer: string;
+  hostingProvider: string;
+};
+
+/** 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다. */
+export const SERVICE_NAME = "인연링크 (InyeonLink)";
+
+export const fallbackCompanyInfo: CompanyInfo = {
+  serviceName: SERVICE_NAME,
   legalEntity: "Naming-Link",
   representative: "곽은하",
   businessNumber: "사업자등록번호 준비 중",
@@ -21,4 +38,4 @@ export const companyInfo = {
   email: "platforest.inc@gmail.com",
   privacyOfficer: "곽은하",
   hostingProvider: "Vercel Inc.",
-} as const;
+};

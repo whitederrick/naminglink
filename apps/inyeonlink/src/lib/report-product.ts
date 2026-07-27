@@ -91,6 +91,50 @@ export async function getReportSetting(product: ReportProduct) {
   return row;
 }
 
+/**
+ * 두 권역의 표시 가격. 화면과 약관이 **같은 값을 쓰게 하려고** 한 곳에서 만든다.
+ *
+ * 판매 여부(`enabled`)와 무관하게 값을 돌려주는 것이 `getReportOffer`와 다르다. 약관은 아직
+ * 팔지 않을 때도 "판매를 시작하면 이 가격"을 고지해야 하기 때문이다.
+ *
+ * 조회에 실패하면 시드 값으로 떨어진다. 폴백까지 없애면 DB가 잠깐 흔들릴 때 약관에서 가격이
+ * 통째로 사라지는데, 가격 미고지가 값이 조금 낡은 것보다 나쁘다.
+ */
+const SEEDED_PRICE = { domestic: "₩990", global: "US$2.99" } as const;
+
+export async function getReportPrices() {
+  try {
+    const rows =
+      cache && Date.now() - cache.at < CACHE_TTL_MS ? cache.rows : await loadSettings();
+    const of = (region: ReportRegion) => {
+      const row = rows.get(PRODUCTS[region].settingCode);
+      return row ? displayPrice(row) : SEEDED_PRICE[region];
+    };
+    return { domestic: of("domestic"), global: of("global") };
+  } catch {
+    return { ...SEEDED_PRICE };
+  }
+}
+
+/**
+ * 화면에 보여 줄 가격. 판매 중이 아니거나 조회에 실패하면 null이다.
+ *
+ * **가격을 화면에 박아 두지 않으려고 만들었다.** 결제 금액은 `product_settings`가 정하는데
+ * 버튼 라벨만 코드에 "990원"으로 적혀 있으면, 관리자 화면에서 값을 바꾸는 순간 표시가와
+ * 청구액이 어긋난다. 전자상거래법이 금하는 것이고 PG 심사에서도 바로 걸린다.
+ *
+ * 던지지 않는 것은 이 값이 **결제 경로가 아니라 표시 경로**이기 때문이다. 가격을 못 읽었다고
+ * 결과 화면 전체가 실패하면 안 된다 — 그때는 구매 자리를 "준비 중"으로 두면 된다.
+ */
+export async function getReportOffer(product: ReportProduct) {
+  try {
+    const setting = await getReportSetting(product);
+    return { display: displayPrice(setting), currency: setting.currency };
+  } catch {
+    return null;
+  }
+}
+
 export function displayPrice(setting: Pick<ProductSetting, "amount" | "currency">) {
   return setting.currency === "USD"
     ? `US$${(setting.amount / 100).toFixed(2)}`

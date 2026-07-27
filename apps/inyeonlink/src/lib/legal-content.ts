@@ -1,7 +1,10 @@
 import { adsEnabled } from "@/lib/ads";
-import { companyInfo, LEGAL_EFFECTIVE_DATE } from "@/lib/company";
+import { LEGAL_EFFECTIVE_DATE, type CompanyInfo } from "@/lib/company";
 import { paymentsConfigured } from "@/lib/payments-csp";
 import type { Locale } from "@/lib/i18n";
+
+// 사업자 정보는 **인자로 받는다.** 여기서 직접 읽지 않는 것은 이 파일을 DB에 묶지 않으려는
+// 것이다 — 문서 내용은 순수 함수로 두고, 값을 가져오는 일은 호출부(`company-server.ts`)가 한다.
 
 // 이 서비스의 약관·방침은 naminglink 것을 재사용하지 않는다. 수집하는 정보도, 파는 것도,
 // 책임 범위도 다르기 때문이다. 특히 이 서비스는 **입력을 저장하지 않는다**는 점이 방침의
@@ -102,11 +105,13 @@ const feeSectionKo: LegalSection = paymentsConfigured
       ],
     };
 
-const paidProductSectionKo: LegalSection = {
+export type ReportPrices = { domestic: string; global: string };
+
+const paidProductSectionKo = (prices: ReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
     "판매하는 유료 상품은 **궁합 리포트 PDF** 한 가지입니다. 화면의 결과를 3장짜리 PDF 문서로 만들어 드리며, 화면에 표시되지 않는 오행 세력 수치가 함께 담깁니다.",
-    "가격은 국내 결제 990원(부가세 포함), 해외 결제 US$2.99입니다. 결제 수단은 국내 카카오페이, 해외 페이팔이며 결제는 포트원을 통해 처리됩니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
+    `가격은 국내 결제 ${prices.domestic}(부가세 포함), 해외 결제 ${prices.global}입니다. 결제 수단은 국내 카카오페이, 해외 페이팔이며 결제는 포트원을 통해 처리됩니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.`,
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
   ],
@@ -116,8 +121,9 @@ const paidProductSectionKo: LegalSection = {
     "**시스템 오류로 문서가 만들어지지 않았거나, 파일이 열리지 않거나, 결제 금액이 주문과 다른 경우**에는 재발급 또는 전액 환불로 처리합니다.",
     "**결과 내용에 대한 불만**은 환불 사유에 해당하지 않습니다. 궁합 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다(위 1항).",
     "재발급 5회를 모두 사용한 뒤의 재요청은 환불 사유에 해당하지 않습니다.",
+    "**미성년자가 법정대리인의 동의 없이 결제한 경우** 본인 또는 법정대리인이 그 결제를 취소할 수 있습니다. 아래 연락처로 알려 주시면 환불해 드립니다.",
   ],
-};
+});
 
 const feeSectionEn: LegalSection = paymentsConfigured
   ? {
@@ -135,11 +141,11 @@ const feeSectionEn: LegalSection = paymentsConfigured
       ],
     };
 
-const paidProductSectionEn: LegalSection = {
+const paidProductSectionEn = (prices: ReportPrices): LegalSection => ({
   heading: "3. Paid product and refunds",
   paragraphs: [
     "There is one paid product: the **compatibility report PDF**. It turns the on-screen result into a three-page document and includes the elemental strength figures that are not shown on screen.",
-    "The price is KRW 990 (VAT included) for domestic payment and US$2.99 for international payment. Payment is by KakaoPay domestically and PayPal internationally, processed through PortOne. The amount shown on the payment screen is the final amount.",
+    `The price is ${prices.domestic} (VAT included) for domestic payment and ${prices.global} for international payment. Payment is by KakaoPay domestically and PayPal internationally, processed through PortOne. The amount shown on the payment screen is the final amount.`,
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
   ],
@@ -149,8 +155,9 @@ const paidProductSectionEn: LegalSection = {
     "**If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund it in full.",
     "**Dissatisfaction with the content of the reading** is not a ground for refund. A compatibility reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).",
     "Requests made after all five downloads have been used are not a ground for refund.",
+    "**Where a minor has paid without the consent of a legal representative**, either the minor or that representative may cancel the payment. Contact us at the details below and we will refund it.",
   ],
-};
+});
 
 // 방침 쪽도 판매 여부를 따라간다. 약관과 다른 점은, 여기서는 **저장 항목 목록을 두 상태에서
 // 똑같이 싣는다**는 것이다. 결제하면 무엇이 남는지는 결제 전에 알아야 판단할 수 있고, 목록을
@@ -181,18 +188,18 @@ const paymentSectionKo: LegalSection = {
   bullets: paymentRecordItemsKo,
 };
 
-const thirdPartySectionKo: LegalSection = {
+const thirdPartySectionKo = (company: CompanyInfo): LegalSection => ({
   heading: "6. 제3자 제공 및 처리위탁",
   paragraphs: [
     paymentsConfigured
       ? "이용자를 식별하는 개인정보를 저장하지 않으므로 제3자에게 제공하는 개인정보도 없습니다. 결제 처리는 아래 사업자에게 위탁합니다."
       : "저장하는 개인정보가 없으므로 제3자에게 제공하는 개인정보도 없습니다.",
-    `서비스 운영을 위해 ${companyInfo.hostingProvider}의 호스팅 인프라를 이용하며, 이 과정에서 위 3항의 접속 기록이 해당 사업자의 정책에 따라 처리됩니다.`,
+    `서비스 운영을 위해 ${company.hostingProvider}의 호스팅 인프라를 이용하며, 이 과정에서 위 3항의 접속 기록이 해당 사업자의 정책에 따라 처리됩니다.`,
     paymentsConfigured
       ? "결제는 포트원을 통해 처리되며, 실제 결제 수단은 카카오페이(국내)와 페이팔(해외)이 제공합니다. 카드번호·계좌번호 등 결제 수단 정보는 이들 사업자가 직접 처리하며, 서비스는 전달받지도 저장하지도 않습니다."
       : "유료 상품의 판매를 시작하면 결제 처리를 포트원과 결제 수단 제공사(카카오페이·페이팔)에 위탁합니다. 카드번호·계좌번호 등 결제 수단 정보는 그때에도 이들 사업자가 직접 처리하며, 서비스는 전달받지 않습니다.",
   ],
-};
+});
 
 const paymentRecordItemsEn = [
   "The order number and payment identifier",
@@ -216,20 +223,23 @@ const paymentSectionEn: LegalSection = {
   bullets: paymentRecordItemsEn,
 };
 
-const thirdPartySectionEn: LegalSection = {
+const thirdPartySectionEn = (company: CompanyInfo): LegalSection => ({
   heading: "6. Sharing and processing by others",
   paragraphs: [
     paymentsConfigured
       ? "No personal data that identifies you is stored, so none is shared with third parties. Payment processing is entrusted to the providers below."
       : "Since no personal data is stored, none is shared with third parties.",
-    `The service runs on hosting infrastructure provided by ${companyInfo.hostingProvider}, and the access records described in section 3 are handled under that provider's policy.`,
+    `The service runs on hosting infrastructure provided by ${company.hostingProvider}, and the access records described in section 3 are handled under that provider's policy.`,
     paymentsConfigured
       ? "Payments are processed through PortOne, with KakaoPay handling domestic payments and PayPal international ones. Card and account details are handled directly by those providers; the service never receives or stores them."
       : "When sales begin, payment processing will be entrusted to PortOne and the payment providers (KakaoPay and PayPal). Card and account details will be handled directly by those providers and never reach the service.",
   ],
-};
+});
 
-const ko: Record<LegalDocumentKey, LegalDocument> = {
+const koDocuments = (
+  company: CompanyInfo,
+  prices: ReportPrices,
+): Record<LegalDocumentKey, LegalDocument> => ({
   privacy: {
     title: "개인정보처리방침",
     intro:
@@ -261,7 +271,7 @@ const ko: Record<LegalDocumentKey, LegalDocument> = {
       },
       adsSectionKo,
       paymentSectionKo,
-      thirdPartySectionKo,
+      thirdPartySectionKo(company),
       {
         heading: "7. 이용자의 권리",
         paragraphs: [
@@ -281,8 +291,8 @@ const ko: Record<LegalDocumentKey, LegalDocument> = {
       {
         heading: "9. 개인정보 보호책임자",
         paragraphs: [
-          `보호책임자: ${companyInfo.privacyOfficer}`,
-          `문의: ${companyInfo.email} / ${companyInfo.customerCenter}`,
+          `보호책임자: ${company.privacyOfficer}`,
+          `문의: ${company.email} / ${company.customerCenter}`,
         ],
       },
       {
@@ -307,7 +317,7 @@ const ko: Record<LegalDocumentKey, LegalDocument> = {
         ],
       },
       feeSectionKo,
-      paidProductSectionKo,
+      paidProductSectionKo(prices),
       {
         heading: "4. 계산 결과에 대하여",
         paragraphs: [
@@ -355,9 +365,12 @@ const ko: Record<LegalDocumentKey, LegalDocument> = {
     ],
     effectiveLabel: "시행일",
   },
-};
+});
 
-const en: Record<LegalDocumentKey, LegalDocument> = {
+const enDocuments = (
+  company: CompanyInfo,
+  prices: ReportPrices,
+): Record<LegalDocumentKey, LegalDocument> => ({
   privacy: {
     title: "Privacy Policy",
     intro:
@@ -389,7 +402,7 @@ const en: Record<LegalDocumentKey, LegalDocument> = {
       },
       adsSectionEn,
       paymentSectionEn,
-      thirdPartySectionEn,
+      thirdPartySectionEn(company),
       {
         heading: "7. Your rights",
         paragraphs: [
@@ -409,8 +422,8 @@ const en: Record<LegalDocumentKey, LegalDocument> = {
       {
         heading: "9. Privacy contact",
         paragraphs: [
-          `Responsible person: ${companyInfo.privacyOfficer}`,
-          `Contact: ${companyInfo.email} / ${companyInfo.customerCenter}`,
+          `Responsible person: ${company.privacyOfficer}`,
+          `Contact: ${company.email} / ${company.customerCenter}`,
         ],
       },
       {
@@ -435,7 +448,7 @@ const en: Record<LegalDocumentKey, LegalDocument> = {
         ],
       },
       feeSectionEn,
-      paidProductSectionEn,
+      paidProductSectionEn(prices),
       {
         heading: "4. About the results",
         paragraphs: [
@@ -483,13 +496,17 @@ const en: Record<LegalDocumentKey, LegalDocument> = {
     ],
     effectiveLabel: "Effective",
   },
-};
+});
 
-const documents: Partial<Record<Locale, Record<LegalDocumentKey, LegalDocument>>> =
-  { ko, en };
-
-export function getLegalDocument(locale: Locale, key: LegalDocumentKey) {
-  return (documents[locale] ?? en)[key];
+export function getLegalDocument(
+  locale: Locale,
+  key: LegalDocumentKey,
+  company: CompanyInfo,
+  prices: ReportPrices,
+) {
+  const documents =
+    locale === "ko" ? koDocuments(company, prices) : enDocuments(company, prices);
+  return documents[key];
 }
 
 export { LEGAL_EFFECTIVE_DATE };

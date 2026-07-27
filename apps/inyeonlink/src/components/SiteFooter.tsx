@@ -1,18 +1,17 @@
 import Link from "next/link";
 
-import { companyInfo } from "@/lib/company";
+import { getCompanyInfo } from "@/lib/company-server";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 
 // naminglink의 SiteFooter와 **같은 구조**다. 가운데 정렬 · 정책 링크 한 줄 · 사업자 정보
 // 두 줄(모바일은 잘게 접음) · 저작권 한 줄. 두 서비스를 오가는 사용자가 같은 자리에서 같은
 // 정보를 찾을 수 있어야 한다.
 //
-// 다른 점은 두 가지뿐이다.
-//   1. naminglink는 관리자 화면에서 값을 고치려고 API로 내용을 받아오는 클라이언트
-//      컴포넌트다. 이 앱은 DB를 쓰지 않으므로 서버 컴포넌트로 두고 상수에서 읽는다.
-//   2. 링크 목록이 짧다. 파는 것이 없어 환불정책·요금안내가 없다.
+// 값도 같은 곳에서 온다 — naminglink 관리자 화면이 관리하는 `site_contents`다. naminglink는
+// 관리자 화면에서 고치려고 클라이언트에서 API로 받아오고, 이 앱은 고칠 일이 없으므로 서버
+// 컴포넌트에서 바로 읽는다. 링크 목록만 짧다(파는 것이 하나뿐이라 요금안내가 따로 없다).
 
-export function SiteFooter({
+export async function SiteFooter({
   locale,
   tone = "dark",
   className = "",
@@ -24,6 +23,7 @@ export function SiteFooter({
 }) {
   const dictionary = getDictionary(locale);
   const copy = dictionary.footer;
+  const companyInfo = await getCompanyInfo();
 
   const isOnDark = tone === "light";
   const wrapperClass = isOnDark

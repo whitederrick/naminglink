@@ -13,6 +13,19 @@ import type { MatchInput } from "@/lib/match-input";
 // 유지되는 이유다. 대신 서버가 파일을 보관하지 않으므로 발급은 그 자리에서 받아야 한다 —
 // 놓쳤을 때를 위해 같은 주문으로 몇 번은 다시 받을 수 있다.
 
+/** 사전 문구의 **굵게** 표기를 실제 강조로 바꾼다. */
+function renderEmphasis(text: string) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, index) =>
+    index % 2 === 1 ? (
+      <strong key={index} className="font-semibold text-foreground">
+        {part}
+      </strong>
+    ) : (
+      part
+    ),
+  );
+}
+
 type Checkout = {
   orderId: string;
   paymentId: string;
@@ -39,14 +52,20 @@ export function ReportPurchasePanel({
   dictionary,
   locale,
   input,
+  offerPrice,
 }: {
   dictionary: Dictionary;
   locale: Locale;
   /** 결제가 끝난 뒤 PDF를 만드는 데 쓴다. 주문 생성에는 보내지 않는다. */
   input: MatchInput;
+  /** 서버가 정한 표시 가격. 판매 전이면 null이라 버튼이 "준비 중"으로 뜬다. */
+  offerPrice: string | null;
 }) {
   const t = dictionary.report;
   const [stage, setStage] = useState<Stage>({ name: "idle" });
+  // 청약철회 제한 동의. 체크하기 전에는 결제로 넘어가지 않는다 — 전자상거래법 §17②는 고지와
+  // **동의**를 함께 요구하고, 그 조치가 없으면 우리가 환불 제한을 주장할 수 없다.
+  const [consented, setConsented] = useState(false);
   const region = locale === "ko" ? "domestic" : "global";
 
   /** 결제가 확인된 주문으로 PDF를 받아 저장한다. */
@@ -82,7 +101,9 @@ export function ReportPurchasePanel({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         // 여기에는 생년월일이 없다.
-        body: JSON.stringify({ region, locale }),
+        // 동의 사실을 서버에도 보낸다. 주문에 남겨야 나중에 다툼이 생겼을 때 조치를 취했음을
+        // 보일 수 있다(입력값은 여전히 보내지 않는다).
+        body: JSON.stringify({ region, locale, withdrawalConsent: true }),
       });
       const data = (await response.json().catch(() => null)) as
         | { ok?: boolean; error?: string; checkout?: Checkout }
@@ -182,28 +203,59 @@ export function ReportPurchasePanel({
         ))}
       </ul>
 
+      {/* 상품정보제공 고시. 접어 두되 결제 전에 열어 볼 수 있어야 한다. */}
+      <details className="mt-4 rounded-xl border border-line/70 bg-background/40 px-4 py-3">
+        <summary className="cursor-pointer text-sm font-semibold">
+          {t.productInfoTitle}
+        </summary>
+        <dl className="mt-3 grid gap-1.5 text-xs leading-5 text-muted">
+          {t.productInfo.map(([label, value]) => (
+            <div key={label} className="flex flex-wrap gap-x-2">
+              <dt className="min-w-24 font-semibold text-foreground">{label}</dt>
+              <dd className="break-keep-all flex-1">{value}</dd>
+            </div>
+          ))}
+        </dl>
+      </details>
+
+      <label className="mt-4 flex items-start gap-2.5 text-sm leading-6">
+        <input
+          type="checkbox"
+          checked={consented}
+          onChange={(event) => setConsented(event.target.checked)}
+          className="mt-1.5 size-4 shrink-0 accent-brand-plum"
+        />
+        <span className="break-keep-all text-muted">
+          {renderEmphasis(t.consentLabel)}
+        </span>
+      </label>
+
       {stage.name === "paypal" ? (
         <div className="portone-ui-container mt-5" />
       ) : (
         <button
           type="button"
           onClick={stage.name === "done" ? () => void download(stage.checkout) : buy}
-          disabled={busy}
+          disabled={busy || !consented}
           className="mt-5 w-full rounded-full bg-brand-plum px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {busy
             ? busyLabel
             : stage.name === "done"
               ? t.retry
-              : fillTemplate(t.buyButton, {
-                  price: locale === "ko" ? "₩990" : "US$2.99",
-                })}
+              : offerPrice
+                ? fillTemplate(t.buyButton, { price: offerPrice })
+                : t.preparing}
         </button>
       )}
 
       {stage.name === "done" ? (
         <p className="break-keep-all mt-3 text-sm text-brand-sage">{t.done}</p>
       ) : null}
+      <p className="break-keep-all mt-3 text-xs leading-5 text-muted">
+        {t.refundContact}
+      </p>
+
       {stage.name === "failed" ? (
         <p role="alert" className="break-keep-all mt-3 text-sm text-brand-plum">
           {stage.message}

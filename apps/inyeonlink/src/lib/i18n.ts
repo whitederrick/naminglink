@@ -196,6 +196,18 @@ export type Dictionary = {
     /** 결제는 됐는데 파일을 못 받은 경우 다시 시도할 때 */
     retry: string;
     contents: string[];
+    /**
+     * 청약철회 제한 동의. 전자상거래법 제17조 제2항 단서는, 즉시 제공되는 디지털 콘텐츠라도
+     * **철회가 불가함을 미리 알리고 동의를 받는 조치**를 하지 않으면 소비자가 그대로 철회할 수
+     * 있다고 정한다. 약관에 적어 두는 것만으로는 부족해서 결제 직전에 따로 받는다.
+     */
+    consentLabel: string;
+    consentRequired: string;
+    /** 전자상거래 상품정보제공 고시(디지털콘텐츠) 항목 */
+    productInfoTitle: string;
+    productInfo: Array<[string, string]>;
+    /** 환불을 어디로 요청하는지 */
+    refundContact: string;
   };
   footer: {
     privacy: string;
@@ -462,6 +474,21 @@ const ko: Dictionary = {
       "2장 — 관계의 모양과 십신, 항목별 점수",
       "3장 — 두 사람의 사주 원국과 오행 세력",
     ],
+    consentLabel:
+      "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
+    consentRequired: "청약철회 제한 사항에 동의하셔야 결제할 수 있습니다.",
+    productInfoTitle: "상품 정보 고시",
+    productInfo: [
+      ["제작·공급자", "Naming-Link"],
+      ["상품 형태", "PDF 문서 1개(3장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
+      ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
+      ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
+      ["청약철회", "다운로드 완료 전에는 전액 환불. 완료 후에는 단순 변심에 의한 철회가 제한됩니다(전자상거래법 제17조 제2항)."],
+      ["교환·반품 비용", "없음. 디지털 콘텐츠라 배송이 없습니다."],
+    ],
+    refundContact:
+      "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -830,6 +857,21 @@ const en: Dictionary = {
       "Page 2 — the shape of the relationship, the ten gods, and scores by factor",
       "Page 3 — both charts and elemental strength",
     ],
+    consentLabel:
+      "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
+    consentRequired: "Please confirm the withdrawal terms before paying.",
+    productInfoTitle: "Product information",
+    productInfo: [
+      ["Provider", "Naming-Link"],
+      ["Format", "One PDF document (3 pages), downloaded on screen right after payment."],
+      ["Requirements", "Any device that opens a PDF. No installation or account needed."],
+      ["Term of use", "No limit. You keep the file you download."],
+      ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],
+      ["Withdrawal", "Full refund before the download begins. After it completes, withdrawal for a change of mind is restricted (Art. 17(2), Korean E-Commerce Act)."],
+      ["Return costs", "None — digital content, nothing is shipped."],
+    ],
+    refundContact:
+      "For refunds or questions, contact the customer centre or email below. If the document could not be produced, or the amount charged differs from the order, we refund in full.",
   },
   footer: {
     privacy: "Privacy Policy",

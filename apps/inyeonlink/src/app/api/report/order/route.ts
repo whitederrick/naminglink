@@ -25,6 +25,15 @@ export const dynamic = "force-dynamic";
 const schema = z.object({
   region: z.enum(REPORT_REGIONS),
   locale: z.string().trim().max(10).optional(),
+  /**
+   * 청약철회 제한에 동의했는가.
+   *
+   * **화면의 체크박스를 믿고 넘어가지 않는다.** 전자상거래법 제17조 제2항 단서는 즉시 제공되는
+   * 디지털 콘텐츠라도 철회 불가를 고지하고 동의를 받는 조치를 요구하며, 그 조치가 없으면
+   * 소비자는 그대로 철회할 수 있다. 서버가 받아서 주문에 남겨야 나중에 다툼이 생겼을 때
+   * 조치를 취했음을 보일 수 있다.
+   */
+  withdrawalConsent: z.literal(true),
 });
 
 export async function POST(request: Request) {
@@ -78,6 +87,8 @@ export async function POST(request: Request) {
         provider: "PORTONE_V2",
         region: product.region,
         locale: input.data.locale ?? null,
+        // 동의 사실과 시각. 개인을 가리키는 값이 아니라 미저장 원칙과 충돌하지 않는다.
+        withdrawalConsentAt: new Date().toISOString(),
       },
     });
     if (error) throw error;
