@@ -111,16 +111,26 @@ const styles = StyleSheet.create({
   pillarHanja: { fontSize: 16, lineHeight: 1.3, marginTop: 3 },
   pillarHangul: { fontSize: 8, lineHeight: 1.4, color: PALETTE.muted },
 
-  elementRow: { flexDirection: "row", alignItems: "center", marginTop: 4 },
-  elementName: { width: 46, fontSize: 8.5 },
   elementTrack: {
-    flex: 1,
-    height: 6,
+    flexDirection: "row",
+    height: 7,
     backgroundColor: PALETTE.surface,
-    borderRadius: 3,
+    borderRadius: 3.5,
+    overflow: "hidden",
   },
-  elementFill: { height: 6, borderRadius: 3, backgroundColor: PALETTE.sage },
-  elementValue: { width: 32, fontSize: 8, color: PALETTE.muted, textAlign: "right" },
+  elementLegend: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    marginTop: 5,
+  },
+  elementLegendItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginRight: 12,
+  },
+  elementDot: { width: 5, height: 5, borderRadius: 2.5, marginRight: 3 },
+  elementName: { fontSize: 8.5 },
+  elementValue: { fontSize: 8, color: PALETTE.muted, marginLeft: 3 },
 
   factorRow: {
     flexDirection: "row",
@@ -247,6 +257,22 @@ function PillarGrid({
   );
 }
 
+/** 오행의 관습적인 색. 화면(MatchResultView)과 같은 값을 쓴다. */
+const ELEMENT_COLOR: Record<string, string> = {
+  WOOD: "#4f6f5e",
+  FIRE: "#b4535a",
+  EARTH: "#b4832f",
+  METAL: "#9aa0a6",
+  WATER: "#3f4a63",
+};
+
+/**
+ * 다섯 기운의 비율.
+ *
+ * 예전에는 기운마다 한 줄씩 다섯 줄을 썼는데, 사람 카드 두 개가 한 장에 들어가야 하는 이 문서에서
+ * 그만한 자리를 쓸 값어치가 없었다(신강·신약을 넣자 장수가 늘어났다). 화면과 같은 누적 막대로
+ * 바꿔 두 줄로 줄인다 — 자리도 벌고 화면과 표현도 같아진다.
+ */
 function ElementBars({
   reading,
   dictionary,
@@ -255,32 +281,40 @@ function ElementBars({
   dictionary: Dictionary;
 }) {
   const entries = Object.entries(reading.elements) as Array<[string, number]>;
-  const peak = Math.max(...entries.map(([, value]) => value), 0.01);
+  const total = entries.reduce((sum, [, value]) => sum + value, 0) || 1;
+
   return (
-    <View style={{ marginTop: 8 }}>
-      {entries.map(([element, value]) => (
-        <View key={element} style={styles.elementRow}>
-          <MixedText
-            style={styles.elementName}
-            text={dictionary.elements[element] ?? element}
+    <View style={{ marginTop: 6 }}>
+      <View style={styles.elementTrack}>
+        {entries.map(([element, value]) => (
+          <View
+            key={element}
+            style={{
+              width: `${(value / total) * 100}%`,
+              backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.sage,
+            }}
           />
-          <View style={styles.elementTrack}>
+        ))}
+      </View>
+      <View style={styles.elementLegend}>
+        {entries.map(([element, value]) => (
+          <View key={element} style={styles.elementLegendItem}>
             <View
               style={[
-                styles.elementFill,
-                {
-                  width: `${Math.max(2, Math.round((value / peak) * 100))}%`,
-                  backgroundColor:
-                    element === reading.scarcestElement
-                      ? PALETTE.copper
-                      : PALETTE.sage,
-                },
+                styles.elementDot,
+                { backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.sage },
               ]}
             />
+            <MixedText
+              style={styles.elementName}
+              text={dictionary.elements[element] ?? element}
+            />
+            <Text style={styles.elementValue}>
+              {Math.round((value / total) * 100)}%
+            </Text>
           </View>
-          <Text style={styles.elementValue}>{value.toFixed(2)}</Text>
-        </View>
-      ))}
+        ))}
+      </View>
     </View>
   );
 }
@@ -315,6 +349,20 @@ function PersonSection({
         text={dictionary.reading.elementsTitle}
       />
       <ElementBars reading={reading} dictionary={dictionary} />
+
+      {/* 신강·신약과 필요한 기운. 화면과 같은 내용을 유료 문서에도 싣는다.
+          라벨을 따로 두지 않고 한 줄로 합친 것은 **카드 두 개가 한 장에 들어가야 하기
+          때문이다.** 상품을 3장으로 팔고 있어서(약관 3항) 카드가 넘치면 장수가 늘어난다. */}
+      <MixedText
+        style={[styles.note, { marginTop: 10 }]}
+        text={`${dictionary.reading.bodyStrengthTitle} · ${dictionary.bodyStrength[reading.bodyStrength].name} — ${dictionary.reading.favorableLabel} ${reading.favorableElements
+          .map((element) => dictionary.elements[element] ?? element)
+          .join(" · ")}`}
+      />
+      <MixedText
+        style={[styles.body, { marginTop: 3 }]}
+        text={dictionary.bodyStrength[reading.bodyStrength].body}
+      />
     </View>
   );
 }
@@ -549,6 +597,40 @@ function CompatibilityReport(data: CompatibilityReportData) {
 }
 
 /** 궁합 리포트 PDF를 버퍼로 만든다. 파일로 남기지 않는다. */
-export function renderCompatibilityReport(data: CompatibilityReportData) {
+/**
+ * @react-pdf 4.5.1 회피책 — **한 프로세스에서 처음 렌더한 문서가 이후 모든 문서의 줄바꿈을
+ * 정한다.**
+ *
+ * 첫 렌더가 한글이 대부분인 문서면 그다음부터 영어 문단이 단어 한가운데서 끊긴다("characters"가
+ * "c / haracters"). 하이픈 콜백(`fonts.tsx`)을 등록해도, 렌더 직전에 다시 등록해도 소용이 없다.
+ * 첫 렌더가 라틴 문서였으면 그 뒤로 한글 문서를 아무리 렌더해도 영어는 멀쩡하다.
+ *
+ * 이 서비스에서는 그냥 두면 실제 사고가 난다. `/api/report/pdf`는 국내·해외 주문을 같은 함수가
+ * 처리하므로, 한국어 주문을 먼저 받은 컨테이너는 살아 있는 동안 **US$2.99를 받고 깨진 영문
+ * 문서를 내보낸다.** 어느 주문이 먼저 오느냐에 달린 문제라 재현이 들쭉날쭉하다.
+ *
+ * 그래서 첫 실제 렌더 앞에 라틴 문서를 한 번 흘려보내 상태를 라틴 쪽으로 고정한다. 프로세스당
+ * 한 번이고 빈 A4 한 장이라 비용이 거의 없다. 라이브러리가 고쳐지면 지우면 된다.
+ */
+let layoutWarmUp: Promise<unknown> | null = null;
+
+function warmUpLayoutEngine() {
+  if (!layoutWarmUp) {
+    layoutWarmUp = renderToBuffer(
+      <Document>
+        <Page size="A4" style={{ fontFamily: SCRIPT_FAMILY.base, fontSize: 10 }}>
+          <Text>
+            The quick brown fox jumps over the lazy dog while these characters
+            settle the layout engine into its Latin line breaking behaviour.
+          </Text>
+        </Page>
+      </Document>,
+    ).catch(() => null); // 예열이 실패해도 본 렌더를 막지는 않는다.
+  }
+  return layoutWarmUp;
+}
+
+export async function renderCompatibilityReport(data: CompatibilityReportData) {
+  await warmUpLayoutEngine();
   return renderToBuffer(<CompatibilityReport {...data} />);
 }

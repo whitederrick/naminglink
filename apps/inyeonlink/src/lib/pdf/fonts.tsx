@@ -37,6 +37,11 @@ Font.register({
   fonts: [{ src: fontPath("NotoSans-Regular.ttf"), fontWeight: 400 }],
 });
 
+// @react-pdf는 기본 하이픈 규칙으로 **단어를 아무 데서나 끊는다.** 하이픈도 없이 "characters"가
+// "c / haracters"로 갈리는 식이라, 영어 문단이 길어지면 눈에 띄게 지저분해진다. 단어를 쪼개지
+// 않겠다고 알려 준다(naminglink의 PDF 넷은 이미 같은 처리를 하고 있다).
+Font.registerHyphenationCallback((word) => [word]);
+
 const REGISTERED = [
   SCRIPT_FAMILY.hangul,
   SCRIPT_FAMILY.cjk,
