@@ -277,7 +277,7 @@ const ko: Dictionary = {
       "전통 명리는 배우자를 가리키는 자리를 성별에 따라 다르게 봅니다. 밝히지 않으면 해당 항목은 분석에서 제외됩니다.",
     birthplace: "태어난 곳",
     birthplaceHint:
-      "출생지의 실제 태양 시각으로 시주를 계산합니다. 서머타임과 과거 표준시 변경도 반영됩니다.",
+      "출생지의 실제 태양 시각으로 시주를 계산합니다. 목록에 없는 지역은 가장 가까운 도시를 고르시면 됩니다 — 국내 본토는 도시 간 차이가 2분 이내입니다. 서머타임과 과거 표준시 변경도 반영됩니다.",
     calendar: "달력",
     solar: "양력",
     lunar: "음력",
@@ -662,7 +662,7 @@ const en: Dictionary = {
       "Traditional Saju reads the spouse position differently by gender. If you skip this, that factor is left out of the calculation.",
     birthplace: "Place of birth",
     birthplaceHint:
-      "The hour pillar is calculated from true solar time at your birthplace, including daylight saving and historical time-zone changes.",
+      "The hour pillar is calculated from true solar time at your birthplace, including daylight saving and historical time-zone changes. If your birthplace is not listed, pick the nearest city — the closer it is, the more accurate the hour pillar.",
     calendar: "Calendar",
     solar: "Solar",
     lunar: "Lunar",
