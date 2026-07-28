@@ -6,6 +6,32 @@
 // naminglink의 사전과 공유하지 않는다. 서비스가 다르면 문구도 달라지고, 사전을 공유하면 한쪽
 // 수정이 다른 쪽 화면을 흔든다.
 
+// ko·en 외 21개는 로케일당 파일 하나로 둔다. 한 파일에 23벌을 넣으면 1만 줄이 넘어 어느
+// 언어를 고치든 diff가 통째로 흔들린다. 여기서 하는 일은 등록뿐이고, 문구는 각 파일에 있다.
+// (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
+// 순환이 생기지 않는다.)
+import { ar } from "@/lib/i18n-locales/ar";
+import { de } from "@/lib/i18n-locales/de";
+import { es } from "@/lib/i18n-locales/es";
+import { fil } from "@/lib/i18n-locales/fil";
+import { fr } from "@/lib/i18n-locales/fr";
+import { hi } from "@/lib/i18n-locales/hi";
+import { id } from "@/lib/i18n-locales/id";
+import { it } from "@/lib/i18n-locales/it";
+import { ja } from "@/lib/i18n-locales/ja";
+import { kk } from "@/lib/i18n-locales/kk";
+import { km } from "@/lib/i18n-locales/km";
+import { mn } from "@/lib/i18n-locales/mn";
+import { ms } from "@/lib/i18n-locales/ms";
+import { pl } from "@/lib/i18n-locales/pl";
+import { pt } from "@/lib/i18n-locales/pt";
+import { ru } from "@/lib/i18n-locales/ru";
+import { th } from "@/lib/i18n-locales/th";
+import { tr } from "@/lib/i18n-locales/tr";
+import { uz } from "@/lib/i18n-locales/uz";
+import { vi } from "@/lib/i18n-locales/vi";
+import { zh } from "@/lib/i18n-locales/zh";
+
 export const supportedLocales = [
   "ko",
   "en",
@@ -60,6 +86,15 @@ export const localeLabels: Record<Locale, string> = {
   pl: "Polski",
 };
 
+// 언어 배치는 naminglink와 같다(`naminglink/src/lib/services.ts`의 primaryLocales).
+// 기본 줄에 6개를 두고 나머지는 '더보기'로 접는다 — 두 서비스를 오가는 사용자가 같은 자리에서
+// 같은 언어를 찾게 하려는 것이라, 순서를 바꾸려면 양쪽을 함께 바꿔야 한다.
+export const primaryLocales: Locale[] = ["ko", "en", "ja", "zh", "de", "es"];
+
+export const secondaryLocales: Locale[] = supportedLocales.filter(
+  (locale) => !primaryLocales.includes(locale),
+);
+
 export function isLocale(value: string | null | undefined): value is Locale {
   return supportedLocales.includes(value as Locale);
 }
@@ -102,6 +137,10 @@ export type ReportCopy = {
 export type Dictionary = {
   brand: string;
   tagline: string;
+  /** 언어 선택기. 문구는 naminglink의 같은 키(currentLanguage/moreLanguages/closeLanguages)와 맞춘다. */
+  currentLanguage: string;
+  moreLanguages: string;
+  closeLanguages: string;
   landing: {
     title: string;
     subtitle: string;
@@ -363,6 +402,9 @@ export type Dictionary = {
 const ko: Dictionary = {
   brand: "인연링크",
   tagline: "사주와 띠로 보는 두 사람의 궁합",
+  currentLanguage: "현재 언어",
+  moreLanguages: "더보기",
+  closeLanguages: "닫기",
   landing: {
     title: "두 사람의 인연,\n숫자로 확인해 보세요",
     subtitle:
@@ -378,7 +420,7 @@ const ko: Dictionary = {
     privacyBody:
       "입력된 정보는 분석에만 사용하고 어디에도 기록하지 않습니다.\n결과 링크에 담긴 정보는 서버로 전송 및 저장되지 않습니다.",
     disclaimer:
-      "분석 결과는 전통 명리 관점의 참고 자료일뿐, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
+      "분석 결과는 전통 명리 관점의 참고 자료일뿐, 과학적 예측이나 관계의 단정이 아닙니다.",
   },
   form: {
     title: "두 인연의 생년월일",
@@ -717,7 +759,7 @@ const ko: Dictionary = {
   },
   report: {
     title: "궁합 리포트 PDF로 간직하기",
-    body: "화면의 결과를 4장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
+    body: "화면의 결과를 3장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
     buyButton: "{price} 결제하고 받기",
     preparing: "준비 중입니다",
     ordering: "주문을 만드는 중…",
@@ -919,6 +961,9 @@ const ko: Dictionary = {
 const en: Dictionary = {
   brand: "InyeonLink",
   tagline: "Compatibility read through Saju and zodiac signs",
+  currentLanguage: "Current language",
+  moreLanguages: "More",
+  closeLanguages: "Close",
   landing: {
     title: "See how two people\nfit together",
     subtitle:
@@ -1477,8 +1522,33 @@ const en: Dictionary = {
   },
 };
 
-// ko·en 외 21개 로케일은 화면 확정 후 채운다. 그때까지 en으로 폴백한다.
-const dictionaries: Partial<Record<Locale, Dictionary>> = { ko, en };
+// 23개 로케일 전부 채워졌다. `translatedLocales`가 이 객체의 키에서 나오므로, 언어 선택기에
+// 무엇이 뜨는지는 여기서 정해진다 — 번역이 미덥지 않은 언어가 생기면 이 줄에서 빼면 그만이다.
+const dictionaries: Partial<Record<Locale, Dictionary>> = {
+  ko,
+  en,
+  ja,
+  zh,
+  de,
+  es,
+  fr,
+  it,
+  pt,
+  vi,
+  th,
+  id,
+  ru,
+  ar,
+  fil,
+  uz,
+  mn,
+  hi,
+  tr,
+  km,
+  ms,
+  kk,
+  pl,
+};
 
 export function getDictionary(locale: Locale): Dictionary {
   return dictionaries[locale] ?? en;
