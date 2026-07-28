@@ -7,6 +7,8 @@ import { createClient } from "@supabase/supabase-js";
 import { randomUUID } from "node:crypto";
 import { readFileSync } from "node:fs";
 
+import { assertDevEnvironment } from "@naminglink/core/env";
+
 import { purgeGoodsOrderPii } from "@/lib/goods-pii-cleanup";
 
 const env = Object.fromEntries(
@@ -18,6 +20,11 @@ const env = Object.fromEntries(
       return [line.slice(0, index).trim(), line.slice(index + 1).trim().replace(/^"|"$/g, "")];
     }),
 ) as Record<string, string>;
+
+// 운영 DB에 붙는 스크립트다(개발·운영이 같은 Supabase 프로젝트를 본다). 기본값이 "운영"이라
+// .env.local에 APP_ENV=dev를 명시하지 않으면 아무것도 하지 않는다.
+process.env.APP_ENV ??= env.APP_ENV;
+assertDevEnvironment("PII 파기 검증 스크립트 실행");
 
 const supabase = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
 
@@ -98,6 +105,8 @@ async function main() {
     payment_currency: "KRW",
     fulfillment_status: testCase.fulfillmentStatus,
     provider_payment_id: `nl_verify_${ids[index].replaceAll("-", "")}`,
+    // 검증이 끝나면 지우지만, 도는 동안에도 운영 대시보드·매출에 섞이면 안 된다.
+    is_test: true,
     created_at: testCase.createdAt,
     updated_at: testCase.updatedAt,
     metadata: {

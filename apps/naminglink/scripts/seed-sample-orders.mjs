@@ -4,7 +4,8 @@
 // - 국가별 페이지뷰(JP·DE·SG): '국가별 접속 상위 5' 채우기용
 // 실행: node scripts/seed-sample-orders.mjs   (이미 있으면 건너뜀)
 // 삭제: node scripts/seed-sample-orders.mjs --cleanup
-// 모두 metadata.sample=true 로 표시하므로 실제 데이터와 섞이지 않는다.
+// 모두 metadata.sample=true 로 표시하므로 실제 데이터와 섞이지 않는다(삭제도 그 조건으로만 한다).
+// 주문 행에는 is_test=true도 함께 찍어 운영 대시보드·매출 집계에서 빠지게 한다.
 import { createClient } from "@supabase/supabase-js";
 import { readFileSync } from "node:fs";
 
@@ -17,6 +18,17 @@ const env = Object.fromEntries(
       return [line.slice(0, index).trim(), line.slice(index + 1).trim().replace(/^"|"$/g, "")];
     }),
 );
+
+// 이 스크립트는 **운영 DB에 붙는다** — 개발과 운영이 같은 Supabase 프로젝트를 본다.
+// `@naminglink/core/env`의 판정을 그대로 옮긴 것이다(.mjs라 TS를 가져올 수 없다).
+// 기본값이 "운영"이라 APP_ENV=dev를 명시하지 않으면 아무것도 하지 않는다.
+const appEnv = env.APP_ENV ?? process.env.APP_ENV;
+if (process.env.VERCEL_ENV === "production" || (appEnv !== "dev" && appEnv !== "development")) {
+  console.error(
+    "샘플 데이터 스크립트는 개발 환경에서만 실행할 수 있습니다. .env.local에 APP_ENV=dev를 넣으세요.",
+  );
+  process.exit(1);
+}
 
 const supabase = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
 
@@ -61,6 +73,8 @@ if (existingOrders) {
     payment_amount: amounts[i % 2],
     fulfillment_status: statuses[i % 4],
     provider_payment_id: `SAMPLE-${String(i + 1).padStart(3, "0")}`,
+    // 운영 화면·매출 집계에서 빠지도록 테스트 행으로 찍는다(관리자 화면의 "테스트 주문 포함"으로만 보인다).
+    is_test: true,
     metadata: { sample: true },
     created_at: new Date(base - (20 - i) * 86400000 - (i % 5) * 3600000).toISOString(),
   }));

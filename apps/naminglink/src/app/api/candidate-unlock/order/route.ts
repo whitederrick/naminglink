@@ -9,6 +9,7 @@ import {
   getCandidateUnlockProduct,
 } from "@/lib/unlock-products";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
+import { insertOrder } from "@/lib/order-writes";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import {
@@ -89,7 +90,7 @@ export async function POST(request: NextRequest) {
     const paymentId = `nl_${orderId.replaceAll("-", "")}`;
     const user = await getAuthenticatedUser(request);
 
-    const { error: orderError } = await supabase.from("orders").insert({
+    const { error: orderError } = await insertOrder(supabase, {
       id: orderId,
       user_id: user?.id ?? null,
       order_type: product.orderType,

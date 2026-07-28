@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isDevEnvironment } from "@naminglink/core/env";
 import { requireAdmin } from "@/lib/admin-auth";
 import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import { isLocale } from "@/lib/locale";
@@ -93,6 +94,20 @@ export async function PUT(request: NextRequest) {
     return NextResponse.json(
       { ok: false, error: authorization.error },
       { status: authorization.status },
+    );
+  }
+
+  // 약관·푸터 회사 정보는 두 앱이 함께 읽는 **운영 콘텐츠**이고, 개발과 운영이 같은 DB를 본다.
+  // 로컬에서 저장하면 운영 사이트의 약관이 그 자리에서 바뀐다. 읽기(GET)는 그대로 두고 쓰기만 막는다.
+  if (isDevEnvironment()) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          "개발 환경에서는 사이트 콘텐츠를 저장할 수 없습니다(운영 DB를 공유합니다). " +
+          "약관·회사 정보 수정은 운영 관리자 화면에서 하세요.",
+      },
+      { status: 403 },
     );
   }
 

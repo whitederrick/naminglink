@@ -9,6 +9,10 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 //
 // 프리미엄 세션 정리(premium-cleanup)는 premium_analysis_sessions 조회에서 대상을 고르는데 굿즈
 // 주문에는 세션이 없어 한 번도 걸리지 않았다. 이 모듈이 그 공백을 담당한다.
+//
+// **`is_test`로 거르지 않는 것은 일부러다.** 개발·운영이 같은 DB를 보므로 로컬에서 만든 주문에도
+// 진짜 주소를 넣어 볼 수 있다. 파기는 많이 지우는 쪽이 안전하다 — 운영 화면에서 감추는 것과
+// 개인정보를 지우는 것은 목적이 다르다.
 
 // 결제까지 가지 않고 이탈한 주문. 보관 근거가 아예 없으므로 프리미엄 이탈 세션과 같은 기준으로 짧게 잡는다.
 const ABANDONED_TTL_HOURS = Number(process.env.GOODS_ABANDONED_TTL_HOURS ?? 24);

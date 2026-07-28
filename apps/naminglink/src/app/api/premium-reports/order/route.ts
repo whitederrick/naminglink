@@ -11,6 +11,7 @@ import {
   HANJA_PRODUCT_CODES,
 } from "@/lib/premium-reports";
 import { getProductSetting } from "@/lib/product-settings";
+import { insertOrder, insertPremiumSession } from "@/lib/order-writes";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 import { validateHanjaMeaningInput } from "@/lib/naming-validation";
@@ -158,7 +159,7 @@ export async function POST(request: NextRequest) {
     const user = await getAuthenticatedUser(request);
     const customer = parsed.data.customer;
 
-    const { error: orderError } = await supabase.from("orders").insert({
+    const { error: orderError } = await insertOrder(supabase, {
       id: orderId,
       user_id: user?.id ?? null,
       order_type: product.orderType,
@@ -180,7 +181,7 @@ export async function POST(request: NextRequest) {
     });
     if (orderError) throw orderError;
 
-    const { error: sessionError } = await supabase.from("premium_analysis_sessions").insert({
+    const { error: sessionError } = await insertPremiumSession(supabase, {
       id: sessionId,
       order_id: orderId,
       user_id: user?.id ?? null,

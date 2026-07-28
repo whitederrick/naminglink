@@ -32,6 +32,9 @@ export async function GET(request: NextRequest) {
 
   const view = request.nextUrl.searchParams.get("view") ?? "dashboard";
   const days = Math.max(1, Math.min(Number(request.nextUrl.searchParams.get("days") ?? 30), 365));
+  // 로컬 개발이 만든 주문(is_test)은 운영 화면에서 기본적으로 감춘다. 개발·운영이 같은 DB를
+  // 보기 때문이다. 확인이 필요할 때만 ?includeTest=1로 함께 본다.
+  const includeTest = request.nextUrl.searchParams.get("includeTest") === "1";
 
   if (view === "users") {
     const { data, error } = await supabase.auth.admin.listUsers({ page: 1, perPage: 200 });
@@ -48,11 +51,12 @@ export async function GET(request: NextRequest) {
   }
 
   if (view === "orders") {
-    const { data, error } = await supabase.from("orders")
-      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address,metadata")
+    const ordersQuery = supabase.from("orders")
+      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address,metadata,is_test");
+    const { data, error } = await (includeTest ? ordersQuery : ordersQuery.eq("is_test", false))
       .order("created_at", { ascending: false }).limit(300);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
-    return NextResponse.json({ ok: true, orders: (data ?? []).map(({ shipping_address, metadata, ...order }) => ({
+    return NextResponse.json({ ok: true, includesTest: includeTest, orders: (data ?? []).map(({ shipping_address, metadata, ...order }) => ({
       ...order,
       has_shipping_address: Boolean(shipping_address),
       item_summary: orderItemSummary(order.order_type, metadata),
@@ -78,17 +82,22 @@ export async function GET(request: NextRequest) {
     });
   }
 
-  const { data, error } = await supabase.rpc("admin_analytics_snapshot", { p_days: days });
+  // 매출·주문 집계는 SQL 함수 안에 있어서 여기서 거를 수 없다. 같은 스위치를 함수에 넘긴다.
+  const { data, error } = await supabase.rpc("admin_analytics_snapshot", {
+    p_days: days,
+    p_include_test: includeTest,
+  });
   if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
   // 대시보드의 주문·결제 현황: 결제는 됐지만 제작·배송 처리가 끝나지 않은 주문 목록.
   // 오래 기다린 주문부터 처리하도록 주문일 오름차순으로 내려준다.
-  const { data: pendingOrders, error: pendingError } = await supabase.from("orders")
-    .select("id,order_type,customer_name,customer_email,payment_amount,payment_currency,fulfillment_status,created_at")
+  const pendingQuery = supabase.from("orders")
+    .select("id,order_type,customer_name,customer_email,payment_amount,payment_currency,fulfillment_status,created_at,is_test")
     .eq("payment_status", "PAID")
-    .in("fulfillment_status", ["PENDING", "PROCESSING", "SHIPPED"])
+    .in("fulfillment_status", ["PENDING", "PROCESSING", "SHIPPED"]);
+  const { data: pendingOrders, error: pendingError } = await (includeTest ? pendingQuery : pendingQuery.eq("is_test", false))
     .order("created_at", { ascending: true }).limit(300);
   if (pendingError) return NextResponse.json({ ok: false, error: pendingError.message }, { status: 500 });
-  return NextResponse.json({ ok: true, snapshot: data, pendingOrders: pendingOrders ?? [] });
+  return NextResponse.json({ ok: true, includesTest: includeTest, snapshot: data, pendingOrders: pendingOrders ?? [] });
 }
 
 const actionSchema = z.discriminatedUnion("action", [

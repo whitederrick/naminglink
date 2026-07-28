@@ -17,6 +17,7 @@ import {
   readJsonBodyLimited,
   RequestTooLargeError,
 } from "@/lib/request-guard";
+import { insertOrder } from "@/lib/order-writes";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
@@ -122,7 +123,7 @@ export async function POST(request: NextRequest) {
       parsed.data.region === "global"
         ? `[${parsed.data.country}] ${parsed.data.address}`
         : parsed.data.address;
-    const { error: orderError } = await supabase.from("orders").insert({
+    const { error: orderError } = await insertOrder(supabase, {
       id: orderId,
       user_id: user?.id ?? null,
       order_type: product.orderType,

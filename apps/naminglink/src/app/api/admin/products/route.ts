@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+import { isDevEnvironment } from "@naminglink/core/env";
+
 import { requireAdmin } from "@/lib/admin-auth";
 import { displayPrice, invalidateProductSettingsCache } from "@/lib/product-settings";
 import { getSupabaseAdminClient } from "@/lib/supabase";
@@ -45,6 +47,20 @@ const AMOUNT_LIMITS = {
 export async function PATCH(request: NextRequest) {
   const auth = await requireAdmin(request);
   if (!auth.ok) return NextResponse.json({ ok: false, error: auth.error }, { status: auth.status });
+  // 상품표는 개발·운영이 공유하는 **운영 설정**이다. 로컬에서 값을 바꾸면 운영에서 실제로 가격이
+  // 바뀌거나 판매가 열린다. 상품 on/off는 운영 행위지 개발 행위가 아니므로 로컬에서는 막는다.
+  // 로컬에서 결제 화면을 보려면 `DEV_PRODUCTS_ENABLED`로 읽기 값만 덮으면 된다.
+  if (isDevEnvironment()) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          "개발 환경에서는 상품 설정을 바꿀 수 없습니다(운영 DB를 공유합니다). " +
+          "로컬에서 판매 상태를 흉내 내려면 .env.local의 DEV_PRODUCTS_ENABLED를 쓰세요.",
+      },
+      { status: 403 },
+    );
+  }
   const supabase = getSupabaseAdminClient();
   if (!supabase) {
     return NextResponse.json({ ok: false, error: "저장소가 설정되지 않았습니다." }, { status: 503 });

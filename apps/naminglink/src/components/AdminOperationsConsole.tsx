@@ -431,7 +431,17 @@ function OrdersView({
       <Table
         headers={["주문일", "상품", "내용", "구매자", "결제", "금액", "처리", "배송정보"]}
         rows={paged.pageItems.map((order) => [
-          date.format(new Date(String(order.created_at))),
+          // 개발·운영이 같은 DB를 보므로, 함께 보기로 했을 때 어느 것이 테스트 주문인지 눈에 띄어야 한다.
+          order.is_test ? (
+            <span key="date" className="flex items-center gap-1.5">
+              {date.format(new Date(String(order.created_at)))}
+              <span className="rounded border border-brand-rose/30 bg-brand-rose/10 px-1.5 py-0.5 text-[11px] font-medium text-brand-rose">
+                테스트
+              </span>
+            </span>
+          ) : (
+            date.format(new Date(String(order.created_at)))
+          ),
           orderTypeLabels[String(order.order_type)] ?? order.order_type,
           order.item_summary ?? "-",
           order.customer_email ?? order.customer_name ?? "-",
@@ -643,6 +653,7 @@ type PendingOrderRow = {
   payment_currency: string | null;
   fulfillment_status: string;
   created_at: string;
+  is_test?: boolean;
 };
 
 function DashboardView({ snapshot, summary, pendingOrders }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[] }) {
@@ -743,6 +754,9 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const router = useRouter();
   const [days, setDays] = useState(30);
   const [customRange, setCustomRange] = useState(false);
+  // 로컬 개발과 운영이 같은 Supabase를 본다. 테스트 주문(is_test)은 기본적으로 감추고,
+  // 확인이 필요할 때만 켠다. 매출 집계도 같은 스위치를 따라간다.
+  const [includeTest, setIncludeTest] = useState(false);
   const [payload, setPayload] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -758,10 +772,13 @@ export function AdminOperationsConsole({ view }: { view: View }) {
         return;
       }
       const apiView = view === "ai" ? "ai" : view === "users" ? "users" : view === "orders" ? "orders" : "dashboard";
-      const response = await fetch(`/api/admin/operations?view=${apiView}&days=${days}`, {
-        headers: { Authorization: `Bearer ${data.session.access_token}` },
-        cache: "no-store",
-      });
+      const response = await fetch(
+        `/api/admin/operations?view=${apiView}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
+        {
+          headers: { Authorization: `Bearer ${data.session.access_token}` },
+          cache: "no-store",
+        },
+      );
       const result = await response.json();
       if (response.status === 401 || response.status === 403) {
         await supabase?.auth.signOut();
@@ -773,12 +790,14 @@ export function AdminOperationsConsole({ view }: { view: View }) {
       setLoading(false);
     }
     void load();
-  }, [days, router, view]);
+  }, [days, includeTest, router, view]);
 
   const copy = viewCopy[view];
   const snapshot = payload?.snapshot as Snapshot | undefined;
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
   const showRange = !["users", "orders"].includes(view);
+  // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·AI 사용량은 주문과 무관).
+  const showTestToggle = !["users", "ai"].includes(view);
 
   /** 주문 하나의 배송 정보를 불러온다. 실패하면 칸에 그대로 보여 줄 문구를 돌려준다. */
   async function loadShipping(orderId: string): Promise<ShippingDetail | string> {
@@ -847,6 +866,17 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   return (
     <AdminShell>
       <PageHeader title={copy.title} description={copy.description}>
+        {showTestToggle ? (
+          <label className="flex items-center gap-2 text-sm text-muted">
+            <input
+              type="checkbox"
+              checked={includeTest}
+              onChange={(event) => setIncludeTest(event.target.checked)}
+              className="h-4 w-4 rounded border-line"
+            />
+            테스트 주문 포함
+          </label>
+        ) : null}
         {showRange ? (
           <label className="flex items-center gap-2 text-sm text-muted">
             조회 기간

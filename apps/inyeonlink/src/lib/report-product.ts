@@ -1,5 +1,7 @@
 import "server-only";
 
+import { isDevEnvironment } from "@naminglink/core/env";
+
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import type { Locale } from "@/lib/i18n";
 
@@ -46,7 +48,7 @@ export function getReportProduct(region: ReportRegion) {
 /**
  * 화면 언어로 결제권역을 정한다.
  *
- * 한국어 화면이면 국내(카카오페이 990원), 그 외에는 해외(페이팔 US$2.99)다. 접속 국가가
+ * 한국어 화면이면 국내(토스페이먼츠 990원), 그 외에는 해외(페이팔 US$1.99)다. 접속 국가가
  * 아니라 **화면 언어**를 기준으로 삼는 이유는, 이용자가 실제로 보고 있는 가격 표기와
  * 결제 수단이 어긋나지 않게 하기 위해서다(naminglink의 일괄 공개와 같은 규칙).
  */
@@ -76,8 +78,27 @@ async function loadSettings() {
 
   const rows = new Map<string, ProductSetting>();
   for (const row of (data ?? []) as ProductSetting[]) rows.set(row.code, row);
+  applyDevEnabledOverride(rows);
   cache = { at: Date.now(), rows };
   return rows;
+}
+
+/**
+ * 로컬에서만 `enabled`를 켠다(naminglink의 `product-settings.ts`와 같은 규칙).
+ *
+ * 상품표는 naminglink 관리자 화면이 고치는 **운영 설정**이고 개발·운영이 같은 DB를 본다.
+ * 로컬에서 결제 화면을 보려고 `enabled`를 바꾸면 운영에서 실제로 판매가 열리므로, DB 대신
+ * 읽어 온 값만 덮는다. `DEV_PRODUCTS_ENABLED=ALL` 또는 콤마로 코드를 나열한다.
+ */
+function applyDevEnabledOverride(rows: Map<string, ProductSetting>) {
+  if (!isDevEnvironment()) return;
+  const raw = process.env.DEV_PRODUCTS_ENABLED?.trim();
+  if (!raw) return;
+  const all = raw.toUpperCase() === "ALL";
+  const codes = new Set(raw.split(",").map((code) => code.trim().toUpperCase()).filter(Boolean));
+  for (const [code, row] of rows) {
+    if (all || codes.has(code)) rows.set(code, { ...row, enabled: true });
+  }
 }
 
 /** 판매 중이 아니면 던진다. 다크 런치 상태에서는 항상 여기서 걸린다. */
@@ -100,7 +121,10 @@ export async function getReportSetting(product: ReportProduct) {
  * 조회에 실패하면 시드 값으로 떨어진다. 폴백까지 없애면 DB가 잠깐 흔들릴 때 약관에서 가격이
  * 통째로 사라지는데, 가격 미고지가 값이 조금 낡은 것보다 나쁘다.
  */
-const SEEDED_PRICE = { domestic: "₩990", global: "US$2.99" } as const;
+// 마이그레이션이 심은 값과 같아야 한다(`20260727120000_gunghap_report_orders.sql` →
+// GUNGHAP_PDF_KRW 990 / GUNGHAP_PDF_USD 199). 가격을 바꾸면 여기도 같이 고칠 것 —
+// 어긋나면 조회가 흔들리는 순간 약관에 옛 가격이 나간다(2026-07-27 인하 때 실제로 어긋나 있었다).
+const SEEDED_PRICE = { domestic: "₩990", global: "US$1.99" } as const;
 
 export async function getReportPrices() {
   try {

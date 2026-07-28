@@ -10,6 +10,7 @@ import {
   getReportSetting,
   REPORT_REGIONS,
 } from "@/lib/report-product";
+import { insertOrder } from "@/lib/order-writes";
 import { checkRateLimit } from "@/lib/request-guard";
 import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import { getSupabaseAdminClient } from "@/lib/supabase";
@@ -95,7 +96,7 @@ export async function POST(request: NextRequest) {
     // 토스는 orderId를 그대로 쓴다(6~64자 규칙에 UUID가 들어간다). 포트원은 별도 결제 ID를 쓴다.
     const paymentId = `iy_${orderId.replaceAll("-", "")}`;
 
-    const { error } = await supabase.from("orders").insert({
+    const { error } = await insertOrder(supabase, {
       id: orderId,
       order_type: "GUNGHAP_PDF",
       service: "inyeonlink",
