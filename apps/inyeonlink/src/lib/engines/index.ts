@@ -12,6 +12,7 @@ import {
 import { zodiacEngine } from "./zodiac";
 
 export * from "./types";
+export * from "./affinity";
 export type { PersonReading } from "./prepare";
 export type { MutualRelation, RelationShape } from "./relations";
 export { BRANCH_ANIMALS } from "./branches";

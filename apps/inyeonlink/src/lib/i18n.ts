@@ -148,6 +148,15 @@ export type Dictionary = {
   tenGods: Record<string, { name: string; body: string }>;
   /** 일간(천간) 10종 성향 */
   dayMasters: Record<string, { name: string; trait: string }>;
+  /**
+   * 일간 10종을 **겉으로 드러나는 행동**으로 옮긴 것.
+   *
+   * `dayMasters.trait`은 "곧게 자라는 큰 나무입니다" 같은 비유다. 그 자체로 틀린 말은 아니지만
+   * 눈앞의 사람에게 대 보기가 어렵다 — 인연의 결은 상대의 생일을 모르는 사람이 쓰는 화면이라,
+   * 알아볼 수 없는 설명은 없는 것과 같다. 그래서 같은 성질을 자리에서 볼 수 있는 행동으로
+   * 풀어 함께 싣는다. 비유를 대체하지 않고 **덧붙인다.**
+   */
+  dayMasterSigns: Record<string, string[]>;
   /** 십이지 성향 */
   animalTraits: Record<string, string>;
   result: {
@@ -160,6 +169,105 @@ export type Dictionary = {
     missingInput: string;
     partialTime: string;
     engineVersion: string;
+    disclaimer: string;
+  };
+  /**
+   * 인연의 결 — 한 사람만 받아 "어떤 상대가 맞는가"를 보여 주는 화면.
+   *
+   * 궁합 사전을 그대로 쓰지 않고 따로 두는 이유는 **말하는 대상이 다르기 때문**이다. 궁합은
+   * 이미 있는 두 사람을 두고 말하고, 이 화면은 아직 없는 상대를 두고 말한다. 같은 십신이라도
+   * "당신들은 이런 사이입니다"와 "이런 사람을 찾으십시오"는 문장이 다르다.
+   *
+   * 다만 유형의 성향 문구(`dayMasters`)와 십신 풀이(`tenGods`), 띠 성향(`animalTraits`)은
+   * 궁합과 **같은 것을 쓴다.** 같은 사람을 두고 두 화면이 다르게 말하면 안 된다.
+   */
+  affinity: {
+    /** 메뉴·버튼에 쓰는 이름 */
+    menu: string;
+    formTitle: string;
+    formDescription: string;
+    meLegend: string;
+    /** 내 성별을 왜 받는지 — 궁합과 이유가 달라 따로 적는다 */
+    genderHint: string;
+    seekingLabel: string;
+    seekingHint: string;
+    seekingAny: string;
+    submit: string;
+    submitting: string;
+
+    resultTitle: string;
+    /** 이 화면이 하는 일. 못 하는 일은 여기서 말하지 않는다 — 첫 줄부터 사과가 된다. */
+    intro: string;
+    /** 항목 점수 옆의 주의. 오해가 생길 자리에 바로 붙인다. */
+    scoreCaption: string;
+    meTitle: string;
+    /** "{dayMaster}이고 {strength}입니다" 꼴 */
+    meBody: string;
+    /** 일간이 무엇인지 풀어 쓴 것. 용어가 처음 나오는 자리다. */
+    meHint: string;
+    bestTitle: string;
+    bestHint: string;
+    /** 유형 카드 안 "겉으로 이렇게 나타납니다" 소제목 */
+    signsTitle: string;
+    avoidTitle: string;
+    avoidHint: string;
+    /** 유형 카드 안의 항목 라벨 */
+    bondLabel: string;
+    spouseLabel: string;
+    spouseSkipped: string;
+    /** 두 항목이 각각 무엇을 보는지. 줄바꿈으로 두 항목을 가른다. */
+    scoreHelp: string;
+    /** "{stem} 유형" 꼴로 카드 제목을 만든다 */
+    typeHeading: string;
+    needTitle: string;
+    /** "{elements} 기운이 지금 얇습니다" 꼴 */
+    needBody: string;
+    needHint: string;
+    zodiacTitle: string;
+    zodiacHint: string;
+    zodiacGood: string;
+    zodiacHard: string;
+    /** 띠를 실제로 써먹을 수 있게 연도·나이 차로 바꾼 표시 */
+    bornYear: string;
+    younger: string;
+    older: string;
+    sameAge: string;
+    /** 입춘 경계 주의. 이걸 빠뜨리면 1~2월 초 생일에서 한 해가 어긋난다. */
+    zodiacYearsCaution: string;
+    dayBranchTitle: string;
+    dayBranchBody: string;
+    /**
+     * 간이 확인기 — 상대의 생일만 넣어 "이 사람은 어느 유형인가"를 팝업으로 알려 준다.
+     *
+     * 위 유형 설명이 아무리 자세해도 **확정은 생일로만 된다.** 그렇다고 이 화면에서 궁합을
+     * 다 계산해 버리면 사주 궁합과 경계가 사라지므로, 여기서는 유형과 순위까지만 말하고
+     * 점수를 합치는 일은 사주 궁합으로 넘긴다.
+     */
+    check: {
+      button: string;
+      title: string;
+      body: string;
+      submit: string;
+      checking: string;
+      /** "당신의 {rank}순위입니다" */
+      rank: string;
+      /** "이 사람은 {name}입니다" */
+      heading: string;
+        /** 자정 언저리·입춘 경계의 한계 */
+      caution: string;
+      close: string;
+      another: string;
+      error: string;
+    };
+    /** 사주 궁합으로 이어 주는 자리 */
+    nextTitle: string;
+    nextBody: string;
+    nextButton: string;
+    recalculate: string;
+    copyLink: string;
+    copied: string;
+    missingInput: string;
+    partialTime: string;
     disclaimer: string;
   };
   /**
@@ -249,7 +357,7 @@ const ko: Dictionary = {
     title: "두 사람의 인연,\n숫자로 확인해 보세요",
     subtitle:
       "전통 명리의 사주 궁합과 띠 궁합을 함께 계산해 매칭률로 보여드립니다.",
-    cta: "궁합 보기",
+    cta: "사주 궁합 보기",
     howTitle: "이렇게 계산합니다",
     steps: [
       "두 사람의 생년월일을 입력합니다. 출생 시각은 선택 사항입니다.",
@@ -409,6 +517,58 @@ const ko: Dictionary = {
     壬: { name: "임수(壬水)", trait: "큰 강과 바다입니다. 품이 넓고 흐름을 읽는 눈이 있어 상황을 크게 봅니다." },
     癸: { name: "계수(癸水)", trait: "이슬과 빗물입니다. 조용히 스며들며, 말보다 분위기로 먼저 알아챕니다." },
   },
+  dayMasterSigns: {
+    甲: [
+      "처음 만난 자리에서도 자기 생각을 그대로 말합니다.",
+      "한번 정한 약속이나 계획을 잘 바꾸지 않습니다.",
+      "거절할 때 돌려 말하지 않아 딱딱하게 들릴 수 있습니다.",
+    ],
+    乙: [
+      "부딪치는 자리를 피하고 다른 길로 돌아갑니다.",
+      "부드러워 보이는데 결국 자기 뜻대로 가 있습니다.",
+      "여럿이 있으면 분위기부터 살핍니다.",
+    ],
+    丙: [
+      "처음 보는 사람에게 먼저 말을 겁니다.",
+      "좋고 싫음이 표정에 그대로 드러납니다.",
+      "여럿이 모이면 자연스럽게 가운데에 서 있습니다.",
+    ],
+    丁: [
+      "처음에는 조용한데 가까워지면 살뜰히 챙깁니다.",
+      "여럿보다 한둘과 오래 이야기하는 자리를 좋아합니다.",
+      "남이 흘린 말을 기억해 뒀다 나중에 꺼냅니다.",
+    ],
+    戊: [
+      "말수가 적고 급한 일에도 목소리가 잘 올라가지 않습니다.",
+      "다들 결정을 미룰 때 마지막에 정리하는 쪽입니다.",
+      "한번 아니라고 한 것은 오래 그대로입니다.",
+    ],
+    己: [
+      "자기 이야기보다 상대 이야기를 더 오래 듣습니다.",
+      "부탁을 잘 거절하지 못해 일이 몰립니다.",
+      "티 내지 않고 챙긴 것이 나중에야 드러납니다.",
+    ],
+    庚: [
+      "결정이 빠르고 아니다 싶으면 그 자리에서 말합니다.",
+      "돌려 말하지 않아 차갑게 들릴 때가 있습니다.",
+      "일이 늘어지면 눈에 띄게 답답해합니다.",
+    ],
+    辛: [
+      "옷차림이나 물건을 고르는 데 자기 기준이 분명합니다.",
+      "어설프게 해 둔 것을 그냥 넘기지 못하고 짚습니다.",
+      "칭찬에 인색한 편인데 한번 인정하면 확실합니다.",
+    ],
+    壬: [
+      "사람을 가리지 않고 두루 어울립니다.",
+      "눈앞의 일보다 나중 이야기를 먼저 꺼냅니다.",
+      "한자리에 오래 매여 있는 것을 답답해합니다.",
+    ],
+    癸: [
+      "말수가 적은데 상황은 정확히 읽고 있습니다.",
+      "분위기가 바뀌면 가장 먼저 알아챕니다.",
+      "속내를 잘 드러내지 않아 알기까지 시간이 걸립니다.",
+    ],
+  },
   animalTraits: {
     rat: "빠르게 눈치채고 실속을 챙깁니다. 위기에서 먼저 움직입니다.",
     ox: "느려 보여도 끝을 봅니다. 한번 맡으면 놓지 않습니다.",
@@ -422,6 +582,87 @@ const ko: Dictionary = {
     rooster: "부지런하고 꼼꼼합니다. 어긋난 것을 그냥 두지 못합니다.",
     dog: "의리가 두텁고 한번 믿으면 끝까지 갑니다. 배신에 특히 아파합니다.",
     pig: "너그럽고 솔직합니다. 사람을 잘 믿어 손해를 보기도 합니다.",
+  },
+  affinity: {
+    menu: "인연의 결",
+    formTitle: "나에게 맞는 사람은 어떤 결인가",
+    formDescription:
+      "생년월일 하나만 넣으면 됩니다. 상대의 생일을 몰라도, 아직 그런 사람이 없어도 볼 수 있습니다.",
+    meLegend: "나",
+    genderHint:
+      "전통 명리는 배우자 자리를 성별로 나눠 봅니다. 밝히지 않으시면 그 항목을 빼고 나머지로만 봅니다.",
+    seekingLabel: "찾는 상대",
+    seekingHint:
+      "배우자 자리(정재·정관)는 두 사람의 성별이 모두 있어야 판정됩니다.",
+    seekingAny: "정하지 않음",
+    submit: "인연의 결 보기",
+    submitting: "찾아보는 중…",
+
+    resultTitle: "인연의 결",
+    intro:
+      "당신의 사주가 부르는 상대의 결을 정리했습니다. 아래 유형은 **생일을 몰라도 성향으로 먼저 알아볼 수 있습니다.**",
+    scoreCaption: "궁합에서 쓰는 항목 점수 그대로입니다. 합산한 매칭률이 아닙니다.",
+    meTitle: "당신의 자리",
+    meBody: "{dayMaster}이고, 지금은 {strength}입니다.",
+    meHint:
+      "사주는 태어난 연·월·일·시를 여덟 글자로 적은 것입니다. 그중 **태어난 날의 첫 글자가 나 자신**을 나타내고, 이것을 일간(日干)이라 합니다. 아래 유형도 모두 이 한 글자로 나눈 것입니다.",
+    bestTitle: "잘 맞는 결",
+    bestHint:
+      "상대의 일간, 곧 **그 사람이 태어난 날의 기운**을 열 가지로 나눈 것입니다. 당신과 맞물리는 순서대로 셋을 뽑았습니다. 생일을 몰라도 아래 행동으로 먼저 짐작할 수 있습니다.",
+    signsTitle: "이런 모습으로 나타납니다",
+    avoidTitle: "겪어 봐야 하는 결",
+    avoidHint:
+      "안 된다는 뜻이 아닙니다. 처음의 편안함보다 서로 맞춰 가는 시간이 더 필요한 자리라는 뜻입니다.",
+    bondLabel: "기질 맞물림",
+    spouseLabel: "배우자 자리",
+    spouseSkipped: "성별을 정하지 않아 이 항목은 빼고 봤습니다",
+    scoreHelp:
+      "**기질 맞물림** — 두 사람이 태어난 날의 기운이 서로 어떻게 물리는지 봅니다. 밀고 당기는 사이라도 음(陰)과 양(陽)이 엇갈린 짝을 가장 높게 봅니다.\n**배우자 자리** — 전통 명리에서 배우자를 뜻하는 자리가 따로 있습니다. 남성에게는 정재(正財), 여성에게는 정관(正官)이라 부르는 자리인데, 상대가 나에게 그 자리인지와 내가 상대에게 그 자리인지를 **양쪽으로** 봅니다. 둘 다 해당하면 전통 궁합에서 가장 좋게 보는 짝입니다.",
+    typeHeading: "{name} 같은 사람",
+    needTitle: "당신에게 지금 필요한 기운",
+    needBody: "{elements} 기운이 상대에게 두터우면 당신의 얇은 자리가 채워집니다.",
+    needHint:
+      "사람을 오행으로 알아보기는 어렵습니다. 다만 상대의 생일을 알게 되면 이 자리를 먼저 보십시오.",
+    zodiacTitle: "곁들여 보는 띠",
+    zodiacHint:
+      "띠는 태어난 해만 알면 되니 가장 먼저 확인할 수 있습니다. 다만 사주 넷 중 하나만 보는 것이라 참고로 두십시오.",
+    zodiacGood: "잘 맞는 띠",
+    zodiacHard: "부딪히기 쉬운 띠",
+    bornYear: "{year}년생",
+    younger: "{n}살 아래",
+    older: "{n}살 위",
+    sameAge: "동갑",
+    zodiacYearsCaution:
+      "사주는 새해가 아니라 입춘(2월 4일 무렵)에 해가 바뀝니다. **1월과 2월 초에 태어난 사람은 앞 해의 띠**이니 그 시기 생일은 한 해 앞뒤를 함께 보십시오.",
+    dayBranchTitle: "이 사람이 나와 맞을까",
+    dayBranchBody:
+      "나에게 맞는 사람일지, 생년월일로 간단히 확인해 볼 수 있습니다.\n자세한 내용은 하단의 사주 궁합 보기로 확인 바랍니다.",
+    check: {
+      button: "상대 생일로 확인해 보기",
+      title: "이 사람은 어떤 결일까",
+      body: "생년월일만 넣으면 그 사람이 위 열 유형 가운데 어디인지 알려 드립니다. 궁합 점수는 내지 않습니다.",
+      submit: "확인하기",
+      checking: "확인하는 중…",
+      rank: "당신의 {rank}순위",
+      heading: "이 사람은 {name}입니다",
+      caution:
+        "태어난 날로만 봅니다. **자정 무렵에 태어났다면** 앞뒤 날짜가 갈릴 수 있고, 1월과 2월 초 생일은 띠가 앞 해로 갑니다.",
+      close: "닫기",
+      another: "다른 사람 확인하기",
+      error: "날짜를 확인해 주세요. 없는 날짜이거나 범위를 벗어났습니다.",
+    },
+    nextTitle: "마음에 둔 사람이 있다면",
+    nextBody:
+      "두 분의 생년월일을 넣으면 지금까지의 항목을 모두 합한 실제 매칭률이 나옵니다.",
+    nextButton: "사주 궁합 보기",
+    recalculate: "다시 보기",
+    copyLink: "결과 링크 복사",
+    copied: "복사했습니다",
+    missingInput: "결과 정보를 읽을 수 없습니다. 처음부터 다시 입력해 주세요.",
+    partialTime:
+      "출생 시각을 입력하지 않아 시주를 뺀 채 보았습니다. 시각을 넣으면 필요한 기운이 더 정확해집니다.",
+    disclaimer:
+      "전통 명리 관점의 참고 자료이며, 특정한 사람을 만나라거나 피하라는 뜻이 아닙니다.",
   },
   result: {
     title: "궁합 결과",
@@ -636,7 +877,7 @@ const en: Dictionary = {
     title: "See how two people\nfit together",
     subtitle:
       "All you need is a birth date.\nWe combine Saju (Four Pillars) compatibility with zodiac compatibility and show it as a match rate.",
-    cta: "Check compatibility",
+    cta: "See Saju compatibility",
     howTitle: "How it works",
     steps: [
       "Enter both birth dates. The birth time is optional.",
@@ -796,6 +1037,58 @@ const en: Dictionary = {
     壬: { name: "Yang Water (壬)", trait: "River and sea. Broad in outlook, with an eye for how things are flowing." },
     癸: { name: "Yin Water (癸)", trait: "Dew and rain. It seeps in quietly and reads the mood before the words." },
   },
+  dayMasterSigns: {
+    甲: [
+      "Says what they think even on a first meeting.",
+      "Rarely changes a plan or a promise once it is set.",
+      "Turns things down straight, which can sound blunt.",
+    ],
+    乙: [
+      "Steps around confrontation and takes another route.",
+      "Seems soft, yet ends up where they meant to go.",
+      "Reads the room before joining a group.",
+    ],
+    丙: [
+      "Speaks first to people they have just met.",
+      "What they like and dislike shows on their face.",
+      "Ends up at the centre of a gathering without trying.",
+    ],
+    丁: [
+      "Quiet at first, attentive once you are close.",
+      "Prefers a long talk with one or two over a crowd.",
+      "Remembers a passing remark and brings it up later.",
+    ],
+    戊: [
+      "Says little; their voice rarely rises even when things are urgent.",
+      "The one who settles it at the end while others put off deciding.",
+      "A no, once given, stays no for a long time.",
+    ],
+    己: [
+      "Listens longer than they talk.",
+      "Struggles to refuse, so work piles onto them.",
+      "What they quietly took care of only surfaces later.",
+    ],
+    庚: [
+      "Decides fast and says so on the spot.",
+      "Does not soften things, which can read as cold.",
+      "Visibly restless when something drags on.",
+    ],
+    辛: [
+      "Has clear standards about clothes and the things they choose.",
+      "Cannot let a half-done job pass without pointing it out.",
+      "Sparing with praise, but definite once they mean it.",
+    ],
+    壬: [
+      "Mixes easily with all sorts of people.",
+      "Brings up what comes later before what is in front of them.",
+      "Chafes at being tied to one place for long.",
+    ],
+    癸: [
+      "Says little but has read the situation exactly.",
+      "First to notice when the mood shifts.",
+      "Keeps their inner life close, so it takes time to know them.",
+    ],
+  },
   animalTraits: {
     rat: "Quick to notice and quick to secure what matters. First to move in a crisis.",
     ox: "Slow-looking but sees things through. What it takes on, it does not drop.",
@@ -809,6 +1102,89 @@ const en: Dictionary = {
     rooster: "Diligent and exacting. Cannot leave a thing out of place.",
     dog: "Loyal to the end once trust is given. Betrayal cuts especially deep.",
     pig: "Generous and straightforward. Trusts readily, sometimes at a cost.",
+  },
+  affinity: {
+    menu: "Your match profile",
+    formTitle: "What kind of person suits you",
+    formDescription:
+      "One birth date is all it takes. You can read this without knowing anyone's birthday — or without having anyone in mind yet.",
+    meLegend: "You",
+    genderHint:
+      "Traditional Saju reads the spouse position differently by gender. Leave it unset and that factor is dropped rather than guessed.",
+    seekingLabel: "Looking for",
+    seekingHint:
+      "The spouse position (Jeongjae / Jeonggwan) can only be judged when both genders are known.",
+    seekingAny: "Not specified",
+    submit: "Read my match profile",
+    submitting: "Reading…",
+
+    resultTitle: "Your match profile",
+    intro:
+      "Here is the grain of person your chart leans toward. **You can recognise these types by temperament,** long before you learn a birthday.",
+    scoreCaption:
+      "These are the same per-factor scores the compatibility engine uses — not a combined match rate.",
+    meTitle: "Where you stand",
+    meBody: "You are {dayMaster}, and right now you are {strength}.",
+    meHint:
+      "Saju writes your birth year, month, day and hour as eight characters. **The first character of the birth day stands for you** — it is called the day stem. Every type below is sorted by that one character.",
+    bestTitle: "Grains that suit you",
+    bestHint:
+      "This is the other person's day stem — **the energy of the day they were born** — sorted into ten kinds, of which these three mesh with yours. You can often guess it from the behaviour below, long before you learn a birthday.",
+    signsTitle: "How it shows",
+    avoidTitle: "Grains that take work",
+    avoidHint:
+      "Not a warning. It means the ease comes later, after you have both put the time in.",
+    bondLabel: "Temperament mesh",
+    spouseLabel: "Spouse position",
+    spouseSkipped: "Gender was left unset, so this factor was dropped",
+    scoreHelp:
+      "**Temperament mesh** — how the energies of your two birth days lock together. Even a push-and-pull pairing scores highest when yin and yang are crossed.\n**Spouse position** — traditional Saju sets aside one position for a spouse: Jeongjae for men, Jeonggwan for women. We check it **both ways** — whether they hold that position for you, and whether you hold it for them. Both at once is the pairing tradition rates highest.",
+    typeHeading: "Someone like {name}",
+    needTitle: "What you are short of right now",
+    needBody:
+      "If {elements} runs strong in them, it fills the place that runs thin in you.",
+    needHint:
+      "You cannot read someone's five elements on sight. But once you know their birth date, look here first.",
+    zodiacTitle: "Zodiac, as a side note",
+    zodiacHint:
+      "The zodiac only needs a birth year, so it is the quickest thing to check. It is also one of four pillars — treat it as a hint.",
+    zodiacGood: "Signs that suit you",
+    zodiacHard: "Signs that rub",
+    bornYear: "born {year}",
+    younger: "{n} yr younger",
+    older: "{n} yr older",
+    sameAge: "same age",
+    zodiacYearsCaution:
+      "In Saju the year turns at Ipchun (around 4 February), not on 1 January. **Anyone born in January or early February belongs to the previous year's sign**, so check the year either side for those birthdays.",
+    dayBranchTitle: "Is this the one for me?",
+    dayBranchBody:
+      "A birth date is all it takes to check whether someone suits you.\nFor the full reading, use Saju compatibility at the bottom of this page.",
+    check: {
+      button: "Check someone's birthday",
+      title: "What grain is this person?",
+      body: "Enter a birth date and we will tell you which of the ten types above they are. No compatibility score is calculated.",
+      submit: "Check",
+      checking: "Checking…",
+      rank: "your no. {rank}",
+      heading: "This person is {name}",
+      caution:
+        "This reads the birth day only. **If they were born around midnight** the day can fall either side, and January or early February birthdays belong to the previous year's sign.",
+      close: "Close",
+      another: "Check someone else",
+      error: "Please check the date — it does not exist or is out of range.",
+    },
+    nextTitle: "Someone in mind?",
+    nextBody:
+      "Put in both birth dates and you get the real match rate, with every factor above added together.",
+    nextButton: "See Saju compatibility",
+    recalculate: "Read again",
+    copyLink: "Copy result link",
+    copied: "Copied",
+    missingInput: "We could not read the result. Please start again.",
+    partialTime:
+      "No birth time was given, so the hour pillar was left out. Adding it sharpens what you are short of.",
+    disclaimer:
+      "A reference from the perspective of traditional Saju. It is not telling you to seek out or avoid any particular person.",
   },
   result: {
     title: "Compatibility result",

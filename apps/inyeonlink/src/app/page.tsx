@@ -73,12 +73,24 @@ export default async function LandingPage({
             <p className="break-keep-all mt-4 max-w-xl whitespace-pre-line text-base leading-7 text-white/80 [text-wrap:pretty] sm:text-lg">
               {landing.subtitle}
             </p>
-            <Link
-              href={`/compatibility${query}`}
-              className="mt-7 inline-block rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
-            >
-              {landing.cta}
-            </Link>
+            {/* 메뉴가 둘이다. 사주 궁합은 상대의 생년월일을 알아야 하고, 인연의 결은 나
+                하나로 본다 — 후자가 문턱이 낮으므로 나란히 두어 둘 다 첫 화면에서 보이게 한다.
+                채운 버튼 하나 + 테두리 버튼 하나로 두어 무엇이 이 서비스의 본 상품인지는
+                그대로 남긴다. */}
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Link
+                href={`/compatibility${query}`}
+                className="inline-block rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
+              >
+                {landing.cta}
+              </Link>
+              <Link
+                href={`/affinity${query}`}
+                className="inline-block rounded-full border border-white/45 bg-white/12 px-8 py-4 text-lg font-semibold text-white shadow-sm backdrop-blur transition hover:bg-white/20"
+              >
+                {dictionary.affinity.menu}
+              </Link>
+            </div>
           </section>
 
           {/* 계산 방식과 미저장 안내를 히어로 안에서 바로 보여 준다. naminglink가 서비스

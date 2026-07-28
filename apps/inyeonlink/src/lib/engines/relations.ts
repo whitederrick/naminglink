@@ -1,3 +1,4 @@
+import type { FiveElement } from "@naminglink/core/saju/elements";
 import {
   SPOUSE_ADJACENT,
   SPOUSE_GOD,
@@ -57,11 +58,29 @@ export type MutualRelation = {
   leadIndex: 0 | 1 | null;
 };
 
+/** 일간 하나. 사람 전체가 아니라 천간과 그 오행만 있으면 관계는 정해진다. */
+export type DayMasterRef = { stem: string; element: FiveElement };
+
 export function mutualRelation(a: Prepared, b: Prepared): MutualRelation {
-  const stemA = { stem: a.dayMaster.character, element: a.dayMaster.element };
-  const stemB = { stem: b.dayMaster.character, element: b.dayMaster.element };
-  const aSeesB = tenGod(stemA, stemB);
-  const bSeesA = tenGod(stemB, stemA);
+  return relationOfDayMasters(
+    { stem: a.dayMaster.character, element: a.dayMaster.element },
+    { stem: b.dayMaster.character, element: b.dayMaster.element },
+  );
+}
+
+/**
+ * 일간 둘만으로 관계를 낸다.
+ *
+ * `mutualRelation`이 하던 계산을 그대로 꺼내 놓은 것이다. 사주 전체가 아니라 **천간 두 글자만
+ * 있으면 정해지는 값**이라, 실존하지 않는 상대(인연의 결에서 천간 열 개를 차례로 대 보는 경우)
+ * 에도 같은 규칙을 쓸 수 있다. 규칙이 두 벌이 되면 두 화면의 말이 어긋난다.
+ */
+export function relationOfDayMasters(
+  a: DayMasterRef,
+  b: DayMasterRef,
+): MutualRelation {
+  const aSeesB = tenGod(a, b);
+  const bSeesA = tenGod(b, a);
   const categoryA = CATEGORY[aSeesB];
 
   if (categoryA === "PEER") {
