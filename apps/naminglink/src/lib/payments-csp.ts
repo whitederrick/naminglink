@@ -67,6 +67,11 @@ export const paymentCspSources = {
  * **인연링크에는 없고 naminglink에만 필요하다.** 이 앱은 로그인·계정 화면·관리자 콘솔이
  * 브라우저에서 Supabase를 직접 부른다(`getSupabaseBrowserClient`). connect-src에 넣지 않으면
  * 로그인과 운영 콘솔이 통째로 막힌다.
+ *
+ * **`img-src`에도 필요하다.** 서체 미리보기(`font-previews` 버킷)와 배경 이미지
+ * (`report-backdrops` 버킷)를 Storage 공개 URL로 그대로 불러온다. connect-src에만 넣고
+ * img-src를 빠뜨리면 로그인은 되는데 **미리보기만 조용히 깨진다** — 콘솔을 열지 않으면
+ * 이미지가 없는 것인지 막힌 것인지 구분되지 않는다(2026-07-28 실제로 겪음).
  */
 export const supabaseCspOrigin = (() => {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

@@ -28,7 +28,7 @@ const navGroups = [
     heading: "운영 현황",
     items: [
       ["대시보드", basePath, LayoutDashboard],
-      ["PDF 테스트", `${basePath}/pdf-test`, FileText],
+      ["글로벌 이름 전환 PDF", `${basePath}/pdf-test`, FileText],
     ],
   },
   {
@@ -50,7 +50,6 @@ const navGroups = [
     heading: "데이터·콘텐츠",
     items: [
       ["한자·발음 기준", `${basePath}/hanja`, BookOpenCheck],
-      ["기준 데이터", `${basePath}/data`, Boxes],
       ["서체 관리", `${basePath}/fonts`, FilePenLine],
       ["배경 관리", `${basePath}/backdrops`, FilePenLine],
       ["상품 설정", `${basePath}/products`, Boxes],
@@ -866,6 +865,10 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   return (
     <AdminShell>
       <PageHeader title={copy.title} description={copy.description}>
+        {/* 조작 영역은 세로로 쌓아 "테스트 주문 포함"이 **항상 맨 위 같은 자리**에 오게 한다.
+            가로로 나란히 두면 조회 기간이 없는 화면(굿즈 주문)에서 체크박스가 옆으로 밀려
+            화면을 옮길 때마다 눈으로 다시 찾아야 한다. */}
+        <div className="flex flex-col items-end gap-2">
         {showTestToggle ? (
           <label className="flex items-center gap-2 text-sm text-muted">
             <input
@@ -920,6 +923,7 @@ export function AdminOperationsConsole({ view }: { view: View }) {
             ) : null}
           </label>
         ) : null}
+        </div>
       </PageHeader>
       {loading ? (
         <Empty>운영 데이터를 불러오는 중입니다.</Empty>

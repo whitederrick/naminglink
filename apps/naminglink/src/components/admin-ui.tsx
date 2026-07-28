@@ -19,8 +19,10 @@ export function PageHeader({
   description: string;
   children?: ReactNode;
 }) {
+  // items-start: 조작 영역이 화면마다 높이가 달라도(조회 기간 유무) 자리가 흔들리지 않도록
+  // 제목·설명의 위쪽에 맞춘다. items-end면 아래에 붙어 화면을 옮길 때마다 위치가 튄다.
   return (
-    <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
+    <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
       <div className="max-w-3xl">
         <p className="text-sm text-brand-teal">{eyebrow}</p>
         <h1 className="mt-1 text-3xl font-semibold">{title}</h1>

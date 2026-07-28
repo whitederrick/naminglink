@@ -11,22 +11,33 @@ import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 // 글로벌 프리미엄 PDF 3종을 바로 생성해 내려받는다(모바일 포함 어느 기기든 로그인만 하면 사용).
 // 서버는 /api/premium-reports/test/global 이 운영자 토큰을 재검증한다.
 
+// 서체 수는 관리자가 조정하는 값이라(product_settings.font_count) 라벨에 박아 두면 어긋난다.
+// `defaultFonts`는 조회 실패·판매 중지로 값을 못 읽었을 때만 쓰는 시드 값이다.
 const PRODUCTS = [
   {
     code: "GLOBAL_NAME_PDF",
-    label: "한글 이름 종합 리포트 (US$9.99)",
+    label: "한글 이름 프리미엄 종합 리포트",
+    price: "US$9.99",
+    defaultFonts: 1,
+    candidateNote: "이름 후보 최대 5개",
     hint: "한글 이름 후보 1~5개 (쉼표 구분, 공백 없는 2~6자)",
     defaultNames: "김소하, 서하린, 이수아",
   },
   {
     code: "HANGUL_ART_PDF",
-    label: "발음 전환 아트 (US$2.99)",
+    label: "한글 발음 전환 아트팩",
+    price: "US$2.99",
+    defaultFonts: 1,
+    candidateNote: "표기 후보 최대 3개",
     hint: "한글 표기 후보 1~3개 (쉼표 구분, 어절 공백 허용)",
     defaultNames: "소피아 밀러",
   },
   {
     code: "NAME_ART_PACK",
-    label: "이름 아트 팩 (US$1.99)",
+    label: "한글 이름 변환 아트팩",
+    price: "US$1.99",
+    defaultFonts: 3,
+    candidateNote: "이름 후보 1개",
     hint: "한글 이름 후보 1개",
     defaultNames: "김소하",
   },
@@ -34,9 +45,15 @@ const PRODUCTS = [
 
 type ProductCode = (typeof PRODUCTS)[number]["code"];
 
-const LOCALES = [
-  "en", "ko", "ja", "zh", "vi", "th", "id", "de", "es", "fr", "it", "pt",
-  "ru", "ar", "tr", "fil", "uz", "mn", "hi", "km", "kk", "ms", "pl",
+// 코드만 있으면 어떤 언어인지 바로 안 떠오른다(fil·uz·kk·km). 운영자 화면은 한국어이므로
+// 한국어 언어명을 함께 보여 준다. 순서는 쓰는 빈도 순이고, 코드는 실제 로케일 값 그대로다.
+const LOCALES: readonly (readonly [code: string, label: string])[] = [
+  ["en", "영어"], ["ko", "한국어"], ["ja", "일본어"], ["zh", "중국어(간체)"],
+  ["vi", "베트남어"], ["th", "태국어"], ["id", "인도네시아어"], ["de", "독일어"],
+  ["es", "스페인어"], ["fr", "프랑스어"], ["it", "이탈리아어"], ["pt", "포르투갈어"],
+  ["ru", "러시아어"], ["ar", "아랍어"], ["tr", "튀르키예어"], ["fil", "필리핀어"],
+  ["uz", "우즈베크어"], ["mn", "몽골어"], ["hi", "힌디어"], ["km", "크메르어"],
+  ["kk", "카자흐어"], ["ms", "말레이어"], ["pl", "폴란드어"],
 ] as const;
 
 type FontOption = {
@@ -55,7 +72,9 @@ export function AdminPdfTestPanel() {
   const [country, setCountry] = useState("United States");
   const [birth, setBirth] = useState({ year: "1995", month: "3", day: "14" });
   const [fontOptions, setFontOptions] = useState<FontOption[]>([]);
-  const [fontCount, setFontCount] = useState(0);
+  // 세 상품의 서체 수를 한 번에 읽어 둔다. 목록 라벨이 상품마다 서체 수를 보여 줘야 해서,
+  // 고른 상품 하나만 조회하면 나머지 두 줄이 비게 된다.
+  const [fontCounts, setFontCounts] = useState<Record<string, number>>({});
   const [selectedFonts, setSelectedFonts] = useState<string[]>([]);
   const [autoFonts, setAutoFonts] = useState(true);
   const [busy, setBusy] = useState(false);
@@ -82,12 +101,12 @@ export function AdminPdfTestPanel() {
     setSelectedFonts([]);
   }
 
-  // 상품별 서체 수·목록 갱신.
+  // 서체 수·서체 목록은 상품 선택과 무관하므로 한 번만 읽는다.
   useEffect(() => {
     void (async () => {
       try {
         const [infoResponse, fontsResponse] = await Promise.all([
-          fetch(`/api/product-info?codes=${product}`),
+          fetch(`/api/product-info?codes=${PRODUCTS.map((item) => item.code).join(",")}`),
           fetch(`/api/report-fonts?lang=ko`),
         ]);
         const info = (await infoResponse.json().catch(() => null)) as
@@ -96,13 +115,20 @@ export function AdminPdfTestPanel() {
         const fonts = (await fontsResponse.json().catch(() => null)) as
           | { fonts?: FontOption[] }
           | null;
-        setFontCount(info?.products?.[product]?.fontCount ?? 0);
+        const counts: Record<string, number> = {};
+        for (const item of PRODUCTS) {
+          // 판매 중이 아닌 상품은 응답에서 빠진다. 그때는 시드 값으로 라벨을 채운다.
+          counts[item.code] = info?.products?.[item.code]?.fontCount ?? item.defaultFonts;
+        }
+        setFontCounts(counts);
         setFontOptions(fonts?.fonts ?? []);
       } catch {
         setFontOptions([]);
       }
     })();
-  }, [product]);
+  }, []);
+
+  const fontCount = fontCounts[product] ?? 0;
 
   function toggleFont(code: string) {
     setSelectedFonts((current) => {
@@ -175,8 +201,8 @@ export function AdminPdfTestPanel() {
   return (
     <div className="grid gap-5">
       <PageHeader
-        title="PDF 테스트"
-        description="결제·분석 결과 없이 샘플 데이터로 글로벌 프리미엄 PDF를 생성합니다. 모바일에서도 운영자 로그인만 하면 사용할 수 있습니다."
+        title="글로벌 이름 전환 PDF 테스트"
+        description="결제·분석 결과 없이 샘플 데이터로 글로벌 프리미엄 PDF를 생성합니다. 모바일에서도 운영자 로그인 시 사용 가능합니다."
       />
 
       <section className="grid gap-4 rounded-xl border border-line bg-surface p-5">
@@ -191,7 +217,8 @@ export function AdminPdfTestPanel() {
             >
               {PRODUCTS.map((item) => (
                 <option key={item.code} value={item.code}>
-                  {item.label}
+                  {item.label} (서체 {fontCounts[item.code] ?? item.defaultFonts}개 ·{" "}
+                  {item.candidateNote}, {item.price})
                 </option>
               ))}
             </select>
@@ -204,9 +231,9 @@ export function AdminPdfTestPanel() {
               disabled={busy}
               className={inputClass}
             >
-              {LOCALES.map((code) => (
+              {LOCALES.map(([code, label]) => (
                 <option key={code} value={code}>
-                  {code}
+                  {code} ({label})
                 </option>
               ))}
             </select>

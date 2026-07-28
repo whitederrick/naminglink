@@ -44,7 +44,8 @@ const securityHeaders = [
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
       `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${pay("script")}${toss("script")}`,
       "style-src 'self' 'unsafe-inline'",
-      `img-src 'self' data: blob:${pay("image")}${toss("image")}`,
+      // Supabase Storage: 서체 미리보기(SVG)와 PDF 배경 이미지를 공개 URL로 불러온다.
+      `img-src 'self' data: blob:${supabaseConnect}${pay("image")}${toss("image")}`,
       "font-src 'self' data:",
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${pay("connect")}${toss("connect")}`,
       paymentsConfigured || tossConfiguredForCsp
