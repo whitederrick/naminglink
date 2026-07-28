@@ -155,7 +155,9 @@ export async function POST(request: NextRequest) {
       ok: true,
       checkout: {
         orderId,
-        paymentId,
+        // 토스 주문은 provider_payment_id를 orderId로 두므로 결제 식별값도 orderId다
+        // (일괄 공개·프리미엄 주문과 같은 규칙으로 맞춘다 — 복귀 처리가 셋 다 같아진다).
+        paymentId: useToss ? orderId : paymentId,
         provider: useToss ? ("TOSS" as const) : ("PORTONE" as const),
         clientKey: useToss ? getTossClientKey() : null,
         storeId: portone?.storeId ?? null,

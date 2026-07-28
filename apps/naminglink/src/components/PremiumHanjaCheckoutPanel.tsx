@@ -21,6 +21,10 @@ function hasAdminRole(appMetadata: unknown) {
 }
 
 type Checkout = {
+  // 국내는 토스페이먼츠 직접, 해외는 포트원. 서버가 정해서 내려준다.
+  provider?: "TOSS" | "PORTONE";
+  clientKey?: string | null;
+  orderId?: string;
   sessionId: string;
   paymentId: string;
   accessToken: string;
@@ -258,6 +262,32 @@ export function PremiumHanjaCheckoutPanel({
       saveCheckout(nextCheckout, nameSignatureOf(inputFactors));
 
       setStage("paying");
+
+      if (nextCheckout.provider === "TOSS") {
+        if (!nextCheckout.clientKey || !nextCheckout.orderId) {
+          throw new Error("결제 준비에 실패했습니다.");
+        }
+        // 토스는 결제창을 통과해도 아직 결제가 아니다. successUrl(우리 서버 라우트)에 브라우저가
+        // 닿는 순간 서버가 승인한다 — 결과 화면을 먼저 띄우고 JS를 기다리면 그 사이 창을 닫을
+        // 여지가 생기고, 승인은 10분 안에 해야 한다. 돌아올 자리(premiumSession 포함)는 주문
+        // metadata.returnPath에 서버가 적어 두었다. 여기서부터 페이지를 떠난다.
+        const { loadTossPayments, ANONYMOUS } = await import("@tosspayments/tosspayments-sdk");
+        const tossPayments = await loadTossPayments(nextCheckout.clientKey);
+        const payment = tossPayments.payment({ customerKey: ANONYMOUS });
+        const failUrl = new URL(window.location.href);
+        failUrl.searchParams.set("premiumSession", nextCheckout.sessionId);
+        failUrl.searchParams.set("payment", "failed");
+        await payment.requestPayment({
+          method: "CARD",
+          amount: { currency: "KRW", value: nextCheckout.totalAmount },
+          orderId: nextCheckout.orderId,
+          orderName: nextCheckout.orderName,
+          successUrl: new URL("/api/payments/toss/confirm", window.location.origin).toString(),
+          failUrl: failUrl.toString(),
+        });
+        return;
+      }
+
       const redirectUrl = new URL(window.location.href);
       redirectUrl.searchParams.set("premiumSession", nextCheckout.sessionId);
       const payment = await PortOne.requestPayment({
@@ -290,10 +320,14 @@ export function PremiumHanjaCheckoutPanel({
     if (redirectHandled.current) return;
     const params = new URLSearchParams(window.location.search);
     const sessionId = params.get("premiumSession");
-    const paymentId = params.get("paymentId");
-    const failureCode = params.get("code");
+    // 토스는 승인 라우트가 payment=paid&orderId=를 붙여 돌려보낸다. 토스 주문은
+    // provider_payment_id가 orderId와 같으므로 그 값이 곧 결제 식별값이다.
+    const tossPayment = params.get("payment");
+    const paymentId =
+      params.get("paymentId") ?? (tossPayment === "paid" ? params.get("orderId") : null);
+    const failureCode = params.get("code") ?? (tossPayment === "failed" ? "TOSS_FAILED" : null);
     const failureMessage = params.get("message");
-    if (!sessionId || !paymentId) return;
+    if (!sessionId || (!paymentId && !failureCode)) return;
     redirectHandled.current = true;
     const clearParams = () => {
       params.delete("premiumSession");
@@ -301,6 +335,8 @@ export function PremiumHanjaCheckoutPanel({
       params.delete("txId");
       params.delete("code");
       params.delete("message");
+      params.delete("payment");
+      params.delete("orderId");
       const query = params.toString();
       window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
     };
@@ -315,7 +351,9 @@ export function PremiumHanjaCheckoutPanel({
       }
       const resumed = parseStoredCheckout(localStorage.getItem(checkoutKey(sessionId)));
       if (!resumed) throw new Error("결제는 완료되었지만 이 브라우저에서 주문 접근 정보를 찾을 수 없습니다.");
-      if (resumed.paymentId !== paymentId) throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
+      if (!paymentId || resumed.paymentId !== paymentId) {
+        throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
+      }
       // 리디렉션 복귀는 결제가 끝난 뒤이므로 결제됨으로 표시해 복구 후보로 남긴다.
       updateStoredCheckout(resumed.sessionId, { paid: true });
       setCheckout(resumed);
@@ -561,7 +599,7 @@ export function PremiumHanjaCheckoutPanel({
           {adminToken && !premiumTestMode ? "운영자 테스트: 결제 없이 상세 확인" : "선택 상품을 결제 없이 테스트"}
         </button>
       ) : null}
-      {!paymentConfigured ? <p className="mt-3 text-xs text-muted">포트원 환경변수를 등록하면 실제 결제 버튼이 활성화됩니다. 로컬에서는 아래 개발자 테스트를 이용할 수 있습니다.</p> : null}
+      {!paymentConfigured ? <p className="mt-3 text-xs text-muted">토스페이먼츠 키를 등록하면 실제 결제 버튼이 활성화됩니다. 로컬에서는 아래 개발자 테스트를 이용할 수 있습니다.</p> : null}
       {!inputFactors ? <p className="mt-3 text-xs text-brand-rose">입력 화면에서 새로 분석한 결과에서 결제를 진행해 주세요.</p> : null}
       {error ? <p className="mt-3 rounded-lg bg-brand-rose/5 p-3 text-sm text-brand-rose">{error}</p> : null}
 

@@ -421,6 +421,9 @@ const unlockCopies: Record<string, UnlockCopy> = {
 };
 
 type UnlockCheckout = {
+  // 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔. 서버가 어느 쪽인지 정해서 내려준다.
+  provider: "TOSS" | "PORTONE";
+  clientKey: string | null;
   orderId: string;
   paymentId: string;
   storeId: string;
@@ -493,13 +496,20 @@ export function CandidateUnlockPanel({
   // 문구와 동일한 기준으로 결제권역 결정: 외국인 대상 화면=페이팔 US$1.99, 그 외=카카오페이 990원.
   const region = isForeign ? "global" : "domestic";
   // NEXT_PUBLIC_* 값은 빌드 시 클라이언트 번들에 인라인되므로 채널 키 미등록이면 버튼이 "준비 중"으로 남는다.
-  const bulkConfigured = Boolean(
-    process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
-      (region === "global"
-        ? process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL
-        : process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY ??
-          process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY),
-  );
+  // 국내는 토스 클라이언트 키만 있으면 된다(포트원을 거치지 않는다). 토스 키가 없을 때만
+  // 포트원으로 떨어지므로 둘 중 하나라도 있으면 버튼을 연다. 해외는 페이팔(포트원) 그대로다.
+  const bulkConfigured =
+    region === "global"
+      ? Boolean(
+          process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
+            process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
+        )
+      : Boolean(
+          process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY ||
+            (process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
+              (process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY ??
+                process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY)),
+        );
 
   async function confirmUnlock(orderId: string, paymentId: string) {
     const response = await fetch("/api/candidate-unlock/confirm", {
@@ -521,7 +531,15 @@ export function CandidateUnlockPanel({
       const response = await fetch("/api/candidate-unlock/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ region, serviceType, locale, withdrawalConsent: true }),
+        // returnPath: 토스는 우리 서버 라우트로 돌아가 승인되므로, 승인 뒤 어디로 되돌릴지를
+        // 주문에 적어 둬야 한다. 지금 보고 있는 결과 화면으로 그대로 돌아온다.
+        body: JSON.stringify({
+          region,
+          serviceType,
+          locale,
+          withdrawalConsent: true,
+          returnPath: `${window.location.pathname}${window.location.search}`,
+        }),
       });
       const data = (await response.json().catch(() => null)) as
         | { ok?: boolean; error?: string; checkout?: UnlockCheckout }
@@ -530,6 +548,29 @@ export function CandidateUnlockPanel({
         throw new Error(data?.error || copy.bulkFailed);
       }
       const checkout = data.checkout;
+      if (checkout.provider === "TOSS") {
+        if (!checkout.clientKey) throw new Error(copy.bulkFailed);
+        setBulkStage("paying");
+        // 토스는 결제창을 통과해도 아직 결제가 아니다. 브라우저가 successUrl(우리 서버)에 닿는
+        // 순간 서버가 승인 API를 부른다. 그래서 successUrl을 화면이 아니라 라우트로 둔다 —
+        // 결과 화면을 먼저 띄우고 JS를 기다리면 그 사이 창을 닫을 여지가 생기고, 승인은
+        // 10분 안에 해야 한다. 여기서부터 페이지를 떠나므로 아래 코드는 실행되지 않는다.
+        const { loadTossPayments, ANONYMOUS } = await import("@tosspayments/tosspayments-sdk");
+        const tossPayments = await loadTossPayments(checkout.clientKey);
+        const payment = tossPayments.payment({ customerKey: ANONYMOUS });
+        const failUrl = new URL(window.location.href);
+        failUrl.searchParams.set("payment", "failed");
+        await payment.requestPayment({
+          // "CARD"가 카드·간편결제 통합결제창이라 토스페이·카카오페이·네이버페이·페이코가 함께 들어온다.
+          method: "CARD",
+          amount: { currency: "KRW", value: checkout.totalAmount },
+          orderId: checkout.orderId,
+          orderName: checkout.orderName,
+          successUrl: new URL("/api/payments/toss/confirm", window.location.origin).toString(),
+          failUrl: failUrl.toString(),
+        });
+        return;
+      }
       if (checkout.uiType === "PAYPAL_SPB") {
         // 페이팔은 결제창 팝업이 아니라 SPB 버튼을 패널 안에 렌더하는 방식(loadPaymentUI).
         setPaypalCheckout(checkout);
@@ -611,13 +652,16 @@ export function CandidateUnlockPanel({
   useEffect(() => {
     if (redirectHandled.current) return;
     const params = new URLSearchParams(window.location.search);
-    const orderId = params.get("unlockOrder");
-    if (!orderId) return;
+    // 포트원은 우리가 붙인 unlockOrder를 그대로 달고 돌아오고, 토스는 승인 라우트가
+    // payment=paid&orderId=를 붙여 준다. 둘 다 같은 자리에서 받는다.
+    const tossPayment = params.get("payment");
+    const orderId = params.get("unlockOrder") ?? (tossPayment ? params.get("orderId") : null);
+    if (!orderId && tossPayment !== "failed") return;
     redirectHandled.current = true;
-    const failureCode = params.get("code");
+    const failureCode = params.get("code") ?? (tossPayment === "failed" ? "TOSS_FAILED" : null);
     const failureMessage = params.get("message");
     const clearParams = () => {
-      for (const key of ["unlockOrder", "paymentId", "txId", "code", "message"]) {
+      for (const key of ["unlockOrder", "paymentId", "txId", "code", "message", "payment", "orderId"]) {
         params.delete(key);
       }
       const query = params.toString();
@@ -640,13 +684,18 @@ export function CandidateUnlockPanel({
     void Promise.resolve()
       .then(async () => {
         if (failureCode) throw new Error(failureMessage || copy.bulkFailed);
+        if (!orderId) throw new Error(copy.bulkFailed);
         // 다른 브라우징 컨텍스트로 복귀해 sessionStorage(pending)가 없을 수 있으므로,
         // 포트원이 리디렉션 URL에 붙인 paymentId를 폴백으로 사용한다(confirm이 서버에서
         // 주문·금액을 재검증하므로 안전하다). orderId는 결제 자체를 보증하지 않는다.
+        //
+        // 토스 주문은 provider_payment_id가 orderId와 같고, 승인은 서버 라우트가 이미 끝냈다.
+        // 그래서 confirm은 "PAID인지 확인"만 하고 지나간다(alreadyPaid). 값을 지어내도
+        // 서버가 결제 상태를 다시 보므로 화면만 열리는 일은 생기지 않는다.
         const paymentId =
           pending && pending.orderId === orderId && pending.paymentId
             ? pending.paymentId
-            : params.get("paymentId") || undefined;
+            : params.get("paymentId") || (tossPayment === "paid" ? orderId : undefined);
         if (!paymentId) {
           throw new Error(copy.bulkFailed);
         }

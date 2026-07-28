@@ -174,7 +174,11 @@ export async function POST(request: NextRequest) {
         sessionId,
         productCode: product.code,
         // 승인 뒤 돌아갈 자리. 상품마다 결제 후 보여 줄 화면이 달라 주문에 담아 둔다.
-        returnPath: "/hanja-meaning/result",
+        //
+        // **세션 식별값을 여기서 붙인다.** 결과 화면은 premiumSession으로 어느 분석을 이어받을지
+        // 정하는데, 그 값은 서버가 방금 만든 것이라 클라이언트가 미리 넣을 수 없다. 토스는 승인
+        // 라우트를 거쳐 이 경로로 돌아오므로 여기서 넣어 두지 않으면 결과를 찾지 못한다.
+        returnPath: `/hanja-meaning/result?premiumSession=${sessionId}`,
         // 동의 시각. 개인을 가리키는 값이 아니라 개인정보 최소화와 충돌하지 않는다.
         withdrawalConsentAt: new Date().toISOString(),
       },
