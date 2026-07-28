@@ -34,6 +34,7 @@ if (!target) {
   process.exit(1);
 }
 const checkOnly = target === "--check";
+const verifyGuard = target === "--verify-guard";
 
 const client = new pg.Client({ connectionString: env.SUPABASE_DB_URL });
 await client.connect();
@@ -61,8 +62,35 @@ async function report() {
   }
 }
 
+/**
+ * is_test 안전망이 실제로 걸려 있는지 확인한다.
+ *
+ * `is_test`를 빠뜨린 INSERT가 **에러로 실패해야** 한다. 통과해 버리면 나중에 새 주문 라우트가
+ * 컬럼을 빠뜨렸을 때 조용히 운영 행이 된다. 롤백하므로 행이 남지 않는다.
+ */
+async function verifyIsTestGuard() {
+  await client.query("begin");
+  let inserted = false;
+  try {
+    await client.query(`insert into public.orders
+      (id, order_type, payment_status, payment_amount, payment_currency, fulfillment_status)
+      values (gen_random_uuid(), 'CANDIDATE_UNLOCK', 'UNPAID', 990, 'KRW', 'PENDING')`);
+    inserted = true;
+  } catch (error) {
+    console.log(`안전망 정상: is_test 없는 INSERT가 거부됨 — ${error.message}`);
+  } finally {
+    await client.query("rollback");
+  }
+  if (inserted) {
+    console.error("안전망 없음: is_test 없이 INSERT가 통과했습니다. 기본값이 남아 있는지 확인하세요.");
+    process.exitCode = 1;
+  }
+}
+
 try {
-  if (checkOnly) {
+  if (verifyGuard) {
+    await verifyIsTestGuard();
+  } else if (checkOnly) {
     await report();
   } else {
     const file = path.resolve(process.cwd(), target);
