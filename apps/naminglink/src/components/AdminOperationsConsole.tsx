@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, ShieldCheck, Users } from "lucide-react";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import {
@@ -39,6 +39,10 @@ const navGroups = [
     ],
   },
   {
+    heading: "계정·권한",
+    items: [["운영자 계정", `${basePath}/admins`, ShieldCheck]],
+  },
+  {
     heading: "이용 통계",
     items: [
       ["AI 사용량", `${basePath}/ai-usage`, Bot],
@@ -58,7 +62,7 @@ const navGroups = [
   },
 ] as const;
 
-type View = "dashboard" | "users" | "orders" | "ai" | "analytics" | "usage";
+type View = "dashboard" | "users" | "admins" | "orders" | "ai" | "analytics" | "usage";
 type Snapshot = {
   days: number;
   summary: Record<string, number>;
@@ -89,7 +93,12 @@ const viewCopy: Record<View, { title: string; description: string }> = {
   users: {
     title: "회원 정보 관리",
     description:
-      "가입 회원을 조회하고 계정 상태를 관리합니다. 이메일 검색과 권한·상태 필터로 대상을 찾고, 이상 행동 계정은 '비활성화'로 로그인을 차단하세요. '삭제'는 개인정보 삭제 요청(고객센터 이메일 접수·본인 확인 완료)을 이행할 때만 사용합니다 — 저장한 작명 결과까지 함께 지워지고 되돌릴 수 없으며, 주문 거래기록은 회원 연결만 끊긴 채 법정 보관 기간까지 남습니다. 서비스 이용은 비회원 중심이라 회원은 결과 저장·굿즈 구매·관리자 계정 위주입니다.",
+      "굿즈 구매·결과 저장에 쓰이는 일반 회원입니다(운영자 계정은 '운영자 계정' 화면에서 따로 관리합니다).\n이상 행동 계정은 '비활성화'로 로그인을 차단하고, '삭제'는 개인정보 삭제 요청(고객센터 접수·본인 확인 완료)을 이행할 때만 사용하세요 — 저장한 작명 결과까지 지워지고 되돌릴 수 없으며, 주문 거래기록은 회원 연결만 끊긴 채 법정 보관 기간까지 남습니다.",
+  },
+  admins: {
+    title: "운영자 계정",
+    description:
+      "이 콘솔에 접근할 수 있는 계정입니다. 권한은 Supabase 대시보드에서 app_metadata의 role로 부여합니다.\n여기서는 조회와 비활성화만 합니다 — 삭제 버튼은 두지 않습니다. 운영자 계정 삭제는 개인정보 삭제 요청 이행이 아니고, 실수로 지우면 콘솔 접근 권한이 사라지기 때문입니다(서버도 함께 막습니다).",
   },
   orders: {
     title: "굿즈 주문 관리",
@@ -124,8 +133,14 @@ export function AdminShell({ children }: { children: ReactNode }) {
     <main className="min-h-screen bg-background">
       <div className="mx-auto grid w-full max-w-[1500px] lg:grid-cols-[240px_1fr]">
         <aside className="border-b border-line bg-surface p-5 lg:min-h-screen lg:border-b-0 lg:border-r">
-          <Link href={basePath} className="text-lg font-semibold">Naming Artist</Link>
-          <p className="mt-1 text-xs text-muted">운영자 콘솔</p>
+          {/* "Naming Artist"는 서비스 어디에도 쓰지 않는 이름이라 지운다. 이 화면이 운영자
+              전용이라는 사실이 한눈에 들어오는 편이 낫다(이용자 화면과 착각하지 않도록). */}
+          <Link href={basePath} className="block">
+            <span className="block text-lg font-semibold">Naming-Link</span>
+            <span className="mt-1.5 inline-block rounded bg-foreground px-2 py-0.5 text-xs font-semibold text-background">
+              운영자 콘솔
+            </span>
+          </Link>
           <nav className="mt-6 space-y-4">
             {navGroups.map((group) => (
               <div key={group.heading}>
@@ -165,7 +180,18 @@ type OrderRow = Record<string, string | number | boolean | null>;
 type UsageRow = Record<string, string | number>;
 type CostRow = AiUsageSummaryRow;
 
-function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Record<string, string>) => void }) {
+// mode: "members"는 굿즈 구매 회원, "admins"는 콘솔 운영자. 목록의 출처는 같지만 할 수 있는
+// 조작이 다르다 — 운영자에게는 삭제를 주지 않는다(서버도 거부한다).
+function UsersView({
+  users,
+  onAction,
+  mode = "members",
+}: {
+  users: UserRow[];
+  onAction: (body: Record<string, string>) => void;
+  mode?: "members" | "admins";
+}) {
+  const isAdmins = mode === "admins";
   const [search, setSearch] = useState("");
   const [role, setRole] = useState("all");
   const [status, setStatus] = useState("all");
@@ -185,18 +211,25 @@ function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Rec
   return (
     <>
       <div className="grid gap-4 sm:grid-cols-3">
-        <Metric label="전체 회원" value={number.format(users.length)} note="결과 저장·굿즈 구매·관리자 계정" />
+        <Metric
+          label={isAdmins ? "운영자 계정" : "전체 회원"}
+          value={number.format(users.length)}
+          note={isAdmins ? "콘솔 접근 권한 보유" : "결과 저장·굿즈 구매"}
+        />
         <Metric label="확인된 이메일" value={number.format(users.filter((user) => user.confirmedAt).length)} />
         <Metric label="비활성 계정" value={number.format(users.filter((user) => user.disabled).length)} />
       </div>
       <FilterBar>
         <FilterSearch value={search} onChange={setSearch} placeholder="이메일 검색" />
-        <FilterSelect
-          label="권한"
-          value={role}
-          onChange={setRole}
-          options={[{ value: "all", label: "전체" }, ...roles.map((value) => ({ value, label: value }))]}
-        />
+        {/* 회원 화면은 전부 일반 회원이라 권한 필터가 의미 없다. 운영자 화면에서만 남긴다. */}
+        {isAdmins ? (
+          <FilterSelect
+            label="권한"
+            value={role}
+            onChange={setRole}
+            options={[{ value: "all", label: "전체" }, ...roles.map((value) => ({ value, label: value }))]}
+          />
+        ) : null}
         <FilterSelect
           label="상태"
           value={status}
@@ -224,6 +257,7 @@ function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Rec
             >
               {user.disabled ? "활성화" : "비활성화"}
             </button>
+            {isAdmins ? null : (
             <button
               type="button"
               onClick={() => {
@@ -240,6 +274,7 @@ function UsersView({ users, onAction }: { users: UserRow[]; onAction: (body: Rec
             >
               삭제
             </button>
+            )}
           </div>,
         ])}
       />
@@ -770,7 +805,8 @@ export function AdminOperationsConsole({ view }: { view: View }) {
         router.replace(`${basePath}/login`);
         return;
       }
-      const apiView = view === "ai" ? "ai" : view === "users" ? "users" : view === "orders" ? "orders" : "dashboard";
+      const apiView =
+        view === "ai" || view === "users" || view === "admins" || view === "orders" ? view : "dashboard";
       const response = await fetch(
         `/api/admin/operations?view=${apiView}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
         {
@@ -794,9 +830,9 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const copy = viewCopy[view];
   const snapshot = payload?.snapshot as Snapshot | undefined;
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
-  const showRange = !["users", "orders"].includes(view);
-  // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·AI 사용량은 주문과 무관).
-  const showTestToggle = !["users", "ai"].includes(view);
+  const showRange = !["users", "admins", "orders"].includes(view);
+  // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·운영자·AI 사용량은 주문과 무관).
+  const showTestToggle = !["users", "admins", "ai"].includes(view);
 
   /** 주문 하나의 배송 정보를 불러온다. 실패하면 칸에 그대로 보여 줄 문구를 돌려준다. */
   async function loadShipping(orderId: string): Promise<ShippingDetail | string> {
@@ -838,7 +874,14 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   }
 
   const content = (() => {
-    if (view === "users") return <UsersView users={(payload?.users ?? []) as UserRow[]} onAction={(body) => void runAction(body)} />;
+    if (view === "users" || view === "admins")
+      return (
+        <UsersView
+          users={(payload?.users ?? []) as UserRow[]}
+          onAction={(body) => void runAction(body)}
+          mode={view === "admins" ? "admins" : "members"}
+        />
+      );
     if (view === "orders") {
       return (
         <OrdersView

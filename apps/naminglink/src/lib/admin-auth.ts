@@ -7,7 +7,12 @@ export type AdminIdentity = {
   email: string | null;
 };
 
-function hasAdminRole(appMetadata: Record<string, unknown>) {
+/**
+ * 관리자 판정의 **단일 정의**. 운영자 계정 화면과 회원 화면을 가르는 기준도 이것을 쓴다.
+ * `role` 단수형과 `roles` 배열형을 모두 받으므로, 다른 곳에서 `role === "admin"`만 보면
+ * 배열로 부여된 관리자가 회원 목록에 섞인다.
+ */
+export function hasAdminRole(appMetadata: Record<string, unknown>) {
   if (appMetadata.role === "admin" || appMetadata.role === "super_admin") {
     return true;
   }

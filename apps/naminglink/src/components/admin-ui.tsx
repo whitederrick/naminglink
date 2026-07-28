@@ -9,7 +9,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const number = new Intl.NumberFormat("ko-KR");
 
 export function PageHeader({
-  eyebrow = "Naming-Link Operations",
+  eyebrow = "Naming-Link 운영자 콘솔",
   title,
   description,
   children,

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { requireAdmin } from "@/lib/admin-auth";
+import { hasAdminRole, requireAdmin } from "@/lib/admin-auth";
 import { KRW_PER_USD, summarizeAiUsage } from "@/lib/ai-pricing";
 import { STAMP_MODELS, type StampModelCode } from "@/lib/goods-products";
 import { getSupabaseAdminClient } from "@/lib/supabase";
@@ -36,10 +36,17 @@ export async function GET(request: NextRequest) {
   // 보기 때문이다. 확인이 필요할 때만 ?includeTest=1로 함께 본다.
   const includeTest = request.nextUrl.searchParams.get("includeTest") === "1";
 
-  if (view === "users") {
+  // 운영자 계정과 굿즈 구매 회원은 목적도 위험도 다르다(권한 부여 ↔ 개인정보 삭제 이행).
+  // 같은 표에 섞어 두면 성격이 다른 조작이 나란히 놓여 실수를 부른다. 출처는 auth.users 하나이고
+  // 화면만 가른다. 판정은 admin-auth의 hasAdminRole 한 곳을 쓴다(roles 배열형도 관리자다).
+  if (view === "users" || view === "admins") {
     const { data, error } = await supabase.auth.admin.listUsers({ page: 1, perPage: 200 });
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
-    return NextResponse.json({ ok: true, users: data.users.map((user) => ({
+    const wantAdmins = view === "admins";
+    const users = data.users.filter(
+      (user) => hasAdminRole((user.app_metadata ?? {}) as Record<string, unknown>) === wantAdmins,
+    );
+    return NextResponse.json({ ok: true, users: users.map((user) => ({
       id: user.id,
       email: user.email ?? null,
       role: user.app_metadata?.role ?? "member",
@@ -127,6 +134,15 @@ export async function PATCH(request: NextRequest) {
   if (parsed.data.action === "DELETE_USER") {
     if (parsed.data.userId === auth.admin.id) {
       return NextResponse.json({ ok: false, error: "현재 로그인한 관리자 계정은 삭제할 수 없습니다." }, { status: 400 });
+    }
+    // 삭제는 회원의 개인정보 삭제 요청을 이행하는 수단이다. 운영자 계정에는 그 근거가 없고,
+    // 실수로 지우면 콘솔 접근 권한이 사라진다. 화면에서 버튼을 감추는 것과 별개로 서버가 막는다.
+    const { data: target } = await supabase.auth.admin.getUserById(parsed.data.userId);
+    if (target?.user && hasAdminRole((target.user.app_metadata ?? {}) as Record<string, unknown>)) {
+      return NextResponse.json(
+        { ok: false, error: "운영자 계정은 삭제할 수 없습니다. 권한을 먼저 해제하세요." },
+        { status: 400 },
+      );
     }
     const { error } = await supabase.auth.admin.deleteUser(parsed.data.userId);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
