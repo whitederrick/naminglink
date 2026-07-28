@@ -17,15 +17,17 @@ export function BrandMark({
   return (
     <span
       aria-hidden="true"
-      className={`flex items-center justify-center rounded-lg border ${
+      className={`flex shrink-0 items-center justify-center rounded-lg border shadow-[0_8px_24px_rgba(0,0,0,0.18)] ${
         onLight ? "border-line bg-surface" : "border-white/30 bg-white/12 backdrop-blur"
       } ${
-        compact ? "size-8" : "size-11"
+        // 기본 56px은 naminglink BrandMark의 기본값(size=56)과 같다. 두 서비스의 헤더에서
+        // 로고 자리와 그 옆 글자의 위치가 어긋나지 않게 하려면 이 값을 함께 바꿔야 한다.
+        compact ? "size-8" : "size-14"
       } ${className}`}
     >
       <svg
-        width={compact ? 20 : 28}
-        height={compact ? 20 : 28}
+        width={compact ? 20 : 36}
+        height={compact ? 20 : 36}
         viewBox="0 0 64 64"
         fill="none"
         strokeLinecap="round"

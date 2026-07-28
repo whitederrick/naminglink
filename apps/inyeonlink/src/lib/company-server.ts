@@ -3,6 +3,7 @@ import "server-only";
 import {
   fallbackCompanyInfo,
   SERVICE_NAME,
+  SERVICE_SUBTITLE,
   type CompanyInfo,
 } from "@/lib/company";
 import { getSupabaseAdminClient } from "@/lib/supabase";
@@ -50,6 +51,7 @@ export async function getCompanyInfo(): Promise<CompanyInfo> {
       // 서비스 이름만은 DB에서 오지 않는다. `footer.global`은 naminglink 것을 담고 있어서
       // 그대로 쓰면 인연링크 푸터에 "Naming-Link"가 찍힌다.
       serviceName: SERVICE_NAME,
+      serviceSubtitle: SERVICE_SUBTITLE,
       legalEntity: text(content.companyName, fallbackCompanyInfo.legalEntity),
       representative: text(
         content.representative,

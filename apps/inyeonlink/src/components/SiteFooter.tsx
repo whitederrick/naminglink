@@ -10,6 +10,61 @@ import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 // 관리자 화면에서 고치려고 클라이언트에서 API로 받아오고, 이 앱은 고칠 일이 없으므로 서버
 // 컴포넌트에서 바로 읽는다. 링크 목록만 짧다(파는 것이 하나뿐이라 요금안내가 따로 없다).
 
+// "준비 중" 계열 문구의 로케일별 표기. naminglink `SiteFooter.tsx`의 `footerCopies[*].values`에서
+// 그대로 가져왔다 — 사전(i18n)이 아니라 푸터 컴포넌트가 들고 있는 값이라 그쪽 구조를 따랐다.
+const PENDING_COPIES: Record<
+  Locale,
+  { pending: string; registrationPending: string; mailOrderPending: string }
+> = {
+  ko: { pending: "확인 예정", registrationPending: "준비 중", mailOrderPending: "신고 준비 중" },
+  en: { pending: "to be confirmed", registrationPending: "pending", mailOrderPending: "filing pending" },
+  ja: { pending: "確認予定", registrationPending: "準備中", mailOrderPending: "申告準備中" },
+  zh: { pending: "待确认", registrationPending: "准备中", mailOrderPending: "申报准备中" },
+  de: { pending: "in Prüfung", registrationPending: "in Vorbereitung", mailOrderPending: "Meldung in Vorbereitung" },
+  es: { pending: "por confirmar", registrationPending: "en preparación", mailOrderPending: "registro en preparación" },
+  fr: { pending: "à confirmer", registrationPending: "en préparation", mailOrderPending: "déclaration en préparation" },
+  it: { pending: "da confermare", registrationPending: "in preparazione", mailOrderPending: "segnalazione in preparazione" },
+  pt: { pending: "a confirmar", registrationPending: "em preparação", mailOrderPending: "declaração em preparação" },
+  vi: { pending: "sẽ xác nhận", registrationPending: "đang chuẩn bị", mailOrderPending: "đang chuẩn bị khai báo" },
+  th: { pending: "รอยืนยัน", registrationPending: "กำลังเตรียม", mailOrderPending: "กำลังเตรียมแจ้ง" },
+  id: { pending: "akan dikonfirmasi", registrationPending: "sedang disiapkan", mailOrderPending: "pelaporan disiapkan" },
+  ru: { pending: "уточняется", registrationPending: "готовится", mailOrderPending: "подача готовится" },
+  ar: { pending: "سيتم التأكيد", registrationPending: "قيد التحضير", mailOrderPending: "قيد الإبلاغ" },
+  fil: { pending: "kukumpirmahin", registrationPending: "inihahanda", mailOrderPending: "inihahanda ang filing" },
+  uz: { pending: "tasdiqlanadi", registrationPending: "tayyorlanmoqda", mailOrderPending: "ariza tayyorlanmoqda" },
+  mn: { pending: "баталгаажина", registrationPending: "бэлтгэж байна", mailOrderPending: "мэдүүлэг бэлтгэж байна" },
+  hi: { pending: "पुष्टि बाकी", registrationPending: "तैयारी में", mailOrderPending: "फाइलिंग तैयारी में" },
+  tr: { pending: "onay bekliyor", registrationPending: "hazırlanıyor", mailOrderPending: "bildirim hazırlanıyor" },
+  km: { pending: "នឹងបញ្ជាក់", registrationPending: "កំពុងរៀបចំ", mailOrderPending: "កំពុងរៀបចំដាក់ស្នើ" },
+  ms: { pending: "akan disahkan", registrationPending: "sedang disediakan", mailOrderPending: "pemfailan disediakan" },
+  kk: { pending: "нақтыланады", registrationPending: "дайындалуда", mailOrderPending: "өтініш дайындалуда" },
+  pl: { pending: "do potwierdzenia", registrationPending: "w przygotowaniu", mailOrderPending: "zgłoszenie w przygotowaniu" },
+};
+
+/**
+ * 푸터 값 한 칸을 화면에 쓸 문자열로 다듬는다.
+ *
+ * DB(`site_contents`)에 들어 있는 값에는 **항목명이 그대로 붙어 있다** — `"통신판매업 신고 준비 중"`,
+ * `"사업자등록번호 준비 중"`. 라벨과 함께 그리면 "통신판매업 통신판매업 신고 준비 중"이 된다.
+ * 그래서 값이 라벨로 시작하면 그 부분을 떼고, 한국어가 아니면 로케일 표기로 바꾼다.
+ * (naminglink는 한국어일 때 걷어내지 않아 같은 겹침이 남아 있다 — 그쪽도 손봐야 한다.)
+ */
+function displayValue(locale: Locale, label: string, value: string) {
+  const trimmed = value.trim();
+  const pendingCopy = PENDING_COPIES[locale];
+
+  if (trimmed === "통신판매업 신고 준비 중") return pendingCopy.mailOrderPending;
+  if (trimmed === "사업자등록번호 준비 중") return pendingCopy.registrationPending;
+  if (trimmed === "확인 예정") return pendingCopy.pending;
+
+  // 위 세 가지 말고도 값이 라벨로 시작하면 겹치므로 떼어 낸다. 떼고 나서 빈 문자열이 되면
+  // 값 자체가 라벨뿐이었다는 뜻이라 원래 값을 그대로 둔다.
+  if (label && trimmed.startsWith(label)) {
+    return trimmed.slice(label.length).trim() || trimmed;
+  }
+  return trimmed;
+}
+
 export async function SiteFooter({
   locale,
   tone = "dark",
@@ -44,19 +99,29 @@ export async function SiteFooter({
     { kind: "pricing" as const, href: `/pricing${langQuery}`, label: copy.pricing },
   ];
 
+  const row = (label: string, value: string) => ({
+    label,
+    value: displayValue(locale, label, value),
+  });
   const firstLine = [
-    { label: copy.legalEntity, value: companyInfo.legalEntity },
-    { label: copy.representative, value: companyInfo.representative },
-    { label: copy.businessNumber, value: companyInfo.businessNumber },
-    { label: copy.address, value: companyInfo.address },
+    row(copy.legalEntity, companyInfo.legalEntity),
+    row(copy.representative, companyInfo.representative),
+    row(copy.businessNumber, companyInfo.businessNumber),
+    row(copy.address, companyInfo.address),
   ];
   const secondLine = [
-    { label: copy.customerCenter, value: companyInfo.customerCenter },
-    { label: copy.email, value: companyInfo.email },
-    { label: copy.privacyOfficer, value: companyInfo.privacyOfficer },
-    { label: copy.mailOrderNumber, value: companyInfo.mailOrderNumber },
-    { label: copy.hostingProvider, value: companyInfo.hostingProvider },
+    row(copy.customerCenter, companyInfo.customerCenter),
+    row(copy.email, companyInfo.email),
+    row(copy.privacyOfficer, companyInfo.privacyOfficer),
+    row(copy.mailOrderNumber, companyInfo.mailOrderNumber),
+    row(copy.hostingProvider, companyInfo.hostingProvider),
   ];
+
+  // © 줄에는 법인격 접두사를 뺀 상호를 쓴다. naminglink의 `providerName`과 같은 처리라
+  // 두 서비스의 마지막 줄이 같은 이름으로 끝난다("(주)Platforest" → "Platforest").
+  const providerName = companyInfo.legalEntity
+    .replace(/^\(주\)\s*/, "")
+    .replace(/^주식회사\s*/, "");
   // naminglink와 같은 묶음. 390px 폭에서도 각 줄이 넘치지 않도록 나눈 것이다.
   const mobileRows = [
     [firstLine[0], firstLine[1]],
@@ -134,9 +199,11 @@ export async function SiteFooter({
           </div>
         </div>
 
+        {/* naminglink의 © 줄과 같은 꼴이다 — `이름(부제) · Provided by 제공사`.
+            제공사는 등록 상호가 아니라 법인격 접두사를 뗀 이름을 쓴다(위 providerName). */}
         <p className="font-medium" dir={textDirection}>
-          © {new Date().getFullYear()} {companyInfo.serviceName} ·{" "}
-          {copy.providedBy} {companyInfo.legalEntity}
+          © {new Date().getFullYear()} {companyInfo.serviceName}(
+          {companyInfo.serviceSubtitle}) · {copy.providedBy} {providerName}
         </p>
       </div>
     </footer>

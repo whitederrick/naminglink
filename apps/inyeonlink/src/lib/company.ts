@@ -13,6 +13,8 @@ export const LEGAL_EFFECTIVE_DATE = "2026-07-26";
 export type CompanyInfo = {
   /** 이 서비스의 이름. 사업자 정보가 아니라 서비스 정보라 여기서 정한다. */
   serviceName: string;
+  /** © 줄에서 서비스 이름 뒤 괄호에 들어가는 말. naminglink의 `footerContent.subtitle`과 같은 자리다. */
+  serviceSubtitle: string;
   legalEntity: string;
   representative: string;
   businessNumber: string;
@@ -24,11 +26,18 @@ export type CompanyInfo = {
   hostingProvider: string;
 };
 
-/** 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다. */
-export const SERVICE_NAME = "인연링크 (InyeonLink)";
+/**
+ * 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
+ *
+ * 표기는 naminglink의 © 줄과 같은 꼴로 맞춘다 — `Naming-Link(Global Naming Studio)`에 대응하는
+ * `Inyeon-Link(인연 링크)`. 헤더 워드마크도 `Inyeon-Link`라 두 자리가 어긋나지 않는다.
+ */
+export const SERVICE_NAME = "Inyeon-Link";
+export const SERVICE_SUBTITLE = "인연 링크";
 
 export const fallbackCompanyInfo: CompanyInfo = {
   serviceName: SERVICE_NAME,
+  serviceSubtitle: SERVICE_SUBTITLE,
   legalEntity: "Naming-Link",
   representative: "곽은하",
   businessNumber: "사업자등록번호 준비 중",

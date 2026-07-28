@@ -24,7 +24,7 @@ export function PrivacyNotice({
 
   return (
     <section
-      className={`rounded-2xl border p-6 shadow-sm backdrop-blur ${
+      className={`rounded-2xl border px-5 py-2.5 shadow-sm backdrop-blur ${
         onDark
           ? "border-white/20 bg-white/10 text-white/80"
           : "border-line/70 bg-surface/75 text-muted"
@@ -38,14 +38,12 @@ export function PrivacyNotice({
         {landing.privacyTitle}
       </h2>
       {/* 문구에 줄바꿈이 들어 있다. pre-line이 없으면 공백으로 접힌다. */}
-      <p className="break-keep-all mt-2 max-w-3xl whitespace-pre-line text-sm leading-6">
+      <p className="break-keep-all mt-1.5 max-w-3xl whitespace-pre-line text-sm leading-6">
         {landing.privacyBody}
       </p>
-      <p
-        className={`break-keep-all mt-3 border-t pt-3 text-sm leading-6 ${
-          onDark ? "border-white/20" : "border-line/70"
-        }`}
-      >
+      {/* 구분선은 넣지 않는다 — 카드가 두 장 겹쳐 들어가는 자리라 선 하나가 세로 공간을
+          그만큼 더 먹는다. 글자는 본래 크기(14px/24px) 그대로다. */}
+      <p className="break-keep-all mt-2 text-sm leading-6">
         {landing.disclaimer}
       </p>
     </section>
