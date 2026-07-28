@@ -6,7 +6,7 @@ import { GLOBAL_PREMIUM_PRODUCTS } from "@/lib/global-products";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
 import { getReportFontsByCodes } from "@/lib/report-fonts-registry";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
-import { getPortOnePublicConfig } from "@/lib/portone";
+import { getPortOnePaypalConfig } from "@/lib/portone";
 import { createPremiumReportAccess } from "@/lib/premium-reports";
 import {
   checkInputFactorsSize,
@@ -147,7 +147,8 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  const portone = getPortOnePublicConfig(product.channel);
+  // 글로벌 상품은 해외 결제뿐이라 포트원(페이팔) 하나다.
+  const portone = getPortOnePaypalConfig();
   const supabase = getSupabaseAdminClient();
   if (!portone || !process.env.PORTONE_API_SECRET) {
     return NextResponse.json(

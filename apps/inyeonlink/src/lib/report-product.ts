@@ -30,7 +30,8 @@ export type ReportProduct = {
   settingCode: string;
   /** orders.order_type. DB 제약에 박혀 있는 값이라 바꾸지 않는다. */
   orderType: "GUNGHAP_PDF" | "AFFINITY_PDF";
-  channel: "kakaopay" | "paypal";
+  /** 결제사(2026-07-29 일원화): 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔. */
+  provider: "TOSS" | "PORTONE_PAYPAL";
   /** 페이팔은 결제창 팝업이 아니라 버튼을 화면에 그리는 방식이다. */
   uiType: "PAYPAL_SPB" | undefined;
   orderName: string;
@@ -43,7 +44,7 @@ const PRODUCTS: Record<ReportKind, Record<ReportRegion, ReportProduct>> = {
       region: "domestic",
       settingCode: "GUNGHAP_PDF_KRW",
       orderType: "GUNGHAP_PDF",
-      channel: "kakaopay",
+      provider: "TOSS",
       uiType: undefined,
       orderName: "인연링크 궁합 리포트 PDF",
     },
@@ -52,7 +53,7 @@ const PRODUCTS: Record<ReportKind, Record<ReportRegion, ReportProduct>> = {
       region: "global",
       settingCode: "GUNGHAP_PDF_USD",
       orderType: "GUNGHAP_PDF",
-      channel: "paypal",
+      provider: "PORTONE_PAYPAL",
       uiType: "PAYPAL_SPB",
       orderName: "InyeonLink compatibility report (PDF)",
     },
@@ -63,7 +64,7 @@ const PRODUCTS: Record<ReportKind, Record<ReportRegion, ReportProduct>> = {
       region: "domestic",
       settingCode: "AFFINITY_PDF_KRW",
       orderType: "AFFINITY_PDF",
-      channel: "kakaopay",
+      provider: "TOSS",
       uiType: undefined,
       orderName: "인연링크 인연의 결 리포트 PDF",
     },
@@ -72,7 +73,7 @@ const PRODUCTS: Record<ReportKind, Record<ReportRegion, ReportProduct>> = {
       region: "global",
       settingCode: "AFFINITY_PDF_USD",
       orderType: "AFFINITY_PDF",
-      channel: "paypal",
+      provider: "PORTONE_PAYPAL",
       uiType: "PAYPAL_SPB",
       orderName: "InyeonLink match profile report (PDF)",
     },

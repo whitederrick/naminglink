@@ -1,6 +1,7 @@
 // 실물 굿즈 상품표. 가격은 반드시 이 표에서만 읽는다.
 // 굿즈 로드맵(2026-07-23): 당분간 도장만 판매(캘리그라피 보류).
-// 국내: ₩39,000 카카오페이 / 글로벌: US$34.99(국제배송비 포함, 2026-07-23 확정) 페이팔.
+// 국내: ₩39,000 / 글로벌: US$34.99(국제배송비 포함, 2026-07-23 확정).
+// 결제사(2026-07-29 일원화): 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔.
 export const STAMP_PRODUCT = {
   code: "STAMP_BASIC",
   orderType: "STAMP_DELIVERY",
@@ -9,7 +10,7 @@ export const STAMP_PRODUCT = {
   amount: 39000,
   currency: "KRW",
   display: "₩39,000",
-  channel: "kakaopay",
+  provider: "TOSS",
 } as const;
 
 export const STAMP_PRODUCT_GLOBAL = {
@@ -21,7 +22,7 @@ export const STAMP_PRODUCT_GLOBAL = {
   amount: 3499,
   currency: "USD",
   display: "US$34.99",
-  channel: "paypal",
+  provider: "PORTONE_PAYPAL",
 } as const;
 
 /** 모델과 권역으로 `product_settings`의 어느 행을 읽을지 정한다. */

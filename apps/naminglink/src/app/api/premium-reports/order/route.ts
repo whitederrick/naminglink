@@ -3,7 +3,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { generateNamingResult, NamingInputConstraintError } from "@/lib/openai";
-import { getPortOnePublicConfig } from "@/lib/portone";
 import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import {
   createPremiumReportAccess,
@@ -131,12 +130,11 @@ export async function POST(request: NextRequest) {
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }
-  // 한자 상세는 국내 상품이라 토스페이먼츠로 간다. 키가 없으면 예전처럼 포트원으로 떨어진다 —
-  // 토스 심사가 끝나기 전에도 결제 경로가 끊기지 않게 하려는 것이다.
-  const useToss = tossConfigured;
-  const portone = useToss ? null : getPortOnePublicConfig();
+  // 한자 상세는 국내 전용 상품이라 **토스페이먼츠만** 쓴다. 예전에는 토스 키가 없으면
+  // 포트원으로 떨어뜨렸는데, 그 폴백은 계약하지 않은 채널로 결제를 내보내는 길이라 지웠다
+  // (2026-07-29 결제 일원화). 키가 없으면 결제를 열지 않는 쪽이 맞다.
   const supabase = getSupabaseAdminClient();
-  if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
+  if (!tossConfigured) {
     return NextResponse.json({ ok: false, error: "결제 환경변수가 설정되지 않았습니다." }, { status: 503 });
   }
   if (!supabase) {
@@ -154,7 +152,6 @@ export async function POST(request: NextRequest) {
     }
     const orderId = randomUUID();
     const sessionId = randomUUID();
-    const paymentId = `nl_${orderId.replaceAll("-", "")}`;
     const access = createPremiumReportAccess();
     const user = await getAuthenticatedUser(request);
     const customer = parsed.data.customer;
@@ -168,9 +165,9 @@ export async function POST(request: NextRequest) {
       payment_status: "UNPAID",
       payment_amount: setting.amount,
       fulfillment_status: "PENDING",
-      provider_payment_id: useToss ? orderId : paymentId,
+      provider_payment_id: orderId,
       metadata: {
-        provider: useToss ? "TOSS_PAYMENTS" : "PORTONE_V2",
+        provider: "TOSS_PAYMENTS",
         sessionId,
         productCode: product.code,
         // 승인 뒤 돌아갈 자리. 상품마다 결제 후 보여 줄 화면이 달라 주문에 담아 둔다.
@@ -208,15 +205,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       ok: true,
       checkout: {
-        provider: useToss ? ("TOSS" as const) : ("PORTONE" as const),
+        provider: "TOSS" as const,
         orderId,
         sessionId,
-        paymentId: useToss ? orderId : paymentId,
+        // 토스는 주문 식별값이 곧 결제 식별값이다(포트원처럼 별도 paymentId를 만들지 않는다).
+        paymentId: orderId,
         accessToken: access.token,
-        clientKey: useToss ? getTossClientKey() : null,
-        storeId: portone?.storeId ?? null,
-        channelKey: portone?.channelKey ?? null,
-        payMethod: portone?.payMethod ?? null,
+        clientKey: getTossClientKey(),
         productCode: product.code,
         candidateLimit: product.candidateLimit,
         includesSaju: product.includesSaju,

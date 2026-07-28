@@ -13,29 +13,19 @@ import { isUnrecognizedPayment, type PaidPayment } from "@portone/server-sdk/pay
 
 let paymentClient: ReturnType<typeof PaymentClient> | null = null;
 
-/** 국내는 카카오페이(KRW), 해외는 페이팔(USD). */
-export type PortOneChannel = "kakaopay" | "paypal";
-
-export function getPortOnePublicConfig(channel: PortOneChannel) {
+/**
+ * **포트원은 해외 페이팔 전용이다**(2026-07-29 결제 일원화).
+ *
+ * 국내 결제는 토스페이먼츠 직접 연동(`lib/toss.ts`)으로 옮겼고, 포트원 경유 카카오페이 채널은
+ * 심사가 취소돼 쓰지 않는다. 국내 채널 분기와 단일 채널 키(NEXT_PUBLIC_PORTONE_CHANNEL_KEY)
+ * 폴백을 지운 이유는, 폴백이 남아 있으면 토스 키 없이도 결제창이 열려 **계약하지 않은 채널로
+ * 돈이 흐르기** 때문이다. naminglink의 같은 파일과 함께 고칠 것.
+ */
+export function getPortOnePaypalConfig() {
   const storeId = process.env.NEXT_PUBLIC_PORTONE_STORE_ID;
-  if (!storeId) return null;
-
-  if (channel === "paypal") {
-    const channelKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL;
-    if (!channelKey) return null;
-    return { storeId, channelKey, payMethod: "PAYPAL" as const };
-  }
-
-  // 카카오페이 키가 없으면 단일 채널 키로 폴백한다. 테스트 채널 하나로 쓰던 구성이 그대로
-  // 동작하게 하려는 것이고, payMethod는 채널에 따라 달라진다.
-  const kakaopayKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY;
-  const channelKey = kakaopayKey ?? process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY;
-  if (!channelKey) return null;
-  return {
-    storeId,
-    channelKey,
-    payMethod: kakaopayKey ? ("EASY_PAY" as const) : ("CARD" as const),
-  };
+  const channelKey = process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL;
+  if (!storeId || !channelKey) return null;
+  return { storeId, channelKey, payMethod: "PAYPAL" as const };
 }
 
 function getPaymentClient() {

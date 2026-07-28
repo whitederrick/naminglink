@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { getPortOnePublicConfig } from "@/lib/portone";
+import { getPortOnePaypalConfig } from "@/lib/portone";
 import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import {
   CANDIDATE_UNLOCK_REGIONS,
@@ -71,10 +71,18 @@ export async function POST(request: NextRequest) {
   } catch {
     return NextResponse.json({ ok: false, error: "판매 중이 아닌 상품입니다." }, { status: 503 });
   }
-  // 국내는 토스페이먼츠, 해외는 포트원(페이팔). 토스 키가 없으면 국내도 포트원으로 떨어진다.
-  const useToss = parsed.data.region === "domestic" && tossConfigured;
-  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
+  // 결제사는 상품표의 provider가 정한다: 국내=토스페이먼츠 직접, 해외=포트원(페이팔).
+  // **폴백은 없다.** 토스 키가 없으면 국내 주문은 열리지 않는다 — 예전처럼 포트원으로
+  // 떨어뜨리면 계약하지 않은 채널로 결제가 나간다.
+  const useToss = product.provider === "TOSS";
+  const portone = useToss ? null : getPortOnePaypalConfig();
   const supabase = getSupabaseAdminClient();
+  if (useToss && !tossConfigured) {
+    return NextResponse.json(
+      { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },
+      { status: 503 },
+    );
+  }
   if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
     return NextResponse.json(
       { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },

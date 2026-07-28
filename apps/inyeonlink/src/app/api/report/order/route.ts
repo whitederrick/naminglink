@@ -3,7 +3,7 @@ import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { getPortOnePublicConfig } from "@/lib/portone";
+import { getPortOnePaypalConfig } from "@/lib/portone";
 import {
   displayPrice,
   getReportProduct,
@@ -85,9 +85,9 @@ export async function POST(request: NextRequest) {
 
   // **국내는 토스페이먼츠, 해외는 포트원(페이팔)이다.** 결제사가 갈리므로 주문에도 어느 쪽으로
   // 만든 주문인지 남긴다 — 확정 경로가 완전히 달라서 나중에 구분할 수 없으면 안 된다.
-  const useToss = product.region === "domestic";
+  const useToss = product.provider === "TOSS";
 
-  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
+  const portone = useToss ? null : getPortOnePaypalConfig();
   if (useToss) {
     if (!tossConfigured) return jsonError("PAYMENT_NOT_READY", 503);
   } else if (!portone || !process.env.PORTONE_API_SECRET) {

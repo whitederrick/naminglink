@@ -13,25 +13,23 @@ import {
 } from "@/lib/goods-products";
 
 // 이름 도장 주문 폼.
-// - domestic: 한국어 UI · 카카오페이(requestPayment, 리디렉션 복구) · 국내 배송.
-// - global: 영어 UI · 페이팔 SPB(loadPaymentUI, 페이지 내 버튼) · 국제 배송(국가 입력 필수).
-// 채널 키 등록 전에는 결제 버튼이 "준비 중"으로 남는 다크 런치 상태.
+// - domestic: 한국어 UI · 토스페이먼츠 직접 연동(결제창 → 서버 승인 라우트 복귀) · 국내 배송.
+// - global: 영어 UI · 포트원 경유 페이팔 SPB(loadPaymentUI, 페이지 내 버튼) · 국제 배송(국가 입력 필수).
+// 키 등록 전에는 결제 버튼이 "준비 중"으로 남는 다크 런치 상태.
 
 type StampCheckout = {
-  // 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔(SPB).
+  // 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔(SPB). 그 밖의 결제사는 없다.
   provider?: "TOSS" | "PORTONE";
   clientKey?: string | null;
   orderId: string;
   paymentId: string;
   storeId: string;
   channelKey: string;
-  payMethod: "CARD" | "EASY_PAY" | "PAYPAL";
+  payMethod: "PAYPAL";
   orderName: string;
   totalAmount: number;
   currency: "KRW" | "USD";
 };
-
-const PENDING_STAMP_KEY = "nl_stamp_pending";
 
 const COPY = {
   ko: {
@@ -53,7 +51,9 @@ const COPY = {
     note: "요청사항 (선택)",
     privacy:
       "입력하신 수령인·연락처·주소는 도장 제작과 배송에만 사용되며, 관련 법령에 따른 보관 의무 기간이 지나면 파기됩니다.",
-    payButton: "카카오페이로 결제 · {price}",
+    // 토스 통합결제창은 카드·토스페이·카카오페이·네이버페이가 함께 들어온다.
+    // 특정 수단 이름을 적으면 실제로 뜨는 화면과 어긋나므로 수단군으로 적는다.
+    payButton: "카드·간편결제 · {price}",
     paying: "결제 진행 중…",
     preparing: "결제 기능 준비 중입니다",
     orderFailed: "주문 생성에 실패했습니다.",
@@ -791,18 +791,15 @@ export function StampOrderForm({
   const [spbCheckout, setSpbCheckout] = useState<StampCheckout | null>(null);
   const redirectHandled = useRef(false);
 
-  const channelKey = global
-    ? process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL
-    : (process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY ??
-      process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY);
-  // 국내는 토스페이먼츠 직접 연동이라 토스 클라이언트 키만 있으면 열린다. 토스 키가 없을 때만
-  // 포트원으로 떨어지므로 둘 중 하나면 된다. 해외(페이팔)는 포트원 그대로다.
+  // 국내는 토스페이먼츠 직접 연동(토스 클라이언트 키 하나), 해외는 포트원 경유 페이팔.
+  // **국내가 포트원으로 떨어지는 폴백은 없앴다**(2026-07-29 결제 일원화) — 서버도 같은
+  // 기준으로 막으므로 여기서만 열어 두면 버튼을 눌러도 503이 돌아온다.
   const configured = global
-    ? Boolean(process.env.NEXT_PUBLIC_PORTONE_STORE_ID && channelKey)
-    : Boolean(
-        process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY ||
-          (process.env.NEXT_PUBLIC_PORTONE_STORE_ID && channelKey),
-      );
+    ? Boolean(
+        process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
+          process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
+      )
+    : Boolean(process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY);
 
   async function confirmOrder(orderId: string, paymentId: string) {
     const response = await fetch("/api/goods/stamp-confirm", {
@@ -878,32 +875,11 @@ export function StampOrderForm({
         });
         return;
       }
-      sessionStorage.setItem(
-        PENDING_STAMP_KEY,
-        JSON.stringify({ orderId: checkout.orderId, paymentId: checkout.paymentId }),
-      );
-      const redirectUrl = new URL(window.location.href);
-      redirectUrl.searchParams.set("stampOrder", checkout.orderId);
-      const payment = await PortOne.requestPayment({
-        storeId: checkout.storeId,
-        channelKey: checkout.channelKey,
-        paymentId: checkout.paymentId,
-        orderName: checkout.orderName,
-        totalAmount: checkout.totalAmount,
-        currency: checkout.currency,
-        payMethod: checkout.payMethod as "CARD" | "EASY_PAY",
-        redirectUrl: redirectUrl.toString(),
-      });
-      if (!payment) return;
-      if (payment.code) throw new Error(payment.message || copy.payIncomplete);
-      if (payment.paymentId !== checkout.paymentId) throw new Error(copy.payMismatch);
-      setStage("confirming");
-      await confirmOrder(checkout.orderId, checkout.paymentId);
-      sessionStorage.removeItem(PENDING_STAMP_KEY);
-      setCompletedOrderId(checkout.orderId);
-      setStage("done");
+      // 여기에 닿으면 서버가 우리가 모르는 결제 수단을 내려 준 것이다. 국내는 토스,
+      // 해외는 페이팔 SPB 둘뿐이고 각각 위에서 return한다(2026-07-29 결제 일원화로
+      // 포트원 국내 간편결제 리디렉션 경로를 지웠다).
+      throw new Error(copy.orderFailed);
     } catch (caught) {
-      sessionStorage.removeItem(PENDING_STAMP_KEY);
       setStage("idle");
       setError(caught instanceof Error ? caught.message : copy.processFailed);
     }
@@ -952,20 +928,22 @@ export function StampOrderForm({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [global, stage, spbCheckout]);
 
-  // 모바일 간편결제 리디렉션 복귀(국내 카카오페이 전용): URL의 주문 식별값으로 confirm을 마저 수행한다.
+  // 토스 결제 복귀 처리(국내 전용): 승인 라우트가 payment=paid&orderId=를 붙여 되돌려 보낸다.
+  //
+  // **되돌아오는 결제는 토스뿐이다.** 해외 페이팔은 SPB 버튼을 화면 안에서 처리해 페이지를
+  // 떠나지 않고, 포트원 국내 간편결제 리디렉션 경로는 2026-07-29 결제 일원화로 지웠다.
+  // 그래서 sessionStorage에 결제 식별값을 남겨 두던 복구 장치도 함께 없앴다.
   useEffect(() => {
     if (global || redirectHandled.current) return;
     const params = new URLSearchParams(window.location.search);
-    // 포트원은 우리가 붙인 stampOrder를 달고 돌아오고, 토스는 승인 라우트가 payment=paid&orderId=를
-    // 붙여 준다. 둘 다 같은 자리에서 받는다.
     const tossPayment = params.get("payment");
-    const orderId = params.get("stampOrder") ?? (tossPayment ? params.get("orderId") : null);
+    const orderId = tossPayment ? params.get("orderId") : null;
     if (!orderId && tossPayment !== "failed") return;
     redirectHandled.current = true;
-    const failureCode = params.get("code") ?? (tossPayment === "failed" ? "TOSS_FAILED" : null);
+    const failureCode = tossPayment === "failed" ? "TOSS_FAILED" : null;
     const failureMessage = params.get("message");
     const clearParams = () => {
-      for (const key of ["stampOrder", "paymentId", "txId", "code", "message", "payment", "orderId"]) {
+      for (const key of ["code", "message", "payment", "orderId"]) {
         params.delete(key);
       }
       const query = params.toString();
@@ -975,33 +953,14 @@ export function StampOrderForm({
         `${window.location.pathname}${query ? `?${query}` : ""}`,
       );
     };
-    const pendingRaw = sessionStorage.getItem(PENDING_STAMP_KEY);
-    sessionStorage.removeItem(PENDING_STAMP_KEY);
-    let pending: { orderId?: string; paymentId?: string } | null = null;
-    try {
-      pending = pendingRaw
-        ? (JSON.parse(pendingRaw) as { orderId?: string; paymentId?: string })
-        : null;
-    } catch {
-      pending = null;
-    }
     void Promise.resolve()
       .then(async () => {
         if (failureCode) throw new Error(failureMessage || copy.payIncomplete);
         if (!orderId) throw new Error(copy.recoverFailed);
-        // 다른 컨텍스트로 복귀해 sessionStorage(pending)가 없을 수 있으므로, 포트원이 리디렉션
-        // URL에 붙인 paymentId를 폴백으로 사용한다(confirm이 서버에서 주문·금액을 재검증).
         // 토스 주문은 provider_payment_id가 orderId와 같고 승인은 서버가 이미 마쳤으므로,
         // confirm은 PAID인지 확인만 하고 지나간다(alreadyPaid).
-        const paymentId =
-          pending && pending.orderId === orderId && pending.paymentId
-            ? pending.paymentId
-            : params.get("paymentId") || (tossPayment === "paid" ? orderId : undefined);
-        if (!paymentId) {
-          throw new Error(copy.recoverFailed);
-        }
         setStage("confirming");
-        await confirmOrder(orderId, paymentId);
+        await confirmOrder(orderId, orderId);
         setCompletedOrderId(orderId);
         setStage("done");
       })

@@ -11,7 +11,7 @@ import {
 } from "@/lib/goods-products";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
 import { getTossClientKey, tossConfigured } from "@/lib/toss";
-import { getPortOnePublicConfig } from "@/lib/portone";
+import { getPortOnePaypalConfig } from "@/lib/portone";
 import {
   checkRateLimit,
   readJsonBodyLimited,
@@ -26,7 +26,7 @@ export const runtime = "nodejs";
 // 이름 도장 주문 생성. 실물 제작·배송 상품이라 결제 후에도 fulfillment는 PENDING으로 남아
 // 관리자 미처리 목록에서 제작→배송(SHIPPED)→완료(COMPLETED)로 수동 전환한다.
 const schema = z.object({
-  // domestic: ₩39,000 카카오페이·국내 배송 / global: US$34.99(배송비 포함) 페이팔·국제 배송.
+  // domestic: ₩39,000 토스페이먼츠·국내 배송 / global: US$34.99(배송비 포함) 페이팔·국제 배송.
   region: z.enum(STAMP_REGIONS).default("domestic"),
   // 도장에 새길 문구: 한글 또는 한자 1~8자(공백 없음).
   stampName: z
@@ -100,10 +100,17 @@ export async function POST(request: NextRequest) {
       { status: 400 },
     );
   }
-  // 국내는 토스페이먼츠, 해외는 포트원(페이팔). 토스 키가 없으면 국내도 포트원으로 떨어진다.
-  const useToss = parsed.data.region === "domestic" && tossConfigured;
-  const portone = useToss ? null : getPortOnePublicConfig(product.channel);
+  // 결제사는 상품표의 provider가 정한다: 국내=토스페이먼츠 직접, 해외=포트원(페이팔).
+  // **폴백은 없다.** 토스 키가 없으면 국내 주문은 열리지 않는다.
+  const useToss = product.provider === "TOSS";
+  const portone = useToss ? null : getPortOnePaypalConfig();
   const supabase = getSupabaseAdminClient();
+  if (useToss && !tossConfigured) {
+    return NextResponse.json(
+      { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },
+      { status: 503 },
+    );
+  }
   if (!useToss && (!portone || !process.env.PORTONE_API_SECRET)) {
     return NextResponse.json(
       { ok: false, error: "결제 기능이 아직 준비되지 않았습니다." },

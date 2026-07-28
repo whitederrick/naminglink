@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import { HanjaMeaningResultPage } from "@/components/HanjaMeaningResultPage";
 import { getRequestLocale } from "@/lib/locale";
+import { noIndex } from "@/lib/seo";
+
+// 결과 화면은 1회용 조회 ID에 묶인 남의 결과다. 색인되면 안 된다.
+export const metadata: Metadata = { robots: noIndex };
 
 type PageProps = {
   searchParams?: Promise<{ id?: string; lang?: string }>;
@@ -13,20 +18,13 @@ export default async function HanjaMeaningResultRoute({
   const premiumTestMode =
     process.env.NODE_ENV !== "production" ||
     process.env.PREMIUM_TEST_MODE === "true";
-  // 한자 상세는 국내 상품이다. 국내 결제는 **토스페이먼츠 직접 연동**이므로 토스 키 두 개가
-  // 있으면 그것만으로 열린다. 토스 키가 없을 때만 포트원으로 떨어지므로 포트원 조건도 함께 본다
-  // (포트원은 넷을 모두 요구한다 — 하나만 빠져도 결제가 안 된다).
-  const tossConfigured = Boolean(
+  // 한자 상세는 국내 전용 상품이라 **토스페이먼츠만** 쓴다(2026-07-29 결제 일원화).
+  // 예전에는 토스 키가 없으면 포트원으로 떨어졌으나 그 폴백을 지웠으므로, 여기서도
+  // 토스 키 두 개만 본다. 서버(`premium-reports/order`)와 같은 기준이어야 한다 —
+  // 화면만 열어 두면 버튼을 눌러도 503이 돌아온다.
+  const paymentConfigured = Boolean(
     process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY && process.env.TOSS_SECRET_KEY,
   );
-  const paymentConfigured =
-    tossConfigured ||
-    Boolean(
-      process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
-        process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY &&
-        process.env.PORTONE_API_SECRET &&
-        process.env.PORTONE_WEBHOOK_SECRET,
-    );
 
   return (
     <HanjaMeaningResultPage

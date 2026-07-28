@@ -1,6 +1,5 @@
 "use client";
 
-import * as PortOne from "@portone/browser-sdk/v2";
 import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Download, LoaderCircle } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -30,7 +29,6 @@ type Checkout = {
   accessToken: string;
   storeId: string;
   channelKey: string;
-  payMethod?: "CARD" | "EASY_PAY";
   orderName: string;
   totalAmount: number;
   currency: "KRW";
@@ -288,28 +286,10 @@ export function PremiumHanjaCheckoutPanel({
         return;
       }
 
-      const redirectUrl = new URL(window.location.href);
-      redirectUrl.searchParams.set("premiumSession", nextCheckout.sessionId);
-      const payment = await PortOne.requestPayment({
-        storeId: nextCheckout.storeId,
-        channelKey: nextCheckout.channelKey,
-        paymentId: nextCheckout.paymentId,
-        orderName: nextCheckout.orderName,
-        totalAmount: nextCheckout.totalAmount,
-        currency: nextCheckout.currency,
-        // 카카오페이 채널 키가 등록되면 서버가 EASY_PAY를 내려준다(폴백 채널은 CARD).
-        payMethod: nextCheckout.payMethod ?? "CARD",
-        customer: nextCheckout.customer ?? undefined,
-        redirectUrl: redirectUrl.toString(),
-        customData: { sessionId: nextCheckout.sessionId },
-      });
-      if (!payment) return;
-      if (payment.code) throw new Error(payment.message || "결제가 완료되지 않았습니다.");
-      if (payment.paymentId !== nextCheckout.paymentId) throw new Error("결제 식별값이 주문과 일치하지 않습니다.");
-      // 결제창을 통과한 시점에 결제됨으로 표시한다. 이후 confirm이 실패해도 복구 후보로 남겨
-      // 사용자가 재결제하지 않고 이어받도록 한다(confirm은 서버에서 실결제를 재검증한다).
-      updateStoredCheckout(nextCheckout.sessionId, { paid: true });
-      await finishPremium(nextCheckout);
+      // 한자 상세는 **국내 전용 상품이라 토스페이먼츠만** 쓴다(2026-07-29 결제 일원화).
+      // 예전에는 토스 키가 없으면 포트원 국내 채널로 떨어뜨렸는데, 계약하지 않은 채널로
+      // 결제가 나가는 길이라 지웠다. 서버도 토스 키가 없으면 주문 자체를 열지 않는다.
+      throw new Error("결제가 완료되지 않았습니다.");
     } catch (caught) {
       setStage("idle");
       setError(caught instanceof Error ? caught.message : "결제 처리에 실패했습니다.");

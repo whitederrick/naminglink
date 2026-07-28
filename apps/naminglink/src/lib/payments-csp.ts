@@ -1,5 +1,9 @@
 // 결제(포트원)를 켤 때만 여는 CSP 출처. 인연링크의 같은 파일과 **같은 목록을 유지한다** —
-// 포트원 상점이 하나이고 같은 PG(카카오페이·페이팔)를 쓰므로 한쪽만 고치면 어긋난다.
+// 포트원 상점이 하나이므로 한쪽만 고치면 어긋난다.
+//
+// 포트원은 **해외 페이팔 전용**이다(2026-07-29 일원화). 국내 카카오페이 출처는 채널 자체를
+// 걷어내면서 함께 지웠다 — 쓰지 않는 출처를 열어 두는 것은 CSP를 그만큼 헐겁게 만든다.
+// 국내 결제창 출처는 아래 `tossCspSources`가 따로 관리한다.
 //
 // **이 목록은 첫 실결제에서 반드시 확인해야 한다.** 포트원은 PG사 창을 iframe이나 리디렉션으로
 // 띄우는데 어느 도메인이 오는지는 계약한 PG와 결제 수단에 따라 달라진다. 막히면 결제창이 조용히
@@ -7,12 +11,10 @@
 //
 // next.config.ts가 이 파일을 읽는다. 클라이언트 번들에는 들어가지 않는다.
 
-/** 상점 ID와 채널 키가 하나라도 있으면 결제를 띄울 수 있는 상태로 본다. */
+/** 상점 ID와 페이팔 채널 키가 모두 있어야 포트원 결제를 띄울 수 있다. */
 export const paymentsConfigured = Boolean(
   process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
-    (process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_KAKAOPAY ||
-      process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL ||
-      process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY),
+    process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
 );
 
 /**
@@ -44,9 +46,6 @@ export const paymentCspSources = {
   script: ["https://cdn.portone.io", "https://www.paypal.com", "https://www.paypalobjects.com"],
   frame: [
     "https://cdn.portone.io",
-    // 카카오페이
-    "https://*.kakao.com",
-    "https://*.kakaopay.com",
     // 페이팔 SPB
     "https://www.paypal.com",
     "https://*.paypal.com",
@@ -57,8 +56,8 @@ export const paymentCspSources = {
     "https://*.paypal.com",
   ],
   image: ["https://cdn.portone.io", "https://www.paypalobjects.com"],
-  /** 리디렉션 방식(모바일 간편결제)은 폼 전송으로 PG사로 넘어간다. */
-  formAction: ["https://*.kakao.com", "https://*.kakaopay.com", "https://*.paypal.com"],
+  /** 리디렉션 방식은 폼 전송으로 PG사로 넘어간다. */
+  formAction: ["https://*.paypal.com"],
 } as const;
 
 /**
