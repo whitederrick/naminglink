@@ -8,6 +8,7 @@ import {
   displayPrice,
   getReportProduct,
   getReportSetting,
+  REPORT_KINDS,
   REPORT_REGIONS,
 } from "@/lib/report-product";
 import { insertOrder } from "@/lib/order-writes";
@@ -26,6 +27,11 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const schema = z.object({
+  /**
+   * 어느 메뉴의 리포트인가. 없으면 궁합으로 본다 — 이 값이 없던 시절의 화면이 아직 떠 있을 수
+   * 있고(배포 직후 열려 있던 탭), 그때 주문이 실패하는 것보다 기존 상품으로 도는 편이 낫다.
+   */
+  kind: z.enum(REPORT_KINDS).default("gunghap"),
   region: z.enum(REPORT_REGIONS),
   locale: z.string().trim().max(10).optional(),
   /**
@@ -67,7 +73,7 @@ export async function POST(request: NextRequest) {
   const input = schema.safeParse(parsedBody);
   if (!input.success) return jsonError("INVALID_INPUT", 400);
 
-  const product = getReportProduct(input.data.region);
+  const product = getReportProduct(input.data.kind, input.data.region);
 
   // 판매 중이 아니면(다크 런치) 여기서 끝난다. 채널 키가 없어도 마찬가지다.
   let setting;
@@ -98,7 +104,7 @@ export async function POST(request: NextRequest) {
 
     const { error } = await insertOrder(supabase, {
       id: orderId,
-      order_type: "GUNGHAP_PDF",
+      order_type: product.orderType,
       service: "inyeonlink",
       payment_status: "UNPAID",
       payment_amount: setting.amount,
@@ -146,7 +152,7 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     // 실패 사유는 서버 로그에만 남긴다. 입력값이 없으므로 로그에 개인정보가 섞일 일도 없다.
-    console.error("Failed to create gunghap report order", error);
+    console.error(`Failed to create ${product.kind} report order`, error);
     return jsonError("ORDER_FAILED", 500);
   }
 }

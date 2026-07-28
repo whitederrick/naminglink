@@ -3,10 +3,16 @@
 import * as PortOne from "@portone/browser-sdk/v2";
 import { useEffect, useState } from "react";
 
-import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
+import type { AffinityInput } from "@/lib/affinity-input";
+import { fillTemplate, type Locale, type ReportCopy } from "@/lib/i18n";
 import type { MatchInput } from "@/lib/match-input";
+import type { ReportKind } from "@/lib/report-product";
 
-// 궁합 리포트 PDF 구매. 국내는 카카오페이(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
+// 리포트 PDF 구매. 국내는 토스페이먼츠(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
+//
+// **상품 둘이 이 패널 하나를 쓴다**(사주 궁합 · 인연의 결). 다른 것은 `kind`, 보낼 입력값,
+// 그리고 문구뿐이라 패널을 복사할 이유가 없다 — 복사하면 청약철회 동의나 재발급 처리 같은
+// 법·결제 관련 처리가 두 벌이 되고, 한쪽만 고치는 순간 어긋난다.
 //
 // **생년월일은 주문에는 보내지 않고 발급 요청에만 싣는다.** 주문 표에 누구의 사주였는지가
 // 남지 않게 하려는 것이고, 이 서비스가 입력을 저장하지 않는다는 원칙이 유료 흐름에서도
@@ -84,19 +90,23 @@ type Stage =
   | { name: "failed"; message: string };
 
 export function ReportPurchasePanel({
-  dictionary,
+  kind,
+  copy,
   locale,
   input,
   offerPrice,
 }: {
-  dictionary: Dictionary;
+  /** 어느 메뉴의 리포트인가. 주문·발급 요청에 그대로 실린다. */
+  kind: ReportKind;
+  /** 이 상품의 문구. 사전에서 골라 넘긴다(`report` 또는 `affinityReport`). */
+  copy: ReportCopy;
   locale: Locale;
   /** 결제가 끝난 뒤 PDF를 만드는 데 쓴다. 주문 생성에는 보내지 않는다. */
-  input: MatchInput;
+  input: MatchInput | AffinityInput;
   /** 서버가 정한 표시 가격. 판매 전이면 null이라 버튼이 "준비 중"으로 뜬다. */
   offerPrice: string | null;
 }) {
-  const t = dictionary.report;
+  const t = copy;
   const [stage, setStage] = useState<Stage>({ name: "idle" });
   // 청약철회 제한 동의. 체크하기 전에는 결제로 넘어가지 않는다 — 전자상거래법 §17②는 고지와
   // **동의**를 함께 요구하고, 그 조치가 없으면 우리가 환불 제한을 주장할 수 없다.
@@ -110,6 +120,7 @@ export function ReportPurchasePanel({
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        kind,
         orderId: checkout.orderId,
         // 토스 주문은 provider_payment_id를 orderId로 저장한다(결제 식별자가 따로 없다).
         paymentId: checkout.provider === "TOSS" ? checkout.orderId : checkout.paymentId,
@@ -124,7 +135,7 @@ export function ReportPurchasePanel({
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "inyeonlink-report.pdf";
+    link.download = `inyeonlink-${kind}.pdf`;
     link.click();
     URL.revokeObjectURL(url);
     setStage({ name: "done", checkout });
@@ -139,7 +150,7 @@ export function ReportPurchasePanel({
         // 여기에는 생년월일이 없다.
         // 동의 사실을 서버에도 보낸다. 주문에 남겨야 나중에 다툼이 생겼을 때 조치를 취했음을
         // 보일 수 있다(입력값은 여전히 보내지 않는다).
-        body: JSON.stringify({ region, locale, withdrawalConsent: true }),
+        body: JSON.stringify({ kind, region, locale, withdrawalConsent: true }),
       });
       const data = (await response.json().catch(() => null)) as
         | { ok?: boolean; error?: string; checkout?: Checkout }
@@ -170,7 +181,11 @@ export function ReportPurchasePanel({
           window.location.origin,
         );
         returnTo.searchParams.set("lang", locale);
-        const failTo = new URL("/compatibility/result", window.location.origin);
+        // 승인 라우트가 어느 결과 화면으로 되돌릴지 정하는 데 쓴다. 실패 자리도 상품마다
+        // 다르므로 현재 경로를 그대로 쓴다 — 경로를 박아 두면 인연의 결에서 결제에 실패한
+        // 사람이 궁합 화면으로 떨어진다.
+        returnTo.searchParams.set("kind", kind);
+        const failTo = new URL(window.location.pathname, window.location.origin);
         failTo.searchParams.set("lang", locale);
         failTo.searchParams.set("payment", "failed");
 

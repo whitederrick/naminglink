@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
+import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
 import {
   decodeAffinityInput,
@@ -51,9 +52,17 @@ const ACTION_BUTTON =
 export function AffinityResultView({
   dictionary,
   locale,
+  offerPrice,
 }: {
   dictionary: Dictionary;
   locale: Locale;
+  /**
+   * 서버가 `product_settings`에서 읽어 온 표시 가격. 판매 중이 아니면 null이다.
+   *
+   * 화면에서 가격을 만들지 않는다 — 결제 금액은 서버가 정하므로, 버튼에만 값을 박아 두면
+   * 관리자 화면에서 가격을 바꾸는 순간 표시가와 청구액이 어긋난다.
+   */
+  offerPrice: string | null;
 }) {
   const [state, setState] = useState<State>({ status: "loading" });
   const [copied, setCopied] = useState(false);
@@ -139,7 +148,7 @@ export function AffinityResultView({
     );
   }
 
-  const { outcome } = state;
+  const { outcome, input } = state;
   const best = outcome.stems.slice(0, BEST_COUNT);
   // 꼴찌 하나만 뽑는다. 여럿을 "피하라"고 늘어놓으면 서비스가 사람을 가려내는 꼴이 된다.
   const hardest = outcome.stems[outcome.stems.length - 1];
@@ -296,6 +305,17 @@ export function AffinityResultView({
           onClose={() => setCheckOpen(false)}
         />
       ) : null}
+
+      {/* 결과를 다 읽은 자리에 PDF 판매를 둔다. 화면은 전부 무료이고 **PDF만 판다** — 이 메뉴는
+          혼자서도 쓸 수 있는 진입점이라 유료로 막으면 진입점이 아니게 된다. 판매 전(다크 런치)
+          에는 버튼이 "준비 중"으로 뜬다. */}
+      <ReportPurchasePanel
+        kind="affinity"
+        copy={dictionary.affinityReport}
+        locale={locale}
+        input={input}
+        offerPrice={offerPrice}
+      />
 
       {/* 고정 배너. 위아래로 버튼이 하나씩 있는 자리라 **간격을 넉넉히 둔다** — 애드센스에서
           오클릭은 정책 위반이자 계정 정지 사유다. my-14(56px)면 손가락이 스쳐 눌릴 거리가 아니다. */}

@@ -68,6 +68,37 @@ export function isRtlLocale(locale: Locale) {
   return locale === "ar";
 }
 
+/**
+ * 리포트 PDF 판매 문구 한 벌. 상품이 둘이라(사주 궁합·인연의 결) 같은 모양을 두 번 쓴다.
+ */
+export type ReportCopy = {
+    title: string;
+    body: string;
+    /** "{price} 결제하고 받기" */
+    buyButton: string;
+    preparing: string;
+    ordering: string;
+    paying: string;
+    issuing: string;
+    done: string;
+    failed: string;
+    /** 결제는 됐는데 파일을 못 받은 경우 다시 시도할 때 */
+    retry: string;
+    contents: string[];
+    /**
+     * 청약철회 제한 동의. 전자상거래법 제17조 제2항 단서는, 즉시 제공되는 디지털 콘텐츠라도
+     * **철회가 불가함을 미리 알리고 동의를 받는 조치**를 하지 않으면 소비자가 그대로 철회할 수
+     * 있다고 정한다. 약관에 적어 두는 것만으로는 부족해서 결제 직전에 따로 받는다.
+     */
+    consentLabel: string;
+    consentRequired: string;
+    /** 전자상거래 상품정보제공 고시(디지털콘텐츠) 항목 */
+    productInfoTitle: string;
+    productInfo: Array<[string, string]>;
+    /** 환불을 어디로 요청하는지 */
+    refundContact: string;
+};
+
 export type Dictionary = {
   brand: string;
   tagline: string;
@@ -227,6 +258,10 @@ export type Dictionary = {
     zodiacHint: string;
     zodiacGood: string;
     zodiacHard: string;
+    /** PDF 전체 순위표의 열 이름. 화면에는 없는 표라 여기서만 쓴다. */
+    tableType: string;
+    tableSign: string;
+    tableYears: string;
     /** 띠를 실제로 써먹을 수 있게 연도·나이 차로 바꾼 표시 */
     bornYear: string;
     younger: string;
@@ -289,34 +324,9 @@ export type Dictionary = {
     /** "{seconds}초 후 결과가 열립니다" */
     remaining: string;
   };
-  /** 궁합 리포트 PDF 판매. */
-  report: {
-    title: string;
-    body: string;
-    /** "{price} 결제하고 받기" */
-    buyButton: string;
-    preparing: string;
-    ordering: string;
-    paying: string;
-    issuing: string;
-    done: string;
-    failed: string;
-    /** 결제는 됐는데 파일을 못 받은 경우 다시 시도할 때 */
-    retry: string;
-    contents: string[];
-    /**
-     * 청약철회 제한 동의. 전자상거래법 제17조 제2항 단서는, 즉시 제공되는 디지털 콘텐츠라도
-     * **철회가 불가함을 미리 알리고 동의를 받는 조치**를 하지 않으면 소비자가 그대로 철회할 수
-     * 있다고 정한다. 약관에 적어 두는 것만으로는 부족해서 결제 직전에 따로 받는다.
-     */
-    consentLabel: string;
-    consentRequired: string;
-    /** 전자상거래 상품정보제공 고시(디지털콘텐츠) 항목 */
-    productInfoTitle: string;
-    productInfo: Array<[string, string]>;
-    /** 환불을 어디로 요청하는지 */
-    refundContact: string;
-  };
+  /** 사주 궁합 리포트 PDF 판매. */
+  report: ReportCopy;
+  affinityReport: ReportCopy;
   footer: {
     privacy: string;
     terms: string;
@@ -628,6 +638,9 @@ const ko: Dictionary = {
       "띠는 태어난 해만 알면 되니 가장 먼저 확인할 수 있습니다. 다만 사주 넷 중 하나만 보는 것이라 참고로 두십시오.",
     zodiacGood: "잘 맞는 띠",
     zodiacHard: "부딪히기 쉬운 띠",
+    tableType: "유형",
+    tableSign: "띠",
+    tableYears: "해당 연도",
     bornYear: "{year}년생",
     younger: "{n}살 아래",
     older: "{n}살 위",
@@ -704,7 +717,7 @@ const ko: Dictionary = {
   },
   report: {
     title: "궁합 리포트 PDF로 간직하기",
-    body: "화면의 결과를 3장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
+    body: "화면의 결과를 4장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
     buyButton: "{price} 결제하고 받기",
     preparing: "준비 중입니다",
     ordering: "주문을 만드는 중…",
@@ -725,6 +738,39 @@ const ko: Dictionary = {
     productInfo: [
       ["제작·공급자", "Naming-Link"],
       ["상품 형태", "PDF 문서 1개(3장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
+      ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
+      ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
+      ["청약철회", "다운로드 완료 전에는 전액 환불. 완료 후에는 단순 변심에 의한 철회가 제한됩니다(전자상거래법 제17조 제2항)."],
+      ["교환·반품 비용", "없음. 디지털 콘텐츠라 배송이 없습니다."],
+    ],
+    refundContact:
+      "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
+  },
+  affinityReport: {
+    title: "인연의 결 리포트 PDF로 간직하기",
+    body: "화면의 결과를 4장짜리 PDF로 만들어 드립니다. **화면에 없는 전체 순위표**까지 담깁니다 — 화면은 상위 셋만 보여 주지만 PDF는 열 유형과 열두 띠를 전부 싣습니다.",
+    buyButton: "{price} 결제하고 받기",
+    preparing: "준비 중입니다",
+    ordering: "주문을 만드는 중…",
+    paying: "결제를 진행하는 중…",
+    issuing: "리포트를 만드는 중…",
+    done: "받으셨습니다. 다시 받으려면 아래 버튼을 눌러 주세요.",
+    failed: "결제 또는 발급에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+    retry: "다시 받기",
+    contents: [
+      "1장 — 당신의 자리와 지금 필요한 기운",
+      "2장 — 잘 맞는 결 셋, 성향과 행동 단서",
+      "3장 — 겪어 봐야 하는 결 + 천간 열 종 전체 순위표",
+      "4장 — 띠 열둘 전체 순위표(출생 연도와 나이 차 포함)",
+    ],
+    consentLabel:
+      "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
+    consentRequired: "청약철회 제한 사항에 동의하셔야 결제할 수 있습니다.",
+    productInfoTitle: "상품 정보 고시",
+    productInfo: [
+      ["제작·공급자", "Naming-Link"],
+      ["상품 형태", "PDF 문서 1개(4장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -1150,6 +1196,9 @@ const en: Dictionary = {
       "The zodiac only needs a birth year, so it is the quickest thing to check. It is also one of four pillars — treat it as a hint.",
     zodiacGood: "Signs that suit you",
     zodiacHard: "Signs that rub",
+    tableType: "Type",
+    tableSign: "Sign",
+    tableYears: "Birth years",
     bornYear: "born {year}",
     younger: "{n} yr younger",
     older: "{n} yr older",
@@ -1253,6 +1302,39 @@ const en: Dictionary = {
     ],
     refundContact:
       "For refunds or questions, contact the customer centre or email below. If the document could not be produced, or the amount charged differs from the order, we refund in full.",
+  },
+  affinityReport: {
+    title: "Keep your match profile as a PDF",
+    body: "We turn this reading into a four-page PDF. It includes **the full ranking the screen does not show** — the screen gives you the top three, the PDF carries all ten types and all twelve signs.",
+    buyButton: "Pay {price} and download",
+    preparing: "Preparing",
+    ordering: "Creating the order…",
+    paying: "Processing payment…",
+    issuing: "Building your report…",
+    done: "Downloaded. Use the button below to get it again.",
+    failed: "The payment or the download did not go through. Please try again shortly.",
+    retry: "Download again",
+    contents: [
+      "Page 1 — Where you stand and what you are short of",
+      "Page 2 — Three grains that suit you, with behaviour cues",
+      "Page 3 — The grain that takes work, plus the full day-stem ranking",
+      "Page 4 — Full ranking of all twelve signs, with birth years",
+    ],
+    consentLabel:
+      "This is digital content delivered immediately after payment. I understand that **once the download completes, the right to withdraw for a change of mind is limited.**",
+    consentRequired: "Please agree to the withdrawal terms before paying.",
+    productInfoTitle: "Product information",
+    productInfo: [
+      ["Provider", "Naming-Link"],
+      ["Format", "One PDF document (4 pages), downloaded on this screen right after payment."],
+      ["Requirements", "Any device that opens a PDF. No install, no account."],
+      ["Availability", "No time limit. The downloaded file is yours to keep."],
+      ["Re-download", "Up to 5 times on the same order. We do not store the file, so it cannot be rebuilt once you leave this screen."],
+      ["Withdrawal", "Full refund before the download completes. After it completes, withdrawal for a change of mind is limited."],
+      ["Return costs", "None. There is nothing to ship."],
+    ],
+    refundContact:
+      "For refunds or questions, contact the support desk or email below. If the document was never produced, or the amount charged differs from the order, we refund in full.",
   },
   footer: {
     privacy: "Privacy Policy",

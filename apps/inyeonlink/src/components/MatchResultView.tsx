@@ -281,7 +281,8 @@ export function MatchResultView({
       {/* 결과를 다 읽은 자리에 PDF 판매를 둔다. 판매 전(다크 런치)에는 버튼을 눌러도
           "준비 중"으로 되돌아온다. */}
       <ReportPurchasePanel
-        dictionary={dictionary}
+        kind="gunghap"
+        copy={dictionary.report}
         locale={locale}
         input={input}
         offerPrice={offerPrice}

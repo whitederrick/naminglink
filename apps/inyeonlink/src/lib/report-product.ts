@@ -5,44 +5,82 @@ import { isDevEnvironment } from "@naminglink/core/env";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import type { Locale } from "@/lib/i18n";
 
-// 궁합 리포트 PDF 상품. 국내 카카오페이(KRW) / 해외 페이팔(USD) 두 갈래다.
+// 리포트 PDF 상품. 메뉴가 둘이라 **상품도 둘**이다.
+//
+//   gunghap   사주 궁합 리포트   두 사람의 궁합
+//   affinity  인연의 결 리포트   나 하나로 본 상대의 유형
+//
+// 각각 국내(KRW·토스페이먼츠) / 해외(USD·페이팔) 두 갈래로 갈린다.
 //
 // **가격은 코드가 아니라 DB(product_settings)가 정한다.** 금액을 서버가 결정한다는 원칙이
 // 핵심이고(클라이언트가 보내는 금액은 믿지 않는다), 덤으로 naminglink 관리자 화면에서
-// 가격 조정과 판매 중지가 그대로 된다. 지금은 enabled=false로 시드돼 있어 다크 런치다.
+// 가격 조정과 판매 중지가 그대로 된다. 지금은 넷 다 enabled=false라 다크 런치다.
 
 export const REPORT_REGIONS = ["domestic", "global"] as const;
 export type ReportRegion = (typeof REPORT_REGIONS)[number];
 
+/** 어느 메뉴의 리포트인가. 주문 종류·렌더러·문구가 이 값으로 갈린다. */
+export const REPORT_KINDS = ["gunghap", "affinity"] as const;
+export type ReportKind = (typeof REPORT_KINDS)[number];
+
 export type ReportProduct = {
+  kind: ReportKind;
   region: ReportRegion;
   /** product_settings의 코드 */
   settingCode: string;
+  /** orders.order_type. DB 제약에 박혀 있는 값이라 바꾸지 않는다. */
+  orderType: "GUNGHAP_PDF" | "AFFINITY_PDF";
   channel: "kakaopay" | "paypal";
   /** 페이팔은 결제창 팝업이 아니라 버튼을 화면에 그리는 방식이다. */
   uiType: "PAYPAL_SPB" | undefined;
   orderName: string;
 };
 
-const PRODUCTS: Record<ReportRegion, ReportProduct> = {
-  domestic: {
-    region: "domestic",
-    settingCode: "GUNGHAP_PDF_KRW",
-    channel: "kakaopay",
-    uiType: undefined,
-    orderName: "인연링크 궁합 리포트 PDF",
+const PRODUCTS: Record<ReportKind, Record<ReportRegion, ReportProduct>> = {
+  gunghap: {
+    domestic: {
+      kind: "gunghap",
+      region: "domestic",
+      settingCode: "GUNGHAP_PDF_KRW",
+      orderType: "GUNGHAP_PDF",
+      channel: "kakaopay",
+      uiType: undefined,
+      orderName: "인연링크 궁합 리포트 PDF",
+    },
+    global: {
+      kind: "gunghap",
+      region: "global",
+      settingCode: "GUNGHAP_PDF_USD",
+      orderType: "GUNGHAP_PDF",
+      channel: "paypal",
+      uiType: "PAYPAL_SPB",
+      orderName: "InyeonLink compatibility report (PDF)",
+    },
   },
-  global: {
-    region: "global",
-    settingCode: "GUNGHAP_PDF_USD",
-    channel: "paypal",
-    uiType: "PAYPAL_SPB",
-    orderName: "InyeonLink compatibility report (PDF)",
+  affinity: {
+    domestic: {
+      kind: "affinity",
+      region: "domestic",
+      settingCode: "AFFINITY_PDF_KRW",
+      orderType: "AFFINITY_PDF",
+      channel: "kakaopay",
+      uiType: undefined,
+      orderName: "인연링크 인연의 결 리포트 PDF",
+    },
+    global: {
+      kind: "affinity",
+      region: "global",
+      settingCode: "AFFINITY_PDF_USD",
+      orderType: "AFFINITY_PDF",
+      channel: "paypal",
+      uiType: "PAYPAL_SPB",
+      orderName: "InyeonLink match profile report (PDF)",
+    },
   },
 };
 
-export function getReportProduct(region: ReportRegion) {
-  return PRODUCTS[region];
+export function getReportProduct(kind: ReportKind, region: ReportRegion) {
+  return PRODUCTS[kind][region];
 }
 
 /**
@@ -67,13 +105,18 @@ export type ProductSetting = {
 const CACHE_TTL_MS = 60_000;
 let cache: { at: number; rows: Map<string, ProductSetting> } | null = null;
 
+/** 이 앱이 쓰는 상품 코드 전부. 한 번에 읽어 캐시한다. */
+const ALL_SETTING_CODES = REPORT_KINDS.flatMap((kind) =>
+  REPORT_REGIONS.map((region) => PRODUCTS[kind][region].settingCode),
+);
+
 async function loadSettings() {
   const supabase = getSupabaseAdminClient();
   if (!supabase) throw new Error("상품 설정 저장소가 설정되지 않았습니다.");
   const { data, error } = await supabase
     .from("product_settings")
     .select("code,amount,currency,enabled")
-    .in("code", [PRODUCTS.domestic.settingCode, PRODUCTS.global.settingCode]);
+    .in("code", ALL_SETTING_CODES);
   if (error) throw error;
 
   const rows = new Map<string, ProductSetting>();
@@ -121,22 +164,26 @@ export async function getReportSetting(product: ReportProduct) {
  * 조회에 실패하면 시드 값으로 떨어진다. 폴백까지 없애면 DB가 잠깐 흔들릴 때 약관에서 가격이
  * 통째로 사라지는데, 가격 미고지가 값이 조금 낡은 것보다 나쁘다.
  */
-// 마이그레이션이 심은 값과 같아야 한다(`20260727120000_gunghap_report_orders.sql` →
-// GUNGHAP_PDF_KRW 990 / GUNGHAP_PDF_USD 199). 가격을 바꾸면 여기도 같이 고칠 것 —
-// 어긋나면 조회가 흔들리는 순간 약관에 옛 가격이 나간다(2026-07-27 인하 때 실제로 어긋나 있었다).
-const SEEDED_PRICE = { domestic: "₩990", global: "US$1.99" } as const;
+// 마이그레이션이 심은 값과 같아야 한다(`20260727120000` → GUNGHAP_PDF 990/199,
+// `20260728170000` → AFFINITY_PDF 990/199. 둘은 같은 값으로 정했다).
+// 가격을 바꾸면 여기도 같이 고칠 것 — 어긋나면 조회가 흔들리는 순간 약관에 옛 가격이 나간다
+// (2026-07-27 인하 때 실제로 어긋나 있었다).
+const SEEDED_PRICE: Record<ReportKind, Record<ReportRegion, string>> = {
+  gunghap: { domestic: "₩990", global: "US$1.99" },
+  affinity: { domestic: "₩990", global: "US$1.99" },
+};
 
-export async function getReportPrices() {
+export async function getReportPrices(kind: ReportKind = "gunghap") {
   try {
     const rows =
       cache && Date.now() - cache.at < CACHE_TTL_MS ? cache.rows : await loadSettings();
     const of = (region: ReportRegion) => {
-      const row = rows.get(PRODUCTS[region].settingCode);
-      return row ? displayPrice(row) : SEEDED_PRICE[region];
+      const row = rows.get(PRODUCTS[kind][region].settingCode);
+      return row ? displayPrice(row) : SEEDED_PRICE[kind][region];
     };
     return { domestic: of("domestic"), global: of("global") };
   } catch {
-    return { ...SEEDED_PRICE };
+    return { ...SEEDED_PRICE[kind] };
   }
 }
 

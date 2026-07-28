@@ -20,9 +20,32 @@ export const dynamic = "force-dynamic";
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
+/**
+ * 주문 종류별 결과 화면.
+ *
+ * 리포트가 둘이 되면서 돌아갈 자리도 둘이 됐다. **주문에 적힌 종류를 우선 믿는다** — 쿼리의
+ * `kind`는 결제창을 거치며 이용자가 손댈 수 있는 값이라, 주문을 찾은 뒤에는 그쪽을 쓴다.
+ * 주문을 못 찾은 오류 경로에서만 쿼리 값으로 자리를 정한다(어느 화면에 오류를 띄울지의 문제라
+ * 틀려도 결제에 영향이 없다).
+ */
+const RESULT_PATH = {
+  GUNGHAP_PDF: "/compatibility/result",
+  AFFINITY_PDF: "/affinity/result",
+} as const;
+
+type ReportOrderType = keyof typeof RESULT_PATH;
+
+function orderTypeFromQuery(kind: string | null): ReportOrderType {
+  return kind === "affinity" ? "AFFINITY_PDF" : "GUNGHAP_PDF";
+}
+
 /** 결과 화면으로 되돌린다. 화면이 이 값으로 다음 동작을 정한다. */
-function backToResult(request: NextRequest, params: Record<string, string>) {
-  const url = new URL("/compatibility/result", request.nextUrl.origin);
+function backToResult(
+  request: NextRequest,
+  orderType: ReportOrderType,
+  params: Record<string, string>,
+) {
+  const url = new URL(RESULT_PATH[orderType], request.nextUrl.origin);
   for (const [key, value] of Object.entries(params)) {
     url.searchParams.set(key, value);
   }
@@ -34,30 +57,41 @@ export async function GET(request: NextRequest) {
   const paymentKey = query.get("paymentKey") ?? "";
   const orderId = query.get("orderId") ?? "";
   const locale = query.get("lang") ?? "ko";
+  // 주문을 찾기 전까지의 임시 자리. 찾은 뒤에는 주문에 적힌 종류로 바꾼다.
+  let orderType = orderTypeFromQuery(query.get("kind"));
 
   if (!paymentKey || !UUID.test(orderId)) {
-    return backToResult(request, { lang: locale, payment: "invalid" });
+    return backToResult(request, orderType, { lang: locale, payment: "invalid" });
   }
 
   const supabase = getSupabaseAdminClient();
   if (!supabase) {
-    return backToResult(request, { lang: locale, payment: "failed" });
+    return backToResult(request, orderType, { lang: locale, payment: "failed" });
   }
 
   try {
     const { data: order } = await supabase
       .from("orders")
-      .select("id,payment_status,payment_amount,payment_currency,metadata")
+      .select(
+        "id,order_type,payment_status,payment_amount,payment_currency,metadata",
+      )
       .eq("id", orderId)
-      .eq("order_type", "GUNGHAP_PDF")
+      .in("order_type", Object.keys(RESULT_PATH))
       .eq("service", "inyeonlink")
       .maybeSingle();
 
-    if (!order) return backToResult(request, { lang: locale, payment: "notfound" });
+    if (!order) {
+      return backToResult(request, orderType, { lang: locale, payment: "notfound" });
+    }
+    orderType = order.order_type as ReportOrderType;
 
     // 이미 승인된 주문이면 그대로 통과시킨다(새로고침·뒤로가기 대비).
     if (order.payment_status === "PAID") {
-      return backToResult(request, { lang: locale, payment: "paid", orderId });
+      return backToResult(request, orderType, {
+        lang: locale,
+        payment: "paid",
+        orderId,
+      });
     }
 
     // **금액은 주문에 저장된 값으로 승인한다.** 쿼리로 돌아온 amount를 그대로 쓰면 위변조를
@@ -89,11 +123,15 @@ export async function GET(request: NextRequest) {
       .eq("payment_status", "UNPAID");
     if (updateError) throw updateError;
 
-    return backToResult(request, { lang: locale, payment: "paid", orderId });
+    return backToResult(request, orderType, {
+      lang: locale,
+      payment: "paid",
+      orderId,
+    });
   } catch (error) {
     // 승인에 실패하면 결제도 되지 않은 상태다(토스는 승인해야 결제가 된다). 화면에서 다시
     // 시도하도록 안내한다.
     console.error("Toss confirm route failed", error);
-    return backToResult(request, { lang: locale, payment: "failed" });
+    return backToResult(request, orderType, { lang: locale, payment: "failed" });
   }
 }
