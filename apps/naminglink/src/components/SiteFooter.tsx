@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FooterPolicyLinks } from "@/components/FooterPolicyLinks";
+import { useServerFooterContent } from "@/components/FooterContentProvider";
 import {
   fallbackFooterContent,
   type FooterContent,
@@ -679,8 +680,11 @@ export function SiteFooter({
   locale = "ko",
   policyMode = "links",
 }: SiteFooterProps) {
+  // 루트 레이아웃이 서버에서 읽어 내려 준 값을 초기 상태로 쓴다. 사업자등록번호·통신판매업
+  // 신고번호는 법정 표시 항목이라 서버 HTML에 실제 값이 들어 있어야 한다(FooterContentProvider 참고).
+  const serverContent = useServerFooterContent();
   const [footerContent, setFooterContent] = useState<FooterContent>(
-    fallbackFooterContent,
+    serverContent ?? fallbackFooterContent,
   );
   const isLight = tone === "light";
   const wrapperClass = isLight
@@ -692,6 +696,10 @@ export function SiteFooter({
   const copy = footerCopies[locale];
 
   useEffect(() => {
+    // 서버가 이미 값을 내려 줬으면 다시 부르지 않는다. 같은 값을 받으려고 페이지마다 왕복할
+    // 이유가 없다 — 운영자가 고치면 다음 요청의 서버 렌더에 반영된다.
+    if (serverContent) return;
+
     const controller = new AbortController();
 
     fetch("/api/site-content?kind=footer", { signal: controller.signal })
@@ -706,7 +714,7 @@ export function SiteFooter({
       });
 
     return () => controller.abort();
-  }, []);
+  }, [serverContent]);
 
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 전달한다(IP·브라우저 언어 재추정 방지).
   const langQuery = locale && locale !== "ko" ? `?lang=${locale}` : "";
