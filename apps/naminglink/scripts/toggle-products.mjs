@@ -72,10 +72,13 @@ async function rest(path, init = {}) {
       ...(init.headers ?? {}),
     },
   });
+  const text = await response.text();
   if (!response.ok) {
-    throw new Error(`${response.status} ${await response.text()}`);
+    throw new Error(`${response.status} ${text}`);
   }
-  return response.status === 204 ? null : response.json();
+  // `Prefer: return=minimal` 은 PATCH에 204를 주지만 POST에는 **201 + 빈 본문**을 준다.
+  // 상태 코드로만 가르면 이력 INSERT에서 JSON 파싱이 터진다(실제로 터졌다).
+  return text ? JSON.parse(text) : null;
 }
 
 const rows = await rest(
