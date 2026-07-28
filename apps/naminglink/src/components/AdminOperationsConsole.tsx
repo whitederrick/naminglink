@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, ShieldCheck, Users } from "lucide-react";
+import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import {
@@ -133,12 +134,15 @@ export function AdminShell({ children }: { children: ReactNode }) {
     <main className="min-h-screen bg-background">
       <div className="mx-auto grid w-full max-w-[1500px] lg:grid-cols-[240px_1fr]">
         <aside className="border-b border-line bg-surface p-5 lg:min-h-screen lg:border-b-0 lg:border-r">
-          {/* "Naming Artist"는 서비스 어디에도 쓰지 않는 이름이라 지운다. 이 화면이 운영자
-              전용이라는 사실이 한눈에 들어오는 편이 낫다(이용자 화면과 착각하지 않도록). */}
-          <Link href={basePath} className="block">
-            <span className="block text-lg font-semibold">Naming-Link</span>
-            <span className="mt-1.5 inline-block rounded bg-foreground px-2 py-0.5 text-xs font-semibold text-background">
-              운영자 콘솔
+          {/* "Naming Artist"는 서비스 어디에도 쓰지 않는 이름이라 지운다. 랜딩과 같은 로고를
+              쓰되(BrandMark), 이 화면이 운영자 전용이라는 사실이 한눈에 들어오게 배지를 단다. */}
+          <Link href={basePath} className="flex items-center gap-2.5">
+            <BrandMark size={40} />
+            <span className="flex flex-col items-start">
+              <span className="text-base font-semibold leading-tight">Naming-Link</span>
+              <span className="mt-1 rounded bg-foreground px-1.5 py-0.5 text-[11px] font-semibold leading-none text-background">
+                운영자 콘솔
+              </span>
             </span>
           </Link>
           <nav className="mt-6 space-y-4">

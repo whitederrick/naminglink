@@ -23,7 +23,9 @@ export function PageHeader({
   // 제목·설명의 위쪽에 맞춘다. items-end면 아래에 붙어 화면을 옮길 때마다 위치가 튄다.
   return (
     <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
-      <div className="max-w-3xl">
+      {/* 회원 관리처럼 설명이 긴 화면에서 768px(max-w-3xl)은 좁아 답답했다. 다만 상한을 아예
+          풀면 넓은 화면에서 한 줄이 너무 길어져 다음 줄 첫머리를 놓친다. 1024px로 절충한다. */}
+      <div className="max-w-5xl">
         <p className="text-sm text-brand-teal">{eyebrow}</p>
         <h1 className="mt-1 text-3xl font-semibold">{title}</h1>
         <p className="mt-2 whitespace-pre-line text-sm leading-6 text-muted">{description}</p>
