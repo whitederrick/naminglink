@@ -877,8 +877,58 @@ export const landingCopies: Record<Locale, LandingCopy> = {
   },
 };
 
+/**
+ * 한글 발음 표기 서비스(`global-to-korean?mode=transliteration`)의 문구.
+ *
+ * `serviceCopies`와 따로 두는 이유: 이것은 **랜딩 카드 목록에 속한 서비스가 아니라** 비한국어
+ * 랜딩에만 따로 놓이는 자리다. 그래서 slug도 `global-name-to-hangul`로 다르다.
+ *
+ * 원래 `app/page.tsx` 안에 있었는데 화면 밖(검색 결과 제목·설명)에서도 같은 문구를 써야 해서
+ * 여기로 옮겼다. **화면과 metadata가 같은 사전을 보게 하는 것이 핵심이다** — 갈라 두면 검색
+ * 결과에 뜬 제목과 눌러서 보는 화면이 달라진다.
+ */
+export const hangulPronunciationCopy: Record<Locale, ServiceLandingCopy> = {
+  ko: { audience: "한글 발음 표기가 필요한 외국인", title: "글로벌 이름 한글 표기", description: "새로운 한국 이름을 만들지 않고, 원래 이름의 발음을 자연스러운 한글 표기로 바꿉니다." },
+  en: { audience: "Keep your name, written in Korean", title: "Write My Name as It Sounds in Hangul", description: "Turn your name’s original pronunciation into a natural Hangul spelling—without creating a new Korean name." },
+  ja: { audience: "ハングル発音表記が必要な方", title: "名前をハングルで表記", description: "新しい韓国名を作らず、元の名前の発音を自然なハングル表記に変換します。" },
+  zh: { audience: "需要韩文发音标记的用户", title: "用韩文标记姓名发音", description: "不创建新的韩国姓名，而是将原名发音转换为自然的韩文写法。" },
+  de: { audience: "Für eine Hangul-Aussprache", title: "Namen in Hangul schreiben", description: "Überträgt die ursprüngliche Aussprache natürlich in Hangul, ohne einen neuen koreanischen Namen zu erfinden." },
+  es: { audience: "Para escribir la pronunciación en hangul", title: "Escribir mi nombre en hangul", description: "Convierte la pronunciación original en una escritura natural en hangul, sin crear un nombre coreano nuevo." },
+  fr: { audience: "Pour une transcription en hangeul", title: "Écrire mon nom en hangeul", description: "Transcrit naturellement la prononciation d’origine en hangeul, sans créer un nouveau nom coréen." },
+  it: { audience: "Per la pronuncia in hangul", title: "Scrivi il mio nome in hangul", description: "Trascrive naturalmente la pronuncia originale in hangul, senza creare un nuovo nome coreano." },
+  pt: { audience: "Para pronúncia em hangul", title: "Escrever meu nome em hangul", description: "Converte a pronúncia original em uma escrita natural em hangul, sem criar um novo nome coreano." },
+  vi: { audience: "Dành cho cách đọc bằng Hangul", title: "Viết tên bằng Hangul", description: "Chuyển cách phát âm tên gốc sang cách viết Hangul tự nhiên, không tạo tên Hàn Quốc mới." },
+  th: { audience: "สำหรับการเขียนเสียงอ่านด้วยฮันกึล", title: "เขียนชื่อเป็นฮันกึล", description: "ถอดเสียงชื่อเดิมเป็นฮันกึลอย่างเป็นธรรมชาติ โดยไม่สร้างชื่อเกาหลีใหม่" },
+  id: { audience: "Untuk pelafalan dalam Hangul", title: "Tulis nama saya dalam Hangul", description: "Mengubah pelafalan nama asli menjadi tulisan Hangul yang alami tanpa membuat nama Korea baru." },
+  ru: { audience: "Для записи произношения на хангыле", title: "Записать имя на хангыле", description: "Передаёт исходное произношение естественной записью на хангыле, не создавая новое корейское имя." },
+  ar: { audience: "لكتابة النطق بالهانغول", title: "اكتب اسمي بالهانغول", description: "يحوّل نطق الاسم الأصلي إلى كتابة طبيعية بالهانغول من دون إنشاء اسم كوري جديد." },
+  fil: { audience: "Para sa bigkas sa Hangul", title: "Isulat ang pangalan sa Hangul", description: "Isinusulat sa natural na Hangul ang orihinal na bigkas nang hindi gumagawa ng bagong Koreanong pangalan." },
+  uz: { audience: "Hangulcha talaffuz uchun", title: "Ismni Hangulda yozish", description: "Yangi koreyscha ism yaratmay, asl ism talaffuzini tabiiy Hangul yozuviga o‘giradi." },
+  mn: { audience: "Хангыл дуудлагын бичлэг", title: "Нэрийг хангыляар бичих", description: "Шинэ солонгос нэр зохиолгүйгээр эх нэрийн дуудлагыг хангыляар байгалийн байдлаар бичнэ." },
+  hi: { audience: "हंगुल उच्चारण लिखने के लिए", title: "नाम हंगुल में लिखें", description: "नया कोरियाई नाम बनाए बिना मूल नाम के उच्चारण को स्वाभाविक हंगुल लेखन में बदलता है।" },
+  tr: { audience: "Hangul telaffuzu için", title: "Adımı Hangul ile yaz", description: "Yeni bir Korece ad oluşturmadan özgün telaffuzu doğal bir Hangul yazımına dönüştürür." },
+  km: { audience: "សម្រាប់ការសរសេរសំឡេងជាហាន់ហ្គុល", title: "សរសេរឈ្មោះជាហាន់ហ្គុល", description: "បម្លែងសំឡេងឈ្មោះដើមទៅជាអក្សរហាន់ហ្គុលធម្មជាតិ ដោយមិនបង្កើតឈ្មោះកូរ៉េថ្មី។" },
+  ms: { audience: "Untuk sebutan dalam Hangul", title: "Tulis nama saya dalam Hangul", description: "Menukar sebutan nama asal kepada ejaan Hangul semula jadi tanpa mencipta nama Korea baharu." },
+  kk: { audience: "Хангыльша айтылуы үшін", title: "Есімді хангыльмен жазу", description: "Жаңа корей есімін жасамай, бастапқы есімнің айтылуын табиғи хангыль жазуына айналдырады." },
+  pl: { audience: "Do zapisu wymowy w hangulu", title: "Zapisz imię w hangulu", description: "Przenosi oryginalną wymowę do naturalnego zapisu w hangulu bez tworzenia nowego koreańskiego imienia." },
+};
+
 export function getLandingCopy(locale: Locale) {
   return landingCopies[locale] ?? landingCopies.en ?? landingCopies.ko!;
+}
+
+/**
+ * slug 하나로 서비스 문구를 찾는다. 랜딩 카드 서비스와 한글 발음 표기가 **다른 사전에**
+ * 들어 있어, 부르는 쪽이 어디를 볼지 알 필요가 없게 한 곳에서 합친다.
+ */
+export function getServiceCopy(
+  locale: Locale,
+  slug: string,
+): ServiceLandingCopy | null {
+  if (slug === "global-name-to-hangul") {
+    return hangulPronunciationCopy[locale] ?? hangulPronunciationCopy.en;
+  }
+  return getLandingCopy(locale).services[slug] ?? null;
 }
 
 export function getTextDirection(locale: Locale) {

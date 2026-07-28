@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import { HangulPronunciationResultPage } from "@/components/HangulPronunciationResultPage";
 import { KoreanNameResultPage } from "@/components/KoreanNameResultPage";
 import { getRequestLocale } from "@/lib/locale";
+import { noIndex } from "@/lib/seo";
+
+// 결과 화면은 1회용 조회 ID에 묶인 남의 결과다. 색인되면 안 된다.
+export const metadata: Metadata = { robots: noIndex };
 
 type PageProps = {
   searchParams?: Promise<{ id?: string; lang?: string; mode?: string }>;

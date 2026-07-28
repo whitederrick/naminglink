@@ -1,8 +1,13 @@
 import { AuthPageNav } from "@/components/AuthPageNav";
 import { AuthPanel } from "@/components/AuthPanel";
 import { SiteFooter } from "@/components/SiteFooter";
+import type { Metadata } from "next";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { getRequestLocale } from "@/lib/locale";
+import { noIndex } from "@/lib/seo";
+
+// 로그인 화면은 검색 유입 가치가 없고, 색인되면 서비스 화면 대신 이것이 노출된다.
+export const metadata: Metadata = { robots: noIndex };
 
 export default async function LoginPage({
   searchParams,

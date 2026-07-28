@@ -2,8 +2,13 @@ import { AccountDashboard } from "@/components/AccountDashboard";
 import { AuthPageNav } from "@/components/AuthPageNav";
 import { AuthPanel } from "@/components/AuthPanel";
 import { SiteFooter } from "@/components/SiteFooter";
+import type { Metadata } from "next";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { getRequestLocale } from "@/lib/locale";
+import { noIndex } from "@/lib/seo";
+
+// 개인 화면이라 색인하지 않는다. follow는 남겨 두어 여기서 나가는 링크는 계속 따라가게 한다.
+export const metadata: Metadata = { robots: noIndex };
 
 export default async function AccountPage({
   searchParams,

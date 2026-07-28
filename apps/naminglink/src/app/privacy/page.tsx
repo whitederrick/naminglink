@@ -1,8 +1,24 @@
+import type { Metadata } from "next";
 import { PrivacyDocumentContent } from "@/components/LegalDocumentContent";
 import { PolicyLayout } from "@/components/PolicyLayout";
 import { getLegalLocaleContent } from "@/lib/legal-content";
-import { getRequestLocale } from "@/lib/locale";
+import { getRequestLocale, isLocale } from "@/lib/locale";
+import { buildLegalMetadata } from "@/lib/seo-legal";
 import { getPublishedPolicyDocument } from "@/lib/site-content-server";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const { lang } = await searchParams;
+  return buildLegalMetadata({
+    kind: "privacy",
+    path: "/privacy",
+    locale: await getRequestLocale(lang),
+    requested: isLocale(lang) ? lang : null,
+  });
+}
 
 export default async function PrivacyPage({
   searchParams,

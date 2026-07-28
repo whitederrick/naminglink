@@ -1,8 +1,24 @@
+import type { Metadata } from "next";
 import { PricingDocumentContent } from "@/components/LegalDocumentContent";
 import { PolicyLayout } from "@/components/PolicyLayout";
 import { getLegalLocaleContent } from "@/lib/legal-content";
-import { getRequestLocale } from "@/lib/locale";
+import { getRequestLocale, isLocale } from "@/lib/locale";
+import { buildLegalMetadata } from "@/lib/seo-legal";
 import { getPublishedPolicyDocument } from "@/lib/site-content-server";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const { lang } = await searchParams;
+  return buildLegalMetadata({
+    kind: "pricing",
+    path: "/pricing",
+    locale: await getRequestLocale(lang),
+    requested: isLocale(lang) ? lang : null,
+  });
+}
 
 export default async function PricingPage({
   searchParams,
