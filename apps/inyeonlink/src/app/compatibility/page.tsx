@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AdBanner } from "@/components/AdBanner";
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
+import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
@@ -36,9 +37,7 @@ export default async function CompatibilityPage({
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <section className="mt-10">
-            <h1 className="break-keep-all text-3xl font-bold">
-              {dictionary.form.title}
-            </h1>
+            <PageTitle title={dictionary.form.title} locale={locale} />
             <p className="break-keep-all mt-3 text-muted">
               {dictionary.form.description}
             </p>

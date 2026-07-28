@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { MatchResultView } from "@/components/MatchResultView";
 import { PageHeader } from "@/components/PageHeader";
+import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
@@ -42,7 +43,11 @@ export default async function ResultPage({
         <PageHeader brand={dictionary.brand} locale={locale} />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
-          <h1 className="mt-10 text-3xl font-bold">{dictionary.result.title}</h1>
+          <PageTitle
+            title={dictionary.result.title}
+            locale={locale}
+            className="mt-10"
+          />
           <MatchResultView
             dictionary={dictionary}
             locale={locale}

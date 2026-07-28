@@ -47,7 +47,16 @@ export function AdBanner({
     }
   }, [slot]);
 
-  if (!slot) return null;
+  // 슬롯이 없으면 운영에서는 아무것도 그리지 않지만, **개발에서는 자리만 표시한다.**
+  // 자리가 안 보이면 광고를 켜기 전에는 배치를 판단할 수 없다 — 크기가 맞는지, 버튼과 너무
+  // 가깝지는 않은지는 눈으로 봐야 안다.
+  //
+  // `NODE_ENV`는 Next가 빌드 시점에 값으로 박아 넣는다. 운영 빌드에서는 이 분기 자체가 사라져
+  // **자리 표시가 배포에 실려 나갈 수 없다.**
+  if (!slot) {
+    if (process.env.NODE_ENV === "production") return null;
+    return <AdPlaceholder placement={placement} className={className} />;
+  }
 
   const { ads } = getDictionary(locale);
 
@@ -69,5 +78,32 @@ export function AdBanner({
         data-full-width-responsive="true"
       />
     </aside>
+  );
+}
+
+/**
+ * 개발용 자리 표시. 운영 빌드에는 들어가지 않는다.
+ *
+ * 어느 자리인지와 무엇을 채워야 켜지는지를 함께 적는다 — 자리만 그려 두면 나중에 "이건 왜
+ * 비어 있나"를 다시 찾아봐야 한다.
+ */
+function AdPlaceholder({
+  placement,
+  className,
+}: {
+  placement: AdPlacement;
+  className: string;
+}) {
+  const variable = `NEXT_PUBLIC_ADSENSE_SLOT_${placement.toUpperCase()}`;
+
+  return (
+    <div
+      className={`flex min-h-[72px] flex-col items-center justify-center gap-1 rounded-xl border border-dashed border-line px-3 py-4 text-center ${className}`}
+    >
+      <span className="text-xs font-semibold text-muted">
+        광고 자리 · {placement}
+      </span>
+      <code className="text-[11px] leading-4 text-muted/80">{variable}</code>
+    </div>
   );
 }
