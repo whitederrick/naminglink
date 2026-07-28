@@ -26,7 +26,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 export const MIN_BIRTH_YEAR = 1900;
 export const MAX_BIRTH_YEAR = Math.min(2050, CURRENT_YEAR);
 
-const personSchema = z.object({
+export const personSchema = z.object({
   // 표시용 별칭. 실명을 요구하지 않는다 — 궁합 계산에 쓰이지 않는 값이라 받을 이유가 없다.
   label: z.string().trim().max(24).optional(),
   // 배우자성(남=재성, 여=관성) 판정에 쓴다. 밝히지 않으면 그 항목을 빼고 계산한다.
@@ -71,9 +71,15 @@ export function toPerson(value: z.infer<typeof personSchema>): Person {
   };
 }
 
-/** 프래그먼트에 실을 문자열로 만든다. 암호화가 아니라 URL 안전 인코딩일 뿐이다. */
-export function encodeMatchInput(input: MatchInput) {
-  const json = JSON.stringify(input);
+/**
+ * 프래그먼트에 실을 문자열로 만든다. 암호화가 아니라 URL 안전 인코딩일 뿐이다.
+ *
+ * 궁합과 인연의 결이 담는 값은 다르지만 **담는 방식은 같아야 한다.** 한쪽만 인코딩을 바꾸면
+ * 두 화면이 서로의 링크를 못 읽게 되고, 그 어긋남은 사용자에게 "결과를 읽을 수 없습니다"로만
+ * 보인다. 그래서 인코딩은 이 두 함수 하나뿐이고 스키마만 갈아 끼운다.
+ */
+export function encodePayload(value: unknown) {
+  const json = JSON.stringify(value);
   const bytes = new TextEncoder().encode(json);
   let binary = "";
   bytes.forEach((byte) => {
@@ -82,7 +88,10 @@ export function encodeMatchInput(input: MatchInput) {
   return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
-export function decodeMatchInput(value: string): MatchInput | null {
+export function decodePayload<T>(
+  value: string,
+  schema: { safeParse: (input: unknown) => { success: boolean; data?: T } },
+): T | null {
   try {
     const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
     const binary = atob(normalized);
@@ -90,9 +99,17 @@ export function decodeMatchInput(value: string): MatchInput | null {
       character.charCodeAt(0),
     );
     const parsed = JSON.parse(new TextDecoder().decode(bytes));
-    const result = matchInputSchema.safeParse(parsed);
-    return result.success ? result.data : null;
+    const result = schema.safeParse(parsed);
+    return result.success ? (result.data as T) : null;
   } catch {
     return null;
   }
+}
+
+export function encodeMatchInput(input: MatchInput) {
+  return encodePayload(input);
+}
+
+export function decodeMatchInput(value: string): MatchInput | null {
+  return decodePayload(value, matchInputSchema);
 }

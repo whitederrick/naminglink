@@ -7,6 +7,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { AdRewardGate } from "@/components/AdRewardGate";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { adSlotFor } from "@/lib/ads";
+import { emphasize } from "@/lib/emphasize";
 import {
   scoreBand,
   type EngineResult,
@@ -17,6 +18,7 @@ import {
 } from "@/lib/engines";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
+import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
 
 // 결과에는 **어느 프래그먼트로 계산한 것인지**를 함께 담는다. 주소의 프래그먼트가 바뀌었는데
 // 상태가 아직 이전 것이면 그건 낡은 화면이므로 "계산 중"으로 보여야 한다. effect 안에서
@@ -57,19 +59,9 @@ export function MatchResultView({
   const [rewarded, setRewarded] = useState(false);
 
   // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다. null이면 아직 못 읽은 것이다.
-  //
-  // **두 번째 궁합에서 "결과 정보를 읽을 수 없습니다"가 뜨던 원인이 여기였다.**
-  //
-  // 예전에는 마운트할 때 `window.location.hash`를 딱 한 번 읽었다. 그런데 결과 화면에서
-  // "다시 계산하기"로 돌아가 다시 계산하면, 이번에는 `/compatibility/result`가 Next의 라우터
-  // 캐시에 이미 있어 서버를 다녀오지 않는다. 그러면 전환이 거의 한 틱에 끝나면서 **주소의
-  // 해시가 반영되기 전에 이 컴포넌트가 마운트되어** 빈 문자열을 읽는다. 빈 값은 곧
-  // MISSING_INPUT이고, 그게 그 메시지다. 첫 번째에는 RSC를 받아 오느라 시간이 걸려 그 사이
-  // 주소가 갱신되므로 멀쩡히 동작한다.
-  //
-  // 그래서 **비어 있으면 곧바로 실패로 단정하지 않고 잠깐 기다렸다 다시 본다.** 정말로 해시
-  // 없이 들어온 경우(주소를 직접 친 경우)에만 마지막에 빈 값을 확정해 오류를 보여 준다.
-  const [resolvedFragment, setResolvedFragment] = useState<string | null>(null);
+  // 주소가 확정되기를 기다리는 사연은 `useResultFragment`에 적어 두었다 — 인연의 결 화면과
+  // 같은 것을 쓴다.
+  const resolvedFragment = useResultFragment();
 
   // 토스 결제에서 돌아온 경우 프래그먼트를 되살린다.
   //
@@ -93,58 +85,6 @@ export function MatchResultView({
   }, []);
 
   useEffect(() => {
-    let stopped = false;
-
-    // commitEmpty=false면 빈 해시는 아직 "결론"으로 삼지 않는다.
-    const sync = (commitEmpty: boolean) => {
-      // 프래그먼트가 둘 붙어 있는 주소가 실제로 만들어졌었다
-      // (`#첫번째조회#두번째조회`). 그런 주소가 이미 공유됐을 수 있으므로 마지막 조각을
-      // 쓴다 — 나중에 붙은 쪽이 그 화면이 보여 주려던 결과다. 프래그먼트가 하나면
-      // split 결과도 하나라 동작이 달라지지 않는다.
-      const current = window.location.hash.slice(1).split("#").pop() ?? "";
-      if (!current && !commitEmpty) return false;
-      setResolvedFragment((previous) =>
-        previous === current ? previous : current,
-      );
-      return true;
-    };
-
-    const timers: number[] = [];
-    if (!sync(false)) {
-      // 주소가 갱신되기를 기다린다. 마지막 한 번은 빈 값이라도 확정해 오류를 띄운다 —
-      // 그렇지 않으면 해시 없이 들어온 사람이 "계산 중…"에 영원히 갇힌다.
-      for (const delay of [0, 30, 100, 300]) {
-        timers.push(
-          window.setTimeout(() => {
-            if (!stopped) sync(false);
-          }, delay),
-        );
-      }
-      timers.push(
-        window.setTimeout(() => {
-          if (!stopped) sync(true);
-        }, 700),
-      );
-    }
-
-    // 리렌더 없이 주소만 바뀌는 경로도 있다. 이벤트가 왔다는 것은 주소가 확정됐다는 뜻이라
-    // 빈 값도 그대로 받는다. pushState는 hashchange를 발생시키지 않으므로 popstate도 듣고,
-    // 뒤로 가기로 되살아난 페이지(bfcache)까지 덮도록 pageshow도 듣는다.
-    const onNavigate = () => sync(true);
-    window.addEventListener("hashchange", onNavigate);
-    window.addEventListener("popstate", onNavigate);
-    window.addEventListener("pageshow", onNavigate);
-
-    return () => {
-      stopped = true;
-      timers.forEach((timer) => window.clearTimeout(timer));
-      window.removeEventListener("hashchange", onNavigate);
-      window.removeEventListener("popstate", onNavigate);
-      window.removeEventListener("pageshow", onNavigate);
-    };
-  }, []);
-
-  useEffect(() => {
     if (resolvedFragment === null) return;
     const fragment = resolvedFragment;
     let cancelled = false;
@@ -155,14 +95,7 @@ export function MatchResultView({
     // 프래그먼트 해석 실패도 예외로 던져 한 갈래로 모은다. effect 안에서 setState를 동기로
     // 호출하면 렌더가 연쇄로 도는데, .catch는 마이크로태스크라 그 문제가 없다.
     async function resolve() {
-      // 프래그먼트에는 base64가 들어가지만, 사용자가 주소를 손대 잘못된 퍼센트 인코딩이
-      // 섞이면 decodeURIComponent가 던진다. 그것도 "읽을 수 없는 결과"로 같이 다룬다.
-      let decoded: string | null = null;
-      try {
-        decoded = fragment ? decodeURIComponent(fragment) : null;
-      } catch {
-        decoded = null;
-      }
+      const decoded = decodeFragment(fragment);
       const input = decoded ? decodeMatchInput(decoded) : null;
       if (!input) throw new Error("MISSING_INPUT");
 
@@ -431,19 +364,6 @@ function RelationSection({
         })}
       </div>
     </>
-  );
-}
-
-/** 문구의 `**…**`만 굵게 만든다. 마크다운 전체를 지원할 이유는 없다. */
-function emphasize(text: string) {
-  return text.split(/(\*\*[^*]+\*\*)/g).map((part, index) =>
-    part.startsWith("**") && part.endsWith("**") ? (
-      <strong key={index} className="font-semibold">
-        {part.slice(2, -2)}
-      </strong>
-    ) : (
-      part
-    ),
   );
 }
 
