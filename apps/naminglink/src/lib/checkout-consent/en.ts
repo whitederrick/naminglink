@@ -25,7 +25,10 @@ export const en: ConsentCopySet = {
       ["Provider", "Naming-Link"],
       ["Format", "A physical seal (dojang), carved individually with the text you order."],
       ["How it is made", "We confirm the text and typeface after your order, then begin carving."],
-      ["Shipping", "Dispatched once carving is complete. International shipping outside Korea."],
+      // 원문("국내는 택배, 해외는 국제배송")의 두 경로를 다 싣는다. 영어판만 국내 배송을
+      // 빼고 축약해 두었는데, 다른 21개 언어는 원문대로 옮겼으므로 영어 구매자에게만
+      // 다른 배송 조건을 고지한 셈이었다.
+      ["Shipping", "Dispatched once carving is complete. Courier within Korea, international shipping elsewhere."],
       ["Withdrawal", "**Before carving begins**, full refund. After it begins, withdrawal is restricted — the item is made to your order and cannot be resold (Art. 17(2), Korean E-Commerce Act)."],
       ["Exchange / return", "If the item arrives damaged, mis-carved, or different from your order, we remake it or refund in full."],
       ["Return costs", "Free in the cases above. A change of mind can only be cancelled before carving begins."],
