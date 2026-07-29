@@ -1,5 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
-
 /**
  * 셀프 광고 — 애드센스가 소재를 못 채웠을 때 게이트를 대신 채운다.
  *
@@ -13,10 +11,15 @@ import { ArrowUpRight } from "lucide-react";
  * 배경 이미지는 나중에 받는다. 지금은 글자만 둔다.
  */
 
+/**
+ * **아직 링크로 걸지 않는다.** 두 주소 모두 실 도메인이 연결되지 않아, 누르면 열리지 않는다
+ * (`inyeon-link.com`은 미연결, `place-link.com`은 응답 없음 — 2026-07-30 확인).
+ * 죽은 링크를 누르게 하는 것은 광고를 안 보여 주는 것보다 나쁘다.
+ * 도메인이 살면 `<a href>`로 바꾸면 된다.
+ */
 type SelfAdService = {
   name: string;
-  href: string;
-  /** 화면에 그대로 보이는 주소. 링크와 같은 값이지만 프로토콜은 뺀다. */
+  /** 화면에 보이는 주소. 도메인이 살 때까지는 링크가 아니라 글자다. */
   domain: string;
   purpose: string;
 };
@@ -28,13 +31,11 @@ type SelfAdService = {
 const SERVICES: SelfAdService[] = [
   {
     name: "인연링크",
-    href: "https://inyeon-link.com",
     domain: "inyeon-link.com",
     purpose: "사주와 띠로 보는 두 사람의 궁합",
   },
   {
     name: "플레이스링크",
-    href: "https://place-link.com",
     domain: "place-link.com",
     purpose: "한국의 데이트 코스 공유 · 추천 서비스",
   },
@@ -51,24 +52,11 @@ export function SelfAdCard() {
       </p>
       <div className="grid gap-px bg-line sm:grid-cols-2">
         {SERVICES.map((service) => (
-          <a
-            key={service.href}
-            href={service.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex flex-col gap-1 bg-surface px-4 py-3 transition hover:bg-surface-strong"
-          >
-            <span className="flex items-center gap-1 text-sm font-semibold text-foreground">
-              {service.name}
-              <ArrowUpRight
-                aria-hidden="true"
-                size={14}
-                className="transition group-hover:translate-x-0.5"
-              />
-            </span>
+          <div key={service.domain} className="flex flex-col gap-1 bg-surface px-4 py-3">
+            <span className="text-sm font-semibold text-foreground">{service.name}</span>
             <span className="text-[13px] leading-5 text-muted">{service.purpose}</span>
             <span className="text-xs text-brand-teal">{service.domain}</span>
-          </a>
+          </div>
         ))}
       </div>
     </aside>
