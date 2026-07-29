@@ -587,8 +587,10 @@ export function PremiumHanjaCheckoutPanel({
         </div>
       ) : null}
 
-      {/* 결제 전 고지. 이미 결제가 끝나 내려받기만 남은 단계에서는 다시 묻지 않는다. */}
-      {stage !== "ready" ? (
+      {/* 결제 전 고지. 이미 결제가 끝나 내려받기만 남은 단계에서는 다시 묻지 않는다.
+          **살 수 있을 때만 묻는다** — 청약철회 제한 동의는 결제 직전에 받는 조치라,
+          판매 중이 아닌 화면에 띄우면 뜻이 없고 결제 자리가 살아 있는 것처럼 보인다. */}
+      {stage !== "ready" && purchasable ? (
         <CheckoutConsent
           kind="DIGITAL"
           checked={consented}

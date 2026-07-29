@@ -697,6 +697,9 @@ export function GlobalNamePremiumPanel({
     process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
       process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
   );
+  // 결제 키가 있어도 상품이 판매 중이 아니면 살 수 없다(productInfo가 null로 온다).
+  // 이 값 하나로 버튼과 **결제 전 고지 상자**를 함께 가른다 — 살 수 없는데 동의를 묻지 않는다.
+  const purchasable = configured && productInfo !== null;
   // 운영자(admin) 로그인 시에만 결제 없이 PDF를 받는 테스트 버튼을 노출한다(개발 환경은 항상).
   const [adminToken, setAdminToken] = useState<string | null>(null);
   const [testBusy, setTestBusy] = useState(false);
@@ -1038,8 +1041,12 @@ export function GlobalNamePremiumPanel({
       ) : null}
 
       {/* 결제 전 고지는 그리드 밖에 둔다. 아래 그리드는 후보 선택|버튼 2열이라 항목을 하나 더
-          끼우면 상자가 좁은 열에 끼고 버튼이 다음 줄로 밀린다. */}
-      {stage !== "ready" ? (
+          끼우면 상자가 좁은 열에 끼고 버튼이 다음 줄로 밀린다.
+
+          **살 수 있을 때만 묻는다.** 청약철회 제한 동의는 결제 직전에 받는 조치라, 결제할 수
+          없는 화면에 띄우면 뜻이 없다. 게다가 이 패널은 한 화면에 둘씩 붙어서(종합 리포트·아트 팩)
+          동의 상자만 두 개가 쌓여 결제 자리가 중복된 것처럼 보였다. */}
+      {stage !== "ready" && purchasable ? (
         <CheckoutConsent
           kind="DIGITAL"
           locale={locale}
@@ -1081,7 +1088,7 @@ export function GlobalNamePremiumPanel({
             <FileText aria-hidden="true" size={17} />
             {copy.download}
           </button>
-        ) : configured && productInfo ? (
+        ) : purchasable ? (
           <button
             type="button"
             onClick={startPurchase}
@@ -1103,7 +1110,8 @@ export function GlobalNamePremiumPanel({
             className="inline-flex h-11 cursor-not-allowed items-center justify-center gap-2 self-end rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal opacity-60"
           >
             <FileText aria-hidden="true" size={17} />
-            {withPrice(productCopy.buy, productInfo)}
+            {/* 살 수 없을 때는 "구매"라고 적지 않는다. 다른 구매 자리와 같은 준비 중 문구를 쓴다. */}
+            {copy.preparing}
           </button>
         )}
       </div>
