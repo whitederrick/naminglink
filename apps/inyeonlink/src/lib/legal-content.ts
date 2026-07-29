@@ -2,6 +2,8 @@ import { adsEnabled } from "@/lib/ads";
 import { LEGAL_EFFECTIVE_DATE, type CompanyInfo } from "@/lib/company";
 import { paymentsConfigured } from "@/lib/payments-csp";
 import type { Locale } from "@/lib/i18n";
+import { legalLocaleDocuments } from "@/lib/legal-locales";
+import { legalFlagCombo } from "@/lib/legal-locales/types";
 
 // 사업자 정보는 **인자로 받는다.** 여기서 직접 읽지 않는 것은 이 파일을 DB에 묶지 않으려는
 // 것이다 — 문서 내용은 순수 함수로 두고, 값을 가져오는 일은 호출부(`company-server.ts`)가 한다.
@@ -10,7 +12,12 @@ import type { Locale } from "@/lib/i18n";
 // 책임 범위도 다르기 때문이다. 특히 이 서비스는 **입력을 저장하지 않는다**는 점이 방침의
 // 뼈대라 문장 구조 자체가 다르다.
 //
-// 사전과 마찬가지로 지금은 ko·en만 채우고 나머지 로케일은 en으로 폴백한다.
+// ko·en은 이 파일에 원문 그대로 둔다(원문과 그 짝은 한자리에 있는 편이 낫다). 나머지 21개
+// 로케일은 여기서 번역해 `lib/legal-locales/<코드>.ts`에 두었다 — 예전에는 en으로 폴백해
+// 약관 본문만 21개 언어에서 영어로 나갔다.
+//
+// **문구를 고치면 ko를 먼저 고치고 번역을 다시 만들 것**:
+//   scripts/extract-ko-legal.ts → scripts/translate-legal.mjs → scripts/verify-legal-locales.ts
 
 export type LegalSection = {
   heading: string;
@@ -668,15 +675,62 @@ const enDocuments = (
   },
 });
 
+/**
+ * 번역 파일에 플레이스홀더로 남겨 둔 사업자 정보·가격을 실제 값으로 채운다.
+ *
+ * 번역 파일이 DB에 묶이지 않게 하려고 나눠 둔 것이다 — 사업자 정보나 가격이 바뀌어도 21개
+ * 파일을 다시 만들 필요가 없다. 값이 비면 그 자리를 비워 두지 않고 원문 표시를 남긴다
+ * (빈칸보다 "무엇이 들어갈 자리인지"가 보이는 편이 낫다).
+ */
+function fillPlaceholders(
+  document: LegalDocument,
+  company: CompanyInfo,
+  prices: ReportPrices,
+): LegalDocument {
+  const values: Record<string, string> = {
+    "{customerCenter}": company.customerCenter,
+    "{email}": company.email,
+    "{hostingProvider}": company.hostingProvider,
+    "{privacyOfficer}": company.privacyOfficer,
+    "{priceDomestic}": prices.domestic,
+    "{priceGlobal}": prices.global,
+  };
+  const fill = (text: string) =>
+    text.replace(
+      /\{(customerCenter|email|hostingProvider|privacyOfficer|priceDomestic|priceGlobal)\}/g,
+      (token) => values[token] ?? token,
+    );
+
+  return {
+    title: fill(document.title),
+    intro: fill(document.intro),
+    effectiveLabel: fill(document.effectiveLabel),
+    sections: document.sections.map((section) => ({
+      heading: fill(section.heading),
+      paragraphs: section.paragraphs.map(fill),
+      ...(section.bullets ? { bullets: section.bullets.map(fill) } : {}),
+    })),
+  };
+}
+
 export function getLegalDocument(
   locale: Locale,
   key: LegalDocumentKey,
   company: CompanyInfo,
   prices: ReportPrices,
 ) {
-  const documents =
-    locale === "ko" ? koDocuments(company, prices) : enDocuments(company, prices);
-  return documents[key];
+  if (locale === "ko") return koDocuments(company, prices)[key];
+  if (locale === "en") return enDocuments(company, prices)[key];
+
+  // 나머지 21개 로케일은 ko에서 번역해 둔 것을 쓴다. 예전에는 여기서 en으로 떨어뜨려
+  // **약관 본문만 21개 언어에서 영어로 나갔다** — PDF를 파는 이상 읽지 못하는 언어의 고지는
+  // 법이 요구하는 조치로 보기 어렵다.
+  const combo = legalFlagCombo(adsEnabled, paymentsConfigured);
+  return fillPlaceholders(
+    legalLocaleDocuments[locale][combo][key],
+    company,
+    prices,
+  );
 }
 
 export { LEGAL_EFFECTIVE_DATE };
