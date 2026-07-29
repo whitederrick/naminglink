@@ -912,10 +912,11 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   return (
     <AdminShell>
       <PageHeader title={copy.title} description={copy.description}>
-        {/* 조작 영역은 세로로 쌓아 "테스트 주문 포함"이 **항상 맨 위 같은 자리**에 오게 한다.
-            가로로 나란히 두면 조회 기간이 없는 화면(굿즈 주문)에서 체크박스가 옆으로 밀려
-            화면을 옮길 때마다 눈으로 다시 찾아야 한다. */}
-        <div className="flex flex-col items-end gap-2">
+        {/* "테스트 주문 포함"을 조회 기간 **앞(왼쪽)**에 둔다. 무엇을 세는지(테스트 포함 여부)를
+            먼저 정하고 기간을 고르는 순서가 읽는 순서와 맞는다.
+            좁은 화면에서는 세로로 쌓는다 — 가로로 두면 조회 기간의 직접 입력 칸까지 한 줄에
+            들어가지 못해 줄이 어긋난다. */}
+        <div className="flex flex-col items-end gap-2 sm:flex-row sm:items-center sm:gap-4">
         {showTestToggle ? (
           <label className="flex items-center gap-2 text-sm text-muted">
             <input
