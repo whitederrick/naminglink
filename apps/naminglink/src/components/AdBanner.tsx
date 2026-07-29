@@ -70,11 +70,13 @@ export function AdBanner({
     : variant === "sidebar"
       ? "vertical"
       : "horizontal";
+  // 애드센스 표준 크기에 맞춘다. 모바일 320×50(표준 배너) · PC 728×90·970×90(리더보드).
+  // 예전에는 모바일도 100px(320×100 큰 모바일 배너)이라 머리글이 화면을 너무 많이 먹었다.
   const adHeightClass = isHeaderSlot
-    ? "h-[100px] lg:h-[90px]"
+    ? "h-[50px] lg:h-[90px]"
     : isConsentSlot
       ? "h-[250px] lg:h-[280px]"
-      : "h-[90px]";
+      : "h-[50px] lg:h-[90px]";
 
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
@@ -93,7 +95,8 @@ export function AdBanner({
   if (slot) {
     return (
       <aside aria-label={displayLabel} className="w-full max-w-full overflow-hidden">
-        <p className="mb-2 text-center text-xs uppercase tracking-wide text-muted">
+        {/* 라벨도 자리 높이에 더해진다. 여백을 8px에서 2px로 줄여 머리글이 화면을 덜 먹게 한다. */}
+        <p className="mb-0.5 text-center text-[10px] uppercase tracking-wide text-muted">
           {displayLabel}
         </p>
         <ins
