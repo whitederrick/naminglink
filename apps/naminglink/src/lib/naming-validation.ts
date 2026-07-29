@@ -21,13 +21,13 @@ export function validateHanjaMeaningInput(
   if (!familyName) {
     errors.familyName = "성을 한글로 입력해 주세요.";
   } else if (!hangulNamePattern.test(familyName)) {
-    errors.familyName = "성에는 완성형 한글만 입력해 주세요.";
+    errors.familyName = "완성형 한글만 입력해 주세요.";
   }
 
   if (!givenName) {
     errors.givenNameHangul = "이름을 한글로 입력해 주세요.";
   } else if (!hangulNamePattern.test(givenName)) {
-    errors.givenNameHangul = "이름에는 완성형 한글만 입력해 주세요.";
+    errors.givenNameHangul = "완성형 한글만 입력해 주세요.";
   }
 
   if (generationUsage === "used" && !generationSyllable) {

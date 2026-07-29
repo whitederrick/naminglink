@@ -95,7 +95,9 @@ function FieldInput({
           disabled={disabled}
           checked={value === "on"}
           onChange={(event) => onChange(event.target.checked ? "on" : "")}
-          className={`mt-1.5 size-4 shrink-0 accent-brand-teal${disabledClass}`}
+          // 첫 줄 글자의 위쪽에 맞춘다. 예전 `mt-1.5`는 줄 높이(24px) 가운데에 맞추는 값이라
+          // 설명이 여러 줄일 때 체크박스가 문장보다 내려앉아 보였다.
+          className={`mt-0.5 size-4 shrink-0 accent-brand-teal${disabledClass}`}
         />
         <span className="break-keep-all text-muted">{field.placeholder}</span>
       </label>
@@ -180,6 +182,14 @@ function resolveMotivation(
 
   return selected || "general";
 }
+
+/**
+ * 한글만 받는 칸. 한자 매핑 흐름의 성·이름·돌림자 글자다.
+ *
+ * 조합 중인 자모(ㄱ·ㅏ)까지 허용해야 한다. 완성형만 통과시키면 한글 IME로 "홍"을 치는 동안
+ * "ㅎ" 단계에서 글자가 지워져 아무것도 못 쓴다. 완성형 검사는 제출 때 한 번 더 한다.
+ */
+const hangulOnlyFields = new Set(["familyName", "givenNameHangul", "generationSyllable"]);
 
 const DEFAULT_ANALYSIS_AD_SECONDS = 10;
 const HANJA_ANALYSIS_AD_SECONDS = 15;
@@ -582,7 +592,15 @@ export function NamingForm({
     }
   }
 
-  function updateField(field: FieldConfig, value: string) {
+  function updateField(field: FieldConfig, rawValue: string) {
+    // 한글만 받는 칸은 **입력 단계에서** 거른다. 제출할 때 오류로 돌려보내는 것보다, 애초에
+    // 안 들어가는 편이 이용자에게 덜 번거롭다. 거름망은 검증(`naming-validation.ts`)과 같은
+    // 범위(완성형 한글)를 쓴다 — 둘이 어긋나면 화면에는 들어가는데 제출은 막히는 칸이 생긴다.
+    // 검증 자체는 그대로 둔다. 붙여넣기·자동완성·서버 직접 호출은 이 거름망을 지나지 않는다.
+    const value = hangulOnlyFields.has(field.name)
+      ? rawValue.replace(/[^가-힣ㄱ-ㅎㅏ-ㅣ]/g, "")
+      : rawValue;
+
     setFieldErrors((current) => {
       if (!(field.name in current) && field.name !== "generationNameUsage") {
         return current;
