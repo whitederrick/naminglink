@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { adsEnabled } from "@/lib/ads";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { HangulStampCard } from "@/components/HangulStampCard";
@@ -87,7 +88,9 @@ function ReanalysisSection({
   async function reanalyze() {
     setError(null);
     setLoading(true);
-    setCountdown(5);
+    // **임시 조치 — 애드센스 승인 전까지만이다.** NamingForm의 같은 자리와 이유가 같다.
+    const waitSeconds = adsEnabled ? 5 : 0;
+    setCountdown(waitSeconds);
     const timer = window.setInterval(() => {
       setCountdown((current) => Math.max(0, current - 1));
     }, 1000);
@@ -107,7 +110,7 @@ function ReanalysisSection({
       });
       const [response] = await Promise.all([
         request,
-        new Promise((resolve) => window.setTimeout(resolve, 5000)),
+        new Promise((resolve) => window.setTimeout(resolve, waitSeconds * 1000)),
       ]);
       const payload = (await response.json()) as ApiResult;
 

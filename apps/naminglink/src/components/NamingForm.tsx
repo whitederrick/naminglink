@@ -15,6 +15,7 @@ import {
   type ServiceConfig,
 } from "@/lib/services";
 import { AdBanner } from "@/components/AdBanner";
+import { adsEnabled } from "@/lib/ads";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
@@ -419,7 +420,13 @@ export function NamingForm({
       setAnalysisCountdown(0);
     };
 
-    startAdWindow();
+    // **임시 조치 — 애드센스 승인 전까지만이다.**
+    // 최종 모습은 보상형 광고를 애드센스로 띄우고, 애드센스가 안 나올 때만 이 게이트가 셀프
+    // 광고로 대신 도는 것이다. 그때는 광고가 항상 있으므로 이 분기는 없어진다.
+    // 지금은 퍼블리셔 ID가 없어 셀프 광고도 아직 없다 — 빈 상자를 놓고 10초(한자 15초)를
+    // 세울 이유가 없으므로 대기창을 열지 않는다.
+    // completeAdWindow는 adStartedAt이 null이면 그냥 돌아가므로 아래 호출들은 손댈 것이 없다.
+    if (adsEnabled) startAdWindow();
 
     try {
       const countryProfile = selectedCountry

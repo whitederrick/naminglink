@@ -5,6 +5,7 @@ import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { adsEnabled } from "@/lib/ads";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -669,16 +670,18 @@ export function CandidateUnlockPanel({
 
     setLoading(true);
     trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
-    setCountdown(UNLOCK_AD_SECONDS);
+    // **임시 조치 — 애드센스 승인 전까지만이다.** NamingForm의 같은 자리와 이유가 같다.
+    const waitSeconds = adsEnabled ? UNLOCK_AD_SECONDS : 0;
+    setCountdown(waitSeconds);
     const startedAt = Date.now();
     const timer = window.setInterval(() => {
       const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      setCountdown(Math.max(0, UNLOCK_AD_SECONDS - elapsed));
+      setCountdown(Math.max(0, waitSeconds - elapsed));
     }, 250);
 
     try {
       await new Promise((resolve) =>
-        window.setTimeout(resolve, UNLOCK_AD_SECONDS * 1000),
+        window.setTimeout(resolve, waitSeconds * 1000),
       );
       onUnlock();
       trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
