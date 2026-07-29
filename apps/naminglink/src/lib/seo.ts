@@ -7,8 +7,11 @@ import { supportedLocales, type Locale } from "@/lib/services";
  *
  * **실 도메인이 붙으면 `NEXT_PUBLIC_SITE_URL` 하나만 바꾸면 된다.** 폴백을 배포 주소로 둔 것은
  * 값을 넣지 않은 미리보기에서도 절대 URL이 만들어지게 하려는 것이지, 이 주소를 최종 도메인으로
- * 삼겠다는 뜻이 아니다. 도메인을 나중에 바꾸면 색인된 URL이 통째로 이동하므로 **가능한 한 색인이
- * 쌓이기 전에** 실 도메인을 넣을 것.
+ * 삼겠다는 뜻이 아니다.
+ *
+ * **이 값이 색인 여부까지 정한다.** `*.vercel.app`이면 `robots.ts`가 전면 Disallow를 낸다 —
+ * 배포 주소로 색인이 쌓인 뒤 도메인을 바꾸면 URL이 통째로 이동하기 때문이다. 실 도메인을
+ * 넣는 순간 색인이 열리므로, 따로 켜야 하는 스위치는 없다.
  */
 export const siteUrl = (
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://naminglink.vercel.app"
