@@ -29,9 +29,11 @@ function koreanServiceCopy(service: ServiceConfig) {
       eyebrow: "결과를 더 활용해 보세요",
       sectionTitle: "이름 굿즈",
       goodsTitle: "선택 이름 굿즈",
-      goodsExamples: "도장 · 액자 · 키링 등",
+      // 실제로 파는 것만 적는다. 액자·키링은 만들지 않는데 이름만 올라와 있었다 —
+      // 위 주석에 적어 둔 "명함·키링·티셔츠" 자리와 같은 종류의 결함이다.
+      goodsExamples: "이름 도장",
       goodsBody:
-        "선택한 한글·한자 이름을 도장, 액자, 키링 등에 적용해 제작을 신청할 수 있습니다.",
+        "선택한 한글·한자 이름을 도장에 새겨 제작을 신청할 수 있습니다.",
       button: "굿즈 신청 준비 중",
     };
   }
