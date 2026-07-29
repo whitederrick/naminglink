@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Küresel isim dönüştürme, Korece isim dönüştürme, Korece telaffuz yazım hizmetlerinde, kalan adayların tamamını reklamsız bir şekilde bir kerede sunan bir ürün (yurt içi ödeme ₩990, yurt dışı ödeme US$1.99) sağlanabilir. Ödeme işlevi aktif hale gelmeden önce yalnızca reklam ödüllü görüntüleme sunulmaktadır.",
             "Küresel kullanıcılar için dijital ürün olarak ④ Korece isim kapsamlı rapor PDF (US$9.99): önerilen adayların tamamının seçilen yazı tipi isim sanatı, anlam açıklaması ve beş element doğum haritası referansı ⑤ Korece telaffuz dönüşüm sanatı PDF (US$2.99): seçilen yazı tipi isim sanatı ve telaffuz rehberi ⑥ İsim sanatı paketi PDF (US$1.99): seçilen bir ismi farklı yazı tipleriyle sunma. Her ürünün fiyatı ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir.",
             "Ücretli detay raporları ve analiz sonuçları, PDF dosyaları ödeme tamamlandıktan sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
-            "İsim mührü gibi fiziksel ürünler, yurt içinde ₩39,000, yurt dışında US$34.99 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
+            "İsim mührü gibi fiziksel ürünler, yurt içinde ₩39,000 / ₩59,000 / ₩79,000, yurt dışında US$39.90 / US$59.90 / US$79.90 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Özel Üretim Ürünler (İsim Mühürü vb.)",
           paragraphs: [
-            "İsim mühürü gibi kişiye özel üretilen ürünler (Yerel ₩39,000 · Yurt Dışı US$34.99, uluslararası kargo ücreti dahil) üretim başlangıcına kadar iptal edilebilir. Üretim başladıktan sonra, yazım metni kişiye özel olarak kesinleşeceğinden, basit fikir değişikliği nedeniyle iade kısıtlanabilir; yazım hatası, hasar, yanlış üretim veya teslimat sorunları tespit edildikten sonra uygun bir yöntemle değişim, yeniden üretim veya iade işlemi yapılacaktır.",
+            "İsim mühürü gibi kişiye özel üretilen ürünler (Yerel ₩39,000 / ₩59,000 / ₩79,000 · Yurt Dışı US$39.90 / US$59.90 / US$79.90, uluslararası kargo ücreti dahil) üretim başlangıcına kadar iptal edilebilir. Üretim başladıktan sonra, yazım metni kişiye özel olarak kesinleşeceğinden, basit fikir değişikliği nedeniyle iade kısıtlanabilir; yazım hatası, hasar, yanlış üretim veya teslimat sorunları tespit edildikten sonra uygun bir yöntemle değişim, yeniden üretim veya iade işlemi yapılacaktır.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Hangul İsim Ürünleri",
           paragraphs: [
-            "İsim mührü: Yerel ₩39,000 · Yurtdışı US$34.99 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
+            "İsim mührü: Yerel ₩39,000 / ₩59,000 / ₩79,000 · Yurtdışı US$39.90 / US$59.90 / US$79.90 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
           ],
         },
         {

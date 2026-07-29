@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Sa mga serbisyo ng pag-convert ng pandaigdigang pangalan, pag-convert ng pangalan sa Korean, at pag-transliterate ng pangalan sa Korean, maaaring mag-alok ng produkto na naglalantad ng lahat ng natitirang kandidato nang walang advertising sa isang pagkakataon (₩990 para sa domestic payment, US$1.99 para sa international payment). Bago ma-activate ang function ng pagbabayad, ang pagtingin ay limitado lamang sa gantimpala sa advertising.",
             "Para sa mga pandaigdigang gumagamit, ang mga digital na produkto ay ④ PDF ng komprehensibong ulat ng pangalan sa Korean (US$9.99): lahat ng inirekomendang kandidato na may pangalan ng font art, paliwanag ng kahulugan, at sanggunian sa fortune-telling ⑤ PDF ng art ng pag-convert ng pagbigkas sa Korean (US$2.99): art ng pangalan ng napiling font at gabay sa pagbigkas ⑥ PDF ng art pack ng pangalan (US$1.99): isang napiling pangalan na ibinibigay sa art ayon sa napiling font. Ang mga presyo ng bawat produkto at ang bilang ng mga font na inilapat ay sumusunod sa mga halagang nakasaad sa screen.",
             "Ang mga bayad na detalyadong ulat at resulta ng pagsusuri, PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagkumpleto ng pagbabayad, at awtomatikong mabubura pagkatapos ng panahon ng pag-iimbak.",
-            "Ang mga pisikal na produkto tulad ng pangalan ng selyo ay ibinibigay sa mga presyo at kondisyon ng produkto tulad ng ₩39,000 para sa domestic at US$34.99 (kasama ang internasyonal na pagpapadala). Lahat ng bayad na produkto ay may impormasyon tungkol sa nilalaman ng produkto, presyo, paraan ng pagbibigay, at mga kondisyon ng refund na nakasaad sa screen bago ang pagbabayad.",
+            "Ang mga pisikal na produkto tulad ng pangalan ng selyo ay ibinibigay sa mga presyo at kondisyon ng produkto tulad ng ₩39,000 / ₩59,000 / ₩79,000 para sa domestic at US$39.90 / US$59.90 / US$79.90 (kasama ang internasyonal na pagpapadala). Lahat ng bayad na produkto ay may impormasyon tungkol sa nilalaman ng produkto, presyo, paraan ng pagbibigay, at mga kondisyon ng refund na nakasaad sa screen bago ang pagbabayad.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Customized Goods (Tulad ng Name Stamp)",
           paragraphs: [
-            "Ang mga personal na customized na produkto (₩39,000 · US$34.99, kasama ang international shipping fee) ay maaaring kanselahin hanggang bago magsimula ang paggawa. Pagkatapos ng pagsisimula ng paggawa, ang inskripsyon ay nakumpirma na bilang personal na customized, kaya ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado, at ang mga pagkakamali sa pagbaybay, pinsala, maling paggawa o problema sa paghahatid ay ipoproseso sa pamamagitan ng palitan, muling paggawa, o refund batay sa angkop na paraan pagkatapos ng pagsusuri.",
+            "Ang mga personal na customized na produkto (₩39,000 / ₩59,000 / ₩79,000 · US$39.90 / US$59.90 / US$79.90, kasama ang international shipping fee) ay maaaring kanselahin hanggang bago magsimula ang paggawa. Pagkatapos ng pagsisimula ng paggawa, ang inskripsyon ay nakumpirma na bilang personal na customized, kaya ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado, at ang mga pagkakamali sa pagbaybay, pinsala, maling paggawa o problema sa paghahatid ay ipoproseso sa pamamagitan ng palitan, muling paggawa, o refund batay sa angkop na paraan pagkatapos ng pagsusuri.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Mga Produkto ng Pangalan sa Hangeul",
           paragraphs: [
-            "Timbangan ng pangalan: ₩39,000 para sa domestic · US$34.99 para sa international (kasama ang bayad sa internasyonal na pagpapadala). Ang iba pang mga pisikal na produkto ay magkakaroon ng hiwalay na abiso para sa presyo, bayad sa pagpapadala, at panahon ng paggawa.",
+            "Timbangan ng pangalan: ₩39,000 / ₩59,000 / ₩79,000 para sa domestic · US$39.90 / US$59.90 / US$79.90 para sa international (kasama ang bayad sa internasyonal na pagpapadala). Ang iba pang mga pisikal na produkto ay magkakaroon ng hiwalay na abiso para sa presyo, bayad sa pagpapadala, at panahon ng paggawa.",
           ],
         },
         {

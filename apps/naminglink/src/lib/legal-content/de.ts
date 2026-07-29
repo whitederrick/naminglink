@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Für die Dienstleistungen zur Umwandlung in globale Namen, Umwandlung in koreanische Namen und Transkription in koreanische Schrift kann ein Produkt angeboten werden, das alle verbleibenden Vorschläge ohne Werbung auf einmal offenlegt (Inlandszahlung ₩990, Auslandszahlung US$1.99). Vor der Aktivierung der Zahlungsfunktion wird nur die werbefinanzierte Einsicht angeboten.",
             "Für globale Nutzer werden digitale Produkte angeboten: ④ Umfassender Bericht über koreanische Namen als PDF (US$9.99): Auswahl der Schriftart, Namenskunst, Bedeutungsinterpretation und Referenz zu Schicksal und fünf Elementen ⑤ Kunst-PDF zur Umwandlung in koreanische Aussprache (US$2.99): Kunst des ausgewählten Namens und Ausspracheanleitung ⑥ Kunstpaket-PDF (US$1.99): Bereitstellung eines ausgewählten Namens in verschiedenen Schriftarten. Die Preise und die Anzahl der angewendeten Schriftarten jedes Produkts richten sich nach den auf dem Bildschirm angegebenen Werten.",
             "Kostenpflichtige detaillierte Berichte und Analyseergebnisse sowie PDF-Dateien können innerhalb von 24 Stunden nach Abschluss der Zahlung erneut eingesehen und heruntergeladen werden; nach Ablauf der Aufbewahrungsfrist werden sie automatisch gelöscht.",
-            "Physische Waren wie Namensstempel werden zu Preisen und Bedingungen angeboten, die inländisch ₩39,000 und international US$34.99 (einschließlich internationaler Versandkosten) betragen. Alle kostenpflichtigen Produkte zeigen vor der Zahlung die Produktinhalte, Preise, Bereitstellungsarten und Rückgabebedingungen auf dem Bildschirm an.",
+            "Physische Waren wie Namensstempel werden zu Preisen und Bedingungen angeboten, die inländisch ₩39,000 / ₩59,000 / ₩79,000 und international US$39.90 / US$59.90 / US$79.90 (einschließlich internationaler Versandkosten) betragen. Alle kostenpflichtigen Produkte zeigen vor der Zahlung die Produktinhalte, Preise, Bereitstellungsarten und Rückgabebedingungen auf dem Bildschirm an.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Maßgeschneiderte Produkte (z. B. Namensstempel)",
           paragraphs: [
-            "Personalisierte Produkte wie Namensstempel (inländisch ₩39,000 · international US$34.99, einschließlich internationaler Versandkosten) können bis zum Produktionsbeginn storniert werden. Nach Produktionsbeginn ist der eingravierte Text personalisiert und daher kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein; Tippfehler, Beschädigungen, fehlerhafte Produktion oder Versandprobleme werden nach Überprüfung durch Austausch, Neuproduktion oder Rückerstattung entsprechend behandelt.",
+            "Personalisierte Produkte wie Namensstempel (inländisch ₩39,000 / ₩59,000 / ₩79,000 · international US$39.90 / US$59.90 / US$79.90, einschließlich internationaler Versandkosten) können bis zum Produktionsbeginn storniert werden. Nach Produktionsbeginn ist der eingravierte Text personalisiert und daher kann eine Rückerstattung aufgrund von einfacher Meinungsänderung eingeschränkt sein; Tippfehler, Beschädigungen, fehlerhafte Produktion oder Versandprobleme werden nach Überprüfung durch Austausch, Neuproduktion oder Rückerstattung entsprechend behandelt.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Koreanische Namenswaren",
           paragraphs: [
-            "Namensstempel: Inlands ₩39,000 · Ausland US$34.99 (einschließlich internationaler Versandkosten). Andere physische Waren haben separate Preise, Versandkosten und Produktionszeiten, die gesondert angegeben werden.",
+            "Namensstempel: Inlands ₩39,000 / ₩59,000 / ₩79,000 · Ausland US$39.90 / US$59.90 / US$79.90 (einschließlich internationaler Versandkosten). Andere physische Waren haben separate Preise, Versandkosten und Produktionszeiten, die gesondert angegeben werden.",
           ],
         },
         {

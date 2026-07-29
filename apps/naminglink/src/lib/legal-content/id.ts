@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Dalam layanan konversi nama global, konversi nama Korea, dan penulisan pengucapan Hangul, produk yang menampilkan semua kandidat yang tersisa tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negeri US$1.99) dapat tersedia. Sebelum fungsi pembayaran diaktifkan, hanya akses berbasis iklan yang akan disediakan.",
             "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama dalam Hangul PDF (US$9.99): Seni nama dengan font yang direkomendasikan, penjelasan makna, dan referensi Saju Oheong ⑤ Seni konversi pengucapan Hangul PDF (US$2.99): Seni nama dengan font yang dipilih dan panduan pengucapan ⑥ Paket seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan font yang dipilih. Harga dan jumlah font yang diterapkan untuk setiap produk mengikuti nilai yang tertera di layar.",
             "Laporan rinci berbayar dan hasil analisis, file PDF dapat dilihat dan diunduh kembali dalam waktu 24 jam setelah pembayaran selesai, dan akan dihapus secara otomatis setelah masa penyimpanan berakhir.",
-            "Barang fisik seperti stempel nama disediakan dengan harga masing-masing ₩39,000 untuk domestik dan US$34.99 (termasuk biaya pengiriman internasional). Semua produk berbayar akan diinformasikan tentang isi produk, harga, cara penyediaan, dan syarat pengembalian sebelum pembayaran.",
+            "Barang fisik seperti stempel nama disediakan dengan harga masing-masing ₩39,000 / ₩59,000 / ₩79,000 untuk domestik dan US$39.90 / US$59.90 / US$79.90 (termasuk biaya pengiriman internasional). Semua produk berbayar akan diinformasikan tentang isi produk, harga, cara penyediaan, dan syarat pengembalian sebelum pembayaran.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Barang Kustom (Stempel Nama, dll.)",
           paragraphs: [
-            "Barang kustom seperti stempel nama (₩39,000 dalam negeri · US$34.99 luar negeri, termasuk biaya pengiriman internasional) dapat dibatalkan hingga sebelum produksi dimulai. Setelah produksi dimulai, karena frasa yang diukir telah ditentukan secara pribadi, pengembalian dana karena perubahan pikiran dapat dibatasi, dan kesalahan ketik, kerusakan, kesalahan produksi, atau masalah pengiriman akan diproses dengan cara yang sesuai antara pertukaran, pembuatan ulang, atau pengembalian dana setelah diperiksa.",
+            "Barang kustom seperti stempel nama (₩39,000 / ₩59,000 / ₩79,000 dalam negeri · US$39.90 / US$59.90 / US$79.90 luar negeri, termasuk biaya pengiriman internasional) dapat dibatalkan hingga sebelum produksi dimulai. Setelah produksi dimulai, karena frasa yang diukir telah ditentukan secara pribadi, pengembalian dana karena perubahan pikiran dapat dibatasi, dan kesalahan ketik, kerusakan, kesalahan produksi, atau masalah pengiriman akan diproses dengan cara yang sesuai antara pertukaran, pembuatan ulang, atau pengembalian dana setelah diperiksa.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Barang-barang Nama dalam Hangul",
           paragraphs: [
-            "Stempel nama: domestik ₩39,000 · luar negeri US$34.99 (termasuk biaya pengiriman internasional). Barang fisik lainnya akan diinformasikan harga, biaya pengiriman, dan waktu produksi secara terpisah.",
+            "Stempel nama: domestik ₩39,000 / ₩59,000 / ₩79,000 · luar negeri US$39.90 / US$59.90 / US$79.90 (termasuk biaya pengiriman internasional). Barang fisik lainnya akan diinformasikan harga, biaya pengiriman, dan waktu produksi secara terpisah.",
           ],
         },
         {

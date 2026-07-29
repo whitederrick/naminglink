@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (₩990 domestic, US$1.99 international) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
             "Digital products for global users include: (4) Korean Name Report PDF (US$9.99): name art in your chosen typeface for all recommended candidates, meaning explanations, and a Five Elements (Saju) reference; (5) Hangul Pronunciation Art PDF (US$2.99): name art in your chosen typeface with a pronunciation guide; (6) Name Art Pack PDF (US$1.99): one chosen name rendered as art in each typeface you pick. The price and number of typefaces for each product follow the values shown on screen.",
             "Paid detailed reports, analysis results, and PDF files remain available for viewing and download for 24 hours after payment, after which they are automatically deleted.",
-            "Physical merchandise such as name stamps is offered at per-product prices and conditions (₩39,000 domestic, US$34.99 international with shipping included). For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
+            "Physical merchandise such as name stamps is offered at per-product prices and conditions (₩39,000 / ₩59,000 / ₩79,000 domestic, US$39.90 / US$59.90 / US$79.90 international with shipping included). For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
           ],
         },
         {
@@ -163,7 +163,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Custom-Made Merchandise (Name Stamps, etc.)",
           paragraphs: [
-            "Personalized items such as name stamps (₩39,000 domestic / US$34.99 international, shipping included) can be cancelled until production begins. After production begins the engraved text is personalized, so refunds for a simple change of mind may be restricted; typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
+            "Personalized items such as name stamps (₩39,000 / ₩59,000 / ₩79,000 domestic / US$39.90 / US$59.90 / US$79.90 international, shipping included) can be cancelled until production begins. After production begins the engraved text is personalized, so refunds for a simple change of mind may be restricted; typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
           ],
         },
         {
@@ -223,7 +223,7 @@ const content: LegalLocaleContent = {
         {
           title: "Korean Name Merchandise",
           paragraphs: [
-            "Name stamp: ₩39,000 domestic / US$34.99 international (shipping included). Other physical merchandise is announced separately with per-product prices, shipping fees, and production times.",
+            "Name stamp: ₩39,000 / ₩59,000 / ₩79,000 domestic / US$39.90 / US$59.90 / US$79.90 international (shipping included). Other physical merchandise is announced separately with per-product prices, shipping fees, and production times.",
           ],
         },
         {

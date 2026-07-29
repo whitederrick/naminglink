@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Pour les services de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en coréen, un produit peut être proposé pour révéler tous les candidats restants sans publicité en une seule fois (₩990 pour les paiements nationaux, US$1.99 pour les paiements internationaux). Avant l'activation de la fonction de paiement, seule la consultation avec compensation publicitaire est disponible.",
             "Pour les utilisateurs globaux, les produits numériques suivants sont proposés : ④ Rapport complet sur les noms en coréen PDF (US$9.99) : Art des noms des candidats recommandés, explication des significations et références aux quatre piliers et aux cinq éléments ⑤ Art de conversion phonétique en coréen PDF (US99.$2) : Art des noms avec police choisie et guide de prononciation ⑥ Pack d'art de noms PDF (US$1.99) : Fourniture d'un art pour un nom choisi selon la police sélectionnée. Les prix et le nombre de polices appliquées pour chaque produit sont conformes aux valeurs affichées à l'écran.",
             "Les rapports détaillés payants et les résultats d'analyse, ainsi que les fichiers PDF, peuvent être consultés et téléchargés à nouveau pendant 24 heures après le paiement, et seront automatiquement supprimés après la période de conservation.",
-            "Les produits physiques tels que les tampons de nom sont proposés à des prix et conditions spécifiques, notamment ₩39,000 en Corée et US$34.99 à l'étranger (frais de livraison internationale inclus). Tous les produits payants affichent les détails du produit, le prix, le mode de fourniture et les conditions de remboursement à l'écran avant le paiement.",
+            "Les produits physiques tels que les tampons de nom sont proposés à des prix et conditions spécifiques, notamment ₩39,000 / ₩59,000 / ₩79,000 en Corée et US$39.90 / US$59.90 / US$79.90 à l'étranger (frais de livraison internationale inclus). Tous les produits payants affichent les détails du produit, le prix, le mode de fourniture et les conditions de remboursement à l'écran avant le paiement.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Produits personnalisés (tampons de nom, etc.)",
           paragraphs: [
-            "Les articles personnalisés tels que les tampons de nom (₩39,000 en Corée · US$34.99 à l'étranger, frais de livraison internationale inclus) peuvent être annulés jusqu'à avant le début de la production. Après le début de la production, le texte gravé est confirmé de manière personnalisée, donc le remboursement pour simple changement d'avis peut être limité, et les erreurs de frappe, les dommages, les erreurs de production ou les problèmes de livraison seront traités de manière appropriée par échange, nouvelle production ou remboursement après vérification.",
+            "Les articles personnalisés tels que les tampons de nom (₩39,000 / ₩59,000 / ₩79,000 en Corée · US$39.90 / US$59.90 / US$79.90 à l'étranger, frais de livraison internationale inclus) peuvent être annulés jusqu'à avant le début de la production. Après le début de la production, le texte gravé est confirmé de manière personnalisée, donc le remboursement pour simple changement d'avis peut être limité, et les erreurs de frappe, les dommages, les erreurs de production ou les problèmes de livraison seront traités de manière appropriée par échange, nouvelle production ou remboursement après vérification.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Produits dérivés de noms en hangeul",
           paragraphs: [
-            "Tampon de nom : ₩39,000 en national · US$34.99 à l'international (frais de livraison internationale inclus). D'autres produits physiques auront des prix, frais de livraison et délais de production indiqués séparément.",
+            "Tampon de nom : ₩39,000 / ₩59,000 / ₩79,000 en national · US$39.90 / US$59.90 / US$79.90 à l'international (frais de livraison internationale inclus). D'autres produits physiques auront des prix, frais de livraison et délais de production indiqués séparément.",
           ],
         },
         {

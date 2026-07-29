@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em coreano, pode ser oferecido um produto que revela todos os candidatos restantes de uma só vez, sem anúncios (pagamento nacional ₩990, pagamento internacional US$1.99). Antes da ativação da função de pagamento, apenas a visualização com recompensa publicitária está disponível.",
             "Para usuários globais, os produtos digitais incluem ④ Relatório completo em PDF de nomes em coreano (US$9.99): arte do nome da fonte escolhida, interpretação de significados e referências de cinco elementos e destino ⑤ Arte em PDF de conversão de pronúncia em coreano (US$2.99): arte do nome da fonte escolhida e guia de pronúncia ⑥ Pacote de arte de nomes em PDF (US$1.99): fornecido como arte em diferentes fontes para um nome escolhido. Os preços de cada produto e o número de fontes aplicáveis seguem os valores informados na tela.",
             "Os relatórios detalhados pagos e os resultados de análise, bem como os arquivos PDF, podem ser visualizados e baixados novamente por 24 horas após a conclusão do pagamento, e serão excluídos automaticamente após o período de armazenamento.",
-            "Produtos físicos como carimbos de nome são oferecidos a preços e condições específicas, como ₩39,000 no país e US$34.99 no exterior (incluindo frete internacional). Todos os produtos pagos informam o conteúdo do produto, preço, forma de fornecimento e condições de reembolso na tela antes do pagamento.",
+            "Produtos físicos como carimbos de nome são oferecidos a preços e condições específicas, como ₩39,000 / ₩59,000 / ₩79,000 no país e US$39.90 / US$59.90 / US$79.90 no exterior (incluindo frete internacional). Todos os produtos pagos informam o conteúdo do produto, preço, forma de fornecimento e condições de reembolso na tela antes do pagamento.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Produtos Personalizados (como carimbos de nome)",
           paragraphs: [
-            "Produtos personalizados (como carimbos de nome) (₩39,000 no país · US$34.99 no exterior, incluindo frete internacional) podem ser cancelados até o início da produção. Após o início da produção, como a frase de gravação é confirmada como personalizada, o reembolso por simples mudança de ideia pode ser restrito, e erros de digitação, danos, produção incorreta ou problemas de entrega serão tratados de forma adequada entre troca, reedição ou reembolso após verificação.",
+            "Produtos personalizados (como carimbos de nome) (₩39,000 / ₩59,000 / ₩79,000 no país · US$39.90 / US$59.90 / US$79.90 no exterior, incluindo frete internacional) podem ser cancelados até o início da produção. Após o início da produção, como a frase de gravação é confirmada como personalizada, o reembolso por simples mudança de ideia pode ser restrito, e erros de digitação, danos, produção incorreta ou problemas de entrega serão tratados de forma adequada entre troca, reedição ou reembolso após verificação.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Produtos de Nome em Hangul",
           paragraphs: [
-            "Carimbo de nome: ₩39,000 no país · US$34.99 no exterior (incluindo frete internacional). Outros produtos físicos têm preços, custos de envio e prazos de produção informados separadamente.",
+            "Carimbo de nome: ₩39,000 / ₩59,000 / ₩79,000 no país · US$39.90 / US$59.90 / US$79.90 no exterior (incluindo frete internacional). Outros produtos físicos têm preços, custos de envio e prazos de produção informados separadamente.",
           ],
         },
         {

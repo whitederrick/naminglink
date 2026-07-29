@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penyataan sebutan Hangul mungkin menawarkan produk yang mendedahkan semua calon yang tinggal tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
             "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama Hangul dalam PDF (US$9.99): Seni nama jenis huruf untuk semua calon yang dicadangkan, penjelasan makna, dan rujukan nasib elemen ⑤ Seni PDF penukaran sebutan Hangul (US$2.99): Seni nama jenis huruf yang dipilih dan panduan sebutan ⑥ Pakej seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan jenis huruf yang dipilih. Harga dan bilangan jenis huruf yang dikenakan untuk setiap produk adalah mengikut nilai yang dipaparkan di skrin.",
             "Laporan terperinci berbayar dan hasil analisis, fail PDF boleh dibuka semula dan dimuat turun dalam tempoh 24 jam selepas pembayaran selesai, dan akan dipadam secara automatik selepas tempoh penyimpanan tamat.",
-            "Barang fizikal seperti cap nama disediakan dengan harga domestik ₩39,000, luar negara US$34.99 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
+            "Barang fizikal seperti cap nama disediakan dengan harga domestik ₩39,000 / ₩59,000 / ₩79,000, luar negara US$39.90 / US$59.90 / US$79.90 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Barangan Buatan Khusus (stempel nama dan lain-lain)",
           paragraphs: [
-            "Barangan buatan khusus seperti stempel nama (₩39,000 dalam negara · US$34.99 luar negara, termasuk kos penghantaran antarabangsa) boleh dibatalkan sehingga sebelum pengeluaran dimulakan. Setelah pengeluaran dimulakan, frasa ukiran akan disahkan secara peribadi, jadi pemulangan atas alasan perubahan fikiran mungkin terhad, dan kesalahan cetakan, kerosakan, pengeluaran salah, atau masalah penghantaran akan diproses dengan cara yang sesuai melalui pertukaran, pengeluaran semula, atau pemulangan setelah disahkan.",
+            "Barangan buatan khusus seperti stempel nama (₩39,000 / ₩59,000 / ₩79,000 dalam negara · US$39.90 / US$59.90 / US$79.90 luar negara, termasuk kos penghantaran antarabangsa) boleh dibatalkan sehingga sebelum pengeluaran dimulakan. Setelah pengeluaran dimulakan, frasa ukiran akan disahkan secara peribadi, jadi pemulangan atas alasan perubahan fikiran mungkin terhad, dan kesalahan cetakan, kerosakan, pengeluaran salah, atau masalah penghantaran akan diproses dengan cara yang sesuai melalui pertukaran, pengeluaran semula, atau pemulangan setelah disahkan.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Barangan Nama Hangul",
           paragraphs: [
-            "Stempel nama: domestik ₩39,000 · luar negara US$34.99 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
+            "Stempel nama: domestik ₩39,000 / ₩59,000 / ₩79,000 · luar negara US$39.90 / US$59.90 / US$79.90 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
           ],
         },
         {

@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "En los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en coreano, puede ofrecerse un producto que revela todos los candidatos restantes sin publicidad de una sola vez (pago nacional ₩990, pago internacional US$1.99). Antes de activar la función de pago, solo se ofrecerá la visualización con compensación publicitaria.",
             "Como productos digitales para usuarios globales, ④ Informe completo en PDF de nombres en coreano (US$9.99): arte del nombre de la fuente seleccionada, interpretación de significados y referencia de los cinco elementos ⑤ Arte en PDF de conversión de pronunciación en coreano (US$2.99): arte del nombre de la fuente seleccionada y guía de pronunciación ⑥ Paquete de arte de nombres en PDF (US$1.99): un nombre seleccionado proporcionado como arte en diferentes fuentes. Los precios de cada producto y el número de fuentes aplicables se basan en los valores indicados en la pantalla.",
             "Los informes detallados de pago y los resultados de análisis, así como los archivos PDF, se pueden volver a visualizar y descargar durante 24 horas después de completar el pago, y se eliminarán automáticamente después de que expire el período de retención.",
-            "Los productos físicos como sellos de nombres se ofrecen a precios y condiciones por producto, como ₩39,000 en Corea y US$34.99 (incluido el costo de envío internacional). Todos los productos de pago mostrarán en pantalla el contenido del producto, precio, método de entrega y condiciones de reembolso antes del pago.",
+            "Los productos físicos como sellos de nombres se ofrecen a precios y condiciones por producto, como ₩39,000 / ₩59,000 / ₩79,000 en Corea y US$39.90 / US$59.90 / US$79.90 (incluido el costo de envío internacional). Todos los productos de pago mostrarán en pantalla el contenido del producto, precio, método de entrega y condiciones de reembolso antes del pago.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Productos Personalizados (Sellos de Nombre, etc.)",
           paragraphs: [
-            "Los artículos personalizados como sellos de nombre (₩39,000 en Corea · US$34.99 en el extranjero, incluyendo el costo de envío internacional) se pueden cancelar hasta antes de que comience la producción. Después de que comience la producción, dado que el texto grabado se confirma como personalizado, el reembolso por simple cambio de opinión puede estar restringido, y los errores tipográficos, daños, errores de producción o problemas de envío se manejarán de manera adecuada mediante intercambio, re-producción o reembolso tras la verificación.",
+            "Los artículos personalizados como sellos de nombre (₩39,000 / ₩59,000 / ₩79,000 en Corea · US$39.90 / US$59.90 / US$79.90 en el extranjero, incluyendo el costo de envío internacional) se pueden cancelar hasta antes de que comience la producción. Después de que comience la producción, dado que el texto grabado se confirma como personalizado, el reembolso por simple cambio de opinión puede estar restringido, y los errores tipográficos, daños, errores de producción o problemas de envío se manejarán de manera adecuada mediante intercambio, re-producción o reembolso tras la verificación.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Productos de Merchandising de Nombres en Hangul",
           paragraphs: [
-            "Sello de nombre: ₩39,000 en el país · US$34.99 en el extranjero (incluido el costo de envío internacional). Otros productos físicos tendrán precios, costos de envío y plazos de producción indicados por separado.",
+            "Sello de nombre: ₩39,000 / ₩59,000 / ₩79,000 en el país · US$39.90 / US$59.90 / US$79.90 en el extranjero (incluido el costo de envío internacional). Otros productos físicos tendrán precios, costos de envío y plazos de producción indicados por separado.",
           ],
         },
         {

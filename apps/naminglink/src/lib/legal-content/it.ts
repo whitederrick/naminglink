@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Nei servizi di conversione di nomi globali, conversione di nomi coreani e trascrizione fonetica in coreano, può essere offerto un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale ₩990, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con compenso pubblicitario.",
             "Per gli utenti globali, i prodotti digitali comprendono ④ PDF del rapporto completo sui nomi in coreano (US$9.99): arte del nome con caratteri consigliati, interpretazione del significato e riferimento all'analisi del destino e degli elementi ⑤ PDF dell'arte di conversione della pronuncia in coreano (US$2.99): arte del nome con caratteri scelti e guida alla pronuncia ⑥ PDF del pacchetto di arte del nome (US$1.99): fornitura di un nome scelto in arte con caratteri selezionati. I prezzi e il numero di caratteri applicabili per ciascun prodotto seguono i valori indicati sullo schermo.",
             "I rapporti dettagliati a pagamento e i risultati delle analisi, i file PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il completamento del pagamento e verranno eliminati automaticamente dopo il periodo di conservazione.",
-            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come ₩39,000 in Corea e US$34.99 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
+            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come ₩39,000 / ₩59,000 / ₩79,000 in Corea e US$39.90 / US$59.90 / US$79.90 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Prodotti personalizzati (timbri per nomi, ecc.)",
           paragraphs: [
-            "I prodotti personalizzati come i timbri per nomi (₩39,000 in Corea · US$34.99 all'estero, spese di spedizione internazionale incluse) possono essere annullati fino all'inizio della produzione. Dopo l'inizio della produzione, poiché la frase di incisione viene confermata in modo personalizzato, il rimborso per semplice ripensamento potrebbe essere limitato, mentre errori di battitura, danni, produzione errata o problemi di spedizione verranno gestiti in modo appropriato tramite scambio, riemissione o rimborso dopo verifica.",
+            "I prodotti personalizzati come i timbri per nomi (₩39,000 / ₩59,000 / ₩79,000 in Corea · US$39.90 / US$59.90 / US$79.90 all'estero, spese di spedizione internazionale incluse) possono essere annullati fino all'inizio della produzione. Dopo l'inizio della produzione, poiché la frase di incisione viene confermata in modo personalizzato, il rimborso per semplice ripensamento potrebbe essere limitato, mentre errori di battitura, danni, produzione errata o problemi di spedizione verranno gestiti in modo appropriato tramite scambio, riemissione o rimborso dopo verifica.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Merchandising di nomi in Hangul",
           paragraphs: [
-            "Timbro con nome: ₩39,000 in Corea · US$34.99 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
+            "Timbro con nome: ₩39,000 / ₩59,000 / ₩79,000 in Corea · US$39.90 / US$59.90 / US$79.90 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
           ],
         },
         {

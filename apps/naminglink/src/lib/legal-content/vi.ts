@@ -40,7 +40,7 @@ const content: LegalLocaleContent = {
             "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm tên bằng Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng cử viên còn lại mà không có quảng cáo (thanh toán trong nước ₩990, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp hình thức xem xét theo quảng cáo.",
             "Sản phẩm kỹ thuật số cho người dùng toàn cầu bao gồm ④ Báo cáo tổng hợp tên Hàn Quốc PDF (US$9.99): nghệ thuật tên phông chữ được đề xuất, giải thích ý nghĩa, tham khảo bát tự và ngũ hành ⑤ Nghệ thuật chuyển đổi âm Hàn Quốc PDF (US$2.99): nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm ⑥ Gói nghệ thuật tên PDF (US$1.99): cung cấp một tên đã chọn dưới dạng nghệ thuật theo từng phông chữ. Giá cả và số lượng phông chữ áp dụng cho từng sản phẩm sẽ theo giá trị được thông báo trên màn hình.",
             "Báo cáo chi tiết trả phí và kết quả phân tích, tệp PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi hoàn tất thanh toán, và sẽ tự động bị xóa sau thời gian lưu trữ.",
-            "Hàng hóa vật lý như con dấu tên được cung cấp với giá ₩39,000 trong nước, US$34.99 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
+            "Hàng hóa vật lý như con dấu tên được cung cấp với giá ₩39,000 / ₩59,000 / ₩79,000 trong nước, US$39.90 / US$59.90 / US$79.90 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
           ],
         },
         {
@@ -165,7 +165,7 @@ const content: LegalLocaleContent = {
         {
           title: "5. Hàng hóa tùy chỉnh (như con dấu tên)",
           paragraphs: [
-            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (₩39,000 trong nước · US$34.99 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
+            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (₩39,000 / ₩59,000 / ₩79,000 trong nước · US$39.90 / US$59.90 / US$79.90 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const content: LegalLocaleContent = {
         {
           title: "Hàng hóa tên Hàn Quốc",
           paragraphs: [
-            "Con dấu tên: Trong nước ₩39,000 · Quốc tế US$34.99 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
+            "Con dấu tên: Trong nước ₩39,000 / ₩59,000 / ₩79,000 · Quốc tế US$39.90 / US$59.90 / US$79.90 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
           ],
         },
         {
