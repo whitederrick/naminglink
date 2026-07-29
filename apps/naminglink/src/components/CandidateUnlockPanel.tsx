@@ -19,8 +19,9 @@ type UnlockCopy = {
   watching: string;
   watchButton: string;
   hanjaProductsLink: string;
-  bulkButton: string;
+  /** 살 수 없을 때의 버튼 라벨. **가격이 들어가면 안 된다** — 팔지 않는 값을 노출하게 된다. */
   bulkPreparing: string;
+  /** 살 수 있을 때의 버튼 라벨. `{price}`는 DB에서 온 표시 가격으로 바뀐다. */
   bulkButtonReady: string;
   bulkPaying: string;
   bulkFailed: string;
@@ -37,10 +38,11 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watchingNote: (seconds) => `광고 확인 후 후보 1개를 엽니다. ${seconds}초`,
     watching: "광고 확인 중",
     watchButton: "광고 보고 다음 후보 열기",
-    hanjaProductsLink: "전체 후보 상품 보기 · 2,900원부터",
-    bulkButton: "전체 후보 일괄 공개 · 990원 (준비 중)",
+    // 금액을 적지 않는다. 이 링크가 가리키는 상품표는 DB 가격을 그리고 판매 중이 아니면
+    // "판매 준비 중"으로 바뀌는데, 여기에 "2,900원부터"가 박혀 있으면 그와 어긋난다.
+    hanjaProductsLink: "전체 후보 상품 보기",
     bulkPreparing: "결제 기능 준비 중입니다.",
-    bulkButtonReady: "전체 후보 일괄 공개 · 990원",
+    bulkButtonReady: "전체 후보 일괄 공개 · {price}",
     bulkPaying: "결제 진행 중…",
     bulkFailed: "결제가 완료되지 않았습니다. 다시 시도해 주세요.",
   },
@@ -55,9 +57,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Đang xem quảng cáo",
     watchButton: "Xem quảng cáo để mở ứng viên tiếp theo",
     hanjaProductsLink: "Xem gói toàn bộ ứng viên · từ ₩2.900",
-    bulkButton: "Mở toàn bộ ứng viên · US$1.99 (sắp ra mắt)",
     bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
-    bulkButtonReady: "Mở toàn bộ ứng viên · US$1.99",
+    bulkButtonReady: "Mở toàn bộ ứng viên · {price}",
     bulkPaying: "Đang xử lý thanh toán…",
     bulkFailed: "Thanh toán chưa hoàn tất. Vui lòng thử lại.",
   },
@@ -72,9 +73,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "กำลังชมโฆษณา",
     watchButton: "ชมโฆษณาเพื่อเปิดชื่อที่แนะนำถัดไป",
     hanjaProductsLink: "ดูแพ็กเกจชื่อที่แนะนำทั้งหมด · เริ่มต้น ₩2,900",
-    bulkButton: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · US$1.99 (เร็ว ๆ นี้)",
     bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
-    bulkButtonReady: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · US$1.99",
+    bulkButtonReady: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · {price}",
     bulkPaying: "กำลังดำเนินการชำระเงิน…",
     bulkFailed: "การชำระเงินยังไม่เสร็จสิ้น กรุณาลองอีกครั้ง",
   },
@@ -89,9 +89,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "広告を確認中",
     watchButton: "広告を見て次の候補を開く",
     hanjaProductsLink: "全候補の商品を見る · ₩2,900から",
-    bulkButton: "全候補を一括公開 · US$1.99（準備中）",
     bulkPreparing: "決済機能は準備中です。",
-    bulkButtonReady: "全候補を一括公開 · US$1.99",
+    bulkButtonReady: "全候補を一括公開 · {price}",
     bulkPaying: "決済処理中…",
     bulkFailed: "決済が完了しませんでした。もう一度お試しください。",
   },
@@ -106,9 +105,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "正在观看广告",
     watchButton: "观看广告解锁下一个候选名字",
     hanjaProductsLink: "查看全部候选产品 · ₩2,900 起",
-    bulkButton: "一次性解锁全部候选名字 · US$1.99（即将上线）",
     bulkPreparing: "支付功能即将上线。",
-    bulkButtonReady: "一次性解锁全部候选名字 · US$1.99",
+    bulkButtonReady: "一次性解锁全部候选名字 · {price}",
     bulkPaying: "正在处理付款…",
     bulkFailed: "付款未完成，请重试。",
   },
@@ -123,9 +121,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka kandidat berikutnya",
     hanjaProductsLink: "Lihat produk seluruh kandidat · mulai ₩2,900",
-    bulkButton: "Buka seluruh kandidat sekaligus · US$1.99 (segera hadir)",
     bulkPreparing: "Fitur pembayaran segera hadir.",
-    bulkButtonReady: "Buka seluruh kandidat sekaligus · US$1.99",
+    bulkButtonReady: "Buka seluruh kandidat sekaligus · {price}",
     bulkPaying: "Memproses pembayaran…",
     bulkFailed: "Pembayaran belum selesai. Silakan coba lagi.",
   },
@@ -140,9 +137,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Werbung läuft",
     watchButton: "Werbung ansehen und nächsten Kandidaten freischalten",
     hanjaProductsLink: "Alle Kandidaten-Produkte ansehen · ab ₩2,900",
-    bulkButton: "Alle Kandidaten freischalten · US$1.99 (in Vorbereitung)",
     bulkPreparing: "Die Zahlungsfunktion ist in Vorbereitung.",
-    bulkButtonReady: "Alle Kandidaten freischalten · US$1.99",
+    bulkButtonReady: "Alle Kandidaten freischalten · {price}",
     bulkPaying: "Zahlung wird verarbeitet…",
     bulkFailed: "Die Zahlung wurde nicht abgeschlossen. Bitte versuchen Sie es erneut.",
   },
@@ -157,9 +153,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Viendo el anuncio",
     watchButton: "Ver un anuncio para desbloquear el siguiente candidato",
     hanjaProductsLink: "Ver productos con todos los candidatos · desde ₩2,900",
-    bulkButton: "Desbloquear todos los candidatos · US$1.99 (próximamente)",
     bulkPreparing: "El pago estará disponible próximamente.",
-    bulkButtonReady: "Desbloquear todos los candidatos · US$1.99",
+    bulkButtonReady: "Desbloquear todos los candidatos · {price}",
     bulkPaying: "Procesando el pago…",
     bulkFailed: "El pago no se completó. Inténtalo de nuevo.",
   },
@@ -174,9 +169,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Publicité en cours",
     watchButton: "Regarder une publicité pour dévoiler le candidat suivant",
     hanjaProductsLink: "Voir les offres tous candidats · à partir de ₩2,900",
-    bulkButton: "Débloquer tous les candidats · US$1.99 (bientôt)",
     bulkPreparing: "Le paiement sera bientôt disponible.",
-    bulkButtonReady: "Débloquer tous les candidats · US$1.99",
+    bulkButtonReady: "Débloquer tous les candidats · {price}",
     bulkPaying: "Paiement en cours…",
     bulkFailed: "Le paiement n'a pas été finalisé. Veuillez réessayer.",
   },
@@ -191,9 +185,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Annuncio in corso",
     watchButton: "Guarda un annuncio per sbloccare il prossimo candidato",
     hanjaProductsLink: "Vedi i prodotti con tutti i candidati · da ₩2,900",
-    bulkButton: "Sblocca tutti i candidati · US$1.99 (in arrivo)",
     bulkPreparing: "Il pagamento sarà presto disponibile.",
-    bulkButtonReady: "Sblocca tutti i candidati · US$1.99",
+    bulkButtonReady: "Sblocca tutti i candidati · {price}",
     bulkPaying: "Pagamento in corso…",
     bulkFailed: "Il pagamento non è stato completato. Riprova.",
   },
@@ -208,9 +201,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Assistindo ao anúncio",
     watchButton: "Assistir a um anúncio para revelar o próximo candidato",
     hanjaProductsLink: "Ver produtos com todos os candidatos · a partir de ₩2,900",
-    bulkButton: "Desbloquear todos os candidatos · US$1.99 (em breve)",
     bulkPreparing: "O pagamento estará disponível em breve.",
-    bulkButtonReady: "Desbloquear todos os candidatos · US$1.99",
+    bulkButtonReady: "Desbloquear todos os candidatos · {price}",
     bulkPaying: "Processando o pagamento…",
     bulkFailed: "O pagamento não foi concluído. Tente novamente.",
   },
@@ -225,9 +217,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Просмотр рекламы",
     watchButton: "Посмотреть рекламу и открыть следующий вариант",
     hanjaProductsLink: "Смотреть продукты со всеми вариантами · от ₩2,900",
-    bulkButton: "Открыть все варианты · US$1.99 (скоро)",
     bulkPreparing: "Оплата скоро появится.",
-    bulkButtonReady: "Открыть все варианты · US$1.99",
+    bulkButtonReady: "Открыть все варианты · {price}",
     bulkPaying: "Обработка платежа…",
     bulkFailed: "Платёж не был завершён. Попробуйте ещё раз.",
   },
@@ -242,9 +233,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "جارٍ مشاهدة الإعلان",
     watchButton: "شاهد إعلانًا لكشف المرشح التالي",
     hanjaProductsLink: "عرض منتجات جميع المرشحات · ابتداءً من ₩2,900",
-    bulkButton: "فتح جميع المرشحات · US$1.99 (قريبًا)",
     bulkPreparing: "الدفع متاح قريبًا.",
-    bulkButtonReady: "فتح جميع المرشحات · US$1.99",
+    bulkButtonReady: "فتح جميع المرشحات · {price}",
     bulkPaying: "جارٍ معالجة الدفع…",
     bulkFailed: "لم يكتمل الدفع. يرجى المحاولة مرة أخرى.",
   },
@@ -259,9 +249,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Reklam izleniyor",
     watchButton: "Bir sonraki adayı açmak için reklam izleyin",
     hanjaProductsLink: "Tüm aday ürünlerini gör · ₩2,900'dan itibaren",
-    bulkButton: "Tüm adayları aç · US$1.99 (yakında)",
     bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
-    bulkButtonReady: "Tüm adayları aç · US$1.99",
+    bulkButtonReady: "Tüm adayları aç · {price}",
     bulkPaying: "Ödeme işleniyor…",
     bulkFailed: "Ödeme tamamlanmadı. Lütfen tekrar deneyin.",
   },
@@ -276,9 +265,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Nanonood ng ad",
     watchButton: "Manood ng ad para buksan ang susunod na kandidato",
     hanjaProductsLink: "Tingnan ang mga produkto ng buong kandidato · mula ₩2,900",
-    bulkButton: "Buksan ang lahat ng kandidato · US$1.99 (malapit na)",
     bulkPreparing: "Malapit nang magbukas ang pagbabayad.",
-    bulkButtonReady: "Buksan ang lahat ng kandidato · US$1.99",
+    bulkButtonReady: "Buksan ang lahat ng kandidato · {price}",
     bulkPaying: "Pinoproseso ang bayad…",
     bulkFailed: "Hindi natapos ang bayad. Pakisubukang muli.",
   },
@@ -293,9 +281,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Reklama ko‘rilmoqda",
     watchButton: "Navbatdagi nomzodni ochish uchun reklama ko‘ring",
     hanjaProductsLink: "Barcha nomzodli mahsulotlarni ko‘rish · ₩2,900 dan",
-    bulkButton: "Barcha nomzodlarni ochish · US$1.99 (tez orada)",
     bulkPreparing: "To‘lov tez orada ishga tushadi.",
-    bulkButtonReady: "Barcha nomzodlarni ochish · US$1.99",
+    bulkButtonReady: "Barcha nomzodlarni ochish · {price}",
     bulkPaying: "To‘lov amalga oshirilmoqda…",
     bulkFailed: "To‘lov yakunlanmadi. Qayta urinib ko‘ring.",
   },
@@ -310,9 +297,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Зар үзэж байна",
     watchButton: "Зар үзээд дараагийн хувилбарыг нээх",
     hanjaProductsLink: "Бүх хувилбарын бүтээгдэхүүнийг үзэх · ₩2,900-с эхэлнэ",
-    bulkButton: "Бүх хувилбарыг нэг дор нээх · US$1.99 (тун удахгүй)",
     bulkPreparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
-    bulkButtonReady: "Бүх хувилбарыг нэг дор нээх · US$1.99",
+    bulkButtonReady: "Бүх хувилбарыг нэг дор нээх · {price}",
     bulkPaying: "Төлбөр боловсруулж байна…",
     bulkFailed: "Төлбөр амжилтгүй боллоо. Дахин оролдоно уу.",
   },
@@ -327,9 +313,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "विज्ञापन देखा जा रहा है",
     watchButton: "अगला उम्मीदवार नाम खोलने के लिए विज्ञापन देखें",
     hanjaProductsLink: "सभी उम्मीदवार नामों के प्रोडक्ट देखें · ₩2,900 से",
-    bulkButton: "सभी उम्मीदवार नाम अनलॉक करें · US$1.99 (जल्द आ रहा है)",
     bulkPreparing: "भुगतान सुविधा जल्द आ रही है।",
-    bulkButtonReady: "सभी उम्मीदवार नाम अनलॉक करें · US$1.99",
+    bulkButtonReady: "सभी उम्मीदवार नाम अनलॉक करें · {price}",
     bulkPaying: "भुगतान प्रोसेस हो रहा है…",
     bulkFailed: "भुगतान पूरा नहीं हुआ। कृपया फिर से कोशिश करें।",
   },
@@ -344,9 +329,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "កំពុងមើលពាណិជ្ជកម្ម",
     watchButton: "មើលពាណិជ្ជកម្មដើម្បីបើកបេក្ខឈ្មោះបន្ទាប់",
     hanjaProductsLink: "មើលផលិតផលបេក្ខឈ្មោះទាំងអស់ · ចាប់ពី ₩2,900",
-    bulkButton: "បើកបេក្ខឈ្មោះទាំងអស់ · US$1.99 (ឆាប់ៗនេះ)",
     bulkPreparing: "មុខងារទូទាត់នឹងមកដល់ឆាប់ៗនេះ។",
-    bulkButtonReady: "បើកបេក្ខឈ្មោះទាំងអស់ · US$1.99",
+    bulkButtonReady: "បើកបេក្ខឈ្មោះទាំងអស់ · {price}",
     bulkPaying: "កំពុងដំណើរការទូទាត់…",
     bulkFailed: "ការទូទាត់មិនបានបញ្ចប់ទេ។ សូមព្យាយាមម្តងទៀត។",
   },
@@ -361,9 +345,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Жарнама көрсетілуде",
     watchButton: "Келесі нұсқаны ашу үшін жарнама көріңіз",
     hanjaProductsLink: "Барлық нұсқа қамтылған өнімдерді көру · ₩2,900-ден бастап",
-    bulkButton: "Барлық нұсқаны бірден ашу · US$1.99 (жақында)",
     bulkPreparing: "Төлем мүмкіндігі жақында қосылады.",
-    bulkButtonReady: "Барлық нұсқаны бірден ашу · US$1.99",
+    bulkButtonReady: "Барлық нұсқаны бірден ашу · {price}",
     bulkPaying: "Төлем өңделуде…",
     bulkFailed: "Төлем аяқталмады. Қайталап көріңіз.",
   },
@@ -378,9 +361,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka calon seterusnya",
     hanjaProductsLink: "Lihat produk semua calon · dari ₩2,900",
-    bulkButton: "Buka semua calon sekali gus · US$1.99 (akan datang)",
     bulkPreparing: "Fungsi pembayaran akan datang tidak lama lagi.",
-    bulkButtonReady: "Buka semua calon sekali gus · US$1.99",
+    bulkButtonReady: "Buka semua calon sekali gus · {price}",
     bulkPaying: "Memproses pembayaran…",
     bulkFailed: "Pembayaran tidak selesai. Sila cuba lagi.",
   },
@@ -395,9 +377,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Trwa reklama",
     watchButton: "Obejrzyj reklamę, aby odblokować kolejnego kandydata",
     hanjaProductsLink: "Zobacz produkty ze wszystkimi kandydatami · od ₩2,900",
-    bulkButton: "Odblokuj wszystkich kandydatów · US$1.99 (wkrótce)",
     bulkPreparing: "Płatności będą dostępne wkrótce.",
-    bulkButtonReady: "Odblokuj wszystkich kandydatów · US$1.99",
+    bulkButtonReady: "Odblokuj wszystkich kandydatów · {price}",
     bulkPaying: "Przetwarzanie płatności…",
     bulkFailed: "Płatność nie została ukończona. Spróbuj ponownie.",
   },
@@ -412,9 +393,8 @@ const unlockCopies: Record<string, UnlockCopy> = {
     watching: "Watching ad",
     watchButton: "Watch an ad to reveal the next candidate",
     hanjaProductsLink: "View full candidate products · from ₩2,900",
-    bulkButton: "Unlock all candidates · US$1.99 (coming soon)",
     bulkPreparing: "Payment is coming soon.",
-    bulkButtonReady: "Unlock all candidates · US$1.99",
+    bulkButtonReady: "Unlock all candidates · {price}",
     bulkPaying: "Processing payment…",
     bulkFailed: "The payment was not completed. Please try again.",
   },
@@ -491,19 +471,36 @@ export function CandidateUnlockPanel({
   const remainingCount = Math.max(0, totalCount - revealedCount);
   const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
   const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
-  // 문구와 동일한 기준으로 결제권역 결정: 외국인 대상 화면=페이팔 US$1.99, 그 외=국내 990원.
+  // 문구와 동일한 기준으로 결제권역 결정: 외국인 대상 화면=해외(페이팔), 그 외=국내(토스).
   const region = isForeign ? "global" : "domestic";
-  // NEXT_PUBLIC_* 값은 빌드 시 클라이언트 번들에 인라인되므로 키 미등록이면 버튼이 "준비 중"으로 남는다.
-  // 국내는 토스 클라이언트 키 하나, 해외는 포트원 상점·페이팔 채널 키. **국내가 포트원으로
-  // 떨어지는 폴백은 없앴다**(2026-07-29 결제 일원화) — 서버도 같은 기준으로 막으므로 여기서만
-  // 열어 두면 버튼을 눌러도 503이 돌아온다.
-  const bulkConfigured =
-    region === "global"
-      ? Boolean(
-          process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
-            process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
-        )
-      : Boolean(process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY);
+  const unlockCode = region === "global" ? "CANDIDATE_UNLOCK_USD" : "CANDIDATE_UNLOCK_KRW";
+
+  // **구매 가능 여부와 가격을 서버에 묻는다.** 응답에 코드가 있으면 살 수 있고, 없으면 준비 중이다
+  // (`/api/product-info`가 상품 판매 여부와 결제 수단 준비 여부를 함께 본다).
+  //
+  // 예전에는 여기서 `NEXT_PUBLIC_*` 키만 보고 판단하고 가격은 문구에 박아 두었다. 그래서 상품을
+  // 내려도 화면에는 "990원"이 그대로 보였고, **결제 키가 생기는 순간 판매 중지 상품의 버튼이
+  // 활성화돼** 눌러야 주문 라우트가 503을 돌려줬다.
+  const [unlockPrice, setUnlockPrice] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    void (async () => {
+      try {
+        const response = await fetch(`/api/product-info?codes=${unlockCode}`);
+        const data = (await response.json().catch(() => null)) as
+          | { ok?: boolean; products?: Record<string, { display?: string }> }
+          | null;
+        if (alive) setUnlockPrice(data?.products?.[unlockCode]?.display ?? null);
+      } catch {
+        // 조회 실패는 "살 수 없음"으로 둔다. 확인되지 않은 가격으로 버튼을 여는 것보다 낫다.
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [unlockCode]);
+
+  const bulkConfigured = unlockPrice !== null;
 
   async function confirmUnlock(orderId: string, paymentId: string) {
     const response = await fetch("/api/candidate-unlock/confirm", {
@@ -759,7 +756,9 @@ export function CandidateUnlockPanel({
             className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-background disabled:cursor-not-allowed disabled:opacity-60"
           >
             <CreditCard aria-hidden="true" size={17} />
-            {bulkStage === "idle" ? copy.bulkButtonReady : copy.bulkPaying}
+            {bulkStage === "idle"
+              ? copy.bulkButtonReady.replace("{price}", unlockPrice ?? "")
+              : copy.bulkPaying}
           </button>
         ) : (
           <button
@@ -769,7 +768,8 @@ export function CandidateUnlockPanel({
             className="inline-flex h-11 cursor-not-allowed items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal opacity-60"
           >
             <CreditCard aria-hidden="true" size={17} />
-            {copy.bulkButton}
+            {/* 가격 없는 라벨을 쓴다 — 살 수 없는 상품의 값을 노출하지 않는다. */}
+            {copy.bulkPreparing}
           </button>
         )}
       </div>

@@ -763,8 +763,11 @@ export function StampOrderForm({
 }: {
   initialName?: string;
   region?: StampRegion;
-  /** 모델별 표시 가격. 모델마다 값이 다르므로 하나로 받지 않는다. */
-  modelPrices: Record<StampModelCode, string>;
+  /**
+   * 모델별 표시 가격. 모델마다 값이 다르므로 하나로 받지 않는다.
+   * **null이면 그 모델은 지금 살 수 없다**(판매 중지이거나 결제 수단 미준비) — 서버가 판정한다.
+   */
+  modelPrices: Record<StampModelCode, string | null>;
   locale?: string;
 }) {
   const global = region === "global";
@@ -775,8 +778,14 @@ export function StampOrderForm({
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [model, setModel] = useState<StampModelCode>("ROUND_WOOD");
+  const price = modelPrices[model];
   // 머리말·버튼의 {price}는 **고른 모델의 값**으로 바꾼다. 모델을 바꾸면 같이 바뀐다.
-  const withPrice = (template: string) => template.replace("{price}", modelPrices[model]);
+  // 살 수 없으면 `· {price}` 토막째 지운다 — 자리표시자가 그대로 노출되거나 가운뎃점만
+  // 덩그러니 남는 것을 막는다.
+  const withPrice = (template: string) =>
+    price
+      ? template.replace("{price}", price)
+      : template.replace(/\s*·\s*\{price\}/g, "").replace(/\{price\}/g, "");
   const [recipient, setRecipient] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -791,15 +800,10 @@ export function StampOrderForm({
   const [spbCheckout, setSpbCheckout] = useState<StampCheckout | null>(null);
   const redirectHandled = useRef(false);
 
-  // 국내는 토스페이먼츠 직접 연동(토스 클라이언트 키 하나), 해외는 포트원 경유 페이팔.
-  // **국내가 포트원으로 떨어지는 폴백은 없앴다**(2026-07-29 결제 일원화) — 서버도 같은
-  // 기준으로 막으므로 여기서만 열어 두면 버튼을 눌러도 503이 돌아온다.
-  const configured = global
-    ? Boolean(
-        process.env.NEXT_PUBLIC_PORTONE_STORE_ID &&
-          process.env.NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL,
-      )
-    : Boolean(process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY);
+  // **구매 가능 여부는 서버가 정한다.** 가격이 내려왔다는 것은 상품이 판매 중이고 그 통화의
+  // 결제 수단도 준비됐다는 뜻이다(`lib/purchase.ts`). 예전에는 여기서 `NEXT_PUBLIC_*` 키만
+  // 보고 판단했는데, 그러면 상품이 꺼져 있어도 키만 생기면 버튼이 켜져 눌러야 503이 돌아왔다.
+  const configured = price !== null;
 
   async function confirmOrder(orderId: string, paymentId: string) {
     const response = await fetch("/api/goods/stamp-confirm", {

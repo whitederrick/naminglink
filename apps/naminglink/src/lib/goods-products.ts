@@ -1,15 +1,16 @@
 // 실물 굿즈 상품표. 가격은 반드시 이 표에서만 읽는다.
 // 굿즈 로드맵(2026-07-23): 당분간 도장만 판매(캘리그라피 보류).
-// 국내: ₩39,000 / 글로벌: US$34.99(국제배송비 포함, 2026-07-23 확정).
 // 결제사(2026-07-29 일원화): 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔.
+//
+// **여기에 금액을 두지 않는다.** 값은 `product_settings`(모델별 3종)가 정하고 주문 라우트가
+// 거기서만 읽는다. 예전에는 이 구조체에 단일 상품가(₩39,000 / US$34.99)가 함께 들어 있었는데,
+// 아무도 읽지 않는 값이 낡은 채로 남아 약관에 옮겨 적히는 통로가 됐다(US$34.99는 모델별 가격이
+// 생긴 뒤 어느 모델과도 맞지 않는 값이었다). 금액은 한 곳에만 둔다.
 export const STAMP_PRODUCT = {
   code: "STAMP_BASIC",
   orderType: "STAMP_DELIVERY",
   name: "이름 도장 (국내 배송)",
   orderName: "Naming-Link 이름 도장",
-  amount: 39000,
-  currency: "KRW",
-  display: "₩39,000",
   provider: "TOSS",
 } as const;
 
@@ -18,10 +19,6 @@ export const STAMP_PRODUCT_GLOBAL = {
   orderType: "STAMP_DELIVERY",
   name: "Name Stamp (international shipping included)",
   orderName: "Naming-Link Name Stamp",
-  // 포트원 V2는 USD를 센트 단위 정수로 받는다.
-  amount: 3499,
-  currency: "USD",
-  display: "US$34.99",
   provider: "PORTONE_PAYPAL",
 } as const;
 

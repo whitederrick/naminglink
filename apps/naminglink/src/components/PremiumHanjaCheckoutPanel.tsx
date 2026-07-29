@@ -5,6 +5,7 @@ import { CreditCard, Download, LoaderCircle } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import {
   HANJA_PRODUCTS,
+  HANJA_PRODUCT_CODES,
   type HanjaProductCode,
 } from "@/lib/hanja-products";
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
@@ -153,6 +154,42 @@ export function PremiumHanjaCheckoutPanel({
   );
   const redirectHandled = useRef(false);
   const selectedProduct = HANJA_PRODUCTS[selectedProductCode];
+
+  // **구매 가능 여부와 가격을 서버에 묻는다.** 응답에 코드가 있으면 살 수 있고, 없으면 준비 중이다
+  // (`/api/product-info`가 상품 판매 여부와 결제 수단 준비 여부를 함께 본다).
+  //
+  // 예전에는 정적 상품표(`hanja-products.ts`)의 금액을 그대로 그렸다. 그래서 상품을 내려도
+  // 화면에는 2,900원·4,900원·9,900원이 그대로 보였다 — 팔지 않는 값을 계속 노출한 것이다.
+  // 금액 결정은 여전히 주문 라우트가 하고, 여기서 받는 값은 표시용이다.
+  const [offers, setOffers] = useState<Record<string, string>>({});
+  useEffect(() => {
+    let alive = true;
+    void (async () => {
+      try {
+        const response = await fetch(
+          `/api/product-info?codes=${HANJA_PRODUCT_CODES.join(",")}`,
+        );
+        const data = (await response.json().catch(() => null)) as
+          | { ok?: boolean; products?: Record<string, { display?: string }> }
+          | null;
+        if (!alive) return;
+        const next: Record<string, string> = {};
+        for (const [code, info] of Object.entries(data?.products ?? {})) {
+          if (info?.display) next[code] = info.display;
+        }
+        setOffers(next);
+      } catch {
+        // 조회 실패는 "살 수 없음"으로 둔다. 확인되지 않은 가격으로 버튼을 여는 것보다 낫다.
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  const selectedPrice = offers[selectedProductCode] ?? null;
+  // 결제 키가 있어도 상품이 판매 중이 아니면 살 수 없다. 둘을 함께 본 결과가 selectedPrice다.
+  const purchasable = paymentConfigured && selectedPrice !== null;
   const availableCandidates = countCandidates(result);
   // 운영자(admin)로 로그인한 경우에만 결제 없이 테스트 버튼을 노출하고, 서버 검증용 토큰을 확보한다.
   const [adminToken, setAdminToken] = useState<string | null>(null);
@@ -443,7 +480,8 @@ export function PremiumHanjaCheckoutPanel({
 
   const busy = stage !== "idle" && stage !== "ready";
   const stageText = {
-    idle: `${selectedProduct.amount.toLocaleString("ko-KR")}원 결제하고 바로 공개`,
+    // 살 수 없으면 금액을 적지 않는다 — 팔지 않는 값을 버튼에 노출하지 않는다.
+    idle: selectedPrice ? `${selectedPrice} 결제하고 바로 공개` : "판매 준비 중입니다",
     ordering: "안전한 주문 생성 중",
     paying: "결제창 확인 중",
     verifying: "결제 금액 검증 중",
@@ -494,7 +532,9 @@ export function PremiumHanjaCheckoutPanel({
             <>
               <p className="text-sm font-semibold text-brand-teal">한자 이름 상세 상품</p>
               <h2 className="mt-1 text-xl font-semibold">원하는 분석 범위만 선택하세요</h2>
-              <p className="mt-2 text-sm leading-6 text-muted">모든 상품에 후보별 상세 설명과 한자 종합 상세가 포함됩니다. 사주·오행이 필요하지 않으면 출생일 없이도 2,900원 또는 4,900원 상품을 이용할 수 있습니다.</p>
+              {/* 안내에 금액을 적지 않는다. 상품마다 값이 다르고 관리자 화면에서 바뀌므로,
+                  여기 박아 두면 위 카드에 표시된 가격과 어긋난다. */}
+              <p className="mt-2 text-sm leading-6 text-muted">모든 상품에 후보별 상세 설명과 한자 종합 상세가 포함됩니다. 사주·오행이 필요하지 않으면 출생일 없이도 이용할 수 있는 상품이 있습니다.</p>
             </>
           )}
         </div>
@@ -504,13 +544,17 @@ export function PremiumHanjaCheckoutPanel({
         <div className="mt-5 grid gap-4">
           <div className="grid gap-3 lg:grid-cols-3">
             {Object.values(HANJA_PRODUCTS).map((product) => {
-              const disabled = product.includesSaju && !birthDateReady;
+              const offer = offers[product.code] ?? null;
+              // 출생일이 없어 못 고르는 것과, 아직 팔지 않아 못 고르는 것은 사유가 다르다.
+              // 둘 다 선택은 막되 안내 문구는 따로 보여 준다.
+              const disabled = (product.includesSaju && !birthDateReady) || offer === null;
               return (
                 <label key={product.code} className={`rounded-lg border p-4 ${selectedProductCode === product.code ? "border-brand-teal bg-brand-teal/5" : "border-line bg-background"} ${disabled ? "cursor-not-allowed opacity-55" : "cursor-pointer"}`}>
                   <span className="flex items-start gap-2">
                     <input type="radio" name="hanja-product" value={product.code} checked={selectedProductCode === product.code} disabled={disabled} onChange={() => setSelectedProductCode(product.code)} />
                     <span>
-                      <span className="block font-semibold">{product.amount.toLocaleString("ko-KR")}원</span>
+                      {/* 살 수 없으면 금액 자리에 상태를 적는다. 팔지 않는 값을 보여 주지 않는다. */}
+                      <span className="block font-semibold">{offer ?? "판매 준비 중"}</span>
                       <span className="mt-1 block text-sm">{product.name}</span>
                     </span>
                   </span>
@@ -518,7 +562,9 @@ export function PremiumHanjaCheckoutPanel({
                     후보 최대 {product.candidateLimit}개 상세 · 현재 결과 {Math.min(product.candidateLimit, availableCandidates)}개 제공 · 한자 종합 상세
                     {product.includesSaju ? " · 사주·오행 · PDF" : ""}
                   </span>
-                  {disabled ? <span className="mt-2 block text-xs text-brand-rose">출생 연·월·일 확정 후 이용 가능</span> : null}
+                  {offer !== null && product.includesSaju && !birthDateReady ? (
+                    <span className="mt-2 block text-xs text-brand-rose">출생 연·월·일 확정 후 이용 가능</span>
+                  ) : null}
                 </label>
               );
             })}
@@ -554,7 +600,7 @@ export function PremiumHanjaCheckoutPanel({
       <button
         type="button"
         onClick={stage === "ready" ? download : startPayment}
-        disabled={busy || !inputFactors || (!paymentConfigured && stage !== "ready") || (stage !== "ready" && !consented) || (stage === "ready" && !readyIncludesPdf)}
+        disabled={busy || !inputFactors || (!purchasable && stage !== "ready") || (stage !== "ready" && !consented) || (stage === "ready" && !readyIncludesPdf)}
         className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background disabled:cursor-not-allowed disabled:opacity-50"
       >
         {busy ? <LoaderCircle className="animate-spin" size={17} /> : stage === "ready" && readyIncludesPdf ? <Download size={17} /> : <CreditCard size={17} />}
