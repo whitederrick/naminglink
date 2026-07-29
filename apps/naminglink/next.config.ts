@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+import { adsCspSources, adsEnabled } from "./src/lib/ads";
+
 import {
   paymentCspSources,
   paymentsConfigured,
@@ -22,6 +24,12 @@ import {
 // 웹소켓으로 붙기 때문이다. 운영 빌드는 그대로 조여 둔다.
 const isDev = process.env.NODE_ENV !== "production";
 
+// 광고(애드센스)도 결제와 같은 규칙이다. 퍼블리셔 ID가 없으면 열지 않는다 — 광고를 켜는
+// 순간에만 CSP가 느슨해지고, 끄면 원래대로 돌아간다. 애드센스는 CSP를 공식 지원하지 않아
+// 소재가 임의의 CDN에서 온다(`src/lib/ads.ts` 주석 참고).
+const ads = (kind: keyof typeof adsCspSources) =>
+  adsEnabled ? adsCspSources[kind].map((source) => ` ${source}`).join("") : "";
+
 // 채널 키가 없으면 결제창을 띄울 일이 없으므로 열지 않는다(인연링크와 같은 규칙).
 const pay = (kind: keyof typeof paymentCspSources) =>
   paymentsConfigured
@@ -42,14 +50,14 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
-      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${pay("script")}${toss("script")}`,
+      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${pay("script")}${toss("script")}`,
       "style-src 'self' 'unsafe-inline'",
       // Supabase Storage: 서체 미리보기(SVG)와 PDF 배경 이미지를 공개 URL로 불러온다.
-      `img-src 'self' data: blob:${supabaseConnect}${pay("image")}${toss("image")}`,
-      "font-src 'self' data:",
-      `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${pay("connect")}${toss("connect")}`,
-      paymentsConfigured || tossConfiguredForCsp
-        ? `frame-src 'self'${pay("frame")}${toss("frame")}`
+      `img-src 'self' data: blob:${supabaseConnect}${ads("image")}${pay("image")}${toss("image")}`,
+      `font-src 'self' data:${ads("font")}`,
+      `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${ads("connect")}${pay("connect")}${toss("connect")}`,
+      adsEnabled || paymentsConfigured || tossConfiguredForCsp
+        ? `frame-src 'self'${ads("frame")}${pay("frame")}${toss("frame")}`
         : "frame-src 'none'",
       `form-action 'self'${pay("formAction")}${toss("formAction")}`,
       "frame-ancestors 'none'",

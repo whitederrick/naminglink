@@ -5,6 +5,7 @@ import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
+import { adsEnabled, adsenseClient } from "@/lib/ads";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
 import { siteUrl } from "@/lib/seo";
 import { getPublishedFooterContent } from "@/lib/site-content-server";
@@ -78,6 +79,19 @@ export default async function RootLayout({
         <FooterContentProvider value={footerContent}>
           {children}
         </FooterContentProvider>
+        {/* 애드센스 로더. 퍼블리셔 ID가 없으면 아예 붙지 않는다(다크 런치) — 그래야 CSP도
+            원래대로 조여 둔 채 배포된다. 인연링크와 같은 방식이다.
+            next/script 대신 순수 <script>를 쓴다. next/script는 어느 전략을 골라도 태그를
+            런타임에 주입하므로 서버가 보낸 HTML에 구글이 안내한 스니펫이 그대로 들어 있지
+            않은데, 애드센스 심사는 그 스니펫을 찾는 절차라 형태가 같은 편이 확실하다.
+            **Offerwall도 이 코드가 있어야 동작한다** — 구글 문서가 명시한 전제조건이다. */}
+        {adsEnabled ? (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+            crossOrigin="anonymous"
+          />
+        ) : null}
       </body>
     </html>
   );
