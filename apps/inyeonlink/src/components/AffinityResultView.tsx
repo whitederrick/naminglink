@@ -236,6 +236,12 @@ export function AffinityResultView({
         </p>
       </section>
 
+      {/* 중간 고정 배너. 상단(제목 옆 `header`)과 함께 이 화면의 배너는 둘이다.
+          본론(맞는 유형·피할 유형·필요한 기운)이 끝나고 곁들임(띠)으로 넘어가는 경계에 둔다 —
+          읽을 것이 끝난 자리가 아니라 읽는 도중이어야 한다. 위아래로 버튼이 없어 오클릭 위험도
+          낮다(애드센스에서 오클릭은 정책 위반이자 계정 정지 사유다). */}
+      <AdBanner placement="result" locale={locale} className="my-12" />
+
       {/* 곁들임 — 띠 */}
       <h2 className="mt-12 text-xl font-semibold">{t.zodiacTitle}</h2>
       <p className="break-keep-all mt-2 text-sm leading-6 text-muted">
@@ -317,9 +323,8 @@ export function AffinityResultView({
         offerPrice={offerPrice}
       />
 
-      {/* 고정 배너. 위아래로 버튼이 하나씩 있는 자리라 **간격을 넉넉히 둔다** — 애드센스에서
-          오클릭은 정책 위반이자 계정 정지 사유다. my-14(56px)면 손가락이 스쳐 눌릴 거리가 아니다. */}
-      <AdBanner placement="result" locale={locale} className="my-14" />
+      {/* 배너는 위 중간 자리로 옮겼다(상단 제목 옆 + 중간, 이 화면에 둘). 여기는 PDF 구매 패널과
+          다음 서비스 안내 사이라 위아래가 전부 누를 것이었다 — 광고를 끼우기에 가장 나쁜 자리다. */}
 
       {/* 사주 궁합으로 이어 주는 계단. 이 화면이 못 하는 것(총점)을 하는 자리다. */}
       <section className="rounded-2xl border border-brand-plum/25 bg-brand-plum/6 p-6 text-center">

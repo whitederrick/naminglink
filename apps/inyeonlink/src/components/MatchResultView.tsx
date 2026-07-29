@@ -249,6 +249,12 @@ export function MatchResultView({
         ))}
       </div>
 
+      {/* 중간 고정 배너. 상단(제목 옆 `header`)과 함께 이 화면의 배너는 둘이다.
+          읽을 것이 끝난 자리가 아니라 **읽는 도중**에 둔다 — 사주 원국을 다 본 뒤,
+          항목별 점수로 넘어가기 전이 경계다. 위아래로 버튼이 없는 자리라 오클릭 위험도 낮다
+          (애드센스에서 오클릭은 정책 위반이자 계정 정지 사유다). */}
+      <AdBanner placement="result" locale={locale} className="my-12" />
+
       <h2 className="mt-12 text-xl font-semibold">{t.breakdown}</h2>
       <div className="mt-4 space-y-4">
         {outcome.engines.map((engine) => (
@@ -288,10 +294,10 @@ export function MatchResultView({
         offerPrice={offerPrice}
       />
 
-      {/* 광고는 결과 화면 안쪽, 그것도 '결과가 실제로 나온' 갈래에만 둔다. 페이지 쪽에 두면
-          입력을 못 읽어 오류가 뜬 화면에도 광고가 실리는데, 내용 없는 화면의 광고는 애드센스
-          정책 위반이다. 다시 계산·링크 복사 버튼과는 한 칸 떨어뜨려 오클릭을 피한다. */}
-      <AdBanner placement="result" locale={locale} className="mt-10" />
+      {/* 배너는 위 한 자리로 옮겼다(상단 제목 옆 + 중간, 이 화면에 둘). 예전에는 여기 맨 아래에
+          있었는데, 결과를 다 읽고 PDF 구매까지 지난 자리라 사실상 아무도 보지 않는 위치였다.
+          광고는 '결과가 실제로 나온' 갈래 안에만 둔다 — 페이지 쪽에 두면 입력을 못 읽어 오류가
+          뜬 화면에도 실리고, 내용 없는 화면의 광고는 애드센스 정책 위반이다. */}
     </div>
   );
 }
