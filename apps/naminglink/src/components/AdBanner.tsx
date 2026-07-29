@@ -21,6 +21,13 @@ type AdBannerProps = {
    */
   slotKey: AdPlacement;
   label?: string;
+  /**
+   * 광고가 실제로 채워졌는지 알려준다. `null`은 아직 모른다는 뜻이다(요청 직후).
+   *
+   * 게이트 자리에서 쓴다 — 애드센스가 못 채우면 셀프 광고로 대신 채우기 위해서다.
+   * 여기서는 알려 주기만 하고, 자리를 접거나 크기를 바꾸지는 않는다.
+   */
+  onFilledChange?: (filled: boolean | null) => void;
 };
 
 const labels = {
@@ -34,6 +41,7 @@ export function AdBanner({
   variant = "inline",
   slotKey,
   label,
+  onFilledChange,
 }: AdBannerProps) {
   const isHeaderSlot = variant === "header";
   const isConsentSlot = slotKey === "consent_card";
@@ -96,6 +104,25 @@ export function AdBanner({
 
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
+  const insRef = useRef<HTMLModElement>(null);
+
+  // 애드센스는 소재를 정한 뒤 `<ins>`에 `data-ad-status="filled" | "unfilled"`를 붙인다.
+  // 요청 직후에는 없으므로 속성이 붙는 순간을 지켜본다.
+  useEffect(() => {
+    const element = insRef.current;
+    if (!slot || !element || !onFilledChange) return;
+
+    const read = () => {
+      const status = element.getAttribute("data-ad-status");
+      onFilledChange(status === null ? null : status === "filled");
+    };
+    read();
+
+    const observer = new MutationObserver(read);
+    observer.observe(element, { attributes: true, attributeFilter: ["data-ad-status"] });
+    return () => observer.disconnect();
+  }, [slot, onFilledChange]);
+
   useEffect(() => {
     if (!slot || pushed.current) return;
     try {
@@ -122,6 +149,7 @@ export function AdBanner({
             자리를 늘 같은 높이로 잡아 두면 광고가 채워지든 아니든 화면이 흔들리지 않는다. */}
         <div className={`w-full overflow-hidden ${adHeightClass}`}>
           <ins
+            ref={insRef}
             // `!max-w-full`이 없으면 안 된다. 애드센스는 `<ins>`에 인라인 `width`를 직접 써
             // 넣는데(456px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로 넘친다.
             className="adsbygoogle block h-full w-full !max-w-full"

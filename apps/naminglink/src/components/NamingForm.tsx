@@ -22,6 +22,7 @@ import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
 import {
@@ -252,6 +253,8 @@ export function NamingForm({
   const router = useRouter();
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 제출을 잠깐 막는다.
   const selfGateNeeded = useSelfGateNeeded();
+  // 게이트 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
+  const [gateAdFilled, setGateAdFilled] = useState<boolean | null>(null);
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
   // 한글 발음 표기는 API에서는 GLOBAL_TO_KOREAN을 재사용하지만,
   // 통계(site_events)에서는 별도 서비스로 구분해 집계한다.
@@ -1047,7 +1050,18 @@ export function NamingForm({
                   : t.loadingTitle}
               </h2>
             </div>
-            <AdBanner variant="leaderboard" slotKey="analysis_wait" />
+            {/* 애드센스가 소재를 못 채우면 셀프 광고로 대신 채운다. 게이트는 이용자를 10초
+                (한자 15초) 붙잡아 두는데, 그 대가인 광고가 비면 빈 상자를 보며 시간만 버린다.
+                트래픽이 적은 초기에는 못 채우는 일이 흔하다(Fill Rate).
+                게이트를 없애거나 기다림을 건너뛰지 않는다 — 채울 것만 바꾼다. */}
+            <div className={gateAdFilled === false ? "hidden" : undefined}>
+              <AdBanner
+                variant="leaderboard"
+                slotKey="analysis_wait"
+                onFilledChange={setGateAdFilled}
+              />
+            </div>
+            {gateAdFilled === false ? <SelfAdCard /> : null}
             <p className="text-center text-sm font-medium text-brand-teal">
               {analysisCountdown > 0
                 ? isHanjaMeaning
