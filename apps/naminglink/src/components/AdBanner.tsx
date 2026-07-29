@@ -14,7 +14,12 @@ import { adSlotFor, adsenseClient, type AdPlacement } from "@/lib/ads";
 
 type AdBannerProps = {
   variant?: "header" | "leaderboard" | "inline" | "sidebar";
-  slotKey?: string;
+  /**
+   * **필수다.** 예전에는 선택이라 세 자리가 슬롯 없이 붙어 있었고, 그 자리들은 퍼블리셔 ID를
+   * 넣어도 영원히 빈 채로 남았다. 타입도 `string`이 아니라 `AdPlacement`라 `lib/ads.ts`에
+   * 없는 이름을 쓰면 컴파일이 깨진다.
+   */
+  slotKey: AdPlacement;
   label?: string;
 };
 
@@ -50,7 +55,7 @@ export function AdBanner({
       : "min-h-20";
   const displayLabel = label ?? labels[variant];
 
-  const slot = slotKey ? adSlotFor(slotKey as AdPlacement) : "";
+  const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
   useEffect(() => {
     if (!slot || pushed.current) return;

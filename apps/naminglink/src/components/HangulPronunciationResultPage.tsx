@@ -156,7 +156,7 @@ function ReanalysisSection({
       </label>
       {loading ? (
         <div className="mt-5 grid gap-3">
-          <AdBanner variant="leaderboard" />
+          <AdBanner variant="leaderboard" slotKey="hangul_candidate_unlock" />
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.reanalysisCountdown(countdown)}
           </p>

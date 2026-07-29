@@ -24,20 +24,44 @@ export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "
 /**
  * 광고 자리별 슬롯 ID. 애드센스 콘솔에서 광고 단위를 만들면 하나씩 나온다.
  *
- * 자리를 나눠 두면 어느 자리가 얼마를 버는지 콘솔에서 갈라 볼 수 있다. 슬롯이 비어 있으면
- * 그 자리만 조용히 렌더링하지 않는다 — 자리 하나를 빼려고 배포를 다시 할 필요가 없다.
+ * **자리마다 슬롯을 하나씩 준다.** 결과 화면 머리글 넷을 한 슬롯으로 묶으면 어느 서비스가
+ * 실제로 버는지 콘솔에서 갈라 볼 수 없다. 슬롯이 비어 있으면 그 자리만 조용히 렌더링하지
+ * 않으므로, 한 자리씩 켜 보는 것도 된다.
+ *
+ * 키는 **snake_case**다. `trackAdEvent`의 `slotKey`(`analysis_wait`·`candidate_unlock`)와
+ * 화면 컴포넌트가 넘기는 값이 이미 이 꼴이라 거기에 맞춘다 — 한 자리를 부르는 이름은 하나여야
+ * 광고 수익과 이벤트 로그를 같은 키로 맞춰 볼 수 있다.
+ *
+ * 예전에는 이 표가 camelCase(`serviceHeader`)인데 호출부는 snake_case(`service_header`)를
+ * 넘겨서 **아홉 자리가 전부 슬롯을 못 찾았다.** `slotKey?: string` + `as AdPlacement` 캐스팅이
+ * 타입 검사를 통과시켜 배포까지 갔다. 지금은 `AdBanner`가 이 키 타입만 받으므로 이름이
+ * 어긋나면 컴파일이 깨진다.
  */
 export const adSlots = {
-  /** 서비스 화면 머리글 옆. 인연링크의 header와 같은 자리다. */
-  serviceHeader: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_SERVICE_HEADER ?? "").trim(),
+  /** 서비스 입력 화면 머리글 옆. 인연링크의 header와 같은 자리다. */
+  service_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_SERVICE_HEADER ?? "").trim(),
   /** 입력 화면 동의 영역 옆. 제출 버튼과는 떨어뜨려 둔다(오클릭 방지). */
-  consentCard: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CONSENT ?? "").trim(),
+  consent_card: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CONSENT_CARD ?? "").trim(),
   /** 분석 대기 화면. 이용자가 결과를 기다리는 동안 확실히 보게 되는 자리다. */
-  analysisWait: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_ANALYSIS ?? "").trim(),
-  /** 결과 화면 본문. */
-  result: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT ?? "").trim(),
-  /** 후보 1개 공개 대기. */
-  candidateUnlock: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_UNLOCK ?? "").trim(),
+  analysis_wait: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_ANALYSIS_WAIT ?? "").trim(),
+  /** 후보 1개 공개 대기(한자·한국 이름). */
+  candidate_unlock: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CANDIDATE_UNLOCK ?? "").trim(),
+  /** 발음 표기 대안 후보 열기 대기. 위와 흐름이 달라 따로 센다. */
+  hangul_candidate_unlock: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANGUL_CANDIDATE_UNLOCK ?? ""
+  ).trim(),
+  /** 한자 의미 매칭 결과 머리글. */
+  hanja_result_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANJA_RESULT_HEADER ?? "").trim(),
+  /** 한국 이름 만들기 결과 머리글. */
+  korean_name_result_header: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_KOREAN_NAME_RESULT_HEADER ?? ""
+  ).trim(),
+  /** 글로벌 이름 변환 결과 머리글. */
+  korean_to_global_result_header: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_KOREAN_TO_GLOBAL_RESULT_HEADER ?? ""
+  ).trim(),
+  /** 한글 발음 표기 결과 머리글. */
+  hangul_result_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANGUL_RESULT_HEADER ?? "").trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;

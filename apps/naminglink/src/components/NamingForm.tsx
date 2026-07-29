@@ -1012,7 +1012,7 @@ export function NamingForm({
                   : t.loadingTitle}
               </h2>
             </div>
-            <AdBanner variant="leaderboard" />
+            <AdBanner variant="leaderboard" slotKey="analysis_wait" />
             <p className="text-center text-sm font-medium text-brand-teal">
               {analysisCountdown > 0
                 ? isHanjaMeaning

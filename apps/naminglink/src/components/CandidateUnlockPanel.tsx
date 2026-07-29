@@ -711,7 +711,7 @@ export function CandidateUnlockPanel({
 
       {loading ? (
         <div className="mt-5 grid gap-3">
-          <AdBanner variant="leaderboard" />
+          <AdBanner variant="leaderboard" slotKey="candidate_unlock" />
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.watchingNote(countdown)}
           </p>
