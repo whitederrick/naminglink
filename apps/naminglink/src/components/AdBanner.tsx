@@ -80,9 +80,15 @@ export function AdBanner({
    * 앞자리 표기(`!h-[50px]`)를 쓴다. 이 프로젝트는 Tailwind v4지만 v4도 이 표기를 그대로
    * 생성한다 — 배포된 CSS에서 `.\!h-\[50px\]{height:50px!important}`를 확인했다.
    *
-   * `data-full-width-responsive`는 **켜 둔다.** 껐더니 애드센스가 폭이 고정된 소재(728×90 등)를
-   * 고를 수 있게 되어 모바일에서 자리가 뷰포트보다 넓어졌다. 높이는 위 important로 잡으므로
-   * 이 속성까지 끌 이유가 없다.
+   * **`data-full-width-responsive`는 반드시 꺼 둔다.** 브라우저에서 실측한 결과, 켜면 애드센스가
+   * `<ins>`에 이렇게 써 넣는다.
+   *
+   *     margin-left: -20px;  width: 456px;  height: auto !important;
+   *
+   * 광고를 컨테이너 패딩 밖까지 늘리려는 장치인데, **음수 마진과 고정 폭이 조상 grid 트랙을
+   * 벌려 페이지가 가로로 넘친다**(456px 뷰포트에서 477px). 게다가 소재가 안 채워지면
+   * `height: auto !important`를 써서 위 클래스 important까지 이기고 자리가 463px로 커진다.
+   * 인라인 `!important`는 클래스 `!important`를 이기므로 CSS로는 막을 수 없다.
    */
   const adHeightClass = isConsentSlot
     ? "!h-[250px] lg:!h-[280px]"
@@ -109,17 +115,23 @@ export function AdBanner({
         <p className="mb-0.5 text-center text-[10px] uppercase tracking-wide text-muted">
           {displayLabel}
         </p>
-        <ins
-          // `!max-w-full`이 없으면 안 된다. 애드센스는 소재를 고른 뒤 `<ins>`에 인라인 `width`를
-          // 직접 써 넣는데(728px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로
-          // 넘친다. 높이와 같은 이유로 important가 필요하다.
-          className={`adsbygoogle block w-full !max-w-full ${adHeightClass}`}
-          style={{ display: "block" }}
-          data-ad-client={adsenseClient}
-          data-ad-slot={slot}
-          data-ad-format={adFormat}
-          data-full-width-responsive="true"
-        />
+        {/* **높이는 이 바깥 상자가 정한다.** 애드센스는 소재가 안 채워지면 `<ins>`에
+            `height: auto !important`를 써 넣는데, 인라인 `!important`는 클래스 `!important`를
+            이기므로 CSS로 막을 수 없다. 실제로 머리글 자리가 463px까지 늘어나 화면이 통째로
+            빈 공간이 됐다(실측). 애드센스는 `<ins>`만 건드리므로 바깥 상자는 우리 값을 지킨다.
+            자리를 늘 같은 높이로 잡아 두면 광고가 채워지든 아니든 화면이 흔들리지 않는다. */}
+        <div className={`w-full overflow-hidden ${adHeightClass}`}>
+          <ins
+            // `!max-w-full`이 없으면 안 된다. 애드센스는 `<ins>`에 인라인 `width`를 직접 써
+            // 넣는데(456px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로 넘친다.
+            className="adsbygoogle block h-full w-full !max-w-full"
+            style={{ display: "block" }}
+            data-ad-client={adsenseClient}
+            data-ad-slot={slot}
+            data-ad-format={adFormat}
+            data-full-width-responsive="false"
+          />
+        </div>
       </aside>
     );
   }
