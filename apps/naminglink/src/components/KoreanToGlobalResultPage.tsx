@@ -80,7 +80,6 @@ export function KoreanToGlobalResultPage({
               label="글로벌 이름 결과 상단 배너 광고"
             />
           </div>
-          <p className="order-3 text-sm text-muted">글로벌 이름 변환 결과</p>
         </header>
 
         {!ready ? (

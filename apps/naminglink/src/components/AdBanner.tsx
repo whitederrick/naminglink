@@ -70,13 +70,20 @@ export function AdBanner({
     : variant === "sidebar"
       ? "vertical"
       : "horizontal";
-  // 애드센스 표준 크기에 맞춘다. 모바일 320×50(표준 배너) · PC 728×90·970×90(리더보드).
-  // 예전에는 모바일도 100px(320×100 큰 모바일 배너)이라 머리글이 화면을 너무 많이 먹었다.
-  const adHeightClass = isHeaderSlot
-    ? "h-[50px] lg:h-[90px]"
-    : isConsentSlot
-      ? "h-[250px] lg:h-[280px]"
-      : "h-[50px] lg:h-[90px]";
+  /**
+   * 애드센스 표준 크기. 모바일 320×50(표준 배너) · PC 728×90·970×90(리더보드).
+   *
+   * **`!`(important)가 꼭 있어야 한다.** 애드센스 스크립트는 소재를 고른 뒤 `<ins>`에 인라인
+   * `height`를 직접 써 넣는다. 인라인 스타일은 보통 클래스를 이기므로, important 없이는 우리가
+   * 정한 높이가 무시되고 320×100 같은 큰 배너가 그대로 들어온다 — 서버 HTML에는 50px이 적혀
+   * 있는데 화면은 높은 상태가 이것이다.
+   *
+   * `data-full-width-responsive`도 머리글에서는 끈다. 켜 두면 모바일에서 가로를 꽉 채우는
+   * 큰 소재를 우선 고르려 해서 높이가 다시 올라간다.
+   */
+  const adHeightClass = isConsentSlot
+    ? "!h-[250px] lg:!h-[280px]"
+    : "!h-[50px] lg:!h-[90px]";
 
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
@@ -105,7 +112,7 @@ export function AdBanner({
           data-ad-client={adsenseClient}
           data-ad-slot={slot}
           data-ad-format={adFormat}
-          data-full-width-responsive="true"
+          data-full-width-responsive={isConsentSlot ? "true" : "false"}
         />
       </aside>
     );

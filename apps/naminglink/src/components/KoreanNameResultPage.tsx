@@ -115,7 +115,6 @@ export function KoreanNameResultPage({
               label={copy.headerAdLabel}
             />
           </div>
-          <p className="order-3 text-sm text-muted">{service.title}</p>
         </header>
 
         {!ready ? (

@@ -259,7 +259,6 @@ export function HangulPronunciationResultPage({
               label={copy.headerAdLabel}
             />
           </div>
-          <p className="order-3 text-sm text-muted">{copy.headerCaption}</p>
         </header>
 
         {!ready ? (
