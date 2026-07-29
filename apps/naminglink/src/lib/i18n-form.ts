@@ -60,7 +60,7 @@ const ko: FormCopy = {
   loginLink: "로그인",
   guestNoSaveSuffix: "한 뒤 저장을 선택해 주세요.",
   adConsentLabel: "필수 동의 영역 광고",
-  submitTransliteration: "한글 발음 분석 시작",
+  submitTransliteration: "광고 확인 후 한글 발음 분석 시작",
   submitDefault: "광고 확인 후 분석 시작",
   adRevealNote: (seconds) => `광고 확인 후 결과를 공개합니다. ${seconds}초`,
   analysisDone: "분석 완료",

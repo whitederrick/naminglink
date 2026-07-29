@@ -452,7 +452,7 @@ const ko: Dictionary = {
     unknownTime: "시각을 모릅니다",
     hour: "시",
     minute: "분",
-    submit: "궁합 계산하기",
+    submit: "광고 확인 후 궁합 보기",
     submitting: "계산 중…",
     errorInvalidDate:
       "입력한 생년월일을 확인해 주세요. 음력이면 윤달 여부도 확인이 필요합니다.",
@@ -647,7 +647,7 @@ const ko: Dictionary = {
     seekingHint:
       "배우자 자리(정재·정관)는 두 사람의 성별이 모두 있어야 판정됩니다.",
     seekingAny: "정하지 않음",
-    submit: "인연의 결 보기",
+    submit: "광고 확인 후 인연의 결 확인",
     submitting: "찾아보는 중…",
 
     resultTitle: "인연의 결",

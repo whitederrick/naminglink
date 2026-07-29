@@ -60,7 +60,9 @@ export function AdRewardGate({
  * 닫기 버튼을 두지 않는다. 보상형 광고는 끝까지 봐야 보상이 주어지는 형식이고, 광고 옆에
  * 누를 것을 두면 오클릭이 난다(애드센스 계정 정지 사유다). 남은 시간은 숫자로 보여 준다.
  */
-function AdWatchOverlay({
+// 제출 버튼에서도 쓴다(인연링크는 "궁합 계산하기"를 누르면 광고가 뜬 뒤 결과로 넘어간다).
+// 그래서 이 오버레이는 게이트 전용이 아니라 공용이다.
+export function AdWatchOverlay({
   dictionary,
   locale,
   onDone,

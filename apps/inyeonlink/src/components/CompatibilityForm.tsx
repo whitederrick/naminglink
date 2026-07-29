@@ -8,6 +8,8 @@ import {
   toPersonInput,
   type PersonDraft,
 } from "@/components/PersonFields";
+import { AdWatchOverlay } from "@/components/AdRewardGate";
+import { adSlotFor } from "@/lib/ads";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import {
   encodeMatchInput,
@@ -27,6 +29,8 @@ export function CompatibilityForm({
   const [personB, setPersonB] = useState<PersonDraft>(emptyPerson);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  // 광고를 다 본 뒤 넘어갈 주소. null이면 광고를 띄우지 않은 상태다.
+  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
 
   // 결과 화면으로 넘어간 뒤 **뒤로 가기**로 이 폼에 돌아오면 브라우저가 페이지를 통째로
   // 되살리는 경우가 있다(bfcache). 그러면 자바스크립트 상태까지 그대로 복원되어 제출 버튼이
@@ -78,7 +82,25 @@ export function CompatibilityForm({
     // 문서가 새로 뜨는 만큼 **스크립트가 돌기 전에 주소가 확정돼 있다** — 결과 화면이 해시를
     // 빈 값으로 읽는 경합도 함께 사라진다. 전체 이동이라 전환이 조금 느려지지만, 이 화면은
     // 어차피 결과를 받으러 서버를 한 번 다녀온다.
+  // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에
+  // 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서 한 번 더 눌러야 했다.
+  // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
+  // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
+    if (adSlotFor("analyzing")) {
+      setPendingTarget(target);
+      return;
+    }
     window.location.assign(target);
+  }
+
+  if (pendingTarget) {
+    return (
+      <AdWatchOverlay
+        dictionary={dictionary}
+        locale={locale}
+        onDone={() => window.location.assign(pendingTarget)}
+      />
+    );
   }
 
   return (

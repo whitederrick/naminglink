@@ -13,6 +13,8 @@ import {
   encodeAffinityInput,
   type AffinityInput,
 } from "@/lib/affinity-input";
+import { AdWatchOverlay } from "@/components/AdRewardGate";
+import { adSlotFor } from "@/lib/ads";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 export function AffinityForm({
@@ -29,6 +31,8 @@ export function AffinityForm({
   );
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  // 광고를 다 본 뒤 넘어갈 주소. null이면 아직 광고를 띄우지 않은 상태다.
+  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
 
   // 뒤로 가기로 돌아오면(bfcache) 제출 버튼이 잠긴 채 되살아난다. 궁합 폼과 같은 처리다.
   useEffect(() => {
@@ -61,8 +65,25 @@ export function AffinityForm({
     setSubmitting(true);
     // 궁합과 같은 이유로 프래그먼트에 싣고 location.assign으로 넘긴다(주소가 확정된 뒤에
     // 결과 화면의 스크립트가 돈다). 자세한 사연은 CompatibilityForm 주석에 있다.
-    window.location.assign(
-      `/affinity/result?lang=${locale}#${encodeAffinityInput(input)}`,
+    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에
+    // 게이트를 세웠는데, 그러면 버튼을 누른 사람이 결과 페이지에서 한 번 더 눌러야 했다.
+    // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
+    // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
+    const target = `/affinity/result?lang=${locale}#${encodeAffinityInput(input)}`;
+    if (adSlotFor("analyzing")) {
+      setPendingTarget(target);
+      return;
+    }
+    window.location.assign(target);
+  }
+
+  if (pendingTarget) {
+    return (
+      <AdWatchOverlay
+        dictionary={dictionary}
+        locale={locale}
+        onDone={() => window.location.assign(pendingTarget)}
+      />
     );
   }
 

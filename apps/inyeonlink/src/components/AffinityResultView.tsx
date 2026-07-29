@@ -6,14 +6,12 @@ import { useCallback, useEffect, useState } from "react";
 import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
-import { AdRewardGate } from "@/components/AdRewardGate";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
 import {
   decodeAffinityInput,
   type AffinityInput,
 } from "@/lib/affinity-input";
-import { adSlotFor } from "@/lib/ads";
 import { emphasize } from "@/lib/emphasize";
 import type {
   AffinityOutcome,
@@ -68,11 +66,6 @@ export function AffinityResultView({
 }) {
   const [state, setState] = useState<State>({ status: "loading" });
   const [copied, setCopied] = useState(false);
-  // 사주 궁합과 같은 규칙이다. 광고 슬롯이 설정돼 있을 때만 "광고 보고 결과 보기"를 거친다 —
-  // 지금은 퍼블리셔 ID가 없어 광고가 뜨지 않는데, 그 상태에서 게이트만 세우면 아무것도 보여
-  // 주지 않고 한 번 더 누르게 하는 셈이다. 빌드 시점 값이라 서버·클라이언트가 같다.
-  const gateRequired = Boolean(adSlotFor("analyzing"));
-  const [rewarded, setRewarded] = useState(false);
   const [checkOpen, setCheckOpen] = useState(false);
   const t = dictionary.affinity;
   const resolvedFragment = useResultFragment();
@@ -160,15 +153,6 @@ export function AffinityResultView({
   // 결과라, 진입에 두는 광고 하나가 이 화면의 유일한 보상형 자리다.
   // 오류 화면에는 세우지 않는다 — 보여 줄 것이 없는데 광고를 보게 할 수는 없다.
   // 간이 유형 확인기(TypeCheckModal)는 결과 안의 곁들임이라 게이트 대상이 아니다.
-  if (gateRequired && !rewarded) {
-    return (
-      <AdRewardGate
-        dictionary={dictionary}
-        locale={locale}
-        onReward={() => setRewarded(true)}
-      />
-    );
-  }
 
   const { outcome, input } = state;
   const best = outcome.stems.slice(0, BEST_COUNT);

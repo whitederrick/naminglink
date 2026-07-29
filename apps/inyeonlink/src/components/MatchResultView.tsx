@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
-import { AdRewardGate } from "@/components/AdRewardGate";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
-import { adSlotFor } from "@/lib/ads";
 import { emphasize } from "@/lib/emphasize";
 import {
   scoreBand,
@@ -52,11 +50,6 @@ export function MatchResultView({
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
 
-  // 광고 슬롯이 설정돼 있을 때만 "광고 보고 결과 보기"를 거친다. 지금은 퍼블리셔 ID가 없어
-  // 광고가 뜨지 않는데, 그 상태에서 게이트만 세우면 아무것도 보여 주지 않고 한 번 더 누르게
-  // 하는 셈이다. 빌드 시점에 정해지는 값이라 서버·클라이언트가 같다(하이드레이션 문제 없음).
-  const gateRequired = Boolean(adSlotFor("analyzing"));
-  const [rewarded, setRewarded] = useState(false);
 
   // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다. null이면 아직 못 읽은 것이다.
   // 주소가 확정되기를 기다리는 사연은 `useResultFragment`에 적어 두었다 — 인연의 결 화면과
@@ -171,15 +164,6 @@ export function MatchResultView({
   // 결과는 이미 손에 있지만, 광고를 켠 상태에서는 이용자가 "광고 보고 결과 보기"를 누르기
   // 전까지 열지 않는다. 오류 화면에는 게이트를 세우지 않는다 — 보여 줄 것이 없는데 광고를
   // 보게 하는 것은 정책 위반이자 무례한 일이다.
-  if (gateRequired && !rewarded) {
-    return (
-      <AdRewardGate
-        dictionary={dictionary}
-        locale={locale}
-        onReward={() => setRewarded(true)}
-      />
-    );
-  }
 
   const { outcome, input } = state;
   const band = scoreBand(outcome.totalScore);
