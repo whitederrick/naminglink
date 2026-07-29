@@ -757,6 +757,14 @@ export function NamingForm({
                                   sectionIndex === 2 &&
                                   field.type === "textarea"
                                 ? "grid gap-2 rounded-lg border border-line bg-surface-strong/60 p-4 [&_textarea]:border-foreground/20 [&_textarea]:bg-surface"
+                              : isHanjaMeaning &&
+                                    sectionIndex === 2 &&
+                                    field.type === "checkbox"
+                                  // 두 체크박스가 2열로 나란히 선다. 항목명 줄 수가 다르면
+                                  // ("불용문자 후보에서 빼기" 1줄 / "논쟁적인 글자까지 제외 (고급)" 2줄)
+                                  // 오른쪽 설명만 아래로 밀린다. subgrid로 두 열이 같은 행을
+                                  // 공유하게 해서 항목명 줄과 설명 줄을 각각 맞춘다.
+                                  ? "grid gap-2 md:row-span-2 md:grid-rows-subgrid"
                               : field.type === "textarea" && !isGlobalToKorean && !isKoreanToGlobal
                                     ? "grid gap-2 md:col-span-2"
                                     : "grid gap-2"
