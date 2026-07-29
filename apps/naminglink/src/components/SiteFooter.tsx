@@ -723,6 +723,9 @@ export function SiteFooter({
     { href: localePath("/privacy", locale), label: copy.links.privacy },
     { href: localePath("/refund-policy", locale), label: copy.links.refund },
     { href: localePath("/pricing", locale), label: copy.links.pricing },
+    // 사이트 전체에서 유일한 로그인 진입점이다. 문구는 오래전부터 23개 로케일에 있었는데
+    // 링크만 빠져 있어, 입력 화면의 저장 안내문을 봐야만 로그인을 찾을 수 있었다.
+    { href: localePath("/login", locale), label: copy.links.login },
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
   const footerValue = (label: string, value: string) =>
@@ -775,6 +778,8 @@ export function SiteFooter({
               linkClass={linkClass}
               textDirection={textDirection}
               locale={locale}
+              loginLabel={copy.links.login}
+              loginHref={localePath("/login", locale)}
             />
           ) : (
             footerLinks.map((link) => (

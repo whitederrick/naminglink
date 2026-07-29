@@ -37,7 +37,8 @@ export default async function AccountPage({
         <AuthPanel intent="account" locale={locale} />
         <AccountDashboard locale={locale} />
       </section>
-      <SiteFooter locale={locale} />
+      {/* 로그인 화면과 같은 이유로 팝업이다. 계정 화면에서 약관을 보려고 떠나면 돌아오기 번거롭다. */}
+      <SiteFooter locale={locale} policyMode="modal" />
     </main>
   );
 }

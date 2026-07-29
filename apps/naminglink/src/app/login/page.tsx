@@ -35,7 +35,8 @@ export default async function LoginPage({
         </div>
         <AuthPanel locale={locale} />
       </section>
-      <SiteFooter locale={locale} />
+      {/* 로그인 도중에 약관을 보려고 페이지를 떠나면 입력한 메일과 진행 상태를 잃는다. */}
+      <SiteFooter locale={locale} policyMode="modal" />
     </main>
   );
 }

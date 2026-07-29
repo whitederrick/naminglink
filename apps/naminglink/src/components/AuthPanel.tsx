@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
 import { LogIn, LogOut, Mail } from "lucide-react";
+import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { getAuthCopy } from "@/lib/i18n-auth";
+import { isLocaleCode } from "@/lib/locale-codes";
 import { localePath } from "@/lib/locale-path";
 
 type AuthPanelProps = {
@@ -24,6 +26,7 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [legalOpen, setLegalOpen] = useState<LegalDocument | null>(null);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -162,17 +165,36 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
         </button>
       </form>
 
+      {/* 약관은 팝업으로 연다. 링크로 두면 로그인 도중에 페이지를 떠나 입력한 메일과 진행 상태를
+          잃는다 — 서비스·결과 화면은 이미 팝업(`policyMode="modal"`)인데 여기만 남아 있었다. */}
       <p className="text-xs leading-5 text-muted">
         {copy.legalBefore}
-        <Link href={localePath("/terms", locale)} className="font-semibold text-foreground">
+        <button
+          type="button"
+          onClick={() => setLegalOpen("terms")}
+          className="font-semibold text-foreground underline decoration-line underline-offset-4"
+        >
           {copy.legalTerms}
-        </Link>
+        </button>
         {copy.legalBetween}
-        <Link href={localePath("/privacy", locale)} className="font-semibold text-foreground">
+        <button
+          type="button"
+          onClick={() => setLegalOpen("privacy")}
+          className="font-semibold text-foreground underline decoration-line underline-offset-4"
+        >
           {copy.legalPrivacy}
-        </Link>
+        </button>
         {copy.legalAfter}
       </p>
+      {legalOpen ? (
+        <LegalModal
+          kind={legalOpen}
+          // 이 컴포넌트는 locale을 문자열로 받는다(라우트에서 그대로 넘어온다).
+          // 아는 코드가 아니면 한국어로 떨어뜨린다 — 사전에 없는 값을 넘기면 빈 약관이 뜬다.
+          locale={isLocaleCode(locale) ? locale : "ko"}
+          onClose={() => setLegalOpen(null)}
+        />
+      ) : null}
 
       {message ? <p className="text-sm text-brand-teal">{message}</p> : null}
       {error ? <p className="text-sm text-brand-rose">{error}</p> : null}
