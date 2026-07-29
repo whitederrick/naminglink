@@ -75,7 +75,7 @@ function FancyKoreanServiceIcon({
             NAME
           </span>
           <span className="absolute right-1.5 top-1.5 text-[8px] font-semibold text-[#e6c8b6]">
-            ??
+            名
           </span>
         </span>
       </LandingIconShell>
@@ -89,10 +89,10 @@ function FancyKoreanServiceIcon({
           className="text-[1.75rem] font-semibold leading-none text-white"
           style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
         >
-          轢?
+          漢
         </span>
         <span className="absolute bottom-1.5 right-1.5 text-[8px] font-semibold text-[#e6c8b6]">
-          ??
+          意
         </span>
       </span>
     </LandingIconShell>
@@ -106,8 +106,8 @@ export async function generateMetadata({
   searchParams,
 }: HomeProps): Promise<Metadata> {
   const params = await searchParams;
-  // ?lang=???덉쓣 ?뚮쭔 洹??몄뼱?먯쓣 canonical濡??쇰뒗?? ?놁쑝硫??ㅻ뜑濡??몄뼱媛 媛덈━??
-  // x-default ?먮━??濡쒖????녿뒗 二쇱냼媛 canonical?대떎.
+  // ?lang=이 있을 때만 그 언어판을 canonical로 쓴다. 없으면 헤더로 언어가 갈리는
+  // x-default 자리라, 로케일 없는 주소가 canonical이다.
   const requested = isLocale(params?.lang) ? params.lang : null;
   const locale = await getRequestLocale(params?.lang);
   const copy = getLandingCopy(locale);
@@ -115,7 +115,7 @@ export async function generateMetadata({
   const description = copy.descriptionLines.join(" ");
 
   return {
-    // 猷⑦듃??template("%s | Naming-Link")??釉뚮옖?쒕? ??遺숈씠硫????섎?濡?absolute濡??붾떎.
+    // 루트의 template("%s | Naming-Link")이 브랜드를 또 붙이므로 여기는 absolute로 둔다.
     title: { absolute: title },
     description,
     alternates: buildAlternates("/", requested),
@@ -137,8 +137,8 @@ export default async function Home({ searchParams }: HomeProps) {
   const copy = getLandingCopy(locale);
   const textDirection = getTextDirection(locale);
   const isKoreanEntry = locale === "ko";
-  // break-keep(keep-all)? ?쒓뎅???⑥뼱 ?⑥쐞 以꾨컮轅덉슜. ?꾩뼱?곌린媛 ?녿뒗 臾몄옄沅??쇰낯?는룹쨷援?뼱쨌
-  // ?쒓뎅?는룻겕硫붾Ⅴ???먯꽌??以꾨컮轅?吏?먯씠 ?щ씪???띿뒪?멸? 酉고룷??諛뽰쑝濡??섎━誘濡??쇰컲 以꾨컮轅덉쓣 ?대떎.
+  // break-keep(keep-all)은 한국어 단어 단위 줄바꿈용. 띄어쓰기가 없는 문자권(일본어·중국어·
+  // 태국어·크메르어)에서는 줄바꿈 지점이 없어 텍스트가 뷰포트 밖으로 흘러나가므로 일반 줄바꿈을 쓴다.
   const spacelessScript = ["ja", "zh", "th", "km"].includes(locale);
   const wordBreakClass = spacelessScript
     ? "break-normal [overflow-wrap:anywhere]"
@@ -180,7 +180,7 @@ export default async function Home({ searchParams }: HomeProps) {
                 className="text-[18px] font-medium leading-none text-white/78"
                 style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
               >
-                ?ㅼ씠諛?- 留곹겕
+                네이밍 - 링크
               </span>
             </span>
           </Link>
@@ -194,8 +194,8 @@ export default async function Home({ searchParams }: HomeProps) {
         </header>
 
         <div className="relative z-10 mx-auto grid w-full max-w-7xl flex-1 gap-5 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-start lg:px-10 lg:pt-[clamp(6.5rem,14vh,8.5rem)]">
-          {/* min-w-0: 移대뱶 ?쒕ぉ(truncate=nowrap)???꾩껜 ??씠 min-width:auto瑜??怨?洹몃━???몃옓??
-              酉고룷??諛뽮퉴吏 遺?由щ뒗 寃껋쓣 李⑤떒?쒕떎(?쒕ぉ??湲??몄뼱?먯꽌 ?곗륫 ?섎┝???먯씤?댁뿀??. */}
+          {/* min-w-0: 카드 제목(truncate=nowrap)이 전체 폭을 min-width:auto로 밀고 그리드 트랙이
+              뷰포트 밖까지 부풀리는 것을 차단한다(제목이 긴 언어에서 우측 잘림의 원인이었다). */}
           <section className="min-w-0 max-w-3xl text-left lg:-translate-y-8 lg:grid lg:max-w-none lg:grid-rows-[5.75rem_12rem_6.25rem] lg:content-start">
             <p className="inline-flex w-fit items-center justify-center justify-self-start self-start rounded-lg border border-white/30 bg-white/12 px-5 py-3 text-center text-xl font-semibold text-white shadow-sm backdrop-blur sm:text-2xl">
               {copy.badge}
