@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import { koreanFamilyNameChoices, type ServiceType } from "@/lib/services";
 import { getMockResult } from "@/lib/mock-results";
 import { getSystemPrompt } from "@/lib/prompts";
+import { generateKoreanToGlobalParallel } from "@/lib/korean-to-global-parallel";
 import { getOfficialHanjaCandidates, getOfficialHanjaMeanings } from "@/lib/official-hanja-db";
 import { calculatePremiumSaju } from "@naminglink/core/saju";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
@@ -543,8 +544,32 @@ export async function generateNamingResult(
     };
   }
 
+  const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+
+  // 글로벌 이름 변환은 전략별 병렬 호출로 만든다. 한 번에 후보 5개를 받으면 출력이 1,500토큰을
+  // 넘어 실측 평균 36초(최악 54초)가 나왔다 — 출력은 순차 생성이라 길이에 비례한다.
+  // 전략을 호출마다 지정하므로 "5전략 각 1개" 규칙도 구조적으로 보장된다.
+  // 후보를 하나도 못 받으면 아래 단일 호출로 되돌아간다(품질 경로는 그대로 남는다).
+  if (serviceType === "KOREAN_TO_GLOBAL") {
+    const parallel = await generateKoreanToGlobalParallel(
+      openai,
+      model,
+      getSystemPrompt(serviceType),
+      enrichedInputFactors as Record<string, unknown>,
+    );
+    if (parallel) {
+      const normalized = normalizeKoreanToGlobalResult(parallel.result, enrichedInputFactors);
+      assertGenerationConstraint(normalized, enrichedInputFactors, generationConstraint);
+      return {
+        result: prepareResultForClient(normalized, generationConstraint),
+        analysisMeta: { officialCandidateCount, avoidedExcluded, avoidRestoredSyllables },
+        usage: { model, ...parallel.usage },
+      };
+    }
+  }
+
   const completion = await openai.chat.completions.create({
-    model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
+    model,
     // 이름 실존성이 중요한 글로벌 변환은 온도를 낮춰 지어낸 이름 조합을 줄인다.
     // 음차(발음 표기)는 창작이 아니라 결정적 변환이라 온도를 크게 낮춘다(표기 흔들림 방지).
     temperature: isHangulTransliteration
