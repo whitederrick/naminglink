@@ -30,9 +30,6 @@ export default async function AccountPage({
           <h1 className="mt-3 text-3xl font-semibold tracking-normal sm:text-5xl">
             {copy.accountTitle}
           </h1>
-          <p className="mt-4 text-base leading-7 text-muted">
-            {copy.accountDescription}
-          </p>
         </div>
         <AuthPanel intent="account" locale={locale} />
         <AccountDashboard locale={locale} />

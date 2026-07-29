@@ -8,7 +8,6 @@ export type AuthCopy = {
   loginDescription: string;
   accountEyebrow: string;
   accountTitle: string;
-  accountDescription: string;
   panelEyebrowLogin: string;
   panelEyebrowAccount: string;
   panelTitle: string;
@@ -23,7 +22,6 @@ export type AuthCopy = {
   legalAfter: string;
   sentMessage: string;
   loggedInEyebrow: string;
-  loggedInDescription: string;
   logoutButton: string;
   loggedOutMessage: string;
   configWaitTitle: string;
@@ -41,8 +39,6 @@ const authCopies: Record<string, AuthCopy> = {
       "작명 결과, 프리미엄 리포트, 굿즈 주문 이력을 안전하게 관리하기 위한 계정입니다.",
     accountEyebrow: "Naming-Link",
     accountTitle: "계정",
-    accountDescription:
-      "로그인 후 작명 이력, 결제 이력, 프리미엄 리포트, 도장 주문 상태를 이 화면에서 관리할 수 있도록 확장합니다.",
     panelEyebrowLogin: "이메일 로그인",
     panelEyebrowAccount: "계정 접근",
     panelTitle: "링크 한 번으로 안전하게 로그인",
@@ -58,8 +54,6 @@ const authCopies: Record<string, AuthCopy> = {
     legalAfter: "을 확인한 것으로 봅니다.",
     sentMessage: "로그인 링크를 이메일로 보냈습니다. 메일함에서 확인해 주세요.",
     loggedInEyebrow: "로그인됨",
-    loggedInDescription:
-      "작명 결과와 주문 이력은 이 계정 기준으로 저장됩니다. 결제와 PDF 발급 기능이 연결되면 이 화면에서 다시 내려받을 수 있게 됩니다.",
     logoutButton: "로그아웃",
     loggedOutMessage: "로그아웃되었습니다.",
     configWaitTitle: "로그인 설정 대기 중",
@@ -77,8 +71,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Your account keeps naming results, premium reports, and merchandise order history safe.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Account",
-    accountDescription:
-      "After logging in, this screen will grow to manage your naming history, payments, premium reports, and stamp order status.",
     panelEyebrowLogin: "Email login",
     panelEyebrowAccount: "Account access",
     panelTitle: "Sign in safely with a single link",
@@ -94,8 +86,6 @@ const authCopies: Record<string, AuthCopy> = {
     legalAfter: ".",
     sentMessage: "We sent a login link to your email. Please check your inbox.",
     loggedInEyebrow: "Logged in",
-    loggedInDescription:
-      "Naming results and order history are stored under this account. Once payment and PDF delivery are connected, you will be able to download them again from this screen.",
     logoutButton: "Log out",
     loggedOutMessage: "You have been logged out.",
     configWaitTitle: "Login setup pending",
@@ -113,8 +103,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Tài khoản giúp bạn quản lý an toàn kết quả đặt tên, báo cáo cao cấp và lịch sử đặt hàng sản phẩm.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Tài khoản",
-    accountDescription:
-      "Sau khi đăng nhập, màn hình này sẽ được mở rộng để quản lý lịch sử đặt tên, thanh toán, báo cáo cao cấp và trạng thái đặt con dấu.",
     panelEyebrowLogin: "Đăng nhập bằng email",
     panelEyebrowAccount: "Truy cập tài khoản",
     panelTitle: "Đăng nhập an toàn chỉ với một liên kết",
@@ -131,8 +119,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Chúng tôi đã gửi liên kết đăng nhập tới email của bạn. Vui lòng kiểm tra hộp thư.",
     loggedInEyebrow: "Đã đăng nhập",
-    loggedInDescription:
-      "Kết quả đặt tên và lịch sử đặt hàng được lưu theo tài khoản này. Khi tính năng thanh toán và cấp PDF được kết nối, bạn có thể tải lại chúng tại màn hình này.",
     logoutButton: "Đăng xuất",
     loggedOutMessage: "Bạn đã đăng xuất.",
     configWaitTitle: "Đang chờ cấu hình đăng nhập",
@@ -150,8 +136,6 @@ const authCopies: Record<string, AuthCopy> = {
       "บัญชีของคุณช่วยเก็บรักษาผลการตั้งชื่อ รายงานพรีเมียม และประวัติการสั่งซื้อสินค้าที่ระลึกอย่างปลอดภัย",
     accountEyebrow: "Naming-Link",
     accountTitle: "บัญชี",
-    accountDescription:
-      "หลังจากเข้าสู่ระบบ หน้าจอนี้จะขยายให้คุณจัดการประวัติการตั้งชื่อ ประวัติการชำระเงิน รายงานพรีเมียม และสถานะการสั่งทำตราประทับได้",
     panelEyebrowLogin: "เข้าสู่ระบบด้วยอีเมล",
     panelEyebrowAccount: "การเข้าถึงบัญชี",
     panelTitle: "เข้าสู่ระบบอย่างปลอดภัยด้วยลิงก์เดียว",
@@ -168,8 +152,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "เราได้ส่งลิงก์เข้าสู่ระบบไปยังอีเมลของคุณแล้ว กรุณาตรวจสอบกล่องจดหมาย",
     loggedInEyebrow: "เข้าสู่ระบบแล้ว",
-    loggedInDescription:
-      "ผลการตั้งชื่อและประวัติการสั่งซื้อจะถูกบันทึกไว้ตามบัญชีนี้ เมื่อฟีเจอร์การชำระเงินและการออกไฟล์ PDF เชื่อมต่อแล้ว คุณจะสามารถดาวน์โหลดได้อีกครั้งจากหน้าจอนี้",
     logoutButton: "ออกจากระบบ",
     loggedOutMessage: "คุณออกจากระบบแล้ว",
     configWaitTitle: "รอการตั้งค่าการเข้าสู่ระบบ",
@@ -187,8 +169,6 @@ const authCopies: Record<string, AuthCopy> = {
       "ネーミング結果、プレミアムレポート、グッズの注文履歴を安全に管理するためのアカウントです。",
     accountEyebrow: "Naming-Link",
     accountTitle: "アカウント",
-    accountDescription:
-      "ログイン後、この画面でネーミング履歴、決済履歴、プレミアムレポート、はんこの注文状況を管理できるように拡張していきます。",
     panelEyebrowLogin: "メールログイン",
     panelEyebrowAccount: "アカウントアクセス",
     panelTitle: "リンク1つで安全にログイン",
@@ -205,8 +185,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "ログインリンクをメールでお送りしました。受信トレイをご確認ください。",
     loggedInEyebrow: "ログイン済み",
-    loggedInDescription:
-      "ネーミング結果と注文履歴はこのアカウントを基準に保存されます。決済とPDF発行機能が連携されると、この画面から再ダウンロードできるようになります。",
     logoutButton: "ログアウト",
     loggedOutMessage: "ログアウトしました。",
     configWaitTitle: "ログイン設定の準備中",
@@ -224,8 +202,6 @@ const authCopies: Record<string, AuthCopy> = {
       "账户用于安全管理您的起名结果、高级报告和周边商品订单记录。",
     accountEyebrow: "Naming-Link",
     accountTitle: "账户",
-    accountDescription:
-      "登录后，此页面将逐步扩展，可管理您的起名记录、支付记录、高级报告以及印章订单状态。",
     panelEyebrowLogin: "邮箱登录",
     panelEyebrowAccount: "账户访问",
     panelTitle: "一条链接，安全登录",
@@ -241,8 +217,6 @@ const authCopies: Record<string, AuthCopy> = {
     legalAfter: "。",
     sentMessage: "登录链接已发送到您的邮箱，请查收。",
     loggedInEyebrow: "已登录",
-    loggedInDescription:
-      "起名结果和订单记录将保存在此账户下。支付与 PDF 发放功能接入后，您可以在此页面重新下载。",
     logoutButton: "退出登录",
     loggedOutMessage: "您已退出登录。",
     configWaitTitle: "等待登录配置",
@@ -260,8 +234,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Akun Anda menyimpan hasil penamaan, laporan premium, dan riwayat pesanan merchandise dengan aman.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Akun",
-    accountDescription:
-      "Setelah masuk, layar ini akan diperluas untuk mengelola riwayat penamaan, pembayaran, laporan premium, dan status pesanan stempel.",
     panelEyebrowLogin: "Masuk dengan email",
     panelEyebrowAccount: "Akses akun",
     panelTitle: "Masuk dengan aman melalui satu tautan",
@@ -278,8 +250,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Kami telah mengirim tautan masuk ke email Anda. Silakan periksa kotak masuk Anda.",
     loggedInEyebrow: "Sudah masuk",
-    loggedInDescription:
-      "Hasil penamaan dan riwayat pesanan disimpan berdasarkan akun ini. Setelah fitur pembayaran dan penerbitan PDF terhubung, Anda dapat mengunduhnya kembali dari layar ini.",
     logoutButton: "Keluar",
     loggedOutMessage: "Anda telah keluar.",
     configWaitTitle: "Menunggu konfigurasi login",
@@ -297,8 +267,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Ihr Konto verwahrt Naming-Ergebnisse, Premium-Berichte und die Bestellhistorie von Merchandise-Artikeln sicher.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Konto",
-    accountDescription:
-      "Nach der Anmeldung wird dieser Bereich erweitert, damit Sie Naming-Verlauf, Zahlungen, Premium-Berichte und den Status von Stempelbestellungen verwalten können.",
     panelEyebrowLogin: "E-Mail-Anmeldung",
     panelEyebrowAccount: "Kontozugang",
     panelTitle: "Mit einem einzigen Link sicher anmelden",
@@ -315,8 +283,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Wir haben Ihnen einen Anmeldelink per E-Mail gesendet. Bitte prüfen Sie Ihren Posteingang.",
     loggedInEyebrow: "Angemeldet",
-    loggedInDescription:
-      "Naming-Ergebnisse und Bestellhistorie werden unter diesem Konto gespeichert. Sobald Zahlung und PDF-Ausstellung verbunden sind, können Sie sie hier erneut herunterladen.",
     logoutButton: "Abmelden",
     loggedOutMessage: "Sie wurden abgemeldet.",
     configWaitTitle: "Anmeldekonfiguration ausstehend",
@@ -334,8 +300,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Tu cuenta guarda de forma segura los resultados de nombres, los informes premium y el historial de pedidos de merchandising.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Cuenta",
-    accountDescription:
-      "Tras iniciar sesión, esta pantalla se ampliará para gestionar tu historial de nombres, pagos, informes premium y el estado de los pedidos de sellos.",
     panelEyebrowLogin: "Inicio de sesión por correo",
     panelEyebrowAccount: "Acceso a la cuenta",
     panelTitle: "Inicia sesión de forma segura con un solo enlace",
@@ -352,8 +316,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Hemos enviado un enlace de acceso a tu correo. Revisa tu bandeja de entrada.",
     loggedInEyebrow: "Sesión iniciada",
-    loggedInDescription:
-      "Los resultados de nombres y el historial de pedidos se guardan en esta cuenta. Cuando el pago y la emisión de PDF estén conectados, podrás volver a descargarlos desde esta pantalla.",
     logoutButton: "Cerrar sesión",
     loggedOutMessage: "Has cerrado sesión.",
     configWaitTitle: "Configuración de acceso pendiente",
@@ -371,8 +333,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Votre compte conserve en toute sécurité vos résultats de prénoms, vos rapports premium et votre historique de commandes d'articles dérivés.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Compte",
-    accountDescription:
-      "Après la connexion, cet écran s'enrichira pour gérer votre historique de prénoms, vos paiements, vos rapports premium et l'état de vos commandes de sceaux.",
     panelEyebrowLogin: "Connexion par e-mail",
     panelEyebrowAccount: "Accès au compte",
     panelTitle: "Connectez-vous en toute sécurité avec un seul lien",
@@ -389,8 +349,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Nous avons envoyé un lien de connexion à votre adresse e-mail. Veuillez vérifier votre boîte de réception.",
     loggedInEyebrow: "Connecté",
-    loggedInDescription:
-      "Les résultats de prénoms et l'historique de commandes sont conservés sous ce compte. Une fois le paiement et l'émission de PDF connectés, vous pourrez les retélécharger depuis cet écran.",
     logoutButton: "Se déconnecter",
     loggedOutMessage: "Vous avez été déconnecté.",
     configWaitTitle: "Configuration de la connexion en attente",
@@ -408,8 +366,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Il tuo account conserva in sicurezza i risultati dei nomi, i report premium e la cronologia degli ordini di merchandising.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Account",
-    accountDescription:
-      "Dopo l'accesso, questa schermata verrà ampliata per gestire la cronologia dei nomi, i pagamenti, i report premium e lo stato degli ordini di timbri.",
     panelEyebrowLogin: "Accesso via email",
     panelEyebrowAccount: "Accesso all'account",
     panelTitle: "Accedi in sicurezza con un solo link",
@@ -426,8 +382,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Ti abbiamo inviato un link di accesso via email. Controlla la tua casella di posta.",
     loggedInEyebrow: "Accesso effettuato",
-    loggedInDescription:
-      "I risultati dei nomi e la cronologia degli ordini sono salvati con questo account. Quando il pagamento e l'emissione dei PDF saranno collegati, potrai scaricarli di nuovo da questa schermata.",
     logoutButton: "Esci",
     loggedOutMessage: "Sei uscito dall'account.",
     configWaitTitle: "Configurazione dell'accesso in sospeso",
@@ -445,8 +399,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Sua conta guarda com segurança os resultados de nomes, os relatórios premium e o histórico de pedidos de produtos personalizados.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Conta",
-    accountDescription:
-      "Depois de entrar, esta tela será ampliada para gerenciar seu histórico de nomes, pagamentos, relatórios premium e o status dos pedidos de carimbos.",
     panelEyebrowLogin: "Login por e-mail",
     panelEyebrowAccount: "Acesso à conta",
     panelTitle: "Entre com segurança com um único link",
@@ -463,8 +415,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Enviamos um link de acesso para o seu e-mail. Verifique sua caixa de entrada.",
     loggedInEyebrow: "Conectado",
-    loggedInDescription:
-      "Os resultados de nomes e o histórico de pedidos são salvos nesta conta. Quando o pagamento e a emissão de PDF estiverem conectados, você poderá baixá-los novamente nesta tela.",
     logoutButton: "Sair",
     loggedOutMessage: "Você saiu da conta.",
     configWaitTitle: "Configuração de login pendente",
@@ -482,8 +432,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Учётная запись надёжно хранит результаты подбора имён, премиум-отчёты и историю заказов сувенирной продукции.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Учётная запись",
-    accountDescription:
-      "После входа этот экран будет расширен для управления историей подбора имён, платежами, премиум-отчётами и статусом заказов печатей.",
     panelEyebrowLogin: "Вход по электронной почте",
     panelEyebrowAccount: "Доступ к учётной записи",
     panelTitle: "Безопасный вход по одной ссылке",
@@ -500,8 +448,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Мы отправили ссылку для входа на вашу электронную почту. Проверьте входящие.",
     loggedInEyebrow: "Вход выполнен",
-    loggedInDescription:
-      "Результаты подбора имён и история заказов сохраняются в этой учётной записи. Когда будут подключены оплата и выдача PDF, вы сможете снова скачивать их на этом экране.",
     logoutButton: "Выйти",
     loggedOutMessage: "Вы вышли из учётной записи.",
     configWaitTitle: "Ожидается настройка входа",
@@ -519,8 +465,6 @@ const authCopies: Record<string, AuthCopy> = {
       "يحفظ حسابك بأمان نتائج التسمية والتقارير المميزة وسجل طلبات المنتجات التذكارية.",
     accountEyebrow: "Naming-Link",
     accountTitle: "الحساب",
-    accountDescription:
-      "بعد تسجيل الدخول، ستتوسع هذه الشاشة لإدارة سجل التسمية والمدفوعات والتقارير المميزة وحالة طلبات الأختام.",
     panelEyebrowLogin: "تسجيل الدخول بالبريد الإلكتروني",
     panelEyebrowAccount: "الوصول إلى الحساب",
     panelTitle: "سجّل الدخول بأمان برابط واحد",
@@ -537,8 +481,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "أرسلنا رابط تسجيل الدخول إلى بريدك الإلكتروني. يرجى التحقق من صندوق الوارد.",
     loggedInEyebrow: "تم تسجيل الدخول",
-    loggedInDescription:
-      "تُحفظ نتائج التسمية وسجل الطلبات ضمن هذا الحساب. عند ربط الدفع وإصدار ملفات PDF، ستتمكن من تنزيلها مجددًا من هذه الشاشة.",
     logoutButton: "تسجيل الخروج",
     loggedOutMessage: "تم تسجيل خروجك.",
     configWaitTitle: "إعداد تسجيل الدخول قيد الانتظار",
@@ -556,8 +498,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Hesabınız; isim sonuçlarını, premium raporları ve hediyelik ürün sipariş geçmişini güvenle saklar.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Hesap",
-    accountDescription:
-      "Giriş yaptıktan sonra bu ekran; isim geçmişinizi, ödemelerinizi, premium raporlarınızı ve mühür siparişlerinizin durumunu yönetecek şekilde genişletilecektir.",
     panelEyebrowLogin: "E-posta ile giriş",
     panelEyebrowAccount: "Hesap erişimi",
     panelTitle: "Tek bir bağlantıyla güvenle giriş yapın",
@@ -574,8 +514,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Giriş bağlantısını e-posta adresinize gönderdik. Lütfen gelen kutunuzu kontrol edin.",
     loggedInEyebrow: "Giriş yapıldı",
-    loggedInDescription:
-      "İsim sonuçları ve sipariş geçmişi bu hesap altında saklanır. Ödeme ve PDF teslimi bağlandığında bunları bu ekrandan yeniden indirebileceksiniz.",
     logoutButton: "Çıkış yap",
     loggedOutMessage: "Çıkış yaptınız.",
     configWaitTitle: "Giriş yapılandırması bekleniyor",
@@ -593,8 +531,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Ligtas na iniingatan ng iyong account ang mga resulta ng pagpapangalan, premium na report, at kasaysayan ng order ng merchandise.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Account",
-    accountDescription:
-      "Pagkatapos mag-log in, palalawakin ang screen na ito para pamahalaan ang iyong kasaysayan ng pagpapangalan, mga pagbabayad, premium na report, at status ng order ng stamp.",
     panelEyebrowLogin: "Pag-log in gamit ang email",
     panelEyebrowAccount: "Access sa account",
     panelTitle: "Ligtas na mag-log in gamit ang isang link",
@@ -611,8 +547,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Nagpadala kami ng login link sa iyong email. Pakisuri ang iyong inbox.",
     loggedInEyebrow: "Naka-log in",
-    loggedInDescription:
-      "Ang mga resulta ng pagpapangalan at kasaysayan ng order ay iniimbak sa ilalim ng account na ito. Kapag naikonekta na ang pagbabayad at pag-isyu ng PDF, maaari mo itong muling i-download mula sa screen na ito.",
     logoutButton: "Mag-log out",
     loggedOutMessage: "Naka-log out ka na.",
     configWaitTitle: "Hinihintay ang setup ng login",
@@ -630,8 +564,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Hisobingiz ism natijalari, premium hisobotlar va esdalik buyumlari buyurtmalari tarixini xavfsiz saqlaydi.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Hisob",
-    accountDescription:
-      "Tizimga kirgandan so‘ng bu ekran ism tarixi, to‘lovlar, premium hisobotlar va muhr buyurtmalari holatini boshqarish uchun kengaytiriladi.",
     panelEyebrowLogin: "Email orqali kirish",
     panelEyebrowAccount: "Hisobga kirish",
     panelTitle: "Bitta havola bilan xavfsiz kiring",
@@ -648,8 +580,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Kirish havolasini emailingizga yubordik. Pochta qutingizni tekshiring.",
     loggedInEyebrow: "Tizimga kirilgan",
-    loggedInDescription:
-      "Ism natijalari va buyurtmalar tarixi shu hisob ostida saqlanadi. To‘lov va PDF berish ulangach, ularni shu ekrandan qayta yuklab olishingiz mumkin bo‘ladi.",
     logoutButton: "Chiqish",
     loggedOutMessage: "Tizimdan chiqdingiz.",
     configWaitTitle: "Kirish sozlamalari kutilmoqda",
@@ -667,8 +597,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Таны бүртгэл нэрийн үр дүн, премиум тайлан, дурсгалын бүтээгдэхүүний захиалгын түүхийг аюулгүй хадгална.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Бүртгэл",
-    accountDescription:
-      "Нэвтэрсний дараа энэ дэлгэц нэрийн түүх, төлбөр, премиум тайлан, тамганы захиалгын төлөвийг удирдах боломжтой болж өргөжнө.",
     panelEyebrowLogin: "Имэйлээр нэвтрэх",
     panelEyebrowAccount: "Бүртгэлд хандах",
     panelTitle: "Ганц холбоосоор аюулгүй нэвтрээрэй",
@@ -685,8 +613,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Нэвтрэх холбоосыг имэйл рүү тань илгээлээ. Ирсэн мэйлээ шалгана уу.",
     loggedInEyebrow: "Нэвтэрсэн",
-    loggedInDescription:
-      "Нэрийн үр дүн болон захиалгын түүх энэ бүртгэлээр хадгалагдана. Төлбөр болон PDF олгох функц холбогдсоны дараа тэдгээрийг энэ дэлгэцээс дахин татаж авах боломжтой болно.",
     logoutButton: "Гарах",
     loggedOutMessage: "Та системээс гарлаа.",
     configWaitTitle: "Нэвтрэх тохиргоо хүлээгдэж байна",
@@ -704,8 +630,6 @@ const authCopies: Record<string, AuthCopy> = {
       "आपका अकाउंट नामकरण परिणाम, प्रीमियम रिपोर्ट और मर्चेंडाइज़ ऑर्डर इतिहास को सुरक्षित रखता है।",
     accountEyebrow: "Naming-Link",
     accountTitle: "अकाउंट",
-    accountDescription:
-      "लॉग इन के बाद यह स्क्रीन आपके नामकरण इतिहास, भुगतान, प्रीमियम रिपोर्ट और मुहर ऑर्डर की स्थिति प्रबंधित करने के लिए विस्तारित की जाएगी।",
     panelEyebrowLogin: "ईमेल लॉगिन",
     panelEyebrowAccount: "अकाउंट एक्सेस",
     panelTitle: "एक ही लिंक से सुरक्षित लॉगिन",
@@ -722,8 +646,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "हमने आपके ईमेल पर लॉगिन लिंक भेज दिया है। कृपया अपना इनबॉक्स देखें।",
     loggedInEyebrow: "लॉग इन हो गया",
-    loggedInDescription:
-      "नामकरण परिणाम और ऑर्डर इतिहास इसी अकाउंट के अंतर्गत सहेजे जाते हैं। भुगतान और PDF जारी करने की सुविधा जुड़ने के बाद आप उन्हें इसी स्क्रीन से फिर से डाउनलोड कर सकेंगे।",
     logoutButton: "लॉग आउट",
     loggedOutMessage: "आप लॉग आउट हो गए हैं।",
     configWaitTitle: "लॉगिन सेटअप लंबित है",
@@ -741,8 +663,6 @@ const authCopies: Record<string, AuthCopy> = {
       "គណនីរបស់អ្នករក្សាទុកលទ្ធផលដាក់ឈ្មោះ របាយការណ៍ព្រីមៀម និងប្រវត្តិបញ្ជាទិញផលិតផលអនុស្សាវរីយ៍ដោយសុវត្ថិភាព។",
     accountEyebrow: "Naming-Link",
     accountTitle: "គណនី",
-    accountDescription:
-      "បន្ទាប់ពីចូលគណនី អេក្រង់នេះនឹងត្រូវពង្រីកដើម្បីគ្រប់គ្រងប្រវត្តិដាក់ឈ្មោះ ការទូទាត់ របាយការណ៍ព្រីមៀម និងស្ថានភាពបញ្ជាទិញត្រា។",
     panelEyebrowLogin: "ចូលតាមអ៊ីមែល",
     panelEyebrowAccount: "ការចូលប្រើគណនី",
     panelTitle: "ចូលដោយសុវត្ថិភាពដោយតំណតែមួយ",
@@ -759,8 +679,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "យើងបានផ្ញើតំណចូលទៅអ៊ីមែលរបស់អ្នកហើយ។ សូមពិនិត្យប្រអប់សាររបស់អ្នក។",
     loggedInEyebrow: "បានចូលគណនី",
-    loggedInDescription:
-      "លទ្ធផលដាក់ឈ្មោះ និងប្រវត្តិបញ្ជាទិញត្រូវបានរក្សាទុកតាមគណនីនេះ។ នៅពេលការទូទាត់ និងការចេញឯកសារ PDF ត្រូវបានភ្ជាប់ អ្នកអាចទាញយកវាឡើងវិញពីអេក្រង់នេះ។",
     logoutButton: "ចាកចេញ",
     loggedOutMessage: "អ្នកបានចាកចេញពីគណនីហើយ។",
     configWaitTitle: "កំពុងរង់ចាំការកំណត់ការចូល",
@@ -778,8 +696,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Тіркелгіңіз есім нәтижелерін, премиум есептерді және кәдесый өнімдер тапсырыстарының тарихын қауіпсіз сақтайды.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Тіркелгі",
-    accountDescription:
-      "Жүйеге кіргеннен кейін бұл экран есім тарихын, төлемдерді, премиум есептерді және мөр тапсырыстарының күйін басқару үшін кеңейтіледі.",
     panelEyebrowLogin: "Email арқылы кіру",
     panelEyebrowAccount: "Тіркелгіге қол жеткізу",
     panelTitle: "Бір сілтемемен қауіпсіз кіріңіз",
@@ -796,8 +712,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Кіру сілтемесін email мекенжайыңызға жібердік. Кіріс жәшігіңізді тексеріңіз.",
     loggedInEyebrow: "Жүйеге кірдіңіз",
-    loggedInDescription:
-      "Есім нәтижелері мен тапсырыстар тарихы осы тіркелгіде сақталады. Төлем және PDF беру қосылғаннан кейін оларды осы экраннан қайта жүктеп ала аласыз.",
     logoutButton: "Шығу",
     loggedOutMessage: "Жүйеден шықтыңыз.",
     configWaitTitle: "Кіру баптауы күтілуде",
@@ -815,8 +729,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Akaun anda menyimpan hasil penamaan, laporan premium dan sejarah pesanan barangan cenderamata dengan selamat.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Akaun",
-    accountDescription:
-      "Selepas log masuk, skrin ini akan diperluas untuk mengurus sejarah penamaan, pembayaran, laporan premium dan status pesanan cop.",
     panelEyebrowLogin: "Log masuk e-mel",
     panelEyebrowAccount: "Akses akaun",
     panelTitle: "Log masuk dengan selamat melalui satu pautan",
@@ -833,8 +745,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Kami telah menghantar pautan log masuk ke e-mel anda. Sila semak peti masuk anda.",
     loggedInEyebrow: "Telah log masuk",
-    loggedInDescription:
-      "Hasil penamaan dan sejarah pesanan disimpan di bawah akaun ini. Setelah pembayaran dan penghantaran PDF disambungkan, anda boleh memuat turunnya semula dari skrin ini.",
     logoutButton: "Log keluar",
     loggedOutMessage: "Anda telah log keluar.",
     configWaitTitle: "Persediaan log masuk belum selesai",
@@ -852,8 +762,6 @@ const authCopies: Record<string, AuthCopy> = {
       "Twoje konto bezpiecznie przechowuje wyniki nazewnicze, raporty premium i historię zamówień gadżetów.",
     accountEyebrow: "Naming-Link",
     accountTitle: "Konto",
-    accountDescription:
-      "Po zalogowaniu ten ekran zostanie rozbudowany o zarządzanie historią imion, płatnościami, raportami premium i statusem zamówień pieczątek.",
     panelEyebrowLogin: "Logowanie e-mailem",
     panelEyebrowAccount: "Dostęp do konta",
     panelTitle: "Zaloguj się bezpiecznie jednym linkiem",
@@ -870,8 +778,6 @@ const authCopies: Record<string, AuthCopy> = {
     sentMessage:
       "Wysłaliśmy link do logowania na Twój e-mail. Sprawdź swoją skrzynkę odbiorczą.",
     loggedInEyebrow: "Zalogowano",
-    loggedInDescription:
-      "Wyniki nazewnicze i historia zamówień są przechowywane na tym koncie. Gdy płatności i wydawanie PDF zostaną podłączone, będzie można pobrać je ponownie z tego ekranu.",
     logoutButton: "Wyloguj się",
     loggedOutMessage: "Wylogowano.",
     configWaitTitle: "Oczekiwanie na konfigurację logowania",

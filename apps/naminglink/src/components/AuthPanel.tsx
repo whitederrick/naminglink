@@ -110,9 +110,6 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
             {copy.loggedInEyebrow}
           </p>
           <h2 className="mt-2 text-2xl font-semibold">{currentEmail}</h2>
-          <p className="mt-3 text-sm leading-6 text-muted">
-            {copy.loggedInDescription}
-          </p>
         </div>
         <button
           type="button"
