@@ -5,8 +5,8 @@ import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { adsEnabled } from "@/lib/ads";
-import { useSelfGateNeeded } from "@/lib/offerwall";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -442,8 +442,9 @@ export function CandidateUnlockPanel({
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [countdown, setCountdown] = useState(0);
+  // 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
+  const [adFilled, setAdFilled] = useState<boolean | null>(null);
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
-  const selfGateNeeded = useSelfGateNeeded();
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
   const [paypalCheckout, setPaypalCheckout] = useState<UnlockCheckout | null>(null);
@@ -672,11 +673,19 @@ export function CandidateUnlockPanel({
     if (loading || remainingCount === 0) return;
 
     setLoading(true);
-    // 오퍼월이 도는 방문에서는 기다리게 하지 않는다. 진입에서 이미 광고를 거쳤다.
-    const waitSeconds = selfGateNeeded ? UNLOCK_AD_SECONDS : 0;
-    if (waitSeconds > 0) {
-      trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
-    }
+    /**
+     * **후보 열기는 오퍼월과 무관하게 항상 광고를 요구한다.**
+     *
+     * 오퍼월은 입력 화면에서 돌고, 통과하면 결과 화면으로 **페이지가 바뀐다.** 거기까지가
+     * 오퍼월의 몫이다. 후보 열기는 같은 페이지 안에서 일어나므로 오퍼월이 다시 뜰 수 없고,
+     * 그래서 이 자리는 GAM 보상형이 맡는다.
+     *
+     * 예전에는 `selfGateNeeded`(오퍼월 판정)를 여기서도 봤다. 그러면 오퍼월을 한 번 통과한
+     * 이용자가 **나머지 후보를 전부 공짜로 여는** 상태가 된다 — 광고 한 번에 결과 전체가
+     * 나가므로 "1광고 1결과"가 성립하지 않는다. 그 연결을 끊는다.
+     */
+    const waitSeconds = UNLOCK_AD_SECONDS;
+    trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
     setCountdown(waitSeconds);
     const startedAt = Date.now();
     const timer = window.setInterval(() => {
@@ -718,7 +727,16 @@ export function CandidateUnlockPanel({
 
       {loading ? (
         <div className="mt-5 grid gap-3">
-          <AdBanner variant="leaderboard" slotKey="candidate_unlock" />
+          {/* 애드센스가 못 채우면 셀프 광고로 대신 채운다. 기다림은 그대로 두고 내용만 바꾼다.
+              나중에 이 자리를 GAM 보상형으로 바꿔도 폴백은 같은 카드를 쓴다. */}
+          <div className={adFilled === false ? "hidden" : undefined}>
+            <AdBanner
+              variant="leaderboard"
+              slotKey="candidate_unlock"
+              onFilledChange={setAdFilled}
+            />
+          </div>
+          {adFilled === false ? <SelfAdCard /> : null}
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.watchingNote(countdown)}
           </p>
@@ -745,7 +763,7 @@ export function CandidateUnlockPanel({
           // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 후보를 열어 주면
           // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
           disabled={
-            loading || remainingCount === 0 || !adsEnabled || selfGateNeeded === null
+            loading || remainingCount === 0 || !adsEnabled
           }
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
         >

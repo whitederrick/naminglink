@@ -6,12 +6,12 @@ import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { adsEnabled } from "@/lib/ads";
-import { useSelfGateNeeded } from "@/lib/offerwall";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { HangulStampCard } from "@/components/HangulStampCard";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
   globalNameToHangulService,
@@ -84,15 +84,18 @@ function ReanalysisSection({
   const [pronunciationHint, setPronunciationHint] = useState(initialHint);
   const [loading, setLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
-  // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
-  const selfGateNeeded = useSelfGateNeeded();
   const [error, setError] = useState<string | null>(null);
+  // 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
+  const [adFilled, setAdFilled] = useState<boolean | null>(null);
 
   async function reanalyze() {
     setError(null);
     setLoading(true);
-    // 오퍼월이 도는 방문에서는 기다리게 하지 않는다. 진입에서 이미 광고를 거쳤다.
-    const waitSeconds = selfGateNeeded ? 5 : 0;
+    // **오퍼월과 무관하게 항상 광고를 요구한다.** 오퍼월은 입력 화면에서 돌고 결과 화면으로
+    // 페이지가 바뀌는 것까지가 그 몫이다. 다시 분석은 같은 페이지에서 새 결과를 만들므로
+    // 오퍼월이 다시 뜰 수 없다. 오퍼월 판정을 여기서 보면 한 번 통과한 이용자가 결과를
+    // 무제한으로 다시 뽑게 된다(후보 열기와 같은 이유).
+    const waitSeconds = 5;
     setCountdown(waitSeconds);
     const timer = window.setInterval(() => {
       setCountdown((current) => Math.max(0, current - 1));
@@ -161,7 +164,15 @@ function ReanalysisSection({
       </label>
       {loading ? (
         <div className="mt-5 grid gap-3">
-          <AdBanner variant="leaderboard" slotKey="hangul_candidate_unlock" />
+          {/* 애드센스가 못 채우면 셀프 광고로 대신 채운다. 기다림은 그대로 두고 내용만 바꾼다. */}
+          <div className={adFilled === false ? "hidden" : undefined}>
+            <AdBanner
+              variant="leaderboard"
+              slotKey="hangul_candidate_unlock"
+              onFilledChange={setAdFilled}
+            />
+          </div>
+          {adFilled === false ? <SelfAdCard /> : null}
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.reanalysisCountdown(countdown)}
           </p>
@@ -178,7 +189,7 @@ function ReanalysisSection({
         // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 다시 분석해 주면
         // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
         disabled={
-          loading || !pronunciationHint.trim() || !adsEnabled || selfGateNeeded === null
+          loading || !pronunciationHint.trim() || !adsEnabled
         }
         className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
       >
