@@ -10,6 +10,38 @@ import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 // 상품 설정 화면: 가격·통화·서체 적용 수·노출을 조정한다(변경 이력 자동 기록).
 // 가격 변경 시 요금안내·약관 문서의 표기 금액도 함께 갱신해야 한다.
 
+/**
+ * 상품이 어느 서비스 것인지.
+ *
+ * `product_settings`에는 서비스 컬럼이 없다 — 한 표를 두 앱이 나눠 쓴다. 그래서 코드로 가른다.
+ * **인연링크 것만 적고 나머지는 전부 naminglink로 본다.** 인연링크가 파는 것은 사주 궁합 PDF와
+ * 인연의 결 PDF 둘뿐이고 앞으로도 적은 쪽이라, 새 상품이 생겼을 때 기본값이 맞을 확률이 높다.
+ *
+ * 새 인연링크 상품을 만들면 여기에 코드를 더할 것. 빠뜨리면 배지만 틀리고 값은 멀쩡하다.
+ */
+const INYEONLINK_CODES = new Set([
+  "GUNGHAP_PDF_KRW",
+  "GUNGHAP_PDF_USD",
+  "AFFINITY_PDF_KRW",
+  "AFFINITY_PDF_USD",
+]);
+
+function ServiceBadge({ code }: { code: string }) {
+  const isInyeon = INYEONLINK_CODES.has(code);
+
+  return (
+    <span
+      className={`mr-1.5 inline-block rounded px-1.5 py-0.5 align-middle text-[11px] font-semibold ${
+        isInyeon
+          ? "bg-brand-plum/12 text-brand-plum"
+          : "bg-brand-teal/12 text-brand-teal"
+      }`}
+    >
+      {isInyeon ? "인연링크" : "네이밍링크"}
+    </span>
+  );
+}
+
 type ProductRow = {
   code: string;
   name_ko: string;
@@ -143,7 +175,10 @@ export function AdminProductSettings() {
         headers={["상품", "현재 가격", "금액", "서체 수", "저장", "노출", "최근 수정"]}
         rows={products.map((row) => [
           <div key="name">
-            <p className="font-medium">{row.name_ko}</p>
+            <p className="font-medium">
+              <ServiceBadge code={row.code} />
+              {row.name_ko}
+            </p>
             <p className="text-xs text-muted">{row.code} · {row.currency}</p>
           </div>,
           price(row.amount, row.currency),
