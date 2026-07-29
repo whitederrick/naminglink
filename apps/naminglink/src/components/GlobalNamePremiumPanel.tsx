@@ -1075,8 +1075,14 @@ export function GlobalNamePremiumPanel({
             </select>
           </label>
         ) : (
+          // **열린 후보만 적는다.** 예전에는 `candidates` 전체를 그대로 이어 붙여, 광고나 결제로
+          // 아직 열지 않은 후보의 한글 이름이 이 구매 자리에서 그냥 읽혔다 — 잠금이 무의미해진다.
+          // 리포트에는 전부 들어가므로 남은 개수는 `+N`으로만 알린다(숫자라 번역이 필요 없다).
           <p className="self-end pb-2 text-sm font-medium">
-            {candidates.map((candidate) => candidate.hangul).join(" · ")}
+            {selectable.map((candidate) => candidate.hangul).join(" · ")}
+            {candidates.length > selectable.length
+              ? ` · +${candidates.length - selectable.length}`
+              : ""}
           </p>
         )}
         {stage === "ready" ? (

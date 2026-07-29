@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, Home, RotateCcw, ShoppingBag } from "lucide-react";
+import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -178,39 +178,9 @@ function ReanalysisSection({
   );
 }
 
-function ResultServices({ copy, locale }: { copy: ResultCopy; locale: string }) {
-  return (
-    <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
-      <p className="text-sm font-semibold text-brand-teal">
-        {copy.goodsEyebrow}
-      </p>
-      <h2 className="mt-2 text-lg font-semibold">{copy.goodsSectionTitle}</h2>
-      <div className="mt-5 grid gap-4">
-        <article className="flex h-full flex-col rounded-lg border border-line bg-background p-5">
-          <span className="flex size-10 items-center justify-center rounded-lg bg-surface-strong text-brand-teal">
-            <ShoppingBag aria-hidden="true" size={20} />
-          </span>
-          <h3 className="mt-4 font-semibold">
-            {copy.goodsItemTitle}
-            <span className="ml-1 text-sm font-medium text-muted">
-              {copy.goodsItemSub}
-            </span>
-          </h3>
-          <p className="mt-2 text-sm leading-6 text-muted">
-            {copy.goodsItemDescription}
-          </p>
-
-          <Link
-            href={`/stamp-order?lang=${locale}`}
-            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
-          >
-            {copy.goodsButton}
-          </Link>
-        </article>
-      </div>
-    </section>
-  );
-}
+// 도장 소개 카드(ResultServices)는 지웠다. 바로 위의 HangulStampCard가 같은 상품을 파는데
+// 결과의 표기까지 채워 주므로, 빈 `/stamp-order` 링크만 있는 카드가 아래에 또 있으면 같은
+// 구매 자리가 화면에 두 번 나온다. copy의 goods* 키는 다른 화면과 공유하므로 그대로 둔다.
 
 const emptySubscribe = () => () => {};
 
@@ -324,19 +294,9 @@ export function HangulPronunciationResultPage({
               }
               onUnlockAll={() => setRevealedCount(candidateCount)}
             />
-            <GlobalNamePremiumPanel
-              product="HANGUL_ART_PDF"
-              candidates={artCandidatesOf(currentStored.result)}
-              revealedCount={revealedCount}
-              inputFactors={currentStored.inputFactors}
-              locale={locale}
-            />
-            {/* 오픈된 음차 표기 후보에서 이름 조각을 골라 도장을 신청한다(발음 이름은 길어서 파트 선택). */}
-            <HangulStampCard
-              candidates={artCandidatesOf(currentStored.result)}
-              revealedCount={revealedCount}
-              locale={locale}
-            />
+            {/* 순서: 결과를 다듬는 것 → 그 결과로 만드는 것.
+                발음 교정이 먼저 와야 한다 — 아트 PDF와 도장은 **확정된 표기를 새기는** 상품이라,
+                교정을 뒤에 두면 이미 산 뒤에 표기를 고치게 된다. */}
             <ReanalysisSection
               key={currentStored.createdAt}
               stored={currentStored}
@@ -344,7 +304,22 @@ export function HangulPronunciationResultPage({
               onUpdated={setUpdatedStored}
               copy={copy}
             />
-            <ResultServices copy={copy} locale={locale} />
+            <GlobalNamePremiumPanel
+              product="HANGUL_ART_PDF"
+              candidates={artCandidatesOf(currentStored.result)}
+              revealedCount={revealedCount}
+              inputFactors={currentStored.inputFactors}
+              locale={locale}
+            />
+            {/* 오픈된 음차 표기 후보에서 이름 조각을 골라 도장을 신청한다(발음 이름은 길어서 파트 선택).
+                도장 구매 자리는 **여기 하나뿐이다.** 예전에는 이 아래에 도장 소개 카드가 하나 더
+                있어 같은 상품 구매 자리가 화면에 두 번 나왔다. 이쪽은 결과의 표기를 그대로
+                채워 주므로 남기고, 빈 링크만 있던 소개 카드를 지웠다. */}
+            <HangulStampCard
+              candidates={artCandidatesOf(currentStored.result)}
+              revealedCount={revealedCount}
+              locale={locale}
+            />
           </div>
         ) : (
           <section className="rounded-lg border border-line bg-surface p-6 shadow-sm">
