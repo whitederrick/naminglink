@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 
 import { MatchResultView } from "@/components/MatchResultView";
@@ -8,6 +9,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
 import { getReportOffer, getReportProduct, regionForLocale } from "@/lib/report-product";
+import { noIndex } from "@/lib/seo";
+
+// 결과 화면은 색인하지 않는다. 입력값이 URL 프래그먼트(#)에만 있어 **주소만으로는 아무 내용이
+// 없고**, 크롤러는 프래그먼트를 보내지 않으므로 빈 화면이 색인된다. follow는 남겨 여기서
+// 나가는 링크는 계속 따라가게 한다.
+export const metadata: Metadata = { robots: noIndex };
 
 // 결과 자체는 클라이언트에서 그린다. 입력값이 URL 프래그먼트(#)에만 있고 프래그먼트는
 // 서버로 전송되지 않기 때문이다 — 서버 렌더링으로는 애초에 읽을 수 없는 값이다.

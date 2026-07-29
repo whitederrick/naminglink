@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,8 +6,45 @@ import { BrandMark } from "@/components/BrandMark";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
-import { getDictionary } from "@/lib/i18n";
+import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
+import { buildAlternates, siteUrl } from "@/lib/seo";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const { lang } = await searchParams;
+  // ?lang=이 있을 때만 그 언어판을 canonical로 삼는다. 없으면 헤더로 언어가 갈리는
+  // x-default 자리라 로케일 없는 주소가 canonical이다.
+  const requested = isLocale(lang) ? lang : null;
+  const locale = await getRequestLocale(lang);
+  const dictionary = getDictionary(locale);
+  // 히어로 제목에는 줄바꿈이 들어 있다(화면에서 whitespace-pre-line으로 쓴다).
+  // 검색 결과 제목에 개행이 그대로 나가면 안 되므로 공백으로 편다.
+  const title = `${dictionary.landing.title.replace(/\s*\n\s*/g, " ")} | ${dictionary.brand}`;
+
+  return {
+    // 루트는 template("%s | Inyeon-Link")이 브랜드를 또 붙이면 안 되므로 absolute로 둔다.
+    title: { absolute: title },
+    description: dictionary.landing.subtitle,
+    alternates: buildAlternates("/", requested),
+    openGraph: {
+      type: "website",
+      siteName: "Inyeon-Link",
+      title,
+      description: dictionary.landing.subtitle,
+      url: requested ? `${siteUrl}/?lang=${requested}` : `${siteUrl}/`,
+      locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: dictionary.landing.subtitle,
+    },
+  };
+}
 
 // 레이아웃 문법은 naminglink 랜딩과 같다: 화면을 채우는 어두운 히어로 + 그 위 흰 글씨 +
 // 반투명 유리 카드. 배경만 사진이 아니라 그라데이션이다(globals.css의 .hero-backdrop).

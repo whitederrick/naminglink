@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 
 import { LegalDocumentView } from "@/components/LegalDocumentView";
-import { getDictionary } from "@/lib/i18n";
+import { isLocale } from "@/lib/i18n";
 import { getCompanyInfo } from "@/lib/company-server";
 import { getLegalDocument } from "@/lib/legal-content";
 import { getRequestLocale } from "@/lib/locale";
+import { buildPageMetadata } from "@/lib/seo";
 import { getReportPrices } from "@/lib/report-product";
 
 export async function generateMetadata({
@@ -20,10 +21,14 @@ export async function generateMetadata({
         await getCompanyInfo(),
         await getReportPrices(),
       );
-  return {
-    title: `${document.title} | ${getDictionary(locale).brand}`,
+  return buildPageMetadata({
+    path: "/refund-policy",
+    locale,
+    requested: isLocale(lang) ? lang : null,
+    // 제목에 브랜드를 붙이지 않는다 — 루트 레이아웃의 title.template이 붙여 준다.
+    title: document.title,
     description: document.intro,
-  };
+  });
 }
 
 export default async function RefundPolicyPage({

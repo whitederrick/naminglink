@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 
 import { AdBanner } from "@/components/AdBanner";
@@ -6,8 +7,26 @@ import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
-import { getDictionary } from "@/lib/i18n";
+import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
+import { buildPageMetadata } from "@/lib/seo";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const { lang } = await searchParams;
+  const locale = await getRequestLocale(lang);
+  const { affinity } = getDictionary(locale);
+  return buildPageMetadata({
+    path: "/affinity",
+    locale,
+    requested: isLocale(lang) ? lang : null,
+    title: affinity.formTitle,
+    description: affinity.formDescription,
+  });
+}
 
 export default async function AffinityPage({
   searchParams,
