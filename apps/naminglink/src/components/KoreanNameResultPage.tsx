@@ -141,6 +141,22 @@ export function KoreanNameResultPage({
               revealedCount={revealedCount}
               locale={locale}
             />
+            {/* 순서: 종합 리포트 → 후보 열기 → 아트 팩 → 도장.
+                한자 매핑과 같은 원칙이다(유료 → 광고로 열기 → 굿즈).
+
+                **종합 리포트를 앞에 두는 이유**: 이 상품은 후보 전체를 담으므로 후보를 열었는지와
+                무관하다. 그래서 후보 열기보다 앞에 와도 화면이 비지 않는다.
+
+                **아트 팩만 후보 열기 뒤에 남기는 이유**: 아트 팩은 *열린 후보 중 하나를 골라*
+                만드는 상품이라 선택지가 revealedCount에 묶여 있다(`selectable`). 앞으로 당기면
+                "고르라"면서 선택지가 하나뿐인 화면이 된다 — 후보 열기가 이 상품의 값어치를
+                만들어 주므로 그 뒤여야 한다. */}
+            <GlobalNamePremiumPanel
+              candidates={premiumCandidatesOf(stored.result)}
+              revealedCount={revealedCount}
+              inputFactors={stored.inputFactors}
+              locale={locale}
+            />
             <CandidateUnlockPanel
               persistKey={resultId}
               revealedCount={revealedCount}
@@ -151,12 +167,6 @@ export function KoreanNameResultPage({
                 setRevealedCount((current) => Math.min(totalCount, current + 1))
               }
               onUnlockAll={() => setRevealedCount(totalCount)}
-            />
-            <GlobalNamePremiumPanel
-              candidates={premiumCandidatesOf(stored.result)}
-              revealedCount={revealedCount}
-              inputFactors={stored.inputFactors}
-              locale={locale}
             />
             <GlobalNamePremiumPanel
               product="NAME_ART_PACK"
