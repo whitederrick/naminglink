@@ -941,7 +941,9 @@ export function NamingForm({
         <button
           type="submit"
           disabled={loading || !adsEnabled || selfGateNeeded === null}
-          className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
+          // 문구가 긴 로케일("광고 확인 후 한글 발음 분석 시작")이 좁은 화면에서 두 줄로
+          // 넘어가지 않도록 모바일만 글자를 한 단계 줄인다.
+          className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-3 text-[13px] font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:text-sm"
         >
           <Send aria-hidden="true" size={17} />
           {isHangulTransliteration ? t.submitTransliteration : t.submitDefault}

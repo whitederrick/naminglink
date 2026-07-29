@@ -119,6 +119,14 @@ export function ResultAddOnServices({
     ? ["STAMP_ROUND_WOOD_USD", "STAMP_SQUARE_WOOD_USD", "STAMP_EBONY_USD"]
     : ["STAMP_ROUND_WOOD_KRW", "STAMP_SQUARE_WOOD_KRW", "STAMP_EBONY_KRW"];
   const [stampPriceRange, setStampPriceRange] = useState<string | null>(null);
+  /**
+   * 도장을 지금 살 수 있는가. 조회 중에는 `null`이다.
+   *
+   * `/api/product-info`는 **살 수 있는 상품만** 돌려준다(상품 enabled AND 결제 키, 판정은 서버
+   * 한 곳). 그래서 빈 응답이 곧 "지금은 못 판다"는 뜻이다. 이 값으로 신청 버튼을 잠근다 —
+   * 눌러도 살 수 없는 버튼을 열어 두면 이용자를 주문 화면까지 끌고 갔다가 돌려보내게 된다.
+   */
+  const [stampAvailable, setStampAvailable] = useState<boolean | null>(null);
   useEffect(() => {
     let alive = true;
     void (async () => {
@@ -131,13 +139,19 @@ export function ResultAddOnServices({
           (row): row is { amount: number; display: string } =>
             typeof row?.amount === "number" && typeof row?.display === "string",
         );
-        if (!alive || rows.length === 0) return;
+        if (!alive) return;
+        if (rows.length === 0) {
+          setStampAvailable(false);
+          return;
+        }
         const sorted = [...rows].sort((a, b) => a.amount - b.amount);
         const low = sorted[0]!.display;
         const high = sorted[sorted.length - 1]!.display;
         setStampPriceRange(low === high ? low : `${low}~${high}`);
+        setStampAvailable(true);
       } catch {
         // 조회 실패 시 금액을 적지 않는다. 틀린 값을 보여 주는 것보다 낫다.
+        if (alive) setStampAvailable(false);
       }
     })();
     return () => {
@@ -273,21 +287,38 @@ export function ResultAddOnServices({
               </div>
             </div>
           ) : null}
-          <Link
-            href={(() => {
-              const base = localePath("/stamp-order", locale ?? "ko");
-              // 한자 후보를 고른 경우가 우선이다(한자 매핑 흐름).
-              if (hanjaOptions.length > 0 && hanjaValid) {
-                return `${base}&name=${encodeURIComponent(composedHanja)}`;
-              }
-              if (selectedName) return `${base}&name=${encodeURIComponent(selectedName)}`;
-              return base;
-            })()}
-            className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
-          >
-            {(foreign ? copy.button : "이름 도장 신청") +
-              (stampPriceRange ? ` · ${stampPriceRange}` : "")}
-          </Link>
+          {stampAvailable ? (
+            <Link
+              href={(() => {
+                // 쿼리는 반드시 `localePath`에 넘긴다. 예전에는 이 함수가 `?lang=ko`를 붙여 줘서
+                // 뒤에 `&name=`을 이어 붙여도 됐는데, 경로 기반 URL로 바꾼 뒤로는 `?`가 없어져
+                // `/ko/stamp-order&name=…`이라는 없는 주소가 만들어졌다(도장 신청 404의 원인).
+                const name =
+                  hanjaOptions.length > 0 && hanjaValid
+                    ? composedHanja // 한자 후보를 고른 경우가 우선이다(한자 매핑 흐름).
+                    : selectedName;
+                return localePath(
+                  "/stamp-order",
+                  locale ?? "ko",
+                  name ? `name=${encodeURIComponent(name)}` : undefined,
+                );
+              })()}
+              className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
+            >
+              {(foreign ? copy.button : "이름 도장 신청") +
+                (stampPriceRange ? ` · ${stampPriceRange}` : "")}
+            </Link>
+          ) : (
+            // 아직 못 파는 동안에는 잠근 버튼을 둔다. 링크를 살려 두면 주문 화면까지 갔다가
+            // "판매 준비 중"을 만나게 된다. 금액은 적지 않는다 — 팔지 않는 값이다.
+            <button
+              type="button"
+              disabled
+              className="mt-5 inline-flex h-10 cursor-not-allowed items-center justify-center rounded-lg border border-line bg-surface-strong px-3 text-sm font-semibold text-muted"
+            >
+              {foreign ? "Preparing" : "판매 준비 중"}
+            </button>
+          )}
         </article>
       </div>
     </section>

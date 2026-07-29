@@ -78,8 +78,9 @@ export function AdBanner({
    * 정한 높이가 무시되고 320×100 같은 큰 배너가 그대로 들어온다 — 서버 HTML에는 50px이 적혀
    * 있는데 화면은 높은 상태가 이것이다.
    *
-   * `data-full-width-responsive`도 머리글에서는 끈다. 켜 두면 모바일에서 가로를 꽉 채우는
-   * 큰 소재를 우선 고르려 해서 높이가 다시 올라간다.
+   * `data-full-width-responsive`는 **켜 둔다.** 껐더니 애드센스가 폭이 고정된 소재(728×90 등)를
+   * 고를 수 있게 되어 모바일에서 자리가 뷰포트보다 넓어졌다. 높이는 위 important로 잡으므로
+   * 이 속성까지 끌 이유가 없다.
    */
   const adHeightClass = isConsentSlot
     ? "!h-[250px] lg:!h-[280px]"
@@ -112,7 +113,7 @@ export function AdBanner({
           data-ad-client={adsenseClient}
           data-ad-slot={slot}
           data-ad-format={adFormat}
-          data-full-width-responsive={isConsentSlot ? "true" : "false"}
+          data-full-width-responsive="true"
         />
       </aside>
     );

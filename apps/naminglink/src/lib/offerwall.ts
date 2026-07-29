@@ -62,12 +62,9 @@ export function useSelfGateNeeded(): boolean | null {
   useEffect(() => {
     // 오퍼월을 게시하지 않았으면 기다릴 것이 없다. 우리 게이트가 그대로 돈다.
     if (!offerwallEnabled) return;
-    // 이미 떠 있으면 기다리지 않는다(뒤로 가기·클라이언트 이동으로 다시 마운트된 경우).
-    if (googlefcPresent()) {
-      setNeeded(false);
-      return;
-    }
 
+    // 이미 떠 있는 경우(뒤로 가기·클라이언트 이동)도 아래 첫 tick이 100ms 안에 잡는다.
+    // 여기서 곧바로 setState를 하면 렌더가 연쇄로 도는 것을 lint가 막는다.
     let cancelled = false;
     const startedAt = Date.now();
     const timer = window.setInterval(() => {

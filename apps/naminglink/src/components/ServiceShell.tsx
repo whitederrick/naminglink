@@ -366,11 +366,16 @@ export function ServiceShell({
   const globalLabels = globalNavigationLabels[locale];
 
   return (
-    <main className="min-h-screen">
+    // 가로 넘침 방지. 안쪽 어딘가가 뷰포트보다 넓어지면 모바일에서 페이지 전체가 축소돼
+    // 오른쪽이 잘려 보이고, 대화상자(분석 대기)까지 같이 작아진다. 세로 스크롤은 그대로다.
+    <main className="min-h-screen overflow-x-hidden">
       <section className="mx-auto grid w-full max-w-7xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="border-b border-line pb-5">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
-            <div className="order-2 flex shrink-0 flex-wrap items-center gap-3 lg:order-1">
+            {/* `shrink-0`이면 버튼 줄이 뷰포트보다 넓어도 줄어들지 않아 페이지 전체가 가로로
+                넘친다(모바일에서 오른쪽이 잘려 보이던 원인). 줄바꿈으로 처리하고 `min-w-0`으로
+                최소 폭 제한을 푼다 — flex 항목은 기본이 min-content라 이것이 없으면 안 줄어든다. */}
+            <div className="order-2 flex min-w-0 flex-wrap items-center gap-3 lg:order-1">
               <Link
                 href={localePath("/", locale)}
                 className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm transition hover:border-foreground hover:bg-foreground"
@@ -379,7 +384,7 @@ export function ServiceShell({
                 {homeLabel}
               </Link>
               {navigationServices.length > 0 ? (
-                <nav className="flex flex-wrap gap-2 text-sm">
+                <nav className="flex min-w-0 flex-wrap gap-2 text-[13px] sm:text-sm">
                   {navigationServices.map((item) => (
                     <Link
                       key={item.slug}
