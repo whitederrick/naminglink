@@ -420,13 +420,7 @@ export function NamingForm({
       setAnalysisCountdown(0);
     };
 
-    // **임시 조치 — 애드센스 승인 전까지만이다.**
-    // 최종 모습은 보상형 광고를 애드센스로 띄우고, 애드센스가 안 나올 때만 이 게이트가 셀프
-    // 광고로 대신 도는 것이다. 그때는 광고가 항상 있으므로 이 분기는 없어진다.
-    // 지금은 퍼블리셔 ID가 없어 셀프 광고도 아직 없다 — 빈 상자를 놓고 10초(한자 15초)를
-    // 세울 이유가 없으므로 대기창을 열지 않는다.
-    // completeAdWindow는 adStartedAt이 null이면 그냥 돌아가므로 아래 호출들은 손댈 것이 없다.
-    if (adsEnabled) startAdWindow();
+    startAdWindow();
 
     try {
       const countryProfile = selectedCountry
@@ -934,14 +928,23 @@ export function NamingForm({
           </div>
         </section>
 
+        {/* **임시 조치 — 애드센스 승인 전까지만이다.**
+            버튼이 "광고 확인 후 분석 시작"이라고 말하는데 띄울 광고가 없다. 광고 없이 분석만
+            내주면 그대로 무료 서비스가 되므로, 광고가 준비될 때까지 제출 자체를 막는다.
+            퍼블리셔 ID가 들어오면 adsEnabled가 참이 되어 이 잠금은 저절로 풀린다. */}
         <button
           type="submit"
-          disabled={loading}
+          disabled={loading || !adsEnabled}
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
         >
           <Send aria-hidden="true" size={17} />
           {isHangulTransliteration ? t.submitTransliteration : t.submitDefault}
         </button>
+        {!adsEnabled ? (
+          <p className="rounded-lg border border-line bg-surface-strong px-3 py-2 text-center text-sm text-muted">
+            광고 준비 중입니다. 잠시 후 다시 이용해 주세요.
+          </p>
+        ) : null}
 
         {error ? (
           <p className="rounded-lg border border-brand-rose/30 bg-brand-rose/10 px-3 py-2 text-sm text-brand-rose">

@@ -88,9 +88,7 @@ function ReanalysisSection({
   async function reanalyze() {
     setError(null);
     setLoading(true);
-    // **임시 조치 — 애드센스 승인 전까지만이다.** NamingForm의 같은 자리와 이유가 같다.
-    const waitSeconds = adsEnabled ? 5 : 0;
-    setCountdown(waitSeconds);
+    setCountdown(5);
     const timer = window.setInterval(() => {
       setCountdown((current) => Math.max(0, current - 1));
     }, 1000);
@@ -110,7 +108,7 @@ function ReanalysisSection({
       });
       const [response] = await Promise.all([
         request,
-        new Promise((resolve) => window.setTimeout(resolve, waitSeconds * 1000)),
+        new Promise((resolve) => window.setTimeout(resolve, 5000)),
       ]);
       const payload = (await response.json()) as ApiResult;
 
@@ -172,7 +170,9 @@ function ReanalysisSection({
       <button
         type="button"
         onClick={reanalyze}
-        disabled={loading || !pronunciationHint.trim()}
+        // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 다시 분석해 주면
+        // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
+        disabled={loading || !pronunciationHint.trim() || !adsEnabled}
         className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
       >
         <RotateCcw aria-hidden="true" size={17} />

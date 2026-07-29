@@ -670,18 +670,16 @@ export function CandidateUnlockPanel({
 
     setLoading(true);
     trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
-    // **임시 조치 — 애드센스 승인 전까지만이다.** NamingForm의 같은 자리와 이유가 같다.
-    const waitSeconds = adsEnabled ? UNLOCK_AD_SECONDS : 0;
-    setCountdown(waitSeconds);
+    setCountdown(UNLOCK_AD_SECONDS);
     const startedAt = Date.now();
     const timer = window.setInterval(() => {
       const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      setCountdown(Math.max(0, waitSeconds - elapsed));
+      setCountdown(Math.max(0, UNLOCK_AD_SECONDS - elapsed));
     }, 250);
 
     try {
       await new Promise((resolve) =>
-        window.setTimeout(resolve, waitSeconds * 1000),
+        window.setTimeout(resolve, UNLOCK_AD_SECONDS * 1000),
       );
       onUnlock();
       trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
@@ -737,7 +735,9 @@ export function CandidateUnlockPanel({
         <button
           type="button"
           onClick={unlockWithAd}
-          disabled={loading || remainingCount === 0}
+          // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 후보를 열어 주면
+          // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
+          disabled={loading || remainingCount === 0 || !adsEnabled}
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
         >
           <Eye aria-hidden="true" size={17} />
