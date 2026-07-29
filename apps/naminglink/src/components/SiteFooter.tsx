@@ -9,7 +9,9 @@ import {
   type FooterContent,
 } from "@/lib/site-content";
 import type { Locale } from "@/lib/services";
+import { getAuthCopy } from "@/lib/i18n-auth";
 import { localePath } from "@/lib/locale-path";
+import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 type SiteFooterProps = {
   tone?: "light" | "dark";
@@ -687,6 +689,9 @@ export function SiteFooter({
   const [footerContent, setFooterContent] = useState<FooterContent>(
     serverContent ?? fallbackFooterContent,
   );
+  // 서버 렌더에서는 로그인 여부를 알 수 없으므로 "로그인"으로 시작하고, 세션을 확인한 뒤
+  // 필요하면 계정으로 바꾼다. 반대로 두면 로그아웃 상태에서 "계정"이 잠깐 보인다.
+  const [signedIn, setSignedIn] = useState(false);
   const isLight = tone === "light";
   const wrapperClass = isLight
     ? "border-white/15 text-white/72"
@@ -695,6 +700,23 @@ export function SiteFooter({
     ? "text-white/86 hover:text-white"
     : "text-foreground hover:text-brand-teal";
   const copy = footerCopies[locale];
+
+  // 로그인 여부만 본다. 이메일 등 개인정보는 푸터에 쓰지 않으므로 가져오지 않는다.
+  useEffect(() => {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+
+    supabase.auth.getSession().then(({ data }) => {
+      setSignedIn(Boolean(data.session));
+    });
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSignedIn(Boolean(session));
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
 
   useEffect(() => {
     // 서버가 이미 값을 내려 줬으면 다시 부르지 않는다. 같은 값을 받으려고 페이지마다 왕복할
@@ -717,15 +739,27 @@ export function SiteFooter({
     return () => controller.abort();
   }, [serverContent]);
 
+  /**
+   * 사이트 전체에서 유일한 로그인·계정 진입점.
+   *
+   * 문구는 오래전부터 23개 로케일에 있었는데 링크만 빠져 있어, 입력 화면의 저장 안내문을
+   * 봐야만 로그인을 찾을 수 있었다. 로그인한 사람은 계정으로 갈 길이 아예 없었다.
+   *
+   * 로그인 상태면 계정으로 바꾼다. 이미 들어온 사람에게 "로그인"을 계속 보여 주면 눌렀을 때
+   * 할 일이 없다. 문구는 `getAuthCopy(locale).accountTitle`을 쓴다 — 계정 화면 제목과 같은
+   * 말이라 새로 번역할 것이 없고, 두 화면이 같은 이름으로 불린다.
+   */
+  const accountLink = signedIn
+    ? { href: localePath("/account", locale), label: getAuthCopy(locale).accountTitle }
+    : { href: localePath("/login", locale), label: copy.links.login };
+
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 전달한다(IP·브라우저 언어 재추정 방지).
   const footerLinks = [
     { href: localePath("/terms", locale), label: copy.links.terms },
     { href: localePath("/privacy", locale), label: copy.links.privacy },
     { href: localePath("/refund-policy", locale), label: copy.links.refund },
     { href: localePath("/pricing", locale), label: copy.links.pricing },
-    // 사이트 전체에서 유일한 로그인 진입점이다. 문구는 오래전부터 23개 로케일에 있었는데
-    // 링크만 빠져 있어, 입력 화면의 저장 안내문을 봐야만 로그인을 찾을 수 있었다.
-    { href: localePath("/login", locale), label: copy.links.login },
+    accountLink,
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
   const footerValue = (label: string, value: string) =>
@@ -778,8 +812,8 @@ export function SiteFooter({
               linkClass={linkClass}
               textDirection={textDirection}
               locale={locale}
-              loginLabel={copy.links.login}
-              loginHref={localePath("/login", locale)}
+              loginLabel={accountLink.label}
+              loginHref={accountLink.href}
             />
           ) : (
             footerLinks.map((link) => (
