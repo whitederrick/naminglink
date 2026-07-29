@@ -13,6 +13,7 @@ import { PremiumHanjaCheckoutPanel } from "@/components/PremiumHanjaCheckoutPane
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 import { cappedCandidateCount } from "@/lib/candidate-count";
+import { localePath } from "@/lib/locale-path";
 
 type StoredResult = {
   result: unknown;
@@ -83,14 +84,14 @@ export function HanjaMeaningResultPage({
           <div className="order-2 flex flex-wrap gap-2 lg:order-1">
             <button
               type="button"
-              onClick={() => router.push(`/hanja-meaning?lang=${locale}`)}
+              onClick={() => router.push(localePath("/hanja-meaning", locale))}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
             >
               <ArrowLeft aria-hidden="true" size={17} />
               입력 수정
             </button>
             <Link
-              href={`/?lang=${locale}`}
+              href={localePath("/", locale)}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm"
             >
               <Home aria-hidden="true" size={17} />
@@ -180,7 +181,7 @@ export function HanjaMeaningResultPage({
               이 결과는 분석을 진행한 브라우저 탭에서만 확인할 수 있습니다.
             </p>
             <Link
-              href={`/hanja-meaning?lang=${locale}`}
+              href={localePath("/hanja-meaning", locale)}
               className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-4 text-sm font-semibold text-background"
             >
               입력 화면으로 돌아가기

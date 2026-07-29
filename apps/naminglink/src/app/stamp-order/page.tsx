@@ -13,6 +13,7 @@ import {
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { getPurchaseDisplay } from "@/lib/purchase";
 import { buildPageMetadata } from "@/lib/seo";
+import { localePath } from "@/lib/locale-path";
 
 type StampOrderPageProps = {
   searchParams?: Promise<{ lang?: string; name?: string }>;
@@ -68,7 +69,7 @@ export default async function StampOrderPage({ searchParams }: StampOrderPagePro
         <header className="grid gap-3 border-b border-line pb-5">
           <div className="flex flex-wrap items-center gap-2">
             <Link
-              href={`/?lang=${locale}`}
+              href={localePath("/", locale)}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
             >
               <ArrowLeft aria-hidden="true" size={17} />

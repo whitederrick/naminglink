@@ -58,7 +58,7 @@ export const id: Dictionary = {
     unknownTime: "Saya tidak tahu jamnya",
     hour: "Jam",
     minute: "Menit",
-    submit: "Hitung kecocokan",
+    submit: "Tonton iklan untuk melihat hasil kecocokan",
     submitting: "Menghitung…",
     errorInvalidDate:
       "Periksa kembali tanggal lahirnya. Untuk tanggal Imlek, periksa juga apakah jatuh pada bulan kabisat.",
@@ -253,7 +253,7 @@ export const id: Dictionary = {
     seekingHint:
       "Posisi pasangan (Jeongjae / Jeonggwan) hanya bisa dinilai bila jenis kelamin keduanya diketahui.",
     seekingAny: "Tidak ditentukan",
-    submit: "Baca profil jodoh saya",
+    submit: "Tonton iklan untuk melihat hasil profil kecocokan",
     submitting: "Membaca…",
 
     resultTitle: "Profil jodoh Anda",

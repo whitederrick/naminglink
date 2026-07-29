@@ -38,6 +38,7 @@ import {
   localizeSectionDescription,
   localizeSectionTitle,
 } from "@/lib/i18n-service";
+import { localePath } from "@/lib/locale-path";
 
 type ApiResult = {
   ok: boolean;
@@ -503,7 +504,7 @@ export function NamingForm({
           }),
         );
         router.push(
-          `/global-to-korean/result?lang=${locale}&mode=transliteration&id=${encodeURIComponent(resultId)}`,
+          localePath("/global-to-korean/result", locale, `mode=transliteration&id=${encodeURIComponent(resultId)}`),
         );
         return;
       }
@@ -522,7 +523,7 @@ export function NamingForm({
           }),
         );
         router.push(
-          `/global-to-korean/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
+          localePath("/global-to-korean/result", locale, `id=${encodeURIComponent(resultId)}`),
         );
         return;
       }
@@ -540,7 +541,7 @@ export function NamingForm({
           }),
         );
         router.push(
-          `/hanja-meaning/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
+          localePath("/hanja-meaning/result", locale, `id=${encodeURIComponent(resultId)}`),
         );
         return;
       }
@@ -557,7 +558,7 @@ export function NamingForm({
           }),
         );
         router.push(
-          `/korean-to-global/result?lang=${locale}&id=${encodeURIComponent(resultId)}`,
+          localePath("/korean-to-global/result", locale, `id=${encodeURIComponent(resultId)}`),
         );
         return;
       }
@@ -906,7 +907,7 @@ export function NamingForm({
                   <p className="rounded-lg border border-line bg-background p-3 text-sm leading-6 text-muted">
                     {t.guestNoSavePrefix}
                     <Link
-                      href={locale && locale !== "ko" ? `/login?lang=${locale}` : "/login"}
+                      href={localePath("/login", locale)}
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
                       {t.loginLink}

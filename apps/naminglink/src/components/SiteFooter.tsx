@@ -9,6 +9,7 @@ import {
   type FooterContent,
 } from "@/lib/site-content";
 import type { Locale } from "@/lib/services";
+import { localePath } from "@/lib/locale-path";
 
 type SiteFooterProps = {
   tone?: "light" | "dark";
@@ -717,12 +718,11 @@ export function SiteFooter({
   }, [serverContent]);
 
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 전달한다(IP·브라우저 언어 재추정 방지).
-  const langQuery = locale && locale !== "ko" ? `?lang=${locale}` : "";
   const footerLinks = [
-    { href: `/terms${langQuery}`, label: copy.links.terms },
-    { href: `/privacy${langQuery}`, label: copy.links.privacy },
-    { href: `/refund-policy${langQuery}`, label: copy.links.refund },
-    { href: `/pricing${langQuery}`, label: copy.links.pricing },
+    { href: localePath("/terms", locale), label: copy.links.terms },
+    { href: localePath("/privacy", locale), label: copy.links.privacy },
+    { href: localePath("/refund-policy", locale), label: copy.links.refund },
+    { href: localePath("/pricing", locale), label: copy.links.pricing },
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
   const footerValue = (label: string, value: string) =>

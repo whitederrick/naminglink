@@ -10,6 +10,7 @@ import {
   services,
 } from "@/lib/services";
 import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
+import { localePath } from "@/lib/locale-path";
 
 const homeLabels: Record<Locale, string> = {
   ko: "홈",
@@ -371,7 +372,7 @@ export function ServiceShell({
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
             <div className="order-2 flex shrink-0 flex-wrap items-center gap-3 lg:order-1">
               <Link
-                href={`/?lang=${locale}`}
+                href={localePath("/", locale)}
                 className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm transition hover:border-foreground hover:bg-foreground"
               >
                 <ArrowLeft aria-hidden="true" size={17} />
@@ -384,8 +385,8 @@ export function ServiceShell({
                       key={item.slug}
                       href={
                         item.slug === "global-name-to-hangul"
-                          ? `/global-to-korean?lang=${locale}&mode=transliteration`
-                          : `/${item.slug}?lang=${locale}`
+                          ? localePath("/global-to-korean", locale, "mode=transliteration")
+                          : localePath(`/${item.slug}`, locale)
                       }
                       className={`rounded-lg border px-3 py-2 transition ${
                         item.slug === service.slug

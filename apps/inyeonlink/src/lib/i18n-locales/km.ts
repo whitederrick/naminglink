@@ -58,7 +58,7 @@ export const km: Dictionary = {
     unknownTime: "មិនដឹងម៉ោង",
     hour: "ម៉ោង",
     minute: "នាទី",
-    submit: "គណនាការផ្គូផ្គង",
+    submit: "មើលពាណិជ្ជកម្ម រួចមើលលទ្ធផល",
     submitting: "កំពុងគណនា…",
     errorInvalidDate:
       "សូមពិនិត្យថ្ងៃកំណើត។ បើជាចន្ទគតិ សូមពិនិត្យផងដែរថាតើវាធ្លាក់ក្នុងអធិកមាសឬទេ។",
@@ -253,7 +253,7 @@ export const km: Dictionary = {
     seekingHint:
       "ទីតាំងប្តីប្រពន្ធ (Jeongjae / Jeonggwan) វិនិច្ឆ័យបានតែពេលដឹងភេទទាំងសងខាង។",
     seekingAny: "មិនកំណត់",
-    submit: "មើលទម្រង់គូសម",
+    submit: "មើលពាណិជ្ជកម្ម រួចមើលលទ្ធផលនៃការតភ្ជាប់",
     submitting: "កំពុងអាន…",
 
     resultTitle: "ទម្រង់គូសម",

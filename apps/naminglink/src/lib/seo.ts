@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getServiceCopy } from "@/lib/i18n";
-import { localePath } from "@/lib/locale-path";
 import { supportedLocales, type Locale } from "@/lib/services";
+import { localePath } from "@/lib/locale-path";
 
 /**
  * 사이트 절대 주소. canonical·hreflang·sitemap이 전부 여기서 갈라져 나온다.

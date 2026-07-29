@@ -30,7 +30,13 @@ export function proxy(request: NextRequest) {
   // 경로의 로케일이 기준이다. 주소에 `?lang=`이 함께 있어도 경로 쪽을 따른다 —
   // 둘이 어긋난 주소로 서로 다른 화면이 나오면 안 된다.
   target.searchParams.set("lang", first);
-  return NextResponse.rewrite(target);
+
+  // **레이아웃에도 알려 준다.** 루트 레이아웃은 searchParams를 받지 못해 `?lang=`을 볼 수 없다.
+  // 헤더로 넘기지 않으면 `/ko/...`인데 `<html lang="en">`이 나간다 — 스크린 리더가 엉뚱한
+  // 언어로 읽고, 아랍어에서 문서 방향(rtl)도 틀어진다.
+  const headers = new Headers(request.headers);
+  headers.set("x-locale", first);
+  return NextResponse.rewrite(target, { request: { headers } });
 }
 
 export const config = {

@@ -17,6 +17,7 @@ import {
 } from "@/lib/services";
 import { getResultCopy, type ResultCopy } from "@/lib/i18n-result";
 import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
+import { localePath } from "@/lib/locale-path";
 
 type StoredResult = {
   result: unknown;
@@ -233,7 +234,7 @@ export function HangulPronunciationResultPage({
             <button
               type="button"
               onClick={() =>
-                router.push(`/global-to-korean?lang=${locale}&mode=transliteration`)
+                router.push(localePath("/global-to-korean", locale, "mode=transliteration"))
               }
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
             >
@@ -241,7 +242,7 @@ export function HangulPronunciationResultPage({
               {copy.editInput}
             </button>
             <Link
-              href={`/?lang=${locale}`}
+              href={localePath("/", locale)}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm"
             >
               <Home aria-hidden="true" size={17} />
@@ -328,7 +329,7 @@ export function HangulPronunciationResultPage({
               {copy.emptyDescription}
             </p>
             <Link
-              href={`/global-to-korean?lang=${locale}&mode=transliteration`}
+              href={localePath("/global-to-korean", locale, "mode=transliteration")}
               className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-4 text-sm font-semibold text-background"
             >
               {copy.backToInput}

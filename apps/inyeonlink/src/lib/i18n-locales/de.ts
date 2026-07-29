@@ -58,7 +58,7 @@ export const de: Dictionary = {
     unknownTime: "Ich kenne die Uhrzeit nicht",
     hour: "Stunde",
     minute: "Minute",
-    submit: "Partnerschaft berechnen",
+    submit: "Werbung ansehen und Kompatibilität prüfen",
     submitting: "Wird berechnet…",
     errorInvalidDate:
       "Bitte prüfen Sie das Geburtsdatum. Bei Monddaten prüfen Sie auch, ob es in einen Schaltmonat fällt.",
@@ -253,7 +253,7 @@ export const de: Dictionary = {
     seekingHint:
       "Die Ehepartner-Position (Jeongjae / Jeonggwan) lässt sich nur beurteilen, wenn beide Geschlechter bekannt sind.",
     seekingAny: "Keine Angabe",
-    submit: "Mein Beziehungsprofil lesen",
+    submit: "Werbung ansehen und Ergebnis der Verbindung sehen",
     submitting: "Wird gelesen…",
 
     resultTitle: "Ihr Beziehungsprofil",

@@ -4,12 +4,13 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, Home } from "lucide-react";
 import { getAuthCopy } from "@/lib/i18n-auth";
+import { localePath } from "@/lib/locale-path";
 
 // 결과 페이지 헤더와 같은 버튼 스타일로 로그인·계정 화면의 이동 UX를 통일한다.
 export function AuthPageNav({ locale }: { locale?: string }) {
   const router = useRouter();
   const copy = getAuthCopy(locale);
-  const homeHref = locale && locale !== "ko" ? `/?lang=${locale}` : "/";
+  const homeHref = localePath("/", locale);
 
   return (
     <div className="flex flex-wrap gap-2">

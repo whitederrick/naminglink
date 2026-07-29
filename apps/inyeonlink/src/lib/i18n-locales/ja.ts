@@ -57,7 +57,7 @@ export const ja: Dictionary = {
     unknownTime: "時刻が分かりません",
     hour: "時",
     minute: "分",
-    submit: "相性を計算する",
+    submit: "広告を見て相性を確認",
     submitting: "計算中…",
     errorInvalidDate:
       "入力した生年月日をご確認ください。旧暦の場合は閏月かどうかもご確認ください。",
@@ -252,7 +252,7 @@ export const ja: Dictionary = {
     seekingHint:
       "配偶者の位置（正財・正官）は、二人の性別がどちらも分かるときにのみ判定されます。",
     seekingAny: "決めていない",
-    submit: "ご縁のかたちを見る",
+    submit: "広告を見てインネンの結果を確認",
     submitting: "探しています…",
 
     resultTitle: "ご縁のかたち",

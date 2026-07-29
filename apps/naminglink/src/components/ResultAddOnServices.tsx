@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ShoppingBag } from "lucide-react";
 import type { ServiceConfig, Locale } from "@/lib/services";
 import { getResultCopy } from "@/lib/i18n-result";
+import { localePath } from "@/lib/locale-path";
 
 /**
  * 굿즈를 권할 수 있는 흐름인가.
@@ -272,7 +273,7 @@ export function ResultAddOnServices({
           ) : null}
           <Link
             href={(() => {
-              const base = `/stamp-order?lang=${locale ?? "ko"}`;
+              const base = localePath("/stamp-order", locale ?? "ko");
               // 한자 후보를 고른 경우가 우선이다(한자 매핑 흐름).
               if (hanjaOptions.length > 0 && hanjaValid) {
                 return `${base}&name=${encodeURIComponent(composedHanja)}`;

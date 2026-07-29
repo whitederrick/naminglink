@@ -58,7 +58,7 @@ export const vi: Dictionary = {
     unknownTime: "Tôi không biết giờ sinh",
     hour: "Giờ",
     minute: "Phút",
-    submit: "Tính hợp duyên",
+    submit: "Xem quảng cáo để xem kết quả tương thích",
     submitting: "Đang tính…",
     errorInvalidDate:
       "Vui lòng kiểm tra lại ngày sinh. Nếu là âm lịch, hãy xem thêm ngày đó có rơi vào tháng nhuận không.",
@@ -253,7 +253,7 @@ export const vi: Dictionary = {
     seekingHint:
       "Vị trí phối ngẫu (Chính Tài / Chính Quan) chỉ luận được khi biết giới tính của cả hai.",
     seekingAny: "Không xác định",
-    submit: "Xem nét duyên của tôi",
+    submit: "Xem quảng cáo để xem kết quả mối quan hệ",
     submitting: "Đang xem…",
 
     resultTitle: "Nét duyên của bạn",

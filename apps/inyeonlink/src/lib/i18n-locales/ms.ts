@@ -59,7 +59,7 @@ export const ms: Dictionary = {
     unknownTime: "Saya tidak tahu waktunya",
     hour: "Jam",
     minute: "Minit",
-    submit: "Kira keserasian",
+    submit: "Tonton iklan untuk melihat keputusan keserasian",
     submitting: "Mengira…",
     errorInvalidDate:
       "Sila semak tarikh lahir. Bagi tarikh lunar, semak juga sama ada ia jatuh pada bulan lompat.",
@@ -254,7 +254,7 @@ export const ms: Dictionary = {
     seekingHint:
       "Kedudukan pasangan (Jeongjae / Jeonggwan) hanya boleh ditentukan apabila kedua-dua jantina diketahui.",
     seekingAny: "Tidak dinyatakan",
-    submit: "Baca profil padanan saya",
+    submit: "Tonton iklan untuk melihat keputusan profil pertemuan",
     submitting: "Membaca…",
 
     resultTitle: "Profil padanan anda",

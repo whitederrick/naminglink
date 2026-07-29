@@ -12,8 +12,9 @@ import {
   hangulPronunciationCopy,
 } from "@/lib/i18n";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { buildAlternates, siteUrl } from "@/lib/seo";
+import { absoluteUrl, buildAlternates, localeUrl } from "@/lib/seo";
 import { serviceList } from "@/lib/services";
+import { localePath } from "@/lib/locale-path";
 
 
 function LandingIconShell({ children }: { children: ReactNode }) {
@@ -123,7 +124,7 @@ export async function generateMetadata({
       siteName: "Naming-Link",
       title,
       description,
-      url: requested ? `${siteUrl}/?lang=${requested}` : `${siteUrl}/`,
+      url: requested ? localeUrl("/", requested) : absoluteUrl("/"),
       locale,
     },
     twitter: { card: "summary_large_image", title, description },
@@ -223,7 +224,7 @@ export default async function Home({ searchParams }: HomeProps) {
             </div>
             {!isKoreanEntry ? (
               <Link
-                href={`/global-to-korean?lang=${locale}&mode=transliteration`}
+                href={localePath("/global-to-korean", locale, "mode=transliteration")}
                 className="group h-[7.25rem] min-w-0 rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
               >
                 <div className="relative flex items-start gap-3 pr-7">
@@ -255,7 +256,7 @@ export default async function Home({ searchParams }: HomeProps) {
               return (
                 <Link
                   key={service.slug}
-                  href={`/${service.slug}?lang=${locale}`}
+                  href={localePath(`/${service.slug}`, locale)}
                   className="group h-[7.25rem] min-w-0 rounded-lg border border-white/20 bg-white/12 p-3 shadow-sm backdrop-blur transition hover:border-white/70 hover:bg-white/18"
                 >
                   <div className="relative flex items-start gap-3 pr-7">

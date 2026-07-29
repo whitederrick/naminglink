@@ -1011,7 +1011,7 @@ const en: Dictionary = {
     unknownTime: "I don't know the time",
     hour: "Hour",
     minute: "Minute",
-    submit: "Calculate compatibility",
+    submit: "Watch ad and see compatibility",
     submitting: "Calculating…",
     errorInvalidDate:
       "Please check the birth date. For lunar dates, also check whether it falls in a leap month.",
@@ -1206,7 +1206,7 @@ const en: Dictionary = {
     seekingHint:
       "The spouse position (Jeongjae / Jeonggwan) can only be judged when both genders are known.",
     seekingAny: "Not specified",
-    submit: "Read my match profile",
+    submit: "Watch ad and see match result",
     submitting: "Reading…",
 
     resultTitle: "Your match profile",

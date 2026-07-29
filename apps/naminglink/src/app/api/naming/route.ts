@@ -130,7 +130,12 @@ export async function POST(request: NextRequest) {
       if (!enforceFreeQuota || !supabase || !visitorHash) return true;
       const { data: allowed, error: quotaError } = await supabase.rpc("consume_daily_quota", {
         p_visitor_hash: visitorHash,
-        p_limit: Number(process.env.FREE_DAILY_LIMIT ?? 20),
+        // 기본 100. **IP당**이지 사람당이 아니다 — 식별자가 HMAC(날짜:IP)라 CGNAT을 쓰는
+        // 모바일 통신사·회사망 뒤의 여럿이 이 한도를 나눠 쓴다. 20이던 값을 올린 근거는:
+        // 결과는 광고를 봐야만 열리고(1광고 1결과), 실측 원가는 생성 1건에 약 1.1원인데
+        // 광고 수익은 그 4~30배다. 즉 정상 이용자를 막는 것은 수익을 막는 것이다.
+        // 비용의 실제 상한은 아래 전역 한도가 맡는다.
+        p_limit: Number(process.env.FREE_DAILY_LIMIT ?? 100),
       });
       if (quotaError) console.error("Failed to check daily quota", quotaError);
       return allowed !== false;
@@ -141,7 +146,13 @@ export async function POST(request: NextRequest) {
       // 방어선으로 서비스 전체 AI 호출량에 일일 상한을 둔다. RPC 부재·오류 시 fail-open.
       const underGlobalCap = await checkRateLimit(request, "naming-ai-global", {
         windowSeconds: 24 * 60 * 60,
-        limit: Number(process.env.NAMING_AI_GLOBAL_DAILY_LIMIT ?? 2000),
+        // 기본 30,000. **비용 상한이 아니라 "이 이상이면 사람이 아니다"는 감지선**이다.
+        // 막아야 할 것은 정상 이용자가 아니라 화면을 거치지 않고 이 API만 두드리는 트래픽이다
+        // (화면으로 온 요청은 광고를 보고 오므로 건마다 흑자다).
+        // 광고 수익이 0이라 쳐도 30,000건의 AI 원가는 하루 약 3.3만원이다. 2,000이던 값은
+        // 월 6.5만원을 지키려고 서비스 전체를 세우는 값이었고, 그 근거는 어디에도 없었다.
+        // 창은 UTC 자정 기준 고정 24시간이라 한국시간 오전 9시에 리셋된다(슬라이딩 아님).
+        limit: Number(process.env.NAMING_AI_GLOBAL_DAILY_LIMIT ?? 30000),
         identifier: "global",
       });
       if (!underGlobalCap) {

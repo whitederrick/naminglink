@@ -58,7 +58,7 @@ export const fil: Dictionary = {
     unknownTime: "Hindi ko alam ang oras",
     hour: "Oras",
     minute: "Minuto",
-    submit: "Kalkulahin ang pagkakatugma",
+    submit: "Manood ng patalastas at tingnan ang resulta ng pagkakatugma",
     submitting: "Kinakalkula…",
     errorInvalidDate:
       "Pakisuri ang petsa ng kapanganakan. Kung lunar ang petsa, tingnan din kung nasa buwang leap ito.",
@@ -253,7 +253,7 @@ export const fil: Dictionary = {
     seekingHint:
       "Ang puwesto ng asawa (Jeongjae / Jeonggwan) ay masusuri lamang kapag alam ang kasarian ng dalawa.",
     seekingAny: "Hindi tinukoy",
-    submit: "Basahin ang hibla ko",
+    submit: "Manood ng patalastas at tingnan ang resulta ng ugnayan",
     submitting: "Binabasa…",
 
     resultTitle: "Hibla ng iyong tadhana",

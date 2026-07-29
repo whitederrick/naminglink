@@ -5,6 +5,7 @@ import {
   supportedLocales,
   type Locale,
 } from "@/lib/services";
+import { localePath } from "@/lib/locale-path";
 
 type LanguageSwitcherProps = {
   locale: Locale;
@@ -44,7 +45,7 @@ export function LanguageSwitcher({
       {primaryRow.map((item) => (
         <Link
           key={item}
-          href={`/?lang=${item}`}
+          href={localePath("/", item)}
           className={`inline-flex h-10 w-[4.8rem] shrink-0 items-center justify-center rounded-lg border px-2 text-center transition ${
             locale === item
               ? "border-white bg-white text-foreground"
@@ -67,7 +68,7 @@ export function LanguageSwitcher({
           {secondaryRow.map((item) => (
             <Link
               key={item}
-              href={`/?lang=${item}`}
+              href={localePath("/", item)}
               className={`flex min-h-7 items-center justify-center rounded-md px-2 py-1 text-center text-sm leading-none transition ${
                 locale === item
                   ? "bg-white text-foreground"

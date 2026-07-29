@@ -58,7 +58,7 @@ export const fr: Dictionary = {
     unknownTime: "Je ne connais pas l'heure",
     hour: "Heure",
     minute: "Minute",
-    submit: "Calculer la compatibilité",
+    submit: "Regarder une publicité puis voir le résultat de compatibilité",
     submitting: "Calcul en cours…",
     errorInvalidDate:
       "Veuillez vérifier la date de naissance. Pour une date lunaire, vérifiez aussi s'il s'agit d'un mois intercalaire.",
@@ -253,7 +253,7 @@ export const fr: Dictionary = {
     seekingHint:
       "La position du conjoint (Jeongjae / Jeonggwan) ne peut être établie que si les deux genres sont connus.",
     seekingAny: "Non précisé",
-    submit: "Voir mon profil d'affinité",
+    submit: "Regarder une publicité puis voir le résultat du profil de relation",
     submitting: "Lecture en cours…",
 
     resultTitle: "Votre profil d'affinité",

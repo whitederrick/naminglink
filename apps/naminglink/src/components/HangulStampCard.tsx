@@ -6,6 +6,7 @@ import { ShoppingBag } from "lucide-react";
 
 import { getResultCopy } from "@/lib/i18n-result";
 import type { Locale } from "@/lib/services";
+import { localePath } from "@/lib/locale-path";
 
 // 도장에 새길 수 있는 최대 글자 수. stamp-order의 stampName 검증(한글 1~8자, 공백 불가)과 맞춘다.
 const STAMP_MAX = 8;
@@ -118,7 +119,7 @@ export function HangulStampCard({
         {tooLong ? <p className="mt-2 text-sm font-medium text-red-600">{copy.stampTooLong}</p> : null}
 
         <Link
-          href={`/stamp-order?lang=${locale}&name=${encodeURIComponent(stampText)}`}
+          href={localePath("/stamp-order", locale, `name=${encodeURIComponent(stampText)}`)}
           aria-disabled={!canOrder}
           tabIndex={canOrder ? undefined : -1}
           className={`mt-5 inline-flex h-10 items-center justify-center rounded-lg px-3 text-sm font-semibold transition ${

@@ -5,6 +5,7 @@ import { FormEvent, useEffect, useState } from "react";
 import { LogIn, LogOut, Mail } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { getAuthCopy } from "@/lib/i18n-auth";
+import { localePath } from "@/lib/locale-path";
 
 type AuthPanelProps = {
   intent?: "login" | "account";
@@ -18,7 +19,6 @@ const hasSupabaseConfig = Boolean(
 
 export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
   const copy = getAuthCopy(locale);
-  const langQuery = locale && locale !== "ko" ? `?lang=${locale}` : "";
   const [email, setEmail] = useState("");
   const [currentEmail, setCurrentEmail] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -62,7 +62,7 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
     const { error: authError } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: `${window.location.origin}/account${langQuery}`,
+        emailRedirectTo: `${window.location.origin}${localePath("/account", locale)}`,
       },
     });
 
@@ -164,11 +164,11 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
 
       <p className="text-xs leading-5 text-muted">
         {copy.legalBefore}
-        <Link href={`/terms${langQuery}`} className="font-semibold text-foreground">
+        <Link href={localePath("/terms", locale)} className="font-semibold text-foreground">
           {copy.legalTerms}
         </Link>
         {copy.legalBetween}
-        <Link href={`/privacy${langQuery}`} className="font-semibold text-foreground">
+        <Link href={localePath("/privacy", locale)} className="font-semibold text-foreground">
           {copy.legalPrivacy}
         </Link>
         {copy.legalAfter}

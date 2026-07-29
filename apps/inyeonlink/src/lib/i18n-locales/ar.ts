@@ -58,7 +58,7 @@ export const ar: Dictionary = {
     unknownTime: "لا أعرف الوقت",
     hour: "الساعة",
     minute: "الدقيقة",
-    submit: "احسب التوافق",
+    submit: "شاهد الإعلان لرؤية النتيجة",
     submitting: "جارٍ الحساب…",
     errorInvalidDate:
       "يرجى التحقق من تاريخ الميلاد. وإن كان التاريخ قمريًا فتحقق أيضًا مما إذا كان يقع في شهر كبيس.",
@@ -253,7 +253,7 @@ export const ar: Dictionary = {
     seekingHint:
       "لا يُحكم على موضع الشريك، أي 正財 Jeongjae للرجل و正官 Jeonggwan للمرأة، إلا إذا عُرف جنس الطرفين.",
     seekingAny: "غير محدد",
-    submit: "اعرض ملامح شريكي",
+    submit: "شاهد الإعلان لرؤية نتيجة العلاقة",
     submitting: "جارٍ القراءة…",
 
     resultTitle: "ملامح شريكك",
