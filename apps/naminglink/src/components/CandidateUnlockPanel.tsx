@@ -6,6 +6,7 @@ import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { adsEnabled } from "@/lib/ads";
+import { useSelfGateNeeded } from "@/lib/offerwall";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -441,6 +442,8 @@ export function CandidateUnlockPanel({
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [countdown, setCountdown] = useState(0);
+  // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
+  const selfGateNeeded = useSelfGateNeeded();
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
   const [paypalCheckout, setPaypalCheckout] = useState<UnlockCheckout | null>(null);
@@ -669,17 +672,21 @@ export function CandidateUnlockPanel({
     if (loading || remainingCount === 0) return;
 
     setLoading(true);
-    trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
-    setCountdown(UNLOCK_AD_SECONDS);
+    // 오퍼월이 도는 방문에서는 기다리게 하지 않는다. 진입에서 이미 광고를 거쳤다.
+    const waitSeconds = selfGateNeeded ? UNLOCK_AD_SECONDS : 0;
+    if (waitSeconds > 0) {
+      trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
+    }
+    setCountdown(waitSeconds);
     const startedAt = Date.now();
     const timer = window.setInterval(() => {
       const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      setCountdown(Math.max(0, UNLOCK_AD_SECONDS - elapsed));
+      setCountdown(Math.max(0, waitSeconds - elapsed));
     }, 250);
 
     try {
       await new Promise((resolve) =>
-        window.setTimeout(resolve, UNLOCK_AD_SECONDS * 1000),
+        window.setTimeout(resolve, waitSeconds * 1000),
       );
       onUnlock();
       trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
@@ -737,7 +744,9 @@ export function CandidateUnlockPanel({
           onClick={unlockWithAd}
           // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 후보를 열어 주면
           // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
-          disabled={loading || remainingCount === 0 || !adsEnabled}
+          disabled={
+            loading || remainingCount === 0 || !adsEnabled || selfGateNeeded === null
+          }
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
         >
           <Eye aria-hidden="true" size={17} />

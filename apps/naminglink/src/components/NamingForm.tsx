@@ -16,6 +16,7 @@ import {
 } from "@/lib/services";
 import { AdBanner } from "@/components/AdBanner";
 import { adsEnabled } from "@/lib/ads";
+import { useSelfGateNeeded } from "@/lib/offerwall";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
@@ -239,6 +240,8 @@ export function NamingForm({
   locale: Locale;
 }) {
   const router = useRouter();
+  // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 제출을 잠깐 막는다.
+  const selfGateNeeded = useSelfGateNeeded();
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
   // 한글 발음 표기는 API에서는 GLOBAL_TO_KOREAN을 재사용하지만,
   // 통계(site_events)에서는 별도 서비스로 구분해 집계한다.
@@ -420,7 +423,10 @@ export function NamingForm({
       setAnalysisCountdown(0);
     };
 
-    startAdWindow();
+    // 오퍼월이 도는 방문에서는 우리 게이트를 띄우지 않는다. 한 번의 이용에 광고 관문이 둘이면
+    // 이용자가 두 번 붙잡힌다. 판정 근거는 `lib/offerwall.ts`에 적어 두었다.
+    // completeAdWindow는 adStartedAt이 null이면 그냥 돌아가므로 아래 호출들은 손댈 것이 없다.
+    if (selfGateNeeded) startAdWindow();
 
     try {
       const countryProfile = selectedCountry
@@ -934,7 +940,7 @@ export function NamingForm({
             퍼블리셔 ID가 들어오면 adsEnabled가 참이 되어 이 잠금은 저절로 풀린다. */}
         <button
           type="submit"
-          disabled={loading || !adsEnabled}
+          disabled={loading || !adsEnabled || selfGateNeeded === null}
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60"
         >
           <Send aria-hidden="true" size={17} />
