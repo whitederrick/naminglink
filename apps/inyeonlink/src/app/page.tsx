@@ -184,10 +184,9 @@ export default async function LandingPage({
         </div>
 
         {/* naminglink와 같다 — 푸터를 히어로 섹션 안에 두어 데스크탑에서 한 화면에 담는다.
-            다만 아래 여백만 다르다: naminglink는 `!pb-4`, 여기는 `!pb-0`이다. **값을 맞추면
-            오히려 높이가 어긋난다** — naminglink는 정책 링크가 5개(로그인 포함), 이 앱은 4개라
-            줄이 접히는 모양이 달라서다. 두 서비스의 푸터 높이를 같게 보이도록 맞춘 결과값이므로
-            naminglink와 같은 값으로 되돌리지 말 것. */}
+            여백 값도 naminglink 랜딩과 **같아야 한다**(`!pb-0 !pt-2`). 한쪽만 바꾸면 두 서비스를
+            오갈 때 푸터가 들썩인다. 예전에는 naminglink만 `!pb-4`였는데, 그때는 그쪽 정책 링크가
+            5개(로그인 포함)라 줄이 더 접혔기 때문이다. 지금은 양쪽 다 4개라 그 전제가 없다. */}
         <SiteFooter
           locale={locale}
           tone="light"

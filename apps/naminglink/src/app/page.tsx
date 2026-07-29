@@ -293,9 +293,13 @@ export default async function Home({ searchParams }: HomeProps) {
           </section>
         </div>
 
+        {/* 아래 여백은 인연링크 랜딩(`apps/inyeonlink/src/app/page.tsx`)과 **같은 값이어야 한다.**
+            두 서비스를 오가면 푸터가 한 뼘씩 들썩이는 것이 그대로 보인다. 예전에는 이쪽만
+            `!pb-4`였는데, 그때는 정책 링크가 5개(로그인 포함)라 줄이 더 접혔기 때문이다.
+            지금은 양쪽 다 4개(약관·방침·환불·요금)라 그 전제가 없어져 값을 맞춘다. */}
         <SiteFooter
           tone="light"
-          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-4 !pt-2 backdrop-blur"
+          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-0 !pt-2 backdrop-blur"
           locale={locale}
           policyMode="modal"
         />
