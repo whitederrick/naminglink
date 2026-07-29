@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { SelfAdCard } from "@/components/SelfAdCard";
 import { adsEnabled } from "@/lib/ads";
+import { showRewardedAd } from "@/lib/gam-rewarded";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -684,24 +685,45 @@ export function CandidateUnlockPanel({
      * 이용자가 **나머지 후보를 전부 공짜로 여는** 상태가 된다 — 광고 한 번에 결과 전체가
      * 나가므로 "1광고 1결과"가 성립하지 않는다. 그 연결을 끊는다.
      */
-    const waitSeconds = UNLOCK_AD_SECONDS;
     trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
-    setCountdown(waitSeconds);
-    const startedAt = Date.now();
-    const timer = window.setInterval(() => {
-      const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      setCountdown(Math.max(0, waitSeconds - elapsed));
-    }, 250);
 
     try {
-      await new Promise((resolve) =>
-        window.setTimeout(resolve, waitSeconds * 1000),
-      );
-      onUnlock();
-      trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+      /**
+       * **GAM 보상형을 먼저 시도한다.** 광고 단위 경로가 없으면(다크 런치) 곧바로
+       * `unavailable`이 돌아오므로 아래 자체 게이트로 떨어진다.
+       *
+       * `dismissed`는 이용자가 보상 전에 닫은 것이다. 후보를 열지 않고 그대로 끝낸다 —
+       * 광고를 안 봤는데 보상을 주면 보상형을 둔 의미가 없다.
+       */
+      const outcome = await showRewardedAd();
+      if (outcome === "granted") {
+        onUnlock();
+        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+        return;
+      }
+      if (outcome === "dismissed") return;
+
+      // 여기부터가 폴백이다. 보상형 광고가 없을 때(no-fill·차단기·미설정) 자체 게이트가
+      // 대신 돈다 — 배너가 채워지면 배너를, 못 채우면 셀프 광고를 보여 준다.
+      // 초기 트래픽에서는 이쪽이 더 흔하다. 광고가 없다고 버튼이 죽으면 안 된다.
+      const waitSeconds = UNLOCK_AD_SECONDS;
+      setCountdown(waitSeconds);
+      const startedAt = Date.now();
+      const timer = window.setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startedAt) / 1000);
+        setCountdown(Math.max(0, waitSeconds - elapsed));
+      }, 250);
+      try {
+        await new Promise((resolve) =>
+          window.setTimeout(resolve, waitSeconds * 1000),
+        );
+        onUnlock();
+        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+      } finally {
+        window.clearInterval(timer);
+        setCountdown(0);
+      }
     } finally {
-      window.clearInterval(timer);
-      setCountdown(0);
       setLoading(false);
     }
   }
