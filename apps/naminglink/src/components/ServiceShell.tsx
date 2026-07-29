@@ -436,7 +436,11 @@ export function ServiceShell({
           <ServicePromisePanel service={displayService} locale={locale} />
         </section>
 
-        <NamingForm service={displayService} locale={locale} />
+        {/* **key로 서비스를 묶어 둔다.** 서비스 화면은 전부 같은 자리에서 이 컴포넌트를 그리므로,
+            key가 없으면 다른 서비스로 옮겨도 React가 같은 인스턴스를 재사용해 이전 화면의 상태가
+            그대로 남는다 — 이용약관 동의 체크가 이미 켜진 채로 보이던 원인이다. 동의는 서비스마다
+            새로 받아야 하는 것이라 상태가 넘어오면 안 된다. */}
+        <NamingForm key={service.slug} service={displayService} locale={locale} />
       </section>
       <SiteFooter locale={locale} policyMode="modal" />
     </main>

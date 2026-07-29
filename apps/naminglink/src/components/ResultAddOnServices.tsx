@@ -108,6 +108,40 @@ export function ResultAddOnServices({
 
   // 외국인 대상 서비스는 결과 페이지 사전(i18n-result)의 굿즈 문구를 로케일별로 사용한다.
   const foreign = locale && locale !== "ko";
+
+  // 도장은 **모델마다 값이 다르다**(원형 목도장·사각 목도장·흑단). 버튼에 한 값을 박아 두면
+  // 실제로 고르는 모델과 어긋나므로, 파는 모델들의 가격 폭을 DB에서 받아 적는다.
+  // 살 수 없으면(판매 중지·결제 미준비) 빈 배열이 오고 금액을 아예 적지 않는다.
+  const stampCodes = foreign
+    ? ["STAMP_ROUND_WOOD_USD", "STAMP_SQUARE_WOOD_USD", "STAMP_EBONY_USD"]
+    : ["STAMP_ROUND_WOOD_KRW", "STAMP_SQUARE_WOOD_KRW", "STAMP_EBONY_KRW"];
+  const [stampPriceRange, setStampPriceRange] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    void (async () => {
+      try {
+        const response = await fetch(`/api/product-info?codes=${stampCodes.join(",")}`);
+        const data = (await response.json().catch(() => null)) as
+          | { products?: Record<string, { amount?: number; display?: string }> }
+          | null;
+        const rows = Object.values(data?.products ?? {}).filter(
+          (row): row is { amount: number; display: string } =>
+            typeof row?.amount === "number" && typeof row?.display === "string",
+        );
+        if (!alive || rows.length === 0) return;
+        const sorted = [...rows].sort((a, b) => a.amount - b.amount);
+        const low = sorted[0]!.display;
+        const high = sorted[sorted.length - 1]!.display;
+        setStampPriceRange(low === high ? low : `${low}~${high}`);
+      } catch {
+        // 조회 실패 시 금액을 적지 않는다. 틀린 값을 보여 주는 것보다 낫다.
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [foreign]);
   const copy = foreign
     ? (() => {
         const r = getResultCopy(locale as Locale);
@@ -248,7 +282,8 @@ export function ResultAddOnServices({
             })()}
             className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
           >
-            {foreign ? copy.button : "이름 도장 신청 · ₩39,000"}
+            {(foreign ? copy.button : "이름 도장 신청") +
+              (stampPriceRange ? ` · ${stampPriceRange}` : "")}
           </Link>
         </article>
       </div>

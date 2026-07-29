@@ -1335,7 +1335,10 @@ export function ResultCard({
         )
       ) : null}
 
-      {rejected.length ? (
+      {/* 배제 후보 요약(Excluded options)은 **후보를 전부 연 뒤에만** 보여 준다.
+          여기에는 어떤 글자·조합이 왜 빠졌는지가 담겨 있어, 잠금 상태에서 노출하면 추천 결과의
+          핵심 정보를 값 없이 먼저 넘겨주는 셈이 된다. 제외된 것을 아는 것도 결과의 일부다. */}
+      {rejected.length && allCandidatesRevealed ? (
         <section className="rounded-lg border border-brand-rose/25 bg-brand-rose/5 p-5">
           <div className="flex items-center gap-2">
             <AlertTriangle
