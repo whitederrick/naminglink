@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
 import { LogIn, LogOut, Mail } from "lucide-react";
+import { AccountDeletePanel } from "@/components/AccountDeletePanel";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { getAuthCopy } from "@/lib/i18n-auth";
@@ -120,6 +120,9 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
           {copy.logoutButton}
         </button>
         {message ? <p className="text-sm text-brand-teal">{message}</p> : null}
+        {/* 탈퇴는 로그아웃 아래에 눈에 덜 띄게 둔다. 되돌릴 수 없는 동작이라 실수로 누르는
+            자리에 있으면 안 되지만, 찾을 수 없으면 방침이 보장한 삭제 요구권이 무의미해진다. */}
+        <AccountDeletePanel email={currentEmail} locale={locale} />
       </section>
     );
   }
