@@ -1,3 +1,5 @@
+import { localeCodes } from "@/lib/locale-codes";
+
 export type Locale =
   | "ko"
   | "en"
@@ -131,10 +133,9 @@ export const secondaryLocales: Locale[] = [
   "pl",
 ];
 
-export const supportedLocales: Locale[] = [
-  ...primaryLocales,
-  ...secondaryLocales,
-];
+// 미들웨어가 쓰는 `lib/locale-codes.ts`의 배열을 그대로 쓴다. 두 곳에 따로 적어 두면
+// 경로 앞의 로케일을 미들웨어는 알아보는데 화면은 모르는(또는 그 반대인) 상태가 생긴다.
+export const supportedLocales: Locale[] = [...localeCodes];
 
 // GLOBAL_TO_KOREAN에서 선택 가능한 한국 성: 상위 20개(인구 약 80% 커버) + 외국 성 소리
 // 매칭용 실존 성(왕·진·백·마·나·유). 라벨은 "한글 (로마자)"라 언어 중립적이어서 로케일 사전

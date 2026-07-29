@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getServiceCopy } from "@/lib/i18n";
+import { localePath } from "@/lib/locale-path";
 import { supportedLocales, type Locale } from "@/lib/services";
 
 /**
@@ -57,11 +58,14 @@ export function absoluteUrl(path: string) {
 }
 
 /**
- * `lang=xx`가 붙은 언어판 주소. 경로에 이미 쿼리가 있으면(`?mode=…`) `&`로 잇는다 —
- * `?`를 두 번 쓰면 두 번째부터는 쿼리가 아니라 값의 일부가 된다.
+ * 언어판 주소. **경로 앞에 로케일을 붙인다** — `https://…/ko/hanja-meaning`.
+ *
+ * 예전에는 `?lang=ko`였다. 구글의 다국어 URL 권장안에서 쿼리 파라미터는 가장 낮은 선택지라
+ * 경로로 옮겼다. 미들웨어가 다시 `?lang=`으로 되돌려 넘기므로 화면 코드는 그대로다
+ * (`lib/locale-path.ts`).
  */
 export function localeUrl(path: string, locale: Locale) {
-  return `${absoluteUrl(path)}${path.includes("?") ? "&" : "?"}lang=${locale}`;
+  return `${siteUrl}${localePath(path, locale)}`;
 }
 
 /**
