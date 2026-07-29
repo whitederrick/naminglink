@@ -706,7 +706,8 @@ export function NamingForm({
                     : isHangulTransliteration
                       ? "mt-5 grid gap-x-4 gap-y-6 md:grid-cols-2"
                       : isHanjaMeaning && sectionIndex === 0
-                        ? "mt-5 grid grid-cols-[minmax(0,0.88fr)_minmax(0,1.08fr)_minmax(0,1.04fr)] gap-4"
+                        // 3열은 좁은 화면에서 한 칸이 100px도 안 된다. 모바일은 세로로 쌓는다.
+                        ? "mt-5 grid gap-4 sm:grid-cols-[minmax(0,0.88fr)_minmax(0,1.08fr)_minmax(0,1.04fr)]"
                         : isHanjaMeaning && sectionIndex === 1
                           ? "mt-5 grid grid-cols-6 gap-4 md:grid-cols-4"
                           : "mt-5 grid gap-4 md:grid-cols-2"

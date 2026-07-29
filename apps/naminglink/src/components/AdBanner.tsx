@@ -110,7 +110,10 @@ export function AdBanner({
           {displayLabel}
         </p>
         <ins
-          className={`adsbygoogle block w-full ${adHeightClass}`}
+          // `!max-w-full`이 없으면 안 된다. 애드센스는 소재를 고른 뒤 `<ins>`에 인라인 `width`를
+          // 직접 써 넣는데(728px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로
+          // 넘친다. 높이와 같은 이유로 important가 필요하다.
+          className={`adsbygoogle block w-full !max-w-full ${adHeightClass}`}
           style={{ display: "block" }}
           data-ad-client={adsenseClient}
           data-ad-slot={slot}

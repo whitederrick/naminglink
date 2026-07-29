@@ -366,11 +366,16 @@ export function ServiceShell({
   const globalLabels = globalNavigationLabels[locale];
 
   return (
-    // 가로 넘침 방지. 안쪽 어딘가가 뷰포트보다 넓어지면 모바일에서 페이지 전체가 축소돼
-    // 오른쪽이 잘려 보이고, 대화상자(분석 대기)까지 같이 작아진다. 세로 스크롤은 그대로다.
-    <main className="min-h-screen overflow-x-hidden">
+    // **`overflow-x-hidden`을 쓰지 말 것.** 넘치는 내용을 잘라내면서 가로 스크롤까지 막아,
+    // 모바일에서 오른쪽 내용에 아예 닿을 수 없게 된다(넘침을 숨기는 것이 아니라 못 보게 한다).
+    // 넘침은 원인 쪽에서 고친다 — grid/flex 항목의 `min-w-0`과 광고 `<ins>`의 `!max-w-full`이다.
+    <main className="min-h-screen">
       <section className="mx-auto grid w-full max-w-7xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
-        <header className="border-b border-line pb-5">
+        {/* `min-w-0`이 없으면 안 된다. 이 머리글은 바깥 grid의 항목인데, grid 항목의 기본값은
+            `min-width: auto`라 **내용의 최소 폭 아래로 줄어들지 않는다.** 애드센스가 `<ins>`에
+            인라인으로 `width: 728px` 같은 값을 써 넣으면 그것이 트랙 폭이 되어 화면 밖으로
+            밀려난다 — 왼쪽 여백은 그대로인데 오른쪽만 잘려 보이던 증상이 이것이다. */}
+        <header className="min-w-0 border-b border-line pb-5">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
             {/* `shrink-0`이면 버튼 줄이 뷰포트보다 넓어도 줄어들지 않아 페이지 전체가 가로로
                 넘친다(모바일에서 오른쪽이 잘려 보이던 원인). 줄바꿈으로 처리하고 `min-w-0`으로
