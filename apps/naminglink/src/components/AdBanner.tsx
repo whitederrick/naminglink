@@ -55,6 +55,27 @@ export function AdBanner({
       : "min-h-20";
   const displayLabel = label ?? labels[variant];
 
+  /**
+   * 광고 모양을 자리에 맞춰 **고정한다.**
+   *
+   * `auto`로 두면 애드센스가 컨테이너에 맞는 아무 크기나 고르는데, 우리 자리는 높이 하한
+   * (`min-h`)만 있고 상한이 없어 세로로 큰 사각형이 들어와 머리글이 통째로 밀렸다.
+   * 콘솔에서 광고 단위를 수평형으로 만들어도 이 속성이 그것을 덮는다.
+   *
+   * `<ins>`에 실제 높이를 함께 준다 — 애드센스는 요소의 계산된 크기를 보고 소재를 고르므로,
+   * 높이가 없으면 format만으로는 크기가 잡히지 않는다.
+   */
+  const adFormat = isConsentSlot
+    ? "rectangle"
+    : variant === "sidebar"
+      ? "vertical"
+      : "horizontal";
+  const adHeightClass = isHeaderSlot
+    ? "h-[100px] lg:h-[90px]"
+    : isConsentSlot
+      ? "h-[250px] lg:h-[280px]"
+      : "h-[90px]";
+
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
   useEffect(() => {
@@ -76,11 +97,11 @@ export function AdBanner({
           {displayLabel}
         </p>
         <ins
-          className="adsbygoogle block"
+          className={`adsbygoogle block w-full ${adHeightClass}`}
           style={{ display: "block" }}
           data-ad-client={adsenseClient}
           data-ad-slot={slot}
-          data-ad-format="auto"
+          data-ad-format={adFormat}
           data-full-width-responsive="true"
         />
       </aside>
