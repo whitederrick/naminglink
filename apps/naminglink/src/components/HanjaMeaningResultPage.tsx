@@ -105,7 +105,6 @@ export function HanjaMeaningResultPage({
               label="한자 추천 결과 상단 배너 광고"
             />
           </div>
-          <p className="order-3 text-sm text-muted">한자 의미 매칭 결과</p>
         </header>
 
         {!ready ? (
