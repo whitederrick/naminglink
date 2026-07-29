@@ -1,6 +1,10 @@
 # 유료 리포트 24시간 자동삭제 크론(시간별). Vercel Hobby 플랜은 크론이 일 1회로 제한되어
 # 약관의 "24시간 열람 후 자동 삭제"를 지키지 못하므로 GitHub Actions가 시간별 호출을 담당한다.
 # vercel.json의 일 1회 크론(03:00 KST)은 백업으로 유지한다.
+#
+# **이 크론이 조용히 멈추면 개인정보가 계속 남는다** — 결제 미완료 배송정보 파기와 만료 리포트
+# 삭제가 여기에 달려 있다. 그래서 주소를 하드코딩하지 않는다. 실 도메인 전환(2026-07-29) 전까지
+# `naminglink.vercel.app`이 박혀 있었고, 그 주소를 막는 순간 티 없이 죽는 상태였다.
 name: premium-cleanup-cron
 
 on:
@@ -19,17 +23,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # 주소는 저장소 변수 CRON_TARGET_URL로 뺀다. 실 도메인이 바뀌어도 워크플로 파일을
+      # 고치고 다시 배포할 필요가 없다. 미설정 시 실 도메인으로 떨어진다.
       - name: Call cleanup endpoint
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          CRON_TARGET_URL: ${{ vars.CRON_TARGET_URL }}
         run: |
           if [ -z "$CRON_SECRET" ]; then
             echo "CRON_SECRET repository secret is not set" >&2
             exit 1
           fi
+          target="${CRON_TARGET_URL:-https://naming-link.com}"
+          echo "target: $target"
           response=$(curl -sS -w "\n%{http_code}" \
             -H "Authorization: Bearer $CRON_SECRET" \
-            "https://naminglink.vercel.app/api/cron/premium-cleanup")
+            "$target/api/cron/premium-cleanup")
           body=$(echo "$response" | head -n -1)
           status=$(echo "$response" | tail -n 1)
           echo "HTTP $status: $body"
