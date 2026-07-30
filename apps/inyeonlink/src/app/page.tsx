@@ -8,7 +8,8 @@ import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
-import { buildAlternates, ogImageFor, siteUrl } from "@/lib/seo";
+import { localePath } from "@/lib/locale-path";
+import { absoluteUrl, buildAlternates, localeUrl, ogImageFor } from "@/lib/seo";
 
 export async function generateMetadata({
   searchParams,
@@ -35,7 +36,7 @@ export async function generateMetadata({
       siteName: "Inyeon-Link",
       title,
       description: dictionary.landing.subtitle,
-      url: requested ? `${siteUrl}/?lang=${requested}` : `${siteUrl}/`,
+      url: requested ? localeUrl("/", requested) : absoluteUrl("/"),
       locale,
       images: [ogImageFor(locale)],
     },
@@ -59,7 +60,9 @@ export default async function LandingPage({
   const locale = await getRequestLocale(lang);
   const dictionary = getDictionary(locale);
   const { landing } = dictionary;
-  const query = lang ? `?lang=${locale}` : "";
+  // 주소로 언어를 고른 방문자에게만 로케일을 붙여 따라다니게 한다. `?lang=`도 `/ko/`도
+  // 없이 들어온 사람은 헤더로 언어가 갈리는 x-default 자리에 그대로 머물러야 한다.
+  const linkLocale = lang ? locale : null;
 
   return (
     <main className="min-h-screen bg-background">
@@ -88,7 +91,7 @@ export default async function LandingPage({
             (naminglink 랜딩이 헤더와 본문에 같은 grid-cols를 쓰는 이유다). 한쪽만 고치지 말 것. */}
         <header className="relative z-40 mx-auto grid w-full max-w-7xl gap-3 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(34rem,34rem)] lg:items-center lg:gap-5 lg:px-10">
           {/* 로고 묶음의 크기·간격은 naminglink 헤더와 같은 값이다(22px / 18px, gap-3, gap-1). */}
-          <Link href={`/${query}`} className="flex items-center gap-3">
+          <Link href={localePath("/", linkLocale)} className="flex items-center gap-3">
             <BrandMark />
             <span className="flex flex-col gap-1">
               <span className="text-[22px] font-semibold leading-none">
@@ -136,13 +139,13 @@ export default async function LandingPage({
                 그대로 남긴다. */}
             <div className="mt-5 flex flex-wrap gap-3">
               <Link
-                href={`/compatibility${query}`}
+                href={localePath("/compatibility", linkLocale)}
                 className="inline-block rounded-full bg-white px-7 py-3.5 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
               >
                 {landing.cta}
               </Link>
               <Link
-                href={`/affinity${query}`}
+                href={localePath("/affinity", linkLocale)}
                 className="inline-block rounded-full border border-white/45 bg-white/12 px-7 py-3.5 text-lg font-semibold text-white shadow-sm backdrop-blur transition hover:bg-white/20"
               >
                 {dictionary.affinity.menu}

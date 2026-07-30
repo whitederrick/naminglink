@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
+import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
 import {
@@ -139,7 +140,7 @@ export function AffinityResultView({
           {state.message}
         </p>
         <Link
-          href={`/affinity?lang=${locale}`}
+          href={localePath("/affinity", locale)}
           className="mt-6 inline-block rounded-full bg-brand-plum px-6 py-3 font-semibold text-white"
         >
           {t.recalculate}
@@ -342,7 +343,7 @@ export function AffinityResultView({
           {t.nextBody}
         </p>
         <Link
-          href={`/compatibility?lang=${locale}`}
+          href={localePath("/compatibility", locale)}
           className={`${ACTION_BUTTON} mt-5 bg-brand-plum text-white hover:opacity-90`}
         >
           {t.nextButton}
@@ -351,7 +352,7 @@ export function AffinityResultView({
 
       <div className="mt-10 flex flex-wrap gap-3">
         <Link
-          href={`/affinity?lang=${locale}`}
+          href={localePath("/affinity", locale)}
           className="rounded-full border border-line bg-surface px-5 py-2.5 text-sm font-medium"
         >
           {t.recalculate}

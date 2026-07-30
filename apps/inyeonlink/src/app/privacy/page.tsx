@@ -49,6 +49,7 @@ export default async function PrivacyPage({
         await getReportPrices(),
       )}
       locale={locale}
+      path="/privacy"
     />
   );
 }

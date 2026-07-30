@@ -1,6 +1,7 @@
 import { LegalLinks } from "@/components/LegalLinks";
 import { getCompanyInfo } from "@/lib/company-server";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
+import { localePath } from "@/lib/locale-path";
 
 // naminglink의 SiteFooter와 **같은 구조**다. 가운데 정렬 · 정책 링크 한 줄 · 사업자 정보
 // 두 줄(모바일은 잘게 접음) · 저작권 한 줄. 두 서비스를 오가는 사용자가 같은 자리에서 같은
@@ -91,12 +92,14 @@ export async function SiteFooter({
     : "font-semibold text-foreground";
 
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 넘긴다(IP·브라우저 언어 재추정 방지).
-  const langQuery = locale === "ko" ? "" : `?lang=${locale}`;
+  // 한국어는 로케일 없는 주소를 그대로 쓴다 — 국내 방문자에게 보이는 주소가 짧아지고,
+  // 헤더로 언어가 갈리는 x-default 자리와도 어긋나지 않는다.
+  const linkLocale = locale === "ko" ? null : locale;
   const footerLinks = [
-    { kind: "terms" as const, href: `/terms${langQuery}`, label: copy.terms },
-    { kind: "privacy" as const, href: `/privacy${langQuery}`, label: copy.privacy },
-    { kind: "refund" as const, href: `/refund-policy${langQuery}`, label: copy.refund },
-    { kind: "pricing" as const, href: `/pricing${langQuery}`, label: copy.pricing },
+    { kind: "terms" as const, href: localePath("/terms", linkLocale), label: copy.terms },
+    { kind: "privacy" as const, href: localePath("/privacy", linkLocale), label: copy.privacy },
+    { kind: "refund" as const, href: localePath("/refund-policy", linkLocale), label: copy.refund },
+    { kind: "pricing" as const, href: localePath("/pricing", linkLocale), label: copy.pricing },
   ];
 
   const row = (label: string, value: string) => ({

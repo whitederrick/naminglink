@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { supportedLocales, type Locale } from "@/lib/i18n";
+import { localePath } from "@/lib/locale-path";
 
 /**
  * 사이트 절대 주소. canonical·hreflang·sitemap이 전부 여기서 갈라져 나온다.
@@ -67,9 +68,15 @@ export function absoluteUrl(path: string) {
   return path === "/" ? `${siteUrl}/` : `${siteUrl}${path}`;
 }
 
-/** `?lang=xx`가 붙은 언어판 주소. */
+/**
+ * 언어판 주소. **경로 앞에 로케일을 붙인다** — `https://…/ko/compatibility`.
+ *
+ * 예전에는 `?lang=ko`였다. 구글의 다국어 URL 권장안에서 쿼리 파라미터는 가장 낮은 선택지라
+ * 경로로 옮겼다. 미들웨어(`proxy.ts`)가 다시 `?lang=`으로 되돌려 넘기므로 화면 코드는 그대로다
+ * (`lib/locale-path.ts`).
+ */
 export function localeUrl(path: string, locale: Locale) {
-  return `${absoluteUrl(path)}?lang=${locale}`;
+  return `${siteUrl}${localePath(path, locale)}`;
 }
 
 /**

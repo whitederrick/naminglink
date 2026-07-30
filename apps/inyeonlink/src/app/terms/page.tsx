@@ -47,6 +47,7 @@ export default async function TermsPage({
         await getReportPrices(),
       )}
       locale={locale}
+      path="/terms"
     />
   );
 }

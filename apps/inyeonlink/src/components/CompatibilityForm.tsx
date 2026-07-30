@@ -10,6 +10,7 @@ import {
 } from "@/components/PersonFields";
 import { AdWatchOverlay } from "@/components/AdRewardGate";
 import { submitAdGateEnabled } from "@/lib/ads";
+import { localePath } from "@/lib/locale-path";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import {
   encodeMatchInput,
@@ -71,7 +72,7 @@ export function CompatibilityForm({
     setSubmitting(true);
     // 생년월일을 쿼리스트링에 싣지 않는다. 프래그먼트(#)는 서버로 전송되지 않으므로 결과
     // 링크를 공유하거나 새로고침해도 접속 로그에는 경로만 남는다.
-    const target = `/compatibility/result?lang=${locale}#${encodeMatchInput(input)}`;
+    const target = `${localePath("/compatibility/result", locale)}#${encodeMatchInput(input)}`;
 
     // **router.push를 쓰지 않는다.** 두 번째 조회에서 주소가
     // `...result?lang=ko#첫번째프래그먼트#두번째프래그먼트`가 되는 일이 있었다. 프래그먼트가

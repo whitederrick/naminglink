@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
+import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { emphasize } from "@/lib/emphasize";
 import {
@@ -152,7 +153,7 @@ export function MatchResultView({
           {state.message}
         </p>
         <Link
-          href={`/compatibility?lang=${locale}`}
+          href={localePath("/compatibility", locale)}
           className="mt-6 inline-block rounded-full bg-brand-plum px-6 py-3 font-semibold text-white"
         >
           {t.recalculate}
@@ -248,7 +249,7 @@ export function MatchResultView({
 
       <div className="mt-10 flex flex-wrap gap-3">
         <Link
-          href={`/compatibility?lang=${locale}`}
+          href={localePath("/compatibility", locale)}
           className="rounded-full border border-line px-6 py-3 font-semibold"
         >
           {t.recalculate}

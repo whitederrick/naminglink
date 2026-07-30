@@ -47,6 +47,7 @@ export default async function RefundPolicyPage({
         await getReportPrices(),
       )}
       locale={locale}
+      path="/refund-policy"
     />
   );
 }

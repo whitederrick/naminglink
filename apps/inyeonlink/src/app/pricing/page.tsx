@@ -47,6 +47,7 @@ export default async function PricingPage({
         await getReportPrices(),
       )}
       locale={locale}
+      path="/pricing"
     />
   );
 }

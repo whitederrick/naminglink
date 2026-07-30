@@ -78,6 +78,13 @@ export async function getRequestLocale(searchLocale?: string): Promise<Locale> {
   if (isLocale(searchLocale)) return searchLocale;
 
   const headerStore = await headers();
+
+  // 경로에 로케일이 있으면(`/ko/…`) 미들웨어(`proxy.ts`)가 `x-locale`로 넘겨 준다. 가장 먼저
+  // 본다 — 이용자가 주소로 언어를 골랐다는 뜻이라 접속 국가·브라우저 설정보다 우선한다.
+  // **루트 레이아웃에는 이 경로뿐이다.** 레이아웃은 searchParams를 받지 못해 `?lang=`을 못 본다.
+  const fromPath = headerStore.get("x-locale");
+  if (isLocale(fromPath)) return fromPath;
+
   const country = headerStore.get("x-vercel-ip-country")?.toUpperCase();
   const acceptLanguage = headerStore.get("accept-language") ?? "";
 

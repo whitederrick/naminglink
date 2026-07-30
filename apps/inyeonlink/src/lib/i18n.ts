@@ -31,32 +31,12 @@ import { tr } from "@/lib/i18n-locales/tr";
 import { uz } from "@/lib/i18n-locales/uz";
 import { vi } from "@/lib/i18n-locales/vi";
 import { zh } from "@/lib/i18n-locales/zh";
+import { localeCodes } from "@/lib/locale-codes";
 
-export const supportedLocales = [
-  "ko",
-  "en",
-  "ja",
-  "zh",
-  "de",
-  "es",
-  "fr",
-  "it",
-  "pt",
-  "vi",
-  "th",
-  "id",
-  "ru",
-  "ar",
-  "fil",
-  "uz",
-  "mn",
-  "hi",
-  "tr",
-  "km",
-  "ms",
-  "kk",
-  "pl",
-] as const;
+// 목록 자체는 `lib/locale-codes.ts`에 있다. 미들웨어가 이 파일(23개 사전을 전부 끌어온다)을
+// 엣지로 올리지 않고 코드 목록만 읽게 하려는 것이고, 그러면서도 두 곳이 갈리지 않게 하려면
+// 한쪽이 다른 쪽을 그대로 가져다 쓰는 편이 맞다.
+export const supportedLocales = localeCodes;
 
 export type Locale = (typeof supportedLocales)[number];
 

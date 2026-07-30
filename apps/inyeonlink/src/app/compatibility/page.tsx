@@ -52,7 +52,7 @@ export default async function CompatibilityPage({
       <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/25" />
 
       <div className="relative z-10">
-        <PageHeader brand={dictionary.brand} locale={locale} />
+        <PageHeader brand={dictionary.brand} locale={locale} path="/compatibility" />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <section className="mt-10">

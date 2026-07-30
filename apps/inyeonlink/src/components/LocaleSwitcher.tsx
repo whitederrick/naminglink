@@ -1,3 +1,4 @@
+import { localePath } from "@/lib/locale-path";
 import {
   getDictionary,
   localeLabels,
@@ -14,18 +15,21 @@ import {
  * 노출 대상은 번역이 있는 로케일(`translatedLocales`)뿐이다. 사전을 채우면 자동으로 늘어나므로
  * 이 컴포넌트는 고치지 않는다.
  *
- * naminglink와 다른 점이 하나 있다: 링크를 `/?lang=`가 아니라 상대 경로 `?lang=`으로 둔다.
- * 그래야 하위 페이지에서 언어를 바꿔도 보던 화면에 그대로 머문다(naminglink는 전부 루트로
- * 튕기는 문제가 있어 SEO 정리 때 이쪽에 맞출 예정).
+ * **지금 보고 있는 화면에 머문다.** 언어만 갈아 끼운다(`/ko/compatibility` →
+ * `/es/compatibility`). 예전에는 상대 경로 `?lang=`이라 저절로 그렇게 됐지만, 주소가 경로
+ * 기반으로 바뀌면서 지금 경로를 알아야 링크를 만들 수 있다 — 그래서 `path`를 받는다.
  *
  * `tone="onDark"`는 히어로 위에 얹을 때 쓴다.
  */
 export function LocaleSwitcher({
   current,
+  path = "/",
   tone = "onLight",
   className = "",
 }: {
   current: Locale;
+  /** 지금 화면의 경로(로케일 없는 형태). 예: `/compatibility` */
+  path?: string;
   tone?: "onLight" | "onDark";
   className?: string;
 }) {
@@ -65,7 +69,7 @@ export function LocaleSwitcher({
       {primaryRow.map((locale) => (
         <a
           key={locale}
-          href={`?lang=${locale}`}
+          href={localePath(path, locale)}
           aria-current={locale === current ? "true" : undefined}
           className={`inline-flex h-10 w-[4.8rem] shrink-0 items-center justify-center rounded-lg border px-2 text-center transition ${pill(
             locale === current,
@@ -92,7 +96,7 @@ export function LocaleSwitcher({
             {secondaryRow.map((locale) => (
               <a
                 key={locale}
-                href={`?lang=${locale}`}
+                href={localePath(path, locale)}
                 aria-current={locale === current ? "true" : undefined}
                 className={`flex min-h-7 items-center justify-center rounded-md px-2 py-1 text-center text-sm leading-none transition ${
                   locale === current
