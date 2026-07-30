@@ -67,9 +67,12 @@ export default async function CompatibilityPage({
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
 
-          {/* 광고는 미저장 안내 아래, 즉 화면의 맨 끝에 둔다. 제출 버튼 근처에 두면 오클릭이
-              나고 그건 애드센스 계정 정지 사유다. */}
-          <AdBanner placement="form" locale={locale} className="mt-10" />
+        </div>
+
+        {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. 예전에 입력 화면 맨 아래에 있던
+            `form` 자리를 이것이 대신한다 — 둘을 함께 두면 광고 둘이 붙어 나온다. */}
+        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
+          <AdBanner placement="bottom" locale={locale} />
         </div>
 
         <SiteFooter locale={locale} />

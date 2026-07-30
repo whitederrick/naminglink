@@ -7,6 +7,10 @@
 // 값을 넣은 뒤에는 **재배포가 필요하다.** NEXT_PUBLIC_ 변수는 빌드 시점에 클라이언트 번들로
 // 박히기 때문이다.
 
+// **상대 경로로 둔다.** 이 파일은 `next.config.ts`가 직접 읽는데, 그 자리에서는
+// tsconfig의 `@/` 별칭이 보장되지 않는다.
+import { gamRewardedEnabled } from "./gam-rewarded";
+
 /** 퍼블리셔 ID. 애드센스 계정의 `ca-pub-0000000000000000` 꼴. */
 const rawClient = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
 
@@ -28,10 +32,19 @@ export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "
  * 그 자리만 조용히 렌더링하지 않는다 — 자리 하나를 빼려고 배포를 다시 할 필요가 없다.
  */
 export const adSlots = {
+  /**
+   * **화면 맨 위.** 머리글보다도 앞이다. 흐름 안의 자리라 스크롤하면 같이 올라간다 —
+   * 화면에 붙어 따라다니는 스티키(구글이 '앵커 광고'라 부르는 것)가 아니다. 앵커는 자동
+   * 광고로만 공식 지원되고, 직접 `position: fixed`로 만들면 정책 위험이 있다.
+   */
+  top: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP ?? "").trim(),
   /** 결과 화면 — 결과를 다 읽은 뒤, 미저장 안내 앞. */
   result: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT ?? "").trim(),
-  /** 입력 화면 — 맨 아래. 제출 버튼과 멀리 둔다(오클릭 방지는 애드센스 정책이기도 하다). */
-  form: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_FORM ?? "").trim(),
+  /**
+   * **화면 맨 아래.** 푸터 바로 위다. 예전의 `form`(입력 화면 맨 아래) 자리를 이것이 대신한다 —
+   * 둘을 함께 두면 입력 화면에서 광고 둘이 붙어 나온다.
+   */
+  bottom: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM ?? "").trim(),
   /**
    * **계산 중 팝업(`AdRewardGate`) 자리는 여기에 없다.** 예전에는 `analyzing` 슬롯이 있었다.
    * 그 팝업은 화면을 덮는 오버레이이고 결과를 여는 관문이라, 애드센스 표시 광고를 두면
@@ -47,18 +60,18 @@ export type AdPlacement = keyof typeof adSlots;
 /**
  * 제출을 누를 때 광고 관문(`AdWatchOverlay`)을 세울 것인가.
  *
- * **지금은 항상 거짓이다.** 예전에는 `adSlotFor("analyzing")`으로 판단했는데, 그 자리에 있던
- * 애드센스 표시 광고를 정책 때문에 걷어내면서 판단 근거가 함께 사라졌다.
+ * **GAM 보상형 광고 단위가 있을 때만 참이다.** 예전에는 `adSlotFor("analyzing")`으로 판단했는데,
+ * 그 자리에 있던 애드센스 표시 광고를 정책 때문에 걷어내면서 판단 근거가 사라져 한동안 항상
+ * 거짓이었다.
  *
- * 그대로 켜 두면 안 되는 이유: 인연링크는 규칙 엔진이라 결과가 즉시 나온다. 띄울 광고 없이
- * 5초를 붙잡으면 **이용자만 잃고 우리가 버는 것은 없는 순수한 지연**이 된다(naminglink는
- * 그 시간에 실제로 AI를 부르고 있어 사정이 다르다).
+ * 띄울 광고 없이 켜 두면 안 되는 이유: 인연링크는 규칙 엔진이라 결과가 즉시 나온다. 광고
+ * 없이 5초를 붙잡으면 **이용자만 잃고 우리가 버는 것은 없는 순수한 지연**이 된다(naminglink는
+ * 그 시간에 실제로 AI를 부르고 있어 사정이 다르다). 그래서 판단 근거를 실제로 띄울 광고가
+ * 있는지(`gamRewardedEnabled`)에 묶는다 — 단위를 비우면 게이트가 통째로 사라진다.
  *
- * 되살리는 방법은 GAM 보상형을 붙이는 것이다 — naminglink의 `lib/gam-rewarded.ts`가 본이다.
- * 그때 이 값을 그 준비 여부로 바꾸면 `AdWatchOverlay` 흐름이 그대로 다시 돈다.
- * 타입을 boolean으로 못 박은 것은 `false` 리터럴이 되면 아래 분기가 죽은 코드로 취급되기 때문이다.
+ * 타입을 boolean으로 못 박은 것은 리터럴 타입이 되면 아래 분기가 죽은 코드로 취급되기 때문이다.
  */
-export const submitAdGateEnabled: boolean = false;
+export const submitAdGateEnabled: boolean = gamRewardedEnabled;
 
 export function adSlotFor(placement: AdPlacement) {
   if (!adsEnabled) return "";

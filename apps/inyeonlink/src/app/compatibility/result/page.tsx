@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 import { MatchResultView } from "@/components/MatchResultView";
+import { AdBanner } from "@/components/AdBanner";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
@@ -65,6 +66,12 @@ export default async function ResultPage({
 
           {/* 결과를 읽은 직후에 "이건 참고 자료"라는 것과 "저장되지 않았다"는 것을 함께 본다. */}
           <PrivacyNotice locale={locale} className="mt-12" />
+        </div>
+
+        {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. 예전에 입력 화면 맨 아래에 있던
+            `form` 자리를 이것이 대신한다 — 둘을 함께 두면 광고 둘이 붙어 나온다. */}
+        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
+          <AdBanner placement="bottom" locale={locale} />
         </div>
 
         <SiteFooter locale={locale} />

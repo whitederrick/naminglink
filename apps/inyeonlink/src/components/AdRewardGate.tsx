@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+import { showRewardedAd } from "@/lib/gam-rewarded";
 import { fillTemplate, type Dictionary } from "@/lib/i18n";
 
 /**
@@ -68,13 +69,38 @@ export function AdWatchOverlay({
 }) {
   const { analyzing } = dictionary;
   const [remaining, setRemaining] = useState(AD_SECONDS);
+  // 보상형을 먼저 띄운다. 끝까지 보면 기다림 없이 통과시킨다 — 이미 광고를 봤는데 5초를 더
+  // 세워 둘 이유가 없다. 광고가 없거나(no-fill·차단기) 중간에 닫으면 그때부터 5초를 센다
+  // (`showRewardedAd` 주석: unavailable은 오류가 아니라 흔한 정상 경로다).
+  const [rewardHandled, setRewardHandled] = useState(false);
   // 매번 같은 문구부터 시작하면 두 번째 조회에서는 읽히지 않는다. 이 화면은 버튼을 누른
   // 뒤에만 그려지므로(서버 렌더 없음) 첫 렌더에 난수를 써도 하이드레이션 문제가 없다.
   const [quoteIndex, setQuoteIndex] = useState(() =>
     Math.floor(Math.random() * analyzing.quotes.length),
   );
 
+  // 보상형을 한 번 띄운다. 마운트 직후 딱 한 번이고, 결과가 무엇이든 이 화면은 계속 돈다 —
+  // 광고가 뜨지 않는다고 이용자가 막히면 안 된다.
   useEffect(() => {
+    let alive = true;
+    void showRewardedAd().then((outcome) => {
+      if (!alive) return;
+      setRewardHandled(true);
+      // 끝까지 봤으면 즉시 통과. 닫았거나 광고가 없으면 아래 5초 타이머가 마저 돈다.
+      if (outcome === "granted") onDone();
+    });
+    return () => {
+      alive = false;
+    };
+    // 마운트할 때 한 번만. onDone이 바뀌어도 광고를 다시 띄우면 안 된다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // **보상형 시도가 끝난 뒤에 센다.** 함께 돌리면 15초짜리 광고를 보는 중에 5초가 지나
+  // 광고 뒤에서 결과 화면으로 넘어가 버린다. 광고가 없을 때는 `showRewardedAd`가 곧바로
+  // `unavailable`을 돌려주므로 기다림이 늘지 않는다.
+  useEffect(() => {
+    if (!rewardHandled) return;
     const startedAt = Date.now();
 
     const tick = window.setInterval(() => {
@@ -93,9 +119,9 @@ export function AdWatchOverlay({
       window.clearInterval(rotate);
       window.clearTimeout(done);
     };
-    // 마운트할 때 한 번만 건다. onDone이 바뀌어도 타이머를 다시 시작하면 안 된다.
+    // 보상형 시도가 끝나는 순간 한 번만 건다. onDone이 바뀌어도 타이머를 다시 시작하면 안 된다.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [rewardHandled]);
 
   const progress = ((AD_SECONDS - remaining) / AD_SECONDS) * 100;
 
@@ -103,6 +129,9 @@ export function AdWatchOverlay({
     <div
       role="status"
       aria-live="polite"
+      // **보상형이 뜨는 동안에도 이 상자를 감추지 않는다.** 구글 보상형은 자기 오버레이를 더
+      // 위에 그리므로 가려질 일이 없고, 미리 감춰 두면 광고가 끝내 안 뜨는 경우(no-fill·차단기)
+      // 최대 4초 동안 화면이 텅 빈 채로 남는다.
       className="fixed inset-0 z-50 flex items-center justify-center bg-[#1d1518]/60 px-5 backdrop-blur-sm"
     >
       <div className="w-full max-w-md rounded-2xl border border-line bg-surface p-6 shadow-2xl">
@@ -134,8 +163,8 @@ export function AdWatchOverlay({
               ② 결과를 보려면 이것을 지나야 한다 — 보상형이다. 애드센스 표시 광고는 콘텐츠
                  해제의 대가로 쓸 수 없고, 보상형은 GAM·AdMob 포맷으로만 허용된다.
 
-            기다림 자체는 그대로 둔다. 이 상자는 진행 막대와 문구가 이미 채우고 있다.
-            보상형을 붙이려면 naminglink처럼 GAM 보상형을 쓸 것 — 여기에 배너를 되돌리지 말 것. */}
+            **지금은 GAM 보상형이 이 자리를 맡는다**(`lib/gam-rewarded.ts`). 광고 단위를 넣으면
+            이 상자가 뜨는 순간 구글 보상형이 그 위에 뜬다. 여기에 애드센스 배너를 되돌리지 말 것. */}
 
         {/* 높이를 고정해 문구 길이가 바뀔 때 팝업이 들썩이지 않게 한다. */}
         <p className="break-keep-all mt-5 flex min-h-[4.5rem] items-center justify-center text-center text-sm leading-6 text-muted">

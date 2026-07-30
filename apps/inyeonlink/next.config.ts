@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 import { adsCspSources, adsEnabled } from "./src/lib/ads";
+import { gamCspSources, gamRewardedEnabled } from "./src/lib/gam-rewarded";
 import {
   paymentCspSources,
   paymentsConfigured,
@@ -21,6 +22,10 @@ const isDev = process.env.NODE_ENV !== "production";
 const ads = (kind: keyof typeof adsCspSources) =>
   adsEnabled ? adsCspSources[kind].map((source) => ` ${source}`).join("") : "";
 
+// GAM 보상형(결과 열기 게이트). 광고 단위를 비우면 스크립트가 아예 안 붙으므로 CSP도 닫힌 채로 둔다.
+const gam = (kind: keyof typeof gamCspSources) =>
+  gamRewardedEnabled ? gamCspSources[kind].map((source) => ` ${source}`).join("") : "";
+
 // 결제도 같은 방식이다. 채널 키가 없으면 결제창을 띄울 일이 없으므로 열지 않는다.
 const pay = (kind: keyof typeof paymentCspSources) =>
   paymentsConfigured
@@ -34,9 +39,11 @@ const toss = (kind: keyof typeof tossCspSources) =>
     : "";
 
 // 광고 프레임도 결제창도 없으면 프레임 자체를 막아 둔다.
-const framed = adsEnabled || paymentsConfigured || tossConfiguredForCsp;
+// **보상형도 프레임으로 뜬다.** 여기서 빠지면 광고 단위를 넣어도 게이트에서 아무것도 안 뜬다.
+const framed =
+  adsEnabled || gamRewardedEnabled || paymentsConfigured || tossConfiguredForCsp;
 const frameSrc = framed
-  ? `frame-src 'self'${ads("frame")}${pay("frame")}${toss("frame")}`
+  ? `frame-src 'self'${ads("frame")}${gam("frame")}${pay("frame")}${toss("frame")}`
   : "frame-src 'none'";
 
 const securityHeaders = [
@@ -45,11 +52,11 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
-      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${pay("script")}${toss("script")}`,
+      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${gam("script")}${pay("script")}${toss("script")}`,
       "style-src 'self' 'unsafe-inline'",
       `img-src 'self' data:${ads("image")}${pay("image")}${toss("image")}`,
       `font-src 'self' data:${ads("font")}`,
-      `connect-src 'self'${isDev ? " ws: wss:" : ""}${ads("connect")}${pay("connect")}${toss("connect")}`,
+      `connect-src 'self'${isDev ? " ws: wss:" : ""}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       frameSrc,
       // 리디렉션 결제는 폼 전송으로 PG사에 넘어간다. 결제를 켜지 않으면 자기 자신만 허용한다.
       `form-action 'self'${pay("formAction")}${toss("formAction")}`,

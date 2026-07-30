@@ -65,15 +65,23 @@ export function AdBanner({
    * 고르는데, 우리 자리는 높이 상한이 없어 세로로 큰 사각형이 들어와 머리글이 통째로 밀린다
    * (naminglink에서 실제로 그렇게 됐다).
    */
-  const adFormat = placement === "header" ? "horizontal" : "rectangle";
+  // 최상단·최하단·머리글은 가로로 길게, 결과 안쪽은 사각형으로 둔다.
+  const horizontal =
+    placement === "header" || placement === "top" || placement === "bottom";
+  const adFormat = horizontal ? "horizontal" : "rectangle";
   /**
    * 애드센스 표준 크기. 머리글은 모바일 320×50 · PC 728×90, 나머지는 사각형 자리다.
    *
    * **`!`(important)가 꼭 있어야 한다.** 애드센스 스크립트는 소재를 고른 뒤 `<ins>`에 인라인
    * `height`를 직접 써 넣는데, 인라인 스타일은 보통 클래스를 이기기 때문이다.
    */
-  const adHeightClass =
-    placement === "header" ? "!h-[50px] lg:!h-[90px]" : "!h-[250px] lg:!h-[280px]";
+  const adHeightClass = horizontal
+    ? // 머리글은 제목 옆 좁은 자리라 320×50 · 728×90에 맞춘다. 최상단·최하단은 본문 폭을 다
+      // 쓰므로 모바일 320×100 · PC 728×90(넓으면 970×90)까지 받는다.
+      placement === "header"
+      ? "!h-[50px] lg:!h-[90px]"
+      : "!h-[100px] lg:!h-[90px]"
+    : "!h-[250px] lg:!h-[280px]";
 
   return (
     <aside

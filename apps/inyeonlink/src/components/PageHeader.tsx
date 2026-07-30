@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { AdBanner } from "@/components/AdBanner";
 import { BrandMark } from "@/components/BrandMark";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { localePath } from "@/lib/locale-path";
@@ -34,6 +35,13 @@ export function PageHeader({
 }) {
   return (
     <header className="bg-background">
+      {/* **화면에서 가장 먼저 나오는 자리.** 브랜드 줄보다 앞이다.
+          흐름 안에 있으므로 스크롤하면 같이 올라간다 — 화면에 붙어 따라다니는 스티키가
+          아니다(구글이 '앵커 광고'라 부르는 그것은 자동 광고로만 공식 지원된다).
+          좌우 여백은 아래 머리글 줄과 같은 값으로 맞춘다. */}
+      <div className="mx-auto w-full max-w-5xl px-6 pt-4">
+        <AdBanner placement="top" locale={locale} />
+      </div>
       {/* 좁은 화면에서는 언어 단추 줄이 브랜드 옆에서 접히며 로고를 밀어낸다. 랜딩 헤더와
           같은 처방으로, 접힐 때는 아래 줄로 내려가게 둔다. */}
       <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-4">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { AdBanner } from "@/components/AdBanner";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LegalDocumentBody } from "@/components/LegalDocumentBody";
@@ -34,6 +35,11 @@ export function LegalDocumentView({
           {dictionary.footer.backHome}
         </Link>
       </article>
+
+      {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. */}
+      <div className="mx-auto w-full max-w-5xl px-6 pb-10">
+        <AdBanner placement="bottom" locale={locale} />
+      </div>
 
       <SiteFooter locale={locale} />
     </main>
