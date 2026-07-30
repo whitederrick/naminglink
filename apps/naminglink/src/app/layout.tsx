@@ -7,7 +7,7 @@ import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
 import { adsEnabled, adsenseClient } from "@/lib/ads";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
-import { siteUrl } from "@/lib/seo";
+import { ogImageFor, siteUrl } from "@/lib/seo";
 import { getPublishedFooterContent } from "@/lib/site-content-server";
 
 const geistSans = Geist({
@@ -27,28 +27,38 @@ const namingHanja = localFont({
   preload: false,
 });
 
-export const metadata: Metadata = {
-  // metadataBase가 있어야 하위 페이지가 상대 경로로 적은 canonical·og:image를 절대 URL로 편다.
-  // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
-  metadataBase: new URL(siteUrl),
-  title: {
-    default: "Naming-Link | Global Naming Studio",
-    // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
-    template: "%s | Naming-Link",
-  },
-  description:
-    "Global Naming Studio. 한글 이름 한자 의미 매칭, 글로벌 이름 변환, 한국 이름 변환을 제공하는 프리미엄 네이밍 서비스",
-  // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는
-  // 모든 하위 페이지로 상속되므로, 여기에 canonical을 적으면 로그인·계정·결과 화면까지
-  // "이 페이지의 정본은 홈"이라고 말하게 된다(실제로 그렇게 나갔다). `/`의 canonical과
-  // hreflang은 `app/page.tsx`의 generateMetadata가 스스로 붙인다.
-  openGraph: {
-    type: "website",
-    siteName: "Naming-Link",
-    url: siteUrl,
-  },
-  twitter: { card: "summary_large_image" },
-};
+/**
+ * 정적 `metadata`가 아니라 함수인 이유: **썸네일이 로케일마다 다르다.** 정적 객체는 요청을
+ * 모르므로 어느 나라에서 공유하든 같은 그림이 나간다. 여기서 로케일을 읽어 그 언어판 썸네일을
+ * 고른다(자기 openGraph를 정의하지 않는 화면 — 로그인·계정 등 — 이 이 값을 상속받는다).
+ */
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getRequestLocale();
+
+  return {
+    // metadataBase가 있어야 하위 페이지가 상대 경로로 적은 canonical·og:image를 절대 URL로 편다.
+    // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: "Naming-Link | Global Naming Studio",
+      // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
+      template: "%s | Naming-Link",
+    },
+    description:
+      "Global Naming Studio. 한글 이름 한자 의미 매칭, 글로벌 이름 변환, 한국 이름 변환을 제공하는 프리미엄 네이밍 서비스",
+    // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는
+    // 모든 하위 페이지로 상속되므로, 여기에 canonical을 적으면 로그인·계정·결과 화면까지
+    // "이 페이지의 정본은 홈"이라고 말하게 된다(실제로 그렇게 나갔다). `/`의 canonical과
+    // hreflang은 `app/page.tsx`의 generateMetadata가 스스로 붙인다.
+    openGraph: {
+      type: "website",
+      siteName: "Naming-Link",
+      url: siteUrl,
+      images: [ogImageFor(locale)],
+    },
+    twitter: { card: "summary_large_image", images: [ogImageFor(locale).url] },
+  };
+}
 
 export default async function RootLayout({
   children,

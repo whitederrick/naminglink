@@ -12,7 +12,7 @@ import {
   hangulPronunciationCopy,
 } from "@/lib/i18n";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { absoluteUrl, buildAlternates, localeUrl } from "@/lib/seo";
+import { absoluteUrl, buildAlternates, localeUrl, ogImageFor } from "@/lib/seo";
 import { serviceList } from "@/lib/services";
 import { localePath } from "@/lib/locale-path";
 
@@ -126,8 +126,9 @@ export async function generateMetadata({
       description,
       url: requested ? localeUrl("/", requested) : absoluteUrl("/"),
       locale,
+      images: [ogImageFor(locale)],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: { card: "summary_large_image", title, description, images: [ogImageFor(locale).url] },
   };
 }
 
