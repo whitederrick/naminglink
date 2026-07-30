@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import { AdBanner } from "@/components/AdBanner";
-import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
+import { fillTemplate, type Dictionary } from "@/lib/i18n";
 
 /**
  * "광고 보고 결과 보기" — 이용자가 **눌러야** 광고가 뜨는 보상형 게이트.
@@ -20,11 +19,9 @@ const AD_SECONDS = 5;
 
 export function AdRewardGate({
   dictionary,
-  locale,
   onReward,
 }: {
   dictionary: Dictionary;
-  locale: Locale;
   /** 시청이 끝나 결과를 열어도 될 때. */
   onReward: () => void;
 }) {
@@ -51,7 +48,7 @@ export function AdRewardGate({
     );
   }
 
-  return <AdWatchOverlay dictionary={dictionary} locale={locale} onDone={onReward} />;
+  return <AdWatchOverlay dictionary={dictionary} onDone={onReward} />;
 }
 
 /**
@@ -64,11 +61,9 @@ export function AdRewardGate({
 // 그래서 이 오버레이는 게이트 전용이 아니라 공용이다.
 export function AdWatchOverlay({
   dictionary,
-  locale,
   onDone,
 }: {
   dictionary: Dictionary;
-  locale: Locale;
   onDone: () => void;
 }) {
   const { analyzing } = dictionary;
@@ -131,8 +126,16 @@ export function AdWatchOverlay({
           />
         </div>
 
-        {/* 광고가 꺼져 있으면(퍼블리셔 ID 미등록) AdBanner가 아무것도 그리지 않는다. */}
-        <AdBanner placement="analyzing" locale={locale} className="mt-5" />
+        {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 예전에는 `analyzing` 슬롯이 있었다.
+            두 가지가 겹쳐 정책에 걸린다(naminglink에서 같은 이유로 걷어냈다).
+
+              ① 이 상자는 화면을 덮는 오버레이다(fixed inset-0). 구글은 표시 광고를
+                 오버레이·팝업에 싣는 것을 금지한다.
+              ② 결과를 보려면 이것을 지나야 한다 — 보상형이다. 애드센스 표시 광고는 콘텐츠
+                 해제의 대가로 쓸 수 없고, 보상형은 GAM·AdMob 포맷으로만 허용된다.
+
+            기다림 자체는 그대로 둔다. 이 상자는 진행 막대와 문구가 이미 채우고 있다.
+            보상형을 붙이려면 naminglink처럼 GAM 보상형을 쓸 것 — 여기에 배너를 되돌리지 말 것. */}
 
         {/* 높이를 고정해 문구 길이가 바뀔 때 팝업이 들썩이지 않게 한다. */}
         <p className="break-keep-all mt-5 flex min-h-[4.5rem] items-center justify-center text-center text-sm leading-6 text-muted">

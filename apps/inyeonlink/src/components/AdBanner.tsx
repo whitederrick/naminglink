@@ -60,23 +60,53 @@ export function AdBanner({
 
   const { ads } = getDictionary(locale);
 
+  /**
+   * 모양을 자리에 맞춰 **고정한다.** `auto`로 두면 애드센스가 컨테이너에 맞는 아무 크기나
+   * 고르는데, 우리 자리는 높이 상한이 없어 세로로 큰 사각형이 들어와 머리글이 통째로 밀린다
+   * (naminglink에서 실제로 그렇게 됐다).
+   */
+  const adFormat = placement === "header" ? "horizontal" : "rectangle";
+  /**
+   * 애드센스 표준 크기. 머리글은 모바일 320×50 · PC 728×90, 나머지는 사각형 자리다.
+   *
+   * **`!`(important)가 꼭 있어야 한다.** 애드센스 스크립트는 소재를 고른 뒤 `<ins>`에 인라인
+   * `height`를 직접 써 넣는데, 인라인 스타일은 보통 클래스를 이기기 때문이다.
+   */
+  const adHeightClass =
+    placement === "header" ? "!h-[50px] lg:!h-[90px]" : "!h-[250px] lg:!h-[280px]";
+
   return (
     <aside
-      className={`overflow-hidden ${className}`}
+      className={`w-full max-w-full overflow-hidden ${className}`}
       // 광고임을 보조기기에도 알린다.
       aria-label={ads.label}
     >
       <p className="mb-2 text-center text-xs uppercase tracking-wide text-muted">
         {ads.label}
       </p>
-      <ins
-        className="adsbygoogle block"
-        style={{ display: "block" }}
-        data-ad-client={adsenseClient}
-        data-ad-slot={slot}
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+      {/* **높이는 이 바깥 상자가 정한다.** 애드센스는 소재가 안 채워지면 `<ins>`에
+          `height: auto !important`를 써 넣는데, 인라인 `!important`는 클래스 `!important`를
+          이기므로 CSS로 막을 수 없다. naminglink에서 머리글 자리가 463px까지 늘어나 화면이
+          통째로 빈 공간이 됐다(브라우저 실측). 애드센스는 `<ins>`만 건드리므로 바깥 상자는
+          우리 값을 지킨다. */}
+      <div className={`w-full overflow-hidden ${adHeightClass}`}>
+        <ins
+          // `!max-w-full`이 없으면 안 된다. 애드센스는 `<ins>`에 인라인 `width`를 직접 써
+          // 넣는데(456px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로 넘친다.
+          className="adsbygoogle block h-full w-full !max-w-full"
+          style={{ display: "block" }}
+          data-ad-client={adsenseClient}
+          data-ad-slot={slot}
+          data-ad-format={adFormat}
+          /**
+           * **반드시 꺼 둔다.** 켜면 애드센스가 `<ins>`에 `margin-left: -20px; width: 456px;
+           * height: auto !important`를 써 넣는다. 음수 마진과 고정 폭이 조상 grid 트랙을 벌려
+           * 페이지가 가로로 넘치고(456px 뷰포트에서 문서 폭 477px), 소재가 안 채워지면
+           * 높이까지 우리 값을 이긴다. naminglink에서 브라우저 실측으로 원인을 확정했다.
+           */
+          data-full-width-responsive="false"
+        />
+      </div>
     </aside>
   );
 }

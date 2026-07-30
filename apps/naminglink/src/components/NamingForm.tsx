@@ -15,7 +15,6 @@ import {
   type ServiceConfig,
 } from "@/lib/services";
 import { AdBanner } from "@/components/AdBanner";
-import { adsEnabled } from "@/lib/ads";
 import { useSelfGateNeeded } from "@/lib/offerwall";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -253,8 +252,6 @@ export function NamingForm({
   const router = useRouter();
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 제출을 잠깐 막는다.
   const selfGateNeeded = useSelfGateNeeded();
-  // 게이트 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
-  const [gateAdFilled, setGateAdFilled] = useState<boolean | null>(null);
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
   // 한글 발음 표기는 API에서는 GLOBAL_TO_KOREAN을 재사용하지만,
   // 통계(site_events)에서는 별도 서비스로 구분해 집계한다.
@@ -964,13 +961,18 @@ export function NamingForm({
           </div>
         </section>
 
-        {/* **임시 조치 — 애드센스 승인 전까지만이다.**
-            버튼이 "광고 확인 후 분석 시작"이라고 말하는데 띄울 광고가 없다. 광고 없이 분석만
-            내주면 그대로 무료 서비스가 되므로, 광고가 준비될 때까지 제출 자체를 막는다.
-            퍼블리셔 ID가 들어오면 adsEnabled가 참이 되어 이 잠금은 저절로 풀린다. */}
+        {/* **애드센스 상태로 제출을 막지 않는다.** 예전에는 `!adsEnabled`면 버튼을 잠갔다.
+            "버튼은 광고를 보고 시작한다는데 띄울 광고가 없다"는 이유였는데, 관문에서
+            애드센스를 걷어낸 지금은 그 전제가 없다 — 셀프 광고가 항상 뜨고 대기 시간도 그대로
+            돌아 "1광고 1결과"가 성립한다.
+
+            잠금을 남기면 파급이 너무 크다. `adsEnabled`는 퍼블리셔 ID 형식이 맞아야 참이라
+            **오타 하나로도 조용히 거짓이 되고, 그 순간 네 서비스의 제출이 전부 죽는다.**
+            심사 반려로 ID를 빼는 경우도 같다. 광고 설정 실수가 서비스 정지가 되면 안 된다.
+            (심사 중에 버튼이 안 눌리는 사이트를 검토자가 보는 것도 그 자체로 위험하다.) */}
         <button
           type="submit"
-          disabled={loading || !adsEnabled || selfGateNeeded === null}
+          disabled={loading || selfGateNeeded === null}
           // 문구가 긴 로케일("광고 확인 후 한글 발음 분석 시작")이 좁은 화면에서 두 줄로
           // 넘어가지 않도록 모바일만 글자를 한 단계 줄인다.
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-3 text-[13px] font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:text-sm"
@@ -978,11 +980,6 @@ export function NamingForm({
           <Send aria-hidden="true" size={17} />
           {isHangulTransliteration ? t.submitTransliteration : t.submitDefault}
         </button>
-        {!adsEnabled ? (
-          <p className="rounded-lg border border-line bg-surface-strong px-3 py-2 text-center text-sm text-muted">
-            광고 준비 중입니다. 잠시 후 다시 이용해 주세요.
-          </p>
-        ) : null}
 
         {error ? (
           <p className="rounded-lg border border-brand-rose/30 bg-brand-rose/10 px-3 py-2 text-sm text-brand-rose">
@@ -1050,18 +1047,19 @@ export function NamingForm({
                   : t.loadingTitle}
               </h2>
             </div>
-            {/* 애드센스가 소재를 못 채우면 셀프 광고로 대신 채운다. 게이트는 이용자를 10초
-                (한자 15초) 붙잡아 두는데, 그 대가인 광고가 비면 빈 상자를 보며 시간만 버린다.
-                트래픽이 적은 초기에는 못 채우는 일이 흔하다(Fill Rate).
-                게이트를 없애거나 기다림을 건너뛰지 않는다 — 채울 것만 바꾼다. */}
-            <div className={gateAdFilled === false ? "hidden" : undefined}>
-              <AdBanner
-                variant="leaderboard"
-                slotKey="analysis_wait"
-                onFilledChange={setGateAdFilled}
-              />
-            </div>
-            {gateAdFilled === false ? <SelfAdCard /> : null}
+            {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 예전에는 여기에 `analysis_wait`
+                슬롯이 있었는데, 두 가지가 겹쳐 정책에 걸린다.
+
+                  ① 이 상자는 닫을 수 없는 전면 오버레이다(role="dialog" · fixed inset-0).
+                     구글은 표시 광고를 이런 오버레이·팝업에 싣는 것을 금지한다.
+                  ② 결과를 보려면 광고를 보고 기다려야 한다 — 즉 보상형이다. 애드센스 표시
+                     광고는 콘텐츠 해제의 대가로 쓸 수 없고, 보상형은 GAM·AdMob의 보상형
+                     포맷으로만 허용된다.
+
+                게이트의 대가는 **오퍼월(진입)과 GAM 보상형(후보 열기)**이 맡고, 그 둘이 없을
+                때는 셀프 광고가 자리를 채운다. 게이트를 없애거나 기다림을 건너뛰지 않는다 —
+                채울 것만 바꾼다. 애드센스 표시 광고는 모달 밖 일반 자리에만 남는다. */}
+            <SelfAdCard />
             <p className="text-center text-sm font-medium text-brand-teal">
               {analysisCountdown > 0
                 ? isHanjaMeaning

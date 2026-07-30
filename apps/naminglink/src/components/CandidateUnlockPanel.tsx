@@ -4,9 +4,7 @@ import * as PortOne from "@portone/browser-sdk/v2";
 import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { AdBanner } from "@/components/AdBanner";
 import { SelfAdCard } from "@/components/SelfAdCard";
-import { adsEnabled } from "@/lib/ads";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { trackAdEvent } from "@/lib/analytics-client";
 
@@ -443,8 +441,6 @@ export function CandidateUnlockPanel({
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [countdown, setCountdown] = useState(0);
-  // 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
-  const [adFilled, setAdFilled] = useState<boolean | null>(null);
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
@@ -749,16 +745,12 @@ export function CandidateUnlockPanel({
 
       {loading ? (
         <div className="mt-5 grid gap-3">
-          {/* 애드센스가 못 채우면 셀프 광고로 대신 채운다. 기다림은 그대로 두고 내용만 바꾼다.
-              나중에 이 자리를 GAM 보상형으로 바꿔도 폴백은 같은 카드를 쓴다. */}
-          <div className={adFilled === false ? "hidden" : undefined}>
-            <AdBanner
-              variant="leaderboard"
-              slotKey="candidate_unlock"
-              onFilledChange={setAdFilled}
-            />
-          </div>
-          {adFilled === false ? <SelfAdCard /> : null}
+          {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 잠긴 후보를 여는 대가로 광고를
+              보게 하는 자리라, 애드센스 기준으로는 보상형이다. 표시 광고는 콘텐츠 해제의
+              대가로 쓸 수 없고 보상형은 GAM·AdMob 포맷으로만 허용된다.
+              이 자리의 대가는 GAM 보상형(`lib/gam-rewarded.ts`)이 맡고, 그것이 없거나 못 뜨면
+              셀프 광고가 자리를 채운다. 기다림은 그대로 두고 채울 것만 바꾼다. */}
+          <SelfAdCard />
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.watchingNote(countdown)}
           </p>
@@ -783,10 +775,10 @@ export function CandidateUnlockPanel({
           type="button"
           onClick={unlockWithAd}
           // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 후보를 열어 주면
-          // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
-          disabled={
-            loading || remainingCount === 0 || !adsEnabled
-          }
+          // **애드센스 상태로 잠그지 않는다.** 예전에는 `!adsEnabled`가 조건에 있었는데,
+          // 관문에서 애드센스를 걷어낸 지금은 광고가 꺼져 있어도 셀프 광고 관문이 그대로 돈다.
+          // 퍼블리셔 ID 오타 하나로 후보 열기가 통째로 죽는 쪽이 더 위험하다.
+          disabled={loading || remainingCount === 0}
           className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
         >
           <Eye aria-hidden="true" size={17} />

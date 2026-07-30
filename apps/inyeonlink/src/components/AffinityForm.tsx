@@ -14,7 +14,7 @@ import {
   type AffinityInput,
 } from "@/lib/affinity-input";
 import { AdWatchOverlay } from "@/components/AdRewardGate";
-import { adSlotFor } from "@/lib/ads";
+import { submitAdGateEnabled } from "@/lib/ads";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 export function AffinityForm({
@@ -70,7 +70,7 @@ export function AffinityForm({
     // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
     // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
     const target = `/affinity/result?lang=${locale}#${encodeAffinityInput(input)}`;
-    if (adSlotFor("analyzing")) {
+    if (submitAdGateEnabled) {
       setPendingTarget(target);
       return;
     }
@@ -81,7 +81,6 @@ export function AffinityForm({
     return (
       <AdWatchOverlay
         dictionary={dictionary}
-        locale={locale}
         onDone={() => window.location.assign(pendingTarget)}
       />
     );

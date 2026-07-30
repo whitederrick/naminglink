@@ -9,7 +9,7 @@ import {
   type PersonDraft,
 } from "@/components/PersonFields";
 import { AdWatchOverlay } from "@/components/AdRewardGate";
-import { adSlotFor } from "@/lib/ads";
+import { submitAdGateEnabled } from "@/lib/ads";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import {
   encodeMatchInput,
@@ -86,7 +86,7 @@ export function CompatibilityForm({
   // 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서 한 번 더 눌러야 했다.
   // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
   // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
-    if (adSlotFor("analyzing")) {
+    if (submitAdGateEnabled) {
       setPendingTarget(target);
       return;
     }
@@ -97,7 +97,6 @@ export function CompatibilityForm({
     return (
       <AdWatchOverlay
         dictionary={dictionary}
-        locale={locale}
         onDone={() => window.location.assign(pendingTarget)}
       />
     );

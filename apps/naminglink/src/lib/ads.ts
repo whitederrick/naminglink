@@ -42,14 +42,17 @@ export const adSlots = {
   service_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_SERVICE_HEADER ?? "").trim(),
   /** 입력 화면 동의 영역 옆. 제출 버튼과는 떨어뜨려 둔다(오클릭 방지). */
   consent_card: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CONSENT_CARD ?? "").trim(),
-  /** 분석 대기 화면. 이용자가 결과를 기다리는 동안 확실히 보게 되는 자리다. */
-  analysis_wait: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_ANALYSIS_WAIT ?? "").trim(),
-  /** 후보 1개 공개 대기(한자·한국 이름). */
-  candidate_unlock: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CANDIDATE_UNLOCK ?? "").trim(),
-  /** 발음 표기 대안 후보 열기 대기. 위와 흐름이 달라 따로 센다. */
-  hangul_candidate_unlock: (
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANGUL_CANDIDATE_UNLOCK ?? ""
-  ).trim(),
+  /**
+   * **관문 자리는 여기에 없다.** 예전에는 `analysis_wait`·`candidate_unlock`·
+   * `hangul_candidate_unlock` 셋이 있었다. 전부 "광고를 봐야 결과가 열리는" 자리인데,
+   * 애드센스 표시 광고는 콘텐츠 해제의 대가로 쓸 수 없다(보상형은 GAM·AdMob 포맷 전용).
+   * 게다가 분석 대기 자리는 닫을 수 없는 전면 오버레이라, 오버레이 게재 금지에도 걸렸다.
+   *
+   * 관문의 대가는 오퍼월(진입)과 GAM 보상형(후보 열기·다시 분석)이 맡고, 그 둘이 없으면
+   * 셀프 광고가 자리를 채운다. **이 표에 그 세 자리를 다시 넣지 말 것** — 넣는 순간 같은
+   * 위반이 되살아난다. 여기 남는 것은 관문이 아닌 일반 자리뿐이다.
+   */
+
   /** 한자 의미 매칭 결과 머리글. */
   hanja_result_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANJA_RESULT_HEADER ?? "").trim(),
   /** 한국 이름 만들기 결과 머리글. */

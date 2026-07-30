@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
-import { adsEnabled } from "@/lib/ads";
+import { trackAdEvent } from "@/lib/analytics-client";
+import { showRewardedAd } from "@/lib/gam-rewarded";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { HangulStampCard } from "@/components/HangulStampCard";
@@ -65,16 +66,37 @@ function artCandidatesOf(result: unknown) {
     );
 }
 
+/**
+ * 다시 분석을 몇 번 했는지. **컴포넌트 state로 두면 안 된다** — 이 구역은
+ * `key={currentStored.createdAt}`으로 붙어 있어 재분석에 성공할 때마다 새로 마운트되고,
+ * 그때 state가 0으로 돌아가 2회차가 영원히 오지 않는다.
+ *
+ * sessionStorage에 두면 새로고침도 견딘다. 화면을 새로 고쳐 한 번 더 공짜로 돌리는 것을 막는다.
+ * (지우려 들면 지울 수 있지만, 이 관문은 원래 전부 클라이언트에 있다 — 입력값을 서버에
+ * 저장하지 않는다는 원칙과 맞바꾼 것이다.)
+ */
+function reanalysisCountKey(storageKey: string) {
+  return `${storageKey}:reanalysis-count`;
+}
+
+function readReanalysisCount(storageKey: string) {
+  const raw = sessionStorage.getItem(reanalysisCountKey(storageKey));
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+}
+
 function ReanalysisSection({
   stored,
   storageKey,
   onUpdated,
   copy,
+  locale,
 }: {
   stored: StoredResult;
   storageKey: string;
   onUpdated: (next: StoredResult) => void;
   copy: ResultCopy;
+  locale: Locale;
 }) {
   const savedInputFactors = stored.inputFactors ?? {};
   const initialHint =
@@ -85,21 +107,61 @@ function ReanalysisSection({
   const [loading, setLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const [error, setError] = useState<string | null>(null);
-  // 광고가 채워졌는가. false면 셀프 광고로 대신 채운다(null은 판정 전).
-  const [adFilled, setAdFilled] = useState<boolean | null>(null);
 
   async function reanalyze() {
     setError(null);
-    setLoading(true);
+
     // **오퍼월과 무관하게 항상 광고를 요구한다.** 오퍼월은 입력 화면에서 돌고 결과 화면으로
     // 페이지가 바뀌는 것까지가 그 몫이다. 다시 분석은 같은 페이지에서 새 결과를 만들므로
     // 오퍼월이 다시 뜰 수 없다. 오퍼월 판정을 여기서 보면 한 번 통과한 이용자가 결과를
     // 무제한으로 다시 뽑게 된다(후보 열기와 같은 이유).
-    const waitSeconds = 5;
+    //
+    // **첫 번째는 가볍게, 두 번째부터 보상형.** 이 자리는 세 관문 중 유일하게 누를 때마다
+    // AI를 다시 부른다(후보 열기는 이미 만들어 둔 후보를 화면에서 여는 것이라 원가가 0이다).
+    // 그래서 반복이 곧 비용인데, 힌트를 고쳐가며 두세 번 돌리는 흐름이라 매번 보상형 영상을
+    // 강제하면 첫 시도조차 안 하게 된다. 한 번은 열어 두고 반복하는 쪽에만 무게를 단다.
+    const previousRuns = readReanalysisCount(storageKey);
+    const rewardedTurn = previousRuns >= 1;
+
+    trackAdEvent({
+      eventType: "IMPRESSION",
+      slotKey: "hangul_candidate_unlock",
+      locale,
+      serviceType: "GLOBAL_TO_KOREAN",
+    });
+
+    if (rewardedTurn) {
+      // **보상형을 API 호출보다 먼저 띄운다.** 순서가 반대면 이용자가 광고를 닫아도 AI 비용은
+      // 이미 나간 뒤다. 후보 열기는 닫아도 잃을 것이 없어 순서가 문제되지 않지만 여기는 다르다.
+      const outcome = await showRewardedAd();
+      // 보상 전에 닫았다 — 분석을 돌리지 않는다. 횟수도 올리지 않는다.
+      if (outcome === "dismissed") return;
+      if (outcome === "granted") {
+        trackAdEvent({
+          eventType: "REWARD_GRANTED",
+          slotKey: "hangul_candidate_unlock",
+          locale,
+          serviceType: "GLOBAL_TO_KOREAN",
+        });
+        await runAnalysis(0);
+        return;
+      }
+      // unavailable — 광고 단위 미설정·no-fill·차단기. 아래 5초 관문이 대신 돈다.
+      // 광고가 없다고 버튼이 죽으면 안 된다(후보 열기와 같은 원칙).
+    }
+
+    await runAnalysis(5);
+  }
+
+  /** 관문을 통과한 뒤의 실제 분석. `waitSeconds`가 0이면 기다리지 않는다(보상형이 이미 시간을 썼다). */
+  async function runAnalysis(waitSeconds: number) {
+    setLoading(true);
     setCountdown(waitSeconds);
-    const timer = window.setInterval(() => {
-      setCountdown((current) => Math.max(0, current - 1));
-    }, 1000);
+    const timer = waitSeconds
+      ? window.setInterval(() => {
+          setCountdown((current) => Math.max(0, current - 1));
+        }, 1000)
+      : null;
 
     try {
       const inputFactors = {
@@ -132,13 +194,19 @@ function ReanalysisSection({
         inputFactors,
       };
       sessionStorage.setItem(storageKey, JSON.stringify(next));
+      // **성공했을 때만 횟수를 올린다.** 실패한 분석이 공짜 한 번을 잡아먹으면 안 된다.
+      // `onUpdated` 앞에 둔다 — 그것이 이 구역을 통째로 다시 마운트하기 때문이다.
+      sessionStorage.setItem(
+        reanalysisCountKey(storageKey),
+        String(readReanalysisCount(storageKey) + 1),
+      );
       onUpdated(next);
     } catch (caught) {
       setError(
         caught instanceof Error ? caught.message : copy.reanalysisErrorGeneric,
       );
     } finally {
-      window.clearInterval(timer);
+      if (timer !== null) window.clearInterval(timer);
       setCountdown(0);
       setLoading(false);
     }
@@ -164,15 +232,10 @@ function ReanalysisSection({
       </label>
       {loading ? (
         <div className="mt-5 grid gap-3">
-          {/* 애드센스가 못 채우면 셀프 광고로 대신 채운다. 기다림은 그대로 두고 내용만 바꾼다. */}
-          <div className={adFilled === false ? "hidden" : undefined}>
-            <AdBanner
-              variant="leaderboard"
-              slotKey="hangul_candidate_unlock"
-              onFilledChange={setAdFilled}
-            />
-          </div>
-          {adFilled === false ? <SelfAdCard /> : null}
+          {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 다시 분석을 여는 대가로 광고를
+              보게 하는 자리라 애드센스 기준으로는 보상형이다(`CandidateUnlockPanel`과 같은 이유).
+              대가는 GAM 보상형이 맡고, 없거나 못 뜨면 셀프 광고가 자리를 채운다. */}
+          <SelfAdCard />
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.reanalysisCountdown(countdown)}
           </p>
@@ -187,10 +250,9 @@ function ReanalysisSection({
         type="button"
         onClick={reanalyze}
         // **임시 조치 — 애드센스 승인 전까지만이다.** 띄울 광고가 없는데 다시 분석해 주면
-        // 광고 없이 결과가 나가는 것이라 잠근다. 퍼블리셔 ID가 들어오면 저절로 풀린다.
-        disabled={
-          loading || !pronunciationHint.trim() || !adsEnabled
-        }
+        // **애드센스 상태로 잠그지 않는다.** 관문에서 애드센스를 걷어낸 뒤로는 광고가 꺼져
+        // 있어도 관문(1회차 셀프 광고 · 2회차부터 GAM 보상형)이 그대로 돈다.
+        disabled={loading || !pronunciationHint.trim()}
         className="mt-5 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-4 text-sm font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-50"
       >
         <RotateCcw aria-hidden="true" size={17} />
@@ -324,6 +386,7 @@ export function HangulPronunciationResultPage({
               storageKey={storageKey}
               onUpdated={setUpdatedStored}
               copy={copy}
+              locale={locale}
             />
             <GlobalNamePremiumPanel
               product="HANGUL_ART_PDF"
