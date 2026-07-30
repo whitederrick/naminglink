@@ -19,6 +19,13 @@ export type GuideEntry = {
 
 export const guideEntries: GuideEntry[] = [
   {
+    slug: "hanja",
+    title: "인명용 한자 전체 목록",
+    summary:
+      "출생신고에 쓸 수 있는 한자를 초성별로 정리했습니다. 글자마다 이름에 쓸 때의 지정 독음과 뜻을 함께 볼 수 있습니다.",
+    eyebrow: "목록",
+  },
+  {
     slug: "hanja-basics",
     title: "인명용 한자란 무엇인가",
     summary:
