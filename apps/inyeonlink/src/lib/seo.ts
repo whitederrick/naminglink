@@ -33,6 +33,35 @@ export const indexablePaths = [
   "/refund-policy",
 ] as const;
 
+/**
+ * 공유 썸네일. **카카오톡·페이스북·슬랙은 `og:image`가 없으면 그림 없는 카드로 띄운다**
+ * (naminglink에서 2026-07-30 카카오톡으로 확인했다). `twitter:card`를 `summary_large_image`로
+ * 두고 이미지를 주지 않으면 그쪽도 큰 카드로 뜨지 않는다.
+ *
+ * **로케일마다 한 장씩 있다.** 홍보 링크가 각 나라 사람에게 그 나라 말로 보여야 하는데,
+ * 메타 태그의 title·description은 이미 로케일별로 나가면서 그림에 박힌 글자만 하나면 어긋난다.
+ * 새기는 문구는 랜딩 사전의 `landing.title`을 그대로 쓴다 — 썸네일을 보고 들어온 사람이 첫
+ * 화면에서 같은 문장을 만나야 한다.
+ *
+ * 그림은 `scripts/render-og-images.ts`가 만든다(헤드리스 크롬 → JPEG). 사전 문구를 고치면
+ * 그 로케일만 다시 구우면 된다: `tsx scripts/render-og-images.ts ko`.
+ *
+ * `metadataBase`(루트 레이아웃)가 있어 상대 경로가 절대 URL로 펴진다. **카카오톡은 상대
+ * 경로를 못 읽으므로** 그 값이 빠지면 미리보기가 다시 사라진다.
+ *
+ * 이 함수를 openGraph·twitter 양쪽에 넣는 자리가 셋이다(루트 레이아웃·랜딩·`buildPageMetadata`).
+ * 페이지가 `openGraph`를 정의하면 Next는 상위 값을 **덮어쓰므로**, 한 곳만 넣으면 나머지
+ * 화면에서 썸네일이 빠진다.
+ */
+export function ogImageFor(locale: Locale) {
+  return {
+    url: `/images/og/og-cover-${locale}.jpg`,
+    width: 1200,
+    height: 630,
+    alt: "Inyeon-Link — Saju & Zodiac Compatibility",
+  };
+}
+
 /** 로케일이 붙지 않은 기본 주소. 헤더로 언어를 정하는 자리라 x-default가 된다. */
 export function absoluteUrl(path: string) {
   return path === "/" ? `${siteUrl}/` : `${siteUrl}${path}`;
@@ -113,7 +142,13 @@ export function buildPageMetadata({
       description,
       url,
       locale,
+      images: [ogImageFor(locale)],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImageFor(locale).url],
+    },
   };
 }

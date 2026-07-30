@@ -8,7 +8,7 @@ import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
-import { buildAlternates, siteUrl } from "@/lib/seo";
+import { buildAlternates, ogImageFor, siteUrl } from "@/lib/seo";
 
 export async function generateMetadata({
   searchParams,
@@ -37,11 +37,13 @@ export async function generateMetadata({
       description: dictionary.landing.subtitle,
       url: requested ? `${siteUrl}/?lang=${requested}` : `${siteUrl}/`,
       locale,
+      images: [ogImageFor(locale)],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description: dictionary.landing.subtitle,
+      images: [ogImageFor(locale).url],
     },
   };
 }

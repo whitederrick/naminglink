@@ -6,30 +6,41 @@ import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
 import { adsEnabled, adsenseClient } from "@/lib/ads";
 import { isRtlLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
-import { siteUrl } from "@/lib/seo";
+import { ogImageFor, siteUrl } from "@/lib/seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  // metadataBase가 있어야 하위 페이지가 상대 경로로 적은 canonical·og:image를 절대 URL로 편다.
-  // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
-  metadataBase: new URL(siteUrl),
-  title: {
-    default: "인연링크 InyeonLink | 사주·띠 궁합",
-    // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
-    template: "%s | Inyeon-Link",
-  },
-  description:
-    "생년월일로 보는 사주 궁합과 띠 궁합. 입력한 정보는 저장하지 않습니다. Saju and zodiac compatibility — nothing you enter is stored.",
-  // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는 모든
-  // 하위 페이지로 상속되므로, 여기에 canonical을 적으면 결과 화면까지 "이 페이지의 정본은 홈"
-  // 이라고 말하게 된다. `/`의 canonical과 hreflang은 app/page.tsx가 스스로 붙인다.
-  openGraph: { type: "website", siteName: "Inyeon-Link", url: siteUrl },
-  twitter: { card: "summary_large_image" },
-};
+// **정적 `metadata`가 아니라 함수다.** 썸네일이 로케일마다 다른 그림이라 요청 언어를 알아야
+// 하는데, 정적 export는 요청을 못 본다.
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getRequestLocale();
+
+  return {
+    // metadataBase가 있어야 하위 페이지가 상대 경로로 적은 canonical·og:image를 절대 URL로 편다.
+    // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: "인연링크 InyeonLink | 사주·띠 궁합",
+      // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
+      template: "%s | Inyeon-Link",
+    },
+    description:
+      "생년월일로 보는 사주 궁합과 띠 궁합. 입력한 정보는 저장하지 않습니다. Saju and zodiac compatibility — nothing you enter is stored.",
+    // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는 모든
+    // 하위 페이지로 상속되므로, 여기에 canonical을 적으면 결과 화면까지 "이 페이지의 정본은 홈"
+    // 이라고 말하게 된다. `/`의 canonical과 hreflang은 app/page.tsx가 스스로 붙인다.
+    openGraph: {
+      type: "website",
+      siteName: "Inyeon-Link",
+      url: siteUrl,
+      images: [ogImageFor(locale)],
+    },
+    twitter: { card: "summary_large_image", images: [ogImageFor(locale).url] },
+  };
+}
 
 export default async function RootLayout({
   children,

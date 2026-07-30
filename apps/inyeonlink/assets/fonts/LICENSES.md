@@ -18,12 +18,21 @@
 | NotoSansKR-400.ttf, NotoSansKR-700.ttf | Noto Sans KR | Google (Noto Project) | OFL 1.1 | 한글 본문·제목 |
 | NotoSansCJKkr-Naming.otf | Noto Sans CJK KR (서브셋) | Google/Adobe (Noto CJK) | OFL 1.1 | 사주 원국·십신의 한자 |
 | NotoSans-Regular.ttf | Noto Sans (라틴 확장·키릴·그리스) | Google (Noto Project) | OFL 1.1 | 영문 본문 |
+| NotoSansArabic-Regular.ttf | Noto Sans Arabic | Google (Noto Project) | OFL 1.1 | 공유 썸네일(ar) |
+| NotoSansThai-Regular.ttf | Noto Sans Thai | Google (Noto Project) | OFL 1.1 | 공유 썸네일(th) |
+| NotoSansKhmer-Regular.ttf | Noto Sans Khmer | Google (Noto Project) | OFL 1.1 | 공유 썸네일(km) |
+| NotoSansDevanagari-Regular.ttf | Noto Sans Devanagari | Google (Noto Project) | OFL 1.1 | 공유 썸네일(hi) |
+
+아래 넷은 2026-07-30에 naminglink `apps/naminglink/assets/fonts/`에서 그대로 복사했다.
+지금 쓰는 곳은 `scripts/render-og-images.ts` 하나다 — 23개 로케일 공유 썸네일을 헤드리스
+크롬으로 구울 때 이 문자 체계들이 시스템 글꼴로 떨어지면 두부 문자가 된다. **빌드 산출물이
+아니라 개발 도구가 읽는 파일이지만**, 저장소에 두는 이상 라이선스 대장에는 올린다.
 
 ## 로케일을 늘릴 때
 
-지금 화면 문구는 ko·en뿐이라 위 넷으로 충분하다. 21개 로케일 번역을 채우면 태국어·아랍어·
-데바나가리·크메르 폰트가 더 필요하다 — naminglink에 이미 있는 파일을 같은 방식으로 복사하고
-이 표에 추가한다. 문자 체계별 폰트 라우팅은 `@naminglink/core/pdf`가 이미 처리한다.
+판매용 PDF의 화면 문구는 아직 ko·en뿐이라 본문용으로는 위 넷(KR·CJK·라틴)으로 충분하다.
+PDF 본문까지 23개 로케일로 넓히면 위 네 개를 `@naminglink/core/pdf`의 문자 체계별 라우팅에
+등록해야 한다.
 
 **새 폰트를 추가할 때는 반드시 이 표에 출처·라이선스를 기록하고, OFL이 아닌 폰트는 상업
 임베딩 조건을 확인하기 전에는 사용하지 않는다.**
