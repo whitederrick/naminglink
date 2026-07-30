@@ -7,6 +7,7 @@ import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18
 import { matchInputSchema, toPerson } from "@/lib/match-input";
 import { renderAffinityReport } from "@/lib/pdf/affinity-report";
 import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
+import { notifyOps } from "@/lib/ops-alert";
 import { getVerifiedPayment } from "@/lib/portone";
 import { checkRateLimit } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
@@ -152,6 +153,13 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error(`Failed to issue ${parsed.data.kind} report`, error);
+    // **결제는 끝났는데 물건이 안 나간 자리다.** 이용자가 문의하기 전에 우리가 먼저 알아야 한다.
+    notifyOps(
+      `report-issue-failed:${parsed.data.kind}`,
+      `결제된 리포트를 발급하지 못했습니다 (${parsed.data.kind})`,
+      { kind: parsed.data.kind, reason: error instanceof Error ? error.message : String(error) },
+      "critical",
+    );
     return jsonError("ISSUE_FAILED", 500);
   }
 }

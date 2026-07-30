@@ -3,6 +3,7 @@ import "server-only";
 import { createHmac } from "node:crypto";
 import type { NextRequest } from "next/server";
 
+import { notifyOps } from "@/lib/ops-alert";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 // 요청 남용 방어. **naminglink의 같은 파일과 같은 방식이고 같은 DB 함수(consume_rate_limit)를
@@ -62,7 +63,16 @@ export async function checkRateLimit(
     p_limit: limit,
   });
   if (error) {
-    console.error("Rate limit check failed (allowing)", error.message);
+    // **알린다.** 예전에는 `console.error` 한 줄뿐이라 아무도 로그를 보지 않으면 그대로 묻혔다.
+    //
+    // **통과시키는 것은 그대로 둔다(fail-open).** naminglink는 같은 경로에 전역 AI 상한이
+    // 실려 있어 전역 한도만 fail-closed로 돌렸지만, 이 앱은 규칙 엔진이라 요청당 외부 비용이
+    // 없다. 막아서 지킬 돈이 없는데 정상 이용자를 막는 것은 손해뿐이다.
+    notifyOps(
+      `rate-limit-unavailable:${scope}`,
+      `레이트리밋을 확인할 수 없어 통과시키고 있습니다 (${scope})`,
+      { scope, reason: error.message },
+    );
     return true;
   }
   return data !== false;

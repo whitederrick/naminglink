@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
+import { notifyOps } from "@/lib/ops-alert";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { confirmTossPayment } from "@/lib/toss";
 
@@ -132,6 +133,14 @@ export async function GET(request: NextRequest) {
     // 승인에 실패하면 결제도 되지 않은 상태다(토스는 승인해야 결제가 된다). 화면에서 다시
     // 시도하도록 안내한다.
     console.error("Toss confirm route failed", error);
+    // **사람이 알아야 한다.** 승인 자체가 실패하면 결제도 안 된 상태라 이용자는 다시 시도하면
+    // 되지만, 이것이 반복되면 키·채널 설정이나 토스 쪽 장애라 우리가 손을 대야 끝난다.
+    notifyOps(
+      "toss-confirm-failed",
+      "토스 결제 승인에 실패했습니다",
+      { orderId, orderType, reason: error instanceof Error ? error.message : String(error) },
+      "critical",
+    );
     return backToResult(request, orderType, { lang: locale, payment: "failed" });
   }
 }
