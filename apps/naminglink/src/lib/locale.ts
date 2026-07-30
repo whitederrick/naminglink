@@ -39,7 +39,11 @@ const countryLocaleMap: Record<string, Locale> = {
   CO: "es",
   PE: "es",
   AT: "de",
-  // 다언어 국가는 최대 사용 언어로 두되, Accept-Language가 있으면 그쪽이 우선한다.
+  // 다언어 국가는 그 나라의 최대 사용 언어로 둔다. **접속 국가가 Accept-Language보다 앞선다**
+  // (아래 getRequestLocale 참고) — 즉 퀘벡에서 브라우저가 프랑스어여도 영어가 나간다.
+  // 예전 주석은 그 반대로 적혀 있었는데 코드와 어긋난 설명이었다. 국가 우선을 유지하기로
+  // 결정했으므로(2026-07-30) 설명을 코드에 맞춘다. 특정 지역을 따로 잡아내는 것은 별건이고,
+  // 그전까지는 화면의 언어 버튼이 그 몫을 한다.
   CH: "de",
   BE: "fr",
   NZ: "en",
@@ -97,6 +101,11 @@ export async function getRequestLocale(searchLocale?: string) {
   const country = headerStore.get("x-vercel-ip-country")?.toUpperCase();
   const acceptLanguage = headerStore.get("accept-language") ?? "";
 
+  // **접속 국가가 브라우저 언어보다 앞선다(2026-07-30 확정).** 글로벌 서비스라 미국은 영어,
+  // 인도네시아는 인니어, 스페인은 스페인어처럼 그 나라 대표 언어로 먼저 보여 주는 쪽을 택했다.
+  // 다언어 국가(퀘벡·벨기에 네덜란드어권·스위스 이탈리아어권)에서는 이 판정이 어긋나는데,
+  // 그것까지 맞추려면 지역 단위 정보가 필요하고 무리해서 잡을 일은 아니라고 보았다.
+  // 어긋난 사람은 화면의 언어 버튼으로 바꾼다 — 그래서 그 버튼에 의도한 언어가 다 보여야 한다.
   if (country && countryLocaleMap[country]) {
     return countryLocaleMap[country];
   }

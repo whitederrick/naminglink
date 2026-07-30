@@ -17,12 +17,15 @@ export function BrandMark({ className = "", size = 56 }: BrandMarkProps) {
       style={{ width: size, height: size }}
       className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-lg shadow-[0_8px_24px_rgba(0,0,0,0.18)] ${className}`}
     >
+      {/* **`unoptimized`를 붙이지 말 것.** 원본은 1024×1024 PNG 964KB인데 이 자리는 56px다.
+          그대로 내려보내면 **랜딩 첫 화면 무게 1.92MB 중 절반이 로고 하나**가 된다(실측).
+          최적화를 켜면 Next가 자리 크기에 맞는 webp로 줄여 준다. 저장소가 분리되기 전부터
+          붙어 있던 속성이고 이유가 기록돼 있지 않았다. */}
       <Image
         src={logoImageSrc}
         alt=""
         width={size}
         height={size}
-        unoptimized
         className="h-full w-full object-cover"
         sizes={`${size}px`}
       />

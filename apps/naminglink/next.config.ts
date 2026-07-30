@@ -99,6 +99,38 @@ const nextConfig: NextConfig = {
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
+
+  /**
+   * `www`를 정본 주소로 넘긴다.
+   *
+   * 지금은 apex와 `www` **둘 다 200을 낸다**(실측). 내용이 같은 사이트가 두 호스트로 살아 있는
+   * 셈이라, canonical이 apex를 가리켜 색인은 한쪽으로 모이더라도 크롤링은 두 배로 돌고 외부
+   * 링크도 갈린다. 애드센스처럼 "사이트 단위"로 보는 곳에서도 주소가 하나인 편이 낫다.
+   *
+   * **도메인을 여기에 적지 않는다.** `NEXT_PUBLIC_SITE_URL`에서 호스트를 끌어와 그 앞에 `www.`가
+   * 붙은 요청만 잡는다 — 도메인이 바뀌어도 이 파일은 그대로다(크론 주소를 하드코딩했다가
+   * 조용히 죽었던 것과 같은 교훈이다). 값이 없거나 이미 `www.`로 시작하면 아무것도 하지 않는다.
+   */
+  async redirects() {
+    let apexHost: string;
+    try {
+      apexHost = new URL(
+        process.env.NEXT_PUBLIC_SITE_URL ?? "https://naminglink.vercel.app",
+      ).hostname;
+    } catch {
+      return [];
+    }
+    if (apexHost.startsWith("www.")) return [];
+
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: `www.${apexHost}` }],
+        destination: `https://${apexHost}/:path*`,
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

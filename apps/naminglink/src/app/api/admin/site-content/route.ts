@@ -1,6 +1,8 @@
+import { revalidateTag } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
 import { isDevEnvironment } from "@naminglink/core/env";
 import { requireAdmin } from "@/lib/admin-auth";
+import { FOOTER_CONTENT_TAG } from "@/lib/site-content-server";
 import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import { isLocale } from "@/lib/locale";
 import {
@@ -193,6 +195,14 @@ export async function PUT(request: NextRequest) {
 
   if (revisionError) {
     console.error("Failed to save site content revision", revisionError);
+  }
+
+  // 푸터는 루트 레이아웃이 캐시해 두고 쓴다. 게시했는데 무효화하지 않으면 운영자에게는
+  // 저장이 된 것으로 보이는데 화면에는 최대 한 시간 옛 값이 남는다.
+  // Next 16의 revalidateTag는 캐시 수명 프로필을 함께 받는다. "max"는 그 태그가 붙은 항목을
+  // 수명과 무관하게 전부 지운다 — 법정 표시 항목이라 늦게 반영되는 쪽이 더 나쁘다.
+  if (action === "publish" && contentKey === getContentKey("footer", "global")) {
+    revalidateTag(FOOTER_CONTENT_TAG, "max");
   }
 
   return NextResponse.json({
