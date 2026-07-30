@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, BadgeCheck } from "lucide-react";
+import { ArrowLeft, ArrowRight, BadgeCheck, Sparkles } from "lucide-react";
 import { ServiceLanguageSwitcher } from "@/components/ServiceLanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
@@ -319,18 +319,43 @@ function ServicePromisePanel({
           size={20}
         />
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-3">
+          {/* `relative`는 언어 선택기의 드롭다운이 **이 줄의 폭에 묶이도록** 하는 자리다.
+              드롭다운이 `left-0 right-0`으로 여기에 걸리므로 폭을 따로 정하지 않아도 되고,
+              그래서 좁은 화면에서 오른쪽으로 넘칠 수 없다(`ServiceLanguageSwitcher` 주석 참고). */}
+          <div className="relative flex flex-wrap items-center gap-3">
             <p className="font-semibold">{copy.promiseLabel}</p>
-            {/* 이 칩이 곧 언어 선택기다. 예전에는 표시만 하는 문단이었는데, 서비스 화면에는
-                언어를 바꿀 수단이 아예 없어서 접속 국가 판정이 어긋난 사람이 갇혔다. */}
-            <ServiceLanguageSwitcher
-              locale={locale}
-              label={copy.defaultLanguage}
-              path={
-                isHangulTransliteration ? "/global-to-korean" : `/${service.slug}`
-              }
-              query={isHangulTransliteration ? "mode=transliteration" : undefined}
-            />
+            {/* **언어를 고를 수 있는 서비스에서만 선택기를 준다.**
+                `getShellCopy`는 GLOBAL_TO_KOREAN이 아니면 무조건 한국어를 돌려준다 —
+                한자 의미 매칭·한국 이름 만들기는 한국인을 대상으로 하는 흐름이라 화면이 항상
+                한국어다. 그런 화면에서 23개 언어를 늘어놓으면 **골라도 아무 일이 일어나지 않는
+                선택지**를 보여주는 셈이다. 나머지는 예전처럼 현재 언어만 표시한다. */}
+            {isGlobalToKorean ? (
+              <ServiceLanguageSwitcher
+                locale={locale}
+                label={copy.defaultLanguage}
+                path={
+                  isHangulTransliteration ? "/global-to-korean" : `/${service.slug}`
+                }
+                query={isHangulTransliteration ? "mode=transliteration" : undefined}
+              />
+            ) : (
+              <p className="inline-flex items-center gap-2 break-keep rounded-lg bg-surface px-3 py-2 text-sm text-muted">
+                <Sparkles aria-hidden="true" size={15} />
+                {copy.defaultLanguage}: {locale.toUpperCase()}
+              </p>
+            )}
+            {/* 이용 안내. 이 카드가 "우리는 이렇게 합니다"라고 말하는 자리라, 바로 옆에
+                "무슨 근거로?"가 붙는 것이 자연스럽다. 한국어에서만 건다 — 인명용 한자는
+                한국 제도라 다른 언어판에서는 읽을 수 없는 글이 나온다. */}
+            {locale === "ko" ? (
+              <Link
+                href={localePath("/guide", locale)}
+                className="inline-flex items-center gap-1.5 rounded-lg px-2 py-2 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
+              >
+                이용 안내
+                <ArrowRight aria-hidden="true" size={14} />
+              </Link>
+            ) : null}
           </div>
           {isGlobalToKorean && !isHangulTransliteration ? (
             <p className="mt-3 text-sm leading-6 text-muted">

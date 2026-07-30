@@ -754,11 +754,17 @@ export function SiteFooter({
     : { href: localePath("/login", locale), label: copy.links.login };
 
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 전달한다(IP·브라우저 언어 재추정 방지).
+  // 이용 안내는 한국어에서만 건다(한국 제도 설명이라 다른 언어판에서는 읽을 수 없다).
+  const guideLink =
+    locale === "ko"
+      ? { href: localePath("/guide", locale), label: "이용 안내" }
+      : null;
   const footerLinks = [
     { href: localePath("/terms", locale), label: copy.links.terms },
     { href: localePath("/privacy", locale), label: copy.links.privacy },
     { href: localePath("/refund-policy", locale), label: copy.links.refund },
     { href: localePath("/pricing", locale), label: copy.links.pricing },
+    ...(guideLink ? [guideLink] : []),
     accountLink,
   ];
   const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
@@ -814,6 +820,8 @@ export function SiteFooter({
               locale={locale}
               loginLabel={accountLink.label}
               loginHref={accountLink.href}
+              guideHref={guideLink?.href}
+              guideLabel={guideLink?.label}
             />
           ) : (
             footerLinks.map((link) => (

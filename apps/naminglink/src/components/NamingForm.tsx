@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import { ArrowLeft, Send } from "lucide-react";
+import { ArrowLeft, ArrowRight, Send } from "lucide-react";
 import {
   currentYear,
   getCountryOption,
@@ -876,6 +876,29 @@ export function NamingForm({
 
 
         <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
+          {/* 이용 안내. **동의 항목 위**에 선을 긋고 둔다(사용자 결정).
+
+              아래에 두면 그 링크가 동의 영역의 일부처럼 읽힌다 — 동의는 법적 의미가 있는
+              자리라 경계가 분명해야 한다. 위에 두고 선으로 가르면 그 혼동이 없다.
+
+              데스크탑에서 이 칸은 옆 광고(280px)보다 내용이 짧아 아래가 99px 비어 있었다(실측).
+              여기에 한 줄이 들어가면 그 빈 자리도 줄어든다.
+
+              한국어에서만 건다 — 인명용 한자는 한국 제도라 다른 언어판에서는 읽을 수 없다. */}
+          {locale === "ko" ? (
+            <div className="mb-5 border-b border-line pb-4">
+              <Link
+                href={localePath("/guide", locale)}
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
+              >
+                이름에 쓰는 한자 안내
+                <ArrowRight aria-hidden="true" size={14} />
+              </Link>
+              <p className="mt-1 text-xs leading-5 text-muted">
+                인명용 한자가 무엇인지, 어떤 근거로 후보를 고르는지 정리했습니다.
+              </p>
+            </div>
+          ) : null}
           <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,26rem)]">
             <div>
               <h2 className="text-lg font-semibold">{t.consentTitle}</h2>
