@@ -154,6 +154,11 @@ export async function POST(request: NextRequest) {
         // 창은 UTC 자정 기준 고정 24시간이라 한국시간 오전 9시에 리셋된다(슬라이딩 아님).
         limit: Number(process.env.NAMING_AI_GLOBAL_DAILY_LIMIT ?? 30000),
         identifier: "global",
+        // **여기만 fail-closed다.** 이 상한은 비용이 새는 것을 막는 마지막 방어선이라,
+        // 확인할 수 없는 채로 통과시키면 상한이 통째로 사라진다(그동안 남는 것은 로그 한 줄뿐이라
+        // 아무도 보지 않으면 청구서로 알게 된다). 아래 IP당 한도는 그대로 fail-open이다 —
+        // 한 사람이 몇 번 더 쓰는 손해보다 정상 이용자를 막는 손해가 크기 때문이다.
+        failClosed: true,
       });
       if (!underGlobalCap) {
         return NextResponse.json(

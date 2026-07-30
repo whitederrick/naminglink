@@ -2,9 +2,10 @@ import "server-only";
 import { NextRequest } from "next/server";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getDailyVisitorHash } from "@/lib/request-context";
+import { notifyOps } from "@/lib/ops-alert";
 
 // Supabase 기반 고정 시간창 레이트리밋(서버리스-안전: 카운터가 함수 밖 DB에 있음).
-// consume_rate_limit RPC가 아직 없거나 오류면 fail-open(허용)한다 — 레이트리밋이
+// consume_rate_limit RPC가 아직 없거나 오류면 기본은 fail-open(허용)이다 — 레이트리밋이
 // 정상 요청을 막는 것보다 낫고, 마이그레이션 적용 전 배포에도 안전하다.
 export async function checkRateLimit(
   request: NextRequest,
@@ -13,11 +14,29 @@ export async function checkRateLimit(
     windowSeconds,
     limit,
     identifier: identifierOverride,
-  }: { windowSeconds: number; limit: number; identifier?: string },
+    failClosed = false,
+  }: {
+    windowSeconds: number;
+    limit: number;
+    identifier?: string;
+    /**
+     * 확인에 실패했을 때 **막을 것인가.**
+     *
+     * 기본은 거짓(통과)이다. 한 사람이 몇 번 더 쓰는 손해보다 정상 이용자를 막는 손해가 크다.
+     *
+     * **비용 상한에는 참을 준다.** 전역 AI 상한은 돈이 새는 것을 막는 마지막 방어선인데,
+     * 그것까지 fail-open이면 Supabase가 흔들리는 동안 상한이 통째로 사라진다. 남는 것은
+     * `console.error` 한 줄뿐이라 아무도 보지 않으면 청구서로 알게 된다. 확인할 수 없으면
+     * 돈을 쓰지 않는 쪽이 맞다 — 어차피 그 상황에서는 결과 저장도 안 되어 서비스가 이미
+     * 반쯤 멈춘 상태다.
+     */
+    failClosed?: boolean;
+  },
 ): Promise<boolean> {
   const supabase = getSupabaseAdminClient();
   // identifier를 지정하면 방문자 단위가 아닌 전역("global" 등) 한도로 동작한다.
   const identifier = identifierOverride ?? getDailyVisitorHash(request);
+  // 설정 자체가 없는 경우(지역 개발)는 막지 않는다. 여기서 막으면 개발이 안 된다.
   if (!supabase || !identifier) return true;
 
   const { data, error } = await supabase.rpc("consume_rate_limit", {
@@ -27,10 +46,31 @@ export async function checkRateLimit(
     p_limit: limit,
   });
   if (error) {
-    console.error("Rate limit check failed (allowing)", error.message);
-    return true;
+    // **알린다.** 예전에는 `console.error` 한 줄뿐이라 아무도 보지 않으면 그대로 묻혔다.
+    // 비용 상한(fail-closed)이 확인 불가가 된 것은 급한 일이라 등급을 올린다.
+    notifyOps(
+      `rate-limit-unavailable:${scope}`,
+      failClosed
+        ? `비용 상한을 확인할 수 없어 요청을 막고 있습니다 (${scope})`
+        : `레이트리밋을 확인할 수 없어 통과시키고 있습니다 (${scope})`,
+      { scope, failClosed, reason: error.message },
+      failClosed ? "critical" : "warn",
+    );
+    return !failClosed;
   }
-  return data !== false;
+
+  const allowed = data !== false;
+  // 전역 상한에 실제로 닿은 것은 두 가지 중 하나다 — 남용이거나, 예상보다 트래픽이 많거나.
+  // 어느 쪽이든 사람이 알아야 한다(그동안 이용자는 429를 받는다).
+  if (!allowed && identifierOverride === "global") {
+    notifyOps(
+      `global-cap-reached:${scope}`,
+      `전역 한도에 도달해 요청을 막고 있습니다 (${scope}, 한도 ${limit})`,
+      { scope, limit, windowSeconds },
+      "critical",
+    );
+  }
+  return allowed;
 }
 
 // 공개 POST 엔드포인트의 비용·남용 방어. 이름·사주 입력은 작으므로 본문을 작게 제한하고,
