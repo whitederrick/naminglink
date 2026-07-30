@@ -2,6 +2,23 @@ packages:
   - "apps/*"
   - "packages/*"
 
+# Next가 의존하는 postcss를 끌어올린다.
+#
+# `pnpm audit`이 postcss에서 high 2건·moderate 1건을 낸다(임의 파일 읽기·소스맵 경로 탐색·
+# `</style>` XSS). **Next 릴리스를 기다려서 풀리지 않는다** — 최신 `next@16.2.12`도
+# `postcss: '8.4.31'`을 그대로 고정한다(확인함). 그래서 여기서 덮는다.
+#
+# postcss는 빌드타임 CSS 도구라 런타임에 이용자 입력을 만지지 않고, 8.x는 semver가 안정적이라
+# 마이너 상향의 위험이 낮다. 다만 Next의 CSS 파이프라인이 이 버전을 쓰므로 **두 앱 빌드가
+# 통과하는 것을 확인하고 올린다.**
+#
+# sharp(0.34.5 < 0.35.0, libvips 상속 취약점)는 여기에 넣지 않았다. 메이저 상향이라 이미지
+# 최적화가 깨질 수 있고, `next.config.ts`에 `images.remotePatterns`가 없어 **외부 이미지를
+# 처리하지 않으므로** 공격자가 임의 이미지를 먹일 경로가 없다 — 실질 노출이 낮다.
+# 올리려면 /_next/image 산출물을 눈으로 확인한 뒤 별건으로 할 것.
+overrides:
+  postcss: "^8.5.25"
+
 allowBuilds:
   esbuild: true
   sharp: true
@@ -9,3 +26,5 @@ allowBuilds:
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+minimumReleaseAgeExclude:
+  - postcss@8.5.25
