@@ -1,6 +1,14 @@
 import Image from "next/image";
 
-const logoImageSrc = "/images/logo-current.png?v=rendered-mark-20260714";
+/**
+ * **쿼리(`?v=…`)를 붙이지 않는다.** 예전에는 캐시 무효화용으로 `?v=rendered-mark-20260714`가
+ * 붙어 있었는데, 그 형태를 Next 이미지 최적화가 처리하지 못해 `unoptimized`를 달아야 했고
+ * 그 결과 1024×1024 원본 964KB가 56px 자리에 그대로 내려갔다(랜딩 첫 화면 무게의 절반).
+ *
+ * 로고를 실제로 교체할 때는 쿼리가 아니라 **파일명을 바꾼다.** 최적화를 거치면 브라우저가 보는
+ * 주소가 `/_next/image?url=…&w=…&q=…`라 원본 경로에 붙인 쿼리로는 어차피 갱신을 강제할 수 없다.
+ */
+const logoImageSrc = "/images/logo-current.png";
 
 type BrandMarkProps = {
   className?: string;
@@ -17,19 +25,18 @@ export function BrandMark({ className = "", size = 56 }: BrandMarkProps) {
       style={{ width: size, height: size }}
       className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-lg shadow-[0_8px_24px_rgba(0,0,0,0.18)] ${className}`}
     >
-      {/* **`unoptimized`를 함부로 떼지 말 것 — 떼 봤다가 랜딩이 500으로 죽었다(2026-07-30).**
-          `src`에 쿼리(`?v=…`)가 붙어 있어 최적화 경로가 이 이미지를 처리하지 못한다.
-          `next build`는 통과하므로 빌드로는 안 잡히고, 랜딩이 동적 렌더라 배포 후에야 드러난다.
+      {/* 최적화를 켜 둔다(`unoptimized` 없음). 원본이 1024×1024 PNG 964KB인데 이 자리는 56px라
+          그대로 내려보내면 랜딩 첫 화면 1.92MB 중 절반이 이 파일 하나가 된다.
 
-          원본이 1024×1024 PNG 964KB인데 이 자리는 56px라 최적화 이득이 크다(랜딩 첫 화면
-          1.92MB 중 절반이 이 파일이다). 떼려면 **쿼리를 먼저 없애고 로컬에서 실제로 열어 본 뒤**
-          올릴 것. 빌드 성공만 보고 배포하면 같은 일이 반복된다. */}
+          **`src`에 쿼리를 다시 붙이지 말 것.** 쿼리가 붙어 있으면 최적화 경로가 처리하지 못해
+          랜딩이 500으로 죽는다(2026-07-30에 실제로 그렇게 됐다). 그리고 그 사고는 `next build`로
+          안 잡힌다 — 빌드는 통과하고 랜딩이 동적 렌더라 배포 후 실제 요청에서만 드러난다.
+          이 컴포넌트를 손대면 **화면을 실제로 열어 확인할 것.** */}
       <Image
         src={logoImageSrc}
         alt=""
         width={size}
         height={size}
-        unoptimized
         className="h-full w-full object-cover"
         sizes={`${size}px`}
       />
