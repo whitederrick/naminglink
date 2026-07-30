@@ -4,16 +4,34 @@ import { ArrowRight } from "lucide-react";
 
 import { GuideShell, GuideStats } from "@/components/GuideShell";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
-import { guideEntries } from "@/lib/guide-index";
+import { guideEntriesFor } from "@/lib/guide-index";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
 type PageProps = { searchParams?: Promise<{ lang?: string }> };
 
-const TITLE = "이름에 쓰는 한자 안내";
-const DESCRIPTION =
-  "인명용 한자가 무엇인지, 지정 독음과 성씨는 어떻게 다른지, 기피 한자를 왜 지우지 않는지 — Naming-Link가 무엇을 근거로 이름을 제안하는지 정리했습니다.";
+/**
+ * 허브의 문구도 대상에 맞춰 갈린다. 한국어 이용자에게는 인명용 한자 제도가 중심이고,
+ * 그 밖의 언어로 들어온 사람에게는 "네 이름을 한국어로 어떻게 다루는가"가 중심이다.
+ * 카드만 영어로 갈아 끼우고 제목은 한국어로 두면 앞뒤가 맞지 않는다.
+ */
+const COPY = {
+  ko: {
+    eyebrow: "이름에 쓰는 한자",
+    title: "이름에 쓰는 한자 안내",
+    description:
+      "인명용 한자가 무엇인지, 지정 독음과 성씨는 어떻게 다른지, 기피 한자를 왜 지우지 않는지 — Naming-Link가 무엇을 근거로 이름을 제안하는지 정리했습니다.",
+    back: "한자 의미 매칭",
+  },
+  global: {
+    eyebrow: "How Naming-Link works",
+    title: "What we base your name on",
+    description:
+      "How we choose a Korean surname, what we check before suggesting a given name, and how we write your name in Hangul — with the parts we deliberately leave out.",
+    back: "Back to the service",
+  },
+} as const;
 
 export async function generateMetadata({
   searchParams,
@@ -22,12 +40,13 @@ export async function generateMetadata({
   const requested = isLocale(params?.lang) ? params.lang : null;
   const locale = await getRequestLocale(params?.lang);
 
+  const copy = locale === "ko" ? COPY.ko : COPY.global;
   return buildPageMetadata({
     path: "/guide",
     locale,
     requested,
-    title: TITLE,
-    description: DESCRIPTION,
+    title: copy.title,
+    description: copy.description,
   });
 }
 
@@ -35,17 +54,23 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
   const counts = await getGuideCounts();
+  // 한국어면 한국어 문서, 그 밖의 언어면 영어 문서만 보여준다(`lib/guide-index.ts`).
+  const entries = guideEntriesFor(locale);
+  const copy = locale === "ko" ? COPY.ko : COPY.global;
 
   return (
     <GuideShell
       locale={locale}
-      eyebrow="이름에 쓰는 한자"
-      title={TITLE}
-      description={DESCRIPTION}
-      backHref={localePath("/hanja-meaning", locale)}
-      backLabel="한자 의미 매칭"
+      eyebrow={copy.eyebrow}
+      title={copy.title}
+      description={copy.description}
+      backHref={localePath(
+        locale === "ko" ? "/hanja-meaning" : "/global-to-korean",
+        locale,
+      )}
+      backLabel={copy.back}
     >
-      {counts ? (
+      {counts && locale === "ko" ? (
         <GuideStats
           items={[
             { value: `${formatCount(counts.hanjaTotal)}자`, label: "인명용 한자" },
@@ -58,7 +83,7 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
 
       {/* 허브는 짧게 둔다. 여기서 길게 설명하면 나눈 의미가 없다. */}
       <nav className="mt-8 grid gap-3">
-        {guideEntries.map((entry) => (
+        {entries.map((entry) => (
           <Link
             key={entry.slug}
             href={localePath(`/guide/${entry.slug}`, locale)}

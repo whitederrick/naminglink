@@ -345,17 +345,17 @@ function ServicePromisePanel({
               </p>
             )}
             {/* 이용 안내. 이 카드가 "우리는 이렇게 합니다"라고 말하는 자리라, 바로 옆에
-                "무슨 근거로?"가 붙는 것이 자연스럽다. 한국어에서만 건다 — 인명용 한자는
-                한국 제도라 다른 언어판에서는 읽을 수 없는 글이 나온다. */}
-            {locale === "ko" ? (
-              <Link
-                href={localePath("/guide", locale)}
-                className="inline-flex items-center gap-1.5 rounded-lg px-2 py-2 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
-              >
-                이용 안내
-                <ArrowRight aria-hidden="true" size={14} />
-              </Link>
-            ) : null}
+                "무슨 근거로?"가 붙는 것이 자연스럽다.
+
+                **모든 언어에서 건다.** 안내 허브가 한국어면 한국어 문서를, 그 밖의 언어면
+                영어 문서를 보여주므로(`lib/guide-index.ts`) 어느 쪽으로 들어와도 읽을 수 있다. */}
+            <Link
+              href={localePath("/guide", locale)}
+              className="inline-flex items-center gap-1.5 rounded-lg px-2 py-2 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
+            >
+              {locale === "ko" ? "이용 안내" : "How it works"}
+              <ArrowRight aria-hidden="true" size={14} />
+            </Link>
           </div>
           {isGlobalToKorean && !isHangulTransliteration ? (
             <p className="mt-3 text-sm leading-6 text-muted">
