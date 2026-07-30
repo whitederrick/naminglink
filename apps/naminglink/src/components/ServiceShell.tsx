@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ArrowLeft, BadgeCheck, Sparkles } from "lucide-react";
+import { ArrowLeft, BadgeCheck } from "lucide-react";
+import { ServiceLanguageSwitcher } from "@/components/ServiceLanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
 import { NamingForm } from "@/components/NamingForm";
@@ -320,10 +321,16 @@ function ServicePromisePanel({
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-3">
             <p className="font-semibold">{copy.promiseLabel}</p>
-            <p className="inline-flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm text-muted">
-              <Sparkles aria-hidden="true" size={15} />
-              {copy.defaultLanguage}: {locale.toUpperCase()}
-            </p>
+            {/* 이 칩이 곧 언어 선택기다. 예전에는 표시만 하는 문단이었는데, 서비스 화면에는
+                언어를 바꿀 수단이 아예 없어서 접속 국가 판정이 어긋난 사람이 갇혔다. */}
+            <ServiceLanguageSwitcher
+              locale={locale}
+              label={copy.defaultLanguage}
+              path={
+                isHangulTransliteration ? "/global-to-korean" : `/${service.slug}`
+              }
+              query={isHangulTransliteration ? "mode=transliteration" : undefined}
+            />
           </div>
           {isGlobalToKorean && !isHangulTransliteration ? (
             <p className="mt-3 text-sm leading-6 text-muted">
