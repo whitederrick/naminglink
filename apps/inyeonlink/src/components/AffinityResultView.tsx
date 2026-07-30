@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
+import { GuideLink } from "@/components/GuideLink";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
@@ -247,7 +248,10 @@ export function AffinityResultView({
           본론(맞는 유형·피할 유형·필요한 기운)이 끝나고 곁들임(띠)으로 넘어가는 경계에 둔다 —
           읽을 것이 끝난 자리가 아니라 읽는 도중이어야 한다. 위아래로 버튼이 없어 오클릭 위험도
           낮다(애드센스에서 오클릭은 정책 위반이자 계정 정지 사유다). */}
-      <AdBanner placement="result" locale={locale} className="my-12" />
+      {/* 결과를 읽은 직후가 "이 숫자는 어떻게 나왔나"가 가장 궁금한 자리다. */}
+      <GuideLink locale={locale} className="mt-12" />
+
+      <AdBanner placement="result" locale={locale} className="mb-12 mt-6" />
 
       {/* 곁들임 — 띠 */}
       <h2 className="mt-12 text-xl font-semibold">{t.zodiacTitle}</h2>

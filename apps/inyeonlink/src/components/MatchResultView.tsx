@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
+import { GuideLink } from "@/components/GuideLink";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { emphasize } from "@/lib/emphasize";
@@ -238,7 +239,10 @@ export function MatchResultView({
           읽을 것이 끝난 자리가 아니라 **읽는 도중**에 둔다 — 사주 원국을 다 본 뒤,
           항목별 점수로 넘어가기 전이 경계다. 위아래로 버튼이 없는 자리라 오클릭 위험도 낮다
           (애드센스에서 오클릭은 정책 위반이자 계정 정지 사유다). */}
-      <AdBanner placement="result" locale={locale} className="my-12" />
+      {/* 결과를 읽은 직후가 "이 숫자는 어떻게 나왔나"가 가장 궁금한 자리다. */}
+      <GuideLink locale={locale} className="mt-12" />
+
+      <AdBanner placement="result" locale={locale} className="mb-12 mt-6" />
 
       <h2 className="mt-12 text-xl font-semibold">{t.breakdown}</h2>
       <div className="mt-4 space-y-4">

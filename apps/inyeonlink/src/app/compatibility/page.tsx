@@ -5,6 +5,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
+import { GuideLink } from "@/components/GuideLink";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
@@ -66,6 +67,9 @@ export default async function CompatibilityPage({
 
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
+
+          {/* 무엇을 근거로 계산하는지 궁금해지는 자리는 입력 직후다. */}
+          <GuideLink locale={locale} className="mt-6" />
 
         </div>
 

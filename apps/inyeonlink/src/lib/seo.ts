@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { supportedLocales, type Locale } from "@/lib/i18n";
+import { guidePaths } from "@/lib/guide-index";
 import { localePath } from "@/lib/locale-path";
 
 /**
@@ -24,7 +25,7 @@ export const siteUrl = (
  * **쿼리가 붙은 주소는 넣지 말 것.** Next 16의 sitemap 생성기가 `&`를 XML 이스케이프하지 않아
  * 문서 전체가 파싱 불가가 된다(naminglink에서 실제로 겪었다).
  */
-export const indexablePaths = [
+const basePaths = [
   "/",
   "/compatibility",
   "/affinity",
@@ -33,6 +34,15 @@ export const indexablePaths = [
   "/privacy",
   "/refund-policy",
 ] as const;
+
+/**
+ * 안내 문서는 목록(`lib/guide-index.ts`)에서 받아 온다. 문서를 더할 때 이 파일을 함께 고쳐야
+ * 한다면 언젠가 한쪽만 고쳐지고, 그러면 그 문서는 sitemap에 없는 채로 남는다.
+ *
+ * **로케일별로 갈리는 것은 화면뿐이다.** 한국어 문서와 영어 문서 모두 주소는 존재하므로
+ * sitemap에는 전부 싣는다 — 어느 언어로 들어오든 200이고, 무엇을 보여줄지는 화면이 정한다.
+ */
+export const indexablePaths = [...basePaths, ...guidePaths] as const;
 
 /**
  * 공유 썸네일. **카카오톡·페이스북·슬랙은 `og:image`가 없으면 그림 없는 카드로 띄운다**

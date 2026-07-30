@@ -1,3 +1,4 @@
+import { guideLinkLabel } from "@/components/GuideLink";
 import { LegalLinks } from "@/components/LegalLinks";
 import { getCompanyInfo } from "@/lib/company-server";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
@@ -151,6 +152,15 @@ export async function SiteFooter({
             linkClassName={linkClass}
             textDirection={textDirection}
           />
+          {/* 안내 문서는 팝업이 아니라 페이지라 LegalLinks 밖에 둔다. 약관처럼 확인용으로
+              잠깐 열어 보는 글이 아니라 처음부터 끝까지 읽는 글이기 때문이다. */}
+          <a
+            href={localePath("/guide", linkLocale)}
+            className={linkClass}
+            dir={textDirection}
+          >
+            {guideLinkLabel(locale, "short")}
+          </a>
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">
