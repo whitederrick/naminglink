@@ -152,7 +152,20 @@ export function AdBanner({
             ref={insRef}
             // `!max-w-full`이 없으면 안 된다. 애드센스는 `<ins>`에 인라인 `width`를 직접 써
             // 넣는데(456px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로 넘친다.
-            className="adsbygoogle block h-full w-full !max-w-full"
+            //
+            // **`[contain:inline-size]`도 함께 있어야 한다.** `!max-w-full`은 `<ins>` 자신의
+            // 폭만 막고, **그 안쪽에서 새는 것은 못 막는다.** 애드센스는 `<ins>` 안에 소재
+            // 크기 그대로의 div+iframe을 넣는데(실측 831px), 그 본질 폭(min-content)이 조상으로
+            // 올라가 헤더·섹션·폼이 전부 그 폭이 된다. 바깥 상자의 `overflow-hidden`은 **보이는
+            // 것만** 자르고 폭 계산은 막지 못한다.
+            //
+            // 실측(뷰포트 395, 운영, 광고 로드된 상태):
+            //   처방 전  문서 457 · 헤더 437 · 광고상자 437×50   ← 오른쪽이 잘리고 좌우로 밀림
+            //   처방 후  문서 395 · 헤더 355 · 광고상자 355×50   ← 높이는 그대로, 폭만 정상화
+            //
+            // `contain: inline-size`는 "가로 크기를 내용과 무관하게 정한다"는 뜻뿐이다. 이
+            // `<ins>`는 이미 `w-full`이라 폭이 부모에서 오므로 **그려지는 크기는 바뀌지 않는다.**
+            className="adsbygoogle block h-full w-full !max-w-full [contain:inline-size]"
             style={{ display: "block" }}
             data-ad-client={adsenseClient}
             data-ad-slot={slot}

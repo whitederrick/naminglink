@@ -383,11 +383,22 @@ export function ServiceShell({
             인라인으로 `width: 728px` 같은 값을 써 넣으면 그것이 트랙 폭이 되어 화면 밖으로
             밀려난다 — 왼쪽 여백은 그대로인데 오른쪽만 잘려 보이던 증상이 이것이다. */}
         <header className="min-w-0 border-b border-line pb-5">
-          <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
+          {/* **광고 → 버튼 → 구분선 순서로 세로로 쌓는다(PC·모바일 동일).**
+              예전에는 PC에서만 `lg:flex-row`로 버튼과 광고를 좌우로 갈랐는데 세 가지가 걸렸다.
+
+                ① 오클릭 — 마지막 버튼과 광고 사이가 12px뿐이었다(실측). 애드센스는 오클릭을
+                   계정 정지 사유로 본다.
+                ② 광고 폭 — 버튼이 357px을 가져가 광고가 831px로 눌렸다. 전폭이면 1200px이라
+                   970×90 리더보드를 받을 수 있다(실측으로 확인).
+                ③ 분기 — 모바일은 이미 이 순서였다. PC만 다른 배치를 유지할 이유가 없고,
+                   `lg:` 분기가 사라지면 폭 관련 사고가 날 자리도 준다.
+
+              대가는 헤더가 128px → 183px로 55px 높아지는 것이다(실측). 사용자 결정. */}
+          <div className="flex flex-col gap-[15px]">
             {/* `shrink-0`이면 버튼 줄이 뷰포트보다 넓어도 줄어들지 않아 페이지 전체가 가로로
                 넘친다(모바일에서 오른쪽이 잘려 보이던 원인). 줄바꿈으로 처리하고 `min-w-0`으로
                 최소 폭 제한을 푼다 — flex 항목은 기본이 min-content라 이것이 없으면 안 줄어든다. */}
-            <div className="order-2 flex min-w-0 flex-wrap items-center gap-3 lg:order-1">
+            <div className="order-2 flex min-w-0 flex-wrap items-center gap-3">
               <Link
                 href={localePath("/", locale)}
                 className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border border-foreground/80 bg-[linear-gradient(135deg,#10150f,#1c211a)] px-4 text-sm font-semibold text-white shadow-sm transition hover:border-foreground hover:bg-foreground"
@@ -421,7 +432,7 @@ export function ServiceShell({
                 </nav>
               ) : null}
             </div>
-            <div className="order-1 min-w-0 flex-1 lg:order-2">
+            <div className="order-1 min-w-0">
               <AdBanner
                 variant="header"
                 slotKey="service_header"

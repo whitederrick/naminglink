@@ -93,7 +93,13 @@ export function AdBanner({
         <ins
           // `!max-w-full`이 없으면 안 된다. 애드센스는 `<ins>`에 인라인 `width`를 직접 써
           // 넣는데(456px 등), 그 폭이 조상 grid/flex 트랙을 밀어내 화면이 오른쪽으로 넘친다.
-          className="adsbygoogle block h-full w-full !max-w-full"
+          //
+          // **`[contain:inline-size]`도 함께 있어야 한다.** `!max-w-full`은 `<ins>` 자신의 폭만
+          // 막고 그 **안쪽에서 새는 것은 못 막는다.** 애드센스가 `<ins>` 안에 넣는 div+iframe이
+          // 소재 크기 그대로(실측 831px)라, 그 본질 폭이 조상으로 올라가 화면 전체가 그 폭이 된다.
+          // 바깥 상자의 `overflow-hidden`은 보이는 것만 자르고 폭 계산은 막지 못한다.
+          // naminglink에서 운영 실측으로 확인하고 고친 것과 같은 처방이다(`AdBanner.tsx` 주석).
+          className="adsbygoogle block h-full w-full !max-w-full [contain:inline-size]"
           style={{ display: "block" }}
           data-ad-client={adsenseClient}
           data-ad-slot={slot}
