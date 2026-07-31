@@ -165,12 +165,14 @@ export async function getReportSetting(product: ReportProduct) {
  * 조회에 실패하면 시드 값으로 떨어진다. 폴백까지 없애면 DB가 잠깐 흔들릴 때 약관에서 가격이
  * 통째로 사라지는데, 가격 미고지가 값이 조금 낡은 것보다 나쁘다.
  */
-// 마이그레이션이 심은 값과 같아야 한다(`20260727120000` → GUNGHAP_PDF 990/199,
-// `20260728170000` → AFFINITY_PDF 990/199. 둘은 같은 값으로 정했다).
-// 가격을 바꾸면 여기도 같이 고칠 것 — 어긋나면 조회가 흔들리는 순간 약관에 옛 가격이 나간다
-// (2026-07-27 인하 때 실제로 어긋나 있었다).
+// DB(`product_settings`)의 현재 값과 같아야 한다. 가격을 바꾸면 여기도 같이 고칠 것 —
+// 어긋나면 조회가 흔들리는 순간 약관에 옛 가격이 나간다(2026-07-27 인하 때 실제로 어긋나
+// 있었다). 바꾸는 수단은 `naminglink/scripts/set-product-price.mjs`이고 이력도 함께 남는다.
+//
+// **두 상품의 값이 다르다**(2026-07-31). 궁합 리포트를 3장에서 7장으로 늘리면서 올렸고,
+// 인연의 결은 4장 그대로라 값도 그대로다. 약관이 두 가격을 각각 고지해야 하는 이유다.
 const SEEDED_PRICE: Record<ReportKind, Record<ReportRegion, string>> = {
-  gunghap: { domestic: "₩990", global: "US$1.99" },
+  gunghap: { domestic: "₩1,900", global: "US$2.99" },
   affinity: { domestic: "₩990", global: "US$1.99" },
 };
 
@@ -186,6 +188,25 @@ export async function getReportPrices(kind: ReportKind = "gunghap") {
   } catch {
     return { ...SEEDED_PRICE[kind] };
   }
+}
+
+/**
+ * **약관이 쓰는 값.** 파는 상품 전부의 가격을 한 번에 돌려준다.
+ *
+ * 예전에는 약관·요금안내·환불정책이 `getReportPrices()`를 기본 인자로 불러 **궁합 가격만**
+ * 보여 주고 있었다. 두 상품이 같은 값이던 동안에는 우연히 맞았지만, 2026-07-31에 궁합만
+ * 올리면서 인연의 결 가격이 문서에서 틀린 값이 됐다. 전자상거래법이 요구하는 고지라
+ * 상품마다 제 값이 나가야 한다.
+ *
+ * 한 번의 조회로 둘 다 만든다 — `loadSettings`가 네 코드를 한꺼번에 읽어 캐시하므로
+ * 왕복이 늘지 않는다.
+ */
+export async function getAllReportPrices() {
+  const [gunghap, affinity] = await Promise.all([
+    getReportPrices("gunghap"),
+    getReportPrices("affinity"),
+  ]);
+  return { gunghap, affinity };
 }
 
 /**

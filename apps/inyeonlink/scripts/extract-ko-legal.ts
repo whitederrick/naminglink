@@ -26,9 +26,18 @@ const PLACEHOLDER_COMPANY = {
   hostingProvider: "{hostingProvider}",
 } as const;
 
+// 금액 자리에 플레이스홀더를 넣어 뽑는다. 스냅샷에 실제 금액이 박히면 가격을 바꿀 때마다
+// 21로케일을 다시 번역해야 한다 — 자리만 남겨 두면 렌더 시점에 DB 값으로 채워진다.
+//
+// 이름 없는 두 자리(`priceDomestic`·`priceGlobal`)는 **궁합 가격**이다. 2026-07-31에 상품이
+// 둘로 갈리면서 인연의 결 자리를 더했는데, 기존 이름의 뜻은 바꾸지 않았다 — 이름을 갈면
+// 이미 번역된 21개 파일을 전부 손대야 한다.
 const PLACEHOLDER_PRICES = {
-  domestic: "{priceDomestic}",
-  global: "{priceGlobal}",
+  gunghap: { domestic: "{priceDomestic}", global: "{priceGlobal}" },
+  affinity: {
+    domestic: "{priceAffinityDomestic}",
+    global: "{priceAffinityGlobal}",
+  },
 } as const;
 
 const KEYS = ["privacy", "terms", "refund", "pricing"] as const;

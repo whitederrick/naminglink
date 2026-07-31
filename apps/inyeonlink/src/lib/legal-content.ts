@@ -108,17 +108,28 @@ const feeSectionKo: LegalSection = paymentsConfigured
       heading: "2. 이용료",
       paragraphs: [
         "현재 서비스는 전부 무료로 제공되며 회원가입이 필요하지 않습니다.",
-        "유료 상품(궁합 리포트 PDF)의 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
+        "유료 상품(리포트 PDF 두 가지)의 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
       ],
     };
 
 export type ReportPrices = { domestic: string; global: string };
 
-const paidProductSectionKo = (prices: ReportPrices): LegalSection => ({
+/**
+ * 파는 상품 전부의 가격.
+ *
+ * 예전에는 문서가 `ReportPrices` 하나만 받아 **궁합 가격만** 고지했다. 두 상품이 같은 값이던
+ * 동안에는 우연히 맞았지만, 2026-07-31에 궁합만 올리면서 인연의 결 가격이 문서에서 틀린 값이
+ * 됐다. 전자상거래법이 요구하는 고지라 상품마다 제 값이 나가야 한다.
+ */
+export type AllReportPrices = { gunghap: ReportPrices; affinity: ReportPrices };
+
+const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
-    "판매하는 유료 상품은 **궁합 리포트 PDF** 한 가지입니다. 화면의 결과를 3장짜리 PDF 문서로 만들어 드리며, 화면에 표시되지 않는 오행 세력 수치가 함께 담깁니다.",
-    `가격은 국내 결제 ${prices.domestic}(부가세 포함), 해외 결제 ${prices.global}입니다. 국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.`,
+    "판매하는 유료 상품은 **리포트 PDF 두 가지**입니다. 둘 다 화면의 결과를 문서로 만들어 드리는 것이고, 화면에 없는 내용이 함께 담깁니다.",
+    `**사주 궁합 리포트 PDF** — 7장. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 담깁니다. 국내 결제 ${prices.gunghap.domestic}(부가세 포함), 해외 결제 ${prices.gunghap.global}.`,
+    `**인연의 결 리포트 PDF** — 4장. 화면에 없는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다. 국내 결제 ${prices.affinity.domestic}(부가세 포함), 해외 결제 ${prices.affinity.global}.`,
+    "국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
   ],
@@ -144,15 +155,17 @@ const feeSectionEn: LegalSection = paymentsConfigured
       heading: "2. Fees",
       paragraphs: [
         "The service is currently free in full and requires no account.",
-        "If we begin selling the paid product (the PDF report), the conditions in section 3 will apply. We will publish these terms again before sales begin.",
+        "If we begin selling the paid products (the two PDF reports), the conditions in section 3 will apply. We will publish these terms again before sales begin.",
       ],
     };
 
-const paidProductSectionEn = (prices: ReportPrices): LegalSection => ({
-  heading: "3. Paid product and refunds",
+const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
+  heading: "3. Paid products and refunds",
   paragraphs: [
-    "There is one paid product: the **compatibility report PDF**. It turns the on-screen result into a three-page document and includes the elemental strength figures that are not shown on screen.",
-    `The price is ${prices.domestic} (VAT included) for domestic payment and ${prices.global} for international payment. Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.`,
+    "There are **two paid products**, both PDF reports. Each turns the on-screen result into a document and adds material that is not shown on screen.",
+    `**Saju compatibility report PDF** — seven pages. It covers which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated. ${prices.gunghap.domestic} (VAT included) for domestic payment, ${prices.gunghap.global} for international payment.`,
+    `**Match profile report PDF** — four pages. It includes the full ranking of the ten heavenly stems and the twelve zodiac signs, which the screen does not show. ${prices.affinity.domestic} (VAT included) for domestic payment, ${prices.affinity.global} for international payment.`,
+    "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
   ],
@@ -185,7 +198,7 @@ const paymentSectionKo: LegalSection = {
   heading: "5. 결제 시 저장되는 정보",
   paragraphs: paymentsConfigured
     ? [
-        "유료 상품(궁합 리포트 PDF)을 결제하면 결제 처리와 법령상 거래 기록 보존을 위해 주문 정보가 저장됩니다.",
+        "유료 상품(리포트 PDF)을 결제하면 결제 처리와 법령상 거래 기록 보존을 위해 주문 정보가 저장됩니다.",
         "**궁합 계산에 입력한 값과 만들어진 PDF는 결제한 경우에도 저장되지 않습니다.** 위 1항의 원칙은 결제 여부와 무관하게 그대로입니다. 저장되는 항목은 다음과 같으며, 이름·연락처·주소 등 이용자를 식별하는 정보는 포함되지 않습니다.",
       ]
     : [
@@ -245,7 +258,7 @@ const thirdPartySectionEn = (company: CompanyInfo): LegalSection => ({
 
 const koDocuments = (
   company: CompanyInfo,
-  prices: ReportPrices,
+  prices: AllReportPrices,
 ): Record<LegalDocumentKey, LegalDocument> => ({
   privacy: {
     title: "개인정보처리방침",
@@ -433,15 +446,23 @@ const koDocuments = (
         ],
       },
       {
-        heading: "2. 궁합 리포트 PDF (유료)",
+        heading: "2. 사주 궁합 리포트 PDF (유료)",
         paragraphs: [
-          `국내 결제 ${prices.domestic}(부가세 포함) · 해외 결제 ${prices.global}`,
-          "화면의 결과를 3장짜리 PDF 문서로 만들어 드립니다. 화면에 표시되지 않는 오행 세력 수치가 함께 담깁니다.",
+          `국내 결제 ${prices.gunghap.domestic}(부가세 포함) · 해외 결제 ${prices.gunghap.global}`,
+          "화면의 결과를 7장짜리 PDF 문서로 만들어 드립니다. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 화면에 없는 내용이 담깁니다.",
           "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
         ],
       },
       {
-        heading: "3. 결제 수단",
+        heading: "3. 인연의 결 리포트 PDF (유료)",
+        paragraphs: [
+          `국내 결제 ${prices.affinity.domestic}(부가세 포함) · 해외 결제 ${prices.affinity.global}`,
+          "화면의 결과를 4장짜리 PDF 문서로 만들어 드립니다. 화면은 잘 맞는 결 셋만 보여 주지만 PDF에는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다.",
+          "재발급 조건은 궁합 리포트와 같습니다.",
+        ],
+      },
+      {
+        heading: "4. 결제 수단",
         paragraphs: [
           "**국내** — 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용하실 수 있습니다.",
           "**해외** — 포트원을 통한 페이팔로 결제하실 수 있습니다.",
@@ -449,7 +470,7 @@ const koDocuments = (
         ],
       },
       {
-        heading: "4. 가격 변경",
+        heading: "5. 가격 변경",
         paragraphs: [
           "가격을 변경하는 경우 이 페이지에 먼저 게시합니다. 이미 결제가 끝난 주문에는 변경된 가격이 적용되지 않습니다.",
         ],
@@ -461,7 +482,7 @@ const koDocuments = (
 
 const enDocuments = (
   company: CompanyInfo,
-  prices: ReportPrices,
+  prices: AllReportPrices,
 ): Record<LegalDocumentKey, LegalDocument> => ({
   privacy: {
     title: "Privacy Policy",
@@ -649,15 +670,23 @@ const enDocuments = (
         ],
       },
       {
-        heading: "2. Compatibility report PDF (paid)",
+        heading: "2. Saju compatibility report PDF (paid)",
         paragraphs: [
-          `${prices.domestic} (VAT included) for domestic payment - ${prices.global} for international payment`,
-          "Turns the on-screen result into a three-page document, including the elemental strength figures that are not shown on screen.",
+          `${prices.gunghap.domestic} (VAT included) for domestic payment - ${prices.gunghap.global} for international payment`,
+          "Turns the on-screen result into a seven-page document. It adds which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated - none of which appear on screen.",
           "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
         ],
       },
       {
-        heading: "3. Payment methods",
+        heading: "3. Match profile report PDF (paid)",
+        paragraphs: [
+          `${prices.affinity.domestic} (VAT included) for domestic payment - ${prices.affinity.global} for international payment`,
+          "Turns the on-screen result into a four-page document. The screen shows only the three best-matching types; the PDF carries the full ranking of the ten heavenly stems and the twelve zodiac signs.",
+          "Re-download terms are the same as for the compatibility report.",
+        ],
+      },
+      {
+        heading: "4. Payment methods",
         paragraphs: [
           "**In Korea** - Toss Payments: credit and debit cards, and Korean pay services (Toss Pay, KakaoPay, Naver Pay, Payco and others).",
           "**Outside Korea** - PayPal through PortOne.",
@@ -665,7 +694,7 @@ const enDocuments = (
         ],
       },
       {
-        heading: "4. Price changes",
+        heading: "5. Price changes",
         paragraphs: [
           "Any price change is posted on this page first. Orders already paid for are not affected.",
         ],
@@ -685,19 +714,23 @@ const enDocuments = (
 function fillPlaceholders(
   document: LegalDocument,
   company: CompanyInfo,
-  prices: ReportPrices,
+  prices: AllReportPrices,
 ): LegalDocument {
   const values: Record<string, string> = {
     "{customerCenter}": company.customerCenter,
     "{email}": company.email,
     "{hostingProvider}": company.hostingProvider,
     "{privacyOfficer}": company.privacyOfficer,
-    "{priceDomestic}": prices.domestic,
-    "{priceGlobal}": prices.global,
+    // 기존 두 자리는 **궁합 가격**을 뜻한다. 21로케일 번역이 이미 이 이름으로 쓰고 있어
+    // 뜻을 바꾸지 않는다 — 이름을 갈면 번역 파일 전부를 손대야 한다.
+    "{priceDomestic}": prices.gunghap.domestic,
+    "{priceGlobal}": prices.gunghap.global,
+    "{priceAffinityDomestic}": prices.affinity.domestic,
+    "{priceAffinityGlobal}": prices.affinity.global,
   };
   const fill = (text: string) =>
     text.replace(
-      /\{(customerCenter|email|hostingProvider|privacyOfficer|priceDomestic|priceGlobal)\}/g,
+      /\{(customerCenter|email|hostingProvider|privacyOfficer|priceDomestic|priceGlobal|priceAffinityDomestic|priceAffinityGlobal)\}/g,
       (token) => values[token] ?? token,
     );
 
@@ -717,7 +750,7 @@ export function getLegalDocument(
   locale: Locale,
   key: LegalDocumentKey,
   company: CompanyInfo,
-  prices: ReportPrices,
+  prices: AllReportPrices,
 ) {
   if (locale === "ko") return koDocuments(company, prices)[key];
   if (locale === "en") return enDocuments(company, prices)[key];

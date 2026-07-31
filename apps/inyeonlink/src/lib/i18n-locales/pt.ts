@@ -364,7 +364,8 @@ export const pt: Dictionary = {
   },
   report: {
     title: "Guarde esta leitura em PDF",
-    body: "Transformamos este resultado em um PDF de três páginas, incluindo os números da força dos elementos que não aparecem na tela.",
+    body:
+      "Transformamos este resultado num PDF de 7 páginas. **Quatro dessas páginas não estão no ecrã**: para onde a energia flui, um olhar mais atento a cada mapa, onde os quatro pilares se encontram e como foi calculado.",
     buyButton: "Pagar {price} e baixar",
     preparing: "Ainda não disponível",
     ordering: "Criando seu pedido…",
@@ -377,6 +378,10 @@ export const pt: Dictionary = {
       "Página 1 — taxa de compatibilidade, o que joga a favor do par e o que observar",
       "Página 2 — o formato da relação, os dez deuses e as notas por fator",
       "Página 3 — os dois mapas e a força dos elementos",
+          "Página 4 — para onde a energia flui e onde os quatro pilares se encontram",
+      "Página 5 — um olhar mais atento a cada mapa (o que a estação impulsiona)",
+      "Página 6 — o que cada pilar do outro é para si",
+      "Página 7 — como estes mapas foram calculados",
     ],
     consentLabel:
       "Entendo que este é um conteúdo digital entregue imediatamente após o pagamento e que **o arrependimento por simples mudança de ideia fica restrito assim que o download é concluído**.",
@@ -384,7 +389,7 @@ export const pt: Dictionary = {
     productInfoTitle: "Informações do produto",
     productInfo: [
       ["Fornecedor", "{brand}"],
-      ["Formato", "Um documento PDF (3 páginas), baixado na tela logo após o pagamento."],
+      ["Formato", "Um documento PDF (7 páginas), baixado na tela logo após o pagamento."],
       ["Requisitos", "Qualquer aparelho que abra PDF. Não é preciso instalar nada nem criar conta."],
       ["Prazo de uso", "Sem limite. O arquivo baixado fica com você."],
       ["Novo download", "Até cinco vezes no mesmo pedido. Não guardamos nenhuma cópia, então ele não pode ser gerado outra vez depois que você sair da tela de resultado."],

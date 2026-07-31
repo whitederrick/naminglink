@@ -4,7 +4,7 @@ import { getCompanyInfo } from "@/lib/company-server";
 import { isLocale } from "@/lib/i18n";
 import { getLegalDocument, type LegalDocumentKey } from "@/lib/legal-content";
 import { getRequestLocale } from "@/lib/locale";
-import { getReportPrices } from "@/lib/report-product";
+import { getAllReportPrices } from "@/lib/report-product";
 
 // 약관·방침 본문을 팝업이 받아 가는 경로.
 //
@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
 
   const [company, prices] = await Promise.all([
     getCompanyInfo(),
-    getReportPrices(),
+    getAllReportPrices(),
   ]);
 
   return NextResponse.json({

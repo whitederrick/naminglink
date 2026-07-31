@@ -366,7 +366,8 @@ export const tr: Dictionary = {
   },
   report: {
     title: "Bu yorumu PDF olarak saklayın",
-    body: "Bu sonucu, ekranda görünmeyen element gücü değerleriyle birlikte üç sayfalık bir PDF belgesine dönüştürüyoruz.",
+    body:
+      "Bu sonucu 7 sayfalık bir PDF'e dönüştürüyoruz. **Bu sayfaların dördü ekranda hiç yok** — enerji hangi yöne akıyor, her iki haritaya daha yakından bakış, dört direğin buluştuğu yer ve hesabın nasıl yapıldığı.",
     buyButton: "{price} ödeyip indirin",
     preparing: "Henüz kullanılamıyor",
     ordering: "Siparişiniz oluşturuluyor…",
@@ -379,6 +380,10 @@ export const tr: Dictionary = {
       "1. sayfa — eşleşme oranı, bu eşleşmenin güçlü yanı ve dikkat edilecek yan",
       "2. sayfa — ilişkinin biçimi, on tanrı ve etkenlere göre puanlar",
       "3. sayfa — iki harita ve element gücü",
+          "4. sayfa — enerji hangi yöne akıyor ve dört direğin buluştuğu yer",
+      "5. sayfa — her iki haritaya daha yakından bakış (mevsimin öne ittiği)",
+      "6. sayfa — onun her direği sizin için nedir",
+      "7. sayfa — bu haritalar böyle hesaplandı",
     ],
     consentLabel:
       "Bu ürünün ödeme sonrası anında teslim edilen dijital içerik olduğunu ve **indirme tamamlandıktan sonra basit fikir değişikliğine dayalı cayma hakkının kısıtlandığını** anladım.",
@@ -386,7 +391,7 @@ export const tr: Dictionary = {
     productInfoTitle: "Ürün bilgileri",
     productInfo: [
       ["Sağlayıcı", "{brand}"],
-      ["Biçim", "Bir PDF belgesi (3 sayfa), ödemeden hemen sonra ekrandan indirilir."],
+      ["Biçim", "Bir PDF belgesi (7 sayfa), ödemeden hemen sonra ekrandan indirilir."],
       ["Gereksinimler", "PDF açabilen herhangi bir cihaz. Kurulum ya da hesap gerekmez."],
       ["Kullanım süresi", "Sınır yok. İndirdiğiniz dosya sizde kalır."],
       ["Yeniden indirme", "Aynı sipariş için en fazla beş kez. Dosyanın kopyasını saklamadığımız için sonuç ekranından ayrıldıktan sonra yeniden üretilemez."],

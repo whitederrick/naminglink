@@ -365,7 +365,8 @@ export const fr: Dictionary = {
   },
   report: {
     title: "Conservez cette lecture en PDF",
-    body: "Nous transformons ce résultat en un PDF de trois pages, incluant les valeurs de force des éléments qui ne sont pas affichées à l'écran.",
+    body:
+      "Nous transformons ce résultat en un PDF de 7 pages. **Quatre de ces pages ne figurent pas à l'écran** : le sens de circulation de l'énergie, un regard plus attentif sur chaque thème, là où les quatre piliers se rencontrent, et le détail du calcul.",
     buyButton: "Payer {price} et télécharger",
     preparing: "Pas encore disponible",
     ordering: "Création de votre commande…",
@@ -378,6 +379,10 @@ export const fr: Dictionary = {
       "Page 1 — taux de compatibilité, atouts du duo et points de vigilance",
       "Page 2 — la forme de la relation, les dix dieux et les scores par facteur",
       "Page 3 — les deux thèmes et la force des éléments",
+          "Page 4 — le sens de circulation de l'énergie et là où les quatre piliers se rencontrent",
+      "Page 5 — un regard plus attentif sur chaque thème (ce que la saison pousse en avant)",
+      "Page 6 — ce que chacun de ses piliers est pour vous",
+      "Page 7 — comment ces thèmes ont été calculés",
     ],
     consentLabel:
       "Je comprends qu'il s'agit d'un contenu numérique fourni immédiatement après le paiement, et que **le droit de rétractation pour simple changement d'avis est restreint une fois le téléchargement terminé**.",
@@ -385,7 +390,7 @@ export const fr: Dictionary = {
     productInfoTitle: "Informations sur le produit",
     productInfo: [
       ["Fournisseur", "{brand}"],
-      ["Format", "Un document PDF (3 pages), téléchargé à l'écran juste après le paiement."],
+      ["Format", "Un document PDF (7 pages), téléchargé à l'écran juste après le paiement."],
       ["Prérequis", "Tout appareil capable d'ouvrir un PDF. Aucune installation ni aucun compte requis."],
       ["Durée d'utilisation", "Sans limite. Le fichier téléchargé vous appartient."],
       ["Nouveau téléchargement", "Jusqu'à cinq fois pour la même commande. Nous n'en conservons aucune copie : le document ne peut donc plus être produit une fois l'écran de résultat quitté."],

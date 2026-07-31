@@ -365,7 +365,8 @@ export const vi: Dictionary = {
   },
   report: {
     title: "Giữ lại bản luận này dưới dạng PDF",
-    body: "Chúng tôi chuyển kết quả này thành một tệp PDF ba trang, gồm cả các chỉ số thế lực ngũ hành không hiện trên màn hình.",
+    body:
+      "Chúng tôi làm kết quả này thành tệp PDF 7 trang. **Bốn trang trong đó không có trên màn hình** — khí đi theo chiều nào, nhìn kỹ hơn vào lá số từng người, nơi bốn trụ gặp nhau, và cách tính.",
     buyButton: "Thanh toán {price} và tải về",
     preparing: "Chưa mở bán",
     ordering: "Đang tạo đơn hàng…",
@@ -378,6 +379,10 @@ export const vi: Dictionary = {
       "Trang 1 — tỉ lệ hợp, chỗ mạnh của cặp đôi và điều cần lưu ý",
       "Trang 2 — hình thái của mối quan hệ, thập thần và điểm theo từng mục",
       "Trang 3 — lá số của cả hai và thế lực ngũ hành",
+          "Trang 4 — khí đi theo chiều nào và nơi bốn trụ gặp nhau",
+      "Trang 5 — nhìn kỹ hơn vào lá số từng người (điều mùa tiết nâng đỡ)",
+      "Trang 6 — mỗi trụ của người ấy là gì với ta",
+      "Trang 7 — những lá số này được tính như thế nào",
     ],
     consentLabel:
       "Tôi hiểu đây là nội dung số được cung cấp ngay khi thanh toán, và **một khi việc tải về hoàn tất thì quyền rút lại đơn vì đơn thuần đổi ý sẽ bị hạn chế**.",
@@ -385,7 +390,7 @@ export const vi: Dictionary = {
     productInfoTitle: "Thông tin sản phẩm",
     productInfo: [
       ["Nhà cung cấp", "{brand}"],
-      ["Hình thức", "Một tệp PDF (3 trang), tải về ngay trên màn hình sau khi thanh toán."],
+      ["Hình thức", "Một tệp PDF (7 trang), tải về ngay trên màn hình sau khi thanh toán."],
       ["Yêu cầu", "Bất kỳ thiết bị nào mở được PDF. Không cần cài đặt hay tài khoản."],
       ["Thời hạn sử dụng", "Không giới hạn. Tệp đã tải về là của bạn."],
       ["Tải lại", "Tối đa năm lần trên cùng một đơn hàng. Chúng tôi không giữ bản sao, nên khi bạn rời màn hình kết quả thì không thể tạo lại."],

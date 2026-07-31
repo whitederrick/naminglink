@@ -364,7 +364,8 @@ export const es: Dictionary = {
   },
   report: {
     title: "Guarda esta lectura en PDF",
-    body: "Convertimos este resultado en un PDF de tres páginas, incluidas las cifras de fuerza elemental que no se muestran en pantalla.",
+    body:
+      "Convertimos este resultado en un PDF de 7 páginas. **Cuatro de esas páginas no están en pantalla**: hacia dónde fluye la energía, una mirada más atenta a cada carta, dónde se encuentran los cuatro pilares y cómo se calculó todo.",
     buyButton: "Pagar {price} y descargar",
     preparing: "Aún no disponible",
     ordering: "Creando tu pedido…",
@@ -377,6 +378,10 @@ export const es: Dictionary = {
       "Página 1: índice de compatibilidad, lo que juega a favor de la pareja y a qué prestar atención",
       "Página 2: la forma de la relación, los diez dioses y las puntuaciones por factor",
       "Página 3: ambas cartas y la fuerza de los elementos",
+          "Página 4: hacia dónde fluye la energía y dónde se encuentran los cuatro pilares",
+      "Página 5: una mirada más atenta a cada carta (lo que impulsa la estación)",
+      "Página 6: qué es para usted cada pilar del otro",
+      "Página 7: así se calcularon estas cartas",
     ],
     consentLabel:
       "Entiendo que se trata de contenido digital entregado de inmediato tras el pago y que **el desistimiento por simple cambio de opinión queda restringido una vez completada la descarga**.",
@@ -384,7 +389,7 @@ export const es: Dictionary = {
     productInfoTitle: "Información del producto",
     productInfo: [
       ["Proveedor", "{brand}"],
-      ["Formato", "Un documento PDF (3 páginas), descargado en pantalla justo después del pago."],
+      ["Formato", "Un documento PDF (7 páginas), descargado en pantalla justo después del pago."],
       ["Requisitos", "Cualquier dispositivo que abra un PDF. No hace falta instalación ni cuenta."],
       ["Plazo de uso", "Sin límite. El archivo que descargas es tuyo."],
       ["Nueva descarga", "Hasta cinco veces con el mismo pedido. No guardamos ninguna copia, por lo que no puede volver a generarse una vez que sales de la pantalla de resultados."],

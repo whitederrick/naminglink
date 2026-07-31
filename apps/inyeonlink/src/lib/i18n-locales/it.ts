@@ -364,7 +364,8 @@ export const it: Dictionary = {
   },
   report: {
     title: "Conserva questa lettura in PDF",
-    body: "Trasformiamo questo risultato in un PDF di tre pagine, comprensivo dei valori di forza degli elementi che non compaiono sullo schermo.",
+    body:
+      "Trasformiamo questo risultato in un PDF di 7 pagine. **Quattro di quelle pagine non sono a schermo**: in che direzione scorre l'energia, uno sguardo più attento a ciascun tema, dove si incontrano i quattro pilastri e come è stato calcolato.",
     buyButton: "Paga {price} e scarica",
     preparing: "Non ancora disponibile",
     ordering: "Creazione dell'ordine…",
@@ -377,6 +378,10 @@ export const it: Dictionary = {
       "Pagina 1 — tasso di compatibilità, punti di forza della coppia e aspetti a cui fare attenzione",
       "Pagina 2 — la forma della relazione, i dieci dei e i punteggi per fattore",
       "Pagina 3 — entrambe le carte e la forza degli elementi",
+          "Pagina 4 — in che direzione scorre l'energia e dove si incontrano i quattro pilastri",
+      "Pagina 5 — uno sguardo più attento a ciascun tema (ciò che la stagione spinge avanti)",
+      "Pagina 6 — che cosa è per lei ciascun pilastro dell'altro",
+      "Pagina 7 — come sono state calcolate queste carte",
     ],
     consentLabel:
       "Ho compreso che si tratta di contenuto digitale fornito immediatamente al momento del pagamento e che **il recesso per semplice ripensamento è limitato una volta completato il download**.",
@@ -384,7 +389,7 @@ export const it: Dictionary = {
     productInfoTitle: "Informazioni sul prodotto",
     productInfo: [
       ["Fornitore", "{brand}"],
-      ["Formato", "Un documento PDF (3 pagine), scaricato sullo schermo subito dopo il pagamento."],
+      ["Formato", "Un documento PDF (7 pagine), scaricato sullo schermo subito dopo il pagamento."],
       ["Requisiti", "Qualsiasi dispositivo in grado di aprire un PDF. Non servono installazioni né account."],
       ["Durata d'uso", "Nessun limite. Il file scaricato resta tuo."],
       ["Nuovo download", "Fino a cinque volte per lo stesso ordine. Non ne conserviamo alcuna copia, quindi non può essere rigenerato una volta usciti dalla schermata del risultato."],

@@ -6,7 +6,7 @@ import { getCompanyInfo } from "@/lib/company-server";
 import { getLegalDocument } from "@/lib/legal-content";
 import { getRequestLocale } from "@/lib/locale";
 import { buildPageMetadata } from "@/lib/seo";
-import { getReportPrices } from "@/lib/report-product";
+import { getAllReportPrices } from "@/lib/report-product";
 
 export async function generateMetadata({
   searchParams,
@@ -19,7 +19,7 @@ export async function generateMetadata({
         locale,
         "refund",
         await getCompanyInfo(),
-        await getReportPrices(),
+        await getAllReportPrices(),
       );
   return buildPageMetadata({
     path: "/refund-policy",
@@ -44,7 +44,7 @@ export default async function RefundPolicyPage({
         locale,
         "refund",
         await getCompanyInfo(),
-        await getReportPrices(),
+        await getAllReportPrices(),
       )}
       locale={locale}
       path="/refund-policy"

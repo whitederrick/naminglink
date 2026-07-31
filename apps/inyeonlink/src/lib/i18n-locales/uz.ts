@@ -366,7 +366,8 @@ export const uz: Dictionary = {
   },
   report: {
     title: "Bu talqinni PDF sifatida saqlang",
-    body: "Bu natijani uch sahifali PDF ga aylantiramiz; unga ekranda ko'rsatilmaydigan besh unsur kuchi raqamlari ham kiradi.",
+    body:
+      "Bu natijani 7 sahifalik PDF qilib beramiz. **Ularning to'rttasi ekranda umuman yo'q** — quvvat qaysi tomonga oqadi, har birining xaritasiga chuqurroq nazar, to'rt ustun uchrashadigan joy va hisob qanday yuritilgani.",
     buyButton: "{price} to'lab yuklab olish",
     preparing: "Hozircha mavjud emas",
     ordering: "Buyurtma yaratilmoqda…",
@@ -379,6 +380,10 @@ export const uz: Dictionary = {
       "1-sahifa — moslik darajasi, juftlikning kuchli tomoni va e'tibor beriladigan joylar",
       "2-sahifa — munosabatning shakli, o'n xudo va bo'limlar bo'yicha ballar",
       "3-sahifa — ikkala jadval va besh unsur kuchi",
+          "4-sahifa — quvvat qaysi tomonga oqadi va to'rt ustun uchrashadigan joy",
+      "5-sahifa — har birining xaritasiga chuqurroq nazar (fasl nimani oldinga suradi)",
+      "6-sahifa — uning har bir ustuni siz uchun nima",
+      "7-sahifa — bu xaritalar shunday hisoblandi",
     ],
     consentLabel:
       "Bu to'lovdan keyin darhol yetkaziladigan raqamli mahsulot ekanini va **yuklab olish tugagach, oddiy fikr o'zgarishi sababli tovardan voz kechish cheklanishini** tushundim.",
@@ -386,7 +391,7 @@ export const uz: Dictionary = {
     productInfoTitle: "Mahsulot ma'lumoti",
     productInfo: [
       ["Ishlab chiqaruvchi", "{brand}"],
-      ["Format", "Bitta PDF hujjat (3 sahifa), to'lovdan so'ng darhol ekrandan yuklab olinadi."],
+      ["Format", "Bitta PDF hujjat (7 sahifa), to'lovdan so'ng darhol ekrandan yuklab olinadi."],
       ["Talablar", "PDF ochadigan har qanday qurilma. O'rnatish yoki ro'yxatdan o'tish shart emas."],
       ["Foydalanish muddati", "Cheklovsiz. Yuklab olingan fayl sizda qoladi."],
       ["Qayta yuklab olish", "Bitta buyurtma bo'yicha besh martagacha. Biz nusxasini saqlamaymiz, shuning uchun natija ekranidan chiqib ketsangiz, uni qayta yaratib bo'lmaydi."],

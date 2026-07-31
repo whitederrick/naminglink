@@ -365,7 +365,8 @@ export const pl: Dictionary = {
   },
   report: {
     title: "Zachowaj ten odczyt jako PDF",
-    body: "Zamieniamy ten wynik w trzystronicowy PDF, razem z wartościami siły żywiołów, których nie ma na ekranie.",
+    body:
+      "Zamieniamy ten wynik w 7-stronicowy PDF. **Czterech z tych stron nie ma na ekranie** — w którą stronę płynie energia, bliższe spojrzenie na każdy wykres, tam gdzie spotykają się cztery filary, oraz sposób obliczeń.",
     buyButton: "Zapłać {price} i pobierz",
     preparing: "Jeszcze niedostępne",
     ordering: "Tworzymy zamówienie…",
@@ -378,6 +379,10 @@ export const pl: Dictionary = {
       "Strona 1 — wskaźnik dopasowania, co przemawia za tą parą i na co uważać",
       "Strona 2 — kształt relacji, dziesięć bogów i wyniki według czynników",
       "Strona 3 — oba układy Saju i siła żywiołów",
+          "Strona 4 — w którą stronę płynie energia i gdzie spotykają się cztery filary",
+      "Strona 5 — bliższe spojrzenie na każdy wykres (co popycha pora roku)",
+      "Strona 6 — czym jest dla Państwa każdy jego filar",
+      "Strona 7 — tak obliczono te wykresy",
     ],
     consentLabel:
       "Rozumiem, że jest to treść cyfrowa dostarczana natychmiast po płatności, oraz że **po zakończeniu pobierania odstąpienie z powodu zwykłej zmiany zdania jest ograniczone**.",
@@ -385,7 +390,7 @@ export const pl: Dictionary = {
     productInfoTitle: "Informacje o produkcie",
     productInfo: [
       ["Dostawca", "{brand}"],
-      ["Format", "Jeden dokument PDF (3 strony), pobierany na ekranie zaraz po płatności."],
+      ["Format", "Jeden dokument PDF (7 strony), pobierany na ekranie zaraz po płatności."],
       ["Wymagania", "Dowolne urządzenie otwierające PDF. Bez instalacji i bez konta."],
       ["Okres korzystania", "Bez ograniczeń. Pobrany plik zostaje u Ciebie."],
       ["Ponowne pobranie", "Do pięciu razy w ramach tego samego zamówienia. Nie przechowujemy kopii, więc po opuszczeniu ekranu wyniku nie da się jej odtworzyć."],

@@ -366,7 +366,8 @@ export const ms: Dictionary = {
   },
   report: {
     title: "Simpan bacaan ini sebagai PDF",
-    body: "Kami menukar keputusan ini menjadi PDF tiga halaman, termasuk angka kekuatan unsur yang tidak dipaparkan pada skrin.",
+    body:
+      "Kami menjadikan keputusan ini PDF 7 halaman. **Empat daripadanya tiada pada skrin** — ke arah mana tenaga mengalir, melihat carta masing-masing dengan lebih teliti, tempat empat tiang bertemu, dan cara pengiraannya.",
     buyButton: "Bayar {price} dan muat turun",
     preparing: "Belum tersedia",
     ordering: "Membuat pesanan anda…",
@@ -379,6 +380,10 @@ export const ms: Dictionary = {
       "Halaman 1 — kadar padanan, kelebihan pasangan ini dan perkara yang perlu diperhatikan",
       "Halaman 2 — bentuk hubungan, sepuluh dewa, dan skor mengikut faktor",
       "Halaman 3 — kedua-dua carta dan kekuatan unsur",
+          "Halaman 4 — ke arah mana tenaga mengalir dan tempat empat tiang bertemu",
+      "Halaman 5 — melihat carta masing-masing dengan lebih teliti (apa yang ditolak oleh musim)",
+      "Halaman 6 — apa erti setiap tiangnya bagi anda",
+      "Halaman 7 — begini carta-carta ini dikira",
     ],
     consentLabel:
       "Saya faham bahawa ini kandungan digital yang dihantar serta-merta selepas pembayaran, dan bahawa **penarikan diri kerana berubah fikiran adalah terhad sebaik muat turun selesai**.",
@@ -386,7 +391,7 @@ export const ms: Dictionary = {
     productInfoTitle: "Maklumat produk",
     productInfo: [
       ["Pembekal", "{brand}"],
-      ["Format", "Satu dokumen PDF (3 halaman), dimuat turun pada skrin sejurus selepas pembayaran."],
+      ["Format", "Satu dokumen PDF (7 halaman), dimuat turun pada skrin sejurus selepas pembayaran."],
       ["Keperluan", "Sebarang peranti yang boleh membuka PDF. Tiada pemasangan atau akaun diperlukan."],
       ["Tempoh penggunaan", "Tiada had. Fail yang anda muat turun kekal milik anda."],
       ["Muat turun semula", "Sehingga lima kali bagi pesanan yang sama. Kami tidak menyimpan salinan, jadi ia tidak boleh dihasilkan semula setelah anda meninggalkan skrin keputusan."],

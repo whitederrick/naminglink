@@ -30,6 +30,10 @@ export const LEGAL_PLACEHOLDERS = [
   "{email}",
   "{hostingProvider}",
   "{privacyOfficer}",
+  // 이름 없는 두 자리는 **궁합 가격**이다. 21로케일 번역이 이미 이 이름으로 쓰고 있어
+  // 뜻을 바꾸지 않았다(2026-07-31에 상품이 둘로 갈리면서 아래 두 자리를 더했다).
   "{priceDomestic}",
   "{priceGlobal}",
+  "{priceAffinityDomestic}",
+  "{priceAffinityGlobal}",
 ] as const;

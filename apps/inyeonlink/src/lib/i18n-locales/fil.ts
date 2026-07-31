@@ -365,7 +365,8 @@ export const fil: Dictionary = {
   },
   report: {
     title: "Itago ang pagbasang ito bilang PDF",
-    body: "Ginagawa naming tatlong pahinang PDF ang resultang ito, kasama ang mga numero ng lakas ng elemento na hindi lumalabas sa screen.",
+    body:
+      "Ginagawa naming 7-pahinang PDF ang resultang ito. **Apat sa mga pahinang iyon ay wala sa screen** — kung saang direksyon dumadaloy ang enerhiya, mas malapitang tingin sa bawat tsart, kung saan nagtatagpo ang apat na haligi, at kung paano ito kinalkula.",
     buyButton: "Bayaran ang {price} at i-download",
     preparing: "Hindi pa available",
     ordering: "Ginagawa ang order mo…",
@@ -378,6 +379,10 @@ export const fil: Dictionary = {
       "Pahina 1 — match rate, ang lakas ng pagsasama, at ang dapat bantayan",
       "Pahina 2 — ang hugis ng relasyon, ang sampung diyos, at ang iskor kada bahagi",
       "Pahina 3 — ang Saju ninyong dalawa at ang lakas ng mga elemento",
+          "Pahina 4 — kung saang direksyon dumadaloy ang enerhiya at kung saan nagtatagpo ang apat na haligi",
+      "Pahina 5 — mas malapitang tingin sa bawat tsart (ang itinutulak ng panahon)",
+      "Pahina 6 — ano ang bawat haligi niya para sa inyo",
+      "Pahina 7 — ganito kinalkula ang mga tsart na ito",
     ],
     consentLabel:
       "Nauunawaan kong digital content ito na ibinibigay agad pagkatapos ng bayad, at na **limitado ang pag-urong dahil lang sa pagbabago ng isip kapag natapos na ang download**.",
@@ -385,7 +390,7 @@ export const fil: Dictionary = {
     productInfoTitle: "Impormasyon ng produkto",
     productInfo: [
       ["Tagapagbigay", "{brand}"],
-      ["Anyo", "Isang PDF na dokumento (3 pahina), ida-download sa screen agad pagkatapos ng bayad."],
+      ["Anyo", "Isang PDF na dokumento (7 pahina), ida-download sa screen agad pagkatapos ng bayad."],
       ["Kailangan", "Kahit anong device na makakabukas ng PDF. Walang i-install, walang account."],
       ["Panahon ng paggamit", "Walang hangganan. Sa iyo ang file na na-download mo."],
       ["Muling pag-download", "Hanggang limang beses sa iisang order. Wala kaming itinatagong kopya, kaya hindi na ito magagawang muli kapag umalis ka sa screen ng resulta."],

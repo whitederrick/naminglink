@@ -365,7 +365,8 @@ export const de: Dictionary = {
   },
   report: {
     title: "Diese Deutung als PDF behalten",
-    body: "Wir machen aus diesem Ergebnis ein dreiseitiges PDF, einschließlich der Zahlen zur Elementstärke, die auf dem Bildschirm nicht zu sehen sind.",
+    body:
+      "Wir machen aus diesem Ergebnis ein PDF mit 7 Seiten. **Vier davon stehen nirgends auf dem Bildschirm** — in welche Richtung die Energie fließt, ein genauerer Blick auf beide Karten, wo die vier Säulen sich treffen, und wie gerechnet wurde.",
     buyButton: "{price} zahlen und laden",
     preparing: "Noch nicht verfügbar",
     ordering: "Bestellung wird erstellt…",
@@ -378,6 +379,10 @@ export const de: Dictionary = {
       "Seite 1 — Übereinstimmungsrate, was für das Paar spricht und worauf zu achten ist",
       "Seite 2 — die Form der Beziehung, die Zehn Götter und die Werte nach Faktor",
       "Seite 3 — beide Saju-Tafeln und die Stärke der Elemente",
+          "Seite 4 — in welche Richtung die Energie fließt und wo die vier Säulen sich treffen",
+      "Seite 5 — ein genauerer Blick auf beide Karten (was die Jahreszeit voranbringt)",
+      "Seite 6 — was jede seiner Säulen für Sie ist",
+      "Seite 7 — so wurden diese Karten berechnet",
     ],
     consentLabel:
       "Mir ist bekannt, dass dies ein digitaler Inhalt ist, der sofort nach der Zahlung geliefert wird, und dass **der Widerruf wegen einfacher Meinungsänderung eingeschränkt ist, sobald der Download abgeschlossen ist**.",
@@ -385,7 +390,7 @@ export const de: Dictionary = {
     productInfoTitle: "Produktinformationen",
     productInfo: [
       ["Anbieter", "{brand}"],
-      ["Format", "Ein PDF-Dokument (3 Seiten), unmittelbar nach der Zahlung auf dem Bildschirm herunterzuladen."],
+      ["Format", "Ein PDF-Dokument (7 Seiten), unmittelbar nach der Zahlung auf dem Bildschirm herunterzuladen."],
       ["Voraussetzungen", "Ein beliebiges Gerät, das PDF öffnet. Keine Installation, kein Konto nötig."],
       ["Nutzungsdauer", "Unbegrenzt. Die heruntergeladene Datei behalten Sie."],
       ["Erneuter Download", "Bis zu fünfmal je Bestellung. Wir bewahren keine Kopie auf, deshalb kann die Datei nach dem Verlassen der Ergebnisseite nicht erneut erstellt werden."],

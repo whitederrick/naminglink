@@ -816,7 +816,7 @@ const ko: Dictionary = {
   },
   report: {
     title: "궁합 리포트 PDF로 간직하기",
-    body: "화면의 결과를 3장짜리 PDF로 만들어 드립니다. 화면에 없는 오행 세력 수치까지 담깁니다.",
+    body: "화면의 결과를 7장짜리 PDF로 만들어 드립니다. **화면에 없는 것이 네 장 더 들어갑니다** — 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거입니다.",
     buyButton: "{price} 결제하고 받기",
     preparing: "준비 중입니다",
     ordering: "주문을 만드는 중…",
@@ -829,6 +829,10 @@ const ko: Dictionary = {
       "1장 — 매칭률과 이 관계의 강점·눈여겨볼 점",
       "2장 — 관계의 모양과 십신, 항목별 점수",
       "3장 — 두 사람의 사주 원국과 오행 세력",
+      "4장 — 두 기운이 오가는 방향과 네 기둥이 만나는 자리",
+      "5장 — 각자의 사주를 더 들여다봅니다(계절이 밀어 주는 기운)",
+      "6장 — 상대의 네 기둥은 나에게 무엇인가",
+      "7장 — 이 사주를 이렇게 계산했습니다",
     ],
     consentLabel:
       "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
@@ -836,7 +840,7 @@ const ko: Dictionary = {
     productInfoTitle: "상품 정보 고시",
     productInfo: [
       ["제작·공급자", "{brand}"],
-      ["상품 형태", "PDF 문서 1개(3장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["상품 형태", "PDF 문서 1개(7장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -1432,7 +1436,7 @@ const en: Dictionary = {
   },
   report: {
     title: "Keep this reading as a PDF",
-    body: "We turn this result into a three-page PDF, including the elemental strength figures that are not shown on screen.",
+    body: "We turn this result into a seven-page PDF. **Four of those pages are not on screen at all** - which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated.",
     buyButton: "Pay {price} and download",
     preparing: "Not available yet",
     ordering: "Creating your order…",
@@ -1445,6 +1449,10 @@ const en: Dictionary = {
       "Page 1 — match rate, what the pairing has going for it and what to watch",
       "Page 2 — the shape of the relationship, the ten gods, and scores by factor",
       "Page 3 — both charts and elemental strength",
+      "Page 4 — which way the energy flows, and where the four pillars meet",
+      "Page 5 — a closer look at each chart (what the season pushes forward)",
+      "Page 6 — what each of their pillars is to you",
+      "Page 7 — how these charts were calculated",
     ],
     consentLabel:
       "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
@@ -1452,7 +1460,7 @@ const en: Dictionary = {
     productInfoTitle: "Product information",
     productInfo: [
       ["Provider", "{brand}"],
-      ["Format", "One PDF document (3 pages), downloaded on screen right after payment."],
+      ["Format", "One PDF document (7 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
       ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],

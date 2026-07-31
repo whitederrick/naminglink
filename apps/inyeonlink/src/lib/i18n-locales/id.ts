@@ -365,7 +365,8 @@ export const id: Dictionary = {
   },
   report: {
     title: "Simpan pembacaan ini sebagai PDF",
-    body: "Kami mengubah hasil ini menjadi PDF tiga halaman, lengkap dengan angka kekuatan unsur yang tidak ditampilkan di layar.",
+    body:
+      "Kami mengubah hasil ini menjadi PDF 7 halaman. **Empat di antaranya tidak ada di layar** — ke arah mana energi mengalir, melihat lebih dekat bagan masing-masing, tempat keempat pilar bertemu, dan cara menghitungnya.",
     buyButton: "Bayar {price} dan unduh",
     preparing: "Belum tersedia",
     ordering: "Membuat pesanan Anda…",
@@ -378,6 +379,10 @@ export const id: Dictionary = {
       "Halaman 1 — tingkat kecocokan, kelebihan pasangan ini dan hal yang perlu dicermati",
       "Halaman 2 — bentuk hubungan, sepuluh dewa, dan nilai per faktor",
       "Halaman 3 — kedua bagan dan kekuatan unsur",
+          "Halaman 4 — ke arah mana energi mengalir dan tempat keempat pilar bertemu",
+      "Halaman 5 — melihat lebih dekat bagan masing-masing (apa yang didorong oleh musim)",
+      "Halaman 6 — apa arti setiap pilarnya bagi Anda",
+      "Halaman 7 — begini bagan-bagan ini dihitung",
     ],
     consentLabel:
       "Saya memahami bahwa ini adalah konten digital yang diberikan segera setelah pembayaran, dan bahwa **pembatalan karena sekadar berubah pikiran menjadi terbatas begitu unduhan selesai**.",
@@ -385,7 +390,7 @@ export const id: Dictionary = {
     productInfoTitle: "Informasi produk",
     productInfo: [
       ["Penyedia", "{brand}"],
-      ["Format", "Satu dokumen PDF (3 halaman), diunduh di layar segera setelah pembayaran."],
+      ["Format", "Satu dokumen PDF (7 halaman), diunduh di layar segera setelah pembayaran."],
       ["Persyaratan", "Perangkat apa pun yang dapat membuka PDF. Tanpa instalasi atau akun."],
       ["Masa penggunaan", "Tanpa batas. Berkas yang Anda unduh menjadi milik Anda."],
       ["Unduh ulang", "Hingga lima kali pada pesanan yang sama. Kami tidak menyimpan salinannya, jadi berkas tidak dapat dibuat lagi setelah Anda meninggalkan layar hasil."],
