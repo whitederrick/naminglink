@@ -1,5 +1,6 @@
 import path from "node:path";
 
+import React from "react";
 import { Font } from "@react-pdf/renderer";
 import {
   makeMixedText,
@@ -56,17 +57,22 @@ Font.register({
   fonts: [{ src: fontPath("NotoSansDevanagari-Regular.ttf"), fontWeight: 400 }],
 });
 
-// **아랍어와 크메르어는 일부러 등록하지 않는다.** 파일은 `assets/fonts/`에 있다.
+// **아랍어와 크메르어는 등록하지 않는다.** 파일은 `assets/fonts/`에 있다.
 //
-// 등록하면 `@react-pdf/textkit`이 렌더 도중 죽는다(2026-07-31 실측).
-//   ar  reorderLine에서 `Cannot read properties of undefined (reading 'id')` — 양방향 재정렬
-//   km  `Cannot read properties of null (reading 'xCoordinate')` — 크메르 결합 문자 셰이핑
-// 우리 코드가 아니라 라이브러리 쪽 한계다. 등록을 빼면 예전처럼 글리프 없이 렌더되고,
-// 등록하면 **PDF가 아예 안 나온다** — 결제까지 끝낸 이용자에게는 후자가 더 나쁘다.
+// 등록하면 `@react-pdf/textkit`이 렌더 도중 죽는다. 2026-07-31에 원인까지 좁혔다.
 //
-// 어느 쪽이든 이 두 로케일에 유료 리포트를 팔 수 없다는 뜻이다. 해외 판매를 켜기 전에
-// 해결해야 하고, 그때까지는 이 두 로케일의 구매를 막는 편이 옳다.
-// 되살리려면 라이브러리를 올리거나 문자 체계별로 렌더를 갈라야 한다.
+//   ar  `reorderLine`(양방향 재정렬)에서 터진다. **줄바꿈이 일어나는 아랍어 문단이면
+//       무조건이다.** 한 줄에 들어가는 짧은 문자열은 앞에 RLM(U+200F)을 붙이면 살아나지만,
+//       문단이 두 줄이 되는 순간 그 처방도 듣지 않는다. 한자를 빼도 마찬가지다.
+//   km  `xCoordinate`가 null이 된다(결합 문자 셰이핑).
+//
+// **우리 코드가 아니다.** naminglink는 이 둘을 등록해 두었는데, 거기서도 같은 조건이면
+// 똑같이 죽는다(실측). 다만 그쪽은 아랍어로 PDF를 뽑아 본 적이 없어 드러나지 않았을 뿐이다.
+// `@react-pdf/renderer`는 이미 최신(4.5.1)이라 올릴 버전도 없다.
+//
+// 등록을 빼면 예전처럼 글리프 없이 렌더되고, 등록하면 **PDF가 아예 안 나온다** —
+// 결제까지 끝낸 이용자에게는 후자가 더 나쁘다. 해외 판매를 켜기 전에 둘 중 하나를 해야 한다:
+// 이 두 로케일의 리포트를 영어로 내보내거나, 두 로케일의 구매를 막거나.
 
 // @react-pdf는 기본 하이픈 규칙으로 **단어를 아무 데서나 끊는다.** 하이픈도 없이 "characters"가
 // "c / haracters"로 갈리는 식이라, 영어 문단이 길어지면 눈에 띄게 지저분해진다. 단어를 쪼개지
@@ -84,13 +90,25 @@ const REGISTERED = [
   // arabic·khmer는 위 주석대로 등록하지 않는다. 여기 적으면 없는 폰트를 가리킨다.
 ] as const;
 
+const RawMixedText = makeMixedText({ registeredFamilies: REGISTERED });
+
 /**
  * 문자 체계가 섞인 문자열을 구간별 폰트로 렌더한다.
  *
  * 등록하지 않은 문자 체계가 들어와도 기본 폰트로 되돌려 참조 자체는 깨지지 않는다. 다만
  * 기본 폰트에 글리프가 없으면 화면에는 결국 안 나오므로, 새 로케일을 더할 때는 **문자
  * 체계가 위 목록에 있는지 반드시 확인할 것.**
+ *
+ * **여기서 `**` 표기를 걷어낸다.** 사전 문구의 강조는 화면용 표기라 PDF에서는 뜻이 없다.
+ * 리포트 곳곳에서 `plain()`으로 걷어내고 있었지만 **호출하는 자리에서만** 걸렸다 — 143곳을
+ * 일일이 감싸는 대신 모두가 지나가는 이 자리에서 한 번 처리한다. 새 문구를 추가할 때
+ * 별표를 빠뜨려도 안전하다.
+ *
+ * (아랍어 조사 중에 별표가 RTL 재정렬을 깨뜨리는 것을 발견해 여기로 올렸다. 다만 별표를
+ * 걷어내도 **줄바꿈이 일어나는 아랍어 문단은 여전히 죽는다** — 위 주석 참고.)
  */
-export const MixedText = makeMixedText({ registeredFamilies: REGISTERED });
+export function MixedText(props: React.ComponentProps<typeof RawMixedText>) {
+  return <RawMixedText {...props} text={props.text.replace(/\*\*/g, "")} />;
+}
 
 export { SCRIPT_FAMILY };
