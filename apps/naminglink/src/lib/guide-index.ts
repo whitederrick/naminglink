@@ -103,6 +103,14 @@ export const guideEntries: GuideEntry[] = [
     audience: "ko",
   },
   {
+    slug: "what-we-sell",
+    title: "유료 상품에는 무엇이 들어가나",
+    summary:
+      "무료로 어디까지 보이고, 돈을 내면 무엇이 더 오는지 상품별로 밝힙니다. 값은 실제 상품 설정에서 읽어 옵니다.",
+    eyebrow: "유료 상품",
+    audience: "ko",
+  },
+  {
     slug: "korean-name-basis",
     title: "How we build your Korean name",
     summary:
@@ -116,6 +124,14 @@ export const guideEntries: GuideEntry[] = [
     summary:
       "We carry the sound of your name into Hangul — not its meaning. Here is what we follow and what we deliberately avoid.",
     eyebrow: "How it works",
+    audience: "global",
+  },
+  {
+    slug: "what-you-can-buy",
+    title: "What the paid products contain",
+    summary:
+      "How far the free result goes, and what paying actually adds. Prices are read from the live product settings.",
+    eyebrow: "Paid products",
     audience: "global",
   },
 ];

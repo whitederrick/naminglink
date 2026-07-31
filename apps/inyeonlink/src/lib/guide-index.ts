@@ -96,6 +96,14 @@ export const guideEntries: GuideEntry[] = [
     audience: "ko",
   },
   {
+    slug: "reports",
+    title: "유료 리포트에는 무엇이 들어가나",
+    summary:
+      "화면은 그대로 두고 PDF에만 더한 것이 무엇인지 장 단위로 밝힙니다. 값과 목차는 실제 상품 설정에서 읽어 옵니다.",
+    eyebrow: "유료 상품",
+    audience: "ko",
+  },
+  {
     slug: "how-it-works",
     title: "How we calculate compatibility",
     summary:
@@ -109,6 +117,14 @@ export const guideEntries: GuideEntry[] = [
     summary:
       "Nothing you type is written down. Here is what that means technically, and what a result link actually carries.",
     eyebrow: "Privacy",
+    audience: "global",
+  },
+  {
+    slug: "what-the-reports-contain",
+    title: "What is in the paid reports",
+    summary:
+      "The screen stays as it is; the PDF adds to it. Here is what each page carries, chapter by chapter. Prices and contents are read from the live product settings.",
+    eyebrow: "Paid products",
     audience: "global",
   },
 ];

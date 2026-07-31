@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { guideEntries } from "@/lib/guide-index";
 import { getServiceCopy } from "@/lib/i18n";
 import { supportedLocales, type Locale } from "@/lib/services";
 import { localePath } from "@/lib/locale-path";
@@ -24,8 +25,13 @@ export const siteUrl = (
  * 여기에 없는 것: 결과 화면(각 서비스의 result 라우트 — 1회용 조회 ID라 남에게 의미가 없다),
  * 계정·로그인(개인 화면), 운영자 화면(naming-artist 하위), API.
  * 새 공개 페이지를 만들면 여기에 더해야 sitemap에 들어간다.
+ *
+ * **안내 문서는 손으로 적지 않는다.** `guide-index.ts`에서 받아 온다 — 문서를 더할 때 이
+ * 파일을 함께 고쳐야 한다면 언젠가 한쪽만 고쳐지고, 그 문서는 sitemap에 없는 채로 남는다.
+ * 실제로 그랬다: 안내 문서 열한 편을 애드센스용 콘텐츠로 만들어 두고 **한 편도 sitemap에
+ * 넣지 않았다**(2026-07-31에 발견). 인연링크는 처음부터 이 방식이었다.
  */
-export const indexablePaths = [
+const staticPaths = [
   "/",
   "/hanja-meaning",
   "/korean-to-global",
@@ -37,7 +43,13 @@ export const indexablePaths = [
   "/refund-policy",
 ] as const;
 
-export type IndexablePath = (typeof indexablePaths)[number];
+export const indexablePaths: readonly string[] = [
+  ...staticPaths,
+  "/guide",
+  ...guideEntries.map((entry) => `/guide/${entry.slug}`),
+];
+
+export type IndexablePath = (typeof staticPaths)[number];
 
 /**
  * **쿼리가 둘 이상인 주소는 sitemap에 넣지 말 것.**
