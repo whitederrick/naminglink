@@ -1,3 +1,4 @@
+import { matchDetail, type MatchDetail } from "./detail";
 import { prepare, toReading, type PersonReading } from "./prepare";
 import { mutualRelation, type MutualRelation } from "./relations";
 import { sajuEngine } from "./saju";
@@ -13,6 +14,13 @@ import { zodiacEngine } from "./zodiac";
 
 export * from "./types";
 export * from "./affinity";
+export type {
+  MatchDetail,
+  PillarBranchRelation,
+  PillarKey,
+  StemGod,
+} from "./detail";
+export type { DayMasterBond } from "./relations";
 export type { PersonReading } from "./prepare";
 export type { MutualRelation, RelationShape } from "./relations";
 export { BRANCH_ANIMALS } from "./branches";
@@ -37,8 +45,13 @@ export { BRANCH_ANIMALS } from "./branches";
  * v9: 오행 항목을 균형도에서 억부용신 기반 보완도로 바꾼다. "둘을 합쳐 고른가"가 아니라
  *     "상대가 내게 필요한 것을 갖고 있는가"를 양방향으로 재고 평균한다. 각자의 신강·신약과
  *     필요한 오행이 읽을거리로 함께 나간다.
+ * v10: **점수 규칙은 v9와 완전히 같다.** 총점도 항목 점수도 바뀌지 않는다(v4가 같은 이유로
+ *     번호를 올렸다). 지금까지 계산 과정에서 나왔다가 버려지던 값과, 규칙은 있는데 적용하지
+ *     않던 자리를 결과에 함께 싣는다 — 방향별 보완 점수, 일간 짝의 이름, 네 기둥의 지지 관계,
+ *     상대 네 기둥 천간의 십신, 진태양시 보정 내역, 왕상휴수사, 월령 전후 세력.
+ *     유료 리포트가 쓰는 재료이고 화면은 예전 그대로다.
  */
-export const ENGINE_VERSION = "inyeonlink-match-v9";
+export const ENGINE_VERSION = "inyeonlink-match-v10";
 
 /**
  * 엔진별 비중.
@@ -76,6 +89,14 @@ export type MatchOutcome = {
   /** 두 일간이 서로에게 무엇인가(십신)와 관계의 모양 */
   relation: MutualRelation;
   highlights: Highlights;
+  /**
+   * 유료 리포트에만 쓰는 심화 자료(`./detail`).
+   *
+   * **화면은 이 값을 그리지 않는다.** 무료 화면을 얇게 만들지 않고 리포트에만 더한다는
+   * 결정이라(2026-07-31 사용자), 화면 코드는 예전 그대로 두고 여기만 늘렸다.
+   * 점수에는 관여하지 않는다 — 총점은 v9와 완전히 같다.
+   */
+  detail: MatchDetail;
 };
 
 /**
@@ -108,6 +129,7 @@ export function runMatch(a: Person, b: Person): MatchOutcome {
     people: [toReading(preparedA), toReading(preparedB)],
     relation: mutualRelation(preparedA, preparedB),
     highlights: pickHighlights(engines),
+    detail: matchDetail(preparedA, preparedB),
   };
 }
 
