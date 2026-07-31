@@ -399,6 +399,8 @@ export const de: Dictionary = {
     ],
     refundContact:
       "Für Erstattungen oder Fragen wenden Sie sich an den Kundendienst oder die E-Mail-Adresse unten. Wenn das Dokument nicht erstellt werden konnte oder der belastete Betrag von der Bestellung abweicht, erstatten wir vollständig.",
+    pdfLanguageNotice:
+      "Das PDF wird in derselben Sprache wie dieser Bildschirm erstellt.",
   },
   affinityReport: {
     title: "Ihr Beziehungsprofil als PDF behalten",
@@ -432,6 +434,8 @@ export const de: Dictionary = {
     ],
     refundContact:
       "Für Erstattungen oder Fragen wenden Sie sich an den Support oder die E-Mail-Adresse unten. Wenn das Dokument nie erstellt wurde oder der belastete Betrag von der Bestellung abweicht, erstatten wir vollständig.",
+    pdfLanguageNotice:
+      "Das PDF wird in derselben Sprache wie dieser Bildschirm erstellt.",
   },
   reportDetail: {
     supplyTitle: "In welche Richtung die Energie fließt",

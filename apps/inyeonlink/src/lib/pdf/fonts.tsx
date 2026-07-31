@@ -7,6 +7,8 @@ import {
   SCRIPT_FAMILY,
 } from "@naminglink/core/pdf/script-runs";
 
+import type { Locale } from "@/lib/i18n";
+
 // 리포트가 나가는 문자 체계를 등록한다. **아랍어·크메르어만 빠져 있다**(아래 사연 참고).
 //
 // **한동안 한글·한자·라틴 셋만 등록돼 있었다.** 화면 문구가 ko·en뿐이던 시절의 설정인데,
@@ -70,9 +72,9 @@ Font.register({
 // 똑같이 죽는다(실측). 다만 그쪽은 아랍어로 PDF를 뽑아 본 적이 없어 드러나지 않았을 뿐이다.
 // `@react-pdf/renderer`는 이미 최신(4.5.1)이라 올릴 버전도 없다.
 //
-// 등록을 빼면 예전처럼 글리프 없이 렌더되고, 등록하면 **PDF가 아예 안 나온다** —
-// 결제까지 끝낸 이용자에게는 후자가 더 나쁘다. 해외 판매를 켜기 전에 둘 중 하나를 해야 한다:
-// 이 두 로케일의 리포트를 영어로 내보내거나, 두 로케일의 구매를 막거나.
+// **그래서 이 두 로케일의 리포트는 영어로 낸다**(2026-07-31 사용자 결정, `pdfLocale`).
+// 화면은 그대로 아랍어·크메르어이고 PDF만 영어다. 파는 기회를 아예 닫는 것보다 낫고,
+// 결제 화면에서 미리 고지한다.
 
 // @react-pdf는 기본 하이픈 규칙으로 **단어를 아무 데서나 끊는다.** 하이픈도 없이 "characters"가
 // "c / haracters"로 갈리는 식이라, 영어 문단이 길어지면 눈에 띄게 지저분해진다. 단어를 쪼개지
@@ -112,3 +114,26 @@ export function MixedText(props: React.ComponentProps<typeof RawMixedText>) {
 }
 
 export { SCRIPT_FAMILY };
+
+/**
+ * PDF를 어느 언어로 낼 것인가.
+ *
+ * 보통은 화면과 같은 언어다. **아랍어·크메르어만 영어로 낸다** — 위 주석대로 그 두 문자
+ * 체계는 서체를 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 이용자가 결제하고도
+ * 파일을 못 받는다.
+ *
+ * 화면은 건드리지 않는다. 이 함수는 **PDF를 만들 때만** 부른다.
+ *
+ * 라이브러리가 고쳐지면 이 목록을 비우는 것으로 되돌린다 — 그래서 판단을 함수 하나에
+ * 가둬 두었다. 지금은 `report/pdf` 라우트 한 곳이 부른다.
+ */
+const PDF_FALLBACK_TO_EN = new Set<string>(["ar", "km"]);
+
+export function pdfLocale(locale: Locale): Locale {
+  return PDF_FALLBACK_TO_EN.has(locale) ? "en" : locale;
+}
+
+/** 이 화면 언어의 PDF가 다른 언어로 나가는가. 구매 화면의 고지 문구를 켜는 데 쓴다. */
+export function pdfLanguageDiffers(locale: Locale): boolean {
+  return PDF_FALLBACK_TO_EN.has(locale);
+}

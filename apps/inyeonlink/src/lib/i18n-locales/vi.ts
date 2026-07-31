@@ -399,6 +399,8 @@ export const vi: Dictionary = {
     ],
     refundContact:
       "Về hoàn tiền hay thắc mắc, xin liên hệ trung tâm hỗ trợ khách hàng hoặc email bên dưới. Nếu tài liệu không được tạo ra, hoặc số tiền bị trừ khác với đơn hàng, chúng tôi hoàn tiền toàn bộ.",
+    pdfLanguageNotice:
+      "Tệp PDF được tạo bằng cùng ngôn ngữ với màn hình này.",
   },
   affinityReport: {
     title: "Giữ lại nét duyên của bạn dưới dạng PDF",
@@ -432,6 +434,8 @@ export const vi: Dictionary = {
     ],
     refundContact:
       "Về hoàn tiền hay thắc mắc, xin liên hệ bộ phận hỗ trợ hoặc email bên dưới. Nếu tài liệu chưa từng được tạo ra, hoặc số tiền bị trừ khác với đơn hàng, chúng tôi hoàn tiền toàn bộ.",
+    pdfLanguageNotice:
+      "Tệp PDF được tạo bằng cùng ngôn ngữ với màn hình này.",
   },
   reportDetail: {
     supplyTitle: "Khí đi theo chiều nào",

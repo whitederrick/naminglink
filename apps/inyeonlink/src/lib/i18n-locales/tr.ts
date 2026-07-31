@@ -400,6 +400,8 @@ export const tr: Dictionary = {
     ],
     refundContact:
       "İade ve sorularınız için aşağıdaki müşteri hizmetlerine ya da e-posta adresine yazın. Belge üretilemediyse ya da tahsil edilen tutar siparişten farklıysa tamamını iade ederiz.",
+    pdfLanguageNotice:
+      "PDF, bu ekranla aynı dilde oluşturulur.",
   },
   affinityReport: {
     title: "Eşleşme profilinizi PDF olarak saklayın",
@@ -433,6 +435,8 @@ export const tr: Dictionary = {
     ],
     refundContact:
       "İade ve sorularınız için aşağıdaki destek hattına ya da e-posta adresine yazın. Belge hiç üretilmediyse ya da tahsil edilen tutar siparişten farklıysa tamamını iade ederiz.",
+    pdfLanguageNotice:
+      "PDF, bu ekranla aynı dilde oluşturulur.",
   },
   reportDetail: {
     supplyTitle: "Enerji hangi yöne akıyor",

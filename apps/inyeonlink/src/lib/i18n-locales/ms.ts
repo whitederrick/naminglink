@@ -400,6 +400,8 @@ export const ms: Dictionary = {
     ],
     refundContact:
       "Untuk bayaran balik atau pertanyaan, hubungi khidmat pelanggan atau e-mel di bawah. Jika dokumen itu tidak dapat dihasilkan, atau jumlah yang dicaj berbeza daripada pesanan, kami memulangkan wang sepenuhnya.",
+    pdfLanguageNotice:
+      "PDF dihasilkan dalam bahasa yang sama dengan skrin ini.",
   },
   affinityReport: {
     title: "Simpan profil padanan anda sebagai PDF",
@@ -433,6 +435,8 @@ export const ms: Dictionary = {
     ],
     refundContact:
       "Untuk bayaran balik atau pertanyaan, hubungi meja sokongan atau e-mel di bawah. Jika dokumen itu tidak pernah dihasilkan, atau jumlah yang dicaj berbeza daripada pesanan, kami memulangkan wang sepenuhnya.",
+    pdfLanguageNotice:
+      "PDF dihasilkan dalam bahasa yang sama dengan skrin ini.",
   },
   reportDetail: {
     supplyTitle: "Ke arah mana tenaga mengalir",

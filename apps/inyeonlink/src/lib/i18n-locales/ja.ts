@@ -397,6 +397,8 @@ export const ja: Dictionary = {
     ],
     refundContact:
       "返金・お問い合わせは下記のカスタマーセンターまたはメールへお寄せください。文書が作成されなかった場合や、決済金額が注文と異なる場合は全額返金いたします。",
+    pdfLanguageNotice:
+      "PDFはこの画面と同じ言語で作成されます。",
   },
   affinityReport: {
     title: "ご縁のかたちリポートをPDFで残す",
@@ -430,6 +432,8 @@ export const ja: Dictionary = {
     ],
     refundContact:
       "返金・お問い合わせは下記のカスタマーセンターまたはメールへお寄せください。文書が作成されなかった場合や、決済金額が注文と異なる場合は全額返金いたします。",
+    pdfLanguageNotice:
+      "PDFはこの画面と同じ言語で作成されます。",
   },
   reportDetail: {
     supplyTitle: "気の流れる向き",

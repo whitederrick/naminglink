@@ -4,6 +4,7 @@ import { z } from "zod";
 import { affinityInputSchema } from "@/lib/affinity-input";
 import { runAffinity, runMatch } from "@/lib/engines";
 import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18n";
+import { pdfLocale } from "@/lib/pdf/fonts";
 import { matchInputSchema, toPerson } from "@/lib/match-input";
 import { renderAffinityReport } from "@/lib/pdf/affinity-report";
 import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
@@ -125,7 +126,11 @@ export async function POST(request: NextRequest) {
       return jsonError("REISSUE_LIMIT_REACHED", 429);
     }
 
-    const locale = isLocale(parsed.data.locale) ? parsed.data.locale : "en";
+    const requested = isLocale(parsed.data.locale) ? parsed.data.locale : "en";
+    // 아랍어·크메르어는 PDF만 영어로 낸다. 화면 언어는 그대로다 — 그 두 문자 체계는 서체를
+    // 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 결제하고도 파일을 못 받는다
+    // (`lib/pdf/fonts.tsx`에 증상과 사연이 있다).
+    const locale = pdfLocale(requested);
     const dictionary = getDictionary(locale);
     const buffer = await render(parsed.data, locale, dictionary);
 

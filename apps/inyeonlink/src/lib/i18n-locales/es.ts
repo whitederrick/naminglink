@@ -398,6 +398,8 @@ export const es: Dictionary = {
     ],
     refundContact:
       "Para reembolsos o consultas, ponte en contacto con el centro de atención al cliente o el correo de abajo. Si el documento no pudo generarse, o el importe cobrado difiere del pedido, reembolsamos el total.",
+    pdfLanguageNotice:
+      "El PDF se genera en el mismo idioma que esta pantalla.",
   },
   affinityReport: {
     title: "Guarda tu perfil de afinidad en PDF",
@@ -431,6 +433,8 @@ export const es: Dictionary = {
     ],
     refundContact:
       "Para reembolsos o consultas, ponte en contacto con el servicio de atención o el correo de abajo. Si el documento nunca llegó a generarse, o el importe cobrado difiere del pedido, reembolsamos el total.",
+    pdfLanguageNotice:
+      "El PDF se genera en el mismo idioma que esta pantalla.",
   },
   reportDetail: {
     supplyTitle: "Hacia dónde fluye la energía",

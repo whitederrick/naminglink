@@ -112,6 +112,14 @@ export type ReportCopy = {
     productInfo: Array<[string, string]>;
     /** 환불을 어디로 요청하는지 */
     refundContact: string;
+    /**
+     * PDF가 화면과 다른 언어로 나갈 때의 고지.
+     *
+     * 지금 해당하는 것은 아랍어·크메르어뿐이다 — 그 두 문자 체계는 PDF 렌더가 죽어서
+     * 영어로 낸다(`lib/pdf/fonts.tsx`). **결제 전에 알아야 하는 조건**이라 구매 패널이
+     * 띄운다. 나머지 로케일에서는 화면에 나오지 않는다.
+     */
+    pdfLanguageNotice: string;
 };
 
 export type Dictionary = {
@@ -849,6 +857,7 @@ const ko: Dictionary = {
     ],
     refundContact:
       "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
+    pdfLanguageNotice: "PDF 문서는 화면과 같은 언어로 나갑니다.",
   },
   affinityReport: {
     title: "인연의 결 리포트 PDF로 간직하기",
@@ -882,6 +891,7 @@ const ko: Dictionary = {
     ],
     refundContact:
       "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
+    pdfLanguageNotice: "PDF 문서는 화면과 같은 언어로 나갑니다.",
   },
   reportDetail: {
     supplyTitle: "두 기운이 오가는 방향",
@@ -1469,6 +1479,8 @@ const en: Dictionary = {
     ],
     refundContact:
       "For refunds or questions, contact the customer centre or email below. If the document could not be produced, or the amount charged differs from the order, we refund in full.",
+    pdfLanguageNotice:
+      "The PDF is produced in the same language as this screen.",
   },
   affinityReport: {
     title: "Keep your match profile as a PDF",
@@ -1502,6 +1514,8 @@ const en: Dictionary = {
     ],
     refundContact:
       "For refunds or questions, contact the support desk or email below. If the document was never produced, or the amount charged differs from the order, we refund in full.",
+    pdfLanguageNotice:
+      "The PDF is produced in the same language as this screen.",
   },
   reportDetail: {
     supplyTitle: "Which way the energy flows",

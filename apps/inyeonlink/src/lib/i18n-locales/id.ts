@@ -399,6 +399,8 @@ export const id: Dictionary = {
     ],
     refundContact:
       "Untuk pengembalian dana atau pertanyaan, hubungi layanan pelanggan atau email di bawah. Jika dokumen tidak dapat dibuat, atau jumlah yang ditagih berbeda dari pesanan, kami mengembalikan dana sepenuhnya.",
+    pdfLanguageNotice:
+      "PDF dibuat dalam bahasa yang sama dengan layar ini.",
   },
   affinityReport: {
     title: "Simpan profil jodoh Anda sebagai PDF",
@@ -432,6 +434,8 @@ export const id: Dictionary = {
     ],
     refundContact:
       "Untuk pengembalian dana atau pertanyaan, hubungi meja bantuan atau email di bawah. Jika dokumen tidak pernah dibuat, atau jumlah yang ditagih berbeda dari pesanan, kami mengembalikan dana sepenuhnya.",
+    pdfLanguageNotice:
+      "PDF dibuat dalam bahasa yang sama dengan layar ini.",
   },
   reportDetail: {
     supplyTitle: "Ke arah mana energi mengalir",

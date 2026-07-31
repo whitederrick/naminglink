@@ -398,6 +398,8 @@ export const it: Dictionary = {
     ],
     refundContact:
       "Per rimborsi o domande, contatta il servizio clienti o l'indirizzo email indicato qui sotto. Se il documento non è stato prodotto, o se l'importo addebitato differisce dall'ordine, rimborsiamo per intero.",
+    pdfLanguageNotice:
+      "Il PDF viene prodotto nella stessa lingua di questa schermata.",
   },
   affinityReport: {
     title: "Conserva il tuo profilo di affinità in PDF",
@@ -431,6 +433,8 @@ export const it: Dictionary = {
     ],
     refundContact:
       "Per rimborsi o domande, contatta l'assistenza o l'indirizzo email indicato qui sotto. Se il documento non è mai stato prodotto, o se l'importo addebitato differisce dall'ordine, rimborsiamo per intero.",
+    pdfLanguageNotice:
+      "Il PDF viene prodotto nella stessa lingua di questa schermata.",
   },
   reportDetail: {
     supplyTitle: "In che direzione scorre l'energia",

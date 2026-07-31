@@ -397,6 +397,8 @@ export const zh: Dictionary = {
     ],
     refundContact:
       "退款·咨询请通过下方客服中心或邮箱提出。若文档未能生成，或支付金额与订单不符，我们将全额退款。",
+    pdfLanguageNotice:
+      "PDF 文档以与本画面相同的语言生成。",
   },
   affinityReport: {
     title: "将姻缘之相报告保存为 PDF",
@@ -430,6 +432,8 @@ export const zh: Dictionary = {
     ],
     refundContact:
       "退款·咨询请通过下方客服中心或邮箱提出。若文档未能生成，或支付金额与订单不符，我们将全额退款。",
+    pdfLanguageNotice:
+      "PDF 文档以与本画面相同的语言生成。",
   },
   reportDetail: {
     supplyTitle: "气的流动方向",

@@ -399,6 +399,8 @@ export const fil: Dictionary = {
     ],
     refundContact:
       "Para sa refund o katanungan, makipag-ugnayan sa customer service o sa email sa ibaba. Kung hindi nagawa ang dokumento, o iba ang siningil sa halagang nasa order, ibinabalik namin ang buong bayad.",
+    pdfLanguageNotice:
+      "Ang PDF ay ginagawa sa parehong wika ng screen na ito.",
   },
   affinityReport: {
     title: "Itago ang hibla ng iyong tadhana bilang PDF",
@@ -432,6 +434,8 @@ export const fil: Dictionary = {
     ],
     refundContact:
       "Para sa refund o katanungan, makipag-ugnayan sa support desk o sa email sa ibaba. Kung hindi kailanman nagawa ang dokumento, o iba ang siningil sa halagang nasa order, ibinabalik namin ang buong bayad.",
+    pdfLanguageNotice:
+      "Ang PDF ay ginagawa sa parehong wika ng screen na ito.",
   },
   reportDetail: {
     supplyTitle: "Saang direksyon dumadaloy ang enerhiya",

@@ -399,6 +399,8 @@ export const fr: Dictionary = {
     ],
     refundContact:
       "Pour un remboursement ou une question, contactez le service client ou l'adresse e-mail ci-dessous. Si le document n'a pas pu être produit, ou si le montant débité diffère de la commande, nous remboursons intégralement.",
+    pdfLanguageNotice:
+      "Le PDF est produit dans la même langue que cet écran.",
   },
   affinityReport: {
     title: "Conservez votre profil d'affinité en PDF",
@@ -432,6 +434,8 @@ export const fr: Dictionary = {
     ],
     refundContact:
       "Pour un remboursement ou une question, contactez le service d'assistance ou l'adresse e-mail ci-dessous. Si le document n'a jamais été produit, ou si le montant débité diffère de la commande, nous remboursons intégralement.",
+    pdfLanguageNotice:
+      "Le PDF est produit dans la même langue que cet écran.",
   },
   reportDetail: {
     supplyTitle: "Le sens de circulation de l'énergie",

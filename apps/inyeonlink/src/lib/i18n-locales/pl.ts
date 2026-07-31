@@ -399,6 +399,8 @@ export const pl: Dictionary = {
     ],
     refundContact:
       "W sprawie zwrotów i pytań skontaktuj się z obsługą klienta albo napisz na adres poniżej. Jeśli dokument nie mógł powstać albo pobrana kwota różni się od zamówienia, zwracamy całość.",
+    pdfLanguageNotice:
+      "PDF jest tworzony w tym samym języku co ten ekran.",
   },
   affinityReport: {
     title: "Zachowaj swój profil dopasowania jako PDF",
@@ -432,6 +434,8 @@ export const pl: Dictionary = {
     ],
     refundContact:
       "W sprawie zwrotów i pytań skontaktuj się z obsługą klienta albo napisz na adres poniżej. Jeśli dokument w ogóle nie powstał albo pobrana kwota różni się od zamówienia, zwracamy całość.",
+    pdfLanguageNotice:
+      "PDF jest tworzony w tym samym języku co ten ekran.",
   },
   reportDetail: {
     supplyTitle: "W którą stronę płynie energia",

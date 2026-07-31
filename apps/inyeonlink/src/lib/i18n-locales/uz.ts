@@ -400,6 +400,8 @@ export const uz: Dictionary = {
     ],
     refundContact:
       "Pulni qaytarish yoki savollar uchun quyidagi mijozlar markazi yoki elektron pochtaga murojaat qiling. Hujjat yaratilmagan bo'lsa yoki yechib olingan summa buyurtmadan farq qilsa, to'liq qaytaramiz.",
+    pdfLanguageNotice:
+      "PDF shu ekran bilan bir xil tilda tayyorlanadi.",
   },
   affinityReport: {
     title: "Mos qiyofa talqinini PDF sifatida saqlang",
@@ -433,6 +435,8 @@ export const uz: Dictionary = {
     ],
     refundContact:
       "Pulni qaytarish yoki savollar uchun quyidagi qo'llab-quvvatlash xizmati yoki elektron pochtaga murojaat qiling. Hujjat umuman yaratilmagan bo'lsa yoki yechib olingan summa buyurtmadan farq qilsa, to'liq qaytaramiz.",
+    pdfLanguageNotice:
+      "PDF shu ekran bilan bir xil tilda tayyorlanadi.",
   },
   reportDetail: {
     supplyTitle: "Quvvat qaysi tomonga oqadi",

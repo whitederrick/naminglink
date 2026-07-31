@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import type { AffinityInput } from "@/lib/affinity-input";
 import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
+import { pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import type { MatchInput } from "@/lib/match-input";
 import type { ReportKind } from "@/lib/report-product";
 
@@ -296,6 +297,16 @@ export function ReportPurchasePanel({
           </li>
         ))}
       </ul>
+
+      {/* **PDF가 화면과 다른 언어로 나가는 경우의 고지.** 지금은 아랍어·크메르어뿐이다 —
+          그 두 문자 체계는 PDF 렌더가 죽어서 영어로 낸다(`lib/pdf/fonts.tsx`).
+          접어 두지 않고 그대로 보인다. 사고 나서 알면 늦는 조건이고, 실제로 뜨는 로케일이
+          둘뿐이라 나머지 화면에는 아무것도 늘지 않는다. */}
+      {pdfLanguageDiffers(locale) ? (
+        <p className="break-keep-all mt-4 rounded-xl border border-brand-plum/25 bg-brand-plum/5 px-4 py-3 text-sm leading-6">
+          {t.pdfLanguageNotice}
+        </p>
+      ) : null}
 
       {/* 상품정보제공 고시. 접어 두되 결제 전에 열어 볼 수 있어야 한다. */}
       <details className="mt-4 rounded-xl border border-line/70 bg-background/40 px-4 py-3">
