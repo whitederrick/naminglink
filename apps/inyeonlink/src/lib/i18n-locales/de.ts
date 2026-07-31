@@ -384,7 +384,7 @@ export const de: Dictionary = {
     consentRequired: "Bitte bestätigen Sie die Widerrufsbedingungen vor der Zahlung.",
     productInfoTitle: "Produktinformationen",
     productInfo: [
-      ["Anbieter", "Naming-Link"],
+      ["Anbieter", "{brand}"],
       ["Format", "Ein PDF-Dokument (3 Seiten), unmittelbar nach der Zahlung auf dem Bildschirm herunterzuladen."],
       ["Voraussetzungen", "Ein beliebiges Gerät, das PDF öffnet. Keine Installation, kein Konto nötig."],
       ["Nutzungsdauer", "Unbegrenzt. Die heruntergeladene Datei behalten Sie."],
@@ -417,7 +417,7 @@ export const de: Dictionary = {
     consentRequired: "Bitte stimmen Sie den Widerrufsbedingungen vor der Zahlung zu.",
     productInfoTitle: "Produktinformationen",
     productInfo: [
-      ["Anbieter", "Naming-Link"],
+      ["Anbieter", "{brand}"],
       ["Format", "Ein PDF-Dokument (4 Seiten), unmittelbar nach der Zahlung auf dieser Seite herunterzuladen."],
       ["Voraussetzungen", "Ein beliebiges Gerät, das PDF öffnet. Keine Installation, kein Konto."],
       ["Verfügbarkeit", "Ohne zeitliche Begrenzung. Die heruntergeladene Datei gehört Ihnen."],

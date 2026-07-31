@@ -382,7 +382,7 @@ export const zh: Dictionary = {
     consentRequired: "须同意撤回限制事项后方可支付。",
     productInfoTitle: "商品信息告示",
     productInfo: [
-      ["制作·供应方", "Naming-Link"],
+      ["制作·供应方", "{brand}"],
       ["商品形态", "PDF 文档 1 份（3 页）。支付后即可在画面上立即下载。"],
       ["使用条件", "只要是能打开 PDF 的设备即可。无需另行安装或注册会员。"],
       ["使用期限", "无限制。下载的文件由用户自行保管。"],
@@ -415,7 +415,7 @@ export const zh: Dictionary = {
     consentRequired: "须同意撤回限制事项后方可支付。",
     productInfoTitle: "商品信息告示",
     productInfo: [
-      ["制作·供应方", "Naming-Link"],
+      ["制作·供应方", "{brand}"],
       ["商品形态", "PDF 文档 1 份（4 页）。支付后即可在画面上立即下载。"],
       ["使用条件", "只要是能打开 PDF 的设备即可。无需另行安装或注册会员。"],
       ["使用期限", "无限制。下载的文件由用户自行保管。"],

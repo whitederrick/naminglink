@@ -385,7 +385,7 @@ export const uz: Dictionary = {
     consentRequired: "To'lashdan oldin voz kechish shartlarini tasdiqlang.",
     productInfoTitle: "Mahsulot ma'lumoti",
     productInfo: [
-      ["Ishlab chiqaruvchi", "Naming-Link"],
+      ["Ishlab chiqaruvchi", "{brand}"],
       ["Format", "Bitta PDF hujjat (3 sahifa), to'lovdan so'ng darhol ekrandan yuklab olinadi."],
       ["Talablar", "PDF ochadigan har qanday qurilma. O'rnatish yoki ro'yxatdan o'tish shart emas."],
       ["Foydalanish muddati", "Cheklovsiz. Yuklab olingan fayl sizda qoladi."],
@@ -418,7 +418,7 @@ export const uz: Dictionary = {
     consentRequired: "To'lashdan oldin voz kechish shartlariga rozilik bildiring.",
     productInfoTitle: "Mahsulot ma'lumoti",
     productInfo: [
-      ["Ishlab chiqaruvchi", "Naming-Link"],
+      ["Ishlab chiqaruvchi", "{brand}"],
       ["Format", "Bitta PDF hujjat (4 sahifa), to'lovdan so'ng darhol shu ekrandan yuklab olinadi."],
       ["Talablar", "PDF ochadigan har qanday qurilma. O'rnatish ham, hisob ham kerak emas."],
       ["Mavjudlik muddati", "Vaqt chegarasi yo'q. Yuklab olingan fayl sizniki bo'lib qoladi."],

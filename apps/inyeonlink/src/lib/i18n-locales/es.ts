@@ -383,7 +383,7 @@ export const es: Dictionary = {
     consentRequired: "Confirma las condiciones de desistimiento antes de pagar.",
     productInfoTitle: "Información del producto",
     productInfo: [
-      ["Proveedor", "Naming-Link"],
+      ["Proveedor", "{brand}"],
       ["Formato", "Un documento PDF (3 páginas), descargado en pantalla justo después del pago."],
       ["Requisitos", "Cualquier dispositivo que abra un PDF. No hace falta instalación ni cuenta."],
       ["Plazo de uso", "Sin límite. El archivo que descargas es tuyo."],
@@ -416,7 +416,7 @@ export const es: Dictionary = {
     consentRequired: "Acepta las condiciones de desistimiento antes de pagar.",
     productInfoTitle: "Información del producto",
     productInfo: [
-      ["Proveedor", "Naming-Link"],
+      ["Proveedor", "{brand}"],
       ["Formato", "Un documento PDF (4 páginas), descargado en esta pantalla justo después del pago."],
       ["Requisitos", "Cualquier dispositivo que abra un PDF. Sin instalación ni cuenta."],
       ["Disponibilidad", "Sin límite de tiempo. El archivo descargado es tuyo para siempre."],

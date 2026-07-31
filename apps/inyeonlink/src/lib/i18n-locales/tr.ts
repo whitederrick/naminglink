@@ -385,7 +385,7 @@ export const tr: Dictionary = {
     consentRequired: "Ödeme yapmadan önce lütfen cayma koşullarını onaylayın.",
     productInfoTitle: "Ürün bilgileri",
     productInfo: [
-      ["Sağlayıcı", "Naming-Link"],
+      ["Sağlayıcı", "{brand}"],
       ["Biçim", "Bir PDF belgesi (3 sayfa), ödemeden hemen sonra ekrandan indirilir."],
       ["Gereksinimler", "PDF açabilen herhangi bir cihaz. Kurulum ya da hesap gerekmez."],
       ["Kullanım süresi", "Sınır yok. İndirdiğiniz dosya sizde kalır."],
@@ -418,7 +418,7 @@ export const tr: Dictionary = {
     consentRequired: "Ödeme yapmadan önce lütfen cayma koşullarını kabul edin.",
     productInfoTitle: "Ürün bilgileri",
     productInfo: [
-      ["Sağlayıcı", "Naming-Link"],
+      ["Sağlayıcı", "{brand}"],
       ["Biçim", "Bir PDF belgesi (4 sayfa), ödemeden hemen sonra bu ekrandan indirilir."],
       ["Gereksinimler", "PDF açabilen herhangi bir cihaz. Kurulum yok, hesap yok."],
       ["Erişim", "Süre sınırı yok. İndirilen dosya sizindir."],

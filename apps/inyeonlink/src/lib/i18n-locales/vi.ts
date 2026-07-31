@@ -384,7 +384,7 @@ export const vi: Dictionary = {
     consentRequired: "Vui lòng xác nhận điều khoản rút lại đơn trước khi thanh toán.",
     productInfoTitle: "Thông tin sản phẩm",
     productInfo: [
-      ["Nhà cung cấp", "Naming-Link"],
+      ["Nhà cung cấp", "{brand}"],
       ["Hình thức", "Một tệp PDF (3 trang), tải về ngay trên màn hình sau khi thanh toán."],
       ["Yêu cầu", "Bất kỳ thiết bị nào mở được PDF. Không cần cài đặt hay tài khoản."],
       ["Thời hạn sử dụng", "Không giới hạn. Tệp đã tải về là của bạn."],
@@ -417,7 +417,7 @@ export const vi: Dictionary = {
     consentRequired: "Vui lòng đồng ý với điều khoản rút lại đơn trước khi thanh toán.",
     productInfoTitle: "Thông tin sản phẩm",
     productInfo: [
-      ["Nhà cung cấp", "Naming-Link"],
+      ["Nhà cung cấp", "{brand}"],
       ["Hình thức", "Một tệp PDF (4 trang), tải về ngay trên màn hình này sau khi thanh toán."],
       ["Yêu cầu", "Bất kỳ thiết bị nào mở được PDF. Không cài đặt, không tài khoản."],
       ["Thời gian cung cấp", "Không giới hạn thời gian. Tệp đã tải về là của bạn."],

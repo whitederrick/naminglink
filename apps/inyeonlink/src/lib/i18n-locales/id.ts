@@ -384,7 +384,7 @@ export const id: Dictionary = {
     consentRequired: "Harap konfirmasi ketentuan pembatalan sebelum membayar.",
     productInfoTitle: "Informasi produk",
     productInfo: [
-      ["Penyedia", "Naming-Link"],
+      ["Penyedia", "{brand}"],
       ["Format", "Satu dokumen PDF (3 halaman), diunduh di layar segera setelah pembayaran."],
       ["Persyaratan", "Perangkat apa pun yang dapat membuka PDF. Tanpa instalasi atau akun."],
       ["Masa penggunaan", "Tanpa batas. Berkas yang Anda unduh menjadi milik Anda."],
@@ -417,7 +417,7 @@ export const id: Dictionary = {
     consentRequired: "Harap setujui ketentuan pembatalan sebelum membayar.",
     productInfoTitle: "Informasi produk",
     productInfo: [
-      ["Penyedia", "Naming-Link"],
+      ["Penyedia", "{brand}"],
       ["Format", "Satu dokumen PDF (4 halaman), diunduh di layar ini segera setelah pembayaran."],
       ["Persyaratan", "Perangkat apa pun yang dapat membuka PDF. Tanpa instalasi, tanpa akun."],
       ["Ketersediaan", "Tanpa batas waktu. Berkas yang diunduh menjadi milik Anda."],

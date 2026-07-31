@@ -384,7 +384,7 @@ export const pl: Dictionary = {
     consentRequired: "Potwierdź warunki odstąpienia przed płatnością.",
     productInfoTitle: "Informacje o produkcie",
     productInfo: [
-      ["Dostawca", "Naming-Link"],
+      ["Dostawca", "{brand}"],
       ["Format", "Jeden dokument PDF (3 strony), pobierany na ekranie zaraz po płatności."],
       ["Wymagania", "Dowolne urządzenie otwierające PDF. Bez instalacji i bez konta."],
       ["Okres korzystania", "Bez ograniczeń. Pobrany plik zostaje u Ciebie."],
@@ -417,7 +417,7 @@ export const pl: Dictionary = {
     consentRequired: "Zgódź się na warunki odstąpienia przed płatnością.",
     productInfoTitle: "Informacje o produkcie",
     productInfo: [
-      ["Dostawca", "Naming-Link"],
+      ["Dostawca", "{brand}"],
       ["Format", "Jeden dokument PDF (4 strony), pobierany na tym ekranie zaraz po płatności."],
       ["Wymagania", "Dowolne urządzenie otwierające PDF. Bez instalacji, bez konta."],
       ["Dostępność", "Bez ograniczenia czasowego. Pobrany plik zostaje u Ciebie."],

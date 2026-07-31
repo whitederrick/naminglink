@@ -384,7 +384,7 @@ export const fil: Dictionary = {
     consentRequired: "Pakikumpirma ang mga tuntunin ng pag-urong bago magbayad.",
     productInfoTitle: "Impormasyon ng produkto",
     productInfo: [
-      ["Tagapagbigay", "Naming-Link"],
+      ["Tagapagbigay", "{brand}"],
       ["Anyo", "Isang PDF na dokumento (3 pahina), ida-download sa screen agad pagkatapos ng bayad."],
       ["Kailangan", "Kahit anong device na makakabukas ng PDF. Walang i-install, walang account."],
       ["Panahon ng paggamit", "Walang hangganan. Sa iyo ang file na na-download mo."],
@@ -417,7 +417,7 @@ export const fil: Dictionary = {
     consentRequired: "Pakisang-ayunan ang mga tuntunin ng pag-urong bago magbayad.",
     productInfoTitle: "Impormasyon ng produkto",
     productInfo: [
-      ["Tagapagbigay", "Naming-Link"],
+      ["Tagapagbigay", "{brand}"],
       ["Anyo", "Isang PDF na dokumento (4 na pahina), ida-download sa screen na ito agad pagkatapos ng bayad."],
       ["Kailangan", "Kahit anong device na makakabukas ng PDF. Walang i-install, walang account."],
       ["Panahon ng paggamit", "Walang taning. Sa iyo ang na-download na file."],

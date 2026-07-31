@@ -383,7 +383,7 @@ export const pt: Dictionary = {
     consentRequired: "Confirme os termos de arrependimento antes de pagar.",
     productInfoTitle: "Informações do produto",
     productInfo: [
-      ["Fornecedor", "Naming-Link"],
+      ["Fornecedor", "{brand}"],
       ["Formato", "Um documento PDF (3 páginas), baixado na tela logo após o pagamento."],
       ["Requisitos", "Qualquer aparelho que abra PDF. Não é preciso instalar nada nem criar conta."],
       ["Prazo de uso", "Sem limite. O arquivo baixado fica com você."],
@@ -416,7 +416,7 @@ export const pt: Dictionary = {
     consentRequired: "Concorde com os termos de arrependimento antes de pagar.",
     productInfoTitle: "Informações do produto",
     productInfo: [
-      ["Fornecedor", "Naming-Link"],
+      ["Fornecedor", "{brand}"],
       ["Formato", "Um documento PDF (4 páginas), baixado nesta tela logo após o pagamento."],
       ["Requisitos", "Qualquer aparelho que abra PDF. Sem instalação, sem conta."],
       ["Disponibilidade", "Sem prazo. O arquivo baixado é seu para guardar."],

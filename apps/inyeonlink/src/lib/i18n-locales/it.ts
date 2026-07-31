@@ -383,7 +383,7 @@ export const it: Dictionary = {
     consentRequired: "Conferma le condizioni di recesso prima di pagare.",
     productInfoTitle: "Informazioni sul prodotto",
     productInfo: [
-      ["Fornitore", "Naming-Link"],
+      ["Fornitore", "{brand}"],
       ["Formato", "Un documento PDF (3 pagine), scaricato sullo schermo subito dopo il pagamento."],
       ["Requisiti", "Qualsiasi dispositivo in grado di aprire un PDF. Non servono installazioni né account."],
       ["Durata d'uso", "Nessun limite. Il file scaricato resta tuo."],
@@ -416,7 +416,7 @@ export const it: Dictionary = {
     consentRequired: "Accetta le condizioni di recesso prima di pagare.",
     productInfoTitle: "Informazioni sul prodotto",
     productInfo: [
-      ["Fornitore", "Naming-Link"],
+      ["Fornitore", "{brand}"],
       ["Formato", "Un documento PDF (4 pagine), scaricato su questa schermata subito dopo il pagamento."],
       ["Requisiti", "Qualsiasi dispositivo in grado di aprire un PDF. Nessuna installazione, nessun account."],
       ["Disponibilità", "Nessun limite di tempo. Il file scaricato è tuo e puoi conservarlo."],

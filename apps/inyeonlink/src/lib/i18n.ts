@@ -758,7 +758,7 @@ const ko: Dictionary = {
     consentRequired: "청약철회 제한 사항에 동의하셔야 결제할 수 있습니다.",
     productInfoTitle: "상품 정보 고시",
     productInfo: [
-      ["제작·공급자", "Naming-Link"],
+      ["제작·공급자", "{brand}"],
       ["상품 형태", "PDF 문서 1개(3장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
@@ -791,7 +791,7 @@ const ko: Dictionary = {
     consentRequired: "청약철회 제한 사항에 동의하셔야 결제할 수 있습니다.",
     productInfoTitle: "상품 정보 고시",
     productInfo: [
-      ["제작·공급자", "Naming-Link"],
+      ["제작·공급자", "{brand}"],
       ["상품 형태", "PDF 문서 1개(4장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
@@ -1317,7 +1317,7 @@ const en: Dictionary = {
     consentRequired: "Please confirm the withdrawal terms before paying.",
     productInfoTitle: "Product information",
     productInfo: [
-      ["Provider", "Naming-Link"],
+      ["Provider", "{brand}"],
       ["Format", "One PDF document (3 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
@@ -1350,7 +1350,7 @@ const en: Dictionary = {
     consentRequired: "Please agree to the withdrawal terms before paying.",
     productInfoTitle: "Product information",
     productInfo: [
-      ["Provider", "Naming-Link"],
+      ["Provider", "{brand}"],
       ["Format", "One PDF document (4 pages), downloaded on this screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No install, no account."],
       ["Availability", "No time limit. The downloaded file is yours to keep."],

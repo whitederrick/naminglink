@@ -4,7 +4,7 @@ import * as PortOne from "@portone/browser-sdk/v2";
 import { useEffect, useState } from "react";
 
 import type { AffinityInput } from "@/lib/affinity-input";
-import { fillTemplate, type Locale, type ReportCopy } from "@/lib/i18n";
+import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
 import type { MatchInput } from "@/lib/match-input";
 import type { ReportKind } from "@/lib/report-product";
 
@@ -303,10 +303,17 @@ export function ReportPurchasePanel({
           {t.productInfoTitle}
         </summary>
         <dl className="mt-3 grid gap-1.5 text-xs leading-5 text-muted">
+          {/* `{brand}`를 이 서비스 이름으로 채운다. **사전에 "Naming-Link"라고 박혀 있었다** —
+              naminglink의 고시 문구를 옮겨 오면서 값까지 함께 따라와, 인연링크 상품인데
+              제작·공급자가 네이밍링크로 나가고 있었다(2026-07-31 사용자 지적).
+              로케일마다 표기가 다르므로(ko 인연링크 · ja インヨンリンク · th อินยอนลิงก์)
+              값을 박지 않고 그 로케일의 `brand`를 끌어다 쓴다. */}
           {t.productInfo.map(([label, value]) => (
             <div key={label} className="flex flex-wrap gap-x-2">
               <dt className="min-w-24 font-semibold text-foreground">{label}</dt>
-              <dd className="break-keep-all flex-1">{value}</dd>
+              <dd className="break-keep-all flex-1">
+                {fillTemplate(value, { brand: getDictionary(locale).brand })}
+              </dd>
             </div>
           ))}
         </dl>

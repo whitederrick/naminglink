@@ -384,7 +384,7 @@ export const fr: Dictionary = {
     consentRequired: "Veuillez confirmer les conditions de rétractation avant de payer.",
     productInfoTitle: "Informations sur le produit",
     productInfo: [
-      ["Fournisseur", "Naming-Link"],
+      ["Fournisseur", "{brand}"],
       ["Format", "Un document PDF (3 pages), téléchargé à l'écran juste après le paiement."],
       ["Prérequis", "Tout appareil capable d'ouvrir un PDF. Aucune installation ni aucun compte requis."],
       ["Durée d'utilisation", "Sans limite. Le fichier téléchargé vous appartient."],
@@ -417,7 +417,7 @@ export const fr: Dictionary = {
     consentRequired: "Veuillez accepter les conditions de rétractation avant de payer.",
     productInfoTitle: "Informations sur le produit",
     productInfo: [
-      ["Fournisseur", "Naming-Link"],
+      ["Fournisseur", "{brand}"],
       ["Format", "Un document PDF (4 pages), téléchargé sur cet écran juste après le paiement."],
       ["Prérequis", "Tout appareil capable d'ouvrir un PDF. Aucune installation, aucun compte."],
       ["Disponibilité", "Sans limite de durée. Le fichier téléchargé est à vous."],

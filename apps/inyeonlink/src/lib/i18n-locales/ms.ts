@@ -385,7 +385,7 @@ export const ms: Dictionary = {
     consentRequired: "Sila sahkan terma penarikan diri sebelum membuat pembayaran.",
     productInfoTitle: "Maklumat produk",
     productInfo: [
-      ["Pembekal", "Naming-Link"],
+      ["Pembekal", "{brand}"],
       ["Format", "Satu dokumen PDF (3 halaman), dimuat turun pada skrin sejurus selepas pembayaran."],
       ["Keperluan", "Sebarang peranti yang boleh membuka PDF. Tiada pemasangan atau akaun diperlukan."],
       ["Tempoh penggunaan", "Tiada had. Fail yang anda muat turun kekal milik anda."],
@@ -418,7 +418,7 @@ export const ms: Dictionary = {
     consentRequired: "Sila bersetuju dengan terma penarikan diri sebelum membuat pembayaran.",
     productInfoTitle: "Maklumat produk",
     productInfo: [
-      ["Pembekal", "Naming-Link"],
+      ["Pembekal", "{brand}"],
       ["Format", "Satu dokumen PDF (4 halaman), dimuat turun pada skrin ini sejurus selepas pembayaran."],
       ["Keperluan", "Sebarang peranti yang boleh membuka PDF. Tiada pemasangan, tiada akaun."],
       ["Ketersediaan", "Tiada had masa. Fail yang dimuat turun kekal milik anda."],

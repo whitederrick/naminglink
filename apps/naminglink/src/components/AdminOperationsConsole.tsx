@@ -746,6 +746,48 @@ type PendingOrderRow = {
 
 type OtherAppSummary = { app: string; summary: Record<string, number> };
 
+/**
+ * 반대편 서비스로 건너가는 줄. **두 대시보드가 서로를 가리킨다.**
+ *
+ * 매출을 합치지 않는 대신 이 줄을 둔다. 서비스별 성과를 보려면 갈라야 하지만, 콘솔이 두
+ * 서비스를 모두 관리한다는 사실은 어느 화면에서도 보여야 한다 — 한쪽에만 두면 인연링크 화면에
+ * 들어간 사람은 돌아갈 길을 메뉴에서 찾아야 한다.
+ *
+ * 색은 서비스 배지와 같은 계열로 간다(인연링크 자두, 네이밍링크 틸). 어느 쪽 숫자를 보고
+ * 있는지가 색으로도 구분돼야 한다.
+ */
+function OtherAppLink({ other }: { other: OtherAppSummary }) {
+  const isInyeon = other.app === "inyeonlink";
+  const label = isInyeon ? "인연링크" : "네이밍링크";
+  const href = isInyeon ? `${basePath}/inyeon` : basePath;
+  const tone = isInyeon
+    ? { badge: "bg-brand-plum/12 text-brand-plum", border: "hover:border-brand-plum", text: "text-brand-plum" }
+    : { badge: "bg-brand-teal/12 text-brand-teal", border: "hover:border-brand-teal", text: "text-brand-teal" };
+
+  return (
+    <Link
+      href={href}
+      className={`flex flex-wrap items-center gap-x-4 gap-y-1 rounded-xl border border-line bg-surface px-4 py-3 text-sm transition ${tone.border}`}
+    >
+      <span className={`rounded px-1.5 py-0.5 text-[11px] font-semibold ${tone.badge}`}>
+        {label}
+      </span>
+      <span className="text-muted">
+        매출 <b className="text-foreground">{number.format(other.summary.revenue ?? 0)}원</b>
+      </span>
+      <span className="text-muted">
+        주문 <b className="text-foreground">{number.format(other.summary.orders ?? 0)}건</b>
+      </span>
+      <span className="text-muted">
+        방문자 <b className="text-foreground">{number.format(other.summary.visitors ?? 0)}</b>
+      </span>
+      <span className={`ml-auto text-xs ${tone.text}`}>
+        {isInyeon ? "인연링크 현황 보기" : "통합 대시보드 보기"} →
+      </span>
+    </Link>
+  );
+}
+
 function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[]; other?: OtherAppSummary }) {
   const pagedOrders = usePagedList(pendingOrders, "pending-orders", 16);
   const pendingOrderCount = snapshot.orderStatuses
@@ -754,28 +796,8 @@ function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: 
   return (
     <>
       {/* **이 화면의 숫자는 전부 네이밍링크 것이다.** 예전에는 인연링크 주문까지 함께 집계돼
-          매출이 조용히 합산됐다. 합치지 않고 한 줄로 알리는 이유는, 서비스별 성과를 보려면
-          갈라야 하지만 인연링크가 이 콘솔 어딘가에 있다는 사실은 여기서 보여야 하기 때문이다. */}
-      {other ? (
-        <Link
-          href={`${basePath}/inyeon`}
-          className="flex flex-wrap items-center gap-x-4 gap-y-1 rounded-xl border border-line bg-surface px-4 py-3 text-sm transition hover:border-brand-plum"
-        >
-          <span className="rounded bg-brand-plum/12 px-1.5 py-0.5 text-[11px] font-semibold text-brand-plum">
-            인연링크
-          </span>
-          <span className="text-muted">
-            매출 <b className="text-foreground">{number.format(other.summary.revenue ?? 0)}원</b>
-          </span>
-          <span className="text-muted">
-            주문 <b className="text-foreground">{number.format(other.summary.orders ?? 0)}건</b>
-          </span>
-          <span className="text-muted">
-            방문자 <b className="text-foreground">{number.format(other.summary.visitors ?? 0)}</b>
-          </span>
-          <span className="ml-auto text-xs text-brand-plum">인연링크 현황 보기 →</span>
-        </Link>
-      ) : null}
+          매출이 조용히 합산됐다. 합치지 않고 한 줄로 알리는 이유는 `OtherAppLink` 주석에 있다. */}
+      {other ? <OtherAppLink other={other} /> : null}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
         <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
         <Metric dense label="처리 대기 주문" value={number.format(pendingOrderCount)} note={"결제 후, 미완료\n(목표 건수 : 0)"} />
@@ -876,10 +898,12 @@ function InyeonDashboardView({
   snapshot,
   summary,
   pendingOrders,
+  other,
 }: {
   snapshot: Snapshot;
   summary: Record<string, number>;
   pendingOrders: PendingOrderRow[];
+  other?: OtherAppSummary;
 }) {
   const pagedOrders = usePagedList(pendingOrders, "inyeon-pending", 10);
   const pendingOrderCount = snapshot.orderStatuses
@@ -887,6 +911,8 @@ function InyeonDashboardView({
     .reduce((sum, row) => sum + row.count, 0);
   return (
     <>
+      {/* 반대 방향으로도 건너간다 — 네이밍링크 대시보드가 이 화면을 가리키는 것과 짝이다. */}
+      {other ? <OtherAppLink other={other} /> : null}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
         <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
         <Metric dense label="발급 대기" value={number.format(pendingOrderCount)} note={"결제 후, 미발급\n(목표 건수 : 0)"} />
@@ -1086,6 +1112,7 @@ export function AdminOperationsConsole({ view }: { view: View }) {
           snapshot={snapshot}
           summary={summary}
           pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}
+          other={payload?.other as OtherAppSummary | undefined}
         />
       );
     return (
