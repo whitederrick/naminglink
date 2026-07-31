@@ -346,6 +346,83 @@ export type Dictionary = {
   /** 사주 궁합 리포트 PDF 판매. */
   report: ReportCopy;
   affinityReport: ReportCopy;
+  /**
+   * **유료 리포트에만 나가는 문구.** 화면은 이 블록을 쓰지 않는다.
+   *
+   * 무료 화면을 얇게 만들지 않고 리포트에만 더한다는 결정이라(2026-07-31), 여기 있는 것은
+   * 전부 화면에 없는 절이다. 엔진이 이미 계산해 놓고 버리던 값과, 규칙은 있는데 적용하지
+   * 않던 자리를 설명한다(`engines/detail.ts`).
+   *
+   * **이미 있는 것은 여기에 다시 적지 않는다** — 십신 열 종은 `tenGods`, 신강·신약은
+   * `bodyStrength`, 일간 짝 여섯 종의 설명은 `notes["dayMaster.*"]`, 오행 이름은 `elements`,
+   * 기둥 이름은 `reading.pillarYear` 등에 이미 있고 그대로 가져다 쓴다.
+   */
+  reportDetail: {
+    /** 4장 — 두 기운이 오가는 방향 */
+    supplyTitle: string;
+    supplyHint: string;
+    /** "{name}이(가) 받는 정도" */
+    supplyReceiveLabel: string;
+    needsLabel: string;
+    bondTitle: string;
+    /** 5장 — 각자의 사주를 깊게 */
+    depthTitle: string;
+    vitalityTitle: string;
+    vitalityHint: string;
+    /**
+     * 왕상휴수사 다섯 자리.
+     *
+     * `name`은 표 칸에 들어가므로 짧아야 하고, `body`는 표 아래 범례에 **한 번만** 나온다.
+     * 사람마다 되풀이하면 같은 설명이 한 장에 두 번 찍힌다.
+     */
+    vitalities: Record<
+      "WANG" | "SANG" | "HYU" | "SU" | "SA",
+      { name: string; body: string }
+    >;
+    seasonBoostTitle: string;
+    rawLabel: string;
+    strengthLabel: string;
+    earthSeasonNote: string;
+    allyRatioLabel: string;
+    allyRatioHint: string;
+    /** 6장 — 네 기둥이 만나는 자리 */
+    pillarsTitle: string;
+    pillarsHint: string;
+    /** 지지 관계 일곱 종의 짧은 이름. `notes["dayBranch.*"]`는 일지 전용 문장이라 표에 못 쓴다. */
+    branchRelations: Record<
+      "SAMHAP" | "BANHAP" | "YUKHAP" | "SAME" | "NEUTRAL" | "WONJIN" | "CHUNG",
+      string
+    >;
+    /**
+     * 표 머리행 이름 넷.
+     *
+     * **기존 키를 재사용하지 않는다.** 처음에는 점수 열에 `result.totalLabel`("매칭률")을
+     * 썼는데, 바로 아래 고지가 "매칭률에 반영되지 않았습니다"라 모순으로 읽혔다(실측).
+     * 열 이름은 짧아야 하고 뜻이 정확해야 해서 여기 따로 둔다.
+     */
+    pillarColumn: string;
+    relationColumn: string;
+    relationScoreColumn: string;
+    tenGodColumn: string;
+    stemGodsTitle: string;
+    stemGodsHint: string;
+    /** "{from}이 볼 때" */
+    seesLabel: string;
+    /** 점수에 반영되지 않았다는 고지. 표 아래에 붙인다. */
+    notScoredNote: string;
+    /** 부록 — 이 사주를 어떻게 계산했나 */
+    appendixTitle: string;
+    timeCorrectionLabel: string;
+    /** "{time}으로 보았습니다" */
+    timeCorrectionApplied: string;
+    timeCorrectionNone: string;
+    /** "{date}로 날짜가 넘어갔습니다" */
+    timeCorrectionDateShift: string;
+    calendarLabel: string;
+    solarLabel: string;
+    lunarLabel: string;
+    lunarUnavailable: string;
+  };
   footer: {
     privacy: string;
     terms: string;
@@ -801,6 +878,63 @@ const ko: Dictionary = {
     ],
     refundContact:
       "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
+  },
+  reportDetail: {
+    supplyTitle: "두 기운이 오가는 방향",
+    supplyHint:
+      "매칭률에 들어간 오행 항목은 두 방향의 평균입니다. 평균만 보면 누가 누구를 채워 주는지가 사라집니다. 여기서는 방향을 갈라 봅니다 — 한쪽만 크게 채워 주는 관계도 있습니다.",
+    supplyReceiveLabel: "{name}이(가) 채워지는 정도",
+    needsLabel: "지금 필요한 기운",
+    bondTitle: "두 일간이 맺는 짝",
+    depthTitle: "각자의 사주를 더 들여다봅니다",
+    vitalityTitle: "계절이 밀어 주는 기운",
+    vitalityHint:
+      "세력 막대가 '얼마나 있는가'라면 이 표는 '태어난 달이 그 기운을 밀어 주는가'입니다. 같은 양이라도 왕(旺)인 기운과 사(死)인 기운은 힘이 다릅니다.",
+    vitalities: {
+      WANG: { name: "왕(旺)", body: "가장 힘이 실리는 자리" },
+      SANG: { name: "상(相)", body: "뒤이어 힘을 받는 자리" },
+      HYU: { name: "휴(休)", body: "할 일을 마치고 쉬는 자리" },
+      SU: { name: "수(囚)", body: "갇혀 움직이기 어려운 자리" },
+      SA: { name: "사(死)", body: "가장 힘을 못 쓰는 자리" },
+    },
+    seasonBoostTitle: "월령이 얼마나 밀어 올렸나",
+    rawLabel: "월령 전",
+    strengthLabel: "월령 후",
+    earthSeasonNote:
+      "환절기(辰未戌丑) 달에 태어나 土를 함께 왕으로 보았습니다.",
+    allyRatioLabel: "일간 편의 비율",
+    allyRatioHint:
+      "인성과 비겁을 합한 비율입니다. 45%를 넘으면 신강, 35%에 못 미치면 신약으로 봅니다. 판정이 어디쯤에서 갈렸는지 직접 보시라고 숫자를 함께 싣습니다.",
+    pillarsTitle: "네 기둥이 만나는 자리",
+    pillarsHint:
+      "매칭률에 들어간 것은 일지(日支) 하나입니다. 배우자 자리이기 때문입니다. 나머지 세 기둥도 같은 관계표로 볼 수 있어 함께 싣습니다.",
+    branchRelations: {
+      SAMHAP: "삼합",
+      BANHAP: "반합",
+      YUKHAP: "육합",
+      SAME: "같은 지지",
+      NEUTRAL: "무관계",
+      WONJIN: "원진",
+      CHUNG: "충",
+    },
+    pillarColumn: "자리",
+    relationColumn: "관계",
+    relationScoreColumn: "관계 점수",
+    tenGodColumn: "십신",
+    stemGodsTitle: "상대의 네 기둥은 나에게 무엇인가",
+    stemGodsHint:
+      "매칭률은 일간(日干)끼리만 봅니다. 상대의 나머지 기둥도 같은 규칙으로 십신이 정해집니다 — 그 사람의 어느 자리가 나에게 무엇인지가 보입니다.",
+    seesLabel: "{from}이(가) 볼 때",
+    notScoredNote: "이 표의 점수는 매칭률에 반영되지 않았습니다. 세기를 견주어 보시라고 함께 적습니다.",
+    appendixTitle: "이 사주를 이렇게 계산했습니다",
+    timeCorrectionLabel: "출생 시각",
+    timeCorrectionApplied: "진태양시로 고쳐 {time}으로 보았습니다.",
+    timeCorrectionNone: "출생 시각을 입력하지 않아 시주를 빼고 보았습니다.",
+    timeCorrectionDateShift: "보정으로 날짜가 {date}로 넘어가, 그 날의 일주로 잡았습니다.",
+    calendarLabel: "사주를 뽑은 날짜",
+    solarLabel: "양력",
+    lunarLabel: "음력",
+    lunarUnavailable: "만세력 표에 없는 날이라 음력을 함께 적지 못했습니다.",
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -1360,6 +1494,66 @@ const en: Dictionary = {
     ],
     refundContact:
       "For refunds or questions, contact the support desk or email below. If the document was never produced, or the amount charged differs from the order, we refund in full.",
+  },
+  reportDetail: {
+    supplyTitle: "Which way the energy flows",
+    supplyHint:
+      "The Five Elements score in your match rate is the average of two directions. An average hides who supplies whom. Here we separate them — in some pairings only one side is well supplied.",
+    supplyReceiveLabel: "How much {name} is supplied",
+    needsLabel: "What is needed now",
+    bondTitle: "The bond between the two Day Masters",
+    depthTitle: "A closer look at each chart",
+    vitalityTitle: "What the season pushes forward",
+    vitalityHint:
+      "The strength bars show how much of each element is present. This table shows whether the birth month pushes it forward. The same amount behaves differently at Wang than at Sa.",
+    vitalities: {
+      WANG: { name: "Wang (旺)", body: "at its peak" },
+      SANG: { name: "Sang (相)", body: "rising next" },
+      HYU: { name: "Hyu (休)", body: "resting after its turn" },
+      SU: { name: "Su (囚)", body: "confined, hard to move" },
+      SA: { name: "Sa (死)", body: "at its weakest" },
+    },
+    seasonBoostTitle: "How much the month lifted it",
+    rawLabel: "Before the month",
+    strengthLabel: "After the month",
+    earthSeasonNote:
+      "Born in a transitional month (辰未戌丑), so Earth was also treated as peaking.",
+    allyRatioLabel: "Share of the Day Master's side",
+    allyRatioHint:
+      "Resource plus Peer, as a share of the whole. Above 45% is a strong Day Master, below 35% a weak one. We print the number so you can see where the verdict fell.",
+    pillarsTitle: "Where the four pillars meet",
+    pillarsHint:
+      "Only the Day branch enters the match rate — it is the spouse seat. The other three pillars can be read with the same table, so we include them.",
+    branchRelations: {
+      SAMHAP: "Three Harmony",
+      BANHAP: "Half Harmony",
+      YUKHAP: "Six Harmony",
+      SAME: "Same branch",
+      NEUTRAL: "No relation",
+      WONJIN: "Resentment",
+      CHUNG: "Clash",
+    },
+    pillarColumn: "Pillar",
+    relationColumn: "Relation",
+    relationScoreColumn: "Relation score",
+    tenGodColumn: "Ten God",
+    stemGodsTitle: "What each of their pillars is to you",
+    stemGodsHint:
+      "The match rate compares Day Masters only. The same rule fixes a Ten God for their other pillars too — it shows which part of that person is what to you.",
+    seesLabel: "As seen by {from}",
+    notScoredNote:
+      "The scores in this table are not part of the match rate. They are printed so you can compare intensity.",
+    appendixTitle: "How this chart was calculated",
+    timeCorrectionLabel: "Birth time",
+    timeCorrectionApplied: "Corrected to true solar time and read as {time}.",
+    timeCorrectionNone: "No birth time was given, so the Hour pillar was left out.",
+    timeCorrectionDateShift:
+      "The correction moved the date to {date}, so the Day pillar was taken from that day.",
+    calendarLabel: "Date the chart was drawn from",
+    solarLabel: "Solar",
+    lunarLabel: "Lunar",
+    lunarUnavailable:
+      "This day is missing from the almanac table, so the lunar date could not be printed.",
   },
   footer: {
     privacy: "Privacy Policy",
