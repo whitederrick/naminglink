@@ -50,12 +50,13 @@ export default async function ResultPage({
       />
 
       <div className="relative z-10">
-        <PageHeader brand={dictionary.brand} locale={locale} path="/compatibility/result" />
+        <PageHeader locale={locale} path="/compatibility/result" />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <PageTitle
             title={dictionary.result.title}
             locale={locale}
+            path="/compatibility/result"
             className="mt-10"
           />
           <MatchResultView

@@ -5,6 +5,7 @@
   "type": "module",
   "exports": {
     "./env": "./src/env.ts",
+    "./apps": "./src/apps.ts",
     "./saju": "./src/saju/engine.ts",
     "./saju/timezone": "./src/saju/timezone.ts",
     "./saju/elements": "./src/saju/elements.ts",

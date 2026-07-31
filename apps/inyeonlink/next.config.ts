@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 import { adsCspSources, adsEnabled } from "./src/lib/ads";
-import { gamCspSources, gamRewardedEnabled } from "./src/lib/gam-rewarded";
+// 설정 파일에서 직접 가져온다. `gam-rewarded`는 `"use client"`라 이 자리에서 읽을 값이 아니다.
+import { gamCspSources, gamRewardedEnabled } from "./src/lib/gam-rewarded-config";
 import {
   paymentCspSources,
   paymentsConfigured,

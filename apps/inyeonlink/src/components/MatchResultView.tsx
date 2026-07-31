@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
+import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { emphasize } from "@/lib/emphasize";
@@ -108,7 +109,10 @@ export function MatchResultView({
 
     resolve()
       .then(({ outcome, input }) => {
-        if (!cancelled) setState({ status: "ready", outcome, input, fragment });
+        if (cancelled) return;
+        setState({ status: "ready", outcome, input, fragment });
+        // 분석 완료. 입력값은 싣지 않는다 — 메뉴 구분과 경로뿐이다.
+        trackAnalytics({ eventType: "ANALYSIS_COMPLETED", serviceType: "GUNGHAP_MATCH", locale });
       })
       .catch((cause: Error) => {
         if (cancelled) return;
@@ -117,6 +121,9 @@ export function MatchResultView({
           message: errorMessage(cause.message),
           fragment,
         });
+        // **실패도 남긴다.** 완료만 세면 완료율이 항상 100%로 보이고, 입력 형식 문제나 엔진
+        // 오류가 늘어도 화면에서는 아무 일도 일어나지 않는 것처럼 보인다.
+        trackAnalytics({ eventType: "ANALYSIS_FAILED", serviceType: "GUNGHAP_MATCH", locale });
       });
 
     function errorMessage(code: string) {
@@ -130,7 +137,7 @@ export function MatchResultView({
     return () => {
       cancelled = true;
     };
-  }, [resolvedFragment, dictionary, t.missingInput]);
+  }, [resolvedFragment, dictionary, locale, t.missingInput]);
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {

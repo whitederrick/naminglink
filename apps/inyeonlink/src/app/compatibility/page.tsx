@@ -53,24 +53,28 @@ export default async function CompatibilityPage({
       <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/25" />
 
       <div className="relative z-10">
-        <PageHeader brand={dictionary.brand} locale={locale} path="/compatibility" />
+        <PageHeader locale={locale} path="/compatibility" />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <section className="mt-10">
-            <PageTitle title={dictionary.form.title} locale={locale} />
+            <PageTitle
+              title={dictionary.form.title}
+              locale={locale}
+              path="/compatibility"
+            />
             <p className="break-keep-all mt-3 text-muted">
               {dictionary.form.description}
             </p>
+            {/* **설명 바로 아래다(사용자 결정).** 예전에는 폼 아래 미저장 안내 다음에 있었는데,
+                푸터와 가까워 푸터의 안내 링크와 중복처럼 보였다. 무엇을 근거로 계산하는지는
+                생년월일을 넣기 **전에** 궁금해지는 것이라 이 자리가 맞다. */}
+            <GuideLink locale={locale} align="start" className="mt-3" />
           </section>
 
           <CompatibilityForm dictionary={dictionary} locale={locale} />
 
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
-
-          {/* 무엇을 근거로 계산하는지 궁금해지는 자리는 입력 직후다. */}
-          <GuideLink locale={locale} className="mt-6" />
-
         </div>
 
         {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. 예전에 입력 화면 맨 아래에 있던

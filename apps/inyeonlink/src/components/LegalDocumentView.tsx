@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { AdBanner } from "@/components/AdBanner";
 import { PageHeader } from "@/components/PageHeader";
+import { PageTitle } from "@/components/PageTitle";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LegalDocumentBody } from "@/components/LegalDocumentBody";
 import { type LegalDocument } from "@/lib/legal-content";
@@ -22,10 +23,12 @@ export function LegalDocumentView({
 
   return (
     <main className="min-h-screen bg-background">
-      <PageHeader brand={dictionary.brand} locale={locale} path={path} />
+      <PageHeader locale={locale} path={path} />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12">
-        <h1 className="break-keep-all text-3xl font-bold">{document.title}</h1>
+        {/* 서비스 화면과 같은 제목 줄을 쓴다 — 오른쪽 끝에 언어 선택기가 함께 온다.
+            약관은 23로케일 전부 번역돼 있으므로 이 화면에서도 언어를 바꿀 수 있어야 한다. */}
+        <PageTitle title={document.title} locale={locale} path={path} />
         <LegalDocumentBody document={document} />
 
         <Link

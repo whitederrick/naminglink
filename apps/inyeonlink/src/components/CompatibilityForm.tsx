@@ -10,6 +10,7 @@ import {
 } from "@/components/PersonFields";
 import { AdWatchOverlay } from "@/components/AdRewardGate";
 import { submitAdGateEnabled } from "@/lib/ads";
+import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import {
@@ -70,6 +71,10 @@ export function CompatibilityForm({
     }
 
     setSubmitting(true);
+    // 분석 시작. **`sendBeacon`으로 보낸다**(`analytics-client`) — 바로 아래에서 문서를 통째로
+    // 갈아 끼우므로 일반 fetch는 취소될 수 있다. 실린 것은 메뉴 구분과 경로뿐이다.
+    trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "GUNGHAP_MATCH", locale });
+
     // 생년월일을 쿼리스트링에 싣지 않는다. 프래그먼트(#)는 서버로 전송되지 않으므로 결과
     // 링크를 공유하거나 새로고침해도 접속 로그에는 경로만 남는다.
     const target = `${localePath("/compatibility/result", locale)}#${encodeMatchInput(input)}`;

@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, LayoutDashboard, LogOut, Package, ShieldCheck, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, HeartHandshake, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
+import type { AppKey } from "@naminglink/core/apps";
 import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
@@ -61,9 +62,36 @@ const navGroups = [
       ["정책·푸터", `${basePath}/content`, FilePenLine],
     ],
   },
+  // **인연링크는 그룹을 따로 둔다.** 위 메뉴들은 전부 naminglink 것만 보여 준다 — 한 표에
+  // 섞으면 서비스별 매출을 눈으로 세야 하고, '처리 상태'의 뜻도 서로 다르다(도장은 배송,
+  // 리포트는 PDF 발급). 두 서비스가 같은 DB를 쓰지만 운영은 따로 한다.
+  {
+    heading: "인연링크",
+    items: [
+      ["인연링크 현황", `${basePath}/inyeon`, HeartHandshake],
+      ["인연링크 주문", `${basePath}/inyeon/orders`, Package],
+      ["인연링크 상품", `${basePath}/inyeon/products`, Boxes],
+      ["오픈 상태 점검", `${basePath}/inyeon/status`, SlidersHorizontal],
+    ],
+  },
 ] as const;
 
-type View = "dashboard" | "users" | "admins" | "orders" | "ai" | "analytics" | "usage";
+type View =
+  | "dashboard"
+  | "users"
+  | "admins"
+  | "orders"
+  | "ai"
+  | "analytics"
+  | "usage"
+  | "inyeon"
+  | "inyeon-orders";
+
+/** 이 화면이 어느 서비스의 지표를 보는가. 나머지는 전부 naminglink다. */
+const viewApp: Partial<Record<View, AppKey>> = {
+  inyeon: "inyeonlink",
+  "inyeon-orders": "inyeonlink",
+};
 type Snapshot = {
   days: number;
   summary: Record<string, number>;
@@ -89,7 +117,7 @@ const viewCopy: Record<View, { title: string; description: string }> = {
   dashboard: {
     title: "통합 대시보드",
     description:
-      "서비스 전체 현황을 한눈에 확인하는 화면입니다.\n매출·방문·AI 사용·광고 지표와 일별 추이를 기간별로 비교하고, 이상 징후가 보이면 해당 상세 화면으로 이동해 원인을 확인하세요.",
+      "네이밍링크 현황을 한눈에 확인하는 화면입니다.\n매출·방문·AI 사용·광고 지표와 일별 추이를 기간별로 비교하고, 이상 징후가 보이면 해당 상세 화면으로 이동해 원인을 확인하세요.\n인연링크 수치는 여기에 합산되지 않습니다 — 맨 위 줄에 요약만 있고, 자세한 것은 '인연링크 현황' 화면에 있습니다.",
   },
   users: {
     title: "회원 정보 관리",
@@ -104,7 +132,7 @@ const viewCopy: Record<View, { title: string; description: string }> = {
   orders: {
     title: "굿즈 주문 관리",
     description:
-      "주문의 결제·처리 현황을 관리합니다. 결제 상태 필터로 결제 완료(PAID) 주문을 추려 처리 상태를 대기 → 처리 중 → 배송 → 완료 순서로 갱신하세요. 환불·부분환불 주문도 결제 상태 필터로 확인할 수 있습니다.",
+      "네이밍링크 주문의 결제·처리 현황을 관리합니다(인연링크 리포트 주문은 '인연링크 주문' 화면에 따로 있습니다). 결제 상태 필터로 결제 완료(PAID) 주문을 추려 처리 상태를 대기 → 처리 중 → 배송 → 완료 순서로 갱신하세요. 환불·부분환불 주문도 결제 상태 필터로 확인할 수 있습니다.",
   },
   ai: {
     title: "AI 사용량",
@@ -120,6 +148,16 @@ const viewCopy: Record<View, { title: string; description: string }> = {
     title: "서비스·광고 활용 통계",
     description:
       "서비스별 분석 시작·완료·실패와 광고 노출·보상 현황입니다. 완료율이 유난히 낮은 서비스는 입력 폼 문제나 AI 오류를 의심하고, AI 사용량 화면의 오류 내역과 교차 확인하세요.",
+  },
+  inyeon: {
+    title: "인연링크 현황",
+    description:
+      "인연링크(사주 궁합·인연의 결)만 따로 본 지표입니다. 위쪽 메뉴들은 전부 네이밍링크 것만 보여 주므로, 두 서비스의 매출·방문이 섞이지 않습니다.\nAI 항목이 없는 것이 정상입니다 — 인연링크는 규칙 엔진이라 요청당 외부 호출이 없습니다.",
+  },
+  "inyeon-orders": {
+    title: "인연링크 주문",
+    description:
+      "사주 궁합 리포트와 인연의 결 리포트 PDF 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — PDF는 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
   },
 };
 
@@ -312,13 +350,25 @@ const serviceTypeLabels: Record<string, string> = {
   GLOBAL_NAME_TO_HANGUL: "글로벌 이름 → 한글 발음 확인",
   GLOBAL_TO_KOREAN: "글로벌 이름 → 한글 이름 전환",
 };
-const serviceTypeLabel = (serviceType: string) => serviceTypeLabels[serviceType] ?? serviceType;
+// 인연링크의 서비스 구분. **위 표와 합치지 않는다** — naminglink 대시보드는 위 표를 그대로
+// 훑어 고정 행을 만들므로, 합치면 그 화면에 항상 0인 인연링크 행 둘이 붙는다.
+// 값은 `apps/inyeonlink/src/lib/analytics-client.ts`가 보내는 것과 같아야 한다.
+const inyeonServiceTypeLabels: Record<string, string> = {
+  GUNGHAP_MATCH: "사주 궁합",
+  AFFINITY_MATCH: "인연의 결",
+};
+
+const serviceTypeLabel = (serviceType: string) =>
+  serviceTypeLabels[serviceType] ?? inyeonServiceTypeLabels[serviceType] ?? serviceType;
 
 const orderTypeLabels: Record<string, string> = {
   PREMIUM_PDF: "프리미엄 PDF",
   CALLIGRAPHY_IMAGE: "캘리그라피",
   STAMP_DELIVERY: "도장 배송",
   CANDIDATE_UNLOCK: "후보 일괄 공개",
+  // 인연링크. 라벨이 없으면 표에 `GUNGHAP_PDF` 같은 코드가 그대로 나온다.
+  GUNGHAP_PDF: "궁합 리포트 PDF",
+  AFFINITY_PDF: "인연의 결 리포트 PDF",
 };
 
 // USD 주문의 payment_amount는 센트 단위 정수로 저장되므로 원화와 표기를 구분한다.
@@ -694,13 +744,38 @@ type PendingOrderRow = {
   is_test?: boolean;
 };
 
-function DashboardView({ snapshot, summary, pendingOrders }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[] }) {
+type OtherAppSummary = { app: string; summary: Record<string, number> };
+
+function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[]; other?: OtherAppSummary }) {
   const pagedOrders = usePagedList(pendingOrders, "pending-orders", 16);
   const pendingOrderCount = snapshot.orderStatuses
     .filter((row) => row.payment_status === "PAID" && ["PENDING", "PROCESSING"].includes(row.fulfillment_status))
     .reduce((sum, row) => sum + row.count, 0);
   return (
     <>
+      {/* **이 화면의 숫자는 전부 네이밍링크 것이다.** 예전에는 인연링크 주문까지 함께 집계돼
+          매출이 조용히 합산됐다. 합치지 않고 한 줄로 알리는 이유는, 서비스별 성과를 보려면
+          갈라야 하지만 인연링크가 이 콘솔 어딘가에 있다는 사실은 여기서 보여야 하기 때문이다. */}
+      {other ? (
+        <Link
+          href={`${basePath}/inyeon`}
+          className="flex flex-wrap items-center gap-x-4 gap-y-1 rounded-xl border border-line bg-surface px-4 py-3 text-sm transition hover:border-brand-plum"
+        >
+          <span className="rounded bg-brand-plum/12 px-1.5 py-0.5 text-[11px] font-semibold text-brand-plum">
+            인연링크
+          </span>
+          <span className="text-muted">
+            매출 <b className="text-foreground">{number.format(other.summary.revenue ?? 0)}원</b>
+          </span>
+          <span className="text-muted">
+            주문 <b className="text-foreground">{number.format(other.summary.orders ?? 0)}건</b>
+          </span>
+          <span className="text-muted">
+            방문자 <b className="text-foreground">{number.format(other.summary.visitors ?? 0)}</b>
+          </span>
+          <span className="ml-auto text-xs text-brand-plum">인연링크 현황 보기 →</span>
+        </Link>
+      ) : null}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
         <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
         <Metric dense label="처리 대기 주문" value={number.format(pendingOrderCount)} note={"결제 후, 미완료\n(목표 건수 : 0)"} />
@@ -788,6 +863,98 @@ function DashboardView({ snapshot, summary, pendingOrders }: { snapshot: Snapsho
   );
 }
 
+/**
+ * 인연링크 현황. naminglink 대시보드와 **같은 데이터원을 쓰지만 칸이 다르다.**
+ *
+ * 뺀 것: AI 호출·토큰(규칙 엔진이라 항상 0), 회원 수(회원가입이 없다). 항상 0인 칸을 늘어놓으면
+ * 어느 0이 "정상"이고 어느 0이 "고장"인지 구분이 안 된다.
+ *
+ * 남긴 것 중 **광고는 0이 정상이다** — 인연링크는 아직 `ad_events`를 남기지 않는다. 그래서
+ * 숫자 대신 그 사실을 적는다.
+ */
+function InyeonDashboardView({
+  snapshot,
+  summary,
+  pendingOrders,
+}: {
+  snapshot: Snapshot;
+  summary: Record<string, number>;
+  pendingOrders: PendingOrderRow[];
+}) {
+  const pagedOrders = usePagedList(pendingOrders, "inyeon-pending", 10);
+  const pendingOrderCount = snapshot.orderStatuses
+    .filter((row) => row.payment_status === "PAID" && ["PENDING", "PROCESSING"].includes(row.fulfillment_status))
+    .reduce((sum, row) => sum + row.count, 0);
+  return (
+    <>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
+        <Metric dense label="발급 대기" value={number.format(pendingOrderCount)} note={"결제 후, 미발급\n(목표 건수 : 0)"} />
+        <Metric dense label="전체 주문" value={number.format(summary.orders ?? 0)} />
+        <Metric dense label="익명 방문자" value={number.format(summary.visitors ?? 0)} note={`페이지 조회 ${number.format(summary.visits ?? 0)}`} />
+        <Metric dense label="분석 완료" value={number.format(summary.analyses ?? 0)} note={"궁합 + 인연의 결"} />
+        <Metric dense label="광고 노출" value={number.format(summary.adImpressions ?? 0)} note={"인연링크는 아직 광고\n집계를 남기지 않습니다"} />
+      </div>
+      <div className="grid gap-5 md:grid-cols-2">
+        <DailyTrendChart title="일별 방문" points={snapshot.daily.map((row) => ({ day: row.day, value: row.visits }))} />
+        <DailyTrendChart title="일별 분석 완료" points={snapshot.daily.map((row) => ({ day: row.day, value: row.analyses }))} />
+      </div>
+      <div className="grid gap-5 xl:grid-cols-2">
+        <div className="grid gap-5">
+          <section>
+            <h2 className="mb-3 text-lg font-semibold">메뉴별 활용</h2>
+            <Table
+              compact
+              columnWidths={["40%", "20%", "20%", "20%"]}
+              headers={["메뉴", "시작", "완료", "실패"]}
+              rows={Object.entries(inyeonServiceTypeLabels).map(([serviceType, label]) => {
+                const row = snapshot.services.find((item) => item.service_type === serviceType);
+                return [
+                  label,
+                  number.format(row?.started ?? 0),
+                  number.format(row?.completed ?? 0),
+                  number.format(row?.failed ?? 0),
+                ];
+              })}
+            />
+          </section>
+          <section>
+            <h2 className="mb-3 text-lg font-semibold">국가별 접속 상위 10</h2>
+            <Table
+              compact
+              columnWidths={["46%", "27%", "27%"]}
+              headers={["국가", "조회", "방문자"]}
+              rows={snapshot.countries.slice(0, 10).map((row) => [countryLabel(row.country_code), number.format(row.visits), number.format(row.visitors)])}
+            />
+          </section>
+        </div>
+        <section className="flex flex-col">
+          <h2 className="mb-3 text-lg font-semibold">
+            발급 대기 주문{" "}
+            <span className="text-xs font-normal text-muted">(결제 완료 후 PDF 발급이 끝나지 않은 주문입니다. 오래 기다린 주문부터 표시됩니다.)</span>
+          </h2>
+          <Table
+            compact
+            headers={["주문일", "고객", "상품", "금액", "발급 상태"]}
+            rows={pagedOrders.pageItems.map((row) => [
+              orderDate(row.created_at),
+              <div key="customer" className="max-w-[180px] truncate" title={row.customer_email ?? row.customer_name ?? undefined}>
+                {row.customer_email ?? row.customer_name ?? "-"}
+              </div>,
+              orderTypeLabels[row.order_type] ?? row.order_type,
+              orderAmount(row.payment_amount, row.payment_currency),
+              fulfillmentLabels[row.fulfillment_status] ?? row.fulfillment_status,
+            ])}
+          />
+          <div className="mt-auto pt-3">
+            <Pagination page={pagedOrders.page} totalPages={pagedOrders.totalPages} total={pagedOrders.total} onChange={pagedOrders.setPage} />
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}
+
 export function AdminOperationsConsole({ view }: { view: View }) {
   const router = useRouter();
   const [days, setDays] = useState(30);
@@ -809,10 +976,17 @@ export function AdminOperationsConsole({ view }: { view: View }) {
         router.replace(`${basePath}/login`);
         return;
       }
+      // 인연링크 화면은 같은 API를 `app`만 바꿔 부른다 — 주문 목록과 집계 로직이 하나뿐이라야
+      // 한쪽만 고쳐지는 일이 없다.
       const apiView =
-        view === "ai" || view === "users" || view === "admins" || view === "orders" ? view : "dashboard";
+        view === "ai" || view === "users" || view === "admins" || view === "orders"
+          ? view
+          : view === "inyeon-orders"
+            ? "orders"
+            : "dashboard";
+      const app = viewApp[view] ?? "naminglink";
       const response = await fetch(
-        `/api/admin/operations?view=${apiView}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
+        `/api/admin/operations?view=${apiView}&app=${app}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
         {
           headers: { Authorization: `Bearer ${data.session.access_token}` },
           cache: "no-store",
@@ -834,7 +1008,7 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const copy = viewCopy[view];
   const snapshot = payload?.snapshot as Snapshot | undefined;
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
-  const showRange = !["users", "admins", "orders"].includes(view);
+  const showRange = !["users", "admins", "orders", "inyeon-orders"].includes(view);
   // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·운영자·AI 사용량은 주문과 무관).
   const showTestToggle = !["users", "admins", "ai"].includes(view);
 
@@ -886,7 +1060,7 @@ export function AdminOperationsConsole({ view }: { view: View }) {
           mode={view === "admins" ? "admins" : "members"}
         />
       );
-    if (view === "orders") {
+    if (view === "orders" || view === "inyeon-orders") {
       return (
         <OrdersView
           orders={(payload?.orders ?? []) as OrderRow[]}
@@ -906,7 +1080,22 @@ export function AdminOperationsConsole({ view }: { view: View }) {
     if (!snapshot) return null;
     if (view === "analytics") return <AnalyticsView snapshot={snapshot} summary={summary} />;
     if (view === "usage") return <UsageView snapshot={snapshot} summary={summary} />;
-    return <DashboardView snapshot={snapshot} summary={summary} pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]} />;
+    if (view === "inyeon")
+      return (
+        <InyeonDashboardView
+          snapshot={snapshot}
+          summary={summary}
+          pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}
+        />
+      );
+    return (
+      <DashboardView
+        snapshot={snapshot}
+        summary={summary}
+        pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}
+        other={payload?.other as OtherAppSummary | undefined}
+      />
+    );
   })();
 
   return (

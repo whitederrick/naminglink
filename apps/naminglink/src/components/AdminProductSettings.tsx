@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { appForProductCode, type AppKey } from "@naminglink/core/apps";
+
 import { AdminShell } from "@/components/AdminOperationsConsole";
 import { PageHeader, Table } from "@/components/admin-ui";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
@@ -10,24 +12,8 @@ import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 // 상품 설정 화면: 가격·통화·서체 적용 수·노출을 조정한다(변경 이력 자동 기록).
 // 가격 변경 시 요금안내·약관 문서의 표기 금액도 함께 갱신해야 한다.
 
-/**
- * 상품이 어느 서비스 것인지.
- *
- * `product_settings`에는 서비스 컬럼이 없다 — 한 표를 두 앱이 나눠 쓴다. 그래서 코드로 가른다.
- * **인연링크 것만 적고 나머지는 전부 naminglink로 본다.** 인연링크가 파는 것은 사주 궁합 PDF와
- * 인연의 결 PDF 둘뿐이고 앞으로도 적은 쪽이라, 새 상품이 생겼을 때 기본값이 맞을 확률이 높다.
- *
- * 새 인연링크 상품을 만들면 여기에 코드를 더할 것. 빠뜨리면 배지만 틀리고 값은 멀쩡하다.
- */
-const INYEONLINK_CODES = new Set([
-  "GUNGHAP_PDF_KRW",
-  "GUNGHAP_PDF_USD",
-  "AFFINITY_PDF_KRW",
-  "AFFINITY_PDF_USD",
-]);
-
 function ServiceBadge({ code }: { code: string }) {
-  const isInyeon = INYEONLINK_CODES.has(code);
+  const isInyeon = appForProductCode(code) === "inyeonlink";
 
   return (
     <span
@@ -75,7 +61,26 @@ function price(amount: number, currency: string) {
   return currency === "USD" ? `US$${(amount / 100).toFixed(2)}` : `₩${amount.toLocaleString("ko-KR")}`;
 }
 
-export function AdminProductSettings() {
+const COPY: Record<AppKey, { title: string; description: string }> = {
+  naminglink: {
+    title: "상품 설정",
+    description:
+      "네이밍링크 상품의 가격(USD는 센트 단위)·서체 적용 수·노출을 조정합니다(인연링크 리포트는 '인연링크 상품' 화면에 따로 있습니다). 변경은 이력에 기록되며, 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 합니다.",
+  },
+  inyeonlink: {
+    title: "인연링크 상품",
+    description:
+      "사주 궁합 리포트와 인연의 결 리포트 PDF입니다. 메뉴 둘 × 권역 둘(국내 원화·해외 달러)로 넷이며, 화면에 뜨는 가격과 실제 청구 금액이 모두 이 값에서 나옵니다.\n서체 수는 이 상품들과 무관해 표시하지 않습니다. 가격을 바꾸면 약관의 표기 금액도 함께 갱신해야 합니다(`verify-legal-prices.ts`가 대조합니다).",
+  },
+};
+
+/**
+ * 상품 설정 화면.
+ *
+ * `app`으로 한 서비스만 추려 보여 준다. 한 표에 20건을 늘어놓으면 인연링크 상품 넷을 눈으로
+ * 찾아야 하고, 판매 스위치처럼 되돌리기 번거로운 조작이 남의 상품 옆에 붙는다.
+ */
+export function AdminProductSettings({ app }: { app: AppKey }) {
   const router = useRouter();
   const [token, setToken] = useState<string | null>(null);
   const [products, setProducts] = useState<ProductRow[]>([]);
@@ -100,17 +105,20 @@ export function AdminProductSettings() {
       setError(data?.error ?? "상품 설정을 불러오지 못했습니다.");
       return;
     }
-    setProducts(data.products ?? []);
-    setHistory(data.history ?? []);
+    // 걸러 내는 것은 화면 쪽이다. 20건짜리 응답이라 서버에 인자를 더할 이유가 없고, 이력은
+    // 상품 코드로 오므로 같은 기준으로 함께 거른다.
+    const rows = (data.products ?? []).filter((row) => appForProductCode(row.code) === app);
+    setProducts(rows);
+    setHistory((data.history ?? []).filter((row) => appForProductCode(row.code) === app));
     setDrafts(
       Object.fromEntries(
-        (data.products ?? []).map((row) => [
+        rows.map((row) => [
           row.code,
           { amount: String(row.amount), font_count: String(row.font_count) },
         ]),
       ),
     );
-  }, [router]);
+  }, [app, router]);
 
   useEffect(() => {
     void (async () => {
@@ -161,22 +169,28 @@ export function AdminProductSettings() {
     await load(token);
   }
 
+  // 서체 선택이 있는 상품은 naminglink 쪽뿐이다. 이 값이 배지 노출 여부도 함께 정한다 —
+  // 둘 다 "여러 서비스를 한 표에서 보고 있는가"라는 같은 질문이다.
+  const showFonts = app === "naminglink";
+
   return (
     <AdminShell>
-      <PageHeader
-        title="상품 설정"
-        description="가격(USD는 센트 단위)·서체 적용 수·노출을 조정합니다. 변경은 이력에 기록되며, 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 합니다."
-      />
+      <PageHeader title={COPY[app].title} description={COPY[app].description} />
 
       {message ? <p className="mb-3 rounded-lg bg-surface-strong p-3 text-sm text-brand-teal">{message}</p> : null}
       {error ? <p className="mb-3 rounded-lg bg-brand-rose/5 p-3 text-sm text-red-600">{error}</p> : null}
 
       <Table
-        headers={["상품", "현재 가격", "금액", "서체 수", "저장", "노출", "최근 수정"]}
+        headers={
+          showFonts
+            ? ["상품", "현재 가격", "금액", "서체 수", "저장", "노출", "최근 수정"]
+            : ["상품", "현재 가격", "금액", "저장", "노출", "최근 수정"]
+        }
         rows={products.map((row) => [
           <div key="name">
             <p className="font-medium">
-              <ServiceBadge code={row.code} />
+              {/* 한 서비스만 추려 볼 때는 배지가 모든 행에서 같은 말을 반복한다. */}
+              {showFonts ? <ServiceBadge code={row.code} /> : null}
               {row.name_ko}
             </p>
             <p className="text-xs text-muted">{row.code} · {row.currency}</p>
@@ -193,17 +207,22 @@ export function AdminProductSettings() {
             }
             className="h-9 w-24 rounded border border-line bg-background px-2 text-sm"
           />,
-          <input
-            key="fonts"
-            value={drafts[row.code]?.font_count ?? ""}
-            onChange={(event) =>
-              setDrafts((current) => ({
-                ...current,
-                [row.code]: { ...current[row.code], font_count: event.target.value },
-              }))
-            }
-            className="h-9 w-14 rounded border border-line bg-background px-2 text-sm"
-          />,
+          // 인연링크 리포트에는 서체 선택이 없다. 칸을 두면 0을 고칠 수 있는 것처럼 보인다.
+          ...(showFonts
+            ? [
+                <input
+                  key="fonts"
+                  value={drafts[row.code]?.font_count ?? ""}
+                  onChange={(event) =>
+                    setDrafts((current) => ({
+                      ...current,
+                      [row.code]: { ...current[row.code], font_count: event.target.value },
+                    }))
+                  }
+                  className="h-9 w-14 rounded border border-line bg-background px-2 text-sm"
+                />,
+              ]
+            : []),
           <button
             key="save"
             type="button"
@@ -231,12 +250,16 @@ export function AdminProductSettings() {
       <section className="mt-6">
         <p className="mb-2 text-sm font-semibold">변경 이력 (최근 30건)</p>
         <Table
-          headers={["일시", "상품", "금액", "서체 수", "판매", "변경자"]}
+          headers={
+            showFonts
+              ? ["일시", "상품", "금액", "서체 수", "판매", "변경자"]
+              : ["일시", "상품", "금액", "판매", "변경자"]
+          }
           rows={history.map((row) => [
             new Date(row.changed_at).toLocaleString("ko-KR"),
             row.code,
             `${price(row.old_amount ?? 0, row.old_currency ?? "KRW")} → ${price(row.new_amount ?? 0, row.new_currency ?? "KRW")}`,
-            `${row.old_font_count ?? 0} → ${row.new_font_count ?? 0}`,
+            ...(showFonts ? [`${row.old_font_count ?? 0} → ${row.new_font_count ?? 0}`] : []),
             // 컬럼 추가 이전 행은 값이 없다. 바뀌지 않은 경우와 구분해서 표시한다.
             row.old_enabled === null || row.new_enabled === null
               ? "-"

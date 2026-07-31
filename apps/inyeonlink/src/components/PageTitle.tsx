@@ -1,34 +1,36 @@
-import { AdBanner } from "@/components/AdBanner";
+import { LocaleSelect } from "@/components/LocaleSelect";
 import type { Locale } from "@/lib/i18n";
 
 /**
- * 화면 제목과 그 옆의 고정 배너 자리.
+ * 화면 제목 줄. **제목과 언어 선택기**가 전부다.
  *
- * 배너가 머리글에 있을 때는 화면을 열자마자 브랜드·구분선·광고가 먼저 나오고 제목이 그 아래에서
- * 시작했다. 제목 옆으로 내리면 **읽을 것이 있는 자리에 광고가 붙고** 머리글은 돌아갈 길만 남는다.
+ * **오른쪽 끝은 언어 자리다(사용자 결정).** 예전에는 여기 고정 배너가 있었고 언어는 머리글에
+ * 단추 여섯 개로 늘어서 있었다. 배너는 머리글의 가로형 한 자리로 합치고(`PageHeader` 주석),
+ * 그 자리를 언어가 받았다 — 지금 무슨 언어로 보고 있는지는 제목 옆이 가장 잘 보인다.
  *
- * 폭에 상한을 둔다. 제목 옆 남는 자리를 다 내주면 좁은 데스크탑에서 광고가 제목보다 커진다.
- * 좁은 화면에서는 제목 아래로 내려간다.
- *
- * 슬롯이 비어 있으면 `AdBanner`가 아무것도 그리지 않는다 — 지금은 퍼블리셔 ID가 없어 제목만 보인다.
+ * 광고와 붙여 두지 않는 것이 중요하다. 누를 수 있는 것을 광고 옆에 두면 오클릭이 나고,
+ * 애드센스는 그것을 계정 정지 사유로 본다(naminglink가 머리글에서 실제로 겪고 고친 자리다).
  */
 export function PageTitle({
   title,
   locale,
+  path,
   className = "",
 }: {
   title: string;
   locale: Locale;
+  /** 지금 화면의 경로(로케일 없는 형태). 언어를 바꿔도 이 화면에 머물게 한다. */
+  path: string;
   className?: string;
 }) {
   return (
+    // `items-start`: 제목이 두 줄 이상으로 접히는 언어에서도 언어 칩이 첫 줄에 붙어 있게 한다.
+    // 가운데 정렬이면 제목 길이에 따라 칩이 위아래로 흔들린다.
     <div
-      className={`flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6 ${className}`}
+      className={`flex items-start justify-between gap-3 ${className}`}
     >
-      <h1 className="break-keep-all text-3xl font-bold">{title}</h1>
-      <div className="w-full min-w-0 sm:w-auto sm:max-w-[18rem] sm:flex-1">
-        <AdBanner placement="header" locale={locale} />
-      </div>
+      <h1 className="break-keep-all min-w-0 text-3xl font-bold">{title}</h1>
+      <LocaleSelect locale={locale} path={path} className="mt-0.5" />
     </div>
   );
 }

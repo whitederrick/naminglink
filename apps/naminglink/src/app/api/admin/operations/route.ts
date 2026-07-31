@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isAppKey, type AppKey } from "@naminglink/core/apps";
 import { hasAdminRole, requireAdmin } from "@/lib/admin-auth";
 import { KRW_PER_USD, summarizeAiUsage } from "@/lib/ai-pricing";
 import { STAMP_MODELS, type StampModelCode } from "@/lib/goods-products";
@@ -35,6 +36,10 @@ export async function GET(request: NextRequest) {
   // 로컬 개발이 만든 주문(is_test)은 운영 화면에서 기본적으로 감춘다. 개발·운영이 같은 DB를
   // 보기 때문이다. 확인이 필요할 때만 ?includeTest=1로 함께 본다.
   const includeTest = request.nextUrl.searchParams.get("includeTest") === "1";
+  // 어느 서비스의 지표인가. **기본값은 naminglink다** — 기존 화면들은 이 인자를 보내지 않고,
+  // 그 화면들은 전부 naminglink 전용이 됐다(인연링크는 별도 메뉴로 나갔다).
+  const rawApp = request.nextUrl.searchParams.get("app");
+  const app: AppKey = isAppKey(rawApp) ? rawApp : "naminglink";
 
   // 운영자 계정과 굿즈 구매 회원은 목적도 위험도 다르다(권한 부여 ↔ 개인정보 삭제 이행).
   // 같은 표에 섞어 두면 성격이 다른 조작이 나란히 놓여 실수를 부른다. 출처는 auth.users 하나이고
@@ -58,8 +63,12 @@ export async function GET(request: NextRequest) {
   }
 
   if (view === "orders") {
+    // **서비스로 가른다.** 굿즈 주문 화면은 naminglink 것만, 인연링크 메뉴는 인연링크 것만 본다.
+    // 한 표에 섞어 두면 서비스별 매출을 눈으로 세야 하고, 처리 상태의 뜻도 서로 다르다
+    // (도장은 배송이고 리포트는 PDF 발급이다).
     const ordersQuery = supabase.from("orders")
-      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address,metadata,is_test");
+      .select("id,user_id,order_type,customer_name,customer_email,payment_status,payment_amount,payment_currency,fulfillment_status,provider_payment_id,created_at,updated_at,shipping_address,metadata,is_test")
+      .eq("service", app);
     const { data, error } = await (includeTest ? ordersQuery : ordersQuery.eq("is_test", false))
       .order("created_at", { ascending: false }).limit(300);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
@@ -93,18 +102,41 @@ export async function GET(request: NextRequest) {
   const { data, error } = await supabase.rpc("admin_analytics_snapshot", {
     p_days: days,
     p_include_test: includeTest,
+    p_app: app,
   });
   if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
   // 대시보드의 주문·결제 현황: 결제는 됐지만 제작·배송 처리가 끝나지 않은 주문 목록.
   // 오래 기다린 주문부터 처리하도록 주문일 오름차순으로 내려준다.
   const pendingQuery = supabase.from("orders")
     .select("id,order_type,customer_name,customer_email,payment_amount,payment_currency,fulfillment_status,created_at,is_test")
+    .eq("service", app)
     .eq("payment_status", "PAID")
     .in("fulfillment_status", ["PENDING", "PROCESSING", "SHIPPED"]);
   const { data: pendingOrders, error: pendingError } = await (includeTest ? pendingQuery : pendingQuery.eq("is_test", false))
     .order("created_at", { ascending: true }).limit(300);
   if (pendingError) return NextResponse.json({ ok: false, error: pendingError.message }, { status: 500 });
-  return NextResponse.json({ ok: true, includesTest: includeTest, snapshot: data, pendingOrders: pendingOrders ?? [] });
+
+  // 반대편 서비스의 요약. **대시보드에서 "저쪽은 지금 어떤가"를 한 칸으로 보여 주려는 것이다.**
+  // 매출을 합쳐 버리면 서비스별 성과를 못 보고, 아예 감추면 이 콘솔이 인연링크도 관리한다는
+  // 사실이 대시보드에서 사라진다. 그래서 합치지 않고 따로 붙인다.
+  //
+  // 실패해도 대시보드를 막지 않는다 — 이 칸 하나 때문에 화면 전체가 죽으면 안 된다.
+  const otherApp: AppKey = app === "inyeonlink" ? "naminglink" : "inyeonlink";
+  const { data: otherData } = await supabase.rpc("admin_analytics_snapshot", {
+    p_days: days,
+    p_include_test: includeTest,
+    p_app: otherApp,
+  });
+  const otherSummary = (otherData as { summary?: Record<string, number> } | null)?.summary ?? null;
+
+  return NextResponse.json({
+    ok: true,
+    includesTest: includeTest,
+    app,
+    snapshot: data,
+    pendingOrders: pendingOrders ?? [],
+    other: otherSummary ? { app: otherApp, summary: otherSummary } : null,
+  });
 }
 
 const actionSchema = z.discriminatedUnion("action", [

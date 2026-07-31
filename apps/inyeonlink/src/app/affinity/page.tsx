@@ -55,24 +55,26 @@ export default async function AffinityPage({
       <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/25" />
 
       <div className="relative z-10">
-        <PageHeader brand={dictionary.brand} locale={locale} path="/affinity" />
+        <PageHeader locale={locale} path="/affinity" />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <section className="mt-10">
-            <PageTitle title={dictionary.affinity.formTitle} locale={locale} />
+            <PageTitle
+              title={dictionary.affinity.formTitle}
+              locale={locale}
+              path="/affinity"
+            />
             <p className="break-keep-all mt-3 text-muted">
               {dictionary.affinity.formDescription}
             </p>
+            {/* 궁합 입력 화면과 같은 자리다 — 두 화면이 형제로 읽혀야 한다. */}
+            <GuideLink locale={locale} align="start" className="mt-3" />
           </section>
 
           <AffinityForm dictionary={dictionary} locale={locale} />
 
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
-
-          {/* 무엇을 근거로 계산하는지 궁금해지는 자리는 입력 직후다. */}
-          <GuideLink locale={locale} className="mt-6" />
-
         </div>
 
         {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. 예전에 입력 화면 맨 아래에 있던

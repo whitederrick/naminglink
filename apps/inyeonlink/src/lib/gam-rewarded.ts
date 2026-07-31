@@ -19,20 +19,18 @@
  * 죽거나 이용자가 막히면 안 된다.
  */
 
-/** 광고 단위 경로. GAM 콘솔에서 보상형 광고 단위를 만들면 `/네트워크코드/이름` 꼴로 나온다. */
-const rawUnit = (process.env.NEXT_PUBLIC_GAM_REWARDED_UNIT ?? "").trim();
+/**
+ * **설정값은 `gam-rewarded-config.ts`에 있다.** 이 파일은 `"use client"`라, 여기서 내보낸 값을
+ * 서버에서 읽으면 `undefined`가 된다(그쪽 파일 주석에 사연이 있다). 서버 코드는 반드시
+ * 설정 파일에서 직접 가져올 것.
+ */
+import {
+  gamCspSources,
+  gamRewardedEnabled,
+  gamRewardedUnit,
+} from "@/lib/gam-rewarded-config";
 
-/** 형식까지 확인한다. 오타가 들어간 채로 스크립트만 붙으면 CSP만 열리고 광고는 안 나온다. */
-export const gamRewardedEnabled = /^\/\d{5,}\/[\w./-]+$/.test(rawUnit);
-
-export const gamRewardedUnit = gamRewardedEnabled ? rawUnit : "";
-
-/** GAM이 쓰는 도메인. CSP에 넣어야 하는 값이라 `next.config.ts`와 공유한다. */
-export const gamCspSources = {
-  script: ["https://securepubads.g.doubleclick.net", "https://pagead2.googlesyndication.com"],
-  frame: ["https://securepubads.g.doubleclick.net", "https://googleads.g.doubleclick.net"],
-  connect: ["https://securepubads.g.doubleclick.net", "https://googleads.g.doubleclick.net"],
-} as const;
+export { gamCspSources, gamRewardedEnabled, gamRewardedUnit };
 
 const GPT_SRC = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
 /** 이 시간 안에 준비되지 않으면 없는 것으로 본다. 이용자를 무한정 세워 둘 수 없다. */

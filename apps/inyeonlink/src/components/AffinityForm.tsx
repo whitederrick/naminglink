@@ -16,6 +16,7 @@ import {
 } from "@/lib/affinity-input";
 import { AdWatchOverlay } from "@/components/AdRewardGate";
 import { submitAdGateEnabled } from "@/lib/ads";
+import { trackAnalytics } from "@/lib/analytics-client";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 export function AffinityForm({
@@ -64,6 +65,9 @@ export function AffinityForm({
     }
 
     setSubmitting(true);
+    // 분석 시작. 궁합과 같은 방식이다(`sendBeacon` — 곧 문서를 갈아 끼운다).
+    trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "AFFINITY_MATCH", locale });
+
     // 궁합과 같은 이유로 프래그먼트에 싣고 location.assign으로 넘긴다(주소가 확정된 뒤에
     // 결과 화면의 스크립트가 돈다). 자세한 사연은 CompatibilityForm 주석에 있다.
     // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에

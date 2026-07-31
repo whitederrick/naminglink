@@ -9,7 +9,9 @@
 
 // **상대 경로로 둔다.** 이 파일은 `next.config.ts`가 직접 읽는데, 그 자리에서는
 // tsconfig의 `@/` 별칭이 보장되지 않는다.
-import { gamRewardedEnabled } from "./gam-rewarded";
+// `gam-rewarded`가 아니라 설정 파일에서 가져온다 — 그쪽은 `"use client"`라 서버에서 읽으면
+// 값이 undefined가 된다(`gam-rewarded-config.ts` 주석 참고).
+import { gamRewardedEnabled } from "./gam-rewarded-config";
 
 /** 퍼블리셔 ID. 애드센스 계정의 `ca-pub-0000000000000000` 꼴. */
 const rawClient = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
@@ -50,9 +52,12 @@ export const adSlots = {
    * 그 팝업은 화면을 덮는 오버레이이고 결과를 여는 관문이라, 애드센스 표시 광고를 두면
    * 오버레이 게재 금지와 보상형 금지에 동시에 걸린다(naminglink에서 같은 이유로 걷어냈다).
    * 보상형이 필요하면 GAM·AdMob 보상형 포맷을 쓸 것. **이 표에 그 자리를 되돌리지 말 것.**
+   *
+   * **제목 옆 `header` 자리도 없앴다(2026-07-31).** 입력 화면은 폼 하나뿐인데 상단·제목 옆·하단
+   * 으로 광고가 셋이 되어 콘텐츠보다 많아 보였다. 머리글을 다시 짜면서 가로형 배너 한 자리
+   * (`top`)로 합쳤다 — 제목 줄 오른쪽 끝은 언어 선택기가 받았고, 누를 수 있는 것을 광고 옆에
+   * 두면 오클릭이 난다. 되돌리려면 `PageTitle`에 자리를 만드는 것부터 다시 해야 한다.
    */
-  /** 머리글 옆 고정 배너. naminglink의 service_header와 같은 자리다. */
-  header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HEADER ?? "").trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;

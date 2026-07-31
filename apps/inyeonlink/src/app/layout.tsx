@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 
 import "./globals.css";
+import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
 import { adsEnabled, adsenseClient } from "@/lib/ads";
 import { isRtlLocale } from "@/lib/i18n";
@@ -54,6 +55,9 @@ export default async function RootLayout({
     >
       <body>
         <LocaleHtmlSync />
+        {/* 접속 집계. `site_events`에 app='inyeonlink'로 쌓이고 운영자 콘솔의
+            '인연링크 현황' 화면이 이것을 읽는다. */}
+        <AnalyticsTracker />
         {/* 푸터는 레이아웃이 아니라 각 페이지에 둔다. 레이아웃은 searchParams를 받지 못해
             ?lang=으로 바꾼 언어를 알 수 없고, 그러면 한국어 화면에 영어 푸터가 붙는다. */}
         {children}

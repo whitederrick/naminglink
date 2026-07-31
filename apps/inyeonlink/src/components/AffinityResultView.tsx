@@ -7,6 +7,7 @@ import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
+import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
@@ -98,7 +99,9 @@ export function AffinityResultView({
 
     resolve()
       .then(({ outcome, input }) => {
-        if (!cancelled) setState({ status: "ready", outcome, input, fragment });
+        if (cancelled) return;
+        setState({ status: "ready", outcome, input, fragment });
+        trackAnalytics({ eventType: "ANALYSIS_COMPLETED", serviceType: "AFFINITY_MATCH", locale });
       })
       .catch((cause: Error) => {
         if (cancelled) return;
@@ -107,6 +110,8 @@ export function AffinityResultView({
           message: errorMessage(cause.message),
           fragment,
         });
+        // 실패도 남긴다 — 완료만 세면 완료율이 항상 100%로 보인다.
+        trackAnalytics({ eventType: "ANALYSIS_FAILED", serviceType: "AFFINITY_MATCH", locale });
       });
 
     function errorMessage(code: string) {
@@ -120,7 +125,7 @@ export function AffinityResultView({
     return () => {
       cancelled = true;
     };
-  }, [resolvedFragment, dictionary, t.missingInput]);
+  }, [resolvedFragment, dictionary, locale, t.missingInput]);
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {
