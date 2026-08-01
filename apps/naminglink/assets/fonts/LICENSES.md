@@ -18,6 +18,7 @@ License 1.1**(전문: `OFL.txt`)이다. 2026-07-23 각 폰트의 원 배포처 �
 | --- | --- | --- | --- | --- |
 | NotoSansKR-400.ttf, NotoSansKR-700.ttf | Noto Sans KR | Google (Noto Project) | OFL 1.1 | @fontsource/noto-sans-kr (woff 압축 해제본) |
 | NotoSansCJKkr-Naming.otf | Noto Sans CJK KR (서브셋) | Google/Adobe (Noto CJK) | OFL 1.1 | Noto Sans CJK KR 서브셋 |
+| NotoSansJP-Kana.ttf | Noto Sans JP (가나 서브셋) | Google (Noto Project) | OFL 1.1 | noto-cjk `Sans/Variable/TTF/Subset/NotoSansJP-VF.ttf` |
 | NotoSans-Regular.ttf | Noto Sans (라틴 확장·키릴·그리스) | Google (Noto Project) | OFL 1.1 | notofonts.github.io |
 | NotoSansThai-Regular.ttf | Noto Sans Thai | Google (Noto Project) | OFL 1.1 | notofonts.github.io |
 | NotoSansDevanagari-Regular.ttf | Noto Sans Devanagari | Google (Noto Project) | OFL 1.1 | notofonts.github.io |
@@ -26,6 +27,24 @@ License 1.1**(전문: `OFL.txt`)이다. 2026-07-23 각 폰트의 원 배포처 �
 | NanumBrushScript-Regular.ttf | 나눔손글씨 붓 | NAVER Corporation | OFL 1.1 | google/fonts (ofl/nanumbrushscript) |
 | NanumPenScript-Regular.ttf | 나눔손글씨 펜 (현재 미사용) | NAVER Corporation | OFL 1.1 | google/fonts (ofl/nanumpenscript) |
 | EastSeaDokdo-Regular.ttf | 동해독도체 | YoonDesign Inc. | OFL 1.1 | google/fonts (ofl/eastseadokdo) |
+
+## 서브셋 두 개를 2026-08-01에 다시 만들었다
+
+일본어·중국어 PDF가 통째로 깨져 있던 것을 고치면서 손봤다. 인연링크에도 **같은 파일**을 둔다.
+
+- `NotoSansCJKkr-Naming.otf` — 9,088자에서 **21,823자**로 넓혔다(U+4E00–9FFF 전체 + 호환 한자
+  U+F900–FAFF + 기존 서브셋). 예전 서브셋은 한국 인명용 한자만 담아 **일본 신자체 67자·중국
+  간체 259자가 빠져 있었고**, 그 글자들이 내장 Helvetica로 되돌아가 엉뚱한 라틴 글자로 찍혔다.
+  자형은 예전과 같다 — 같은 Noto Sans CJK **KR**에서 다시 뜬 것이라 한국 한자 자형이 그대로다.
+- `NotoSansJP-Kana.ttf` — 새로 만들었다. 가나(U+3041–309F·30A0–30FF·31F0–31FF·FF61–FF9F)와
+  CJK·전각 문장부호, 화살표·기호를 담는다. **한자는 일부러 넣지 않았다**(위 파일이 맡는다).
+  가나가 CJK 서브셋에 없어 일본어가 깨지고 있었고, 화살표(→)는 라틴 자족에도 없어 23로케일
+  전부에서 깨져 있었다.
+
+두 파일 모두 **U+002D(하이픈) 글리프를 일부러 비워 두었다.** `@react-pdf/textkit`은 줄이
+바뀌는 자리에 그 줄 마지막 서체의 하이픈을 찍는데(`insertGlyph(HYPHEN)`), CJK 문장에서는
+줄마다 하이픈이 생겨 잘못된 조판이 된다. 글리프를 비우면 아무것도 찍히지 않는다. 이 서체로
+가는 문자에 진짜 하이픈은 오지 않는다 — 문장부호는 라우팅이 라틴 서체로 보낸다.
 
 ## 선택형 리포트 서체 (Supabase `report_fonts`)
 

@@ -1,129 +1,69 @@
 import path from "node:path";
 import React from "react";
-import { Font, Text, type TextProps } from "@react-pdf/renderer";
+import { Font } from "@react-pdf/renderer";
+import { makeMixedText, SCRIPT_FAMILY } from "@naminglink/core/pdf/script-runs";
 
 // 리포트 공용 폰트 등록과 다국어 혼합 텍스트 렌더링.
 // react-pdf는 Text 하나에 폰트 하나만 허용하고 폰트 폴백이 없어, 한 문장에 여러 문자가
-// 섞이면(예: 태국어 설명 속 한글 이름) 글리프가 깨진다. splitScriptRuns가 문자 단위로
-// 문자 체계를 판별해 이어지는 구간(run)마다 맞는 폰트를 지정한다.
-// 기본(라틴·키릴·숫자·문장부호)은 NotoSansCJKkr — 한글·한자·라틴·키릴을 모두 덮는다.
+// 섞이면(예: 태국어 설명 속 한글 이름) 글리프가 깨진다. 문자 단위로 문자 체계를 판별해
+// 이어지는 구간(run)마다 맞는 폰트를 지정하는 일은 `@naminglink/core/pdf/script-runs`가 한다.
+//
+// **판별 규칙을 이 파일에 복사해 두지 않는다.** 예전에는 같은 규칙이 여기에도 있었는데,
+// 인연링크에서 고친 것이 이쪽에 오지 않아 결함이 한쪽에만 남았다(2026-08-01). 이 파일은
+// "어떤 패밀리를 어떤 파일로 등록하는가"만 맡는다.
+const fontPath = (file: string) => path.join(process.cwd(), "assets/fonts", file);
+
+/**
+ * 패밀리 → 서체 파일. **등록과 검증이 같은 표를 본다.**
+ *
+ * 목록을 따로 적어 두면 어긋난다 — 실제로 CJK 서브셋이 가나까지 덮는다고 적혀 있었지만
+ * 그 서브셋에 가나가 없어 일본어 PDF가 통째로 깨져 있었다(2026-08-01 실측).
+ * `scripts/verify-pdf-glyphs.ts`가 이 표를 읽어 23로케일 문구를 전수 대조한다.
+ *
+ * **폰트는 반드시 TTF/OTF로 둔다.** WOFF를 등록하면 @react-pdf가 임베드에 22초를 쓴다
+ * (같은 폰트 TTF는 28ms). PDF 타임아웃의 실제 원인이었다.
+ */
+export const FONT_FILES: Record<string, Array<{ file: string; weight: number }>> = {
+  [SCRIPT_FAMILY.hangul]: [
+    { file: "NotoSansKR-400.ttf", weight: 400 },
+    { file: "NotoSansKR-700.ttf", weight: 700 },
+  ],
+  // 한자 전용 서브셋이다. **가나는 없다** — 가나는 아래 kana 패밀리가 맡는다.
+  [SCRIPT_FAMILY.cjk]: [{ file: "NotoSansCJKkr-Naming.otf", weight: 400 }],
+  // 가나 + CJK·전각 문장부호 + 화살표(→). 라틴 자족에 없는 기호도 이 파일이 덮는다.
+  [SCRIPT_FAMILY.kana]: [{ file: "NotoSansJP-Kana.ttf", weight: 400 }],
+  // 커버리지 실측(2026-07-23): NotoSansKR=한글+기본 라틴(키릴·라틴 확장 없음),
+  // NotoSans=라틴 확장·키릴·그리스. 그래서 기본은 NotoSans다.
+  [SCRIPT_FAMILY.base]: [{ file: "NotoSans-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.thai]: [{ file: "NotoSansThai-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.devanagari]: [{ file: "NotoSansDevanagari-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.arabic]: [{ file: "NotoSansArabic-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.khmer]: [{ file: "NotoSansKhmer-Regular.ttf", weight: 400 }],
+};
+
+for (const [family, files] of Object.entries(FONT_FILES)) {
+  Font.register({
+    family,
+    fonts: files.map(({ file, weight }) => ({ src: fontPath(file), fontWeight: weight })),
+  });
+}
+
+// 표지·아트용 손글씨 서체. 문자 체계 라우팅과 무관하게 이름만 크게 쓰는 자리에 쓴다.
 Font.register({
   family: "EastSeaDokdo",
-  fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/EastSeaDokdo-Regular.ttf"), fontWeight: 400 },
-  ],
-});
-Font.register({
-  family: "NotoSansThai",
-  fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NotoSansThai-Regular.ttf"), fontWeight: 400 },
-  ],
-});
-Font.register({
-  family: "NotoSansDevanagari",
-  fonts: [
-    {
-      src: path.join(process.cwd(), "assets/fonts/NotoSansDevanagari-Regular.ttf"),
-      fontWeight: 400,
-    },
-  ],
-});
-Font.register({
-  family: "NotoSansArabic",
-  fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NotoSansArabic-Regular.ttf"), fontWeight: 400 },
-  ],
-});
-Font.register({
-  family: "NotoSansKhmer",
-  fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NotoSansKhmer-Regular.ttf"), fontWeight: 400 },
-  ],
-});
-Font.register({
-  family: "NotoSans",
-  fonts: [
-    { src: path.join(process.cwd(), "assets/fonts/NotoSans-Regular.ttf"), fontWeight: 400 },
-  ],
+  fonts: [{ src: fontPath("EastSeaDokdo-Regular.ttf"), fontWeight: 400 }],
 });
 
-// 커버리지 실측(2026-07-23): NotoSansKR=한글+기본 라틴(키릴·라틴 확장 없음),
-// NotoSansCJKkr-Naming=한자 전용 서브셋(한글·라틴 없음), NotoSans=라틴 확장·키릴·그리스.
-// 그래서 기본은 NotoSans, 한글은 NotoSansKR, 한자·가나는 CJK 서브셋으로 라우팅한다.
-const BASE_FONT = "NotoSans";
+const RawMixedText = makeMixedText({ registeredFamilies: Object.keys(FONT_FILES) });
 
-const SCRIPT_FONTS: Array<{ pattern: RegExp; font: string }> = [
-  { pattern: /[가-힣ㄱ-ㆎᄀ-ᇿﾡ-ￜ]/, font: "NotoSansKR" },
-  { pattern: /[㐀-䶿一-鿿豈-﫿々〆〇ぁ-ゟ゠-ヿ]/, font: "NotoSansCJKkr" },
-  { pattern: /[฀-๿]/, font: "NotoSansThai" },
-  { pattern: /[ऀ-ॿ᳐-᳿꣠-ꣿ]/, font: "NotoSansDevanagari" },
-  { pattern: /[؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]/, font: "NotoSansArabic" },
-  { pattern: /[ក-៿᧠-᧿]/, font: "NotoSansKhmer" },
-];
-
-function fontForChar(char: string) {
-  for (const { pattern, font } of SCRIPT_FONTS) {
-    if (pattern.test(char)) return font;
-  }
-  return null;
+/**
+ * 문자 체계가 섞인 문자열을 구간별 폰트로 렌더한다.
+ *
+ * **여기서 `**` 표기를 걷어낸다.** 문구의 강조는 화면용 표기라 PDF에서는 뜻이 없고, 별표가
+ * RTL 재정렬을 깨뜨리는 것도 확인됐다(인연링크에서 같은 처리를 한다).
+ */
+export function MixedText(props: React.ComponentProps<typeof RawMixedText>) {
+  return <RawMixedText {...props} text={props.text.replace(/\*\*/g, "")} />;
 }
 
-// run에 붙여도 안전한 중립 문자(공백·기본 문장부호). 라틴·키릴 등 글자는 기본 폰트로 강제한다
-// (예: 태국어 문장 속 "Kim" — 태국 폰트에는 라틴 글리프가 없을 수 있다).
-const ATTACHABLE = /[\s.,·:;!?()[\]'"“”‘’\-–—/]/;
-
-export function splitScriptRuns(text: string) {
-  const runs: Array<{ text: string; font: string }> = [];
-  let pendingNeutral = "";
-  const append = (chunk: string, font: string) => {
-    const last = runs[runs.length - 1];
-    if (last && last.font === font) last.text += chunk;
-    else runs.push({ text: chunk, font });
-  };
-  for (const char of text) {
-    const font = fontForChar(char);
-    if (font === null && ATTACHABLE.test(char)) {
-      // 공백·문장부호는 잠시 보류했다가 다음 문자의 run에 붙인다(run 파편화 방지).
-      pendingNeutral += char;
-      continue;
-    }
-    const targetFont = font ?? BASE_FONT;
-    const last = runs[runs.length - 1];
-    if (pendingNeutral) {
-      // 보류 문자는 같은 폰트가 이어지면 그 run에, 폰트가 바뀌면 기본 폰트 run으로 보낸다.
-      if (last && last.font === targetFont) append(pendingNeutral, targetFont);
-      else append(pendingNeutral, BASE_FONT);
-      pendingNeutral = "";
-    }
-    append(char, targetFont);
-  }
-  if (pendingNeutral) append(pendingNeutral, runs.length ? runs[runs.length - 1].font : BASE_FONT);
-  return runs;
-}
-
-// 혼합 문자 텍스트를 run별 폰트로 렌더한다. style의 fontFamily는 run 폰트가 덮어쓴다.
-export function MixedText({ text, style }: { text: string; style?: TextProps["style"] }) {
-  const runs = splitScriptRuns(text);
-  if (runs.length === 1) {
-    // run 폰트가 style의 fontFamily보다 우선하도록 마지막에 둔다.
-    return (
-      <Text
-        style={[
-          ...(Array.isArray(style) ? style : style ? [style] : []),
-          { fontFamily: runs[0].font },
-        ]}
-      >
-        {text}
-      </Text>
-    );
-  }
-  return (
-    <Text style={style}>
-      {runs.map((run, index) => (
-        <Text key={index} style={{ fontFamily: run.font }}>
-          {run.text}
-        </Text>
-      ))}
-    </Text>
-  );
-}
+export { SCRIPT_FAMILY };

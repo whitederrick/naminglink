@@ -9,7 +9,7 @@ import {
 
 import type { Locale } from "@/lib/i18n";
 
-// 리포트가 나가는 문자 체계를 등록한다. **아랍어·크메르어만 빠져 있다**(아래 사연 참고).
+// 리포트가 나가는 문자 체계를 **전부** 등록한다.
 //
 // **한동안 한글·한자·라틴 셋만 등록돼 있었다.** 화면 문구가 ko·en뿐이던 시절의 설정인데,
 // 사전이 23로케일로 늘어난 뒤에도 그대로 남아 태국어·힌디어 리포트가 통째로 깨진 채
@@ -27,54 +27,60 @@ import type { Locale } from "@/lib/i18n";
 const fontPath = (file: string) =>
   path.join(process.cwd(), "assets/fonts", file);
 
-Font.register({
-  family: SCRIPT_FAMILY.hangul,
-  fonts: [
-    { src: fontPath("NotoSansKR-400.ttf"), fontWeight: 400 },
-    { src: fontPath("NotoSansKR-700.ttf"), fontWeight: 700 },
+/**
+ * 패밀리 → 서체 파일. **등록과 검증이 같은 표를 본다.**
+ *
+ * 목록을 따로 적어 두면 어긋난다 — 실제로 `SCRIPT_FAMILY.cjk`가 가나까지 덮는다고 적혀
+ * 있었지만 그 서브셋에 가나가 없어 일본어 리포트가 통째로 깨져 있었다(2026-08-01 실측).
+ * `scripts/verify-pdf-glyphs.ts`가 이 표를 읽어 23로케일 문구를 전수 대조한다.
+ *
+ */
+export const FONT_FILES: Record<string, Array<{ file: string; weight: number }>> = {
+  [SCRIPT_FAMILY.hangul]: [
+    { file: "NotoSansKR-400.ttf", weight: 400 },
+    { file: "NotoSansKR-700.ttf", weight: 700 },
   ],
-});
+  // 한자 전용 서브셋이다. **가나는 없다** — 가나는 아래 kana 패밀리가 맡는다.
+  [SCRIPT_FAMILY.cjk]: [{ file: "NotoSansCJKkr-Naming.otf", weight: 400 }],
+  [SCRIPT_FAMILY.kana]: [{ file: "NotoSansJP-Kana.ttf", weight: 400 }],
+  // 라틴 외에 **키릴(ru·kk·mn)과 라틴 확장(tr·pl·vi·uz)도 이 파일이 덮는다.** Noto Sans의
+  // 기본 자족에 들어 있어 따로 등록할 것이 없다.
+  [SCRIPT_FAMILY.base]: [{ file: "NotoSans-Regular.ttf", weight: 400 }],
+  // 아래 둘은 기본 자족에 글리프가 없어 각자 등록해야 한다. 등록하지 않으면 `MixedText`가
+  // 기본 폰트로 되돌리는데, 거기에도 글리프가 없어 결국 빈 네모나 엉뚱한 라틴 글자가 찍힌다.
+  [SCRIPT_FAMILY.thai]: [{ file: "NotoSansThai-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.devanagari]: [{ file: "NotoSansDevanagari-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.arabic]: [{ file: "NotoSansArabic-Regular.ttf", weight: 400 }],
+  [SCRIPT_FAMILY.khmer]: [{ file: "NotoSansKhmer-Regular.ttf", weight: 400 }],
+};
 
-Font.register({
-  family: SCRIPT_FAMILY.cjk,
-  fonts: [{ src: fontPath("NotoSansCJKkr-Naming.otf"), fontWeight: 400 }],
-});
+for (const [family, files] of Object.entries(FONT_FILES)) {
+  Font.register({
+    family,
+    fonts: files.map(({ file, weight }) => ({ src: fontPath(file), fontWeight: weight })),
+  });
+}
 
-// 라틴 외에 **키릴(ru·kk·mn)과 라틴 확장(tr·pl·vi·uz)도 이 파일이 덮는다.** Noto Sans의
-// 기본 자족에 들어 있어 따로 등록할 것이 없다.
-Font.register({
-  family: SCRIPT_FAMILY.base,
-  fonts: [{ src: fontPath("NotoSans-Regular.ttf"), fontWeight: 400 }],
-});
-
-// 아래 넷은 기본 자족에 글리프가 없어 각자 등록해야 한다. 등록하지 않으면 `MixedText`가
-// 기본 폰트로 되돌리는데, 거기에도 글리프가 없어 결국 빈 네모나 엉뚱한 라틴 글자가 찍힌다.
-Font.register({
-  family: SCRIPT_FAMILY.thai,
-  fonts: [{ src: fontPath("NotoSansThai-Regular.ttf"), fontWeight: 400 }],
-});
-
-Font.register({
-  family: SCRIPT_FAMILY.devanagari,
-  fonts: [{ src: fontPath("NotoSansDevanagari-Regular.ttf"), fontWeight: 400 }],
-});
-
-// **아랍어와 크메르어는 등록하지 않는다.** 파일은 `assets/fonts/`에 있다.
+// **아랍어·크메르어는 등록하되, 문서 언어로는 쓰지 않는다.** 둘을 가르는 이유가 있다.
 //
-// 등록하면 `@react-pdf/textkit`이 렌더 도중 죽는다. 2026-07-31에 원인까지 좁혔다.
+// 등록한 채로 그 언어의 **문단**을 렌더하면 `@react-pdf/textkit`이 죽는다(2026-07-31 규명).
 //
 //   ar  `reorderLine`(양방향 재정렬)에서 터진다. **줄바꿈이 일어나는 아랍어 문단이면
-//       무조건이다.** 한 줄에 들어가는 짧은 문자열은 앞에 RLM(U+200F)을 붙이면 살아나지만,
-//       문단이 두 줄이 되는 순간 그 처방도 듣지 않는다. 한자를 빼도 마찬가지다.
+//       무조건이다.** 한 줄에 들어가는 짧은 문자열은 살아남지만, 문단이 두 줄이 되는 순간
+//       무엇을 해도 안 된다(RLM을 붙여도, 한자를 빼도 마찬가지).
 //   km  `xCoordinate`가 null이 된다(결합 문자 셰이핑).
 //
-// **우리 코드가 아니다.** naminglink는 이 둘을 등록해 두었는데, 거기서도 같은 조건이면
-// 똑같이 죽는다(실측). 다만 그쪽은 아랍어로 PDF를 뽑아 본 적이 없어 드러나지 않았을 뿐이다.
-// `@react-pdf/renderer`는 이미 최신(4.5.1)이라 올릴 버전도 없다.
+// **우리 코드가 아니다.** `@react-pdf/renderer`는 이미 최신(4.5.1)이라 올릴 버전도 없다.
+// 그래서 이 두 로케일의 **문서는 영어로 낸다**(`pdfLocale`). 화면은 그대로 아랍어·크메르어고
+// PDF만 영어이며, 결제 화면에서 미리 고지한다.
 //
-// **그래서 이 두 로케일의 리포트는 영어로 낸다**(2026-07-31 사용자 결정, `pdfLocale`).
-// 화면은 그대로 아랍어·크메르어이고 PDF만 영어다. 파는 기회를 아예 닫는 것보다 낫고,
-// 결제 화면에서 미리 고지한다.
+// 그러면 서체는 왜 등록하는가 — **이름은 여전히 그 문자로 들어오기 때문이다.** 문서가 영어로
+// 바뀌어도 이용자가 적은 이름은 아랍 문자 그대로다. 등록하지 않았을 때 그 이름은 내장
+// Helvetica로 되돌아가 `)JFJ5D'` 같은 엉뚱한 라틴 글자로 찍혔다 — 돈을 받고 파는 문서에
+// 사는 사람의 이름이 깨져 나가고 있었다(2026-08-01 실측으로 드러남).
+//
+// 이름은 24자 상한이고(`match-input.ts`), 24자 아랍어 이름을 영어 문서에 넣어 두 상품 모두
+// 정상 렌더되는 것을 확인했다. 죽는 것은 문단이지 이름이 아니다.
 
 // @react-pdf는 기본 하이픈 규칙으로 **단어를 아무 데서나 끊는다.** 하이픈도 없이 "characters"가
 // "c / haracters"로 갈리는 식이라, 영어 문단이 길어지면 눈에 띄게 지저분해진다. 단어를 쪼개지
@@ -82,15 +88,8 @@ Font.register({
 Font.registerHyphenationCallback((word) => [word]);
 
 // **`Font.register`와 이 목록은 한 세트다.** 등록만 하고 여기에 안 적으면 `MixedText`가
-// 그 문자 체계를 기본 폰트로 되돌려 등록한 보람이 없다.
-const REGISTERED = [
-  SCRIPT_FAMILY.hangul,
-  SCRIPT_FAMILY.cjk,
-  SCRIPT_FAMILY.base,
-  SCRIPT_FAMILY.thai,
-  SCRIPT_FAMILY.devanagari,
-  // arabic·khmer는 위 주석대로 등록하지 않는다. 여기 적으면 없는 폰트를 가리킨다.
-] as const;
+// 그 문자 체계를 기본 폰트로 되돌려 등록한 보람이 없다 — 그래서 같은 표에서 뽑는다.
+const REGISTERED = Object.keys(FONT_FILES);
 
 const RawMixedText = makeMixedText({ registeredFamilies: REGISTERED });
 
@@ -98,8 +97,8 @@ const RawMixedText = makeMixedText({ registeredFamilies: REGISTERED });
  * 문자 체계가 섞인 문자열을 구간별 폰트로 렌더한다.
  *
  * 등록하지 않은 문자 체계가 들어와도 기본 폰트로 되돌려 참조 자체는 깨지지 않는다. 다만
- * 기본 폰트에 글리프가 없으면 화면에는 결국 안 나오므로, 새 로케일을 더할 때는 **문자
- * 체계가 위 목록에 있는지 반드시 확인할 것.**
+ * 기본 폰트에 글리프가 없으면 결국 엉뚱한 글자가 찍히므로, 새 로케일을 더할 때는 **문자
+ * 체계가 위 표에 있는지 반드시 확인할 것** — `scripts/verify-pdf-glyphs.ts`가 잡아 준다.
  *
  * **여기서 `**` 표기를 걷어낸다.** 사전 문구의 강조는 화면용 표기라 PDF에서는 뜻이 없다.
  * 리포트 곳곳에서 `plain()`으로 걷어내고 있었지만 **호출하는 자리에서만** 걸렸다 — 143곳을
@@ -118,9 +117,9 @@ export { SCRIPT_FAMILY };
 /**
  * PDF를 어느 언어로 낼 것인가.
  *
- * 보통은 화면과 같은 언어다. **아랍어·크메르어만 영어로 낸다** — 위 주석대로 그 두 문자
- * 체계는 서체를 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 이용자가 결제하고도
- * 파일을 못 받는다.
+ * 보통은 화면과 같은 언어다. **아랍어·크메르어만 영어로 낸다** — 위 주석대로 그 언어의
+ * 문단은 라이브러리가 렌더하다 죽어서, 화면 언어 그대로 내면 이용자가 결제하고도 파일을
+ * 못 받는다. (서체는 등록돼 있으므로 **이름은 제 문자로 찍힌다.**)
  *
  * 화면은 건드리지 않는다. 이 함수는 **PDF를 만들 때만** 부른다.
  *
