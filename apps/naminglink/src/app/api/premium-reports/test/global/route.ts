@@ -3,9 +3,11 @@ import { z } from "zod";
 
 import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
 import { buildHangulArtResult } from "@/lib/hangul-art-premium";
+import { translateHangulArtCandidates } from "@/lib/hangul-art-translate";
 import { buildNameArtPackResult } from "@/lib/name-art-pack";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { registerReportFonts } from "@/lib/pdf/dynamic-fonts";
+import { pdfOutputLanguage } from "@/lib/pdf/pdf-language";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { renderNameArtPackPdf } from "@/lib/pdf/name-art-pack-report";
@@ -57,9 +59,12 @@ export async function POST(request: Request) {
     );
   }
   try {
-    const outputLanguage = OUTPUT_LANGUAGE_NAMES[parsed.data.locale ?? ""]
+    // 운영 경로(`[sessionId]/generate`)와 **같은 판단**을 쓴다. 관리자 테스트만 아랍어 PDF를
+    // 만들어 보고 "된다"고 착각하는 일이 없도록 여기서도 영어로 돌린다.
+    const orderedLanguage = OUTPUT_LANGUAGE_NAMES[parsed.data.locale ?? ""]
       ? String(parsed.data.locale)
       : "en";
+    const outputLanguage = pdfOutputLanguage(orderedLanguage);
     const candidates =
       parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []);
     if (candidates.length === 0) {
@@ -99,7 +104,10 @@ export async function POST(request: Request) {
     } else if (parsed.data.product === "HANGUL_ART_PDF") {
       const premium = buildHangulArtResult({
         inputFactors: parsed.data.inputFactors,
-        candidates,
+        candidates:
+          outputLanguage === orderedLanguage
+            ? candidates
+            : await translateHangulArtCandidates(candidates, orderedLanguage),
         fonts,
         outputLanguage,
         reportId,

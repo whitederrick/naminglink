@@ -5,6 +5,8 @@ import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { FileText, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
 
+import { getPdfLanguageNotice } from "@/lib/checkout-consent/pdf-language-notice";
+import { pdfLanguageDiffers } from "@/lib/pdf/pdf-language";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 function hasAdminRole(appMetadata: unknown) {
@@ -1047,13 +1049,24 @@ export function GlobalNamePremiumPanel({
           없는 화면에 띄우면 뜻이 없다. 게다가 이 패널은 한 화면에 둘씩 붙어서(종합 리포트·아트 팩)
           동의 상자만 두 개가 쌓여 결제 자리가 중복된 것처럼 보였다. */}
       {stage !== "ready" && purchasable ? (
-        <CheckoutConsent
-          kind="DIGITAL"
-          locale={locale}
-          checked={consented}
-          onChange={setConsented}
-          className="mt-5"
-        />
+        <>
+          {/* **PDF가 화면과 다른 언어로 나가는 경우의 고지.** 지금은 아랍어·크메르어뿐이다 —
+              그 두 문자 체계는 문단 렌더가 죽거나 뒤엉켜서 영어로 낸다(`lib/pdf/pdf-language`).
+              접어 두지 않고 그대로 보인다. 사고 나서 알면 늦는 조건이고, 실제로 뜨는 로케일이
+              둘뿐이라 나머지 화면에는 아무것도 늘지 않는다. */}
+          {pdfLanguageDiffers(locale) ? (
+            <p className="break-keep-all mt-5 rounded-lg border border-brand-teal/25 bg-brand-teal/5 px-4 py-3 text-sm leading-6">
+              {getPdfLanguageNotice(locale)}
+            </p>
+          ) : null}
+          <CheckoutConsent
+            kind="DIGITAL"
+            locale={locale}
+            checked={consented}
+            onChange={setConsented}
+            className="mt-5"
+          />
+        </>
       ) : null}
 
       <div className="mt-5 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto]">

@@ -3,7 +3,9 @@ import { z } from "zod";
 
 import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
 import { buildHangulArtResult } from "@/lib/hangul-art-premium";
+import { translateHangulArtCandidates } from "@/lib/hangul-art-translate";
 import { buildNameArtPackResult } from "@/lib/name-art-pack";
+import { pdfOutputLanguage } from "@/lib/pdf/pdf-language";
 import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
 import {
   isGlobalNamePdfProduct,
@@ -90,13 +92,18 @@ export async function POST(request: Request, context: Context) {
         : payload.candidate
           ? [payload.candidate as Record<string, unknown>]
           : [];
+      // 주문에는 **이용자의 언어**가 그대로 남아 있고, PDF를 어느 언어로 낼지는 여기서 정한다
+      // (아랍어·크메르어는 영어로 — `pdf-language.ts`에 이유가 있다). 상품 셋이 같은 판단을
+      // 쓰도록 이 한 줄에서 갈라 준다.
+      const orderedLanguage = String(payload.outputLanguage ?? "en");
+      const outputLanguage = pdfOutputLanguage(orderedLanguage);
       // 이름 아트 팩: 이름 1개 × 선택 서체 N개, 즉시(무 AI) 생성.
       if (isNameArtPackProduct(session.product_code)) {
         const premium = buildNameArtPackResult({
           inputFactors: inputFactors ?? {},
           candidate: storedCandidatesRaw[0] ?? {},
           fonts: storedFonts,
-          outputLanguage: String(payload.outputLanguage ?? "en"),
+          outputLanguage,
           reportId,
         });
         const readyAt = new Date().toISOString();
@@ -117,11 +124,17 @@ export async function POST(request: Request, context: Context) {
       }
       // 발음 표기 붓글씨 PDF: 저장된 음차 후보 데이터만으로 즉시(무 AI) 리포트 데이터를 만든다.
       if (isHangulArtPdfProduct(session.product_code)) {
+        // 다만 PDF 언어가 주문 언어와 다르면(ar·km → en) 해설을 그 언어로 옮긴다. 복사해 오는
+        // 구조라서, 옮기지 않으면 문서만 영어이고 본문은 아랍어인 파일이 나간다.
+        const candidates =
+          outputLanguage === orderedLanguage
+            ? storedCandidatesRaw
+            : await translateHangulArtCandidates(storedCandidatesRaw, orderedLanguage);
         const premium = buildHangulArtResult({
           inputFactors: inputFactors ?? {},
-          candidates: storedCandidatesRaw,
+          candidates,
           fonts: storedFonts,
-          outputLanguage: String(payload.outputLanguage ?? "en"),
+          outputLanguage,
           reportId,
         });
         const readyAt = new Date().toISOString();
@@ -146,7 +159,7 @@ export async function POST(request: Request, context: Context) {
           inputFactors: inputFactors ?? {},
           candidates: storedCandidatesRaw,
           fonts: storedFonts,
-          outputLanguage: String(payload.outputLanguage ?? "en"),
+          outputLanguage,
           reportId,
         });
         const readyAt = new Date().toISOString();
