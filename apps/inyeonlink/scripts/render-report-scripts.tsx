@@ -73,29 +73,76 @@ const personB: Person = {
   birthplace: SEOUL,
 };
 
+/**
+ * **입력 한 가지로는 부족하다.**
+ *
+ * 처음에는 사람 둘을 고정해 놓고 로케일만 돌렸다. 그러면 그 입력에서 나오는 지면만 보게 되는데,
+ * 이 리포트의 분량은 입력에 따라 달라진다 — 시주를 모르면 표가 줄고, 이름이 24자면 머리글이
+ * 두 줄이 되고, 같은 사주면 관계 문구가 달라진다. 케이스를 갈라 **로케일 × 케이스를 전부**
+ * 돌린다(2026-08-01 사용자 지적).
+ *
+ * 케이스를 더할 때는 **지면 분량이 달라지는 축**을 고를 것. 값만 다르고 길이가 같은 입력은
+ * 늘려 봐야 같은 지면을 다시 보는 것이다.
+ */
+type Case = {
+  key: string;
+  a: Person;
+  b: Person;
+  /** 이름 자리에 넣을 문자열. 로케일 문자로 채우려면 비워 둔다. */
+  nameOverride?: string;
+};
+
+const CASES: Case[] = [
+  { key: "base", a: personA, b: personB },
+  // 시주를 모르는 입력. 시주 칸이 비고 관련 항목이 계산에서 빠진다.
+  {
+    key: "notime",
+    a: { ...personA, birthHour: null, birthMinute: null },
+    b: { ...personB, birthHour: null, birthMinute: null },
+  },
+  // 음력 입력. 변환 결과가 부록에 실린다.
+  {
+    key: "lunar",
+    a: { ...personA, calendarType: "lunar" },
+    b: { ...personB, calendarType: "lunar", lunarLeapMonth: false },
+  },
+  // 같은 날 태어난 두 사람. 관계 판정이 한쪽으로 몰려 문구 길이가 달라진다.
+  { key: "sameday", a: personA, b: { ...personB, year: 1992, month: 3, day: 14 } },
+  // 성별을 밝히지 않은 입력. 배우자성 항목이 빠진다.
+  { key: "nogender", a: { ...personA, gender: null }, b: { ...personB, gender: null } },
+  // 이름 상한(24자). 머리글과 표 제목이 가장 길어지는 경우다.
+  {
+    key: "longname",
+    a: personA,
+    b: personB,
+    nameOverride: "가나다라마바사아자차카타파하가나다라마바사아자",
+  },
+];
+
 // 시계를 읽지 않는다 — 같은 입력이면 같은 산출물이라야 비교가 된다.
 const GENERATED_AT = "2026-01-01T00:00:00.000Z";
 
-type Case = {
+type RenderCase = {
   file: string;
   /** 지금은 실패가 정상인 자리(ar·km 문서). 성공하면 라이브러리가 고쳐진 것이다. */
   expectFailure?: boolean;
   render: () => Promise<Buffer | Uint8Array>;
 };
 
-function casesFor(locale: Locale): Case[] {
+function casesFor(locale: Locale, testCase: Case): RenderCase[] {
   const dictionary = getDictionary(locale);
-  const nameA = NAME_IN_SCRIPT[locale] ?? "Alexandra";
+  const nameA = testCase.nameOverride ?? NAME_IN_SCRIPT[locale] ?? "Alexandra";
+  const suffix = `${testCase.key}-${locale}`;
   // ar·km 문서는 `pdfLocale`이 영어로 돌리는 자리다. 여기서는 일부러 원래 언어로 렌더해
   // **라이브러리가 아직도 죽는지** 확인한다. 지금은 실패가 정상이다.
   const expectFailure = locale === "ar" || locale === "km";
   return [
     {
-      file: `gunghap-${locale}`,
+      file: `gunghap-${suffix}`,
       expectFailure,
       render: () =>
         renderCompatibilityReport({
-          outcome: runMatch(personA, personB),
+          outcome: runMatch(testCase.a, testCase.b),
           nameA,
           nameB: "B",
           locale,
@@ -104,11 +151,11 @@ function casesFor(locale: Locale): Case[] {
         }),
     },
     {
-      file: `affinity-${locale}`,
+      file: `affinity-${suffix}`,
       expectFailure,
       render: () =>
         renderAffinityReport({
-          outcome: runAffinity({ ...personA, label: nameA }, "male"),
+          outcome: runAffinity({ ...testCase.a, label: nameA }, "male"),
           name: nameA,
           locale,
           dictionary,
@@ -116,13 +163,13 @@ function casesFor(locale: Locale): Case[] {
         }),
     },
     // 문서는 영어인데 이름만 다른 문자 체계인 경우(ar·km 이용자가 실제로 받는 파일).
-    ...(locale === "ar" || locale === "km"
+    ...(expectFailure
       ? [
           {
-            file: `gunghap-en-name-${locale}`,
+            file: `gunghap-en-name-${suffix}`,
             render: () =>
               renderCompatibilityReport({
-                outcome: runMatch(personA, personB),
+                outcome: runMatch(testCase.a, testCase.b),
                 nameA,
                 nameB: "B",
                 locale: "en" as Locale,
@@ -131,10 +178,10 @@ function casesFor(locale: Locale): Case[] {
               }),
           },
           {
-            file: `affinity-en-name-${locale}`,
+            file: `affinity-en-name-${suffix}`,
             render: () =>
               renderAffinityReport({
-                outcome: runAffinity({ ...personA, label: nameA }, "male"),
+                outcome: runAffinity({ ...testCase.a, label: nameA }, "male"),
                 name: nameA,
                 locale: "en" as Locale,
                 dictionary: getDictionary("en"),
@@ -152,31 +199,40 @@ async function main() {
 
   let failures = 0;
   let fixed = 0;
-  for (const locale of LOCALES) {
-    for (const testCase of casesFor(locale)) {
-      try {
-        const buffer = await testCase.render();
-        await writeFile(path.join(outDir, `${testCase.file}.pdf`), buffer);
-        const size = String(Math.round(buffer.length / 1024)).padStart(4);
-        if (testCase.expectFailure) {
-          fixed += 1;
-          console.log(`  ! ${testCase.file.padEnd(24)} ${size} KB — 죽던 자리가 살아났다`);
-        } else {
-          console.log(`  O ${testCase.file.padEnd(24)} ${size} KB`);
-        }
-      } catch (cause) {
-        const reason = cause instanceof Error ? cause.message : cause;
-        if (testCase.expectFailure) {
-          console.log(`  - ${testCase.file.padEnd(24)} 실패(예상) — ${reason}`);
-        } else {
-          failures += 1;
-          console.log(`  X ${testCase.file.padEnd(24)} 실패 — ${reason}`);
+  let count = 0;
+  for (const inputCase of CASES) {
+    for (const locale of LOCALES) {
+      for (const testCase of casesFor(locale, inputCase)) {
+        count += 1;
+        try {
+          const buffer = await testCase.render();
+          await writeFile(path.join(outDir, `${testCase.file}.pdf`), buffer);
+          const size = String(Math.round(buffer.length / 1024)).padStart(4);
+          if (testCase.expectFailure) {
+            fixed += 1;
+            console.log(`  ! ${testCase.file.padEnd(34)} ${size} KB — 죽던 자리가 살아났다`);
+          } else if (process.env.VERBOSE) {
+            console.log(`  O ${testCase.file.padEnd(34)} ${size} KB`);
+          }
+        } catch (cause) {
+          const reason = cause instanceof Error ? cause.message : cause;
+          if (testCase.expectFailure) {
+            if (process.env.VERBOSE) {
+              console.log(`  - ${testCase.file.padEnd(34)} 실패(예상) — ${reason}`);
+            }
+          } else {
+            failures += 1;
+            console.log(`  X ${testCase.file.padEnd(34)} 실패 — ${reason}`);
+          }
         }
       }
     }
+    console.log(`  · ${inputCase.key} 케이스 완료`);
   }
 
-  console.log(`\n${outDir}에 만들었습니다 (예상 못 한 실패 ${failures}건).`);
+  console.log(
+    `\n${outDir}에 ${count}개를 만들었습니다 (케이스 ${CASES.length} × 로케일 ${LOCALES.length}, 예상 못 한 실패 ${failures}건).`,
+  );
   if (fixed > 0) {
     console.log(
       `아랍어·크메르어 문서 ${fixed}건이 이제 렌더된다. 라이브러리가 고쳐졌는지 확인하고,`,

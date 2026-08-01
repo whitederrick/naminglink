@@ -618,6 +618,20 @@ function VitalityLegend({ dictionary }: { dictionary: Dictionary }) {
   );
 }
 
+/**
+ * 표 머리행에 넣을 이름. **좁은 칸에는 잘라서 넣는다.**
+ *
+ * 이름은 24자까지 받는데(`match-input.ts`), 그 길이가 그대로 들어가면 옆 칸을 덮는다. 줄바꿈에
+ * 기대를 걸 수도 없다 — `registerHyphenationCallback`이 단어를 쪼개지 않게 해 두어서, 공백 없는
+ * 한글 이름은 한 단어로 취급되어 칸을 넘어간다(2026-08-01 24자 케이스에서 23로케일 전부 겹쳤다).
+ *
+ * 이름 전체는 페이지 머리글에 그대로 나오므로 여기서 줄여도 정보가 사라지지 않는다.
+ */
+function columnName(name: string) {
+  const characters = [...name];
+  return characters.length <= 10 ? name : `${characters.slice(0, 10).join("")}…`;
+}
+
 /** 네 기둥의 지지 관계. 매칭률에 들어간 것은 일지 하나뿐이라는 사실을 함께 적는다. */
 function PillarBranchTable({
   outcome,
@@ -632,8 +646,8 @@ function PillarBranchTable({
     <View>
       <View style={styles.tableHead}>
         <MixedText style={[styles.th, { flex: 1.2 }]} text={dictionary.reportDetail.pillarColumn} />
-        <MixedText style={[styles.th, { flex: 1 }]} text={names[0]} />
-        <MixedText style={[styles.th, { flex: 1 }]} text={names[1]} />
+        <MixedText style={[styles.th, { flex: 1 }]} text={columnName(names[0])} />
+        <MixedText style={[styles.th, { flex: 1 }]} text={columnName(names[1])} />
         <MixedText
           style={[styles.th, { flex: 1.4 }]}
           text={dictionary.reportDetail.relationColumn}
@@ -644,7 +658,8 @@ function PillarBranchTable({
         />
       </View>
       {outcome.detail.pillarBranches.map((row) => (
-        <View key={row.pillar} style={styles.tableRow}>
+        // 위 표와 같은 이유로 여유를 둔다 — 마지막 행이 끝에 붙으면 여백만 다음 장으로 넘어간다.
+        <View key={row.pillar} style={styles.tableRow} minPresenceAhead={40}>
           <MixedText
             style={[styles.tdMuted, { flex: 1.2 }]}
             text={pillarLabel(dictionary, row.pillar)}
@@ -687,8 +702,11 @@ function StemGodTable({
         <MixedText style={[styles.th, { flex: 0.8 }]} text={dictionary.reading.dayMasterLabel} />
         <MixedText style={[styles.th, { flex: 3 }]} text={dictionary.reportDetail.tenGodColumn} />
       </View>
+      {/* `minPresenceAhead`가 없으면 마지막 행이 지면 끝에 딱 붙고, **카드의 아래 여백과
+          테두리만 다음 장으로 넘어가** 글자 없는 지면이 한 장 생긴다(2026-08-01 실측).
+          뒤에 이만큼 자리가 없으면 행째로 다음 장에서 시작한다. */}
       {rows.map((row) => (
-        <View key={row.pillar} style={styles.tableRow} wrap={false}>
+        <View key={row.pillar} style={styles.tableRow} wrap={false} minPresenceAhead={46}>
           <MixedText
             style={[styles.tdMuted, { flex: 1.2 }]}
             text={pillarLabel(dictionary, row.pillar)}

@@ -206,12 +206,92 @@ function coverListSize(count: number) {
   return 44;
 }
 
-function Section({ title, body }: { title: string; body: string }) {
+/**
+ * 해설이 길면 **본문을 조인다.**
+ *
+ * 지면은 고정인데 모델이 쓰는 분량은 주문마다 다르다. 그대로 흘려보내면 한 장을 조금 넘길 때
+ * 두 줄짜리 지면이 한 장 더 붙는다 — 유료 문서에서 가장 볼품없는 모습이다(2026-08-01 실측).
+ * 잘라내면 산 것을 덜 주는 셈이니 글자를 줄여 담는다. 발음 아트 PDF와 같은 규칙이다.
+ *
+ * 글자 수에 **문자 체계 가중치**를 준다 — 한자·가나·한글은 라틴의 두 배 가까운 폭을 먹어서,
+ * 같은 글자 수인데도 CJK 로케일만 넘쳤다.
+ *
+ * **본문에만 건다.** 페이지에 걸면 머리글 줄 간격까지 좁아져 제목이 겹친다(실측으로 겪었다).
+ */
+function bodyDensity(bodies: string[]) {
+  let weight = 0;
+  for (const body of bodies) {
+    for (const character of body) {
+      weight += /[가-힣㐀-䶿一-鿿ぁ-ゟ゠-ヿ]/.test(character) ? 1.8 : 1;
+    }
+  }
+  if (weight <= 1000) return undefined;
+  if (weight <= 1500) return { fontSize: 9.6, lineHeight: 1.5 };
+  if (weight <= 2000) return { fontSize: 8.8, lineHeight: 1.42 };
+  if (weight <= 2800) return { fontSize: 8.0, lineHeight: 1.34 };
+  return { fontSize: 7.4, lineHeight: 1.28 };
+}
+
+type Density = ReturnType<typeof bodyDensity>;
+
+/** 글자가 차지하는 폭. 한글·한자·가나는 라틴의 두 배 남짓이다. */
+function textWeight(value: string) {
+  let weight = 0;
+  for (const character of value) {
+    weight += /[가-힣㐀-䶿一-鿿ぁ-ゟ゠-ヿ]/.test(character) ? 2.1 : 1;
+  }
+  return weight;
+}
+
+/**
+ * 절을 두 단에 **길이로 나눈다.**
+ *
+ * 예전에는 왼쪽 한 절·오른쪽 네 절로 고정이었다. 그러면 해설이 길어질 때 오른쪽만 넘쳐서,
+ * 왼쪽이 비어 있는데도 두 줄짜리 지면이 한 장 더 생겼다(2026-08-01 CJK 로케일에서 실측).
+ *
+ * `head`는 왼쪽 단이 먼저 이고 시작하는 무게다(음절 뜻 표). 자를 자리를 하나씩 넣어 보고
+ * **양쪽 차이가 가장 작은** 곳을 고른다.
+ */
+function splitColumns(sections: Array<{ title: string; body: string }>, head: number) {
+  const filled = sections.filter((section) => section.body);
+  if (filled.length <= 1) return [filled, []] as const;
+  const weights = filled.map((section) => textWeight(section.body));
+  let best = 1;
+  let bestGap = Infinity;
+  for (let cut = 0; cut < filled.length; cut += 1) {
+    const left = head + weights.slice(0, cut).reduce((sum, weight) => sum + weight, 0);
+    const right = weights.slice(cut).reduce((sum, weight) => sum + weight, 0);
+    const gap = Math.abs(left - right);
+    if (gap < bestGap) {
+      bestGap = gap;
+      best = cut;
+    }
+  }
+  return [filled.slice(0, best), filled.slice(best)] as const;
+}
+
+/**
+ * 제목과 본문 한 덩어리.
+ *
+ * **`wrap={false}`를 걸지 않는다.** 해설이 길면(모델은 필드당 2,000자까지 쓸 수 있다) 덩어리가
+ * 한 장보다 커지는데, 그러면 @react-pdf는 쪼개는 대신 **지면 밖으로 흘려보내고** 빈 장까지
+ * 만든다 — 오류는 나지 않는다(2026-08-01 상한값 케이스에서 실측). `minPresenceAhead`가
+ * 제목만 앞 장에 남는 것을 막아 준다.
+ */
+function Section({
+  title,
+  body,
+  density,
+}: {
+  title: string;
+  body: string;
+  density?: Density;
+}) {
   if (!body) return null;
   return (
-    <View wrap={false}>
+    <View minPresenceAhead={40}>
       <Text style={styles.sectionTitle}>{title}</Text>
-      <MixedText style={styles.paragraph} text={body} />
+      <MixedText style={[styles.paragraph, ...(density ? [density] : [])]} text={body} />
     </View>
   );
 }
@@ -311,6 +391,29 @@ function CandidateDetailPage({
   candidate: GlobalNameCandidateReport;
   index: number;
 }) {
+  const density = bodyDensity([
+    ...candidate.sections.meaningBreakdown.map((entry) => entry.meaning),
+    candidate.sections.whyThisName,
+    candidate.sections.soundConnection,
+    candidate.sections.pronunciationTips,
+    candidate.sections.culturalNotes,
+    candidate.sections.usageGuide,
+  ]);
+  // 음절 뜻 표는 늘 왼쪽 위에 둔다(이름을 먼저 보여 주는 자리다). 나머지 절만 나눈다.
+  const headWeight = candidate.sections.meaningBreakdown.reduce(
+    (sum, entry) => sum + textWeight(entry.meaning) + 40,
+    0,
+  );
+  const [left, right] = splitColumns(
+    [
+      { title: "Why this name", body: candidate.sections.whyThisName },
+      { title: "Connection to your original name", body: candidate.sections.soundConnection },
+      { title: "How to pronounce it", body: candidate.sections.pronunciationTips },
+      { title: "How Koreans will hear it", body: candidate.sections.culturalNotes },
+      { title: "Using this name", body: candidate.sections.usageGuide },
+    ],
+    headWeight,
+  );
   return (
     <Page size="A4" orientation="landscape" style={styles.page}>
       <PageHeader
@@ -326,20 +429,28 @@ function CandidateDetailPage({
                 <Text style={styles.syllableChar}>{entry.syllable}</Text>
               </View>
               <View style={styles.syllableMeaning}>
-                <MixedText text={entry.meaning} />
+                <MixedText style={density} text={entry.meaning} />
               </View>
             </View>
           ))}
-          <Section title="Why this name" body={candidate.sections.whyThisName} />
+          {left.map((section) => (
+            <Section
+              key={section.title}
+              title={section.title}
+              body={section.body}
+              density={density}
+            />
+          ))}
         </View>
         <View style={styles.column}>
-          <Section
-            title="Connection to your original name"
-            body={candidate.sections.soundConnection}
-          />
-          <Section title="How to pronounce it" body={candidate.sections.pronunciationTips} />
-          <Section title="How Koreans will hear it" body={candidate.sections.culturalNotes} />
-          <Section title="Using this name" body={candidate.sections.usageGuide} />
+          {right.map((section) => (
+            <Section
+              key={section.title}
+              title={section.title}
+              body={section.body}
+              density={density}
+            />
+          ))}
         </View>
       </View>
       <PageFooter data={data} />

@@ -31,9 +31,16 @@ import fitz
 # 0으로 두면 정상 지면도 걸린다.
 BLEED = 1.0
 
-# 빈 지면 기준. 머리글·꼬리글만 남은 지면을 잡되, 그림으로 채운 아트 지면은 빼야 한다.
-BLANK_MAX_CHARS = 120
+# 빈 지면 기준.
+#
+# **꼬리글·서체 표기는 세지 않는다.** 그것만 있는 지면이 진짜 빈 지면이다(본문이 다 끝났는데
+# 상자 하나 때문에 한 장이 더 붙는 경우). 반대로 본문 두어 줄이 넘어온 지면은 빈 지면이
+# 아니다 — 이어지는 글이 길어서 생긴 것이고, 그건 어느 조판에서나 나온다.
+#
+# 그래서 **아래쪽 띠를 빼고** 글자를 센다. 그 띠에 꼬리글과 서체 표기가 들어간다.
+BLANK_MAX_CHARS = 30
 BLANK_MAX_DRAWINGS = 8
+FOOTER_BAND = 70.0
 
 # 겹침으로 볼 최소 비율(작은 쪽 넓이 기준). 글자 상자는 조금씩 스치므로 넉넉히 둔다.
 OVERLAP_RATIO = 0.55
@@ -90,8 +97,12 @@ def audit_page(page: fitz.Page) -> list[str]:
                 found_overlap = True
                 break
 
-    # ③ 빈 지면
-    characters = sum(len(text.strip()) for _box, text, _line in spans)
+    # ③ 빈 지면 — 아래쪽 띠(꼬리글·서체 표기)는 빼고 센다.
+    characters = sum(
+        len(text.strip())
+        for box, text, _line in spans
+        if box.y1 < rect.height - FOOTER_BAND
+    )
     if characters < BLANK_MAX_CHARS:
         drawings = len(page.get_drawings())
         images = len(page.get_images())
