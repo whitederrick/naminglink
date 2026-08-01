@@ -48,7 +48,11 @@ const styles = StyleSheet.create({
     color: PALETTE.ink,
     paddingHorizontal: 48,
     paddingTop: 44,
-    paddingBottom: 56,
+    // **꼬리글이 두 줄이 되는 언어를 견뎌야 한다.** 꼬리글은 절대 위치라 자리를 차지하지 않고,
+    // 이 여백만큼만 본문이 비켜 준다. 56이었을 때 이탈리아어(고지 163자)에서 고지가 두 줄이
+    // 되면서 표 마지막 행 위로 겹쳐 찍혔다(2026-08-01 지면 전수 검사). 두 줄 꼬리글 높이는
+    // bottom 28 + 여백 8 + 본문 세 줄 ≈ 71이라 그보다 넉넉히 둔다.
+    paddingBottom: 78,
     fontFamily: SCRIPT_FAMILY.base,
     fontSize: 10,
     lineHeight: 1.6,

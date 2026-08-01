@@ -170,6 +170,50 @@ export function FontCreditsBlock({ fonts }: { fonts: ReportFontSnapshot[] }) {
   );
 }
 
+/**
+ * 서체 표기를 **흐름 밖으로** 빼서 지면 아래에 붙인다.
+ *
+ * 흐름 안에 두면(`FontCreditsBlock`) 본문이 지면을 거의 채웠을 때 이 블록만 다음 장으로
+ * 밀려, **표기 두 줄만 있는 빈 지면 한 장**이 생긴다. 문장이 긴 언어 열한 개에서 실제로
+ * 그랬다(2026-08-01 지면 전수 검사). 유료 문서에서 빈 지면은 그 자체로 값이 깎인다.
+ *
+ * 절대 위치라 자리를 차지하지 않으므로 **부르는 쪽이 그만큼 `paddingBottom`을 늘려야 한다** —
+ * `fontCreditsReserve()`가 그 값을 준다. 둘은 한 세트다.
+ *
+ * **`fixed`가 반드시 있어야 한다.** 절대 위치만으로는 부족하다 — @react-pdf는 `fixed`가 아닌
+ * 요소를 흐름 기준으로 장에 배정하므로, 남은 자리가 없으면 절대 위치라도 다음 장으로 넘어간다
+ * (실제로 그렇게 빈 지면이 남았다). 꼬리글이 같은 방식으로 붙는다.
+ */
+export function FontCreditsFooter({
+  fonts,
+  bottom,
+}: {
+  fonts: ReportFontSnapshot[];
+  /** 꼬리글 위에 놓이도록 페이지 아래에서 띄울 거리. */
+  bottom: number;
+}) {
+  if (fonts.length === 0) return null;
+  return (
+    <View
+      style={[styles.creditsBlock, { position: "absolute", left: 46, right: 46, bottom }]}
+      fixed
+    >
+      <Text style={styles.creditsTitle}>Typefaces in this document</Text>
+      {fonts.map((font) => (
+        <Text key={font.code} style={styles.creditsLine}>
+          {fontCreditLine(font)}
+        </Text>
+      ))}
+    </View>
+  );
+}
+
+/** `FontCreditsFooter`가 차지할 높이. 제목 한 줄 + 서체당 한 줄 + 여백. */
+export function fontCreditsReserve(fonts: ReportFontSnapshot[]) {
+  if (fonts.length === 0) return 0;
+  return 18 + fonts.length * 11;
+}
+
 export function ArtPage({
   eyebrow,
   forName,

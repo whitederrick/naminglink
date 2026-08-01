@@ -17,6 +17,10 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import type { GlobalNameReportData } from "@/lib/global-name-premium";
+import { getLandingCopy } from "@/lib/i18n";
+import { getServiceOverride } from "@/lib/i18n-service";
+import { localeCodes } from "@/lib/locale-codes";
+import type { Locale } from "@/lib/services";
 import type { HangulArtReportData } from "@/lib/hangul-art-premium";
 import type { NameArtPackReportData } from "@/lib/name-art-pack";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
@@ -30,69 +34,74 @@ import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
 import { calculatePremiumSaju } from "@naminglink/core/saju";
 
 /**
- * 문자 체계가 서로 다른 로케일만 고른다. 같은 체계는 같은 서체를 타므로 하나면 된다.
+ * 이용자가 자기 문자로 적는 원문 이름. 문자 체계마다 하나씩 둔다.
+ * 로케일에 없으면 라틴 이름을 쓴다 — 이름 자리의 관심사는 문자 체계뿐이다.
+ */
+const NAME_IN_SCRIPT: Record<string, string> = {
+  ko: "김하늘",
+  ja: "さくら",
+  zh: "小明",
+  ru: "Анастасия",
+  mn: "Оюунчимэг",
+  kk: "Айгүл",
+  tr: "Ayşegül",
+  vi: "Nguyễn Thị Hà",
+  th: "สมชาย",
+  hi: "अनन्या",
+  ar: "عبد الرحمن",
+  km: "សុភា",
+};
+
+/**
+ * 해설 문단은 **그 언어의 화면 문구를 이어 붙여** 만든다.
+ *
+ * 실제 PDF의 해설은 주문 시점에 모델이 그 언어로 써 준다. 미리 알 수 없으니 같은 언어의
+ * 진짜 문장으로 대신한다 — 확인하려는 것은 내용이 아니라 **그 언어가 지면에서 버티는가**다.
+ * 손으로 쓴 표본을 열 개만 두었을 때는 나머지 열세 개를 아예 못 봤다(2026-08-01에 넓혔다).
+ *
+ * **문단은 반드시 여러 줄이 되게 길어야 한다.** 아랍어는 줄바꿈이 일어나는 순간에만 죽고,
+ * 넘침·겹침도 짧은 문장에서는 드러나지 않는다.
+ */
+function paragraphFor(locale: Locale) {
+  const pool: string[] = [];
+  collectStrings(getLandingCopy(locale), pool);
+  collectStrings(getServiceOverride(locale), pool);
+  const sentences = pool
+    .map((value) => value.replace(/\*\*/g, "").trim())
+    .filter((value) => value.length >= 20);
+  let paragraph = "";
+  for (const sentence of sentences) {
+    if (paragraph.length >= 320) break;
+    paragraph += (paragraph ? " " : "") + sentence;
+  }
+  // 화면 문구가 짧은 로케일을 위한 최소 길이 보정. 같은 문장을 이어 붙인다.
+  while (paragraph.length < 240 && paragraph.length > 0) paragraph += ` ${paragraph}`;
+  return paragraph.slice(0, 400);
+}
+
+function collectStrings(value: unknown, out: string[]) {
+  if (typeof value === "string") out.push(value);
+  else if (Array.isArray(value)) for (const item of value) collectStrings(item, out);
+  else if (value && typeof value === "object") {
+    for (const item of Object.values(value)) collectStrings(item, out);
+  }
+}
+
+/**
+ * **23개를 전부 돌린다.**
  *
  * **ar·km은 실제로는 이 언어로 나가지 않는다** — `lib/pdf/pdf-language.ts`가 영어로 돌린다.
  * 여기서 굳이 원래 언어로 렌더하는 것은 라이브러리가 고쳐졌는지 확인하는 자리이기 때문이다.
  * 지금 기대값은 **km은 실패, ar은 성공하지만 지면이 뒤엉킴**이다. ar은 오류를 내지 않으므로
  * 이 스크립트가 판정하지 못한다 — 반드시 PNG로 볼 것.
  */
-const SAMPLES: Array<{ locale: string; name: string; paragraph: string }> = [
-  {
-    locale: "en",
-    name: "Emily Carter",
-    paragraph:
-      "The name 하늘 is a native Korean word for the sky, and it carries a sense of openness that Korean speakers recognise immediately. It works in workplaces and in everyday introductions alike, and it reads as warm rather than formal.",
-  },
-  {
-    locale: "ko",
-    name: "김하늘",
-    paragraph:
-      "하늘은 순우리말로 열린 마음과 넓은 시야를 함께 담습니다. 부르기 쉬우면서도 흔하지 않아 학교와 직장 어디에서도 자연스럽게 쓰이고, 한자 이름과 달리 뜻을 따로 설명하지 않아도 곧바로 전해집니다.",
-  },
-  {
-    locale: "ja",
-    name: "さくら",
-    paragraph:
-      "ハヌルは韓国語で空を意味する固有語で、開かれた心と広い視野を同時に伝えます。発音がやさしく、職場でも学校でも自然に呼ばれる名前です。漢字の名前と違って意味を説明しなくても相手にすぐ伝わります。",
-  },
-  {
-    locale: "zh",
-    name: "小明",
-    paragraph:
-      "하늘（哈努尔）在韩语中是天空的意思，这个固有词同时传达开阔的心胸与宽广的视野。发音简单，无论在学校还是职场都很自然，与汉字名字不同，不需要额外解释就能让人立刻理解。",
-  },
-  {
-    locale: "ru",
-    name: "Анастасия",
-    paragraph:
-      "Имя 하늘 — это исконно корейское слово, означающее небо. Оно передаёт ощущение открытости и широты взгляда, легко произносится и одинаково уместно и на работе, и в повседневном общении.",
-  },
-  {
-    locale: "th",
-    name: "สมชาย",
-    paragraph:
-      "ชื่อ 하늘 เป็นคำเกาหลีแท้ที่แปลว่าท้องฟ้า สื่อถึงความเปิดกว้างและมุมมองที่กว้างไกล ออกเสียงง่ายและใช้ได้ทั้งในที่ทำงานและในชีวิตประจำวัน โดยไม่ต้องอธิบายความหมายเพิ่มเติม",
-  },
-  {
-    locale: "hi",
-    name: "अनन्या",
-    paragraph:
-      "하늘 नाम कोरियाई भाषा का मूल शब्द है जिसका अर्थ आकाश है। यह खुलेपन और व्यापक दृष्टिकोण दोनों को व्यक्त करता है, बोलने में सरल है और कार्यस्थल तथा रोज़मर्रा की बातचीत दोनों में सहज लगता है।",
-  },
-  {
-    locale: "ar",
-    name: "عبد الرحمن",
-    paragraph:
-      "اسم 하늘 كلمة كورية أصيلة تعني السماء، وهي تنقل شعوراً بالانفتاح وسعة الأفق في آن واحد. النطق سهل، ويصلح الاسم لبيئة العمل وللحياة اليومية على حد سواء دون الحاجة إلى شرح إضافي لمعناه.",
-  },
-  {
-    locale: "km",
-    name: "សុភា",
-    paragraph:
-      "ឈ្មោះ 하늘 គឺជាពាក្យកូរ៉េសុទ្ធដែលមានន័យថាមេឃ។ វាបង្ហាញពីភាពបើកចំហ និងទស្សនវិស័យទូលំទូលាយ។ ការបញ្ចេញសំឡេងងាយស្រួល ហើយសមរម្យទាំងនៅកន្លែងធ្វើការ និងក្នុងជីវិតប្រចាំថ្ងៃ។",
-  },
-];
+const SAMPLES: Array<{ locale: string; name: string; paragraph: string }> = (
+  localeCodes as readonly Locale[]
+).map((locale) => ({
+  locale,
+  name: NAME_IN_SCRIPT[locale] ?? "Emily Carter",
+  paragraph: paragraphFor(locale),
+}));
 
 const FONT: ReportFontSnapshot = {
   code: "nanum-brush",

@@ -20,7 +20,8 @@ import {
   ArtBackdrop,
   ArtPage,
   FALLBACK_ART_FAMILY,
-  FontCreditsBlock,
+  FontCreditsFooter,
+  fontCreditsReserve,
 } from "@/lib/pdf/art-shared";
 import { MixedText } from "@/lib/pdf/report-fonts";
 
@@ -384,8 +385,14 @@ export function GlobalNameReportDocument({
         </React.Fragment>
       ))}
 
-      {/* 마지막 장: 종합 개요 + 사주·오행 (가로 2단) */}
-      <Page size="A4" orientation="landscape" style={styles.page}>
+      {/* 마지막 장: 종합 개요 + 사주·오행 (가로 2단).
+          서체 표기는 흐름 밖에 둔다 — 안에 두면 본문이 길 때 표기만 다음 장으로 밀려
+          빈 지면이 한 장 생긴다(한글 아트에서 실제로 그랬다, 2026-08-01). */}
+      <Page
+        size="A4"
+        orientation="landscape"
+        style={[styles.page, { paddingBottom: 52 + fontCreditsReserve(data.fonts) }]}
+      >
         <PageHeader data={data} subtitle="Overview & Five Elements" />
         <View style={styles.columns}>
           <View style={styles.column}>
@@ -444,9 +451,9 @@ export function GlobalNameReportDocument({
             {data.saju ? (
               <Section title="How your names align" body={data.saju.nameAlignment} />
             ) : null}
-            <FontCreditsBlock fonts={data.fonts} />
           </View>
         </View>
+        <FontCreditsFooter fonts={data.fonts} bottom={50} />
         <PageFooter data={data} />
       </Page>
     </Document>

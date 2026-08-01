@@ -17,7 +17,8 @@ import {
   ArtPage,
   BRAND,
   FALLBACK_ART_FAMILY,
-  FontCreditsBlock,
+  FontCreditsFooter,
+  fontCreditsReserve,
 } from "@/lib/pdf/art-shared";
 import { MixedText } from "@/lib/pdf/report-fonts";
 
@@ -127,8 +128,15 @@ function GuidePage({
   index: number;
   isLast: boolean;
 }) {
+  // 서체 표기는 흐름 밖에 둔다. 안에 두면 본문이 길 때 표기만 다음 장으로 밀려 빈 지면이
+  // 한 장 생긴다(2026-08-01 실측). 대신 그만큼 아래 여백을 늘려 본문과 겹치지 않게 한다.
+  const creditsReserve = isLast ? fontCreditsReserve(data.fonts) : 0;
   return (
-    <Page size="A4" orientation="landscape" style={styles.page}>
+    <Page
+      size="A4"
+      orientation="landscape"
+      style={[styles.page, { paddingBottom: 52 + creditsReserve }]}
+    >
       <View style={styles.pageHeader}>
         <View>
           <Text style={styles.pageHeaderName}>
@@ -166,9 +174,10 @@ function GuidePage({
           <Section title="How it sounds in Korea" body={candidate.pronunciation.culturalFit} />
           <Section title="Using your Hangul name" body={candidate.pronunciation.usageNote} />
           <Section title="Good to know" body={candidate.pronunciation.cautionNotes} />
-          {isLast ? <FontCreditsBlock fonts={data.fonts} /> : null}
         </View>
       </View>
+
+      {isLast ? <FontCreditsFooter fonts={data.fonts} bottom={50} /> : null}
 
       <View style={styles.footer} fixed>
         <Text style={styles.footerText}>{BRAND} · Hangul Name Art</Text>

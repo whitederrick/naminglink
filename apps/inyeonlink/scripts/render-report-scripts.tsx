@@ -13,24 +13,25 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { runAffinity, runMatch, type Person } from "../src/lib/engines";
-import { getDictionary, type Locale } from "../src/lib/i18n";
+import { getDictionary, supportedLocales, type Locale } from "../src/lib/i18n";
 import { renderAffinityReport } from "../src/lib/pdf/affinity-report";
 import { renderCompatibilityReport } from "../src/lib/pdf/compatibility-report";
 
 const SEOUL = { timeZone: "Asia/Seoul", longitude: 126.978 };
 
 /**
- * 문자 체계가 서로 다른 로케일만 고른다. 23개를 다 돌릴 이유는 없다 — 같은 문자 체계는
- * 같은 서체를 타므로 하나만 확인하면 된다.
+ * **23개를 전부 돌린다.**
  *
- *   ko 한글 · ja 가나+한자 · zh 한자 · en 라틴 · ru 키릴 · tr 라틴 확장
- *   ar 아랍(RTL) · th 태국 · km 크메르 · hi 데바나가리
+ * 처음에는 문자 체계가 다른 열 개만 골랐다 — 같은 체계는 같은 서체를 타니 하나면 된다는
+ * 생각이었다. 글리프만 보면 맞는 말이지만 **지면은 다르다.** 같은 라틴이라도 독일어는
+ * 단어가 길어 칸을 넘고, 베트남어는 성조 부호로 줄 높이가 달라진다. 문장 길이가 로케일마다
+ * 다른 이상 레이아웃은 로케일마다 확인해야 한다(2026-08-01에 열 개→23개로 넓혔다).
  *
  * ar·km은 `pdfLocale`이 영어로 돌리는 로케일이다. **여기서는 일부러 원래 로케일 그대로
  * 렌더한다** — 라이브러리가 고쳐졌는지 확인하는 자리가 여기이기 때문이다. 지금은 실패가
  * 정상이고, 실패가 사라지면 `PDF_FALLBACK_TO_EN`을 비울 때가 된 것이다.
  */
-const LOCALES: Locale[] = ["ko", "ja", "zh", "en", "ru", "tr", "ar", "th", "km", "hi"];
+const LOCALES: readonly Locale[] = supportedLocales;
 
 /**
  * 이름은 이용자가 자기 문자로 적는다. **문서 언어가 영어로 바뀌어도 이름은 그대로다** —
