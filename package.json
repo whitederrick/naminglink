@@ -11,5 +11,9 @@
     "build": "pnpm --filter naminglink build",
     "build:inyeon": "pnpm --filter inyeonlink build",
     "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "@types/fontkit": "^2.0.9",
+    "fontkit": "^2.0.4"
   }
 }

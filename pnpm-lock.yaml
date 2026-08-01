@@ -9,7 +9,14 @@ overrides:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      '@types/fontkit':
+        specifier: ^2.0.9
+        version: 2.0.9
+      fontkit:
+        specifier: ^2.0.4
+        version: 2.0.4
 
   apps/inyeonlink:
     dependencies:
