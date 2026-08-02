@@ -5,6 +5,37 @@ import path from "node:path";
 const BASE_URL = "https://efamily.scourt.go.kr";
 const ROMAN_ENDPOINT = `${BASE_URL}/cs/CsNtcMttrMgtRomanAjax.do`;
 const HANJA_ENDPOINT = `${BASE_URL}/webhanja/whjsearch`;
+/**
+ * 알려진 인명용 한자표 개정.
+ *
+ * **대법원 조회 시스템은 기준일을 알려 주지 않는다.** 글자만 내려 줄 뿐이라, 받은 자료가
+ * 어느 개정본인지는 우리가 알고 있어야 한다. 예전에는 이 값이 코드 안에 박혀 있어서, 개정이
+ * 와도 새 글자는 받아 오면서 **기준일 라벨은 옛날 값으로 남을** 구조였다(2026-08-02 발견).
+ *
+ * 그래서 목록으로 두고, 받은 글자 수가 마지막 개정의 발표 수와 맞지 않으면 **동기화를
+ * 실패시킨다.** 조용한 플래그로 두면 아무도 보지 않는다 — 실제로 `countReviewRequired`가
+ * 켜진 채 방치돼 있었다.
+ *
+ * 개정이 오면 **여기에 한 줄 더하고** 다시 돌린다. 발표 수는 대법원 보도자료에 실린다.
+ * 이력은 `docs/REFERENCE_DATA_UPDATES.md`에 있다.
+ */
+const REVISIONS = [
+  { effectiveDate: "2015-01-01", announcedCharacters: 8142 },
+  { effectiveDate: "2022-01-01", announcedCharacters: 8319 },
+  { effectiveDate: "2024-06-11", announcedCharacters: 9389 },
+];
+
+const LATEST_REVISION = REVISIONS[REVISIONS.length - 1];
+
+/**
+ * 발표 수와 우리가 받은 고유 글자 수의 차이를 어디까지 정상으로 볼 것인가.
+ *
+ * 조회 자료에는 발표에 없는 코드가 조금 섞여 나온다(2024-06-11 기준 104자 — 표준 코드가 없어
+ * 우리가 후보에서 빼는 글자들이다). 그 정도는 정상이고, **발표 수보다 적거나 이보다 더 많이
+ * 늘어나면 개정을 의심해야 한다.**
+ */
+const ALLOWED_EXTRA_CODEPOINTS = 200;
+
 const ROOT = process.cwd();
 const outputDir = path.join(ROOT, "data", "official");
 const checkpointDir = path.join(ROOT, "tmp", "official-sync");
@@ -214,8 +245,8 @@ async function syncHanja(readings) {
       title: "Supreme Court personal-name Hanja lookup",
       publisher: "Supreme Court of Korea",
       ruleReference: "Rules on Registration of Family Relations, Article 37",
-      versionLabel: "2024-06-11",
-      effectiveDate: "2024-06-11",
+      versionLabel: LATEST_REVISION.effectiveDate,
+      effectiveDate: LATEST_REVISION.effectiveDate,
       sourceUrl: `${BASE_URL}/cs/CsBltnWrtList.do?bltnbordId=0000010`,
       fileName: path.basename(pdfPath),
       sha256: createHash("sha256").update(pdf).digest("hex"),
@@ -261,16 +292,37 @@ const audit = {
     complete: romanization.entries.length === 2321,
   },
   hanja: {
-    announcedPrimaryCharacters: 9389,
+    effectiveDate: LATEST_REVISION.effectiveDate,
+    announcedPrimaryCharacters: LATEST_REVISION.announcedCharacters,
     extractedReadingEntries: hanja.entries.length,
     listedUniqueCodePoints: uniqueHanja.size,
-    additionalListedCodePoints: Math.max(0, uniqueHanja.size - 9389),
+    additionalListedCodePoints: Math.max(
+      0,
+      uniqueHanja.size - LATEST_REVISION.announcedCharacters,
+    ),
     queriedReadings: readings.length,
     officialLookupCompleted: true,
-    countReviewRequired: uniqueHanja.size !== 9389,
     readingsWithHanja: readingsWithHanja.size,
     readingsWithoutHanja: readings.length - readingsWithHanja.size,
   },
 };
 await writeJson(path.join(outputDir, "sync-audit.json"), audit);
+
+// **개정을 놓치지 않기 위한 자리다.** 조용한 플래그 대신 여기서 멈춘다.
+const extra = uniqueHanja.size - LATEST_REVISION.announcedCharacters;
+if (extra < 0 || extra > ALLOWED_EXTRA_CODEPOINTS) {
+  throw new Error(
+    [
+      `받은 글자 수(${uniqueHanja.size})가 마지막 개정 ${LATEST_REVISION.effectiveDate}의`,
+      `발표 수(${LATEST_REVISION.announcedCharacters})와 ${extra > 0 ? "너무 많이 " : ""}어긋납니다(차이 ${extra}).`,
+      "표가 개정됐을 수 있습니다. 대법원 보도자료에서 새 시행일과 글자 수를 확인해",
+      "이 스크립트의 REVISIONS에 한 줄 더한 뒤 다시 돌리십시오.",
+      "(docs/REFERENCE_DATA_UPDATES.md 참고)",
+    ].join(" "),
+  );
+}
+console.log(
+  `기준 ${LATEST_REVISION.effectiveDate} · 발표 ${LATEST_REVISION.announcedCharacters}자 · ` +
+    `받은 고유 ${uniqueHanja.size}자(표준 밖 포함, 차이 ${extra})`,
+);
 console.log(JSON.stringify(audit, null, 2));
