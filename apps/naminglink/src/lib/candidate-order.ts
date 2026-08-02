@@ -23,6 +23,19 @@ export function candidateRate(item: Record<string, unknown>) {
   return numberValue(item.matching_rate) ?? numberValue(item.suitability_score);
 }
 
+/**
+ * 결과의 후보를 적합도 순으로 정렬한 **새 결과 객체**를 돌려준다.
+ *
+ * 순서는 생성 시점에 한 번 정한다. 저장본과 화면이 다른 순서를 갖고 있으면, 저장 목록의 제목
+ * (`summarizeResult`가 `candidates[0]`에서 뽑는다)이 화면의 1순위와 다른 이름이 된다.
+ */
+export function sortResultCandidates(result: unknown): unknown {
+  if (!result || typeof result !== "object" || Array.isArray(result)) return result;
+  const record = result as Record<string, unknown>;
+  if (!Array.isArray(record.candidates)) return result;
+  return { ...record, candidates: sortCandidatesByRate(record.candidates) };
+}
+
 /** 적합도 내림차순. 값이 없는 후보는 뒤로 보낸다(예전 화면 정렬과 같은 기준). */
 export function sortCandidatesByRate<T>(candidates: T[]): T[] {
   return [...candidates].sort((a, b) => {

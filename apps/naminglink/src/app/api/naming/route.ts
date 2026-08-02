@@ -11,6 +11,7 @@ import {
   readJsonBodyLimited,
   RequestTooLargeError,
 } from "@/lib/request-guard";
+import { sortResultCandidates } from "@/lib/candidate-order";
 import { sealCandidates } from "@/lib/result-seal";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
@@ -209,9 +210,11 @@ export async function POST(request: NextRequest) {
     // 무료 응답에는 규칙 엔진이 만든 이 필드가 그대로 담겨 결제 없이 열람될 수 있으므로,
     // 클라이언트로 내보내기 전과 저장 전에 서버에서 제거한다. 유료 리포트는 결제 후 서버에서
     // 다시 생성하므로(‑ /api/premium-reports/order가 재생성) 상품 품질에는 영향이 없다.
-    const clientResult = isHanja
-      ? stripPaidHanjaDetail(generation.result)
-      : generation.result;
+    // 순서는 여기서 한 번 정한다. 예전에는 화면이 정렬해서 저장본과 화면의 1순위가 서로
+    // 다를 수 있었다(저장 목록 제목이 `candidates[0]`에서 나온다).
+    const clientResult = sortResultCandidates(
+      isHanja ? stripPaidHanjaDetail(generation.result) : generation.result,
+    );
 
     // 무료 후보 하나만 평문으로 두고 나머지는 봉인한다. 예전에는 후보 전부가 평문으로 나가고
     // 잠금이 화면에만 있어(`index >= revealedCount`), 개발자도구를 열면 광고도 결제도 없이
