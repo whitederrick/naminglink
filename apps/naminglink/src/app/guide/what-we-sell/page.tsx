@@ -162,7 +162,7 @@ export default async function Page({ searchParams }: PageProps) {
         </p>
         <p>
           자세한 조건은 <b>환불정책</b>과 <b>요금안내</b>에 적어 두었습니다. 이 글은 무엇이
-          들어가는지를 밝히는 안내이고, 법적 조건은 그쪽이 기준입니다.
+          들어가는지를 밝히는 안내이고, 법적 조건은 환불정책과 요금안내의 정보를 우선시합니다.
         </p>
       </GuideSection>
     </GuideShell>

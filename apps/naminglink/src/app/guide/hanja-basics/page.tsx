@@ -42,7 +42,7 @@ export default async function Page({ searchParams }: PageProps) {
       {counts ? (
         <GuideStats
           items={[
-            { value: `${formatCount(counts.hanjaTotal)}자`, label: "인명용 한자" },
+            { value: `${formatCount(counts.characterTotal)}자`, label: "인명용 한자" },
             { value: `${formatCount(counts.syllableCount)}개`, label: "걸쳐 있는 한글 음절" },
             { value: counts.effectiveDate ?? "—", label: "표 기준일" },
           ]}
@@ -84,7 +84,7 @@ export default async function Page({ searchParams }: PageProps) {
               {counts.ruleReference ? ` · 근거 규정: ${counts.ruleReference}` : ""}
             </p>
             <p className="mt-1">
-              {formatCount(counts.hanjaTotal)}자가 한글 음절{" "}
+              {formatCount(counts.characterTotal)}자가 한글 음절{" "}
               {formatCount(counts.syllableCount)}개에 걸쳐 있습니다. 원본 파일의 해시값을 함께
               보관해, 표가 바뀌면 언제 무엇이 바뀌었는지 확인할 수 있게 해 두었습니다.
             </p>

@@ -85,7 +85,7 @@ export default async function Page({ searchParams }: PageProps) {
       <GuideSection title="획수는 쓰지 않습니다">
         <p>
           대법원이 제공하는 인명용 한자 자료에는 획수가 들어 있지 않습니다. 저희가 받은{" "}
-          {counts ? `${formatCount(counts.hanjaTotal)}자` : "전체 글자"} 가운데 획수가 기재된
+          {counts ? `${formatCount(counts.characterTotal)}자` : "전체 글자"} 가운데 획수가 기재된
           글자는 <strong>한 자도 없습니다.</strong>
         </p>
         <p>

@@ -46,7 +46,7 @@ export default async function Page({ searchParams }: PageProps) {
           정해진 뒤에 한자가 따라오는 것이 순서라고 봅니다.
         </p>
         <GuideFigure caption="후보가 좁혀지는 순서입니다. 한자를 먼저 고르고 소리를 맞추는 것이 아니라, 소리가 먼저이고 그 소리로 읽도록 지정된 글자만 후보가 됩니다.">
-          <HanjaMatchFlow total={counts ? formatCount(counts.hanjaTotal) : undefined} />
+          <HanjaMatchFlow total={counts ? formatCount(counts.characterTotal) : undefined} />
         </GuideFigure>
       </GuideSection>
 
@@ -60,8 +60,15 @@ export default async function Page({ searchParams }: PageProps) {
           <p>
             후보를 고르는 범위는 대법원 표{" "}
             {counts.effectiveDate ? `${counts.effectiveDate} 기준 ` : ""}
-            {formatCount(counts.hanjaTotal)}자입니다. 이 표에 없는 글자는 아예 내놓지 않습니다 —
+            {formatCount(counts.characterTotal)}자입니다. 이 표에 없는 글자는 아예 내놓지 않습니다 —
             보여드려도 등록되지 않기 때문입니다.
+          </p>
+        ) : null}
+        {counts ? (
+          <p>
+            대법원이 발표한 표의 글자 수는 이보다 조금 많습니다. 표에는 <b>표준 문자 코드가 없는
+            글자</b>도 함께 실려 있는데, 그런 글자는 화면과 문서에 제대로 표시되지 않아 후보에서
+            뺐습니다. 그 글자로 출생신고를 하실 수 있는지는 관할 관청에 확인하셔야 합니다.
           </p>
         ) : null}
       </GuideSection>

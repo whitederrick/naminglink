@@ -18,6 +18,18 @@ export type GuideCounts = {
   hanjaTotal: number;
   /** 그 글자들이 걸쳐 있는 한글 음절 수 */
   syllableCount: number;
+  /**
+   * 후보로 낼 수 있는 **글자 수**.
+   *
+   * `hanjaTotal`(행 수)과 다르다. 한 글자가 여러 독음으로 등록되면 행이 늘어나기 때문이다
+   * (9,938행 = 9,088자). 안내 문서가 "N자"라고 적는 자리에는 **이 값**을 써야 한다 —
+   * 예전에는 행 수를 자수로 적어 공식 발표(9,389자)보다 큰 숫자가 나가고 있었다(2026-08-02).
+   *
+   * 이 값이 공식 발표보다 **작은** 것도 이유가 있다. 대법원 조회 자료에는 표준 유니코드에
+   * 없는 글자가 사설 영역(PUA) 코드로 들어 있는데, 그 405자는 서체로 표시할 수 없어
+   * 후보로 낼 수 없다.
+   */
+  characterTotal: number;
   /** 표의 기준일(대법원 자료의 effective_date) */
   effectiveDate: string | null;
   /** 자료를 낸 곳 */
@@ -57,14 +69,18 @@ async function fetchGuideCounts(): Promise<GuideCounts> {
   // (실제로 그렇게 틀린 값이 화면에 나갔다). `range()`로 끝까지 넘겨받아야 한다.
   const PAGE = 1000;
   const syllableSet = new Set<string>();
+  const hanjaSet = new Set<string>();
   for (let from = 0; ; from += PAGE) {
     const page = await supabase
       .from("official_hanja_entries")
-      .select("hangul_syllable")
+      .select("hangul_syllable,hanja")
       .eq("review_status", "production")
       .range(from, from + PAGE - 1);
     if (page.error) throw new Error(page.error.message);
-    for (const row of page.data ?? []) syllableSet.add(String(row.hangul_syllable));
+    for (const row of page.data ?? []) {
+      syllableSet.add(String(row.hangul_syllable));
+      hanjaSet.add(String(row.hanja));
+    }
     if ((page.data?.length ?? 0) < PAGE) break;
   }
 
@@ -76,6 +92,7 @@ async function fetchGuideCounts(): Promise<GuideCounts> {
 
   return {
     hanjaTotal: total.count ?? 0,
+    characterTotal: hanjaSet.size,
     syllableCount: syllableSet.size,
     effectiveDate: source.data?.effective_date ?? null,
     publisher: source.data?.publisher ?? null,

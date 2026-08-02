@@ -50,7 +50,7 @@ export default async function Page({ searchParams }: PageProps) {
       <GuideSection title="초성으로 찾기">
         <p>
           {counts
-            ? `대법원 인명용 한자표의 ${formatCount(counts.hanjaTotal)}자 전부입니다. `
+            ? `대법원 인명용 한자표의 ${formatCount(counts.characterTotal)}자 전부입니다. `
             : ""}
           글자마다 <b>이름에 쓸 때의 독음</b>과 뜻이 함께 적혀 있습니다. 표에 없는 한자는 이름의
           한자로 등록되지 않으므로, 여기 있는 글자 안에서 고르시면 됩니다.

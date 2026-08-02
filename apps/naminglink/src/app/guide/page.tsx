@@ -73,7 +73,7 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
       {counts && locale === "ko" ? (
         <GuideStats
           items={[
-            { value: `${formatCount(counts.hanjaTotal)}자`, label: "인명용 한자" },
+            { value: `${formatCount(counts.characterTotal)}자`, label: "인명용 한자" },
             { value: `${formatCount(counts.syllableCount)}개`, label: "걸쳐 있는 한글 음절" },
             { value: counts.effectiveDate ?? "—", label: "표 기준일" },
             { value: `${formatCount(counts.avoidTotal)}자`, label: "기피 한자 정리" },
