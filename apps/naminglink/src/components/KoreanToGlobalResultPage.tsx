@@ -66,9 +66,9 @@ export function KoreanToGlobalResultPage({
     persistUnsealedResult(storageKey, next);
   }
 
-  async function revealNextCandidate() {
+  async function revealNextCandidate(ticket: string | null) {
     if (!currentResult) return;
-    applyOpened(await unsealNextCandidate(currentResult));
+    applyOpened(await unsealNextCandidate(currentResult, ticket));
   }
 
   async function revealAllCandidates(order: { orderId: string; paymentId: string }) {

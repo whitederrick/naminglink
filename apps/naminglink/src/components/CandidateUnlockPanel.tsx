@@ -5,6 +5,7 @@ import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { SelfAdCard } from "@/components/SelfAdCard";
+import { requestUnlockTicket } from "@/lib/candidate-seal";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { trackAdEvent } from "@/lib/analytics-client";
 
@@ -455,8 +456,13 @@ export function CandidateUnlockPanel({
   totalCount: number;
   locale?: string;
   serviceType?: string;
-  /** 광고를 끝까지 본 뒤 부른다. 실제로 여는 일은 서버가 하므로 실패할 수 있다. */
-  onUnlock: () => void | Promise<void>;
+  /**
+   * 광고를 끝까지 본 뒤 부른다. 실제로 여는 일은 서버가 하므로 실패할 수 있다.
+   *
+   * `ticket`은 광고를 시작할 때 받아 둔 관문 표다. 그대로 `unsealNextCandidate`에 넘긴다 —
+   * 이것이 없으면 서버가 거절한다(표를 끊을 수 없는 환경에서만 null이 온다).
+   */
+  onUnlock: (ticket: string | null) => void | Promise<void>;
   /** 결제로 일괄 공개할 때 부른다. 서버가 결제를 다시 확인하므로 주문 식별값을 넘긴다. */
   onUnlockAll?: (order: { orderId: string; paymentId: string }) => void | Promise<void>;
   // 결제로 일괄 공개한 결과의 식별자(예: resultId). 지정하면 결제 성공 시 **주문 식별값**을
@@ -711,13 +717,30 @@ export function CandidateUnlockPanel({
    * 그래서 실패할 수 있는 동작이고(만료·네트워크·요청 과다), 실패했으면 실패했다고 말해야 한다 —
    * 조용히 넘어가면 광고를 본 이용자가 아무 일도 일어나지 않은 화면을 보게 된다.
    */
-  async function grantUnlock() {
+  async function grantUnlock(ticket: string | null) {
     try {
-      await onUnlock();
+      await onUnlock(ticket);
       trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
     } catch {
       setUnlockError(copy.unlockFailed);
       trackAdEvent({ eventType: "ERROR", slotKey: "candidate_unlock", locale, serviceType });
+    }
+  }
+
+  /** 남은 시간을 세어 보여 주며 기다린다. 0 이하면 아무것도 하지 않는다. */
+  async function countDown(waitMs: number) {
+    if (waitMs <= 0) return;
+    const startedAt = Date.now();
+    setCountdown(Math.ceil(waitMs / 1000));
+    const timer = window.setInterval(() => {
+      const remaining = waitMs - (Date.now() - startedAt);
+      setCountdown(Math.max(0, Math.ceil(remaining / 1000)));
+    }, 250);
+    try {
+      await new Promise((resolve) => window.setTimeout(resolve, waitMs));
+    } finally {
+      window.clearInterval(timer);
+      setCountdown(0);
     }
   }
 
@@ -741,6 +764,16 @@ export function CandidateUnlockPanel({
 
     try {
       /**
+       * **표를 먼저 끊는다.** 여는 것은 서버가 하고, 서버는 이 표로 "광고를 볼 만큼 시간이
+       * 흘렀는가"를 판단한다(웹 보상형에는 시청 증명이 없다 — `lib/unlock-ticket.ts`).
+       *
+       * 광고를 **시작하는 지금** 받아야 기다림이 광고와 겹친다. 광고를 다 본 뒤에 받으면
+       * 그때부터 5초를 또 세게 된다.
+       */
+      const { ticket, readyInMs } = await requestUnlockTicket();
+      const readyAt = Date.now() + readyInMs;
+
+      /**
        * **GAM 보상형을 먼저 시도한다.** 광고 단위 경로가 없으면(다크 런치) 곧바로
        * `unavailable`이 돌아오므로 아래 자체 게이트로 떨어진다.
        *
@@ -748,31 +781,19 @@ export function CandidateUnlockPanel({
        * 광고를 안 봤는데 보상을 주면 보상형을 둔 의미가 없다.
        */
       const outcome = await showRewardedAd();
-      if (outcome === "granted") {
-        await grantUnlock();
-        return;
-      }
       if (outcome === "dismissed") return;
 
-      // 여기부터가 폴백이다. 보상형 광고가 없을 때(no-fill·차단기·미설정) 자체 게이트가
-      // 대신 돈다 — 배너가 채워지면 배너를, 못 채우면 셀프 광고를 보여 준다.
-      // 초기 트래픽에서는 이쪽이 더 흔하다. 광고가 없다고 버튼이 죽으면 안 된다.
-      const waitSeconds = UNLOCK_AD_SECONDS;
-      setCountdown(waitSeconds);
-      const startedAt = Date.now();
-      const timer = window.setInterval(() => {
-        const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-        setCountdown(Math.max(0, waitSeconds - elapsed));
-      }, 250);
-      try {
-        await new Promise((resolve) =>
-          window.setTimeout(resolve, waitSeconds * 1000),
-        );
-        await grantUnlock();
-      } finally {
-        window.clearInterval(timer);
-        setCountdown(0);
-      }
+      /**
+       * 보상형을 끝까지 봤으면 자체 게이트를 또 세우지 않는다(이미 광고를 봤다). 그래도
+       * 서버가 잰 시간은 마저 기다린다 — 보상형 광고가 대개 더 길어 그때는 남는 시간이 없다.
+       *
+       * `unavailable`이면 여기부터가 폴백이다. 보상형 광고가 없을 때(no-fill·차단기·미설정)
+       * 자체 게이트가 대신 돈다 — 배너가 채워지면 배너를, 못 채우면 셀프 광고를 보여 준다.
+       * 초기 트래픽에서는 이쪽이 더 흔하다. 광고가 없다고 버튼이 죽으면 안 된다.
+       */
+      const selfGateMs = outcome === "granted" ? 0 : UNLOCK_AD_SECONDS * 1000;
+      await countDown(Math.max(selfGateMs, readyAt - Date.now()));
+      await grantUnlock(ticket);
     } finally {
       setLoading(false);
     }

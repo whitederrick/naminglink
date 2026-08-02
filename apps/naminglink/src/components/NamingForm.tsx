@@ -353,10 +353,10 @@ export function NamingForm({
   const revealedCount = unlockedCandidateCount(result?.result);
 
   /** 광고를 본 대가로 잠긴 첫 후보 하나를 연다. 실패는 패널이 문구로 알린다. */
-  async function revealNextCandidate() {
+  async function revealNextCandidate(ticket: string | null) {
     const current = result?.result;
     if (!current) return;
-    const opened = await unsealNextCandidate(current);
+    const opened = await unsealNextCandidate(current, ticket);
     setResult((previous) => (previous ? { ...previous, result: opened } : previous));
   }
 

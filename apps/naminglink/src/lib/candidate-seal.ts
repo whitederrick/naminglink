@@ -74,18 +74,50 @@ async function postUnseal(path: string, body: unknown) {
   return payload.opened ?? [];
 }
 
+/** 광고 관문 표. 원문과 "이만큼 지나야 쓸 수 있다"가 함께 온다. */
+export type UnlockTicket = { ticket: string | null; readyInMs: number };
+
+/**
+ * 광고 관문 표를 받아 온다. **광고를 시작할 때** 부른다.
+ *
+ * 여기서부터 서버가 기다림을 재기 시작하므로, 광고를 보는 시간과 관문 시간이 겹친다. 광고를
+ * 다 본 뒤에 부르면 그때부터 5초를 또 세게 된다.
+ *
+ * 실패하면 표 없이 진행한다. 표를 못 끊는 상황은 대개 서버가 관문을 걸 수 없는 상황이라
+ * (`lib/unlock-ticket.ts`) 여는 쪽도 같은 판단으로 통과시킨다. 광고를 본 이용자를 네트워크
+ * 사정으로 막아 세우지 않는 쪽을 고른 것이다.
+ */
+export async function requestUnlockTicket(): Promise<UnlockTicket> {
+  try {
+    const response = await fetch("/api/candidates/unlock-ticket", { method: "POST" });
+    const payload = (await response.json().catch(() => null)) as
+      | { ok?: boolean; ticket?: string | null; readyInMs?: number }
+      | null;
+    if (!response.ok || !payload?.ok) return { ticket: null, readyInMs: 0 };
+    return {
+      ticket: payload.ticket ?? null,
+      readyInMs: Math.max(0, Number(payload.readyInMs) || 0),
+    };
+  } catch {
+    return { ticket: null, readyInMs: 0 };
+  }
+}
+
 /**
  * 잠긴 첫 후보 하나를 연다(광고 경로).
  *
  * 열 것이 없으면 결과를 그대로 돌려준다 — 부를 쪽에서 개수를 또 세지 않게 한다.
+ *
+ * `ticket`은 `requestUnlockTicket()`으로 미리 받아 둔 표다. 이것 없이 부르면 서버가 거절한다
+ * (표를 끊을 수 있는 환경일 때). 봉인문만으로 몇 번이든 열리던 자리를 막는 것이 이 인자다.
  */
-export async function unsealNextCandidate(result: unknown) {
+export async function unsealNextCandidate(result: unknown, ticket?: string | null) {
   const index = firstLockedIndex(result);
   if (index < 0) return result;
   const seals = lockedSeals(result);
   const target = seals.find((entry) => entry.index === index);
   if (!target) return result;
-  const opened = await postUnseal("/api/candidates/unseal", { seal: target.seal });
+  const opened = await postUnseal("/api/candidates/unseal", { seal: target.seal, ticket });
   return withUnsealedCandidates(result, opened);
 }
 

@@ -93,9 +93,9 @@ export function HanjaMeaningResultPage({
   }
 
   /** 광고를 본 대가로 잠긴 첫 후보 하나를 연다. */
-  async function revealNextCandidate() {
+  async function revealNextCandidate(ticket: string | null) {
     if (!currentResult) return;
-    applyOpened(await unsealNextCandidate(currentResult));
+    applyOpened(await unsealNextCandidate(currentResult, ticket));
   }
 
   return (

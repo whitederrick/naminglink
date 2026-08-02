@@ -316,9 +316,9 @@ export function HangulPronunciationResultPage({
     persistUnsealedResult(storageKey, next);
   }
 
-  async function revealNextCandidate() {
+  async function revealNextCandidate(ticket: string | null) {
     if (!currentStored) return;
-    applyOpened(await unsealNextCandidate(currentStored.result));
+    applyOpened(await unsealNextCandidate(currentStored.result, ticket));
   }
 
   async function revealAllCandidates(order: { orderId: string; paymentId: string }) {
