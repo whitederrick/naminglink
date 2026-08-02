@@ -153,13 +153,24 @@ export async function SiteFooter({
             textDirection={textDirection}
           />
           {/* 안내 문서는 팝업이 아니라 페이지라 LegalLinks 밖에 둔다. 약관처럼 확인용으로
-              잠깐 열어 보는 글이 아니라 처음부터 끝까지 읽는 글이기 때문이다. */}
+              잠깐 열어 보는 글이 아니라 처음부터 끝까지 읽는 글이기 때문이다.
+              소개·문의하기도 같은 이유로 여기 둔다.
+
+              **푸터에 거는 것이 핵심이다.** 애드센스 심사는 이 두 페이지가 있는지를 보는데,
+              어디에서도 닿지 않는 페이지는 없는 것과 같다. 라벨만 갈라 모든 언어에서 건다 —
+              두 페이지가 한국어·영어 두 벌이라 23로케일 사전에 넣을 이유가 없다. */}
           <a
             href={localePath("/guide", linkLocale)}
             className={linkClass}
             dir={textDirection}
           >
             {guideLinkLabel(locale, "short")}
+          </a>
+          <a href={localePath("/about", linkLocale)} className={linkClass} dir={textDirection}>
+            {locale === "ko" ? "소개" : "About"}
+          </a>
+          <a href={localePath("/contact", linkLocale)} className={linkClass} dir={textDirection}>
+            {locale === "ko" ? "문의하기" : "Contact"}
           </a>
         </nav>
 

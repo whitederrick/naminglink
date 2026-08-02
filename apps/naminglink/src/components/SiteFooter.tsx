@@ -760,7 +760,22 @@ export function SiteFooter({
     href: localePath("/guide", locale),
     label: locale === "ko" ? "이용 안내" : "How it works",
   };
+  // 소개·문의하기. 안내 허브와 같은 방식으로 라벨만 갈라 모든 언어에서 건다 — 두 페이지가
+  // 한국어·영어 두 벌이라 23로케일 사전에 라벨을 새로 넣을 이유가 없다.
+  //
+  // **푸터에 거는 것이 핵심이다.** 애드센스 심사는 이 두 페이지가 있는지를 보는데, 어디에서도
+  // 닿지 않는 페이지는 없는 것과 같다(안내 문서를 만들어 놓고 sitemap에 넣지 않아 겪었다).
+  const aboutLink = {
+    href: localePath("/about", locale),
+    label: locale === "ko" ? "소개" : "About",
+  };
+  const contactLink = {
+    href: localePath("/contact", locale),
+    label: locale === "ko" ? "문의하기" : "Contact",
+  };
   const footerLinks = [
+    aboutLink,
+    contactLink,
     { href: localePath("/terms", locale), label: copy.links.terms },
     { href: localePath("/privacy", locale), label: copy.links.privacy },
     { href: localePath("/refund-policy", locale), label: copy.links.refund },

@@ -41,6 +41,9 @@ const staticPaths = [
   "/terms",
   "/privacy",
   "/refund-policy",
+  // 소개·문의하기. 애드센스 심사가 투명성 항목으로 명시한 두 페이지다.
+  "/about",
+  "/contact",
 ] as const;
 
 export const indexablePaths: readonly string[] = [
