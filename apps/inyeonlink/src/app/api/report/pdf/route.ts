@@ -8,6 +8,7 @@ import { pdfLocale } from "@/lib/pdf/fonts";
 import { matchInputSchema, toPerson } from "@/lib/match-input";
 import { renderAffinityReport } from "@/lib/pdf/affinity-report";
 import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
+import { inputFingerprint } from "@/lib/report-order-binding";
 import { notifyOps } from "@/lib/ops-alert";
 import { getVerifiedPayment } from "@/lib/portone";
 import { checkRateLimit } from "@/lib/request-guard";
@@ -27,6 +28,7 @@ export const dynamic = "force-dynamic";
 
 /** 한 주문으로 PDF를 받을 수 있는 횟수. 다운로드가 끊기거나 파일을 잃은 경우를 위한 여유다. */
 const REISSUE_LIMIT = 5;
+
 
 /**
  * 두 상품이 받는 입력이 다르다 — 궁합은 두 사람, 인연의 결은 한 사람이다.
@@ -126,6 +128,14 @@ export async function POST(request: NextRequest) {
       return jsonError("REISSUE_LIMIT_REACHED", 429);
     }
 
+    // 첫 발급이 이 주문의 대상을 정한다. 그다음부터는 같은 대상만 다시 받을 수 있다.
+    const fingerprint = inputFingerprint(parsed.data.input);
+    const boundFingerprint =
+      typeof metadata.inputFingerprint === "string" ? metadata.inputFingerprint : null;
+    if (boundFingerprint && boundFingerprint !== fingerprint) {
+      return jsonError("INPUT_MISMATCH", 409);
+    }
+
     const requested = isLocale(parsed.data.locale) ? parsed.data.locale : "en";
     // 아랍어·크메르어는 PDF만 영어로 낸다. 화면 언어는 그대로다 — 그 두 문자 체계는 서체를
     // 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 결제하고도 파일을 못 받는다
@@ -141,7 +151,7 @@ export async function POST(request: NextRequest) {
       .update({
         payment_status: "PAID",
         fulfillment_status: "COMPLETED",
-        metadata: { ...metadata, issuedCount: issuedCount + 1 },
+        metadata: { ...metadata, issuedCount: issuedCount + 1, inputFingerprint: fingerprint },
         updated_at: new Date().toISOString(),
       })
       .eq("id", order.id);

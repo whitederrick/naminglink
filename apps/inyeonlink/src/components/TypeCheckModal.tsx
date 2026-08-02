@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { emphasize } from "@/lib/emphasize";
-import type { AffinityOutcome } from "@/lib/engines";
+import type { PublicAffinityOutcome } from "@/lib/public-outcome";
 import { fillTemplate, type Dictionary } from "@/lib/i18n";
 import { MAX_BIRTH_YEAR, MIN_BIRTH_YEAR } from "@/lib/match-input";
 
@@ -34,7 +34,7 @@ export function TypeCheckModal({
   dictionary,
   onClose,
 }: {
-  outcome: AffinityOutcome;
+  outcome: PublicAffinityOutcome;
   dictionary: Dictionary;
   onClose: () => void;
 }) {
@@ -236,13 +236,13 @@ function CheckResult({
   dictionary,
 }: {
   result: Checked;
-  outcome: AffinityOutcome;
+  outcome: PublicAffinityOutcome;
   dictionary: Dictionary;
 }) {
   const t = dictionary.affinity.check;
-  // 유형 목록은 점수순으로 정렬돼 있으므로 자리 번호가 곧 순위다.
-  const rank =
-    outcome.stems.findIndex((entry) => entry.stem === result.stem) + 1;
+  // 순위는 `stemOrder`에서 읽는다. `stems`에는 화면이 세우는 넷(상위 셋+꼴찌)만 들어 있어
+  // 그 안에서 찾으면 대부분의 유형이 "0순위"가 된다 — 전체 순서는 글자만 따로 받는다.
+  const rank = outcome.stemOrder.indexOf(result.stem) + 1;
   const stem = dictionary.dayMasters[result.stem];
 
   // **여기서는 유형과 순위까지만 말한다.** 항목 점수·십신 풀이·띠 관계는 전부 결과 화면과

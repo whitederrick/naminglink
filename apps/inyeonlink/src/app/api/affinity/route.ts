@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { runAffinity } from "@/lib/engines";
 import { affinityInputSchema, toPerson } from "@/lib/affinity-input";
+import { publicAffinityOutcome } from "@/lib/public-outcome";
 import { checkRateLimit } from "@/lib/request-guard";
 
 // 인연의 결 계산 전용. `/api/match`와 같은 규칙을 따른다 — DB 쓰기 없음, 입력값 로깅 없음,
@@ -46,7 +47,9 @@ export async function POST(request: NextRequest) {
 
   try {
     const outcome = runAffinity(toPerson(input.data.me), input.data.seeking);
-    return NextResponse.json(outcome, {
+    // **엔진 결과를 통째로 내보내지 않는다.** 유료 PDF가 파는 것이 "열 유형·열두 띠 전체
+    // 순위표"인데, 화면이 상위 셋만 그릴 뿐 응답에는 전부 실려 나가고 있었다.
+    return NextResponse.json(publicAffinityOutcome(outcome), {
       headers: { "Cache-Control": "no-store" },
     });
   } catch {

@@ -16,11 +16,8 @@ import {
   type AffinityInput,
 } from "@/lib/affinity-input";
 import { emphasize } from "@/lib/emphasize";
-import type {
-  AffinityOutcome,
-  BranchCandidate,
-  StemCandidate,
-} from "@/lib/engines";
+import type { BranchCandidate, StemCandidate } from "@/lib/engines";
+import type { PublicAffinityOutcome } from "@/lib/public-outcome";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
 
@@ -33,7 +30,7 @@ type State =
   | { status: "error"; message: string; fragment: string }
   | {
       status: "ready";
-      outcome: AffinityOutcome;
+      outcome: PublicAffinityOutcome;
       input: AffinityInput;
       fragment: string;
     };
@@ -73,6 +70,27 @@ export function AffinityResultView({
   const t = dictionary.affinity;
   const resolvedFragment = useResultFragment();
 
+  // 국내 결제는 우리 서버 라우트로 리디렉트되어 승인되므로, 돌아온 주소에는 입력값 프래그먼트가
+  // 없다. 결제 직전에 브라우저(sessionStorage)에 맡겨 둔 값을 주소에 되돌려 놓아야 결과를 다시
+  // 그리고 PDF를 받을 수 있다. **궁합 화면에는 이 처리가 있었는데 여기에는 없었다** — 그래서
+  // 국내에서 인연의 결 PDF를 결제하면 오류 화면으로 돌아와 파일을 받을 방법이 없었다.
+  // **서버에 저장한 것이 아니다** — 탭을 닫으면 함께 사라진다.
+  useEffect(() => {
+    if (window.location.hash) return;
+    const params = new URLSearchParams(window.location.search);
+    if (!params.get("payment")) return;
+    try {
+      const raw = window.sessionStorage.getItem("inyeonlink.pendingPayment");
+      if (!raw) return;
+      const saved = JSON.parse(raw) as { fragment?: string };
+      if (saved.fragment) {
+        window.location.replace(`${window.location.href}#${saved.fragment}`);
+      }
+    } catch {
+      // 복원에 실패하면 아래 흐름이 "결과를 읽을 수 없습니다"로 안내한다.
+    }
+  }, []);
+
   useEffect(() => {
     if (resolvedFragment === null) return;
     const fragment = resolvedFragment;
@@ -94,7 +112,7 @@ export function AffinityResultView({
         const body = await response.json().catch(() => null);
         throw new Error(body?.error ?? "UNKNOWN");
       }
-      return { outcome: (await response.json()) as AffinityOutcome, input };
+      return { outcome: (await response.json()) as PublicAffinityOutcome, input };
     }
 
     resolve()

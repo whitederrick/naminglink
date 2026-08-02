@@ -13,10 +13,12 @@ import {
   scoreBand,
   type EngineResult,
   type Factor,
-  type MatchOutcome,
   type MutualRelation,
-  type PersonReading,
 } from "@/lib/engines";
+import type {
+  PublicMatchOutcome,
+  PublicPersonReading,
+} from "@/lib/public-outcome";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
 import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
@@ -29,7 +31,7 @@ type State =
   | { status: "error"; message: string; fragment: string }
   | {
       status: "ready";
-      outcome: MatchOutcome;
+      outcome: PublicMatchOutcome;
       input: MatchInput;
       fragment: string;
     };
@@ -104,7 +106,7 @@ export function MatchResultView({
         const body = await response.json().catch(() => null);
         throw new Error(body?.error ?? "UNKNOWN");
       }
-      return { outcome: (await response.json()) as MatchOutcome, input };
+      return { outcome: (await response.json()) as PublicMatchOutcome, input };
     }
 
     resolve()
@@ -401,7 +403,7 @@ function PersonCard({
   fallbackName,
   dictionary,
 }: {
-  reading: PersonReading;
+  reading: PublicPersonReading;
   fallbackName: string;
   dictionary: Dictionary;
 }) {

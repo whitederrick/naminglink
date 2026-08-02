@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { runMatch } from "@/lib/engines";
 import { matchInputSchema, toPerson } from "@/lib/match-input";
+import { publicMatchOutcome } from "@/lib/public-outcome";
 import { checkRateLimit } from "@/lib/request-guard";
 
 // 계산 전용 엔드포인트. 요청 본문은 계산이 끝나면 사라지고 **어디에도 저장하지 않는다**.
@@ -50,7 +51,10 @@ export async function POST(request: NextRequest) {
 
   try {
     const outcome = runMatch(toPerson(input.data.a), toPerson(input.data.b));
-    return NextResponse.json(outcome, {
+    // **엔진 결과를 통째로 내보내지 않는다.** 유료 리포트에만 싣는 값(`detail`, 신강·신약 근거
+    // 숫자, 왕상휴수사, 진태양시 보정 내역 등)이 함께 나가면 파는 내용이 결제 없이 브라우저에
+    // 도착한다. 화면이 그리지 않을 뿐 응답에는 그대로 있었다.
+    return NextResponse.json(publicMatchOutcome(outcome), {
       headers: { "Cache-Control": "no-store" },
     });
   } catch {
