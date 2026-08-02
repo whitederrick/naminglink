@@ -14,7 +14,7 @@ import {
   encodeAffinityInput,
   type AffinityInput,
 } from "@/lib/affinity-input";
-import { AdWatchOverlay } from "@/components/AdRewardGate";
+import { AdWatchOverlay } from "@/components/AdWatchOverlay";
 import { submitAdGateEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
 import type { Dictionary, Locale } from "@/lib/i18n";

@@ -355,10 +355,6 @@ export const pt: Dictionary = {
       "Mais importante do que a nota é como você a lê.",
       "Se as estações de vocês são diferentes, contem um ao outro como é a sua estação.",
     ],
-    gateTitle: "Seu resultado está pronto",
-    gateBody:
-      "Assista a um anúncio curto para abri-lo. É a receita de publicidade que mantém este serviço gratuito.",
-    watchButton: "Ver um anúncio e abrir o resultado",
     watching: "Assistindo ao anúncio",
     remaining: "Seu resultado abre em {seconds}s",
   },

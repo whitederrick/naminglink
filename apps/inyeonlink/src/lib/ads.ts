@@ -48,7 +48,7 @@ export const adSlots = {
    */
   bottom: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM ?? "").trim(),
   /**
-   * **계산 중 팝업(`AdRewardGate`) 자리는 여기에 없다.** 예전에는 `analyzing` 슬롯이 있었다.
+   * **계산 중 팝업(`AdWatchOverlay`) 자리는 여기에 없다.** 예전에는 `analyzing` 슬롯이 있었다.
    * 그 팝업은 화면을 덮는 오버레이이고 결과를 여는 관문이라, 애드센스 표시 광고를 두면
    * 오버레이 게재 금지와 보상형 금지에 동시에 걸린다(naminglink에서 같은 이유로 걷어냈다).
    * 보상형이 필요하면 GAM·AdMob 보상형 포맷을 쓸 것. **이 표에 그 자리를 되돌리지 말 것.**

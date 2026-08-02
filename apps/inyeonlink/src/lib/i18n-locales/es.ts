@@ -355,10 +355,6 @@ export const es: Dictionary = {
       "Más importante que la puntuación es cómo se lee.",
       "Si cada uno vive una estación distinta, basta con contarle al otro cómo es la suya.",
     ],
-    gateTitle: "Tu resultado está listo",
-    gateBody:
-      "Mira un anuncio breve para abrirlo. Los ingresos por publicidad son lo que mantiene gratuito este servicio.",
-    watchButton: "Ver un anuncio y abrir el resultado",
     watching: "Viendo el anuncio",
     remaining: "Tu resultado se abre en {seconds} s",
   },

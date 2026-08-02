@@ -356,10 +356,6 @@ export const fr: Dictionary = {
       "Ce qui compte plus que le score, c'est la façon de le lire.",
       "Si vos saisons diffèrent, dites-vous l'un à l'autre à quoi ressemble votre saison.",
     ],
-    gateTitle: "Votre résultat est prêt",
-    gateBody:
-      "Regardez une courte publicité pour l'ouvrir. Ce sont les revenus publicitaires qui permettent de garder ce service gratuit.",
-    watchButton: "Voir une publicité pour découvrir le résultat",
     watching: "Publicité en cours",
     remaining: "Votre résultat s'ouvre dans {seconds} s",
   },

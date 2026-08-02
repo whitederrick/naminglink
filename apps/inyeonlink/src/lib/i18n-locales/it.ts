@@ -355,10 +355,6 @@ export const it: Dictionary = {
       "Più del punteggio conta il modo in cui lo si legge.",
       "Se le vostre stagioni sono diverse, raccontatevi com'è la vostra stagione.",
     ],
-    gateTitle: "Il tuo risultato è pronto",
-    gateBody:
-      "Guarda un breve annuncio per aprirlo. Sono i ricavi pubblicitari a mantenere gratuito questo servizio.",
-    watchButton: "Guarda un annuncio per vedere il risultato",
     watching: "Riproduzione dell'annuncio",
     remaining: "Il risultato si apre tra {seconds} s",
   },

@@ -356,10 +356,6 @@ export const vi: Dictionary = {
       "Quan trọng hơn điểm số là cách bạn đọc điểm số ấy.",
       "Nếu hai người đang ở hai mùa khác nhau, hãy kể cho nhau nghe mùa của mình ra sao.",
     ],
-    gateTitle: "Kết quả của bạn đã sẵn sàng",
-    gateBody:
-      "Xem một quảng cáo ngắn để mở kết quả. Doanh thu quảng cáo là thứ giữ cho dịch vụ này miễn phí.",
-    watchButton: "Xem quảng cáo để mở kết quả",
     watching: "Đang xem quảng cáo",
     remaining: "Kết quả mở sau {seconds} giây",
   },

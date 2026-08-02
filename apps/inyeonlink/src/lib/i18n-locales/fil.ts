@@ -356,10 +356,6 @@ export const fil: Dictionary = {
       "Mas mahalaga kaysa sa iskor ang paraan ng pagbasa mo rito.",
       "Kung magkaiba ang inyong panahon, ikuwento ninyo sa isa't isa kung ano ang panahon ninyo.",
     ],
-    gateTitle: "Handa na ang inyong resulta",
-    gateBody:
-      "Manood ng maikling patalastas para buksan ito. Ang kita mula sa patalastas ang nagpapanatiling libre ng serbisyong ito.",
-    watchButton: "Manood ng patalastas para makita ang resulta",
     watching: "Pinapanood ang patalastas",
     remaining: "Bubukas ang resulta sa loob ng {seconds}s",
   },

@@ -357,10 +357,6 @@ export const uz: Dictionary = {
       "Baldan ko'ra muhimi — o'sha balni qanday o'qishingiz.",
       "Fasllaringiz boshqacha bo'lsa, bir-biringizga o'z faslingizni so'zlab bering.",
     ],
-    gateTitle: "Natijangiz tayyor",
-    gateBody:
-      "Uni ochish uchun qisqa reklamani ko'ring. Reklama daromadi bu xizmatni bepul tutib turadi.",
-    watchButton: "Reklamani ko'rib, natijani ochish",
     watching: "Reklama ko'rilmoqda",
     remaining: "Natija {seconds} soniyadan keyin ochiladi",
   },

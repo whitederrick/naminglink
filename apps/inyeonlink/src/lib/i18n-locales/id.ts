@@ -356,10 +356,6 @@ export const id: Dictionary = {
       "Yang lebih penting daripada angkanya adalah bagaimana Anda membacanya.",
       "Jika musim kalian berbeda, ceritakan satu sama lain seperti apa musim masing-masing.",
     ],
-    gateTitle: "Hasil Anda sudah siap",
-    gateBody:
-      "Tonton iklan singkat untuk membukanya. Pendapatan iklanlah yang membuat layanan ini tetap gratis.",
-    watchButton: "Tonton iklan untuk melihat hasil",
     watching: "Sedang menonton iklan",
     remaining: "Hasil Anda terbuka dalam {seconds} detik",
   },

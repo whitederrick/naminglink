@@ -356,10 +356,6 @@ export const de: Dictionary = {
       "Wichtiger als der Wert ist, wie Sie ihn lesen.",
       "Sind Ihre Jahreszeiten verschieden, erzählen Sie einander, wie Ihre Jahreszeit ist.",
     ],
-    gateTitle: "Ihr Ergebnis ist fertig",
-    gateBody:
-      "Sehen Sie eine kurze Werbung, um es zu öffnen. Werbeeinnahmen halten diesen Dienst kostenlos.",
-    watchButton: "Werbung ansehen und Ergebnis öffnen",
     watching: "Werbung läuft",
     remaining: "Ihr Ergebnis öffnet in {seconds} s",
   },

@@ -8,7 +8,7 @@ import {
   toPersonInput,
   type PersonDraft,
 } from "@/components/PersonFields";
-import { AdWatchOverlay } from "@/components/AdRewardGate";
+import { AdWatchOverlay } from "@/components/AdWatchOverlay";
 import { submitAdGateEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";

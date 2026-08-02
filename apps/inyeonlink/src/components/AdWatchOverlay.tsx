@@ -5,61 +5,29 @@ import { useEffect, useState } from "react";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { fillTemplate, type Dictionary } from "@/lib/i18n";
 
+const AD_SECONDS = 5;
+
 /**
- * "광고 보고 결과 보기" — 이용자가 **눌러야** 광고가 뜨는 보상형 게이트.
+ * 광고를 보는 동안의 화면. **이용자가 버튼을 누른 뒤에만** 나타난다.
  *
  * 자동으로 뜨는 팝업이 아니라 버튼으로 시작하는 것이 핵심이다. 구글이 금지하는 것은 광고가
  * 뜨는 것 자체가 아니라 **이용자가 고르지 않았는데 콘텐츠를 가리고 뜨는 것**(프리스티셜)이다.
- * 같은 광고, 같은 5초라도 누가 시작했는지로 갈린다. naminglink의 후보 공개도 같은 방식이다.
- *
- * 시청 여부를 서버에 남기지 않는다. 웹 보상형 광고는 서버 검증 자체가 불가능하고
- * ("Server-side verification is an app only feature" — 구글 문서), 이 서비스는 입력을
- * 저장하지 않으므로 남길 곳도 없다. 새로고침하면 다시 묻는다 — 광고 게이트의 보통 동작이다.
- */
-const AD_SECONDS = 5;
-
-export function AdRewardGate({
-  dictionary,
-  onReward,
-}: {
-  dictionary: Dictionary;
-  /** 시청이 끝나 결과를 열어도 될 때. */
-  onReward: () => void;
-}) {
-  const { analyzing } = dictionary;
-  const [watching, setWatching] = useState(false);
-
-  if (!watching) {
-    return (
-      <section className="mt-10 rounded-2xl border border-line bg-surface p-6 text-center shadow-sm">
-        <h2 className="break-keep-all text-lg font-semibold">
-          {analyzing.gateTitle}
-        </h2>
-        <p className="break-keep-all mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
-          {analyzing.gateBody}
-        </p>
-        <button
-          type="button"
-          onClick={() => setWatching(true)}
-          className="mt-6 rounded-full bg-brand-plum px-8 py-3.5 font-semibold text-white transition hover:opacity-90"
-        >
-          {analyzing.watchButton}
-        </button>
-      </section>
-    );
-  }
-
-  return <AdWatchOverlay dictionary={dictionary} onDone={onReward} />;
-}
-
-/**
- * 광고를 보는 동안의 화면. 버튼을 누른 뒤에만 나타난다.
+ * 같은 광고, 같은 5초라도 누가 시작했는지로 갈린다. 이 서비스에서는 "궁합 계산하기"·"인연의
+ * 결 보기"가 그 버튼이다.
  *
  * 닫기 버튼을 두지 않는다. 보상형 광고는 끝까지 봐야 보상이 주어지는 형식이고, 광고 옆에
  * 누를 것을 두면 오클릭이 난다(애드센스 계정 정지 사유다). 남은 시간은 숫자로 보여 준다.
+ *
+ * **시청 여부를 서버에 남기지 않는다.** 웹 보상형에는 서버 검증(SSV)이 없다 — "Server-side
+ * verification is an app only feature and it is unavailable for web use."
+ * (support.google.com/admanager/answer/9116812). 그래서 여기서 확인할 수 있는 것은 없고,
+ * 새로고침하면 다시 묻는다 — 광고 게이트의 보통 동작이다.
+ *
+ * naminglink는 같은 한계를 다르게 다룬다. 그쪽은 광고 뒤에 **유료로도 파는 것**(잠긴 후보)이
+ * 있어 그냥 두면 결제 우회가 되므로, 증명 대신 **시간**을 서버가 재는 관문 표를 둔다
+ * (`apps/naminglink/src/lib/unlock-ticket.ts`). 이쪽 화면 결과는 무료라 아직 그만한 장치를
+ * 두지 않았다. 화면 뒤에 파는 것이 생기면 그때는 같은 표가 필요하다.
  */
-// 제출 버튼에서도 쓴다(인연링크는 "궁합 계산하기"를 누르면 광고가 뜬 뒤 결과로 넘어간다).
-// 그래서 이 오버레이는 게이트 전용이 아니라 공용이다.
 export function AdWatchOverlay({
   dictionary,
   onDone,

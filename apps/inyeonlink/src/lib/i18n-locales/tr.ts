@@ -357,10 +357,6 @@ export const tr: Dictionary = {
       "Puandan daha önemlisi, o puanı nasıl okuduğunuzdur.",
       "Mevsimleriniz farklıysa, birbirinize kendi mevsiminizin nasıl olduğunu anlatın.",
     ],
-    gateTitle: "Sonucunuz hazır",
-    gateBody:
-      "Açmak için kısa bir reklam izleyin. Bu hizmeti ücretsiz tutan şey reklam geliridir.",
-    watchButton: "Reklamı izle ve sonucu gör",
     watching: "Reklam izleniyor",
     remaining: "Sonucunuz {seconds} sn içinde açılır",
   },

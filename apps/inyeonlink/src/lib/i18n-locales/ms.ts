@@ -357,10 +357,6 @@ export const ms: Dictionary = {
       "Yang lebih penting daripada skor ialah bagaimana anda membacanya.",
       "Jika musim anda berbeza, beritahu satu sama lain bagaimana rupa musim masing-masing.",
     ],
-    gateTitle: "Keputusan anda sudah sedia",
-    gateBody:
-      "Tonton iklan pendek untuk membukanya. Hasil iklan itulah yang mengekalkan perkhidmatan ini percuma.",
-    watchButton: "Tonton iklan untuk melihat keputusan",
     watching: "Sedang menonton iklan",
     remaining: "Keputusan anda terbuka dalam {seconds}s",
   },

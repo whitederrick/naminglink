@@ -356,10 +356,6 @@ export const pl: Dictionary = {
       "Ważniejsze od wyniku jest to, jak się go czyta.",
       "Jeśli macie różne pory roku, opowiedzcie sobie, jaka jest Wasza.",
     ],
-    gateTitle: "Twój wynik jest gotowy",
-    gateBody:
-      "Obejrzyj krótką reklamę, żeby go otworzyć. To przychód z reklam utrzymuje tę usługę za darmo.",
-    watchButton: "Obejrzyj reklamę i zobacz wynik",
     watching: "Trwa reklama",
     remaining: "Wynik otworzy się za: {seconds} s",
   },

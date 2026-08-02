@@ -354,10 +354,6 @@ export const zh: Dictionary = {
       "比分数更重要的，是如何解读那个分数。",
       "两人的季节若不同，把彼此的季节告诉对方就好。",
     ],
-    gateTitle: "两人的合婚结果已经备好",
-    gateBody:
-      "观看一段简短的广告即可开启结果。本服务靠广告收入维持免费运营。",
-    watchButton: "看广告并查看结果",
     watching: "正在播放广告",
     remaining: "{seconds}秒后为您开启结果",
   },
