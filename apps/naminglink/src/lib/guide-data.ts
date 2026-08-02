@@ -1,13 +1,18 @@
 import "server-only";
 import { unstable_cache } from "next/cache";
 
+import syncAudit from "@/../data/official/sync-audit.json";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 /**
  * 안내 문서가 쓰는 숫자.
  *
- * **본문에 숫자를 하드코딩하지 않는다.** 인명용 한자표가 갱신되면 글에 적힌 "9,938자"도
- * 함께 틀린 값이 된다. 글이 표보다 오래 남으면 안 되므로 DB에서 읽어 그린다.
+ * **본문에 숫자를 하드코딩하지 않는다.** 인명용 한자표가 갱신되면 글에 적힌 숫자도 함께 틀린
+ * 값이 된다. 글이 표보다 오래 남으면 안 되므로 DB에서 읽어 그린다.
+ *
+ * 대법원이 **발표한** 수와 우리가 **낼 수 있는** 수는 다르다. 발표 수는 동기화 감사 기록
+ * (`data/official/sync-audit.json`)에서 읽는다 — 그 파일은 동기화할 때마다 다시 쓰이므로
+ * 다음 개정에서도 값이 따라온다.
  *
  * 안내 문서는 방문자가 많아질 자리이고 값이 거의 바뀌지 않으므로 하루 캐시한다.
  * 실패하면 던진다 — 폴백을 캐시에 박아 두면 잠깐의 오류가 하루 동안 남는다
@@ -30,6 +35,16 @@ export type GuideCounts = {
    * 후보로 낼 수 없다.
    */
   characterTotal: number;
+  /**
+   * 대법원이 **발표한** 글자 수. 우리가 실제로 낼 수 있는 수(`characterTotal`)와 다르다.
+   *
+   * 동기화 감사 기록에서 읽는다 — 손으로 적으면 다음 개정 때 이 숫자만 옛날 값으로 남는다.
+   */
+  announcedTotal: number;
+  /** 조회 자료에 실려 있던 고유 글자 수(발표 수보다 조금 많다). */
+  listedTotal: number;
+  /** 표준 문자 코드가 없어 후보에서 뺀 글자 수. */
+  excludedNoStandardCode: number;
   /** 표의 기준일(대법원 자료의 effective_date) */
   effectiveDate: string | null;
   /** 자료를 낸 곳 */
@@ -93,6 +108,13 @@ async function fetchGuideCounts(): Promise<GuideCounts> {
   return {
     hanjaTotal: total.count ?? 0,
     characterTotal: hanjaSet.size,
+    announcedTotal: syncAudit.hanja.announcedPrimaryCharacters,
+    listedTotal: syncAudit.hanja.listedUniqueCodePoints,
+    // 목록에 있었지만 우리가 못 내는 글자. 표준 코드가 없어 어떤 서체로도 그릴 수 없다.
+    excludedNoStandardCode: Math.max(
+      0,
+      syncAudit.hanja.listedUniqueCodePoints - hanjaSet.size,
+    ),
     syllableCount: syllableSet.size,
     effectiveDate: source.data?.effective_date ?? null,
     publisher: source.data?.publisher ?? null,

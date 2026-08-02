@@ -55,6 +55,26 @@ export default async function Page({ searchParams }: PageProps) {
           글자마다 <b>이름에 쓸 때의 독음</b>과 뜻이 함께 적혀 있습니다. 표에 없는 한자는 이름의
           한자로 등록되지 않으므로, 여기 있는 글자 안에서 고르시면 됩니다.
         </p>
+        {counts && counts.excludedNoStandardCode > 0 ? (
+          <GuideNote title="찾으시는 글자가 목록에 없다면">
+            <p>
+              대법원이 발표한 글자 수는 {formatCount(counts.announcedTotal)}자인데 이 목록은{" "}
+              {formatCount(counts.characterTotal)}자입니다.{" "}
+              <strong>
+                차이인 {formatCount(counts.excludedNoStandardCode)}자는 세계 공통 문자 코드에
+                자리가 없어 어떤 서체로도 화면에 그릴 수 없는 글자입니다.
+              </strong>{" "}
+              대법원 전산은 그런 글자를 그림으로 보여 줍니다.
+            </p>
+            <p className="mt-1">
+              왜 그런지와 저희가 그 글자를 권해 드리지 않는 이유는{" "}
+              <a href={localePath("/guide/hanja-basics", locale)}>
+                인명용 한자란 무엇인가
+              </a>
+              에 자세히 적었습니다. 그 글자의 실제 사용 가능 여부는 관할 관청에 문의하셔야 합니다.
+            </p>
+          </GuideNote>
+        ) : null}
         <nav className="mt-2 grid gap-2 sm:grid-cols-2">
           {listed.map((group) => (
             <Link
