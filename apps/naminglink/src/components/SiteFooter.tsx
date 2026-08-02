@@ -11,6 +11,7 @@ import {
 import type { Locale } from "@/lib/services";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { localePath } from "@/lib/locale-path";
+import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 type SiteFooterProps = {
   tone?: "light" | "dark";
@@ -701,36 +702,20 @@ export function SiteFooter({
   const copy = footerCopies[locale];
 
   // 로그인 여부만 본다. 이메일 등 개인정보는 푸터에 쓰지 않으므로 가져오지 않는다.
-  //
-  // **Supabase 클라이언트를 정적으로 들여오지 않는다.** 푸터는 모든 페이지에 있어서, 위에서
-  // 그냥 `import` 하면 인증 라이브러리가 **첫 화면의 필수 묶음**에 들어간다. 실제로 랜딩·안내
-  // 문서처럼 로그인과 아무 상관 없는 화면까지 그 값을 내려받고 있었다(2026-08-02 실측).
-  //
-  // 여기서 늦게 부르면 별도 묶음으로 갈라져 **첫 화면을 그린 뒤** 받아 온다. 바뀌는 것은
-  // 링크 하나(로그인 ↔ 내 계정)뿐이고, 그 판정은 원래도 비동기라 눈에 띄는 차이가 없다.
   useEffect(() => {
-    let unsubscribe: (() => void) | null = null;
-    let cancelled = false;
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
 
-    void import("@/lib/supabase-browser").then(({ getSupabaseBrowserClient }) => {
-      const supabase = getSupabaseBrowserClient();
-      if (!supabase || cancelled) return;
-
-      supabase.auth.getSession().then(({ data }) => {
-        if (!cancelled) setSignedIn(Boolean(data.session));
-      });
-      const {
-        data: { subscription },
-      } = supabase.auth.onAuthStateChange((_event, session) => {
-        if (!cancelled) setSignedIn(Boolean(session));
-      });
-      unsubscribe = () => subscription.unsubscribe();
+    supabase.auth.getSession().then(({ data }) => {
+      setSignedIn(Boolean(data.session));
+    });
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSignedIn(Boolean(session));
     });
 
-    return () => {
-      cancelled = true;
-      unsubscribe?.();
-    };
+    return () => subscription.unsubscribe();
   }, []);
 
   useEffect(() => {
