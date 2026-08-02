@@ -21,7 +21,11 @@
 
 **조건**: 실채널 전환 시점
 
-- [ ] `ALLOW_TEST_CHANNEL` 삭제
+- [ ] `PORTONE_ALLOW_TEST_CHANNEL` 값 삭제 — **사고 위험은 2026-08-02에 이미 막았다.**
+      두 앱 모두 `isDevEnvironment()` 가드를 얹어 운영 배포에서는 이 값이 켜져 있어도 무시된다
+      (`lib/portone.ts`의 `isTestChannelAllowed`, 검사는 `scripts/verify-test-channel-guard.ts`).
+      값 자체를 지우는 것은 "안 쓰는 스위치를 남기지 않는다"는 정리 차원이다.
+      실채널 배선을 미리 확인하려면 **Preview 배포에 `APP_ENV=dev`**를 넣고 거기서 한다.
 - [ ] 웹훅 시크릿 교체
 - [ ] 테스트 주문·세션 일괄 삭제(오픈 시 방침)
 - [ ] 지표 초기화 — AI 사용량·글로벌 접속·광고 3종은 **광고가 실제로 붙는 시점에** 0으로

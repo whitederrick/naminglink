@@ -5,6 +5,7 @@ import {
   isUnrecognizedPayment,
   type PaidPayment,
 } from "@portone/server-sdk/payment";
+import { isDevEnvironment } from "@naminglink/core/env";
 
 let paymentClient: ReturnType<typeof PaymentClient> | null = null;
 
@@ -26,6 +27,24 @@ function getPaymentClient() {
   if (!secret) throw new Error("PORTONE_API_SECRET이 설정되지 않았습니다.");
   paymentClient ??= PaymentClient({ secret });
   return paymentClient;
+}
+
+/**
+ * TEST 채널 결제를 허용할 것인가.
+ *
+ * **운영 배포에서는 어떤 설정으로도 허용되지 않는다.** 예전에는 `PORTONE_ALLOW_TEST_CHANNEL`
+ * 하나만 보았는데, 그 값은 다크 런치 기간에만 한시로 켜 두려던 것이라 **지우는 것을 잊으면
+ * 그대로 남는다.** 채널 키는 브라우저에 노출되므로 그 상태에서는 누구든 실제 금액 없이 TEST
+ * 채널로 "결제"해 유료 상품을 받아 갈 수 있다. 지우기를 사람이 기억하는 대신 환경이 막는다
+ * (`isDevEnvironment()`는 `VERCEL_ENV=production`이면 어떤 설정으로도 개발이 되지 않는다).
+ *
+ * 로컬과 Preview(`APP_ENV=dev`)에서는 그대로 쓸 수 있다 — 다른 다크 런치 스위치
+ * (`DEV_PRODUCTS_ENABLED`, `is_test` 기록)와 같은 기준이다.
+ */
+export function isTestChannelAllowed(
+  env: Record<string, string | undefined> = process.env,
+) {
+  return isDevEnvironment(env) && env.PORTONE_ALLOW_TEST_CHANNEL === "true";
 }
 
 export async function getVerifiedPremiumPayment(
@@ -52,10 +71,8 @@ export async function getVerifiedPremiumPayment(
   }
   // 채널 타입 검증: 실 결제는 반드시 LIVE 채널이어야 한다. 하나의 상점에 TEST 채널이
   // 공존할 수 있고 채널 키는 브라우저에 노출되므로, 이 검증이 없으면 공격자가 TEST 채널로
-  // "결제"해 실제 금액 없이 주문을 PAID로 만들 수 있다. 다크런치/테스트 기간에만
-  // PORTONE_ALLOW_TEST_CHANNEL=true로 TEST 채널을 한시 허용한다(운영 정식 오픈 시 제거).
-  const allowTestChannel = process.env.PORTONE_ALLOW_TEST_CHANNEL === "true";
-  if (!allowTestChannel && payment.channel?.type !== "LIVE") {
+  // "결제"해 실제 금액 없이 주문을 PAID로 만들 수 있다.
+  if (!isTestChannelAllowed() && payment.channel?.type !== "LIVE") {
     throw new Error("실 결제 채널이 아닙니다.");
   }
   return payment as PaidPayment;
