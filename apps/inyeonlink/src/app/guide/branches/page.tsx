@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { BranchWheel, BranchWheelLegend, GuideFigure } from "@/components/GuideFigure";
 import {
   GuideNote,
   GuideSection,
@@ -82,6 +83,10 @@ export default async function Page(props: GuidePageProps) {
           십이지(十二支)는 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥 열둘입니다. 흔히 아는 띠 —
           쥐·소·범·토끼·용·뱀·말·양·원숭이·닭·개·돼지 — 가 이 열두 글자에 하나씩 붙습니다.
         </p>
+        <GuideFigure caption="열두 글자를 원으로 놓으면 관계가 한눈에 보입니다. 충(冲)은 언제나 마주 보는 자리이고, 육합과 원진은 그보다 가까운 짝입니다. 이 선들은 글에 적어 둔 것이 아니라 계산 규칙에서 그대로 뽑았습니다.">
+          <BranchWheel />
+          <BranchWheelLegend />
+        </GuideFigure>
         <p>
           사주에서는 네 기둥마다 지지가 하나씩 있습니다. 인연링크는 그중 <b>일지</b>(배우자궁)와{" "}
           <b>연지</b>(띠) 둘을 씁니다. 두 자리 모두 아래 같은 관계표로 판정합니다.

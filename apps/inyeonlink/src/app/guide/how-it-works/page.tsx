@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { FourPillarsDiagram, GuideFigure } from "@/components/GuideFigure";
 import {
   GuideNote,
   GuideSection,
@@ -54,6 +55,9 @@ export default async function Page(props: GuidePageProps) {
       </GuideSection>
 
       <GuideSection title="The four Saju factors">
+        <GuideFigure caption="A Saju chart is the year, month, day and hour of birth, each written as two characters — a heavenly stem and an earthly branch. The day stem and day branch, highlighted here, are the two seats this service reads most.">
+          <FourPillarsDiagram language="en" />
+        </GuideFigure>
         <GuideTable
           head={["Factor", "What it asks", "Weight"]}
           rows={[

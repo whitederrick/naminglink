@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { GuideFigure, HanjaMatchFlow } from "@/components/GuideFigure";
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { findGuideEntry } from "@/lib/guide-index";
@@ -44,6 +45,9 @@ export default async function Page({ searchParams }: PageProps) {
           맞추느라 이름의 소리를 바꾸지 않습니다. 이름은 평생 불리는 것이고, 부르는 소리가 먼저
           정해진 뒤에 한자가 따라오는 것이 순서라고 봅니다.
         </p>
+        <GuideFigure caption="후보가 좁혀지는 순서입니다. 한자를 먼저 고르고 소리를 맞추는 것이 아니라, 소리가 먼저이고 그 소리로 읽도록 지정된 글자만 후보가 됩니다.">
+          <HanjaMatchFlow total={counts ? formatCount(counts.hanjaTotal) : undefined} />
+        </GuideFigure>
       </GuideSection>
 
       <GuideSection title="그 소리로 등록 가능한 한자만 모읍니다">

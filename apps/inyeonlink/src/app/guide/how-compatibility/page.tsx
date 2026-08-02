@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { FourPillarsDiagram, GuideFigure } from "@/components/GuideFigure";
 import {
   GuideNote,
   GuideSection,
@@ -57,6 +58,9 @@ export default async function Page(props: GuidePageProps) {
         <p>
           사주 쪽은 다시 넷으로 갈립니다. 각 항목이 보는 것이 서로 겹치지 않도록 골랐습니다.
         </p>
+        <GuideFigure caption="사주는 태어난 연·월·일·시를 각각 천간과 지지 두 글자로 세운 여덟 글자입니다. 아래 글에 계속 나오는 일간(日干)과 일지(日支)는 일주에 있는 두 자리입니다.">
+          <FourPillarsDiagram />
+        </GuideFigure>
         <GuideTable
           head={["항목", "무엇을 보는가", "비중"]}
           rows={[

@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 
+import {
+  FiveElementsCycle,
+  FiveElementsLegend,
+  GuideFigure,
+} from "@/components/GuideFigure";
 import { GuideSection, GuideShell } from "@/components/GuideShell";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { findGuideEntry } from "@/lib/guide-index";
@@ -91,6 +96,10 @@ export default async function Page({ searchParams }: PageProps) {
       </GuideSection>
 
       <GuideSection title="오행은 참고로만 씁니다">
+        <GuideFigure caption="오행이 서로 맺는 관계입니다. 원을 따라 도는 것이 상생(相生), 하나 건너뛰어 누르는 것이 상극(相剋)입니다. 저희는 이 관계를 후보 비교의 보조 축 하나로만 씁니다.">
+          <FiveElementsCycle />
+          <FiveElementsLegend />
+        </GuideFigure>
         <p>
           출생월을 입력하신 경우, 그 달을 기준으로 한 간이 오행 참고를 후보 비교의 보조 축
           하나로 활용합니다. 다만 이것은 정밀한 사주 원국 분석이 아니며,{" "}
