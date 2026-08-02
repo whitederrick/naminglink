@@ -1,10 +1,16 @@
 import { AlertTriangle, CheckCircle2, Lock } from "lucide-react";
+import { candidateRate } from "@/lib/candidate-order";
+import { isLockedCandidate } from "@/lib/candidate-seal";
 import type { ServiceConfig } from "@/lib/services";
 
+/**
+ * **잠금 판정은 이 화면에 없다.** 예전에는 `revealedCount`를 받아 `index >= revealedCount`로
+ * 가렸는데, 그러면 잠긴 후보가 이미 브라우저에 평문으로 내려와 있어 개발자도구만 열면 다 읽혔다.
+ * 지금은 잠긴 자리에 봉인문만 오고(`lib/candidate-seal.ts`), 화면은 그것이 봉인문인지만 본다.
+ */
 type ResultCardProps = {
   service: ServiceConfig;
   result: unknown;
-  revealedCount: number;
   candidateLimit?: number;
   detailedHanja?: boolean;
   locale?: string;
@@ -691,23 +697,6 @@ function getCandidates(record: Record<string, unknown>) {
   return arrayRecords(record.candidates);
 }
 
-function numberValue(value: unknown) {
-  if (typeof value === "number" && Number.isFinite(value)) {
-    return value;
-  }
-
-  if (typeof value === "string" && value.trim()) {
-    const parsed = Number(value);
-    return Number.isFinite(parsed) ? parsed : null;
-  }
-
-  return null;
-}
-
-function candidateRate(item: Record<string, unknown>) {
-  return numberValue(item.matching_rate) ?? numberValue(item.suitability_score);
-}
-
 function candidateTitle(
   service: ServiceConfig,
   item: Record<string, unknown>,
@@ -1004,17 +993,18 @@ function PronunciationCandidateDetails({
 export function ResultCard({
   service,
   result,
-  revealedCount,
   candidateLimit = 5,
   detailedHanja = false,
   locale,
 }: ResultCardProps) {
   const copy = getResultCardCopy(service, locale);
   const record = asRecord(result);
-  const allCandidates = getCandidates(record).sort(
-    (a, b) => (candidateRate(b) ?? -1) - (candidateRate(a) ?? -1),
-  );
+  // 정렬은 서버가 끝냈다(`lib/candidate-order.ts`). 잠긴 후보는 적합도가 봉인 안에 들어가
+  // 여기서는 정렬할 수도 없고, 할 필요도 없다.
+  const allCandidates = getCandidates(record);
   const candidates = allCandidates.slice(0, candidateLimit);
+  // 실제로 열려 있는 개수. 화면이 세는 것과 서버가 연 것이 어긋나지 않게 후보 자체에서 센다.
+  const revealedCount = candidates.filter((item) => !isLockedCandidate(item)).length;
   const rejected = getRejected(record);
   const rejectedGroups = groupRejected(
     rejected,
@@ -1026,7 +1016,7 @@ export function ResultCard({
   const allCandidatesRevealed =
     allCandidates.length > 0 &&
     candidateLimit >= allCandidates.length &&
-    revealedCount >= allCandidates.length;
+    !allCandidates.some(isLockedCandidate);
   const comprehensiveHanjaOptions = collectHanjaOptions(candidates);
 
   return (
@@ -1043,7 +1033,7 @@ export function ResultCard({
               </div>
               <span className="rounded-full bg-brand-teal/10 px-3 py-1.5 text-xs font-semibold text-brand-teal">
                 {candidates.length > 0
-                  ? `추천 이름 조합 ${Math.min(revealedCount, candidates.length)}개 공개`
+                  ? `추천 이름 조합 ${revealedCount}개 공개`
                   : "공식 확인 필요"}
               </span>
             </div>
@@ -1096,7 +1086,7 @@ export function ResultCard({
               {candidates.length > 0
                 ? allCandidatesRevealed
                   ? copy.allRevealed(allCandidates.length)
-                  : copy.partialRevealed(Math.min(revealedCount, candidates.length))
+                  : copy.partialRevealed(revealedCount)
                 : copy.noRecommendation}
             </span>
           ) : null}
@@ -1109,7 +1099,7 @@ export function ResultCard({
         ) : null}
 
         {candidates.map((item, index) => {
-          const locked = index >= revealedCount;
+          const locked = isLockedCandidate(item);
           const title = candidateTitle(service, item, index);
           const subtitle =
             [text(item.hangul), text(item.pronunciation), text(item.region_fit)]

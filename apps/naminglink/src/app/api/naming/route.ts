@@ -11,6 +11,7 @@ import {
   readJsonBodyLimited,
   RequestTooLargeError,
 } from "@/lib/request-guard";
+import { sealCandidates } from "@/lib/result-seal";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
 export const runtime = "nodejs";
@@ -212,6 +213,15 @@ export async function POST(request: NextRequest) {
       ? stripPaidHanjaDetail(generation.result)
       : generation.result;
 
+    // 무료 후보 하나만 평문으로 두고 나머지는 봉인한다. 예전에는 후보 전부가 평문으로 나가고
+    // 잠금이 화면에만 있어(`index >= revealedCount`), 개발자도구를 열면 광고도 결제도 없이
+    // 다 읽혔다. 여는 판정은 이제 /api/candidates/unseal 한 곳에만 있다.
+    //
+    // **저장에는 봉인하지 않은 것을 쓴다.** 봉인문에는 유효기간이 있어 그대로 저장하면 본인
+    // 기록이 나중에 열리지 않는다. 다시 열람할 때 /api/account/results/[id]가 같은 규칙으로
+    // 다시 봉인한다.
+    const sealedResult = sealCandidates(clientResult);
+
     // HANJA는 생성이 성공한 뒤에만 무료 한도를 차감한다.
     if (isHanja && !(await consumeFreeQuota())) {
       return quotaExhaustedResponse;
@@ -259,7 +269,7 @@ export async function POST(request: NextRequest) {
       ok: true,
       logId,
       persistence,
-      result: clientResult,
+      result: sealedResult,
       analysisMeta: generation.analysisMeta,
     });
   } catch (error) {

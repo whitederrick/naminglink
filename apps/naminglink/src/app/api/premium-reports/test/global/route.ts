@@ -12,6 +12,7 @@ import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";
 import { renderHangulArtPdf } from "@/lib/pdf/hangul-art-report";
 import { renderNameArtPackPdf } from "@/lib/pdf/name-art-pack-report";
 import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
+import { openSeals } from "@/lib/result-seal";
 import { loadActiveBackdropDataUri } from "@/lib/report-backdrops";
 import { getProductSetting } from "@/lib/product-settings";
 import {
@@ -39,6 +40,9 @@ const schema = z.object({
   inputFactors: z.record(z.string(), z.unknown()),
   candidate: hangulCandidate.optional(),
   candidates: z.array(hangulCandidate).min(1).max(5).optional(),
+  // 아직 열지 않은 후보의 봉인문. 운영 주문(`global-order`)과 같은 이유로 받는다 — 이 상품은
+  // 후보 전체를 담으므로, 잠긴 후보를 빼고 만들면 실제로 파는 것과 다른 산출물을 보게 된다.
+  seals: z.array(z.string().min(32).max(64 * 1024)).max(5).default([]),
   // 미지정이면 활성 서체 중 앞에서부터 설정 개수만큼 자동 선택한다(테스트 편의).
   fontCodes: z.array(z.string().trim()).max(10).optional(),
   locale: z.string().trim().max(10).optional(),
@@ -65,8 +69,18 @@ export async function POST(request: Request) {
       ? String(parsed.data.locale)
       : "en";
     const outputLanguage = pdfOutputLanguage(orderedLanguage);
-    const candidates =
-      parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []);
+    // 열린 후보는 항상 앞쪽 연속 구간이라, 봉인을 푼 것을 자리 순서로 뒤에 이으면 화면 순서가
+    // 그대로 유지된다(`global-order`와 같은 규칙).
+    const unsealed =
+      parsed.data.seals.length > 0
+        ? openSeals(parsed.data.seals)
+            .opened.sort((a, b) => a.index - b.index)
+            .map((entry) => entry.candidate as Record<string, unknown>)
+        : [];
+    const candidates = [
+      ...(parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : [])),
+      ...unsealed,
+    ];
     if (candidates.length === 0) {
       return NextResponse.json({ ok: false, error: "후보 정보가 없습니다." }, { status: 400 });
     }

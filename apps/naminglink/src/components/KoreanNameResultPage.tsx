@@ -13,6 +13,13 @@ import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 import { cappedCandidateCount } from "@/lib/candidate-count";
+import {
+  lockedSeals,
+  persistUnsealedResult,
+  unlockedCandidateCount,
+  unsealAllCandidates,
+  unsealNextCandidate,
+} from "@/lib/candidate-seal";
 import { getResultCopy } from "@/lib/i18n-result";
 import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
 import { localePath } from "@/lib/locale-path";
@@ -84,8 +91,26 @@ export function KoreanNameResultPage({
       return null;
     }
   }, [raw]);
-  const [revealedCount, setRevealedCount] = useState(1);
-  const totalCount = stored ? candidateCount(stored.result) : 0;
+  // 광고·결제로 실제로 열린 결과. 잠긴 후보는 봉인문으로만 와 있어 서버가 풀어 준 것을 받는다.
+  const [openedResult, setOpenedResult] = useState<unknown>(null);
+  const currentResult = openedResult ?? stored?.result ?? null;
+  const totalCount = stored ? candidateCount(currentResult) : 0;
+  const revealedCount = unlockedCandidateCount(currentResult);
+
+  function applyOpened(next: unknown) {
+    setOpenedResult(next);
+    persistUnsealedResult(storageKey, next);
+  }
+
+  async function revealNextCandidate() {
+    if (!currentResult) return;
+    applyOpened(await unsealNextCandidate(currentResult));
+  }
+
+  async function revealAllCandidates(order: { orderId: string; paymentId: string }) {
+    if (!currentResult) return;
+    applyOpened(await unsealAllCandidates(currentResult, { order }));
+  }
 
   return (
     <main className="min-h-screen">
@@ -137,8 +162,7 @@ export function KoreanNameResultPage({
             </section>
             <ResultCard
               service={service}
-              result={stored.result}
-              revealedCount={revealedCount}
+              result={currentResult}
               locale={locale}
             />
             {/* 순서: 종합 리포트 → 후보 열기 → 아트 팩 → 도장.
@@ -152,7 +176,9 @@ export function KoreanNameResultPage({
                 "고르라"면서 선택지가 하나뿐인 화면이 된다 — 후보 열기가 이 상품의 값어치를
                 만들어 주므로 그 뒤여야 한다. */}
             <GlobalNamePremiumPanel
-              candidates={premiumCandidatesOf(stored.result)}
+              candidates={premiumCandidatesOf(currentResult)}
+              // 이 상품은 후보 전체를 담는다. 아직 열지 않은 후보는 봉인문으로 넘겨 서버가 채운다.
+              seals={lockedSeals(currentResult).map((entry) => entry.seal)}
               revealedCount={revealedCount}
               inputFactors={stored.inputFactors}
               locale={locale}
@@ -163,14 +189,12 @@ export function KoreanNameResultPage({
               totalCount={totalCount}
               locale={locale}
               serviceType={service.serviceType}
-              onUnlock={() =>
-                setRevealedCount((current) => Math.min(totalCount, current + 1))
-              }
-              onUnlockAll={() => setRevealedCount(totalCount)}
+              onUnlock={revealNextCandidate}
+              onUnlockAll={revealAllCandidates}
             />
             <GlobalNamePremiumPanel
               product="NAME_ART_PACK"
-              candidates={premiumCandidatesOf(stored.result)}
+              candidates={premiumCandidatesOf(currentResult)}
               revealedCount={revealedCount}
               inputFactors={stored.inputFactors}
               locale={locale}
@@ -180,7 +204,7 @@ export function KoreanNameResultPage({
                 service={service}
                 locale={locale}
                 // 오픈된 후보의 한글 이름만 도장 문구 선택지로 넘긴다(잠금 후보는 제외).
-                stampNameOptions={premiumCandidatesOf(stored.result)
+                stampNameOptions={premiumCandidatesOf(currentResult)
                   .slice(0, Math.max(1, revealedCount))
                   .map((candidate) => candidate.hangul)
                   .filter((hangul) => /^[가-힣]{2,6}$/.test(hangul))}

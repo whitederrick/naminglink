@@ -7,6 +7,7 @@ import {
 } from "@/lib/hanja-products";
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
 import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
+import { openSealedResult } from "@/lib/result-seal";
 import { z } from "zod";
 
 export const runtime = "nodejs";
@@ -47,9 +48,12 @@ export async function POST(request: Request) {
   }
 
   try {
+    // 화면이 보낸 결과에는 잠긴 후보가 봉인문으로 들어 있다. 여기서 풀지 않으면 그 후보들이
+    // 상세 분석에서 통째로 빠지고, 후보 수가 맞지 않아 생성 자체가 실패한다.
+    // 이 라우트는 운영자만 부를 수 있어(위의 `isPremiumTestRequestAllowed`) 여는 것이 맞다.
     const premium = await buildPremiumHanjaTestResult(
       body.data.inputFactors,
-      body.data.result,
+      openSealedResult(body.data.result),
       {
         candidateLimit: product.candidateLimit,
         includeSaju: product.includesSaju,

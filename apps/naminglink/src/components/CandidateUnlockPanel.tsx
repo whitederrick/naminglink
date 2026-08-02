@@ -26,6 +26,8 @@ type UnlockCopy = {
   bulkButtonReady: string;
   bulkPaying: string;
   bulkFailed: string;
+  /** 광고는 봤는데 후보를 못 받은 경우. 서버 사유 메시지는 한국어라 화면 문구로 대신한다. */
+  unlockFailed: string;
 };
 
 const unlockCopies: Record<string, UnlockCopy> = {
@@ -46,6 +48,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "전체 후보 일괄 공개 · {price}",
     bulkPaying: "결제 진행 중…",
     bulkFailed: "결제가 완료되지 않았습니다. 다시 시도해 주세요.",
+    unlockFailed: "후보를 열지 못했습니다. 잠시 후 다시 시도해 주세요.",
   },
   vi: {
     title: "Mở thêm ứng viên",
@@ -62,6 +65,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Mở toàn bộ ứng viên · {price}",
     bulkPaying: "Đang xử lý thanh toán…",
     bulkFailed: "Thanh toán chưa hoàn tất. Vui lòng thử lại.",
+    unlockFailed: "Không thể mở ứng viên. Vui lòng thử lại sau.",
   },
   th: {
     title: "เปิดชื่อที่แนะนำเพิ่มเติม",
@@ -78,6 +82,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · {price}",
     bulkPaying: "กำลังดำเนินการชำระเงิน…",
     bulkFailed: "การชำระเงินยังไม่เสร็จสิ้น กรุณาลองอีกครั้ง",
+    unlockFailed: "ไม่สามารถเปิดรายชื่อได้ กรุณาลองใหม่อีกครั้ง",
   },
   ja: {
     title: "追加の候補を開く",
@@ -94,6 +99,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "全候補を一括公開 · {price}",
     bulkPaying: "決済処理中…",
     bulkFailed: "決済が完了しませんでした。もう一度お試しください。",
+    unlockFailed: "候補を開けませんでした。しばらくしてからもう一度お試しください。",
   },
   zh: {
     title: "解锁更多候选名字",
@@ -110,6 +116,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "一次性解锁全部候选名字 · {price}",
     bulkPaying: "正在处理付款…",
     bulkFailed: "付款未完成，请重试。",
+    unlockFailed: "未能打开候选名。请稍后再试。",
   },
   id: {
     title: "Buka kandidat lainnya",
@@ -126,6 +133,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Buka seluruh kandidat sekaligus · {price}",
     bulkPaying: "Memproses pembayaran…",
     bulkFailed: "Pembayaran belum selesai. Silakan coba lagi.",
+    unlockFailed: "Tidak dapat membuka kandidat. Silakan coba lagi nanti.",
   },
   de: {
     title: "Weitere Kandidaten freischalten",
@@ -142,6 +150,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Alle Kandidaten freischalten · {price}",
     bulkPaying: "Zahlung wird verarbeitet…",
     bulkFailed: "Die Zahlung wurde nicht abgeschlossen. Bitte versuchen Sie es erneut.",
+    unlockFailed: "Der Vorschlag konnte nicht geöffnet werden. Bitte später erneut versuchen.",
   },
   es: {
     title: "Desbloquea más candidatos",
@@ -158,6 +167,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Desbloquear todos los candidatos · {price}",
     bulkPaying: "Procesando el pago…",
     bulkFailed: "El pago no se completó. Inténtalo de nuevo.",
+    unlockFailed: "No se pudo abrir el candidato. Vuelve a intentarlo más tarde.",
   },
   fr: {
     title: "Débloquez plus de candidats",
@@ -174,6 +184,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Débloquer tous les candidats · {price}",
     bulkPaying: "Paiement en cours…",
     bulkFailed: "Le paiement n'a pas été finalisé. Veuillez réessayer.",
+    unlockFailed: "Impossible d'ouvrir la proposition. Veuillez réessayer plus tard.",
   },
   it: {
     title: "Sblocca altri candidati",
@@ -190,6 +201,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Sblocca tutti i candidati · {price}",
     bulkPaying: "Pagamento in corso…",
     bulkFailed: "Il pagamento non è stato completato. Riprova.",
+    unlockFailed: "Impossibile aprire il candidato. Riprova più tardi.",
   },
   pt: {
     title: "Desbloqueie mais candidatos",
@@ -206,6 +218,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Desbloquear todos os candidatos · {price}",
     bulkPaying: "Processando o pagamento…",
     bulkFailed: "O pagamento não foi concluído. Tente novamente.",
+    unlockFailed: "Não foi possível abrir o candidato. Tente novamente mais tarde.",
   },
   ru: {
     title: "Откройте больше вариантов",
@@ -222,6 +235,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Открыть все варианты · {price}",
     bulkPaying: "Обработка платежа…",
     bulkFailed: "Платёж не был завершён. Попробуйте ещё раз.",
+    unlockFailed: "Не удалось открыть вариант. Попробуйте позже.",
   },
   ar: {
     title: "افتح مزيدًا من المرشحات",
@@ -238,6 +252,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "فتح جميع المرشحات · {price}",
     bulkPaying: "جارٍ معالجة الدفع…",
     bulkFailed: "لم يكتمل الدفع. يرجى المحاولة مرة أخرى.",
+    unlockFailed: "تعذّر فتح الاسم المقترح. يرجى المحاولة مرة أخرى لاحقًا.",
   },
   tr: {
     title: "Daha fazla adayın kilidini açın",
@@ -254,6 +269,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Tüm adayları aç · {price}",
     bulkPaying: "Ödeme işleniyor…",
     bulkFailed: "Ödeme tamamlanmadı. Lütfen tekrar deneyin.",
+    unlockFailed: "Aday açılamadı. Lütfen daha sonra tekrar deneyin.",
   },
   fil: {
     title: "Magbukas ng higit pang kandidato",
@@ -270,6 +286,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Buksan ang lahat ng kandidato · {price}",
     bulkPaying: "Pinoproseso ang bayad…",
     bulkFailed: "Hindi natapos ang bayad. Pakisubukang muli.",
+    unlockFailed: "Hindi mabuksan ang kandidato. Pakisubukan muli mamaya.",
   },
   uz: {
     title: "Ko‘proq nomzodlarni oching",
@@ -286,6 +303,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Barcha nomzodlarni ochish · {price}",
     bulkPaying: "To‘lov amalga oshirilmoqda…",
     bulkFailed: "To‘lov yakunlanmadi. Qayta urinib ko‘ring.",
+    unlockFailed: "Nomzodni ochib bo'lmadi. Keyinroq qayta urinib ko'ring.",
   },
   mn: {
     title: "Нэрийн хувилбар нэмж нээх",
@@ -302,6 +320,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Бүх хувилбарыг нэг дор нээх · {price}",
     bulkPaying: "Төлбөр боловсруулж байна…",
     bulkFailed: "Төлбөр амжилтгүй боллоо. Дахин оролдоно уу.",
+    unlockFailed: "Нэрийн хувилбарыг нээж чадсангүй. Дараа дахин оролдоно уу.",
   },
   hi: {
     title: "और उम्मीदवार नाम अनलॉक करें",
@@ -318,6 +337,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "सभी उम्मीदवार नाम अनलॉक करें · {price}",
     bulkPaying: "भुगतान प्रोसेस हो रहा है…",
     bulkFailed: "भुगतान पूरा नहीं हुआ। कृपया फिर से कोशिश करें।",
+    unlockFailed: "सुझाव नहीं खोला जा सका. कृपया बाद में पुनः प्रयास करें.",
   },
   km: {
     title: "បើកបេក្ខឈ្មោះបន្ថែម",
@@ -334,6 +354,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "បើកបេក្ខឈ្មោះទាំងអស់ · {price}",
     bulkPaying: "កំពុងដំណើរការទូទាត់…",
     bulkFailed: "ការទូទាត់មិនបានបញ្ចប់ទេ។ សូមព្យាយាមម្តងទៀត។",
+    unlockFailed: "មិនអាចបើកឈ្មោះដែលបានស្នើបានទេ។ សូមព្យាយាមម្ដងទៀតនៅពេលក្រោយ។",
   },
   kk: {
     title: "Қосымша есім нұсқаларын ашу",
@@ -350,6 +371,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Барлық нұсқаны бірден ашу · {price}",
     bulkPaying: "Төлем өңделуде…",
     bulkFailed: "Төлем аяқталмады. Қайталап көріңіз.",
+    unlockFailed: "Нұсқаны ашу мүмкін болмады. Кейінірек қайталап көріңіз.",
   },
   ms: {
     title: "Buka lebih banyak calon",
@@ -366,6 +388,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Buka semua calon sekali gus · {price}",
     bulkPaying: "Memproses pembayaran…",
     bulkFailed: "Pembayaran tidak selesai. Sila cuba lagi.",
+    unlockFailed: "Tidak dapat membuka calon. Sila cuba lagi sebentar lagi.",
   },
   pl: {
     title: "Odblokuj więcej kandydatów",
@@ -382,6 +405,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Odblokuj wszystkich kandydatów · {price}",
     bulkPaying: "Przetwarzanie płatności…",
     bulkFailed: "Płatność nie została ukończona. Spróbuj ponownie.",
+    unlockFailed: "Nie udało się otworzyć propozycji. Spróbuj ponownie później.",
   },
   en: {
     title: "Unlock more candidates",
@@ -398,6 +422,7 @@ const unlockCopies: Record<string, UnlockCopy> = {
     bulkButtonReady: "Unlock all candidates · {price}",
     bulkPaying: "Processing payment…",
     bulkFailed: "The payment was not completed. Please try again.",
+    unlockFailed: "We couldn't open the candidate. Please try again in a moment.",
   },
 };
 
@@ -430,11 +455,14 @@ export function CandidateUnlockPanel({
   totalCount: number;
   locale?: string;
   serviceType?: string;
-  onUnlock: () => void;
-  onUnlockAll?: () => void;
-  // 결제로 일괄 공개한 결과의 식별자(예: resultId). 지정하면 결제 성공 시 해금 상태를
+  /** 광고를 끝까지 본 뒤 부른다. 실제로 여는 일은 서버가 하므로 실패할 수 있다. */
+  onUnlock: () => void | Promise<void>;
+  /** 결제로 일괄 공개할 때 부른다. 서버가 결제를 다시 확인하므로 주문 식별값을 넘긴다. */
+  onUnlockAll?: (order: { orderId: string; paymentId: string }) => void | Promise<void>;
+  // 결제로 일괄 공개한 결과의 식별자(예: resultId). 지정하면 결제 성공 시 **주문 식별값**을
   // localStorage에 남겨, 새로고침·재방문에도 잠기지 않고 복원된다(비회원 결과는 미저장이라
-  // 서버 엔티틀먼트가 없으므로 클라이언트 로컬로 보존한다).
+  // 서버 엔티틀먼트가 없다). 예전에는 "1" 한 글자만 남겼는데, 지금은 잠긴 후보가 봉인되어
+  // 있어 복원에도 서버 확인이 필요하다 — 주문 식별값이 그 확인의 근거다.
   persistKey?: string;
 }) {
   const [loading, setLoading] = useState(false);
@@ -444,35 +472,47 @@ export function CandidateUnlockPanel({
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
+  // 광고 경로의 실패. 결제 실패와 문구가 달라 따로 둔다.
+  const [unlockError, setUnlockError] = useState("");
   const [paypalCheckout, setPaypalCheckout] = useState<UnlockCheckout | null>(null);
   const redirectHandled = useRef(false);
-  // 결제 성공으로 일괄 공개를 확정할 때 호출: 로컬에 해금 상태를 남기고 부모에 반영한다.
-  const completeUnlock = () => {
+  // 결제 성공으로 일괄 공개를 확정할 때 호출: 로컬에 주문 식별값을 남기고 부모에 반영한다.
+  const completeUnlock = async (order: { orderId: string; paymentId: string }) => {
     if (persistKey) {
       try {
-        localStorage.setItem(`nl_unlock:${persistKey}`, "1");
+        localStorage.setItem(`nl_unlock:${persistKey}`, JSON.stringify(order));
       } catch {
         // 로컬 저장 실패(용량·비활성)해도 현재 세션 표시는 진행한다.
       }
     }
-    onUnlockAll?.();
+    await onUnlockAll?.(order);
   };
+  const remainingCount = Math.max(0, totalCount - revealedCount);
+  const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
+  const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
   // 마운트 시 이전 결제 해금 상태를 복원한다(새로고침·재방문 대응).
+  // 실패 문구를 쓰므로 `copy` 뒤에 둔다.
   const unlockRestored = useRef(false);
   useEffect(() => {
     if (unlockRestored.current || !persistKey) return;
     unlockRestored.current = true;
     try {
-      if (localStorage.getItem(`nl_unlock:${persistKey}`) === "1") onUnlockAll?.();
+      const saved = localStorage.getItem(`nl_unlock:${persistKey}`);
+      if (!saved) return;
+      const parsed = JSON.parse(saved) as { orderId?: unknown; paymentId?: unknown };
+      // 옛 형식("1")은 주문을 특정할 수 없어 복원할 수 없다. 지우고 넘어간다.
+      if (typeof parsed?.orderId !== "string" || typeof parsed?.paymentId !== "string") {
+        localStorage.removeItem(`nl_unlock:${persistKey}`);
+        return;
+      }
+      void Promise.resolve(onUnlockAll?.({ orderId: parsed.orderId, paymentId: parsed.paymentId }))
+        .catch(() => setBulkError(copy.bulkFailed));
     } catch {
-      // 접근 불가 시 복원 생략.
+      // 접근 불가·형식 오류 시 복원 생략.
     }
     // 최초 마운트에서 한 번만.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [persistKey]);
-  const remainingCount = Math.max(0, totalCount - revealedCount);
-  const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
-  const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
   // 문구와 동일한 기준으로 결제권역 결정: 외국인 대상 화면=해외(페이팔), 그 외=국내(토스).
   const region = isForeign ? "global" : "domestic";
   const unlockCode = region === "global" ? "CANDIDATE_UNLOCK_USD" : "CANDIDATE_UNLOCK_KRW";
@@ -602,10 +642,8 @@ export function CandidateUnlockPanel({
       {
         onPaymentSuccess: () => {
           void confirmUnlock(checkout.orderId, checkout.paymentId)
-            .then(() => {
-              finish();
-              completeUnlock();
-            })
+            .then(() => completeUnlock({ orderId: checkout.orderId, paymentId: checkout.paymentId }))
+            .then(() => finish())
             .catch((caught) =>
               finish(caught instanceof Error ? caught.message : copy.bulkFailed),
             );
@@ -653,7 +691,7 @@ export function CandidateUnlockPanel({
         // 서버가 결제 상태를 다시 보므로 화면만 열리는 일은 생기지 않는다.
         setBulkStage("paying");
         await confirmUnlock(orderId, orderId);
-        completeUnlock();
+        await completeUnlock({ orderId, paymentId: orderId });
       })
       .catch((caught) => {
         setBulkError(caught instanceof Error ? caught.message : copy.bulkFailed);
@@ -666,9 +704,27 @@ export function CandidateUnlockPanel({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  /**
+   * 광고를 다 본 뒤 실제로 후보를 연다.
+   *
+   * **여는 일은 서버가 한다.** 잠긴 후보는 봉인문으로만 와 있어 화면 혼자서는 열 수 없다.
+   * 그래서 실패할 수 있는 동작이고(만료·네트워크·요청 과다), 실패했으면 실패했다고 말해야 한다 —
+   * 조용히 넘어가면 광고를 본 이용자가 아무 일도 일어나지 않은 화면을 보게 된다.
+   */
+  async function grantUnlock() {
+    try {
+      await onUnlock();
+      trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+    } catch {
+      setUnlockError(copy.unlockFailed);
+      trackAdEvent({ eventType: "ERROR", slotKey: "candidate_unlock", locale, serviceType });
+    }
+  }
+
   async function unlockWithAd() {
     if (loading || remainingCount === 0) return;
 
+    setUnlockError("");
     setLoading(true);
     /**
      * **후보 열기는 오퍼월과 무관하게 항상 광고를 요구한다.**
@@ -693,8 +749,7 @@ export function CandidateUnlockPanel({
        */
       const outcome = await showRewardedAd();
       if (outcome === "granted") {
-        onUnlock();
-        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+        await grantUnlock();
         return;
       }
       if (outcome === "dismissed") return;
@@ -713,8 +768,7 @@ export function CandidateUnlockPanel({
         await new Promise((resolve) =>
           window.setTimeout(resolve, waitSeconds * 1000),
         );
-        onUnlock();
-        trackAdEvent({ eventType: "REWARD_GRANTED", slotKey: "candidate_unlock", locale, serviceType });
+        await grantUnlock();
       } finally {
         window.clearInterval(timer);
         setCountdown(0);
@@ -819,6 +873,9 @@ export function CandidateUnlockPanel({
       </div>
 
       {bulkStage === "paypal" ? <div className="portone-ui-container mt-4" /> : null}
+      {unlockError ? (
+        <p className="mt-3 text-sm font-medium text-red-600">{unlockError}</p>
+      ) : null}
       {bulkError ? (
         <p className="mt-3 text-sm font-medium text-red-600">{bulkError}</p>
       ) : null}

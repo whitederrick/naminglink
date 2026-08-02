@@ -15,6 +15,7 @@ import {
   RequestTooLargeError,
 } from "@/lib/request-guard";
 import { insertOrder, insertPremiumSession } from "@/lib/order-writes";
+import { openSeals, SealError } from "@/lib/result-seal";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
@@ -60,6 +61,14 @@ const schema = z.object({
   // GLOBAL_NAME_PDF: 전체 후보(1~5) / HANGUL_ART_PDF: 표기 후보(1~3) / NAME_ART_PACK: 선택 후보 1개.
   candidate: z.record(z.string(), z.unknown()).optional(),
   candidates: z.array(z.record(z.string(), z.unknown())).min(1).max(5).optional(),
+  /**
+   * 아직 열지 않은 후보의 봉인문.
+   *
+   * **이 상품은 후보 전체를 담는다.** 화면은 잠긴 후보를 봉인문으로만 갖고 있어 그대로는 보낼
+   * 수 없고, 보내지 않으면 산 사람이 후보 한둘짜리 리포트를 받게 된다. 그래서 봉인문을 함께
+   * 받아 서버가 푼다 — 이 응답은 후보 내용을 돌려주지 않으므로 여는 경로로 쓰이지 않는다.
+   */
+  seals: z.array(z.string().min(32).max(64 * 1024)).max(5).default([]),
   // 사용자가 고른 서체 코드. 필요 개수는 product_settings.font_count가 결정한다.
   fontCodes: z.array(z.string().trim().regex(/^[a-z0-9-]{2,40}$/)).max(10).default([]),
   locale: z.string().trim().max(10).optional(),
@@ -74,7 +83,10 @@ const schema = z.object({
 export async function POST(request: NextRequest) {
   let body: unknown;
   try {
-    body = await readJsonBodyLimited(request, 16 * 1024);
+    // 봉인문은 후보 본문을 통째로 담아 커서 16KB로는 후보 다섯의 주문이 들어오지 못한다.
+    // 이 본문은 AI 프롬프트로 흘러가지 않고(후보는 이미 만들어진 값이다) `checkInputFactorsSize`가
+    // 입력값 쪽을 따로 막으므로, 여기만 넉넉히 잡는다.
+    body = await readJsonBodyLimited(request, 384 * 1024);
   } catch (guardError) {
     const message =
       guardError instanceof RequestTooLargeError
@@ -101,8 +113,36 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: sizeError }, { status: 400 });
   }
   const product = GLOBAL_PREMIUM_PRODUCTS[parsed.data.product];
-  const candidateList =
-    parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : []);
+  /**
+   * 열린 후보 뒤에 봉인을 푼 후보를 자리 순서대로 잇는다.
+   *
+   * 열린 후보는 항상 앞쪽 연속 구간이다 — 여는 순서가 "잠긴 첫 자리부터"라 그렇다. 그래서
+   * 자리 번호로 정렬해 뒤에 붙이면 화면에서 본 순서가 그대로 유지된다.
+   */
+  let unsealedCandidates: unknown[] = [];
+  try {
+    unsealedCandidates =
+      parsed.data.seals.length > 0
+        ? openSeals(parsed.data.seals)
+            .opened.sort((a, b) => a.index - b.index)
+            .map((entry) => entry.candidate)
+        : [];
+  } catch (error) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          error instanceof SealError
+            ? error.message
+            : "후보 정보를 불러오지 못했습니다. 결과를 다시 만들어 주세요.",
+      },
+      { status: 400 },
+    );
+  }
+  const candidateList = [
+    ...(parsed.data.candidates ?? (parsed.data.candidate ? [parsed.data.candidate] : [])),
+    ...unsealedCandidates,
+  ];
   const candidatePayload =
     product.code === "HANGUL_ART_PDF"
       ? z.array(artCandidateSchema).min(1).max(3).safeParse(candidateList)

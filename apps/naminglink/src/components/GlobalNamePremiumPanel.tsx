@@ -660,12 +660,21 @@ async function postJson(url: string, body: Record<string, unknown>) {
 
 export function GlobalNamePremiumPanel({
   candidates,
+  seals = [],
   revealedCount,
   inputFactors,
   locale,
   product = "GLOBAL_NAME_PDF",
 }: {
   candidates: PremiumCandidate[];
+  /**
+   * 아직 열지 않은 후보의 봉인문.
+   *
+   * **후보 전체를 담는 상품(GLOBAL_NAME_PDF)에만 의미가 있다.** `candidates`에는 열린 것만
+   * 들어 있어, 이것을 함께 보내지 않으면 광고를 안 본 이용자가 후보 하나짜리 리포트를 산다.
+   * 서버가 풀어서 채우고, 응답은 후보 내용을 돌려주지 않는다.
+   */
+  seals?: string[];
   revealedCount: number;
   inputFactors: Record<string, unknown> | null | undefined;
   locale?: string;
@@ -795,7 +804,7 @@ export function GlobalNamePremiumPanel({
         body: JSON.stringify(
           isPack
             ? { product, inputFactors, candidate, locale, fontCodes: selectedFonts }
-            : { product, inputFactors, candidates, locale, fontCodes: selectedFonts },
+            : { product, inputFactors, candidates, seals, locale, fontCodes: selectedFonts },
         ),
       });
       if (!response.ok) {
@@ -880,7 +889,8 @@ export function GlobalNamePremiumPanel({
       const order = await postJson("/api/premium-reports/global-order", {
         product,
         inputFactors,
-        ...(isPack ? { candidate } : { candidates }),
+        // 아트 상품은 고른 후보 하나만 새기므로 잠긴 후보와 무관하다.
+        ...(isPack ? { candidate } : { candidates, seals }),
         fontCodes: selectedFonts,
         locale,
         withdrawalConsent: true,

@@ -11,6 +11,7 @@ import {
 import { hasCompletePremiumBirthDate } from "@/lib/premium-hanja-eligibility";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 import { countCandidates } from "@/lib/candidate-count";
+import type { UnsealEntitlement } from "@/lib/candidate-seal";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 
 function hasAdminRole(appMetadata: unknown) {
@@ -131,7 +132,18 @@ export function PremiumHanjaCheckoutPanel({
   result: unknown;
   paymentConfigured: boolean;
   premiumTestMode: boolean;
-  onPremiumReady?: (candidateLimit: 5 | 10) => void;
+  /**
+   * 상세 분석이 준비됐을 때 부른다.
+   *
+   * **결제 증명을 함께 넘긴다.** 잠긴 후보는 봉인되어 있어 화면이 스스로 열 수 없고, 서버가
+   * 이 증명을 다시 확인해야 열린다. 개수(`candidateLimit`)는 화면 표시용일 뿐이고, 실제로 어디까지
+   * 여는지는 서버가 상품표를 보고 정한다.
+   */
+  onPremiumReady?: (
+    candidateLimit: 5 | 10,
+    entitlement: UnsealEntitlement,
+    headers?: Record<string, string>,
+  ) => void | Promise<void>;
 }) {
   const [customerName, setCustomerName] = useState("");
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
@@ -254,7 +266,12 @@ export function PremiumHanjaCheckoutPanel({
       throw new Error("상세 분석 생성이 지연되고 있습니다. 잠시 후 '이전 결제 결과 이어서 받기'로 다시 시도해 주세요.");
     }
     setPremium((generated.premium ?? null) as PremiumResult | null);
-    onPremiumReady?.(candidateLimit);
+    await onPremiumReady?.(candidateLimit, {
+      premium: {
+        sessionId: nextCheckout.sessionId,
+        accessToken: nextCheckout.accessToken,
+      },
+    });
 
     if (includesPdf) {
       setStage("pdf");
@@ -457,7 +474,11 @@ export function PremiumHanjaCheckoutPanel({
         result,
       }, adminAuthHeader());
       setPremium(generated.premium as PremiumResult);
-      onPremiumReady?.(selectedProduct.candidateLimit);
+      await onPremiumReady?.(
+        selectedProduct.candidateLimit,
+        { test: true, productCode: selectedProduct.code },
+        adminAuthHeader(),
+      );
       setStage("ready");
     } catch (caught) {
       setStage("idle");

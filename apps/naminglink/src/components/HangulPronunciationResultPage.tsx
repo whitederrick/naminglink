@@ -18,6 +18,13 @@ import {
   globalNameToHangulService,
   type Locale,
 } from "@/lib/services";
+import {
+  lockedSeals,
+  persistUnsealedResult,
+  unlockedCandidateCount,
+  unsealAllCandidates,
+  unsealNextCandidate,
+} from "@/lib/candidate-seal";
 import { getResultCopy, type ResultCopy } from "@/lib/i18n-result";
 import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
 import { localePath } from "@/lib/locale-path";
@@ -299,8 +306,25 @@ export function HangulPronunciationResultPage({
   }, [raw]);
   const [updatedStored, setUpdatedStored] = useState<StoredResult | null>(null);
   const currentStored = updatedStored ?? stored;
-  // 대안 표기 후보(최대 3개)도 다른 서비스와 동일하게 광고 확인으로 하나씩 연다.
-  const [revealedCount, setRevealedCount] = useState(1);
+  // 대안 표기 후보(최대 3개)도 다른 서비스와 동일하게 광고 확인으로 하나씩 연다. 잠긴 후보는
+  // 봉인문으로만 와 있어 서버가 풀어 준 것을 받는다.
+  const revealedCount = unlockedCandidateCount(currentStored?.result);
+
+  function applyOpened(next: unknown) {
+    if (!currentStored) return;
+    setUpdatedStored({ ...currentStored, result: next });
+    persistUnsealedResult(storageKey, next);
+  }
+
+  async function revealNextCandidate() {
+    if (!currentStored) return;
+    applyOpened(await unsealNextCandidate(currentStored.result));
+  }
+
+  async function revealAllCandidates(order: { orderId: string; paymentId: string }) {
+    if (!currentStored) return;
+    applyOpened(await unsealAllCandidates(currentStored.result, { order }));
+  }
   const candidateCount = useMemo(() => {
     const record =
       currentStored?.result && typeof currentStored.result === "object"
@@ -363,7 +387,6 @@ export function HangulPronunciationResultPage({
                 globalNameToHangulService,
               )}
               result={currentStored.result}
-              revealedCount={revealedCount}
               locale={locale}
             />
             <CandidateUnlockPanel
@@ -372,10 +395,8 @@ export function HangulPronunciationResultPage({
               totalCount={candidateCount}
               locale={locale}
               serviceType={globalNameToHangulService.serviceType}
-              onUnlock={() =>
-                setRevealedCount((current) => Math.min(candidateCount, current + 1))
-              }
-              onUnlockAll={() => setRevealedCount(candidateCount)}
+              onUnlock={revealNextCandidate}
+              onUnlockAll={revealAllCandidates}
             />
             {/* 순서: 결과를 다듬는 것 → 그 결과로 만드는 것.
                 발음 교정이 먼저 와야 한다 — 아트 PDF와 도장은 **확정된 표기를 새기는** 상품이라,
@@ -391,6 +412,8 @@ export function HangulPronunciationResultPage({
             <GlobalNamePremiumPanel
               product="HANGUL_ART_PDF"
               candidates={artCandidatesOf(currentStored.result)}
+              // 표기 후보 전체를 담는 상품이라 잠긴 후보도 봉인문으로 함께 넘긴다.
+              seals={lockedSeals(currentStored.result).map((entry) => entry.seal)}
               revealedCount={revealedCount}
               inputFactors={currentStored.inputFactors}
               locale={locale}

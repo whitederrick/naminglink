@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { sealCandidates } from "@/lib/result-seal";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
@@ -73,7 +74,10 @@ export async function GET(
       typeof inputFactors.serviceSlug === "string"
         ? inputFactors.serviceSlug
         : null,
-    result: data.generated_names,
+    // 저장된 기록은 평문이다(봉인문은 만료되므로 그대로 저장할 수 없다). 화면으로 내보낼 때
+    // 생성 때와 같은 규칙으로 다시 봉인한다 — 그러지 않으면 기록 열람이 잠금을 우회하는
+    // 뒷문이 된다. 저장 이전(평문 그대로)의 오래된 기록도 여기서 함께 봉인된다.
+    result: sealCandidates(data.generated_names),
     inputFactors,
     createdAt: data.created_at as string,
   });

@@ -30,6 +30,11 @@ import {
 } from "@/lib/naming-validation";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { cappedCandidateCount } from "@/lib/candidate-count";
+import {
+  unlockedCandidateCount,
+  unsealAllCandidates,
+  unsealNextCandidate,
+} from "@/lib/candidate-seal";
 import { getFormCopy } from "@/lib/i18n-form";
 import {
   getServiceOverride,
@@ -327,7 +332,6 @@ export function NamingForm({
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<NamingFieldErrors>({});
   const [result, setResult] = useState<ApiResult | null>(null);
-  const [revealedCount, setRevealedCount] = useState(1);
   const [analysisCountdown, setAnalysisCountdown] = useState(0);
   const [officialCandidateCount, setOfficialCandidateCount] =
     useState<number | null>(null);
@@ -344,6 +348,25 @@ export function NamingForm({
   const candidateCount = result?.result
     ? resultCandidateCount(result.result)
     : 0;
+  // 몇 개가 열려 있는지는 후보 자체에서 센다. 예전에는 별도 상태(`revealedCount`)로 세었는데,
+  // 실제로 여는 일은 서버가 하므로 그 상태가 서버와 어긋날 수 있었다.
+  const revealedCount = unlockedCandidateCount(result?.result);
+
+  /** 광고를 본 대가로 잠긴 첫 후보 하나를 연다. 실패는 패널이 문구로 알린다. */
+  async function revealNextCandidate() {
+    const current = result?.result;
+    if (!current) return;
+    const opened = await unsealNextCandidate(current);
+    setResult((previous) => (previous ? { ...previous, result: opened } : previous));
+  }
+
+  /** 결제로 잠긴 후보를 한 번에 연다. */
+  async function revealAllCandidates(order: { orderId: string; paymentId: string }) {
+    const current = result?.result;
+    if (!current) return;
+    const opened = await unsealAllCandidates(current, { order });
+    setResult((previous) => (previous ? { ...previous, result: opened } : previous));
+  }
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -368,7 +391,6 @@ export function NamingForm({
     event.preventDefault();
     setError(null);
     setResult(null);
-    setRevealedCount(1);
 
     if (isHanjaMeaning) {
       const validationErrors = validateHanjaMeaningInput(values);
@@ -1033,7 +1055,6 @@ export function NamingForm({
             <ResultCard
               service={service}
               result={result.result}
-              revealedCount={revealedCount}
               locale={isForeignAudience ? locale : "ko"}
             />
             <CandidateUnlockPanel
@@ -1041,12 +1062,8 @@ export function NamingForm({
               totalCount={candidateCount}
               locale={locale}
               serviceType={service.serviceType}
-              onUnlock={() =>
-                setRevealedCount((current) =>
-                  Math.min(candidateCount, current + 1),
-                )
-              }
-              onUnlockAll={() => setRevealedCount(candidateCount)}
+              onUnlock={revealNextCandidate}
+              onUnlockAll={revealAllCandidates}
             />
             <ResultAddOnServices service={service} />
           </div>

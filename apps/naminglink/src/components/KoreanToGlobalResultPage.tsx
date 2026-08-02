@@ -12,6 +12,12 @@ import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 import { cappedCandidateCount } from "@/lib/candidate-count";
+import {
+  persistUnsealedResult,
+  unlockedCandidateCount,
+  unsealAllCandidates,
+  unsealNextCandidate,
+} from "@/lib/candidate-seal";
 import { localePath } from "@/lib/locale-path";
 
 type StoredResult = {
@@ -49,8 +55,26 @@ export function KoreanToGlobalResultPage({
       return null;
     }
   }, [raw]);
-  const [revealedCount, setRevealedCount] = useState(1);
-  const totalCount = stored ? candidateCount(stored.result) : 0;
+  // 광고·결제로 실제로 열린 결과. 잠긴 후보는 봉인문으로만 와 있어 서버가 풀어 준 것을 받는다.
+  const [openedResult, setOpenedResult] = useState<unknown>(null);
+  const currentResult = openedResult ?? stored?.result ?? null;
+  const totalCount = stored ? candidateCount(currentResult) : 0;
+  const revealedCount = unlockedCandidateCount(currentResult);
+
+  function applyOpened(next: unknown) {
+    setOpenedResult(next);
+    persistUnsealedResult(storageKey, next);
+  }
+
+  async function revealNextCandidate() {
+    if (!currentResult) return;
+    applyOpened(await unsealNextCandidate(currentResult));
+  }
+
+  async function revealAllCandidates(order: { orderId: string; paymentId: string }) {
+    if (!currentResult) return;
+    applyOpened(await unsealAllCandidates(currentResult, { order }));
+  }
 
   return (
     <main className="min-h-screen">
@@ -91,20 +115,15 @@ export function KoreanToGlobalResultPage({
             <ResultStorageNotice persistence={stored.persistence} />
             <ResultCard
               service={services.koreanToGlobal}
-              result={stored.result}
-              revealedCount={revealedCount}
+              result={currentResult}
             />
             <CandidateUnlockPanel
               revealedCount={revealedCount}
               totalCount={totalCount}
               locale={locale}
               serviceType={services.koreanToGlobal.serviceType}
-              onUnlock={() =>
-                setRevealedCount((current) =>
-                  Math.min(totalCount, current + 1),
-                )
-              }
-              onUnlockAll={() => setRevealedCount(totalCount)}
+              onUnlock={revealNextCandidate}
+              onUnlockAll={revealAllCandidates}
             />
             {totalCount > 0 ? (
               <ResultAddOnServices service={services.koreanToGlobal} />

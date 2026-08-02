@@ -13,6 +13,12 @@ import { PremiumHanjaCheckoutPanel } from "@/components/PremiumHanjaCheckoutPane
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
 import { cappedCandidateCount } from "@/lib/candidate-count";
+import {
+  persistUnsealedResult,
+  unlockedCandidateCount,
+  unsealAllCandidates,
+  unsealNextCandidate,
+} from "@/lib/candidate-seal";
 import { localePath } from "@/lib/locale-path";
 
 type StoredResult = {
@@ -71,11 +77,26 @@ export function HanjaMeaningResultPage({
       return null;
     }
   }, [raw]);
-  const [revealedCount, setRevealedCount] = useState(1);
+  // 광고·결제로 실제로 열린 결과. 잠긴 후보는 봉인문으로만 와 있어 서버가 풀어 준 것을 받아
+  // 여기에 담는다(원래 기록에도 되쓴다 — `persistUnsealedResult`).
+  const [openedResult, setOpenedResult] = useState<unknown>(null);
+  const currentResult = openedResult ?? stored?.result ?? null;
   const [candidateLimit, setCandidateLimit] = useState(5);
   const [detailedHanja, setDetailedHanja] = useState(false);
-  const totalCount = stored ? candidateCount(stored.result) : 0;
+  const totalCount = stored ? candidateCount(currentResult) : 0;
   const freeCandidateCount = Math.min(totalCount, 5);
+  const revealedCount = unlockedCandidateCount(currentResult);
+
+  function applyOpened(next: unknown) {
+    setOpenedResult(next);
+    persistUnsealedResult(storageKey, next);
+  }
+
+  /** 광고를 본 대가로 잠긴 첫 후보 하나를 연다. */
+  async function revealNextCandidate() {
+    if (!currentResult) return;
+    applyOpened(await unsealNextCandidate(currentResult));
+  }
 
   return (
     <main className="min-h-screen font-hanja">
@@ -128,20 +149,23 @@ export function HanjaMeaningResultPage({
             ) : null}
             <ResultCard
               service={services.hanjaMeaning}
-              result={stored.result}
-              revealedCount={revealedCount}
+              result={currentResult}
               candidateLimit={candidateLimit}
               detailedHanja={detailedHanja}
             />
             <PremiumHanjaCheckoutPanel
               inputFactors={stored.inputFactors}
-              result={stored.result}
+              result={currentResult}
               paymentConfigured={paymentConfigured}
               premiumTestMode={premiumTestMode}
-              onPremiumReady={(unlockedCandidateCount) => {
+              // 상품이 여는 범위는 서버가 상품표를 보고 정한다. 화면은 결제 증명만 넘긴다 —
+              // 여기서 개수를 넘겨 서버가 그대로 믿으면 잠금이 다시 화면 몫이 된다.
+              onPremiumReady={async (unlockedCandidateCount, entitlement, headers) => {
                 setCandidateLimit(unlockedCandidateCount);
-                setRevealedCount(unlockedCandidateCount);
                 setDetailedHanja(true);
+                if (currentResult) {
+                  applyOpened(await unsealAllCandidates(currentResult, entitlement, headers));
+                }
               }}
             />
             <CandidateUnlockPanel
@@ -149,17 +173,13 @@ export function HanjaMeaningResultPage({
               totalCount={freeCandidateCount}
               locale={locale}
               serviceType={services.hanjaMeaning.serviceType}
-              onUnlock={() =>
-                setRevealedCount((current) =>
-                  Math.min(freeCandidateCount, current + 1),
-                )
-              }
+              onUnlock={revealNextCandidate}
             />
             {totalCount > 0 ? (
               <ResultAddOnServices
                 service={services.hanjaMeaning}
                 // 오픈된 후보의 이름 한자만 넘긴다(잠금 후보는 제외).
-                hanjaNameOptions={hanjaOptionsOf(stored.result, revealedCount)}
+                hanjaNameOptions={hanjaOptionsOf(currentResult, revealedCount)}
                 familyNameHanja={
                   typeof stored.inputFactors?.familyNameHanja === "string"
                     ? stored.inputFactors.familyNameHanja.trim()
