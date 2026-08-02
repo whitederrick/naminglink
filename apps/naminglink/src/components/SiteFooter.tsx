@@ -773,9 +773,14 @@ export function SiteFooter({
     href: localePath("/contact", locale),
     label: locale === "ko" ? "문의하기" : "Contact",
   };
+  const noticeLink = {
+    href: localePath("/notice", locale),
+    label: locale === "ko" ? "공지사항" : "Notices",
+  };
   const footerLinks = [
     aboutLink,
     contactLink,
+    noticeLink,
     { href: localePath("/terms", locale), label: copy.links.terms },
     { href: localePath("/privacy", locale), label: copy.links.privacy },
     { href: localePath("/refund-policy", locale), label: copy.links.refund },

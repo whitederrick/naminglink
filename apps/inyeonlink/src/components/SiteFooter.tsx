@@ -172,6 +172,9 @@ export async function SiteFooter({
           <a href={localePath("/contact", linkLocale)} className={linkClass} dir={textDirection}>
             {locale === "ko" ? "문의하기" : "Contact"}
           </a>
+          <a href={localePath("/notice", linkLocale)} className={linkClass} dir={textDirection}>
+            {locale === "ko" ? "공지사항" : "Notices"}
+          </a>
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">
