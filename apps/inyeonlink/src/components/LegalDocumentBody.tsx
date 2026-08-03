@@ -1,4 +1,7 @@
-import { LEGAL_EFFECTIVE_DATE, type LegalDocument } from "@/lib/legal-content";
+// 값은 원본인 `company`에서, 모양은 `legal-content`에서 타입으로만 가져온다.
+// (이유는 `LegalModal.tsx` 주석 참고 — 값 임포트 하나가 약관 원문 23벌을 번들에 싣는다)
+import { LEGAL_EFFECTIVE_DATE } from "@/lib/company";
+import type { LegalDocument } from "@/lib/legal-content";
 
 /**
  * 문단에 `**강조**` 표기를 쓸 수 있게 한다. 약관에서 "저장하지 않습니다" 같은 핵심 문장을

@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { LegalDocumentBody } from "@/components/LegalDocumentBody";
-import { LEGAL_EFFECTIVE_DATE, type LegalDocument, type LegalDocumentKey } from "@/lib/legal-content";
+// **`legal-content`에서는 타입만 가져온다.** 값을 하나라도 가져오면 그 모듈이 통째로
+// 클라이언트 번들에 실리고, 거기 딸린 `payments-csp`·`ads`와 23로케일 약관 원문까지 따라온다
+// (2026-08-03 전수 감사에서 실제로 그렇게 실려 있었다). 문서는 `/api/legal`로 받아 온다.
+import { LEGAL_EFFECTIVE_DATE } from "@/lib/company";
+import type { LegalDocument, LegalDocumentKey } from "@/lib/legal-content";
 
 // naminglink의 `LegalModal`과 **같은 구조·같은 동작**이다. 두 서비스를 오가는 사용자가 같은
 // 자리에서 같은 방식으로 약관을 보게 하려는 것이라, 마크업과 상호작용을 일부러 맞췄다.

@@ -80,6 +80,8 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // 응답에서 `X-Powered-By: Next.js`를 뺀다(naminglink와 같은 이유·같은 설정).
+  poweredByHeader: false,
   // packages/core는 .ts 소스를 그대로 export하므로 앱에서 트랜스파일한다.
   transpilePackages: ["@naminglink/core"],
   // PDF 리포트가 쓰는 폰트를 배포 산출물에 넣는다. `src/lib/pdf/fonts.tsx`가 이 경로를

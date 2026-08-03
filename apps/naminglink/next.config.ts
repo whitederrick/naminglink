@@ -87,6 +87,9 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // 응답에서 `X-Powered-By: Next.js`를 뺀다. 어떤 프레임워크를 쓰는지 굳이 알릴 이유가 없다 —
+  // 공격자가 프레임워크별 알려진 취약점을 먼저 훑는 데 쓰는 정보다. 동작에는 영향이 없다.
+  poweredByHeader: false,
   // packages/core는 빌드 산출물이 아니라 .ts 소스를 그대로 export하므로 앱에서 트랜스파일한다.
   transpilePackages: ["@naminglink/core"],
   outputFileTracingIncludes: {
