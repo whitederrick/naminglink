@@ -75,17 +75,28 @@ async function postUnseal(path: string, body: unknown) {
 }
 
 /** 광고 관문 표. 원문과 "이만큼 지나야 쓸 수 있다"가 함께 온다. */
-export type UnlockTicket = { ticket: string | null; readyInMs: number };
+export type UnlockTicket = {
+  ticket: string | null;
+  readyInMs: number;
+  /**
+   * 서버에 **닿았는가.**
+   *
+   * `ticket`이 null인 데는 두 가지 사연이 있고 대응이 정반대다.
+   *
+   * - 서버가 관문을 걸 수 없다(설정 없음·DB 장애) → 서버도 표를 요구하지 않는다. **그냥 진행.**
+   * - 서버에 닿지 못했다(네트워크·5xx) → 서버는 여전히 표를 요구한다. **광고를 보여 주기 전에
+   *   멈춰야 한다.** 그대로 진행하면 이용자가 광고를 다 본 뒤에 실패를 본다.
+   *
+   * 이 값이 그 둘을 가른다. 참이면 앞의 경우, 거짓이면 뒤의 경우다.
+   */
+  issued: boolean;
+};
 
 /**
  * 광고 관문 표를 받아 온다. **광고를 시작할 때** 부른다.
  *
  * 여기서부터 서버가 기다림을 재기 시작하므로, 광고를 보는 시간과 관문 시간이 겹친다. 광고를
  * 다 본 뒤에 부르면 그때부터 5초를 또 세게 된다.
- *
- * 실패하면 표 없이 진행한다. 표를 못 끊는 상황은 대개 서버가 관문을 걸 수 없는 상황이라
- * (`lib/unlock-ticket.ts`) 여는 쪽도 같은 판단으로 통과시킨다. 광고를 본 이용자를 네트워크
- * 사정으로 막아 세우지 않는 쪽을 고른 것이다.
  */
 export async function requestUnlockTicket(): Promise<UnlockTicket> {
   try {
@@ -93,13 +104,14 @@ export async function requestUnlockTicket(): Promise<UnlockTicket> {
     const payload = (await response.json().catch(() => null)) as
       | { ok?: boolean; ticket?: string | null; readyInMs?: number }
       | null;
-    if (!response.ok || !payload?.ok) return { ticket: null, readyInMs: 0 };
+    if (!response.ok || !payload?.ok) return { ticket: null, readyInMs: 0, issued: false };
     return {
       ticket: payload.ticket ?? null,
       readyInMs: Math.max(0, Number(payload.readyInMs) || 0),
+      issued: true,
     };
   } catch {
-    return { ticket: null, readyInMs: 0 };
+    return { ticket: null, readyInMs: 0, issued: false };
   }
 }
 

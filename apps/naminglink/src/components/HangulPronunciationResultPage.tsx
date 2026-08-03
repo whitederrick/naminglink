@@ -129,13 +129,18 @@ function ReanalysisSection({
    *
    * 표를 안 쓰고 떠나도 손해는 없다. 지나간 표는 다음 발급을 늦추지 않는다.
    */
-  const heldTicket = useRef<Promise<{ ticket: string | null; readyAt: number }> | null>(null);
+  const heldTicket = useRef<Promise<{
+    ticket: string | null;
+    readyAt: number;
+    issued: boolean;
+  }> | null>(null);
 
   function ensureTicket() {
     if (!heldTicket.current) {
       heldTicket.current = requestUnlockTicket().then((issued) => ({
         ticket: issued.ticket,
         readyAt: Date.now() + issued.readyInMs,
+        issued: issued.issued,
       }));
     }
     return heldTicket.current;
@@ -184,8 +189,22 @@ function ReanalysisSection({
      * 횟수는 그대로 남긴다. 이제 **관문의 유무가 아니라 어떤 광고를 보여 줄지**를 정한다.
      */
     const held = await ensureTicket();
-    // 한 장은 한 번만이다. 다음 회차는 새로 끊는다.
-    heldTicket.current = null;
+
+    /**
+     * **표를 못 받았으면 광고를 보여 주기 전에 멈춘다.**
+     *
+     * 서버에 닿지 못한 경우다. 서버는 여전히 표를 요구하므로 그대로 진행하면 이용자가 광고를
+     * 다 본 **뒤에** 실패를 본다. 다음 시도에는 새로 끊도록 비워 둔다.
+     */
+    if (!held.issued) {
+      heldTicket.current = null;
+      setError(copy.reanalysisErrorGeneric);
+      return;
+    }
+
+    // **여기서 표를 놓지 않는다.** 아래에서 광고를 닫으면(`dismissed`) 분석을 돌리지 않고
+    // 그냥 끝나는데, 그때 표를 버렸으면 다음 시도가 아직 준비되지 않은 이 표 뒤에 줄을 서서
+    // 기다림이 두 배가 된다. 실제로 쓴 뒤에 놓는다(`runAnalysis`).
 
     if (rewardedTurn) {
       // **보상형을 API 호출보다 먼저 띄운다.** 순서가 반대면 이용자가 광고를 닫아도 AI 비용은
@@ -216,6 +235,9 @@ function ReanalysisSection({
     held: { ticket: string | null; readyAt: number },
   ) {
     setLoading(true);
+    // 여기서 표를 놓는다. 아래 요청이 성공하면 서버가 이미 썼고, 실패했으면 썼는지 알 수 없다 —
+    // 남겨 두면 다음 시도가 이미 쓴 표를 보내 또 실패한다.
+    heldTicket.current = null;
 
     // 표가 아직 준비되지 않았으면 그만큼만 먼저 기다린다. 힌트를 치는 동안 준비되므로 보통
     // 0이고, 붙여넣고 곧바로 누른 경우에만 잠깐 돈다. 서버가 거절('광고가 끝나기 전입니다')
