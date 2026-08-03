@@ -12,16 +12,23 @@
  */
 
 /**
- * **아직 링크로 걸지 않는다.** 두 주소 모두 실 도메인이 연결되지 않아, 누르면 열리지 않는다
- * (`inyeon-link.com`은 미연결, `place-link.com`은 응답 없음 — 2026-07-30 확인).
- * 죽은 링크를 누르게 하는 것은 광고를 안 보여 주는 것보다 나쁘다.
- * 도메인이 살면 `<a href>`로 바꾸면 된다.
+ * **살아 있는 주소만 링크로 건다.** 죽은 링크를 누르게 하는 것은 광고를 안 보여 주는 것보다
+ * 나쁘다 — 눌렀는데 안 열리면 서비스 자체를 못 믿게 된다.
+ *
+ * 확인 이력:
+ *   2026-07-30  둘 다 미연결 → 전부 글자로만 뒀다
+ *   2026-08-03  `inyeon-link.com` 연결 완료(200) → 링크로 전환
+ *               `place-link.com`은 **아직 개발 중**이라 글자 유지(고장이 아니다)
+ *
+ * 플레이스링크가 열리면 `live: true`만 켜면 된다. **켜기 전에 실제로 열어 볼 것.**
  */
 type SelfAdService = {
   name: string;
-  /** 화면에 보이는 주소. 도메인이 살 때까지는 링크가 아니라 글자다. */
+  /** 화면에 보이는 주소. */
   domain: string;
   purpose: string;
+  /** 참이면 `<a href>`로 건다. 거짓이면 글자로만 둔다. */
+  live?: boolean;
 };
 
 /**
@@ -33,6 +40,7 @@ const SERVICES: SelfAdService[] = [
     name: "인연링크",
     domain: "inyeon-link.com",
     purpose: "사주와 띠로 보는 두 사람의 궁합",
+    live: true,
   },
   {
     name: "플레이스링크",
@@ -55,7 +63,19 @@ export function SelfAdCard() {
           <div key={service.domain} className="flex flex-col gap-1 bg-surface px-4 py-3">
             <span className="text-sm font-semibold text-foreground">{service.name}</span>
             <span className="text-[13px] leading-5 text-muted">{service.purpose}</span>
-            <span className="text-xs text-brand-teal">{service.domain}</span>
+            {/* 살아 있는 주소만 누를 수 있게 한다. `rel`은 셀프 광고라도 외부 도메인이라 붙인다. */}
+            {service.live ? (
+              <a
+                href={`https://${service.domain}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-brand-teal underline underline-offset-2"
+              >
+                {service.domain}
+              </a>
+            ) : (
+              <span className="text-xs text-brand-teal">{service.domain}</span>
+            )}
           </div>
         ))}
       </div>
