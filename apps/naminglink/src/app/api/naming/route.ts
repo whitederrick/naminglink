@@ -13,6 +13,7 @@ import {
 } from "@/lib/request-guard";
 import { sortResultCandidates } from "@/lib/candidate-order";
 import { sealCandidates } from "@/lib/result-seal";
+import { consumeUnlockTicket } from "@/lib/unlock-ticket";
 import { getAuthenticatedUser } from "@/lib/user-auth";
 
 export const runtime = "nodejs";
@@ -25,6 +26,16 @@ const requestSchema = z.object({
   ]),
   inputFactors: z.record(z.string(), z.unknown()),
   saveResult: z.boolean().default(false),
+  /**
+   * 결과 화면에서 힌트를 고쳐 **다시 돌리는** 요청인가.
+   *
+   * 참이면 광고 관문 표가 필요하다(아래). 처음 만드는 요청과 구분해야 하는 이유는 관문의
+   * 자리가 다르기 때문이다 — 입력 화면은 광고 창을 생성과 **나란히** 띄우지만(그래서 이용자가
+   * 더 기다리지 않는다) 다시 분석은 같은 화면에서 관문을 지나야 새 결과가 나온다.
+   */
+  reanalysis: z.boolean().default(false),
+  /** 광고 관문 표(`/api/candidates/unlock-ticket`). `reanalysis`일 때만 본다. */
+  ticket: z.string().min(16).max(256).nullish(),
 });
 
 // 유료 상세 상품에만 제공하는 후보별 필드. 무료 응답에서 제거한다.
@@ -112,6 +123,34 @@ export async function POST(request: NextRequest) {
       )
         ? requested
         : await getRequestLocale();
+    }
+
+    /**
+     * 다시 분석은 광고 관문 표를 쓴다.
+     *
+     * **예전에는 관문이 `sessionStorage`의 횟수 하나뿐이었다.** 개발자도구로 그 값을 지우면
+     * 화면이 다시 "첫 번째"로 돌아가 광고 없이 계속 돌릴 수 있었다. 이제 화면이 광고를 시작할
+     * 때 받아 둔 표를 함께 보내고, 서버가 그 표를 쓴다 — 지워도 매번 시간이 든다.
+     *
+     * **쿼터보다 먼저 본다.** 관문에서 걸릴 요청이 무료 한도를 깎으면 안 된다. 반대로 표를
+     * 쓴 뒤 쿼터에서 막히는 경우는 표를 잃지만, 그때는 오늘 더 쓸 수 없는 상태라 손해가 없다.
+     *
+     * **여기서 막지 못하는 것은 적어 둔다.** `reanalysis`는 화면이 스스로 붙이는 값이라,
+     * 이 API를 직접 부르면서 그 값을 빼면 관문을 지나지 않는다. 그 자리는 처음부터 관문이
+     * 아니라 **무료 한도**(IP당 100·전역 30,000)가 맡아 왔고 지금도 그렇다. 이 관문이 막는
+     * 것은 "화면을 쓰면서 저장값만 지우는" 길이고, 그 길이 제일 눈에 띄고 제일 쉬웠다.
+     */
+    if (parsed.data.reanalysis) {
+      const verdict = await consumeUnlockTicket(request, parsed.data.ticket);
+      if (verdict !== "ok") {
+        const message =
+          verdict === "early"
+            ? "광고가 끝나기 전입니다. 잠시 후 다시 시도해 주세요."
+            : verdict === "expired"
+              ? "광고 시청 확인이 만료되었습니다. 다시 시도해 주세요."
+              : "페이지를 새로 고친 뒤 다시 시도해 주세요.";
+        return NextResponse.json({ ok: false, error: message }, { status: 403 });
+      }
     }
 
     const supabase = getSupabaseAdminClient();

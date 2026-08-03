@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
-import { useMemo, useState, useSyncExternalStore } from "react";
+import { useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { trackAdEvent } from "@/lib/analytics-client";
 import { showRewardedAd } from "@/lib/gam-rewarded";
@@ -21,6 +21,7 @@ import {
 import {
   lockedSeals,
   persistUnsealedResult,
+  requestUnlockTicket,
   unlockedCandidateCount,
   unsealAllCandidates,
   unsealNextCandidate,
@@ -115,6 +116,31 @@ function ReanalysisSection({
   const [countdown, setCountdown] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
+  /**
+   * 광고 관문 표를 **힌트를 입력하기 시작할 때** 미리 끊어 둔다.
+   *
+   * 표는 끊고 5초가 지나야 쓸 수 있다(`lib/unlock-ticket.ts`). 버튼을 누른 뒤에 끊으면 그
+   * 5초를 AI 호출 **앞에** 세워야 하는데, 지금은 광고 창이 AI 호출과 나란히 돌아 이용자가
+   * 더 기다리지 않는다(`runAnalysis`의 `Promise.all`). 순서를 바꾸면 다시 분석이 5초 느려진다.
+   * 힌트를 치는 동안 준비되므로 누를 때는 이미 지나 있다.
+   *
+   * 약속 자체를 담아 둔다 — 발급이 도는 중에 눌러도 새로 끊지 않고 그것을 기다린다. 두 장을
+   * 끊으면 발급이 줄을 서서(같은 방문자) 두 번째가 10초 뒤로 밀린다.
+   *
+   * 표를 안 쓰고 떠나도 손해는 없다. 지나간 표는 다음 발급을 늦추지 않는다.
+   */
+  const heldTicket = useRef<Promise<{ ticket: string | null; readyAt: number }> | null>(null);
+
+  function ensureTicket() {
+    if (!heldTicket.current) {
+      heldTicket.current = requestUnlockTicket().then((issued) => ({
+        ticket: issued.ticket,
+        readyAt: Date.now() + issued.readyInMs,
+      }));
+    }
+    return heldTicket.current;
+  }
+
   async function reanalyze() {
     setError(null);
 
@@ -137,6 +163,17 @@ function ReanalysisSection({
       serviceType: "GLOBAL_TO_KOREAN",
     });
 
+    /**
+     * **표를 집는다.** 위의 횟수(`previousRuns`)는 `sessionStorage`에만 있어 지우면 다시
+     * 1회차가 된다. 그것만으로는 관문이 아니라 안내였다 — 이제 서버가 시간을 재는 표를 함께
+     * 보내므로 저장값을 지워도 매번 광고만큼의 시간이 든다.
+     *
+     * 횟수는 그대로 남긴다. 이제 **관문의 유무가 아니라 어떤 광고를 보여 줄지**를 정한다.
+     */
+    const held = await ensureTicket();
+    // 한 장은 한 번만이다. 다음 회차는 새로 끊는다.
+    heldTicket.current = null;
+
     if (rewardedTurn) {
       // **보상형을 API 호출보다 먼저 띄운다.** 순서가 반대면 이용자가 광고를 닫아도 AI 비용은
       // 이미 나간 뒤다. 후보 열기는 닫아도 잃을 것이 없어 순서가 문제되지 않지만 여기는 다르다.
@@ -150,19 +187,40 @@ function ReanalysisSection({
           locale,
           serviceType: "GLOBAL_TO_KOREAN",
         });
-        await runAnalysis(0);
+        await runAnalysis(0, held);
         return;
       }
       // unavailable — 광고 단위 미설정·no-fill·차단기. 아래 5초 관문이 대신 돈다.
       // 광고가 없다고 버튼이 죽으면 안 된다(후보 열기와 같은 원칙).
     }
 
-    await runAnalysis(5);
+    await runAnalysis(5, held);
   }
 
   /** 관문을 통과한 뒤의 실제 분석. `waitSeconds`가 0이면 기다리지 않는다(보상형이 이미 시간을 썼다). */
-  async function runAnalysis(waitSeconds: number) {
+  async function runAnalysis(
+    waitSeconds: number,
+    held: { ticket: string | null; readyAt: number },
+  ) {
     setLoading(true);
+
+    // 표가 아직 준비되지 않았으면 그만큼만 먼저 기다린다. 힌트를 치는 동안 준비되므로 보통
+    // 0이고, 붙여넣고 곧바로 누른 경우에만 잠깐 돈다. 서버가 거절('광고가 끝나기 전입니다')
+    // 하게 두는 것보다 여기서 마저 기다리는 편이 이용자에게 설명이 된다.
+    const notReadyMs = Math.max(0, held.readyAt - Date.now());
+    if (notReadyMs > 0) {
+      setCountdown(Math.ceil(notReadyMs / 1000));
+      const startedAt = Date.now();
+      const readyTimer = window.setInterval(() => {
+        setCountdown(Math.max(0, Math.ceil((notReadyMs - (Date.now() - startedAt)) / 1000)));
+      }, 250);
+      try {
+        await new Promise((resolve) => window.setTimeout(resolve, notReadyMs));
+      } finally {
+        window.clearInterval(readyTimer);
+      }
+    }
+
     setCountdown(waitSeconds);
     const timer = waitSeconds
       ? window.setInterval(() => {
@@ -181,6 +239,10 @@ function ReanalysisSection({
         body: JSON.stringify({
           serviceType: "GLOBAL_TO_KOREAN",
           inputFactors,
+          // 서버가 관문을 걸어야 하는 요청임을 알린다. 이 값과 표는 짝이다 — 하나만 보내면
+          // 거절된다(`api/naming/route.ts`).
+          reanalysis: true,
+          ticket: held.ticket,
         }),
       });
       const [response] = await Promise.all([
@@ -232,7 +294,11 @@ function ReanalysisSection({
         <span className="text-sm font-medium">{copy.hintLabel}</span>
         <input
           value={pronunciationHint}
-          onChange={(event) => setPronunciationHint(event.target.value)}
+          onChange={(event) => {
+            setPronunciationHint(event.target.value);
+            // 여기서 표를 끊어 둔다. 치는 동안 준비되므로 누를 때 기다림이 없다.
+            ensureTicket();
+          }}
           placeholder={copy.hintPlaceholder}
           className="h-11 rounded-lg border border-line bg-background px-3 text-sm outline-none transition focus:border-foreground"
         />
