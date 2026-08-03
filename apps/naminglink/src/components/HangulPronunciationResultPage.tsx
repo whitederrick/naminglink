@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
-import { useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
 import { trackAdEvent } from "@/lib/analytics-client";
 import { showRewardedAd } from "@/lib/gam-rewarded";
@@ -140,6 +140,19 @@ function ReanalysisSection({
     }
     return heldTicket.current;
   }
+
+  /**
+   * 힌트가 **이미 채워진 채로** 시작하면 마운트할 때 끊는다.
+   *
+   * 이 구역은 다시 분석이 끝날 때마다 통째로 다시 마운트되고(`onUpdated`), 그때 힌트는 방금
+   * 쓴 값으로 채워져 있다. 즉 **반복해서 돌리는 흐름이 바로 이 경우**다. 타이핑이 없으니
+   * `onChange`도 없어, 이것이 없으면 두 번째부터 매번 5초를 앞에서 기다리게 된다.
+   */
+  useEffect(() => {
+    if (initialHint.trim()) ensureTicket();
+    // 마운트할 때 한 번만. ensureTicket은 이미 있으면 그냥 돌아간다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function reanalyze() {
     setError(null);
