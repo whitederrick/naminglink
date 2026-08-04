@@ -68,7 +68,7 @@ export default async function CompatibilityPage({
             {/* **설명 바로 아래다(사용자 결정).** 예전에는 폼 아래 미저장 안내 다음에 있었는데,
                 푸터와 가까워 푸터의 안내 링크와 중복처럼 보였다. 무엇을 근거로 계산하는지는
                 생년월일을 넣기 **전에** 궁금해지는 것이라 이 자리가 맞다. */}
-            <GuideLink locale={locale} align="start" className="mt-3" />
+            <GuideLink locale={locale} from="compatibility" align="start" className="mt-3" />
           </section>
 
           <CompatibilityForm dictionary={dictionary} locale={locale} />

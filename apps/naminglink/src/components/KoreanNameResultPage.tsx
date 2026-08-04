@@ -226,7 +226,7 @@ export function KoreanNameResultPage({
           </section>
         )}
       </section>
-      <SiteFooter locale={locale} policyMode="modal" />
+      <SiteFooter locale={locale} policyMode="modal" guideFrom="global-to-korean" />
     </main>
   );
 }

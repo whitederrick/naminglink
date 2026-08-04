@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 import { GuideFigure, HanjaMatchFlow } from "@/components/GuideFigure";
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { guideHubHref } from "@/lib/guide-back";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { findGuideEntry } from "@/lib/guide-index";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
-type PageProps = { searchParams?: Promise<{ lang?: string }> };
+type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
 
 const ENTRY = findGuideEntry("how-hanja-meaning")!;
 
@@ -36,7 +36,7 @@ export default async function Page({ searchParams }: PageProps) {
       eyebrow={ENTRY.eyebrow}
       title={ENTRY.title}
       description={ENTRY.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={guideHubHref(locale, params?.from)}
       backLabel="이용 안내"
     >
       <GuideSection title="소리를 먼저 고정합니다">

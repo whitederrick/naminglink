@@ -910,7 +910,7 @@ export function NamingForm({
           {locale === "ko" ? (
             <div className="mb-5 border-b border-line pb-4">
               <Link
-                href={localePath("/guide", locale)}
+                href={localePath("/guide", locale, `from=${service.slug}`)}
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
               >
                 이름에 쓰는 한자 안내

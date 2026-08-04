@@ -208,7 +208,7 @@ export function HanjaMeaningResultPage({
           </section>
         )}
       </section>
-      <SiteFooter locale={locale} policyMode="modal" />
+      <SiteFooter locale={locale} policyMode="modal" guideFrom="hanja-meaning" />
     </main>
   );
 }

@@ -544,7 +544,7 @@ export function HangulPronunciationResultPage({
           </section>
         )}
       </section>
-      <SiteFooter locale={locale} policyMode="modal" />
+      <SiteFooter locale={locale} policyMode="modal" guideFrom="global-name-to-hangul" />
     </main>
   );
 }

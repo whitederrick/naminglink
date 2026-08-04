@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { guideHubHref } from "@/lib/guide-back";
 import { findGuideEntry } from "@/lib/guide-index";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { localePath } from "@/lib/locale-path";
 import { displayPrice, getProductSetting } from "@/lib/product-settings";
 import { buildPageMetadata } from "@/lib/seo";
 
@@ -21,7 +21,7 @@ import { buildPageMetadata } from "@/lib/seo";
  * 조회에 실패하면 그 상품의 값만 "준비 중"으로 둔다. 가격 하나 때문에 글 전체가 죽으면 안 된다.
  */
 
-type PageProps = { searchParams?: Promise<{ lang?: string }> };
+type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
 
 const ENTRY = findGuideEntry("what-we-sell")!;
 
@@ -68,7 +68,7 @@ export default async function Page({ searchParams }: PageProps) {
       eyebrow={ENTRY.eyebrow}
       title={ENTRY.title}
       description={ENTRY.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={guideHubHref(locale, params?.from)}
       backLabel="이용 안내"
     >
       <GuideSection title="무료로 어디까지 보이나">

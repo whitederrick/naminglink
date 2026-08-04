@@ -59,7 +59,7 @@ const BONDS = [
 ];
 
 export default async function Page(props: GuidePageProps) {
-  const { locale, entry } = await guideContext(SLUG, props);
+  const { locale, entry, hubHref } = await guideContext(SLUG, props);
 
   return (
     <GuideShell
@@ -67,7 +67,7 @@ export default async function Page(props: GuidePageProps) {
       eyebrow={entry.eyebrow}
       title={entry.title}
       description={entry.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={hubHref}
       backLabel="계산 근거"
     >
       <GuideSection title="일간이 그 사람 자신입니다">

@@ -68,7 +68,7 @@ export default async function AffinityPage({
               {dictionary.affinity.formDescription}
             </p>
             {/* 궁합 입력 화면과 같은 자리다 — 두 화면이 형제로 읽혀야 한다. */}
-            <GuideLink locale={locale} align="start" className="mt-3" />
+            <GuideLink locale={locale} from="affinity" align="start" className="mt-3" />
           </section>
 
           <AffinityForm dictionary={dictionary} locale={locale} />

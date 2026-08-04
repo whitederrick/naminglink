@@ -9,7 +9,6 @@ import {
 } from "@/components/GuideShell";
 import { BRANCH_RELATION_SCORE } from "@/lib/engines/branches";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
-import { localePath } from "@/lib/locale-path";
 
 const SLUG = "branches";
 
@@ -67,7 +66,7 @@ const RELATIONS = [
 ];
 
 export default async function Page(props: GuidePageProps) {
-  const { locale, entry } = await guideContext(SLUG, props);
+  const { locale, entry, hubHref } = await guideContext(SLUG, props);
 
   return (
     <GuideShell
@@ -75,7 +74,7 @@ export default async function Page(props: GuidePageProps) {
       eyebrow={entry.eyebrow}
       title={entry.title}
       description={entry.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={hubHref}
       backLabel="계산 근거"
     >
       <GuideSection title="지지는 열두 글자입니다">

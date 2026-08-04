@@ -144,7 +144,7 @@ export function KoreanToGlobalResultPage({
           </section>
         )}
       </section>
-      <SiteFooter locale={locale} policyMode="modal" />
+      <SiteFooter locale={locale} policyMode="modal" guideFrom="korean-to-global" />
     </main>
   );
 }

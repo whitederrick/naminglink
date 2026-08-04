@@ -3,13 +3,14 @@ import Link from "next/link";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
 import { HanjaSyllableList } from "@/components/HanjaSyllableList";
+import { guideHubHref } from "@/lib/guide-back";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { getChosungGroups, TINY_GROUP_LIMIT } from "@/lib/hanja-guide-data";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
-type PageProps = { searchParams?: Promise<{ lang?: string }> };
+type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
 
 const TITLE = "인명용 한자 전체 목록";
 const DESCRIPTION =
@@ -44,7 +45,7 @@ export default async function Page({ searchParams }: PageProps) {
       eyebrow="목록"
       title={TITLE}
       description={DESCRIPTION}
-      backHref={localePath("/guide", locale)}
+      backHref={guideHubHref(locale, params?.from)}
       backLabel="이용 안내"
     >
       <GuideSection title="초성으로 찾기">

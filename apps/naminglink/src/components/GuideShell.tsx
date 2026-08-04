@@ -4,7 +4,6 @@ import { ArrowLeft } from "lucide-react";
 import type { ReactNode } from "react";
 
 import { SiteFooter } from "@/components/SiteFooter";
-import { localePath } from "@/lib/locale-path";
 import type { Locale } from "@/lib/services";
 
 /**
@@ -139,8 +138,4 @@ export function GuideNote({
       <div className={title ? "mt-1" : undefined}>{children}</div>
     </aside>
   );
-}
-
-export function guideBackToService(slug: string, locale: Locale) {
-  return localePath(`/${slug}`, locale);
 }

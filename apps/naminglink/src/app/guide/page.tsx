@@ -3,13 +3,14 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import { GuideShell, GuideStats } from "@/components/GuideShell";
+import { guideBackLink, guideOriginQuery } from "@/lib/guide-back";
 import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { guideEntriesFor } from "@/lib/guide-index";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
-type PageProps = { searchParams?: Promise<{ lang?: string }> };
+type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
 
 /**
  * 허브의 문구도 대상에 맞춰 갈린다. 한국어 이용자에게는 인명용 한자 제도가 중심이고,
@@ -22,14 +23,12 @@ const COPY = {
     title: "이름에 쓰는 한자 안내",
     description:
       "인명용 한자가 무엇인지, 지정 독음과 성씨는 어떻게 다른지, 기피 한자를 왜 지우지 않는지 — Naming-Link가 무엇을 근거로 이름을 제안하는지 정리했습니다.",
-    back: "한자 의미 매칭",
   },
   global: {
     eyebrow: "How Naming-Link works",
     title: "What we base your name on",
     description:
       "How we choose a Korean surname, what we check before suggesting a given name, and how we write your name in Hangul — with the parts we deliberately leave out.",
-    back: "Back to the service",
   },
 } as const;
 
@@ -57,6 +56,9 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
   // 한국어면 한국어 문서, 그 밖의 언어면 영어 문서만 보여준다(`lib/guide-index.ts`).
   const entries = guideEntriesFor(locale);
   const copy = locale === "ko" ? COPY.ko : COPY.global;
+  // 안내를 부른 서비스로 돌려보낸다. 없으면 로케일 기본값(`lib/guide-back.ts`).
+  const back = guideBackLink(locale, params?.from);
+  const originQuery = guideOriginQuery(params?.from);
 
   return (
     <GuideShell
@@ -64,11 +66,8 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
       eyebrow={copy.eyebrow}
       title={copy.title}
       description={copy.description}
-      backHref={localePath(
-        locale === "ko" ? "/hanja-meaning" : "/global-to-korean",
-        locale,
-      )}
-      backLabel={copy.back}
+      backHref={back.href}
+      backLabel={back.label}
     >
       {counts && locale === "ko" ? (
         <GuideStats
@@ -86,7 +85,9 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
         {entries.map((entry) => (
           <Link
             key={entry.slug}
-            href={localePath(`/guide/${entry.slug}`, locale)}
+            // 출처를 문서까지 들고 간다. 문서에서 허브로, 허브에서 서비스로 두 번 눌러
+            // 나가는 길에서도 처음 들어온 화면으로 돌아가야 한다.
+            href={localePath(`/guide/${entry.slug}`, locale, originQuery)}
             className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
           >
             <p className="text-xs font-semibold tracking-wide text-brand-teal">

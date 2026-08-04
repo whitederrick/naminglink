@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
 import { getDictionary } from "@/lib/i18n";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
-import { localePath } from "@/lib/locale-path";
 import { getAllReportPrices } from "@/lib/report-product";
 
 /**
@@ -26,7 +25,7 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 }
 
 export default async function Page(props: GuidePageProps) {
-  const { locale, entry } = await guideContext(SLUG, props);
+  const { locale, entry, hubHref } = await guideContext(SLUG, props);
   const dictionary = getDictionary(locale);
   const prices = await getAllReportPrices();
 
@@ -36,7 +35,7 @@ export default async function Page(props: GuidePageProps) {
       eyebrow={entry.eyebrow}
       title={entry.title}
       description={entry.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={hubHref}
       backLabel="계산 근거"
     >
       <GuideSection title="화면은 그대로 두고, PDF에만 더했습니다">

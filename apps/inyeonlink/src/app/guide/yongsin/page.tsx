@@ -7,7 +7,6 @@ import {
   GuideTable,
 } from "@/components/GuideShell";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
-import { localePath } from "@/lib/locale-path";
 
 const SLUG = "yongsin";
 
@@ -16,7 +15,7 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 }
 
 export default async function Page(props: GuidePageProps) {
-  const { locale, entry } = await guideContext(SLUG, props);
+  const { locale, entry, hubHref } = await guideContext(SLUG, props);
 
   return (
     <GuideShell
@@ -24,7 +23,7 @@ export default async function Page(props: GuidePageProps) {
       eyebrow={entry.eyebrow}
       title={entry.title}
       description={entry.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={hubHref}
       backLabel="계산 근거"
     >
       <GuideSection title="오행이 '고른가'는 궁합의 질문이 아닙니다">

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 import { GuideSection, GuideShell } from "@/components/GuideShell";
+import { guideHubHref } from "@/lib/guide-back";
 import { findGuideEntry } from "@/lib/guide-index";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
-type PageProps = { searchParams?: Promise<{ lang?: string }> };
+type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
 
 const ENTRY = findGuideEntry("reading")!;
 
@@ -34,7 +34,7 @@ export default async function Page({ searchParams }: PageProps) {
       eyebrow={ENTRY.eyebrow}
       title={ENTRY.title}
       description={ENTRY.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={guideHubHref(locale, params?.from)}
       backLabel="이용 안내"
     >
       <GuideSection title="지정 독음 — 같은 한자, 정해진 읽기">

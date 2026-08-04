@@ -1,7 +1,7 @@
 import Link from "next/link";
 
+import { guideHubHref } from "@/lib/guide-back";
 import type { Locale } from "@/lib/i18n";
-import { localePath } from "@/lib/locale-path";
 
 /**
  * 안내 문서로 가는 링크.
@@ -27,17 +27,23 @@ export function guideLinkLabel(locale: Locale, variant: "short" | "long") {
  */
 export function GuideLink({
   locale,
+  from,
   align = "center",
   className = "",
 }: {
   locale: Locale;
+  /**
+   * 어느 메뉴에서 여는가. 안내 화면의 "돌아가기"가 이 값으로 돌아갈 곳을 정한다
+   * (`lib/guide-back.ts`) — 없으면 홈으로 간다.
+   */
+  from: "compatibility" | "affinity";
   align?: "center" | "start";
   className?: string;
 }) {
   return (
     <p className={`text-sm ${align === "start" ? "text-start" : "text-center"} ${className}`}>
       <Link
-        href={localePath("/guide", locale)}
+        href={guideHubHref(locale, from)}
         className="font-semibold text-brand-plum underline underline-offset-4 hover:opacity-80"
       >
         {guideLinkLabel(locale, "long")}

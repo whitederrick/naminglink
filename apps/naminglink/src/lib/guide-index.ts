@@ -110,19 +110,22 @@ export const guideEntries: GuideEntry[] = [
     eyebrow: "유료 상품",
     audience: "ko",
   },
-  {
-    slug: "korean-name-basis",
-    title: "How we build your Korean name",
-    summary:
-      "We start from Korean surnames people actually use, then look for given names that are easy to call and write in Korea.",
-    eyebrow: "How it works",
-    audience: "global",
-  },
+  // 글로벌 문서 둘의 순서는 **서비스 버튼 줄의 순서와 같게 둔다**(`ServiceShell`의
+  // `navigationServices`: 한글 발음 표기 → 한국 이름). 화면에서 왼쪽에 있던 것이 안내에서
+  // 아래에 있으면 같은 두 서비스를 말하는 것으로 읽히지 않는다.
   {
     slug: "hangul-spelling-basis",
     title: "How we write your name in Hangul",
     summary:
       "We carry the sound of your name into Hangul — not its meaning. Here is what we follow and what we deliberately avoid.",
+    eyebrow: "How it works",
+    audience: "global",
+  },
+  {
+    slug: "korean-name-basis",
+    title: "How we build your Korean name",
+    summary:
+      "We start from Korean surnames people actually use, then look for given names that are easy to call and write in Korea.",
     eyebrow: "How it works",
     audience: "global",
   },

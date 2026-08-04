@@ -23,7 +23,7 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 const percent = (value: number) => `${Math.round(value * 100)}%`;
 
 export default async function Page(props: GuidePageProps) {
-  const { locale, entry } = await guideContext(SLUG, props);
+  const { locale, entry, hubHref } = await guideContext(SLUG, props);
 
   return (
     <GuideShell
@@ -31,7 +31,7 @@ export default async function Page(props: GuidePageProps) {
       eyebrow={entry.eyebrow}
       title={entry.title}
       description={entry.summary}
-      backHref={localePath("/guide", locale)}
+      backHref={hubHref}
       backLabel="계산 근거"
     >
       <GuideSection title="두 축을 나누어 계산하고 합칩니다">

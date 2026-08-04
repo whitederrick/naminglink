@@ -9,6 +9,7 @@ import {
   type FooterContent,
 } from "@/lib/site-content";
 import type { Locale } from "@/lib/services";
+import { guideHubHref } from "@/lib/guide-back";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { localePath } from "@/lib/locale-path";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
@@ -18,6 +19,15 @@ type SiteFooterProps = {
   className?: string;
   locale?: Locale;
   policyMode?: "links" | "modal";
+  /**
+   * 이 화면이 어느 서비스인가. 푸터의 이용 안내가 이 값을 함께 보내, 안내에서 돌아올 때
+   * 원래 화면으로 돌아간다(`lib/guide-back.ts`). 서비스 화면이 아니면 넘기지 않는다 —
+   * 그때는 안내에서 홈으로 나간다.
+   *
+   * 서비스 화면에 이용 안내 링크가 둘(본문·푸터) 있는데 한쪽만 출처를 실으면, 같은 화면에서
+   * 같은 말이 적힌 링크 둘이 서로 다른 곳으로 나가게 된다.
+   */
+  guideFrom?: string;
 };
 
 type FooterCopy = {
@@ -682,6 +692,7 @@ export function SiteFooter({
   className = "",
   locale = "ko",
   policyMode = "links",
+  guideFrom,
 }: SiteFooterProps) {
   // 루트 레이아웃이 서버에서 읽어 내려 준 값을 초기 상태로 쓴다. 사업자등록번호·통신판매업
   // 신고번호는 법정 표시 항목이라 서버 HTML에 실제 값이 들어 있어야 한다(FooterContentProvider 참고).
@@ -757,7 +768,7 @@ export function SiteFooter({
   // 이용 안내. 허브가 로케일에 맞는 문서를 보여주므로(한국어면 한국어, 그 밖은 영어)
   // 모든 언어에서 건다. 라벨만 갈라 준다.
   const guideLink = {
-    href: localePath("/guide", locale),
+    href: guideHubHref(locale, guideFrom),
     label: locale === "ko" ? "이용 안내" : "How it works",
   };
   // 소개·문의하기. 안내 허브와 같은 방식으로 라벨만 갈라 모든 언어에서 건다 — 두 페이지가

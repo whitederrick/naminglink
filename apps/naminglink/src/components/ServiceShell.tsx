@@ -348,9 +348,13 @@ function ServicePromisePanel({
                 "무슨 근거로?"가 붙는 것이 자연스럽다.
 
                 **모든 언어에서 건다.** 안내 허브가 한국어면 한국어 문서를, 그 밖의 언어면
-                영어 문서를 보여주므로(`lib/guide-index.ts`) 어느 쪽으로 들어와도 읽을 수 있다. */}
+                영어 문서를 보여주므로(`lib/guide-index.ts`) 어느 쪽으로 들어와도 읽을 수 있다.
+
+                **어느 서비스에서 왔는지 함께 보낸다.** 안내 화면의 "돌아가기"가 이 값으로
+                돌아갈 곳을 정한다(`lib/guide-back.ts`) — 없으면 로케일만 보고 정하느라
+                글로벌 이름 변환에서 들어와도 한자 의미 매칭으로 나가 버린다. */}
             <Link
-              href={localePath("/guide", locale)}
+              href={localePath("/guide", locale, `from=${service.slug}`)}
               className="inline-flex items-center gap-1.5 rounded-lg px-2 py-2 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
             >
               {locale === "ko" ? "이용 안내" : "How it works"}
@@ -496,7 +500,7 @@ export function ServiceShell({
             새로 받아야 하는 것이라 상태가 넘어오면 안 된다. */}
         <NamingForm key={service.slug} service={displayService} locale={locale} />
       </section>
-      <SiteFooter locale={locale} policyMode="modal" />
+      <SiteFooter locale={locale} policyMode="modal" guideFrom={service.slug} />
     </main>
   );
 }
