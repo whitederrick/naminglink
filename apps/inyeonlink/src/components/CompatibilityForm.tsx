@@ -60,7 +60,7 @@ export function CompatibilityForm({
     );
   }, []);
 
-  function handleSubmit(event: React.FormEvent) {
+  async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
     setError(null);
 
@@ -71,9 +71,9 @@ export function CompatibilityForm({
     }
 
     setSubmitting(true);
-    // 분석 시작. **`sendBeacon`으로 보낸다**(`analytics-client`) — 바로 아래에서 문서를 통째로
-    // 갈아 끼우므로 일반 fetch는 취소될 수 있다. 실린 것은 메뉴 구분과 경로뿐이다.
-    trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "GUNGHAP_MATCH", locale });
+    // 분석 시작. 바로 아래에서 문서를 통째로 갈아 끼우므로 **보내 놓고 이동 직전에 기다린다**
+    // (`analytics-client`). 실린 것은 메뉴 구분과 경로뿐이다.
+    const started = trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "GUNGHAP_MATCH", locale });
 
     // 생년월일을 쿼리스트링에 싣지 않는다. 프래그먼트(#)는 서버로 전송되지 않으므로 결과
     // 링크를 공유하거나 새로고침해도 접속 로그에는 경로만 남는다.
@@ -93,9 +93,12 @@ export function CompatibilityForm({
   // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
   // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
     if (submitAdGateEnabled) {
+      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
       setPendingTarget(target);
       return;
     }
+    // **문서를 갈아 끼우기 전에 기다린다.** 안 기다리면 시작 기록이 그대로 날아간다.
+    await started;
     window.location.assign(target);
   }
 

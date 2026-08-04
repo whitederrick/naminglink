@@ -54,7 +54,7 @@ export function AffinityForm({
     );
   }, []);
 
-  function handleSubmit(event: React.FormEvent) {
+  async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
     setError(null);
 
@@ -65,8 +65,8 @@ export function AffinityForm({
     }
 
     setSubmitting(true);
-    // 분석 시작. 궁합과 같은 방식이다(`sendBeacon` — 곧 문서를 갈아 끼운다).
-    trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "AFFINITY_MATCH", locale });
+    // 분석 시작. 궁합과 같은 방식이다 — **보내 놓고 이동 직전에 기다린다**(`analytics-client`).
+    const started = trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "AFFINITY_MATCH", locale });
 
     // 궁합과 같은 이유로 프래그먼트에 싣고 location.assign으로 넘긴다(주소가 확정된 뒤에
     // 결과 화면의 스크립트가 돈다). 자세한 사연은 CompatibilityForm 주석에 있다.
@@ -76,9 +76,12 @@ export function AffinityForm({
     // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
     const target = `${localePath("/affinity/result", locale)}#${encodeAffinityInput(input)}`;
     if (submitAdGateEnabled) {
+      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
       setPendingTarget(target);
       return;
     }
+    // **문서를 갈아 끼우기 전에 기다린다.** 안 기다리면 시작 기록이 그대로 날아간다.
+    await started;
     window.location.assign(target);
   }
 
