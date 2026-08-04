@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+import { ENGINE_VERSION } from "@/lib/engines";
 import { prepare, toReading } from "@/lib/engines/prepare";
 import {
   todayFortune,
@@ -272,6 +273,9 @@ async function render(
     interpretation,
     locale,
     dictionary,
+    // 꼬리글에 찍는 값. 결과 화면이 보여 주는 계산 기준과 같아야 한다.
+    generatedAt: new Date().toISOString(),
+    engineVersion: ENGINE_VERSION,
   });
 }
 

@@ -274,6 +274,50 @@ export type Dictionary = {
     /** "{seconds}초 후 결과가 열립니다" */
     remaining: string;
   };
+  /**
+   * 유료 리포트 전용 라벨.
+   *
+   * **화면에는 나오지 않는 값들의 이름이다.** `publicReading`이 걸러 내는 필드
+   * (`PAID_ONLY_READING_FIELDS`)를 PDF가 표로 그리는데, 그 표의 머리행과 범례가 여기 있다.
+   * 화면 사전에 섞어 두면 무료 화면이 실수로 쓸 수 있어 따로 둔다.
+   */
+  reportDetail: {
+    depthTitle: string;
+    /** 왕상휴수사 표 */
+    vitalityTitle: string;
+    vitalityHint: string;
+    vitalities: Record<
+      "WANG" | "SANG" | "HYU" | "SU" | "SA",
+      { name: string; body: string }
+    >;
+    /** 월령을 곱하기 전/후 세력 */
+    rawLabel: string;
+    strengthLabel: string;
+    earthSeasonNote: string;
+    /** 신강·신약을 가른 근거 숫자 */
+    allyRatioLabel: string;
+    allyRatioHint: string;
+    /** 원국 천간의 십신 표 */
+    stemGodsTitle: string;
+    stemGodsHint: string;
+    pillarColumn: string;
+    tenGodColumn: string;
+    meaningColumn: string;
+    /** 오늘 점수의 근거 항목 표(프리미엄만) */
+    factorsTitle: string;
+    factorsHint: string;
+    deltaColumn: string;
+    /** 부록 — 이 사주를 어떻게 뽑았는가 */
+    appendixTitle: string;
+    timeCorrectionLabel: string;
+    timeCorrectionApplied: string;
+    timeCorrectionNone: string;
+    timeCorrectionDateShift: string;
+    calendarLabel: string;
+    solarLabel: string;
+    lunarLabel: string;
+    lunarUnavailable: string;
+  };
   /** 사주 총운 리포트 PDF 판매. */
   report: ReportCopy;
   /** 프리미엄 총운 리포트 PDF 판매(대운·세운까지). */
@@ -612,6 +656,44 @@ const ko: Dictionary = {
     watching: "광고를 보는 중입니다",
     remaining: "{seconds}초 후 결과가 열립니다",
   },
+  reportDetail: {
+    depthTitle: "사주를 더 들여다봅니다",
+    vitalityTitle: "계절이 밀어 주는 기운",
+    vitalityHint:
+      "세력 막대가 '얼마나 있는가'라면 이 표는 '태어난 달이 그 기운을 밀어 주는가'입니다. 같은 양이라도 왕(旺)인 기운과 사(死)인 기운은 힘이 다릅니다.",
+    vitalities: {
+      WANG: { name: "왕(旺)", body: "가장 힘이 실리는 자리" },
+      SANG: { name: "상(相)", body: "뒤이어 힘을 받는 자리" },
+      HYU: { name: "휴(休)", body: "할 일을 마치고 쉬는 자리" },
+      SU: { name: "수(囚)", body: "갇혀 움직이기 어려운 자리" },
+      SA: { name: "사(死)", body: "가장 힘을 못 쓰는 자리" },
+    },
+    rawLabel: "월령 전",
+    strengthLabel: "월령 후",
+    earthSeasonNote: "환절기(辰未戌丑) 달에 태어나 土를 함께 왕으로 보았습니다.",
+    allyRatioLabel: "일간 편의 비율",
+    allyRatioHint:
+      "인성과 비겁을 합한 비율입니다. 45%를 넘으면 신강, 35%에 못 미치면 신약으로 봅니다. 판정이 어디쯤에서 갈렸는지 직접 보시라고 숫자를 함께 싣습니다.",
+    stemGodsTitle: "네 기둥은 나에게 무엇인가",
+    stemGodsHint:
+      "일간을 기준으로 나머지 기둥의 천간이 무엇인지 십신으로 나눕니다. 어느 자리가 두터운지가 성향과 살아가는 결을 말해 줍니다.",
+    pillarColumn: "자리",
+    tenGodColumn: "십신",
+    meaningColumn: "무엇을 뜻하나",
+    factorsTitle: "오늘 점수가 나온 자리",
+    factorsHint:
+      "화면은 항목 이름만 보여 드립니다. 여기서는 각 항목이 몇 점을 더하고 뺐는지까지 싣습니다.",
+    deltaColumn: "가감",
+    appendixTitle: "이 사주를 이렇게 뽑았습니다",
+    timeCorrectionLabel: "출생 시각",
+    timeCorrectionApplied: "진태양시로 고쳐 {time}으로 보았습니다.",
+    timeCorrectionNone: "출생 시각을 입력하지 않아 시주를 빼고 보았습니다.",
+    timeCorrectionDateShift: "보정으로 날짜가 {date}로 넘어가, 그 날의 일주로 잡았습니다.",
+    calendarLabel: "사주를 뽑은 날짜",
+    solarLabel: "양력",
+    lunarLabel: "음력",
+    lunarUnavailable: "만세력 표에 없는 날이라 음력을 함께 적지 못했습니다.",
+  },
   report: {
     title: "사주 총운 리포트 PDF로 간직하기",
     body: "화면의 풀이를 PDF로 만들어 드립니다. 원국과 오행 세력, 일간의 강약과 지금 필요한 기운, 그리고 오늘의 운세를 한 장에 담습니다.",
@@ -624,10 +706,11 @@ const ko: Dictionary = {
     failed: "결제 또는 발급에 실패했습니다. 잠시 후 다시 시도해 주세요.",
     retry: "다시 받기",
     contents: [
+      "일간과 타고난 결 — 성향 요약, 강점과 눈여겨볼 점",
       "사주 원국 — 네 기둥의 여덟 글자",
-      "오행의 세력과 가장 두터운 기운·가장 얇은 기운",
+      "오행의 세력, 가장 두터운 기운과 가장 얇은 기운",
       "일간의 강약(신강·중화·신약)과 지금 필요한 기운",
-      "오늘의 운세 — 일진과 점수, 그 점수가 나온 자리",
+      "오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)",
     ],
     consentLabel:
       "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
@@ -635,7 +718,7 @@ const ko: Dictionary = {
     productInfoTitle: "상품 정보 고시",
     productInfo: [
       ["제작·공급자", "{brand}"],
-      ["상품 형태", "PDF 문서 1개(1장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["상품 형태", "PDF 문서 1개(A4 5장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -658,10 +741,13 @@ const ko: Dictionary = {
     failed: "결제 또는 발급에 실패했습니다. 잠시 후 다시 시도해 주세요.",
     retry: "다시 받기",
     contents: [
-      "총운 리포트의 모든 내용",
-      "일간 편의 비율 — 신강·신약 판정이 어디쯤에서 갈렸는지",
-      "왕상휴수사 — 태어난 달이 각 기운을 밀어 올린 정도",
-      "진태양시 보정 내역 — 출생지의 실제 태양 시각으로 어떻게 고쳐 보았는지",
+      "일간과 타고난 결 — 성향 요약, 강점과 눈여겨볼 점",
+      "사주 원국 — 네 기둥의 여덟 글자",
+      "오행의 세력과 일간의 강약, 지금 필요한 기운",
+      "오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)",
+      "네 기둥은 나에게 무엇인가 — 십신 풀이",
+      "왕상휴수사와 일간 편의 비율 — 강약 판정의 근거 숫자",
+      "올해 총운, 오늘 점수의 항목별 가감, 진태양시 보정 내역",
     ],
     consentLabel:
       "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
@@ -669,7 +755,7 @@ const ko: Dictionary = {
     productInfoTitle: "상품 정보 고시",
     productInfo: [
       ["제작·공급자", "{brand}"],
-      ["상품 형태", "PDF 문서 1개(1장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["상품 형태", "PDF 문서 1개(A4 7장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -1031,6 +1117,46 @@ const en: Dictionary = {
     watching: "Watching the ad",
     remaining: "Your result opens in {seconds}s",
   },
+  reportDetail: {
+    depthTitle: "A closer look at your chart",
+    vitalityTitle: "What the season pushes forward",
+    vitalityHint:
+      "The bars say how much of an element there is; this table says whether the month of birth pushes it up. The same amount carries different force at wang than at sa.",
+    vitalities: {
+      WANG: { name: "Wang (旺)", body: "at its strongest" },
+      SANG: { name: "Sang (相)", body: "next in strength" },
+      HYU: { name: "Hyu (休)", body: "resting after its turn" },
+      SU: { name: "Su (囚)", body: "held in, hard to move" },
+      SA: { name: "Sa (死)", body: "at its weakest" },
+    },
+    rawLabel: "Before season",
+    strengthLabel: "After season",
+    earthSeasonNote:
+      "Born in a transitional month (辰未戌丑), so earth is also counted as wang.",
+    allyRatioLabel: "Ally ratio",
+    allyRatioHint:
+      "The share held by the resource and companion stars combined. Above 45% is strong, below 35% is weak. The number is printed so you can see how close the verdict was.",
+    stemGodsTitle: "What each pillar is to you",
+    stemGodsHint:
+      "Measured from your day master, each remaining stem takes one of the ten god names. Which of them run thick says a great deal about temperament.",
+    pillarColumn: "Pillar",
+    tenGodColumn: "Ten god",
+    meaningColumn: "What it means",
+    factorsTitle: "Where today’s score comes from",
+    factorsHint:
+      "The screen names the factors; here each one is printed with the points it added or removed.",
+    deltaColumn: "Points",
+    appendixTitle: "How this chart was built",
+    timeCorrectionLabel: "Birth time",
+    timeCorrectionApplied: "Corrected to true solar time and read as {time}.",
+    timeCorrectionNone: "No birth time was given, so the hour pillar was left out.",
+    timeCorrectionDateShift:
+      "The correction moved the date to {date}, so that day’s pillar was used.",
+    calendarLabel: "Date the chart was drawn from",
+    solarLabel: "Solar",
+    lunarLabel: "Lunar",
+    lunarUnavailable: "This date is not in the almanac table, so no lunar date is shown.",
+  },
   report: {
     title: "Keep your life reading as a PDF",
     body: "We turn this reading into a PDF — your natal chart, the weight of the five elements, the strength of your day master and what it needs now, and today’s fortune, all on one page.",
@@ -1043,10 +1169,11 @@ const en: Dictionary = {
     failed: "The payment or download failed. Please try again in a moment.",
     retry: "Download again",
     contents: [
+      "Your day master and temperament — a summary, strengths and cautions",
       "Your natal chart — the eight characters of the four pillars",
-      "The weight of the five elements, and which runs thickest and thinnest",
+      "The weight of the five elements, thickest and thinnest",
       "The strength of your day master, and the energy it needs now",
-      "Today’s fortune — the day pillar, the score, and where that score comes from",
+      "Today’s fortune and the four domains (money, love, work, health)",
     ],
     consentLabel:
       "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
@@ -1054,7 +1181,7 @@ const en: Dictionary = {
     productInfoTitle: "Product information",
     productInfo: [
       ["Provider", "{brand}"],
-      ["Format", "One PDF document (1 page), downloaded on screen right after payment."],
+      ["Format", "One PDF document (5 A4 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
       ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],
@@ -1078,10 +1205,13 @@ const en: Dictionary = {
     failed: "The payment or download failed. Please try again in a moment.",
     retry: "Download again",
     contents: [
-      "Everything in the life reading report",
-      "Ally ratio — how close the strong/weak verdict actually was",
-      "The seasonal standing of each element (wang–sang–hyu–su–sa)",
-      "The true-solar-time correction — how your birth hour was adjusted",
+      "Your day master and temperament — a summary, strengths and cautions",
+      "Your natal chart — the eight characters of the four pillars",
+      "The five elements, the strength of your day master and what it needs",
+      "Today’s fortune and the four domains (money, love, work, health)",
+      "What each pillar is to you — the ten gods read from your chart",
+      "Seasonal standing and ally ratio — the numbers behind the verdict",
+      "This year’s outlook, today’s scoring factors, and the time correction",
     ],
     consentLabel:
       "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
@@ -1089,7 +1219,7 @@ const en: Dictionary = {
     productInfoTitle: "Product information",
     productInfo: [
       ["Provider", "{brand}"],
-      ["Format", "One PDF document (1 page), downloaded on screen right after payment."],
+      ["Format", "One PDF document (7 A4 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
       ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],
