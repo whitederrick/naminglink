@@ -991,6 +991,19 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const [payload, setPayload] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  /**
+   * 운영 화면을 그려도 되는가. **확인이 끝나기 전에는 아무것도 그리지 않는다.**
+   *
+   * 예전에는 주소를 치면 대시보드 틀이 잠깐 보였다가 로그인 화면으로 바뀌었다. 값은 새지
+   * 않았다 — 아직 받아오기 전이라 내용이 비어 있었다. 다만 **메뉴 이름은 그대로 나갔다**
+   * (로그인 없이 받은 HTML에 "대시보드·회원·운영자·AI 사용량"이 들어 있었다). 운영 화면의
+   * 구성을 아무에게나 보여 줄 이유가 없고, 껍데기가 번쩍이는 것 자체가 고장처럼 보인다.
+   *
+   * **이것은 화면 쪽 정리이지 자물쇠가 아니다.** 자물쇠는 서버에 있다 —
+   * `/api/admin/operations`가 토큰을 확인하고 401·403을 돌려준다. 여기서 참이 되는 것도
+   * 그 응답을 받은 뒤다.
+   */
+  const [authorized, setAuthorized] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -1011,21 +1024,33 @@ export function AdminOperationsConsole({ view }: { view: View }) {
             ? "orders"
             : "dashboard";
       const app = viewApp[view] ?? "naminglink";
-      const response = await fetch(
-        `/api/admin/operations?view=${apiView}&app=${app}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
-        {
-          headers: { Authorization: `Bearer ${data.session.access_token}` },
-          cache: "no-store",
-        },
-      );
-      const result = await response.json();
-      if (response.status === 401 || response.status === 403) {
-        await supabase?.auth.signOut();
-        router.replace(`${basePath}/login`);
-        return;
+      // **여기부터는 감싼다.** 망이 끊기거나 프록시가 JSON이 아닌 것을 돌려주면 `fetch`나
+      // `json()`이 던지는데, 그대로 두면 이 함수가 도중에 끝나 화면이 "확인 중…"에서 영영
+      // 멈춘다(무엇이 잘못됐는지도 안 보인다).
+      try {
+        const response = await fetch(
+          `/api/admin/operations?view=${apiView}&app=${app}&days=${days}${includeTest ? "&includeTest=1" : ""}`,
+          {
+            headers: { Authorization: `Bearer ${data.session.access_token}` },
+            cache: "no-store",
+          },
+        );
+        const result = await response.json();
+        if (response.status === 401 || response.status === 403) {
+          await supabase?.auth.signOut();
+          router.replace(`${basePath}/login`);
+          return;
+        }
+        // 서버가 이 사람을 운영자로 인정했다. **`ok`를 보기 전에 세운다** — 500이 나도 화면은
+        // 떠서 무엇이 잘못됐는지 보여야 한다. 여기서 막으면 빈 화면에 아무 설명도 없다.
+        setAuthorized(true);
+        if (!response.ok) setError(result.error ?? "운영 데이터를 불러오지 못했습니다.");
+        else setPayload(result);
+      } catch {
+        // 운영자인지 아닌지를 확인하지 못한 것이므로 화면은 열지 않는다. 대신 무엇이
+        // 일어났는지 적어 준다 — 아래 관문 화면이 이 문구를 그린다.
+        setError("운영 데이터를 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도해 주세요.");
       }
-      if (!response.ok) setError(result.error ?? "운영 데이터를 불러오지 못했습니다.");
-      else setPayload(result);
       setLoading(false);
     }
     void load();
@@ -1037,6 +1062,29 @@ export function AdminOperationsConsole({ view }: { view: View }) {
   const showRange = !["users", "admins", "orders", "inyeon-orders"].includes(view);
   // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·운영자·AI 사용량은 주문과 무관).
   const showTestToggle = !["users", "admins", "ai"].includes(view);
+
+  // **훅을 전부 부른 뒤에 나간다.** 위 `useState`·`useEffect`·`useMemo`보다 앞에서 반환하면
+  // 확인이 끝나 화면이 바뀔 때 훅의 개수가 달라져 React가 터진다.
+  //
+  // 문구를 "권한이 없습니다"로 두지 않는다. 주소가 맞는지 틀린지를 알려 주는 셈이 된다.
+  if (!authorized) {
+    return (
+      <main className="grid min-h-screen place-items-center bg-background px-6 text-center text-sm text-muted">
+        <div className="grid gap-3">
+          <p>{error ?? "확인 중…"}</p>
+          {error ? (
+            <button
+              type="button"
+              onClick={() => window.location.reload()}
+              className="mx-auto rounded-lg border border-line px-4 py-2 font-medium text-foreground transition hover:border-foreground"
+            >
+              다시 시도
+            </button>
+          ) : null}
+        </div>
+      </main>
+    );
+  }
 
   /** 주문 하나의 배송 정보를 불러온다. 실패하면 칸에 그대로 보여 줄 문구를 돌려준다. */
   async function loadShipping(orderId: string): Promise<ShippingDetail | string> {
