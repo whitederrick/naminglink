@@ -24,7 +24,7 @@ export default async function Page(props: GuidePageProps) {
     >
       <GuideSection title="회원가입이 없습니다">
         <p>
-          인연링크는 계정을 만들지 않습니다. 이름도, 이메일도, 전화번호도 받지 않습니다. 받는
+          사주링크는 계정을 만들지 않습니다. 이름도, 이메일도, 전화번호도 받지 않습니다. 받는
           것은 생년월일과 (선택으로) 출생 시각·태어난 곳·성별뿐이고, 그것도 계산이 끝나면
           남지 않습니다.
         </p>
@@ -39,7 +39,7 @@ export default async function Page(props: GuidePageProps) {
           계산이 끝나면 주소가 이렇게 생깁니다.
         </p>
         <p className="overflow-x-auto rounded-lg border border-line bg-surface-strong px-4 py-3 font-mono text-xs leading-6">
-          /ko/compatibility/result<b className="text-brand-plum">#</b>
+          /ko/reading/result<b className="text-brand-plum">#</b>
           eyJhIjp7InkiOjE5OTAsLi4u
         </p>
         <p>
@@ -81,7 +81,7 @@ export default async function Page(props: GuidePageProps) {
           <li>
             <b>같은 값을 다시 계산합니다.</b> 캐시가 없기 때문입니다. 대신 모든 규칙이 결정적이라{" "}
             <a
-              href={localePath("/guide/how-compatibility", locale)}
+              href={localePath("/guide/natal-chart", locale)}
               className="font-semibold text-brand-plum underline underline-offset-2"
             >
               같은 입력이면 언제나 같은 값
@@ -98,7 +98,7 @@ export default async function Page(props: GuidePageProps) {
       <GuideSection title="구매하시는 경우">
         <p>
           리포트를 구매하시면 그때는 거래 기록이 남습니다. 결제는 법으로 보관 기간이 정해져
-          있고, 주문 내역이 없으면 환불도 처리할 수 없기 때문입니다. 다만 이때도 <b>궁합 계산에
+          있고, 주문 내역이 없으면 환불도 처리할 수 없기 때문입니다. 다만 이때도 <b>사주 계산에
           쓴 생년월일은 주문에 붙지 않습니다</b> — 결제 확인 후 PDF를 만들 때 다시 받아 그
           자리에서 씁니다.
         </p>

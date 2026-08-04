@@ -6,7 +6,6 @@ import {
   GuideShell,
   GuideTable,
 } from "@/components/GuideShell";
-import { ENGINE_WEIGHTS } from "@/lib/engines";
 import { EARTHLY_BRANCHES, BRANCH_ANIMALS } from "@/lib/engines/branches";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
 import { localePath } from "@/lib/locale-path";
@@ -73,49 +72,33 @@ export default async function Page(props: GuidePageProps) {
         </GuideNote>
       </GuideSection>
 
-      <GuideSection title="띠 궁합은 관계 하나만 봅니다">
+      <GuideSection title="띠는 사주에서 한 글자입니다">
         <p>
-          띠 궁합의 계산은 단순합니다. 두 사람의 연지를 맞대어 그 관계가 합인지 충인지 원진인지
-          판정하고, 그 점수를 그대로 씁니다. 항목이 하나뿐이라 가중치를 나눌 것도 없습니다.
+          여덟 글자 중 띠에 해당하는 것은 <b>연지 하나</b>입니다. 나머지 일곱 글자 — 특히 나를
+          가리키는 일간 — 은 띠와 아무 상관이 없습니다.
         </p>
         <p>
-          어떤 관계가 몇 점인지는{" "}
-          <a
-            href={localePath("/guide/branches", locale)}
-            className="font-semibold text-brand-plum underline underline-offset-2"
-          >
-            십이지 관계표
-          </a>
-          에 전부 적어 두었습니다. 일지 궁합도 같은 표를 씁니다.
+          같은 해에 태어난 사람은 모두 같은 띠입니다. 그러니 띠로 알 수 있는 것은 여덟 글자 중
+          하나만큼입니다. 이 서비스가 띠를 <b>따로 크게 다루지 않는 이유</b>가 그것입니다 —
+          연지도 다른 지지와 똑같이 세력 계산과 오늘의 일진 판정에 들어갈 뿐입니다.
+        </p>
+        <GuideNote title="그래도 띠를 보여 드리는 이유">
+          명리 용어를 모르셔도 뜻이 통하는 유일한 자리이기 때문입니다. 원국 화면에서 연지가
+          무슨 띠인지 함께 적어 두면, 나머지 일곱 글자를 읽어 나가는 실마리가 됩니다.
+        </GuideNote>
+      </GuideSection>
+
+      <GuideSection title="출생 시각을 몰라도 연지는 그대로입니다">
+        <p>
+          시각을 넣지 않으시면 시주가 빠지고 오행의 세력이 달라집니다. 그런데 <b>연지는 그대로</b>
+          입니다 — 태어난 해만 알면 정해지기 때문입니다.
+        </p>
+        <p>
+          그래서 시각을 모르시는 분께도 연지에서 나오는 이야기는 변하지 않습니다. 반대로 말하면,
+          띠만으로 말할 수 있는 것은 시각을 넣든 안 넣든 그만큼뿐이라는 뜻이기도 합니다.
         </p>
       </GuideSection>
 
-      <GuideSection title="비중을 30%로 둔 이유">
-        <p>
-          띠 궁합은 최종 매칭률의 {Math.round(ENGINE_WEIGHTS.zodiac * 100)}%를 차지합니다. 사주
-          궁합이 네 기둥을 전부 보는 데 비해 띠는 글자 하나만 보므로, 같은 무게로 둘 수는
-          없습니다.
-        </p>
-        <p>그렇다고 빼지 않는 이유가 둘 있습니다.</p>
-        <ul className="ml-5 list-disc space-y-2">
-          <li>
-            <b>가장 직관적으로 이해되는 항목</b>입니다. 명리 용어를 모르셔도 &ldquo;범과 원숭이는
-            충&rdquo;이라는 말은 뜻이 통합니다.
-          </li>
-          <li>
-            <b>출생 시각을 몰라도 값이 흔들리지 않는 유일한 축</b>입니다. 시각을 모르시면 시주가
-            빠지고 오행 세력이 달라지지만, 연지는 그대로입니다.
-          </li>
-        </ul>
-      </GuideSection>
-
-      <GuideSection title="띠 궁합만 따로 보실 수도 있습니다">
-        <p>
-          결과 화면에서 사주 궁합과 띠 궁합의 점수를 각각 보여드립니다. 최종 매칭률 하나만
-          내놓으면 그 숫자가 어디서 왔는지 알 수 없기 때문입니다. 두 값이 크게 벌어져 있다면
-          그것 자체가 읽을거리입니다.
-        </p>
-      </GuideSection>
     </GuideShell>
   );
 }

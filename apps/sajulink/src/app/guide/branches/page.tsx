@@ -31,7 +31,7 @@ const RELATIONS = [
     key: "YUKHAP" as const,
     name: "육합(六合)",
     pairs: "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-    body: "서로 끌어당기는 짝. 두 글자만으로 성립하므로 궁합에서 가장 자주 나오는 합입니다.",
+    body: "서로 끌어당기는 짝. 두 글자만으로 성립하므로 가장 자주 나오는 합입니다.",
   },
   {
     key: "BANHAP" as const,
@@ -87,14 +87,14 @@ export default async function Page(props: GuidePageProps) {
           <BranchWheelLegend />
         </GuideFigure>
         <p>
-          사주에서는 네 기둥마다 지지가 하나씩 있습니다. 인연링크는 그중 <b>일지</b>(배우자궁)와{" "}
-          <b>연지</b>(띠) 둘을 씁니다. 두 자리 모두 아래 같은 관계표로 판정합니다.
+          사주에서는 네 기둥마다 지지가 하나씩 있습니다. 오늘의 운세는 <b>그 날의 지지</b>를
+          원국의 네 지지와 각각 맞대어 아래 관계표로 판정합니다.
         </p>
       </GuideSection>
 
       <GuideSection title="관계표 전체">
         <GuideTable
-          caption="점수가 높은 순. 인연링크가 실제로 쓰는 값입니다."
+          caption="점수가 높은 순. 사주링크가 실제로 쓰는 값입니다."
           head={["관계", "해당하는 짝", "뜻", "점수"]}
           rows={RELATIONS.map((relation) => [
             relation.name,
@@ -107,12 +107,11 @@ export default async function Page(props: GuidePageProps) {
         />
       </GuideSection>
 
-      <GuideSection title="삼합은 이 서비스에서 나오지 않습니다">
+      <GuideSection title="삼합과 반합">
         <p>
-          삼합은 세 글자가 다 모여야 성립합니다. 그런데 궁합은 두 사람의 지지를 <b>하나씩</b>{" "}
-          맞대는 구조라 글자가 둘뿐입니다. 그래서 여기서 나오는 것은 언제나 반합이고, 삼합{" "}
-          {BRANCH_RELATION_SCORE.SAMHAP}점은 각자의 사주 안에서 국을 볼 때를 위해 남겨 둔
-          자리입니다.
+          삼합은 세 글자가 다 모여야 성립합니다. 원국에는 지지가 넷 있으므로, 오늘의 지지가
+          더해지면 세 글자가 갖춰지는 일이 실제로 생깁니다 — 그때 삼합{" "}
+          {BRANCH_RELATION_SCORE.SAMHAP}점이 붙습니다. 두 글자만 맞물리면 반합입니다.
         </p>
         <GuideNote title="반합은 왕지가 있어야 인정합니다">
           같은 삼합 그룹에 둘 다 들어 있기만 하면 반합으로 치는 방식도 있습니다. 그러면 申辰처럼
@@ -124,7 +123,7 @@ export default async function Page(props: GuidePageProps) {
 
       <GuideSection title="원진을 따로 둔 이유">
         <p>
-          원진 여섯 쌍은 궁합에서 충 못지않게 자주 보는 자리입니다. 합과 충만 세는 방식이라면
+          원진 여섯 쌍은 충 못지않게 자주 보는 자리입니다. 합과 충만 세는 방식이라면
           이 여섯 쌍이 전부 무관계 {BRANCH_RELATION_SCORE.NEUTRAL}점에 묻히므로, 따로 자리를
           둡니다.
         </p>

@@ -24,7 +24,7 @@ export default async function Page(props: GuidePageProps) {
     >
       <GuideSection title="There is no account">
         <p>
-          Inyeon-Link has no sign-up. We do not ask for a name, an email address or a phone
+          Saju-Link has no sign-up. We do not ask for a name, an email address or a phone
           number. What you enter is a birth date and, optionally, a birth time, a city and a
           gender — and none of it is written down after the reading is produced.
         </p>
@@ -37,7 +37,7 @@ export default async function Page(props: GuidePageProps) {
       <GuideSection title="What a result link actually carries">
         <p>When a reading is produced, the address looks like this:</p>
         <p className="overflow-x-auto rounded-lg border border-line bg-surface-strong px-4 py-3 font-mono text-xs leading-6">
-          /en/compatibility/result<b className="text-brand-plum">#</b>
+          /en/reading/result<b className="text-brand-plum">#</b>
           eyJhIjp7InkiOjE5OTAsLi4u
         </p>
         <p>
@@ -51,7 +51,7 @@ export default async function Page(props: GuidePageProps) {
           server answers and then forgets it.
         </p>
         <GuideNote title="A link is still worth guarding">
-          Not being stored is not the same as being private. A result link contains both birth
+          Not being stored is not the same as being private. A result link contains the birth
           dates, so anyone you send it to can open the same reading.
         </GuideNote>
       </GuideSection>

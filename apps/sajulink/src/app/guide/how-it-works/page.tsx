@@ -7,7 +7,6 @@ import {
   GuideShell,
   GuideTable,
 } from "@/components/GuideShell";
-import { ENGINE_WEIGHTS } from "@/lib/engines";
 import { BRANCH_RELATION_SCORE } from "@/lib/engines/branches";
 import { SAJU_WEIGHTS } from "@/lib/engines/saju";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
@@ -33,71 +32,47 @@ export default async function Page(props: GuidePageProps) {
       backHref={hubHref}
       backLabel="How this works"
     >
-      <GuideSection title="Two readings, combined">
+      <GuideSection title="Four pillars, eight characters">
         <p>
-          The match rate comes from two separate readings. <b>Saju compatibility</b> reads the
-          full four-pillar chart of both people. <b>Zodiac compatibility</b> reads a single
-          character — the branch of the birth year, which is what an animal sign actually is.
-          The two are combined as a weighted average.
+          Saju writes the year, month, day and hour of your birth as <b>four pillars</b>, each
+          made of two characters — a heavenly stem above and an earthly branch below. Eight
+          characters in all. That set is your natal chart.
         </p>
-        <GuideTable
-          head={["Reading", "What it looks at", "Weight"]}
-          rows={[
-            ["Saju", "Four factors drawn from the whole chart", percent(ENGINE_WEIGHTS.saju)],
-            ["Zodiac", "One relation between two year branches", percent(ENGINE_WEIGHTS.zodiac)],
-          ]}
-        />
         <p>
-          Saju weighs more because it uses far more information. We keep the zodiac anyway for
-          two reasons: it is the part everyone already understands, and it is the only axis
-          that does not move when the birth time is unknown.
+          One of the eight matters more than the rest. The <b>stem of the day pillar</b> stands
+          for you; it is called the <b>day master</b>. Almost everything this service shows is
+          measured from that single character — the other seven describe the conditions it sits in.
         </p>
-      </GuideSection>
-
-      <GuideSection title="The four Saju factors">
-        <GuideFigure caption="A Saju chart is the year, month, day and hour of birth, each written as two characters — a heavenly stem and an earthly branch. The day stem and day branch, highlighted here, are the two seats this service reads most.">
-          <FourPillarsDiagram language="en" />
-        </GuideFigure>
-        <GuideTable
-          head={["Factor", "What it asks", "Weight"]}
-          rows={[
-            [
-              "Day master relation",
-              "What each person's day stem is to the other, read as one of the Ten Gods",
-              percent(SAJU_WEIGHTS.dayMasterRelation),
-            ],
-            [
-              "Elemental supply",
-              "Does the other person carry the element you currently lack",
-              percent(SAJU_WEIGHTS.elementSupply),
-            ],
-            [
-              "Spouse star",
-              "Does the other person's day stem sit in your spouse position",
-              percent(SAJU_WEIGHTS.spouseStar),
-            ],
-            [
-              "Day branch relation",
-              "Whether the two day branches attract or clash",
-              percent(SAJU_WEIGHTS.dayBranchRelation),
-            ],
-          ]}
-        />
-        <p>
-          The day branch matters because in this tradition it <b>is</b> the spouse position —
-          of the four pillars, that is the one that speaks about a partner.
-        </p>
-        <GuideNote title="If you do not state a gender">
-          The spouse star cannot be read without it, because the tradition places the spouse
-          differently for men and women. We drop that factor and renormalise the remaining
-          weights. We do not score it as zero — that would penalise you for declining to answer.
+        <GuideNote title="The year turns at a solar term, not on 1 January">
+          A Saju year begins at <i>ipchun</i>, around 4 February. If you were born in January or
+          early February, your year pillar — and so your zodiac animal — belongs to the previous
+          year. Entering a lunar date changes nothing about this: we convert it to a solar date
+          first and then cut by solar terms.
         </GuideNote>
       </GuideSection>
 
+      <GuideSection title="What we read from the chart">
+        <GuideFigure caption="A Saju chart is the year, month, day and hour of birth, each written as two characters — a heavenly stem and an earthly branch. The day stem, highlighted here, is the character that stands for you.">
+          <FourPillarsDiagram language="en" />
+        </GuideFigure>
+        <p>
+          Every stem and branch belongs to one of the <b>five elements</b> — wood, fire, earth,
+          metal and water. Counting them across the chart shows which energy runs thick and which
+          runs thin. We do not simply count characters: the month of birth pushes some elements up
+          and holds others down, and that seasonal standing is applied first.
+        </p>
+        <p>
+          From those weights we judge whether the day master is <b>strong or weak</b>, and from
+          that, which energy it needs now. That last value is what the daily reading leans on
+          most.
+        </p>
+      </GuideSection>
+
+
       <GuideSection title="The branch relation table">
         <p>
-          Both the day branch and the year branch are judged with the same table. These are the
-          actual numbers the service uses.
+          The branch of the current day is laid against each branch in your chart and judged with
+          this table. These are the actual numbers the service uses.
         </p>
         <GuideTable
           head={["Relation", "Meaning", "Score"]}

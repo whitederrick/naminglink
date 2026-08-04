@@ -7,6 +7,7 @@ import {
   GuideTable,
 } from "@/components/GuideShell";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
+import { localePath } from "@/lib/locale-path";
 
 const SLUG = "yongsin";
 
@@ -26,18 +27,16 @@ export default async function Page(props: GuidePageProps) {
       backHref={hubHref}
       backLabel="계산 근거"
     >
-      <GuideSection title="오행이 '고른가'는 궁합의 질문이 아닙니다">
+      <GuideSection title="오행이 '고른가'만으로는 부족합니다">
         <p>
-          두 사람의 오행을 합쳐 다섯 기운이 고르게 퍼졌는지를 재는 방식도 있습니다. 그런데 궁합의
-          질문은 그것이 아닙니다. <b>상대가 내게 필요한 것을 갖고 있는가</b>입니다.
+          다섯 기운이 고르게 퍼졌는지를 재는 방식도 있습니다. 그런데 실제로 필요한 것은 그것이
+          아닙니다. <b>지금 이 사주에 무엇이 모자라고 무엇이 넘치는가</b>입니다.
         </p>
         <p>
-          균형도는 대칭적이지만 보완은 본래 비대칭입니다. A에게 필요한 것과 B에게 필요한 것이
-          다르기 때문입니다. 그래서 양쪽을 각각 재고 평균합니다 — 평균이므로 총점은 대칭으로
-          남습니다.
+          고르게 퍼진 사주가 언제나 편한 것도, 한쪽으로 쏠린 사주가 언제나 어려운 것도
+          아닙니다. 쏠린 방향이 어디이고 그것을 덜어 줄 기운이 있는지가 갈림길입니다.
         </p>
       </GuideSection>
-
       <GuideSection title="억부용신 — 넘치면 덜고 모자라면 보탠다">
         <p>
           용신(用神)은 &ldquo;이 사람에게 지금 필요한 기운&rdquo;입니다. 정하는 방법이 여럿
@@ -88,26 +87,22 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title="채워 주는 정도를 점수로">
+      <GuideSection title="용신을 어디에 쓰나">
         <p>
-          상대의 세력에서 내 용신군이 차지하는 비율을 봅니다. 다만 그 비율을 그대로 쓰지 않고{" "}
-          <b>용신군의 크기로 기대치를 나눕니다.</b> 신강일 때 용신군은 셋(기대 60%), 신약일 때는
-          둘(기대 40%)이라, 비율을 그대로 쓰면 신강인 사람이 늘 높은 점수를 받게 됩니다.
-        </p>
-        <p>
-          기대치만큼 채워 주면 78점 근처가 나오고, 훨씬 많이 채워 주면 100점, 크게 모자라면 55점
-          쪽으로 갑니다. 여기서도 바닥을 0에 두지 않습니다.
+          정해진 용신은 두 자리에서 쓰입니다. 하나는 결과 화면의{" "}
+          <b>&ldquo;지금 필요한 기운&rdquo;</b>이고, 다른 하나는{" "}
+          <a href={localePath("/guide/today-fortune", locale)}>오늘의 운세</a>입니다 — 오늘의
+          기운이 용신에 해당하는지가 그날 점수에서 가장 크게 움직이는 항목입니다.
         </p>
       </GuideSection>
-
       <GuideSection title="이것은 간이 판정입니다">
         <p>
           실제 명리는 격국과 조후(계절의 한난조습)까지 보고 용신을 정하며, 술사에 따라 결론이
-          갈리기도 합니다. 인연링크는 <b>세력 수치로 잴 수 있는 억부만</b> 씁니다. 규칙으로 옮길
+          갈리기도 합니다. 사주링크는 <b>세력 수치로 잴 수 있는 억부만</b> 씁니다. 규칙으로 옮길
           수 있는 것만 쓴다는 원칙 때문이고, 그래서 같은 입력이면 언제나 같은 답이 나옵니다.
         </p>
         <p>
-          그 대신 결과 화면에 각자의 신강·신약과 지금 필요한 기운을 <b>읽을거리로</b> 함께
+          그 대신 결과 화면에 신강·신약과 지금 필요한 기운을 <b>읽을거리로</b> 함께
           내보냅니다. 점수의 근거를 감추지 않으려는 것입니다.
         </p>
       </GuideSection>

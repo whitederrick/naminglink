@@ -29,8 +29,8 @@ export default async function Page(props: GuidePageProps) {
     >
       <GuideSection title="The screen stays; the PDF adds">
         <p>
-          Calculating and reading a compatibility result is <b>free</b>. The match rate, the score
-          and weight of every factor, both charts with elemental strength, and the shape of the
+          Calculating and reading your chart is <b>free</b>. The four pillars, the elemental
+          weights, the strength of your day master and today’s fortune, together with the
           relationship are all on screen. Nothing was taken off the screen to make room for a paid
           product.
         </p>
@@ -58,57 +58,27 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title="Page 4 — which way the energy flows">
+      <GuideSection title="What the screen never shows">
         <p>
-          On screen the Five Elements factor is a single number. That number is the{" "}
-          <b>average of two directions</b> — how much your partner supplies what you need, and how
-          much you supply what they need.
+          The free screens give you the chart, the elemental weights and today’s fortune. Three
+          values come out of that same calculation and are held back for the report.
         </p>
-        <p>
-          Supply is inherently <b>asymmetric</b>: what you need and what they need are different.
-          An average makes a pairing where only one side is well supplied look identical to one
-          where both are. The report separates them.
-        </p>
-        <p>
-          The same page carries the <b>branch relations of all four pillars</b>. Only the Day
-          branch enters the match rate — it is the spouse seat — but the Year, Month and Hour
-          pillars can be read with the same table.
-        </p>
-        <GuideNote title="Those scores are not part of the match rate">
-          Adding them would change the total and break result links already shared. So they are
-          printed as reading material, with a note under the table saying exactly that.
-        </GuideNote>
-      </GuideSection>
-
-      <GuideSection title="Page 5 — a closer look at each chart">
-        <p>
-          The bars on screen show <b>how much</b> of each element is present. The report adds{" "}
-          <b>whether the birth month pushes it forward</b>. The same amount behaves differently at
-          Wang (旺) than at Sa (死).
-        </p>
-        <p>
-          Strength before and after the month&rsquo;s influence sits side by side, so you can see
-          what the season lifted and by how much. The <b>ally ratio</b> behind the strong/weak
-          verdict is printed too — the screen gives the verdict, the report shows where it fell.
-        </p>
-      </GuideSection>
-
-      <GuideSection title="Page 6 — what each of their pillars is to you">
-        <p>
-          The match rate compares <b>Day Masters only</b>. The same rule fixes a Ten God for their
-          other three pillars as well. Knowing the Day pillar tells you what that person is to you;
-          it does not tell you <b>which part of them is what to you</b>.
-        </p>
-        <p>This has direction, so both sides are printed: your view of them, and theirs of you.</p>
-      </GuideSection>
-
-      <GuideSection title="Page 7 — how the charts were calculated">
-        <p>
-          How far the birth time was corrected to true solar time, whether that correction moved
-          the date, and the solar and lunar dates the chart was drawn from. The concept is
-          explained in <b>How we calculate compatibility</b>; the specific minutes are different
-          for every person, so they appear only in the report.
-        </p>
+        <ul className="ml-5 list-disc space-y-2">
+          <li>
+            <b>Ally ratio</b> — how close the strong/weak verdict actually was. The verdict alone
+            cannot tell you whether it sat near the threshold or well clear of it.
+          </li>
+          <li>
+            <b>Seasonal standing</b> — how far the month of birth pushed each element up or held
+            it down. The bars say how much of an element there is; this says whether it is in
+            season.
+          </li>
+          <li>
+            <b>True-solar-time correction</b> — the idea is explained in{" "}
+            <b>How we read your chart</b>, but <b>how many minutes your own birth hour moved</b>{" "}
+            differs per person and appears only in the report.
+          </li>
+        </ul>
       </GuideSection>
 
       <GuideSection title={`Premium reading report — ${prices.premium.global}`}>
@@ -122,9 +92,10 @@ export default async function Page(props: GuidePageProps) {
           ))}
         </ul>
         <p>
-          Here the <b>full ranking</b> is the point. The screen shows only the three types that
-          suit you best; the report ranks <b>all</b> ten heavenly stems and all twelve zodiac
-          signs. With only the top three you cannot see who comes next, or who sits at the bottom.
+          Here the <b>numbers behind the verdict</b> are the point. It carries everything in the
+          life reading report and adds the three values above — the ally ratio, the seasonal
+          standing and the true-solar-time correction. Rather than asking you to trust the verdict,
+          it shows you how the verdict was reached.
         </p>
       </GuideSection>
 
