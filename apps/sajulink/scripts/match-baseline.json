@@ -1,0 +1,180 @@
+{
+  "engineVersion": "inyeonlink-match-v10",
+  "cases": {
+    "banhap-no-leader": {
+      "total": 70,
+      "band": "FAIR",
+      "saju": 71,
+      "zodiac": 68,
+      "factors": {
+        "saju.dayMasterRelation": 70,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 91,
+        "saju.dayBranchRelation": 52,
+        "zodiac.branchRelation": 68
+      },
+      "shape": "ALIKE",
+      "pillarsA": "壬申 癸卯 己丑 己巳",
+      "pillarsB": "戊辰 戊午 戊午 丙辰"
+    },
+    "banhap-year": {
+      "total": 78,
+      "band": "GOOD",
+      "saju": 74,
+      "zodiac": 88,
+      "factors": {
+        "saju.dayMasterRelation": 70,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 91,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 88
+      },
+      "shape": "ALIKE",
+      "pillarsA": "壬申 癸卯 己丑 己巳",
+      "pillarsB": "丙子 甲午 戊寅 丁巳"
+    },
+    "chung-year": {
+      "total": 64,
+      "band": "FAIR",
+      "saju": 72,
+      "zodiac": 45,
+      "factors": {
+        "saju.dayMasterRelation": 62,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 93,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 45
+      },
+      "shape": "NURTURING",
+      "pillarsA": "甲子 己巳 甲寅 己巳",
+      "pillarsB": "庚午 乙酉 丙子 癸巳"
+    },
+    "same-branch": {
+      "total": 77,
+      "band": "GOOD",
+      "saju": 79,
+      "zodiac": 72,
+      "factors": {
+        "saju.dayMasterRelation": 82,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 80,
+        "saju.dayBranchRelation": 90,
+        "zodiac.branchRelation": 72
+      },
+      "shape": "NURTURING",
+      "pillarsA": "庚午 己卯 己亥 己巳",
+      "pillarsB": "庚午 丁亥 庚寅 辛巳"
+    },
+    "wonjin-candidate": {
+      "total": 63,
+      "band": "FAIR",
+      "saju": 68,
+      "zodiac": 52,
+      "factors": {
+        "saju.dayMasterRelation": 78,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 56,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 52
+      },
+      "shape": "ALIKE",
+      "pillarsA": "丙子 甲午 戊寅 丁巳",
+      "pillarsB": "辛未 戊戌 戊辰 丁巳"
+    },
+    "no-gender": {
+      "total": 66,
+      "band": "FAIR",
+      "saju": 65,
+      "zodiac": 68,
+      "factors": {
+        "saju.dayMasterRelation": 70,
+        "saju.elementSupply": 70,
+        "saju.dayBranchRelation": 52,
+        "zodiac.branchRelation": 68
+      },
+      "shape": "ALIKE",
+      "pillarsA": "壬申 癸丑 辛亥 癸巳",
+      "pillarsB": "乙亥 甲申 庚辰 辛巳"
+    },
+    "no-birthtime": {
+      "total": 72,
+      "band": "GOOD",
+      "saju": 73,
+      "zodiac": 68,
+      "factors": {
+        "saju.dayMasterRelation": 88,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 65,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 68
+      },
+      "shape": "TENSION",
+      "pillarsA": "丁卯 丁未 乙丑 —",
+      "pillarsB": "乙丑 己丑 戊寅 —"
+    },
+    "overseas": {
+      "total": 81,
+      "band": "GOOD",
+      "saju": 87,
+      "zodiac": 68,
+      "factors": {
+        "saju.dayMasterRelation": 88,
+        "saju.spouseStar": 95,
+        "saju.elementSupply": 95,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 68
+      },
+      "shape": "TENSION",
+      "pillarsA": "甲戌 乙亥 辛酉 癸巳",
+      "pillarsB": "丁丑 甲辰 甲午 己巳"
+    },
+    "dst-1987": {
+      "total": 67,
+      "band": "FAIR",
+      "saju": 66,
+      "zodiac": 68,
+      "factors": {
+        "saju.dayMasterRelation": 62,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 70,
+        "saju.dayBranchRelation": 68,
+        "zodiac.branchRelation": 68
+      },
+      "shape": "NURTURING",
+      "pillarsA": "丁卯 丁未 己巳 乙亥",
+      "pillarsB": "乙丑 己卯 丁未 乙巳"
+    },
+    "lunar": {
+      "total": 67,
+      "band": "FAIR",
+      "saju": 77,
+      "zodiac": 45,
+      "factors": {
+        "saju.dayMasterRelation": 66,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 93,
+        "saju.dayBranchRelation": 88,
+        "zodiac.branchRelation": 45
+      },
+      "shape": "TENSION",
+      "pillarsA": "己巳 庚午 己亥 己巳",
+      "pillarsB": "癸亥 辛酉 癸卯 丁巳"
+    },
+    "same-person": {
+      "total": 70,
+      "band": "FAIR",
+      "saju": 69,
+      "zodiac": 72,
+      "factors": {
+        "saju.dayMasterRelation": 78,
+        "saju.spouseStar": 66,
+        "saju.elementSupply": 59,
+        "saju.dayBranchRelation": 72,
+        "zodiac.branchRelation": 72
+      },
+      "shape": "ALIKE",
+      "pillarsA": "辛未 甲午 丁未 乙巳",
+      "pillarsB": "辛未 甲午 丁未 乙巳"
+    }
+  }
+}

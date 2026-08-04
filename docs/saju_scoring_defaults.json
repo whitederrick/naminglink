@@ -1,0 +1,62 @@
+{
+  "_note": "sajulink 오늘의 운세 결정론 스코어링 기본값. DB 테이블 saju_scoring_config / element_lucky_map 시드. 배포 없이 튜닝 가능. 오행 관계는 상생(생)=목→화→토→금→수→목, 상극(극)=목→토→수→화→금→목.",
+  "version": "1.0.0",
+  "engineVer": "core-saju@current",
+  "scoring": {
+    "base": 50,
+    "clamp": [5, 98],
+    "grades": [
+      { "min": 80, "code": "DAEGIL", "label_ko": "대길", "label_en": "Very auspicious" },
+      { "min": 65, "code": "GIL", "label_ko": "길", "label_en": "Auspicious" },
+      { "min": 45, "code": "PYEONG", "label_ko": "평", "label_en": "Neutral" },
+      { "min": 30, "code": "JUUI", "label_ko": "주의", "label_en": "Caution" },
+      { "min": 0, "code": "JOSIM", "label_ko": "조심", "label_en": "Careful" }
+    ],
+    "yongsinRelation": {
+      "todayIsYongsin": 20,
+      "todayGeneratesYongsin": 10,
+      "todayIsGisin": -20,
+      "todayControlsYongsin": -12
+    },
+    "dayMasterRelation": {
+      "generatesSelf": 6,
+      "sameElement": 4,
+      "selfGenerates": -2,
+      "controlsSelf": -8,
+      "selfControls": 3
+    },
+    "branchRelation": {
+      "samhap": 6,
+      "yukhap": 6,
+      "chung": -7,
+      "hyeong": -3,
+      "pa": -3,
+      "hae": -3,
+      "maxAbs": 12
+    },
+    "strengthAdjust": {
+      "weak_todayHelps_InBi": 5,
+      "strong_todayHelps_InBi": -4,
+      "strong_todayDrains_SikJaeGwan": 4,
+      "weak_todayBurdens_JaeGwan": -4
+    },
+    "categoryWeights": {
+      "wealth": { "overallShare": 0.4, "tenGodBoost": { "정재": 15, "편재": 15 } },
+      "love": { "spouseBranchHarmony": 15, "spouseBranchChung": -12, "tenGodBoost": { "정재": 10, "편재": 8, "정관": 10, "편관": 6 } },
+      "career": { "tenGodBoost": { "정관": 12, "편관": 10, "식신": 8, "상관": 6 } },
+      "health": { "chungPenaltyEach": -5, "yongsinFavorBonus": 8, "balanceWeight": 0.5 }
+    },
+    "categoryClamp": [5, 98]
+  },
+  "elementLuckyMap": {
+    "wood": { "element_ko": "목", "colors_ko": ["청록", "초록"], "colors_en": ["green", "teal"], "hex": ["#2E8B57", "#3CB371"], "direction_ko": "동", "direction_en": "East", "timeRange": "03:00-07:00", "branchHours_ko": "인·묘시", "number": [3, 8] },
+    "fire": { "element_ko": "화", "colors_ko": ["빨강", "주황"], "colors_en": ["red", "orange"], "hex": ["#E23B3B", "#FF7A45"], "direction_ko": "남", "direction_en": "South", "timeRange": "09:00-13:00", "branchHours_ko": "사·오시", "number": [2, 7] },
+    "earth": { "element_ko": "토", "colors_ko": ["노랑", "황토"], "colors_en": ["yellow", "ochre"], "hex": ["#E6B422", "#C8A25A"], "direction_ko": "중앙", "direction_en": "Center", "timeRange": "13:00-15:00", "branchHours_ko": "진·술·축·미시", "number": [5, 10] },
+    "metal": { "element_ko": "금", "colors_ko": ["흰색", "금색"], "colors_en": ["white", "gold"], "hex": ["#F5F5F5", "#D4AF37"], "direction_ko": "서", "direction_en": "West", "timeRange": "15:00-19:00", "branchHours_ko": "신·유시", "number": [4, 9] },
+    "water": { "element_ko": "수", "colors_ko": ["검정", "남색"], "colors_en": ["black", "navy"], "hex": ["#1C1C2E", "#2B3A67"], "direction_ko": "북", "direction_en": "North", "timeRange": "21:00-01:00", "branchHours_ko": "해·자시", "number": [1, 6] }
+  },
+  "elementCycles": {
+    "generates": { "wood": "fire", "fire": "earth", "earth": "metal", "metal": "water", "water": "wood" },
+    "controls": { "wood": "earth", "earth": "water", "water": "fire", "fire": "metal", "metal": "wood" }
+  }
+}

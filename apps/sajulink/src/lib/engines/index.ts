@@ -1,0 +1,162 @@
+import { matchDetail, type MatchDetail } from "./detail";
+import { prepare, toReading, type PersonReading } from "./prepare";
+import { mutualRelation, type MutualRelation } from "./relations";
+import { sajuEngine } from "./saju";
+import {
+  clampScore,
+  type EngineKey,
+  type EngineResult,
+  type Factor,
+  type FactorKey,
+  type Person,
+} from "./types";
+import { zodiacEngine } from "./zodiac";
+
+export * from "./types";
+export type {
+  MatchDetail,
+  PillarBranchRelation,
+  PillarKey,
+  StemGod,
+} from "./detail";
+export type { DayMasterBond } from "./relations";
+export type { PersonReading } from "./prepare";
+export type { MutualRelation, RelationShape } from "./relations";
+export { BRANCH_ANIMALS } from "./branches";
+
+/**
+ * 엔진 버전. 점수 규칙을 바꾸면 반드시 올린다 — 결과 링크가 언제 계산된 것인지 구분된다.
+ *
+ * v2: 출생지 진태양시 보정(해외 출생 시주 오류 수정) + 배우자성 항목(성별) 추가.
+ * v3: 오행 보완도를 표면 글자 개수에서 지장간·월령을 반영한 세력으로 교체.
+ * v4: 점수 외에 읽을거리 추가 — 사주 원국·오행 세력·강점/주의/조언. 점수 규칙은 v3과 같다.
+ * v5: 배우자성을 오행에서 십신으로 교체(정재·정관과 편재·편관을 구분) + 관계의 모양 추가.
+ *     배우자성 점수가 바뀌므로 v4와 총점이 다를 수 있다.
+ * v6: 점수 규칙은 v5와 같다. 다만 사주 엔진이 v2가 되면서(`@naminglink/core`) 출생지를
+ *     넘기지 않은 경우에도 진태양시 경로를 타고, 자정 직후 출생은 진태양시 날짜로 일주를
+ *     잡는다. 사주 원국이 달라지는 입력이 있으므로 총점도 달라질 수 있다.
+ * v7: 한 엔진 안에서 갈라져 있던 기준을 십신으로 통일한다. ① 일간 관계를 오행 셋(상생·같음·
+ *     상극)에서 십신 짝 여섯으로 교체 — 음양이 점수에 들어간다. ② 삼합을 두 글자만으로
+ *     인정하던 것을 왕지를 낀 반합으로 좁힌다(왕지 없는 두 글자는 합으로 치지 않는다).
+ *     항목 점수가 바뀌므로 총점이 달라진다.
+ * v8: 원진(怨嗔)을 지지 관계표에 넣는다. 여섯 쌍(子未 丑午 寅酉 卯申 辰亥 巳戌)이 지금까지
+ *     전부 무관계 68점으로 들어가고 있었다. 충(45)보다 높고 무관계보다 낮은 52로 둔다.
+ * v9: 오행 항목을 균형도에서 억부용신 기반 보완도로 바꾼다. "둘을 합쳐 고른가"가 아니라
+ *     "상대가 내게 필요한 것을 갖고 있는가"를 양방향으로 재고 평균한다. 각자의 신강·신약과
+ *     필요한 오행이 읽을거리로 함께 나간다.
+ * v10: **점수 규칙은 v9와 완전히 같다.** 총점도 항목 점수도 바뀌지 않는다(v4가 같은 이유로
+ *     번호를 올렸다). 지금까지 계산 과정에서 나왔다가 버려지던 값과, 규칙은 있는데 적용하지
+ *     않던 자리를 결과에 함께 싣는다 — 방향별 보완 점수, 일간 짝의 이름, 네 기둥의 지지 관계,
+ *     상대 네 기둥 천간의 십신, 진태양시 보정 내역, 왕상휴수사, 월령 전후 세력.
+ *     유료 리포트가 쓰는 재료이고 화면은 예전 그대로다.
+ */
+export const ENGINE_VERSION = "inyeonlink-match-v10";
+
+/**
+ * 엔진별 비중.
+ *
+ * 사주가 띠보다 훨씬 많은 정보를 쓰므로(4주 전체 vs 연지 하나) 비중을 크게 둔다. 띠를 아예
+ * 빼지 않는 이유는 사용자가 가장 직관적으로 이해하는 항목이고, 출생 시각을 몰라도 값이
+ * 흔들리지 않는 유일한 축이기 때문이다.
+ */
+export const ENGINE_WEIGHTS: Record<EngineKey, number> = {
+  saju: 0.7,
+  zodiac: 0.3,
+};
+
+/**
+ * 화면에 크게 뽑아 줄 세 가지.
+ *
+ * 항목별 점수만 나열하면 "그래서 뭐"가 남는다. 가장 높은 항목을 강점으로, 가장 낮은 항목을
+ * 주의점으로 뽑고 거기에 맞는 조언을 붙이면 읽는 사람이 무엇을 보면 되는지 알게 된다.
+ * 모두 규칙으로 고르므로 같은 입력이면 같은 문장이 나온다.
+ */
+export type Highlights = {
+  strength: { factor: FactorKey; note: string; params?: Record<string, string> };
+  caution: { factor: FactorKey; note: string; params?: Record<string, string> };
+};
+
+export type MatchOutcome = {
+  engineVersion: string;
+  /** 0~100 */
+  totalScore: number;
+  engines: EngineResult[];
+  /** 두 사람 모두 출생 시각을 입력했는지. 하나라도 없으면 시주를 뺀 채 계산한다. */
+  precision: "COMPLETE" | "PARTIAL_NO_TIME";
+  /** 각자의 사주 원국·일간·띠·오행 세력 */
+  people: [PersonReading, PersonReading];
+  /** 두 일간이 서로에게 무엇인가(십신)와 관계의 모양 */
+  relation: MutualRelation;
+  highlights: Highlights;
+  /**
+   * 유료 리포트에만 쓰는 심화 자료(`./detail`).
+   *
+   * **화면은 이 값을 그리지 않는다.** 무료 화면을 얇게 만들지 않고 리포트에만 더한다는
+   * 결정이라(2026-07-31 사용자), 화면 코드는 예전 그대로 두고 여기만 늘렸다.
+   * 점수에는 관여하지 않는다 — 총점은 v9와 완전히 같다.
+   */
+  detail: MatchDetail;
+};
+
+/**
+ * 최종 매칭률 = 엔진 점수의 가중 평균.
+ *
+ * 저장하지 않으므로 캐시가 없다. 대신 모든 엔진이 규칙 기반이라 같은 입력이면 언제나 같은
+ * 값이 나온다 — 캐시가 하던 "재조회 시 동일 보장"을 결정성으로 대신한다.
+ */
+export function runMatch(a: Person, b: Person): MatchOutcome {
+  const preparedA = prepare(a);
+  const preparedB = prepare(b);
+
+  const engines = [
+    sajuEngine.run(preparedA, preparedB),
+    zodiacEngine.run(preparedA, preparedB),
+  ];
+  const totalScore = engines.reduce(
+    (sum, engine) => sum + engine.score * ENGINE_WEIGHTS[engine.key],
+    0,
+  );
+
+  return {
+    engineVersion: ENGINE_VERSION,
+    totalScore: clampScore(totalScore),
+    engines,
+    precision:
+      a.birthHour !== null && b.birthHour !== null
+        ? "COMPLETE"
+        : "PARTIAL_NO_TIME",
+    people: [toReading(preparedA), toReading(preparedB)],
+    relation: mutualRelation(preparedA, preparedB),
+    highlights: pickHighlights(engines),
+    detail: matchDetail(preparedA, preparedB),
+  };
+}
+
+function pickHighlights(engines: EngineResult[]): Highlights {
+  const factors = engines.flatMap((engine) => engine.factors);
+  const sorted = [...factors].sort((left, right) => right.score - left.score);
+  const best = sorted[0];
+  // 항목이 하나뿐일 리는 없지만, 최고와 최저가 같은 항목이 되지 않게 한다.
+  const worst = sorted.length > 1 ? sorted[sorted.length - 1] : best;
+
+  return {
+    strength: toHighlight(best, "strength"),
+    caution: toHighlight(worst, "caution"),
+  };
+}
+
+function toHighlight(factor: Factor, kind: "strength" | "caution") {
+  return {
+    factor: factor.key,
+    note: `${kind}.${factor.key}`,
+    params: factor.noteParams,
+  };
+}
+
+/** 점수 구간. 화면 문구와 색을 이 값으로 고른다. */
+export function scoreBand(score: number) {
+  if (score >= 85) return "EXCELLENT" as const;
+  if (score >= 72) return "GOOD" as const;
+  if (score >= 60) return "FAIR" as const;
+  return "CHALLENGING" as const;
+}

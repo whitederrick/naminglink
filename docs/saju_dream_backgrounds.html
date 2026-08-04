@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sajulink · dreamslink 웹 배경 세트 (CSS/SVG)</title>
+<style>
+  :root{ font-family:-apple-system,"Pretendard","Segoe UI",sans-serif; }
+  *{box-sizing:border-box} body{margin:0;background:#0e0f14;color:#e8e8ee}
+  .wrap{max-width:1040px;margin:0 auto;padding:24px 16px 80px}
+  h1{font-size:20px} .lead{color:#9aa0ad;font-size:13px;margin-bottom:20px;line-height:1.6}
+  .panel{border-radius:16px;overflow:hidden;margin:22px 0;border:1px solid #23252e}
+  .stage{height:230px;display:flex;align-items:center;justify-content:center;position:relative}
+  .stage h2{font-size:26px;letter-spacing:-.02em;margin:0;text-shadow:0 2px 20px rgba(0,0,0,.4)}
+  .cap{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:#15161d;font-size:12px;color:#aab0bd}
+  details{background:#15161d;border-top:1px solid #23252e}
+  summary{cursor:pointer;padding:10px 14px;font-size:12px;color:#8ea2ff}
+  pre{margin:0;padding:14px;overflow:auto;font-size:11.5px;line-height:1.55;color:#cdd3e0;background:#0b0c11}
+  code{white-space:pre}
+
+  /* ===== SAJU HERO — 밤하늘 + 별 + 오행 오로라 ===== */
+  .saju-hero{
+    background:
+      radial-gradient(1200px 300px at 80% -10%, rgba(46,139,87,.20), transparent 60%),
+      radial-gradient(900px 300px at 10% 120%, rgba(226,59,59,.16), transparent 60%),
+      radial-gradient(700px 260px at 50% 40%, rgba(212,175,55,.10), transparent 60%),
+      linear-gradient(160deg,#0b1026 0%,#131a3a 45%,#0d1330 100%);
+    position:relative;
+  }
+  .saju-hero::before{ /* 별 */
+    content:"";position:absolute;inset:0;
+    background-image:
+      radial-gradient(1.5px 1.5px at 20% 30%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 70% 20%, #ffe9b0, transparent),
+      radial-gradient(1px 1px at 40% 70%, #fff, transparent),
+      radial-gradient(1px 1px at 85% 60%, #cfe0ff, transparent),
+      radial-gradient(1.5px 1.5px at 55% 45%, #fff, transparent),
+      radial-gradient(1px 1px at 30% 85%, #fff, transparent);
+    opacity:.75;
+  }
+  .saju-hero::after{ /* 한지 그레인 */
+    content:"";position:absolute;inset:0;opacity:.06;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .saju-hero h2{color:#fdf6e3}
+
+  /* ===== SAJU SECTION — 한지 톤(라이트) ===== */
+  .saju-sec{
+    background:
+      radial-gradient(600px 200px at 90% 0%, rgba(212,175,55,.14), transparent 60%),
+      linear-gradient(180deg,#f7f2e7 0%,#efe7d6 100%);
+  }
+  .saju-sec h2{color:#3a2f18}
+
+  /* ===== DREAM HERO — 몽환 야간 그라데이션 + 구름 블롭 ===== */
+  .dream-hero{
+    background:linear-gradient(160deg,#1a1140 0%,#3b1d63 40%,#6d3b8e 70%,#c56aa0 100%);
+    position:relative;overflow:hidden;
+  }
+  .dream-hero::before{ /* 부드러운 구름/오브 */
+    content:"";position:absolute;inset:-20%;
+    background:
+      radial-gradient(280px 180px at 25% 30%, rgba(255,255,255,.22), transparent 70%),
+      radial-gradient(320px 200px at 75% 65%, rgba(197,106,160,.35), transparent 70%),
+      radial-gradient(240px 160px at 60% 20%, rgba(142,162,255,.28), transparent 70%);
+    filter:blur(18px);
+  }
+  .dream-hero::after{ /* 옅은 별 */
+    content:"";position:absolute;inset:0;opacity:.5;
+    background-image:
+      radial-gradient(1px 1px at 30% 40%, #fff, transparent),
+      radial-gradient(1px 1px at 65% 25%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 80% 55%, #fff, transparent);
+  }
+  .dream-hero h2{color:#fff}
+
+  /* ===== DREAM SECTION — 차분한 파스텔 ===== */
+  .dream-sec{
+    background:linear-gradient(180deg,#f3edff 0%,#e9e4fb 55%,#f6ecf4 100%);
+  }
+  .dream-sec h2{color:#3a2a56}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>sajulink · dreamslink 웹 배경 세트</h1>
+  <p class="lead">순수 CSS/SVG(래스터 이미지 0). 레티나 선명·용량 거의 0·테마 재색칠 가능·라이선스 무관. 각 패널 아래 <b>코드 보기</b>를 펼쳐 그대로 복사하세요. 히어로 위 텍스트/CTA는 앱에서 얹으면 됩니다. 색값은 `element_lucky_map`·브랜드 톤에 맞춰 조정 가능.</p>
+
+  <div class="panel">
+    <div class="stage saju-hero"><h2>사주 — Hero</h2></div>
+    <div class="cap"><span>saju / 히어로 — 밤하늘 + 별 + 오행 오로라 + 한지 그레인</span><span>class .saju-hero</span></div>
+    <details><summary>CSS 보기</summary><pre><code>.saju-hero{
+  position:relative;
+  background:
+    radial-gradient(1200px 300px at 80% -10%, rgba(46,139,87,.20), transparent 60%),   /* 목(청록) */
+    radial-gradient(900px 300px at 10% 120%, rgba(226,59,59,.16), transparent 60%),     /* 화(적) */
+    radial-gradient(700px 260px at 50% 40%, rgba(212,175,55,.10), transparent 60%),      /* 금(금) */
+    linear-gradient(160deg,#0b1026 0%,#131a3a 45%,#0d1330 100%);
+}
+/* 별: ::before 에 radial-gradient 점들 / 한지 그레인: ::after 에 feTurbulence SVG data-URI (opacity .06, mix-blend overlay) */
+/* (본 파일의 .saju-hero::before, ::after 규칙을 그대로 복사) */</code></pre></details>
+  </div>
+
+  <div class="panel">
+    <div class="stage saju-sec"><h2>사주 — Section</h2></div>
+    <div class="cap"><span>saju / 섹션 — 한지 톤 라이트 배경(본문·리포트 카드)</span><span>class .saju-sec</span></div>
+    <details><summary>CSS 보기</summary><pre><code>.saju-sec{
+  background:
+    radial-gradient(600px 200px at 90% 0%, rgba(212,175,55,.14), transparent 60%),
+    linear-gradient(180deg,#f7f2e7 0%,#efe7d6 100%);
+}</code></pre></details>
+  </div>
+
+  <div class="panel">
+    <div class="stage dream-hero"><h2>해몽 — Hero</h2></div>
+    <div class="cap"><span>dream / 히어로 — 몽환 야간 그라데이션 + 블러 구름 오브 + 옅은 별</span><span>class .dream-hero</span></div>
+    <details><summary>CSS 보기</summary><pre><code>.dream-hero{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,#1a1140 0%,#3b1d63 40%,#6d3b8e 70%,#c56aa0 100%);
+}
+/* 구름 오브: ::before inset:-20% 에 radial-gradient 3개 + filter:blur(18px) */
+/* 별: ::after radial-gradient 점들 opacity .5 */
+/* (본 파일의 .dream-hero::before, ::after 규칙 복사) */</code></pre></details>
+  </div>
+
+  <div class="panel">
+    <div class="stage dream-sec"><h2>해몽 — Section</h2></div>
+    <div class="cap"><span>dream / 섹션 — 차분한 파스텔(본문·결과 카드)</span><span>class .dream-sec</span></div>
+    <details><summary>CSS 보기</summary><pre><code>.dream-sec{
+  background:linear-gradient(180deg,#f3edff 0%,#e9e4fb 55%,#f6ecf4 100%);
+}</code></pre></details>
+  </div>
+
+  <p class="lead">활용: 히어로 섹션 <code>&lt;section class="saju-hero"&gt;</code>처럼 감싸고, 다크/라이트 토글 시 gradient 색만 CSS 변수로 빼면 됩니다. 성능: 모두 GPU 합성 대상이라 가볍고, prefers-reduced-motion 사용자에겐 애니메이션 없이 정적 배경으로 안전.</p>
+</div>
+</body>
+</html>
