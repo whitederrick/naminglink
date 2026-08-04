@@ -50,9 +50,9 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title={`사주 궁합 리포트 PDF — ${prices.gunghap.domestic}`}>
+      <GuideSection title={`사주 총운 리포트 PDF — ${prices.chongun.domestic}`}>
         <p>
-          국내 결제 {prices.gunghap.domestic}(부가세 포함), 해외 결제 {prices.gunghap.global}.
+          국내 결제 {prices.chongun.domestic}(부가세 포함), 해외 결제 {prices.chongun.global}.
           A4 {dictionary.report.contents.length}장입니다.
         </p>
         <ul>
@@ -119,10 +119,10 @@ export default async function Page(props: GuidePageProps) {
       </GuideSection>
 
       <GuideSection
-        title={`인연의 결 리포트 PDF — ${prices.affinity.domestic}`}
+        title={`프리미엄 총운 리포트 PDF — ${prices.premium.domestic}`}
       >
         <p>
-          국내 결제 {prices.affinity.domestic}(부가세 포함), 해외 결제 {prices.affinity.global}.
+          국내 결제 {prices.premium.domestic}(부가세 포함), 해외 결제 {prices.premium.global}.
           A4 {dictionary.affinityReport.contents.length}장입니다.
         </p>
         <ul>

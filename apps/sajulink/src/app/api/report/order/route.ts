@@ -28,10 +28,11 @@ export const dynamic = "force-dynamic";
 
 const schema = z.object({
   /**
-   * 어느 메뉴의 리포트인가. 없으면 궁합으로 본다 — 이 값이 없던 시절의 화면이 아직 떠 있을 수
-   * 있고(배포 직후 열려 있던 탭), 그때 주문이 실패하는 것보다 기존 상품으로 도는 편이 낫다.
+   * 어느 티어의 리포트인가. 없으면 총운으로 본다 — 이 값이 없던 시절의 화면이 아직 떠 있을 수
+   * 있고(배포 직후 열려 있던 탭), 그때 주문이 실패하는 것보다 아래 티어로 도는 편이 낫다.
+   * **위 티어(프리미엄)를 기본으로 두지 않는다** — 값이 빠졌다고 비싼 쪽을 팔면 안 된다.
    */
-  kind: z.enum(REPORT_KINDS).default("gunghap"),
+  kind: z.enum(REPORT_KINDS).default("chongun"),
   region: z.enum(REPORT_REGIONS),
   locale: z.string().trim().max(10).optional(),
   /**

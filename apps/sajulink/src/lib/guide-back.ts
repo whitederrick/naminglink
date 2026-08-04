@@ -52,7 +52,9 @@ export function guideBackLink(locale: Locale, from?: string) {
  * 안내 허브로 돌아가는 링크. 문서 → 허브 → 서비스로 두 번 눌러 나가는 길에서도 출처가
  * 이어지도록 `from`을 그대로 들고 간다.
  */
-export function guideHubHref(locale: Locale, from?: string) {
+// `locale`이 null일 수 있다 — 푸터가 한국어일 때 일부러 접두어를 빼기 때문이다
+// (`SiteFooter`의 `linkLocale`). `localePath`가 그 경우를 이미 다룬다.
+export function guideHubHref(locale: Locale | null, from?: string) {
   return localePath("/guide", locale, guideOriginQuery(from));
 }
 

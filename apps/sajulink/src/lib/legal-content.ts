@@ -121,14 +121,14 @@ export type ReportPrices = { domestic: string; global: string };
  * 동안에는 우연히 맞았지만, 2026-07-31에 궁합만 올리면서 인연의 결 가격이 문서에서 틀린 값이
  * 됐다. 전자상거래법이 요구하는 고지라 상품마다 제 값이 나가야 한다.
  */
-export type AllReportPrices = { gunghap: ReportPrices; affinity: ReportPrices };
+export type AllReportPrices = { chongun: ReportPrices; premium: ReportPrices };
 
 const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
     "판매하는 유료 상품은 **리포트 PDF 두 가지**입니다. 둘 다 화면의 결과를 문서로 만들어 드리는 것이고, 화면에 없는 내용이 함께 담깁니다.",
-    `**사주 궁합 리포트 PDF** — 7장. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 담깁니다. 국내 결제 ${prices.gunghap.domestic}(부가세 포함), 해외 결제 ${prices.gunghap.global}.`,
-    `**인연의 결 리포트 PDF** — 4장. 화면에 없는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다. 국내 결제 ${prices.affinity.domestic}(부가세 포함), 해외 결제 ${prices.affinity.global}.`,
+    `**사주 총운 리포트 PDF** — 성격, 오행의 강약, 연애·재물·직업 성향과 계산 근거까지 담깁니다. 국내 결제 ${prices.chongun.domestic}(부가세 포함), 해외 결제 ${prices.chongun.global}.`,
+    `**프리미엄 총운 리포트 PDF** — 총운에 더해 대운·세운과 올해 총운, 연애·재물·건강 상세가 담깁니다. 국내 결제 ${prices.premium.domestic}(부가세 포함), 해외 결제 ${prices.premium.global}.`,
     "국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
@@ -163,8 +163,8 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
   heading: "3. Paid products and refunds",
   paragraphs: [
     "There are **two paid products**, both PDF reports. Each turns the on-screen result into a document and adds material that is not shown on screen.",
-    `**Saju compatibility report PDF** — seven pages. It covers which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated. ${prices.gunghap.domestic} (VAT included) for domestic payment, ${prices.gunghap.global} for international payment.`,
-    `**Match profile report PDF** — four pages. It includes the full ranking of the ten heavenly stems and the twelve zodiac signs, which the screen does not show. ${prices.affinity.domestic} (VAT included) for domestic payment, ${prices.affinity.global} for international payment.`,
+    `**Saju life reading report (PDF)** — your character, the balance of the five elements, and tendencies in love, wealth and work, with the calculation behind them. ${prices.chongun.domestic} (VAT included) for domestic payment, ${prices.chongun.global} for international payment.`,
+    `**Premium reading report (PDF)** — everything in the life reading plus your major and annual cycles, this year’s outlook, and detail on love, wealth and health. ${prices.premium.domestic} (VAT included) for domestic payment, ${prices.premium.global} for international payment.`,
     "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
@@ -448,7 +448,7 @@ const koDocuments = (
       {
         heading: "2. 사주 궁합 리포트 PDF (유료)",
         paragraphs: [
-          `국내 결제 ${prices.gunghap.domestic}(부가세 포함) · 해외 결제 ${prices.gunghap.global}`,
+          `국내 결제 ${prices.chongun.domestic}(부가세 포함) · 해외 결제 ${prices.chongun.global}`,
           "화면의 결과를 7장짜리 PDF 문서로 만들어 드립니다. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 화면에 없는 내용이 담깁니다.",
           "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
         ],
@@ -456,7 +456,7 @@ const koDocuments = (
       {
         heading: "3. 인연의 결 리포트 PDF (유료)",
         paragraphs: [
-          `국내 결제 ${prices.affinity.domestic}(부가세 포함) · 해외 결제 ${prices.affinity.global}`,
+          `국내 결제 ${prices.premium.domestic}(부가세 포함) · 해외 결제 ${prices.premium.global}`,
           "화면의 결과를 4장짜리 PDF 문서로 만들어 드립니다. 화면은 잘 맞는 결 셋만 보여 주지만 PDF에는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다.",
           "재발급 조건은 궁합 리포트와 같습니다.",
         ],
@@ -672,7 +672,7 @@ const enDocuments = (
       {
         heading: "2. Saju compatibility report PDF (paid)",
         paragraphs: [
-          `${prices.gunghap.domestic} (VAT included) for domestic payment - ${prices.gunghap.global} for international payment`,
+          `${prices.chongun.domestic} (VAT included) for domestic payment - ${prices.chongun.global} for international payment`,
           "Turns the on-screen result into a seven-page document. It adds which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated - none of which appear on screen.",
           "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
         ],
@@ -680,7 +680,7 @@ const enDocuments = (
       {
         heading: "3. Match profile report PDF (paid)",
         paragraphs: [
-          `${prices.affinity.domestic} (VAT included) for domestic payment - ${prices.affinity.global} for international payment`,
+          `${prices.premium.domestic} (VAT included) for domestic payment - ${prices.premium.global} for international payment`,
           "Turns the on-screen result into a four-page document. The screen shows only the three best-matching types; the PDF carries the full ranking of the ten heavenly stems and the twelve zodiac signs.",
           "Re-download terms are the same as for the compatibility report.",
         ],
@@ -723,10 +723,10 @@ function fillPlaceholders(
     "{privacyOfficer}": company.privacyOfficer,
     // 기존 두 자리는 **궁합 가격**을 뜻한다. 21로케일 번역이 이미 이 이름으로 쓰고 있어
     // 뜻을 바꾸지 않는다 — 이름을 갈면 번역 파일 전부를 손대야 한다.
-    "{priceDomestic}": prices.gunghap.domestic,
-    "{priceGlobal}": prices.gunghap.global,
-    "{priceAffinityDomestic}": prices.affinity.domestic,
-    "{priceAffinityGlobal}": prices.affinity.global,
+    "{priceDomestic}": prices.chongun.domestic,
+    "{priceGlobal}": prices.chongun.global,
+    "{priceAffinityDomestic}": prices.premium.domestic,
+    "{priceAffinityGlobal}": prices.premium.global,
   };
   const fill = (text: string) =>
     text.replace(

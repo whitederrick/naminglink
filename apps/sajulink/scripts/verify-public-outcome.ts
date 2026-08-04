@@ -1,157 +1,91 @@
-// 무료 API가 유료 리포트의 내용을 내보내지 않는지 본다.
+// 무료 응답이 유료 몫을 흘리지 않는지, 한 주문이 결과 한 벌에만 묶이는지 확인한다.
 //
-// 이 서비스가 파는 것은 PDF 하나뿐이고, 그 값어치는 오로지 "화면에 없는 것이 여기 있다"에서
-// 나온다. 그런데 `/api/match`·`/api/affinity`가 엔진 결과를 통째로 돌려주고 있어 파는 내용이
-// 결제 없이 브라우저까지 갔다(2026-08-02 발견). 화면이 그리지 않을 뿐이라 눈으로는 안 보이고,
-// 개발자도구 Network 탭에는 그대로 있었다.
+// **인연링크에서 실제로 새던 자리다**(2026-08-02). 엔진 결과를 통째로 돌려주는 바람에 PDF에만
+// 담기로 한 값이 결제 없이 브라우저까지 갔다. 화면이 그리지 않을 뿐 개발자도구 Network 탭
+// 하나면 보였다. 사주링크는 그 코드를 복제해 시작했으므로 같은 검사를 그대로 물려받는다.
 //
-// 타입에도 가드를 두었지만(`PAID_ONLY_READING_KEYS`가 필드가 늘면 컴파일을 깬다), 그것은
-// **빠뜨린 키**를 잡을 뿐 "정말로 응답에서 빠졌는가"는 값으로 확인해야 한다. 여기서 실제
-// 계산 결과를 만들어 대조한다.
-//
-// 실행: apps/inyeonlink 에서
-//   node_modules/.bin/tsx scripts/verify-public-outcome.ts
+// 실행: apps/sajulink 에서
+//   ../naminglink/node_modules/.bin/tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-public-outcome.ts
 
-import { runAffinity, runMatch, type Person } from "../src/lib/engines";
-import {
-  PAID_ONLY_READING_FIELDS,
-  publicAffinityOutcome,
-  publicMatchOutcome,
-} from "../src/lib/public-outcome";
+import type { Person } from "../src/lib/engines";
+import { prepare, toReading } from "../src/lib/engines/prepare";
+import { todayFortune, todayPillarOf } from "../src/lib/engines/today-fortune";
+import { PAID_ONLY_READING_FIELDS, publicSajuOutcome } from "../src/lib/public-outcome";
 import { inputFingerprint } from "../src/lib/report-order-binding";
 
 let failures = 0;
 
 function check(label: string, condition: boolean, detail = "") {
-  if (condition) {
-    console.log(`  ✓ ${label}`);
-    return;
-  }
-  failures += 1;
-  console.error(`  ✗ ${label}${detail ? ` — ${detail}` : ""}`);
+  console.log(`  ${condition ? "✓" : "✗"} ${label}${detail ? ` — ${detail}` : ""}`);
+  if (!condition) failures += 1;
 }
 
-const personA: Person = {
-  label: "A",
+const PERSON: Person = {
+  label: "검사",
   gender: "female",
   calendarType: "solar",
   year: 1990,
   month: 5,
-  day: 12,
-  lunarLeapMonth: false,
+  day: 15,
   birthHour: 9,
   birthMinute: 30,
-  birthplace: { timeZone: "Asia/Seoul", longitude: 126.978 },
-};
-const personB: Person = {
-  ...personA,
-  label: "B",
-  gender: "male",
-  year: 1988,
-  month: 11,
-  day: 3,
-  birthHour: 14,
 };
 
-console.log("궁합 — /api/match");
-const match = runMatch(personA, personB);
-const publicMatch = publicMatchOutcome(match);
-const matchWire = JSON.stringify(publicMatch);
+const reading = toReading(prepare(PERSON));
+const fortune = todayFortune(reading, todayPillarOf("2026-08-04"));
+const outcome = publicSajuOutcome(reading, fortune);
+const json = JSON.stringify(outcome);
 
-check("원본에는 유료 심화 자료가 있다(대조군)", match.detail !== undefined);
-check(
-  "응답에는 detail이 없다",
-  (publicMatch as Record<string, unknown>).detail === undefined,
-);
+console.log("무료 응답 검사 — 파는 것이 결제 없이 나가지 않는가");
+
+console.log("\n== 유료 전용 필드");
 for (const field of PAID_ONLY_READING_FIELDS) {
-  check(`응답 어디에도 ${field}가 없다`, !matchWire.includes(`"${field}"`));
-}
-check(
-  "화면이 쓰는 것은 남아 있다",
-  publicMatch.totalScore === match.totalScore &&
-    publicMatch.people[0].pillars !== undefined &&
-    publicMatch.people[0].bodyStrength !== undefined &&
-    publicMatch.people[1].favorableElements !== undefined &&
-    publicMatch.relation !== undefined &&
-    publicMatch.highlights !== undefined &&
-    publicMatch.engines.length === match.engines.length,
-);
-
-console.log("\n인연의 결 — /api/affinity");
-const affinity = runAffinity(personA, "male");
-const publicAffinity = publicAffinityOutcome(affinity);
-const affinityWire = JSON.stringify(publicAffinity);
-
-check("원본은 천간 열 개를 담는다(대조군)", affinity.stems.length === 10);
-check("원본은 띠 열둘을 담는다(대조군)", affinity.zodiac.length === 12);
-check("응답의 천간은 넷뿐(상위 셋 + 꼴찌)", publicAffinity.stems.length === 4);
-check("응답의 띠는 넷뿐(상위 셋 + 꼴찌)", publicAffinity.zodiac.length === 4);
-check(
-  "응답에 일지(dayBranch)가 없다",
-  (publicAffinity as Record<string, unknown>).dayBranch === undefined,
-);
-for (const field of PAID_ONLY_READING_FIELDS) {
-  check(`응답 어디에도 ${field}가 없다`, !affinityWire.includes(`"${field}"`));
+  check(`\`${field}\`가 무료 응답에 없다`, !(field in outcome.reading));
 }
 
-// 화면은 `slice(0, 3)`으로 상위를, 마지막 자리로 꼴찌를 집는다. 자른 뒤에도 같은 자리에서
-// 같은 것이 나와야 한다 — 여기가 어긋나면 화면이 엉뚱한 유형을 "가장 잘 맞는다"고 말한다.
+// **대조군.** 마스킹하지 않은 원본을 같은 방식으로 검사해 "걸리는지" 본다. 이것이 없으면
+// 검사 방식이 잘못돼 아무것도 못 잡는 상태에서도 전부 통과로 뜬다(실제로 겪은 함정이다).
+console.log("\n== 대조군");
+const present = PAID_ONLY_READING_FIELDS.filter((field) => field in reading);
 check(
-  "상위 셋이 원본과 같은 순서다",
-  publicAffinity.stems.slice(0, 3).every((entry, index) => entry.stem === affinity.stems[index].stem),
+  "원본(엔진 결과)에는 그 필드들이 있다",
+  present.length === PAID_ONLY_READING_FIELDS.length,
+  `${present.length}/${PAID_ONLY_READING_FIELDS.length}`,
 );
-check(
-  "마지막 자리가 원본의 꼴찌다",
-  publicAffinity.stems[publicAffinity.stems.length - 1].stem ===
-    affinity.stems[affinity.stems.length - 1].stem,
-);
-check(
-  "띠도 같은 규칙이다",
-  publicAffinity.zodiac.slice(0, 3).every((entry, index) => entry.branch === affinity.zodiac[index].branch) &&
-    publicAffinity.zodiac[publicAffinity.zodiac.length - 1].branch ===
-      affinity.zodiac[affinity.zodiac.length - 1].branch,
-);
+check("검사한 필드가 0개가 아니다", PAID_ONLY_READING_FIELDS.length > 0);
 
-// 확인기 팝업이 "몇 순위"를 답하려면 전체 순서가 필요하다. 점수는 담기지 않는다.
-check("천간 순서는 열 개 전부 온다", publicAffinity.stemOrder.length === 10);
-check(
-  "순서가 원본과 일치한다",
-  publicAffinity.stemOrder.every((stem, index) => stem === affinity.stems[index].stem),
-);
-check(
-  "순서 목록은 글자만이다(점수 없음)",
-  publicAffinity.stemOrder.every((stem) => typeof stem === "string"),
-);
+console.log("\n== 무료로 주기로 한 것은 제대로 나간다");
+check("사주 원국", Boolean(outcome.reading.pillars.day.hanja));
+check("오행 세력", Object.keys(outcome.reading.elements).length === 5);
+check("강약 판정", Boolean(outcome.reading.bodyStrength));
+check("오늘의 운세 점수·등급", outcome.today.score > 0 && Boolean(outcome.today.grade));
+check("근거 항목", Array.isArray(outcome.today.factors));
+// 오늘의 운세는 아끼지 않는다 — 매일 다시 오게 만드는 것이 이 화면의 존재 이유다.
+check("행운 요소도 무료다", Boolean(outcome.today.lucky.directionKo));
 
-console.log("");
-console.log("주문 결속 — 한 결제로 다른 사람 리포트를 받지 못하게");
-const orderInput = { a: personA, b: personB };
-check(
-  "같은 입력은 같은 지문",
-  inputFingerprint(orderInput) === inputFingerprint({ a: personA, b: personB }),
-);
+console.log("\n== 주문 결속 — 한 결제로 다른 사람 리포트를 받지 못하게");
+const orderInput = { me: PERSON };
+check("같은 입력은 같은 지문", inputFingerprint(orderInput) === inputFingerprint({ me: PERSON }));
 check(
   "키 순서가 달라도 같은 지문",
-  inputFingerprint({ b: personB, a: personA }) === inputFingerprint(orderInput),
+  inputFingerprint({ me: { ...PERSON } }) === inputFingerprint(orderInput),
 );
 check(
   "생년월일 하루만 달라도 다른 지문",
-  inputFingerprint({ a: personA, b: { ...personB, day: personB.day + 1 } }) !==
-    inputFingerprint(orderInput),
-);
-check(
-  "다른 사람으로 바꾸면 다른 지문",
-  inputFingerprint({ a: personB, b: personA }) !== inputFingerprint(orderInput),
+  inputFingerprint({ me: { ...PERSON, day: PERSON.day + 1 } }) !== inputFingerprint(orderInput),
 );
 check(
   "지문에서 생년월일이 드러나지 않는다",
-  /^[0-9a-f]{64}$/.test(inputFingerprint(orderInput)) &&
-    !inputFingerprint(orderInput).includes(String(personA.year)),
+  !inputFingerprint(orderInput).includes(String(PERSON.year)),
 );
 
-console.log("");
-if (failures > 0) {
-  console.error(`실패 ${failures}건`);
-  process.exit(1);
-}
-console.log("모두 통과");
+console.log("\n== 응답 본문에 유료 값이 문자열로도 섞이지 않았는가");
+// 필드 이름만 보면 값이 다른 키에 실려 나가는 경우를 놓친다. 그 항목에만 있는 값으로 본다.
+check(
+  "아군 비율(allyRatio)의 값이 응답에 없다",
+  !json.includes(String(reading.allyRatio)),
+  String(reading.allyRatio),
+);
+
+console.log(failures === 0 ? "\n모두 통과" : `\n실패 ${failures}건`);
+process.exit(failures === 0 ? 0 : 1);

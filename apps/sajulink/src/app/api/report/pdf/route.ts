@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { affinityInputSchema } from "@/lib/affinity-input";
-import { runAffinity, runMatch } from "@/lib/engines";
+import { prepare, toReading } from "@/lib/engines/prepare";
+import {
+  todayFortune,
+  todayInSeoul,
+  todayPillarOf,
+} from "@/lib/engines/today-fortune";
 import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18n";
 import { pdfLocale } from "@/lib/pdf/fonts";
-import { matchInputSchema, toPerson } from "@/lib/match-input";
-import { renderAffinityReport } from "@/lib/pdf/affinity-report";
-import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
+import { sajuInputSchema, toPerson } from "@/lib/saju-input";
+import { renderSajuReport } from "@/lib/pdf/saju-report";
 import { inputFingerprint } from "@/lib/report-order-binding";
 import { notifyOps } from "@/lib/ops-alert";
 import { getVerifiedPayment } from "@/lib/portone";
@@ -31,25 +34,25 @@ const REISSUE_LIMIT = 5;
 
 
 /**
- * 두 상품이 받는 입력이 다르다 — 궁합은 두 사람, 인연의 결은 한 사람이다.
+ * 두 티어가 같은 입력(한 사람)을 받는다. 다른 것은 **문서에 얼마나 담느냐**뿐이다.
  *
- * `kind`로 갈라 **그 종류의 스키마만** 통과시킨다. 하나로 합쳐 둘 다 optional로 두면
- * 인연의 결 주문에 두 사람 입력을 실어 보내는 요청이 통과해 버린다.
+ * 그래도 `kind`를 판별자로 남긴다 — 주문 종류와 대조해 **총운을 사고 프리미엄 문서를
+ * 받아 가는 일**이 없어야 하기 때문이다(아래 `orderType` 확인).
  */
 const schema = z.discriminatedUnion("kind", [
   z.object({
-    kind: z.literal("gunghap"),
+    kind: z.literal("chongun"),
     orderId: z.string().uuid(),
     paymentId: z.string().min(8).max(64),
     locale: z.string().trim().max(10).optional(),
-    input: matchInputSchema,
+    input: sajuInputSchema,
   }),
   z.object({
-    kind: z.literal("affinity"),
+    kind: z.literal("premium"),
     orderId: z.string().uuid(),
     paymentId: z.string().min(8).max(64),
     locale: z.string().trim().max(10).optional(),
-    input: affinityInputSchema,
+    input: sajuInputSchema,
   }),
 ]);
 
@@ -88,7 +91,7 @@ export async function POST(request: NextRequest) {
   const { orderId, paymentId } = parsed.data;
   // 주문 종류까지 맞춰서 찾는다. 궁합 주문으로 인연의 결 PDF를 받아 가는 일이 없어야 한다.
   const orderType =
-    parsed.data.kind === "affinity" ? "AFFINITY_PDF" : "GUNGHAP_PDF";
+    parsed.data.kind === "premium" ? "SAJU_PREMIUM_PDF" : "SAJU_CHONGUN_PDF";
 
   try {
     const { data: order } = await supabase
@@ -204,7 +207,7 @@ export async function POST(request: NextRequest) {
         "Content-Type": "application/pdf",
         // 파일 이름에 이용자 이름을 넣지 않는다 — 브라우저 다운로드 기록에 남는다.
         // 상품별로는 가른다. 둘 다 산 사람에게 같은 이름을 주면 한쪽이 덮어써진다.
-        "Content-Disposition": `attachment; filename="inyeonlink-${parsed.data.kind}.pdf"`,
+        "Content-Disposition": `attachment; filename="sajulink-${parsed.data.kind}.pdf"`,
         "Cache-Control": "no-store",
       },
     });
@@ -223,7 +226,8 @@ export async function POST(request: NextRequest) {
 
 function withDefaultKind(body: unknown) {
   if (body && typeof body === "object" && !("kind" in body)) {
-    return { ...(body as Record<string, unknown>), kind: "gunghap" };
+    // **위 티어를 기본으로 두지 않는다.** 값이 빠졌다고 비싼 문서를 내주면 안 된다.
+    return { ...(body as Record<string, unknown>), kind: "chongun" };
   }
   return body;
 }
@@ -239,27 +243,17 @@ function render(
   locale: Locale,
   dictionary: Dictionary,
 ) {
-  const generatedAt = new Date().toISOString();
+  // **계산을 여기서 다시 돌린다.** 화면이 보낸 결과를 그대로 싣지 않으므로, 이용자가 응답을
+  // 손봐도 문서에는 서버가 규칙으로 계산한 값만 들어간다.
+  const reading = toReading(prepare(toPerson(parsed.input.me)));
+  const today = todayFortune(reading, todayPillarOf(todayInSeoul(new Date())));
 
-  if (parsed.kind === "affinity") {
-    const { me, seeking } = parsed.input;
-    return renderAffinityReport({
-      outcome: runAffinity(toPerson(me), seeking),
-      name: me.label?.trim() || dictionary.affinity.meLegend,
-      locale,
-      dictionary,
-      generatedAt,
-    });
-  }
-
-  const { a, b } = parsed.input;
-  return renderCompatibilityReport({
-    outcome: runMatch(toPerson(a), toPerson(b)),
-    nameA: a.label?.trim() || dictionary.form.personA,
-    nameB: b.label?.trim() || dictionary.form.personB,
+  return renderSajuReport({
+    kind: parsed.kind,
+    reading,
+    today,
     locale,
     dictionary,
-    generatedAt,
   });
 }
 
