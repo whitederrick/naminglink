@@ -32,9 +32,8 @@ export function SajuResultView({
   offerPrice: string | null;
 }) {
   const t = dictionary.result;
-  // 원국·오행 문구는 `reading` 사전에서 온다(인연링크가 두 사람 몫으로 쓰던 것을 그대로 쓴다.
-  // 문구를 사주에 맞게 고치는 것은 셸 문구 교체 단계의 몫이다).
   const r = dictionary.reading;
+  const d = dictionary.today;
   const resolvedFragment = useResultFragment();
   const [state, setState] = useState<State>({ status: "loading" });
 
@@ -121,25 +120,72 @@ export function SajuResultView({
         <p className="break-keep-all mt-3 text-xs leading-6 text-muted">{r.chartHint}</p>
       </section>
 
-      {/* 오늘의 운세 — 이 화면의 리텐션 훅이다. 점수·등급·카테고리를 함께 보여 준다. */}
+      {/* 오늘의 운세 — 이 화면의 리텐션 훅이다. 점수·등급·카테고리를 함께 보여 준다.
+          **엔진 값은 전부 열거값이다.** 그대로 그리면 `DAEGIL`·`wealth`·`WOOD`가 화면에 뜬다.
+          사람이 읽을 말은 전부 사전(`today`·`elements`)에 있고 여기서는 이름만 건다. */}
       <section className="rounded-2xl border border-brand-plum/25 bg-surface-strong p-5">
-        <h2 className="text-sm font-semibold text-brand-plum">
-          {today.date} · {today.todayPillar.stem}
+        <h2 className="text-sm font-semibold text-brand-plum">{d.title}</h2>
+        <p className="mt-1 text-xs text-muted">
+          {today.date} · {d.pillarLabel} {today.todayPillar.stem}
           {today.todayPillar.branch}
-        </h2>
-        <p className="mt-2 text-4xl font-semibold tabular-nums">{today.score}</p>
-        <p className="mt-1 text-sm text-muted">{today.grade}</p>
+        </p>
+        <p className="mt-3 text-4xl font-semibold tabular-nums">{today.score}</p>
+        <p className="mt-1 text-sm font-semibold text-brand-plum">
+          {d.grades[today.grade].name}
+        </p>
+        <p className="break-keep-all mt-1 text-xs leading-6 text-muted">
+          {d.grades[today.grade].body}
+        </p>
         <dl className="mt-4 grid grid-cols-2 gap-2 text-sm sm:grid-cols-4">
           {(Object.keys(today.categories) as Array<keyof typeof today.categories>).map((key) => (
             <div key={key} className="rounded-lg border border-line/60 bg-surface px-3 py-2">
-              <dt className="text-xs text-muted">{key}</dt>
+              <dt className="text-xs text-muted">{d.categories[key]}</dt>
               <dd className="mt-0.5 font-semibold tabular-nums">{today.categories[key]}</dd>
             </div>
           ))}
         </dl>
-        <p className="mt-4 text-xs leading-6 text-muted">
-          {today.lucky.element} · {today.lucky.directionKo} · {today.lucky.timeRange}
-        </p>
+
+        {/* 행운 요소. 색과 방위는 엔진이 한국어·영어 두 벌로 들고 있다 — 나머지 로케일은
+            영어 쪽을 쓴다(사전에 옮기면 오행마다 23벌이라 엔진 값을 그대로 쓰는 편이 맞다). */}
+        <h3 className="mt-5 text-xs font-semibold text-brand-plum">{d.luckyTitle}</h3>
+        <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-xs leading-6 sm:grid-cols-3">
+          <div className="flex gap-2">
+            <dt className="text-muted">{d.luckyElement}</dt>
+            <dd>{dictionary.elements[today.lucky.element]}</dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-muted">{d.luckyColor}</dt>
+            <dd>{(locale === "ko" ? today.lucky.colorsKo : today.lucky.colorsEn).join(", ")}</dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-muted">{d.luckyDirection}</dt>
+            <dd>{locale === "ko" ? today.lucky.directionKo : today.lucky.directionEn}</dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-muted">{d.luckyTime}</dt>
+            <dd>{today.lucky.timeRange}</dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-muted">{d.luckyNumber}</dt>
+            <dd className="tabular-nums">{today.lucky.numbers.join(", ")}</dd>
+          </div>
+        </dl>
+
+        {/* 점수의 근거. 엔진은 항목(`Factor.key`)만 주고 문장은 사전이 갖는다. 사전 쪽이
+            열거로 닫혀 있어 엔진에 항목이 늘면 컴파일에서 걸린다. */}
+        <h3 className="mt-5 text-xs font-semibold text-brand-plum">{d.basisTitle}</h3>
+        <ul className="mt-2 space-y-1 text-xs leading-6 text-muted">
+          {today.factors.map((factor) => (
+            <li key={factor.key} className="break-keep-all flex justify-between gap-3">
+              <span>{d.factors[factor.key as keyof typeof d.factors] ?? factor.key}</span>
+              <span className="shrink-0 tabular-nums">
+                {factor.delta > 0 ? `+${factor.delta}` : factor.delta}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <p className="break-keep-all mt-4 text-xs leading-6 text-muted">{d.bookmarkHint}</p>
       </section>
 
       {/* 오행 세력. 무료로 보여 주는 몫이고, 근거 숫자(allyRatio·왕상휴수사)는 리포트에만 있다. */}
@@ -148,7 +194,7 @@ export function SajuResultView({
         <dl className="mt-3 grid grid-cols-5 gap-2 text-center text-sm">
           {(Object.keys(reading.elements) as Array<keyof typeof reading.elements>).map((element) => (
             <div key={element} className="rounded-lg border border-line/60 bg-surface px-2 py-2">
-              <dt className="text-xs text-muted">{element}</dt>
+              <dt className="text-xs text-muted">{dictionary.elements[element]}</dt>
               <dd className="mt-0.5 font-semibold tabular-nums">
                 {reading.elements[element].toFixed(1)}
               </dd>

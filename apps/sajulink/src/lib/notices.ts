@@ -88,12 +88,12 @@ export const notices: Notice[] = [
     },
     body: {
       ko: [
-        "결과 화면과 리포트 아래에는 계산 기준(예: inyeonlink-match-v10)이 적혀 있습니다. 같은 입력이면 같은 기준에서 언제나 같은 값이 나옵니다.",
+        "결과 화면과 리포트 아래에는 계산 기준(예: sajulink-natal-v1)이 적혀 있습니다. 같은 입력이면 같은 기준에서 언제나 같은 값이 나옵니다.",
         "명리 해석 규칙을 고쳐 점수가 달라질 수 있게 되면, 그 사실과 시행일을 이 자리에 먼저 올립니다. 예전에 받으신 결과 링크의 숫자가 달라지는 일이기 때문입니다.",
         "현재 기준은 v10이며, 결제는 아직 준비 중입니다.",
       ],
       en: [
-        "Each reading and report carries the rule set used to produce it (for example inyeonlink-match-v10). The same input on the same rule set always gives the same numbers.",
+        "Each reading and report carries the rule set used to produce it (for example sajulink-natal-v1). The same input on the same rule set always gives the same numbers.",
         "If we change the interpretation rules in a way that can move a score, we post that here first, with the date it takes effect — because a result link you already hold would then read differently.",
         "The current rule set is v10. Payments are not open yet.",
       ],

@@ -16,7 +16,7 @@ import { checkRateLimit } from "@/lib/request-guard";
 import { getTossClientKey, tossConfigured } from "@/lib/toss";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
-// 궁합 리포트 PDF 주문 생성.
+// 사주 리포트 PDF 주문 생성.
 //
 // **요청 본문에 생년월일이 없다.** 주문에 필요한 것은 상품과 권역뿐이고, 입력값은 결제가
 // 끝난 뒤 PDF를 만드는 요청에만 실린다. 그래야 주문 표에 누구의 사주였는지가 남지 않는다.
@@ -106,7 +106,7 @@ export async function POST(request: NextRequest) {
     const { error } = await insertOrder(supabase, {
       id: orderId,
       order_type: product.orderType,
-      service: "inyeonlink",
+      service: "sajulink",
       payment_status: "UNPAID",
       payment_amount: setting.amount,
       payment_currency: setting.currency,

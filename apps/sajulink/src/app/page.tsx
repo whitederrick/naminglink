@@ -123,7 +123,7 @@ export default async function LandingPage({
             {/* naminglink 랜딩에는 여기 배지 상자(`copy.badge`)가 있지만 이 화면에서는 뺐다.
                 한 줄짜리 상자라 언어마다 폭·줄 수가 크게 달라져, 그 아래 제목·부제·버튼이 통째로
                 밀리는 것이 23개 언어에서 가장 큰 불일치 요인이었다. 문구 자체는 `dictionary.tagline`에
-                그대로 있고 PDF 리포트(`lib/pdf/compatibility-report.tsx`)가 계속 쓴다 — 키를 지우지 말 것.
+                그대로 있고 PDF 리포트(`lib/pdf/saju-report.tsx`)가 계속 쓴다 — 키를 지우지 말 것.
                 제목→부제→버튼 간격은 전부 mt-5(20px)로 같다. 하나만 바꾸면 리듬이 깨진다. */}
             <h1 className="break-keep-all max-w-[18ch] whitespace-pre-line text-[2.125rem] font-semibold leading-[1.08] [text-wrap:balance] sm:max-w-[20ch] sm:text-[2.75rem] lg:max-w-[20ch] xl:text-[3.25rem]">
               {landing.title}
@@ -133,22 +133,22 @@ export default async function LandingPage({
             <p className="break-keep-all mt-5 max-w-2xl whitespace-pre-line text-base leading-7 text-white/82 [text-wrap:pretty] sm:text-lg">
               {landing.subtitle}
             </p>
-            {/* 메뉴가 둘이다. 사주 궁합은 상대의 생년월일을 알아야 하고, 인연의 결은 나
-                하나로 본다 — 후자가 문턱이 낮으므로 나란히 두어 둘 다 첫 화면에서 보이게 한다.
+            {/* 메뉴가 둘이다. 사주 풀이는 한 번 보는 것이고 오늘의 운세는 매일 다시 오는
+                자리다 — 후자가 재방문을 만들므로 나란히 두어 둘 다 첫 화면에서 보이게 한다.
                 채운 버튼 하나 + 테두리 버튼 하나로 두어 무엇이 이 서비스의 본 상품인지는
                 그대로 남긴다. */}
             <div className="mt-5 flex flex-wrap gap-3">
               <Link
-                href={localePath("/compatibility", linkLocale)}
+                href={localePath("/reading", linkLocale)}
                 className="inline-block rounded-full bg-white px-7 py-3.5 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
               >
                 {landing.cta}
               </Link>
               <Link
-                href={localePath("/affinity", linkLocale)}
+                href={localePath("/today", linkLocale)}
                 className="inline-block rounded-full border border-white/45 bg-white/12 px-7 py-3.5 text-lg font-semibold text-white shadow-sm backdrop-blur transition hover:bg-white/20"
               >
-                {dictionary.affinity.menu}
+                {dictionary.today.menu}
               </Link>
             </div>
           </section>

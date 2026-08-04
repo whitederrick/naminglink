@@ -19,12 +19,12 @@ import { buildPageMetadata } from "@/lib/seo";
 
 type PageProps = { searchParams?: Promise<{ lang?: string }> };
 
-const TITLE_KO = "인연링크 소개";
-const TITLE_EN = "About Inyeon-Link";
+const TITLE_KO = "사주링크 소개";
+const TITLE_EN = "About Saju-Link";
 const SUMMARY_KO =
-  "사주로 두 사람의 결을 견주어 보는 서비스입니다. 무엇을 계산하고 무엇을 말하지 않는지 밝힙니다.";
+  "생년월일로 사주 원국을 세워 읽어 드리는 서비스입니다. 무엇을 계산하고 무엇을 말하지 않는지 밝힙니다.";
 const SUMMARY_EN =
-  "We compare two birth charts in the Korean Saju tradition. Here is what we calculate, and what we refuse to claim.";
+  "We build and read your birth chart in the Korean Saju tradition. Here is what we calculate, and what we refuse to claim.";
 
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
   const params = await searchParams;
@@ -59,13 +59,14 @@ export default async function Page({ searchParams }: PageProps) {
         <>
           <GuideSection title="무엇을 하는 곳인가">
             <p>
-              인연링크는 두 사람의 생년월일시로 <b>사주를 세우고 서로의 기운이 어떻게 맞물리는지</b>{" "}
-              보여 드립니다. 상대가 없어도 자기 사주만으로 어떤 결의 사람과 잘 맞는지 볼 수
-              있습니다.
+              사주링크는 생년월일시로 <b>사주 원국을 세우고 그 여덟 글자가 무엇을 말하는지</b>{" "}
+              보여 드립니다. 오행의 세력과 일간의 강약을 읽고, 오늘의 일진을 대어 그날의 운세도
+              함께 봅니다.
             </p>
             <p>
               화면에서 보는 것은 <b>무료이고 회원가입도 없습니다.</b> 유료 상품은 화면에 없는 값
-              — 오행 세력, 십신 짝, 네 기둥 전체의 관계 — 을 담은 PDF 문서입니다.
+              — 신강·신약을 가른 근거 숫자, 왕상휴수사, 진태양시 보정 내역 — 을 담은 PDF
+              문서입니다.
             </p>
           </GuideSection>
 
@@ -80,7 +81,9 @@ export default async function Page({ searchParams }: PageProps) {
               결과가 달라지지 않는지 회귀 검사로 확인합니다.
             </p>
             <p>
-              <b>AI를 쓰지 않습니다.</b> 화면에 나오는 문장은 계산 결과에 붙는 정해진 설명입니다.
+              <b>화면의 문장에는 AI를 쓰지 않습니다.</b> 무료 화면에 나오는 설명은 계산 결과에
+              붙는 정해진 문구입니다. <b>결제하신 리포트의 해설에만</b> 생성형 AI를 쓰며, 그때도
+              AI가 점수를 만들지 않습니다 — 엔진이 낸 값을 근거로 문장만 씁니다.
             </p>
           </GuideSection>
 
@@ -95,8 +98,8 @@ export default async function Page({ searchParams }: PageProps) {
                 남기지 않습니다. 결과 링크도 브라우저가 서버로 보내지 않는 자리에 담깁니다.
               </li>
               <li>
-                <b>궁합 점수를 사람의 값으로 보지 않습니다.</b> 낮은 점수가 관계를 부정하지
-                않습니다.
+                <b>점수를 사람의 값으로 보지 않습니다.</b> 오늘의 운세가 낮다고 해서 그날을
+                포기할 이유가 되지 않습니다.
               </li>
             </ul>
           </GuideSection>
@@ -111,14 +114,15 @@ export default async function Page({ searchParams }: PageProps) {
         <>
           <GuideSection title="What we do">
             <p>
-              Inyeon-Link builds two birth charts from dates and times of birth and shows{" "}
-              <b>how the two sets of energies meet.</b> You can also read your own chart alone and
-              see which temperaments tend to suit you.
+              Saju-Link builds your birth chart from your date and time of birth and shows{" "}
+              <b>what those eight characters say.</b> We read the weight of the five elements and
+              the strength of your day master, then lay today’s pillar against the chart for a
+              daily reading.
             </p>
             <p>
               Reading on screen is <b>free and needs no account.</b> The paid items are PDF reports
-              carrying figures the screen never shows — element strengths, ten-god pairings and the
-              relationships across all four pillars.
+              carrying figures the screen never shows — the ally ratio behind the strong/weak
+              verdict, the seasonal standing of each element, and the true-solar-time correction.
             </p>
           </GuideSection>
 
@@ -135,8 +139,10 @@ export default async function Page({ searchParams }: PageProps) {
               regression harness to be sure older readings did not move.
             </p>
             <p>
-              <b>No AI is involved.</b> Every sentence on screen is fixed text attached to a
-              calculated result.
+              <b>No AI is involved in the on-screen text.</b> Every sentence on the free screens is
+              fixed text attached to a calculated result. Generative AI is used <b>only in the
+              commentary of a paid report</b>, and even there it never produces the numbers — it
+              writes prose from what the engine already calculated.
             </p>
           </GuideSection>
 
@@ -152,8 +158,8 @@ export default async function Page({ searchParams }: PageProps) {
                 browser does not send to a server.
               </li>
               <li>
-                <b>A score is not a verdict on a person.</b> A low number does not invalidate a
-                relationship.
+                <b>A score is not a verdict on a person.</b> A low reading today is not a reason
+                to give up on the day.
               </li>
             </ul>
           </GuideSection>

@@ -12,7 +12,7 @@ import { localePath } from "@/lib/locale-path";
  * 넣는 순간 색인이 열리므로, 따로 켜야 하는 스위치는 없다.
  */
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://inyeonlink.vercel.app"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sajulink.vercel.app"
 ).replace(/\/+$/, "");
 
 /**

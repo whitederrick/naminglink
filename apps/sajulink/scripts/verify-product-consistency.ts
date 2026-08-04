@@ -35,7 +35,7 @@ for (const locale of supportedLocales) {
   const dictionary = getDictionary(locale);
   for (const [key, copy] of [
     ["report", dictionary.report],
-    ["affinityReport", dictionary.affinityReport],
+    ["premiumReport", dictionary.premiumReport],
   ] as const) {
     const pages = copy.contents.length;
     // 상품 형태는 고시의 두 번째 항목이다(첫째는 제작·공급자).

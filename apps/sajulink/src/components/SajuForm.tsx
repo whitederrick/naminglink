@@ -104,7 +104,7 @@ export function SajuForm({
   return (
     <form onSubmit={handleSubmit} className="mt-10 space-y-8">
       <PersonFields
-        legend={t.personA}
+        legend={t.meLegend}
         dictionary={dictionary}
         locale={locale}
         value={me}

@@ -114,10 +114,10 @@ export default async function Page(props: GuidePageProps) {
       <GuideSection title={`Premium reading report — ${prices.premium.global}`}>
         <p>
           {prices.premium.global} for international payment, {prices.premium.domestic} (VAT
-          included) in Korea. {dictionary.affinityReport.contents.length} A4 pages.
+          included) in Korea. {dictionary.premiumReport.contents.length} A4 pages.
         </p>
         <ul>
-          {dictionary.affinityReport.contents.map((line) => (
+          {dictionary.premiumReport.contents.map((line) => (
             <li key={line}>{line}</li>
           ))}
         </ul>

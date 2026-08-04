@@ -102,7 +102,7 @@ export async function POST(request: NextRequest) {
       )
       .eq("id", orderId)
       .eq("order_type", orderType)
-      .eq("service", "inyeonlink")
+      .eq("service", "sajulink")
       .maybeSingle();
 
     if (!order || String(order.provider_payment_id) !== paymentId) {

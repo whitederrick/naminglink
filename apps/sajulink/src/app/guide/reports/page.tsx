@@ -123,10 +123,10 @@ export default async function Page(props: GuidePageProps) {
       >
         <p>
           국내 결제 {prices.premium.domestic}(부가세 포함), 해외 결제 {prices.premium.global}.
-          A4 {dictionary.affinityReport.contents.length}장입니다.
+          A4 {dictionary.premiumReport.contents.length}장입니다.
         </p>
         <ul>
-          {dictionary.affinityReport.contents.map((line) => (
+          {dictionary.premiumReport.contents.map((line) => (
             <li key={line}>{line}</li>
           ))}
         </ul>

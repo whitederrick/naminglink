@@ -24,18 +24,18 @@ export async function generateMetadata(): Promise<Metadata> {
     // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
     metadataBase: new URL(siteUrl),
     title: {
-      default: "인연링크 InyeonLink | 사주·띠 궁합",
+      default: "사주링크 SajuLink | 사주 원국·오늘의 운세",
       // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
-      template: "%s | Inyeon-Link",
+      template: "%s | Saju-Link",
     },
     description:
-      "생년월일로 보는 사주 궁합과 띠 궁합. 입력한 정보는 저장하지 않습니다. Saju and zodiac compatibility — nothing you enter is stored.",
+      "생년월일로 세우는 사주 원국과 오늘의 운세. 입력한 정보는 저장하지 않습니다. Your Four Pillars chart and today’s fortune — nothing you enter is stored.",
     // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는 모든
     // 하위 페이지로 상속되므로, 여기에 canonical을 적으면 결과 화면까지 "이 페이지의 정본은 홈"
     // 이라고 말하게 된다. `/`의 canonical과 hreflang은 app/page.tsx가 스스로 붙인다.
     openGraph: {
       type: "website",
-      siteName: "Inyeon-Link",
+      siteName: "Saju-Link",
       url: siteUrl,
       images: [ogImageFor(locale)],
     },
