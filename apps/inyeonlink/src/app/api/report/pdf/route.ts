@@ -136,6 +136,44 @@ export async function POST(request: NextRequest) {
       return jsonError("INPUT_MISMATCH", 409);
     }
 
+    /**
+     * **대상 결속은 렌더 전에, DB가 정하게 한다.**
+     *
+     * 위에서 읽은 값으로만 판단하면 동시에 들어온 요청 둘이 **둘 다 "아직 결속 안 됨"을 보고
+     * 둘 다 통과한다** — 한 번 결제로 서로 다른 사람의 리포트가 나간다. 조건을 쓰기에 붙여
+     * 먼저 도착한 하나만 성공하게 하고, 못 쓴 쪽은 다시 읽어 자기 대상인지 확인한다.
+     *
+     * **렌더 뒤로 미루지 않는 이유**: 미루면 그 사이에 다른 입력이 들어와도 막을 것이 없다.
+     * 발급 횟수와 달리 이건 한 번 정해지면 끝인 값이라, 렌더가 실패해도 같은 대상으로 다시
+     * 받으면 되므로 미리 적어 두어도 이용자가 잃는 것이 없다.
+     */
+    if (!boundFingerprint) {
+      const { data: bound, error: bindError } = await supabase
+        .from("orders")
+        .update({
+          metadata: { ...metadata, inputFingerprint: fingerprint },
+          updated_at: new Date().toISOString(),
+        })
+        .eq("id", order.id)
+        .is("metadata->>inputFingerprint", null)
+        .select("id");
+      if (bindError) throw bindError;
+      if (!bound?.length) {
+        const { data: fresh } = await supabase
+          .from("orders")
+          .select("metadata")
+          .eq("id", order.id)
+          .maybeSingle();
+        const freshMetadata =
+          fresh?.metadata && typeof fresh.metadata === "object"
+            ? (fresh.metadata as Record<string, unknown>)
+            : {};
+        if (freshMetadata.inputFingerprint !== fingerprint) {
+          return jsonError("INPUT_MISMATCH", 409);
+        }
+      }
+    }
+
     const requested = isLocale(parsed.data.locale) ? parsed.data.locale : "en";
     // 아랍어·크메르어는 PDF만 영어로 낸다. 화면 언어는 그대로다 — 그 두 문자 체계는 서체를
     // 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 결제하고도 파일을 못 받는다
@@ -151,6 +189,10 @@ export async function POST(request: NextRequest) {
       .update({
         payment_status: "PAID",
         fulfillment_status: "COMPLETED",
+        // 발급 횟수는 조건 없이 쓴다. 동시에 들어오면 한쪽 증가가 덮여 5회를 넘길 수 있지만,
+        // 대상 결속이 위에서 이미 끝났으므로 그때 나가는 것은 **같은 사람이 자기 파일을 다시
+        // 받는 것**뿐이다(레이트리밋 시간당 30이 상한). 돈이 새는 자리가 아니라 서버 비용이라
+        // 렌더 뒤에 적는 성질(아래 주석)을 지키는 쪽을 택했다.
         metadata: { ...metadata, issuedCount: issuedCount + 1, inputFingerprint: fingerprint },
         updated_at: new Date().toISOString(),
       })

@@ -54,22 +54,44 @@ function getDailyVisitorHash(request: NextRequest) {
   return createHmac("sha256", secret).update(`${day}:${getRequestIp(request)}`).digest("hex");
 }
 
-export async function POST(request: NextRequest) {
-  const parsed = schema.safeParse(await request.json().catch(() => null));
-  if (!parsed.success) {
-    return NextResponse.json({ ok: false, error: "잘못된 이벤트입니다." }, { status: 400 });
-  }
-  const supabase = getSupabaseAdminClient();
-  if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
+/**
+ * 실을 수 있는 본문의 상한. 경로와 로케일과 메뉴 구분뿐이라 4KB면 넘치고도 남는다.
+ *
+ * **이 라우트만 상한이 없었다.** 인연링크의 다른 다섯 라우트(match·affinity·day-master·
+ * report/order·report/pdf)는 전부 자르고 있었고, naminglink의 같은 라우트도 4KB로 자른다.
+ * 여기 하나만 `request.json()`을 그대로 불러 **크기를 재기 전에 통째로 읽고 있었다.**
+ */
+const MAX_BODY_BYTES = 4 * 1024;
 
+export async function POST(request: NextRequest) {
   // 무인증 insert 남용으로 인한 표 팽창·통계 조작 방어. 페이지뷰와 분석 이벤트를 합쳐도 정상
   // 이용은 시간당 수십 건이라 120건이면 넉넉하다(naminglink와 같은 값).
   //
   // **여기는 레이트리밋이 fail-open이어도 괜찮다.** 막지 못해 통과시킨 요청이 하는 일은 통계 행
   // 하나를 더 쓰는 것뿐이다.
+  //
+  // **본문을 읽기 전에 센다.** 뒤에 두면 잦은 요청을 막기도 전에 본문부터 읽게 된다.
   if (!(await checkRateLimit(request, "analytics", { windowSeconds: 3600, limit: 120 }))) {
     return NextResponse.json({ ok: false, error: "요청이 너무 잦습니다." }, { status: 429 });
   }
+
+  const raw = await request.text();
+  if (raw.length > MAX_BODY_BYTES) {
+    return NextResponse.json({ ok: false, error: "본문이 너무 큽니다." }, { status: 413 });
+  }
+
+  let body: unknown = null;
+  try {
+    body = JSON.parse(raw);
+  } catch {
+    // 아래 스키마 검사가 400으로 돌려준다.
+  }
+  const parsed = schema.safeParse(body);
+  if (!parsed.success) {
+    return NextResponse.json({ ok: false, error: "잘못된 이벤트입니다." }, { status: 400 });
+  }
+  const supabase = getSupabaseAdminClient();
+  if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
 
   const { error } = await supabase.from("site_events").insert({
     app: "inyeonlink",

@@ -14,7 +14,7 @@ export const zh: Dictionary = {
   landing: {
     title: "两人的缘分，\n用数字来确认",
     subtitle:
-      "同时推算传统命理的八字合婚与生肖合婚，以匹配度呈现给您。",
+      "只需一个出生日期。\n同时推算传统命理的八字合婚与生肖合婚，以匹配度呈现给您。",
     cta: "查看八字合婚",
     howTitle: "我们这样推算",
     steps: [

@@ -91,11 +91,38 @@ async function resolveEntitlement(
       return { error: "이 결제로는 다른 결과를 열 수 없습니다.", status: 403 };
     }
     if (!boundSid && sid) {
-      const { error: bindError } = await supabase
+      /**
+       * **결속은 DB가 정한다.** 위에서 읽은 값으로만 판단하면 동시에 들어온 요청 둘이 **둘 다
+       * "아직 결속 안 됨"을 보고 둘 다 통과한다** — 한 주문으로 서로 다른 결과 두 벌이 열린다.
+       * 위 주석이 막겠다고 적은 바로 그것이 읽기와 쓰기 사이의 틈으로 새던 자리다.
+       *
+       * 조건을 쓰기에 붙여 **먼저 도착한 하나만 성공**하게 한다. 못 쓴 쪽은 다시 읽어 그 사이
+       * 결속된 값이 자기 것인지 확인한다(같은 결과를 두 창에서 여는 정상 경우가 여기 걸린다).
+       */
+      const { data: bound, error: bindError } = await supabase
         .from("orders")
         .update({ metadata: { ...metadata, unsealSid: sid }, updated_at: new Date().toISOString() })
-        .eq("id", order.id);
-      if (bindError) console.error("Failed to bind unseal sid to order", bindError);
+        .eq("id", order.id)
+        .is("metadata->>unsealSid", null)
+        .select("id");
+      if (bindError) {
+        console.error("Failed to bind unseal sid to order", bindError);
+        return { error: "결제 정보를 확인하지 못했습니다.", status: 503 };
+      }
+      if (!bound?.length) {
+        const { data: fresh } = await supabase
+          .from("orders")
+          .select("metadata")
+          .eq("id", order.id)
+          .maybeSingle();
+        const freshMetadata =
+          fresh?.metadata && typeof fresh.metadata === "object"
+            ? (fresh.metadata as Record<string, unknown>)
+            : {};
+        if (freshMetadata.unsealSid !== sid) {
+          return { error: "이 결제로는 다른 결과를 열 수 없습니다.", status: 403 };
+        }
+      }
     }
     return { limit: CANDIDATE_UNLOCK_LIMIT };
   }
