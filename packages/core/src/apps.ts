@@ -17,7 +17,7 @@
  * `apps/inyeonlink/src/lib/report-product.ts`와 `AdminProductSettings.tsx`에 따로 적혀 있었다.
  */
 
-export const APP_KEYS = ["naminglink", "inyeonlink"] as const;
+export const APP_KEYS = ["naminglink", "inyeonlink", "sajulink"] as const;
 export type AppKey = (typeof APP_KEYS)[number];
 
 /** 인연링크가 쓰는 `product_settings.code`. 메뉴 둘 × 권역 둘. */
@@ -29,6 +29,15 @@ export const INYEONLINK_PRODUCT_CODES = [
 ] as const;
 export type InyeonlinkProductCode = (typeof INYEONLINK_PRODUCT_CODES)[number];
 
+/** 사주링크가 쓰는 `product_settings.code`. 티어 둘 × 권역 둘. */
+export const SAJULINK_PRODUCT_CODES = [
+  "SAJU_CHONGUN_KRW",
+  "SAJU_CHONGUN_USD",
+  "SAJU_PREMIUM_KRW",
+  "SAJU_PREMIUM_USD",
+] as const;
+export type SajulinkProductCode = (typeof SAJULINK_PRODUCT_CODES)[number];
+
 /**
  * 목록에 **적힌 것만 인연링크고 나머지는 전부 naminglink다.**
  *
@@ -37,9 +46,9 @@ export type InyeonlinkProductCode = (typeof INYEONLINK_PRODUCT_CODES)[number];
  * 화면으로 사라진다.
  */
 export function appForProductCode(code: string): AppKey {
-  return (INYEONLINK_PRODUCT_CODES as readonly string[]).includes(code)
-    ? "inyeonlink"
-    : "naminglink";
+  if ((INYEONLINK_PRODUCT_CODES as readonly string[]).includes(code)) return "inyeonlink";
+  if ((SAJULINK_PRODUCT_CODES as readonly string[]).includes(code)) return "sajulink";
+  return "naminglink";
 }
 
 export function isAppKey(value: unknown): value is AppKey {
