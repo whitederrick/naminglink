@@ -59,6 +59,7 @@ export const vi: Dictionary = {
     hour: "Giờ",
     minute: "Phút",
     submit: "Xem quảng cáo để xem kết quả tương thích",
+    submitNoAd: "Xem kết quả tương thích",
     submitting: "Đang tính…",
     errorInvalidDate:
       "Vui lòng kiểm tra lại ngày sinh. Nếu là âm lịch, hãy xem thêm ngày đó có rơi vào tháng nhuận không.",
@@ -254,6 +255,7 @@ export const vi: Dictionary = {
       "Vị trí phối ngẫu (Chính Tài / Chính Quan) chỉ luận được khi biết giới tính của cả hai.",
     seekingAny: "Không xác định",
     submit: "Xem quảng cáo để xem kết quả mối quan hệ",
+    submitNoAd: "Xem kết quả mối quan hệ",
     submitting: "Đang xem…",
 
     resultTitle: "Nét duyên của bạn",

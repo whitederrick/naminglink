@@ -60,6 +60,7 @@ export const uz: Dictionary = {
     hour: "Soat",
     minute: "Daqiqa",
     submit: "Reklamani ko'rib, moslikni ko'ring",
+    submitNoAd: "Moslikni ko'ring",
     submitting: "Hisoblanmoqda…",
     errorInvalidDate:
       "Tug'ilgan sanani tekshiring. Oy taqvimi bo'lsa, kabisa oyiga to'g'ri kelmasligini ham tekshiring.",
@@ -255,6 +256,7 @@ export const uz: Dictionary = {
       "Turmush o'rtoq o'rni (Jeongjae / Jeonggwan) faqat ikkala jins ma'lum bo'lgandagina aniqlanadi.",
     seekingAny: "Belgilanmagan",
     submit: "Reklamani ko'rib, munosabat natijasini ko'ring",
+    submitNoAd: "Munosabat natijasini ko'ring",
     submitting: "Qidirilmoqda…",
 
     resultTitle: "Sizga mos qiyofa",

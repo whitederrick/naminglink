@@ -59,6 +59,7 @@ export const de: Dictionary = {
     hour: "Stunde",
     minute: "Minute",
     submit: "Werbung ansehen und Kompatibilität prüfen",
+    submitNoAd: "Kompatibilität prüfen",
     submitting: "Wird berechnet…",
     errorInvalidDate:
       "Bitte prüfen Sie das Geburtsdatum. Bei Monddaten prüfen Sie auch, ob es in einen Schaltmonat fällt.",
@@ -254,6 +255,7 @@ export const de: Dictionary = {
       "Die Ehepartner-Position (Jeongjae / Jeonggwan) lässt sich nur beurteilen, wenn beide Geschlechter bekannt sind.",
     seekingAny: "Keine Angabe",
     submit: "Werbung ansehen und Ergebnis der Verbindung sehen",
+    submitNoAd: "Ergebnis der Verbindung sehen",
     submitting: "Wird gelesen…",
 
     resultTitle: "Ihr Beziehungsprofil",

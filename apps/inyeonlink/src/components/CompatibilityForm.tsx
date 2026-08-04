@@ -90,8 +90,8 @@ export function CompatibilityForm({
     // 어차피 결과를 받으러 서버를 한 번 다녀온다.
   // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에
   // 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서 한 번 더 눌러야 했다.
-  // 광고를 시작하는 것이 이 버튼이므로 버튼 문구도 그 사실을 말한다.
-  // 슬롯이 없으면(지금처럼 퍼블리셔 ID 미등록) 광고 없이 그대로 넘어간다.
+  // 광고를 시작하는 것이 이 버튼이라, 관문이 켜져 있을 때만 버튼 문구가 그 사실을 말한다.
+  // 광고 단위가 없으면(지금) 관문도 문구도 함께 사라져 그대로 넘어간다.
     if (submitAdGateEnabled) {
       // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
       setPendingTarget(target);
@@ -139,7 +139,14 @@ export function CompatibilityForm({
         disabled={submitting}
         className="w-full rounded-full bg-brand-plum px-8 py-4 text-lg font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
       >
-        {submitting ? t.submitting : t.submit}
+        {submitting
+          ? t.submitting
+          : /* 띄울 광고가 없으면 광고 얘기를 하지 않는다. 관문이 꺼져 있는데
+               "광고 확인 후"라고 적으면 없는 광고를 예고하는 것이 된다.
+               광고 단위를 넣으면 관문과 문구가 함께 켜진다. */
+            submitAdGateEnabled
+            ? t.submit
+            : t.submitNoAd}
       </button>
     </form>
   );

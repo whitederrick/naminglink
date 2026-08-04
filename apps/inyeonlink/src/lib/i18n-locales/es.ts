@@ -58,6 +58,7 @@ export const es: Dictionary = {
     hour: "Hora",
     minute: "Minuto",
     submit: "Ver un anuncio y ver el resultado de compatibilidad",
+    submitNoAd: "Ver el resultado de compatibilidad",
     submitting: "Calculando…",
     errorInvalidDate:
       "Comprueba la fecha de nacimiento. Si es lunar, comprueba también si cae en un mes bisiesto.",
@@ -253,6 +254,7 @@ export const es: Dictionary = {
       "La posición del cónyuge (Jeongjae / Jeonggwan) solo puede juzgarse cuando se conocen ambos géneros.",
     seekingAny: "Sin especificar",
     submit: "Ver un anuncio y ver el resultado del perfil de conexión",
+    submitNoAd: "Ver el resultado del perfil de conexión",
     submitting: "Leyendo…",
 
     resultTitle: "Tu perfil de afinidad",

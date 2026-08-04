@@ -59,6 +59,7 @@ export const zh: Dictionary = {
     hour: "时",
     minute: "分",
     submit: "观看广告后查看结果",
+    submitNoAd: "查看结果",
     submitting: "推算中…",
     errorInvalidDate:
       "请确认输入的出生年月日。若为阴历，还需确认是否为闰月。",
@@ -254,6 +255,7 @@ export const zh: Dictionary = {
       "配偶位置（正财·正官）需要两人的性别都具备才能判定。",
     seekingAny: "不指定",
     submit: "观看广告后查看匹配结果",
+    submitNoAd: "查看匹配结果",
     submitting: "查找中…",
 
     resultTitle: "姻缘之相",

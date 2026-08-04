@@ -60,6 +60,7 @@ export const tr: Dictionary = {
     hour: "Saat",
     minute: "Dakika",
     submit: "Reklamı izle ve uyum sonucunu gör",
+    submitNoAd: "Uyum sonucunu gör",
     submitting: "Hesaplanıyor…",
     errorInvalidDate:
       "Lütfen doğum tarihini kontrol edin. Ay takvimi tarihlerinde artık aya denk gelip gelmediğini de kontrol edin.",
@@ -255,6 +256,7 @@ export const tr: Dictionary = {
       "Eş konumu (Jeongjae / Jeonggwan) ancak iki tarafın da cinsiyeti bilindiğinde belirlenebilir.",
     seekingAny: "Belirtilmedi",
     submit: "Reklamı izle ve ilişki sonucunu gör",
+    submitNoAd: "İlişki sonucunu gör",
     submitting: "Okunuyor…",
 
     resultTitle: "Eşleşme profiliniz",

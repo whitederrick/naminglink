@@ -166,6 +166,8 @@ export type Dictionary = {
     unknownTime: string;
     hour: string;
     minute: string;
+    /** 광고 관문이 꺼져 있을 때 쓰는 문구. 없는 광고를 예고하지 않는다. */
+    submitNoAd: string;
     submit: string;
     submitting: string;
     errorInvalidDate: string;
@@ -250,6 +252,8 @@ export type Dictionary = {
     seekingLabel: string;
     seekingHint: string;
     seekingAny: string;
+    /** 광고 관문이 꺼져 있을 때 쓰는 문구. 없는 광고를 예고하지 않는다. */
+    submitNoAd: string;
     submit: string;
     submitting: string;
 
@@ -513,6 +517,7 @@ const ko: Dictionary = {
     hour: "시",
     minute: "분",
     submit: "광고 확인 후 궁합 보기",
+    submitNoAd: "궁합 보기",
     submitting: "계산 중…",
     errorInvalidDate:
       "입력한 생년월일을 확인해 주세요. 음력이면 윤달 여부도 확인이 필요합니다.",
@@ -708,6 +713,7 @@ const ko: Dictionary = {
       "배우자 자리(정재·정관)는 두 사람의 성별이 모두 있어야 판정됩니다.",
     seekingAny: "정하지 않음",
     submit: "광고 확인 후 인연의 결 확인",
+    submitNoAd: "인연의 결 확인",
     submitting: "찾아보는 중…",
 
     resultTitle: "인연의 결",
@@ -1131,6 +1137,7 @@ const en: Dictionary = {
     hour: "Hour",
     minute: "Minute",
     submit: "Watch ad and see compatibility",
+    submitNoAd: "See compatibility",
     submitting: "Calculating…",
     errorInvalidDate:
       "Please check the birth date. For lunar dates, also check whether it falls in a leap month.",
@@ -1326,6 +1333,7 @@ const en: Dictionary = {
       "The spouse position (Jeongjae / Jeonggwan) can only be judged when both genders are known.",
     seekingAny: "Not specified",
     submit: "Watch ad and see match result",
+    submitNoAd: "See match result",
     submitting: "Reading…",
 
     resultTitle: "Your match profile",

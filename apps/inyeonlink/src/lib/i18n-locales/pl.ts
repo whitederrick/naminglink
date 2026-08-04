@@ -59,6 +59,7 @@ export const pl: Dictionary = {
     hour: "Godzina",
     minute: "Minuta",
     submit: "Obejrzyj reklamę i zobacz wynik",
+    submitNoAd: "Zobacz wynik",
     submitting: "Obliczanie…",
     errorInvalidDate:
       "Sprawdź datę urodzenia. Przy dacie księżycowej sprawdź też, czy wypada w miesiącu przestępnym.",
@@ -254,6 +255,7 @@ export const pl: Dictionary = {
       "Pozycję małżeńską (Jeongjae / Jeonggwan) da się ocenić tylko wtedy, gdy znane są obie płcie.",
     seekingAny: "Nie określono",
     submit: "Obejrzyj reklamę i zobacz wynik profilu",
+    submitNoAd: "Zobacz wynik profilu",
     submitting: "Czytanie…",
 
     resultTitle: "Twój profil dopasowania",

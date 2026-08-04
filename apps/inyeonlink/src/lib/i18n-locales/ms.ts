@@ -60,6 +60,7 @@ export const ms: Dictionary = {
     hour: "Jam",
     minute: "Minit",
     submit: "Tonton iklan untuk melihat keputusan keserasian",
+    submitNoAd: "Lihat keputusan keserasian",
     submitting: "Mengira…",
     errorInvalidDate:
       "Sila semak tarikh lahir. Bagi tarikh lunar, semak juga sama ada ia jatuh pada bulan lompat.",
@@ -255,6 +256,7 @@ export const ms: Dictionary = {
       "Kedudukan pasangan (Jeongjae / Jeonggwan) hanya boleh ditentukan apabila kedua-dua jantina diketahui.",
     seekingAny: "Tidak dinyatakan",
     submit: "Tonton iklan untuk melihat keputusan profil pertemuan",
+    submitNoAd: "Lihat keputusan profil pertemuan",
     submitting: "Membaca…",
 
     resultTitle: "Profil padanan anda",
