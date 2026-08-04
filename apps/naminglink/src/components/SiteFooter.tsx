@@ -854,6 +854,9 @@ export function SiteFooter({
               loginHref={accountLink.href}
               guideHref={guideLink.href}
               guideLabel={guideLink.label}
+              // 링크형 푸터와 같은 순서로 앞에 세운다. 두 푸터가 다른 차례로 늘어놓으면
+              // 화면을 옮길 때마다 같은 항목을 다시 찾아야 한다.
+              leadingLinks={[aboutLink, contactLink, noticeLink]}
             />
           ) : (
             footerLinks.map((link) => (

@@ -15,6 +15,7 @@ export function FooterPolicyLinks({
   guideHref,
   guideLabel,
   loginHref,
+  leadingLinks = [],
 }: {
   labels: PolicyLabels;
   linkClass: string;
@@ -25,12 +26,33 @@ export function FooterPolicyLinks({
   guideHref?: string;
   guideLabel?: string;
   loginHref: string;
+  /**
+   * 약관 묶음 **앞**에 오는 페이지들 — 소개·문의하기·공지사항.
+   *
+   * **여기 없으면 사이트 어디에서도 닿지 않았다.** 이 셋은 링크형 푸터(`policyMode="links"`)에만
+   * 있었는데, 랜딩·서비스·결과·안내 화면이 전부 팝업형이라 실제로는 약관 페이지와 도장 주문
+   * 화면에서만 보였다. 애드센스 심사는 이 페이지들이 **있는지**가 아니라 **닿는지**를 본다.
+   *
+   * 팝업이 아니라 페이지 이동이다. 약관 넷은 동의 직전에 읽는 것이라 화면을 떠나면 안 되지만,
+   * 이 셋은 그 자체가 목적지다.
+   */
+  leadingLinks?: Array<{ href: string; label: string }>;
 }) {
   const [openDocument, setOpenDocument] = useState<LegalDocument | null>(null);
   const documents: LegalDocument[] = ["terms", "privacy", "refund", "pricing"];
 
   return (
     <>
+      {leadingLinks.map((link) => (
+        <Link
+          key={link.href}
+          href={link.href}
+          className={linkClass}
+          dir={textDirection}
+        >
+          {link.label}
+        </Link>
+      ))}
       {documents.map((document) => (
         <button
           key={document}
