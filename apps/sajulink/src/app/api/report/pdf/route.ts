@@ -11,6 +11,7 @@ import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18
 import { pdfLocale } from "@/lib/pdf/fonts";
 import { sajuInputSchema, toPerson } from "@/lib/saju-input";
 import { renderSajuReport } from "@/lib/pdf/saju-report";
+import { interpretSaju } from "@/lib/saju-interpretation";
 import { inputFingerprint } from "@/lib/report-order-binding";
 import { notifyOps } from "@/lib/ops-alert";
 import { getVerifiedPayment } from "@/lib/portone";
@@ -238,7 +239,7 @@ function withDefaultKind(body: unknown) {
  * 계산을 **여기서 다시 돌리는 것**이 중요하다. 화면이 보낸 결과를 그대로 싣지 않으므로,
  * 이용자가 응답을 손봐도 문서에는 서버가 규칙으로 계산한 값만 들어간다.
  */
-function render(
+async function render(
   parsed: (typeof schema)["_output"],
   locale: Locale,
   dictionary: Dictionary,
@@ -248,10 +249,27 @@ function render(
   const reading = toReading(prepare(toPerson(parsed.input.me)));
   const today = todayFortune(reading, todayPillarOf(todayInSeoul(new Date())));
 
+  /**
+   * **AI 해설은 이 자리에서만 부른다 — 결제가 확인된 뒤다.**
+   *
+   * 무료 화면(`/api/saju`·`/api/today`)은 모델을 부르지 않는다. 그쪽이 트래픽을 받는
+   * 자리라 조회마다 때리면 API 비용·응답 지연·광고 페이지 속도가 함께 나빠진다.
+   *
+   * 실패하면 `null`이 온다. 그때는 **해설 없이 엔진 값만으로 문서를 낸다** — 모델이 흔들렸다고
+   * 결제한 사람이 아무것도 못 받으면 안 된다.
+   */
+  const interpretation = await interpretSaju({
+    reading,
+    today,
+    kind: parsed.kind,
+    locale,
+  });
+
   return renderSajuReport({
     kind: parsed.kind,
     reading,
     today,
+    interpretation,
     locale,
     dictionary,
   });
