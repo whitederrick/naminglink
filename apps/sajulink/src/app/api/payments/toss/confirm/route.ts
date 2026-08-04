@@ -24,20 +24,21 @@ const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 /**
  * 주문 종류별 결과 화면.
  *
- * 리포트가 둘이 되면서 돌아갈 자리도 둘이 됐다. **주문에 적힌 종류를 우선 믿는다** — 쿼리의
+ * 리포트는 둘이지만 돌아갈 화면은 하나다(둘 다 사주 풀이 결과에서 판다). 그래도 표를 유지하는
+ * 것은 주문 종류가 화면을 정한다는 규칙을 남겨 두기 위해서다. **주문에 적힌 종류를 우선 믿는다** — 쿼리의
  * `kind`는 결제창을 거치며 이용자가 손댈 수 있는 값이라, 주문을 찾은 뒤에는 그쪽을 쓴다.
  * 주문을 못 찾은 오류 경로에서만 쿼리 값으로 자리를 정한다(어느 화면에 오류를 띄울지의 문제라
  * 틀려도 결제에 영향이 없다).
  */
 const RESULT_PATH = {
-  GUNGHAP_PDF: "/compatibility/result",
-  AFFINITY_PDF: "/affinity/result",
+  SAJU_CHONGUN_PDF: "/reading/result",
+  SAJU_PREMIUM_PDF: "/reading/result",
 } as const;
 
 type ReportOrderType = keyof typeof RESULT_PATH;
 
 function orderTypeFromQuery(kind: string | null): ReportOrderType {
-  return kind === "affinity" ? "AFFINITY_PDF" : "GUNGHAP_PDF";
+  return kind === "premium" ? "SAJU_PREMIUM_PDF" : "SAJU_CHONGUN_PDF";
 }
 
 /** 결과 화면으로 되돌린다. 화면이 이 값으로 다음 동작을 정한다. */

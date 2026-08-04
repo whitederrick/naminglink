@@ -27,13 +27,13 @@ export async function generateMetadata({
   const title = `${dictionary.landing.title.replace(/\s*\n\s*/g, " ")} | ${dictionary.brand}`;
 
   return {
-    // 루트는 template("%s | Inyeon-Link")이 브랜드를 또 붙이면 안 되므로 absolute로 둔다.
+    // 루트는 template("%s | Saju-Link")이 브랜드를 또 붙이면 안 되므로 absolute로 둔다.
     title: { absolute: title },
     description: dictionary.landing.subtitle,
     alternates: buildAlternates("/", requested),
     openGraph: {
       type: "website",
-      siteName: "Inyeon-Link",
+      siteName: "Saju-Link",
       title,
       description: dictionary.landing.subtitle,
       url: requested ? localeUrl("/", requested) : absoluteUrl("/"),
@@ -95,7 +95,7 @@ export default async function LandingPage({
             <BrandMark />
             <span className="flex flex-col gap-1">
               <span className="text-[22px] font-semibold leading-none">
-                Inyeon-Link
+                Saju-Link
               </span>
               <span
                 className="text-[18px] font-medium leading-none text-white/78"

@@ -30,9 +30,9 @@ export type CompanyInfo = {
  * 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
  *
  * 표기는 naminglink의 © 줄과 같은 꼴로 맞춘다 — `Naming-Link(Global Naming Studio)`에 대응하는
- * `Inyeon-Link(인연 링크)`. 헤더 워드마크도 `Inyeon-Link`라 두 자리가 어긋나지 않는다.
+ * `Saju-Link(사주 링크)`. 헤더 워드마크도 `Saju-Link`라 두 자리가 어긋나지 않는다.
  */
-export const SERVICE_NAME = "Inyeon-Link";
+export const SERVICE_NAME = "Saju-Link";
 export const SERVICE_SUBTITLE = "인연 링크";
 
 export const fallbackCompanyInfo: CompanyInfo = {

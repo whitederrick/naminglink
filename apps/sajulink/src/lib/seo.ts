@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { supportedLocales, type Locale } from "@/lib/i18n";
+import { translatedLocales, type Locale } from "@/lib/i18n";
 import { guidePaths } from "@/lib/guide-index";
 import { localePath } from "@/lib/locale-path";
 
@@ -18,7 +18,7 @@ export const siteUrl = (
 /**
  * 색인해도 되는 공개 경로.
  *
- * 여기에 없는 것: 결과 화면(`/compatibility/result`·`/affinity/result` — 입력을 프래그먼트로
+ * 여기에 없는 것: 결과 화면(`/reading/result` — 입력을 프래그먼트로
  * 받아 그리는 1회용 화면이라 주소만으로는 아무 내용이 없다), API, ads.txt.
  * 새 공개 페이지를 만들면 여기에 더해야 sitemap에 들어간다.
  *
@@ -27,8 +27,8 @@ export const siteUrl = (
  */
 const basePaths = [
   "/",
-  "/compatibility",
-  "/affinity",
+  "/reading",
+  "/today",
   "/pricing",
   "/terms",
   "/privacy",
@@ -74,7 +74,7 @@ export function ogImageFor(locale: Locale) {
     url: `/images/og/og-cover-${locale}.jpg`,
     width: 1200,
     height: 630,
-    alt: "Inyeon-Link — Saju & Zodiac Compatibility",
+    alt: "Saju-Link — Your Four Pillars chart and today’s fortune",
   };
 }
 
@@ -95,15 +95,19 @@ export function localeUrl(path: string, locale: Locale) {
 }
 
 /**
- * 한 경로의 hreflang 묶음. **자기 자신을 포함해 23개 전부와 x-default를 싣는다** —
- * 구글은 한 쪽이라도 상대를 되가리키지 않으면 그 쌍을 무시한다.
+ * 한 경로의 hreflang 묶음. **자기 자신을 포함해 전부와 x-default를 싣는다** — 구글은 한 쪽이라도
+ * 상대를 되가리키지 않으면 그 쌍을 무시한다.
+ *
+ * **다만 번역이 있는 로케일만이다.** 사전이 없는 언어는 `getDictionary`가 영어로 떨어뜨리므로,
+ * 그 주소를 hreflang으로 알리면 "베트남어판이 여기 있다"고 해 놓고 영어를 내주는 꼴이 된다 —
+ * 검색엔진에는 중복 문서 신호이고 이용자에게는 거짓말이다. 사전을 채우면 저절로 늘어난다.
  *
  * 키를 `Record<string, string>`으로 둔 것은 Next의 `Languages<T>`가 아는 언어 코드만 받는데
  * `fil`처럼 그 목록에 없는 코드가 우리 로케일에 있기 때문이다. 값 자체는 전부 유효한 BCP-47이다.
  */
 export function hreflangMap(path: string): Record<string, string> {
   const map: Record<string, string> = {};
-  for (const locale of supportedLocales) {
+  for (const locale of translatedLocales) {
     map[locale] = localeUrl(path, locale);
   }
   map["x-default"] = absoluteUrl(path);
@@ -159,7 +163,7 @@ export function buildPageMetadata({
     alternates: buildAlternates(path, requested),
     openGraph: {
       type: "website",
-      siteName: "Inyeon-Link",
+      siteName: "Saju-Link",
       title,
       description,
       url,

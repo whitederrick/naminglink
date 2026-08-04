@@ -48,7 +48,7 @@ const schema = z.object({
 
 export async function POST(request: NextRequest) {
   // 미결제 주문이 무한히 쌓이는 것을 막는다. naminglink의 굿즈 주문과 같은 한도다.
-  const allowed = await checkRateLimit(request, "inyeon_report_order", {
+  const allowed = await checkRateLimit(request, "saju_report_order", {
     windowSeconds: 3600,
     limit: 10,
   });

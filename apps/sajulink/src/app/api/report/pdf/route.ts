@@ -60,7 +60,7 @@ const schema = z.discriminatedUnion("kind", [
 export async function POST(request: NextRequest) {
   // PDF 렌더는 무겁다. 주문·결제 검증을 통과해야 실제로 만들어지지만, 그 앞단에서 한 번 막는다.
   // 같은 주문으로 5회까지 다시 받을 수 있으므로 그보다는 여유를 둔다.
-  const allowed = await checkRateLimit(request, "inyeon_report_pdf", {
+  const allowed = await checkRateLimit(request, "saju_report_pdf", {
     windowSeconds: 3600,
     limit: 30,
   });

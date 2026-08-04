@@ -27,7 +27,7 @@ const inputSchema = z.object({
 });
 
 export async function POST(request: NextRequest) {
-  const allowed = await checkRateLimit(request, "inyeon_day_master", {
+  const allowed = await checkRateLimit(request, "saju_day_master", {
     windowSeconds: 600,
     limit: 60,
   });
