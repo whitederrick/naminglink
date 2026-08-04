@@ -32,51 +32,59 @@ export type GuideEntry = {
 
 export const guideEntries: GuideEntry[] = [
   {
-    slug: "how-compatibility",
-    title: "사주 궁합은 무엇을 보나",
+    slug: "natal-chart",
+    title: "사주 원국 — 여덟 글자는 어디서 나오나",
     summary:
-      "네 가지 항목과 각각의 비중, 그리고 왜 그 넷인지를 밝힙니다. 출생 시각을 몰라도 계산되는 이유도 함께 다룹니다.",
+      "태어난 연·월·일·시가 어떻게 네 기둥 여덟 글자가 되는지, 그중 나를 가리키는 글자는 무엇인지 밝힙니다. 출생 시각을 몰라도 볼 수 있는 이유도 함께 다룹니다.",
     eyebrow: "서비스 근거",
     audience: "ko",
   },
   {
-    slug: "branches",
-    title: "십이지 관계 — 합·충·원진",
+    slug: "five-elements",
+    title: "오행 세력과 신강·신약",
     summary:
-      "일지 궁합과 띠 궁합이 함께 쓰는 관계표입니다. 삼합·반합·육합·충·원진이 각각 무엇이고 몇 점인지 전부 공개합니다.",
-    eyebrow: "관계표",
-    audience: "ko",
-  },
-  {
-    slug: "zodiac",
-    title: "띠 궁합은 왜 연지를 보나",
-    summary:
-      "띠는 태어난 해의 지지입니다. 달력 해가 아니라 사주 연주에서 뽑는 이유와, 띠 궁합의 비중을 30%로 둔 이유를 밝힙니다.",
-    eyebrow: "띠",
-    audience: "ko",
-  },
-  {
-    slug: "ten-gods",
-    title: "십신과 배우자 자리",
-    summary:
-      "두 사람의 일간이 서로에게 무엇인지를 십신으로 봅니다. 같은 재성이라도 정재와 편재를 가르는 이유를 다룹니다.",
-    eyebrow: "십신",
+      "여덟 글자를 오행으로 세어 어느 기운이 두텁고 어느 기운이 얇은지 봅니다. 일간의 힘을 가르는 경계값(45%·35%)을 그대로 공개합니다.",
+    eyebrow: "오행",
     audience: "ko",
   },
   {
     slug: "yongsin",
     title: "억부용신 — 지금 필요한 기운",
     summary:
-      "오행을 '둘을 합쳐 고른가'가 아니라 '상대가 내게 필요한 것을 갖고 있는가'로 봅니다. 신강·신약을 가르는 경계값도 공개합니다.",
-    eyebrow: "오행",
+      "일간이 강하면 덜어 내고 약하면 받쳐 주는 기운을 필요한 것으로 봅니다. 그 기운을 어떻게 고르는지와 중화일 때의 처리를 밝힙니다.",
+    eyebrow: "용신",
     audience: "ko",
   },
   {
-    slug: "affinity",
-    title: "인연의 결 — 총점을 내지 않는 이유",
+    slug: "ten-gods",
+    title: "십신 — 내 사주 안의 열 자리",
     summary:
-      "한 사람만 받고 상대 자리를 비운 채 가능한 값을 전부 대입합니다. 그렇게 얻은 유형에 총점을 붙이지 않는 이유를 밝힙니다.",
-    eyebrow: "우리 기준",
+      "일간을 기준으로 나머지 글자가 무엇인지를 열 가지 이름으로 나눕니다. 같은 재성이라도 정재와 편재를 가르는 이유를 다룹니다.",
+    eyebrow: "십신",
+    audience: "ko",
+  },
+  {
+    slug: "today-fortune",
+    title: "오늘의 운세는 어떻게 나오나",
+    summary:
+      "오늘의 일진을 원국에 대어 점수를 냅니다. 억부 관계 열셋과 지지 관계 일곱, 스무 개 항목과 각각의 가감을 전부 공개합니다.",
+    eyebrow: "오늘의 운세",
+    audience: "ko",
+  },
+  {
+    slug: "branches",
+    title: "십이지 관계 — 합·충·원진",
+    summary:
+      "오늘의 일진과 원국이 어떻게 만나는지 보는 관계표입니다. 삼합·반합·육합·충·원진이 각각 무엇이고 몇 점인지 전부 공개합니다.",
+    eyebrow: "관계표",
+    audience: "ko",
+  },
+  {
+    slug: "zodiac",
+    title: "띠는 사주에서 어디에 있나",
+    summary:
+      "띠는 태어난 해의 지지입니다. 달력 해가 아니라 사주 연주에서 뽑는 이유와, 1월·2월 초 생일이 앞 해의 띠가 되는 까닭을 밝힙니다.",
+    eyebrow: "띠",
     audience: "ko",
   },
   {
@@ -99,15 +107,15 @@ export const guideEntries: GuideEntry[] = [
     slug: "reports",
     title: "유료 리포트에는 무엇이 들어가나",
     summary:
-      "화면은 그대로 두고 PDF에만 더한 것이 무엇인지 장 단위로 밝힙니다. 값과 목차는 실제 상품 설정에서 읽어 옵니다.",
+      "화면은 그대로 두고 PDF에만 더한 것이 무엇인지 밝힙니다. 값과 목차는 실제 상품 설정에서 읽어 옵니다.",
     eyebrow: "유료 상품",
     audience: "ko",
   },
   {
     slug: "how-it-works",
-    title: "How we calculate compatibility",
+    title: "How we read your chart",
     summary:
-      "Four factors, their weights, and why we use those four. Everything here is a rule — the same two birth dates always produce the same number.",
+      "How four pillars become eight characters, what we weigh, and why. Everything here is a rule — the same birth date always produces the same reading.",
     eyebrow: "How it works",
     audience: "global",
   },
@@ -123,7 +131,7 @@ export const guideEntries: GuideEntry[] = [
     slug: "what-the-reports-contain",
     title: "What is in the paid reports",
     summary:
-      "The screen stays as it is; the PDF adds to it. Here is what each page carries, chapter by chapter. Prices and contents are read from the live product settings.",
+      "The screen stays as it is; the PDF adds to it. Here is what each report carries. Prices and contents are read from the live product settings.",
     eyebrow: "Paid products",
     audience: "global",
   },
