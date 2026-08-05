@@ -11,7 +11,7 @@ sajulink/dreamslink 작업 재개 시 먼저 읽는다._
   `apps/{naminglink, inyeonlink, sajulink, dreamslink}` + `packages/core`(사주엔진·pdf·env·apps.ts).
 - **naminglink** — 라이브(`naming-link.com`). 애드센스 **심사 중**.
 - **inyeonlink** — 라이브(`inyeon-link.com`). 궁합 + 인연의 결.
-- **sajulink** — `sajulink.vercel.app` 라이브(색인 닫힘). 실 도메인 `saju-link.com` 구매했으나 **연결 대기**.
+- **sajulink** — 라이브(`saju-link.com`, **2026-08-06 연결 완료**). 색인 개방·애드센스 신청 완료.
 - **dreamslink** — 이미지 자산만 있고 **앱 없음**. 도메인 `dreams-link.com` 구매 예정.
 - 공통 선행 블로커: 통신판매업 신고번호 · 결제 실키 · 애드센스 승인.
 - 분업: 설계·리서치·콘텐츠 = Cowork(문서) / 레포 구현·빌드·git = VS Code Claude Code.
@@ -262,13 +262,34 @@ PDF·env만 있고 **결제 흐름은 앱마다 사본**이라 고칠 자리가 
 - [ ] **`saju_report_structure.md` 재작성** — 총운 3장/프리미엄 5~6장으로 적힌 낡은 문서
 - [ ] **`premiumReport` 사전 절 제거** — 상품이 하나가 되며 쓰이지 않는다(23로케일).
       `i18n.ts`의 타입에서 지우면 21개 파일이 컴파일에서 걸리므로 그 목록대로 지우면 된다
-- [ ] **`saju-link.com` 연결** — Vercel DNS → 200 확인 → `NEXT_PUBLIC_SITE_URL`(Production만)
-      → 재배포 → [[sajulink-domain-and-adsense-plan]]
+- [x] **`saju-link.com` 연결 완료(2026-08-06)** — 아래 「도메인 연결」
 - [ ] **상품 켜기** — 결제 실키 등록 후 관리자 화면에서 `enabled=true`
 - [ ] **실결제 검증** — 토스·페이팔 각 1건. 특히 **토스 복귀 경로**를 실제로 밟아 볼 것.
       코드는 고쳤고 검사기도 붙었지만 **실제로 밟아 본 적은 없다**(화면 테스트로는 잘 안 밟힌다)
 - [ ] **`verify-reachable-links.mjs`에 사주 더하기** — 인자가 두 앱만 받는다. 서버가 떠 있어야
       돌아가는 검사기라 이번에 못 했다
+
+### 도메인 연결 — `saju-link.com` (2026-08-06)
+
+**한 번의 재배포로 끝난다.** `NEXT_PUBLIC_SITE_URL` **하나가 스위치**라(`lib/seo.ts`) 값이
+`*.vercel.app`이면 `robots.ts`가 색인을 통째로 닫고, 실 도메인으로 바꾸면 robots·canonical·
+hreflang·OG·sitemap이 **한꺼번에** 넘어간다. 따로 켜는 스위치를 안 만든 이유가 그것이다.
+
+- DNS는 **A `@` → `216.198.79.1`**(가비아, TTL 3600). **naming-link 때의 `76.76.21.21`을 그대로
+  쓰면 안 된다** — Vercel이 신규 도메인에 주는 값이 바뀌었다. 화면에 뜨는 값이 정답이다
+- Vercel 「Add Domains」에서 **apex를 입력한다.** www를 넣으면 "A domain cannot redirect to
+  itself"가 난다. **`Redirect apex domains to www`는 체크 해제** — 그 항목은 *www를 정본으로*
+  삼겠다는 뜻이라, apex를 정본으로 쓰는 우리 설정(`NEXT_PUBLIC_SITE_URL`이 apex)과 어긋난다
+- **www는 308(Permanent)로 걸 것.** 기본값이 307(Temporary)인데, 그러면 검색엔진이 www를 apex로
+  합치지 않고 따로 색인할 수 있다. naming·inyeon 둘 다 308이라 대조로 잡았다
+- 환경변수는 `NEXT_PUBLIC_SITE_URL`과 `NEXT_PUBLIC_ADSENSE_CLIENT`를 **한 번에** 넣고 재배포를
+  한 번만 한다(둘 다 빌드 타임 인라인). **빌드 캐시를 끄지 않으면 값이 안 박힌다**
+- 검증 결과 — robots `Disallow: /` → **개방**, canonical `saju-link.com`, sitemap **576 URL**
+  (옛 주소 0건), ads.txt 200, 스크립트 전 페이지 `<head>`, **광고 유닛 0개**(다크 런치 유지),
+  방침에 「쿠키와 광고」 절 켜짐
+- 서치 콘솔은 **도메인 속성**(TXT `@`)으로 잡았다 — www·http·하위 경로가 한 번에 커버된다.
+  A 레코드와 공존하므로 지우지 말 것. 사이트맵이 제출 직후 **「가져올 수 없음」**으로 뜨는 것은
+  아직 한 번도 안 읽었다는 뜻이다(응답 200·`application/xml`·XML 파싱 OK로 확인). 재제출 금지
 
 ### 애드센스 (2026-08-06 정리)
 
@@ -292,6 +313,15 @@ PDF·env만 있고 **결제 흐름은 앱마다 사본**이라 고칠 자리가 
   이전 크롤 결과를 다시 보여 주고 있는 것으로 보인다. 다만 이것도 추정이고, 확인된 것은
   "지금 라이브가 정상"뿐이다. **손댈 것은 없고 재크롤을 기다리는 자리다.**
 - **사이트 확인은 코드 스니펫으로 한다.** ads.txt로 고르면 재크롤을 며칠 기다리게 된다
+
+**세 사이트 모두 신청 완료 — 대기가 병렬로 돈다(2026-08-06).** 콘솔 상태는 셋 다 「준비 중」
+(= 사이트 검토 대기, **이것이 진짜 관문**)이고, ads.txt 열은 셋 다 「찾을 수 없음」이다. 마지막
+크롤 시각이 설명해 준다 — inyeon 08-06 07:24 · saju 08-06 07:57로, **둘 다 환경변수를 넣고
+재배포하던 그 시간대**다. ads.txt가 살아나기 전에 찍힌 사진이다. naming은 07-29 그대로이고 그
+뒤로 재크롤되지 않았다(7-30 「승인됨」과는 여전히 어긋나 **확인 못 한 채로 남긴다**).
+
+같은 시각 AdsBot UA로 직접 재면 **세 사이트 다 200에 올바른 게시자 ID**다. 손댈 것이 없고,
+재크롤을 기다리는 자리다. **사이트를 지웠다 다시 추가하지 말 것** — 검토가 처음부터 다시 돈다.
 - **inyeon-link.com 준비 완료(2026-08-06).** `NEXT_PUBLIC_ADSENSE_CLIENT`를 넣고 재배포해
   ads.txt 200 · 스크립트 부착 · robots 개방을 확인했다. **지금 사이트 추가하면 된다.**
   - 부수 효과 둘을 함께 확인했다 — 방침에 「쿠키와 광고」·「Google AdSense」 절이 켜졌고
