@@ -10,6 +10,8 @@
 // 언어를 고치든 diff가 통째로 흔들린다. 여기서 하는 일은 등록뿐이고, 문구는 각 파일에 있다.
 // (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
 // 순환이 생기지 않는다.)
+import { ja } from "@/lib/i18n-locales/ja";
+import { vi } from "@/lib/i18n-locales/vi";
 import { localeCodes } from "@/lib/locale-codes";
 
 // 목록 자체는 `lib/locale-codes.ts`에 있다. 미들웨어가 이 파일(23개 사전을 전부 끌어온다)을
@@ -975,8 +977,11 @@ const en: Dictionary = {
     genderHint:
       "Traditional Saju reads the spouse and child positions differently by gender. If you skip this, those factors are left out of the calculation.",
     birthplace: "Place of birth",
+    // ko와 문단 구성을 맞춘다. 예전에는 en이 네 문장을 둘로 줄이고 "국내 본토는 2분 이내"를
+    // 통째로 빠뜨려, ko를 따라 옮긴 번역마다 `\n` 개수가 어긋난다는 경고가 났다. en은 모든
+    // 번역의 기준이라 여기서 빠지면 그 구멍이 로케일마다 복제된다.
     birthplaceHint:
-      "The hour pillar is calculated from true solar time at your birthplace, including daylight saving and historical time-zone changes. If your birthplace is not listed, pick the nearest city — the closer it is, the more accurate the hour pillar.",
+      "The hour pillar is calculated from true solar time at your birthplace. If your birthplace is not listed, pick the nearest city.\nWithin mainland Korea the difference between cities is under two minutes. Daylight saving and historical time-zone changes are reflected as well.",
     calendar: "Calendar",
     solar: "Solar",
     lunar: "Lunar",
@@ -1471,6 +1476,8 @@ const en: Dictionary = {
 const dictionaries: Partial<Record<Locale, Dictionary>> = {
   ko,
   en,
+  ja,
+  vi,
 };
 
 export function getDictionary(locale: Locale): Dictionary {

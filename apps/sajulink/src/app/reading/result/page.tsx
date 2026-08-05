@@ -32,10 +32,9 @@ export default async function ReadingResultPage({
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
-      {/* 인연링크에서 물려받은 임시 배경. 사주용 아트로 교체 대상이다. */}
       <div aria-hidden className="fixed inset-0 z-0">
         <Image
-          src="/images/compatibility-result-bg.png"
+          src="/images/reading-result-bg.png"
           alt=""
           fill
           priority

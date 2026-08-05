@@ -137,13 +137,25 @@ async function main() {
       .filter((name) => name.endsWith(".ts"))
       .sort();
   } catch {
-    console.error(`사전 디렉터리가 없다: ${LOCALES_DIR}`);
-    process.exit(1);
+    // 디렉터리가 없는 것은 결함이 아니다 — **아직 ko·en 말고는 번역이 없다는 뜻**이다.
+    //
+    // `ko`·`en`은 `i18n.ts` 안에 두고 나머지만 여기에 두는 것이 이 앱의 구조다(인연링크에서
+    // 물려받았다). 사주링크는 인연링크 궁합 번역 21개를 지웠으므로 디렉터리째 비었고, ⑦에서
+    // ja·vi부터 다시 쓰면 그때 생긴다.
+    //
+    // **그때까지 이 검사기를 빨갛게 두지 않는다.** 늘 실패하는 검사기는 곧 아무도 안 보게 되고,
+    // 진짜 실패가 섞여 들어와도 구분되지 않는다.
+    files = [];
   }
 
   if (files.length === 0) {
-    console.error("검사할 로케일 파일이 없다.");
-    process.exit(1);
+    // **"통과"라고 하지 않는다.** 검사한 것이 0건인 상태와 다 통과한 상태는 다르다
+    // (`verify-legal-locales`와 같은 규율).
+    console.log(
+      `검사한 로케일 0개 — ko·en 외의 사전이 아직 없습니다(${LOCALES_DIR}).\n` +
+        "통과가 아니라 **검사할 것이 없는 상태**입니다. ⑦에서 ja·vi를 쓰면 여기서 검사됩니다.",
+    );
+    process.exit(0);
   }
 
   console.log(`en 사전과 대조한다 — 대상 ${files.length}개\n`);

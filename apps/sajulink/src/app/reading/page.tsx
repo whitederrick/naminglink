@@ -40,12 +40,9 @@ export default async function ReadingPage({
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
-      {/* **배경 이미지는 인연링크 것을 물려받은 임시다.** 사주용 아트로 교체 대상
-          (`docs/image_prompts_saju_dream.md`). 파일 이름을 그대로 둔 것은 교체할 때 이
-          한 자리만 바꾸면 되게 하기 위해서다. */}
       <div aria-hidden className="fixed inset-0 z-0">
         <Image
-          src="/images/compatibility-form-bg.png"
+          src="/images/reading-form-bg.png"
           alt=""
           fill
           priority
