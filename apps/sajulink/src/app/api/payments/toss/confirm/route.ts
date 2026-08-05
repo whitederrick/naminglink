@@ -22,32 +22,22 @@ export const dynamic = "force-dynamic";
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 /**
- * 주문 종류별 결과 화면.
+ * 주문 종류와 돌아갈 화면. **상품이 하나라 둘 다 하나다**(2026-08-05).
  *
- * 리포트는 둘이지만 돌아갈 화면은 하나다(둘 다 사주 풀이 결과에서 판다). 그래도 표를 유지하는
- * 것은 주문 종류가 화면을 정한다는 규칙을 남겨 두기 위해서다. **주문에 적힌 종류를 우선 믿는다** — 쿼리의
- * `kind`는 결제창을 거치며 이용자가 손댈 수 있는 값이라, 주문을 찾은 뒤에는 그쪽을 쓴다.
- * 주문을 못 찾은 오류 경로에서만 쿼리 값으로 자리를 정한다(어느 화면에 오류를 띄울지의 문제라
- * 틀려도 결제에 영향이 없다).
+ * 예전에는 티어가 둘이라 쿼리의 `kind`로 종류를 정했다. 상품이 합쳐지며 그 값이 사라졌는데
+ * **이 파일만 옛 이름을 그대로 찾고 있었다**(`SAJU_CHONGUN_PDF`). 타입이 이 파일 안에서 닫혀
+ * 있어 컴파일이 잡지 못했고, 그 상태로 켰다면 **결제는 승인되고 주문은 못 찾는다** — 돈은
+ * 받고 물건은 안 나가는 자리다(2026-08-06에 발견해 고쳤다).
+ *
+ * 주문 종류를 여기 적어 두는 것은 **다른 서비스의 주문 번호로 이 경로를 지나가지 못하게**
+ * 하기 위해서다. `service='sajulink'`와 함께 건다 — 한 `orders` 표를 세 서비스가 쓴다.
  */
-const RESULT_PATH = {
-  SAJU_CHONGUN_PDF: "/reading/result",
-  SAJU_PREMIUM_PDF: "/reading/result",
-} as const;
-
-type ReportOrderType = keyof typeof RESULT_PATH;
-
-function orderTypeFromQuery(kind: string | null): ReportOrderType {
-  return kind === "premium" ? "SAJU_PREMIUM_PDF" : "SAJU_CHONGUN_PDF";
-}
+const ORDER_TYPE = "SAJU_REPORT_PDF";
+const RESULT_PATH = "/reading/result";
 
 /** 결과 화면으로 되돌린다. 화면이 이 값으로 다음 동작을 정한다. */
-function backToResult(
-  request: NextRequest,
-  orderType: ReportOrderType,
-  params: Record<string, string>,
-) {
-  const url = new URL(RESULT_PATH[orderType], request.nextUrl.origin);
+function backToResult(request: NextRequest, params: Record<string, string>) {
+  const url = new URL(RESULT_PATH, request.nextUrl.origin);
   for (const [key, value] of Object.entries(params)) {
     url.searchParams.set(key, value);
   }
@@ -59,16 +49,13 @@ export async function GET(request: NextRequest) {
   const paymentKey = query.get("paymentKey") ?? "";
   const orderId = query.get("orderId") ?? "";
   const locale = query.get("lang") ?? "ko";
-  // 주문을 찾기 전까지의 임시 자리. 찾은 뒤에는 주문에 적힌 종류로 바꾼다.
-  let orderType = orderTypeFromQuery(query.get("kind"));
-
   if (!paymentKey || !UUID.test(orderId)) {
-    return backToResult(request, orderType, { lang: locale, payment: "invalid" });
+    return backToResult(request, { lang: locale, payment: "invalid" });
   }
 
   const supabase = getSupabaseAdminClient();
   if (!supabase) {
-    return backToResult(request, orderType, { lang: locale, payment: "failed" });
+    return backToResult(request, { lang: locale, payment: "failed" });
   }
 
   try {
@@ -78,18 +65,17 @@ export async function GET(request: NextRequest) {
         "id,order_type,payment_status,payment_amount,payment_currency,metadata",
       )
       .eq("id", orderId)
-      .in("order_type", Object.keys(RESULT_PATH))
+      .eq("order_type", ORDER_TYPE)
       .eq("service", "sajulink")
       .maybeSingle();
 
     if (!order) {
-      return backToResult(request, orderType, { lang: locale, payment: "notfound" });
+      return backToResult(request, { lang: locale, payment: "notfound" });
     }
-    orderType = order.order_type as ReportOrderType;
 
     // 이미 승인된 주문이면 그대로 통과시킨다(새로고침·뒤로가기 대비).
     if (order.payment_status === "PAID") {
-      return backToResult(request, orderType, {
+      return backToResult(request, {
         lang: locale,
         payment: "paid",
         orderId,
@@ -125,7 +111,7 @@ export async function GET(request: NextRequest) {
       .eq("payment_status", "UNPAID");
     if (updateError) throw updateError;
 
-    return backToResult(request, orderType, {
+    return backToResult(request, {
       lang: locale,
       payment: "paid",
       orderId,
@@ -139,9 +125,9 @@ export async function GET(request: NextRequest) {
     notifyOps(
       "toss-confirm-failed",
       "토스 결제 승인에 실패했습니다",
-      { orderId, orderType, reason: error instanceof Error ? error.message : String(error) },
+      { orderId, orderType: ORDER_TYPE, reason: error instanceof Error ? error.message : String(error) },
       "critical",
     );
-    return backToResult(request, orderType, { lang: locale, payment: "failed" });
+    return backToResult(request, { lang: locale, payment: "failed" });
   }
 }

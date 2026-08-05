@@ -6,20 +6,20 @@ import type { LegalLocaleDocuments } from "@/lib/legal-locales/types";
 
 const d0 = {
   "title": "Kebijakan Pengolahan Data Pribadi",
-  "intro": "Saju-Link tidak menyimpan informasi yang diperlukan untuk pembacaan saju. Kebijakan ini menjelaskan apa yang diterima oleh layanan, apa yang tidak disimpan, dan apa yang dicatat secara otomatis.",
+  "intro": "Saju-Link tidak menyimpan informasi yang diperlukan untuk pembacaan saju. Kebijakan ini menjelaskan apa yang diterima oleh layanan, apa yang tidak disimpan, dan apa yang secara otomatis dicatat.",
   "sections": [
     {
       "heading": "1. Informasi yang Tidak Disimpan",
       "paragraphs": [
-        "Tanggal lahir, waktu lahir, tempat lahir, jenis kelamin, dan nama yang digunakan dalam pembacaan saju **tidak disimpan di mana pun.** Informasi ini hanya digunakan dalam memori server selama pemrosesan permintaan dan akan hilang bersama dengan respons.",
+        "Tanggal lahir, waktu lahir, tempat lahir, jenis kelamin, dan nama yang digunakan dalam pembacaan saju **tidak disimpan di mana pun.** Informasi ini hanya digunakan dalam memproses permintaan dan akan hilang bersama dengan respons.",
         "Tidak dicatat dalam basis data, dan tidak disimpan dalam file terpisah. Karena tidak ada pendaftaran anggota, nilai yang dimasukkan tidak terhubung dengan individu tertentu."
       ]
     },
     {
       "heading": "2. Informasi yang Termasuk dalam Tautan Hasil",
       "paragraphs": [
-        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang dienkripsi. Namun, nilai ini terletak setelah # dalam alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, hanya jalur alamat yang tersisa dalam catatan akses server.",
-        "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Tautan itu sendiri menyimpan nilai yang dimasukkan, jadi keputusan untuk membagikannya adalah tanggung jawab pengguna."
+        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # dalam alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, hanya jalur alamat yang tersisa dalam catatan akses server.",
+        "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Karena tautan itu sendiri menyimpan nilai yang dimasukkan, keputusan untuk membagikannya adalah hak pengguna."
       ]
     },
     {
@@ -36,28 +36,28 @@ const d0 = {
       "heading": "4. Cookie dan Iklan",
       "paragraphs": [
         "Layanan itu sendiri tidak menggunakan cookie untuk melacak pengguna.",
-        "Saat ini, tidak ada iklan yang ditampilkan dalam layanan ini. Jika iklan mulai ditampilkan di masa depan, penyedia iklan (misalnya, Google) dapat menggunakan cookie untuk menampilkan iklan. Pada saat itu, ketentuan ini akan diperbarui terlebih dahulu untuk menjelaskan apa yang berubah sebelum dimulai."
+        "Saat ini, tidak ada iklan yang ditampilkan dalam layanan ini. Jika iklan ditampilkan di masa depan, penyedia iklan (misalnya, Google) dapat menggunakan cookie untuk menampilkan iklan. Pada saat itu, ketentuan ini akan diperbarui terlebih dahulu untuk menjelaskan apa yang berubah sebelum dimulai."
       ]
     },
     {
       "heading": "5. Informasi yang Disimpan Saat Pembayaran",
       "paragraphs": [
         "Saat ini, tidak ada informasi yang disimpan terkait pembayaran karena tidak ada produk berbayar yang dijual.",
-        "Ketika penjualan dimulai, informasi berikut akan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai dengan hukum. **Pada saat itu, nilai yang dimasukkan dalam pembacaan saju dan PDF yang dihasilkan tidak akan disimpan,** dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat juga tidak akan diterima."
+        "Ketika penjualan dimulai, informasi berikut akan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai dengan hukum. **Pada saat itu, nilai yang dimasukkan dalam pembacaan saju dan PDF yang dibuat tidak akan disimpan,** dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat juga tidak akan diterima."
       ],
       "bullets": [
         "Nomor pesanan dan pengidentifikasi pembayaran",
         "Jumlah pembayaran, mata uang, dan status pembayaran (belum dibayar, pembayaran selesai, dibatalkan)",
         "Klasifikasi produk, status pemrosesan, jumlah unduhan dokumen, waktu pemesanan",
-        "Bahasa layar pada saat pemesanan dan klasifikasi lokasi pembayaran (dalam negeri, luar negeri)",
-        "Masa penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan tentang pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan tentang keluhan atau penyelesaian sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
+        "Bahasa layar pada saat pemesanan dan klasifikasi wilayah pembayaran (dalam negeri, luar negeri)",
+        "Periode penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan penanganan keluhan atau sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
       ]
     },
     {
       "heading": "6. Penyediaan dan Penanganan Data Pribadi oleh Pihak Ketiga",
       "paragraphs": [
         "Karena tidak ada data pribadi yang disimpan, tidak ada data pribadi yang disediakan kepada pihak ketiga.",
-        "Layanan ini menggunakan infrastruktur hosting dari {hostingProvider}, dan dalam proses ini, catatan akses yang disebutkan di atas diproses sesuai dengan kebijakan penyedia tersebut.",
+        "Untuk menjalankan layanan, kami menggunakan infrastruktur hosting dari {hostingProvider}, dan dalam proses ini, catatan akses yang disebutkan di atas diproses sesuai dengan kebijakan penyedia tersebut.",
         "Ketika penjualan produk berbayar dimulai, pembayaran domestik akan diserahkan kepada Toss Payments, dan pembayaran internasional akan diserahkan kepada PortOne (PayPal). Informasi metode pembayaran seperti nomor kartu dan nomor rekening akan diproses langsung oleh penyedia tersebut, dan layanan tidak akan menerima informasi tersebut."
       ]
     },
@@ -66,7 +66,7 @@ const d0 = {
       "paragraphs": [
         "Karena tidak ada data pribadi yang disimpan, tidak ada yang dapat diminta untuk dilihat, diperbaiki, atau dihapus.",
         "Pengguna dapat menghapus semua jejak input hanya dengan menghapus tautan hasil di bilah alamat browser.",
-        "Jika ada pertanyaan terkait penggunaan layanan, silakan hubungi melalui informasi kontak di bawah ini."
+        "Jika ada pertanyaan terkait penggunaan layanan, silakan beri tahu kami melalui kontak di bawah ini."
       ]
     },
     {
@@ -85,7 +85,7 @@ const d0 = {
     {
       "heading": "10. Perubahan Kebijakan",
       "paragraphs": [
-        "Jika kebijakan ini diubah, tanggal mulai dan rincian perubahan akan diposting di halaman ini. Jika ada perubahan nyata dalam konten pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, informasi tentang perubahan tersebut akan diberitahukan terlebih dahulu."
+        "Jika kebijakan ini diubah, tanggal mulai dan perubahan akan diposting di halaman ini. Jika ada perubahan nyata dalam konten pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, kami akan memberi tahu terlebih dahulu tentang perubahan tersebut."
       ]
     }
   ],
@@ -109,7 +109,7 @@ const d1 = {
       "heading": "2. Biaya Layanan",
       "paragraphs": [
         "Layanan saat ini disediakan secara gratis dan tidak memerlukan pendaftaran anggota.",
-        "Ketika penjualan produk berbayar (dua jenis laporan PDF) dimulai, ketentuan pada pasal 3 di bawah ini akan berlaku. Ketentuan ini akan diinformasikan kembali sebelum dimulainya penjualan."
+        "Ketika penjualan produk berbayar (saju life reading report PDF) dimulai, ketentuan di bawah pasal 3 akan berlaku. Sebelum memulai penjualan, syarat ini akan diberitahukan kembali."
       ]
     },
     {
@@ -182,23 +182,23 @@ const d1 = {
 
 const d2 = {
   "title": "Kebijakan Pengembalian dan Pembatalan",
-  "intro": "Ini adalah standar pembatalan dan pengembalian untuk laporan bacaan saju (사주) PDF. Kami telah mengumpulkan informasi yang sama seperti dalam pasal 3 dari syarat dan ketentuan.",
+  "intro": "Ini adalah kriteria pembatalan dan pengembalian untuk laporan bacaan hidup saju (사주) PDF. Kami telah mengumpulkan informasi yang sama seperti dalam pasal 3 dari syarat dan ketentuan.",
   "sections": [
     {
       "heading": "1. Sifat Produk",
       "paragraphs": [
-        "Produk yang dijual adalah **laporan bacaan saju (사주) PDF (A4 5 halaman)** dan **laporan premium bacaan saju (사주) PDF (A4 7 halaman)**, dan keduanya adalah konten digital yang dibuat dan dikirimkan segera setelah pembayaran disetujui.",
-        "**Layanan ini tidak menyimpan input pengguna maupun file PDF yang dibuat.** Oleh karena itu, file yang diunduh harus disimpan oleh pengguna secara langsung."
+        "Produk yang dijual adalah **satu PDF laporan saju dan ramalan tahun ini seumur hidup** (A4 9 halaman), dan setelah pembayaran disetujui, dokumen akan dibuat dan segera dikirimkan sebagai konten digital.",
+        "**Layanan tidak menyimpan input pengguna maupun file PDF yang dibuat.** Oleh karena itu, file yang diunduh harus disimpan oleh pengguna secara langsung."
       ]
     },
     {
       "heading": "2. Pembatalan Pesanan",
       "paragraphs": [
-        "Mengikuti standar yang ditetapkan oleh Undang-Undang Perdagangan Elektronik."
+        "Mengikuti kriteria yang ditetapkan oleh hukum perdagangan elektronik."
       ],
       "bullets": [
         "**Sebelum unduhan dimulai,** Anda dapat membatalkan kapan saja dan mendapatkan pengembalian penuh.",
-        "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera setelah pembayaran dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan yang ditetapkan dalam Pasal 17 Ayat 2 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik. Kami memberi tahu dan mendapatkan persetujuan mengenai hal ini di layar pembayaran."
+        "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera setelah pembayaran dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan yang ditetapkan dalam Pasal 17 Ayat 2 dari 'Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik'. Kami memberi tahu dan mendapatkan persetujuan tentang hal ini di layar pembayaran."
       ]
     },
     {
@@ -210,14 +210,14 @@ const d2 = {
         "Jika dokumen tidak dibuat karena kesalahan sistem",
         "Jika file yang diunduh tidak dapat dibuka",
         "Jika jumlah pembayaran berbeda dari pesanan",
-        "**Jika pembayaran dilakukan oleh orang yang belum dewasa tanpa persetujuan wali hukum** — Pemohon atau wali hukum dapat meminta pembatalan."
+        "**Jika pembayaran dilakukan oleh orang yang belum dewasa tanpa persetujuan wali hukum** — Baik individu tersebut atau wali hukum dapat meminta pembatalan."
       ]
     },
     {
       "heading": "4. Kasus yang Bukan Alasan Pengembalian",
       "paragraphs": [],
       "bullets": [
-        "**Ketidakpuasan terhadap isi hasil.** Pembacaan saju (사주) adalah referensi dari perspektif tradisional dan sifatnya telah diinformasikan sebelum pembayaran.",
+        "**Ketidakpuasan terhadap isi hasil.** Penafsiran saju (사주) adalah referensi dari perspektif tradisional dan sifatnya telah diinformasikan sebelum pembayaran.",
         "Permintaan ulang setelah menggunakan semua 5 kali penggantian."
       ]
     },
@@ -225,7 +225,7 @@ const d2 = {
       "heading": "5. Cara Pengajuan",
       "paragraphs": [
         "Silakan ajukan pengembalian atau pertanyaan melalui pusat layanan pelanggan ({customerCenter}) atau email ({email}). Memberikan nomor pesanan akan mempercepat proses verifikasi.",
-        "Pengembalian akan dilakukan melalui metode pembayaran yang digunakan, dan tergantung pada kebijakan perusahaan kartu atau penyedia pembayaran, mungkin memerlukan waktu 3-7 hari kerja untuk diproses."
+        "Pengembalian akan dilakukan melalui metode pembayaran yang digunakan, dan tergantung pada kebijakan penerbit kartu atau penyedia pembayaran, mungkin memerlukan waktu 3-7 hari kerja untuk diproses."
       ]
     }
   ],
@@ -239,24 +239,24 @@ const d3 = {
     {
       "heading": "1. Gratis",
       "paragraphs": [
-        "**Pembacaan saju (사주) dan ramalan hari ini adalah gratis.** Tidak perlu mendaftar sebagai anggota.",
-        "Anda dapat melihat delapan karakter dari natal chart, kekuatan lima elemen, kekuatan dan kelemahan hari, skor dan tingkat ramalan hari ini, serta skor dari empat bidang kehidupan di layar."
+        "**Pembacaan saju (사주) dan pemeriksaan ramalan hari ini adalah gratis.** Tidak perlu mendaftar sebagai anggota.",
+        "Anda dapat melihat delapan karakter dari natal chart, kekuatan lima elemen, kekuatan dan kelemahan hari, skor dan tingkat ramalan hari ini, serta skor dari empat area kehidupan di layar."
       ]
     },
     {
-      "heading": "2. Laporan Pembacaan Saju Seumur Hidup dan Ramalan Tahun Ini PDF (Berbayar)",
+      "heading": "2. Laporan Pembacaan Saju dan Ramalan Tahun Ini PDF (berbayar)",
       "paragraphs": [
         "Pembayaran domestik {priceDomestic} (termasuk pajak) · Pembayaran internasional {priceGlobal}",
-        "Hasil di layar akan dibuat menjadi dokumen PDF **9 halaman A4**. Informasi yang tidak ditampilkan di layar — kekuatan dan kelemahan hari, energi yang diperlukan saat ini, sepuluh dewa dari empat pilar, posisi yang menonjol dalam saju ini, rincian perbaikan waktu matahari, empat bidang kehidupan yang dilihat dari natal chart dan angka dasarnya, serta rincian perbaikan waktu matahari tahun ini — akan disertakan.",
-        "Dengan pesanan yang sama, Anda dapat mengunduh kembali **hingga 5 kali**. Namun, jika input hilang di luar layar hasil, Anda tidak dapat membuatnya lagi, jadi harap simpan file segera setelah pembayaran selesai."
+        "Hasil di layar akan dibuat menjadi dokumen PDF **9 halaman A4**. Informasi yang tidak ditampilkan di layar — kekuatan dan kelemahan hari, energi yang dibutuhkan saat ini, sepuluh dewa dari empat pilar, posisi yang menonjol dalam saju ini, Wang Sang Hyu Su Sa, empat area kehidupan yang dilihat dari natal chart dan angka dasarnya, rincian koreksi Jin Tae Yang Si, ramalan tahun ini — akan disertakan.",
+        "Dengan pesanan yang sama, Anda dapat mengunduh kembali **hingga 5 kali**. Namun, jika input hilang setelah keluar dari layar hasil, Anda tidak dapat membuatnya lagi, jadi harap simpan file segera setelah pembayaran selesai."
       ]
     },
     {
       "heading": "4. Metode Pembayaran",
       "paragraphs": [
-        "**Domestik** — Anda dapat menggunakan kartu kredit/debit dan pembayaran mudah (TossPay, KakaoPay, NaverPay, Payco, dll.) melalui Toss Payments.",
-        "**Internasional** — Anda dapat membayar melalui PayPal melalui PortOne.",
-        "Jumlah akhir yang harus dibayar mengikuti jumlah yang ditampilkan di layar pembayaran."
+        "**Domestik** — Anda dapat menggunakan kartu kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.) melalui Toss Payments.",
+        "**Internasional** — Anda dapat membayar melalui PayPal menggunakan PortOne.",
+        "Jumlah total pembayaran mengikuti jumlah yang ditampilkan di layar pembayaran."
       ]
     },
     {
@@ -281,9 +281,9 @@ const d4 = {
       ]
     },
     {
-      "heading": "2. Informasi yang Termasuk dalam Tautan Hasil",
+      "heading": "2. Informasi yang Tercantum dalam Tautan Hasil",
       "paragraphs": [
-        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # dalam alamat, dan sesuai dengan standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, catatan akses server hanya menyimpan jalur alamat.",
+        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # dalam alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, catatan akses server hanya menyimpan jalur alamat.",
         "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Tautan itu sendiri menyimpan nilai yang dimasukkan, jadi keputusan untuk membagikannya adalah tanggung jawab pengguna."
       ]
     },
@@ -293,7 +293,7 @@ const d4 = {
         "Tidak ada informasi yang dikumpulkan oleh layanan untuk mengidentifikasi pengguna. Namun, catatan minimum yang diperlukan untuk operasi layanan web secara otomatis disimpan oleh penyedia infrastruktur."
       ],
       "bullets": [
-        "Alamat IP yang diakses, waktu akses, jenis browser, dan catatan akses server umum lainnya",
+        "Alamat IP akses, waktu akses, jenis browser, dan catatan umum akses server",
         "Informasi negara — hanya digunakan untuk secara otomatis menentukan bahasa layar dan tidak disimpan"
       ]
     },
@@ -306,8 +306,8 @@ const d4 = {
       "bullets": [
         "Penyedia pihak ketiga, termasuk Google, dapat menyimpan atau membaca cookie di browser pengguna.",
         "Google menggunakan cookie berdasarkan catatan kunjungan ke situs ini dan beberapa situs lainnya untuk menampilkan iklan.",
-        "Pengguna dapat menonaktifkan iklan yang dipersonalisasi di pengaturan iklan Google (google.com/settings/ads). Meskipun dinonaktifkan, iklan itu sendiri tetap ditampilkan, tetapi relevansinya dengan pengguna akan berkurang.",
-        "Iklan yang dipersonalisasi dari seluruh penyedia pihak ketiga dapat dinonaktifkan sekaligus di aboutads.info/choices.",
+        "Pengguna dapat menonaktifkan iklan yang disesuaikan di pengaturan iklan Google (google.com/settings/ads). Meskipun dinonaktifkan, iklan itu sendiri tetap ditampilkan, tetapi relevansinya dengan pengguna berkurang.",
+        "Iklan yang disesuaikan dari semua penyedia pihak ketiga dapat dinonaktifkan sekaligus di aboutads.info/choices.",
         "Ada juga cara untuk memblokir cookie di pengaturan browser.",
         "Pengguna di Wilayah Ekonomi Eropa, Inggris, dan Swiss akan diminta persetujuan terlebih dahulu untuk penggunaan cookie iklan."
       ]
@@ -315,23 +315,23 @@ const d4 = {
     {
       "heading": "5. Informasi yang Disimpan Saat Pembayaran",
       "paragraphs": [
-        "Saat ini tidak ada produk berbayar yang dijual, sehingga tidak ada informasi yang disimpan terkait pembayaran.",
-        "Ketika penjualan dimulai, informasi berikut akan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai dengan hukum yang berlaku. **Pada saat itu, nilai yang dimasukkan dalam pembacaan saju dan PDF yang dibuat tidak akan disimpan,** dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat juga tidak akan diterima."
+        "Saat ini, tidak ada informasi yang disimpan terkait pembayaran karena tidak ada produk berbayar yang dijual.",
+        "Ketika penjualan dimulai, informasi berikut akan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai hukum yang berlaku. **Pada saat itu, nilai yang dimasukkan dalam pembacaan saju dan PDF yang dihasilkan tidak akan disimpan**, dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat juga tidak akan diterima."
       ],
       "bullets": [
         "Nomor pesanan dan pengidentifikasi pembayaran",
         "Jumlah pembayaran, mata uang, dan status pembayaran (belum dibayar, pembayaran selesai, dibatalkan)",
         "Klasifikasi produk, status pemrosesan, jumlah unduhan dokumen, waktu pemesanan",
         "Bahasa layar pada saat pemesanan dan klasifikasi wilayah pembayaran (dalam negeri, luar negeri)",
-        "Masa penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan tentang pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan tentang keluhan atau penyelesaian sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
+        "Periode penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan penanganan keluhan atau sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
       ]
     },
     {
       "heading": "6. Penyediaan kepada Pihak Ketiga dan Penugasan Pemrosesan",
       "paragraphs": [
-        "Karena tidak ada data pribadi yang disimpan, tidak ada data pribadi yang diberikan kepada pihak ketiga.",
-        "Untuk menjalankan layanan, kami menggunakan infrastruktur hosting dari {hostingProvider}, dan dalam proses ini, catatan akses yang disebutkan di atas diproses sesuai dengan kebijakan penyedia tersebut.",
-        "Ketika penjualan produk berbayar dimulai, pembayaran domestik akan diserahkan kepada Toss Payments, dan pembayaran internasional akan diserahkan kepada PortOne (PayPal). Informasi metode pembayaran seperti nomor kartu dan nomor rekening akan diproses langsung oleh penyedia tersebut, dan layanan tidak akan menerima informasi tersebut."
+        "Karena tidak ada data pribadi yang disimpan, tidak ada data pribadi yang disediakan kepada pihak ketiga.",
+        "Untuk menjalankan layanan, infrastruktur hosting dari {hostingProvider} digunakan, dan dalam proses ini, catatan akses yang disebutkan di atas diproses sesuai dengan kebijakan penyedia tersebut.",
+        "Ketika penjualan produk berbayar dimulai, pembayaran domestik akan ditugaskan kepada Toss Payments, dan pembayaran internasional akan ditugaskan kepada PortOne (PayPal). Informasi metode pembayaran seperti nomor kartu dan nomor rekening akan diproses langsung oleh penyedia tersebut, dan layanan tidak akan menerima informasi tersebut."
       ]
     },
     {
@@ -339,95 +339,7 @@ const d4 = {
       "paragraphs": [
         "Karena tidak ada data pribadi yang disimpan, tidak ada yang dapat diminta untuk dilihat, diperbaiki, atau dihapus.",
         "Pengguna dapat menghapus semua jejak input hanya dengan menghapus tautan hasil di bilah alamat browser.",
-        "Jika ada pertanyaan terkait penggunaan layanan, silakan beri tahu kami melalui kontak di bawah ini."
-      ]
-    },
-    {
-      "heading": "8. Data Pribadi Anak",
-      "paragraphs": [
-        "Layanan ini tidak ditujukan untuk anak-anak di bawah usia 14 tahun dan tidak mengumpulkan data pribadi dari anak-anak."
-      ]
-    },
-    {
-      "heading": "9. Pejabat Perlindungan Data Pribadi",
-      "paragraphs": [
-        "Pejabat Perlindungan: {privacyOfficer}",
-        "Kontak: {email} / {customerCenter}"
-      ]
-    },
-    {
-      "heading": "10. Perubahan Kebijakan",
-      "paragraphs": [
-        "Jika kebijakan ini diubah, tanggal mulai dan rincian perubahan akan diposting di halaman ini. Jika ada perubahan nyata dalam konten pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, kami akan memberi tahu terlebih dahulu tentang perubahan tersebut."
-      ]
-    }
-  ],
-  "effectiveLabel": "Tanggal Berlaku"
-};
-
-const d5 = {
-  "title": "Kebijakan Pengolahan Data Pribadi",
-  "intro": "Saju-Link tidak menyimpan informasi yang diperlukan untuk pembacaan saju. Kebijakan ini menjelaskan apa yang diterima oleh layanan, apa yang tidak disimpan, dan apa yang dicatat secara otomatis.",
-  "sections": [
-    {
-      "heading": "1. Informasi yang Tidak Disimpan",
-      "paragraphs": [
-        "Tanggal lahir, waktu lahir, tempat lahir, jenis kelamin, dan nama yang digunakan dalam pembacaan saju **tidak disimpan di mana pun.** Informasi tersebut hanya digunakan dalam memori server selama pemrosesan permintaan dan akan hilang bersama dengan respons.",
-        "Tidak dicatat dalam basis data, dan tidak disimpan dalam file terpisah. Karena tidak ada pendaftaran anggota, nilai yang dimasukkan tidak terhubung dengan individu tertentu."
-      ]
-    },
-    {
-      "heading": "2. Informasi yang Termasuk dalam Tautan Hasil",
-      "paragraphs": [
-        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # di alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, catatan akses server hanya menyimpan jalur alamat.",
-        "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Tautan itu sendiri menyimpan nilai yang dimasukkan, jadi keputusan untuk membagikannya adalah tanggung jawab pengguna."
-      ]
-    },
-    {
-      "heading": "3. Informasi yang Dikumpulkan Secara Otomatis",
-      "paragraphs": [
-        "Tidak ada informasi yang dikumpulkan oleh layanan untuk mengidentifikasi pengguna. Namun, catatan minimum yang diperlukan untuk operasi layanan web secara otomatis disimpan oleh penyedia infrastruktur."
-      ],
-      "bullets": [
-        "Alamat IP yang diakses, waktu akses, jenis browser, dan catatan akses server umum lainnya",
-        "Informasi negara — hanya digunakan untuk secara otomatis menentukan bahasa layar dan tidak disimpan"
-      ]
-    },
-    {
-      "heading": "4. Cookie dan Iklan",
-      "paragraphs": [
-        "Layanan itu sendiri tidak menggunakan cookie untuk melacak pengguna.",
-        "Saat ini, tidak ada iklan yang ditampilkan dalam layanan ini. Jika iklan mulai ditampilkan di masa depan, penyedia iklan (misalnya, Google) dapat menggunakan cookie untuk menampilkan iklan. Dalam hal ini, ketentuan ini akan diperbarui terlebih dahulu untuk menjelaskan apa yang berubah sebelum dimulai."
-      ]
-    },
-    {
-      "heading": "5. Informasi yang Disimpan Saat Pembayaran",
-      "paragraphs": [
-        "Ketika produk berbayar (laporan PDF) dibayar, informasi pesanan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai dengan undang-undang.",
-        "**Nilai yang dimasukkan dalam pembacaan saju dan PDF yang dihasilkan tidak disimpan meskipun telah dibayar.** Prinsip di atas tetap berlaku terlepas dari status pembayaran. Item yang disimpan adalah sebagai berikut, dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat tidak termasuk."
-      ],
-      "bullets": [
-        "Nomor pesanan dan pengidentifikasi pembayaran",
-        "Jumlah pembayaran, mata uang, dan status pembayaran (belum dibayar, pembayaran selesai, dibatalkan)",
-        "Klasifikasi produk, status pemrosesan, jumlah unduhan dokumen, waktu pemesanan",
-        "Bahasa layar pada saat pemesanan dan klasifikasi wilayah pembayaran (dalam negeri, luar negeri)",
-        "Masa penyimpanan — Menurut Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan keluhan atau sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
-      ]
-    },
-    {
-      "heading": "6. Penyediaan kepada Pihak Ketiga dan Penanganan yang Diberikan",
-      "paragraphs": [
-        "Karena tidak menyimpan informasi pribadi yang mengidentifikasi pengguna, tidak ada informasi pribadi yang disediakan kepada pihak ketiga. Pemrosesan pembayaran diserahkan kepada penyedia di bawah ini.",
-        "Untuk operasi layanan, infrastruktur hosting {hostingProvider} digunakan, dan dalam proses ini, catatan akses di atas diproses sesuai dengan kebijakan penyedia tersebut.",
-        "Pembayaran domestik diproses oleh Toss Payments, sementara pembayaran internasional diproses melalui PayPal oleh PortOne. Informasi metode pembayaran seperti nomor kartu dan nomor rekening diproses langsung oleh penyedia tersebut, dan layanan tidak menerima atau menyimpannya."
-      ]
-    },
-    {
-      "heading": "7. Hak Pengguna",
-      "paragraphs": [
-        "Karena nilai yang dimasukkan dalam pembacaan saju tidak disimpan, tidak ada yang dapat diminta untuk dilihat, diperbaiki, atau dihapus. Catatan pesanan yang tersisa setelah pembayaran memiliki kewajiban untuk disimpan selama periode yang ditentukan oleh undang-undang, sehingga tidak dapat dihapus selama periode tersebut, dan setelah periode berakhir, akan dihancurkan.",
-        "Pengguna dapat menghapus semua jejak input hanya dengan menghapus tautan hasil di bilah alamat browser.",
-        "Jika ada pertanyaan terkait penggunaan layanan, silakan beri tahu kami melalui kontak di bawah ini."
+        "Jika ada pertanyaan terkait penggunaan layanan, silakan hubungi kami di kontak di bawah ini."
       ]
     },
     {
@@ -453,6 +365,94 @@ const d5 = {
   "effectiveLabel": "Tanggal Berlaku"
 };
 
+const d5 = {
+  "title": "Kebijakan Pengolahan Data Pribadi",
+  "intro": "Saju-Link tidak menyimpan informasi yang diperlukan untuk pembacaan saju. Kebijakan ini menjelaskan apa yang diterima oleh layanan, apa yang tidak disimpan, dan apa yang dicatat secara otomatis.",
+  "sections": [
+    {
+      "heading": "1. Informasi yang Tidak Disimpan",
+      "paragraphs": [
+        "Tanggal lahir, waktu lahir, tempat lahir, jenis kelamin, dan nama panggilan yang dimasukkan untuk pembacaan saju **tidak disimpan di mana pun.** Informasi ini hanya digunakan dalam memori server selama pemrosesan permintaan dan akan hilang bersama dengan respons.",
+        "Tidak dicatat dalam basis data, dan tidak disimpan dalam file terpisah. Karena tidak ada pendaftaran anggota, nilai yang dimasukkan tidak terhubung dengan individu tertentu."
+      ]
+    },
+    {
+      "heading": "2. Informasi yang Termasuk dalam Tautan Hasil",
+      "paragraphs": [
+        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # dalam alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, hanya jalur alamat yang tersisa dalam catatan akses server.",
+        "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Tautan itu sendiri menyimpan nilai yang dimasukkan, jadi keputusan untuk membagikannya adalah tanggung jawab pengguna."
+      ]
+    },
+    {
+      "heading": "3. Informasi yang Dikumpulkan Secara Otomatis",
+      "paragraphs": [
+        "Tidak ada informasi yang dikumpulkan oleh layanan untuk mengidentifikasi pengguna. Namun, catatan minimum yang diperlukan untuk operasi layanan web secara otomatis disimpan oleh penyedia infrastruktur."
+      ],
+      "bullets": [
+        "Alamat IP akses, waktu akses, jenis browser, dan catatan akses server umum lainnya",
+        "Informasi negara — hanya digunakan untuk secara otomatis menentukan bahasa layar dan tidak disimpan"
+      ]
+    },
+    {
+      "heading": "4. Cookie dan Iklan",
+      "paragraphs": [
+        "Layanan itu sendiri tidak menggunakan cookie untuk melacak pengguna.",
+        "Saat ini, tidak ada iklan yang ditampilkan dalam layanan ini. Jika di masa depan iklan ditampilkan, penyedia iklan (misalnya, Google) dapat menggunakan cookie untuk menampilkan iklan. Dalam hal ini, ketentuan ini akan diperbarui terlebih dahulu untuk menjelaskan apa yang berubah sebelum dimulai."
+      ]
+    },
+    {
+      "heading": "5. Informasi yang Disimpan Saat Pembayaran",
+      "paragraphs": [
+        "Ketika produk berbayar (laporan PDF) dibayar, informasi pesanan disimpan untuk pemrosesan pembayaran dan penyimpanan catatan transaksi sesuai dengan undang-undang.",
+        "**Nilai yang dimasukkan untuk pembacaan saju dan PDF yang dihasilkan tidak disimpan meskipun telah dibayar.** Prinsip di atas tetap berlaku terlepas dari status pembayaran. Item yang disimpan adalah sebagai berikut, dan informasi yang mengidentifikasi pengguna seperti nama, kontak, dan alamat tidak termasuk."
+      ],
+      "bullets": [
+        "Nomor pesanan dan pengidentifikasi pembayaran",
+        "Jumlah pembayaran, mata uang, dan status pembayaran (belum dibayar, pembayaran selesai, dibatalkan)",
+        "Klasifikasi produk, status pemrosesan, jumlah unduhan dokumen, waktu pemesanan",
+        "Bahasa layar pada saat pemesanan dan klasifikasi wilayah pembayaran (dalam negeri, luar negeri)",
+        "Masa penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan tentang pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan tentang keluhan atau sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
+      ]
+    },
+    {
+      "heading": "6. Penyediaan kepada Pihak Ketiga dan Penanganan yang Diberikan",
+      "paragraphs": [
+        "Karena tidak menyimpan informasi pribadi yang mengidentifikasi pengguna, tidak ada informasi pribadi yang diberikan kepada pihak ketiga. Pemrosesan pembayaran diserahkan kepada penyedia di bawah ini.",
+        "Untuk operasi layanan, infrastruktur hosting dari {hostingProvider} digunakan, dan dalam proses ini, catatan akses yang disebutkan di atas diproses sesuai dengan kebijakan penyedia tersebut.",
+        "Pembayaran domestik diproses oleh Toss Payments, sedangkan pembayaran internasional diproses melalui PayPal oleh PortOne. Informasi metode pembayaran seperti nomor kartu dan nomor rekening diproses langsung oleh penyedia tersebut, dan layanan tidak menerima atau menyimpannya."
+      ]
+    },
+    {
+      "heading": "7. Hak Pengguna",
+      "paragraphs": [
+        "Karena nilai input untuk pembacaan saju tidak disimpan, tidak ada yang dapat diminta untuk dilihat, diperbaiki, atau dihapus. Catatan pesanan yang tersisa setelah pembayaran memiliki kewajiban untuk disimpan selama periode yang ditentukan oleh undang-undang, sehingga tidak dapat dihapus selama periode tersebut, dan setelah periode tersebut berakhir, akan dihancurkan.",
+        "Pengguna dapat menghapus semua jejak input hanya dengan menghapus tautan hasil di bilah alamat browser.",
+        "Jika ada pertanyaan terkait penggunaan layanan, silakan beri tahu kami melalui kontak di bawah ini."
+      ]
+    },
+    {
+      "heading": "8. Data Pribadi Anak",
+      "paragraphs": [
+        "Layanan ini tidak ditujukan untuk anak-anak di bawah usia 14 tahun dan tidak mengumpulkan data pribadi dari anak-anak."
+      ]
+    },
+    {
+      "heading": "9. Pejabat Perlindungan Data Pribadi",
+      "paragraphs": [
+        "Pejabat Perlindungan: {privacyOfficer}",
+        "Kontak: {email} / {customerCenter}"
+      ]
+    },
+    {
+      "heading": "10. Perubahan Kebijakan",
+      "paragraphs": [
+        "Jika kebijakan ini diubah, tanggal mulai dan rincian perubahan akan diposting di halaman ini. Jika ada perubahan nyata dalam konten pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, kami akan memberi tahu terlebih dahulu tentang fakta perubahan tersebut."
+      ]
+    }
+  ],
+  "effectiveLabel": "Tanggal Berlaku"
+};
+
 const d6 = {
   "title": "Ketentuan Layanan",
   "intro": "Ketentuan ini menetapkan syarat penggunaan Saju-Link (selanjutnya disebut \"Layanan\"). Dengan menggunakan layanan ini, Anda dianggap telah menyetujui ketentuan ini.",
@@ -460,50 +460,50 @@ const d6 = {
     {
       "heading": "1. Sifat Layanan",
       "paragraphs": [
-        "Layanan ini menunjukkan referensi berdasarkan aturan tradisional Mingli (saju) yang diterapkan pada tanggal lahir dan waktu kelahiran yang dimasukkan, termasuk pilar saju, kekuatan lima elemen, kekuatan hari, serta posisi yang bertemu antara hari tersebut dan pilar saju.",
-        "Skor dan penjelasan yang diberikan adalah **referensi dari perspektif Mingli tradisional dan bukan prediksi ilmiah atau kepastian tentang masa depan, kesehatan, atau kekayaan individu.** Skor yang rendah tidak berarti hari tersebut buruk, dan skor yang tinggi tidak menjamin apa pun.",
-        "**Kalimat penjelasan dari laporan berbayar ditulis oleh AI generatif.** Namun, semua angka seperti skor, ganji, dan kekuatan elemen dihitung oleh mesin aturan layanan, dan AI tidak mengubah atau menciptakan nilai tersebut. Jika penjelasan tidak dapat dibuat, deskripsi yang ditulis berdasarkan nilai yang dihitung oleh mesin akan dimasukkan di tempat yang sama, dan jumlah halaman serta item yang dimuat dalam dokumen adalah seperti yang dijelaskan di bawah pasal 3."
+        "Layanan ini menunjukkan grafik natal dan kekuatan lima elemen, kekuatan hari, serta posisi yang bertemu antara hari dan grafik natal berdasarkan tanggal lahir dan waktu kelahiran yang dimasukkan, dengan menerapkan aturan tradisional dari ilmu bintang (saju).",
+        "Skor dan penjelasan yang diberikan adalah **referensi dari perspektif ilmu bintang tradisional dan bukan prediksi ilmiah atau kepastian mengenai masa depan, kesehatan, atau kekayaan individu.** Skor yang rendah tidak berarti hari tersebut buruk, dan skor yang tinggi tidak menjamin apapun.",
+        "**Kalimat penjelasan dari laporan berbayar ditulis oleh AI generatif.** Namun, semua angka seperti skor, karakter, dan kekuatan elemen dihitung oleh mesin aturan layanan, dan AI tidak mengubah atau menciptakan nilai tersebut. Jika tidak dapat membuat penjelasan, deskripsi yang ditulis dengan nilai yang dihitung oleh mesin akan dimasukkan di tempat yang sama, dan jumlah halaman serta item yang dimasukkan dalam dokumen adalah seperti yang dijelaskan di bawah pasal 3."
       ]
     },
     {
-      "heading": "2. Biaya Penggunaan",
+      "heading": "2. Biaya Layanan",
       "paragraphs": [
         "Pembacaan saju dan pemeriksaan keberuntungan hari ini adalah gratis dan tidak memerlukan pendaftaran anggota.",
-        "Menerima hasil dalam bentuk laporan PDF adalah berbayar. Harga dan syarat akan ditampilkan di bawah pasal 3 dan layar pembayaran."
+        "Menerima hasil dalam bentuk laporan PDF adalah berbayar. Harga dan syarat akan ditampilkan di bawah pasal 3 dan di layar pembayaran."
       ]
     },
     {
-      "heading": "3. Produk Berbayar dan Pengembalian",
+      "heading": "3. Produk Berbayar dan Pengembalian Dana",
       "paragraphs": [
-        "Produk berbayar yang dijual adalah **satu PDF laporan saju seumur hidup dan keberuntungan tahun ini**. Ini adalah dokumen yang dibuat dari hasil layar, dan akan mencakup informasi yang tidak ada di layar.",
-        "**9 halaman A4** — sampul dan ringkasan, kecenderungan dan kekuatan bawaan, hal-hal yang perlu diperhatikan, delapan karakter pilar saju dan kekuatan lima elemen, kekuatan hari dan energi yang diperlukan saat ini (yongsin), sepuluh dewa dari empat pilar dan posisi yang menonjol dalam saju ini, empat bidang kehidupan yang dilihat dari pilar saju (kekayaan, cinta, pekerjaan, kesehatan) dan dasar-dasarnya, rincian koreksi waktu Jin Tai Yang, serta keberuntungan tahun ini akan dimuat. Pembayaran domestik {priceDomestic} (termasuk pajak), pembayaran internasional {priceGlobal}.",
-        "**Keberuntungan hari ini tidak akan dimuat dalam dokumen ini.** Nilai yang berubah setiap hari disediakan secara gratis di layar, dan dokumen ini terdiri dari penjelasan pilar saju yang tidak berubah seumur hidup dan keberuntungan tahun ini.",
+        "Produk berbayar yang dijual adalah **satu laporan PDF tentang saju seumur hidup dan keberuntungan tahun ini**. Ini adalah pembuatan dokumen dari hasil di layar, dan akan mencakup informasi yang tidak ada di layar.",
+        "**A4 9 halaman** — sampul dan ringkasan, kecenderungan dan kekuatan bawaan, hal-hal yang perlu diperhatikan, delapan karakter dari grafik natal dan kekuatan lima elemen, kekuatan hari dan energi yang diperlukan saat ini (yongsin), sepuluh dewa dari empat pilar dan posisi yang menonjol dalam saju ini, empat bidang kehidupan yang dilihat dari grafik natal (kekayaan, cinta, pekerjaan, kesehatan) dan dasar-dasarnya, rincian koreksi waktu, serta keberuntungan tahun ini akan disertakan. Pembayaran domestik {priceDomestic} (termasuk pajak), pembayaran internasional {priceGlobal}.",
+        "**Keberuntungan hari ini tidak akan dimasukkan dalam dokumen ini.** Nilai yang berubah setiap hari disediakan secara gratis di layar, dan dokumen ini terdiri dari pembacaan grafik natal yang tidak berubah seumur hidup dan keberuntungan tahun ini.",
         "Pembayaran domestik dapat dilakukan melalui Toss Payments menggunakan kartu kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), sedangkan pembayaran internasional dilakukan melalui PayPal melalui PortOne. Jumlah akhir mengikuti jumlah yang ditampilkan di layar pembayaran.",
-        "**Layanan tidak menyimpan input pengguna atau file PDF yang dibuat.** Setelah pembayaran disetujui, dokumen akan dibuat dan diunduh di tempat, dan tidak ada yang tersisa di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna sendiri.",
-        "Jika unduhan terhenti atau file hilang, Anda dapat mengunduh kembali hingga **5 kali** dengan pesanan yang sama. Namun, jika input hilang di luar layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
+        "**Layanan tidak menyimpan nilai input pengguna maupun file PDF yang dihasilkan.** Setelah pembayaran disetujui, dokumen akan dibuat dan dikirimkan tanpa menyimpan apapun di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna secara langsung.",
+        "Untuk kasus di mana unduhan terhenti atau file hilang, file dapat diunduh kembali **hingga 5 kali** dengan pesanan yang sama. Namun, jika nilai input hilang di luar layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
       ],
       "bullets": [
         "**Sebelum unduhan dimulai setelah pembayaran,** Anda dapat membatalkan kapan saja dan mendapatkan pengembalian penuh.",
-        "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera setelah pembayaran dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan pembatalan sesuai dengan Pasal 17 Ayat 2 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik.",
+        "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan pembatalan sesuai dengan Pasal 17 Ayat 2 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik.",
         "**Jika dokumen tidak dapat dibuat karena kesalahan sistem, file tidak dapat dibuka, atau jumlah pembayaran berbeda dari pesanan,** akan diproses dengan penerbitan ulang atau pengembalian penuh.",
-        "**Keluhan tentang isi hasil** tidak termasuk dalam alasan pengembalian. Pembacaan saju adalah referensi dari perspektif Mingli tradisional dan sifatnya telah diinformasikan sebelum pembayaran (lihat pasal 1 di atas).",
+        "**Keluhan mengenai isi hasil** tidak termasuk dalam alasan pengembalian. Pembacaan saju adalah referensi dari perspektif ilmu bintang tradisional dan sifatnya telah diinformasikan sebelum pembayaran (lihat pasal 1 di atas).",
         "Permintaan ulang setelah menggunakan semua 5 kali penerbitan ulang tidak termasuk dalam alasan pengembalian.",
-        "**Jika seorang remaja melakukan pembayaran tanpa persetujuan wali hukum,** dia atau wali hukum dapat membatalkan pembayaran tersebut. Silakan beri tahu kami melalui kontak di bawah untuk mendapatkan pengembalian."
+        "**Jika seorang remaja melakukan pembayaran tanpa persetujuan dari wali hukum,** baik remaja tersebut atau wali hukum dapat membatalkan pembayaran tersebut. Silakan beri tahu kami melalui kontak di bawah untuk mendapatkan pengembalian dana."
       ]
     },
     {
       "heading": "4. Tentang Hasil Perhitungan",
       "paragraphs": [
         "Semua skor dihitung berdasarkan aturan yang dipublikasikan, sehingga jika nilai yang sama dimasukkan, hasilnya akan selalu sama.",
-        "Jika waktu kelahiran tidak dimasukkan, perhitungan akan dilakukan tanpa shiji (柱), sehingga hasilnya dapat berbeda. Semakin tepat lokasi kelahiran yang dipilih, semakin akurat perhitungan shiji.",
-        "Perhitungan Manseong menggunakan pustaka perhitungan yang dipublikasikan, dan hasil dapat berbeda tergantung pada cara penanganan waktu dan musim."
+        "Jika waktu kelahiran tidak dimasukkan, perhitungan akan dilakukan tanpa shiji (柱), sehingga hasilnya dapat berbeda. Semakin akurat tempat kelahiran dipilih, semakin tepat perhitungan shiji.",
+        "Perhitungan kalender bintang menggunakan pustaka perhitungan yang dipublikasikan, dan hasil dapat berbeda tergantung pada cara penanganan waktu dan musim."
       ]
     },
     {
       "heading": "5. Tanggung Jawab Pengguna",
       "paragraphs": [
         "Pengguna dapat memasukkan tanggal lahir orang lain, tetapi tidak boleh menggunakan hasil tersebut untuk merugikan orang lain.",
-        "Jangan gunakan hasil layanan sebagai dasar untuk keputusan yang mempengaruhi hak orang lain, seperti pernikahan, perceraian, perekrutan, atau transaksi. Layanan ini tidak dibuat untuk tujuan tersebut."
+        "Jangan gunakan hasil layanan sebagai dasar untuk keputusan yang mempengaruhi hak orang lain seperti pernikahan, perceraian, perekrutan, atau transaksi. Layanan ini tidak dibuat untuk tujuan tersebut."
       ]
     },
     {
@@ -513,28 +513,28 @@ const d6 = {
       ],
       "bullets": [
         "Mengirim permintaan berlebihan dengan alat otomatis yang mengganggu operasi layanan",
-        "Menyajikan hasil layanan seolah-olah merupakan fakta atau hasil penilaian ahli",
+        "Menyajikan hasil layanan seolah-olah itu adalah fakta atau hasil penilaian dari seorang ahli",
         "Menggandakan atau memodifikasi layanan untuk menyediakan layanan yang sama"
       ]
     },
     {
       "heading": "7. Penafian",
       "paragraphs": [
-        "Layanan hanya menyediakan referensi dan tidak bertanggung jawab atas keputusan yang diambil pengguna berdasarkan hasil dan akibatnya.",
-        "Kami tidak bertanggung jawab atas kerugian yang disebabkan oleh penghentian layanan karena alasan yang tidak dapat dikendalikan, seperti bencana alam atau gangguan dari penyedia infrastruktur."
+        "Layanan ini hanya menyediakan referensi dan tidak bertanggung jawab atas keputusan yang diambil pengguna berdasarkan hasil tersebut dan akibatnya.",
+        "Kami tidak bertanggung jawab atas kerugian yang disebabkan oleh penghentian layanan karena alasan yang tidak dapat dikendalikan seperti bencana alam atau gangguan dari penyedia infrastruktur."
       ]
     },
     {
       "heading": "8. Hak Kekayaan Intelektual",
       "paragraphs": [
-        "Hak atas layar layanan, teks, dan implementasi aturan perhitungan dimiliki oleh operator. Pengguna dapat menyimpan atau membagikan hasil untuk tujuan pribadi."
+        "Hak atas tampilan, frasa, dan implementasi aturan perhitungan layanan dimiliki oleh operator. Pengguna dapat menyimpan atau membagikan hasil untuk tujuan pribadi."
       ]
     },
     {
       "heading": "9. Perubahan Ketentuan dan Hukum yang Berlaku",
       "paragraphs": [
         "Jika ketentuan diubah, akan diposting di halaman ini bersama dengan tanggal mulai berlaku.",
-        "Ketentuan ini tunduk pada hukum Republik Korea, dan sengketa terkait penggunaan layanan akan mengikuti prosedur yang ditetapkan oleh undang-undang yang relevan."
+        "Ketentuan ini tunduk pada hukum Republik Korea, dan sengketa yang berkaitan dengan penggunaan layanan akan mengikuti prosedur yang ditetapkan oleh undang-undang yang relevan."
       ]
     }
   ],
@@ -553,9 +553,9 @@ const d7 = {
       ]
     },
     {
-      "heading": "2. Informasi yang Terkandung dalam Tautan Hasil",
+      "heading": "2. Informasi yang Termasuk dalam Tautan Hasil",
       "paragraphs": [
-        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # di alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, hanya jalur alamat yang tersisa dalam catatan akses server.",
+        "Alamat layar hasil mencakup nilai yang dimasukkan dalam bentuk yang terkode. Namun, nilai ini terletak setelah # dalam alamat, dan menurut standar web, konten setelah # tidak dikirimkan oleh browser ke server. Oleh karena itu, meskipun tautan hasil dibuka, catatan akses server hanya menyimpan jalur alamat.",
         "Jika tautan hasil dikirimkan kepada orang lain, orang tersebut juga dapat melihat hasil yang sama. Tautan itu sendiri menyimpan nilai yang dimasukkan, jadi keputusan untuk membagikannya adalah tanggung jawab pengguna."
       ]
     },
@@ -577,11 +577,11 @@ const d7 = {
       ],
       "bullets": [
         "Penyedia pihak ketiga, termasuk Google, dapat menyimpan atau membaca cookie di browser pengguna.",
-        "Google menggunakan cookie berdasarkan catatan kunjungan ke situs ini dan beberapa situs lainnya untuk menampilkan iklan.",
-        "Pengguna dapat menonaktifkan iklan yang dipersonalisasi di pengaturan iklan Google (google.com/settings/ads). Meskipun dinonaktifkan, iklan itu sendiri tetap ditampilkan, tetapi relevansinya dengan pengguna akan berkurang.",
-        "Iklan yang dipersonalisasi dari semua penyedia pihak ketiga dapat dinonaktifkan sekaligus di aboutads.info/choices.",
+        "Google menggunakan cookie untuk menampilkan iklan berdasarkan catatan kunjungan ke situs ini dan beberapa situs lainnya.",
+        "Pengguna dapat menonaktifkan iklan yang disesuaikan di pengaturan iklan Google (google.com/settings/ads). Meskipun dinonaktifkan, iklan itu sendiri tetap ditampilkan, tetapi relevansinya dengan pengguna akan berkurang.",
+        "Iklan yang disesuaikan dari semua penyedia pihak ketiga dapat dinonaktifkan sekaligus di aboutads.info/choices.",
         "Ada juga cara untuk memblokir cookie di pengaturan browser.",
-        "Pengguna dari Wilayah Ekonomi Eropa, Inggris, dan Swiss akan diminta persetujuan terlebih dahulu untuk penggunaan cookie iklan."
+        "Pengguna di Wilayah Ekonomi Eropa, Inggris, dan Swiss akan diminta persetujuan terlebih dahulu untuk penggunaan cookie iklan."
       ]
     },
     {
@@ -595,21 +595,21 @@ const d7 = {
         "Jumlah pembayaran, mata uang, dan status pembayaran (belum dibayar, pembayaran selesai, dibatalkan)",
         "Klasifikasi produk, status pemrosesan, jumlah unduhan dokumen, waktu pemesanan",
         "Bahasa layar pada saat pemesanan dan klasifikasi wilayah pembayaran (dalam negeri, luar negeri)",
-        "Masa penyimpanan — Catatan tentang pembayaran dan penyediaan barang sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik akan disimpan selama 5 tahun, dan catatan tentang pengaduan atau penyelesaian sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
+        "Masa penyimpanan — Sesuai dengan Pasal 6 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik, catatan tentang pembayaran dan penyediaan barang akan disimpan selama 5 tahun, dan catatan tentang keluhan atau penyelesaian sengketa konsumen akan disimpan selama 3 tahun sebelum dihancurkan."
       ]
     },
     {
       "heading": "6. Penyediaan kepada Pihak Ketiga dan Penanganan yang Diberikan",
       "paragraphs": [
-        "Karena tidak menyimpan data pribadi yang mengidentifikasi pengguna, tidak ada data pribadi yang disediakan kepada pihak ketiga. Pemrosesan pembayaran diserahkan kepada penyedia di bawah ini.",
-        "Untuk operasi layanan, infrastruktur hosting dari {hostingProvider} digunakan, dan dalam proses ini, catatan akses di Pasal 3 diproses sesuai dengan kebijakan penyedia tersebut.",
-        "Pembayaran domestik diproses oleh Toss Payments, sedangkan pembayaran internasional diproses melalui PayPal oleh PortOne. Informasi metode pembayaran seperti nomor kartu dan nomor rekening diproses langsung oleh penyedia tersebut, dan layanan tidak menerima atau menyimpannya."
+        "Karena tidak menyimpan informasi pribadi yang mengidentifikasi pengguna, tidak ada informasi pribadi yang disediakan kepada pihak ketiga. Pemrosesan pembayaran diserahkan kepada penyedia di bawah ini.",
+        "Layanan ini menggunakan infrastruktur hosting dari {hostingProvider}, dan dalam proses ini, catatan akses di Pasal 3 diproses sesuai dengan kebijakan penyedia tersebut.",
+        "Pembayaran domestik diproses oleh Toss Payments, dan pembayaran internasional diproses melalui PayPal oleh PortOne. Informasi metode pembayaran seperti nomor kartu dan nomor rekening diproses langsung oleh penyedia ini, dan layanan tidak menerima atau menyimpannya."
       ]
     },
     {
       "heading": "7. Hak Pengguna",
       "paragraphs": [
-        "Karena nilai yang dimasukkan dalam pembacaan saju tidak disimpan, tidak ada yang dapat diminta untuk dilihat, diperbaiki, atau dihapus. Catatan pesanan yang tersisa setelah pembayaran harus disimpan selama periode yang ditentukan oleh hukum, sehingga tidak dapat dihapus selama periode tersebut, dan setelah periode tersebut berakhir, akan dihancurkan.",
+        "Karena nilai yang dimasukkan dalam pembacaan saju tidak disimpan, tidak ada pihak yang dapat diminta untuk melihat, mengoreksi, atau menghapus. Catatan pesanan yang tersisa setelah pembayaran memiliki kewajiban untuk disimpan selama periode yang ditentukan oleh hukum, sehingga tidak dapat dihapus selama periode tersebut, dan setelah periode berakhir, akan dihancurkan.",
         "Pengguna dapat menghapus semua jejak input hanya dengan menghapus tautan hasil di bilah alamat browser.",
         "Jika ada pertanyaan terkait penggunaan layanan, silakan beri tahu kami melalui kontak di bawah ini."
       ]
@@ -630,7 +630,7 @@ const d7 = {
     {
       "heading": "10. Perubahan Kebijakan",
       "paragraphs": [
-        "Jika kebijakan ini diubah, tanggal mulai dan isi perubahan akan diposting di halaman ini. Jika ada perubahan yang benar-benar mempengaruhi pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, kami akan memberi tahu terlebih dahulu tentang perubahan tersebut."
+        "Jika kebijakan ini diubah, tanggal mulai dan rincian perubahan akan diposting di halaman ini. Jika ada perubahan nyata dalam pemrosesan, seperti mulai menampilkan iklan atau menjual produk berbayar, kami akan memberi tahu terlebih dahulu tentang perubahan tersebut."
       ]
     }
   ],

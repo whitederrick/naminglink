@@ -109,7 +109,7 @@ const feeSectionKo: LegalSection = paymentsConfigured
       heading: "2. 이용료",
       paragraphs: [
         "현재 서비스는 전부 무료로 제공되며 회원가입이 필요하지 않습니다.",
-        "유료 상품(리포트 PDF 두 가지)의 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
+        "유료 상품(리포트 PDF 하나)의 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
       ],
     };
 
@@ -155,14 +155,14 @@ const feeSectionEn: LegalSection = paymentsConfigured
       heading: "2. Fees",
       paragraphs: [
         "The service is currently free in full and requires no account.",
-        "If we begin selling the paid products (the two PDF reports), the conditions in section 3 will apply. We will publish these terms again before sales begin.",
+        "If we begin selling the paid product (the PDF report), the conditions in section 3 will apply. We will publish these terms again before sales begin.",
       ],
     };
 
 const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
   heading: "3. Paid products and refunds",
   paragraphs: [
-    "There are **two paid products**, both PDF reports. Each turns the on-screen result into a document and adds material that is not shown on screen.",
+    "There is **one paid product**, a PDF report. It turns the on-screen result into a document and adds material that is not shown on screen.",
     `**${REPORT_PAGE_COUNT} A4 pages** — cover and summary, your character with its strengths and things to watch, the eight characters of your natal chart and the balance of the five elements, the strength of your day master and what it needs now, the ten gods of your four pillars and what stands out in this chart, the four areas of life read from the natal chart (money, affection, work, health) with the reasoning behind each score, the true solar time correction applied to your birth hour, and the outlook for this year. ${prices.domestic} (VAT included) for domestic payment, ${prices.global} for international payment.`,
     "**Today’s fortune is not part of this document.** It changes daily, so it stays free on screen; this document is the reading of your natal chart, which does not change, together with the outlook for this year.",
     "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
@@ -395,7 +395,7 @@ const koDocuments = (
       {
         heading: "1. 상품의 성격",
         paragraphs: [
-          "판매하는 상품은 **사주 총운 리포트 PDF(A4 5장)**와 **프리미엄 총운 리포트 PDF(A4 7장)** 두 가지이며, 둘 다 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
+          `판매하는 상품은 **「평생 사주와 올해의 운세 리포트」 PDF(A4 ${REPORT_PAGE_COUNT}장) 하나**이며, 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.`,
           "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 그래서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
         ],
       },
@@ -707,7 +707,7 @@ function fillPlaceholders(
     "{email}": company.email,
     "{hostingProvider}": company.hostingProvider,
     "{privacyOfficer}": company.privacyOfficer,
-    // 자리 이름은 인연링크에서 물려받은 것이다(`{price…}`=총운, `{priceAffinity…}`=프리미엄).
+    // 자리 이름은 인연링크에서 물려받은 것이다. 상품이 하나가 되며 둘로 줄었다(2026-08-05).
     // 21로케일 번역이 이미 이 이름으로 쓰고 있어 **뜻만 옮기고 이름은 두었다** — 이름을 갈면
     // 번역 파일 전부를 손대야 한다. ⑦에서 로케일을 다시 쓸 때 함께 정리할 것.
     "{priceDomestic}": prices.domestic,

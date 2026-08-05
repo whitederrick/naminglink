@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = path.join(ROOT, "src", "lib", "legal-locales");
@@ -52,14 +53,26 @@ const PLACEHOLDER = /\{(customerCenter|email|hostingProvider|privacyOfficer|pric
 
 const koDocs = JSON.parse(readFileSync(path.join(DIR, "_ko-docs.json"), "utf8"));
 
-/** 같은 내용이 조합마다 반복되므로 한 번만 번역한다. */
+/**
+ * 같은 내용이 조합마다 반복되므로 한 번만 번역한다.
+ *
+ * **`id`에 원문 해시가 들어간다.** 예전에는 순번(`byHash.size`)이었는데, 그러면 ko 문구를
+ * 고쳐도 번호가 그대로라 **캐시가 옛 번역을 돌려준다** — 스크립트는 "ok"라고 찍고 파일은
+ * 그대로다. 실제로 상품을 하나로 합친 뒤 21로케일 약관이 옛 두 상품 문장을 그대로 이고
+ * 있었고, 구조 검사기는 섹션 수·자리표시자만 보므로 잡지 못했다(2026-08-06).
+ *
+ * 해시를 키로 두면 문구가 바뀐 문서만 다시 번역된다 — 캐시를 통째로 지울 필요도 없다.
+ */
 function uniqueDocuments() {
   const byHash = new Map();
   for (const combo of COMBOS) {
     for (const key of KEYS) {
       const doc = koDocs[combo][key];
       const hash = JSON.stringify(doc);
-      if (!byHash.has(hash)) byHash.set(hash, { doc, key, id: byHash.size });
+      if (!byHash.has(hash)) {
+        const digest = createHash("sha256").update(hash).digest("hex").slice(0, 12);
+        byHash.set(hash, { doc, key, id: `${key}-${digest}` });
+      }
     }
   }
   return byHash;
@@ -216,12 +229,20 @@ async function translateByItem(langName, docKey, source, stringCache) {
   };
 }
 
-function fileSource(locale, translations, layout) {
+/**
+ * `layout`은 문서 **id**를 담고, 상수 이름은 **순번**으로 짓는다.
+ *
+ * 예전에는 id가 곧 순번이라 둘을 섞어 써도 맞았다. id에 원문 해시를 넣자(캐시가 옛 번역을
+ * 돌려주던 것을 고치면서) `const d0`을 만들어 놓고 `dprivacy-c054f5b5`를 참조하는 파일이
+ * 나왔다 — **하이픈은 식별자에 못 쓴다.** id를 순번으로 되짚어 쓴다.
+ */
+function fileSource(locale, translations, layout, order) {
+  const indexOf = new Map(order.map((id, index) => [id, index]));
   const consts = translations
     .map((doc, index) => `const d${index} = ${JSON.stringify(doc, null, 2)};`)
     .join("\n\n");
   const combos = COMBOS.map((combo) => {
-    const entries = KEYS.map((key) => `    ${key}: d${layout[combo][key]},`).join("\n");
+    const entries = KEYS.map((key) => `    ${key}: d${indexOf.get(layout[combo][key])},`).join("\n");
     return `  ${combo}: {\n${entries}\n  },`;
   }).join("\n");
   return `import type { LegalLocaleDocuments } from "@/lib/legal-locales/types";
@@ -339,7 +360,7 @@ async function main() {
       }
       writeFileSync(
         path.join(DIR, `${locale}.ts`),
-        fileSource(locale, translations, layout),
+        fileSource(locale, translations, layout, uniqueList.map((item) => item.id)),
         "utf8",
       );
       console.log(`  ok    ${locale}`);

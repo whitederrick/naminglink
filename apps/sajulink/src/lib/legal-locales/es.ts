@@ -6,26 +6,26 @@ import type { LegalLocaleDocuments } from "@/lib/legal-locales/types";
 
 const d0 = {
   "title": "Política de Tratamiento de Datos Personales",
-  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política describe qué información se recibe, qué no se deja y qué se registra automáticamente.",
+  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política explica qué información se recibe, qué no se deja y qué se registra automáticamente.",
   "sections": [
     {
       "heading": "1. Información que no se almacena",
       "paragraphs": [
-        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju no se **almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
+        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju **no se almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
         "No se registran en la base de datos ni se guardan en archivos separados. Dado que no hay registro de membresía, los valores ingresados no se vinculan a ninguna persona específica."
       ]
     },
     {
       "heading": "2. Información contenida en el enlace de resultados",
       "paragraphs": [
-        "La dirección de la pantalla de resultados incluye los valores ingresados codificados. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda el camino de la dirección en el registro de acceso del servidor.",
+        "La dirección de la pantalla de resultados incluye los valores ingresados codificados. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, aunque se abra el enlace de resultados, solo quedará en el registro de acceso del servidor la ruta de la dirección.",
         "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo queda a criterio del usuario."
       ]
     },
     {
       "heading": "3. Información recopilada automáticamente",
       "paragraphs": [
-        "No se recopila información para identificar a los usuarios. Sin embargo, se registran automáticamente los registros mínimos necesarios para la operación del servicio por parte del proveedor de infraestructura."
+        "No se recopila información para identificar a los usuarios del servicio. Sin embargo, se registran automáticamente los mínimos necesarios para la operación del servicio por parte del proveedor de infraestructura."
       ],
       "bullets": [
         "Dirección IP de acceso, fecha y hora de acceso, tipo de navegador y otros registros generales de acceso al servidor",
@@ -36,35 +36,35 @@ const d0 = {
       "heading": "4. Cookies y publicidad",
       "paragraphs": [
         "El servicio en sí no utiliza cookies para rastrear a los usuarios.",
-        "Actualmente, no se publican anuncios en este servicio. Si en el futuro se publican anuncios, el proveedor de anuncios (por ejemplo, Google) puede utilizar cookies para la publicación de anuncios. En ese caso, se modificará esta cláusula para aclarar qué ha cambiado antes de comenzar."
+        "Actualmente, no se muestran anuncios en este servicio. Si en el futuro se comienzan a mostrar anuncios, el proveedor de anuncios (por ejemplo, Google) podrá utilizar cookies para la publicación de anuncios. En ese momento, se modificará esta cláusula para aclarar qué ha cambiado antes de comenzar."
       ]
     },
     {
       "heading": "5. Información almacenada al realizar un pago",
       "paragraphs": [
-        "Actualmente no se venden productos de pago, por lo que no hay información almacenada relacionada con pagos.",
-        "Cuando se inicie la venta, se almacenarán los siguientes elementos para el procesamiento de pagos y la conservación de registros de transacciones según la legislación. **En ese momento, tampoco se almacenarán los valores ingresados para la interpretación de saju ni se recibirán datos que identifiquen al usuario, como nombre, contacto o dirección.**"
+        "Actualmente, no se venden productos de pago, por lo que no hay información almacenada relacionada con pagos.",
+        "Cuando se inicie la venta, se almacenarán los siguientes elementos para el procesamiento de pagos y la conservación de registros de transacciones según la legislación. **En ese momento, tampoco se almacenarán los valores ingresados para la interpretación de saju y el PDF generado**, ni se recibirán datos que identifiquen al usuario, como nombre, contacto o dirección."
       ],
       "bullets": [
         "Número de pedido e identificador de pago",
         "Monto del pago, moneda y estado del pago (no pagado, pagado, cancelado)",
         "Clasificación del producto, estado de procesamiento, número de descargas del documento, hora del pedido",
-        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional o internacional)",
-        "Período de conservación — Según el Artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros relacionados con el pago y el suministro de bienes se conservarán durante 5 años, y los registros sobre quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
+        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional, internacional)",
+        "Período de conservación — De acuerdo con el Artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros relacionados con el pago y el suministro de bienes se conservarán durante 5 años, y los registros sobre quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
       ]
     },
     {
       "heading": "6. Provisión a terceros y subcontratación",
       "paragraphs": [
-        "No hay información personal almacenada, por lo que no se proporciona información personal a terceros.",
-        "Para la operación del servicio, se utiliza la infraestructura de alojamiento de {hostingProvider}, y en este proceso, los registros de acceso mencionados en el punto 3 se procesan de acuerdo con la política de dicho proveedor.",
-        "Cuando se inicie la venta de productos de pago, los pagos nacionales se delegarán a Toss Payments y los pagos internacionales a PortOne (PayPal). La información del medio de pago, como el número de tarjeta o el número de cuenta, también será procesada directamente por estos proveedores, y el servicio no la recibirá."
+        "No hay datos personales almacenados, por lo que no se proporciona información personal a terceros.",
+        "Se utiliza la infraestructura de alojamiento de {hostingProvider} para la operación del servicio, y en este proceso, los registros de acceso mencionados en el punto 3 se procesan de acuerdo con la política de dicho proveedor.",
+        "Cuando se inicie la venta de productos de pago, los pagos nacionales se delegarán a Toss Payments, y los pagos internacionales a PortOne (PayPal). La información de los métodos de pago, como números de tarjeta y cuentas, también será procesada directamente por estos proveedores, y el servicio no la recibirá."
       ]
     },
     {
       "heading": "7. Derechos del usuario",
       "paragraphs": [
-        "No hay información personal almacenada, por lo que no hay a quién solicitar la revisión, corrección o eliminación.",
+        "No hay datos personales almacenados, por lo que no hay a quién solicitar la revisión, corrección o eliminación.",
         "Los usuarios pueden eliminar todos los rastros de entrada simplemente borrando el enlace de resultados en la barra de direcciones del navegador.",
         "Si hay preguntas relacionadas con el uso del servicio, comuníquese a través de los siguientes contactos."
       ]
@@ -85,7 +85,7 @@ const d0 = {
     {
       "heading": "10. Cambios en la política",
       "paragraphs": [
-        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si hay cambios reales en el contenido del procesamiento, como la publicación de anuncios o el inicio de la venta de productos de pago, se notificará primero el hecho del cambio."
+        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si hay cambios reales en el contenido del tratamiento, como la publicación de anuncios o el inicio de la venta de productos de pago, se notificará primero el hecho del cambio."
       ]
     }
   ],
@@ -109,7 +109,7 @@ const d1 = {
       "heading": "2. Tarifas de uso",
       "paragraphs": [
         "El servicio actual se ofrece de forma gratuita y no se requiere registro.",
-        "Al comenzar la venta de productos de pago (dos tipos de informes PDF), se aplicarán las condiciones del artículo 3 a continuación. Se notificará nuevamente estos términos antes del inicio de la venta."
+        "Al comenzar la venta de productos de pago (un informe PDF), se aplicarán las condiciones del artículo 3 a continuación. Se notificará nuevamente estos términos antes del inicio de la venta."
       ]
     },
     {
@@ -182,12 +182,12 @@ const d1 = {
 
 const d2 = {
   "title": "Política de reembolso y cancelación",
-  "intro": "Esta es la base para la cancelación y reembolso del informe de lectura de vida saju (사주). Se ha recopilado información similar a la cláusula 3 de los términos y condiciones.",
+  "intro": "Esta es la base para la cancelación y reembolso del informe de lectura de vida saju (사주) en formato PDF. Hemos recopilado información similar a la sección 3 de los términos y condiciones.",
   "sections": [
     {
       "heading": "1. Naturaleza del producto",
       "paragraphs": [
-        "Los productos que se venden son **informe de lectura de vida saju PDF (A4 5 páginas)** y **informe premium de lectura de vida PDF (A4 7 páginas)**, ambos son contenido digital que se genera y se envía de inmediato una vez que se aprueba el pago.",
+        "El producto que se vende es **un informe de vida saju (사주) y pronóstico del año en formato PDF (A4 9 páginas)**, y una vez que el pago es aprobado, se genera el documento y se envía de inmediato como contenido digital.",
         "**El servicio no almacena los datos ingresados por el usuario ni el archivo PDF generado.** Por lo tanto, el archivo descargado debe ser guardado por el usuario."
       ],
       "bullets": []
@@ -195,11 +195,11 @@ const d2 = {
     {
       "heading": "2. Derecho de desistimiento",
       "paragraphs": [
-        "Se sigue el criterio establecido por la Ley de Comercio Electrónico."
+        "Se rige por los criterios establecidos en la Ley de Comercio Electrónico."
       ],
       "bullets": [
         "**Antes de que comience la descarga,** se puede cancelar en cualquier momento y recibir un reembolso completo.",
-        "**Después de que se complete la descarga,** el derecho de desistimiento por simple cambio de opinión está restringido. Es contenido digital que se proporciona inmediatamente tras el pago y no puede ser restaurado, lo que se considera una razón de restricción según el artículo 17, párrafo 2 de la Ley de Protección al Consumidor en el Comercio Electrónico. Se informa de este hecho en la pantalla de pago y se obtiene el consentimiento."
+        "**Una vez completada la descarga,** se limita el derecho de desistimiento por simple cambio de opinión. Se trata de contenido digital que se proporciona inmediatamente tras el pago y cuya restauración no es posible, lo que se considera una razón de restricción según el artículo 17, párrafo 2 de la Ley de Protección al Consumidor en el Comercio Electrónico. Esta información se comunica y se obtiene el consentimiento en la pantalla de pago."
       ]
     },
     {
@@ -208,17 +208,17 @@ const d2 = {
         "En los siguientes casos, se verificará la razón y se procesará un reembolso completo o una reemisión."
       ],
       "bullets": [
-        "Si no se generó el documento debido a un error del sistema",
-        "Si el archivo descargado no se abre",
-        "Si el monto del pago es diferente al de la orden",
-        "**Si un menor realizó el pago sin el consentimiento del representante legal** — El propio menor o su representante legal pueden solicitar la cancelación."
+        "Si, debido a un error del sistema, no se generó el documento.",
+        "Si el archivo descargado no se puede abrir.",
+        "Si el monto del pago es diferente al de la orden.",
+        "**Si un menor realiza el pago sin el consentimiento del representante legal** — El propio menor o su representante legal pueden solicitar la cancelación."
       ]
     },
     {
       "heading": "4. Casos que no son motivo de reembolso",
       "paragraphs": [],
       "bullets": [
-        "**Quejas sobre el contenido del resultado.** La interpretación del saju (사주) es un material de referencia desde la perspectiva de la astrología tradicional, y su naturaleza se informa antes del pago.",
+        "**Insatisfacción con el contenido del resultado.** La interpretación del saju (사주) es un material de referencia desde la perspectiva de la astrología tradicional, y su naturaleza se informa antes del pago.",
         "Solicitudes de reemisión después de haber utilizado las 5 reemisiones permitidas."
       ]
     },
@@ -226,7 +226,7 @@ const d2 = {
       "heading": "5. Método de recepción",
       "paragraphs": [
         "Las solicitudes de reembolso o consultas deben enviarse al centro de atención al cliente ({customerCenter}) o por correo electrónico ({email}). Si proporciona el número de pedido, la verificación será más rápida.",
-        "Los reembolsos se realizarán a través del método de pago utilizado, y dependiendo de la tarjeta o el proveedor de pagos, puede tardar entre 3 y 7 días hábiles en reflejarse."
+        "Los reembolsos se realizarán a través del método de pago utilizado, y dependiendo de la tarjeta o el proveedor de pago, puede tardar de 3 a 7 días hábiles en reflejarse."
       ]
     }
   ],
@@ -235,21 +235,21 @@ const d2 = {
 
 const d3 = {
   "title": "Información de precios",
-  "intro": "Se informa sobre el alcance de los servicios gratuitos y los precios de los productos de pago.",
+  "intro": "Se proporciona información sobre el alcance gratuito y los precios de los productos de pago.",
   "sections": [
     {
-      "heading": "1. Gratuito",
+      "heading": "1. Gratis",
       "paragraphs": [
         "**La lectura de saju (사주) y la consulta de la fortuna del día son gratuitas.** No se requiere registro.",
-        "Puede ver en pantalla los ocho caracteres de su natal chart (원국), el equilibrio de los cinco elementos, la fuerza y debilidad del día, la energía necesaria en este momento, la puntuación y clasificación de la fortuna del día, así como la puntuación en las cuatro áreas de la vida."
+        "Puede ver en pantalla los ocho caracteres del natal chart (원국), el equilibrio de los cinco elementos, la fuerza y debilidad del día, la energía necesaria en este momento, la puntuación y clasificación de la fortuna de hoy, así como la puntuación en las cuatro áreas de la vida."
       ]
     },
     {
-      "heading": "2. Informe de lectura de saju (사주) y fortuna del año en PDF (de pago)",
+      "heading": "2. Informe de lectura de vida de saju (사주) y fortuna de este año PDF (de pago)",
       "paragraphs": [
         "Pago nacional {priceDomestic} (incluido IVA) · Pago internacional {priceGlobal}",
-        "Le proporcionamos un documento PDF de **9 páginas A4** con los resultados en pantalla. Esto incluye información que no aparece en pantalla — la fuerza y debilidad del día, la energía necesaria en este momento, los diez dioses de las cuatro columnas y los lugares destacados en este saju (사주), el análisis de Wang Sang Hyu Su Sa, las cuatro áreas de la vida vistas en el natal chart (원국) y sus números de referencia, los detalles de la corrección de Jin Tae Yang Si, y la fortuna de este año — todo esto se incluye.",
-        "Puede volver a descargarlo **hasta 5 veces** con el mismo pedido. Sin embargo, si los valores de entrada desaparecen al salir de la pantalla de resultados, no podrá volver a crearlo, por lo que le recomendamos guardar el archivo inmediatamente después del pago."
+        "Le proporcionamos un documento PDF de **9 páginas A4** con los resultados en pantalla. Incluye información que no aparece en pantalla — la fuerza y debilidad del día, la energía necesaria en este momento, los diez dioses de los cuatro pilares, las posiciones destacadas en este saju (사주), el análisis de Wang Sang Hyu Su Sa, las cuatro áreas de la vida vistas en el natal chart (원국) y sus números de referencia, los detalles de corrección de Jin Tae Yang Si, y la fortuna de este año — todo esto se incluye.",
+        "Puede descargarlo nuevamente **hasta 5 veces** con el mismo pedido. Sin embargo, si los valores de entrada se pierden fuera de la pantalla de resultados, no podrá volver a crearlo, así que guarde el archivo inmediatamente después del pago."
       ]
     },
     {
@@ -257,11 +257,11 @@ const d3 = {
       "paragraphs": [
         "**Nacional** — Puede utilizar tarjetas de crédito/débito y pagos simplificados (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.) a través de Toss Payments.",
         "**Internacional** — Puede pagar a través de PayPal mediante PortOne.",
-        "El monto final del pago se basa en la cantidad que se muestra en la pantalla de pago."
+        "El monto final del pago se basa en la cantidad mostrada en la pantalla de pago."
       ]
     },
     {
-      "heading": "5. Cambios de precios",
+      "heading": "5. Cambios de precio",
       "paragraphs": [
         "Si se realizan cambios en los precios, se publicarán primero en esta página. Los pedidos que ya han sido pagados no se verán afectados por los precios cambiados."
       ]
@@ -278,109 +278,13 @@ const d4 = {
       "heading": "1. Información que no se almacena",
       "paragraphs": [
         "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju no se **almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
-        "No se registran en la base de datos ni se dejan en archivos separados. Dado que no hay registro de membresía, los valores ingresados no se vinculan a ninguna persona específica."
-      ]
-    },
-    {
-      "heading": "2. Información contenida en el enlace de resultados",
-      "paragraphs": [
-        "La dirección de la pantalla de resultados incluye los valores ingresados codificados. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
-        "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo queda a criterio del usuario."
-      ]
-    },
-    {
-      "heading": "3. Información recopilada automáticamente",
-      "paragraphs": [
-        "No se recopila información para identificar a los usuarios del servicio. Sin embargo, se registran automáticamente los registros mínimos necesarios para la operación del servicio por parte del proveedor de infraestructura."
-      ],
-      "bullets": [
-        "Dirección IP de acceso, fecha y hora de acceso, tipo de navegador y otros registros generales de acceso al servidor",
-        "Información del país — se utiliza únicamente para determinar automáticamente el idioma de la pantalla y no se almacena"
-      ]
-    },
-    {
-      "heading": "4. Cookies y publicidad",
-      "paragraphs": [
-        "El servicio en sí no utiliza cookies para identificar o rastrear a los usuarios. La información ingresada en la interpretación de saju no se transmite a los anunciantes.",
-        "Este servicio publica anuncios a través de Google AdSense. En este proceso, ocurren las siguientes situaciones."
-      ],
-      "bullets": [
-        "Proveedores de terceros, incluidos Google, pueden almacenar o leer cookies en el navegador del usuario.",
-        "Google utiliza cookies para mostrar anuncios basados en el historial de visitas a este y otros sitios.",
-        "Los usuarios pueden desactivar los anuncios personalizados en la configuración de anuncios de Google (google.com/settings/ads). Aunque se desactiven, los anuncios seguirán apareciendo, pero serán menos relevantes para el usuario.",
-        "Los anuncios personalizados de todos los proveedores de terceros se pueden desactivar de una vez en aboutads.info/choices.",
-        "También hay formas de bloquear cookies en la configuración del navegador.",
-        "A los usuarios de la Zona Económica Europea, Reino Unido y Suiza se les solicita primero el consentimiento para el uso de cookies publicitarias."
-      ]
-    },
-    {
-      "heading": "5. Información almacenada al realizar un pago",
-      "paragraphs": [
-        "Actualmente no se venden productos de pago, por lo que no hay información almacenada relacionada con pagos.",
-        "Cuando se inicie la venta, se almacenarán los siguientes elementos para el procesamiento de pagos y la conservación de registros de transacciones según la legislación. **En ese momento, tampoco se almacenarán los valores ingresados en la interpretación de saju ni se recibirán datos que identifiquen al usuario, como nombre, contacto o dirección.**"
-      ],
-      "bullets": [
-        "Número de pedido e identificador de pago",
-        "Monto del pago, moneda y estado del pago (no pagado, pagado, cancelado)",
-        "Clasificación del producto, estado de procesamiento, número de descargas del documento, fecha y hora del pedido",
-        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional o internacional)",
-        "Período de conservación — Según el Artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros de pago y suministro de bienes se conservarán durante 5 años, y los registros de quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
-      ]
-    },
-    {
-      "heading": "6. Provisión a terceros y delegación de procesamiento",
-      "paragraphs": [
-        "No hay datos personales almacenados, por lo que no se proporciona información personal a terceros.",
-        "Para la operación del servicio, se utiliza la infraestructura de alojamiento de {hostingProvider}, y en este proceso, los registros de acceso mencionados en el punto 3 se procesan de acuerdo con la política de dicho proveedor.",
-        "Cuando se inicie la venta de productos de pago, los pagos nacionales se delegarán a Toss Payments y los pagos internacionales a PortOne (PayPal). La información de los métodos de pago, como números de tarjeta y cuentas, será procesada directamente por estos proveedores, y el servicio no la recibirá."
-      ]
-    },
-    {
-      "heading": "7. Derechos del usuario",
-      "paragraphs": [
-        "No hay datos personales almacenados, por lo que no hay a quién solicitar la revisión, corrección o eliminación.",
-        "Los usuarios pueden eliminar todos los rastros de entrada simplemente borrando el enlace de resultados en la barra de direcciones del navegador.",
-        "Si hay preguntas relacionadas con el uso del servicio, comuníquese a través de los siguientes contactos."
-      ]
-    },
-    {
-      "heading": "8. Datos personales de menores",
-      "paragraphs": [
-        "Este servicio no está dirigido a niños menores de 14 años y no recopila datos personales de ellos."
-      ]
-    },
-    {
-      "heading": "9. Responsable de la protección de datos personales",
-      "paragraphs": [
-        "Responsable de protección: {privacyOfficer}",
-        "Contacto: {email} / {customerCenter}"
-      ]
-    },
-    {
-      "heading": "10. Cambios en la política",
-      "paragraphs": [
-        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si hay cambios reales en el contenido del procesamiento, como la publicación de anuncios o el inicio de la venta de productos de pago, se notificará primero sobre el hecho del cambio."
-      ]
-    }
-  ],
-  "effectiveLabel": "Fecha de entrada en vigor"
-};
-
-const d5 = {
-  "title": "Política de Tratamiento de Datos Personales",
-  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política explica qué información se recibe, qué no se deja y qué se registra automáticamente.",
-  "sections": [
-    {
-      "heading": "1. Información que no se almacena",
-      "paragraphs": [
-        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju no se **almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
         "No se registran en la base de datos ni se guardan en archivos separados. Dado que no hay registro de membresía, los valores ingresados no se vinculan a ninguna persona específica."
       ]
     },
     {
       "heading": "2. Información contenida en el enlace de resultados",
       "paragraphs": [
-        "La dirección de la pantalla de resultados incluye los valores ingresados en forma codificada. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
+        "La dirección de la pantalla de resultados incluye los valores ingresados codificados. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
         "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo queda a criterio del usuario."
       ]
     },
@@ -397,21 +301,117 @@ const d5 = {
     {
       "heading": "4. Cookies y publicidad",
       "paragraphs": [
+        "El servicio en sí no utiliza cookies para identificar o rastrear a los usuarios. La información ingresada para la interpretación de saju no se transmite a los anunciantes.",
+        "Este servicio muestra anuncios a través de Google AdSense. En este proceso, ocurren las siguientes situaciones."
+      ],
+      "bullets": [
+        "Los proveedores de terceros, incluidos Google, pueden almacenar o leer cookies en el navegador del usuario.",
+        "Google utiliza cookies para mostrar anuncios basados en el historial de visitas a este y otros sitios.",
+        "Los usuarios pueden desactivar los anuncios personalizados en la configuración de anuncios de Google (google.com/settings/ads). Aunque se desactiven, los anuncios seguirán apareciendo, pero su relevancia para el usuario disminuirá.",
+        "Los anuncios personalizados de todos los proveedores de terceros se pueden desactivar de una vez en aboutads.info/choices.",
+        "También hay formas de bloquear cookies en la configuración del navegador.",
+        "A los usuarios de la Zona Económica Europea, Reino Unido y Suiza se les solicita primero el consentimiento para el uso de cookies publicitarias."
+      ]
+    },
+    {
+      "heading": "5. Información almacenada al realizar pagos",
+      "paragraphs": [
+        "Actualmente no se venden productos de pago, por lo que no hay información almacenada relacionada con pagos.",
+        "Cuando se inicie la venta, se almacenarán los siguientes elementos para el procesamiento de pagos y la conservación de registros de transacciones según la ley. **En ese momento, tampoco se almacenarán los valores ingresados para la interpretación de saju ni se recibirán información que identifique al usuario, como nombre, contacto o dirección.**"
+      ],
+      "bullets": [
+        "Número de pedido e identificador de pago",
+        "Monto del pago, moneda y estado del pago (no pagado, pagado, cancelado)",
+        "Clasificación del producto, estado de procesamiento, número de descargas del documento, fecha y hora del pedido",
+        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional o internacional)",
+        "Período de conservación — Según el artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros de pago y suministro de bienes se conservarán durante 5 años, y los registros de quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
+      ]
+    },
+    {
+      "heading": "6. Provisión a terceros y delegación de procesamiento",
+      "paragraphs": [
+        "No hay información personal almacenada, por lo que no se proporciona información personal a terceros.",
+        "Para la operación del servicio, se utiliza la infraestructura de alojamiento de {hostingProvider}, y en este proceso, los registros de acceso mencionados en el punto 3 se procesan de acuerdo con la política de dicho proveedor.",
+        "Cuando se inicie la venta de productos de pago, los pagos nacionales se delegarán a Toss Payments y los pagos internacionales a PortOne (PayPal). La información del medio de pago, como el número de tarjeta o el número de cuenta, también será procesada directamente por estos proveedores, y el servicio no la recibirá."
+      ]
+    },
+    {
+      "heading": "7. Derechos del usuario",
+      "paragraphs": [
+        "No hay información personal almacenada, por lo que no hay destinatarios a los que se pueda solicitar acceso, corrección o eliminación.",
+        "Los usuarios pueden eliminar todos los rastros de entrada simplemente borrando el enlace de resultados en la barra de direcciones del navegador.",
+        "Si hay preguntas relacionadas con el uso del servicio, comuníquese a través de los siguientes contactos."
+      ]
+    },
+    {
+      "heading": "8. Información personal de menores",
+      "paragraphs": [
+        "Este servicio no está dirigido a niños menores de 14 años y no recopila información personal de ellos."
+      ]
+    },
+    {
+      "heading": "9. Responsable de la protección de datos personales",
+      "paragraphs": [
+        "Responsable de protección: {privacyOfficer}",
+        "Contacto: {email} / {customerCenter}"
+      ]
+    },
+    {
+      "heading": "10. Cambios en la política",
+      "paragraphs": [
+        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si hay cambios reales en el contenido del procesamiento, como el inicio de la publicación de anuncios o la venta de productos de pago, se notificará primero sobre el hecho del cambio."
+      ]
+    }
+  ],
+  "effectiveLabel": "Fecha de entrada en vigor"
+};
+
+const d5 = {
+  "title": "Política de Tratamiento de Datos Personales",
+  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política describe qué información se recibe, qué no se deja y qué se registra automáticamente.",
+  "sections": [
+    {
+      "heading": "1. Información que no se almacena",
+      "paragraphs": [
+        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju **no se almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
+        "No se registran en la base de datos ni se guardan en archivos separados. Dado que no hay registro de membresía, los valores ingresados no se vinculan a ninguna persona específica."
+      ]
+    },
+    {
+      "heading": "2. Información contenida en el enlace de resultados",
+      "paragraphs": [
+        "La dirección de la pantalla de resultados incluye los valores ingresados en forma codificada. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
+        "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo corresponde al usuario."
+      ]
+    },
+    {
+      "heading": "3. Información recopilada automáticamente",
+      "paragraphs": [
+        "No se recopila información para identificar a los usuarios. Sin embargo, se registran automáticamente los registros mínimos necesarios para la operación del servicio por parte del proveedor de infraestructura."
+      ],
+      "bullets": [
+        "Dirección IP de acceso, fecha y hora de acceso, tipo de navegador y otros registros generales de acceso al servidor",
+        "Información del país — se utiliza únicamente para determinar automáticamente el idioma de la pantalla y no se almacena"
+      ]
+    },
+    {
+      "heading": "4. Cookies y publicidad",
+      "paragraphs": [
         "El servicio en sí no utiliza cookies para rastrear a los usuarios.",
-        "Actualmente, no se publican anuncios en este servicio. Si en el futuro se comienzan a publicar anuncios, el proveedor de anuncios (por ejemplo, Google) puede utilizar cookies para la publicación de anuncios. En ese caso, se modificará esta cláusula para aclarar qué ha cambiado antes de comenzar."
+        "Actualmente, no se publican anuncios en este servicio. Si en el futuro se publican anuncios, el proveedor de anuncios (por ejemplo, Google) puede utilizar cookies para la publicación de anuncios. En ese caso, se modificará esta cláusula para aclarar qué ha cambiado antes de comenzar."
       ]
     },
     {
       "heading": "5. Información almacenada al realizar un pago",
       "paragraphs": [
-        "Al pagar por productos de pago (informe PDF), se almacena la información del pedido para el procesamiento del pago y la conservación de registros de transacciones según la ley.",
+        "Al pagar por productos de pago (informe PDF), se almacenan los datos del pedido para el procesamiento del pago y la conservación de registros de transacciones según la legislación.",
         "**Los valores ingresados para la interpretación de saju y el PDF generado no se almacenan, incluso si se realiza el pago.** El principio del párrafo 1 se mantiene sin cambios, independientemente de si se realiza el pago. Los elementos que se almacenan son los siguientes, y no incluyen información que identifique al usuario, como nombre, contacto o dirección."
       ],
       "bullets": [
         "Número de pedido e identificador de pago",
         "Monto del pago, moneda y estado del pago (no pagado, pagado, cancelado)",
         "Clasificación del producto, estado de procesamiento, número de descargas del documento, hora del pedido",
-        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional, internacional)",
+        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional o internacional)",
         "Período de conservación — Según el Artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros de pago y suministro de bienes se conservarán durante 5 años, y los registros de quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
       ]
     },
@@ -419,14 +419,14 @@ const d5 = {
       "heading": "6. Provisión a terceros y subcontratación del procesamiento",
       "paragraphs": [
         "No se almacenan datos personales que identifiquen a los usuarios, por lo que no se proporciona información personal a terceros. El procesamiento de pagos se subcontrata a los siguientes proveedores.",
-        "Se utiliza la infraestructura de alojamiento de {hostingProvider} para la operación del servicio, y en este proceso, los registros de acceso del párrafo 3 se procesan de acuerdo con la política de dicho proveedor.",
+        "Se utiliza la infraestructura de alojamiento de {hostingProvider} para la operación del servicio, y durante este proceso, los registros de acceso del párrafo 3 se procesan de acuerdo con la política de dicho proveedor.",
         "Los pagos nacionales son procesados por Toss Payments, y los pagos internacionales son procesados a través de PayPal por PortOne. La información de los métodos de pago, como números de tarjeta y cuentas, es procesada directamente por estos proveedores, y el servicio no la recibe ni la almacena."
       ]
     },
     {
       "heading": "7. Derechos del usuario",
       "paragraphs": [
-        "Dado que no se almacenan los valores ingresados para la interpretación de saju, no hay un destinatario para solicitar la revisión, corrección o eliminación. Los registros de pedidos restantes por pago están obligados a conservarse durante el período establecido por la ley, por lo que no se pueden eliminar durante ese tiempo, y después de ese período, se destruirán.",
+        "Dado que no se almacenan los valores ingresados para la interpretación de saju, no hay un destinatario para solicitudes de acceso, corrección o eliminación. Los registros de pedidos restantes tras el pago deben conservarse durante el período establecido por la ley, por lo que no se pueden eliminar durante ese tiempo, y se destruirán una vez transcurrido el período.",
         "Los usuarios pueden eliminar todos los rastros de entrada simplemente borrando el enlace de resultados en la barra de direcciones del navegador.",
         "Si hay alguna consulta relacionada con el uso del servicio, comuníquese a través de los siguientes contactos."
       ]
@@ -441,13 +441,13 @@ const d5 = {
       "heading": "9. Responsable de la protección de datos personales",
       "paragraphs": [
         "Responsable de protección: {privacyOfficer}",
-        "Consulta: {email} / {customerCenter}"
+        "Contacto: {email} / {customerCenter}"
       ]
     },
     {
       "heading": "10. Cambios en la política",
       "paragraphs": [
-        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si se producen cambios reales en el contenido del procesamiento, como el inicio de la publicación de anuncios o la venta de productos de pago, se informará previamente sobre el hecho del cambio."
+        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los cambios en esta página. Si el contenido del procesamiento cambia realmente, como el inicio de la publicación de anuncios o la venta de productos de pago, se notificará primero el hecho del cambio."
       ]
     }
   ],
@@ -544,20 +544,20 @@ const d6 = {
 
 const d7 = {
   "title": "Política de Tratamiento de Datos Personales",
-  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política explica qué información se recibe, qué no se deja y qué se registra automáticamente.",
+  "intro": "Saju-Link no almacena información necesaria para la interpretación de saju (사주). Esta política describe qué información se recibe, qué no se deja y qué se registra automáticamente.",
   "sections": [
     {
-      "heading": "1. Información no almacenada",
+      "heading": "1. Información que no se almacena",
       "paragraphs": [
-        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju no se **almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
+        "La fecha de nacimiento, la hora de nacimiento, el lugar de nacimiento, el género y el nombre proporcionados para la interpretación de saju **no se almacenan en ningún lugar.** Se utilizan únicamente en la memoria del servidor durante el procesamiento de la solicitud y desaparecen con la respuesta.",
         "No se registran en la base de datos ni se guardan en archivos separados. Dado que no hay registro de membresía, los valores ingresados no se vinculan a ninguna persona específica."
       ]
     },
     {
       "heading": "2. Información contenida en el enlace de resultados",
       "paragraphs": [
-        "La dirección de la pantalla de resultados incluye los valores ingresados en forma codificada. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
-        "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo queda a criterio del usuario."
+        "La dirección de la pantalla de resultados incluye los valores ingresados codificados. Sin embargo, este valor se encuentra después del # en la dirección, y según los estándares web, el contenido después del # no se envía al servidor por el navegador. Por lo tanto, incluso si se abre el enlace de resultados, solo queda la ruta de la dirección en el registro de acceso del servidor.",
+        "Si se envía el enlace de resultados a otra persona, esa persona también podrá ver los mismos resultados. Dado que el enlace en sí contiene los valores ingresados, la decisión de compartirlo corresponde al usuario."
       ]
     },
     {
@@ -574,12 +574,12 @@ const d7 = {
       "heading": "4. Cookies y publicidad",
       "paragraphs": [
         "El servicio en sí no utiliza cookies para identificar o rastrear a los usuarios. La información ingresada en la interpretación de saju no se transmite a los anunciantes.",
-        "Este servicio publica anuncios a través de Google AdSense. En este proceso, ocurren las siguientes situaciones."
+        "Este servicio muestra anuncios a través de Google AdSense. En este proceso, ocurren las siguientes situaciones."
       ],
       "bullets": [
-        "Proveedores de terceros, incluidos Google, pueden almacenar o leer cookies en el navegador del usuario.",
+        "Los proveedores de terceros, incluidos Google, pueden almacenar o leer cookies en el navegador del usuario.",
         "Google utiliza cookies para mostrar anuncios basados en el historial de visitas a este y otros sitios.",
-        "Los usuarios pueden desactivar los anuncios personalizados en la configuración de anuncios de Google (google.com/settings/ads). Aunque se desactiven, los anuncios seguirán apareciendo, pero serán menos relevantes para el usuario.",
+        "Los usuarios pueden desactivar los anuncios personalizados en la configuración de anuncios de Google (google.com/settings/ads). Aunque se desactiven, los anuncios seguirán apareciendo, pero su relevancia para el usuario disminuirá.",
         "Los anuncios personalizados de todos los proveedores de terceros se pueden desactivar de una vez en aboutads.info/choices.",
         "También hay formas de bloquear cookies en la configuración del navegador.",
         "A los usuarios de la Zona Económica Europea, Reino Unido y Suiza se les solicita primero su consentimiento para el uso de cookies publicitarias."
@@ -588,37 +588,37 @@ const d7 = {
     {
       "heading": "5. Información almacenada al realizar un pago",
       "paragraphs": [
-        "Al pagar por productos de pago (informe PDF), se almacenan los datos del pedido para el procesamiento del pago y la conservación de registros de transacciones según la ley.",
+        "Al pagar por productos de pago (informe PDF), se almacena la información del pedido para el procesamiento del pago y la conservación de registros de transacciones según la ley.",
         "**Los valores ingresados en la interpretación de saju y el PDF generado no se almacenan, incluso si se realiza el pago.** El principio del párrafo 1 se mantiene sin cambios, independientemente de si se realiza el pago. Los elementos que se almacenan son los siguientes, y no incluyen información que identifique al usuario, como nombre, contacto o dirección."
       ],
       "bullets": [
         "Número de pedido e identificador de pago",
         "Monto del pago, moneda y estado del pago (no pagado, pagado, cancelado)",
-        "Clasificación del producto, estado de procesamiento, número de descargas del documento, hora del pedido",
-        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional, internacional)",
-        "Período de conservación — Según el Artículo 6 de la Ley de Protección del Consumidor en el Comercio Electrónico, los registros de pago y suministro de bienes se conservarán durante 5 años, y los registros de quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
+        "Clasificación del producto, estado de procesamiento, número de descargas del documento, fecha y hora del pedido",
+        "Idioma de la pantalla en el momento del pedido y clasificación de la región de pago (nacional o internacional)",
+        "Período de conservación — Según el Artículo 6 de la Ley de Protección al Consumidor en el Comercio Electrónico, los registros de pago y suministro de bienes se conservarán durante 5 años, y los registros de quejas o disputas de los consumidores se conservarán durante 3 años antes de ser destruidos."
       ]
     },
     {
-      "heading": "6. Provisión a terceros y subcontratación",
+      "heading": "6. Provisión a terceros y subcontratación del procesamiento",
       "paragraphs": [
-        "No se almacenan datos personales que identifiquen a los usuarios, por lo que no se proporciona información personal a terceros. El procesamiento de pagos se subcontrata a los siguientes proveedores.",
-        "Se utiliza la infraestructura de alojamiento de {hostingProvider} para la operación del servicio, y en este proceso, los registros de acceso del párrafo 3 se procesan de acuerdo con la política de ese proveedor.",
+        "No se almacenan datos personales que identifiquen a los usuarios, por lo que no hay datos personales proporcionados a terceros. El procesamiento de pagos se subcontrata a los siguientes proveedores.",
+        "Se utiliza la infraestructura de alojamiento de {hostingProvider} para la operación del servicio, y en este proceso, los registros de acceso del párrafo 3 se procesan de acuerdo con la política de dicho proveedor.",
         "Los pagos nacionales son procesados por Toss Payments, y los pagos internacionales son procesados a través de PayPal por PortOne. La información de los métodos de pago, como números de tarjeta y cuentas, es procesada directamente por estos proveedores, y el servicio no la recibe ni la almacena."
       ]
     },
     {
       "heading": "7. Derechos del usuario",
       "paragraphs": [
-        "Dado que no se almacenan los valores ingresados en la interpretación de saju, no hay un destinatario para solicitudes de acceso, corrección o eliminación. Los registros de pedidos restantes tras el pago deben conservarse durante el período establecido por la ley, por lo que no se pueden eliminar durante ese tiempo, y se destruirán una vez transcurrido el período.",
+        "Dado que no se almacenan los valores ingresados en la interpretación de saju, no hay un destinatario para solicitudes de acceso, corrección o eliminación. Los registros de pedidos restantes tras el pago deben conservarse durante el período establecido por la ley, por lo que no se pueden eliminar durante ese tiempo, y serán destruidos una vez transcurrido el período.",
         "Los usuarios pueden eliminar todos los rastros de entrada simplemente borrando el enlace de resultados en la barra de direcciones del navegador.",
         "Si hay preguntas relacionadas con el uso del servicio, comuníquese a través de los siguientes contactos."
       ]
     },
     {
-      "heading": "8. Información personal de menores",
+      "heading": "8. Datos personales de menores",
       "paragraphs": [
-        "Este servicio no está dirigido a niños menores de 14 años y no recopila información personal de ellos."
+        "Este servicio no está dirigido a niños menores de 14 años y no recopila datos personales de ellos."
       ]
     },
     {
@@ -631,7 +631,7 @@ const d7 = {
     {
       "heading": "10. Cambios en la política",
       "paragraphs": [
-        "Si se realizan cambios en esta política, se publicarán la fecha de entrada en vigor y los cambios en esta página. Si el contenido del procesamiento cambia realmente, como el inicio de la publicación de anuncios o la venta de productos de pago, se notificará previamente sobre el cambio."
+        "Si se realizan cambios en esta política, se publicará la fecha de entrada en vigor y los detalles de los cambios en esta página. Si hay cambios reales en el contenido del procesamiento, como el inicio de la publicación de anuncios o la venta de productos de pago, se notificará primero sobre el hecho del cambio."
       ]
     }
   ],
