@@ -28,7 +28,7 @@ export default async function ReadingResultPage({
   const locale = await getRequestLocale(lang);
   const dictionary = getDictionary(locale);
   // 가격은 서버가 `product_settings`에서 읽어 내려보낸다. 화면이 값을 만들지 않는다.
-  const offer = await getReportOffer(getReportProduct("chongun", regionForLocale(locale)));
+  const offer = await getReportOffer(getReportProduct(regionForLocale(locale)));
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">

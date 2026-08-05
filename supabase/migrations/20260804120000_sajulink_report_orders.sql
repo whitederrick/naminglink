@@ -25,20 +25,23 @@ alter table public.orders add constraint orders_order_type_check
     'CANDIDATE_UNLOCK',
     'GUNGHAP_PDF',
     'AFFINITY_PDF',
-    'SAJU_CHONGUN_PDF',
-    'SAJU_PREMIUM_PDF'
+    'SAJU_REPORT_PDF'
   ));
 
 -- 3) 상품 설정. **enabled=false로 넣는다** — 결제 키가 아직 없어 다크 런치이고, 키가
 --    등록되면 naminglink 관리자 화면에서 켠다. 가격도 그 화면에서 조정한다.
 --
---    금액은 구현 지시서(`docs/IMPLEMENTATION_TICKET_saju_dream.md` §2)가 정한 값이다.
---    총운 ₩4,900 / US$4.99, 프리미엄 ₩9,900 / US$9.99. USD는 센트 단위다.
+--    **상품은 하나다**(2026-08-05 결정). 지시서는 티어 둘(총운 ₩4,900 / 프리미엄 ₩9,900)을
+--    적고 있었으나, 둘의 차이가 근거 숫자 두 장뿐이라 위 티어를 살 이유가 약했다. 하나로 합치고
+--    값도 다시 정했다 — **궁합은 상대가 바뀌면 재구매하지만 사주는 1인 1회**이고, 무료로 주는
+--    곳이 많아 기준선이 낮다. USD는 센트 단위다.
+--
+--    **이 파일은 아직 적용되지 않았다.** 그래서 옛 코드를 남기고 새 행을 더하는 대신 처음부터
+--    다시 적는다 — 적용된 적 없는 마이그레이션에 이력을 남길 이유가 없고, 쓰이지 않는 코드가
+--    상품표에 남으면 관리자 화면에서 팔 수 없는 상품이 보인다.
 insert into public.product_settings (code, name_ko, amount, currency, font_count, enabled) values
-  ('SAJU_CHONGUN_KRW', '사주 총운 리포트 PDF(국내)', 4900, 'KRW', 0, false),
-  ('SAJU_CHONGUN_USD', '사주 총운 리포트 PDF(해외)', 499, 'USD', 0, false),
-  ('SAJU_PREMIUM_KRW', '사주 프리미엄 리포트 PDF(국내)', 9900, 'KRW', 0, false),
-  ('SAJU_PREMIUM_USD', '사주 프리미엄 리포트 PDF(해외)', 999, 'USD', 0, false)
+  ('SAJU_REPORT_KRW', '평생 사주와 올해의 운세 리포트 PDF(국내)', 990, 'KRW', 0, false),
+  ('SAJU_REPORT_USD', '평생 사주와 올해의 운세 리포트 PDF(해외)', 199, 'USD', 0, false)
 on conflict (code) do nothing;
 
 -- 4) 접속·이용 집계의 서비스 구분.

@@ -409,7 +409,11 @@ export const pt: Dictionary = {
     "meaningColumn": "O que isso significa",
     "yearOutlookTitle": "Perspectiva deste ano",
     "domainsTitle": "Quatro áreas da vida",
-    "factorsTitle": "De onde vem a pontuação de hoje",
+    "yongsinTitle": "O que você precisa agora",
+    "tenGodDepthTitle": "O que se destaca neste gráfico",
+    "disclaimerTitle": "Como ler este documento",
+    "yearOutlookUnavailable": "O pilar deste ano não pôde ser lido, então esta seção fica vazia. Tudo nas páginas anteriores ainda é válido.",
+    "factorsTitle": "De onde vem a pontuação de cada área",
     "factorsHint": "A tela nomeia os fatores; aqui cada um é impresso com os pontos que adicionou ou removeu.",
     "deltaColumn": "Pontos",
     "appendixTitle": "Como este gráfico foi construído",
@@ -423,8 +427,8 @@ export const pt: Dictionary = {
     "lunarUnavailable": "Esta data não está na tabela do almanaque, então nenhuma data lunar é mostrada."
   },
   "report": {
-    "title": "Mantenha sua leitura de vida como um PDF",
-    "body": "Transformamos esta leitura em um PDF — seu mapa natal, o peso dos cinco elementos, a força do seu dia master e o que ele precisa agora, e a sorte de hoje, tudo em uma página.",
+    "title": "Leitura da vida e o ano à frente",
+    "body": "Transformamos esta leitura em um PDF e adicionamos a camada que a tela nunca mostra: a força do seu day master e o que ele precisa agora, os dez deuses dos seus quatro pilares, as quatro áreas da vida lidas do seu natal chart com os números por trás delas, e a perspectiva para este ano. A fortuna de hoje não está incluída — ela muda diariamente, então permanece gratuita na tela.",
     "buyButton": "Pagar {price} e baixar",
     "preparing": "Ainda não disponível",
     "ordering": "Criando seu pedido…",
@@ -434,11 +438,13 @@ export const pt: Dictionary = {
     "failed": "O pagamento ou o download falhou. Tente novamente em instantes.",
     "retry": "Baixar de novo",
     "contents": [
-      "Seu dia master e temperamento — um resumo, forças e precauções",
-      "Seu mapa natal — os oito caracteres dos quatro pilares",
-      "O peso dos cinco elementos, o mais forte e o mais fraco",
-      "A força do seu dia master, e a energia que ele precisa agora",
-      "A sorte de hoje e os quatro domínios (dinheiro, amor, trabalho, saúde)"
+      "Seu day master e temperamento — um resumo, forças e precauções",
+      "Seu natal chart e o peso dos cinco elementos — os oito caracteres",
+      "A força do seu day master, e a energia que ele precisa agora",
+      "Vitalidade sazonal e os dez deuses dos seus quatro pilares",
+      "O que se destaca neste gráfico — os dez deuses robustos e os ausentes",
+      "As quatro áreas da vida lidas a partir do seu natal chart, com os números por trás de cada uma",
+      "A correção do tempo solar verdadeiro, e a perspectiva para este ano"
     ],
     "consentLabel": "Entendo que este é um conteúdo digital entregue imediatamente após o pagamento e que **o arrependimento por simples mudança de ideia fica restrito assim que o download é concluído**.",
     "consentRequired": "Confirme os termos de arrependimento antes de pagar.",
@@ -450,7 +456,7 @@ export const pt: Dictionary = {
       ],
       [
         "Formato",
-        "Um documento PDF (5 páginas A4), baixado na tela logo após o pagamento."
+        "Um documento PDF (9 páginas A4), baixado na tela imediatamente após o pagamento."
       ],
       [
         "Requisitos",

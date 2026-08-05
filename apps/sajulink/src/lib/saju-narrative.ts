@@ -22,7 +22,6 @@ import {
   type TodayFortune,
 } from "@/lib/engines/today-fortune";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
-import type { ReportKind } from "@/lib/report-product";
 import type { SajuInterpretation } from "@/lib/saju-interpretation";
 
 /**
@@ -30,9 +29,9 @@ import type { SajuInterpretation } from "@/lib/saju-interpretation";
  *
  * ## 왜 이 파일이 있는가
  *
- * 유료 리포트의 장수(총운 5장·프리미엄 7장)는 **상품 정보 고시에 적는 값**이다. 그런데 해설은
- * 외부 모델이라 언제든 실패할 수 있고, 예전에는 그때 해설 자리를 통째로 비운 채 내보냈다 —
- * 그러면 3장·5장으로 나가 **고시가 실제와 어긋난다.** 고시는 실제와 달라선 안 된다.
+ * 유료 리포트의 장수는 **상품 정보 고시에 적는 값**이다. 그런데 해설은 외부 모델이라 언제든
+ * 실패할 수 있고, 예전에는 그때 해설 자리를 통째로 비운 채 내보냈다 — 그러면 장수가 줄어
+ * **고시가 실제와 어긋난다.** 고시는 실제와 달라선 안 된다.
  *
  * 그래서 실패하면 여기서 만든 서술이 그 자리에 들어간다. **빈 칸을 늘려 장수를 맞추는 것이
  * 아니다** — 십신·왕상휴수사·용신·강약·세운은 결제 여부와 상관없이 이미 계산되어 있고, 해설은
@@ -44,8 +43,8 @@ import type { SajuInterpretation } from "@/lib/saju-interpretation";
  *   온다. 문장은 사전(`fallbackReport`)에 있고 여기서는 자리만 채운다.
  * - **엔진과 어긋나지 않는다.** 점수대 경계도, 올해 간지의 관계 판정도 엔진이 쓰는 것과 같은
  *   표·같은 순서를 읽는다. 등급이 「길(吉)」인데 낮은 문장이 붙는 일이 없어야 한다.
- * - **티어를 넘지 않는다.** `allyRatio`·`vitality`는 프리미엄에만 담기는 값이라
- *   (`prompts.ts`의 같은 판단) 총운 폴백에서는 쓰지 않는다. `year_outlook`도 프리미엄만이다.
+ * - **티어 분기가 없다.** 상품이 하나로 합쳐져(2026-08-05) 여기서 가릴 것이 없다. 예전에는
+ *   `allyRatio`·`vitality`·`year_outlook`이 프리미엄 전용이었다.
  *
  * ## 문안을 "고르는" 자리다
  *
@@ -98,7 +97,7 @@ function yearRelationOf(
   return "NEUTRAL";
 }
 
-/** 오늘 점수를 가장 크게 움직인 항목의 이름. 근거표(프리미엄)와 같은 사전을 읽는다. */
+/** 오늘 점수를 가장 크게 움직인 항목의 이름. 근거표와 같은 사전을 읽는다. */
 function topFactorName(today: TodayFortune, dictionary: Dictionary): string | null {
   let top: TodayFortune["factors"][number] | null = null;
   for (const factor of today.factors) {
@@ -164,7 +163,7 @@ function tenGodParagraphs(
  * 한 영역의 문단 — 점수 한 줄 + 그 점수를 **가장 크게 움직인 근거** 둘.
  *
  * 근거를 전부 싣지 않는 것은 이 자리가 표가 아니라 문장이기 때문이다. 항목과 가감을 다 보고
- * 싶은 사람을 위한 표는 프리미엄 문서가 따로 싣는다(`outlook.factors`를 그대로 읽는다).
+ * 싶은 사람을 위한 표는 문서가 따로 싣는다(`outlook.factors`를 그대로 읽는다).
  *
  * **0점 항목은 근거가 아니라 주석이다.** 지금은 하나뿐인데(성별을 밝히지 않아 배우자성을 빼고
  * 계산한 경우) 그것은 점수를 움직이지 않았어도 **왜 안 움직였는지**를 말하므로 언제나 싣는다.
@@ -208,7 +207,6 @@ export function buildNarrative(input: {
   outlook: NatalOutlook;
   /** 올해의 연주. `yearPillarOf(dateKST)`로 뽑아 넘긴다. */
   yearPillar: { stem: string; branch: string };
-  kind: ReportKind;
   locale: Locale;
   dictionary: Dictionary;
   config?: ScoringConfig;
@@ -216,7 +214,7 @@ export function buildNarrative(input: {
   // `locale`은 받되 여기서 쓰지 않는다 — 문장은 전부 `dictionary`에서 오고, 부르는 쪽이 이미
   // 그 로케일의 사전을 골라 넘긴다. 둘을 함께 받는 것은 부르는 자리에서 짝이 어긋나지 않게
   // 하려는 것이다.
-  const { reading, today, outlook, yearPillar, kind, dictionary } = input;
+  const { reading, today, outlook, yearPillar, dictionary } = input;
   const config = input.config ?? DEFAULT_SCORING_CONFIG;
   const copy = dictionary.fallbackReport;
 
@@ -313,18 +311,20 @@ export function buildNarrative(input: {
     disclaimer: copy.disclaimer,
   };
 
-  // 올해 총운은 프리미엄에만 담긴다. 총운 리포트에 넣으면 티어 차이가 무너진다.
-  if (kind === "premium") {
-    const yearElement = STEM_ELEMENT[yearPillar.stem];
-    if (yearElement) {
-      const gisin = gisinOf(reading.bodyStrength, reading.dayMaster.element);
-      const relation = yearRelationOf(yearElement, reading.favorableElements, gisin);
-      interpretation.year_outlook = fillTemplate(copy.yearOutlook, {
-        pillar: `${yearPillar.stem}${yearPillar.branch}`,
-        element: elementName(yearElement),
-        relation: copy.yearRelations[relation],
-      });
-    }
+  // **올해 총운은 이제 언제나 담긴다.** 예전에는 프리미엄 전용이었는데, 상품이 하나로 합쳐지며
+  // 그 이름 자체가 「평생 사주와 **올해의 운세** 리포트」가 됐다(2026-08-05).
+  //
+  // 간지를 못 읽는 경우에만 빠진다 — 그때는 자리를 비우는 대신 장 구성이 흔들리므로,
+  // `saju-report.tsx`가 그 장을 어떻게 다루는지 함께 볼 것.
+  const yearElement = STEM_ELEMENT[yearPillar.stem];
+  if (yearElement) {
+    const gisin = gisinOf(reading.bodyStrength, reading.dayMaster.element);
+    const relation = yearRelationOf(yearElement, reading.favorableElements, gisin);
+    interpretation.year_outlook = fillTemplate(copy.yearOutlook, {
+      pillar: `${yearPillar.stem}${yearPillar.branch}`,
+      element: elementName(yearElement),
+      relation: copy.yearRelations[relation],
+    });
   }
 
   return interpretation;

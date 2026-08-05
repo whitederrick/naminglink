@@ -3,7 +3,6 @@ import "server-only";
 import type { PersonReading } from "@/lib/engines";
 import type { TodayFortune } from "@/lib/engines/today-fortune";
 import type { Locale } from "@/lib/i18n";
-import type { ReportKind } from "@/lib/report-product";
 
 /**
  * 사주 해설 프롬프트. 설계는 `docs/sajulink_domain_logic.md` §4에 있고 이 파일이 그것을 옮긴 것이다.
@@ -48,12 +47,10 @@ export function sajuSystemPrompt(locale: Locale, languageName: string) {
 export function buildSajuFactors(
   reading: PersonReading,
   today: TodayFortune,
-  kind: ReportKind,
   locale: Locale,
 ) {
   return {
     locale,
-    tier: kind,
     natal: {
       pillars: {
         year: reading.pillars.year.hanja,
@@ -70,8 +67,9 @@ export function buildSajuFactors(
       yongsin: reading.favorableElements,
       // 신강·신약을 가른 근거 숫자. **프리미엄 리포트에만 담기는 값**이라 총운에서는 빼고 넘긴다
       // — 모델이 받은 것을 문장에 흘리면 무료·하위 티어와의 차이가 없어진다.
-      allyRatio: kind === "premium" ? reading.allyRatio : undefined,
-      vitality: kind === "premium" ? reading.vitality : undefined,
+      // **상품이 하나라 티어 분기가 없다**(2026-08-05). 예전에는 프리미엄에만 담기던 값이다.
+      allyRatio: reading.allyRatio,
+      vitality: reading.vitality,
     },
     today: {
       date: today.date,
@@ -88,11 +86,11 @@ export function buildSajuFactors(
 }
 
 /**
- * 티어별로 어떤 필드를 요구할지. 분량 차이가 곧 상품 차이다.
+ * 모델에게 무엇을 돌려달라고 할지.
  *
  * **무료는 여기 없다.** 무료 화면은 모델을 부르지 않는다.
  */
-export function sajuOutputInstruction(_kind: ReportKind) {
+export function sajuOutputInstruction() {
   // **한 자리만 요구한다.** 예전에는 열 자리를 전부 모델에게 맡겼는데, 그러면 이용자가 읽는
   // 글이 사실상 전부 가변이라 재발급받을 때마다 다른 문서가 나왔다 — 한 번 사서 평생 보관하는
   // 상품에서 그건 결함이다. 지금은 뼈대를 엔진이 쓰고 모델은 첫인상 한 문단만 맡는다

@@ -30,10 +30,9 @@ export const LEGAL_PLACEHOLDERS = [
   "{email}",
   "{hostingProvider}",
   "{privacyOfficer}",
-  // 이름 없는 두 자리는 **궁합 가격**이다. 21로케일 번역이 이미 이 이름으로 쓰고 있어
-  // 뜻을 바꾸지 않았다(2026-07-31에 상품이 둘로 갈리면서 아래 두 자리를 더했다).
+  // **권역 둘뿐이다.** 2026-08-05에 상품이 하나로 합쳐지면서 `{priceAffinity…}` 두 자리가
+  // 쓰이지 않게 됐고, 21로케일 약관을 새로 생성해 그 이름을 걷어냈다. 자리를 남겨 두면
+  // 검사기가 "있어야 할 자리가 비었다"고 잡지 못해, 쓰이지 않는 이름이 조용히 되살아난다.
   "{priceDomestic}",
   "{priceGlobal}",
-  "{priceAffinityDomestic}",
-  "{priceAffinityGlobal}",
 ] as const;

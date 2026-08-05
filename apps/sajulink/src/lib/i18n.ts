@@ -384,6 +384,14 @@ export type Dictionary = {
      * 그대로면 고친 것이 아니다.
      */
     domainsTitle: string;
+    /** 용신 심화 문단의 제목(4장). 강약 카드가 판정을 찍고 이 문단이 처방을 말한다. */
+    yongsinTitle: string;
+    /** 십신 심화 문단들의 제목(5장). 표 아래에 붙는다. */
+    tenGodDepthTitle: string;
+    /** 마지막 장의 고지 제목. */
+    disclaimerTitle: string;
+    /** 올해 간지를 못 읽었을 때 그 자리에 넣는 한 줄. **장은 남는다** — 장수는 구조가 정한다. */
+    yearOutlookUnavailable: string;
     /** 오늘 점수의 근거 항목 표(프리미엄만) */
     factorsTitle: string;
     factorsHint: string;
@@ -891,7 +899,12 @@ const ko: Dictionary = {
     meaningColumn: "무엇을 뜻하나",
     yearOutlookTitle: "올해 총운",
     domainsTitle: "삶의 네 영역",
-    factorsTitle: "오늘 점수가 나온 자리",
+    yongsinTitle: "그래서 지금 필요한 기운",
+    tenGodDepthTitle: "이 사주에서 두드러진 자리",
+    disclaimerTitle: "이 문서를 읽는 법",
+    yearOutlookUnavailable:
+      "올해의 간지를 읽지 못해 이 자리는 비워 둡니다. 앞 장까지의 풀이는 그대로 유효합니다.",
+    factorsTitle: "네 영역 점수가 나온 자리",
     factorsHint:
       "화면은 항목 이름만 보여 드립니다. 여기서는 각 항목이 몇 점을 더하고 뺐는지까지 싣습니다.",
     deltaColumn: "가감",
@@ -906,8 +919,8 @@ const ko: Dictionary = {
     lunarUnavailable: "만세력 표에 없는 날이라 음력을 함께 적지 못했습니다.",
   },
   report: {
-    title: "사주 총운 리포트 PDF로 간직하기",
-    body: "화면의 풀이를 PDF로 만들어 드립니다. 원국과 오행 세력, 일간의 강약과 지금 필요한 기운, 그리고 오늘의 운세를 한 장에 담습니다.",
+    title: "평생 사주와 올해의 운세 리포트",
+    body: "화면에 없는 층을 더해 PDF로 만들어 드립니다. 일간의 강약과 지금 필요한 기운, 네 기둥의 십신, 원국에서 본 삶의 네 영역과 그 근거 숫자, 그리고 올해의 운세까지. 오늘의 운세는 담기지 않습니다 — 하루마다 달라지는 값이라 화면에서 무료로 봅니다.",
     buyButton: "{price} 결제하고 받기",
     preparing: "준비 중입니다",
     ordering: "주문을 만드는 중…",
@@ -918,10 +931,12 @@ const ko: Dictionary = {
     retry: "다시 받기",
     contents: [
       "일간과 타고난 결 — 성향 요약, 강점과 눈여겨볼 점",
-      "사주 원국 — 네 기둥의 여덟 글자",
-      "오행의 세력, 가장 두터운 기운과 가장 얇은 기운",
+      "사주 원국과 오행의 세력 — 네 기둥의 여덟 글자",
       "일간의 강약(신강·중화·신약)과 지금 필요한 기운",
-      "오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)",
+      "계절이 밀어 주는 기운(왕상휴수사)과 네 기둥의 십신",
+      "이 사주에서 두드러진 자리 — 두터운 십신과 아예 없는 십신",
+      "원국에서 본 삶의 네 영역(재물·애정·직업·건강)과 그 근거 숫자",
+      "진태양시 보정 내역과 올해의 운세",
     ],
     consentLabel:
       "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
@@ -929,7 +944,7 @@ const ko: Dictionary = {
     productInfoTitle: "상품 정보 고시",
     productInfo: [
       ["제작·공급자", "{brand}"],
-      ["상품 형태", "PDF 문서 1개(A4 5장). 결제 후 화면에서 즉시 내려받습니다."],
+      ["상품 형태", "PDF 문서 1개(A4 9장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -1539,7 +1554,12 @@ const en: Dictionary = {
     meaningColumn: "What it means",
     yearOutlookTitle: "This year’s outlook",
     domainsTitle: "Four areas of life",
-    factorsTitle: "Where today’s score comes from",
+    yongsinTitle: "What you need now",
+    tenGodDepthTitle: "What stands out in this chart",
+    disclaimerTitle: "How to read this document",
+    yearOutlookUnavailable:
+      "This year’s pillar could not be read, so this section is left empty. Everything on the pages before it still stands.",
+    factorsTitle: "Where each area’s score comes from",
     factorsHint:
       "The screen names the factors; here each one is printed with the points it added or removed.",
     deltaColumn: "Points",
@@ -1555,8 +1575,8 @@ const en: Dictionary = {
     lunarUnavailable: "This date is not in the almanac table, so no lunar date is shown.",
   },
   report: {
-    title: "Keep your life reading as a PDF",
-    body: "We turn this reading into a PDF — your natal chart, the weight of the five elements, the strength of your day master and what it needs now, and today’s fortune, all on one page.",
+    title: "Life reading and the year ahead",
+    body: "We turn this reading into a PDF and add the layer the screen never shows: the strength of your day master and what it needs now, the ten gods of your four pillars, the four areas of life read from your natal chart with the numbers behind them, and the outlook for this year. Today’s fortune is not included — it changes daily, so it stays free on screen.",
     buyButton: "Pay {price} and download",
     preparing: "Not available yet",
     ordering: "Creating your order…",
@@ -1567,10 +1587,12 @@ const en: Dictionary = {
     retry: "Download again",
     contents: [
       "Your day master and temperament — a summary, strengths and cautions",
-      "Your natal chart — the eight characters of the four pillars",
-      "The weight of the five elements, thickest and thinnest",
+      "Your natal chart and the weight of the five elements — the eight characters",
       "The strength of your day master, and the energy it needs now",
-      "Today’s fortune and the four domains (money, love, work, health)",
+      "Seasonal vitality and the ten gods of your four pillars",
+      "What stands out in this chart — the thick ten gods and the absent ones",
+      "The four areas of life read from your natal chart, with the numbers behind each",
+      "The true solar time correction, and the outlook for this year",
     ],
     consentLabel:
       "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
@@ -1578,7 +1600,7 @@ const en: Dictionary = {
     productInfoTitle: "Product information",
     productInfo: [
       ["Provider", "{brand}"],
-      ["Format", "One PDF document (5 A4 pages), downloaded on screen right after payment."],
+      ["Format", "One PDF document (9 A4 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
       ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],

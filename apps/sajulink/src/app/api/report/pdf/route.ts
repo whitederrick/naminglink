@@ -37,27 +37,16 @@ const REISSUE_LIMIT = 5;
 
 
 /**
- * 두 티어가 같은 입력(한 사람)을 받는다. 다른 것은 **문서에 얼마나 담느냐**뿐이다.
- *
- * 그래도 `kind`를 판별자로 남긴다 — 주문 종류와 대조해 **총운을 사고 프리미엄 문서를
- * 받아 가는 일**이 없어야 하기 때문이다(아래 `orderType` 확인).
+ * **상품이 하나라 판별자가 없다**(2026-08-05). 예전에는 티어가 둘이라 `kind`를 판별자로 두고
+ * 주문 종류와 대조했다 — 총운을 사고 프리미엄 문서를 받아 가는 일을 막기 위해서였다. 상품이
+ * 하나가 되면서 그 대조는 아래 `order_type` 확인 하나로 충분해졌다.
  */
-const schema = z.discriminatedUnion("kind", [
-  z.object({
-    kind: z.literal("chongun"),
-    orderId: z.string().uuid(),
-    paymentId: z.string().min(8).max(64),
-    locale: z.string().trim().max(10).optional(),
-    input: sajuInputSchema,
-  }),
-  z.object({
-    kind: z.literal("premium"),
-    orderId: z.string().uuid(),
-    paymentId: z.string().min(8).max(64),
-    locale: z.string().trim().max(10).optional(),
-    input: sajuInputSchema,
-  }),
-]);
+const schema = z.object({
+  orderId: z.string().uuid(),
+  paymentId: z.string().min(8).max(64),
+  locale: z.string().trim().max(10).optional(),
+  input: sajuInputSchema,
+});
 
 export async function POST(request: NextRequest) {
   // PDF 렌더는 무겁다. 주문·결제 검증을 통과해야 실제로 만들어지지만, 그 앞단에서 한 번 막는다.
@@ -83,18 +72,16 @@ export async function POST(request: NextRequest) {
     return jsonError("INVALID_JSON", 400);
   }
 
-  // `kind`가 없으면 궁합으로 본다. 판별 합집합은 판별자가 반드시 있어야 하므로 파싱 전에
-  // 채운다 — 배포 직후 열려 있던 옛 화면이 이 값을 보내지 않는다.
-  const parsed = schema.safeParse(withDefaultKind(parsedBody));
+  const parsed = schema.safeParse(parsedBody);
   if (!parsed.success) return jsonError("INVALID_INPUT", 400);
 
   const supabase = getSupabaseAdminClient();
   if (!supabase) return jsonError("STORAGE_NOT_READY", 503);
 
   const { orderId, paymentId } = parsed.data;
-  // 주문 종류까지 맞춰서 찾는다. 궁합 주문으로 인연의 결 PDF를 받아 가는 일이 없어야 한다.
-  const orderType =
-    parsed.data.kind === "premium" ? "SAJU_PREMIUM_PDF" : "SAJU_CHONGUN_PDF";
+  // 주문 종류와 서비스까지 맞춰서 찾는다. 다른 서비스의 주문 번호로 이 문서를 받아 가는 일이
+  // 없어야 한다(한 `orders` 표를 세 서비스가 함께 쓴다).
+  const orderType = "SAJU_REPORT_PDF";
 
   try {
     const { data: order } = await supabase
@@ -209,30 +196,21 @@ export async function POST(request: NextRequest) {
       headers: {
         "Content-Type": "application/pdf",
         // 파일 이름에 이용자 이름을 넣지 않는다 — 브라우저 다운로드 기록에 남는다.
-        // 상품별로는 가른다. 둘 다 산 사람에게 같은 이름을 주면 한쪽이 덮어써진다.
-        "Content-Disposition": `attachment; filename="sajulink-${parsed.data.kind}.pdf"`,
+        "Content-Disposition": 'attachment; filename="sajulink-report.pdf"',
         "Cache-Control": "no-store",
       },
     });
   } catch (error) {
-    console.error(`Failed to issue ${parsed.data.kind} report`, error);
+    console.error("Failed to issue saju report", error);
     // **결제는 끝났는데 물건이 안 나간 자리다.** 이용자가 문의하기 전에 우리가 먼저 알아야 한다.
     notifyOps(
-      `report-issue-failed:${parsed.data.kind}`,
-      `결제된 리포트를 발급하지 못했습니다 (${parsed.data.kind})`,
-      { kind: parsed.data.kind, reason: error instanceof Error ? error.message : String(error) },
+      "report-issue-failed",
+      "결제된 리포트를 발급하지 못했습니다",
+      { reason: error instanceof Error ? error.message : String(error) },
       "critical",
     );
     return jsonError("ISSUE_FAILED", 500);
   }
-}
-
-function withDefaultKind(body: unknown) {
-  if (body && typeof body === "object" && !("kind" in body)) {
-    // **위 티어를 기본으로 두지 않는다.** 값이 빠졌다고 비싼 문서를 내주면 안 된다.
-    return { ...(body as Record<string, unknown>), kind: "chongun" };
-  }
-  return body;
 }
 
 /**
@@ -273,14 +251,12 @@ async function render(
     reading,
     today,
     outlook,
-    kind: parsed.kind,
     locale,
   });
 
   return renderSajuReport({
-    kind: parsed.kind,
     reading,
-    today,
+    outlook,
     interpretation,
     locale,
     dictionary,

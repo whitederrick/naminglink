@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { REPORT_PAGE_COUNT } from "@/lib/report-pages";
 import { getDictionary } from "@/lib/i18n";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
-import { getAllReportPrices } from "@/lib/report-product";
+import { getReportPrices } from "@/lib/report-product";
 
 /**
  * 유료 리포트에 무엇이 들어가는지 밝히는 글.
@@ -27,7 +28,7 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 export default async function Page(props: GuidePageProps) {
   const { locale, entry, hubHref } = await guideContext(SLUG, props);
   const dictionary = getDictionary(locale);
-  const prices = await getAllReportPrices();
+  const prices = await getReportPrices();
 
   return (
     <GuideShell
@@ -50,10 +51,10 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title={`사주 총운 리포트 PDF — ${prices.chongun.domestic}`}>
+      <GuideSection title={`평생 사주와 올해의 운세 리포트 PDF — ${prices.domestic}`}>
         <p>
-          국내 결제 {prices.chongun.domestic}(부가세 포함), 해외 결제 {prices.chongun.global}.
-          A4 {dictionary.report.contents.length}장입니다.
+          국내 결제 {prices.domestic}(부가세 포함), 해외 결제 {prices.global}.
+          A4 {REPORT_PAGE_COUNT}장입니다.
         </p>
         <ul>
           {dictionary.report.contents.map((line) => (
@@ -86,25 +87,6 @@ export default async function Page(props: GuidePageProps) {
             싣습니다.
           </li>
         </ul>
-      </GuideSection>
-
-      <GuideSection
-        title={`프리미엄 총운 리포트 PDF — ${prices.premium.domestic}`}
-      >
-        <p>
-          국내 결제 {prices.premium.domestic}(부가세 포함), 해외 결제 {prices.premium.global}.
-          A4 {dictionary.premiumReport.contents.length}장입니다.
-        </p>
-        <ul>
-          {dictionary.premiumReport.contents.map((line) => (
-            <li key={line}>{line}</li>
-          ))}
-        </ul>
-        <p>
-          이쪽은 <b>근거 숫자</b>가 핵심입니다. 총운 리포트의 내용을 모두 담고, 거기에 위에 적은
-          셋 — 일간 편의 비율, 왕상휴수사, 진태양시 보정 내역 — 을 더합니다. 판정을 믿으라고
-          하는 대신 판정이 어떻게 나왔는지를 보여 드리는 몫입니다.
-        </p>
       </GuideSection>
 
       <GuideSection title="사기 전에 알아 두실 것">

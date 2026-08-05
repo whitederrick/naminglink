@@ -409,7 +409,11 @@ export const ms: Dictionary = {
     "meaningColumn": "Apa maksudnya",
     "yearOutlookTitle": "Tinjauan tahun ini",
     "domainsTitle": "Empat bidang kehidupan",
-    "factorsTitle": "Dari mana skor hari ini datang",
+    "yongsinTitle": "Apa yang anda perlukan sekarang",
+    "tenGodDepthTitle": "Apa yang menonjol dalam carta ini",
+    "disclaimerTitle": "Cara membaca dokumen ini",
+    "yearOutlookUnavailable": "Tiang tahun ini tidak dapat dibaca, jadi bahagian ini dibiarkan kosong. Segala yang terdapat pada halaman sebelum ini masih sah.",
+    "factorsTitle": "Dari mana skor setiap kawasan berasal",
     "factorsHint": "Skrin menyenaraikan faktor-faktor; di sini setiap satu dicetak dengan mata yang ditambah atau dikurangkan.",
     "deltaColumn": "Mata",
     "appendixTitle": "Bagaimana carta ini dibina",
@@ -423,8 +427,8 @@ export const ms: Dictionary = {
     "lunarUnavailable": "Tarikh ini tidak terdapat dalam jadual almanak, jadi tiada tarikh lunar ditunjukkan."
   },
   "report": {
-    "title": "Simpan bacaan hidup anda sebagai PDF",
-    "body": "Kami mengubah bacaan ini menjadi PDF — carta kelahiran anda, berat lima elemen, kekuatan day master anda dan apa yang diperlukan sekarang, serta fortune hari ini, semuanya dalam satu halaman.",
+    "title": "Bacaan kehidupan dan tahun yang akan datang",
+    "body": "Kami mengubah bacaan ini menjadi PDF dan menambah lapisan yang tidak ditunjukkan oleh skrin: kekuatan day master anda dan apa yang diperlukan sekarang, ten gods dari empat tiang anda, empat bidang kehidupan yang dibaca dari carta kelahiran anda dengan nombor di belakangnya, dan ramalan untuk tahun ini. Ramalan hari ini tidak termasuk — ia berubah setiap hari, jadi ia tetap percuma di skrin.",
     "buyButton": "Bayar {price} dan muat turun",
     "preparing": "Belum tersedia",
     "ordering": "Membuat pesanan anda…",
@@ -435,10 +439,12 @@ export const ms: Dictionary = {
     "retry": "Muat turun semula",
     "contents": [
       "Day master dan temperamen anda — ringkasan, kekuatan dan perhatian",
-      "Carta kelahiran anda — lapan karakter dari empat tiang",
-      "Berat lima elemen, yang paling tebal dan paling nipis",
+      "Natal chart anda dan berat lima elemen — lapan watak",
       "Kekuatan day master anda, dan tenaga yang diperlukan sekarang",
-      "Fortune hari ini dan empat domain (wang, cinta, kerja, kesihatan)"
+      "Kehidupan musiman dan ten gods dari empat tiang anda",
+      "Apa yang menonjol dalam carta ini — ten gods yang tebal dan yang tidak ada",
+      "Empat bidang kehidupan yang dibaca dari natal chart anda, dengan nombor di belakang setiap satu",
+      "Pembetulan waktu solar sebenar, dan ramalan untuk tahun ini"
     ],
     "consentLabel": "Saya faham bahawa ini kandungan digital yang dihantar serta-merta selepas pembayaran, dan bahawa **penarikan diri kerana berubah fikiran adalah terhad sebaik muat turun selesai**.",
     "consentRequired": "Sila sahkan terma penarikan diri sebelum membuat pembayaran.",
@@ -450,7 +456,7 @@ export const ms: Dictionary = {
       ],
       [
         "Format",
-        "Satu dokumen PDF (5 halaman A4), dimuat turun di skrin sejurus selepas pembayaran."
+        "Satu dokumen PDF (9 halaman A4), dimuat turun di skrin sejurus selepas pembayaran."
       ],
       [
         "Keperluan",

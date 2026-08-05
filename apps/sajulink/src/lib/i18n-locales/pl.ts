@@ -409,7 +409,11 @@ export const pl: Dictionary = {
     "meaningColumn": "Co to oznacza",
     "yearOutlookTitle": "Prognoza na ten rok",
     "domainsTitle": "Cztery obszary życia",
-    "factorsTitle": "Skąd pochodzi dzisiejszy wynik",
+    "yongsinTitle": "Czego teraz potrzebujesz",
+    "tenGodDepthTitle": "Co wyróżnia się w tym wykresie",
+    "disclaimerTitle": "Jak czytać ten dokument",
+    "yearOutlookUnavailable": "Nie udało się odczytać filaru tego roku, więc ta sekcja pozostaje pusta. Wszystko na stronach przed nią nadal obowiązuje.",
+    "factorsTitle": "Skąd pochodzi wynik w każdej z dziedzin",
     "factorsHint": "Ekran pokazuje nazwy czynników; tutaj każdy z nich jest wydrukowany z punktami, które dodał lub odjął.",
     "deltaColumn": "Punkty",
     "appendixTitle": "Jak zbudowano ten wykres",
@@ -423,8 +427,8 @@ export const pl: Dictionary = {
     "lunarUnavailable": "Ta data nie znajduje się w tabeli almanachu, więc nie pokazano daty lunarnej."
   },
   "report": {
-    "title": "Zachowaj swoje odczyty życia jako PDF",
-    "body": "Przekształcamy ten odczyt w PDF — twój wykres urodzeniowy, waga pięciu elementów, siła twojego day master i to, czego teraz potrzebuje, oraz dzisiejsza fortuna, wszystko na jednej stronie.",
+    "title": "Czytanie życia i nadchodzący rok",
+    "body": "Przekształcamy tę interpretację w PDF i dodajemy warstwę, której ekran nigdy nie pokazuje: siłę Twojego day master i to, czego teraz potrzebuje, ten gods Twoich czterech filarów, cztery obszary życia odczytane z Twojego natal chart z liczbami za nimi, oraz prognozę na ten rok. Dzisiejsza fortuna nie jest uwzględniona — zmienia się codziennie, więc pozostaje darmowa na ekranie.",
     "buyButton": "Zapłać {price} i pobierz",
     "preparing": "Jeszcze niedostępne",
     "ordering": "Tworzymy zamówienie…",
@@ -435,10 +439,12 @@ export const pl: Dictionary = {
     "retry": "Pobierz ponownie",
     "contents": [
       "Twój day master i temperament — podsumowanie, mocne strony i uwagi",
-      "Twój wykres urodzeniowy — osiem znaków czterech filarów",
-      "Waga pięciu elementów, najgrubsza i najcieńsza",
+      "Twój natal chart i waga pięciu elementów — osiem znaków",
       "Siła twojego day master, oraz energia, której teraz potrzebuje",
-      "Dzisiejsza fortuna i cztery obszary (pieniądze, miłość, praca, zdrowie)"
+      "Sezonowa witalność i ten gods twoich czterech filarów",
+      "Co wyróżnia się w tym wykresie — grube ten gods i te, które są nieobecne",
+      "Cztery obszary życia odczytane z twojego natal chart, z liczbami za każdym",
+      "Poprawka na prawdziwy czas słoneczny i prognoza na ten rok"
     ],
     "consentLabel": "Rozumiem, że jest to treść cyfrowa dostarczana natychmiast po płatności, oraz że **po zakończeniu pobierania odstąpienie z powodu zwykłej zmiany zdania jest ograniczone**.",
     "consentRequired": "Potwierdź warunki odstąpienia przed płatnością.",
@@ -450,7 +456,7 @@ export const pl: Dictionary = {
       ],
       [
         "Format",
-        "Jeden dokument PDF (5 stron A4), pobrany na ekranie zaraz po dokonaniu płatności."
+        "Jeden dokument PDF (9 stron A4), pobrany na ekranie zaraz po dokonaniu płatności."
       ],
       [
         "Wymagania",

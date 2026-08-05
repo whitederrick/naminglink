@@ -409,7 +409,11 @@ export const fil: Dictionary = {
     "meaningColumn": "Ano ang ibig sabihin nito",
     "yearOutlookTitle": "Pangkalahatang pananaw para sa taong ito",
     "domainsTitle": "Apat na larangan ng buhay",
-    "factorsTitle": "Saan nagmula ang iskor ngayon",
+    "yongsinTitle": "Ano ang kailangan mo ngayon",
+    "tenGodDepthTitle": "Ano ang namumukod-tangi sa tsart na ito",
+    "disclaimerTitle": "Paano basahin ang dokumentong ito",
+    "yearOutlookUnavailable": "Hindi nabasa ang haligi ng taong ito, kaya't ang seksyon na ito ay naiwan na walang laman. Ang lahat sa mga pahinang nauna dito ay nananatiling wasto.",
+    "factorsTitle": "Saan nagmula ang iskor ng bawat lugar",
     "factorsHint": "Ang screen ay nagpapakita ng mga salik; dito, bawat isa ay nakalista kasama ang mga puntos na idinagdag o inalis.",
     "deltaColumn": "Mga puntos",
     "appendixTitle": "Paano nabuo ang tsart na ito",
@@ -423,8 +427,8 @@ export const fil: Dictionary = {
     "lunarUnavailable": "Ang petsang ito ay wala sa talahanayan ng almanac, kaya't walang ipinakitang petsang lunar."
   },
   "report": {
-    "title": "Itago ang iyong pagbabasa ng buhay bilang PDF",
-    "body": "Gagawin naming PDF ang pagbabasang ito — ang iyong natal chart, ang bigat ng limang elemento, ang lakas ng iyong day master at kung ano ang kailangan nito ngayon, at ang kapalaran para sa araw na ito, lahat sa isang pahina.",
+    "title": "Buhay na pagbasa at ang darating na taon",
+    "body": "Gagawin naming PDF ang pagbasa na ito at idaragdag ang layer na hindi nakikita sa screen: ang lakas ng iyong day master at kung ano ang kailangan nito ngayon, ang ten gods ng iyong four pillars, ang apat na larangan ng buhay na binasa mula sa iyong natal chart kasama ang mga numerong nasa likod nito, at ang pananaw para sa taong ito. Ang kapalaran sa araw na ito ay hindi kasama — ito ay nagbabago araw-araw, kaya ito ay nananatiling libre sa screen.",
     "buyButton": "Bayaran ang {price} at i-download",
     "preparing": "Hindi pa available",
     "ordering": "Ginagawa ang order mo…",
@@ -435,10 +439,12 @@ export const fil: Dictionary = {
     "retry": "I-download muli",
     "contents": [
       "Ang iyong day master at temperamento — isang buod, mga lakas at mga pag-iingat",
-      "Ang iyong natal chart — ang walong karakter ng apat na haligi",
-      "Ang bigat ng limang elemento, pinakamakapal at pinakamanipis",
-      "Ang lakas ng iyong day master, at ang enerhiyang kailangan nito ngayon",
-      "Ang kapalaran para sa araw na ito at ang apat na larangan (pera, pag-ibig, trabaho, kalusugan)"
+      "Ang iyong natal chart at ang bigat ng limang elemento — ang walong karakter",
+      "Ang lakas ng iyong day master, at ang enerhiya na kailangan nito ngayon",
+      "Panseasonal na vitality at ang ten gods ng iyong four pillars",
+      "Ano ang namumukod-tangi sa chart na ito — ang makapal na ten gods at ang mga wala",
+      "Ang apat na larangan ng buhay na binasa mula sa iyong natal chart, kasama ang mga numerong nasa likod ng bawat isa",
+      "Ang tunay na pagsasaayos ng solar time, at ang pananaw para sa taong ito"
     ],
     "consentLabel": "Nauunawaan kong digital content ito na ibinibigay agad pagkatapos ng bayad, at na **limitado ang pag-urong dahil lang sa pagbabago ng isip kapag natapos na ang download**.",
     "consentRequired": "Pakikumpirma ang mga tuntunin ng pag-urong bago magbayad.",
@@ -450,7 +456,7 @@ export const fil: Dictionary = {
       ],
       [
         "Anyo",
-        "Isang PDF na dokumento (5 A4 na pahina), na mada-download sa screen kaagad pagkatapos ng bayad."
+        "Isang PDF na dokumento (9 na pahina ng A4), na mada-download sa screen kaagad pagkatapos ng bayad."
       ],
       [
         "Kailangan",

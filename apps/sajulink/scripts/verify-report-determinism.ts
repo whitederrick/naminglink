@@ -24,7 +24,6 @@ import { natalOutlook } from "../src/lib/engines/natal-outlook";
 import { prepare, toReading } from "../src/lib/engines/prepare";
 import { todayFortune, todayPillarOf, yearPillarOf } from "../src/lib/engines/today-fortune";
 import { getDictionary, translatedLocales } from "../src/lib/i18n";
-import type { ReportKind } from "../src/lib/report-product";
 
 const SEOUL = { timeZone: "Asia/Seoul", longitude: 126.978 };
 const DATE = "2026-08-04";
@@ -53,13 +52,12 @@ async function main() {
 
   console.log(`허용목록(달라져도 되는 자리): ${MUTABLE_FIELDS.join(", ")}\n`);
 
-  const kinds: ReportKind[] = ["chongun", "premium"];
   let compared = 0;
 
   console.log("== 같은 입력을 두 번 — 허용목록 밖은 글자까지 같아야 한다");
   for (const spec of PEOPLE) {
     for (const locale of translatedLocales) {
-      for (const kind of kinds) {
+      {
         const build = () => {
           const reading = toReading(
             prepare({ ...spec, calendarType: "solar", birthplace: SEOUL }),
@@ -69,7 +67,6 @@ async function main() {
             today: todayFortune(reading, todayPillarOf(DATE)),
             outlook: natalOutlook(reading, spec.gender),
             yearPillar: yearPillarOf(DATE),
-            kind,
             locale,
             dictionary: getDictionary(locale),
           });
@@ -78,7 +75,7 @@ async function main() {
         const second = build();
         compared += 1;
         if (JSON.stringify(first) !== JSON.stringify(second)) {
-          check(`${spec.label}/${locale}/${kind}`, false, "두 번 뽑은 값이 다르다");
+          check(`${spec.label}/${locale}`, false, "두 번 뽑은 값이 다르다");
         }
       }
     }
@@ -96,7 +93,6 @@ async function main() {
     today: todayFortune(reading, todayPillarOf(DATE)),
     outlook: natalOutlook(reading, PEOPLE[0]!.gender),
     yearPillar: yearPillarOf(DATE),
-    kind: "premium",
     locale: "ko",
     dictionary: getDictionary("ko"),
   });
@@ -122,7 +118,6 @@ async function main() {
     today: todayFortune(otherReading, todayPillarOf(DATE)),
     outlook: natalOutlook(otherReading, PEOPLE[1]!.gender),
     yearPillar: yearPillarOf(DATE),
-    kind: "premium",
     locale: "ko",
     dictionary: getDictionary("ko"),
   });
@@ -177,7 +172,7 @@ async function main() {
     const person = toReading(prepare({ ...spec, calendarType: "solar", birthplace: SEOUL }));
     const outlook = natalOutlook(person, spec.gender);
     for (const locale of translatedLocales) {
-      for (const kind of kinds) {
+      {
         measured.push(
           ...measure(
             buildNarrative({
@@ -185,11 +180,10 @@ async function main() {
               today: todayFortune(person, todayPillarOf(DATE)),
               outlook,
               yearPillar: yearPillarOf(DATE),
-              kind,
               locale,
               dictionary: getDictionary(locale),
             }),
-            `${spec.label}/${locale}/${kind}`,
+            `${spec.label}/${locale}`,
           ),
         );
       }

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { REPORT_PAGE_COUNT } from "@/lib/report-pages";
 import { getDictionary } from "@/lib/i18n";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
-import { getAllReportPrices } from "@/lib/report-product";
+import { getReportPrices } from "@/lib/report-product";
 
 /** 한국어판 `guide/reports`의 영어판. 목차·금액을 손으로 적지 않는 규칙도 같다. */
 
@@ -16,7 +17,7 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 export default async function Page(props: GuidePageProps) {
   const { locale, entry, hubHref } = await guideContext(SLUG, props);
   const dictionary = getDictionary(locale);
-  const prices = await getAllReportPrices();
+  const prices = await getReportPrices();
 
   return (
     <GuideShell
@@ -41,10 +42,10 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title={`Saju life reading report — ${prices.chongun.global}`}>
+      <GuideSection title={`Life reading and year ahead report — ${prices.global}`}>
         <p>
-          {prices.chongun.global} for international payment, {prices.chongun.domestic} (VAT
-          included) in Korea. {dictionary.report.contents.length} A4 pages.
+          {prices.global} for international payment, {prices.domestic} (VAT
+          included) in Korea. {REPORT_PAGE_COUNT} A4 pages.
         </p>
         <ul>
           {dictionary.report.contents.map((line) => (
@@ -79,24 +80,6 @@ export default async function Page(props: GuidePageProps) {
             differs per person and appears only in the report.
           </li>
         </ul>
-      </GuideSection>
-
-      <GuideSection title={`Premium reading report — ${prices.premium.global}`}>
-        <p>
-          {prices.premium.global} for international payment, {prices.premium.domestic} (VAT
-          included) in Korea. {dictionary.premiumReport.contents.length} A4 pages.
-        </p>
-        <ul>
-          {dictionary.premiumReport.contents.map((line) => (
-            <li key={line}>{line}</li>
-          ))}
-        </ul>
-        <p>
-          Here the <b>numbers behind the verdict</b> are the point. It carries everything in the
-          life reading report and adds the three values above — the ally ratio, the seasonal
-          standing and the true-solar-time correction. Rather than asking you to trust the verdict,
-          it shows you how the verdict was reached.
-        </p>
       </GuideSection>
 
       <GuideSection title="Before you buy">

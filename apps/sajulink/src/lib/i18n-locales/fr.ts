@@ -409,7 +409,11 @@ export const fr: Dictionary = {
     "meaningColumn": "Ce que cela signifie",
     "yearOutlookTitle": "Perspectives de cette année",
     "domainsTitle": "Quatre domaines de la vie",
-    "factorsTitle": "D'où provient le score d'aujourd'hui",
+    "yongsinTitle": "Ce dont vous avez besoin maintenant",
+    "tenGodDepthTitle": "Ce qui se démarque dans ce tableau",
+    "disclaimerTitle": "Comment lire ce document",
+    "yearOutlookUnavailable": "Le pilier de cette année n'a pas pu être lu, donc cette section est laissée vide. Tout ce qui se trouve sur les pages précédentes reste valable.",
+    "factorsTitle": "D'où provient le score de chaque domaine",
     "factorsHint": "L'écran nomme les facteurs ; ici, chacun est imprimé avec les points qu'il a ajoutés ou retirés.",
     "deltaColumn": "Points",
     "appendixTitle": "Comment cette carte a été construite",
@@ -423,8 +427,8 @@ export const fr: Dictionary = {
     "lunarUnavailable": "Cette date n'est pas dans le tableau des almanachs, donc aucune date lunaire n'est affichée."
   },
   "report": {
-    "title": "Conservez votre lecture de vie en tant que PDF",
-    "body": "Nous transformons cette lecture en un PDF — votre natal chart, le poids des cinq éléments, la force de votre jour maître et ce dont il a besoin maintenant, et la fortune d’aujourd’hui, le tout sur une seule page.",
+    "title": "Lecture de vie et l'année à venir",
+    "body": "Nous transformons cette lecture en un PDF et ajoutons la couche que l'écran ne montre jamais : la force de votre jour maître et ce dont il a besoin maintenant, les dix dieux de vos quatre piliers, les quatre domaines de la vie lus à partir de votre carte natale avec les chiffres qui les sous-tendent, et les perspectives pour cette année. La fortune d'aujourd'hui n'est pas incluse — elle change chaque jour, donc elle reste gratuite à l'écran.",
     "buyButton": "Payer {price} et télécharger",
     "preparing": "Pas encore disponible",
     "ordering": "Création de votre commande…",
@@ -435,10 +439,12 @@ export const fr: Dictionary = {
     "retry": "Télécharger à nouveau",
     "contents": [
       "Votre jour maître et tempérament — un résumé, forces et précautions",
-      "Votre natal chart — les huit caractères des quatre piliers",
-      "Le poids des cinq éléments, le plus épais et le plus fin",
+      "Votre carte natale et le poids des cinq éléments — les huit caractères",
       "La force de votre jour maître, et l'énergie dont il a besoin maintenant",
-      "La fortune d’aujourd’hui et les quatre domaines (argent, amour, travail, santé)"
+      "Vitalité saisonnière et les dix dieux de vos quatre piliers",
+      "Ce qui se démarque dans cette carte — les dix dieux épais et ceux absents",
+      "Les quatre domaines de la vie lus à partir de votre carte natale, avec les chiffres derrière chacun",
+      "La correction du temps solaire vrai, et les perspectives pour cette année"
     ],
     "consentLabel": "Je comprends qu'il s'agit d'un contenu numérique fourni immédiatement après le paiement, et que **le droit de rétractation pour simple changement d'avis est restreint une fois le téléchargement terminé**.",
     "consentRequired": "Veuillez confirmer les conditions de rétractation avant de payer.",
@@ -450,7 +456,7 @@ export const fr: Dictionary = {
       ],
       [
         "Format",
-        "Un document PDF (5 pages A4), téléchargé à l'écran immédiatement après le paiement."
+        "Un document PDF (9 pages A4), téléchargé à l'écran immédiatement après le paiement."
       ],
       [
         "Prérequis",

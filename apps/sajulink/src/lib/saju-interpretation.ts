@@ -19,7 +19,6 @@ import {
   sajuOutputInstruction,
   sajuSystemPrompt,
 } from "@/lib/prompts";
-import type { ReportKind } from "@/lib/report-product";
 import { buildNarrative } from "@/lib/saju-narrative";
 
 /**
@@ -84,21 +83,20 @@ export type SajuInterpretation = {
 export const MUTABLE_FIELDS = ["summary"] as const;
 
 /**
- * 캐시 키 — `입력해시 + 엔진버전 + 프롬프트버전 + locale + tier + 날짜`.
+ * 캐시 키 — `입력해시 + 엔진버전 + 프롬프트버전 + locale + 날짜`.
  *
  * **날짜가 들어가는 이유**: 해설이 오늘의 운세를 언급하므로 자정을 넘기면 다른 글이어야 한다.
  * **엔진·프롬프트 버전이 들어가는 이유**: 규칙이나 지시를 고치면 옛 글이 그대로 나오면 안 된다.
  */
 function cacheKey(
   factors: ReturnType<typeof buildSajuFactors>,
-  kind: ReportKind,
   locale: Locale,
 ) {
   const inputHash = createHash("sha256")
     .update(JSON.stringify(factors.natal))
     .digest("hex")
     .slice(0, 32);
-  return [inputHash, TODAY_FORTUNE_VERSION, PROMPT_VERSION, locale, kind, factors.today.date].join(":");
+  return [inputHash, TODAY_FORTUNE_VERSION, PROMPT_VERSION, locale, factors.today.date].join(":");
 }
 
 /**
@@ -122,8 +120,8 @@ function text(value: unknown): string | null {
  * 필드별 글자 수 상한.
  *
  * **장수가 고시에 적히는 값이기 때문에 있다.** 문서는 장마다 들어갈 것이 정해져 있고
- * (`saju-report.tsx`), 어느 한 장의 글이 지면을 넘으면 그 장이 둘로 갈라져 5장·7장이 6장·8장이
- * 된다. 프롬프트로 "짧게 쓰라"고 이르는 것은 부탁이지 보장이 아니다 — 보장은 여기서 만든다.
+ * (`saju-report.tsx`), 어느 한 장의 글이 지면을 넘으면 그 장이 둘로 갈라져 고시한 장수보다
+ * 한 장이 늘어난다. 프롬프트로 "짧게 쓰라"고 이르는 것은 부탁이지 보장이 아니다 — 보장은 여기서 만든다.
  *
  * 값은 넉넉하게 잡았다. 모델이 평소 내는 길이의 두 배쯤이라 정상 응답은 잘리지 않고, 비정상적
  * 으로 긴 응답만 걸린다.
@@ -217,7 +215,7 @@ function applyMutableFields(
 /** 모델을 한 번 부른다. 실패·파싱 오류는 `null`로 돌려 부르는 쪽이 재시도를 정하게 한다. */
 async function requestInterpretation(
   openai: OpenAI,
-  input: { kind: ReportKind; locale: Locale },
+  input: { locale: Locale },
   factors: ReturnType<typeof buildSajuFactors>,
 ): Promise<Partial<SajuInterpretation> | null> {
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
@@ -234,7 +232,7 @@ async function requestInterpretation(
       messages: [
         {
           role: "system",
-          content: `${sajuSystemPrompt(input.locale, localeLanguageName(input.locale))} ${sajuOutputInstruction(input.kind)}`,
+          content: `${sajuSystemPrompt(input.locale, localeLanguageName(input.locale))} ${sajuOutputInstruction()}`,
         },
         { role: "user", content: JSON.stringify(factors) },
       ],
@@ -251,9 +249,9 @@ async function requestInterpretation(
 /**
  * 해설을 만든다. **어떤 경우에도 값을 돌려준다.**
  *
- * 예전에는 실패하면 `null`을 주었고 PDF가 해설 자리를 통째로 비웠다. 그러면 총운 3장·프리미엄
- * 5장으로 나가는데 **상품 정보 고시에는 5장·7장으로 적혀 있다.** 고시는 실제와 달라선 안 되므로,
- * 실패한 자리는 엔진 값으로 쓴 서술(`saju-narrative.ts`)이 대신 채운다.
+ * 예전에는 실패하면 `null`을 주었고 PDF가 해설 자리를 통째로 비웠다. 그러면 **고시에 적은
+ * 장수보다 적게 나간다.** 고시는 실제와 달라선 안 되므로, 실패한 자리는 엔진 값으로 쓴
+ * 서술(`saju-narrative.ts`)이 대신 채운다.
  *
  * 실패는 대개 일시적이라 **한 번 더 부른다.** SDK가 이미 전송 오류·5xx·429는 재시도하지만
  * (`maxRetries: 1`), JSON이 깨졌거나 필수 필드가 빠진 응답은 그 대상이 아니다 — 그 경우가
@@ -265,7 +263,6 @@ export async function interpretSaju(input: {
   today: TodayFortune;
   /** 원국 기준 네 영역. 부르는 쪽이 `natalOutlook(reading, gender)`로 뽑아 넘긴다. */
   outlook: NatalOutlook;
-  kind: ReportKind;
   locale: Locale;
 }): Promise<SajuInterpretation> {
   const narrative = buildNarrative({
@@ -274,7 +271,6 @@ export async function interpretSaju(input: {
     outlook: input.outlook,
     // 세운은 오늘 날짜에서 뽑는다. 일진과 같은 만세력 호출이고 계산 규칙은 그대로다.
     yearPillar: yearPillarOf(input.today.date),
-    kind: input.kind,
     locale: input.locale,
     dictionary: getDictionary(input.locale),
   });
@@ -283,8 +279,8 @@ export async function interpretSaju(input: {
   // 키가 없는 것은 사고가 아니라 설정이다(다크 런치). 알리지 않고 엔진 서술로 낸다.
   if (!openai) return narrative;
 
-  const factors = buildSajuFactors(input.reading, input.today, input.kind, input.locale);
-  const key = cacheKey(factors, input.kind, input.locale);
+  const factors = buildSajuFactors(input.reading, input.today, input.locale);
+  const key = cacheKey(factors, input.locale);
   const cached = memo.get(key);
   if (cached) return cached;
 
@@ -302,7 +298,7 @@ export async function interpretSaju(input: {
     notifyOps(
       "saju-interpretation-fallback",
       "해설 생성이 두 번 모두 실패해 엔진 서술로 발급했습니다.",
-      { kind: input.kind, locale: input.locale, date: input.today.date },
+      { locale: input.locale, date: input.today.date },
     );
     // **캐시하지 않는다.** 같은 주문으로 다시 받을 때 모델을 부를 기회가 다시 있어야 한다.
     return narrative;
@@ -313,7 +309,7 @@ export async function interpretSaju(input: {
     notifyOps(
       "saju-interpretation-partial",
       "해설 응답에 요약 문단이 없어 엔진 서술로 발급했습니다.",
-      { kind: input.kind, locale: input.locale, date: input.today.date },
+      { locale: input.locale, date: input.today.date },
     );
     return narrative;
   }

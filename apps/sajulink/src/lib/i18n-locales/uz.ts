@@ -409,7 +409,11 @@ export const uz: Dictionary = {
     "meaningColumn": "Bu nima degani",
     "yearOutlookTitle": "Bu yilning ko'rinishi",
     "domainsTitle": "Hayotning to'rt sohalari",
-    "factorsTitle": "Bugungi ball qayerdan keladi",
+    "yongsinTitle": "Hozir sizga kerak bo'lgan narsa",
+    "tenGodDepthTitle": "Ushbu jadvalda ajralib turadigan narsa",
+    "disclaimerTitle": "Ushbu hujjatni qanday o'qish kerak",
+    "yearOutlookUnavailable": "Bu yilning ustuni o'qilmagan, shuning uchun bu bo'lim bo'sh qoldirilgan. Oldingi sahifalardagi hamma narsa hali ham amal qiladi.",
+    "factorsTitle": "Har bir sohaning ballari qayerdan kelib chiqadi",
     "factorsHint": "Ekranda omillar nomlari ko'rsatiladi; bu yerda har birining qo'shgan yoki olib tashlagan ballari chop etiladi.",
     "deltaColumn": "Ballar",
     "appendixTitle": "Bu chart qanday tuzildi",
@@ -423,8 +427,8 @@ export const uz: Dictionary = {
     "lunarUnavailable": "Bu sana taqvim jadvalida yo'q, shuning uchun oy sanasi ko'rsatilmaydi."
   },
   "report": {
-    "title": "Hayotingizni PDF formatida saqlang",
-    "body": "Biz ushbu o'qishni PDF formatiga aylantiramiz — sizning natal chartingiz, besh elementning og'irligi, kun ustunligingizning kuchi va hozir nima kerakligi, va bugungi taqdir, barchasi bitta sahifada.",
+    "title": "Hayot o'qilishi va kelgusi yil",
+    "body": "Biz bu o'qishni PDF ga aylantiramiz va ekran hech qachon ko'rsatmaydigan qatlamni qo'shamiz: sizning kun ustingizning kuchi va hozir nima kerakligi, to'rt ustuningizning o'n xudosi, tug'ilgan chartingizdan o'qilgan hayotning to'rt sohalari va ularning ortidagi raqamlar, shuningdek, bu yil uchun prognoz. Bugungi baxt kiritilmagan — u har kuni o'zgaradi, shuning uchun ekran ustida bepul qoladi.",
     "buyButton": "{price} to'lab yuklab olish",
     "preparing": "Hozircha mavjud emas",
     "ordering": "Buyurtma yaratilmoqda…",
@@ -434,11 +438,13 @@ export const uz: Dictionary = {
     "failed": "To'lov yoki yuklab olish amalga oshmadi. Birozdan so'ng qayta urinib ko'ring.",
     "retry": "Qaytadan yuklab olish",
     "contents": [
-      "Sizning kun ustunligingiz va temperamentingiz — qisqacha, kuchlar va ehtiyot bo'lish kerak bo'lgan jihatlar",
-      "Sizning natal chartingiz — to'rt ustunning sakkiz belgisi",
-      "Besh elementning og'irligi, eng qalin va eng yupqa",
-      "Sizning kun ustunligingizning kuchi va hozir nima kerakligi",
-      "Bugungi taqdir va to'rt soha (pul, sevgi, ish, salomatlik)"
+      "Sizning kun ustingiz va temperament — qisqacha, kuchlar va ehtiyot bo'lish kerak bo'lgan jihatlar",
+      "Sizning tug'ilgan xaritangiz va besh elementning og'irligi — sakkiz belgi",
+      "Sizning kun ustingizning kuchi va hozir nima energiya kerak",
+      "Mavsumiy hayotiylik va to'rt ustunning o'n xudolari",
+      "Bu xaritada ajralib turadigan narsalar — qalin o'n xudolar va yo'q bo'lganlar",
+      "Sizning tug'ilgan xaritangizdan o'qilgan hayotning to'rt sohasi, har birining ortidagi raqamlar bilan",
+      "Haqiqiy quyosh vaqti tuzatish, va bu yil uchun prognoz"
     ],
     "consentLabel": "Bu to'lovdan keyin darhol yetkaziladigan raqamli mahsulot ekanini va **yuklab olish tugagach, oddiy fikr o'zgarishi sababli tovardan voz kechish cheklanishini** tushundim.",
     "consentRequired": "To'lashdan oldin voz kechish shartlarini tasdiqlang.",
@@ -450,7 +456,7 @@ export const uz: Dictionary = {
       ],
       [
         "Format",
-        "Bitta PDF hujjati (5 A4 sahifa), to'lovdan so'ng darhol ekranda yuklab olinadi."
+        "Bitta PDF hujjati (9 A4 sahifa), to'lovdan so'ng ekrandan darhol yuklab olinadi."
       ],
       [
         "Talablar",

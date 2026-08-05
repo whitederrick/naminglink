@@ -24,8 +24,8 @@ import {
 import { getDictionary, translatedLocales, type Locale } from "../src/lib/i18n";
 import { pdfLocale } from "../src/lib/pdf/fonts";
 import { renderSajuReport } from "../src/lib/pdf/saju-report";
+import { REPORT_PAGE_COUNT } from "../src/lib/report-pages";
 import type { SajuInterpretation } from "../src/lib/saju-interpretation";
-import type { ReportKind } from "../src/lib/report-product";
 
 // 폴백 모듈은 `server-only`를 들여온다 — 유료 서술을 만드는 자리라 클라이언트에서 불리면
 // 안 되기 때문이다. 이 스크립트는 서버 밖이므로 **가드만 비운다**(다른 검사 스크립트와 같은
@@ -100,7 +100,6 @@ async function main() {
   const locales: Locale[] = [...new Set(translatedLocales.map(pdfLocale))].filter(
     (locale) => !onlyLocales || onlyLocales.has(locale),
   );
-  const kinds: ReportKind[] = ["chongun", "premium"];
 
   /**
    * **세 경우를 다 낸다.** 해설이 온 문서와 오지 않은 문서의 장수가 같아야 상품 정보 고시가
@@ -126,53 +125,53 @@ async function main() {
   const modes = (["gpt", "long", "fallback"] as const).filter(
     (mode) => !onlyModes || onlyModes.has(mode),
   );
-  const expected: Record<ReportKind, number> = { chongun: 5, premium: 7 };
+  /**
+   * **선언된 `<Page>` 수와 같아야 한다.** 이 값이 곧 상품 정보 고시에 적는 장수다
+   * (`saju-report.tsx`의 여덟 장). 문안이 길어져 어느 한 장이 갈라지면 여기서 걸린다.
+   */
+  const expected = REPORT_PAGE_COUNT;
   let mismatch = 0;
 
   for (const locale of locales) {
     const dictionary = getDictionary(locale);
-    for (const kind of kinds) {
-      for (const mode of modes) {
-        const narrative = buildNarrative({
-          reading,
-          today,
-          outlook,
-          yearPillar: yearPillarOf("2026-08-04"),
-          kind,
-          locale,
-          dictionary,
-        });
-        // 모델이 손대는 자리는 `summary` 하나다. 서버도 여기서 하는 것과 같은 일만 한다
-        // (`applyMutableFields` — 허용목록 밖은 무엇이 오든 버린다).
-        const copy: SajuInterpretation =
-          mode === "fallback"
-            ? narrative
-            : {
-                ...narrative,
-                summary:
-                  mode === "long" ? stretch(SAMPLE_SUMMARY, LIMITS.summary) : SAMPLE_SUMMARY,
-              };
+    for (const mode of modes) {
+      const narrative = buildNarrative({
+        reading,
+        today,
+        outlook,
+        yearPillar: yearPillarOf("2026-08-04"),
+        locale,
+        dictionary,
+      });
+      // 모델이 손대는 자리는 `summary` 하나다. 서버도 여기서 하는 것과 같은 일만 한다
+      // (`applyMutableFields` — 허용목록 밖은 무엇이 오든 버린다).
+      const copy: SajuInterpretation =
+        mode === "fallback"
+          ? narrative
+          : {
+              ...narrative,
+              summary:
+                mode === "long" ? stretch(SAMPLE_SUMMARY, LIMITS.summary) : SAMPLE_SUMMARY,
+            };
 
-        const buffer = await renderSajuReport({
-          kind,
-          reading,
-          today,
-          interpretation: copy,
-          locale,
-          dictionary,
-          generatedAt: "2026-08-04T00:00:00.000Z",
-          engineVersion: ENGINE_VERSION,
-        });
-        const file = path.join(outDir, `${kind}-${locale}-${mode}.pdf`);
-        await writeFile(file, buffer);
-        // 장수는 PDF의 /Type /Page 개수로 센다. 목차·고시에 적을 값이라 눈대중으로 세지 않는다.
-        const pages = (buffer.toString("latin1").match(/\/Type\s*\/Page[^s]/g) ?? []).length;
-        const ok = pages === expected[kind];
-        if (!ok) mismatch += 1;
-        console.log(
-          `${ok ? "  " : "✗ "}${kind}-${locale}-${mode}.pdf  ${pages}장(기대 ${expected[kind]})  ${(buffer.length / 1024).toFixed(0)}KB`,
-        );
-      }
+      const buffer = await renderSajuReport({
+        reading,
+        outlook,
+        interpretation: copy,
+        locale,
+        dictionary,
+        generatedAt: "2026-08-04T00:00:00.000Z",
+        engineVersion: ENGINE_VERSION,
+      });
+      const file = path.join(outDir, `${locale}-${mode}.pdf`);
+      await writeFile(file, buffer);
+      // 장수는 PDF의 /Type /Page 개수로 센다. 목차·고시에 적을 값이라 눈대중으로 세지 않는다.
+      const pages = (buffer.toString("latin1").match(/\/Type\s*\/Page[^s]/g) ?? []).length;
+      const ok = pages === expected;
+      if (!ok) mismatch += 1;
+      console.log(
+        `${ok ? "  " : "✗ "}${locale}-${mode}.pdf  ${pages}장(기대 ${expected})  ${(buffer.length / 1024).toFixed(0)}KB`,
+      );
     }
   }
   console.log(`\n→ ${outDir}`);

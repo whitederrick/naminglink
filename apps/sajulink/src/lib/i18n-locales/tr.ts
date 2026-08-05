@@ -409,7 +409,11 @@ export const tr: Dictionary = {
     "meaningColumn": "Ne anlama geliyor",
     "yearOutlookTitle": "Bu yılın görünümü",
     "domainsTitle": "Hayatın Dört Alanı",
-    "factorsTitle": "Bugünkü puanın kaynağı",
+    "yongsinTitle": "Şu anda ihtiyacınız olan",
+    "tenGodDepthTitle": "Bu haritada öne çıkanlar",
+    "disclaimerTitle": "Bu belgeyi nasıl okuyacağınız",
+    "yearOutlookUnavailable": "Bu yılın sütunu okunamadı, bu nedenle bu bölüm boş bırakılmıştır. Önceki sayfalardaki her şey geçerlidir.",
+    "factorsTitle": "Her alanın puanının nereden geldiği",
     "factorsHint": "Ekran faktörlerin adını gösteriyor; burada her biri eklediği veya çıkardığı puanlarla birlikte yazılmıştır.",
     "deltaColumn": "Puanlar",
     "appendixTitle": "Bu harita nasıl oluşturuldu",
@@ -423,8 +427,8 @@ export const tr: Dictionary = {
     "lunarUnavailable": "Bu tarih takvim tablosunda yok, bu yüzden ay tarihi gösterilmedi."
   },
   "report": {
-    "title": "Hayat okumanızı PDF olarak saklayın",
-    "body": "Bu okumayı bir PDF haline getiriyoruz — doğum haritanız, beş elementin dengesi, gün ustanızın gücü ve şu anda ihtiyaç duyduğu enerji, ve bugünün talihi, hepsi tek bir sayfada.",
+    "title": "Hayat okuması ve önümüzdeki yıl",
+    "body": "Bu okumayı bir PDF'ye dönüştürüyoruz ve ekranın asla göstermediği katmanı ekliyoruz: gün ustanızın gücü ve şu anda neye ihtiyacı olduğu, dört sütununuzun on tanrısı, doğum haritanızdan okunan yaşamın dört alanı ve arkasındaki sayılar, ayrıca bu yıl için görünüm. Bugünün talihi dahil değildir — her gün değiştiği için ekranda ücretsiz kalır.",
     "buyButton": "{price} ödeyip indirin",
     "preparing": "Henüz kullanılamıyor",
     "ordering": "Siparişiniz oluşturuluyor…",
@@ -434,11 +438,13 @@ export const tr: Dictionary = {
     "failed": "Ödeme ya da indirme başarısız oldu. Lütfen biraz sonra tekrar deneyin.",
     "retry": "Yeniden indir",
     "contents": [
-      "Gün ustanız ve karakteriniz — bir özet, güçlü ve dikkat edilmesi gereken noktalar",
-      "Doğum haritanız — dört sütunun sekiz karakteri",
-      "Beş elementin dengesi, en kalın ve en ince olanı",
+      "Gün ustanız ve temperamentiniz — bir özet, güçlü yönler ve dikkat edilmesi gerekenler",
+      "Doğum haritanız ve beş elementin ağırlığı — sekiz karakter",
       "Gün ustanızın gücü ve şu anda ihtiyaç duyduğu enerji",
-      "Bugünün talihi ve dört alan (para, aşk, iş, sağlık)"
+      "Mevsimsel canlılık ve dört sütununuzun on tanrısı",
+      "Bu haritada öne çıkanlar — kalın on tanrılar ve olmayanlar",
+      "Doğum haritanızdan okunan yaşamın dört alanı ve her birinin arkasındaki sayılar",
+      "Gerçek güneş saati düzeltmesi ve bu yıl için öngörü"
     ],
     "consentLabel": "Bu ürünün ödeme sonrası anında teslim edilen dijital içerik olduğunu ve **indirme tamamlandıktan sonra basit fikir değişikliğine dayalı cayma hakkının kısıtlandığını** anladım.",
     "consentRequired": "Ödeme yapmadan önce lütfen cayma koşullarını onaylayın.",
@@ -450,7 +456,7 @@ export const tr: Dictionary = {
       ],
       [
         "Biçim",
-        "Bir PDF belgesi (5 A4 sayfası), ödeme hemen sonrasında ekranda indirilecektir."
+        "1 adet PDF belgesi (9 A4 sayfası), ödeme yapıldıktan hemen sonra ekrandan indirilecektir."
       ],
       [
         "Gereksinimler",

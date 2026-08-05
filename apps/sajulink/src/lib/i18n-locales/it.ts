@@ -409,7 +409,11 @@ export const it: Dictionary = {
     "meaningColumn": "Cosa significa",
     "yearOutlookTitle": "Prospettiva di quest'anno",
     "domainsTitle": "Quattro aree della vita",
-    "factorsTitle": "Da dove proviene il punteggio di oggi",
+    "yongsinTitle": "Cosa ti serve ora",
+    "tenGodDepthTitle": "Cosa spicca in questo grafico",
+    "disclaimerTitle": "Come leggere questo documento",
+    "yearOutlookUnavailable": "Non è stato possibile leggere il pilastro di quest'anno, quindi questa sezione è lasciata vuota. Tutto ciò che si trova nelle pagine precedenti è ancora valido.",
+    "factorsTitle": "Da dove proviene il punteggio di ciascuna area",
     "factorsHint": "Lo schermo nomina i fattori; qui ciascuno è stampato con i punti che ha aggiunto o rimosso.",
     "deltaColumn": "Punti",
     "appendixTitle": "Come è stato costruito questo grafico",
@@ -423,8 +427,8 @@ export const it: Dictionary = {
     "lunarUnavailable": "Questa data non è nella tabella dell'almanacco, quindi non è mostrata alcuna data lunare."
   },
   "report": {
-    "title": "Conserva la tua lettura della vita come PDF",
-    "body": "Trasformiamo questa lettura in un PDF — il tuo grafico natale, il peso dei cinque elementi, la forza del tuo giorno maestro e ciò di cui ha bisogno ora, e la fortuna di oggi, tutto su una pagina.",
+    "title": "Lettura della vita e l'anno a venire",
+    "body": "Trasformiamo questa lettura in un PDF e aggiungiamo il livello che lo schermo non mostra mai: la forza del tuo day master e ciò di cui ha bisogno ora, i ten gods dei tuoi quattro pilastri, le quattro aree della vita lette dal tuo natal chart con i numeri dietro di esse, e le prospettive per quest'anno. La fortuna di oggi non è inclusa — cambia ogni giorno, quindi rimane gratuita sullo schermo.",
     "buyButton": "Paga {price} e scarica",
     "preparing": "Non ancora disponibile",
     "ordering": "Creazione dell'ordine…",
@@ -434,11 +438,13 @@ export const it: Dictionary = {
     "failed": "Il pagamento o il download non è riuscito. Riprova tra un momento.",
     "retry": "Scarica di nuovo",
     "contents": [
-      "Il tuo giorno maestro e temperamento — un riepilogo, punti di forza e precauzioni",
-      "Il tuo grafico natale — gli otto caratteri dei quattro pilastri",
-      "Il peso dei cinque elementi, il più spesso e il più sottile",
-      "La forza del tuo giorno maestro, e l'energia di cui ha bisogno ora",
-      "La fortuna di oggi e i quattro ambiti (denaro, amore, lavoro, salute)"
+      "Il tuo day master e temperamento — un riassunto, punti di forza e precauzioni",
+      "Il tuo natal chart e il peso dei cinque elementi — gli otto caratteri",
+      "La forza del tuo day master, e l'energia di cui ha bisogno ora",
+      "Vitalità stagionale e i dieci dei delle tue quattro colonne",
+      "Cosa spicca in questo grafico — i dieci dei spessi e quelli assenti",
+      "Le quattro aree della vita lette dal tuo natal chart, con i numeri dietro ciascuna",
+      "La correzione del tempo solare vero, e le prospettive per quest'anno"
     ],
     "consentLabel": "Ho compreso che si tratta di contenuto digitale fornito immediatamente al momento del pagamento e che **il recesso per semplice ripensamento è limitato una volta completato il download**.",
     "consentRequired": "Conferma le condizioni di recesso prima di pagare.",
@@ -450,7 +456,7 @@ export const it: Dictionary = {
       ],
       [
         "Formato",
-        "Un documento PDF (5 pagine A4), scaricato sullo schermo subito dopo il pagamento."
+        "Un documento PDF (9 pagine A4), scaricato sullo schermo subito dopo il pagamento."
       ],
       [
         "Requisiti",

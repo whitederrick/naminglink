@@ -14,10 +14,11 @@ import path from "node:path";
 
 import { SAJULINK_PRODUCT_CODES } from "@naminglink/core/apps";
 
+import { REPORT_PAGE_COUNT } from "../src/lib/report-pages";
+
 import { getDictionary, translatedLocales } from "../src/lib/i18n";
 
 // `report-product.ts`는 `server-only`라 스크립트에서 import할 수 없다. 글로 읽어 대조한다.
-const REPORT_KINDS = ["chongun", "premium"] as const;
 
 let failures = 0;
 function check(label: string, ok: boolean, detail?: string) {
@@ -37,11 +38,12 @@ function check(label: string, ok: boolean, detail?: string) {
 // 이 목록이 늘어나 검사 범위도 함께 늘어난다.
 for (const locale of translatedLocales) {
   const dictionary = getDictionary(locale);
-  for (const [key, copy] of [
-    ["report", dictionary.report],
-    ["premiumReport", dictionary.premiumReport],
-  ] as const) {
-    const pages = copy.contents.length;
+  // `premiumReport`는 상품이 하나로 합쳐지며(2026-08-05) 쓰이지 않는다. 사전에는 아직 남아
+  // 있으나 ⑦에서 로케일을 다시 쓸 때 함께 지운다 — 지금 검사하면 팔지 않는 상품의 고시를 센다.
+  for (const [key, copy] of [["report", dictionary.report]] as const) {
+    // **목차 줄 수가 아니라 선언된 장수와 대조한다.** 예전에는 `contents.length`를 썼는데,
+    // 그 둘이 우연히 같던 동안만 맞았다 — 목차를 한 줄 늘리는 순간 고시가 틀렸다고 잡힌다.
+    const pages = REPORT_PAGE_COUNT;
     // 상품 형태는 고시의 두 번째 항목이다(첫째는 제작·공급자).
     const format = copy.productInfo[1]?.[1] ?? "";
     // 타입을 적어 둔다. `?? []`만 두면 never[]로 좁혀져 아래 includes가 타입 오류를 낸다.
@@ -64,10 +66,9 @@ const koDocs = readFileSync(
   path.join(process.cwd(), "src/lib/legal-locales/_ko-docs.json"),
   "utf8",
 );
-for (const kind of REPORT_KINDS) {
-  // 사전의 상품 제목에서 앞 두 낱말을 뽑아 약관에 있는지 본다. 제목 전체는 약관 문장과
-  // 표현이 달라 그대로 찾으면 늘 실패한다.
-  const title = kind === "chongun" ? "총운 리포트" : "프리미엄 총운";
+// **상품이 하나다**(2026-08-05). 제목 전체는 약관 문장과 표현이 달라 그대로 찾으면 늘
+// 실패하므로, 상품을 특정하는 낱말로 본다.
+for (const title of ["평생 사주", "올해의 운세"]) {
   check(`약관에 "${title}" 언급`, koDocs.includes(title));
 }
 
@@ -121,13 +122,11 @@ for (const absent of ["대운", "세운"]) {
   check(`약관에 "${absent}" 없음(엔진에 없다)`, !koDocs.includes(absent));
 }
 
-// 가격 플레이스홀더도 상품마다 있어야 한다. 하나가 빠지면 그 상품 가격이 문서에 안 나간다.
-for (const token of [
-  "{priceDomestic}",
-  "{priceGlobal}",
-  "{priceAffinityDomestic}",
-  "{priceAffinityGlobal}",
-]) {
+// 가격 플레이스홀더도 권역마다 있어야 한다. 하나가 빠지면 그 권역 가격이 문서에 안 나간다.
+//
+// **둘뿐이다**(2026-08-05). 상품이 하나로 합쳐지며 `{priceAffinity…}` 두 개가 쓰이지 않게
+// 됐다 — 21로케일 번역에는 아직 남아 있고, ⑦에서 로케일을 다시 쓸 때 함께 사라진다.
+for (const token of ["{priceDomestic}", "{priceGlobal}"]) {
   check(`약관에 ${token}`, koDocs.includes(token));
 }
 

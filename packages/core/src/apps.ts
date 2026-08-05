@@ -29,12 +29,16 @@ export const INYEONLINK_PRODUCT_CODES = [
 ] as const;
 export type InyeonlinkProductCode = (typeof INYEONLINK_PRODUCT_CODES)[number];
 
-/** 사주링크가 쓰는 `product_settings.code`. 티어 둘 × 권역 둘. */
+/**
+ * 사주링크가 쓰는 `product_settings.code`. **상품 하나 × 권역 둘.**
+ *
+ * 2026-08-05에 티어 둘(`SAJU_CHONGUN_*`·`SAJU_PREMIUM_*`)을 하나로 합쳤다. 옛 코드를 남기지
+ * 않은 것은 **그 코드로 팔린 적이 한 번도 없기 때문이다** — 상품표에 넣는 마이그레이션이 아직
+ * 적용되지 않았다. 팔린 적이 있다면 콘솔이 옛 주문을 분류하지 못하므로 남겨야 한다.
+ */
 export const SAJULINK_PRODUCT_CODES = [
-  "SAJU_CHONGUN_KRW",
-  "SAJU_CHONGUN_USD",
-  "SAJU_PREMIUM_KRW",
-  "SAJU_PREMIUM_USD",
+  "SAJU_REPORT_KRW",
+  "SAJU_REPORT_USD",
 ] as const;
 export type SajulinkProductCode = (typeof SAJULINK_PRODUCT_CODES)[number];
 

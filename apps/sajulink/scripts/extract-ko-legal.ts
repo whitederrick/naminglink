@@ -32,12 +32,11 @@ const PLACEHOLDER_COMPANY = {
 // 이름 없는 두 자리(`priceDomestic`·`priceGlobal`)는 **궁합 가격**이다. 2026-07-31에 상품이
 // 둘로 갈리면서 인연의 결 자리를 더했는데, 기존 이름의 뜻은 바꾸지 않았다 — 이름을 갈면
 // 이미 번역된 21개 파일을 전부 손대야 한다.
+// **상품이 하나라 값도 한 벌이다**(2026-08-05). 자리표시자 이름(`{price…}`)은 21로케일 번역이
+// 이미 쓰고 있어 그대로 둔다 — ⑦에서 로케일을 다시 쓸 때 함께 정리한다.
 const PLACEHOLDER_PRICES = {
-  chongun: { domestic: "{priceDomestic}", global: "{priceGlobal}" },
-  premium: {
-    domestic: "{priceAffinityDomestic}",
-    global: "{priceAffinityGlobal}",
-  },
+  domestic: "{priceDomestic}",
+  global: "{priceGlobal}",
 } as const;
 
 const KEYS = ["privacy", "terms", "refund", "pricing"] as const;

@@ -16,25 +16,28 @@ import { FIVE_ELEMENTS, STEM_ELEMENT } from "@naminglink/core/saju/elements";
 import { tenGod } from "@naminglink/core/saju/ten-gods";
 
 import type { PersonReading } from "@/lib/engines";
-import type { TodayFortune } from "@/lib/engines/today-fortune";
+import type { NatalOutlook } from "@/lib/engines/natal-outlook";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { MixedText, SCRIPT_FAMILY } from "@/lib/pdf/fonts";
 import { warmUpLayoutEngine } from "@/lib/pdf/warm-up";
-import type { ReportKind } from "@/lib/report-product";
 import type { SajuInterpretation } from "@/lib/saju-interpretation";
 
-// 사주 리포트 PDF. 티어가 둘이라 **한 렌더러가 분량을 가른다.**
+// 사주 리포트 PDF — **한 상품, 한 장수다.**
 //
-//   총운(chongun)     3장 — 표지·요약 / 원국·오행 / 오늘의 운세·삶의 영역
-//   프리미엄(premium)  위에 심화 — 십신·왕상휴수사 / 올해와 부록
+// 예전에는 티어가 둘이었다(총운 5장 / 프리미엄 7장). 둘의 차이가 근거 숫자 두 장뿐이라 위
+// 티어를 살 이유가 약했고, 아래 티어의 40%가 **하루짜리 오늘의 운세**였다 — 평생 보관하는
+// 문서에 그것이 「삶의 네 영역」이라는 이름으로 들어가 있었다. 상품을 하나로 합치고 내용을
+// 평생 것 + 올해 총운으로 다시 짰다(2026-08-05).
 //
-// **화면보다 더 주는 것이 있어야 판다.** 무료 화면은 `publicReading`이 걸러 낸 몫만 보여 주고,
-// 걸러진 값(`PAID_ONLY_READING_FIELDS` — allyRatio·vitality·rawElements·earthSeason·
-// timeCorrection·convertedDate)이 여기 담긴다. 두 곳이 같은 것을 보여 주면 살 이유가 없다.
+// **오늘의 운세는 이 문서에 없다.** 무료 화면(`/today/result`)이 맡는다. 여기 「삶의 네 영역」은
+// `natal-outlook.ts`가 원국에서 뽑은 값이라 하루가 지나도 달라지지 않는다.
+//
+// **화면보다 더 주는 것이 있어야 판다.** 무료 화면은 원국·일간·오행까지만 보여 주고
+// (`publicReading`), 걸러진 값 — 강약 판정·용신·십신·왕상휴수사·근거 숫자·진태양시 보정 —
+// 이 여기 담긴다. 두 곳이 같은 것을 보여 주면 살 이유가 없다.
 //
 // **대운·세운은 넣지 않는다.** 상품 설명이 한때 그렇게 적고 있었으나 엔진(`PersonReading`)이
-// 운 기둥을 내지 않는다. 없는 것을 목차에 적는 대신 실제로 주는 것(십신·왕상휴수사·근거
-// 숫자·올해 총운)으로 적었다. 엔진이 대운을 내게 되면 그때 장을 더한다.
+// 운 기둥을 내지 않는다. 없는 것을 목차에 적는 대신 실제로 주는 것으로 적었다.
 //
 // 입력값은 여기서도 저장하지 않는다. 요청 본문으로 받아 이 함수가 버퍼를 만들어 돌려주면
 // 끝이고 파일로 남기지 않는다.
@@ -212,14 +215,19 @@ const styles = StyleSheet.create({
 });
 
 export type SajuReportData = {
-  kind: ReportKind;
   reading: PersonReading;
-  today: TodayFortune;
+  /**
+   * 원국 기준 삶의 네 영역. 부르는 쪽이 `natalOutlook(reading, gender)`로 뽑아 넘긴다.
+   *
+   * **서술과 같은 값을 써야 한다.** 문단(`interpretation.domains`)과 근거표가 따로 계산하면
+   * 성별을 한쪽에만 넘기는 실수가 조용히 생기고, 그러면 표와 문장이 다른 점수를 말한다.
+   */
+  outlook: NatalOutlook;
   /**
    * 해설. **언제나 있다.**
    *
-   * 예전에는 모델이 흔들리면 `null`이 와서 이 자리를 통째로 비웠는데, 그러면 총운 3장·프리미엄
-   * 5장으로 나갔다 — **상품 정보 고시에 적은 5장·7장과 어긋난다.** 지금은 모델이 실패하면
+   * 예전에는 모델이 흔들리면 `null`이 와서 이 자리를 통째로 비웠는데, 그러면 **고시에 적은
+   * 장수보다 적게 나갔다.** 지금은 모델이 실패하면
    * `interpretSaju`가 엔진 값으로 쓴 서술(`saju-narrative.ts`)을 대신 넣으므로, 이 타입이
    * 비지 않는 것 자체가 장수가 흔들리지 않는다는 보장이다.
    */
@@ -491,38 +499,51 @@ function StemGodTable({
   );
 }
 
-/** 오늘 점수의 근거 항목과 가감. 프리미엄에만 싣는다(화면은 이름만 보여 준다). */
-function FactorTable({
-  today,
+/**
+ * 원국 기준 네 영역 점수의 근거 항목과 가감.
+ *
+ * **예전에는 오늘 점수의 근거표였다.** 오늘의 운세가 문서에서 빠지면서(2026-08-05) 이 자리도
+ * 원국 쪽으로 옮겼다 — 평생 보관하는 문서에 하루짜리 근거가 남아 있을 이유가 없다.
+ *
+ * 엔진은 항목 키와 증감만 낸다(`natal-outlook.ts`). 문장은 사전이 갖고, 사전 쪽이 열거로
+ * 닫혀 있어 엔진에 항목이 늘면 컴파일에서 걸린다.
+ */
+function NatalFactorTable({
+  outlook,
   dictionary,
 }: {
-  today: TodayFortune;
+  outlook: NatalOutlook;
   dictionary: Dictionary;
 }) {
   const d = dictionary.reportDetail;
-  const names = dictionary.today.factors;
+  const names = dictionary.fallbackReport.natalFactors;
+  const categories = dictionary.today.categories;
+
   return (
     <View style={styles.card}>
       <View style={styles.tableHead} wrap={false}>
-        <MixedText style={[styles.th, { flex: 5 }]} text={dictionary.today.basisTitle} />
+        <MixedText style={[styles.th, { flex: 5 }]} text={d.factorsTitle} />
         <MixedText style={[styles.th, { flex: 1, textAlign: "right" }]} text={d.deltaColumn} />
       </View>
-      {today.factors.map((factor, index) => (
-        <View
-          key={`${factor.key}-${index}`}
-          style={styles.tableRow}
-          wrap={false}
-          minPresenceAhead={20}
-        >
-          <MixedText
-            style={[styles.td, { flex: 5 }]}
-            text={names[factor.key as keyof typeof names] ?? factor.key}
-          />
-          <Text style={[styles.td, { flex: 1, textAlign: "right" }]}>
-            {factor.delta > 0 ? `+${factor.delta}` : factor.delta}
-          </Text>
-        </View>
-      ))}
+      {(["wealth", "love", "career", "health"] as const).map((category) =>
+        outlook.factors[category].map((factor, index) => (
+          <View
+            key={`${category}-${factor.key}-${index}`}
+            style={styles.tableRow}
+            wrap={false}
+            minPresenceAhead={20}
+          >
+            <MixedText
+              style={[styles.tdMuted, { flex: 1.1 }]}
+              text={categories[category]}
+            />
+            <MixedText style={[styles.td, { flex: 3.9 }]} text={names[factor.key]} />
+            <Text style={[styles.td, { flex: 1, textAlign: "right" }]}>
+              {factor.delta > 0 ? `+${factor.delta}` : factor.delta}
+            </Text>
+          </View>
+        )),
+      )}
       <MixedText style={styles.tableNote} text={d.factorsHint} />
     </View>
   );
@@ -578,18 +599,15 @@ function CalculationCard({
 }
 
 function SajuReport({
-  kind,
   reading,
-  today,
+  outlook,
   interpretation,
   dictionary,
   generatedAt,
   engineVersion,
 }: SajuReportData) {
-  const isPremium = kind === "premium";
-  const copy = isPremium ? dictionary.premiumReport : dictionary.report;
+  const copy = dictionary.report;
   const r = dictionary.reading;
-  const t = dictionary.today;
   const d = dictionary.reportDetail;
   const dayMaster = dictionary.dayMasters[reading.dayMaster.character];
   const footer = (
@@ -603,7 +621,7 @@ function SajuReport({
 
   return (
     <Document>
-      {/* ── 1장 표지·요약 ── */}
+      {/* 1장 표지·요약 */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={copy.title} />
 
@@ -625,7 +643,7 @@ function SajuReport({
         </View>
 
         {/* 개인정보 안내는 표지 장에 둔다. 이 장은 표지와 요약뿐이라 가장 긴 해설이 와도
-            자리가 남는다 — 반대로 마지막 장에 두면 삶의 네 영역이 길어질 때 함께 밀린다. */}
+            자리가 남는다 — 반대로 마지막 장에 두면 그 장이 길어질 때 함께 밀린다. */}
         <Section title={dictionary.landing.privacyTitle}>
           <MixedText style={styles.note} text={dictionary.landing.privacyBody} />
         </Section>
@@ -633,7 +651,7 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* ── 2장 성향 ── */}
+      {/* 2장 성향 */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={r.strengthTitle} />
 
@@ -661,7 +679,7 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* ── 3장 원국·오행 ── */}
+      {/* 3장 원국·오행 */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={r.chartTitle} />
 
@@ -697,6 +715,15 @@ function SajuReport({
           </View>
         </Section>
 
+        {footer}
+      </Page>
+
+      {/* 4장 일간의 힘과 지금 필요한 기운.
+          **무료 화면에 없는 것이 여기서 시작된다** — 화면은 원국·일간·오행까지만 보여 주고
+          강약 판정과 용신은 응답에서부터 빠져 있다(`publicReading`). */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={r.bodyStrengthTitle} />
+
         <Section title={r.bodyStrengthTitle}>
           <View style={styles.card}>
             <MixedText
@@ -717,87 +744,75 @@ function SajuReport({
           </View>
         </Section>
 
+        {/* 위 카드가 판정과 뜻을 찍고, 이 문단이 그 판정에서 이어지는 처방을 말한다.
+            **이 장을 더 채우지 않는다.** 강약과 용신은 이 상품의 핵심이라 한 장을 줄 만하고,
+            여기에 왕상휴수사 표까지 얹었더니 라틴 문자 로케일에서 범례 한 줄이 넘쳤다
+            (그 장은 범례만 있는 장이 된다). */}
+        <Section title={d.yongsinTitle}>
+          <View style={styles.card}>
+            <MixedText style={styles.body} text={interpretation.yongsin} />
+          </View>
+        </Section>
+
         {footer}
       </Page>
 
-      {/* ── 4장 오늘의 운세 ── */}
+      {/* 5장 계절이 밀어 주는 자리와 네 기둥의 십신.
+          둘 다 표라 한 장에 앉는다. 십신을 **풀어 쓰는 것**은 다음 장이다. */}
       <Page size="A4" style={pageStyle}>
-        <BrandRow dictionary={dictionary} title={t.title} />
+        <BrandRow dictionary={dictionary} title={d.depthTitle} />
 
-        <Section title={t.title}>
-          <View style={styles.card}>
-            <MixedText
-              style={styles.cardLabel}
-              text={`${today.date} · ${t.pillarLabel} ${today.todayPillar.stem}${today.todayPillar.branch}`}
-            />
-            <View style={styles.scoreRow}>
-              <Text style={styles.todayScore}>{today.score}</Text>
-              <MixedText style={styles.todayGrade} text={t.grades[today.grade].name} />
-            </View>
-            <MixedText
-              style={[styles.body, { marginTop: 6 }]}
-              text={t.grades[today.grade].body}
-            />
-          </View>
-        </Section>
+        <MixedText style={[styles.sectionTitle, { marginTop: 18 }]} text={d.vitalityTitle} />
+        <MixedText style={[styles.note, { marginBottom: 8 }]} text={d.vitalityHint} />
+        <DepthTable reading={reading} dictionary={dictionary} />
+        <VitalityLegend dictionary={dictionary} />
 
-        <View style={styles.splitRow}>
-          {(Object.keys(today.categories) as Array<keyof typeof today.categories>).map(
-            (key) => (
-              <View key={key} style={styles.splitCell}>
-                <MixedText style={styles.cardLabel} text={t.categories[key]} />
-                <Text style={styles.splitValue}>{today.categories[key]}</Text>
-              </View>
-            ),
-          )}
-        </View>
-
-        <Section title={t.luckyTitle}>
-          <View style={styles.card}>
-            <MixedText
-              style={styles.body}
-              text={[
-                `${t.luckyElement} ${dictionary.elements[today.lucky.element] ?? today.lucky.element}`,
-                // **사전에서 찾는다.** 예전에는 엔진의 한국어 필드를 로케일과 상관없이 찍어
-                // 일본어·베트남어 PDF에도 "청록, 초록 / 동"이 한국어로 나갔다.
-                `${t.luckyColor} ${today.lucky.colors.map((color) => t.luckyColors[color]).join(", ")}`,
-                `${t.luckyDirection} ${t.luckyDirections[today.lucky.direction]}`,
-                `${t.luckyTime} ${today.lucky.timeRange}`,
-                `${t.luckyNumber} ${today.lucky.numbers.join(", ")}`,
-              ].join("   ")}
-            />
-          </View>
-        </Section>
-
-        <Section title={interpretation.today.headline}>
-          <View style={styles.card}>
-            <MixedText style={styles.body} text={interpretation.today.message} />
-            <MixedText
-              style={[styles.note, { marginTop: 6 }]}
-              text={interpretation.today.advice}
-            />
-          </View>
-        </Section>
+        <MixedText style={styles.sectionTitle} text={d.stemGodsTitle} />
+        <StemGodTable reading={reading} dictionary={dictionary} />
 
         {footer}
       </Page>
 
-      {/* ── 5장 삶의 네 영역 — **원국 기준이다.** 바로 앞 장(오늘의 운세)의 계속이 아니다. ── */}
+      {/* 6장 십신 심화.
+          **이 사람 원국에서 두터운 둘과 아예 없는 둘**만 풀어 쓴다(최대 넷). 열 개를 다 풀면
+          누구에게나 같은 백과사전이 나간다. 넷이 한 장을 거의 채우므로 표와 같은 장에 두지
+          않는다 — 그렇게 두었더니 마지막 문단이 다음 장으로 밀렸다. */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={d.tenGodDepthTitle} />
+
+        <MixedText style={[styles.sectionTitle, { marginTop: 18 }]} text={d.tenGodDepthTitle} />
+        {interpretation.ten_gods.map((line, index) => (
+          <View key={index} style={styles.card} wrap={false} minPresenceAhead={30}>
+            <MixedText style={styles.body} text={line} />
+          </View>
+        ))}
+
+        {footer}
+      </Page>
+
+      {/* 6장 삶의 네 영역 — **원국 기준이다.** 하루짜리 값이 아니다. */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={d.domainsTitle} />
 
-        {/* 카드마다 제목을 붙이되 통째로 묶지 않는다 — 해설 길이가 로케일마다 다르다. */}
+        {/* 카드마다 제목을 붙이되 통째로 묶지 않는다 — 해설 길이가 로케일마다 다르다.
+            점수를 숫자로 함께 찍는다: 문단이 같은 값을 말로도 적지만, 넷을 견주려면 숫자가
+            나란히 보여야 한다. */}
         <View style={{ marginTop: 14 }}>
           {(
             [
-              [t.categories.wealth, interpretation.domains.wealth],
-              [t.categories.love, interpretation.domains.love],
-              [t.categories.career, interpretation.domains.career],
-              [t.categories.health, interpretation.domains.health],
+              ["wealth", dictionary.today.categories.wealth, interpretation.domains.wealth],
+              ["love", dictionary.today.categories.love, interpretation.domains.love],
+              ["career", dictionary.today.categories.career, interpretation.domains.career],
+              ["health", dictionary.today.categories.health, interpretation.domains.health],
             ] as const
-          ).map(([label, text]) => (
-            <View key={label} wrap={false} minPresenceAhead={40}>
-              <MixedText style={styles.sectionTitle} text={label} />
+          ).map(([key, label, text]) => (
+            <View key={key} wrap={false} minPresenceAhead={40}>
+              <View style={styles.scoreRow}>
+                <MixedText style={styles.sectionTitle} text={label} />
+                <Text style={[styles.sectionTitle, { marginLeft: 8, color: PALETTE.gold }]}>
+                  {outlook.scores[key]}
+                </Text>
+              </View>
               <View style={styles.card}>
                 <MixedText style={styles.body} text={text} />
               </View>
@@ -808,48 +823,42 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* ── 프리미엄 심화 ── */}
-      {isPremium ? (
-        <>
-          {/* 6장 십신 + 왕상휴수사.
-              십신 표는 행이 많아야 셋(일주는 자신이라 빼고, 시각을 모르면 시주도 빠진다)이라
-              한 장을 다 쓰지 못한다. 빈 장을 만드는 대신 심화 표 둘을 한 장에 둔다. */}
-          <Page size="A4" style={pageStyle}>
-            <BrandRow dictionary={dictionary} title={d.depthTitle} />
+      {/* 7장 근거와 부록.
+          네 영역 점수가 **어디에서 나왔는지** 항목과 가감으로 보여 준다. 앞 장의 문단은 가장
+          크게 움직인 둘만 말하므로, 전부 보고 싶은 사람을 위한 자리가 따로 있어야 한다. */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={d.appendixTitle} />
 
-            <MixedText style={[styles.sectionTitle, { marginTop: 18 }]} text={d.stemGodsTitle} />
-            <StemGodTable reading={reading} dictionary={dictionary} />
+        <MixedText style={[styles.sectionTitle, { marginTop: 18 }]} text={d.factorsTitle} />
+        <NatalFactorTable outlook={outlook} dictionary={dictionary} />
 
-            <MixedText style={styles.sectionTitle} text={d.vitalityTitle} />
-            <MixedText style={[styles.note, { marginBottom: 8 }]} text={d.vitalityHint} />
-            <DepthTable reading={reading} dictionary={dictionary} />
-            <VitalityLegend dictionary={dictionary} />
+        <MixedText style={styles.sectionTitle} text={d.appendixTitle} />
+        <CalculationCard reading={reading} dictionary={dictionary} />
 
-            {footer}
-          </Page>
+        {footer}
+      </Page>
 
-          {/* 7장 올해 총운·근거·부록 */}
-          <Page size="A4" style={pageStyle}>
-            <BrandRow dictionary={dictionary} title={d.appendixTitle} />
+      {/* 8장 올해 총운.
+          상품 이름이 「평생 사주와 **올해의 운세**」다. 앞 일곱 장이 평생 것이고 이 장이 올해다.
+          간지를 못 읽는 경우에만 문단이 비는데 그때도 장은 남는다 — 장수는 구조가 정한다. */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={d.yearOutlookTitle} />
 
-            {interpretation.year_outlook ? (
-              <Section title={d.yearOutlookTitle}>
-                <View style={styles.card}>
-                  <MixedText style={styles.body} text={interpretation.year_outlook} />
-                </View>
-              </Section>
-            ) : null}
+        <Section title={d.yearOutlookTitle}>
+          <View style={styles.card}>
+            <MixedText
+              style={styles.body}
+              text={interpretation.year_outlook ?? d.yearOutlookUnavailable}
+            />
+          </View>
+        </Section>
 
-            <MixedText style={styles.sectionTitle} text={d.factorsTitle} />
-            <FactorTable today={today} dictionary={dictionary} />
+        <Section title={d.disclaimerTitle}>
+          <MixedText style={styles.note} text={interpretation.disclaimer} />
+        </Section>
 
-            <MixedText style={styles.sectionTitle} text={d.appendixTitle} />
-            <CalculationCard reading={reading} dictionary={dictionary} />
-
-            {footer}
-          </Page>
-        </>
-      ) : null}
+        {footer}
+      </Page>
     </Document>
   );
 }

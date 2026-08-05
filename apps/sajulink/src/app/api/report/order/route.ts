@@ -8,7 +8,6 @@ import {
   displayPrice,
   getReportProduct,
   getReportSetting,
-  REPORT_KINDS,
   REPORT_REGIONS,
 } from "@/lib/report-product";
 import { insertOrder } from "@/lib/order-writes";
@@ -32,7 +31,6 @@ const schema = z.object({
    * 있고(배포 직후 열려 있던 탭), 그때 주문이 실패하는 것보다 아래 티어로 도는 편이 낫다.
    * **위 티어(프리미엄)를 기본으로 두지 않는다** — 값이 빠졌다고 비싼 쪽을 팔면 안 된다.
    */
-  kind: z.enum(REPORT_KINDS).default("chongun"),
   region: z.enum(REPORT_REGIONS),
   locale: z.string().trim().max(10).optional(),
   /**
@@ -74,7 +72,7 @@ export async function POST(request: NextRequest) {
   const input = schema.safeParse(parsedBody);
   if (!input.success) return jsonError("INVALID_INPUT", 400);
 
-  const product = getReportProduct(input.data.kind, input.data.region);
+  const product = getReportProduct(input.data.region);
 
   // 판매 중이 아니면(다크 런치) 여기서 끝난다. 채널 키가 없어도 마찬가지다.
   let setting;
@@ -153,7 +151,7 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     // 실패 사유는 서버 로그에만 남긴다. 입력값이 없으므로 로그에 개인정보가 섞일 일도 없다.
-    console.error(`Failed to create ${product.kind} report order`, error);
+    console.error(`Failed to create report order (${product.settingCode})`, error);
     return jsonError("ORDER_FAILED", 500);
   }
 }

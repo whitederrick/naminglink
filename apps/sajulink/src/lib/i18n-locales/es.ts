@@ -409,7 +409,11 @@ export const es: Dictionary = {
     "meaningColumn": "Lo que significa",
     "yearOutlookTitle": "Perspectiva de este año",
     "domainsTitle": "Cuatro áreas de la vida",
-    "factorsTitle": "De dónde proviene la puntuación de hoy",
+    "yongsinTitle": "Lo que necesitas ahora",
+    "tenGodDepthTitle": "Lo que destaca en este gráfico",
+    "disclaimerTitle": "Cómo leer este documento",
+    "yearOutlookUnavailable": "No se pudo leer el pilar de este año, por lo que esta sección queda vacía. Todo lo que está en las páginas anteriores sigue siendo válido.",
+    "factorsTitle": "De dónde proviene la puntuación de cada área",
     "factorsHint": "La pantalla nombra los factores; aquí cada uno se imprime con los puntos que añadió o eliminó.",
     "deltaColumn": "Puntos",
     "appendixTitle": "Cómo se construyó esta carta",
@@ -423,8 +427,8 @@ export const es: Dictionary = {
     "lunarUnavailable": "Esta fecha no está en la tabla del almanaque, por lo que no se muestra fecha lunar."
   },
   "report": {
-    "title": "Guarda tu lectura de vida como un PDF",
-    "body": "Convertimos esta lectura en un PDF: tu carta natal, el peso de los cinco elementos, la fuerza de tu 일간 y lo que necesita ahora, y la fortuna de hoy, todo en una página.",
+    "title": "Lectura de vida y el año que viene",
+    "body": "Convertimos esta lectura en un PDF y añadimos la capa que la pantalla nunca muestra: la fuerza de tu day master y lo que necesita ahora, los ten gods de tus cuatro pilares, las cuatro áreas de la vida leídas desde tu carta natal con los números detrás de ellas, y la perspectiva para este año. La fortuna de hoy no está incluida — cambia diariamente, así que permanece gratuita en pantalla.",
     "buyButton": "Pagar {price} y descargar",
     "preparing": "Aún no disponible",
     "ordering": "Creando tu pedido…",
@@ -434,11 +438,13 @@ export const es: Dictionary = {
     "failed": "El pago o la descarga han fallado. Inténtalo de nuevo en un momento.",
     "retry": "Descargar otra vez",
     "contents": [
-      "Tu 일간 y temperamento: un resumen, fortalezas y precauciones",
-      "Tu carta natal: los ocho caracteres de los cuatro pilares",
-      "El peso de los cinco elementos, el más grueso y el más delgado",
-      "La fuerza de tu 일간, y la energía que necesita ahora",
-      "La fortuna de hoy y los cuatro dominios (dinero, amor, trabajo, salud)"
+      "Tu day master y temperamento — un resumen, fortalezas y precauciones",
+      "Tu natal chart y el peso de los cinco elementos — los ocho caracteres",
+      "La fuerza de tu day master, y la energía que necesita ahora",
+      "Vitalidad estacional y los diez dioses de tus cuatro pilares",
+      "Lo que destaca en este gráfico — los diez dioses gruesos y los ausentes",
+      "Las cuatro áreas de la vida leídas desde tu natal chart, con los números detrás de cada una",
+      "La corrección del tiempo solar verdadero, y la perspectiva para este año"
     ],
     "consentLabel": "Entiendo que se trata de contenido digital entregado de inmediato tras el pago y que **el desistimiento por simple cambio de opinión queda restringido una vez completada la descarga**.",
     "consentRequired": "Confirma las condiciones de desistimiento antes de pagar.",
@@ -450,7 +456,7 @@ export const es: Dictionary = {
       ],
       [
         "Formato",
-        "Un documento PDF (5 páginas A4), descargado en pantalla justo después del pago."
+        "Un documento PDF (9 páginas A4), descargado en la pantalla inmediatamente después del pago."
       ],
       [
         "Requisitos",

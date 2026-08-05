@@ -6,7 +6,7 @@ import { getCompanyInfo } from "@/lib/company-server";
 import { getLegalDocument } from "@/lib/legal-content";
 import { getRequestLocale } from "@/lib/locale";
 import { buildPageMetadata } from "@/lib/seo";
-import { getAllReportPrices } from "@/lib/report-product";
+import { getReportPrices } from "@/lib/report-product";
 
 // 제목을 고정하면 영어 화면에도 한국어 제목이 뜬다. 광고 심사와 검색 노출에서 실제로 읽히는
 // 자리라 로케일을 따라가게 한다.
@@ -21,7 +21,7 @@ export async function generateMetadata({
         locale,
         "privacy",
         await getCompanyInfo(),
-        await getAllReportPrices(),
+        await getReportPrices(),
       );
   return buildPageMetadata({
     path: "/privacy",
@@ -46,7 +46,7 @@ export default async function PrivacyPage({
         locale,
         "privacy",
         await getCompanyInfo(),
-        await getAllReportPrices(),
+        await getReportPrices(),
       )}
       locale={locale}
       path="/privacy"

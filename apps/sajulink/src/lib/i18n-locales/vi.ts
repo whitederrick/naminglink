@@ -409,7 +409,11 @@ export const vi: Dictionary = {
     "meaningColumn": "Nó có nghĩa là gì",
     "yearOutlookTitle": "Triển vọng của năm nay",
     "domainsTitle": "Bốn lĩnh vực của cuộc sống",
-    "factorsTitle": "Điều gì tạo ra điểm số hôm nay",
+    "yongsinTitle": "Những gì bạn cần bây giờ",
+    "tenGodDepthTitle": "Những gì nổi bật trong biểu đồ này",
+    "disclaimerTitle": "Cách đọc tài liệu này",
+    "yearOutlookUnavailable": "Cột của năm nay không thể được đọc, vì vậy phần này để trống. Mọi thứ trên các trang trước vẫn còn hiệu lực.",
+    "factorsTitle": "Nguồn gốc của điểm số từng lĩnh vực",
     "factorsHint": "Màn hình chỉ tên các yếu tố; ở đây mỗi yếu tố được in với số điểm mà nó đã thêm hoặc trừ.",
     "deltaColumn": "Điểm",
     "appendixTitle": "Cách biểu đồ này được xây dựng",
@@ -423,8 +427,8 @@ export const vi: Dictionary = {
     "lunarUnavailable": "Ngày này không có trong bảng lịch, vì vậy không có ngày âm lịch nào được hiển thị."
   },
   "report": {
-    "title": "Giữ bản đọc cuộc sống của bạn dưới dạng PDF",
-    "body": "Chúng tôi biến bản đọc này thành một tệp PDF — biểu đồ sinh của bạn, trọng số của năm yếu tố, sức mạnh của ngày chủ và những gì nó cần bây giờ, cùng với vận may hôm nay, tất cả trên một trang.",
+    "title": "Đọc vận mệnh và năm tới",
+    "body": "Chúng tôi biến bài đọc này thành một tệp PDF và thêm vào lớp mà màn hình không bao giờ hiển thị: sức mạnh của ngày chủ của bạn và những gì nó cần bây giờ, mười thần của bốn cột của bạn, bốn lĩnh vực cuộc sống được đọc từ bản đồ sinh của bạn với các con số đứng sau chúng, và triển vọng cho năm nay. Vận mệnh hôm nay không được bao gồm — nó thay đổi hàng ngày, vì vậy nó vẫn miễn phí trên màn hình.",
     "buyButton": "Thanh toán {price} và tải về",
     "preparing": "Chưa mở bán",
     "ordering": "Đang tạo đơn hàng…",
@@ -434,11 +438,13 @@ export const vi: Dictionary = {
     "failed": "Thanh toán hoặc việc tải về không thành công. Vui lòng thử lại sau giây lát.",
     "retry": "Tải lại",
     "contents": [
-      "Ngày chủ và tính cách — tóm tắt, điểm mạnh và điểm cần lưu ý",
-      "Biểu đồ sinh của bạn — tám ký tự của bốn trụ",
-      "Trọng số của năm yếu tố, dày nhất và mỏng nhất",
-      "Sức mạnh của ngày chủ, và năng lượng mà nó cần bây giờ",
-      "Vận may hôm nay và bốn lĩnh vực (tiền bạc, tình yêu, công việc, sức khỏe)"
+      "Day master và tính cách của bạn — tóm tắt, điểm mạnh và điểm cần lưu ý",
+      "Natal chart của bạn và trọng số của năm yếu tố — tám ký tự",
+      "Sức mạnh của day master của bạn, và năng lượng mà nó cần bây giờ",
+      "Sự sống động theo mùa và mười thần của bốn cột của bạn",
+      "Những gì nổi bật trong biểu đồ này — mười thần dày và những mười thần vắng mặt",
+      "Bốn lĩnh vực cuộc sống được đọc từ natal chart của bạn, với các con số đứng sau mỗi lĩnh vực",
+      "Sửa đổi thời gian mặt trời thực và triển vọng cho năm nay"
     ],
     "consentLabel": "Tôi hiểu đây là nội dung số được cung cấp ngay khi thanh toán, và **một khi việc tải về hoàn tất thì quyền rút lại đơn vì đơn thuần đổi ý sẽ bị hạn chế**.",
     "consentRequired": "Vui lòng xác nhận điều khoản rút lại đơn trước khi thanh toán.",
@@ -450,7 +456,7 @@ export const vi: Dictionary = {
       ],
       [
         "Hình thức",
-        "Một tài liệu PDF (5 trang A4), tải xuống ngay sau khi thanh toán."
+        "Một tài liệu PDF (9 trang A4), được tải xuống ngay trên màn hình ngay sau khi thanh toán."
       ],
       [
         "Yêu cầu",

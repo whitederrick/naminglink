@@ -1,4 +1,5 @@
 import { adsEnabled } from "@/lib/ads";
+import { REPORT_PAGE_COUNT } from "@/lib/report-pages";
 import { LEGAL_EFFECTIVE_DATE, type CompanyInfo } from "@/lib/company";
 import { paymentsConfigured } from "@/lib/payments-csp";
 import type { Locale } from "@/lib/i18n";
@@ -115,20 +116,19 @@ const feeSectionKo: LegalSection = paymentsConfigured
 export type ReportPrices = { domestic: string; global: string };
 
 /**
- * 파는 상품 전부의 가격.
+ * 파는 상품의 가격. **상품이 하나라 한 벌이다**(2026-08-05).
  *
- * 예전에는 문서가 `ReportPrices` 하나만 받아 **한 상품의 가격만** 고지했다. 두 상품이 같은
- * 값이던 동안에는 우연히 맞았지만 한쪽 값을 올리는 순간 다른 쪽이 문서에서 틀린 값이 됐다.
- * 전자상거래법이 요구하는 고지라 상품마다 제 값이 나가야 한다.
+ * 이름은 티어가 둘이던 때의 것이다 — 21로케일 번역이 아직 그때의 자리표시자 이름을 쓰고 있어
+ * ⑦에서 로케일을 다시 쓸 때 함께 정리한다.
  */
-export type AllReportPrices = { chongun: ReportPrices; premium: ReportPrices };
+export type AllReportPrices = ReportPrices;
 
 const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
-    "판매하는 유료 상품은 **리포트 PDF 두 가지**입니다. 둘 다 화면의 결과를 문서로 만들어 드리는 것이고, 화면에 없는 내용이 함께 담깁니다.",
-    `**사주 총운 리포트 PDF (A4 5장)** — 타고난 성향과 강점·눈여겨볼 점, 사주 원국 여덟 글자, 오행의 세력과 일간의 강약, 지금 필요한 기운, 오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)이 담깁니다. 국내 결제 ${prices.chongun.domestic}(부가세 포함), 해외 결제 ${prices.chongun.global}.`,
-    `**프리미엄 총운 리포트 PDF (A4 7장)** — 총운 5장에 두 장을 더합니다. 네 기둥의 십신과 왕상휴수사(계절이 각 기운을 어느 자리에 놓는가), 올해 총운, 오늘 점수의 항목별 가감, 진태양시 보정 내역입니다. 국내 결제 ${prices.premium.domestic}(부가세 포함), 해외 결제 ${prices.premium.global}.`,
+    "판매하는 유료 상품은 **「평생 사주와 올해의 운세 리포트」 PDF 하나**입니다. 화면의 결과를 문서로 만들어 드리는 것이고, 화면에 없는 내용이 함께 담깁니다.",
+    `**A4 ${REPORT_PAGE_COUNT}장** — 표지와 요약, 타고난 성향과 강점·눈여겨볼 점, 사주 원국 여덟 글자와 오행의 세력, 일간의 강약과 지금 필요한 기운(용신), 네 기둥의 십신과 이 사주에서 두드러진 자리, 원국에서 본 삶의 네 영역(재물·애정·직업·건강)과 그 근거, 진태양시 보정 내역, 그리고 올해의 운세가 담깁니다. 국내 결제 ${prices.domestic}(부가세 포함), 해외 결제 ${prices.global}.`,
+    "**오늘의 운세는 이 문서에 담기지 않습니다.** 하루마다 달라지는 값이라 화면에서 무료로 제공하며, 이 문서는 평생 바뀌지 않는 원국 풀이와 올해의 운세로 이루어집니다.",
     "국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
@@ -163,8 +163,8 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
   heading: "3. Paid products and refunds",
   paragraphs: [
     "There are **two paid products**, both PDF reports. Each turns the on-screen result into a document and adds material that is not shown on screen.",
-    `**Saju life reading report (PDF, 5 A4 pages)** — your character with its strengths and things to watch, the eight characters of your natal chart, the balance of the five elements and the strength of your day master, what you need now, today’s fortune, and the four domains of life (money, affection, work, health). ${prices.chongun.domestic} (VAT included) for domestic payment, ${prices.chongun.global} for international payment.`,
-    `**Premium reading report (PDF, 7 A4 pages)** — the five pages above plus two more: the ten gods of your four pillars and their seasonal vitality (where the season places each element), this year’s outlook, the item-by-item breakdown of today’s score, and the true solar time correction applied to your birth hour. ${prices.premium.domestic} (VAT included) for domestic payment, ${prices.premium.global} for international payment.`,
+    `**${REPORT_PAGE_COUNT} A4 pages** — cover and summary, your character with its strengths and things to watch, the eight characters of your natal chart and the balance of the five elements, the strength of your day master and what it needs now, the ten gods of your four pillars and what stands out in this chart, the four areas of life read from the natal chart (money, affection, work, health) with the reasoning behind each score, the true solar time correction applied to your birth hour, and the outlook for this year. ${prices.domestic} (VAT included) for domestic payment, ${prices.global} for international payment.`,
+    "**Today’s fortune is not part of this document.** It changes daily, so it stays free on screen; this document is the reading of your natal chart, which does not change, together with the outlook for this year.",
     "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
@@ -447,19 +447,11 @@ const koDocuments = (
         ],
       },
       {
-        heading: "2. 사주 총운 리포트 PDF (유료)",
+        heading: "2. 평생 사주와 올해의 운세 리포트 PDF (유료)",
         paragraphs: [
-          `국내 결제 ${prices.chongun.domestic}(부가세 포함) · 해외 결제 ${prices.chongun.global}`,
-          "화면의 결과를 **A4 5장**짜리 PDF 문서로 만들어 드립니다. 표지와 요약, 타고난 성향과 강점·눈여겨볼 점, 원국과 오행 세력·강약, 오늘의 운세, 삶의 네 영역이 한 문서에 담깁니다.",
+          `국내 결제 ${prices.domestic}(부가세 포함) · 해외 결제 ${prices.global}`,
+          `화면의 결과를 **A4 ${REPORT_PAGE_COUNT}장**짜리 PDF 문서로 만들어 드립니다. 화면에 나오지 않는 것 — 일간의 강약과 지금 필요한 기운, 네 기둥의 십신과 이 사주에서 두드러진 자리, 왕상휴수사, 원국에서 본 삶의 네 영역과 그 근거 숫자, 진태양시 보정 내역, 올해의 운세 — 이 함께 담깁니다.`,
           "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
-        ],
-      },
-      {
-        heading: "3. 프리미엄 총운 리포트 PDF (유료)",
-        paragraphs: [
-          `국내 결제 ${prices.premium.domestic}(부가세 포함) · 해외 결제 ${prices.premium.global}`,
-          "총운 5장에 **두 장을 더한 A4 7장**입니다. 더해지는 것은 네 기둥의 십신과 왕상휴수사, 그리고 올해 총운·오늘 점수의 항목별 가감·진태양시 보정 내역입니다. 화면에 나오지 않는 근거 숫자들입니다.",
-          "재발급 조건은 총운 리포트와 같습니다.",
         ],
       },
       {
@@ -620,7 +612,7 @@ const enDocuments = (
       {
         heading: "1. What you are buying",
         paragraphs: [
-          "There are two paid products: the **Saju life reading report PDF (5 A4 pages)** and the **premium reading report PDF (7 A4 pages)**. For both, once payment is approved the document is generated in that same request and sent to you immediately.",
+          `There is one paid product: the **life reading and year ahead report PDF (${REPORT_PAGE_COUNT} A4 pages)**. Once payment is approved the document is generated in that same request and sent to you immediately.`,
           "**We store neither your input nor the generated PDF.** Please save the downloaded file yourself.",
         ],
       },
@@ -672,19 +664,11 @@ const enDocuments = (
         ],
       },
       {
-        heading: "2. Saju life reading report PDF (paid)",
+        heading: "2. Life reading and year ahead report PDF (paid)",
         paragraphs: [
-          `${prices.chongun.domestic} (VAT included) for domestic payment - ${prices.chongun.global} for international payment`,
-          "Turns the on-screen result into a **five-page A4 document**: cover and summary, your character with strengths and things to watch, the natal chart with elemental strength and day-master reading, today’s fortune, and the four domains of life.",
+          `${prices.domestic} (VAT included) for domestic payment - ${prices.global} for international payment`,
+          `Turns the on-screen result into a **${REPORT_PAGE_COUNT}-page A4 document**. It carries what the screen does not show: the strength of your day master and what it needs now, the ten gods of your four pillars and what stands out in this chart, seasonal vitality, the four areas of life read from the natal chart with the numbers behind each score, the true solar time correction, and the outlook for this year.`,
           "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
-        ],
-      },
-      {
-        heading: "3. Premium reading report PDF (paid)",
-        paragraphs: [
-          `${prices.premium.domestic} (VAT included) for domestic payment - ${prices.premium.global} for international payment`,
-          "The five pages above **plus two more, seven A4 pages in all**. The extra pages carry the ten gods of your four pillars and their seasonal vitality, this year’s outlook, the item-by-item breakdown of today’s score, and the true solar time correction — the underlying numbers, none of which appear on screen.",
-          "Re-download terms are the same as for the life reading report.",
         ],
       },
       {
@@ -726,10 +710,10 @@ function fillPlaceholders(
     // 자리 이름은 인연링크에서 물려받은 것이다(`{price…}`=총운, `{priceAffinity…}`=프리미엄).
     // 21로케일 번역이 이미 이 이름으로 쓰고 있어 **뜻만 옮기고 이름은 두었다** — 이름을 갈면
     // 번역 파일 전부를 손대야 한다. ⑦에서 로케일을 다시 쓸 때 함께 정리할 것.
-    "{priceDomestic}": prices.chongun.domestic,
-    "{priceGlobal}": prices.chongun.global,
-    "{priceAffinityDomestic}": prices.premium.domestic,
-    "{priceAffinityGlobal}": prices.premium.global,
+    "{priceDomestic}": prices.domestic,
+    "{priceGlobal}": prices.global,
+    "{priceAffinityDomestic}": prices.domestic,
+    "{priceAffinityGlobal}": prices.global,
   };
   const fill = (text: string) =>
     text.replace(

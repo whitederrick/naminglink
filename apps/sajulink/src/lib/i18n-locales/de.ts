@@ -409,7 +409,11 @@ export const de: Dictionary = {
     "meaningColumn": "Was es bedeutet",
     "yearOutlookTitle": "Aussichten für dieses Jahr",
     "domainsTitle": "Vier Lebensbereiche",
-    "factorsTitle": "Wo die Punktzahl von heute herkommt",
+    "yongsinTitle": "Was Sie jetzt brauchen",
+    "tenGodDepthTitle": "Was in diesem Chart heraussticht",
+    "disclaimerTitle": "So lesen Sie dieses Dokument",
+    "yearOutlookUnavailable": "Der Säule dieses Jahres konnte nicht gelesen werden, daher bleibt dieser Abschnitt leer. Alles auf den vorhergehenden Seiten bleibt gültig.",
+    "factorsTitle": "Wo die Punktzahl jedes Bereichs herkommt",
     "factorsHint": "Der Bildschirm nennt die Faktoren; hier wird jeder mit den Punkten angezeigt, die er hinzugefügt oder entfernt hat.",
     "deltaColumn": "Punkte",
     "appendixTitle": "Wie dieses Chart erstellt wurde",
@@ -423,8 +427,8 @@ export const de: Dictionary = {
     "lunarUnavailable": "Dieses Datum ist nicht in der Almanach-Tabelle, daher wird kein lunar Datum angezeigt."
   },
   "report": {
-    "title": "Bewahren Sie Ihre Lebenslesung als PDF auf",
-    "body": "Wir verwandeln diese Lesung in ein PDF – Ihr Natalchart, das Gewicht der fünf Elemente, die Stärke Ihres Tagemeisters und was er jetzt braucht, sowie das heutige Schicksal, alles auf einer Seite.",
+    "title": "Lebenslesung und das kommende Jahr",
+    "body": "Wir verwandeln diese Lesung in ein PDF und fügen die Schicht hinzu, die der Bildschirm nie zeigt: die Stärke Ihres 일간 und was es jetzt braucht, die 십신 Ihrer 네 기둥, die vier Lebensbereiche, die aus Ihrem 원국 gelesen werden, mit den Zahlen dahinter, und die Prognose für dieses Jahr. Die heutige 운세 ist nicht enthalten — sie ändert sich täglich, daher bleibt sie kostenlos auf dem Bildschirm.",
     "buyButton": "{price} zahlen und laden",
     "preparing": "Noch nicht verfügbar",
     "ordering": "Bestellung wird erstellt…",
@@ -434,11 +438,13 @@ export const de: Dictionary = {
     "failed": "Zahlung oder Download ist fehlgeschlagen. Bitte versuchen Sie es gleich noch einmal.",
     "retry": "Erneut herunterladen",
     "contents": [
-      "Ihr Tagemeister und Temperament – eine Zusammenfassung, Stärken und Vorsichtsmaßnahmen",
-      "Ihr Natalchart – die acht Zeichen der vier Säulen",
-      "Das Gewicht der fünf Elemente, dickste und dünnste",
-      "Die Stärke Ihres Tagemeisters, und die Energie, die er jetzt braucht",
-      "Das heutige Schicksal und die vier Bereiche (Geld, Liebe, Arbeit, Gesundheit)"
+      "Ihr Tagemeister und Temperament — eine Zusammenfassung, Stärken und Vorsichtsmaßnahmen",
+      "Ihr natales Chart und das Gewicht der fünf Elemente — die acht Zeichen",
+      "Die Stärke Ihres Tagemeisters und die Energie, die er jetzt braucht",
+      "Saisonale Vitalität und die zehn Götter Ihrer vier Säulen",
+      "Was in diesem Chart heraussticht — die dicken zehn Götter und die abwesenden",
+      "Die vier Lebensbereiche, die aus Ihrem natalen Chart gelesen werden, mit den Zahlen dahinter",
+      "Die wahre Korrektur der Sonnenzeit und die Aussichten für dieses Jahr"
     ],
     "consentLabel": "Mir ist bekannt, dass dies ein digitaler Inhalt ist, der sofort nach der Zahlung geliefert wird, und dass **der Widerruf wegen einfacher Meinungsänderung eingeschränkt ist, sobald der Download abgeschlossen ist**.",
     "consentRequired": "Bitte bestätigen Sie die Widerrufsbedingungen vor der Zahlung.",
@@ -450,7 +456,7 @@ export const de: Dictionary = {
       ],
       [
         "Format",
-        "Ein PDF-Dokument (5 A4-Seiten), das sofort nach der Zahlung auf dem Bildschirm heruntergeladen wird."
+        "Ein PDF-Dokument (9 A4-Seiten), das sofort nach der Zahlung auf dem Bildschirm heruntergeladen wird."
       ],
       [
         "Voraussetzungen",
