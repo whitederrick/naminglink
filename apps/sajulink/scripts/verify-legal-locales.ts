@@ -128,6 +128,20 @@ for (const locale of expected) {
         const sample = outsideParens.match(/.{0,20}[가-힣]+.{0,20}/)?.[0] ?? "";
         problems.push(`${label}: 괄호 밖에 한글이 남아 있다 — "${sample.trim()}"`);
       }
+
+      // **인연링크의 고유명사가 남아 있으면 안 된다.**
+      //
+      // 이 파일들은 인연링크 궁합 약관에서 물려받았고 ⑦에서 사주 원문으로 덮어쓴다. 덮어쓴
+      // 뒤에도 모델이 원문에 없던 옛 이름을 끌어오는 일이 있을 수 있는데, 그건 언어를 몰라도
+      // 잡힌다 — 라틴 표기는 어느 언어로 옮겨도 그대로 남기 때문이다.
+      //
+      // 언어별 번역어(`相性`·`tương hợp` 같은 것)는 여기서 못 잡는다. 그건 로케일을 새로
+      // 쓸 때 사람이 한 번 훑을 자리로 남긴다.
+      for (const stale of ["InyeonLink", "Inyeon-Link", "inyeonlink", "인연링크"]) {
+        if (text.includes(stale)) {
+          problems.push(`${label}: 인연링크 고유명사가 남아 있다 — "${stale}"`);
+        }
+      }
     }
   }
 
