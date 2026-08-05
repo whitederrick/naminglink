@@ -1,6 +1,10 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
+
 import React from "react";
 import {
   Document,
+  Image,
   Page,
   StyleSheet,
   Text,
@@ -51,6 +55,20 @@ const PALETTE = {
   paper: "#fbf7f6",
 } as const;
 
+/**
+ * 머리줄에 넣을 로고. **화면·OG와 같은 파일(256px 사본)을 쓴다** — 한 곳만 바꾸면 표식이 갈린다.
+ *
+ * 파일을 못 읽으면 `null`이고, 그때는 글자만 나간다. 로고가 없다고 결제한 문서를 못 주면 안 된다.
+ */
+let logoSrc: string | null = null;
+try {
+  logoSrc = `data:image/png;base64,${readFileSync(
+    path.join(process.cwd(), "public/images/sajulink-circle-logo-256.png"),
+  ).toString("base64")}`;
+} catch {
+  logoSrc = null;
+}
+
 const styles = StyleSheet.create({
   page: {
     backgroundColor: PALETTE.paper,
@@ -74,6 +92,8 @@ const styles = StyleSheet.create({
   },
   brand: { fontSize: 13, color: PALETTE.plum },
   brandMeta: { fontSize: 8, color: PALETTE.muted },
+  brandLeft: { flexDirection: "row", alignItems: "center" },
+  brandLogo: { width: 18, height: 18, marginRight: 7, borderRadius: 9 },
 
   coverBlock: {
     marginTop: 34,
@@ -243,7 +263,11 @@ function Footer({
 function BrandRow({ dictionary, title }: { dictionary: Dictionary; title: string }) {
   return (
     <View style={styles.brandRow}>
-      <MixedText style={styles.brand} text={dictionary.brand} />
+      <View style={styles.brandLeft}>
+        {/* 로고를 못 읽었으면 글자만 나간다. 표식이 없다고 문서를 못 주면 안 된다. */}
+        {logoSrc ? <Image src={logoSrc} style={styles.brandLogo} /> : null}
+        <MixedText style={styles.brand} text={dictionary.brand} />
+      </View>
       <MixedText style={styles.brandMeta} text={title} />
     </View>
   );

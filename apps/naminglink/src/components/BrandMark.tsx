@@ -8,7 +8,16 @@ import Image from "next/image";
  * 로고를 실제로 교체할 때는 쿼리가 아니라 **파일명을 바꾼다.** 최적화를 거치면 브라우저가 보는
  * 주소가 `/_next/image?url=…&w=…&q=…`라 원본 경로에 붙인 쿼리로는 어차피 갱신을 강제할 수 없다.
  */
-const logoImageSrc = "/images/logo-current.png";
+/**
+ * **원본이 아니라 256px 사본을 쓴다.**
+ *
+ * 원본은 1254×1254 · 2.5MB다. 화면은 next/image가 줄여 내보내니 겉으로는 티가 안 나지만,
+ * PDF는 원본을 base64로 그대로 심으므로 **문서 한 건이 2.5MB 무거워지고**, OG 표지도 23장을
+ * 구울 때마다 그 원본을 다시 읽는다. 이 자리에서 실제로 필요한 것은 최대 116px이다.
+ *
+ * 사본은 `-256.png`이고 원본은 보관용으로 남긴다. 로고를 바꾸면 **둘 다** 새로 만들 것.
+ */
+const logoImageSrc = "/images/naminglink-circle-logo-256.png";
 
 type BrandMarkProps = {
   className?: string;
@@ -23,7 +32,7 @@ export function BrandMark({ className = "", size = 56 }: BrandMarkProps) {
     <span
       aria-hidden="true"
       style={{ width: size, height: size }}
-      className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-lg shadow-[0_8px_24px_rgba(0,0,0,0.18)] ${className}`}
+      className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-full shadow-[0_8px_24px_rgba(0,0,0,0.18)] ${className}`}
     >
       {/* 최적화를 켜 둔다(`unoptimized` 없음). 원본이 1024×1024 PNG 964KB인데 이 자리는 56px라
           그대로 내려보내면 랜딩 첫 화면 1.92MB 중 절반이 이 파일 하나가 된다.

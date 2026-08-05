@@ -75,7 +75,8 @@ function dataUri(file: string, mime: string) {
 }
 
 const heroBackground = dataUri(path.join(IMAGES, "landing-hero.png"), "image/png");
-const sealLogo = dataUri(path.join(IMAGES, "logo-current.png"), "image/png");
+// 머리글의 `BrandMark`·PDF와 **같은 파일**을 쓴다. 한 곳만 바꾸면 표식이 갈린다.
+const sealLogo = dataUri(path.join(IMAGES, "naminglink-circle-logo-256.png"), "image/png");
 
 function buildHtml(locale: Locale) {
   const copy = landingCopies[locale];
@@ -128,7 +129,8 @@ function buildHtml(locale: Locale) {
     align-items: flex-start;
     text-align: start;
   }
-  .seal { width: 116px; height: 116px; border-radius: 22px; margin-bottom: 26px;
+  /* 원형 로고라 모서리를 둥근 사각이 아니라 원으로 깎는다. */
+  .seal { width: 116px; height: 116px; border-radius: 50%; margin-bottom: 26px;
           box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
   .wordmark { font-size: 74px; font-weight: 700; letter-spacing: -0.015em; line-height: 1; }
   .rule { width: 92px; height: 3px; background: #caa66c; margin: 22px 0 20px; }

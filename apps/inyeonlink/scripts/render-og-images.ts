@@ -87,14 +87,14 @@ function dataUri(file: string, mime: string) {
 const heroBackground = dataUri(path.join(IMAGES, "landing-hero.png"), "image/png");
 
 /**
- * 맞물린 두 고리. `components/BrandMark.tsx`의 **어두운 배경용 색**을 쓴다 — 썸네일 배경이
- * 어둡기 때문이다. `public/images/inyeonlink-logo.svg`는 밝은 배경용이라 여기서는 안 맞는다.
+ * 브랜드 로고. **헤드리스 Chrome이 읽어야 하므로 파일을 base64로 심는다** — `file://` 경로는
+ * 렌더 시점의 작업 디렉터리에 따라 어긋난다.
+ *
+ * 예전에는 맞물린 두 고리를 인라인 SVG로 그렸다. `components/BrandMark.tsx`가 실제 로고
+ * 이미지로 바뀌었으므로 여기도 같은 파일을 쓴다 — **썸네일과 첫 화면의 표식이 달라선 안 된다.**
  */
-const brandSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M32 8 49 25 32 42 15 25 32 8Z" stroke="#e2b7c6" stroke-width="7"/>
-  <path d="M32 22 49 39 32 56 15 39 32 22Z" stroke="#b9c9be" stroke-width="7"/>
-  <path d="m32 27 5 5-5 5-5-5 5-5Z" fill="#d9a079"/>
-</svg>`;
+const brandLogo = dataUri(path.join(IMAGES, "inyeonlink-circle-logo-256.png"), "image/png");
+const brandSvg = `<img src="${brandLogo}" alt="" />`;
 
 function buildHtml(locale: Locale) {
   const dictionary = getDictionary(locale);
@@ -151,11 +151,12 @@ function buildHtml(locale: Locale) {
     align-items: flex-start;
     text-align: start;
   }
-  .seal { width: 116px; height: 116px; border-radius: 22px; margin-bottom: 26px;
+  /* 로고가 그 자체로 완결된 원형 배지라 뒤에 상자를 두지 않는다 — 예전 인라인 SVG는
+     테두리와 배경이 있어야 형태가 잡혔지만, 지금은 사각 틀이 이중으로 겹쳐 보인다. */
+  .seal { width: 116px; height: 116px; margin-bottom: 26px;
           display: flex; align-items: center; justify-content: center;
-          border: 1px solid rgba(255,255,255,0.30); background: rgba(255,255,255,0.12);
-          box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
-  .seal svg { width: 74px; height: 74px; }
+          filter: drop-shadow(0 10px 30px rgba(0,0,0,0.45)); }
+  .seal svg, .seal img { width: 116px; height: 116px; border-radius: 50%; }
   .wordmark { font-size: 74px; font-weight: 700; letter-spacing: -0.015em; line-height: 1; }
   .rule { width: 92px; height: 3px; background: #c98fa6; margin: 22px 0 20px; }
   .hero { display: flex; flex-direction: column; gap: 6px;
