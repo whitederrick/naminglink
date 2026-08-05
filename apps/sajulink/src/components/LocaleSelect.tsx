@@ -81,7 +81,7 @@ export function LocaleSelect({
                 aria-current={item === locale ? "true" : undefined}
                 className={`inline-flex min-h-8 items-center rounded-md px-2.5 py-1 text-[13px] leading-tight transition ${
                   item === locale
-                    ? "bg-brand-plum text-white"
+                    ? "bg-brand-navy text-white"
                     : "text-foreground hover:bg-surface-strong"
                 }`}
               >

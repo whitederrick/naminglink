@@ -124,7 +124,7 @@ export default async function Page(props: GuidePageProps) {
           For what happens to the dates you type, see{" "}
           <a
             href={localePath("/guide/what-we-store", locale)}
-            className="font-semibold text-brand-plum underline underline-offset-2"
+            className="font-semibold text-brand-navy underline underline-offset-2"
           >
             what we store
           </a>

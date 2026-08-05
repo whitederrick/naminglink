@@ -41,9 +41,9 @@ export function GuideFigure({
 
 /** 그림에서 보여 줄 관계와 선 모양. 점수 순으로 둔다. */
 const WHEEL_RELATIONS = [
-  { key: "YUKHAP", label: "육합", className: "stroke-brand-plum", dash: undefined },
-  { key: "CHUNG", label: "충", className: "stroke-brand-copper", dash: "6 4" },
-  { key: "WONJIN", label: "원진", className: "stroke-brand-sage", dash: "2 4" },
+  { key: "YUKHAP", label: "육합", className: "stroke-brand-navy", dash: undefined },
+  { key: "CHUNG", label: "충", className: "stroke-brand-gold", dash: "6 4" },
+  { key: "WONJIN", label: "원진", className: "stroke-brand-celadon", dash: "2 4" },
 ] as const;
 
 const SIZE = 360;
@@ -222,7 +222,7 @@ function renderPillars(
             <p
               className={`rounded-md border px-1 py-2 text-sm ${
                 isDay
-                  ? "border-brand-plum bg-brand-plum/10 font-semibold text-brand-plum"
+                  ? "border-brand-navy bg-brand-navy/10 font-semibold text-brand-navy"
                   : "border-line bg-background"
               }`}
             >
@@ -232,7 +232,7 @@ function renderPillars(
             <p
               className={`rounded-md border px-1 py-2 text-sm ${
                 isDay
-                  ? "border-brand-plum bg-brand-plum/10 font-semibold text-brand-plum"
+                  ? "border-brand-navy bg-brand-navy/10 font-semibold text-brand-navy"
                   : "border-line bg-background"
               }`}
             >

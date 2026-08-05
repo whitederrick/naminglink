@@ -302,7 +302,7 @@ export function ReportPurchasePanel({
           접어 두지 않고 그대로 보인다. 사고 나서 알면 늦는 조건이고, 실제로 뜨는 로케일이
           둘뿐이라 나머지 화면에는 아무것도 늘지 않는다. */}
       {pdfLanguageDiffers(locale) ? (
-        <p className="break-keep-all mt-4 rounded-xl border border-brand-plum/25 bg-brand-plum/5 px-4 py-3 text-sm leading-6">
+        <p className="break-keep-all mt-4 rounded-xl border border-brand-navy/25 bg-brand-navy/5 px-4 py-3 text-sm leading-6">
           {t.pdfLanguageNotice}
         </p>
       ) : null}
@@ -335,7 +335,7 @@ export function ReportPurchasePanel({
           type="checkbox"
           checked={consented}
           onChange={(event) => setConsented(event.target.checked)}
-          className="mt-1.5 size-4 shrink-0 accent-brand-plum"
+          className="mt-1.5 size-4 shrink-0 accent-brand-navy"
         />
         <span className="break-keep-all text-muted">
           {renderEmphasis(t.consentLabel)}
@@ -350,7 +350,7 @@ export function ReportPurchasePanel({
           type="button"
           onClick={stage.name === "done" ? () => void download(stage.checkout) : buy}
           disabled={blocked}
-          className="mt-5 w-full rounded-full bg-brand-plum px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
+          className="mt-5 w-full rounded-full bg-brand-navy px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {busy
             ? busyLabel
@@ -368,14 +368,14 @@ export function ReportPurchasePanel({
         </p>
       ) : null}
       {stage.name === "done" ? (
-        <p className="break-keep-all mt-3 text-sm text-brand-sage">{t.done}</p>
+        <p className="break-keep-all mt-3 text-sm text-brand-celadon">{t.done}</p>
       ) : null}
       <p className="break-keep-all mt-3 text-xs leading-5 text-muted">
         {t.refundContact}
       </p>
 
       {stage.name === "failed" ? (
-        <p role="alert" className="break-keep-all mt-3 text-sm text-brand-plum">
+        <p role="alert" className="break-keep-all mt-3 text-sm text-brand-navy">
           {stage.message}
         </p>
       ) : null}

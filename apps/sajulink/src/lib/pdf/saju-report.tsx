@@ -44,15 +44,17 @@ import type { SajuInterpretation } from "@/lib/saju-interpretation";
 // `lineHeight`를 반드시 명시한다 — 생략하면 줄 상자가 글리프보다 작아 다음 요소가 겹친다.
 // 긴 표는 카드째 `wrap={false}`로 묶지 않고 **행 단위**로 묶어 장을 넘을 수 있게 둔다.
 
+// 화면(`globals.css`)과 같은 값이어야 한다 — 문서와 화면의 색이 갈리면 같은 서비스로 안 읽힌다.
+// 로고에서 뽑은 남색·금색이고, 예전에는 인연링크의 자두·구리를 그대로 물려받고 있었다.
 const PALETTE = {
-  plum: "#86335a",
-  copper: "#b4632f",
-  sage: "#4f6f5e",
-  ink: "#1d1518",
-  muted: "#77696d",
-  line: "#e6d9da",
-  surface: "#f5e9ea",
-  paper: "#fbf7f6",
+  navy: "#16273f",
+  gold: "#976d26",
+  celadon: "#456b74",
+  ink: "#171b22",
+  muted: "#6b7280",
+  line: "#dde1e8",
+  surface: "#eef1f6",
+  paper: "#fbfaf8",
 } as const;
 
 /**
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
     borderBottomColor: PALETTE.line,
     paddingBottom: 10,
   },
-  brand: { fontSize: 13, color: PALETTE.plum },
+  brand: { fontSize: 13, color: PALETTE.navy },
   brandMeta: { fontSize: 8, color: PALETTE.muted },
   brandLeft: { flexDirection: "row", alignItems: "center" },
   brandLogo: { width: 18, height: 18, marginRight: 7, borderRadius: 9 },
@@ -107,7 +109,7 @@ const styles = StyleSheet.create({
   },
   coverLabel: { fontSize: 9, color: PALETTE.muted },
   // 큰 글자에는 lineHeight를 반드시 명시한다.
-  coverDayMaster: { fontSize: 32, lineHeight: 1.3, color: PALETTE.plum, marginTop: 4 },
+  coverDayMaster: { fontSize: 32, lineHeight: 1.3, color: PALETTE.navy, marginTop: 4 },
   coverTrait: {
     fontSize: 10,
     lineHeight: 1.6,
@@ -116,7 +118,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 
-  sectionTitle: { fontSize: 12, color: PALETTE.plum, marginTop: 22, marginBottom: 8 },
+  sectionTitle: { fontSize: 12, color: PALETTE.navy, marginTop: 22, marginBottom: 8 },
   card: {
     borderWidth: 1,
     borderColor: PALETTE.line,
@@ -161,8 +163,8 @@ const styles = StyleSheet.create({
   elementValue: { fontSize: 8, color: PALETTE.muted, marginLeft: 3 },
 
   scoreRow: { flexDirection: "row", alignItems: "baseline" },
-  todayScore: { fontSize: 42, lineHeight: 1.25, color: PALETTE.plum },
-  todayGrade: { fontSize: 14, lineHeight: 1.4, marginLeft: 10, color: PALETTE.copper },
+  todayScore: { fontSize: 42, lineHeight: 1.25, color: PALETTE.navy },
+  todayGrade: { fontSize: 14, lineHeight: 1.4, marginLeft: 10, color: PALETTE.gold },
 
   splitRow: { flexDirection: "row", marginTop: 8 },
   splitCell: {
@@ -174,12 +176,12 @@ const styles = StyleSheet.create({
     padding: 12,
     marginRight: 8,
   },
-  splitValue: { fontSize: 18, lineHeight: 1.35, color: PALETTE.plum, marginTop: 2 },
+  splitValue: { fontSize: 18, lineHeight: 1.35, color: PALETTE.navy, marginTop: 2 },
 
   tableHead: {
     flexDirection: "row",
     borderBottomWidth: 1,
-    borderBottomColor: PALETTE.plum,
+    borderBottomColor: PALETTE.navy,
     paddingBottom: 4,
     marginTop: 2,
   },
@@ -189,7 +191,7 @@ const styles = StyleSheet.create({
     borderBottomColor: PALETTE.line,
     paddingVertical: 5,
   },
-  th: { fontSize: 8, color: PALETTE.plum },
+  th: { fontSize: 8, color: PALETTE.navy },
   td: { fontSize: 9 },
   tdMuted: { fontSize: 8.5, color: PALETTE.muted },
   tableNote: { fontSize: 7.5, color: PALETTE.muted, marginTop: 5 },
@@ -335,7 +337,7 @@ function ElementBars({
             key={element}
             style={{
               width: `${(value / total) * 100}%`,
-              backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.sage,
+              backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.celadon,
             }}
           />
         ))}
@@ -346,7 +348,7 @@ function ElementBars({
             <View
               style={[
                 styles.elementDot,
-                { backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.sage },
+                { backgroundColor: ELEMENT_COLOR[element] ?? PALETTE.celadon },
               ]}
             />
             <MixedText

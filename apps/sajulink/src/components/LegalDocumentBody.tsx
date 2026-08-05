@@ -68,7 +68,7 @@ export function LegalDocumentBody({
                   >
                     <span
                       aria-hidden
-                      className="mt-2.5 size-1.5 shrink-0 rounded-full bg-brand-plum/60"
+                      className="mt-2.5 size-1.5 shrink-0 rounded-full bg-brand-navy/60"
                     />
                     <span>{renderEmphasis(bullet)}</span>
                   </li>

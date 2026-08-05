@@ -39,7 +39,7 @@ export default async function Page(props: GuidePageProps) {
           계산이 끝나면 주소가 이렇게 생깁니다.
         </p>
         <p className="overflow-x-auto rounded-lg border border-line bg-surface-strong px-4 py-3 font-mono text-xs leading-6">
-          /ko/reading/result<b className="text-brand-plum">#</b>
+          /ko/reading/result<b className="text-brand-navy">#</b>
           eyJhIjp7InkiOjE5OTAsLi4u
         </p>
         <p>
@@ -82,7 +82,7 @@ export default async function Page(props: GuidePageProps) {
             <b>같은 값을 다시 계산합니다.</b> 캐시가 없기 때문입니다. 대신 모든 규칙이 결정적이라{" "}
             <a
               href={localePath("/guide/natal-chart", locale)}
-              className="font-semibold text-brand-plum underline underline-offset-2"
+              className="font-semibold text-brand-navy underline underline-offset-2"
             >
               같은 입력이면 언제나 같은 값
             </a>
@@ -106,7 +106,7 @@ export default async function Page(props: GuidePageProps) {
           자세한 것은{" "}
           <a
             href={localePath("/privacy", locale)}
-            className="font-semibold text-brand-plum underline underline-offset-2"
+            className="font-semibold text-brand-navy underline underline-offset-2"
           >
             개인정보처리방침
           </a>

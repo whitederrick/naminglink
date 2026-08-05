@@ -119,8 +119,8 @@ export function GuideNote({
   children: ReactNode;
 }) {
   return (
-    <aside className="rounded-lg border border-brand-plum/25 bg-surface-strong px-4 py-3 text-sm leading-7">
-      {title ? <p className="font-semibold text-brand-plum">{title}</p> : null}
+    <aside className="rounded-lg border border-brand-navy/25 bg-surface-strong px-4 py-3 text-sm leading-7">
+      {title ? <p className="font-semibold text-brand-navy">{title}</p> : null}
       <div className={title ? "mt-1" : undefined}>{children}</div>
     </aside>
   );

@@ -94,7 +94,7 @@ export function SajuResultView({
 
   if (state.status === "error") {
     return (
-      <p role="alert" className="mt-10 break-keep-all text-center text-brand-plum">
+      <p role="alert" className="mt-10 break-keep-all text-center text-brand-navy">
         {state.message}
       </p>
     );
@@ -106,7 +106,7 @@ export function SajuResultView({
     <div className="mt-10 space-y-10">
       {/* 사주 원국 — 네 기둥. 시각을 모르면 시주가 없다. */}
       <section className="rounded-2xl border border-line/70 bg-surface/80 p-5 shadow-sm">
-        <h2 className="text-sm font-semibold text-brand-plum">{r.chartTitle}</h2>
+        <h2 className="text-sm font-semibold text-brand-navy">{r.chartTitle}</h2>
         <div className="mt-3 grid grid-cols-4 gap-2 text-center">
           {[reading.pillars.year, reading.pillars.month, reading.pillars.day, reading.pillars.hour].map(
             (pillar, index) => (
@@ -123,14 +123,14 @@ export function SajuResultView({
       {/* 오늘의 운세 — 이 화면의 리텐션 훅이다. 점수·등급·카테고리를 함께 보여 준다.
           **엔진 값은 전부 열거값이다.** 그대로 그리면 `DAEGIL`·`wealth`·`WOOD`가 화면에 뜬다.
           사람이 읽을 말은 전부 사전(`today`·`elements`)에 있고 여기서는 이름만 건다. */}
-      <section className="rounded-2xl border border-brand-plum/25 bg-surface-strong p-5">
-        <h2 className="text-sm font-semibold text-brand-plum">{d.title}</h2>
+      <section className="rounded-2xl border border-brand-navy/25 bg-surface-strong p-5">
+        <h2 className="text-sm font-semibold text-brand-navy">{d.title}</h2>
         <p className="mt-1 text-xs text-muted">
           {today.date} · {d.pillarLabel} {today.todayPillar.stem}
           {today.todayPillar.branch}
         </p>
         <p className="mt-3 text-4xl font-semibold tabular-nums">{today.score}</p>
-        <p className="mt-1 text-sm font-semibold text-brand-plum">
+        <p className="mt-1 text-sm font-semibold text-brand-navy">
           {d.grades[today.grade].name}
         </p>
         <p className="break-keep-all mt-1 text-xs leading-6 text-muted">
@@ -147,7 +147,7 @@ export function SajuResultView({
 
         {/* 행운 요소. 색과 방위는 엔진이 한국어·영어 두 벌로 들고 있다 — 나머지 로케일은
             영어 쪽을 쓴다(사전에 옮기면 오행마다 23벌이라 엔진 값을 그대로 쓰는 편이 맞다). */}
-        <h3 className="mt-5 text-xs font-semibold text-brand-plum">{d.luckyTitle}</h3>
+        <h3 className="mt-5 text-xs font-semibold text-brand-navy">{d.luckyTitle}</h3>
         <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-xs leading-6 sm:grid-cols-3">
           <div className="flex gap-2">
             <dt className="text-muted">{d.luckyElement}</dt>
@@ -175,7 +175,7 @@ export function SajuResultView({
 
         {/* 점수의 근거. 엔진은 항목(`Factor.key`)만 주고 문장은 사전이 갖는다. 사전 쪽이
             열거로 닫혀 있어 엔진에 항목이 늘면 컴파일에서 걸린다. */}
-        <h3 className="mt-5 text-xs font-semibold text-brand-plum">{d.basisTitle}</h3>
+        <h3 className="mt-5 text-xs font-semibold text-brand-navy">{d.basisTitle}</h3>
         <ul className="mt-2 space-y-1 text-xs leading-6 text-muted">
           {today.factors.map((factor) => (
             <li key={factor.key} className="break-keep-all flex justify-between gap-3">
@@ -192,7 +192,7 @@ export function SajuResultView({
 
       {/* 오행 세력. 무료로 보여 주는 몫이고, 근거 숫자(allyRatio·왕상휴수사)는 리포트에만 있다. */}
       <section className="rounded-2xl border border-line/70 bg-surface/80 p-5 shadow-sm">
-        <h2 className="text-sm font-semibold text-brand-plum">{r.elementsTitle}</h2>
+        <h2 className="text-sm font-semibold text-brand-navy">{r.elementsTitle}</h2>
         <dl className="mt-3 grid grid-cols-5 gap-2 text-center text-sm">
           {(Object.keys(reading.elements) as Array<keyof typeof reading.elements>).map((element) => (
             <div key={element} className="rounded-lg border border-line/60 bg-surface px-2 py-2">

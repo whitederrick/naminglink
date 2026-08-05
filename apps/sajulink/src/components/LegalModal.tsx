@@ -149,7 +149,7 @@ export function LegalModal({
           <button
             type="button"
             onClick={onClose}
-            className="inline-flex h-10 w-full items-center justify-center rounded-lg bg-brand-plum px-4 text-sm font-semibold text-white"
+            className="inline-flex h-10 w-full items-center justify-center rounded-lg bg-brand-navy px-4 text-sm font-semibold text-white"
           >
             닫기
           </button>

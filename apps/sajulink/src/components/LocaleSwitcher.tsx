@@ -55,7 +55,7 @@ export function LocaleSwitcher({
         ? "border-white bg-white text-[#3d1327]"
         : "border-white/35 bg-white/10 text-white hover:bg-white/20"
       : active
-        ? "border-brand-plum bg-brand-plum text-white"
+        ? "border-brand-navy bg-brand-navy text-white"
         : "border-line/70 bg-surface/75 text-muted hover:bg-surface-strong";
 
   return (

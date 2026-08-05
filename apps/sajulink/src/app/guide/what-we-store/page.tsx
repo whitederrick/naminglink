@@ -37,7 +37,7 @@ export default async function Page(props: GuidePageProps) {
       <GuideSection title="What a result link actually carries">
         <p>When a reading is produced, the address looks like this:</p>
         <p className="overflow-x-auto rounded-lg border border-line bg-surface-strong px-4 py-3 font-mono text-xs leading-6">
-          /en/reading/result<b className="text-brand-plum">#</b>
+          /en/reading/result<b className="text-brand-navy">#</b>
           eyJhIjp7InkiOjE5OTAsLi4u
         </p>
         <p>
@@ -80,7 +80,7 @@ export default async function Page(props: GuidePageProps) {
             deterministic, the{" "}
             <a
               href={localePath("/guide/how-it-works", locale)}
-              className="font-semibold text-brand-plum underline underline-offset-2"
+              className="font-semibold text-brand-navy underline underline-offset-2"
             >
               same input always yields the same result
             </a>
@@ -104,7 +104,7 @@ export default async function Page(props: GuidePageProps) {
           The full detail is in our{" "}
           <a
             href={localePath("/privacy", locale)}
-            className="font-semibold text-brand-plum underline underline-offset-2"
+            className="font-semibold text-brand-navy underline underline-offset-2"
           >
             privacy policy
           </a>

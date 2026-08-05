@@ -66,7 +66,7 @@ export function PersonFields({
   // 거는 것은 장식이 아니라 가독성 때문이다 — 이미지의 결이 그대로 비치면 글씨와 겹친다.
   return (
     <fieldset className="rounded-2xl border border-line/70 bg-surface/70 p-5 shadow-sm backdrop-blur-md">
-      <legend className="px-2 text-sm font-semibold text-brand-plum">
+      <legend className="px-2 text-sm font-semibold text-brand-navy">
         {legend}
       </legend>
 
@@ -94,7 +94,7 @@ export function PersonFields({
               aria-pressed={value.gender === option}
               className={
                 value.gender === option
-                  ? "rounded-full bg-brand-plum px-4 py-1.5 text-sm text-white"
+                  ? "rounded-full bg-brand-navy px-4 py-1.5 text-sm text-white"
                   : "rounded-full border border-line/70 bg-surface/45 px-4 py-1.5 text-sm text-muted backdrop-blur-sm"
               }
             >
@@ -141,7 +141,7 @@ export function PersonFields({
               aria-pressed={value.calendarType === type}
               className={
                 value.calendarType === type
-                  ? "rounded-full bg-brand-plum px-4 py-1.5 text-sm text-white"
+                  ? "rounded-full bg-brand-navy px-4 py-1.5 text-sm text-white"
                   : "rounded-full border border-line/70 bg-surface/45 px-4 py-1.5 text-sm text-muted backdrop-blur-sm"
               }
             >

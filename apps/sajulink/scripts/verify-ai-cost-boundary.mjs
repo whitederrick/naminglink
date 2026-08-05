@@ -48,7 +48,16 @@ for (const file of sourceFiles("src")) {
   if (key === "src/lib/saju-interpretation.ts") continue;
   // **타입만 들여오는 것은 호출이 아니다.** `import type { SajuInterpretation }`은 결과를
   // 받아 그리는 쪽(PDF 렌더러)이 쓰는 것이고 모델을 부르지 않는다. 그 줄을 지우고 본다.
-  const source = readFileSync(file, "utf8").replace(/^import type .*$/gm, "");
+  //
+  // **주석도 지우고 본다.** 이 규칙을 설명하는 주석에 `interpretSaju`라고 적으면 그 파일이
+  // 호출로 잡혔다(PDF 렌더러가 실제로 그렇게 걸렸다). 규칙을 문서로 남기라고 해 놓고 남기면
+  // 빨개지는 검사기는 오래 못 간다 — 주석은 걷어 내고 코드만 본다.
+  //
+  // `//`는 문자열 속 URL(`https://…`)에도 있으므로 **앞에 `:`이 없을 때만** 주석으로 본다.
+  const source = readFileSync(file, "utf8")
+    .replace(/^import type .*$/gm, "")
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .replace(/(^|[^:])\/\/.*$/gm, "$1");
   scanned += 1;
   const calls = CALL_PATTERNS.some((pattern) => pattern.test(source));
   if (!calls) continue;

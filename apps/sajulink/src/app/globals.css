@@ -1,17 +1,22 @@
 @import "tailwindcss";
 
-/* naminglink(청록·베이지)와 의도적으로 다른 색을 쓴다. 두 서비스가 형제 브랜드이되 같은
-   사이트로 읽히지 않아야 한다. 인연링크는 자두·구리색 계열. */
+/* **형제 서비스와 다른 색을 쓴다.** naminglink는 청록·베이지, 인연링크는 자두·구리다.
+   사주링크는 복제로 세우면서 인연링크의 자두·구리를 **글자까지 그대로** 물려받아, 두 서비스가
+   같은 사이트로 읽혔다(2026-08-05에 발견).
+
+   지금 색은 로고에서 뽑았다 — 남색 원판에 금색 팔괘다.
+   `--gold`는 흰 바탕 대비 4.6:1이라 본문에도 쓸 수 있다. 더 밝은 금색(#c08f3c)은 2.9:1이라
+   글자에 쓰면 안 읽힌다 — 밝기를 올릴 때는 대비를 다시 잴 것. */
 :root {
-  --background: #fbf7f6;
-  --foreground: #1d1518;
-  --muted: #77696d;
-  --line: #e6d9da;
+  --background: #fbfaf8;
+  --foreground: #171b22;
+  --muted: #6b7280;
+  --line: #dde1e8;
   --surface: #ffffff;
-  --surface-strong: #f5e9ea;
-  --plum: #86335a;
-  --copper: #b4632f;
-  --sage: #4f6f5e;
+  --surface-strong: #eef1f6;
+  --navy: #16273f;
+  --gold: #976d26;
+  --celadon: #456b74;
 }
 
 @theme inline {
@@ -21,9 +26,9 @@
   --color-line: var(--line);
   --color-surface: var(--surface);
   --color-surface-strong: var(--surface-strong);
-  --color-brand-plum: var(--plum);
-  --color-brand-copper: var(--copper);
-  --color-brand-sage: var(--sage);
+  --color-brand-navy: var(--navy);
+  --color-brand-gold: var(--gold);
+  --color-brand-celadon: var(--celadon);
   --font-sans: var(--font-geist-sans);
 }
 

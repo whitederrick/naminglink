@@ -112,7 +112,7 @@ export function SajuForm({
       />
 
       {error ? (
-        <p role="alert" className="break-keep-all text-sm text-brand-plum">
+        <p role="alert" className="break-keep-all text-sm text-brand-navy">
           {error}
         </p>
       ) : null}
@@ -120,7 +120,7 @@ export function SajuForm({
       <button
         type="submit"
         disabled={submitting}
-        className="w-full rounded-full bg-brand-plum px-8 py-4 text-lg font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
+        className="w-full rounded-full bg-brand-navy px-8 py-4 text-lg font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
       >
         {submitting
           ? t.submitting

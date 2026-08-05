@@ -75,7 +75,7 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
               href={localePath(`/guide/${entry.slug}`, locale, originQuery)}
               className="flex h-full flex-col rounded-xl border border-line bg-surface px-5 py-4 transition hover:bg-surface-strong"
             >
-              <span className="text-xs font-semibold text-brand-plum">
+              <span className="text-xs font-semibold text-brand-navy">
                 {entry.eyebrow}
               </span>
               <span className="break-keep-all mt-1 text-base font-semibold">

@@ -104,7 +104,7 @@ export default async function Page(props: GuidePageProps) {
           연지(띠)는 시각과 무관하게 언제나 같습니다 —{" "}
           <a
             href={localePath("/guide/zodiac", locale)}
-            className="font-semibold text-brand-plum underline underline-offset-2"
+            className="font-semibold text-brand-navy underline underline-offset-2"
           >
             연지 하나만 보기 때문
           </a>
