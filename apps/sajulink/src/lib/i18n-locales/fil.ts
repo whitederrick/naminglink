@@ -1,0 +1,606 @@
+// 사주링크 화면 사전의 Filipino (Tagalog)(fil) 번역이다.
+//
+// **`scripts/translate-i18n.ts`가 만든 파일이다.** 키 구성·중첩·배열 길이는 en을 그대로
+// 복사하고 문자열만 갈아 끼우므로 구조가 어긋날 자리가 없다. 손으로 고칠 때도 키를 더하거나
+// 빼지 말 것 — `verify-i18n`이 en과 대조해 잡는다.
+//
+// **인연링크에서 물려받은 옛 번역을 되살린 것이 아니다.** 그 파일들은 궁합 서비스의 UI라,
+// 되살리면 사주 화면에 궁합·인연이 다시 들어온다. 새 ko·en에서 다시 옮겼다.
+
+import type { Dictionary } from "@/lib/i18n";
+
+export const fil: Dictionary = {
+  "brand": "SajuLink",
+  "tagline": "Ang Iyong Apat na Haligi, binasa mula sa petsa ng kapanganakan",
+  "currentLanguage": "Kasalukuyang wika",
+  "moreLanguages": "Higit pa",
+  "closeLanguages": "Isara",
+  "landing": {
+    "title": "Ang walong karakter\nyou were born with",
+    "subtitle": "Kailangan mo lang ay isang petsa ng kapanganakan.\nBubuuin namin ang iyong Saju (Four Pillars) chart, susukatin ang limang elemento at babasahin ang lakas ng iyong day master.",
+    "cta": "Tingnan ang aking Saju",
+    "howTitle": "Paano ito kinakalkula",
+    "steps": [
+      "Ilagay ang iyong petsa ng kapanganakan. Ang oras ng kapanganakan ay opsyonal.",
+      "Ang taon, buwan, araw at oras ng iyong kapanganakan ay nagiging walong karakter — ang iyong natal chart. Mula dito, susukatin namin ang bigat ng bawat elemento at ang lakas ng iyong day master.",
+      "Ang haligi ng araw na ito ay ilalagay laban sa chart na iyon upang ibigay ang iyong kapalaran sa araw na ito."
+    ],
+    "privacyTitle": "Walang inilalagay na iniimbak",
+    "privacyBody": "Ginagamit lang ang mga petsa ng kapanganakan habang kinakalkula ang resulta at hindi kailanman itinatala. Walang kailangang account. Walang ipinapadala sa server mula sa nilalaman ng link ng resulta.",
+    "disclaimer": "Ito ay isang tradisyonal na pagbasa ng Saju na inaalok para sa sanggunian. Ito ay hindi isang siyentipikong prediksyon o hatol sa hinaharap ng sinuman."
+  },
+  "form": {
+    "title": "Ang iyong petsa ng kapanganakan",
+    "description": "Mas matalas ang pagbasa kung alam ang oras ng kapanganakan, pero hindi ito kinakailangan.",
+    "meLegend": "Tungkol sa iyo",
+    "nickname": "Itatawag sa kanya",
+    "nicknamePlaceholder": "hal. Ako",
+    "nicknameHint": "Lumalabas lang sa screen ng resulta. Hindi ito ginagamit sa pagkalkula.",
+    "gender": "Kasarian",
+    "male": "Lalaki",
+    "female": "Babae",
+    "genderUnspecified": "Ayaw sabihin",
+    "genderHint": "Ang tradisyonal na Saju ay nagbabasa ng mga posisyon ng asawa at anak nang iba ayon sa kasarian. Kung hindi mo ito ilalagay, ang mga salik na iyon ay hindi isasama sa kalkulasyon.",
+    "birthplace": "Lugar ng kapanganakan",
+    "birthplaceHint": "Ang haligi ng oras ay kinakalkula mula sa tunay na solar na oras sa iyong lugar ng kapanganakan. Kung ang iyong lugar ng kapanganakan ay hindi nakalista, pumili ng pinakamalapit na lungsod.\nSa loob ng mainland Korea, ang pagkakaiba sa pagitan ng mga lungsod ay nasa ilalim ng dalawang minuto. Ang daylight saving at mga pagbabago sa makasaysayang time-zone ay isinasama rin.",
+    "calendar": "Kalendaryo",
+    "solar": "Solar",
+    "lunar": "Lunar",
+    "leapMonth": "Buwang leap",
+    "birthDate": "Petsa ng kapanganakan",
+    "year": "Taon",
+    "month": "Buwan",
+    "day": "Araw",
+    "birthTime": "Oras ng kapanganakan",
+    "unknownTime": "Hindi ko alam ang oras",
+    "hour": "Oras",
+    "minute": "Minuto",
+    "submit": "Manood ng ad at tingnan ang aking Saju",
+    "submitNoAd": "Tingnan ang aking Saju",
+    "submitting": "Kinakalkula…",
+    "errorInvalidDate": "Pakisuri ang petsa ng kapanganakan. Kung lunar ang petsa, tingnan din kung nasa buwang leap ito.",
+    "errorGeneric": "Hindi natuloy ang pagkalkula. Pakisubukan muli maya-maya."
+  },
+  "reading": {
+    "chartTitle": "Ang iyong natal chart",
+    "chartHint": "Ang Saju ay naglalarawan ng taon, buwan, araw at oras ng kapanganakan bilang tig-dalawang karakter. Lahat ng nasa ibaba ay binabasa mula sa walong karakter na ito.",
+    "pillarYear": "Taon",
+    "pillarMonth": "Buwan",
+    "pillarDay": "Araw",
+    "pillarHour": "Oras",
+    "pillarHourUnknown": "Walang oras ng kapanganakan",
+    "dayMasterLabel": "Day master",
+    "animalLabel": "Zodiac",
+    "seasonLabel": "Panahon ng kapanganakan",
+    "elementsTitle": "Lakas ng mga elemento",
+    "strongest": "Pinakamalakas",
+    "scarcest": "Pinakakaunti",
+    "strengthTitle": "Ang iyong mga ipinanganak na lakas",
+    "cautionTitle": "Dapat bantayan",
+    "bodyStrengthTitle": "Lakas ng day master",
+    "favorableLabel": "Kailangan mo ngayon"
+  },
+  "bodyStrength": {
+    "STRONG": {
+      "name": "Malakas na day master",
+      "body": "Sagana ang mga elementong sumusuporta sa iyong day master. Nagbibigay iyon ng sariling sigla, pero madali ring kumiling sa isang panig — mas napapanatag ka kapag may kumukuha ng sobra."
+    },
+    "BALANCED": {
+      "name": "Balanseng day master",
+      "body": "Halos pantay ang sumusuporta sa iyong day master at ang kumukuha rito. Mahirap pumanig sa alinman, kaya rito ay itinuturing naming kailangan mo ang pinakamanipis na elemento."
+    },
+    "WEAK": {
+      "name": "Mahinang day master",
+      "body": "Manipis ang mga elementong sumusuporta sa iyong day master. Magaling kang humugot ng lakas sa paligid, pero napapagod ka kapag matagal na nag-iisa — lumalakas ka kapag may sumusuporta sa iyo."
+    }
+  },
+  "tenGods": {
+    "BIGYEON": {
+      "name": "Kasama (比肩)",
+      "body": "Ang enerhiya na nakatayo sa tabi mo. Makapal, nagbibigay ito sa iyo ng lakas upang ipaglaban ang iyong sariling lupa at kunin ang iyong bahagi muna."
+    },
+    "GEOPJAE": {
+      "name": "Karibal (劫財)",
+      "body": "Enerhiya na kahawig mo ngunit may ibang paraan ng pagkilos. Nagbibigay ito ng puwersa sa isang pagtulak, ngunit sa labis, ang iyong hawak ay madaling kumalat."
+    },
+    "SIKSIN": {
+      "name": "Pagpapahayag (食神)",
+      "body": "Ang enerhiya na humihila ng nasa loob mo palabas sa mundo. Ang pagpapahayag at ang simpleng kasiyahan ng pamumuhay ay nagmumula dito; kung saan ito naroroon, mayroong kaginhawaan."
+    },
+    "SANGGWAN": {
+      "name": "Manggugulo (傷官)",
+      "body": "Ang enerhiya na nagpapagalaw sa isang nakatakdang balangkas. Nagbibigay ito ng talento at matalim na talas, ngunit sa labis, ito ay sumasalungat sa mga patakaran at ranggo."
+    },
+    "PYEONJAE": {
+      "name": "Biglaang yaman (偏財)",
+      "body": "Enerhiya ng kayamanan na malawak. Aktibo at malaya sa kung ano ang mayroon ito, nagdadala ito ng mga pagkakataon mula sa mga hindi inaasahang lugar."
+    },
+    "JEONGJAE": {
+      "name": "Matatag na yaman (正財)",
+      "body": "Enerhiya ng kayamanan na matatag, na naipon ng paunti-unti. Sa tradisyonal na Saju, ito rin ay binabasa bilang posisyon ng asawa para sa isang lalaki."
+    },
+    "PYEONGWAN": {
+      "name": "Humahamon (偏官)",
+      "body": "Ang enerhiya na nagpapanatili sa iyo na alerto at tuwid. Lumalakas ka sa ilalim ng presyon, bagaman sa labis, palagi kang nakakaramdam na hinahabol."
+    },
+    "JEONGGWAN": {
+      "name": "Awtoridad (正官)",
+      "body": "Ang enerhiya ng kaayusan na nagtatama sa iyo. Pinapanatili nito ang iyong pangalan at katayuan; sa tradisyonal na Saju, ito rin ay binabasa bilang posisyon ng asawa para sa isang babae."
+    },
+    "PYEONIN": {
+      "name": "Di-karaniwang suporta (偏印)",
+      "body": "Enerhiya na sumusuporta sa iyo sa isang hindi karaniwang daan. Nagbibigay ito ng kapangyarihan upang maghukay ng malalim, bagaman sa labis, ang pag-iisip ay nauuna sa kamay."
+    },
+    "JEONGIN": {
+      "name": "Pag-aaruga (正印)",
+      "body": "Ang enerhiya na humahawak at nagpapalago sa iyo. Nagbibigay ito ng kaalaman at isang bagay na masasandalan; sa labis, ang pagsisimula sa iyong sariling landas ay nahuhuli."
+    }
+  },
+  "dayMasters": {
+    "甲": {
+      "name": "Yang na Kahoy (甲)",
+      "trait": "Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko."
+    },
+    "乙": {
+      "name": "Yin na Kahoy (乙)",
+      "trait": "Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas."
+    },
+    "丙": {
+      "name": "Yang na Apoy (丙)",
+      "trait": "Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan."
+    },
+    "丁": {
+      "name": "Yin na Apoy (丁)",
+      "trait": "Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit."
+    },
+    "戊": {
+      "name": "Yang na Lupa (戊)",
+      "trait": "Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na."
+    },
+    "己": {
+      "name": "Yin na Lupa (己)",
+      "trait": "Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita."
+    },
+    "庚": {
+      "name": "Yang na Metal (庚)",
+      "trait": "Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin."
+    },
+    "辛": {
+      "name": "Yin na Metal (辛)",
+      "trait": "Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa."
+    },
+    "壬": {
+      "name": "Yang na Tubig (壬)",
+      "trait": "Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos."
+    },
+    "癸": {
+      "name": "Yin na Tubig (癸)",
+      "trait": "Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita."
+    }
+  },
+  "dayMasterSigns": {
+    "甲": [
+      "Sinasabi ang iniisip kahit sa unang pagkikita.",
+      "Bihirang baguhin ang planong o pangakong naitakda na.",
+      "Diretsong tumatanggi, kaya minsan tunog matigas."
+    ],
+    "乙": [
+      "Umiiwas sa harapang banggaan at ibang daan ang tinatahak.",
+      "Mukhang malambot, pero napupunta pa rin sa balak niyang puntahan.",
+      "Sinusuri muna ang himig ng grupo bago sumali."
+    ],
+    "丙": [
+      "Siya ang unang kumikibo sa bagong kakilala.",
+      "Nakikita sa mukha ang gusto at ayaw niya.",
+      "Napupunta sa gitna ng pagtitipon nang hindi sinasadya."
+    ],
+    "丁": [
+      "Tahimik sa simula, maalaga kapag naging malapit na.",
+      "Mas gusto ang mahabang usapan kasama ang isa o dalawa kaysa sa maraming tao.",
+      "Naaalala ang pabiglang nasabi mo at binabanggit ito mamaya."
+    ],
+    "戊": [
+      "Kaunti ang salita; bihirang tumaas ang boses kahit nagmamadali.",
+      "Siya ang nagsasaayos sa huli habang ipinagpapaliban ng iba ang pasya.",
+      "Kapag nagsabi ng hindi, matagal itong mananatiling hindi."
+    ],
+    "己": [
+      "Mas matagal makinig kaysa magsalita.",
+      "Hirap tumanggi, kaya nagkukumpol sa kanya ang trabaho.",
+      "Ang tahimik niyang inasikaso ay saka lang nalalaman."
+    ],
+    "庚": [
+      "Mabilis magpasya at doon mismo sinasabi.",
+      "Hindi nagpapalambot ng salita, kaya minsan tunog malamig.",
+      "Halatang naiinip kapag humahaba ang usapin."
+    ],
+    "辛": [
+      "Malinaw ang pamantayan sa damit at sa mga piniling gamit.",
+      "Hindi mapalampas ang kalahating gawa nang hindi ito binabanggit.",
+      "Kuripot sa papuri, pero tiyak kapag kumilala na."
+    ],
+    "壬": [
+      "Madaling makihalubilo sa lahat ng uri ng tao.",
+      "Nauuna niyang pag-usapan ang malayong bukas kaysa sa nasa harapan.",
+      "Nayayamot kapag matagal na nakatali sa iisang lugar."
+    ],
+    "癸": [
+      "Kaunti ang salita pero tumpak ang basa niya sa sitwasyon.",
+      "Siya ang unang nakakapansin kapag nagbago ang himig.",
+      "Hindi basta ipinapakita ang kalooban, kaya kailangan ng panahon para makilala."
+    ]
+  },
+  "animalTraits": {
+    "rat": "Mabilis makapansin at mabilis kumuha ng mahalaga. Siya ang unang kumikilos sa gipit.",
+    "ox": "Mukhang mabagal pero tinatapos ang sinimulan. Ang tinanggap niya, hindi niya binibitawan.",
+    "tiger": "Walang takot at laging nangunguna. Hindi mapalampas ang kawalang-katarungan.",
+    "rabbit": "Mahinahon at mapansin. Marunong lumihis sa halip na bumangga.",
+    "dragon": "Malawak ang puso at mataas ang mithiin. Bihirang makuntento sa karaniwan.",
+    "snake": "Hindi basta naglalabas ng kalooban at malalim mag-isip. Tumpak humatol.",
+    "horse": "Masigla at hindi mapakali. Pinakamahirap para sa kanya ang makulong.",
+    "goat": "Mainit ang loob at maalalahanin. Matagal dala ang matatalim na salita.",
+    "monkey": "Maparaan at mabilis makibagay. Nababagot sa paulit-ulit.",
+    "rooster": "Masipag at maselan. Hindi matiis ang bagay na wala sa lugar.",
+    "dog": "Tapat hanggang huli kapag nagtiwala na. Lalong malalim ang sugat ng pagtataksil.",
+    "pig": "Bukas-palad at prangka. Madaling magtiwala, minsan ay may kapalit."
+  },
+  "result": {
+    "title": "Ang iyong Saju na pagbasa",
+    "recalculate": "Magsimula muli",
+    "copyLink": "Kopyahin ang link ng resulta",
+    "copied": "Nakopya",
+    "missingInput": "Hindi mabasa ang resultang ito. Pakilagay muli ang mga petsa.",
+    "partialTime": "Walang ibinigay na oras ng kapanganakan, kaya inalis ang haligi ng oras. Kapag idinagdag ito, mas tumpak ang pagbasa.",
+    "engineVersion": "Kinalkula gamit ang",
+    "disclaimer": "Ito ay isang tradisyonal na pagbasa ng Saju na inaalok para sa sanggunian. Hindi ito isang siyentipikong hula o hatol sa iyong hinaharap."
+  },
+  "today": {
+    "menu": "Suwerteng araw na ito",
+    "title": "Suwerteng araw na ito",
+    "pillarLabel": "Pilar ng araw na ito",
+    "scoreLabel": "Iskor ng araw na ito",
+    "grades": {
+      "DAEGIL": {
+        "name": "Napakabuti",
+        "body": "Ang enerhiya ng araw na ito ay tumutugma sa iyong tsart sa pinakamainam na anggulo. Magandang araw upang simulan ang mga bagay na iyong ipinagpaliban."
+      },
+      "GIL": {
+        "name": "Magandang tanda",
+        "body": "Ang agos ay kasama mo ngayon. Ang mga karaniwang ginagawa mo ay mas madali kaysa sa karaniwan."
+      },
+      "PYEONG": {
+        "name": "Pantay",
+        "body": "Walang nagtutulak sa iyo at walang humahadlang sa iyo. Gawin ang karaniwan mong ginagawa at makakamit mo ang karaniwan mong nakukuha."
+      },
+      "JUUI": {
+        "name": "Mag-ingat",
+        "body": "Ang ilan sa enerhiya ng araw na ito ay salungat sa iyong tsart. Mas mabuting tapusin ang mga bagay kaysa simulan ang mga ito."
+      },
+      "JOSIM": {
+        "name": "Mag-ingat ka",
+        "body": "Ang enerhiya ng araw na ito ay nakadikit sa iyong tsart. Kung ang isang desisyon ay maaaring maghintay, hayaan mo itong maghintay."
+      }
+    },
+    "categories": {
+      "wealth": "Pera",
+      "love": "Pag-ibig",
+      "career": "Trabaho",
+      "health": "Kalusugan"
+    },
+    "luckyTitle": "Panatilihin ang mga ito malapit ngayon",
+    "luckyElement": "Elemento",
+    "luckyColor": "Kulay",
+    "luckyDirection": "Direksyon",
+    "luckyTime": "Oras",
+    "luckyNumber": "Mga numero",
+    "luckyColors": {
+      "TEAL": "berde-abo",
+      "GREEN": "berde",
+      "RED": "pula",
+      "ORANGE": "kahel",
+      "YELLOW": "dilaw",
+      "OCHRE": "dilaw-lupa",
+      "WHITE": "puti",
+      "GOLD": "ginto",
+      "BLACK": "itim",
+      "NAVY": "dilaw na asul"
+    },
+    "luckyDirections": {
+      "EAST": "Silangan",
+      "SOUTH": "Timog",
+      "CENTER": "Sentro",
+      "WEST": "Kanluran",
+      "NORTH": "Hilaga"
+    },
+    "basisTitle": "Saan nagmula ang score na ito",
+    "factors": {
+      "TODAY_IS_YONGSIN": "Ang elemento ng araw na ito ay ang kailangan ng iyong tsart",
+      "TODAY_GENERATES_YONGSIN": "Ang elemento ng araw na ito ay nagbibigay ng suporta sa kailangan ng iyong tsart",
+      "TODAY_IS_GISIN": "Ang elemento ng araw na ito ay higit pang nagtutulak sa bahagi na puno na",
+      "TODAY_CONTROLS_YONGSIN": "Ang elemento ng araw na ito ay humahawak sa kailangan ng iyong tsart",
+      "TODAY_GENERATES_SELF": "Ang elemento ng araw na ito ay sumusuporta sa iyong day master",
+      "TODAY_SAME_ELEMENT": "Ang elemento ng araw na ito ay kapareho ng iyong day master",
+      "SELF_GENERATES_TODAY": "Ang iyong day master ay umaagos patungo sa elemento ng araw na ito",
+      "TODAY_CONTROLS_SELF": "Ang elemento ng araw na ito ay humahawak sa iyong day master",
+      "SELF_CONTROLS_TODAY": "Ang iyong day master ay humahawak sa elemento ng araw na ito",
+      "WEAK_HELPED": "Ang isang mahina day master ay binibigyan ng lakas ngayon",
+      "STRONG_OVERFED": "Ang isang malakas na day master ay nagiging mas mabigat ngayon",
+      "STRONG_DRAINED": "Ang isang malakas na day master ay nahahatak pababa para sa mas magandang balanse ngayon",
+      "WEAK_BURDENED": "Ang isang mahina day master ay binibigyan ng higit pang pasanin ngayon",
+      "BRANCH_SAMHAP": "Ang sangay ngayon ay bumubuo ng isang buong trine sa iyong tsart",
+      "BRANCH_BANHAP": "Ang sangay ngayon ay bumubuo ng isang kalahating trine sa iyong tsart",
+      "BRANCH_YUKHAP": "Ang sangay ngayon ay bumubuo ng isang anim na pagkakaisa sa iyong tsart",
+      "BRANCH_SAME": "Ang sangay ngayon ay kapareho ng isa sa iyong tsart",
+      "BRANCH_NEUTRAL": "Ang sangay ngayon ay walang partikular na ugnayan sa iyong tsart",
+      "BRANCH_WONJIN": "Ang sangay ngayon ay nakaupo sa tahimik na hindi pagkakaunawaan sa iyong tsart",
+      "BRANCH_CHUNG": "Ang sangay ngayon ay sumasalungat sa iyong tsart"
+    },
+    "bookmarkHint": "Hindi namin iniimbak ang iyong petsa ng kapanganakan, kaya kailangan itong ipasok muli sa bawat pagkakataon. **I-bookmark ang link na ito ng resulta** at bubuksan nito ang kapalaran ng araw na iyon araw-araw.",
+    "disclaimer": "Ang kapalaran ng araw na ito ay nagiging isang iskor sa relasyon sa pagitan ng day pillar at ng iyong chart. Ito ay isang tala kung paano gugugulin ang araw, hindi isang hula."
+  },
+  "ads": {
+    "label": "Patalastas"
+  },
+  "analyzing": {
+    "title": "Binubuo ang iyong tsart",
+    "quotes": [
+      "Ang Saju ay hindi isang nakatakdang sagot. Ito ay isang wika para sa pag-unawa sa iyong sarili.",
+      "Ang pagkakaalam sa kung ano ang dala mo sa iyong kapanganakan at ang pamumuhay dito ay dalawang magkaibang bagay.",
+      "Ang malakas na posisyon ay isang usaping paggamit; ang manipis na isa, isang usaping pagpuno.",
+      "Ang parehong walong karakter ay nagiging ibang araw depende sa kung paano mo ito binabasa.",
+      "Mas mabuti pa kaysa sa paghihintay ng magandang araw ay ang malaman kung paano gamitin ang mayroon ka.",
+      "Ang posisyon na tinatawag ng mga tao na kahinaan ay karaniwang kung saan nagaganap ang pinakamalaking pag-unlad.",
+      "May ilang enerhiya na itinutulak ng panahon; may ilan na kailangan mong likhain para sa iyong sarili.",
+      "Ang mas mahalaga kaysa sa iskor ay kung paano mo ito binabasa.",
+      "Ang kapalaran ng araw na ito ay ang panahon para sa isang araw, hindi ang klima kung saan ka nakatira.",
+      "Ang pagkakaalam sa iyong Saju ay nangangahulugang makita ang iyong sarili, hindi ang pagtingin sa hinaharap."
+    ],
+    "watching": "Pinapanood ang patalastas",
+    "remaining": "Bubukas ang resulta sa loob ng {seconds}s"
+  },
+  "reportDetail": {
+    "depthTitle": "Isang mas malapit na pagtingin sa iyong tsart",
+    "vitalityTitle": "Ang itinutulak ng panahon",
+    "vitalityHint": "Ang mga bar ay nagsasabi kung gaano karami ang isang elemento; ang talahanayang ito ay nagsasabi kung ang buwan ng kapanganakan ay nagtutulak nito pataas. Ang parehong halaga ay may iba't ibang lakas sa wang kaysa sa sa.",
+    "vitalities": {
+      "WANG": {
+        "name": "Wang (旺)",
+        "body": "sa pinakamalakas nito"
+      },
+      "SANG": {
+        "name": "Sang (相)",
+        "body": "susunod sa lakas"
+      },
+      "HYU": {
+        "name": "Hyu (休)",
+        "body": "nagpapahinga pagkatapos ng panahon nito"
+      },
+      "SU": {
+        "name": "Su (囚)",
+        "body": "nakatago, mahirap ilipat"
+      },
+      "SA": {
+        "name": "Sa (死)",
+        "body": "nasa pinakamahina"
+      }
+    },
+    "rawLabel": "Bago ang panahon",
+    "strengthLabel": "Pagkatapos ng panahon",
+    "earthSeasonNote": "Ipinanganak sa isang transisyonal na buwan (辰未戌丑), kaya ang lupa ay itinuturing ding wang.",
+    "allyRatioLabel": "Ratio ng kaalyado",
+    "allyRatioHint": "Ang bahagi na hawak ng mga bituin ng yaman at kasama na pinagsama. Higit sa 45% ay malakas, mas mababa sa 35% ay mahina. Ang numero ay naka-print upang makita mo kung gaano kalapit ang hatol.",
+    "stemGodsTitle": "Ano ang bawat haligi sa iyo",
+    "stemGodsHint": "Sinusukat mula sa iyong day master, ang bawat natitirang stem ay tumatagal ng isa sa mga pangalan ng sampung diyos. Alin sa kanila ang makapal ay marami ang sinasabi tungkol sa ugali.",
+    "pillarColumn": "Haligi",
+    "tenGodColumn": "Sampung diyos",
+    "meaningColumn": "Ano ang ibig sabihin nito",
+    "yearOutlookTitle": "Pangkalahatang pananaw para sa taong ito",
+    "factorsTitle": "Saan nagmula ang iskor ngayon",
+    "factorsHint": "Ang screen ay nagpapakita ng mga salik; dito, bawat isa ay nakalista kasama ang mga puntos na idinagdag o inalis.",
+    "deltaColumn": "Mga puntos",
+    "appendixTitle": "Paano nabuo ang tsart na ito",
+    "timeCorrectionLabel": "Oras ng kapanganakan",
+    "timeCorrectionApplied": "Itinama sa tunay na oras ng araw at binasa bilang {time}.",
+    "timeCorrectionNone": "Walang ibinigay na oras ng kapanganakan, kaya't hindi isinama ang haligi ng oras.",
+    "timeCorrectionDateShift": "Inilipat ng pagwawasto ang petsa sa {date}, kaya't ang haligi ng araw na iyon ang ginamit.",
+    "calendarLabel": "Petsang pinagbatayan ng tsart",
+    "solarLabel": "Solar",
+    "lunarLabel": "Lunar",
+    "lunarUnavailable": "Ang petsang ito ay wala sa talahanayan ng almanac, kaya't walang ipinakitang petsang lunar."
+  },
+  "report": {
+    "title": "Itago ang iyong pagbabasa ng buhay bilang PDF",
+    "body": "Gagawin naming PDF ang pagbabasang ito — ang iyong natal chart, ang bigat ng limang elemento, ang lakas ng iyong day master at kung ano ang kailangan nito ngayon, at ang kapalaran para sa araw na ito, lahat sa isang pahina.",
+    "buyButton": "Bayaran ang {price} at i-download",
+    "preparing": "Hindi pa available",
+    "ordering": "Ginagawa ang order mo…",
+    "paying": "Pinoproseso ang bayad…",
+    "issuing": "Inihahanda ang report mo…",
+    "done": "Na-download na. Gamitin ang button sa ibaba para i-download itong muli.",
+    "failed": "Hindi natuloy ang bayad o ang download. Pakisubukan muli maya-maya.",
+    "retry": "I-download muli",
+    "contents": [
+      "Ang iyong day master at temperamento — isang buod, mga lakas at mga pag-iingat",
+      "Ang iyong natal chart — ang walong karakter ng apat na haligi",
+      "Ang bigat ng limang elemento, pinakamakapal at pinakamanipis",
+      "Ang lakas ng iyong day master, at ang enerhiyang kailangan nito ngayon",
+      "Ang kapalaran para sa araw na ito at ang apat na larangan (pera, pag-ibig, trabaho, kalusugan)"
+    ],
+    "consentLabel": "Nauunawaan kong digital content ito na ibinibigay agad pagkatapos ng bayad, at na **limitado ang pag-urong dahil lang sa pagbabago ng isip kapag natapos na ang download**.",
+    "consentRequired": "Pakikumpirma ang mga tuntunin ng pag-urong bago magbayad.",
+    "productInfoTitle": "Impormasyon ng produkto",
+    "productInfo": [
+      [
+        "Tagapagbigay",
+        "{brand}"
+      ],
+      [
+        "Anyo",
+        "Isang PDF na dokumento (5 A4 na pahina), na mada-download sa screen kaagad pagkatapos ng bayad."
+      ],
+      [
+        "Kailangan",
+        "Kahit anong device na makakabukas ng PDF. Walang i-install, walang account."
+      ],
+      [
+        "Panahon ng paggamit",
+        "Walang hangganan. Sa iyo ang file na na-download mo."
+      ],
+      [
+        "Muling pag-download",
+        "Hanggang limang beses sa iisang order. Wala kaming itinatagong kopya, kaya hindi na ito magagawang muli kapag umalis ka sa screen ng resulta."
+      ],
+      [
+        "Pag-urong",
+        "Buong refund bago magsimula ang download. Pagkatapos nitong makumpleto, limitado ang pag-urong dahil sa pagbabago ng isip (Art. 17(2), Korean E-Commerce Act)."
+      ],
+      [
+        "Gastos sa pagsasauli",
+        "Wala — digital content, walang ipinapadala."
+      ]
+    ],
+    "refundContact": "Para sa refund o katanungan, makipag-ugnayan sa customer service o sa email sa ibaba. Kung hindi nagawa ang dokumento, o iba ang siningil sa halagang nasa order, ibinabalik namin ang buong bayad.",
+    "pdfLanguageNotice": "Ang PDF ay ginagawa sa parehong wika ng screen na ito."
+  },
+  "premiumReport": {
+    "title": "Itago ang iyong premium na pagbabasa bilang PDF",
+    "body": "Lahat ng nasa pagbabasa ng buhay, kasama ang **mga numero sa likod nito na hindi kailanman lumalabas sa screen** — ang ratio ng kaalyado na nagpasya kung malakas o mahina, kung gaano kalayo ang itinulak ng buwan ng kapanganakan ang bawat elemento, at ang tunay na pagwawasto ng oras ng araw na inilapat sa iyong oras ng kapanganakan.",
+    "buyButton": "Magbayad ng {price} at i-download",
+    "preparing": "Hindi pa available",
+    "ordering": "Nagawa ang iyong order…",
+    "paying": "Pinoproseso ang pagbabayad…",
+    "issuing": "Inihahanda ang iyong ulat…",
+    "done": "Na-download. Gamitin ang button sa ibaba upang i-download muli ito.",
+    "failed": "Nabigo ang pagbabayad o pag-download. Mangyaring subukan muli sa isang sandali.",
+    "retry": "I-download muli",
+    "contents": [
+      "Ang iyong day master at temperamento — isang buod, mga lakas at mga pag-iingat",
+      "Ang iyong natal chart — ang walong karakter ng apat na haligi",
+      "Ang limang elemento, ang lakas ng iyong day master at kung ano ang kailangan nito",
+      "Ang kapalaran ngayon at ang apat na larangan (pera, pag-ibig, trabaho, kalusugan)",
+      "Ano ang bawat haligi para sa iyo — ang ten gods na nabasa mula sa iyong tsart",
+      "Pagsusuri ng seasonal at ratio ng kaalyado — ang mga numero sa likod ng hatol",
+      "Ang pananaw para sa taong ito, mga salik sa pag-score ngayon, at ang pagwawasto ng oras"
+    ],
+    "consentLabel": "Nauunawaan ko na ito ay digital na nilalaman na ibinibigay agad sa pagbabayad, at na **ang pag-atras para sa simpleng pagbabago ng isip ay limitado kapag natapos na ang pag-download**.",
+    "consentRequired": "Mangyaring kumpirmahin ang mga tuntunin ng pag-atras bago magbayad.",
+    "productInfoTitle": "Impormasyon tungkol sa produkto",
+    "productInfo": [
+      [
+        "Tagapagbigay",
+        "{brand}"
+      ],
+      [
+        "Format",
+        "Isang PDF na dokumento (7 A4 na pahina), na mada-download sa screen agad pagkatapos ng pagbabayad."
+      ],
+      [
+        "Mga Kinakailangan",
+        "Anumang device na makakapagbukas ng PDF. Walang kinakailangang installation o account."
+      ],
+      [
+        "Termino ng paggamit",
+        "Walang limitasyon. Ikaw ang mag-iingat ng file na iyong ida-download."
+      ],
+      [
+        "Muling pag-download",
+        "Hanggang limang beses sa parehong order. Wala kaming kopya, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
+      ],
+      [
+        "Pag-withdraw",
+        "Buong refund bago magsimula ang pag-download. Matapos itong makumpleto, ang pag-withdraw para sa pagbabago ng isip ay limitado (Art. 17(2), Batas sa E-Commerce ng Korea)."
+      ],
+      [
+        "Mga gastos sa pagbabalik",
+        "Wala — digital na nilalaman, walang ipinapadala."
+      ]
+    ],
+    "refundContact": "Para sa mga refund o katanungan, makipag-ugnayan sa customer center o sa email sa ibaba. Kung ang dokumento ay hindi maiproduce, o ang halagang sinisingil ay naiiba mula sa order, ibabalik namin ang buong halaga.",
+    "pdfLanguageNotice": "Ang PDF ay ginawa sa parehong wika ng screen na ito."
+  },
+  "fallbackReport": {
+    "summary": "Isang {dayMaster} na araw na isinilang sa enerhiya ng {season}. Sa buong tsart, ang {strongest} ay pinakamakapal at ang {scarcest} ay pinakamahinang daloy. Lahat ng nasa ibaba ay nagmumula sa walong karakter na iyon — bawat numero at bawat haligi dito ay kinakalkula, hindi pinili.",
+    "personality": "Ang iyong araw na master ay {dayMaster} — enerhiya ng {element} — at ang tsart na ito ay nagbabasa bilang {strengthName}. Aling panig ang mas makapal, kung ano ang sumusuporta sa araw na master o kung ano ang kumukuha mula dito, ay siyang humuhubog sa butil, at sa pang-araw-araw na buhay, ito ay lumalabas na ganito.",
+    "cautions": {
+      "STRONG": [
+        "Sinasanay mong itulak ng husto kaya madalas mong napapansin ang pagkiling lamang pagkatapos itong mangyari.",
+        "Kahit na may tulong na magagamit, nagtatapos ka sa paghawak nito nang mag-isa, na nagpapalaki sa trabaho.",
+        "Nagsasaayos ang mga bagay kapag nag-iwan ka ng puwang para sa anumang kumukuha ng labis."
+      ],
+      "BALANCED": [
+        "Walang nag-uudyok sa iyo sa alinmang panig, kaya ang ipinagpaliban na desisyon ay nananatiling ipinagpaliban.",
+        "Magaling kang umangkop sa sitwasyon, na maaaring magdulot ng pagkalabo kung nasaan ang iyong sariling linya.",
+        "Ang pag-ikot patungo sa anumang kasalukuyang pinakamahinang daloy ay nagbibigay sa iyo ng direksyon na dapat hawakan."
+      ],
+      "WEAK": [
+        "Ang paghawak nang mag-isa ay nagpapagod sa iyo nang mas maaga kaysa sa inaasahan mo.",
+        "Walang anuman sa likod mo, ang mga desisyon ay dumudulas at ang pagkakataon ay lumilipas.",
+        "Ang pagpapanatili ng mga sumusuportang tao sa malapit ay hindi kahinaan sa tsart na ito — ito ay ang pamamaraan."
+      ]
+    },
+    "scarcityCaution": "Ang pinakamahinang elemento sa ngayon ay {scarcest}. Anuman ang pinamamahalaan ng elementong iyon ay kung saan ka pinakamabagal kumilos.",
+    "elementBalance": "Sa lakas, ang {strongest} ang nangunguna sa {strongestPct}% at ang {scarcest} ay nahuhuli sa {scarcestPct}%. Ang iyong buwan ng kapanganakan ay nasa {season}, na nagtutulak sa elementong iyon pataas muli — ang parehong dami ay may iba't ibang puwersa depende sa kung ang panahon ay sumusuporta dito. Ang kailangan mo ngayon ay {favorable}, at ang mga bagay ay nagiging madali kung ang elementong iyon ay napupuno.",
+    "todayHeadline": "Ngayon ay {grade}",
+    "todayMessage": "Ang marka ngayon ay {score}, na may grado na {gradeName}. {gradeBody} Ang day pillar ay {pillar}, at ang pinakamalaking salik sa markang iyon ay ang “{topFactor}”.",
+    "todayAdvice": {
+      "HIGH": "Magandang araw upang kunin ang mensahe o ang pag-aayos na iyong ipinagpaliban — mas mabuti na huwag subukang tapusin ang lahat ngayon.",
+      "MID": "Gawin mo ang karaniwan mong ginagawa at makakakuha ka ng karaniwan mong nakukuha. Sa halip na magsimula ng bago, ilipat ang isang bagay na nasa kamay na isang hakbang pasulong.",
+      "LOW": "Ang ilan sa araw na ito ay laban sa tsart. Mas mabuting gugulin ang oras sa pagtatapos at pagsusuri kaysa sa pagsisimula."
+    },
+    "luckyNote": "Ang masuwerteng elemento ngayon ay {element}. Ang hanay ng {colors}, ang bahagi ng {direction}, at ang mga oras sa paligid ng {time} ay kung saan ang enerhiyang iyon ay pinakamakapal.",
+    "domains": {
+      "wealth": "Ang pera ay nagbabasa ng {score} ngayon. Ang halagang ito ay gumagalaw kung ang enerhiya ngayon ay umaabot sa mga bituin ng kayamanan (財星) — kung ano ang iyong hinahawakan at kung ano ang iyong kinokolekta.",
+      "love": "Ang pagmamahal ay nagbabasa ng {score} ngayon. Ang halagang ito ay tinutukoy kung paano nakikita ng sangay ngayon ang iyong day branch (日支), ang palasyo ng asawa — ang pagkakasundo ay nagpapataas nito, ang salungatan ay nagpapababa.",
+      "career": "Ang trabaho ay nagbabasa ng {score} ngayon. Ang halagang ito ay gumagalaw kung ang enerhiya ngayon ay umaabot sa mga bituin ng opisyal (官星) at output (食傷) — kung ano ang iyong tinatanggap at kung ano ang iyong inilalabas.",
+      "health": "Ang kalusugan ay nagbabasa ng {score} ngayon. Ang halagang ito ay tinutukoy kung gaano karaming mga natal branches mo ang sumasalungat sa araw na ito, at kung ang elementong ngayon ay isa na kailangan mo."
+    },
+    "yearOutlook": "Ang pillar ng taong ito ay {pillar}, na may dalang {element}. {relation} Ang pagbasa na ito ay tumitingin lamang sa kung paano nakikita ng pillar ng taon ang kung ano ang kailangan mo ngayon; hindi nito hinahati ang taon buwan-buwan.",
+    "yearRelations": {
+      "YONGSIN": "Dumarating nang direkta ang elementong kailangan mo sa taong ito. Tamang panahon upang ilabas ang mga bagay na iyong itinabi.",
+      "GENERATES": "Pinapagana ng taong ito ang elementong kailangan mo, kaya ang kasalukuyan ay nagiging mas banayad — hindi agad, kundi unti-unti.",
+      "GISIN": "Minsan pang pinipilit ng taong ito ang direksyong iyong pinapuntahan. Mas mabuting tapusin ang mga bagay na nasa kamay kaysa magsimula ng bago.",
+      "CONTROLS": "May isang bagay sa taong ito na humihimok sa elementong kailangan mo, kaya ang mga desisyon ay dumarating nang mabagal. Ang pagtatakda ng sariling mga deadline ay nakakatulong.",
+      "NEUTRAL": "Sa taong ito, hindi ito sumasalungat o nagpapagana sa iyong kailangan. Ang pagpapanatili ng iyong kasalukuyang posisyon ang mas magandang kalakalan."
+    },
+    "disclaimer": "Tradisyunal na sanggunian ng myeongri, hindi isang siyentipikong prediksyon o pahayag tungkol sa kung ano ang dapat mangyari."
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Mga Tuntunin",
+    "refund": "Refund",
+    "pricing": "Presyo",
+    "legalEntity": "Kompanya",
+    "representative": "Kinatawan",
+    "businessNumber": "Rehistro",
+    "mailOrderNumber": "Online commerce",
+    "address": "Address",
+    "customerCenter": "Serbisyo sa kostumer",
+    "email": "Email",
+    "privacyOfficer": "Privacy officer",
+    "hostingProvider": "Hosting",
+    "providedBy": "Provided by",
+    "effective": "Bisa mula",
+    "backHome": "Bumalik sa simula"
+  },
+  "animals": {
+    "rat": "Daga",
+    "ox": "Baka",
+    "tiger": "Tigre",
+    "rabbit": "Kuneho",
+    "dragon": "Dragon",
+    "snake": "Ahas",
+    "horse": "Kabayo",
+    "goat": "Kambing",
+    "monkey": "Unggoy",
+    "rooster": "Tandang",
+    "dog": "Aso",
+    "pig": "Baboy"
+  },
+  "elements": {
+    "WOOD": "Kahoy",
+    "FIRE": "Apoy",
+    "EARTH": "Lupa",
+    "METAL": "Metal",
+    "WATER": "Tubig"
+  }
+};

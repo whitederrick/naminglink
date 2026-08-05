@@ -11,9 +11,27 @@
 // (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
 // 순환이 생기지 않는다.)
 import type { LuckyColor, LuckyDirection } from "@/lib/engines/today-fortune";
+import { ar } from "@/lib/i18n-locales/ar";
+import { de } from "@/lib/i18n-locales/de";
 import { es } from "@/lib/i18n-locales/es";
+import { fil } from "@/lib/i18n-locales/fil";
+import { fr } from "@/lib/i18n-locales/fr";
+import { hi } from "@/lib/i18n-locales/hi";
+import { id } from "@/lib/i18n-locales/id";
+import { it } from "@/lib/i18n-locales/it";
 import { ja } from "@/lib/i18n-locales/ja";
+import { kk } from "@/lib/i18n-locales/kk";
+import { km } from "@/lib/i18n-locales/km";
+import { mn } from "@/lib/i18n-locales/mn";
+import { ms } from "@/lib/i18n-locales/ms";
+import { pl } from "@/lib/i18n-locales/pl";
+import { pt } from "@/lib/i18n-locales/pt";
+import { ru } from "@/lib/i18n-locales/ru";
+import { th } from "@/lib/i18n-locales/th";
+import { tr } from "@/lib/i18n-locales/tr";
+import { uz } from "@/lib/i18n-locales/uz";
 import { vi } from "@/lib/i18n-locales/vi";
+import { zh } from "@/lib/i18n-locales/zh";
 import { localeCodes } from "@/lib/locale-codes";
 
 // 목록 자체는 `lib/locale-codes.ts`에 있다. 미들웨어가 이 파일(23개 사전을 전부 끌어온다)을
@@ -1528,8 +1546,26 @@ const dictionaries: Partial<Record<Locale, Dictionary>> = {
   ko,
   en,
   ja,
-  vi,
+  zh,
+  de,
   es,
+  fr,
+  it,
+  pt,
+  vi,
+  th,
+  id,
+  ru,
+  ar,
+  fil,
+  uz,
+  mn,
+  hi,
+  tr,
+  km,
+  ms,
+  kk,
+  pl,
 };
 
 export function getDictionary(locale: Locale): Dictionary {

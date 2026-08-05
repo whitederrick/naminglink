@@ -90,6 +90,46 @@ function collect(node: unknown, mirror: unknown, trail: string[], out: Leaf[]) {
 const leaves: Leaf[] = [];
 collect(en, ko, [], leaves);
 
+/**
+ * **인연링크에서 이미 번역된 자리는 가져다 쓴다.**
+ *
+ * 사주링크는 인연링크 복제라 사전 구조가 같고, **en 원문이 글자까지 같은 잎이 절반**이다
+ * (403개 중 204개) — 오행·띠·일간·십신 이름, footer 16개, 언어 선택기, 폼 라벨 따위다.
+ * 그쪽은 23개 언어로 이미 번역돼 검수까지 끝났다.
+ *
+ * 그걸 다시 번역시키면 호출이 두 배가 되어 한도에 부딪히고(`id` 로케일이 그렇게 통째로
+ * 영어로 남았다), 맞는 문구를 모델이 다시 지어내며, 짧은 문구는 응답이 비어 손으로 베끼게
+ * 된다. 실제로 세 번 반복했다.
+ *
+ * **en이 같을 때만 가져온다.** 사주용으로 문구가 바뀐 자리(65개)와 새로 생긴 자리(134개)는
+ * 그쪽 번역이 다른 말을 하므로 가져오면 안 된다.
+ *
+ * 원본은 `apps/inyeonlink/scripts/export-dictionaries.ts`가 만든다. 없으면 그냥 전부 번역한다.
+ */
+function loadInherited(): Map<string, string> {
+  const inherited = new Map<string, string>();
+  const file = path.join(process.cwd(), "tmp", "inyeon-dictionaries.json");
+  if (!existsSync(file)) {
+    console.log("  (인연링크 사전 덤프가 없어 전부 번역합니다 — export-dictionaries.ts 참고)");
+    return inherited;
+  }
+  const dumped = JSON.parse(readFileSync(file, "utf8")) as Record<string, Record<string, string>>;
+  const theirEn = dumped.en ?? {};
+  const theirs = dumped[locale];
+  if (!theirs) {
+    console.log(`  (인연링크에 ${locale} 사전이 없어 전부 번역합니다)`);
+    return inherited;
+  }
+  for (const leaf of leaves) {
+    if (theirEn[leaf.path] === leaf.en && theirs[leaf.path]) {
+      inherited.set(leaf.path, theirs[leaf.path]);
+    }
+  }
+  return inherited;
+}
+
+const inherited = loadInherited();
+
 const topLevel = [...new Set(leaves.map((leaf) => leaf.path.split(".")[0]!))].filter(
   (section) => !only || only.has(section),
 );
@@ -111,9 +151,12 @@ const sections = [
 ];
 
 function itemsOf(section: string) {
-  return section === SHORT_BATCH
-    ? leaves.filter((leaf) => shortSections.includes(leaf.path.split(".")[0]!))
-    : leaves.filter((leaf) => leaf.path.split(".")[0] === section);
+  const all =
+    section === SHORT_BATCH
+      ? leaves.filter((leaf) => shortSections.includes(leaf.path.split(".")[0]!))
+      : leaves.filter((leaf) => leaf.path.split(".")[0] === section);
+  // 물려받은 자리는 모델에게 보내지 않는다.
+  return all.filter((leaf) => !inherited.has(leaf.path));
 }
 
 const placeholders = (value: string) => (value.match(/\{[a-zA-Z]+\}/g) ?? []).sort().join(",");
@@ -141,24 +184,85 @@ async function translateSection(section: string, items: Leaf[]) {
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime.",
             "CRITICAL: keep **bold** markers on the same phrase, and keep the same number of ** markers. If the English has no ** at all, your translation must have none either — do not add emphasis of your own.",
             "CRITICAL: keep newline characters (\\n) where they appear — the layout depends on them.",
+            // 크메르어에서 "A4 7장"을 "A4 ៧ទំព័រ"로 바꿔 써, 고시 장수를 세는 검사기가 숫자를
+            // 못 찾았다. 장수·가격은 기계가 대조하는 값이라 아라비아 숫자로 두어야 한다.
+            "CRITICAL: keep every digit in Arabic numerals (0-9) exactly as in the English. Never convert numbers to another numeral system.",
             "This service is about KOREAN saju. It is NOT about compatibility between two people, and it is not a matchmaking service — never introduce words meaning 'compatibility', 'match rate', or 'the two of you'.",
             // 입력이 `{path: {en, ko}}`라 그 모양을 되비추기 쉽다. 값은 문자열이어야 한다고
             // 못 박는다(그래도 객체로 오면 `lookup`이 안쪽에서 꺼낸다).
-            "Return a flat JSON object with exactly the same keys. Each VALUE must be a plain string — the translation itself — never an object and never an echo of the input.",
+            // 출력 키를 입력과 다르게 둔다 — 입력을 복사해 보내면 `translations`가 없어 곧바로 걸린다.
+            // `response_format: json_object`를 쓰려면 프롬프트에 "json"이라는 낱말이 있어야
+            // 한다(없으면 API가 400을 낸다). 문장을 고칠 때 이 낱말을 지우지 말 것.
+            'Reply with JSON shaped {"translations": { "<key>": "<translated string>" }} — the same keys as `source`, and every value a plain translated string. Never copy `source` or `koreanReference` back.',
           ].join(" "),
         },
         {
           role: "user",
-          content: JSON.stringify(
-            Object.fromEntries(items.map((leaf) => [leaf.path, { en: leaf.en, ko: leaf.ko }])),
-          ),
+          // **입력을 객체로 주지 않는다.** `{path: {en, ko}}`로 주었더니 모델이 그 모양을
+          // 그대로 되돌려주는 일이 잦았고, 긴 절에서는 **번역을 아예 하지 않고 입력만 복사**해
+          // 보냈다(id의 fallbackReport 30개가 그랬다). 값을 문자열로 주고 원문은 따로 붙인다.
+          content: JSON.stringify({
+            source: Object.fromEntries(items.map((leaf) => [leaf.path, leaf.en])),
+            koreanReference: Object.fromEntries(items.map((leaf) => [leaf.path, leaf.ko])),
+          }),
         },
       ],
     }),
   });
-  if (!response.ok) throw new Error(`${section}: HTTP ${response.status}`);
+  if (!response.ok) {
+    // 본문을 읽어 붙인다. 상태 코드만으로는 무엇이 잘못됐는지 알 수 없다.
+    const detail = await response.text().catch(() => "");
+    throw new Error(`${section}: HTTP ${response.status} ${detail.slice(0, 300)}`);
+  }
   const raw = (await response.json()).choices[0].message.content as string;
-  return JSON.parse(raw) as Record<string, unknown>;
+  // 잎이 통째로 en으로 떨어질 때 원인은 대개 **응답의 모양**이다. 추측하지 않고 볼 수 있게
+  // 해 둔다: `DEBUG_TRANSLATE=1`을 주면 받은 그대로를 찍는다.
+  if (process.env.DEBUG_TRANSLATE) {
+    console.log(`\n--- ${section} 원본 응답 ---\n${raw.slice(0, 1200)}\n---`);
+  }
+  const parsed = JSON.parse(raw) as Record<string, unknown>;
+  // 지시대로면 `translations` 안에 있다. 예전 모양으로 와도 받아 준다.
+  const inner = parsed.translations;
+  return (inner && typeof inner === "object" ? inner : parsed) as Record<string, unknown>;
+}
+
+/**
+ * 한 번에 보내는 항목 수.
+ *
+ * 절 하나가 서른 개를 넘어가면 모델이 번역을 포기하고 입력을 복사해 보내거나 응답이 잘린다.
+ * 나눠 보내면 그 일이 없고, 실패해도 잃는 범위가 작다.
+ */
+// 문자 체계에 따라 같은 항목 수라도 응답 길이가 크게 다르다 — 크메르어에서 12개를 보냈다가
+// 응답이 잘려 JSON이 깨졌다(`km`의 `form`). 그럴 때 `CHUNK=4`로 낮춰 다시 돌린다.
+const CHUNK = Number(process.env.CHUNK) || 12;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/**
+ * **막히면 기다렸다 다시 부른다.**
+ *
+ * 로케일을 줄줄이 돌리면 한 번에 수백 번을 부르게 되고, 그러다 429가 나면 그 절은 통째로
+ * en으로 떨어진다 — 실제로 `id`에서 141개가 영어로 남았다. 파일은 멀쩡히 쓰이므로 **눈으로는
+ * 성공처럼 보인다**(검사기의 "en과 완전히 동일" 경고가 아니었으면 못 봤다).
+ *
+ * 세 번까지, 기다리는 시간을 늘려 가며 다시 부른다.
+ */
+async function translateWithBackoff(section: string, items: Leaf[]) {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      return await translateSection(section, items);
+    } catch (error) {
+      lastError = error;
+      const message = (error as Error).message;
+      // 형식 오류는 기다린다고 나아지지 않는다. 통신·한도 문제일 때만 다시 부른다.
+      if (!/HTTP (429|5\d\d)/.test(message) && !/fetch|network|ECONN/i.test(message)) throw error;
+      const wait = attempt * 5000;
+      console.log(`      (${section} ${message} — ${wait / 1000}초 뒤 다시)`);
+      await sleep(wait);
+    }
+  }
+  throw lastError;
 }
 
 /**
@@ -169,7 +273,8 @@ async function translateSection(section: string, items: Leaf[]) {
  * (`{"today": {"title": "..."}}`). 한 쪽만 읽으면 멀쩡한 번역이 통째로 버려지고 en이 남는다
  * (실제로 388개 중 대부분이 그렇게 떨어졌다). 둘 다 받는다.
  */
-function lookup(got: Record<string, unknown>, path: string): unknown {
+function lookup(got: Record<string, unknown>, leaf: Leaf): unknown {
+  const path = leaf.path;
   let node: unknown;
   if (path in got) {
     node = got[path];
@@ -209,11 +314,14 @@ function normalize(value: string, base: string): string {
 /** 자리표시자·강조가 어긋난 잎만 골라 낸다. 통째로 다시 부르지 않고 그것만 고친다. */
 function badLeaves(items: Leaf[], got: Record<string, unknown>) {
   return items.filter((leaf) => {
-    const raw = lookup(got, leaf.path);
+    const raw = lookup(got, leaf);
     if (typeof raw !== "string" || !raw.trim()) return true;
     const value = normalize(raw, leaf.en);
     if (placeholders(value) !== placeholders(leaf.en)) return true;
     if (boldCount(value) !== boldCount(leaf.en)) return true;
+    // **en을 그대로 돌려준 것은 번역이 아니다.** 짧은 낱말은 우연히 같을 수 있으니 긴 문장만
+    // 본다(`verify-i18n`이 경고로 잡는 것과 같은 기준). 걸리면 한 번 더 부른다.
+    if (value === leaf.en && leaf.en.length > 20) return true;
     return false;
   });
 }
@@ -249,11 +357,26 @@ function seedFromExistingFile() {
 // tsx가 이 스크립트를 CJS로 돌려 최상위 await를 쓸 수 없다(verify-i18n과 같은 이유).
 async function main() {
   seedFromExistingFile();
+  // 물려받은 값을 먼저 깐다. `rebuild`가 여기 없는 잎만 en으로 되돌리므로 순서가 중요하다.
+  for (const [key, value] of inherited) translated[key] = value;
+  const toTranslate = sections.reduce((sum, section) => sum + itemsOf(section).length, 0);
+  console.log(
+    `  인연링크에서 물려받음 ${inherited.size}개 · 새로 번역 ${toTranslate}개 (전체 ${leaves.length}개)`,
+  );
 for (const section of sections) {
   const items = itemsOf(section);
+  // 절이 통째로 물려받은 것이면 부를 이유가 없다.
+  if (items.length === 0) {
+    console.log(`    ${section} — 전부 물려받음`);
+    continue;
+  }
   let got: Record<string, unknown> = {};
   try {
-    got = await translateSection(section, items);
+    // 나눠 보낸다. 한 덩이가 실패해도 나머지는 살아남는다.
+    for (let at = 0; at < items.length; at += CHUNK) {
+      const chunk = items.slice(at, at + CHUNK);
+      got = { ...got, ...(await translateWithBackoff(section, chunk)) };
+    }
   } catch (error) {
     console.error(`FAIL ${section} — ${(error as Error).message}`);
     process.exitCode = 1;
@@ -264,7 +387,7 @@ for (const section of sections) {
   if (bad.length) {
     // 한 번만 다시 부른다. 그래도 어긋나면 en을 그대로 두고 표시한다 — 자리표시자가 깨진
     // 문자열을 넣느니 영어가 낫다(화면은 뜨고, 검사기가 "en과 동일"로 경고해 준다).
-    const retry = await translateSection(section, bad);
+    const retry = await translateWithBackoff(section, bad);
     got = { ...got, ...retry };
     bad = badLeaves(items, got);
   }
@@ -274,7 +397,7 @@ for (const section of sections) {
   // 로그에는 "en 유지"라고 찍으면서 실제로는 유지하지 않았다 — 로그와 동작이 갈린 자리다.
   const stillBad = new Set(bad.map((leaf) => leaf.path));
   for (const leaf of items) {
-    const raw = lookup(got, leaf.path);
+    const raw = lookup(got, leaf);
     const usable = typeof raw === "string" && raw.trim() && !stillBad.has(leaf.path);
     translated[leaf.path] = usable ? normalize(raw as string, leaf.en) : leaf.en;
   }
@@ -283,7 +406,7 @@ for (const section of sections) {
   );
   // **어느 잎이 남았는지 찍는다.** 개수만 알면 어디를 손봐야 할지 모른다.
   for (const leaf of bad) {
-    const value = lookup(got, leaf.path);
+    const value = lookup(got, leaf);
     console.log(
       `      · ${leaf.path} — ${
         typeof value !== "string"
