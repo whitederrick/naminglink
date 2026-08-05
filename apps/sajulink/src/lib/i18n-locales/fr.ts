@@ -395,6 +395,7 @@ export const fr: Dictionary = {
     "tenGodColumn": "Dix dieux",
     "meaningColumn": "Ce que cela signifie",
     "yearOutlookTitle": "Perspectives de cette année",
+    "domainsTitle": "Quatre domaines de la vie",
     "factorsTitle": "D'où provient le score d'aujourd'hui",
     "factorsHint": "L'écran nomme les facteurs ; ici, chacun est imprimé avec les points qu'il a ajoutés ou retirés.",
     "deltaColumn": "Points",
@@ -549,10 +550,10 @@ export const fr: Dictionary = {
     },
     "luckyNote": "L'élément chanceux d'aujourd'hui est {element}. La gamme {colors}, le côté {direction}, et les heures autour de {time} sont où cette énergie est la plus forte.",
     "domains": {
-      "wealth": "L'argent se lit à {score} aujourd'hui. Cette valeur varie selon que l'énergie d'aujourd'hui atteint les étoiles de richesse (財星) — ce que vous manipulez et ce que vous rassemblez.",
-      "love": "L'affection se lit à {score} aujourd'hui. Cette valeur est déterminée par la façon dont la branche d'aujourd'hui rencontre votre branche du jour (日支), le palais du conjoint — l'harmonie l'élève, un conflit la tire vers le bas.",
-      "career": "Le travail se lit à {score} aujourd'hui. Cette valeur varie selon que l'énergie d'aujourd'hui atteint les étoiles de l'officier (官星) et de la production (食傷) — ce que vous prenez en charge et ce que vous produisez.",
-      "health": "La santé se lit à {score} aujourd'hui. Cette valeur est déterminée par le nombre de vos branches natales qui s'opposent aujourd'hui, et par le fait que l'élément d'aujourd'hui est celui dont vous avez besoin."
+      "wealth": "Lisez à partir du natal chart, l'argent vient à {score}. Cela pèse ce que vous gagnez avec la force de le porter.",
+      "love": "Lisez à partir du natal chart, l'affection vient à {score}. Cela pèse l'étoile du conjoint avec la forme du siège dans lequel elle se trouve.",
+      "career": "Lisez à partir du natal chart, le travail vient à {score}. Cela pèse ce que vous prenez avec ce que vous mettez en avant.",
+      "health": "Lisez à partir du natal chart, la santé vient à {score}. Cela pèse l'équilibre avec lequel vous êtes né avec ce qui entre en conflit à l'intérieur."
     },
     "yearOutlook": "Le pilier de cette année est {pillar}, portant {element}. {relation} Cette lecture ne considère que la façon dont le pilier de l'année rencontre ce dont vous avez besoin maintenant ; elle ne décompose pas l'année mois par mois.",
     "yearRelations": {

@@ -189,7 +189,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderBottomWidth: 1,
     borderBottomColor: PALETTE.line,
-    paddingVertical: 5,
+    // 5에서 내렸다. 심화 장(표 둘 + 각주 넷)이 필리핀어에서 한 줄 모자라 왕상휴수사 범례를
+    // 다음 장으로 넘겼고, 그 장은 **범례 두 줄만 있는 장**이었다 — 프리미엄이 8장으로 나갔다.
+    // 여덟 행이 걸려 있어 이 1pt가 16pt를 돌려준다.
+    paddingVertical: 4,
   },
   th: { fontSize: 8, color: PALETTE.navy },
   td: { fontSize: 9 },
@@ -779,9 +782,9 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* ── 5장 삶의 네 영역 ── */}
+      {/* ── 5장 삶의 네 영역 — **원국 기준이다.** 바로 앞 장(오늘의 운세)의 계속이 아니다. ── */}
       <Page size="A4" style={pageStyle}>
-        <BrandRow dictionary={dictionary} title={t.title} />
+        <BrandRow dictionary={dictionary} title={d.domainsTitle} />
 
         {/* 카드마다 제목을 붙이되 통째로 묶지 않는다 — 해설 길이가 로케일마다 다르다. */}
         <View style={{ marginTop: 14 }}>

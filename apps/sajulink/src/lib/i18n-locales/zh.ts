@@ -395,6 +395,7 @@ export const zh: Dictionary = {
     "tenGodColumn": "十神",
     "meaningColumn": "它的意义",
     "yearOutlookTitle": "今年的运势",
+    "domainsTitle": "生活的四个领域",
     "factorsTitle": "今天的分数来源",
     "factorsHint": "屏幕显示因素名称；这里每个因素都列出了它增加或减少的分数。",
     "deltaColumn": "分数",
@@ -549,10 +550,10 @@ export const zh: Dictionary = {
     },
     "luckyNote": "今天的幸运元素是 {element}。{colors} 系列、{direction} 方向，以及 {time} 附近的时间是该能量最强的地方。",
     "domains": {
-      "wealth": "今天的财富运势为 {score}。这个值随着今天的能量是否达到财富星（财星）而变化 — 这是你所处理和收集的。",
-      "love": "今天的爱情运势为 {score}。这个值由今天的地支与日支（日支）之间的关系决定 — 和谐会提升它，冲突会拉低它。",
-      "career": "今天的职业运势为 {score}。这个值随着今天的能量是否达到官星（官星）和食伤（食伤）而变化 — 这是你所承担和所付出的。",
-      "health": "今天的健康运势为 {score}。这个值由你原命的地支与今天的地支之间的冲突数量，以及今天的元素是否是你需要的元素决定。"
+      "wealth": "从命盘中读取，财富得分为 {score}。它权衡了赚取的地方与承载它的力量。",
+      "love": "从命盘中读取，爱情得分为 {score}。它权衡了配偶星与其所处位置的形状。",
+      "career": "从命盘中读取，职业得分为 {score}。它权衡了你承担的责任与你付出的努力。",
+      "health": "从命盘中读取，健康得分为 {score}。它权衡了你天生的平衡与内部的冲突。"
     },
     "yearOutlook": "今年的柱是 {pillar}，承载着 {element}。{relation} 这个解读仅关注今年的柱与你现在所需的关系；并未逐月分析今年的情况。",
     "yearRelations": {

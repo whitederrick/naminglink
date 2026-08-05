@@ -395,6 +395,7 @@ export const id: Dictionary = {
     "tenGodColumn": "Sepuluh dewa",
     "meaningColumn": "Apa artinya",
     "yearOutlookTitle": "Ramalan tahun ini",
+    "domainsTitle": "Empat area kehidupan",
     "factorsTitle": "Dari mana skor hari ini berasal",
     "factorsHint": "Layar menyebutkan faktor-faktor; di sini masing-masing dicetak dengan poin yang ditambahkan atau dikurangi.",
     "deltaColumn": "Poin",
@@ -549,10 +550,10 @@ export const id: Dictionary = {
     },
     "luckyNote": "Elemen keberuntungan hari ini adalah {element}. Rentang {colors}, sisi {direction}, dan jam sekitar {time} adalah tempat energi itu paling kuat.",
     "domains": {
-      "wealth": "Uang terbaca {score} hari ini. Nilai ini bergerak dengan apakah energi hari ini mencapai bintang kekayaan (財星) — apa yang Anda tangani dan apa yang Anda kumpulkan.",
-      "love": "Kasih sayang terbaca {score} hari ini. Nilai ini ditentukan oleh bagaimana cabang hari ini bertemu dengan cabang hari Anda (日支), istana pasangan — harmoni mengangkatnya, bentrokan menariknya turun.",
-      "career": "Pekerjaan terbaca {score} hari ini. Nilai ini bergerak dengan apakah energi hari ini mencapai bintang pejabat (官星) dan output (食傷) — apa yang Anda ambil dan apa yang Anda keluarkan.",
-      "health": "Kesehatan terbaca {score} hari ini. Nilai ini ditentukan oleh berapa banyak cabang kelahiran Anda hari ini bertentangan, dan apakah elemen hari ini adalah salah satu yang Anda butuhkan."
+      "wealth": "Baca dari bagan natal, uang datang ke {score}. Ini mempertimbangkan apa yang diperoleh bersama dengan kekuatan untuk menanggungnya.",
+      "love": "Baca dari bagan natal, kasih sayang datang ke {score}. Ini mempertimbangkan bintang pasangan bersama dengan bentuk tempatnya.",
+      "career": "Baca dari bagan natal, pekerjaan datang ke {score}. Ini mempertimbangkan apa yang Anda ambil bersama dengan apa yang Anda keluarkan.",
+      "health": "Baca dari bagan natal, kesehatan datang ke {score}. Ini mempertimbangkan keseimbangan yang Anda lahirkan bersama dengan apa yang bertabrakan di dalamnya."
     },
     "yearOutlook": "Pilar tahun ini adalah {pillar}, membawa {element}. {relation} Pembacaan ini hanya melihat bagaimana pilar tahun ini bertemu dengan apa yang Anda butuhkan sekarang; tidak membagi tahun ini bulan per bulan.",
     "yearRelations": {

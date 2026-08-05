@@ -395,6 +395,7 @@ export const tr: Dictionary = {
     "tenGodColumn": "On Tanrı",
     "meaningColumn": "Ne anlama geliyor",
     "yearOutlookTitle": "Bu yılın görünümü",
+    "domainsTitle": "Hayatın Dört Alanı",
     "factorsTitle": "Bugünkü puanın kaynağı",
     "factorsHint": "Ekran faktörlerin adını gösteriyor; burada her biri eklediği veya çıkardığı puanlarla birlikte yazılmıştır.",
     "deltaColumn": "Puanlar",
@@ -549,10 +550,10 @@ export const tr: Dictionary = {
     },
     "luckyNote": "Bugünün şanslı elementi {element}. {colors} aralığı, {direction} tarafı ve {time} civarı, bu enerjinin en yoğun olduğu yerlerdir.",
     "domains": {
-      "wealth": "Bugün para durumu {score}. Bu değer, bugünün enerjisinin zenginlik yıldızlarına (財星) ulaşıp ulaşmadığına göre değişir — neyi yönettiğiniz ve neyi topladığınız.",
-      "love": "Bugün sevgi durumu {score}. Bu değer, bugünün dalının sizin gün dalınız (日支) ile nasıl buluştuğuna bağlıdır, eş palace — uyum yükseltir, çatışma düşürür.",
-      "career": "Bugün iş durumu {score}. Bu değer, bugünün enerjisinin memur (官星) ve çıktı (食傷) yıldızlarına ulaşıp ulaşmadığına göre değişir — neyi üstlendiğiniz ve neyi ortaya koyduğunuz.",
-      "health": "Bugün sağlık durumu {score}. Bu değer, doğum haritanızdaki kaç dalın bugünkü ile çeliştiğine ve bugünün elementinin ihtiyaç duyduğunuz bir element olup olmadığına bağlıdır."
+      "wealth": "Doğum haritasından okunan zenginlik, {score} gelir. Kazanma yeri ile onu taşıma gücünü birlikte değerlendirir.",
+      "love": "Doğum haritasından okunan aşk, {score} gelir. Eş yıldızını ve oturduğu yerin şeklini birlikte değerlendirir.",
+      "career": "Doğum haritasından okunan kariyer, {score} gelir. Üstlendiğin yer ile sunduğun yeri birlikte değerlendirir.",
+      "health": "Doğum haritasından okunan sağlık, {score} gelir. Doğduğun denge ile içindeki çatışmaları birlikte değerlendirir."
     },
     "yearOutlook": "Bu yılın sütunu {pillar}, {element} taşıyor. {relation} Bu okuma, yalnızca yılın sütununun şu anda ihtiyaç duyduğunuz şeyle nasıl buluştuğuna bakıyor; yılı ay ay bölmüyor.",
     "yearRelations": {

@@ -395,6 +395,7 @@ export const uz: Dictionary = {
     "tenGodColumn": "O'n xudo",
     "meaningColumn": "Bu nima degani",
     "yearOutlookTitle": "Bu yilning ko'rinishi",
+    "domainsTitle": "Hayotning to'rt sohalari",
     "factorsTitle": "Bugungi ball qayerdan keladi",
     "factorsHint": "Ekranda omillar nomlari ko'rsatiladi; bu yerda har birining qo'shgan yoki olib tashlagan ballari chop etiladi.",
     "deltaColumn": "Ballar",
@@ -549,10 +550,10 @@ export const uz: Dictionary = {
     },
     "luckyNote": "Бугунги бахтли элемент {element}. {colors} диапазони, {direction} томон ва {time} атрофидаги соатларда бу энергия энг кўп жамланган.",
     "domains": {
-      "wealth": "Пул ўрни бугун {score} балл. Бу қиймат бугунги энергиянинг бойлик юлдузларига (財星) етиб боришига боғлиқ — сиз нима билан ишлайсиз ва нима йиғасиз.",
-      "love": "Sevgi {score} bugun. Bu qiymat bugungi shoxning sizning kun shoxingiz (日支) bilan qanday uchrashishi, turmush o‘rtog‘ingiz saroyi — uyg‘unlik uni oshiradi, to‘qnashuv esa pasaytiradi.",
-      "career": "Ish {score} bugun. Bu qiymat bugungi energiyaning ofitser (官星) va chiqish (食傷) yulduzlariga yetib borishiga qarab o‘zgaradi — siz qabul qilayotgan va chiqarayotgan narsalaringiz.",
-      "health": "Sog‘liq {score} bugun. Bu qiymat sizning natal shoxlaringizdan bugun qanchasi to‘qnashayotganiga va bugungi element sizga kerakli bo‘lishiga qarab belgilanadi."
+      "wealth": "Natal chartdan olingan ma'lumotlarga ko'ra, pul {score} ga keladi. Bu, uni ko'tarish kuchi bilan birga, topilgan narsalarni o'lchaydi.",
+      "love": "Natal chartdan olingan ma'lumotlarga ko'ra, mehr {score} ga keladi. Bu, turmush o'rtog'i yulduzi va uning o'tirgan joyining shaklini birga o'lchaydi.",
+      "career": "Natal chartdan olingan ma'lumotlarga ko'ra, ish {score} ga keladi. Bu, siz qabul qilgan narsalar va chiqaradigan narsalarni birga o'lchaydi.",
+      "health": "Natal chartdan olingan ma'lumotlarga ko'ra, salomatlik {score} ga keladi. Bu, siz tug'ilgan muvozanat va ichida to'qnashadigan narsalarni birga o'lchaydi."
     },
     "yearOutlook": "Bu yilning ustuni {pillar}, {element} ni olib yuradi. {relation} Ushbu o‘qish faqat yilning ustuni sizga hozir kerak bo‘lgan narsalar bilan qanday uchrashishini ko‘radi; yilni oyma-oyga bo‘lishmaydi.",
     "yearRelations": {

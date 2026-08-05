@@ -395,6 +395,7 @@ export const vi: Dictionary = {
     "tenGodColumn": "Mười thần",
     "meaningColumn": "Nó có nghĩa là gì",
     "yearOutlookTitle": "Triển vọng của năm nay",
+    "domainsTitle": "Bốn lĩnh vực của cuộc sống",
     "factorsTitle": "Điều gì tạo ra điểm số hôm nay",
     "factorsHint": "Màn hình chỉ tên các yếu tố; ở đây mỗi yếu tố được in với số điểm mà nó đã thêm hoặc trừ.",
     "deltaColumn": "Điểm",
@@ -549,10 +550,10 @@ export const vi: Dictionary = {
     },
     "luckyNote": "Yếu tố may mắn hôm nay là {element}. Phạm vi {colors}, phía {direction}, và những giờ xung quanh {time} là nơi năng lượng đó mạnh nhất.",
     "domains": {
-      "wealth": "Tiền bạc hôm nay ghi được {score}. Giá trị này thay đổi tùy thuộc vào việc năng lượng hôm nay có đến được các sao tài lộc (財星) hay không — những gì bạn xử lý và những gì bạn thu thập được.",
-      "love": "Tình cảm hôm nay ghi được {score}. Giá trị này được quyết định bởi cách nhánh hôm nay gặp nhánh ngày của bạn (日支), cung phu thê — hòa hợp làm tăng lên, xung đột kéo xuống.",
-      "career": "Công việc hôm nay ghi được {score}. Giá trị này thay đổi tùy thuộc vào việc năng lượng hôm nay có đến được sao quan (官星) và sao xuất (食傷) hay không — những gì bạn đảm nhận và những gì bạn đưa ra.",
-      "health": "Sức khỏe hôm nay ghi được {score}. Giá trị này được quyết định bởi số lượng nhánh sinh của bạn hôm nay xung đột với, và xem yếu tố hôm nay có phải là thứ bạn cần hay không."
+      "wealth": "Đọc từ bản đồ sinh, tiền bạc đến với {score}. Nó cân nhắc những gì kiếm được cùng với sức mạnh để mang nó.",
+      "love": "Đọc từ bản đồ sinh, tình cảm đến với {score}. Nó cân nhắc sao phu thê cùng với hình dáng của chỗ ngồi mà nó ngồi.",
+      "career": "Đọc từ bản đồ sinh, công việc đến với {score}. Nó cân nhắc những gì bạn đảm nhận cùng với những gì bạn đưa ra.",
+      "health": "Đọc từ bản đồ sinh, sức khỏe đến với {score}. Nó cân nhắc sự cân bằng bạn được sinh ra cùng với những gì va chạm bên trong."
     },
     "yearOutlook": "Cột của năm nay là {pillar}, mang theo {element}. {relation} Đọc này chỉ xem xét cách cột của năm gặp những gì bạn cần bây giờ; nó không phân tích năm theo từng tháng.",
     "yearRelations": {

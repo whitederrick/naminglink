@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 import { ENGINE_VERSION } from "@/lib/engines";
+import { natalOutlook } from "@/lib/engines/natal-outlook";
 import { prepare, toReading } from "@/lib/engines/prepare";
 import {
   todayFortune,
@@ -247,8 +248,16 @@ async function render(
 ) {
   // **계산을 여기서 다시 돌린다.** 화면이 보낸 결과를 그대로 싣지 않으므로, 이용자가 응답을
   // 손봐도 문서에는 서버가 규칙으로 계산한 값만 들어간다.
-  const reading = toReading(prepare(toPerson(parsed.input.me)));
+  const person = toPerson(parsed.input.me);
+  const reading = toReading(prepare(person));
   const today = todayFortune(reading, todayPillarOf(todayInSeoul(new Date())));
+  /**
+   * 원국 기준 삶의 네 영역. **여기서 한 번만 계산해 서술과 문서가 같은 값을 쓰게 한다.**
+   *
+   * 성별은 배우자성(남=재성, 여=관성)을 가르는 데만 쓰고, 밝히지 않았으면 그 항목을 빼고
+   * 계산한다 — 임의로 넣지 않는다(`natal-outlook.ts`).
+   */
+  const outlook = natalOutlook(reading, person.gender);
 
   /**
    * **AI 해설은 이 자리에서만 부른다 — 결제가 확인된 뒤다.**
@@ -263,6 +272,7 @@ async function render(
   const interpretation = await interpretSaju({
     reading,
     today,
+    outlook,
     kind: parsed.kind,
     locale,
   });

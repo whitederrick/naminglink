@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import OpenAI from "openai";
 
 import type { PersonReading } from "@/lib/engines";
+import type { NatalOutlook } from "@/lib/engines/natal-outlook";
 import {
   TODAY_FORTUNE_VERSION,
   yearPillarOf,
@@ -51,7 +52,17 @@ export type SajuInterpretation = {
   today: { headline: string; message: string; advice: string; lucky_note: string };
   strengths: string[];
   cautions: string[];
+  /** 삶의 네 영역. **원국 기준**이다(`natal-outlook.ts`) — 오늘 일진 점수가 아니다. */
   domains: { wealth: string; love: string; career: string; health: string };
+  /**
+   * 십신 심화 문단. 이 사람 원국에서 **두터운 둘과 아예 없는 둘**만 골라 최대 넷이다
+   * (`saju-narrative.ts`). 열 개를 다 싣지 않는 것은 그러면 누구에게나 같은 백과사전이
+   * 나가기 때문이고, 넷으로 못 박아 둔 것은 문단 수가 사람마다 달라지면 장수도 달라지기
+   * 때문이다.
+   */
+  ten_gods: string[];
+  /** 강약 판정에서 이어지는 "그래서 무엇이 필요한가" 한 문단. */
+  yongsin: string;
   year_outlook?: string;
   disclaimer: string;
 };
@@ -115,8 +126,17 @@ function text(value: unknown): string | null {
  * 된다. 프롬프트로 "짧게 쓰라"고 이르는 것은 부탁이지 보장이 아니다 — 보장은 여기서 만든다.
  *
  * 값은 넉넉하게 잡았다. 모델이 평소 내는 길이의 두 배쯤이라 정상 응답은 잘리지 않고, 비정상적
- * 으로 긴 응답만 걸린다. 상한을 고치면 `render-saju-sample.tsx`의 `long` 견본으로 장수를 다시
- * 확인할 것.
+ * 으로 긴 응답만 걸린다.
+ *
+ * **두 가지 일을 한다.** `summary`는 모델이 쓰므로 여기 값이 실제로 **자른다**(`clamp`).
+ * 나머지는 ②-1 뒤로 엔진이 쓰고, 그쪽은 자를 수 없다 — 문장 중간이 잘린 문서를 팔 수는 없다.
+ * 그러니 엔진 쪽 값은 **사전이 소리 없이 자라지 않게 하는 신호**다. `verify-report-
+ * determinism`이 로케일마다 이 선을 넘었는지 세고, 넘으면 문안을 줄이거나 상한을 올리고
+ * `render-saju-sample`로 장수를 다시 잰다.
+ *
+ * **글자 수는 지면이 아니다.** 라틴 문자 451자와 한글 451자는 지면에서 두 배 넘게 차이가 나서,
+ * 상한 하나가 스물세 언어에서 같은 넓이를 뜻하지 않는다. 지면을 정하는 것은 이 숫자가 아니라
+ * **로케일마다 실제 문안을 렌더해 장을 세는 것**이고, 그것이 `render-saju-sample`의 일이다.
  */
 export const LIMITS = {
   summary: 400,
@@ -130,13 +150,21 @@ export const LIMITS = {
   lineCount: 4,
   line: 140,
   /**
-   * 삶의 네 영역. **다른 필드보다 낮다.**
+   * 삶의 네 영역.
    *
-   * 넷이 한 장에 들어가고, 카드 하나하나가 `wrap={false}`라 지면에 다 못 들어가면 카드째
-   * 다음 장으로 밀린다 — 즉 이 장은 "넷을 합한 길이"가 아니라 **"넷 중 가장 긴 것 × 4"**가
-   * 들어갈 자리를 요구한다. 견본으로 재어 240자에서 넷이 한 장에 앉는다.
+   * 넷이 한 장에 들어가고 카드 하나하나가 `wrap={false}`라, 이 장은 "넷을 합한 길이"가 아니라
+   * **"넷 중 가장 긴 것 × 4"**가 들어갈 자리를 요구한다. 그래서 이 필드가 가장 예민하다.
+   *
+   * 사전이 실제로 내는 가장 긴 문단이 451자(fil)이고, 여기에 두 할쯤을 얹었다.
    */
-  domain: 240,
+  domain: 560,
+  /**
+   * 십신 심화 문단. **개수와 길이를 함께 묶는다** — 문단 수가 사람마다 달라지면 지면도
+   * 달라지므로, 넷(두터운 둘 + 없는 둘)이 천장이다(`saju-narrative.ts`의 `DEPTH_PICKS`).
+   */
+  tenGodCount: 4,
+  tenGodLine: 620,
+  yongsin: 620,
   yearOutlook: 500,
   disclaimer: 200,
 } as const;
@@ -235,12 +263,15 @@ async function requestInterpretation(
 export async function interpretSaju(input: {
   reading: PersonReading;
   today: TodayFortune;
+  /** 원국 기준 네 영역. 부르는 쪽이 `natalOutlook(reading, gender)`로 뽑아 넘긴다. */
+  outlook: NatalOutlook;
   kind: ReportKind;
   locale: Locale;
 }): Promise<SajuInterpretation> {
   const narrative = buildNarrative({
     reading: input.reading,
     today: input.today,
+    outlook: input.outlook,
     // 세운은 오늘 날짜에서 뽑는다. 일진과 같은 만세력 호출이고 계산 규칙은 그대로다.
     yearPillar: yearPillarOf(input.today.date),
     kind: input.kind,

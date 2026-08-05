@@ -395,6 +395,7 @@ export const fil: Dictionary = {
     "tenGodColumn": "Sampung diyos",
     "meaningColumn": "Ano ang ibig sabihin nito",
     "yearOutlookTitle": "Pangkalahatang pananaw para sa taong ito",
+    "domainsTitle": "Apat na larangan ng buhay",
     "factorsTitle": "Saan nagmula ang iskor ngayon",
     "factorsHint": "Ang screen ay nagpapakita ng mga salik; dito, bawat isa ay nakalista kasama ang mga puntos na idinagdag o inalis.",
     "deltaColumn": "Mga puntos",
@@ -549,10 +550,10 @@ export const fil: Dictionary = {
     },
     "luckyNote": "Ang masuwerteng elemento ng araw na ito ay {element}. Ang hanay ng {colors}, ang bahagi ng {direction}, at ang mga oras sa paligid ng {time} ay kung saan ang enerhiyang iyon ay pinakamabigat.",
     "domains": {
-      "wealth": "Ang pera ay may iskor na {score} ngayon. Ang halagang ito ay nagbabago kung ang enerhiya ng araw na ito ay umaabot sa mga bituin ng kayamanan (財星) — kung ano ang iyong hinahawakan at kung ano ang iyong kinokolekta.",
-      "love": "Ang pagmamahal ay may iskor na {score} ngayon. Ang halagang ito ay nakasalalay sa kung paano nakikita ng sanga ng araw na ito ang iyong day branch (日支), ang palasyo ng asawa — ang pagkakaisa ay nagpapataas nito, ang salungatan ay nagpapababa.",
-      "career": "Ang trabaho ay may iskor na {score} ngayon. Ang halagang ito ay nagbabago kung ang enerhiya ng araw na ito ay umaabot sa mga bituin ng opisyal (官星) at output (食傷) — kung ano ang iyong tinatanggap at kung ano ang iyong inilalabas.",
-      "health": "Ang kalusugan ay may iskor na {score} ngayon. Ang halagang ito ay nakasalalay sa kung gaano karaming mga sanga ng iyong kapanganakan ang sumasalungat sa araw na ito, at kung ang elementong ito ay isa na kailangan mo."
+      "wealth": "Mula sa natal chart, ang yaman ay umabot sa {score}. Sinusukat nito ang kinikita kasama ang lakas upang dalhin ito.",
+      "love": "Mula sa natal chart, ang pagmamahal ay umabot sa {score}. Sinusukat nito ang bituin ng asawa kasama ang hugis ng upuang kinaroroonan nito.",
+      "career": "Mula sa natal chart, ang trabaho ay umabot sa {score}. Sinusukat nito ang mga responsibilidad na tinatanggap mo kasama ang mga ibinibigay mo.",
+      "health": "Mula sa natal chart, ang kalusugan ay umabot sa {score}. Sinusukat nito ang balanse na dala mo mula sa kapanganakan kasama ang mga salungatan sa loob nito."
     },
     "yearOutlook": "Ang pillar ng taong ito ay {pillar}, na may dalang {element}. {relation} Ang pagbasa na ito ay tumitingin lamang sa kung paano nakikita ng pillar ng taon ang kung ano ang kailangan mo ngayon; hindi nito hinahati ang taon buwan-buwan.",
     "yearRelations": {

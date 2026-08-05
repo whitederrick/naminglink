@@ -395,6 +395,7 @@ export const pl: Dictionary = {
     "tenGodColumn": "Dziesięć bogów",
     "meaningColumn": "Co to oznacza",
     "yearOutlookTitle": "Prognoza na ten rok",
+    "domainsTitle": "Cztery obszary życia",
     "factorsTitle": "Skąd pochodzi dzisiejszy wynik",
     "factorsHint": "Ekran pokazuje nazwy czynników; tutaj każdy z nich jest wydrukowany z punktami, które dodał lub odjął.",
     "deltaColumn": "Punkty",
@@ -549,10 +550,10 @@ export const pl: Dictionary = {
     },
     "luckyNote": "Dziś szczęśliwym elementem jest {element}. Zakres {colors}, strona {direction} oraz godziny wokół {time} to miejsca, gdzie ta energia jest najgęstsza.",
     "domains": {
-      "wealth": "Finanse dzisiaj wynoszą {score}. Ta wartość zmienia się w zależności od tego, czy energia dzisiejszego dnia dociera do gwiazd bogactwa (財星) — tego, co obsługujesz i co zbierasz.",
-      "love": "Uczucia dzisiaj wynoszą {score}. Ta wartość zależy od tego, jak dzisiejsza gałąź spotyka się z twoją gałęzią dnia (日支), pałacem małżonka — harmonia ją podnosi, a konflikt obniża.",
-      "career": "Praca dzisiaj wynosi {score}. Ta wartość zmienia się w zależności od tego, czy energia dzisiejszego dnia dociera do gwiazd urzędników (官星) i produkcji (食傷) — tego, co podejmujesz i co wydajesz.",
-      "health": "Zdrowie dzisiaj wynosi {score}. Ta wartość zależy od tego, ile z twoich gałęzi urodzeniowych dzisiaj jest w konflikcie oraz od tego, czy dzisiejszy element jest tym, którego potrzebujesz."
+      "wealth": "Czytając z wykresu urodzeniowego, pieniądze przychodzą do {score}. Waży to, co zarabiasz, razem z siłą, by to unieść.",
+      "love": "Czytając z wykresu urodzeniowego, uczucia przychodzą do {score}. Waży to, co związane z gwiazdą małżonka, razem z kształtem miejsca, w którym się znajduje.",
+      "career": "Czytając z wykresu urodzeniowego, praca przychodzi do {score}. Waży to, co bierzesz na siebie, razem z tym, co dajesz.",
+      "health": "Czytając z wykresu urodzeniowego, zdrowie przychodzi do {score}. Waży to, co zrównoważone od urodzenia, razem z tym, co się z tym zderza."
     },
     "yearOutlook": "Filarem tego roku jest {pillar}, niosąc {element}. {relation} Ta analiza dotyczy tylko tego, jak filar roku spotyka się z tym, czego teraz potrzebujesz; nie rozbija roku na miesiące.",
     "yearRelations": {

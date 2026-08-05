@@ -343,6 +343,15 @@ export type Dictionary = {
      * `today.title`이 붙어 있어 올해 총운 문단 위에 「오늘의 운세」가 적혀 있었다.
      */
     yearOutlookTitle: string;
+    /**
+     * 삶의 네 영역 장의 머리줄(총운·프리미엄 둘 다).
+     *
+     * **바로 위와 같은 이유로 있는 키다.** 이 장에도 `today.title`이 붙어 있어, 원국에서 뽑은
+     * 평생 성향 넉 장 위에 「오늘의 운세」가 적혀 있었다 — 바로 앞 장이 진짜 오늘의 운세라
+     * 읽는 사람에게는 그 장의 계속으로 보인다. 점수의 출처를 원국으로 옮기고도(③) 제목이
+     * 그대로면 고친 것이 아니다.
+     */
+    domainsTitle: string;
     /** 오늘 점수의 근거 항목 표(프리미엄만) */
     factorsTitle: string;
     factorsHint: string;
@@ -403,13 +412,20 @@ export type Dictionary = {
     /** {element} {colors} {direction} {time} */
     luckyNote: string;
     /**
-     * 삶의 네 영역. {score}
+     * 삶의 네 영역 — **원국 기준이다.** {score}
      *
-     * **넷이 같은 문장이면 안 된다.** 네 점수는 종합 점수를 바닥으로 깔고 시작하므로 같은
-     * 구간에 함께 들어가는 일이 흔하다 — 점수대 문장("어긋나는 자리가…")을 여기에 붙였더니
-     * 한 장에서 같은 말이 네 번 나왔다. 그래서 이 자리에는 **영역마다 다른 것**, 곧 엔진이
-     * 그 점수를 어디에서 얻는지만 적는다(재물=재성, 애정=일지 관계, 직업=관성·식상,
-     * 건강=충의 수와 용신).
+     * 점수는 `natal-outlook.ts`가 여덟 글자에서 뽑는다. 예전에는 **오늘 일진**으로 매긴 값을
+     * 「삶의 네 영역」이라 부르고 있었고, 읽는 사람은 그것을 "내 사주의 재물 성향"으로 받아
+     * 들였다 — 이름과 내용이 달랐다. 평생 보관하는 문서에 하루짜리 값이 들어가 있으면 산
+     * 사람이 속은 것이 된다. 그래서 문장도 함께 원국 기준으로 고쳤다.
+     *
+     * **넷이 같은 문장이면 안 된다.** 네 점수는 같은 바닥값에서 시작하므로 같은 구간에 함께
+     * 들어가는 일이 흔하다 — 점수대 문장("어긋나는 자리가…")을 붙였더니 한 장에서 같은 말이
+     * 네 번 나왔다. 그래서 이 자리에는 **영역마다 다른 것**, 곧 엔진이 그 점수를 어디에서
+     * 얻는지만 적는다(재물=재성, 애정=배우자성과 일지, 직업=관성·식상, 건강=오행 균형과 충).
+     *
+     * 이 문장 **뒤에 `natalFactors`의 근거 문장이 붙는다**(`saju-narrative.ts`). 그러니 여기서
+     * 근거를 자세히 풀지 말 것 — 같은 말이 두 번 나온다.
      */
     domains: Record<"wealth" | "love" | "career" | "health", string>;
     /** 프리미엄만. {pillar} {element} {relation} */
@@ -829,6 +845,7 @@ const ko: Dictionary = {
     tenGodColumn: "십신",
     meaningColumn: "무엇을 뜻하나",
     yearOutlookTitle: "올해 총운",
+    domainsTitle: "삶의 네 영역",
     factorsTitle: "오늘 점수가 나온 자리",
     factorsHint:
       "화면은 항목 이름만 보여 드립니다. 여기서는 각 항목이 몇 점을 더하고 뺐는지까지 싣습니다.",
@@ -953,13 +970,13 @@ const ko: Dictionary = {
       "오늘의 행운 요소는 {element}입니다. {colors} 계열과 {direction}쪽, 그리고 {time} 사이가 그 기운이 가장 두터운 자리입니다.",
     domains: {
       wealth:
-        "재물 자리는 오늘 {score}점입니다. 이 값은 오늘의 기운이 재성(財星)에 닿는지에 따라 움직입니다 — 재성은 내가 다루고 거두는 자리입니다.",
+        "원국에서 본 재물 자리는 {score}점입니다. 버는 자리와 그것을 감당하는 힘을 함께 본 값입니다.",
       love:
-        "애정 자리는 오늘 {score}점입니다. 이 값은 배우자궁인 일지(日支)와 오늘 지지의 관계가 가릅니다 — 합이면 오르고 충이면 내려갑니다.",
+        "원국에서 본 애정 자리는 {score}점입니다. 배우자성과 그 자리가 놓인 모양을 함께 본 값입니다.",
       career:
-        "직업 자리는 오늘 {score}점입니다. 이 값은 오늘의 기운이 관성(官星)과 식상(食傷)에 닿는지에 따라 움직입니다 — 맡는 자리와 내놓는 자리입니다.",
+        "원국에서 본 직업 자리는 {score}점입니다. 맡는 자리와 내놓는 자리를 함께 본 값입니다.",
       health:
-        "건강 자리는 오늘 {score}점입니다. 이 값은 원국의 지지와 부딪치는 자리가 몇인지, 그리고 오늘 기운이 지금 필요한 기운인지가 가릅니다.",
+        "원국에서 본 건강 자리는 {score}점입니다. 타고난 균형과 부딪치는 자리를 함께 본 값입니다.",
     },
     yearOutlook:
       "올해의 세운(歲運)은 {pillar}이고, 그 기운은 {element}입니다. {relation} 이 서술은 올해 간지와 지금 필요한 기운의 관계만 본 것으로, 달마다의 흐름을 따로 가르지는 않습니다.",
@@ -1463,6 +1480,7 @@ const en: Dictionary = {
     tenGodColumn: "Ten god",
     meaningColumn: "What it means",
     yearOutlookTitle: "This year’s outlook",
+    domainsTitle: "Four areas of life",
     factorsTitle: "Where today’s score comes from",
     factorsHint:
       "The screen names the factors; here each one is printed with the points it added or removed.",
@@ -1590,13 +1608,13 @@ const en: Dictionary = {
       "Today’s lucky element is {element}. The {colors} range, the {direction} side, and the hours around {time} are where that energy runs thickest.",
     domains: {
       wealth:
-        "Money reads {score} today. This value moves with whether today’s energy reaches the wealth stars (財星) — what you handle and what you gather in.",
+        "Read from the natal chart, money comes to {score}. It weighs what earns together with the strength to carry it.",
       love:
-        "Affection reads {score} today. This value is decided by how today’s branch meets your day branch (日支), the spouse palace — harmony lifts it, a clash pulls it down.",
+        "Read from the natal chart, affection comes to {score}. It weighs the spouse star together with the shape of the seat it sits in.",
       career:
-        "Work reads {score} today. This value moves with whether today’s energy reaches the officer (官星) and output (食傷) stars — what you take on and what you put out.",
+        "Read from the natal chart, work comes to {score}. It weighs what you take on together with what you put out.",
       health:
-        "Health reads {score} today. This value is decided by how many of your natal branches today clashes with, and by whether today’s element is one you need.",
+        "Read from the natal chart, health comes to {score}. It weighs the balance you were born with together with what clashes inside it.",
     },
     yearOutlook:
       "This year’s pillar is {pillar}, carrying {element}. {relation} This reading looks only at how the year’s pillar meets what you need now; it does not break the year down month by month.",

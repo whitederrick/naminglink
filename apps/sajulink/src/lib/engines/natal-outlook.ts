@@ -45,6 +45,18 @@ import type { Gender } from "./types";
 /** 규칙을 바꾸면 올린다. 리포트에 찍혀 언제 계산된 값인지 구분된다. */
 export const NATAL_OUTLOOK_VERSION = "v1";
 
+/**
+ * 십신 열 개의 **고정 순서**.
+ *
+ * 순서가 어딘가에 적혀 있어야 하는 이유는 하나다 — 리포트가 이 중 두터운 둘을 골라 싣는데,
+ * 비중이 똑같은 십신이 둘 나오면 어느 쪽을 먼저 고를지가 정해져 있어야 **같은 입력이 같은
+ * 문서**가 된다(`report-determinism`). 그래서 고르는 쪽(`saju-narrative.ts`)도 이 배열을 읽는다.
+ */
+export const TEN_GODS: TenGod[] = [
+  "BIGYEON", "GEOPJAE", "SIKSIN", "SANGGWAN", "PYEONJAE",
+  "JEONGJAE", "PYEONGWAN", "JEONGGWAN", "PYEONIN", "JEONGIN",
+];
+
 export type NatalCategory = "wealth" | "love" | "career" | "health";
 
 export type NatalOutlook = {
@@ -155,11 +167,7 @@ export function natalTenGodShare(reading: PersonReading): Record<TenGod, number>
   }
 
   const share = {} as Record<TenGod, number>;
-  const GODS: TenGod[] = [
-    "BIGYEON", "GEOPJAE", "SIKSIN", "SANGGWAN", "PYEONJAE",
-    "JEONGJAE", "PYEONGWAN", "JEONGGWAN", "PYEONIN", "JEONGIN",
-  ];
-  for (const god of GODS) share[god] = total ? (counts.get(god) ?? 0) / total : 0;
+  for (const god of TEN_GODS) share[god] = total ? (counts.get(god) ?? 0) / total : 0;
   return share;
 }
 

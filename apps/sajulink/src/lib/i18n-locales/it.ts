@@ -395,6 +395,7 @@ export const it: Dictionary = {
     "tenGodColumn": "Dieci dei",
     "meaningColumn": "Cosa significa",
     "yearOutlookTitle": "Prospettiva di quest'anno",
+    "domainsTitle": "Quattro aree della vita",
     "factorsTitle": "Da dove proviene il punteggio di oggi",
     "factorsHint": "Lo schermo nomina i fattori; qui ciascuno è stampato con i punti che ha aggiunto o rimosso.",
     "deltaColumn": "Punti",
@@ -549,10 +550,10 @@ export const it: Dictionary = {
     },
     "luckyNote": "L'elemento fortunato di oggi è {element}. La gamma dei {colors}, il lato {direction}, e le ore attorno a {time} sono dove quell'energia è più densa.",
     "domains": {
-      "wealth": "La situazione economica oggi segna {score}. Questo valore si muove a seconda che l'energia di oggi raggiunga le stelle della ricchezza (財星) — ciò che gestisci e ciò che raccogli.",
-      "love": "L'affetto oggi segna {score}. Questo valore è deciso da come il ramo di oggi incontra il tuo ramo del giorno (日支), il palazzo del coniuge — l'armonia lo solleva, un conflitto lo abbassa.",
-      "career": "Il lavoro oggi segna {score}. Questo valore si muove a seconda che l'energia di oggi raggiunga le stelle dell'ufficiale (官星) e dell'output (食傷) — ciò che assumi e ciò che produci.",
-      "health": "La salute oggi segna {score}. Questo valore è deciso da quanti dei tuoi rami natali oggi si scontrano e se l'elemento di oggi è uno di cui hai bisogno."
+      "wealth": "Leggi dal tema natale, il denaro arriva a {score}. Pesa ciò che guadagni insieme alla forza di sostenerlo.",
+      "love": "Leggi dal tema natale, l'affetto arriva a {score}. Pesa la stella del coniuge insieme alla forma del posto in cui si trova.",
+      "career": "Leggi dal tema natale, il lavoro arriva a {score}. Pesa ciò che assumi insieme a ciò che offri.",
+      "health": "Leggi dal tema natale, la salute arriva a {score}. Pesa l'equilibrio con cui sei nato insieme a ciò che collide al suo interno."
     },
     "yearOutlook": "Il pilastro di quest'anno è {pillar}, portando {element}. {relation} Questa lettura considera solo come il pilastro dell'anno incontra ciò di cui hai bisogno ora; non scompone l'anno mese per mese.",
     "yearRelations": {

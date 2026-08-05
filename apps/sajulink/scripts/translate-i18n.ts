@@ -11,6 +11,11 @@
 // 실행: apps/sajulink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig tsconfig.json scripts/translate-i18n.ts ja
 //   ... scripts/translate-i18n.ts ja --only today,report   (절만 다시 만들 때)
+//   ... scripts/translate-i18n.ts ja --paths fallbackReport.domains   (그 잎만 다시 만들 때)
+//
+// `--paths`는 **원문 몇 줄만 고쳤을 때** 쓴다. `--only`는 절을 통째로 다시 번역하므로, 문장
+// 넷을 고치자고 그 절의 예순 줄을 새로 받게 된다 — 값도 값이지만 **검수가 끝난 나머지 문장이
+// 함께 바뀌어** 무엇이 달라졌는지 diff로 볼 수 없게 된다. 접두사로 걸러 자식 잎까지 잡는다.
 //
 // 만든 뒤에는 반드시 `verify-i18n`과 `verify-product-consistency`를 돌린다. 뒤엣것은 인연링크
 // 잔재(궁합·인연)가 번역에 섞여 들어오지 않았는지 본다.
@@ -47,14 +52,31 @@ const env = {
 
 const [localeArg, ...rest] = process.argv.slice(2);
 if (!localeArg) {
-  console.error("usage: tsx scripts/translate-i18n.ts <locale> [--only section,section]");
+  console.error(
+    "usage: tsx scripts/translate-i18n.ts <locale> [--only section,section] [--paths a.b,c.d]",
+  );
   process.exit(1);
 }
 const locale = localeArg as Locale;
-const onlyArg = rest.find((arg) => arg.startsWith("--only"));
-const only = onlyArg
-  ? new Set((onlyArg.split("=")[1] ?? rest[rest.indexOf(onlyArg) + 1] ?? "").split(",").filter(Boolean))
-  : null;
+function listArg(name: string): string[] | null {
+  const found = rest.find((arg) => arg.startsWith(name));
+  if (!found) return null;
+  const value = found.split("=")[1] ?? rest[rest.indexOf(found) + 1] ?? "";
+  return value.split(",").filter(Boolean);
+}
+const pathArg = listArg("--paths");
+const only = (() => {
+  const sections = listArg("--only");
+  if (sections) return new Set(sections);
+  // `--paths`도 절 단위 골격은 그대로 둔다 — 그래야 `seedFromExistingFile`이 나머지를 이어받는다.
+  if (pathArg) return new Set(pathArg.map((path) => path.split(".")[0]!));
+  return null;
+})();
+/** `--paths`로 좁혔을 때, 이 잎을 다시 번역할 것인가. 접두사라 자식까지 함께 잡힌다. */
+function selectedPath(path: string) {
+  if (!pathArg) return true;
+  return pathArg.some((prefix) => path === prefix || path.startsWith(`${prefix}.`));
+}
 
 if (locale === "ko" || locale === "en") {
   // 원문과 그 짝은 `i18n.ts` 안에 있고 사람이 쓴다. 기계가 덮을 자리가 아니다.
@@ -155,8 +177,8 @@ function itemsOf(section: string) {
     section === SHORT_BATCH
       ? leaves.filter((leaf) => shortSections.includes(leaf.path.split(".")[0]!))
       : leaves.filter((leaf) => leaf.path.split(".")[0] === section);
-  // 물려받은 자리는 모델에게 보내지 않는다.
-  return all.filter((leaf) => !inherited.has(leaf.path));
+  // 물려받은 자리와 `--paths` 밖은 모델에게 보내지 않는다.
+  return all.filter((leaf) => !inherited.has(leaf.path) && selectedPath(leaf.path));
 }
 
 const placeholders = (value: string) => (value.match(/\{[a-zA-Z]+\}/g) ?? []).sort().join(",");

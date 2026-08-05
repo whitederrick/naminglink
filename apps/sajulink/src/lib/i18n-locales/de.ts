@@ -395,6 +395,7 @@ export const de: Dictionary = {
     "tenGodColumn": "Zehn Gott",
     "meaningColumn": "Was es bedeutet",
     "yearOutlookTitle": "Aussichten für dieses Jahr",
+    "domainsTitle": "Vier Lebensbereiche",
     "factorsTitle": "Wo die Punktzahl von heute herkommt",
     "factorsHint": "Der Bildschirm nennt die Faktoren; hier wird jeder mit den Punkten angezeigt, die er hinzugefügt oder entfernt hat.",
     "deltaColumn": "Punkte",
@@ -549,10 +550,10 @@ export const de: Dictionary = {
     },
     "luckyNote": "Das heutige Glückselement ist {element}. Die {colors}-Reihe, die {direction}-Seite und die Stunden um {time} sind die Bereiche, in denen diese Energie am stärksten fließt.",
     "domains": {
-      "wealth": "Das Geld liest heute {score}. Dieser Wert bewegt sich danach, ob die Energie des heutigen Tages die Reichtumssterne (財星) erreicht — was du handhabst und was du sammelst.",
-      "love": "Die Zuneigung liest heute {score}. Dieser Wert wird bestimmt durch die Beziehung zwischen dem Zweig des heutigen Tages und deinem Tageszweig (日支), dem Ehepalast — Harmonie hebt ihn, ein Konflikt zieht ihn nach unten.",
-      "career": "Die Arbeit liest heute {score}. Dieser Wert bewegt sich danach, ob die Energie des heutigen Tages die Beamtensterne (官星) und die Ausgabesterne (食傷) erreicht — was du übernimmst und was du herausgibst.",
-      "health": "Die Gesundheit liest heute {score}. Dieser Wert wird bestimmt durch die Anzahl der Konflikte zwischen deinen Geburtszweigen und ob das Element des heutigen Tages eines ist, das du benötigst."
+      "wealth": "Aus dem Geburtshoroskop gelesen, kommt Geld zu {score}. Es wiegt, was man verdient, zusammen mit der Kraft, es zu tragen.",
+      "love": "Aus dem Geburtshoroskop gelesen, kommt Zuneigung zu {score}. Es wiegt den Ehepartnerstern zusammen mit der Form des Platzes, auf dem er sitzt.",
+      "career": "Aus dem Geburtshoroskop gelesen, kommt Arbeit zu {score}. Es wiegt, was du übernimmst, zusammen mit dem, was du herausgibst.",
+      "health": "Aus dem Geburtshoroskop gelesen, kommt Gesundheit zu {score}. Es wiegt das Gleichgewicht, mit dem du geboren wurdest, zusammen mit dem, was darin kollidiert."
     },
     "yearOutlook": "Der Pfeiler dieses Jahres ist {pillar}, der {element} trägt. {relation} Diese Lesung betrachtet nur, wie der Pfeiler des Jahres das, was du jetzt brauchst, trifft; sie zerlegt das Jahr nicht Monat für Monat.",
     "yearRelations": {

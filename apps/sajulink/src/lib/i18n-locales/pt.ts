@@ -395,6 +395,7 @@ export const pt: Dictionary = {
     "tenGodColumn": "Dez deuses",
     "meaningColumn": "O que isso significa",
     "yearOutlookTitle": "Perspectiva deste ano",
+    "domainsTitle": "Quatro áreas da vida",
     "factorsTitle": "De onde vem a pontuação de hoje",
     "factorsHint": "A tela nomeia os fatores; aqui cada um é impresso com os pontos que adicionou ou removeu.",
     "deltaColumn": "Pontos",
@@ -549,10 +550,10 @@ export const pt: Dictionary = {
     },
     "luckyNote": "O elemento da sorte de hoje é {element}. A faixa de {colors}, o lado {direction}, e as horas em torno de {time} são onde essa energia flui mais intensamente.",
     "domains": {
-      "wealth": "A leitura de dinheiro hoje é {score}. Esse valor varia com a energia de hoje alcançando as estrelas da riqueza (財星) — o que você lida e o que você acumula.",
-      "love": "A leitura de afeto hoje é {score}. Esse valor é decidido por como o ramo de hoje se encontra com seu ramo do dia (日支), o palácio do cônjuge — harmonia eleva, um conflito o reduz.",
-      "career": "A leitura de trabalho hoje é {score}. Esse valor varia com a energia de hoje alcançando as estrelas do oficial (官星) e de produção (食傷) — o que você assume e o que você entrega.",
-      "health": "A leitura de saúde hoje é {score}. Esse valor é decidido por quantos dos seus ramos natais colidem com o de hoje, e se o elemento de hoje é um que você precisa."
+      "wealth": "Lido do mapa natal, a riqueza chega a {score}. Pesa o que se ganha junto com a força para suportá-la.",
+      "love": "Lido do mapa natal, o afeto chega a {score}. Pesa a estrela do cônjuge junto com a forma do assento em que está.",
+      "career": "Lido do mapa natal, o trabalho chega a {score}. Pesa o que você assume junto com o que você entrega.",
+      "health": "Lido do mapa natal, a saúde chega a {score}. Pesa o equilíbrio com o qual você nasceu junto com o que colide dentro dele."
     },
     "yearOutlook": "O pilar deste ano é {pillar}, carregando {element}. {relation} Esta leitura considera apenas como o pilar do ano se relaciona com o que você precisa agora; não divide o ano mês a mês.",
     "yearRelations": {
