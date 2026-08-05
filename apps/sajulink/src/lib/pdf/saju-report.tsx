@@ -217,7 +217,7 @@ export type SajuReportData = {
    *
    * 예전에는 모델이 흔들리면 `null`이 와서 이 자리를 통째로 비웠는데, 그러면 총운 3장·프리미엄
    * 5장으로 나갔다 — **상품 정보 고시에 적은 5장·7장과 어긋난다.** 지금은 모델이 실패하면
-   * `interpretSaju`가 엔진 값으로 쓴 서술(`saju-fallback.ts`)을 대신 넣으므로, 이 타입이
+   * `interpretSaju`가 엔진 값으로 쓴 서술(`saju-narrative.ts`)을 대신 넣으므로, 이 타입이
    * 비지 않는 것 자체가 장수가 흔들리지 않는다는 보장이다.
    */
   interpretation: SajuInterpretation;

@@ -98,7 +98,7 @@ function elementPercent(reading: PersonReading, element: FiveElement): number {
   return Math.round((reading.elements[element] / total) * 100);
 }
 
-export function buildFallbackInterpretation(input: {
+export function buildNarrative(input: {
   reading: PersonReading;
   today: TodayFortune;
   /** 올해의 연주. `yearPillarOf(dateKST)`로 뽑아 넘긴다. */

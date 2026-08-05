@@ -19,7 +19,7 @@ import {
   sajuSystemPrompt,
 } from "@/lib/prompts";
 import type { ReportKind } from "@/lib/report-product";
-import { buildFallbackInterpretation } from "@/lib/saju-fallback";
+import { buildNarrative } from "@/lib/saju-narrative";
 
 /**
  * 사주 해설 생성. **결제한 리포트에서만 부른다.**
@@ -55,6 +55,22 @@ export type SajuInterpretation = {
   year_outlook?: string;
   disclaimer: string;
 };
+
+/**
+ * **모델이 쓰는 자리 — 여기 적힌 것만 재발급 때 달라질 수 있다.**
+ *
+ * 이 목록이 이 서비스의 약속이다. 상품 정보와 약관이 같은 말을 하고 있고, `verify-report-
+ * determinism`이 **목록 밖의 한 글자라도 달라지면 실패**시킨다. 즉 세 자리가 함께 움직인다 —
+ * 여기를 늘리면 검사기가 먼저 빨개지고, 고지를 함께 고치게 된다.
+ *
+ * **왜 요약 한 자리뿐인가.** 사주 해설은 창작이 아니라 규칙의 서술이다. 십신·왕상휴수사·용신은
+ * 답이 정해져 있어 템플릿이 더 잘 맞고, 무엇보다 **한 번 검토하면 끝난다.** 매번 새로 쓰는 글은
+ * 매번 새로 과장·단정을 저지를 수 있고(운명·건강·재산 단정은 정책 위반이다) 23로케일을 사람이
+ * 다 읽어 볼 수도 없다.
+ *
+ * 그래서 모델에게는 **개인화된 첫인상 한 문단**만 맡긴다. 나머지는 엔진이 쓴다.
+ */
+export const MUTABLE_FIELDS = ["summary"] as const;
 
 /**
  * 캐시 키 — `입력해시 + 엔진버전 + 프롬프트버전 + locale + tier + 날짜`.
@@ -149,70 +165,24 @@ function clamp(value: string, max: number): string {
 }
 
 /**
- * 모델이 준 것을 **폴백 위에 얹는다.**
+ * 엔진이 쓴 뼈대 위에 **허용목록에 적힌 자리만** 모델의 글로 덮는다.
  *
- * 예전에는 필수 필드 하나가 비면 응답을 통째로 버렸다. 그러면 나머지 아홉 필드가 멀쩡해도
- * 값을 낸 토큰이 버려지고, 문서는 해설이 하나도 없는 채로 나갔다. 지금은 **온 것만 덮는다** —
- * 덮지 못한 자리는 엔진 값으로 쓴 서술이 남으므로 문서는 어느 경우에도 같은 장수로 나간다.
+ * 예전에는 열 자리를 전부 모델에게 맡기고 실패한 곳만 엔진 서술로 채웠다. 그러면 이용자가
+ * 읽는 글이 사실상 전부 가변이라, 재발급받을 때마다 다른 문서가 나온다 — **한 번 사서 평생
+ * 보관하는 상품**에서 그건 결함이다.
+ *
+ * 지금은 반대다. 뼈대가 본편이고 모델은 `MUTABLE_FIELDS`에 적힌 자리만 손댄다. 목록 밖은
+ * 모델이 무엇을 보내오든 **버린다** — 지키는 자리를 프롬프트가 아니라 여기 코드가 정한다.
  */
-function mergeOverFallback(
+function applyMutableFields(
   parsed: Partial<SajuInterpretation>,
-  fallback: SajuInterpretation,
-  kind: ReportKind,
+  narrative: SajuInterpretation,
 ): SajuInterpretation {
-  /** 모델이 준 값이면 상한을 씌워 쓰고, 없으면 폴백을 쓴다(폴백은 우리가 쓴 글이라 그대로). */
-  const pick = (value: unknown, base: string, max: number) => {
-    const given = text(value);
-    return given ? clamp(given, max) : base;
-  };
-
-  const lines = (value: unknown, base: string[]) => {
-    if (!Array.isArray(value) || !value.length) return base;
-    const cleaned = value
-      .map((line) => text(line))
-      .filter((line): line is string => Boolean(line))
-      .slice(0, LIMITS.lineCount)
-      .map((line) => clamp(line, LIMITS.line));
-    return cleaned.length ? cleaned : base;
-  };
-
-  const merged: SajuInterpretation = {
-    summary: pick(parsed.summary, fallback.summary, LIMITS.summary),
-    personality: pick(parsed.personality, fallback.personality, LIMITS.personality),
-    element_balance: pick(
-      parsed.element_balance,
-      fallback.element_balance,
-      LIMITS.element_balance,
-    ),
-    today: {
-      headline: pick(parsed.today?.headline, fallback.today.headline, LIMITS.todayHeadline),
-      message: pick(parsed.today?.message, fallback.today.message, LIMITS.todayMessage),
-      advice: pick(parsed.today?.advice, fallback.today.advice, LIMITS.todayAdvice),
-      lucky_note: pick(
-        parsed.today?.lucky_note,
-        fallback.today.lucky_note,
-        LIMITS.luckyNote,
-      ),
-    },
-    strengths: lines(parsed.strengths, fallback.strengths),
-    cautions: lines(parsed.cautions, fallback.cautions),
-    domains: {
-      wealth: pick(parsed.domains?.wealth, fallback.domains.wealth, LIMITS.domain),
-      love: pick(parsed.domains?.love, fallback.domains.love, LIMITS.domain),
-      career: pick(parsed.domains?.career, fallback.domains.career, LIMITS.domain),
-      health: pick(parsed.domains?.health, fallback.domains.health, LIMITS.domain),
-    },
-    disclaimer: pick(parsed.disclaimer, fallback.disclaimer, LIMITS.disclaimer),
-  };
-
-  // 올해 총운은 프리미엄만 싣는다. 모델이 총운 티어에서 보내오더라도 버린다 —
-  // 티어 차이는 프롬프트가 아니라 여기서 지킨다.
-  if (kind === "premium") {
-    const given = text(parsed.year_outlook);
-    const outlook = given ? clamp(given, LIMITS.yearOutlook) : fallback.year_outlook;
-    if (outlook) merged.year_outlook = outlook;
+  const merged: SajuInterpretation = { ...narrative };
+  for (const field of MUTABLE_FIELDS) {
+    const given = text(parsed[field]);
+    if (given) merged[field] = clamp(given, LIMITS[field]);
   }
-
   return merged;
 }
 
@@ -226,9 +196,12 @@ async function requestInterpretation(
   try {
     const completion = await openai.chat.completions.create({
       model,
-      // 해설은 창작이되 사실(숫자·간지)은 고정이다. 온도를 중간에 둔다 — 너무 높이면 주어진
-      // factors를 벗어나고, 너무 낮추면 로케일마다 같은 문장이 나온다.
-      temperature: 0.7,
+      // **온도를 0으로 둔다.** 예전에는 0.7이었는데, 그러면 같은 사람이 재발급받을 때마다 다른
+      // 글이 나온다. 이 자리는 한 번 사서 보관하는 문서라 표현이 흔들릴 이유가 없다.
+      //
+      // 0이라고 해서 영원히 같다고 보장되지는 않는다 — 모델이 갱신되면 글도 바뀐다. 그래서
+      // "이 문단은 달라질 수 있다"를 고지에 적어 두고, 나머지는 엔진이 써서 실제로 고정한다.
+      temperature: 0,
       response_format: { type: "json_object" },
       messages: [
         {
@@ -252,7 +225,7 @@ async function requestInterpretation(
  *
  * 예전에는 실패하면 `null`을 주었고 PDF가 해설 자리를 통째로 비웠다. 그러면 총운 3장·프리미엄
  * 5장으로 나가는데 **상품 정보 고시에는 5장·7장으로 적혀 있다.** 고시는 실제와 달라선 안 되므로,
- * 실패한 자리는 엔진 값으로 쓴 서술(`saju-fallback.ts`)이 대신 채운다.
+ * 실패한 자리는 엔진 값으로 쓴 서술(`saju-narrative.ts`)이 대신 채운다.
  *
  * 실패는 대개 일시적이라 **한 번 더 부른다.** SDK가 이미 전송 오류·5xx·429는 재시도하지만
  * (`maxRetries: 1`), JSON이 깨졌거나 필수 필드가 빠진 응답은 그 대상이 아니다 — 그 경우가
@@ -265,7 +238,7 @@ export async function interpretSaju(input: {
   kind: ReportKind;
   locale: Locale;
 }): Promise<SajuInterpretation> {
-  const fallback = buildFallbackInterpretation({
+  const narrative = buildNarrative({
     reading: input.reading,
     today: input.today,
     // 세운은 오늘 날짜에서 뽑는다. 일진과 같은 만세력 호출이고 계산 규칙은 그대로다.
@@ -277,7 +250,7 @@ export async function interpretSaju(input: {
 
   const openai = getOpenAIClient();
   // 키가 없는 것은 사고가 아니라 설정이다(다크 런치). 알리지 않고 엔진 서술로 낸다.
-  if (!openai) return fallback;
+  if (!openai) return narrative;
 
   const factors = buildSajuFactors(input.reading, input.today, input.kind, input.locale);
   const key = cacheKey(factors, input.kind, input.locale);
@@ -301,18 +274,20 @@ export async function interpretSaju(input: {
       { kind: input.kind, locale: input.locale, date: input.today.date },
     );
     // **캐시하지 않는다.** 같은 주문으로 다시 받을 때 모델을 부를 기회가 다시 있어야 한다.
-    return fallback;
+    return narrative;
   }
 
-  const merged = mergeOverFallback(received, fallback, input.kind);
+  // 요약이 안 왔으면 모델을 부른 보람이 없다. 뼈대만으로 내고 캐시하지 않는다.
   if (!text(received.summary)) {
     notifyOps(
       "saju-interpretation-partial",
-      "해설 응답에 첫 문단이 없어 일부를 엔진 서술로 채웠습니다.",
+      "해설 응답에 요약 문단이 없어 엔진 서술로 발급했습니다.",
       { kind: input.kind, locale: input.locale, date: input.today.date },
     );
-    return merged;
+    return narrative;
   }
+
+  const merged = applyMutableFields(received, narrative);
 
   if (memo.size >= MEMO_LIMIT) {
     const oldest = memo.keys().next().value;

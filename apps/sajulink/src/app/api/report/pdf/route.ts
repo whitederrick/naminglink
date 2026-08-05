@@ -257,7 +257,7 @@ async function render(
    * 자리라 조회마다 때리면 API 비용·응답 지연·광고 페이지 속도가 함께 나빠진다.
    *
    * **실패해도 값이 온다.** 모델이 흔들리면 엔진 값으로 쓴 서술이 그 자리를 채운다
-   * (`saju-fallback.ts`) — 해설 자리를 비우면 문서가 3장·5장으로 나가 **상품 정보 고시에 적은
+   * (`saju-narrative.ts`) — 해설 자리를 비우면 문서가 3장·5장으로 나가 **상품 정보 고시에 적은
    * 5장·7장과 어긋나기** 때문이다. 재시도와 알림도 `interpretSaju` 안에 있다.
    */
   const interpretation = await interpretSaju({

@@ -106,7 +106,7 @@ function stretch(base: string, target: number) {
 }
 
 async function main() {
-  const { buildFallbackInterpretation } = await import("../src/lib/saju-fallback");
+  const { buildNarrative } = await import("../src/lib/saju-narrative");
   const { LIMITS } = await import("../src/lib/saju-interpretation");
 
   const longest: SajuInterpretation = {
@@ -164,7 +164,7 @@ async function main() {
             ? interpretation
             : mode === "long"
             ? longest
-            : buildFallbackInterpretation({
+            : buildNarrative({
                 reading,
                 today,
                 yearPillar: yearPillarOf("2026-08-04"),

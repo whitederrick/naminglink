@@ -92,19 +92,15 @@ export function buildSajuFactors(
  *
  * **무료는 여기 없다.** 무료 화면은 모델을 부르지 않는다.
  */
-export function sajuOutputInstruction(kind: ReportKind) {
-  const shared = [
-    '"summary": a one to two sentence opening',
-    '"personality": character read from the day master and strength',
-    '"element_balance": what the element distribution means, citing the given numbers',
-    '"today": { "headline", "message", "advice", "lucky_note" }',
-    '"strengths": array of 2-4 short lines',
-    '"cautions": array of 2-4 short lines',
-    '"domains": { "wealth", "love", "career", "health" }',
-    '"disclaimer": one line stating this is traditional reference, not fate',
-  ];
-  if (kind === "premium") {
-    shared.splice(shared.length - 1, 0, '"year_outlook": this year\'s overall reading');
-  }
-  return `Return a JSON object with exactly these keys: ${shared.join(", ")}.`;
+export function sajuOutputInstruction(_kind: ReportKind) {
+  // **한 자리만 요구한다.** 예전에는 열 자리를 전부 모델에게 맡겼는데, 그러면 이용자가 읽는
+  // 글이 사실상 전부 가변이라 재발급받을 때마다 다른 문서가 나왔다 — 한 번 사서 평생 보관하는
+  // 상품에서 그건 결함이다. 지금은 뼈대를 엔진이 쓰고 모델은 첫인상 한 문단만 맡는다
+  // (`MUTABLE_FIELDS`). 여기를 늘리면 그 목록과 고지를 함께 고쳐야 한다.
+  return [
+    'Return a JSON object with exactly one key: "summary".',
+    "It is a two to three sentence opening that reads this person's chart as a whole —",
+    "the day master, whether it runs strong or weak, which element is thickest and which is thinnest.",
+    "Write it as an opening a reader meets first, not as a list of the numbers you were given.",
+  ].join(" ");
 }
