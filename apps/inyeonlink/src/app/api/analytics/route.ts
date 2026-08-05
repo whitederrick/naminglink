@@ -71,7 +71,11 @@ export async function POST(request: NextRequest) {
   // 하나를 더 쓰는 것뿐이다.
   //
   // **본문을 읽기 전에 센다.** 뒤에 두면 잦은 요청을 막기도 전에 본문부터 읽게 된다.
-  if (!(await checkRateLimit(request, "analytics", { windowSeconds: 3600, limit: 120 }))) {
+  // **스코프 이름에 서비스가 들어간다.** 세 앱이 한 Supabase를 쓰므로 레이트리밋 표도
+  // 하나다 — 이름이 같으면 한 서비스의 트래픽이 다른 서비스의 한도를 깎는다(같은 IP가
+  // naminglink를 쓰다 오면 여기서 먼저 막힌다). 다른 라우트는 이미 접두사로 갈려 있었고
+  // 집계만 `analytics`로 남아 있었다(2026-08-06, 인연링크).
+  if (!(await checkRateLimit(request, "inyeon_analytics", { windowSeconds: 3600, limit: 120 }))) {
     return NextResponse.json({ ok: false, error: "요청이 너무 잦습니다." }, { status: 429 });
   }
 

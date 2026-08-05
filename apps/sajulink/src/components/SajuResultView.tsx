@@ -3,8 +3,8 @@
 import Link from "next/link";
 
 import { GuideLink } from "@/components/GuideLink";
+import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { SelfAdCard } from "@/components/SelfAdCard";
-import { emphasize } from "@/lib/emphasize";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 import { useSajuOutcome } from "@/lib/use-saju-outcome";
@@ -153,27 +153,17 @@ export function SajuResultView({
         </dl>
       </section>
 
-      {/* 유료 리포트 자리.
-          예전에는 가격만 한 줄 떠 있었다 — 무엇의 값인지 말하지 않는 숫자라, 판매 중지일 때는
-          아예 사라져 리포트가 있다는 것조차 알 수 없었다. 문구는 상품 사전(`report`) 한 곳에
-          있고 결제 패널과 같은 것을 읽는다. 값이 없으면 "준비 중"으로 뜬다. */}
-      <section className="rounded-2xl border border-brand-gold/40 bg-surface-strong p-5">
-        <h2 className="text-sm font-semibold text-brand-navy">{p.title}</h2>
-        <p className="break-keep-all mt-2 text-xs leading-6 text-muted">{emphasize(p.body)}</p>
-        <ul className="mt-3 space-y-1 text-xs leading-6">
-          {p.contents.map((line) => (
-            <li key={line} className="break-keep-all flex gap-2">
-              <span aria-hidden className="text-brand-gold">
-                ·
-              </span>
-              <span>{line}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-4 text-sm font-semibold text-brand-navy">
-          {offerPrice ?? p.preparing}
-        </p>
-      </section>
+      {/* 유료 리포트 자리 — **실제 결제 패널이다.**
+          예전에는 이 자리가 상품 설명과 가격만 그리는 상자였고, `ReportPurchasePanel`은 만들어져
+          있는데 **어디에서도 부르지 않았다.** 상품을 켜는 날 구매로 가는 길이 없는 상태였다.
+          문구를 여기서 또 그리던 것도 함께 없앴다 — 패널이 같은 사전(`report`)을 읽는다.
+          판매 전이면 패널이 스스로 "준비 중"으로 뜬다. */}
+      <ReportPurchasePanel
+        copy={p}
+        locale={locale}
+        input={state.input}
+        offerPrice={offerPrice}
+      />
 
       {/* 오늘의 운세로 건너가는 자리. **같은 프래그먼트를 그대로 이어 붙인다** — 입력은 주소의
           프래그먼트에만 있으므로, 빠뜨리면 생년월일을 다시 넣게 된다.

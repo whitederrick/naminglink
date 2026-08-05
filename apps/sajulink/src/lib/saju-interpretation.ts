@@ -3,6 +3,7 @@ import "server-only";
 import { createHash } from "node:crypto";
 import OpenAI from "openai";
 
+import { AiUsageRecorder } from "@/lib/ai-usage";
 import type { PersonReading } from "@/lib/engines";
 import type { NatalOutlook } from "@/lib/engines/natal-outlook";
 import {
@@ -217,6 +218,7 @@ async function requestInterpretation(
   openai: OpenAI,
   input: { locale: Locale },
   factors: ReturnType<typeof buildSajuFactors>,
+  usage: AiUsageRecorder,
 ): Promise<Partial<SajuInterpretation> | null> {
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
   try {
@@ -237,6 +239,10 @@ async function requestInterpretation(
         { role: "user", content: JSON.stringify(factors) },
       ],
     });
+
+    // **응답을 쓰기 전에 센다.** 파싱에 실패해도 토큰은 이미 나갔다 — 그 호출을 안 센 채
+    // 넘어가면 실패가 잦은 날일수록 원가가 실제보다 싸 보인다.
+    usage.record(completion);
 
     const raw = completion.choices[0]?.message?.content;
     if (!raw) return null;
@@ -284,9 +290,12 @@ export async function interpretSaju(input: {
   const cached = memo.get(key);
   if (cached) return cached;
 
+  // **문서 하나에 한 줄만 남긴다.** 재시도까지 합산한다 — 호출마다 남기면 표가 재시도 행으로
+  // 부풀어 "얼마나 팔렸나"와 "얼마나 불렀나"가 어긋나 보인다.
+  const usage = new AiUsageRecorder("SAJU_REPORT");
   let received: Partial<SajuInterpretation> | null = null;
   for (let attempt = 1; attempt <= 2; attempt += 1) {
-    const parsed = await requestInterpretation(openai, input, factors);
+    const parsed = await requestInterpretation(openai, input, factors, usage);
     if (parsed) {
       received = parsed;
       // 첫 문단이 왔으면 나머지가 조금 비어도 쓸 만한 응답이다. 더 부르지 않는다.
@@ -300,6 +309,7 @@ export async function interpretSaju(input: {
       "해설 생성이 두 번 모두 실패해 엔진 서술로 발급했습니다.",
       { locale: input.locale, date: input.today.date },
     );
+    void usage.flush("ERROR", "NO_RESPONSE");
     // **캐시하지 않는다.** 같은 주문으로 다시 받을 때 모델을 부를 기회가 다시 있어야 한다.
     return narrative;
   }
@@ -311,9 +321,11 @@ export async function interpretSaju(input: {
       "해설 응답에 요약 문단이 없어 엔진 서술로 발급했습니다.",
       { locale: input.locale, date: input.today.date },
     );
+    void usage.flush("ERROR", "NO_SUMMARY");
     return narrative;
   }
 
+  void usage.flush("SUCCESS");
   const merged = applyMutableFields(received, narrative);
 
   if (memo.size >= MEMO_LIMIT) {
