@@ -303,6 +303,13 @@ export type Dictionary = {
     pillarColumn: string;
     tenGodColumn: string;
     meaningColumn: string;
+    /**
+     * 올해 총운(프리미엄만).
+     *
+     * **오늘의 운세 제목을 빌려 쓰지 말 것** — 세운은 한 해, 일진은 하루다. 예전에 이 자리에
+     * `today.title`이 붙어 있어 올해 총운 문단 위에 「오늘의 운세」가 적혀 있었다.
+     */
+    yearOutlookTitle: string;
     /** 오늘 점수의 근거 항목 표(프리미엄만) */
     factorsTitle: string;
     factorsHint: string;
@@ -320,8 +327,67 @@ export type Dictionary = {
   };
   /** 사주 총운 리포트 PDF 판매. */
   report: ReportCopy;
-  /** 프리미엄 총운 리포트 PDF 판매(대운·세운까지). */
+  /** 프리미엄 총운 리포트 PDF 판매(십신·왕상휴수사·올해 총운·계산 근거까지). */
   premiumReport: ReportCopy;
+  /**
+   * 해설(GPT)이 오지 않았을 때 그 자리를 채우는 문안.
+   *
+   * **왜 있는가.** 유료 리포트의 장수(총운 5장·프리미엄 7장)는 **상품 정보 고시에 적는 값**이다.
+   * 그런데 해설은 외부 모델이라 언제든 실패할 수 있고, 그 자리를 비운 채 내보내면 3장·5장으로
+   * 나가 고시가 거짓이 된다. 그래서 실패하면 **엔진이 이미 계산해 둔 값으로 같은 자리를 채운다.**
+   * 빈 칸을 늘려 장수를 맞추는 것이 아니라, 근거 있는 서술로 바꿔 넣는 것이다.
+   *
+   * **여기 문장은 전부 템플릿이다.** 자리 표시자는 `fillTemplate`이 채우고, 채울 값은 엔진에서만
+   * 온다 — 이 파일이 사실을 지어내는 일은 없어야 한다.
+   */
+  fallbackReport: {
+    /**
+     * {dayMaster} {season} {strongest} {scarcest}
+     *
+     * **일간의 성향 한 줄(`dayMasters.trait`)을 여기에 넣지 말 것** — 바로 위 표지가 이미
+     * 찍는다. 넣으면 표지와 첫 문단이 같은 문장을 두 번 말한다.
+     */
+    summary: string;
+    /**
+     * {dayMaster} {element} {strengthName} — 뒤에 일간의 `dayMasterSigns`가 강점 줄로 붙는다.
+     *
+     * **강약 설명문(`bodyStrength.body`)을 여기에 넣지 말 것** — 2장의 「일간의 힘」 카드가
+     * 그 문장을 그대로 찍는다. 판정 이름만 부르고 설명은 그쪽에 맡긴다.
+     */
+    personality: string;
+    /** 강약별 눈여겨볼 점. 강점 쪽은 `dayMasterSigns`가 대신하므로 여기엔 없다. */
+    cautions: Record<"STRONG" | "BALANCED" | "WEAK", string[]>;
+    /** 위 셋에 한 줄 더 붙인다. {scarcest} */
+    scarcityCaution: string;
+    /** {strongest} {strongestPct} {scarcest} {scarcestPct} {season} {favorable} */
+    elementBalance: string;
+    /** {grade} */
+    todayHeadline: string;
+    /** {score} {gradeName} {gradeBody} {pillar} {topFactor} */
+    todayMessage: string;
+    /** 점수대별. 등급 이름과 어긋나지 않도록 경계는 등급표에서 읽는다. */
+    todayAdvice: Record<"HIGH" | "MID" | "LOW", string>;
+    /** {element} {colors} {direction} {time} */
+    luckyNote: string;
+    /**
+     * 삶의 네 영역. {score}
+     *
+     * **넷이 같은 문장이면 안 된다.** 네 점수는 종합 점수를 바닥으로 깔고 시작하므로 같은
+     * 구간에 함께 들어가는 일이 흔하다 — 점수대 문장("어긋나는 자리가…")을 여기에 붙였더니
+     * 한 장에서 같은 말이 네 번 나왔다. 그래서 이 자리에는 **영역마다 다른 것**, 곧 엔진이
+     * 그 점수를 어디에서 얻는지만 적는다(재물=재성, 애정=일지 관계, 직업=관성·식상,
+     * 건강=충의 수와 용신).
+     */
+    domains: Record<"wealth" | "love" | "career" | "health", string>;
+    /** 프리미엄만. {pillar} {element} {relation} */
+    yearOutlook: string;
+    /** 올해 간지가 지금 필요한 기운과 어떤 사이인가. 엔진 ①의 네 갈래와 같은 순서다. */
+    yearRelations: Record<
+      "YONGSIN" | "GENERATES" | "GISIN" | "CONTROLS" | "NEUTRAL",
+      string
+    >;
+    disclaimer: string;
+  };
   footer: {
     privacy: string;
     terms: string;
@@ -680,6 +746,7 @@ const ko: Dictionary = {
     pillarColumn: "자리",
     tenGodColumn: "십신",
     meaningColumn: "무엇을 뜻하나",
+    yearOutlookTitle: "올해 총운",
     factorsTitle: "오늘 점수가 나온 자리",
     factorsHint:
       "화면은 항목 이름만 보여 드립니다. 여기서는 각 항목이 몇 점을 더하고 뺐는지까지 싣습니다.",
@@ -765,6 +832,69 @@ const ko: Dictionary = {
     refundContact:
       "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
     pdfLanguageNotice: "PDF 문서는 화면과 같은 언어로 나갑니다.",
+  },
+  fallbackReport: {
+    summary:
+      "{season}의 기운 속에 태어난 {dayMaster} 일간입니다. 원국 전체로 보면 {strongest}이 가장 두텁고 {scarcest}이 가장 얇습니다. 아래 풀이는 이 여덟 글자에서 나온 값을 그대로 따라간 것이며, 숫자와 간지는 모두 계산된 값입니다.",
+    personality:
+      "일간은 {dayMaster} — {element}의 기운입니다. 이 사주의 강약 판정은 {strengthName}입니다. 일간을 돕는 기운과 덜어 내는 기운 가운데 어느 쪽이 두터운지가 성향을 가르며, 그 차이는 일상에서 다음과 같은 모습으로 드러납니다.",
+    cautions: {
+      STRONG: [
+        "밀고 나가는 힘이 커서, 한쪽으로 쏠린 뒤에야 알아차리는 일이 있습니다.",
+        "도움을 받을 수 있는 자리에서도 결국 혼자 처리하려다 일을 키웁니다.",
+        "덜어 내고 풀어 주는 쪽에 자리를 내주면 오히려 수월해집니다.",
+      ],
+      BALANCED: [
+        "어느 한쪽으로 기울지 않은 자리라, 결정을 미루면 그대로 멈춰 있게 됩니다.",
+        "상황에 맞춰 잘 움직이는 대신 자기 기준이 흐려지기 쉽습니다.",
+        "지금 가장 얇은 기운을 채우는 쪽으로 방향을 잡는 편이 낫습니다.",
+      ],
+      WEAK: [
+        "혼자 오래 버티는 일에서는 예상보다 빨리 지칩니다.",
+        "받쳐 주는 자리가 없을 때 결정을 미루다 기회를 놓칩니다.",
+        "도와주는 기운을 곁에 두는 것이 이 사주에서는 약점이 아니라 방법입니다.",
+      ],
+    },
+    scarcityCaution:
+      "지금 가장 얇은 기운은 {scarcest}입니다. 그 기운이 맡는 자리에서 특히 손이 늦어집니다.",
+    elementBalance:
+      "오행의 세력은 {strongest}이 {strongestPct}%로 가장 두텁고, {scarcest}이 {scarcestPct}%로 가장 얇습니다. 태어난 달이 {season}의 자리라 그 기운을 한 번 더 밀어 올립니다 — 같은 양이라도 계절이 밀어 주는 기운과 그렇지 않은 기운은 힘이 다릅니다. 지금 필요한 기운은 {favorable}이며, 이 기운이 채워지는 자리에서 일이 수월해집니다.",
+    todayHeadline: "오늘은 {grade}에 해당하는 날입니다",
+    todayMessage:
+      "오늘의 점수는 {score}점, 등급은 {gradeName}입니다. {gradeBody} 오늘의 일진은 {pillar}이고, 점수를 가장 크게 움직인 것은 「{topFactor}」입니다.",
+    todayAdvice: {
+      HIGH: "미뤄 둔 연락이나 정리를 꺼내기에 알맞은 날입니다. 다만 하루에 다 끝내려 들지 않는 편이 좋습니다.",
+      MID: "하던 대로 하면 하던 만큼 됩니다. 새로 벌이기보다 이미 손에 있는 것을 한 칸 옮겨 두십시오.",
+      LOW: "어긋나는 자리가 있는 날입니다. 새로 시작하기보다 마무리와 점검에 두는 편이 낫습니다.",
+    },
+    luckyNote:
+      "오늘의 행운 요소는 {element}입니다. {colors} 계열과 {direction}쪽, 그리고 {time} 사이가 그 기운이 가장 두터운 자리입니다.",
+    domains: {
+      wealth:
+        "재물 자리는 오늘 {score}점입니다. 이 값은 오늘의 기운이 재성(財星)에 닿는지에 따라 움직입니다 — 재성은 내가 다루고 거두는 자리입니다.",
+      love:
+        "애정 자리는 오늘 {score}점입니다. 이 값은 배우자궁인 일지(日支)와 오늘 지지의 관계가 가릅니다 — 합이면 오르고 충이면 내려갑니다.",
+      career:
+        "직업 자리는 오늘 {score}점입니다. 이 값은 오늘의 기운이 관성(官星)과 식상(食傷)에 닿는지에 따라 움직입니다 — 맡는 자리와 내놓는 자리입니다.",
+      health:
+        "건강 자리는 오늘 {score}점입니다. 이 값은 원국의 지지와 부딪치는 자리가 몇인지, 그리고 오늘 기운이 지금 필요한 기운인지가 가릅니다.",
+    },
+    yearOutlook:
+      "올해의 세운(歲運)은 {pillar}이고, 그 기운은 {element}입니다. {relation} 이 서술은 올해 간지와 지금 필요한 기운의 관계만 본 것으로, 달마다의 흐름을 따로 가르지는 않습니다.",
+    yearRelations: {
+      YONGSIN:
+        "지금 필요한 기운이 그대로 들어오는 해입니다. 미뤄 두었던 것을 꺼내 놓기에 알맞습니다.",
+      GENERATES:
+        "필요한 기운을 밀어 주는 자리라, 곧장은 아니어도 흐름이 순해집니다.",
+      GISIN:
+        "이미 기운 쪽으로 한 번 더 밀리는 해입니다. 새로 벌이기보다 손에 있는 것을 정리하는 편이 낫습니다.",
+      CONTROLS:
+        "필요한 기운을 누르는 자리가 있어 결정이 늦어지기 쉽습니다. 마감을 걸어 두는 방식이 도움이 됩니다.",
+      NEUTRAL:
+        "필요한 기운과 크게 부딪치지도, 밀어 주지도 않는 해입니다. 하던 자리를 지키는 편이 이득입니다.",
+    },
+    disclaimer:
+      "전통 명리 관점의 참고 자료이며, 과학적 예측이나 미래에 대한 단정이 아닙니다.",
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -1142,6 +1272,7 @@ const en: Dictionary = {
     pillarColumn: "Pillar",
     tenGodColumn: "Ten god",
     meaningColumn: "What it means",
+    yearOutlookTitle: "This year’s outlook",
     factorsTitle: "Where today’s score comes from",
     factorsHint:
       "The screen names the factors; here each one is printed with the points it added or removed.",
@@ -1230,6 +1361,69 @@ const en: Dictionary = {
       "For refunds or questions, contact the customer centre or email below. If the document could not be produced, or the amount charged differs from the order, we refund in full.",
     pdfLanguageNotice:
       "The PDF is produced in the same language as this screen.",
+  },
+  fallbackReport: {
+    summary:
+      "A {dayMaster} day master born into the energy of {season}. Across the whole chart {strongest} runs thickest and {scarcest} runs thinnest. Everything below follows from those eight characters — every number and every pillar here is calculated, not chosen.",
+    personality:
+      "Your day master is {dayMaster} — {element} energy — and this chart reads as {strengthName}. Which side runs thicker, what supports the day master or what draws from it, is what shapes the grain, and in daily life it shows up like this.",
+    cautions: {
+      STRONG: [
+        "You push hard enough that you often notice the tilt only after it has happened.",
+        "Even where help is available you end up handling it alone, which makes the job bigger.",
+        "Things settle when you leave room for whatever draws the excess off.",
+      ],
+      BALANCED: [
+        "Nothing tips you either way, so a postponed decision simply stays postponed.",
+        "You adapt well to the situation, which can blur where your own line is.",
+        "Steering toward whatever is thinnest right now gives you a direction to hold.",
+      ],
+      WEAK: [
+        "Holding out alone wears you down sooner than you expect.",
+        "With nothing behind you, decisions slide and the moment passes.",
+        "Keeping supportive people close is not a weakness in this chart — it is the method.",
+      ],
+    },
+    scarcityCaution:
+      "The thinnest element right now is {scarcest}. Whatever that element governs is where you are slowest to act.",
+    elementBalance:
+      "By strength, {strongest} leads at {strongestPct}% and {scarcest} trails at {scarcestPct}%. Your birth month sits in {season}, which pushes that element up once more — the same quantity carries different force depending on whether the season backs it. What you need now is {favorable}, and things ease where that element gets filled in.",
+    todayHeadline: "Today reads as {grade}",
+    todayMessage:
+      "Today scores {score}, graded {gradeName}. {gradeBody} The day pillar is {pillar}, and the single largest mover in that score was “{topFactor}”.",
+    todayAdvice: {
+      HIGH: "A good day to pick up the message or the tidying you have been putting off — though it is better not to try to finish it all today.",
+      MID: "Do as you usually do and you will get what you usually get. Rather than starting something new, move one thing already in hand a step forward.",
+      LOW: "Some of today runs against the chart. Better spent finishing and checking than starting.",
+    },
+    luckyNote:
+      "Today’s lucky element is {element}. The {colors} range, the {direction} side, and the hours around {time} are where that energy runs thickest.",
+    domains: {
+      wealth:
+        "Money reads {score} today. This value moves with whether today’s energy reaches the wealth stars (財星) — what you handle and what you gather in.",
+      love:
+        "Affection reads {score} today. This value is decided by how today’s branch meets your day branch (日支), the spouse palace — harmony lifts it, a clash pulls it down.",
+      career:
+        "Work reads {score} today. This value moves with whether today’s energy reaches the officer (官星) and output (食傷) stars — what you take on and what you put out.",
+      health:
+        "Health reads {score} today. This value is decided by how many of your natal branches today clashes with, and by whether today’s element is one you need.",
+    },
+    yearOutlook:
+      "This year’s pillar is {pillar}, carrying {element}. {relation} This reading looks only at how the year’s pillar meets what you need now; it does not break the year down month by month.",
+    yearRelations: {
+      YONGSIN:
+        "The element you need arrives directly this year. A fitting time to bring out what you had set aside.",
+      GENERATES:
+        "This year feeds the element you need, so the current turns gentler — not at once, but steadily.",
+      GISIN:
+        "This year pushes once more in the direction you were already leaning. Better spent closing out what is in hand than opening something new.",
+      CONTROLS:
+        "Something this year presses on the element you need, so decisions come slower. Setting your own deadlines helps.",
+      NEUTRAL:
+        "This year neither clashes with nor feeds what you need. Holding the ground you have is the better trade.",
+    },
+    disclaimer:
+      "Traditional myeongri reference, not a scientific prediction or a statement about what must happen.",
   },
   footer: {
     privacy: "Privacy Policy",

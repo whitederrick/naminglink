@@ -488,6 +488,30 @@ export function todayPillarOf(dateKST: string): { date: string; stem: string; br
   return { date: dateKST, stem: hanja[0]!, branch: branchOf(hanja) };
 }
 
+/**
+ * 세운(歲運) — 그 해의 연주 간지.
+ *
+ * 일진과 **같은 만세력 호출에서 나온다**(`pillars.year`). 새로 계산하는 규칙이 아니라 이미
+ * 뽑고 있던 값을 꺼내는 것이므로 계산은 변하지 않는다.
+ *
+ * **오늘의 일진과 다른 값이다.** 일진은 하루 단위이고 세운은 한 해 단위다. 해가 바뀌는
+ * 경계도 양력 1월 1일이 아니라 절기(입춘)이며, 그 경계는 만세력이 정한다 — 1월과 2월 초에
+ * 지난해 간지가 나오는 것이 맞다.
+ */
+export function yearPillarOf(dateKST: string): { stem: string; branch: Branch } {
+  const [year, month, day] = dateKST.split("-").map(Number);
+  const saju = calculatePremiumSaju({
+    calendarType: "solar",
+    year: year!,
+    month: month!,
+    day: day!,
+    birthHour: null,
+    birthMinute: null,
+  });
+  const hanja = saju.pillars.year.hanja;
+  return { stem: hanja[0]!, branch: branchOf(hanja) };
+}
+
 /** 지금 이 순간의 KST 날짜(YYYY-MM-DD). **경계는 서버가 아니라 서울 자정이다.** */
 export function todayInSeoul(now: Date): string {
   return new Intl.DateTimeFormat("en-CA", {

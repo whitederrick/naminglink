@@ -191,10 +191,14 @@ export type SajuReportData = {
   reading: PersonReading;
   today: TodayFortune;
   /**
-   * AI 해설. **없을 수 있다** — 모델이 흔들리거나 키가 없으면 null이 온다. 그때도 문서는
-   * 나가야 하므로 이 자리만 비운다(엔진 값은 그대로 담긴다).
+   * 해설. **언제나 있다.**
+   *
+   * 예전에는 모델이 흔들리면 `null`이 와서 이 자리를 통째로 비웠는데, 그러면 총운 3장·프리미엄
+   * 5장으로 나갔다 — **상품 정보 고시에 적은 5장·7장과 어긋난다.** 지금은 모델이 실패하면
+   * `interpretSaju`가 엔진 값으로 쓴 서술(`saju-fallback.ts`)을 대신 넣으므로, 이 타입이
+   * 비지 않는 것 자체가 장수가 흔들리지 않는다는 보장이다.
    */
-  interpretation: SajuInterpretation | null;
+  interpretation: SajuInterpretation;
   locale: Locale;
   dictionary: Dictionary;
   /** 발급 시각(ISO). 꼬리글에 찍는다. */
@@ -585,44 +589,14 @@ function SajuReport({
           ) : null}
         </View>
 
-        {interpretation ? (
-          <>
-            {/* 표지 아래 첫 문단이라 제목을 붙이지 않는다 — 원국 표는 2장에 있고,
-                여기에 "나의 사주 원국"을 달면 표가 있어야 할 자리처럼 읽힌다. */}
-            <View style={[styles.card, { marginTop: 22 }]}>
-              <MixedText style={styles.body} text={interpretation.summary} />
-            </View>
+        {/* 표지 아래 첫 문단이라 제목을 붙이지 않는다 — 원국 표는 3장에 있고,
+            여기에 "나의 사주 원국"을 달면 표가 있어야 할 자리처럼 읽힌다. */}
+        <View style={[styles.card, { marginTop: 22 }]}>
+          <MixedText style={styles.body} text={interpretation.summary} />
+        </View>
 
-            <View>
-              <MixedText style={styles.sectionTitle} text={r.strengthTitle} />
-              <View style={styles.card}>
-                <MixedText style={styles.body} text={interpretation.personality} />
-                {interpretation.strengths.map((line, index) => (
-                  <MixedText
-                    key={index}
-                    style={[styles.bullet, { marginTop: index === 0 ? 8 : 0 }]}
-                    text={`· ${line}`}
-                  />
-                ))}
-              </View>
-
-              <MixedText style={styles.sectionTitle} text={r.cautionTitle} />
-              <View style={styles.card}>
-                {interpretation.cautions.map((line, index) => (
-                  <MixedText key={index} style={styles.bullet} text={`· ${line}`} />
-                ))}
-              </View>
-            </View>
-          </>
-        ) : (
-          // 해설이 없어도 문서는 나간다. 엔진 값만으로 채우고 원국 안내를 그 자리에 둔다.
-          <Section title={r.chartTitle}>
-            <View style={styles.card}>
-              <MixedText style={styles.body} text={r.chartHint} />
-            </View>
-          </Section>
-        )}
-
+        {/* 개인정보 안내는 표지 장에 둔다. 이 장은 표지와 요약뿐이라 가장 긴 해설이 와도
+            자리가 남는다 — 반대로 마지막 장에 두면 삶의 네 영역이 길어질 때 함께 밀린다. */}
         <Section title={dictionary.landing.privacyTitle}>
           <MixedText style={styles.note} text={dictionary.landing.privacyBody} />
         </Section>
@@ -630,7 +604,35 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* ── 2장 원국·오행 ── */}
+      {/* ── 2장 성향 ── */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={r.strengthTitle} />
+
+        <Section title={r.strengthTitle}>
+          <View style={styles.card}>
+            <MixedText style={styles.body} text={interpretation.personality} />
+            {interpretation.strengths.map((line, index) => (
+              <MixedText
+                key={index}
+                style={[styles.bullet, { marginTop: index === 0 ? 8 : 0 }]}
+                text={`· ${line}`}
+              />
+            ))}
+          </View>
+        </Section>
+
+        <Section title={r.cautionTitle}>
+          <View style={styles.card}>
+            {interpretation.cautions.map((line, index) => (
+              <MixedText key={index} style={styles.bullet} text={`· ${line}`} />
+            ))}
+          </View>
+        </Section>
+
+        {footer}
+      </Page>
+
+      {/* ── 3장 원국·오행 ── */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={r.chartTitle} />
 
@@ -639,26 +641,32 @@ function SajuReport({
           <MixedText style={[styles.tableNote, { marginTop: 8 }]} text={r.chartHint} />
         </Section>
 
+        {/* 세력 막대와 그 서술은 **한 절 안에 둔다.** 예전에는 서술에 같은 제목을 한 번 더
+            달아 「오행의 세력」이 한 장에 두 번 나왔다. */}
         <Section title={r.elementsTitle}>
           <ElementBars reading={reading} dictionary={dictionary} />
-        </Section>
 
-        <View style={styles.splitRow}>
-          <View style={styles.splitCell}>
-            <MixedText style={styles.cardLabel} text={r.strongest} />
-            <MixedText
-              style={styles.splitValue}
-              text={dictionary.elements[reading.strongestElement] ?? reading.strongestElement}
-            />
+          <View style={styles.splitRow}>
+            <View style={styles.splitCell}>
+              <MixedText style={styles.cardLabel} text={r.strongest} />
+              <MixedText
+                style={styles.splitValue}
+                text={dictionary.elements[reading.strongestElement] ?? reading.strongestElement}
+              />
+            </View>
+            <View style={styles.splitCell}>
+              <MixedText style={styles.cardLabel} text={r.scarcest} />
+              <MixedText
+                style={styles.splitValue}
+                text={dictionary.elements[reading.scarcestElement] ?? reading.scarcestElement}
+              />
+            </View>
           </View>
-          <View style={styles.splitCell}>
-            <MixedText style={styles.cardLabel} text={r.scarcest} />
-            <MixedText
-              style={styles.splitValue}
-              text={dictionary.elements[reading.scarcestElement] ?? reading.scarcestElement}
-            />
+
+          <View style={[styles.card, { marginTop: 12 }]}>
+            <MixedText style={styles.body} text={interpretation.element_balance} />
           </View>
-        </View>
+        </Section>
 
         <Section title={r.bodyStrengthTitle}>
           <View style={styles.card}>
@@ -680,18 +688,10 @@ function SajuReport({
           </View>
         </Section>
 
-        {interpretation ? (
-          <Section title={r.elementsTitle}>
-            <View style={styles.card}>
-              <MixedText style={styles.body} text={interpretation.element_balance} />
-            </View>
-          </Section>
-        ) : null}
-
         {footer}
       </Page>
 
-      {/* ── 3장 오늘의 운세·삶의 영역 ── */}
+      {/* ── 4장 오늘의 운세 ── */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={t.title} />
 
@@ -738,39 +738,41 @@ function SajuReport({
           </View>
         </Section>
 
-        {interpretation ? (
-          <>
-            <Section title={interpretation.today.headline}>
-              <View style={styles.card}>
-                <MixedText style={styles.body} text={interpretation.today.message} />
-                <MixedText
-                  style={[styles.note, { marginTop: 6 }]}
-                  text={interpretation.today.advice}
-                />
-              </View>
-            </Section>
+        <Section title={interpretation.today.headline}>
+          <View style={styles.card}>
+            <MixedText style={styles.body} text={interpretation.today.message} />
+            <MixedText
+              style={[styles.note, { marginTop: 6 }]}
+              text={interpretation.today.advice}
+            />
+          </View>
+        </Section>
 
-            {/* 삶의 영역 넷. 카드마다 제목을 붙이되 통째로 묶지 않는다 — 해설 길이가
-                로케일마다 달라 한 장에 다 들어가지 않을 수 있다. */}
-            <View>
-              {(
-                [
-                  [t.categories.wealth, interpretation.domains.wealth],
-                  [t.categories.love, interpretation.domains.love],
-                  [t.categories.career, interpretation.domains.career],
-                  [t.categories.health, interpretation.domains.health],
-                ] as const
-              ).map(([label, text]) => (
-                <View key={label} wrap={false} minPresenceAhead={40}>
-                  <MixedText style={styles.sectionTitle} text={label} />
-                  <View style={styles.card}>
-                    <MixedText style={styles.body} text={text} />
-                  </View>
-                </View>
-              ))}
+        {footer}
+      </Page>
+
+      {/* ── 5장 삶의 네 영역 ── */}
+      <Page size="A4" style={pageStyle}>
+        <BrandRow dictionary={dictionary} title={t.title} />
+
+        {/* 카드마다 제목을 붙이되 통째로 묶지 않는다 — 해설 길이가 로케일마다 다르다. */}
+        <View style={{ marginTop: 14 }}>
+          {(
+            [
+              [t.categories.wealth, interpretation.domains.wealth],
+              [t.categories.love, interpretation.domains.love],
+              [t.categories.career, interpretation.domains.career],
+              [t.categories.health, interpretation.domains.health],
+            ] as const
+          ).map(([label, text]) => (
+            <View key={label} wrap={false} minPresenceAhead={40}>
+              <MixedText style={styles.sectionTitle} text={label} />
+              <View style={styles.card}>
+                <MixedText style={styles.body} text={text} />
+              </View>
             </View>
-          </>
-        ) : null}
+          ))}
+        </View>
 
         {footer}
       </Page>
@@ -778,7 +780,7 @@ function SajuReport({
       {/* ── 프리미엄 심화 ── */}
       {isPremium ? (
         <>
-          {/* 4장 십신 + 왕상휴수사.
+          {/* 6장 십신 + 왕상휴수사.
               십신 표는 행이 많아야 셋(일주는 자신이라 빼고, 시각을 모르면 시주도 빠진다)이라
               한 장을 다 쓰지 못한다. 빈 장을 만드는 대신 심화 표 둘을 한 장에 둔다. */}
           <Page size="A4" style={pageStyle}>
@@ -795,12 +797,12 @@ function SajuReport({
             {footer}
           </Page>
 
-          {/* 6장 올해 총운·근거·부록 */}
+          {/* 7장 올해 총운·근거·부록 */}
           <Page size="A4" style={pageStyle}>
             <BrandRow dictionary={dictionary} title={d.appendixTitle} />
 
-            {interpretation?.year_outlook ? (
-              <Section title={t.title}>
+            {interpretation.year_outlook ? (
+              <Section title={d.yearOutlookTitle}>
                 <View style={styles.card}>
                   <MixedText style={styles.body} text={interpretation.year_outlook} />
                 </View>

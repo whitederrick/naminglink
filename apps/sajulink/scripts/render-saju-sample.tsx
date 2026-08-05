@@ -10,15 +10,28 @@
 //   ../naminglink/node_modules/.bin/tsx scripts/render-saju-sample.tsx
 
 import { mkdir, writeFile } from "node:fs/promises";
+import { createRequire } from "node:module";
 import path from "node:path";
 
 import { ENGINE_VERSION } from "../src/lib/engines";
 import { prepare, toReading } from "../src/lib/engines/prepare";
-import { todayFortune, todayPillarOf } from "../src/lib/engines/today-fortune";
+import {
+  todayFortune,
+  todayPillarOf,
+  yearPillarOf,
+} from "../src/lib/engines/today-fortune";
 import { getDictionary, type Locale } from "../src/lib/i18n";
 import { renderSajuReport } from "../src/lib/pdf/saju-report";
 import type { SajuInterpretation } from "../src/lib/saju-interpretation";
 import type { ReportKind } from "../src/lib/report-product";
+
+// 폴백 모듈은 `server-only`를 들여온다 — 유료 서술을 만드는 자리라 클라이언트에서 불리면
+// 안 되기 때문이다. 이 스크립트는 서버 밖이므로 **가드만 비운다**(다른 검사 스크립트와 같은
+// 방식). 가드는 실제 코드에 그대로 남고, 모듈은 이 줄 **뒤에** 동적으로 불러온다.
+const nodeRequire = createRequire(import.meta.url);
+nodeRequire.cache[nodeRequire.resolve("server-only")] = {
+  exports: {},
+} as unknown as NodeModule;
 
 const SEOUL = { timeZone: "Asia/Seoul", longitude: 126.978 };
 
@@ -79,7 +92,49 @@ const interpretation: SajuInterpretation = {
     "전통 명리 관점의 참고 자료이며, 과학적 예측이나 미래에 대한 단정이 아닙니다.",
 };
 
+/**
+ * 상한을 꽉 채운 견본.
+ *
+ * **장수를 정하는 것은 가장 긴 경우다.** 폴백은 우리가 쓴 글이라 길이를 알지만, 모델은 얼마나
+ * 길게 쓸지 알 수 없다 — 그래서 서버가 필드마다 상한을 씌운다(`LIMITS`). 그 상한을 전부 채운
+ * 문서가 5장·7장이면, 어떤 응답이 와도 장수는 흔들리지 않는다.
+ */
+function stretch(base: string, target: number) {
+  let out = base;
+  while (out.length < target) out += ` ${base}`;
+  return out.slice(0, target);
+}
+
 async function main() {
+  const { buildFallbackInterpretation } = await import("../src/lib/saju-fallback");
+  const { LIMITS } = await import("../src/lib/saju-interpretation");
+
+  const longest: SajuInterpretation = {
+    summary: stretch(interpretation.summary, LIMITS.summary),
+    personality: stretch(interpretation.personality, LIMITS.personality),
+    element_balance: stretch(interpretation.element_balance, LIMITS.element_balance),
+    today: {
+      headline: stretch(interpretation.today.headline, LIMITS.todayHeadline),
+      message: stretch(interpretation.today.message, LIMITS.todayMessage),
+      advice: stretch(interpretation.today.advice, LIMITS.todayAdvice),
+      lucky_note: stretch(interpretation.today.lucky_note, LIMITS.luckyNote),
+    },
+    strengths: Array.from({ length: LIMITS.lineCount }, (_, index) =>
+      stretch(interpretation.strengths[index % interpretation.strengths.length], LIMITS.line),
+    ),
+    cautions: Array.from({ length: LIMITS.lineCount }, (_, index) =>
+      stretch(interpretation.cautions[index % interpretation.cautions.length], LIMITS.line),
+    ),
+    domains: {
+      wealth: stretch(interpretation.domains.wealth, LIMITS.domain),
+      love: stretch(interpretation.domains.love, LIMITS.domain),
+      career: stretch(interpretation.domains.career, LIMITS.domain),
+      health: stretch(interpretation.domains.health, LIMITS.domain),
+    },
+    year_outlook: stretch(interpretation.year_outlook!, LIMITS.yearOutlook),
+    disclaimer: interpretation.disclaimer,
+  };
+
   const outDir = path.join(process.cwd(), "tmp", "saju-report");
   await mkdir(outDir, { recursive: true });
 
@@ -92,26 +147,57 @@ async function main() {
   const locales: Locale[] = ["ko", "en"];
   const kinds: ReportKind[] = ["chongun", "premium"];
 
+  // **두 경우를 다 낸다.** 해설이 온 문서와 오지 않은 문서의 장수가 같아야 상품 정보 고시가
+  // 언제나 참이 된다(총운 5장·프리미엄 7장). 한쪽만 재고 넘어가면 고시가 조용히 거짓이 된다.
+  const modes = ["gpt", "long", "fallback"] as const;
+  const expected: Record<ReportKind, number> = { chongun: 5, premium: 7 };
+  let mismatch = 0;
+
   for (const locale of locales) {
+    const dictionary = getDictionary(locale);
     for (const kind of kinds) {
-      const buffer = await renderSajuReport({
-        kind,
-        reading,
-        today,
-        interpretation,
-        locale,
-        dictionary: getDictionary(locale),
-        generatedAt: "2026-08-04T00:00:00.000Z",
-        engineVersion: ENGINE_VERSION,
-      });
-      const file = path.join(outDir, `${kind}-${locale}.pdf`);
-      await writeFile(file, buffer);
-      // 장수는 PDF의 /Type /Page 개수로 센다. 목차·고시에 적을 값이라 눈대중으로 세지 않는다.
-      const pages = (buffer.toString("latin1").match(/\/Type\s*\/Page[^s]/g) ?? []).length;
-      console.log(`${kind}-${locale}.pdf  ${pages}장  ${(buffer.length / 1024).toFixed(0)}KB`);
+      for (const mode of modes) {
+        const copy =
+          mode === "gpt"
+            ? interpretation
+            : mode === "long"
+            ? longest
+            : buildFallbackInterpretation({
+                reading,
+                today,
+                yearPillar: yearPillarOf("2026-08-04"),
+                kind,
+                locale,
+                dictionary,
+              });
+
+        const buffer = await renderSajuReport({
+          kind,
+          reading,
+          today,
+          interpretation: copy,
+          locale,
+          dictionary,
+          generatedAt: "2026-08-04T00:00:00.000Z",
+          engineVersion: ENGINE_VERSION,
+        });
+        const file = path.join(outDir, `${kind}-${locale}-${mode}.pdf`);
+        await writeFile(file, buffer);
+        // 장수는 PDF의 /Type /Page 개수로 센다. 목차·고시에 적을 값이라 눈대중으로 세지 않는다.
+        const pages = (buffer.toString("latin1").match(/\/Type\s*\/Page[^s]/g) ?? []).length;
+        const ok = pages === expected[kind];
+        if (!ok) mismatch += 1;
+        console.log(
+          `${ok ? "  " : "✗ "}${kind}-${locale}-${mode}.pdf  ${pages}장(기대 ${expected[kind]})  ${(buffer.length / 1024).toFixed(0)}KB`,
+        );
+      }
     }
   }
   console.log(`\n→ ${outDir}`);
+  if (mismatch) {
+    console.error(`\n장수가 고시와 어긋난 문서 ${mismatch}건.`);
+    process.exit(1);
+  }
 }
 
 main().catch((error) => {
