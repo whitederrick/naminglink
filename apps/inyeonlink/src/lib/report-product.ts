@@ -90,6 +90,15 @@ export function getReportProduct(kind: ReportKind, region: ReportRegion) {
  * 한국어 화면이면 국내(토스페이먼츠 990원), 그 외에는 해외(페이팔 US$1.99)다. 접속 국가가
  * 아니라 **화면 언어**를 기준으로 삼는 이유는, 이용자가 실제로 보고 있는 가격 표기와
  * 결제 수단이 어긋나지 않게 하기 위해서다(naminglink의 일괄 공개와 같은 규칙).
+ *
+ * ⚠️ **같은 규칙이 `components/ReportPurchasePanel.tsx`에도 인라인으로 적혀 있다.** 이 파일이
+ * `server-only`라 브라우저 코드가 이 함수를 부를 수 없어 어쩔 수 없이 두 벌이다. 규칙을 바꿀
+ * 때는 **반드시 두 곳을 함께** 고칠 것 — 한쪽만 고치면 화면이 보여 준 가격과 서버가 만드는
+ * 주문이 어긋나고, 타입이 같아서 컴파일러는 아무 말도 하지 않는다.
+ *
+ * 덧붙여 **권역은 클라이언트가 보낸다**(`api/report/order`). 금액 자체는 서버가 DB에서 읽으므로
+ * 위변조되지 않지만, 어느 가격표를 쓸지는 이용자가 고를 수 있다. 실질적인 경계는 결제수단
+ * 자체다 — 토스는 국내 결제, 페이팔은 페이팔 계정이 있어야 끝난다.
  */
 export function regionForLocale(locale: Locale): ReportRegion {
   return locale === "ko" ? "domestic" : "global";

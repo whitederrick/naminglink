@@ -1,11 +1,12 @@
 "use client";
 
 import * as PortOne from "@portone/browser-sdk/v2";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { emphasize } from "@/lib/emphasize";
 import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
 import { pdfLanguageDiffers } from "@/lib/pdf/fonts";
+import { rememberForRedirect } from "@/lib/pending-payment";
 import type { SajuInput } from "@/lib/saju-input";
 
 // 리포트 PDF 구매. 국내는 토스페이먼츠(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
@@ -47,23 +48,20 @@ type PortOneCheckout = {
 type Checkout = TossCheckout | PortOneCheckout;
 
 /**
- * 결제창에 다녀오는 동안 궁합 입력값을 브라우저에 맡겨 둔다.
+ * 발급에 필요한 것만 추린 값.
  *
- * 입력값은 주소의 프래그먼트(#)에만 있고 서버로 가지 않는다. 토스는 결제 후 우리 서버 라우트로
- * 리디렉트되므로 그 사이 프래그먼트가 사라진다. sessionStorage는 **이용자 브라우저**이지
- * 서버가 아니므로, 저장하지 않는다는 원칙과 충돌하지 않는다. 탭을 닫으면 함께 사라진다.
+ * 결제에서 **돌아온** 자리에는 결제창 정보(clientKey·금액·표시문구)가 없다. 주소에 실려 오는
+ * 것은 주문 번호뿐이고, 그것으로 발급은 충분하다. 그래서 발급·재발급은 `Checkout` 전체가
+ * 아니라 이 값을 받는다 — 복귀 경로가 억지로 빈 `Checkout`을 지어내지 않아도 된다.
  */
-const PENDING_KEY = "sajulink.pendingPayment";
+type Issuable = { orderId: string; paymentId: string };
 
-function rememberForRedirect(orderId: string) {
-  try {
-    window.sessionStorage.setItem(
-      PENDING_KEY,
-      JSON.stringify({ orderId, fragment: window.location.hash.slice(1) }),
-    );
-  } catch {
-    // 저장을 못 해도 결제는 진행한다. 돌아왔을 때 결과를 못 그릴 뿐이다.
-  }
+function issuableOf(checkout: Checkout): Issuable {
+  return {
+    orderId: checkout.orderId,
+    // 토스 주문은 provider_payment_id를 orderId로 저장한다(결제 식별자가 따로 없다).
+    paymentId: checkout.provider === "TOSS" ? checkout.orderId : checkout.paymentId,
+  };
 }
 
 type Stage =
@@ -72,7 +70,7 @@ type Stage =
   | { name: "paying" }
   | { name: "paypal"; checkout: PortOneCheckout }
   | { name: "issuing" }
-  | { name: "done"; checkout: Checkout }
+  | { name: "done"; order: Issuable }
   | { name: "failed"; message: string };
 
 export function ReportPurchasePanel({
@@ -94,18 +92,26 @@ export function ReportPurchasePanel({
   // 청약철회 제한 동의. 체크하기 전에는 결제로 넘어가지 않는다 — 전자상거래법 §17②는 고지와
   // **동의**를 함께 요구하고, 그 조치가 없으면 우리가 환불 제한을 주장할 수 없다.
   const [consented, setConsented] = useState(false);
+  /** 결제 복귀를 이미 처리했는가. 개발 모드의 이중 실행과 리렌더를 함께 막는다. */
+  const returnHandled = useRef(false);
+  // 화면 언어가 결제권역을 정한다 — ko는 국내(토스페이먼츠·원화), 나머지 22개는 해외
+  // (페이팔·달러).
+  //
+  // ⚠️ **이 규칙은 `lib/report-product.ts`의 `regionForLocale`과 같은 것이다.** 그쪽이
+  // `server-only`라 브라우저에서 부를 수 없어 여기 한 벌 더 있다. 바꿀 때는 두 곳을 함께
+  // 고칠 것 — 어긋나면 화면이 보여 준 가격과 서버가 만드는 주문이 달라지고, 타입이 같아서
+  // 컴파일러는 잡지 못한다.
   const region = locale === "ko" ? "domestic" : "global";
 
   /** 결제가 확인된 주문으로 PDF를 받아 저장한다. */
-  async function download(checkout: Checkout) {
+  async function download(order: Issuable) {
     setStage({ name: "issuing" });
     const response = await fetch("/api/report/pdf", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        orderId: checkout.orderId,
-        // 토스 주문은 provider_payment_id를 orderId로 저장한다(결제 식별자가 따로 없다).
-        paymentId: checkout.provider === "TOSS" ? checkout.orderId : checkout.paymentId,
+        orderId: order.orderId,
+        paymentId: order.paymentId,
         locale,
         input,
       }),
@@ -120,7 +126,7 @@ export function ReportPurchasePanel({
     link.download = "sajulink-report.pdf";
     link.click();
     URL.revokeObjectURL(url);
-    setStage({ name: "done", checkout });
+    setStage({ name: "done", order });
   }
 
   async function buy() {
@@ -206,7 +212,7 @@ export function ReportPurchasePanel({
       if (payment.code) throw new Error(payment.message || t.failed);
       if (payment.paymentId !== checkout.paymentId) throw new Error(t.failed);
 
-      await download(checkout);
+      await download(issuableOf(checkout));
     } catch (caught) {
       setStage({
         name: "failed",
@@ -214,6 +220,61 @@ export function ReportPurchasePanel({
       });
     }
   }
+
+  // 토스 결제에서 돌아온 자리. **이것이 없으면 돈은 나가고 파일은 안 나온다.**
+  //
+  // 국내 결제는 우리 서버 승인 라우트를 거쳐 `?payment=paid&orderId=`로 이 화면에 되돌아온다.
+  // 그 시점에 결제는 **이미 끝나 있다.** 화면이 할 일은 발급뿐인데 그 자리가 비어 있으면
+  // 이용자는 버튼을 다시 누르는 수밖에 없고, 그러면 **새 주문이 하나 더 만들어진다** — 한 사람이
+  // 두 번 결제하는 자리다(2026-08-06에 넣었다. 해외 결제는 현재 주소로 돌아와 이 문제가 없었다).
+  //
+  // 입력값 프래그먼트는 `restoreFragmentAfterPayment`가 이미 되돌려 놓았다. 결과가 있어야 이
+  // 패널이 그려지므로, 여기까지 왔다면 입력은 갖춰져 있다.
+  useEffect(() => {
+    // 개발 모드는 effect를 두 번 돌린다. 발급을 두 번 부르지 않도록 막는다.
+    if (returnHandled.current) return;
+    const params = new URLSearchParams(window.location.search);
+    const outcome = params.get("payment");
+    if (!outcome) return;
+    returnHandled.current = true;
+
+    // 처리한 흔적만 지운다. **프래그먼트는 반드시 남긴다** — 입력값이 거기에만 있어서 함께
+    // 지우면 새로고침에서 결과가 통째로 사라진다.
+    const clearQuery = () => {
+      params.delete("payment");
+      params.delete("orderId");
+      const query = params.toString();
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`,
+      );
+    };
+
+    // effect 안에서 setState를 동기로 호출하면 렌더가 연쇄로 돈다. 마이크로태스크로 미뤄
+    // 두 갈래(실패 안내·발급)를 함께 한 틱 뒤로 보낸다 — `use-saju-outcome`과 같은 방식이다.
+    void Promise.resolve()
+      .then(async () => {
+        const orderId = params.get("orderId") ?? "";
+        if (outcome !== "paid" || !orderId) {
+          // `failed`·`invalid`·`notfound` 모두 결제가 되지 않은 상태다 — 토스는 승인해야
+          // 결제가 된다. 다시 시도하면 되므로 실패로 안내한다.
+          setStage({ name: "failed", message: t.failed });
+          return;
+        }
+        // 토스 주문은 결제 식별자가 따로 없어 주문 번호가 곧 그 값이다.
+        await download({ orderId, paymentId: orderId });
+      })
+      .catch((caught: unknown) =>
+        setStage({
+          name: "failed",
+          message: caught instanceof Error ? caught.message : t.failed,
+        }),
+      )
+      .finally(clearQuery);
+    // 복귀 처리는 최초 마운트에서 한 번만 한다.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // 페이팔 버튼은 컨테이너(div.portone-ui-container)가 그려진 뒤에 SDK를 호출해야 한다.
   useEffect(() => {
@@ -231,7 +292,7 @@ export function ReportPurchasePanel({
       },
       {
         onPaymentSuccess: () => {
-          void download(checkout).catch((caught) =>
+          void download(issuableOf(checkout)).catch((caught) =>
             setStage({
               name: "failed",
               message: caught instanceof Error ? caught.message : t.failed,
@@ -330,7 +391,7 @@ export function ReportPurchasePanel({
       ) : (
         <button
           type="button"
-          onClick={stage.name === "done" ? () => void download(stage.checkout) : buy}
+          onClick={stage.name === "done" ? () => void download(stage.order) : buy}
           disabled={blocked}
           className="mt-5 w-full rounded-full bg-brand-navy px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
@@ -343,6 +404,20 @@ export function ReportPurchasePanel({
                 : t.preparing}
         </button>
       )}
+
+      {/* **무엇으로 결제되는지 누르기 전에 알린다.**
+          화면 언어가 결제사를 정하므로(위 `region` 주석), 영어로 보는 한국 이용자에게는
+          페이팔만 뜬다. 누르고 나서 알면 늦는 조건이다. 금액과 통화는 이미 버튼에 있으니
+          여기서 더할 것은 결제수단 하나뿐이다.
+
+          **브랜드 이름만 쓰고 설명을 붙이지 않는다.** 고유명사라 번역이 필요 없어서인데,
+          설명 문구를 달면 23로케일이 함께 걸린다 — 지금 필요한 정보는 이것 하나다.
+          결제창이 이미 떠 있는 페이팔 단계에서는 버튼 자체가 브랜드를 보여 주므로 감춘다. */}
+      {onSale && stage.name !== "paypal" ? (
+        <p className="mt-2 text-center text-xs text-muted">
+          {region === "domestic" ? "토스페이먼츠" : "PayPal"}
+        </p>
+      ) : null}
 
       {consentNeeded && !consented ? (
         <p className="break-keep-all mt-2 text-xs leading-5 text-muted">

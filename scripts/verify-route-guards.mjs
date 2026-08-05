@@ -25,7 +25,9 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
-const APPS = ["apps/naminglink", "apps/inyeonlink"];
+// **세 앱 전부.** 사주링크가 빠져 있었다(2026-08-06) — 앱을 늘리면서 검사기를 안 늘렸고,
+// 그동안 이 검사기의 "ALL PASS"는 세 앱 중 둘에 대한 말이었다. 앱을 더할 때 여기도 더할 것.
+const APPS = ["apps/naminglink", "apps/inyeonlink", "apps/sajulink"];
 
 /** 본문을 실제로 읽는가. 안 읽으면 잴 것도 없다(예: unlock-ticket은 본문이 없다). */
 function readsBody(source) {
