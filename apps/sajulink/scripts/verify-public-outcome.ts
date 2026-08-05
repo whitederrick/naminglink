@@ -61,7 +61,7 @@ check("강약 판정", Boolean(outcome.reading.bodyStrength));
 check("오늘의 운세 점수·등급", outcome.today.score > 0 && Boolean(outcome.today.grade));
 check("근거 항목", Array.isArray(outcome.today.factors));
 // 오늘의 운세는 아끼지 않는다 — 매일 다시 오게 만드는 것이 이 화면의 존재 이유다.
-check("행운 요소도 무료다", Boolean(outcome.today.lucky.directionKo));
+check("행운 요소도 무료다", Boolean(outcome.today.lucky.direction));
 
 console.log("\n== 주문 결속 — 한 결제로 다른 사람 리포트를 받지 못하게");
 const orderInput = { me: PERSON };

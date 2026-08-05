@@ -167,10 +167,9 @@ export function buildFallbackInterpretation(input: {
     advice: copy.todayAdvice[todayBand],
     lucky_note: fillTemplate(copy.luckyNote, {
       element: elementName(today.lucky.element),
-      // 행운 요소의 색·방위는 엔진이 ko/en 두 벌로 낸다. 로케일 사전이 늘어나기 전까지는
-      // 한국어 사전일 때만 한국어 표기를 쓰고, 나머지는 영어 표기를 쓴다.
-      colors: (locale === "ko" ? today.lucky.colorsKo : today.lucky.colorsEn).join(", "),
-      direction: locale === "ko" ? today.lucky.directionKo : today.lucky.directionEn,
+      // 색·방위는 엔진이 코드로 내고 이름은 사전이 갖는다.
+      colors: today.lucky.colors.map((color) => dictionary.today.luckyColors[color]).join(", "),
+      direction: dictionary.today.luckyDirections[today.lucky.direction],
       time: today.lucky.timeRange,
     }),
   };

@@ -10,6 +10,7 @@
 // 언어를 고치든 diff가 통째로 흔들린다. 여기서 하는 일은 등록뿐이고, 문구는 각 파일에 있다.
 // (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
 // 순환이 생기지 않는다.)
+import type { LuckyColor, LuckyDirection } from "@/lib/engines/today-fortune";
 import { ja } from "@/lib/i18n-locales/ja";
 import { vi } from "@/lib/i18n-locales/vi";
 import { localeCodes } from "@/lib/locale-codes";
@@ -226,6 +227,17 @@ export type Dictionary = {
     luckyDirection: string;
     luckyTime: string;
     luckyNumber: string;
+    /**
+     * 행운의 색·방위 이름.
+     *
+     * **엔진은 코드만 낸다**(`TEAL`·`EAST`). 예전에는 엔진이 `colorsKo`·`colorsEn` 두 벌을
+     * 들고 있었고 화면과 PDF가 로케일과 상관없이 한국어 쪽을 찍어, 일본어·베트남어 문서에도
+     * "청록, 초록 / 동"이 나갔다. 언어가 늘 때 고칠 자리가 사전 한 곳이 되도록 여기로 옮겼다.
+     *
+     * 열거로 닫아 두므로 엔진에 색이 늘면 컴파일이 잡는다.
+     */
+    luckyColors: Record<LuckyColor, string>;
+    luckyDirections: Record<LuckyDirection, string>;
     basisTitle: string;
     /**
      * 점수 근거 항목의 이름. 키는 엔진의 `Factor.key`와 같아야 한다 — 억부 관계 13종과
@@ -676,6 +688,25 @@ const ko: Dictionary = {
     luckyDirection: "방위",
     luckyTime: "시간",
     luckyNumber: "숫자",
+    luckyColors: {
+      TEAL: "청록",
+      GREEN: "초록",
+      RED: "빨강",
+      ORANGE: "주황",
+      YELLOW: "노랑",
+      OCHRE: "황토",
+      WHITE: "흰색",
+      GOLD: "금색",
+      BLACK: "검정",
+      NAVY: "남색",
+    },
+    luckyDirections: {
+      EAST: "동",
+      SOUTH: "남",
+      CENTER: "중앙",
+      WEST: "서",
+      NORTH: "북",
+    },
     basisTitle: "이 점수가 나온 자리",
     factors: {
       TODAY_IS_YONGSIN: "오늘의 기운이 지금 필요한 기운입니다",
@@ -1206,6 +1237,25 @@ const en: Dictionary = {
     luckyDirection: "Direction",
     luckyTime: "Hours",
     luckyNumber: "Numbers",
+    luckyColors: {
+      TEAL: "teal",
+      GREEN: "green",
+      RED: "red",
+      ORANGE: "orange",
+      YELLOW: "yellow",
+      OCHRE: "ochre",
+      WHITE: "white",
+      GOLD: "gold",
+      BLACK: "black",
+      NAVY: "navy",
+    },
+    luckyDirections: {
+      EAST: "East",
+      SOUTH: "South",
+      CENTER: "Center",
+      WEST: "West",
+      NORTH: "North",
+    },
     basisTitle: "Where this score comes from",
     factors: {
       TODAY_IS_YONGSIN: "Today’s element is the one your chart needs",

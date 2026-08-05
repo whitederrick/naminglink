@@ -155,11 +155,13 @@ export function SajuResultView({
           </div>
           <div className="flex gap-2">
             <dt className="text-muted">{d.luckyColor}</dt>
-            <dd>{(locale === "ko" ? today.lucky.colorsKo : today.lucky.colorsEn).join(", ")}</dd>
+            {/* 사전에서 찾는다. 예전에는 `locale === "ko"`로 두 벌 중 하나를 골랐는데,
+                ko가 아닌 모든 언어가 영어로 떨어져 일본어 화면에도 영어 색 이름이 나왔다. */}
+            <dd>{today.lucky.colors.map((color) => d.luckyColors[color]).join(", ")}</dd>
           </div>
           <div className="flex gap-2">
             <dt className="text-muted">{d.luckyDirection}</dt>
-            <dd>{locale === "ko" ? today.lucky.directionKo : today.lucky.directionEn}</dd>
+            <dd>{d.luckyDirections[today.lucky.direction]}</dd>
           </div>
           <div className="flex gap-2">
             <dt className="text-muted">{d.luckyTime}</dt>

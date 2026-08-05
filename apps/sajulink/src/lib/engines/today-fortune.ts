@@ -57,15 +57,43 @@ export type Factor = {
   detail?: Record<string, string | number>;
 };
 
+/** 행운의 색. **이름이 아니라 코드다** — 화면 문구는 사전에서 이 코드로 찾는다. */
+export type LuckyColor =
+  | "TEAL"
+  | "GREEN"
+  | "RED"
+  | "ORANGE"
+  | "YELLOW"
+  | "OCHRE"
+  | "WHITE"
+  | "GOLD"
+  | "BLACK"
+  | "NAVY";
+
+/** 행운의 방위. 오행의 방위라 다섯이고, 중앙(土)이 포함된다. */
+export type LuckyDirection = "EAST" | "SOUTH" | "CENTER" | "WEST" | "NORTH";
+
+/**
+ * 행운 요소.
+ *
+ * **엔진은 코드만 낸다.** 예전에는 `colorsKo`·`colorsEn`·`directionKo`처럼 언어별 문자열을
+ * 두 벌로 들고 있었는데, 화면과 PDF가 그중 한국어 쪽을 로케일과 상관없이 찍어 **일본어·
+ * 베트남어 문서에도 "청록, 초록 / 동"이 한국어로 나갔다.** 두 벌을 들고 있으면 언어가 늘 때마다
+ * 엔진을 고쳐야 하고, 고르는 쪽이 한 군데라도 빠지면 이렇게 샌다.
+ *
+ * 그래서 엔진은 코드(`TEAL`·`EAST`)만 내고 문장은 사전이 만든다 — 이 저장소의 다른 엔진 값
+ * (`Factor.key`·`BRANCH_ANIMALS`)과 같은 규칙이다.
+ *
+ * `hex`·`timeRange`·`numbers`·`branchHours`는 번역 대상이 아니라 그대로 둔다.
+ */
 export type LuckyElement = {
   element: FiveElement;
-  colorsKo: string[];
-  colorsEn: string[];
+  colors: LuckyColor[];
   hex: string[];
-  directionKo: string;
-  directionEn: string;
+  direction: LuckyDirection;
   timeRange: string;
-  branchHoursKo: string;
+  /** 그 기운이 가장 두터운 시각의 지지. 한자 코드라 언어와 무관하다. */
+  branchHours: Branch[];
   numbers: number[];
 };
 
@@ -188,53 +216,43 @@ export const DEFAULT_SCORING_CONFIG: ScoringConfig = {
 /** `docs/saju_scoring_defaults.json`의 `elementLuckyMap`. */
 const LUCKY_MAP: Record<FiveElement, Omit<LuckyElement, "element">> = {
   WOOD: {
-    colorsKo: ["청록", "초록"],
-    colorsEn: ["green", "teal"],
+    colors: ["TEAL", "GREEN"],
     hex: ["#2E8B57", "#3CB371"],
-    directionKo: "동",
-    directionEn: "East",
+    direction: "EAST",
     timeRange: "03:00-07:00",
-    branchHoursKo: "인·묘시",
+    branchHours: ["寅", "卯"],
     numbers: [3, 8],
   },
   FIRE: {
-    colorsKo: ["빨강", "주황"],
-    colorsEn: ["red", "orange"],
+    colors: ["RED", "ORANGE"],
     hex: ["#E23B3B", "#FF7A45"],
-    directionKo: "남",
-    directionEn: "South",
+    direction: "SOUTH",
     timeRange: "09:00-13:00",
-    branchHoursKo: "사·오시",
+    branchHours: ["巳", "午"],
     numbers: [2, 7],
   },
   EARTH: {
-    colorsKo: ["노랑", "황토"],
-    colorsEn: ["yellow", "ochre"],
+    colors: ["YELLOW", "OCHRE"],
     hex: ["#E6B422", "#C8A25A"],
-    directionKo: "중앙",
-    directionEn: "Center",
+    direction: "CENTER",
     timeRange: "13:00-15:00",
-    branchHoursKo: "진·술·축·미시",
+    branchHours: ["辰", "戌", "丑", "未"],
     numbers: [5, 10],
   },
   METAL: {
-    colorsKo: ["흰색", "금색"],
-    colorsEn: ["white", "gold"],
+    colors: ["WHITE", "GOLD"],
     hex: ["#F5F5F5", "#D4AF37"],
-    directionKo: "서",
-    directionEn: "West",
+    direction: "WEST",
     timeRange: "15:00-19:00",
-    branchHoursKo: "신·유시",
+    branchHours: ["申", "酉"],
     numbers: [4, 9],
   },
   WATER: {
-    colorsKo: ["검정", "남색"],
-    colorsEn: ["black", "navy"],
+    colors: ["BLACK", "NAVY"],
     hex: ["#1C1C2E", "#2B3A67"],
-    directionKo: "북",
-    directionEn: "North",
+    direction: "NORTH",
     timeRange: "21:00-01:00",
-    branchHoursKo: "해·자시",
+    branchHours: ["亥", "子"],
     numbers: [1, 6],
   },
 };

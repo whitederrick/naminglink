@@ -261,16 +261,16 @@ export const vi: Dictionary = {
     "scoreLabel": "Điểm hôm nay",
     "grades": {
       "DAEGIL": {
-        "name": "Rất tốt",
-        "body": "Năng lượng hôm nay gặp biểu đồ của bạn ở góc tốt nhất. Một ngày tốt để bắt đầu những việc bạn đã trì hoãn."
+        "name": "Rất tốt lành",
+        "body": "Năng lượng hôm nay gặp biểu đồ của bạn ở góc tốt nhất. Một ngày tốt để thực hiện những việc bạn đã trì hoãn."
       },
       "GIL": {
-        "name": "Tốt",
+        "name": "Tốt lành",
         "body": "Dòng chảy hôm nay thuận lợi với bạn. Những gì bạn thường làm sẽ dễ dàng hơn bình thường."
       },
       "PYEONG": {
         "name": "Bình thường",
-        "body": "Không có gì thúc đẩy bạn và cũng không có gì cản trở bạn. Hãy làm như thường lệ và bạn sẽ nhận được những gì bạn thường có."
+        "body": "Không có gì thúc đẩy bạn và cũng không có gì cản trở bạn. Hãy làm như thường lệ và bạn sẽ nhận được những gì bạn thường nhận."
       },
       "JUUI": {
         "name": "Cẩn thận",
@@ -293,31 +293,50 @@ export const vi: Dictionary = {
     "luckyDirection": "Hướng",
     "luckyTime": "Giờ",
     "luckyNumber": "Số",
+    "luckyColors": {
+      "TEAL": "xanh ngọc",
+      "GREEN": "xanh lá",
+      "RED": "đỏ",
+      "ORANGE": "cam",
+      "YELLOW": "vàng",
+      "OCHRE": "màu đất",
+      "WHITE": "trắng",
+      "GOLD": "vàng",
+      "BLACK": "đen",
+      "NAVY": "xanh đậm"
+    },
+    "luckyDirections": {
+      "EAST": "Đông",
+      "SOUTH": "Nam",
+      "CENTER": "Giữa",
+      "WEST": "Tây",
+      "NORTH": "Bắc"
+    },
     "basisTitle": "Nơi điểm số này đến từ",
     "factors": {
       "TODAY_IS_YONGSIN": "Yếu tố hôm nay là thứ mà biểu đồ của bạn cần",
       "TODAY_GENERATES_YONGSIN": "Yếu tố hôm nay nuôi dưỡng thứ mà biểu đồ của bạn cần",
-      "TODAY_IS_GISIN": "Yếu tố hôm nay đẩy mạnh phía đã đầy đủ",
+      "TODAY_IS_GISIN": "Yếu tố hôm nay đẩy mạnh phía đã đầy",
       "TODAY_CONTROLS_YONGSIN": "Yếu tố hôm nay giữ lại thứ mà biểu đồ của bạn cần",
       "TODAY_GENERATES_SELF": "Yếu tố hôm nay hỗ trợ ngày chủ của bạn",
       "TODAY_SAME_ELEMENT": "Yếu tố hôm nay giống như ngày chủ của bạn",
       "SELF_GENERATES_TODAY": "Ngày chủ của bạn chảy ra yếu tố hôm nay",
       "TODAY_CONTROLS_SELF": "Yếu tố hôm nay giữ lại ngày chủ của bạn",
       "SELF_CONTROLS_TODAY": "Ngày chủ của bạn giữ lại yếu tố hôm nay",
-      "WEAK_HELPED": "Một ngày chủ yếu yếu được tiếp sức hôm nay",
+      "WEAK_HELPED": "Một ngày chủ yếu yếu được tăng cường hôm nay",
       "STRONG_OVERFED": "Một ngày chủ yếu mạnh trở nên nặng nề hơn hôm nay",
-      "STRONG_DRAINED": "Một ngày chủ yếu mạnh được giảm bớt đến sự cân bằng tốt hơn hôm nay",
-      "WEAK_BURDENED": "Một ngày chủ yếu yếu bị thêm gánh nặng hôm nay",
+      "STRONG_DRAINED": "Một ngày chủ yếu mạnh được giảm bớt để cân bằng tốt hơn hôm nay",
+      "WEAK_BURDENED": "Một ngày chủ yếu yếu được giao thêm gánh nặng hôm nay",
       "BRANCH_SAMHAP": "Nhánh hôm nay tạo thành một tam hợp đầy đủ với biểu đồ của bạn",
-      "BRANCH_BANHAP": "Nhánh hôm nay tạo thành một nửa hợp với biểu đồ của bạn",
+      "BRANCH_BANHAP": "Nhánh hôm nay tạo thành một bán hợp với biểu đồ của bạn",
       "BRANCH_YUKHAP": "Nhánh hôm nay tạo thành một lục hợp với biểu đồ của bạn",
       "BRANCH_SAME": "Nhánh hôm nay giống như một nhánh trong biểu đồ của bạn",
       "BRANCH_NEUTRAL": "Nhánh hôm nay không có mối liên hệ đặc biệt với biểu đồ của bạn",
       "BRANCH_WONJIN": "Nhánh hôm nay ngồi trong sự bất hòa yên tĩnh với biểu đồ của bạn",
       "BRANCH_CHUNG": "Nhánh hôm nay va chạm với biểu đồ của bạn"
     },
-    "bookmarkHint": "Chúng tôi không lưu trữ ngày sinh của bạn, vì vậy bạn phải nhập lại mỗi lần. **Đánh dấu liên kết kết quả này** và nó sẽ mở vận mệnh của ngày đó mỗi ngày.",
-    "disclaimer": "Vận mệnh hôm nay chuyển đổi mối quan hệ giữa cột ngày và biểu đồ của bạn thành một điểm số. Đây là ghi chú về cách trải qua ngày, không phải là một lời tiên tri."
+    "bookmarkHint": "Chúng tôi không lưu ngày sinh của bạn, vì vậy bạn phải nhập lại mỗi lần. **Đánh dấu liên kết kết quả này** và nó sẽ mở vận mệnh của ngày đó mỗi ngày.",
+    "disclaimer": "Vận mệnh hôm nay chuyển đổi mối quan hệ giữa cột ngày và biểu đồ của bạn thành một điểm số. Đây là một ghi chú về cách dành thời gian trong ngày, không phải là một lời tiên tri."
   },
   "ads": {
     "label": "Quảng cáo"

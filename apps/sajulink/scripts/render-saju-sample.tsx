@@ -20,7 +20,7 @@ import {
   todayPillarOf,
   yearPillarOf,
 } from "../src/lib/engines/today-fortune";
-import { getDictionary, type Locale } from "../src/lib/i18n";
+import { getDictionary, translatedLocales, type Locale } from "../src/lib/i18n";
 import { renderSajuReport } from "../src/lib/pdf/saju-report";
 import type { SajuInterpretation } from "../src/lib/saju-interpretation";
 import type { ReportKind } from "../src/lib/report-product";
@@ -144,7 +144,9 @@ async function main() {
   // 돌릴 때마다 값이 바뀌면 지면 검사 결과를 견줄 수 없다.
   const today = todayFortune(reading, todayPillarOf("2026-08-04"));
 
-  const locales: Locale[] = ["ko", "en"];
+  // **번역이 있는 로케일을 전부 낸다.** ko·en으로 못 박아 두었더니 ja·vi를 더한 뒤에도
+  // 그 둘만 재고 넘어갔다 — 지면이 깨지는 것은 글자가 다른 언어에서다.
+  const locales: Locale[] = [...translatedLocales];
   const kinds: ReportKind[] = ["chongun", "premium"];
 
   // **두 경우를 다 낸다.** 해설이 온 문서와 오지 않은 문서의 장수가 같아야 상품 정보 고시가

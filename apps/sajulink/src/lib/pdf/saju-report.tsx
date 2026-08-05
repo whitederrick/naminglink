@@ -729,8 +729,10 @@ function SajuReport({
               style={styles.body}
               text={[
                 `${t.luckyElement} ${dictionary.elements[today.lucky.element] ?? today.lucky.element}`,
-                `${t.luckyColor} ${today.lucky.colorsKo.join(", ")}`,
-                `${t.luckyDirection} ${today.lucky.directionKo}`,
+                // **사전에서 찾는다.** 예전에는 엔진의 한국어 필드를 로케일과 상관없이 찍어
+                // 일본어·베트남어 PDF에도 "청록, 초록 / 동"이 한국어로 나갔다.
+                `${t.luckyColor} ${today.lucky.colors.map((color) => t.luckyColors[color]).join(", ")}`,
+                `${t.luckyDirection} ${t.luckyDirections[today.lucky.direction]}`,
                 `${t.luckyTime} ${today.lucky.timeRange}`,
                 `${t.luckyNumber} ${today.lucky.numbers.join(", ")}`,
               ].join("   ")}

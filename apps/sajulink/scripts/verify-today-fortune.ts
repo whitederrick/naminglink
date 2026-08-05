@@ -131,7 +131,7 @@ check("원국 지지를 뽑는다", natalBranches(reading).length >= 3, `${natal
 check(
   "행운 요소가 용신에서 나온다",
   a.lucky.element === (reading.favorableElements[0] ?? reading.dayMaster.element),
-  `${a.lucky.element} · ${a.lucky.directionKo} · ${a.lucky.timeRange}`,
+  `${a.lucky.element} · ${a.lucky.direction} · ${a.lucky.timeRange}`,
 );
 check(
   "서울 자정을 기준으로 날짜를 잡는다",
