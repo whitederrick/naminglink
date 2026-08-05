@@ -103,7 +103,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. International Transfers of Personal Data",
+          title: "5. Cookies and Advertising",
+          paragraphs: [
+            "The service itself does not use cookies to identify or track visitors. What you enter for a name analysis is never passed to an advertising provider.",
+            "This service shows advertising through Google AdSense. In doing so, third-party vendors including Google may store or read cookies in your browser, and Google uses cookies to serve ads based on your visits to this and other sites.",
+            "The same cookies are used when you watch a rewarded ad or use the offerwall. The service only learns whether the ad was watched through and that the corresponding reward was granted; it receives no information from the ad provider that could identify you.",
+            "You can opt out of personalised advertising in Google Ads Settings (google.com/settings/ads). Opting out does not remove ads — it only makes them less relevant to you. Personalised advertising from third-party vendors generally can be switched off in one place at aboutads.info/choices, and you may also block cookies in your browser settings.",
+            "For visitors in the European Economic Area, the United Kingdom and Switzerland, consent is requested through Google’s consent message before any advertising cookie is used.",
+          ],
+        },
+        {
+          title: "6. International Transfers of Personal Data",
           paragraphs: [
             "To provide the service, the company transfers personal data abroad (as processing entrustment) as set out below. Transfers are made electronically over the network.",
             "(1) OpenAI, L.L.C. (United States) — Items transferred: analysis inputs such as name, date and time of birth, gender, country, and language — Purpose: AI-based name, pronunciation, and meaning analysis — Retention: for the service period (per OpenAI's policy, API inputs are not used to train models and are retained for up to 30 days for abuse monitoring, then deleted).",
@@ -113,13 +123,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Your Rights",
+          title: "7. Your Rights",
           paragraphs: [
             "You may request access to, correction of, deletion of, or suspension of processing of your personal information, and may withdraw consent. Requests are received by email at the customer center and processed after identity verification.",
           ],
         },
         {
-          title: "7. Privacy Officer",
+          title: "8. Privacy Officer",
           paragraphs: [
             `Officer: ${companyInfo.privacyOfficer}`,
             `Email: ${companyInfo.email}`,

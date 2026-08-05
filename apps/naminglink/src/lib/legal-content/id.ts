@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Pemindahan Data Pribadi ke Luar Negeri",
+          title: "5. Cookie dan Iklan",
+          paragraphs: [
+            "Layanan itu sendiri tidak menggunakan cookie untuk mengidentifikasi atau melacak pengguna. Informasi yang dimasukkan dalam analisis nama tidak disampaikan kepada pengiklan.",
+            "Layanan ini menampilkan iklan melalui Google AdSense. Dalam proses ini, penyedia pihak ketiga termasuk Google dapat menyimpan atau membaca cookie di browser pengguna, dan Google menggunakan cookie berdasarkan riwayat kunjungan ke situs ini dan beberapa situs lainnya untuk menampilkan iklan.",
+            "Cookie yang sama juga digunakan ketika menggunakan iklan berbasis imbalan dan offer wall. Layanan hanya memverifikasi apakah iklan telah ditonton sampai selesai dan fakta pembayaran imbalan yang terkait, dan tidak menerima informasi yang dapat mengidentifikasi pengguna dari pengiklan.",
+            "Pengguna dapat menonaktifkan iklan yang disesuaikan di pengaturan iklan Google (google.com/settings/ads). Meskipun dinonaktifkan, iklan itu sendiri akan tetap ditampilkan, hanya relevansinya dengan pengguna yang akan berkurang. Iklan yang disesuaikan dari semua penyedia pihak ketiga dapat dinonaktifkan sekaligus di aboutads.info/choices, dan ada juga cara untuk memblokir cookie di pengaturan browser.",
+            "Untuk pengguna di Wilayah Ekonomi Eropa, Inggris, dan Swiss, persetujuan akan diminta terlebih dahulu melalui pesan persetujuan Google sebelum menggunakan cookie iklan.",
+          ],
+        },
+        {
+          title: "6. Pemindahan Data Pribadi ke Luar Negeri",
           paragraphs: [
             "Perusahaan memindahkan (menugaskan pemrosesan) data pribadi ke luar negeri untuk penyediaan layanan sebagai berikut. Pemindahan dilakukan melalui metode transmisi melalui jaringan komunikasi.",
             "① OpenAI, L.L.C. (Amerika Serikat) — Item yang dipindahkan: nama, tanggal lahir, waktu lahir, jenis kelamin, negara, bahasa, dan input analisis lainnya — Tujuan pemindahan: analisis nama, pengucapan, dan makna berbasis AI — Periode penyimpanan dan penggunaan: selama periode penyediaan layanan (data input tidak digunakan untuk pelatihan model berdasarkan kebijakan OpenAI dan akan dihapus setelah maksimum 30 hari untuk tujuan pemantauan penyalahgunaan).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Hak Pengguna",
+          title: "7. Hak Pengguna",
           paragraphs: [
             "Pengguna dapat meminta akses, perbaikan, penghapusan, penghentian pemrosesan, dan penarikan persetujuan atas data pribadi. Permintaan dapat diajukan melalui email pusat layanan pelanggan dan akan diproses setelah verifikasi identitas.",
           ],
         },
         {
-          title: "7. Penanggung Jawab Perlindungan Data Pribadi",
+          title: "8. Penanggung Jawab Perlindungan Data Pribadi",
           paragraphs: [
             "Penanggung jawab: Gwak Eun-ha",
             "Email: platforest.inc@gmail.com",

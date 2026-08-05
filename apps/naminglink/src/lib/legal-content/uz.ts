@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Shaxsiy ma'lumotlarni xorijga o'tkazish",
+          title: "5. Cookie va reklama",
+          paragraphs: [
+            "Xizmat o'z-o'zidan foydalanuvchini aniqlash yoki kuzatish uchun cookie-lardan foydalanmaydi. Ism tahliliga kiritilgan ma'lumotlar reklama operatorlariga uzatilmaydi.",
+            "Ushbu xizmat Google AdSense orqali reklama joylashtiradi. Ushbu jarayonda Googleni o'z ichiga olgan uchinchi tomon ta'minotchilari foydalanuvchining brauzeriga cookie-larni saqlashi yoki o'qishi mumkin va Google ushbu saytni o'z ichiga olgan bir nechta saytlar bo'yicha tashriflar tarixiga asoslanib reklama joylashtirish uchun cookie-lardan foydalanadi.",
+            "Mukofotli reklama va taklif devorini ishlatishda ham bir xil cookie-lar ishlatiladi. Xizmat reklama oxirigacha ko'rilganligini va shunga mos ravishda mukofot to'lanishini tasdiqlaydi, ammo reklama operatoridan foydalanuvchini aniqlashga oid ma'lumotlarni olmaydi.",
+            "Foydalanuvchilar Google reklama sozlamalarida (google.com/settings/ads) moslashtirilgan reklamalardan voz kechishlari mumkin. Voz kechgan taqdirda ham reklama o'z-o'zidan ko'rsatiladi, faqat foydalanuvchi bilan bog'liqlik kamayadi. Uchinchilar ta'minotchilari bo'yicha moslashtirilgan reklamalardan bir marta voz kechish uchun aboutads.info/choices saytiga kirish mumkin va brauzer sozlamalarida cookie-larni bloklash usuli ham mavjud.",
+            "Yevropa Iqtisodiy Hududi, Buyuk Britaniya va Shveytsariya foydalanuvchilariga reklama cookie-laridan foydalanishdan oldin Google tomonidan rozilik xabari orqali rozilik so'raladi.",
+          ],
+        },
+        {
+          title: "6. Shaxsiy ma'lumotlarni xorijga o'tkazish",
           paragraphs: [
             "Kompaniya xizmat ko'rsatish maqsadida quyidagi tarzda shaxsiy ma'lumotlarni xorijga o'tkazadi (qayta ishlashni topshirish). O'tkazish axborot-kommunikatsiya tarmog'i orqali amalga oshiriladi.",
             "① OpenAI, L.L.C. (AQSh) — o'tkaziladigan ma'lumotlar: ism, tug'ilgan sana, tug'ilgan vaqt, jins, mamlakat, til va boshqalar — o'tkazish maqsadi: AI asosidagi ism, talaffuz, ma'no tahlili — saqlash va foydalanish muddati: xizmat ko'rsatish muddati (kiritilgan ma'lumotlar OpenAI siyosati bo'yicha model o'qitish uchun ishlatilmaydi va suiiste'molni monitoring qilish maqsadida maksimal 30 kun saqlanadi).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Foydalanuvchilarning huquqlari",
+          title: "7. Foydalanuvchilarning huquqlari",
           paragraphs: [
             "Foydalanuvchilar shaxsiy ma'lumotlarni ko'rish, tuzatish, o'chirish, qayta ishlashni to'xtatish, rozilikni bekor qilishni so'rashlari mumkin. So'rovlar mijozlar markazining elektron pochta manziliga qabul qilinadi va shaxsni tasdiqlashdan so'ng amalga oshiriladi.",
           ],
         },
         {
-          title: "7. Shaxsiy ma'lumotlarni himoya qilish bo'yicha mas'ul shaxs",
+          title: "8. Shaxsiy ma'lumotlarni himoya qilish bo'yicha mas'ul shaxs",
           paragraphs: [
             "Mas'ul shaxs: Kvak Unha",
             "Elektron pochta: platforest.inc@gmail.com",

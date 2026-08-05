@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Transferência Internacional de Dados Pessoais",
+          title: "5. Cookies e Anúncios",
+          paragraphs: [
+            "O serviço em si não utiliza cookies para identificar ou rastrear os usuários. As informações inseridas na análise de nomes não são transmitidas a anunciantes.",
+            "Este serviço exibe anúncios através do Google AdSense. Nesse processo, fornecedores terceiros, incluindo o Google, podem armazenar ou ler cookies no navegador do usuário, e o Google utiliza cookies com base no histórico de visitas a este e a vários outros sites para exibir anúncios.",
+            "Os mesmos cookies são utilizados ao utilizar anúncios remunerados e ofertas. O serviço apenas verifica se o anúncio foi visualizado até o final e a consequente confirmação de pagamento, não recebendo informações que possam identificar o usuário por parte do anunciante.",
+            "Os usuários podem desativar anúncios personalizados nas configurações de anúncios do Google (google.com/settings/ads). Mesmo após a desativação, os anúncios continuarão a ser exibidos, mas a relevância para o usuário será reduzida. Anúncios personalizados de fornecedores terceiros podem ser desativados de uma só vez em aboutads.info/choices, e também é possível bloquear cookies nas configurações do navegador.",
+            "Para usuários da Área Econômica Europeia, Reino Unido e Suíça, é solicitado consentimento através de uma mensagem de consentimento do Google antes de usar cookies de anúncios.",
+          ],
+        },
+        {
+          title: "6. Transferência Internacional de Dados Pessoais",
           paragraphs: [
             "A empresa transfere (subcontrata o processamento) dados pessoais para o exterior conforme descrito abaixo para fornecer o serviço. A transferência é realizada por meio de transmissão através de redes de comunicação.",
             "① OpenAI, L.L.C. (Estados Unidos) — Itens transferidos: nome, data de nascimento e hora de nascimento, gênero, país, idioma e outros valores de entrada para análise — Finalidade da transferência: análise de nomes, pronúncias e significados baseados em IA — Período de retenção e uso: durante o período de fornecimento do serviço (os dados de entrada não são utilizados para treinamento de modelos de acordo com a política da OpenAI e são excluídos após um máximo de 30 dias para fins de monitoramento de abusos).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Direitos dos Usuários",
+          title: "7. Direitos dos Usuários",
           paragraphs: [
             "Os usuários podem solicitar acesso, correção, exclusão, suspensão do processamento e revogação do consentimento dos dados pessoais. As solicitações devem ser enviadas por e-mail para o atendimento ao cliente e serão processadas após verificação da identidade.",
           ],
         },
         {
-          title: "7. Responsável pela Proteção de Dados Pessoais",
+          title: "8. Responsável pela Proteção de Dados Pessoais",
           paragraphs: [
             "Responsável: Gwak Eun-ha",
             "E-mail: platforest.inc@gmail.com",

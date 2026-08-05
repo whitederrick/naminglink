@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Przekazywanie danych osobowych za granicę",
+          title: "5. Pliki cookie i reklamy",
+          paragraphs: [
+            "Usługa sama w sobie nie używa plików cookie do identyfikacji lub śledzenia użytkowników. Informacje wprowadzone w analizie nazw nie są przekazywane reklamodawcom.",
+            "Usługa wyświetla reklamy za pośrednictwem Google AdSense. W tym procesie dostawcy zewnętrzni, w tym Google, mogą przechowywać lub odczytywać pliki cookie w przeglądarce użytkownika, a Google używa plików cookie do wyświetlania reklam na podstawie historii odwiedzin tej i innych stron.",
+            "W przypadku korzystania z reklam wynagradzających i ofert również używane są te same pliki cookie. Usługa jedynie sprawdza, czy reklama została obejrzana do końca oraz czy nastąpiła wypłata wynagrodzenia, nie otrzymując informacji umożliwiających identyfikację użytkownika od reklamodawców.",
+            "Użytkownik może wyłączyć spersonalizowane reklamy w ustawieniach reklam Google (google.com/settings/ads). Nawet po wyłączeniu reklamy będą nadal wyświetlane, ale ich związki z użytkownikiem będą mniejsze. Spersonalizowane reklamy od wszystkich dostawców zewnętrznych można wyłączyć jednocześnie na aboutads.info/choices, a także można zablokować pliki cookie w ustawieniach przeglądarki.",
+            "Użytkownicy z Europejskiego Obszaru Gospodarczego, Wielkiej Brytanii i Szwajcarii są najpierw pytani o zgodę za pośrednictwem komunikatu o zgodzie Google przed użyciem plików cookie reklamowych.",
+          ],
+        },
+        {
+          title: "6. Przekazywanie danych osobowych za granicę",
           paragraphs: [
             "Firma przekazuje dane osobowe za granicę w celu świadczenia usług, jak opisano poniżej. Przekazanie odbywa się za pomocą transmisji przez sieć telekomunikacyjną.",
             "① OpenAI, L.L.C. (USA) — Przekazywane dane: imię, data urodzenia, czas urodzenia, płeć, kraj, język itp. — Cel przekazania: analiza imion, wymowy i znaczenia oparta na AI — Okres przechowywania i wykorzystania: czas świadczenia usługi (dane wejściowe nie są wykorzystywane do uczenia modeli zgodnie z polityką OpenAI i są przechowywane maksymalnie przez 30 dni w celach monitorowania nadużyć, a następnie usuwane).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Prawa użytkowników",
+          title: "7. Prawa użytkowników",
           paragraphs: [
             "Użytkownicy mogą żądać dostępu do danych osobowych, ich poprawy, usunięcia, wstrzymania przetwarzania oraz wycofania zgody. Żądania są przyjmowane za pośrednictwem e-maila do centrum obsługi klienta i są przetwarzane po weryfikacji tożsamości.",
           ],
         },
         {
-          title: "7. Inspektor ochrony danych osobowych",
+          title: "8. Inspektor ochrony danych osobowych",
           paragraphs: [
             "Osoba odpowiedzialna: Gwak Eun-ha",
             "E-mail: platforest.inc@gmail.com",

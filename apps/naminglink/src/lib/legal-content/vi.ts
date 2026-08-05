@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Chuyển giao thông tin cá nhân ra nước ngoài",
+          title: "5. Cookies và Quảng cáo",
+          paragraphs: [
+            "Dịch vụ này không sử dụng cookie để xác định hoặc theo dõi người dùng. Thông tin nhập vào phân tích tên không được chuyển cho các nhà quảng cáo.",
+            "Dịch vụ này hiển thị quảng cáo thông qua Google AdSense. Trong quá trình này, các nhà cung cấp bên thứ ba, bao gồm Google, có thể lưu trữ hoặc đọc cookie trên trình duyệt của người dùng, và Google sử dụng cookie để hiển thị quảng cáo dựa trên lịch sử truy cập của người dùng trên trang web này và nhiều trang web khác.",
+            "Ngay cả khi sử dụng quảng cáo có thưởng và offerwall, cùng một cookie cũng được sử dụng. Dịch vụ chỉ xác nhận việc người dùng đã xem quảng cáo đến cuối hay không và việc thanh toán thưởng tương ứng, mà không nhận thông tin có thể xác định người dùng từ các nhà quảng cáo.",
+            "Người dùng có thể tắt quảng cáo tùy chỉnh tại cài đặt quảng cáo của Google (google.com/settings/ads). Dù tắt thì quảng cáo vẫn sẽ tiếp tục hiển thị, chỉ là mức độ liên quan đến người dùng sẽ giảm. Quảng cáo tùy chỉnh từ tất cả các nhà cung cấp bên thứ ba có thể được tắt một lần tại aboutads.info/choices, và cũng có thể chặn cookie trong cài đặt trình duyệt.",
+            "Đối với người dùng ở Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thụy Sĩ, trước khi sử dụng cookie quảng cáo, Google sẽ hỏi ý kiến đồng ý thông qua thông điệp đồng ý.",
+          ],
+        },
+        {
+          title: "6. Chuyển giao thông tin cá nhân ra nước ngoài",
           paragraphs: [
             "Công ty sẽ chuyển giao thông tin cá nhân ra nước ngoài như sau để cung cấp dịch vụ. Việc chuyển giao sẽ được thực hiện qua phương thức truyền tải qua mạng thông tin.",
             "① OpenAI, L.L.C. (Mỹ) — Các mục chuyển giao: tên, ngày sinh, giờ sinh, giới tính, quốc gia, ngôn ngữ và các giá trị đầu vào phân tích — Mục đích chuyển giao: phân tích tên, phát âm, ý nghĩa dựa trên AI — Thời gian lưu trữ và sử dụng: trong thời gian cung cấp dịch vụ (dữ liệu đầu vào sẽ không được sử dụng cho việc học mô hình theo chính sách của OpenAI và sẽ được lưu trữ tối đa 30 ngày để giám sát lạm dụng trước khi bị xóa).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Quyền của người sử dụng",
+          title: "7. Quyền của người sử dụng",
           paragraphs: [
             "Người sử dụng có quyền yêu cầu xem, chỉnh sửa, xóa, ngừng xử lý và rút lại sự đồng ý về thông tin cá nhân. Các yêu cầu sẽ được tiếp nhận qua email của trung tâm dịch vụ khách hàng và sẽ được xử lý sau khi xác minh danh tính.",
           ],
         },
         {
-          title: "7. Người chịu trách nhiệm bảo vệ thông tin cá nhân",
+          title: "8. Người chịu trách nhiệm bảo vệ thông tin cá nhân",
           paragraphs: [
             "Người chịu trách nhiệm: 곽은하",
             "Email: platforest.inc@gmail.com",

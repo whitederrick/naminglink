@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Trasferimento di dati personali all'estero",
+          title: "5. Cookie e pubblicità",
+          paragraphs: [
+            "Il servizio stesso non utilizza cookie per identificare o tracciare gli utenti. Le informazioni inserite nell'analisi del nome non vengono trasmesse agli inserzionisti.",
+            "Questo servizio pubblica annunci tramite Google AdSense. In questo processo, fornitori terzi, incluso Google, possono memorizzare o leggere cookie nel browser dell'utente, e Google utilizza i cookie per pubblicare annunci basati sulla cronologia di navigazione su questo e su altri siti.",
+            "Anche nel caso di pubblicità retribuita e offerte, vengono utilizzati gli stessi cookie. Il servizio verifica solo se l'annuncio è stato visualizzato fino alla fine e il relativo pagamento della ricompensa, senza ricevere informazioni identificabili dall'inserzionista.",
+            "Gli utenti possono disattivare gli annunci personalizzati nelle impostazioni pubblicitarie di Google (google.com/settings/ads). Anche se disattivato, gli annunci continueranno a essere visualizzati, ma la loro rilevanza per l'utente diminuirà. Gli annunci personalizzati di tutti i fornitori terzi possono essere disattivati contemporaneamente su aboutads.info/choices, e c'è anche un modo per bloccare i cookie nelle impostazioni del browser.",
+            "Agli utenti dello Spazio Economico Europeo, del Regno Unito e della Svizzera viene chiesto di fornire il consenso tramite un messaggio di consenso di Google prima di utilizzare i cookie pubblicitari.",
+          ],
+        },
+        {
+          title: "6. Trasferimento di dati personali all'estero",
           paragraphs: [
             "L'azienda trasferisce (delega il trattamento) i dati personali all'estero come segue per fornire il servizio. Il trasferimento avviene tramite modalità di trasmissione attraverso reti di telecomunicazione.",
             "① OpenAI, L.L.C. (Stati Uniti) — Categorie trasferite: nome, data di nascita, ora di nascita, sesso, paese, lingua e altri valori di input analitici — Scopo del trasferimento: analisi di nomi, pronunce e significati basati su AI — Periodo di conservazione e utilizzo: durata del servizio fornito (i dati di input non vengono utilizzati per l'apprendimento del modello secondo le politiche di OpenAI e vengono conservati per un massimo di 30 giorni per scopi di monitoraggio degli abusi prima di essere eliminati).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Diritti degli utenti",
+          title: "7. Diritti degli utenti",
           paragraphs: [
             "Gli utenti possono richiedere l'accesso, la correzione, la cancellazione, la sospensione del trattamento e la revoca del consenso ai dati personali. Le richieste vengono ricevute tramite email al servizio clienti e vengono elaborate dopo la verifica dell'identità.",
           ],
         },
         {
-          title: "7. Responsabile della protezione dei dati personali",
+          title: "8. Responsabile della protezione dei dati personali",
           paragraphs: [
             "Responsabile: Gwak Eun-ha",
             "Email: platforest.inc@gmail.com",

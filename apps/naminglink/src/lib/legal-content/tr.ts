@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Kişisel Verilerin Yurt Dışına Aktarılması",
+          title: "5. Çerezler ve Reklam",
+          paragraphs: [
+            "Hizmet kendine özgü kullanıcıları tanımlamak veya izlemek için çerez kullanmamaktadır. İsim analizi için girilen bilgiler reklam verenlere iletilmemektedir.",
+            "Bu hizmet, Google AdSense aracılığıyla reklam yayınlamaktadır. Bu süreçte Google da dahil olmak üzere üçüncü taraf sağlayıcılar, kullanıcıların tarayıcısına çerezler kaydedebilir veya okuyabilir ve Google, bu site de dahil olmak üzere çeşitli sitelerin ziyaret geçmişine dayanarak reklam yayınlamak için çerez kullanmaktadır.",
+            "Tazminatlı reklamlar ve teklif duvarları kullanıldığında da aynı çerezler kullanılmaktadır. Hizmet, reklamların sonuna kadar izlenip izlenmediğini ve buna bağlı olarak tazminatın verilip verilmediğini kontrol etmekte, ancak reklam verenlerden kullanıcıyı tanımlayabilecek bilgiler almamaktadır.",
+            "Kullanıcı, Google reklam ayarları (google.com/settings/ads) üzerinden kişiselleştirilmiş reklamları devre dışı bırakabilir. Devre dışı bırakma işlemi yapılsa bile reklamlar gösterilmeye devam edecek ve kullanıcı ile ilgili olanların sayısı azalacaktır. Üçüncü taraf sağlayıcıların kişiselleştirilmiş reklamları, aboutads.info/choices adresinden tek seferde devre dışı bırakılabilir ve tarayıcı ayarlarından çerezlerin engellenmesi de mümkündür.",
+            "Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre kullanıcıları için reklam çerezleri kullanılmadan önce Google'ın onay mesajı ile öncelikle onay alınmaktadır.",
+          ],
+        },
+        {
+          title: "6. Kişisel Verilerin Yurt Dışına Aktarılması",
           paragraphs: [
             "Şirket, hizmet sağlamak amacıyla aşağıda belirtilen kişisel verileri yurt dışına aktarmaktadır (işleme dışa yükleme). Aktarım, bilgi iletişim ağı üzerinden yapılmaktadır.",
             "① OpenAI, L.L.C. (ABD) — Aktarılan veriler: isim, doğum tarihi ve saati, cinsiyet, ülke, dil gibi analiz girdi değerleri — Aktarım amacı: AI tabanlı isim, telaffuz, anlam analizi — Saklama ve kullanım süresi: hizmet sağlama süresi (girdi verileri OpenAI politikası gereği model eğitimi için kullanılmaz ve kötüye kullanım izleme amacıyla en fazla 30 gün saklanır ve ardından silinir).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Kullanıcıların Hakları",
+          title: "7. Kullanıcıların Hakları",
           paragraphs: [
             "Kullanıcılar, kişisel verilere erişim, düzeltme, silme, işleme durdurma ve onay iptali talep edebilirler. Talepler, müşteri hizmetleri e-posta adresine iletilir ve kimlik doğrulama sonrası işlenir.",
           ],
         },
         {
-          title: "7. Kişisel Verilerin Korunmasından Sorumlu Kişi",
+          title: "8. Kişisel Verilerin Korunmasından Sorumlu Kişi",
           paragraphs: [
             "Sorumlu kişi: Kwak Eun-ha",
             "E-posta: platforest.inc@gmail.com",

@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Pemindahan Maklumat Peribadi ke Luar Negara",
+          title: "5. Kuki dan Iklan",
+          paragraphs: [
+            "Perkhidmatan itu sendiri tidak menggunakan kuki untuk mengenal pasti atau menjejak pengguna. Maklumat yang dimasukkan dalam analisis nama tidak disampaikan kepada pengiklan.",
+            "Perkhidmatan ini menyiarkan iklan melalui Google AdSense. Dalam proses ini, pembekal pihak ketiga termasuk Google boleh menyimpan atau membaca kuki dalam pelayar pengguna, dan Google menggunakan kuki berdasarkan sejarah lawatan ke laman ini dan beberapa laman lain untuk menyiarkan iklan.",
+            "Kuki yang sama digunakan walaupun dalam kes iklan berbayar dan tawaran. Perkhidmatan hanya mengesahkan sama ada iklan telah ditonton sepenuhnya dan fakta pembayaran ganjaran yang berkaitan, dan tidak menerima maklumat yang boleh mengenal pasti pengguna daripada pengiklan.",
+            "Pengguna boleh mematikan iklan tersuai di tetapan iklan Google (google.com/settings/ads). Walaupun dimatikan, iklan itu masih akan dipaparkan tetapi relevansinya dengan pengguna akan berkurangan. Iklan tersuai daripada semua pembekal pihak ketiga boleh dimatikan sekaligus di aboutads.info/choices, dan terdapat juga cara untuk menyekat kuki dalam tetapan pelayar.",
+            "Bagi pengguna di Kawasan Ekonomi Eropah, UK, dan Switzerland, persetujuan akan diminta terlebih dahulu melalui mesej persetujuan Google sebelum menggunakan kuki iklan.",
+          ],
+        },
+        {
+          title: "6. Pemindahan Maklumat Peribadi ke Luar Negara",
           paragraphs: [
             "Syarikat memindahkan (menyerahkan pemprosesan) maklumat peribadi ke luar negara seperti berikut untuk penyediaan perkhidmatan. Pemindahan dilakukan melalui kaedah penghantaran melalui rangkaian komunikasi.",
             "① OpenAI, L.L.C. (Amerika Syarikat) — Item yang dipindahkan: nama, tarikh lahir, waktu lahir, jantina, negara, bahasa dan lain-lain input analisis — Tujuan pemindahan: analisis nama, sebutan, dan makna berdasarkan AI — Tempoh penyimpanan dan penggunaan: tempoh penyediaan perkhidmatan (data input tidak digunakan untuk latihan model mengikut dasar OpenAI dan disimpan selama maksimum 30 hari untuk tujuan pemantauan penyalahgunaan sebelum dipadam).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Hak Pengguna",
+          title: "7. Hak Pengguna",
           paragraphs: [
             "Pengguna boleh meminta akses, pembetulan, pemadaman, penghentian pemprosesan, dan penarikan balik persetujuan terhadap maklumat peribadi. Permintaan akan diterima melalui emel pusat pelanggan dan akan diproses selepas pengesahan identiti.",
           ],
         },
         {
-          title: "7. Pegawai Bertanggungjawab untuk Perlindungan Maklumat Peribadi",
+          title: "8. Pegawai Bertanggungjawab untuk Perlindungan Maklumat Peribadi",
           paragraphs: [
             "Pegawai: Gwak Eun-ha",
             "Emel: platforest.inc@gmail.com",

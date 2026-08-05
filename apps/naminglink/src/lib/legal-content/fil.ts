@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Paglipat ng Personal na Impormasyon sa Ibang Bansa",
+          title: "5. Cookies at Patalastas",
+          paragraphs: [
+            "Ang serbisyo mismo ay hindi gumagamit ng cookies upang makilala o subaybayan ang mga gumagamit. Ang impormasyong ipinasok sa pangalan ng pagsusuri ay hindi ibinabahagi sa mga advertiser.",
+            "Ang serbisyong ito ay naglalathala ng mga advertisement sa pamamagitan ng Google AdSense. Sa prosesong ito, ang mga third-party na provider kasama ang Google ay maaaring mag-imbak o magbasa ng cookies sa browser ng gumagamit, at ginagamit ng Google ang cookies batay sa mga rekord ng pagbisita sa site na ito at iba pang mga site upang magpakita ng mga advertisement.",
+            "Kahit na gumagamit ng mga reward-based na advertisement at offer wall, ang parehong cookies ay ginagamit. Tanging kinukumpirma ng serbisyo kung ang advertisement ay napanood nang buo at ang pagbabayad ng reward, at hindi tumatanggap ng impormasyon na makikilala ang gumagamit mula sa mga advertiser.",
+            "Maaaring i-disable ng mga gumagamit ang personalized na advertisement sa Google ad settings (google.com/settings/ads). Kahit na i-disable ito, ang mga advertisement ay patuloy na ipapakita, ngunit ang kaugnayan sa gumagamit ay bababa. Ang personalized na advertisement mula sa lahat ng third-party na provider ay maaaring i-disable nang sabay-sabay sa aboutads.info/choices, at may paraan din upang i-block ang cookies sa mga setting ng browser.",
+            "Para sa mga gumagamit sa European Economic Area, UK, at Switzerland, humihingi ng pahintulot ang Google sa pamamagitan ng isang consent message bago gamitin ang advertising cookies.",
+          ],
+        },
+        {
+          title: "6. Paglipat ng Personal na Impormasyon sa Ibang Bansa",
           paragraphs: [
             "Ang kumpanya ay lumilipat (nagpapasa) ng personal na impormasyon sa ibang bansa para sa pagbibigay ng serbisyo gaya ng nakasaad sa ibaba. Ang paglipat ay isinasagawa sa pamamagitan ng paraan ng pagpapadala sa pamamagitan ng mga network ng impormasyon.",
             "① OpenAI, L.L.C. (Estados Unidos) — Mga item na ililipat: pangalan, petsa ng kapanganakan, oras ng kapanganakan, kasarian, bansa, wika at iba pang mga input para sa pagsusuri — Layunin ng paglipat: pagsusuri ng pangalan, pagbigkas, at kahulugan batay sa AI — Panahon ng paghawak at paggamit: panahon ng pagbibigay ng serbisyo (ang input data ay hindi ginagamit para sa pagsasanay ng modelo ayon sa patakaran ng OpenAI at mabubura pagkatapos ng maximum na 30 araw para sa layunin ng pagmamanman ng pang-aabuso).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Mga Karapatan ng Gumagamit",
+          title: "7. Mga Karapatan ng Gumagamit",
           paragraphs: [
             "Maaaring humiling ang mga gumagamit ng pag-access, pagwawasto, pagtanggal, paghinto ng pagproseso, at pag-atras ng pahintulot sa kanilang personal na impormasyon. Ang mga kahilingan ay tinatanggap sa pamamagitan ng email ng customer service at ipoproseso pagkatapos ng pagkilala sa pagkatao.",
           ],
         },
         {
-          title: "7. Tagapangalaga ng Personal na Impormasyon",
+          title: "8. Tagapangalaga ng Personal na Impormasyon",
           paragraphs: [
             "Tagapangalaga: Kwak Eun-ha",
             "Email: platforest.inc@gmail.com",

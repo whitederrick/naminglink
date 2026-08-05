@@ -105,7 +105,17 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "5. Übertragung personenbezogener Daten ins Ausland",
+          title: "5. Cookies und Werbung",
+          paragraphs: [
+            "Der Dienst selbst verwendet keine Cookies, um Nutzer zu identifizieren oder zu verfolgen. Die Informationen, die in die Namensanalyse eingegeben werden, werden nicht an Werbetreibende weitergegeben.",
+            "Dieser Dienst zeigt Werbung über Google AdSense an. In diesem Prozess können Drittanbieter, einschließlich Google, Cookies im Browser des Nutzers speichern oder lesen, und Google verwendet Cookies, um Werbung basierend auf den Besuchshistorien dieser und anderer Websites anzuzeigen.",
+            "Auch bei der Nutzung von belohnungsbasierten Anzeigen und Offerwalls werden dieselben Cookies verwendet. Der Dienst überprüft lediglich, ob die Werbung bis zum Ende angesehen wurde und ob die Belohnung ausgezahlt wurde, erhält jedoch keine Informationen, die es dem Werbetreibenden ermöglichen, den Nutzer zu identifizieren.",
+            "Nutzer können personalisierte Werbung in den Google-Werbeeinstellungen (google.com/settings/ads) deaktivieren. Auch wenn sie deaktiviert wird, werden weiterhin Anzeigen angezeigt, jedoch mit einer geringeren Relevanz für den Nutzer. Personalisierte Werbung von Drittanbietern kann auf einmal unter aboutads.info/choices deaktiviert werden, und es gibt auch Möglichkeiten, Cookies über die Browsereinstellungen zu blockieren.",
+            "Für Nutzer im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz wird vor der Verwendung von Werbe-Cookies zunächst um Zustimmung über eine Meldung von Google gebeten.",
+          ],
+        },
+        {
+          title: "6. Übertragung personenbezogener Daten ins Ausland",
           paragraphs: [
             "Das Unternehmen überträgt personenbezogene Daten ins Ausland (Auftragsverarbeitung), um den Dienst bereitzustellen, wie unten beschrieben. Die Übertragung erfolgt über Übertragungsmethoden im Informations- und Kommunikationsnetz.",
             "① OpenAI, L.L.C. (USA) — Übertragene Daten: Name, Geburtsdatum, Geburtszeit, Geschlecht, Land, Sprache usw. — Übertragungszweck: AI-basierte Analyse von Namen, Aussprache und Bedeutung — Aufbewahrungs- und Nutzungsdauer: Dauer der Dienstbereitstellung (Eingabedaten werden gemäß der OpenAI-Richtlinie nicht für das Modelltraining verwendet und maximal 30 Tage zur Missbrauchsüberwachung aufbewahrt, bevor sie gelöscht werden).",
@@ -115,13 +125,13 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "6. Rechte der Nutzer",
+          title: "7. Rechte der Nutzer",
           paragraphs: [
             "Nutzer können die Einsichtnahme, Berichtigung, Löschung, Verarbeitungseinstellung und Widerruf der Einwilligung zu ihren personenbezogenen Daten anfordern. Anfragen werden per E-Mail an den Kundenservice entgegengenommen und nach Identitätsprüfung bearbeitet.",
           ],
         },
         {
-          title: "7. Datenschutzbeauftragter",
+          title: "8. Datenschutzbeauftragter",
           paragraphs: [
             "Verantwortlicher: 곽은하",
             "E-Mail: platforest.inc@gmail.com",
