@@ -90,9 +90,31 @@ function collect(node: unknown, mirror: unknown, trail: string[], out: Leaf[]) {
 const leaves: Leaf[] = [];
 collect(en, ko, [], leaves);
 
-const sections = [...new Set(leaves.map((leaf) => leaf.path.split(".")[0]!))].filter(
+const topLevel = [...new Set(leaves.map((leaf) => leaf.path.split(".")[0]!))].filter(
   (section) => !only || only.has(section),
 );
+
+/**
+ * **잎이 하나뿐인 절은 한 배치로 묶는다.**
+ *
+ * 최상위 문자열(`brand`·`tagline`·`currentLanguage` 같은 것)은 절마다 항목이 하나라, 그것만
+ * 담아 부르면 모델이 키를 통째로 빠뜨리고 빈 응답을 주는 일이 잦다 — ja·vi·es에서 매번
+ * 언어 선택기 문구가 en으로 떨어져 손으로 채웠다. 여러 개를 함께 주면 그 일이 없다.
+ */
+const SHORT_BATCH = "(짧은 문구)";
+const shortSections = topLevel.filter(
+  (section) => leaves.filter((leaf) => leaf.path.split(".")[0] === section).length === 1,
+);
+const sections = [
+  ...(shortSections.length ? [SHORT_BATCH] : []),
+  ...topLevel.filter((section) => !shortSections.includes(section)),
+];
+
+function itemsOf(section: string) {
+  return section === SHORT_BATCH
+    ? leaves.filter((leaf) => shortSections.includes(leaf.path.split(".")[0]!))
+    : leaves.filter((leaf) => leaf.path.split(".")[0] === section);
+}
 
 const placeholders = (value: string) => (value.match(/\{[a-zA-Z]+\}/g) ?? []).sort().join(",");
 const boldCount = (value: string) => value.split("**").length - 1;
@@ -228,7 +250,7 @@ function seedFromExistingFile() {
 async function main() {
   seedFromExistingFile();
 for (const section of sections) {
-  const items = leaves.filter((leaf) => leaf.path.split(".")[0] === section);
+  const items = itemsOf(section);
   let got: Record<string, unknown> = {};
   try {
     got = await translateSection(section, items);

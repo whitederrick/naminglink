@@ -11,6 +11,7 @@
 // (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
 // 순환이 생기지 않는다.)
 import type { LuckyColor, LuckyDirection } from "@/lib/engines/today-fortune";
+import { es } from "@/lib/i18n-locales/es";
 import { ja } from "@/lib/i18n-locales/ja";
 import { vi } from "@/lib/i18n-locales/vi";
 import { localeCodes } from "@/lib/locale-codes";
@@ -1528,6 +1529,7 @@ const dictionaries: Partial<Record<Locale, Dictionary>> = {
   en,
   ja,
   vi,
+  es,
 };
 
 export function getDictionary(locale: Locale): Dictionary {
