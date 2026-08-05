@@ -12,7 +12,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-import { supportedLocales } from "../src/lib/i18n";
+import { supportedLocales, translatedLocales } from "../src/lib/i18n";
 import { legalLocaleDocuments } from "../src/lib/legal-locales";
 import {
   LEGAL_PLACEHOLDERS,
@@ -40,12 +40,38 @@ let failures = 0;
 
 // ko·en을 뺀 21개가 빠짐없이 있는지부터 본다(타입이 Record라 컴파일에서도 걸리지만,
 // 이 스크립트만 돌려도 알 수 있게 한 번 더 확인한다).
-const expected = supportedLocales.filter((locale) => locale !== "ko" && locale !== "en");
-const missing = expected.filter((locale) => !(locale in legalLocaleDocuments));
+const others = supportedLocales.filter((locale) => locale !== "ko" && locale !== "en");
+const missing = others.filter((locale) => !(locale in legalLocaleDocuments));
 if (missing.length) {
   console.log(`FAIL 로케일 누락: ${missing.join(", ")}`);
   failures += 1;
 }
+
+/**
+ * **실제로 화면에 나가는 로케일만 검사한다.**
+ *
+ * 사주링크는 인연링크 복제로 세워서 21개 약관 번역이 딸려 왔는데, 그 내용은 전부 궁합
+ * 서비스의 것이다. 지금은 사전이 ko·en뿐이라 `getRequestLocale`이 나머지를 en으로 좁히므로
+ * 그 파일들은 **어디에도 나가지 않는다**(`src/lib/locale.ts` 참고).
+ *
+ * 나가지 않는 문서를 ko 구조에 맞추라고 요구하면, 사주로 다시 쓰기 전에 형식만 맞추는 일이
+ * 된다. 그래서 검사 대상에서 빼되 **몇 개를 왜 뺐는지 반드시 찍는다** — 조용히 줄이면
+ * "21개를 검사해 통과했다"로 읽힌다.
+ *
+ * ⑦에서 사전을 채우면 그 로케일이 여기 목록에 들어와 **곧바로 빨개진다.** 궁합 번역을 그대로
+ * 켜는 일을 막는 것이 이 장치의 목적이다.
+ */
+const served = others.filter((locale) =>
+  (translatedLocales as string[]).includes(locale),
+);
+const deferred = others.filter((locale) => !served.includes(locale));
+if (deferred.length) {
+  console.log(
+    `SKIP ${deferred.length}개 로케일 — 사전이 없어 화면에 나가지 않는다(⑦에서 사주로 다시 쓸 것): ${deferred.join(", ")}`,
+  );
+}
+
+const expected = served;
 
 for (const locale of expected) {
   const bundle = legalLocaleDocuments[locale as keyof typeof legalLocaleDocuments];
@@ -119,4 +145,14 @@ if (failures) {
   console.error(`\n${failures}개 로케일에서 문제를 찾았습니다.`);
   process.exit(1);
 }
-console.log(`\nALL PASS — ${expected.length}개 로케일 × 조합 4 × 문서 4`);
+
+// **0건을 통과로 부르지 않는다.** 지금은 ko·en뿐이라 검사할 대상이 실제로 없는 것이 맞지만,
+// 그 상태에서 "ALL PASS"라고 찍으면 나중에 목록이 잘못 비었을 때도 똑같이 초록으로 보인다.
+// 무엇을 검사했는지 세어서 말한다.
+if (expected.length === 0) {
+  console.log(
+    `\n검사한 로케일 0개 — ko·en 외에 화면에 나가는 언어가 아직 없습니다. 통과가 아니라 **검사할 것이 없는 상태**입니다.`,
+  );
+} else {
+  console.log(`\nALL PASS — ${expected.length}개 로케일 × 조합 4 × 문서 4`);
+}

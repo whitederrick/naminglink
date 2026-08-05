@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { getCompanyInfo } from "@/lib/company-server";
-import { isLocale } from "@/lib/i18n";
 import { getLegalDocument, type LegalDocumentKey } from "@/lib/legal-content";
 import { getRequestLocale } from "@/lib/locale";
 import { getAllReportPrices } from "@/lib/report-product";
@@ -27,10 +26,11 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ ok: false, error: "INVALID_KIND" }, { status: 400 });
   }
 
+  // **`isLocale`로 먼저 받지 않는다.** 그러면 `?lang=vi`처럼 아직 번역이 없는 로케일이 그대로
+  // 통과해, 화면은 영어인데 약관만 그 언어 파일에서 나온다. 번역 유무를 가르는 판단은
+  // `getRequestLocale` 한 곳에만 둔다.
   const requested = request.nextUrl.searchParams.get("lang");
-  const locale = isLocale(requested)
-    ? requested
-    : await getRequestLocale(requested ?? undefined);
+  const locale = await getRequestLocale(requested ?? undefined);
 
   const [company, prices] = await Promise.all([
     getCompanyInfo(),

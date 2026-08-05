@@ -44,7 +44,7 @@ const adsSectionKo: LegalSection = adsEnabled
   ? {
       heading: "4. 쿠키와 광고",
       paragraphs: [
-        "서비스 자체는 이용자를 식별하거나 추적하기 위한 쿠키를 사용하지 않습니다. 궁합 계산에 입력한 정보는 광고 사업자에게 전달되지 않습니다.",
+        "서비스 자체는 이용자를 식별하거나 추적하기 위한 쿠키를 사용하지 않습니다. 사주 풀이에 입력한 정보는 광고 사업자에게 전달되지 않습니다.",
         "이 서비스는 Google AdSense를 통해 광고를 게재합니다. 이 과정에서 다음과 같은 일이 일어납니다.",
       ],
       bullets: [
@@ -68,7 +68,7 @@ const adsSectionEn: LegalSection = adsEnabled
   ? {
       heading: "4. Cookies and advertising",
       paragraphs: [
-        "The service itself does not use cookies to identify or track visitors. What you enter for a compatibility reading is never passed to an advertising provider.",
+        "The service itself does not use cookies to identify or track visitors. What you enter for a reading is never passed to an advertising provider.",
         "This service shows advertising through Google AdSense. That involves the following.",
       ],
       bullets: [
@@ -100,7 +100,7 @@ const feeSectionKo: LegalSection = paymentsConfigured
   ? {
       heading: "2. 이용료",
       paragraphs: [
-        "궁합 계산과 결과 조회는 무료이며 회원가입이 필요하지 않습니다.",
+        "사주 풀이와 오늘의 운세 조회는 무료이며 회원가입이 필요하지 않습니다.",
         "결과를 PDF 리포트로 받는 것은 유료입니다. 가격과 조건은 아래 3항과 결제 화면에 표시됩니다.",
       ],
     }
@@ -117,9 +117,9 @@ export type ReportPrices = { domestic: string; global: string };
 /**
  * 파는 상품 전부의 가격.
  *
- * 예전에는 문서가 `ReportPrices` 하나만 받아 **궁합 가격만** 고지했다. 두 상품이 같은 값이던
- * 동안에는 우연히 맞았지만, 2026-07-31에 궁합만 올리면서 인연의 결 가격이 문서에서 틀린 값이
- * 됐다. 전자상거래법이 요구하는 고지라 상품마다 제 값이 나가야 한다.
+ * 예전에는 문서가 `ReportPrices` 하나만 받아 **한 상품의 가격만** 고지했다. 두 상품이 같은
+ * 값이던 동안에는 우연히 맞았지만 한쪽 값을 올리는 순간 다른 쪽이 문서에서 틀린 값이 됐다.
+ * 전자상거래법이 요구하는 고지라 상품마다 제 값이 나가야 한다.
  */
 export type AllReportPrices = { chongun: ReportPrices; premium: ReportPrices };
 
@@ -127,8 +127,8 @@ const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
   heading: "3. 유료 상품과 환불",
   paragraphs: [
     "판매하는 유료 상품은 **리포트 PDF 두 가지**입니다. 둘 다 화면의 결과를 문서로 만들어 드리는 것이고, 화면에 없는 내용이 함께 담깁니다.",
-    `**사주 총운 리포트 PDF** — 성격, 오행의 강약, 연애·재물·직업 성향과 계산 근거까지 담깁니다. 국내 결제 ${prices.chongun.domestic}(부가세 포함), 해외 결제 ${prices.chongun.global}.`,
-    `**프리미엄 총운 리포트 PDF** — 총운에 더해 대운·세운과 올해 총운, 연애·재물·건강 상세가 담깁니다. 국내 결제 ${prices.premium.domestic}(부가세 포함), 해외 결제 ${prices.premium.global}.`,
+    `**사주 총운 리포트 PDF (A4 5장)** — 타고난 성향과 강점·눈여겨볼 점, 사주 원국 여덟 글자, 오행의 세력과 일간의 강약, 지금 필요한 기운, 오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)이 담깁니다. 국내 결제 ${prices.chongun.domestic}(부가세 포함), 해외 결제 ${prices.chongun.global}.`,
+    `**프리미엄 총운 리포트 PDF (A4 7장)** — 총운 5장에 두 장을 더합니다. 네 기둥의 십신과 왕상휴수사(계절이 각 기운을 어느 자리에 놓는가), 올해 총운, 오늘 점수의 항목별 가감, 진태양시 보정 내역입니다. 국내 결제 ${prices.premium.domestic}(부가세 포함), 해외 결제 ${prices.premium.global}.`,
     "국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
     "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
@@ -137,7 +137,7 @@ const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
     "**결제 후 다운로드가 시작되기 전에는** 언제든 취소하고 전액 환불받을 수 있습니다.",
     "**다운로드가 완료된 뒤에는** 단순 변심에 의한 청약철회가 제한됩니다. 결제 즉시 제공되어 원상회복이 불가능한 디지털 콘텐츠이며, 이는 「전자상거래 등에서의 소비자보호에 관한 법률」 제17조 제2항이 정하는 청약철회 제한 사유에 해당합니다.",
     "**시스템 오류로 문서가 만들어지지 않았거나, 파일이 열리지 않거나, 결제 금액이 주문과 다른 경우**에는 재발급 또는 전액 환불로 처리합니다.",
-    "**결과 내용에 대한 불만**은 환불 사유에 해당하지 않습니다. 궁합 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다(위 1항).",
+    "**결과 내용에 대한 불만**은 환불 사유에 해당하지 않습니다. 사주 풀이는 전통 명리 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다(위 1항).",
     "재발급 5회를 모두 사용한 뒤의 재요청은 환불 사유에 해당하지 않습니다.",
     "**미성년자가 법정대리인의 동의 없이 결제한 경우** 본인 또는 법정대리인이 그 결제를 취소할 수 있습니다. 아래 연락처로 알려 주시면 환불해 드립니다.",
   ],
@@ -147,7 +147,7 @@ const feeSectionEn: LegalSection = paymentsConfigured
   ? {
       heading: "2. Fees",
       paragraphs: [
-        "Calculating and viewing a compatibility reading is free and requires no account.",
+        "Reading your chart and checking today’s fortune are free and require no account.",
         "Receiving the reading as a PDF report is a paid product. The price and conditions are set out in section 3 and shown on the payment screen.",
       ],
     }
@@ -163,8 +163,8 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
   heading: "3. Paid products and refunds",
   paragraphs: [
     "There are **two paid products**, both PDF reports. Each turns the on-screen result into a document and adds material that is not shown on screen.",
-    `**Saju life reading report (PDF)** — your character, the balance of the five elements, and tendencies in love, wealth and work, with the calculation behind them. ${prices.chongun.domestic} (VAT included) for domestic payment, ${prices.chongun.global} for international payment.`,
-    `**Premium reading report (PDF)** — everything in the life reading plus your major and annual cycles, this year’s outlook, and detail on love, wealth and health. ${prices.premium.domestic} (VAT included) for domestic payment, ${prices.premium.global} for international payment.`,
+    `**Saju life reading report (PDF, 5 A4 pages)** — your character with its strengths and things to watch, the eight characters of your natal chart, the balance of the five elements and the strength of your day master, what you need now, today’s fortune, and the four domains of life (money, affection, work, health). ${prices.chongun.domestic} (VAT included) for domestic payment, ${prices.chongun.global} for international payment.`,
+    `**Premium reading report (PDF, 7 A4 pages)** — the five pages above plus two more: the ten gods of your four pillars and their seasonal vitality (where the season places each element), this year’s outlook, the item-by-item breakdown of today’s score, and the true solar time correction applied to your birth hour. ${prices.premium.domestic} (VAT included) for domestic payment, ${prices.premium.global} for international payment.`,
     "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
     "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
@@ -173,7 +173,7 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
     "**Before the download begins**, you may cancel at any time for a full refund.",
     "**After the download completes**, withdrawal for a simple change of mind is restricted. This is digital content delivered immediately upon payment that cannot be returned, which falls under the withdrawal restrictions in Article 17(2) of the Korean Act on Consumer Protection in Electronic Commerce.",
     "**If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund it in full.",
-    "**Dissatisfaction with the content of the reading** is not a ground for refund. A compatibility reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).",
+    "**Dissatisfaction with the content of the reading** is not a ground for refund. A Saju reading is reference material offered from a traditional myeongri perspective, and this is stated before purchase (section 1).",
     "Requests made after all five downloads have been used are not a ground for refund.",
     "**Where a minor has paid without the consent of a legal representative**, either the minor or that representative may cancel the payment. Contact us at the details below and we will refund it.",
   ],
@@ -199,11 +199,11 @@ const paymentSectionKo: LegalSection = {
   paragraphs: paymentsConfigured
     ? [
         "유료 상품(리포트 PDF)을 결제하면 결제 처리와 법령상 거래 기록 보존을 위해 주문 정보가 저장됩니다.",
-        "**궁합 계산에 입력한 값과 만들어진 PDF는 결제한 경우에도 저장되지 않습니다.** 위 1항의 원칙은 결제 여부와 무관하게 그대로입니다. 저장되는 항목은 다음과 같으며, 이름·연락처·주소 등 이용자를 식별하는 정보는 포함되지 않습니다.",
+        "**사주 풀이에 입력한 값과 만들어진 PDF는 결제한 경우에도 저장되지 않습니다.** 위 1항의 원칙은 결제 여부와 무관하게 그대로입니다. 저장되는 항목은 다음과 같으며, 이름·연락처·주소 등 이용자를 식별하는 정보는 포함되지 않습니다.",
       ]
     : [
         "현재 유료 상품을 판매하지 않으므로 결제와 관련해 저장되는 정보도 없습니다.",
-        "판매를 시작하면 결제 처리와 법령상 거래 기록 보존을 위해 아래 항목이 저장됩니다. **그때에도 궁합 계산에 입력한 값과 만들어진 PDF는 저장하지 않으며**, 이름·연락처·주소 등 이용자를 식별하는 정보도 받지 않습니다.",
+        "판매를 시작하면 결제 처리와 법령상 거래 기록 보존을 위해 아래 항목이 저장됩니다. **그때에도 사주 풀이에 입력한 값과 만들어진 PDF는 저장하지 않으며**, 이름·연락처·주소 등 이용자를 식별하는 정보도 받지 않습니다.",
       ],
   bullets: paymentRecordItemsKo,
 };
@@ -233,7 +233,7 @@ const paymentSectionEn: LegalSection = {
   heading: "5. What a payment stores",
   paragraphs: paymentsConfigured
     ? [
-        "Paying for the compatibility report PDF stores order information, both to process the payment and to keep the transaction records required by law.",
+        "Paying for a report PDF stores order information, both to process the payment and to keep the transaction records required by law.",
         "**Neither your input nor the generated PDF is stored, even when you pay.** Section 1 holds regardless of payment. What is stored is listed below, and it contains nothing that identifies you — no name, contact details or address.",
       ]
     : [
@@ -263,12 +263,12 @@ const koDocuments = (
   privacy: {
     title: "개인정보처리방침",
     intro:
-      "인연링크는 궁합 계산에 필요한 정보를 저장하지 않습니다. 이 방침은 서비스가 무엇을 받고, 무엇을 남기지 않으며, 무엇이 자동으로 기록되는지를 설명합니다.",
+      "사주링크는 사주 풀이에 필요한 정보를 저장하지 않습니다. 이 방침은 서비스가 무엇을 받고, 무엇을 남기지 않으며, 무엇이 자동으로 기록되는지를 설명합니다.",
     sections: [
       {
         heading: "1. 저장하지 않는 정보",
         paragraphs: [
-          "궁합 계산에 입력하는 생년월일, 출생 시각, 출생지, 성별, 부르는 이름은 **어디에도 저장되지 않습니다.** 요청을 처리하는 동안 서버 메모리에서만 사용되고 응답과 함께 사라집니다.",
+          "사주 풀이에 입력하는 생년월일, 출생 시각, 출생지, 성별, 부르는 이름은 **어디에도 저장되지 않습니다.** 요청을 처리하는 동안 서버 메모리에서만 사용되고 응답과 함께 사라집니다.",
           "데이터베이스에 기록하지 않으며, 별도 파일로도 남기지 않습니다. 회원가입이 없으므로 입력값이 특정인과 연결되지도 않습니다.",
         ],
       },
@@ -296,7 +296,7 @@ const koDocuments = (
         heading: "7. 이용자의 권리",
         paragraphs: [
           paymentsConfigured
-            ? "궁합 계산 입력값은 저장하지 않으므로 열람·정정·삭제를 요청할 대상이 없습니다. 결제로 남은 주문 기록은 법령이 정한 기간 동안 보존할 의무가 있어 그 기간에는 삭제해 드릴 수 없으며, 기간이 지나면 파기합니다."
+            ? "사주 풀이 입력값은 저장하지 않으므로 열람·정정·삭제를 요청할 대상이 없습니다. 결제로 남은 주문 기록은 법령이 정한 기간 동안 보존할 의무가 있어 그 기간에는 삭제해 드릴 수 없으며, 기간이 지나면 파기합니다."
             : "저장된 개인정보가 없으므로 열람·정정·삭제를 요청할 대상도 없습니다.",
           "이용자는 브라우저 주소창의 결과 링크를 지우는 것만으로 입력 흔적을 모두 없앨 수 있습니다.",
           "서비스 이용과 관련해 문의할 사항이 있으면 아래 연락처로 알려 주십시오.",
@@ -327,13 +327,14 @@ const koDocuments = (
   terms: {
     title: "이용약관",
     intro:
-      "이 약관은 인연링크(이하 “서비스”)의 이용 조건을 정합니다. 서비스를 이용하면 이 약관에 동의한 것으로 봅니다.",
+      "이 약관은 사주링크(이하 “서비스”)의 이용 조건을 정합니다. 서비스를 이용하면 이 약관에 동의한 것으로 봅니다.",
     sections: [
       {
         heading: "1. 서비스의 성격",
         paragraphs: [
-          "서비스는 입력한 생년월일을 바탕으로 전통 명리(사주)와 십이지(띠)의 관계 규칙을 적용해 두 사람의 관계를 참고 자료로 보여 줍니다.",
-          "제시되는 매칭률과 해설은 **전통 해석 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.** 점수가 낮다고 해서 관계가 나쁘다는 뜻이 아니고, 높다고 해서 관계가 보장되는 것도 아닙니다.",
+          "서비스는 입력한 생년월일과 출생 시각을 바탕으로 전통 명리(사주)의 규칙을 적용해 사주 원국과 오행의 세력, 일간의 강약, 그리고 그날의 일진과 원국이 만나는 자리를 참고 자료로 보여 줍니다.",
+          "제시되는 점수와 해설은 **전통 명리 관점의 참고 자료이며, 과학적 예측이나 개인의 미래·건강·재산에 대한 단정이 아닙니다.** 점수가 낮다고 해서 그날이 나쁘다는 뜻이 아니고, 높다고 해서 무엇이 보장되는 것도 아닙니다.",
+          "**유료 리포트의 해설 문장은 생성형 AI가 씁니다.** 다만 점수·간지·오행 세력 등 모든 수치는 서비스의 규칙 엔진이 계산하며, AI가 그 값을 바꾸거나 새로 만들지 않습니다. 해설을 만들지 못한 경우에는 엔진이 계산한 값으로 쓴 서술이 같은 자리에 들어가며, 문서의 장수와 담기는 항목은 아래 3항에 적은 그대로입니다.",
         ],
       },
       feeSectionKo,
@@ -389,12 +390,12 @@ const koDocuments = (
   refund: {
     title: "환불 및 취소 정책",
     intro:
-      "궁합 리포트 PDF의 취소·환불 기준입니다. 약관 3항과 같은 내용을 따로 모아 두었습니다.",
+      "사주 리포트 PDF의 취소·환불 기준입니다. 약관 3항과 같은 내용을 따로 모아 두었습니다.",
     sections: [
       {
         heading: "1. 상품의 성격",
         paragraphs: [
-          "판매하는 상품은 **궁합 리포트 PDF** 한 가지이며, 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
+          "판매하는 상품은 **사주 총운 리포트 PDF(A4 5장)**와 **프리미엄 총운 리포트 PDF(A4 7장)** 두 가지이며, 둘 다 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
           "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 그래서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
         ],
       },
@@ -420,7 +421,7 @@ const koDocuments = (
         heading: "4. 환불 사유가 아닌 경우",
         paragraphs: [],
         bullets: [
-          "**결과 내용에 대한 불만.** 궁합 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다.",
+          "**결과 내용에 대한 불만.** 사주 풀이는 전통 명리 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다.",
           "재발급 5회를 모두 사용한 뒤의 재요청.",
         ],
       },
@@ -441,24 +442,24 @@ const koDocuments = (
       {
         heading: "1. 무료",
         paragraphs: [
-          "**궁합 계산과 결과 조회는 무료입니다.** 회원가입도 필요하지 않습니다.",
-          "매칭률, 항목별 점수, 두 사람의 사주 원국과 오행 세력, 관계의 모양까지 화면에서 모두 보실 수 있습니다.",
+          "**사주 풀이와 오늘의 운세 조회는 무료입니다.** 회원가입도 필요하지 않습니다.",
+          "사주 원국 여덟 글자, 오행의 세력, 일간의 강약과 지금 필요한 기운, 오늘의 운세 점수와 등급, 삶의 네 영역 점수까지 화면에서 모두 보실 수 있습니다.",
         ],
       },
       {
-        heading: "2. 사주 궁합 리포트 PDF (유료)",
+        heading: "2. 사주 총운 리포트 PDF (유료)",
         paragraphs: [
           `국내 결제 ${prices.chongun.domestic}(부가세 포함) · 해외 결제 ${prices.chongun.global}`,
-          "화면의 결과를 7장짜리 PDF 문서로 만들어 드립니다. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 화면에 없는 내용이 담깁니다.",
+          "화면의 결과를 **A4 5장**짜리 PDF 문서로 만들어 드립니다. 표지와 요약, 타고난 성향과 강점·눈여겨볼 점, 원국과 오행 세력·강약, 오늘의 운세, 삶의 네 영역이 한 문서에 담깁니다.",
           "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
         ],
       },
       {
-        heading: "3. 인연의 결 리포트 PDF (유료)",
+        heading: "3. 프리미엄 총운 리포트 PDF (유료)",
         paragraphs: [
           `국내 결제 ${prices.premium.domestic}(부가세 포함) · 해외 결제 ${prices.premium.global}`,
-          "화면의 결과를 4장짜리 PDF 문서로 만들어 드립니다. 화면은 잘 맞는 결 셋만 보여 주지만 PDF에는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다.",
-          "재발급 조건은 궁합 리포트와 같습니다.",
+          "총운 5장에 **두 장을 더한 A4 7장**입니다. 더해지는 것은 네 기둥의 십신과 왕상휴수사, 그리고 올해 총운·오늘 점수의 항목별 가감·진태양시 보정 내역입니다. 화면에 나오지 않는 근거 숫자들입니다.",
+          "재발급 조건은 총운 리포트와 같습니다.",
         ],
       },
       {
@@ -487,7 +488,7 @@ const enDocuments = (
   privacy: {
     title: "Privacy Policy",
     intro:
-      "InyeonLink does not store the information you enter for a compatibility reading. This policy explains what the service receives, what it never keeps, and what is logged automatically.",
+      "Saju-Link does not store the information you enter for a reading. This policy explains what the service receives, what it never keeps, and what is logged automatically.",
     sections: [
       {
         heading: "1. What is never stored",
@@ -551,13 +552,14 @@ const enDocuments = (
   terms: {
     title: "Terms of Service",
     intro:
-      "These terms govern use of InyeonLink (the “service”). Using the service means you accept them.",
+      "These terms govern use of Saju-Link (the “service”). Using the service means you accept them.",
     sections: [
       {
         heading: "1. What the service is",
         paragraphs: [
-          "The service applies the relationship rules of traditional Korean Saju (Four Pillars) and the twelve zodiac branches to the birth dates you enter, and presents the outcome as reference material.",
-          "The match rate and commentary are **a traditional reading offered for reference — not a scientific prediction and not a verdict on any relationship.** A low score does not mean a relationship is bad, and a high score guarantees nothing.",
+          "The service applies the rules of traditional Korean Saju (Four Pillars) to the birth date and time you enter, and presents your natal chart, the strength of each element, the standing of your day master, and how a given day’s pillar meets that chart — all as reference material.",
+          "The scores and commentary are **a traditional myeongri reading offered for reference — not a scientific prediction and not a verdict on anyone’s future, health or finances.** A low score does not mean the day is bad, and a high score guarantees nothing.",
+          "**The prose in the paid reports is written by generative AI.** Every number, however — scores, pillars, elemental strength — is computed by the service’s rule engine, and the AI neither alters nor invents those values. Where the prose cannot be produced, text written from the engine’s own values takes its place; the page count and the items in the document remain exactly as stated in section 3.",
         ],
       },
       feeSectionEn,
@@ -613,12 +615,12 @@ const enDocuments = (
   refund: {
     title: "Cancellation and Refunds",
     intro:
-      "How cancellation and refunds work for the compatibility report PDF. The same terms appear in section 3 of the Terms of Service.",
+      "How cancellation and refunds work for the Saju report PDFs. The same terms appear in section 3 of the Terms of Service.",
     sections: [
       {
         heading: "1. What you are buying",
         paragraphs: [
-          "There is one paid product: the **compatibility report PDF**. Once payment is approved the document is generated in that same request and sent to you immediately.",
+          "There are two paid products: the **Saju life reading report PDF (5 A4 pages)** and the **premium reading report PDF (7 A4 pages)**. For both, once payment is approved the document is generated in that same request and sent to you immediately.",
           "**We store neither your input nor the generated PDF.** Please save the downloaded file yourself.",
         ],
       },
@@ -644,7 +646,7 @@ const enDocuments = (
         heading: "4. Not grounds for a refund",
         paragraphs: [],
         bullets: [
-          "**Dissatisfaction with the content.** A compatibility reading is reference material from a traditional interpretive perspective, and this is stated before purchase.",
+          "**Dissatisfaction with the content.** A Saju reading is reference material from a traditional myeongri perspective, and this is stated before purchase.",
           "Requests after all five downloads have been used.",
         ],
       },
@@ -660,29 +662,29 @@ const enDocuments = (
   },
   pricing: {
     title: "Pricing",
-    intro: "What is free, and what the paid product costs.",
+    intro: "What is free, and what the paid products cost.",
     sections: [
       {
         heading: "1. Free",
         paragraphs: [
-          "**Calculating and viewing a compatibility reading is free**, and requires no account.",
-          "The match rate, the score for each factor, both charts with elemental strength, and the shape of the relationship are all shown on screen.",
+          "**Reading your chart and checking today’s fortune are free**, and require no account.",
+          "The eight characters of your natal chart, the strength of each element, whether your day master runs strong or weak and what it needs, today’s score and grade, and the score for each of the four domains are all shown on screen.",
         ],
       },
       {
-        heading: "2. Saju compatibility report PDF (paid)",
+        heading: "2. Saju life reading report PDF (paid)",
         paragraphs: [
           `${prices.chongun.domestic} (VAT included) for domestic payment - ${prices.chongun.global} for international payment`,
-          "Turns the on-screen result into a seven-page document. It adds which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated - none of which appear on screen.",
+          "Turns the on-screen result into a **five-page A4 document**: cover and summary, your character with strengths and things to watch, the natal chart with elemental strength and day-master reading, today’s fortune, and the four domains of life.",
           "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
         ],
       },
       {
-        heading: "3. Match profile report PDF (paid)",
+        heading: "3. Premium reading report PDF (paid)",
         paragraphs: [
           `${prices.premium.domestic} (VAT included) for domestic payment - ${prices.premium.global} for international payment`,
-          "Turns the on-screen result into a four-page document. The screen shows only the three best-matching types; the PDF carries the full ranking of the ten heavenly stems and the twelve zodiac signs.",
-          "Re-download terms are the same as for the compatibility report.",
+          "The five pages above **plus two more, seven A4 pages in all**. The extra pages carry the ten gods of your four pillars and their seasonal vitality, this year’s outlook, the item-by-item breakdown of today’s score, and the true solar time correction — the underlying numbers, none of which appear on screen.",
+          "Re-download terms are the same as for the life reading report.",
         ],
       },
       {
@@ -721,8 +723,9 @@ function fillPlaceholders(
     "{email}": company.email,
     "{hostingProvider}": company.hostingProvider,
     "{privacyOfficer}": company.privacyOfficer,
-    // 기존 두 자리는 **궁합 가격**을 뜻한다. 21로케일 번역이 이미 이 이름으로 쓰고 있어
-    // 뜻을 바꾸지 않는다 — 이름을 갈면 번역 파일 전부를 손대야 한다.
+    // 자리 이름은 인연링크에서 물려받은 것이다(`{price…}`=총운, `{priceAffinity…}`=프리미엄).
+    // 21로케일 번역이 이미 이 이름으로 쓰고 있어 **뜻만 옮기고 이름은 두었다** — 이름을 갈면
+    // 번역 파일 전부를 손대야 한다. ⑦에서 로케일을 다시 쓸 때 함께 정리할 것.
     "{priceDomestic}": prices.chongun.domestic,
     "{priceGlobal}": prices.chongun.global,
     "{priceAffinityDomestic}": prices.premium.domestic,

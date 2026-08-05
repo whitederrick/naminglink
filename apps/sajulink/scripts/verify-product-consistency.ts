@@ -1,6 +1,6 @@
 // 상품 정보가 **DB·화면·약관 셋에서 같은 말을 하는지** 본다.
 //
-// 실행: apps/inyeonlink 에서
+// 실행: apps/sajulink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig tsconfig.json scripts/verify-product-consistency.ts
 //
 // 왜 필요한가: 기존 검증기들은 각자의 안쪽만 본다. `verify-legal-locales`는 번역이 ko와 구조가
@@ -12,12 +12,12 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-import { INYEONLINK_PRODUCT_CODES } from "@naminglink/core/apps";
+import { SAJULINK_PRODUCT_CODES } from "@naminglink/core/apps";
 
-import { getDictionary, supportedLocales } from "../src/lib/i18n";
+import { getDictionary, translatedLocales } from "../src/lib/i18n";
 
 // `report-product.ts`는 `server-only`라 스크립트에서 import할 수 없다. 글로 읽어 대조한다.
-const REPORT_KINDS = ["gunghap", "affinity"] as const;
+const REPORT_KINDS = ["chongun", "premium"] as const;
 
 let failures = 0;
 function check(label: string, ok: boolean, detail?: string) {
@@ -31,7 +31,11 @@ function check(label: string, ok: boolean, detail?: string) {
 // 고시의 상품 형태는 로케일마다 문장이 달라 숫자만 뽑아 센다. 목차가 늘었는데 고시를 안 고치면
 // 여기서 걸린다 — 전자상거래 상품정보제공 고시 항목이라 틀린 값이 나가면 안 된다.
 // ---------------------------------------------------------------------------
-for (const locale of supportedLocales) {
+// **`supportedLocales`가 아니라 `translatedLocales`를 돈다.** 지금 사전이 있는 것은 ko·en
+// 둘뿐이고, 나머지는 `getDictionary`가 en으로 떨어뜨린다 — 그 상태로 23바퀴를 돌면 같은 영어
+// 사전을 21번 다시 재며 "23개 로케일을 검사했다"고 착각하게 된다. ⑦에서 사전을 채우면
+// 이 목록이 늘어나 검사 범위도 함께 늘어난다.
+for (const locale of translatedLocales) {
   const dictionary = getDictionary(locale);
   for (const [key, copy] of [
     ["report", dictionary.report],
@@ -53,8 +57,8 @@ for (const locale of supportedLocales) {
 // ---------------------------------------------------------------------------
 // 2) 파는 상품이 전부 약관 ko 원문에 나오는가
 //
-// 인연의 결 리포트를 팔면서 약관 어디에도 없던 적이 있다(2026-07-31에 고침). 상품이 늘 때
-// 약관을 함께 고치지 않으면 다시 같은 일이 난다.
+// 리포트 하나를 팔면서 약관 어디에도 없던 적이 있다(인연링크, 2026-07-31에 고침). 상품이
+// 늘 때 약관을 함께 고치지 않으면 다시 같은 일이 난다.
 // ---------------------------------------------------------------------------
 const koDocs = readFileSync(
   path.join(process.cwd(), "src/lib/legal-locales/_ko-docs.json"),
@@ -63,8 +67,19 @@ const koDocs = readFileSync(
 for (const kind of REPORT_KINDS) {
   // 사전의 상품 제목에서 앞 두 낱말을 뽑아 약관에 있는지 본다. 제목 전체는 약관 문장과
   // 표현이 달라 그대로 찾으면 늘 실패한다.
-  const title = kind === "gunghap" ? "궁합 리포트" : "인연의 결";
+  const title = kind === "chongun" ? "총운 리포트" : "프리미엄 총운";
   check(`약관에 "${title}" 언급`, koDocs.includes(title));
+}
+
+// 인연링크에서 물려받은 서비스·상품 이름이 약관에 남아 있으면 안 된다. 복제 앱이라 문구가
+// 통째로 넘어왔고, 남으면 **없는 상품의 조건을 고지하는 것**이 된다.
+for (const stale of ["궁합", "인연의 결", "인연링크", "매칭률"]) {
+  check(`약관에 "${stale}" 없음`, !koDocs.includes(stale));
+}
+
+// 엔진에 없는 것을 팔지 않는다. 대운·세운은 상품 주석에만 있었고 실제로는 담기지 않는다.
+for (const absent of ["대운", "세운"]) {
+  check(`약관에 "${absent}" 없음(엔진에 없다)`, !koDocs.includes(absent));
 }
 
 // 가격 플레이스홀더도 상품마다 있어야 한다. 하나가 빠지면 그 상품 가격이 문서에 안 나간다.
@@ -87,7 +102,7 @@ const productSource = readFileSync(
   path.join(process.cwd(), "src/lib/report-product.ts"),
   "utf8",
 );
-for (const code of INYEONLINK_PRODUCT_CODES) {
+for (const code of SAJULINK_PRODUCT_CODES) {
   check(`report-product.ts에 ${code}`, productSource.includes(code));
 }
 
