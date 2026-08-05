@@ -520,49 +520,112 @@ export const tr: Dictionary = {
   },
   "fallbackReport": {
     "summary": "{season} enerjisi içinde doğmuş bir {dayMaster} gün ustası. Tüm haritada {strongest} en kalın, {scarcest} ise en ince. Aşağıdaki açıklamalar bu sekiz karakterden türetilmiştir — buradaki her sayı ve her sütun hesaplanmıştır, seçilmemiştir.",
-    "personality": "Gün ustanız {dayMaster} — {element} enerjisi — ve bu harita {strengthName} olarak okunuyor. Hangi tarafın daha kalın olduğu, gün ustasını destekleyen mi yoksa ondan çeken mi olduğu, tahılı şekillendirir ve günlük yaşamda bu şekilde kendini gösterir.",
+    "personality": "Gün ustanız {dayMaster} — {element} enerjisi — ve bu harita {strengthName} olarak okunuyor. Hangi taraf daha kalın, gün ustasını destekleyen mi yoksa ondan çeken mi, bu tahılı şekillendirir ve günlük hayatta bu şekilde ortaya çıkar.",
     "cautions": {
       "STRONG": [
         "O kadar zorlayıcı oluyorsunuz ki, genellikle eğilimi yalnızca gerçekleştiğinde fark ediyorsunuz.",
-        "Yardımın mevcut olduğu yerlerde bile, sonunda işi yalnız başınıza halletmeye çalışıyorsunuz, bu da işi büyütüyor.",
-        "Aşırı yükü çeken bir yere yer açtığınızda her şey yerli yerine oturur."
+        "Yardımın mevcut olduğu yerlerde bile, sonunda işi yalnız başınıza halletmek zorunda kalıyorsunuz, bu da işi büyütüyor.",
+        "Aşırı yükü çeken tarafa yer açtığınızda işler yoluna girer."
       ],
       "BALANCED": [
-        "Hiçbir şey sizi bir tarafa eğmez, bu yüzden ertelenen bir karar sadece ertelenmiş kalır.",
+        "Hiçbir şey sizi bir tarafa eğmez, bu yüzden ertelenen bir karar basitçe ertelenmiş kalır.",
         "Duruma iyi uyum sağlıyorsunuz, bu da kendi sınırınızı bulanıklaştırabilir.",
         "Şu anda en ince olan tarafa yönelmek, tutabileceğiniz bir yön verir."
       ],
       "WEAK": [
-        "Yalnız başına dayanmak, beklediğinizden daha çabuk sizi yıpratır.",
+        "Yalnız kalmak, beklediğinizden daha hızlı bir şekilde sizi yıpratır.",
         "Arkanızda hiçbir şey yoksa, kararlar kayar ve an geçer.",
         "Destekleyici insanları yakın tutmak bu haritada bir zayıflık değil — bu bir yöntemdir."
       ]
     },
     "scarcityCaution": "Şu anda en ince element {scarcest}. O elementin yönettiği alanlarda harekete geçmekte en yavaş olduğunuz yer burası.",
-    "elementBalance": "Güç bakımından, {strongest} % {strongestPct} ile önde ve {scarcest} % {scarcestPct} ile geride kalıyor. Doğduğunuz ay {season} mevsiminde, bu da o elementi bir kez daha yukarı itiyor — aynı miktar, mevsimin destekleyip desteklememesine bağlı olarak farklı bir güç taşır. Şu anda ihtiyacınız olan {favorable}, ve o elementin doldurulduğu yerlerde işler kolaylaşır.",
+    "elementBalance": "Güç bakımından, {strongest} {strongestPct}% ile önde ve {scarcest} {scarcestPct}% ile geride. Doğduğunuz ay {season} döneminde, bu elementi bir kez daha yukarı itiyor — aynı miktar, mevsimin destekleyip desteklememesine bağlı olarak farklı bir güç taşır. Şu anda ihtiyacınız olan {favorable}, ve bu elementin doldurulduğu yerlerde işler kolaylaşır.",
     "todayHeadline": "Bugün {grade} olarak geçiyor",
-    "todayMessage": "Bugünün puanı {score}, derecelendirme {gradeName}. {gradeBody} Günün direği {pillar}, ve bu puandaki en büyük etki “{topFactor}” oldu.",
+    "todayMessage": "Bugünün puanı {score}, notu {gradeName}. {gradeBody} Günün sütunu {pillar}, ve bu puandaki en büyük etken “{topFactor}” idi.",
     "todayAdvice": {
       "HIGH": "Ertelediğiniz mesajı veya düzenlemeyi almak için iyi bir gün — ancak hepsini bugün bitirmeye çalışmamak daha iyi.",
-      "MID": "Her zamanki gibi yapın ve her zamanki gibi sonuç alırsınız. Yeni bir şeye başlamak yerine, elinizdeki bir şeyi bir adım ileri taşıyın.",
-      "LOW": "Bugün bazı şeyler haritaya ters düşüyor. Başlamaktan çok bitirip kontrol etmekle geçirmekte daha iyi."
+      "MID": "Her zamanki gibi yapın ve her zamanki gibi sonuç alırsınız. Yeni bir şey başlatmak yerine, elinizdeki bir şeyi bir adım ileri taşıyın.",
+      "LOW": "Bugün bazı şeyler haritaya ters düşüyor. Yeni bir şey başlatmaktansa, bitirme ve kontrol etme ile harcamak daha iyi."
     },
-    "luckyNote": "Bugünün şanslı elementi {element}. {colors} aralığı, {direction} tarafı ve {time} civarı, o enerjinin en yoğun olduğu yerlerdir.",
+    "luckyNote": "Bugünün şanslı elementi {element}. {colors} aralığı, {direction} tarafı ve {time} civarı, bu enerjinin en yoğun olduğu yerlerdir.",
     "domains": {
-      "wealth": "Bugün para durumu {score}. Bu değer, bugünün enerjisinin zenginlik yıldızlarına (財星) ulaşıp ulaşmadığına bağlı olarak değişir — neyi yönettiğiniz ve neyi topladığınız.",
-      "love": "Bugün sevgi durumu {score}. Bu değer, bugünün dalının sizin gün dalınız (日支) ile nasıl bir araya geldiğine bağlıdır, eş palası — uyum yükseltir, çatışma düşürür.",
-      "career": "Bugün iş durumu {score}. Bu değer, bugünün enerjisinin memur (官星) ve çıktı (食傷) yıldızlarına ulaşıp ulaşmadığına bağlı olarak değişir — neyi üstlendiğiniz ve neyi ortaya koyduğunuz.",
-      "health": "Bugün sağlık durumu {score}. Bu değer, doğum haritanızdaki kaç dalın bugünkü ile çatıştığına ve bugünün elementinin ihtiyaç duyduğunuz bir element olup olmadığına bağlıdır."
+      "wealth": "Bugün para durumu {score}. Bu değer, bugünün enerjisinin zenginlik yıldızlarına (財星) ulaşıp ulaşmadığına göre değişir — neyi yönettiğiniz ve neyi topladığınız.",
+      "love": "Bugün sevgi durumu {score}. Bu değer, bugünün dalının sizin gün dalınız (日支) ile nasıl buluştuğuna bağlıdır, eş palace — uyum yükseltir, çatışma düşürür.",
+      "career": "Bugün iş durumu {score}. Bu değer, bugünün enerjisinin memur (官星) ve çıktı (食傷) yıldızlarına ulaşıp ulaşmadığına göre değişir — neyi üstlendiğiniz ve neyi ortaya koyduğunuz.",
+      "health": "Bugün sağlık durumu {score}. Bu değer, doğum haritanızdaki kaç dalın bugünkü ile çeliştiğine ve bugünün elementinin ihtiyaç duyduğunuz bir element olup olmadığına bağlıdır."
     },
-    "yearOutlook": "Bu yılın direği {pillar}, taşıdığı element {element}. {relation} Bu okuma, yalnızca yılın direğinin şu anda ihtiyaç duyduğunuz şeyle nasıl bir araya geldiğine bakar; yılı ay ay parçalamaz.",
+    "yearOutlook": "Bu yılın sütunu {pillar}, {element} taşıyor. {relation} Bu okuma, yalnızca yılın sütununun şu anda ihtiyaç duyduğunuz şeyle nasıl buluştuğuna bakıyor; yılı ay ay bölmüyor.",
     "yearRelations": {
-      "YONGSIN": "İhtiyacınız olan element bu yıl doğrudan geliyor. Biriktirdiğiniz şeyleri ortaya çıkarmak için uygun bir zaman.",
+      "YONGSIN": "Bu yıl ihtiyacınız olan element doğrudan geliyor. Kenara koyduğunuz şeyi ortaya çıkarmak için uygun bir zaman.",
       "GENERATES": "Bu yıl ihtiyacınız olan elementi besliyor, bu yüzden mevcut durum yavaş yavaş daha nazik hale geliyor — hemen değil, ama sürekli.",
-      "GISIN": "Bu yıl, zaten eğilim gösterdiğiniz yöne bir kez daha itiyor. Yeni bir şey açmaktan çok, elinizdekileri kapatmak daha iyi.",
-      "CONTROLS": "Bu yıl, ihtiyacınız olan elementi baskı altında tutan bir şey var, bu yüzden kararlar daha yavaş geliyor. Kendi son tarihlerinizin belirlenmesi yardımcı olur.",
-      "NEUTRAL": "Bu yıl, ihtiyacınız olan şeyle ne çatışıyor ne de besliyor. Sahip olduğunuz yeri korumak daha iyi bir ticaret."
+      "GISIN": "Bu yıl, zaten eğilim gösterdiğiniz yöne bir kez daha itiyor. Yeni bir şey açmaktansa, elinizdeki işleri kapatmak daha iyi.",
+      "CONTROLS": "Bu yıl, ihtiyacınız olan element üzerinde bir baskı var, bu yüzden kararlar daha yavaş geliyor. Kendi son tarihlerinizin belirlenmesi yardımcı olur.",
+      "NEUTRAL": "Bu yıl, ihtiyacınız olan şeyle ne çarpışıyor ne de besliyor. Sahip olduğunuz alanı korumak daha iyi bir ticaret."
     },
-    "disclaimer": "Geleneksel myeongri referansı, bilimsel bir tahmin veya olması gerekenler hakkında bir ifade değildir."
+    "disclaimer": "Geleneksel myeongri referansı, bilimsel bir tahmin veya olması gereken bir durum hakkında bir ifade değildir.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Companion kalın. Kendi ellerinizle inşa edersiniz, başkalarından ödünç almak yerine, bu da sizi bir görevi sonuna kadar taşıma konusunda güçlü kılar. Ancak yardım kabul etmek de bir beceridir ve bunu bir zayıflık olarak görmek, sizi yalnız başınıza yük taşımaya bırakır — ve yanınızdakiyle paylaşımda çarpışmanıza neden olur. İş paylaşıldığında, önce elinizi uzatmak daha hızlı bir yol olur.",
+        "absent": "Companion yok. Başkalarıyla hareket etmek, kendi alanınızı korumaktan daha uygundur. Karar sizin olduğunda uzun süre tereddüt edersiniz ve biri sizinle olduğunda hız kazanırsınız. Bir pozisyonu korumak gerektiğinde, itme pratiği yapmak değerlidir."
+      },
+      "GEOPJAE": {
+        "thick": "Rob Wealth kalın. Diğerlerinin tereddüt ettiği yerde önce hareket edersiniz. Ancak bu güç, tutma konusunda kolayca dönüşmez, bu yüzden kazandığınız şeyler elde uzun süre kalmaz. Paranın nereye gideceğini önceden belirlemek bu haritada tasarruf değil — bir yöntemdir.",
+        "absent": "Rob Wealth yok. Bir şeyi zorla geçirmeyi nadiren denersiniz ve rekabetten kaçınırsınız. Az kaybedersiniz, ancak bir şeyin zorla itileceği zaman bir adım geride kalırsınız. Gerçek riskler söz konusu olduğunda, kendi son tarihinizi belirlemek daha iyidir."
+      },
+      "SIKSIN": {
+        "thick": "Eating God kalın. İçerideki şeyler kolayca dışarı çıkar, bu yüzden yapmak, büyütmek ve beslemek rahat bir alandır. Yavaş ve uzun süren işlerde iyi performans gösterirsiniz ve sonuçlar geç ama sürekli gelir. Ancak rahatlık uzadıkça, genişlemek yerine yerleşirsiniz.",
+        "absent": "Eating God yok. İçten dışa giden kanal ince: düşünce var, ama ifade etme gecikir. Her şey hazır olana kadar beklemek, başlangıcı geri itiyor. Yarım bitmiş bir şeyi ortaya koymak bu haritada bir kayıp değildir."
+      },
+      "SANGGWAN": {
+        "thick": "Zarar Verici Memur kalındır. Diğerlerinden önce sabit bir çerçevede neyin yerinden çıktığını görürsünüz ve bunu adlandıracak kelimelere sahipsiniz. Yeni şeyler yaratılan yerlerde parlıyorsunuz ve korunması gereken yerlerde çarpışıyorsunuz. Doğru şeyin nasıl söylendiği burada görmenin kendisi kadar önemlidir.",
+        "absent": "Zarar Verici Memur yoktur. Mevcut çerçeveyi sarsmak yerine içinde bir yol arıyorsunuz. İnsanlarla nadiren çatışıyorsunuz, ancak değişmesi gereken yerlerde şeylerin geçmesine izin veriyorsunuz ve bu hayal kırıklığına dönüşüyor. Söylenmesi gereken kelimeyi ertelememek daha iyidir."
+      },
+      "PYEONJAE": {
+        "thick": "Dolaylı Zenginlik kalındır. Birçok yere elinizi atar ve fırsatları geniş bir şekilde yakalarsınız, bu yüzden işler beklenmedik köşelerde açılır. Ancak yaydığınız şeylerin de bakılması gerekir ve bakım ilginizi daha az çeker — bu yüzden açtığınız şeyi toplamayı sürekli başaramazsınız. Birini kapatmadan diğerini açmak bu haritada gereklidir.",
+        "absent": "Dolaylı Zenginlik yoktur. Geniş bir şekilde yayılmak yerine tanıdık bir alanda kesin olanı alıyorsunuz. Sizi sarsacak daha az şey var ve büyük fırsatların geçip gitmesini de aynı sıklıkta izliyorsunuz. Ulaşımınızı bir avuç genişletmek yardımcı olur."
+      },
+      "JEONGJAE": {
+        "thick": "Doğrudan Zenginlik kalındır. Gelen ve gidenleri sayar ve biriktirirsiniz — böylece zamanla altınızdaki zemin sağlamlaşır. Sadece kesin olanı hedeflemek fırsatları kaçırmanıza neden olur ve aşırı tasarruf, açmanız gereken yerlerde elinizi ağırlaştırır. Paranın ne için olduğunu önceden belirlemek yardımcı olur.",
+        "absent": "Doğrudan Zenginlik yoktur. Sürekli birikim yapan taraf ince kalır, bu yüzden geleni yönetmek sürekli ertelenir. Kazanma ve tutma becerileri farklıdır; bu harita ikincisini ayrı olarak öğrenmelidir. Parayı her seferinde sizin karar vermeden hareket ettiren kurallar size iyi gelir."
+      },
+      "PYEONGWAN": {
+        "thick": "Dolaylı Memur kalındır. Baskı gücünüzü ortaya çıkarır ve başkalarının ağır bulduğu sorumlulukları taşırsınız. Ancak gerilim asla kalkmazsa, avlanmış bir hisse dönüşür ve dinlenmek dinlenme gibi hissettirmemeye başlar. Bu haritada durmak için bir zaman belirlemek tembellik değildir.",
+        "absent": "Dolaylı Memur yoktur. Üzerinizde çok az baskı var, bu zihin için kolaydır, ancak bir kriz anında kendinizi dik tutma gücünüz ince kalır. Dışarıdan belirlenen bir son tarih veya söz olduğunda çok daha iyi yaparsınız."
+      },
+      "JEONGGWAN": {
+        "thick": "Doğrudan Memur kalındır. Pozisyonunuz ve korumanız gereken sınırlar nettir ve bunları korumak, istikrarınızı sağlar — sistemler içinde güven inşa edersiniz. Kuralların sarsıldığı yerlerde yargılamakta yavaşsınız ve tahtanın sizin belirlemeniz gereken yerlerinde sıkışmış hissedersiniz.",
+        "absent": "Doğrudan Memur yoktur. Dışarıdan atanmış bir yerden daha iyi bir şekilde kendi yaptığınız bir yol size uygundur. Bu özgürlüktür, ancak standart kolayca sarsılır; kendi kurallarınızı politika gibi yazmak yardımcı olur."
+      },
+      "PYEONIN": {
+        "thick": "Dolaylı Kaynak kalındır. Başkalarının atladığı yoldan ilerler ve kendi derinliğinizi inşa edersiniz. Öğrenme ve tartma gücünüz güçlüdür, ancak düşünceler elden hızlıdır ve başlamadan önce yorgun düşebilirsiniz. Yarı hazırken hareket etmek bu haritaya uygundur.",
+        "absent": "Dolaylı Kaynak yoktur. Kazmak yerine şeylere çarparak öğrenirsiniz. Öğrenme konusunda yavaş değilsiniz, ancak uzun süre yalnız başına çalışmak size uygun değildir. İnsanlara sorarak ve sahada öğrenmek daha hızlıdır."
+      },
+      "JEONGIN": {
+        "thick": "Doğrudan Kaynak kalın. Sizi destekleyen şey bol, bu yüzden öğrenme ve dayanacak bir yer asla bitmez. Bu istikrar, ileri adım atmayı geciktirir ve hazırlık, bir başlangıcın ertelenme nedeni olur. Aldığınız şeylerin geri döneceği bir yer bulmak değerlidir.",
+        "absent": "Doğrudan Kaynak yok. Kendi ayaklarınız üzerinde durmayı öğrendiniz, bu yüzden yalnız durmak erken gelişti. Yardım istemek alışık olduğunuz bir şey değil ve ihtiyaç duyduğunuzda bile yalnız kalıyorsunuz. Bu haritada sormak çok değerlidir."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Haritanın ne kadar zenginlik (財星) taşıdığı — ele aldığınız ve topladığınız şeylerin kalınlığı.",
+      "WEALTH_STRONG_BODY": "Gün ustası dolgun, bu yüzden zenginliği taşıyacak güce sahipsiniz.",
+      "WEALTH_WEAK_BODY": "Gün ustası ince, bu yüzden zenginliği taşımak zor, var olsa bile.",
+      "WEALTH_YONGSIN": "Şu anda ihtiyaç duyduğunuz şey, zenginlik yıldızlarıyla aynı elementtir, bu yüzden o zemin daha kolay gelir.",
+      "LOVE_SPOUSE_STAR": "Haritanın ne kadar eş yıldızı taşıdığı — erkekler için doğrudan zenginlik, kadınlar için doğrudan memur.",
+      "LOVE_SPOUSE_PALACE": "Eş yıldızı, gün dalınızın içinde, eş sarayında oturuyor, bu yüzden yer dolu.",
+      "LOVE_PALACE_CHUNG": "Eş sarayı başka bir dal ile çakışıyor, bu yüzden o yer huzursuz.",
+      "LOVE_GENDER_UNKNOWN": "Cinsiyet girilmedi, bu yüzden eş yıldızı sayılmadı. Değer, cinsiyete göre zenginlik ve memur yıldızları arasında bölünür ve biz birini keyfi olarak seçmeyiz.",
+      "CAREER_OFFICER": "Haritadaki memur yıldızları (正官·偏官) — üstlendiğiniz ve koruduğunuz şeylerin kalınlığı.",
+      "CAREER_OUTPUT": "Haritadaki çıktı yıldızları (食神·傷官) — dışarı koyduğunuz ve ifade ettiğiniz şeylerin kalınlığı.",
+      "CAREER_STRONG_BODY": "Gün ustası dolu çalışıyor, bu yüzden memur yıldızlarını kullanıyor, onlardan baskı altında kalmıyor.",
+      "HEALTH_BALANCE": "Beş elementin ne kadar eşit oturduğu — bir tarafa ne kadar kayarsa, o elementin yönettiği şey üzerinde o kadar fazla yük olur.",
+      "HEALTH_CHUNG": "Çizelge içinde kaç tane dal çifti çarpışıyor.",
+      "HEALTH_EXTREME_BODY": "Gün ustası bir tarafa çok eğilmiş, bu da başlı başına bir yük. Dengeli bir gün ustası burada hiçbir şey kaybetmez."
+    },
+    "yongsinDepth": {
+      "STRONG": "Gün ustanızı destekleyen elementler dolu çalışıyor. Bu, kendi başınıza bir itici güç verir ama kolayca bir tarafa kayar, bu yüzden şu anda ihtiyacınız olan daha fazla destek değil — **fazlalığı atacak bir şey**. {favorable} bunu yapar. O elementin ulaştığı yer — dışarı verme, üstlenme, toplama — orası sizin için rahatladığınız yerdir.",
+      "BALANCED": "Gün ustanızı destekleyen ve ondan çeken elementler neredeyse eşit. Hangi tarafa gideceğini belirlemek zor, bu yüzden burada **şu anda en ince olanı** ihtiyacınız olarak görüyoruz: {favorable}. Aşırı eğilmeyen bir çizelge iyi uyum sağlar ama kendi çizgisini bulanıklaştırır, bu yüzden ince yere yönelmek size tutunacak bir yön verir.",
+      "WEAK": "Gün ustanızı destekleyen elementler ince çalışıyor. Etrafınızdaki güçleri iyi ödünç alıyorsunuz ama yalnız başınıza dayanmakta zorlanıyorsunuz, bu yüzden şu anda ihtiyacınız olan **sizi destekleyen ve dolduran bir şey**. {favorable} bunu yapar. Destekleyici şeyleri yakın tutmak bu çizelgede bir zayıflık değil — bu bir yöntemdir."
+    }
   },
   "footer": {
     "privacy": "Gizlilik",

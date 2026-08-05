@@ -519,50 +519,113 @@ export const pl: Dictionary = {
     "pdfLanguageNotice": "PDF jest generowany w tym samym języku, co ten ekran."
   },
   "fallbackReport": {
-    "summary": "{dayMaster} dzień mistrza urodzonego w energii {season}. W całym wykresie {strongest} jest najgrubsze, a {scarcest} jest najcieńsze. Wszystko poniżej wynika z tych ośmiu znaków — każda liczba i każdy filar tutaj są obliczone, a nie wybrane.",
+    "summary": "To {dayMaster} dzień mistrza urodzony w energii {season}. W całym wykresie {strongest} jest najgrubszy, a {scarcest} jest najcieńszy. Wszystko poniżej wynika z tych ośmiu znaków — każda liczba i każdy filar są tutaj obliczone, a nie wybrane.",
     "personality": "Twój dzień mistrza to {dayMaster} — energia {element} — a ten wykres odczytuje się jako {strengthName}. Która strona jest grubsza, co wspiera dzień mistrza lub co z niego czerpie, kształtuje ziarno, a w codziennym życiu objawia się to w ten sposób.",
     "cautions": {
       "STRONG": [
-        "Pchasz tak mocno, że często zauważasz przechył dopiero po jego wystąpieniu.",
-        "Nawet tam, gdzie pomoc jest dostępna, kończysz na radzeniu sobie samodzielnie, co powiększa zadanie.",
+        "Pchasz na tyle mocno, że często zauważasz przechylenie dopiero po tym, jak się wydarzy.",
+        "Nawet tam, gdzie pomoc jest dostępna, kończysz na tym, że radzisz sobie sam, co powiększa zadanie.",
         "Rzeczy się stabilizują, gdy zostawiasz miejsce na to, co odciąga nadmiar."
       ],
       "BALANCED": [
-        "Nic nie przechyla cię w żadną stronę, więc opóźniona decyzja po prostu pozostaje opóźniona.",
-        "Dostosowujesz się dobrze do sytuacji, co może zatarć, gdzie jest twoja własna granica.",
+        "Nic nie przechyla cię w żadną stronę, więc odłożona decyzja po prostu pozostaje odłożona.",
+        "Dobrze dostosowujesz się do sytuacji, co może zatarć, gdzie jest twoja własna granica.",
         "Kierowanie się w stronę tego, co jest teraz najcieńsze, daje ci kierunek do trzymania."
       ],
       "WEAK": [
-        "Trzymanie się samodzielnie wyczerpuje cię szybciej, niż się spodziewasz.",
+        "Wytrzymywanie samemu wyczerpuje cię szybciej, niż się spodziewasz.",
         "Bez wsparcia decyzje się ślizgają, a moment mija.",
         "Trzymanie blisko wspierających ludzi nie jest słabością w tym wykresie — to metoda."
       ]
     },
-    "scarcityCaution": "Najcieńszy element teraz to {scarcest}. Cokolwiek ten element rządzi, tam jesteś najwolniejszy w działaniu.",
-    "elementBalance": "Siła żywiołów: {strongest} prowadzi z {strongestPct}%, a {scarcest} pozostaje w tyle z {scarcestPct}%. Twój miesiąc urodzenia znajduje się w {season}, co jeszcze bardziej wzmacnia ten żywioł — ta sama ilość ma różną moc w zależności od tego, czy sezon ją wspiera. Teraz potrzebujesz {favorable}, a sprawy ułatwiają się, gdy ten żywioł jest wypełniony.",
+    "scarcityCaution": "Najcieńszy element teraz to {scarcest}. Cokolwiek ten element rządzi, tam działasz najwolniej.",
+    "elementBalance": "Według siły, {strongest} prowadzi z {strongestPct}%, a {scarcest} pozostaje w tyle z {scarcestPct}%. Twój miesiąc urodzenia znajduje się w {season}, co jeszcze bardziej podnosi tę energię — ta sama ilość ma różną moc w zależności od tego, czy sezon ją wspiera. Teraz potrzebujesz {favorable}, a sprawy ułatwiają się, gdy ta energia jest uzupełniona.",
     "todayHeadline": "Dziś to {grade}",
-    "todayMessage": "Dziś zdobywasz {score}, ocenione jako {gradeName}. {gradeBody} Dzień jest oznaczony przez {pillar}, a największym czynnikiem wpływającym na ten wynik było „{topFactor}”.",
+    "todayMessage": "Dziś zdobywasz {score}, ocenione jako {gradeName}. {gradeBody} Filary dnia to {pillar}, a największym czynnikiem wpływającym na ten wynik było „{topFactor}”.",
     "todayAdvice": {
-      "HIGH": "Dobry dzień, aby zająć się wiadomościami lub porządkami, które odkładałeś — lepiej jednak nie próbować skończyć wszystkiego dzisiaj.",
-      "MID": "Rób to, co zwykle, a otrzymasz to, co zwykle. Zamiast zaczynać coś nowego, posuń jedną rzecz, którą już masz, o krok naprzód.",
+      "HIGH": "Dobry dzień na odebranie wiadomości lub uporządkowanie spraw, które odkładałeś — chociaż lepiej nie próbować skończyć wszystkiego dzisiaj.",
+      "MID": "Rób to, co zwykle, a dostaniesz to, co zwykle. Zamiast zaczynać coś nowego, posuń jedną rzecz, którą już masz, o krok naprzód.",
       "LOW": "Część dzisiejszego dnia jest sprzeczna z wykresem. Lepiej spędzić czas na kończeniu i sprawdzaniu niż na zaczynaniu."
     },
-    "luckyNote": "Dziś szczęśliwym żywiołem jest {element}. Zakres {colors}, strona {direction} oraz godziny wokół {time} to miejsca, gdzie ta energia jest najgęstsza.",
+    "luckyNote": "Dziś szczęśliwym elementem jest {element}. Zakres {colors}, strona {direction} oraz godziny wokół {time} to miejsca, gdzie ta energia jest najgęstsza.",
     "domains": {
-      "wealth": "Finanse dzisiaj to {score}. Ta wartość zmienia się w zależności od tego, czy dzisiejsza energia dociera do gwiazd bogactwa (財星) — tego, co posiadasz i co zbierasz.",
-      "love": "Uczucia dzisiaj to {score}. Ta wartość zależy od tego, jak dzisiejsza gałąź spotyka się z twoją gałęzią dnia (日支), pałacem małżonka — harmonia ją podnosi, a konflikt obniża.",
-      "career": "Praca dzisiaj to {score}. Ta wartość zmienia się w zależności od tego, czy dzisiejsza energia dociera do gwiazd urzędniczych (官星) i produkcji (食傷) — tego, co podejmujesz i co wydajesz.",
-      "health": "Zdrowie dzisiaj to {score}. Ta wartość zależy od tego, ile z twoich gałęzi urodzeniowych dzisiaj jest w konflikcie oraz od tego, czy dzisiejszy żywioł jest tym, którego potrzebujesz."
+      "wealth": "Finanse dzisiaj wynoszą {score}. Ta wartość zmienia się w zależności od tego, czy energia dzisiejszego dnia dociera do gwiazd bogactwa (財星) — tego, co obsługujesz i co zbierasz.",
+      "love": "Uczucia dzisiaj wynoszą {score}. Ta wartość zależy od tego, jak dzisiejsza gałąź spotyka się z twoją gałęzią dnia (日支), pałacem małżonka — harmonia ją podnosi, a konflikt obniża.",
+      "career": "Praca dzisiaj wynosi {score}. Ta wartość zmienia się w zależności od tego, czy energia dzisiejszego dnia dociera do gwiazd urzędników (官星) i produkcji (食傷) — tego, co podejmujesz i co wydajesz.",
+      "health": "Zdrowie dzisiaj wynosi {score}. Ta wartość zależy od tego, ile z twoich gałęzi urodzeniowych dzisiaj jest w konflikcie oraz od tego, czy dzisiejszy element jest tym, którego potrzebujesz."
     },
-    "yearOutlook": "Pillar tego roku to {pillar}, niosąc {element}. {relation} To odczyt dotyczy tylko tego, jak pillar roku odnosi się do tego, czego teraz potrzebujesz; nie dzieli roku na miesiące.",
+    "yearOutlook": "Filarem tego roku jest {pillar}, niosąc {element}. {relation} Ta analiza dotyczy tylko tego, jak filar roku spotyka się z tym, czego teraz potrzebujesz; nie rozbija roku na miesiące.",
     "yearRelations": {
       "YONGSIN": "Element, którego potrzebujesz, przychodzi bezpośrednio w tym roku. Odpowiedni czas, aby wydobyć to, co odłożyłeś.",
-      "GENERATES": "Ten rok wspiera element, którego potrzebujesz, więc obecne sprawy stają się łagodniejsze — nie od razu, ale stopniowo.",
-      "GISIN": "Ten rok ponownie popycha w kierunku, w którym już zmierzasz. Lepiej spędzić czas na zakończeniu tego, co masz, niż na otwieraniu czegoś nowego.",
+      "GENERATES": "Ten rok wspiera element, którego potrzebujesz, więc obecny czas staje się łagodniejszy — nie od razu, ale stopniowo.",
+      "GISIN": "Ten rok ponownie popycha w kierunku, w którym już się skłaniasz. Lepiej spędzić czas na zamykaniu tego, co masz, niż na otwieraniu czegoś nowego.",
       "CONTROLS": "Coś w tym roku naciska na element, którego potrzebujesz, więc decyzje przychodzą wolniej. Ustalenie własnych terminów pomaga.",
-      "NEUTRAL": "Ten rok ani nie koliduje, ani nie wspiera tego, czego potrzebujesz. Utrzymanie posiadanej pozycji jest lepszą strategią."
+      "NEUTRAL": "Ten rok ani nie koliduje, ani nie wspiera tego, czego potrzebujesz. Utrzymanie zajmowanej pozycji to lepsza wymiana."
     },
-    "disclaimer": "Tradycyjna referencja myeongri, nie naukowa prognoza ani stwierdzenie o tym, co musi się wydarzyć."
+    "disclaimer": "Tradycyjna referencja myeongri, nie naukowa prognoza ani stwierdzenie, co musi się wydarzyć.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Bi-kyen jest gruby. Budujesz własnymi rękami, a nie pożyczając je, co czyni cię silnym w doprowadzaniu zadania do końca. Ale przyjmowanie pomocy to również umiejętność, a traktowanie tego jako słabości sprawia, że dźwigasz wszystko sam — i zderzasz się, dzieląc się, z kimkolwiek stoi obok ciebie. Gdzie praca jest dzielona, oferowanie ręki jako pierwsze okazuje się szybszą drogą.",
+        "absent": "Bi-kyen jest nieobecny. Ruch z innymi bardziej ci odpowiada niż trzymanie własnej pozycji. Długo się wahasz, gdy decyzja należy tylko do ciebie, a przyspieszasz, gdy ktoś jest z tobą. Kiedy pozycja należy do ciebie, warto ćwiczyć popychanie."
+      },
+      "GEOPJAE": {
+        "thick": "Geopjae jest gruby. Ruchasz się pierwszy tam, gdzie inni się wahają. Ta siła nie przekształca się łatwo w utrzymanie, więc to, co zarobisz, nie zostaje długo w rękach. Decydowanie z wyprzedzeniem, gdzie idą pieniądze, nie jest oszczędnością w tym wykresie — to metoda.",
+        "absent": "Geopjae jest nieobecny. Rzadko przymuszasz coś do działania i omijasz rywalizację. Mało tracisz, ale jesteś spóźniony, gdy coś musi być mocno pchnięte. Gdzie stawka jest realna, ustalenie własnego terminu pomaga."
+      },
+      "SIKSIN": {
+        "thick": "Siksin jest gruby. To, co jest w środku, łatwo wychodzi na zewnątrz, więc tworzenie, hodowanie i karmienie to komfortowy grunt. Dobrze radzisz sobie w pracy, która jest wykonywana powoli i długo, a wyniki przychodzą późno, ale systematycznie. Gdy komfort się wydłuża, jednak osiedlasz się, zamiast się rozwijać.",
+        "absent": "Siksin jest nieobecny. Kanał z wnętrza na zewnątrz jest cienki: myślenie jest obecne, ale jego wyrażenie jest spóźnione. Czekanie, aż wszystko będzie gotowe, opóźnia rozpoczęcie. Wystawienie czegoś w połowie ukończonego nie jest stratą w tym wykresie."
+      },
+      "SANGGWAN": {
+        "thick": "Oficer rani jest silny. Zauważasz, co jest nie na miejscu w ustalonym schemacie, zanim ktokolwiek inny, i masz słowa, by to nazwać. Błyszczysz tam, gdzie rzeczy są tworzone, a zderzasz się tam, gdzie są przechowywane. To, jak zostanie wypowiedziane właściwe słowo, ma tu znaczenie równie wielkie jak jego dostrzeganie.",
+        "absent": "Oficer rani jest nieobecny. Szukasz sposobu w ramach, zamiast je trząść. Rzadko wchodzisz w konflikt z ludźmi, ale pozwalasz rzeczom przechodzić tam, gdzie powinny się zmienić, co prowadzi do frustracji. Lepiej nie odkładać na później słowa, które musi być wypowiedziane."
+      },
+      "PYEONJAE": {
+        "thick": "Zasoby pośrednie są silne. Trzymasz rękę w kilku miejscach i łapiesz okazje szeroko, więc rzeczy otwierają się w niespodziewanych zakątkach. To, co jest rozprzestrzenione, musi być również pielęgnowane, chociaż ta strona interesuje cię mniej — więc ciągle nie udaje ci się zebrać tego, co otworzyłeś. Zamknięcie jednego przed otwarciem następnego to porządek, którego potrzebuje ten wykres.",
+        "absent": "Zasoby pośrednie są nieobecne. Wolisz pewne rzeczy na znanym gruncie, zamiast szeroko się rozprzestrzeniać. Jest mniej rzeczy, które mogą cię wstrząsnąć, a większe szanse przechodzą obok równie często. Poszerzanie swojego zasięgu o jedną dłoń na raz pomaga."
+      },
+      "JEONGJAE": {
+        "thick": "Zasoby bezpośrednie są silne. Liczysz, co przychodzi i co wychodzi, i budujesz — więc grunt pod tobą umacnia się z czasem. Sięganie tylko po pewne rzeczy sprawia, że spóźniasz się na okazje, a oszczędność w nadmiarze sprawia, że twoja ręka staje się ciężka tam, gdzie powinna się otworzyć. Zdecydowanie z góry, na co pieniądze są przeznaczone, pomaga.",
+        "absent": "Zasoby bezpośrednie są nieobecne. Stabilna strona gromadzenia jest słaba, więc zarządzanie tym, co przychodzi, ciągle się opóźnia. Zarabianie i utrzymywanie to różne umiejętności; ten wykres musi nauczyć się drugiej z nich osobno. Zasady, które poruszają pieniądze bez twojego decydowania za każdym razem, pasują ci dobrze."
+      },
+      "PYEONGWAN": {
+        "thick": "Oficer pośredni jest silny. Presja wydobywa twoją siłę, a ty ponosisz odpowiedzialność, którą inni uważają za ciężką. Kiedy napięcie nigdy nie ustępuje, twardnieje w uczuciu bycia ściganym, a odpoczynek przestaje być odpoczynkiem. Ustalenie czasu na przerwę nie jest lenistwem w tym wykresie.",
+        "absent": "Oficer pośredni jest nieobecny. Niewiele cię przyciska, co jest łatwe dla umysłu, ale siła do utrzymania się w kryzysie jest słaba. Radzisz sobie znacznie lepiej, gdy termin lub obietnica są ustalane z zewnątrz."
+      },
+      "JEONGGWAN": {
+        "thick": "Oficer bezpośredni jest silny. Twoja pozycja i linie, które utrzymujesz, są jasne, a ich przestrzeganie to źródło twojej stabilności — budujesz zaufanie w ramach systemów. Tam, gdzie zasady się chwiej, jesteś powolny w ocenie, a tam, gdzie plansza należy do ciebie, czujesz się ograniczony.",
+        "absent": "Oficer bezpośredni jest nieobecny. Sposób, który sam tworzysz, pasuje ci lepiej niż miejsce przypisane z zewnątrz. To jest wolność, ale standard łatwo się chwiej; zapisanie swoich własnych zasad, jakby były polityką, pomaga."
+      },
+      "PYEONIN": {
+        "thick": "Zasoby pośrednie są silne. Idziesz drogą, którą inni pomijają, i budujesz własną głębię. Nauka i ocenianie są silne, ale myśli wyprzedzają rękę i możesz być zmęczony, zanim zaczniesz. Poruszanie się w połowie gotowości pasuje do tego wykresu.",
+        "absent": "Zasoby pośrednie są nieobecne. Uczysz się przez zderzanie się z rzeczami, a nie przez kopanie. Nie jesteś wolny w nauce, ale długotrwałe studiowanie w pojedynkę ci nie odpowiada. Zadawanie pytań ludziom i uczenie się na miejscu jest szybsze."
+      },
+      "JEONGIN": {
+        "thick": "Bezpośredni Zasób jest gruby. To, co cię podtrzymuje, jest obfite, więc nauka i miejsce, na które możesz się oprzeć, nigdy się nie kończą. Ta stabilność sprawia, że krok naprzód jest opóźniony, a przygotowanie staje się powodem, dla którego początek jest odkładany. Warto mieć jedno miejsce, gdzie to, co otrzymałeś, wraca na zewnątrz.",
+        "absent": "Bezpośredni Zasób jest nieobecny. Stworzyłeś własne oparcie, więc stawanie na własnych nogach zaczęło się wcześnie. Prośba o pomoc jest jednak nieznana, a ty trzymasz się sam, nawet gdy nie musisz. W tym wykresie pytanie jest warte wiele."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Ile bogactwa (財星) niesie wykres — grubość tego, co obsługujesz i zbierasz.",
+      "WEALTH_STRONG_BODY": "Dzień mistrza jest pełny, więc masz siłę, by nosić bogactwo.",
+      "WEALTH_WEAK_BODY": "Dzień mistrza jest cienki, więc bogactwo jest trudne do noszenia, nawet jeśli istnieje.",
+      "WEALTH_YONGSIN": "To, czego teraz potrzebujesz, jest tym samym żywiołem co gwiazdy bogactwa, więc ta ziemia przychodzi łatwiej.",
+      "LOVE_SPOUSE_STAR": "Ile gwiazdy małżonka niesie wykres — bezpośrednie bogactwo dla mężczyzn, bezpośredni urzędnik dla kobiet.",
+      "LOVE_SPOUSE_PALACE": "Gwiazda małżonka znajduje się w twoim dniu gałęzi, w pałacu małżonka, więc miejsce jest zajęte.",
+      "LOVE_PALACE_CHUNG": "Pałac małżonka koliduje z inną gałęzią, więc to miejsce jest niestabilne.",
+      "LOVE_GENDER_UNKNOWN": "Nie wprowadzono płci, więc gwiazda małżonka nie została policzona. Wartość dzieli się między gwiazdy bogactwa i urzędników według płci, a my nie wybieramy jednej arbitralnie.",
+      "CAREER_OFFICER": "Gwiazdy urzędników (正官·偏官) w wykresie — grubość tego, co podejmujesz i utrzymujesz.",
+      "CAREER_OUTPUT": "Gwiazdy wyjścia (食神·傷官) w wykresie — grubość tego, co wydajesz i wyrażasz.",
+      "CAREER_STRONG_BODY": "Mistrz dnia jest silny, więc korzysta z gwiazd urzędniczych, zamiast być przez nie przytłaczany.",
+      "HEALTH_BALANCE": "Jak równomiernie siedzą pięć elementów — im bardziej przechyla się w jedną stronę, tym większe obciążenie spada na to, co ten element rządzi.",
+      "HEALTH_CHUNG": "Ilość par gałęzi, które kolidują w obrębie wykresu.",
+      "HEALTH_EXTREME_BODY": "Mistrz dnia przechyla się mocno w jedną stronę, co samo w sobie jest obciążeniem. Zrównoważony mistrz dnia nic tutaj nie traci."
+    },
+    "yongsinDepth": {
+      "STRONG": "Elementy wspierające twojego mistrza dnia są silne. To daje ci własny napęd, ale łatwo przechyla się w jedną stronę, więc to, czego teraz potrzebujesz, to nie więcej wsparcia — to **coś, co odciągnie nadmiar**. {favorable} to robi. Gdzie ten element sięga — wydawanie, przyjmowanie, zbieranie — to jest miejsce, w którym się osiedlasz.",
+      "BALANCED": "To, co wspiera twojego mistrza dnia i to, co z niego czerpie, jest bliskie równowagi. Zbyt bliskie, by jednoznacznie określić, więc tutaj czytamy **cokolwiek jest najcieńsze** jako to, czego potrzebujesz: {favorable}. Wykres, który nie przechyla się, dobrze się przystosowuje, ale zaciera własną linię, więc kierowanie się w stronę cienkiego miejsca daje ci kierunek do utrzymania.",
+      "WEAK": "Elementy wspierające twojego mistrza dnia są słabe. Dobrze pożyczasz siłę z otoczenia, ale męczysz się, trzymając się samodzielnie, więc to, czego teraz potrzebujesz, to **coś, co cię wesprze i napełni**. {favorable} to robi. Trzymanie wspierających rzeczy blisko nie jest słabością w tym wykresie — to metoda."
+    }
   },
   "footer": {
     "privacy": "Prywatność",

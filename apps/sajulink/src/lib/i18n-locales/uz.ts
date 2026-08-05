@@ -519,50 +519,113 @@ export const uz: Dictionary = {
     "pdfLanguageNotice": "PDF ushbu ekran bilan bir xil tilda tayyorlanadi."
   },
   "fallbackReport": {
-    "summary": "{season} energiyasida tug'ilgan {dayMaster} kun ustunidir. Butun xaritada {strongest} eng qalin va {scarcest} eng yupqa. Quyidagi barcha ma'lumotlar ushbu sakkiz belgidan kelib chiqadi — har bir raqam va har bir ustun hisoblangan, tanlanmagan.",
-    "personality": "Sizning kun ustuningiz {dayMaster} — {element} energiyasi — va bu xarita {strengthName} sifatida o'qiladi. Qaysi tomoni qalinroq, kun ustunini qo'llab-quvvatlaydigan yoki undan tortib oladigan narsa, donni shakllantiradi va kundalik hayotda bu quyidagicha ko'rinadi.",
+    "summary": "{season} energiyasida tug'ilgan {dayMaster} kun ustuni. Butun xaritada {strongest} eng qalin va {scarcest} eng ingichka. Quyidagi hamma narsa ushbu sakkiz belgi asosida kelib chiqadi — bu yerda har bir raqam va har bir ustun hisoblangan, tanlanmagan.",
+    "personality": "Sizning kun ustuningiz {dayMaster} — {element} energiyasi — va bu xarita {strengthName} sifatida o'qiladi. Qaysi tomoni qalinroq, kun ustunini qo'llab-quvvatlaydigan yoki undan tortib oladigan energiya, bu donni shakllantiradi va kundalik hayotda bu quyidagicha namoyon bo'ladi.",
     "cautions": {
       "STRONG": [
-        "Siz juda kuchli harakat qilasiz, shuning uchun ko'pincha burilishni faqat sodir bo'lgandan keyin sezishingiz mumkin.",
+        "Siz juda kuchli harakat qilasizki, ko'pincha burilishni faqat u sodir bo'lganidan keyin sezishingiz mumkin.",
         "Yordam mavjud bo'lsa ham, siz oxir-oqibat buni yolg'iz hal qilasiz, bu esa ishni kattalashtiradi.",
-        "O'zingizdan ortiqcha narsalarni olib tashlash uchun joy qoldirsangiz, hammasi joyiga tushadi."
+        "Siz ortiqcha narsalarni olib tashlash uchun joy qoldirsangiz, hammasi o'z joyiga tushadi."
       ],
       "BALANCED": [
-        "Hech narsa sizni bir tomonga siljitmaydi, shuning uchun qarorni kechiktirish shunchaki kechiktirilgan holda qoladi.",
+        "Hech narsa sizni bir tomonga qaratmaydi, shuning uchun kechiktirilgan qaror shunchaki kechiktirilgan holda qoladi.",
         "Siz vaziyatga yaxshi moslashasiz, bu esa o'z chizig'ingizni xiralashtirishi mumkin.",
-        "Hozir eng yupqa bo'lgan narsaga qarab yo'nalish belgilash sizga uslub beradi."
+        "Hozirgi eng nozik tomonga yo'nalish berish sizga ushlab turish uchun yo'nalish beradi."
       ],
       "WEAK": [
         "Yolg'iz turish sizni kutganingizdan tezroq charchatadi.",
         "Orqangizda hech narsa bo'lmasa, qarorlar sirpanchiq bo'ladi va vaqt o'tadi.",
-        "Qo'llab-quvvatlovchi odamlarni yaqin tutish bu xaritada zaiflik emas — bu usuldir."
+        "Yordam beruvchi odamlarni yaqin tutish bu jadvalda zaiflik emas — bu usuldir."
       ]
     },
-    "scarcityCaution": "Hozir eng yupqa element {scarcest}. Ushbu element boshqaradigan joyda siz harakat qilishda eng sekin bo'lasiz.",
-    "elementBalance": "Kuchli tomondan, {strongest} {strongestPct}% bilan yetakchilik qiladi va {scarcest} {scarcestPct}% bilan orqada qoladi. Tug'ilgan oyingiz {season}da joylashgan, bu esa ushbu elementni yana bir marta ko'taradi — bir xil miqdor, mavsum uni qo'llab-quvvatlaydimi yoki yo'qmi, kuchini o'zgartiradi. Hozir sizga kerak bo'lgan narsa {favorable}, va bu element to'ldirilganda ishlar osonlashadi.",
+    "scarcityCaution": "Hozirgi eng ingichka element {scarcest}. Ushbu element boshqaradigan joyda harakat qilishda eng sekin bo'lasiz.",
+    "elementBalance": "Kuchga ko'ra, {strongest} {strongestPct}% bilan yetakchilik qiladi va {scarcest} {scarcestPct}% bilan orqada qoladi. Sizning tug'ilgan oyingiz {season}da joylashgan, bu elementni yana bir marta ko'taradi — bir xil miqdor, mavsum uni qo'llab-quvvatlaydimi yoki yo'qmi, kuchini o'zgartiradi. Hozir sizga kerak bo'lgan narsa {favorable}, va bu element to'ldirilgan joyda ishlar osonlashadi.",
     "todayHeadline": "Bugun {grade} sifatida o'qiladi",
-    "todayMessage": "Bugun ballingiz {score}, baholash {gradeName}. {gradeBody} Kun ustuni {pillar}, va ushbu ballni eng katta o'zgartirgan omil “{topFactor}” edi.",
+    "todayMessage": "Bugun ball {score}, baholangan {gradeName}. {gradeBody} Kun ustuni {pillar}, va ushbu ballda eng katta o'zgarish keltirgan omil “{topFactor}” edi.",
     "todayAdvice": {
-      "HIGH": "Uzoq vaqt davomida kechiktirilgan xabarni yoki tartibni olish uchun yaxshi kun — lekin buni bugun tugatishga harakat qilmaslik yaxshiroq.",
-      "MID": "Odatdagidek qiling va odatda oladigan narsangizni olasiz. Yangi bir narsani boshlash o'rniga, allaqachon qo'lingizda bo'lgan narsani bir qadam oldinga siljiting.",
-      "LOW": "Bugungi kun jadvalga qarshi keladi. Yangi boshlashdan ko'ra, tugatish va tekshirishga sarflash yaxshiroq."
+      "HIGH": "Бугунги хабар ёки тозалашни олиш учун яхши кун — аммо барчасини бугун тугатишга ҳаракат қилмаслик яхшироқ.",
+      "MID": "Оддий қилиб давом этинг, шунда одатда оладиган нарсаларингизни оласиз. Янги бирор нарсани бошлаш ўрнига, аллақачон бор нарсалардан бирини бир қадам олдинга олиб чиқинг.",
+      "LOW": "Бугунги куннинг баъзи қисмлари диаграммага зид. Янги бошлашдан кўра, тугатиш ва текширишга сарфлаш яхшироқ."
     },
-    "luckyNote": "Bugungi omadli element {element}. {colors} diapazoni, {direction} tomoni va {time} atrofidagi soatlar bu energiya eng kuchli bo'lgan joylardir.",
+    "luckyNote": "Бугунги бахтли элемент {element}. {colors} диапазони, {direction} томон ва {time} атрофидаги соатларда бу энергия энг кўп жамланган.",
     "domains": {
-      "wealth": "Bugun pul {score} sifatida o'qiladi. Bu qiymat bugungi energiyaning boylik yulduzlariga (財星) yetib borishiga qarab o'zgaradi — sizning qo'lga oladigan va yig'adigan narsalaringiz.",
-      "love": "Bugun sevgi {score} sifatida o'qiladi. Bu qiymat bugungi tarmoqning sizning kun tarmog'ingiz (日支) bilan qanday uchrashishiga qarab belgilanadi — uyg'unlik uni ko'taradi, to'qnashuv esa pastga tortadi.",
-      "career": "Bugun ish {score} sifatida o'qiladi. Bu qiymat bugungi energiyaning ofitser (官星) va chiqim (食傷) yulduzlariga yetib borishiga qarab o'zgaradi — sizning qabul qiladigan va chiqaradigan narsalaringiz.",
-      "health": "Bugun salomatlik {score} sifatida o'qiladi. Bu qiymat sizning tug'ilgan tarmog'ingizning bugungi kunda qanchalik to'qnashuvga kirishishi va bugungi element sizga kerak bo'lgan elementmi yoki yo'qligiga qarab belgilanadi."
+      "wealth": "Пул ўрни бугун {score} балл. Бу қиймат бугунги энергиянинг бойлик юлдузларига (財星) етиб боришига боғлиқ — сиз нима билан ишлайсиз ва нима йиғасиз.",
+      "love": "Sevgi {score} bugun. Bu qiymat bugungi shoxning sizning kun shoxingiz (日支) bilan qanday uchrashishi, turmush o‘rtog‘ingiz saroyi — uyg‘unlik uni oshiradi, to‘qnashuv esa pasaytiradi.",
+      "career": "Ish {score} bugun. Bu qiymat bugungi energiyaning ofitser (官星) va chiqish (食傷) yulduzlariga yetib borishiga qarab o‘zgaradi — siz qabul qilayotgan va chiqarayotgan narsalaringiz.",
+      "health": "Sog‘liq {score} bugun. Bu qiymat sizning natal shoxlaringizdan bugun qanchasi to‘qnashayotganiga va bugungi element sizga kerakli bo‘lishiga qarab belgilanadi."
     },
-    "yearOutlook": "Bu yilning ustuni {pillar}, {element}ni olib yuradi. {relation} Ushbu o'qish faqat yil ustunining sizga hozir kerak bo'lgan narsalar bilan qanday uchrashishini ko'radi; yilni oyma-oy bo'lib ajratmaydi.",
+    "yearOutlook": "Bu yilning ustuni {pillar}, {element} ni olib yuradi. {relation} Ushbu o‘qish faqat yilning ustuni sizga hozir kerak bo‘lgan narsalar bilan qanday uchrashishini ko‘radi; yilni oyma-oyga bo‘lishmaydi.",
     "yearRelations": {
-      "YONGSIN": "Sizga kerakli element aynan shu yili keladi. O'z vaqtida qo'yib qo'ygan narsalaringizni chiqarish uchun mos vaqt.",
-      "GENERATES": "Bu yil sizga kerakli elementni oziqlantiradi, shuning uchun hozirgi vaqt asta-sekin yumshoq bo'ladi — darhol emas, lekin barqaror ravishda.",
-      "GISIN": "Bu yil siz allaqachon qaratilgan yo'nalishga yana bir bor bosim o'tkazadi. Yangi narsalarni ochishdan ko'ra, qo'lingizdagi narsalarni tugatish yaxshiroq.",
-      "CONTROLS": "Bu yil sizga kerakli elementga bosim o'tkazadigan biror narsa bor, shuning uchun qarorlar sekinroq keladi. O'z muddatlaringizni belgilash yordam beradi.",
-      "NEUTRAL": "Bu yil sizga kerakli element bilan to'qnashmaydi va uni oziqlantirmaydi. O'zingizda bor narsalarni saqlab qolish yaxshiroq."
+      "YONGSIN": "Sizga kerakli element to‘g‘ridan-to‘g‘ri bu yil keladi. Siz qo‘yib qo‘ygan narsalarni chiqarish uchun mos vaqt.",
+      "GENERATES": "Bu yil sizga kerakli elementni qo'llab-quvvatlaydi, shuning uchun hozirgi paytda yumshoqroq bo'ladi — bir zumda emas, balki asta-sekin.",
+      "GISIN": "Bu yil siz allaqachon moyil bo'lgan yo'nalishga yana bir bor itaradi. Yangi narsalarni ochishdan ko'ra, qo'lingizdagi narsalarni tugatish yaxshiroq.",
+      "CONTROLS": "Bu yil sizga kerakli elementga bosim o'tkazadigan narsa bor, shuning uchun qarorlar sekinroq keladi. O'z muddatlaringizni belgilash yordam beradi.",
+      "NEUTRAL": "Bu yil sizga kerakli narsalar bilan to'qnashmaydi va ularni qo'llab-quvvatlamaydi. Qo'lingizdagi joyni saqlab qolish yaxshiroq."
     },
-    "disclaimer": "An'anaviy myeongri ma'lumotlari, ilmiy bashorat yoki kelajakda nima bo'lishi kerakligi haqida bayonot emas."
+    "disclaimer": "An'anaviy myeongri ma'lumotlari, ilmiy bashorat yoki kelajakda nima bo'lishi kerakligi haqida bayonot emas.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Hamkor qalin. Siz o'z qo'llaringiz bilan qurishni afzal ko'rasiz, bu esa sizni vazifani oxirigacha olib borishda kuchli qiladi. Ammo yordam qabul qilish ham bir mahoratdir, va buni zaiflik sifatida ko'rish sizni yolg'iz yuk ko'tarishga olib keladi — va yoningizda turgan kishi bilan ulushlar ustida to'qnashuvlarga olib keladi. Ish bo'lingan joyda, qo'lingizni birinchi bo'lib uzatish tezroq yo'l bo'lib chiqadi.",
+        "absent": "Hamkor yo'q. O'z joyingizda turishdan ko'ra boshqalar bilan harakat qilish sizga yaxshiroq mos keladi. Siz o'zingiz qaror qabul qilishingiz kerak bo'lgan joyda uzoq vaqt ikkilanib turasiz va kimdir siz bilan bo'lganda tezlikni oshirasiz. O'z pozitsiyangizni ushlab turish kerak bo'lganda, bir marta itarishni mashq qilish foydali."
+      },
+      "GEOPJAE": {
+        "thick": "Boylik qalin. Boshqalar ikkilanayotgan joyda siz birinchi bo'lib harakat qilasiz. Ammo bu kuchni ushlab turishga osonlik bilan aylantirish mumkin emas, shuning uchun siz topganingiz uzoq vaqt qo'lingizda qolmaydi. Pul qayerga ketishini oldindan belgilash bu xaritada tejash emas — bu usuldir.",
+        "absent": "Boylik yo'q. Siz kamdan-kam hollarda biror narsani kuch bilan o'tkazishga harakat qilasiz va raqobatlashadigan joylardan qochasiz. Siz kamdan-kam yo'qotish qilasiz, lekin biror narsani qattiq itarish kerak bo'lganda bir qadam kechikib qolishingiz mumkin. Haqiqiy bahslar bo'lgan joyda, o'zingizning muddatingizni belgilash yaxshiroqdir."
+      },
+      "SIKSIN": {
+        "thick": "Oziq-ovqat qalin. Ichkaridagi narsalarni tashqariga chiqarish kuchingiz yaxshi, shuning uchun yaratish, o'stirish va boqish joyida qulay. Siz sekin va uzoq davom etadigan ishda yaxshi natijalarga erishasiz va natijalar kech, lekin barqaror keladi. Ammo qulaylik cho'zilganda, siz kengayish o'rniga joylashishni afzal ko'rasiz.",
+        "absent": "Yemak Xudosi yo'q. Ichkaridan tashqariga o'tish joyi ingichka: fikr bor, lekin uni aytish kechikadi. Hammasi tayyor bo'lishini kutish boshlanishni kechiktiradi. Yarim tayyor narsani chiqarish bu jadvalda yo'qotish emas."
+      },
+      "SANGGWAN": {
+        "thick": "Zararli Ofitser qalin. Siz boshqalardan oldin belgilangan ramkada joyidan chiqib ketgan narsalarni ko'rasiz va buni nomlash uchun so'zlarga egasiz. Siz yangi narsalar yaratilayotgan joyda porlaysiz va saqlanayotgan joyda to'qnashasiz. To'g'ri so'z qanday aytilishi bu yerda ko'rish kabi muhim.",
+        "absent": "Zararli Ofitser yo'q. Siz mavjud ramkani silkitish o'rniga ichkaridan yo'l topishga harakat qilasiz. Siz odatda odamlar bilan to'qnashmaysiz, lekin o'zgarishi kerak bo'lgan narsalarni o'tkazib yuborasiz va bu sizni bezovta qiladi. Aytilishi kerak bo'lgan so'zni kechiktirmaslik yaxshiroq."
+      },
+      "PYEONJAE": {
+        "thick": "Noqonuniy Boylik qalin. Siz bir nechta joyda qo'lni ushlab, imkoniyatni kengaytirasiz, shuning uchun kutilmagan joylarda ish ochiladi. Tarqatilgan narsalar ham parvarish qilinishi kerak, ammo parvarish qilish sizni kamroq qiziqtiradi — shuning uchun ochgan narsalaringizni yig'ishdan muvaffaqiyatsizlikka uchrayapsiz. Biri yopilib, keyingisini ochish bu jadvalda kerak.",
+        "absent": "Noqonuniy Boylik yo'q. Kengaytirish o'rniga tanish joyda ishonchli narsani olishni afzal ko'rasiz. Sizni silkitadigan narsalar kamroq, va siz katta imkoniyatlarning o'tib ketishini tez-tez ko'rasiz. Qo'lni bir barmoq kengaytirish yordam beradi."
+      },
+      "JEONGJAE": {
+        "thick": "To'g'ridan-to'g'ri boylik qalin. Siz kiradigan va chiqadigan narsalarni hisobga olasiz va qurish uchun harakat qilasiz — shuning uchun sizning ostingizdagi yer vaqt o'tishi bilan mustahkamlanadi. Faqat aniq narsalarni qidirish imkoniyatni kechiktiradi va juda tejash qo'lingizni ochilishi kerak bo'lgan joyda og'ir qiladi. Pulni nima uchun sarflashni oldindan belgilash yordam beradi.",
+        "absent": "To'g'ridan-to'g'ri boylik yo'q. Barqaror to'planish tomoni ingichka, shuning uchun kelayotgan narsalarni boshqarish doimiy ravishda kechikmoqda. Topish va saqlash — bu ikki xil ko'nikma; bu xarita ikkinchi ko'nikmani alohida o'rganishi kerak. Har safar o'zingiz qaror bermasdan pulni harakatlantiradigan qoidalar sizga yaxshi mos keladi."
+      },
+      "PYEONGWAN": {
+        "thick": "Noto'g'ri ofitser qalin. Bosim sizning kuchingizni chiqaradi va siz boshqalar uchun og'ir bo'lgan mas'uliyatni o'z zimmangizga olasiz. Ammo agar bosim hech qachon pasaymasa, bu quvvatlanmagan hisni kuchaytiradi va dam olish dam olish kabi his qilinmaydi. Ushbu xaritada to'xtash vaqti belgilash dangasalik emas.",
+        "absent": "Noto'g'ri ofitser yo'q. Sizga bosim kam, bu esa ongni yengil qiladi, lekin inqirozda o'zingizni to'g'ri ushlab turish kuchi ingichka. Siz tashqaridan belgilangan muddat yoki va'da bo'lganda ancha yaxshi ishlaysiz."
+      },
+      "JEONGGWAN": {
+        "thick": "To'g'ridan-to'g'ri ofitser qalin. Sizning pozitsiyangiz va saqlashingiz kerak bo'lgan chiziqlar aniq, va ularni saqlash sizning barqarorligingizni ta'minlaydi — siz tizimlar ichida ishonchni qurishingiz mumkin. Qoidalar siljiganda siz baho berishda sekin, va o'zingiz belgilashingiz kerak bo'lgan joyda o'zingizni siqilgan his qilasiz.",
+        "absent": "To'g'ridan-to'g'ri Ofitser yo'q. Tashqaridan belgilangan joydan ko'ra, o'zingiz yaratgan usul sizga yaxshiroq mos keladi. Bu erkinlik, lekin standart osonlik bilan siljiydi; o'z qoidalaringizni siyosat kabi yozib qo'yish yordam beradi."
+      },
+      "PYEONIN": {
+        "thick": "Noto'g'ri Resurs qalin. Boshqalar o'tmaydigan yo'lga kirib, o'zingizning chuqurligingizni qurmoqdasiz. O'rganish va o'lchash kuchli, lekin fikr qo'lni ortda qoldiradi va siz boshlashdan oldin charchab qolishingiz mumkin. Yarim tayyor holda harakat qilish ushbu jadvalga mos keladi.",
+        "absent": "Noto'g'ri Resurs yo'q. Siz narsalarga to'qnashib o'rganasiz, ko'milib emas. O'rganishda sekin emassiz, lekin uzoq vaqt davomida yolg'iz o'qish sizga mos kelmaydi. Odamlardan so'rash va joyda o'rganish tezroq."
+      },
+      "JEONGIN": {
+        "thick": "To'g'ridan-to'g'ri Resurs qalin. Sizni ushlab turadigan narsa yetarli, shuning uchun o'rganish va suyanadigan joy hech qachon tugamaydi. Bu barqarorlik oldinga qadam qo'yishni kechiktiradi va tayyorgarlik boshlanishni kechiktirish sababi bo'ladi. Olingan narsalarni qaytaradigan bir joyni saqlash foydali.",
+        "absent": "To'g'ridan-to'g'ri Resurs yo'q. Siz o'zingizning poydevoringizni yaratdingiz, shuning uchun yolg'iz turish erta rivojlandi. Biroq, yordam so'rash sizga tanish emas va siz zarur bo'lganda ham yolg'iz turasiz. Ushbu jadvalda so'rash juda qimmat."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Chagramda qancha boylik (財星) bor — sizning boshqaradigan va to'playdigan narsalaringizning qalinligi.",
+      "WEALTH_STRONG_BODY": "Kun ustuni to'liq, shuning uchun boylikni olib yurish uchun kuch bor.",
+      "WEALTH_WEAK_BODY": "Kun ustuni ingichka, shuning uchun boylik mavjud bo'lsa ham, uni olib yurish qiyin.",
+      "WEALTH_YONGSIN": "Hozir sizga kerak bo'lgan narsa boylik yulduzlari bilan bir xil element, shuning uchun bu joyda ish osonroq bo'ladi.",
+      "LOVE_SPOUSE_STAR": "Chagramda qancha turmush o'rtog'i yulduzi bor — erkaklar uchun to'g'ridan-to'g'ri boylik, ayollar uchun to'g'ridan-to'g'ri mansab.",
+      "LOVE_SPOUSE_PALACE": "Turmush o‘rtog‘ingiz yulduzi kun shoxida, turmush o‘rtog‘ingiz saroyida joylashgan, shuning uchun joy to‘ldirilgan.",
+      "LOVE_PALACE_CHUNG": "Turmush o‘rtog‘ingiz saroyi boshqa shox bilan to‘qnashadi, shuning uchun o‘sha joy notinch.",
+      "LOVE_GENDER_UNKNOWN": "Jins kiritilmagan, shuning uchun turmush o‘rtog‘ingiz yulduzi hisobga olinmagan. Qiymat jinsga qarab boylik va ofitser yulduzlari o‘rtasida taqsimlanadi, biz esa birini tasodifan tanlamaymiz.",
+      "CAREER_OFFICER": "Jadvaldagi ofitser yulduzlari (正官·偏官) — o‘z zimmangizga olgan va saqlagan narsalarning qalinligi.",
+      "CAREER_OUTPUT": "Jadvaldagi chiqish yulduzlari (食神·傷官) — chiqarib va ifoda etgan narsalarning qalinligi.",
+      "CAREER_STRONG_BODY": "Kun ustuni to'liq ishlaydi, shuning uchun u ofitser yulduzlaridan foydalanadi, ulardan bosim o'tkazmaydi.",
+      "HEALTH_BALANCE": "Besh elementning qanchalik teng joylashgani — bir tomonga qanchalik og'irilsa, o'sha element boshqaradigan joyga shuncha yuk tushadi.",
+      "HEALTH_CHUNG": "Chizmada qanchalik ko'p tarmoq juftliklari to'qnashadi.",
+      "HEALTH_EXTREME_BODY": "Kun ustuni bir tomonga qattiq egilgan, bu o'zida yukdir. Muvozanatli kun ustuni bu yerda hech narsa yo'qotmaydi."
+    },
+    "yongsinDepth": {
+      "STRONG": "Sizning kun ustuningizni qo'llab-quvvatlaydigan elementlar to'liq. Bu sizga o'z kuchingizni beradi, lekin osonlik bilan bir tomonga og'adi, shuning uchun hozir sizga kerak bo'lgan narsa ko'proq qo'llab-quvvatlash emas — bu **ortiqchani olib tashlash**dir. {favorable} bu ishni bajaradi. O'sha element yetib boradigan joy — chiqarish, olish, yig'ish — bu yerda siz o'zingizni qulay his qilasiz.",
+      "BALANCED": "Sizning kun ustingizni qo'llab-quvvatlaydigan va undan tortib oladigan elementlar bir-biriga yaqin. Qaysi tomonga qaror qilish qiyin, shuning uchun biz **hozirgi eng yupqa** narsani sizga kerakli deb hisoblaymiz: {favorable}. O'ziga qaram bo'lmagan jadval yaxshi moslashadi, lekin o'z chizig'ini xiralashtiradi, shuning uchun yupqa joyga yo'nalish berish sizga tutish uchun yo'nalish beradi.",
+      "WEAK": "Sizning kun ustingizni qo'llab-quvvatlaydigan elementlar yupqa. Atrofingizdan kuchni yaxshi qarzga olasiz, lekin yolg'iz turishdan charchaysiz, shuning uchun hozir sizga kerak bo'lgan narsa **sizni qo'llab-quvvatlaydigan va to'ldiradigan narsa**. {favorable} bu ishni bajaradi. Qo'llab-quvvatlovchi narsalarni yaqin tutish bu jadvalda zaiflik emas — bu usuldir."
+    }
   },
   "footer": {
     "privacy": "Maxfiylik",

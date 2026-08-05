@@ -25,41 +25,41 @@ export const pt: Dictionary = {
       "O ano, mês, dia e hora do seu nascimento se tornam oito caracteres — seu gráfico natal. A partir disso, lemos o peso de cada elemento e a força do seu dia mestre.",
       "O pilar de hoje é colocado contra esse gráfico para lhe dar a sorte de hoje também."
     ],
-    "privacyTitle": "Nada que você insira é armazenado",
-    "privacyBody": "As datas de nascimento são usadas apenas enquanto o resultado está sendo calculado e nunca são registradas. Nenhuma conta é necessária. Nada contido em um link de resultado é enviado para o servidor.",
+    "privacyTitle": "Nada do que você informa é armazenado",
+    "privacyBody": "As datas de nascimento são usadas apenas enquanto o resultado é calculado e nunca são registradas. Não é preciso criar conta. Nada do que o link de resultado carrega é enviado ao servidor.",
     "disclaimer": "Esta é uma leitura tradicional de Saju oferecida para referência. Não é uma previsão científica ou um veredicto sobre o futuro de ninguém."
   },
   "form": {
     "title": "Sua data de nascimento",
-    "description": "Saber a hora de nascimento torna a leitura mais precisa, mas não é obrigatório.",
+    "description": "Saber o horário de nascimento deixa a leitura mais precisa, mas não é obrigatório.",
     "meLegend": "Sobre você",
-    "nickname": "Como chamá-lo",
-    "nicknamePlaceholder": "ex: Eu",
-    "nicknameHint": "Exibido apenas na tela de resultados. Não é utilizado no cálculo.",
+    "nickname": "Como chamar a pessoa",
+    "nicknamePlaceholder": "ex.: Eu",
+    "nicknameHint": "Aparece apenas na tela de resultado. Não é usado no cálculo.",
     "gender": "Gênero",
     "male": "Masculino",
     "female": "Feminino",
-    "genderUnspecified": "Prefiro não dizer",
+    "genderUnspecified": "Prefiro não informar",
     "genderHint": "A leitura tradicional de Saju analisa as posições do cônjuge e dos filhos de forma diferente por gênero. Se você pular isso, esses fatores serão excluídos do cálculo.",
     "birthplace": "Local de nascimento",
     "birthplaceHint": "O pilar da hora é calculado a partir do horário solar verdadeiro no seu local de nascimento. Se seu local de nascimento não estiver listado, escolha a cidade mais próxima.\nDentro da Coreia continental, a diferença entre as cidades é inferior a dois minutos. O horário de verão e as mudanças históricas de fuso horário também são refletidos.",
     "calendar": "Calendário",
     "solar": "Solar",
     "lunar": "Lunar",
-    "leapMonth": "Mês bissexto",
+    "leapMonth": "Mês intercalar",
     "birthDate": "Data de nascimento",
     "year": "Ano",
     "month": "Mês",
     "day": "Dia",
-    "birthTime": "Hora de nascimento",
-    "unknownTime": "Não sei a hora",
+    "birthTime": "Horário de nascimento",
+    "unknownTime": "Não sei o horário",
     "hour": "Hora",
     "minute": "Minuto",
     "submit": "Assistir anúncio e ver meu Saju",
     "submitNoAd": "Ver meu Saju",
     "submitting": "Calculando…",
-    "errorInvalidDate": "Por favor, verifique a data de nascimento. Para datas lunares, verifique também se cai em um mês bissexto.",
-    "errorGeneric": "O cálculo falhou. Por favor, tente novamente em um momento."
+    "errorInvalidDate": "Verifique a data de nascimento. Se for do calendário lunar, confira também se ela cai em um mês intercalar.",
+    "errorGeneric": "O cálculo falhou. Tente novamente em instantes."
   },
   "reading": {
     "chartTitle": "Seu mapa natal",
@@ -68,30 +68,30 @@ export const pt: Dictionary = {
     "pillarMonth": "Mês",
     "pillarDay": "Dia",
     "pillarHour": "Hora",
-    "pillarHourUnknown": "Hora de nascimento não informada",
-    "dayMasterLabel": "Dia mestre",
+    "pillarHourUnknown": "Sem horário de nascimento",
+    "dayMasterLabel": "Mestre do dia",
     "animalLabel": "Zodíaco",
-    "seasonLabel": "Energia da estação de nascimento",
-    "elementsTitle": "Força elemental",
+    "seasonLabel": "Estação do nascimento",
+    "elementsTitle": "Força dos elementos",
     "strongest": "Mais forte",
     "scarcest": "Mais escasso",
     "strengthTitle": "O que você trouxe ao nascer",
     "cautionTitle": "O que observar",
-    "bodyStrengthTitle": "Força do dia-mestre",
+    "bodyStrengthTitle": "Força do mestre do dia",
     "favorableLabel": "O que você precisa agora"
   },
   "bodyStrength": {
     "STRONG": {
-      "name": "Dia mestre forte",
-      "body": "Os elementos que apoiam seu dia mestre estão em abundância. Isso lhe dá impulso próprio, mas também tende a inclinar-se facilmente para um lado — você tende a se acomodar quando algo remove o excesso."
+      "name": "Mestre do dia forte",
+      "body": "Os elementos que sustentam o seu mestre do dia estão fartos. Isso lhe dá impulso próprio, mas também faz tudo pender para um lado com facilidade — você tende a se assentar quando algo drena o excesso."
     },
     "BALANCED": {
-      "name": "Dia mestre equilibrado",
-      "body": "O que apoia seu dia mestre e o que dele se retira estão quase iguais. Muito próximo para decidir de qualquer forma, então aqui lemos o que está mais fraco como o que você precisa."
+      "name": "Mestre do dia equilibrado",
+      "body": "O que sustenta o seu mestre do dia e o que o consome estão quase empatados. Como não dá para decidir por nenhum dos lados, aqui lemos como necessidade aquilo que estiver mais escasso."
     },
     "WEAK": {
-      "name": "Dia mestre fraco",
-      "body": "Os elementos que apoiam seu dia mestre estão escassos. Você pega força ao seu redor bem, mas se desgasta ao tentar se manter sozinho — você se destaca quando algo o apoia."
+      "name": "Mestre do dia fraco",
+      "body": "Os elementos que sustentam o seu mestre do dia estão escassos. Você toma emprestada bem a força de quem está por perto, mas se desgasta ao resistir sozinho — você se realiza quando algo lhe dá apoio."
     }
   },
   "tenGods": {
@@ -112,11 +112,11 @@ export const pt: Dictionary = {
       "body": "A energia que desestabiliza uma estrutura fixa. Ela concede talento e uma borda afiada, mas em excesso colide com regras e hierarquia."
     },
     "PYEONJAE": {
-      "name": "Sorte Repentina (偏財)",
+      "name": "Fortuna imprevista (偏財)",
       "body": "Energia de riqueza ampla. Ativa e generosa com o que possui, traz oportunidades de lugares inesperados."
     },
     "JEONGJAE": {
-      "name": "Riqueza Estável (正財)",
+      "name": "Riqueza estável (正財)",
       "body": "Energia de riqueza estável, acumulada aos poucos. A Saju tradicional também a lê como a posição do cônjuge para um homem."
     },
     "PYEONGWAN": {
@@ -128,129 +128,129 @@ export const pt: Dictionary = {
       "body": "A energia da ordem que o coloca em linha. Ela mantém seu nome e posição; a Saju tradicional também a lê como a posição do cônjuge para uma mulher."
     },
     "PYEONIN": {
-      "name": "Apoio Não Convencional (偏印)",
+      "name": "Apoio não convencional (偏印)",
       "body": "Energia que o apoia por um caminho incomum. Ela concede o poder de cavar fundo, mas em excesso o pensamento corre à frente da ação."
     },
     "JEONGIN": {
-      "name": "Nutrição (正印)",
+      "name": "Amparo (正印)",
       "body": "A energia que o acolhe e o cria. Ela oferece aprendizado e algo em que se apoiar; em excesso, a iniciativa própria chega tarde."
     }
   },
   "dayMasters": {
     "甲": {
       "name": "Madeira Yang (甲)",
-      "trait": "Uma árvore alta crescendo reta. Uma vez que a direção é definida, não vacila, e prefere suportar a dobrar."
+      "trait": "Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar."
     },
     "乙": {
       "name": "Madeira Yin (乙)",
-      "trait": "Uma videira — grama flexível. Ela se curva às circunstâncias para continuar se movendo, e não se quebra."
+      "trait": "Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe."
     },
     "丙": {
       "name": "Fogo Yang (丙)",
-      "trait": "O sol do meio-dia. Os sentimentos se mostram claramente, o ambiente se ilumina, e avançar vem naturalmente."
+      "trait": "O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade."
     },
     "丁": {
       "name": "Fogo Yin (丁)",
-      "trait": "Luz de vela. Queima silenciosamente e por muito tempo, aquecendo primeiro os mais próximos."
+      "trait": "A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto."
     },
     "戊": {
       "name": "Terra Yang (戊)",
-      "trait": "Terreno aberto e montanhas. Difícil de abalar e fácil de se apoiar, embora lenta para mudar uma decisão uma vez tomada."
+      "trait": "Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada."
     },
     "己": {
       "name": "Terra Yin (己)",
-      "trait": "Solo de campo. Aceita o que vem e o cultiva, cuidando em vez de exibir."
+      "trait": "Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir."
     },
     "庚": {
       "name": "Metal Yang (庚)",
-      "trait": "Ferro não trabalhado. Decisivo e claro, com pouca paciência para coisas deixadas pendentes."
+      "trait": "Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente."
     },
     "辛": {
       "name": "Metal Yin (辛)",
-      "trait": "Uma gema lapidada. Sabor refinado e altos padrões; descuidos são difíceis de deixar passar."
+      "trait": "Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar."
     },
     "壬": {
       "name": "Água Yang (壬)",
-      "trait": "Rio e mar. Amplo em perspectiva, com um olhar para como as coisas estão fluindo."
+      "trait": "Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem."
     },
     "癸": {
       "name": "Água Yin (癸)",
-      "trait": "Orvalho e chuva. Penetra silenciosamente e lê o clima antes das palavras."
+      "trait": "Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras."
     }
   },
   "dayMasterSigns": {
     "甲": [
       "Diz o que pensa mesmo em um primeiro encontro.",
-      "Raramente muda um plano ou uma promessa uma vez estabelecida.",
-      "Recusa as coisas de forma direta, o que pode soar brusco."
+      "Raramente muda um plano ou uma promessa depois de firmados.",
+      "Recusa de forma direta, o que pode soar seco."
     ],
     "乙": [
-      "Evita confrontos e toma outro caminho.",
-      "Parece suave, mas acaba onde pretendia ir.",
-      "Lê o ambiente antes de se juntar a um grupo."
+      "Contorna o confronto e segue por outro caminho.",
+      "Parece dócil, mas acaba chegando aonde pretendia.",
+      "Observa o ambiente antes de entrar em um grupo."
     ],
     "丙": [
-      "Fala primeiro com pessoas que acabou de conhecer.",
-      "O que gosta e não gosta aparece em seu rosto.",
-      "Acaba no centro de um encontro sem tentar."
+      "Puxa conversa com quem acabou de conhecer.",
+      "O que gosta e o que não gosta aparece no rosto.",
+      "Acaba no centro de qualquer reunião sem nem tentar."
     ],
     "丁": [
-      "Quieto no início, atencioso quando você se aproxima.",
-      "Prefere uma conversa longa com uma ou duas pessoas do que com uma multidão.",
-      "Lembra de um comentário passageiro e o menciona mais tarde."
+      "Calado no começo, atencioso depois que a proximidade chega.",
+      "Prefere uma conversa longa com uma ou duas pessoas a uma multidão.",
+      "Guarda um comentário de passagem e o retoma depois."
     ],
     "戊": [
-      "Fala pouco; sua voz raramente sobe mesmo quando as coisas são urgentes.",
-      "Aquele que resolve no final enquanto os outros adiam a decisão.",
-      "Um não, uma vez dado, permanece não por muito tempo."
+      "Fala pouco; a voz raramente se altera, mesmo na urgência.",
+      "É quem resolve no fim, enquanto os outros adiam a decisão.",
+      "Um não, uma vez dado, continua sendo não por muito tempo."
     ],
     "己": [
-      "Escuta mais do que fala.",
-      "Tem dificuldade em recusar, então o trabalho se acumula.",
-      "O que cuidou silenciosamente só aparece mais tarde."
+      "Ouve por mais tempo do que fala.",
+      "Tem dificuldade de recusar, então o trabalho se acumula sobre essa pessoa.",
+      "O que cuidou em silêncio só vem à tona depois."
     ],
     "庚": [
-      "Decide rápido e diz isso na hora.",
+      "Decide rápido e diz na hora.",
       "Não suaviza as coisas, o que pode soar frio.",
-      "Visivelmente inquieto quando algo se arrasta."
+      "Fica visivelmente inquieto quando algo se arrasta."
     ],
     "辛": [
-      "Tem padrões claros sobre roupas e as coisas que escolhe.",
-      "Não consegue deixar um trabalho mal feito passar sem apontar.",
-      "Econômico com elogios, mas definitivo quando realmente o faz."
+      "Tem critérios claros sobre a roupa e sobre o que escolhe.",
+      "Não consegue deixar passar um trabalho pela metade sem apontá-lo.",
+      "Econômico nos elogios, mas categórico quando resolve elogiar."
     ],
     "壬": [
-      "Mistura-se facilmente com todos os tipos de pessoas.",
-      "Menciona o que vem depois antes do que está à sua frente.",
-      "Fica incomodado por estar preso a um lugar por muito tempo."
+      "Mistura-se com facilidade com todo tipo de gente.",
+      "Traz o que vem depois antes do que está diante de si.",
+      "Incomoda-se em ficar preso a um só lugar por muito tempo."
     ],
     "癸": [
-      "Fala pouco, mas leu a situação exatamente.",
-      "Primeiro a notar quando o clima muda.",
-      "Mantém sua vida interior próxima, então leva tempo para conhecê-los."
+      "Fala pouco, mas leu a situação com exatidão.",
+      "É o primeiro a perceber quando o clima muda.",
+      "Guarda a vida interior para si, então leva tempo até conhecê-lo."
     ]
   },
   "animalTraits": {
-    "rat": "Rápido para perceber e rápido para garantir o que importa. Primeiro a agir em uma crise.",
-    "ox": "Lento para olhar, mas vê as coisas até o fim. O que assume, não solta.",
-    "tiger": "Destemido e à frente. Não pode deixar a injustiça passar.",
-    "rabbit": "Gentil e perceptivo. Sabe como contornar em vez de colidir.",
-    "dragon": "De coração grande e altos ideais. Raramente satisfeito com o comum.",
-    "snake": "Mantém seus próprios conselhos e pensa profundamente. Julga com precisão.",
-    "horse": "Brilhante e inquieto. Estar cercado é a coisa mais difícil.",
-    "goat": "Caloroso e atencioso. Guarda palavras duras por muito tempo.",
-    "monkey": "Inventivo e rápido para se adaptar. Entediado com a repetição.",
-    "rooster": "Diligente e exigente. Não pode deixar nada fora do lugar.",
-    "dog": "Leal até o fim uma vez que a confiança é dada. A traição dói especialmente.",
-    "pig": "Generoso e direto. Confia facilmente, às vezes a um custo."
+    "rat": "Percebe rápido e garante rápido o que importa. O primeiro a se mover numa crise.",
+    "ox": "Parece lento, mas leva tudo até o fim. O que assume, não larga.",
+    "tiger": "Destemido e sempre à frente. Não consegue deixar passar uma injustiça.",
+    "rabbit": "Gentil e perceptivo. Sabe contornar em vez de colidir.",
+    "dragon": "Coração grande e ideais altos. Raramente se contenta com o comum.",
+    "snake": "Guarda o que pensa e reflete com profundidade. Julga com precisão.",
+    "horse": "Alegre e inquieto. Ficar cercado é o mais difícil de tudo.",
+    "goat": "Caloroso e atencioso. Guarda por muito tempo as palavras duras.",
+    "monkey": "Cheio de recursos e rápido para se adaptar. Entedia-se com a repetição.",
+    "rooster": "Diligente e minucioso. Não consegue deixar nada fora do lugar.",
+    "dog": "Leal até o fim depois que confia. A traição machuca especialmente fundo.",
+    "pig": "Generoso e franco. Confia com facilidade, às vezes a um custo."
   },
   "result": {
     "title": "Sua leitura de Saju",
     "recalculate": "Começar de novo",
-    "copyLink": "Copiar link do resultado",
+    "copyLink": "Copiar o link do resultado",
     "copied": "Copiado",
-    "missingInput": "Este resultado não pôde ser lido. Por favor, insira as datas novamente.",
-    "partialTime": "Nenhum horário de nascimento foi fornecido, então o pilar da hora foi deixado de fora. Adicioná-lo torna a leitura mais precisa.",
+    "missingInput": "Não foi possível ler este resultado. Informe as datas novamente.",
+    "partialTime": "Nenhum horário de nascimento foi informado, então o pilar da hora ficou de fora. Incluí-lo deixa a leitura mais precisa.",
     "engineVersion": "Calculado com",
     "disclaimer": "Esta é uma leitura tradicional de Saju oferecida como referência. Não é uma previsão científica ou um veredicto sobre seu futuro."
   },
@@ -339,7 +339,7 @@ export const pt: Dictionary = {
     "disclaimer": "A sorte de hoje transforma a relação entre o pilar do dia e seu gráfico em uma pontuação. É uma nota sobre como passar o dia, não uma profecia."
   },
   "ads": {
-    "label": "Anúncio"
+    "label": "Publicidade"
   },
   "analyzing": {
     "title": "Construindo seu gráfico",
@@ -356,7 +356,7 @@ export const pt: Dictionary = {
       "Conhecer seu Saju significa ver a si mesmo, não ver à frente."
     ],
     "watching": "Assistindo ao anúncio",
-    "remaining": "Seu resultado será aberto em {seconds}s"
+    "remaining": "Seu resultado abre em {seconds}s"
   },
   "reportDetail": {
     "depthTitle": "Um olhar mais atento para o seu gráfico",
@@ -373,7 +373,7 @@ export const pt: Dictionary = {
       },
       "HYU": {
         "name": "Hyu (休)",
-        "body": "descansando após seu turno"
+        "body": "em repouso após a sua vez"
       },
       "SU": {
         "name": "Su (囚)",
@@ -381,7 +381,7 @@ export const pt: Dictionary = {
       },
       "SA": {
         "name": "Sa (死)",
-        "body": "em seu ponto mais fraco"
+        "body": "no ponto mais fraco"
       }
     },
     "rawLabel": "Antes da estação",
@@ -400,10 +400,10 @@ export const pt: Dictionary = {
     "deltaColumn": "Pontos",
     "appendixTitle": "Como este gráfico foi construído",
     "timeCorrectionLabel": "Hora de nascimento",
-    "timeCorrectionApplied": "Corrigido para o horário solar verdadeiro e lido como {time}.",
+    "timeCorrectionApplied": "Corrigida para hora solar verdadeira e lida como {time}.",
     "timeCorrectionNone": "Nenhuma hora de nascimento foi fornecida, então o pilar da hora foi deixado de fora.",
     "timeCorrectionDateShift": "A correção moveu a data para {date}, então o pilar daquele dia foi usado.",
-    "calendarLabel": "Data em que o gráfico foi gerado",
+    "calendarLabel": "Data a partir da qual o mapa foi traçado",
     "solarLabel": "Solar",
     "lunarLabel": "Lunar",
     "lunarUnavailable": "Esta data não está na tabela do almanaque, então nenhuma data lunar é mostrada."
@@ -411,14 +411,14 @@ export const pt: Dictionary = {
   "report": {
     "title": "Mantenha sua leitura de vida como um PDF",
     "body": "Transformamos esta leitura em um PDF — seu mapa natal, o peso dos cinco elementos, a força do seu dia master e o que ele precisa agora, e a sorte de hoje, tudo em uma página.",
-    "buyButton": "Pague {price} e baixe",
+    "buyButton": "Pagar {price} e baixar",
     "preparing": "Ainda não disponível",
     "ordering": "Criando seu pedido…",
-    "paying": "Processando pagamento…",
+    "paying": "Processando o pagamento…",
     "issuing": "Preparando seu relatório…",
-    "done": "Baixado. Use o botão abaixo para baixá-lo novamente.",
-    "failed": "O pagamento ou download falhou. Por favor, tente novamente em um momento.",
-    "retry": "Baixar novamente",
+    "done": "Baixado. Use o botão abaixo para baixar de novo.",
+    "failed": "O pagamento ou o download falhou. Tente novamente em instantes.",
+    "retry": "Baixar de novo",
     "contents": [
       "Seu dia master e temperamento — um resumo, forças e precauções",
       "Seu mapa natal — os oito caracteres dos quatro pilares",
@@ -426,8 +426,8 @@ export const pt: Dictionary = {
       "A força do seu dia master, e a energia que ele precisa agora",
       "A sorte de hoje e os quatro domínios (dinheiro, amor, trabalho, saúde)"
     ],
-    "consentLabel": "Entendo que este é um conteúdo digital entregue imediatamente após o pagamento, e que **a retirada por simples mudança de ideia é restrita uma vez que o download é concluído**.",
-    "consentRequired": "Por favor, confirme os termos de retirada antes de pagar.",
+    "consentLabel": "Entendo que este é um conteúdo digital entregue imediatamente após o pagamento e que **o arrependimento por simples mudança de ideia fica restrito assim que o download é concluído**.",
+    "consentRequired": "Confirme os termos de arrependimento antes de pagar.",
     "productInfoTitle": "Informações do produto",
     "productInfo": [
       [
@@ -440,27 +440,27 @@ export const pt: Dictionary = {
       ],
       [
         "Requisitos",
-        "Qualquer dispositivo que abra um PDF. Nenhuma instalação ou conta necessária."
+        "Qualquer aparelho que abra PDF. Não é preciso instalar nada nem criar conta."
       ],
       [
         "Prazo de uso",
-        "Sem limite. Você mantém o arquivo que baixa."
+        "Sem limite. O arquivo baixado fica com você."
       ],
       [
-        "Re-download",
-        "Até cinco vezes no mesmo pedido. Não mantemos cópia, então não pode ser produzido novamente uma vez que você saia da tela de resultados."
+        "Novo download",
+        "Até cinco vezes no mesmo pedido. Não guardamos nenhuma cópia, então ele não pode ser gerado outra vez depois que você sair da tela de resultado."
       ],
       [
-        "Retirada",
-        "Reembolso total antes do início do download. Após a conclusão, a retirada por mudança de ideia é restrita (Art. 17(2), Lei de Comércio Eletrônico da Coreia)."
+        "Arrependimento",
+        "Reembolso integral antes de o download começar. Depois de concluído, o arrependimento por mudança de ideia fica restrito (art. 17, §2º, da Lei de Comércio Eletrônico da Coreia)."
       ],
       [
         "Custos de devolução",
-        "Nenhum — conteúdo digital, nada é enviado."
+        "Nenhum — é conteúdo digital, nada é enviado."
       ]
     ],
-    "refundContact": "Para reembolsos ou perguntas, entre em contato com o centro de atendimento ao cliente ou e-mail abaixo. Se o documento não puder ser produzido, ou o valor cobrado diferir do pedido, reembolsamos integralmente.",
-    "pdfLanguageNotice": "O PDF é produzido no mesmo idioma que esta tela."
+    "refundContact": "Para reembolsos ou dúvidas, fale com o atendimento ao cliente ou use o e-mail abaixo. Se o documento não pôde ser gerado, ou se o valor cobrado for diferente do pedido, reembolsamos integralmente.",
+    "pdfLanguageNotice": "O PDF é gerado no mesmo idioma desta tela."
   },
   "premiumReport": {
     "title": "Mantenha sua leitura premium como um PDF",
@@ -519,68 +519,131 @@ export const pt: Dictionary = {
     "pdfLanguageNotice": "O documento PDF é produzido no mesmo idioma que esta tela."
   },
   "fallbackReport": {
-    "summary": "Um {dayMaster} dia mestre nascido na energia de {season}. Em todo o gráfico, {strongest} é o mais forte e {scarcest} é o mais fraco. Tudo abaixo segue a partir desses oito caracteres — cada número e cada pilar aqui é calculado, não escolhido.",
-    "personality": "Seu dia mestre é {dayMaster} — energia de {element} — e este gráfico é lido como {strengthName}. Qual lado é mais forte, o que apoia o dia mestre ou o que dele se retira, é o que molda o caráter, e na vida diária isso se manifesta assim.",
+    "summary": "Um {dayMaster} dia mestre nascido na energia de {season}. Em todo o gráfico, {strongest} é o mais espesso e {scarcest} é o mais fino. Tudo abaixo segue a partir desses oito caracteres — cada número e cada pilar aqui é calculado, não escolhido.",
+    "personality": "Seu dia mestre é {dayMaster} — energia {element} — e este gráfico é lido como {strengthName}. Qual lado é mais espesso, o que apoia o dia mestre ou o que dele se retira, é o que molda o caráter, e na vida diária isso se manifesta assim.",
     "cautions": {
       "STRONG": [
-        "Você se esforça tanto que muitas vezes percebe a inclinação apenas depois que ela aconteceu.",
+        "Você se esforça tanto que muitas vezes percebe a inclinação apenas depois que ela acontece.",
         "Mesmo onde a ajuda está disponível, você acaba lidando com isso sozinho, o que torna o trabalho maior.",
-        "As coisas se estabilizam quando você deixa espaço para o que remove o excesso."
+        "As coisas se estabilizam quando você deixa espaço para o que retira o excesso."
       ],
       "BALANCED": [
-        "Nada te inclina para um lado ou para o outro, então uma decisão adiada simplesmente permanece adiada.",
+        "Nada te inclina para nenhum lado, então uma decisão adiada simplesmente permanece adiada.",
         "Você se adapta bem à situação, o que pode borrar onde está sua própria linha.",
-        "Dirigir-se para o que está mais fraco agora lhe dá uma direção a seguir."
+        "Dirigir-se para o que está mais fino agora lhe dá uma direção a seguir."
       ],
       "WEAK": [
         "Segurar-se sozinho o desgasta mais rápido do que você espera.",
-        "Sem nada que te apoie, as decisões escorregam e o momento passa.",
-        "Manter pessoas que oferecem apoio por perto não é uma fraqueza neste gráfico — é o método."
+        "Sem nada atrás de você, as decisões escorregam e o momento passa.",
+        "Manter pessoas que apoiam perto não é uma fraqueza neste gráfico — é o método."
       ]
     },
-    "scarcityCaution": "O elemento mais fraco agora é {scarcest}. O que esse elemento governa é onde você age mais lentamente.",
-    "elementBalance": "Por força, {strongest} lidera com {strongestPct}% e {scarcest} segue com {scarcestPct}%. Seu mês de nascimento está em {season}, o que empurra esse elemento para cima mais uma vez — a mesma quantidade carrega forças diferentes dependendo se a estação a apoia. O que você precisa agora é {favorable}, e as coisas se facilitam onde esse elemento é preenchido.",
+    "scarcityCaution": "O elemento mais fino agora é {scarcest}. O que esse elemento governa é onde você age mais lentamente.",
+    "elementBalance": "Por força, {strongest} lidera com {strongestPct}% e {scarcest} fica atrás com {scarcestPct}%. O mês do seu nascimento está em {season}, o que empurra esse elemento mais uma vez — a mesma quantidade carrega uma força diferente dependendo de se a estação a apoia. O que você precisa agora é {favorable}, e as coisas se tornam mais fáceis onde esse elemento é preenchido.",
     "todayHeadline": "Hoje é um dia {grade}",
     "todayMessage": "Hoje a pontuação é {score}, classificada como {gradeName}. {gradeBody} O pilar do dia é {pillar}, e o maior fator que influenciou essa pontuação foi “{topFactor}”.",
     "todayAdvice": {
-      "HIGH": "Um bom dia para retomar a mensagem ou a organização que você tem deixado de lado — embora seja melhor não tentar terminar tudo hoje.",
-      "MID": "Faça como costuma fazer e você obterá o que costuma obter. Em vez de começar algo novo, avance um passo em algo que já está em mãos.",
-      "LOW": "Algumas partes de hoje vão contra o gráfico. É melhor gastar tempo finalizando e checando do que começando."
+      "HIGH": "Um bom dia para retomar a mensagem ou a organização que você tem adiado — embora seja melhor não tentar terminar tudo hoje.",
+      "MID": "Faça como de costume e você obterá o que costuma obter. Em vez de começar algo novo, avance um passo em algo que já está em mãos.",
+      "LOW": "Parte de hoje vai contra o gráfico. É melhor gastar tempo finalizando e verificando do que começando."
     },
-    "luckyNote": "O elemento da sorte de hoje é {element}. A faixa de {colors}, o lado {direction}, e as horas em torno de {time} são onde essa energia é mais forte.",
+    "luckyNote": "O elemento da sorte de hoje é {element}. A faixa de {colors}, o lado {direction}, e as horas em torno de {time} são onde essa energia flui mais intensamente.",
     "domains": {
-      "wealth": "A riqueza lê {score} hoje. Este valor varia com a energia de hoje alcançando as estrelas da riqueza (財星) — o que você lida e o que você coleta.",
-      "love": "O afeto lê {score} hoje. Este valor é decidido por como o ramo de hoje se encontra com seu ramo do dia (日支), o palácio do cônjuge — harmonia o eleva, um conflito o diminui.",
-      "career": "O trabalho lê {score} hoje. Este valor varia com a energia de hoje alcançando as estrelas do oficial (官星) e da produção (食傷) — o que você assume e o que você produz.",
-      "health": "A saúde lê {score} hoje. Este valor é decidido por quantos dos seus ramos natais hoje colidem, e se o elemento de hoje é um que você precisa."
+      "wealth": "A leitura de dinheiro hoje é {score}. Esse valor varia com a energia de hoje alcançando as estrelas da riqueza (財星) — o que você lida e o que você acumula.",
+      "love": "A leitura de afeto hoje é {score}. Esse valor é decidido por como o ramo de hoje se encontra com seu ramo do dia (日支), o palácio do cônjuge — harmonia eleva, um conflito o reduz.",
+      "career": "A leitura de trabalho hoje é {score}. Esse valor varia com a energia de hoje alcançando as estrelas do oficial (官星) e de produção (食傷) — o que você assume e o que você entrega.",
+      "health": "A leitura de saúde hoje é {score}. Esse valor é decidido por quantos dos seus ramos natais colidem com o de hoje, e se o elemento de hoje é um que você precisa."
     },
     "yearOutlook": "O pilar deste ano é {pillar}, carregando {element}. {relation} Esta leitura considera apenas como o pilar do ano se relaciona com o que você precisa agora; não divide o ano mês a mês.",
     "yearRelations": {
       "YONGSIN": "O elemento que você precisa chega diretamente este ano. Um momento adequado para trazer à tona o que você havia deixado de lado.",
       "GENERATES": "Este ano alimenta o elemento que você precisa, então a corrente se torna mais suave — não de uma vez, mas de forma constante.",
-      "GISIN": "Este ano empurra mais uma vez na direção que você já estava inclinando. É melhor gastar tempo finalizando o que está em mãos do que abrir algo novo.",
+      "GISIN": "Este ano empurra mais uma vez na direção que você já estava seguindo. É melhor gastar tempo fechando o que está em mãos do que abrir algo novo.",
       "CONTROLS": "Algo este ano pressiona o elemento que você precisa, então as decisões demoram mais. Definir seus próprios prazos ajuda.",
-      "NEUTRAL": "Este ano não colide nem alimenta o que você precisa. Manter o terreno que você tem é a melhor troca."
+      "NEUTRAL": "Este ano não colide nem alimenta o que você precisa. Manter o terreno que você tem é o melhor negócio."
     },
-    "disclaimer": "Referência tradicional de myeongri, não uma previsão científica ou uma afirmação sobre o que deve acontecer."
+    "disclaimer": "Referência tradicional de myeongri, não uma previsão científica ou uma afirmação sobre o que deve acontecer.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Companheiro é forte. Você constrói com suas próprias mãos em vez de emprestá-las, o que o torna forte em levar uma tarefa até o fim. Mas aceitar ajuda também é uma habilidade, e tratá-la como uma fraqueza deixa você carregando as coisas sozinho — e colidindo, sobre as partes, com quem está ao seu lado. Onde o trabalho é compartilhado, oferecer sua mão primeiro acaba sendo o caminho mais rápido.",
+        "absent": "Companheiro está ausente. Mover-se com os outros se adapta melhor a você do que manter seu próprio espaço. Você hesita muito onde a decisão é apenas sua, e ganha velocidade uma vez que alguém está com você. Quando uma posição é sua para manter, vale a pena praticar o empurrão."
+      },
+      "GEOPJAE": {
+        "thick": "Rob Riqueza é forte. Você se move primeiro onde os outros hesitam. Essa força não se transforma facilmente em manter, então o que você ganha não permanece por muito tempo em mãos. Decidir com antecedência para onde o dinheiro vai não é economia neste gráfico — é método.",
+        "absent": "Rob Riqueza está ausente. Você raramente força algo e evita competições. Você perde pouco, mas chega um pouco atrasado quando algo precisa ser empurrado com força. Onde os riscos são reais, definir seu próprio prazo ajuda."
+      },
+      "SIKSIN": {
+        "thick": "Deus da Alimentação é forte. O que está dentro sai facilmente, então fazer, crescer e alimentar são terrenos confortáveis. Você se sai bem em trabalhos que são feitos lentamente e por muito tempo, e os resultados chegam tarde, mas de forma constante. Quando o conforto se estende, no entanto, você se acomoda em vez de se expandir.",
+        "absent": "Deus da Alimentação está ausente. O canal do interior para o exterior é fino: o pensamento está lá, a expressão dele chega tarde. Esperar até que tudo esteja pronto atrasa o início. Colocar algo para fora meio acabado não é uma perda neste gráfico."
+      },
+      "SANGGWAN": {
+        "thick": "O Oficial Ferido é forte. Você vê o que está fora do lugar em um quadro fixo antes de qualquer outra pessoa e tem as palavras para nomeá-lo. Você brilha onde as coisas estão sendo feitas e colide onde as coisas estão sendo mantidas. Como a coisa certa é dita importa tanto aqui quanto vê-la.",
+        "absent": "O Oficial Ferido está ausente. Você procura o caminho através de um quadro em vez de sacudi-lo. Você raramente colide com as pessoas, mas deixa as coisas passarem onde deveriam mudar, e isso se transforma em frustração. Melhor não adiar a palavra que precisa ser dita."
+      },
+      "PYEONJAE": {
+        "thick": "A Riqueza Indireta é forte. Você mantém uma mão em vários lugares e captura oportunidades amplas, então as coisas se abrem em cantos inesperados. O que é espalhado também deve ser cuidado, no entanto, e cuidar disso lhe interessa menos — então você continua falhando em reunir o que abriu. Fechar um antes de abrir o próximo é a ordem que este gráfico precisa.",
+        "absent": "A Riqueza Indireta está ausente. Você pega a coisa certa em terreno familiar em vez de se espalhar. Há menos para te abalar, e você observa as grandes oportunidades passarem com a mesma frequência. Ampliar seu alcance um palmo de cada vez ajuda."
+      },
+      "JEONGJAE": {
+        "thick": "A Riqueza Direta é forte. Você conta o que entra e o que sai, e você constrói — assim, o chão sob você se firma ao longo do tempo. Alcançar apenas a coisa certa faz você se atrasar para a oportunidade, e a avareza levada longe demais torna sua mão pesada onde deveria abrir. Decidir com antecedência para que o dinheiro serve ajuda.",
+        "absent": "A Riqueza Direta está ausente. O lado de acumulação constante é fraco, então gerenciar o que chega continua sendo adiado. Ganhar e manter são habilidades diferentes; este gráfico precisa aprender a segunda separadamente. Regras que movem dinheiro sem você decidir cada vez se adequam bem a você."
+      },
+      "PYEONGWAN": {
+        "thick": "O Oficial Indireto é forte. A pressão revela sua força, e você carrega responsabilidades que outros acham pesadas. Quando a tensão nunca se alivia, no entanto, ela se endurece em uma sensação de estar perseguido e descansar deixa de parecer descanso. Definir um horário para parar não é ocioso neste gráfico.",
+        "absent": "O Oficial Indireto está ausente. Pouco pressiona você, o que é fácil para a mente, mas o poder de se manter ereto em uma crise é fraco. Você se sai muito melhor quando um prazo ou uma promessa é estabelecida de fora."
+      },
+      "JEONGGWAN": {
+        "thick": "O Oficial Direto é forte. Sua posição e as linhas que você mantém são claras, e mantê-las é de onde vem sua estabilidade — você constrói confiança dentro dos sistemas. Onde as regras vacilam, você é lento para julgar, e onde a mesa é sua para definir, você se sente preso.",
+        "absent": "O Oficial Direto está ausente. Um caminho feito por você se adequa melhor do que um lugar designado de fora. Isso é liberdade, mas o padrão oscila facilmente; escrever suas próprias regras como se fossem políticas ajuda."
+      },
+      "PYEONIN": {
+        "thick": "O Recurso Indireto é forte. Você vai pelo caminho que outros pulam e constrói uma profundidade própria. O aprendizado e a ponderação são fortes, mas o pensamento ultrapassa a mão e você pode estar cansado antes de começar. Mover-se com meio preparo se encaixa neste gráfico.",
+        "absent": "O Recurso Indireto está ausente. Você aprende ao se deparar com as coisas em vez de se enterrar. Você não é lento para aprender, mas estudar sozinho por longos períodos não se adequa a você. Perguntar às pessoas e aprender no chão é mais rápido."
+      },
+      "JEONGIN": {
+        "thick": "O Recurso Direto é denso. O que te sustenta é abundante, então aprender e ter um lugar para se apoiar nunca acaba. Essa estabilidade faz com que avançar seja tardio, e a preparação se torna a razão para um início ser adiado. Manter um lugar onde o que você recebeu retorna é valioso.",
+        "absent": "O Recurso Direto está ausente. Você criou seu próprio apoio, então ficar em pé sozinho se desenvolveu cedo. Pedir ajuda é desconhecido, e você se sustenta sozinho mesmo quando não precisa. Neste gráfico, pedir é muito valioso."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Quanta riqueza (財星) o gráfico carrega — a espessura do que você lida e coleta.",
+      "WEALTH_STRONG_BODY": "O dia mestre é pleno, então há força para carregar riqueza.",
+      "WEALTH_WEAK_BODY": "O dia mestre é fino, então a riqueza é difícil de carregar mesmo onde existe.",
+      "WEALTH_YONGSIN": "O que você precisa agora é do mesmo elemento que as estrelas da riqueza, para que esse terreno venha mais fácil.",
+      "LOVE_SPOUSE_STAR": "Quanta estrela do cônjuge o gráfico carrega — riqueza direta para homens, oficial direto para mulheres.",
+      "LOVE_SPOUSE_PALACE": "A estrela do cônjuge está dentro do seu ramo do dia, o palácio do cônjuge, então o assento está preenchido.",
+      "LOVE_PALACE_CHUNG": "O palácio do cônjuge colide com outro ramo, então esse assento está instável.",
+      "LOVE_GENDER_UNKNOWN": "Nenhum gênero foi inserido, então a estrela do cônjuge não foi contada. O valor se divide entre estrelas de riqueza e de oficial por gênero, e não escolhemos um arbitrariamente.",
+      "CAREER_OFFICER": "As estrelas de oficial (正官·偏官) no gráfico — a espessura do que você assume e mantém.",
+      "CAREER_OUTPUT": "As estrelas de saída (食神·傷官) no gráfico — a espessura do que você coloca para fora e expressa.",
+      "CAREER_STRONG_BODY": "O dia mestre é forte, então usa as estrelas de oficial em vez de ser pressionado por elas.",
+      "HEALTH_BALANCE": "Quão equilibrados estão os cinco elementos — quanto mais inclina para um lado, mais pressão recai sobre o que aquele elemento governa.",
+      "HEALTH_CHUNG": "Quantos pares de ramos colidem dentro do gráfico.",
+      "HEALTH_EXTREME_BODY": "O dia mestre se inclina fortemente para um lado, o que é uma pressão em si. Um dia mestre equilibrado não perde nada aqui."
+    },
+    "yongsinDepth": {
+      "STRONG": "Os elementos que apoiam seu dia mestre estão em plena força. Isso lhe dá impulso próprio, mas se inclina facilmente para um lado, então o que você precisa agora não é mais apoio — é **algo para eliminar o excesso**. {favorable} faz isso. Onde aquele elemento alcança — colocando para fora, assumindo, reunindo — é onde você se estabelece.",
+      "BALANCED": "O que apoia seu dia mestre e o que retira dele estão quase equilibrados. Difícil de decidir de qualquer forma, então aqui lemos **o que está mais fraco** como o que você precisa: {favorable}. Um gráfico que não se inclina se adapta bem, mas pode borrar sua própria linha, então direcionar-se para o lugar mais fraco lhe dá uma direção a seguir.",
+      "WEAK": "Os elementos que apoiam seu dia mestre estão fracos. Você empresta força ao seu redor bem, mas se desgasta ao tentar se manter sozinho, então o que você precisa agora é **algo que o apoie e o preencha**. {favorable} faz isso. Manter coisas de apoio por perto não é uma fraqueza neste gráfico — é o método."
+    }
   },
   "footer": {
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "refund": "Cancelamento e Reembolsos",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "refund": "Reembolso",
     "pricing": "Preços",
     "legalEntity": "Empresa",
     "representative": "Representante",
-    "businessNumber": "Número de Registro",
-    "mailOrderNumber": "Registro de E-commerce",
+    "businessNumber": "Registro",
+    "mailOrderNumber": "Comércio online",
     "address": "Endereço",
-    "customerCenter": "Atendimento ao Cliente",
+    "customerCenter": "Atendimento",
     "email": "Email",
-    "privacyOfficer": "Responsável pela Privacidade",
+    "privacyOfficer": "Privacidade",
     "hostingProvider": "Hospedagem",
     "providedBy": "Fornecido por",
-    "effective": "Vigente",
-    "backHome": "Voltar para a página inicial"
+    "effective": "Vigência",
+    "backHome": "Voltar ao início"
   },
   "animals": {
     "rat": "Rato",
@@ -588,7 +651,7 @@ export const pt: Dictionary = {
     "tiger": "Tigre",
     "rabbit": "Coelho",
     "dragon": "Dragão",
-    "snake": "Cobra",
+    "snake": "Serpente",
     "horse": "Cavalo",
     "goat": "Cabra",
     "monkey": "Macaco",

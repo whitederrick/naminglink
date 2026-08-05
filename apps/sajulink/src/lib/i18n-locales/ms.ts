@@ -520,49 +520,112 @@ export const ms: Dictionary = {
   },
   "fallbackReport": {
     "summary": "Seorang {dayMaster} yang dilahirkan dalam tenaga {season}. Di seluruh carta, {strongest} paling tebal dan {scarcest} paling nipis. Segala yang berikut adalah berdasarkan lapan karakter tersebut — setiap nombor dan setiap tiang di sini dikira, bukan dipilih.",
-    "personality": "Day master anda adalah {dayMaster} — tenaga {element} — dan carta ini dibaca sebagai {strengthName}. Mana yang lebih tebal, yang menyokong day master atau yang menarik daripadanya, adalah apa yang membentuk corak, dan dalam kehidupan seharian ia muncul seperti ini.",
+    "personality": "Day master anda adalah {dayMaster} — tenaga {element} — dan carta ini dibaca sebagai {strengthName}. Sisi mana yang lebih tebal, apa yang menyokong day master atau apa yang menarik daripadanya, adalah apa yang membentuk bijirin, dan dalam kehidupan seharian ia muncul seperti ini.",
     "cautions": {
       "STRONG": [
-        "Anda mendorong dengan kuat sehingga anda sering hanya menyedari kecenderungan setelah ia berlaku.",
-        "Walaupun di mana bantuan tersedia, anda akhirnya mengendalikannya sendiri, yang menjadikan tugas lebih besar.",
+        "Anda mendorong dengan cukup kuat sehingga anda sering hanya menyedari kecenderungan setelah ia berlaku.",
+        "Walaupun di mana bantuan tersedia, anda akhirnya mengendalikannya seorang diri, yang menjadikan tugas lebih besar.",
         "Segala-galanya menjadi lebih baik apabila anda memberi ruang untuk apa yang menarik lebihan."
       ],
       "BALANCED": [
-        "Tiada apa yang memihak kepada anda, jadi keputusan yang ditangguhkan hanya akan terus ditangguhkan.",
+        "Tiada apa yang memihak kepada anda, jadi keputusan yang ditangguhkan hanya kekal ditangguhkan.",
         "Anda menyesuaikan diri dengan baik kepada situasi, yang boleh mengaburkan di mana garis anda sendiri.",
         "Mengarah kepada apa yang paling nipis sekarang memberi anda arah untuk dipegang."
       ],
       "WEAK": [
-        "Bertahan sendirian lebih cepat melemahkan anda daripada yang anda jangkakan.",
-        "Tanpa sokongan di belakang anda, keputusan tergelincir dan saat itu berlalu.",
+        "Bertahan seorang diri lebih cepat melemahkan anda daripada yang anda jangkakan.",
+        "Tanpa apa-apa di belakang anda, keputusan tergelincir dan saat itu berlalu.",
         "Menjaga orang yang menyokong dekat adalah bukan kelemahan dalam carta ini — ia adalah kaedah."
       ]
     },
-    "scarcityCaution": "Elemen yang paling nipis sekarang adalah {scarcest}. Apa sahaja yang elemen itu mentadbir adalah di mana anda paling lambat untuk bertindak.",
+    "scarcityCaution": "Elemen yang paling nipis sekarang adalah {scarcest}. Apa sahaja yang elemen itu mengawal adalah di mana anda paling lambat untuk bertindak.",
     "elementBalance": "Mengikut kekuatan, {strongest} mendahului pada {strongestPct}% dan {scarcest} ketinggalan pada {scarcestPct}%. Bulan kelahiran anda berada dalam {season}, yang mendorong elemen itu naik sekali lagi — kuantiti yang sama mempunyai kekuatan yang berbeza bergantung kepada sama ada musim menyokongnya. Apa yang anda perlukan sekarang adalah {favorable}, dan keadaan menjadi lebih mudah apabila elemen itu dipenuhi.",
     "todayHeadline": "Hari ini dibaca sebagai {grade}",
     "todayMessage": "Hari ini mendapat skor {score}, dinilai {gradeName}. {gradeBody} Pilar hari ini adalah {pillar}, dan penggerak terbesar dalam skor itu adalah “{topFactor}”.",
     "todayAdvice": {
-      "HIGH": "Hari yang baik untuk mengambil mesej atau mengemas yang telah anda tangguhkan — walau bagaimanapun, adalah lebih baik untuk tidak mencuba menyelesaikannya semua hari ini.",
+      "HIGH": "Hari yang baik untuk mengambil mesej atau mengemas yang telah anda tangguhkan — walaupun lebih baik tidak mencuba untuk menyelesaikannya semua hari ini.",
       "MID": "Lakukan seperti biasa dan anda akan mendapatkan apa yang anda biasa dapat. Daripada memulakan sesuatu yang baru, gerakkan satu perkara yang sudah ada ke hadapan.",
-      "LOW": "Sebahagian daripada hari ini bertentangan dengan carta. Lebih baik menghabiskan dan memeriksa daripada memulakan."
+      "LOW": "Sebahagian daripada hari ini bertentangan dengan carta. Lebih baik digunakan untuk menyelesaikan dan memeriksa daripada memulakan."
     },
     "luckyNote": "Elemen bertuah hari ini adalah {element}. Julat {colors}, sisi {direction}, dan waktu sekitar {time} adalah di mana tenaga itu paling kuat.",
     "domains": {
       "wealth": "Kekayaan dibaca {score} hari ini. Nilai ini bergerak dengan sama ada tenaga hari ini mencapai bintang kekayaan (財星) — apa yang anda urus dan apa yang anda kumpulkan.",
       "love": "Kasih sayang dibaca {score} hari ini. Nilai ini ditentukan oleh bagaimana cabang hari ini bertemu dengan cabang hari anda (日支), istana pasangan — keharmonian meningkatkannya, pertembungan menurunkannya.",
-      "career": "Kerja dibaca {score} hari ini. Nilai ini bergerak dengan sama ada tenaga hari ini mencapai bintang pegawai (官星) dan pengeluaran (食傷) — apa yang anda ambil dan apa yang anda hasilkan.",
+      "career": "Kerja dibaca {score} hari ini. Nilai ini bergerak dengan sama ada tenaga hari ini mencapai bintang pegawai (官星) dan output (食傷) — apa yang anda ambil dan apa yang anda hasilkan.",
       "health": "Kesihatan dibaca {score} hari ini. Nilai ini ditentukan oleh berapa banyak cabang natal anda hari ini bertembung, dan sama ada elemen hari ini adalah satu yang anda perlukan."
     },
     "yearOutlook": "Pilar tahun ini adalah {pillar}, membawa {element}. {relation} Bacaan ini hanya melihat bagaimana pilar tahun ini bertemu dengan apa yang anda perlukan sekarang; ia tidak memecahkan tahun ini bulan demi bulan.",
     "yearRelations": {
       "YONGSIN": "Elemen yang anda perlukan tiba secara langsung tahun ini. Masa yang sesuai untuk mengeluarkan apa yang telah anda ketepikan.",
       "GENERATES": "Tahun ini memberi makan kepada elemen yang anda perlukan, jadi keadaan menjadi lebih lembut — bukan serta-merta, tetapi secara beransur-ansur.",
-      "GISIN": "Tahun ini sekali lagi mendorong ke arah yang sudah anda condong. Lebih baik menghabiskan apa yang ada daripada membuka sesuatu yang baru.",
-      "CONTROLS": "Sesuatu tahun ini menekan elemen yang anda perlukan, jadi keputusan datang lebih perlahan. Menetapkan tarikh akhir anda sendiri membantu.",
-      "NEUTRAL": "Tahun ini tidak bertentangan dengan atau memberi makan kepada apa yang anda perlukan. Mempertahankan kedudukan yang anda ada adalah perdagangan yang lebih baik."
+      "GISIN": "Tahun ini mendorong sekali lagi ke arah yang sudah anda condong. Lebih baik menghabiskan apa yang ada daripada membuka sesuatu yang baru.",
+      "CONTROLS": "Sesuatu tahun ini menekan elemen yang anda perlukan, jadi keputusan datang lebih perlahan. Menetapkan tarikh akhir sendiri membantu.",
+      "NEUTRAL": "Tahun ini tidak bertembung dengan atau memberi makan kepada apa yang anda perlukan. Mempertahankan kedudukan yang anda miliki adalah perdagangan yang lebih baik."
     },
-    "disclaimer": "Rujukan tradisional myeongri, bukan ramalan saintifik atau kenyataan tentang apa yang mesti berlaku."
+    "disclaimer": "Rujukan tradisional myeongri, bukan ramalan saintifik atau kenyataan tentang apa yang mesti berlaku.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Bi-kyun tebal. Anda membina dengan tangan sendiri daripada meminjam, yang menjadikan anda kuat dalam menyelesaikan tugas hingga akhir. Tetapi menerima bantuan juga adalah kemahiran, dan menganggapnya sebagai kelemahan membuat anda memikul beban sendirian — dan bertembung, kerana bahagian, dengan sesiapa yang berdiri di sebelah anda. Di mana kerja dikongsi, menawarkan tangan anda terlebih dahulu ternyata menjadi jalan yang lebih cepat.",
+        "absent": "Bi-kyun tiada. Bergerak dengan orang lain lebih sesuai untuk anda daripada mempertahankan kedudukan sendiri. Anda ragu-ragu lama di mana keputusan adalah milik anda sahaja, dan mempercepatkan apabila seseorang bersama anda. Apabila kedudukan adalah milik anda untuk dipertahankan, adalah berbaloi untuk berlatih mendorong."
+      },
+      "GEOPJAE": {
+        "thick": "Geopjae tebal. Anda bergerak terlebih dahulu di mana orang lain ragu-ragu. Kekuatan itu tidak mudah untuk dipertahankan, jadi apa yang anda peroleh tidak bertahan lama di tangan. Memutuskan terlebih dahulu ke mana wang pergi bukanlah berjimat dalam carta ini — ia adalah kaedah.",
+        "absent": "Geopjae tiada. Anda jarang memaksa sesuatu dan anda mengelak dari persaingan. Anda kehilangan sedikit, tetapi anda terlambat apabila sesuatu perlu didorong dengan kuat. Di mana taruhannya nyata, menetapkan tarikh akhir sendiri membantu."
+      },
+      "SIKSIN": {
+        "thick": "Sikshin tebal. Apa yang ada di dalam keluar dengan mudah, jadi membuat, membesar dan memberi makan adalah tanah yang selesa. Anda melakukan dengan baik dalam kerja yang dilakukan perlahan dan lama, dan hasilnya tiba lewat tetapi secara beransur-ansur. Apabila keselesaan berlanjutan, anda lebih cenderung untuk menetap daripada meluaskan.",
+        "absent": "Sikshin tiada. Saluran dari dalam ke luar adalah nipis: pemikiran ada, tetapi penyampaiannya lewat. Menunggu sehingga semuanya siap menunda permulaan. Mengeluarkan sesuatu yang separuh siap bukanlah kerugian dalam carta ini."
+      },
+      "SANGGWAN": {
+        "thick": "Pegawai Penyakit sangat tebal. Anda melihat apa yang tidak kena dalam kerangka tetap sebelum orang lain, dan anda mempunyai kata-kata untuk menamakannya. Anda bersinar di tempat yang sedang dibuat dan bertembung di tempat yang sedang dijaga. Bagaimana perkara yang betul diucapkan sama pentingnya di sini seperti melihatnya.",
+        "absent": "Pegawai Penyakit tiada. Anda mencari jalan melalui kerangka daripada menggoncangnya. Anda jarang bertembung dengan orang, tetapi anda membiarkan perkara berlalu di tempat yang sepatutnya berubah, dan itu menimbulkan kekecewaan. Lebih baik tidak menangguhkan kata yang perlu diucapkan."
+      },
+      "PYEONJAE": {
+        "thick": "Kekayaan Tidak Langsung sangat tebal. Anda menghulurkan tangan di beberapa tempat dan menangkap peluang dengan luas, jadi perkara terbuka di sudut yang tidak dijangka. Apa yang tersebar juga mesti dijaga, tetapi menjaga kurang menarik bagi anda — jadi anda terus gagal mengumpul apa yang telah anda buka. Menutup satu sebelum membuka yang seterusnya adalah urutan yang diperlukan oleh carta ini.",
+        "absent": "Kekayaan Tidak Langsung tiada. Anda mengambil perkara yang pasti di tanah yang dikenali daripada menyebar luas. Terdapat kurang yang menggoncang anda, dan anda melihat peluang yang lebih besar berlalu dengan kerap. Meluaskan jangkauan anda sejauh satu jari pada satu masa membantu."
+      },
+      "JEONGJAE": {
+        "thick": "Kekayaan Langsung sangat tebal. Anda mengira apa yang masuk dan apa yang keluar, dan anda membina — jadi tanah di bawah anda mengukuh dari masa ke masa. Menggapai hanya untuk perkara yang pasti membuat anda lambat kepada peluang, dan berjimat yang dibawa terlalu jauh membuat tangan anda berat di tempat yang sepatutnya terbuka. Memutuskan terlebih dahulu apa yang untuk wang membantu.",
+        "absent": "Kekayaan Langsung tiada. Sisi pengumpulan yang stabil menjadi nipis, jadi mengurus apa yang tiba terus ditangguhkan. Menerima dan menyimpan adalah kemahiran yang berbeza; carta ini perlu belajar yang kedua secara berasingan. Peraturan yang menggerakkan wang tanpa keputusan anda setiap kali sesuai untuk anda."
+      },
+      "PYEONGWAN": {
+        "thick": "Pegawai Tidak Langsung sangat tebal. Tekanan mengeluarkan kekuatan anda, dan anda memikul tanggungjawab yang dianggap berat oleh orang lain. Namun, apabila ketegangan tidak pernah hilang, ia mengeras menjadi perasaan diburu dan rehat tidak lagi terasa seperti rehat. Menetapkan waktu untuk berhenti bukanlah kemalasan dalam carta ini.",
+        "absent": "Pegawai Tidak Langsung tiada. Sedikit yang menekan anda, yang mudah bagi fikiran, tetapi kuasa untuk menegakkan diri dalam krisis menjadi nipis. Anda jauh lebih baik apabila tarikh akhir atau janji ditetapkan dari luar."
+      },
+      "JEONGGWAN": {
+        "thick": "Pegawai Langsung sangat tebal. Kedudukan anda dan garis yang anda jaga adalah jelas, dan mengekalkannya adalah sumber keteguhan anda — anda membina kepercayaan dalam sistem. Di mana peraturan goyang, anda lambat untuk menilai, dan di mana papan adalah milik anda untuk ditetapkan, anda merasa terkurung.",
+        "absent": "Pegawai Langsung tiada. Cara yang anda buat sendiri lebih sesuai untuk anda daripada tempat yang ditetapkan dari luar. Itu adalah kebebasan, tetapi piawaian mudah goyang; menulis peraturan anda sendiri seolah-olah ia adalah dasar membantu."
+      },
+      "PYEONIN": {
+        "thick": "Sumber Tidak Langsung sangat tebal. Anda pergi ke jalan yang diabaikan oleh orang lain dan membina kedalaman anda sendiri. Pembelajaran dan penimbangan adalah kuat, tetapi pemikiran melebihi tangan dan anda boleh merasa letih sebelum anda mula. Bergerak dalam keadaan separuh sedia sesuai untuk carta ini.",
+        "absent": "Sumber Tidak Langsung tiada. Anda belajar dengan bertembung dengan perkara daripada menggali. Anda tidak lambat untuk belajar, tetapi belajar yang dipegang sendirian untuk jangka masa yang panjang tidak sesuai untuk anda. Bertanya kepada orang dan belajar di lapangan adalah lebih cepat."
+      },
+      "JEONGIN": {
+        "thick": "Sumber Langsung sangat tebal. Apa yang menyokong anda adalah mencukupi, jadi pembelajaran dan tempat untuk bersandar tidak pernah habis. Keteguhan itu membuat langkah ke depan lambat, dan persiapan menjadi alasan untuk menangguhkan permulaan. Menyimpan satu tempat di mana apa yang anda terima kembali keluar adalah berbaloi.",
+        "absent": "Sumber Langsung tiada. Anda telah mencipta tapak anda sendiri, jadi berdiri sendiri berkembang awal. Meminta bantuan adalah tidak biasa, walaupun anda tidak perlu, anda tetap bertahan sendiri. Dalam carta ini, bertanya adalah sangat berharga."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Berapa banyak kekayaan (財星) yang dibawa oleh carta — ketebalan apa yang anda urus dan kumpulkan.",
+      "WEALTH_STRONG_BODY": "Penguasa hari berjalan penuh, jadi ada kekuatan untuk membawa kekayaan.",
+      "WEALTH_WEAK_BODY": "Penguasa hari berjalan nipis, jadi kekayaan sukar untuk dibawa walaupun di mana ia wujud.",
+      "WEALTH_YONGSIN": "Apa yang anda perlukan sekarang adalah elemen yang sama dengan bintang kekayaan, supaya tanah itu datang dengan lebih mudah.",
+      "LOVE_SPOUSE_STAR": "Berapa banyak bintang pasangan yang dibawa oleh carta — kekayaan langsung untuk lelaki, pegawai langsung untuk wanita.",
+      "LOVE_SPOUSE_PALACE": "Bintang pasangan berada di dalam cabang hari anda, istana pasangan, jadi tempat itu dipenuhi.",
+      "LOVE_PALACE_CHUNG": "Istana pasangan bertentangan dengan cabang lain, jadi tempat itu tidak stabil.",
+      "LOVE_GENDER_UNKNOWN": "Tiada jantina yang dimasukkan, jadi bintang pasangan tidak dikira. Nilai dibahagikan antara bintang kekayaan dan pegawai mengikut jantina, dan kami tidak memilih satu secara sembarangan.",
+      "CAREER_OFFICER": "Bintang pegawai (正官·偏官) dalam carta — ketebalan apa yang anda ambil dan simpan.",
+      "CAREER_OUTPUT": "Bintang output (食神·傷官) dalam carta — ketebalan apa yang anda keluarkan dan ungkapkan.",
+      "CAREER_STRONG_BODY": "Penguasa hari berjalan penuh, jadi ia menggunakan bintang pegawai daripada ditekan oleh mereka.",
+      "HEALTH_BALANCE": "Sejauh mana lima elemen duduk dengan rata — semakin condong ke satu arah, semakin banyak tekanan jatuh pada apa yang elemen itu mentadbir.",
+      "HEALTH_CHUNG": "Berapa banyak pasangan cabang bertembung di dalam carta.",
+      "HEALTH_EXTREME_BODY": "Penguasa hari condong keras ke satu sisi, yang merupakan beban itu sendiri. Penguasa hari yang seimbang tidak kehilangan apa-apa di sini."
+    },
+    "yongsinDepth": {
+      "STRONG": "Elemen yang menyokong penguasa hari anda berjalan penuh. Itu memberi anda dorongan sendiri tetapi mudah condong ke satu sisi, jadi apa yang anda perlukan sekarang bukan lebih banyak sokongan — ia adalah **sesuatu untuk mengurangkan lebihan**. {favorable} melakukan itu. Di mana elemen itu mencapai — mengeluarkan, mengambil, mengumpul — adalah di mana anda menetap.",
+      "BALANCED": "Apa yang menyokong penguasa hari anda dan apa yang menarik daripadanya duduk hampir sama. Terlalu dekat untuk dipanggil ke mana-mana arah, jadi di sini kita membaca **apa sahaja yang paling nipis** sebagai apa yang anda perlukan: {favorable}. Carta yang tidak condong menyesuaikan diri dengan baik tetapi mengaburkan garisnya sendiri, jadi mengarahkan ke arah tempat nipis memberi anda arah untuk dipegang.",
+      "WEAK": "Elemen yang menyokong penguasa hari anda berjalan nipis. Anda meminjam kekuatan dari sekitar anda dengan baik tetapi cepat letih menahan diri seorang diri, jadi apa yang anda perlukan sekarang adalah **sesuatu untuk menyokong anda dan mengisi anda**. {favorable} melakukan itu. Menjaga perkara yang menyokong dekat bukanlah kelemahan dalam carta ini — ia adalah kaedah."
+    }
   },
   "footer": {
     "privacy": "Privasi",

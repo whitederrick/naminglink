@@ -420,6 +420,36 @@ export type Dictionary = {
       string
     >;
     disclaimer: string;
+    /**
+     * 십신을 **깊게** 푸는 자리. 두터울 때와 아예 없을 때를 따로 쓴다.
+     *
+     * **열 개를 모두 길게 쓰지 않는다.** 그러면 누구에게나 같은 백과사전이 나가고, 열 중
+     * 자기와 관계있는 것은 두셋뿐인데 나머지 일곱도 읽어야 한다. 리포트는 이 사람 원국에서
+     * **두터운 둘셋과 아예 없는 것**만 골라 이 문단을 싣고, 나머지 열 개는 `tenGods`의 한 줄
+     * 뜻으로 표에 둔다.
+     *
+     * **없는 것도 뜻이 있다.** "재성이 없다"는 빈칸이 아니라 그 자체가 성향이다.
+     */
+    tenGodDepth: Record<
+      | "BIGYEON" | "GEOPJAE" | "SIKSIN" | "SANGGWAN" | "PYEONJAE"
+      | "JEONGJAE" | "PYEONGWAN" | "JEONGGWAN" | "PYEONIN" | "JEONGIN",
+      { thick: string; absent: string }
+    >;
+    /**
+     * 원국 기준 네 영역 점수의 근거 항목(`natal-outlook.ts`의 `NatalFactorKey`).
+     *
+     * 엔진은 키와 증감만 낸다 — 문장은 여기 있다. 열거로 닫아 두므로 엔진에 항목이 늘면
+     * 이 자리가 비는 것이 컴파일에서 잡힌다.
+     */
+    natalFactors: Record<
+      | "WEALTH_STARS" | "WEALTH_STRONG_BODY" | "WEALTH_WEAK_BODY" | "WEALTH_YONGSIN"
+      | "LOVE_SPOUSE_STAR" | "LOVE_SPOUSE_PALACE" | "LOVE_PALACE_CHUNG" | "LOVE_GENDER_UNKNOWN"
+      | "CAREER_OFFICER" | "CAREER_OUTPUT" | "CAREER_STRONG_BODY"
+      | "HEALTH_BALANCE" | "HEALTH_CHUNG" | "HEALTH_EXTREME_BODY",
+      string
+    >;
+    /** 강약 판정별로 "그래서 무엇이 필요한가"를 푸는 자리. {favorable} */
+    yongsinDepth: Record<"STRONG" | "BALANCED" | "WEAK", string>;
   };
   footer: {
     privacy: string;
@@ -947,6 +977,92 @@ const ko: Dictionary = {
     },
     disclaimer:
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 미래에 대한 단정이 아닙니다.",
+    tenGodDepth: {
+      BIGYEON: {
+        thick:
+          "비견이 두텁습니다. 남의 손을 빌리지 않고 제 힘으로 세우는 결이라, 맡은 일을 끝까지 끌고 가는 데 강합니다. 다만 도움을 받는 것도 능력인데 그것을 약점으로 여겨 혼자 짊어지는 일이 잦고, 그러다 보면 같은 자리에 선 사람과 몫을 두고 부딪칩니다. 함께 가야 하는 자리에서는 먼저 손을 내미는 편이 결국 빠릅니다.",
+        absent:
+          "비견이 없습니다. 스스로 버티는 힘보다 주변과 어울려 가는 쪽이 편한 결입니다. 혼자 결정해야 하는 자리에서 오래 망설이고, 함께할 사람이 있을 때 비로소 속도가 붙습니다. 자기 자리를 지켜야 할 때 한 번은 밀어붙이는 연습이 필요합니다.",
+      },
+      GEOPJAE: {
+        thick:
+          "겁재가 두텁습니다. 밀어붙이는 힘이 강해 남들이 망설이는 자리에서 먼저 움직입니다. 다만 그 힘이 지키는 쪽으로는 잘 쓰이지 않아, 벌어들인 것이 손에 오래 머물지 않습니다. 나가는 자리를 미리 정해 두는 것이 이 사주에서는 절약이 아니라 방법입니다.",
+        absent:
+          "겁재가 없습니다. 무리해서 밀어붙이는 일이 드물고, 경쟁하듯 다투는 자리를 피합니다. 잃는 일도 적지만 크게 밀고 나가야 할 때 한 발이 늦습니다. 승부를 걸어야 하는 자리에서는 스스로 기한을 정해 두는 편이 낫습니다.",
+      },
+      SIKSIN: {
+        thick:
+          "식신이 두텁습니다. 안에 있는 것을 밖으로 꺼내는 힘이 좋아, 만들고 기르고 먹이는 자리에서 편안합니다. 서두르지 않고 오래 하는 일에 맞고, 그래서 성과가 늦게 그러나 꾸준히 옵니다. 다만 편안함이 길어지면 넓히지 않고 머무는 쪽으로 기웁니다.",
+        absent:
+          "식신이 없습니다. 안에 든 것을 밖으로 내놓는 자리가 얇아, 생각은 충분한데 표현이 늦습니다. 준비가 끝나야 움직이려 하니 시작이 미뤄지기 쉽습니다. 덜 다듬어진 채로 한 번 내놓아 보는 것이 이 사주에서는 손해가 아닙니다.",
+      },
+      SANGGWAN: {
+        thick:
+          "상관이 두텁습니다. 짜인 틀에서 어긋난 점을 먼저 보고, 그것을 말로 짚어 내는 재주가 있습니다. 새로 만드는 자리에서 빛나지만 지켜야 하는 자리에서는 부딪칩니다. 옳은 말을 어떻게 꺼낼지가 이 사주에서는 재주만큼 중요합니다.",
+        absent:
+          "상관이 없습니다. 있는 틀을 흔들기보다 그 안에서 방법을 찾는 결입니다. 사람과 크게 부딪치지 않지만, 바꿔야 할 자리에서도 참고 넘어가 답답함이 쌓입니다. 아니라고 말해야 할 때 미루지 않는 편이 낫습니다.",
+      },
+      PYEONJAE: {
+        thick:
+          "편재가 두텁습니다. 여러 자리에 손을 걸치며 기회를 넓게 잡는 결이라, 뜻밖의 곳에서 일이 열립니다. 다만 넓힌 만큼 관리가 따라야 하는데 그쪽은 흥미가 덜해, 벌린 것을 거두지 못하는 일이 반복됩니다. 하나를 정리하고 다음을 벌이는 순서가 이 사주에는 필요합니다.",
+        absent:
+          "편재가 없습니다. 크게 벌리기보다 아는 자리에서 확실한 것을 취하는 결입니다. 흔들림이 적은 대신 큰 기회가 지나가는 것도 그만큼 자주 봅니다. 손이 닿는 범위를 한 뼘씩 넓혀 두는 것이 도움이 됩니다.",
+      },
+      JEONGJAE: {
+        thick:
+          "정재가 두텁습니다. 들어오는 것과 나가는 것을 셈해 두고 쌓아 가는 결이라, 시간이 지날수록 자리가 단단해집니다. 다만 확실한 것만 쥐려다 기회를 늦게 잡고, 아끼는 것이 지나쳐 써야 할 자리에서도 손이 무거워집니다. 쓸 곳을 미리 정해 두는 편이 낫습니다.",
+        absent:
+          "정재가 없습니다. 차곡차곡 모으는 자리가 얇아, 들어온 것을 관리하는 일이 뒤로 밀립니다. 버는 힘과 지키는 힘은 다른데 이 사주는 뒤엣것을 따로 익혀야 합니다. 규칙을 정해 자동으로 나가게 해 두는 방식이 잘 맞습니다.",
+      },
+      PYEONGWAN: {
+        thick:
+          "편관이 두텁습니다. 긴장이 걸린 자리에서 오히려 힘이 나고, 남들이 부담스러워하는 책임을 감당합니다. 다만 그 긴장이 끊이지 않으면 쫓기는 느낌으로 굳어져 쉬어도 쉰 것 같지 않습니다. 스스로 끊는 시간을 정해 두는 것이 이 사주에서는 게으름이 아닙니다.",
+        absent:
+          "편관이 없습니다. 몰아붙이는 압박이 적어 마음이 편한 대신, 급한 자리에서 스스로를 세우는 힘이 얇습니다. 마감이나 약속처럼 밖에서 걸어 주는 장치가 있을 때 훨씬 잘합니다.",
+      },
+      JEONGGWAN: {
+        thick:
+          "정관이 두텁습니다. 맡은 자리와 지켜야 할 선이 분명하고, 그것을 지키는 데서 안정을 얻습니다. 조직과 제도 안에서 신뢰를 쌓는 결입니다. 다만 규칙이 흔들리는 자리에서는 판단이 늦고, 스스로 판을 짜야 할 때 답답함을 느낍니다.",
+        absent:
+          "정관이 없습니다. 밖에서 정해 준 자리보다 스스로 만든 방식이 편한 결입니다. 자유롭지만 기준이 흔들리기 쉬워, 자기 규칙을 문서처럼 정해 두는 편이 도움이 됩니다.",
+      },
+      PYEONIN: {
+        thick:
+          "편인이 두텁습니다. 남들이 가지 않는 길로 파고들어 자기만의 깊이를 만듭니다. 배우고 헤아리는 힘이 크지만, 생각이 앞서 손이 늦고 시작 전에 이미 지치는 일이 있습니다. 절반만 준비되면 움직이는 편이 이 사주에는 맞습니다.",
+        absent:
+          "편인이 없습니다. 파고들기보다 몸으로 부딪쳐 익히는 결입니다. 배움이 느리지 않은데 혼자 오래 붙드는 공부는 잘 맞지 않습니다. 사람에게 묻고 현장에서 배우는 방식이 빠릅니다.",
+      },
+      JEONGIN: {
+        thick:
+          "정인이 두텁습니다. 받쳐 주는 자리가 넉넉해 배움과 기댈 곳이 끊이지 않습니다. 안정된 만큼 스스로 나서는 일이 늦어지고, 준비를 이유로 시작을 미루기 쉽습니다. 받은 것을 밖으로 내놓는 자리를 하나쯤 두는 편이 낫습니다.",
+        absent:
+          "정인이 없습니다. 기댈 곳을 스스로 만들어 온 결이라 홀로 서는 힘이 일찍 자랐습니다. 다만 도움을 청하는 일이 익숙하지 않아 필요할 때도 혼자 버팁니다. 물어보는 것은 이 사주에서 특히 값이 큽니다.",
+      },
+    },
+    natalFactors: {
+      WEALTH_STARS: "원국에 재성(정재·편재)이 얼마나 있는가 — 다루고 거두는 자리의 두께입니다.",
+      WEALTH_STRONG_BODY: "일간이 두터워 재물을 감당할 힘이 있습니다.",
+      WEALTH_WEAK_BODY: "일간이 얇아 재물이 있어도 감당하기 벅찹니다(재다신약).",
+      WEALTH_YONGSIN: "지금 필요한 기운이 재성의 오행과 같아, 그 자리에서 일이 수월합니다.",
+      LOVE_SPOUSE_STAR: "원국에 배우자성이 얼마나 있는가 — 남성은 정재, 여성은 정관으로 봅니다.",
+      LOVE_SPOUSE_PALACE: "배우자궁인 일지 안에 배우자성이 들어 있어 자리가 채워졌습니다.",
+      LOVE_PALACE_CHUNG: "배우자궁이 다른 지지와 부딪쳐 그 자리가 흔들립니다.",
+      LOVE_GENDER_UNKNOWN: "성별을 입력하지 않아 배우자성을 세지 않았습니다. 남녀에 따라 재성과 관성으로 갈리는 값이라 임의로 고르지 않습니다.",
+      CAREER_OFFICER: "원국의 관성(정관·편관) — 맡고 지키는 자리의 두께입니다.",
+      CAREER_OUTPUT: "원국의 식상(식신·상관) — 내놓고 표현하는 자리의 두께입니다.",
+      CAREER_STRONG_BODY: "일간이 두터워 관성에 눌리지 않고 그것을 씁니다.",
+      HEALTH_BALANCE: "오행이 얼마나 고른가 — 한쪽으로 몰릴수록 그 기운이 맡는 자리에 부담이 갑니다.",
+      HEALTH_CHUNG: "원국 안에서 지지끼리 부딪치는 자리의 수입니다.",
+      HEALTH_EXTREME_BODY: "일간이 한쪽으로 치우쳐 있어 그 자체가 부담입니다. 중화는 이 항목에서 감점되지 않습니다.",
+    },
+    yongsinDepth: {
+      STRONG:
+        "일간을 돕는 기운이 넉넉합니다. 스스로 밀고 나가는 힘이 있는 대신 한쪽으로 쏠리기 쉬워, 지금 필요한 것은 더 보태는 기운이 아니라 **덜어 내고 흘려보내는 기운**입니다. {favorable}이 그 몫을 합니다. 이 기운이 닿는 자리 — 내놓고, 맡고, 거두는 일 — 에서 오히려 편안해집니다.",
+      BALANCED:
+        "돕는 기운과 덜어 내는 기운이 엇비슷합니다. 어느 한쪽으로 단정하기 어려운 자리라, 여기서는 **지금 가장 얇은 기운**을 필요한 것으로 봅니다. {favorable}이 그것입니다. 크게 기울지 않은 사주는 상황에 맞춰 잘 움직이는 대신 자기 기준이 흐려지기 쉬우니, 얇은 자리를 채우는 쪽으로 방향을 잡는 편이 낫습니다.",
+      WEAK:
+        "일간을 돕는 기운이 얇습니다. 주변의 힘을 잘 빌리는 대신 혼자 오래 버티는 일에서 지치기 쉬워, 지금 필요한 것은 **받쳐 주고 채워 주는 기운**입니다. {favorable}이 그 몫을 합니다. 도와주는 기운을 곁에 두는 것은 이 사주에서 약점이 아니라 방법입니다.",
+    },
   },
   footer: {
     privacy: "개인정보처리방침",
@@ -1498,6 +1614,92 @@ const en: Dictionary = {
     },
     disclaimer:
       "Traditional myeongri reference, not a scientific prediction or a statement about what must happen.",
+    tenGodDepth: {
+      BIGYEON: {
+        thick:
+          "Companion runs thick. You build with your own hands rather than borrowing them, which makes you strong at carrying a task to its end. But accepting help is a skill too, and treating it as a weakness leaves you shouldering things alone — and colliding, over shares, with whoever stands beside you. Where the work is shared, offering your hand first turns out to be the faster route.",
+        absent:
+          "Companion is absent. Moving with others suits you better than holding your own ground. You hesitate long where a decision is yours alone, and pick up speed once someone is in it with you. When a position is yours to hold, it is worth practising the push.",
+      },
+      GEOPJAE: {
+        thick:
+          "Rob Wealth runs thick. You move first where others hesitate. That force does not turn easily to keeping, though, so what you earn does not stay long in hand. Deciding in advance where money goes is not thrift in this chart — it is method.",
+        absent:
+          "Rob Wealth is absent. You rarely force a thing through and you step around contests. You lose little, but you are a beat late when something must be pushed hard. Where the stakes are real, setting your own deadline helps.",
+      },
+      SIKSIN: {
+        thick:
+          "Eating God runs thick. What is inside comes out easily, so making, growing and feeding are comfortable ground. You do well at work that is done slowly and long, and results arrive late but steadily. When the comfort stretches on, though, you settle rather than widen.",
+        absent:
+          "Eating God is absent. The channel from inside to outside runs thin: the thinking is there, the saying of it is late. Waiting until everything is ready pushes the start back. Putting something out half-finished is not a loss in this chart.",
+      },
+      SANGGWAN: {
+        thick:
+          "Hurting Officer runs thick. You see what is out of place in a fixed frame before anyone else, and you have the words to name it. You shine where things are being made and you collide where things are being kept. How the right thing gets said matters as much here as the seeing of it.",
+        absent:
+          "Hurting Officer is absent. You look for the way through a frame rather than shaking it. You rarely clash with people, but you let things pass where they ought to change, and that settles into frustration. Better not to postpone the word that has to be said.",
+      },
+      PYEONJAE: {
+        thick:
+          "Indirect Wealth runs thick. You keep a hand in several places and catch opportunity wide, so things open in unexpected corners. What is spread must also be tended, though, and tending interests you less — so you keep failing to gather in what you opened. Closing one before opening the next is the order this chart needs.",
+        absent:
+          "Indirect Wealth is absent. You take the sure thing on familiar ground rather than spreading wide. There is less to shake you, and you watch the larger chances go by just as often. Widening your reach a hand's breadth at a time helps.",
+      },
+      JEONGJAE: {
+        thick:
+          "Direct Wealth runs thick. You count what comes in and what goes out, and you build — so the ground under you firms up over time. Reaching only for the certain thing makes you late to opportunity, and thrift carried too far makes your hand heavy where it should open. Deciding in advance what money is for helps.",
+        absent:
+          "Direct Wealth is absent. The steady accumulating side runs thin, so managing what arrives keeps getting postponed. Earning and keeping are different skills; this chart has to learn the second one separately. Rules that move money without your deciding each time suit you well.",
+      },
+      PYEONGWAN: {
+        thick:
+          "Indirect Officer runs thick. Pressure brings out your strength, and you carry responsibility others find heavy. When the tension never lifts, though, it hardens into a hunted feeling and rest stops feeling like rest. Setting a time to stop is not idleness in this chart.",
+        absent:
+          "Indirect Officer is absent. Little presses on you, which is easy on the mind, but the power to hold yourself upright in a crisis runs thin. You do far better when a deadline or a promise is set from outside.",
+      },
+      JEONGGWAN: {
+        thick:
+          "Direct Officer runs thick. Your position and the lines you keep are clear, and keeping them is where your steadiness comes from — you build trust inside systems. Where the rules waver you are slow to judge, and where the board is yours to set you feel hemmed in.",
+        absent:
+          "Direct Officer is absent. A way of your own making suits you better than a place assigned from outside. That is freedom, but the standard wobbles easily; writing your own rules down as if they were policy helps.",
+      },
+      PYEONIN: {
+        thick:
+          "Indirect Resource runs thick. You go down the road others skip and build a depth of your own. The learning and the weighing are strong, but thought outruns the hand and you can be tired before you begin. Moving at half-ready fits this chart.",
+        absent:
+          "Indirect Resource is absent. You learn by running into things rather than by burrowing. You are not slow to learn, but study held alone for long stretches does not suit you. Asking people and learning on the floor is faster.",
+      },
+      JEONGIN: {
+        thick:
+          "Direct Resource runs thick. What holds you up is ample, so learning and somewhere to lean never run out. That steadiness makes stepping forward late, and preparation becomes the reason a start is postponed. Keeping one place where what you received goes back out is worth it.",
+        absent:
+          "Direct Resource is absent. You made your own footing, so standing alone grew early. Asking for help is unfamiliar, though, and you hold out alone even when you need not. In this chart, asking is worth a great deal.",
+      },
+    },
+    natalFactors: {
+      WEALTH_STARS: "How much wealth (財星) the chart carries — the thickness of what you handle and gather in.",
+      WEALTH_STRONG_BODY: "The day master runs full, so there is strength to carry wealth.",
+      WEALTH_WEAK_BODY: "The day master runs thin, so wealth is hard to carry even where it exists.",
+      WEALTH_YONGSIN: "What you need now is the same element as the wealth stars, so that ground comes easier.",
+      LOVE_SPOUSE_STAR: "How much of the spouse star the chart carries — direct wealth for men, direct officer for women.",
+      LOVE_SPOUSE_PALACE: "The spouse star sits inside your day branch, the spouse palace, so the seat is filled.",
+      LOVE_PALACE_CHUNG: "The spouse palace clashes with another branch, so that seat is unsettled.",
+      LOVE_GENDER_UNKNOWN: "No gender was entered, so the spouse star was not counted. The value splits between wealth and officer stars by gender, and we do not pick one arbitrarily.",
+      CAREER_OFFICER: "The officer stars (正官·偏官) in the chart — the thickness of what you take on and keep.",
+      CAREER_OUTPUT: "The output stars (食神·傷官) in the chart — the thickness of what you put out and express.",
+      CAREER_STRONG_BODY: "The day master runs full, so it uses the officer stars rather than being pressed by them.",
+      HEALTH_BALANCE: "How evenly the five elements sit — the more it tips one way, the more strain falls on what that element governs.",
+      HEALTH_CHUNG: "How many branch pairs clash inside the chart.",
+      HEALTH_EXTREME_BODY: "The day master leans hard to one side, which is a strain in itself. A balanced day master loses nothing here.",
+    },
+    yongsinDepth: {
+      STRONG:
+        "The elements supporting your day master run full. That gives you drive of your own but tips easily to one side, so what you need now is not more support — it is **something to draw the excess off**. {favorable} does that work. Where that element reaches — putting out, taking on, gathering in — is where you settle.",
+      BALANCED:
+        "What supports your day master and what draws from it sit close to even. Too close to call either way, so here we read **whatever is thinnest** as what you need: {favorable}. A chart that does not lean adapts well but blurs its own line, so steering toward the thin place gives you a direction to hold.",
+      WEAK:
+        "The elements supporting your day master run thin. You borrow strength from around you well but wear down holding out alone, so what you need now is **something to back you and fill you in**. {favorable} does that work. Keeping supportive things close is not a weakness in this chart — it is the method.",
+    },
   },
   footer: {
     privacy: "Privacy Policy",

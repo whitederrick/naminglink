@@ -519,18 +519,18 @@ export const fil: Dictionary = {
     "pdfLanguageNotice": "Ang PDF ay ginawa sa parehong wika ng screen na ito."
   },
   "fallbackReport": {
-    "summary": "Isang {dayMaster} na araw na isinilang sa enerhiya ng {season}. Sa buong tsart, ang {strongest} ay pinakamakapal at ang {scarcest} ay pinakamahinang daloy. Lahat ng nasa ibaba ay nagmumula sa walong karakter na iyon — bawat numero at bawat haligi dito ay kinakalkula, hindi pinili.",
-    "personality": "Ang iyong araw na master ay {dayMaster} — enerhiya ng {element} — at ang tsart na ito ay nagbabasa bilang {strengthName}. Aling panig ang mas makapal, kung ano ang sumusuporta sa araw na master o kung ano ang kumukuha mula dito, ay siyang humuhubog sa butil, at sa pang-araw-araw na buhay, ito ay lumalabas na ganito.",
+    "summary": "Isang {dayMaster} na araw na isinilang sa enerhiya ng {season}. Sa buong tsart, ang {strongest} ay pinakamakapal at ang {scarcest} ay pinakamahinang. Lahat ng nasa ibaba ay nagmumula sa walong karakter na iyon — bawat numero at bawat haligi dito ay kinakalkula, hindi pinili.",
+    "personality": "Ang iyong araw na master ay {dayMaster} — enerhiya ng {element} — at ang tsart na ito ay nagbabasa bilang {strengthName}. Aling panig ang mas makapal, kung ano ang sumusuporta sa araw na master o kung ano ang kumukuha mula dito, ay siyang humuhubog sa butil, at sa pang-araw-araw na buhay ay lumalabas ito sa ganitong paraan.",
     "cautions": {
       "STRONG": [
-        "Sinasanay mong itulak ng husto kaya madalas mong napapansin ang pagkiling lamang pagkatapos itong mangyari.",
-        "Kahit na may tulong na magagamit, nagtatapos ka sa paghawak nito nang mag-isa, na nagpapalaki sa trabaho.",
-        "Nagsasaayos ang mga bagay kapag nag-iwan ka ng puwang para sa anumang kumukuha ng labis."
+        "Nagtutulak ka ng sapat na lakas na madalas mong napapansin ang pagkiling lamang pagkatapos itong mangyari.",
+        "Kahit saan may tulong, nagtatapos kang humahawak nito nang mag-isa, na nagpapalaki sa trabaho.",
+        "Ang mga bagay ay nagiging maayos kapag nag-iwan ka ng puwang para sa anumang kumukuha ng labis."
       ],
       "BALANCED": [
-        "Walang nag-uudyok sa iyo sa alinmang panig, kaya ang ipinagpaliban na desisyon ay nananatiling ipinagpaliban.",
-        "Magaling kang umangkop sa sitwasyon, na maaaring magdulot ng pagkalabo kung nasaan ang iyong sariling linya.",
-        "Ang pag-ikot patungo sa anumang kasalukuyang pinakamahinang daloy ay nagbibigay sa iyo ng direksyon na dapat hawakan."
+        "Walang nag-uudyok sa iyo sa alinmang panig, kaya ang isang ipinagpalibang desisyon ay nananatiling ipinagpaliban.",
+        "Mabuti ang iyong pag-aangkop sa sitwasyon, na maaaring magdulot ng pagkalabo kung nasaan ang iyong sariling linya.",
+        "Ang pag-ikot patungo sa anumang kasalukuyang pinakamahinang nagbibigay sa iyo ng direksyon na dapat hawakan."
       ],
       "WEAK": [
         "Ang paghawak nang mag-isa ay nagpapagod sa iyo nang mas maaga kaysa sa inaasahan mo.",
@@ -539,30 +539,93 @@ export const fil: Dictionary = {
       ]
     },
     "scarcityCaution": "Ang pinakamahinang elemento sa ngayon ay {scarcest}. Anuman ang pinamamahalaan ng elementong iyon ay kung saan ka pinakamabagal kumilos.",
-    "elementBalance": "Sa lakas, ang {strongest} ang nangunguna sa {strongestPct}% at ang {scarcest} ay nahuhuli sa {scarcestPct}%. Ang iyong buwan ng kapanganakan ay nasa {season}, na nagtutulak sa elementong iyon pataas muli — ang parehong dami ay may iba't ibang puwersa depende sa kung ang panahon ay sumusuporta dito. Ang kailangan mo ngayon ay {favorable}, at ang mga bagay ay nagiging madali kung ang elementong iyon ay napupuno.",
+    "elementBalance": "Sa lakas, ang {strongest} ang nangunguna sa {strongestPct}% at ang {scarcest} ay nahuhuli sa {scarcestPct}%. Ang buwan ng iyong kapanganakan ay nasa {season}, na nagtutulak sa elementong iyon pataas muli — ang parehong dami ay may iba't ibang puwersa depende sa kung sinusuportahan ito ng panahon. Ang kailangan mo ngayon ay {favorable}, at ang mga bagay ay nagiging madali kung ang elementong iyon ay napupuno.",
     "todayHeadline": "Ngayon ay {grade}",
-    "todayMessage": "Ang marka ngayon ay {score}, na may grado na {gradeName}. {gradeBody} Ang day pillar ay {pillar}, at ang pinakamalaking salik sa markang iyon ay ang “{topFactor}”.",
+    "todayMessage": "Ngayon ay may iskor na {score}, na na-grade na {gradeName}. {gradeBody} Ang day pillar ay {pillar}, at ang pinakamalaking salik sa iskor na iyon ay “{topFactor}”.",
     "todayAdvice": {
-      "HIGH": "Magandang araw upang kunin ang mensahe o ang pag-aayos na iyong ipinagpaliban — mas mabuti na huwag subukang tapusin ang lahat ngayon.",
+      "HIGH": "Isang magandang araw upang kunin ang mensahe o ang pag-aayos na iyong ipinagpaliban — bagaman mas mabuti na huwag subukang tapusin ang lahat ngayon.",
       "MID": "Gawin mo ang karaniwan mong ginagawa at makakakuha ka ng karaniwan mong nakukuha. Sa halip na magsimula ng bago, ilipat ang isang bagay na nasa kamay na isang hakbang pasulong.",
-      "LOW": "Ang ilan sa araw na ito ay laban sa tsart. Mas mabuting gugulin ang oras sa pagtatapos at pagsusuri kaysa sa pagsisimula."
+      "LOW": "Ang ilan sa ngayon ay laban sa tsart. Mas mabuting gugulin ang oras sa pagtatapos at pag-check kaysa sa pagsisimula."
     },
-    "luckyNote": "Ang masuwerteng elemento ngayon ay {element}. Ang hanay ng {colors}, ang bahagi ng {direction}, at ang mga oras sa paligid ng {time} ay kung saan ang enerhiyang iyon ay pinakamakapal.",
+    "luckyNote": "Ang masuwerteng elemento ng araw na ito ay {element}. Ang hanay ng {colors}, ang bahagi ng {direction}, at ang mga oras sa paligid ng {time} ay kung saan ang enerhiyang iyon ay pinakamabigat.",
     "domains": {
-      "wealth": "Ang pera ay nagbabasa ng {score} ngayon. Ang halagang ito ay gumagalaw kung ang enerhiya ngayon ay umaabot sa mga bituin ng kayamanan (財星) — kung ano ang iyong hinahawakan at kung ano ang iyong kinokolekta.",
-      "love": "Ang pagmamahal ay nagbabasa ng {score} ngayon. Ang halagang ito ay tinutukoy kung paano nakikita ng sangay ngayon ang iyong day branch (日支), ang palasyo ng asawa — ang pagkakasundo ay nagpapataas nito, ang salungatan ay nagpapababa.",
-      "career": "Ang trabaho ay nagbabasa ng {score} ngayon. Ang halagang ito ay gumagalaw kung ang enerhiya ngayon ay umaabot sa mga bituin ng opisyal (官星) at output (食傷) — kung ano ang iyong tinatanggap at kung ano ang iyong inilalabas.",
-      "health": "Ang kalusugan ay nagbabasa ng {score} ngayon. Ang halagang ito ay tinutukoy kung gaano karaming mga natal branches mo ang sumasalungat sa araw na ito, at kung ang elementong ngayon ay isa na kailangan mo."
+      "wealth": "Ang pera ay may iskor na {score} ngayon. Ang halagang ito ay nagbabago kung ang enerhiya ng araw na ito ay umaabot sa mga bituin ng kayamanan (財星) — kung ano ang iyong hinahawakan at kung ano ang iyong kinokolekta.",
+      "love": "Ang pagmamahal ay may iskor na {score} ngayon. Ang halagang ito ay nakasalalay sa kung paano nakikita ng sanga ng araw na ito ang iyong day branch (日支), ang palasyo ng asawa — ang pagkakaisa ay nagpapataas nito, ang salungatan ay nagpapababa.",
+      "career": "Ang trabaho ay may iskor na {score} ngayon. Ang halagang ito ay nagbabago kung ang enerhiya ng araw na ito ay umaabot sa mga bituin ng opisyal (官星) at output (食傷) — kung ano ang iyong tinatanggap at kung ano ang iyong inilalabas.",
+      "health": "Ang kalusugan ay may iskor na {score} ngayon. Ang halagang ito ay nakasalalay sa kung gaano karaming mga sanga ng iyong kapanganakan ang sumasalungat sa araw na ito, at kung ang elementong ito ay isa na kailangan mo."
     },
     "yearOutlook": "Ang pillar ng taong ito ay {pillar}, na may dalang {element}. {relation} Ang pagbasa na ito ay tumitingin lamang sa kung paano nakikita ng pillar ng taon ang kung ano ang kailangan mo ngayon; hindi nito hinahati ang taon buwan-buwan.",
     "yearRelations": {
-      "YONGSIN": "Dumarating nang direkta ang elementong kailangan mo sa taong ito. Tamang panahon upang ilabas ang mga bagay na iyong itinabi.",
-      "GENERATES": "Pinapagana ng taong ito ang elementong kailangan mo, kaya ang kasalukuyan ay nagiging mas banayad — hindi agad, kundi unti-unti.",
-      "GISIN": "Minsan pang pinipilit ng taong ito ang direksyong iyong pinapuntahan. Mas mabuting tapusin ang mga bagay na nasa kamay kaysa magsimula ng bago.",
-      "CONTROLS": "May isang bagay sa taong ito na humihimok sa elementong kailangan mo, kaya ang mga desisyon ay dumarating nang mabagal. Ang pagtatakda ng sariling mga deadline ay nakakatulong.",
-      "NEUTRAL": "Sa taong ito, hindi ito sumasalungat o nagpapagana sa iyong kailangan. Ang pagpapanatili ng iyong kasalukuyang posisyon ang mas magandang kalakalan."
+      "YONGSIN": "Dumarating nang direkta ang elemento na kailangan mo sa taong ito. Tamang panahon upang ilabas ang mga bagay na iyong itinabi.",
+      "GENERATES": "Pinapakain ng taong ito ang elemento na kailangan mo, kaya ang kasalukuyan ay nagiging mas banayad — hindi agad, kundi unti-unti.",
+      "GISIN": "Minsan pang itinutulak ng taong ito ang direksyong iyong pinapuntahan. Mas mabuting tapusin ang mga bagay na nasa kamay kaysa simulan ang bago.",
+      "CONTROLS": "May isang bagay sa taong ito na humihimok sa elemento na kailangan mo, kaya ang mga desisyon ay dumarating nang mas mabagal. Ang pagtatakda ng sariling mga deadline ay nakakatulong.",
+      "NEUTRAL": "Sa taong ito, hindi ito sumasalungat o nagpapakain sa iyong kailangan. Ang pagpapanatili ng iyong kasalukuyang posisyon ay mas mainam."
     },
-    "disclaimer": "Tradisyunal na sanggunian ng myeongri, hindi isang siyentipikong prediksyon o pahayag tungkol sa kung ano ang dapat mangyari."
+    "disclaimer": "Tradisyunal na sanggunian ng myeongri, hindi isang siyentipikong prediksyon o pahayag tungkol sa kung ano ang dapat mangyari.",
+    "tenGodDepth": {
+      "BIGYEON": {
+        "thick": "Ang Companion ay makapal. Ikaw ay bumubuo gamit ang iyong sariling mga kamay sa halip na manghiram, na nagpapalakas sa iyo na dalhin ang isang gawain hanggang sa katapusan. Ngunit ang pagtanggap ng tulong ay isang kasanayan din, at ang pagtrato dito bilang isang kahinaan ay nag-iiwan sa iyo na nag-iisa sa mga bagay — at nagkakaroon ng banggaan, sa mga bahagi, sa sinumang nakatayo sa tabi mo. Kung saan ang trabaho ay ibinabahagi, ang pag-aalok ng iyong kamay muna ay lumalabas na mas mabilis na ruta.",
+        "absent": "Ang Companion ay wala. Ang paggalaw kasama ang iba ay mas angkop para sa iyo kaysa sa pagpapanatili ng iyong sariling lupa. Ikaw ay nag-aalinlangan nang matagal kung ang desisyon ay sa iyo lamang, at bumibilis kapag may kasama ka. Kapag ang isang posisyon ay sa iyo upang hawakan, mahalagang sanayin ang pagtulak."
+      },
+      "GEOPJAE": {
+        "thick": "Ang Rob Wealth ay makapal. Ikaw ay unang kumikilos kung saan ang iba ay nag-aalinlangan. Ang puwersang iyon ay hindi madaling magbago patungo sa pagpapanatili, kaya ang iyong kinikita ay hindi nagtatagal sa kamay. Ang pagpapasya nang maaga kung saan pupunta ang pera ay hindi pagtitipid sa tsart na ito — ito ay isang pamamaraan.",
+        "absent": "Ang Rob Wealth ay wala. Ikaw ay bihirang pumilit ng isang bagay at umiwas sa mga kumpetisyon. Kaunti ang iyong nawawala, ngunit ikaw ay isang hakbang na huli kapag may kailangang itulak nang mabuti. Kung saan ang mga pusta ay totoo, ang pagtatakda ng sariling deadline ay nakakatulong."
+      },
+      "SIKSIN": {
+        "thick": "Ang Eating God ay makapal. Ang nasa loob ay madaling lumabas, kaya ang paggawa, paglaki at pagpapakain ay komportableng lupa. Magaling ka sa mga gawain na ginagawa nang dahan-dahan at mahaba, at ang mga resulta ay dumarating nang huli ngunit tuloy-tuloy. Ngunit kapag ang ginhawa ay humahaba, ikaw ay nananatili sa halip na lumawak.",
+        "absent": "Ang Eating God ay wala. Ang daluyan mula sa loob patungo sa labas ay manipis: ang pag-iisip ay naroon, ngunit ang pagsasabi nito ay huli. Ang paghihintay hanggang ang lahat ay handa ay nagpapaliban sa pagsisimula. Ang paglalabas ng isang bagay na hindi pa tapos ay hindi isang pagkatalo sa tsart na ito."
+      },
+      "SANGGWAN": {
+        "thick": "Ang Hurting Officer ay makapal. Nakikita mo ang mga bagay na hindi tama sa isang nakatakdang balangkas bago ang sinuman, at mayroon kang mga salita upang pangalanan ito. Kumikinang ka kung saan ginagawa ang mga bagay at sumasalungat ka kung saan itinatago ang mga ito. Mahalaga ang tamang pagsasabi dito gaya ng pagkakita nito.",
+        "absent": "Walang Hurting Officer. Naghahanap ka ng paraan sa loob ng isang balangkas sa halip na ugain ito. Bihira kang makipagbanggaan sa mga tao, ngunit pinapayagan mong dumaan ang mga bagay kung saan dapat itong magbago, at nagiging sanhi ito ng pagkabigo. Mas mabuti nang huwag ipagpaliban ang salitang kailangang sabihin."
+      },
+      "PYEONJAE": {
+        "thick": "Ang Indirect Wealth ay makapal. Nasa maraming lugar ang iyong kamay at malawak ang iyong pagkakataon, kaya nagbubukas ang mga bagay sa mga hindi inaasahang sulok. Gayunpaman, ang dapat na ipangalagaan ay dapat ding alagaan, at hindi ka gaanong interesado sa pangangalaga — kaya patuloy kang nabibigo na tipunin ang iyong binuksan. Ang pagsasara ng isa bago buksan ang susunod ay ang kaayusan na kailangan ng chart na ito.",
+        "absent": "Walang Indirect Wealth. Pinipili mong kunin ang tiyak na bagay sa pamilyar na lupa sa halip na lumawak. Mas kaunti ang nakakagambala sa iyo, at madalas mong nakikita ang mas malalaking pagkakataon na lumilipas. Ang pagpapalawak ng iyong abot ng isang daliri sa isang pagkakataon ay nakakatulong."
+      },
+      "JEONGJAE": {
+        "thick": "Ang Direct Wealth ay makapal. Binibilang mo ang pumapasok at lumalabas, at nagtatayo ka — kaya ang lupa sa ilalim mo ay tumitibay sa paglipas ng panahon. Ang pag-abot lamang sa tiyak na bagay ay nagpapabagal sa iyo sa pagkakataon, at ang labis na pagtitipid ay nagpapabigat sa iyong kamay kung saan dapat itong buksan. Ang pagpapasya nang maaga kung para saan ang pera ay nakakatulong.",
+        "absent": "Walang Direct Wealth. Ang panig ng patuloy na pag-iipon ay manipis, kaya ang pamamahala sa mga dumarating ay patuloy na naipagpapaliban. Ang pagkita at pag-iingat ay magkaibang kasanayan; ang chart na ito ay kailangang matutunan ang pangalawang isa nang hiwalay. Ang mga patakaran na naglilipat ng pera nang hindi mo pinipili sa bawat pagkakataon ay bagay na bagay sa iyo."
+      },
+      "PYEONGWAN": {
+        "thick": "Ang Indirect Officer ay makapal. Ang presyon ay naglalabas ng iyong lakas, at ikaw ay may dalang responsibilidad na mabigat para sa iba. Kapag ang tensyon ay hindi nawawala, gayunpaman, ito ay tumitigas sa isang pakiramdam ng pangangaso at ang pahinga ay hindi na parang pahinga. Ang pagtatakda ng oras upang huminto ay hindi katamaran sa chart na ito.",
+        "absent": "Walang Indirect Officer. Kaunti ang pumipigil sa iyo, na magaan sa isip, ngunit ang kapangyarihang panatilihin ang iyong sarili na tuwid sa isang krisis ay manipis. Mas maganda ang iyong takbo kapag may itinakdang deadline o pangako mula sa labas."
+      },
+      "JEONGGWAN": {
+        "thick": "Ang Direct Officer ay makapal. Ang iyong posisyon at ang mga linya na iyong pinapanatili ay malinaw, at ang pagpapanatili sa mga ito ang pinagmumulan ng iyong katatagan — nagtatayo ka ng tiwala sa loob ng mga sistema. Kung saan ang mga patakaran ay nanginginig, mabagal kang humusga, at kung saan ang board ay sa iyo upang itakda, nararamdaman mong nakakulong ka.",
+        "absent": "Walang Direct Officer. Ang isang paraan na iyong ginawa ay mas angkop sa iyo kaysa sa isang lugar na itinakda mula sa labas. Iyan ay kalayaan, ngunit ang pamantayan ay madaling nanginginig; ang pagsusulat ng iyong sariling mga patakaran na parang ito ay patakaran ay nakakatulong."
+      },
+      "PYEONIN": {
+        "thick": "Ang Indirect Resource ay makapal. Pumapasok ka sa daan na iniiwasan ng iba at bumubuo ng iyong sariling lalim. Malakas ang pagkatuto at ang pagsukat, ngunit ang pag-iisip ay nauuna sa kamay at maaari kang mapagod bago ka magsimula. Ang paggalaw sa kalahating handa ay bagay na bagay sa chart na ito.",
+        "absent": "Walang Indirect Resource. Natututo ka sa pamamagitan ng pagbangga sa mga bagay sa halip na sa pamamagitan ng pag-ukit. Hindi ka mabagal matuto, ngunit ang pag-aaral na hawak nang nag-iisa sa mahabang panahon ay hindi angkop sa iyo. Ang pagtatanong sa mga tao at pag-aaral sa sahig ay mas mabilis."
+      },
+      "JEONGIN": {
+        "thick": "Ang Direct Resource ay makapal. Ang sumusuportang lugar ay sapat, kaya ang pagkatuto at isang lugar na mapagkakatiwalaan ay hindi nauubos. Ang katatagan na ito ay nagpapabagal sa pag-usad, at ang paghahanda ay nagiging dahilan ng pagkaantala ng simula. Ang pagkakaroon ng isang lugar kung saan ang natanggap mo ay ibinabalik ay sulit.",
+        "absent": "Walang Direct Resource. Nagtayo ka ng sarili mong pundasyon, kaya ang pagtayo nang mag-isa ay maaga nang lumago. Ang paghingi ng tulong ay hindi pamilyar, at nag-iisa ka kahit na hindi mo kailangang gawin. Sa chart na ito, ang paghingi ay may malaking halaga."
+      }
+    },
+    "natalFactors": {
+      "WEALTH_STARS": "Gaano karaming kayamanan (財星) ang dala ng chart — ang kapal ng iyong hinahawakan at kinokolekta.",
+      "WEALTH_STRONG_BODY": "Ang day master ay puno, kaya may lakas upang dalhin ang kayamanan.",
+      "WEALTH_WEAK_BODY": "Ang day master ay manipis, kaya mahirap dalhin ang kayamanan kahit na ito ay naroroon.",
+      "WEALTH_YONGSIN": "Ang kailangan mo ngayon ay ang parehong elemento ng mga bituin ng kayamanan, kaya mas madali ang pagdating ng lupa.",
+      "LOVE_SPOUSE_STAR": "Gaano karaming asawa star ang dala ng chart — direktang kayamanan para sa mga lalaki, direktang opisyal para sa mga babae.",
+      "LOVE_SPOUSE_PALACE": "Ang asawa star ay nakaupo sa loob ng iyong day branch, ang asawa palace, kaya ang upuan ay puno.",
+      "LOVE_PALACE_CHUNG": "Ang asawa palace ay sumasalungat sa ibang branch, kaya ang upuan na iyon ay hindi matatag.",
+      "LOVE_GENDER_UNKNOWN": "Walang gender na naipasok, kaya hindi binilang ang asawa star. Ang halaga ay nahahati sa pagitan ng mga bituin ng kayamanan at opisyal ayon sa gender, at hindi kami pumipili ng isa nang basta-basta.",
+      "CAREER_OFFICER": "Ang mga opisyal na bituin (正官·偏官) sa chart — ang kapal ng iyong tinatanggap at pinapanatili.",
+      "CAREER_OUTPUT": "Ang mga output stars (食神·傷官) sa chart — ang kapal ng iyong inilalabas at ipinapahayag.",
+      "CAREER_STRONG_BODY": "Ang araw na tagapamahala ay puno, kaya ginagamit nito ang mga bituin ng opisyal sa halip na mapresyohan ng mga ito.",
+      "HEALTH_BALANCE": "Gaano ka pantay ang limang elemento — mas lumihis ito sa isang panig, mas maraming strain ang bumabagsak sa kung ano ang pinamamahalaan ng elementong iyon.",
+      "HEALTH_CHUNG": "Ilang pares ng sanga ang nagbabanggaan sa loob ng tsart.",
+      "HEALTH_EXTREME_BODY": "Ang araw na tagapamahala ay nakatuon sa isang panig, na isang strain sa sarili nito. Ang balanseng araw na tagapamahala ay walang nawawala dito."
+    },
+    "yongsinDepth": {
+      "STRONG": "Ang mga elementong sumusuporta sa iyong araw na tagapamahala ay puno. Nagbibigay ito sa iyo ng sariling lakas ngunit madaling lumihis sa isang panig, kaya ang kailangan mo ngayon ay hindi higit pang suporta — ito ay **isang bagay na mag-aalis ng labis**. {favorable} ang gumagawa nito. Kung saan umaabot ang elementong iyon — naglalabas, tumatanggap, nag-iipon — ay kung saan ka nagiging komportable.",
+      "BALANCED": "Ang sumusuporta sa iyong araw na tagapamahala at ang kumukuha mula rito ay halos pantay. Napakalapit upang tawaging alinman, kaya dito natin binabasa ang **anumang pinakamahinang** kailangan: {favorable}. Ang isang tsart na hindi nakatuon ay mahusay na umaangkop ngunit malabo ang sariling linya, kaya ang pagtuon sa manipis na lugar ay nagbibigay sa iyo ng direksyon na dapat hawakan.",
+      "WEAK": "Ang mga elementong sumusuporta sa iyong araw na tagapamahala ay manipis. Mahusay kang humiram ng lakas mula sa paligid mo ngunit napapagod sa paghawak nang mag-isa, kaya ang kailangan mo ngayon ay **isang bagay na sumusuporta at pumuno sa iyo**. {favorable} ang gumagawa nito. Ang pagpapanatili ng mga sumusuportang bagay na malapit ay hindi isang kahinaan sa tsart na ito — ito ay isang pamamaraan."
+    }
   },
   "footer": {
     "privacy": "Privacy",
