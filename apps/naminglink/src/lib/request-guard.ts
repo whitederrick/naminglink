@@ -37,7 +37,23 @@ export async function checkRateLimit(
   // identifier를 지정하면 방문자 단위가 아닌 전역("global" 등) 한도로 동작한다.
   const identifier = identifierOverride ?? getDailyVisitorHash(request);
   // 설정 자체가 없는 경우(지역 개발)는 막지 않는다. 여기서 막으면 개발이 안 된다.
-  if (!supabase || !identifier) return true;
+  //
+  // **다만 배포된 환경에서 여기 오면 레이트리밋이 통째로 꺼진 것이다.** 지역 개발에 설정이
+  // 없는 것은 정상이지만 운영에서는 사고다 — 실제로 사주링크가 Supabase 환경변수 없이 떠 있어
+  // 모든 한도가 열려 있었는데 **아무 신호도 없었다**(2026-08-06 리뷰에서 발견). RPC 오류에는
+  // 알리면서 설정이 아예 없을 때는 알리지 않은 탓이다. **가장 위험한 실패가 가장 조용했다.**
+  if (!supabase || !identifier) {
+    if (process.env.VERCEL_ENV) {
+      notifyOps(
+        // 스코프를 키에 넣지 않는다 — 넣으면 라우트마다 따로 억제돼 알림이 쏟아진다.
+        "rate-limit-not-configured",
+        "레이트리밋 설정이 없어 모든 요청을 통과시키고 있습니다",
+        { scope, missing: !supabase ? "supabase" : "identifier" },
+        "critical",
+      );
+    }
+    return true;
+  }
 
   const { data, error } = await supabase.rpc("consume_rate_limit", {
     p_scope: scope,

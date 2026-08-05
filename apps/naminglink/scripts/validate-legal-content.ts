@@ -35,7 +35,14 @@ for (const locale of supportedLocales) {
     });
     if (locale !== "ko") {
       // companyInfo 값(보호책임자 등)은 데이터라서 번역 대상이 아님 — 검사에서 제외
-      const companyValues = Object.values(companyInfo);
+      //
+      // **긴 값부터 지운다.** 짧은 값이 긴 값의 앞부분일 때 순서를 안 맞추면 검사가 깨진다 —
+      // `representative: "곽은하"`를 먼저 지우면 `"곽은하(대표)"`가 `"(대표)"`만 남고, 그
+      // 뒤에 오는 전체 값은 더 이상 매칭되지 않아 **멀쩡한 문서를 한글 잔존으로 잡는다**
+      // (2026-08-06에 실제로 그랬다). 길이 내림차순이면 늘 긴 쪽이 먼저 사라진다.
+      const companyValues = Object.values(companyInfo).sort(
+        (a, b) => b.length - a.length,
+      );
       const all = [doc.title, doc.description, ...doc.sections.flatMap((s) => [s.title, ...s.paragraphs])];
       for (const text of all) {
         let stripped = text;
