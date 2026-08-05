@@ -252,7 +252,9 @@ export const es: Dictionary = {
     "missingInput": "No se ha podido leer este resultado. Introduce las fechas de nuevo.",
     "partialTime": "No se indicó la hora de nacimiento, así que se dejó fuera el pilar de la hora. Añadirla hace la lectura más precisa.",
     "engineVersion": "Calculado con",
-    "disclaimer": "Esta es una lectura de Saju tradicional ofrecida como referencia. No es una predicción científica ni un veredicto sobre tu futuro."
+    "disclaimer": "Esta es una lectura de Saju tradicional ofrecida como referencia. No es una predicción científica ni un veredicto sobre tu futuro.",
+    "seeToday": "Ver la fortuna de hoy",
+    "seeReading": "Ver mi carta natal"
   },
   "today": {
     "menu": "La fortuna de hoy",

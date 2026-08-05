@@ -252,7 +252,9 @@ export const zh: Dictionary = {
     "missingInput": "无法读取结果信息。请从头重新输入。",
     "partialTime": "由于未填写出生时刻，我们在剔除时柱的情况下进行了推算。填入时刻会更准确。",
     "engineVersion": "推算基准",
-    "disclaimer": "这是一份传统的四柱命理解读，仅供参考。它不是科学预测或对您未来的判断。"
+    "disclaimer": "这是一份传统的四柱命理解读，仅供参考。它不是科学预测或对您未来的判断。",
+    "seeToday": "查看今天的运势",
+    "seeReading": "查看你的命盘"
   },
   "today": {
     "menu": "今天的运势",

@@ -252,7 +252,9 @@ export const uz: Dictionary = {
     "missingInput": "Bu natijani o'qib bo'lmadi. Iltimos, sanalarni qayta kiriting.",
     "partialTime": "Tug'ilgan vaqt kiritilmagani uchun soat ustuni hisobga olinmadi. Uni qo'shsangiz, talqin aniqroq bo'ladi.",
     "engineVersion": "Hisob mezoni",
-    "disclaimer": "Bu an'anaviy Saju o'qilishi, ma'lumot sifatida taqdim etilgan. Bu ilmiy bashorat yoki kelajagingizga oid hukm emas."
+    "disclaimer": "Bu an'anaviy Saju o'qilishi, ma'lumot sifatida taqdim etilgan. Bu ilmiy bashorat yoki kelajagingizga oid hukm emas.",
+    "seeToday": "Bugungi taqdirni ko'rish",
+    "seeReading": "Sizning natal chartingizni ko'rish"
   },
   "today": {
     "menu": "Bugungi taqdir",

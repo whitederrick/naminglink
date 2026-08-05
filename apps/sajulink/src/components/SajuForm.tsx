@@ -25,9 +25,20 @@ import { encodeSajuInput, sajuInputSchema, type SajuInput } from "@/lib/saju-inp
 export function SajuForm({
   dictionary,
   locale,
+  menu,
 }: {
   dictionary: Dictionary;
   locale: Locale;
+  /**
+   * 어느 메뉴의 폼인가. **결과 화면이 이 값으로 갈린다.**
+   *
+   * 예전에는 어디서 눌렀든 `/reading/result` 한 곳으로 보냈다. 그래서 「오늘의 운세」로
+   * 들어와도 「사주 풀이 결과」가 뜨고 원국이 먼저 나왔다 — 메뉴 이름과 나오는 것이 달랐다.
+   *
+   * 집계도 이 값으로 갈린다. 열거에 `SAJU_TODAY`가 있었는데 아무도 보내지 않아 콘솔에서 두
+   * 메뉴를 구분할 수 없었다.
+   */
+  menu: "reading" | "today";
 }) {
   const t = dictionary.form;
   const [me, setMe] = useState<PersonDraft>(emptyPerson);
@@ -69,7 +80,7 @@ export function SajuForm({
     // 기다리지 않으면 이 기록이 그대로 날아간다(`analytics-client` 주석 참고).
     const started = trackAnalytics({
       eventType: "ANALYSIS_STARTED",
-      serviceType: "SAJU_READING",
+      serviceType: menu === "today" ? "SAJU_TODAY" : "SAJU_READING",
       locale,
     });
 
@@ -78,7 +89,8 @@ export function SajuForm({
     //
     // **router.push를 쓰지 않는다.** 프래그먼트가 둘로 겹치면 디코딩이 깨지고, 결과 화면이
     // 해시를 빈 값으로 읽는 경합도 생긴다. location.assign은 넘긴 문자열이 그대로 주소가 된다.
-    const target = `${localePath("/reading/result", locale)}#${encodeSajuInput(input)}`;
+    const resultPath = menu === "today" ? "/today/result" : "/reading/result";
+    const target = `${localePath(resultPath, locale)}#${encodeSajuInput(input)}`;
 
     // 광고를 시작하는 것이 이 버튼이라, 관문이 켜져 있을 때만 버튼 문구가 그 사실을 말한다.
     // 광고 단위가 없으면 관문도 문구도 함께 사라져 그대로 넘어간다.

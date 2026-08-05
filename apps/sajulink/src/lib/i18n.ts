@@ -222,6 +222,15 @@ export type Dictionary = {
     partialTime: string;
     engineVersion: string;
     disclaimer: string;
+    /**
+     * 두 결과 화면을 서로 잇는 줄.
+     *
+     * **화면을 가르면 오갈 길이 있어야 한다.** 사주 풀이는 평생, 오늘의 운세는 하루치라
+     * 자리를 갈랐는데(`TodayResultView` 주석), 길을 안 내면 같은 생년월일을 두 번 넣게 된다.
+     * 링크에는 같은 프래그먼트를 그대로 이어 붙인다.
+     */
+    seeToday: string;
+    seeReading: string;
   };
   /**
    * 오늘의 운세.
@@ -736,6 +745,8 @@ const ko: Dictionary = {
     engineVersion: "계산 기준",
     disclaimer:
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 미래에 대한 단정이 아닙니다.",
+    seeToday: "오늘의 운세 보기",
+    seeReading: "내 사주 원국 보기",
   },
   today: {
     menu: "오늘의 운세",
@@ -1383,6 +1394,8 @@ const en: Dictionary = {
     engineVersion: "Calculated with",
     disclaimer:
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on your future.",
+    seeToday: "See today’s fortune",
+    seeReading: "See your natal chart",
   },
   today: {
     menu: "Today’s fortune",

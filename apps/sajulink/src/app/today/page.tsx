@@ -54,7 +54,7 @@ export default async function TodayPage({
           <PageTitle title={dictionary.form.title} locale={locale} path="/today" />
           <p className="break-keep-all mt-3 text-muted">{dictionary.form.description}</p>
         </section>
-        <SajuForm dictionary={dictionary} locale={locale} />
+        <SajuForm dictionary={dictionary} locale={locale} menu="today" />
         <PrivacyNotice locale={locale} className="mt-10" />
       </div>
       <div className="mx-auto w-full max-w-5xl px-6 pb-10">

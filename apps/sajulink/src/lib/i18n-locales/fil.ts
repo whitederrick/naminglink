@@ -252,7 +252,9 @@ export const fil: Dictionary = {
     "missingInput": "Hindi mabasa ang resultang ito. Pakilagay muli ang mga petsa.",
     "partialTime": "Walang ibinigay na oras ng kapanganakan, kaya inalis ang haligi ng oras. Kapag idinagdag ito, mas tumpak ang pagbasa.",
     "engineVersion": "Kinalkula gamit ang",
-    "disclaimer": "Ito ay isang tradisyonal na pagbasa ng Saju na inaalok para sa sanggunian. Hindi ito isang siyentipikong hula o hatol sa iyong hinaharap."
+    "disclaimer": "Ito ay isang tradisyonal na pagbasa ng Saju na inaalok para sa sanggunian. Hindi ito isang siyentipikong hula o hatol sa iyong hinaharap.",
+    "seeToday": "Tingnan ang kapalaran ngayon",
+    "seeReading": "Tingnan ang iyong natal chart"
   },
   "today": {
     "menu": "Suwerteng araw na ito",

@@ -252,7 +252,9 @@ export const pl: Dictionary = {
     "missingInput": "Nie udało się odczytać tego wyniku. Podaj daty jeszcze raz.",
     "partialTime": "Godzina urodzenia nie została podana, więc filar godziny pominięto. Jej dodanie uściśli odczyt.",
     "engineVersion": "Obliczono według",
-    "disclaimer": "To jest tradycyjna interpretacja Saju oferowana jako materiał referencyjny. Nie jest to naukowa prognoza ani werdykt dotyczący twojej przyszłości."
+    "disclaimer": "To jest tradycyjna interpretacja Saju oferowana jako materiał referencyjny. Nie jest to naukowa prognoza ani werdykt dotyczący twojej przyszłości.",
+    "seeToday": "Zobacz dzisiejszą fortunę",
+    "seeReading": "Zobacz swój wykres urodzeniowy"
   },
   "today": {
     "menu": "Dzienna fortuna",

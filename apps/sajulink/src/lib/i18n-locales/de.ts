@@ -252,7 +252,9 @@ export const de: Dictionary = {
     "missingInput": "Dieses Ergebnis konnte nicht gelesen werden. Bitte geben Sie die Daten erneut ein.",
     "partialTime": "Ohne Geburtszeit blieb die Stundensäule außen vor. Mit ihr wird die Deutung genauer.",
     "engineVersion": "Berechnet mit",
-    "disclaimer": "Dies ist eine traditionelle Saju-Deutung, die zur Referenz angeboten wird. Es ist keine wissenschaftliche Vorhersage oder ein Urteil über Ihre Zukunft."
+    "disclaimer": "Dies ist eine traditionelle Saju-Deutung, die zur Referenz angeboten wird. Es ist keine wissenschaftliche Vorhersage oder ein Urteil über Ihre Zukunft.",
+    "seeToday": "Heute’s Fortune sehen",
+    "seeReading": "Deine natal chart sehen"
   },
   "today": {
     "menu": "Heute’s Glück",

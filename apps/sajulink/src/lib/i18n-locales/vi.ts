@@ -252,7 +252,9 @@ export const vi: Dictionary = {
     "missingInput": "Không đọc được kết quả này. Vui lòng nhập lại ngày sinh.",
     "partialTime": "Không có giờ sinh nên trụ giờ đã được bỏ ra. Thêm giờ sinh sẽ cho kết quả chính xác hơn.",
     "engineVersion": "Tính theo",
-    "disclaimer": "Đây là một bài bói Saju truyền thống được cung cấp để tham khảo. Nó không phải là một dự đoán khoa học hay một phán quyết về tương lai của bạn."
+    "disclaimer": "Đây là một bài bói Saju truyền thống được cung cấp để tham khảo. Nó không phải là một dự đoán khoa học hay một phán quyết về tương lai của bạn.",
+    "seeToday": "Xem vận mệnh hôm nay",
+    "seeReading": "Xem biểu đồ sinh của bạn"
   },
   "today": {
     "menu": "Vận mệnh hôm nay",

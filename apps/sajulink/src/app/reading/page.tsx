@@ -60,7 +60,7 @@ export default async function ReadingPage({
             {/* 무엇을 근거로 계산하는지는 생년월일을 넣기 **전에** 궁금해지는 것이라 이 자리다. */}
             <GuideLink locale={locale} from="reading" align="start" className="mt-3" />
           </section>
-          <SajuForm dictionary={dictionary} locale={locale} />
+          <SajuForm dictionary={dictionary} locale={locale} menu="reading" />
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
         </div>

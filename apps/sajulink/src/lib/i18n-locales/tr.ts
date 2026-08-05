@@ -252,7 +252,9 @@ export const tr: Dictionary = {
     "missingInput": "Bu sonuç okunamadı. Lütfen tarihleri yeniden girin.",
     "partialTime": "Doğum saati girilmediği için saat sütunu hesaba katılmadı. Saati eklemek yorumu daha kesin yapar.",
     "engineVersion": "Hesaplama sürümü",
-    "disclaimer": "Bu, referans için sunulan geleneksel bir Saju okumasıdır. Bilimsel bir tahmin veya geleceğiniz hakkında bir hüküm değildir."
+    "disclaimer": "Bu, referans için sunulan geleneksel bir Saju okumasıdır. Bilimsel bir tahmin veya geleceğiniz hakkında bir hüküm değildir.",
+    "seeToday": "Bugünün falına bak",
+    "seeReading": "Doğum haritana bak"
   },
   "today": {
     "menu": "Bugünün falı",

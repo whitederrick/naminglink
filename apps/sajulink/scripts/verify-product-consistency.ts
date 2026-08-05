@@ -109,8 +109,9 @@ for (const locale of translatedLocales) {
   //
   // 뺀 자리가 무법지대가 되지는 않는다. `verify-self-ads`가 그 절을 따로 본다(빈 문구·한글
   // 잔재), 그리고 이름은 사전이 아니라 명단(`SELF_AD_SERVICES.name`)이 갖는다.
-  const { selfAds: _selfAds, ...rest } = dictionary;
-  const flattened = JSON.stringify(rest);
+  const flattened = JSON.stringify(dictionary, (key, value) =>
+    key === "selfAds" ? undefined : value,
+  );
   const found = STALE_NAMES.filter((stale) => flattened.includes(stale));
   check(`${locale} 사전에 인연링크 잔재 없음`, found.length === 0, found.join(", "));
 }

@@ -1,21 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
 import { GuideLink } from "@/components/GuideLink";
 import { SelfAdCard } from "@/components/SelfAdCard";
-import { trackAnalytics } from "@/lib/analytics-client";
 import { emphasize } from "@/lib/emphasize";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import type { PublicSajuOutcome } from "@/lib/public-outcome";
-import { decodeSajuInput, type SajuInput } from "@/lib/saju-input";
-import { useResultFragment } from "@/lib/use-result-fragment";
+import { localePath } from "@/lib/locale-path";
+import { useSajuOutcome } from "@/lib/use-saju-outcome";
 
 /**
- * 사주 결과 — 원국 + 오행 + 오늘의 운세.
+ * 사주 풀이 결과 — **평생 것만 있다.**
  *
- * 입력값은 **프래그먼트(#)에만 있다.** 서버 컴포넌트는 그것을 볼 수 없으므로(브라우저가
- * 서버로 보내지 않는다) 여기서 읽어 POST로 계산을 요청한다. 인연링크 결과 화면과 같은 구조다.
+ * 원국·일간·오행까지가 무료 몫이고, 강약·용신·십신·삶의 네 영역은 리포트가 판다
+ * (`public-outcome.ts`가 응답에서부터 걷어낸다 — 화면이 안 그리는 것으로는 부족하다).
+ *
+ * **오늘의 운세는 여기 없다.** 예전에는 이 화면 한가운데에 하루짜리 점수가 가장 큰 글씨로
+ * 있었다 — 사주를 보러 온 사람에게 그것이 결과처럼 읽혔다. 지금은 `/today/result`가 맡고
+ * 아래에서 서로 오갈 수 있다(`TodayResultView` 주석 참고).
  */
 
 /** 오행의 관습적인 색. **리포트(`pdf/saju-report.tsx`)와 같은 값이어야 한다.** */
@@ -26,11 +28,6 @@ const ELEMENT_COLOR: Record<string, string> = {
   METAL: "#9aa0a6",
   WATER: "#3f4a63",
 };
-
-type State =
-  | { status: "loading" }
-  | { status: "ready"; outcome: PublicSajuOutcome; input: SajuInput; fragment: string }
-  | { status: "error"; message: string; fragment: string };
 
 export function SajuResultView({
   dictionary,
@@ -44,61 +41,8 @@ export function SajuResultView({
 }) {
   const t = dictionary.result;
   const r = dictionary.reading;
-  const d = dictionary.today;
   const p = dictionary.report;
-  const resolvedFragment = useResultFragment();
-  const [state, setState] = useState<State>({ status: "loading" });
-
-  useEffect(() => {
-    if (resolvedFragment === null) return;
-    const fragment = resolvedFragment;
-    let cancelled = false;
-
-    // 프래그먼트 해석 실패도 예외로 던져 한 갈래로 모은다. effect 안에서 setState를 동기로
-    // 호출하면 렌더가 연쇄로 도는데, .catch는 마이크로태스크라 그 문제가 없다.
-    async function resolve() {
-      const input = decodeSajuInput(fragment);
-      if (!input) throw new Error("MISSING_INPUT");
-
-      const response = await fetch("/api/saju", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(input),
-      });
-      if (!response.ok) {
-        const body = await response.json().catch(() => null);
-        throw new Error(body?.error ?? "UNKNOWN");
-      }
-      return { outcome: (await response.json()) as PublicSajuOutcome, input };
-    }
-
-    resolve()
-      .then(({ outcome, input }) => {
-        if (cancelled) return;
-        setState({ status: "ready", outcome, input, fragment });
-        // 분석 완료. 입력값은 싣지 않는다 — 메뉴 구분과 경로뿐이다.
-        trackAnalytics({ eventType: "ANALYSIS_COMPLETED", serviceType: "SAJU_READING", locale });
-      })
-      .catch((cause: Error) => {
-        if (cancelled) return;
-        setState({ status: "error", message: errorMessage(cause.message), fragment });
-        // **실패도 남긴다.** 완료만 세면 완료율이 항상 100%로 보이고, 입력 형식 문제나 엔진
-        // 오류가 늘어도 화면에서는 아무 일도 일어나지 않는 것처럼 보인다.
-        trackAnalytics({ eventType: "ANALYSIS_FAILED", serviceType: "SAJU_READING", locale });
-      });
-
-    function errorMessage(code: string) {
-      if (code === "MISSING_INPUT") return t.missingInput;
-      if (code === "UNCALCULABLE_DATE" || code === "INVALID_INPUT") {
-        return dictionary.form.errorInvalidDate;
-      }
-      return dictionary.form.errorGeneric;
-    }
-
-    return () => {
-      cancelled = true;
-    };
-  }, [resolvedFragment, dictionary, locale, t]);
+  const state = useSajuOutcome({ dictionary, locale, serviceType: "SAJU_READING" });
 
   if (state.status === "loading") {
     return <p className="mt-10 text-center text-muted">{t.title}</p>;
@@ -112,7 +56,7 @@ export function SajuResultView({
     );
   }
 
-  const { reading, today } = state.outcome;
+  const { reading } = state.outcome;
   const dayMaster = dictionary.dayMasters[reading.dayMaster.character];
 
   // 리포트의 막대와 **같은 방식으로** 센다(합을 100으로 본다). 두 곳이 다른 눈금을 쓰면 산
@@ -166,80 +110,6 @@ export function SajuResultView({
             <dd>{dictionary.elements[reading.seasonElement]}</dd>
           </div>
         </dl>
-      </section>
-
-      {/* 오늘의 운세 — 이 화면의 리텐션 훅이다. 점수·등급·카테고리를 함께 보여 준다.
-          **엔진 값은 전부 열거값이다.** 그대로 그리면 `DAEGIL`·`wealth`·`WOOD`가 화면에 뜬다.
-          사람이 읽을 말은 전부 사전(`today`·`elements`)에 있고 여기서는 이름만 건다. */}
-      <section className="rounded-2xl border border-brand-navy/25 bg-surface-strong p-5">
-        <h2 className="text-sm font-semibold text-brand-navy">{d.title}</h2>
-        <p className="mt-1 text-xs text-muted">
-          {today.date} · {d.pillarLabel} {today.todayPillar.stem}
-          {today.todayPillar.branch}
-        </p>
-        <p className="mt-3 text-4xl font-semibold tabular-nums">{today.score}</p>
-        <p className="mt-1 text-sm font-semibold text-brand-navy">
-          {d.grades[today.grade].name}
-        </p>
-        <p className="break-keep-all mt-1 text-xs leading-6 text-muted">
-          {d.grades[today.grade].body}
-        </p>
-        <dl className="mt-4 grid grid-cols-2 gap-2 text-sm sm:grid-cols-4">
-          {(Object.keys(today.categories) as Array<keyof typeof today.categories>).map((key) => (
-            <div key={key} className="rounded-lg border border-line/60 bg-surface px-3 py-2">
-              <dt className="text-xs text-muted">{d.categories[key]}</dt>
-              <dd className="mt-0.5 font-semibold tabular-nums">{today.categories[key]}</dd>
-            </div>
-          ))}
-        </dl>
-
-        {/* 행운 요소. 색과 방위는 엔진이 한국어·영어 두 벌로 들고 있다 — 나머지 로케일은
-            영어 쪽을 쓴다(사전에 옮기면 오행마다 23벌이라 엔진 값을 그대로 쓰는 편이 맞다). */}
-        <h3 className="mt-5 text-xs font-semibold text-brand-navy">{d.luckyTitle}</h3>
-        <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-xs leading-6 sm:grid-cols-3">
-          <div className="flex gap-2">
-            <dt className="text-muted">{d.luckyElement}</dt>
-            <dd>{dictionary.elements[today.lucky.element]}</dd>
-          </div>
-          <div className="flex gap-2">
-            <dt className="text-muted">{d.luckyColor}</dt>
-            {/* 사전에서 찾는다. 예전에는 `locale === "ko"`로 두 벌 중 하나를 골랐는데,
-                ko가 아닌 모든 언어가 영어로 떨어져 일본어 화면에도 영어 색 이름이 나왔다. */}
-            <dd>{today.lucky.colors.map((color) => d.luckyColors[color]).join(", ")}</dd>
-          </div>
-          <div className="flex gap-2">
-            <dt className="text-muted">{d.luckyDirection}</dt>
-            <dd>{d.luckyDirections[today.lucky.direction]}</dd>
-          </div>
-          <div className="flex gap-2">
-            <dt className="text-muted">{d.luckyTime}</dt>
-            <dd>{today.lucky.timeRange}</dd>
-          </div>
-          <div className="flex gap-2">
-            <dt className="text-muted">{d.luckyNumber}</dt>
-            <dd className="tabular-nums">{today.lucky.numbers.join(", ")}</dd>
-          </div>
-        </dl>
-
-        {/* 점수의 근거. 엔진은 항목(`Factor.key`)만 주고 문장은 사전이 갖는다. 사전 쪽이
-            열거로 닫혀 있어 엔진에 항목이 늘면 컴파일에서 걸린다. */}
-        <h3 className="mt-5 text-xs font-semibold text-brand-navy">{d.basisTitle}</h3>
-        <ul className="mt-2 space-y-1 text-xs leading-6 text-muted">
-          {today.factors.map((factor) => (
-            <li key={factor.key} className="break-keep-all flex justify-between gap-3">
-              <span>{d.factors[factor.key as keyof typeof d.factors] ?? factor.key}</span>
-              <span className="shrink-0 tabular-nums">
-                {factor.delta > 0 ? `+${factor.delta}` : factor.delta}
-              </span>
-            </li>
-          ))}
-        </ul>
-
-        {/* 이 문구에는 `**강조**`가 들어 있다. 처리하지 않으면 별표가 그대로 보인다 —
-            실제로 그러고 있었다. 처리는 `lib/emphasize.tsx` 한 곳에 있다. */}
-        <p className="break-keep-all mt-4 text-xs leading-6 text-muted">
-          {emphasize(d.bookmarkHint)}
-        </p>
       </section>
 
       {/* 오행 세력 — **막대로 개략만.** 리포트와 같은 눈금(합을 100으로 본 비율)이라 두 곳이
@@ -305,8 +175,17 @@ export function SajuResultView({
         </p>
       </section>
 
-      {/* 형제 서비스. **구매 자리 뒤에 둔다** — 파는 것이 먼저고 셀프 광고가 나중이다.
-          오늘의 운세는 무료·화면 전용이라 이 화면에서 값을 거두는 길이 광고와 이 카드뿐이다. */}
+      {/* 오늘의 운세로 건너가는 자리. **같은 프래그먼트를 그대로 이어 붙인다** — 입력은 주소의
+          프래그먼트에만 있으므로, 빠뜨리면 생년월일을 다시 넣게 된다.
+          **구매 자리 뒤에 둔다** — 파는 것이 먼저다. */}
+      <Link
+        href={`${localePath("/today/result", locale)}#${state.fragment}`}
+        className="block rounded-2xl border border-line/70 bg-surface/80 px-5 py-4 text-center text-sm font-semibold text-brand-navy"
+      >
+        {t.seeToday}
+      </Link>
+
+      {/* 형제 서비스. 파는 것과 우리 다른 화면 다음이다. */}
       <SelfAdCard dictionary={dictionary} />
 
       <GuideLink locale={locale} from="reading" className="mt-12" />

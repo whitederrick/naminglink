@@ -252,7 +252,9 @@ export const ms: Dictionary = {
     "missingInput": "Keputusan ini tidak dapat dibaca. Sila masukkan semula tarikhnya.",
     "partialTime": "Waktu lahir tidak diberikan, jadi tiang jam ditinggalkan. Menambahnya menjadikan bacaan lebih tepat.",
     "engineVersion": "Dikira dengan",
-    "disclaimer": "Ini adalah bacaan Saju tradisional yang ditawarkan untuk rujukan. Ia bukan ramalan saintifik atau keputusan mengenai masa depan anda."
+    "disclaimer": "Ini adalah bacaan Saju tradisional yang ditawarkan untuk rujukan. Ia bukan ramalan saintifik atau keputusan mengenai masa depan anda.",
+    "seeToday": "Lihat ramalan hari ini",
+    "seeReading": "Lihat carta natal anda"
   },
   "today": {
     "menu": "Ramalan hari ini",
