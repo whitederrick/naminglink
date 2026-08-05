@@ -623,9 +623,9 @@ export const fr: Dictionary = {
       "HEALTH_EXTREME_BODY": "Le maître du jour penche fortement d'un côté, ce qui est une pression en soi. Un maître du jour équilibré ne perd rien ici."
     },
     "yongsinDepth": {
-      "STRONG": "Les éléments soutenant votre maître du jour sont pleins. Cela vous donne une motivation propre mais penche facilement d'un côté, donc ce dont vous avez besoin maintenant n'est pas plus de soutien — c'est **quelque chose pour évacuer l'excès**. {favorable} fait cela. Là où cet élément atteint — donner, prendre, rassembler — est où vous vous établissez.",
-      "BALANCED": "Ce qui soutient votre maître du jour et ce qui en tire est presque égal. Trop proche pour trancher d'un côté ou de l'autre, donc ici nous lisons **ce qui est le plus mince** comme ce dont vous avez besoin : {favorable}. Un tableau qui ne penche pas s'adapte bien mais brouille sa propre ligne, donc se diriger vers l'endroit mince vous donne une direction à tenir.",
-      "WEAK": "Les éléments soutenant votre maître du jour sont fins. Vous empruntez bien la force qui vous entoure mais vous vous épuisez à tenir seul, donc ce dont vous avez besoin maintenant est **quelque chose pour vous soutenir et vous remplir**. {favorable} fait cela. Garder des choses de soutien proches n'est pas une faiblesse dans ce tableau — c'est la méthode."
+      "STRONG": "Les éléments soutenant votre jour maître sont pleins. Cela vous donne une force propre mais penche facilement d'un côté, donc ce dont vous avez besoin maintenant n'est pas plus de soutien — c'est quelque chose pour évacuer l'excès. {favorable} fait cela. L'endroit où cet élément atteint — émettre, prendre, rassembler — est là où vous vous installez.",
+      "BALANCED": "Ce qui soutient votre jour maître et ce qui en tire est presque équilibré. Trop proche pour trancher d'un côté ou de l'autre, donc ici nous lisons ce qui est le plus fin comme ce dont vous avez besoin : {favorable}. Un graphique qui ne penche pas s'adapte bien mais brouille sa propre ligne, donc se diriger vers l'endroit fin vous donne une direction à tenir.",
+      "WEAK": "Les éléments soutenant votre jour maître sont fins. Vous empruntez bien la force autour de vous mais vous vous épuisez à tenir seul, donc ce dont vous avez besoin maintenant est quelque chose pour vous soutenir et vous remplir. {favorable} fait cela. Garder des choses de soutien près de vous n'est pas une faiblesse dans ce graphique — c'est la méthode."
     }
   },
   "footer": {

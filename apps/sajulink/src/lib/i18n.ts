@@ -1074,11 +1074,11 @@ const ko: Dictionary = {
     },
     yongsinDepth: {
       STRONG:
-        "일간을 돕는 기운이 넉넉합니다. 스스로 밀고 나가는 힘이 있는 대신 한쪽으로 쏠리기 쉬워, 지금 필요한 것은 더 보태는 기운이 아니라 **덜어 내고 흘려보내는 기운**입니다. {favorable}이 그 몫을 합니다. 이 기운이 닿는 자리 — 내놓고, 맡고, 거두는 일 — 에서 오히려 편안해집니다.",
+        "일간을 돕는 기운이 넉넉합니다. 스스로 밀고 나가는 힘이 있는 대신 한쪽으로 쏠리기 쉬워, 지금 필요한 것은 더 보태는 기운이 아니라 덜어 내고 흘려보내는 기운입니다. {favorable}이 그 몫을 합니다. 이 기운이 닿는 자리 — 내놓고, 맡고, 거두는 일 — 에서 오히려 편안해집니다.",
       BALANCED:
-        "돕는 기운과 덜어 내는 기운이 엇비슷합니다. 어느 한쪽으로 단정하기 어려운 자리라, 여기서는 **지금 가장 얇은 기운**을 필요한 것으로 봅니다. {favorable}이 그것입니다. 크게 기울지 않은 사주는 상황에 맞춰 잘 움직이는 대신 자기 기준이 흐려지기 쉬우니, 얇은 자리를 채우는 쪽으로 방향을 잡는 편이 낫습니다.",
+        "돕는 기운과 덜어 내는 기운이 엇비슷합니다. 어느 한쪽으로 단정하기 어려운 자리라, 여기서는 지금 가장 얇은 기운을 필요한 것으로 봅니다. {favorable}이 그것입니다. 크게 기울지 않은 사주는 상황에 맞춰 잘 움직이는 대신 자기 기준이 흐려지기 쉬우니, 얇은 자리를 채우는 쪽으로 방향을 잡는 편이 낫습니다.",
       WEAK:
-        "일간을 돕는 기운이 얇습니다. 주변의 힘을 잘 빌리는 대신 혼자 오래 버티는 일에서 지치기 쉬워, 지금 필요한 것은 **받쳐 주고 채워 주는 기운**입니다. {favorable}이 그 몫을 합니다. 도와주는 기운을 곁에 두는 것은 이 사주에서 약점이 아니라 방법입니다.",
+        "일간을 돕는 기운이 얇습니다. 주변의 힘을 잘 빌리는 대신 혼자 오래 버티는 일에서 지치기 쉬워, 지금 필요한 것은 받쳐 주고 채워 주는 기운입니다. {favorable}이 그 몫을 합니다. 도와주는 기운을 곁에 두는 것은 이 사주에서 약점이 아니라 방법입니다.",
     },
   },
   footer: {
@@ -1712,11 +1712,11 @@ const en: Dictionary = {
     },
     yongsinDepth: {
       STRONG:
-        "The elements supporting your day master run full. That gives you drive of your own but tips easily to one side, so what you need now is not more support — it is **something to draw the excess off**. {favorable} does that work. Where that element reaches — putting out, taking on, gathering in — is where you settle.",
+        "The elements supporting your day master run full. That gives you drive of your own but tips easily to one side, so what you need now is not more support — it is something to draw the excess off. {favorable} does that work. Where that element reaches — putting out, taking on, gathering in — is where you settle.",
       BALANCED:
-        "What supports your day master and what draws from it sit close to even. Too close to call either way, so here we read **whatever is thinnest** as what you need: {favorable}. A chart that does not lean adapts well but blurs its own line, so steering toward the thin place gives you a direction to hold.",
+        "What supports your day master and what draws from it sit close to even. Too close to call either way, so here we read whatever is thinnest as what you need: {favorable}. A chart that does not lean adapts well but blurs its own line, so steering toward the thin place gives you a direction to hold.",
       WEAK:
-        "The elements supporting your day master run thin. You borrow strength from around you well but wear down holding out alone, so what you need now is **something to back you and fill you in**. {favorable} does that work. Keeping supportive things close is not a weakness in this chart — it is the method.",
+        "The elements supporting your day master run thin. You borrow strength from around you well but wear down holding out alone, so what you need now is something to back you and fill you in. {favorable} does that work. Keeping supportive things close is not a weakness in this chart — it is the method.",
     },
   },
   footer: {

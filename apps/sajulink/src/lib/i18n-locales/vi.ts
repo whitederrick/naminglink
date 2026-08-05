@@ -623,9 +623,9 @@ export const vi: Dictionary = {
       "HEALTH_EXTREME_BODY": "Ngày chủ nghiêng nặng về một bên, điều này tự nó đã là một gánh nặng. Một ngày chủ cân bằng không mất gì ở đây."
     },
     "yongsinDepth": {
-      "STRONG": "Các yếu tố hỗ trợ ngày chủ của bạn chạy đầy đủ. Điều đó mang lại cho bạn động lực riêng nhưng dễ nghiêng về một bên, vì vậy điều bạn cần bây giờ không phải là thêm hỗ trợ — mà là **một cái gì đó để giảm bớt**. {favorable} làm điều đó. Nơi mà yếu tố đó đạt tới — đưa ra, tiếp nhận, thu thập — là nơi bạn ổn định.",
-      "BALANCED": "Những gì hỗ trợ ngày chủ của bạn và những gì rút ra từ nó gần như bằng nhau. Quá gần để xác định theo cách nào, vì vậy ở đây chúng ta đọc **cái gì mỏng nhất** như là điều bạn cần: {favorable}. Một biểu đồ không nghiêng thích ứng tốt nhưng làm mờ đường biên của chính nó, vì vậy việc hướng về phía mỏng sẽ cho bạn một hướng để giữ.",
-      "WEAK": "Các yếu tố hỗ trợ ngày chủ của bạn chạy mỏng. Bạn vay sức mạnh từ xung quanh rất tốt nhưng dễ mệt mỏi khi phải tự mình chống đỡ, vì vậy điều bạn cần bây giờ là **một cái gì đó để hỗ trợ và bổ sung cho bạn**. {favorable} làm điều đó. Giữ những thứ hỗ trợ gần bên không phải là một điểm yếu trong biểu đồ này — đó là phương pháp."
+      "STRONG": "Các yếu tố hỗ trợ cho ngày chủ của bạn rất đầy đủ. Điều đó mang lại cho bạn động lực riêng nhưng dễ nghiêng về một phía, vì vậy điều bạn cần bây giờ không phải là thêm hỗ trợ — mà là một cái gì đó để loại bỏ sự thừa thãi. {favorable} làm điều đó. Nơi mà yếu tố đó đến — phát ra, tiếp nhận, thu thập — là nơi bạn ổn định.",
+      "BALANCED": "Những gì hỗ trợ cho ngày chủ của bạn và những gì rút ra từ nó gần như cân bằng. Quá gần để có thể xác định theo cách nào, vì vậy ở đây chúng ta đọc bất cứ điều gì mỏng manh nhất như là điều bạn cần: {favorable}. Một biểu đồ không nghiêng sẽ thích ứng tốt nhưng có thể làm mờ đi tiêu chuẩn của chính nó, vì vậy việc hướng về nơi mỏng manh sẽ cho bạn một hướng đi để giữ.",
+      "WEAK": "Các yếu tố hỗ trợ cho ngày chủ của bạn rất mỏng manh. Bạn vay mượn sức mạnh từ xung quanh rất tốt nhưng dễ mệt mỏi khi phải tự mình chịu đựng, vì vậy điều bạn cần bây giờ là một cái gì đó để hỗ trợ và bổ sung cho bạn. {favorable} làm điều đó. Giữ những thứ hỗ trợ gần bên không phải là một điểm yếu trong biểu đồ này — đó là phương pháp."
     }
   },
   "footer": {

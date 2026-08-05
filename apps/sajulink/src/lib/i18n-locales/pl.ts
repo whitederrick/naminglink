@@ -623,9 +623,9 @@ export const pl: Dictionary = {
       "HEALTH_EXTREME_BODY": "Mistrz dnia przechyla się mocno w jedną stronę, co samo w sobie jest obciążeniem. Zrównoważony mistrz dnia nic tutaj nie traci."
     },
     "yongsinDepth": {
-      "STRONG": "Elementy wspierające twojego mistrza dnia są silne. To daje ci własny napęd, ale łatwo przechyla się w jedną stronę, więc to, czego teraz potrzebujesz, to nie więcej wsparcia — to **coś, co odciągnie nadmiar**. {favorable} to robi. Gdzie ten element sięga — wydawanie, przyjmowanie, zbieranie — to jest miejsce, w którym się osiedlasz.",
-      "BALANCED": "To, co wspiera twojego mistrza dnia i to, co z niego czerpie, jest bliskie równowagi. Zbyt bliskie, by jednoznacznie określić, więc tutaj czytamy **cokolwiek jest najcieńsze** jako to, czego potrzebujesz: {favorable}. Wykres, który nie przechyla się, dobrze się przystosowuje, ale zaciera własną linię, więc kierowanie się w stronę cienkiego miejsca daje ci kierunek do utrzymania.",
-      "WEAK": "Elementy wspierające twojego mistrza dnia są słabe. Dobrze pożyczasz siłę z otoczenia, ale męczysz się, trzymając się samodzielnie, więc to, czego teraz potrzebujesz, to **coś, co cię wesprze i napełni**. {favorable} to robi. Trzymanie wspierających rzeczy blisko nie jest słabością w tym wykresie — to metoda."
+      "STRONG": "Elementy wspierające twojego day master są pełne. Daje ci to własną siłę, ale łatwo przechyla się na jedną stronę, więc to, czego teraz potrzebujesz, to nie więcej wsparcia — to coś, co odciągnie nadmiar. {favorable} to robi. Gdzie ten element sięga — wydawanie, przyjmowanie, gromadzenie — tam się osiedlasz.",
+      "BALANCED": "To, co wspiera twojego day master i to, co z niego czerpie, jest bliskie równowagi. Zbyt bliskie, by jednoznacznie określić, więc tutaj czytamy to, co jest najcieńsze jako to, czego potrzebujesz: {favorable}. Wykres, który nie przechyla się, dobrze się dostosowuje, ale zaciera własną linię, więc kierowanie się w stronę cienkiego miejsca daje ci kierunek do utrzymania.",
+      "WEAK": "Elementy wspierające twojego day master są cienkie. Dobrze pożyczasz siłę z otoczenia, ale męczysz się, trzymając się samemu, więc to, czego teraz potrzebujesz, to coś, co cię wesprze i napełni. {favorable} to robi. Trzymanie wspierających rzeczy blisko nie jest słabością w tym wykresie — to metoda."
     }
   },
   "footer": {

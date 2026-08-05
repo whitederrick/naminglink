@@ -131,6 +131,10 @@ function compare(
 async function main() {
   const en = getDictionary("en");
 
+  // **로케일이 없어도 본다.** 원문(en)만 있으면 되는 검사라, 아래 "검사할 것이 없는 상태"에
+  // 걸려 건너뛰면 안 된다.
+  checkEmphasisAllowlist(en);
+
   let files: string[] = [];
   try {
     files = readdirSync(LOCALES_DIR)
@@ -155,7 +159,8 @@ async function main() {
       `검사한 로케일 0개 — ko·en 외의 사전이 아직 없습니다(${LOCALES_DIR}).\n` +
         "통과가 아니라 **검사할 것이 없는 상태**입니다. ⑦에서 ja·vi를 쓰면 여기서 검사됩니다.",
     );
-    process.exit(0);
+    // 위의 강조 검사는 로케일과 무관하게 돌았으므로 그 결과는 그대로 반영한다.
+    process.exit(failures > 0 ? 1 : 0);
   }
 
   console.log(`en 사전과 대조한다 — 대상 ${files.length}개\n`);
@@ -181,6 +186,50 @@ async function main() {
     `\n실패 ${failures}건, 경고 ${warnings}건 (경고는 번역 누락 의심일 뿐 실패가 아니다)`,
   );
   process.exit(failures > 0 ? 1 : 0);
+}
+
+/**
+ * `**강조**` 표기를 쓰는 문구는 **어디서 그리는지 적힌 것만** 허용한다.
+ *
+ * 표기 자체는 화면이 처리해야 보인다(`lib/emphasize.tsx`). 처리하지 않으면 별표가 그대로
+ * 찍히는데, **그 화면을 열어 보기 전에는 아무도 모른다** — 실제로 결과 화면의 즐겨찾기 안내와
+ * 결제 패널의 프리미엄 설명 둘이 그렇게 나가고 있었다(2026-08-05).
+ *
+ * 그래서 목록을 여기 둔다. 사전에 `**`를 새로 쓰면 이 검사가 먼저 빨개지고, **그리는 자리를
+ * 함께 적게 된다.** 문구를 쓰는 사람과 화면을 고치는 사람이 갈리는 자리라 손으로는 못 맞춘다.
+ */
+function checkEmphasisAllowlist(en: unknown) {
+  const RENDERED_WITH_EMPHASIS: Record<string, string> = {
+    "today.bookmarkHint": "SajuResultView",
+    "report.consentLabel": "ReportPurchasePanel",
+    "premiumReport.body": "ReportPurchasePanel",
+    "premiumReport.consentLabel": "ReportPurchasePanel",
+  };
+
+  const found: string[] = [];
+  const walk = (node: unknown, trail: string[]) => {
+    if (typeof node === "string") {
+      if (node.includes("**")) found.push(trail.join("."));
+    } else if (Array.isArray(node)) {
+      node.forEach((item, index) => walk(item, [...trail, String(index)]));
+    } else if (node && typeof node === "object") {
+      for (const [key, value] of Object.entries(node)) walk(value, [...trail, key]);
+    }
+  };
+  walk(en, []);
+
+  console.log("\n`**강조**`를 쓰는 문구 — 그리는 자리가 적혀 있는가");
+  for (const path of found) {
+    if (RENDERED_WITH_EMPHASIS[path]) continue;
+    fail("en", path, "`**`를 쓰는데 그리는 자리가 목록에 없다 — emphasize()를 거치는지 확인할 것");
+  }
+  // **반대쪽도 본다.** 문구에서 강조를 뺐는데 목록에 남아 있으면, 다음 사람이 "여기는 처리돼
+  // 있다"고 믿고 그 자리에 다시 별표를 쓴다.
+  for (const path of Object.keys(RENDERED_WITH_EMPHASIS)) {
+    if (found.includes(path)) continue;
+    fail("en", path, "목록에 있는데 문구에 `**`가 없다 — 목록에서 지울 것");
+  }
+  console.log(`  ${found.length}개 확인 (목록 ${Object.keys(RENDERED_WITH_EMPHASIS).length}개)`);
 }
 
 void main();

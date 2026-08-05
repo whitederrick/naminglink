@@ -623,9 +623,9 @@ export const tr: Dictionary = {
       "HEALTH_EXTREME_BODY": "Gün ustası bir tarafa çok eğilmiş, bu da başlı başına bir yük. Dengeli bir gün ustası burada hiçbir şey kaybetmez."
     },
     "yongsinDepth": {
-      "STRONG": "Gün ustanızı destekleyen elementler dolu çalışıyor. Bu, kendi başınıza bir itici güç verir ama kolayca bir tarafa kayar, bu yüzden şu anda ihtiyacınız olan daha fazla destek değil — **fazlalığı atacak bir şey**. {favorable} bunu yapar. O elementin ulaştığı yer — dışarı verme, üstlenme, toplama — orası sizin için rahatladığınız yerdir.",
-      "BALANCED": "Gün ustanızı destekleyen ve ondan çeken elementler neredeyse eşit. Hangi tarafa gideceğini belirlemek zor, bu yüzden burada **şu anda en ince olanı** ihtiyacınız olarak görüyoruz: {favorable}. Aşırı eğilmeyen bir çizelge iyi uyum sağlar ama kendi çizgisini bulanıklaştırır, bu yüzden ince yere yönelmek size tutunacak bir yön verir.",
-      "WEAK": "Gün ustanızı destekleyen elementler ince çalışıyor. Etrafınızdaki güçleri iyi ödünç alıyorsunuz ama yalnız başınıza dayanmakta zorlanıyorsunuz, bu yüzden şu anda ihtiyacınız olan **sizi destekleyen ve dolduran bir şey**. {favorable} bunu yapar. Destekleyici şeyleri yakın tutmak bu çizelgede bir zayıflık değil — bu bir yöntemdir."
+      "STRONG": "Günün ustasını destekleyen unsurlar tam olarak dolu. Bu, kendi başınıza bir itici güç sağlarken, kolayca bir tarafa kaymanıza neden olur; bu yüzden şu anda ihtiyacınız olan daha fazla destek değil — fazla olanı çekip almak için bir şeydir. {favorable} bunu yapar. O unsurun ulaştığı yer — dışarı vermek, almak, toplamak — orada rahat edersiniz.",
+      "BALANCED": "Günün ustasını destekleyen ve ondan çeken unsurlar neredeyse eşit. Hangi tarafa gideceğinizi belirlemek zor, bu yüzden burada en ince olanı ihtiyacınız olarak okuyoruz: {favorable}. Aşırıya kaçmayan bir harita iyi uyum sağlar ama kendi çizgisini bulanıklaştırır, bu yüzden ince yere yönelmek, tutmanız gereken bir yön verir.",
+      "WEAK": "Günün ustasını destekleyen unsurlar ince. Etrafınızdaki güçten iyi bir şekilde yararlanıyorsunuz ama yalnız kalmakta zorlanıyorsunuz, bu yüzden şu anda ihtiyacınız olan sizi destekleyecek ve dolduracak bir şeydir. {favorable} bunu yapar. Destekleyici şeyleri yakın tutmak bu haritada bir zayıflık değil — bir yöntemdir."
     }
   },
   "footer": {

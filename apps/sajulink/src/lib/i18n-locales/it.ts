@@ -623,9 +623,9 @@ export const it: Dictionary = {
       "HEALTH_EXTREME_BODY": "Il giorno maestro pende fortemente da un lato, il che è di per sé un peso. Un giorno maestro equilibrato non perde nulla qui."
     },
     "yongsinDepth": {
-      "STRONG": "Gli elementi che supportano il tuo giorno maestro sono pieni. Questo ti dà una spinta personale ma pende facilmente da un lato, quindi ciò di cui hai bisogno ora non è più supporto — è **qualcosa che faccia defluire l'eccesso**. {favorable} fa questo lavoro. Dove quell'elemento arriva — mettere fuori, prendere, raccogliere — è dove ti stabilisci.",
-      "BALANCED": "Ciò che supporta il tuo giorno maestro e ciò che ne trae si avvicinano all'equilibrio. Troppo vicino per decidere in un modo o nell'altro, quindi qui leggiamo **ciò che è più sottile** come ciò di cui hai bisogno: {favorable}. Un grafico che non pende si adatta bene ma sfoca la propria linea, quindi orientarsi verso il posto sottile ti dà una direzione da mantenere.",
-      "WEAK": "Gli elementi che supportano il tuo giorno maestro sono sottili. Prendi in prestito forza da ciò che ti circonda bene ma ti consumi a resistere da solo, quindi ciò di cui hai bisogno ora è **qualcosa che ti sostenga e ti riempia**. {favorable} fa questo lavoro. Tenere le cose di supporto vicine non è una debolezza in questo grafico — è il metodo."
+      "STRONG": "Gli elementi che supportano il tuo giorno maestro sono pieni. Questo ti dà una spinta personale, ma tende facilmente a inclinarsi da un lato, quindi ciò di cui hai bisogno ora non è ulteriore supporto — è qualcosa che possa rimuovere l'eccesso. {favorable} svolge questo compito. Dove quell'elemento arriva — mettere fuori, prendere su, raccogliere — è dove ti stabilisci.",
+      "BALANCED": "Ciò che supporta il tuo giorno maestro e ciò che ne attinge sono abbastanza equilibrati. Troppo vicini per essere definiti in un modo o nell'altro, quindi qui leggiamo ciò che è più sottile come ciò di cui hai bisogno: {favorable}. Un grafico che non pende si adatta bene ma sfoca la propria linea, quindi orientarsi verso il posto sottile ti dà una direzione da mantenere.",
+      "WEAK": "Gli elementi che supportano il tuo giorno maestro sono sottili. Prendi in prestito forza da ciò che ti circonda bene, ma ti consumi a resistere da solo, quindi ciò di cui hai bisogno ora è qualcosa che ti sostenga e ti riempia. {favorable} svolge questo compito. Tenere vicino le cose di supporto non è una debolezza in questo grafico — è il metodo."
     }
   },
   "footer": {

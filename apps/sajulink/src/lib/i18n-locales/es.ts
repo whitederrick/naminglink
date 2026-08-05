@@ -623,9 +623,9 @@ export const es: Dictionary = {
       "HEALTH_EXTREME_BODY": "El día maestro se inclina fuertemente hacia un lado, lo que es una carga en sí mismo. Un día maestro equilibrado no pierde nada aquí."
     },
     "yongsinDepth": {
-      "STRONG": "Los elementos que apoyan a tu día maestro están completos. Eso te da impulso propio pero se inclina fácilmente hacia un lado, así que lo que necesitas ahora no es más apoyo — es **algo para desviar el exceso**. {favorable} hace eso. Donde ese elemento llega — ofreciendo, asumiendo, recolectando — es donde te sientes cómodo.",
-      "BALANCED": "Lo que apoya a tu día maestro y lo que extrae de él están casi equilibrados. Demasiado cerca para decidir de cualquier manera, así que aquí leemos **lo que está más delgado** como lo que necesitas: {favorable}. Una carta que no se inclina se adapta bien pero difumina su propia línea, así que orientarse hacia el lugar delgado te da una dirección a seguir.",
-      "WEAK": "Los elementos que apoyan a tu día maestro están débiles. Tomas prestada fuerza de tu alrededor bien pero te desgastas al resistir solo, así que lo que necesitas ahora es **algo que te respalde y te llene**. {favorable} hace eso. Mantener cosas de apoyo cerca no es una debilidad en esta carta — es el método."
+      "STRONG": "Los elementos que apoyan a tu día maestro son abundantes. Eso te da impulso propio, pero se inclina fácilmente hacia un lado, así que lo que necesitas ahora no es más apoyo — es algo que drene el exceso. {favorable} hace ese trabajo. Donde ese elemento llega — al dar, al tomar, al reunir — es donde te sientes cómodo.",
+      "BALANCED": "Lo que apoya a tu día maestro y lo que extrae de él están casi equilibrados. Demasiado cerca para decidir de cualquier manera, así que aquí leemos lo que es más delgado como lo que necesitas: {favorable}. Un gráfico que no se inclina se adapta bien, pero difumina su propia línea, así que orientarte hacia el lugar delgado te da una dirección a seguir.",
+      "WEAK": "Los elementos que apoyan a tu día maestro son escasos. Tomas prestada fuerza de tu alrededor bien, pero te desgastas al resistir solo, así que lo que necesitas ahora es algo que te respalde y te llene. {favorable} hace ese trabajo. Mantener cosas de apoyo cerca no es una debilidad en este gráfico — es el método."
     }
   },
   "footer": {

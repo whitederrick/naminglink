@@ -623,9 +623,9 @@ export const de: Dictionary = {
       "HEALTH_EXTREME_BODY": "Der Tagmeister neigt stark zu einer Seite, was an sich schon eine Belastung ist. Ein ausgeglichener Tagmeister verliert hier nichts."
     },
     "yongsinDepth": {
-      "STRONG": "Die Elemente, die deinen Tagmeister unterstützen, sind stark. Das gibt dir eigenen Antrieb, neigt sich aber leicht zu einer Seite, sodass du jetzt nicht mehr Unterstützung brauchst — es ist **etwas, um den Überschuss abzuleiten**. {favorable} erfüllt diese Aufgabe. Wo dieses Element wirkt — herausgeben, annehmen, sammeln — ist der Ort, an dem du dich wohlfühlst.",
-      "BALANCED": "Was deinen Tagmeister unterstützt und was davon abzieht, sitzt nahe beieinander. Zu nah, um eine Seite zu bestimmen, also lesen wir hier **was am dünnsten ist** als das, was du brauchst: {favorable}. Ein Chart, das sich nicht neigt, passt sich gut an, verwischt aber seine eigene Linie, sodass es besser ist, sich in Richtung des dünnen Platzes zu orientieren.",
-      "WEAK": "Die Elemente, die deinen Tagmeister unterstützen, sind schwach. Du leihst dir gut Kraft von deiner Umgebung, aber es ist anstrengend, alleine durchzuhalten, sodass du jetzt **etwas brauchst, das dich unterstützt und auffüllt**. {favorable} erfüllt diese Aufgabe. Unterstützende Dinge in der Nähe zu haben, ist in diesem Chart keine Schwäche — es ist die Methode."
+      "STRONG": "Die Elemente, die deinen Tagesherrscher unterstützen, sind stark. Das gibt dir eigenen Antrieb, neigt sich aber leicht zur einen Seite, sodass du jetzt nicht mehr Unterstützung brauchst — sondern etwas, um den Überschuss abzuleiten. {favorable} erfüllt diese Aufgabe. Wo dieses Element wirkt — ausgeben, annehmen, sammeln — dort findest du deinen Platz.",
+      "BALANCED": "Was deinen Tagesherrscher unterstützt und was davon abzieht, ist nahezu gleich. Zu nah beieinander, um eine Seite zu bestimmen, daher lesen wir hier das, was am dünnsten ist, als das, was du brauchst: {favorable}. Ein Chart, das sich nicht neigt, passt sich gut an, verwischt aber seine eigene Linie, sodass es besser ist, in die dünne Richtung zu steuern.",
+      "WEAK": "Die Elemente, die deinen Tagesherrscher unterstützen, sind schwach. Du leihst dir gut Kraft von deiner Umgebung, aber es ist anstrengend, alleine durchzuhalten, sodass du jetzt etwas brauchst, das dich unterstützt und auffüllt. {favorable} erfüllt diese Aufgabe. Unterstützende Dinge in der Nähe zu haben, ist in diesem Chart keine Schwäche — es ist die Methode."
     }
   },
   "footer": {

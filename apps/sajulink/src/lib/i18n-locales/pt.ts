@@ -623,9 +623,9 @@ export const pt: Dictionary = {
       "HEALTH_EXTREME_BODY": "O dia mestre se inclina fortemente para um lado, o que é uma pressão em si. Um dia mestre equilibrado não perde nada aqui."
     },
     "yongsinDepth": {
-      "STRONG": "Os elementos que apoiam seu dia mestre estão em plena força. Isso lhe dá impulso próprio, mas se inclina facilmente para um lado, então o que você precisa agora não é mais apoio — é **algo para eliminar o excesso**. {favorable} faz isso. Onde aquele elemento alcança — colocando para fora, assumindo, reunindo — é onde você se estabelece.",
-      "BALANCED": "O que apoia seu dia mestre e o que retira dele estão quase equilibrados. Difícil de decidir de qualquer forma, então aqui lemos **o que está mais fraco** como o que você precisa: {favorable}. Um gráfico que não se inclina se adapta bem, mas pode borrar sua própria linha, então direcionar-se para o lugar mais fraco lhe dá uma direção a seguir.",
-      "WEAK": "Os elementos que apoiam seu dia mestre estão fracos. Você empresta força ao seu redor bem, mas se desgasta ao tentar se manter sozinho, então o que você precisa agora é **algo que o apoie e o preencha**. {favorable} faz isso. Manter coisas de apoio por perto não é uma fraqueza neste gráfico — é o método."
+      "STRONG": "Os elementos que apoiam seu dia mestre estão em plena força. Isso lhe dá impulso próprio, mas tende a se inclinar para um lado, então o que você precisa agora não é de mais apoio — é algo para retirar o excesso. {favorable} faz esse trabalho. Onde esse elemento chega — colocando para fora, assumindo, reunindo — é onde você se estabelece.",
+      "BALANCED": "O que apoia seu dia mestre e o que dele retira estão quase equilibrados. Muito próximo para decidir de qualquer forma, então aqui lemos o que está mais fino como o que você precisa: {favorable}. Um gráfico que não se inclina se adapta bem, mas desfoca sua própria linha, então direcionar-se para o lugar fino lhe dá uma direção a seguir.",
+      "WEAK": "Os elementos que apoiam seu dia mestre estão fracos. Você pega força ao seu redor bem, mas se desgasta ao tentar se manter sozinho, então o que você precisa agora é de algo que o apoie e o preencha. {favorable} faz esse trabalho. Manter coisas de apoio por perto não é uma fraqueza neste gráfico — é o método."
     }
   },
   "footer": {

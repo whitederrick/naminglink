@@ -3,6 +3,7 @@
 import * as PortOne from "@portone/browser-sdk/v2";
 import { useEffect, useState } from "react";
 
+import { emphasize } from "@/lib/emphasize";
 import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
 import { pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import type { SajuInput } from "@/lib/saju-input";
@@ -18,19 +19,6 @@ import type { ReportKind } from "@/lib/report-product";
 // 남지 않게 하려는 것이고, 이 서비스가 입력을 저장하지 않는다는 원칙이 유료 흐름에서도
 // 유지되는 이유다. 대신 서버가 파일을 보관하지 않으므로 발급은 그 자리에서 받아야 한다 —
 // 놓쳤을 때를 위해 같은 주문으로 몇 번은 다시 받을 수 있다.
-
-/** 사전 문구의 **굵게** 표기를 실제 강조로 바꾼다. */
-function renderEmphasis(text: string) {
-  return text.split(/\*\*(.+?)\*\*/g).map((part, index) =>
-    index % 2 === 1 ? (
-      <strong key={index} className="font-semibold text-foreground">
-        {part}
-      </strong>
-    ) : (
-      part
-    ),
-  );
-}
 
 // 국내는 토스페이먼츠, 해외는 포트원(페이팔)이다. 서버가 어느 쪽으로 주문을 만들었는지
 // `provider`로 알려 주고, 화면은 그에 맞는 결제창을 띄운다.
@@ -287,7 +275,8 @@ export function ReportPurchasePanel({
   return (
     <section className="mt-10 rounded-2xl border border-line bg-surface p-6 shadow-sm">
       <h2 className="break-keep-all text-lg font-semibold">{t.title}</h2>
-      <p className="break-keep-all mt-2 text-sm leading-6 text-muted">{t.body}</p>
+      {/* 프리미엄 쪽 `body`에는 `**강조**`가 들어 있다 — 처리하지 않으면 별표가 그대로 보인다. */}
+      <p className="break-keep-all mt-2 text-sm leading-6 text-muted">{emphasize(t.body)}</p>
 
       <ul className="mt-4 space-y-1.5">
         {t.contents.map((line) => (
@@ -338,7 +327,7 @@ export function ReportPurchasePanel({
           className="mt-1.5 size-4 shrink-0 accent-brand-navy"
         />
         <span className="break-keep-all text-muted">
-          {renderEmphasis(t.consentLabel)}
+          {emphasize(t.consentLabel)}
         </span>
       </label>
       ) : null}

@@ -28,8 +28,6 @@ export type PublicPersonReading = Pick<
   | "strongestElement"
   | "scarcestElement"
   | "seasonElement"
-  | "bodyStrength"
-  | "favorableElements"
 >;
 
 /**
@@ -44,6 +42,16 @@ const PAID_ONLY_READING_KEYS: Record<
   Exclude<keyof PersonReading, keyof PublicPersonReading>,
   true
 > = {
+  /**
+   * 강약 판정(신강·중화·신약).
+   *
+   * **2026-08-05에 옮겼다.** 화면이 그리지도 않으면서 응답에는 실려 나가고 있었다 —
+   * 「화면이 안 그린다」는 방어가 아니다(개발자도구 하나면 보인다). 상품 개편에서 강약과
+   * 용신을 유료로 정했으므로 응답에서도 빠져야 맞다.
+   */
+  bodyStrength: true,
+  /** 억부용신 — 위와 같다. 아래 `publicSajuOutcome` 주석의 예외 하나를 함께 볼 것. */
+  favorableElements: true,
   /** 신강·신약을 가른 근거 숫자 */
   allyRatio: true,
   /** 왕상휴수사 */
@@ -61,7 +69,12 @@ const PAID_ONLY_READING_KEYS: Record<
 /** 검사 스크립트가 "정말 빠졌는지" 대조하는 데 쓴다. */
 export const PAID_ONLY_READING_FIELDS = Object.keys(PAID_ONLY_READING_KEYS);
 
-/** 빼는 것은 전부 궁합 리포트 4~6장과 부록을 채우는 값이다. */
+/**
+ * 남기는 것은 **화면이 실제로 그리는 것뿐이다.**
+ *
+ * 이 함수의 목록과 `SajuResultView`가 그리는 것이 어긋나면 둘 중 하나가 잘못이다 — 여기 있고
+ * 화면에 없으면 새는 것이고, 화면에 있고 여기 없으면 화면이 깨진다.
+ */
 export function publicReading(reading: PersonReading): PublicPersonReading {
   return {
     label: reading.label,
@@ -72,17 +85,27 @@ export function publicReading(reading: PersonReading): PublicPersonReading {
     strongestElement: reading.strongestElement,
     scarcestElement: reading.scarcestElement,
     seasonElement: reading.seasonElement,
-    bodyStrength: reading.bodyStrength,
-    favorableElements: reading.favorableElements,
   };
 }
 
 /**
- * 무료 사주 결과. 원국 풀이 + 오늘의 운세.
+ * 무료 사주 결과. 원국 개략 + 오늘의 운세.
  *
- * **유료 전용 값은 `publicReading`이 이미 걷어낸다**(신강·신약 근거 숫자·왕상휴수사·진태양시
- * 보정 내역 등). 오늘의 운세는 무료로 전부 준다 — 매일 다시 오게 만드는 것이 이 화면의
- * 존재 이유라, 여기서 아끼면 리텐션을 잃고 얻는 것이 없다.
+ * **유료 전용 값은 `publicReading`이 이미 걷어낸다**(강약 판정·용신·근거 숫자·왕상휴수사·
+ * 진태양시 보정 내역 등). 오늘의 운세는 무료로 전부 준다 — 매일 다시 오게 만드는 것이 이
+ * 화면의 존재 이유라, 여기서 아끼면 리텐션을 잃고 얻는 것이 없다.
+ *
+ * ## 겹치는 자리 하나 — 적어 두고 남긴다
+ *
+ * `today.lucky.element`는 **용신의 첫 오행 그대로다**(`luckyOf(favorable[0] ?? …)`). 그러니
+ * 용신을 유료로 옮겨도 그 한 오행은 오늘의 운세를 타고 매일 나간다.
+ *
+ * 그래도 남기는 이유: 상품 결정이 **오늘의 운세는 무료·화면 전용**이고 행운 요소는 그 화면의
+ * 핵심이다. 그리고 파는 것은 오행 이름 하나가 아니라 **강약 판정과 용신 풀이**다 — 어느 쪽이
+ * 강한지, 왜 그 기운이 필요한지, 그래서 무엇을 하라는지(`yongsinDepth`)는 여기 없다.
+ *
+ * **모르고 새는 것과 알고 남기는 것은 다르다.** 검사기(`verify-public-outcome`)가 이 겹침을
+ * 이름으로 확인한다 — 나중에 행운 요소의 출처를 바꾸면 그 검사가 먼저 말해 준다.
  */
 export type PublicSajuOutcome = {
   reading: PublicPersonReading;
