@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowLeft, Sparkles } from "lucide-react";
 import { SiteFooter } from "@/components/SiteFooter";
 import { localePath } from "@/lib/locale-path";
+import type { Locale } from "@/lib/services";
 
 export function PolicyLayout({
   title,
@@ -13,7 +14,7 @@ export function PolicyLayout({
   title: string;
   description: string;
   loginLabel?: string;
-  locale?: string;
+  locale?: Locale;
   children: React.ReactNode;
 }) {
   return (
@@ -48,7 +49,10 @@ export function PolicyLayout({
         <div className="mt-10 grid gap-8">{children}</div>
       </article>
 
-      <SiteFooter />
+      {/* **로케일을 반드시 넘긴다.** `SiteFooter`의 기본값이 `"ko"`라, 빼놓으면 본문은
+          일본어인데 꼬리글만 한국어로 나간다 — 약관 네 장 × 22개 언어에서 그랬다
+          (2026-08-05에 라이브 `/ja`에서 발견). 사업자 정보 라벨과 내비 링크가 통째로 한국어였다. */}
+      <SiteFooter locale={locale} />
     </main>
   );
 }
