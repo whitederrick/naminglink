@@ -341,6 +341,17 @@ export const de: Dictionary = {
   "ads": {
     "label": "Werbung"
   },
+  "selfAds": {
+    "label": "Verwandte Dienste",
+    "comingSoon": "Demnächst verfügbar",
+    "purposes": {
+      "naminglink": "Koreanische und Hanja-Namen, gewählt nach Bedeutung und Strichzahl",
+      "inyeonlink": "Wie zwei Personen zusammenpassen, gelesen aus ihren vier Säulen und Tierkreiszeichen",
+      "sajulink": "Deine eigenen vier Säulen und wie sie heute aufeinander treffen",
+      "dreamslink": "Traumdeutungen aus einem Symbolwörterbuch",
+      "placelink": "Orte für ein Date in Korea, geteilt und empfohlen"
+    }
+  },
   "analyzing": {
     "title": "Ihr Chart erstellen",
     "quotes": [

@@ -341,6 +341,17 @@ export const zh: Dictionary = {
   "ads": {
     "label": "广告"
   },
+  "selfAds": {
+    "label": "相关服务",
+    "comingSoon": "即将推出",
+    "purposes": {
+      "naminglink": "根据意义和笔画选择的韩文和汉字名字",
+      "inyeonlink": "从四柱和生肖看两个人的适合度",
+      "sajulink": "你的四柱，以及今天如何与之相遇",
+      "dreamslink": "从符号字典中解读的梦境",
+      "placelink": "在韩国约会的地方，分享和推荐"
+    }
+  },
   "analyzing": {
     "title": "建立你的命盘",
     "quotes": [

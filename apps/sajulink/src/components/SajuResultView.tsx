@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { GuideLink } from "@/components/GuideLink";
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { trackAnalytics } from "@/lib/analytics-client";
 import { emphasize } from "@/lib/emphasize";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -303,6 +304,10 @@ export function SajuResultView({
           {offerPrice ?? p.preparing}
         </p>
       </section>
+
+      {/* 형제 서비스. **구매 자리 뒤에 둔다** — 파는 것이 먼저고 셀프 광고가 나중이다.
+          오늘의 운세는 무료·화면 전용이라 이 화면에서 값을 거두는 길이 광고와 이 카드뿐이다. */}
+      <SelfAdCard dictionary={dictionary} />
 
       <GuideLink locale={locale} from="reading" className="mt-12" />
     </div>

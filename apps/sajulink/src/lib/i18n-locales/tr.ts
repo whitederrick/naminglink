@@ -341,6 +341,17 @@ export const tr: Dictionary = {
   "ads": {
     "label": "Reklam"
   },
+  "selfAds": {
+    "label": "İlgili hizmetler",
+    "comingSoon": "Yakında",
+    "purposes": {
+      "naminglink": "Anlam ve çizgi sayısına göre seçilen Korece ve Hanja isimleri",
+      "inyeonlink": "İki kişinin dört sütunu ve burçları üzerinden nasıl uyum sağladığı",
+      "sajulink": "Kendi dört sütununuz ve bugünün onlarla nasıl buluştuğu",
+      "dreamslink": "Semboller sözlüğünden çıkarılan rüya yorumları",
+      "placelink": "Kore'de buluşmak için gidilecek yerler, paylaşılan ve önerilen"
+    }
+  },
   "analyzing": {
     "title": "Grafiğinizi oluşturma",
     "quotes": [

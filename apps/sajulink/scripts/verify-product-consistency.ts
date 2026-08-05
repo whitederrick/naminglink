@@ -102,7 +102,15 @@ check(
 for (const locale of translatedLocales) {
   const dictionary = getDictionary(locale);
   // 사전 전체를 한 문자열로 만들어 훑는다. 키를 하나하나 적으면 사전이 늘 때마다 빠진다.
-  const flattened = JSON.stringify(dictionary);
+  //
+  // **셀프 광고 절만 뺀다.** 그 자리는 형제 서비스를 **일부러** 소개하는 곳이라 인연링크의
+  // 이름과 하는 일("두 사람의 궁합")이 들어 있는 것이 맞다. 여기서 걸러 내지 않으면 검사기가
+  // 옳은 문구를 잡고, 그러면 사람이 검사기를 끄거나 문구를 뭉개게 된다 — 둘 다 나쁘다.
+  //
+  // 뺀 자리가 무법지대가 되지는 않는다. `verify-self-ads`가 그 절을 따로 본다(빈 문구·한글
+  // 잔재), 그리고 이름은 사전이 아니라 명단(`SELF_AD_SERVICES.name`)이 갖는다.
+  const { selfAds: _selfAds, ...rest } = dictionary;
+  const flattened = JSON.stringify(rest);
   const found = STALE_NAMES.filter((stale) => flattened.includes(stale));
   check(`${locale} 사전에 인연링크 잔재 없음`, found.length === 0, found.join(", "));
 }

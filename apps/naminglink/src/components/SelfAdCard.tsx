@@ -11,43 +11,37 @@
  * 배경 이미지는 나중에 받는다. 지금은 글자만 둔다.
  */
 
-/**
- * **살아 있는 주소만 링크로 건다.** 죽은 링크를 누르게 하는 것은 광고를 안 보여 주는 것보다
- * 나쁘다 — 눌렀는데 안 열리면 서비스 자체를 못 믿게 된다.
- *
- * 확인 이력:
- *   2026-07-30  둘 다 미연결 → 전부 글자로만 뒀다
- *   2026-08-03  `inyeon-link.com` 연결 완료(200) → 링크로 전환
- *               `place-link.com`은 **아직 개발 중**이라 글자 유지(고장이 아니다)
- *
- * 플레이스링크가 열리면 `live: true`만 켜면 된다. **켜기 전에 실제로 열어 볼 것.**
- */
-type SelfAdService = {
-  name: string;
-  /** 화면에 보이는 주소. */
-  domain: string;
-  purpose: string;
-  /** 참이면 `<a href>`로 건다. 거짓이면 글자로만 둔다. */
-  live?: boolean;
-};
+import { SELF_AD_SERVICES, type SelfAdKey } from "@naminglink/core/self-ads";
 
 /**
- * 문구는 각 서비스가 스스로 쓰는 말을 그대로 옮긴다.
- * 인연링크는 자기 사전(`apps/inyeonlink/src/lib/i18n.ts`)의 tagline이다.
+ * **주소와 살아 있는지 여부는 `@naminglink/core/self-ads`가 갖는다.**
+ *
+ * 예전에는 여기에 명단을 직접 적어 두었다. 그러면 도메인을 하나 연결할 때 앱마다 고쳐야 하고,
+ * **빠뜨린 쪽은 조용히 옛 상태로 남는다** — 죽은 링크를 누르게 하거나(고장으로 보인다), 이미
+ * 연 서비스를 계속 "준비 중"으로 두게 된다. 사주링크가 같은 카드를 쓰게 되면서 한 곳으로 모았다.
+ *
+ * **문구는 여기 남는다.** 이 화면은 한국어 흐름 전용이라 한국어로만 쓴다(사용자 방침).
+ * 23개 언어를 쓰는 사주링크·인연링크는 각자 사전에서 같은 자리를 채운다.
+ *
+ * 어느 서비스를 보여 줄지도 앱이 정한다. 여기서는 예전과 같은 둘을 그대로 둔다 — 이 화면은
+ * 이름을 지으러 온 사람이 보는 자리라, 관계 있는 것부터 짧게 거는 편이 낫다.
  */
-const SERVICES: SelfAdService[] = [
-  {
-    name: "인연링크",
-    domain: "inyeon-link.com",
-    purpose: "사주와 띠로 보는 두 사람의 궁합",
-    live: true,
-  },
-  {
-    name: "플레이스링크",
-    domain: "place-link.com",
-    purpose: "한국의 데이트 코스 공유 · 추천 서비스",
-  },
-];
+const SHOWN: SelfAdKey[] = ["inyeonlink", "placelink"];
+
+/** 문구는 각 서비스가 스스로 쓰는 말을 그대로 옮긴다. */
+const PURPOSE: Record<SelfAdKey, string> = {
+  naminglink: "뜻과 획수로 짓는 한글·한자 이름",
+  inyeonlink: "사주와 띠로 보는 두 사람의 궁합",
+  sajulink: "원국과 오늘의 운세로 읽는 나의 사주",
+  dreamslink: "상징 사전으로 풀어 보는 꿈 해몽",
+  placelink: "한국의 데이트 장소를 나누고 추천하는 곳",
+};
+
+const SERVICES = SHOWN.map((key) => {
+  const service = SELF_AD_SERVICES.find((entry) => entry.key === key);
+  if (!service) throw new Error(`self-ad 명단에 없는 키: ${key}`);
+  return service;
+});
 
 export function SelfAdCard() {
   return (
@@ -62,7 +56,7 @@ export function SelfAdCard() {
         {SERVICES.map((service) => (
           <div key={service.domain} className="flex flex-col gap-1 bg-surface px-4 py-3">
             <span className="text-sm font-semibold text-foreground">{service.name}</span>
-            <span className="text-[13px] leading-5 text-muted">{service.purpose}</span>
+            <span className="text-[13px] leading-5 text-muted">{PURPOSE[service.key]}</span>
             {/* 살아 있는 주소만 누를 수 있게 한다. `rel`은 셀프 광고라도 외부 도메인이라 붙인다. */}
             {service.live ? (
               <a

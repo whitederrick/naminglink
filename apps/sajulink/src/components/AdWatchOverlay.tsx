@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { fillTemplate, type Dictionary } from "@/lib/i18n";
 
@@ -102,7 +103,10 @@ export function AdWatchOverlay({
       // 최대 4초 동안 화면이 텅 빈 채로 남는다.
       className="fixed inset-0 z-50 flex items-center justify-center bg-[#1d1518]/60 px-5 backdrop-blur-sm"
     >
-      <div className="w-full max-w-md rounded-2xl border border-line bg-surface p-6 shadow-2xl">
+      {/* **높이를 제한하고 넘치면 안에서 굴린다.** 관련 서비스 카드가 들어오면서 내용이
+          길어졌는데, 이 상자는 화면 가운데에 고정돼 있어 넘치면 위아래가 잘린 채로 남는다
+          (닫기 버튼이 없으므로 잘린 줄도 모른다). 낮은 화면·가로 모드에서 실제로 좁아진다. */}
+      <div className="max-h-[90vh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-surface p-6 shadow-2xl">
         <div className="flex items-center gap-3">
           <span
             aria-hidden
@@ -133,6 +137,10 @@ export function AdWatchOverlay({
 
             **지금은 GAM 보상형이 이 자리를 맡는다**(`lib/gam-rewarded.ts`). 광고 단위를 넣으면
             이 상자가 뜨는 순간 구글 보상형이 그 위에 뜬다. 여기에 애드센스 배너를 되돌리지 말 것. */}
+
+        {/* 보상형이 안 뜰 때 이 자리를 채운다 — no-fill·차단기, 그리고 지금처럼 광고 단위를
+            아직 안 넣은 상태. 관문을 없애거나 기다림을 건너뛰지 않고 **채울 것만 바꾼다.** */}
+        <SelfAdCard dictionary={dictionary} className="mt-5" />
 
         {/* 높이를 고정해 문구 길이가 바뀔 때 팝업이 들썩이지 않게 한다. */}
         <p className="break-keep-all mt-5 flex min-h-[4.5rem] items-center justify-center text-center text-sm leading-6 text-muted">
