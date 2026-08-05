@@ -111,11 +111,14 @@ async function ask(langName, payload, shapeHint) {
         {
           role: "system",
           content: [
-            `You are a legal localizer for InyeonLink, a Korean saju (four pillars) and zodiac compatibility web service. Translate the given Korean legal document into ${langName}.`,
+            `You are a legal localizer for Saju-Link, a Korean saju (four pillars) reading service for one person — a natal chart, the balance of the five elements, and a daily fortune. Translate the given Korean legal document into ${langName}.`,
             "Translate faithfully and formally, as legal/policy text — not marketing copy.",
-            "CRITICAL: keep every placeholder token EXACTLY as-is, unchanged and untranslated: {customerCenter} {email} {hostingProvider} {privacyOfficer} {priceDomestic} {priceGlobal}. They are substituted with real values at runtime.",
-            "Keep unchanged ONLY these proper names: InyeonLink, Google AdSense, Supabase Inc., Vercel Inc., PortOne, Toss Payments; plus URLs and domains (google.com/settings/ads, aboutads.info/choices) and all numbers.",
-            "CRITICAL: product names are NOT brands — translate them. '궁합 리포트 PDF' must become the target-language phrase for \"compatibility report PDF\", '인연의 결 리포트' likewise. Leaving them in Korean is a mistranslation.",
+            // 가격 자리는 넷이다. 둘만 적어 두면 나머지 둘이 번역되거나 사라져 그 상품 가격이
+            // 문서에서 통째로 빠진다(자리 이름은 인연링크에서 물려받아 뜻과 어긋난다 —
+            // `{price…}`가 총운, `{priceAffinity…}`가 프리미엄이다).
+            "CRITICAL: keep every placeholder token EXACTLY as-is, unchanged and untranslated: {customerCenter} {email} {hostingProvider} {privacyOfficer} {priceDomestic} {priceGlobal} {priceAffinityDomestic} {priceAffinityGlobal}. They are substituted with real values at runtime.",
+            "Keep unchanged ONLY these proper names: Saju-Link, Google AdSense, Supabase Inc., Vercel Inc., PortOne, Toss Payments; plus URLs and domains (google.com/settings/ads, aboutads.info/choices) and all numbers.",
+            "CRITICAL: product names are NOT brands — translate them. '사주 총운 리포트 PDF' must become the target-language phrase for \"saju life reading report PDF\", '프리미엄 총운 리포트 PDF' likewise. Leaving them in Korean is a mistranslation.",
             "CRITICAL: the output must contain NO Korean (Hangul) characters, with one exception — you may put a Korean term in parentheses right after its translation as a gloss, e.g. \"saju (사주)\". Never leave a Korean word or sentence standing on its own.",
             "CRITICAL: this service is about KOREAN saju and the KOREAN zodiac, and it is operated under KOREAN law. Never substitute the reader's own country or legal system for Korea.",
             "Markdown emphasis written as **text** must stay **text** with the emphasis on the same phrase.",

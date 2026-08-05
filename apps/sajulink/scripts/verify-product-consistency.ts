@@ -73,8 +73,38 @@ for (const kind of REPORT_KINDS) {
 
 // 인연링크에서 물려받은 서비스·상품 이름이 약관에 남아 있으면 안 된다. 복제 앱이라 문구가
 // 통째로 넘어왔고, 남으면 **없는 상품의 조건을 고지하는 것**이 된다.
-for (const stale of ["궁합", "인연의 결", "인연링크", "매칭률"]) {
+const STALE_NAMES = ["궁합", "인연의 결", "인연링크", "인연 링크", "매칭률"];
+for (const stale of STALE_NAMES) {
   check(`약관에 "${stale}" 없음`, !koDocs.includes(stale));
+}
+
+// ---------------------------------------------------------------------------
+// 2-1) 화면에 나가는 이름에도 남아 있으면 안 된다
+//
+// **약관만 보면 놓친다.** ⑦ 리테마의 전수 grep이 `inyeon|gunghap|affinity|compatibility`만
+// 봐서 한글 "인연"이 걸리지 않았고, 꼬리글이 `Saju-Link ( 인연 링크 )`인 채로 배포됐다
+// (2026-08-05). 라틴 표기로 훑는 것만으로는 부족하다.
+//
+// 여기서 보는 것은 **이용자가 읽는 문자열**뿐이다. 주석의 "인연링크와 같은 값" 같은 서술은
+// 출처를 적어 둔 것이라 그대로 두는 편이 낫다.
+// ---------------------------------------------------------------------------
+const brandSource = readFileSync(
+  path.join(process.cwd(), "src/lib/company.ts"),
+  "utf8",
+);
+const serviceSubtitle = /SERVICE_SUBTITLE\s*=\s*"([^"]*)"/.exec(brandSource)?.[1] ?? "";
+check(
+  `SERVICE_SUBTITLE에 인연링크 잔재 없음`,
+  Boolean(serviceSubtitle) && !STALE_NAMES.some((stale) => serviceSubtitle.includes(stale)),
+  `현재 값 "${serviceSubtitle}"`,
+);
+
+for (const locale of translatedLocales) {
+  const dictionary = getDictionary(locale);
+  // 사전 전체를 한 문자열로 만들어 훑는다. 키를 하나하나 적으면 사전이 늘 때마다 빠진다.
+  const flattened = JSON.stringify(dictionary);
+  const found = STALE_NAMES.filter((stale) => flattened.includes(stale));
+  check(`${locale} 사전에 인연링크 잔재 없음`, found.length === 0, found.join(", "));
 }
 
 // 엔진에 없는 것을 팔지 않는다. 대운·세운은 상품 주석에만 있었고 실제로는 담기지 않는다.

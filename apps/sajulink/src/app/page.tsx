@@ -101,7 +101,7 @@ export default async function LandingPage({
                 className="text-[18px] font-medium leading-none text-white/78"
                 style={{ fontFamily: "Gungsuh, 'Noto Serif KR', serif" }}
               >
-                인연 - 링크
+                사주 - 링크
               </span>
             </span>
           </Link>

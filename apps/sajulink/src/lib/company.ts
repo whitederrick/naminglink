@@ -27,13 +27,17 @@ export type CompanyInfo = {
 };
 
 /**
- * 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
+ * 사주링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
  *
  * 표기는 naminglink의 © 줄과 같은 꼴로 맞춘다 — `Naming-Link(Global Naming Studio)`에 대응하는
  * `Saju-Link(사주 링크)`. 헤더 워드마크도 `Saju-Link`라 두 자리가 어긋나지 않는다.
+ *
+ * **이 값이 "인연 링크"인 채로 배포돼 꼬리글에 `Saju-Link ( 인연 링크 )`가 나갔다**(2026-08-05).
+ * ⑦ 리테마의 전수 grep이 `inyeon|gunghap|affinity|compatibility`만 봐서 **한글 "인연"이 그물에
+ * 걸리지 않았다.** 복제 앱을 훑을 때는 라틴 표기와 한글 표기를 함께 볼 것.
  */
 export const SERVICE_NAME = "Saju-Link";
-export const SERVICE_SUBTITLE = "인연 링크";
+export const SERVICE_SUBTITLE = "사주 링크";
 
 export const fallbackCompanyInfo: CompanyInfo = {
   serviceName: SERVICE_NAME,
