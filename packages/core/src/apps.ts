@@ -17,7 +17,7 @@
  * `apps/inyeonlink/src/lib/report-product.ts`와 `AdminProductSettings.tsx`에 따로 적혀 있었다.
  */
 
-export const APP_KEYS = ["naminglink", "inyeonlink", "sajulink"] as const;
+export const APP_KEYS = ["naminglink", "inyeonlink", "sajulink", "dreamslink"] as const;
 export type AppKey = (typeof APP_KEYS)[number];
 
 /**
@@ -35,6 +35,7 @@ export const APP_LABELS: Record<AppKey, string> = {
   naminglink: "네이밍링크",
   inyeonlink: "인연링크",
   sajulink: "사주링크",
+  dreamslink: "드림링크",
 };
 
 export function appLabel(key: AppKey): string {
@@ -64,6 +65,21 @@ export const SAJULINK_PRODUCT_CODES = [
 export type SajulinkProductCode = (typeof SAJULINK_PRODUCT_CODES)[number];
 
 /**
+ * 드림링크가 쓰는 `product_settings.code`. **상품 둘 × 권역 둘.**
+ *
+ * 꿈은 매일 꾸는 것이라 사주처럼 한 벌짜리 문서를 팔지 않는다. 좋은 꿈을 간직·공유하는
+ * 이미지 한 장(`CARD`)과, 1회성이고 평생 간직하는 태몽 리포트(`CONCEPTION`)로 나눴다
+ * (2026-08-06 결정). 무료 해몽이 본체이고 광고가 주 수익이다.
+ */
+export const DREAMSLINK_PRODUCT_CODES = [
+  "DREAM_CARD_KRW",
+  "DREAM_CARD_USD",
+  "DREAM_CONCEPTION_KRW",
+  "DREAM_CONCEPTION_USD",
+] as const;
+export type DreamslinkProductCode = (typeof DREAMSLINK_PRODUCT_CODES)[number];
+
+/**
  * 목록에 **적힌 것만 인연링크고 나머지는 전부 naminglink다.**
  *
  * 기본값을 naminglink로 두는 쪽이 안전하다. 인연링크 목록을 빠뜨렸을 때 생기는 일은 naminglink
@@ -73,6 +89,7 @@ export type SajulinkProductCode = (typeof SAJULINK_PRODUCT_CODES)[number];
 export function appForProductCode(code: string): AppKey {
   if ((INYEONLINK_PRODUCT_CODES as readonly string[]).includes(code)) return "inyeonlink";
   if ((SAJULINK_PRODUCT_CODES as readonly string[]).includes(code)) return "sajulink";
+  if ((DREAMSLINK_PRODUCT_CODES as readonly string[]).includes(code)) return "dreamslink";
   return "naminglink";
 }
 

@@ -1,0 +1,181 @@
+import {
+  CONCEPTION_TAG,
+  DREAM_SYMBOLS,
+  type DreamMeaning,
+  type DreamPolarity,
+  type DreamSymbol,
+} from "@/lib/dream-symbols";
+
+/**
+ * 꿈 텍스트에서 전통 상징을 찾는다. **여기에는 모델이 없다.**
+ *
+ * 규칙 엔진으로 두는 이유가 셋이다.
+ *
+ * 1. **무료 화면이 트래픽을 받는다.** 꿈은 매일 꾸는 것이라 조회가 사주·궁합과 비교가 안 되게
+ *    많다. 조회마다 모델을 부르면 비용·지연·광고 속도가 함께 나빠진다
+ *    (`ai-only-on-paid-path` — 이 저장소의 결정이다).
+ * 2. **같은 꿈이면 같은 상징이 나와야 한다.** 어제와 오늘 다른 상징이 나오면 사전이 있으나 마나다.
+ * 3. **모델을 묶어 두는 밧줄이 이 결과다.** 해석은 여기서 나온 의미만 근거로 쓴다.
+ *
+ * 엔진 규칙을 바꾸면 `ENGINE_VERSION`을 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
+ */
+
+export const ENGINE_VERSION = "dream-1.0.0";
+
+export type MatchedSymbol = {
+  id: string;
+  term: string;
+  /** 이 꿈에서 고른 의미. 상징에 의미가 여럿이면 상황으로 고른다. */
+  meaning: DreamMeaning;
+  polarity: DreamPolarity;
+  weight: number;
+  tags: string[];
+  culture_note?: string;
+  /** 무엇이 걸렸는지. 화면에서 "왜 이 상징인가"를 보일 때 쓴다. */
+  matchedOn: string;
+  /** 꿈 텍스트에서 처음 나온 위치. 같은 무게면 먼저 말한 것을 앞에 둔다. */
+  at: number;
+};
+
+export type DreamOutcome = {
+  engineVersion: string;
+  matched: MatchedSymbol[];
+  /** 전체 기조. 상징이 없으면 `neutral`이다. */
+  mood: DreamPolarity;
+  /** 상징들이 함께 가리키는 주제(태그) 상위. */
+  themes: string[];
+  /** 태몽 상징이 걸렸는가. **판별이 아니다** — `isConceptionDream` 주석 참고. */
+  conception: boolean;
+};
+
+/**
+ * 매칭 전 정규화.
+ *
+ * 한국어는 조사가 붙어 오므로(「돼지가」·「돼지를」) 부분 문자열로 찾는다. 공백을 지우지 않는
+ * 이유는 영어 상징(`clear water`)이 공백을 품기 때문이다 — 지우면 그쪽이 영영 안 걸린다.
+ */
+function normalize(text: string) {
+  return text.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+/**
+ * 이 상징이 꿈에 나오는가. 걸렸으면 **무엇에** 걸렸는지와 **어디서** 걸렸는지를 함께 준다.
+ *
+ * 긴 표기부터 본다. 「흙탕물」과 「물」이 둘 다 사전에 있을 때 짧은 쪽이 먼저 걸리면 구체적인
+ * 상징을 놓친다.
+ */
+function findTerm(haystack: string, symbol: DreamSymbol) {
+  const terms = [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
+    .filter(Boolean)
+    .map((term) => term.toLowerCase())
+    .sort((a, b) => b.length - a.length);
+
+  for (const term of terms) {
+    const at = haystack.indexOf(term);
+    if (at >= 0) return { matchedOn: term, at };
+  }
+  return null;
+}
+
+/**
+ * 상황에 맞는 의미를 고른다.
+ *
+ * 의미가 하나면 그것이다(사전의 대부분이 그렇다). 여럿이면 `context`의 낱말이 꿈에 몇 개나
+ * 나오는지로 고른다 — 「뱀에게 물렸다」와 「뱀을 품었다」는 전통적으로 정반대다.
+ *
+ * **아무 것도 안 걸리면 첫 번째를 쓴다.** 사전이 첫 의미를 대표로 적어 두었기 때문이고,
+ * 억지로 고르느니 대표를 쓰는 편이 덜 틀린다.
+ */
+function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
+  const meanings = symbol.meanings;
+  if (meanings.length <= 1) return meanings[0];
+
+  let best = meanings[0];
+  let bestScore = 0;
+  for (const meaning of meanings) {
+    const words = (meaning.context ?? "")
+      .toLowerCase()
+      .split(/[^0-9a-z가-힣]+/)
+      .filter((word) => word.length >= 2);
+    const score = words.reduce(
+      (sum, word) => sum + (haystack.includes(word) ? 1 : 0),
+      0,
+    );
+    if (score > bestScore) {
+      best = meaning;
+      bestScore = score;
+    }
+  }
+  return best;
+}
+
+/**
+ * 전체 기조.
+ *
+ * **좋은 것과 나쁜 것을 상쇄하지 않는다.** 길몽 둘과 흉몽 하나를 더해 "약간 좋음"으로 뭉개면
+ * 이용자가 정작 걸리는 하나를 못 본다. 무게를 실어 많은 쪽을 고르되, 양쪽이 같으면 섞였다고
+ * 말한다(`ambivalent`).
+ */
+function moodOf(matched: MatchedSymbol[]): DreamPolarity {
+  if (!matched.length) return "neutral";
+  const score = { positive: 0, negative: 0, neutral: 0, ambivalent: 0 };
+  for (const item of matched) score[item.polarity] += item.weight;
+  if (score.positive > score.negative) return "positive";
+  if (score.negative > score.positive) return "negative";
+  return score.positive === 0 ? "neutral" : "ambivalent";
+}
+
+/**
+ * 태몽 상징이 걸렸는가.
+ *
+ * ⚠️ **임신을 판별하지 않는다.** 사전에 태몽 태그가 붙은 상징(뱀·용·잉어·곰·별·고래·복숭아)이
+ * 꿈에 나왔다는 사실만 말한다. "임신입니다"는 의학적 단정이고, 이 서비스가 할 수 있는 말도
+ * 해도 되는 말도 아니다. 화면 문구도 「전통적으로 태몽으로 보는 상징이 있습니다」까지만 간다.
+ */
+function isConceptionDream(matched: MatchedSymbol[]) {
+  return matched.some((item) => item.tags.includes(CONCEPTION_TAG));
+}
+
+export function matchDream(text: string): DreamOutcome {
+  const haystack = normalize(text);
+  const matched: MatchedSymbol[] = [];
+
+  for (const symbol of DREAM_SYMBOLS) {
+    const hit = findTerm(haystack, symbol);
+    if (!hit) continue;
+    const meaning = chooseMeaning(haystack, symbol);
+    matched.push({
+      id: symbol.id,
+      term: symbol.term_ko,
+      meaning,
+      // 의미마다 극성이 다를 수 있다(뱀을 품으면 길, 물리면 흉). 고른 의미의 극성을 우선한다.
+      polarity: meaning.polarity ?? symbol.polarity,
+      weight: symbol.weight ?? 1,
+      tags: symbol.tags ?? [],
+      culture_note: symbol.culture_note,
+      matchedOn: hit.matchedOn,
+      at: hit.at,
+    });
+  }
+
+  // 무게 내림차순, 같으면 꿈에서 먼저 나온 순. **정렬을 고정해야 같은 꿈이 같은 결과를 낸다.**
+  matched.sort((a, b) => b.weight - a.weight || a.at - b.at);
+
+  // 주제는 많이 나온 태그 순. 상징이 셋인데 전부 「재물」이면 그 꿈은 재물 꿈이다.
+  const counts = new Map<string, number>();
+  for (const item of matched) {
+    for (const tag of item.tags) counts.set(tag, (counts.get(tag) ?? 0) + item.weight);
+  }
+  const themes = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 3)
+    .map(([tag]) => tag);
+
+  return {
+    engineVersion: ENGINE_VERSION,
+    matched,
+    mood: moodOf(matched),
+    themes,
+    conception: isConceptionDream(matched),
+  };
+}

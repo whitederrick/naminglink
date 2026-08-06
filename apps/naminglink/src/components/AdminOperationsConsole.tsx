@@ -138,6 +138,14 @@ const SERVICE_CONSOLE: Record<AppKey, ServiceConsoleConfig> = {
     ordersDescription:
       "사주 궁합 리포트와 인연의 결 리포트 PDF 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — PDF는 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
   },
+  dreamslink: {
+    serviceTypes: { DREAM_READING: "꿈 해몽" },
+    analysesNote: "꿈 해몽",
+    description:
+      "드림링크만 따로 본 지표입니다. 위쪽 메뉴들은 전부 네이밍링크 것만 보여 주므로, 서비스의 매출·방문이 섞이지 않습니다.\n**이 서비스는 방문이 매출보다 훨씬 큰 것이 정상입니다** — 꿈은 매일 꾸는 것이라 무료 조회가 본체이고 광고가 주 수익입니다. 유료는 꿈 카드와 태몽 리포트 둘뿐입니다.",
+    ordersDescription:
+      "꿈 카드(이미지)와 태몽 리포트(PDF) 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
+  },
   sajulink: {
     serviceTypes: { SAJU_READING: "사주 풀이", SAJU_TODAY: "오늘의 운세" },
     analysesNote: "사주 풀이 + 오늘의 운세",
@@ -885,6 +893,13 @@ const APP_TONE: Record<AppKey, { badge: string; border: string; text: string }> 
     badge: "bg-brand-amber/12 text-brand-amber",
     border: "hover:border-brand-amber",
     text: "text-brand-amber",
+  },
+  // 토큰이 셋뿐이라(teal·rose·amber) 넷째는 중립으로 둔다. **없는 토큰을 지어내지 않는다** —
+  // `brand-plum`을 쓰던 배지가 여태 색 없이 나오고 있었다(2026-08-06).
+  dreamslink: {
+    badge: "bg-surface-strong text-muted",
+    border: "hover:border-foreground",
+    text: "text-muted",
   },
 };
 
