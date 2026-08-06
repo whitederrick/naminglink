@@ -59,7 +59,7 @@ export const footerContentSchema = z.preprocess(
     return {
       ...content,
       companyName: isLegacyContent
-        ? "(주)Platforest"
+        ? companyInfo.legalEntity
         : content.companyName,
       serviceName: combinedServiceName?.[1]?.trim() ?? sourceServiceName,
       subtitle:
@@ -109,7 +109,9 @@ export function getContentKey(
 }
 
 export const fallbackFooterContent: FooterContent = {
-  companyName: "(주)Platforest",
+  // 나머지 필드처럼 `companyInfo`에서 가져온다. 상호만 박아 두면 core의 값을 고쳐도 여기가
+  // 옛 이름을 붙들고, 그 차이는 화면에서 눈에 띄지 않는다.
+  companyName: companyInfo.legalEntity,
   serviceName: "Naming-Link",
   subtitle: "Global Naming Studio",
   representative: companyInfo.representative,
