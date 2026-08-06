@@ -56,7 +56,7 @@ export default async function Page({
         />
       </div>
       {/* 흰 막을 얇게 덮어 본문 글자의 대비를 확보한다. 값은 사주링크와 같다. */}
-      <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/25" />
+      <div aria-hidden className="fixed inset-0 z-0 bg-[#f9f8fc]/25" />
       <div className="relative z-10">
         <PageHeader locale={locale} path="/dream" />
         <div className="mx-auto w-full max-w-3xl px-6 pb-16">

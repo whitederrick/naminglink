@@ -161,7 +161,7 @@ function buildHtml(locale: Locale) {
           filter: drop-shadow(0 10px 30px rgba(0,0,0,0.45)); }
   .seal svg, .seal img { width: 116px; height: 116px; border-radius: 50%; }
   .wordmark { font-size: 74px; font-weight: 700; letter-spacing: -0.015em; line-height: 1; }
-  .rule { width: 92px; height: 3px; background: #c98fa6; margin: 22px 0 20px; }
+  .rule { width: 92px; height: 3px; background: #a99bd6; margin: 22px 0 20px; }
   .hero { display: flex; flex-direction: column; gap: 6px;
           font-size: 30px; line-height: 1.32; color: #ece4d8; max-width: 660px; }
   .badge { margin-top: 22px; font-size: 21px; letter-spacing: 0.04em; color: #b0a698;

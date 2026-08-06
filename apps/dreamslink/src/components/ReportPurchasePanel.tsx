@@ -96,7 +96,7 @@ export function ReportPurchasePanel({
 }: {
   /** 어느 메뉴의 리포트인가. 주문·발급 요청에 그대로 실린다. */
   kind: ReportKind;
-  /** 이 상품의 문구. 사전에서 골라 넘긴다(`report` 또는 `affinityReport`). */
+  /** 이 상품의 문구. 사전에서 골라 넘긴다(`dreamCard` 또는 `conceptionReport`). */
   copy: ReportCopy;
   locale: Locale;
   /** 결제가 끝난 뒤 PDF를 만드는 데 쓴다. 주문 생성에는 보내지 않는다. */
@@ -141,7 +141,11 @@ export function ReportPurchasePanel({
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `inyeonlink-${kind}.pdf`;
+    // **확장자를 박아 두지 않는다.** 꿈 카드는 이미지고 태몽 리포트는 PDF다. 예전에는 이
+    // 자리가 `inyeonlink-${kind}.pdf`였다 — 서비스 이름도 남의 것이었고, 카드를 붙이는 순간
+    // PNG가 `.pdf`로 저장돼 열리지 않을 자리였다. 서버가 보낸 형식을 그대로 따른다.
+    const extension = blob.type === "image/png" ? "png" : "pdf";
+    link.download = `dreamslink-${kind}.${extension}`;
     link.click();
     URL.revokeObjectURL(url);
     setStage({ name: "done", order });
@@ -363,7 +367,7 @@ export function ReportPurchasePanel({
           접어 두지 않고 그대로 보인다. 사고 나서 알면 늦는 조건이고, 실제로 뜨는 로케일이
           둘뿐이라 나머지 화면에는 아무것도 늘지 않는다. */}
       {pdfLanguageDiffers(locale) ? (
-        <p className="break-keep-all mt-4 rounded-xl border border-brand-plum/25 bg-brand-plum/5 px-4 py-3 text-sm leading-6">
+        <p className="break-keep-all mt-4 rounded-xl border border-brand-violet/25 bg-brand-violet/5 px-4 py-3 text-sm leading-6">
           {t.pdfLanguageNotice}
         </p>
       ) : null}
@@ -396,7 +400,7 @@ export function ReportPurchasePanel({
           type="checkbox"
           checked={consented}
           onChange={(event) => setConsented(event.target.checked)}
-          className="mt-1.5 size-4 shrink-0 accent-brand-plum"
+          className="mt-1.5 size-4 shrink-0 accent-brand-violet"
         />
         <span className="break-keep-all text-muted">
           {renderEmphasis(t.consentLabel)}
@@ -411,7 +415,7 @@ export function ReportPurchasePanel({
           type="button"
           onClick={stage.name === "done" ? () => void download(stage.order) : buy}
           disabled={blocked}
-          className="mt-5 w-full rounded-full bg-brand-plum px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
+          className="mt-5 w-full rounded-full bg-brand-violet px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {busy
             ? busyLabel
@@ -443,14 +447,14 @@ export function ReportPurchasePanel({
         </p>
       ) : null}
       {stage.name === "done" ? (
-        <p className="break-keep-all mt-3 text-sm text-brand-sage">{t.done}</p>
+        <p className="break-keep-all mt-3 text-sm text-brand-moonlit">{t.done}</p>
       ) : null}
       <p className="break-keep-all mt-3 text-xs leading-5 text-muted">
         {t.refundContact}
       </p>
 
       {stage.name === "failed" ? (
-        <p role="alert" className="break-keep-all mt-3 text-sm text-brand-plum">
+        <p role="alert" className="break-keep-all mt-3 text-sm text-brand-violet">
           {stage.message}
         </p>
       ) : null}

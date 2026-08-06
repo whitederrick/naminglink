@@ -46,7 +46,7 @@ export function GuideLink({
     <p className={`text-sm ${align === "start" ? "text-start" : "text-center"} ${className}`}>
       <Link
         href={guideHubHref(locale, from)}
-        className="font-semibold text-brand-plum underline underline-offset-4 hover:opacity-80"
+        className="font-semibold text-brand-violet underline underline-offset-4 hover:opacity-80"
       >
         {guideLinkLabel(locale, "long")}
       </Link>

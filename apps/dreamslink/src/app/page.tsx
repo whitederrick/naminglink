@@ -137,7 +137,7 @@ export default async function LandingPage({
             <div className="mt-5 flex flex-wrap gap-3">
               <Link
                 href={localePath("/dream", linkLocale)}
-                className="inline-block rounded-full bg-white px-7 py-3.5 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
+                className="inline-block rounded-full bg-white px-7 py-3.5 text-lg font-semibold text-[#2e1f52] shadow-sm transition hover:bg-white/90"
               >
                 {dictionary.dream.submit}
               </Link>

@@ -115,10 +115,10 @@ export async function renderDreamCard({
           display: "flex",
           flexDirection: "column",
           padding: 72,
-          // 랜딩 히어로와 같은 계열의 어두운 자두색. 카드가 화면에서 이어져 온 물건으로 보여야 한다.
-          backgroundColor: "#1d0f18",
+          // 랜딩 히어로와 같은 계열의 어두운 보라. 카드가 화면에서 이어져 온 물건으로 보여야 한다.
+          backgroundColor: "#16101f",
           backgroundImage:
-            "linear-gradient(160deg, #3d1327 0%, #1d0f18 55%, #120a10 100%)",
+            "linear-gradient(160deg, #2e1f52 0%, #191330 55%, #120d1c 100%)",
           color: "#ffffff",
           fontFamily: "card",
         }}

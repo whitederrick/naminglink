@@ -52,10 +52,10 @@ export function LocaleSwitcher({
   const pill = (active: boolean) =>
     onDark
       ? active
-        ? "border-white bg-white text-[#3d1327]"
+        ? "border-white bg-white text-[#2e1f52]"
         : "border-white/35 bg-white/10 text-white hover:bg-white/20"
       : active
-        ? "border-brand-plum bg-brand-plum text-white"
+        ? "border-brand-violet bg-brand-violet text-white"
         : "border-line/70 bg-surface/75 text-muted hover:bg-surface-strong";
 
   return (
@@ -92,7 +92,7 @@ export function LocaleSwitcher({
               {closeLanguages}
             </span>
           </summary>
-          <div className="absolute right-0 z-50 mt-1.5 grid w-[min(92vw,48rem)] grid-cols-2 gap-x-2 gap-y-1 rounded-lg border border-white/20 bg-[#2a1019]/96 p-2 shadow-xl backdrop-blur sm:grid-cols-3 lg:grid-cols-6">
+          <div className="absolute right-0 z-50 mt-1.5 grid w-[min(92vw,48rem)] grid-cols-2 gap-x-2 gap-y-1 rounded-lg border border-white/20 bg-[#1b1430]/96 p-2 shadow-xl backdrop-blur sm:grid-cols-3 lg:grid-cols-6">
             {secondaryRow.map((locale) => (
               <a
                 key={locale}
@@ -100,7 +100,7 @@ export function LocaleSwitcher({
                 aria-current={locale === current ? "true" : undefined}
                 className={`flex min-h-7 items-center justify-center rounded-md px-2 py-1 text-center text-sm leading-none transition ${
                   locale === current
-                    ? "bg-white text-[#3d1327]"
+                    ? "bg-white text-[#2e1f52]"
                     : "text-white/82 hover:bg-white/12 hover:text-white"
                 }`}
               >

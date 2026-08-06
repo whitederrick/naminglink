@@ -6,20 +6,21 @@ import type { LegalLocaleDocuments } from "@/lib/legal-locales/types";
 
 const d0 = {
   "title": "Politique de traitement des données personnelles",
-  "intro": "InyeonLink ne conserve pas les informations nécessaires au calcul de compatibilité. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
+  "intro": "Dreams-Link ne conserve pas d'informations nécessaires à l'interprétation des rêves. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
   "sections": [
     {
       "heading": "1. Informations non conservées",
       "paragraphs": [
-        "Les dates de naissance, heures de naissance, lieux de naissance, sexe et noms donnés saisis pour le calcul de compatibilité ne sont **pas conservés nulle part.** Ils sont utilisés uniquement en mémoire serveur pendant le traitement de la demande et disparaissent avec la réponse.",
-        "Aucune donnée n'est enregistrée dans la base de données, ni conservée dans un fichier séparé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique."
+        "Les récits de rêves que vous soumettez pour l'interprétation, vos sentiments au réveil, et si vous faites des rêves récurrents ne sont **pas conservés nulle part.** Ils sont utilisés uniquement en mémoire serveur pendant le traitement de la demande et disparaissent avec la réponse.",
+        "Aucune donnée n'est enregistrée dans la base de données, et il n'y a pas de fichiers séparés. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique.",
+        "Les récits de rêves sont les valeurs les plus personnelles que ce service reçoit. C'est pourquoi il n'y a pas de fonction pour revoir les résultats passés (journal de rêves) — cette fonction nécessiterait de conserver les écrits que vous avez soumis."
       ]
     },
     {
       "heading": "2. Informations contenues dans le lien de résultat",
       "paragraphs": [
-        "L'adresse de l'écran de résultats contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé par le navigateur au serveur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les enregistrements de connexion du serveur.",
-        "Si vous envoyez le lien de résultat à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager ou non appartient à l'utilisateur."
+        "L'adresse de l'écran de résultats contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé au serveur par le navigateur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les enregistrements de connexion du serveur.",
+        "Si vous envoyez le lien de résultat à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager appartient à l'utilisateur."
       ]
     },
     {
@@ -33,31 +34,31 @@ const d0 = {
       ]
     },
     {
-      "heading": "4. Cookies et publicité",
+      "heading": "4. Cookies et publicités",
       "paragraphs": [
         "Le service lui-même n'utilise pas de cookies pour suivre les utilisateurs.",
-        "Actuellement, il n'y a pas de publicités affichées sur ce service. Si des publicités sont affichées à l'avenir, le fournisseur de publicité (par exemple, Google) peut utiliser des cookies pour afficher des publicités. Dans ce cas, cette clause sera d'abord modifiée pour expliquer ce qui change avant de commencer."
+        "Actuellement, il n'y a pas de publicités affichées sur ce service. Si des publicités sont affichées à l'avenir, le fournisseur de publicité (par exemple, Google) peut utiliser des cookies pour la diffusion des annonces. Dans ce cas, cette clause sera d'abord modifiée pour clarifier ce qui change avant de commencer."
       ]
     },
     {
       "heading": "5. Informations conservées lors du paiement",
       "paragraphs": [
         "Actuellement, aucun produit payant n'est vendu, donc il n'y a pas d'informations conservées liées aux paiements.",
-        "Lorsque la vente commencera, les éléments suivants seront conservés pour le traitement des paiements et la conservation des enregistrements de transactions conformément à la législation : **même à ce moment-là, les valeurs saisies pour le calcul de compatibilité et le PDF généré ne seront pas conservés**, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, ne sera collectée."
+        "Lorsque la vente commencera, les éléments suivants seront conservés pour le traitement des paiements et la conservation des enregistrements de transactions conformément à la législation : **les rêves que vous avez soumis et les fichiers créés ne seront pas conservés**, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, ne sera collectée."
       ],
       "bullets": [
         "Numéro de commande et identifiant de paiement",
         "Montant du paiement, devise et état du paiement (non payé, payé, annulé)",
-        "Classification des produits, état de traitement, nombre de téléchargements de documents, date de commande",
-        "Langue de l'écran au moment de la commande et classification de la région de paiement (domestique, international)",
-        "Durée de conservation — Selon l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements concernant le paiement et la fourniture de biens seront conservés pendant 5 ans, et les enregistrements concernant le traitement des plaintes ou des litiges des consommateurs seront conservés pendant 3 ans avant d'être détruits."
+        "Type de produit, état de traitement, nombre de téléchargements de documents, heure de commande",
+        "Langue de l'écran au moment de la commande et distinction de la région de paiement (domestique, international)",
+        "Durée de conservation — Selon l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens seront conservés pendant 5 ans, et les enregistrements relatifs aux plaintes ou aux litiges des consommateurs seront conservés pendant 3 ans avant d'être détruits."
       ]
     },
     {
       "heading": "6. Fourniture à des tiers et sous-traitance",
       "paragraphs": [
         "Il n'y a pas de données personnelles conservées, donc il n'y a pas de données personnelles fournies à des tiers.",
-        "Le service utilise l'infrastructure d'hébergement de {hostingProvider}, et dans ce processus, les enregistrements de connexion mentionnés au point 3 sont traités selon la politique de ce fournisseur.",
+        "Pour le fonctionnement du service, l'infrastructure d'hébergement de {hostingProvider} est utilisée, et dans ce processus, les enregistrements de connexion mentionnés au point 3 sont traités conformément à la politique de ce fournisseur.",
         "Lorsque la vente de produits payants commencera, les paiements nationaux seront confiés à Toss Payments, et les paiements internationaux à PortOne (PayPal). Les informations sur les moyens de paiement, telles que les numéros de carte et de compte, seront également traitées directement par ces entreprises, et le service ne les recevra pas."
       ]
     },
@@ -65,7 +66,7 @@ const d0 = {
       "heading": "7. Droits des utilisateurs",
       "paragraphs": [
         "Il n'y a pas de données personnelles conservées, donc il n'y a pas de demande d'accès, de correction ou de suppression à adresser.",
-        "Les utilisateurs peuvent supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse du navigateur.",
+        "Les utilisateurs peuvent supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse de leur navigateur.",
         "Pour toute question concernant l'utilisation du service, veuillez nous contacter aux coordonnées ci-dessous."
       ]
     },
@@ -85,7 +86,7 @@ const d0 = {
     {
       "heading": "10. Modification de la politique",
       "paragraphs": [
-        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, comme le début de l'affichage de publicités ou la vente de produits payants, nous informerons d'abord des modifications."
+        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, comme le début de la diffusion de publicités ou la vente de produits payants, nous informerons d'abord de la modification."
       ]
     }
   ],
@@ -94,54 +95,55 @@ const d0 = {
 
 const d1 = {
   "title": "Conditions d'utilisation",
-  "intro": "Ces conditions définissent les modalités d'utilisation du service InyeonLink (ci-après dénommé « service »). En utilisant le service, vous acceptez ces conditions.",
+  "intro": "Ces conditions définissent les conditions d'utilisation du service Dreams-Link (ci-après dénommé « service »). En utilisant le service, vous acceptez ces conditions.",
   "sections": [
     {
       "heading": "1. Nature du service",
       "paragraphs": [
-        "Le service fournit des informations sur la relation entre deux personnes en appliquant les règles des relations de la divination traditionnelle (saju) et du zodiaque coréen (십이지) sur la base de la date de naissance saisie.",
-        "Le taux de correspondance et les interprétations présentés sont des **documents de référence selon une perspective d'interprétation traditionnelle, et ne constituent pas des prévisions scientifiques ou des affirmations sur la relation.** Un score bas ne signifie pas que la relation est mauvaise, et un score élevé ne garantit pas la relation."
+        "Le service recherche des symboles de rêve dans les rêves que les utilisateurs soumettent et fournit des références sur la signification de ces symboles selon la tradition. Il est indiqué qu'aucun symbole non répertorié ne sera trouvé et qu'aucune signification ne sera inventée.",
+        "Les symboles et interprétations présentés sont des **références selon une perspective d'interprétation traditionnelle et ne constituent pas des prévisions sur l'avenir ni des conseils médicaux, financiers ou juridiques.** Un bon rêve ne garantit pas qu'un événement se produira, et un mauvais rêve ne signifie pas qu'un événement est prévu.",
+        "**Les résultats liés aux rêves de conception ne déterminent pas la grossesse ni le sexe de l'enfant.** Nous vous informerons uniquement des symboles traditionnellement considérés comme des rêves de conception et de leur contexte."
       ]
     },
     {
       "heading": "2. Frais d'utilisation",
       "paragraphs": [
         "Le service est actuellement entièrement gratuit et ne nécessite pas d'inscription.",
-        "Lorsque la vente de produits payants (compatibility report PDF et inyeon report PDF) commencera, les conditions de l'article 3 ci-dessous s'appliqueront. Ces conditions seront à nouveau communiquées avant le début de la vente."
+        "Lorsque la vente de produits payants (image de carte de rêve, rapport de rêve de conception en PDF) commencera, les conditions de l'article 3 ci-dessous s'appliqueront. Ces conditions seront à nouveau communiquées avant le début de la vente."
       ]
     },
     {
       "heading": "3. Produits payants et remboursements",
       "paragraphs": [
-        "Les produits payants proposés sont **deux rapports PDF**. Les deux transforment les résultats affichés à l'écran en documents, incluant des informations non présentes à l'écran.",
-        "**Rapport de compatibilité saju PDF** — 7 pages. Il contient la direction des énergies échangées, un tableau examinant plus en détail les saju de chacun, et les bases de calcul. Prix pour les paiements nationaux {priceDomestic} (TVA incluse), prix pour les paiements internationaux {priceGlobal}.",
-        "**Rapport de lien PDF** — 4 pages. Il contient un tableau complet des dix tiges célestes et des douze signes du zodiaque, qui ne sont pas affichés à l'écran. Prix pour les paiements nationaux {priceAffinityDomestic} (TVA incluse), prix pour les paiements internationaux {priceAffinityGlobal}.",
-        "Les paiements nationaux peuvent être effectués par carte de crédit ou de débit et paiement simplifié (Toss Payments, KakaoPay, NaverPay, Payco, etc.) via Toss Payments, tandis que les paiements internationaux se font par PayPal via PortOne. Le montant final est celui affiché à l'écran de paiement.",
-        "**Le service ne conserve ni les valeurs saisies par l'utilisateur, ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est généré et téléchargé immédiatement, sans rien laisser sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
+        "Les produits payants proposés sont **deux types**. L'interprétation gratuite peut être utilisée sans paiement, tandis que les deux produits ci-dessous sont fournis sous une forme qui permet de conserver les résultats.",
+        "**Carte de rêve** — Il s'agit d'un fichier image unique. Elle conserve et permet de partager les symboles et significations traditionnelles du rêve de ce jour. **Ce n'est pas un document (PDF).** Paiement national {priceCardDomestic} (TVA incluse), paiement international {priceCardGlobal}.",
+        "**Rapport de rêve de conception en PDF** — 4 pages. Ce document contient la signification traditionnelle des symboles et leur contexte. **Il ne détermine pas la grossesse** — nous vous informerons uniquement que des symboles traditionnellement considérés comme des rêves de conception sont apparus dans le rêve. Paiement national {priceConceptionDomestic} (TVA incluse), paiement international {priceConceptionGlobal}.",
+        "Les paiements nationaux peuvent être effectués via Toss Payments en utilisant des cartes de crédit, de débit et des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.), et les paiements internationaux se font via PayPal par l'intermédiaire de PortOne. Le montant final est celui affiché à l'écran de paiement.",
+        "**Le service ne conserve ni les valeurs saisies par l'utilisateur ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien laisser sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
         "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si les valeurs saisies disparaissent en dehors de l'écran de résultats, il ne sera pas possible de les recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
       ],
       "bullets": [
-        "**Avant le début du téléchargement après le paiement, vous pouvez annuler à tout moment et obtenir un remboursement intégral.**",
-        "**Après la fin du téléchargement, le droit de rétractation pour simple changement d'avis est limité.** Il s'agit de contenu numérique fourni immédiatement, ce qui rend impossible le retour à l'état initial, et cela correspond aux motifs de restriction de rétractation définis à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
-        "**En cas d'erreur système empêchant la création du document, si le fichier ne s'ouvre pas ou si le montant payé diffère de la commande,** un réémission ou un remboursement intégral sera effectué.",
-        "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats de compatibilité sont des documents de référence selon une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement (voir article 1 ci-dessus).",
-        "Les demandes de réémission après avoir utilisé les 5 réémissions sont considérées comme non remboursables.",
+        "**Avant le début du téléchargement après le paiement, vous pouvez** annuler à tout moment et obtenir un remboursement intégral.",
+        "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit de contenu numérique fourni immédiatement et qui ne peut pas être restitué, ce qui correspond aux motifs de limitation du droit de rétractation définis à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
+        "**En cas d'erreur système empêchant la création du document, de fichier ne s'ouvrant pas, ou si le montant payé diffère de la commande,** cela sera traité par un réémission ou un remboursement intégral.",
+        "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats d'interprétation sont des références selon une perspective d'interprétation traditionnelle, et cette nature est expliquée avant le paiement (voir l'article 1 ci-dessus).",
+        "Les demandes de réémission après avoir utilisé les 5 réémissions sont considérées comme ne constituant pas un motif de remboursement.",
         "**Si un mineur effectue un paiement sans le consentement de son représentant légal,** celui-ci ou le mineur peut annuler ce paiement. Veuillez nous en informer aux coordonnées ci-dessous pour obtenir un remboursement."
       ]
     },
     {
-      "heading": "4. Concernant les résultats de calcul",
+      "heading": "4. Concernant les résultats d'interprétation",
       "paragraphs": [
-        "Tous les scores sont calculés selon des règles publiées, donc si les mêmes valeurs sont saisies, les mêmes résultats seront toujours obtenus.",
-        "Si l'heure de naissance n'est pas saisie, le calcul se fait sans le pilier temporel (시주), ce qui peut entraîner des résultats différents. Plus le lieu de naissance est choisi avec précision, plus le calcul du pilier temporel sera exact.",
-        "Le calcul du calendrier de naissance utilise une bibliothèque de calcul publique, et les résultats peuvent varier en fonction de la manière dont les saisons et les fuseaux horaires sont traités."
+        "Les règles de recherche des symboles suivent un dictionnaire public et une procédure établie, donc si le même texte est saisi, les mêmes symboles apparaîtront toujours.",
+        "Plus vous écrivez brièvement, moins il y aura de symboles trouvés. Les symboles non répertoriés ne seront pas trouvés, et dans ce cas, le résultat sera laissé vide.",
+        "Le dictionnaire de symboles est une compilation de la littérature d'interprétation des rêves et des traditions orales, et les interprétations peuvent varier selon les régions et les époques."
       ]
     },
     {
       "heading": "5. Responsabilité de l'utilisateur",
       "paragraphs": [
-        "L'utilisateur peut saisir la date de naissance d'autrui, mais ne doit pas utiliser les résultats de manière préjudiciable pour autrui.",
-        "Ne pas utiliser les résultats du service comme base pour des décisions influençant les droits d'autrui, tels que le mariage, le divorce, l'embauche ou les transactions. Le service n'est pas conçu à de telles fins."
+        "L'utilisateur peut écrire sur les rêves d'autrui, mais ne doit pas utiliser les résultats de manière à nuire à autrui.",
+        "Ne pas utiliser les résultats du service comme base pour des décisions affectant les droits ou intérêts des personnes, tels que la grossesse, la santé, les investissements ou l'embauche. Le service n'est pas conçu à cette fin."
       ]
     },
     {
@@ -150,29 +152,29 @@ const d1 = {
         "Les comportements suivants ne sont pas autorisés."
       ],
       "bullets": [
-        "Envoyer des demandes excessives à l'aide d'outils automatisés pour perturber le fonctionnement du service",
-        "Présenter les résultats du service comme des faits ou des résultats d'expertise",
+        "Envoyer des demandes excessives à l'aide d'outils automatisés qui perturbent le fonctionnement du service",
+        "Présenter les résultats du service comme des faits ou des résultats d'experts",
         "Dupliquer ou modifier le service pour fournir un service identique"
       ]
     },
     {
       "heading": "7. Exonération de responsabilité",
       "paragraphs": [
-        "Le service ne fournit que des documents de référence et ne saurait être tenu responsable des jugements et de leurs conséquences basés sur les résultats par l'utilisateur.",
-        "En cas d'interruption du service pour des raisons indépendantes de notre volonté, telles que des catastrophes naturelles ou des pannes d'infrastructure, nous ne serons pas responsables des dommages en résultant."
+        "Le service ne fournit que des références et ne sera pas responsable des décisions prises par l'utilisateur sur la base des résultats et de leurs conséquences.",
+        "En cas d'interruption du service pour des raisons indépendantes de notre volonté, telles que des catastrophes naturelles ou des pannes de fournisseurs d'infrastructure, nous ne serons pas responsables des dommages causés."
       ]
     },
     {
       "heading": "8. Droits de propriété intellectuelle",
       "paragraphs": [
-        "Les droits sur l'interface du service, les textes et les mises en œuvre des règles de calcul appartiennent à l'opérateur. L'utilisateur peut enregistrer ou partager les résultats à des fins personnelles."
+        "Les droits sur l'interface du service, les phrases et la mise en œuvre des règles de calcul appartiennent à l'opérateur. L'utilisateur peut enregistrer ou partager les résultats à des fins personnelles."
       ]
     },
     {
       "heading": "9. Modifications des conditions et loi applicable",
       "paragraphs": [
-        "En cas de modification des conditions, celles-ci seront publiées sur cette page avec la date d'entrée en vigueur.",
-        "Ces conditions sont régies par la loi de la République de Corée, et tout litige lié à l'utilisation du service sera traité conformément aux procédures définies par la législation applicable."
+        "En cas de modification des conditions, elles seront publiées sur cette page avec la date d'entrée en vigueur.",
+        "Ces conditions sont régies par la loi de la République de Corée, et les litiges liés à l'utilisation du service seront traités conformément aux procédures définies par les lois pertinentes."
       ]
     }
   ],
@@ -181,14 +183,15 @@ const d1 = {
 
 const d2 = {
   "title": "Politique de remboursement et d'annulation",
-  "intro": "Voici les critères d'annulation et de remboursement pour le rapport de compatibilité PDF. Nous avons rassemblé des informations similaires à celles de l'article 3 des conditions générales.",
+  "intro": "Critères d'annulation et de remboursement pour les produits payants. Nous avons rassemblé des informations similaires à l'article 3 des conditions générales.",
   "sections": [
     {
-      "heading": "1. Nature du produit",
+      "heading": "1. Nature des produits",
       "paragraphs": [
-        "Le produit vendu est un **rapport de compatibilité PDF** unique, et une fois le paiement approuvé, le document est créé sur-le-champ et envoyé immédiatement en tant que contenu numérique.",
-        "**Le service ne conserve ni les données saisies par l'utilisateur ni le fichier PDF généré.** Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur lui-même."
-      ]
+        "Les produits vendus sont une **carte de rêve (꿈 카드)** (image unique) et un **rapport de rêve de conception (태몽 리포트)** (PDF), qui sont tous deux des contenus numériques créés et envoyés immédiatement après l'approbation du paiement.",
+        "**Le service ne conserve ni le rêve que vous avez écrit ni le fichier créé.** Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur."
+      ],
+      "bullets": []
     },
     {
       "heading": "2. Droit de rétractation",
@@ -197,7 +200,7 @@ const d2 = {
       ],
       "bullets": [
         "**Avant le début du téléchargement,** vous pouvez annuler à tout moment et obtenir un remboursement intégral.",
-        "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit d'un contenu numérique fourni immédiatement après le paiement, et il est impossible de revenir à l'état antérieur, ce qui correspond aux raisons de limitation définies à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique. Cette information est préalablement communiquée et un consentement est obtenu à l'écran de paiement."
+        "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit de contenus numériques fournis immédiatement après le paiement, et cela correspond aux motifs de restriction définis à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique. Cela est préalablement indiqué et accepté sur l'écran de paiement."
       ]
     },
     {
@@ -206,25 +209,25 @@ const d2 = {
         "Dans les cas suivants, après vérification des raisons, nous procéderons à un réémission ou à un remboursement intégral."
       ],
       "bullets": [
-        "En cas d'erreur système empêchant la création du document",
+        "En cas d'erreur système empêchant la création du fichier",
         "Si le fichier téléchargé ne s'ouvre pas",
         "Si le montant payé diffère de la commande",
         "**Si un mineur a effectué le paiement sans le consentement de son représentant légal** — La personne concernée ou son représentant légal peut demander l'annulation."
       ]
     },
     {
-      "heading": "4. Cas non éligibles au remboursement",
+      "heading": "4. Cas non remboursables",
       "paragraphs": [],
       "bullets": [
-        "**Insatisfaction concernant le contenu des résultats.** Les résultats de compatibilité sont des références basées sur une interprétation traditionnelle, et leur nature est expliquée avant le paiement.",
-        "Nouvelle demande après avoir utilisé les 5 réémissions autorisées."
+        "**Insatisfaction concernant le contenu des résultats.** Les résultats d'interprétation des rêves sont des références basées sur une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement. Cela inclut les cas où les symboles présents dans le rêve ne sont pas trouvés, ce qui entraîne des résultats courts — afin de ne pas inventer de significations inexistantes.",
+        "Demande de réémission après avoir utilisé les 5 réémissions autorisées."
       ]
     },
     {
       "heading": "5. Méthode de soumission",
       "paragraphs": [
-        "Les demandes de remboursement ou d'informations doivent être soumises au service client ({customerCenter}) ou par e-mail ({email}). Veuillez également fournir votre numéro de commande pour un traitement rapide.",
-        "Les remboursements seront effectués par le moyen de paiement utilisé, et en fonction des conditions de la société de carte ou de paiement, cela peut prendre entre 3 et 7 jours ouvrables pour être reflété."
+        "Les demandes de remboursement ou d'informations doivent être soumises au service client ({customerCenter}) ou par e-mail ({email}). Si vous fournissez votre numéro de commande, cela facilitera la vérification.",
+        "Les remboursements seront effectués par le moyen de paiement utilisé, et en fonction des conditions de la société de carte ou de paiement, cela peut prendre de 3 à 7 jours ouvrables pour être reflété."
       ]
     }
   ],
@@ -238,30 +241,30 @@ const d3 = {
     {
       "heading": "1. Gratuit",
       "paragraphs": [
-        "**Le calcul de compatibilité et la consultation des résultats sont gratuits.** L'inscription n'est pas nécessaire.",
-        "Vous pouvez voir à l'écran le taux de correspondance, les scores par élément, les piliers saju (사주) de deux personnes et la force des cinq éléments, ainsi que la forme de la relation."
+        "**La consultation des rêves et l'affichage des résultats sont gratuits.** Aucune inscription n'est requise.",
+        "Vous pouvez voir à l'écran les symboles trouvés dans le rêve, leur signification ainsi que ce que ces symboles indiquent ensemble. Les rêves étant quelque chose que l'on fait chaque jour, ce service ne limite pas les consultations."
       ]
     },
     {
-      "heading": "2. Rapport de compatibilité PDF (payant)",
+      "heading": "2. Carte de rêve (payant)",
       "paragraphs": [
-        "Paiement national {priceDomestic} (TVA incluse) · Paiement international {priceGlobal}",
-        "Nous vous fournissons un document PDF de 7 pages contenant les résultats affichés. Il inclut la direction des énergies échangées, un tableau plus détaillé des piliers saju (사주) de chacun, le lieu de rencontre des quatre piliers, ainsi que les bases de calcul qui ne sont pas affichées à l'écran.",
-        "Avec la même commande, vous pouvez le télécharger à nouveau **jusqu'à 5 fois**. Cependant, si vous perdez les valeurs d'entrée en sortant de l'écran des résultats, vous ne pourrez pas le recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
+        "Paiement national {priceCardDomestic} (TVA incluse) · Paiement international {priceCardGlobal}",
+        "Nous vous fournissons le résultat à l'écran sous la forme d'une **image unique**. C'est un format facile à conserver ou à envoyer, et ce n'est pas un **document PDF.**",
+        "Vous pouvez le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si vous quittez l'écran des résultats et que les valeurs saisies disparaissent, vous ne pourrez pas le recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
       ]
     },
     {
-      "heading": "3. Rapport de lien PDF (payant)",
+      "heading": "3. Rapport de rêve de conception PDF (payant)",
       "paragraphs": [
-        "Paiement national {priceAffinityDomestic} (TVA incluse) · Paiement international {priceAffinityGlobal}",
-        "Nous vous fournissons un document PDF de 4 pages contenant les résultats affichés. Bien que l'écran ne montre que les ensembles de liens compatibles, le PDF contient un tableau complet des dix tiges célestes et des douze signes du zodiaque.",
-        "Les conditions de réémission sont les mêmes que pour le rapport de compatibilité."
+        "Paiement national {priceConceptionDomestic} (TVA incluse) · Paiement international {priceConceptionGlobal}",
+        "Lorsque des symboles traditionnellement considérés comme des rêves de conception apparaissent, nous vous fournissons un résumé de la signification de ces symboles et de leur contexte dans un PDF de 4 pages. **Nous ne déterminons pas la grossesse ni le sexe du fœtus.**",
+        "Les conditions de réémission sont les mêmes que pour la carte de rêve."
       ]
     },
     {
       "heading": "4. Méthodes de paiement",
       "paragraphs": [
-        "**National** — Vous pouvez utiliser des cartes de crédit et de débit ainsi que des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.) via Toss Payments.",
+        "**National** — Vous pouvez utiliser des cartes de crédit ou de débit et des paiements simplifiés (Toss Pay, KakaoPay, Naver Pay, Payco, etc.) via Toss Payments.",
         "**International** — Vous pouvez payer via PayPal par l'intermédiaire de PortOne.",
         "Le montant final du paiement est celui affiché à l'écran de paiement."
       ]
@@ -269,7 +272,7 @@ const d3 = {
     {
       "heading": "5. Changement de prix",
       "paragraphs": [
-        "En cas de changement de prix, cela sera d'abord publié sur cette page. Les commandes déjà réglées ne seront pas affectées par le prix modifié."
+        "En cas de changement de prix, nous l'afficherons d'abord sur cette page. Les commandes déjà réglées ne seront pas soumises au prix modifié."
       ]
     }
   ],
@@ -278,20 +281,21 @@ const d3 = {
 
 const d4 = {
   "title": "Politique de traitement des données personnelles",
-  "intro": "InyeonLink ne conserve pas les informations nécessaires au calcul de compatibilité. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
+  "intro": "Dreams-Link ne conserve pas d'informations nécessaires à l'interprétation des rêves. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
   "sections": [
     {
       "heading": "1. Informations non conservées",
       "paragraphs": [
-        "Les dates de naissance, heures de naissance, lieux de naissance, sexes et noms fournis pour le calcul de compatibilité ne sont **pas enregistrés nulle part.** Ils sont utilisés uniquement dans la mémoire du serveur pendant le traitement de la demande et disparaissent avec la réponse.",
-        "Aucune donnée n'est enregistrée dans la base de données et aucun fichier séparé n'est conservé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique."
+        "Les récits de rêves que vous soumettez pour l'interprétation, vos sentiments au réveil, et si vous faites des rêves récurrents ne sont **pas enregistrés nulle part.** Ils sont uniquement utilisés en mémoire serveur pendant le traitement de la demande et disparaissent avec la réponse.",
+        "Aucune donnée n'est enregistrée dans une base de données, et il n'y a pas de fichiers séparés. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique.",
+        "Les récits de rêves sont les valeurs les plus personnelles que ce service reçoit. C'est pourquoi il n'y a pas de fonction pour revoir les résultats passés (journal de rêves) — cette fonction nécessiterait de conserver les écrits que vous avez soumis."
       ]
     },
     {
       "heading": "2. Informations contenues dans le lien de résultat",
       "paragraphs": [
-        "L'adresse de l'écran de résultat contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé par le navigateur au serveur. Par conséquent, même si le lien de résultat est ouvert, seul le chemin de l'adresse reste dans les enregistrements de connexion du serveur.",
-        "Si le lien de résultat est envoyé à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager ou non appartient à l'utilisateur."
+        "L'adresse de l'écran de résultat contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé au serveur par le navigateur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les enregistrements d'accès du serveur.",
+        "Si vous envoyez le lien de résultat à une autre personne, elle pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager appartient à l'utilisateur."
       ]
     },
     {
@@ -300,20 +304,20 @@ const d4 = {
         "Il n'y a pas d'informations collectées par le service pour identifier les utilisateurs. Cependant, un minimum d'enregistrements nécessaires au fonctionnement du service est automatiquement conservé par le fournisseur d'infrastructure."
       ],
       "bullets": [
-        "Adresse IP de connexion, date et heure de connexion, type de navigateur, etc. — enregistrements de connexion serveur généraux",
-        "Informations sur le pays — utilisées uniquement pour déterminer automatiquement la langue de l'écran et non conservées"
+        "Adresse IP d'accès, date et heure d'accès, type de navigateur, etc. en tant qu'enregistrements d'accès serveur généraux",
+        "Informations sur le pays — utilisées uniquement pour déterminer automatiquement la langue de l'écran et ne sont pas conservées"
       ]
     },
     {
       "heading": "4. Cookies et publicité",
       "paragraphs": [
-        "Le service lui-même n'utilise pas de cookies pour identifier ou suivre les utilisateurs. Les informations saisies pour le calcul de compatibilité ne sont pas transmises aux annonceurs.",
+        "Le service lui-même n'utilise pas de cookies pour identifier ou suivre les utilisateurs. Les récits de rêves que vous soumettez ne sont pas transmis aux annonceurs.",
         "Ce service affiche des publicités via Google AdSense. Dans ce processus, les événements suivants se produisent."
       ],
       "bullets": [
         "Des fournisseurs tiers, y compris Google, peuvent stocker ou lire des cookies dans le navigateur de l'utilisateur.",
         "Google utilise des cookies pour afficher des publicités basées sur l'historique de visites de ce site et d'autres sites.",
-        "L'utilisateur peut désactiver les publicités personnalisées dans les paramètres publicitaires de Google (google.com/settings/ads). Même après désactivation, les publicités continueront d'apparaître, mais leur pertinence pour l'utilisateur sera réduite.",
+        "L'utilisateur peut désactiver les publicités personnalisées dans les paramètres publicitaires de Google (google.com/settings/ads). Même si désactivées, les publicités continueront d'apparaître, mais leur pertinence pour l'utilisateur sera réduite.",
         "Les publicités personnalisées de tous les fournisseurs tiers peuvent être désactivées en une seule fois sur aboutads.info/choices.",
         "Il est également possible de bloquer les cookies dans les paramètres du navigateur.",
         "Pour les utilisateurs de l'Espace économique européen, du Royaume-Uni et de la Suisse, le consentement à l'utilisation des cookies publicitaires est demandé au préalable."
@@ -323,29 +327,29 @@ const d4 = {
       "heading": "5. Informations conservées lors du paiement",
       "paragraphs": [
         "Actuellement, aucun produit payant n'est vendu, donc aucune information liée au paiement n'est conservée.",
-        "Lorsque la vente commence, les éléments suivants seront conservés pour le traitement des paiements et la conservation des enregistrements de transactions conformément à la législation. **À ce moment-là, les valeurs saisies pour le calcul de compatibilité et le PDF généré ne seront pas conservés**, et aucune information permettant d'identifier l'utilisateur, telle que le nom, les coordonnées ou l'adresse, ne sera collectée."
+        "Lorsque la vente commence, les éléments suivants seront conservés pour le traitement des paiements et la conservation des enregistrements de transactions conformément à la législation. **À ce moment-là, les rêves que vous avez soumis et les fichiers créés ne seront pas conservés**, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, ne sera collectée."
       ],
       "bullets": [
         "Numéro de commande et identifiant de paiement",
         "Montant du paiement, devise et état du paiement (non payé, payé, annulé)",
-        "Classification du produit, état de traitement, nombre de téléchargements de documents, date de commande",
-        "Langue de l'écran au moment de la commande et classification de la région de paiement (domestique, international)",
-        "Durée de conservation — Conformément à l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens seront conservés pendant 5 ans, et les enregistrements relatifs aux plaintes ou aux litiges des consommateurs seront conservés pendant 3 ans avant d'être détruits."
+        "Type de produit, état de traitement, nombre de téléchargements de documents, date de commande",
+        "Langue de l'écran au moment de la commande et distinction de la région de paiement (domestique, international)",
+        "Durée de conservation — Selon l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements concernant le paiement et la fourniture de biens seront conservés pendant 5 ans, et les enregistrements concernant les plaintes ou les litiges des consommateurs seront conservés pendant 3 ans avant d'être détruits."
       ]
     },
     {
       "heading": "6. Fourniture à des tiers et sous-traitance",
       "paragraphs": [
-        "Comme il n'y a pas de données personnelles conservées, il n'y a pas de données personnelles fournies à des tiers.",
-        "Le service utilise l'infrastructure d'hébergement de {hostingProvider}, et dans ce processus, les enregistrements de connexion mentionnés au point 3 sont traités conformément à la politique de ce fournisseur.",
-        "Lorsque la vente de produits payants commence, les paiements nationaux sont confiés à Toss Payments, et les paiements internationaux à PortOne (PayPal). Les informations sur les moyens de paiement, telles que les numéros de carte et de compte, sont également directement traitées par ces entreprises, et le service ne les reçoit pas."
+        "Il n'y a pas de données personnelles conservées, donc aucune donnée personnelle n'est fournie à des tiers.",
+        "Pour le fonctionnement du service, l'infrastructure d'hébergement de {hostingProvider} est utilisée, et dans ce processus, les enregistrements d'accès mentionnés au point 3 sont traités selon la politique de ce fournisseur.",
+        "Lorsque la vente de produits payants commence, les paiements nationaux sont confiés à Toss Payments, et les paiements internationaux à PortOne (PayPal). Les informations sur les moyens de paiement, telles que les numéros de carte et de compte, sont également traitées directement par ces entreprises, et le service ne les reçoit pas."
       ]
     },
     {
       "heading": "7. Droits des utilisateurs",
       "paragraphs": [
-        "Comme il n'y a pas de données personnelles conservées, il n'y a pas de demande d'accès, de correction ou de suppression à adresser.",
-        "L'utilisateur peut supprimer toutes les traces saisies simplement en effaçant le lien de résultat dans la barre d'adresse du navigateur.",
+        "Il n'y a pas de données personnelles conservées, donc il n'y a pas de demande d'accès, de correction ou de suppression à adresser.",
+        "L'utilisateur peut effacer toutes les traces de saisie simplement en supprimant le lien de résultat dans la barre d'adresse du navigateur.",
         "Pour toute question concernant l'utilisation du service, veuillez nous contacter aux coordonnées ci-dessous."
       ]
     },
@@ -363,9 +367,9 @@ const d4 = {
       ]
     },
     {
-      "heading": "10. Modification de la politique",
+      "heading": "10. Modifications de la politique",
       "paragraphs": [
-        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, par exemple avec le début de la diffusion de publicités ou de la vente de produits payants, nous informerons d'abord de la modification."
+        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, par exemple avec le début de la diffusion de publicités ou la vente de produits payants, nous informerons d'abord de la modification."
       ]
     }
   ],
@@ -374,73 +378,74 @@ const d4 = {
 
 const d5 = {
   "title": "Politique de traitement des données personnelles",
-  "intro": "InyeonLink ne conserve pas les informations nécessaires au calcul de compatibilité. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est automatiquement enregistré.",
+  "intro": "Dreams-Link ne conserve pas les informations nécessaires à l'interprétation des rêves. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
   "sections": [
     {
       "heading": "1. Informations non conservées",
       "paragraphs": [
-        "Les dates de naissance, heures de naissance, lieux de naissance, sexes et noms fournis pour le calcul de compatibilité ne sont **pas enregistrés nulle part.** Ils sont utilisés uniquement dans la mémoire du serveur pendant le traitement de la demande et disparaissent avec la réponse.",
-        "Aucune donnée n'est enregistrée dans la base de données et aucun fichier séparé n'est conservé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique."
+        "Les récits de rêves que vous soumettez pour l'interprétation, vos sentiments au réveil et si vous faites des rêves récurrents ne sont **pas conservés nulle part.** Ils sont utilisés uniquement en mémoire serveur pendant le traitement de la demande et disparaissent avec la réponse.",
+        "Aucune donnée n'est enregistrée dans la base de données et aucun fichier séparé n'est conservé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique.",
+        "Les récits de rêves sont les valeurs les plus personnelles que ce service reçoit. C'est pourquoi il n'y a pas de fonctionnalité pour revoir les résultats passés (journal de rêves) — cette fonctionnalité nécessiterait de conserver les écrits que vous avez soumis."
       ]
     },
     {
       "heading": "2. Informations contenues dans le lien de résultat",
       "paragraphs": [
-        "L'adresse de l'écran de résultats contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé par le navigateur au serveur. Par conséquent, même si le lien de résultat est ouvert, seul le chemin de l'adresse reste dans les enregistrements d'accès du serveur.",
-        "Si vous envoyez le lien de résultat à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager ou non appartient à l'utilisateur."
+        "L'adresse de l'écran de résultats contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé au serveur par le navigateur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les enregistrements de connexion du serveur.",
+        "Si vous envoyez le lien de résultat à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager appartient à l'utilisateur."
       ]
     },
     {
       "heading": "3. Informations collectées automatiquement",
       "paragraphs": [
-        "Il n'y a pas d'informations collectées par le service pour identifier les utilisateurs. Cependant, un minimum d'enregistrements nécessaires au fonctionnement du service est automatiquement conservé par le fournisseur d'infrastructure."
+        "Aucune information n'est collectée pour identifier l'utilisateur. Cependant, un minimum d'enregistrements nécessaires au fonctionnement du service est automatiquement conservé par le fournisseur d'infrastructure."
       ],
       "bullets": [
-        "Adresse IP d'accès, date et heure d'accès, type de navigateur, etc. — enregistrements d'accès serveur généraux",
+        "Adresse IP de connexion, date et heure de connexion, type de navigateur, etc. — enregistrements de connexion serveur généraux",
         "Informations sur le pays — utilisées uniquement pour déterminer automatiquement la langue de l'écran et non conservées"
       ]
     },
     {
-      "heading": "4. Cookies et publicité",
+      "heading": "4. Cookies et publicités",
       "paragraphs": [
         "Le service lui-même n'utilise pas de cookies pour suivre les utilisateurs.",
-        "Actuellement, ce service n'affiche pas de publicités. Si des publicités sont affichées à l'avenir, le fournisseur de publicité (par exemple, Google) peut utiliser des cookies pour afficher des publicités. Dans ce cas, cette clause sera d'abord modifiée pour clarifier ce qui change avant de commencer."
+        "Actuellement, ce service ne diffuse pas de publicités. Si des publicités sont diffusées à l'avenir, le fournisseur de publicités (par exemple, Google) peut utiliser des cookies pour la diffusion des annonces. Dans ce cas, cette clause sera d'abord modifiée pour expliquer ce qui change avant de commencer."
       ]
     },
     {
       "heading": "5. Informations conservées lors du paiement",
       "paragraphs": [
-        "Lors du paiement d'un produit payant (rapport PDF), les informations de commande sont conservées pour le traitement du paiement et la conservation des enregistrements de transaction conformément à la législation.",
-        "**Les valeurs saisies pour le calcul de compatibilité et le PDF généré ne sont pas conservés même après le paiement.** Le principe énoncé au point 1 reste inchangé, indépendamment du paiement. Les éléments conservés sont les suivants, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, n'est incluse."
+        "Lors de l'achat de produits payants (carte de rêve, rapport de rêve de conception), les informations de commande sont conservées pour le traitement du paiement et la conservation des enregistrements de transaction conformément à la législation.",
+        "**Les rêves que vous avez soumis et les fichiers créés ne sont pas conservés même après le paiement.** Le principe énoncé au point 1 reste inchangé, indépendamment du paiement. Les éléments conservés sont les suivants, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, n'est incluse."
       ],
       "bullets": [
         "Numéro de commande et identifiant de paiement",
         "Montant du paiement, devise et état du paiement (non payé, payé, annulé)",
-        "Type de produit, état de traitement, nombre de téléchargements du document, date de commande",
+        "Type de produit, état de traitement, nombre de téléchargements de documents, heure de commande",
         "Langue de l'écran au moment de la commande et distinction de la région de paiement (domestique, international)",
-        "Durée de conservation — Conformément à l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens sont conservés pendant 5 ans, et les enregistrements concernant les plaintes ou litiges des consommateurs sont conservés pendant 3 ans avant d'être détruits."
+        "Durée de conservation — Conformément à l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens sont conservés pendant 5 ans, et les enregistrements relatifs aux plaintes ou aux litiges des consommateurs sont conservés pendant 3 ans avant d'être détruits."
       ]
     },
     {
       "heading": "6. Fourniture à des tiers et sous-traitance",
       "paragraphs": [
-        "Comme aucune donnée personnelle permettant d'identifier les utilisateurs n'est conservée, aucune donnée personnelle n'est fournie à des tiers. Le traitement des paiements est sous-traité aux entreprises suivantes.",
-        "Le service utilise l'infrastructure d'hébergement de {hostingProvider}, et dans ce processus, les enregistrements d'accès mentionnés au point 3 sont traités conformément à la politique de cette entreprise.",
+        "Aucune donnée personnelle permettant d'identifier l'utilisateur n'est conservée, donc aucune donnée personnelle n'est fournie à des tiers. Le traitement des paiements est sous-traité aux entreprises suivantes.",
+        "L'infrastructure d'hébergement de {hostingProvider} est utilisée pour le fonctionnement du service, et dans ce processus, les enregistrements de connexion mentionnés au point 3 sont traités conformément à la politique de cette entreprise.",
         "Les paiements nationaux sont traités par Toss Payments, tandis que les paiements internationaux sont traités par PayPal via PortOne. Les informations sur les moyens de paiement, telles que les numéros de carte et de compte, sont directement traitées par ces entreprises, et le service ne les reçoit ni ne les conserve."
       ]
     },
     {
-      "heading": "7. Droits des utilisateurs",
+      "heading": "7. Droits de l'utilisateur",
       "paragraphs": [
-        "Comme les valeurs saisies pour le calcul de compatibilité ne sont pas conservées, il n'y a pas de demande d'accès, de correction ou de suppression à adresser. Les enregistrements de commande restants après paiement doivent être conservés pendant la période définie par la loi, et ils ne peuvent pas être supprimés pendant cette période, mais seront détruits après cette période.",
-        "Les utilisateurs peuvent supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse de leur navigateur.",
+        "Les rêves que vous avez soumis ne sont pas conservés, donc il n'y a pas de demande d'accès, de correction ou de suppression à adresser. Les enregistrements de commande restants après paiement doivent être conservés pendant la période définie par la loi, et ils ne peuvent pas être supprimés pendant cette période, mais seront détruits après cette période.",
+        "L'utilisateur peut supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse du navigateur.",
         "Pour toute question concernant l'utilisation du service, veuillez nous contacter aux coordonnées ci-dessous."
       ]
     },
     {
-      "heading": "8. Données personnelles des enfants",
+      "heading": "8. Informations personnelles des enfants",
       "paragraphs": [
-        "Ce service n'est pas destiné aux enfants de moins de 14 ans et ne collecte pas de données personnelles auprès d'enfants."
+        "Ce service n'est pas destiné aux enfants de moins de 14 ans et ne collecte pas d'informations personnelles auprès des enfants."
       ]
     },
     {
@@ -451,9 +456,9 @@ const d5 = {
       ]
     },
     {
-      "heading": "10. Modifications de la politique",
+      "heading": "10. Modification de la politique",
       "paragraphs": [
-        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, comme le début de l'affichage de publicités ou la vente de produits payants, nous informerons d'abord de la modification."
+        "En cas de modification de cette politique, la date d'entrée en vigueur et les modifications seront publiées sur cette page. Si le contenu du traitement change réellement, comme le début de la diffusion de publicités ou la vente de produits payants, nous informerons d'abord de la modification."
       ]
     }
   ],
@@ -462,54 +467,55 @@ const d5 = {
 
 const d6 = {
   "title": "Conditions d'utilisation",
-  "intro": "Ces conditions définissent les modalités d'utilisation du service InyeonLink (ci-après dénommé « service »). En utilisant le service, vous acceptez ces conditions.",
+  "intro": "Ces conditions définissent les modalités d'utilisation du service Dreams-Link (ci-après dénommé « service »). En utilisant le service, vous acceptez ces conditions.",
   "sections": [
     {
       "heading": "1. Nature du service",
       "paragraphs": [
-        "Le service fournit des informations sur la relation entre deux personnes en appliquant les règles de la divination traditionnelle (saju) et des signes du zodiaque coréen (d띠) en fonction de la date de naissance saisie.",
-        "Le taux de correspondance et les interprétations présentés sont des **documents de référence selon une perspective d'interprétation traditionnelle, et ne constituent pas des prévisions scientifiques ou des affirmations sur la relation.** Un score bas ne signifie pas que la relation est mauvaise, et un score élevé ne garantit pas la relation."
+        "Le service permet à l'utilisateur de rechercher des symboles de rêve dans les rêves qu'il a écrits, et de fournir des références sur la signification de ces symboles selon la tradition. Nous ne dirons pas que nous n'avons pas trouvé de symboles qui ne figurent pas dans le dictionnaire.",
+        "Les symboles et interprétations présentés sont des **références selon une perspective d'interprétation traditionnelle, et ne constituent pas des prévisions sur l'avenir ni des conseils médicaux, financiers ou juridiques.** Un bon rêve ne garantit pas qu'un événement se produira, et un mauvais rêve ne signifie pas qu'un événement est inévitable.",
+        "**Les résultats liés aux rêves de conception ne déterminent pas la grossesse ni le sexe de l'enfant.** Nous vous informerons uniquement des symboles traditionnellement considérés comme des rêves de conception qui apparaissent dans le rêve et de leur contexte."
       ]
     },
     {
       "heading": "2. Frais d'utilisation",
       "paragraphs": [
-        "Le calcul de la compatibilité et la consultation des résultats sont gratuits et ne nécessitent pas d'inscription.",
-        "Recevoir les résultats sous forme de rapport PDF est payant. Les prix et conditions sont indiqués à la section 3 ci-dessous et sur l'écran de paiement."
+        "La consultation des rêves et la visualisation des résultats sont gratuites et ne nécessitent pas d'inscription.",
+        "Recevoir les résultats sous forme de carte de rêve (image) ou de rapport de rêve de conception (PDF) est payant. Les prix et conditions sont affichés dans la section 3 ci-dessous et sur l'écran de paiement."
       ]
     },
     {
       "heading": "3. Produits payants et remboursements",
       "paragraphs": [
-        "Les produits payants proposés sont **deux types de rapports PDF.** Les deux transforment les résultats affichés à l'écran en documents, incluant des informations non présentes à l'écran.",
-        "**Rapport de compatibilité saju PDF** — 7 pages. Il contient la direction des énergies échangées, un tableau examinant plus en détail les saju de chacun, et les fondements des calculs. Paiement national {priceDomestic} (TVA incluse), paiement international {priceGlobal}.",
-        "**Rapport de lien PDF** — 4 pages. Il contient le tableau complet des dix tiges célestes et des douze signes du zodiaque, qui ne sont pas affichés à l'écran. Paiement national {priceAffinityDomestic} (TVA incluse), paiement international {priceAffinityGlobal}.",
-        "Les paiements nationaux peuvent être effectués via Toss Payments en utilisant des cartes de crédit, de débit et des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.), tandis que les paiements internationaux se font via PayPal par PortOne. Le montant final est celui affiché sur l'écran de paiement.",
-        "**Le service ne conserve ni les valeurs saisies par l'utilisateur ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est généré et envoyé immédiatement, sans rien conserver sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
-        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si les valeurs saisies disparaissent en dehors de l'écran des résultats, il ne sera pas possible de les recréer, donc veuillez sauvegarder le fichier immédiatement après le paiement."
+        "Les produits payants que nous proposons sont **deux**. Vous pouvez utiliser l'interprétation gratuite sans paiement, et les deux produits ci-dessous vous permettent de conserver les résultats sous une forme tangible.",
+        "**Carte de rêve** — Il s'agit d'un fichier image unique. Elle conserve et permet de partager les symboles et significations traditionnelles du rêve que vous avez fait ce jour-là. **Ce n'est pas un document (PDF).** Paiement national {priceCardDomestic} (TVA incluse), paiement international {priceCardGlobal}.",
+        "**Rapport de rêve de conception PDF** — 4 pages. Il contient la signification traditionnelle des symboles et leur contexte sous forme de document. **Il ne détermine pas la grossesse** — nous vous informerons uniquement que des symboles traditionnellement considérés comme des rêves de conception sont apparus dans le rêve. Paiement national {priceConceptionDomestic} (TVA incluse), paiement international {priceConceptionGlobal}.",
+        "Pour les paiements nationaux, vous pouvez utiliser des cartes de crédit ou de débit et des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.) via Toss Payments, et pour les paiements internationaux, via PayPal par PortOne. Le montant final est celui affiché sur l'écran de paiement.",
+        "**Le service ne conserve ni les données saisies par l'utilisateur ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien conserver sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
+        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si vous quittez l'écran des résultats et que les données saisies disparaissent, il ne sera pas possible de le recréer, donc veuillez sauvegarder le fichier immédiatement après le paiement."
       ],
       "bullets": [
-        "**Avant le début du téléchargement après le paiement, vous pouvez annuler à tout moment et obtenir un remboursement intégral.**",
-        "**Après la fin du téléchargement, le droit de rétractation pour simple changement d'avis est limité.** Il s'agit de contenu numérique fourni immédiatement, et cela correspond aux raisons de limitation du droit de rétractation définies à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
-        "**En cas d'erreur système empêchant la création du document, si le fichier ne s'ouvre pas ou si le montant payé diffère de la commande,** un nouvel envoi ou un remboursement intégral sera effectué.",
-        "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats de compatibilité sont des documents de référence selon une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement (voir section 1 ci-dessus).",
-        "Les demandes de réémission après avoir utilisé les 5 réémissions sont considérées comme non remboursables.",
-        "**Si un mineur effectue un paiement sans le consentement de son représentant légal,** celui-ci ou le mineur peut annuler ce paiement. Veuillez nous en informer aux coordonnées ci-dessous pour obtenir un remboursement."
+        "**Avant le début du téléchargement après le paiement, vous pouvez** annuler à tout moment et obtenir un remboursement intégral.",
+        "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit de contenu numérique fourni immédiatement après le paiement, et cela correspond aux raisons de limitation du droit de rétractation définies à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
+        "**En cas d'erreur système empêchant la création du document, de fichier ne s'ouvrant pas ou de montant de paiement différent de la commande,** un réémission ou un remboursement intégral sera effectué.",
+        "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats d'interprétation sont des références selon une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement (voir point 1 ci-dessus).",
+        "Les demandes de remboursement après avoir utilisé les 5 réémissions sont considérées comme non valables.",
+        "**Si un mineur effectue un paiement sans le consentement de son représentant légal,** lui-même ou son représentant légal peut annuler ce paiement. Veuillez nous en informer aux coordonnées ci-dessous pour obtenir un remboursement."
       ]
     },
     {
-      "heading": "4. Concernant les résultats des calculs",
+      "heading": "4. Concernant les résultats d'interprétation",
       "paragraphs": [
-        "Tous les scores sont calculés selon des règles publiques, donc si les mêmes valeurs sont saisies, les mêmes résultats seront toujours obtenus.",
-        "Si l'heure de naissance n'est pas saisie, le calcul se fait sans le pilier horaire (시주), ce qui peut entraîner des résultats différents. Plus le lieu de naissance est choisi avec précision, plus le calcul du pilier horaire sera exact.",
-        "Le calcul du calendrier lunaire utilise une bibliothèque de calcul publique, et les résultats peuvent varier en fonction de la manière dont les saisons et les fuseaux horaires sont traités."
+        "Les règles de recherche des symboles suivent un dictionnaire public et une procédure établie, donc si vous écrivez le même texte, vous obtiendrez toujours les mêmes symboles.",
+        "Plus vous écrivez brièvement, moins il y aura de symboles. Nous ne pouvons pas trouver des symboles qui ne figurent pas dans le dictionnaire, et dans ce cas, nous laisserons le résultat vide.",
+        "Le dictionnaire des symboles est une compilation de documents d'interprétation des rêves transmis et de traditions orales, et les interprétations peuvent varier selon les régions et les époques."
       ]
     },
     {
       "heading": "5. Responsabilité de l'utilisateur",
       "paragraphs": [
-        "L'utilisateur peut saisir la date de naissance d'autrui, mais ne doit pas utiliser les résultats de manière préjudiciable à autrui.",
-        "Ne pas utiliser les résultats du service comme base pour des décisions influençant les droits d'autrui, tels que le mariage, le divorce, l'embauche ou les transactions. Le service n'est pas conçu à cette fin."
+        "L'utilisateur peut écrire les rêves d'autrui, mais il ne doit pas utiliser les résultats de manière à nuire à autrui.",
+        "Ne pas utiliser les résultats du service comme base pour des décisions affectant les droits ou intérêts des personnes, tels que la grossesse, la santé, les investissements ou l'embauche. Le service n'est pas conçu à cette fin."
       ]
     },
     {
@@ -518,7 +524,7 @@ const d6 = {
         "Les actions suivantes ne sont pas autorisées."
       ],
       "bullets": [
-        "Envoyer des demandes excessives à l'aide d'outils automatisés, perturbant le fonctionnement du service",
+        "Envoyer des demandes excessives avec des outils automatisés qui perturbent le fonctionnement du service",
         "Présenter les résultats du service comme des faits ou des résultats d'expertise",
         "Dupliquer ou modifier le service pour fournir un service identique"
       ]
@@ -526,21 +532,21 @@ const d6 = {
     {
       "heading": "7. Exonération de responsabilité",
       "paragraphs": [
-        "Le service ne fournit que des documents de référence et ne peut être tenu responsable des jugements et des résultats basés sur ceux-ci par l'utilisateur.",
-        "En cas d'interruption du service pour des raisons indépendantes de notre volonté, telles que des catastrophes naturelles ou des pannes de fournisseurs d'infrastructure, nous ne serons pas responsables des dommages en résultant."
+        "Le service ne fournit que des références et ne prend aucune responsabilité pour les décisions prises par l'utilisateur sur la base des résultats et leurs conséquences.",
+        "En cas d'interruption du service pour des raisons indépendantes de notre volonté, telles que des catastrophes naturelles ou des défaillances des fournisseurs d'infrastructure, nous ne serons pas responsables des dommages en résultant."
       ]
     },
     {
       "heading": "8. Droits de propriété intellectuelle",
       "paragraphs": [
-        "Les droits sur l'interface du service, les phrases et les implémentations des règles de calcul appartiennent à l'opérateur. L'utilisateur peut sauvegarder ou partager les résultats à des fins personnelles."
+        "Les droits sur l'interface du service, les phrases et les mises en œuvre des règles de calcul appartiennent à l'opérateur. L'utilisateur peut enregistrer ou partager les résultats à des fins personnelles."
       ]
     },
     {
       "heading": "9. Modifications des conditions et loi applicable",
       "paragraphs": [
-        "En cas de modification des conditions, celles-ci seront publiées sur cette page avec la date d'entrée en vigueur.",
-        "Ces conditions sont régies par la loi de la République de Corée, et les litiges liés à l'utilisation du service seront traités conformément aux procédures définies par la législation applicable."
+        "En cas de modification des conditions, elles seront publiées sur cette page avec la date d'entrée en vigueur.",
+        "Ces conditions sont régies par la loi de la République de Corée, et tout litige lié à l'utilisation du service sera traité conformément aux procédures définies par la législation applicable."
       ]
     }
   ],
@@ -549,19 +555,20 @@ const d6 = {
 
 const d7 = {
   "title": "Politique de traitement des données personnelles",
-  "intro": "InyeonLink ne conserve pas les informations nécessaires au calcul de compatibilité. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est automatiquement enregistré.",
+  "intro": "Dreams-Link ne conserve pas d'informations nécessaires à l'interprétation des rêves. Cette politique décrit ce que le service reçoit, ce qu'il ne conserve pas et ce qui est enregistré automatiquement.",
   "sections": [
     {
       "heading": "1. Informations non conservées",
       "paragraphs": [
-        "Les dates de naissance, heures de naissance, lieux de naissance, sexes et noms utilisés pour le calcul de compatibilité ne sont **pas enregistrés nulle part.** Ils ne sont utilisés que dans la mémoire du serveur pendant le traitement de la demande et disparaissent avec la réponse.",
-        "Aucune donnée n'est enregistrée dans la base de données et aucun fichier séparé n'est conservé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique."
+        "Les récits de rêves que vous soumettez pour l'interprétation, vos sentiments au réveil, et si vous faites des rêves récurrents ne sont **pas enregistrés nulle part.** Ils sont utilisés uniquement en mémoire serveur pendant le traitement de la demande et disparaissent avec la réponse.",
+        "Aucune donnée n'est enregistrée dans une base de données, ni conservée dans un fichier séparé. Comme il n'y a pas d'inscription, les valeurs saisies ne sont pas liées à une personne spécifique.",
+        "Les récits de rêves sont les valeurs les plus privées que ce service reçoit. C'est pourquoi il n'y a pas de fonctionnalité pour revoir les résultats précédents (journal de rêves) — cette fonctionnalité nécessiterait de conserver les écrits que vous avez soumis."
       ]
     },
     {
       "heading": "2. Informations contenues dans le lien de résultat",
       "paragraphs": [
-        "L'adresse de l'écran de résultats contient les valeurs saisies sous forme codée. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé par le navigateur au serveur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les enregistrements de connexion du serveur.",
+        "L'adresse de l'écran de résultats contient des valeurs codées. Cependant, cette valeur se trouve après le # dans l'adresse, et selon les normes web, le contenu après le # n'est pas envoyé au serveur par le navigateur. Par conséquent, même si vous ouvrez le lien de résultat, seul le chemin de l'adresse reste dans les journaux d'accès du serveur.",
         "Si vous envoyez le lien de résultat à une autre personne, cette personne pourra également voir le même résultat. Le lien lui-même contient les valeurs saisies, donc la décision de partager appartient à l'utilisateur."
       ]
     },
@@ -571,52 +578,52 @@ const d7 = {
         "Il n'y a pas d'informations collectées par le service pour identifier les utilisateurs. Cependant, un minimum d'enregistrements nécessaires au fonctionnement du service est automatiquement conservé par le fournisseur d'infrastructure."
       ],
       "bullets": [
-        "Adresse IP de connexion, date et heure de connexion, type de navigateur, etc., enregistrements de connexion du serveur habituels",
+        "Adresse IP d'accès, date et heure d'accès, type de navigateur, etc., enregistrements d'accès serveur généraux",
         "Informations sur le pays — utilisées uniquement pour déterminer automatiquement la langue de l'écran et non conservées"
       ]
     },
     {
       "heading": "4. Cookies et publicité",
       "paragraphs": [
-        "Le service lui-même n'utilise pas de cookies pour identifier ou suivre les utilisateurs. Les informations saisies pour le calcul de compatibilité ne sont pas transmises aux annonceurs.",
-        "Ce service diffuse des publicités via Google AdSense. Dans ce processus, les événements suivants se produisent."
+        "Le service lui-même n'utilise pas de cookies pour identifier ou suivre les utilisateurs. Les récits de rêves que vous soumettez ne sont pas transmis aux annonceurs.",
+        "Ce service affiche des publicités via Google AdSense. Dans ce processus, les événements suivants se produisent."
       ],
       "bullets": [
         "Des fournisseurs tiers, y compris Google, peuvent stocker ou lire des cookies dans le navigateur de l'utilisateur.",
-        "Google utilise des cookies pour diffuser des publicités basées sur l'historique de visites de ce site et d'autres sites.",
-        "Les utilisateurs peuvent désactiver les publicités personnalisées dans les paramètres publicitaires de Google (google.com/settings/ads). Même si désactivées, les publicités continueront à s'afficher, mais leur pertinence pour l'utilisateur sera réduite.",
+        "Google utilise des cookies pour afficher des publicités basées sur l'historique de visites de ce site et d'autres sites.",
+        "L'utilisateur peut désactiver les publicités personnalisées dans les paramètres publicitaires de Google (google.com/settings/ads). Même si désactivées, les publicités continueront d'apparaître, mais leur pertinence pour l'utilisateur sera réduite.",
         "Les publicités personnalisées de tous les fournisseurs tiers peuvent être désactivées en une seule fois sur aboutads.info/choices.",
         "Il est également possible de bloquer les cookies dans les paramètres du navigateur.",
-        "Pour les utilisateurs de l'Espace économique européen, du Royaume-Uni et de la Suisse, un consentement préalable est demandé pour l'utilisation des cookies publicitaires."
+        "Pour les utilisateurs de l'Espace économique européen, du Royaume-Uni et de la Suisse, le consentement à l'utilisation des cookies publicitaires est demandé au préalable."
       ]
     },
     {
       "heading": "5. Informations conservées lors du paiement",
       "paragraphs": [
-        "Lors du paiement d'un produit payant (compatibility report PDF), les informations de commande sont conservées pour le traitement du paiement et la conservation des enregistrements de transactions conformément à la loi.",
-        "**Les valeurs saisies pour le calcul de compatibilité et le PDF généré ne sont pas conservés même après paiement.** Le principe énoncé au point 1 reste inchangé, indépendamment du paiement. Les éléments conservés sont les suivants, sans inclure d'informations permettant d'identifier l'utilisateur telles que le nom, les coordonnées ou l'adresse."
+        "Lorsque vous effectuez un paiement pour des produits payants (carte de rêve, rapport de rêve de conception), les informations de commande sont conservées pour le traitement du paiement et la conservation des enregistrements de transactions conformément à la législation.",
+        "**Les rêves que vous avez soumis et les fichiers créés ne sont pas conservés même en cas de paiement.** Le principe énoncé au point 1 reste inchangé, indépendamment du paiement. Les éléments conservés sont les suivants, et aucune information permettant d'identifier l'utilisateur, comme le nom, les coordonnées ou l'adresse, n'est incluse."
       ],
       "bullets": [
         "Numéro de commande et identifiant de paiement",
         "Montant du paiement, devise et état du paiement (non payé, payé, annulé)",
         "Type de produit, état de traitement, nombre de téléchargements de documents, heure de commande",
-        "Langue de l'écran au moment de la commande et distinction de la région de paiement (domestique ou international)",
-        "Durée de conservation — Selon l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens sont conservés pendant 5 ans, et les enregistrements relatifs aux plaintes ou litiges des consommateurs sont conservés pendant 3 ans avant d'être détruits."
+        "Langue de l'écran au moment de la commande et distinction de la région de paiement (domestique, international)",
+        "Durée de conservation — Conformément à l'article 6 de la loi sur la protection des consommateurs dans le commerce électronique, les enregistrements relatifs au paiement et à la fourniture de biens sont conservés pendant 5 ans, et les enregistrements relatifs aux plaintes ou litiges des consommateurs sont conservés pendant 3 ans avant d'être détruits."
       ]
     },
     {
-      "heading": "6. Fourniture et traitement par des tiers",
+      "heading": "6. Fourniture à des tiers et sous-traitance",
       "paragraphs": [
-        "Comme aucune donnée personnelle permettant d'identifier l'utilisateur n'est conservée, il n'y a pas de données personnelles fournies à des tiers. Le traitement des paiements est confié aux entreprises suivantes.",
-        "Le service utilise l'infrastructure d'hébergement de {hostingProvider}, et dans ce processus, les enregistrements de connexion mentionnés au point 3 sont traités conformément à la politique de cette entreprise.",
-        "Les paiements domestiques sont traités par Toss Payments, tandis que les paiements internationaux sont traités par PayPal via PortOne. Les informations sur les moyens de paiement, telles que les numéros de carte et de compte, sont traitées directement par ces entreprises, et le service ne les reçoit ni ne les conserve."
+        "Étant donné que nous ne conservons pas de données personnelles permettant d'identifier les utilisateurs, il n'y a pas de données personnelles fournies à des tiers. Le traitement des paiements est sous-traité aux entreprises suivantes.",
+        "Nous utilisons l'infrastructure d'hébergement de {hostingProvider} pour le fonctionnement du service, et dans ce processus, les enregistrements d'accès du point 3 sont traités conformément à la politique de cette entreprise.",
+        "Les paiements nationaux sont traités par Toss Payments, tandis que les paiements internationaux sont traités par PayPal via PortOne. Les informations de paiement telles que les numéros de carte et de compte sont directement traitées par ces entreprises, et le service ne les reçoit ni ne les conserve."
       ]
     },
     {
       "heading": "7. Droits des utilisateurs",
       "paragraphs": [
-        "Comme les valeurs saisies pour le calcul de compatibilité ne sont pas conservées, il n'y a pas de demande d'accès, de correction ou de suppression à adresser. Les enregistrements de commande restants après paiement doivent être conservés pendant la période définie par la loi, et ne peuvent donc pas être supprimés pendant cette période, mais seront détruits après cette période.",
-        "Les utilisateurs peuvent supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse du navigateur.",
+        "Étant donné que les rêves que vous avez soumis ne sont pas conservés, il n'y a pas de demande d'accès, de correction ou de suppression à adresser. Les enregistrements de commande restants en cas de paiement doivent être conservés pendant la période définie par la loi, et ne peuvent donc pas être supprimés pendant cette période, mais seront détruits après cette période.",
+        "L'utilisateur peut supprimer toutes les traces de saisie simplement en effaçant le lien de résultat dans la barre d'adresse du navigateur.",
         "Pour toute question concernant l'utilisation du service, veuillez nous contacter aux coordonnées ci-dessous."
       ]
     },

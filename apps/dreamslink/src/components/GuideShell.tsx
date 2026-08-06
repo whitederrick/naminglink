@@ -60,7 +60,7 @@ export function GuideShell({
             <span aria-hidden>←</span>
             {backLabel}
           </Link>
-          <p className="mt-2 text-sm font-semibold tracking-wide text-[#e2b7c6]">
+          <p className="mt-2 text-sm font-semibold tracking-wide text-[#b9a8dd]">
             {eyebrow}
           </p>
           <h1 className="break-keep-all max-w-3xl text-3xl font-semibold leading-tight sm:text-4xl">
@@ -119,8 +119,8 @@ export function GuideNote({
   children: ReactNode;
 }) {
   return (
-    <aside className="rounded-lg border border-brand-plum/25 bg-surface-strong px-4 py-3 text-sm leading-7">
-      {title ? <p className="font-semibold text-brand-plum">{title}</p> : null}
+    <aside className="rounded-lg border border-brand-violet/25 bg-surface-strong px-4 py-3 text-sm leading-7">
+      {title ? <p className="font-semibold text-brand-violet">{title}</p> : null}
       <div className={title ? "mt-1" : undefined}>{children}</div>
     </aside>
   );

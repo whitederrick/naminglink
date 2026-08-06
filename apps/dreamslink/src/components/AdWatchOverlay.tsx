@@ -106,7 +106,7 @@ export function AdWatchOverlay({
         <div className="flex items-center gap-3">
           <span
             aria-hidden
-            className="size-3 shrink-0 animate-pulse rounded-full bg-brand-plum"
+            className="size-3 shrink-0 animate-pulse rounded-full bg-brand-violet"
           />
           <p className="break-keep-all text-sm font-semibold">
             {analyzing.watching}
@@ -118,7 +118,7 @@ export function AdWatchOverlay({
           className="mt-4 h-1.5 overflow-hidden rounded-full bg-surface-strong"
         >
           <div
-            className="h-full rounded-full bg-brand-plum transition-[width] duration-200 ease-linear"
+            className="h-full rounded-full bg-brand-violet transition-[width] duration-200 ease-linear"
             style={{ width: `${progress}%` }}
           />
         </div>

@@ -32,7 +32,7 @@ export function PrivacyNotice({
     >
       <h2
         className={`break-keep-all text-base font-semibold ${
-          onDark ? "text-white" : "text-brand-sage"
+          onDark ? "text-white" : "text-brand-moonlit"
         }`}
       >
         {landing.privacyTitle}

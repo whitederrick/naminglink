@@ -9,7 +9,7 @@
 // 따라 갈리는데, 지금(둘 다 꺼짐)만 번역해 두면 오픈해서 켜는 순간 그 문단만 한국어·영어로
 // 되돌아간다. 두 상태를 다 담아 두면 플래그를 켜도 번역이 따라온다.
 //
-// 실행: apps/inyeonlink 에서
+// 실행: apps/dreamslink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig tsconfig.json scripts/extract-ko-legal.ts
 import { writeFileSync } from "node:fs";
 import path from "node:path";
@@ -29,14 +29,17 @@ const PLACEHOLDER_COMPANY = {
 // 금액 자리에 플레이스홀더를 넣어 뽑는다. 스냅샷에 실제 금액이 박히면 가격을 바꿀 때마다
 // 21로케일을 다시 번역해야 한다 — 자리만 남겨 두면 렌더 시점에 DB 값으로 채워진다.
 //
-// 이름 없는 두 자리(`priceDomestic`·`priceGlobal`)는 **궁합 가격**이다. 2026-07-31에 상품이
-// 둘로 갈리면서 인연의 결 자리를 더했는데, 기존 이름의 뜻은 바꾸지 않았다 — 이름을 갈면
-// 이미 번역된 21개 파일을 전부 손대야 한다.
+// **이름이 파는 상품을 그대로 말한다.** 인연링크에서 물려받았을 때는 `{priceDomestic}`이
+// 궁합 가격, `{priceAffinity*}`가 인연의 결 가격이었고, 드림링크로 옮기면서 뜻만 꿈 카드·태몽
+// 리포트로 바꾼 채 이름을 두었다("이름을 갈면 번역된 21개 파일을 전부 손대야 한다"는 이유로).
+// 그 상태에서는 `{priceAffinityGlobal}`이 태몽 리포트 가격이라는 것을 코드 주석으로만 알 수
+// 있어, 자리를 한 칸 밀어 넣어도 아무 검사기도 잡지 못한다. 21개 파일을 어차피 다시 만드는
+// 김에 이름을 뜻에 맞췄다.
 const PLACEHOLDER_PRICES = {
-  card: { domestic: "{priceDomestic}", global: "{priceGlobal}" },
+  card: { domestic: "{priceCardDomestic}", global: "{priceCardGlobal}" },
   conception: {
-    domestic: "{priceAffinityDomestic}",
-    global: "{priceAffinityGlobal}",
+    domestic: "{priceConceptionDomestic}",
+    global: "{priceConceptionGlobal}",
   },
 } as const;
 

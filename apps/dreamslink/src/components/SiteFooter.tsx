@@ -94,7 +94,7 @@ export async function SiteFooter({
     : "border-line text-muted";
   const linkClass = isOnDark
     ? "text-white/86 hover:text-white"
-    : "text-foreground hover:text-brand-plum";
+    : "text-foreground hover:text-brand-violet";
   const valueClass = isOnDark
     ? "font-semibold text-white"
     : "font-semibold text-foreground";

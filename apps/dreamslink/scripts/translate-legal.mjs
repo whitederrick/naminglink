@@ -1,4 +1,4 @@
-// 인연링크 약관 4종을 ko 원본에서 나머지 21개 로케일로 번역해 파일로 쓴다.
+// 드림링크 약관 4종을 ko 원본에서 나머지 21개 로케일로 번역해 파일로 쓴다.
 //
 // 왜 필요한가: `getLegalDocument`가 `locale === "ko" ? ko : en`이었다. 화면 사전은 23로케일인데
 // **약관 본문만 21개 언어에서 영어로 나갔다.** PDF를 파는 이상 naminglink 결제 고지와 같은
@@ -48,7 +48,12 @@ const LANG_NAMES = {
 
 const COMBOS = ["a0p0", "a1p0", "a0p1", "a1p1"];
 const KEYS = ["privacy", "terms", "refund", "pricing"];
-const PLACEHOLDER = /\{(customerCenter|email|hostingProvider|privacyOfficer|priceDomestic|priceGlobal)\}/g;
+// ⚠️ **이 목록이 `legal-content.ts`의 `fillPlaceholders`와 같아야 한다.** 여기 빠진 표시는
+// 번역기가 "지켜야 할 것"으로 보지 않으므로 모델이 번역해 버리고, 그러면 그 자리가 렌더 시점에
+// 치환되지 않아 화면에 `{...}`가 그대로 나가거나 가격이 통째로 빠진다. 실제로 둘째 상품의 가격
+// 표시 두 개가 이 목록에 없는 채로 있었다(2026-08-06에 이름을 바로잡으며 함께 고침).
+const PLACEHOLDER =
+  /\{(customerCenter|email|hostingProvider|privacyOfficer|priceCardDomestic|priceCardGlobal|priceConceptionDomestic|priceConceptionGlobal)\}/g;
 
 const koDocs = JSON.parse(readFileSync(path.join(DIR, "_ko-docs.json"), "utf8"));
 
@@ -111,13 +116,14 @@ async function ask(langName, payload, shapeHint) {
         {
           role: "system",
           content: [
-            `You are a legal localizer for InyeonLink, a Korean saju (four pillars) and zodiac compatibility web service. Translate the given Korean legal document into ${langName}.`,
+            `You are a legal localizer for Dreams-Link, a Korean dream-reading (해몽) web service: a visitor writes down a dream and the service looks up its symbols in a dictionary of traditional Korean dream lore. Translate the given Korean legal document into ${langName}.`,
             "Translate faithfully and formally, as legal/policy text — not marketing copy.",
-            "CRITICAL: keep every placeholder token EXACTLY as-is, unchanged and untranslated: {customerCenter} {email} {hostingProvider} {privacyOfficer} {priceDomestic} {priceGlobal}. They are substituted with real values at runtime.",
-            "Keep unchanged ONLY these proper names: InyeonLink, Google AdSense, Supabase Inc., Vercel Inc., PortOne, Toss Payments; plus URLs and domains (google.com/settings/ads, aboutads.info/choices) and all numbers.",
-            "CRITICAL: product names are NOT brands — translate them. '궁합 리포트 PDF' must become the target-language phrase for \"compatibility report PDF\", '인연의 결 리포트' likewise. Leaving them in Korean is a mistranslation.",
-            "CRITICAL: the output must contain NO Korean (Hangul) characters, with one exception — you may put a Korean term in parentheses right after its translation as a gloss, e.g. \"saju (사주)\". Never leave a Korean word or sentence standing on its own.",
-            "CRITICAL: this service is about KOREAN saju and the KOREAN zodiac, and it is operated under KOREAN law. Never substitute the reader's own country or legal system for Korea.",
+            "CRITICAL: keep every placeholder token EXACTLY as-is, unchanged and untranslated: {customerCenter} {email} {hostingProvider} {privacyOfficer} {priceCardDomestic} {priceCardGlobal} {priceConceptionDomestic} {priceConceptionGlobal}. They are substituted with real values at runtime.",
+            "Keep unchanged ONLY these proper names: Dreams-Link, Google AdSense, Supabase Inc., Vercel Inc., PortOne, Toss Payments; plus URLs and domains (google.com/settings/ads, aboutads.info/choices) and all numbers.",
+            "CRITICAL: product names are NOT brands — translate them. '꿈 카드' must become the target-language phrase for \"dream card\" (a single image, not a PDF), '태몽 리포트' the phrase for \"conception-dream report\". Leaving them in Korean is a mistranslation.",
+            "CRITICAL: never let the translation promise more than the Korean does. The service does not predict the future, and it never determines pregnancy or the sex of a child — where the Korean hedges, keep the hedge exactly as strong.",
+            "CRITICAL: the output must contain NO Korean (Hangul) characters, with one exception — you may put a Korean term in parentheses right after its translation as a gloss, e.g. \"conception dream (태몽)\". Never leave a Korean word or sentence standing on its own.",
+            "CRITICAL: this service reads dreams through KOREAN tradition, and it is operated under KOREAN law. Never substitute the reader's own country or legal system for Korea, and never turn it into a compatibility or fortune-telling service.",
             "Markdown emphasis written as **text** must stay **text** with the emphasis on the same phrase.",
             shapeHint,
           ].join(" "),

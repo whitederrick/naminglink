@@ -61,7 +61,7 @@ export function PageHeader({
               <Link
                 key={item.href}
                 href={item.href}
-                className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg bg-brand-plum px-4 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+                className="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg bg-brand-violet px-4 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
                 {item.icon === "home" ? (
                   <Home aria-hidden="true" size={17} />
@@ -77,8 +77,8 @@ export function PageHeader({
                 aria-current={item.active ? "page" : undefined}
                 className={`inline-flex h-10 w-fit items-center justify-center gap-2 rounded-lg border px-4 text-[13px] font-semibold shadow-sm transition sm:text-sm ${
                   item.active
-                    ? "border-brand-plum bg-brand-plum/10 text-brand-plum"
-                    : "border-line bg-surface text-foreground hover:border-brand-plum"
+                    ? "border-brand-violet bg-brand-violet/10 text-brand-violet"
+                    : "border-line bg-surface text-foreground hover:border-brand-violet"
                 }`}
               >
                 {item.icon === "back" ? (

@@ -45,7 +45,7 @@ const adsSectionKo: LegalSection = adsEnabled
   ? {
       heading: "4. 쿠키와 광고",
       paragraphs: [
-        "서비스 자체는 이용자를 식별하거나 추적하기 위한 쿠키를 사용하지 않습니다. 궁합 계산에 입력한 정보는 광고 사업자에게 전달되지 않습니다.",
+        "서비스 자체는 이용자를 식별하거나 추적하기 위한 쿠키를 사용하지 않습니다. 적어 주신 꿈 이야기는 광고 사업자에게 전달되지 않습니다.",
         "이 서비스는 Google AdSense를 통해 광고를 게재합니다. 이 과정에서 다음과 같은 일이 일어납니다.",
       ],
       bullets: [
@@ -69,7 +69,7 @@ const adsSectionEn: LegalSection = adsEnabled
   ? {
       heading: "4. Cookies and advertising",
       paragraphs: [
-        "The service itself does not use cookies to identify or track visitors. What you enter for a compatibility reading is never passed to an advertising provider.",
+        "The service itself does not use cookies to identify or track visitors. The dream you write is never passed to an advertising provider.",
         "This service shows advertising through Google AdSense. That involves the following.",
       ],
       bullets: [
@@ -101,15 +101,15 @@ const feeSectionKo: LegalSection = paymentsConfigured
   ? {
       heading: "2. 이용료",
       paragraphs: [
-        "궁합 계산과 결과 조회는 무료이며 회원가입이 필요하지 않습니다.",
-        "결과를 PDF 리포트로 받는 것은 유료입니다. 가격과 조건은 아래 3항과 결제 화면에 표시됩니다.",
+        "해몽 조회와 결과 열람은 무료이며 회원가입이 필요하지 않습니다.",
+        "결과를 꿈 카드(이미지)나 태몽 리포트(PDF)로 받는 것은 유료입니다. 가격과 조건은 아래 3항과 결제 화면에 표시됩니다.",
       ],
     }
   : {
       heading: "2. 이용료",
       paragraphs: [
         "현재 서비스는 전부 무료로 제공되며 회원가입이 필요하지 않습니다.",
-        "유료 상품(리포트 PDF 두 가지)의 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
+        "유료 상품(꿈 카드 이미지, 태몽 리포트 PDF) 판매를 시작하면 아래 3항의 조건이 적용됩니다. 판매 개시 전에 이 약관을 다시 고지합니다.",
       ],
     };
 
@@ -174,7 +174,7 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
     "**Before the download begins**, you may cancel at any time for a full refund.",
     "**After the download completes**, withdrawal for a simple change of mind is restricted. This is digital content delivered immediately upon payment that cannot be returned, which falls under the withdrawal restrictions in Article 17(2) of the Korean Act on Consumer Protection in Electronic Commerce.",
     "**If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund it in full.",
-    "**Dissatisfaction with the content of the reading** is not a ground for refund. A compatibility reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).",
+    "**Dissatisfaction with the content of the reading** is not a ground for refund. A dream reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).",
     "Requests made after all five downloads have been used are not a ground for refund.",
     "**Where a minor has paid without the consent of a legal representative**, either the minor or that representative may cancel the payment. Contact us at the details below and we will refund it.",
   ],
@@ -199,12 +199,12 @@ const paymentSectionKo: LegalSection = {
   heading: "5. 결제 시 저장되는 정보",
   paragraphs: paymentsConfigured
     ? [
-        "유료 상품(리포트 PDF)을 결제하면 결제 처리와 법령상 거래 기록 보존을 위해 주문 정보가 저장됩니다.",
-        "**궁합 계산에 입력한 값과 만들어진 PDF는 결제한 경우에도 저장되지 않습니다.** 위 1항의 원칙은 결제 여부와 무관하게 그대로입니다. 저장되는 항목은 다음과 같으며, 이름·연락처·주소 등 이용자를 식별하는 정보는 포함되지 않습니다.",
+        "유료 상품(꿈 카드, 태몽 리포트)을 결제하면 결제 처리와 법령상 거래 기록 보존을 위해 주문 정보가 저장됩니다.",
+        "**적어 주신 꿈과 만들어진 파일은 결제한 경우에도 저장되지 않습니다.** 위 1항의 원칙은 결제 여부와 무관하게 그대로입니다. 저장되는 항목은 다음과 같으며, 이름·연락처·주소 등 이용자를 식별하는 정보는 포함되지 않습니다.",
       ]
     : [
         "현재 유료 상품을 판매하지 않으므로 결제와 관련해 저장되는 정보도 없습니다.",
-        "판매를 시작하면 결제 처리와 법령상 거래 기록 보존을 위해 아래 항목이 저장됩니다. **그때에도 궁합 계산에 입력한 값과 만들어진 PDF는 저장하지 않으며**, 이름·연락처·주소 등 이용자를 식별하는 정보도 받지 않습니다.",
+        "판매를 시작하면 결제 처리와 법령상 거래 기록 보존을 위해 아래 항목이 저장됩니다. **그때에도 적어 주신 꿈과 만들어진 파일은 저장하지 않으며**, 이름·연락처·주소 등 이용자를 식별하는 정보도 받지 않습니다.",
       ],
   bullets: paymentRecordItemsKo,
 };
@@ -234,12 +234,12 @@ const paymentSectionEn: LegalSection = {
   heading: "5. What a payment stores",
   paragraphs: paymentsConfigured
     ? [
-        "Paying for the compatibility report PDF stores order information, both to process the payment and to keep the transaction records required by law.",
-        "**Neither your input nor the generated PDF is stored, even when you pay.** Section 1 holds regardless of payment. What is stored is listed below, and it contains nothing that identifies you — no name, contact details or address.",
+        "Paying for a dream card or a conception-dream report stores order information, both to process the payment and to keep the transaction records required by law.",
+        "**Neither the dream you wrote nor the generated file is stored, even when you pay.** Section 1 holds regardless of payment. What is stored is listed below, and it contains nothing that identifies you — no name, contact details or address.",
       ]
     : [
         "Nothing is stored in connection with payment, because no paid product is currently sold.",
-        "Once sales begin, the items below will be stored to process payment and to keep the transaction records required by law. **Even then, neither your input nor the generated PDF is stored**, and nothing that identifies you — name, contact details, address — is collected.",
+        "Once sales begin, the items below will be stored to process payment and to keep the transaction records required by law. **Even then, neither the dream you wrote nor the generated file is stored**, and nothing that identifies you — name, contact details, address — is collected.",
       ],
   bullets: paymentRecordItemsEn,
 };
@@ -264,13 +264,14 @@ const koDocuments = (
   privacy: {
     title: "개인정보처리방침",
     intro:
-      "인연링크는 궁합 계산에 필요한 정보를 저장하지 않습니다. 이 방침은 서비스가 무엇을 받고, 무엇을 남기지 않으며, 무엇이 자동으로 기록되는지를 설명합니다.",
+      "드림링크는 해몽에 필요한 정보를 저장하지 않습니다. 이 방침은 서비스가 무엇을 받고, 무엇을 남기지 않으며, 무엇이 자동으로 기록되는지를 설명합니다.",
     sections: [
       {
         heading: "1. 저장하지 않는 정보",
         paragraphs: [
-          "궁합 계산에 입력하는 생년월일, 출생 시각, 출생지, 성별, 부르는 이름은 **어디에도 저장되지 않습니다.** 요청을 처리하는 동안 서버 메모리에서만 사용되고 응답과 함께 사라집니다.",
+          "해몽을 위해 적어 주시는 꿈 이야기, 깨어났을 때의 기분, 같은 꿈을 되풀이해 꾸는지 여부는 **어디에도 저장되지 않습니다.** 요청을 처리하는 동안 서버 메모리에서만 사용되고 응답과 함께 사라집니다.",
           "데이터베이스에 기록하지 않으며, 별도 파일로도 남기지 않습니다. 회원가입이 없으므로 입력값이 특정인과 연결되지도 않습니다.",
+          "꿈 이야기는 이 서비스가 받는 값 중 가장 사적인 것입니다. 그래서 지난 결과를 다시 꺼내 보는 기능(꿈일기)을 두지 않았습니다 — 그 기능은 적어 주신 글을 계속 보관해야만 성립하기 때문입니다.",
         ],
       },
       {
@@ -297,7 +298,7 @@ const koDocuments = (
         heading: "7. 이용자의 권리",
         paragraphs: [
           paymentsConfigured
-            ? "궁합 계산 입력값은 저장하지 않으므로 열람·정정·삭제를 요청할 대상이 없습니다. 결제로 남은 주문 기록은 법령이 정한 기간 동안 보존할 의무가 있어 그 기간에는 삭제해 드릴 수 없으며, 기간이 지나면 파기합니다."
+            ? "적어 주신 꿈은 저장하지 않으므로 열람·정정·삭제를 요청할 대상이 없습니다. 결제로 남은 주문 기록은 법령이 정한 기간 동안 보존할 의무가 있어 그 기간에는 삭제해 드릴 수 없으며, 기간이 지나면 파기합니다."
             : "저장된 개인정보가 없으므로 열람·정정·삭제를 요청할 대상도 없습니다.",
           "이용자는 브라우저 주소창의 결과 링크를 지우는 것만으로 입력 흔적을 모두 없앨 수 있습니다.",
           "서비스 이용과 관련해 문의할 사항이 있으면 아래 연락처로 알려 주십시오.",
@@ -328,30 +329,31 @@ const koDocuments = (
   terms: {
     title: "이용약관",
     intro:
-      "이 약관은 인연링크(이하 “서비스”)의 이용 조건을 정합니다. 서비스를 이용하면 이 약관에 동의한 것으로 봅니다.",
+      "이 약관은 드림링크(이하 “서비스”)의 이용 조건을 정합니다. 서비스를 이용하면 이 약관에 동의한 것으로 봅니다.",
     sections: [
       {
         heading: "1. 서비스의 성격",
         paragraphs: [
-          "서비스는 입력한 생년월일을 바탕으로 전통 명리(사주)와 십이지(띠)의 관계 규칙을 적용해 두 사람의 관계를 참고 자료로 보여 줍니다.",
-          "제시되는 매칭률과 해설은 **전통 해석 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.** 점수가 낮다고 해서 관계가 나쁘다는 뜻이 아니고, 높다고 해서 관계가 보장되는 것도 아닙니다.",
+          "서비스는 이용자가 적어 준 꿈에서 전통 해몽 상징을 찾아, 그 상징에 전해 오는 의미를 참고 자료로 보여 줍니다. 사전에 없는 상징은 찾지 못했다고 말하며, 없는 의미를 지어내지 않습니다.",
+          "제시되는 상징과 해설은 **전통 해석 관점의 참고 자료이며, 앞일에 대한 예측이나 의학·재무·법률 자문이 아닙니다.** 좋은 꿈이라고 해서 어떤 일이 보장되는 것이 아니고, 나쁜 꿈이라고 해서 어떤 일이 예정된 것도 아닙니다.",
+          "**태몽 관련 결과는 임신 여부나 태아의 성별을 판정하지 않습니다.** 전통적으로 태몽으로 보아 온 상징이 나왔다는 사실과 그 배경까지만 알려 드립니다.",
         ],
       },
       feeSectionKo,
       paidProductSectionKo(prices),
       {
-        heading: "4. 계산 결과에 대하여",
+        heading: "4. 해몽 결과에 대하여",
         paragraphs: [
-          "모든 점수는 공개된 규칙에 따라 계산되므로, 같은 값을 입력하면 언제나 같은 결과가 나옵니다.",
-          "출생 시각을 입력하지 않으면 시주(時柱)를 제외하고 계산하므로 결과가 달라질 수 있습니다. 출생지를 정확히 선택할수록 시주 계산이 정확해집니다.",
-          "만세력 계산은 공개된 계산 라이브러리를 사용하며, 절기·시간대 처리 방식에 따라 다른 만세력과 결과가 다를 수 있습니다.",
+          "상징을 찾는 규칙은 공개된 사전과 정해진 절차를 따르므로, 같은 글을 적으면 언제나 같은 상징이 나옵니다.",
+          "짧게 적으실수록 걸리는 상징이 줄어듭니다. 사전에 없는 상징은 찾지 못하며, 그때는 결과를 비워 둡니다.",
+          "상징 사전은 전해 오는 해몽 문헌과 구전을 정리한 것이며, 지역과 시대에 따라 다르게 전해지는 해석이 있습니다.",
         ],
       },
       {
         heading: "5. 이용자의 책임",
         paragraphs: [
-          "이용자는 타인의 생년월일을 입력할 수 있으나, 그로 인한 결과를 타인에게 불이익하게 사용해서는 안 됩니다.",
-          "서비스 결과를 결혼·이혼·채용·거래 등 타인의 권리에 영향을 주는 판단의 근거로 사용하지 마십시오. 서비스는 그러한 용도로 만들어지지 않았습니다.",
+          "이용자는 타인의 꿈을 적을 수 있으나, 그로 인한 결과를 타인에게 불이익하게 사용해서는 안 됩니다.",
+          "서비스 결과를 임신·건강·투자·채용 등 사람의 권리나 이해에 영향을 주는 판단의 근거로 사용하지 마십시오. 서비스는 그러한 용도로 만들어지지 않았습니다.",
         ],
       },
       {
@@ -390,13 +392,13 @@ const koDocuments = (
   refund: {
     title: "환불 및 취소 정책",
     intro:
-      "궁합 리포트 PDF의 취소·환불 기준입니다. 약관 3항과 같은 내용을 따로 모아 두었습니다.",
+      "유료 상품의 취소·환불 기준입니다. 약관 3항과 같은 내용을 따로 모아 두었습니다.",
     sections: [
       {
         heading: "1. 상품의 성격",
         paragraphs: [
-          "판매하는 상품은 **궁합 리포트 PDF** 한 가지이며, 결제가 승인되면 그 자리에서 문서를 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
-          "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 그래서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
+          "판매하는 상품은 **꿈 카드(이미지 1장)**와 **태몽 리포트 PDF** 두 가지이며, 둘 다 결제가 승인되면 그 자리에서 파일을 만들어 즉시 내려보내는 디지털 콘텐츠입니다.",
+          "**서비스는 적어 주신 꿈도, 만들어진 파일도 보관하지 않습니다.** 그래서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
         ],
       },
       {
@@ -411,7 +413,7 @@ const koDocuments = (
         heading: "3. 전액 환불하는 경우",
         paragraphs: ["다음의 경우에는 사유를 확인한 뒤 재발급 또는 전액 환불로 처리합니다."],
         bullets: [
-          "시스템 오류로 문서가 만들어지지 않은 경우",
+          "시스템 오류로 파일이 만들어지지 않은 경우",
           "내려받은 파일이 열리지 않는 경우",
           "결제 금액이 주문과 다른 경우",
           "**미성년자가 법정대리인의 동의 없이 결제한 경우** — 본인 또는 법정대리인이 취소를 요청하실 수 있습니다.",
@@ -421,7 +423,7 @@ const koDocuments = (
         heading: "4. 환불 사유가 아닌 경우",
         paragraphs: [],
         bullets: [
-          "**결과 내용에 대한 불만.** 궁합 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다.",
+          "**결과 내용에 대한 불만.** 해몽 결과는 전통 해석 관점의 참고 자료이며 그 성격을 결제 전에 안내하고 있습니다. 꿈에서 사전에 있는 상징을 찾지 못해 결과가 짧게 나오는 경우도 여기에 해당합니다 — 없는 의미를 지어내지 않기 때문입니다.",
           "재발급 5회를 모두 사용한 뒤의 재요청.",
         ],
       },
@@ -442,24 +444,24 @@ const koDocuments = (
       {
         heading: "1. 무료",
         paragraphs: [
-          "**궁합 계산과 결과 조회는 무료입니다.** 회원가입도 필요하지 않습니다.",
-          "매칭률, 항목별 점수, 두 사람의 사주 원국과 오행 세력, 관계의 모양까지 화면에서 모두 보실 수 있습니다.",
+          "**해몽 조회와 결과 열람은 무료입니다.** 회원가입도 필요하지 않습니다.",
+          "꿈에서 찾은 상징과 그 상징에 전해 오는 의미, 상징들이 함께 가리키는 것까지 화면에서 모두 보실 수 있습니다. 꿈은 매일 꾸는 것이라 이 서비스는 조회를 제한하지 않습니다.",
         ],
       },
       {
-        heading: "2. 사주 궁합 리포트 PDF (유료)",
+        heading: "2. 꿈 카드 (유료)",
         paragraphs: [
           `국내 결제 ${prices.card.domestic}(부가세 포함) · 해외 결제 ${prices.card.global}`,
-          "화면의 결과를 7장짜리 PDF 문서로 만들어 드립니다. 두 기운이 오가는 방향, 각자의 사주를 더 들여다본 표, 네 기둥이 만나는 자리, 계산 근거까지 화면에 없는 내용이 담깁니다.",
+          "화면의 결과를 **이미지 한 장**에 담아 드립니다. 간직하거나 보내기 좋은 형태이며, **PDF 문서가 아닙니다.**",
           "같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
         ],
       },
       {
-        heading: "3. 인연의 결 리포트 PDF (유료)",
+        heading: "3. 태몽 리포트 PDF (유료)",
         paragraphs: [
           `국내 결제 ${prices.conception.domestic}(부가세 포함) · 해외 결제 ${prices.conception.global}`,
-          "화면의 결과를 4장짜리 PDF 문서로 만들어 드립니다. 화면은 잘 맞는 결 셋만 보여 주지만 PDF에는 천간 열 종과 열두 띠의 전체 순위표가 담깁니다.",
-          "재발급 조건은 궁합 리포트와 같습니다.",
+          `전통적으로 태몽으로 보아 온 상징이 걸렸을 때, 그 상징의 의미와 전해 오는 배경을 ${CONCEPTION_PAGE_COUNT}장짜리 PDF로 정리해 드립니다. **임신 여부나 태아의 성별을 판정하지 않습니다.**`,
+          "재발급 조건은 꿈 카드와 같습니다.",
         ],
       },
       {
@@ -488,13 +490,14 @@ const enDocuments = (
   privacy: {
     title: "Privacy Policy",
     intro:
-      "InyeonLink does not store the information you enter for a compatibility reading. This policy explains what the service receives, what it never keeps, and what is logged automatically.",
+      "Dreams-Link does not store what you enter for a dream reading. This policy explains what the service receives, what it never keeps, and what is logged automatically.",
     sections: [
       {
         heading: "1. What is never stored",
         paragraphs: [
-          "The birth date, birth time, birthplace, gender and nickname you enter are **never stored anywhere.** They exist only in server memory while the request is being handled, and disappear with the response.",
+          "The dream you write, how you felt on waking, and whether the dream repeats are **never stored anywhere.** They exist only in server memory while the request is being handled, and disappear with the response.",
           "Nothing is written to a database or to a file. There are no accounts, so an entry is never tied to a person.",
+          "A dream is the most personal thing this service receives. That is why there is no dream journal: such a feature only works by keeping what you wrote on file indefinitely.",
         ],
       },
       {
@@ -552,13 +555,14 @@ const enDocuments = (
   terms: {
     title: "Terms of Service",
     intro:
-      "These terms govern use of InyeonLink (the “service”). Using the service means you accept them.",
+      "These terms govern use of Dreams-Link (the “service”). Using the service means you accept them.",
     sections: [
       {
         heading: "1. What the service is",
         paragraphs: [
-          "The service applies the relationship rules of traditional Korean Saju (Four Pillars) and the twelve zodiac branches to the birth dates you enter, and presents the outcome as reference material.",
-          "The match rate and commentary are **a traditional reading offered for reference — not a scientific prediction and not a verdict on any relationship.** A low score does not mean a relationship is bad, and a high score guarantees nothing.",
+          "The service looks for traditional Korean dream symbols in the dream you write, and presents what those symbols have long been taken to mean as reference material. If a symbol is not in the dictionary, the service says so rather than inventing a meaning.",
+          "The symbols and commentary are **a traditional reading offered for reference — not a prediction of what is to come, and not medical, financial or legal advice.** An auspicious dream guarantees nothing, and an inauspicious one settles nothing.",
+          "**Conception-omen results do not determine pregnancy or the sex of a child.** They go only as far as saying that symbols traditionally read as conception omens appeared, and what tradition says about them.",
         ],
       },
       feeSectionEn,
@@ -566,16 +570,16 @@ const enDocuments = (
       {
         heading: "4. About the results",
         paragraphs: [
-          "Every score follows published rules, so the same input always produces the same result.",
-          "If you leave the birth time blank, the hour pillar is excluded and the result may differ. The more accurately you choose the birthplace, the more accurate the hour pillar becomes.",
-          "Saju calculation uses a public calendar library. Results may differ from other almanacs depending on how solar terms and time zones are handled.",
+          "The matching follows a published dictionary and fixed rules, so the same text always produces the same symbols.",
+          "The less you write, the fewer symbols are found. Symbols outside the dictionary are not found at all, and in that case the result is left empty.",
+          "The symbol dictionary gathers what has been handed down in dream-reading literature and oral tradition. Some readings differ by region and by era.",
         ],
       },
       {
         heading: "5. Your responsibilities",
         paragraphs: [
-          "You may enter another person's birth date, but you must not use the outcome to that person's disadvantage.",
-          "Do not use results as grounds for decisions that affect other people's rights — marriage, divorce, hiring, business dealings. The service was not built for that.",
+          "You may write down someone else's dream, but you must not use the outcome to that person's disadvantage.",
+          "Do not use results as grounds for decisions about pregnancy, health, investment or hiring — anything affecting a person's rights or interests. The service was not built for that.",
         ],
       },
       {
@@ -614,13 +618,13 @@ const enDocuments = (
   refund: {
     title: "Cancellation and Refunds",
     intro:
-      "How cancellation and refunds work for the compatibility report PDF. The same terms appear in section 3 of the Terms of Service.",
+      "How cancellation and refunds work for the paid products. The same terms appear in section 3 of the Terms of Service.",
     sections: [
       {
         heading: "1. What you are buying",
         paragraphs: [
-          "There is one paid product: the **compatibility report PDF**. Once payment is approved the document is generated in that same request and sent to you immediately.",
-          "**We store neither your input nor the generated PDF.** Please save the downloaded file yourself.",
+          "There are two paid products: the **dream card** (a single image) and the **conception-dream report PDF**. For both, once payment is approved the file is generated in that same request and sent to you immediately.",
+          "**We store neither the dream you wrote nor the generated file.** Please save the downloaded file yourself.",
         ],
       },
       {
@@ -633,9 +637,9 @@ const enDocuments = (
       },
       {
         heading: "3. Full refunds",
-        paragraphs: ["We reissue the document or refund in full in these cases."],
+        paragraphs: ["We reissue the file or refund in full in these cases."],
         bullets: [
-          "A system error prevented the document from being produced",
+          "A system error prevented the file from being produced",
           "The downloaded file cannot be opened",
           "The amount charged differs from the order",
           "**A minor paid without the consent of a legal representative** — either may request cancellation.",
@@ -645,7 +649,7 @@ const enDocuments = (
         heading: "4. Not grounds for a refund",
         paragraphs: [],
         bullets: [
-          "**Dissatisfaction with the content.** A compatibility reading is reference material from a traditional interpretive perspective, and this is stated before purchase.",
+          "**Dissatisfaction with the content.** A dream reading is reference material from a traditional interpretive perspective, and this is stated before purchase. A short result — because no symbol from the dictionary was found in your dream — falls under this too: we do not invent meanings that are not there.",
           "Requests after all five downloads have been used.",
         ],
       },
@@ -661,29 +665,29 @@ const enDocuments = (
   },
   pricing: {
     title: "Pricing",
-    intro: "What is free, and what the paid product costs.",
+    intro: "What is free, and what the paid products cost.",
     sections: [
       {
         heading: "1. Free",
         paragraphs: [
-          "**Calculating and viewing a compatibility reading is free**, and requires no account.",
-          "The match rate, the score for each factor, both charts with elemental strength, and the shape of the relationship are all shown on screen.",
+          "**Reading a dream and viewing the result is free**, and requires no account.",
+          "The symbols found in your dream, what each has traditionally meant, and what they point to together are all shown on screen. Dreams come nightly, so the service does not ration how often you may look one up.",
         ],
       },
       {
-        heading: "2. Saju compatibility report PDF (paid)",
+        heading: "2. Dream card (paid)",
         paragraphs: [
           `${prices.card.domestic} (VAT included) for domestic payment - ${prices.card.global} for international payment`,
-          "Turns the on-screen result into a seven-page document. It adds which way the energy flows, a closer look at each chart, where the four pillars meet, and how the charts were calculated - none of which appear on screen.",
-          "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
+          "Puts the on-screen result into **a single image**, made to keep or to share. **It is not a PDF document.**",
+          "The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the file can no longer be produced, so please save it right after payment.",
         ],
       },
       {
-        heading: "3. Match profile report PDF (paid)",
+        heading: "3. Conception-dream report PDF (paid)",
         paragraphs: [
           `${prices.conception.domestic} (VAT included) for domestic payment - ${prices.conception.global} for international payment`,
-          "Turns the on-screen result into a four-page document. The screen shows only the three best-matching types; the PDF carries the full ranking of the ten heavenly stems and the twelve zodiac signs.",
-          "Re-download terms are the same as for the compatibility report.",
+          `When symbols traditionally read as conception omens appear, this sets out their meanings and background across ${CONCEPTION_PAGE_COUNT} pages. **It does not determine pregnancy or the sex of a child.**`,
+          "Re-download terms are the same as for the dream card.",
         ],
       },
       {
@@ -722,18 +726,17 @@ function fillPlaceholders(
     "{email}": company.email,
     "{hostingProvider}": company.hostingProvider,
     "{privacyOfficer}": company.privacyOfficer,
-    // **이름이 아니라 자리로 읽을 것.** `{priceDomestic}`은 **첫째 상품(꿈 카드)**,
-    // `{priceAffinity*}`는 **둘째 상품(태몽 리포트)**을 뜻한다. 이름이 인연링크 시절 그대로인
-    // 것은 21로케일 번역이 그 이름으로 쓰고 있어서다 — 해몽 문안으로 다시 번역할 때 이름도
-    // 함께 갈면 번역 파일을 두 번 손대지 않는다.
-    "{priceDomestic}": prices.card.domestic,
-    "{priceGlobal}": prices.card.global,
-    "{priceAffinityDomestic}": prices.conception.domestic,
-    "{priceAffinityGlobal}": prices.conception.global,
+    // 이름이 파는 상품을 그대로 말한다(`scripts/extract-ko-legal.ts`의 같은 표 참고).
+    // 예전에는 인연링크 시절 이름(`priceAffinity*`)이 태몽 리포트 가격을 뜻해, 자리를 한 칸
+    // 밀어 넣어도 아무 검사기가 잡지 못했다.
+    "{priceCardDomestic}": prices.card.domestic,
+    "{priceCardGlobal}": prices.card.global,
+    "{priceConceptionDomestic}": prices.conception.domestic,
+    "{priceConceptionGlobal}": prices.conception.global,
   };
   const fill = (text: string) =>
     text.replace(
-      /\{(customerCenter|email|hostingProvider|privacyOfficer|priceDomestic|priceGlobal|priceAffinityDomestic|priceAffinityGlobal)\}/g,
+      /\{(customerCenter|email|hostingProvider|privacyOfficer|priceCardDomestic|priceCardGlobal|priceConceptionDomestic|priceConceptionGlobal)\}/g,
       (token) => values[token] ?? token,
     );
 
