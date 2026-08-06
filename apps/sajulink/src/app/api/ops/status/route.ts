@@ -64,6 +64,38 @@ export async function GET(request: NextRequest) {
     ok: true,
     siteUrl,
     checks: [
+      /**
+       * **저장소가 맨 앞이다.** 이것이 꺼지면 나머지가 전부 조용히 무너진다 — 사업자 정보가
+       * 폴백으로 그려지고(법적 고지가 틀린다), 레이트리밋이 통째로 통과하고, 집계와 AI 원가가
+       * 한 줄도 안 쌓이고, 주문 생성이 503이 된다.
+       *
+       * **2026-08-06에 이 앱이 정확히 그 상태로 며칠 떠 있었다.** 그런데 이 화면에 항목이
+       * 없어서, 상태를 보라고 만든 곳이 정작 그날 꺼져 있던 것을 안 보고 있었다.
+       */
+      {
+        key: "supabase",
+        label: "저장소 연결 (Supabase)",
+        enabled: Boolean(
+          process.env.NEXT_PUBLIC_SUPABASE_URL?.trim() &&
+            process.env.SUPABASE_SERVICE_ROLE_KEY?.trim(),
+        ),
+        variable: "NEXT_PUBLIC_SUPABASE_URL · SUPABASE_SERVICE_ROLE_KEY",
+        note: "꺼지면 사업자 정보가 폴백으로 나가고, 레이트리밋이 전부 통과하며, 주문·집계·AI 원가가 남지 않습니다.",
+      },
+      {
+        key: "openai",
+        label: "AI 해설 (유료 리포트)",
+        enabled: Boolean(process.env.OPENAI_API_KEY?.trim()),
+        variable: "OPENAI_API_KEY",
+        note: "없어도 문서는 나갑니다 — 엔진 서술이 해설 자리를 채웁니다(장수는 그대로).",
+      },
+      {
+        key: "analytics_salt",
+        label: "방문자 해시 소금",
+        enabled: Boolean(process.env.ANALYTICS_HASH_SALT?.trim()),
+        variable: "ANALYTICS_HASH_SALT",
+        note: "없으면 서비스 키를 대신 씁니다 — 동작은 하지만 키를 교체하는 날 집계가 끊깁니다.",
+      },
       {
         key: "adsense",
         label: "애드센스 퍼블리셔 ID",
