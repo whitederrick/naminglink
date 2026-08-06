@@ -26,6 +26,8 @@ const BADGE_TONE: Record<AppKey, string> = {
   naminglink: "bg-brand-teal/12 text-brand-teal",
   inyeonlink: "bg-brand-rose/12 text-brand-rose",
   sajulink: "bg-brand-amber/12 text-brand-amber",
+  // 토큰이 셋뿐이라 넷째는 중립으로 둔다(없는 토큰을 지어내지 않는다).
+  dreamslink: "bg-surface-strong text-muted",
 };
 
 function ServiceBadge({ code }: { code: string }) {
@@ -85,6 +87,11 @@ const COPY: Record<AppKey, { title: string; description: string }> = {
     title: "인연링크 상품",
     description:
       "사주 궁합 리포트와 인연의 결 리포트 PDF입니다. 메뉴 둘 × 권역 둘(국내 원화·해외 달러)로 넷이며, 화면에 뜨는 가격과 실제 청구 금액이 모두 이 값에서 나옵니다.\n서체 수는 이 상품들과 무관해 표시하지 않습니다. 가격을 바꾸면 약관의 표기 금액도 함께 갱신해야 합니다(`verify-legal-prices.ts`가 대조합니다).",
+  },
+  dreamslink: {
+    title: "드림링크 상품",
+    description:
+      "꿈 카드(이미지)와 태몽 리포트(PDF)입니다. 상품 둘 × 권역 둘(국내 원화·해외 달러)로 넷이며, 화면에 뜨는 가격과 실제 청구 금액이 모두 이 값에서 나옵니다.\n**이 서비스는 무료 해몽이 본체이고 광고가 주 수익입니다** — 꿈은 매일 꾸는 것이라 사주처럼 한 벌짜리 문서를 팔지 않습니다. 서체 수는 이 상품들과 무관해 표시하지 않습니다.",
   },
   sajulink: {
     title: "사주링크 상품",

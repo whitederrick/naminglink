@@ -1,0 +1,5076 @@
+{
+ "dictVer": "1.2.0",
+ "symbols": [
+  {
+   "id": "pig",
+   "term_ko": "돼지",
+   "term_en": "pig",
+   "aliases": [
+    "돼지꿈",
+    "멧돼지"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "태몽"
+   ],
+   "weight": 3,
+   "culture_note": "한국 대표 재물 길몽",
+   "meanings": [
+    {
+     "context": "돼지가 집에 들어오거나 품",
+     "interpretation_ko": "재물·횡재수",
+     "interpretation_en": "incoming wealth / windfall",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 재물복을 지닌 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "snake",
+   "term_ko": "뱀",
+   "term_en": "snake",
+   "aliases": [
+    "구렁이",
+    "독사"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "태몽",
+    "경계"
+   ],
+   "weight": 3,
+   "meanings": [
+    {
+     "context": "뱀을 잡거나 품",
+     "interpretation_ko": "재물·태몽 가능",
+     "interpretation_en": "wealth or conception omen",
+     "polarity": "positive"
+    },
+    {
+     "context": "뱀에게 물림",
+     "interpretation_ko": "구설·건강 주의",
+     "interpretation_en": "caution: disputes or health",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "dragon",
+   "term_ko": "용",
+   "term_en": "dragon",
+   "aliases": [
+    "청룡",
+    "승천"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "성공",
+    "태몽",
+    "권위"
+   ],
+   "weight": 3,
+   "culture_note": "대길몽, 귀한 자식·큰 출세",
+   "meanings": [
+    {
+     "context": "용이 승천",
+     "interpretation_ko": "큰 성공·명예·귀한 태몽",
+     "interpretation_en": "great success, honor, noble birth omen",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "tiger",
+   "term_ko": "호랑이",
+   "term_en": "tiger",
+   "aliases": [
+    "범"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "권력",
+    "귀인",
+    "위협",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "호랑이를 타거나 물리침",
+     "interpretation_ko": "권력·귀인·출세",
+     "interpretation_en": "power, patron, advancement",
+     "polarity": "positive"
+    },
+    {
+     "context": "호랑이에게 쫓김",
+     "interpretation_ko": "위협·강한 압박",
+     "interpretation_en": "threat or pressure",
+     "polarity": "negative"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 기개가 큰 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "dog",
+   "term_ko": "개",
+   "term_en": "dog",
+   "aliases": [
+    "강아지"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "친구",
+    "충성",
+    "배신"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "온순한 개",
+     "interpretation_ko": "친구·조력자",
+     "interpretation_en": "friend or helper",
+     "polarity": "positive"
+    },
+    {
+     "context": "개에게 물림",
+     "interpretation_ko": "배신·다툼",
+     "interpretation_en": "betrayal or conflict",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "cat",
+   "term_ko": "고양이",
+   "term_en": "cat",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "구설",
+    "질투",
+    "여성"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "고양이가 노려봄",
+     "interpretation_ko": "질투·구설·숨은 적",
+     "interpretation_en": "jealousy, gossip, hidden rival",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "ox",
+   "term_ko": "소",
+   "term_en": "cow / ox",
+   "aliases": [
+    "황소",
+    "송아지"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "근면",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "살진 소",
+     "interpretation_ko": "재물·근면의 결실",
+     "interpretation_en": "wealth, fruit of diligence",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 부지런하고 복이 있는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "horse",
+   "term_ko": "말",
+   "term_en": "horse",
+   "aliases": [
+    "백마"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "출세",
+    "이동",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "말을 탐",
+     "interpretation_ko": "출세·좋은 이동·승진",
+     "interpretation_en": "advancement, favorable move",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 활달하고 크게 나아가는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "chicken",
+   "term_ko": "닭",
+   "term_en": "chicken",
+   "aliases": [
+    "수탉",
+    "병아리"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "소식",
+    "구설"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "수탉이 욺",
+     "interpretation_ko": "새 소식·시작",
+     "interpretation_en": "news or new beginning",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "fish",
+   "term_ko": "물고기",
+   "term_en": "fish",
+   "aliases": [
+    "붕어"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "성취",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "물고기를 잡음",
+     "interpretation_ko": "재물·성취",
+     "interpretation_en": "wealth or achievement",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "carp",
+   "term_ko": "잉어",
+   "term_en": "carp",
+   "aliases": [
+    "큰잉어"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "태몽",
+    "출세"
+   ],
+   "weight": 2,
+   "culture_note": "등용문 상징",
+   "meanings": [
+    {
+     "context": "잉어가 뛰어오름",
+     "interpretation_ko": "큰 재물·귀한 태몽·입신",
+     "interpretation_en": "great fortune, noble birth, success",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bird",
+   "term_ko": "새",
+   "term_en": "bird",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "neutral",
+   "tags": [
+    "소식",
+    "자유"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "새가 날아옴",
+     "interpretation_ko": "소식·기회",
+     "interpretation_en": "news or opportunity",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "magpie",
+   "term_ko": "까치",
+   "term_en": "magpie",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "소식",
+    "손님"
+   ],
+   "weight": 2,
+   "culture_note": "길조, 반가운 소식",
+   "meanings": [
+    {
+     "context": "까치가 욺",
+     "interpretation_ko": "기쁜 소식·손님",
+     "interpretation_en": "good news or guest",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "crow",
+   "term_ko": "까마귀",
+   "term_en": "crow",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "흉조",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "까마귀가 욺",
+     "interpretation_ko": "불길한 소식·근심",
+     "interpretation_en": "ill news or worry",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "turtle",
+   "term_ko": "거북이",
+   "term_en": "turtle",
+   "aliases": [
+    "자라"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "장수",
+    "재물",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "거북이가 나타남",
+     "interpretation_ko": "장수·재물·귀인",
+     "interpretation_en": "longevity, wealth, patron",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 장수하는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "rat",
+   "term_ko": "쥐",
+   "term_en": "rat / mouse",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "손실"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "쥐가 곡식을 모음",
+     "interpretation_ko": "재물 축적",
+     "interpretation_en": "accumulating wealth",
+     "polarity": "positive"
+    },
+    {
+     "context": "쥐가 물건을 갉음",
+     "interpretation_ko": "손실·좀도둑",
+     "interpretation_en": "loss or petty theft",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "bear",
+   "term_ko": "곰",
+   "term_en": "bear",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "귀인"
+   ],
+   "weight": 1,
+   "culture_note": "아들 태몽으로 봄",
+   "meanings": [
+    {
+     "context": "곰을 봄",
+     "interpretation_ko": "귀인·아들 태몽",
+     "interpretation_en": "patron or son-birth omen",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "deer",
+   "term_ko": "사슴",
+   "term_en": "deer",
+   "aliases": [
+    "노루"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "귀인",
+    "장수",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "사슴을 봄",
+     "interpretation_ko": "귀인·경사",
+     "interpretation_en": "patron or happy event",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀하고 순한 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "rabbit",
+   "term_ko": "토끼",
+   "term_en": "rabbit",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "다산",
+    "순함"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "토끼를 봄",
+     "interpretation_ko": "다산·평온",
+     "interpretation_en": "fertility or calm",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "phoenix",
+   "term_ko": "봉황",
+   "term_en": "phoenix",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "귀함",
+    "명예",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "봉황이 나타남",
+     "interpretation_ko": "큰 명예·귀한 인연",
+     "interpretation_en": "great honor or noble bond",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "butterfly",
+   "term_ko": "나비",
+   "term_en": "butterfly",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "연애",
+    "변화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "나비가 날아듦",
+     "interpretation_ko": "연애·변화·경사",
+     "interpretation_en": "romance or transformation",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bee",
+   "term_ko": "벌",
+   "term_en": "bee",
+   "aliases": [
+    "꿀벌"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "근면",
+    "재물",
+    "다툼"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "벌떼",
+     "interpretation_ko": "근면의 결실·재물",
+     "interpretation_en": "reward of diligence",
+     "polarity": "positive"
+    },
+    {
+     "context": "벌에 쏘임",
+     "interpretation_ko": "작은 다툼·손해",
+     "interpretation_en": "minor conflict or loss",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "spider",
+   "term_ko": "거미",
+   "term_en": "spider",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "근심"
+   ],
+   "weight": 1,
+   "culture_note": "아침 거미=길, 저녁 거미=흉",
+   "meanings": [
+    {
+     "context": "아침 거미",
+     "interpretation_ko": "재물·손님",
+     "interpretation_en": "wealth or guest",
+     "polarity": "positive"
+    },
+    {
+     "context": "거미줄에 얽힘",
+     "interpretation_ko": "얽힌 근심",
+     "interpretation_en": "entanglement or worry",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "frog",
+   "term_ko": "개구리",
+   "term_en": "frog",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "다산"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "개구리가 뜀",
+     "interpretation_ko": "재물·번창",
+     "interpretation_en": "wealth or growth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "insect",
+   "term_ko": "벌레",
+   "term_en": "insect / bug",
+   "aliases": [
+    "구더기"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "근심",
+    "재물"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "벌레가 들끓음",
+     "interpretation_ko": "근심·질병 주의(단 구더기는 재물)",
+     "interpretation_en": "worry/illness (maggots = wealth)",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "dragon-serpent",
+   "term_ko": "구렁이",
+   "term_en": "large serpent",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "수호"
+   ],
+   "weight": 2,
+   "culture_note": "업(집 지키는 재물신)",
+   "meanings": [
+    {
+     "context": "집안의 큰 구렁이",
+     "interpretation_ko": "집안 재물·수호",
+     "interpretation_en": "household wealth or guardian",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "water-clear",
+   "term_ko": "맑은 물",
+   "term_en": "clear water",
+   "aliases": [
+    "깨끗한 물"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "안정"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "맑고 잔잔한 물",
+     "interpretation_ko": "재물·정서적 안정",
+     "interpretation_en": "wealth and emotional calm",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "water-muddy",
+   "term_ko": "흙탕물",
+   "term_en": "muddy water",
+   "aliases": [
+    "더러운 물"
+   ],
+   "category": "nature",
+   "polarity": "negative",
+   "tags": [
+    "근심",
+    "혼란"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "탁한 물",
+     "interpretation_ko": "근심·혼란·건강 주의",
+     "interpretation_en": "worry, confusion, health caution",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "flood",
+   "term_ko": "홍수",
+   "term_en": "flood",
+   "aliases": [
+    "물난리"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "변화",
+    "재물"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "맑은 물의 큰 홍수",
+     "interpretation_ko": "큰 재물·기회",
+     "interpretation_en": "great wealth or opportunity",
+     "polarity": "positive"
+    },
+    {
+     "context": "휩쓸림",
+     "interpretation_ko": "통제 못할 변화·손실",
+     "interpretation_en": "overwhelming change or loss",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "sea",
+   "term_ko": "바다",
+   "term_en": "sea",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "기회",
+    "무의식"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "잔잔한 바다",
+     "interpretation_ko": "큰 기회·포부",
+     "interpretation_en": "big opportunity or ambition",
+     "polarity": "positive"
+    },
+    {
+     "context": "거친 파도",
+     "interpretation_ko": "감정의 동요",
+     "interpretation_en": "emotional turbulence",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "river",
+   "term_ko": "강",
+   "term_en": "river",
+   "aliases": [
+    "시냇물"
+   ],
+   "category": "nature",
+   "polarity": "neutral",
+   "tags": [
+    "흐름",
+    "전환"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "강을 건넘",
+     "interpretation_ko": "전환·통과의례",
+     "interpretation_en": "transition or passage",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "rain",
+   "term_ko": "비",
+   "term_en": "rain",
+   "aliases": [
+    "소나기"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "정화",
+    "재물",
+    "우울"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "단비",
+     "interpretation_ko": "정화·재물·해갈",
+     "interpretation_en": "cleansing, wealth, relief",
+     "polarity": "positive"
+    },
+    {
+     "context": "궂은 비",
+     "interpretation_ko": "우울·지연",
+     "interpretation_en": "gloom or delay",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "fire",
+   "term_ko": "불",
+   "term_en": "fire",
+   "aliases": [
+    "화재"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "번성",
+    "소진"
+   ],
+   "weight": 2,
+   "culture_note": "크게 타오르면 대길",
+   "meanings": [
+    {
+     "context": "활활 크게 타오름",
+     "interpretation_ko": "번성·재물·명성",
+     "interpretation_en": "prosperity, wealth, fame",
+     "polarity": "positive"
+    },
+    {
+     "context": "작은 불·꺼져감",
+     "interpretation_ko": "근심·기력 소진",
+     "interpretation_en": "worry or burnout",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "mountain",
+   "term_ko": "산",
+   "term_en": "mountain",
+   "aliases": [
+    "산봉우리"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "목표",
+    "성취"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "산 정상에 오름",
+     "interpretation_ko": "목표 달성·지위 상승",
+     "interpretation_en": "goal reached, rising status",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "tree",
+   "term_ko": "나무",
+   "term_en": "tree",
+   "aliases": [
+    "큰나무",
+    "고목"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "성장",
+    "가문"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "무성한 나무",
+     "interpretation_ko": "성장·가문 번성",
+     "interpretation_en": "growth or family prosperity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "flower",
+   "term_ko": "꽃",
+   "term_en": "flower",
+   "aliases": [
+    "꽃밭"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "경사",
+    "연애",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "활짝 핀 꽃",
+     "interpretation_ko": "경사·연애·번영",
+     "interpretation_en": "joy, romance, flourishing",
+     "polarity": "positive"
+    },
+    {
+     "context": "시든 꽃",
+     "interpretation_ko": "쇠퇴·이별",
+     "interpretation_en": "decline or parting",
+     "polarity": "negative"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "sun",
+   "term_ko": "해",
+   "term_en": "sun",
+   "aliases": [
+    "태양",
+    "일출"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "권위",
+    "희망",
+    "부친",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "떠오르는 태양",
+     "interpretation_ko": "권위·희망·번영",
+     "interpretation_en": "authority, hope, prosperity",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "moon",
+   "term_ko": "달",
+   "term_en": "moon",
+   "aliases": [
+    "보름달"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "모친",
+    "여성",
+    "소망",
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "밝은 보름달",
+     "interpretation_ko": "소망 성취·귀함",
+     "interpretation_en": "wish granted, nobility",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "star",
+   "term_ko": "별",
+   "term_en": "star",
+   "aliases": [
+    "별똥별"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "소망",
+    "귀인",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "별이 품에 듦",
+     "interpretation_ko": "귀한 태몽·소망",
+     "interpretation_en": "noble birth or wish",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "rainbow",
+   "term_ko": "무지개",
+   "term_en": "rainbow",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "희망",
+    "경사"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "선명한 무지개",
+     "interpretation_ko": "희망·경사·화해",
+     "interpretation_en": "hope, joy, reconciliation",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "snow",
+   "term_ko": "눈",
+   "term_en": "snow",
+   "aliases": [
+    "함박눈"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "정화",
+    "시련"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "깨끗한 눈",
+     "interpretation_ko": "정화·행운",
+     "interpretation_en": "purity or luck",
+     "polarity": "positive"
+    },
+    {
+     "context": "눈보라",
+     "interpretation_ko": "고립·시련",
+     "interpretation_en": "isolation or hardship",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "wind",
+   "term_ko": "바람",
+   "term_en": "wind",
+   "aliases": [
+    "돌풍"
+   ],
+   "category": "nature",
+   "polarity": "neutral",
+   "tags": [
+    "변화",
+    "소식"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "강한 바람",
+     "interpretation_ko": "변화·소식",
+     "interpretation_en": "change or news",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "lightning",
+   "term_ko": "번개",
+   "term_en": "lightning",
+   "aliases": [
+    "벼락"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "급변",
+    "계시"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "번개가 침",
+     "interpretation_ko": "갑작스런 변화·깨달음",
+     "interpretation_en": "sudden change or insight",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "cloud",
+   "term_ko": "구름",
+   "term_en": "cloud",
+   "aliases": [
+    "먹구름",
+    "오색구름"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "귀함",
+    "불확실"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "오색구름",
+     "interpretation_ko": "귀한 경사",
+     "interpretation_en": "noble fortune",
+     "polarity": "positive"
+    },
+    {
+     "context": "먹구름",
+     "interpretation_ko": "불확실·근심",
+     "interpretation_en": "uncertainty or worry",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "well",
+   "term_ko": "우물",
+   "term_en": "well",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "근원"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "맑은 물이 솟는 우물",
+     "interpretation_ko": "재물·복의 근원",
+     "interpretation_en": "source of wealth or blessing",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "earthquake",
+   "term_ko": "지진",
+   "term_en": "earthquake",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "negative",
+   "tags": [
+    "격변",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "땅이 흔들림",
+     "interpretation_ko": "큰 변화·기반 불안",
+     "interpretation_en": "upheaval or instability",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "tooth-fall",
+   "term_ko": "이빨 빠짐",
+   "term_en": "tooth falling out",
+   "aliases": [
+    "이가 빠짐",
+    "치아"
+   ],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "구설",
+    "가족",
+    "변화"
+   ],
+   "weight": 3,
+   "culture_note": "윗니=윗사람, 아랫니=아랫사람",
+   "meanings": [
+    {
+     "context": "윗니가 빠짐",
+     "interpretation_ko": "윗사람/부모 관련 근심",
+     "interpretation_en": "concern about elders/parents",
+     "polarity": "negative"
+    },
+    {
+     "context": "피 없이 빠짐",
+     "interpretation_ko": "변화·전환",
+     "interpretation_en": "transition or change",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "hair",
+   "term_ko": "머리카락",
+   "term_en": "hair",
+   "aliases": [
+    "삭발",
+    "탈모"
+   ],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "건강",
+    "변화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "머리가 빠짐",
+     "interpretation_ko": "기력·재물 손실",
+     "interpretation_en": "loss of vitality or wealth",
+     "polarity": "negative"
+    },
+    {
+     "context": "머리를 자름",
+     "interpretation_ko": "근심 정리·새 출발",
+     "interpretation_en": "clearing worry, fresh start",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "blood",
+   "term_ko": "피",
+   "term_en": "blood",
+   "aliases": [
+    "출혈"
+   ],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "재물"
+   ],
+   "weight": 2,
+   "culture_note": "전통에서 피=재물",
+   "meanings": [
+    {
+     "context": "피를 봄/묻음",
+     "interpretation_ko": "재물·활력",
+     "interpretation_en": "wealth or vitality",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "feces",
+   "term_ko": "똥",
+   "term_en": "feces",
+   "aliases": [
+    "대변",
+    "변"
+   ],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "재물"
+   ],
+   "weight": 3,
+   "culture_note": "대표 재물 길몽",
+   "meanings": [
+    {
+     "context": "똥을 밟거나 몸에 묻음",
+     "interpretation_ko": "재물·행운",
+     "interpretation_en": "wealth or luck",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "urine",
+   "term_ko": "소변",
+   "term_en": "urine",
+   "aliases": [
+    "오줌"
+   ],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "해소",
+    "재물"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "시원하게 봄",
+     "interpretation_ko": "근심 해소·재물",
+     "interpretation_en": "relief of worry, wealth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "nail",
+   "term_ko": "손톱",
+   "term_en": "nail",
+   "aliases": [],
+   "category": "body",
+   "polarity": "negative",
+   "tags": [
+    "건강",
+    "손실"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "손톱이 빠짐",
+     "interpretation_ko": "기력·자원 손실",
+     "interpretation_en": "loss of energy or resources",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "naked",
+   "term_ko": "벌거벗음",
+   "term_en": "being naked",
+   "aliases": [
+    "나체"
+   ],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "수치",
+    "취약",
+    "자유"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "사람들 앞에서 벌거벗음",
+     "interpretation_ko": "수치·취약함·노출 불안",
+     "interpretation_en": "shame or vulnerability",
+     "polarity": "negative"
+    },
+    {
+     "context": "개의치 않음",
+     "interpretation_ko": "해방·솔직함",
+     "interpretation_en": "liberation or authenticity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "pregnancy",
+   "term_ko": "임신",
+   "term_en": "pregnancy",
+   "aliases": [
+    "임신함"
+   ],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "시작",
+    "프로젝트"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신한 꿈",
+     "interpretation_ko": "새 시작·기르는 일·프로젝트",
+     "interpretation_en": "new beginning or nurtured project",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "wound",
+   "term_ko": "상처",
+   "term_en": "wound",
+   "aliases": [
+    "다침"
+   ],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "고통"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "피나는 상처",
+     "interpretation_ko": "(피=재물) 재물 또는 심리적 상처",
+     "interpretation_en": "wealth (blood) or emotional hurt",
+     "polarity": "ambivalent"
+    }
+   ]
+  },
+  {
+   "id": "eye",
+   "term_ko": "눈(眼)",
+   "term_en": "eye",
+   "aliases": [],
+   "category": "body",
+   "polarity": "neutral",
+   "tags": [
+    "통찰",
+    "진실"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "밝게 보임",
+     "interpretation_ko": "통찰·진실 인식",
+     "interpretation_en": "insight or seeing truth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "falling",
+   "term_ko": "추락",
+   "term_en": "falling",
+   "aliases": [
+    "떨어짐",
+    "낙하"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "불안",
+    "통제감"
+   ],
+   "weight": 3,
+   "meanings": [
+    {
+     "context": "높은 곳에서 떨어짐",
+     "interpretation_ko": "불안·통제감 상실·지위 걱정",
+     "interpretation_en": "anxiety, loss of control",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "flying",
+   "term_ko": "날다",
+   "term_en": "flying",
+   "aliases": [
+    "비행",
+    "하늘을 남"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "자유",
+    "성취",
+    "야망"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "자유롭게 낢",
+     "interpretation_ko": "자유·성취·상승 욕구",
+     "interpretation_en": "freedom, achievement, ambition",
+     "polarity": "positive"
+    },
+    {
+     "context": "떨어질까 두려움",
+     "interpretation_ko": "성취 뒤 불안",
+     "interpretation_en": "anxiety about success",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "chased",
+   "term_ko": "쫓김",
+   "term_en": "being chased",
+   "aliases": [
+    "도망침"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "스트레스",
+    "회피"
+   ],
+   "weight": 3,
+   "meanings": [
+    {
+     "context": "무언가에 쫓김",
+     "interpretation_ko": "스트레스·회피 중인 문제",
+     "interpretation_en": "stress or avoided problem",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "exam",
+   "term_ko": "시험",
+   "term_en": "exam / test",
+   "aliases": [
+    "시험 봄"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "불안",
+    "평가"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "시험을 못 봄",
+     "interpretation_ko": "평가 불안·자기 검열",
+     "interpretation_en": "performance anxiety",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "marriage",
+   "term_ko": "결혼",
+   "term_en": "wedding / marriage",
+   "aliases": [
+    "혼례"
+   ],
+   "category": "action",
+   "polarity": "ambivalent",
+   "tags": [
+    "변화",
+    "결합"
+   ],
+   "weight": 2,
+   "culture_note": "전통에선 본인 결혼꿈을 흉으로 보기도",
+   "meanings": [
+    {
+     "context": "본인의 결혼",
+     "interpretation_ko": "큰 변화(전통상 흉으로도 봄)",
+     "interpretation_en": "major change (sometimes ill-omened)",
+     "polarity": "ambivalent"
+    }
+   ]
+  },
+  {
+   "id": "death",
+   "term_ko": "죽음",
+   "term_en": "death",
+   "aliases": [
+    "죽는 꿈"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "변화",
+    "재생"
+   ],
+   "weight": 3,
+   "culture_note": "죽음꿈은 재생·장수의 길몽으로 봄",
+   "meanings": [
+    {
+     "context": "자신/타인의 죽음",
+     "interpretation_ko": "끝과 새 시작·재생(현실 죽음 아님)",
+     "interpretation_en": "endings & rebirth (not literal)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "crying",
+   "term_ko": "우는 것",
+   "term_en": "crying",
+   "aliases": [
+    "눈물"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "해소",
+    "반전"
+   ],
+   "weight": 1,
+   "culture_note": "울면 좋은 일(반대 해석)",
+   "meanings": [
+    {
+     "context": "펑펑 욺",
+     "interpretation_ko": "감정 해소·경사(반전)",
+     "interpretation_en": "emotional release, good news",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "laughing",
+   "term_ko": "웃는 것",
+   "term_en": "laughing",
+   "aliases": [],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "반전",
+    "구설"
+   ],
+   "weight": 1,
+   "culture_note": "크게 웃으면 근심(반대 해석)",
+   "meanings": [
+    {
+     "context": "크게 웃음",
+     "interpretation_ko": "뜻밖의 근심(반전)",
+     "interpretation_en": "unexpected worry (reversal)",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "fighting",
+   "term_ko": "싸움",
+   "term_en": "fighting",
+   "aliases": [
+    "다툼"
+   ],
+   "category": "action",
+   "polarity": "ambivalent",
+   "tags": [
+    "해소",
+    "갈등"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "싸워 이김",
+     "interpretation_ko": "갈등 해소·승리",
+     "interpretation_en": "resolution or victory",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "lost-way",
+   "term_ko": "길 잃음",
+   "term_en": "getting lost",
+   "aliases": [
+    "헤맴"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "방향",
+    "결정"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "길을 못 찾음",
+     "interpretation_ko": "방향 상실·결정 어려움",
+     "interpretation_en": "lost direction, indecision",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "bathing",
+   "term_ko": "목욕",
+   "term_en": "bathing",
+   "aliases": [
+    "씻음"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "정화",
+    "해소"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "깨끗이 씻음",
+     "interpretation_ko": "근심 정화·회복",
+     "interpretation_en": "cleansing of worry, renewal",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "climbing",
+   "term_ko": "오름",
+   "term_en": "climbing up",
+   "aliases": [
+    "계단 오름",
+    "등반"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "발전",
+    "승진"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "위로 올라감",
+     "interpretation_ko": "발전·승진",
+     "interpretation_en": "progress or promotion",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "descending",
+   "term_ko": "내려감",
+   "term_en": "descending",
+   "aliases": [
+    "계단 내려감"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "후퇴"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "아래로 내려감",
+     "interpretation_ko": "후퇴·지위 하락",
+     "interpretation_en": "setback or decline",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "eating",
+   "term_ko": "먹는 것",
+   "term_en": "eating",
+   "aliases": [
+    "식사"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "풍요",
+    "충족"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "맛있게 배불리 먹음",
+     "interpretation_ko": "풍요·만족",
+     "interpretation_en": "abundance or satisfaction",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "drowning",
+   "term_ko": "물에 빠짐",
+   "term_en": "drowning",
+   "aliases": [],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "압도",
+    "감정"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "물에 빠져 허우적",
+     "interpretation_ko": "감정·상황에 압도됨",
+     "interpretation_en": "overwhelmed by emotion/situation",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "giving-birth",
+   "term_ko": "출산",
+   "term_en": "giving birth",
+   "aliases": [
+    "아기 낳음"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "결실",
+    "시작"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "순산",
+     "interpretation_ko": "결실·새 국면",
+     "interpretation_en": "fruition or new phase",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "digging",
+   "term_ko": "땅 파기",
+   "term_en": "digging",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "발굴"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "땅을 파 무언가 나옴",
+     "interpretation_ko": "숨은 재물·기회 발굴",
+     "interpretation_en": "uncovering wealth or opportunity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "losing-item",
+   "term_ko": "잃어버림",
+   "term_en": "losing something",
+   "aliases": [
+    "분실"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "상실",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "소중한 것을 잃음",
+     "interpretation_ko": "상실 불안·놓친 기회",
+     "interpretation_en": "fear of loss or missed chance",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "term_ko": "돈",
+   "term_en": "money",
+   "aliases": [
+    "지폐",
+    "현금"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "지출"
+   ],
+   "weight": 3,
+   "culture_note": "돈 줍기는 오히려 지출로 보기도",
+   "meanings": [
+    {
+     "context": "돈이 들어옴",
+     "interpretation_ko": "재물·기회",
+     "interpretation_en": "income or opportunity",
+     "polarity": "positive"
+    },
+    {
+     "context": "돈을 주움",
+     "interpretation_ko": "뜻밖 지출·작은 손실(반대 해석)",
+     "interpretation_en": "unexpected expense (reversal)",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "gold",
+   "term_ko": "금·보석",
+   "term_en": "gold / jewel",
+   "aliases": [
+    "금덩이",
+    "다이아"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "귀함"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "금·보석을 얻음",
+     "interpretation_ko": "재물·귀한 인연",
+     "interpretation_en": "wealth or precious bond",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "ring",
+   "term_ko": "반지",
+   "term_en": "ring",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "결합",
+    "약속"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "반지를 낌",
+     "interpretation_ko": "결합·약속·연애",
+     "interpretation_en": "union, promise, romance",
+     "polarity": "positive"
+    },
+    {
+     "context": "반지를 잃음",
+     "interpretation_ko": "관계 균열",
+     "interpretation_en": "rift in relationship",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "knife",
+   "term_ko": "칼",
+   "term_en": "knife",
+   "aliases": [
+    "검"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "결단",
+    "다툼"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "칼을 쥠",
+     "interpretation_ko": "결단력·권한",
+     "interpretation_en": "decisiveness or authority",
+     "polarity": "positive"
+    },
+    {
+     "context": "칼에 다침",
+     "interpretation_ko": "다툼·상처",
+     "interpretation_en": "conflict or injury",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "shoe",
+   "term_ko": "신발",
+   "term_en": "shoe",
+   "aliases": [
+    "구두"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "배우자",
+    "지위"
+   ],
+   "weight": 1,
+   "culture_note": "신발=배우자/지위 상징",
+   "meanings": [
+    {
+     "context": "새 신발",
+     "interpretation_ko": "새 인연·지위",
+     "interpretation_en": "new partner or position",
+     "polarity": "positive"
+    },
+    {
+     "context": "신발을 잃음",
+     "interpretation_ko": "배우자·지위 상실 불안",
+     "interpretation_en": "loss of partner or status",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "clothes",
+   "term_ko": "옷",
+   "term_en": "clothes",
+   "aliases": [
+    "새옷"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "지위",
+    "이미지"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "새 옷을 입음",
+     "interpretation_ko": "새 역할·지위 상승",
+     "interpretation_en": "new role or rising status",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "mirror",
+   "term_ko": "거울",
+   "term_en": "mirror",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "자아",
+    "진실"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "거울을 봄",
+     "interpretation_ko": "자기 성찰·진실 직면",
+     "interpretation_en": "self-reflection, facing truth",
+     "polarity": "neutral"
+    },
+    {
+     "context": "깨진 거울",
+     "interpretation_ko": "관계·자아 균열",
+     "interpretation_en": "broken bond or self-image",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "term_ko": "열쇠",
+   "term_en": "key",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "기회",
+    "해결"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "열쇠를 얻음",
+     "interpretation_ko": "문제 해결·새 기회",
+     "interpretation_en": "solution or new opportunity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "house",
+   "term_ko": "집",
+   "term_en": "house",
+   "aliases": [
+    "새집"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "기반",
+    "자아"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "크고 좋은 집",
+     "interpretation_ko": "안정·기반 확장",
+     "interpretation_en": "stability, growth of base",
+     "polarity": "positive"
+    },
+    {
+     "context": "허물어지는 집",
+     "interpretation_ko": "기반 불안",
+     "interpretation_en": "instability of foundation",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "term_ko": "자동차",
+   "term_en": "car",
+   "aliases": [
+    "차"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "진로",
+    "통제"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "차를 잘 몲",
+     "interpretation_ko": "진로·삶 통제감",
+     "interpretation_en": "control over life direction",
+     "polarity": "positive"
+    },
+    {
+     "context": "사고·브레이크 고장",
+     "interpretation_ko": "통제 상실·방향 불안",
+     "interpretation_en": "loss of control",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "boat",
+   "term_ko": "배",
+   "term_en": "boat / ship",
+   "aliases": [
+    "선박"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "여정",
+    "기회"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "배를 타고 나아감",
+     "interpretation_ko": "새 여정·기회",
+     "interpretation_en": "new journey or venture",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bridge",
+   "term_ko": "다리",
+   "term_en": "bridge",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "전환",
+    "연결"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "다리를 건넘",
+     "interpretation_ko": "전환·연결·인연",
+     "interpretation_en": "transition or connection",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "grave",
+   "term_ko": "무덤",
+   "term_en": "grave / tomb",
+   "aliases": [
+    "묘"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "조상"
+   ],
+   "weight": 2,
+   "culture_note": "무덤·관은 전통 반전 길몽(재물·수)",
+   "meanings": [
+    {
+     "context": "잘 손질된 무덤",
+     "interpretation_ko": "조상 음덕·재물(반전 길몽)",
+     "interpretation_en": "ancestral blessing, wealth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "coffin",
+   "term_ko": "관",
+   "term_en": "coffin",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "승진"
+   ],
+   "weight": 2,
+   "culture_note": "관 꿈=재물·승진의 반전 길몽",
+   "meanings": [
+    {
+     "context": "관을 봄",
+     "interpretation_ko": "재물·승진(반전 길몽)",
+     "interpretation_en": "wealth or promotion (reversal)",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "rice",
+   "term_ko": "쌀·밥",
+   "term_en": "rice",
+   "aliases": [
+    "곡식"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "풍요"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "쌀·밥이 가득함",
+     "interpretation_ko": "재물·풍요",
+     "interpretation_en": "wealth and abundance",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "book",
+   "term_ko": "책",
+   "term_en": "book",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "학문",
+    "기회"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "책을 얻거나 읽음",
+     "interpretation_ko": "학문·문서운·기회",
+     "interpretation_en": "learning, documents, opportunity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "gun",
+   "term_ko": "총",
+   "term_en": "gun",
+   "aliases": [],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "힘",
+    "위협"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "총을 겨눔/맞음",
+     "interpretation_ko": "강한 압박·결정적 사건",
+     "interpretation_en": "strong pressure or decisive event",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "stairs",
+   "term_ko": "계단",
+   "term_en": "stairs",
+   "aliases": [
+    "층계"
+   ],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "단계",
+    "진로"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "계단을 오르내림",
+     "interpretation_ko": "단계적 변화(오름=발전, 내림=후퇴)",
+     "interpretation_en": "stepwise change",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "umbrella",
+   "term_ko": "우산",
+   "term_en": "umbrella",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "보호",
+    "조력"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "우산을 씀",
+     "interpretation_ko": "보호·조력자",
+     "interpretation_en": "protection or support",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "term_ko": "시계",
+   "term_en": "watch / clock",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "시기",
+    "기회"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "멈추거나 잃은 시계",
+     "interpretation_ko": "때·기회에 대한 불안",
+     "interpretation_en": "anxiety about timing",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "ancestor",
+   "term_ko": "조상·죽은 사람",
+   "term_en": "ancestor / deceased",
+   "aliases": [
+    "돌아가신 분"
+   ],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "조언",
+    "경고"
+   ],
+   "weight": 2,
+   "culture_note": "조상 꿈=길흉 메시지",
+   "meanings": [
+    {
+     "context": "밝은 표정의 조상",
+     "interpretation_ko": "음덕·좋은 조언",
+     "interpretation_en": "blessing or good counsel",
+     "polarity": "positive"
+    },
+    {
+     "context": "무언가 요구/어두움",
+     "interpretation_ko": "경고·주의",
+     "interpretation_en": "warning or caution",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "baby",
+   "term_ko": "아기",
+   "term_en": "baby",
+   "aliases": [
+    "갓난아기"
+   ],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "시작",
+    "근심"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "예쁜 아기",
+     "interpretation_ko": "새 시작·기쁨",
+     "interpretation_en": "new beginning or joy",
+     "polarity": "positive"
+    },
+    {
+     "context": "우는 아기",
+     "interpretation_ko": "돌봐야 할 근심",
+     "interpretation_en": "a worry needing care",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "celebrity",
+   "term_ko": "연예인",
+   "term_en": "celebrity",
+   "aliases": [
+    "유명인",
+    "아이돌"
+   ],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "인정",
+    "동경"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "유명인과 친해짐",
+     "interpretation_ko": "인정 욕구·귀인",
+     "interpretation_en": "desire for recognition, patron",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "term_ko": "대통령·임금",
+   "term_en": "president / king",
+   "aliases": [
+    "높은 사람"
+   ],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "귀인",
+    "출세"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "높은 사람을 만남",
+     "interpretation_ko": "귀인·인정·출세",
+     "interpretation_en": "patron, recognition, advancement",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "monk",
+   "term_ko": "스님·성직자",
+   "term_en": "monk / priest",
+   "aliases": [
+    "종교인"
+   ],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "지혜",
+    "인도"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "성직자의 인도",
+     "interpretation_ko": "지혜·영적 인도",
+     "interpretation_en": "wisdom or guidance",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "god",
+   "term_ko": "신·신령",
+   "term_en": "god / deity",
+   "aliases": [
+    "산신령"
+   ],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "계시",
+    "가호"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "신령이 나타남",
+     "interpretation_ko": "가호·중요한 계시",
+     "interpretation_en": "protection or important message",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "stranger",
+   "term_ko": "낯선 사람",
+   "term_en": "stranger",
+   "aliases": [],
+   "category": "person",
+   "polarity": "neutral",
+   "tags": [
+    "미지",
+    "자아"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "낯선 이와 만남",
+     "interpretation_ko": "자신의 숨은 면·새 인연",
+     "interpretation_en": "hidden self or new bond",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "ex-lover",
+   "term_ko": "옛 연인",
+   "term_en": "ex-lover",
+   "aliases": [
+    "헤어진 사람"
+   ],
+   "category": "person",
+   "polarity": "neutral",
+   "tags": [
+    "미련",
+    "교훈"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "옛 연인이 나옴",
+     "interpretation_ko": "미해결 감정·과거의 교훈",
+     "interpretation_en": "unresolved feelings or lesson",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "crowd",
+   "term_ko": "군중",
+   "term_en": "crowd",
+   "aliases": [
+    "많은 사람"
+   ],
+   "category": "person",
+   "polarity": "neutral",
+   "tags": [
+    "사회",
+    "압박"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "많은 사람에 둘러싸임",
+     "interpretation_ko": "사회적 압박·관심",
+     "interpretation_en": "social pressure or attention",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "term_ko": "학교",
+   "term_en": "school",
+   "aliases": [
+    "교실"
+   ],
+   "category": "place",
+   "polarity": "neutral",
+   "tags": [
+    "평가",
+    "성장"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "학교로 돌아감",
+     "interpretation_ko": "배움·미해결 과제·평가 불안",
+     "interpretation_en": "learning or unresolved evaluation",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "toilet",
+   "term_ko": "화장실",
+   "term_en": "toilet",
+   "aliases": [
+    "변소"
+   ],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "해소"
+   ],
+   "weight": 2,
+   "culture_note": "똥·소변과 연결된 재물운",
+   "meanings": [
+    {
+     "context": "깨끗한 화장실/시원한 배설",
+     "interpretation_ko": "재물·근심 해소",
+     "interpretation_en": "wealth, relief of worry",
+     "polarity": "positive"
+    },
+    {
+     "context": "더러운 화장실",
+     "interpretation_ko": "근심·건강 주의",
+     "interpretation_en": "worry or health caution",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "temple",
+   "term_ko": "절·사원",
+   "term_en": "temple",
+   "aliases": [
+    "사찰"
+   ],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "평안",
+    "기원"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "절에서 기도",
+     "interpretation_ko": "평안·소망 성취",
+     "interpretation_en": "peace or wish fulfillment",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "term_ko": "시장",
+   "term_en": "market",
+   "aliases": [
+    "장터"
+   ],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "거래"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "북적이는 시장",
+     "interpretation_ko": "거래·재물 활동",
+     "interpretation_en": "trade or financial activity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "hospital",
+   "term_ko": "병원",
+   "term_en": "hospital",
+   "aliases": [],
+   "category": "place",
+   "polarity": "ambivalent",
+   "tags": [
+    "건강",
+    "회복"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "치료 받음",
+     "interpretation_ko": "회복·돌봄 필요",
+     "interpretation_en": "recovery or need for care",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "prison",
+   "term_ko": "감옥",
+   "term_en": "prison",
+   "aliases": [
+    "교도소"
+   ],
+   "category": "place",
+   "polarity": "negative",
+   "tags": [
+    "속박",
+    "제약"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "갇힘",
+     "interpretation_ko": "속박감·제약",
+     "interpretation_en": "feeling trapped or restricted",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "term_ko": "길",
+   "term_en": "road / path",
+   "aliases": [
+    "도로"
+   ],
+   "category": "place",
+   "polarity": "neutral",
+   "tags": [
+    "진로",
+    "선택"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "갈림길",
+     "interpretation_ko": "인생 선택·진로",
+     "interpretation_en": "life choice or direction",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "underwater",
+   "term_ko": "물속",
+   "term_en": "underwater",
+   "aliases": [],
+   "category": "place",
+   "polarity": "ambivalent",
+   "tags": [
+    "무의식",
+    "감정"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "물속을 편히 다님",
+     "interpretation_ko": "감정·무의식 탐색",
+     "interpretation_en": "exploring emotion/unconscious",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "sky",
+   "term_ko": "하늘",
+   "term_en": "sky",
+   "aliases": [],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "희망",
+    "포부"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "맑고 넓은 하늘",
+     "interpretation_ko": "희망·포부·자유",
+     "interpretation_en": "hope, ambition, freedom",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "white",
+   "term_ko": "흰색",
+   "term_en": "white",
+   "aliases": [
+    "백색"
+   ],
+   "category": "color",
+   "polarity": "positive",
+   "tags": [
+    "순수",
+    "경사"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "흰 옷·흰 동물",
+     "interpretation_ko": "순수·귀함·경사",
+     "interpretation_en": "purity, nobility, good fortune",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "red",
+   "term_ko": "빨강",
+   "term_en": "red",
+   "aliases": [
+    "적색"
+   ],
+   "category": "color",
+   "polarity": "ambivalent",
+   "tags": [
+    "열정",
+    "경고"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "선명한 빨강",
+     "interpretation_ko": "열정·활력(과하면 다툼)",
+     "interpretation_en": "passion/vitality (excess = conflict)",
+     "polarity": "ambivalent"
+    }
+   ]
+  },
+  {
+   "id": "black",
+   "term_ko": "검정",
+   "term_en": "black",
+   "aliases": [
+    "흑색"
+   ],
+   "category": "color",
+   "polarity": "ambivalent",
+   "tags": [
+    "미지",
+    "권위"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "검은색",
+     "interpretation_ko": "미지·깊이(맥락 따라 근심)",
+     "interpretation_en": "mystery/depth (context-dependent)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "gold-color",
+   "term_ko": "금색",
+   "term_en": "gold color",
+   "aliases": [
+    "황금빛"
+   ],
+   "category": "color",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "귀함"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "금빛으로 빛남",
+     "interpretation_ko": "재물·귀함·번영",
+     "interpretation_en": "wealth, nobility, prosperity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "number-seven",
+   "term_ko": "숫자 7",
+   "term_en": "number seven",
+   "aliases": [
+    "칠"
+   ],
+   "category": "number",
+   "polarity": "positive",
+   "tags": [
+    "행운"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "7이 반복",
+     "interpretation_ko": "행운·완성",
+     "interpretation_en": "luck or completion",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "number-three",
+   "term_ko": "숫자 3",
+   "term_en": "number three",
+   "aliases": [
+    "삼"
+   ],
+   "category": "number",
+   "polarity": "positive",
+   "tags": [
+    "조화",
+    "안정"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "3이 반복",
+     "interpretation_ko": "조화·안정",
+     "interpretation_en": "harmony or stability",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "elephant",
+   "term_ko": "코끼리",
+   "term_en": "elephant",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "귀인",
+    "권위"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "코끼리를 봄",
+     "interpretation_ko": "귀인·큰 후원·권위",
+     "interpretation_en": "patron, big support, authority",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "lion",
+   "term_ko": "사자",
+   "term_en": "lion",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "권력",
+    "용기"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "사자를 봄/제압",
+     "interpretation_ko": "권력·용기·경쟁 승리",
+     "interpretation_en": "power, courage, victory",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "wolf",
+   "term_ko": "늑대",
+   "term_en": "wolf",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "위협",
+    "경계"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "늑대에 쫓김",
+     "interpretation_ko": "위협·숨은 적",
+     "interpretation_en": "threat or hidden enemy",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "eagle",
+   "term_ko": "독수리",
+   "term_en": "eagle",
+   "aliases": [
+    "매"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "야망",
+    "성취"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "독수리가 하늘을 낢",
+     "interpretation_ko": "야망·높은 성취",
+     "interpretation_en": "ambition, high achievement",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "dove",
+   "term_ko": "비둘기",
+   "term_en": "dove",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "화해",
+    "소식"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "비둘기가 날아옴",
+     "interpretation_ko": "화해·평화·좋은 소식",
+     "interpretation_en": "peace, reconciliation, news",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "sheep",
+   "term_ko": "양",
+   "term_en": "sheep",
+   "aliases": [
+    "염소"
+   ],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "온순",
+    "재물"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "양떼",
+     "interpretation_ko": "온순한 재물·풍요",
+     "interpretation_en": "gentle wealth or abundance",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "whale",
+   "term_ko": "고래",
+   "term_en": "whale",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "큰기회",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "큰 고래를 봄",
+     "interpretation_ko": "큰 기회·귀한 태몽",
+     "interpretation_en": "big opportunity or noble birth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "shark",
+   "term_ko": "상어",
+   "term_en": "shark",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "위협",
+    "경쟁"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "상어가 나타남",
+     "interpretation_ko": "강한 경쟁자·위협",
+     "interpretation_en": "strong rival or threat",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "octopus",
+   "term_ko": "문어",
+   "term_en": "octopus",
+   "aliases": [
+    "낙지"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "얽힘",
+    "재물"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "문어에 감김",
+     "interpretation_ko": "얽힌 상황·복잡함",
+     "interpretation_en": "entanglement or complexity",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "duck",
+   "term_ko": "오리",
+   "term_en": "duck",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "화합",
+    "가정"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "물 위의 오리 한 쌍",
+     "interpretation_ko": "부부 화합·가정 평안",
+     "interpretation_en": "marital harmony, peace",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "peacock",
+   "term_ko": "공작",
+   "term_en": "peacock",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "명예",
+    "아름다움"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "공작이 날개를 폄",
+     "interpretation_ko": "명예·인정·화려함",
+     "interpretation_en": "honor, recognition, splendor",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "owl",
+   "term_ko": "부엉이",
+   "term_en": "owl",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "지혜",
+    "경고"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "부엉이가 응시",
+     "interpretation_ko": "지혜·통찰(또는 경고)",
+     "interpretation_en": "wisdom or a warning",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "fox",
+   "term_ko": "여우",
+   "term_en": "fox",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "교활",
+    "구설"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "여우를 만남",
+     "interpretation_ko": "교활한 사람·속임 주의",
+     "interpretation_en": "cunning person, beware deceit",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "ant",
+   "term_ko": "개미",
+   "term_en": "ant",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "positive",
+   "tags": [
+    "근면",
+    "축적"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "개미가 줄지어 감",
+     "interpretation_ko": "근면·꾸준한 축적",
+     "interpretation_en": "diligence, steady accumulation",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "mosquito",
+   "term_ko": "모기",
+   "term_en": "mosquito",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "negative",
+   "tags": [
+    "근심",
+    "성가심"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "모기에 시달림",
+     "interpretation_ko": "작은 근심·성가신 방해",
+     "interpretation_en": "petty worry or nuisance",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "crab",
+   "term_ko": "게",
+   "term_en": "crab",
+   "aliases": [
+    "가재"
+   ],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "방어"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "게를 잡음",
+     "interpretation_ko": "재물(단 옆걸음=지연)",
+     "interpretation_en": "wealth (but delays possible)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "earthworm",
+   "term_ko": "지렁이",
+   "term_en": "earthworm",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "기반"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "땅속 지렁이",
+     "interpretation_ko": "드러나지 않는 재물·기반",
+     "interpretation_en": "hidden wealth or foundation",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "dinosaur",
+   "term_ko": "공룡",
+   "term_en": "dinosaur",
+   "aliases": [],
+   "category": "animal",
+   "polarity": "ambivalent",
+   "tags": [
+    "압도",
+    "과거"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "거대한 공룡",
+     "interpretation_ko": "압도적 문제 또는 큰 힘",
+     "interpretation_en": "overwhelming issue or great power",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "comet",
+   "term_ko": "혜성",
+   "term_en": "comet",
+   "aliases": [
+    "별똥별"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "기회",
+    "변화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "혜성이 지나감",
+     "interpretation_ko": "드문 기회·큰 변화",
+     "interpretation_en": "rare opportunity or big change",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "volcano",
+   "term_ko": "화산",
+   "term_en": "volcano",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "폭발",
+    "감정"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "화산 폭발",
+     "interpretation_ko": "억눌린 감정 분출·격변",
+     "interpretation_en": "pent-up emotion erupting",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "cave",
+   "term_ko": "동굴",
+   "term_en": "cave",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "내면",
+    "은신"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "동굴 속",
+     "interpretation_ko": "내면 탐색·은신·재충전",
+     "interpretation_en": "inner exploration or retreat",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "island",
+   "term_ko": "섬",
+   "term_en": "island",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "고립",
+    "안식"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "외딴 섬",
+     "interpretation_ko": "고립감 또는 평온한 안식",
+     "interpretation_en": "isolation or peaceful refuge",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "ice",
+   "term_ko": "얼음",
+   "term_en": "ice",
+   "aliases": [
+    "빙판"
+   ],
+   "category": "nature",
+   "polarity": "negative",
+   "tags": [
+    "정체",
+    "냉담"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "미끄러운 얼음",
+     "interpretation_ko": "정체·차가운 관계·위험",
+     "interpretation_en": "stagnation, cold relations, risk",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "fog",
+   "term_ko": "안개",
+   "term_en": "fog",
+   "aliases": [
+    "안개낌"
+   ],
+   "category": "nature",
+   "polarity": "negative",
+   "tags": [
+    "불확실",
+    "혼란"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "짙은 안개",
+     "interpretation_ko": "불확실·판단 흐림",
+     "interpretation_en": "uncertainty, unclear judgment",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "tornado",
+   "term_ko": "회오리",
+   "term_en": "tornado",
+   "aliases": [
+    "토네이도"
+   ],
+   "category": "nature",
+   "polarity": "negative",
+   "tags": [
+    "격변",
+    "혼란"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "휘몰아치는 회오리",
+     "interpretation_ko": "통제 불가 격변",
+     "interpretation_en": "uncontrollable upheaval",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "valley",
+   "term_ko": "계곡",
+   "term_en": "valley",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "휴식",
+    "정화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "맑은 계곡물",
+     "interpretation_ko": "휴식·정화·재충전",
+     "interpretation_en": "rest, cleansing, renewal",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "spring-water",
+   "term_ko": "샘",
+   "term_en": "spring (water source)",
+   "aliases": [
+    "옹달샘"
+   ],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "근원",
+    "재물"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "솟는 샘물",
+     "interpretation_ko": "복·재물의 근원",
+     "interpretation_en": "source of blessing/wealth",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "stone",
+   "term_ko": "돌·바위",
+   "term_en": "stone / rock",
+   "aliases": [
+    "바위"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "기반",
+    "장애"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "큰 바위",
+     "interpretation_ko": "굳건한 기반 또는 앞을 막는 장애",
+     "interpretation_en": "solid base or an obstacle",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "pearl",
+   "term_ko": "진주",
+   "term_en": "pearl",
+   "aliases": [],
+   "category": "nature",
+   "polarity": "positive",
+   "tags": [
+    "귀함",
+    "결실",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "진주를 얻음",
+     "interpretation_ko": "귀한 결실·숨은 가치",
+     "interpretation_en": "precious reward, hidden value",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "forest",
+   "term_ko": "숲",
+   "term_en": "forest",
+   "aliases": [
+    "수풀"
+   ],
+   "category": "nature",
+   "polarity": "ambivalent",
+   "tags": [
+    "미지",
+    "성장"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "울창한 숲",
+     "interpretation_ko": "성장의 잠재력 또는 길 잃음",
+     "interpretation_en": "growth potential or feeling lost",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "beard",
+   "term_ko": "수염",
+   "term_en": "beard",
+   "aliases": [],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "권위",
+    "성숙"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "수염이 길게 남",
+     "interpretation_ko": "권위·성숙·명예",
+     "interpretation_en": "authority, maturity, honor",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "tongue",
+   "term_ko": "혀",
+   "term_en": "tongue",
+   "aliases": [],
+   "category": "body",
+   "polarity": "negative",
+   "tags": [
+    "구설",
+    "말"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "혀를 다침",
+     "interpretation_ko": "말실수·구설 주의",
+     "interpretation_en": "slip of tongue, gossip caution",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "ear",
+   "term_ko": "귀",
+   "term_en": "ear",
+   "aliases": [],
+   "category": "body",
+   "polarity": "neutral",
+   "tags": [
+    "소식",
+    "경청"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "귀가 커지거나 밝아짐",
+     "interpretation_ko": "좋은 소식·경청",
+     "interpretation_en": "good news or attentiveness",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "heart",
+   "term_ko": "심장",
+   "term_en": "heart",
+   "aliases": [],
+   "category": "body",
+   "polarity": "neutral",
+   "tags": [
+    "감정",
+    "건강"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "심장이 뜀",
+     "interpretation_ko": "강한 감정·중요한 결정",
+     "interpretation_en": "strong emotion or key decision",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "bone",
+   "term_ko": "뼈·해골",
+   "term_en": "bone / skeleton",
+   "aliases": [
+    "해골"
+   ],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "근본",
+    "조상"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "해골을 봄",
+     "interpretation_ko": "근본·과거의 잔재(반전 재물로도)",
+     "interpretation_en": "roots or remains (sometimes wealth)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "sweat",
+   "term_ko": "땀",
+   "term_en": "sweat",
+   "aliases": [],
+   "category": "body",
+   "polarity": "positive",
+   "tags": [
+    "노력",
+    "해소"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "땀을 흘림",
+     "interpretation_ko": "노력의 대가·근심 해소",
+     "interpretation_en": "reward of effort, relief",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "hand",
+   "term_ko": "손",
+   "term_en": "hand",
+   "aliases": [],
+   "category": "body",
+   "polarity": "neutral",
+   "tags": [
+    "능력",
+    "관계"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "손을 잡음",
+     "interpretation_ko": "협력·인연·능력",
+     "interpretation_en": "cooperation, bond, ability",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "foot",
+   "term_ko": "발",
+   "term_en": "foot",
+   "aliases": [],
+   "category": "body",
+   "polarity": "ambivalent",
+   "tags": [
+    "진로",
+    "기반"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "발을 다침",
+     "interpretation_ko": "진로·이동의 제약",
+     "interpretation_en": "hindered progress or mobility",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "face",
+   "term_ko": "얼굴",
+   "term_en": "face",
+   "aliases": [],
+   "category": "body",
+   "polarity": "neutral",
+   "tags": [
+    "정체성",
+    "평판"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "밝은 얼굴",
+     "interpretation_ko": "좋은 평판·자신감",
+     "interpretation_en": "good reputation, confidence",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "dancing",
+   "term_ko": "춤",
+   "term_en": "dancing",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "기쁨",
+    "조화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "즐겁게 춤",
+     "interpretation_ko": "기쁨·조화·경사",
+     "interpretation_en": "joy, harmony, celebration",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "singing",
+   "term_ko": "노래",
+   "term_en": "singing",
+   "aliases": [],
+   "category": "action",
+   "polarity": "ambivalent",
+   "tags": [
+    "표현",
+    "구설"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "노래를 부름",
+     "interpretation_ko": "자기표현·경사(때로 구설)",
+     "interpretation_en": "self-expression, joy (sometimes gossip)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "praying",
+   "term_ko": "기도",
+   "term_en": "praying",
+   "aliases": [
+    "빎"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "소망",
+    "평안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "간절히 기도",
+     "interpretation_ko": "소망·마음의 평안·가호",
+     "interpretation_en": "wish, peace of mind, protection",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "cooking",
+   "term_ko": "요리",
+   "term_en": "cooking",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "준비",
+    "풍요"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "음식을 만듦",
+     "interpretation_ko": "준비·풍요·돌봄",
+     "interpretation_en": "preparation, abundance, care",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "term_ko": "쇼핑",
+   "term_en": "shopping",
+   "aliases": [
+    "장보기"
+   ],
+   "category": "action",
+   "polarity": "ambivalent",
+   "tags": [
+    "욕구",
+    "선택"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "물건을 고름",
+     "interpretation_ko": "욕구·선택의 갈등",
+     "interpretation_en": "desire or choice tension",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "traveling",
+   "term_ko": "여행",
+   "term_en": "traveling",
+   "aliases": [
+    "여정"
+   ],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "변화",
+    "기회"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "먼 여행을 떠남",
+     "interpretation_ko": "새 국면·기회·변화",
+     "interpretation_en": "new phase, opportunity, change",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "missing-transport",
+   "term_ko": "차·기차 놓침",
+   "term_en": "missing a train/bus",
+   "aliases": [
+    "버스 놓침"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "기회",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "차를 놓침",
+     "interpretation_ko": "기회 놓칠 불안·타이밍",
+     "interpretation_en": "fear of missed opportunity",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "being-late",
+   "term_ko": "지각",
+   "term_en": "being late",
+   "aliases": [
+    "늦음"
+   ],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "압박",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "계속 늦음",
+     "interpretation_ko": "준비 부족·압박감",
+     "interpretation_en": "unpreparedness, pressure",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "hiding",
+   "term_ko": "숨음",
+   "term_en": "hiding",
+   "aliases": [],
+   "category": "action",
+   "polarity": "negative",
+   "tags": [
+    "회피",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "어딘가 숨음",
+     "interpretation_ko": "회피·드러내기 두려움",
+     "interpretation_en": "avoidance or fear of exposure",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "kissing",
+   "term_ko": "키스",
+   "term_en": "kissing",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "애정",
+    "친밀"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "키스",
+     "interpretation_ko": "애정·친밀·화해",
+     "interpretation_en": "affection, intimacy, reconciliation",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "drinking-alcohol",
+   "term_ko": "술 마심",
+   "term_en": "drinking alcohol",
+   "aliases": [
+    "음주"
+   ],
+   "category": "action",
+   "polarity": "ambivalent",
+   "tags": [
+    "해방",
+    "과함"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "취하도록 마심",
+     "interpretation_ko": "해방감 또는 과도함·구설",
+     "interpretation_en": "release or excess/gossip",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "moving-house",
+   "term_ko": "이사",
+   "term_en": "moving house",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "변화",
+    "전환"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "새집으로 이사",
+     "interpretation_ko": "환경 변화·새 국면",
+     "interpretation_en": "life change, new phase",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "term_ko": "글쓰기",
+   "term_en": "writing",
+   "aliases": [],
+   "category": "action",
+   "polarity": "positive",
+   "tags": [
+    "문서",
+    "성취"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "글·서류를 씀",
+     "interpretation_ko": "문서운·계약·성취",
+     "interpretation_en": "documents, contracts, achievement",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "letter",
+   "term_ko": "편지",
+   "term_en": "letter / mail",
+   "aliases": [
+    "메일"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "소식",
+    "연락"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "편지를 받음",
+     "interpretation_ko": "소식·연락·기회",
+     "interpretation_en": "news, contact, opportunity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "photo",
+   "term_ko": "사진",
+   "term_en": "photograph",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "기억",
+    "과거"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "오래된 사진",
+     "interpretation_ko": "과거 회상·미련",
+     "interpretation_en": "reminiscence or lingering",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "crown",
+   "term_ko": "왕관",
+   "term_en": "crown",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "명예",
+    "성공"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "왕관을 씀",
+     "interpretation_ko": "명예·성공·인정",
+     "interpretation_en": "honor, success, recognition",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "wallet",
+   "term_ko": "지갑",
+   "term_en": "wallet",
+   "aliases": [],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "자원"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "지갑을 잃음",
+     "interpretation_ko": "재물·자원 손실 불안",
+     "interpretation_en": "fear of losing wealth/resources",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "glasses",
+   "term_ko": "안경",
+   "term_en": "glasses",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "통찰",
+    "관점"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "안경을 씀",
+     "interpretation_ko": "명확한 통찰·새 관점",
+     "interpretation_en": "clarity, new perspective",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "camera",
+   "term_ko": "카메라",
+   "term_en": "camera",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "기록",
+    "시선"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "사진을 찍음",
+     "interpretation_ko": "기억하고픈 순간·주목",
+     "interpretation_en": "a moment to remember, attention",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "medicine",
+   "term_ko": "약",
+   "term_en": "medicine",
+   "aliases": [
+    "약을 먹음"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "회복",
+    "치유"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "약을 먹음",
+     "interpretation_ko": "회복·문제 치유",
+     "interpretation_en": "recovery or healing of a problem",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "needle",
+   "term_ko": "바늘",
+   "term_en": "needle",
+   "aliases": [],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "정밀",
+    "고통"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "바늘에 찔림",
+     "interpretation_ko": "따끔한 지적·작은 고통",
+     "interpretation_en": "a sharp remark or minor pain",
+     "polarity": "negative"
+    }
+   ]
+  },
+  {
+   "id": "bell",
+   "term_ko": "종",
+   "term_en": "bell",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "소식",
+    "알림"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "종소리",
+     "interpretation_ko": "중요한 소식·전환의 신호",
+     "interpretation_en": "important news or signal",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "painting",
+   "term_ko": "그림",
+   "term_en": "painting",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "창의",
+    "이상"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "아름다운 그림",
+     "interpretation_ko": "창의·이상·감상",
+     "interpretation_en": "creativity, ideal, appreciation",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bed",
+   "term_ko": "침대",
+   "term_en": "bed",
+   "aliases": [],
+   "category": "object",
+   "polarity": "neutral",
+   "tags": [
+    "휴식",
+    "관계"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "편안한 침대",
+     "interpretation_ko": "휴식·안정·친밀",
+     "interpretation_en": "rest, stability, intimacy",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "scissors",
+   "term_ko": "가위",
+   "term_en": "scissors",
+   "aliases": [],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "단절",
+    "결단"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "무언가를 자름",
+     "interpretation_ko": "관계·인연의 단절 또는 결단",
+     "interpretation_en": "cutting ties or making a cut",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "twins",
+   "term_ko": "쌍둥이",
+   "term_en": "twins",
+   "aliases": [],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "이중",
+    "선택"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "쌍둥이를 봄",
+     "interpretation_ko": "두 갈래 기회·이중성",
+     "interpretation_en": "dual opportunity or duality",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "soldier",
+   "term_ko": "군인",
+   "term_en": "soldier",
+   "aliases": [],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "규율",
+    "갈등"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "군인을 봄",
+     "interpretation_ko": "규율·보호 또는 다가올 갈등",
+     "interpretation_en": "discipline/protection or coming conflict",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "police",
+   "term_ko": "경찰",
+   "term_en": "police",
+   "aliases": [],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "규범",
+    "불안"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "경찰이 나타남",
+     "interpretation_ko": "규범·양심 또는 통제 불안",
+     "interpretation_en": "conscience/rules or fear of control",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "doctor",
+   "term_ko": "의사",
+   "term_en": "doctor",
+   "aliases": [],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "치유",
+    "조력"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "의사를 만남",
+     "interpretation_ko": "치유·전문적 도움",
+     "interpretation_en": "healing or expert help",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "thief",
+   "term_ko": "도둑",
+   "term_en": "thief",
+   "aliases": [
+    "강도"
+   ],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "손실",
+    "재물"
+   ],
+   "weight": 1,
+   "culture_note": "도둑에게 빼앗기면 오히려 재물로 보기도",
+   "meanings": [
+    {
+     "context": "도둑이 듦",
+     "interpretation_ko": "손실 불안(반전으로 재물수도)",
+     "interpretation_en": "fear of loss (sometimes wealth reversal)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "bride-groom",
+   "term_ko": "신부·신랑",
+   "term_en": "bride / groom",
+   "aliases": [
+    "웨딩"
+   ],
+   "category": "person",
+   "polarity": "ambivalent",
+   "tags": [
+    "결합",
+    "변화"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "신랑·신부를 봄",
+     "interpretation_ko": "결합·새 출발(전통상 흉으로도)",
+     "interpretation_en": "union, new start (sometimes ill-omened)",
+     "polarity": "ambivalent"
+    }
+   ]
+  },
+  {
+   "id": "old-person",
+   "term_ko": "노인",
+   "term_en": "old person / elder",
+   "aliases": [
+    "할아버지",
+    "할머니"
+   ],
+   "category": "person",
+   "polarity": "positive",
+   "tags": [
+    "지혜",
+    "조언"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "인자한 노인",
+     "interpretation_ko": "지혜·귀인의 조언",
+     "interpretation_en": "wisdom or a mentor's counsel",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "foreigner",
+   "term_ko": "외국인",
+   "term_en": "foreigner",
+   "aliases": [],
+   "category": "person",
+   "polarity": "neutral",
+   "tags": [
+    "새로움",
+    "기회"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "외국인과 만남",
+     "interpretation_ko": "새로운 세계·기회·낯선 인연",
+     "interpretation_en": "new world, opportunity, novel bond",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "airport",
+   "term_ko": "공항",
+   "term_en": "airport",
+   "aliases": [],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "전환",
+    "출발"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "공항에서 떠남",
+     "interpretation_ko": "큰 전환·새 출발",
+     "interpretation_en": "major transition, departure",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "station",
+   "term_ko": "역",
+   "term_en": "train station",
+   "aliases": [
+    "정거장"
+   ],
+   "category": "place",
+   "polarity": "neutral",
+   "tags": [
+    "선택",
+    "전환"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "기차역에서 기다림",
+     "interpretation_ko": "인생 전환점·선택의 대기",
+     "interpretation_en": "a turning point or waiting choice",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "tower",
+   "term_ko": "탑",
+   "term_en": "tower",
+   "aliases": [
+    "빌딩"
+   ],
+   "category": "place",
+   "polarity": "positive",
+   "tags": [
+    "성취",
+    "야망"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "높은 탑",
+     "interpretation_ko": "높은 목표·성취·명성",
+     "interpretation_en": "lofty goal, achievement, fame",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "elevator",
+   "term_ko": "엘리베이터",
+   "term_en": "elevator",
+   "aliases": [],
+   "category": "place",
+   "polarity": "ambivalent",
+   "tags": [
+    "지위",
+    "급변"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "올라감/추락",
+     "interpretation_ko": "지위 급상승 또는 급락 불안",
+     "interpretation_en": "rapid rise or fear of fall",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "rooftop",
+   "term_ko": "옥상",
+   "term_en": "rooftop",
+   "aliases": [],
+   "category": "place",
+   "polarity": "neutral",
+   "tags": [
+    "조망",
+    "기로"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "옥상에 섬",
+     "interpretation_ko": "넓은 시야·중대한 기로",
+     "interpretation_en": "broad view or a pivotal edge",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "bank",
+   "term_ko": "은행",
+   "term_en": "bank",
+   "aliases": [],
+   "category": "place",
+   "polarity": "ambivalent",
+   "tags": [
+    "재물",
+    "관리"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "은행에 감",
+     "interpretation_ko": "재물 관리·자원에 대한 관심",
+     "interpretation_en": "managing wealth/resources",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "term_ko": "호텔",
+   "term_en": "hotel",
+   "aliases": [],
+   "category": "place",
+   "polarity": "neutral",
+   "tags": [
+    "임시",
+    "전환"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "낯선 호텔",
+     "interpretation_ko": "임시 국면·과도기",
+     "interpretation_en": "a temporary phase or transition",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "bread",
+   "term_ko": "빵",
+   "term_en": "bread",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "기본"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "따뜻한 빵",
+     "interpretation_ko": "기본적 풍요·생계",
+     "interpretation_en": "basic abundance, livelihood",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "meat",
+   "term_ko": "고기",
+   "term_en": "meat",
+   "aliases": [],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "욕구",
+    "풍요"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "고기를 먹음",
+     "interpretation_ko": "풍요·욕구 충족(날고기는 주의)",
+     "interpretation_en": "abundance/desire (raw = caution)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "apple",
+   "term_ko": "사과·과일",
+   "term_en": "fruit / apple",
+   "aliases": [
+    "과일"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "결실",
+    "건강",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "잘 익은 과일",
+     "interpretation_ko": "결실·건강·성취",
+     "interpretation_en": "fruition, health, achievement",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "egg",
+   "term_ko": "계란",
+   "term_en": "egg",
+   "aliases": [
+    "알"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "잠재",
+    "시작",
+    "태몽"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "온전한 계란",
+     "interpretation_ko": "잠재력·새 시작(깨지면 손실)",
+     "interpretation_en": "potential, new start (broken = loss)",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 새 생명이 깃드는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "wine",
+   "term_ko": "술(음료)",
+   "term_en": "alcohol / wine",
+   "aliases": [
+    "와인"
+   ],
+   "category": "object",
+   "polarity": "ambivalent",
+   "tags": [
+    "경사",
+    "과함"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "함께 술을 나눔",
+     "interpretation_ko": "경사·화합(과하면 구설)",
+     "interpretation_en": "celebration/bonding (excess = gossip)",
+     "polarity": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "milk",
+   "term_ko": "우유",
+   "term_en": "milk",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "양육",
+    "건강"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "흰 우유",
+     "interpretation_ko": "양육·건강·순수한 자원",
+     "interpretation_en": "nourishment, health, pure resource",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "cake",
+   "term_ko": "케이크",
+   "term_en": "cake",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "경사",
+    "보상"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "축하 케이크",
+     "interpretation_ko": "경사·보상·기쁨",
+     "interpretation_en": "celebration, reward, joy",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "peach",
+   "term_ko": "복숭아",
+   "term_en": "peach",
+   "aliases": [],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "장수",
+    "연애",
+    "태몽"
+   ],
+   "weight": 1,
+   "culture_note": "복숭아=장수·연애·태몽",
+   "meanings": [
+    {
+     "context": "탐스러운 복숭아",
+     "interpretation_ko": "장수·연애·귀한 태몽",
+     "interpretation_en": "longevity, romance, birth omen",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "blue",
+   "term_ko": "파랑",
+   "term_en": "blue",
+   "aliases": [
+    "청색"
+   ],
+   "category": "color",
+   "polarity": "positive",
+   "tags": [
+    "평온",
+    "신뢰"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "맑은 파랑",
+     "interpretation_ko": "평온·신뢰·희망",
+     "interpretation_en": "calm, trust, hope",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "term_ko": "초록",
+   "term_en": "green",
+   "aliases": [
+    "녹색"
+   ],
+   "category": "color",
+   "polarity": "positive",
+   "tags": [
+    "성장",
+    "건강"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "싱그러운 초록",
+     "interpretation_ko": "성장·건강·새 출발",
+     "interpretation_en": "growth, health, fresh start",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "number-nine",
+   "term_ko": "숫자 9",
+   "term_en": "number nine",
+   "aliases": [
+    "구"
+   ],
+   "category": "number",
+   "polarity": "positive",
+   "tags": [
+    "완성",
+    "마무리"
+   ],
+   "weight": 1,
+   "meanings": [
+    {
+     "context": "9가 반복",
+     "interpretation_ko": "완성·한 주기의 마무리",
+     "interpretation_en": "completion, end of a cycle",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "number-eight",
+   "term_ko": "숫자 8",
+   "term_en": "number eight",
+   "aliases": [
+    "팔"
+   ],
+   "category": "number",
+   "polarity": "positive",
+   "tags": [
+    "재물",
+    "번영"
+   ],
+   "weight": 1,
+   "culture_note": "동아시아에서 8=재물·번영",
+   "meanings": [
+    {
+     "context": "8이 반복",
+     "interpretation_ko": "재물·번영",
+     "interpretation_en": "wealth and prosperity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "chestnut",
+   "term_ko": "밤",
+   "term_en": "chestnut",
+   "aliases": [
+    "밤송이"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "자손"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "jujube",
+   "term_ko": "대추",
+   "term_en": "jujube",
+   "aliases": [
+    "대추나무"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "자손"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "persimmon",
+   "term_ko": "감",
+   "term_en": "persimmon",
+   "aliases": [
+    "홍시"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "결실"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 결실과 자손의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "grape",
+   "term_ko": "포도",
+   "term_en": "grapes",
+   "aliases": [
+    "포도송이"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "다산"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손이 번성하는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "chili",
+   "term_ko": "고추",
+   "term_en": "chili pepper",
+   "aliases": [
+    "붉은 고추"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 아들의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bead",
+   "term_ko": "구슬",
+   "term_en": "bead",
+   "aliases": [
+    "옥구슬"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "귀함"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  }
+ ]
+}
