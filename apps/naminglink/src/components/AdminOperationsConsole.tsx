@@ -38,7 +38,9 @@ const navGroups = [
   {
     heading: "운영 현황",
     items: [
-      ["대시보드", basePath, LayoutDashboard],
+      // **통합이 먼저, 개별이 다음.** 서비스가 넷이 되면 "전부 합치면 얼마인가"가 첫 질문이다.
+      ["통합 대시보드", `${basePath}/portfolio`, LayoutDashboard],
+      ["네이밍링크 대시보드", basePath, LayoutDashboard],
       // **서비스 전체를 보는 자리라 인연링크 그룹에서 꺼냈다.** 예전에는 이 항목이 인연링크
       // 메뉴 안에 있었고 실제로 인연링크만 물었다. 사주링크가 생겨도 이 화면이 따라오지 않아,
       // 그 배포가 환경변수 없이 떠 있는 것을 아무도 못 봤다(2026-08-06).
@@ -819,7 +821,42 @@ type PendingOrderRow = {
   is_test?: boolean;
 };
 
-type OtherAppSummary = { app: string; summary: Record<string, number> };
+type OtherAppSummary = { app: AppKey; summary: Record<string, number> };
+
+/**
+ * 서비스 색. **이 앱에 실제로 있는 토큰만 쓴다**(`globals.css`: teal·rose·amber).
+ *
+ * 예전에는 `brand-plum`을 쓰고 있었는데 그런 토큰이 없어서 **인연링크 배지가 색 없이
+ * 나오고 있었다** — 없는 클래스는 조용히 아무 일도 하지 않는다(2026-08-06).
+ */
+const APP_TONE: Record<AppKey, { badge: string; border: string; text: string }> = {
+  naminglink: {
+    badge: "bg-brand-teal/12 text-brand-teal",
+    border: "hover:border-brand-teal",
+    text: "text-brand-teal",
+  },
+  inyeonlink: {
+    badge: "bg-brand-rose/12 text-brand-rose",
+    border: "hover:border-brand-rose",
+    text: "text-brand-rose",
+  },
+  sajulink: {
+    badge: "bg-brand-amber/12 text-brand-amber",
+    border: "hover:border-brand-amber",
+    text: "text-brand-amber",
+  },
+};
+
+/** 모르는 앱은 중립색으로 떨어뜨린다 — 남의 서비스 색을 입히는 것보다 낫다. */
+export function appTone(app: AppKey) {
+  return (
+    APP_TONE[app] ?? {
+      badge: "bg-surface-strong text-muted",
+      border: "hover:border-line",
+      text: "text-muted",
+    }
+  );
+}
 
 /**
  * 반대편 서비스로 건너가는 줄. **두 대시보드가 서로를 가리킨다.**
@@ -831,13 +868,15 @@ type OtherAppSummary = { app: string; summary: Record<string, number> };
  * 색은 서비스 배지와 같은 계열로 간다(인연링크 자두, 네이밍링크 틸). 어느 쪽 숫자를 보고
  * 있는지가 색으로도 구분돼야 한다.
  */
+/** 서비스별 화면 경로. naminglink는 콘솔 자신이라 뿌리다. */
+export function appConsolePath(app: AppKey) {
+  return app === "naminglink" ? basePath : `${basePath}/service/${app}`;
+}
+
 function OtherAppLink({ other }: { other: OtherAppSummary }) {
-  const isInyeon = other.app === "inyeonlink";
-  const label = isInyeon ? "인연링크" : "네이밍링크";
-  const href = isInyeon ? `${basePath}/inyeon` : basePath;
-  const tone = isInyeon
-    ? { badge: "bg-brand-plum/12 text-brand-plum", border: "hover:border-brand-plum", text: "text-brand-plum" }
-    : { badge: "bg-brand-teal/12 text-brand-teal", border: "hover:border-brand-teal", text: "text-brand-teal" };
+  const label = appLabel(other.app);
+  const href = appConsolePath(other.app);
+  const tone = appTone(other.app);
 
   return (
     <Link
@@ -857,13 +896,13 @@ function OtherAppLink({ other }: { other: OtherAppSummary }) {
         방문자 <b className="text-foreground">{number.format(other.summary.visitors ?? 0)}</b>
       </span>
       <span className={`ml-auto text-xs ${tone.text}`}>
-        {isInyeon ? "인연링크 현황 보기" : "통합 대시보드 보기"} →
+        {other.app === "naminglink" ? "네이밍링크 대시보드 보기" : `${label} 현황 보기`} →
       </span>
     </Link>
   );
 }
 
-function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[]; other?: OtherAppSummary }) {
+function DashboardView({ snapshot, summary, pendingOrders, others }: { snapshot: Snapshot; summary: Record<string, number>; pendingOrders: PendingOrderRow[]; others?: OtherAppSummary[] }) {
   const pagedOrders = usePagedList(pendingOrders, "pending-orders", 16);
   const pendingOrderCount = snapshot.orderStatuses
     .filter((row) => row.payment_status === "PAID" && ["PENDING", "PROCESSING"].includes(row.fulfillment_status))
@@ -872,7 +911,7 @@ function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: 
     <>
       {/* **이 화면의 숫자는 전부 네이밍링크 것이다.** 예전에는 인연링크 주문까지 함께 집계돼
           매출이 조용히 합산됐다. 합치지 않고 한 줄로 알리는 이유는 `OtherAppLink` 주석에 있다. */}
-      {other ? <OtherAppLink other={other} /> : null}
+      {(others ?? []).map((row) => (<OtherAppLink key={row.app} other={row} />))}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
         <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
         <Metric dense label="처리 대기 주문" value={number.format(pendingOrderCount)} note={"결제 후, 미완료\n(목표 건수 : 0)"} />
@@ -974,13 +1013,13 @@ function ServiceDashboardView({
   snapshot,
   summary,
   pendingOrders,
-  other,
+  others,
 }: {
   app: AppKey;
   snapshot: Snapshot;
   summary: Record<string, number>;
   pendingOrders: PendingOrderRow[];
-  other?: OtherAppSummary;
+  others?: OtherAppSummary[];
 }) {
   const config = serviceConsole(app);
   // 페이지 상태 키에 서비스를 넣는다. 한 키를 나눠 쓰면 서비스를 오가며 페이지 번호가 섞인다.
@@ -991,7 +1030,7 @@ function ServiceDashboardView({
   return (
     <>
       {/* 반대 방향으로도 건너간다 — 네이밍링크 대시보드가 이 화면을 가리키는 것과 짝이다. */}
-      {other ? <OtherAppLink other={other} /> : null}
+      {(others ?? []).map((row) => (<OtherAppLink key={row.app} other={row} />))}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
         <Metric dense label="결제 매출" value={`${number.format(summary.revenue ?? 0)}원`} note={`결제 완료 ${number.format(summary.paidOrders ?? 0)}건`} />
         <Metric dense label="발급 대기" value={number.format(pendingOrderCount)} note={"결제 후, 미발급\n(목표 건수 : 0)"} />
@@ -1252,7 +1291,7 @@ export function AdminOperationsConsole({
           snapshot={snapshot}
           summary={summary}
           pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}
-          other={payload?.other as OtherAppSummary | undefined}
+          others={payload?.others as OtherAppSummary[] | undefined}
         />
       );
     return (
@@ -1260,7 +1299,7 @@ export function AdminOperationsConsole({
         snapshot={snapshot}
         summary={summary}
         pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}
-        other={payload?.other as OtherAppSummary | undefined}
+        others={payload?.others as OtherAppSummary[] | undefined}
       />
     );
   })();

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { isAppKey, type AppKey } from "@naminglink/core/apps";
+import { APP_KEYS, isAppKey, type AppKey } from "@naminglink/core/apps";
 import { hasAdminRole, requireAdmin } from "@/lib/admin-auth";
 import { KRW_PER_USD, summarizeAiUsage } from "@/lib/ai-pricing";
 import { STAMP_MODELS, type StampModelCode } from "@/lib/goods-products";
@@ -41,6 +41,41 @@ export async function GET(request: NextRequest) {
   const rawApp = request.nextUrl.searchParams.get("app");
   const app: AppKey = isAppKey(rawApp) ? rawApp : "naminglink";
 
+  /**
+   * **통합 대시보드: 모든 서비스를 한 번에 내려준다.**
+   *
+   * 서비스별 화면이 따로 있어도 "전부 합치면 얼마인가 · 어느 쪽이 크는가"는 나란히 놓고 봐야
+   * 보인다. 합계를 서버에서 만들지 않고 서비스별 요약을 그대로 보내는 이유는, 화면이 합계와
+   * 개별을 함께 보여 주기 때문이다 — 합계만 보내면 어느 서비스가 그 숫자를 만들었는지 잃는다.
+   *
+   * 원가·마진은 여기 없다. 결제 수수료와 인프라 청구서가 아직 없어 **검증할 방법이 없기**
+   * 때문이다. 그럴듯한 마진을 먼저 그리는 것이 가장 위험하다 — 틀려도 티가 안 난다.
+   */
+  if (view === "portfolio") {
+    const services = (
+      await Promise.all(
+        APP_KEYS.map(async (key) => {
+          const { data: snap, error: snapError } = await supabase.rpc(
+            "admin_analytics_snapshot",
+            { p_days: days, p_include_test: includeTest, p_app: key },
+          );
+          if (snapError) return null;
+          const summary = (snap as { summary?: Record<string, number> } | null)?.summary;
+          return summary ? { app: key, summary } : null;
+        }),
+      )
+    ).filter((row): row is { app: AppKey; summary: Record<string, number> } => row !== null);
+
+    // 하나도 못 읽었으면 빈 표 대신 오류다. 빈 표는 "전부 0"으로 읽힌다.
+    if (!services.length) {
+      return NextResponse.json(
+        { ok: false, error: "서비스 지표를 하나도 읽지 못했습니다." },
+        { status: 500 },
+      );
+    }
+    return NextResponse.json({ ok: true, includesTest: includeTest, days, services });
+  }
+
   // 운영자 계정과 굿즈 구매 회원은 목적도 위험도 다르다(권한 부여 ↔ 개인정보 삭제 이행).
   // 같은 표에 섞어 두면 성격이 다른 조작이 나란히 놓여 실수를 부른다. 출처는 auth.users 하나이고
   // 화면만 가른다. 판정은 admin-auth의 hasAdminRole 한 곳을 쓴다(roles 배열형도 관리자다).
@@ -81,14 +116,20 @@ export async function GET(request: NextRequest) {
 
   if (view === "ai") {
     const since = new Date(Date.now() - days * 86400000).toISOString();
+    // **서비스로 거른다.** 예전에는 거르지 않아 이 화면이 모든 서비스의 AI 원가를 합쳐
+    // 보여 줬다. 지금까지는 naminglink만 모델을 써서 티가 나지 않았지만, 사주링크가 유료
+    // 리포트를 팔기 시작하면 그 원가가 조용히 여기 섞인다 — 숫자가 그럴듯해서 아무도 눈치채지
+    // 못하는 종류다(2026-08-06에 지표 RPC에서 같은 결함을 고쳤다).
     const { data, error } = await supabase.from("ai_usage_logs")
       .select("id,service_type,model,prompt_tokens,completion_tokens,total_tokens,latency_ms,status,error_code,created_at")
+      .eq("app", app)
       .gte("created_at", since).order("created_at", { ascending: false }).limit(500);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
     // 상세 표는 최근 500건만 보여주지만 원가 집계는 기간 전체를 봐야 한다. 집계에 필요한 열만
     // 따로 넓게 읽어 서버에서 합산하므로 응답 크기는 서비스 수만큼만 늘어난다.
     const { data: costRows } = await supabase.from("ai_usage_logs")
       .select("service_type,model,prompt_tokens,completion_tokens,total_tokens,status")
+      .eq("app", app)
       .gte("created_at", since).limit(20000);
     return NextResponse.json({
       ok: true,
@@ -116,18 +157,28 @@ export async function GET(request: NextRequest) {
     .order("created_at", { ascending: true }).limit(300);
   if (pendingError) return NextResponse.json({ ok: false, error: pendingError.message }, { status: 500 });
 
-  // 반대편 서비스의 요약. **대시보드에서 "저쪽은 지금 어떤가"를 한 칸으로 보여 주려는 것이다.**
-  // 매출을 합쳐 버리면 서비스별 성과를 못 보고, 아예 감추면 이 콘솔이 인연링크도 관리한다는
+  // 다른 서비스들의 요약. **대시보드에서 "저쪽은 지금 어떤가"를 한 칸으로 보여 주려는 것이다.**
+  // 매출을 합쳐 버리면 서비스별 성과를 못 보고, 아예 감추면 이 콘솔이 형제 서비스도 관리한다는
   // 사실이 대시보드에서 사라진다. 그래서 합치지 않고 따로 붙인다.
   //
+  // **예전에는 이것이 이분법이었다**(`inyeonlink면 naminglink, 아니면 inyeonlink`). 서비스가
+  // 셋이 되자 사주링크 대시보드에서 "저쪽"이 인연링크로 떴다 — 틀린 값은 아니지만 왜 그 서비스가
+  // 나오는지 설명할 수 없는 자리였다. 이제 자기 자신만 빼고 전부 붙인다(2026-08-06).
+  //
   // 실패해도 대시보드를 막지 않는다 — 이 칸 하나 때문에 화면 전체가 죽으면 안 된다.
-  const otherApp: AppKey = app === "inyeonlink" ? "naminglink" : "inyeonlink";
-  const { data: otherData } = await supabase.rpc("admin_analytics_snapshot", {
-    p_days: days,
-    p_include_test: includeTest,
-    p_app: otherApp,
-  });
-  const otherSummary = (otherData as { summary?: Record<string, number> } | null)?.summary ?? null;
+  const others = (
+    await Promise.all(
+      APP_KEYS.filter((key) => key !== app).map(async (key) => {
+        const { data: otherData } = await supabase.rpc("admin_analytics_snapshot", {
+          p_days: days,
+          p_include_test: includeTest,
+          p_app: key,
+        });
+        const summary = (otherData as { summary?: Record<string, number> } | null)?.summary;
+        return summary ? { app: key, summary } : null;
+      }),
+    )
+  ).filter((row): row is { app: AppKey; summary: Record<string, number> } => row !== null);
 
   return NextResponse.json({
     ok: true,
@@ -135,7 +186,7 @@ export async function GET(request: NextRequest) {
     app,
     snapshot: data,
     pendingOrders: pendingOrders ?? [],
-    other: otherSummary ? { app: otherApp, summary: otherSummary } : null,
+    others,
   });
 }
 
