@@ -32,6 +32,94 @@ export type GuideEntry = {
 
 export const guideEntries: GuideEntry[] = [
   {
+    slug: "symbol-dictionary",
+    title: "상징 사전은 무엇을 근거로 하나",
+    summary:
+      "풀이가 어디서 나오는지 밝힙니다. 상징 215개를 아홉 갈래로 나눈 기준, 전해 오는 근거를 댈 수 있는 것이 24개뿐인 이유, 그리고 빈자리를 채우지 않는 까닭입니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "how-matching-works",
+    title: "꿈 이야기에서 상징을 찾는 방법",
+    summary:
+      "자유롭게 적은 문장에서 어떻게 상징을 골라내는지, 「특별할」의 별처럼 낱말 안에 우연히 들어간 글자를 어떻게 걸러내는지 설명합니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "one-symbol-many-meanings",
+    title: "같은 상징인데 뜻이 다른 이유",
+    summary:
+      "뱀을 품는 것과 물리는 것은 전통적으로 반대입니다. 상징 215개가 뜻 256가지를 갖는 구조와, 상황을 어떻게 알아보는지 다룹니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "good-and-bad",
+    title: "길몽과 흉몽을 가리는 기준",
+    summary:
+      "상징마다 매겨 둔 네 가지 값과 그 분포, 좋은 쪽이 절반을 넘는 이유, 그리고 섞인 꿈을 섞인 대로 말씀드리는 까닭입니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "conception-dreams",
+    title: "태몽을 가리는 방식",
+    summary:
+      "태몽 상징 27개를 어떻게 판정하는지, 돼지꿈이 모두 태몽이 되지 않는 이유, 그리고 임신과 성별을 판정하지 않는다는 원칙을 밝힙니다.",
+    eyebrow: "태몽",
+    audience: "ko",
+  },
+  {
+    slug: "how-to-write",
+    title: "꿈을 어떻게 적으면 좋은가",
+    summary:
+      "본 것과 한 것을 적어 주시면 잘 걸립니다. 동사 하나가 뜻을 가르는 이유와, 기분·되풀이 여부를 함께 여쭙는 까닭을 설명합니다.",
+    eyebrow: "이용 방법",
+    audience: "ko",
+  },
+  {
+    slug: "categories",
+    title: "아홉 갈래로 나눈 기준",
+    summary:
+      "사물·동물·자연부터 빛깔·수까지 아홉 갈래와 각각의 수, 그리고 감정 갈래를 두지 않은 이유입니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "not-found",
+    title: "상징을 찾지 못했을 때",
+    summary:
+      "못 찾으면 못 찾았다고 말씀드립니다. 왜 못 찾는지, 그 화면에서 무엇을 대신 보여드리는지, 사전을 어떻게 늘려 가는지 다룹니다.",
+    eyebrow: "이용 방법",
+    audience: "ko",
+  },
+  {
+    slug: "no-ai",
+    title: "해몽에 인공지능을 쓰지 않는 이유",
+    summary:
+      "풀이를 만드는 자리에 모델을 부르는 코드가 없습니다. 사전을 모델로 넓혀 보려다 접은 실측 결과와, 그래서 얻은 것과 포기한 것입니다.",
+    eyebrow: "서비스 근거",
+    audience: "ko",
+  },
+  {
+    slug: "what-we-do-not-do",
+    title: "하지 않기로 한 것들",
+    summary:
+      "복권 번호·꿈일기·임신 판정·액막이를 하지 않습니다. 각각을 왜 하지 않기로 했는지 밝힙니다.",
+    eyebrow: "서비스 원칙",
+    audience: "ko",
+  },
+  {
+    slug: "reports",
+    title: "꿈을 간직하는 두 가지 방법",
+    summary:
+      "풀이 자체는 값을 받지 않습니다. 파는 두 가지가 무엇이고 무엇이 담기는지, 그리고 그것이 더 나은 풀이가 아닌 이유를 설명합니다.",
+    eyebrow: "유료 상품",
+    audience: "ko",
+  },
+  {
     slug: "no-storage",
     title: "적어 주신 꿈을 저장하지 않는 방식",
     summary:
