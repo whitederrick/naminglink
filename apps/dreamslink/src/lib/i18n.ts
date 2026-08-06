@@ -156,6 +156,15 @@ export type Dictionary = {
     noSymbols: string;
     themesHeading: string;
     conceptionNotice: string;
+    /**
+     * 상징을 하나도 못 찾았을 때 **막다른 길로 두지 않기 위한 두 문구.**
+     *
+     * 예전에는 "찾지 못했습니다"로 끝났다. 정직한 결과이긴 하지만 이용자가 거기서 나가면
+     * 서비스도 광고도 거기서 끝난다. 사전 안으로 들여보내면 이용자는 찾던 것을 찾을 길이
+     * 생기고, 그 페이지에서 광고가 노출된다.
+     */
+    browseSymbols: string;
+    popularSymbols: string;
     disclaimer: string;
     again: string;
   };
@@ -265,6 +274,8 @@ const ko: Dictionary = {
     noSymbols: "이 꿈에서는 사전에 있는 전통 상징을 찾지 못했습니다. 없는 의미를 지어내지 않기 위해 비워 둡니다.",
     themesHeading: "함께 가리키는 것",
     conceptionNotice: "전통적으로 태몽으로 보아 온 상징이 있습니다. 임신 여부를 판정하지는 않습니다.",
+    browseSymbols: "전통 해몽 상징 사전 보기",
+    popularSymbols: "자주 찾는 상징",
     disclaimer: "전통 해몽 관점의 참고 자료이며 의학·재무·법률 자문이 아닙니다. 적어 주신 꿈은 저장하지 않습니다.",
     again: "다른 꿈 보기",
   },
@@ -451,6 +462,8 @@ const en: Dictionary = {
     noSymbols: "No traditional symbol from our dictionary appeared in this dream. We leave this empty rather than invent a meaning.",
     themesHeading: "What they point to together",
     conceptionNotice: "Symbols traditionally read as conception omens appear here. This does not determine pregnancy.",
+    browseSymbols: "Browse the traditional symbol dictionary",
+    popularSymbols: "Commonly looked up",
     disclaimer: "This is reference material from a traditional dream-reading perspective, not medical, financial, or legal advice. We do not store the dream you wrote.",
     again: "Read another dream",
   },

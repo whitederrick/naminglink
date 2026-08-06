@@ -38,6 +38,8 @@ export const tr: Dictionary = {
     "noSymbols": "Bu rüyada sözlükten gelen hiçbir geleneksel sembol görünmedi. Anlam uydurmamak için burayı boş bırakıyoruz.",
     "themesHeading": "Bunlar birlikte neyi işaret ediyor",
     "conceptionNotice": "Burada geleneksel olarak 태몽 olarak okunan semboller var. Bu, hamileliği belirlemez.",
+    "browseSymbols": "Geleneksel sembol sözlüğünü görüntüle",
+    "popularSymbols": "Sıkça aranan semboller",
     "disclaimer": "Bu, geleneksel 해몽 perspektifinden referans materyaldir, tıbbi, finansal veya hukuki tavsiye değildir. Yazdığınız rüyayı saklamıyoruz.",
     "again": "Başka bir rüya oku"
   },

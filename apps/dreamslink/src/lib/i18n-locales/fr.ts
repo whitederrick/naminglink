@@ -38,6 +38,8 @@ export const fr: Dictionary = {
     "noSymbols": "Aucun symbole traditionnel de notre dictionnaire n'est apparu dans ce rêve. Nous laissons cela vide plutôt que d'inventer une signification.",
     "themesHeading": "Ce à quoi ils pointent ensemble",
     "conceptionNotice": "Des symboles traditionnellement interprétés comme des présages de conception apparaissent ici. Cela ne détermine pas la grossesse.",
+    "browseSymbols": "Parcourir le dictionnaire des symboles traditionnels",
+    "popularSymbols": "Symboles fréquemment recherchés",
     "disclaimer": "Ceci est un matériel de référence d'un point de vue traditionnel d'interprétation de rêve, et non un conseil médical, financier ou juridique. Nous ne stockons pas le rêve que vous avez écrit.",
     "again": "Lire un autre rêve"
   },

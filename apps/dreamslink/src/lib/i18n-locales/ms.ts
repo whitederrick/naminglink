@@ -38,6 +38,8 @@ export const ms: Dictionary = {
     "noSymbols": "Tiada simbol tradisional dari kamus kami muncul dalam mimpi ini. Kami membiarkannya kosong daripada mereka-reka makna.",
     "themesHeading": "Apa yang mereka tunjukkan bersama-sama",
     "conceptionNotice": "Simbol yang secara tradisional dibaca sebagai tanda-tanda konsepsi muncul di sini. Ini tidak menentukan kehamilan.",
+    "browseSymbols": "Lihat kamus simbol tradisional",
+    "popularSymbols": "Simbol yang sering dicari",
     "disclaimer": "Ini adalah bahan rujukan dari perspektif pembacaan mimpi tradisional, bukan nasihat perubatan, kewangan, atau undang-undang. Kami tidak menyimpan mimpi yang anda tulis.",
     "again": "Baca mimpi lain"
   },

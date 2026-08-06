@@ -38,6 +38,8 @@ export const pl: Dictionary = {
     "noSymbols": "W tym śnie nie pojawił się żaden tradycyjny symbol z naszego słownika. Zostawiamy to puste, aby nie wymyślać znaczenia.",
     "themesHeading": "Co one wskazują razem",
     "conceptionNotice": "Symbole tradycyjnie interpretowane jako znaki poczęcia pojawiają się tutaj. To nie określa ciąży.",
+    "browseSymbols": "Przeglądaj tradycyjny słownik symboli",
+    "popularSymbols": "Często wyszukiwane",
     "disclaimer": "To materiały referencyjne z perspektywy tradycyjnej interpretacji snów, a nie porady medyczne, finansowe ani prawne. Nie przechowujemy snu, który napisałeś.",
     "again": "Przeczytaj inny sen"
   },

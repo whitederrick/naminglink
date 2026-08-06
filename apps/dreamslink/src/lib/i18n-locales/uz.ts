@@ -38,6 +38,8 @@ export const uz: Dictionary = {
     "noSymbols": "Bizning lug'atimizdan bu tushda an'anaviy ramzlar ko'rinmadi. Ma'noni ixtiro qilmaslik uchun buni bo'sh qoldiramiz.",
     "themesHeading": "Ular birgalikda nimani anglatadi",
     "conceptionNotice": "An'anaviy ravishda ta'lim belgilari bu yerda ko'rinadi. Bu homiladorlikni aniqlamaydi.",
+    "browseSymbols": "An'anaviy ramzlar lug'atini ko'rish",
+    "popularSymbols": "Tez-tez qidiriladigan ramzlar",
     "disclaimer": "Bu an'anaviy tushni o'qish nuqtai nazaridan ma'lumot materialidir, tibbiy, moliyaviy yoki huquqiy maslahat emas. Siz yozgan tushni saqlamaymiz.",
     "again": "Boshqa tushni o'qish"
   },

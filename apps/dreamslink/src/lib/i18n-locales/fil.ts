@@ -38,6 +38,8 @@ export const fil: Dictionary = {
     "noSymbols": "Walang tradisyonal na simbolo mula sa aming diksyunaryo ang lumitaw sa pangarap na ito. Iiwan naming walang laman ito sa halip na mag-imbento ng kahulugan.",
     "themesHeading": "Ano ang sama-samang tinutukoy nila",
     "conceptionNotice": "Ang mga simbolo na tradisyonal na binabasa bilang mga tanda ng pagbuo ay lumilitaw dito. Hindi ito nagtatakda ng pagbubuntis.",
+    "browseSymbols": "Tingnan ang tradisyonal na diksyunaryo ng simbolo",
+    "popularSymbols": "Karaniwang hinahanap",
     "disclaimer": "Ito ay materyal na sanggunian mula sa isang tradisyonal na pananaw ng pagsusuri ng pangarap, hindi medikal, pinansyal, o legal na payo. Hindi namin iniimbak ang pangarap na isinulat mo.",
     "again": "Basahin ang ibang pangarap"
   },

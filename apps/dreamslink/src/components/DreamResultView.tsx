@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
@@ -35,12 +36,22 @@ export function DreamResultView({
   locale,
   cardPrice,
   conceptionPrice,
+  popularSymbols,
+  symbolsHref,
 }: {
   dictionary: Dictionary;
   locale: Locale;
   /** 서버가 정한 표시 가격. 판매 전이면 null이라 패널이 "준비 중"으로 뜬다. */
   cardPrice: string | null;
   conceptionPrice: string | null;
+  /**
+   * 상징을 못 찾았을 때 보여 줄 대표 상징들.
+   *
+   * **서버가 골라 넘긴다.** 이 컴포넌트는 클라이언트라, 여기서 사전을 불러 고르면 상징
+   * 215개짜리 JSON이 통째로 브라우저로 내려간다. 필요한 것은 이름과 주소 몇 개뿐이다.
+   */
+  popularSymbols: Array<{ term: string; href: string }>;
+  symbolsHref: string;
 }) {
   const t = dictionary.dream;
   // 화면 언어는 23개지만 **해몽 내용은 ko·en 두 벌뿐**이다(사전이 그렇게 생겼다).
@@ -147,7 +158,36 @@ export function DreamResultView({
           </div>
         ) : (
           // 매칭 0건은 정상 결과다. 여기서 무언가를 만들면 그때부터 날조가 시작된다.
-          <p className="break-keep-all text-sm leading-6 text-muted">{t.noSymbols}</p>
+          //
+          // **다만 막다른 길로 두지는 않는다.** 예전에는 이 문구 하나로 끝났고, 이용자는 거기서
+          // 나갔다 — 서비스도 광고도 함께 끝났다. 지어내지 않으면서 다음 걸음을 주는 길은
+          // **사전 안으로 들여보내는 것**이다. 찾던 상징을 직접 찾을 수 있고, 그 페이지가
+          // 광고를 싣는다.
+          <div className="rounded-2xl border border-line bg-surface p-5">
+            <p className="break-keep-all text-sm leading-6 text-muted">{t.noSymbols}</p>
+            {popularSymbols.length ? (
+              <>
+                <p className="mt-4 text-xs font-semibold text-muted">{t.popularSymbols}</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {popularSymbols.map((symbol) => (
+                    <Link
+                      key={symbol.href}
+                      href={symbol.href}
+                      className="rounded-full border border-line bg-background px-3.5 py-1.5 text-sm font-semibold transition hover:border-brand-violet hover:text-brand-violet"
+                    >
+                      {symbol.term}
+                    </Link>
+                  ))}
+                </div>
+              </>
+            ) : null}
+            <Link
+              href={symbolsHref}
+              className="mt-4 inline-flex h-10 items-center justify-center rounded-lg bg-brand-violet px-4 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+            >
+              {t.browseSymbols}
+            </Link>
+          </div>
         )}
       </section>
 

@@ -8,7 +8,11 @@ import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { readingLanguage, symbolTerm } from "@/lib/dream-language";
+import { DREAM_SYMBOLS } from "@/lib/dream-symbols";
 import { getRequestLocale } from "@/lib/locale";
+import { localePath } from "@/lib/locale-path";
+import { SYMBOLS_INDEX_PATH, symbolPagePath } from "@/lib/symbol-pages";
 import {
   getReportOffer,
   getReportProduct,
@@ -58,6 +62,24 @@ export default async function Page({
     getReportOffer(getReportProduct("conception", region)),
   ]);
 
+  /**
+   * 상징을 못 찾았을 때 보여 줄 대표 상징.
+   *
+   * **무게로 고른다.** 사전이 이미 「대표 상징일수록 크다」는 값을 갖고 있어(`weight`), 여기서
+   * 목록을 손으로 적을 이유가 없다 — 손으로 적으면 사전이 바뀌어도 그대로 남는다.
+   * 무게 3은 돼지·뱀·용·이빨 빠짐·똥·추락·쫓김·죽음·돈 아홉이다.
+   *
+   * **서버에서 고른다.** 결과 화면은 클라이언트 컴포넌트라, 그쪽에서 사전을 부르면 상징
+   * 215개짜리 JSON이 통째로 브라우저로 내려간다.
+   */
+  const language = readingLanguage(locale);
+  const popularSymbols = DREAM_SYMBOLS.filter((symbol) => (symbol.weight ?? 1) >= 3)
+    .slice(0, 9)
+    .map((symbol) => ({
+      term: symbolTerm(symbol, language),
+      href: localePath(symbolPagePath(symbol.id), locale),
+    }));
+
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
       <div aria-hidden className="fixed inset-0 z-0">
@@ -89,6 +111,8 @@ export default async function Page({
             locale={locale}
             cardPrice={cardOffer?.display ?? null}
             conceptionPrice={conceptionOffer?.display ?? null}
+            popularSymbols={popularSymbols}
+            symbolsHref={localePath(SYMBOLS_INDEX_PATH, locale)}
           />
           {/* 결과를 읽은 직후에 "참고 자료"라는 것과 "저장되지 않았다"는 것을 함께 본다.
               사주링크 결과 화면과 같은 자리·같은 값이다 — 드림링크에는 이것이 빠져 있어

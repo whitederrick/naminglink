@@ -38,6 +38,8 @@ export const pt: Dictionary = {
     "noSymbols": "Nenhum símbolo tradicional do nosso dicionário apareceu neste sonho. Deixamos isso vazio em vez de inventar um significado.",
     "themesHeading": "O que eles apontam juntos",
     "conceptionNotice": "Símbolos tradicionalmente lidos como presságios de concepção aparecem aqui. Isso não determina a gravidez.",
+    "browseSymbols": "Veja o dicionário de símbolos tradicionais",
+    "popularSymbols": "Símbolos comumente pesquisados",
     "disclaimer": "Este é um material de referência de uma perspectiva tradicional de leitura de sonhos, não é aconselhamento médico, financeiro ou legal. Não armazenamos o sonho que você escreveu.",
     "again": "Ler outro sonho"
   },

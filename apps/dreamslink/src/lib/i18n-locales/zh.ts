@@ -38,6 +38,8 @@ export const zh: Dictionary = {
     "noSymbols": "在这个梦中没有出现我们字典中的传统符号。我们将其留空，而不是编造意义。",
     "themesHeading": "它们共同指向的内容",
     "conceptionNotice": "这里出现了传统上被视为怀孕征兆的符号。这并不决定怀孕。",
+    "browseSymbols": "浏览传统符号字典",
+    "popularSymbols": "常见查询",
     "disclaimer": "这是来自传统梦解读视角的参考材料，不是医学、财务或法律建议。我们不会存储您写的梦。",
     "again": "阅读另一个梦"
   },

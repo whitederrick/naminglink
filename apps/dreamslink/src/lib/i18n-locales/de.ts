@@ -38,6 +38,8 @@ export const de: Dictionary = {
     "noSymbols": "Kein traditionelles Symbol aus unserem Wörterbuch erschien in diesem Traum. Wir lassen dies leer, anstatt eine Bedeutung zu erfinden.",
     "themesHeading": "Worauf sie zusammen hinweisen",
     "conceptionNotice": "Symbole, die traditionell als 태몽 gedeutet werden, erscheinen hier. Dies bestimmt nicht die Schwangerschaft.",
+    "browseSymbols": "Durchsuchen Sie das traditionelle Symbolwörterbuch",
+    "popularSymbols": "Häufig nachgeschlagene Symbole",
     "disclaimer": "Dies ist Referenzmaterial aus einer traditionellen 해몽-Perspektive, keine medizinische, finanzielle oder rechtliche Beratung. Wir speichern den Traum, den Sie geschrieben haben, nicht.",
     "again": "Einen anderen Traum lesen"
   },

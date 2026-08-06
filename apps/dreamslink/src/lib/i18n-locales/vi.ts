@@ -38,6 +38,8 @@ export const vi: Dictionary = {
     "noSymbols": "Không có biểu tượng truyền thống nào từ từ điển của chúng tôi xuất hiện trong giấc mơ này. Chúng tôi để trống điều này thay vì bịa ra một ý nghĩa.",
     "themesHeading": "Những gì chúng chỉ đến cùng nhau",
     "conceptionNotice": "Các biểu tượng được xem là điềm báo về việc thụ thai xuất hiện ở đây. Điều này không xác định việc mang thai.",
+    "browseSymbols": "Xem từ điển biểu tượng truyền thống",
+    "popularSymbols": "Các biểu tượng thường được tìm kiếm",
     "disclaimer": "Đây là tài liệu tham khảo từ góc độ giải mã giấc mơ truyền thống, không phải là lời khuyên y tế, tài chính hoặc pháp lý. Chúng tôi không lưu trữ giấc mơ bạn đã viết.",
     "again": "Đọc giấc mơ khác"
   },
