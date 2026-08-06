@@ -179,6 +179,49 @@ PII 없음, 본문 받는 라우트 25개 전수 통과.
 
 ---
 
+## 3.5 새 서비스를 붙이는 절차 (2026-08-06 기준)
+
+콘솔·검사기가 `APP_KEYS`를 돌게 바뀌어서, **배선 비용이 사실상 0**이다. 아침까지만 해도
+사주링크는 콘솔에 메뉴가 하나도 없었고, 붙이려면 인연링크 화면을 세 벌 복제해야 했다.
+
+### ① `packages/core/src/apps.ts`의 `APP_KEYS`에 한 줄
+
+이것만으로 **자동으로 따라오는 것**: 콘솔 메뉴 그룹 3개(현황·주문·상품) · 경로
+`/naming-artist/service/<app>/…` · **통합 대시보드 행과 합계** · 대시보드의 「저쪽 서비스」 링크 ·
+서비스 오픈 상태 점검 · 검사기 6종(route-guards · payment-return · app-split · env-isolation ·
+app-coverage · reachable-links는 제외, 인자를 받는다).
+
+### ② tsc가 짚어 주는 다섯 곳
+
+`dreamslink`를 임시로 넣고 실측했다. **컴파일이 정확히 다섯 곳에서 멈춘다**(`TS2741`):
+
+```
+AdminOperationsConsole.tsx   SERVICE_CONSOLE (분석 종류·문구)  ·  APP_TONE (색)
+AdminProductSettings.tsx     BADGE_TONE (색)  ·  COPY (상품 화면 문구)
+packages/core/src/apps.ts    APP_LABELS (서비스 이름)
+```
+
+빠뜨릴 수 없다 — 빌드가 안 된다. **`Partial<Record<…>>`만 조심할 것**: 그걸 쓰면 누락이 오류가
+아니게 되고, 2026-08-04에 실제로 그래서 콘솔 제목이 빈칸으로 떴다 → [[record-appkey-not-enforced]]
+
+### ③ 검사기가 짚어 주는 것 — DB 제약
+
+`orders_service_check` · `site_events_app_check` · `ad_events_app_check` 세 CHECK 제약이 앱
+이름을 SQL에 박고 있다. 마이그레이션을 잊으면 **그 앱의 INSERT가 전부 거부되는데, 값 검사는
+"행이 없다"로 조용히 통과한다.** 그래서 `verify-app-split`이 제약의 허용값을 `APP_KEYS`와
+대조한다 — 빠지면 「마이그레이션이 빠졌다」로 잡는다.
+
+### ④ 손으로 해야 하는 것 — 셋뿐
+
+1. `apps.ts`에 `<APP>_PRODUCT_CODES` (상품이 생기면)
+2. Vercel 환경변수 세트 — Supabase 2 · `ANALYTICS_HASH_SALT` · `OPS_STATUS_TOKEN`(세 앱과 같은 값) ·
+   `RESEND_API_KEY`(Resend에서 새 키, **도메인은 naming-link.com**) · `NEXT_PUBLIC_SITE_URL` ·
+   `NEXT_PUBLIC_ADSENSE_CLIENT` · (AI를 쓰면 `OPENAI_*`). 콘솔 쪽에는 `<APP>_BASE_URL`
+   — **`DREAMSLINK_BASE_URL`은 2026-08-06에 미리 넣어 두었다**(앱이 없어 지금은 읽히지 않는다)
+3. **앱 자체.** 이것이 진짜 일이고 나머지는 배선이다.
+
+---
+
 ## 4. dreamslink (미착수)
 
 - `apps/dreamslink`에 **이미지 7장뿐**. `src` 없음.
@@ -187,7 +230,7 @@ PII 없음, 본문 받는 라우트 25개 전수 통과.
 - **애드센스 승인 시점이 사실상 개발 마감**이다 — 승인 후 inyeon·saju·dream을 동시 신청하려면
   그때 앱이 서 있어야 한다.
 - 만드는 길은 검증됐다(인연링크 복제 → 엔진 교체). 이번 세션에서 복제가 남기는 함정을 전부
-  겪어 검사기로 박아 두었다.
+  겪어 검사기로 박아 두었고, **콘솔·검사기 배선은 §3.5대로 하면 사실상 공짜다.**
 
 ---
 
