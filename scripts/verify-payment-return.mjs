@@ -28,8 +28,9 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
-// **세 앱 전부.** 앱을 늘리면 여기에 더한다 — 빠뜨리면 그 앱만 규칙 밖에 남는다.
-const APPS = ["apps/naminglink", "apps/inyeonlink", "apps/sajulink"];
+// **앱 목록을 여기 적지 않는다.** 빠뜨리면 그 앱만 규칙 밖에 남는데, 화면에는 통과로 찍힌다.
+// 목록은 `packages/core`가 정한다.
+import { APP_DIRS as APPS } from "./app-keys.mjs";
 
 /** 브라우저에서 도는 코드인가. 서버 라우트·헬퍼는 이 규칙의 대상이 아니다. */
 function isClient(source) {

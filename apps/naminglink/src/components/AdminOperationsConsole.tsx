@@ -30,6 +30,10 @@ const navGroups = [
     heading: "운영 현황",
     items: [
       ["대시보드", basePath, LayoutDashboard],
+      // **서비스 전체를 보는 자리라 인연링크 그룹에서 꺼냈다.** 예전에는 이 항목이 인연링크
+      // 메뉴 안에 있었고 실제로 인연링크만 물었다. 사주링크가 생겨도 이 화면이 따라오지 않아,
+      // 그 배포가 환경변수 없이 떠 있는 것을 아무도 못 봤다(2026-08-06).
+      ["서비스 오픈 상태", `${basePath}/status`, SlidersHorizontal],
       ["글로벌 이름 전환 PDF", `${basePath}/pdf-test`, FileText],
     ],
   },
@@ -71,7 +75,6 @@ const navGroups = [
       ["인연링크 현황", `${basePath}/inyeon`, HeartHandshake],
       ["인연링크 주문", `${basePath}/inyeon/orders`, Package],
       ["인연링크 상품", `${basePath}/inyeon/products`, Boxes],
-      ["오픈 상태 점검", `${basePath}/inyeon/status`, SlidersHorizontal],
     ],
   },
 ] as const;

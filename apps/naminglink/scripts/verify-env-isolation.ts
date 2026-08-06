@@ -1,4 +1,4 @@
-// 개발·운영 격리 규칙 스윕. 저장소 전체(두 앱)를 훑어 규칙이 새는 곳을 찾는다.
+// 개발·운영 격리 규칙 스윕. 저장소 전체(모든 앱)를 훑어 규칙이 새는 곳을 찾는다.
 // 실행: npx tsx scripts/verify-env-isolation.ts
 //
 // 개발(로컬)과 운영(Vercel)이 **같은 Supabase 프로젝트**를 본다. DB를 나누는 대신 세 규칙으로
@@ -15,8 +15,12 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 
+import { APP_KEYS } from "@naminglink/core/apps";
+
 const REPO_ROOT = path.resolve(__dirname, "../../..");
-const APPS = ["apps/naminglink", "apps/inyeonlink"];
+// **앱 목록을 여기 적지 않는다.** 사주링크가 빠진 채로 "규칙 스윕 ALL PASS"를 찍고 있었다
+// (2026-08-06). 검사에서 빠진 앱은 통과한 것이 아니라 검사받지 않은 것이다.
+const APPS = APP_KEYS.map((key) => `apps/${key}`);
 
 type Finding = { file: string; rule: string; detail: string };
 
@@ -49,10 +53,10 @@ const controlWritePattern =
 const orderTouchPattern = /\.from\(\s*["'](orders|premium_analysis_sessions)["']\s*\)/;
 
 // 래퍼 자신은 당연히 직접 INSERT한다.
-const INSERT_ALLOWED = new Set([
-  "apps/naminglink/src/lib/order-writes.ts",
-  "apps/inyeonlink/src/lib/order-writes.ts",
-]);
+//
+// **이 목록도 앱마다 손으로 적혀 있었다.** 사주링크 래퍼가 빠져 있어서, 앱 목록을 늘리자마자
+// 멀쩡한 래퍼가 "직접 INSERT한다"고 잡혔다(2026-08-06). 앱 목록에서 만들어 낸다.
+const INSERT_ALLOWED = new Set(APPS.map((app) => `${app}/src/lib/order-writes.ts`));
 
 for (const app of APPS) {
   for (const file of walk(path.join(REPO_ROOT, app))) {

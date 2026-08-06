@@ -19,6 +19,20 @@ for (const line of readFileSync(new URL("../.env.local", import.meta.url), "utf8
   if (key && !(key in process.env)) process.env[key] = value;
 }
 
+// **이 스크립트는 운영 DB에 붙어 주문 행을 넣었다 지운다** — 개발과 운영이 같은 Supabase
+// 프로젝트를 본다. `is_test: true`로 넣고 끝에 지우지만, 중간에 실패하면 행이 남는다.
+// 기본값이 "운영"이라 APP_ENV=dev를 명시하지 않으면 아무것도 하지 않는다
+// (`seed-sample-orders.mjs`와 같은 판정. .mjs라 `@naminglink/core/env`를 가져올 수 없다).
+//
+// 가드가 아예 없었다. 규칙 스윕이 두 앱만 훑고 있어 이 위반이 드러나지 않았다(2026-08-06).
+const appEnv = process.env.APP_ENV;
+if (process.env.VERCEL_ENV === "production" || (appEnv !== "dev" && appEnv !== "development")) {
+  console.error(
+    "주문 결속 검사는 개발 환경에서만 실행할 수 있습니다. .env.local에 APP_ENV=dev를 넣으세요.",
+  );
+  process.exit(1);
+}
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY,
