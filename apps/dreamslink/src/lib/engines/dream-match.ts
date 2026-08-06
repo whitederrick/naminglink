@@ -71,10 +71,39 @@ function findTerm(haystack: string, symbol: DreamSymbol) {
     .sort((a, b) => b.length - a.length);
 
   for (const term of terms) {
-    const at = haystack.indexOf(term);
-    if (at >= 0) return { matchedOn: term, at };
+    let from = 0;
+    for (;;) {
+      const at = haystack.indexOf(term, from);
+      if (at < 0) break;
+      if (isStandalone(haystack, term, at)) return { matchedOn: term, at };
+      from = at + 1;
+    }
   }
   return null;
+}
+
+const HANGUL = /[가-힣]/;
+
+/**
+ * 이 자리에 걸린 것이 **낱말인가, 다른 낱말의 조각인가.**
+ *
+ * 한 음절짜리 한글 상징이 통째로 새고 있었다(2026-08-06 배포본에서 실측):
+ *
+ *   「아무 특별할 것 없는 하루였다」  → **특별**의 `별`이 걸려 태몽으로 표시됐다
+ *   「뱀에게 물렸다」                → 조사 **에게**의 `게`가 게(蟹)로 걸렸다
+ *
+ * 없는 상징을 만들어 내는 것이라, 이 서비스가 가장 경계하는 일이다.
+ *
+ * **앞 글자만 본다.** 한국어는 조사가 뒤에 붙으므로(`별이`·`돼지가`) 뒤를 막으면 정상 매칭이
+ * 전부 죽는다. 반대로 합성어는 앞에 붙으므로(`특별`·`샛별`) 앞 글자가 한글이면 조각이다.
+ *
+ * 놓치는 쪽을 택한다. 못 찾으면 "찾지 못했습니다"로 끝나지만, 잘못 찾으면 없는 전통 의미가
+ * 사실인 양 나간다. 자주 쓰는 합성어는 `aliases`에 따로 적어 살린다.
+ */
+function isStandalone(haystack: string, term: string, at: number) {
+  if (term.length > 1 || !HANGUL.test(term)) return true;
+  const before = at > 0 ? haystack[at - 1] : "";
+  return !HANGUL.test(before);
 }
 
 /**

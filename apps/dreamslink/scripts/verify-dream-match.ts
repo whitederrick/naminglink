@@ -64,6 +64,18 @@ check(
 const none = matchDream("zzzz qqqq 아무 상징도 없는 문장");
 check("미매칭은 빈 결과 + neutral", none.matched.length === 0 && none.mood === "neutral", none.mood);
 
+// ── 낱말 경계 ───────────────────────────────────────────────────────────────
+// **한 음절 상징이 다른 낱말 안에서 걸리면 안 된다.** 배포본에서 실제로 새고 있었다.
+const inWord = matchDream("아무 특별할 것 없는 하루였다");
+check("합성어 속 한 글자는 안 걸린다(특별→별)", !inWord.matched.some((m) => m.id === "star"), inWord.matched.map((m) => m.term).join(","));
+
+const particle = matchDream("뱀에게 물렸다");
+check("조사 속 한 글자는 안 걸린다(에게→게)", !particle.matched.some((m) => m.term === "게"), particle.matched.map((m) => m.term).join(","));
+
+// **막기만 하고 끝나면 안 된다.** 제대로 쓰인 한 글자 상징은 그대로 걸려야 한다.
+const standalone = matchDream("큰 별이 빛났다");
+check("낱말로 쓰인 한 글자는 걸린다", standalone.matched.some((m) => m.id === "star"), standalone.matched.map((m) => m.term).join(","));
+
 // ── 태몽 ───────────────────────────────────────────────────────────────────
 // **태그가 아니라 고른 의미로 판정한다.** 사전을 넓히며 돼지·소·말에도 태몽 태그를 붙였는데,
 // 태그만 보면 돼지꿈을 꾼 사람이 전부 태몽이 된다 — 돼지는 보통 재물 꿈이다.
