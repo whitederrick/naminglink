@@ -12,7 +12,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-import { INYEONLINK_PRODUCT_CODES } from "@naminglink/core/apps";
+import { DREAMSLINK_PRODUCT_CODES } from "@naminglink/core/apps";
 
 import { getDictionary, supportedLocales } from "../src/lib/i18n";
 
@@ -87,7 +87,7 @@ const productSource = readFileSync(
   path.join(process.cwd(), "src/lib/report-product.ts"),
   "utf8",
 );
-for (const code of INYEONLINK_PRODUCT_CODES) {
+for (const code of DREAMSLINK_PRODUCT_CODES) {
   check(`report-product.ts에 ${code}`, productSource.includes(code));
 }
 
