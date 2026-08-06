@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+import { restoreFragmentAfterPayment } from "@/lib/pending-payment";
+
 /**
  * 주소의 프래그먼트(#)가 확정되기를 기다렸다가 돌려준다. null이면 아직 못 읽은 것이다.
  *
@@ -17,13 +19,18 @@ import { useEffect, useState } from "react";
  * 그래서 비어 있으면 곧바로 실패로 단정하지 않고 몇 차례 다시 본다. 정말로 해시 없이 들어온
  * 경우(주소를 직접 친 경우)에만 마지막에 빈 값을 확정해 오류를 보여 준다.
  *
- * 궁합과 인연의 결이 같은 것을 쓴다. 한쪽만 고치면 같은 증상이 다른 화면에서 되살아난다.
+ * 해몽 결과 화면이 이것을 쓴다. 결제 복귀도 여기서 함께 처리한다(아래 참고).
  */
 export function useResultFragment() {
   const [fragment, setFragment] = useState<string | null>(null);
 
   useEffect(() => {
     let stopped = false;
+
+    // 결제에서 돌아왔다면 주소에 프래그먼트가 없다. 아래에서 읽기 전에 되돌려 놓는다.
+    // **화면마다 두지 않고 여기 둔다** — 프래그먼트를 읽는 곳이 여기 하나라, 결과 화면이
+    // 늘어도 결제 복귀가 한쪽에만 있는 일이 생기지 않는다.
+    restoreFragmentAfterPayment();
 
     // commitEmpty=false면 빈 해시는 아직 "결론"으로 삼지 않는다.
     const sync = (commitEmpty: boolean) => {

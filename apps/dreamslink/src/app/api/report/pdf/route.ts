@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+import { renderDreamCard } from "@/lib/card/dream-card";
 import { dreamInputSchema } from "@/lib/dream-input";
 import { DICT_VERSION } from "@/lib/dream-symbols";
 import { matchDream } from "@/lib/engines/dream-match";
-import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18n";
+import { isLocale, type Locale } from "@/lib/i18n";
 import { pdfLocale } from "@/lib/pdf/fonts";
 import { renderConceptionReport } from "@/lib/pdf/conception-report";
 import { inputFingerprint } from "@/lib/report-order-binding";
@@ -178,8 +179,7 @@ export async function POST(request: NextRequest) {
     // 등록하는 순간 렌더가 죽어서, 화면 언어 그대로 내면 결제하고도 파일을 못 받는다
     // (`lib/pdf/fonts.tsx`에 증상과 사연이 있다).
     const locale = pdfLocale(requested);
-    const dictionary = getDictionary(locale);
-    const buffer = await render(parsed.data, locale, dictionary);
+    const file = await render(parsed.data, locale);
 
     // 파일을 다 만든 **뒤에** 완료로 적는다. 렌더에 실패했는데 결제만 완료로 남으면
     // 이용자는 돈을 내고 아무것도 받지 못한 채 재발급도 못 하게 된다.
@@ -198,12 +198,15 @@ export async function POST(request: NextRequest) {
       .eq("id", order.id);
     if (updateError) throw updateError;
 
-    return new NextResponse(new Uint8Array(buffer), {
+    return new NextResponse(new Uint8Array(file.buffer), {
       headers: {
-        "Content-Type": "application/pdf",
+        // **상품마다 형식이 다르다.** 꿈 카드는 이미지고 태몽 리포트는 PDF다. 예전에는 여기가
+        // `application/pdf`로 박혀 있어, 카드를 붙이는 순간 PNG가 PDF라고 주장하며 나갈
+        // 자리였다(브라우저가 열지 못한다).
+        "Content-Type": file.contentType,
         // 파일 이름에 이용자 이름을 넣지 않는다 — 브라우저 다운로드 기록에 남는다.
         // 상품별로는 가른다. 둘 다 산 사람에게 같은 이름을 주면 한쪽이 덮어써진다.
-        "Content-Disposition": `attachment; filename="dreamslink-${parsed.data.kind}.pdf"`,
+        "Content-Disposition": `attachment; filename="dreamslink-${parsed.data.kind}.${file.extension}"`,
         "Cache-Control": "no-store",
       },
     });
@@ -220,10 +223,15 @@ export async function POST(request: NextRequest) {
   }
 }
 
+/**
+ * **`kind`를 짐작하지 않는다.**
+ *
+ * 예전에는 이 자리가 `kind`가 없는 요청을 `"gunghap"`으로 채웠다 — 이 앱에 없는 값이라
+ * 스키마에서 어차피 걸리지만, 걸리는 이유가 "그런 상품이 없다"가 아니라 "판별자가 이상하다"로
+ * 바뀌어 원인을 찾기 어려워진다. 무엇보다 **무엇을 샀는지는 짐작할 값이 아니다** — 잘못 짚으면
+ * 돈을 낸 사람에게 다른 물건이 나간다.
+ */
 function withDefaultKind(body: unknown) {
-  if (body && typeof body === "object" && !("kind" in body)) {
-    return { ...(body as Record<string, unknown>), kind: "gunghap" };
-  }
   return body;
 }
 
@@ -233,30 +241,39 @@ function withDefaultKind(body: unknown) {
  * 계산을 **여기서 다시 돌리는 것**이 중요하다. 화면이 보낸 결과를 그대로 싣지 않으므로,
  * 이용자가 응답을 손봐도 문서에는 서버가 규칙으로 계산한 값만 들어간다.
  */
-function render(
+type IssuedFile = { buffer: Buffer; contentType: string; extension: string };
+
+async function render(
   parsed: (typeof schema)["_output"],
   locale: Locale,
-  dictionary: Dictionary,
-) {
+): Promise<IssuedFile> {
   const generatedAt = new Date().toISOString();
   // **계산을 여기서 다시 돌린다.** 화면이 보낸 결과를 그대로 싣지 않으므로, 이용자가 응답을
   // 손봐도 문서에는 서버가 사전으로 고른 상징만 들어간다.
   const outcome = matchDream(parsed.input.text);
-
-  // 꿈 카드는 이미지라 이 경로가 아니다. 렌더러가 아직 없어 여기까지 오면 발급 실패로 남긴다 —
-  // **조용히 빈 PDF를 내보내지 않는다.**
-  if (parsed.kind === "card") {
-    throw new Error("DREAM_CARD_RENDERER_NOT_READY");
-  }
-
-  void dictionary;
-  return renderConceptionReport({
+  const common = {
     outcome,
     dreamText: parsed.input.text,
     locale,
     generatedAt,
     dictVersion: DICT_VERSION,
-  });
+  };
+
+  // 꿈 카드는 **이미지**다. 형식이 다르므로 MIME도 확장자도 함께 갈라 돌려준다 —
+  // 응답 헤더가 `application/pdf`로 박혀 있으면 PNG가 PDF라고 주장하며 나간다.
+  if (parsed.kind === "card") {
+    return {
+      buffer: await renderDreamCard(common),
+      contentType: "image/png",
+      extension: "png",
+    };
+  }
+
+  return {
+    buffer: await renderConceptionReport(common),
+    contentType: "application/pdf",
+    extension: "pdf",
+  };
 }
 
 function jsonError(code: string, status: number) {

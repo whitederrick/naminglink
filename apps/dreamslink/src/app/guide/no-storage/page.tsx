@@ -20,17 +20,17 @@ export default async function Page(props: GuidePageProps) {
       title={entry.title}
       description={entry.summary}
       backHref={hubHref}
-      backLabel="계산 근거"
+      backLabel="풀이 근거"
     >
       <GuideSection title="회원가입이 없습니다">
         <p>
           드림링크는 계정을 만들지 않습니다. 이름도, 이메일도, 전화번호도 받지 않습니다. 받는
-          것은 적어 주신 꿈과 (선택으로) 깨어났을 때의 기분뿐이고, 그것도 계산이 끝나면
-          남지 않습니다.
+          것은 적어 주신 꿈과 깨어났을 때의 기분, 같은 꿈을 되풀이해 꾸는지 여부뿐이고, 그것도
+          풀이가 끝나면 남지 않습니다.
         </p>
         <p>
-          결과 화면에 표시할 호칭을 적는 칸이 있지만, 그것은 <b>화면에 보여드리기 위한 것</b>
-          이고 계산에 쓰이지 않습니다. 본명을 넣지 않으셔도 됩니다.
+          꿈 이야기는 이 서비스가 받는 값 중 가장 사적인 것입니다. 여기 규칙이 필요 이상으로
+          엄한 이유가 그것입니다 — 적어 주신 글을 쓸 표 자체를 두지 않았습니다.
         </p>
       </GuideSection>
 
@@ -53,8 +53,8 @@ export default async function Page(props: GuidePageProps) {
           값을 받아 답을 돌려준 뒤 그대로 잊습니다.
         </p>
         <GuideNote title="링크를 남에게 보낼 때는 유의해 주세요">
-          서버에 저장되지 않는다는 것과 링크가 안전하다는 것은 다릅니다. 결과 링크에는 두 분의
-          꿈 내용이 담겨 있으므로, 그 링크를 받은 사람은 같은 결과를 볼 수 있습니다.
+          서버에 저장되지 않는다는 것과 링크가 안전하다는 것은 다릅니다. 결과 링크에는 적어
+          주신 꿈이 그대로 담겨 있으므로, 그 링크를 받은 사람은 그 글을 읽을 수 있습니다.
         </GuideNote>
       </GuideSection>
 
@@ -75,18 +75,13 @@ export default async function Page(props: GuidePageProps) {
         <p>정직하게 밝히면, 저장하지 않기 때문에 포기한 것들이 있습니다.</p>
         <ul className="ml-5 list-disc space-y-2">
           <li>
-            <b>지난 결과를 다시 꺼내 볼 수 없습니다.</b> 링크를 갖고 계셔야 다시 보실 수
-            있습니다.
+            <b>꿈일기가 없습니다.</b> 지난주에 본 풀이를 다시 꺼낼 수 없고, 링크를 갖고 계셔야
+            다시 보실 수 있습니다. 이건 일부러 그렇게 두었습니다 — 일기를 만들려면 가장 사적인
+            글을 계속 보관해야 하기 때문입니다.
           </li>
           <li>
-            <b>같은 값을 다시 계산합니다.</b> 캐시가 없기 때문입니다. 대신 모든 규칙이 결정적이라{" "}
-            <a
-              href={localePath("/guide/what-we-store", locale)}
-              className="font-semibold text-brand-plum underline underline-offset-2"
-            >
-              같은 입력이면 언제나 같은 값
-            </a>
-            이 나옵니다.
+            <b>같은 값을 다시 찾습니다.</b> 캐시가 없기 때문입니다. 대신 사전이 고정이고 매칭
+            규칙이 결정적이라 같은 글이면 언제나 같은 상징이 나옵니다.
           </li>
           <li>
             <b>새로고침하면 광고 게이트가 다시 나옵니다.</b> 시청 기록을 남길 곳이 없기

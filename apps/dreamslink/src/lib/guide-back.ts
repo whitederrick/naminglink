@@ -48,7 +48,8 @@ export function guideBackLink(locale: Locale, from?: string) {
  * 안내 허브로 돌아가는 링크. 문서 → 허브 → 서비스로 두 번 눌러 나가는 길에서도 출처가
  * 이어지도록 `from`을 그대로 들고 간다.
  */
-export function guideHubHref(locale: Locale, from?: string) {
+// `locale`이 null이면 로케일 없는 주소가 된다 — 푸터가 한국어에서 접두사를 붙이지 않는다.
+export function guideHubHref(locale: Locale | null, from?: string) {
   return localePath("/guide", locale, guideOriginQuery(from));
 }
 

@@ -1,5 +1,6 @@
 import { guideLinkLabel } from "@/components/GuideLink";
 import { LegalLinks } from "@/components/LegalLinks";
+import { guideHubHref } from "@/lib/guide-back";
 import { getCompanyInfo } from "@/lib/company-server";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
@@ -70,11 +71,17 @@ function displayValue(locale: Locale, label: string, value: string) {
 export async function SiteFooter({
   locale,
   tone = "dark",
+  guideFrom,
   className = "",
 }: {
   locale: Locale;
   /** naminglink와 같은 뜻이다. "light" = 밝은 글씨(어두운 배경 위), "dark" = 어두운 글씨. */
   tone?: "light" | "dark";
+  /**
+   * 이 푸터가 어느 화면에 달렸는가. 안내 문서의 "돌아가기"가 이 값으로 돌아갈 곳을 정한다.
+   * 넘기지 않으면 홈으로 간다 — 랜딩·약관처럼 돌아갈 서비스 화면이 없는 자리가 그렇다.
+   */
+  guideFrom?: "dream";
   className?: string;
 }) {
   const dictionary = getDictionary(locale);
@@ -160,7 +167,7 @@ export async function SiteFooter({
               어디에서도 닿지 않는 페이지는 없는 것과 같다. 라벨만 갈라 모든 언어에서 건다 —
               두 페이지가 한국어·영어 두 벌이라 23로케일 사전에 넣을 이유가 없다. */}
           <a
-            href={localePath("/guide", linkLocale)}
+            href={guideHubHref(linkLocale, guideFrom)}
             className={linkClass}
             dir={textDirection}
           >

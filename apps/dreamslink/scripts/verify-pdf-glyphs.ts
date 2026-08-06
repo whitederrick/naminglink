@@ -1,6 +1,6 @@
 // PDF에 쓰는 **모든 문구가 실제로 찍힐 수 있는지** 렌더 없이 전수 확인한다.
 //
-// 실행: apps/inyeonlink 에서
+// 실행: apps/dreamslink 에서
 //   ../naminglink/node_modules/.bin/tsx scripts/verify-pdf-glyphs.ts
 //
 // 왜 렌더가 아니라 이건가: @react-pdf는 서체에 글리프가 없어도 **오류 없이** PDF를 만든다.

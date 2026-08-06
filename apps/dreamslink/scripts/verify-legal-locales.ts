@@ -7,7 +7,7 @@
 //   - 플레이스홀더가 번역돼 버리면 연락처·가격 자리에 `{email}`이 그대로 노출된다
 //   - 한글이 남아 있으면 번역이 빠진 것이다
 //
-// 실행: apps/inyeonlink 에서
+// 실행: apps/dreamslink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig tsconfig.json scripts/verify-legal-locales.ts
 import { readFileSync } from "node:fs";
 import path from "node:path";

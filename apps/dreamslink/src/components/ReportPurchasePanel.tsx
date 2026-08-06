@@ -5,12 +5,13 @@ import { useEffect, useRef, useState } from "react";
 
 import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
 import { pdfLanguageDiffers } from "@/lib/pdf/fonts";
+import { rememberForRedirect } from "@/lib/pending-payment";
 import type { DreamInput } from "@/lib/dream-input";
 import type { ReportKind } from "@/lib/report-product";
 
-// 리포트 PDF 구매. 국내는 토스페이먼츠(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
+// 유료 상품 구매. 국내는 토스페이먼츠(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
 //
-// **상품 둘이 이 패널 하나를 쓴다**(사주 궁합 · 인연의 결). 다른 것은 `kind`, 보낼 입력값,
+// **상품 둘이 이 패널 하나를 쓴다**(꿈 카드 · 태몽 리포트). 다른 것은 `kind`, 보낼 입력값,
 // 그리고 문구뿐이라 패널을 복사할 이유가 없다 — 복사하면 청약철회 동의나 재발급 처리 같은
 // 법·결제 관련 처리가 두 벌이 되고, 한쪽만 고치는 순간 어긋난다.
 //
@@ -59,26 +60,6 @@ type PortOneCheckout = {
 };
 
 type Checkout = TossCheckout | PortOneCheckout;
-
-/**
- * 결제창에 다녀오는 동안 궁합 입력값을 브라우저에 맡겨 둔다.
- *
- * 입력값은 주소의 프래그먼트(#)에만 있고 서버로 가지 않는다. 토스는 결제 후 우리 서버 라우트로
- * 리디렉트되므로 그 사이 프래그먼트가 사라진다. sessionStorage는 **이용자 브라우저**이지
- * 서버가 아니므로, 저장하지 않는다는 원칙과 충돌하지 않는다. 탭을 닫으면 함께 사라진다.
- */
-const PENDING_KEY = "dreamslink.pendingPayment";
-
-function rememberForRedirect(orderId: string) {
-  try {
-    window.sessionStorage.setItem(
-      PENDING_KEY,
-      JSON.stringify({ orderId, fragment: window.location.hash.slice(1) }),
-    );
-  } catch {
-    // 저장을 못 해도 결제는 진행한다. 돌아왔을 때 결과를 못 그릴 뿐이다.
-  }
-}
 
 /**
  * 발급에 필요한 것만 추린 값.

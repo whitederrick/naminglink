@@ -33,15 +33,15 @@ export type GuideEntry = {
 export const guideEntries: GuideEntry[] = [
   {
     slug: "no-storage",
-    title: "입력한 정보를 저장하지 않는 방식",
+    title: "적어 주신 꿈을 저장하지 않는 방식",
     summary:
-      "생년월일이 어디에도 기록되지 않는다는 말이 기술적으로 무슨 뜻인지, 결과 링크에는 무엇이 담기는지 밝힙니다.",
+      "꿈 이야기가 어디에도 기록되지 않는다는 말이 기술적으로 무슨 뜻인지, 결과 링크에는 무엇이 담기는지 밝힙니다.",
     eyebrow: "개인정보",
     audience: "ko",
   },
   {
     slug: "what-we-store",
-    title: "What happens to the dates you enter",
+    title: "What happens to the dream you write",
     summary:
       "Nothing you type is written down. Here is what that means technically, and what a result link actually carries.",
     eyebrow: "Privacy",

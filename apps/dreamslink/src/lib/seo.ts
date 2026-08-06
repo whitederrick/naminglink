@@ -77,7 +77,7 @@ export function ogImageFor(locale: Locale) {
     url: `/images/og/og-cover-${locale}.jpg`,
     width: 1200,
     height: 630,
-    alt: "Inyeon-Link — Saju & Zodiac Compatibility",
+    alt: "Dreams-Link — Traditional Korean Dream Reading",
   };
 }
 
@@ -162,7 +162,7 @@ export function buildPageMetadata({
     alternates: buildAlternates(path, requested),
     openGraph: {
       type: "website",
-      siteName: "Inyeon-Link",
+      siteName: "Dreams-Link",
       title,
       description,
       url,

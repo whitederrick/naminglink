@@ -1,5 +1,5 @@
 // 공유 썸네일(og:image)을 **23개 로케일마다 한 장씩** 만든다.
-// 실행: apps/inyeonlink 에서
+// 실행: apps/dreamslink 에서
 //   ../../node_modules/.bin/tsx scripts/render-og-images.ts        (전부)
 //   ../../node_modules/.bin/tsx scripts/render-og-images.ts ko en  (일부만)
 //
@@ -93,7 +93,10 @@ const heroBackground = dataUri(path.join(IMAGES, "landing-hero.png"), "image/png
  * 예전에는 맞물린 두 고리를 인라인 SVG로 그렸다. `components/BrandMark.tsx`가 실제 로고
  * 이미지로 바뀌었으므로 여기도 같은 파일을 쓴다 — **썸네일과 첫 화면의 표식이 달라선 안 된다.**
  */
-const brandLogo = dataUri(path.join(IMAGES, "inyeonlink-circle-logo-256.png"), "image/png");
+// ⚠️ 복제 원본의 파일명이 그대로 남아 있었다(2026-08-06). 그 파일은 이 앱의 `public/`에
+// 없어서, 이 스크립트를 돌리면 `dataUri`가 읽다가 죽는다. `BrandMark.tsx`도 같은 이름을
+// 가리키고 있었고 그쪽은 조용히 404였다 — **이미지 경로는 tsc도 검사기도 보지 못한다.**
+const brandLogo = dataUri(path.join(IMAGES, "dreamslink-circle-logo-256.png"), "image/png");
 const brandSvg = `<img src="${brandLogo}" alt="" />`;
 
 function buildHtml(locale: Locale) {

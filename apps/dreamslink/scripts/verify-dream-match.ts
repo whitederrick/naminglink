@@ -31,7 +31,7 @@ check("사전 규모", DREAM_SYMBOLS.length >= 200, `${DREAM_SYMBOLS.length}개 
 
 // ── 매칭 ───────────────────────────────────────────────────────────────────
 const pig = matchDream("돼지가 집에 들어오는 꿈을 꿨어요");
-check("조사가 붙어도 걸린다", pig.matched.some((m) => m.id === "pig"), pig.matched.map((m) => m.term).join(","));
+check("조사가 붙어도 걸린다", pig.matched.some((m) => m.id === "pig"), pig.matched.map((m) => m.term_ko).join(","));
 check("길몽은 positive", pig.mood === "positive", pig.mood);
 
 // **같은 꿈이면 같은 결과.** 정렬이 흔들리면 화면과 문서가 어긋난다.
@@ -57,7 +57,7 @@ const muddyFirst = muddy.matched[0]?.id;
 check(
   "구체적인 상징이 앞선다",
   muddy.matched.some((m) => m.matchedOn.includes("흙탕물")) || muddyFirst !== "water",
-  muddy.matched.map((m) => `${m.term}(${m.matchedOn})`).join(","),
+  muddy.matched.map((m) => `${m.term_ko}(${m.matchedOn})`).join(","),
 );
 
 // **매칭 0건이 정상 결과다.** 여기서 억지로 뭔가를 만들면 그때부터 날조가 시작된다.
@@ -67,14 +67,14 @@ check("미매칭은 빈 결과 + neutral", none.matched.length === 0 && none.moo
 // ── 낱말 경계 ───────────────────────────────────────────────────────────────
 // **한 음절 상징이 다른 낱말 안에서 걸리면 안 된다.** 배포본에서 실제로 새고 있었다.
 const inWord = matchDream("아무 특별할 것 없는 하루였다");
-check("합성어 속 한 글자는 안 걸린다(특별→별)", !inWord.matched.some((m) => m.id === "star"), inWord.matched.map((m) => m.term).join(","));
+check("합성어 속 한 글자는 안 걸린다(특별→별)", !inWord.matched.some((m) => m.id === "star"), inWord.matched.map((m) => m.term_ko).join(","));
 
 const particle = matchDream("뱀에게 물렸다");
-check("조사 속 한 글자는 안 걸린다(에게→게)", !particle.matched.some((m) => m.term === "게"), particle.matched.map((m) => m.term).join(","));
+check("조사 속 한 글자는 안 걸린다(에게→게)", !particle.matched.some((m) => m.term_ko === "게"), particle.matched.map((m) => m.term_ko).join(","));
 
 // **막기만 하고 끝나면 안 된다.** 제대로 쓰인 한 글자 상징은 그대로 걸려야 한다.
 const standalone = matchDream("큰 별이 빛났다");
-check("낱말로 쓰인 한 글자는 걸린다", standalone.matched.some((m) => m.id === "star"), standalone.matched.map((m) => m.term).join(","));
+check("낱말로 쓰인 한 글자는 걸린다", standalone.matched.some((m) => m.id === "star"), standalone.matched.map((m) => m.term_ko).join(","));
 
 // ── 태몽 ───────────────────────────────────────────────────────────────────
 // **태그가 아니라 고른 의미로 판정한다.** 사전을 넓히며 돼지·소·말에도 태몽 태그를 붙였는데,
@@ -101,7 +101,7 @@ const control = matchDream("돼지");
 check(
   "대조군 — 없는 상징은 걸리지 않는다",
   !control.matched.some((m) => m.id === "dragon"),
-  control.matched.map((m) => m.term).join(","),
+  control.matched.map((m) => m.term_ko).join(","),
 );
 check(
   "대조군 — 빈 입력은 아무것도 만들지 않는다",

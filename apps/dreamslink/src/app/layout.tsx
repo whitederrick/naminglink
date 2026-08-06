@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s | Dreams-Link",
     },
     description:
-      "생년월일로 보는 사주 궁합과 띠 궁합. 입력한 정보는 저장하지 않습니다. Saju and zodiac compatibility — nothing you enter is stored.",
+      "꿈에 나온 상징을 전통 해몽 사전에서 찾아 풀이합니다. 적어 주신 꿈은 저장하지 않습니다. Traditional Korean dream reading — the dream you write is never stored.",
     // **여기에 alternates를 두지 않는다.** 루트 레이아웃의 metadata는 자기 metadata가 없는 모든
     // 하위 페이지로 상속되므로, 여기에 canonical을 적으면 결과 화면까지 "이 페이지의 정본은 홈"
     // 이라고 말하게 된다. `/`의 canonical과 hreflang은 app/page.tsx가 스스로 붙인다.

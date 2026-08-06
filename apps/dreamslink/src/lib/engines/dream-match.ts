@@ -24,7 +24,15 @@ export const ENGINE_VERSION = "dream-1.0.0";
 
 export type MatchedSymbol = {
   id: string;
-  term: string;
+  /**
+   * 상징 이름 **두 벌.**
+   *
+   * 예전에는 `term: symbol.term_ko` 하나였고, 그 탓에 화면·PDF가 스물세 언어 전부에서 상징
+   * 이름을 한국어로 그렸다. 고르는 일은 `lib/dream-language.ts`가 한다 — 여기서는 두 벌을
+   * 다 실어 보낸다.
+   */
+  term_ko: string;
+  term_en: string;
   /** 이 꿈에서 고른 의미. 상징에 의미가 여럿이면 상황으로 고른다. */
   meaning: DreamMeaning;
   polarity: DreamPolarity;
@@ -205,7 +213,8 @@ export function matchDream(text: string): DreamOutcome {
     const meaning = chooseMeaning(haystack, symbol);
     matched.push({
       id: symbol.id,
-      term: symbol.term_ko,
+      term_ko: symbol.term_ko,
+      term_en: symbol.term_en,
       meaning,
       // 의미마다 극성이 다를 수 있다(뱀을 품으면 길, 물리면 흉). 고른 의미의 극성을 우선한다.
       polarity: meaning.polarity ?? symbol.polarity,

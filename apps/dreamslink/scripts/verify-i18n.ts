@@ -8,7 +8,7 @@
 //   - `steps`/`quotes`/`contents` 배열 길이가 달라 화면 항목이 비는 것(튜플이 아닌 배열은 타입이 안 잡는다)
 // 이 네 가지를 en 사전과 기계적으로 대조한다.
 //
-// 실행: apps/inyeonlink 에서
+// 실행: apps/dreamslink 에서
 //   ../../node_modules/.bin/tsx scripts/verify-i18n.ts
 //   (없으면 npx tsx scripts/verify-i18n.ts)
 
@@ -24,8 +24,7 @@ const LOCALES_DIR = join(process.cwd(), "src", "lib", "i18n-locales");
 
 // en과 같아도 되는 값들. 상표·기호라 번역 대상이 아니다.
 const SAME_AS_EN_OK = new Set([
-  "brand",
-  "relation.directionLabel", // "{from} → {to}" — 자리표시자와 화살표뿐이다
+  "brand", // 상표. 모든 언어에서 en과 같은 것이 정상이다
 ]);
 
 let failures = 0;

@@ -2,7 +2,16 @@
 
 import { useEffect, useState } from "react";
 
+import { AdBanner } from "@/components/AdBanner";
+import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { trackAnalytics } from "@/lib/analytics-client";
+import {
+  cultureNote,
+  meaningText,
+  readingLanguage,
+  symbolTerm,
+  themeLabels,
+} from "@/lib/dream-language";
 import { decodeDreamInput, type DreamInput } from "@/lib/dream-input";
 import type { DreamOutcome } from "@/lib/engines/dream-match";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -24,11 +33,18 @@ type State =
 export function DreamResultView({
   dictionary,
   locale,
+  cardPrice,
+  conceptionPrice,
 }: {
   dictionary: Dictionary;
   locale: Locale;
+  /** 서버가 정한 표시 가격. 판매 전이면 null이라 패널이 "준비 중"으로 뜬다. */
+  cardPrice: string | null;
+  conceptionPrice: string | null;
 }) {
   const t = dictionary.dream;
+  // 화면 언어는 23개지만 **해몽 내용은 ko·en 두 벌뿐**이다(사전이 그렇게 생겼다).
+  const language = readingLanguage(locale);
   const resolvedFragment = useResultFragment();
   const [state, setState] = useState<State>({ status: "loading" });
 
@@ -91,6 +107,8 @@ export function DreamResultView({
   }
 
   const { outcome, input } = state;
+  // 표에 없는 태그는 빠지므로, 걸린 태그가 있어도 목록이 빌 수 있다. 그때는 절 자체를 감춘다.
+  const themes = themeLabels(outcome.themes, language);
 
   return (
     <div className="grid gap-6">
@@ -111,11 +129,14 @@ export function DreamResultView({
           <div className="grid gap-3">
             {outcome.matched.map((item) => (
               <div key={item.id} className="rounded-xl border border-line bg-surface p-4">
-                <p className="font-semibold">{item.term}</p>
+                {/* **한국어를 박아 두지 말 것.** 예전에는 `item.term`(= term_ko)과
+                    `interpretation_ko`를 그대로 그려, 스물세 언어 전부에서 상징 이름과 풀이가
+                    한국어로 나갔다. 고르는 규칙은 `lib/dream-language.ts` 한 곳에 있다. */}
+                <p className="font-semibold">{symbolTerm(item, language)}</p>
                 <p className="break-keep-all mt-1 text-sm leading-6 text-muted">
-                  {item.meaning.interpretation_ko}
+                  {meaningText(item.meaning, language)}
                 </p>
-                {item.culture_note ? (
+                {cultureNote(item.culture_note, language) ? (
                   <p className="break-keep-all mt-1 text-xs leading-5 text-muted">
                     {item.culture_note}
                   </p>
@@ -129,12 +150,40 @@ export function DreamResultView({
         )}
       </section>
 
-      {outcome.themes.length ? (
+      {themes.length ? (
         <section>
           <h2 className="mb-2 text-lg font-semibold">{t.themesHeading}</h2>
-          <p className="text-sm text-muted">{outcome.themes.join(" · ")}</p>
+          <p className="text-sm text-muted">{themes.join(" · ")}</p>
         </section>
       ) : null}
+
+      {/* 파는 자리. **결과를 다 읽은 뒤, 광고보다 앞**이다 — 파는 것이 먼저다.
+          예전에는 `ReportPurchasePanel`이 만들어져 있는데 **어디에서도 부르지 않았다.**
+          상품을 켜는 날 구매로 가는 길이 없는 상태였다(사주링크가 같은 자리를 고쳤다). */}
+      <ReportPurchasePanel
+        kind="card"
+        copy={dictionary.dreamCard}
+        locale={locale}
+        input={input}
+        offerPrice={cardPrice}
+      />
+
+      {/* **태몽 리포트는 태몽 상징이 걸렸을 때만 판다.** 없는 사람에게 띄우면 "당신 꿈에 태몽이
+          있다"는 뜻으로 읽히고, 사서 열면 3장이 «찾지 못했습니다»로 채워진다. 파는 것과 있는
+          것이 어긋나는 자리라 조건을 화면에 둔다. */}
+      {outcome.conception ? (
+        <ReportPurchasePanel
+          kind="conception"
+          copy={dictionary.conceptionReport}
+          locale={locale}
+          input={input}
+          offerPrice={conceptionPrice}
+        />
+      ) : null}
+
+      {/* 결과를 다 읽은 **뒤** 자리다(`adSlots.result`의 정의와 같다). 상징 카드 사이에 끼우면
+          읽는 흐름이 끊기고, 애드센스가 콘텐츠로 오인될 자리를 만든다. */}
+      <AdBanner placement="result" locale={locale} />
 
       <p className="break-keep-all text-xs leading-5 text-muted">{t.disclaimer}</p>
     </div>

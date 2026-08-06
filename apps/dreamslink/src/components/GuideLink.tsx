@@ -11,8 +11,8 @@ import type { Locale } from "@/lib/i18n";
  * 문서가 나오는 꼴이 된다. 문서가 갈리는 방식과 링크가 갈리는 방식을 같게 둔다.
  */
 const LABELS = {
-  ko: { short: "계산 근거", long: "무엇을 근거로 계산하는지 보기" },
-  global: { short: "How this works", long: "See what the number is based on" },
+  ko: { short: "풀이 근거", long: "무엇을 근거로 풀이하는지 보기" },
+  global: { short: "How this works", long: "See what the reading is based on" },
 } as const;
 
 export function guideLinkLabel(locale: Locale, variant: "short" | "long") {
@@ -36,7 +36,9 @@ export function GuideLink({
    * 어느 메뉴에서 여는가. 안내 화면의 "돌아가기"가 이 값으로 돌아갈 곳을 정한다
    * (`lib/guide-back.ts`) — 없으면 홈으로 간다.
    */
-  from: "compatibility" | "affinity";
+  // `lib/guide-back.ts`의 `ORIGINS`에 있는 값만 받는다. 여기 없는 값을 넘기면 안내 문서의
+  // 돌아가기가 조용히 홈으로 떨어진다.
+  from: "dream";
   align?: "center" | "start";
   className?: string;
 }) {

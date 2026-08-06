@@ -17,6 +17,10 @@
 // 넷을 고치자고 그 절의 예순 줄을 새로 받게 된다 — 값도 값이지만 **검수가 끝난 나머지 문장이
 // 함께 바뀌어** 무엇이 달라졌는지 diff로 볼 수 없게 된다. 접두사로 걸러 자식 잎까지 잡는다.
 //
+// ⚠️ **둘 다 이 스크립트가 만든 파일 위에서만 쓴다.** 사람이 손으로 쓴 파일은 `JSON.parse`로
+// 읽히지 않아 나머지 절을 이어받지 못하고, 그러면 지정하지 않은 절이 전부 en으로 덮인다.
+// 그 경우 `seedFromExistingFile`이 진행을 막는다(예전에는 경고만 찍고 덮었다 — 실측).
+//
 // 만든 뒤에는 반드시 `verify-i18n`과 `verify-product-consistency`를 돌린다. 뒤엣것은 인연링크
 // 잔재(궁합·인연)가 번역에 섞여 들어오지 않았는지 본다.
 
@@ -113,33 +117,35 @@ const leaves: Leaf[] = [];
 collect(en, ko, [], leaves);
 
 /**
- * **인연링크에서 이미 번역된 자리는 가져다 쓴다.**
+ * **이미 번역된 자리는 가져다 쓴다.**
  *
- * 사주링크는 인연링크 복제라 사전 구조가 같고, **en 원문이 글자까지 같은 잎이 절반**이다
- * (403개 중 204개) — 오행·띠·일간·십신 이름, footer 16개, 언어 선택기, 폼 라벨 따위다.
- * 그쪽은 23개 언어로 이미 번역돼 검수까지 끝났다.
+ * 이 앱의 로케일 파일은 인연링크 복제라, 궁합 문구를 걷어내고도 **서비스가 달라져도 그대로
+ * 맞는 문구**가 남아 있다 — footer 16개, 언어 선택기 3개, 광고 라벨, 광고 관문의 두 줄.
+ * 23개 언어로 번역돼 검수까지 끝난 것들이다.
  *
- * 그걸 다시 번역시키면 호출이 두 배가 되어 한도에 부딪히고(`id` 로케일이 그렇게 통째로
+ * 그걸 다시 번역시키면 호출이 늘어 한도에 부딪히고(사주링크에서 `id` 로케일이 그렇게 통째로
  * 영어로 남았다), 맞는 문구를 모델이 다시 지어내며, 짧은 문구는 응답이 비어 손으로 베끼게
  * 된다. 실제로 세 번 반복했다.
  *
- * **en이 같을 때만 가져온다.** 사주용으로 문구가 바뀐 자리(65개)와 새로 생긴 자리(134개)는
- * 그쪽 번역이 다른 말을 하므로 가져오면 안 된다.
+ * **en이 글자까지 같을 때만 가져온다.** 해몽용으로 문구가 바뀐 자리(landing·analyzing)와 새로
+ * 생긴 자리(dream·dreamCard·conceptionReport)는 그쪽 번역이 다른 말을 하므로 가져오면 안 된다.
+ * 이 한 줄이 그 경계를 전부 지킨다.
  *
- * 원본은 `apps/inyeonlink/scripts/export-dictionaries.ts`가 만든다. 없으면 그냥 전부 번역한다.
+ * 원본은 `scripts/export-inherited.ts`가 만든다(번역을 새로 돌리기 **전에** 실행할 것 —
+ * 파일을 덮고 나면 건질 것이 없다). 없으면 그냥 전부 번역한다.
  */
 function loadInherited(): Map<string, string> {
   const inherited = new Map<string, string>();
-  const file = path.join(process.cwd(), "tmp", "inyeon-dictionaries.json");
+  const file = path.join(process.cwd(), "tmp", "inherited-dictionaries.json");
   if (!existsSync(file)) {
-    console.log("  (인연링크 사전 덤프가 없어 전부 번역합니다 — export-dictionaries.ts 참고)");
+    console.log("  (물려받을 덤프가 없어 전부 번역합니다 — export-inherited.ts 참고)");
     return inherited;
   }
   const dumped = JSON.parse(readFileSync(file, "utf8")) as Record<string, Record<string, string>>;
   const theirEn = dumped.en ?? {};
   const theirs = dumped[locale];
   if (!theirs) {
-    console.log(`  (인연링크에 ${locale} 사전이 없어 전부 번역합니다)`);
+    console.log(`  (덤프에 ${locale} 사전이 없어 전부 번역합니다)`);
     return inherited;
   }
   for (const leaf of leaves) {
@@ -151,6 +157,36 @@ function loadInherited(): Map<string, string> {
 }
 
 const inherited = loadInherited();
+
+/**
+ * **번역해서는 안 되는 잎.** 그 언어에서만 다른 말을 해야 하는 자리다.
+ *
+ * `pdfLanguageNotice`는 화면과 파일의 언어가 갈릴 때만 뜨는 고지인데, 그렇게 갈리는 로케일이
+ * 아랍어·크메르어 둘뿐이다(`lib/pdf/fonts.tsx`의 `PDF_FALLBACK_TO_EN`). ko·en 원문은 "화면과
+ * 같은 언어로 나갑니다"이고 그것은 **이 두 언어에서만 거짓**이다 — 원문을 옮기면 결제 전에
+ * 보여야 할 조건이 정반대로 나간다. 문장은 인연링크에서 사람이 쓴 것을 그대로 옮겨 왔다.
+ *
+ * 화면에 뜨지 않는 나머지 19개 로케일은 원문을 옮겨도 무해하므로 손대지 않는다.
+ */
+const OVERRIDES: Partial<Record<Locale, Record<string, string>>> = {
+  ar: {
+    "conceptionReport.pdfLanguageNotice":
+      "يصدر ملف PDF باللغة الإنجليزية. فالخط العربي لا يُرسم في هذا الملف حاليًا، ولو أصدرناه بالعربية لتعذّر إنشاؤه أصلًا. أما هذه الشاشة فتبقى بالعربية.",
+    "dreamCard.pdfLanguageNotice":
+      "تصدر البطاقة باللغة الإنجليزية. فالخط العربي لا يُرسم في هذا الملف حاليًا، ولو أصدرناه بالعربية لتعذّر إنشاؤه أصلًا. أما هذه الشاشة فتبقى بالعربية.",
+  },
+  km: {
+    "conceptionReport.pdfLanguageNotice":
+      "ឯកសារ PDF ចេញជាភាសាអង់គ្លេស។ អក្សរខ្មែរមិនទាន់អាចបង្ហាញក្នុងឯកសារនេះបានទេ ហើយបើចេញជាខ្មែរ ឯកសារនឹងមិនអាចបង្កើតបានឡើយ។ រីឯអេក្រង់នេះនៅតែជាភាសាខ្មែរដដែល។",
+    "dreamCard.pdfLanguageNotice":
+      "កាតចេញជាភាសាអង់គ្លេស។ អក្សរខ្មែរមិនទាន់អាចបង្ហាញក្នុងឯកសារនេះបានទេ ហើយបើចេញជាខ្មែរ ឯកសារនឹងមិនអាចបង្កើតបានឡើយ។ រីឯអេក្រង់នេះនៅតែជាភាសាខ្មែរដដែល។",
+  },
+};
+
+/** 물려받은 것과 같은 취급이다 — 모델에게 보내지 않고 그대로 쓴다. */
+for (const [key, value] of Object.entries(OVERRIDES[locale] ?? {})) {
+  inherited.set(key, value);
+}
 
 const topLevel = [...new Set(leaves.map((leaf) => leaf.path.split(".")[0]!))].filter(
   (section) => !only || only.has(section),
@@ -199,17 +235,25 @@ async function translateSection(section: string, items: Leaf[]) {
         {
           role: "system",
           content: [
-            `You localize the UI of Saju-Link, a Korean saju (four pillars) reading service for one person: a natal chart, the balance of the five elements, and a daily fortune.`,
+            `You localize the UI of Dreams-Link, a Korean dream-reading (해몽) service: someone writes down a dream they had, and the service looks up the symbols in it in a dictionary of traditional Korean dream lore.`,
             `Translate each entry into ${localeLanguageName(locale)} (locale ${locale}).`,
-            "You are given both the English string and the Korean original. Follow English for tone and length; follow Korean for the meaning of saju terms (day master, ten gods, seasonal vitality) — re-translating the English would translate them twice.",
+            "You are given both the English string and the Korean original. Follow English for tone and length; follow Korean for the meaning of dream-reading terms (해몽 a traditional dream reading, 태몽 a conception dream, 길몽 an auspicious dream) — re-translating the English would translate them twice.",
             // 아래 셋은 `verify-i18n`이 기계적으로 대조하는 항목이다. 어기면 그 자리에서 걸린다.
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime.",
-            "CRITICAL: keep **bold** markers on the same phrase, and keep the same number of ** markers. If the English has no ** at all, your translation must have none either — do not add emphasis of your own.",
+            // **모자란 쪽보다 넘치는 쪽이 잦다.** 영어에 강조가 하나 있으면 모델이 앞 구절에도
+            // 하나를 더 붙여 4개가 되고, 검사기가 그 잎을 en으로 되돌린다(21개 중 4개 언어에서
+            // 같은 자리가 걸렸다). "같은 개수"만으로는 이 습관이 안 잡혀 세어서 못 박는다.
+            "CRITICAL: keep **bold** markers on the same phrase, and keep exactly the same number of ** markers — count them. If the English bolds one phrase, your translation must bold exactly one phrase and it must be that same phrase. Do not bold anything else, however important it looks. If the English has no ** at all, your translation must have none either.",
             "CRITICAL: keep newline characters (\\n) where they appear — the layout depends on them.",
             // 크메르어에서 "A4 7장"을 "A4 ៧ទំព័រ"로 바꿔 써, 고시 장수를 세는 검사기가 숫자를
             // 못 찾았다. 장수·가격은 기계가 대조하는 값이라 아라비아 숫자로 두어야 한다.
             "CRITICAL: keep every digit in Arabic numerals (0-9) exactly as in the English. Never convert numbers to another numeral system.",
-            "This service is about KOREAN saju. It is NOT about compatibility between two people, and it is not a matchmaking service — never introduce words meaning 'compatibility', 'match rate', or 'the two of you'.",
+            // 이 앱은 인연링크(궁합) 복제라 옛 문구가 사방에 남아 있었다. 모델이 그 어휘로
+            // 흘러가면 화면이 다시 궁합을 말한다 — `verify-product-consistency`가 그 낱말을 센다.
+            "This service reads DREAMS. It is NOT about compatibility between two people, NOT a matchmaking service, and NOT a saju (four pillars) reading — never introduce words meaning 'compatibility', 'match rate', 'the two of you', 'birth date', or 'fortune telling'.",
+            // 엔진이 하지 않는 일을 문구가 하겠다고 말하면 그 자체가 결함이 된다. 태몽 문구가
+            // 특히 위험하다 — 임신·성별을 판정한다고 읽히면 의학적 단정이다.
+            "Never make the copy promise more than the service does: it does not predict the future, and it never determines pregnancy or the sex of a child. Where the English hedges ('traditionally read as', 'does not determine'), keep the hedge exactly as strong.",
             // 입력이 `{path: {en, ko}}`라 그 모양을 되비추기 쉽다. 값은 문자열이어야 한다고
             // 못 박는다(그래도 객체로 오면 `lookup`이 안쪽에서 꺼낸다).
             // 출력 키를 입력과 다르게 둔다 — 입력을 복사해 보내면 `translations`가 없어 곧바로 걸린다.
@@ -367,8 +411,15 @@ function seedFromExistingFile() {
   try {
     previous = JSON.parse(body);
   } catch {
-    console.warn("  (기존 파일을 읽지 못해 --only가 나머지 절을 en으로 되돌립니다)");
-    return;
+    // **경고로 두면 안 되는 자리다.** 예전에는 여기서 경고만 찍고 계속 진행했는데, 그러면
+    // `--only dream`이 지정하지 않은 스물몇 절을 통째로 en으로 되돌린다. 로그 한 줄은 묻히고
+    // 파일은 멀쩡히 컴파일되므로 **겉으로는 성공처럼 보인다**(실측). 손으로 쓴 파일은 JSON이
+    // 아니라 이 경로에 반드시 걸린다 — 그때는 `--only` 없이 통째로 다시 만들 것.
+    console.error(
+      `기존 ${locale}.ts를 JSON으로 읽지 못했습니다. --only로 진행하면 지정하지 않은 절이\n` +
+        "전부 en으로 덮입니다. --only를 빼고 통째로 다시 만드십시오.",
+    );
+    process.exit(1);
   }
   const seeded: Leaf[] = [];
   collect(previous, previous, [], seeded);
@@ -465,14 +516,14 @@ if (!existsSync(DIR)) mkdirSync(DIR, { recursive: true });
 const file = path.join(DIR, `${locale}.ts`);
 
 const header = [
-  `// 사주링크 화면 사전의 ${localeLanguageName(locale)}(${locale}) 번역이다.`,
+  `// 드림링크 화면 사전의 ${localeLanguageName(locale)}(${locale}) 번역이다.`,
   "//",
   "// **`scripts/translate-i18n.ts`가 만든 파일이다.** 키 구성·중첩·배열 길이는 en을 그대로",
   "// 복사하고 문자열만 갈아 끼우므로 구조가 어긋날 자리가 없다. 손으로 고칠 때도 키를 더하거나",
   "// 빼지 말 것 — `verify-i18n`이 en과 대조해 잡는다.",
   "//",
-  "// **인연링크에서 물려받은 옛 번역을 되살린 것이 아니다.** 그 파일들은 궁합 서비스의 UI라,",
-  "// 되살리면 사주 화면에 궁합·인연이 다시 들어온다. 새 ko·en에서 다시 옮겼다.",
+  "// **옛 궁합 번역을 통째로 되살린 것이 아니다.** en 원문이 글자까지 같은 자리(푸터·언어",
+  "// 선택기·광고 라벨)만 물려받고, 해몽용으로 새로 쓴 자리는 새 ko·en에서 다시 옮겼다.",
   "",
   'import type { Dictionary } from "@/lib/i18n";',
   "",

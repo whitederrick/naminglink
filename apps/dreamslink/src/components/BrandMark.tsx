@@ -1,16 +1,17 @@
 import Image from "next/image";
 
 /**
- * 인연링크 심볼.
- *
- * 맞물린 두 고리 — 두 사람이 이어진다는 뜻이고 브랜드명의 "link"와도 겹친다.
- * **예전에는 인라인 SVG였는데** 표식을 실제 로고 이미지로 갈았다.
+ * 드림링크 심볼.
  *
  * **쿼리(`?v=…`)를 붙이지 말 것.** Next 이미지 최적화가 쿼리 붙은 경로를 처리하지 못해
  * `unoptimized`를 달게 되고, 그러면 1254×1254 원본이 56px 자리에 그대로 내려간다(naminglink에서
  * 실제로 그랬고, 랜딩 첫 화면 무게의 절반이 로고 하나였다). 로고를 바꿀 때는 **파일명을 바꾼다.**
+ *
+ * ⚠️ **복제 원본의 파일명이 그대로 남아 있었다**(2026-08-06). `inyeonlink-circle-logo-256.png`를
+ * 가리키고 있었는데 그 파일은 이 앱의 `public/`에 없다 — 모든 화면에서 로고가 404였다.
+ * 이미지 경로는 tsc도 검사기도 보지 못하니 **파일이 실제로 있는지 눈으로 확인할 것.**
  */
-const logoImageSrc = "/images/inyeonlink-circle-logo-256.png";
+const logoImageSrc = "/images/dreamslink-circle-logo-256.png";
 
 export function BrandMark({
   className = "",
