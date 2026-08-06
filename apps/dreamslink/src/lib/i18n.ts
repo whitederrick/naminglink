@@ -31,6 +31,7 @@ import { tr } from "@/lib/i18n-locales/tr";
 import { uz } from "@/lib/i18n-locales/uz";
 import { vi } from "@/lib/i18n-locales/vi";
 import { zh } from "@/lib/i18n-locales/zh";
+import type { SelfAdKey } from "@naminglink/core/self-ads";
 import { localeCodes } from "@/lib/locale-codes";
 
 // 목록 자체는 `lib/locale-codes.ts`에 있다. 미들웨어가 이 파일(23개 사전을 전부 끌어온다)을
@@ -172,6 +173,29 @@ export type Dictionary = {
    * ("추천", "관련 글" 같은 표현은 정책 위반이다).
    */
   ads: { label: string };
+  /**
+   * 셀프 광고 — 형제 서비스 소개.
+   *
+   * **보상형 광고가 안 붙을 때(no-fill) 이 자리가 대신 찬다.** 초기에는 보상형 수요가 적어
+   * 자주 비는데, 그때 아무것도 안 그리면 광고 자리가 그냥 사라진다.
+   *
+   * **문구는 사주링크에서 스물세 벌 그대로 가져왔다**(`scripts/import-self-ads-copy.mjs`).
+   * "형제 서비스가 무엇을 하는 곳인가"는 앱이 달라도 같은 말이라, 다시 번역시키면 호출만 늘고
+   * 같은 뜻이 앱마다 다른 문장이 된다.
+   *
+   * `dreamslink`도 목록에 있다. 이 앱에서는 자기 자신이라 빼고 그리지만(`selfAdsExcluding`),
+   * 같은 사전을 형제 앱이 가져다 쓸 수 있으므로 문구는 다섯 벌 다 갖는다.
+   */
+  selfAds: {
+    label: string;
+    /** 아직 열지 않은 서비스에 붙인다. 링크는 걸지 않는다. */
+    comingSoon: string;
+    /**
+     * 서비스마다 한 줄 소개. **이름은 여기 없다** — 상표는 번역하는 것이 아니라 고정값이라
+     * 명단(`SELF_AD_SERVICES.name`)이 갖는다.
+     */
+    purposes: Record<SelfAdKey, string>;
+  };
   analyzing: {
     /** 사전을 뒤지는 잠깐 동안(0.1초 남짓) 보이는 문구. */
     title: string;
@@ -264,6 +288,17 @@ const ko: Dictionary = {
       "전통 해몽 관점의 참고 자료일 뿐, 앞일에 대한 예측이나 의학·재무 판단이 아닙니다.",
   },
   ads: { label: "광고" },
+  selfAds: {
+    label: "관련 서비스",
+    comingSoon: "준비 중",
+    purposes: {
+      naminglink: "뜻과 획수로 짓는 한글·한자 이름",
+      inyeonlink: "사주와 띠로 보는 두 사람의 궁합",
+      sajulink: "원국과 오늘의 운세로 읽는 나의 사주",
+      dreamslink: "상징 사전으로 풀어 보는 꿈 해몽",
+      placelink: "한국의 데이트 장소를 나누고 추천하는 곳",
+    },
+  },
   analyzing: {
     title: "꿈에 나온 상징을 찾고 있습니다",
     // 점을 치는 말이 아니라 꿈을 대하는 태도에 관한 문장으로 채운다. 결과를 기다리는 동안
@@ -436,6 +471,17 @@ const en: Dictionary = {
       "This is reference material from a traditional dream-reading perspective. It is not a prediction of what is to come, nor medical or financial advice.",
   },
   ads: { label: "Advertisement" },
+  selfAds: {
+    label: "Related services",
+    comingSoon: "Coming soon",
+    purposes: {
+      naminglink: "Korean and hanja names chosen by meaning and stroke count",
+      inyeonlink: "How two people fit, read from their four pillars and zodiac signs",
+      sajulink: "Your own four pillars, and how today meets them",
+      dreamslink: "Dream readings drawn from a dictionary of symbols",
+      placelink: "Places to go on a date in Korea, shared and recommended",
+    },
+  },
   analyzing: {
     title: "Looking for the symbols in your dream",
     quotes: [

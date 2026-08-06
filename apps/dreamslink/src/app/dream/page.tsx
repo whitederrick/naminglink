@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 import { AdBanner } from "@/components/AdBanner";
 import { DreamForm } from "@/components/DreamForm";
@@ -10,6 +11,9 @@ import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
+import { localePath } from "@/lib/locale-path";
+import { DREAM_SYMBOLS } from "@/lib/dream-symbols";
+import { SYMBOLS_INDEX_PATH } from "@/lib/symbol-pages";
 import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -67,6 +71,18 @@ export default async function Page({
             </p>
             {/* 무엇을 근거로 푸는지는 꿈을 적기 **전에** 궁금해지는 것이라 이 자리다. */}
             <GuideLink locale={locale} from="dream" align="start" className="mt-3" />
+            {/* 사전을 훑어보는 길. **상징 페이지가 고아가 되지 않게 하는 입구이기도 하다** —
+                검색으로 들어온 사람만 보는 페이지로 두면 서비스 안에서는 없는 것과 같다. */}
+            <p className="mt-2 text-sm">
+              <Link
+                href={localePath(SYMBOLS_INDEX_PATH, locale)}
+                className="font-semibold text-brand-violet underline underline-offset-4 hover:opacity-80"
+              >
+                {locale === "ko"
+                  ? `전통 해몽 상징 ${DREAM_SYMBOLS.length}가지 보기`
+                  : `Browse ${DREAM_SYMBOLS.length} traditional dream symbols`}
+              </Link>
+            </p>
           </section>
           <DreamForm dictionary={dictionary} locale={locale} />
           {/* 가장 사적인 글을 적기 직전에 읽히도록 폼 바로 아래에 둔다. */}

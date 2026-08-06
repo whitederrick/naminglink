@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+import { SelfAdCard } from "@/components/SelfAdCard";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { fillTemplate, type Dictionary } from "@/lib/i18n";
 
@@ -133,6 +134,11 @@ export function AdWatchOverlay({
 
             **지금은 GAM 보상형이 이 자리를 맡는다**(`lib/gam-rewarded.ts`). 광고 단위를 넣으면
             이 상자가 뜨는 순간 구글 보상형이 그 위에 뜬다. 여기에 애드센스 배너를 되돌리지 말 것. */}
+
+        {/* 보상형이 안 뜰 때 이 자리를 채운다 — no-fill·차단기, 그리고 지금처럼 광고 단위를
+            아직 안 넣은 상태. 관문을 없애거나 기다림을 건너뛰지 않고 **채울 것만 바꾼다.**
+            형제 서비스(naming·inyeon·saju)를 보여 준다. */}
+        <SelfAdCard dictionary={dictionary} className="mt-5" />
 
         {/* 높이를 고정해 문구 길이가 바뀔 때 팝업이 들썩이지 않게 한다. */}
         <p className="break-keep-all mt-5 flex min-h-[4.5rem] items-center justify-center text-center text-sm leading-6 text-muted">

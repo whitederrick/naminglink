@@ -1,6 +1,11 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl, hreflangMap, indexablePaths, localeUrl } from "@/lib/seo";
 import { supportedLocales } from "@/lib/i18n";
+import {
+  SYMBOL_PAGE_LOCALES,
+  SYMBOLS_INDEX_PATH,
+  symbolPagePaths,
+} from "@/lib/symbol-pages";
 
 /**
  * 공개 페이지 × 23개 로케일.
@@ -23,7 +28,7 @@ function priorityOf(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return indexablePaths.flatMap((path) => {
+  const pages = indexablePaths.flatMap((path) => {
     const languages = hreflangMap(path);
     const priority = priorityOf(path);
 
@@ -37,4 +42,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })),
     ];
   });
+
+  /**
+   * 상징 페이지. **검색으로 들어오는 자리라 우선순위를 서비스 화면 다음으로 둔다.**
+   *
+   * 로케일을 23개가 아니라 **둘만** 펼친다. 사전이 ko·en 두 벌뿐이라(`lib/dream-language.ts`),
+   * 나머지 21개 주소에는 같은 영어 내용이 깔린다 — 얇은 중복 페이지 수천 개는 색인에 해가
+   * 된다. 안내 문서를 ko·global로 가른 것과 같은 판단이다.
+   */
+  const symbols = [SYMBOLS_INDEX_PATH, ...symbolPagePaths].flatMap((path) => {
+    const languages: Record<string, string> = {
+      "x-default": absoluteUrl(path),
+    };
+    for (const locale of SYMBOL_PAGE_LOCALES) languages[locale] = localeUrl(path, locale);
+
+    return [
+      { url: absoluteUrl(path), priority: 0.7, alternates: { languages } },
+      ...SYMBOL_PAGE_LOCALES.map((locale) => ({
+        url: localeUrl(path, locale),
+        priority: 0.7,
+        alternates: { languages },
+      })),
+    ];
+  });
+
+  return [...pages, ...symbols];
 }

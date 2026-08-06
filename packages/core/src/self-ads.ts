@@ -21,6 +21,9 @@
  *   2026-08-05  saju-link.com 구매했으나 **연결 대기**(지금은 sajulink.vercel.app)
  *               dreams-link.com 앱 자체가 아직 없다
  *               place-link.com 개발 중 — 고장이 아니라 아직 없는 것이다
+ *   2026-08-06  saju-link.com·dreams-link.com **둘 다 연결됨**(네 도메인 전부 200 확인).
+ *               `live`가 거짓인 채로 남아 있어 셀프 광고가 두 서비스를 "준비 중"으로 내보내고
+ *               있었다 — 도메인을 연결하는 날 이 파일을 함께 고칠 것. place-link만 아직 없다.
  */
 
 export const SELF_AD_KEYS = [
@@ -64,8 +67,8 @@ export type SelfAdService = {
 export const SELF_AD_SERVICES: readonly SelfAdService[] = [
   { key: "naminglink", name: "Naming-Link", domain: "naming-link.com", live: true, logo: true },
   { key: "inyeonlink", name: "Inyeon-Link", domain: "inyeon-link.com", live: true, logo: true },
-  { key: "sajulink", name: "Saju-Link", domain: "saju-link.com", live: false, logo: true },
-  { key: "dreamslink", name: "Dreams-Link", domain: "dreams-link.com", live: false, logo: true },
+  { key: "sajulink", name: "Saju-Link", domain: "saju-link.com", live: true, logo: true },
+  { key: "dreamslink", name: "Dreams-Link", domain: "dreams-link.com", live: true, logo: true },
   // 플레이스링크는 아직 로고가 없다. 자리표시로 그린다.
   { key: "placelink", name: "Place-Link", domain: "place-link.com", live: false, logo: false },
 ];

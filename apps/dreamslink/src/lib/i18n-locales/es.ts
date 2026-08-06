@@ -57,6 +57,17 @@ export const es: Dictionary = {
   "ads": {
     "label": "Publicidad"
   },
+  "selfAds": {
+    "label": "Servicios relacionados",
+    "comingSoon": "Próximamente",
+    "purposes": {
+      "naminglink": "Nombres coreanos y hanja elegidos por significado y número de trazos",
+      "inyeonlink": "Cómo se ajustan dos personas, leído desde sus cuatro pilares y signos del zodiaco",
+      "sajulink": "Tus propios cuatro pilares, y cómo hoy se encuentra con ellos",
+      "dreamslink": "Lecturas de sueños extraídas de un diccionario de símbolos",
+      "placelink": "Lugares para ir en una cita en Corea, compartidos y recomendados"
+    }
+  },
   "analyzing": {
     "title": "Buscando los símbolos en tu sueño",
     "quotes": [

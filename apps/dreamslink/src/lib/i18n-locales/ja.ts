@@ -57,6 +57,17 @@ export const ja: Dictionary = {
   "ads": {
     "label": "広告"
   },
+  "selfAds": {
+    "label": "関連サービス",
+    "comingSoon": "もうすぐ",
+    "purposes": {
+      "naminglink": "意味と画数で選ばれた韓国語と漢字の名前",
+      "inyeonlink": "二人の四柱と星座から見る適合性",
+      "sajulink": "あなた自身の四柱と、今日がそれにどう関わるか",
+      "dreamslink": "シンボルの辞書から引いた夢の解釈",
+      "placelink": "韓国のデートスポットを共有し、推薦する"
+    }
+  },
   "analyzing": {
     "title": "夢の中のシンボルを探しています",
     "quotes": [

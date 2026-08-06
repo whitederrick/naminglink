@@ -57,6 +57,17 @@ export const vi: Dictionary = {
   "ads": {
     "label": "Quảng cáo"
   },
+  "selfAds": {
+    "label": "Dịch vụ liên quan",
+    "comingSoon": "Sắp ra mắt",
+    "purposes": {
+      "naminglink": "Tên Hàn Quốc và Hán tự được chọn theo ý nghĩa và số nét",
+      "inyeonlink": "Cách hai người phù hợp, đọc từ bốn trụ và cung hoàng đạo của họ",
+      "sajulink": "Bốn trụ của riêng bạn, và cách hôm nay gặp gỡ chúng",
+      "dreamslink": "Giải mã giấc mơ từ từ điển biểu tượng",
+      "placelink": "Những địa điểm hẹn hò ở Hàn Quốc, được chia sẻ và giới thiệu"
+    }
+  },
   "analyzing": {
     "title": "Tìm kiếm các biểu tượng trong giấc mơ của bạn",
     "quotes": [

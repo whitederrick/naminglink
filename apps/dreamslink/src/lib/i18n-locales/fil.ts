@@ -57,6 +57,17 @@ export const fil: Dictionary = {
   "ads": {
     "label": "Patalastas"
   },
+  "selfAds": {
+    "label": "Mga kaugnay na serbisyo",
+    "comingSoon": "Malapit nang dumating",
+    "purposes": {
+      "naminglink": "Mga pangalan sa Korean at hanja na pinili batay sa kahulugan at bilang ng mga stroke",
+      "inyeonlink": "Paano nagkakasya ang dalawang tao, batay sa kanilang apat na haligi at mga zodiac sign",
+      "sajulink": "Ang iyong sariling apat na haligi, at kung paano ito nakakatugon sa araw na ito",
+      "dreamslink": "Mga pagbasa ng pangarap na hinango mula sa isang diksyunaryo ng mga simbolo",
+      "placelink": "Mga lugar na pwedeng puntahan sa isang date sa Korea, ibinabahagi at inirerekomenda"
+    }
+  },
   "analyzing": {
     "title": "Naghahanap ng mga simbolo sa iyong panaginip",
     "quotes": [
