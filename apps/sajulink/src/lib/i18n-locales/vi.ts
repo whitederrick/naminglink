@@ -482,62 +482,6 @@ export const vi: Dictionary = {
     "refundContact": "Về hoàn tiền hay thắc mắc, xin liên hệ trung tâm hỗ trợ khách hàng hoặc email bên dưới. Nếu tài liệu không được tạo ra, hoặc số tiền bị trừ khác với đơn hàng, chúng tôi hoàn tiền toàn bộ.",
     "pdfLanguageNotice": "Tệp PDF được tạo bằng cùng ngôn ngữ với màn hình này."
   },
-  "premiumReport": {
-    "title": "Giữ bản đọc cao cấp của bạn dưới dạng PDF",
-    "body": "Mọi thứ trong bản đọc cuộc sống, cộng với **các con số phía sau mà không bao giờ xuất hiện trên màn hình** — tỷ lệ đồng minh quyết định mạnh hay yếu, tháng sinh đã đẩy từng yếu tố lên bao xa, và sự điều chỉnh thời gian mặt trời thực áp dụng cho giờ sinh của bạn.",
-    "buyButton": "Thanh toán {price} và tải xuống",
-    "preparing": "Chưa có sẵn",
-    "ordering": "Đang tạo đơn hàng…",
-    "paying": "Đang xử lý thanh toán…",
-    "issuing": "Đang chuẩn bị báo cáo của bạn…",
-    "done": "Đã tải xuống. Sử dụng nút bên dưới để tải xuống lại.",
-    "failed": "Thanh toán hoặc tải xuống không thành công. Vui lòng thử lại sau một lúc.",
-    "retry": "Tải xuống lại",
-    "contents": [
-      "Ngày chủ và tính cách của bạn — tóm tắt, điểm mạnh và điểm cần lưu ý",
-      "Bản đồ sinh của bạn — tám ký tự của bốn trụ",
-      "Năm yếu tố, sức mạnh của ngày chủ và những gì nó cần",
-      "Vận may hôm nay và bốn lĩnh vực (tiền bạc, tình yêu, công việc, sức khỏe)",
-      "Mỗi trụ có ý nghĩa gì với bạn — mười thần được đọc từ biểu đồ của bạn",
-      "Tình trạng theo mùa và tỷ lệ đồng minh — các con số phía sau phán quyết",
-      "Triển vọng của năm nay, các yếu tố chấm điểm hôm nay và sự điều chỉnh thời gian"
-    ],
-    "consentLabel": "Tôi hiểu rằng đây là nội dung kỹ thuật số được cung cấp ngay lập tức khi thanh toán, và rằng **việc rút lui vì lý do thay đổi ý kiến đơn giản bị hạn chế ngay khi tải xuống hoàn tất**.",
-    "consentRequired": "Vui lòng xác nhận các điều khoản rút lui trước khi thanh toán.",
-    "productInfoTitle": "Thông tin sản phẩm",
-    "productInfo": [
-      [
-        "Nhà cung cấp",
-        "{brand}"
-      ],
-      [
-        "Định dạng",
-        "Một tài liệu PDF (7 trang A4), tải xuống ngay sau khi thanh toán."
-      ],
-      [
-        "Yêu cầu",
-        "Bất kỳ thiết bị nào mở được PDF. Không cần cài đặt hoặc tài khoản."
-      ],
-      [
-        "Thời hạn sử dụng",
-        "Không giới hạn. Bạn giữ tệp mà bạn tải xuống."
-      ],
-      [
-        "Tải xuống lại",
-        "Tối đa năm lần trên cùng một đơn hàng. Chúng tôi không giữ bản sao, vì vậy không thể tạo lại một khi bạn rời khỏi màn hình kết quả."
-      ],
-      [
-        "Rút lui",
-        "Hoàn tiền đầy đủ trước khi tải xuống bắt đầu. Sau khi hoàn tất, việc rút lui vì thay đổi ý kiến đơn giản bị hạn chế (Điều 17(2), Luật Thương mại điện tử Hàn Quốc)."
-      ],
-      [
-        "Chi phí trả lại",
-        "Không có — nội dung kỹ thuật số, không có gì được gửi đi."
-      ]
-    ],
-    "refundContact": "Để yêu cầu hoàn tiền hoặc có thắc mắc, hãy liên hệ với trung tâm khách hàng hoặc email bên dưới. Nếu tài liệu không thể được tạo ra, hoặc số tiền bị tính khác với đơn hàng, chúng tôi sẽ hoàn tiền đầy đủ.",
-    "pdfLanguageNotice": "Tài liệu PDF được sản xuất bằng ngôn ngữ giống như màn hình này."
-  },
   "fallbackReport": {
     "summary": "Một {dayMaster} ngày sinh ra trong năng lượng của {season}. Trong toàn bộ biểu đồ, {strongest} chạy dày nhất và {scarcest} chạy mỏng nhất. Mọi thứ bên dưới đều dựa trên tám ký tự đó — mỗi số và mỗi cột ở đây đều được tính toán, không phải chọn lựa.",
     "personality": "Ngày sinh của bạn là {dayMaster} — năng lượng {element} — và biểu đồ này đọc như {strengthName}. Bên nào chạy dày hơn, cái gì hỗ trợ ngày chủ hay cái gì rút ra từ nó, là điều hình thành nên tính cách, và trong cuộc sống hàng ngày, nó thể hiện như thế này.",

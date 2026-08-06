@@ -407,17 +407,23 @@ export type Dictionary = {
     lunarLabel: string;
     lunarUnavailable: string;
   };
-  /** 사주 총운 리포트 PDF 판매. */
+  /**
+   * 유료 리포트 PDF 판매 문안.
+   *
+   * **상품이 하나뿐이라 절도 하나다**(2026-08-05 개편). 예전에는 `report`(총운)와
+   * `premiumReport`(프리미엄) 둘이었고, 상품을 합친 뒤에도 사전에는 `premiumReport`가
+   * 23로케일에 남아 있었다 — 아무도 읽지 않는 문안이 검사기·번역기의 대상으로만 남아
+   * **팔지 않는 상품의 고시를 번역하고 검사하고 있었다.** 2026-08-07에 지웠다.
+   */
   report: ReportCopy;
-  /** 프리미엄 총운 리포트 PDF 판매(십신·왕상휴수사·올해 총운·계산 근거까지). */
-  premiumReport: ReportCopy;
   /**
    * 해설(GPT)이 오지 않았을 때 그 자리를 채우는 문안.
    *
-   * **왜 있는가.** 유료 리포트의 장수(총운 5장·프리미엄 7장)는 **상품 정보 고시에 적는 값**이다.
-   * 그런데 해설은 외부 모델이라 언제든 실패할 수 있고, 그 자리를 비운 채 내보내면 3장·5장으로
-   * 나가 고시가 거짓이 된다. 그래서 실패하면 **엔진이 이미 계산해 둔 값으로 같은 자리를 채운다.**
+   * **왜 있는가.** 유료 리포트의 장수(`REPORT_PAGE_COUNT` = 9장)는 **상품 정보 고시에 적는
+   * 값**이다. 그런데 해설은 외부 모델이라 언제든 실패할 수 있고, 그 자리를 비운 채 내보내면
+   * 고시가 거짓이 된다. 그래서 실패하면 **엔진이 이미 계산해 둔 값으로 같은 자리를 채운다.**
    * 빈 칸을 늘려 장수를 맞추는 것이 아니라, 근거 있는 서술로 바꿔 넣는 것이다.
+   * (장수는 구조가 정한다 — `report-pages.ts` 참고. 넘침으로 만들지 않는다.)
    *
    * **여기 문장은 전부 템플릿이다.** 자리 표시자는 `fillTemplate`이 채우고, 채울 값은 엔진에서만
    * 온다 — 이 파일이 사실을 지어내는 일은 없어야 한다.
@@ -945,43 +951,6 @@ const ko: Dictionary = {
     productInfo: [
       ["제작·공급자", "{brand}"],
       ["상품 형태", "PDF 문서 1개(A4 9장). 결제 후 화면에서 즉시 내려받습니다."],
-      ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
-      ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
-      ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
-      ["청약철회", "다운로드 완료 전에는 전액 환불. 완료 후에는 단순 변심에 의한 철회가 제한됩니다(전자상거래법 제17조 제2항)."],
-      ["교환·반품 비용", "없음. 디지털 콘텐츠라 배송이 없습니다."],
-    ],
-    refundContact:
-      "환불·문의는 아래 고객센터 또는 이메일로 접수해 주십시오. 문서가 만들어지지 않았거나 결제 금액이 주문과 다른 경우에는 전액 환불해 드립니다.",
-    pdfLanguageNotice: "PDF 문서는 화면과 같은 언어로 나갑니다.",
-  },
-  premiumReport: {
-    title: "프리미엄 총운 리포트 PDF로 간직하기",
-    body: "총운 리포트에 **화면에 없는 근거 숫자**를 더합니다 — 신강·신약을 가른 아군 비율, 태어난 달이 각 기운을 얼마나 밀어 올렸는지(왕상휴수사), 그리고 진태양시 보정 내역입니다.",
-    buyButton: "{price} 결제하고 받기",
-    preparing: "준비 중입니다",
-    ordering: "주문을 만드는 중…",
-    paying: "결제를 진행하는 중…",
-    issuing: "리포트를 만드는 중…",
-    done: "받으셨습니다. 다시 받으려면 아래 버튼을 눌러 주세요.",
-    failed: "결제 또는 발급에 실패했습니다. 잠시 후 다시 시도해 주세요.",
-    retry: "다시 받기",
-    contents: [
-      "일간과 타고난 결 — 성향 요약, 강점과 눈여겨볼 점",
-      "사주 원국 — 네 기둥의 여덟 글자",
-      "오행의 세력과 일간의 강약, 지금 필요한 기운",
-      "오늘의 운세와 삶의 네 영역(재물·애정·직업·건강)",
-      "네 기둥은 나에게 무엇인가 — 십신 풀이",
-      "왕상휴수사와 일간 편의 비율 — 강약 판정의 근거 숫자",
-      "올해 총운, 오늘 점수의 항목별 가감, 진태양시 보정 내역",
-    ],
-    consentLabel:
-      "이 상품은 결제 후 즉시 제공되는 디지털 콘텐츠로, **다운로드가 완료되면 단순 변심에 의한 청약철회가 제한된다는 점**을 확인했습니다.",
-    consentRequired: "청약철회 제한 사항에 동의하셔야 결제할 수 있습니다.",
-    productInfoTitle: "상품 정보 고시",
-    productInfo: [
-      ["제작·공급자", "{brand}"],
-      ["상품 형태", "PDF 문서 1개(A4 7장). 결제 후 화면에서 즉시 내려받습니다."],
       ["이용 조건", "PDF를 열 수 있는 기기면 됩니다. 별도 설치나 회원가입이 필요하지 않습니다."],
       ["이용 기간", "제한 없음. 내려받은 파일은 이용자가 보관합니다."],
       ["다시 받기", "같은 주문으로 5회까지. 서버가 파일을 보관하지 않으므로 결과 화면을 벗어나면 다시 만들 수 없습니다."],
@@ -1601,44 +1570,6 @@ const en: Dictionary = {
     productInfo: [
       ["Provider", "{brand}"],
       ["Format", "One PDF document (9 A4 pages), downloaded on screen right after payment."],
-      ["Requirements", "Any device that opens a PDF. No installation or account needed."],
-      ["Term of use", "No limit. You keep the file you download."],
-      ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],
-      ["Withdrawal", "Full refund before the download begins. After it completes, withdrawal for a change of mind is restricted (Art. 17(2), Korean E-Commerce Act)."],
-      ["Return costs", "None — digital content, nothing is shipped."],
-    ],
-    refundContact:
-      "For refunds or questions, contact the customer centre or email below. If the document could not be produced, or the amount charged differs from the order, we refund in full.",
-    pdfLanguageNotice:
-      "The PDF is produced in the same language as this screen.",
-  },
-  premiumReport: {
-    title: "Keep your premium reading as a PDF",
-    body: "Everything in the life reading, plus **the numbers behind it that never appear on screen** — the ally ratio that decided strong or weak, how far the birth month pushed each element up, and the true-solar-time correction applied to your birth hour.",
-    buyButton: "Pay {price} and download",
-    preparing: "Not available yet",
-    ordering: "Creating your order…",
-    paying: "Processing payment…",
-    issuing: "Preparing your report…",
-    done: "Downloaded. Use the button below to download it again.",
-    failed: "The payment or download failed. Please try again in a moment.",
-    retry: "Download again",
-    contents: [
-      "Your day master and temperament — a summary, strengths and cautions",
-      "Your natal chart — the eight characters of the four pillars",
-      "The five elements, the strength of your day master and what it needs",
-      "Today’s fortune and the four domains (money, love, work, health)",
-      "What each pillar is to you — the ten gods read from your chart",
-      "Seasonal standing and ally ratio — the numbers behind the verdict",
-      "This year’s outlook, today’s scoring factors, and the time correction",
-    ],
-    consentLabel:
-      "I understand this is digital content delivered immediately on payment, and that **withdrawal for a simple change of mind is restricted once the download completes**.",
-    consentRequired: "Please confirm the withdrawal terms before paying.",
-    productInfoTitle: "Product information",
-    productInfo: [
-      ["Provider", "{brand}"],
-      ["Format", "One PDF document (7 A4 pages), downloaded on screen right after payment."],
       ["Requirements", "Any device that opens a PDF. No installation or account needed."],
       ["Term of use", "No limit. You keep the file you download."],
       ["Re-download", "Up to five times on the same order. We keep no copy, so it cannot be produced again once you leave the result screen."],

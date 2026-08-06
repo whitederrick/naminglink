@@ -482,62 +482,6 @@ export const tr: Dictionary = {
     "refundContact": "İade ve sorularınız için aşağıdaki müşteri hizmetlerine ya da e-posta adresine yazın. Belge üretilemediyse ya da tahsil edilen tutar siparişten farklıysa tamamını iade ederiz.",
     "pdfLanguageNotice": "PDF, bu ekranla aynı dilde oluşturulur."
   },
-  "premiumReport": {
-    "title": "Premium okumanızı PDF olarak saklayın",
-    "body": "Hayat okumasındaki her şey, ayrıca **ekranda asla görünmeyen sayılar** — güçlü veya zayıf olanı belirleyen müttefik oranı, doğum ayının her elementi ne kadar yükselttiği ve doğum saatinize uygulanan gerçek-güneş-zaman düzeltmesi.",
-    "buyButton": "{price} ödeyin ve indirin",
-    "preparing": "Henüz mevcut değil",
-    "ordering": "Siparişinizi oluşturuyor…",
-    "paying": "Ödeme işleniyor…",
-    "issuing": "Raporunuzu hazırlıyor…",
-    "done": "İndirildi. Yeniden indirmek için aşağıdaki butonu kullanın.",
-    "failed": "Ödeme veya indirme başarısız oldu. Lütfen bir süre sonra tekrar deneyin.",
-    "retry": "Yeniden indirin",
-    "contents": [
-      "Gün ustanız ve temperamentiniz — bir özet, güçlü yönler ve dikkat edilmesi gerekenler",
-      "Natal haritanız — dört sütunun sekiz karakteri",
-      "Beş element, gün ustanızın gücü ve ihtiyaçları",
-      "Bugünün şansı ve dört alan (para, aşk, iş, sağlık)",
-      "Her bir sütun sizin için ne anlama geliyor — haritanızdan okunan on tanrı",
-      "Mevsimsel duruş ve müttefik oranı — hükmün arkasındaki sayılar",
-      "Bu yılın görünümü, bugünün puanlama faktörleri ve zaman düzeltmesi"
-    ],
-    "consentLabel": "Bu ürünün, ödeme yapıldıktan sonra hemen sunulan dijital içerik olduğunu ve **indirme tamamlandıktan sonra basit bir fikir değişikliği nedeniyle geri çekilmenin kısıtlandığını** anlıyorum.",
-    "consentRequired": "Ödeme yapmadan önce geri çekilme şartlarını onaylayın.",
-    "productInfoTitle": "Ürün bilgisi",
-    "productInfo": [
-      [
-        "Sağlayıcı",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Bir PDF belgesi (7 A4 sayfası), ödeme yapıldıktan hemen sonra ekrandan indirilecektir."
-      ],
-      [
-        "Gereksinimler",
-        "PDF açabilen herhangi bir cihaz. Kurulum veya hesap gerekmez."
-      ],
-      [
-        "Kullanım süresi",
-        "Sınırsız. İndirdiğiniz dosyayı saklarsınız."
-      ],
-      [
-        "Yeniden indirme",
-        "Aynı siparişle beş kez. Sunucuda kopya saklanmadığı için sonuç ekranını terk ettikten sonra tekrar oluşturulamaz."
-      ],
-      [
-        "İptal",
-        "İndirme başlamadan önce tam geri ödeme. Tamamlandıktan sonra, fikir değişikliği nedeniyle iptal sınırlıdır (Madde 17(2), Kore Elektronik Ticaret Yasası)."
-      ],
-      [
-        "İade masrafları",
-        "Yok — dijital içerik, hiçbir şey gönderilmez."
-      ]
-    ],
-    "refundContact": "İadeler veya sorular için, müşteri merkeziyle iletişime geçin veya aşağıdaki e-posta adresine yazın. Belge üretilemediyse veya tahsil edilen tutar siparişle farklıysa, tam geri ödeme yaparız.",
-    "pdfLanguageNotice": "PDF, bu ekranla aynı dilde üretilir."
-  },
   "fallbackReport": {
     "summary": "{season} enerjisi içinde doğmuş bir {dayMaster} gün ustası. Tüm haritada {strongest} en kalın, {scarcest} ise en ince. Aşağıdaki açıklamalar bu sekiz karakterden türetilmiştir — buradaki her sayı ve her sütun hesaplanmıştır, seçilmemiştir.",
     "personality": "Gün ustanız {dayMaster} — {element} enerjisi — ve bu harita {strengthName} olarak okunuyor. Hangi taraf daha kalın, gün ustasını destekleyen mi yoksa ondan çeken mi, bu tahılı şekillendirir ve günlük hayatta bu şekilde ortaya çıkar.",

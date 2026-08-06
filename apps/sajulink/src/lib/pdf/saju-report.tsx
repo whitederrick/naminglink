@@ -790,7 +790,7 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* 6장 삶의 네 영역 — **원국 기준이다.** 하루짜리 값이 아니다. */}
+      {/* 7장 삶의 네 영역 — **원국 기준이다.** 하루짜리 값이 아니다. */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={d.domainsTitle} />
 
@@ -823,7 +823,7 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* 7장 근거와 부록.
+      {/* 8장 근거와 부록.
           네 영역 점수가 **어디에서 나왔는지** 항목과 가감으로 보여 준다. 앞 장의 문단은 가장
           크게 움직인 둘만 말하므로, 전부 보고 싶은 사람을 위한 자리가 따로 있어야 한다. */}
       <Page size="A4" style={pageStyle}>
@@ -838,8 +838,8 @@ function SajuReport({
         {footer}
       </Page>
 
-      {/* 8장 올해 총운.
-          상품 이름이 「평생 사주와 **올해의 운세**」다. 앞 일곱 장이 평생 것이고 이 장이 올해다.
+      {/* 9장 올해 총운.
+          상품 이름이 「평생 사주와 **올해의 운세**」다. 앞 여덟 장이 평생 것이고 이 장이 올해다.
           간지를 못 읽는 경우에만 문단이 비는데 그때도 장은 남는다 — 장수는 구조가 정한다. */}
       <Page size="A4" style={pageStyle}>
         <BrandRow dictionary={dictionary} title={d.yearOutlookTitle} />

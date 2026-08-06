@@ -482,62 +482,6 @@ export const de: Dictionary = {
     "refundContact": "Für Erstattungen oder Fragen wenden Sie sich an den Kundendienst oder die E-Mail-Adresse unten. Wenn das Dokument nicht erstellt werden konnte oder der belastete Betrag von der Bestellung abweicht, erstatten wir vollständig.",
     "pdfLanguageNotice": "Das PDF wird in derselben Sprache wie dieser Bildschirm erstellt."
   },
-  "premiumReport": {
-    "title": "Bewahren Sie Ihre Premium-Lesung als PDF auf",
-    "body": "Alles in der Lebenslesung, plus **die Zahlen dahinter, die nie auf dem Bildschirm erscheinen** — das Verhältnis der Verbündeten, das stark oder schwach entschied, wie sehr der Geburtsmonat jedes Element angehoben hat und die Korrektur der wahren Sonnenzeit, die auf Ihre Geburtsstunde angewendet wurde.",
-    "buyButton": "{price} bezahlen und herunterladen",
-    "preparing": "Noch nicht verfügbar",
-    "ordering": "Ihre Bestellung wird erstellt…",
-    "paying": "Zahlung wird bearbeitet…",
-    "issuing": "Ihr Bericht wird vorbereitet…",
-    "done": "Heruntergeladen. Verwenden Sie die Schaltfläche unten, um ihn erneut herunterzuladen.",
-    "failed": "Die Zahlung oder der Download ist fehlgeschlagen. Bitte versuchen Sie es in einem Moment erneut.",
-    "retry": "Erneut herunterladen",
-    "contents": [
-      "Ihr Tagemeister und Temperament — eine Zusammenfassung, Stärken und Vorsichtsmaßnahmen",
-      "Ihr Geburtshoroskop — die acht Zeichen der vier Säulen",
-      "Die fünf Elemente, die Stärke Ihres Tagemeisters und was er benötigt",
-      "Heutiges Glück und die vier Bereiche (Geld, Liebe, Arbeit, Gesundheit)",
-      "Was jede Säule für Sie bedeutet — die zehn Götter, die aus Ihrem Horoskop gelesen werden",
-      "Saisonale Stellung und Verbündetenverhältnis — die Zahlen hinter dem Urteil",
-      "Der Ausblick für dieses Jahr, die Bewertungsfaktoren von heute und die Zeitkorrektur"
-    ],
-    "consentLabel": "Ich verstehe, dass dies digitale Inhalte sind, die sofort nach der Zahlung bereitgestellt werden, und dass **der Rücktritt bei einfacher Meinungsänderung eingeschränkt ist, sobald der Download abgeschlossen ist**.",
-    "consentRequired": "Bitte bestätigen Sie die Rücktrittsbedingungen vor der Zahlung.",
-    "productInfoTitle": "Produktinformationen",
-    "productInfo": [
-      [
-        "Anbieter",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Ein PDF-Dokument (7 A4-Seiten), das sofort nach der Zahlung auf dem Bildschirm heruntergeladen wird."
-      ],
-      [
-        "Anforderungen",
-        "Jedes Gerät, das ein PDF öffnen kann. Keine Installation oder Registrierung erforderlich."
-      ],
-      [
-        "Nutzungsdauer",
-        "Keine Begrenzung. Sie behalten die Datei, die Sie herunterladen."
-      ],
-      [
-        "Erneutes Herunterladen",
-        "Bis zu fünfmal bei derselben Bestellung. Wir behalten keine Kopie, daher kann sie nicht erneut erstellt werden, sobald Sie den Ergebnisbildschirm verlassen."
-      ],
-      [
-        "Rücktritt",
-        "Vollständige Rückerstattung vor Beginn des Downloads. Nach Abschluss ist der Rücktritt bei Meinungsänderung eingeschränkt (Art. 17(2), koreanisches E-Commerce-Gesetz)."
-      ],
-      [
-        "Rücksendekosten",
-        "Keine — digitale Inhalte, es erfolgt kein Versand."
-      ]
-    ],
-    "refundContact": "Für Rückerstattungen oder Fragen kontaktieren Sie bitte das Kundenzentrum oder die untenstehende E-Mail. Wenn das Dokument nicht erstellt werden konnte oder der berechnete Betrag von der Bestellung abweicht, erstatten wir den vollen Betrag.",
-    "pdfLanguageNotice": "Das PDF wird in derselben Sprache erstellt wie dieser Bildschirm."
-  },
   "fallbackReport": {
     "summary": "Ein {dayMaster} Tagmeister, geboren in der Energie von {season}. Im gesamten Chart ist {strongest} am stärksten ausgeprägt und {scarcest} am schwächsten. Alles, was folgt, ergibt sich aus diesen acht Zeichen — jede Zahl und jede Säule hier ist berechnet, nicht gewählt.",
     "personality": "Ihr Tagmeister ist {dayMaster} — {element} Energie — und dieses Chart liest sich als {strengthName}. Welche Seite dicker ist, was den Tagmeister unterstützt oder was davon abzieht, prägt das Wesen, und im täglichen Leben zeigt es sich so.",

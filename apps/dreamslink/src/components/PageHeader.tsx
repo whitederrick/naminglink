@@ -24,7 +24,7 @@ import { localePath } from "@/lib/locale-path";
 export function PageHeader({
   locale,
   path,
-  width = "max-w-5xl",
+  width,
 }: {
   locale: Locale;
   /**
@@ -45,7 +45,7 @@ export function PageHeader({
    *
    * 부르는 쪽의 본문 컨테이너와 **같은 값**을 넘길 것. 값이 갈리면 다시 어긋난다.
    */
-  width?: string;
+  width: string;
 }) {
   const dictionary = getDictionary(locale);
   const nav = navFor(path, locale, dictionary);

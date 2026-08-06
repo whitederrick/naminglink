@@ -202,8 +202,6 @@ function checkEmphasisAllowlist(en: unknown) {
   const RENDERED_WITH_EMPHASIS: Record<string, string> = {
     "today.bookmarkHint": "SajuResultView",
     "report.consentLabel": "ReportPurchasePanel",
-    "premiumReport.body": "ReportPurchasePanel",
-    "premiumReport.consentLabel": "ReportPurchasePanel",
   };
 
   const found: string[] = [];

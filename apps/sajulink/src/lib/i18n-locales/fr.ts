@@ -482,62 +482,6 @@ export const fr: Dictionary = {
     "refundContact": "Pour un remboursement ou une question, contactez le service client ou l'adresse e-mail ci-dessous. Si le document n'a pas pu être produit, ou si le montant débité diffère de la commande, nous remboursons intégralement.",
     "pdfLanguageNotice": "Le PDF est produit dans la même langue que cet écran."
   },
-  "premiumReport": {
-    "title": "Conservez votre lecture premium au format PDF",
-    "body": "Tout dans la lecture de vie, plus **les chiffres derrière qui n'apparaissent jamais à l'écran** — le ratio d'allié qui a décidé de la force ou de la faiblesse, à quel point le mois de naissance a poussé chaque élément vers le haut, et la correction du temps solaire vrai appliquée à votre heure de naissance.",
-    "buyButton": "Payez {price} et téléchargez",
-    "preparing": "Pas encore disponible",
-    "ordering": "Création de votre commande…",
-    "paying": "Traitement du paiement…",
-    "issuing": "Préparation de votre rapport…",
-    "done": "Téléchargé. Utilisez le bouton ci-dessous pour le télécharger à nouveau.",
-    "failed": "Le paiement ou le téléchargement a échoué. Veuillez réessayer dans un moment.",
-    "retry": "Télécharger à nouveau",
-    "contents": [
-      "Votre jour maître et tempérament — un résumé, forces et précautions",
-      "Votre carte natale — les huit caractères des quatre piliers",
-      "Les cinq éléments, la force de votre jour maître et ce dont il a besoin",
-      "La fortune d'aujourd'hui et les quatre domaines (argent, amour, travail, santé)",
-      "Ce que chaque pilier représente pour vous — les dix dieux lus à partir de votre carte",
-      "Position saisonnière et ratio d'allié — les chiffres derrière le verdict",
-      "Perspectives de cette année, facteurs de notation d'aujourd'hui, et correction du temps"
-    ],
-    "consentLabel": "Je comprends que ceci est un contenu numérique livré immédiatement après le paiement, et que **le retrait pour un simple changement d'avis est restreint une fois le téléchargement terminé**.",
-    "consentRequired": "Veuillez confirmer les conditions de retrait avant de payer.",
-    "productInfoTitle": "Informations sur le produit",
-    "productInfo": [
-      [
-        "Fournisseur",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Un document PDF (7 pages A4), téléchargé à l'écran juste après le paiement."
-      ],
-      [
-        "Conditions d'utilisation",
-        "Tout appareil capable d'ouvrir un PDF. Pas d'installation ni de compte requis."
-      ],
-      [
-        "Durée d'utilisation",
-        "Aucune limite. Vous conservez le fichier que vous téléchargez."
-      ],
-      [
-        "Téléchargement à nouveau",
-        "Jusqu'à cinq fois sur la même commande. Nous ne conservons aucune copie, donc il ne peut pas être produit à nouveau une fois que vous quittez l'écran de résultat."
-      ],
-      [
-        "Retrait",
-        "Remboursement complet avant le début du téléchargement. Après son achèvement, le retrait pour un changement d'avis est restreint (Art. 17(2), Loi coréenne sur le commerce électronique)."
-      ],
-      [
-        "Frais de retour",
-        "Aucun — contenu numérique, rien n'est expédié."
-      ]
-    ],
-    "refundContact": "Pour les remboursements ou questions, contactez le centre client ou l'email ci-dessous. Si le document n'a pas pu être produit, ou si le montant facturé diffère de la commande, nous remboursons intégralement.",
-    "pdfLanguageNotice": "Le document PDF est produit dans la même langue que cet écran."
-  },
   "fallbackReport": {
     "summary": "Un maître de jour {dayMaster} né dans l'énergie de {season}. Dans l'ensemble du tableau, {strongest} est le plus épais et {scarcest} est le plus fin. Tout ce qui suit découle de ces huit caractères — chaque nombre et chaque pilier ici est calculé, pas choisi.",
     "personality": "Votre maître de jour est {dayMaster} — énergie {element} — et ce tableau se lit comme {strengthName}. Quel côté est le plus épais, ce qui soutient le maître de jour ou ce qui en tire, façonne le grain, et dans la vie quotidienne, cela se manifeste comme ceci.",

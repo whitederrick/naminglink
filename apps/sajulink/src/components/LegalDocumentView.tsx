@@ -23,7 +23,7 @@ export function LegalDocumentView({
 
   return (
     <main className="min-h-screen bg-background">
-      <PageHeader locale={locale} path={path} />
+      <PageHeader locale={locale} path={path} width="max-w-3xl" />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12">
         {/* 서비스 화면과 같은 제목 줄을 쓴다 — 오른쪽 끝에 언어 선택기가 함께 온다.

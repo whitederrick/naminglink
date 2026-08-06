@@ -482,62 +482,6 @@ export const ms: Dictionary = {
     "refundContact": "Untuk bayaran balik atau pertanyaan, hubungi khidmat pelanggan atau e-mel di bawah. Jika dokumen itu tidak dapat dihasilkan, atau jumlah yang dicaj berbeza daripada pesanan, kami memulangkan wang sepenuhnya.",
     "pdfLanguageNotice": "PDF dihasilkan dalam bahasa yang sama dengan skrin ini."
   },
-  "premiumReport": {
-    "title": "Simpan bacaan premium anda sebagai PDF",
-    "body": "Segala-galanya dalam bacaan kehidupan, ditambah dengan **nombor yang tidak pernah muncul di skrin** — nisbah sekutu yang menentukan kuat atau lemah, sejauh mana bulan kelahiran mendorong setiap elemen, dan pembetulan waktu-solar-sebenar yang diterapkan pada jam kelahiran anda.",
-    "buyButton": "Bayar {price} dan muat turun",
-    "preparing": "Belum tersedia",
-    "ordering": "Mencipta pesanan anda…",
-    "paying": "Memproses pembayaran…",
-    "issuing": "Menyediakan laporan anda…",
-    "done": "Dimuat turun. Gunakan butang di bawah untuk memuat turunnya lagi.",
-    "failed": "Pembayaran atau muat turun gagal. Sila cuba lagi dalam seketika.",
-    "retry": "Muat turun lagi",
-    "contents": [
-      "Penguasa hari anda dan temperamen — ringkasan, kekuatan dan perhatian",
-      "Carta kelahiran anda — lapan watak dari empat tiang",
-      "Kekuatan lima elemen, kekuatan day master anda dan apa yang diperlukan",
-      "Hari ini punya nasib dan empat domain (wang, cinta, kerja, kesihatan)",
-      "Apa yang setiap tiang bermakna bagi anda — pembacaan ten gods dari carta anda",
-      "Kedudukan musim dan nisbah sekutu — nombor di sebalik keputusan",
-      "Pandangan tahun ini, faktor penilaian hari ini, dan pembetulan masa"
-    ],
-    "consentLabel": "Saya faham bahawa ini adalah kandungan digital yang dihantar serta-merta setelah pembayaran, dan bahawa **penarikan semula kerana perubahan fikiran yang sederhana adalah terhad setelah muat turun selesai**.",
-    "consentRequired": "Sila sahkan terma penarikan semula sebelum membayar.",
-    "productInfoTitle": "Maklumat produk",
-    "productInfo": [
-      [
-        "Penyedia",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Satu dokumen PDF (7 halaman A4), dimuat turun di skrin sejurus selepas pembayaran."
-      ],
-      [
-        "Keperluan",
-        "Sebarang peranti yang boleh membuka PDF. Tiada pemasangan atau akaun diperlukan."
-      ],
-      [
-        "Tempoh penggunaan",
-        "Tiada had. Anda menyimpan fail yang dimuat turun."
-      ],
-      [
-        "Muat turun semula",
-        "Sehingga lima kali untuk pesanan yang sama. Kami tidak menyimpan salinan, jadi ia tidak boleh dihasilkan semula setelah anda meninggalkan skrin hasil."
-      ],
-      [
-        "Penarikan balik",
-        "Pengembalian penuh sebelum muat turun bermula. Setelah selesai, penarikan balik kerana perubahan fikiran adalah terhad (Art. 17(2), Akta E-Dagang Korea)."
-      ],
-      [
-        "Kos pengembalian",
-        "Tiada — kandungan digital, tiada penghantaran."
-      ]
-    ],
-    "refundContact": "Untuk pengembalian atau pertanyaan, hubungi pusat pelanggan atau e-mel di bawah. Jika dokumen tidak dapat dihasilkan, atau jumlah yang dikenakan berbeza dari pesanan, kami akan mengembalikan sepenuhnya.",
-    "pdfLanguageNotice": "PDF dihasilkan dalam bahasa yang sama seperti skrin ini."
-  },
   "fallbackReport": {
     "summary": "Seorang {dayMaster} yang dilahirkan dalam tenaga {season}. Di seluruh carta, {strongest} paling tebal dan {scarcest} paling nipis. Segala yang berikut adalah berdasarkan lapan karakter tersebut — setiap nombor dan setiap tiang di sini dikira, bukan dipilih.",
     "personality": "Day master anda adalah {dayMaster} — tenaga {element} — dan carta ini dibaca sebagai {strengthName}. Sisi mana yang lebih tebal, apa yang menyokong day master atau apa yang menarik daripadanya, adalah apa yang membentuk bijirin, dan dalam kehidupan seharian ia muncul seperti ini.",

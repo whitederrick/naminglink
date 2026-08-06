@@ -12,9 +12,18 @@
 // 파일이 있는지가 아니라 **HTML에 링크가 있는지**를 센다. 화면을 여러 종류로 도는 것이 핵심이다
 // — 한 화면만 보면 그 화면이 쓰는 푸터만 보게 된다.
 //
-// 실행: dev 서버를 띄운 뒤
-//   node scripts/verify-reachable-links.mjs naminglink http://localhost:3099
-//   node scripts/verify-reachable-links.mjs inyeonlink http://localhost:3097
+// 실행: dev 서버를 띄운 뒤(포트는 각 앱 `package.json`의 `dev` 스크립트)
+//   node scripts/verify-reachable-links.mjs naminglink  http://localhost:3001
+//   node scripts/verify-reachable-links.mjs inyeonlink  http://localhost:3002
+//   node scripts/verify-reachable-links.mjs sajulink    http://localhost:3003
+//   node scripts/verify-reachable-links.mjs dreamslink  http://localhost:3004
+//
+// **앱 목록을 여기에 손으로 적지 않는다**(2026-08-07). 이 검사기는 인자로 앱을 받아
+// `verify-app-coverage`가 못 잡는 자리였고, 실제로 두 앱만 받은 채 남아 있었다. 지금은
+// `APP_KEYS`를 읽어 **표에 없는 앱이 있으면 실행 전에 실패한다** — 새 앱을 붙인 사람이
+// "이 검사기는 왜 안 도나"를 묻기 전에 검사기가 먼저 말한다.
+
+import { APP_KEYS } from "./app-keys.mjs";
 
 const TARGETS = {
   naminglink: {
@@ -44,12 +53,60 @@ const TARGETS = {
     },
     requiredPrefix: { "/ko/guide": "이용 안내" },
   },
+  sajulink: {
+    // 사주는 화면이 둘로 갈린다 — 평생 사주(`/reading`)와 오늘의 운세(`/today`). 결과 화면은
+    // 입력이 있어야 그려지므로 입력 화면까지만 본다.
+    pages: ["/ko", "/ko/reading", "/ko/today", "/ko/guide", "/ko/guide/yongsin", "/ko/notice"],
+    required: {
+      "/ko/about": "소개",
+      "/ko/contact": "문의하기",
+      "/ko/notice": "공지사항",
+    },
+    requiredPrefix: { "/ko/guide": "이용 안내" },
+  },
+  dreamslink: {
+    // **상징 페이지를 반드시 넣는다.** 이 앱은 색인 960개 중 대부분이 상징 사전이라, 거기에서
+    // 푸터가 안 그려지면 사이트의 거의 전부가 약관·안내에 닿지 않는 상태가 된다. 실제로
+    // `/dream`·`/dream/result`에 머리글·푸터가 통째로 없던 채 라이브에 나가 있었다(2026-08-06).
+    // `/dream/symbol/pig`은 **낱장 하나를 대표로** 넣은 것이다. 215장이 같은 템플릿이라
+    // 하나가 닿으면 전부 닿고, 목록(`/dream/symbols`)만 보면 정작 색인의 대부분인 낱장을
+    // 한 번도 안 열어 보게 된다.
+    pages: [
+      "/ko",
+      "/ko/dream",
+      "/ko/dream/symbols",
+      "/ko/dream/symbol/pig",
+      "/ko/guide",
+      "/ko/notice",
+    ],
+    required: {
+      "/ko/about": "소개",
+      "/ko/contact": "문의하기",
+      "/ko/notice": "공지사항",
+    },
+    requiredPrefix: { "/ko/guide": "이용 안내" },
+  },
 };
 
+/**
+ * **검사기가 자기 대상을 스스로 정하지 않게 한다.**
+ *
+ * 표에 없는 앱이 하나라도 있으면 아무것도 검사하지 않고 실패한다. 인자로 앱을 받는 검사기라
+ * `verify-app-coverage`가 못 잡는 자리이고, 그래서 이 파일이 두 앱만 받은 채로 오래 남아
+ * 있었다 — 사주·드림에 대해서는 "통과"가 아니라 **한 번도 돌지 않았다**는 뜻이었다.
+ */
+const missing = APP_KEYS.filter((key) => !TARGETS[key]);
+if (missing.length) {
+  console.log(`앱 ${missing.join(", ")}이(가) TARGETS에 없다 — 화면 목록을 적을 것.`);
+  console.log("빠진 앱은 통과한 것이 아니라 검사받지 않는다.");
+  process.exit(1);
+}
+
+const usage = `실행: node scripts/verify-reachable-links.mjs <${APP_KEYS.join("|")}> <baseUrl>`;
 const [app, baseUrl] = process.argv.slice(2);
 const target = TARGETS[app];
 if (!target || !baseUrl) {
-  console.log("실행: node scripts/verify-reachable-links.mjs <naminglink|inyeonlink> <baseUrl>");
+  console.log(usage);
   process.exit(1);
 }
 

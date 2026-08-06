@@ -482,62 +482,6 @@ export const es: Dictionary = {
     "refundContact": "Para reembolsos o consultas, ponte en contacto con el centro de atención al cliente o el correo de abajo. Si el documento no pudo generarse, o el importe cobrado difiere del pedido, reembolsamos el total.",
     "pdfLanguageNotice": "El PDF se genera en el mismo idioma que esta pantalla."
   },
-  "premiumReport": {
-    "title": "Mantén tu lectura premium como un PDF",
-    "body": "Todo en la lectura de la vida, además de **los números detrás de esto que nunca aparecen en pantalla** — la proporción de aliados que decidió fuerte o débil, cuánto empujó el mes de nacimiento a cada elemento, y la corrección de tiempo solar verdadero aplicada a tu hora de nacimiento.",
-    "buyButton": "Paga {price} y descarga",
-    "preparing": "No disponible aún",
-    "ordering": "Creando tu pedido…",
-    "paying": "Procesando el pago…",
-    "issuing": "Preparando tu informe…",
-    "done": "Descargado. Usa el botón de abajo para descargarlo de nuevo.",
-    "failed": "El pago o la descarga fallaron. Por favor, intenta de nuevo en un momento.",
-    "retry": "Descargar de nuevo",
-    "contents": [
-      "Tu día maestro y temperamento — un resumen, fortalezas y precauciones",
-      "Tu carta natal — los ocho caracteres de los cuatro pilares",
-      "Los cinco elementos, la fuerza de tu día maestro y lo que necesita",
-      "La fortuna de hoy y los cuatro dominios (dinero, amor, trabajo, salud)",
-      "Qué significa cada pilar para ti — los diez dioses leídos desde tu carta",
-      "Situación estacional y proporción de aliados — los números detrás del veredicto",
-      "Perspectiva de este año, factores de puntuación de hoy, y la corrección de tiempo"
-    ],
-    "consentLabel": "Entiendo que este es contenido digital entregado inmediatamente tras el pago, y que **la retirada por un simple cambio de opinión está restringida una vez que se completa la descarga**.",
-    "consentRequired": "Por favor, confirma los términos de retirada antes de pagar.",
-    "productInfoTitle": "Información del producto",
-    "productInfo": [
-      [
-        "Proveedor",
-        "{brand}"
-      ],
-      [
-        "Formato",
-        "Un documento PDF (7 páginas A4), descargado en pantalla justo después del pago."
-      ],
-      [
-        "Requisitos",
-        "Cualquier dispositivo que abra un PDF. No se necesita instalación ni cuenta."
-      ],
-      [
-        "Término de uso",
-        "Sin límite. Mantienes el archivo que descargas."
-      ],
-      [
-        "Re-descarga",
-        "Hasta cinco veces en el mismo pedido. No guardamos copia, por lo que no se puede producir de nuevo una vez que salgas de la pantalla de resultados."
-      ],
-      [
-        "Retirada",
-        "Reembolso completo antes de que comience la descarga. Después de completarla, la retirada por un cambio de opinión está restringida (Art. 17(2), Ley de Comercio Electrónico de Corea)."
-      ],
-      [
-        "Costos de devolución",
-        "Ninguno — contenido digital, no se envía nada."
-      ]
-    ],
-    "refundContact": "Para reembolsos o preguntas, contacta al centro de atención al cliente o envía un correo electrónico a continuación. Si el documento no pudo ser producido, o el monto cobrado difiere del pedido, reembolsamos completamente.",
-    "pdfLanguageNotice": "El PDF se produce en el mismo idioma que esta pantalla."
-  },
   "fallbackReport": {
     "summary": "Un {dayMaster} maestro del día nacido en la energía de {season}. A través de toda la carta, {strongest} corre más denso y {scarcest} corre más delgado. Todo lo que sigue a continuación proviene de esos ocho caracteres: cada número y cada pilar aquí están calculados, no elegidos.",
     "personality": "Tu maestro del día es {dayMaster} — energía de {element} — y esta carta se lee como {strengthName}. Qué lado corre más denso, lo que apoya al maestro del día o lo que se extrae de él, es lo que da forma al grano, y en la vida diaria se manifiesta así.",

@@ -482,62 +482,6 @@ export const fil: Dictionary = {
     "refundContact": "Para sa refund o katanungan, makipag-ugnayan sa customer service o sa email sa ibaba. Kung hindi nagawa ang dokumento, o iba ang siningil sa halagang nasa order, ibinabalik namin ang buong bayad.",
     "pdfLanguageNotice": "Ang PDF ay ginagawa sa parehong wika ng screen na ito."
   },
-  "premiumReport": {
-    "title": "Itago ang iyong premium na pagbabasa bilang PDF",
-    "body": "Lahat ng nasa pagbabasa ng buhay, kasama ang **mga numero sa likod nito na hindi kailanman lumalabas sa screen** — ang ratio ng kaalyado na nagpasya kung malakas o mahina, kung gaano kalayo ang itinulak ng buwan ng kapanganakan ang bawat elemento, at ang tunay na pagwawasto ng oras ng araw na inilapat sa iyong oras ng kapanganakan.",
-    "buyButton": "Magbayad ng {price} at i-download",
-    "preparing": "Hindi pa available",
-    "ordering": "Nagawa ang iyong order…",
-    "paying": "Pinoproseso ang pagbabayad…",
-    "issuing": "Inihahanda ang iyong ulat…",
-    "done": "Na-download. Gamitin ang button sa ibaba upang i-download muli ito.",
-    "failed": "Nabigo ang pagbabayad o pag-download. Mangyaring subukan muli sa isang sandali.",
-    "retry": "I-download muli",
-    "contents": [
-      "Ang iyong day master at temperamento — isang buod, mga lakas at mga pag-iingat",
-      "Ang iyong natal chart — ang walong karakter ng apat na haligi",
-      "Ang limang elemento, ang lakas ng iyong day master at kung ano ang kailangan nito",
-      "Ang kapalaran ngayon at ang apat na larangan (pera, pag-ibig, trabaho, kalusugan)",
-      "Ano ang bawat haligi para sa iyo — ang ten gods na nabasa mula sa iyong tsart",
-      "Pagsusuri ng seasonal at ratio ng kaalyado — ang mga numero sa likod ng hatol",
-      "Ang pananaw para sa taong ito, mga salik sa pag-score ngayon, at ang pagwawasto ng oras"
-    ],
-    "consentLabel": "Nauunawaan ko na ito ay digital na nilalaman na ibinibigay agad sa pagbabayad, at na **ang pag-atras para sa simpleng pagbabago ng isip ay limitado kapag natapos na ang pag-download**.",
-    "consentRequired": "Mangyaring kumpirmahin ang mga tuntunin ng pag-atras bago magbayad.",
-    "productInfoTitle": "Impormasyon tungkol sa produkto",
-    "productInfo": [
-      [
-        "Tagapagbigay",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Isang PDF na dokumento (7 A4 na pahina), na mada-download sa screen agad pagkatapos ng pagbabayad."
-      ],
-      [
-        "Mga Kinakailangan",
-        "Anumang device na makakapagbukas ng PDF. Walang kinakailangang installation o account."
-      ],
-      [
-        "Termino ng paggamit",
-        "Walang limitasyon. Ikaw ang mag-iingat ng file na iyong ida-download."
-      ],
-      [
-        "Muling pag-download",
-        "Hanggang limang beses sa parehong order. Wala kaming kopya, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
-      ],
-      [
-        "Pag-withdraw",
-        "Buong refund bago magsimula ang pag-download. Matapos itong makumpleto, ang pag-withdraw para sa pagbabago ng isip ay limitado (Art. 17(2), Batas sa E-Commerce ng Korea)."
-      ],
-      [
-        "Mga gastos sa pagbabalik",
-        "Wala — digital na nilalaman, walang ipinapadala."
-      ]
-    ],
-    "refundContact": "Para sa mga refund o katanungan, makipag-ugnayan sa customer center o sa email sa ibaba. Kung ang dokumento ay hindi maiproduce, o ang halagang sinisingil ay naiiba mula sa order, ibabalik namin ang buong halaga.",
-    "pdfLanguageNotice": "Ang PDF ay ginawa sa parehong wika ng screen na ito."
-  },
   "fallbackReport": {
     "summary": "Isang {dayMaster} na araw na isinilang sa enerhiya ng {season}. Sa buong tsart, ang {strongest} ay pinakamakapal at ang {scarcest} ay pinakamahinang. Lahat ng nasa ibaba ay nagmumula sa walong karakter na iyon — bawat numero at bawat haligi dito ay kinakalkula, hindi pinili.",
     "personality": "Ang iyong araw na master ay {dayMaster} — enerhiya ng {element} — at ang tsart na ito ay nagbabasa bilang {strengthName}. Aling panig ang mas makapal, kung ano ang sumusuporta sa araw na master o kung ano ang kumukuha mula dito, ay siyang humuhubog sa butil, at sa pang-araw-araw na buhay ay lumalabas ito sa ganitong paraan.",

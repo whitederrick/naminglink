@@ -482,62 +482,6 @@ export const pl: Dictionary = {
     "refundContact": "W sprawie zwrotów i pytań skontaktuj się z obsługą klienta albo napisz na adres poniżej. Jeśli dokument nie mógł powstać albo pobrana kwota różni się od zamówienia, zwracamy całość.",
     "pdfLanguageNotice": "PDF jest tworzony w tym samym języku co ten ekran."
   },
-  "premiumReport": {
-    "title": "Zachowaj swoje premium odczytanie jako PDF",
-    "body": "Wszystko w odczytaniu życia, plus **liczby, które nigdy nie pojawiają się na ekranie** — stosunek sojusznika, który decyduje o sile lub słabości, jak bardzo miesiąc urodzenia podniósł każdy element oraz korekta czasu słonecznego zastosowana do godziny urodzenia.",
-    "buyButton": "Zapłać {price} i pobierz",
-    "preparing": "Niedostępne jeszcze",
-    "ordering": "Tworzenie zamówienia…",
-    "paying": "Przetwarzanie płatności…",
-    "issuing": "Przygotowywanie raportu…",
-    "done": "Pobrano. Użyj przycisku poniżej, aby pobrać go ponownie.",
-    "failed": "Płatność lub pobieranie nie powiodło się. Proszę spróbować ponownie za chwilę.",
-    "retry": "Pobierz ponownie",
-    "contents": [
-      "Twój dzień mistrz i temperament — podsumowanie, mocne strony i uwagi",
-      "Twoja karta urodzenia — osiem znaków czterech filarów",
-      "Pięć elementów, siła twojego dnia mistrza i czego potrzebuje",
-      "Dzienna fortuna i cztery obszary (pieniądze, miłość, praca, zdrowie)",
-      "Co każdy filar oznacza dla ciebie — dziesięć bogów odczytanych z twojego wykresu",
-      "Sezonowa pozycja i stosunek sojuszników — liczby stojące za werdyktem",
-      "Prognoza na ten rok, czynniki oceny na dziś i korekta czasowa"
-    ],
-    "consentLabel": "Rozumiem, że jest to cyfrowa treść dostarczana natychmiast po dokonaniu płatności, i że **wycofanie z powodu zmiany zdania jest ograniczone po zakończeniu pobierania**.",
-    "consentRequired": "Proszę potwierdzić warunki wycofania przed dokonaniem płatności.",
-    "productInfoTitle": "Informacje o produkcie",
-    "productInfo": [
-      [
-        "Dostawca",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Jeden dokument PDF (7 stron A4), pobrany na ekranie bezpośrednio po dokonaniu płatności."
-      ],
-      [
-        "Wymagania",
-        "Każde urządzenie, które otwiera PDF. Nie jest wymagana instalacja ani konto."
-      ],
-      [
-        "Warunki użytkowania",
-        "Brak ograniczeń. Zachowujesz plik, który pobierasz."
-      ],
-      [
-        "Pobierz ponownie",
-        "Do pięciu razy w ramach tego samego zamówienia. Nie przechowujemy kopii, więc nie można go ponownie wygenerować po opuszczeniu ekranu wyników."
-      ],
-      [
-        "Wycofanie",
-        "Pełny zwrot przed rozpoczęciem pobierania. Po zakończeniu, wycofanie z powodu zmiany zdania jest ograniczone (art. 17(2), koreańska ustawa o handlu elektronicznym)."
-      ],
-      [
-        "Koszty zwrotu",
-        "Brak — treści cyfrowe, nic nie jest wysyłane."
-      ]
-    ],
-    "refundContact": "W przypadku zwrotów lub pytań skontaktuj się z centrum obsługi klienta lub poniższym adresem e-mail. Jeśli dokument nie mógł zostać wygenerowany lub kwota pobrana różni się od zamówienia, zwracamy pełną kwotę.",
-    "pdfLanguageNotice": "PDF jest generowany w tym samym języku, co ten ekran."
-  },
   "fallbackReport": {
     "summary": "To {dayMaster} dzień mistrza urodzony w energii {season}. W całym wykresie {strongest} jest najgrubszy, a {scarcest} jest najcieńszy. Wszystko poniżej wynika z tych ośmiu znaków — każda liczba i każdy filar są tutaj obliczone, a nie wybrane.",
     "personality": "Twój dzień mistrza to {dayMaster} — energia {element} — a ten wykres odczytuje się jako {strengthName}. Która strona jest grubsza, co wspiera dzień mistrza lub co z niego czerpie, kształtuje ziarno, a w codziennym życiu objawia się to w ten sposób.",

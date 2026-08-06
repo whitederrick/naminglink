@@ -482,62 +482,6 @@ export const id: Dictionary = {
     "refundContact": "Untuk pengembalian dana atau pertanyaan, hubungi layanan pelanggan atau email di bawah. Jika dokumen tidak dapat dibuat, atau jumlah yang ditagih berbeda dari pesanan, kami mengembalikan dana sepenuhnya.",
     "pdfLanguageNotice": "PDF dibuat dalam bahasa yang sama dengan layar ini."
   },
-  "premiumReport": {
-    "title": "Simpan bacaan premium Anda sebagai PDF",
-    "body": "Segala sesuatu dalam bacaan kehidupan, ditambah **angka-angka di baliknya yang tidak pernah muncul di layar** — rasio sekutu yang menentukan kuat atau lemah, seberapa jauh bulan kelahiran mendorong setiap elemen, dan koreksi waktu-solar-nyata yang diterapkan pada jam kelahiran Anda.",
-    "buyButton": "Bayar {price} dan unduh",
-    "preparing": "Belum tersedia",
-    "ordering": "Membuat pesanan Anda…",
-    "paying": "Memproses pembayaran…",
-    "issuing": "Mempersiapkan laporan Anda…",
-    "done": "Diunduh. Gunakan tombol di bawah untuk mengunduhnya lagi.",
-    "failed": "Pembayaran atau unduhan gagal. Silakan coba lagi dalam beberapa saat.",
-    "retry": "Unduh lagi",
-    "contents": [
-      "Penguasa hari Anda dan temperamen — ringkasan, kekuatan dan perhatian",
-      "Bagan kelahiran Anda — delapan karakter dari empat pilar",
-      "Lima elemen, kekuatan dari day master Anda dan apa yang dibutuhkannya",
-      "Ramalan hari ini dan empat domain (uang, cinta, pekerjaan, kesehatan)",
-      "Apa arti setiap pilar bagi Anda — pembacaan ten gods dari bagan Anda",
-      "Posisi musiman dan rasio sekutu — angka di balik keputusan",
-      "Proyeksi tahun ini, faktor penilaian hari ini, dan koreksi waktu"
-    ],
-    "consentLabel": "Saya mengerti bahwa ini adalah konten digital yang disampaikan segera setelah pembayaran, dan bahwa **penarikan untuk perubahan pikiran yang sederhana dibatasi setelah unduhan selesai**.",
-    "consentRequired": "Silakan konfirmasi syarat penarikan sebelum membayar.",
-    "productInfoTitle": "Informasi produk",
-    "productInfo": [
-      [
-        "Penyedia",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Satu dokumen PDF (7 halaman A4), diunduh di layar segera setelah pembayaran."
-      ],
-      [
-        "Persyaratan",
-        "Perangkat apa pun yang dapat membuka PDF. Tidak perlu instalasi atau akun."
-      ],
-      [
-        "Ketentuan penggunaan",
-        "Tidak ada batasan. Anda menyimpan file yang Anda unduh."
-      ],
-      [
-        "Unduh ulang",
-        "Hingga lima kali pada pesanan yang sama. Kami tidak menyimpan salinan, jadi tidak dapat diproduksi lagi setelah Anda meninggalkan layar hasil."
-      ],
-      [
-        "Penarikan",
-        "Pengembalian penuh sebelum unduhan dimulai. Setelah selesai, penarikan karena perubahan pikiran dibatasi (Pasal 17(2), Undang-Undang E-Commerce Korea)."
-      ],
-      [
-        "Biaya pengembalian",
-        "Tidak ada — konten digital, tidak ada yang dikirim."
-      ]
-    ],
-    "refundContact": "Untuk pengembalian dana atau pertanyaan, hubungi pusat layanan pelanggan atau email di bawah. Jika dokumen tidak dapat diproduksi, atau jumlah yang dibebankan berbeda dari pesanan, kami mengembalikan sepenuhnya.",
-    "pdfLanguageNotice": "PDF diproduksi dalam bahasa yang sama dengan layar ini."
-  },
   "fallbackReport": {
     "summary": "Seorang {dayMaster} yang lahir dalam energi {season}. Di seluruh bagan, {strongest} mengalir paling tebal dan {scarcest} mengalir paling tipis. Segala sesuatu di bawah ini mengikuti dari delapan karakter tersebut — setiap angka dan setiap pilar di sini dihitung, bukan dipilih.",
     "personality": "Day master Anda adalah {dayMaster} — energi {element} — dan bagan ini terbaca sebagai {strengthName}. Sisi mana yang lebih tebal, yang mendukung day master atau yang menarik darinya, adalah yang membentuk butirannya, dan dalam kehidupan sehari-hari ini muncul seperti ini.",

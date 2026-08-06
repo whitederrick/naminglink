@@ -50,7 +50,7 @@ export default async function ResultPage({
       />
 
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/compatibility/result" />
+        <PageHeader locale={locale} path="/compatibility/result" width="max-w-2xl" />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <PageTitle

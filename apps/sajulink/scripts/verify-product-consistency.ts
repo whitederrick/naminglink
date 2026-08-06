@@ -38,8 +38,9 @@ function check(label: string, ok: boolean, detail?: string) {
 // 이 목록이 늘어나 검사 범위도 함께 늘어난다.
 for (const locale of translatedLocales) {
   const dictionary = getDictionary(locale);
-  // `premiumReport`는 상품이 하나로 합쳐지며(2026-08-05) 쓰이지 않는다. 사전에는 아직 남아
-  // 있으나 ⑦에서 로케일을 다시 쓸 때 함께 지운다 — 지금 검사하면 팔지 않는 상품의 고시를 센다.
+  // **파는 상품이 하나라 도는 것도 하나다.** 옛 `premiumReport` 절은 2026-08-07에 23로케일에서
+  // 지웠다 — 그때까지는 아무도 읽지 않는 문안이 남아 있어 이 자리에 "지금 검사하면 팔지 않는
+  // 상품의 고시를 센다"는 예외가 필요했다. 절을 지웠으니 예외도 없앤다.
   for (const [key, copy] of [["report", dictionary.report]] as const) {
     // **목차 줄 수가 아니라 선언된 장수와 대조한다.** 예전에는 `contents.length`를 썼는데,
     // 그 둘이 우연히 같던 동안만 맞았다 — 목차를 한 줄 늘리는 순간 고시가 틀렸다고 잡힌다.

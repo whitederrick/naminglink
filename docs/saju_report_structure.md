@@ -1,49 +1,114 @@
-# 사주 리포트 페이지 구조안 (⑤ PDF 다장 확장)
+# 사주 리포트 구조 — 「평생 사주와 올해의 운세 리포트」 9장
 
-작성 2026-08-04 · 기준: inyeon `compatibility-report.tsx`(7장, 2인)를 품질 바로 삼되 **1인용만 이식** + 사주 고유 추가. 원칙: **화면보다 더 주는 것(`PAID_ONLY_READING_FIELDS`)만 리포트에** — 무료와 겹치면 살 이유가 없다.
+_재작성 2026-08-07 · 이 문서는 **실제로 나가는 문서를 서술한다.** 계획서가 아니다._
 
----
-
-## 0. inyeon에서 그대로 가져오는 것 (1인이라 이식 가능)
-- **컴포넌트**: `PillarGrid`(네 기둥 여덟 글자), `ElementBars`(오행 누적막대+범례+%), `DepthCard`(왕상휴수사 표: raw/strength/vitality + allyRatio), `CalculationCard`(진태양시·음양력), `Section`(제목+내용 `wrap={false}`), `Footer`(fixed, disclaimer+engineVersion+date), `brandRow`, `PALETTE`/`ELEMENT_COLOR`, `VitalityLegend`.
-- **버리는 것(2인 전용)**: `RelationSection`, `SupplyCell`, `StemGodTable(aSeesB/bSeesA)`, `PersonSection ×2`. → saju는 `outcome.people[0]` 하나만.
-- **데이터**: `PersonReading`(pillars·elements·rawElements·bodyStrength·favorableElements·allyRatio·vitality·dayMaster·timeCorrection·convertedDate) + `TodayFortune`(score·grade·categories·lucky·factors·todayPillar) + `SajuInterpretation`(GPT: summary·personality·element_balance·strengths·cautions·domains·today·year_outlook·disclaimer).
+> **옛 문서를 버린 이유.** 2026-08-04판은 「총운 3장 ₩4,900 / 프리미엄 5~6장 ₩9,900」을
+> 적고 있었다. 2026-08-05 개편으로 **상품은 하나**가 됐고 장수도 값도 전부 달라졌는데,
+> 문서만 옛 계획 그대로 남아 있었다. 팔지 않는 상품의 구조안을 읽고 작업하면 없는 장을
+> 고치게 된다. 아래는 코드에서 확인한 값이다.
 
 ---
 
-## 1. 총운 (chongun · ₩4,900/US$4.99) — 3장
-| 장 | 섹션 | 소스 |
-|---|---|---|
-| **P1 표지·요약** | brandRow + 일간/원국 한 줄 요약 + `summary`·`personality`(GPT) + `strengths`/`cautions` + **미저장(프라이버시) 안내** | interpretation + reading.dayMaster |
-| **P2 나의 원국·오행** | `PillarGrid`(여덟 글자) + `ElementBars`(오행 세력 %) + 강약·필요기운(`bodyStrength`+`favorableElements`) + `element_balance`(GPT) | reading |
-| **P3 오늘의 운세 + 삶의 영역** | `today`(등급·점수·카테고리 4·행운요소 색/방위/시간) + today 해설(headline/message/advice) + `domains` **요약**(재물·연애·직업·건강) + 계산근거 축약(진태양시 1줄) | today + interpretation |
+## 0. 한 장으로 보는 사실
 
-## 2. 프리미엄 (premium · ₩9,900/US$9.99) — 총운 3장 + 심화 (목표 5~6장)
-P1~P3 동일(단 `domains`는 **상세**). 이어서:
-| 장 | 섹션 | 소스 |
-|---|---|---|
-| **P4 십신 — 내 사주 안의 기운** | 원국 천간·지지의 십신(비견~정인) 표 + 각 십신 해설(`tenGods` 1인판, ④에서 이미 "내 안의 기운"으로 재작성) | reading + tenGods dict |
-| **P5 심화(왕상휴수사)** | `DepthCard`(1인) — raw/strength/vitality 표 + `allyRatio`(신강·신약 근거 숫자) + `VitalityLegend` | reading |
-| **P6 대운·세운·올해 총운 + 부록** | `year_outlook`(GPT) + [대운/세운 — §3 플래그] + `CalculationCard`(진태양시·음양력) + 오늘 근거 `factors`(프리미엄만) | interpretation + reading |
+| | |
+|---|---|
+| 상품 | **「평생 사주와 올해의 운세 리포트」 하나** — 코드는 권역별로 둘(`SAJU_REPORT_KRW`·`SAJU_REPORT_USD`) |
+| 값 | ₩990 / US$1.99 — 금액의 원본은 `product_settings`(DB), 코드의 `SEEDED_PRICE`는 폴백만 |
+| 장수 | **9장** — `src/lib/report-pages.ts`의 `REPORT_PAGE_COUNT` **하나**가 정한다 |
+| 렌더러 | `src/lib/pdf/saju-report.tsx` |
+| 글의 출처 | **엔진 템플릿이 본편**, AI는 `MUTABLE_FIELDS`(= `summary` 한 문단)만 |
+| 로케일 | 23개 전부. 사전은 `src/lib/i18n-locales/` |
 
-> 정확한 장수는 **콘텐츠가 정한다** — 렌더 확정 후 실제 장수로 약관을 쓴다(§4).
+**장수를 바꾸는 순서는 `report-pages.ts` 주석에 있다**(Page 더하기 → 상수 → 견본 렌더 →
+고시). 여기서 되풀이하지 않는다 — 두 곳에 적으면 한쪽이 낡는다. 이 문서가 그렇게 낡았다.
 
 ---
 
-## 3. ⚠️ 플래그: "대운·세운"은 엔진 확인 필요
-`report-product.ts`는 프리미엄에 **"대운·세운"**을 적었는데, inyeon `PersonReading`엔 대운/세운(운 기둥) 필드가 **없다**(pillars·elements·vitality·allyRatio·timeCorrection·convertedDate만). 즉 엔진이 대운/세운을 아직 안 낼 가능성이 큼. → **먼저 확인**하고:
-- (a) 엔진에 대운(10년 주기) 산출 추가 — 중간 규모 작업.
-- (b) 프리미엄 심화를 **왕상휴수사 + 십신 + year_outlook + factors**로 채우고, **약관·상품 설명에서 '대운·세운'을 실제 제공물로 교체**(고시=실제 원칙, ⑥에서). → 런칭 빠름, 권장.
-어느 쪽이든 **약관에 없는 것을 적지 않는다**가 원칙.
+## 1. 아홉 장
+
+앞 여덟 장이 **평생**이고 마지막 한 장이 **올해**다. 상품 이름의 두 토막이 그대로 구조다.
+
+| 장 | 무엇 | 그리는 것 | 출처 |
+|---|---|---|---|
+| 1 | 표지·요약 | 일간 카드 + `summary` + 개인정보 안내 | AI 한 문단 + 사전 |
+| 2 | 성향 | `personality` + 강점 줄 + 눈여겨볼 점 | 엔진 서술 |
+| 3 | 원국·오행 | `PillarGrid`(여덟 글자) · `ElementBars` · 가장 두터운/얇은 기운 · `element_balance` | 엔진 |
+| **4** | **일간의 강약과 지금 필요한 기운** | 강약 판정 카드 + 용신 문단(`yongsin`) | 엔진 |
+| 5 | 계절의 자리와 십신 표 | `DepthTable`(왕상휴수사) + `VitalityLegend` + `StemGodTable` | 엔진 |
+| 6 | 십신 심화 | 원국에서 **두터운 둘 + 아예 없는 둘**(최대 넷) | 엔진 |
+| 7 | 삶의 네 영역 | 재물·애정·직업·건강 — **원국 기준 점수**와 문단 | `natal-outlook.ts` |
+| 8 | 근거와 부록 | `NatalFactorTable`(점수의 항목별 가감) + `CalculationCard`(진태양시·음양력) | 엔진 |
+| 9 | 올해 총운 | `year_outlook` + 고지 | 엔진 |
+
+**4장이 경계다.** 무료 화면은 원국·일간·오행까지만 보여 주고, 강약 판정과 용신은 화면이
+안 그리는 것이 아니라 **응답에서부터 빠져 있다**(`publicReading`). 유료 문서에서 처음
+나오는 것이 여기서 시작된다.
+
+**7장은 원국 기준이지 오늘이 아니다.** 예전에는 이 넉 장이 **오늘 십신**으로 매긴 값이면서
+"내 사주의 성향"으로 읽혔다. 하루짜리 값을 평생 보관하는 문서에 넣던 것이라 ①에서
+`natal-outlook.ts`로 갈았다. 오늘의 운세는 **이 문서에 없다** — 무료 화면 `/today/result`
+전용이다.
 
 ---
 
-## 4. 고시/약관 순서 (⑥와의 계약)
-- 페이지 수·목차는 **PDF가 실제로 렌더하는 장수로** 쓴다. 절대 약관에 장수를 먼저 박지 말 것(#8 `verify-product-consistency`가 목차=장수 대조).
-- 순서: **⑤에서 이 구조로 렌더 확정 → 실제 장수·목차 확인 → ⑥ 약관을 그 값으로 작성.**
+## 2. 장수는 구조가 정한다 — 분량이 아니라
 
-## 5. 페이지네이션 규칙 (inyeon이 실측으로 배운 것 — 그대로 지킬 것)
-- `Footer`는 매 장 `fixed`, disclaimer 항상 포함. `paddingBottom: 78`(2줄 고지 언어 대비 — 이탈리아어에서 겹침 이력).
-- 한자·큰 글자(점수 52pt 등)엔 **`lineHeight` 명시**(생략 시 다음 요소가 겹침). 간지는 `MixedText`(라틴·한글 서체엔 한자 글리프 없음).
-- `Section`은 제목+내용 `wrap={false}`로 붙임. **긴 표는 카드 통째 `wrap={false}` 금지** → 행 단위 `wrap={false}` + `minPresenceAhead`(마지막 행 여백만 다음 장 넘어가는 것 방지).
-- 무료 화면과 겹치지 않게 `PAID_ONLY` 값만 리포트에(현 saju-report의 isPremium 분기 패턴 유지·확장).
+옛 5장·7장은 **선언된 `Page` 수가 아니라 글이 넘쳐서** 나오던 값이었다. 폴백 문안에서
+중복 문장 하나를 빼자 4장·6장으로 떨어졌고 — **고시가 조용히 거짓이 됐다.**
+
+지금은 두 방향에서 잡는다:
+
+- **바닥** = 선언된 `<Page>` 아홉. 해설이 통째로 실패해도 엔진 서술이 같은 자리를 채운다
+  (`fallbackReport`). 올해 간지를 못 읽으면 문단 대신 `yearOutlookUnavailable` 한 줄이
+  들어가고 **장은 남는다**
+- **천장** = `saju-interpretation.ts`의 `LIMITS`. 글자 수 상한이다
+
+⚠️ **글자 수 상한은 지면이 아니다.** 라틴 451자와 한글 451자는 두 배 넘게 다르다. 상한은
+사전이 소리 없이 자라지 않게 하는 신호이고, **지면은 로케일마다 실제로 렌더해 세는 것**이
+정한다:
+
+```
+apps/sajulink> ../naminglink/node_modules/.bin/tsx scripts/render-saju-sample.tsx
+```
+
+가장 예민한 자리는 7장이다. 네 카드가 각각 `wrap={false}`라 이 장은 "넷을 합한 길이"가
+아니라 **"넷 중 가장 긴 것 × 4"**가 들어갈 자리를 요구한다(`LIMITS.domain`).
+
+---
+
+## 3. AI는 한 문단뿐 — `MUTABLE_FIELDS`
+
+`MUTABLE_FIELDS = ["summary"]`. 목록 밖의 필드는 **모델이 무엇을 보내오든 버린다** —
+지키는 자리를 프롬프트가 아니라 `applyMutableFields`가 정한다.
+
+**왜 좁혔나.** 1회 구매·평생 보관·재발급 5회 상품에서 이용자가 읽는 글이 사실상 전부
+가변이면, "매번 바뀌지 않게" 하라는 요구가 해결된 것이 아니라 면책된 것이 된다. 더 큰
+이유는 **검증**이다 — 이 영역은 과장·단정이 정책 위반인데, 매번 새로 쓰는 글은 매번 새로
+위반할 수 있고 23로케일을 사람이 다 읽어 볼 수 없다. **템플릿은 한 번 검토하면 끝난다.**
+
+같은 목록을 **코드·검사기·고지 셋이 함께 본다**(`verify-report-determinism.ts`).
+
+---
+
+## 4. 지면 규칙 (실측으로 배운 것 — 그대로 지킬 것)
+
+- `Footer`는 매 장 `fixed`, 고지 항상 포함. `paddingBottom`은 두 줄로 접히는 언어 기준
+- 한자·큰 글자에는 **`lineHeight` 명시**(생략하면 다음 요소가 겹친다). 간지는 `MixedText`
+  — 라틴·한글 서체에 한자 글리프가 없다
+- `Section`은 제목+내용을 `wrap={false}`로 붙인다. **긴 표는 카드 통째 `wrap={false}` 금지**
+  → 행 단위 `wrap={false}` + `minPresenceAhead`
+- **4장에 표를 더 얹지 말 것.** 왕상휴수사 표까지 넣었더니 라틴 로케일에서 범례 한 줄이
+  넘쳐 **범례만 있는 장**이 생겼다. 그래서 표는 5장에 있다
+- **5장과 6장을 합치지 말 것.** 십신 심화 넷이 한 장을 거의 채운다. 표와 같은 장에 두면
+  마지막 문단이 다음 장으로 밀린다
+- 무료 화면과 겹치는 값은 넣지 않는다 — 겹치면 살 이유가 없다(`PAID_ONLY_READING_FIELDS`)
+
+## 5. 이 문서를 고쳐야 하는 때
+
+- `saju-report.tsx`에서 `<Page>`를 더하거나 뺐을 때 (§1 표와 `REPORT_PAGE_COUNT`)
+- 상품이 늘거나 값이 바뀌었을 때 (§0)
+- `MUTABLE_FIELDS`가 바뀌었을 때 (§3) — 이때는 약관 고지도 함께다
+
+**검사기가 잡아 주지 않는 유일한 자리가 이 문서다.** 코드는 `verify-product-consistency`가
+고시와 대조하고, 장수는 견본 렌더가 센다. 문서는 사람이 고친다 — 그래서 낡았었다.

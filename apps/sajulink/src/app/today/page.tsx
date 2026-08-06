@@ -48,7 +48,7 @@ export default async function TodayPage({
 
   return (
     <main className="relative min-h-screen bg-background">
-      <PageHeader locale={locale} path="/today" />
+      <PageHeader locale={locale} path="/today" width="max-w-2xl" />
       <div className="mx-auto w-full max-w-2xl px-6 pb-16">
         <section className="mt-10">
           <PageTitle title={dictionary.form.title} locale={locale} path="/today" />

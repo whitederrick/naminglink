@@ -482,62 +482,6 @@ export const it: Dictionary = {
     "refundContact": "Per rimborsi o domande, contatta il servizio clienti o l'indirizzo email indicato qui sotto. Se il documento non è stato prodotto, o se l'importo addebitato differisce dall'ordine, rimborsiamo per intero.",
     "pdfLanguageNotice": "Il PDF viene prodotto nella stessa lingua di questa schermata."
   },
-  "premiumReport": {
-    "title": "Conserva la tua lettura premium come PDF",
-    "body": "Tutto nella lettura della vita, più **i numeri dietro di essa che non appaiono mai sullo schermo** — il rapporto degli alleati che ha deciso se forte o debole, quanto il mese di nascita ha spinto ogni elemento verso l'alto, e la correzione del tempo solare applicata alla tua ora di nascita.",
-    "buyButton": "Paga {price} e scarica",
-    "preparing": "Non disponibile ancora",
-    "ordering": "Creando il tuo ordine…",
-    "paying": "Elaborando il pagamento…",
-    "issuing": "Preparando il tuo rapporto…",
-    "done": "Scaricato. Usa il pulsante qui sotto per scaricarlo di nuovo.",
-    "failed": "Il pagamento o il download non sono riusciti. Riprova tra un momento.",
-    "retry": "Scarica di nuovo",
-    "contents": [
-      "Il tuo giorno maestro e temperamento — un riepilogo, punti di forza e avvertenze",
-      "Il tuo grafico natale — gli otto caratteri dei quattro pilastri",
-      "I cinque elementi, la forza del tuo giorno maestro e ciò di cui ha bisogno",
-      "La fortuna di oggi e i quattro domini (denaro, amore, lavoro, salute)",
-      "Cosa rappresenta ogni pilastro per te — i dieci dei letti dal tuo grafico",
-      "Posizione stagionale e rapporto degli alleati — i numeri dietro il verdetto",
-      "Prospettive di quest'anno, fattori di punteggio di oggi e la correzione temporale"
-    ],
-    "consentLabel": "Comprendo che questo è contenuto digitale fornito immediatamente al pagamento, e che **il recesso per un semplice cambio di idea è limitato una volta completato il download**.",
-    "consentRequired": "Si prega di confermare i termini di recesso prima di pagare.",
-    "productInfoTitle": "Informazioni sul prodotto",
-    "productInfo": [
-      [
-        "Fornitore",
-        "{brand}"
-      ],
-      [
-        "Formato",
-        "Un documento PDF (7 pagine A4), scaricato sullo schermo subito dopo il pagamento."
-      ],
-      [
-        "Requisiti",
-        "Qualsiasi dispositivo che apre un PDF. Nessuna installazione o account necessario."
-      ],
-      [
-        "Termine di utilizzo",
-        "Nessun limite. Conservi il file che scarica."
-      ],
-      [
-        "Riscatto",
-        "Fino a cinque volte con lo stesso ordine. Non conserviamo copie, quindi non può essere prodotto di nuovo una volta che lasci la schermata dei risultati."
-      ],
-      [
-        "Recesso",
-        "Rimborso completo prima dell'inizio del download. Dopo il completamento, il recesso per un cambio di idea è limitato (Art. 17(2), Legge sul commercio elettronico coreano)."
-      ],
-      [
-        "Costi di restituzione",
-        "Nessuno — contenuto digitale, nulla viene spedito."
-      ]
-    ],
-    "refundContact": "Per rimborsi o domande, contatta il centro assistenza clienti o l'email qui sotto. Se il documento non può essere prodotto, o l'importo addebitato differisce dall'ordine, rimborseremo completamente.",
-    "pdfLanguageNotice": "Il PDF è prodotto nella stessa lingua di questo schermo."
-  },
   "fallbackReport": {
     "summary": "Un {dayMaster} giorno maestro nato nell'energia di {season}. In tutto il grafico, {strongest} è il più spesso e {scarcest} è il più sottile. Tutto ciò che segue deriva da questi otto caratteri — ogni numero e ogni pilastro qui è calcolato, non scelto.",
     "personality": "Il tuo giorno maestro è {dayMaster} — energia {element} — e questo grafico si legge come {strengthName}. Quale lato è più spesso, ciò che supporta il giorno maestro o ciò che ne trae vantaggio, è ciò che forma il carattere, e nella vita quotidiana si manifesta in questo modo.",

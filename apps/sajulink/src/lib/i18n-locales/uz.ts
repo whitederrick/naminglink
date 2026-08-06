@@ -482,62 +482,6 @@ export const uz: Dictionary = {
     "refundContact": "Pulni qaytarish yoki savollar uchun quyidagi mijozlar markazi yoki elektron pochtaga murojaat qiling. Hujjat yaratilmagan bo'lsa yoki yechib olingan summa buyurtmadan farq qilsa, to'liq qaytaramiz.",
     "pdfLanguageNotice": "PDF shu ekran bilan bir xil tilda tayyorlanadi."
   },
-  "premiumReport": {
-    "title": "Premium o'qishingizni PDF sifatida saqlang",
-    "body": "Hayot o'qishidagi hamma narsa, shuningdek **ekranda hech qachon ko'rinmaydigan raqamlar** — kuchli yoki zaifni belgilovchi do'stlar nisbati, tug'ilgan oy har bir elementni qanchalik ko'targani va tug'ilish soatingizga qo'llanilgan haqiqiy quyosh vaqti tuzatish.",
-    "buyButton": "{price} to'lang va yuklab oling",
-    "preparing": "Hali mavjud emas",
-    "ordering": "Buyurtmangizni tayyorlash…",
-    "paying": "To'lovni qayta ishlash…",
-    "issuing": "Hisobotni tayyorlash…",
-    "done": "Yuklab olindi. Uni yana yuklab olish uchun quyidagi tugmani ishlating.",
-    "failed": "To'lov yoki yuklab olish muvaffaqiyatsiz bo'ldi. Iltimos, bir ozdan keyin qayta urinib ko'ring.",
-    "retry": "Yana yuklab olish",
-    "contents": [
-      "Sizning kun ustingiz va temperamentingiz — qisqacha, kuchlar va ehtiyot bo'lish kerak bo'lgan jihatlar",
-      "Sajuningiz — to'rt ustunning sakkiz belgisi",
-      "Besh element, sizning kun ustingizning kuchi va uning nima kerakligi",
-      "Bugungi taqdir va to'rt soha (pul, sevgi, ish, salomatlik)",
-      "Har bir ustun siz uchun nima — sizning chartingizdan o'qilgan o'n xudo",
-      "Mavsumiy holat va ittifoqchilik nisbati — hukmning orqasidagi raqamlar",
-      "Bu yilning ko'rinishi, bugungi ballarni hisoblash omillari va vaqtni tuzatish"
-    ],
-    "consentLabel": "Men bu raqamli kontent to'lovdan so'ng darhol taqdim etilishini tushunaman va **yuklab olish tugagandan so'ng oddiy fikr o'zgartirish uchun qaytarish cheklanganligini** tasdiqlayman.",
-    "consentRequired": "To'lovdan oldin qaytarish shartlarini tasdiqlang.",
-    "productInfoTitle": "Mahsulot haqida ma'lumot",
-    "productInfo": [
-      [
-        "Ta'minotchisi",
-        "{brand}"
-      ],
-      [
-        "Format",
-        "Bitta PDF hujjati (7 A4 sahifa), to'lovdan so'ng darhol ekranda yuklab olinadi."
-      ],
-      [
-        "Talablar",
-        "PDF ni ochadigan har qanday qurilma. O'rnatish yoki hisob yaratish shart emas."
-      ],
-      [
-        "Foydalanish muddati",
-        "Cheklov yo'q. Yuklab olingan faylni siz saqlaysiz."
-      ],
-      [
-        "Qayta yuklab olish",
-        "Bir xil buyurtma bo'yicha besh marta. Biz faylni saqlamaymiz, shuning uchun natija ekranidan chiqib ketgandan so'ng, uni qayta yaratish mumkin emas."
-      ],
-      [
-        "Qaytarish",
-        "Yuklab olish boshlanishidan oldin to'liq qaytarish. Tugallangandan so'ng, fikrni o'zgartirish uchun qaytarish cheklangan (Qonun 17(2), Janubiy Koreya Elektron tijorat qonuni)."
-      ],
-      [
-        "Qaytarish xarajatlari",
-        "Yo'q — raqamli kontent, hech narsa jo'natilmaydi."
-      ]
-    ],
-    "refundContact": "Qaytarish yoki savollar uchun, quyidagi mijozlar markaziga yoki elektron pochta orqali murojaat qiling. Hujjat tayyorlanmasa yoki to'langan summa buyurtmadan farq qilsa, to'liq qaytaramiz.",
-    "pdfLanguageNotice": "PDF ushbu ekran bilan bir xil tilda tayyorlanadi."
-  },
   "fallbackReport": {
     "summary": "{season} energiyasida tug'ilgan {dayMaster} kun ustuni. Butun xaritada {strongest} eng qalin va {scarcest} eng ingichka. Quyidagi hamma narsa ushbu sakkiz belgi asosida kelib chiqadi — bu yerda har bir raqam va har bir ustun hisoblangan, tanlanmagan.",
     "personality": "Sizning kun ustuningiz {dayMaster} — {element} energiyasi — va bu xarita {strengthName} sifatida o'qiladi. Qaysi tomoni qalinroq, kun ustunini qo'llab-quvvatlaydigan yoki undan tortib oladigan energiya, bu donni shakllantiradi va kundalik hayotda bu quyidagicha namoyon bo'ladi.",

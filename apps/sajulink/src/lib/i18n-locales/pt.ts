@@ -482,62 +482,6 @@ export const pt: Dictionary = {
     "refundContact": "Para reembolsos ou dúvidas, fale com o atendimento ao cliente ou use o e-mail abaixo. Se o documento não pôde ser gerado, ou se o valor cobrado for diferente do pedido, reembolsamos integralmente.",
     "pdfLanguageNotice": "O PDF é gerado no mesmo idioma desta tela."
   },
-  "premiumReport": {
-    "title": "Mantenha sua leitura premium como um PDF",
-    "body": "Tudo na leitura da vida, além de **números que nunca aparecem na tela** — a proporção de aliados que decidiu se é forte ou fraco, quão longe o mês de nascimento empurrou cada elemento para cima, e a correção do tempo solar verdadeiro aplicada à sua hora de nascimento.",
-    "buyButton": "Pague {price} e baixe",
-    "preparing": "Ainda não disponível",
-    "ordering": "Criando seu pedido…",
-    "paying": "Processando pagamento…",
-    "issuing": "Preparando seu relatório…",
-    "done": "Baixado. Use o botão abaixo para baixá-lo novamente.",
-    "failed": "O pagamento ou download falhou. Por favor, tente novamente em um momento.",
-    "retry": "Baixar novamente",
-    "contents": [
-      "Seu dia mestre e temperamento — um resumo, pontos fortes e precauções",
-      "Seu gráfico natal — os oito caracteres dos quatro pilares",
-      "Os cinco elementos, a força do seu dia mestre e o que ele precisa",
-      "A sorte de hoje e os quatro domínios (dinheiro, amor, trabalho, saúde)",
-      "O que cada pilar é para você — os dez deuses lidos a partir do seu gráfico",
-      "Posição sazonal e proporção de aliados — os números por trás do veredicto",
-      "Perspectiva deste ano, fatores de pontuação de hoje e a correção de tempo"
-    ],
-    "consentLabel": "Entendo que este é um conteúdo digital entregue imediatamente após o pagamento, e que **a retirada por uma simples mudança de ideia é restrita uma vez que o download é concluído**.",
-    "consentRequired": "Por favor, confirme os termos de retirada antes de pagar.",
-    "productInfoTitle": "Informações do produto",
-    "productInfo": [
-      [
-        "Fornecedor",
-        "{brand}"
-      ],
-      [
-        "Formato",
-        "Um documento PDF (7 páginas A4), baixado na tela logo após o pagamento."
-      ],
-      [
-        "Requisitos",
-        "Qualquer dispositivo que abra um PDF. Nenhuma instalação ou conta necessária."
-      ],
-      [
-        "Termo de uso",
-        "Sem limite. Você mantém o arquivo que baixa."
-      ],
-      [
-        "Re-download",
-        "Até cinco vezes no mesmo pedido. Não mantemos cópia, então não pode ser produzido novamente uma vez que você saia da tela de resultados."
-      ],
-      [
-        "Retirada",
-        "Reembolso total antes do início do download. Após a conclusão, a retirada por mudança de ideia é restrita (Art. 17(2), Lei de Comércio Eletrônico da Coreia)."
-      ],
-      [
-        "Custos de devolução",
-        "Nenhum — conteúdo digital, nada é enviado."
-      ]
-    ],
-    "refundContact": "Para reembolsos ou perguntas, entre em contato com o centro de atendimento ao cliente ou e-mail abaixo. Se o documento não puder ser produzido, ou o valor cobrado diferir do pedido, reembolsamos integralmente.",
-    "pdfLanguageNotice": "O documento PDF é produzido no mesmo idioma que esta tela."
-  },
   "fallbackReport": {
     "summary": "Um {dayMaster} dia mestre nascido na energia de {season}. Em todo o gráfico, {strongest} é o mais espesso e {scarcest} é o mais fino. Tudo abaixo segue a partir desses oito caracteres — cada número e cada pilar aqui é calculado, não escolhido.",
     "personality": "Seu dia mestre é {dayMaster} — energia {element} — e este gráfico é lido como {strengthName}. Qual lado é mais espesso, o que apoia o dia mestre ou o que dele se retira, é o que molda o caráter, e na vida diária isso se manifesta assim.",
