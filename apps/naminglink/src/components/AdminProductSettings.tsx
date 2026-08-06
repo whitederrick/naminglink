@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-import { appForProductCode, type AppKey } from "@naminglink/core/apps";
+import { appForProductCode, appLabel, type AppKey } from "@naminglink/core/apps";
 
 import { AdminShell } from "@/components/AdminOperationsConsole";
 import { PageHeader, Table } from "@/components/admin-ui";
@@ -12,18 +12,32 @@ import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 // 상품 설정 화면: 가격·통화·서체 적용 수·노출을 조정한다(변경 이력 자동 기록).
 // 가격 변경 시 요금안내·약관 문서의 표기 금액도 함께 갱신해야 한다.
 
+/**
+ * 배지 색. **이름은 `appLabel()`이 정한다** — 여기는 색만 고른다.
+ *
+ * 예전에는 이 배지가 이분법이었다(`인연링크가 아니면 전부 네이밍링크`). 그래서 **사주 상품에
+ * 네이밍링크 배지가 붙었다**(2026-08-06). 모르는 앱은 중립색으로 떨어뜨린다 — 남의 서비스
+ * 색을 입히는 것보다 낫다.
+ */
+// **이 앱에 실제로 있는 토큰만 쓴다**(`globals.css`: teal·rose·amber). 예전 값은
+// `brand-plum`이었는데 그런 토큰이 없어서 **인연링크 배지가 여태 색 없이 나오고 있었다** —
+// 없는 클래스는 조용히 아무 일도 하지 않는다.
+const BADGE_TONE: Record<AppKey, string> = {
+  naminglink: "bg-brand-teal/12 text-brand-teal",
+  inyeonlink: "bg-brand-rose/12 text-brand-rose",
+  sajulink: "bg-brand-amber/12 text-brand-amber",
+};
+
 function ServiceBadge({ code }: { code: string }) {
-  const isInyeon = appForProductCode(code) === "inyeonlink";
+  const app = appForProductCode(code);
 
   return (
     <span
       className={`mr-1.5 inline-block rounded px-1.5 py-0.5 align-middle text-[11px] font-semibold ${
-        isInyeon
-          ? "bg-brand-plum/12 text-brand-plum"
-          : "bg-brand-teal/12 text-brand-teal"
+        BADGE_TONE[app] ?? "bg-surface-strong text-muted"
       }`}
     >
-      {isInyeon ? "인연링크" : "네이밍링크"}
+      {appLabel(app)}
     </span>
   );
 }
@@ -65,7 +79,7 @@ const COPY: Record<AppKey, { title: string; description: string }> = {
   naminglink: {
     title: "상품 설정",
     description:
-      "네이밍링크 상품의 가격(USD는 센트 단위)·서체 적용 수·노출을 조정합니다(인연링크 리포트는 '인연링크 상품' 화면에 따로 있습니다). 변경은 이력에 기록되며, 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 합니다.",
+      "네이밍링크 상품의 가격(USD는 센트 단위)·서체 적용 수·노출을 조정합니다(형제 서비스 리포트는 각 서비스의 「상품」 화면에 따로 있습니다). 변경은 이력에 기록되며, 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 합니다.",
   },
   inyeonlink: {
     title: "인연링크 상품",
@@ -75,7 +89,7 @@ const COPY: Record<AppKey, { title: string; description: string }> = {
   sajulink: {
     title: "사주링크 상품",
     description:
-      "총운 리포트와 프리미엄 총운 리포트 PDF입니다. 티어 둘 × 권역 둘(국내 원화·해외 달러)로 넷입니다.\n**`AppKey`가 늘면 이 표도 함께 늘려야 합니다.** 빠뜨리면 화면이 제목 없이 뜨는데, 타입만으로는 잡히지 않는 것을 확인했습니다(2026-08-04).",
+      "「평생 사주와 올해의 운세 리포트」 PDF입니다. 상품 하나 × 권역 둘(국내 원화·해외 달러)로 둘이며, 화면에 뜨는 가격과 실제 청구 금액이 모두 이 값에서 나옵니다.\n2026-08-05에 티어 둘(총운·프리미엄)을 하나로 합쳤습니다 — 그 뒤로도 이 설명이 '티어 둘로 넷'이라고 적고 있었습니다(2026-08-06 정정).\n**`AppKey`가 늘면 이 표도 함께 늘려야 합니다.** 빠뜨리면 화면이 제목 없이 뜨는데, 타입만으로는 잡히지 않는 것을 확인했습니다(2026-08-04).",
   },
 };
 

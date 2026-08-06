@@ -20,6 +20,27 @@
 export const APP_KEYS = ["naminglink", "inyeonlink", "sajulink"] as const;
 export type AppKey = (typeof APP_KEYS)[number];
 
+/**
+ * 운영자 화면에 쓰는 서비스 이름. **콘솔·상태 점검·상품 설정이 이 하나를 본다.**
+ *
+ * 예전에는 화면마다 따로 적혀 있었고, 어느 화면은 아예 이분법이었다 — `AdminProductSettings`의
+ * 배지가 "인연링크가 아니면 전부 네이밍링크"라 **사주 상품에 네이밍링크 배지가 붙었다**
+ * (2026-08-06).
+ *
+ * **읽을 때는 `appLabel()`을 쓸 것.** `Record<AppKey, …>`는 키가 빠져도 tsc가 잡아 주지 못한
+ * 전례가 있고(2026-08-04, 콘솔 제목이 빈칸으로 떴다), 그때 빈 문자열이 나가는 것보다 키 이름이
+ * 나가는 편이 낫다.
+ */
+export const APP_LABELS: Record<AppKey, string> = {
+  naminglink: "네이밍링크",
+  inyeonlink: "인연링크",
+  sajulink: "사주링크",
+};
+
+export function appLabel(key: AppKey): string {
+  return APP_LABELS[key] ?? key;
+}
+
 /** 인연링크가 쓰는 `product_settings.code`. 메뉴 둘 × 권역 둘. */
 export const INYEONLINK_PRODUCT_CODES = [
   "GUNGHAP_PDF_KRW",

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, HeartHandshake, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
-import type { AppKey } from "@naminglink/core/apps";
+import { APP_KEYS, appLabel, type AppKey } from "@naminglink/core/apps";
 import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
@@ -25,6 +25,15 @@ const basePath = "/naming-artist";
 
 // 메뉴는 목적별 4개 그룹으로 나눈다(그룹당 최대 3개). 데스크톱은 그룹 제목이 보이고,
 // 모바일은 공간이 좁아 제목 없이 납작한 그리드로 표시된다.
+/**
+ * 콘솔이 따로 보여 주는 형제 서비스. **naminglink는 뺀다** — 위쪽 메뉴가 전부 그것이다.
+ *
+ * 예전에는 `"inyeon"`·`"inyeon-orders"`라는 화면 이름에 서비스가 박혀 있었다. 그래서 사주링크가
+ * 생겨도 콘솔에 **메뉴가 하나도 없었고**, 상품을 켜려 해도 그 화면으로 가는 길이 없었다
+ * (2026-08-06). 이제 목록이 늘면 메뉴·경로·화면이 함께 따라온다.
+ */
+const SERVICE_APPS = APP_KEYS.filter((key) => key !== "naminglink");
+
 const navGroups = [
   {
     heading: "운영 현황",
@@ -66,17 +75,21 @@ const navGroups = [
       ["정책·푸터", `${basePath}/content`, FilePenLine],
     ],
   },
-  // **인연링크는 그룹을 따로 둔다.** 위 메뉴들은 전부 naminglink 것만 보여 준다 — 한 표에
+  // **형제 서비스는 그룹을 따로 둔다.** 위 메뉴들은 전부 naminglink 것만 보여 준다 — 한 표에
   // 섞으면 서비스별 매출을 눈으로 세야 하고, '처리 상태'의 뜻도 서로 다르다(도장은 배송,
-  // 리포트는 PDF 발급). 두 서비스가 같은 DB를 쓰지만 운영은 따로 한다.
-  {
-    heading: "인연링크",
+  // 리포트는 PDF 발급). 서비스들이 같은 DB를 쓰지만 운영은 따로 한다.
+  //
+  // **목록을 손으로 적지 않는다.** 예전에는 인연링크 세 줄이 박혀 있었고, 사주링크가 생겨도
+  // 콘솔에 메뉴가 하나도 없었다 — 데이터는 이미 갈려 있는데 **가는 길만 없었다**(2026-08-06).
+  // 이제 `APP_KEYS`에 앱을 더하면 메뉴가 함께 생긴다.
+  ...SERVICE_APPS.map((app) => ({
+    heading: appLabel(app),
     items: [
-      ["인연링크 현황", `${basePath}/inyeon`, HeartHandshake],
-      ["인연링크 주문", `${basePath}/inyeon/orders`, Package],
-      ["인연링크 상품", `${basePath}/inyeon/products`, Boxes],
-    ],
-  },
+      [`${appLabel(app)} 현황`, `${basePath}/service/${app}`, HeartHandshake],
+      [`${appLabel(app)} 주문`, `${basePath}/service/${app}/orders`, Package],
+      [`${appLabel(app)} 상품`, `${basePath}/service/${app}/products`, Boxes],
+    ] as const,
+  })),
 ] as const;
 
 type View =
@@ -87,14 +100,62 @@ type View =
   | "ai"
   | "analytics"
   | "usage"
-  | "inyeon"
-  | "inyeon-orders";
+  /** 형제 서비스 현황·주문. **어느 서비스인지는 `app` prop이 정한다.** */
+  | "service"
+  | "service-orders";
 
-/** 이 화면이 어느 서비스의 지표를 보는가. 나머지는 전부 naminglink다. */
-const viewApp: Partial<Record<View, AppKey>> = {
-  inyeon: "inyeonlink",
-  "inyeon-orders": "inyeonlink",
+/**
+ * 서비스마다 다른 것만 모은다. **공통은 여기 적지 않는다.**
+ *
+ * 읽을 때는 `serviceConsole()`을 쓸 것 — `Record<AppKey, …>`는 키가 빠져도 tsc가 잡아 주지
+ * 못한 전례가 있다(2026-08-04, 제목이 빈칸으로 떴다).
+ */
+type ServiceConsoleConfig = {
+  /** 대시보드 「메뉴별 활용」 표의 분석 종류. 서비스마다 메뉴가 다르다. */
+  serviceTypes: Record<string, string>;
+  /** 「분석 완료」 카드 아래 붙는 말. 그 서비스의 메뉴를 그대로 적는다. */
+  analysesNote: string;
+  /** 현황 화면 설명. **서비스마다 사실이 다르다**(AI를 쓰는지 등) — 한 문장으로 뭉뚱그리지 않는다. */
+  description: string;
+  /** 주문 화면 설명. */
+  ordersDescription: string;
 };
+
+const SERVICE_CONSOLE: Record<AppKey, ServiceConsoleConfig> = {
+  naminglink: {
+    serviceTypes: {},
+    analysesNote: "",
+    description: "",
+    ordersDescription: "",
+  },
+  inyeonlink: {
+    serviceTypes: { GUNGHAP_MATCH: "사주 궁합", AFFINITY_MATCH: "인연의 결" },
+    analysesNote: "궁합 + 인연의 결",
+    description:
+      "인연링크(사주 궁합·인연의 결)만 따로 본 지표입니다. 위쪽 메뉴들은 전부 네이밍링크 것만 보여 주므로, 서비스의 매출·방문이 섞이지 않습니다.\nAI 항목이 없는 것이 정상입니다 — 인연링크는 규칙 엔진이라 요청당 외부 호출이 없습니다.",
+    ordersDescription:
+      "사주 궁합 리포트와 인연의 결 리포트 PDF 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — PDF는 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
+  },
+  sajulink: {
+    serviceTypes: { SAJU_READING: "사주 풀이", SAJU_TODAY: "오늘의 운세" },
+    analysesNote: "사주 풀이 + 오늘의 운세",
+    description:
+      "사주링크만 따로 본 지표입니다. 위쪽 메뉴들은 전부 네이밍링크 것만 보여 주므로, 서비스의 매출·방문이 섞이지 않습니다.\n**AI 원가가 잡힙니다** — 사주링크는 유료 리포트의 요약 한 문단을 모델로 씁니다(무료 화면은 엔진 템플릿이라 호출이 없습니다).",
+    ordersDescription:
+      "「평생 사주와 올해의 운세 리포트」 PDF 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — PDF는 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
+  },
+};
+
+function serviceConsole(app: AppKey): ServiceConsoleConfig {
+  return (
+    SERVICE_CONSOLE[app] ?? {
+      serviceTypes: {},
+      analysesNote: "",
+      description: "",
+      ordersDescription: "",
+    }
+  );
+}
 type Snapshot = {
   days: number;
   summary: Record<string, number>;
@@ -152,17 +213,25 @@ const viewCopy: Record<View, { title: string; description: string }> = {
     description:
       "서비스별 분석 시작·완료·실패와 광고 노출·보상 현황입니다. 완료율이 유난히 낮은 서비스는 입력 폼 문제나 AI 오류를 의심하고, AI 사용량 화면의 오류 내역과 교차 확인하세요.",
   },
-  inyeon: {
-    title: "인연링크 현황",
-    description:
-      "인연링크(사주 궁합·인연의 결)만 따로 본 지표입니다. 위쪽 메뉴들은 전부 네이밍링크 것만 보여 주므로, 두 서비스의 매출·방문이 섞이지 않습니다.\nAI 항목이 없는 것이 정상입니다 — 인연링크는 규칙 엔진이라 요청당 외부 호출이 없습니다.",
-  },
-  "inyeon-orders": {
-    title: "인연링크 주문",
-    description:
-      "사주 궁합 리포트와 인연의 결 리포트 PDF 주문입니다. 결제 완료(PAID) 주문의 발급 상태를 확인하세요 — PDF는 결제 승인 직후 자동으로 발급되므로, 결제는 됐는데 오래 '대기'로 남아 있으면 발급이 실패한 것입니다(운영 알림 메일도 함께 갔을 것입니다).\n배송이 없는 상품이라 배송 정보 칸은 비어 있습니다.",
-  },
+  // 형제 서비스 두 화면은 여기 적지 않는다 — 제목·설명이 **어느 서비스인지에 따라 달라져서**
+  // `serviceCopy()`가 만든다. 여기 적으면 서비스가 늘 때마다 두 줄씩 늘고, 빠뜨리면 제목이
+  // 빈칸으로 뜬다.
+  service: { title: "", description: "" },
+  "service-orders": { title: "", description: "" },
 };
+
+/** 형제 서비스를 보는 화면인가. */
+function isServiceView(view: View) {
+  return view === "service" || view === "service-orders";
+}
+
+/** 형제 서비스 화면의 제목·설명. 서비스 이름은 레지스트리에서 온다. */
+function serviceCopy(view: View, app: AppKey) {
+  const config = serviceConsole(app);
+  return view === "service-orders"
+    ? { title: `${appLabel(app)} 주문`, description: config.ordersDescription }
+    : { title: `${appLabel(app)} 현황`, description: config.description };
+}
 
 export function AdminShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -356,13 +425,16 @@ const serviceTypeLabels: Record<string, string> = {
 // 인연링크의 서비스 구분. **위 표와 합치지 않는다** — naminglink 대시보드는 위 표를 그대로
 // 훑어 고정 행을 만들므로, 합치면 그 화면에 항상 0인 인연링크 행 둘이 붙는다.
 // 값은 `apps/inyeonlink/src/lib/analytics-client.ts`가 보내는 것과 같아야 한다.
-const inyeonServiceTypeLabels: Record<string, string> = {
-  GUNGHAP_MATCH: "사주 궁합",
-  AFFINITY_MATCH: "인연의 결",
-};
+/**
+ * 형제 서비스들의 분석 종류를 한 표로 합친다. 표에 코드(`GUNGHAP_MATCH`)가 그대로 나오지
+ * 않게 하는 용도라, 어느 서비스 것인지는 여기서 따지지 않는다.
+ */
+const siblingServiceTypeLabels: Record<string, string> = Object.fromEntries(
+  SERVICE_APPS.flatMap((app) => Object.entries(serviceConsole(app).serviceTypes)),
+);
 
 const serviceTypeLabel = (serviceType: string) =>
-  serviceTypeLabels[serviceType] ?? inyeonServiceTypeLabels[serviceType] ?? serviceType;
+  serviceTypeLabels[serviceType] ?? siblingServiceTypeLabels[serviceType] ?? serviceType;
 
 const orderTypeLabels: Record<string, string> = {
   PREMIUM_PDF: "프리미엄 PDF",
@@ -897,18 +969,22 @@ function DashboardView({ snapshot, summary, pendingOrders, other }: { snapshot: 
  * 남긴 것 중 **광고는 0이 정상이다** — 인연링크는 아직 `ad_events`를 남기지 않는다. 그래서
  * 숫자 대신 그 사실을 적는다.
  */
-function InyeonDashboardView({
+function ServiceDashboardView({
+  app,
   snapshot,
   summary,
   pendingOrders,
   other,
 }: {
+  app: AppKey;
   snapshot: Snapshot;
   summary: Record<string, number>;
   pendingOrders: PendingOrderRow[];
   other?: OtherAppSummary;
 }) {
-  const pagedOrders = usePagedList(pendingOrders, "inyeon-pending", 10);
+  const config = serviceConsole(app);
+  // 페이지 상태 키에 서비스를 넣는다. 한 키를 나눠 쓰면 서비스를 오가며 페이지 번호가 섞인다.
+  const pagedOrders = usePagedList(pendingOrders, `${app}-pending`, 10);
   const pendingOrderCount = snapshot.orderStatuses
     .filter((row) => row.payment_status === "PAID" && ["PENDING", "PROCESSING"].includes(row.fulfillment_status))
     .reduce((sum, row) => sum + row.count, 0);
@@ -921,8 +997,8 @@ function InyeonDashboardView({
         <Metric dense label="발급 대기" value={number.format(pendingOrderCount)} note={"결제 후, 미발급\n(목표 건수 : 0)"} />
         <Metric dense label="전체 주문" value={number.format(summary.orders ?? 0)} />
         <Metric dense label="익명 방문자" value={number.format(summary.visitors ?? 0)} note={`페이지 조회 ${number.format(summary.visits ?? 0)}`} />
-        <Metric dense label="분석 완료" value={number.format(summary.analyses ?? 0)} note={"궁합 + 인연의 결"} />
-        <Metric dense label="광고 노출" value={number.format(summary.adImpressions ?? 0)} note={"인연링크는 아직 광고\n집계를 남기지 않습니다"} />
+        <Metric dense label="분석 완료" value={number.format(summary.analyses ?? 0)} note={config.analysesNote} />
+        <Metric dense label="광고 노출" value={number.format(summary.adImpressions ?? 0)} note={`${appLabel(app)}는 아직 광고\n집계를 남기지 않습니다`} />
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         <DailyTrendChart title="일별 방문" points={snapshot.daily.map((row) => ({ day: row.day, value: row.visits }))} />
@@ -936,7 +1012,7 @@ function InyeonDashboardView({
               compact
               columnWidths={["40%", "20%", "20%", "20%"]}
               headers={["메뉴", "시작", "완료", "실패"]}
-              rows={Object.entries(inyeonServiceTypeLabels).map(([serviceType, label]) => {
+              rows={Object.entries(config.serviceTypes).map(([serviceType, label]) => {
                 const row = snapshot.services.find((item) => item.service_type === serviceType);
                 return [
                   label,
@@ -984,7 +1060,14 @@ function InyeonDashboardView({
   );
 }
 
-export function AdminOperationsConsole({ view }: { view: View }) {
+export function AdminOperationsConsole({
+  view,
+  /** `service`·`service-orders` 화면이 어느 서비스를 보는가. 나머지 화면은 늘 naminglink다. */
+  app: serviceApp,
+}: {
+  view: View;
+  app?: AppKey;
+}) {
   const router = useRouter();
   const [days, setDays] = useState(30);
   const [customRange, setCustomRange] = useState(false);
@@ -1018,15 +1101,15 @@ export function AdminOperationsConsole({ view }: { view: View }) {
         router.replace(`${basePath}/login`);
         return;
       }
-      // 인연링크 화면은 같은 API를 `app`만 바꿔 부른다 — 주문 목록과 집계 로직이 하나뿐이라야
-      // 한쪽만 고쳐지는 일이 없다.
+      // 형제 서비스 화면은 같은 API를 `app`만 바꿔 부른다 — 주문 목록과 집계 로직이
+      // 하나뿐이라야 한쪽만 고쳐지는 일이 없다.
       const apiView =
         view === "ai" || view === "users" || view === "admins" || view === "orders"
           ? view
-          : view === "inyeon-orders"
+          : view === "service-orders"
             ? "orders"
             : "dashboard";
-      const app = viewApp[view] ?? "naminglink";
+      const app = isServiceView(view) ? (serviceApp ?? "naminglink") : "naminglink";
       // **여기부터는 감싼다.** 망이 끊기거나 프록시가 JSON이 아닌 것을 돌려주면 `fetch`나
       // `json()`이 던지는데, 그대로 두면 이 함수가 도중에 끝나 화면이 "확인 중…"에서 영영
       // 멈춘다(무엇이 잘못됐는지도 안 보인다).
@@ -1057,12 +1140,17 @@ export function AdminOperationsConsole({ view }: { view: View }) {
       setLoading(false);
     }
     void load();
-  }, [days, includeTest, router, view]);
+    // **`serviceApp`이 빠지면 안 된다.** 인연링크 현황에서 사주링크 현황으로 옮기면 `view`는
+    // 그대로 `"service"`라, 이 값이 없으면 다시 불러오지 않고 **앞 서비스의 숫자가 그대로
+    // 남는다.** 오늘 지표 RPC에서 고친 것과 같은 종류의 착시다.
+  }, [days, includeTest, router, view, serviceApp]);
 
-  const copy = viewCopy[view];
+  const copy = isServiceView(view)
+    ? serviceCopy(view, serviceApp ?? "naminglink")
+    : viewCopy[view];
   const snapshot = payload?.snapshot as Snapshot | undefined;
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
-  const showRange = !["users", "admins", "orders", "inyeon-orders"].includes(view);
+  const showRange = !["users", "admins", "orders", "service-orders"].includes(view);
   // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·운영자·AI 사용량은 주문과 무관).
   const showTestToggle = !["users", "admins", "ai"].includes(view);
 
@@ -1137,7 +1225,7 @@ export function AdminOperationsConsole({ view }: { view: View }) {
           mode={view === "admins" ? "admins" : "members"}
         />
       );
-    if (view === "orders" || view === "inyeon-orders") {
+    if (view === "orders" || view === "service-orders") {
       return (
         <OrdersView
           orders={(payload?.orders ?? []) as OrderRow[]}
@@ -1157,9 +1245,10 @@ export function AdminOperationsConsole({ view }: { view: View }) {
     if (!snapshot) return null;
     if (view === "analytics") return <AnalyticsView snapshot={snapshot} summary={summary} />;
     if (view === "usage") return <UsageView snapshot={snapshot} summary={summary} />;
-    if (view === "inyeon")
+    if (view === "service")
       return (
-        <InyeonDashboardView
+        <ServiceDashboardView
+          app={serviceApp ?? "naminglink"}
           snapshot={snapshot}
           summary={summary}
           pendingOrders={(payload?.pendingOrders ?? []) as PendingOrderRow[]}

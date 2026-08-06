@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { APP_KEYS, type AppKey } from "@naminglink/core/apps";
+import { APP_KEYS, appLabel, type AppKey } from "@naminglink/core/apps";
 
 import { requireAdmin } from "@/lib/admin-auth";
 
@@ -36,19 +36,6 @@ export const runtime = "nodejs";
 /** 콘솔이 도는 대상. **자기 자신은 뺀다** — 이 배포가 곧 naminglink다. */
 const REMOTE_APPS = APP_KEYS.filter((key) => key !== "naminglink");
 
-/**
- * 화면에 쓸 이름.
- *
- * **`Record<AppKey, …>`는 키가 빠져도 tsc가 잡아 주지 못한 전례가 있다**(2026-08-04, 콘솔 제목이
- * 빈칸으로 떴다). 그래서 읽을 때 키 이름으로 물러선다 — 이름이 없다고 빈칸이 나가는 것보다
- * `sajulink`라도 나가는 편이 낫다.
- */
-const LABELS: Record<AppKey, string> = {
-  naminglink: "네이밍링크",
-  inyeonlink: "인연링크",
-  sajulink: "사주링크",
-};
-
 /** `inyeonlink` → `INYEONLINK_BASE_URL`. 기존에 쓰던 이름과 같아 설정을 그대로 물려받는다. */
 function baseUrlVariable(key: AppKey) {
   return `${key.toUpperCase()}_BASE_URL`;
@@ -66,7 +53,7 @@ type ServiceStatus = {
 };
 
 async function askOne(key: AppKey, token: string): Promise<ServiceStatus> {
-  const label = LABELS[key] ?? key;
+  const label = appLabel(key);
   const variable = baseUrlVariable(key);
   const base = process.env[variable]?.trim().replace(/\/+$/, "") || null;
 
