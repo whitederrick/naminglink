@@ -33,8 +33,8 @@ const PLACEHOLDER_COMPANY = {
 // 둘로 갈리면서 인연의 결 자리를 더했는데, 기존 이름의 뜻은 바꾸지 않았다 — 이름을 갈면
 // 이미 번역된 21개 파일을 전부 손대야 한다.
 const PLACEHOLDER_PRICES = {
-  gunghap: { domestic: "{priceDomestic}", global: "{priceGlobal}" },
-  affinity: {
+  card: { domestic: "{priceDomestic}", global: "{priceGlobal}" },
+  conception: {
     domestic: "{priceAffinityDomestic}",
     global: "{priceAffinityGlobal}",
   },

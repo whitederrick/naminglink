@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-import { affinityInputSchema } from "@/lib/affinity-input";
-import { runAffinity, runMatch } from "@/lib/engines";
+import { dreamInputSchema } from "@/lib/dream-input";
+import { DICT_VERSION } from "@/lib/dream-symbols";
+import { matchDream } from "@/lib/engines/dream-match";
 import { getDictionary, isLocale, type Dictionary, type Locale } from "@/lib/i18n";
 import { pdfLocale } from "@/lib/pdf/fonts";
-import { matchInputSchema, toPerson } from "@/lib/match-input";
-import { renderAffinityReport } from "@/lib/pdf/affinity-report";
-import { renderCompatibilityReport } from "@/lib/pdf/compatibility-report";
+import { renderConceptionReport } from "@/lib/pdf/conception-report";
 import { inputFingerprint } from "@/lib/report-order-binding";
 import { notifyOps } from "@/lib/ops-alert";
 import { getVerifiedPayment } from "@/lib/portone";
@@ -38,18 +37,18 @@ const REISSUE_LIMIT = 5;
  */
 const schema = z.discriminatedUnion("kind", [
   z.object({
-    kind: z.literal("gunghap"),
+    kind: z.literal("card"),
     orderId: z.string().uuid(),
     paymentId: z.string().min(8).max(64),
     locale: z.string().trim().max(10).optional(),
-    input: matchInputSchema,
+    input: dreamInputSchema,
   }),
   z.object({
-    kind: z.literal("affinity"),
+    kind: z.literal("conception"),
     orderId: z.string().uuid(),
     paymentId: z.string().min(8).max(64),
     locale: z.string().trim().max(10).optional(),
-    input: affinityInputSchema,
+    input: dreamInputSchema,
   }),
 ]);
 
@@ -88,7 +87,7 @@ export async function POST(request: NextRequest) {
   const { orderId, paymentId } = parsed.data;
   // 주문 종류까지 맞춰서 찾는다. 궁합 주문으로 인연의 결 PDF를 받아 가는 일이 없어야 한다.
   const orderType =
-    parsed.data.kind === "affinity" ? "AFFINITY_PDF" : "GUNGHAP_PDF";
+    parsed.data.kind === "conception" ? "DREAM_CONCEPTION_PDF" : "DREAM_CARD";
 
   try {
     const { data: order } = await supabase
@@ -204,7 +203,7 @@ export async function POST(request: NextRequest) {
         "Content-Type": "application/pdf",
         // 파일 이름에 이용자 이름을 넣지 않는다 — 브라우저 다운로드 기록에 남는다.
         // 상품별로는 가른다. 둘 다 산 사람에게 같은 이름을 주면 한쪽이 덮어써진다.
-        "Content-Disposition": `attachment; filename="inyeonlink-${parsed.data.kind}.pdf"`,
+        "Content-Disposition": `attachment; filename="dreamslink-${parsed.data.kind}.pdf"`,
         "Cache-Control": "no-store",
       },
     });
@@ -240,26 +239,23 @@ function render(
   dictionary: Dictionary,
 ) {
   const generatedAt = new Date().toISOString();
+  // **계산을 여기서 다시 돌린다.** 화면이 보낸 결과를 그대로 싣지 않으므로, 이용자가 응답을
+  // 손봐도 문서에는 서버가 사전으로 고른 상징만 들어간다.
+  const outcome = matchDream(parsed.input.text);
 
-  if (parsed.kind === "affinity") {
-    const { me, seeking } = parsed.input;
-    return renderAffinityReport({
-      outcome: runAffinity(toPerson(me), seeking),
-      name: me.label?.trim() || dictionary.affinity.meLegend,
-      locale,
-      dictionary,
-      generatedAt,
-    });
+  // 꿈 카드는 이미지라 이 경로가 아니다. 렌더러가 아직 없어 여기까지 오면 발급 실패로 남긴다 —
+  // **조용히 빈 PDF를 내보내지 않는다.**
+  if (parsed.kind === "card") {
+    throw new Error("DREAM_CARD_RENDERER_NOT_READY");
   }
 
-  const { a, b } = parsed.input;
-  return renderCompatibilityReport({
-    outcome: runMatch(toPerson(a), toPerson(b)),
-    nameA: a.label?.trim() || dictionary.form.personA,
-    nameB: b.label?.trim() || dictionary.form.personB,
+  void dictionary;
+  return renderConceptionReport({
+    outcome,
+    dreamText: parsed.input.text,
     locale,
-    dictionary,
     generatedAt,
+    dictVersion: DICT_VERSION,
   });
 }
 

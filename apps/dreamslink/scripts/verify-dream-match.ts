@@ -64,13 +64,24 @@ check(
 const none = matchDream("zzzz qqqq 아무 상징도 없는 문장");
 check("미매칭은 빈 결과 + neutral", none.matched.length === 0 && none.mood === "neutral", none.mood);
 
-// **태몽은 표시일 뿐 판별이 아니다.** 태그가 붙은 상징이 걸렸다는 사실만 참이어야 한다.
-const conception = matchDream("용이 하늘로 올라가는 꿈");
-check(
-  "태몽 상징이 걸리면 표시된다",
-  conception.conception === conception.matched.some((m) => m.tags.includes("태몽")),
-  `conception=${conception.conception}`,
-);
+// ── 태몽 ───────────────────────────────────────────────────────────────────
+// **태그가 아니라 고른 의미로 판정한다.** 사전을 넓히며 돼지·소·말에도 태몽 태그를 붙였는데,
+// 태그만 보면 돼지꿈을 꾼 사람이 전부 태몽이 된다 — 돼지는 보통 재물 꿈이다.
+const pigPlain = matchDream("돼지가 집에 들어왔다");
+check("돼지꿈만으로는 태몽이 아니다", pigPlain.conception === false, `conception=${pigPlain.conception}`);
+
+// 임신을 말한 사람에게는 태몽 의미가 먼저다. **낱말 수로 겨루면 원래 의미가 이긴다.**
+const pigPregnant = matchDream("임신했는데 돼지가 집에 들어오는 꿈을 꿨다");
+const pigMeaning = pigPregnant.matched.find((m) => m.id === "pig")?.meaning.interpretation_ko ?? "";
+check("임신을 말하면 태몽 의미를 고른다", pigPregnant.conception && pigMeaning.includes("태몽"), pigMeaning);
+
+// 의미 자체가 태몽인 상징은 맥락 없이도 태몽이다.
+const dragon = matchDream("용이 하늘로 올라갔다");
+check("전통적으로 태몽인 상징은 그대로 태몽", dragon.conception === true);
+
+// 태몽과 무관한 꿈이 태몽으로 새지 않는다.
+const fall = matchDream("추락하는 꿈을 꿨다");
+check("무관한 꿈은 태몽이 아니다", fall.conception === false, `conception=${fall.conception}`);
 
 // ── 대조군 — 검사가 실제로 잡는지 스스로 증명한다 ─────────────────────────
 // 늘 통과하는 하니스는 없는 것과 같다. 아래가 통과해 버리면 위 검사들이 장식이다.

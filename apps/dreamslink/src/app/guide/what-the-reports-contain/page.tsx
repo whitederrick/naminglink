@@ -41,9 +41,9 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title={`Saju compatibility report — ${prices.gunghap.global}`}>
+      <GuideSection title={`Saju compatibility report — ${prices.card.global}`}>
         <p>
-          {prices.gunghap.global} for international payment, {prices.gunghap.domestic} (VAT
+          {prices.card.global} for international payment, {prices.card.domestic} (VAT
           included) in Korea. {dictionary.report.contents.length} A4 pages.
         </p>
         <ul>
@@ -111,9 +111,9 @@ export default async function Page(props: GuidePageProps) {
         </p>
       </GuideSection>
 
-      <GuideSection title={`Match profile report — ${prices.affinity.global}`}>
+      <GuideSection title={`Match profile report — ${prices.conception.global}`}>
         <p>
-          {prices.affinity.global} for international payment, {prices.affinity.domestic} (VAT
+          {prices.conception.global} for international payment, {prices.conception.domestic} (VAT
           included) in Korea. {dictionary.affinityReport.contents.length} A4 pages.
         </p>
         <ul>

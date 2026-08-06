@@ -1,5 +1,5 @@
 {
- "dictVer": "1.1.0",
+ "dictVer": "1.2.0",
  "symbols": [
   {
    "id": "pig",
@@ -12,7 +12,8 @@
    "category": "animal",
    "polarity": "positive",
    "tags": [
-    "재물"
+    "재물",
+    "태몽"
    ],
    "weight": 3,
    "culture_note": "한국 대표 재물 길몽",
@@ -21,6 +22,12 @@
      "context": "돼지가 집에 들어오거나 품",
      "interpretation_ko": "재물·횡재수",
      "interpretation_en": "incoming wealth / windfall",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 재물복을 지닌 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -94,7 +101,8 @@
    "tags": [
     "권력",
     "귀인",
-    "위협"
+    "위협",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -109,6 +117,12 @@
      "interpretation_ko": "위협·강한 압박",
      "interpretation_en": "threat or pressure",
      "polarity": "negative"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 기개가 큰 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
     }
    ]
   },
@@ -176,7 +190,8 @@
    "polarity": "positive",
    "tags": [
     "재물",
-    "근면"
+    "근면",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -184,6 +199,12 @@
      "context": "살진 소",
      "interpretation_ko": "재물·근면의 결실",
      "interpretation_en": "wealth, fruit of diligence",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 부지런하고 복이 있는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -199,7 +220,8 @@
    "polarity": "positive",
    "tags": [
     "출세",
-    "이동"
+    "이동",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -207,6 +229,12 @@
      "context": "말을 탐",
      "interpretation_ko": "출세·좋은 이동·승진",
      "interpretation_en": "advancement, favorable move",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 활달하고 크게 나아가는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -246,7 +274,8 @@
    "polarity": "positive",
    "tags": [
     "재물",
-    "성취"
+    "성취",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -254,6 +283,12 @@
      "context": "물고기를 잡음",
      "interpretation_ko": "재물·성취",
      "interpretation_en": "wealth or achievement",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -358,7 +393,8 @@
    "polarity": "positive",
    "tags": [
     "장수",
-    "재물"
+    "재물",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -366,6 +402,12 @@
      "context": "거북이가 나타남",
      "interpretation_ko": "장수·재물·귀인",
      "interpretation_en": "longevity, wealth, patron",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 장수하는 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -430,7 +472,8 @@
    "polarity": "positive",
    "tags": [
     "귀인",
-    "장수"
+    "장수",
+    "태몽"
    ],
    "weight": 1,
    "meanings": [
@@ -438,6 +481,12 @@
      "context": "사슴을 봄",
      "interpretation_ko": "귀인·경사",
      "interpretation_en": "patron or happy event",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀하고 순한 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -472,7 +521,8 @@
    "polarity": "positive",
    "tags": [
     "귀함",
-    "명예"
+    "명예",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -480,6 +530,12 @@
      "context": "봉황이 나타남",
      "interpretation_ko": "큰 명예·귀한 인연",
      "interpretation_en": "great honor or noble bond",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -873,7 +929,8 @@
    "polarity": "positive",
    "tags": [
     "경사",
-    "연애"
+    "연애",
+    "태몽"
    ],
    "weight": 1,
    "meanings": [
@@ -888,6 +945,12 @@
      "interpretation_ko": "쇠퇴·이별",
      "interpretation_en": "decline or parting",
      "polarity": "negative"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
     }
    ]
   },
@@ -904,7 +967,8 @@
    "tags": [
     "권위",
     "희망",
-    "부친"
+    "부친",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -912,6 +976,12 @@
      "context": "떠오르는 태양",
      "interpretation_ko": "권위·희망·번영",
      "interpretation_en": "authority, hope, prosperity",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 아이의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -928,7 +998,8 @@
    "tags": [
     "모친",
     "여성",
-    "소망"
+    "소망",
+    "태몽"
    ],
    "weight": 2,
    "meanings": [
@@ -936,6 +1007,12 @@
      "context": "밝은 보름달",
      "interpretation_ko": "소망 성취·귀함",
      "interpretation_en": "wish granted, nobility",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -3474,7 +3551,8 @@
    "polarity": "positive",
    "tags": [
     "귀함",
-    "결실"
+    "결실",
+    "태몽"
    ],
    "weight": 1,
    "meanings": [
@@ -3482,6 +3560,12 @@
      "context": "진주를 얻음",
      "interpretation_ko": "귀한 결실·숨은 가치",
      "interpretation_en": "precious reward, hidden value",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -4621,7 +4705,8 @@
    "polarity": "positive",
    "tags": [
     "결실",
-    "건강"
+    "건강",
+    "태몽"
    ],
    "weight": 1,
    "meanings": [
@@ -4629,6 +4714,12 @@
      "context": "잘 익은 과일",
      "interpretation_ko": "결실·건강·성취",
      "interpretation_en": "fruition, health, achievement",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -4644,7 +4735,8 @@
    "polarity": "positive",
    "tags": [
     "잠재",
-    "시작"
+    "시작",
+    "태몽"
    ],
    "weight": 1,
    "meanings": [
@@ -4652,6 +4744,12 @@
      "context": "온전한 계란",
      "interpretation_ko": "잠재력·새 시작(깨지면 손실)",
      "interpretation_en": "potential, new start (broken = loss)",
+     "polarity": "positive"
+    },
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 새 생명이 깃드는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]
@@ -4833,6 +4931,143 @@
      "context": "8이 반복",
      "interpretation_ko": "재물·번영",
      "interpretation_en": "wealth and prosperity",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "chestnut",
+   "term_ko": "밤",
+   "term_en": "chestnut",
+   "aliases": [
+    "밤송이"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "자손"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "jujube",
+   "term_ko": "대추",
+   "term_en": "jujube",
+   "aliases": [
+    "대추나무"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "자손"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "persimmon",
+   "term_ko": "감",
+   "term_en": "persimmon",
+   "aliases": [
+    "홍시"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "결실"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 결실과 자손의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "grape",
+   "term_ko": "포도",
+   "term_en": "grapes",
+   "aliases": [
+    "포도송이"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "다산"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 자손이 번성하는 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "chili",
+   "term_ko": "고추",
+   "term_en": "chili pepper",
+   "aliases": [
+    "붉은 고추"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 아들의 태몽으로 보아 온 상징이다",
+     "interpretation_en": "traditionally read as a conception dream",
+     "polarity": "positive"
+    }
+   ]
+  },
+  {
+   "id": "bead",
+   "term_ko": "구슬",
+   "term_en": "bead",
+   "aliases": [
+    "옥구슬"
+   ],
+   "category": "object",
+   "polarity": "positive",
+   "tags": [
+    "태몽",
+    "귀함"
+   ],
+   "weight": 2,
+   "meanings": [
+    {
+     "context": "임신 태몽 아기 아이 임산부 출산",
+     "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
+     "interpretation_en": "traditionally read as a conception dream",
      "polarity": "positive"
     }
    ]

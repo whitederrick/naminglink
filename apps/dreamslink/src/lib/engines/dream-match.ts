@@ -90,6 +90,21 @@ function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
   const meanings = symbol.meanings;
   if (meanings.length <= 1) return meanings[0];
 
+  /**
+   * **태몽 맥락은 낱말 수로 겨루지 않는다.**
+   *
+   * 돼지꿈은 보통 재물 꿈이고 임신한 사람이 꾸면 태몽으로 읽힌다. 둘 다 사전에 있는데, 낱말
+   * 수로만 고르면 「임신했는데 돼지가 집에 들어왔다」에서 원래 의미가 이긴다 — `돼지가 집에
+   * 들어오거나 품`이 두 낱말을 맞히고 태몽 쪽은 `임신` 하나뿐이기 때문이다.
+   *
+   * 임신을 말한 사람에게는 그쪽이 먼저다. 그런 신호가 없으면 이 규칙은 아무 일도 하지 않는다.
+   */
+  const saidPregnancy = CONCEPTION_WORDS.some((word) => haystack.includes(word));
+  if (saidPregnancy) {
+    const conceptionMeaning = meanings.find((meaning) => isConceptionMeaning(meaning));
+    if (conceptionMeaning) return conceptionMeaning;
+  }
+
   let best = meanings[0];
   let bestScore = 0;
   for (const meaning of meanings) {
@@ -125,15 +140,30 @@ function moodOf(matched: MatchedSymbol[]): DreamPolarity {
   return score.positive === 0 ? "neutral" : "ambivalent";
 }
 
+/** 이용자가 임신을 말했는가. 태몽 맥락을 고르는 신호다. */
+const CONCEPTION_WORDS = ["임신", "태몽", "임산부", "출산", "아기를 가"];
+
+/** 이 의미가 태몽을 말하는가. 사전은 우리가 관리하는 canonical ko라 문구로 판정해도 흔들리지 않는다. */
+function isConceptionMeaning(meaning: DreamMeaning) {
+  return (
+    meaning.context?.includes(CONCEPTION_TAG) === true ||
+    meaning.interpretation_ko.includes(CONCEPTION_TAG)
+  );
+}
+
 /**
- * 태몽 상징이 걸렸는가.
+ * 이 꿈을 태몽으로 볼 수 있는가.
  *
- * ⚠️ **임신을 판별하지 않는다.** 사전에 태몽 태그가 붙은 상징(뱀·용·잉어·곰·별·고래·복숭아)이
- * 꿈에 나왔다는 사실만 말한다. "임신입니다"는 의학적 단정이고, 이 서비스가 할 수 있는 말도
- * 해도 되는 말도 아니다. 화면 문구도 「전통적으로 태몽으로 보는 상징이 있습니다」까지만 간다.
+ * **태그가 아니라 고른 의미로 판정한다.** 태그만 보면 돼지꿈을 꾼 사람 전부가 태몽이 된다 —
+ * 돼지는 태몽으로도 읽히지만 보통은 재물 꿈이기 때문이다(2026-08-06에 사전을 넓히며 실제로
+ * 그렇게 새어 나왔다). 그 상징의 **태몽 의미가 실제로 선택됐을 때**만 참이다.
+ *
+ * ⚠️ **그래도 임신을 판별하지는 않는다.** 전통적으로 태몽으로 보아 온 상징이 나왔다는 사실까지만
+ * 말한다. "임신입니다"는 의학적 단정이고, 이 서비스가 할 수 있는 말도 해도 되는 말도 아니다.
+ * 화면과 문서의 문구도 거기까지만 간다.
  */
 function isConceptionDream(matched: MatchedSymbol[]) {
-  return matched.some((item) => item.tags.includes(CONCEPTION_TAG));
+  return matched.some((item) => isConceptionMeaning(item.meaning));
 }
 
 export function matchDream(text: string): DreamOutcome {
