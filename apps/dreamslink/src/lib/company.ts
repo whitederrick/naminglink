@@ -17,13 +17,17 @@ export type { CompanyInfo };
 export const LEGAL_EFFECTIVE_DATE = "2026-07-26";
 
 /**
- * 인연링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
+ * 드림링크의 서비스 이름. 사업자가 아니라 서비스에 속한 값이라 DB에서 오지 않는다.
  *
- * 표기는 naminglink의 © 줄과 같은 꼴로 맞춘다 — `Naming-Link(Global Naming Studio)`에 대응하는
- * `Inyeon-Link(인연 링크)`.
+ * 표기는 형제 앱의 © 줄과 같은 꼴로 맞춘다 — `Naming-Link(Global Naming Studio)`·
+ * `Saju-Link(사주 링크)`에 대응하는 `Dreams-Link(드림 링크)`. 도메인이 `dreams-link.com`이라
+ * 라틴 표기에 s가 들어간다(앱 키 `dreamslink`와 다르다 — 헷갈리기 쉬우니 함께 봐 둘 것).
+ *
+ * **이 값이 복제 원본인 채로 배포된 전례가 있다.** 사주링크가 꼬리글에 `Saju-Link ( 인연 링크 )`로
+ * 나갔다(2026-08-05). 리테마 때 라틴 표기와 한글 표기를 **함께** 훑어야 하는 이유다.
  */
-export const SERVICE_NAME = "Inyeon-Link";
-export const SERVICE_SUBTITLE = "인연 링크";
+export const SERVICE_NAME = "Dreams-Link";
+export const SERVICE_SUBTITLE = "드림 링크";
 
 /** DB를 못 읽었을 때 그리는 값. 사업자 사실은 core가, 서비스 이름은 이 파일이 정한다. */
 export const fallbackCompanyInfo: CompanyInfo = {

@@ -24,9 +24,9 @@ export async function generateMetadata(): Promise<Metadata> {
     // 없으면 Next가 빌드마다 경고를 내고 og:image가 상대 경로로 나가 대부분의 SNS에서 깨진다.
     metadataBase: new URL(siteUrl),
     title: {
-      default: "인연링크 InyeonLink | 사주·띠 궁합",
+      default: "드림링크 Dreams-Link | 전통 해몽",
       // 하위 페이지는 자기 제목만 적고 브랜드는 여기서 붙인다.
-      template: "%s | Inyeon-Link",
+      template: "%s | Dreams-Link",
     },
     description:
       "생년월일로 보는 사주 궁합과 띠 궁합. 입력한 정보는 저장하지 않습니다. Saju and zodiac compatibility — nothing you enter is stored.",
@@ -35,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     // 이라고 말하게 된다. `/`의 canonical과 hreflang은 app/page.tsx가 스스로 붙인다.
     openGraph: {
       type: "website",
-      siteName: "Inyeon-Link",
+      siteName: "Dreams-Link",
       url: siteUrl,
       images: [ogImageFor(locale)],
     },
@@ -56,7 +56,7 @@ export default async function RootLayout({
       <body>
         <LocaleHtmlSync />
         {/* 접속 집계. `site_events`에 app='inyeonlink'로 쌓이고 운영자 콘솔의
-            '인연링크 현황' 화면이 이것을 읽는다. */}
+            '드림링크 현황' 화면이 이것을 읽는다. */}
         <AnalyticsTracker />
         {/* 푸터는 레이아웃이 아니라 각 페이지에 둔다. 레이아웃은 searchParams를 받지 못해
             ?lang=으로 바꾼 언어를 알 수 없고, 그러면 한국어 화면에 영어 푸터가 붙는다. */}

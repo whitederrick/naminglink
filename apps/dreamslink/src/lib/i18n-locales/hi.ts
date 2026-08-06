@@ -7,8 +7,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const hi: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "साजू और राशि से पढ़ी गई दो लोगों की अनुकूलता",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "वर्तमान भाषा",
   moreLanguages: "और",
   closeLanguages: "बंद",

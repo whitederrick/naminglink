@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
   // 하나다 — 이름이 같으면 한 서비스의 트래픽이 다른 서비스의 한도를 깎는다(같은 IP가
   // naminglink를 쓰다 오면 여기서 먼저 막힌다). 다른 라우트는 이미 접두사로 갈려 있었고
   // 집계만 `analytics`로 남아 있었다(2026-08-06, 인연링크).
-  if (!(await checkRateLimit(request, "inyeon_analytics", { windowSeconds: 3600, limit: 120 }))) {
+  if (!(await checkRateLimit(request, "dreams_analytics", { windowSeconds: 3600, limit: 120 }))) {
     return NextResponse.json({ ok: false, error: "요청이 너무 잦습니다." }, { status: 429 });
   }
 
@@ -98,7 +98,7 @@ export async function POST(request: NextRequest) {
   if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
 
   const { error } = await supabase.from("site_events").insert({
-    app: "inyeonlink",
+    app: "dreamslink",
     event_type: parsed.data.eventType,
     path: parsed.data.path,
     locale: parsed.data.locale ?? null,

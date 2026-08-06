@@ -6,8 +6,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const vi: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "Xem duyên đôi lứa qua Tứ Trụ và con giáp",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "Ngôn ngữ hiện tại",
   moreLanguages: "Thêm",
   closeLanguages: "Đóng",

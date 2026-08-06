@@ -5,8 +5,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const ja: Dictionary = {
-  brand: "インヨンリンク",
-  tagline: "四柱推命と干支で見る二人の相性",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "現在の言語",
   moreLanguages: "もっと見る",
   closeLanguages: "閉じる",

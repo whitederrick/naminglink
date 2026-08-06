@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
       )
       .eq("id", orderId)
       .in("order_type", Object.keys(RESULT_PATH))
-      .eq("service", "inyeonlink")
+      .eq("service", "dreamslink")
       .maybeSingle();
 
     if (!order) {

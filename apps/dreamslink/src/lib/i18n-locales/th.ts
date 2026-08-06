@@ -5,8 +5,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const th: Dictionary = {
-  brand: "อินยอนลิงก์",
-  tagline: "ดูความเข้ากันของสองคนด้วยซาจู (สี่เสาหลัก) และปีนักษัตร",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "ภาษาปัจจุบัน",
   moreLanguages: "เพิ่มเติม",
   closeLanguages: "ปิด",

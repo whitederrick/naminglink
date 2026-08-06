@@ -7,8 +7,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const kk: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "Саджу және мүшел жылы арқылы оқылатын үйлесім",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "Қазіргі тіл",
   moreLanguages: "Тағы",
   closeLanguages: "Жабу",

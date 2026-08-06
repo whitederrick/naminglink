@@ -6,8 +6,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const km: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "ការផ្គូផ្គងតាមសាជូ និងឆ្នាំកំណើត",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "ភាសាបច្ចុប្បន្ន",
   moreLanguages: "បន្ថែម",
   closeLanguages: "បិទ",

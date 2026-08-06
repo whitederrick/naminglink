@@ -67,7 +67,7 @@ type Checkout = TossCheckout | PortOneCheckout;
  * 리디렉트되므로 그 사이 프래그먼트가 사라진다. sessionStorage는 **이용자 브라우저**이지
  * 서버가 아니므로, 저장하지 않는다는 원칙과 충돌하지 않는다. 탭을 닫으면 함께 사라진다.
  */
-const PENDING_KEY = "inyeonlink.pendingPayment";
+const PENDING_KEY = "dreamslink.pendingPayment";
 
 function rememberForRedirect(orderId: string) {
   try {

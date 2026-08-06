@@ -16,7 +16,7 @@ import { fallbackCompanyInfo } from "@/lib/company";
  * 둘 다 없으면 아무 데도 보내지 않고 로그만 남긴다(다크 런치). 광고·결제 키와 같은 방식이다.
  *
  * **naminglink `lib/ops-alert.ts`와 같은 파일이다.** 두 앱이 한 Resend 계정·한 수신함을 쓰므로
- * 제목의 서비스 표시(`[inyeon-link]`)만 다르다. 한쪽을 고치면 다른 쪽도 함께 볼 것.
+ * 제목의 서비스 표시(`[dreams-link]`)만 다르다. 한쪽을 고치면 다른 쪽도 함께 볼 것.
  */
 
 /**
@@ -58,7 +58,7 @@ export function notifyOps(
   // **기다리지 않는다.** 알림 때문에 이용자 요청이 늦어지면 안 된다. 실패해도 조용히 넘어간다
   // (여기서 던지면 알림이 장애를 키운다). 보낼 곳이 둘이면 둘 다 보낸다.
   if (webhook) {
-    const text = [mark, `[inyeon-link] ${message}`, body ? "```" + body + "```" : ""]
+    const text = [mark, `[dreams-link] ${message}`, body ? "```" + body + "```" : ""]
       .filter(Boolean)
       .join(" ");
     void fetch(webhook, {
@@ -87,9 +87,9 @@ export function notifyOps(
  * DB에서 찾다가 알림까지 함께 실패하면 안 된다.
  *
  * **보내는 주소는 이 앱의 주소에서 뽑지 않는다.** naminglink는 자기 도메인에서 뽑지만, 이
- * 앱은 아직 실 도메인이 없어 `inyeonlink.vercel.app`이 나온다 — 인증하지 않은 도메인으로
+ * 앱은 아직 실 도메인이 없어 `dreamslink.vercel.app`이 나온다 — 인증하지 않은 도메인으로
  * 보내면 Resend가 거절하고, 이 함수는 실패를 조용히 삼키므로 **알림이 통째로 사라진다.**
- * 인증을 마친 `naming-link.com`에서 보내되 제목에 `[inyeon-link]`를 달아 어느 서비스인지
+ * 인증을 마친 `naming-link.com`에서 보내되 제목에 `[dreams-link]`를 달아 어느 서비스인지
  * 알린다. 인연링크 도메인을 붙이고 Resend에서 인증하면 `OPS_ALERT_FROM`으로 바꾸면 된다.
  */
 const VERIFIED_SENDER_DOMAIN = "naming-link.com";
@@ -108,7 +108,7 @@ async function sendAlertEmail(
 
   const from =
     process.env.OPS_ALERT_FROM?.trim() ||
-    `Inyeon-Link 알림 <alerts@${VERIFIED_SENDER_DOMAIN}>`;
+    `Dreams-Link 알림 <alerts@${VERIFIED_SENDER_DOMAIN}>`;
 
   try {
     await fetch("https://api.resend.com/emails", {
@@ -120,7 +120,7 @@ async function sendAlertEmail(
       body: JSON.stringify({
         from,
         to,
-        subject: `${mark} [inyeon-link] ${message}`,
+        subject: `${mark} [dreams-link] ${message}`,
         text: body ? `${message}\n\n${body}` : message,
       }),
       signal: AbortSignal.timeout(4000),

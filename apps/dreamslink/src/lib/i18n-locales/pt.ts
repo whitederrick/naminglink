@@ -5,8 +5,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const pt: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "A compatibilidade vista pelo Saju e pelos signos do zodíaco",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "Idioma atual",
   moreLanguages: "Mais",
   closeLanguages: "Fechar",

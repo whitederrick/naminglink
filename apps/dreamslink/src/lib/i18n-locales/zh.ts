@@ -6,8 +6,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const zh: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "以八字与生肖来看两人的缘分",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "当前语言",
   moreLanguages: "更多",
   closeLanguages: "关闭",

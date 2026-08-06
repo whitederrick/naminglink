@@ -490,8 +490,8 @@ export type Dictionary = {
 };
 
 const ko: Dictionary = {
-  brand: "인연링크",
-  tagline: "사주와 띠로 보는 두 사람의 궁합",
+  brand: "드림링크",
+  tagline: "전통 해몽으로 읽는 오늘의 꿈",
   currentLanguage: "현재 언어",
   moreLanguages: "더보기",
   closeLanguages: "닫기",
@@ -1136,8 +1136,8 @@ const ko: Dictionary = {
 };
 
 const en: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "Compatibility read through Saju and zodiac signs",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "Current language",
   moreLanguages: "More",
   closeLanguages: "Close",

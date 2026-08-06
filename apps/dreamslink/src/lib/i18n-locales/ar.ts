@@ -6,8 +6,8 @@
 import type { Dictionary } from "@/lib/i18n";
 
 export const ar: Dictionary = {
-  brand: "InyeonLink",
-  tagline: "التوافق مقروءًا عبر الساجو وأبراج المواليد الصينية",
+  brand: "Dreams-Link",
+  tagline: "Today's dream, read through traditional Korean dream symbols",
   currentLanguage: "اللغة الحالية",
   moreLanguages: "المزيد",
   closeLanguages: "إغلاق",
