@@ -235,13 +235,54 @@ function serviceCopy(view: View, app: AppKey) {
     : { title: `${appLabel(app)} 현황`, description: config.description };
 }
 
+/**
+ * 운영자 콘솔의 겉틀.
+ *
+ * **세션을 확인하기 전에는 아무것도 그리지 않는다.**
+ *
+ * 이 화면들은 값 자체는 API가 지키지만(무인증 요청은 401), 틀을 먼저 그리면 **로그아웃 상태의
+ * HTML에 메뉴 구성이 그대로 실린다** — 어떤 서비스를 운영하는지, 어떤 관리 화면이 있는지가
+ * 로그인 없이 드러난다.
+ *
+ * 2026-08-04에 `AdminOperationsConsole`에서 이걸 고쳤는데, 그 뒤에 만든 화면들이 같은 실수를
+ * 반복했다. 2026-08-06에 세어 보니 **콘솔 화면 16개 중 8개가 새고 있었다**(상품 설정·서체·배경·
+ * 한자·정책·PDF 시험·상태 점검·통합 대시보드). 화면마다 게이트를 붙이는 방식이라 새 화면이
+ * 생길 때마다 빠졌다.
+ *
+ * 그래서 **틀이 스스로 막는다.** 앞으로 만드는 화면은 `AdminShell`을 쓰는 것만으로 안전하다.
+ * 문구를 "권한이 없습니다"로 두지 않는 것은 주소가 맞는지 틀린지를 알려 주지 않기 위해서다.
+ */
 export function AdminShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
+  const [confirmed, setConfirmed] = useState(false);
+
+  useEffect(() => {
+    // 즉시 실행 async로 감싼다 — 효과 본문에서 곧바로 setState를 부르지 않는 형태여야 한다.
+    void (async () => {
+      const supabase = getSupabaseBrowserClient();
+      const { data } = (await supabase?.auth.getSession()) ?? { data: { session: null } };
+      if (!data.session) {
+        router.replace(`${basePath}/login`);
+        return;
+      }
+      setConfirmed(true);
+    })();
+  }, [router]);
+
   async function logout() {
     await getSupabaseBrowserClient()?.auth.signOut();
     router.replace(`${basePath}/login`);
   }
+
+  if (!confirmed) {
+    return (
+      <main className="grid min-h-screen place-items-center bg-background px-6 text-center text-sm text-muted">
+        확인 중…
+      </main>
+    );
+  }
+
   return (
     <main className="min-h-screen bg-background">
       <div className="mx-auto grid w-full max-w-[1500px] lg:grid-cols-[240px_1fr]">
