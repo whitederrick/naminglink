@@ -39,7 +39,9 @@ export function DreamForm({ dictionary, locale }: { dictionary: Dictionary; loca
   }
 
   return (
-    <section className="rounded-2xl border border-line bg-surface p-6 shadow-sm">
+    // `mt-10`은 사주링크 `SajuForm`과 같은 값이다. 이 여백이 없으면 바로 위의 안내 링크
+    // ("무엇을 근거로 풀이하는지 보기")가 카드 테두리에 붙어 제목 묶음의 일부처럼 읽힌다.
+    <section className="mt-10 rounded-2xl border border-line bg-surface p-5 shadow-sm">
       <label className="block text-sm font-semibold" htmlFor="dream-text">
         {t.textLabel}
       </label>

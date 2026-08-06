@@ -111,14 +111,15 @@ export function DreamResultView({
   const themes = themeLabels(outcome.themes, language);
 
   return (
-    <div className="grid gap-6">
-      <section className="rounded-2xl border border-line bg-surface p-6">
+    // `mt-10`은 사주링크 `SajuResultView`와 같은 값이다. 없으면 첫 카드가 제목에 붙는다.
+    <div className="mt-10 grid gap-6">
+      <section className="rounded-2xl border border-line bg-surface p-5">
         <p className="break-keep-all text-sm leading-6 text-muted">{input.text}</p>
       </section>
 
       {/* **태몽은 표시일 뿐 판정이 아니다.** 문구가 여기서 한 걸음 더 나가면 의학적 단정이 된다. */}
       {outcome.conception ? (
-        <p className="break-keep-all rounded-xl border border-line bg-background p-4 text-sm leading-6">
+        <p className="break-keep-all rounded-xl border border-line bg-background p-5 text-sm leading-6">
           {t.conceptionNotice}
         </p>
       ) : null}
@@ -128,7 +129,7 @@ export function DreamResultView({
         {outcome.matched.length ? (
           <div className="grid gap-3">
             {outcome.matched.map((item) => (
-              <div key={item.id} className="rounded-xl border border-line bg-surface p-4">
+              <div key={item.id} className="rounded-xl border border-line bg-surface p-5">
                 {/* **한국어를 박아 두지 말 것.** 예전에는 `item.term`(= term_ko)과
                     `interpretation_ko`를 그대로 그려, 스물세 언어 전부에서 상징 이름과 풀이가
                     한국어로 나갔다. 고르는 규칙은 `lib/dream-language.ts` 한 곳에 있다. */}
@@ -159,14 +160,20 @@ export function DreamResultView({
 
       {/* 파는 자리. **결과를 다 읽은 뒤, 광고보다 앞**이다 — 파는 것이 먼저다.
           예전에는 `ReportPurchasePanel`이 만들어져 있는데 **어디에서도 부르지 않았다.**
-          상품을 켜는 날 구매로 가는 길이 없는 상태였다(사주링크가 같은 자리를 고쳤다). */}
-      <ReportPurchasePanel
-        kind="card"
-        copy={dictionary.dreamCard}
-        locale={locale}
-        input={input}
-        offerPrice={cardPrice}
-      />
+          상품을 켜는 날 구매로 가는 길이 없는 상태였다(사주링크가 같은 자리를 고쳤다).
+
+          **상징을 하나도 못 찾았으면 팔지 않는다.** 카드에 담을 것이 "찾지 못했습니다"
+          한 줄뿐이라, 그 상태로 파는 것은 빈 것을 파는 것이다. 무료 화면이 정직하게 비워
+          두고서 그 옆에서 결제를 권하면 그 정직함이 미끼가 된다. */}
+      {outcome.matched.length ? (
+        <ReportPurchasePanel
+          kind="card"
+          copy={dictionary.dreamCard}
+          locale={locale}
+          input={input}
+          offerPrice={cardPrice}
+        />
+      ) : null}
 
       {/* **태몽 리포트는 태몽 상징이 걸렸을 때만 판다.** 없는 사람에게 띄우면 "당신 꿈에 태몽이
           있다"는 뜻으로 읽히고, 사서 열면 3장이 «찾지 못했습니다»로 채워진다. 파는 것과 있는

@@ -72,9 +72,55 @@ check("합성어 속 한 글자는 안 걸린다(특별→별)", !inWord.matched
 const particle = matchDream("뱀에게 물렸다");
 check("조사 속 한 글자는 안 걸린다(에게→게)", !particle.matched.some((m) => m.term_ko === "게"), particle.matched.map((m) => m.term_ko).join(","));
 
+// **낱말 첫머리가 통째로 열려 있었다.** 위의 두 경우(합성어 뒤·조사 속)만 막고 앞 글자만
+// 보던 시절, 한 음절 상징이 낱말 **첫머리**에서는 그대로 걸렸다. 시험 문장 열두 개가 전부
+// 오탐이었다(2026-08-06). 한 음절 상징이 예순 개라 실제 문장이면 거의 반드시 하나는 걸린다.
+//
+// **표본 하나로 끝내지 않는다.** 이 결함이 한 글자짜리 전부에 걸쳐 있었으므로 여럿을 센다.
+const FIRST_SYLLABLE_TRAPS: Array<[string, string]> = [
+  ["친구에게 말했다", "말"],
+  ["배고픔을 느꼈다", "배"],
+  ["손님이 찾아왔다", "손"],
+  ["발표를 하는 꿈이었다", "발"],
+  ["차분하게 걸었다", "자동차"],
+  ["해변가를 걸었다", "해"],
+  ["새벽에 깼다", "새"],
+  ["개울가에 앉아 있었다", "개"],
+  ["관심이 없었다", "관"],
+  ["약속에 늦었다", "약"],
+  ["밤늦게 돌아왔다", "밤"],
+  ["소리를 질렀다", "소"],
+];
+const trapped = FIRST_SYLLABLE_TRAPS.filter(([text, term]) =>
+  matchDream(text).matched.some((m) => m.term_ko === term),
+);
+check(
+  `낱말 첫머리의 한 글자는 안 걸린다 (${FIRST_SYLLABLE_TRAPS.length}개)`,
+  trapped.length === 0,
+  trapped.map(([text, term]) => `${text}→${term}`).join(" · "),
+);
+
 // **막기만 하고 끝나면 안 된다.** 제대로 쓰인 한 글자 상징은 그대로 걸려야 한다.
+// 조사가 붙은 꼴을 여럿 둔다 — 조사 목록(`PARTICLES`)을 줄이면 여기서 걸린다.
 const standalone = matchDream("큰 별이 빛났다");
 check("낱말로 쓰인 한 글자는 걸린다", standalone.matched.some((m) => m.id === "star"), standalone.matched.map((m) => m.term_ko).join(","));
+
+const WITH_PARTICLES: Array<[string, string]> = [
+  ["소를 몰고 갔다", "소"],
+  ["불이 크게 났다", "불"],
+  ["똥을 밟았다", "똥"],
+  ["말이 달렸다", "말"],
+  ["집에 들어갔다", "집"],
+  ["밤을 주웠다", "밤"],
+];
+const lost = WITH_PARTICLES.filter(
+  ([text, term]) => !matchDream(text).matched.some((m) => m.term_ko === term),
+);
+check(
+  `조사가 붙은 한 글자는 그대로 걸린다 (${WITH_PARTICLES.length}개)`,
+  lost.length === 0,
+  lost.map(([text, term]) => `${text}→${term} 놓침`).join(" · "),
+);
 
 // ── 태몽 ───────────────────────────────────────────────────────────────────
 // **태그가 아니라 고른 의미로 판정한다.** 사전을 넓히며 돼지·소·말에도 태몽 태그를 붙였는데,

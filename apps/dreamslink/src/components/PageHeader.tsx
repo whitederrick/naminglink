@@ -24,6 +24,7 @@ import { localePath } from "@/lib/locale-path";
 export function PageHeader({
   locale,
   path,
+  width = "max-w-5xl",
 }: {
   locale: Locale;
   /**
@@ -35,6 +36,16 @@ export function PageHeader({
    * 버튼 구성도 이 값으로 갈린다(아래 `navFor`).
    */
   path: string;
+  /**
+   * 이 화면 본문의 폭. **버튼 줄이 본문과 같은 선에서 시작하게 하려고 받는다.**
+   *
+   * 머리글이 `max-w-5xl`로 박혀 있었는데 본문은 화면마다 `3xl`·`4xl`이라, 상단 버튼의 왼쪽
+   * 끝이 제목보다 100px쯤 바깥에 있었다(2026-08-06 화면에서 실측). 두 줄이 각자 다른 자리에서
+   * 시작하니 정렬이 어긋나 보인다 — 사주링크도 같은 구조라 같은 증상이 있다.
+   *
+   * 부르는 쪽의 본문 컨테이너와 **같은 값**을 넘길 것. 값이 갈리면 다시 어긋난다.
+   */
+  width?: string;
 }) {
   const dictionary = getDictionary(locale);
   const nav = navFor(path, locale, dictionary);
@@ -44,7 +55,7 @@ export function PageHeader({
       {/* **화면에서 가장 먼저 나오는 자리.** 흐름 안에 있으므로 스크롤하면 같이 올라간다 —
           화면에 붙어 따라다니는 스티키가 아니다(구글이 '앵커 광고'라 부르는 그것은 자동 광고로만
           공식 지원되고, 직접 `position: fixed`로 만들면 정책 위험이 있다). */}
-      <div className="mx-auto w-full max-w-5xl px-6 pt-4">
+      <div className={`mx-auto w-full ${width} px-6 pt-4`}>
         <AdBanner placement="top" locale={locale} />
       </div>
 
@@ -54,7 +65,7 @@ export function PageHeader({
 
           `min-w-0`과 줄바꿈이 함께 있어야 한다. flex 항목은 기본이 min-content라, 이것이 없으면
           버튼 줄이 뷰포트보다 넓어질 때 줄지 않고 페이지 전체가 가로로 넘친다. */}
-      <div className="mx-auto w-full max-w-5xl px-6 py-4">
+      <div className={`mx-auto w-full ${width} px-6 py-4`}>
         <div className="flex min-w-0 flex-wrap items-center gap-2">
           {nav.map((item) =>
             item.tone === "solid" ? (

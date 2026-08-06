@@ -58,9 +58,9 @@ export default async function Page({
       {/* 흰 막을 얇게 덮어 본문 글자의 대비를 확보한다. 값은 사주링크와 같다. */}
       <div aria-hidden className="fixed inset-0 z-0 bg-[#f9f8fc]/25" />
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/dream" />
+        <PageHeader locale={locale} path="/dream" width="max-w-3xl" />
         <div className="mx-auto w-full max-w-3xl px-6 pb-16">
-          <section className="mt-6">
+          <section className="mt-10">
             <PageTitle locale={locale} path="/dream" title={dictionary.dream.title} />
             <p className="break-keep-all mt-3 text-sm leading-6 text-muted">
               {dictionary.dream.subtitle}
@@ -72,7 +72,7 @@ export default async function Page({
           {/* 가장 사적인 글을 적기 직전에 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
         </div>
-        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
+        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
           <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />

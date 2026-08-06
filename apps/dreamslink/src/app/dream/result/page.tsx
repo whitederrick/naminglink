@@ -5,6 +5,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { DreamResultView } from "@/components/DreamResultView";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
+import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/locale";
@@ -71,9 +72,16 @@ export default async function Page({
       </div>
       <div aria-hidden className="fixed inset-0 z-0 bg-[#f9f8fc]/25" />
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/dream/result" />
+        <PageHeader locale={locale} path="/dream/result" width="max-w-3xl" />
         <div className="mx-auto w-full max-w-3xl px-6 pb-16">
-          <PageTitle locale={locale} path="/dream/result" title={dictionary.dream.resultTitle} />
+          {/* `mt-10`은 사주링크 결과 화면과 같은 값이다. 없으면 제목이 머리글 버튼 줄에
+              그대로 붙는다 — 이 자리에 언어 선택기도 함께 있어 더 빽빽해 보인다. */}
+          <PageTitle
+            locale={locale}
+            path="/dream/result"
+            title={dictionary.dream.resultTitle}
+            className="mt-10"
+          />
           {/* 가격은 서버가 `product_settings`에서 읽어 내려보낸다. 화면이 값을 만들지 않는다.
               판매 전(`enabled=false`)이면 null이 되어 패널이 스스로 "준비 중"으로 뜬다. */}
           <DreamResultView
@@ -82,8 +90,12 @@ export default async function Page({
             cardPrice={cardOffer?.display ?? null}
             conceptionPrice={conceptionOffer?.display ?? null}
           />
+          {/* 결과를 읽은 직후에 "참고 자료"라는 것과 "저장되지 않았다"는 것을 함께 본다.
+              사주링크 결과 화면과 같은 자리·같은 값이다 — 드림링크에는 이것이 빠져 있어
+              가장 사적인 글을 적은 사람이 결과 화면에서 미저장 안내를 못 봤다. */}
+          <PrivacyNotice locale={locale} className="mt-12" />
         </div>
-        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
+        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
           <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />
