@@ -27,8 +27,7 @@ export const siteUrl = (
  */
 const basePaths = [
   "/",
-  "/compatibility",
-  "/affinity",
+  "/dream",
   "/pricing",
   "/terms",
   "/privacy",

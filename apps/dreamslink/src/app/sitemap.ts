@@ -12,7 +12,7 @@ import { supportedLocales } from "@/lib/i18n";
  * `lastModified`는 일부러 넣지 않았다. 요청마다 현재 시각을 적으면 "모든 페이지가 늘 방금
  * 바뀌었다"는 신호가 되어 오히려 신뢰를 잃는다.
  */
-const servicePaths: string[] = ["/compatibility", "/affinity"];
+const servicePaths: string[] = ["/dream"];
 
 function priorityOf(path: string) {
   if (path === "/") return 1;

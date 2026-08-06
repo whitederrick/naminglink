@@ -23,15 +23,10 @@ type GuideOrigin = {
 };
 
 const ORIGINS: Record<string, GuideOrigin> = {
-  compatibility: {
-    path: "/compatibility",
-    koLabel: "사주 궁합",
-    enLabel: "Back to compatibility",
-  },
-  affinity: {
-    path: "/affinity",
-    koLabel: "인연의 결",
-    enLabel: "Back to your match profile",
+  dream: {
+    path: "/dream",
+    koLabel: "꿈 해몽",
+    enLabel: "Back to the dream reading",
   },
 };
 

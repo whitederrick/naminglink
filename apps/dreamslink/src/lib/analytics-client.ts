@@ -11,8 +11,13 @@
  * 것은 어떤 화면에서 무엇이 시작·완료됐는지뿐이다.
  */
 
-/** 인연링크의 메뉴 구분. 콘솔의 `inyeonServiceTypeLabels`와 같은 값이어야 한다. */
-export type InyeonServiceType = "GUNGHAP_MATCH" | "AFFINITY_MATCH";
+/**
+ * 드림링크의 메뉴 구분. **콘솔의 `SERVICE_CONSOLE.dreamslink.serviceTypes`와 같은 값이어야 한다.**
+ *
+ * 한쪽만 고치면 콘솔의 「메뉴별 활용」 표가 조용히 0으로 나온다 — 이벤트는 쌓이는데 표가 다른
+ * 이름을 찾기 때문이다. 사주링크에서 실제로 그랬다(`SAJU_TODAY`를 아무도 보내지 않았다).
+ */
+export type DreamServiceType = "DREAM_READING";
 
 export type AnalyticsEvent = {
   eventType:
@@ -22,7 +27,7 @@ export type AnalyticsEvent = {
     | "ANALYSIS_FAILED";
   path?: string;
   locale?: string;
-  serviceType?: InyeonServiceType;
+  serviceType?: DreamServiceType;
 };
 
 /** 전송을 기다리는 최대 시간. 넘으면 그냥 넘어간다 — 통계 때문에 이용자를 세워 둘 수 없다. */

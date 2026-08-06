@@ -137,18 +137,14 @@ export default async function LandingPage({
                 하나로 본다 — 후자가 문턱이 낮으므로 나란히 두어 둘 다 첫 화면에서 보이게 한다.
                 채운 버튼 하나 + 테두리 버튼 하나로 두어 무엇이 이 서비스의 본 상품인지는
                 그대로 남긴다. */}
+            {/* **메뉴가 하나다.** 인연링크는 둘이었지만 이 서비스는 해몽 하나뿐이라, 버튼을
+                둘로 벌려 두면 없는 선택지를 있는 것처럼 보이게 한다. */}
             <div className="mt-5 flex flex-wrap gap-3">
               <Link
-                href={localePath("/compatibility", linkLocale)}
+                href={localePath("/dream", linkLocale)}
                 className="inline-block rounded-full bg-white px-7 py-3.5 text-lg font-semibold text-[#3d1327] shadow-sm transition hover:bg-white/90"
               >
-                {landing.cta}
-              </Link>
-              <Link
-                href={localePath("/affinity", linkLocale)}
-                className="inline-block rounded-full border border-white/45 bg-white/12 px-7 py-3.5 text-lg font-semibold text-white shadow-sm backdrop-blur transition hover:bg-white/20"
-              >
-                {dictionary.affinity.menu}
+                {dictionary.dream.submit}
               </Link>
             </div>
           </section>

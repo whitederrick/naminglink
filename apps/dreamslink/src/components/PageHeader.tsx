@@ -130,13 +130,9 @@ function navFor(
 
   // 결과 화면. 되돌아갈 입력 화면과 그 화면의 '다시' 버튼 문구가 메뉴마다 다르다.
   const backToForm: Record<string, { form: string; label: string }> = {
-    "/compatibility/result": {
-      form: "/compatibility",
-      label: dictionary.result.recalculate,
-    },
-    "/affinity/result": {
-      form: "/affinity",
-      label: dictionary.affinity.recalculate,
+    "/dream/result": {
+      form: "/dream",
+      label: dictionary.dream.again,
     },
   };
   const back = backToForm[path];
@@ -151,18 +147,12 @@ function navFor(
   return [
     home("solid"),
     {
-      href: localePath("/compatibility", locale),
-      // 랜딩의 '사주 궁합 보기' 버튼과 같은 말이다. 메뉴용 짧은 키를 새로 만들면 23벌을 더
-      // 번역해야 하고, 같은 곳으로 가는 버튼이 화면마다 다른 이름으로 불리게 된다.
-      label: dictionary.landing.cta,
+      href: localePath("/dream", locale),
+      // 랜딩의 버튼과 같은 말이다. 메뉴용 짧은 키를 새로 만들면 23벌을 더 번역해야 하고,
+      // 같은 곳으로 가는 버튼이 화면마다 다른 이름으로 불리게 된다.
+      label: dictionary.dream.submit,
       tone: "outline",
-      active: path === "/compatibility",
-    },
-    {
-      href: localePath("/affinity", locale),
-      label: dictionary.affinity.menu,
-      tone: "outline",
-      active: path === "/affinity",
+      active: path === "/dream",
     },
   ];
 }

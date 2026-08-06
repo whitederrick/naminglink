@@ -10,6 +10,34 @@ export const it: Dictionary = {
   currentLanguage: "Lingua attuale",
   moreLanguages: "Altro",
   closeLanguages: "Chiudi",
+  // **아직 번역 전이다.** en 문구를 그대로 둔 자리로, 번역 파이프라인이 채운다.
+  // `verify-i18n`이 en과 같은 문자열을 의심으로 잡는다.
+  dream: {
+    title: "Dream reading",
+    subtitle: "Write down the dream you had and we will look it up in a dictionary of traditional Korean dream symbols.",
+    textLabel: "What did you dream about?",
+    textPlaceholder: "Write it as you remember it. For example: a carp leapt out of clear water",
+    moodLabel: "How you felt on waking",
+    moods: {
+      good: "Good",
+      scary: "Frightening",
+      strange: "Strange",
+      sad: "Sad",
+      unsure: "Not sure",
+    },
+    recurringLabel: "I have this dream again and again",
+    submit: "Read my dream",
+    submitting: "Looking it up…",
+    errorEmpty: "Please write a little more about the dream.",
+    errorGeneric: "We could not load the reading. Please try again in a moment.",
+    resultTitle: "Dream reading",
+    symbolsHeading: "Symbols found in your dream",
+    noSymbols: "No traditional symbol from our dictionary appeared in this dream. We leave this empty rather than invent a meaning.",
+    themesHeading: "What they point to together",
+    conceptionNotice: "Symbols traditionally read as conception omens appear here. This does not determine pregnancy.",
+    disclaimer: "This is reference material from a traditional dream-reading perspective, not medical, financial, or legal advice. We do not store the dream you wrote.",
+    again: "Read another dream",
+  },
   landing: {
     title: "Scopri quanto due persone\nsi accordano",
     subtitle:

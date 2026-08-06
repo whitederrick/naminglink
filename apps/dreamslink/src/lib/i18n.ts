@@ -129,6 +129,32 @@ export type Dictionary = {
   currentLanguage: string;
   moreLanguages: string;
   closeLanguages: string;
+  /**
+   * 해몽 화면. **이 서비스의 본체다.**
+   *
+   * 무료 조회가 트래픽을 받는 자리라 여기 문구가 가장 많이 읽힌다. 궁합 시절의 절(`form`·
+   * `reading`·`relation`·`affinity` 등)은 리테마가 끝날 때까지 남겨 두되, 새 화면은 이 절만 쓴다.
+   */
+  dream: {
+    title: string;
+    subtitle: string;
+    textLabel: string;
+    textPlaceholder: string;
+    moodLabel: string;
+    moods: { good: string; scary: string; strange: string; sad: string; unsure: string };
+    recurringLabel: string;
+    submit: string;
+    submitting: string;
+    errorEmpty: string;
+    errorGeneric: string;
+    resultTitle: string;
+    symbolsHeading: string;
+    noSymbols: string;
+    themesHeading: string;
+    conceptionNotice: string;
+    disclaimer: string;
+    again: string;
+  };
   landing: {
     title: string;
     subtitle: string;
@@ -469,6 +495,32 @@ const ko: Dictionary = {
   currentLanguage: "현재 언어",
   moreLanguages: "더보기",
   closeLanguages: "닫기",
+  dream: {
+    title: "꿈 해몽",
+    subtitle: "꾼 꿈을 적어 주시면 전통 해몽 상징 사전에서 찾아 풀어 드립니다.",
+    textLabel: "어떤 꿈을 꾸셨나요",
+    textPlaceholder: "기억나는 대로 적어 주세요. 예: 맑은 물에서 잉어가 뛰어올랐다",
+    moodLabel: "깨어났을 때 기분",
+    moods: {
+      good: "좋았다",
+      scary: "무서웠다",
+      strange: "이상했다",
+      sad: "슬펐다",
+      unsure: "잘 모르겠다",
+    },
+    recurringLabel: "같은 꿈을 반복해서 꿉니다",
+    submit: "해몽 보기",
+    submitting: "찾아보는 중…",
+    errorEmpty: "꾼 꿈을 조금만 더 적어 주세요.",
+    errorGeneric: "해몽을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.",
+    resultTitle: "꿈 해몽",
+    symbolsHeading: "꿈에서 찾은 상징",
+    noSymbols: "이 꿈에서는 사전에 있는 전통 상징을 찾지 못했습니다. 없는 의미를 지어내지 않기 위해 비워 둡니다.",
+    themesHeading: "함께 가리키는 것",
+    conceptionNotice: "전통적으로 태몽으로 보아 온 상징이 있습니다. 임신 여부를 판정하지는 않습니다.",
+    disclaimer: "전통 해몽 관점의 참고 자료이며 의학·재무·법률 자문이 아닙니다. 적어 주신 꿈은 저장하지 않습니다.",
+    again: "다른 꿈 보기",
+  },
   landing: {
     title: "두 사람의 인연,\n숫자로 확인해 보세요",
     subtitle:
@@ -1089,6 +1141,32 @@ const en: Dictionary = {
   currentLanguage: "Current language",
   moreLanguages: "More",
   closeLanguages: "Close",
+  dream: {
+    title: "Dream reading",
+    subtitle: "Write down the dream you had and we will look it up in a dictionary of traditional Korean dream symbols.",
+    textLabel: "What did you dream about?",
+    textPlaceholder: "Write it as you remember it. For example: a carp leapt out of clear water",
+    moodLabel: "How you felt on waking",
+    moods: {
+      good: "Good",
+      scary: "Frightening",
+      strange: "Strange",
+      sad: "Sad",
+      unsure: "Not sure",
+    },
+    recurringLabel: "I have this dream again and again",
+    submit: "Read my dream",
+    submitting: "Looking it up…",
+    errorEmpty: "Please write a little more about the dream.",
+    errorGeneric: "We could not load the reading. Please try again in a moment.",
+    resultTitle: "Dream reading",
+    symbolsHeading: "Symbols found in your dream",
+    noSymbols: "No traditional symbol from our dictionary appeared in this dream. We leave this empty rather than invent a meaning.",
+    themesHeading: "What they point to together",
+    conceptionNotice: "Symbols traditionally read as conception omens appear here. This does not determine pregnancy.",
+    disclaimer: "This is reference material from a traditional dream-reading perspective, not medical, financial, or legal advice. We do not store the dream you wrote.",
+    again: "Read another dream",
+  },
   landing: {
     title: "See how two people\nfit together",
     subtitle:
