@@ -39,63 +39,63 @@ export const NOTICE_KIND_LABEL: Record<NoticeKind, { ko: string; en: string }> =
 /** 최신이 위로. 이 순서가 곧 표시 순서다. */
 export const notices: Notice[] = [
   {
-    id: "2026-08-02-contact",
-    publishedAt: "2026-08-02",
-    kind: "support",
+    id: "2026-08-06-no-storage",
+    publishedAt: "2026-08-06",
+    kind: "service",
     title: {
-      ko: "문의 창구와 서비스 소개 페이지를 열었습니다",
-      en: "Contact and About pages are now open",
+      ko: "적어 주신 꿈은 저장하지 않습니다",
+      en: "We do not store the dream you write",
     },
     body: {
       ko: [
-        "문의·환불·개인정보 요청·계산 오류 신고를 받는 창구를 한곳에 모았습니다. 화면 아래 문의하기에서 확인하실 수 있습니다.",
-        "계산 오류로 보이는 것을 알려 주실 때는 어떤 생년월일시를 넣으셨는지 함께 적어 주십시오. 저희는 입력을 저장하지 않아 그 값이 없으면 다시 계산해 볼 수 없습니다.",
+        "꿈 이야기는 이 서비스가 받는 값 중 가장 사적인 것입니다. 그래서 어떤 표에도 기록하지 않습니다. 입력은 결과 주소에만 실려 계산에 쓰이고, 창을 닫으면 함께 사라집니다.",
+        "꿈을 모아 두고 흐름을 보여 드리는 기능(꿈일기)은 만들지 않기로 했습니다. 쓸모 있는 기능이지만, 그러려면 가장 사적인 글을 계속 보관해야 하기 때문입니다.",
+        "결과 링크를 남에게 보내면 그 안에 꿈 내용이 담겨 있습니다. 공유하실 때 유의해 주십시오.",
       ],
       en: [
-        "Questions, refunds, privacy requests and reports of calculation errors now have one place to go — see the contact page in the footer.",
-        "If something looks miscalculated, please include the birth details that produced it. We do not store what you enter, so without them we cannot reproduce the reading.",
+        "What you dreamt is the most personal thing this service receives, so it is written to no table of ours. The text travels only in the result address, is used for the reading, and is gone when you close the tab.",
+        "We decided not to build a dream journal. It would be useful, but it would mean keeping that most personal text indefinitely.",
+        "A result link carries the dream inside it. Please keep that in mind before sharing one.",
       ],
     },
   },
   {
-    id: "2026-08-01-pdf-language",
-    publishedAt: "2026-08-01",
-    kind: "product",
-    title: {
-      ko: "아랍어·크메르어 화면에서는 리포트가 영어로 나갑니다",
-      en: "Reports are issued in English for Arabic and Khmer",
-    },
-    body: {
-      ko: [
-        "화면을 아랍어나 크메르어로 보고 계신 경우, 구매하시는 PDF 리포트는 영어로 만들어집니다. 문서를 만드는 도구가 아직 이 두 문자를 문단으로 조판하지 못하기 때문입니다.",
-        "화면은 그대로 보실 수 있고, 리포트에 적히는 이름은 입력하신 문자 그대로 들어갑니다.",
-        "결제 화면에서도 같은 내용을 미리 알려 드립니다. 도구가 이 문자를 지원하게 되면 그때 이 자리에 알리겠습니다.",
-      ],
-      en: [
-        "If you are reading in Arabic or Khmer, the PDF report you buy is produced in English. The tool that lays out our documents cannot yet set paragraphs in those scripts.",
-        "The screen stays in your language, and your name is printed in your own script inside the report.",
-        "The same note appears before payment. When the tool supports these scripts, we will say so here.",
-      ],
-    },
-  },
-  {
-    id: "2026-08-01-engine-version",
-    publishedAt: "2026-08-01",
+    id: "2026-08-06-engine-version",
+    publishedAt: "2026-08-06",
     kind: "engine",
     title: {
-      ko: "결과에 계산 기준을 함께 적습니다",
-      en: "Every reading carries the version of the rules used",
+      ko: "결과에 상징 사전과 계산 기준을 함께 적습니다",
+      en: "Every reading carries the dictionary and rule versions used",
     },
     body: {
       ko: [
-        "결과 화면과 리포트 아래에는 계산 기준(예: inyeonlink-match-v10)이 적혀 있습니다. 같은 입력이면 같은 기준에서 언제나 같은 값이 나옵니다.",
-        "명리 해석 규칙을 고쳐 점수가 달라질 수 있게 되면, 그 사실과 시행일을 이 자리에 먼저 올립니다. 예전에 받으신 결과 링크의 숫자가 달라지는 일이기 때문입니다.",
-        "현재 기준은 v10이며, 결제는 아직 준비 중입니다.",
+        "해석의 근거는 전통 해몽 상징 사전입니다. 결과와 문서에는 그 사전의 판(예: 1.2.0)과 찾는 규칙의 기준(예: dream-1.0.0)이 함께 적힙니다. 같은 꿈이면 같은 기준에서 언제나 같은 상징이 나옵니다.",
+        "사전에 상징을 더하거나 의미를 고쳐 결과가 달라질 수 있게 되면, 그 사실을 이 자리에 올립니다. 예전에 받으신 결과가 달라지는 일이기 때문입니다.",
+        "사전에 없는 전통 의미는 만들지 않습니다. 상징을 하나도 찾지 못하면 찾지 못했다고 적고 끝냅니다.",
       ],
       en: [
-        "Each reading and report carries the rule set used to produce it (for example inyeonlink-match-v10). The same input on the same rule set always gives the same numbers.",
-        "If we change the interpretation rules in a way that can move a score, we post that here first, with the date it takes effect — because a result link you already hold would then read differently.",
-        "The current rule set is v10. Payments are not open yet.",
+        "Every reading is grounded in a dictionary of traditional Korean dream symbols. The result and the documents carry both the dictionary edition (for example 1.2.0) and the matching rule set (for example dream-1.0.0). The same dream on the same versions always yields the same symbols.",
+        "If we add symbols or revise meanings in a way that can change a reading, we post that here — because a result you already hold would then read differently.",
+        "We do not invent traditional meanings. If no symbol is found, we say so and stop.",
+      ],
+    },
+  },
+  {
+    id: "2026-08-06-conception",
+    publishedAt: "2026-08-06",
+    kind: "service",
+    title: {
+      ko: "태몽은 알려 드릴 뿐 판정하지 않습니다",
+      en: "Conception omens are shown, not decided",
+    },
+    body: {
+      ko: [
+        "전통적으로 태몽으로 보아 온 상징이 꿈에 나오면 그 사실을 알려 드립니다. 다만 임신 여부나 아이의 성별을 판정하지는 않습니다 — 그런 주장에는 근거가 없고, 의학적 판단은 의료기관의 몫입니다.",
+        "전통 서술에 아들·딸 이야기가 나오는 것은 그렇게 보아 온 관습을 옮긴 것이며, 저희가 그것을 맞힌다는 뜻이 아닙니다.",
+      ],
+      en: [
+        "When symbols traditionally read as conception omens appear in a dream, we tell you so. We do not determine whether you are pregnant or the sex of a child — there is no basis for such a claim, and medical judgement belongs to a clinician.",
+        "Where the tradition speaks of a son or a daughter, we are recording a custom, not claiming to predict it.",
       ],
     },
   },

@@ -37,7 +37,7 @@ export default async function Page(props: GuidePageProps) {
       <GuideSection title="What a result link actually carries">
         <p>When a reading is produced, the address looks like this:</p>
         <p className="overflow-x-auto rounded-lg border border-line bg-surface-strong px-4 py-3 font-mono text-xs leading-6">
-          /en/compatibility/result<b className="text-brand-plum">#</b>
+          /en/dream/result<b className="text-brand-plum">#</b>
           eyJhIjp7InkiOjE5OTAsLi4u
         </p>
         <p>

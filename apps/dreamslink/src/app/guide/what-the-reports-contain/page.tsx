@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
-import { getDictionary } from "@/lib/i18n";
 import { guideContext, guideMetadata, type GuidePageProps } from "@/lib/guide-page";
 import { getAllReportPrices } from "@/lib/report-product";
+import { CONCEPTION_PAGE_COUNT } from "@/lib/report-pages";
+import { DREAM_SYMBOLS } from "@/lib/dream-symbols";
 
-/** 한국어판 `guide/reports`의 영어판. 목차·금액을 손으로 적지 않는 규칙도 같다. */
+/**
+ * 유료 상품 안내(영어판).
+ *
+ * **금액과 장수를 손으로 적지 않는다.** 값은 `product_settings`에서, 장수는
+ * `CONCEPTION_PAGE_COUNT`에서 읽는다. 손으로 적으면 값을 바꾸는 날 이 문서만 옛 값으로 남고,
+ * 그것이 곧 고지 위반이 된다(약관도 같은 자리를 본다).
+ */
 
 const SLUG = "what-the-reports-contain";
 
@@ -15,7 +22,6 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 
 export default async function Page(props: GuidePageProps) {
   const { locale, entry, hubHref } = await guideContext(SLUG, props);
-  const dictionary = getDictionary(locale);
   const prices = await getAllReportPrices();
 
   return (
@@ -25,126 +31,70 @@ export default async function Page(props: GuidePageProps) {
       title={entry.title}
       description={entry.summary}
       backHref={hubHref}
-      backLabel="How it works"
+      backLabel="Guides"
     >
-      <GuideSection title="The screen stays; the PDF adds">
+      <GuideSection title="The reading itself is free">
         <p>
-          Calculating and reading a compatibility result is <b>free</b>. The match rate, the score
-          and weight of every factor, both charts with elemental strength, and the shape of the
-          relationship are all on screen. Nothing was taken off the screen to make room for a paid
-          product.
+          Writing down a dream and seeing which traditional symbols it contains costs nothing and
+          needs no account. People dream every night, so that had to stay free.
         </p>
         <p>
-          What the report does is <b>add a layer the screen does not show</b> — and that layer is
-          not invented. It is material the engine already computes on the way to the score but
-          never displays.
+          The two paid products do not unlock a better reading. They are two ways of{" "}
+          <b>keeping</b> one.
         </p>
       </GuideSection>
 
-      <GuideSection title={`Saju compatibility report — ${prices.card.global}`}>
+      <GuideSection title={`Dream card — ${prices.card.global}`}>
         <p>
-          {prices.card.global} for international payment, {prices.card.domestic} (VAT
-          included) in Korea. {dictionary.report.contents.length} A4 pages.
+          {prices.card.global} for international payment, {prices.card.domestic} (VAT included) in
+          Korea. <b>A single image file, not a PDF.</b>
         </p>
-        <ul>
-          {dictionary.report.contents.map((line) => (
-            <li key={line}>{line}</li>
-          ))}
-        </ul>
         <p>
-          <b>Pages 1&ndash;3 tidy up what is already on screen</b> so it keeps well.{" "}
-          <b>Page 4 onward is what the screen never shows.</b> Here is why each of those was
-          missing.
+          It holds the symbols found in your dream and what they have traditionally meant, laid out
+          as one card you can keep or share. Nothing in it is absent from the free screen — you are
+          paying for the form, not for hidden content.
         </p>
       </GuideSection>
 
-      <GuideSection title="Page 4 — which way the energy flows">
-        <p>
-          On screen the Five Elements factor is a single number. That number is the{" "}
-          <b>average of two directions</b> — how much your partner supplies what you need, and how
-          much you supply what they need.
-        </p>
-        <p>
-          Supply is inherently <b>asymmetric</b>: what you need and what they need are different.
-          An average makes a pairing where only one side is well supplied look identical to one
-          where both are. The report separates them.
-        </p>
-        <p>
-          The same page carries the <b>branch relations of all four pillars</b>. Only the Day
-          branch enters the match rate — it is the spouse seat — but the Year, Month and Hour
-          pillars can be read with the same table.
-        </p>
-        <GuideNote title="Those scores are not part of the match rate">
-          Adding them would change the total and break result links already shared. So they are
-          printed as reading material, with a note under the table saying exactly that.
-        </GuideNote>
-      </GuideSection>
-
-      <GuideSection title="Page 5 — a closer look at each chart">
-        <p>
-          The bars on screen show <b>how much</b> of each element is present. The report adds{" "}
-          <b>whether the birth month pushes it forward</b>. The same amount behaves differently at
-          Wang (旺) than at Sa (死).
-        </p>
-        <p>
-          Strength before and after the month&rsquo;s influence sits side by side, so you can see
-          what the season lifted and by how much. The <b>ally ratio</b> behind the strong/weak
-          verdict is printed too — the screen gives the verdict, the report shows where it fell.
-        </p>
-      </GuideSection>
-
-      <GuideSection title="Page 6 — what each of their pillars is to you">
-        <p>
-          The match rate compares <b>Day Masters only</b>. The same rule fixes a Ten God for their
-          other three pillars as well. Knowing the Day pillar tells you what that person is to you;
-          it does not tell you <b>which part of them is what to you</b>.
-        </p>
-        <p>This has direction, so both sides are printed: your view of them, and theirs of you.</p>
-      </GuideSection>
-
-      <GuideSection title="Page 7 — how the charts were calculated">
-        <p>
-          How far the birth time was corrected to true solar time, whether that correction moved
-          the date, and the solar and lunar dates the chart was drawn from. The concept is
-          explained in <b>How we calculate compatibility</b>; the specific minutes are different
-          for every person, so they appear only in the report.
-        </p>
-      </GuideSection>
-
-      <GuideSection title={`Match profile report — ${prices.conception.global}`}>
+      <GuideSection
+        title={`Conception-dream report — ${prices.conception.global}`}
+      >
         <p>
           {prices.conception.global} for international payment, {prices.conception.domestic} (VAT
-          included) in Korea. {dictionary.affinityReport.contents.length} A4 pages.
+          included) in Korea. {CONCEPTION_PAGE_COUNT} A4 pages.
         </p>
-        <ul>
-          {dictionary.affinityReport.contents.map((line) => (
-            <li key={line}>{line}</li>
-          ))}
-        </ul>
         <p>
-          Here the <b>full ranking</b> is the point. The screen shows only the three types that
-          suit you best; the report ranks <b>all</b> ten heavenly stems and all twelve zodiac
-          signs. With only the top three you cannot see who comes next, or who sits at the bottom.
+          When symbols traditionally read as conception omens appear, this report sets out those
+          symbols, the meanings our dictionary records for them, and the cultural background where
+          we have it. The last page is left for you to write the date and a few words by hand.
+        </p>
+        <p>
+          <b>It does not determine pregnancy or the sex of a child.</b> It tells you that symbols
+          traditionally read as conception omens appeared in your dream, and nothing beyond that.
+          Medical judgement belongs to a clinician.
         </p>
       </GuideSection>
 
-      <GuideSection title="Before you buy">
+      <GuideSection title="Why there is no long report">
         <p>
-          <b>We do not keep the file.</b> Once payment is approved the document is generated in
-          that same request, sent to you, and nothing is stored on the server. That is the same
-          no-storage rule the free flow follows, kept intact for the paid one.
+          Our sibling service issues a nine-page reading, because a Saju engine produces a great many
+          values from one birth date. Dream reading does not work that way.
         </p>
         <p>
-          So please <b>save the file right after payment.</b> The same order can be downloaded up
-          to five times, but once you leave the result screen the input is gone and the document
-          can no longer be produced.
+          The dictionary holds {DREAM_SYMBOLS.length} symbols, and most of them record{" "}
+          <b>one meaning each</b>. Stretching that to nine pages would mean writing traditional
+          meanings that no source records — the one thing this service refuses to do. So the
+          documents are as long as the material honestly allows, and no longer.
         </p>
-        <GuideNote title="A longer report is still reference material">
-          More pages do not make the conclusion more certain. What the report adds is{" "}
-          <b>the reasoning behind the same calculation</b>, not a stronger claim. Practitioners
-          disagree on much of this tradition, and we only compute what can be written as a rule.
-        </GuideNote>
       </GuideSection>
+
+      <GuideNote>
+        We keep neither your dream nor the file we produce. Once payment is approved the document is
+        made in that same request and sent to you; nothing is stored on our side. The same order can
+        be downloaded a few more times in case a download is interrupted, but once you leave the
+        result screen the dream is gone and it can no longer be produced — please save the file
+        right away.
+      </GuideNote>
     </GuideShell>
   );
 }

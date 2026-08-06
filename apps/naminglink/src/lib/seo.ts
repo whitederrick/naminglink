@@ -16,7 +16,11 @@ import { localePath } from "@/lib/locale-path";
  * 넣는 순간 색인이 열리므로, 따로 켜야 하는 스위치는 없다.
  */
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://naminglink.vercel.app"
+// **빈 값을 폴백으로 떨어뜨린다.** `??`는 빈 문자열을 통과시킨다 — 환경변수를 만들어 두고
+// 값을 비워 두면 `siteUrl`이 ""가 되고, 그러면 robots가 "배포 주소인가"를 판정하지 못해
+// **색인이 통째로 열린다.** 드림링크에서 실제로 그렇게 열렸다(2026-08-06). 값이 없는 것과
+// 비어 있는 것을 같게 다룬다.
+  (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://naminglink.vercel.app")
 ).replace(/\/+$/, "");
 
 /**
