@@ -19,20 +19,7 @@
 import { readFileSync } from "node:fs";
 import pg from "pg";
 
-/** `packages/core/src/apps.ts`의 `APP_KEYS`를 읽는다. 못 읽으면 실패로 끝낸다(조용히 넘어가면 검사 자체가 거짓말이 된다). */
-const APPS = (() => {
-  const source = readFileSync(
-    new URL("../../../packages/core/src/apps.ts", import.meta.url),
-    "utf8",
-  );
-  const block = source.match(/export const APP_KEYS\s*=\s*\[([\s\S]*?)\]/);
-  const keys = block?.[1].match(/"([a-z0-9_-]+)"/gi)?.map((q) => q.slice(1, -1));
-  if (!keys?.length) {
-    console.error("packages/core/src/apps.ts에서 APP_KEYS를 읽지 못했습니다.");
-    process.exit(1);
-  }
-  return keys;
-})();
+import { APP_KEYS as APPS } from "../../../scripts/app-keys.mjs";
 
 const envPath = new URL("../.env.local", import.meta.url);
 const env = Object.fromEntries(
@@ -52,6 +39,13 @@ if (!env.SUPABASE_DB_URL) {
 
 const client = new pg.Client({ connectionString: env.SUPABASE_DB_URL });
 await client.connect();
+
+/** `CHECK (x = ANY (ARRAY['a'::text, 'b'::text]))`에서 허용값을 뽑는다. */
+function allowedValuesOf(def) {
+  return (def.match(/'([a-z0-9_-]+)'::text/gi) ?? []).map((quoted) =>
+    quoted.slice(1, quoted.indexOf("'", 1)),
+  );
+}
 
 let failures = 0;
 function check(label, ok, detail) {
@@ -76,11 +70,50 @@ try {
   }
 
   const { rows: constraints } = await client.query(`
-    select conname from pg_constraint
+    select conname, pg_get_constraintdef(oid) as def from pg_constraint
      where conname in ('orders_service_check', 'site_events_app_check', 'ad_events_app_check')`);
   const conNames = new Set(constraints.map((row) => row.conname));
   for (const expected of ["orders_service_check", "site_events_app_check", "ad_events_app_check"]) {
     check(`제약 ${expected}`, conNames.has(expected));
+  }
+
+  /**
+   * **제약이 허용하는 값이 `APP_KEYS`와 같은가.**
+   *
+   * 이 셋은 앱 이름을 SQL에 박아 두고 있다(`CHECK (service = ANY (ARRAY['naminglink', …]))`).
+   * `verify-app-coverage`는 마이그레이션을 훑지 않으므로(append-only라 과거 파일을 계속
+   * 실패시킬 수 없다) **SQL 쪽 목록은 여기서 센다.**
+   *
+   * 앱을 `APP_KEYS`에 더하고 마이그레이션을 잊으면 그 앱의 INSERT가 전부 거부되는데, 값 검사는
+   * "행이 없다"로 조용히 통과한다 — 넣을 수 없으니 샐 값도 없기 때문이다. 그래서 데이터가
+   * 아니라 **제약 자체**를 본다.
+   */
+  // **대조군 먼저.** 늘 통과하는 검사기는 없는 것과 같다. 아래는 사주링크가 생기기 전의
+  // 실제 제약문이다 — 이걸 "하나 빠졌다"로 못 잡으면 이 검사는 장식이다.
+  const CONTROL_OLD_DEF =
+    "CHECK ((service = ANY (ARRAY['naminglink'::text, 'inyeonlink'::text])))";
+  const controlAllowed = allowedValuesOf(CONTROL_OLD_DEF);
+  check(
+    "대조군 — 옛 제약문에서 빠진 앱을 잡는다",
+    controlAllowed.length === 2 &&
+      controlAllowed.includes("naminglink") &&
+      !controlAllowed.includes("sajulink"),
+    controlAllowed.join(" · "),
+  );
+
+  for (const row of constraints) {
+    const allowed = allowedValuesOf(row.def);
+    const missing = APPS.filter((app) => !allowed.includes(app));
+    const extra = allowed.filter((value) => !APPS.includes(value));
+    check(
+      `제약 허용값 ${row.conname}`,
+      missing.length === 0 && extra.length === 0,
+      missing.length
+        ? `마이그레이션이 빠졌다 — 허용되지 않는 앱: ${missing.join(", ")}`
+        : extra.length
+          ? `APP_KEYS에 없는 값이 허용돼 있다: ${extra.join(", ")}`
+          : allowed.join(" · "),
+    );
   }
 
   // 2) 실제로 들어 있는 값. 제약이 있으니 통과해야 정상이지만, 제약이 나중에 빠질 수도 있다.
