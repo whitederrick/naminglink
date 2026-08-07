@@ -91,27 +91,85 @@ console.log(`  판별할 낱말이 없는 상황 ${nameOnly}개`);
 // 문장 쌍은 손으로 적는다. 상황을 기계로 문장화하면 그 문장이 바로 키워드라 언제나 통과하고,
 // **검사가 자기 자신을 확인하는 꼴**이 된다. 이용자가 쓸 법한 말로 적어야 뜻이 있다.
 // ---------------------------------------------------------------------------
-const PAIRS: Array<{ label: string; ko: string; en: string }> = [
-  { label: "뱀 — 품다", ko: "뱀을 품에 안았다", en: "I held a snake in my arms" },
-  { label: "뱀 — 물리다", ko: "뱀에게 물렸다", en: "a snake bit me" },
-  { label: "거울 — 깨짐", ko: "거울이 깨졌다", en: "the mirror was broken" },
-  { label: "이 — 빠짐", ko: "이가 빠졌다", en: "my tooth fell out" },
-  { label: "물 — 맑음", ko: "맑은 물이 흘렀다", en: "clear water was flowing" },
-  { label: "물 — 흐림", ko: "흙탕물이 넘쳤다", en: "muddy water overflowed" },
-  { label: "불 — 크게 번짐", ko: "불이 크게 번졌다", en: "a fire spread wide" },
-  { label: "돼지 — 집에 들어옴", ko: "돼지가 집에 들어왔다", en: "a pig came into the house" },
+/**
+ * **영어 문장은 `dream-contexts.ts`를 보지 않고 한국어 상황만 보고 적었다.**
+ *
+ * 키워드를 보고 적으면 그 키워드를 되비추게 되고, 검사가 「내가 적은 낱말이 내가 적은 낱말과
+ * 맞는가」를 묻는 꼴이 된다. 이용자가 쓸 법한 말로 적어야 키워드가 실제로 쓸모 있는지 드러난다.
+ *
+ * 의미가 여럿인 상징 39개 중 **상황으로 갈리는 것을 모두** 넣었다(나머지는 태몽 신호로
+ * 갈리므로 아래에서 따로 센다).
+ */
+const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
+  { id: "snake", label: "뱀 — 품다", ko: "뱀을 품에 안았다", en: "I picked up a snake and held it" },
+  { id: "snake", label: "뱀 — 물리다", ko: "뱀에게 물렸다", en: "a snake bit my hand" },
+  { id: "dog", label: "개 — 온순", ko: "온순한 개가 다가왔다", en: "a gentle dog came up to me" },
+  { id: "dog", label: "개 — 물림", ko: "개에게 물렸다", en: "a dog bit my leg" },
+  { id: "rat", label: "쥐 — 곡식 모음", ko: "쥐가 곡식을 모으고 있었다", en: "a rat was gathering grain" },
+  { id: "rat", label: "쥐 — 갉음", ko: "쥐가 물건을 갉았다", en: "a rat gnawed through my things" },
+  { id: "bee", label: "벌 — 벌떼", ko: "벌떼가 날아다녔다", en: "a swarm of bees was flying" },
+  { id: "bee", label: "벌 — 쏘임", ko: "벌에 쏘였다", en: "a bee stung me" },
+  { id: "spider", label: "거미 — 아침", ko: "아침 거미를 보았다", en: "I saw a spider in the morning" },
+  { id: "spider", label: "거미 — 얽힘", ko: "거미줄에 얽혔다", en: "I got tangled in a spider web" },
+  { id: "flood", label: "홍수 — 맑은 물", ko: "맑은 물의 큰 홍수가 났다", en: "a huge flood of clear water rose" },
+  { id: "flood", label: "홍수 — 휩쓸림", ko: "홍수에 휩쓸렸다", en: "I was swept away by the flood" },
+  { id: "sea", label: "바다 — 잔잔", ko: "잔잔한 바다를 보았다", en: "the sea was calm and still" },
+  { id: "sea", label: "바다 — 거친 파도", ko: "바다에 거친 파도가 몰아쳤다", en: "rough waves crashed against me" },
+  { id: "rain", label: "비 — 단비", ko: "오랜 가뭄 끝에 비가 내려 단비 같았다", en: "a welcome rain finally fell" },
+  { id: "rain", label: "비 — 궂은 비", ko: "궂은 비가 계속 내렸다", en: "dreary rain kept falling all day" },
+  { id: "fire", label: "불 — 크게", ko: "불이 활활 크게 타올랐다", en: "a fire blazed up enormously" },
+  { id: "fire", label: "불 — 꺼져감", ko: "작은 불이 꺼져 갔다", en: "a small fire was dying out" },
+  { id: "flower", label: "꽃 — 활짝", ko: "활짝 핀 꽃을 보았다", en: "I saw flowers in full bloom" },
+  { id: "flower", label: "꽃 — 시듦", ko: "시든 꽃이 있었다", en: "the flowers had withered" },
+  { id: "snow", label: "눈 — 깨끗", ko: "깨끗한 눈이 쌓였다", en: "clean white snow had piled up" },
+  { id: "snow", label: "눈 — 눈보라", ko: "눈보라가 몰아쳐 눈 속에 갇혔다", en: "I was trapped in a blizzard" },
+  { id: "cloud", label: "구름 — 오색", ko: "오색구름이 떴다", en: "clouds of many colors appeared" },
+  { id: "cloud", label: "구름 — 먹구름", ko: "먹구름이 몰려왔다", en: "dark storm clouds gathered" },
+  { id: "tooth-fall", label: "이 — 윗니", ko: "윗니가 하나 빠졌다 이가 빠지는 꿈이었다", en: "my upper tooth fell out" },
+  { id: "tooth-fall", label: "이 — 피 없이", ko: "피 없이 이가 빠졌다", en: "a tooth fell out without any blood" },
+  { id: "hair", label: "머리 — 빠짐", ko: "머리카락이 자꾸 빠졌다", en: "my hair kept falling out" },
+  { id: "hair", label: "머리 — 자름", ko: "머리카락을 짧게 잘랐다", en: "I cut my hair short" },
+  { id: "naked", label: "벌거벗음 — 사람 앞", ko: "사람들 앞에서 벌거벗었다", en: "I was naked in front of a crowd" },
+  { id: "naked", label: "벌거벗음 — 개의치 않음", ko: "벌거벗었지만 개의치 않았다", en: "I was naked but did not care at all" },
+  { id: "flying", label: "날다 — 자유", ko: "자유롭게 하늘을 날았다", en: "I was flying freely through the sky" },
+  { id: "flying", label: "날다 — 두려움", ko: "날다가 떨어질까 두려웠다", en: "while flying I feared I would fall" },
+  { id: "money", label: "돈 — 들어옴", ko: "돈이 들어왔다", en: "money came in to me" },
+  { id: "money", label: "돈 — 주움", ko: "길에서 돈을 주웠다", en: "I picked up money on the street" },
+  { id: "ring", label: "반지 — 낌", ko: "반지를 손가락에 꼈다", en: "I put a ring on my finger" },
+  { id: "ring", label: "반지 — 잃음", ko: "반지를 잃어버렸다", en: "I lost my ring" },
+  { id: "knife", label: "칼 — 쥠", ko: "칼을 손에 쥐었다", en: "I held a knife in my hand" },
+  { id: "knife", label: "칼 — 다침", ko: "칼에 손을 다쳤다", en: "I was cut by a knife" },
+  { id: "shoe", label: "신발 — 새것", ko: "새 신발을 신었다", en: "I put on new shoes" },
+  { id: "shoe", label: "신발 — 잃음", ko: "신발을 잃어버렸다", en: "I lost my shoes" },
+  { id: "mirror", label: "거울 — 봄", ko: "거울을 들여다보았다", en: "I looked into the mirror" },
+  { id: "mirror", label: "거울 — 깨짐", ko: "거울이 깨졌다", en: "the mirror was broken" },
+  { id: "house", label: "집 — 크고 좋음", ko: "크고 좋은 집이 있었다", en: "there was a large fine house" },
+  { id: "house", label: "집 — 허물어짐", ko: "집이 허물어졌다", en: "the house was collapsing" },
+  { id: "car", label: "자동차 — 잘 몲", ko: "차를 잘 몰았다", en: "I was driving smoothly" },
+  { id: "car", label: "자동차 — 사고", ko: "브레이크가 고장 나 사고가 났다", en: "the brakes failed and I crashed" },
+  { id: "baby", label: "아기 — 예쁨", ko: "예쁜 아기가 웃었다", en: "a lovely baby smiled at me" },
+  { id: "baby", label: "아기 — 울음", ko: "아기가 계속 울었다", en: "a baby kept crying" },
+  { id: "toilet", label: "화장실 — 깨끗", ko: "깨끗한 화장실에 갔다", en: "I went into a clean toilet" },
+  { id: "toilet", label: "화장실 — 더러움", ko: "더러운 화장실이었다", en: "the toilet was filthy" },
+  { id: "tiger", label: "호랑이 — 탐", ko: "호랑이를 타고 달렸다", en: "I rode on a tiger" },
+  { id: "tiger", label: "호랑이 — 쫓김", ko: "호랑이에게 쫓겼다", en: "a tiger chased after me" },
+  { id: "ancestor", label: "조상 — 밝음", ko: "돌아가신 할아버지가 환하게 웃으셨다", en: "my late grandfather smiled brightly" },
+  { id: "ancestor", label: "조상 — 어두움", ko: "돌아가신 분이 어두운 얼굴로 무언가를 요구했다", en: "the deceased looked dark and demanded something" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
 for (const pair of PAIRS) {
-  const ko = matchDream(pair.ko).matched[0];
-  const en = matchDream(pair.en).matched[0];
+  /**
+   * **`matched[0]`이 아니라 그 상징을 찾는다.**
+   *
+   * 실제 문장에는 상징이 여럿 걸린다 — 「쥐가 곡식을 모으고 있었다」는 쥐와 곡식이 함께
+   * 걸리고, 어느 쪽이 앞에 오는지는 무게와 위치가 정한다. 첫 번째끼리 겨루면 **판별과 무관한
+   * 차이를 결함으로 신고한다**(처음에 그렇게 만들어 여섯 건이 거짓으로 걸렸다).
+   */
+  const ko = matchDream(pair.ko).matched.find((item) => item.id === pair.id);
+  const en = matchDream(pair.en).matched.find((item) => item.id === pair.id);
   if (!ko || !en) {
-    fail(pair.label, `상징이 안 걸렸다 — ko ${ko ? "○" : "✗"} / en ${en ? "○" : "✗"}`);
-    continue;
-  }
-  if (ko.id !== en.id) {
-    fail(pair.label, `상징이 다르다 — ko=${ko.id} / en=${en.id}`);
+    fail(pair.label, `${pair.id}이(가) 안 걸렸다 — ko ${ko ? "○" : "✗"} / en ${en ? "○" : "✗"}`);
     continue;
   }
   if (ko.meaning.interpretation_ko !== en.meaning.interpretation_ko) {

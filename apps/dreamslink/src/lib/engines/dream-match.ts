@@ -1,4 +1,5 @@
 import { ALIASES_EN } from "@/lib/dream-aliases-en";
+import { CONTEXT_KO } from "@/lib/dream-contexts-ko";
 import { CONTEXT_EN } from "@/lib/dream-contexts";
 import {
   CONCEPTION_TAG,
@@ -25,6 +26,11 @@ import {
 /**
  * 규칙을 바꾸면 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
  *
+ * 1.3.0 (2026-08-07) — **한국어 판별도 틀리고 있었다.** 상황이 사전형(「반지를 잃음」)이라
+ * 활용형(「잃어버렸다」)과 안 맞고, 상징 이름만 양쪽에서 1점씩 받아 동점이 되어 앞의 의미가
+ * 이겼다 — 반지·신발·머리·아기·화장실·거미 여섯 자리가 라이브에서 틀렸다. 매칭 키를 화면
+ * 문구에서 떼어 냈다(`dream-contexts-ko.ts`). 문장 쌍을 8 → 54개로 늘려 잡은 것이다.
+ *
  * 1.2.0 (2026-08-07) — **영어에도 낱말 경계를 넣었다.** 그전까지 라틴은 무조건 통과라
  * 「I saw a fox」가 소(ox)로, 「was taking a test」가 왕(king)으로 걸렸다. 시험 문장 일곱 중
  * 여섯이 오탐이었다. 한글에서 2026-08-06에 고친 것과 같은 결함이 영어에 남아 있었다.
@@ -33,7 +39,7 @@ import {
  * 「A snake bit me」가 재물 꿈으로 읽혔다. 영어 상황 키워드·영어 별칭·슬래시 표기 분리·
  * 임신 신호 영어판·기능어 거르기를 함께 넣었다. 한국어 결과는 바뀌지 않는다.
  */
-export const ENGINE_VERSION = "dream-1.2.0";
+export const ENGINE_VERSION = "dream-1.3.0";
 
 export type MatchedSymbol = {
   id: string;
@@ -301,8 +307,19 @@ function isKoreanText(haystack: string) {
  * `verify-dream-context-parity`가 센다.
  */
 function contextFor(meaning: DreamMeaning, korean: boolean) {
-  if (korean) return meaning.context ?? "";
-  return CONTEXT_EN[meaning.context ?? ""] ?? "";
+  const display = meaning.context ?? "";
+  /**
+   * 한국어도 **매칭 키를 따로 본다**(2026-08-07).
+   *
+   * 화면 문구는 사전형이라(「반지를 잃음」) 이용자가 쓰는 활용형(「잃어버렸다」)과 안 맞는다.
+   * 그러면 판별할 낱말이 하나도 안 걸리고 **상징 이름만 양쪽에서 1점씩 받아 동점**이 되어,
+   * 앞의 의미가 이긴다 — 라이브에서 여섯 자리가 그렇게 틀리고 있었다(`dream-contexts-ko.ts`).
+   *
+   * 표에 없으면 화면 문구를 그대로 쓴다. 의미가 하나뿐인 상징은 판별을 하지 않으므로
+   * 표에 적을 이유가 없다.
+   */
+  if (korean) return CONTEXT_KO[display] ?? display;
+  return CONTEXT_EN[display] ?? "";
 }
 
 /**

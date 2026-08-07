@@ -149,9 +149,12 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "overflow"
   ],
   "sea": [
-    "ocean",
     "big sea",
-    "the sea"
+    "ocean",
+    "ocean waves",
+    "the sea",
+    "the waves",
+    "waves"
   ],
   "river": [
     "stream",
@@ -204,9 +207,11 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "colorful rainbow"
   ],
   "snow": [
+    "blizzard",
     "it snowed",
     "snow fell",
-    "snowflakes"
+    "snowflakes",
+    "snowstorm"
   ],
   "wind": [
     "the wind",
@@ -427,10 +432,16 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "big house"
   ],
   "car": [
-    "red car",
-    "old car",
+    "behind the wheel",
+    "brakes",
+    "crashed",
+    "driving",
+    "drove",
     "new car",
-    "sports car"
+    "old car",
+    "red car",
+    "sports car",
+    "the brakes"
   ],
   "boat": [
     "fishing boat",
@@ -493,10 +504,14 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "pocket watch"
   ],
   "ancestor": [
+    "dead relative",
     "deceased ancestor",
     "family ancestor",
+    "forebear",
     "great-grandparent",
-    "forebear"
+    "late grandfather",
+    "late grandmother",
+    "the deceased"
   ],
   "baby": [
     "newborn baby",
