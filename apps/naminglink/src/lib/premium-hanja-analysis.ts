@@ -11,6 +11,10 @@ import { calculatePremiumSaju } from "@naminglink/core/saju";
 import { isLunarCalendar } from "@/lib/premium-hanja-eligibility";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
 
+// 📄 **이 규칙을 고치면 `app/guide/how-hanja-meaning`도 함께 볼 것.** 그 문서가 이용자에게
+// 한자 후보 고르는 규칙을 설명한다. 규칙만 고치면 문서가 조용히 거짓이 된다 — 숫자는
+// `verify-guide-numbers`가 세지만 서술은 사람이 봐야 한다.
+
 type UnknownRecord = Record<string, unknown>;
 
 function record(value: unknown): UnknownRecord {

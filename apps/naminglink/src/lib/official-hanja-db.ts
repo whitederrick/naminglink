@@ -2,6 +2,10 @@ import "server-only";
 import { loadAvoidedHanja, type AvoidedHanja } from "@/lib/avoid-hanja";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
+// 📄 **이 규칙을 고치면 `app/guide/avoid`도 함께 볼 것.** 그 문서가 이용자에게
+// 기피 한자 표시 규칙을 설명한다. 규칙만 고치면 문서가 조용히 거짓이 된다 — 숫자는
+// `verify-guide-numbers`가 세지만 서술은 사람이 봐야 한다.
+
 export type OfficialHanjaCandidate = {
   character: string;
   reading: string;
