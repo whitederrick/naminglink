@@ -1,6 +1,15 @@
-import { COMPANY_FACTS } from "@naminglink/core/company";
+import { COMPANY_FACTS, romanizeCompanyValue } from "@naminglink/core/company";
 
 export const LEGAL_EFFECTIVE_DATE = "2026-07-22";
+
+/**
+ * 한국어로 적힌 사업자 값을 **로마자 한 벌**로 바꾼다. 비한국어 로케일의 약관에서 쓴다.
+ *
+ * 약관 로케일 파일(`legal-content/<로케일>.ts`)은 정적 모듈이라 렌더 시점의 로케일을 모른다.
+ * 그래서 형제 앱처럼 채우는 자리에서 한 번에 처리하지 못하고, **파일마다 이 함수를 통과시킨다**
+ * — ko.ts만 통과시키지 않는다. `scripts/verify-legal-interpolation.mjs`가 그 규칙을 센다.
+ */
+export const romanize = romanizeCompanyValue;
 
 /**
  * 사업자 정보의 **폴백**. 원본은 관리자 화면이 고치는 `site_contents`의 `footer.global`이다.

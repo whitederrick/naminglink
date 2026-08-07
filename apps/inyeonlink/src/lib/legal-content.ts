@@ -1,4 +1,5 @@
 import { adsEnabled } from "@/lib/ads";
+import { romanizeCompanyFacts } from "@naminglink/core/company";
 import { LEGAL_EFFECTIVE_DATE, type CompanyInfo } from "@/lib/company";
 import { paymentsConfigured } from "@/lib/payments-csp";
 import type { Locale } from "@/lib/i18n";
@@ -753,7 +754,13 @@ export function getLegalDocument(
   prices: AllReportPrices,
 ) {
   if (locale === "ko") return koDocuments(company, prices)[key];
-  if (locale === "en") return enDocuments(company, prices)[key];
+
+  // 비한국어 로케일에는 인명·상호·주소를 **로마자 한 벌**로 낸다(표는 core에 있다).
+  // 언어마다 새로 음역하면 같은 사람이 언어마다 다른 이름이 된다 — naminglink 약관 17개
+  // 로케일이 실제로 그랬다(ja `郭恩河` / zh `郭恩哈`, 2026-08-07에 걷어냈다). 푸터가
+  // 같은 표를 보므로, 한 페이지에서 푸터와 약관의 이름이 어긋나지 않는다.
+  const latin = romanizeCompanyFacts(company);
+  if (locale === "en") return enDocuments(latin, prices)[key];
 
   // 나머지 21개 로케일은 ko에서 번역해 둔 것을 쓴다. 예전에는 여기서 en으로 떨어뜨려
   // **약관 본문만 21개 언어에서 영어로 나갔다** — PDF를 파는 이상 읽지 못하는 언어의 고지는
@@ -761,7 +768,7 @@ export function getLegalDocument(
   const combo = legalFlagCombo(adsEnabled, paymentsConfigured);
   return fillPlaceholders(
     legalLocaleDocuments[locale][combo][key],
-    company,
+    latin,
     prices,
   );
 }

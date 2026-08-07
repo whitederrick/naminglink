@@ -1,4 +1,4 @@
-import { companyInfo, LEGAL_EFFECTIVE_DATE } from "@/lib/company";
+import { companyInfo, romanize, LEGAL_EFFECTIVE_DATE } from "@/lib/company";
 import type { LegalLocaleContent } from "./types";
 
 const content: LegalLocaleContent = {
@@ -133,7 +133,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Shaxsiy ma'lumotlarni himoya qilish bo'yicha mas'ul shaxs",
           paragraphs: [
-            "Mas'ul shaxs: Kvak Unha",
+            `Mas'ul shaxs: ${romanize(companyInfo.privacyOfficer)}`,
             `Elektron pochta: ${companyInfo.email}`,
           ],
         },

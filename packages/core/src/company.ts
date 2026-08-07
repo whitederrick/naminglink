@@ -53,6 +53,55 @@ export const COMPANY_FACTS: CompanyFacts = {
   hostingProvider: "Vercel Inc.",
 };
 
+/**
+ * 한국어로 적힌 사업자 값 → **로마자 한 벌**.
+ *
+ * DB(`site_contents`의 `footer.global`)는 한국어 단일본이라, 비한국어 로케일에는 옮겨 적을 것이
+ * 필요하다. **인명·주소는 언어별로 옮기지 않고 로마자 한 벌을 쓴다** — 사람 이름은 고유명사라
+ * 언어마다 새로 음역하면 같은 사람이 언어마다 다른 이름이 된다. 실제로 2026-08-07까지
+ * naminglink 약관 17개 로케일이 그랬다: ja `郭恩河` · zh `郭恩哈`(같은 사람, 다른 한자) ·
+ * ru `Гак Ын Ха` · kk `Гвак Ын Ха`. 어느 것도 여권 표기가 아니었다.
+ *
+ * 여기 적힌 로마자가 **여권 표기와 같은 값**이다(2026-08-07 확인). 법적 고지에 나가는 값이므로
+ * 임의로 고치지 말 것.
+ *
+ * ⚠️ **키는 값이지 필드가 아니다.** 관리자 화면이 새 값을 넣으면 표에 없어서 원문이 그대로
+ * 나간다 — 그것이 의도다(모르는 값을 그럴듯하게 바꾸지 않는다). 값을 바꾸면 여기도 함께 볼 것.
+ *
+ * 「준비 중」류 상태 문구는 여기 두지 않는다. 그것은 이름이 아니라 문장이라 로케일별 번역이
+ * 맞고, 각 앱 푸터의 `PENDING_COPIES`/`footerCopies`가 들고 있다.
+ */
+export const KOREAN_COMPANY_VALUE_TO_LATIN: Record<string, string> = {
+  "(주)Platforest": "Platforest Inc.",
+  곽은하: "Gwak Eunha",
+  "곽은하(대표)": "Gwak Eunha (CEO)",
+  "서울특별시 금천구 디지털로 130, 13층 1309호 (가산동, 남성프라자)":
+    "13F #1309, Namseong Plaza, 130 Digital-ro, Geumcheon-gu, Seoul, Republic of Korea",
+  서울특별시: "Seoul, Republic of Korea",
+};
+
+/** 값 하나를 로마자 표기로. 표에 없으면 **원문 그대로** 둔다. */
+export function romanizeCompanyValue(value: string): string {
+  const trimmed = value.trim();
+  return KOREAN_COMPANY_VALUE_TO_LATIN[trimmed] ?? value;
+}
+
+/**
+ * 사업자 정보 전체를 로마자 표기로. **비한국어 로케일에서만 쓴다.**
+ *
+ * 표에 없는 값(전화번호·이메일·사업자등록번호처럼 이미 숫자·라틴인 것, 그리고 관리자가 새로
+ * 넣은 값)은 그대로 통과한다.
+ */
+export function romanizeCompanyFacts<T extends CompanyFacts>(company: T): T {
+  return {
+    ...company,
+    legalEntity: romanizeCompanyValue(company.legalEntity),
+    representative: romanizeCompanyValue(company.representative),
+    address: romanizeCompanyValue(company.address),
+    privacyOfficer: romanizeCompanyValue(company.privacyOfficer),
+  };
+}
+
 function text(value: unknown, fallback: string) {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
 }

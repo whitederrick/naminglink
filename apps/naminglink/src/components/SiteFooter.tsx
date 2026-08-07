@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { romanizeCompanyValue } from "@naminglink/core/company";
 import { FooterPolicyLinks } from "@/components/FooterPolicyLinks";
 import { useServerFooterContent } from "@/components/FooterContentProvider";
 import {
@@ -669,22 +670,17 @@ function displayFooterValue(label: string, value: string) {
 // DB(footer.global)는 한국어 단일본이므로, 비한국어 로케일에서는 알려진 값을 영문(로마자)
 // 표기로 바꿔 보여준다. 주소·인명은 관례상 언어별 번역 대신 로마자 한 벌을 쓰고, "준비 중"류
 // 상태 문구만 로케일별 문구로 치환한다. 사전에 없는 값(관리자가 새로 입력한 값)은 원문 유지.
-const KOREAN_FOOTER_VALUE_TO_ENGLISH: Record<string, string> = {
-  "(주)Platforest": "Platforest Inc.",
-  곽은하: "Gwak Eunha",
-  "곽은하(대표)": "Gwak Eunha (CEO)",
-  "서울특별시 금천구 디지털로 130, 13층 1309호 (가산동, 남성프라자)":
-    "13F #1309, Namseong Plaza, 130 Digital-ro, Geumcheon-gu, Seoul, Republic of Korea",
-  서울특별시: "Seoul, Republic of Korea",
-};
-
+//
+// 로마자 표는 **core에 있다**(`romanizeCompanyValue`). 예전에는 이 파일 안에만 있어서 형제
+// 세 앱 푸터가 비한국어 로케일에도 `곽은하(대표)`를 그대로 냈고, 약관은 또 언어마다 다르게
+// 음역했다 — 같은 페이지에서 같은 사람이 세 이름으로 나갔다(2026-08-07).
 function localizeFooterValue(locale: Locale, copy: FooterCopy, value: string) {
   if (locale === "ko") return value;
   const trimmed = value.trim();
   if (trimmed === "통신판매업 신고 준비 중") return copy.values.mailOrderPending;
   if (trimmed === "사업자등록번호 준비 중") return copy.values.registrationPending;
   if (trimmed === "확인 예정") return copy.values.pending;
-  return KOREAN_FOOTER_VALUE_TO_ENGLISH[trimmed] ?? value;
+  return romanizeCompanyValue(trimmed);
 }
 
 export function SiteFooter({

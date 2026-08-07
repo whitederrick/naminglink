@@ -2,6 +2,7 @@ import { guideLinkLabel } from "@/components/GuideLink";
 import { LegalLinks } from "@/components/LegalLinks";
 import { guideHubHref } from "@/lib/guide-back";
 import { getCompanyInfo } from "@/lib/company-server";
+import { romanizeCompanyValue } from "@naminglink/core/company";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
@@ -62,10 +63,15 @@ function displayValue(locale: Locale, label: string, value: string) {
 
   // 위 세 가지 말고도 값이 라벨로 시작하면 겹치므로 떼어 낸다. 떼고 나서 빈 문자열이 되면
   // 값 자체가 라벨뿐이었다는 뜻이라 원래 값을 그대로 둔다.
-  if (label && trimmed.startsWith(label)) {
-    return trimmed.slice(label.length).trim() || trimmed;
-  }
-  return trimmed;
+  const stripped =
+    label && trimmed.startsWith(label)
+      ? trimmed.slice(label.length).trim() || trimmed
+      : trimmed;
+
+  // 인명·상호·주소는 비한국어 로케일에서 **로마자 한 벌**로 낸다(표는 core에 있다). 예전에는
+  // 이 앱들이 한국어 값을 그대로 내보내, 같은 페이지에서 푸터는 `곽은하(대표)`, 약관은 그
+  // 언어로 지어낸 음역을 적었다 — 2026-08-07.
+  return locale === "ko" ? stripped : romanizeCompanyValue(stripped);
 }
 
 export async function SiteFooter({
