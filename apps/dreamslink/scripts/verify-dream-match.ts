@@ -161,6 +161,9 @@ const EN_FALSE_POSITIVES: Array<[string, string]> = [
   ["I saw a crowd of people", "crow"],
   ["He had a long beard", "bear"],
   ["I was late for a train", "rain"],
+  // `-ing`는 활용형이 아니라 다른 낱말을 만든다. 어미 목록에서 뺀 이유다.
+  ["a bell was ringing loudly", "ring"],
+  ["I was on a fishing boat", "fish"],
 ];
 for (const [text, mustNot] of EN_FALSE_POSITIVES) {
   const got = matchDream(text).matched;
