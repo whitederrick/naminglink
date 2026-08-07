@@ -104,12 +104,20 @@ for (const slug of readdirSync(GUIDE)) {
   // 주석은 검사하지 않는다 — 옛 숫자를 경위로 적어 두는 자리다.
   docs.push({
     slug,
-    text: readFileSync(file, "utf8")
-      .replace(/\/\*[\s\S]*?\*\//g, " ")
-      .replace(/^\s*\/\/.*$/gm, " ")
-      // JSX 태그를 걷어낸다. 「사물</b>(46)」처럼 낱말과 숫자 사이에 끼어들어 문맥을 끊는다.
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " "),
+    text: (() => {
+      const raw = readFileSync(file, "utf8")
+        // 주석은 검사하지 않는다 — 옛 값을 경위로 적어 두는 자리다.
+        .replace(/\/\*[\s\S]*?\*\//g, " ")
+        .replace(/^\s*\/\/.*$/gm, " ");
+      /**
+       * **제목을 먼저 빼낸다.** 제목은 `title="…"`이라 JSX 속성 안에 있고, 태그를 지우면
+       * 제목째 사라진다 — 「4장 — 두 기운이…」·「뜻이 갈리는 상징은 39개입니다」처럼 **주장이
+       * 제목에 담기는 일이 많은데** 그것을 통째로 못 보게 된다.
+       */
+      const titles = [...raw.matchAll(/title="([^"]*)"/g)].map((m) => m[1]).join("  ");
+      const body = raw.replace(/<[^>]+>/g, " ");
+      return `${titles} ${body}`.replace(/\s+/g, " ");
+    })(),
   });
 }
 

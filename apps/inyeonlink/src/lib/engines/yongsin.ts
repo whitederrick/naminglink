@@ -1,4 +1,8 @@
 import {
+
+// 📄 **이 규칙을 고치면 `app/guide/yongsin`도 함께 볼 것.** 그 문서가 이용자에게
+// 용신 판정 규칙을 설명한다. 규칙만 고치면 문서가 조용히 거짓이 된다 — 숫자는
+// `verify-guide-numbers`가 세지만 서술은 사람이 봐야 한다.
   CONTROLLED_BY,
   CONTROLS,
   FIVE_ELEMENTS,
