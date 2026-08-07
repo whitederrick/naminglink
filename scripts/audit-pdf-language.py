@@ -54,6 +54,22 @@ STEMS = "갑을병정무기경신임계"
 BRANCHES = "자축인묘진사오미신유술해"
 SEXAGENARY = {s + b for s in STEMS for b in BRANCHES}
 
+# 「번역어 (원어)」 또는 「번역어 원어」 — 뜻이 바로 앞에 적혀 있으면 병기다.
+#
+# **화면(`verify-rendered-locale`)·약관(`verify-legal-residue`)과 같은 규칙이다.** 이 레포는
+# 한국 고유 용어에 원어를 덧붙이는데, 그 자리를 잔재로 세면 검사가 늘 빨간불이 된다 —
+# 실제로 화면 검사가 그 상태였다(2026-08-07에 고쳤다).
+#
+# PDF는 지면이라 괄호 없이 붙여 적는 자리도 있다(`Day master (일간)` vs `Wood 목`). 둘 다
+# **앞에 라틴 낱말이 있는가**로 가른다. 앞이 비어 있거나 한글이면 병기가 아니다.
+GLOSSED = re.compile(r"[0-9A-Za-z][0-9A-Za-z .,'\-]{0,24}[(（]?\s*$")
+
+
+def is_glossed(text: str, start: int) -> bool:
+    """`start` 앞을 보고 병기인지 판단한다."""
+    return bool(GLOSSED.search(text[max(0, start - 30):start]))
+
+
 ALLOWED = {
     # ⚠️ **간지 독음은 더 이상 예외가 아니다**(2026-08-07). 비한국어 문서는 로마자로 낸다
     # (`romanizePillar`). 예외를 지우자 그 자리가 전부 드러났고, 그것이 이 수정이 실제로
@@ -67,6 +83,26 @@ ALLOWED = {
     # 브랜드 병기.
     "브랜드": lambda w: w in {"사주링크", "인연링크", "드림링크", "네이밍링크"},
 }
+
+# **한글이 상품의 내용물인 문서군.** 여기서만 통하는 예외다.
+#
+# naminglink의 글로벌 작명·한글 아트는 외국인에게 **한국 이름을 지어 주는** 상품이라
+# 「김하늘」이 독일어 문서에 있는 것이 정상이고, 음절마다 뜻을 붙이므로 낱글자도 나온다.
+# 서체 이름(「나눔손글씨 붓」)도 고유명사라 옮기지 않는다.
+#
+# ⚠️ **문서군을 한정하는 것이 핵심이다.** 예외를 전역으로 두면 「공백 없는 다섯 음절 이하」에
+# `태몽`·`해몽`·`사주`가 걸려 **다른 앱의 진짜 잔재가 통째로 통과한다.** 처음에 그렇게
+# 적었다가 되돌렸다 — 아래 대조군이 그것을 지킨다.
+CONTENT_IS_HANGUL = ("global-name-", "name-art-", "hangul-")
+
+
+def hangul_is_the_product(document_name: str) -> bool:
+    return document_name.startswith(CONTENT_IS_HANGUL)
+
+
+def name_or_font(word: str) -> bool:
+    """이름·서체 같은 고유명사인가. 산문은 띄어쓰기와 조사 때문에 여기 안 걸린다."""
+    return " " not in word and len(word) <= 5
 
 
 def audit(directory: str) -> int:
@@ -91,9 +127,11 @@ def audit(directory: str) -> int:
         document.close()
 
         leaked = collections.Counter(
-            word
-            for word in HANGUL.findall(text)
-            if not any(ok(word) for ok in ALLOWED.values())
+            match.group(0)
+            for match in HANGUL.finditer(text)
+            if not is_glossed(text, match.start())
+            and not any(ok(match.group(0)) for ok in ALLOWED.values())
+            and not (hangul_is_the_product(name) and name_or_font(match.group(0)))
         )
         if leaked:
             problems.append((name, leaked))
@@ -104,6 +142,17 @@ def audit(directory: str) -> int:
         and HANGUL.findall("壬申 Traditional") == []  # 한자와 라틴은 안 잡는다
         and "임신" in SEXAGENARY  # 간지는 통과시킨다
         and "해몽" not in SEXAGENARY  # 간지가 아닌 낱말은 통과시키지 않는다
+        # 병기는 통과시킨다(화면·약관과 같은 규칙).
+        and is_glossed("Wood 목", 5)
+        and is_glossed("Day master (일간)", 12)
+        # 앞이 비었거나 한글이면 병기가 아니다 — 잔재로 잡아야 한다.
+        and not is_glossed("전통 해몽은", 3)
+        and not is_glossed("해몽", 0)
+        # **상품군 한정이 지켜지는가.** 「태몽」이 드림링크 문서에서 통과하면 안 된다.
+        and hangul_is_the_product("global-name-base-de")
+        and not hangul_is_the_product("conception-de-base")
+        and name_or_font("김하늘")
+        and not name_or_font("꿈에 나온 상징")
     )
 
     print("PDF 언어 전수 검사")

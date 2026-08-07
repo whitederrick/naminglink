@@ -36,6 +36,16 @@ from pathlib import Path
 import fitz
 from fontTools.ttLib import TTFont
 
+# 윈도우 콘솔은 기본이 cp949라 「—」도 한글도 못 찍고 UnicodeEncodeError로 죽는다.
+# **검사 결과가 인코딩 때문에 안 보이면 검사를 안 한 것과 같다.**
+# `audit-pdf-language.py`에는 있던 처리가 이 두 파일에는 빠져 있었다(2026-08-07에 넣었다) —
+# 그래서 결과를 찍다 말고 스택 트레이스로 끝났고, 걸린 문서가 무엇인지 볼 수 없었다.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
+
 # 제어 문자는 본문이 아니라 추출 과정에서 섞여 들어온다 — 단 나눔 자리에 U+000C가 끼는 식이다.
 IGNORED = set(" ​‌‍‎‏﻿ ") | {chr(code) for code in range(0x20)}
 

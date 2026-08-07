@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
   term: { fontSize: 12, marginBottom: 3 },
   meta: { fontSize: 9, color: "#777" },
   notice: { marginTop: 14, fontSize: 9, color: "#777", lineHeight: 1.6 },
-  footer: { position: "absolute", bottom: 26, left: 48, right: 48, fontSize: 8, color: "#999" },
+  footer: { position: "absolute", bottom: 26, left: 48, right: 48 },
+  footerText: { fontSize: 8, color: "#999" },
 });
 
 export type ConceptionReportInput = {
@@ -136,9 +137,14 @@ const COPY = {
 
 function Footer({ page, generatedAt }: { page: number; generatedAt: string }) {
   return (
-    <Text style={styles.footer} fixed>
-      DreamsLink · {generatedAt.slice(0, 10)} · {page} / {CONCEPTION_PAGE_COUNT}
-    </Text>
+    /* 꼬리글도 서체 라우팅을 거친다. 맨 `<Text>`로 두면 가운뎃점(·)까지 Helvetica로 그려져
+       **모든 문서가 내장 서체 되돌림 1건**으로 잡혔다(사주링크는 0건이었다). */
+    <View style={styles.footer} fixed>
+      <MixedText
+        text={`DreamsLink · ${generatedAt.slice(0, 10)} · ${page} / ${CONCEPTION_PAGE_COUNT}`}
+        style={styles.footerText}
+      />
+    </View>
   );
 }
 
@@ -212,13 +218,19 @@ export function ConceptionReport({
 
   return (
     <Document>
-      {/* 1 — 표지와 요약 */}
+      {/* 1 — 표지와 요약
+
+          ⚠️ **제목·소제목도 `MixedText`를 거쳐야 한다.** 2026-08-07까지 이 자리들이 맨
+          `<Text>`였고, 스타일에 `fontFamily`가 없어 @react-pdf가 Helvetica로 그렸다.
+          영어 제목은 멀쩡히 나오니 스물두 언어에서 아무 문제가 없어 보였는데,
+          **한국어판만 제목·소제목·소제목 넷이 통째로 깨져 있었다**(`Ü½ ¬ì¸`).
+          이 서비스의 주 고객이 한국어 사용자다. */}
       <Page size="A4" style={styles.page}>
-        <Text style={styles.title}>{t.title}</Text>
-        <Text style={styles.subtitle}>{t.subtitle(dictVersion)}</Text>
-        <Text style={styles.heading}>{t.yourDream}</Text>
+        <MixedText style={styles.title} text={t.title} />
+        <MixedText style={styles.subtitle} text={t.subtitle(dictVersion)} />
+        <MixedText style={styles.heading} text={t.yourDream} />
         <MixedText style={styles.paragraph} text={dreamText} />
-        <Text style={styles.heading}>{t.atAGlance}</Text>
+        <MixedText style={styles.heading} text={t.atAGlance} />
         <MixedText
           style={styles.paragraph}
           text={
@@ -232,7 +244,7 @@ export function ConceptionReport({
 
       {/* 2 — 걸린 상징 */}
       <Page size="A4" style={styles.page}>
-        <Text style={styles.heading}>{t.foundHeading}</Text>
+        <MixedText style={styles.heading} text={t.foundHeading} />
         {outcome.matched.length ? (
           foundShown.map((item) => (
             <View key={item.id} style={styles.card} wrap={false}>
@@ -259,7 +271,7 @@ export function ConceptionReport({
 
       {/* 3 — 태몽으로 보는 이유 */}
       <Page size="A4" style={styles.page}>
-        <Text style={styles.heading}>{t.conceptionHeading}</Text>
+        <MixedText style={styles.heading} text={t.conceptionHeading} />
         {conceptionSymbols.length ? (
           conceptionShown.map((item) => (
             <View key={item.id} style={styles.card} wrap={false}>
@@ -292,7 +304,7 @@ export function ConceptionReport({
 
       {/* 4 — 간직하는 장 */}
       <Page size="A4" style={styles.page}>
-        <Text style={styles.heading}>{t.keepHeading}</Text>
+        <MixedText style={styles.heading} text={t.keepHeading} />
         <MixedText style={styles.paragraph} text={t.keepBody} />
         <View style={styles.card}>
           <MixedText style={styles.meta} text={t.keepDate} />

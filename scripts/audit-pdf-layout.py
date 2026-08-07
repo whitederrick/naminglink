@@ -27,6 +27,16 @@ from pathlib import Path
 
 import fitz
 
+# 윈도우 콘솔은 기본이 cp949라 「—」도 한글도 못 찍고 UnicodeEncodeError로 죽는다.
+# **검사 결과가 인코딩 때문에 안 보이면 검사를 안 한 것과 같다.**
+# `audit-pdf-language.py`에는 있던 처리가 이 두 파일에는 빠져 있었다(2026-08-07에 넣었다) —
+# 그래서 결과를 찍다 말고 스택 트레이스로 끝났고, 걸린 문서가 무엇인지 볼 수 없었다.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
+
 # 페이지 경계를 이만큼 넘어가면 넘침으로 본다. 글꼴 경계 상자는 실제 잉크보다 약간 넓어서
 # 0으로 두면 정상 지면도 걸린다.
 BLEED = 1.0
