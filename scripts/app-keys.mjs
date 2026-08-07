@@ -37,3 +37,36 @@ export const APP_KEYS = (() => {
 
 /** 저장소 뿌리 기준 앱 디렉터리(`apps/naminglink` …). */
 export const APP_DIRS = APP_KEYS.map((key) => `apps/${key}`);
+
+/**
+ * 앱 키 → 실 도메인. 원본은 `packages/core/src/self-ads.ts`의 `SELF_AD_SERVICES`다.
+ *
+ * **여기 주소를 적지 않는다.** 라이브 주소를 검사기마다 적어 두면 도메인이 바뀌는 날 어느
+ * 검사기는 옛 주소를 두드리고 「통과」를 찍는다 — 앱 목록에서 겪은 것과 같은 병이다.
+ *
+ * `live`가 거짓인 서비스(아직 앱이 없는 것)는 빼고 돌려준다. 코어 명단의 `live`가 거짓인데
+ * 참으로 적혀 있어 셀프 광고가 없는 서비스를 광고한 적이 있다(2026-08-06).
+ */
+export const APP_DOMAINS = (() => {
+  const source = readFileSync(
+    new URL("../packages/core/src/self-ads.ts", import.meta.url),
+    "utf8",
+  );
+  const block = source.match(/export const SELF_AD_SERVICES[^=]*=\s*\[([\s\S]*?)\n\];/);
+  if (!block) {
+    throw new Error(
+      "packages/core/src/self-ads.ts에서 SELF_AD_SERVICES를 읽지 못했습니다. 형태가 바뀌었다면 scripts/app-keys.mjs도 함께 고치세요.",
+    );
+  }
+  const domains = {};
+  for (const line of block[1].split("\n")) {
+    const key = line.match(/key:\s*"([a-z0-9_-]+)"/i)?.[1];
+    const domain = line.match(/domain:\s*"([^"]+)"/)?.[1];
+    const live = /live:\s*true/.test(line);
+    if (key && domain && live && APP_KEYS.includes(key)) domains[key] = domain;
+  }
+  if (!Object.keys(domains).length) {
+    throw new Error("SELF_AD_SERVICES에서 라이브 도메인을 하나도 읽지 못했습니다.");
+  }
+  return domains;
+})();
