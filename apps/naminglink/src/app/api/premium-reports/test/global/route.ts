@@ -15,6 +15,7 @@ import { isPremiumTestRequestAllowed } from "@/lib/premium-test-access";
 import { openSeals } from "@/lib/result-seal";
 import { loadActiveBackdropDataUri } from "@/lib/report-backdrops";
 import { getProductSetting } from "@/lib/product-settings";
+import { isLocaleCode } from "@/lib/locale-codes";
 import {
   getReportFontsByCodes,
   listReportFonts,
@@ -65,7 +66,7 @@ export async function POST(request: Request) {
   try {
     // 운영 경로(`[sessionId]/generate`)와 **같은 판단**을 쓴다. 관리자 테스트만 아랍어 PDF를
     // 만들어 보고 "된다"고 착각하는 일이 없도록 여기서도 영어로 돌린다.
-    const orderedLanguage = OUTPUT_LANGUAGE_NAMES[parsed.data.locale ?? ""]
+    const orderedLanguage = isLocaleCode(parsed.data.locale)
       ? String(parsed.data.locale)
       : "en";
     const outputLanguage = pdfOutputLanguage(orderedLanguage);

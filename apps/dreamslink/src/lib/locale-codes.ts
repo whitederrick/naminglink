@@ -50,7 +50,12 @@ export function isLocaleCode(value: string | null | undefined): value is LocaleC
  * 코드(`ko`)가 아니라 이름(`Korean (한국어)`)을 넘긴다. 코드만 주면 모델이 무시하고 한국어로
  * 쓰는 사례가 naminglink에서 확인됐다(2026-07-22).
  */
-export const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
+/**
+ * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가
+ * 아무 말을 안 하고, 읽는 쪽이 조용히 영어로 내려간다 — 화면은 멀쩡해 보여 아무도 모른다.
+ * 이제 로케일을 더하거나 빼면 이 리터럴이 컴파일에서 막힌다. `Partial<>`로 감싸지 말 것.
+ */
+export const OUTPUT_LANGUAGE_NAMES: Record<LocaleCode, string> = {
   ko: "Korean (한국어)",
   en: "English",
   ja: "Japanese (日本語)",
@@ -77,5 +82,7 @@ export const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
 };
 
 export function localeLanguageName(locale: string) {
-  return OUTPUT_LANGUAGE_NAMES[locale] ?? OUTPUT_LANGUAGE_NAMES.en!;
+  // 아는 로케일만 표를 본다. 표가 `Record<LocaleCode, …>`라 이 관문 없이는 컴파일되지 않고,
+  // 그 덕분에 **모르는 값이 조용히 undefined로 흘러가던 자리**가 없어졌다.
+  return isLocaleCode(locale) ? OUTPUT_LANGUAGE_NAMES[locale] : OUTPUT_LANGUAGE_NAMES.en;
 }

@@ -467,7 +467,7 @@ const d6 = {
     {
       "heading": "1. Nature du service",
       "paragraphs": [
-        "Le service fournit des informations sur la relation entre deux personnes en appliquant les règles de la divination traditionnelle (saju) et des signes du zodiaque coréen (d띠) en fonction de la date de naissance saisie.",
+        "Le service fournit des informations sur la relation entre deux personnes en appliquant les règles de la divination traditionnelle (saju) et des signes du zodiaque coréen (띠) en fonction de la date de naissance saisie.",
         "Le taux de correspondance et les interprétations présentés sont des **documents de référence selon une perspective d'interprétation traditionnelle, et ne constituent pas des prévisions scientifiques ou des affirmations sur la relation.** Un score bas ne signifie pas que la relation est mauvaise, et un score élevé ne garantit pas la relation."
       ]
     },

@@ -1,3 +1,5 @@
+import { isLocaleCode, type LocaleCode } from "./locale-codes";
+
 // 로그인·계정 페이지 문구 사전. 다른 사전과 동일하게 ko가 원본이며
 // 비한국어 로케일은 해당 언어 사전이 없으면 영어로 폴백한다.
 export type AuthCopy = {
@@ -29,7 +31,8 @@ export type AuthCopy = {
   supabaseMissingError: string;
 };
 
-const authCopies: Record<string, AuthCopy> = {
+/** 로케일 누락을 tsc가 잡도록 `Record<LocaleCode, …>`로 둔다(`i18n-account.ts` 주석 참고). */
+const authCopies: Record<LocaleCode, AuthCopy> = {
   ko: {
     back: "이전 화면으로",
     home: "홈",
@@ -790,5 +793,5 @@ const authCopies: Record<string, AuthCopy> = {
 
 export function getAuthCopy(locale?: string): AuthCopy {
   if (!locale || locale === "ko") return authCopies.ko;
-  return authCopies[locale] ?? authCopies.en;
+  return isLocaleCode(locale) ? authCopies[locale] : authCopies.en;
 }

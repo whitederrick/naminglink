@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type { LocaleCode } from "@/lib/locale-codes";
+import { isLocaleCode } from "@/lib/locale-codes";
 
 const generalSteps = [
   "입력값의 의미와 조건을 정리하고 있습니다.",
@@ -10,7 +12,11 @@ const generalSteps = [
 ];
 
 // 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서 쓰는 로케일별 문구(없는 로케일은 영어 폴백).
-const generalStepsByLocale: Record<string, string[]> = {
+/**
+ * **`ko`만 뺀 전 로케일이 있어야 한다.** 한국어는 위의 `generalSteps`를 쓴다. `Record<string, …>`
+ * 이던 동안에는 로케일이 빠져도 tsc가 조용했고 그 언어만 영어 문구가 떴다.
+ */
+const generalStepsByLocale: Record<Exclude<LocaleCode, "ko">, string[]> = {
   en: [
     "Organizing the meaning and conditions of your input.",
     "Comparing pronunciation, culture, and reference details.",
@@ -200,7 +206,9 @@ export function AILoadingSteps({ variant = "general", locale = "ko", candidateCo
         ? randomizedGlobalSteps
         : locale === "ko"
           ? generalSteps
-          : generalStepsByLocale[locale] ?? generalStepsByLocale.en;
+          : isLocaleCode(locale) && locale !== "ko"
+            ? generalStepsByLocale[locale]
+            : generalStepsByLocale.en;
   // 글로벌 변환 대기는 광고 10초 + 생성 시간이라 문구를 끝없이 순환시킨다.
   const loops = variant === "global";
 

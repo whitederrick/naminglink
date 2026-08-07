@@ -7,6 +7,7 @@ import { birthHourRangeToHour } from "@/lib/birth-hour";
 import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import type { ReportFontSnapshot } from "@/lib/report-fonts-registry";
 import { calculatePremiumSaju } from "@naminglink/core/saju";
+import { isLocaleCode } from "@/lib/locale-codes";
 
 // 글로벌 프리미엄 PDF(GLOBAL_NAME_PDF)의 분석 데이터 생성.
 // 구성(2026-07-23 사용자 확정): 한자 의미 매칭 프리미엄과 동일하게 **전체 후보(최대 5개)**
@@ -170,7 +171,7 @@ export async function buildGlobalNamePremiumResult(payload: {
   const { inputFactors, reportId } = payload;
   const candidates = payload.candidates.filter((candidate) => text(candidate.hangul));
   if (candidates.length === 0) throw new Error("리포트로 만들 후보가 없습니다.");
-  const outputLanguage = OUTPUT_LANGUAGE_NAMES[payload.outputLanguage]
+  const outputLanguage = isLocaleCode(payload.outputLanguage)
     ? payload.outputLanguage
     : "en";
   const languageName = OUTPUT_LANGUAGE_NAMES[outputLanguage];

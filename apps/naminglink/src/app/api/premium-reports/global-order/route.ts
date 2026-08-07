@@ -18,6 +18,7 @@ import { insertOrder, insertPremiumSession } from "@/lib/order-writes";
 import { openSeals, SealError } from "@/lib/result-seal";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { getAuthenticatedUser } from "@/lib/user-auth";
+import { isLocaleCode } from "@/lib/locale-codes";
 
 export const runtime = "nodejs";
 
@@ -206,7 +207,7 @@ export async function POST(request: NextRequest) {
     const paymentId = `nl_${orderId.replaceAll("-", "")}`;
     const access = createPremiumReportAccess();
     const user = await getAuthenticatedUser(request);
-    const outputLanguage = OUTPUT_LANGUAGE_NAMES[parsed.data.locale ?? ""]
+    const outputLanguage = isLocaleCode(parsed.data.locale)
       ? String(parsed.data.locale)
       : "en";
 

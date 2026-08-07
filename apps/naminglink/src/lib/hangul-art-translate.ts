@@ -1,3 +1,4 @@
+import { isLocaleCode } from "@/lib/locale-codes";
 import "server-only";
 
 import OpenAI from "openai";
@@ -60,7 +61,7 @@ export async function translateHangulArtCandidates(
   if (!process.env.OPENAI_API_KEY) {
     throw new Error("AI 기능이 준비되지 않았습니다.");
   }
-  const sourceName = OUTPUT_LANGUAGE_NAMES[sourceLanguage] ?? sourceLanguage;
+  const sourceName = isLocaleCode(sourceLanguage) ? OUTPUT_LANGUAGE_NAMES[sourceLanguage] : sourceLanguage;
   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: 40_000, maxRetries: 1 });
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
   const usage = new AiUsageRecorder("HANGUL_ART_PDF");

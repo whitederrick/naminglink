@@ -115,7 +115,7 @@ const d1 = {
     {
       "heading": "3. Produk Berbayar dan Pengembalian",
       "paragraphs": [
-        "Produk berbayar yang dijual adalah **saju life reading report PDF (보고서 PDF)**. Ini adalah dokumen yang dibuat berdasarkan hasil yang ditampilkan di layar, dan juga mencakup informasi yang tidak ditampilkan di layar.",
+        "Produk berbayar yang dijual adalah **saju life reading report PDF**. Ini adalah dokumen yang dibuat berdasarkan hasil yang ditampilkan di layar, dan juga mencakup informasi yang tidak ditampilkan di layar.",
         "**A4 9 halaman** — mencakup sampul dan ringkasan, kecenderungan dan kekuatan bawaan serta hal-hal yang perlu diperhatikan, delapan karakter dari natal chart dan kekuatan lima elemen, kekuatan dan kelemahan hari lahir serta energi yang diperlukan saat ini (yongsin), sepuluh dewa dari empat pilar dan posisi yang menonjol dalam saju ini, empat bidang kehidupan yang dilihat dari natal chart (kekayaan, cinta, pekerjaan, kesehatan) dan dasar-dasarnya, rincian koreksi waktu nyata, serta ramalan tahun ini. Pembayaran domestik {priceDomestic} (termasuk pajak), pembayaran internasional {priceGlobal}.",
         "**Ramalan hari ini tidak termasuk dalam dokumen ini.** Nilai yang berubah setiap hari disediakan secara gratis di layar, dan dokumen ini terdiri dari penjelasan natal chart yang tidak akan berubah seumur hidup dan ramalan tahun ini.",
         "Pembayaran domestik dapat dilakukan melalui Toss Payments menggunakan kartu kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), sedangkan pembayaran internasional dilakukan melalui PayPal melalui PortOne. Jumlah akhir mengikuti jumlah yang ditampilkan di layar pembayaran.",
@@ -476,7 +476,7 @@ const d6 = {
     {
       "heading": "3. Produk Berbayar dan Pengembalian Wang",
       "paragraphs": [
-        "Produk berbayar yang dijual adalah **saju life reading report PDF (보고서 PDF)**. Ini adalah dokumen yang dibuat berdasarkan hasil yang ditunjukkan di skrin, dan mengandungi maklumat yang tidak terdapat di skrin.",
+        "Produk berbayar yang dijual adalah **saju life reading report PDF**. Ini adalah dokumen yang dibuat berdasarkan hasil yang ditunjukkan di skrin, dan mengandungi maklumat yang tidak terdapat di skrin.",
         "**A4 9 halaman** — termasuk muka depan dan ringkasan, kecenderungan dan kekuatan yang dilahirkan, perkara yang perlu diperhatikan, lapan karakter dan kekuatan lima elemen dalam saju (사주), kekuatan dan kelemahan hari lahir serta tenaga yang diperlukan sekarang (yongsin), sepuluh dewa dalam empat tiang dan posisi yang menonjol dalam saju ini, empat bidang kehidupan yang dilihat dari asal (kekayaan, cinta, pekerjaan, kesihatan) dan asasnya, butiran pembetulan waktu sebenar, serta ramalan tahun ini. Pembayaran domestik {priceDomestic} (termasuk VAT), pembayaran luar negara {priceGlobal}.",
         "**Ramalan hari ini tidak termasuk dalam dokumen ini.** Nilai yang berubah setiap hari disediakan secara percuma di skrin, dan dokumen ini terdiri daripada penjelasan asal yang tidak akan berubah seumur hidup dan ramalan tahun ini.",
         "Pembayaran domestik boleh dilakukan melalui Toss Payments menggunakan kad kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), manakala pembayaran luar negara melalui PayPal melalui PortOne. Jumlah akhir adalah berdasarkan jumlah yang ditunjukkan di skrin pembayaran.",

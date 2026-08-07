@@ -1,3 +1,4 @@
+import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
 import { AlertTriangle, CheckCircle2, Lock } from "lucide-react";
 import { candidateRate } from "@/lib/candidate-order";
 import { isLockedCandidate } from "@/lib/candidate-seal";
@@ -44,7 +45,11 @@ type ResultCardCopy = {
   rowNotationTraits: string;
 };
 
-const resultCardCopies: Record<string, ResultCardCopy> = {
+/**
+ * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가 조용하고
+ * 아래 조회가 영어로 내려간다 — 그 언어 사용자만 영어를 보고 아무도 모른다.
+ */
+const resultCardCopies: Record<LocaleCode, ResultCardCopy> = {
   ko: {
     analysisSummary: "분석 요약",
     summaryFallback: "분석 결과가 준비되었습니다.",
@@ -647,7 +652,7 @@ const resultCardCopies: Record<string, ResultCardCopy> = {
 
 function getResultCardCopy(service: ServiceConfig, locale: string | undefined) {
   if (service.serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko") {
-    return resultCardCopies[locale] ?? resultCardCopies.en;
+    return isLocaleCode(locale) ? resultCardCopies[locale] : resultCardCopies.en;
   }
   return resultCardCopies.ko;
 }

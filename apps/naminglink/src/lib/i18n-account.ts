@@ -1,3 +1,5 @@
+import { isLocaleCode, type LocaleCode } from "./locale-codes";
+
 // 계정 대시보드(내 저장 결과·주문 내역) 문구. ko가 원본이며 비한국어는 en으로 폴백한다.
 // (23개 언어 전체 채우기는 다른 사전과 동일하게 이후 배치로 진행한다.)
 export type AccountCopy = {
@@ -892,9 +894,17 @@ const pl: AccountCopy = {
   },
 };
 
-const accountCopies: Record<string, AccountCopy> = { ko, en, vi, ja, zh, th, id, de, es, fr, it, pt, ru, ar, fil, uz, mn, hi, tr, km, ms, kk, pl };
+/**
+ * **`Record<LocaleCode, …>`로 둔다.** 예전에는 `Record<string, …>`이라 로케일이 하나 빠져도
+ * tsc가 아무 말을 안 했고, `getAccountCopy`가 조용히 영어를 돌려줬다 — 화면은 멀쩡해 보이고
+ * 아무도 모른다. 이제 로케일을 더하거나 빼면 **이 리터럴이 컴파일에서 막힌다.**
+ *
+ * `Partial<Record<…>>`로 감싸지 말 것. 그 순간 다시 아무것도 강제되지 않는다.
+ */
+const accountCopies: Record<LocaleCode, AccountCopy> = { ko, en, vi, ja, zh, th, id, de, es, fr, it, pt, ru, ar, fil, uz, mn, hi, tr, km, ms, kk, pl };
 
 export function getAccountCopy(locale?: string): AccountCopy {
   if (!locale || locale === "ko") return ko;
-  return accountCopies[locale] ?? en;
+  // 아는 로케일만 표를 본다. 모르는 값이 들어오면 영어로 내린다(주소를 손으로 친 경우).
+  return isLocaleCode(locale) ? accountCopies[locale] : en;
 }

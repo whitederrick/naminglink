@@ -6,6 +6,7 @@ import { generateKoreanToGlobalParallel } from "@/lib/korean-to-global-parallel"
 import { getOfficialHanjaCandidates, getOfficialHanjaMeanings } from "@/lib/official-hanja-db";
 import { calculatePremiumSaju } from "@naminglink/core/saju";
 import { birthHourRangeToHour } from "@/lib/birth-hour";
+import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
 
 let client: OpenAI | null = null;
 
@@ -202,7 +203,13 @@ const KOREAN_FAMILY_NAME_OPTION_HANGUL: Record<string, string> = Object.fromEntr
 );
 
 // 비로마자 언어에서 name 필드가 로마자로 나오는 실수를 막기 위해, 사용자 메시지에 명시 규칙을 넣는다.
-const NAME_SCRIPT_RULES: Record<string, string> = {
+/**
+ * **여기는 일부러 `Partial`이다.** 로마자를 쓰는 언어에는 규칙이 필요 없어 표가 비어 있는 것이
+ * 정상이다. 그래도 `Record<string, …>`으로 두지 않는 이유는, 키를 잘못 적으면(`jp` 같은)
+ * 아무 일도 안 일어난 채 규칙만 조용히 죽기 때문이다. `Partial<Record<LocaleCode, …>>`이면
+ * 낯선 키가 컴파일에서 막힌다.
+ */
+const NAME_SCRIPT_RULES: Partial<Record<LocaleCode, string>> = {
   ja: "name 필드는 반드시 일본어 한자 또는 가나로 표기하십시오 (예: 陽翔). 로마자 금지.",
   zh: "name 필드는 반드시 한자로 표기하십시오. 로마자 금지.",
   ru: "name 필드는 반드시 키릴 문자로 표기하십시오 (예: Никита). 로마자 금지.",
@@ -233,7 +240,12 @@ const KOREAN_SURNAME_CYRILLIC: Record<string, string> = {
 // 외국인 대상 서비스의 설명 언어를 모델에 명시하기 위한 언어명 표.
 // outputLanguage 코드만 주면 gpt-4o-mini가 지시를 무시하고 영어로 쓰는 사례가 있어
 // 사람이 읽는 언어명을 함께 주입하고 프롬프트에서 필수 규칙으로 강제한다.
-export const OUTPUT_LANGUAGE_NAMES: Record<string, string> = {
+/**
+ * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가
+ * 아무 말을 안 하고, 읽는 쪽이 조용히 영어로 내려간다 — 화면은 멀쩡해 보여 아무도 모른다.
+ * 이제 로케일을 더하거나 빼면 이 리터럴이 컴파일에서 막힌다. `Partial<>`로 감싸지 말 것.
+ */
+export const OUTPUT_LANGUAGE_NAMES: Record<LocaleCode, string> = {
   ko: "Korean (한국어)",
   en: "English",
   ja: "Japanese (日本語)",
@@ -482,7 +494,7 @@ export async function generateNamingResult(
     ...(serviceType === "GLOBAL_TO_KOREAN"
       ? (() => {
           const requested = String(inputFactors.outputLanguage ?? "");
-          const language = OUTPUT_LANGUAGE_NAMES[requested] ? requested : "en";
+          const language = isLocaleCode(requested) ? requested : "en";
           const surnameOption = String(inputFactors.koreanFamilyName ?? "");
           return {
             outputLanguage: language,
@@ -509,9 +521,12 @@ export async function generateNamingResult(
                   KOREAN_SURNAME_ROMAN[String(inputFactors.familyName ?? "").trim()],
               }
             : {}),
-          ...(NAME_SCRIPT_RULES[String(inputFactors.targetLanguage ?? "")]
-            ? { nameScriptRule: NAME_SCRIPT_RULES[String(inputFactors.targetLanguage ?? "")] }
-            : {}),
+          ...(() => {
+            // 표기 규칙은 **비로마자 언어에만** 있다. 없는 것이 정상이라 있으면 붙이고 없으면 만다.
+            const target = String(inputFactors.targetLanguage ?? "");
+            const rule = isLocaleCode(target) ? NAME_SCRIPT_RULES[target] : undefined;
+            return rule ? { nameScriptRule: rule } : {};
+          })(),
         }
       : {}),
   };

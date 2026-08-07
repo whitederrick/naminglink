@@ -1,5 +1,6 @@
 "use client";
 
+import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
 import * as PortOne from "@portone/browser-sdk/v2";
 import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
@@ -31,7 +32,11 @@ type UnlockCopy = {
   unlockFailed: string;
 };
 
-const unlockCopies: Record<string, UnlockCopy> = {
+/**
+ * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가 조용하고
+ * 아래 조회가 영어로 내려간다 — 그 언어 사용자만 영어를 보고 아무도 모른다.
+ */
+const unlockCopies: Record<LocaleCode, UnlockCopy> = {
   ko: {
     title: "추가 후보 열기",
     status: (revealed, locked) => `현재 ${revealed}개 공개 · ${locked}개 잠금`,
@@ -495,7 +500,11 @@ export function CandidateUnlockPanel({
   };
   const remainingCount = Math.max(0, totalCount - revealedCount);
   const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
-  const copy = isForeign ? unlockCopies[locale] ?? unlockCopies.en : unlockCopies.ko;
+  const copy = isForeign
+    ? isLocaleCode(locale)
+      ? unlockCopies[locale]
+      : unlockCopies.en
+    : unlockCopies.ko;
   // 마운트 시 이전 결제 해금 상태를 복원한다(새로고침·재방문 대응).
   // 실패 문구를 쓰므로 `copy` 뒤에 둔다.
   const unlockRestored = useRef(false);
