@@ -164,6 +164,14 @@ const EN_FALSE_POSITIVES: Array<[string, string]> = [
   // `-ing`는 활용형이 아니라 다른 낱말을 만든다. 어미 목록에서 뺀 이유다.
   ["a bell was ringing loudly", "ring"],
   ["I was on a fishing boat", "fish"],
+  // **뜻이 어긋난 별칭.** 크기가 다르거나(언덕/산·시내/강) 다른 뜻으로 더 자주 쓰이는
+  // 낱말(stool=의자, a stream of light)을 별칭으로 두면 없는 상징을 만들어 낸다.
+  ["I sat on a wooden stool", "feces"],
+  ["I walked up a small hill", "mountain"],
+  ["a small creek ran through the field", "river"],
+  ["a stream of light came in", "river"],
+  ["I was in water up to my knees", "drowning"],
+  ["I took snapshots of the garden", "camera"],
 ];
 for (const [text, mustNot] of EN_FALSE_POSITIVES) {
   const got = matchDream(text).matched;
@@ -180,6 +188,11 @@ const EN_MUST_MATCH: Array<[string, string]> = [
   ["birds were flying in the sky", "bird"],
   ["my tooth fell out", "tooth-fall"],
   ["Clear water was flowing", "water-clear"],
+  // **모호한 낱말은 빼는 것이 아니라 한정한다**(사용자 제안). 높은 언덕은 산으로 본다.
+  ["I climbed a high hill", "mountain"],
+  ["I crossed a wide river", "river"],
+  ["I was drowning in the sea", "drowning"],
+  ["the toilet was full of excrement", "feces"],
 ];
 for (const [text, mustHave] of EN_MUST_MATCH) {
   const got = matchDream(text).matched;

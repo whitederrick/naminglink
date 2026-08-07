@@ -157,8 +157,6 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "waves"
   ],
   "river": [
-    "stream",
-    "creek",
     "waterway"
   ],
   "rain": [
@@ -172,9 +170,11 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "fire burned"
   ],
   "mountain": [
-    "hill",
+    "high hill",
+    "mountains",
     "peak",
-    "mountains"
+    "steep hill",
+    "tall hill"
   ],
   "tree": [
     "trees",
@@ -255,7 +255,6 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
   ],
   "feces": [
     "poop",
-    "stool",
     "excrement"
   ],
   "urine": [
@@ -360,8 +359,7 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
   ],
   "drowning": [
     "was drowning",
-    "drowned",
-    "was in water"
+    "drowned"
   ],
   "giving-birth": [
     "gave birth",
@@ -920,7 +918,6 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
   ],
   "camera": [
     "took a picture",
-    "snapshots",
     "camera was present"
   ],
   "medicine": [
