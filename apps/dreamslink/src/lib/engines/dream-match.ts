@@ -1,3 +1,5 @@
+import { ALIASES_EN } from "@/lib/dream-aliases-en";
+import { CONTEXT_EN } from "@/lib/dream-contexts";
 import {
   CONCEPTION_TAG,
   DREAM_SYMBOLS,
@@ -20,7 +22,14 @@ import {
  * 엔진 규칙을 바꾸면 `ENGINE_VERSION`을 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
  */
 
-export const ENGINE_VERSION = "dream-1.0.0";
+/**
+ * 규칙을 바꾸면 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
+ *
+ * 1.1.0 (2026-08-07) — **영어 경로를 살렸다.** 그전까지 22개 언어에서 상황 판별이 죽어 있어
+ * 「A snake bit me」가 재물 꿈으로 읽혔다. 영어 상황 키워드·영어 별칭·슬래시 표기 분리·
+ * 임신 신호 영어판·기능어 거르기를 함께 넣었다. 한국어 결과는 바뀌지 않는다.
+ */
+export const ENGINE_VERSION = "dream-1.1.0";
 
 export type MatchedSymbol = {
   id: string;
@@ -73,9 +82,26 @@ function normalize(text: string) {
  * 상징을 놓친다.
  */
 function findTerm(haystack: string, symbol: DreamSymbol) {
-  const terms = [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
+  const terms = [
+    symbol.term_ko,
+    symbol.term_en,
+    ...(symbol.aliases ?? []),
+    // 영어로 달리 부르는 말. 사전의 `aliases`가 한국어뿐이라 따로 둔다(`dream-aliases-en.ts`).
+    ...(ALIASES_EN[symbol.id] ?? []),
+  ]
     .filter(Boolean)
-    .map((term) => term.toLowerCase())
+    /**
+     * **`/`로 묶어 적은 표기를 가른다.**
+     *
+     * 사전에 `cow / ox`·`rat / mouse`처럼 두 이름을 한 칸에 적은 상징이 43개 있다. 통째로
+     * 찾으면 「I saw a cow」가 **안 걸린다** — 이용자가 슬래시를 칠 리 없기 때문이다.
+     * 2026-08-07까지 그 43개가 영어 글에서 사실상 안 잡히고 있었다.
+     *
+     * 한국어 표기에는 `/`가 없어 이 갈래는 아무 일도 하지 않는다.
+     */
+    .flatMap((term) => term.split("/"))
+    .map((term) => term.trim().toLowerCase())
+    .filter((term) => term.length > 0)
     .sort((a, b) => b.length - a.length);
 
   for (const term of terms) {
@@ -176,23 +202,103 @@ function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
     if (conceptionMeaning) return conceptionMeaning;
   }
 
+  const korean = isKoreanText(haystack);
+
+  /**
+   * **영어에서만** 상징 이름을 점수에서 뺀다.
+   *
+   * 영어 키워드는 상징 이름을 함께 적는 것이 자연스러워(`snake bite bitten`) **모든 의미가
+   * 이름으로 1점씩 받는다.** 그러면 실제로 가르는 낱말이 0점일 때 동점이 되고 앞의 것이 이긴다 —
+   * 「A snake bit me」가 재물 꿈으로 읽히던 이유의 절반이 이것이었다(2026-08-07).
+   *
+   * ⚠️ **한국어에는 적용하지 않는다.** 한국어 상황은 자연스러운 구절이라 이름이 **어떻게 적혔는지
+   * 자체가 판별 정보**다 — 「깨진 거울」과 「거울을 봄」에서 앞의 것만 이름이 조사 없이 들어간다.
+   * 이름을 빼면 둘 다 0점이 되어 판별이 죽는다(실제로 그렇게 만들었다가 `verify-dream-context-
+   * parity`가 잡았다). 한국어 쪽은 이미 맞게 돌고 있으므로 건드리지 않는다.
+   */
+  const ownTerms = korean
+    ? []
+    : [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
+        .filter(Boolean)
+        .map((term) => term.toLowerCase());
+
   let best = meanings[0];
   let bestScore = 0;
   for (const meaning of meanings) {
-    const words = (meaning.context ?? "")
-      .toLowerCase()
-      .split(/[^0-9a-z가-힣]+/)
-      .filter((word) => word.length >= 2);
-    const score = words.reduce(
-      (sum, word) => sum + (haystack.includes(word) ? 1 : 0),
-      0,
-    );
+    const score = contextScore(haystack, contextFor(meaning, korean), ownTerms);
     if (score > bestScore) {
       best = meaning;
       bestScore = score;
     }
   }
   return best;
+}
+
+/**
+ * 적어 주신 글이 한국어인가.
+ *
+ * **화면 언어가 아니라 글을 따른다.** 일본어 화면으로 보면서 한국어로 꿈을 적는 사람이 있고,
+ * 그때 판별에 써야 할 것은 글의 언어다. 화면 언어로 고르면 그 사람이 엉뚱한 뜻을 받는다.
+ */
+function isKoreanText(haystack: string) {
+  return HANGUL.test(haystack);
+}
+
+/**
+ * 이 언어에서 판별에 쓸 상황 문자열.
+ *
+ * 영어 판은 사전 안이 아니라 **별도 표**에 있다(`dream-contexts.ts`) — 태그를 옮긴 표와 같은
+ * 방식이다. 215개짜리 사전 파일을 다시 쓰지 않아도 되고, 표를 다시 만들어도 사전은 안 흔들린다.
+ *
+ * **표에 없으면 한국어로 떨어뜨리지 않고 빈 문자열을 준다.** 한국어를 영어 글에서 찾으면
+ * 어차피 0점인데, 떨어뜨려 두면 「값이 있다」고 착각해 빠진 자리를 못 본다. 빠진 자리는
+ * `verify-dream-context-parity`가 센다.
+ */
+function contextFor(meaning: DreamMeaning, korean: boolean) {
+  if (korean) return meaning.context ?? "";
+  return CONTEXT_EN[meaning.context ?? ""] ?? "";
+}
+
+/**
+ * 판별 점수에 넣지 않는 낱말.
+ *
+ * ## 왜 있는가
+ *
+ * 한국어 상황은 조사가 붙어 **내용어만 남는다**(`돼지가`·`집에`·`들어오거나`). 그래서 낱말
+ * 겹침을 세는 것만으로 판별이 됐다.
+ *
+ * **영어는 다르다.** 「a pig enters the house or is held」를 쪼개면 `the`·`or`·`is`가 나오는데,
+ * 이런 낱말은 **거의 모든 꿈에 있다.** 거르지 않으면 모든 의미가 2~3점을 고르게 받아 판별이
+ * 잡음이 된다 — 지금처럼 전부 0점이라 첫째로 떨어지는 것보다 **더 나쁘다.** 조용히 무작위로
+ * 고르기 때문이다.
+ *
+ * `context_en`을 넣기 전에 이것부터 있어야 한다.
+ */
+const SCORING_STOPWORDS = new Set([
+  "a", "an", "the", "and", "or", "but", "if", "of", "in", "on", "at", "to", "into", "onto",
+  "is", "am", "are", "was", "were", "be", "been", "being", "do", "does", "did", "done",
+  "it", "its", "this", "that", "these", "those", "there", "here", "then", "than",
+  "i", "me", "my", "you", "your", "he", "she", "him", "her", "his", "we", "us", "our",
+  "they", "them", "their", "one", "some", "any", "all", "no", "not", "so", "as", "by",
+  "for", "from", "with", "without", "up", "down", "out", "over", "under", "again",
+  "have", "has", "had", "get", "got", "very", "just", "like", "when", "while", "who",
+]);
+
+/**
+ * 상황 낱말이 이용자 글에 몇 개나 있는가.
+ *
+ * 부분 문자열로 센다 — 한국어는 조사가 붙어 오므로 그래야 걸린다(`돼지가`가 「돼지가」에).
+ * 영어는 기능어를 빼고 센다(위 `SCORING_STOPWORDS`).
+ */
+function contextScore(haystack: string, context: string, ownTerms: string[] = []) {
+  const words = context
+    .toLowerCase()
+    .split(/[^0-9a-z가-힣]+/)
+    .filter(
+      (word) =>
+        word.length >= 2 && !SCORING_STOPWORDS.has(word) && !ownTerms.includes(word),
+    );
+  return words.reduce((sum, word) => sum + (haystack.includes(word) ? 1 : 0), 0);
 }
 
 /**
@@ -211,8 +317,25 @@ function moodOf(matched: MatchedSymbol[]): DreamPolarity {
   return score.positive === 0 ? "neutral" : "ambivalent";
 }
 
-/** 이용자가 임신을 말했는가. 태몽 맥락을 고르는 신호다. */
-const CONCEPTION_WORDS = ["임신", "태몽", "임산부", "출산", "아기를 가"];
+/**
+ * 이용자가 임신을 말했는가. 태몽 맥락을 고르는 신호다.
+ *
+ * ⚠️ **한국어만 적어 두면 22개 언어에서 이 규칙이 통째로 죽는다**(2026-08-07에 그랬다).
+ * 영어는 어간으로 둔다 — `pregnan`이 pregnant·pregnancy를 함께 잡는다. 부분 문자열 매칭이라
+ * 어간이 더 넓게 걸리고, 이 신호는 넓게 걸려도 손해가 적다(태몽 쪽 의미를 먼저 볼 뿐이다).
+ */
+const CONCEPTION_WORDS = [
+  "임신",
+  "태몽",
+  "임산부",
+  "출산",
+  "아기를 가",
+  "pregnan",
+  "conception dream",
+  "expecting a baby",
+  "having a baby",
+  "with child",
+];
 
 /** 이 의미가 태몽을 말하는가. 사전은 우리가 관리하는 canonical ko라 문구로 판정해도 흔들리지 않는다. */
 function isConceptionMeaning(meaning: DreamMeaning) {

@@ -25,7 +25,13 @@ import data from "@/lib/dream-symbols.data.json";
 export type DreamPolarity = "positive" | "negative" | "neutral" | "ambivalent";
 
 export type DreamMeaning = {
-  /** 어떤 상황일 때의 의미인가. 비어 있으면 그 상징의 기본 의미다. */
+  /**
+   * 어떤 상황일 때의 의미인가. 비어 있으면 그 상징의 기본 의미다.
+   *
+   * ⚠️ **이것은 화면 문구가 아니라 매칭 키다.** 이용자가 적은 글에 이 낱말이 있는지 세어
+   * 여러 의미 중 하나를 고른다(`chooseMeaning`) — 「뱀을 품다」와 「뱀에 물리다」를 가르는
+   * 자리다. 그래서 **읽기 좋게 다듬는 것이 아니라 이용자가 실제로 칠 말**로 적는다.
+   */
   context?: string;
   interpretation_ko: string;
   interpretation_en: string;

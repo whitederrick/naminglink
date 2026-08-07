@@ -1,0 +1,149 @@
+// **같은 상황을 적은 한국어 글과 영어 글이 같은 뜻을 고르는가.**
+//
+// ## 왜 이 검사가 필요한가 (2026-08-07)
+//
+// 상황(`meaning.context`)은 화면 문구가 아니라 **매칭 키**다 — 「뱀을 품다」와 「뱀에 물리다」를
+// 가르는 자리다. 그런데 한국어 하나뿐이라 **22개 언어에서 판별이 통째로 죽어 있었다.**
+// 영어 글에서는 한국어 낱말이 안 걸려 점수가 전부 0이 되고 언제나 첫 의미로 떨어졌다:
+//
+//   "뱀에게 물렸다"    → 구설·건강 주의   ✓
+//   "A snake bit me"  → 재물·태몽 가능   ✗
+//
+// `dream-contexts.ts`로 영어 키워드를 만들었는데, **그 번역이 맞는지 읽어서는 판정할 수 없다.**
+// 256개를 사람이 다 검수할 수 없고, 오역 하나가 「무는 것」과 「품는 것」을 뒤집으면 결과가
+// 정반대가 된다.
+//
+// **그래서 뜻을 겨루지 않고 행동을 겨룬다.** 같은 상황을 두 언어로 적어 넣고 **같은 의미가
+// 골라지는지** 본다. 오역이 있으면 그 쌍에서 갈라진다. 번역문을 못 읽어도 결과는 셀 수 있다.
+//
+// ## 무엇을 세지 않는가
+//
+// **의미가 하나뿐인 상징은 판별을 안 한다**(`chooseMeaning`이 먼저 돌려보낸다). 그런 상징의
+// 상황은 영어가 없어도 아무 일이 없으므로 세지 않는다 — 세면 고칠 필요 없는 것을 고치게 된다.
+//
+// 실행: apps/dreamslink 에서
+//   ../naminglink/node_modules/.bin/tsx scripts/verify-dream-context-parity.ts
+
+import { CONTEXT_EN } from "../src/lib/dream-contexts";
+import { DREAM_SYMBOLS } from "../src/lib/dream-symbols";
+import { matchDream } from "../src/lib/engines/dream-match";
+
+let failures = 0;
+function fail(label: string, detail: string) {
+  failures += 1;
+  console.log(`  ✗ ${label}`);
+  console.log(`      ${detail}`);
+}
+
+/** 판별이 실제로 일어나는 상황만 모은다. */
+const discriminating = DREAM_SYMBOLS.flatMap((symbol) =>
+  symbol.meanings.length <= 1
+    ? []
+    : symbol.meanings
+        .filter((meaning) => meaning.context)
+        .map((meaning) => ({ symbol, meaning, context: meaning.context as string })),
+);
+
+// ---------------------------------------------------------------------------
+// 1) 판별에 쓰이는 상황에 영어가 다 있는가
+// ---------------------------------------------------------------------------
+console.log("판별에 쓰이는 상황의 영어 키워드");
+const missing = discriminating.filter((item) => !CONTEXT_EN[item.context]);
+for (const item of missing) {
+  fail(
+    `${item.symbol.term_ko} / ${item.context}`,
+    "영어 키워드가 없다 — 영어 글에서 이 의미는 절대 골라지지 않는다",
+  );
+}
+console.log(`  상황 ${discriminating.length}개 · 영어 없음 ${missing.length}개`);
+
+// ---------------------------------------------------------------------------
+// 2) 영어 키워드가 상징 이름만으로 이뤄져 있지 않은가
+//
+// 상징 이름은 점수에서 빠진다(`chooseMeaning`) — 이미 걸려서 온 것이라 판별 정보가 없다.
+// 이름만 있으면 그 상황은 **영어가 있으나 마나**이므로 없는 것과 같이 취급해야 한다.
+// ---------------------------------------------------------------------------
+console.log("\n영어 키워드에 판별할 낱말이 남는가");
+let nameOnly = 0;
+for (const item of discriminating) {
+  const english = CONTEXT_EN[item.context];
+  if (!english) continue;
+  const own = [item.symbol.term_ko, item.symbol.term_en, ...(item.symbol.aliases ?? [])]
+    .filter(Boolean)
+    .map((term) => term.toLowerCase());
+  const rest = english
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter((word) => word.length >= 2 && !own.includes(word));
+  if (rest.length === 0) {
+    nameOnly += 1;
+    fail(
+      `${item.symbol.term_ko} / ${item.context}`,
+      `상징 이름뿐이라 판별에 못 쓴다: "${english}"`,
+    );
+  }
+}
+console.log(`  판별할 낱말이 없는 상황 ${nameOnly}개`);
+
+// ---------------------------------------------------------------------------
+// 3) 같은 상황의 ko·en 문장이 같은 의미를 고르는가 — **이 검사의 본체**
+//
+// 문장 쌍은 손으로 적는다. 상황을 기계로 문장화하면 그 문장이 바로 키워드라 언제나 통과하고,
+// **검사가 자기 자신을 확인하는 꼴**이 된다. 이용자가 쓸 법한 말로 적어야 뜻이 있다.
+// ---------------------------------------------------------------------------
+const PAIRS: Array<{ label: string; ko: string; en: string }> = [
+  { label: "뱀 — 품다", ko: "뱀을 품에 안았다", en: "I held a snake in my arms" },
+  { label: "뱀 — 물리다", ko: "뱀에게 물렸다", en: "a snake bit me" },
+  { label: "거울 — 깨짐", ko: "거울이 깨졌다", en: "the mirror was broken" },
+  { label: "이 — 빠짐", ko: "이가 빠졌다", en: "my tooth fell out" },
+  { label: "물 — 맑음", ko: "맑은 물이 흘렀다", en: "clear water was flowing" },
+  { label: "물 — 흐림", ko: "흙탕물이 넘쳤다", en: "muddy water overflowed" },
+  { label: "불 — 크게 번짐", ko: "불이 크게 번졌다", en: "a fire spread wide" },
+  { label: "돼지 — 집에 들어옴", ko: "돼지가 집에 들어왔다", en: "a pig came into the house" },
+];
+
+console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
+for (const pair of PAIRS) {
+  const ko = matchDream(pair.ko).matched[0];
+  const en = matchDream(pair.en).matched[0];
+  if (!ko || !en) {
+    fail(pair.label, `상징이 안 걸렸다 — ko ${ko ? "○" : "✗"} / en ${en ? "○" : "✗"}`);
+    continue;
+  }
+  if (ko.id !== en.id) {
+    fail(pair.label, `상징이 다르다 — ko=${ko.id} / en=${en.id}`);
+    continue;
+  }
+  if (ko.meaning.interpretation_ko !== en.meaning.interpretation_ko) {
+    fail(
+      pair.label,
+      `고른 뜻이 다르다\n        ko → ${ko.meaning.interpretation_ko}\n        en → ${en.meaning.interpretation_ko}`,
+    );
+  }
+}
+console.log(`  문장 쌍 ${PAIRS.length}개`);
+
+// ---------------------------------------------------------------------------
+// 대조군 — 검사가 살아 있는지 증명한다.
+//
+// 실제로 갈려야 하는 쌍이 갈리는지 본다. 이것이 통과하지 못하면 위 결과는 「판별이 잘 된다」가
+// 아니라 「판별이 아무 일도 안 한다」일 수 있다.
+// ---------------------------------------------------------------------------
+console.log("\n대조군 — 정반대 상황이 실제로 갈리는가");
+for (const [label, a, b] of [
+  ["ko 뱀", "뱀을 품에 안았다", "뱀에게 물렸다"],
+  ["en 뱀", "I held a snake in my arms", "a snake bit me"],
+] as const) {
+  const first = matchDream(a).matched[0];
+  const second = matchDream(b).matched[0];
+  const split =
+    first && second && first.meaning.interpretation_ko !== second.meaning.interpretation_ko;
+  if (!split) {
+    fail(`대조군 ${label}`, "정반대 상황인데 같은 뜻이 나온다 — 판별이 죽어 있다");
+  } else {
+    console.log(`  ✓ ${label} — 갈린다`);
+  }
+}
+
+console.log(`\n실패 ${failures}건`);
+process.exit(failures > 0 ? 1 : 0);
