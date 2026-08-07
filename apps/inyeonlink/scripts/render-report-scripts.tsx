@@ -16,6 +16,7 @@ import { runAffinity, runMatch, type Person } from "../src/lib/engines";
 import { getDictionary, supportedLocales, type Locale } from "../src/lib/i18n";
 import { renderAffinityReport } from "../src/lib/pdf/affinity-report";
 import { renderCompatibilityReport } from "../src/lib/pdf/compatibility-report";
+import { AFFINITY_PAGE_COUNT, COMPATIBILITY_PAGE_COUNT } from "../src/lib/report-pages";
 
 const SEOUL = { timeZone: "Asia/Seoul", longitude: 126.978 };
 
@@ -198,6 +199,7 @@ async function main() {
   await mkdir(outDir, { recursive: true });
 
   let failures = 0;
+  let mismatch = 0;
   let fixed = 0;
   let count = 0;
   for (const inputCase of CASES) {
@@ -208,6 +210,19 @@ async function main() {
           const buffer = await testCase.render();
           await writeFile(path.join(outDir, `${testCase.file}.pdf`), buffer);
           const size = String(Math.round(buffer.length / 1024)).padStart(4);
+          /**
+           * **장수를 센다.** 이 스크립트는 오래도록 크기만 찍고 장수를 안 셌고, 그래서 궁합
+           * 리포트 절반이 8장으로 나가는 동안 아무도 몰랐다(2026-08-07). 고시에 적는 값이라
+           * 눈대중으로 세지 않는다 — PDF의 `/Type /Page` 개수를 직접 센다.
+           */
+          const pages = (Buffer.from(buffer).toString("latin1").match(/\/Type\s*\/Page[^s]/g) ?? []).length;
+          const expected = testCase.file.startsWith("affinity")
+            ? AFFINITY_PAGE_COUNT
+            : COMPATIBILITY_PAGE_COUNT;
+          if (!testCase.expectFailure && pages !== expected) {
+            mismatch += 1;
+            console.log(`  ! ${testCase.file.padEnd(34)} ${pages}장(기대 ${expected}) — 고시가 거짓이 된다`);
+          }
           if (testCase.expectFailure) {
             fixed += 1;
             console.log(`  ! ${testCase.file.padEnd(34)} ${size} KB — 죽던 자리가 살아났다`);

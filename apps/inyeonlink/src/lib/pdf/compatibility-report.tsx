@@ -181,7 +181,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderBottomWidth: 1,
     borderBottomColor: PALETTE.line,
-    paddingVertical: 5,
+    // **5에서 내렸다**(2026-08-07). 라틴 문자 로케일에서 십신 표가 한 행 넘쳐 계산 근거가
+    // 다음 장으로 밀렸고, 궁합 리포트가 8장으로 나갔다 — 약관은 7장이라고 적은 채로.
+    // 사주링크가 같은 이유로 먼저 내렸는데(그쪽 `tableRow` 주석 참고) 이 앱에 안 옮겨져 있었다.
+    // 행이 여덟이라 이 1pt가 16pt를 돌려준다.
+    paddingVertical: 4,
   },
   th: { fontSize: 8, color: PALETTE.plum },
   td: { fontSize: 9 },
