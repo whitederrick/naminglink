@@ -27,6 +27,32 @@ const STEM_HANJA = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬
 const BRANCH_HANGUL = ["자", "축", "인", "묘", "진", "사", "오", "미", "신", "유", "술", "해"];
 const BRANCH_HANJA = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"];
 
+/**
+ * 간지의 로마자 표기(국어의 로마자 표기법).
+ *
+ * **왜 있는가**(2026-08-07). 화면과 PDF가 간지를 「한자 + 한글 독음」으로 그리는데, 한글
+ * 독음이 **로케일과 무관하게 언제나 한글**이었다. 독일어 이용자에게 「임신」은 읽을 수 없는
+ * 글자다 — 읽을 수 없는 글자는 정보가 아니라 잡음이다.
+ *
+ * 한자(壬申)는 그대로 둔다. 그것이 간지의 원문이고, CJK 독자는 읽으며 나머지 언어권에도
+ * 「이 문서가 다루는 원문」이라는 표시로 기능한다. **바꾸는 것은 독음뿐이다.**
+ *
+ * 표를 두 벌로 나눈 것은 한글과 같은 방식이다 — 천간 10 × 지지 12의 조합이라 60갑자를 손으로
+ * 적을 이유가 없다. 하나라도 어긋나면 `verify-pillar-roman`이 잡는다.
+ */
+const STEM_ROMAN = ["gap", "eul", "byeong", "jeong", "mu", "gi", "gyeong", "sin", "im", "gye"];
+const BRANCH_ROMAN = [
+  "ja", "chuk", "in", "myo", "jin", "sa", "o", "mi", "sin", "yu", "sul", "hae",
+];
+
+/** 한글 간지 두 글자를 로마자로. 표에 없는 값이면 원문을 그대로 돌려준다. */
+export function romanizePillar(hangul: string): string {
+  const stem = STEM_HANGUL.indexOf(hangul.charAt(0));
+  const branch = BRANCH_HANGUL.indexOf(hangul.charAt(1));
+  if (stem < 0 || branch < 0) return hangul;
+  return `${STEM_ROMAN[stem]}-${BRANCH_ROMAN[branch]}`;
+}
+
 /** 오자시두법 — 일간에 따라 자시(子時)의 천간이 어디서 시작하는가. */
 const HOUR_STEM_START: Record<string, number> = {
   갑: 0, 기: 0,

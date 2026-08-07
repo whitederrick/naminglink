@@ -1,6 +1,7 @@
 import { Document, Page, StyleSheet, Text, View, renderToBuffer } from "@react-pdf/renderer";
 
 import {
+  contextText,
   cultureNote,
   isConceptionTag,
   meaningText,
@@ -78,6 +79,15 @@ const COPY = {
     conceptionHeading: "전통적으로 태몽으로 보는 상징",
     conceptionEmpty: "이 꿈에서는 전통적으로 태몽으로 보아 온 상징을 찾지 못했습니다.",
     otherSymbols: (list: string) => `함께 걸린 다른 상징: ${list}`,
+    /**
+     * 지면에 카드로 다 못 앉힌 상징. **버리지 않고 이름만 잇는다.**
+     *
+     * 무료 화면은 상징을 전부 보여 준다. 유료 문서가 앞의 몇 개만 주고 나머지를 없애면
+     * **파는 것이 무료보다 적어진다** — 그래서 자르는 대신 줄인다.
+     */
+    moreFound: (list: string) => `지면 관계로 위에는 앞부분만 실었습니다. 함께 찾은 상징: ${list}`,
+    /** 이름 줄마저 넘칠 때. **개수로 알린다** — 있었다는 사실까지 지우지는 않는다. */
+    andMore: (list: string, rest: number) => `${list} 외 ${rest}개`,
     conceptionNotice:
       "이 문서는 임신 여부를 판정하지 않습니다. 전통적으로 태몽으로 보아 온 상징이 꿈에 나왔다는 사실을 알려 드리는 것이며, 의학적 판단이 필요하면 의료기관에 문의하십시오.",
     keepHeading: "간직하는 장",
@@ -106,6 +116,11 @@ const COPY = {
     conceptionEmpty:
       "No symbol traditionally read as a conception omen was found in this dream.",
     otherSymbols: (list: string) => `Other symbols found alongside: ${list}`,
+    /** 위 ko 주석 참고 — 자르지 않고 줄인다. */
+    moreFound: (list: string) =>
+      `Only the first few are shown in full above, for space. Also found: ${list}`,
+    /** 위 ko 주석 참고 — 개수로 알린다. */
+    andMore: (list: string, rest: number) => `${list} and ${rest} more`,
     conceptionNotice:
       "This document does not determine pregnancy. It tells you that symbols traditionally read as conception omens appeared in your dream. For anything medical, please consult a healthcare provider.",
     keepHeading: "A page to keep",
@@ -139,6 +154,60 @@ export function ConceptionReport({
   // **판정은 한국어 원본 태그로 한다.** 표시 이름이 무엇이든 태그 자체는 사전의 값이다.
   const conceptionSymbols = outcome.matched.filter((item) => item.tags.some(isConceptionTag));
   const others = outcome.matched.filter((item) => !item.tags.some(isConceptionTag));
+
+  /**
+   * **한 장에 카드가 몇 개까지 앉는가.** 측정값이지 취향이 아니다.
+   *
+   * ## 왜 상한이 필요한가
+   *
+   * 이 문서는 `CONCEPTION_PAGE_COUNT`(4장)로 고시된다. 그런데 상징 목록은 길이가 정해져
+   * 있지 않아 **입력에 따라 장수가 달라졌다** — 2026-08-07 실측으로 상징 7개부터 5장이 됐고,
+   * 21개 로케일 전부 그랬다. 넘친 장의 꼬리글에는 `2 / 4`가 찍혀 있었다(렌더러는 자기가 아직
+   * 2장이라고 믿는다).
+   *
+   * **선언된 `<Page>` 수만으로는 장수가 고정되지 않는다.** 그것은 바닥일 뿐이고, 목록에
+   * 상한이 없으면 천장이 없다. 5장으로 선언해 봐야 상징이 12개면 6장이 된다 — 임계값을
+   * 옮길 뿐 같은 결함이 조건만 바꿔 되살아난다.
+   *
+   * ## 넘치는 것을 버리지 않는다
+   *
+   * 무료 화면은 찾은 상징을 전부 보여 준다. 유료 문서가 앞의 몇 개만 주면 **파는 것이
+   * 무료보다 적어진다.** 그래서 상한 밖은 이름만 한 줄로 잇는다(`moreFound`).
+   *
+   * ## 값을 바꿀 때
+   *
+   * 늘리면 장이 갈라진다. `scripts/render-conception-sample.tsx`에 상징을 빽빽하게 넣은
+   * 회귀 케이스가 있으니 **고치고 나서 반드시 돌릴 것** — 장수가 어긋나면 그 자리에서 실패한다.
+   */
+  const CARDS_PER_PAGE = 6;
+
+  /**
+   * 이름만 잇는 줄에도 상한이 필요하다.
+   *
+   * 카드에 상한을 두어도 **이름 줄이 길이 제한 없이 자라면 지면은 여전히 넘칠 수 있다.**
+   * 사전에 상징이 215개라 병적인 입력이면 그만큼 걸릴 수 있고, 그러면 이름 줄 하나가 몇
+   * 문단이 된다. 상한을 카드에만 두는 것은 **임계값을 옮기는 것**이지 막는 것이 아니다.
+   *
+   * 여기까지 막아야 지면이 **구조적으로** 넘칠 수 없다 —
+   * 카드 수 × 카드 높이 + 이름 줄 길이 + 고지, 셋 다 위가 막혀 있다.
+   */
+  const NAMES_MAX = 24;
+
+  /** 이름 줄을 상한 안에서 만든다. 넘치면 **개수로 알린다** — 있었다는 사실은 지운 적이 없다. */
+  const nameList = (items: typeof outcome.matched) => {
+    const names = items.map((item) => symbolTerm(item, language));
+    if (names.length <= NAMES_MAX) return names.join(", ");
+    return t.andMore(names.slice(0, NAMES_MAX).join(", "), names.length - NAMES_MAX);
+  };
+
+  const foundShown = outcome.matched.slice(0, CARDS_PER_PAGE);
+  const foundRest = outcome.matched.slice(CARDS_PER_PAGE);
+  /**
+   * 태몽 장은 카드 아래에 「함께 걸린 다른 상징」과 고지 두 문단이 더 붙는다. 그만큼 카드가
+   * 앉을 자리가 줄어 상한이 하나 낮다.
+   */
+  const conceptionShown = conceptionSymbols.slice(0, CARDS_PER_PAGE - 1);
+  const conceptionRest = conceptionSymbols.slice(CARDS_PER_PAGE - 1);
   const themes = themeLabels(outcome.themes, language);
 
   return (
@@ -165,19 +234,26 @@ export function ConceptionReport({
       <Page size="A4" style={styles.page}>
         <Text style={styles.heading}>{t.foundHeading}</Text>
         {outcome.matched.length ? (
-          outcome.matched.map((item) => (
+          foundShown.map((item) => (
             <View key={item.id} style={styles.card} wrap={false}>
               <MixedText style={styles.term} text={symbolTerm(item, language)} />
               <MixedText style={styles.paragraph} text={meaningText(item.meaning, language)} />
               <MixedText
                 style={styles.meta}
-                text={`${item.meaning.context ? t.context(item.meaning.context) : ""}${themeLabels(item.tags, language).join("·")}`}
+                text={`${contextText(item.meaning.context, language) ? t.context(item.meaning.context as string) : ""}${themeLabels(item.tags, language).join("·")}`}
               />
             </View>
           ))
         ) : (
           <MixedText style={styles.paragraph} text={t.foundEmpty} />
         )}
+        {/* 상한 밖은 **버리지 않고** 이름만 잇는다(위 `CARDS_PER_PAGE` 주석 참고). */}
+        {foundRest.length ? (
+          <MixedText
+            style={styles.notice}
+            text={t.moreFound(nameList(foundRest))}
+          />
+        ) : null}
         <Footer page={2} generatedAt={generatedAt} />
       </Page>
 
@@ -185,7 +261,7 @@ export function ConceptionReport({
       <Page size="A4" style={styles.page}>
         <Text style={styles.heading}>{t.conceptionHeading}</Text>
         {conceptionSymbols.length ? (
-          conceptionSymbols.map((item) => (
+          conceptionShown.map((item) => (
             <View key={item.id} style={styles.card} wrap={false}>
               <MixedText style={styles.term} text={symbolTerm(item, language)} />
               <MixedText style={styles.paragraph} text={meaningText(item.meaning, language)} />
@@ -197,10 +273,17 @@ export function ConceptionReport({
         ) : (
           <MixedText style={styles.paragraph} text={t.conceptionEmpty} />
         )}
+        {/* 이 장도 목록이라 같은 병을 가진다. 넘치는 태몽 상징도 이름만 잇는다. */}
+        {conceptionRest.length ? (
+          <MixedText
+            style={styles.notice}
+            text={t.moreFound(nameList(conceptionRest))}
+          />
+        ) : null}
         {others.length ? (
           <MixedText
             style={styles.notice}
-            text={t.otherSymbols(others.map((item) => symbolTerm(item, language)).join(", "))}
+            text={t.otherSymbols(nameList(others))}
           />
         ) : null}
         <MixedText style={styles.notice} text={t.conceptionNotice} />

@@ -14,6 +14,7 @@ import {
 
 import { FIVE_ELEMENTS, STEM_ELEMENT } from "@naminglink/core/saju/elements";
 import { tenGod } from "@naminglink/core/saju/ten-gods";
+import { romanizePillar } from "@naminglink/core/saju";
 
 import type { PersonReading } from "@/lib/engines";
 import type { NatalOutlook } from "@/lib/engines/natal-outlook";
@@ -72,6 +73,17 @@ try {
   ).toString("base64")}`;
 } catch {
   logoSrc = null;
+}
+
+/**
+ * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
+ *
+ * 한자(壬申)는 어느 언어에서도 그대로 둔다 — 그것이 간지의 원문이다. 바꾸는 것은 독음뿐인데,
+ * 예전에는 로케일과 무관하게 언제나 한글이라 **독일어 이용자에게 「임신」이 나갔다**(2026-08-07).
+ * 읽을 수 없는 글자는 정보가 아니다.
+ */
+function pillarReading(hangul: string, locale: Locale) {
+  return locale === "ko" ? hangul : romanizePillar(hangul);
 }
 
 const styles = StyleSheet.create({
@@ -289,9 +301,12 @@ function BrandRow({ dictionary, title }: { dictionary: Dictionary; title: string
 function PillarGrid({
   reading,
   dictionary,
+  locale,
 }: {
   reading: PersonReading;
   dictionary: Dictionary;
+  /** 간지 독음을 한글로 낼지 로마자로 낼지 가른다(`pillarReading`). */
+  locale: Locale;
 }) {
   const cells = [
     { label: dictionary.reading.pillarYear, pillar: reading.pillars.year },
@@ -307,7 +322,7 @@ function PillarGrid({
           {cell.pillar ? (
             <>
               <MixedText style={styles.pillarHanja} text={cell.pillar.hanja} />
-              <MixedText style={styles.pillarHangul} text={cell.pillar.hangul} />
+              <MixedText style={styles.pillarHangul} text={pillarReading(cell.pillar.hangul, locale)} />
             </>
           ) : (
             <MixedText
@@ -603,6 +618,8 @@ function SajuReport({
   outlook,
   interpretation,
   dictionary,
+  // 간지 독음이 한글이냐 로마자냐를 가른다(`pillarReading`). 예전에는 받고도 안 썼다.
+  locale,
   generatedAt,
   engineVersion,
 }: SajuReportData) {
@@ -684,7 +701,7 @@ function SajuReport({
         <BrandRow dictionary={dictionary} title={r.chartTitle} />
 
         <Section title={r.chartTitle}>
-          <PillarGrid reading={reading} dictionary={dictionary} />
+          <PillarGrid reading={reading} dictionary={dictionary} locale={locale} />
           <MixedText style={[styles.tableNote, { marginTop: 8 }]} text={r.chartHint} />
         </Section>
 

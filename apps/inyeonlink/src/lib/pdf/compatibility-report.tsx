@@ -25,6 +25,7 @@ import { FIVE_ELEMENTS } from "@naminglink/core/saju/elements";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { MixedText, SCRIPT_FAMILY } from "@/lib/pdf/fonts";
 import { warmUpLayoutEngine } from "@/lib/pdf/warm-up";
+import { romanizePillar } from "@naminglink/core/saju";
 
 // 궁합 리포트 PDF. 두 장이다 — 표지 겸 요약, 그리고 근거.
 //
@@ -213,6 +214,17 @@ const styles = StyleSheet.create({
   footerText: { fontSize: 7.5, color: PALETTE.muted },
 });
 
+/**
+ * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
+ *
+ * 한자(壬申)는 어느 언어에서도 그대로 둔다 — 그것이 간지의 원문이다. 바꾸는 것은 독음뿐인데,
+ * 예전에는 로케일과 무관하게 언제나 한글이라 **독일어 이용자에게 「임신」이 나갔다**(2026-08-07).
+ * 읽을 수 없는 글자는 정보가 아니다.
+ */
+function pillarReading(hangul: string, locale: Locale) {
+  return locale === "ko" ? hangul : romanizePillar(hangul);
+}
+
 export type CompatibilityReportData = {
   outcome: MatchOutcome;
   nameA: string;
@@ -286,9 +298,12 @@ function Footer({
 function PillarGrid({
   reading,
   dictionary,
+  locale,
 }: {
   reading: PersonReading;
   dictionary: Dictionary;
+  /** 간지 독음을 한글로 낼지 로마자로 낼지 가른다(`pillarReading`). */
+  locale: Locale;
 }) {
   const cells = [
     { label: dictionary.reading.pillarYear, pillar: reading.pillars.year },
@@ -304,7 +319,7 @@ function PillarGrid({
           {cell.pillar ? (
             <>
               <MixedText style={styles.pillarHanja} text={cell.pillar.hanja} />
-              <MixedText style={styles.pillarHangul} text={cell.pillar.hangul} />
+              <MixedText style={styles.pillarHangul} text={pillarReading(cell.pillar.hangul, locale)} />
             </>
           ) : (
             <MixedText
@@ -384,10 +399,13 @@ function PersonSection({
   reading,
   fallbackName,
   dictionary,
+  locale,
 }: {
   reading: PersonReading;
   fallbackName: string;
   dictionary: Dictionary;
+  /** 간지 독음을 한글로 낼지 로마자로 낼지 가른다(`pillarReading`). */
+  locale: Locale;
 }) {
   const name = reading.label?.trim() || fallbackName;
   const dayMaster = dictionary.dayMasters[reading.dayMaster.character];
@@ -398,7 +416,7 @@ function PersonSection({
         style={styles.note}
         text={`${dictionary.reading.dayMasterLabel} ${dayMaster?.name ?? reading.dayMaster.character} · ${dictionary.reading.animalLabel} ${dictionary.animals[reading.animal] ?? reading.animal} · ${dictionary.reading.seasonLabel} ${dictionary.elements[reading.seasonElement] ?? reading.seasonElement}`}
       />
-      <PillarGrid reading={reading} dictionary={dictionary} />
+      <PillarGrid reading={reading} dictionary={dictionary} locale={locale} />
       {dayMaster ? (
         <MixedText
           style={[styles.body, { marginTop: 8 }]}
@@ -808,7 +826,8 @@ function CalculationCard({
 }
 
 function CompatibilityReport(data: CompatibilityReportData) {
-  const { outcome, dictionary, nameA, nameB, generatedAt } = data;
+  // `locale`은 간지 독음을 한글로 낼지 로마자로 낼지 가른다(`pillarReading`).
+  const { outcome, dictionary, nameA, nameB, generatedAt, locale } = data;
   const band = scoreBand(outcome.totalScore);
 
   return (
@@ -944,11 +963,13 @@ function CompatibilityReport(data: CompatibilityReportData) {
           reading={outcome.people[0]}
           fallbackName={nameA}
           dictionary={dictionary}
+          locale={locale}
         />
         <PersonSection
           reading={outcome.people[1]}
           fallbackName={nameB}
           dictionary={dictionary}
+          locale={locale}
         />
 
         <Footer

@@ -22,6 +22,7 @@ import type {
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
 import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
+import { romanizePillar } from "@naminglink/core/saju";
 
 // 결과에는 **어느 프래그먼트로 계산한 것인지**를 함께 담는다. 주소의 프래그먼트가 바뀌었는데
 // 상태가 아직 이전 것이면 그건 낡은 화면이므로 "계산 중"으로 보여야 한다. effect 안에서
@@ -35,6 +36,17 @@ type State =
       input: MatchInput;
       fragment: string;
     };
+
+/**
+ * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
+ *
+ * 한자(壬申)는 어느 언어에서도 그대로 둔다 — 그것이 간지의 원문이다. 바꾸는 것은 독음뿐인데,
+ * 예전에는 로케일과 무관하게 언제나 한글이라 **독일어 이용자에게 「임신」이 나갔다**(2026-08-07).
+ * 읽을 수 없는 글자는 정보가 아니다.
+ */
+function pillarReading(hangul: string, locale: Locale) {
+  return locale === "ko" ? hangul : romanizePillar(hangul);
+}
 
 export function MatchResultView({
   dictionary,
@@ -240,6 +252,7 @@ export function MatchResultView({
             reading={person}
             fallbackName={index === 0 ? nameA : nameB}
             dictionary={dictionary}
+            locale={locale}
           />
         ))}
       </div>
@@ -402,10 +415,13 @@ function PersonCard({
   reading,
   fallbackName,
   dictionary,
+  locale,
 }: {
   reading: PublicPersonReading;
   fallbackName: string;
   dictionary: Dictionary;
+  /** 간지 독음을 한글로 낼지 로마자로 낼지 가른다(`pillarReading`). */
+  locale: Locale;
 }) {
   const t = dictionary.reading;
   const dayMaster = dictionary.dayMasters[reading.dayMaster.character];
@@ -442,7 +458,7 @@ function PersonCard({
                   {pillar.value.hanja}
                 </p>
                 <p className="mt-0.5 text-[11px] text-muted">
-                  {pillar.value.hangul}
+                  {pillarReading(pillar.value.hangul, locale)}
                 </p>
               </>
             ) : (

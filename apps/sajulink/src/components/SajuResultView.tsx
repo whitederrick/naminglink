@@ -8,6 +8,7 @@ import { SelfAdCard } from "@/components/SelfAdCard";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 import { useSajuOutcome } from "@/lib/use-saju-outcome";
+import { romanizePillar } from "@naminglink/core/saju";
 
 /**
  * 사주 풀이 결과 — **평생 것만 있다.**
@@ -28,6 +29,17 @@ const ELEMENT_COLOR: Record<string, string> = {
   METAL: "#9aa0a6",
   WATER: "#3f4a63",
 };
+
+/**
+ * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
+ *
+ * 한자(壬申)는 어느 언어에서도 그대로 둔다 — 그것이 간지의 원문이다. 바꾸는 것은 독음뿐인데,
+ * 예전에는 로케일과 무관하게 언제나 한글이라 **독일어 이용자에게 「임신」이 나갔다**(2026-08-07).
+ * 읽을 수 없는 글자는 정보가 아니다.
+ */
+function pillarReading(hangul: string, locale: Locale) {
+  return locale === "ko" ? hangul : romanizePillar(hangul);
+}
 
 export function SajuResultView({
   dictionary,
@@ -80,7 +92,7 @@ export function SajuResultView({
             (pillar, index) => (
               <div key={index} className="rounded-xl border border-line/60 bg-surface px-2 py-3">
                 <div className="text-2xl font-semibold">{pillar?.hanja ?? "—"}</div>
-                <div className="mt-1 text-xs text-muted">{pillar?.hangul ?? ""}</div>
+                <div className="mt-1 text-xs text-muted">{pillar ? pillarReading(pillar.hangul, locale) : ""}</div>
               </div>
             ),
           )}

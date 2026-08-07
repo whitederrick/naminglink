@@ -9,6 +9,7 @@ import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
+  contextText,
   cultureNote,
   meaningText,
   readingLanguage,
@@ -119,13 +120,17 @@ export default async function Page({ params, searchParams }: Props) {
                     key={index}
                     className="rounded-xl border border-line bg-surface p-5"
                   >
-                    {meaning.context ? (
+                    {/* **상황은 한국어 한 벌뿐이다.** 접근자 없이 그리면 영어 화면에 한국어가
+                        섞인다(`contextText` 주석 참고). 없으면 그 줄이 통째로 빠진다. */}
+                    {contextText(meaning.context, language) ? (
                       <p className="text-xs font-semibold text-brand-violet">
-                        {ko ? `${meaning.context}일 때` : meaning.context}
+                        {`${meaning.context}일 때`}
                       </p>
                     ) : null}
                     <p
-                      className={`break-keep-all text-sm leading-6 ${meaning.context ? "mt-1" : ""}`}
+                      className={`break-keep-all text-sm leading-6 ${
+                        contextText(meaning.context, language) ? "mt-1" : ""
+                      }`}
                     >
                       {meaningText(meaning, language)}
                     </p>

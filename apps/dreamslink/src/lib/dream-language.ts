@@ -62,6 +62,27 @@ export function cultureNote(
 }
 
 /**
+ * 의미가 갈리는 **상황**(`meaning.context`)의 표시 문자열.
+ *
+ * ⚠️ **이 필드는 한국어 한 벌뿐이다.** 풀이는 `interpretation_ko`/`_en` 두 벌인데 상황은
+ * 하나라, 접근자 없이 그대로 그리면 **영어 문서에 한국어가 실린다** — 유료 태몽 리포트와
+ * 상징 페이지가 실제로 그랬다(2026-08-07 발견). 2026-08-06에 고친 `interpretation_ko` 결함과
+ * 같은 종류인데 이 필드만 빠져 있었다.
+ *
+ * `cultureNote`·`themeLabels`와 같은 규칙을 쓴다 — **한국어 낱말이 영어 화면에 섞이느니 그
+ * 항목이 빠지는 편이 낫다.** 매칭은 이 값을 그대로 쓴다(`dream-match.ts`), 화면에 안 낼 뿐이다.
+ *
+ * 영어 상황 설명이 필요해지면 사전에 `context_en`을 더하고 이 함수가 그것을 돌려주면 된다.
+ * 그때까지 **부르는 쪽이 각자 판단하지 않게** 자리를 여기 하나로 둔다.
+ */
+export function contextText(
+  context: string | undefined,
+  language: ReadingLanguage,
+): string | undefined {
+  return language === "ko" ? context : undefined;
+}
+
+/**
  * 주제 꼬리표(`tags`)의 표시 이름.
  *
  * 사전의 태그는 한국어 낱말이다(`재물`·`태몽`·`경계`…). 영어 판은 `dream-tags.ts`가 들고

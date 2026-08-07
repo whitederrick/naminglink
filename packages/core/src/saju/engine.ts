@@ -1,6 +1,12 @@
 import { lunarToSolar, solarToLunar } from "@fullstackfamily/manseryeok";
 
 import { calculateSajuAtDate } from "./calendar";
+
+/**
+ * 간지의 로마자 표기. **한글 독음을 읽을 수 없는 이용자를 위한 것**이고, 한자는 그대로 둔다.
+ * 여기서 다시 export 하는 것은 앱들이 `@naminglink/core/saju` 하나만 보기 때문이다.
+ */
+export { romanizePillar } from "./calendar";
 import { resolveTrueSolarTime, type Birthplace } from "./timezone";
 
 export const SAJU_ENGINE = {
