@@ -49,12 +49,12 @@ export const es: Dictionary = {
     "howTitle": "Cómo funciona",
     "steps": [
       "Escribe el sueño tal como lo recuerdas. Una o dos frases son suficientes.",
-      "Buscamos en un diccionario de símbolos de sueños tradicionales coreanos lo que apareció en él. Si un símbolo no está allí, lo decimos.",
-      "Ves lo que cada símbolo ha sido tradicionalmente interpretado y lo que apuntan juntos."
+      "Buscamos en un diccionario de símbolos de sueños coreanos tradicionales lo que apareció en él. Si un símbolo no está allí, lo decimos.",
+      "Ves lo que cada símbolo ha sido tomado para significar durante mucho tiempo, y lo que apuntan juntos."
     ],
     "privacyTitle": "El sueño que escribes no se almacena",
-    "privacyBody": "Lo que escribes se utiliza solo mientras se trabaja en la interpretación, y nunca se graba.\nNo se necesita cuenta, y nada queda en el servidor una vez que se completa la interpretación.",
-    "disclaimer": "Este es un material de referencia desde una perspectiva de interpretación de sueños tradicional. No es una predicción de lo que está por venir, ni un consejo médico o financiero."
+    "privacyBody": "Lo que escribes se utiliza solo mientras se trabaja en la interpretación, y nunca se graba.\nNo se necesita cuenta, y nada queda en el servidor una vez que se completa la lectura.",
+    "disclaimer": "Este es un material de referencia desde una perspectiva de lectura de sueños tradicional. No es una predicción de lo que está por venir, ni un consejo médico o financiero."
   },
   "ads": {
     "label": "Publicidad"
@@ -74,15 +74,15 @@ export const es: Dictionary = {
     "title": "Buscando los símbolos en tu sueño",
     "quotes": [
       "Un sueño tiende a reflejar los últimos días más que los días por venir.",
-      "El mismo símbolo ha sido leído de manera diferente dependiendo de quién lo soñó.",
-      "La tradicional 해몽 no es una clave de respuestas. Es un cuerpo de historias acumuladas a lo largo del tiempo.",
+      "El mismo símbolo ha sido interpretado de manera diferente dependiendo de quién lo soñó.",
+      "La lectura tradicional de sueños no es una clave de respuestas. Es un cuerpo de historias acumuladas a lo largo del tiempo.",
       "Un sueño aterrador no es lo mismo que uno malo. Puede ser la marca que dejó una mente asustada.",
       "Está bien si solo recuerdas un fragmento. Un símbolo es suficiente para comenzar.",
       "Un sueño que sigue regresando generalmente viene con algo que quedó sin terminar.",
       "Qué tan clara estaba el agua y qué color tenía, es lo que los antiguos lectores observaban más de cerca.",
       "Cómo te sentiste al despertar persiste tanto como lo que realmente viste.",
       "Sueño bueno o no, es mejor no dejar que decida tu día.",
-      "Una 해몽 no es una palabra sobre lo que sucederá. Es una segunda mirada a lo que ya es."
+      "Una lectura no es una palabra sobre lo que sucederá. Es una segunda mirada a lo que ya es."
     ],
     "watching": "Viendo el anuncio",
     "remaining": "Tu resultado se abre en {seconds} s"
@@ -141,7 +141,7 @@ export const es: Dictionary = {
   },
   "conceptionReport": {
     "title": "Mantén la lectura de omen de concepción como un PDF",
-    "body": "Cuando aparecen símbolos tradicionalmente leídos como presagios de concepción, se presenta un PDF de 4 páginas que detalla qué apareció, qué ha significado tradicionalmente y de dónde proviene esa interpretación. No determina el embarazo ni el sexo de un niño.",
+    "body": "Cuando aparecen símbolos que tradicionalmente se leen como omen de concepción, se presenta un PDF de 4 páginas que detalla lo que apareció, lo que ha significado tradicionalmente y de dónde proviene esa interpretación. No determina el embarazo ni el sexo de un niño.",
     "buyButton": "Consíguelo por {price}",
     "preparing": "Preparándose",
     "ordering": "Creando el pedido…",

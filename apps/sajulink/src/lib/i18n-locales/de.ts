@@ -358,15 +358,15 @@ export const de: Dictionary = {
     "title": "Ihr Chart erstellen",
     "quotes": [
       "Saju ist keine feste Antwort. Es ist eine Sprache, um sich selbst zu verstehen.",
-      "Zu wissen, womit Sie geboren wurden, und es zu leben, sind zwei verschiedene Dinge.",
+      "Zu wissen, womit man geboren wurde, und es zu leben, sind zwei verschiedene Dinge.",
       "Eine starke Position ist eine Frage der Nutzung; eine schwache, eine Frage des Füllens.",
-      "Die gleichen acht Zeichen ergeben je nach Lesart einen anderen Tag.",
+      "Die gleichen acht Zeichen ergeben einen anderen Tag, je nachdem, wie man sie liest.",
       "Besser, als auf einen guten Tag zu warten, ist es, zu wissen, wie man den, den man hat, nutzt.",
-      "Die Position, die die Menschen als Schwäche bezeichnen, ist normalerweise der Ort, an dem das größte Wachstum stattfindet.",
-      "Einige Energien werden von der Saison vorangetrieben; einige müssen Sie selbst erzeugen.",
-      "Wichtiger als die Punktzahl ist, wie Sie sie lesen.",
-      "Die heutige Fortune ist das Wetter für einen Tag, nicht das Klima, in dem Sie leben.",
-      "Ihr Saju zu kennen bedeutet, sich selbst zu sehen, nicht in die Zukunft zu blicken."
+      "Die Position, die die Menschen als Schwäche betrachten, ist normalerweise der Ort, an dem das größte Wachstum geschieht.",
+      "Einige Energien werden von der Jahreszeit vorangetrieben; einige muss man selbst erzeugen.",
+      "Wichtiger als die Punktzahl ist, wie man sie liest.",
+      "Das heutige Glück ist das Wetter für einen Tag, nicht das Klima, in dem du lebst.",
+      "Dein Saju zu kennen bedeutet, dich selbst zu sehen, nicht in die Zukunft zu blicken."
     ],
     "watching": "Werbung läuft",
     "remaining": "Ihr Ergebnis öffnet in {seconds} s"
@@ -428,7 +428,7 @@ export const de: Dictionary = {
   },
   "report": {
     "title": "Lebenslesung und das kommende Jahr",
-    "body": "Wir verwandeln diese Lesung in ein PDF und fügen die Schicht hinzu, die der Bildschirm nie zeigt: die Stärke Ihres 일간 und was es jetzt braucht, die 십신 Ihrer 네 기둥, die vier Lebensbereiche, die aus Ihrem 원국 gelesen werden, mit den Zahlen dahinter, und die Prognose für dieses Jahr. Die heutige 운세 ist nicht enthalten — sie ändert sich täglich, daher bleibt sie kostenlos auf dem Bildschirm.",
+    "body": "Wir verwandeln diese Lesung in ein PDF und fügen die Schicht hinzu, die der Bildschirm niemals zeigt: die Stärke Ihres Tagesmeisters und was er jetzt braucht, die zehn Götter Ihrer vier Säulen, die vier Lebensbereiche, die aus Ihrem Geburtshoroskop gelesen werden, mit den Zahlen dahinter, und die Aussichten für dieses Jahr. Das heutige Glück ist nicht enthalten — es ändert sich täglich, daher bleibt es kostenlos auf dem Bildschirm.",
     "buyButton": "{price} zahlen und laden",
     "preparing": "Noch nicht verfügbar",
     "ordering": "Bestellung wird erstellt…",
@@ -570,20 +570,20 @@ export const de: Dictionary = {
       }
     },
     "natalFactors": {
-      "WEALTH_STARS": "Wie viel Reichtum (財星) das Chart trägt — die Dicke dessen, was du handhabst und sammelst.",
-      "WEALTH_STRONG_BODY": "Der Tagmeister läuft voll, sodass es Kraft gibt, Reichtum zu tragen.",
-      "WEALTH_WEAK_BODY": "Der Tagmeister läuft dünn, sodass es schwer ist, Reichtum zu tragen, selbst wenn er existiert.",
-      "WEALTH_YONGSIN": "Was du jetzt brauchst, ist dasselbe Element wie die Reichtumssterne, sodass dieser Boden leichter kommt.",
-      "LOVE_SPOUSE_STAR": "Wie viel vom Ehepartnerstern das Chart trägt — direkter Reichtum für Männer, direkter Beamter für Frauen.",
-      "LOVE_SPOUSE_PALACE": "Der Ehepartnerstern sitzt in deinem Tageszweig, dem Ehepartnerpalast, sodass der Platz gefüllt ist.",
+      "WEALTH_STARS": "Wie viel Reichtum (財星) das Diagramm trägt — die Dicke dessen, was Sie handhaben und sammeln.",
+      "WEALTH_STRONG_BODY": "Der Tag Meister ist stark, sodass es Kraft gibt, Reichtum zu tragen.",
+      "WEALTH_WEAK_BODY": "Der Tag Meister ist schwach, sodass es schwer ist, Reichtum zu tragen, selbst wenn er vorhanden ist.",
+      "WEALTH_YONGSIN": "Was Sie jetzt brauchen, ist dasselbe Element wie die Reichtumssterne, damit der Boden leichter kommt.",
+      "LOVE_SPOUSE_STAR": "Wie viel der Ehepartnerstern das Diagramm trägt — direkter Reichtum für Männer, direkte Beamte für Frauen.",
+      "LOVE_SPOUSE_PALACE": "Der Ehepartnerstern sitzt in Ihrem Tageszweig, dem Ehepartnerpalast, sodass der Platz gefüllt ist.",
       "LOVE_PALACE_CHUNG": "Der Ehepartnerpalast kollidiert mit einem anderen Zweig, sodass dieser Platz unruhig ist.",
-      "LOVE_GENDER_UNKNOWN": "Es wurde kein Geschlecht eingegeben, sodass der Ehepartnerstern nicht gezählt wurde. Der Wert teilt sich zwischen Reichtum und Beamtensternen nach Geschlecht, und wir wählen nicht willkürlich aus.",
-      "CAREER_OFFICER": "Die Beamtensterne (正官·偏官) im Chart — die Dicke dessen, was du übernimmst und behältst.",
-      "CAREER_OUTPUT": "Die Ausgabesterne (食神·傷官) im Chart — die Dicke dessen, was du herausgibst und ausdrückst.",
-      "CAREER_STRONG_BODY": "Der Tagmeister ist stark, daher nutzt er die Offizierssterne, anstatt von ihnen gedrückt zu werden.",
+      "LOVE_GENDER_UNKNOWN": "Kein Geschlecht wurde eingegeben, sodass der Ehepartnerstern nicht gezählt wurde. Der Wert teilt sich zwischen Reichtum und Beamtensternen nach Geschlecht, und wir wählen nicht willkürlich einen aus.",
+      "CAREER_OFFICER": "Die Beamtensterne (正官·偏官) im Diagramm — die Dicke dessen, was Sie übernehmen und behalten.",
+      "CAREER_OUTPUT": "Die Ausgabesterne (食神·傷官) im Diagramm — die Dicke dessen, was Sie herausgeben und ausdrücken.",
+      "CAREER_STRONG_BODY": "Der Tag Meister ist stark, sodass er die Beamtensterne nutzt, anstatt von ihnen gedrückt zu werden.",
       "HEALTH_BALANCE": "Wie gleichmäßig die fünf Elemente verteilt sind — je mehr es in eine Richtung kippt, desto mehr Belastung fällt auf das, was dieses Element regiert.",
       "HEALTH_CHUNG": "Wie viele Zweigpaare innerhalb des Charts miteinander kollidieren.",
-      "HEALTH_EXTREME_BODY": "Der Tagmeister neigt stark zu einer Seite, was an sich schon eine Belastung ist. Ein ausgeglichener Tagmeister verliert hier nichts."
+      "HEALTH_EXTREME_BODY": "Der Tag Meister neigt sich stark in eine Richtung, was an sich schon eine Belastung ist. Ein ausgeglichener Tag Meister verliert hier nichts."
     },
     "yongsinDepth": {
       "STRONG": "Die Elemente, die deinen Tagesherrscher unterstützen, sind stark. Das gibt dir eigenen Antrieb, neigt sich aber leicht zur einen Seite, sodass du jetzt nicht mehr Unterstützung brauchst — sondern etwas, um den Überschuss abzuleiten. {favorable} erfüllt diese Aufgabe. Wo dieses Element wirkt — ausgeben, annehmen, sammeln — dort findest du deinen Platz.",

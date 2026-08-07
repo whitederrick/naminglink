@@ -37,10 +37,10 @@ export const tr: Dictionary = {
     "symbolsHeading": "Rüyanızda bulunan semboller",
     "noSymbols": "Bu rüyada sözlükten gelen hiçbir geleneksel sembol görünmedi. Anlam uydurmamak için burayı boş bırakıyoruz.",
     "themesHeading": "Bunlar birlikte neyi işaret ediyor",
-    "conceptionNotice": "Burada geleneksel olarak 태몽 olarak okunan semboller var. Bu, hamileliği belirlemez.",
+    "conceptionNotice": "Geleneksel olarak hamilelik belirtileri olarak görülen semboller burada yer almaktadır. Bu, hamileliği belirlemez.",
     "browseSymbols": "Geleneksel sembol sözlüğünü görüntüle",
     "popularSymbols": "Sıkça aranan semboller",
-    "disclaimer": "Bu, geleneksel 해몽 perspektifinden referans materyaldir, tıbbi, finansal veya hukuki tavsiye değildir. Yazdığınız rüyayı saklamıyoruz.",
+    "disclaimer": "Bu, geleneksel bir rüya okuma perspektifinden referans materyaldir, tıbbi, finansal veya hukuki tavsiye değildir. Yazdığınız rüyayı saklamıyoruz.",
     "again": "Başka bir rüya oku"
   },
   "landing": {
@@ -48,13 +48,13 @@ export const tr: Dictionary = {
     "subtitle": "Rüyanızdaki sembolleri geleneksel Kore rüya bilgisi sözlüğünde arıyoruz.\nDoğum tarihi yok, kayıt yok.",
     "howTitle": "Nasıl çalışır",
     "steps": [
-      "Rüyayı hatırladığınız gibi yazın. Bir veya iki cümle yeter.",
-      "Rüyanızda görünen semboller için geleneksel Kore rüya sembolleri sözlüğünde arama yapıyoruz. Eğer bir sembol orada yoksa, bunu belirtiriz.",
-      "Her sembolün uzun zamandır ne anlama geldiğini ve bunların birlikte neyi işaret ettiğini görüyorsunuz."
+      "Rüyayı hatırladığınız gibi yazın. Bir veya iki cümle yeterlidir.",
+      "Rüyada görülen semboller için geleneksel Kore rüya sembolleri sözlüğünde arama yapıyoruz. Eğer bir sembol orada yoksa, bunu belirtiriz.",
+      "Her sembolün uzun zamandır ne anlama geldiğini ve birlikte neyi işaret ettiklerini görüyorsunuz."
     ],
     "privacyTitle": "Yazdığınız rüya saklanmaz",
-    "privacyBody": "Yazdıklarınız yalnızca okuma süresince kullanılır ve asla kaydedilmez.\nHesap açmanıza gerek yoktur ve okuma tamamlandıktan sonra sunucuda hiçbir şey kalmaz.",
-    "disclaimer": "Bu, geleneksel rüya okuma perspektifinden referans materyaldir. Gelecek hakkında bir tahmin değildir, ne de olsa tıbbi veya finansal tavsiye değildir."
+    "privacyBody": "Yazdıklarınız, okuma işlemi sırasında yalnızca kullanılır ve asla kaydedilmez.\nHesap açmanıza gerek yoktur ve okuma tamamlandığında sunucuda hiçbir şey kalmaz.",
+    "disclaimer": "Bu, geleneksel bir rüya okuma perspektifinden referans materyaldir. Gelecek hakkında bir tahmin değildir, ayrıca tıbbi veya finansal tavsiye değildir."
   },
   "ads": {
     "label": "Reklam"
@@ -75,14 +75,14 @@ export const tr: Dictionary = {
     "quotes": [
       "Bir rüya genellikle gelecek günlerden ziyade son birkaç günü yansıtır.",
       "Aynı sembol, kimin rüya gördüğüne bağlı olarak farklı yorumlanmıştır.",
-      "Geleneksel 해몽, bir cevap anahtarı değildir. Uzun süre birikmiş hikayelerin bir derlemesidir.",
+      "Geleneksel rüya okuma bir cevap anahtarı değildir. Uzun süre biriktirilmiş hikayelerden oluşan bir derlemedir.",
       "Korkutucu bir rüya, kötü bir rüya ile aynı değildir. Bu, şaşırmış bir zihnin bıraktığı iz olabilir.",
       "Sadece bir parça hatırlıyorsanız sorun değil. Başlamak için bir sembol yeter.",
       "Tekrar eden bir rüya genellikle tamamlanmamış bir şeyle gelir.",
-      "Su ne kadar berraktı ve ne renk olduğu, eski okuyucuların en çok dikkat ettiği şeydi.",
+      "Su ne kadar berrak ve hangi renkteydi, eski okuyucuların en çok dikkat ettiği şeydi.",
       "Uyanırken hissettiğiniz duygu, gördüğünüz şey kadar uzun süre kalır.",
       "İyi bir rüya olsun ya da olmasın, onun gününüzü belirlemesine izin vermemek daha iyidir.",
-      "Bir 해몽, ne olacağına dair bir söz değildir. Zaten olanı bir kez daha gözden geçirmektir."
+      "Bir okuma, ne olacağını söyleyen bir kelime değildir. Zaten olanı bir kez daha gözden geçirmektir."
     ],
     "watching": "Reklam izleniyor",
     "remaining": "Sonucunuz {seconds} sn içinde açılır"
@@ -141,7 +141,7 @@ export const tr: Dictionary = {
   },
   "conceptionReport": {
     "title": "Taşınma-omen okumayı PDF olarak saklayın",
-    "body": "Taşınan semboller genellikle taşınma işaretleri olarak okunduğunda, neyin taşındığı, bunun ne anlama geldiği ve bu okumanın nereden geldiği 4 sayfalık bir PDF ile sunulur. Hamileliği veya bir çocuğun cinsiyetini belirlemez.",
+    "body": "Bir hamilelik müjdecisi olarak gelen semboller belirdiğinde, neyin belirdiği, bunun geleneksel olarak ne anlama geldiği ve bu yorumun nereden geldiği 4 sayfalık bir PDF ile sunulur. Bu, hamileliği veya bir çocuğun cinsiyetini belirlemez.",
     "buyButton": "{price} için alın",
     "preparing": "Hazırlanıyor",
     "ordering": "Sipariş oluşturuluyor…",

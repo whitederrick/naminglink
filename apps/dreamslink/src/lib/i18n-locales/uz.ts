@@ -37,24 +37,24 @@ export const uz: Dictionary = {
     "symbolsHeading": "Tushingizda topilgan ramzlar",
     "noSymbols": "Bizning lug'atimizdan bu tushda an'anaviy ramzlar ko'rinmadi. Ma'noni ixtiro qilmaslik uchun buni bo'sh qoldiramiz.",
     "themesHeading": "Ular birgalikda nimani anglatadi",
-    "conceptionNotice": "An'anaviy ravishda ta'lim belgilari bu yerda ko'rinadi. Bu homiladorlikni aniqlamaydi.",
+    "conceptionNotice": "Bu yerda tae mong (homiladorlikni bildiruvchi tush) sifatida an'anaviy ravishda o'qilgan ramzlar mavjud. Bu homiladorlikni aniqlamaydi.",
     "browseSymbols": "An'anaviy ramzlar lug'atini ko'rish",
     "popularSymbols": "Tez-tez qidiriladigan ramzlar",
-    "disclaimer": "Bu an'anaviy tushni o'qish nuqtai nazaridan ma'lumot materialidir, tibbiy, moliyaviy yoki huquqiy maslahat emas. Siz yozgan tushni saqlamaymiz.",
+    "disclaimer": "Bu an'anaviy tush o'qish nuqtai nazaridan ma'lumot materialidir, tibbiy, moliyaviy yoki huquqiy maslahat emas. Siz yozgan tushni saqlamaymiz.",
     "again": "Boshqa tushni o'qish"
   },
   "landing": {
     "title": "Tushingizni o'qing\nan'anaviy usulda",
-    "subtitle": "Biz tushingizdagi ramzlarni an'anaviy koreys tush talqini lug'atida qidiramiz.\nTug'ilgan sana, ro'yxatdan o'tish kerak emas.",
+    "subtitle": "Biz sizning tushingizdagi ramzlarni an'anaviy koreys tush talqini lug'atida qidiramiz.\nTug'ilgan sana, ro'yxatdan o'tish kerak emas.",
     "howTitle": "Qanday ishlaydi",
     "steps": [
       "Tushingizni eslaganingizcha yozing. Bir yoki ikki jumla kifoya.",
-      "Biz an'anaviy koreys tush ramzlari lug'atida uning ichida paydo bo'lgan narsalarni qidiramiz. Agar ramz u yerda bo'lmasa, biz buni aytamiz.",
-      "Siz har bir ramzning uzoqdan qanday ma'noga ega ekanligini va ularning birgalikda nimani anglatishini ko'rasiz."
+      "Biz an'anaviy koreys tush ramzlari lug'atida paydo bo'lgan ramzlarni qidiramiz. Agar ramz u yerda bo'lmasa, biz buni aytamiz.",
+      "Siz har bir ramzning uzoq vaqtdan beri nima anglatishini va ularning birgalikda nimani ko'rsatishini ko'rasiz."
     ],
     "privacyTitle": "Yozgan tushingiz saqlanmaydi",
-    "privacyBody": "Yozgan narsangiz faqat talqin jarayonida ishlatiladi va hech qachon yozilmaydi.\nHisob yaratish shart emas va talqin tugagach, serverda hech narsa qolmaydi.",
-    "disclaimer": "Bu an'anaviy tush talqini nuqtai nazaridan ma'lumotdir. Bu kelajakni bashorat qilmaydi, shuningdek, tibbiy yoki moliyaviy maslahat emas."
+    "privacyBody": "Siz yozgan narsalar faqat talqin ishlanayotgan paytda ishlatiladi va hech qachon yozilmaydi.\nHisob kerak emas va talqin tugagach, serverda hech narsa qolmaydi.",
+    "disclaimer": "Bu an'anaviy tush talqini nuqtai nazaridan ma'lumotdir. Bu kelajakni bashorat qilish emas, shuningdek, tibbiy yoki moliyaviy maslahat emas."
   },
   "ads": {
     "label": "Reklama"
@@ -73,16 +73,16 @@ export const uz: Dictionary = {
   "analyzing": {
     "title": "Tushingizdagi ramzlarni qidiryapsiz",
     "quotes": [
-      "Bir tush ko'proq o'tgan bir necha kunni aks ettiradi, kelajakdagi kunlardan ko'ra.",
-      "Bir xil ramz, kim tush ko'rganiga qarab boshqacha o'qiladi.",
-      "An'anaviy 해몽 javob kaliti emas. Bu uzoq vaqt davomida to'plangan hikoyalar to'plamidir.",
-      "Qo'rqinchli tush yomon tush bilan bir xil emas. Bu hayratda qolgan ongning qoldirgan izidir.",
+      "Bir tush ko'proq o'tgan bir necha kunni aks ettiradi, kelajakni emas.",
+      "Bir xil ramz har kimning tushiga qarab boshqacha talqin qilingan.",
+      "An'anaviy tush talqini javob kaliti emas. Bu uzoq vaqt davomida to'plangan hikoyalar to'plamidir.",
+      "Qo'rqinchli tush yomon tush bilan bir xil emas. Bu hayajonlangan ongning qoldirgan izidir.",
       "Agar siz faqat bir parchani eslasangiz, bu yaxshi. Bir ramz boshlash uchun yetarli.",
       "Qayta-qayta keladigan tush odatda tugallanmagan biror narsa bilan birga keladi.",
-      "Suvning qanchalik toza va qanday rangda ekanligi, eski o'qituvchilar tomonidan eng yaqin kuzatilgan narsalardir.",
-      "Uyanishdagi his-tuyg'u, ko'rgan narsangiz qanchalik uzoq davom etsa, shuncha uzoq davom etadi.",
-      "Yaxshi tush bo'ladimi yoki yo'qmi, uni kuningizni belgilashiga yo'l qo'ymaslik yaxshiroq.",
-      "Bir o'qish, nima bo'lishini aytish emas. Bu allaqachon mavjud bo'lgan narsaga yana bir nazar."
+      "Suvning qanchalik toza va qanday rangda ekanligi, eski o'quvchilar tomonidan eng yaqin kuzatilgan narsalardir.",
+      "Uyg'onganingizdagi his-tuyg'u ko'rgan narsangiz kabi uzoq davom etadi.",
+      "Yaxshi tush yoki yomon tush bo'lsin, uni kuningizni belgilashiga yo'l qo'ymaslik yaxshiroq.",
+      "Tush talqini kelajakda nima bo'lishi haqida so'z emas. Bu allaqachon mavjud bo'lgan narsaga yana bir nazar."
     ],
     "watching": "Reklama ko'rilmoqda",
     "remaining": "Natija {seconds} soniyadan keyin ochiladi"
@@ -141,7 +141,7 @@ export const uz: Dictionary = {
   },
   "conceptionReport": {
     "title": "Tug'ilish-omen haqidagi o'qishni PDF sifatida saqlang",
-    "body": "Agar 태몽 sifatida an'anaviy ravishda o'qilgan ramzlar paydo bo'lsa, 4 betlik PDFda nima paydo bo'lganini, uning an'anaviy ma'nosi nima ekanligini va bu o'qish qayerdan kelib chiqqanini ko'rsatib beramiz. Bu имзони yoki bola jinsini aniqlamaydi.",
+    "body": "Agar an'anaviy ravishda homiladorlik belgisi sifatida o'qilgan ramzlar paydo bo'lsa, 4 betlik PDFda nima paydo bo'lgan, uning an'anaviy ma'nosi va bu o'qish qayerdan kelib chiqqani ko'rsatiladi. Bu homiladorlikni yoki bolaning jinsini aniqlamaydi.",
     "buyButton": "{price} ga oling",
     "preparing": "Tayyorlanmoqda",
     "ordering": "Buyurtma yaratilmoqda…",

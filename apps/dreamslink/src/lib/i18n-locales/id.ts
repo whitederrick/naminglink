@@ -37,24 +37,24 @@ export const id: Dictionary = {
     "symbolsHeading": "Simbol yang ditemukan dalam mimpi Anda",
     "noSymbols": "Tidak ada simbol tradisional dari kamus kami yang muncul dalam mimpi ini. Kami membiarkannya kosong daripada menciptakan makna.",
     "themesHeading": "Apa yang ditunjukkan bersama-sama",
-    "conceptionNotice": "Simbol yang secara tradisional dibaca sebagai pertanda konsepsi muncul di sini. Ini tidak menentukan kehamilan.",
+    "conceptionNotice": "Simbol yang traditionally read as pertanda kehamilan muncul di sini. Ini tidak menentukan kehamilan.",
     "browseSymbols": "Lihat kamus simbol tradisional",
     "popularSymbols": "Simbol yang sering dicari",
-    "disclaimer": "Ini adalah materi referensi dari perspektif pembacaan mimpi tradisional, bukan nasihat medis, keuangan, atau hukum. Kami tidak menyimpan mimpi yang Anda tulis.",
+    "disclaimer": "Ini adalah bahan referensi dari perspektif tradisional dream reading, bukan nasihat medis, keuangan, atau hukum. Kami tidak menyimpan mimpi yang Anda tulis.",
     "again": "Baca mimpi lain"
   },
   "landing": {
     "title": "Baca mimpimu\ndengan cara tradisional",
-    "subtitle": "Kami mencari simbol-simbol dalam mimpimu di kamus tradisional tentang 해몽.\nTanpa tanggal lahir, tanpa pendaftaran.",
+    "subtitle": "Kami mencari simbol-simbol dalam mimpimu di kamus tradisi Korea tentang mimpi.\nTanpa tanggal lahir, tanpa pendaftaran.",
     "howTitle": "Cara kerjanya",
     "steps": [
-      "Tuliskan mimpi itu seperti yang kamu ingat. Satu atau dua kalimat sudah cukup.",
-      "Kami mencari di kamus simbol-simbol 해몽 tradisional untuk apa yang muncul di dalamnya. Jika simbol tidak ada di sana, kami akan mengatakannya.",
-      "Kamu akan melihat apa arti masing-masing simbol yang telah lama dipercaya, dan apa yang mereka tunjukkan bersama-sama."
+      "Tuliskan mimpi tersebut sesuai yang kamu ingat. Satu atau dua kalimat sudah cukup.",
+      "Kami mencari di kamus simbol mimpi tradisional Korea untuk apa yang muncul di dalamnya. Jika simbol tidak ada di sana, kami akan mengatakannya.",
+      "Kamu akan melihat apa arti masing-masing simbol yang telah lama diyakini, dan apa yang mereka tunjukkan bersama-sama."
     ],
     "privacyTitle": "Mimpi yang kamu tulis tidak disimpan",
-    "privacyBody": "Apa yang kamu tulis hanya digunakan selama proses pembacaan, dan tidak pernah dicatat.\nTidak perlu akun, dan tidak ada yang tersisa di server setelah pembacaan selesai.",
-    "disclaimer": "Ini adalah materi referensi dari perspektif 해몽 tradisional. Ini bukan prediksi tentang apa yang akan datang, atau nasihat medis atau keuangan."
+    "privacyBody": "Apa yang kamu tulis hanya digunakan selama pembacaan sedang dikerjakan, dan tidak pernah dicatat.\nTidak perlu akun, dan tidak ada yang tersisa di server setelah pembacaan selesai.",
+    "disclaimer": "Ini adalah materi referensi dari perspektif pembacaan mimpi tradisional. Ini bukan prediksi tentang apa yang akan datang, atau nasihat medis atau finansial."
   },
   "ads": {
     "label": "Iklan"
@@ -75,14 +75,14 @@ export const id: Dictionary = {
     "quotes": [
       "Sebuah mimpi cenderung mencerminkan beberapa hari terakhir lebih dari hari-hari yang akan datang.",
       "Simbol yang sama telah dibaca secara berbeda tergantung pada siapa yang memimpikannya.",
-      "Tradisional 해몽 bukanlah kunci jawaban. Ini adalah kumpulan cerita yang telah dikumpulkan selama bertahun-tahun.",
+      "Tradisional dream reading bukanlah kunci jawaban. Ini adalah kumpulan cerita yang telah dikumpulkan selama bertahun-tahun.",
       "Sebuah mimpi yang menakutkan tidak sama dengan mimpi yang buruk. Itu mungkin adalah jejak yang ditinggalkan oleh pikiran yang terkejut.",
-      "Tidak apa-apa jika kamu hanya ingat sepotong. Satu simbol sudah cukup untuk memulai.",
+      "Tidak apa-apa jika Anda hanya mengingat sepotong. Satu simbol sudah cukup untuk memulai.",
       "Sebuah mimpi yang terus kembali biasanya datang dengan sesuatu yang belum selesai.",
       "Seberapa jernih airnya, dan warna apa yang dimilikinya, adalah apa yang diperhatikan oleh pembaca tua dengan sangat dekat.",
-      "Bagaimana perasaanmu saat bangun akan bertahan selama apa yang sebenarnya kamu lihat.",
-      "Baik mimpi itu baik atau tidak, lebih baik tidak membiarkannya menentukan harimu.",
-      "Sebuah 해몽 bukanlah kata tentang apa yang akan terjadi. Ini adalah pandangan kedua tentang apa yang sudah ada."
+      "Bagaimana perasaan Anda saat bangun akan bertahan selama apa yang sebenarnya Anda lihat.",
+      "Mimpi baik atau tidak, lebih baik tidak membiarkannya menentukan hari Anda.",
+      "Sebuah pembacaan bukanlah kata tentang apa yang akan terjadi. Ini adalah pandangan kedua tentang apa yang sudah ada."
     ],
     "watching": "Sedang menonton iklan",
     "remaining": "Hasil Anda terbuka dalam {seconds} detik"
@@ -141,7 +141,7 @@ export const id: Dictionary = {
   },
   "conceptionReport": {
     "title": "Simpan pembacaan omen konsepsi sebagai PDF",
-    "body": "Ketika simbol yang traditionally read as pertanda konsepsi muncul, sebuah PDF 4 halaman menjelaskan apa yang muncul, apa artinya secara tradisional, dan dari mana pembacaan itu berasal. Ini does not determine kehamilan atau jenis kelamin anak.",
+    "body": "Ketika simbol-simbol yang traditionally read as pertanda kehamilan muncul, sebuah PDF 4 halaman menjelaskan apa yang muncul, apa artinya secara tradisional, dan dari mana pembacaan itu berasal. Ini tidak menentukan kehamilan atau jenis kelamin anak.",
     "buyButton": "Dapatkan seharga {price}",
     "preparing": "Sedang bersiap",
     "ordering": "Membuat pesanan…",

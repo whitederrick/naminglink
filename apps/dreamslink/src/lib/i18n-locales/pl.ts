@@ -37,24 +37,24 @@ export const pl: Dictionary = {
     "symbolsHeading": "Znalezione symbole w Twoim śnie",
     "noSymbols": "W tym śnie nie pojawił się żaden tradycyjny symbol z naszego słownika. Zostawiamy to puste, aby nie wymyślać znaczenia.",
     "themesHeading": "Co one wskazują razem",
-    "conceptionNotice": "Symbole tradycyjnie interpretowane jako znaki poczęcia pojawiają się tutaj. To nie określa ciąży.",
+    "conceptionNotice": "Symbole tradycyjnie interpretowane jako oznaki poczęcia pojawiają się tutaj. To nie determinuje ciąży.",
     "browseSymbols": "Przeglądaj tradycyjny słownik symboli",
     "popularSymbols": "Często wyszukiwane",
-    "disclaimer": "To materiały referencyjne z perspektywy tradycyjnej interpretacji snów, a nie porady medyczne, finansowe ani prawne. Nie przechowujemy snu, który napisałeś.",
+    "disclaimer": "To jest materiał referencyjny z perspektywy tradycyjnego czytania snów, a nie porady medycznej, finansowej ani prawnej. Nie przechowujemy snu, który napisałeś.",
     "again": "Przeczytaj inny sen"
   },
   "landing": {
     "title": "Przeczytaj swój sen\nw tradycyjny sposób",
-    "subtitle": "Szukamy symboli w Twoim śnie w słowniku tradycyjnej koreańskiej wiedzy o snach.\nBez daty urodzenia, bez rejestracji.",
+    "subtitle": "Szukamy symboli w twoim śnie w słowniku tradycyjnej koreańskiej wiedzy o snach.\nNie potrzebujesz daty urodzenia ani rejestracji.",
     "howTitle": "Jak to działa",
     "steps": [
       "Zapisz sen tak, jak go pamiętasz. Jedno lub dwa zdania wystarczą.",
       "Szukamy w słowniku tradycyjnych koreańskich symboli snów tego, co się w nim pojawiło. Jeśli symbolu tam nie ma, informujemy o tym.",
-      "Zobaczysz, co każdy symbol od dawna oznacza, oraz co one wskazują razem."
+      "Zobaczysz, co każdy symbol od dawna oznacza oraz co one wskazują razem."
     ],
     "privacyTitle": "Sen, który zapisujesz, nie jest przechowywany",
     "privacyBody": "To, co zapisujesz, jest używane tylko podczas opracowywania interpretacji i nigdy nie jest rejestrowane.\nNie potrzebujesz konta, a po zakończeniu interpretacji nic nie zostaje na serwerze.",
-    "disclaimer": "To materiały referencyjne z perspektywy tradycyjnej interpretacji snów. Nie jest to prognoza tego, co ma nadejść, ani porada medyczna czy finansowa."
+    "disclaimer": "To materiały referencyjne z perspektywy tradycyjnej interpretacji snów. Nie jest to przewidywanie przyszłości ani porada medyczna czy finansowa."
   },
   "ads": {
     "label": "Reklama"
@@ -75,14 +75,14 @@ export const pl: Dictionary = {
     "quotes": [
       "Sen zazwyczaj odzwierciedla ostatnie kilka dni bardziej niż nadchodzące dni.",
       "Ten sam symbol był interpretowany różnie w zależności od tego, kto go śnił.",
-      "Tradycyjna 해몽 nie jest kluczem odpowiedzi. To zbiór długo gromadzonych opowieści.",
-      "Straszny sen nie jest tym samym co zły. Może być śladem, który pozostawił zaskoczony umysł.",
-      "Nie szkodzi, jeśli pamiętasz tylko fragment. Jeden symbol wystarczy, by zacząć.",
+      "Tradycyjna interpretacja snów nie jest kluczem odpowiedzi. To zbiór długo gromadzonych opowieści.",
+      "Przerażający sen nie jest tym samym co zły. Może być śladem, który pozostawił zaskoczony umysł.",
+      "To w porządku, jeśli pamiętasz tylko fragment. Jeden symbol wystarczy, aby zacząć.",
       "Sen, który się powtarza, zazwyczaj wiąże się z czymś, co pozostało niedokończone.",
-      "Jak czysta była woda i jaki miała kolor, to to, na co starzy czytelnicy zwracali szczególną uwagę.",
+      "Jak czysta była woda i jaki miała kolor, to to, na co starzy czytelnicy zwracali największą uwagę.",
       "To, jak się czułeś po przebudzeniu, utrzymuje się tak długo, jak to, co naprawdę widziałeś.",
-      "Dobry sen czy nie, lepiej nie pozwalać mu decydować o Twoim dniu.",
-      "해몽 nie jest słowem o tym, co się wydarzy. To drugie spojrzenie na to, co już jest."
+      "Dobry sen czy nie, lepiej nie pozwalać mu decydować o twoim dniu.",
+      "Interpretacja snu to nie słowo o tym, co się wydarzy. To drugie spojrzenie na to, co już jest."
     ],
     "watching": "Trwa reklama",
     "remaining": "Wynik otworzy się za: {seconds} s"
@@ -141,7 +141,7 @@ export const pl: Dictionary = {
   },
   "conceptionReport": {
     "title": "Zachowaj odczyt omenów poczęcia jako PDF",
-    "body": "Kiedy symbole tradycyjnie uznawane za omeny poczęcia się pojawiają, 4-stronicowy PDF przedstawia, co się pojawiło, co to tradycyjnie oznacza oraz skąd pochodzi to odczytanie. Nie określa to ciąży ani płci dziecka.",
+    "body": "Gdy pojawiają się symbole tradycyjnie interpretowane jako omeny związane z ciążą, 4-stronicowy PDF przedstawia, co się pojawiło, co to tradycyjnie oznacza oraz skąd pochodzi ta interpretacja. Nie określa to ciąży ani płci dziecka.",
     "buyButton": "Kup to za {price}",
     "preparing": "Przygotowuję się",
     "ordering": "Tworzę zamówienie…",

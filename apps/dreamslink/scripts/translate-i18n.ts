@@ -237,7 +237,16 @@ async function translateSection(section: string, items: Leaf[]) {
           content: [
             `You localize the UI of Dreams-Link, a Korean dream-reading (해몽) service: someone writes down a dream they had, and the service looks up the symbols in it in a dictionary of traditional Korean dream lore.`,
             `Translate each entry into ${localeLanguageName(locale)} (locale ${locale}).`,
-            "You are given both the English string and the Korean original. Follow English for tone and length; follow Korean for the meaning of dream-reading terms (해몽 a traditional dream reading, 태몽 a conception dream, 길몽 an auspicious dream) — re-translating the English would translate them twice.",
+            // ⚠️ **이 지시문에 한글을 적지 말 것**(2026-08-07). 예전에는 여기서 용어를
+            // 한글로 적어 두었는데(「해몽 a traditional dream reading」식), 모델이 그것을
+            // **"이 낱말은 그대로 두라"**로 읽어 **19개 로케일에 「해몽」·「태몽」이 한글 그대로
+            // 나갔다**(문자열 55건). 러시아어·중국어 화면에 읽을 수 없는 글자가 박힌 것이다.
+            // 사주링크는 같은 자리를 영어로만 적었고(「day master, ten gods」) 누출이 훨씬
+            // 적었다 — 대조군이 있었던 셈이다. 뜻은 영어로 풀어 설명한다.
+            "You are given both the English string and the Korean original. Follow English for tone and length; use the Korean only to disambiguate dream-reading vocabulary — a traditional dream reading, a conception dream (a dream believed to foretell a pregnancy), an auspicious dream — because re-translating the English would translate them twice.",
+            // 위 결함을 문장 하나로 못 박는다. 이것이 없으면 모델이 문화 고유어라고 판단해
+            // 한글을 남긴다 — 이용자가 읽을 수 없는 글자이므로 번역이 안 된 것과 같다.
+            "CRITICAL: the output must contain no Korean (Hangul) characters at all. Every Korean term must be rendered in the target language — describe it if there is no single word for it. Leaving a Korean word untranslated is not preserving a cultural term; the reader cannot read that script.",
             // 아래 셋은 `verify-i18n`이 기계적으로 대조하는 항목이다. 어기면 그 자리에서 걸린다.
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime.",
             // **모자란 쪽보다 넘치는 쪽이 잦다.** 영어에 강조가 하나 있으면 모델이 앞 구절에도

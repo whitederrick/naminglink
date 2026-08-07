@@ -37,10 +37,10 @@ export const de: Dictionary = {
     "symbolsHeading": "Gefundene Symbole in Ihrem Traum",
     "noSymbols": "Kein traditionelles Symbol aus unserem Wörterbuch erschien in diesem Traum. Wir lassen dies leer, anstatt eine Bedeutung zu erfinden.",
     "themesHeading": "Worauf sie zusammen hinweisen",
-    "conceptionNotice": "Symbole, die traditionell als 태몽 gedeutet werden, erscheinen hier. Dies bestimmt nicht die Schwangerschaft.",
+    "conceptionNotice": "Symbole, die traditionell als Vorzeichen für eine Schwangerschaft gedeutet werden, erscheinen hier. Dies bestimmt nicht die Schwangerschaft.",
     "browseSymbols": "Durchsuchen Sie das traditionelle Symbolwörterbuch",
     "popularSymbols": "Häufig nachgeschlagene Symbole",
-    "disclaimer": "Dies ist Referenzmaterial aus einer traditionellen 해몽-Perspektive, keine medizinische, finanzielle oder rechtliche Beratung. Wir speichern den Traum, den Sie geschrieben haben, nicht.",
+    "disclaimer": "Dies ist Referenzmaterial aus einer traditionellen Traumdeutungsperspektive, kein medizinischer, finanzieller oder rechtlicher Rat. Wir speichern den Traum, den Sie geschrieben haben, nicht.",
     "again": "Einen anderen Traum lesen"
   },
   "landing": {
@@ -49,11 +49,11 @@ export const de: Dictionary = {
     "howTitle": "So funktioniert es",
     "steps": [
       "Schreibe den Traum so auf, wie du ihn erinnerst. Ein oder zwei Sätze sind genug.",
-      "Wir durchsuchen ein Wörterbuch traditioneller koreanischer Traumsymbole nach dem, was darin erschienen ist. Wenn ein Symbol nicht vorhanden ist, sagen wir das.",
-      "Du siehst, was jedes Symbol seit langem bedeutet und worauf sie zusammen hinweisen."
+      "Wir durchsuchen ein Wörterbuch traditioneller koreanischer Traumsymbole nach dem, was darin vorkam. Wenn ein Symbol nicht vorhanden ist, sagen wir das.",
+      "Du siehst, was jedes Symbol traditionell bedeutet und worauf sie zusammen hinweisen."
     ],
     "privacyTitle": "Der Traum, den du aufschreibst, wird nicht gespeichert",
-    "privacyBody": "Was du schreibst, wird nur während der Auswertung der Deutung verwendet und niemals aufgezeichnet.\nEs ist kein Konto erforderlich, und nach Abschluss der Deutung bleibt nichts auf dem Server.",
+    "privacyBody": "Was du schreibst, wird nur während der Auswertung verwendet und niemals aufgezeichnet.\nEs ist kein Konto erforderlich, und nach der Auswertung bleibt nichts auf dem Server zurück.",
     "disclaimer": "Dies ist Referenzmaterial aus der Perspektive der traditionellen Traumdeutung. Es ist keine Vorhersage dessen, was kommen wird, noch medizinischer oder finanzieller Rat."
   },
   "ads": {
@@ -73,16 +73,16 @@ export const de: Dictionary = {
   "analyzing": {
     "title": "Auf der Suche nach den Symbolen in deinem Traum",
     "quotes": [
-      "Ein Traum spiegelt oft die letzten paar Tage wider, mehr als die kommenden Tage.",
+      "Ein Traum spiegelt oft eher die letzten Tage wider als die kommenden Tage.",
       "Dasselbe Symbol wurde unterschiedlich gelesen, je nachdem, wer es geträumt hat.",
-      "Traditionelle 해몽 ist kein Antwortschlüssel. Es ist ein über lange Zeit gesammelter Körper von Geschichten.",
-      "Ein beängstigender Traum ist nicht dasselbe wie ein schlechter. Er kann das Zeichen eines erschreckten Geistes sein.",
-      "Es ist in Ordnung, wenn du nur einen Bruchteil erinnerst. Ein Symbol reicht aus, um zu beginnen.",
+      "Traditionelles Traumlesen ist kein Antwortschlüssel. Es ist ein über lange Zeit gesammelter Körper von Geschichten.",
+      "Ein erschreckender Traum ist nicht dasselbe wie ein schlechter. Er kann das Zeichen eines erschreckten Geistes sein.",
+      "Es ist in Ordnung, wenn Sie sich nur an einen Bruchteil erinnern. Ein Symbol reicht aus, um zu beginnen.",
       "Ein Traum, der immer wiederkehrt, kommt normalerweise mit etwas Unvollendetem.",
-      "Wie klar das Wasser war und welche Farbe es hatte, darauf achteten alte Leser besonders genau.",
-      "Wie du dich beim Aufwachen gefühlt hast, bleibt ebenso lange bestehen wie das, was du tatsächlich gesehen hast.",
-      "Ob guter Traum oder nicht, es ist besser, ihn nicht über deinen Tag entscheiden zu lassen.",
-      "Eine 해몽 ist kein Wort darüber, was passieren wird. Es ist ein zweiter Blick auf das, was bereits ist."
+      "Wie klar das Wasser war und welche Farbe es hatte, darauf achteten alte Leser am genauesten.",
+      "Wie Sie sich beim Aufwachen fühlten, bleibt genauso lange im Gedächtnis wie das, was Sie tatsächlich gesehen haben.",
+      "Ob guter Traum oder nicht, es ist besser, ihn nicht über Ihren Tag entscheiden zu lassen.",
+      "Eine Deutung ist kein Wort darüber, was passieren wird. Es ist ein zweiter Blick auf das, was bereits ist."
     ],
     "watching": "Werbung läuft",
     "remaining": "Ihr Ergebnis öffnet in {seconds} s"
@@ -141,7 +141,7 @@ export const de: Dictionary = {
   },
   "conceptionReport": {
     "title": "Bewahren Sie die Konzeptionstraum-Lesung als PDF auf",
-    "body": "Wenn Symbole, die traditionell als 태몽 gedeutet werden, erscheinen, wird in einem 4-seitigen PDF dargelegt, was erschienen ist, welche Bedeutung es traditionell hat und woher diese Deutung stammt. Es bestimmt nicht die Schwangerschaft oder das Geschlecht eines Kindes.",
+    "body": "Wenn Symbole, die traditionell als Schwangerschaftszeichen gedeutet werden, erscheinen, wird in einem 4-seitigen PDF dargelegt, was erschienen ist, was es traditionell bedeutet und woher diese Deutung stammt. Es bestimmt nicht die Schwangerschaft oder das Geschlecht eines Kindes.",
     "buyButton": "Holen Sie es sich für {price}",
     "preparing": "Bereite vor",
     "ordering": "Bestellung wird erstellt…",

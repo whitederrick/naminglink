@@ -40,21 +40,21 @@ export const pt: Dictionary = {
     "conceptionNotice": "Símbolos tradicionalmente lidos como presságios de concepção aparecem aqui. Isso não determina a gravidez.",
     "browseSymbols": "Veja o dicionário de símbolos tradicionais",
     "popularSymbols": "Símbolos comumente pesquisados",
-    "disclaimer": "Este é um material de referência de uma perspectiva tradicional de leitura de sonhos, não é aconselhamento médico, financeiro ou legal. Não armazenamos o sonho que você escreveu.",
+    "disclaimer": "Este é um material de referência de uma perspectiva de interpretação de sonhos tradicional, não um conselho médico, financeiro ou legal. Não armazenamos o sonho que você escreveu.",
     "again": "Ler outro sonho"
   },
   "landing": {
     "title": "Leia seu sonho\ndo jeito tradicional",
-    "subtitle": "Pesquisamos os símbolos do seu sonho em um dicionário de tradições de sonhos coreanos.\nSem data de nascimento, sem cadastro.",
+    "subtitle": "Pesquisamos os símbolos do seu sonho em um dicionário de tradições de interpretação de sonhos coreanos.\nSem data de nascimento, sem cadastro.",
     "howTitle": "Como funciona",
     "steps": [
       "Escreva o sonho como você se lembra. Uma frase ou duas são suficientes.",
-      "Pesquisamos em um dicionário de símbolos de sonhos tradicionais coreanos o que apareceu nele. Se um símbolo não estiver lá, informamos.",
+      "Buscamos em um dicionário de símbolos de sonhos coreanos tradicionais o que apareceu nele. Se um símbolo não estiver lá, informamos.",
       "Você verá o que cada símbolo tem sido tradicionalmente interpretado e o que eles apontam juntos."
     ],
     "privacyTitle": "O sonho que você escreve não é armazenado",
-    "privacyBody": "O que você escreve é usado apenas enquanto a leitura está sendo realizada e nunca é registrado.\nNenhuma conta é necessária, e nada é deixado no servidor uma vez que a leitura é concluída.",
-    "disclaimer": "Este é um material de referência de uma perspectiva de 해몽 tradicional. Não é uma previsão do que está por vir, nem aconselhamento médico ou financeiro."
+    "privacyBody": "O que você escreve é usado apenas enquanto a interpretação está sendo realizada e nunca é registrado.\nNenhuma conta é necessária, e nada é deixado no servidor uma vez que a interpretação é concluída.",
+    "disclaimer": "Este é um material de referência de uma perspectiva de interpretação de sonhos tradicional. Não é uma previsão do que está por vir, nem aconselhamento médico ou financeiro."
   },
   "ads": {
     "label": "Publicidade"
@@ -74,14 +74,14 @@ export const pt: Dictionary = {
     "title": "Procurando os símbolos em seu sonho",
     "quotes": [
       "Um sonho tende a refletir os últimos dias mais do que os dias que virão.",
-      "O mesmo símbolo foi lido de forma diferente dependendo de quem o sonhou.",
-      "A tradicional 해몽 não é uma chave de respostas. É um corpo de histórias acumuladas ao longo do tempo.",
-      "Um sonho assustador não é o mesmo que um sonho ruim. Pode ser a marca que uma mente assustada deixou para trás.",
+      "O mesmo símbolo foi interpretado de maneira diferente dependendo de quem o sonhou.",
+      "A leitura tradicional de sonhos não é uma chave de respostas. É um corpo de histórias acumuladas ao longo do tempo.",
+      "Um sonho assustador não é o mesmo que um sonho ruim. Pode ser a marca deixada por uma mente assustada.",
       "Está tudo bem se você lembrar apenas de um fragmento. Um símbolo é suficiente para começar.",
-      "Um sonho que continua voltando geralmente vem com algo que ficou inacabado.",
-      "Quão clara era a água e qual era sua cor é o que os antigos leitores observavam mais de perto.",
-      "Como você se sentiu ao acordar persiste tanto quanto o que você realmente viu.",
-      "Sonho bom ou não, é melhor não deixar que ele decida seu dia.",
+      "Um sonho que continua voltando geralmente vem com algo inacabado.",
+      "Quão clara era a água e qual a sua cor, é o que os antigos leitores observavam mais de perto.",
+      "Como você se sentiu ao acordar permanece tanto quanto o que você realmente viu.",
+      "Bom sonho ou não, é melhor não deixar que ele decida seu dia.",
       "Uma leitura não é uma palavra sobre o que acontecerá. É um segundo olhar sobre o que já é."
     ],
     "watching": "Assistindo ao anúncio",
@@ -141,7 +141,7 @@ export const pt: Dictionary = {
   },
   "conceptionReport": {
     "title": "Mantenha a leitura de omen de concepção como um PDF",
-    "body": "Quando símbolos tradicionalmente lidos como presságios de concepção aparecem, um PDF de 4 páginas apresenta o que apareceu, o que isso significa tradicionalmente e de onde vem essa leitura. Não determina a gravidez ou o sexo de uma criança.",
+    "body": "Quando símbolos tradicionalmente lidos como presságios de concepção aparecem, um PDF de 4 páginas apresenta o que apareceu, o que isso significou tradicionalmente e de onde vem essa interpretação. Não determina a gravidez ou o sexo de uma criança.",
     "buyButton": "Adquira por {price}",
     "preparing": "Preparando",
     "ordering": "Criando o pedido…",

@@ -37,10 +37,10 @@ export const it: Dictionary = {
     "symbolsHeading": "Simboli trovati nel tuo sogno",
     "noSymbols": "Nessun simbolo tradizionale del nostro dizionario è apparso in questo sogno. Lo lasciamo vuoto piuttosto che inventare un significato.",
     "themesHeading": "Cosa indicano insieme",
-    "conceptionNotice": "I simboli tradizionalmente letti come segni di concezione appaiono qui. Questo non determina la gravidanza.",
+    "conceptionNotice": "I simboli tradizionalmente letti come presagi di concezione appaiono qui. Questo non determina la gravidanza.",
     "browseSymbols": "Sfoglia il dizionario dei simboli tradizionali",
     "popularSymbols": "Simboli comunemente cercati",
-    "disclaimer": "Questo è materiale di riferimento da una prospettiva di interpretazione tradizionale dei sogni, non un consiglio medico, finanziario o legale. Non memorizziamo il sogno che hai scritto.",
+    "disclaimer": "Questo è materiale di riferimento da una prospettiva di tradizionale lettura dei sogni, non un consiglio medico, finanziario o legale. Non memorizziamo il sogno che hai scritto.",
     "again": "Leggi un altro sogno"
   },
   "landing": {
@@ -49,12 +49,12 @@ export const it: Dictionary = {
     "howTitle": "Come funziona",
     "steps": [
       "Scrivi il sogno come lo ricordi. Una frase o due sono sufficienti.",
-      "Cerchiamo in un dizionario di simboli tradizionali coreani per ciò che è apparso. Se un simbolo non è presente, lo diciamo.",
-      "Vedi cosa ogni simbolo è stato tradizionalmente interpretato e cosa indicano insieme."
+      "Cerchiamo in un dizionario dei simboli tradizionali coreani per ciò che è apparso. Se un simbolo non è presente, lo diciamo.",
+      "Vedi cosa ciascun simbolo è stato tradizionalmente interpretato e cosa indicano insieme."
     ],
     "privacyTitle": "Il sogno che scrivi non viene memorizzato",
     "privacyBody": "Ciò che scrivi viene utilizzato solo mentre si elabora la lettura e non viene mai registrato.\nNon è necessario alcun account e nulla rimane sul server una volta completata la lettura.",
-    "disclaimer": "Questo è materiale di riferimento da una prospettiva di tradizionale 해몽. Non è una previsione di ciò che deve venire, né un consiglio medico o finanziario."
+    "disclaimer": "Questo è materiale di riferimento da una prospettiva di tradizionale lettura dei sogni. Non è una previsione di ciò che deve venire, né un consiglio medico o finanziario."
   },
   "ads": {
     "label": "Pubblicità"
@@ -75,14 +75,14 @@ export const it: Dictionary = {
     "quotes": [
       "Un sogno tende a riflettere gli ultimi giorni più che i giorni a venire.",
       "Lo stesso simbolo è stato interpretato in modo diverso a seconda di chi lo ha sognato.",
-      "La tradizionale lettura dei sogni non è una chiave di risposta. È un insieme di storie accumulate nel tempo.",
-      "Un sogno spaventoso non è necessariamente un sogno cattivo. Può essere il segno lasciato da una mente spaventata.",
+      "La tradizionale interpretazione dei sogni non è una chiave di risposta. È un insieme di storie accumulate nel tempo.",
+      "Un sogno spaventoso non è lo stesso di uno cattivo. Può essere il segno che una mente spaventata ha lasciato dietro di sé.",
       "Va bene se ricordi solo un frammento. Un simbolo è sufficiente per iniziare.",
       "Un sogno che continua a tornare di solito arriva con qualcosa di incompiuto.",
       "Quanto era chiara l'acqua e di che colore era, è ciò che i lettori antichi osservavano più da vicino.",
       "Come ti sei sentito al risveglio persiste tanto quanto ciò che hai effettivamente visto.",
       "Buon sogno o meno, è meglio non lasciare che decida la tua giornata.",
-      "Una lettura non è una parola su ciò che accadrà. È un secondo sguardo su ciò che già è."
+      "Un'interpretazione non è una parola su ciò che accadrà. È uno sguardo in più su ciò che già è."
     ],
     "watching": "Riproduzione dell'annuncio",
     "remaining": "Il risultato si apre tra {seconds} s"
@@ -141,7 +141,7 @@ export const it: Dictionary = {
   },
   "conceptionReport": {
     "title": "Conserva la lettura del sogno di concezione come PDF",
-    "body": "Quando i simboli tradizionalmente letti come presagi di concezione appaiono, un PDF di 4 pagine espone cosa è apparso, cosa ha significato tradizionalmente e da dove proviene quella lettura. Non determina la gravidanza o il sesso di un bambino.",
+    "body": "Quando i simboli tradizionalmente letti come segni di concezione appaiono, un PDF di 4 pagine espone ciò che è apparso, cosa ha tradizionalmente significato e da dove proviene quella lettura. Non determina la gravidanza o il sesso di un bambino.",
     "buyButton": "Ottienilo per {price}",
     "preparing": "Preparazione in corso",
     "ordering": "Creazione dell'ordine…",

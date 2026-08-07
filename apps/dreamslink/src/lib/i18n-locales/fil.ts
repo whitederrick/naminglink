@@ -37,24 +37,24 @@ export const fil: Dictionary = {
     "symbolsHeading": "Mga simbolo na natagpuan sa iyong pangarap",
     "noSymbols": "Walang tradisyonal na simbolo mula sa aming diksyunaryo ang lumitaw sa pangarap na ito. Iiwan naming walang laman ito sa halip na mag-imbento ng kahulugan.",
     "themesHeading": "Ano ang sama-samang tinutukoy nila",
-    "conceptionNotice": "Ang mga simbolo na tradisyonal na binabasa bilang mga tanda ng pagbuo ay lumilitaw dito. Hindi ito nagtatakda ng pagbubuntis.",
+    "conceptionNotice": "Mga simbolo na traditionally read as mga palatandaan ng pagbubuntis ang lumalabas dito. Ito ay hindi nagtatakda ng pagbubuntis.",
     "browseSymbols": "Tingnan ang tradisyonal na diksyunaryo ng simbolo",
     "popularSymbols": "Karaniwang hinahanap",
-    "disclaimer": "Ito ay materyal na sanggunian mula sa isang tradisyonal na pananaw ng pagsusuri ng pangarap, hindi medikal, pinansyal, o legal na payo. Hindi namin iniimbak ang pangarap na isinulat mo.",
+    "disclaimer": "Ito ay materyal na sanggunian mula sa isang tradisyonal na pananaw sa pagbasa ng mga pangarap, hindi medikal, pinansyal, o legal na payo. Hindi namin iniimbak ang pangarap na isinulat mo.",
     "again": "Basahin ang ibang pangarap"
   },
   "landing": {
-    "title": "Basahin ang iyong pangarap\nsa tradisyonal na paraan",
-    "subtitle": "Hinahanap namin ang mga simbolo sa iyong pangarap sa isang diksyunaryo ng tradisyonal na Koreanong 해몽.\nWalang petsa ng kapanganakan, walang pag-sign up.",
+    "title": "Basahin ang iyong panaginip\ngamit ang tradisyonal na paraan",
+    "subtitle": "Hinahanap namin ang mga simbolo sa iyong panaginip sa isang diksyunaryo ng tradisyonal na Korean dream lore.\nWalang petsa ng kapanganakan, walang pag-sign up.",
     "howTitle": "Paano ito gumagana",
     "steps": [
-      "Isulat ang pangarap ayon sa iyong naaalala. Isang pangungusap o dalawa ay sapat na.",
-      "Naghahanap kami sa isang diksyunaryo ng tradisyonal na mga simbolo ng pangarap para sa mga lumabas dito. Kung ang isang simbolo ay wala roon, sasabihin namin ito.",
-      "Makikita mo kung ano ang matagal nang ibig sabihin ng bawat simbolo, at kung ano ang sama-samang tinutukoy nila."
+      "Isulat ang panaginip ayon sa iyong naaalala. Isang pangungusap o dalawa ay sapat na.",
+      "Naghahanap kami sa isang diksyunaryo ng mga simbolo ng tradisyonal na Korean dream para sa mga lumabas dito. Kung ang isang simbolo ay wala doon, sinasabi namin ito.",
+      "Makikita mo kung ano ang matagal nang ibig sabihin ng bawat simbolo, at kung ano ang pinapakita ng mga ito nang sama-sama."
     ],
-    "privacyTitle": "Ang pangarap na isinusulat mo ay hindi nakaimbak",
-    "privacyBody": "Ang iyong isinusulat ay ginagamit lamang habang ang pagbasa ay ginagawa, at hindi kailanman naitatala.\nWalang kinakailangang account, at walang natitira sa server kapag tapos na ang pagbasa.",
-    "disclaimer": "Ito ay materyal na sanggunian mula sa isang tradisyonal na pananaw ng 해몽. Hindi ito isang prediksyon ng kung ano ang darating, ni medikal o pinansyal na payo."
+    "privacyTitle": "Ang panaginip na isinulat mo ay hindi nakaimbak",
+    "privacyBody": "Ang iyong isinulat ay ginagamit lamang habang ang pagbasa ay ginagawa, at hindi kailanman naitatala.\nWalang kinakailangang account, at walang natitira sa server kapag tapos na ang pagbasa.",
+    "disclaimer": "Ito ay materyal na sanggunian mula sa isang tradisyonal na pananaw ng dream-reading. Hindi ito isang prediksyon ng kung ano ang darating, ni medikal o pinansyal na payo."
   },
   "ads": {
     "label": "Patalastas"
@@ -75,14 +75,14 @@ export const fil: Dictionary = {
     "quotes": [
       "Ang isang panaginip ay kadalasang sumasalamin sa mga nakaraang araw kaysa sa mga darating na araw.",
       "Ang parehong simbolo ay nabasa nang iba-iba depende sa taong nanaginip nito.",
-      "Ang tradisyonal na 해몽 ay hindi isang susi sa tamang sagot. Ito ay isang mahabang nakalap na katawan ng mga kwento.",
-      "Ang isang nakakatakot na panaginip ay hindi kapareho ng isang masamang panaginip. Maaaring ito ay marka ng isang nagulat na isipan.",
-      "Ayos lang kung isa lamang ang iyong naaalala. Isang simbolo ay sapat na upang makapagsimula.",
+      "Ang tradisyonal na pagbasa ng panaginip ay hindi isang susi sa sagot. Ito ay isang mahabang naipong koleksyon ng mga kwento.",
+      "Ang isang nakakatakot na panaginip ay hindi katulad ng isang masamang panaginip. Maaaring ito ay marka ng isang naguguluhang isipan.",
+      "Ayos lang kung isa lamang na bahagi ang iyong natatandaan. Isang simbolo ay sapat na upang makapagsimula.",
       "Ang isang panaginip na patuloy na bumabalik ay karaniwang may kasamang hindi natapos na bagay.",
-      "Kung gaano kalinaw ang tubig, at kung anong kulay ito, ay ang mga bagay na pinakamasusing pinanood ng mga matatandang mambabasa.",
-      "Kung ano ang iyong naramdaman sa paggising ay nananatili nang kasing tagal ng aktwal mong nakita.",
-      "Mabuti man o hindi ang panaginip, mas mabuting huwag itong hayaan na magpasya para sa iyong araw.",
-      "Ang isang 해몽 ay hindi isang salita tungkol sa kung ano ang mangyayari. Ito ay isang pangalawang pagtingin sa kung ano na ang umiiral."
+      "Kung gaano kalinaw ang tubig, at kung anong kulay ito, ay ang mga bagay na pinakanatutukan ng mga matatandang mambabasa.",
+      "Ang iyong naramdaman sa paggising ay nananatili kasing tagal ng aktwal mong nakita.",
+      "Mabuti man o hindi ang panaginip, mas mabuting huwag itong hayaan na magpasya sa iyong araw.",
+      "Ang isang pagbasa ay hindi isang salita tungkol sa kung ano ang mangyayari. Ito ay isang pangalawang pagtingin sa kung ano na ang umiiral."
     ],
     "watching": "Pinapanood ang patalastas",
     "remaining": "Bubukas ang resulta sa loob ng {seconds}s"
@@ -141,7 +141,7 @@ export const fil: Dictionary = {
   },
   "conceptionReport": {
     "title": "Itago ang pagbasa ng tae-mong bilang PDF",
-    "body": "Kapag ang mga simbolo na traditionally read as mga tanda ng pag-conceive ay lumitaw, isang 4-pahinang PDF ang naglalahad kung ano ang lumitaw, kung ano ang tradisyonal na kahulugan nito, at kung saan nagmula ang pagbasa na iyon. Hindi nito tinutukoy ang pagbubuntis o ang kasarian ng isang bata.",
+    "body": "Kapag ang mga simbolo na traditionally read as conception omens ay lumitaw, isang 4-pahinang PDF ang naglalahad kung ano ang lumitaw, kung ano ang tradisyonal na kahulugan nito, at kung saan nagmula ang pagbasa na iyon. Hindi nito tinutukoy ang pagbubuntis o ang kasarian ng isang bata.",
     "buyButton": "Kunin ito para sa {price}",
     "preparing": "Naghahanda",
     "ordering": "Gumagawa ng order…",

@@ -37,23 +37,23 @@ export const vi: Dictionary = {
     "symbolsHeading": "Các biểu tượng tìm thấy trong giấc mơ của bạn",
     "noSymbols": "Không có biểu tượng truyền thống nào từ từ điển của chúng tôi xuất hiện trong giấc mơ này. Chúng tôi để trống điều này thay vì bịa ra một ý nghĩa.",
     "themesHeading": "Những gì chúng chỉ đến cùng nhau",
-    "conceptionNotice": "Các biểu tượng được xem là điềm báo về việc thụ thai xuất hiện ở đây. Điều này không xác định việc mang thai.",
+    "conceptionNotice": "Các biểu tượng truyền thống được đọc là điềm báo mang thai xuất hiện ở đây. Điều này không xác định việc mang thai.",
     "browseSymbols": "Xem từ điển biểu tượng truyền thống",
     "popularSymbols": "Các biểu tượng thường được tìm kiếm",
-    "disclaimer": "Đây là tài liệu tham khảo từ góc độ giải mã giấc mơ truyền thống, không phải là lời khuyên y tế, tài chính hoặc pháp lý. Chúng tôi không lưu trữ giấc mơ bạn đã viết.",
+    "disclaimer": "Đây là tài liệu tham khảo từ góc độ truyền thống của việc giải mộng, không phải là lời khuyên y tế, tài chính hoặc pháp lý. Chúng tôi không lưu trữ giấc mơ bạn đã viết.",
     "again": "Đọc giấc mơ khác"
   },
   "landing": {
-    "title": "Giải mã giấc mơ của bạn\ntheo cách truyền thống",
+    "title": "Đọc giấc mơ của bạn\ntheo cách truyền thống",
     "subtitle": "Chúng tôi tìm kiếm các biểu tượng trong giấc mơ của bạn trong từ điển về truyền thuyết giấc mơ Hàn Quốc.\nKhông cần ngày sinh, không cần đăng ký.",
     "howTitle": "Cách thức hoạt động",
     "steps": [
       "Viết lại giấc mơ như bạn nhớ. Một hoặc hai câu là đủ.",
-      "Chúng tôi tìm kiếm trong từ điển các biểu tượng giấc mơ truyền thống Hàn Quốc cho những gì đã xuất hiện trong đó. Nếu một biểu tượng không có trong đó, chúng tôi sẽ nói như vậy.",
+      "Chúng tôi tìm kiếm trong từ điển các biểu tượng giấc mơ truyền thống Hàn Quốc để xem những gì đã xuất hiện trong đó. Nếu một biểu tượng không có trong đó, chúng tôi sẽ nói như vậy.",
       "Bạn sẽ thấy mỗi biểu tượng đã được hiểu như thế nào từ lâu, và chúng chỉ ra điều gì khi kết hợp lại với nhau."
     ],
     "privacyTitle": "Giấc mơ bạn viết không được lưu trữ",
-    "privacyBody": "Những gì bạn viết chỉ được sử dụng trong quá trình giải mã, và không bao giờ được ghi lại.\nKhông cần tài khoản, và không có gì được lưu lại trên máy chủ sau khi giải mã xong.",
+    "privacyBody": "Những gì bạn viết chỉ được sử dụng trong quá trình giải mã, và không bao giờ được ghi lại.\nKhông cần tài khoản, và không có gì được lưu lại trên máy chủ khi việc giải mã hoàn tất.",
     "disclaimer": "Đây là tài liệu tham khảo từ góc độ giải mã giấc mơ truyền thống. Nó không phải là dự đoán về những gì sẽ đến, cũng không phải là lời khuyên y tế hay tài chính."
   },
   "ads": {
@@ -73,16 +73,16 @@ export const vi: Dictionary = {
   "analyzing": {
     "title": "Tìm kiếm các biểu tượng trong giấc mơ của bạn",
     "quotes": [
-      "Một giấc mơ thường phản ánh những ngày vừa qua nhiều hơn là những ngày sắp tới.",
+      "Một giấc mơ thường phản ánh những ngày gần đây nhiều hơn là những ngày sắp tới.",
       "Cùng một biểu tượng đã được đọc khác nhau tùy thuộc vào người mơ.",
-      "Truyền thống 해몽 không phải là một bảng đáp án. Nó là một tập hợp các câu chuyện được thu thập lâu dài.",
+      "Một giấc mơ truyền thống không phải là một bảng đáp án. Nó là một tập hợp các câu chuyện được thu thập lâu dài.",
       "Một giấc mơ đáng sợ không giống như một giấc mơ xấu. Nó có thể là dấu ấn mà một tâm trí hoảng hốt để lại.",
       "Nếu bạn chỉ nhớ một mảnh nhỏ cũng không sao. Một biểu tượng là đủ để bắt đầu.",
-      "Một giấc mơ thường quay lại thường đi kèm với điều gì đó chưa hoàn thành.",
-      "Nước trong đến mức nào và màu sắc của nó là điều mà những người đọc cũ thường chú ý nhất.",
-      "Cảm giác của bạn khi tỉnh dậy kéo dài cũng lâu như những gì bạn thực sự thấy.",
-      "Dù giấc mơ có tốt hay không, tốt hơn là không để nó quyết định ngày của bạn.",
-      "Một 해몽 không phải là một lời về những gì sẽ xảy ra. Nó là một cái nhìn thứ hai về những gì đã tồn tại."
+      "Một giấc mơ thường xuyên quay lại thường đi kèm với điều gì đó chưa hoàn thành.",
+      "Nước trong bao nhiêu và màu sắc của nó là điều mà những người đọc cũ thường quan sát kỹ lưỡng.",
+      "Cảm giác của bạn khi thức dậy kéo dài lâu như những gì bạn thực sự thấy.",
+      "Giấc mơ tốt hay không, tốt hơn là không để nó quyết định ngày của bạn.",
+      "Một lần đọc không phải là một lời về những gì sẽ xảy ra. Nó là một cái nhìn thứ hai về những gì đã tồn tại."
     ],
     "watching": "Đang xem quảng cáo",
     "remaining": "Kết quả mở sau {seconds} giây"
@@ -141,7 +141,7 @@ export const vi: Dictionary = {
   },
   "conceptionReport": {
     "title": "Giữ lại báo cáo giấc mơ thai nghén dưới dạng PDF",
-    "body": "Khi các biểu tượng truyền thống được đọc là điềm báo về việc thụ thai xuất hiện, một tài liệu PDF 4 trang sẽ trình bày những gì đã xuất hiện, ý nghĩa truyền thống của nó và nguồn gốc của cách đọc đó. Nó không xác định việc mang thai hay giới tính của một đứa trẻ.",
+    "body": "Khi các biểu tượng được truyền thống đọc là điềm báo mang thai xuất hiện, một tài liệu PDF 4 trang sẽ trình bày những gì đã xuất hiện, ý nghĩa truyền thống của nó và nguồn gốc của cách đọc đó. Nó không xác định việc mang thai hoặc giới tính của một đứa trẻ.",
     "buyButton": "Nhận nó với giá {price}",
     "preparing": "Đang chuẩn bị",
     "ordering": "Đang tạo đơn hàng…",

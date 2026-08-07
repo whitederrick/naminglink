@@ -37,10 +37,10 @@ export const fr: Dictionary = {
     "symbolsHeading": "Symboles trouvés dans votre rêve",
     "noSymbols": "Aucun symbole traditionnel de notre dictionnaire n'est apparu dans ce rêve. Nous laissons cela vide plutôt que d'inventer une signification.",
     "themesHeading": "Ce à quoi ils pointent ensemble",
-    "conceptionNotice": "Des symboles traditionnellement interprétés comme des présages de conception apparaissent ici. Cela ne détermine pas la grossesse.",
+    "conceptionNotice": "Des symboles traditionnellement considérés comme des présages de conception apparaissent ici. Cela ne détermine pas la grossesse.",
     "browseSymbols": "Parcourir le dictionnaire des symboles traditionnels",
     "popularSymbols": "Symboles fréquemment recherchés",
-    "disclaimer": "Ceci est un matériel de référence d'un point de vue traditionnel d'interprétation de rêve, et non un conseil médical, financier ou juridique. Nous ne stockons pas le rêve que vous avez écrit.",
+    "disclaimer": "Ceci est un matériel de référence d'un point de vue de lecture traditionnelle des rêves, et non un conseil médical, financier ou juridique. Nous ne stockons pas le rêve que vous avez écrit.",
     "again": "Lire un autre rêve"
   },
   "landing": {
@@ -49,10 +49,10 @@ export const fr: Dictionary = {
     "howTitle": "Comment ça fonctionne",
     "steps": [
       "Écrivez le rêve tel que vous vous en souvenez. Une phrase ou deux suffisent.",
-      "Nous cherchons dans un dictionnaire des symboles traditionnels coréens ce qui y est apparu. Si un symbole n'y figure pas, nous le signalons.",
-      "Vous voyez ce que chaque symbole a longtemps été considéré comme signifiant, et ce qu'ils indiquent ensemble."
+      "Nous cherchons dans un dictionnaire de symboles de rêve traditionnels coréens ce qui y est apparu. Si un symbole n'y figure pas, nous le signalons.",
+      "Vous découvrez ce que chaque symbole a longtemps été considéré comme signifiant, et ce qu'ils indiquent ensemble."
     ],
-    "privacyTitle": "Le rêve que vous écrivez n'est pas stocké",
+    "privacyTitle": "Le rêve que vous écrivez n'est pas enregistré",
     "privacyBody": "Ce que vous écrivez est utilisé uniquement pendant que l'interprétation est en cours, et n'est jamais enregistré.\nAucun compte n'est nécessaire, et rien n'est laissé sur le serveur une fois l'interprétation terminée.",
     "disclaimer": "Ceci est un matériel de référence d'un point de vue traditionnel d'interprétation des rêves. Ce n'est pas une prédiction de ce qui est à venir, ni un conseil médical ou financier."
   },
@@ -73,16 +73,16 @@ export const fr: Dictionary = {
   "analyzing": {
     "title": "À la recherche des symboles dans votre rêve",
     "quotes": [
-      "Un rêve a tendance à refléter les derniers jours plus que les jours à venir.",
-      "Le même symbole a été interprété différemment selon la personne qui a rêvé.",
-      "La traditionnelle 해몽 n'est pas une clé de réponse. C'est un ensemble d'histoires accumulées au fil du temps.",
-      "Un rêve effrayant n'est pas nécessairement un mauvais rêve. Cela peut être la marque laissée par un esprit surpris.",
+      "Un rêve tend à refléter les derniers jours plus que les jours à venir.",
+      "Le même symbole a été interprété différemment selon la personne qui l'a rêvé.",
+      "La lecture traditionnelle des rêves n'est pas une clé de réponse. C'est un ensemble d'histoires rassemblées au fil du temps.",
+      "Un rêve effrayant n'est pas le même qu'un mauvais rêve. Cela peut être la marque laissée par un esprit surpris.",
       "C'est bien si vous ne vous souvenez que d'un fragment. Un symbole suffit pour commencer.",
       "Un rêve qui revient souvent est généralement lié à quelque chose d'inachevé.",
-      "La clarté de l'eau et sa couleur sont ce que les anciens lecteurs observaient de plus près.",
+      "La clarté de l'eau et sa couleur sont ce que les anciens lecteurs observaient le plus attentivement.",
       "La façon dont vous vous êtes senti au réveil persiste aussi longtemps que ce que vous avez réellement vu.",
-      "Que le rêve soit bon ou non, il vaut mieux ne pas laisser cela décider de votre journée.",
-      "Une lecture n'est pas un mot sur ce qui va se passer. C'est un second regard sur ce qui est déjà là."
+      "Que le rêve soit bon ou non, il est préférable de ne pas le laisser décider de votre journée.",
+      "Une lecture n'est pas un mot sur ce qui va se passer. C'est un second regard sur ce qui est déjà."
     ],
     "watching": "Publicité en cours",
     "remaining": "Votre résultat s'ouvre dans {seconds} s"
@@ -141,7 +141,7 @@ export const fr: Dictionary = {
   },
   "conceptionReport": {
     "title": "Conservez la lecture des omens de conception en tant que PDF",
-    "body": "Lorsque des symboles traditionnellement lus comme des présages de conception apparaissent, un PDF de 4 pages présente ce qui est apparu, ce que cela a traditionnellement signifié, et d'où provient cette interprétation. Cela ne détermine pas la grossesse ni le sexe d'un enfant.",
+    "body": "Lorsque des symboles traditionnellement interprétés comme des présages de conception apparaissent, un PDF de 4 pages présente ce qui est apparu, ce que cela signifie traditionnellement, et d'où provient cette interprétation. Cela ne détermine pas la grossesse ni le sexe d'un enfant.",
     "buyButton": "Obtenez-le pour {price}",
     "preparing": "Préparation en cours",
     "ordering": "Création de la commande…",

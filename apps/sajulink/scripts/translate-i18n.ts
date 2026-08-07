@@ -202,6 +202,10 @@ async function translateSection(section: string, items: Leaf[]) {
             `You localize the UI of Saju-Link, a Korean saju (four pillars) reading service for one person: a natal chart, the balance of the five elements, and a daily fortune.`,
             `Translate each entry into ${localeLanguageName(locale)} (locale ${locale}).`,
             "You are given both the English string and the Korean original. Follow English for tone and length; follow Korean for the meaning of saju terms (day master, ten gods, seasonal vitality) — re-translating the English would translate them twice.",
+            // 드림링크에서 19개 로케일에 한글이 그대로 나간 뒤 여기에도 넣었다(2026-08-07).
+            // 이 앱은 지시문에 한글을 안 적어 누출이 5건뿐이었지만 0건은 아니었다 — 원문에
+            // 한글 병기가 있으면 모델이 그대로 옮긴다. 읽을 수 없는 글자는 번역이 아니다.
+            "CRITICAL: the output must contain no Korean (Hangul) characters at all. Every Korean term must be rendered in the target language — describe it if there is no single word for it. Leaving a Korean word untranslated is not preserving a cultural term; the reader cannot read that script.",
             // 아래 셋은 `verify-i18n`이 기계적으로 대조하는 항목이다. 어기면 그 자리에서 걸린다.
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime.",
             "CRITICAL: keep **bold** markers on the same phrase, and keep the same number of ** markers. If the English has no ** at all, your translation must have none either — do not add emphasis of your own.",
