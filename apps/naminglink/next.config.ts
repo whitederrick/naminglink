@@ -59,7 +59,12 @@ const securityHeaders = [
       `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${gam("script")}${pay("script")}${toss("script")}`,
       "style-src 'self' 'unsafe-inline'",
       // Supabase Storage: 서체 미리보기(SVG)와 PDF 배경 이미지를 공개 URL로 불러온다.
-      `img-src 'self' data: blob:${supabaseConnect}${ads("image")}${pay("image")}${toss("image")}`,
+      //
+      // `blob:`이 오래 붙어 있었는데 **쓰는 곳이 없었다**(2026-08-07에 뺐다). PDF를 만들 때
+      // `URL.createObjectURL`을 세 곳에서 쓰지만 셋 다 `anchor.download`로 내려받기다 —
+      // 그림으로 그리는 자리가 아니라 `img-src`가 다스리는 대상이 아니다. 얻는 것 없이 열려
+      // 있던 자리라 닫는다. 나중에 blob을 **그림으로** 그릴 일이 생기면 그때 다시 넣을 것.
+      `img-src 'self' data:${supabaseConnect}${ads("image")}${pay("image")}${toss("image")}`,
       `font-src 'self' data:${ads("font")}`,
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       // 보상형 광고는 iframe으로 뜬다. GAM만 켜고 애드센스를 끈 상태도 가능하므로

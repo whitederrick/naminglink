@@ -1,82 +1,132 @@
 // 광고를 켰을 때와 껐을 때 실제로 나가는 보안 헤더를 확인한다.
 //
-// 이 검증이 필요한 이유: 애드센스를 붙이려면 CSP를 열어야 하는데, 열어 둔 채로 광고가 꺼지면
-// 얻는 것 없이 보안만 약해진 상태가 된다. 그래서 **퍼블리셔 ID가 없으면 CSP가 광고 이전과
-// 한 글자도 다르지 않아야 한다.**
+// 애드센스를 붙이려면 CSP를 열어야 하는데, **열어 둔 채로 광고가 꺼지면 얻는 것 없이 보안만
+// 약해진 상태**가 된다. 그래서 광고를 끄면 CSP에 광고와 무관한 출처만 남아야 한다.
+//
+// ## 문자열 비교를 쓰지 않는 이유
+//
+// 예전에는 기준선 CSP를 통째로 적어 두고 같은지 비교했다. 그 방식은 **결제 키나 Supabase
+// 주소가 환경에 붙는 순간 거짓으로 실패한다** — 키가 없는 상태에서만 통과하는 검사라, 실제로
+// 키를 등록하면 광고와 무관한 이유로 빨간불이 뜬다. 그러면 사람이 검사기를 무시하게 된다.
+//
+// 지금은 **부분집합**으로 센다: CSP의 모든 출처가 「광고와 무관한 이유로 열린 것」 목록 안에
+// 있어야 한다. 목록은 설정 파일이 보는 **같은 모듈**에서 끌어오므로 손으로 관리하지 않는다.
+// 판정 로직은 네 앱이 함께 쓴다(`@naminglink/core/csp-audit`) — 앱마다 다른 것은 목록뿐이다.
 //
 // 실행 (두 상태를 각각 확인한다):
-//   apps/naminglink/node_modules/.bin/tsx apps/inyeonlink/scripts/verify-ads-csp.ts
-//   NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456 apps/naminglink/node_modules/.bin/tsx apps/inyeonlink/scripts/verify-ads-csp.ts
+//   ../naminglink/node_modules/.bin/tsx scripts/verify-ads-csp.ts
+//   NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456 ../naminglink/node_modules/.bin/tsx scripts/verify-ads-csp.ts
+//
+
+import {
+  CSP_CONTROL_SAMPLE,
+  FIXED_CSP_DIRECTIVES,
+  cspControlHolds,
+  cspDirective,
+  foreignCspSources,
+} from "@naminglink/core/csp-audit";
 
 import config from "../next.config";
 
+import { adsEnabled } from "../src/lib/ads";
+import { gamRewardedEnabled } from "../src/lib/gam-rewarded-config";
+import {
+  paymentCspSources,
+  paymentsConfigured,
+  tossConfiguredForCsp,
+  tossCspSources,
+} from "../src/lib/payments-csp";
+
 // 개발 모드는 React 개발 빌드 때문에 'unsafe-eval'과 웹소켓이 더 붙는다(광고와 무관).
-// 기준선도 같은 조건으로 만들어 두 축이 섞이지 않게 한다.
 const isDev = process.env.NODE_ENV !== "production";
 
-const BASELINE_CSP = [
-  "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
-  "font-src 'self' data:",
-  `connect-src 'self'${isDev ? " ws: wss:" : ""}`,
-  "frame-src 'none'",
-  "form-action 'self'",
-  "frame-ancestors 'none'",
-  "base-uri 'self'",
-  "object-src 'none'",
-].join("; ");
+/**
+ * 광고와 **무관한** 이유로 열려 있어도 되는 출처. 여기 없는 값은 그것이 무엇이든 잡는다.
+ */
+const allowed = new Set<string>([
+  "'self'",
+  "'none'",
+  "'unsafe-inline'",
+  "data:",
+  ...(isDev ? ["'unsafe-eval'", "ws:", "wss:"] : []),
+]);
+if (paymentsConfigured)
+  for (const list of Object.values(paymentCspSources)) for (const source of list) allowed.add(source);
+if (tossConfiguredForCsp)
+  for (const list of Object.values(tossCspSources)) for (const source of list) allowed.add(source);
 
 const client = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
-const expectAds = /^ca-pub-\d{10,}$/.test(client);
+// 보상형(GAM)도 구글이다. 애드센스만 보고 「광고 꺼짐」이라 부르면 gpt.js가 연 자리를 못 본다.
+const expectAds = adsEnabled || gamRewardedEnabled;
 
 main();
 
 async function main() {
-const rules = await config.headers!();
-const csp = rules[0].headers.find(
-  (header) => header.key === "Content-Security-Policy",
-)!.value;
+  const rules = await config.headers!();
+  const csp = rules[0].headers.find((header) => header.key === "Content-Security-Policy")!.value;
 
-console.log(`NEXT_PUBLIC_ADSENSE_CLIENT = ${client || "(미설정)"}`);
-console.log(`광고 ${expectAds ? "켜짐" : "꺼짐"}\n`);
-for (const directive of csp.split("; ")) console.log(`  ${directive}`);
+  console.log(`NEXT_PUBLIC_ADSENSE_CLIENT = ${client || "(미설정)"}`);
+  console.log(
+    `애드센스 ${adsEnabled ? "켜짐" : "꺼짐"} · GAM 보상형 ${gamRewardedEnabled ? "켜짐" : "꺼짐"}`,
+  );
+  console.log(
+    `광고와 무관하게 열린 것 — 해외결제 ${paymentsConfigured ? "켜짐" : "꺼짐"} · 국내결제 ${tossConfiguredForCsp ? "켜짐" : "꺼짐"}\n`,
+  );
+  for (const directive of csp.split("; ")) console.log(`  ${directive}`);
 
-let failures = 0;
-function check(label: string, ok: boolean, detail = "") {
-  if (!ok) failures += 1;
-  console.log(`\n  ${ok ? "PASS" : "FAIL"}  ${label}${detail ? `\n        ${detail}` : ""}`);
-}
+  // 대조군을 **결과보다 먼저** 본다. 허용 목록이 넓어져 아무것도 안 잡는 상태면 아래 PASS는
+  // 의미가 없다(광고 도메인 하나 + 정체 모를 출처 하나를 섞은 표본이 반드시 잡혀야 한다).
+  if (!cspControlHolds(allowed)) {
+    console.log(`\n  ✗ 대조군 실패 — 다음이 통과해 버린다: ${CSP_CONTROL_SAMPLE}`);
+    console.log("     허용 목록이 너무 넓다. 이 결과를 믿지 말 것.");
+    process.exit(1);
+  }
 
-if (expectAds) {
-  check(
-    "script-src에 애드센스 로더 도메인이 있다",
-    csp.includes("https://pagead2.googlesyndication.com"),
-  );
-  check(
-    "frame-src가 광고 프레임을 허용한다",
-    csp.includes("frame-src 'self'") &&
-      csp.includes("https://googleads.g.doubleclick.net"),
-  );
-  check(
-    "img-src가 임의 https 소재를 허용한다 (광고 소재는 도메인을 특정할 수 없다)",
-    /img-src [^;]*https:/.test(csp),
-  );
-  check(
-    "EEA 동의 메시지(구글 CMP) 도메인이 있다",
-    csp.includes("https://fundingchoicesmessages.google.com"),
-  );
-  check("frame-ancestors는 여전히 none (남이 우리를 감싸는 것은 계속 금지)", csp.includes("frame-ancestors 'none'"));
-} else {
-  check(
-    "광고가 꺼지면 CSP가 광고 이전과 완전히 동일하다",
-    csp === BASELINE_CSP,
-    csp === BASELINE_CSP ? "" : `기대:\n        ${BASELINE_CSP}\n        실제:\n        ${csp}`,
-  );
-  check("구글 도메인이 하나도 없다", !csp.includes("google"));
-}
+  let failures = 0;
+  function check(label: string, ok: boolean, detail = "") {
+    if (!ok) failures += 1;
+    console.log(`\n  ${ok ? "PASS" : "FAIL"}  ${label}${detail ? `\n        ${detail}` : ""}`);
+  }
 
-console.log(`\n${failures === 0 ? "ALL PASS" : `FAIL ${failures}건`}`);
-process.exit(failures === 0 ? 0 : 1);
+  for (const [name, value] of FIXED_CSP_DIRECTIVES) {
+    const actual = cspDirective(csp, name);
+    check(
+      `${name}는 광고와 무관하게 ${value}`,
+      actual === value,
+      actual === value ? "" : `실제: ${actual ?? "(없음)"}`,
+    );
+  }
+
+  if (expectAds) {
+    if (adsEnabled) {
+      check(
+        "script-src에 애드센스 로더 도메인이 있다",
+        csp.includes("https://pagead2.googlesyndication.com"),
+      );
+      check(
+        "img-src가 임의 https 소재를 허용한다 (광고 소재는 도메인을 특정할 수 없다)",
+        /img-src [^;]*https:/.test(csp),
+      );
+      check(
+        "EEA 동의 메시지(구글 CMP) 도메인이 있다",
+        csp.includes("https://fundingchoicesmessages.google.com"),
+      );
+    }
+    check(
+      "frame-src가 광고 프레임을 허용한다",
+      csp.includes("frame-src 'self'") && csp.includes("https://googleads.g.doubleclick.net"),
+    );
+  } else {
+    const foreign = foreignCspSources(csp, allowed);
+    check(
+      "광고가 꺼지면 광고와 무관한 출처만 남는다",
+      foreign.length === 0,
+      foreign.length === 0 ? "" : `설명되지 않은 출처:\n        ${foreign.join("\n        ")}`,
+    );
+    check("구글 도메인이 하나도 없다", !csp.includes("google"));
+  }
+
+  console.log(`\n  ✓ 대조군: 광고 도메인·정체 모를 출처를 잡는다`);
+  console.log(`\n${failures === 0 ? "ALL PASS" : `FAIL ${failures}건`}`);
+  process.exit(failures === 0 ? 0 : 1);
 }

@@ -14,9 +14,17 @@
 // 판정 로직은 네 앱이 함께 쓴다(`@naminglink/core/csp-audit`) — 앱마다 다른 것은 목록뿐이다.
 //
 // 실행 (두 상태를 각각 확인한다):
-//   ../naminglink/node_modules/.bin/tsx scripts/verify-ads-csp.ts
-//   NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456 ../naminglink/node_modules/.bin/tsx scripts/verify-ads-csp.ts
+//   npx tsx apps/naminglink/scripts/verify-ads-csp.ts
+//   NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456 npx tsx apps/naminglink/scripts/verify-ads-csp.ts
 //
+// ## 이 앱만 다른 점
+//
+// ⚠️ **형제 셋에는 이 검사가 있는데 이 앱에만 없었다**(2026-08-07에 만들었다). 그런데 광고가
+// 실제로 나가는 것은 이 앱뿐이다 — 슬롯 아홉 자리가 라이브다. 검사가 가장 필요한 곳에 없었다.
+// 없었던 이유도 위와 같다: 이 앱은 브라우저가 Supabase를 직접 부르므로(로그인·콘솔) 형제의
+// 기준선 문자열을 그대로 쓸 수 없었다. 부분집합으로 바꾸면서 네 앱이 같은 검사를 쓴다.
+//
+// 옮기면서 하나 잡았다: **`img-src`에 `blob:`이 쓰는 곳 없이 열려 있었다.**
 
 import {
   CSP_CONTROL_SAMPLE,
@@ -29,10 +37,11 @@ import {
 import config from "../next.config";
 
 import { adsEnabled } from "../src/lib/ads";
-import { gamRewardedEnabled } from "../src/lib/gam-rewarded-config";
+import { gamRewardedEnabled } from "../src/lib/gam-rewarded";
 import {
   paymentCspSources,
   paymentsConfigured,
+  supabaseCspOrigin,
   tossConfiguredForCsp,
   tossCspSources,
 } from "../src/lib/payments-csp";
@@ -50,6 +59,7 @@ const allowed = new Set<string>([
   "data:",
   ...(isDev ? ["'unsafe-eval'", "ws:", "wss:"] : []),
 ]);
+if (supabaseCspOrigin) allowed.add(supabaseCspOrigin);
 if (paymentsConfigured)
   for (const list of Object.values(paymentCspSources)) for (const source of list) allowed.add(source);
 if (tossConfiguredForCsp)
@@ -70,7 +80,7 @@ async function main() {
     `애드센스 ${adsEnabled ? "켜짐" : "꺼짐"} · GAM 보상형 ${gamRewardedEnabled ? "켜짐" : "꺼짐"}`,
   );
   console.log(
-    `광고와 무관하게 열린 것 — 해외결제 ${paymentsConfigured ? "켜짐" : "꺼짐"} · 국내결제 ${tossConfiguredForCsp ? "켜짐" : "꺼짐"}\n`,
+    `광고와 무관하게 열린 것 — Supabase ${supabaseCspOrigin || "(없음)"} · 해외결제 ${paymentsConfigured ? "켜짐" : "꺼짐"} · 국내결제 ${tossConfiguredForCsp ? "켜짐" : "꺼짐"}\n`,
   );
   for (const directive of csp.split("; ")) console.log(`  ${directive}`);
 

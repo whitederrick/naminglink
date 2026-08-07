@@ -8,6 +8,7 @@
     "./apps": "./src/apps.ts",
     "./company": "./src/company.ts",
     "./self-ads": "./src/self-ads.ts",
+    "./csp-audit": "./src/csp-audit.ts",
     "./saju": "./src/saju/engine.ts",
     "./saju/timezone": "./src/saju/timezone.ts",
     "./saju/elements": "./src/saju/elements.ts",
