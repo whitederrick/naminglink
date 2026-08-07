@@ -109,8 +109,10 @@ const styles = StyleSheet.create({
     borderColor: PALETTE.line,
     backgroundColor: "#ffffff",
     borderRadius: 8,
-    padding: 14,
-    marginBottom: 10,
+    // 14/10에서 내렸다(2026-08-07) — 추천 셋 중 마지막 카드가 라틴 문자 로케일에서
+    // 다음 장으로 밀려 인연의 결이 5장으로 나갔다. 약관은 4장이라고 적은 채로.
+    padding: 11,
+    marginBottom: 7,
   },
   cardHead: { flexDirection: "row", alignItems: "baseline" },
   rank: { fontSize: 9, color: PALETTE.plum, marginRight: 6 },

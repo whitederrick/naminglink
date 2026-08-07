@@ -185,11 +185,12 @@ const styles = StyleSheet.create({
     // 다음 장으로 밀렸고, 궁합 리포트가 8장으로 나갔다 — 약관은 7장이라고 적은 채로.
     // 사주링크가 같은 이유로 먼저 내렸는데(그쪽 `tableRow` 주석 참고) 이 앱에 안 옮겨져 있었다.
     // 행이 여덟이라 이 1pt가 16pt를 돌려준다.
-    paddingVertical: 4,
+    paddingVertical: 3,
   },
   th: { fontSize: 8, color: PALETTE.plum },
-  td: { fontSize: 9 },
-  tdMuted: { fontSize: 8.5, color: PALETTE.muted },
+  // 9에서 내렸다 — 십신 풀이가 라틴 문자에서 두 줄이 되어 마지막 행이 다음 장으로 밀렸다.
+  td: { fontSize: 8.5, lineHeight: 1.45 },
+  tdMuted: { fontSize: 8, color: PALETTE.muted, lineHeight: 1.45 },
   /** 표 아래에 붙는 고지(점수 미반영 등). 표와 붙여 두어야 무엇에 대한 말인지 분명하다. */
   tableNote: { fontSize: 7.5, color: PALETTE.muted, marginTop: 5 },
 

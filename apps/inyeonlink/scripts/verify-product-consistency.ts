@@ -15,6 +15,7 @@ import path from "node:path";
 import { INYEONLINK_PRODUCT_CODES } from "@naminglink/core/apps";
 
 import { getDictionary, supportedLocales } from "../src/lib/i18n";
+import { AFFINITY_PAGE_COUNT, COMPATIBILITY_PAGE_COUNT } from "../src/lib/report-pages";
 
 // `report-product.ts`는 `server-only`라 스크립트에서 import할 수 없다. 글로 읽어 대조한다.
 const REPORT_KINDS = ["gunghap", "affinity"] as const;
@@ -26,24 +27,29 @@ function check(label: string, ok: boolean, detail?: string) {
 }
 
 // ---------------------------------------------------------------------------
-// 1) 목차 장수 ↔ 상품정보고시의 "N장"
+// 1) 선언된 장수 ↔ 상품정보고시의 "N장"
 //
-// 고시의 상품 형태는 로케일마다 문장이 달라 숫자만 뽑아 센다. 목차가 늘었는데 고시를 안 고치면
-// 여기서 걸린다 — 전자상거래 상품정보제공 고시 항목이라 틀린 값이 나가면 안 된다.
+// 고시의 상품 형태는 로케일마다 문장이 달라 숫자만 뽑아 센다. 고시를 안 고치면 여기서
+// 걸린다 — 전자상거래 상품정보제공 고시 항목이라 틀린 값이 나가면 안 된다.
+//
+// ⚠️ **목차 줄 수가 아니라 선언된 장수와 대조한다**(2026-08-07에 바꿨다). 예전에는
+// `contents.length`를 썼는데, 그 둘이 우연히 같던 동안만 맞았다 — 목차를 한 줄 늘리는 순간
+// 고시가 틀렸다고 잡히고, 반대로 **지면이 넘쳐 실제 장수가 늘어도 아무 일이 없었다.**
+// 실제로 그랬다: 궁합 리포트 절반이 8장으로 나가는 동안 이 검사는 계속 통과했다.
+// 사주링크가 같은 이유로 먼저 바꿨다.
 // ---------------------------------------------------------------------------
 for (const locale of supportedLocales) {
   const dictionary = getDictionary(locale);
-  for (const [key, copy] of [
-    ["report", dictionary.report],
-    ["affinityReport", dictionary.affinityReport],
+  for (const [key, copy, pages] of [
+    ["report", dictionary.report, COMPATIBILITY_PAGE_COUNT],
+    ["affinityReport", dictionary.affinityReport, AFFINITY_PAGE_COUNT],
   ] as const) {
-    const pages = copy.contents.length;
     // 상품 형태는 고시의 두 번째 항목이다(첫째는 제작·공급자).
     const format = copy.productInfo[1]?.[1] ?? "";
     // 타입을 적어 둔다. `?? []`만 두면 never[]로 좁혀져 아래 includes가 타입 오류를 낸다.
     const numbers: string[] = format.match(/\d+/g) ?? [];
     check(
-      `${locale}/${key} 고시 장수 = 목차 ${pages}장`,
+      `${locale}/${key} 고시 장수 = 선언된 ${pages}장`,
       numbers.includes(String(pages)),
       numbers.length ? `고시의 숫자 ${numbers.join(",")}` : "고시에 숫자가 없다",
     );
