@@ -33,10 +33,12 @@ let meanings = 0;
 let koAliases = 0;
 let cultureNotes = 0;
 let conceptionTags = 0;
+let multiMeaning = 0;
 for (const symbol of DREAM_SYMBOLS) {
   category[symbol.category] = (category[symbol.category] ?? 0) + 1;
   polarity[symbol.polarity] = (polarity[symbol.polarity] ?? 0) + 1;
   meanings += symbol.meanings.length;
+  if (symbol.meanings.length > 1) multiMeaning += 1;
   koAliases += (symbol.aliases ?? []).length;
   if (symbol.culture_note) cultureNotes += 1;
   if ((symbol.tags ?? []).includes(CONCEPTION_TAG)) conceptionTags += 1;
@@ -53,6 +55,10 @@ for (const symbol of DREAM_SYMBOLS) {
 const FACTS: Array<{ label: string; near: RegExp; value: number }> = [
   { label: "상징 수", near: /상징\s*(\d[\d,]*)개/g, value: DREAM_SYMBOLS.length },
   { label: "의미 수", near: /(\d[\d,]*)가지/g, value: meanings },
+  // ⚠️ **길흉이 「갈리는 것」(59)과 헷갈리지 말 것.** 문서가 실제로 그 둘을 바꿔 적고 있었다 —
+  // 「뜻이 갈리는 상징은 59개」라고 했는데 그건 ambivalent 극성의 수이고, 의미가 여럿인 상징은
+  // 39개다. 숫자가 둘 다 사전에서 나오므로 눈으로는 못 가른다.
+  { label: "의미가 여럿인 상징", near: /(\d[\d,]*)개\s*가 상황에 따라 뜻이 갈립니다/g, value: multiMeaning },
   { label: "한국어 별칭", near: /다르게 부르는 말\s*(\d[\d,]*)개/g, value: koAliases },
   // **숫자가 문맥보다 먼저 온다.** 「24개에는 그렇게 풀이해 온 이유가…」
   { label: "전승 근거", near: /(\d[\d,]*)개\s*에는 그렇게 풀이해 온 이유/g, value: cultureNotes },
@@ -73,6 +79,21 @@ const FACTS: Array<{ label: string; near: RegExp; value: number }> = [
   { label: "갈리는 것", near: /갈리는 것\s*(\d+)개/g, value: polarity.ambivalent ?? 0 },
   { label: "조심할 쪽", near: /조심할 쪽\s*(\d+)개/g, value: polarity.negative ?? 0 },
   { label: "어느 쪽도 아닌 것", near: /어느 쪽도 아닌 것\s*(\d+)개/g, value: polarity.neutral ?? 0 },
+];
+
+/**
+ * 한글로 적은 수. **숫자만 세면 「아홉 갈래」·「상징 아홉 개」를 놓친다.**
+ *
+ * 문서는 작은 수를 한글로 적는 편이 읽기 좋아 그렇게 적혀 있다. 그것도 사전에서 나온 값이므로
+ * 함께 세야 한다 — 갈래를 하나 더하면 「아홉」이 그날 거짓이 된다.
+ */
+const KOREAN_NUMERALS: Record<string, number> = {
+  둘: 2, 셋: 3, 넷: 4, 다섯: 5, 여섯: 6, 일곱: 7, 여덟: 8, 아홉: 9, 열: 10,
+};
+
+const SPELLED: Array<{ label: string; near: RegExp; value: number }> = [
+  { label: "갈래 수(한글)", near: /([가-힣]+)\s*갈래로/g, value: Object.keys(category).length },
+  { label: "자주 찾는 상징(한글)", near: /자주 찾는 상징\s*([가-힣]+)\s*개/g, value: 9 },
 ];
 
 // ── 안내 문서를 모은다 ─────────────────────────────────────────────────────
@@ -113,6 +134,25 @@ for (const fact of FACTS) {
     // 문장을 지웠을 수도 있으니 실패로 보지 않는다. 다만 검사한 셈 치지도 않는다.
     console.log(`  · ${fact.label} — 문서에서 못 찾음(검사 안 함)`);
   }
+}
+
+for (const fact of SPELLED) {
+  let found = 0;
+  for (const doc of docs) {
+    for (const match of doc.text.matchAll(fact.near)) {
+      const written = KOREAN_NUMERALS[match[1]];
+      // 「여러 갈래로」처럼 수가 아닌 말은 셀 것이 없다.
+      if (written === undefined) continue;
+      found += 1;
+      checked += 1;
+      if (written !== fact.value) {
+        problems.push(
+          `${doc.slug} — ${fact.label}: 문서 ${match[1]}(${written}) · 실제 ${fact.value}`,
+        );
+      }
+    }
+  }
+  if (found === 0) console.log(`  · ${fact.label} — 문서에서 못 찾음(검사 안 함)`);
 }
 
 console.log("\n안내 문서 숫자 대조");
