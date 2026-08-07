@@ -155,6 +155,34 @@ for (const fact of SPELLED) {
   if (found === 0) console.log(`  · ${fact.label} — 문서에서 못 찾음(검사 안 함)`);
 }
 
+// ---------------------------------------------------------------------------
+// 규칙을 설명하는 문서를 엔진이 가리키는가
+//
+// **숫자는 셀 수 있지만 서술은 못 센다.** 「앞 글자가 한글이면 조각으로 본다」 같은 설명이
+// 엔진과 어긋나도 기계는 모른다 — 문장이 규칙을 옮겨 적은 것이지 규칙에서 나온 값이 아니라서다.
+//
+// 그래서 **엔진 쪽에 가리킴을 박아 둔다.** 규칙을 고치러 온 사람이 그 자리에서 "이 문서도 함께
+// 보라"를 읽게 하는 것이다. 다만 주석도 낡으므로, 가리키는 문서가 **실제로 있는지**는 여기서 센다.
+//
+// 문서 이름을 바꾸거나 지우면 여기서 걸리고, 가리킴을 지워도 걸린다.
+// ---------------------------------------------------------------------------
+const ENGINE = path.join(process.cwd(), "src", "lib", "engines", "dream-match.ts");
+/** 엔진이 반드시 가리켜야 하는 문서. 규칙이 있는 자리와 그것을 설명하는 문서의 짝이다. */
+const MUST_POINT_AT = ["how-matching-works", "one-symbol-many-meanings", "conception-dreams"];
+
+console.log("\n엔진이 설명 문서를 가리키는가");
+const engineSource = existsSync(ENGINE) ? readFileSync(ENGINE, "utf8") : "";
+if (!engineSource) {
+  problems.push("dream-match.ts를 읽지 못했다 — 경로가 바뀌었는지 볼 것");
+}
+for (const slug of MUST_POINT_AT) {
+  const pointed = engineSource.includes(`app/guide/${slug}`);
+  const exists = docs.some((doc) => doc.slug === slug);
+  if (!pointed) problems.push(`엔진이 ${slug}를 가리키지 않는다 — 규칙을 고칠 사람이 문서를 못 본다`);
+  else if (!exists) problems.push(`엔진이 없는 문서를 가리킨다: ${slug}`);
+  else console.log(`  ✓ ${slug}`);
+}
+
 console.log("\n안내 문서 숫자 대조");
 console.log(`  문서 ${docs.length}편 · 대조한 숫자 ${checked}개 · 항목 ${FACTS.length}종`);
 

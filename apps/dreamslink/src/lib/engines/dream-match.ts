@@ -95,6 +95,9 @@ function normalize(text: string) {
  *
  * 긴 표기부터 본다. 「흙탕물」과 「물」이 둘 다 사전에 있을 때 짧은 쪽이 먼저 걸리면 구체적인
  * 상징을 놓친다.
+ *
+ * 📄 **별칭을 늘리거나 줄이면 `app/guide/how-matching-works`도 함께 볼 것** — 그 문서가 수를
+ * 적고 있다(`verify-guide-numbers`가 센다).
  */
 function findTerm(haystack: string, symbol: DreamSymbol) {
   const terms = [
@@ -182,6 +185,10 @@ const EN_SUFFIXES = ["'s", "es", "ed", "s"];
  *
  * 놓치는 쪽을 택한다. 못 찾으면 "찾지 못했습니다"로 끝나지만, 잘못 찾으면 없는 전통 의미가
  * 사실인 양 나간다. 자주 쓰는 합성어는 `aliases`에 따로 적어 살린다.
+ *
+ * 📄 **이 규칙을 고치면 `app/guide/how-matching-works`도 함께 볼 것.** 그 문서가 이용자에게
+ * 이 규칙을 설명한다(「앞에 한글이 붙어 있으면 낱말의 조각으로 보고…」). 규칙만 고치면 문서가
+ * 조용히 거짓이 된다 — 숫자는 `verify-guide-numbers`가 세지만 서술은 사람이 봐야 한다.
  */
 function isStandalone(haystack: string, term: string, at: number) {
   /**
@@ -248,6 +255,8 @@ const PARTICLES = [
  *
  * **아무 것도 안 걸리면 첫 번째를 쓴다.** 사전이 첫 의미를 대표로 적어 두었기 때문이고,
  * 억지로 고르느니 대표를 쓰는 편이 덜 틀린다.
+ *
+ * 📄 **이 규칙을 고치면 `app/guide/one-symbol-many-meanings`도 함께 볼 것.**
  */
 function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
   const meanings = symbol.meanings;
@@ -396,6 +405,8 @@ function moodOf(matched: MatchedSymbol[]): DreamPolarity {
 
 /**
  * 이용자가 임신을 말했는가. 태몽 맥락을 고르는 신호다.
+ *
+ * 📄 **이 목록을 고치면 `app/guide/conception-dreams`도 함께 볼 것.**
  *
  * ⚠️ **한국어만 적어 두면 22개 언어에서 이 규칙이 통째로 죽는다**(2026-08-07에 그랬다).
  * 영어는 어간으로 둔다 — `pregnan`이 pregnant·pregnancy를 함께 잡는다. 부분 문자열 매칭이라
