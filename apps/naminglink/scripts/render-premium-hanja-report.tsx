@@ -7,9 +7,12 @@ import {
 } from "../src/lib/pdf/premium-hanja-report";
 import { calculatePremiumSaju } from "@naminglink/core/saju";
 
+// **파일 이름에 로케일을 넣는다.** 한자 상세 리포트는 한국어 상품이라 본문이 한국어인 것이
+// 맞는데, 이름에 로케일이 없어 `audit-pdf-language.py`가 **비한국어 문서로 보고 412건을
+// 결함으로 잡았다**(2026-08-07). 그 검사는 `-ko`로 한국어 문서를 가려낸다.
 const outputPath = path.join(
   process.cwd(),
-  "tmp/pdfs/premium-hanja-report-sample.pdf",
+  "tmp/pdfs/premium-hanja-report-sample-ko.pdf",
 );
 
 const generatedAt = "2026-07-16T05:00:00.000Z";

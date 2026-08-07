@@ -1,4 +1,13 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
 import { createClient } from "@supabase/supabase-js";
+
+import { loadEnvLocal } from "../../../scripts/load-env.mjs";
+
+// `node scripts/…`로 돌리면 Next가 안 끼어들어 `.env.local`이 자동으로 안 읽힌다.
+// 그래서 이 검사가 「Missing …」으로 죽어 **평소에 안 돌고 있었다**(2026-08-07).
+loadEnvLocal(path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."));
 
 const publish = process.argv.includes("--publish");
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -9,6 +18,7 @@ if (!supabaseUrl || !serviceRoleKey || !anonKey) {
   console.error(
     "Missing NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, or SUPABASE_SERVICE_ROLE_KEY.",
   );
+  console.error("apps/naminglink/.env.local 에 있어야 한다 — 없으면 이 검사는 돌지 않는다.");
   process.exit(1);
 }
 

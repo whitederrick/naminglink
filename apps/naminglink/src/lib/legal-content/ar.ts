@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. الاستفسارات",
           paragraphs: [
-            "استفسارات الخدمة: platforest.inc@gmail.com",
+            `استفسارات الخدمة: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. مسؤول حماية المعلومات الشخصية",
           paragraphs: [
             "المسؤول: كواك أونها",
-            "البريد الإلكتروني: platforest.inc@gmail.com",
+            `البريد الإلكتروني: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. الاستفسارات",
           paragraphs: [
-            "استفسارات حول الاسترداد: platforest.inc@gmail.com",
+            `استفسارات حول الاسترداد: ${companyInfo.email}`,
           ],
         },
       ],

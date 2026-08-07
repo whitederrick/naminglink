@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. 联系",
           paragraphs: [
-            "服务咨询：platforest.inc@gmail.com",
+            `服务咨询：${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. 个人信息保护责任人",
           paragraphs: [
             "责任人：郭恩哈",
-            "电子邮件：platforest.inc@gmail.com",
+            `电子邮件：${companyInfo.email}`,
           ],
         },
       ],
@@ -186,7 +186,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. 联系方式",
           paragraphs: [
-            "退款咨询：platforest.inc@gmail.com",
+            `退款咨询：${companyInfo.email}`,
           ],
         },
       ],

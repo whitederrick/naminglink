@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. İletişim",
           paragraphs: [
-            "Hizmet ile ilgili sorular: platforest.inc@gmail.com",
+            `Hizmet ile ilgili sorular: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Kişisel Verilerin Korunmasından Sorumlu Kişi",
           paragraphs: [
             "Sorumlu kişi: Kwak Eun-ha",
-            "E-posta: platforest.inc@gmail.com",
+            `E-posta: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. İletişim",
           paragraphs: [
-            "İade talepleri için: platforest.inc@gmail.com",
+            `İade talepleri için: ${companyInfo.email}`,
           ],
         },
       ],

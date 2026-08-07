@@ -55,11 +55,32 @@ function stripComments(text) {
   return text.replace(BLOCK_COMMENT, " ").replace(LINE_COMMENT, " ");
 }
 
-/** 앱의 한국어 원문 전체(약관 원본 + 추출본). 여기 없는 한국어는 지어낸 것이다. */
-function koreanSourceOf(app) {
-  const parts = [];
-  for (const rel of ["src/lib/legal-content.ts", "src/lib/legal-locales/_ko-docs.json"]) {
+/**
+ * 번역된 약관이 든 디렉터리. **앱마다 이름이 다르다.**
+ *
+ * naminglink는 `legal-content/`, 형제 셋은 `legal-locales/`다. 한 이름만 보다가
+ * **naminglink가 통째로 검사에서 빠져 있었다** — 그것을 「약관이 DB에 있어서」라고 잘못
+ * 적어 두기까지 했다(2026-08-07에 바로잡았다). 디렉터리 이름 하나가 앱 하나를 검사 밖으로
+ * 밀어낸다.
+ */
+const LEGAL_DIRS = ["src/lib/legal-locales", "src/lib/legal-content"];
+
+function legalDirOf(app) {
+  for (const rel of LEGAL_DIRS) {
     const full = path.join(ROOT, "apps", app, rel);
+    if (existsSync(full)) return full;
+  }
+  return null;
+}
+
+/** 앱의 한국어 원문 전체(약관 원본 + 추출본). 여기 없는 한국어는 지어낸 것이다. */
+function koreanSourceOf(app, dir) {
+  const parts = [];
+  for (const full of [
+    path.join(ROOT, "apps", app, "src/lib/legal-content.ts"),
+    path.join(dir, "_ko-docs.json"),
+    path.join(dir, "ko.ts"),
+  ]) {
     if (existsSync(full)) parts.push(readFileSync(full, "utf8"));
   }
   return parts.join("\n");
@@ -144,15 +165,15 @@ function inspect(text, koSource) {
 console.log("번역된 약관에 남은 한국어 잔재\n");
 
 for (const app of APP_KEYS) {
-  const dir = path.join(ROOT, "apps", app, "src", "lib", "legal-locales");
-  if (!existsSync(dir)) {
+  const dir = legalDirOf(app);
+  if (!dir) {
     // **검사에서 빠진 앱은 통과가 아니라 검사가 안 된 것이다.** 조용히 넘기면 "ALL PASS"가
     // 전부를 봤다는 뜻으로 읽힌다 — 그 착각으로 검사기 여덟 개가 앱 하나씩을 놓친 적이 있다.
     notChecked.push(app);
     console.log(`  ${app.padEnd(11)} ⚠ 파일로 된 약관이 없다 — 이 앱은 검사 대상이 아니다`);
     continue;
   }
-  const koSource = koreanSourceOf(app);
+  const koSource = koreanSourceOf(app, dir);
   let appProblems = 0;
   for (const name of readdirSync(dir).sort()) {
     if (!name.endsWith(".ts") || ["ko.ts", "types.ts", "index.ts"].includes(name)) continue;

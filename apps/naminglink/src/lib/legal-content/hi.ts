@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. संपर्क",
           paragraphs: [
-            "सेवा संबंधी पूछताछ: platforest.inc@gmail.com",
+            `सेवा संबंधी पूछताछ: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. व्यक्तिगत डेटा सुरक्षा अधिकारी",
           paragraphs: [
             "अधिकारी: क्वाक यूनहा",
-            "ईमेल: platforest.inc@gmail.com",
+            `ईमेल: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. संपर्क करें",
           paragraphs: [
-            "धनवापसी के लिए संपर्क: platforest.inc@gmail.com",
+            `धनवापसी के लिए संपर्क: ${companyInfo.email}`,
           ],
         },
       ],

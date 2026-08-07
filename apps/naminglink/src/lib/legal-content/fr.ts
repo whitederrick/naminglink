@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Contact",
           paragraphs: [
-            "Pour toute question concernant le service : platforest.inc@gmail.com",
+            `Pour toute question concernant le service : ${companyInfo.email}`,
           ],
         },
       ],
@@ -133,8 +133,8 @@ const content: LegalLocaleContent = {
         {
           title: "8. Responsable de la protection des données personnelles",
           paragraphs: [
-            "Responsable : 곽은하",
-            "E-mail : platforest.inc@gmail.com",
+            `Responsable : ${companyInfo.privacyOfficer}`,
+            `E-mail : ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Contact",
           paragraphs: [
-            "Pour toute demande de remboursement : platforest.inc@gmail.com",
+            `Pour toute demande de remboursement : ${companyInfo.email}`,
           ],
         },
       ],

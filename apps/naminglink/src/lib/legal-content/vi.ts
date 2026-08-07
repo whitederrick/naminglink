@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Liên hệ",
           paragraphs: [
-            "Liên hệ dịch vụ: platforest.inc@gmail.com",
+            `Liên hệ dịch vụ: ${companyInfo.email}`,
           ],
         },
       ],
@@ -133,8 +133,8 @@ const content: LegalLocaleContent = {
         {
           title: "8. Người chịu trách nhiệm bảo vệ thông tin cá nhân",
           paragraphs: [
-            "Người chịu trách nhiệm: 곽은하",
-            "Email: platforest.inc@gmail.com",
+            `Người chịu trách nhiệm: ${companyInfo.privacyOfficer}`,
+            `Email: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Liên hệ",
           paragraphs: [
-            "Yêu cầu hoàn tiền: platforest.inc@gmail.com",
+            `Yêu cầu hoàn tiền: ${companyInfo.email}`,
           ],
         },
       ],

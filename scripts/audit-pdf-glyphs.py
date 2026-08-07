@@ -54,6 +54,18 @@ IGNORED = set(" ​‌‍‎‏﻿ ") | {chr(code) for code in range(0x20)}
 BUILTIN_FONTS = {"Helvetica", "Helvetica-Bold", "Helvetica-Oblique", "Times-Roman", "Courier"}
 
 
+
+def is_rtl(char: str) -> bool:
+    """아랍·히브리 문자인가. 이 글자들만 양방향 재정렬로 span이 섞인다."""
+    code = ord(char)
+    return (
+        0x0590 <= code <= 0x05FF  # 히브리
+        or 0x0600 <= code <= 0x06FF  # 아랍
+        or 0x0750 <= code <= 0x077F  # 아랍 보충
+        or 0xFB50 <= code <= 0xFDFF  # 아랍 표현형 A
+        or 0xFE70 <= code <= 0xFEFF  # 아랍 표현형 B
+    )
+
 def load_font_coverage(font_dir: Path) -> dict[str, set[int]]:
     """서체 파일에서 이름 → 담고 있는 코드포인트. 이름은 PDF의 span이 부르는 대로 맞춘다.
 
@@ -111,6 +123,14 @@ def audit(path: str, coverage: dict[str, set[int]]) -> tuple[list[str], set[str]
                         points = coverage[prefixed[0]]
                     for char in span["text"]:
                         if char in IGNORED or ord(char) in points:
+                            continue
+                        # **RTL 거짓 양성을 여기서 거른다.** 아랍어·히브리어 문서는 글자를 뽑을
+                        # 때 양방향 재정렬이 일어나 한두 글자가 옆 span에 붙어 나온다 — 실제
+                        # 렌더는 멀쩡한데 라틴 서체가 아랍 글자를 못 그린다고 신고했다.
+                        #
+                        # 그래서 **이 문서에 그 글자를 가진 서체가 실제로 등록돼 있으면** 넘긴다.
+                        # 등록조차 안 돼 있으면(진짜 결함) 그대로 잡힌다. 무시가 아니라 대조다.
+                        if is_rtl(char) and any(ord(char) in pts for pts in coverage.values()):
                             continue
                         missing[font].add(char)
                         pages_of[font].add(page_number)

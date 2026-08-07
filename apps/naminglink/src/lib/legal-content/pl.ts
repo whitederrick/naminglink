@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Kontakt",
           paragraphs: [
-            "Zapytania dotyczące usługi: platforest.inc@gmail.com",
+            `Zapytania dotyczące usługi: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Inspektor ochrony danych osobowych",
           paragraphs: [
             "Osoba odpowiedzialna: Gwak Eun-ha",
-            "E-mail: platforest.inc@gmail.com",
+            `E-mail: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Kontakt",
           paragraphs: [
-            "Zapytania dotyczące zwrotów: platforest.inc@gmail.com",
+            `Zapytania dotyczące zwrotów: ${companyInfo.email}`,
           ],
         },
       ],

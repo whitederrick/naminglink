@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Pertanyaan",
           paragraphs: [
-            "Pertanyaan perkhidmatan: platforest.inc@gmail.com",
+            `Pertanyaan perkhidmatan: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Pegawai Bertanggungjawab untuk Perlindungan Maklumat Peribadi",
           paragraphs: [
             "Pegawai: Gwak Eun-ha",
-            "Emel: platforest.inc@gmail.com",
+            `Emel: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Pertanyaan",
           paragraphs: [
-            "Pertanyaan mengenai pemulangan: platforest.inc@gmail.com",
+            `Pertanyaan mengenai pemulangan: ${companyInfo.email}`,
           ],
         },
       ],

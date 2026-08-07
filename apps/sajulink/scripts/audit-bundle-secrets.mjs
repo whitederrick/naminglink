@@ -22,7 +22,21 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 
 const appDir = process.cwd();
-const envPath = path.join(appDir, ".env.local");
+
+/**
+ * 값 기반 검사에 쓸 환경 파일. 기본은 이 앱의 `.env.local`이고, `--env <경로>`로 바꿀 수 있다.
+ *
+ * **왜 바꿀 수 있어야 하나:** 드림링크는 `.env.local`이 없어 값 기반 검사가 통째로 못 돌았다.
+ * 네 앱은 Supabase 하나를 함께 쓰므로 형제의 환경 파일로도 **같은 비밀이 번들에 있는지**
+ * 볼 수 있다. 파일을 새로 만들지 않고(그러면 그 앱의 dev 동작이 바뀐다) 검사만 돌린다.
+ *
+ *   node scripts/audit-bundle-secrets.mjs --env ../sajulink/.env.local
+ */
+const envFlag = process.argv.indexOf("--env");
+const envPath =
+  envFlag >= 0 && process.argv[envFlag + 1]
+    ? path.resolve(appDir, process.argv[envFlag + 1])
+    : path.join(appDir, ".env.local");
 const staticDir = path.join(appDir, ".next", "static");
 
 /** `.env.local`이 없으면 값 기반 검사를 못 한다. 죽지 않고 그 사실을 들고 간다. */

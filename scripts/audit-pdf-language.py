@@ -105,7 +105,9 @@ def name_or_font(word: str) -> bool:
     return " " not in word and len(word) <= 5
 
 
-def audit(directory: str) -> int:
+def audit(directory: str, names: set[str] | None = None) -> int:
+    """`names`는 견본에 쓰인 **사람 이름**이다. 이름은 어느 언어 문서에서도 옮기지 않는다."""
+    names = names or set()
     files = sorted(glob.glob(os.path.join(directory, "*.pdf")))
     if not files:
         print(f"PDF가 없습니다: {directory}")
@@ -132,6 +134,7 @@ def audit(directory: str) -> int:
             if not is_glossed(text, match.start())
             and not any(ok(match.group(0)) for ok in ALLOWED.values())
             and not (hangul_is_the_product(name) and name_or_font(match.group(0)))
+            and match.group(0) not in names
         )
         if leaked:
             problems.append((name, leaked))
@@ -176,5 +179,14 @@ def audit(directory: str) -> int:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        sys.exit("실행: python scripts/audit-pdf-language.py <PDF 디렉터리>")
-    raise SystemExit(audit(sys.argv[1]))
+        sys.exit(
+            "실행: python scripts/audit-pdf-language.py <PDF 디렉터리> [--names 지현,김하늘]"
+        )
+    # `--names`는 견본에 쓰인 **사람 이름**이다. 이름은 어느 언어 문서에서도 옮기지 않으므로
+    # 영어 문서에 「지현」이 있는 것이 정상이다. **손으로 적지 말 것** —
+    # `audit-pdfs.mjs`가 각 앱의 렌더 견본에서 읽어 넘긴다.
+    sample_names: set[str] = set()
+    if "--names" in sys.argv:
+        raw = sys.argv[sys.argv.index("--names") + 1]
+        sample_names = {n.strip() for n in raw.split(",") if n.strip()}
+    raise SystemExit(audit(sys.argv[1], sample_names))

@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. การติดต่อ",
           paragraphs: [
-            "สอบถามบริการ: platforest.inc@gmail.com",
+            `สอบถามบริการ: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. ผู้รับผิดชอบการปกป้องข้อมูลส่วนบุคคล",
           paragraphs: [
             "ผู้รับผิดชอบ: กวักอึนฮา",
-            "อีเมล: platforest.inc@gmail.com",
+            `อีเมล: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. ติดต่อสอบถาม",
           paragraphs: [
-            "สอบถามเกี่ยวกับการคืนเงิน: platforest.inc@gmail.com",
+            `สอบถามเกี่ยวกับการคืนเงิน: ${companyInfo.email}`,
           ],
         },
       ],

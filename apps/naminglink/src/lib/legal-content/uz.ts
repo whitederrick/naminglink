@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Murojaat",
           paragraphs: [
-            "Xizmat bo'yicha murojaat: platforest.inc@gmail.com",
+            `Xizmat bo'yicha murojaat: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Shaxsiy ma'lumotlarni himoya qilish bo'yicha mas'ul shaxs",
           paragraphs: [
             "Mas'ul shaxs: Kvak Unha",
-            "Elektron pochta: platforest.inc@gmail.com",
+            `Elektron pochta: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Murojaat",
           paragraphs: [
-            "Qaytarish bo'yicha murojaat: platforest.inc@gmail.com",
+            `Qaytarish bo'yicha murojaat: ${companyInfo.email}`,
           ],
         },
       ],

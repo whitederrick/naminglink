@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. お問い合わせ",
           paragraphs: [
-            "サービスに関するお問い合わせ: platforest.inc@gmail.com",
+            `サービスに関するお問い合わせ: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. 個人情報保護責任者",
           paragraphs: [
             "責任者：郭恩河",
-            "メール：platforest.inc@gmail.com",
+            `メール：${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. お問い合わせ",
           paragraphs: [
-            "返金に関するお問い合わせ: platforest.inc@gmail.com",
+            `返金に関するお問い合わせ: ${companyInfo.email}`,
           ],
         },
       ],

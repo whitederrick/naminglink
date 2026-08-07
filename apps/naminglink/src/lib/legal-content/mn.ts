@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Асууна уу",
           paragraphs: [
-            "Үйлчилгээний асуулга: platforest.inc@gmail.com",
+            `Үйлчилгээний асуулга: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Хувийн мэдээллийн хамгаалалтын хариуцагч",
           paragraphs: [
             "Хариуцагч: Гвак Унха",
-            "Имэйл: platforest.inc@gmail.com",
+            `Имэйл: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Асуулт",
           paragraphs: [
-            "Буцаалтын асуулт: platforest.inc@gmail.com",
+            `Буцаалтын асуулт: ${companyInfo.email}`,
           ],
         },
       ],

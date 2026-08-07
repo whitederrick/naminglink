@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. Контакты",
           paragraphs: [
-            "Запросы по услугам: platforest.inc@gmail.com",
+            `Запросы по услугам: ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. Ответственное лицо по защите персональных данных",
           paragraphs: [
             "Ответственное лицо: Гак Ын Ха",
-            "Электронная почта: platforest.inc@gmail.com",
+            `Электронная почта: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. Контакты",
           paragraphs: [
-            "Запросы на возврат: platforest.inc@gmail.com",
+            `Запросы на возврат: ${companyInfo.email}`,
           ],
         },
       ],

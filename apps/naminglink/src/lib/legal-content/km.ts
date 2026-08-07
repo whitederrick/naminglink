@@ -64,7 +64,7 @@ const content: LegalLocaleContent = {
         {
           title: "8. ការទំនាក់ទំនង",
           paragraphs: [
-            "សំណួរសេវាកម្ម៖ platforest.inc@gmail.com",
+            `សំណួរសេវាកម្ម៖ ${companyInfo.email}`,
           ],
         },
       ],
@@ -134,7 +134,7 @@ const content: LegalLocaleContent = {
           title: "8. អ្នកទទួលខុសត្រូវការពារព័ត៌មានផ្ទាល់ខ្លួន",
           paragraphs: [
             "អ្នកទទួលខុសត្រូវ: ក្វាក់អ៊ិនហា",
-            "អ៊ីមែល: platforest.inc@gmail.com",
+            `អ៊ីមែល: ${companyInfo.email}`,
           ],
         },
       ],
@@ -187,7 +187,7 @@ const content: LegalLocaleContent = {
         {
           title: "6. សំណួរ",
           paragraphs: [
-            "សំណួរអំពីការបង់ប្រាក់: platforest.inc@gmail.com",
+            `សំណួរអំពីការបង់ប្រាក់: ${companyInfo.email}`,
           ],
         },
       ],
