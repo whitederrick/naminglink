@@ -141,6 +141,52 @@ check("전통적으로 태몽인 상징은 그대로 태몽", dragon.conception 
 const fall = matchDream("추락하는 꿈을 꿨다");
 check("무관한 꿈은 태몽이 아니다", fall.conception === false, `conception=${fall.conception}`);
 
+// ── 영어 낱말 경계 ────────────────────────────────────────────────────────
+//
+// **한글에서 고친 결함이 영어에는 남아 있었다**(2026-08-07). `isStandalone`이 한글만 보고
+// 라틴은 무조건 통과시켜, 다른 낱말 **안에** 든 상징이 그대로 걸렸다:
+//
+//   "I saw a fox"        → f**ox**가 소로
+//   "was taking a test"  → ta**king**이 왕으로
+//   "I was in tears"     → t**ears**가 귀로
+//
+// 시험 문장 일곱 중 여섯이 오탐이었다. 영어 별칭 691개를 넣으며 크게 드러났지만 뿌리는
+// 그전부터 있었다 — `ox`·`ear`·`rain`은 원래 사전의 표기다.
+//
+// **양쪽을 다 센다.** 오탐만 막으면 어미가 붙은 정상 매칭이 통째로 죽는다.
+const EN_FALSE_POSITIVES: Array<[string, string]> = [
+  ["I saw a fox in the forest", "ox"],
+  ["I was taking a test at school", "president"],
+  ["I was in tears all night", "ear"],
+  ["I saw a crowd of people", "crow"],
+  ["He had a long beard", "bear"],
+  ["I was late for a train", "rain"],
+];
+for (const [text, mustNot] of EN_FALSE_POSITIVES) {
+  const got = matchDream(text).matched;
+  check(
+    `영어 낱말 조각이 안 걸린다 — "${text}"`,
+    !got.some((m) => m.id === mustNot),
+    `${mustNot}이 걸림: ${got.map((m) => m.id).join(",")}`,
+  );
+}
+
+const EN_MUST_MATCH: Array<[string, string]> = [
+  ["I saw two pigs in the house", "pig"],
+  ["The dogs barked at me", "dog"],
+  ["birds were flying in the sky", "bird"],
+  ["my tooth fell out", "tooth-fall"],
+  ["Clear water was flowing", "water-clear"],
+];
+for (const [text, mustHave] of EN_MUST_MATCH) {
+  const got = matchDream(text).matched;
+  check(
+    `어미가 붙어도 걸린다 — "${text}"`,
+    got.some((m) => m.id === mustHave),
+    `${mustHave}이 안 걸림: ${got.map((m) => m.id).join(",")}`,
+  );
+}
+
 // ── 대조군 — 검사가 실제로 잡는지 스스로 증명한다 ─────────────────────────
 // 늘 통과하는 하니스는 없는 것과 같다. 아래가 통과해 버리면 위 검사들이 장식이다.
 const control = matchDream("돼지");

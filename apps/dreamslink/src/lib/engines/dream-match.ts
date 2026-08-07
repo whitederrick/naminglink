@@ -25,11 +25,15 @@ import {
 /**
  * 규칙을 바꾸면 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
  *
+ * 1.2.0 (2026-08-07) — **영어에도 낱말 경계를 넣었다.** 그전까지 라틴은 무조건 통과라
+ * 「I saw a fox」가 소(ox)로, 「was taking a test」가 왕(king)으로 걸렸다. 시험 문장 일곱 중
+ * 여섯이 오탐이었다. 한글에서 2026-08-06에 고친 것과 같은 결함이 영어에 남아 있었다.
+ *
  * 1.1.0 (2026-08-07) — **영어 경로를 살렸다.** 그전까지 22개 언어에서 상황 판별이 죽어 있어
  * 「A snake bit me」가 재물 꿈으로 읽혔다. 영어 상황 키워드·영어 별칭·슬래시 표기 분리·
  * 임신 신호 영어판·기능어 거르기를 함께 넣었다. 한국어 결과는 바뀌지 않는다.
  */
-export const ENGINE_VERSION = "dream-1.1.0";
+export const ENGINE_VERSION = "dream-1.2.0";
 
 export type MatchedSymbol = {
   id: string;
@@ -118,6 +122,19 @@ function findTerm(haystack: string, symbol: DreamSymbol) {
 
 const HANGUL = /[가-힣]/;
 
+/** 라틴 낱말을 이루는 글자. 이것이 앞뒤에 붙어 있으면 낱말의 조각이다. */
+const LATIN_WORD = /[a-z0-9]/;
+
+/**
+ * 상징 뒤에 붙어도 **낱말이 끝난 것으로 보는** 영어 어미.
+ *
+ * 허용하지 않으면 「two pigs」·「the dog barked」·「birds flying」이 통째로 죽는다. 한국어의
+ * `PARTICLES`와 같은 자리다 — 늘리면 매칭이 늘고 오탐도 함께 는다.
+ *
+ * 긴 것을 앞에 둔다. `es`가 `s`보다 먼저 걸려야 「foxes」에서 뒤가 비는 것을 본다.
+ */
+const EN_SUFFIXES = ["'s", "es", "ed", "ing", "s"];
+
 /**
  * 이 자리에 걸린 것이 **낱말인가, 다른 낱말의 조각인가.**
  *
@@ -147,7 +164,36 @@ const HANGUL = /[가-힣]/;
  * 사실인 양 나간다. 자주 쓰는 합성어는 `aliases`에 따로 적어 살린다.
  */
 function isStandalone(haystack: string, term: string, at: number) {
-  if (term.length > 1 || !HANGUL.test(term)) return true;
+  /**
+   * **라틴 문자는 낱말 경계를 본다**(2026-08-07에 넣었다).
+   *
+   * 그전에는 이 함수가 한글만 보고 라틴은 무조건 통과시켰다. 한글에서 고친 바로 그 결함이
+   * 영어에는 남아 있었던 것이고, 실측하면 이랬다:
+   *
+   *   "I saw a fox"        → f**ox**가 소(ox)로 걸렸다
+   *   "was taking a test"  → ta**king**이 왕(king)으로 걸렸다
+   *   "I was in tears"     → t**ears**가 귀(ear)로 걸렸다
+   *   "a crowd of people"  → **crow**d가 까마귀로 걸렸다
+   *   "a long beard"       → **bear**d가 곰으로, b**ear**d가 귀로 걸렸다
+   *
+   * 시험 문장 일곱 개 중 여섯에 오탐이 있었다. 영어 별칭 691개를 넣으면서 크게 드러났지만
+   * **뿌리는 그전부터 있었다** — `ox`·`ear`·`rain`은 원래 사전의 표기다.
+   *
+   * 앞은 글자가 아니어야 하고, 뒤는 글자가 아니거나 **영어 어미**여야 한다. 어미를 허용하지
+   * 않으면 「two pigs」·「the dog barked」 같은 정상 매칭이 통째로 죽는다.
+   */
+  if (!HANGUL.test(term)) {
+    const before = at > 0 ? haystack[at - 1] : "";
+    if (LATIN_WORD.test(before)) return false;
+
+    const after = haystack.slice(at + term.length);
+    if (!LATIN_WORD.test(after[0] ?? "")) return true;
+    return EN_SUFFIXES.some(
+      (suffix) => after.startsWith(suffix) && !LATIN_WORD.test(after[suffix.length] ?? ""),
+    );
+  }
+
+  if (term.length > 1) return true;
 
   const before = at > 0 ? haystack[at - 1] : "";
   if (HANGUL.test(before)) return false;
