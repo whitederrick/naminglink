@@ -128,6 +128,14 @@ export const guideEntries: GuideEntry[] = [
     audience: "ko",
   },
   {
+    slug: "how-it-works",
+    title: "How a dream is read here",
+    summary:
+      "A fixed dictionary of 215 symbols, no language model, and a rule for every step. How symbols are found in what you write, why the same symbol can mean opposite things, and how birth dreams are judged.",
+    eyebrow: "How it works",
+    audience: "global",
+  },
+  {
     slug: "what-we-store",
     title: "What happens to the dream you write",
     summary:
