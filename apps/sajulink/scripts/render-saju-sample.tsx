@@ -55,8 +55,25 @@ const person = {
  * **한 문단뿐인 것이 맞다.** ②-1에서 `MUTABLE_FIELDS`가 `summary` 하나로 좁혀졌다 — 나머지
  * 아홉 자리는 엔진이 쓰고 모델이 무엇을 보내오든 버린다. 그러니 견본도 그 자리에만 필요하다.
  */
-const SAMPLE_SUMMARY =
-  "봄의 초입에 태어난 을목(乙木) 일간입니다. 곧게 뻗기보다 상황에 맞춰 휘어지며 나아가는 결이고, 주변의 흐름을 먼저 읽은 뒤 움직이는 편입니다. 원국 전체로 보면 목과 화가 두텁고 금이 얇아, 벌여 놓은 것을 정리하고 끊어 내는 일에서 부담을 느끼기 쉽습니다.";
+/**
+ * 모델이 쓰는 자리(`summary`)에 넣을 견본.
+ *
+ * ⚠️ **한국어 고정 문자열을 쓰지 말 것**(2026-08-07에 그러다 고쳤다). 예전에는 여기에 한국어
+ * 한 문단을 박아 두고 **스물세 로케일 전부에** 같은 것을 넣었다. 두 가지가 어긋났다.
+ *
+ * 하나는 **지면 측정이 실제와 다른 조건에서** 이뤄진다는 것이다. 이 스크립트의 본래 목적이
+ * 「로케일마다 실제로 렌더해 장을 세는 것」인데, 정작 가장 긴 자리에 독일어 문서에도 한국어를
+ * 넣고 재고 있었다. 한글과 라틴은 같은 글자 수라도 지면이 두 배 넘게 다르다.
+ *
+ * 다른 하나는 **PDF 언어 검사가 이것을 결함으로 잡는다는 것**이다(`audit-pdf-language.py`).
+ * 시험 장치의 잡음이 진짜 누출을 덮는다.
+ *
+ * 그래서 **그 로케일 문안을 그대로 쓴다.** 엔진이 쓴 요약은 이미 그 언어이고, 모델도 운영에서
+ * 그 언어로 쓴다 — 실제에 가장 가깝다.
+ */
+function sampleSummary(narrative: SajuInterpretation) {
+  return narrative.summary;
+}
 
 /**
  * 상한을 꽉 채운다. **모델이 쓰는 자리에만 쓴다** — 아래 `modes` 주석 참고.
@@ -151,7 +168,9 @@ async function main() {
           : {
               ...narrative,
               summary:
-                mode === "long" ? stretch(SAMPLE_SUMMARY, LIMITS.summary) : SAMPLE_SUMMARY,
+                mode === "long"
+                  ? stretch(sampleSummary(narrative), LIMITS.summary)
+                  : sampleSummary(narrative),
             };
 
       const buffer = await renderSajuReport({
