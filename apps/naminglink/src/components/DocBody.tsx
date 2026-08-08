@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import { GuideNote, GuideSection } from "@/components/GuideShell";
+import { GuideNote, GuideSection, GuideStats } from "@/components/GuideShell";
 import type { DocBlock, DocSection } from "@/lib/doc-content/types";
 import { localePath } from "@/lib/locale-path";
 import type { Locale } from "@/lib/services";
@@ -59,6 +59,9 @@ function inline(text: string, locale: Locale): ReactNode[] {
   return nodes;
 }
 
+/** 채우지 못한 자리표시자가 남았는가. 남았으면 그 블록은 그리지 않는다. */
+const unresolved = (text: string) => /\{[a-zA-Z]+\}/.test(text);
+
 function Block({
   block,
   locale,
@@ -68,16 +71,31 @@ function Block({
   locale: Locale;
   values: Record<string, string>;
 }) {
+  if ("stats" in block) {
+    const items = block.stats.map((item) => ({
+      value: fill(item.value, values),
+      label: fill(item.label, values),
+    }));
+    // 숫자를 못 채웠으면 판을 통째로 뺀다 — 빈 칸이 있는 숫자판은 자료가 틀린 것처럼 보인다.
+    if (items.some((item) => unresolved(item.value))) return null;
+    return <GuideStats items={items} />;
+  }
+
   if ("ul" in block) {
+    const items = block.ul.map((item) => fill(item, values));
+    if (items.some(unresolved)) return null;
     return (
       <ul>
-        {block.ul.map((item, index) => (
-          <li key={index}>{inline(fill(item, values), locale)}</li>
+        {items.map((item, index) => (
+          <li key={index}>{inline(item, locale)}</li>
         ))}
       </ul>
     );
   }
-  return <p>{inline(fill(block.p, values), locale)}</p>;
+
+  const text = fill(block.p, values);
+  if (unresolved(text)) return null;
+  return <p>{inline(text, locale)}</p>;
 }
 
 export function DocBody({

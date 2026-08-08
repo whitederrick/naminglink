@@ -4,8 +4,9 @@
 // **구조를 그대로 복사하고 잎(문자열)만 갈아 끼운다** — 키·중첩·배열 길이가 어긋날 자리가
 // 아예 없다. 사주링크 `translate-i18n.ts`와 같은 방식이고, 검증 규칙도 그대로 가져왔다.
 //
-// **en과 ko를 함께 넘긴다.** 구조와 어투는 en을 따르되 **뜻은 ko가 기준**이다 — 인명용 한자·
-// 진태양시처럼 한국 제도를 다루는 말은 en을 다시 옮기면 두 번 번역한 것이 된다.
+// **en 한 벌만 넘긴다.** 처음에는 뜻의 정확성을 위해 ko를 함께 보냈는데, 모델이 그 한국어에서
+// 글자를 그대로 베꼈다(링크 라벨이 「한글 발음 표기」로 나오는 식으로 17개 잎이 걸렸다).
+// 용어의 정확성은 프롬프트의 GLOSSARY가 맡는다 — 무엇을 어떻게 옮길지 데이터로 준다.
 //
 // 실행: apps/naminglink 에서
 //   npx tsx --tsconfig scripts/tsconfig.sweep.json scripts/translate-doc-content.ts ja
@@ -105,6 +106,33 @@ const KEEP_VERBATIM = ["Naming-Link", "naming-link.com"];
  */
 const hangulTokens = (value: string) => new Set(value.match(/[가-힣]+/g) ?? []);
 
+/**
+ * 용어집이 정한 표기. **남은 한글이 이 낱말들뿐이면 표기로 바꿔 넣는다.**
+ *
+ * 몽골어가 `한자`를 세 번 돌려도 그대로 남겼다. 그 잎을 영어로 되돌리면 **몽골어 문단 하나가
+ * 통째로 영어**가 되는데, 그것보다는 이미 정해 둔 로마자 표기를 쓰는 편이 낫다. 지어내는 것이
+ * 아니라 프롬프트의 GLOSSARY가 같은 값을 이미 지시하고 있다.
+ *
+ * **낱말이 정확히 일치할 때만 바꾼다.** 「한자를」처럼 조사가 붙은 것은 바꾸면 몽골어 문장에
+ * 한국어 조사가 남으므로 손대지 않고 결함으로 센다.
+ */
+const GLOSSARY_ROMAN: Record<string, string> = {
+  한자: "hanja",
+  한글: "Hangul",
+  사주: "saju",
+};
+
+/** 남은 한글이 용어집 낱말뿐이면 표기로 바꾼 문자열을, 아니면 `null`을 준다. */
+function applyGlossary(value: string, leaf: Leaf): string | null {
+  const allowed = hangulTokens(leaf.en);
+  const extra = [...hangulTokens(value)].filter((word) => !allowed.has(word));
+  if (!extra.length || extra.some((word) => !(word in GLOSSARY_ROMAN))) return null;
+  return extra.reduce(
+    (text, word) => text.split(word).join(GLOSSARY_ROMAN[word]!),
+    value,
+  );
+}
+
 function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null {
   // 모델이 문자열이 아닌 것을 돌려주는 일이 있다(객체·배열). 그대로 두면 뒤에서 터진다.
   if (typeof value !== "string") return `문자열이 아니다(${typeof value})`;
@@ -139,8 +167,18 @@ function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null
 
 async function translate(leaves: Leaf[], locale: string, key: string) {
   const language = localeLabels[locale as keyof typeof localeLabels] ?? locale;
+  /**
+   * **한국어 원문을 함께 보내지 않는다.**
+   *
+   * 처음에는 뜻의 정확성을 위해 en과 ko를 나란히 보냈다. 그런데 모델이 그 한국어에서 **글자를
+   * 그대로 베꼈다** — 링크 라벨이 「한글 발음 표기」로, 본문에 「한자」가 그대로 남는 식으로
+   * 17개 잎이 걸렸다. 참고로 준 것이 베낄 것이 된 셈이다.
+   *
+   * 용어의 정확성은 이제 프롬프트의 GLOSSARY가 맡는다 — 무엇을 어떻게 옮길지 데이터로 준다.
+   * 영어를 만드는 `--fill-en`에서는 한국어가 **원문**이므로 그때만 보낸다.
+   */
   const payload = Object.fromEntries(
-    leaves.map((leaf) => [leaf.path, leaf.ko ? { en: leaf.en, ko: leaf.ko } : { en: leaf.en }]),
+    leaves.map((leaf) => [leaf.path, { source: leaf.en }]),
   );
 
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -155,11 +193,22 @@ async function translate(leaves: Leaf[], locale: string, key: string) {
           role: "system",
           content: [
             `You translate a Korean naming service's help pages into ${language}.`,
-            "Each entry has the English text and, when available, the Korean original. Follow the English for structure and tone, but take the MEANING from the Korean — it is the source.",
+            "Each entry has one field, `source`, holding the text to translate. Keep its structure and tone.",
             "Return a JSON object with exactly the same keys, each mapped to the translated string. No extra keys, no commentary.",
             "CRITICAL: translate every Korean term into the target language — describe it if there is no single word for it. Never leave a Korean word untranslated: the reader cannot read that script.",
             "EXCEPTION: Hangul that appears in the source as an EXAMPLE must be kept exactly (e.g. 'Michael becomes 마이클', 'Wang with 왕', the name 지은). Those are specimens of Korean writing, not words to translate.",
             "CRITICAL: never introduce Hangul that is not in the source. If the source romanises a Korean name (Namgung, Seonwoo), keep the romanisation — do not write it back in Hangul.",
+            // **용어를 데이터로 준다.** 「한국어를 남기지 말라」는 부탁만으로는 안 지켜졌다 —
+            // 한자·한글 같은 말이 17개 잎에 그대로 남았다. 무엇으로 바꿔야 하는지 알려 준다.
+            "GLOSSARY — render these Korean terms with the target language's established word, or the romanisation plus a short gloss. Never leave them in Hangul:",
+            "  한자 = hanja (Chinese characters used in Korean names)",
+            "  한글 = Hangul (the Korean alphabet)",
+            "  사주 = saju (Korean four-pillars reading)",
+            "  오행 = the five elements",
+            "  인명용 한자 = the official name-hanja table set by the Supreme Court of Korea",
+            "  지정 독음 = the fixed reading assigned to a character for use in names",
+            "  성 / 姓 = family name (surname)",
+            "  출생신고 = birth registration",
             "CRITICAL: every value in the returned object must be a plain string. Never return an object, an array, or a nested structure for a key.",
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime with company details.",
             "CRITICAL: keep **bold** markers on the same phrase and the same number of ** markers. If the English has none, yours must have none.",
@@ -246,7 +295,18 @@ async function run(locale: string, key: string) {
   const failed: string[] = [];
   for (const leaf of leaves) {
     const value = translated[leaf.path] ?? "";
-    const problem = mismatch(value, leaf, sourceIsKo);
+    let problem = mismatch(value, leaf, sourceIsKo);
+
+    // 남은 한글이 용어집 낱말뿐이면 표기로 바꿔 살린다(위 `applyGlossary` 주석 참고).
+    if (problem && !sourceIsKo && typeof value === "string") {
+      const patched = applyGlossary(value, leaf);
+      if (patched && !mismatch(patched, leaf, sourceIsKo)) {
+        values.set(leaf.path, patched);
+        console.log(`    ${leaf.path} — 용어집 표기로 바꿈`);
+        continue;
+      }
+    }
+
     if (problem) {
       failed.push(`    ${leaf.path} — ${problem}`);
       values.set(leaf.path, leaf.en);

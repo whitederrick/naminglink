@@ -6,11 +6,11 @@ export const ES_DOCS = {
   "about": {
     "eyebrow": "Acerca de",
     "title": "Acerca de Naming-Link",
-    "summary": "Somos un servicio que ayuda a elegir y entender nombres coreanos. Aquí explicamos en qué nos basamos y qué es lo que deliberadamente no hacemos.",
+    "summary": "Somos un servicio que te ayuda a elegir y entender nombres coreanos. Aquí explicamos en qué basamos nuestros resultados y qué es lo que deliberadamente no hacemos.",
     "backLabel": "Inicio",
     "sections": [
       {
-        "title": "Qué hacemos",
+        "title": "Lo que hacemos",
         "blocks": [
           {
             "p": "Naming-Link te ayuda a **elegir y entender nombres coreanos** — el hanja detrás del nombre de un niño, un nombre coreano para usar en el extranjero, la escritura en Hangul de tu propio nombre, y recuerdos como un sello o un informe impreso."
@@ -30,12 +30,12 @@ export const ES_DOCS = {
             "p": "El saju y las figuras de cinco elementos se calculan a partir del **calendario lunisolar coreano**, con la hora de nacimiento corregida al tiempo solar verdadero del lugar de nacimiento. La lectura es una referencia tradicional, no una predicción."
           },
           {
-            "p": "Las explicaciones escritas son producidas por IA. Para evitar que **invente cosas**, el modelo recibe solo tu entrada y nuestros propios datos de referencia, y se le indica que se mantenga dentro de eso. Las guías explican esto en detalle."
+            "p": "Las explicaciones escritas son producidas por IA. Para evitar que **invente cosas**, al modelo solo se le da tu entrada y nuestros propios datos de referencia, y se le indica que se mantenga dentro de eso. Las guías explican esto en detalle."
           }
         ]
       },
       {
-        "title": "Qué no hacemos",
+        "title": "Lo que no hacemos",
         "blocks": [
           {
             "ul": [
@@ -50,7 +50,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el generador de PDF no soporta esos scripts — y lo decimos en pantalla antes de que pagues."
+            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el generador de PDF no soporta esos guiones — y lo decimos en pantalla antes de que pagues."
           }
         ]
       },
@@ -85,10 +85,10 @@ export const ES_DOCS = {
         "title": "Así que el sonido viene primero",
         "blocks": [
           {
-            "p": "Por eso Naming-Link fija el sonido antes de buscar hanja. Si el nombre es \"지은\", el significado solo puede ser elegido entre los caracteres asignados a la lectura **지** y los caracteres asignados a la lectura **은**."
+            "p": "Por eso Naming-Link fija el sonido antes de buscar hanja. Si el nombre es \"지은\", el significado solo puede elegirse entre los caracteres asignados a la lectura **지** y los caracteres asignados a la lectura **은**."
           },
           {
-            "p": "Por muy bueno que sea un significado, un carácter cuya lectura no coincida no puede ser usado para ese nombre. También nunca cambiamos el sonido de un nombre para ajustarlo a un carácter — un nombre se pronuncia toda la vida, y el sonido se establece primero, seguido del hanja."
+            "p": "Por muy bueno que sea un significado, un carácter cuya lectura no coincida no puede ser usado para ese nombre. También nunca cambiamos el sonido de un nombre para ajustarlo a un carácter — un nombre se pronuncia durante toda la vida, y el sonido se establece primero, seguido del hanja."
           }
         ]
       },
@@ -96,10 +96,10 @@ export const ES_DOCS = {
         "title": "Los apellidos están fuera de esta tabla",
         "blocks": [
           {
-            "p": "Esto a menudo se malinterpreta. **La tabla rige el nombre de pila, no el apellido.** Un apellido sigue lo que ya está en el registro familiar, por lo que algunas personas utilizan caracteres que no están en la tabla de hanja para nombres."
+            "p": "Esto se malinterpreta a menudo. **La tabla rige el nombre de pila, no el apellido.** Un apellido sigue lo que ya está en el registro familiar, por lo que algunas personas utilizan caracteres que no están en la tabla de hanja para nombres."
           },
           {
-            "p": "Por eso Naming-Link trata el hanja del apellido de manera diferente. Solo te ayudamos a encontrar un apellido, y dejamos un campo para ingresar uno directamente, para personas cuyo carácter está fuera de la tabla. Los apellidos de dos sílabas como Namgung y Seonwoo se ingresan de la misma manera."
+            "p": "Por eso Naming-Link trata el hanja del apellido de manera diferente. Solo te ayudamos a encontrar un apellido, y dejamos un campo para ingresar uno directamente, para personas cuyo carácter está fuera de la tabla. Apellidos de dos sílabas como Namgung y Seonwoo se ingresan de la misma manera."
           }
         ]
       }
@@ -118,7 +118,7 @@ export const ES_DOCS = {
             "p": "Este servicio escribe **tu nombre** en Hangul. No te da un nombre coreano. Michael se convierte en 마이클 — el mismo nombre, escrito para que los coreanos puedan leerlo y decirlo. No lo cambiamos por un nombre coreano que casualmente signifique algo similar."
           },
           {
-            "p": "Si lo que quieres es un nombre coreano, **ese es un servicio diferente.** Uno mantiene tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
+            "p": "Si un nombre coreano es lo que deseas, **ese es un servicio diferente.** Uno mantiene tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
           }
         ]
       },
@@ -129,7 +129,7 @@ export const ES_DOCS = {
             "p": "Cada idioma tiene sonidos que el coreano carece — f, v, z, th, y distinciones vocálicas que el coreano no hace. Para esos escribimos lo que **un hablante de coreano realmente dice** cuando pronuncia tu nombre en voz alta, en lugar de transcribir la fonética original símbolo por símbolo. El objetivo es la escritura que se usará, no la más técnicamente fiel."
           },
           {
-            "p": "La misma escritura puede diferir dependiendo de dónde proviene un nombre, así que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
+            "p": "La misma escritura puede diferir dependiendo de dónde provenga un nombre, así que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
           }
         ]
       },
@@ -137,10 +137,10 @@ export const ES_DOCS = {
         "title": "Varias escrituras, lado a lado",
         "blocks": [
           {
-            "p": "No hay una única respuesta correcta. La escritura más cercana al sonido original, la que se usa más comúnmente en Corea, y la más fácil de escribir a menudo son tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
+            "p": "No hay una sola respuesta correcta. La escritura más cercana al sonido original, la que se usa más comúnmente en Corea, y la más fácil de escribir son a menudo tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
           },
           {
-            "p": "Si ninguna de ellas te parece correcta, puedes añadir una pista sobre el sonido que deseas y volver a ejecutarlo — por ejemplo, que una sílaba en particular debería escribirse de manera diferente."
+            "p": "Si ninguna de ellas se siente correcta, puedes añadir una pista sobre el sonido que deseas y volver a ejecutarlo — por ejemplo, que una sílaba particular debería escribirse de manera diferente."
           }
         ]
       },
@@ -149,7 +149,7 @@ export const ES_DOCS = {
         "title": "No hay hanja aquí",
         "blocks": [
           {
-            "p": "No adjuntamos hanja a una transliteración. El hanja lleva significado, y este flujo se trata de sonido. Hacer coincidir caracteres solo con el sonido puede llevarte a un significado que nunca pediste."
+            "p": "No adjuntamos hanja a una transliteración. El hanja lleva significado, y este flujo se trata de sonido. Igualar caracteres solo al sonido puede llevarte a un significado que nunca pediste."
           }
         ]
       }
@@ -171,7 +171,7 @@ export const ES_DOCS = {
             "p": "Si tu propio apellido coincide con uno coreano real por sonido — Wang con 왕, Ye con 예 — lo ponemos primero. Mantener un hilo de conexión con tu nombre original vale más que un apellido elegido al azar."
           },
           {
-            "p": "Puedes elegir un apellido tú mismo o dejarnos recomendar uno. De cualquier manera, será **un apellido que existe**."
+            "p": "Puedes elegir un apellido tú mismo o dejar que te recomendemos uno. De cualquier manera, será **un apellido que existe**."
           }
         ]
       },
@@ -179,10 +179,10 @@ export const ES_DOCS = {
         "title": "Fácil de decir, fácil de escribir",
         "blocks": [
           {
-            "p": "Este es un nombre que las personas en Corea realmente te llamarán, así que lo primero que verificamos es si un coreano puede escucharlo una vez y escribirlo. Un nombre que necesita ser deletreado cada vez es una carga que llevas, no nosotros."
+            "p": "Este es un nombre que la gente en Corea realmente te llamará, así que lo primero que verificamos es si un coreano puede escucharlo una vez y escribirlo. Un nombre que necesita ser deletreado cada vez es una carga que llevas, no nosotros."
           },
           {
-            "p": "El significado también importa. Los nombres de pila coreanos suelen llevar uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
+            "p": "El significado también importa. Los nombres de pila coreanos suelen tener uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
           }
         ]
       },
@@ -208,7 +208,7 @@ export const ES_DOCS = {
   "notice": {
     "eyebrow": "Avisos",
     "title": "Avisos",
-    "summary": "Donde anunciamos cambios que afectan cómo usas el servicio.",
+    "summary": "Aquí anunciamos cambios que afectan cómo usas el servicio.",
     "backLabel": "Inicio",
     "sections": []
   },
@@ -234,9 +234,9 @@ export const ES_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos el total. Consulta la [política de reembolsos](/refund-policy).",
+              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos en su totalidad. Consulta la [política de reembolsos](/refund-policy).",
               "**Privacidad** — solicitudes para acceder, corregir o eliminar tus datos. Consulta la [política de privacidad](/privacy).",
-              "**Correcciones** — si un significado de hanja, lectura o cálculo parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
+              "**Correcciones** — si un significado, lectura o cálculo de hanja parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
               "**Cualquier otra cosa** — asociaciones y prensa van a la misma dirección."
             ]
           }
@@ -269,6 +269,160 @@ export const ES_DOCS = {
         ]
       }
     ]
+  },
+  "guide/avoid": {
+    "eyebrow": "Costumbres",
+    "title": "Caracteres que se evitan tradicionalmente",
+    "summary": "No está prohibido por ley, pero es una costumbre. Hemos escrito sobre lo que se ha evitado y por qué, y cómo lo manejamos.",
+    "backLabel": "Guía de uso",
+    "sections": [
+      {
+        "title": "Caracteres que son legalmente aceptables",
+        "blocks": [
+          {
+            "stats": [
+              {
+                "value": "{avoidTotal} caracteres",
+                "label": "Caracteres evitados compilados"
+              },
+              {
+                "value": "{avoidCommonlyUsed} caracteres",
+                "label": "Entre ellos, caracteres que aún se usan comúnmente"
+              }
+            ]
+          },
+          {
+            "p": "Hay caracteres que están incluidos en la lista de caracteres para nombres y **son legalmente aceptables**, pero se consideran inadecuados para nombres."
+          },
+          {
+            "p": "El pensamiento subyacente es que **\"un significado excesivo es en realidad indeseable.\"** Esto incluye caracteres que se consideran demasiado preciosos (珍·寶), caracteres vistos como teniendo una presencia demasiado fuerte (王·帝), y aquellos considerados demasiado grandiosos para que una persona los encarne, como el cielo o deidades. Esto refleja un antiguo sentido de moderación, creyendo que un nombre puede eclipsar a la persona."
+          },
+          {
+            "p": "**Sin embargo, estos caracteres no son inutilizables.** No es una prohibición legal, sino una costumbre, y las costumbres varían según la región, la familia y la generación, y pueden cambiar con el tiempo."
+          },
+          {
+            "p": "De hecho, entre los {avoidTotal} caracteres que compilamos, {avoidCommonlyUsed} se utilizan aún comúnmente en nombres. El hecho de que se sepa que se evitan pero aún se usen ampliamente indica que esta costumbre no es absoluta."
+          }
+        ]
+      },
+      {
+        "title": "¿Qué categorías hay?",
+        "blocks": [
+          {
+            "p": "Los caracteres actualmente compilados se dividen en siete categorías."
+          },
+          {
+            "ul": [
+              "**Tesoros y objetos** — Caracteres que se refieren directamente a la riqueza o a objetos",
+              "**Cielo y naturaleza** — Cosas como el sol, la luna y el cielo que se consideran demasiado grandiosas para que una persona las encarne",
+              "**Reyes y nobleza** — Caracteres que significan estatus, como rey o emperador",
+              "**Seres divinos** — Caracteres que se refieren a reinos sagrados, como dioses o espíritus",
+              "**Estaciones y otros** — Caracteres vinculados a momentos o estados específicos",
+              "**Animales** — Animales considerados de fuerte energía, como dragones o tigres",
+              "**Excesividad** — Caracteres vistos como teniendo significados excesivamente grandes o desbordantes"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Puedes añadir o eliminar caracteres tú mismo",
+        "blocks": [
+          {
+            "p": "No eliminamos arbitrariamente estos caracteres. **Hemos proporcionado dos opciones en la pantalla de entrada para que el nombrador elija cómo manejarlos.**"
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Opciones disponibles en la pantalla de entrada",
+        "blocks": [
+          {
+            "p": "**Excluir caracteres evitados de los candidatos** — Si está habilitado, se excluyen completamente. Si está deshabilitado, permanecen en los resultados con una etiqueta de \"Tradicionalmente evitado\" y la razón adjunta."
+          },
+          {
+            "p": "**Excluir incluso caracteres comúnmente usados** — Esto excluye caracteres que están en la lista de evitación pero que en realidad se usan ampliamente (圭·琳·玲·元·太·星·海, etc.). Si está habilitado, los candidatos se reducirán significativamente."
+          },
+          {
+            "p": "El valor predeterminado es **no excluir, sino solo mostrar**. Si se eliminan silenciosamente de la lista, puede parecer a aquellos que quieren usar ese carácter como si no existiera."
+          }
+        ]
+      },
+      {
+        "title": "Asegurando que las opciones no desaparezcan",
+        "blocks": [
+          {
+            "p": "Si no quedan caracteres utilizables para esa sílaba, levantaremos la exclusión para esa sílaba y mostraremos candidatos. Creemos que es mejor que no tener opciones en absoluto."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/how-korean-to-global": {
+    "eyebrow": "Base del servicio",
+    "title": "¿Cuál es la base para la conversión de nombres globales?",
+    "summary": "Proporcionamos candidatos desde cinco perspectivas, manteniendo los sistemas de escritura de cada idioma y utilizando solo nombres existentes.",
+    "backLabel": "Guía de uso",
+    "sections": [
+      {
+        "title": "Los candidatos se proporcionan desde cinco perspectivas",
+        "blocks": [
+          {
+            "p": "No hay una sola forma de traducir un nombre a otro idioma. Dependiendo de si se preserva el sonido o el significado, se elige un nombre natural en el contexto local o se prioriza la individualidad, las respuestas variarán. Por lo tanto, en lugar de presentar una opción, proporcionamos **una de cada una de cinco perspectivas diferentes**."
+          },
+          {
+            "ul": [
+              "**Opción de preservación del sonido** — Preserva el sonido del nombre original tanto como sea posible",
+              "**Opción de traducción de significado** — Traduce el significado contenido en el nombre al nombre de ese idioma",
+              "**Opción de compromiso entre sonido y significado** — Toma la mitad de cada uno",
+              "**Opción auténtica local** — Elige nombres que realmente se usan comúnmente en ese contexto cultural",
+              "**Opción de individualidad y marca** — Prioriza nombres que sean memorables y distintivos"
+            ]
+          },
+          {
+            "p": "Se garantiza que se proporcionen cinco opciones. Dado que las preferencias varían de persona a persona, creemos que es mejor permitir elecciones en lugar de presentar una como la respuesta correcta."
+          }
+        ]
+      },
+      {
+        "title": "Cada idioma tiene diferentes reglas del sistema de escritura",
+        "blocks": [
+          {
+            "p": "Al traducir a un idioma que no utiliza letras romanas, debe escribirse en el guion de ese idioma. Para el japonés, sería kana y kanji; para el ruso, mongol y kazajo, sería cirílico; para el árabe, sería el guion árabe; y para el tailandés, jemer e hindi, sería sus respectivos guiones. Si lo escribes en letras romanas y lo llamas un \"nombre japonés\", no se puede usar en ese país."
+          },
+          {
+            "p": "Por lo tanto, tenemos reglas separadas para el sistema de escritura de cada idioma, y el servidor verifica una vez más para asegurarse de que los resultados estén en ese sistema de escritura. Errores como omitir apellidos o mezclar en Hangul se filtran aquí."
+          }
+        ]
+      },
+      {
+        "title": "Usamos nombres que realmente se utilizan",
+        "blocks": [
+          {
+            "p": "Para evitar crear nombres que suenen plausibles pero que no existen en ese país, basamos nuestras opciones en nombres existentes. Los nombres se utilizan en documentos y presentaciones, así que si una persona local piensa \"no hay tal nombre\", no se puede usar."
+          }
+        ]
+      },
+      {
+        "title": "Separar selección y descripción",
+        "blocks": [
+          {
+            "p": "Manejamos la tarea de determinar cinco candidatos por separado de la tarea de describir cada candidato en detalle. Dado que la descripción toma mucho tiempo, separamos esa parte para crearla simultáneamente."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "¿Por qué se cambió esto?",
+        "blocks": [
+          {
+            "p": "Inicialmente, creamos las cinco perspectivas por separado. Era más rápido, pero **el número de candidatos variaba cada vez.** A medida que cada persona seleccionaba candidatos, había superposiciones o discrepancias, y si uno fallaba, ese candidato desaparecía por completo, resultando en solo dos o tres en lugar de cinco."
+          },
+          {
+            "p": "Ahora, dado que determinamos el conjunto de candidatos y la distribución de perspectivas a la vez, **el número es fijo.** Incluso si una descripción falla, los candidatos permanecen y se presentan con información breve. Creemos que es mejor tener consistentemente el mismo número, incluso si toma un poco más de tiempo."
+          }
+        ]
+      }
+    ]
   }
 } satisfies Record<DocKey, DocPage>;
 
@@ -284,9 +438,9 @@ export const ES_NOTICES = {
     "title": "No hay avisos aún",
     "body": "Cuando algo cambie, aparecerá aquí."
   },
-  "effective": "En vigor a partir del {date}",
+  "effective": "En vigor a partir de {date}",
   "pager": {
-    "label": "Páginas de avisos",
+    "label": "Páginas de aviso",
     "newer": "← Más reciente",
     "older": "Más antiguo →"
   },
@@ -294,16 +448,16 @@ export const ES_NOTICES = {
     "2026-08-02-contact": {
       "title": "Las páginas de contacto y sobre están ahora abiertas",
       "body": [
-        "Las consultas, reembolsos, solicitudes de privacidad e informes de errores ahora tienen un lugar al que ir. La página de contacto en el pie de página enumera nuestro correo electrónico y detalles de la empresa.",
-        "Lo que nuestras respuestas se basan, y lo que deliberadamente no hacemos, está escrito en la página sobre."
+        "Las preguntas, reembolsos, solicitudes de privacidad e informes de errores ahora tienen un lugar al que ir. La página de contacto en el pie de página enumera nuestro correo electrónico y detalles de la empresa.",
+        "Lo que nuestras respuestas se basan y lo que deliberadamente no hacemos está escrito en la página sobre."
       ]
     },
     "2026-08-01-pdf-language": {
       "title": "Los informes PDF se emiten en inglés para árabe y jemer",
       "body": [
-        "Si estás utilizando el servicio en árabe o jemer, el PDF que compras se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos scripts.",
-        "La pantalla permanece en tu idioma, y tu nombre se imprime en tu propio script dentro del documento.",
-        "La misma nota aparece antes del pago. Cuando la herramienta soporte estos scripts, lo diremos aquí."
+        "Si estás utilizando el servicio en árabe o jemer, el PDF que compras se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos guiones.",
+        "La pantalla permanece en tu idioma, y tu nombre se imprime en tu propio guion dentro del documento.",
+        "La misma nota aparece antes del pago. Cuando la herramienta soporte estos guiones, lo diremos aquí."
       ]
     },
     "2026-08-01-payments-preparing": {
