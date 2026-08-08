@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { getDocPage, getNoticeCopy } from "@/lib/doc-content";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
-import { NOTICE_KIND_LABEL, notices } from "@/lib/notices";
+import { notices } from "@/lib/notices";
 import { buildPageMetadata } from "@/lib/seo";
 
 /**
@@ -12,9 +13,12 @@ import { buildPageMetadata } from "@/lib/seo";
  *
  * **무엇을 적는가는 `lib/notices.ts`에 적어 두었다.** 이 파일은 그것을 늘어놓기만 한다.
  *
- * 글은 한국어와 영어 두 벌이다(소개·문의하기와 같은 기준). 공지는 **이용 조건이 달라지는
- * 것**을 알리는 자리라 읽지 못하는 언어로 띄우면 알린 것이 되지 않는다 — 23로케일 번역이
- * 필요해지면 그때 약관과 같은 방식으로 옮긴다.
+ * **글과 메타데이터를 나눠 둔다.** 올린 날·적용일·종류는 `notices.ts`가 갖고, 읽는 글은
+ * 로케일 자료(`doc-content`)가 공지 id로 갖는다. 날짜를 스물세 벌로 복제하면 어긋날 수 있고,
+ * **어긋난 날짜는 이용 조건을 알린 시점을 다투게 만든다.**
+ *
+ * 예전에는 이 화면이 한국어와 영어 두 벌이었다. 공지는 **이용 조건이 달라지는 것**을 알리는
+ * 자리라 읽지 못하는 언어로 띄우면 알린 것이 되지 않는다 — 23개 언어가 이 서비스의 약속이다.
  *
  * **페이징은 미리 넣어 두었다.** 지금은 공지가 적어 한 장에 다 들어가므로 화면에 아무것도
  * 나타나지 않는다. 쌓인 뒤에 붙이려 하면 그때는 이미 긴 목록을 보고 있는 사람이 있다.
@@ -38,31 +42,26 @@ function resolvePage(raw: string | undefined, lastPage: number) {
   return Math.min(Math.max(parsed, 1), lastPage);
 }
 
-const TITLE_KO = "공지사항";
-const TITLE_EN = "Notices";
-const SUMMARY_KO = "이용에 영향이 있는 변경을 알리는 자리입니다.";
-const SUMMARY_EN = "Where we announce changes that affect how you use the service.";
-
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
   const params = await searchParams;
   const requested = isLocale(params?.lang) ? params.lang : null;
   const locale = await getRequestLocale(params?.lang);
-  const korean = locale === "ko";
+  const doc = getDocPage(locale, "notice");
 
   return buildPageMetadata({
     path: "/notice",
     locale,
     requested,
-    title: korean ? TITLE_KO : TITLE_EN,
-    description: korean ? SUMMARY_KO : SUMMARY_EN,
+    title: doc.title,
+    description: doc.summary,
   });
 }
 
 export default async function Page({ searchParams }: PageProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
-  const korean = locale === "ko";
-  const language = korean ? "ko" : "en";
+  const doc = getDocPage(locale, "notice");
+  const copy = getNoticeCopy(locale);
 
   const lastPage = Math.max(1, Math.ceil(notices.length / PAGE_SIZE));
   const page = resolvePage(params?.page, lastPage);
@@ -71,54 +70,49 @@ export default async function Page({ searchParams }: PageProps) {
   return (
     <GuideShell
       locale={locale}
-      eyebrow={korean ? "공지" : "Notices"}
-      title={korean ? TITLE_KO : TITLE_EN}
-      description={korean ? SUMMARY_KO : SUMMARY_EN}
+      eyebrow={doc.eyebrow}
+      title={doc.title}
+      description={doc.summary}
       backHref={localePath("/", locale)}
-      backLabel={korean ? "처음으로" : "Home"}
+      backLabel={doc.backLabel}
     >
-      <GuideNote>
-        {korean
-          ? "가격·약관처럼 이용 조건이 달라지는 변경은 시행 전에 이 자리에 올립니다. 화면이 빨라졌다거나 하는 내부 개선은 적지 않습니다 — 여기에 적히는 것은 알고 계셔야 하는 것뿐입니다."
-          : "Changes to your terms of use — prices, policies — are posted here before they take effect. Internal improvements are not listed: what appears here is what you need to know."}
-      </GuideNote>
+      <GuideNote>{copy.intro}</GuideNote>
 
       {notices.length === 0 ? (
-        <GuideSection title={korean ? "올라온 공지가 없습니다" : "No notices yet"}>
-          <p>
-            {korean
-              ? "알려 드릴 변경이 생기면 이 자리에 올립니다."
-              : "When something changes, it will appear here."}
-          </p>
+        <GuideSection title={copy.empty.title}>
+          <p>{copy.empty.body}</p>
         </GuideSection>
       ) : (
-        shown.map((notice) => (
-          <GuideSection key={notice.id} title={notice.title[language]}>
-            <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
-              <span className="rounded-full border border-line px-2 py-0.5">
-                {NOTICE_KIND_LABEL[notice.kind][language]}
-              </span>
-              <span>{notice.publishedAt}</span>
-              {notice.effectiveFrom ? (
-                <span>
-                  {korean
-                    ? `${notice.effectiveFrom}부터 적용`
-                    : `Takes effect ${notice.effectiveFrom}`}
+        shown.map((notice) => {
+          // 글이 없는 공지는 그리지 않는다. **빈 제목으로 그리면 공지가 있었다는 사실만 남고
+          // 내용은 사라진다** — 새 공지를 올리고 번역을 돌리지 않았을 때 그렇게 된다.
+          const text = copy.items[notice.id];
+          if (!text) return null;
+
+          return (
+            <GuideSection key={notice.id} title={text.title}>
+              <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+                <span className="rounded-full border border-line px-2 py-0.5">
+                  {copy.kindLabels[notice.kind]}
                 </span>
-              ) : null}
-            </p>
-            {notice.body[language].map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </GuideSection>
-        ))
+                <span>{notice.publishedAt}</span>
+                {notice.effectiveFrom ? (
+                  <span>{copy.effective.replace("{date}", notice.effectiveFrom)}</span>
+                ) : null}
+              </p>
+              {text.body.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </GuideSection>
+          );
+        })
       )}
 
       {/* 한 장에 다 들어가면 아무것도 그리지 않는다. 넘길 곳이 없는 이전·다음 단추는 화면만
           어지럽힌다. 이 자리는 공지가 열한 개가 되는 날 저절로 나타난다. */}
       {lastPage > 1 ? (
         <nav
-          aria-label={korean ? "공지 페이지" : "Notice pages"}
+          aria-label={copy.pager.label}
           className="mt-10 flex items-center justify-center gap-4 border-t border-line pt-5 text-sm"
         >
           {page > 1 ? (
@@ -126,7 +120,7 @@ export default async function Page({ searchParams }: PageProps) {
               href={localePath("/notice", locale, page - 1 === 1 ? undefined : `page=${page - 1}`)}
               className="rounded-lg border border-line px-3 py-2 font-medium transition hover:border-foreground"
             >
-              {korean ? "← 최신" : "← Newer"}
+              {copy.pager.newer}
             </Link>
           ) : null}
           <span className="tabular-nums text-muted">
@@ -137,7 +131,7 @@ export default async function Page({ searchParams }: PageProps) {
               href={localePath("/notice", locale, `page=${page + 1}`)}
               className="rounded-lg border border-line px-3 py-2 font-medium transition hover:border-foreground"
             >
-              {korean ? "지난 공지 →" : "Older →"}
+              {copy.pager.older}
             </Link>
           ) : null}
         </nav>

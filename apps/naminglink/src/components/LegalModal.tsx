@@ -1,7 +1,7 @@
 "use client";
 
 import { X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { ManagedLegalDocumentContent } from "@/components/LegalDocumentContent";
 import type {
@@ -37,6 +37,13 @@ export function LegalModal({
   title?: string;
   locale?: Locale;
 }) {
+  // 뒤로가기 효과가 한 번만 돌게 하려고 최신 `onClose`를 여기에 담아 둔다(아래 주석 참고).
+  // **렌더 중에 넣지 않고 효과에서 넣는다** — 렌더 중 ref 쓰기는 React 규칙 위반이다.
+  const closeRef = useRef(onClose);
+  useEffect(() => {
+    closeRef.current = onClose;
+  }, [onClose]);
+
   const cacheKey = `${kind}:${locale}`;
   // 캐시가 있으면 스켈레톤 없이 곧바로 렌더한다.
   const [state, setState] = useState<LoadState>(() => {
@@ -89,6 +96,43 @@ export function LegalModal({
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [onClose]);
+
+  /**
+   * **뒤로가기가 모달을 닫게 한다.**
+   *
+   * 예전에는 Escape만 봤다. 그런데 이 서비스는 **모바일이 다수**이고, 안드로이드에는 Escape가
+   * 없다 — 덮인 화면을 치우려고 누르는 것은 뒤로가기다. 그때 모달이 닫히는 대신 **페이지를
+   * 떠났다.** 결과 화면에서 약관을 열어 본 사람이 뒤로가기 한 번에 결과에서 튕겨 나갔다.
+   *
+   * 열 때 히스토리 항목을 하나 쌓고, 뒤로가기가 오면 그것을 닫는 신호로 읽는다. Escape나 X로
+   * 닫혔을 때는 **우리가 쌓은 항목을 도로 걷어낸다** — 안 그러면 모달을 열었다 닫은 횟수만큼
+   * 뒤로가기를 눌러야 이전 화면으로 나간다.
+   *
+   * `history.state`를 통째로 갈아 끼우지 않고 **펼쳐서 표시만 더한다.** App Router가 자기
+   * 상태를 그 자리에 두기 때문에, 덮어쓰면 라우터가 뒤로가기를 처리하지 못한다.
+   */
+  useEffect(() => {
+    const previous = window.history.state as Record<string, unknown> | null;
+    window.history.pushState({ ...previous, __legalModal: true }, "");
+
+    let closedByBack = false;
+    const onPopState = () => {
+      closedByBack = true;
+      closeRef.current();
+    };
+    window.addEventListener("popstate", onPopState);
+
+    return () => {
+      window.removeEventListener("popstate", onPopState);
+      // 뒤로가기로 닫힌 것이 아니고 **아직 우리 항목 위에 있을 때만** 되돌린다. 그 사이 다른
+      // 화면으로 이동했다면 표시가 남아 있지 않으므로, 남의 이동을 되감지 않는다.
+      const current = window.history.state as Record<string, unknown> | null;
+      if (!closedByBack && current?.__legalModal === true) window.history.back();
+    };
+    // **의존성을 비워 둔 것은 의도다.** 부르는 세 곳이 전부 `onClose={() => …}`를 인라인으로
+    // 넘겨 매 렌더 새 함수가 된다. `onClose`를 의존성에 넣으면 부모가 그려질 때마다 이 효과가
+    // 다시 돌아 **히스토리 항목이 렌더 수만큼 쌓인다.** 최신 함수는 ref로 읽는다.
+  }, []);
 
   return createPortal(
     <div
