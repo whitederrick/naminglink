@@ -428,6 +428,136 @@ export const EN_DOCS = {
         ]
       }
     ]
+  },
+  "guide/how-hanja-meaning": {
+    "eyebrow": "Service Basis",
+    "title": "What is the basis for matching hanja meanings?",
+    "summary": "First, the sounds are fixed, and only hanja that can be registered with that sound are gathered, and the meaning is viewed as a combination rather than a single character.",
+    "backLabel": "Usage Guide",
+    "sections": [
+      {
+        "title": "First, fix the sounds",
+        "blocks": [
+          {
+            "p": "If you have decided on \"지은\", then **지** and **은** do not change. We do not alter the sound of the name to match the hanja. A name is something that is called for a lifetime, and we believe that the order is that the sound is fixed first, followed by the hanja."
+          },
+          {
+            "figure": "hanja-match-flow",
+            "caption": "This is the order in which candidates are narrowed down. It is not about choosing hanja first and matching the sounds, but rather that the sounds come first, and only characters designated to be read with that sound become candidates."
+          }
+        ]
+      },
+      {
+        "title": "Gather only hanja that can be registered with that sound",
+        "blocks": [
+          {
+            "p": "The official name-hanja table has a designated reading for each character when used in names. Only characters designated to be read as **지** and **은** become candidates. No matter how good the meaning is, if the reading does not match, it cannot be the hanja for that name."
+          },
+          {
+            "p": "The range for selecting candidates is the {characterTotal} characters from the Supreme Court table. Characters not in this table are not presented at all — even if shown, they cannot be registered."
+          },
+          {
+            "p": "The number of characters in the table published by the Supreme Court is slightly more than this. The table also includes **characters without standard character codes**, which cannot be properly displayed on screens and documents, so those characters have been excluded from the candidates. You must check with the relevant authority whether you can register with those characters."
+          }
+        ]
+      },
+      {
+        "title": "Meaning is viewed as a combination, not a single character",
+        "blocks": [
+          {
+            "p": "The meaning of each individual character being good and the meaning read when two characters are combined being good are different. Names are read as combinations, so we look at the combinations together. If you have specific meanings you wish to include or avoid, those are taken into account."
+          },
+          {
+            "p": "If you are using a generation character, that character is fixed, and combinations are sought from the remaining positions. The family name (성) is not restricted by the official name-hanja table, so it is treated separately."
+          }
+        ]
+      },
+      {
+        "title": "We indicate avoidance customs without removing them",
+        "blocks": [
+          {
+            "p": "If a character traditionally considered to be avoided is included in the candidates, we do not remove it but show the reason along with it. This is a matter of custom, not law, and you can choose to exclude it entirely from the input screen. For more details, see [Traditionally Avoided Hanja](/guide/avoid)."
+          }
+        ]
+      },
+      {
+        "title": "We also inform you of the reasons for exclusion",
+        "blocks": [
+          {
+            "p": "We show why certain characters were excluded from the candidates. If we only show what was chosen, you cannot know \"why this one?\" If there are no usable characters left for that syllable, we will lift the exclusion for that syllable and show the candidates."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "How to read the results",
+        "blocks": [
+          {
+            "p": "Candidates are **perspectives, not rankings**. The first one does not mean it is the best name; they are selected from different perspectives. Those that prioritize the combination of meanings, those that choose uncommon characters, and those that emphasize neutrality are presented side by side. The answer varies depending on which perspective you value."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/what-we-dont-use": {
+    "eyebrow": "Our Standards",
+    "title": "What We Do Not Use",
+    "summary": "We do not assign total fortune or numerical scores, nor do we use stroke counts. The five elements are used only as a supplementary axis. Here are the reasons.",
+    "backLabel": "Usage Guide",
+    "sections": [
+      {
+        "title": "Reasons for not assigning total fortune or numerical scores",
+        "blocks": [
+          {
+            "p": "There are methods that assign total fortune or numerical scores to names to grade them. Naming-Link does not provide those numbers. The reasons are fourfold."
+          },
+          {
+            "p": "**First, there is not just one standard.** The methods for calculating fortune vary by school, and the same name can be rated positively by one standard and negatively by another. We have no basis to decide which one is correct. It is dishonest to present one as if it were the answer."
+          },
+          {
+            "p": "**Second, those calculations rely on stroke counts.** However, the Supreme Court data does not include stroke counts at all. Moreover, stroke counts can vary depending on whether they are counted as regular or simplified characters and how radicals are counted. Since the foundational numbers are not definitively established, the scores built on top of them cannot be definitive."
+          },
+          {
+            "p": "**Third, numbers appear more solid than reality.** When it says \"87 points\", it reads like a measured value rather than a conventional interpretation. Those naming may feel pressured by that number, pushing aside what is truly important (Is it pleasant to call? Does the meaning fit? Does it contain the desired wishes?)."
+          },
+          {
+            "p": "**Fourth, there is no way to verify.** The relationship between a name and a person's life cannot be verified. Converting something that cannot be said to be right or wrong into a score results in a number that cannot be confirmed, even though it cannot be wrong."
+          },
+          {
+            "p": "We only use what can be **substantiated.** The Supreme Court official name-hanja table, the designated readings for each character, and the meanings listed in the table. Instead, we provide reasons for why this candidate was selected and why certain characters were excluded, showing **reasons instead of scores**."
+          }
+        ]
+      },
+      {
+        "title": "We do not use stroke counts",
+        "blocks": [
+          {
+            "p": "The official name-hanja data provided by the Supreme Court does not include stroke counts. Among the {characterTotal} characters we received, **not a single character has stroke counts.**"
+          },
+          {
+            "p": "To use stroke counts, we would need to obtain numbers from somewhere else, but if we cannot clarify where those numbers came from and what criteria were used to count them, it would mean judging names based on unfounded numbers. We have decided not to evaluate names based on values that cannot be substantiated."
+          }
+        ]
+      },
+      {
+        "title": "We use the five elements only as a reference",
+        "blocks": [
+          {
+            "figure": "five-elements",
+            "caption": "The relationships among the five elements. Moving along the circle represents mutual generation (相生), while skipping one and pressing down represents mutual restraint (相剋). We use this relationship only as a supplementary axis for comparing candidates."
+          },
+          {
+            "p": "If you have entered your birth month, we use a simplified reference of the five elements based on that month as a supplementary axis for comparing candidates. However, this is not a precise saju analysis, and **we do not claim that names determine a person's fate or character.**"
+          },
+          {
+            "p": "In the final selection, what we prioritize are sounds, combinations of meanings, the values the family wishes to convey, and whether it can actually be registered. If you have not entered your birth month, we completely exclude the five elements reference from the analysis — we do not make arbitrary assumptions about unknown information."
+          },
+          {
+            "p": "If you want a precise saju-based analysis, we cover that in a separate detailed report. The reason we do not prioritize the five elements in the free hanja matching is that we do not want to present judgments based on the five elements derived from an incomplete birth date and time as if they were definitive."
+          }
+        ]
+      }
+    ]
   }
 } satisfies Record<DocKey, DocPage>;
 

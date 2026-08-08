@@ -1,5 +1,11 @@
 import type { ReactNode } from "react";
 
+import {
+  FiveElementsCycle,
+  FiveElementsLegend,
+  GuideFigure,
+  HanjaMatchFlow,
+} from "@/components/GuideFigure";
 import { GuideNote, GuideSection, GuideStats } from "@/components/GuideShell";
 import type { DocBlock, DocSection } from "@/lib/doc-content/types";
 import { localePath } from "@/lib/locale-path";
@@ -71,6 +77,21 @@ function Block({
   locale: Locale;
   values: Record<string, string>;
 }) {
+  if ("figure" in block) {
+    // 아는 이름만 그린다. 모르는 이름은 아무것도 그리지 않아 자리가 비고, 그래서 눈에 띈다.
+    const drawing =
+      block.figure === "hanja-match-flow" ? (
+        <HanjaMatchFlow total={values.characterTotal} />
+      ) : block.figure === "five-elements" ? (
+        <>
+          <FiveElementsCycle />
+          <FiveElementsLegend />
+        </>
+      ) : null;
+    if (!drawing) return null;
+    return <GuideFigure caption={fill(block.caption, values)}>{drawing}</GuideFigure>;
+  }
+
   if ("stats" in block) {
     const items = block.stats.map((item) => ({
       value: fill(item.value, values),

@@ -51,7 +51,17 @@
 export type DocBlock =
   | { p: string }
   | { ul: string[] }
-  | { stats: Array<{ value: string; label: string }> };
+  | { stats: Array<{ value: string; label: string }> }
+  /**
+   * 그림. **자료에는 이름만 두고 그리는 것은 `DocBody`가 한다.**
+   *
+   * SVG 를 문자열로 자료에 넣으면 번역기가 그 안의 좌표와 태그를 건드린다. 이름만 두면 옮길
+   * 것은 설명(`caption`) 하나뿐이고, 아는 이름이 아니면 아무것도 그려지지 않아 눈에 띈다.
+   */
+  | { figure: DocFigure; caption: string };
+
+/** 그릴 수 있는 그림. 늘릴 때는 `DocBody`의 표에 함께 더한다. */
+export type DocFigure = "hanja-match-flow" | "five-elements";
 
 /**
  * 문서의 한 절.

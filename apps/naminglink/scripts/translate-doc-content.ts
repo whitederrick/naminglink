@@ -44,13 +44,13 @@ type Leaf = { path: string; en: string; ko: string | null };
  * 어긋나면 그 자리에서 멈춘다(조용히 넘어가면 뜻의 기준을 잃은 채 번역된다).
  */
 /**
- * 번역하면 안 되는 자리. **`kind`는 글이 아니라 자료형 판별자다**(`"section" | "note"`).
+ * 번역하면 안 되는 자리. **`kind`·`figure`는 글이 아니라 자료형 판별자다**(`"section" | "note"`, 그림 이름).
  *
  * 처음에 걸러 두지 않았더니 모델이 성실하게 옮겼다 — 독일어 `"Hinweis"`, 아랍어 `"ملاحظة"`.
  * 타입이 잡아 주긴 했지만(그래서 `DocSection.kind`를 유니온으로 좁혀 둔 값이 있다), 잎을
  * 모을 때 빼는 편이 맞다. 번역할 필요가 없는 것에 돈과 시간을 쓸 이유도 없다.
  */
-const STRUCTURAL_KEYS = new Set(["kind"]);
+const STRUCTURAL_KEYS = new Set(["kind", "figure"]);
 
 function collect(en: unknown, ko: unknown, trail: string[], out: Leaf[]) {
   if (STRUCTURAL_KEYS.has(trail[trail.length - 1] ?? "")) return;
@@ -149,7 +149,15 @@ function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null
   if (placeholders(value) !== placeholders(leaf.en)) {
     return `자리표시자 [${placeholders(value) || "없음"}] ≠ en [${placeholders(leaf.en) || "없음"}]`;
   }
-  if (bolds(value) !== bolds(leaf.en)) return `강조 ${bolds(value)}개 ≠ en ${bolds(leaf.en)}개`;
+  /**
+   * 강조 표기는 **짝이 맞는지**만 본다.
+   *
+   * 처음에는 개수가 en과 같아야 한다고 두었는데, 그 때문에 러시아어·아랍어 문단이 통째로
+   * 영어로 되돌아갔다. 이 검사가 막으려던 것은 **별표가 화면에 그대로 보이는 것**이고, 그것은
+   * 짝이 안 맞을 때 일어난다. 강조한 구절이 원문과 다른 것은 언어마다 힘주는 자리가 다른
+   * 문제이지 결함이 아니다 — **언어가 틀린 것보다 낫다.**
+   */
+  if (bolds(value) % 2 !== 0) return `강조 표기의 짝이 안 맞는다 (${bolds(value)}개)`;
   if (links(value) !== links(leaf.en)) return `링크 [${links(value)}] ≠ en [${links(leaf.en)}]`;
   if (!sourceIsKo) {
     const allowed = hangulTokens(leaf.en);
@@ -165,7 +173,28 @@ function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null
   return null;
 }
 
+/**
+ * 한 요청에 담는 잎의 수.
+ *
+ * **한 번에 다 보내면 응답이 잘린다.** 문서가 늘어 잎이 202개가 되자 모델 응답이 출력 한도에서
+ * 끊겨 `Unterminated string in JSON` 으로 죽었다. 문서는 앞으로도 늘어나므로 개수를 고정하지
+ * 않고 나눠 보낸다 — 잘린 응답은 「번역이 조금 부족한 것」이 아니라 **그 로케일 전체가 실패**다.
+ */
+const CHUNK = 50;
+
+/** 잎을 나눠 보내고 결과를 합친다. 나누는 자리는 뜻과 무관하므로 순서대로 자른다. */
 async function translate(leaves: Leaf[], locale: string, key: string) {
+  if (leaves.length <= CHUNK) return translateChunk(leaves, locale, key);
+
+  const merged: Record<string, string> = {};
+  for (let index = 0; index < leaves.length; index += CHUNK) {
+    const part = leaves.slice(index, index + CHUNK);
+    Object.assign(merged, await translateChunk(part, locale, key));
+  }
+  return merged;
+}
+
+async function translateChunk(leaves: Leaf[], locale: string, key: string) {
   const language = localeLabels[locale as keyof typeof localeLabels] ?? locale;
   /**
    * **한국어 원문을 함께 보내지 않는다.**

@@ -6,7 +6,7 @@ export const MS_DOCS = {
   "about": {
     "eyebrow": "Tentang",
     "title": "Tentang Naming-Link",
-    "summary": "Kami membantu anda memilih dan memahami nama Korea. Berikut adalah apa yang menjadi asas hasil kami, dan apa yang kami tidak lakukan secara sengaja.",
+    "summary": "Kami membantu anda memilih dan memahami nama Korea. Berikut adalah dasar hasil kami, dan apa yang kami sengaja tidak lakukan.",
     "backLabel": "Laman Utama",
     "sections": [
       {
@@ -16,7 +16,7 @@ export const MS_DOCS = {
             "p": "Naming-Link membantu anda **memilih dan memahami nama Korea** — hanja di sebalik nama seorang kanak-kanak, nama Korea untuk digunakan di luar negara, ejaan Hangul nama anda sendiri, dan cenderahati seperti cap atau laporan bercetak."
           },
           {
-            "p": "Melihat hasil anda adalah **percuma dan tidak memerlukan akaun.** Item berbayar tidak pernah menjual semula apa yang sudah ditunjukkan di skrin: mereka membuka lebih banyak calon, menambah analisis bertulis, atau menjadikan hasil itu sesuatu yang boleh anda simpan."
+            "p": "Melihat hasil anda adalah **percuma dan tidak memerlukan akaun.** Item berbayar tidak pernah menjual semula apa yang sudah ditunjukkan di skrin: mereka membuka lebih banyak calon, menambah analisis bertulis, atau mengubah hasil menjadi sesuatu yang boleh anda simpan."
           }
         ]
       },
@@ -24,13 +24,13 @@ export const MS_DOCS = {
         "title": "Apa yang menjadi asas jawapan kami",
         "blocks": [
           {
-            "p": "Hanja datang dari **jadual nama-hanja rasmi Mahkamah Agung Korea.** Setiap karakter mempunyai bacaan tetap untuk digunakan dalam nama, dan karakter di luar jadual tidak boleh didaftarkan. Kami tidak menambah senarai itu atau memilih yang disukai."
+            "p": "Hanja datang dari **jadual nama-hanja rasmi Mahkamah Agung Korea.** Setiap karakter mempunyai bacaan tetap untuk digunakan dalam nama, dan karakter di luar jadual tidak boleh didaftarkan. Kami tidak menambah senarai itu atau memilih kegemaran."
           },
           {
             "p": "Saju dan angka lima elemen dikira dari **kalendar lunisolar Korea**, dengan waktu kelahiran diperbetulkan kepada waktu solar sebenar untuk tempat kelahiran. Bacaan adalah rujukan tradisional, bukan ramalan."
           },
           {
-            "p": "Penerangan bertulis dihasilkan oleh AI. Untuk mengelakkan ia **mencipta perkara**, model hanya diberikan input anda dan data rujukan kami sendiri, dan diarahkan untuk tetap berada dalamnya. Panduan menerangkan ini secara terperinci."
+            "p": "Penjelasan bertulis dihasilkan oleh AI. Untuk mengelakkan ia **mencipta perkara**, model hanya diberikan input anda dan data rujukan kami sendiri, dan diberitahu untuk kekal di dalamnya. Panduan menerangkan ini dengan terperinci."
           }
         ]
       },
@@ -39,7 +39,7 @@ export const MS_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Kami tidak meramal nasib.** Tiada apa di sini yang menjanjikan nasib baik, kekayaan atau perlindungan.",
+              "**Kami tidak meramal nasib.** Tiada apa di sini yang menjanjikan tuah, kekayaan atau perlindungan.",
               "**Kami tidak menyimpan nama anda.** Hasil percuma tidak pernah ditulis ke pelayan kami, dan dokumen berbayar dihantar tanpa menyimpan salinan fail.",
               "**Membayar tidak membeli jawapan yang lebih baik.** Membuka dengan iklan dan membuka dengan pembayaran memberikan kandungan yang sama."
             ]
@@ -74,10 +74,10 @@ export const MS_DOCS = {
         "title": "Bacaan tetap untuk setiap karakter",
         "blocks": [
           {
-            "p": "Jadual nama-hanja tidak hanya menentukan karakter mana yang boleh digunakan. **Ia juga menetapkan bagaimana setiap karakter dibaca apabila muncul dalam nama.** Bacaan tetap itulah yang digunakan untuk pendaftaran."
+            "p": "Jadual nama-hanja tidak hanya menentukan karakter mana yang boleh digunakan. **Ia juga menetapkan bagaimana setiap karakter dibaca apabila muncul dalam nama.** Bacaan tetap itu adalah apa yang digunakan untuk pendaftaran."
           },
           {
-            "p": "Kebanyakan hanja mempunyai beberapa bacaan yang mungkin. Namun, nama ditulis dalam dokumen dan diucapkan, jadi ia memerlukan tepat satu. Oleh itu, jadual menetapkan bacaan untuk setiap karakter untuk digunakan dalam nama, dan tiada bacaan lain boleh didaftarkan."
+            "p": "Kebanyakan hanja mempunyai beberapa bacaan yang mungkin. Namun, nama ditulis dalam dokumen dan diucapkan dengan kuat, jadi ia memerlukan satu bacaan yang tepat. Oleh itu, jadual menetapkan bacaan untuk setiap karakter untuk digunakan dalam nama, dan tiada bacaan lain boleh didaftarkan."
           }
         ]
       },
@@ -85,10 +85,10 @@ export const MS_DOCS = {
         "title": "Jadi bunyi datang dahulu",
         "blocks": [
           {
-            "p": "Inilah sebabnya Naming-Link menetapkan bunyi sebelum mencari hanja. Jika nama itu \"지은\", makna hanya boleh dipilih di antara karakter yang ditugaskan bacaan **지** dan karakter yang ditugaskan bacaan **은**."
+            "p": "Inilah sebabnya Naming-Link menetapkan bunyi sebelum mencari hanja. Jika nama adalah \"지은\", makna hanya boleh dipilih di antara karakter yang ditugaskan bacaan **지** dan karakter yang ditugaskan bacaan **은**."
           },
           {
-            "p": "Walau sebaik mana makna itu, karakter yang bacaan tidak sepadan tidak boleh digunakan untuk nama itu. Kami juga tidak pernah mengubah bunyi nama untuk disesuaikan dengan karakter — nama diucapkan seumur hidup, dan bunyi ditetapkan dahulu, dengan hanja mengikuti."
+            "p": "Walau sesempurna mana makna itu, karakter yang bacaan tidak sepadan tidak boleh digunakan untuk nama itu. Kami juga tidak pernah mengubah bunyi nama untuk disesuaikan dengan karakter — nama diucapkan sepanjang hayat, dan bunyi ditetapkan dahulu, dengan hanja mengikuti."
           }
         ]
       },
@@ -96,10 +96,10 @@ export const MS_DOCS = {
         "title": "Nama keluarga berada di luar jadual ini",
         "blocks": [
           {
-            "p": "Ini sering disalah fahami. **Jadual mengawal nama yang diberikan, bukan nama keluarga.** Nama keluarga mengikuti apa yang sudah ada dalam pendaftaran keluarga, jadi sesetengah orang menggunakan karakter yang tidak ada dalam jadual nama-hanja."
+            "p": "Ini sering disalah faham. **Jadual mengawal nama yang diberikan, bukan nama keluarga.** Nama keluarga mengikuti apa yang sudah ada dalam pendaftaran keluarga, jadi sesetengah orang menggunakan karakter yang tidak terdapat dalam jadual nama-hanja."
           },
           {
-            "p": "Itulah sebabnya Naming-Link memperlakukan hanja nama keluarga secara berbeza. Kami hanya membantu anda mencari nama keluarga, dan kami meninggalkan ruang untuk memasukkan satu secara langsung, bagi orang yang karakternya berada di luar jadual. Nama keluarga dua suku kata seperti Namgung dan Seonwoo dimasukkan dengan cara yang sama."
+            "p": "Itulah sebabnya Naming-Link memperlakukan hanja nama keluarga dengan cara yang berbeza. Kami hanya membantu anda mencari nama keluarga, dan kami meninggalkan ruang untuk memasukkan satu secara langsung, bagi orang yang karakternya berada di luar jadual. Nama keluarga dua suku kata seperti Namgung dan Seonwoo dimasukkan dengan cara yang sama."
           }
         ]
       }
@@ -126,10 +126,10 @@ export const MS_DOCS = {
         "title": "Bunyi yang tidak ada dalam bahasa Korea",
         "blocks": [
           {
-            "p": "Setiap bahasa mempunyai bunyi yang tidak ada dalam bahasa Korea — f, v, z, th, dan perbezaan vokal yang tidak dibuat oleh bahasa Korea. Untuk itu, kami menulis apa yang **seorang penutur Korea sebenarnya katakan** apabila mereka membaca nama anda dengan kuat, bukannya mentranskripsikan fonetik asal simbol demi simbol. Tujuannya adalah ejaan yang akan digunakan, bukan yang paling setia secara teknikal."
+            "p": "Setiap bahasa mempunyai bunyi yang tidak dimiliki oleh bahasa Korea — f, v, z, th, dan perbezaan vokal yang tidak dibuat oleh bahasa Korea. Untuk bunyi tersebut, kami menulis apa yang **seorang penutur Korea sebenarnya katakan** apabila mereka membaca nama anda dengan kuat, bukannya mentranskripsikan fonetik asal satu demi satu. Matlamatnya adalah ejaan yang akan digunakan, bukan yang paling setia secara teknikal."
           },
           {
-            "p": "Ejaan yang sama boleh berbeza bergantung kepada dari mana nama itu berasal, jadi kami meminta bahasa dan negara anda dan bekerja dari sebutan itu."
+            "p": "Ejaan yang sama boleh berbeza bergantung kepada asal nama, jadi kami meminta bahasa dan negara anda dan bekerja dari sebutan itu."
           }
         ]
       },
@@ -137,10 +137,10 @@ export const MS_DOCS = {
         "title": "Beberapa ejaan, berdampingan",
         "blocks": [
           {
-            "p": "Tiada jawapan yang betul tunggal. Ejaan yang paling dekat dengan bunyi asal, yang paling biasa digunakan di Korea, dan yang paling mudah ditulis sering kali adalah tiga perkara yang berbeza. Jadi kami menunjukkan mereka bersama dan menyatakan apa yang memisahkan mereka."
+            "p": "Tiada jawapan yang betul tunggal. Ejaan yang paling hampir dengan bunyi asal, yang paling biasa digunakan di Korea, dan yang paling mudah ditulis sering kali adalah tiga perkara yang berbeza. Jadi kami menunjukkan semuanya bersama dan menyatakan apa yang memisahkan mereka."
           },
           {
-            "p": "Jika tiada satu pun daripada mereka terasa betul, anda boleh menambah petunjuk tentang bunyi yang anda inginkan dan menjalankannya semula — sebagai contoh, bahawa suku kata tertentu harus ditulis dengan cara yang berbeza."
+            "p": "Jika tiada satu pun yang terasa betul, anda boleh menambah petunjuk tentang bunyi yang anda inginkan dan menjalankannya semula — sebagai contoh, bahawa suku kata tertentu harus ditulis dengan cara yang berbeza."
           }
         ]
       },
@@ -149,7 +149,7 @@ export const MS_DOCS = {
         "title": "Tiada hanja di sini",
         "blocks": [
           {
-            "p": "Kami tidak melampirkan hanja kepada transliterasi. Hanja membawa makna, dan aliran ini adalah tentang bunyi. Memadankan karakter dengan bunyi sahaja boleh membuat anda mendapat makna yang tidak pernah anda minta."
+            "p": "Kami tidak melampirkan hanja kepada transliterasi. Hanja membawa makna, dan aliran ini adalah tentang bunyi. Memadankan karakter hanya kepada bunyi boleh membawa anda kepada makna yang tidak pernah anda minta."
           }
         ]
       }
@@ -162,27 +162,27 @@ export const MS_DOCS = {
     "backLabel": "Panduan",
     "sections": [
       {
-        "title": "Kami bermula dengan nama keluarga",
+        "title": "Kami bermula dengan **nama keluarga**",
         "blocks": [
           {
-            "p": "Di Korea, nama keluarga datang dahulu, dan tidak seperti nama yang diberikan, ia tidak dicipta secara bebas — anda mewarisinya. Jadi kami hanya mencadangkan nama keluarga yang sebenarnya dimiliki oleh orang Korea. Kumpulan lalai kami adalah **20 nama keluarga yang paling biasa**, yang bersama-sama meliputi kira-kira 80% daripada populasi."
+            "p": "Di Korea, **nama keluarga** datang terlebih dahulu, dan tidak seperti **nama pemberian**, ia tidak dicipta secara bebas — anda mewarisinya. Jadi kami hanya mencadangkan **nama keluarga** yang sebenarnya dimiliki oleh orang Korea. Kumpulan default kami adalah **20 nama keluarga yang paling umum**, yang bersama-sama merangkumi kira-kira 80% populasi."
           },
           {
-            "p": "Jika nama keluarga anda kebetulan sepadan dengan nama Korea yang sebenar dari segi bunyi — Wang dengan 왕, Ye dengan 예 — kami meletakkan yang itu dahulu. Menjaga hubungan kembali kepada nama asal anda lebih berharga daripada nama keluarga yang dipilih secara rawak."
+            "p": "Jika **nama keluarga** anda kebetulan sepadan dengan nama Korea yang sebenar dari segi bunyi — Wang dengan 왕, Ye dengan 예 — kami letakkan yang itu terlebih dahulu. Menjaga hubungan dengan nama asal anda lebih berharga daripada **nama keluarga** yang dipilih secara rawak."
           },
           {
-            "p": "Anda boleh memilih nama keluarga sendiri atau membiarkan kami mencadangkan satu. Dalam apa jua keadaan, ia akan menjadi **nama keluarga yang wujud**."
+            "p": "Anda boleh memilih **nama keluarga** sendiri atau membiarkan kami mencadangkan satu. Dalam apa jua keadaan, ia akan menjadi **nama keluarga yang wujud**."
           }
         ]
       },
       {
-        "title": "Mudah diucapkan, mudah ditulis",
+        "title": "Mudah untuk disebut, mudah untuk ditulis",
         "blocks": [
           {
-            "p": "Ini adalah nama yang akan dipanggil oleh orang di Korea, jadi perkara pertama yang kami periksa adalah sama ada seorang Korea boleh mendengarnya sekali dan menulisnya. Nama yang perlu dieja setiap kali adalah beban yang anda tanggung, bukan kami."
+            "p": "Ini adalah nama yang orang di Korea akan sebenarnya memanggil anda, jadi perkara pertama yang kami periksa adalah sama ada orang Korea dapat mendengarnya sekali dan menuliskannya. Nama yang perlu dieja setiap kali adalah beban yang anda tanggung, bukan kami."
           },
           {
-            "p": "Makna juga penting. Nama yang diberikan dalam bahasa Korea biasanya mempunyai makna, jadi kami memberitahu anda apa nama itu dibaca dan mengapa kami memilihnya — bukan hanya nama itu sendiri."
+            "p": "Maksud juga penting. **Nama pemberian** Korea biasanya mempunyai satu, jadi kami memberitahu anda bagaimana nama itu dibaca dan mengapa kami memilihnya — bukan hanya nama itu sendiri."
           }
         ]
       },
@@ -190,7 +190,7 @@ export const MS_DOCS = {
         "title": "Kami bertanya untuk apa nama itu",
         "blocks": [
           {
-            "p": "Nama untuk kertas kerja universiti tidak sama dengan nama yang akan dipanggil oleh rakan-rakan di seberang bilik, atau nama yang akan anda gunakan dalam talian. Kami bertanya bagaimana anda merancang untuk menggunakannya dan mengambil kira itu."
+            "p": "Nama untuk dokumen universiti tidak sama dengan nama yang akan ditjeritkan oleh rakan-rakan di seberang bilik, atau nama pengguna yang akan anda gunakan dalam talian. Kami bertanya bagaimana anda merancang untuk menggunakannya dan mengambil kira itu."
           }
         ]
       },
@@ -199,7 +199,7 @@ export const MS_DOCS = {
         "title": "Ini bukan transliterasi",
         "blocks": [
           {
-            "p": "Di sini kami mencadangkan **nama Korea baru**. Jika anda mahu nama sedia ada anda ditulis dalam Hangul — Michael sebagai 마이클 — lihat [panduan ejaan Hangul](/guide/how-hangul-transliteration)."
+            "p": "Di sini kami mencadangkan **nama Korea baru**. Jika anda mahu nama anda yang sedia ada ditulis dalam **Hangul** — Michael sebagai 마이클 — lihat [panduan ejaan Hangul](/guide/how-hangul-transliteration)."
           }
         ]
       }
@@ -209,20 +209,20 @@ export const MS_DOCS = {
     "eyebrow": "Notis",
     "title": "Notis",
     "summary": "Di mana kami mengumumkan perubahan yang mempengaruhi cara anda menggunakan perkhidmatan.",
-    "backLabel": "Laman Utama",
+    "backLabel": "Halaman Utama",
     "sections": []
   },
   "contact": {
     "eyebrow": "Hubungi",
     "title": "Hubungi kami",
-    "summary": "Cara untuk menghubungi kami untuk pertanyaan, pemulangan, permintaan privasi dan laporan kesilapan, dengan butiran syarikat kami.",
-    "backLabel": "Laman Utama",
+    "summary": "Cara untuk menghubungi kami untuk pertanyaan, pengembalian wang, permintaan privasi dan laporan kesilapan, dengan butiran syarikat kami.",
+    "backLabel": "Halaman Utama",
     "sections": [
       {
         "title": "Emel kami",
         "blocks": [
           {
-            "p": "Tulis kepada **{email}**. Kami membalas dalam masa dua hari bekerja. Untuk apa-apa yang berkaitan dengan pesanan — pembayaran, pemulangan, fail yang anda tidak terima — sila sertakan **nombor pesanan atau emel yang anda bayar**."
+            "p": "Tulis kepada **{email}**. Kami akan membalas dalam dua hari bekerja. Untuk apa-apa yang berkaitan dengan pesanan — pembayaran, pengembalian wang, fail yang anda tidak terima — sila sertakan **nombor pesanan atau emel yang anda gunakan untuk membayar**."
           },
           {
             "p": "Pertanyaan telefon: {customerCenter} (waktu perniagaan Korea)."
@@ -234,9 +234,9 @@ export const MS_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pembayaran dan pemulangan** — jika dokumen tidak pernah dihasilkan, atau jumlah yang dikenakan berbeza daripada pesanan anda, kami akan memulangkan sepenuhnya. Lihat [dasar pemulangan](/refund-policy).",
+              "**Pembayaran dan pengembalian wang** — jika dokumen tidak pernah dihasilkan, atau jumlah yang dikenakan berbeza dari pesanan anda, kami akan mengembalikan sepenuhnya. Lihat [dasar pengembalian wang](/refund-policy).",
               "**Privasi** — permintaan untuk mengakses, membetulkan atau memadam data anda. Lihat [dasar privasi](/privacy).",
-              "**Pembetulan** — jika makna, bacaan atau pengiraan hanja kelihatan salah, beritahu kami. Menyebut skrin mana dan apa yang anda masukkan sangat membantu.",
+              "**Pembetulan** — jika makna, bacaan atau pengiraan **hanja** kelihatan salah, beritahu kami. Menyebut skrin mana dan apa yang anda masukkan sangat membantu.",
               "**Apa-apa yang lain** — kerjasama dan media pergi ke alamat yang sama."
             ]
           }
@@ -249,8 +249,8 @@ export const MS_DOCS = {
             "ul": [
               "**Entiti undang-undang** — {companyName}",
               "**Wakil** — {representative}",
-              "**No. pendaftaran perniagaan** — {businessNumber}",
-              "**No. jualan pesanan melalui pos** — {mailOrderNumber}",
+              "**Nombor pendaftaran perniagaan** — {businessNumber}",
+              "**Nombor jualan melalui pos** — {mailOrderNumber}",
               "**Alamat** — {address}",
               "**Perkhidmatan pelanggan** — {customerCenter}",
               "**Emel** — {email}",
@@ -264,7 +264,7 @@ export const MS_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": ""
+            "p": "Anda tidak perlu menyertakan nama atau tarikh lahir dalam mesej anda. Hasil percuma tidak pernah disimpan di pelayan kami, jadi kami tidak dapat mencarinya semula — nombor pesanan sudah mencukupi."
           }
         ]
       }
@@ -272,52 +272,52 @@ export const MS_DOCS = {
   },
   "guide/avoid": {
     "eyebrow": "Adat",
-    "title": "Karakter yang Tradisional Dielakkan",
-    "summary": "Ia tidak dilarang oleh undang-undang tetapi adalah adat. Kami telah menulis tentang apa yang telah dielakkan dan mengapa, dan bagaimana kami menanganinya.",
+    "title": "Watak yang Tradisionalnya Dielakkan",
+    "summary": "Ia tidak dilarang oleh undang-undang tetapi adalah adat. Kami telah menulis tentang apa yang telah dielakkan dan mengapa, serta bagaimana kami mengendalikannya.",
     "backLabel": "Panduan Penggunaan",
     "sections": [
       {
-        "title": "Karakter yang Diterima Secara Undang-Undang",
+        "title": "Watak yang Diterima Secara Undang-Undang",
         "blocks": [
           {
             "stats": [
               {
-                "value": "{avoidTotal} karakter",
-                "label": "Karakter Dielakkan yang Dikumpulkan"
+                "value": "{avoidTotal} watak",
+                "label": "Watak yang Dihimpunkan yang Dielakkan"
               },
               {
-                "value": "{avoidCommonlyUsed} karakter",
-                "label": "Antara mereka, karakter yang masih digunakan secara umum"
+                "value": "{avoidCommonlyUsed} watak",
+                "label": "Antara mereka, watak yang masih digunakan secara umum"
               }
             ]
           },
           {
-            "p": "Terdapat karakter yang termasuk dalam senarai karakter untuk nama peribadi dan **diterima secara undang-undang**, namun dianggap tidak sesuai untuk nama."
+            "p": "Terdapat watak yang termasuk dalam senarai watak untuk **nama peribadi** dan **diterima secara undang-undang**, tetapi dianggap tidak sesuai untuk nama."
           },
           {
-            "p": "Pemikiran yang mendasari adalah bahawa **\"makna yang berlebihan sebenarnya tidak diingini.\"** Ini termasuk karakter yang dianggap terlalu berharga (珍·寶), karakter yang dilihat mempunyai kehadiran yang terlalu kuat (王·帝), dan yang dianggap terlalu megah untuk seseorang untuk mewakili, seperti langit atau dewa. Ini mencerminkan rasa restraint yang lama, percaya bahawa nama boleh mengatasi individu."
+            "p": "Pemikiran yang mendasari adalah bahawa **\"makna yang berlebihan sebenarnya tidak diingini.\"** Ini termasuk watak yang dianggap terlalu berharga (珍·寶), watak yang dilihat mempunyai kehadiran yang terlalu kuat (王·帝), dan yang dianggap terlalu megah untuk seseorang untuk mewakili, seperti langit atau dewa. Ini mencerminkan rasa restraint yang lama, mempercayai bahawa nama boleh mengatasi individu."
           },
           {
-            "p": "**Namun, karakter ini tidak tidak boleh digunakan.** Ia bukan larangan undang-undang tetapi adat, dan adat berbeza mengikut kawasan, keluarga, dan generasi, dan boleh berubah dari semasa ke semasa."
+            "p": "**Namun, watak-watak ini tidak tidak boleh digunakan.** Ia bukan larangan undang-undang tetapi adat, dan adat berbeza mengikut kawasan, keluarga, dan generasi, dan boleh berubah dari semasa ke semasa."
           },
           {
-            "p": "Sebenarnya, antara {avoidTotal} karakter yang kami kumpulkan, {avoidCommonlyUsed} masih digunakan secara umum dalam nama. Hakikat bahawa mereka diketahui dielakkan tetapi masih digunakan secara meluas menunjukkan bahawa adat ini tidak mutlak."
+            "p": "Sebenarnya, antara {avoidTotal} karakter yang kami kumpulkan, {avoidCommonlyUsed} masih digunakan secara umum dalam nama. Hakikat bahawa mereka diketahui harus dielakkan tetapi masih digunakan secara meluas menunjukkan bahawa adat ini tidak mutlak."
           }
         ]
       },
       {
-        "title": "Apa Kategori yang Ada?",
+        "title": "Apakah Kategori yang Terdapat?",
         "blocks": [
           {
             "p": "Karakter yang telah dikumpulkan kini dibahagikan kepada tujuh kategori."
           },
           {
             "ul": [
-              "**Harta dan Objek** — Karakter yang merujuk secara langsung kepada kekayaan atau item",
-              "**Langit dan Alam** — Perkara seperti matahari, bulan, dan langit yang dianggap terlalu megah untuk seseorang untuk mewakili",
+              "**Harta dan Objek** — Karakter yang merujuk secara langsung kepada kekayaan atau barang",
+              "**Langit dan Alam** — Perkara seperti matahari, bulan, dan langit yang dianggap terlalu agung untuk diwakili oleh seseorang",
               "**Raja dan Bangsawan** — Karakter yang menandakan status, seperti raja atau maharaja",
               "**Makhluk Ilahi** — Karakter yang merujuk kepada alam suci, seperti dewa atau roh",
-              "**Musim dan Lain-lain** — Karakter yang berkaitan dengan masa atau keadaan tertentu",
+              "**Musim dan Lain-lain** — Karakter yang berkaitan dengan waktu atau keadaan tertentu",
               "**Haiwan** — Haiwan yang dianggap mempunyai tenaga yang kuat, seperti naga atau harimau",
               "**Kelebihan** — Karakter yang dilihat mempunyai makna yang terlalu besar atau melimpah"
             ]
@@ -328,7 +328,7 @@ export const MS_DOCS = {
         "title": "Anda Boleh Menambah atau Mengeluarkan Karakter Sendiri",
         "blocks": [
           {
-            "p": "Kami tidak secara sewenang-wenangnya memadamkan karakter ini. **Kami telah menyediakan dua pilihan di skrin input untuk penama memilih bagaimana untuk menanganinya.**"
+            "p": "Kami tidak menghapuskan karakter ini secara sembarangan. **Kami telah menyediakan dua pilihan di skrin input untuk penama memilih cara mengendalikannya.**"
           }
         ]
       },
@@ -337,13 +337,13 @@ export const MS_DOCS = {
         "title": "Pilihan Tersedia di Skrin Input",
         "blocks": [
           {
-            "p": "**Kecualikan Karakter yang Dielakkan daripada Calon** — Jika diaktifkan, mereka dikecualikan sepenuhnya. Jika dinyahaktifkan, mereka kekal dalam hasil dengan label \"Dielakkan Secara Tradisional\" dan sebab yang dilampirkan."
+            "p": "**Kecualikan Karakter yang Dielakkan dari Calon** — Jika diaktifkan, mereka akan dikecualikan sepenuhnya. Jika dinonaktifkan, mereka akan kekal dalam hasil dengan label \"Traditionally Avoided\" dan alasan yang dilampirkan."
           },
           {
-            "p": "**Kecualikan Bahkan Karakter yang Digunakan Secara Umum** — Ini mengecualikan karakter yang berada dalam senarai penghindaran tetapi sebenarnya digunakan secara meluas (圭·琳·玲·元·太·星·海, dll.). Jika diaktifkan, calon akan dikurangkan dengan ketara."
+            "p": "**Kecualikan Bahkan Karakter yang Digunakan Secara Umum** — Ini mengecualikan karakter yang ada dalam senarai penghindaran tetapi sebenarnya digunakan secara meluas (圭·琳·玲·元·太·星·海, dll.). Jika diaktifkan, calon akan berkurang dengan ketara."
           },
           {
-            "p": "Tetapan lalai adalah **tidak mengecualikan tetapi hanya memaparkan** mereka. Jika mereka dikeluarkan secara senyap dari senarai, ia mungkin kelihatan kepada mereka yang ingin menggunakan karakter itu seolah-olah ia tidak wujud."
+            "p": "Secara default adalah **tidak mengecualikan tetapi hanya memaparkan** mereka. Jika mereka dikeluarkan secara senyap dari senarai, ia mungkin kelihatan kepada mereka yang ingin menggunakan karakter itu seolah-olah ia tidak wujud."
           }
         ]
       },
@@ -351,7 +351,7 @@ export const MS_DOCS = {
         "title": "Memastikan Pilihan Tidak Hilang",
         "blocks": [
           {
-            "p": "Jika tiada karakter yang boleh digunakan tinggal untuk suku kata itu, kami akan mengangkat pengecualian untuk suku kata itu dan menunjukkan calon. Kami percaya ia lebih baik daripada tiada pilihan sama sekali."
+            "p": "Jika tiada karakter yang boleh digunakan untuk suku kata itu, kami akan mengangkat pengecualian untuk suku kata itu dan menunjukkan calon. Kami percaya ia lebih baik daripada tiada pilihan sama sekali."
           }
         ]
       }
@@ -359,15 +359,15 @@ export const MS_DOCS = {
   },
   "guide/how-korean-to-global": {
     "eyebrow": "Asas Perkhidmatan",
-    "title": "Apa Asas untuk Penukaran Nama Global?",
-    "summary": "Kami menyediakan calon dari lima perspektif, mengekalkan sistem penulisan setiap bahasa dan menggunakan hanya nama yang wujud.",
+    "title": "Apakah Asas untuk Penukaran Nama Global?",
+    "summary": "Kami menyediakan calon dari lima perspektif, mengekalkan sistem penulisan setiap bahasa dan menggunakan hanya nama yang sedia ada.",
     "backLabel": "Panduan Penggunaan",
     "sections": [
       {
         "title": "Calon Disediakan dari Lima Perspektif",
         "blocks": [
           {
-            "p": "Tiada satu cara untuk menterjemahkan nama ke dalam bahasa lain. Bergantung kepada sama ada untuk mengekalkan bunyi atau makna, memilih nama yang semula jadi dalam konteks tempatan atau mengutamakan keperibadian, jawapannya akan berbeza. Oleh itu, daripada membentangkan satu pilihan, kami menyediakan **satu dari setiap lima perspektif yang berbeza**."
+            "p": "Terdapat lebih daripada satu cara untuk menterjemahkan nama ke dalam bahasa lain. Bergantung kepada sama ada untuk mengekalkan bunyi atau makna, memilih nama yang semula jadi dalam konteks tempatan atau mengutamakan keperibadian, jawapannya akan berbeza. Oleh itu, daripada mempersembahkan satu pilihan, kami menyediakan **satu dari setiap lima perspektif yang berbeza**."
           },
           {
             "ul": [
@@ -375,11 +375,11 @@ export const MS_DOCS = {
               "**Pilihan Terjemahan Makna** — Menterjemahkan makna yang terkandung dalam nama ke dalam nama bahasa itu",
               "**Pilihan Kompromi Bunyi dan Makna** — Mengambil separuh dari setiap satu",
               "**Pilihan Autentik Tempatan** — Memilih nama yang sebenarnya digunakan secara umum dalam konteks budaya itu",
-              "**Pilihan Keperibadian dan Penjenamaan** — Mengutamakan nama yang mudah diingati dan unik"
+              "**Pilihan Keperibadian dan Penjenamaan** — Mengutamakan nama yang mudah diingati dan berbeza"
             ]
           },
           {
-            "p": "Lima pilihan dijamin akan disediakan. Oleh kerana pilihan berbeza dari orang ke orang, kami percaya adalah lebih baik untuk membenarkan pilihan daripada membentangkan satu sebagai jawapan yang betul."
+            "p": "Lima pilihan dijamin akan disediakan. Oleh kerana pilihan berbeza dari orang ke orang, kami percaya adalah lebih baik untuk membenarkan pilihan daripada mempersembahkan satu sebagai jawapan yang betul."
           }
         ]
       },
@@ -387,7 +387,7 @@ export const MS_DOCS = {
         "title": "Setiap Bahasa Mempunyai Peraturan Sistem Penulisan yang Berbeza",
         "blocks": [
           {
-            "p": "Apabila menterjemahkan ke dalam bahasa yang tidak menggunakan huruf Roman, ia mesti ditulis dalam skrip bahasa itu. Untuk bahasa Jepun, ia akan menjadi kana dan kanji; untuk bahasa Rusia, Mongolia, dan Kazakh, ia akan menjadi Cyrillic; untuk bahasa Arab, ia akan menjadi skrip Arab; dan untuk bahasa Thai, Khmer, dan Hindi, ia akan menjadi skrip masing-masing. Jika anda menulisnya dalam huruf Roman dan memanggilnya \"nama Jepun,\" ia tidak boleh digunakan di negara itu."
+            "p": "Apabila menterjemahkan ke dalam bahasa yang tidak menggunakan huruf Roman, ia mesti ditulis dalam skrip bahasa itu. Untuk Jepun, ia akan menjadi kana dan kanji; untuk Rusia, Mongolia, dan Kazakh, ia akan menjadi Cyrillic; untuk Arab, ia akan menjadi skrip Arab; dan untuk Thai, Khmer, dan Hindi, ia akan menjadi skrip masing-masing. Jika anda menulisnya dalam huruf Roman dan memanggilnya \"nama Jepun,\" ia tidak boleh digunakan di negara itu."
           },
           {
             "p": "Oleh itu, kami mempunyai peraturan yang berasingan untuk setiap sistem penulisan bahasa, dan pelayan memeriksa sekali lagi untuk memastikan hasilnya berada dalam sistem penulisan itu. Kesilapan seperti mengabaikan nama keluarga atau mencampurkan Hangul disaring di sini."
@@ -398,7 +398,7 @@ export const MS_DOCS = {
         "title": "Kami Menggunakan Nama yang Sebenarnya Digunakan",
         "blocks": [
           {
-            "p": "Untuk mengelakkan mencipta nama yang kedengaran plausible tetapi tidak wujud di negara itu, kami berdasarkan pilihan kami pada nama yang sedia ada. Nama digunakan dalam dokumen dan pengenalan, jadi jika seseorang tempatan berfikir \"tiada nama seperti itu,\" ia tidak boleh digunakan."
+            "p": "Untuk mengelakkan mencipta nama yang kedengarannya plausible tetapi tidak wujud di negara itu, kami berdasarkan pilihan kami pada nama yang sedia ada. Nama digunakan dalam dokumen dan pengenalan, jadi jika seseorang tempatan berfikir \"tiada nama seperti itu,\" ia tidak boleh digunakan."
           }
         ]
       },
@@ -406,7 +406,7 @@ export const MS_DOCS = {
         "title": "Kami Memisahkan Pemilihan dan Penerangan",
         "blocks": [
           {
-            "p": "Kami mengendalikan tugas menentukan lima calon secara berasingan dari tugas menerangkan setiap calon secara terperinci. Oleh kerana penerangan memerlukan banyak masa, kami memisahkan bahagian itu untuk menciptanya secara serentak."
+            "p": "Kami mengendalikan tugas menentukan lima calon secara berasingan dari tugas menerangkan setiap calon dengan terperinci. Oleh kerana penerangan memerlukan banyak masa, kami memisahkan bahagian itu untuk menciptanya secara serentak."
           }
         ]
       },
@@ -415,10 +415,140 @@ export const MS_DOCS = {
         "title": "Mengapa Ini Diubah?",
         "blocks": [
           {
-            "p": "Pada mulanya, kami mencipta lima perspektif secara berasingan. Ia lebih cepat, tetapi **jumlah calon berbeza setiap kali.** Apabila setiap orang memilih calon, terdapat pertindihan atau percanggahan, dan jika satu gagal, calon itu akan hilang sepenuhnya, menghasilkan hanya dua atau tiga dan bukannya lima."
+            "p": "Pada mulanya, kami mencipta lima perspektif secara berasingan. Ia lebih cepat, tetapi **bilangan calon berbeza setiap kali.** Apabila setiap orang memilih calon, terdapat pertindihan atau percanggahan, dan jika satu gagal, calon itu akan hilang sepenuhnya, menghasilkan hanya dua atau tiga dan bukannya lima."
           },
           {
-            "p": "Sekarang, kerana kami menentukan set calon dan pengagihan perspektif sekaligus, **jumlahnya tetap.** Walaupun satu penerangan gagal, calon tetap ada dan dipersembahkan dengan maklumat ringkas. Kami percaya adalah lebih baik untuk sentiasa mempunyai jumlah yang sama, walaupun ia mengambil sedikit masa lebih lama."
+            "p": "Kini, kerana kami menentukan set calon dan pengagihan perspektif sekaligus, **bilangan itu tetap.** Walaupun satu penerangan gagal, calon tetap ada dan dipersembahkan dengan maklumat ringkas. Kami percaya adalah lebih baik untuk sentiasa mempunyai bilangan yang sama, walaupun ia mengambil sedikit masa lebih lama."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/how-hanja-meaning": {
+    "eyebrow": "Asas Perkhidmatan",
+    "title": "Apakah asas untuk memadankan makna hanja?",
+    "summary": "Pertama, bunyi ditetapkan, dan hanya hanja yang boleh didaftarkan dengan bunyi itu dikumpulkan, dan makna dilihat sebagai gabungan dan bukannya satu karakter.",
+    "backLabel": "Panduan Penggunaan",
+    "sections": [
+      {
+        "title": "Pertama, tetapkan bunyi",
+        "blocks": [
+          {
+            "p": "Jika anda telah memutuskan pada \"지은\", maka **지** dan **은** tidak berubah. Kami tidak mengubah bunyi nama untuk disesuaikan dengan hanja. Nama adalah sesuatu yang dipanggil seumur hidup, dan kami percaya bahawa urutannya adalah bunyi ditetapkan terlebih dahulu, diikuti oleh hanja."
+          },
+          {
+            "figure": "hanja-match-flow",
+            "caption": "Ini adalah urutan di mana calon disempitkan. Ia bukan tentang memilih hanja terlebih dahulu dan memadankan bunyi, tetapi sebaliknya bunyi datang terlebih dahulu, dan hanya karakter yang ditetapkan untuk dibaca dengan bunyi itu menjadi calon."
+          }
+        ]
+      },
+      {
+        "title": "Kumpulkan hanya hanja yang boleh didaftarkan dengan bunyi itu",
+        "blocks": [
+          {
+            "p": "Jadual hanja nama rasmi mempunyai bacaan yang ditetapkan untuk setiap karakter apabila digunakan dalam nama. Hanya karakter yang ditetapkan untuk dibaca sebagai **지** dan **은** menjadi calon. Tidak kira betapa baiknya maknanya, jika bacaan tidak sepadan, ia tidak boleh menjadi hanja untuk nama itu."
+          },
+          {
+            "p": "Julat untuk memilih calon adalah {characterTotal} karakter dari jadual Mahkamah Agung. Karakter yang tidak terdapat dalam jadual ini tidak dipaparkan sama sekali — walaupun ditunjukkan, mereka tidak boleh didaftarkan."
+          },
+          {
+            "p": "Bilangan karakter dalam jadual yang diterbitkan oleh Mahkamah Agung adalah sedikit lebih daripada ini. Jadual ini juga termasuk **karakter tanpa kod karakter standard**, yang tidak dapat dipaparkan dengan betul pada skrin dan dokumen, jadi karakter tersebut telah dikecualikan daripada calon. Anda mesti menyemak dengan pihak berkuasa yang berkaitan sama ada anda boleh mendaftar dengan karakter tersebut."
+          }
+        ]
+      },
+      {
+        "title": "Makna dilihat sebagai gabungan, bukan satu karakter tunggal",
+        "blocks": [
+          {
+            "p": "Makna setiap karakter individu yang baik dan makna yang dibaca apabila dua karakter digabungkan adalah berbeza. Nama dibaca sebagai gabungan, jadi kami melihat gabungan tersebut secara bersama. Jika anda mempunyai makna tertentu yang ingin disertakan atau dielakkan, itu akan diambil kira."
+          },
+          {
+            "p": "Jika anda menggunakan karakter generasi, karakter tersebut adalah tetap, dan gabungan dicari dari posisi yang tinggal. Nama keluarga (성) tidak terikat oleh jadual nama-hanja rasmi, jadi ia dianggap secara berasingan."
+          }
+        ]
+      },
+      {
+        "title": "Kami menunjukkan adat penghindaran tanpa mengeluarkannya",
+        "blocks": [
+          {
+            "p": "Jika karakter yang secara tradisional dianggap perlu dielakkan termasuk dalam calon, kami tidak mengeluarkannya tetapi menunjukkan sebab bersamanya. Ini adalah perkara adat, bukan undang-undang, dan anda boleh memilih untuk mengecualikannya sepenuhnya dari skrin input. Untuk maklumat lanjut, lihat [Hanja yang Tradisionalnya Dielakkan](/guide/avoid)."
+          }
+        ]
+      },
+      {
+        "title": "Kami juga memaklumkan anda tentang sebab-sebab pengecualian",
+        "blocks": [
+          {
+            "p": "Kami menunjukkan mengapa karakter tertentu dikecualikan daripada calon. Jika kami hanya menunjukkan apa yang dipilih, anda tidak dapat mengetahui \"mengapa yang ini?\" Jika tiada karakter yang boleh digunakan untuk suku kata itu, kami akan mengangkat pengecualian untuk suku kata itu dan menunjukkan calon."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Cara membaca keputusan",
+        "blocks": [
+          {
+            "p": "Calon adalah **perspektif, bukan ranking**. Yang pertama tidak bermakna ia adalah nama terbaik; mereka dipilih dari perspektif yang berbeza. Mereka yang mengutamakan gabungan makna, mereka yang memilih karakter yang jarang, dan mereka yang menekankan neutraliti dipaparkan berdampingan. Jawapannya berbeza bergantung pada perspektif mana yang anda hargai."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/what-we-dont-use": {
+    "eyebrow": "Standard Kami",
+    "title": "Apa yang Kami Tidak Gunakan",
+    "summary": "Kami tidak memberikan jumlah nasib atau skor numerik, dan kami juga tidak menggunakan kiraan strok. Lima elemen hanya digunakan sebagai paksi tambahan. Berikut adalah sebab-sebabnya.",
+    "backLabel": "Panduan Penggunaan",
+    "sections": [
+      {
+        "title": "Sebab-sebab tidak memberikan jumlah nasib atau skor numerik",
+        "blocks": [
+          {
+            "p": "Terdapat kaedah yang memberikan jumlah nasib atau skor numerik kepada nama untuk menilai mereka. Naming-Link tidak menyediakan nombor tersebut. Sebab-sebabnya adalah empat."
+          },
+          {
+            "p": "**Pertama, tidak ada satu standard sahaja.** Kaedah untuk mengira nasib berbeza mengikut sekolah, dan nama yang sama boleh dinilai secara positif oleh satu standard dan negatif oleh yang lain. Kami tiada asas untuk menentukan yang mana satu yang betul. Adalah tidak jujur untuk mempersembahkan satu seolah-olah ia adalah jawapan."
+          },
+          {
+            "p": "**Kedua, pengiraan tersebut bergantung kepada kiraan strok.** Walau bagaimanapun, data Mahkamah Agung tidak termasuk kiraan strok sama sekali. Selain itu, kiraan strok boleh berbeza bergantung kepada sama ada ia dikira sebagai karakter biasa atau karakter ringkas dan bagaimana radikal dikira. Oleh kerana nombor asas tidak ditetapkan dengan pasti, skor yang dibina di atasnya tidak boleh menjadi muktamad."
+          },
+          {
+            "p": "**Ketiga, nombor kelihatan lebih kukuh daripada realiti.** Apabila ia mengatakan \"87 mata\", ia dibaca seperti nilai yang diukur daripada tafsiran konvensional. Mereka yang menamakan mungkin merasa tertekan oleh nombor itu, mengetepikan apa yang sebenarnya penting (Adakah ia menyenangkan untuk dipanggil? Adakah makna itu sesuai? Adakah ia mengandungi harapan yang diingini?)."
+          },
+          {
+            "p": "**Keempat, tiada cara untuk mengesahkan.** Hubungan antara nama dan kehidupan seseorang tidak dapat disahkan. Menukar sesuatu yang tidak boleh dikatakan betul atau salah kepada skor menghasilkan nombor yang tidak dapat disahkan, walaupun ia tidak boleh salah."
+          },
+          {
+            "p": "Kami hanya menggunakan apa yang boleh **dibuktikan.** Jadual nama-hanja rasmi Mahkamah Agung, bacaan yang ditetapkan untuk setiap karakter, dan makna yang disenaraikan dalam jadual. Sebaliknya, kami memberikan sebab mengapa calon ini dipilih dan mengapa karakter tertentu dikecualikan, menunjukkan **sebab-sebab dan bukannya skor**."
+          }
+        ]
+      },
+      {
+        "title": "Kami tidak menggunakan kiraan strok",
+        "blocks": [
+          {
+            "p": "Data nama-hanja rasmi yang disediakan oleh Mahkamah Agung tidak termasuk kiraan strok. Di antara {characterTotal} karakter yang kami terima, **tiada satu karakter pun mempunyai kiraan strok.**"
+          },
+          {
+            "p": "Untuk menggunakan kiraan strok, kami perlu mendapatkan nombor dari tempat lain, tetapi jika kami tidak dapat menjelaskan dari mana nombor tersebut datang dan kriteria apa yang digunakan untuk mengiranya, ia bermakna menilai nama berdasarkan nombor yang tidak berasas. Kami telah memutuskan untuk tidak menilai nama berdasarkan nilai yang tidak dapat dibuktikan."
+          }
+        ]
+      },
+      {
+        "title": "Kami menggunakan lima elemen hanya sebagai rujukan",
+        "blocks": [
+          {
+            "figure": "five-elements",
+            "caption": "Hubungan antara lima elemen. Bergerak sepanjang bulatan mewakili penghasilan bersama (相生), manakala melangkau satu dan menekan ke bawah mewakili pengekangan bersama (相剋). Kami menggunakan hubungan ini hanya sebagai paksi tambahan untuk membandingkan calon."
+          },
+          {
+            "p": "Jika anda telah memasukkan bulan kelahiran anda, kami menggunakan rujukan ringkas lima elemen berdasarkan bulan itu sebagai paksi tambahan untuk membandingkan calon. Walau bagaimanapun, ini bukan analisis saju yang tepat, dan **kami tidak mendakwa bahawa nama menentukan nasib atau watak seseorang.**"
+          },
+          {
+            "p": "Dalam pemilihan akhir, apa yang kami utamakan adalah bunyi, gabungan makna, nilai yang ingin disampaikan oleh keluarga, dan sama ada ia boleh didaftarkan. Jika anda tidak memasukkan bulan kelahiran anda, kami sepenuhnya mengecualikan rujukan lima elemen dari analisis — kami tidak membuat andaian sewenang-wenangnya tentang maklumat yang tidak diketahui."
+          },
+          {
+            "p": "Jika anda ingin analisis berdasarkan saju yang tepat, kami membahasnya dalam laporan terperinci yang berasingan. Sebab kami tidak mengutamakan lima elemen dalam padanan hanja percuma adalah kerana kami tidak mahu mempersembahkan penilaian berdasarkan lima elemen yang diperoleh daripada tarikh dan waktu kelahiran yang tidak lengkap seolah-olah ia adalah muktamad."
           }
         ]
       }
@@ -433,12 +563,12 @@ export const MS_NOTICES = {
     "policy": "Dasar",
     "support": "Sokongan"
   },
-  "intro": "Perubahan kepada terma penggunaan anda — harga, dasar — dipaparkan di sini sebelum ia berkuatkuasa. Penambahbaikan dalaman tidak disenaraikan: apa yang muncul di sini adalah apa yang anda perlu tahu.",
+  "intro": "Perubahan kepada terma penggunaan anda — harga, dasar — dipaparkan di sini sebelum ia berkuat kuasa. Penambahbaikan dalaman tidak disenaraikan: apa yang muncul di sini adalah apa yang anda perlu tahu.",
   "empty": {
     "title": "Tiada notis lagi",
     "body": "Apabila sesuatu berubah, ia akan muncul di sini."
   },
-  "effective": "Berkuatkuasa {date}",
+  "effective": "Berkuat kuasa {date}",
   "pager": {
     "label": "Halaman notis",
     "newer": "← Lebih Baru",
@@ -446,16 +576,16 @@ export const MS_NOTICES = {
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Halaman Hubungi dan Tentang kini dibuka",
+      "title": "Halaman Hubungi dan Mengenai kini dibuka",
       "body": [
-        "Pertanyaan, pemulangan, permintaan privasi dan laporan kesilapan kini mempunyai satu tempat untuk pergi. Halaman hubungan di footer menyenaraikan emel dan butiran syarikat kami.",
-        "Apa yang menjadi asas jawapan kami, dan apa yang kami tidak lakukan secara sengaja, ditulis di halaman tentang."
+        "Soalan, pengembalian wang, permintaan privasi dan laporan ralat kini mempunyai satu tempat untuk pergi. Halaman hubungi di footer menyenaraikan emel dan butiran syarikat kami.",
+        "Apa yang menjadi asas jawapan kami, dan apa yang kami sengaja tidak lakukan, ditulis di halaman mengenai."
       ]
     },
     "2026-08-01-pdf-language": {
-      "title": "Laporan PDF dikeluarkan dalam bahasa Inggeris untuk bahasa Arab dan Khmer",
+      "title": "Laporan PDF dikeluarkan dalam Bahasa Inggeris untuk Arab dan Khmer",
       "body": [
-        "Jika anda menggunakan perkhidmatan dalam bahasa Arab atau Khmer, PDF yang anda beli dihasilkan dalam bahasa Inggeris. Alat yang menyusun dokumen kami belum dapat menetapkan perenggan dalam dua skrip tersebut.",
+        "Jika anda menggunakan perkhidmatan dalam Bahasa Arab atau Khmer, PDF yang anda beli dihasilkan dalam Bahasa Inggeris. Alat yang menyusun dokumen kami belum dapat menetapkan perenggan dalam dua skrip tersebut.",
         "Skrin tetap dalam bahasa anda, dan nama anda dicetak dalam skrip anda sendiri di dalam dokumen.",
         "Nota yang sama muncul sebelum pembayaran. Apabila alat menyokong skrip ini, kami akan menyatakannya di sini."
       ]
@@ -463,8 +593,8 @@ export const MS_NOTICES = {
     "2026-08-01-payments-preparing": {
       "title": "Pembayaran belum dibuka",
       "body": [
-        "Mencipta nama dan membaca hasil adalah percuma hari ini, dan tiada akaun diperlukan.",
-        "Item berbayar belum dijual. Jumlah yang ditunjukkan di halaman harga adalah apa yang akan dikenakan setelah jualan dibuka."
+        "Mencipta nama dan membaca hasilnya adalah percuma hari ini, dan tiada akaun diperlukan.",
+        "Item berbayar belum dijual. Jumlah yang ditunjukkan di halaman harga adalah yang akan dikenakan setelah jualan dibuka."
       ]
     }
   }
