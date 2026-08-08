@@ -19,6 +19,30 @@ import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { APP_KEYS } from "./app-keys.mjs";
 
 /**
+ * 앱별 한국어 원문(`lib/doc-content/ko.ts`). 없는 앱은 아직 안 옮긴 것이다.
+ *
+ * 파일을 통째로 읽어 두고 문서 하나의 글만 잘라 쓴다. TypeScript 를 파싱하지 않는 것은
+ * 검사기가 앱의 빌드 도구에 기대지 않게 하려는 것이다 — `tsx` 가 없는 컴퓨터에서도 돌아야 한다.
+ */
+const docContentKo = Object.fromEntries(
+  APP_KEYS.map((app) => {
+    const file = `apps/${app}/src/lib/doc-content/ko.ts`;
+    return [app, existsSync(file) ? readFileSync(file, "utf8") : null];
+  }),
+);
+
+/** 한국어 원문에서 문서 하나의 글만 잘라 낸다. 다음 문서 키가 나오는 자리에서 끊는다. */
+function docContentProse(app, slug) {
+  const source = docContentKo[app];
+  if (!source) return "";
+  const start = source.indexOf(`"guide/${slug}"`);
+  if (start < 0) return "";
+  const rest = source.slice(start + 1);
+  const next = rest.search(/\n {2}["a-zA-Z][\w/-]*: \{/);
+  return next < 0 ? rest : rest.slice(0, next);
+}
+
+/**
  * 그 앱에 있으면 안 되는 말. **라틴과 한글을 함께 본다** — 2026-08-05에 한글 「인연」을 놓쳐
  * 꼬리글이 `Saju-Link ( 인연 링크 )`로 배포됐다.
  */
@@ -100,24 +124,40 @@ for (const app of APP_KEYS) {
     count[entry.audience] += 1;
 
     const source = readFileSync(file, "utf8");
-    const prose = proseOf(source);
+
+    /**
+     * **본문이 어디에 있는가.**
+     *
+     * 옮기는 중이다. 아직 `page.tsx`의 JSX에 한 언어로 적힌 문서가 있고, `lib/doc-content`로
+     * 옮겨져 23개 언어를 갖는 문서가 있다. 뒤엣것은 한국어 원문(`ko.ts`)에서 재야 한다 —
+     * 페이지에는 글이 한 글자도 없으므로 여기서 세면 「본문이 얇다」가 된다.
+     *
+     * **옮겨진 문서에는 언어 검사를 걸지 않는다.** `audience`는 「이 문서는 한 언어짜리다」를
+     * 전제한 값이고, 그 전제가 없어지는 중이다. 로케일이 다 있는지는
+     * `verify-doc-locales.mjs`가 따로 센다.
+     */
+    const moved = docContentKo[app]?.includes(`"guide/${entry.slug}"`) ?? false;
+    const prose = moved ? docContentProse(app, entry.slug) : proseOf(source);
     const ko = (prose.match(/[가-힣]/g) || []).length;
     const en = (prose.match(/[A-Za-z]/g) || []).length;
 
-    // ① 본문 언어가 audience와 맞는가
-    const wrote = ko > en ? "ko" : "global";
-    if (wrote !== entry.audience) {
-      problems.push([
-        app,
-        entry.slug,
-        `audience=${entry.audience}인데 본문은 ${wrote === "ko" ? "한국어" : "영어"}다 (한글 ${ko} · 라틴 ${en})`,
-      ]);
+    // ① 본문 언어가 audience와 맞는가 — 아직 안 옮긴 문서에만 해당한다
+    if (!moved) {
+      const wrote = ko > en ? "ko" : "global";
+      if (wrote !== entry.audience) {
+        problems.push([
+          app,
+          entry.slug,
+          `audience=${entry.audience}인데 본문은 ${wrote === "ko" ? "한국어" : "영어"}다 (한글 ${ko} · 라틴 ${en})`,
+        ]);
+      }
     }
 
-    // ② 자리만 만들고 안 채운 것
-    const volume = entry.audience === "ko" ? ko : en;
-    if (volume < FLOOR[entry.audience] && !NOT_PROSE[`${app}/${entry.slug}`]) {
-      problems.push([app, entry.slug, `본문이 얇다 — ${volume}자 (하한 ${FLOOR[entry.audience]})`]);
+    // ② 자리만 만들고 안 채운 것. 옮긴 문서는 한국어 원문이 기준이다.
+    const volume = moved || entry.audience === "ko" ? ko : en;
+    const floor = moved ? FLOOR.ko : FLOOR[entry.audience];
+    if (volume < floor && !NOT_PROSE[`${app}/${entry.slug}`]) {
+      problems.push([app, entry.slug, `본문이 얇다 — ${volume}자 (하한 ${floor})`]);
     }
 
     // ③ 남의 서비스 이야기가 남아 있는가

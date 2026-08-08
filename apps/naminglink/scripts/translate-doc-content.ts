@@ -94,7 +94,20 @@ const links = (value: string) =>
  */
 const KEEP_VERBATIM = ["Naming-Link", "naming-link.com"];
 
-function mismatch(value: string, leaf: Leaf, sourceIsKo = false) {
+/**
+ * 한글 덩어리 목록. **원문에 있는 한글은 남아 있어야 한다.**
+ *
+ * 처음에는 「출력에 한글이 하나라도 있으면 실패」로 두었는데, 그것이 오탐을 냈다. 이 서비스의
+ * 영어 안내에는 **한글 예시가 일부러 들어 있다** — "Michael becomes 마이클", "Wang with 왕".
+ * 그 예시가 없으면 무슨 말인지 알 수 없는 문장이라, 지우라고 요구하면 옳은 번역을 막는다.
+ *
+ * 그래서 **원문에 없던 한글이 새로 생겼는지**만 본다(= 옮기지 않고 남긴 자리).
+ */
+const hangulTokens = (value: string) => new Set(value.match(/[가-힣]+/g) ?? []);
+
+function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null {
+  // 모델이 문자열이 아닌 것을 돌려주는 일이 있다(객체·배열). 그대로 두면 뒤에서 터진다.
+  if (typeof value !== "string") return `문자열이 아니다(${typeof value})`;
   // **한국어를 본으로 삼을 때는 이 검사를 걸지 않는다.** 한국어 원문은 상표를 「네이밍링크」로
   // 적으므로 라틴 표기가 0회인데, 그 자리의 영어 번역에는 `Naming-Link`가 있어야 한다.
   // 개수를 맞추라고 하면 옳은 번역을 결함으로 잡는다.
@@ -110,7 +123,17 @@ function mismatch(value: string, leaf: Leaf, sourceIsKo = false) {
   }
   if (bolds(value) !== bolds(leaf.en)) return `강조 ${bolds(value)}개 ≠ en ${bolds(leaf.en)}개`;
   if (links(value) !== links(leaf.en)) return `링크 [${links(value)}] ≠ en [${links(leaf.en)}]`;
-  if (/[가-힣]/.test(value)) return "한글이 남았다";
+  if (!sourceIsKo) {
+    const allowed = hangulTokens(leaf.en);
+    const extra = [...hangulTokens(value)].filter((word) => !allowed.has(word));
+    if (extra.length) return `옮기지 않은 한글: ${extra.slice(0, 3).join(", ")}`;
+  } else if (/[가-힣]/.test(value)) {
+    // 한국어를 본으로 삼을 때(= 영어를 만들 때)는 한글이 남으면 안 옮긴 것이다. 다만 예시로
+    // 남겨야 하는 낱말이 있으므로, 원문 대비 **절반 이상이 그대로면** 옮기지 않은 것으로 본다.
+    const source = hangulTokens(leaf.en);
+    const kept = [...hangulTokens(value)].filter((word) => source.has(word));
+    if (source.size > 0 && kept.length * 2 >= source.size) return "한국어가 그대로 남았다";
+  }
   return null;
 }
 
@@ -134,7 +157,10 @@ async function translate(leaves: Leaf[], locale: string, key: string) {
             `You translate a Korean naming service's help pages into ${language}.`,
             "Each entry has the English text and, when available, the Korean original. Follow the English for structure and tone, but take the MEANING from the Korean — it is the source.",
             "Return a JSON object with exactly the same keys, each mapped to the translated string. No extra keys, no commentary.",
-            "CRITICAL: the output must contain no Korean (Hangul) characters at all. Every Korean term must be rendered in the target language — describe it if there is no single word for it.",
+            "CRITICAL: translate every Korean term into the target language — describe it if there is no single word for it. Never leave a Korean word untranslated: the reader cannot read that script.",
+            "EXCEPTION: Hangul that appears in the source as an EXAMPLE must be kept exactly (e.g. 'Michael becomes 마이클', 'Wang with 왕', the name 지은). Those are specimens of Korean writing, not words to translate.",
+            "CRITICAL: never introduce Hangul that is not in the source. If the source romanises a Korean name (Namgung, Seonwoo), keep the romanisation — do not write it back in Hangul.",
+            "CRITICAL: every value in the returned object must be a plain string. Never return an object, an array, or a nested structure for a key.",
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime with company details.",
             "CRITICAL: keep **bold** markers on the same phrase and the same number of ** markers. If the English has none, yours must have none.",
             "CRITICAL: keep [label](/path) links. Translate the label, never the path.",
@@ -149,7 +175,19 @@ async function translate(leaves: Leaf[], locale: string, key: string) {
 
   if (!response.ok) throw new Error(`OpenAI ${response.status}: ${await response.text()}`);
   const body = (await response.json()) as { choices: Array<{ message: { content: string } }> };
-  return JSON.parse(body.choices[0]!.message.content) as Record<string, string>;
+  const parsed = JSON.parse(body.choices[0]!.message.content) as Record<string, unknown>;
+
+  // **문자열이 아닌 값을 한 번 구해 본다.** 모델이 이따금 `{ "text": "..." }`처럼 감싸서
+  // 돌려준다(아랍어에서 반복됐다). 안에 문자열이 하나뿐이면 그것이 번역이므로 꺼내 쓴다.
+  // 그래도 아니면 그대로 두고 `mismatch`가 결함으로 센다 — 조용히 버리지 않는다.
+  const unwrapped: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(parsed)) {
+    if (typeof value === "string") { unwrapped[key] = value; continue; }
+    const inner = value && typeof value === "object" ? Object.values(value) : [];
+    const strings = inner.filter((item): item is string => typeof item === "string");
+    unwrapped[key] = strings.length === 1 ? strings[0] : value;
+  }
+  return unwrapped as Record<string, string>;
 }
 
 /** 잎 값을 en 구조 위에 얹어 그 로케일의 자료를 만든다. */
@@ -195,7 +233,7 @@ async function run(locale: string, key: string) {
   let translated = await translate(leaves, locale, key);
 
   // 어긋난 잎만 한 번 더 부른다. 통째로 다시 받으면 검수가 끝난 문장까지 바뀐다.
-  const broken = leaves.filter((leaf) => mismatch(translated[leaf.path] ?? "", leaf));
+  const broken = leaves.filter((leaf) => mismatch(translated[leaf.path] ?? "", leaf, sourceIsKo));
   if (broken.length) {
     console.log(`  ${locale} — 어긋난 잎 ${broken.length}개 재시도`);
     const retry = await translate(broken, locale, key);
@@ -208,12 +246,12 @@ async function run(locale: string, key: string) {
   const failed: string[] = [];
   for (const leaf of leaves) {
     const value = translated[leaf.path] ?? "";
-    const problem = mismatch(value, leaf);
+    const problem = mismatch(value, leaf, sourceIsKo);
     if (problem) {
       failed.push(`    ${leaf.path} — ${problem}`);
       values.set(leaf.path, leaf.en);
     } else {
-      values.set(leaf.path, value);
+      values.set(leaf.path, value as string);
     }
   }
 
@@ -243,13 +281,15 @@ function language(locale: string) {
 const args = process.argv.slice(2);
 /** 영어판이 아직 없을 때. 한국어를 본으로 삼는다(보통은 en이 본이다). */
 const fromKo = args.includes("--from-ko");
+/** 한국어에만 있는 문서의 영어를 채운다. `en.ts`의 기존 항목은 건드리지 않는다. */
+const fillEn = args.includes("--fill-en");
 const all = args.includes("--all");
 const targets = all
   ? localeCodes.filter((code) => code !== "ko" && code !== "en")
   : args.filter((a) => !a.startsWith("--"));
 
-if (!targets.length) {
-  console.log("쓰는 법: translate-doc-content.ts <locale…> | --all");
+if (!targets.length && !fillEn) {
+  console.log("쓰는 법: translate-doc-content.ts <locale…> | --all | --fill-en");
   process.exit(1);
 }
 
@@ -259,9 +299,78 @@ if (!key) {
   process.exit(1);
 }
 
+/**
+ * **한국어에만 있는 문서의 영어를 채운다.**
+ *
+ * 순서가 「한국어로 다 쓰고 → 영어로 옮기고 → 나머지 언어」이므로(사용자 지시), 새 문서는
+ * 한국어만 있는 상태로 들어온다. 그렇다고 `en.ts`를 통째로 다시 만들면 **사람이 쓴 영어가
+ * 기계 번역으로 덮인다** — 소개·문의처럼 영어가 원문인 문서가 있다.
+ *
+ * 그래서 **없는 키만** 옮겨 기존 `EN_DOCS`에 얹는다. 이미 있는 문서는 손대지 않는다.
+ */
+async function fillEnglish(key: string) {
+  const missing = Object.keys(KO_DOCS).filter((k) => !(k in EN_DOCS));
+  if (!missing.length) {
+    console.log("  en — 채울 문서가 없다");
+    return 0;
+  }
+  console.log(`  en — 한국어에만 있는 문서 ${missing.length}편: ${missing.join(", ")}`);
+
+  const koSubset = Object.fromEntries(
+    missing.map((k) => [k, KO_DOCS[k as keyof typeof KO_DOCS]]),
+  );
+  const leaves: Leaf[] = [];
+  collect(koSubset, koSubset, [], leaves);
+
+  let translated = await translate(leaves, "en", key);
+  const broken = leaves.filter((leaf) => mismatch(translated[leaf.path] ?? "", leaf, true));
+  if (broken.length) {
+    console.log(`  en — 어긋난 잎 ${broken.length}개 재시도`);
+    translated = { ...translated, ...(await translate(broken, "en", key)) };
+  }
+
+  const values = new Map<string, string>();
+  const failed: string[] = [];
+  for (const leaf of leaves) {
+    const value = translated[leaf.path] ?? "";
+    const problem = mismatch(value, leaf, true);
+    if (problem) {
+      failed.push(`    ${leaf.path} — ${problem}`);
+      values.set(leaf.path, leaf.en);
+    } else {
+      values.set(leaf.path, value as string);
+    }
+  }
+
+  const merged = { ...EN_DOCS, ...(graft(koSubset, [], values) as Record<string, unknown>) };
+  const header = [
+    `import type { DocPage, NoticeCopy } from "./types";`,
+    `import type { DocKey } from "./ko";`,
+    "",
+    `/**`,
+    ` * 영어판. **번역기가 21개 로케일을 만들 때 구조와 어투의 본이 되는 벌이다.**`,
+    ` *`,
+    ` * 소개·문의처럼 사람이 쓴 글과, 한국어 원문에서 옮겨 온 글이 함께 있다. 뒤엣것은`,
+    ` * \`translate-doc-content.ts --fill-en\`이 **없는 키만** 채운 것이라 앞엣것을 덮지 않는다.`,
+    ` */`,
+    `export const EN_DOCS = ${JSON.stringify(merged, null, 2)} satisfies Record<DocKey, DocPage>;`,
+    "",
+    `export const EN_NOTICES = ${JSON.stringify(EN_NOTICES, null, 2)} satisfies NoticeCopy;`,
+    "",
+  ].join("\n");
+
+  writeFileSync(path.join(DIR, "en.ts"), header, "utf8");
+  console.log(`  en — 썼다${failed.length ? ` · ⚠ 한국어로 남긴 잎 ${failed.length}개` : ""}`);
+  if (failed.length) console.log(failed.join("\n"));
+  return failed.length;
+}
+
 // tsx가 cjs로 옮기므로 최상위 await를 쓸 수 없다. 감싼다.
 async function main() {
   let problems = 0;
+  if (fillEn) {
+    process.exit((await fillEnglish(key)) === 0 ? 0 : 1);
+  }
   for (const locale of targets) {
     problems += await run(locale, key);
   }
