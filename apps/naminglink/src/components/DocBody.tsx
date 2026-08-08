@@ -79,13 +79,14 @@ function Block({
 }) {
   if ("figure" in block) {
     // 아는 이름만 그린다. 모르는 이름은 아무것도 그리지 않아 자리가 비고, 그래서 눈에 띈다.
+    // 그림 안의 글자도 자료가 갖는다 — 컴포넌트에 박아 두면 23개 언어에서 한국어가 나간다.
     const drawing =
       block.figure === "hanja-match-flow" ? (
-        <HanjaMatchFlow total={values.characterTotal} />
+        <HanjaMatchFlow total={values.characterTotal} labels={block.labels} />
       ) : block.figure === "five-elements" ? (
         <>
-          <FiveElementsCycle />
-          <FiveElementsLegend />
+          <FiveElementsCycle labels={block.labels} />
+          <FiveElementsLegend labels={block.labels} />
         </>
       ) : null;
     if (!drawing) return null;

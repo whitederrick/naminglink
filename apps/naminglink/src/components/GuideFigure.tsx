@@ -40,29 +40,43 @@ export function GuideFigure({
  *
  * `total`은 부르는 쪽이 대법원 표에서 읽어 넘긴다. 값이 없으면 그 칸만 비운다.
  */
-export function HanjaMatchFlow({ total }: { total?: string }) {
+/**
+ * **그림 안의 글자는 밖에서 받는다.**
+ *
+ * 예전에는 여기에 한국어로 박아 두었다. 본문을 23개 언어로 옮기고도 이 글자들은 그대로
+ * 남아, 스물세 언어 화면 전부에 「소리를 고정」·「대법원 표로 거르기」가 한국어로 나갔다
+ * (2026-08-09 실측에서 발견). 자료(`doc-content`)의 `figure.labels` 가 넘긴다.
+ *
+ * 예시로 남기는 것은 **한글·한자 자체**뿐이다 — `지 · 은`, `智恩 · 志銀` 은 「한국 이름은
+ * 이렇게 생겼다」를 보이는 표본이라 번역 대상이 아니다.
+ */
+export function HanjaMatchFlow({
+  total,
+  labels = {},
+}: {
+  total?: string;
+  labels?: Record<string, string>;
+}) {
   const steps = [
     {
       key: "sound",
-      caption: "① 소리를 고정",
+      caption: labels.soundStep,
       body: <span className="text-lg font-semibold">지 · 은</span>,
-      note: "한자를 맞추느라 바꾸지 않습니다",
+      note: labels.soundNote,
     },
     {
       key: "table",
-      caption: "② 대법원 표로 거르기",
-      body: (
-        <span className="text-sm">
-          <b>지</b>로 읽는 글자 · <b>은</b>으로 읽는 글자
-        </span>
-      ),
-      note: total ? `표 전체 ${total}자에서` : "표에 있는 글자에서만",
+      caption: labels.tableStep,
+      body: <span className="text-sm">{labels.tableBody}</span>,
+      note: total
+        ? labels.tableNote?.replace("{total}", total)
+        : labels.tableNoteNoCount,
     },
     {
       key: "combine",
-      caption: "③ 두 글자의 결합으로",
+      caption: labels.combineStep,
       body: <span className="text-lg font-semibold">智恩 · 志銀 …</span>,
-      note: "글자 하나가 아니라 이어 읽은 뜻으로 봅니다",
+      note: labels.combineNote,
     },
   ];
 
@@ -91,11 +105,11 @@ export function HanjaMatchFlow({ total }: { total?: string }) {
 
 /** 오행 다섯과 좌표(정오각형, 木을 맨 위에 두고 시계 방향 — 상생 차례다). */
 const ELEMENTS = [
-  { key: "wood", label: "木", name: "목" },
-  { key: "fire", label: "火", name: "화" },
-  { key: "earth", label: "土", name: "토" },
-  { key: "metal", label: "金", name: "금" },
-  { key: "water", label: "水", name: "수" },
+  { key: "wood", label: "木" },
+  { key: "fire", label: "火" },
+  { key: "earth", label: "土" },
+  { key: "metal", label: "金" },
+  { key: "water", label: "水" },
 ] as const;
 
 const SIZE = 300;
@@ -119,7 +133,7 @@ function pointAt(index: number, radius: number) {
  *
  * 순서는 명리에서 고정된 것이라(木生火 火生土 土生金 金生水 水生木) 설정으로 두지 않는다.
  */
-export function FiveElementsCycle() {
+export function FiveElementsCycle({ labels = {} }: { labels?: Record<string, string> }) {
   return (
     <svg
       viewBox={`0 0 ${SIZE} ${SIZE}`}
@@ -127,9 +141,8 @@ export function FiveElementsCycle() {
       role="img"
       aria-labelledby="five-elements-title"
     >
-      <title id="five-elements-title">
-        오행 다섯을 원으로 놓고 상생은 이웃끼리, 상극은 하나 건너뛰어 이은 그림
-      </title>
+      {/* 화면 낭독기가 읽는 글이다. 그림을 못 보는 사람에게는 이것이 그림이므로 함께 옮긴다. */}
+      <title id="five-elements-title">{labels.alt}</title>
 
       {/* 상극 — 하나 건너뛴 별. 먼저 그려 뒤로 보낸다. */}
       {ELEMENTS.map((element, index) => {
@@ -174,14 +187,17 @@ export function FiveElementsCycle() {
             >
               {element.label}
             </text>
-            <text
-              x={label.x}
-              y={label.y + 4}
-              textAnchor="middle"
-              className="fill-muted text-[11px]"
-            >
-              {element.name}
-            </text>
+            {/* 원소 이름은 자료가 넘긴다 — 없으면 한자만 남는다(한자는 그 자체가 표본이다). */}
+            {labels[element.key] ? (
+              <text
+                x={label.x}
+                y={label.y + 4}
+                textAnchor="middle"
+                className="fill-muted text-[11px]"
+              >
+                {labels[element.key]}
+              </text>
+            ) : null}
           </g>
         );
       })}
@@ -190,14 +206,14 @@ export function FiveElementsCycle() {
 }
 
 /** 오행 그림의 범례. 선 모양이 무엇인지 글로도 알려 준다. */
-export function FiveElementsLegend() {
+export function FiveElementsLegend({ labels = {} }: { labels?: Record<string, string> }) {
   return (
     <ul className="mt-1 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-muted">
       <li className="flex items-center gap-1.5">
         <svg viewBox="0 0 24 8" className="h-2 w-6" aria-hidden="true">
           <line x1="0" y1="4" x2="24" y2="4" className="stroke-brand-teal" strokeWidth={2} />
         </svg>
-        상생 — 이웃을 낳는다
+        {labels.saeng}
       </li>
       <li className="flex items-center gap-1.5">
         <svg viewBox="0 0 24 8" className="h-2 w-6" aria-hidden="true">
@@ -211,7 +227,7 @@ export function FiveElementsLegend() {
             strokeDasharray="5 4"
           />
         </svg>
-        상극 — 하나 건너뛰어 누른다
+        {labels.geuk}
       </li>
     </ul>
   );

@@ -165,11 +165,11 @@ node ../../scripts/verify-doc-locales.mjs
 | 문서 | 상태 |
 |---|---|
 | 소개 `/about` · 문의 `/contact` · 공지 `/notice` | **23개 언어 · 배포 완료** |
-| 안내 13편 | **전부 자료로 옮김.** 번역·배선은 아래 참고 |
+| 안내 13편 | **23개 언어 · 배포 완료** (2026-08-09) |
 
-    배포 완료   reading · how-hangul-transliteration · how-global-to-korean
-                avoid · how-korean-to-global · how-hanja-meaning · what-we-dont-use
-    작업 중     what-we-sell · hanja-basics · hanja
+**남은 자리 하나** — 터키어 `guide/avoid`의 한 문단이 영어로 남았다. 번역기가 `王` 옆에
+「왕」을 계속 덧붙여 「원문에 없던 한글」 검사에 걸린다(세 번 돌려도 같음). 한자 예시에 뜻을
+달아(`王 임금`) 「제」는 해결됐으나 「왕」이 남았다. 다음에 다시 돌려 볼 것.
 
 `notices.ts`는 **메타데이터만** 남겼다(id·날짜·종류). 글은 로케일 자료가 공지 id로 갖는다 —
 날짜를 스물세 벌로 복제하면 어긋날 수 있고, 어긋난 날짜는 언제 알렸는지를 다투게 만든다.
@@ -180,8 +180,7 @@ node ../../scripts/verify-doc-locales.mjs
 
 ### naminglink
 
-1. `what-we-sell` · `hanja-basics` · `hanja` 번역 마무리 → 검증 → 배포
-2. **`audience` → `track` 전환.** 지금은 `audience: "ko" | "global"`이 **언어와 대상 서비스를
+1. **`audience` → `track` 전환.** 지금은 `audience: "ko" | "global"`이 **언어와 대상 서비스를
    겸하고** 있어, 한국어 이용자는 상세 10편을 보고 그 외 언어는 요약 3편만 본다. 문서를 가르는
    기준은 **언어가 아니라 어느 서비스를 설명하는가**여야 한다(사용자 확인):
 

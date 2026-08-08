@@ -443,6 +443,16 @@ export const EN_DOCS = {
           },
           {
             "figure": "hanja-match-flow",
+            "labels": {
+              "soundStep": "① Fix the sound",
+              "soundNote": "We never change it to fit a character",
+              "tableStep": "② Filter by the official table",
+              "tableBody": "only characters assigned that reading",
+              "tableNote": "from all {total} characters in the table",
+              "tableNoteNoCount": "only characters that are in the table",
+              "combineStep": "③ Read the two together",
+              "combineNote": "the meaning is how the pair reads, not each character alone"
+            },
             "caption": "This is the order in which candidates are narrowed down. It is not about choosing hanja first and matching the sounds, but rather that the sounds come first, and only characters designated to be read with that sound become candidates."
           }
         ]
@@ -544,6 +554,16 @@ export const EN_DOCS = {
         "blocks": [
           {
             "figure": "five-elements",
+            "labels": {
+              "alt": "The five elements placed in a circle: generation runs between neighbours, control skips one",
+              "wood": "wood",
+              "fire": "fire",
+              "earth": "earth",
+              "metal": "metal",
+              "water": "water",
+              "saeng": "Generation — each gives rise to its neighbour",
+              "geuk": "Control — each restrains the one it skips to"
+            },
             "caption": "The relationships among the five elements. Moving along the circle represents mutual generation (相生), while skipping one and pressing down represents mutual restraint (相剋). We use this relationship only as a supplementary axis for comparing candidates."
           },
           {

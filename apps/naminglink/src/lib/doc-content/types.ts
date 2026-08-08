@@ -58,7 +58,21 @@ export type DocBlock =
    * SVG 를 문자열로 자료에 넣으면 번역기가 그 안의 좌표와 태그를 건드린다. 이름만 두면 옮길
    * 것은 설명(`caption`) 하나뿐이고, 아는 이름이 아니면 아무것도 그려지지 않아 눈에 띈다.
    */
-  | { figure: DocFigure; caption: string };
+  | {
+      figure: DocFigure;
+      caption: string;
+      /**
+       * **그림 안의 글자.**
+       *
+       * 처음에는 이름과 설명만 두었는데, 그 그림들이 **자기 안에 글자를 품고 있었다** —
+       * 「소리를 고정」·「대법원 표로 거르기」·오행의 「상생·상극」이 컴포넌트에 한국어로 박혀
+       * 스물세 언어 화면에 그대로 나갔다(2026-08-09 실측에서 발견). 본문만 자료로 옮기고
+       * 그림 속 글자를 잊은 것이다.
+       *
+       * 키는 컴포넌트가 아는 이름이고, 없으면 그 자리는 비운다.
+       */
+      labels: Record<string, string>;
+    };
 
 /** 그릴 수 있는 그림. 늘릴 때는 `DocBody`의 표에 함께 더한다. */
 export type DocFigure = "hanja-match-flow" | "five-elements";
