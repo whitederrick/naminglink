@@ -73,6 +73,14 @@ export type DocSection = {
   kind?: "section" | "note";
   title?: string;
   blocks: DocBlock[];
+  /**
+   * 화면이 이 절 끝에 끼워 넣을 것의 이름.
+   *
+   * **자료로 만들 수 없는 것이 있다.** 인명용 한자 목록의 초성 단추들처럼 눌러서 넘어가는
+   * 것, 자료에서 읽어 그리는 표가 그렇다. 그런 자리는 이름만 두고 화면이 넘긴다
+   * (`DocBody`의 `slots`). 자료에는 글만 남고, 글은 번역되고, 대화형 부분은 화면에 남는다.
+   */
+  slot?: string;
 };
 
 /**

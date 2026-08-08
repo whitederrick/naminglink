@@ -300,7 +300,7 @@ export const EN_DOCS = {
             "p": "There are characters that are included in the list of characters for personal names and **are legally acceptable**, yet are considered unsuitable for names."
           },
           {
-            "p": "The underlying thought is that **\"excessive meaning is actually undesirable.\"** This includes characters that are considered too precious (珍·寶), characters viewed as having too strong a presence (王·帝), and those regarded as too grand for a person to embody, like heaven or deities. This reflects an old sense of restraint, believing that a name can overshadow the person."
+            "p": "The underlying thought is that **\"excessive meaning is actually undesirable.\"** This includes characters that are considered too precious (珍 treasure, 寶 jewel), characters viewed as having too strong a presence (王 king, 帝 emperor), and those regarded as too grand for a person to embody, like heaven or deities. This reflects an old sense of restraint, believing that a name can overshadow the person."
           },
           {
             "p": "**However, these characters are not unusable.** It is not a legal prohibition but a custom, and customs vary by region, family, and generation, and can change over time."
@@ -554,6 +554,257 @@ export const EN_DOCS = {
           },
           {
             "p": "If you want a precise saju-based analysis, we cover that in a separate detailed report. The reason we do not prioritize the five elements in the free hanja matching is that we do not want to present judgments based on the five elements derived from an incomplete birth date and time as if they were definitive."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/what-we-sell": {
+    "eyebrow": "Paid Products",
+    "title": "What is included in paid products?",
+    "summary": "We clarify how much is visible for free and what additional features come with payment for each product. Prices are retrieved from the actual product settings.",
+    "backLabel": "Usage Guide",
+    "sections": [
+      {
+        "title": "What is visible for free?",
+        "blocks": [
+          {
+            "p": "Creating a name and viewing the results is **free**. No membership registration is required. You can see the matching meanings of hanja, creating Korean names, global name conversion, and Hangul pronunciation notation, along with recommended results and their justifications on the screen."
+          },
+          {
+            "p": "Paid products do not **resell what has already been shown on the screen.** They open more candidates, add more explanations, or create a format that can be stored or transmitted."
+          }
+        ]
+      },
+      {
+        "title": "Full disclosure of all candidates — {priceUnlock}",
+        "blocks": [
+          {
+            "p": "Recommended results are structured to open candidates one by one. When viewing ads, one opens at a time, while this product **opens all remaining candidates at once**."
+          },
+          {
+            "p": "If you are not in a hurry, you do not have to purchase. The **results from opening via ads and those from payment are completely the same** — it is just a matter of waiting, and paying does not yield better candidates."
+          }
+        ]
+      },
+      {
+        "title": "Hanja Details — Three Stages",
+        "blocks": [
+          {
+            "p": "There are three detailed products in the flow of selecting hanja to attach to a Hangul name."
+          },
+          {
+            "ul": [
+              "**Maximum 5 hanja candidates detailed** — {priceFiveDetail}. You can expand explanations for up to five candidates on the screen. There is no PDF.",
+              "**Maximum 10 hanja candidates extended detailed PDF** — {priceTenDetail}. The number of candidates increases to ten, and a PDF document is included.",
+              "**Maximum 10 hanja candidates saju and the five elements comprehensive report** — {priceTenSaju}. In addition to the above, it includes the saju chart derived from the birth date and the forces of the five elements, examining why a particular hanja suits that name from the perspective of the five elements."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Hanja itself is publicly available information",
+        "blocks": [
+          {
+            "p": "The usable hanja and their meanings come from the official name-hanja table set by the Supreme Court of Korea, and all are publicly available in the service's guidance documents. What the paid products sell is not hanja information but **the act of selecting and explaining it according to the name**."
+          }
+        ]
+      },
+      {
+        "title": "PDFs for Global Users",
+        "blocks": [
+          {
+            "p": "Documents available for converting foreign names into Korean names or writing names in Hangul. Prices follow the amounts displayed on the payment screen."
+          },
+          {
+            "ul": [
+              "**Korean Name Premium Report** — 3 pages. Includes a calligraphy cover, the meaning of the name and the reason for choosing it, and saju and the five elements interpretation.",
+              "**Hangul Name Art** — 2 pages. Includes a calligraphy cover and pronunciation guide. It contains how to write the name in Hangul and how to pronounce it."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Name Stamp",
+        "blocks": [
+          {
+            "p": "We engrave the name created on the screen into a physical stamp and send it to you. Prices vary by model — round seal {priceStampRound}, square seal {priceStampSquare}, ebony seal {priceStampEbony}. International shipping is also available."
+          },
+          {
+            "p": "**From here, products include shipping.** Unlike the previous items, production and shipping take time, and a receiving address is required. Shipping information is used only for order processing and legal retention, and once processing is complete, it will be destroyed after the period specified in the policy."
+          }
+        ]
+      },
+      {
+        "title": "Things to Know Before Buying",
+        "blocks": [
+          {
+            "p": "**Digital products are provided immediately upon payment.** You can cancel and receive a full refund at any time before the download starts, but once the download is complete, withdrawal due to simple change of mind is restricted (Article 17, Paragraph 2 of the Electronic Commerce Act). This condition is separately agreed upon on the payment screen."
+          },
+          {
+            "p": "**Complaints about the content of the results are not a reason for a refund.** However, if the document was not created, the file cannot be opened, or the payment amount differs from the order, it will be processed as a reissue or full refund."
+          },
+          {
+            "p": "Detailed conditions are outlined in the [Refund Policy](/refund-policy) and [Pricing Guide](/pricing). This text serves as a guide to what is included, and the legal conditions are prioritized in those two documents."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/hanja-basics": {
+    "eyebrow": "System",
+    "title": "What is the official name-hanja?",
+    "summary": "The hanja that can be used for children's names has been established by the Supreme Court in a table. This summarizes what the table is and why it has been set.",
+    "backLabel": "Usage Guide",
+    "sections": [
+      {
+        "title": "What is the official name-hanja?",
+        "blocks": [
+          {
+            "stats": [
+              {
+                "value": "{characterTotal} characters",
+                "label": "Official name-hanja"
+              },
+              {
+                "value": "{syllableCount} syllables",
+                "label": "Hangul syllables included"
+              },
+              {
+                "value": "{effectiveDate}",
+                "label": "Table reference date"
+              }
+            ]
+          },
+          {
+            "p": "You cannot use just any character for a child's name. **The hanja that can be used for birth registration has been established by the Supreme Court in a table, and only the characters in that table can be registered as the hanja for names.** This is called official name-hanja."
+          }
+        ]
+      },
+      {
+        "title": "Why has it been established?",
+        "blocks": [
+          {
+            "p": "There are tens of thousands of hanja. Among them, some have unpleasant meanings, some are no longer used and have no known readings, and some cannot be displayed on computers at all. If such characters are included in a name, the person who ultimately bears the burden is the one who will use that name for a lifetime. Names can be broken or read differently in various places such as resident registration, passports, banks, and schools, requiring the individual to explain their own name."
+          },
+          {
+            "p": "Therefore, a method has been chosen to predefine the range of hanja that can be used in names. Rather than being a restrictive regulation, it is more of a mechanism to ensure that names can be used without issues throughout a person's life."
+          }
+        ]
+      },
+      {
+        "title": "What is the basis for the definitions?",
+        "blocks": [
+          {
+            "p": "The Supreme Court establishes the official name-hanja table, which is revised as necessary, and characters are added."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Materials used in this screen",
+        "blocks": [
+          {
+            "p": "{publisher} official name-hanja data · As of {effectiveDate}"
+          },
+          {
+            "p": "{characterTotal} characters cover {syllableCount} Hangul syllables. The hash value of the original file is also stored, so if the table changes, it can be checked when and what has changed."
+          }
+        ]
+      },
+      {
+        "title": "The number of characters announced by the Supreme Court differs from what we show",
+        "blocks": [
+          {
+            "p": "**The official name-hanja announced by the Supreme Court is {announcedTotal} characters, while what we present as candidates is {characterTotal} characters.** There is no reason to hide this difference, so we state it plainly."
+          },
+          {
+            "p": "If you check the Supreme Court's inquiry data, it contains {listedTotal} characters. Among them, **{excludedNoStandardCode} characters** are **characters that do not have a place in the global common character code (Unicode).** The Supreme Court's system treats such characters with numbers that only work within its own system, and they are displayed as **images** rather than characters on the screen."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Adding more fonts won't solve the issue",
+        "blocks": [
+          {
+            "p": "For a character to appear on the screen, it must have a **number agreed upon by the world**, and the font contains the image corresponding to that number. Characters that do not have a number cannot be included in any font. No matter how many fonts we add, these characters will appear as empty squares."
+          }
+        ]
+      },
+      {
+        "title": "Therefore, they have been removed from the candidates",
+        "blocks": [
+          {
+            "p": "**Filling the list with characters that cannot be displayed is not helpful.** Most of the meanings of these characters are also empty in our data, which does not align with the service's method of choosing names based on meanings."
+          },
+          {
+            "p": "**The more important reason lies with the person who will use the name.** A name is a value that will be entered in various places throughout a person's life. Characters without character codes may not be able to be entered or printed in systems for banks, schools, hospitals, or passports, even after completing birth registration. Therefore, we cannot recommend such characters."
+          },
+          {
+            "p": "However, **we do not determine whether those characters can be used or not.** Since they are characters in the Supreme Court's table, registration itself may be possible. If you really want to use that character, please check directly in the Supreme Court's electronic family relationship registration system, and **inquire with the relevant authority about the actual usability.**"
+          }
+        ]
+      },
+      {
+        "title": "If you want to use hanja not in the table",
+        "blocks": [
+          {
+            "p": "You cannot use them. To be precise, those characters will not be registered as hanja for the name, and the name will only be recorded in Hangul. If you want to use hanja alongside, you must choose from the table."
+          },
+          {
+            "p": "Therefore, we do not present characters that are not in the table as candidates. All hanja visible on the screen are characters that can actually be used for birth registration. The complete list is available in the [Complete List of Official Name-Hanja](/guide/hanja)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/hanja": {
+    "eyebrow": "List",
+    "title": "Complete List of Official Name Hanja",
+    "summary": "We have organized the hanja that can be used for birth registration by initial consonant. You can see the designated reading and meaning for each character when used in names.",
+    "backLabel": "Usage Guide",
+    "sections": [
+      {
+        "title": "Search by Initial Consonant",
+        "slot": "chosung",
+        "blocks": [
+          {
+            "p": "This includes all {characterTotal} characters from the Supreme Court's official name-hanja table. Each character includes the **reading when used in names** and its meaning. Characters not included in the table cannot be registered as name hanja, so you should choose from the characters listed here."
+          },
+          {
+            "p": "The two numbers on the button below represent the **number of characters with that initial consonant** and the **number of syllables covered**."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "If the character you are looking for is not in the list",
+        "blocks": [
+          {
+            "p": "The number of characters announced by the Supreme Court is {announcedTotal}, but this list contains {characterTotal} characters. **The difference of {excludedNoStandardCode} characters are those that cannot be displayed in any font due to the lack of a place in the universal character code.** The Supreme Court's system shows those characters as images."
+          },
+          {
+            "p": "We have detailed the reasons for this and why we do not recommend those characters in [What is Official Name Hanja?](/guide/hanja-basics). You should check with the relevant authority for the actual usability of those characters."
+          }
+        ]
+      },
+      {
+        "title": "Initial Consonants with Few Characters",
+        "slot": "tiny",
+        "blocks": [
+          {
+            "p": "The initial consonants below have very few official name hanja, so we have displayed them here without a separate page."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "How to Read This List",
+        "blocks": [
+          {
+            "p": "For **伽 · 가 · 절**, when using \"伽\" in a name, it is read as **가** and means \"temple\". Even for the same hanja, the reading when used in names is fixed by the table, and it cannot be used in any other way."
           }
         ]
       }

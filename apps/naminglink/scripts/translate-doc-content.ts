@@ -290,6 +290,23 @@ function bundleOf(docs: unknown, notices: unknown) {
   return { docs, notices };
 }
 
+/**
+ * **en에 없는 문서가 있으면 멈춘다.**
+ *
+ * 로케일 파일은 en의 구조를 복사해 만든다. 그래서 한국어에만 있는 문서는 **조용히 빠진다** —
+ * 23개 로케일을 다 돌리고 나서야 그 문서가 어디에도 없다는 것을 알게 된다(실제로 그렇게
+ * 한 번 헛돌았다). 먼저 `--fill-en`을 돌리라고 여기서 말한다.
+ */
+function requireEnglish() {
+  const missing = Object.keys(KO_DOCS).filter((key) => !(key in EN_DOCS));
+  if (!missing.length) return;
+  console.error(
+    `en에 없는 문서 ${missing.length}편: ${missing.join(", ")}\n` +
+      "  먼저 `--fill-en`을 돌릴 것 — 지금 로케일을 만들면 이 문서들이 통째로 빠진다.",
+  );
+  process.exit(1);
+}
+
 async function run(locale: string, key: string) {
   /**
    * **구조의 본은 보통 en이다.** 사람이 쓴 영어가 어투와 절 구성의 기준이기 때문이다.
@@ -460,6 +477,7 @@ async function main() {
   if (fillEn) {
     process.exit((await fillEnglish(key)) === 0 ? 0 : 1);
   }
+  requireEnglish();
   for (const locale of targets) {
     problems += await run(locale, key);
   }

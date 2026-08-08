@@ -3,17 +3,14 @@ import type { Metadata } from "next";
 import { DocBody } from "@/components/DocBody";
 import { GuideShell } from "@/components/GuideShell";
 import { getDocPage } from "@/lib/doc-content";
+import { docValues } from "@/lib/doc-values";
 import { guideHubHref } from "@/lib/guide-back";
-import { getGuideCounts } from "@/lib/guide-data";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { buildPageMetadata } from "@/lib/seo";
 
 /**
- * 본문은 `lib/doc-content`에 있다 — 23개 언어가 이 서비스의 약속이라서다.
- *
- * **숫자는 여기서 넘긴다.** 본문에는 `{avoidTotal}`처럼 자리표시자만 있고 값은 자료에서 읽는다.
- * 표가 갱신되면 글의 숫자도 함께 바뀌어야 하기 때문이다. 조회에 실패하면 그 블록은 그려지지
- * 않는다(`DocBody`) — 화면에 `{avoidTotal}`이 그대로 나가는 것보다 낫다.
+ * 본문은 `lib/doc-content`에 있고 숫자·값은 `docValues()`가 채운다 — 23개 언어가 이 서비스의
+ * 약속이고, 값은 자료가 정해야 글과 실제가 어긋나지 않기 때문이다.
  */
 
 type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
@@ -40,7 +37,7 @@ export default async function Page({ searchParams }: PageProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
   const doc = getDocPage(locale, KEY);
-  const counts = await getGuideCounts();
+  const values = await docValues();
 
   return (
     <GuideShell
@@ -51,19 +48,7 @@ export default async function Page({ searchParams }: PageProps) {
       backHref={guideHubHref(locale, params?.from)}
       backLabel={doc.backLabel}
     >
-      <DocBody
-        sections={doc.sections}
-        locale={locale}
-        values={
-          counts
-            ? {
-                avoidTotal: counts.avoidTotal.toLocaleString("en-US"),
-                avoidCommonlyUsed: counts.avoidCommonlyUsed.toLocaleString("en-US"),
-                characterTotal: counts.characterTotal.toLocaleString("en-US"),
-              }
-            : {}
-        }
-      />
+      <DocBody sections={doc.sections} locale={locale} values={values} />
     </GuideShell>
   );
 }

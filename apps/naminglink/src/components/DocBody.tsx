@@ -124,25 +124,35 @@ export function DocBody({
   locale,
   /** `{email}` 같은 자리표시자를 채울 값. 사업자 정보는 화면이 DB에서 읽어 넘긴다. */
   values = {},
+  /** 자료로 만들 수 없는 것(대화형 목록·표)을 절 끝에 끼워 넣는다. `DocSection.slot` 참고. */
+  slots = {},
 }: {
   sections: readonly DocSection[];
   locale: Locale;
   values?: Record<string, string>;
+  slots?: Record<string, ReactNode>;
 }) {
   return (
     <>
       {sections.map((section, index) => {
-        const blocks = section.blocks.map((block, blockIndex) => (
+        const blocks: ReactNode[] = section.blocks.map((block, blockIndex) => (
           <Block key={blockIndex} block={block} locale={locale} values={values} />
         ));
+        // 화면이 준 것이 없으면 아무것도 끼우지 않는다 — 이름만 있고 준 것이 없는 자리는 빈다.
+        if (section.slot && slots[section.slot]) blocks.push(slots[section.slot]);
+
+        // 제목에도 값이 들어간다 — 「후보 전체 일괄 공개 — {priceUnlock}」처럼 가격을 붙이는
+        // 자리가 있다. 못 채운 자리표시자가 제목에 남으면 그 절은 통째로 그리지 않는다.
+        const title = section.title === undefined ? undefined : fill(section.title, values);
+        if (title !== undefined && unresolved(title)) return null;
 
         return section.kind === "note" ? (
-          <GuideNote key={index} title={section.title}>
+          <GuideNote key={index} title={title}>
             {blocks}
           </GuideNote>
         ) : (
           // 제목 없는 절은 `GuideSection`이 받지 않는다(제목이 필수다). 그런 자리는 note로 쓴다.
-          <GuideSection key={index} title={section.title ?? ""}>
+          <GuideSection key={index} title={title ?? ""}>
             {blocks}
           </GuideSection>
         );
