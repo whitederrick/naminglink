@@ -1,4 +1,4 @@
-import type { Locale } from "@/lib/i18n";
+import { getDictionary, type Dictionary, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
 /**
@@ -15,37 +15,40 @@ import { localePath } from "@/lib/locale-path";
  * 서비스가 정해져 있지 않다. 아무 화면이나 하나 골라 두면 푸터에서 들어온 사람이 눌러 본 적
  * 없는 입력 화면으로 끌려간다.
  */
+/**
+ * 돌아갈 곳과, **그 화면의 이름을 어느 사전 자리에서 읽을지.**
+ *
+ * 예전에는 여기에 `koLabel`·`enLabel` 두 벌이 박혀 있었다. 문서가 한국어판·영어판 둘뿐일
+ * 때는 맞는 말이었지만, 본문이 23개 언어로 나가는 지금은 **문서만 그 언어이고 돌아가기
+ * 단추만 영어**가 된다. 서비스 이름은 이미 로케일 사전이 23벌로 갖고 있으므로 거기서 읽는다 —
+ * 새로 번역할 것이 없고, 메뉴에 적힌 이름과 어긋날 수도 없다.
+ */
 type GuideOrigin = {
   path: string;
-  koLabel: string;
-  /** 문서가 한국어판·영어판 둘로만 갈리므로 그 밖의 언어는 전부 영어 문구를 쓴다. */
-  enLabel: string;
+  label: (dictionary: Dictionary) => string;
 };
 
 const ORIGINS: Record<string, GuideOrigin> = {
-  compatibility: {
-    path: "/compatibility",
-    koLabel: "사주 궁합",
-    enLabel: "Back to compatibility",
-  },
-  affinity: {
-    path: "/affinity",
-    koLabel: "인연의 결",
-    enLabel: "Back to your match profile",
-  },
+  compatibility: { path: "/compatibility", label: (d) => d.landing.cta },
+  affinity: { path: "/affinity", label: (d) => d.affinity.menu },
 };
-
-const HOME: GuideOrigin = { path: "/", koLabel: "홈", enLabel: "Home" };
 
 export type GuideOriginKey = keyof typeof ORIGINS;
 
-/** 안내 문서에서 돌아가는 링크. 부른 화면이 있으면 그곳으로, 없으면 홈으로. */
-export function guideBackLink(locale: Locale, from?: string) {
-  const origin = (from ? ORIGINS[from] : undefined) ?? HOME;
+/**
+ * 안내 문서에서 돌아가는 링크. 부른 화면이 있으면 그곳으로, 없으면 홈으로.
+ *
+ * `homeLabel`을 **받게** 한 것은 홈 이름만 사전에 없기 때문이다. 부르는 쪽에는 이미 그 로케일의
+ * 문서가 있고 문서가 `backLabel`(「처음으로」)을 갖고 있으므로, 여기서 영어 기본값을 두는 대신
+ * 넘기게 한다 — 기본값을 두면 그 값이 23개 언어에서 그대로 나가는 날이 온다.
+ */
+export function guideBackLink(locale: Locale, from: string | undefined, homeLabel: string) {
+  const origin = from ? ORIGINS[from] : undefined;
+  if (!origin) return { href: localePath("/", locale), label: homeLabel };
 
   return {
     href: localePath(origin.path, locale),
-    label: locale === "ko" ? origin.koLabel : origin.enLabel,
+    label: origin.label(getDictionary(locale)),
   };
 }
 

@@ -35,11 +35,41 @@ const SEOUL_CORRECTION = Math.round(((KST_MERIDIAN - SEOUL_LONGITUDE) / 15) * 60
 const problems: string[] = [];
 let checked = 0;
 
+/**
+ * **본문이 어디에 있는가.**
+ *
+ * 2026-08-09에 안내 본문이 `page.tsx`의 JSX에서 `lib/doc-content/ko.ts`로 옮겨졌다(23개 언어).
+ * 그 뒤로 이 검사기는 **숫자를 0개 대조하고 있었다** — `page.tsx`에는 배선만 남아 셀 것이
+ * 없는데, 없는 것을 세면 **아무 문제도 못 찾고 초록에 가까운 얼굴로 돈다.** 대조군이 그것을
+ * 잡아 「이 결과를 믿지 말 것」이라고 말해 주지 않았으면 통과로 읽혔을 자리다.
+ *
+ * 그래서 **한국어 원문에서 읽는다.** 옮기지 않은 문서(형제 앱)는 아직 `page.tsx`에 있으므로
+ * 둘 다 본다 — 하나가 비면 다른 하나를 쓴다.
+ */
+const KO_DOC = path.join(process.cwd(), "src", "lib", "doc-content", "ko.ts");
+const koSource = existsSync(KO_DOC) ? readFileSync(KO_DOC, "utf8") : "";
+
+/** 한국어 원문에서 문서 하나의 글만 잘라 낸다. 다음 문서 키가 나오는 자리에서 끊는다. */
+function docContentProse(slug: string) {
+  const start = koSource.indexOf(`"guide/${slug}"`);
+  if (start < 0) return "";
+  const rest = koSource.slice(start + 1);
+  const next = rest.search(/\n {2}["a-zA-Z][\w/-]*: \{/);
+  return (next < 0 ? rest : rest.slice(0, next)).replace(/\s+/g, " ");
+}
+
 // ── 문서를 모은다 ──────────────────────────────────────────────────────────
 const docs: Array<{ slug: string; text: string }> = [];
 for (const slug of readdirSync(GUIDE)) {
   const file = path.join(GUIDE, slug, "page.tsx");
   if (!existsSync(file)) continue;
+
+  const moved = docContentProse(slug);
+  if (moved) {
+    docs.push({ slug, text: moved });
+    continue;
+  }
+
   docs.push({
     slug,
     // 주석은 검사하지 않는다(옛 값을 경위로 적어 두는 자리다). JSX 태그도 걷어낸다 —
@@ -97,7 +127,11 @@ console.log("\n진태양시 보정");
 {
   let found = 0;
   for (const doc of docs) {
-    for (const match of doc.text.matchAll(/(\d+)분\s*입니다/g)) {
+    // 강조 표기가 **문서를 옮기면서 바뀐다.** JSX 시절에는 `<b>32분</b>입니다`였고 태그를
+    // 지우면 「32분 입니다」가 되어 `\s*`로 맞았는데, 자료에서는 `**32분**입니다`라 그 사이에
+    // 별표가 낀다. 그래서 **강조 표기까지 건너뛰게** 해 둔다 — 안 그러면 이 검사가 0개를 세고,
+    // 0개를 세는 검사는 아무 말도 하지 않으면서 도는 것처럼 보인다.
+    for (const match of doc.text.matchAll(/(\d+)분(?:\*\*|\s)*입니다/g)) {
       found += 1;
       checked += 1;
       const written = Number(match[1]);

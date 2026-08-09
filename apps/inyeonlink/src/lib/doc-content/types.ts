@@ -1,3 +1,5 @@
+import type { NoticeKind } from "@/lib/notices";
+
 /**
  * 편집 문서(안내·소개·공지·문의)의 자료형.
  *
@@ -134,8 +136,15 @@ export type DocSection = {
  * 만든다. 여기 있는 것은 **읽는 글**뿐이고, 공지 본문은 `items`에 **공지 id로** 붙는다.
  */
 export type NoticeCopy = {
-  /** 종류 꼬리표. 키는 `NoticeKind`와 같아야 한다 — 화면이 그 값으로 찾는다. */
-  kindLabels: { service: string; product: string; policy: string; support: string };
+  /**
+   * 종류 꼬리표.
+   *
+   * **`NoticeKind`에서 직접 뽑는다.** 예전에는 키를 손으로 적어 두었는데, 그 표를 형제 앱에서
+   * 복사해 오면서 네이밍링크의 `policy`가 그대로 따라왔다 — 이 앱에는 없는 종류다. 반대로 이
+   * 앱의 `engine`(계산 기준)은 꼬리표가 없어, 그 종류의 공지가 이름 없이 나갈 수 있었다.
+   * 타입이 강제하면 종류를 늘리는 날 스물세 벌이 함께 빨간불이 된다.
+   */
+  kindLabels: Record<NoticeKind, string>;
   /** 머리의 강조 상자. 여기에 무엇을 적고 무엇을 안 적는지 밝힌다. */
   intro: string;
   /** 공지가 하나도 없을 때. 지금은 안 보이지만 비는 날이 온다. */

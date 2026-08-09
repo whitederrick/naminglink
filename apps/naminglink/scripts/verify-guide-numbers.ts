@@ -44,11 +44,38 @@ function declaredPages(file: string): number {
   return (readFileSync(full, "utf8").match(/<Page([^A-Za-z]|$)/gm) ?? []).length;
 }
 
+/**
+ * **본문이 어디에 있는가.**
+ *
+ * 2026-08-09에 안내 본문이 `page.tsx`의 JSX에서 `lib/doc-content/ko.ts`로 옮겨졌다(23개 언어).
+ * 그 뒤로 이 검사기는 **숫자를 0개 대조하고 있었다** — `page.tsx`에는 배선만 남아 셀 것이
+ * 없는데, 없는 것을 세면 **아무 문제도 못 찾고 초록에 가까운 얼굴로 돈다.** 대조군이 그것을
+ * 잡아 「이 결과를 믿지 말 것」이라고 말해 주지 않았으면 통과로 읽혔을 자리다.
+ */
+const KO_DOC = path.join(process.cwd(), "src", "lib", "doc-content", "ko.ts");
+const koSource = existsSync(KO_DOC) ? readFileSync(KO_DOC, "utf8") : "";
+
+/** 한국어 원문에서 문서 하나의 글만 잘라 낸다. 다음 문서 키가 나오는 자리에서 끊는다. */
+function docContentProse(slug: string) {
+  const start = koSource.indexOf(`"guide/${slug}"`);
+  if (start < 0) return "";
+  const rest = koSource.slice(start + 1);
+  const next = rest.search(/\n {2}["a-zA-Z][\w/-]*: \{/);
+  return (next < 0 ? rest : rest.slice(0, next)).replace(/\s+/g, " ");
+}
+
 // ── 문서를 모은다 ──────────────────────────────────────────────────────────
 const docs: Array<{ slug: string; text: string }> = [];
 for (const slug of readdirSync(GUIDE)) {
   const file = path.join(GUIDE, slug, "page.tsx");
   if (!existsSync(file)) continue;
+
+  const moved = docContentProse(slug);
+  if (moved) {
+    docs.push({ slug, text: moved });
+    continue;
+  }
+
   docs.push({
     slug,
     text: (() => {

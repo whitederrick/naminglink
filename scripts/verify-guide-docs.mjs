@@ -90,11 +90,17 @@ function entriesOf(app) {
   const entries = [];
   // `audience` 는 2026-08-09에 `track` 으로 바뀌었다 — 문서를 가르는 기준이 언어가 아니라
   // 어느 서비스를 설명하는가로 옮겨졌기 때문이다. 옛 형태(형제 앱)도 아직 읽어야 한다.
-  const re = /slug:\s*"([a-z0-9-]+)"[\s\S]*?(?:track|audience):\s*"(ko|global|korean|common)"/g;
+  //
+  // **갈래 이름을 목록으로 두지 않는다.** 처음에는 `(ko|global|korean|common)` 으로 적어
+  // 두었는데, 인연링크가 자기 서비스 이름(`gunghap`·`affinity`)을 쓰자 그 줄들이 안 맞았다.
+  // 안 맞으면 **0건이 되는 것이 아니라 짝이 밀려 붙는다** — 첫 슬러그가 한참 뒤의 갈래와
+  // 짝지어져 조용히 틀린 표를 만든다. 갈래 이름은 앱마다 다른 것이 정상이므로 무엇이든 받는다.
+  const re = /slug:\s*"([a-z0-9-]+)"[\s\S]*?(?:track|audience):\s*"([a-z-]+)"/g;
   let match;
   while ((match = re.exec(source))) {
     // `track` 은 대상 서비스를 뜻하고 `audience` 는 언어를 뜻했다. 아래 검사들은 아직 언어
-    // 기준이므로, 옮긴 앱(track)은 「한국어 원문이 기준」인 ko 로 접어 둔다.
+    // 기준이므로, **`global` 이라고 적힌 옛 값만** global 로 보고 나머지는 「한국어 원문이
+    // 기준」인 ko 로 접어 둔다. 옮긴 앱에는 언어 검사가 걸리지 않으므로 이 접기는 무해하다.
     const track = match[2];
     entries.push({ slug: match[1], audience: track === "global" ? "global" : "ko" });
   }

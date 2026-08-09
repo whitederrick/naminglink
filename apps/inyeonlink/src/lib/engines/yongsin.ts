@@ -44,8 +44,8 @@ export type Yongsin = {
  * 중화는 억부로 가릴 수 없다는 뜻이므로 **덜 확신하는 판정**이고, 이때는 단순히 얇은 기운을
  * 필요한 것으로 본다.
  */
-const STRONG_THRESHOLD = 0.45;
-const WEAK_THRESHOLD = 0.35;
+export const STRONG_THRESHOLD = 0.45;
+export const WEAK_THRESHOLD = 0.35;
 
 export function resolveYongsin(
   dayMasterElement: FiveElement,

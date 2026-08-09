@@ -43,7 +43,9 @@ import type { DocPage, NoticeCopy } from "./types";
  * 상태가 완성처럼 보인다. 번역이 안 됐으면 그 사실이 보여야 한다 —
  * `scripts/verify-doc-locales.mjs`가 로케일 파일과 등록부를 함께 센다.
  *
- * ko·en은 사람이 쓴 원문이고, 나머지 21개는 `scripts/translate-doc-content.ts`가 en의 구조를
+ * ko는 뜻의 기준이고 en은 그것을 옮긴 뒤 검수한 벌이다. **둘 다 이 저장소에 직접 적혀 있다** —
+ * 「사람이 쓴 원문」이라는 뜻이 아니다(그렇게 적어 두면 다음 사람이 손대면 안 되는 것으로 읽는다).
+ * 나머지 21개는 `scripts/translate-doc-content.ts`가 en의 구조를
  * 복사하고 잎만 갈아 끼워 만든다. **그 파일들은 손으로 고치지 않는다** — 다시 만들면 지워진다.
  */
 const LOCALE_DOCS: Record<Locale, Record<DocKey, DocPage>> = {

@@ -46,7 +46,7 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
   const entries = guideEntriesFor(params?.from);
   const doc = getDocPage(locale, "guide");
   // 안내를 부른 서비스로 돌려보낸다. 없으면 로케일 기본값(`lib/guide-back.ts`).
-  const back = guideBackLink(locale, params?.from);
+  const back = guideBackLink(locale, params?.from, doc.backLabel);
   const originQuery = guideOriginQuery(params?.from);
 
   return (

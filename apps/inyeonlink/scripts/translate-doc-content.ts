@@ -15,8 +15,9 @@
 //
 // 만든 뒤에는 `node ../../scripts/verify-doc-locales.mjs`를 돌린다.
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 import { EN_DOCS, EN_NOTICES } from "../src/lib/doc-content/en";
 import { KO_DOCS, KO_NOTICES } from "../src/lib/doc-content/ko";
@@ -104,7 +105,13 @@ const links = (value: string) =>
  * 됐고, 시험 삼아 돌린 일본어에서는 `ネーミングリンク`가 나왔다. 그 서비스가 쓰지 않는 이름을
  * 지어낸 것이고 화면의 주소(`naming-link.com`)와도 어긋난다. 부탁으로는 안 지켜져서 센다.
  */
-const KEEP_VERBATIM = ["Inyeon-Link", "inyeon-link.com"];
+const KEEP_VERBATIM = [
+  "Inyeon-Link",
+  "inyeon-link.com",
+  // 저장하지 않는 방식 안내가 보여 주는 **실제 주소 모양**이다. 경로 조각(`compatibility`)이나
+  // 프래그먼트를 번역하면 그 글이 설명하는 것과 화면의 주소가 달라져 설명이 거짓말이 된다.
+  "/ko/compatibility/result",
+];
 
 /**
  * 한글 덩어리 목록. **원문에 있는 한글은 남아 있어야 한다.**
@@ -133,12 +140,26 @@ const GLOSSARY_ROMAN: Record<string, string> = {
   사주: "saju",
   오행: "the five elements",
   행: "elements",
-  // 아래 셋은 로마자 표기가 아니라 **영어 낱말**이다. 그래도 넣는 이유는 같다 — 이 말들이
+  // 아래는 로마자 표기가 아니라 **영어 낱말**이다. 그래도 넣는 이유는 같다 — 이 말들이
   // 남으면 그 문단이 통째로 영어로 되돌아가는데, 낱말 하나가 영어인 편이 문단 전체보다 낫다.
   // 프롬프트의 GLOSSARY가 이미 같은 뜻을 지시하므로 지어내는 것이 아니다.
-  출생신고: "birth registration",
-  인명용: "name-hanja",
-  명용: "name-hanja",
+  천간: "heavenly stem",
+  지지: "earthly branch",
+  일간: "day stem",
+  일지: "day branch",
+  연지: "year branch",
+  십신: "the Ten Gods",
+  용신: "the supporting element",
+  신강: "a strong day master",
+  신약: "a weak day master",
+  중화: "balanced",
+  삼합: "a full triad",
+  반합: "a half triad",
+  육합: "a six-harmony pair",
+  원진: "quiet discord",
+  진태양시: "true solar time",
+  만세력: "the Korean lunisolar almanac",
+  궁합: "compatibility",
 };
 
 /** 남은 한글이 용어집 낱말뿐이면 표기로 바꾼 문자열을, 아니면 `null`을 준다. */
@@ -203,14 +224,52 @@ const CHUNK = 50;
 
 /** 잎을 나눠 보내고 결과를 합친다. 나누는 자리는 뜻과 무관하므로 순서대로 자른다. */
 async function translate(leaves: Leaf[], locale: string, key: string) {
-  if (leaves.length <= CHUNK) return translateChunk(leaves, locale, key);
-
   const merged: Record<string, string> = {};
   for (let index = 0; index < leaves.length; index += CHUNK) {
-    const part = leaves.slice(index, index + CHUNK);
-    Object.assign(merged, await translateChunk(part, locale, key));
+    Object.assign(merged, await chunkWithRetry(leaves.slice(index, index + CHUNK), locale, key));
   }
   return merged;
+}
+
+/**
+ * 덩어리 하나를 보내되, **깨진 응답에 로케일 전체를 잃지 않는다.**
+ *
+ * 2026-08-09 말레이어에서 모델이 한 글자(`重`)를 수천 번 반복해 응답이 한도에서 끊겼다
+ * (`Unterminated string in JSON`). 크기 때문이 아니다 — 잎 50개짜리 덩어리였고, 같은 입력이
+ * 다른 로케일에서는 멀쩡했다. **모델이 한 번 빠지는 구덩이**다.
+ *
+ * 그때 죽은 것은 그 덩어리가 아니라 **그 명령 전체**였다. 뒤에 줄 서 있던 두 로케일이 시작도
+ * 못 했고, 20분이 그대로 날아갔다. 그래서 다시 보내 보고, 그래도 안 되면 반으로 잘라 본다 —
+ * 덩어리가 작아지면 반복에 빠질 자리도 줄어든다.
+ *
+ * **그래도 안 되면 던진다.** 조용히 건너뛰면 그 잎들이 영어로 남고, 영어로 남은 자리는
+ * 화면에서 정상처럼 보인다.
+ */
+async function chunkWithRetry(
+  leaves: Leaf[],
+  locale: string,
+  key: string,
+  depth = 0,
+): Promise<Record<string, string>> {
+  try {
+    return await translateChunk(leaves, locale, key);
+  } catch (error) {
+    // 깨진 JSON에만 다시 시도한다. 열쇠가 틀렸거나 한도에 걸린 것이라면 다시 보내도 같다.
+    if (!(error instanceof SyntaxError) || depth >= 3) throw error;
+
+    // 잎이 하나면 더 쪼갤 수 없으니 그대로 다시 보낸다 — 표본이 달라지면 대개 빠져나온다.
+    if (leaves.length === 1) {
+      console.log(`  ${locale} — 응답이 깨졌다(잎 1개). 다시 보낸다 [${depth + 1}]`);
+      return chunkWithRetry(leaves, locale, key, depth + 1);
+    }
+
+    const half = Math.ceil(leaves.length / 2);
+    console.log(`  ${locale} — 응답이 깨졌다(잎 ${leaves.length}개). ${half}개씩 나눠 보낸다`);
+    return {
+      ...(await chunkWithRetry(leaves.slice(0, half), locale, key, depth + 1)),
+      ...(await chunkWithRetry(leaves.slice(half), locale, key, depth + 1)),
+    };
+  }
 }
 
 async function translateChunk(leaves: Leaf[], locale: string, key: string) {
@@ -249,14 +308,24 @@ async function translateChunk(leaves: Leaf[], locale: string, key: string) {
             // **용어를 데이터로 준다.** 「한국어를 남기지 말라」는 부탁만으로는 안 지켜졌다 —
             // 한자·한글 같은 말이 17개 잎에 그대로 남았다. 무엇으로 바꿔야 하는지 알려 준다.
             "GLOSSARY — render these Korean terms with the target language's established word, or the romanisation plus a short gloss. Never leave them in Hangul:",
-            "  한자 = hanja (Chinese characters used in Korean names)",
-            "  한글 = Hangul (the Korean alphabet)",
-            "  사주 = saju (Korean four-pillars reading)",
+            "  사주 = saju (the Korean four-pillars reading)",
             "  오행 = the five elements",
-            "  인명용 한자 = the official name-hanja table set by the Supreme Court of Korea",
-            "  지정 독음 = the fixed reading assigned to a character for use in names",
-            "  성 / 姓 = family name (surname)",
-            "  출생신고 = birth registration",
+            "  한자 = hanja (Chinese characters)",
+            "  천간 = heavenly stem · 지지 = earthly branch · 일간 = day stem · 일지 = day branch · 연지 = year branch",
+            "  십신 = the Ten Gods (how one stem reads another)",
+            "  용신 / 억부용신 = the supporting element a chart currently needs",
+            "  신강 = a strong day master · 신약 = a weak day master · 중화 = balanced, neither strong nor weak",
+            "  삼합 = a full triad · 반합 = a half triad · 육합 = a six-harmony pair",
+            "  충 = a clash · 원진 = a quiet, lasting discord",
+            "  국(局) = a complete elemental formation, not a country",
+            "  진태양시 = true solar time · 만세력 = the Korean lunisolar almanac",
+            "  궁합 = compatibility between two charts · 인연의 결 = the match-profile reading",
+            // **한자 예시는 옮길 것이 아니라 보여 줄 것이다.** 처음 돌렸을 때 육합의 짝
+            // `子丑 · 寅亥 …` 이 통째로 「Rat Ox · Tiger Pig …」가 됐다. 같은 표의 다른 행은
+            // 한자로 남아 **한 표 안에서 두 가지 표기**가 되었고, 그림(십이지 바퀴)이 보여
+            // 주는 글자와도 어긋났다.
+            "CRITICAL: Chinese characters that appear as specimens — earthly branches (子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥), heavenly stems (甲 乙 …), the five elements (木 火 土 金 水) — must be copied EXACTLY as they appear. Never replace them with animal names, element names, or transliterations. They are what the reader is being shown.",
+            "When a term is written as 'word (漢字)', keep the parenthesised characters and translate only the word before them.",
             "CRITICAL: every value in the returned object must be a plain string. Never return an object, an array, or a nested structure for a key.",
             "CRITICAL: keep every {placeholder} token exactly as-is — same tokens, same spelling. They are substituted at runtime with company details.",
             "CRITICAL: keep **bold** markers on the same phrase and the same number of ** markers. If the English has none, yours must have none.",
@@ -328,7 +397,7 @@ function requireEnglish() {
 
 async function run(locale: string, key: string) {
   /**
-   * **구조의 본은 보통 en이다.** 사람이 쓴 영어가 어투와 절 구성의 기준이기 때문이다.
+   * **구조의 본은 보통 en이다.** 검수를 거친 영어가 어투와 절 구성의 기준이기 때문이다.
    *
    * 다만 영어판이 아직 없는 문서가 있다 — 한국어로 먼저 쓰고 영어를 그 위에 얹는 것이
    * 순서이기 때문이다(사용자 지시). 그때는 `--from ko`로 **한국어를 본으로 삼아 영어를
@@ -408,6 +477,15 @@ const args = process.argv.slice(2);
 const fromKo = args.includes("--from-ko");
 /** 한국어에만 있는 문서의 영어를 채운다. `en.ts`의 기존 항목은 건드리지 않는다. */
 const fillEn = args.includes("--fill-en");
+/**
+ * **공지만 다시 만든다.**
+ *
+ * 공지 하나를 올릴 때마다 안내 열세 편을 통째로 다시 번역하면 값도 시간도 크게 들고, 무엇보다
+ * **검수가 끝난 문장이 매번 다시 바뀐다.** 공지는 자주 올라오는 자리라 이 길이 필요하다.
+ *
+ * 이미 만들어져 있는 로케일 파일에서 문서 부분은 그대로 두고 공지만 갈아 끼운다.
+ */
+const noticesOnly = args.includes("--notices");
 const all = args.includes("--all");
 const targets = all
   ? localeCodes.filter((code) => code !== "ko" && code !== "en")
@@ -428,24 +506,108 @@ if (!key) {
  * **한국어에만 있는 문서의 영어를 채운다.**
  *
  * 순서가 「한국어로 다 쓰고 → 영어로 옮기고 → 나머지 언어」이므로(사용자 지시), 새 문서는
- * 한국어만 있는 상태로 들어온다. 그렇다고 `en.ts`를 통째로 다시 만들면 **사람이 쓴 영어가
+ * 한국어만 있는 상태로 들어온다. 그렇다고 `en.ts`를 통째로 다시 만들면 **검수를 거친 영어가
  * 기계 번역으로 덮인다** — 소개·문의처럼 영어가 원문인 문서가 있다.
  *
  * 그래서 **없는 키만** 옮겨 기존 `EN_DOCS`에 얹는다. 이미 있는 문서는 손대지 않는다.
  */
+/**
+ * 공지 글만 다시 만들어 기존 로케일 파일에 갈아 끼운다(`--notices`).
+ *
+ * 문서 부분은 **이미 있는 파일에서 그대로 읽어 온다** — 다시 번역하지 않으므로 검수가 끝난
+ * 문장이 바뀌지 않는다. 파일이 아직 없으면 공지만 든 파일을 만들 수는 없으므로 알리고 건너뛴다.
+ */
+async function runNotices(locale: string, key: string) {
+  const file = path.join(DIR, `${locale}.ts`);
+  if (!existsSync(file)) {
+    console.log(`  ${locale} — 파일이 없다. 먼저 전체를 한 번 돌릴 것`);
+    return 1;
+  }
+
+  const upper = locale.toUpperCase().replace(/-/g, "_");
+  const module_ = (await import(pathToFileURL(file).href)) as Record<string, unknown>;
+  const existingDocs = module_[`${upper}_DOCS`];
+  if (!existingDocs) {
+    console.log(`  ${locale} — ${upper}_DOCS를 읽지 못했다`);
+    return 1;
+  }
+
+  const source = { notices: EN_NOTICES };
+  const koSource = { notices: KO_NOTICES };
+  const leaves: Leaf[] = [];
+  collect(source, koSource, [], leaves);
+  console.log(`  ${locale} — 공지 잎 ${leaves.length}개 번역 중…`);
+
+  const translated = await translate(leaves, locale, key);
+  const values = new Map<string, string>();
+  const failed: string[] = [];
+  for (const leaf of leaves) {
+    const value = translated[leaf.path] ?? "";
+    const problem = mismatch(value, leaf, false);
+    if (problem) {
+      failed.push(`    ${leaf.path} — ${problem}`);
+      values.set(leaf.path, leaf.en);
+    } else {
+      values.set(leaf.path, value as string);
+    }
+  }
+
+  const grafted = graft(source, [], values) as { notices: unknown };
+  writeFileSync(
+    file,
+    [
+      `import type { DocPage, NoticeCopy } from "./types";`,
+      `import type { DocKey } from "./ko";`,
+      "",
+      `/** ${language(locale)} — \`scripts/translate-doc-content.ts\`가 만든다. 손으로 고치지 말 것. */`,
+      `export const ${upper}_DOCS = ${JSON.stringify(existingDocs, null, 2)} satisfies Record<DocKey, DocPage>;`,
+      "",
+      `export const ${upper}_NOTICES = ${JSON.stringify(grafted.notices, null, 2)} satisfies NoticeCopy;`,
+      "",
+    ].join("\n"),
+    "utf8",
+  );
+  console.log(`  ${locale} — 공지를 갈아 끼웠다${failed.length ? ` · ⚠ en으로 남긴 잎 ${failed.length}개` : ""}`);
+  if (failed.length) console.log(failed.join("\n"));
+  return failed.length;
+}
+
 async function fillEnglish(key: string) {
   const missing = Object.keys(KO_DOCS).filter((k) => !(k in EN_DOCS));
-  if (!missing.length) {
+
+  /**
+   * **공지 글도 함께 채운다.**
+   *
+   * 예전에는 문서(`KO_DOCS` vs `EN_DOCS`)만 비교하고 `EN_NOTICES`는 읽은 그대로 다시 썼다.
+   * 그래서 한국어로 공지를 올려도 en의 `items`가 비어 있었고, **21개 언어가 그 빈 표를 본으로
+   * 삼아** 공지 없이 만들어졌다(2026-08-09 인연링크). 화면은 글이 없는 공지를 그리지 않으므로
+   * 그 언어에서는 **공지가 조용히 사라진다** — `verify-doc-locales`가 세는 바로 그 실패인데,
+   * 정작 도구가 그 상태를 만들 수 있었다.
+   */
+  const missingNotices = Object.keys(KO_NOTICES.items).filter(
+    (id) => !(id in EN_NOTICES.items),
+  );
+
+  if (!missing.length && !missingNotices.length) {
     console.log("  en — 채울 문서가 없다");
     return 0;
   }
-  console.log(`  en — 한국어에만 있는 문서 ${missing.length}편: ${missing.join(", ")}`);
+  if (missing.length) {
+    console.log(`  en — 한국어에만 있는 문서 ${missing.length}편: ${missing.join(", ")}`);
+  }
+  if (missingNotices.length) {
+    console.log(`  en — 한국어에만 있는 공지 ${missingNotices.length}건: ${missingNotices.join(", ")}`);
+  }
 
-  const koSubset = Object.fromEntries(
+  const koSubset: Record<string, unknown> = Object.fromEntries(
     missing.map((k) => [k, KO_DOCS[k as keyof typeof KO_DOCS]]),
   );
+  const koNoticeSubset = Object.fromEntries(
+    missingNotices.map((id) => [id, KO_NOTICES.items[id as keyof typeof KO_NOTICES.items]]),
+  );
+  const source = { docs: koSubset, noticeItems: koNoticeSubset };
   const leaves: Leaf[] = [];
-  collect(koSubset, koSubset, [], leaves);
+  collect(source, source, [], leaves);
 
   let translated = await translate(leaves, "en", key);
   const broken = leaves.filter((leaf) => mismatch(translated[leaf.path] ?? "", leaf, true));
@@ -467,7 +629,15 @@ async function fillEnglish(key: string) {
     }
   }
 
-  const merged = { ...EN_DOCS, ...(graft(koSubset, [], values) as Record<string, unknown>) };
+  const grafted = graft(source, [], values) as {
+    docs: Record<string, unknown>;
+    noticeItems: Record<string, unknown>;
+  };
+  const merged = { ...EN_DOCS, ...grafted.docs };
+  const mergedNotices = {
+    ...EN_NOTICES,
+    items: { ...EN_NOTICES.items, ...grafted.noticeItems },
+  };
   const header = [
     `import type { DocPage, NoticeCopy } from "./types";`,
     `import type { DocKey } from "./ko";`,
@@ -475,12 +645,12 @@ async function fillEnglish(key: string) {
     `/**`,
     ` * 영어판. **번역기가 21개 로케일을 만들 때 구조와 어투의 본이 되는 벌이다.**`,
     ` *`,
-    ` * 소개·문의처럼 사람이 쓴 글과, 한국어 원문에서 옮겨 온 글이 함께 있다. 뒤엣것은`,
+    ` * 저장소에 직접 적어 둔 글과, \`--fill-en\`이 한국어에서 만든 글이 함께 있다. 뒤엣것은`,
     ` * \`translate-doc-content.ts --fill-en\`이 **없는 키만** 채운 것이라 앞엣것을 덮지 않는다.`,
     ` */`,
     `export const EN_DOCS = ${JSON.stringify(merged, null, 2)} satisfies Record<DocKey, DocPage>;`,
     "",
-    `export const EN_NOTICES = ${JSON.stringify(EN_NOTICES, null, 2)} satisfies NoticeCopy;`,
+    `export const EN_NOTICES = ${JSON.stringify(mergedNotices, null, 2)} satisfies NoticeCopy;`,
     "",
   ].join("\n");
 
@@ -498,7 +668,7 @@ async function main() {
   }
   requireEnglish();
   for (const locale of targets) {
-    problems += await run(locale, key);
+    problems += noticesOnly ? await runNotices(locale, key) : await run(locale, key);
   }
   console.log(
     problems === 0
