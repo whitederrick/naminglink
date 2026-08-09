@@ -16,7 +16,7 @@ export const DE_DOCS = {
             "p": "Inyeon-Link erstellt zwei Geburtshoroskope aus Geburtsdaten und -zeiten und zeigt **wie die beiden Energiesätze aufeinandertreffen.** Sie können auch Ihr eigenes Horoskop allein lesen und sehen, welche Temperamente zu Ihnen tendieren."
           },
           {
-            "p": "Das Lesen auf dem Bildschirm ist **kostenlos und benötigt kein Konto.** Die kostenpflichtigen Artikel sind PDF-Berichte, die Zahlen enthalten, die der Bildschirm niemals anzeigt — Elementstärken, Zehn-Götter-Paarungen und die Beziehungen über alle vier Säulen."
+            "p": "Das Lesen auf dem Bildschirm ist **kostenlos und benötigt kein Konto.** Die kostenpflichtigen Artikel sind PDF-Berichte, die Zahlen enthalten, die der Bildschirm niemals anzeigt — Elementstärken, zehn-god Paarungen und die Beziehungen über alle vier Säulen."
           }
         ]
       },
@@ -24,13 +24,13 @@ export const DE_DOCS = {
         "title": "Was wir berechnen",
         "blocks": [
           {
-            "p": "Die Horoskope werden aus dem **koreanischen lunisolaren Almanach** erstellt, und die Geburtszeit wird auf **wahre Solarzeit** für den Geburtsort korrigiert — die gleiche Uhrzeit bedeutet eine andere Sonnenposition, je nachdem, wo Sie geboren wurden."
+            "p": "Die Horoskope werden aus dem **koreanischen lunisolaren Almanach** erstellt, und die Geburtszeit wird auf **wahre Sonnenzeit** für den Geburtsort korrigiert — die gleiche Uhrzeit bedeutet eine andere Sonnenposition, je nachdem, wo Sie geboren wurden."
           },
           {
             "p": "Die Werte stammen nur aus festen Regeln. Traditionelle Konzepte — zehn Götter, Zweigbeziehungen, das unterstützende Element — werden als Regeln ausgedrückt, sodass **die gleiche Eingabe immer das gleiche Ergebnis liefert.** Wenn sich eine Regel ändert, führen wir einen Regressionstest durch, um sicherzustellen, dass ältere Lesungen nicht verschoben wurden."
           },
           {
-            "p": "**Es ist keine KI beteiligt.** Jeder Satz auf dem Bildschirm ist fester Text, der an ein berechnetes Ergebnis angehängt ist."
+            "p": "**Keine KI ist beteiligt.** Jeder Satz auf dem Bildschirm ist fester Text, der an ein berechnetes Ergebnis angehängt ist."
           }
         ]
       },
@@ -39,9 +39,9 @@ export const DE_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Wir sagen keine Vorhersagen.** Nichts hier sagt Ihnen, dass Sie jemandem nachjagen oder ihn meiden sollen. Es ist ein Verweis, der aus einer Tradition gezogen wurde.",
-              "**Wir speichern nicht, was Sie eingeben.** Geburtsdetails werden nur für den Moment der Berechnung verwendet und niemals aufgeschrieben; Ergebnislinks leben im Teil der URL, den ein Browser nicht an einen Server sendet.",
-              "**Ein Wert ist kein Urteil über eine Person.** Eine niedrige Zahl macht eine Beziehung nicht ungültig."
+              "**Wir sagen keine Zukunft voraus.** Nichts hier sagt Ihnen, dass Sie jemandem nachjagen oder ihn vermeiden sollen. Es ist ein Verweis, der aus einer Tradition gezogen wurde.",
+              "**Wir speichern nicht, was Sie eingeben.** Geburtsdetails werden nur für den Moment der Berechnung verwendet und niemals niedergeschrieben; Ergebnislinks leben im Teil der URL, den ein Browser nicht an einen Server sendet.",
+              "**Ein Wert ist kein Urteil über eine Person.** Eine niedrige Zahl entwertet keine Beziehung."
             ]
           }
         ]
@@ -59,7 +59,7 @@ export const DE_DOCS = {
   "guide": {
     "eyebrow": "Berechnungsbasis",
     "title": "Was ist die Basis für die Berechnung?",
-    "summary": "Inyeon-Link offenbart alle Regeln, die es verwendet. Sie können die Elemente und deren Gewichtungen, die Werte aus der Tabelle der Beziehungen der Erdzweige und die Schwellenwerte, die zwischen einem starken Tagmeister und einem schwachen Tagmeister unterscheiden, überprüfen — Sie können sehen, woher die Zahlen auf dem Bildschirm stammen.",
+    "summary": "Inyeon-Link offenbart alle Regeln, die es verwendet. Sie können die Elemente und deren Gewichtungen, die Werte aus der Tabelle der Beziehungen der Erdenzweige und die Schwellenwerte, die zwischen einem starken und einem schwachen Tagesmeister unterscheiden, überprüfen — Sie können sehen, woher die Zahlen auf dem Bildschirm kommen.",
     "backLabel": "Zurück zum Start",
     "sections": [
       {
@@ -82,7 +82,7 @@ export const DE_DOCS = {
         "title": "Berechnung und Kombination von zwei Achsen",
         "blocks": [
           {
-            "p": "Die Übereinstimmungsrate stammt aus zwei Zweigen. **Saju-Kompatibilität** betrachtet das gesamte ursprüngliche Saju-Horoskop beider Personen, während **Tierkreis-Kompatibilität** nur einen Erdzweig aus dem Geburtsjahr berücksichtigt. Der endgültige Wert wird durch gewichtetes Mittel der beiden erhalten."
+            "p": "Die Übereinstimmungsrate stammt aus zwei Zweigen. **Saju-Kompatibilität** betrachtet das gesamte ursprüngliche Saju-Horoskop beider Personen, während **Tierkreis-Kompatibilität** nur einen Erdenzweig aus dem Geburtsjahr berücksichtigt. Der endgültige Wert wird durch gewichtetes Mittel der beiden erhalten."
           },
           {
             "table": {
@@ -106,7 +106,7 @@ export const DE_DOCS = {
             }
           },
           {
-            "p": "Die Saju-Seite ist viel schwerer, da die Menge an verwendeten Informationen unterschiedlich ist. Saju berücksichtigt alle vier Säulen, während der Tierkreis nur einen Charakter betrachtet. Der Tierkreis wird jedoch aus zwei Gründen nicht ausgeschlossen — er ist das am intuitivsten verständliche Element und es ist die **einzige Achse, deren Wert selbst ohne Kenntnis der Geburtszeit nicht schwankt**."
+            "p": "Die Saju-Seite ist viel schwerer, da die Menge der verwendeten Informationen unterschiedlich ist. Saju berücksichtigt alle vier Säulen, während der Tierkreis nur einen Charakter betrachtet. Der Tierkreis wird jedoch aus zwei Gründen nicht ausgeschlossen — er ist das am intuitivsten verständliche Element und es ist die **einzige Achse, deren Wert nicht schwankt, auch ohne Kenntnis der Geburtszeit.**"
           }
         ]
       },
@@ -114,18 +114,18 @@ export const DE_DOCS = {
         "title": "Die vier Elemente der Saju-Kompatibilität",
         "blocks": [
           {
-            "p": "Die Saju-Seite wird weiter in vier unterteilt. Jedes Element wird ausgewählt, um sicherzustellen, dass das, was sie betrachten, sich nicht überschneidet."
+            "p": "Die Saju-Seite ist weiter in vier unterteilt. Jedes Element wird ausgewählt, um sicherzustellen, dass das, was sie berücksichtigen, sich nicht überschneidet."
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju besteht aus acht Zeichen, die durch die himmlischen Stämme und die irdischen Zweige des Jahres, Monats, Tages und der Stunde der Geburt gebildet werden. Der Tagestamm und der Tageszweig, die unten erwähnt werden, sind die beiden Zeichen in der Tagsäule.",
+            "caption": "Saju besteht aus acht Zeichen, die aus den himmlischen Stämmen und den irdischen Zweigen des Jahres, Monats, Tages und der Stunde der Geburt gebildet werden. Der Tagestamm und der Tageszweig, die unten erwähnt werden, sind die beiden Zeichen in der Tagsäule.",
             "labels": {
               "year": "Jahressäule",
               "yearNote": "Wurzel · Tierkreis",
               "month": "Monatssäule",
               "monthNote": "Jahreszeit · Kraft",
               "day": "Tagsäule",
-              "dayNote": "Ich · Ehepartnerpalast",
+              "dayNote": "Ich · Ehepalast",
               "hour": "Stundensäule",
               "hourNote": "Spätere Jahre · Nutzung",
               "stem": "Himmlischer Stamm",
@@ -137,7 +137,7 @@ export const DE_DOCS = {
           {
             "table": {
               "head": [
-                "Artikel",
+                "Element",
                 "Was wird betrachtet",
                 "Gewicht"
               ],
@@ -166,15 +166,15 @@ export const DE_DOCS = {
             }
           },
           {
-            "p": "Der Tageszweig wird gelesen, weil die Tradition ihn als **Ehepalast** betrachtet. Von den vier Säulen ist er derjenige, der auf den Partner zeigt, was ihn zum ersten Punkt macht, an dem die Kompatibilität betrachtet wird."
+            "p": "Der Tageszweig wird gelesen, weil die Tradition ihn als den **Ehepalast** betrachtet. Von den vier Säulen ist er derjenige, der auf den Partner zeigt, was ihn zum ersten Punkt macht, an dem die Kompatibilität betrachtet wird."
           }
         ]
       },
       {
-        "title": "Wenn das Geschlecht nicht offengelegt wird, wird das Eheelement weggelassen",
+        "title": "Wenn das Geschlecht nicht bekannt ist, wird das Eheelement weggelassen",
         "blocks": [
           {
-            "p": "Das Eheelement erfordert Kenntnisse über das Geschlecht zur Berechnung. Die Tradition liest die Position, die auf einen Ehepartner zeigt, unterschiedlich je nach Geschlecht. Wenn nicht offengelegt, wird dieser Punkt **ausgeschlossen** und die Gewichte der verbleibenden drei Punkte werden neu normalisiert."
+            "p": "Das Eheelement erfordert Kenntnisse über das Geschlecht für die Berechnung. Die Tradition liest die Position, die auf einen Ehepartner zeigt, unterschiedlich je nach Geschlecht. Wenn nicht bekannt, wird dieser Punkt **ausgeschlossen** und die Gewichte der verbleibenden drei Punkte werden neu normalisiert."
           }
         ]
       },
@@ -183,7 +183,7 @@ export const DE_DOCS = {
         "title": "Es wird nicht als 0 Punkte behandelt",
         "blocks": [
           {
-            "p": "Wenn fehlende Positionen als 0 Punkte behandelt werden, wird die Punktzahl unfairerweise gesenkt, nur weil das Geschlecht nicht offengelegt wurde. Die Neu-Normalisierung der Gewichte verhindert dieses Problem."
+            "p": "Wenn fehlende Positionen als 0 Punkte behandelt werden, wird die Punktzahl unfairerweise gesenkt, nur weil das Geschlecht nicht bekannt war. Die Neu-Normalisierung der Gewichte verhindert dieses Problem."
           }
         ]
       },
@@ -191,10 +191,10 @@ export const DE_DOCS = {
         "title": "Berechnungen können ohne Kenntnis der Geburtszeit durchgeführt werden",
         "blocks": [
           {
-            "p": "Die Geburtszeit wird verwendet, um die Stunden-Säule zu bestimmen. Wenn unbekannt, werden die Berechnungen ohne die Stunden-Säule durchgeführt, und dies wird auf dem Ergebnisbildschirm angezeigt. Da es unter den vier Kompatibilitätsgegenständen keinen direkten Eingabepunkt für die Stunden-Säule gibt, werden die Werte nicht signifikant schwanken, aber es beeinflusst das Gleichgewicht der **fünf Elemente**."
+            "p": "Die Geburtszeit wird verwendet, um die Stunden-Säule zu bestimmen. Wenn unbekannt, werden die Berechnungen ohne die Stunden-Säule durchgeführt, und dies wird auf dem Ergebnisbildschirm angezeigt. Da es keinen direkten Eingabepunkt für die Stunden-Säule unter den vier Kompatibilitätsgegenständen gibt, werden die Werte nicht signifikant schwanken, aber es beeinflusst das Gleichgewicht der fünf Elemente."
           },
           {
-            "p": "Wenn Sie die Zeit kennen, wählen Sie bitte auch den Geburtsort aus. Wenn die Standardzeit von der tatsächlichen solarposition abweicht, kann die Verwendung dieser Zeit die Stunden-Säule falsch ausrichten [(Korrektur der wahren Solarzeit)](/guide/true-solar-time)."
+            "p": "Wenn Sie die Zeit kennen, wählen Sie bitte auch den Geburtsort aus. Wenn die Standardzeit von der tatsächlichen Sonnenposition abweicht, kann die Verwendung dieser Zeit die Stunden-Säule falsch ausrichten [(Korrektur der wahren Sonnenzeit)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const DE_DOCS = {
         "title": "Die gleiche Eingabe ergibt immer den gleichen Wert",
         "blocks": [
           {
-            "p": "Alle Punktzahlen werden durch Regeln bestimmt. Es wird keine künstliche Intelligenz verwendet, noch werden Zufallszahlen eingesetzt. Daher wird die Eingabe der gleichen beiden Geburtsdaten mehrfach nicht zu unterschiedlichen Ergebnissen führen. Als ein Dienst, der keine Daten speichert, können frühere Ergebnisse nicht abgerufen werden, aber **Determinismus** kompensiert dies."
+            "p": "Alle Punktzahlen werden durch Regeln bestimmt. Es wird keine künstliche Intelligenz verwendet, noch werden Zufallszahlen eingesetzt. Daher wird die Eingabe der gleichen zwei Geburtsdaten mehrfach nicht zu unterschiedlichen Ergebnissen führen. Als ein Dienst, der keine Daten speichert, können frühere Ergebnisse nicht abgerufen werden, aber **Determinismus** kompensiert dies."
           }
         ]
       },
@@ -227,9 +227,9 @@ export const DE_DOCS = {
   },
   "guide/branches": {
     "eyebrow": "Beziehungstabelle",
-    "title": "Zwölf Erdzweige — Kombination, Zusammenstoß, Unstimmigkeit",
-    "summary": "Dies ist eine Beziehungstabelle, die sowohl für die Kompatibilität der Tageszweige als auch für die Tierkreis-Kompatibilität verwendet wird. Sie legt vollständig offen, was jede Kombination, jeder Zusammenstoß und jede Unstimmigkeit bedeutet und deren jeweilige Punktzahlen.",
-    "backLabel": "Berechnungsbasis",
+    "title": "Zwölf Erdzweige — Kombination, Zusammenstoß, Zwietracht",
+    "summary": "Dies ist eine Beziehungstabelle, die sowohl für die Kompatibilität der Tageszweige als auch für die Tierkreis-Kompatibilität verwendet wird. Sie gibt vollständig an, was jede Kombination, jeder Zusammenstoß und jede Zwietracht bedeutet und deren jeweilige Punktzahlen.",
+    "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
         "title": "Die Erdzweige bestehen aus zwölf Zeichen",
@@ -239,12 +239,12 @@ export const DE_DOCS = {
           },
           {
             "figure": "branch-wheel",
-            "caption": "Die Anordnung der zwölf Zeichen in einem Kreis bietet einen klaren Überblick über die Beziehungen. Ein Zusammenstoß sitzt immer direkt gegenüber, während ein **sechs-harmonisches Paar** und eine ruhige Unstimmigkeit näher benachbart sind. Diese Linien stammen direkt aus den Berechnungsregeln und sind nicht im Text geschrieben.",
+            "caption": "Die Anordnung der zwölf Zeichen in einem Kreis bietet einen klaren Blick auf die Beziehungen. Ein Zusammenstoß sitzt immer direkt gegenüber, während ein **Sechs-Harmonie-Paar** und eine ruhige Zwietracht nähere Nachbarn sind. Diese Linien stammen direkt aus den Berechnungsregeln und sind nicht im Text geschrieben.",
             "labels": {
-              "alt": "Ein Diagramm, das die zwölf Erdzweige in einem Kreis anordnet, mit Linien, die sechs-harmonische, Zusammenstoß und Unstimmigkeit verbinden.",
+              "alt": "Ein Diagramm, das die zwölf Erdzweige in einem Kreis anzeigt, mit Linien, die Sechs-Harmonie, Zusammenstoß und Zwietracht verbinden.",
               "yukhap": "Sechs-Harmonie",
               "chung": "Zusammenstoß",
-              "wonjin": "Unstimmigkeit",
+              "wonjin": "Zwietracht",
               "rat": "Ratte",
               "ox": "Ochse",
               "tiger": "Tiger",
@@ -260,7 +260,7 @@ export const DE_DOCS = {
             }
           },
           {
-            "p": "In saju hat jede der vier Säulen einen irdischen Zweig. Inyeon-Link verwendet den **Tag-Zweig** (den Ehepalast) und den **Jahres-Zweig** (das Tierkreiszeichen) unter ihnen. Beide Positionen werden anhand der Beziehungstabelle unten bewertet."
+            "p": "In saju hat jede der vier Säulen einen irdischen Zweig. Inyeon-Link verwendet den **Tag-Zweig** (den Ehepartnerpalast) und den **Jahres-Zweig** (das Tierkreiszeichen) unter ihnen. Beide Positionen werden anhand der Beziehungstabelle unten bewertet."
           }
         ]
       },
@@ -286,7 +286,7 @@ export const DE_DOCS = {
                 [
                   "Sechs-Harmonie (六合)",
                   "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Paare, die sich gegenseitig anziehen. Dies ist die häufigste Kombination in der Kompatibilität, da sie nur aus zwei Zeichen besteht.",
+                  "Paare, die sich anziehen. Dies ist die häufigste Kombination in der Kompatibilität, da sie nur aus zwei Zeichen besteht.",
                   "{scoreYukhap}"
                 ],
                 [
@@ -298,7 +298,7 @@ export const DE_DOCS = {
                 [
                   "Gleicher irdischer Zweig",
                   "子子 · 丑丑 …",
-                  "Zeichen, die gleich sind. Dies bedeutet, dass sie einander ähneln, aber es impliziert keine Anziehung, daher wird es in der Mitte platziert.",
+                  "Zeichen, die gleich sind. Dies bedeutet, dass sie sich ähneln, aber es impliziert keine Anziehung, weshalb es in der Mitte platziert wird.",
                   "{scoreSame}"
                 ],
                 [
@@ -310,7 +310,7 @@ export const DE_DOCS = {
                 [
                   "Stille Disharmonie (怨嗔)",
                   "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Paare, die sich trotz Groll nicht trennen können. Sie erscheinen an der Oberfläche ruhig, werden aber als langlebig angesehen.",
+                  "Paare, die sich trotz Groll nicht trennen können. Sie erscheinen an der Oberfläche ruhig, werden aber als langanhaltend angesehen.",
                   "{scoreWonjin}"
                 ],
                 [
@@ -328,7 +328,7 @@ export const DE_DOCS = {
         "title": "Vollständige Triaden erscheinen in diesem Dienst nicht",
         "blocks": [
           {
-            "p": "Eine vollständige Triade erfordert drei Zeichen, um zu bilden. Die Kompatibilität wird jedoch durch das Abgleichen der irdischen Zweige von zwei Personen **eins nach dem anderen** strukturiert, was nur zu zwei Zeichen führt. Daher erscheint hier immer eine halbe Triade, und die vollen Triade {scoreSamhap} Punkte sind für die Untersuchung der Formationen innerhalb jedes saju reserviert."
+            "p": "Eine vollständige Triade erfordert drei Zeichen, um zu bilden. Die Kompatibilität wird jedoch durch das Abgleichen der irdischen Zweige von zwei Personen **eins nach dem anderen** strukturiert, was nur zu zwei Zeichen führt. Daher erscheint hier immer eine halbe Triade, und die Punkte der vollständigen Triade {scoreSamhap} sind für die Untersuchung der Formationen innerhalb jedes saju reserviert."
           }
         ]
       },
@@ -337,7 +337,7 @@ export const DE_DOCS = {
         "title": "Halb-Triaden müssen einen königlichen Zweig enthalten",
         "blocks": [
           {
-            "p": "Es gibt auch eine Methode, die als halb-Triad zählt, wenn beide Zeichen zur gleichen Triade-Gruppe gehören. Dies kann zu hohen Punktzahlen führen, selbst für Kombinationen, die schwer als Triade zu bezeichnen sind, wie 申辰. Daher erkennt dieser Dienst eine halb-Triad nur für Paare an, die einen königlichen Zweig (王地) (子·酉·午·卯) enthalten, und Kombinationen wie 申辰·巳丑·寅戌·亥未 ohne einen königlichen Zweig werden nicht als Triaden gezählt."
+            "p": "Es gibt auch eine Methode, die als halbe Triade zählt, wenn beide Zeichen zur gleichen Triadengruppe gehören. Dies kann zu hohen Punktzahlen führen, selbst für Kombinationen, die schwer als Triade zu bezeichnen sind, wie 申辰. Daher erkennt dieser Dienst eine halbe Triade nur für Paare an, die einen königlichen Zweig (王地) (子·酉·午·卯) enthalten, und Kombinationen wie 申辰·巳丑·寅戌·亥未 ohne einen königlichen Zweig werden nicht als Triaden gezählt."
           }
         ]
       },
@@ -345,15 +345,15 @@ export const DE_DOCS = {
         "title": "Der Grund für die Trennung von stiller Disharmonie",
         "blocks": [
           {
-            "p": "Die sechs Paare stiller Disharmonie werden in der Kompatibilität ebenso häufig wie Konflikte angesehen. Wenn wir Kombinationen als Paare und Konflikte zählen, würden diese sechs Paare alle unter neutralen {scoreNeutral} Punkten begraben werden, daher werden sie separat platziert."
+            "p": "Die sechs Paare stiller Disharmonie werden in der Kompatibilität ebenso häufig wie Konflikte gesehen. Wenn wir Kombinationen als Paare und Konflikte zählen, würden diese sechs Paare alle unter neutralen {scoreNeutral} Punkten begraben werden, weshalb sie separat platziert werden."
           },
           {
-            "p": "Während Konflikte offen und auffällig sind, ist stille Disharmonie subtil fehlangepasst. Daher wird sie mit einer Punktzahl von {scoreWonjin} platziert, die höher ist als die von Konflikten ({scoreChung}), aber definitiv niedriger als neutral ({scoreNeutral})."
+            "p": "Während Konflikte offen und auffällig sind, ist stille Disharmonie subtil fehlplatziert. Daher wird sie mit einer Punktzahl von {scoreWonjin} platziert, die höher ist als die von Konflikten ({scoreChung}), aber definitiv niedriger als neutral ({scoreNeutral})."
           }
         ]
       },
       {
-        "title": "Punktzahlen werden auch Konflikten zugewiesen",
+        "title": "Punkte werden auch Konflikten zugewiesen",
         "blocks": [
           {
             "p": "Die niedrigste Konfliktpunktzahl beträgt {scoreChung}. Die Absicht ist nicht, einen Wert nahe 0 zuzuweisen. In der Tradition ist ein Konflikt kein 'Ende', sondern eine 'Kollision', und eine niedrige Punktzahl würde implizieren, dass der Dienst eine definitive Aussage über die Beziehung trifft."
@@ -368,7 +368,7 @@ export const DE_DOCS = {
   "guide/zodiac": {
     "eyebrow": "Tierkreis",
     "title": "Warum berücksichtigt die Tierkreis-Kompatibilität den Jahrzweig?",
-    "summary": "Der Tierkreis ist der irdische Zweig des Geburtsjahres. Dies erklärt, warum er aus dem saju Jahrssäule abgeleitet wird und nicht aus dem Kalenderjahr, und verdeutlicht die Bedeutung der Tierkreis-Kompatibilität.",
+    "summary": "Der Tierkreis ist der irdische Zweig des Geburtsjahres. Dies erklärt, warum er aus dem saju-Jahrssäulen abgeleitet wird und nicht aus dem Kalenderjahr, und verdeutlicht die Bedeutung der Tierkreis-Kompatibilität.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
@@ -442,7 +442,7 @@ export const DE_DOCS = {
         "title": "Wir verwenden das Jahr des saju, nicht das Kalenderjahr",
         "blocks": [
           {
-            "p": "Der Punkt, an dem sich der Tierkreis ändert, ist weder der 1. Januar des Sonnenkalenders noch das Mondneujahr. Der Standard für den Wechsel des Jahres im saju ist **Ipchun**. Daher können Personen, die im Januar oder frühen Februar geboren sind, ein anderes Tierkreisjahr haben als das im Kalender."
+            "p": "Der Zeitpunkt, an dem sich der Tierkreis ändert, ist weder der 1. Januar des Sonnenkalenders noch das Mondneujahr. Der Standard für den Wechsel des Jahres im saju ist **Ipchun**. Daher können Personen, die im Januar oder frühen Februar geboren sind, ein anderes Tierkreisjahr haben als das im Kalender."
           }
         ]
       },
@@ -459,7 +459,7 @@ export const DE_DOCS = {
         "title": "Die Tierkreis-Kompatibilität berücksichtigt nur eine Beziehung",
         "blocks": [
           {
-            "p": "Die Berechnung der Tierkreis-Kompatibilität ist einfach. Sie vergleicht die Jahrzweige von zwei Personen, um festzustellen, ob die Beziehung harmonisch, ein Konflikt oder eine stille Disharmonie ist, und verwendet diesen Wert unverändert. Da es nur einen Punkt gibt, ist es nicht notwendig, Gewichte zu verteilen."
+            "p": "Die Berechnung der Tierkreis-Kompatibilität ist einfach. Sie vergleicht die Jahrzweige von zwei Personen, um zu bestimmen, ob die Beziehung harmonisch, ein Konflikt oder eine stille Disharmonie ist, und verwendet diesen Wert unverändert. Da es nur einen Punkt gibt, ist es nicht notwendig, Gewichte zu verteilen."
           },
           {
             "p": "Die Werte für jede Beziehung sind alle in der [Tabelle der Zwölf Zweige Beziehungen](/guide/branches) aufgeführt. Die Kompatibilität der Tageszweige verwendet dieselbe Tabelle."
@@ -470,7 +470,7 @@ export const DE_DOCS = {
         "title": "Der Grund für die Bestimmung des Gewichts",
         "blocks": [
           {
-            "p": "Die Tierkreis-Kompatibilität macht {weightZodiac} des endgültigen Übereinstimmungswertes aus. Während die saju-Kompatibilität alle vier Säulen betrachtet, berücksichtigt der Tierkreis nur ein Zeichen, daher können sie nicht gleich gewichtet werden."
+            "p": "Die Tierkreis-Kompatibilität macht {weightZodiac} des endgültigen Übereinstimmungswertes aus. Während die saju-Kompatibilität alle vier Säulen betrachtet, berücksichtigt der Tierkreis nur ein Zeichen, sodass sie nicht gleich gewichtet werden können."
           },
           {
             "p": "Es gibt jedoch zwei Gründe, warum es nicht ausgeschlossen wird."
@@ -478,7 +478,7 @@ export const DE_DOCS = {
           {
             "ul": [
               "**Es ist das am intuitivsten verständliche Element**. Selbst ohne das Vokabular der Tradition zu kennen, macht 'der Tiger und der Affe stehen im Konflikt' Sinn.",
-              "**Es ist die einzige Achse, die sich nicht ändert, selbst wenn die Geburtszeit unbekannt ist**. Wenn Sie die Zeit nicht wissen, fehlt die Stunden-Säule und die Stärke der fünf Elemente ändert sich, aber der Jahrzweig bleibt gleich."
+              "**Es ist die einzige Achse, die sich nicht ändert, selbst wenn die Geburtszeit unbekannt ist**. Wenn Sie die Zeit nicht kennen, fehlt die Stunden-Säule und die Stärke der fünf Elemente ändert sich, aber der Jahrzweig bleibt gleich."
             ]
           }
         ]
@@ -487,7 +487,7 @@ export const DE_DOCS = {
         "title": "Sie können die Tierkreis-Kompatibilität auch separat anzeigen",
         "blocks": [
           {
-            "p": "Auf dem Ergebnisbildschirm zeigen wir die Werte für sowohl die saju-Kompatibilität als auch die Tierkreis-Kompatibilität separat an. Wenn nur der endgültige Übereinstimmungswert präsentiert wird, ist unklar, woher diese Zahl stammt. Wenn die beiden Werte erheblich unterschiedlich sind, ist das an sich bemerkenswert."
+            "p": "Auf dem Ergebnisbildschirm zeigen wir die Werte für die saju-Kompatibilität und die Tierkreis-Kompatibilität separat an. Wenn nur der endgültige Übereinstimmungswert präsentiert wird, ist unklar, woher diese Zahl stammt. Wenn die beiden Werte erheblich unterschiedlich sind, ist das an sich bemerkenswert."
           }
         ]
       }
@@ -506,12 +506,12 @@ export const DE_DOCS = {
             "p": "Unter den acht Zeichen des saju bezieht sich der **Tagestamm** (der himmlische Stamm des Geburtstags) auf die Person selbst. Die verbleibenden sieben Zeichen werden als die Umgebung gelesen, in der sich dieser Tagestamm befindet."
           },
           {
-            "p": "**Die Zehn Götter** (十神) unterteilen, wie der Tagestamm andere Zeichen wahrnimmt, in zehn Kategorien. Was mich nährt, ist **Ressource**, was dasselbe wie ich ist, ist **Gleichgestellter**, was ich produziere, ist **Ausgabe**, was ich kontrolliere, ist **Reichtum**, und was mich kontrolliert, ist **Autorität** — jede der fünf wird dann nach Polarität aufgeteilt, was zehn ergibt."
+            "p": "Die **Zehn Götter** (十神) teilen ein, wie der Tagestamm andere Zeichen wahrnimmt, in zehn Kategorien. Was mich nährt, ist **Ressource**, was dasselbe wie ich ist, ist **Gleichgesinnter**, was ich produziere, ist **Ausgabe**, was ich kontrolliere, ist **Reichtum**, und was mich kontrolliert, ist **Autorität** — jede der fünf wird dann nach Polarität aufgeteilt, was zehn ergibt."
           }
         ]
       },
       {
-        "title": "Was der Tagestamm jeder Person füreinander ist",
+        "title": "Was jeder Tagestamm füreinander ist",
         "blocks": [
           {
             "p": "Dies ist der erste Punkt in der Kompatibilität. Sobald bestimmt ist, wie A's Tagestamm B's Tagestamm wahrnimmt, wird auch B's Wahrnehmung von A bestimmt, sodass es **nur sechs Möglichkeiten** gibt."
@@ -530,12 +530,12 @@ export const DE_DOCS = {
                   "Direkter Reichtum ↔ Direkte Autorität",
                   "Gegensätzliche Polarität",
                   "Warmes Band (有情)",
-                  "Dies ist das Paar, das traditionell als die Position des Ehepartners angesehen wird. Yin und Yang sind nicht übereinstimmend und ziehen sich an."
+                  "Dies ist das Paar, das traditionell als die Position des Ehepartners angesehen wird. Yin und Yang sind nicht übereinstimmend und ziehen sich gegenseitig an."
                 ],
                 [
-                  "Verletzender Offizier ↔ Direkte Ressource",
+                  "Verletzender Beamter ↔ Direkte Ressource",
                   "Gegensätzliche Polarität",
-                  "Verletzender Offizier mit dem Siegel (傷官佩印)",
+                  "Verletzender Beamter mit dem Siegel (傷官佩印)",
                   "Eine Seite umschließt die intensive Energie der anderen Seite."
                 ],
                 [
@@ -572,15 +572,15 @@ export const DE_DOCS = {
         "title": "Yin und Yang stehen an einem Scheideweg",
         "blocks": [
           {
-            "p": "Die Seite, auf der Yin und Yang nicht übereinstimmen (Ordentlicher Reichtum, Ordentlicher Offizier, Ordentlicher Begleiter) ist emotional, während die gleiche Seite (Ressource, Offizier, Begleiter) unemotional ist, was das Prinzip ist, das das Ordentliche und die Seite der Zehn Götter unterscheidet."
+            "p": "Die Seite, auf der Yin und Yang nicht übereinstimmen (Echter Reichtum, Echter Beamter, Echter Gefährte) ist emotional, während die gleiche Seite (Ressource, Beamter, Gefährte) unemotional ist, was das Prinzip ist, das das Richtige und die Seite der Zehn Götter unterscheidet."
           }
         ]
       },
       {
-        "title": "Der Grund, die Beziehung mit den Zehn Göttern und nicht mit den drei Elementen zu betrachten",
+        "title": "Der Grund, warum man mit den Zehn Göttern und nicht mit den drei Elementen betrachtet",
         "blocks": [
           {
-            "p": "Es gibt eine Methode, die Beziehung des Tagestamms mit den drei Elementen (gegenseitige Erzeugung, Gleichheit, gegenseitiges Überwinden) zu betrachten. Es ist einfach, aber **Yin und Yang verschwinden.** 甲 (yang Holz) und 乙 (yin Holz) werden zur gleichen 'Gleichheit' wie 甲 und 甲, und gegenseitiges Überwinden wird zu einer einzigen Punktzahl ohne Richtung oder Yin und Yang zerdrückt."
+            "p": "Es gibt eine Methode, die Beziehung des Tagestamms mit den drei Elementen (gegenseitige Erzeugung, Gleichheit, gegenseitiges Überwinden) zu betrachten. Es ist einfach, aber **Yin und Yang verschwinden.** 甲 (yang Holz) und 乙 (yin Holz) werden zur gleichen 'Gleichheit' wie 甲 und 甲, und das gegenseitige Überwinden wird zu einem einzigen Punkt ohne Richtung oder Yin und Yang zusammengepresst."
           },
           {
             "p": "Die Ehepartnerposition muss im Hinblick auf die Zehn Götter bewertet werden. Wenn die von den fünf Elementen betrachteten Punkte und die von den Zehn Göttern betrachteten Punkte in einem Motor gemischt werden, gibt es zwei Standards für dieselben zwei Zeichen. Daher vereinheitlichen wir uns mit den Zehn Göttern."
@@ -588,10 +588,10 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "Die Ehepartnerposition ist Ordentlicher Reichtum und Ordentlicher Offizier",
+        "title": "Die Ehepartnerposition ist Echter Reichtum und Echter Beamter",
         "blocks": [
           {
-            "p": "In der Tradition unterscheidet sich, welcher der Zehn Götter für einen Ehepartner steht, je nach Geschlecht."
+            "p": "In der Tradition variiert, welcher der Zehn Götter für einen Ehepartner steht, je nach Geschlecht."
           },
           {
             "table": {
@@ -615,16 +615,16 @@ export const DE_DOCS = {
             }
           },
           {
-            "p": "Selbst wenn sie dieselbe Ressource sind, wird nur der emotionale **Echte Reichtum** als Ehepartnerposition betrachtet, während die Ressource als die Art der Aktivität und des Reichtums gelesen wird. Daher zählen Echte Reichtum und Echte Beamte als 2 Punkte, während Ressource und Beamte als 1 Punkt zählen, und beide Richtungen werden summiert — wenn beide als Ehepartnerpositionen gesehen werden, ist es das Höchste."
+            "p": "Selbst wenn sie dieselbe Ressource sind, wird nur der emotionale **Echte Reichtum** als Ehepartnerposition betrachtet, während die Ressource als die Art der Aktivität und des Reichtums gelesen wird. Daher zählen Echte Reichtum und Echter Beamter als 2 Punkte, während Ressource und Beamter als 1 Punkt zählen, und beide Richtungen werden summiert — wenn beide als Ehepartnerpositionen gesehen werden, ist es das Höchste."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Wenn das Geschlecht nicht offengelegt wird, dieses Element weglassen",
+        "title": "Wenn das Geschlecht nicht angegeben ist, dieses Element weglassen",
         "blocks": [
           {
-            "p": "Wenn ein unentscheidbares Element auf 0 Punkte gesetzt wird, führt das zu einer unfair niedrigen Punktzahl. Das verbleibende Gewicht nach dem Weglassen des Elements wird erneut normalisiert [(Element und Gewicht)](/guide/how-compatibility)."
+            "p": "Wenn ein unentschiedenes Element auf 0 Punkte gesetzt wird, führt dies zu einer unfair niedrigen Punktzahl. Das verbleibende Gewicht nach dem Weglassen des Elements wird erneut normalisiert [(Element und Gewicht)](/guide/how-compatibility)."
           }
         ]
       },
@@ -632,10 +632,10 @@ export const DE_DOCS = {
         "title": "Wir zeigen auch die Form der Beziehung",
         "blocks": [
           {
-            "p": "Neben der Punktzahl beschreiben wir **welche Form** das Paar von Tagestämmen auf dem Ergebnisbildschirm hat. Ob sie ähnliche Positionen sind, ob eine Seite die andere unterstützt oder ob eine Seite unterdrückt wird — wenn es eine unterstützende oder unterdrückende Beziehung ist, klären wir, welche Seite diese Position hält."
+            "p": "Neben der Punktzahl beschreiben wir **welche Form** das Paar der Tagesstämme auf dem Ergebnisbildschirm hat. Ob sie ähnliche Positionen sind, ob eine Seite die andere unterstützt oder ob eine Seite unterdrückt wird — wenn es eine unterstützende oder unterdrückende Beziehung ist, klären wir, welche Seite diese Position hält."
           },
           {
-            "p": "Wenn nur eine Punktzahl präsentiert wird, bleibt die Frage 'und was jetzt'. Die Form ist keine Punktzahl, sondern etwas, das gelesen werden kann, und selbst Paare mit niedrigen Punktzahlen haben etwas zu interpretieren."
+            "p": "Wenn nur eine Punktzahl präsentiert wird, bleibt die Frage 'und was jetzt'. Die Form ist keine Punktzahl, sondern etwas, das zu lesen ist, und selbst Paare mit niedrigen Punktzahlen haben etwas zu interpretieren."
           }
         ]
       }
@@ -644,17 +644,17 @@ export const DE_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Die fünf Elemente",
     "title": "Unterstützendes Element — Die Energie, die jetzt benötigt wird",
-    "summary": "Wir betrachten die fünf Elemente nicht als 'haben sie zwei gewählt', sondern als 'hat der Partner, was ich brauche'. Wir geben auch den Grenzwert an, der einen starken Tagmeister von einem schwachen unterscheidet.",
+    "summary": "Wir betrachten die fünf Elemente nicht als 'haben sie zwei gewählt', sondern als 'hat der Gegenüber, was ich brauche'. Wir geben auch den Grenzwert an, der einen starken Tagesmeister von einem schwachen unterscheidet.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
         "title": "Ob die fünf Elemente 'ausgewogen' sind, ist keine Frage der Kompatibilität",
         "blocks": [
           {
-            "p": "Es gibt eine Methode zur Messung, ob die fünf Energien gleichmäßig verteilt sind, indem die fünf Elemente der beiden Personen kombiniert werden. Die Frage der Kompatibilität ist jedoch nicht das. **Hat der Partner, was ich brauche?**"
+            "p": "Es gibt eine Methode zur Messung, ob die fünf Energien gleichmäßig verteilt sind, indem die fünf Elemente der beiden Personen kombiniert werden. Die Frage der Kompatibilität ist jedoch nicht das. **Hat der Gegenüber, was ich brauche?**"
           },
           {
-            "p": "Der Grad der Balance ist symmetrisch, aber die Komplementarität ist von Natur aus asymmetrisch. Das liegt daran, dass das, was A braucht, anders ist als das, was B braucht. Daher messen wir jede Seite separat und bilden einen Durchschnitt — da es ein Durchschnitt ist, bleibt die Gesamtpunktzahl symmetrisch."
+            "p": "Der Grad des Gleichgewichts ist symmetrisch, aber die Komplementarität ist von Natur aus asymmetrisch. Das liegt daran, dass das, was A braucht, anders ist als das, was B braucht. Daher messen wir jede Seite separat und bilden einen Durchschnitt — da es ein Durchschnitt ist, bleibt die Gesamtpunktzahl symmetrisch."
           }
         ]
       },
@@ -662,23 +662,23 @@ export const DE_DOCS = {
         "title": "Unterstützendes Element — Reduzieren, wenn übermäßig, hinzufügen, wenn unzureichend",
         "blocks": [
           {
-            "p": "Das unterstützende Element (用神) ist 'die Energie, die diese Person gerade braucht'. Es gibt mehrere Methoden, um es zu bestimmen (unterdrückend, unterstützend, Krankheit und Kommunikation), aber es kann in Regeln übersetzt werden, und die am weitesten verbreitete ist **unterdrückend (抑扶)**. Wenn der Tagmeister stark ist, wird gesehen, dass die Energie zur Reduzierung benötigt wird, und wenn schwach, wird die Energie zum Hinzufügen benötigt."
+            "p": "Das unterstützende Element (用神) ist 'die Energie, die diese Person gerade braucht'. Es gibt mehrere Methoden, um es zu bestimmen (unterdrücken, unterstützen, Krankheit und Kommunikation), aber es kann in Regeln übersetzt werden, und die am weitesten verbreitete ist **unterdrücken (抑扶)**. Wenn der Tagesmeister stark ist, wird gesehen, dass die Energie zur Reduzierung benötigt wird, und wenn schwach, wird die Energie zum Hinzufügen benötigt."
           },
           {
             "table": {
               "head": [
                 "Urteil",
-                "Was benötigt wird",
+                "Was wird benötigt",
                 "Wie viel"
               ],
               "rows": [
                 [
-                  "Starker Tagmeister (身强)",
+                  "Starker Tagesmeister (身强)",
                   "Reduzierende Energie — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Drei"
                 ],
                 [
-                  "Schwacher Tagmeister (身弱)",
+                  "Schwacher Tagesmeister (身弱)",
                   "Hinzufügende Energie — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Zwei"
                 ],
@@ -696,7 +696,7 @@ export const DE_DOCS = {
         "title": "Grenzwerte für Stärke und Schwäche",
         "blocks": [
           {
-            "p": "Die Seite des Tagestamms ist **印星 und 比劫** — die Energie, die mich gebiert, und die Energie, die wie ich ist. Da zwei von fünf, wenn die Energie vollständig ausgewogen ist, wird es {evenAllyRatio}. Ein Bereich wird über und unter diesem Wert festgelegt."
+            "p": "Die Tagesstammseite ist **印星 und 比劫** — die Energie, die mich gebiert, und die Energie, die mir ähnlich ist. Da zwei von fünf, wenn die Energie vollständig ausgewogen ist, wird es {evenAllyRatio}. Ein Bereich wird über und unter diesem Wert festgelegt."
           },
           {
             "table": {
@@ -708,7 +708,7 @@ export const DE_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} oder mehr",
-                  "Starker Tagmeister"
+                  "Starker Tagesmeister"
                 ],
                 [
                   "{weakThreshold} oder mehr und weniger als {strongThreshold}",
@@ -716,7 +716,7 @@ export const DE_DOCS = {
                 ],
                 [
                   "Weniger als {weakThreshold}",
-                  "Schwacher Tagmeister"
+                  "Schwacher Tagesmeister"
                 ]
               ]
             }
@@ -725,10 +725,10 @@ export const DE_DOCS = {
       },
       {
         "kind": "note",
-        "title": "Balance ist ein 'weniger sicheres Urteil'",
+        "title": "Gleichgewicht ist ein 'weniger sicheres Urteil'",
         "blocks": [
           {
-            "p": "Balance bedeutet, dass sie nicht durch das unterstützende Element abgedeckt werden kann. Zu diesem Zeitpunkt betrachten wir einfach die beiden dünnsten Energien als notwendig. Auf dem Ergebnisbildschirm wird es als 'derzeit in einer dünnen Position' vermerkt, anstatt als definitive Aussage."
+            "p": "Gleichgewicht bedeutet, dass es nicht durch das unterstützende Element abgedeckt werden kann. Zu diesem Zeitpunkt betrachten wir einfach die beiden dünnsten Energien als notwendig. Auf dem Ergebnisbildschirm wird es als 'derzeit in einer dünnen Position' vermerkt, anstatt als definitive Aussage."
           }
         ]
       },
@@ -750,7 +750,7 @@ export const DE_DOCS = {
             "p": "Wir betrachten den Anteil meines unterstützenden Elements an der Kraft des Gegners. Wir verwenden diesen Anteil jedoch nicht direkt, sondern **teilen die Erwartung durch die Größe des unterstützenden Elements.** Wenn stark, ist das unterstützende Element drei (Erwartung 60%), und wenn schwach, ist es zwei (Erwartung 40%), sodass die direkte Verwendung des Anteils bedeuten würde, dass eine starke Person immer eine höhere Punktzahl erhält."
           },
           {
-            "p": "Wenn es auf das erwartete Niveau gefüllt ist, wird eine Punktzahl nahe 78 Punkten erreicht, und wenn es viel mehr gefüllt ist, erreicht es 100 Punkte, während es, wenn es erheblich fehlt, in Richtung 55 Punkte geht. Auch hier wird der Boden nicht auf 0 festgelegt."
+            "p": "Wenn auf das erwartete Niveau gefüllt, wird eine Punktzahl nahe 78 Punkten erreicht, und wenn viel mehr gefüllt, erreicht sie 100 Punkte, während sie, wenn sie erheblich fehlt, in Richtung 55 Punkte geht. Auch hier ist der Boden nicht auf 0 gesetzt."
           }
         ]
       },
@@ -758,10 +758,10 @@ export const DE_DOCS = {
         "title": "Dies ist ein vorläufiges Urteil",
         "blocks": [
           {
-            "p": "Die tatsächliche Saju-Analyse berücksichtigt die Formation und das saisonale Klima (die Wärme und Feuchtigkeit der Saison), um das unterstützende Element zu bestimmen, und die Schlussfolgerungen können je nach verwendeter Methode variieren. Inyeon-Link verwendet nur die unterstützenden Elemente, die durch **Machtwerte** gemessen werden können. Dies liegt am Prinzip, nur das zu verwenden, was in Regeln übersetzt werden kann, sodass die gleiche Eingabe immer die gleiche Antwort liefert."
+            "p": "Die tatsächliche Saju-Analyse berücksichtigt die Formation und das saisonale Klima (die Wärme und Feuchtigkeit der Saison), um das unterstützende Element zu bestimmen, und die Schlussfolgerungen können je nach verwendeter Methode variieren. Inyeon-Link verwendet nur die unterstützenden Elemente, die durch **Machtwerte** gemessen werden können. Dies liegt am Prinzip, nur das zu verwenden, was in Regeln übersetzt werden kann, sodass dieselbe Eingabe immer dieselbe Antwort liefert."
           },
           {
-            "p": "Stattdessen präsentiert der Ergebnisbildschirm auch die Stärken und Schwächen jeder Person zusammen mit der derzeit benötigten Energie als **Lesematerial**. Dies soll vermeiden, die Grundlage der Punktzahl zu verbergen."
+            "p": "Stattdessen präsentiert der Ergebnisbildschirm auch die Stärken und Schwächen jeder Person zusammen mit der derzeit benötigten Energie als **Lesematerial**. Dies soll vermeiden, dass die Grundlage der Punktzahl verborgen wird."
           }
         ]
       }
@@ -770,17 +770,17 @@ export const DE_DOCS = {
   "guide/affinity": {
     "eyebrow": "Unsere Standards",
     "title": "Inyeon’s Match — Der Grund, warum keine Gesamtpunktzahl bereitgestellt wird",
-    "summary": "Wir verwenden nur die Daten einer Person, während die Position des Gegners leer bleibt, und setzen alle möglichen Werte in diese Position ein. Wir erklären den Grund, warum keine Gesamtpunktzahl zu dem auf diese Weise erhaltenen Typ angehängt wird.",
+    "summary": "Wir verwenden nur die Daten einer Person, während die Position des Gegners leer bleibt, und setzen alle möglichen Werte an dieser Stelle ein. Wir erklären den Grund, warum keine Gesamtpunktzahl zu dem auf diese Weise erhaltenen Typ angehängt wird.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
         "title": "Berechnungen erfolgen, während die Position des Gegners leer bleibt",
         "blocks": [
           {
-            "p": "Die Kompatibilitätswerte werden durch das Abgleichen von zwei Personen berechnet. **Inyeon’s Match** verwendet nur die Daten einer Person, während die Position des Gegners leer bleibt, und testet alle möglichen Werte, die in diese Position eingehen könnten. Es ist wie das Rückwärtslaufen des Kompatibilitätsmotors."
+            "p": "Kompatibilitätswerte werden durch das Abgleichen von zwei Personen berechnet. **Inyeon’s Match** verwendet nur die Daten einer Person, während die Position des Gegners leer bleibt, und testet alle möglichen Werte, die an dieser Stelle eingegeben werden könnten. Es ist wie das Rückwärtslaufen des Kompatibilitätsmotors."
           },
           {
-            "p": "Daher ist es nicht notwendig, das Geburtsdatum des Gegners zu kennen. Wir können trotzdem sagen: 'Welches Art von Match-Profil ist für mich geeignet?' über jemanden, den wir noch nicht getroffen haben."
+            "p": "Daher ist es nicht notwendig, das Geburtsdatum des Gegners zu kennen. Wir können trotzdem sagen: 'Welches Match-Profil ist für mich geeignet?' über jemanden, den wir noch nicht getroffen haben."
           }
         ]
       },
@@ -804,7 +804,7 @@ export const DE_DOCS = {
                   "10"
                 ],
                 [
-                  "Komplement der fünf Elemente",
+                  "Die fünf Elemente ergänzen sich",
                   "Mein unterstützendes Element und die fünf Elementkräfte des Gegners",
                   "5"
                 ],
@@ -814,7 +814,7 @@ export const DE_DOCS = {
                   "12"
                 ],
                 [
-                  "Beziehung der Tierkreiszeichen",
+                  "Tierkreisbeziehung",
                   "die Jahrzweige der beiden Personen",
                   "12"
                 ]
@@ -831,15 +831,15 @@ export const DE_DOCS = {
         "title": "Die gleichen Regeln gelten",
         "blocks": [
           {
-            "p": "Die hier geschriebenen Werte stammen direkt aus dem Kompatibilitätsmotor. Da keine neuen Regeln erstellt wurden, wird der Typ, der hier oben erscheint, auch die höchste Punktzahl für dieses Element in der tatsächlichen Kompatibilität haben. Wenn die Kompatibilitätsregeln geändert werden, wird dieser Bildschirm entsprechend angepasst."
+            "p": "Die hier geschriebenen Werte stammen direkt aus dem Kompatibilitätsmotor. Da keine neuen Regeln erstellt wurden, wird der Typ, der hier oben erscheint, auch die höchste Punktzahl für dieses Element in der tatsächlichen Kompatibilität haben. Wenn die Kompatibilitätsregeln geändert werden, wird dieser Bildschirm ebenfalls angepasst."
           }
         ]
       },
       {
-        "title": "Keine Gesamtpunktzahl wird bereitgestellt",
+        "title": "Es wird keine Gesamtpunktzahl bereitgestellt",
         "blocks": [
           {
-            "p": "Dies ist die wichtigste Entscheidung auf diesem Bildschirm. Das Sammeln der höchsten Punktzahlen für jeden Zweig mag wie eine 'perfekte Übereinstimmung' erscheinen, aber diese Person könnte **tatsächlich nicht existieren.**"
+            "p": "Dies ist die wichtigste Entscheidung auf diesem Bildschirm. Das Sammeln der höchsten Punktzahlen für jeden Zweig mag scheinen, als würde es eine 'perfekte Übereinstimmung' ergeben, aber diese Person könnte **in Wirklichkeit nicht existieren.**"
           },
           {
             "p": "Bei realen Personen arbeiten der Tagesmeister und die fünf Elemente nicht separat. Eine Person mit 甲木 hat normalerweise auch eine starke 木-Energie. Diese Methode, die Zweige separat zu zählen, ignoriert diese Korrelation, sodass der Wert, der durch das Verbinden der höchsten Punktzahlen für jeden Zweig erhalten wird, eine Kombination ist, die in der Realität nicht existiert."
@@ -853,7 +853,7 @@ export const DE_DOCS = {
         "title": "Wie man 'Übereinstimmungstypen' liest",
         "blocks": [
           {
-            "p": "Das Ergebnis bedeutet: 'Wenn Sie eine Person dieses Typs treffen, wird dieses Element hoch punkten'. Es ist kein Kriterium zur Auswahl einer Person, sondern vielmehr eine Möglichkeit, es aus einer Perspektive des Selbstverständnisses zu lesen."
+            "p": "Das Ergebnis bedeutet: 'Wenn Sie eine Person dieses Typs treffen, wird dieses Element hoch punkten.' Es ist kein Kriterium zur Auswahl einer Person, sondern vielmehr eine Möglichkeit, es aus einer Perspektive des Selbstverständnisses zu lesen."
           },
           {
             "p": "Die Gründe, warum bestimmte Typen hoch punkteten, werden ebenfalls punktuell vermerkt — ob der Tagesmeister in einer günstigen Position ist oder ob diese Person die Energie besitzt, die ich derzeit benötige."
@@ -864,7 +864,7 @@ export const DE_DOCS = {
         "title": "Bestätigungstool",
         "blocks": [
           {
-            "p": "Sie könnten neugierig sein, ob die Person, die Sie im Sinn haben, diesem Typ entspricht. Indem Sie ihr Geburtsdatum in das Bestätigungstool auf dem Ergebnisbildschirm eingeben, erfahren Sie ihren Tagesmeister, Tageszweig und Jahrzweig. Die eingegebenen Werte werden zu diesem Zeitpunkt nicht gespeichert [(nicht gespeichert)](/guide/no-storage)."
+            "p": "Sie könnten neugierig sein, ob die Person, die Sie im Kopf haben, diesem Typ entspricht. Indem Sie ihr Geburtsdatum in das Bestätigungstool auf dem Ergebnisbildschirm eingeben, werden Sie über ihren Tagesmeister, Tageszweig und Jahrzweig informiert. Die eingegebenen Werte werden zu diesem Zeitpunkt nicht gespeichert [(nicht gespeichert)](/guide/no-storage)."
           }
         ]
       }
@@ -873,7 +873,7 @@ export const DE_DOCS = {
   "guide/true-solar-time": {
     "eyebrow": "Zeit",
     "title": "Geburtszeit in wahre Solarzeit umrechnen",
-    "summary": "Die Standardzeit und die tatsächliche Position der Sonne unterscheiden sich. Die Zeit muss basierend auf dem Längengrad des Geburtsortes korrigiert werden, um zu erklären, warum der Zeitstamm genau ist.",
+    "summary": "Die Standardzeit und die tatsächliche Position der Sonne unterscheiden sich. Die Zeit muss basierend auf der Längengrad des Geburtsortes korrigiert werden, um zu erklären, warum der Zeitstamm genau ist.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
@@ -883,7 +883,7 @@ export const DE_DOCS = {
             "p": "Der Zeitstamm (時柱) des saju wird durch die Position der Sonne bestimmt. Allerdings verwendet die Uhr, die wir sehen, eine einheitliche Standardzeit für das gesamte Land, was zu einer Diskrepanz mit der tatsächlichen Position der Sonne führt."
           },
           {
-            "p": "Die Standardzeit in Korea basiert auf 135° östlicher Länge. Da der Längengrad von Seoul etwa 127° beträgt, ist er ungefähr 8° westlich, was dazu führt, dass die Sonne später ihren Zenit erreicht — wenn es nach der Uhr Mittag ist, hat die Sonne in Seoul ihren Zenit noch nicht erreicht. Dieser Unterschied beträgt etwa **32 Minuten**."
+            "p": "Die Standardzeit Koreas basiert auf 135° östlicher Länge. Da die Länge von Seoul etwa 127° beträgt, ist sie ungefähr 8° westlich, was dazu führt, dass die Sonne später ihren Zenit erreicht — wenn es nach der Uhr Mittag ist, hat die Sonne in Seoul ihren Zenit noch nicht erreicht. Dieser Unterschied beträgt etwa **32 Minuten**."
           }
         ]
       },
@@ -900,10 +900,10 @@ export const DE_DOCS = {
         "title": "Warum wir nach dem Geburtsort fragen",
         "blocks": [
           {
-            "p": "Wenn der Längengrad unterschiedlich ist, wird auch der Korrekturwert unterschiedlich sein. Die Anwendung der auf Seoul basierenden Korrektur auf jemanden, der im Ausland geboren wurde, führt zu einer erheblichen Diskrepanz im Zeitstamm. Daher erfordert der Eingabebildschirm, dass Sie Ihren Geburtsort auswählen, und die Berechnung basiert auf dem Längengrad und der Standardzeit dieser Stadt. Derzeit gibt es {cityCount} Orte in der Liste."
+            "p": "Wenn die Länge unterschiedlich ist, wird auch der Korrekturwert unterschiedlich sein. Die Anwendung der auf Seoul basierenden Korrektur auf jemanden, der im Ausland geboren wurde, führt zu einer erheblichen Diskrepanz im Zeitstamm. Daher erfordert der Eingabebildschirm, dass Sie Ihren Geburtsort auswählen, und die Berechnung basiert auf der Länge und der Standardzeit dieser Stadt. Derzeit gibt es {cityCount} Orte in der Liste."
           },
           {
-            "p": "In Regionen, in denen der Längengrad selbst innerhalb desselben Landes stark variiert (wie in den USA, Russland, Indonesien usw.), wurden die Städte unterteilt. **15° Längengrad entspricht einem Zeitstamm-Slot**."
+            "p": "In Regionen, in denen die Länge selbst innerhalb desselben Landes (wie den USA, Russland, Indonesien usw.) stark variiert, wurden die Städte unterteilt. **15° Länge entspricht einem Zeitstamm-Slot.**"
           },
           {
             "p": "Wenn Sie nicht auswählen, wird die Berechnung auf Seoul basieren. Da die meisten Geburten im Inland stattfinden, verringert dies die Fehlerchance, aber wenn Sie im Ausland geboren wurden, wählen Sie bitte unbedingt aus."
@@ -914,7 +914,7 @@ export const DE_DOCS = {
         "title": "Die Standardzeit hat sich in der Vergangenheit mehrmals geändert",
         "blocks": [
           {
-            "p": "Es gibt einen Grund, warum die Korrektur nicht einfach als 'Längendifferenz ÷ 15° × 60 Minuten' berechnet werden kann. Die Standardzeit selbst hat sich in verschiedenen Epochen verändert."
+            "p": "Es gibt einen Grund, warum die Korrektur nicht einfach als 'Längendifferenz ÷ 15° × 60 Minuten' berechnet werden kann. Die Standardzeit selbst hat sich über verschiedene Epochen hinweg verändert."
           },
           {
             "table": {
@@ -940,7 +940,7 @@ export const DE_DOCS = {
             }
           },
           {
-            "p": "Inyeon-Link verwendet keinen festen Wert für den Standardmeridian, sondern berechnet die Standardzeit, die zu diesem Zeitpunkt tatsächlich verwendet wurde, basierend auf den **IANA-Zeitzonen**-Informationen des Geburtsortes. Die Sommerzeit und frühere Standardzeiten werden automatisch berücksichtigt."
+            "p": "Inyeon-Link verwendet keinen festen Wert für den Standardmeridian, sondern berechnet die Standardzeit, die zu diesem Zeitpunkt tatsächlich verwendet wurde, basierend auf den **IANA-Zeitzonen**-Informationen des Geburtsortes. Die Sommerzeit und vergangene Standardzeiten werden automatisch berücksichtigt."
           }
         ]
       },
@@ -948,10 +948,10 @@ export const DE_DOCS = {
         "title": "Geburten kurz nach Mitternacht berücksichtigen ebenfalls das Datum",
         "blocks": [
           {
-            "p": "Da die Korrektur -32 Minuten beträgt, werden diejenigen, die zwischen 00:00 und 00:32 nach der Uhr geboren wurden, in wahrer Solarzeit als **23:00 des vorherigen Tages** betrachtet. Wenn nur die Zeit zurückgesetzt wird und das Datum unverändert bleibt, wird der Tagestamm als '23:00 des vorherigen Tages' geschrieben."
+            "p": "Da die Korrektur -32 Minuten beträgt, werden diejenigen, die zwischen 00:00 und 00:32 nach der Uhr geboren wurden, in wahrer Sonnenzeit als **23:00 des vorherigen Tages** betrachtet. Wenn nur die Zeit zurückgesetzt wird und das Datum unverändert bleibt, wird der Tagestamm als '23:00 des vorherigen Tages' geschrieben."
           },
           {
-            "p": "Inyeon-Link wird in diesem Fall auch das Datum zurücksetzen. Der Tagestamm zeigt die Person selbst im saju an, daher sind fast alle Kompatibilitätsitems falsch, wenn dies nicht korrekt ist."
+            "p": "Inyeon-Link wird in diesem Fall auch das Datum zurücksetzen. Der Tagestamm zeigt die Person selbst in saju an, daher wird, wenn dies falsch ist, fast alles in Bezug auf die Kompatibilität falsch sein."
           }
         ]
       },
@@ -959,10 +959,10 @@ export const DE_DOCS = {
         "title": "Sie müssen die Zeit nicht wissen",
         "blocks": [
           {
-            "p": "Die Geburtszeit ist optional. Wenn Sie sie nicht wissen, wird die Berechnung ohne den Zeitstamm durchgeführt, und dies wird auf dem Ergebnisscreen angezeigt. Es gibt keine Items in der Kompatibilität, die erfordern, dass der Zeitstamm direkt geschrieben wird, aber er beeinflusst die fünf Elemente, daher ist es genauer, ihn einzuschließen, wenn Sie ihn wissen."
+            "p": "Die Geburtszeit ist optional. Wenn Sie sie nicht wissen, wird die Berechnung ohne den Zeitstamm durchgeführt, und diese Tatsache wird auf dem Ergebnisbildschirm angezeigt. Es gibt keine Elemente in der Kompatibilität, die erfordern, dass der Zeitstamm direkt geschrieben wird, aber er beeinflusst die fünf Elemente, daher ist es genauer, ihn einzuschließen, wenn Sie ihn wissen."
           },
           {
-            "p": "Die Tierkreis-Kompatibilität hat immer denselben Wert, unabhängig von der Zeit — [weil sie nur den Jahrzweig betrachtet](/guide/zodiac)."
+            "p": "Die Tierkreis-Kompatibilität ist immer der gleiche Wert, unabhängig von der Zeit — [weil sie nur den Jahrzweig betrachtet](/guide/zodiac)."
           }
         ]
       }
@@ -970,7 +970,7 @@ export const DE_DOCS = {
   },
   "guide/no-storage": {
     "eyebrow": "Persönliche Informationen",
-    "title": "Methode zur Nichtspeicherung eingegebener Informationen",
+    "title": "Methode zur Nicht-Speicherung eingegebener Informationen",
     "summary": "Dies erklärt, was es technisch bedeutet, dass Ihr Geburtsdatum nirgendwo aufgezeichnet wird und was im Ergebnislink enthalten ist.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
@@ -978,10 +978,10 @@ export const DE_DOCS = {
         "title": "Keine Mitgliedschaft erforderlich",
         "blocks": [
           {
-            "p": "Inyeon-Link erstellt keine Konten. Es werden keine Namen, E-Mails oder Telefonnummern gesammelt. Die einzigen gesammelten Informationen sind das Geburtsdatum und (optional) die Geburtszeit, der Geburtsort und das Geschlecht, und selbst diese bleiben nach Abschluss der Berechnung nicht erhalten."
+            "p": "Inyeon-Link erstellt keine Konten. Es werden keine Namen, E-Mails oder Telefonnummern gesammelt. Die einzigen Informationen, die gesammelt werden, sind das Geburtsdatum und (optional) die Geburtszeit, der Geburtsort und das Geschlecht, und selbst das bleibt nicht nach Abschluss der Berechnung."
           },
           {
-            "p": "Es gibt ein Feld, um einen Titel einzugeben, der auf dem Ergebnisscreen angezeigt wird, aber das ist **nur zu Anzeigezwecken** und wird nicht in der Berechnung verwendet. Sie müssen Ihren echten Namen nicht eingeben."
+            "p": "Es gibt ein Feld, um einen Titel einzugeben, der auf dem Ergebnisbildschirm angezeigt wird, aber das ist **nur zu Anzeigezwecken** und wird nicht in der Berechnung verwendet. Sie müssen Ihren echten Namen nicht eingeben."
           }
         ]
       },
@@ -995,7 +995,7 @@ export const DE_DOCS = {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Was nach **#** folgt, sind die Eingabewerte. Dieser Teil wird als **Fragment** bezeichnet, das ein **Abschnitt ist, den der Browser nicht an den Server sendet**. Dies ist ein standardmäßiges Webverhalten und keine Regel, die wir erstellt haben — es wurde ursprünglich entworfen, um einen Standort innerhalb eines Dokuments anzuzeigen, sodass der Server keinen Bedarf hat, es zu sehen."
+            "p": "Was nach **#** folgt, sind die Eingabewerte. Dieser Teil wird als **Fragment** bezeichnet, das ein **Abschnitt ist, den der Browser nicht an den Server sendet**. Dies ist ein standardmäßiges Webverhalten und keine Regel, die wir erstellt haben — es wurde ursprünglich entwickelt, um einen Standort innerhalb eines Dokuments anzuzeigen, sodass der Server keinen Grund hat, es zu sehen."
           },
           {
             "p": "Mit anderen Worten, wenn Sie den Ergebnislink öffnen, liest der Browser diesen Wert, um die Berechnung anzufordern, und unser Server erhält die für die Berechnung benötigten Werte, gibt die Antwort zurück und vergisst sie dann."
@@ -1018,7 +1018,7 @@ export const DE_DOCS = {
             "p": "Die Berechnung selbst erfolgt auf dem Server. Der koreanische lunisolare Almanach wird benötigt, um das saju zu generieren, und diese Tabelle ist zu groß, um sie an den Browser zu senden. Allerdings wird **nach der Verarbeitung der Anfrage dieser Wert nirgendwo verwendet.** Es gibt keinen Code, um ihn in einer Datenbank zu speichern."
           },
           {
-            "p": "Ein minimaler, für den Betrieb notwendiger Datensatz wird aufbewahrt — ein Zähler, um zu verhindern, dass dieselbe Person zu viele Anfragen in kurzer Zeit sendet. Dies umfasst nicht das Geburtsdatum, und die Zugriffs-IP wird ebenfalls nicht gespeichert. Nur ein Wert, der mit dem Datum gehasht ist, wird gezählt, und dieser Wert ändert sich, wenn sich der Tag ändert."
+            "p": "Ein minimaler für den Betrieb notwendiger Datensatz wird aufbewahrt — ein Zähler, um zu verhindern, dass dieselbe Person zu viele Anfragen in kurzer Zeit sendet. Dies schließt das Geburtsdatum nicht ein, und die Zugriffs-IP wird ebenfalls nicht gespeichert. Nur ein Wert, der mit dem Datum gehasht ist, wird gezählt, und dieser Wert ändert sich, wenn sich der Tag ändert."
           }
         ]
       },
@@ -1030,9 +1030,9 @@ export const DE_DOCS = {
           },
           {
             "ul": [
-              "**Sie können frühere Ergebnisse nicht abrufen.** Sie müssen den Link haben, um sie erneut anzusehen.",
-              "**Die gleichen Werte werden neu berechnet.** Es gibt keinen Cache. Da jedoch alle Regeln deterministisch sind, [wird die gleiche Eingabe immer denselben Wert ergeben](/guide/how-compatibility).",
-              "**Ein Neuladen bringt das Werbegate zurück.** Dies liegt daran, dass es keinen Ort gibt, um Anzeigedaten zu speichern."
+              "**Sie können vergangene Ergebnisse nicht abrufen.** Sie müssen den Link haben, um sie erneut anzusehen.",
+              "**Die gleichen Werte werden neu berechnet.** Es gibt keinen Cache. Da jedoch alle Regeln deterministisch sind, [wird die gleiche Eingabe immer den gleichen Wert ergeben](/guide/how-compatibility).",
+              "**Ein Neuladen bringt das Werbegate zurück.** Dies liegt daran, dass es keinen Ort gibt, um die Anzeigedaten zu speichern."
             ]
           }
         ]
@@ -1041,7 +1041,7 @@ export const DE_DOCS = {
         "title": "Im Falle eines Kaufs",
         "blocks": [
           {
-            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsdatensatz aufbewahrt. Das Gesetz legt eine Aufbewahrungsfrist für Zahlungen fest, und ohne eine Bestellhistorie können Rückerstattungen nicht bearbeitet werden. Selbst dann gilt jedoch, dass **das Geburtsdatum, das für die Kompatibilitätsberechnungen verwendet wird, nicht an die Bestellung angehängt wird** — es wird erneut gesammelt, wenn das PDF nach der Zahlungsbestätigung erstellt wird."
+            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsdatensatz aufbewahrt. Das Gesetz legt eine Aufbewahrungsfrist für Zahlungen fest, und ohne eine Bestellhistorie können Rückerstattungen nicht bearbeitet werden. Allerdings wird auch dann **das Geburtsdatum, das für die Kompatibilitätsberechnungen verwendet wird, nicht an die Bestellung angehängt** — es wird erneut gesammelt, wenn das PDF nach Bestätigung der Zahlung erstellt wird."
           },
           {
             "p": "Die Einzelheiten sind in der [Datenschutzrichtlinie](/privacy) aufgeführt."
@@ -1060,10 +1060,10 @@ export const DE_DOCS = {
         "title": "Der Bildschirm bleibt unverändert, nur dem PDF hinzugefügt",
         "blocks": [
           {
-            "p": "Kompatibilitätsberechnungen und Ergebnisanfragen sind **kostenlos**. Übereinstimmungsraten, Itemwerte und -gewichte, die ursprünglichen saju-Diagramme beider Personen und die Form der Beziehung können alle auf dem Bildschirm angezeigt werden. Nichts wurde vom Bildschirm entfernt, während der kostenpflichtige Bericht erstellt wurde."
+            "p": "Kompatibilitätsberechnungen und Ergebnisanfragen sind **kostenlos**. Übereinstimmungsraten, Punktzahlen und Gewichte, die ursprünglichen saju-Diagramme beider Personen und die Form der Beziehung können alle auf dem Bildschirm angezeigt werden. Nichts wurde vom Bildschirm entfernt, während der kostenpflichtige Bericht erstellt wurde."
           },
           {
-            "p": "Der Zweck des Berichts ist es, **Ebenen hinzuzufügen, die nicht auf dem Bildschirm sind**. Und diese Ebene ist nicht erfunden; sie besteht aus Werten, die bereits während des Bewertungsprozesses berechnet wurden, aber nicht auf dem Bildschirm verwendet wurden."
+            "p": "Der Zweck des Berichts besteht darin, **Ebenen hinzuzufügen, die nicht auf dem Bildschirm sind**. Und diese Ebene ist nicht erfunden; sie besteht aus Werten, die bereits während des Bewertungsprozesses berechnet wurden, aber nicht auf dem Bildschirm verwendet wurden."
           }
         ]
       },
@@ -1072,14 +1072,14 @@ export const DE_DOCS = {
         "slot": "gunghapContents",
         "blocks": [
           {
-            "p": "Inlandszahlung {priceGunghapDomestic} (inklusive Mehrwertsteuer), Auslandszahlung {priceGunghapGlobal}. A4 {pagesGunghap} Seiten."
+            "p": "Inlandszahlung {priceGunghapDomestic} (inklusive MwSt.), internationale Zahlung {priceGunghapGlobal}. A4 {pagesGunghap} Seiten."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": "**Seiten 1-3 sind organisiert, um das anzuzeigen, was auf dem Bildschirm ist** und **ab Seite 4 handelt es sich um Inhalte, die nicht auf dem Bildschirm sind**. Im Folgenden wird erklärt, warum bestimmte Dinge nicht auf dem Bildschirm angezeigt wurden."
+            "p": "**Seiten 1-3 sind organisiert, um das, was auf dem Bildschirm ist, zu behalten** und **ab Seite 4 handelt es sich um Inhalte, die nicht auf dem Bildschirm sind**. Unten wird erklärt, warum bestimmte Dinge nicht auf dem Bildschirm angezeigt wurden."
           }
         ]
       },
@@ -1087,13 +1087,13 @@ export const DE_DOCS = {
         "title": "Seite 4 — Die Richtung der beiden Energien",
         "blocks": [
           {
-            "p": "Die Elemente der fünf Elemente auf dem Bildschirm werden als eine einzige Punktzahl präsentiert. Diese Punktzahl ist jedoch der **Durchschnitt der beiden Richtungen** — sie misst, wie sehr der andere mich erfüllt und wie sehr ich den anderen erfülle, und mittelt diese Werte."
+            "p": "Die Elemente der fünf Elemente auf dem Bildschirm werden als eine einzige Punktzahl präsentiert. Diese einzelne Punktzahl ist jedoch der **Durchschnitt der beiden Richtungen** — sie misst, wie sehr der andere mich erfüllt und wie sehr ich den anderen erfülle, und mittelt diese Werte."
           },
           {
-            "p": "Komplementarität ist von Natur aus **asymmetrisch**. Das liegt daran, dass die Energien, die ich benötige, und die Energien, die der andere benötigt, unterschiedlich sind. Wenn man nur den Durchschnitt betrachtet, erscheinen eine Beziehung, in der eine Seite die andere erheblich erfüllt, und eine Beziehung, in der sich beide gegenseitig gleichmäßig erfüllen, als dieselbe Zahl. Der Bericht trennt diese beiden."
+            "p": "Komplementarität ist von Natur aus **asymmetrisch**. Das liegt daran, dass die Energien, die ich brauche, und die Energien, die der andere braucht, unterschiedlich sind. Wenn man nur den Durchschnitt betrachtet, erscheinen eine Beziehung, in der eine Seite die andere erheblich erfüllt, und eine Beziehung, in der sich beide gegenseitig gleichmäßig erfüllen, als dieselbe Zahl. Der Bericht trennt diese beiden."
           },
           {
-            "p": "In demselben Abschnitt ist auch das **Beziehungsschema der vier Säulen** enthalten. Die einzige, die in die Übereinstimmungsrate einfließt, ist der Tagezweig (日支) — weil er die Position des Ehepartners ist — aber auch die anderen Jahr-, Monats- und Stundenäste können mit demselben Beziehungsschema gelesen werden."
+            "p": "Ebenfalls in demselben Abschnitt enthalten ist das **Beziehungsschema der vier Säulen**. Das einzige, das in die Übereinstimmungsrate einfließt, ist der Tagezweig (日支) — da es sich um die Ehepartnerposition handelt — aber die anderen Jahr-, Monat- und Stundenäste können ebenfalls mit demselben Beziehungsschema gelesen werden."
           }
         ]
       },
@@ -1102,7 +1102,7 @@ export const DE_DOCS = {
         "title": "Die Punktzahlen in dieser Tabelle fließen nicht in die Übereinstimmungsrate ein",
         "blocks": [
           {
-            "p": "Wenn sie einbezogen würden, würde sich die Gesamtpunktzahl ändern und nicht mit dem bereits gesendeten Ergebnislink übereinstimmen. Daher ist sie nur als Lesematerial enthalten, und dieser Fakt wird unter der Tabelle vermerkt."
+            "p": "Wenn sie einbezogen würden, würde sich die Gesamtpunktzahl ändern und nicht mit dem bereits gesendeten Ergebnislink übereinstimmen. Daher wird sie nur als Lesematerial einbezogen, und dieser Fakt wird unter der Tabelle vermerkt."
           }
         ]
       },
@@ -1113,7 +1113,7 @@ export const DE_DOCS = {
             "p": "Die Balken der fünf Elemente auf dem Bildschirm zeigen **wie viel vorhanden ist**. Der Bericht fügt hinzu, **ob der Geburtsmonat diese Energie unterstützt**. Selbst bei der gleichen Menge haben die starke Energie (旺) und die tote Energie (死) unterschiedliche Stärken."
           },
           {
-            "p": "Sie können die Kräfte vor und nach der Multiplikation mit der Energie des Monats nebeneinander sehen, was zeigt, wie sehr die Jahreszeit sie angehoben hat. Das **Verbündetenverhältnis**, das zwischen starkem Tagmeister und schwachem Tagmeister unterscheidet, wird ebenfalls vermerkt — der Bildschirm zeigt nur das Urteil, aber der Bericht zeigt, wo dieses Urteil gefällt wurde."
+            "p": "Sie können die Kräfte vor und nach der Multiplikation mit der Energie des Monats nebeneinander sehen, was zeigt, wie sehr die Saison sie angehoben hat. Das **Verbündetenverhältnis**, das zwischen einem starken Tagmeister und einem schwachen Tagmeister unterscheidet, wird ebenfalls vermerkt — der Bildschirm zeigt nur das Urteil, aber der Bericht zeigt, wo dieses Urteil gefällt wurde."
           }
         ]
       },
@@ -1121,7 +1121,7 @@ export const DE_DOCS = {
         "title": "Seite 6 — Was die vier Säulen der anderen Person für mich bedeuten",
         "blocks": [
           {
-            "p": "Die Übereinstimmungsrate vergleicht nur die **Tagestämme** beider Personen. Die verbleibenden drei Säulen der anderen Person werden jedoch auch von den Zehn Göttern nach denselben Regeln bestimmt. Während Sie verstehen können, **was diese Person für mich bedeutet**, indem Sie nur den Tagestamm betrachten, können Sie nicht wissen, **was die Position dieser Person für mich bedeutet**."
+            "p": "Die Übereinstimmungsrate vergleicht nur die **Tagestämme** beider Personen. Die verbleibenden drei Säulen der anderen Person werden jedoch auch durch die Zehn Götter nach denselben Regeln bestimmt. Während Sie verstehen können, **was diese Person für mich bedeutet**, wenn Sie nur den Tagestamm betrachten, können Sie nicht wissen, **was die Position dieser Person für mich bedeutet.**"
           },
           {
             "p": "Da es Richtungen gibt, werden beide Seiten separat dargestellt. Was ich sehe und was der andere sieht, ist unterschiedlich."
@@ -1132,43 +1132,43 @@ export const DE_DOCS = {
         "title": "Seite 7 — Wie dieses saju berechnet wurde",
         "blocks": [
           {
-            "p": "Es wird angegeben, wie sehr die Geburtszeit auf die wahre Solarzeit angepasst wurde, ob die Korrektur das Datum geändert hat und welche Sonnen- und Monddaten bei der Erstellung des saju verwendet wurden. Das Konzept wird im Dokument [Anpassung der Geburtszeit an die wahre Solarzeit](/guide/true-solar-time) erklärt, aber **der Wert, um wie viele Minuten in Ihrem Fall angepasst wurde**, variiert von Person zu Person, daher ist er nur im Bericht enthalten."
+            "p": "Es wird angegeben, wie sehr die Geburtszeit auf die wahre Solarzeit angepasst wurde, ob die Korrektur das Datum geändert hat und welche Sonnen- und Monddaten zum Zeitpunkt der Erstellung des saju verwendet wurden. Das Konzept wird im Dokument [Anpassung der Geburtszeit an die wahre Solarzeit](/guide/true-solar-time) erklärt, aber **der Wert, um wie viele Minuten in Ihrem Fall angepasst wurde**, variiert von Person zu Person, daher ist er nur im Bericht enthalten."
           }
         ]
       },
       {
-        "title": "Inyeon Kompatibilitätsprofilbericht PDF — {priceAffinityDomestic}",
-        "slot": "",
+        "title": "Inyeon-Match-Profilbericht PDF — {priceAffinityDomestic}",
+        "slot": "affinityContents",
         "blocks": [
           {
-            "p": "Inlandszahlung {priceAffinityDomestic} (einschließlich MwSt.), internationale Zahlung {priceAffinityGlobal}. A4 {pagesAffinity} Seiten."
+            "p": "Inlandszahlung {priceAffinityDomestic} (inklusive MwSt.), internationale Zahlung {priceAffinityGlobal}. A4 {pagesAffinity} Seiten."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": ""
+            "p": "Dieser Abschnitt ist die **Gesamt-Rangliste**. Der Bildschirm zeigt nur die Sets, die gut übereinstimmen, aber der Bericht rangiert alle zehn himmlischen Stämme und die zwölf irdischen Zweige **vollständig**. Wenn Sie nur die obersten Sets betrachten, wissen Sie nicht, 'wer als nächstes kommt' und 'welches am wenigsten kompatibel ist'."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Wichtige Informationen vor dem Kauf",
         "blocks": [
           {
-            "p": ""
+            "p": "**Der Server speichert keine Dateien.** Sobald die Zahlung genehmigt ist, wird das Dokument sofort erstellt und gesendet, ohne dass etwas auf dem Server bleibt. Das Prinzip dieses Dienstes, Eingabewerte nicht zu speichern, wird auch im kostenpflichtigen Ablauf beibehalten."
           },
           {
-            "p": ""
+            "p": "Bitte **speichern Sie die Datei sofort nach der Zahlung.** Sie können dieselbe Bestellung bis zu fünf Mal erhalten, aber wenn Sie den Ergebnisscreen verlassen und die Eingabewerte verschwinden, können Sie sie nicht erneut erstellen."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Berichte sind auch Referenzmaterialien",
         "blocks": [
           {
-            "p": ""
+            "p": "Nur weil die Länge zugenommen hat, bedeutet das nicht, dass die Schlussfolgerung sicherer ist. Was der Bericht mehr enthält, ist **die Grundlage derselben Berechnung**, nicht eine stärkere Behauptung. Schicksalslesung ist ein Bereich, in dem die Schlussfolgerungen je nach Praktiker variieren können, und dieser Dienst berechnet nur, was in Regeln übersetzt werden kann."
           }
         ]
       }
@@ -1191,10 +1191,10 @@ export const DE_DOCS = {
         "title": "Kontakt per E-Mail",
         "blocks": [
           {
-            "p": "Bitte senden Sie Anfragen an **{email}**. Wir werden innerhalb von 2 Werktagen antworten. Bei Anfragen zu Zahlungen und Rückerstattungen geben Sie bitte **die Bestellnummer oder die E-Mail-Adresse, die für die Zahlung verwendet wurde**, für eine schnellere Bestätigung an."
+            "p": "Bitte senden Sie Anfragen an **{email}**. Wir werden innerhalb von 2 Werktagen antworten. Für Anfragen zu Zahlungen und Rückerstattungen geben Sie bitte **die Bestellnummer oder die E-Mail-Adresse, die für die Zahlung verwendet wurde**, für eine schnellere Bestätigung an."
           },
           {
-            "p": "Telefonanfragen können unter {customerCenter} erfolgen."
+            "p": "Telefonanfragen können unter {customerCenter} getätigt werden."
           }
         ]
       },
@@ -1205,7 +1205,7 @@ export const DE_DOCS = {
             "ul": [
               "**Zahlung und Rückerstattung** — Wenn das Dokument nicht erstellt wurde oder der Zahlungsbetrag von der Bestellung abweicht, wird eine vollständige Rückerstattung gewährt. Die Bedingungen finden Sie in der [Rückerstattungsrichtlinie](/refund-policy).",
               "**Persönliche Informationen** — Wir akzeptieren Anfragen zur Einsichtnahme, Korrektur und Löschung. Die Bearbeitungsrichtlinie finden Sie in der [Datenschutzrichtlinie](/privacy).",
-              "**Fehlerbericht zur Berechnung** — Wenn das ursprüngliche saju-Diagramm oder die Punktzahl seltsam erscheint, lassen Sie es uns bitte wissen. Wenn Sie angeben, wann Sie das Datum und die Uhrzeit eingegeben haben, können wir mit denselben Werten neu berechnen."
+              "**Berechnungsfehlerbericht** — Wenn das ursprüngliche saju-Diagramm oder die Punktzahl seltsam erscheint, lassen Sie es uns bitte wissen. Wenn Sie angeben, wann Sie das Datum und die Uhrzeit eingegeben haben, können wir mit denselben Werten neu berechnen."
             ]
           }
         ]
@@ -1218,7 +1218,7 @@ export const DE_DOCS = {
               "**Firmenname** — {companyName}",
               "**Vertreter** — {representative}",
               "**Handelsregisternummer** — {businessNumber}",
-              "**Nummer der Versandhandelsregistrierung** — {mailOrderNumber}",
+              "**Fernabsatzhandelsregisternummer** — {mailOrderNumber}",
               "**Adresse** — {address}",
               "**Kundenservice** — {customerCenter}",
               "**E-Mail** — {email}",
@@ -1232,7 +1232,7 @@ export const DE_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Sie müssen Ihr Geburtsdatum und Ihre Geburtszeit nicht in der Anfrage-E-Mail angeben. Wir speichern keine Eingaben, daher können wir sie nicht abrufen, und die Bestellnummer ist zur Bestätigung ausreichend. Bitte fügen Sie sie nur hinzu, wenn es für einen Fehlerbericht zur Berechnung notwendig ist."
+            "p": "Sie müssen Ihr Geburtsdatum und Ihre Geburtszeit nicht in der Anfrage-E-Mail angeben. Wir speichern keine Eingaben, daher können wir sie nicht abrufen, und die Bestellnummer reicht zur Bestätigung aus. Bitte fügen Sie sie nur hinzu, wenn es für einen Berechnungsfehlerbericht notwendig ist."
           }
         ]
       }
@@ -1247,7 +1247,7 @@ export const DE_NOTICES = {
     "engine": "Berechnung",
     "support": "Unterstützung"
   },
-  "intro": "Änderungen Ihrer Nutzungsbedingungen — Preise, Richtlinien — werden hier veröffentlicht, bevor sie in Kraft treten. Interne Verbesserungen sind nicht aufgeführt: was hier erscheint, ist das, was Sie wissen müssen.",
+  "intro": "Änderungen Ihrer Nutzungsbedingungen — Preise, Richtlinien — werden hier veröffentlicht, bevor sie in Kraft treten. Interne Verbesserungen sind nicht aufgeführt: Was hier erscheint, ist das, was Sie wissen müssen.",
   "empty": {
     "title": "Noch keine Mitteilungen",
     "body": "Wenn sich etwas ändert, wird es hier erscheinen."
@@ -1262,23 +1262,23 @@ export const DE_NOTICES = {
     "2026-08-02-contact": {
       "title": "Kontakt- und Über-Seiten sind jetzt geöffnet",
       "body": [
-        "Fragen, Rückerstattungen, Datenschutzanfragen und Berichte über Berechnungsfehler haben jetzt einen Ort — siehe die Kontaktseite im Fußbereich.",
-        "Wenn etwas falsch berechnet aussieht, fügen Sie bitte die Geburtsdetails hinzu, die es erzeugt haben. Wir speichern nicht, was Sie eingeben, daher können wir ohne diese Informationen die Lesung nicht reproduzieren."
+        "Fragen, Rückerstattungen, Datenschutzanfragen und Berichte über Berechnungsfehler haben jetzt einen Ort — siehe die Kontaktseite im Footer.",
+        "Wenn etwas falsch berechnet aussieht, geben Sie bitte die Geburtsdetails an, die dazu geführt haben. Wir speichern nicht, was Sie eingeben, daher können wir ohne diese Informationen die Lesung nicht reproduzieren."
       ]
     },
     "2026-08-01-pdf-language": {
       "title": "Berichte werden in Englisch für Arabisch und Khmer ausgegeben",
       "body": [
-        "Wenn Sie auf Arabisch oder Khmer lesen, wird der PDF-Bericht, den Sie kaufen, in Englisch erstellt. Das Tool, das unsere Dokumente anordnet, kann derzeit keine Absätze in diesen Schriften setzen.",
+        "Wenn Sie auf Arabisch oder Khmer lesen, wird der PDF-Bericht, den Sie kaufen, in Englisch erstellt. Das Tool, das unsere Dokumente layoutet, kann derzeit keine Absätze in diesen Schriften setzen.",
         "Der Bildschirm bleibt in Ihrer Sprache, und Ihr Name wird in Ihrer eigenen Schrift im Bericht gedruckt.",
-        "Die gleiche Notiz erscheint vor der Zahlung. Wenn das Tool diese Schriften unterstützt, werden wir dies hier mitteilen."
+        "Die gleiche Notiz erscheint vor der Zahlung. Wenn das Tool diese Schriften unterstützt, werden wir das hier mitteilen."
       ]
     },
     "2026-08-01-engine-version": {
       "title": "Jede Lesung trägt die Version der verwendeten Regeln",
       "body": [
         "Jede Lesung und jeder Bericht trägt das Regelwerk, das zu ihrer Erstellung verwendet wurde (zum Beispiel inyeonlink-match-v10). Die gleiche Eingabe im gleichen Regelwerk ergibt immer die gleichen Zahlen.",
-        "Wenn wir die Interpretationsregeln so ändern, dass sich ein Ergebnis ändern kann, veröffentlichen wir dies zuerst hier, mit dem Datum, an dem es in Kraft tritt — denn ein Ergebnislink, den Sie bereits haben, würde dann anders gelesen werden.",
+        "Wenn wir die Interpretationsregeln so ändern, dass sich ein Ergebnis ändern kann, veröffentlichen wir das hier zuerst, mit dem Datum, an dem es in Kraft tritt — denn ein Ergebnislink, den Sie bereits haben, würde dann anders gelesen werden.",
         "Das aktuelle Regelwerk ist v10. Zahlungen sind noch nicht geöffnet."
       ]
     }

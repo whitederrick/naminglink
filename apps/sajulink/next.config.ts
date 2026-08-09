@@ -79,6 +79,26 @@ const securityHeaders = [
   },
 ];
 
+/**
+ * 상세판에 흡수한 영어 요약 세 편.
+ *
+ * 이 문서들은 한국어 상세판의 짧은 영어판이었다. 상세판이 23개 언어로 나가는 지금은 같은
+ * 내용의 요약이 따로 있을 이유가 없어 지웠다.
+ *
+ * **그냥 지우면 404다.** 이 주소들은 사이트맵에 실려 색인돼 있었고 외부 링크도 있을 수 있다.
+ * 301로 넘겨 그동안 쌓인 신호를 상세판이 물려받게 한다.
+ *
+ * 로케일 접두사가 붙은 주소(`/ja/guide/…`)도 함께 잡는다 — 색인된 것은 대부분 그쪽이다.
+ */
+const ABSORBED_GUIDES = [
+  ["how-it-works", "natal-chart"],
+  ["what-we-store", "no-storage"],
+  ["what-the-reports-contain", "reports"],
+].flatMap(([from, to]) => [
+  { source: `/guide/${from}`, destination: `/guide/${to}`, permanent: true },
+  { source: `/:locale/guide/${from}`, destination: `/:locale/guide/${to}`, permanent: true },
+]);
+
 const nextConfig: NextConfig = {
   // 응답에서 `X-Powered-By: Next.js`를 뺀다(naminglink와 같은 이유·같은 설정).
   poweredByHeader: false,
@@ -93,6 +113,9 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
+  },
+  async redirects() {
+    return ABSORBED_GUIDES;
   },
 };
 

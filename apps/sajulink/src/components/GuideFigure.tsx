@@ -39,11 +39,17 @@ export function GuideFigure({
   );
 }
 
-/** 그림에서 보여 줄 관계와 선 모양. 점수 순으로 둔다. */
+/**
+ * 그림에서 보여 줄 관계와 선 모양. 점수 순으로 둔다.
+ *
+ * **글자는 여기 없다.** `labelKey`가 자료(`doc-content`의 `figure.labels`)에서 읽을 이름이다 —
+ * 예전에는 「육합·충·원진」이 여기 한국어로 박혀 있었고, 그러면 본문을 23개 언어로 옮겨도
+ * 그림 안만 한국어로 남는다(naminglink에서 실제로 그렇게 24개 조각이 남았다).
+ */
 const WHEEL_RELATIONS = [
-  { key: "YUKHAP", label: "육합", className: "stroke-brand-navy", dash: undefined },
-  { key: "CHUNG", label: "충", className: "stroke-brand-gold", dash: "6 4" },
-  { key: "WONJIN", label: "원진", className: "stroke-brand-celadon", dash: "2 4" },
+  { key: "YUKHAP", labelKey: "yukhap", className: "stroke-brand-navy", dash: undefined },
+  { key: "CHUNG", labelKey: "chung", className: "stroke-brand-gold", dash: "6 4" },
+  { key: "WONJIN", labelKey: "wonjin", className: "stroke-brand-celadon", dash: "2 4" },
 ] as const;
 
 const SIZE = 360;
@@ -66,7 +72,7 @@ function pointAt(index: number, radius: number) {
  * **선을 손으로 그리지 않는다.** 짝을 전부 `branchRelation()`에 물어 보고 그 답으로 긋는다.
  * 표에 적힌 짝과 그림의 선이 어긋날 수 없고, 규칙을 고치면 그림이 따라온다.
  */
-export function BranchWheel() {
+export function BranchWheel({ labels = {} }: { labels?: Record<string, string> }) {
   const chords: Array<{ from: Branch; to: Branch; key: string }> = [];
   for (let i = 0; i < EARTHLY_BRANCHES.length; i += 1) {
     for (let j = i + 1; j < EARTHLY_BRANCHES.length; j += 1) {
@@ -84,9 +90,8 @@ export function BranchWheel() {
       role="img"
       aria-labelledby="branch-wheel-title"
     >
-      <title id="branch-wheel-title">
-        십이지 열두 글자를 원으로 놓고 육합·충·원진을 선으로 이은 그림
-      </title>
+      {/* 화면 낭독기가 읽는 글이다. 그림을 못 보는 사람에게는 이것이 그림이므로 함께 옮긴다. */}
+      <title id="branch-wheel-title">{labels.alt}</title>
 
       <circle
         cx={CENTER}
@@ -132,14 +137,19 @@ export function BranchWheel() {
             >
               {branch}
             </text>
-            <text
-              x={label.x}
-              y={label.y + 4}
-              textAnchor="middle"
-              className="fill-muted text-[11px]"
-            >
-              {BRANCH_ANIMALS[branch]}
-            </text>
+            {/* 띠 이름은 자료가 넘긴다. 열쇠는 엔진 값(`rat`·`ox`…)이라 어긋날 자리가 없다.
+                자료에 없으면 아무것도 그리지 않는다 — 열두 글자(子·丑…)는 그 자체가 표본이라
+                남는다. */}
+            {labels[BRANCH_ANIMALS[branch]] ? (
+              <text
+                x={label.x}
+                y={label.y + 4}
+                textAnchor="middle"
+                className="fill-muted text-[11px]"
+              >
+                {labels[BRANCH_ANIMALS[branch]]}
+              </text>
+            ) : null}
           </g>
         );
       })}
@@ -148,7 +158,7 @@ export function BranchWheel() {
 }
 
 /** 바퀴 아래에 붙는 범례. 선 모양이 무엇인지 글로도 알려 준다. */
-export function BranchWheelLegend() {
+export function BranchWheelLegend({ labels = {} }: { labels?: Record<string, string> }) {
   return (
     <ul className="mt-1 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-muted">
       {WHEEL_RELATIONS.map((relation) => (
@@ -164,34 +174,15 @@ export function BranchWheelLegend() {
               strokeDasharray={relation.dash}
             />
           </svg>
-          {relation.label}
+          {labels[relation.labelKey]}
         </li>
       ))}
     </ul>
   );
 }
 
-const PILLARS_KO = [
-  { key: "year", label: "연주", note: "뿌리 · 띠" },
-  { key: "month", label: "월주", note: "계절 · 세력" },
-  { key: "day", label: "일주", note: "나 · 배우자궁" },
-  { key: "hour", label: "시주", note: "말년 · 쓰임" },
-] as const;
-
-const PILLARS_EN = [
-  { key: "year", label: "Year", note: "roots · zodiac animal" },
-  { key: "month", label: "Month", note: "season · strength" },
-  { key: "day", label: "Day", note: "you · your partner seat" },
-  { key: "hour", label: "Hour", note: "later years · how it is used" },
-] as const;
-
-const PILLAR_ROWS_KO = { stem: "천간", branch: "지지", stemNote: "일간 = 나", branchNote: "일지 = 배우자궁" };
-const PILLAR_ROWS_EN = {
-  stem: "Stem",
-  branch: "Branch",
-  stemNote: "day stem = you",
-  branchNote: "day branch = partner seat",
-};
+/** 기둥 넷의 자리. **이름은 여기 없다** — 열쇠만 두고 글자는 자료가 넘긴다. */
+const PILLAR_KEYS = ["year", "month", "day", "hour"] as const;
 
 /**
  * 사주 네 기둥 구조도.
@@ -199,19 +190,16 @@ const PILLAR_ROWS_EN = {
  * 이 서비스의 글은 "일간", "일지", "연지" 같은 말을 계속 쓴다. 그 자리가 어디인지 한 번
  * 보여 주지 않으면 문장을 읽을 때마다 머릿속에서 표를 다시 세워야 한다.
  *
- * **영어 안내 문서에도 같은 그림이 필요하다.** 라벨만 갈라 준다 — 구조는 언어와 무관하다.
+ * **글자는 자료가 넘긴다**(`doc-content`의 `figure.labels`). 예전에는 `language: "ko" | "en"`을
+ * 받아 두 벌을 이 파일에 두었는데, 그 꼴이면 **한국어와 영어 말고는 그림이 없다** — 본문이 23개
+ * 언어로 나가도 그림 안만 영어로 남는다. 열쇠는 `year`·`yearNote`·`stem`·`stemNote` 꼴이다.
  */
-export function FourPillarsDiagram({ language = "ko" }: { language?: "ko" | "en" }) {
-  const korean = language === "ko";
-  const PILLARS = korean ? PILLARS_KO : PILLARS_EN;
-  const rows = korean ? PILLAR_ROWS_KO : PILLAR_ROWS_EN;
-  return renderPillars(PILLARS, rows);
-}
-
-function renderPillars(
-  PILLARS: typeof PILLARS_KO | typeof PILLARS_EN,
-  rows: typeof PILLAR_ROWS_KO,
-) {
+export function FourPillarsDiagram({ labels = {} }: { labels?: Record<string, string> }) {
+  const PILLARS = PILLAR_KEYS.map((key) => ({
+    key,
+    label: labels[key],
+    note: labels[`${key}Note`],
+  }));
   return (
     <div className="grid grid-cols-4 gap-2 text-center">
       {PILLARS.map((pillar) => {
@@ -226,8 +214,8 @@ function renderPillars(
                   : "border-line bg-background"
               }`}
             >
-              {rows.stem}
-              {isDay ? <span className="mt-0.5 block text-[10px]">{rows.stemNote}</span> : null}
+              {labels.stem}
+              {isDay ? <span className="mt-0.5 block text-[10px]">{labels.stemNote}</span> : null}
             </p>
             <p
               className={`rounded-md border px-1 py-2 text-sm ${
@@ -236,8 +224,8 @@ function renderPillars(
                   : "border-line bg-background"
               }`}
             >
-              {rows.branch}
-              {isDay ? <span className="mt-0.5 block text-[10px]">{rows.branchNote}</span> : null}
+              {labels.branch}
+              {isDay ? <span className="mt-0.5 block text-[10px]">{labels.branchNote}</span> : null}
             </p>
             <p className="text-[11px] leading-5 text-muted">{pillar.note}</p>
           </div>

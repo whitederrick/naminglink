@@ -6,17 +6,17 @@ export const MS_DOCS = {
   "about": {
     "eyebrow": "Tentang",
     "title": "Tentang Inyeon-Link",
-    "summary": "Kami membandingkan dua carta kelahiran dalam tradisi Saju Korea. Berikut adalah apa yang kami kira, dan apa yang kami tolak untuk diklaim.",
+    "summary": "Kami membandingkan dua carta kelahiran dalam tradisi Saju Korea. Berikut adalah apa yang kami kira, dan apa yang kami tidak tuntut.",
     "backLabel": "Laman Utama",
     "sections": [
       {
         "title": "Apa yang kami lakukan",
         "blocks": [
           {
-            "p": "Inyeon-Link membina dua carta kelahiran daripada tarikh dan masa kelahiran dan menunjukkan **bagaimana dua set tenaga bertemu.** Anda juga boleh membaca carta anda sendiri secara berasingan dan melihat temperamen mana yang cenderung sesuai dengan anda."
+            "p": "Inyeon-Link membina dua carta kelahiran daripada tarikh dan waktu kelahiran dan menunjukkan **bagaimana dua set tenaga bertemu.** Anda juga boleh membaca carta anda sendiri secara berasingan dan melihat temperament mana yang cenderung sesuai dengan anda."
           },
           {
-            "p": "Membaca di skrin adalah **percuma dan tidak memerlukan akaun.** Item berbayar adalah laporan PDF yang mengandungi angka yang tidak pernah ditunjukkan di skrin — kekuatan elemen, pasangan sepuluh dewa dan hubungan di seluruh empat tiang."
+            "p": "Membaca di skrin adalah **percuma dan tidak memerlukan akaun.** Item berbayar adalah laporan PDF yang mengandungi angka yang tidak ditunjukkan di skrin — kekuatan elemen, pasangan sepuluh dewa dan hubungan di seluruh empat tiang."
           }
         ]
       },
@@ -24,7 +24,7 @@ export const MS_DOCS = {
         "title": "Apa yang kami kira",
         "blocks": [
           {
-            "p": "Carta dibina daripada **manseyeok**, dan masa kelahiran diperbetulkan kepada **jin-taeyang-si** untuk tempat kelahiran — waktu jam yang sama bermakna kedudukan matahari yang berbeza bergantung kepada tempat anda dilahirkan."
+            "p": "Carta dibina daripada **almanak lunisolar Korea**, dan waktu kelahiran diperbetulkan kepada **masa solar sebenar** untuk tempat kelahiran — waktu jam yang sama bermakna kedudukan matahari yang berbeza bergantung kepada tempat anda dilahirkan."
           },
           {
             "p": "Skor datang daripada peraturan tetap sahaja. Konsep tradisional — sepuluh dewa, hubungan cabang, elemen sokongan — dinyatakan sebagai peraturan, jadi **input yang sama sentiasa memberikan hasil yang sama.** Apabila peraturan berubah, kami menjalankan regresi untuk memastikan bacaan lama tidak berubah."
@@ -35,13 +35,13 @@ export const MS_DOCS = {
         ]
       },
       {
-        "title": "Apa yang tidak akan kami dakwa",
+        "title": "Apa yang tidak akan kami tuntut",
         "blocks": [
           {
             "ul": [
-              "**Kami tidak meramal nasib.** Tiada apa di sini yang memberitahu anda untuk mengejar atau mengelak sesiapa. Ia adalah rujukan yang diambil daripada tradisi.",
+              "**Kami tidak meramal nasib.** Tiada apa di sini yang memberitahu anda untuk mengejar atau menghindari sesiapa. Ia adalah rujukan yang diambil daripada tradisi.",
               "**Kami tidak menyimpan apa yang anda masukkan.** Butiran kelahiran digunakan untuk saat pengiraan dan tidak pernah dicatat; pautan hasil tinggal di bahagian URL yang tidak dihantar oleh pelayar kepada pelayan.",
-              "**Skor bukan keputusan tentang seseorang.** Nombor yang rendah tidak membatalkan hubungan."
+              "**Skor bukanlah keputusan tentang seseorang.** Nombor yang rendah tidak membatalkan hubungan."
             ]
           }
         ]
@@ -59,7 +59,7 @@ export const MS_DOCS = {
   "guide": {
     "eyebrow": "Asas Pengiraan",
     "title": "Apakah Asas untuk Pengiraan?",
-    "summary": "Inyeon-Link mendedahkan semua peraturan yang digunakannya. Anda boleh menyemak item dan beratnya, skor daripada jadual hubungan cabang bumi, dan nilai ambang yang membezakan antara seorang penguasa hari yang kuat dan seorang penguasa hari yang lemah — anda boleh melihat dari mana nombor di skrin berasal.",
+    "summary": "Inyeon-Link mendedahkan semua peraturan yang digunakannya. Anda boleh menyemak item dan beratnya, skor daripada jadual hubungan cabang bumi, dan nilai ambang yang membezakan antara seorang penguasa hari yang kuat dan seorang penguasa hari yang lemah — anda boleh melihat dari mana nombor di skrin datang.",
     "backLabel": "Kembali ke Mula",
     "sections": [
       {
@@ -75,14 +75,14 @@ export const MS_DOCS = {
   "guide/how-compatibility": {
     "eyebrow": "Asas Perkhidmatan",
     "title": "Apa yang Dilihat oleh Keserasian Saju?",
-    "summary": "Ia menjelaskan empat item dan berat masing-masing, dan menerangkan mengapa empat itu dipilih. Ia juga membincangkan mengapa pengiraan boleh dilakukan walaupun tanpa mengetahui masa kelahiran.",
+    "summary": "Ia menjelaskan empat item dan berat masing-masing, dan menerangkan mengapa empat itu dipilih. Ia juga membincangkan mengapa pengiraan boleh dibuat walaupun tanpa mengetahui waktu kelahiran.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
         "title": "Mengira dan Menggabungkan Dua Paksi",
         "blocks": [
           {
-            "p": "Kadar padanan datang daripada dua cabang. **Keserasian Saju** melihat keseluruhan carta asal saju kedua individu, manakala **keserasian zodiak** hanya mempertimbangkan satu cabang bumi daripada tahun kelahiran. Nilai akhir diperoleh dengan purata berat kedua."
+            "p": "Kadar padanan datang daripada dua cabang. **Keserasian saju** melihat keseluruhan carta asal saju kedua individu, sementara **keserasian zodiak** hanya mempertimbangkan satu cabang bumi dari tahun kelahiran. Nilai akhir diperoleh dengan purata berbobot kedua."
           },
           {
             "table": {
@@ -106,7 +106,7 @@ export const MS_DOCS = {
             }
           },
           {
-            "p": "Bahagian saju adalah jauh lebih berat kerana jumlah maklumat yang digunakan berbeza. Saju mempertimbangkan semua empat tiang, manakala zodiak hanya melihat satu watak. Namun, zodiak tidak dikecualikan atas dua sebab — ia adalah item yang paling mudah difahami secara intuitif, dan ia adalah **satu-satunya paksi yang nilainya tidak berfluktuasi walaupun tanpa mengetahui masa kelahiran**."
+            "p": "Bahagian saju adalah jauh lebih berat kerana jumlah maklumat yang digunakan adalah berbeza. Saju mempertimbangkan semua empat tiang, sementara zodiak hanya melihat satu watak. Namun, zodiak tidak dikecualikan atas dua sebab — ia adalah item yang paling mudah difahami secara intuitif, dan ia adalah **satu-satunya paksi yang nilainya tidak berfluktuasi walaupun tanpa mengetahui waktu kelahiran**."
           }
         ]
       },
@@ -114,7 +114,7 @@ export const MS_DOCS = {
         "title": "Empat Item Keserasian Saju",
         "blocks": [
           {
-            "p": "Bahagian saju dibahagikan lagi kepada empat. Setiap item dipilih untuk memastikan bahawa apa yang mereka pertimbangkan tidak bertindih."
+            "p": "Bahagian saju dibahagikan lagi kepada empat. Setiap item dipilih untuk memastikan bahawa apa yang mereka pertimbangkan tidak bert重重重重."
           },
           {
             "figure": "four-pillars",
@@ -143,8 +143,8 @@ export const MS_DOCS = {
               ],
               "rows": [
                 [
-                  "Hubungan Batang Hari",
-                  "Apa batang hari (日干) kedua orang itu terhadap satu sama lain — dilihat melalui Sepuluh Dewa",
+                  "Hubungan Cabang Hari",
+                  "Apa cabang hari (日干) kedua orang itu terhadap satu sama lain — dilihat melalui Sepuluh Dewa",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,19 +154,19 @@ export const MS_DOCS = {
                 ],
                 [
                   "Bintang Pasangan",
-                  "Adakah batang hari pasangan sepadan dengan posisi pasangan saya?",
+                  "Adakah cabang hari pasangan sepadan dengan posisi pasangan saya?",
                   "{weightSpouseStar}"
                 ],
                 [
                   "Hubungan Cabang Hari",
-                  "Adakah cabang hari (日支) kedua orang itu merupakan kombinasi atau pertentangan?",
+                  "Adakah cabang hari (日支) kedua orang itu adalah kombinasi atau pertentangan?",
                   "{weightDayBranch}"
                 ]
               ]
             }
           },
           {
-            "p": "Cabang hari dibaca kerana tradisi menganggapnya sebagai **istana pasangan**. Dari empat tiang, ia adalah yang menunjuk kepada pasangan, yang menjadikannya tempat pertama yang dilihat untuk kesesuaian."
+            "p": "Cabang hari dibaca kerana tradisi menganggapnya sebagai **istana pasangan**. Dari empat tiang, ia adalah yang menunjuk kepada pasangan, menjadikannya tempat pertama yang dilihat untuk kesesuaian."
           }
         ]
       },
@@ -174,7 +174,7 @@ export const MS_DOCS = {
         "title": "Jika jantina tidak dinyatakan, elemen pasangan akan diabaikan",
         "blocks": [
           {
-            "p": "Elemen pasangan memerlukan pengetahuan tentang jantina untuk pengiraan. Tradisi membaca posisi yang menunjuk kepada pasangan secara berbeza bergantung pada jantina. Jika tidak dinyatakan, item ini akan **dikecualikan** dan berat tiga item yang tinggal akan dinormalisasi semula."
+            "p": "Elemen pasangan memerlukan pengetahuan tentang jantina untuk pengiraan. Tradisi membaca posisi yang menunjuk kepada pasangan dengan cara yang berbeza bergantung kepada jantina. Jika tidak dinyatakan, item ini akan **dikecualikan** dan berat bagi tiga item yang tinggal akan dinormalisasi semula."
           }
         ]
       },
@@ -183,7 +183,7 @@ export const MS_DOCS = {
         "title": "Ia tidak akan dianggap sebagai 0 mata",
         "blocks": [
           {
-            "p": "Jika posisi yang hilang dianggap sebagai 0 mata, skor akan diturunkan secara tidak adil hanya kerana jantina tidak dinyatakan. Menormalisasi semula berat mencegah isu ini."
+            "p": "Jika posisi yang hilang dianggap sebagai 0 mata, skor akan diturunkan secara tidak adil hanya kerana jantina tidak dinyatakan. Normalisasi semula berat mencegah isu ini."
           }
         ]
       },
@@ -194,7 +194,7 @@ export const MS_DOCS = {
             "p": "Waktu kelahiran digunakan untuk menentukan tiang jam. Jika tidak diketahui, pengiraan akan dilakukan tanpa tiang jam, dan fakta ini akan ditunjukkan pada skrin keputusan. Oleh kerana tiada input langsung untuk tiang jam di antara empat item kesesuaian, nilai tidak akan berfluktuasi secara signifikan, tetapi ia mempengaruhi keseimbangan lima elemen."
           },
           {
-            "p": "Jika anda tahu waktu, sila juga pilih tempat kelahiran. Jika waktu standard berbeza dari posisi solar sebenar, menggunakannya seperti itu mungkin menyelaraskan tiang jam [(pembetulan waktu solar sebenar)](/guide/true-solar-time)."
+            "p": "Jika anda tahu waktu, sila juga pilih tempat kelahiran. Jika waktu standard berbeza dari posisi solar sebenar, menggunakannya seperti itu mungkin menyimpangkan tiang jam [(pembetulan waktu solar sebenar)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const MS_DOCS = {
         "title": "Input yang sama akan sentiasa menghasilkan nilai yang sama",
         "blocks": [
           {
-            "p": "Semua skor ditentukan oleh peraturan. Tiada kecerdasan buatan digunakan, dan tiada nombor rawak digunakan. Oleh itu, memasukkan dua tarikh lahir yang sama berulang kali tidak akan menghasilkan keputusan yang berbeza. Sebagai perkhidmatan yang tidak menyimpan data, keputusan sebelumnya tidak dapat diambil semula, tetapi **determinisme** mengimbangi itu."
+            "p": "Semua skor ditentukan oleh peraturan. Tiada kecerdasan buatan digunakan, dan tiada nombor rawak digunakan. Oleh itu, memasukkan dua tarikh kelahiran yang sama berulang kali tidak akan menghasilkan keputusan yang berbeza. Sebagai perkhidmatan yang tidak menyimpan data, keputusan sebelumnya tidak dapat diambil semula, tetapi **determinisme** mengimbangi itu."
           }
         ]
       },
@@ -211,7 +211,7 @@ export const MS_DOCS = {
         "title": "Mengubah peraturan akan meningkatkan versi",
         "blocks": [
           {
-            "p": "Setiap kali peraturan penilaian diubah, versi enjin dikemas kini. Versi dicatat di bahagian bawah skrin keputusan, membolehkan anda membezakan peraturan yang digunakan untuk mengira nombor yang anda lihat sekarang."
+            "p": "Setiap kali peraturan penilaian diubah, versi enjin akan dikemas kini. Versi dicatat di bahagian bawah skrin keputusan, membolehkan anda membezakan peraturan mana yang digunakan untuk mengira nombor yang anda lihat sekarang."
           }
         ]
       },
@@ -219,7 +219,7 @@ export const MS_DOCS = {
         "title": "Apa yang bukan hasil ini",
         "blocks": [
           {
-            "p": "Ini adalah **bahan rujukan** yang dikira dari peraturan yang dibina berdasarkan perspektif tradisi. Ia bukan ramalan saintifik, dan bukan pernyataan definitif tentang hubungan antara dua individu. Julat skor ditetapkan pada minimum sekitar 45 mata untuk alasan ini — tiada kombinasi yang akan menghasilkan nilai yang hampir dengan 0 mata."
+            "p": "Ini adalah **bahan rujukan** yang dikira dari peraturan yang dibina berdasarkan perspektif tradisi. Ia bukan ramalan saintifik, dan bukan kenyataan definitif tentang hubungan antara dua individu. Julat skor ditetapkan pada minimum sekitar 45 mata untuk sebab ini — tiada kombinasi akan menghasilkan nilai yang hampir kepada 0 mata."
           }
         ]
       }
@@ -228,7 +228,7 @@ export const MS_DOCS = {
   "guide/branches": {
     "eyebrow": "Jadual Hubungan",
     "title": "Dua Belas Cabang Bumi — Kombinasi, Pertentangan, Perselisihan",
-    "summary": "Ini adalah jadual hubungan yang digunakan untuk kesesuaian cabang hari dan kesesuaian zodiak. Ia sepenuhnya mendedahkan apa yang dimaksudkan dengan setiap kombinasi, pertentangan, dan perselisihan serta skor masing-masing.",
+    "summary": "Ini adalah jadual hubungan yang digunakan untuk kesesuaian cabang hari dan kesesuaian zodiak. Ia sepenuhnya mendedahkan apa yang setiap kombinasi, pertentangan, dan perselisihan bermakna serta skor masing-masing.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
@@ -239,9 +239,9 @@ export const MS_DOCS = {
           },
           {
             "figure": "branch-wheel",
-            "caption": "Mengatur dua belas watak dalam bulatan memberikan pandangan yang jelas tentang hubungan. Pertentangan selalu duduk tepat bertentangan, sementara pasangan enam-harmoni dan perselisihan tenang adalah jiran yang lebih dekat. Garis-garis ini diambil terus dari peraturan pengiraan, bukan ditulis dalam teks.",
+            "caption": "Mengatur dua belas watak dalam bulatan memberikan pandangan yang jelas tentang hubungan. Pertentangan selalu duduk tepat bertentangan, sementara pasangan enam-harmoni dan perselisihan yang tenang adalah jiran yang lebih dekat. Garis-garis ini diambil terus dari peraturan pengiraan, bukan ditulis dalam teks.",
             "labels": {
-              "alt": "Diagram menunjukkan dua belas cabang bumi yang disusun dalam bulatan dengan garis menghubungkan enam-harmoni, pertentangan, dan perselisihan.",
+              "alt": "Sebuah diagram yang menunjukkan dua belas cabang bumi yang disusun dalam bulatan dengan garis yang menghubungkan enam-harmoni, pertentangan, dan perselisihan.",
               "yukhap": "Enam-Harmoni",
               "chung": "Pertentangan",
               "wonjin": "Perselisihan",
@@ -298,17 +298,17 @@ export const MS_DOCS = {
                 [
                   "Cabang bumi yang sama",
                   "子子 · 丑丑 …",
-                  "Watak yang sama. Ini bermakna mereka menyerupai satu sama lain, tetapi ia tidak menunjukkan daya tarikan, jadi ia diletakkan di tengah.",
+                  "Watak yang sama. Ini bermakna mereka menyerupai satu sama lain, tetapi ia tidak menunjukkan tarikan, jadi ia diletakkan di tengah.",
                   "{scoreSame}"
                 ],
                 [
                   "Neutral",
                   "Pasangan yang tidak tergolong di mana-mana di atas atau di bawah",
-                  "Gabungan tanpa hubungan khas. Ini adalah titik rujukan.",
+                  "Gabungan tanpa hubungan istimewa. Ini adalah titik rujukan.",
                   "{scoreNeutral}"
                 ],
                 [
-                  "Ketidakselarasan senyap (怨嗔)",
+                  "Ketidakselarasan tenang (怨嗔)",
                   "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
                   "Pasangan yang tidak dapat berpisah walaupun menyimpan rasa dendam. Mereka kelihatan tenang di permukaan tetapi dianggap bertahan lama.",
                   "{scoreWonjin}"
@@ -342,13 +342,13 @@ export const MS_DOCS = {
         ]
       },
       {
-        "title": "Sebab memisahkan ketidakselarasan senyap",
+        "title": "Sebab memisahkan ketidakselarasan tenang",
         "blocks": [
           {
-            "p": "Enam pasangan ketidakselarasan senyap dilihat sering dalam kesesuaian seperti pertembungan. Jika kita mengira gabungan sebagai pasangan dan pertembungan, enam pasangan ini akan semua tertimbus di bawah mata neutral {scoreNeutral}, jadi mereka diletakkan secara berasingan."
+            "p": "Enam pasangan ketidakselarasan tenang dilihat sering dalam kesesuaian seperti pertembungan. Jika kita mengira gabungan sebagai pasangan dan pertembungan, enam pasangan ini akan semuanya tertimbus di bawah mata neutral {scoreNeutral}, jadi mereka diletakkan secara berasingan."
           },
           {
-            "p": "Walaupun pertembungan adalah jelas dan mencolok, ketidakselarasan senyap adalah tidak selaras dengan halus. Oleh itu, ia diletakkan pada skor {scoreWonjin}, yang lebih tinggi daripada pertembungan ({scoreChung}) tetapi pasti lebih rendah daripada neutral ({scoreNeutral})."
+            "p": "Walaupun pertembungan adalah jelas dan mencolok, ketidakselarasan tenang adalah tidak selari secara halus. Oleh itu, ia diletakkan pada skor {scoreWonjin}, yang lebih tinggi daripada pertembungan ({scoreChung}) tetapi pasti lebih rendah daripada neutral ({scoreNeutral})."
           }
         ]
       },
@@ -356,7 +356,7 @@ export const MS_DOCS = {
         "title": "Skor juga diberikan kepada pertembungan",
         "blocks": [
           {
-            "p": "Skor pertembungan terendah adalah {scoreChung}. Niatnya bukan untuk memberikan nilai yang hampir dengan 0. Dalam tradisi, pertembungan bukanlah 'akhir' tetapi 'perlanggaran', dan memberikan skor rendah akan menunjukkan perkhidmatan ini membuat kenyataan definitif tentang hubungan."
+            "p": "Skor pertembungan terendah adalah {scoreChung}. Niatnya bukan untuk memberikan nilai yang hampir dengan 0. Dalam tradisi, pertembungan bukanlah 'akhir' tetapi 'perlanggaran', dan memberikan skor rendah akan menunjukkan bahawa perkhidmatan ini membuat kenyataan definitif tentang hubungan."
           },
           {
             "p": "Dengan minimum {scoreChung} dan maksimum {scoreSamhap}, julatnya jelas, tetapi ia tidak membuat kesimpulan definitif."
@@ -367,12 +367,12 @@ export const MS_DOCS = {
   },
   "guide/zodiac": {
     "eyebrow": "Zodiak",
-    "title": "Mengapa kesesuaian zodiak mempertimbangkan cabang tahun?",
-    "summary": "Zodiak adalah cabang bumi dari tahun kelahiran. Ini menjelaskan mengapa ia berasal dari tiang tahun saju dan bukan tahun kalendar, serta menjelaskan kepentingan kesesuaian zodiak.",
+    "title": "Mengapa keserasian zodiak mempertimbangkan cabang tahun?",
+    "summary": "Zodiak adalah cabang bumi bagi tahun kelahiran. Ini menjelaskan mengapa ia berasal dari tiang tahun saju dan bukan tahun kalendar, serta menjelaskan kepentingan keserasian zodiak.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
-        "title": "Zodiak adalah cabang bumi dari tahun kelahiran",
+        "title": "Zodiak adalah cabang bumi bagi tahun kelahiran",
         "blocks": [
           {
             "p": "Saju terdiri daripada empat tiang: tahun, bulan, hari, dan jam, dengan setiap tiang mengandungi satu tiang langit dan satu cabang bumi. **Cabang tahun** adalah yang membawa haiwan yang kita panggil tanda zodiak."
@@ -451,18 +451,18 @@ export const MS_DOCS = {
         "title": "Sebab kami tidak bertanya secara langsung tentang zodiak",
         "blocks": [
           {
-            "p": "Inilah sebabnya mengapa kami hanya mengumpul tarikh lahir tanpa bertanya tentang zodiak di skrin input. Apabila enjin saju mengira cabang tahun, sempadan Ipchun disesuaikan secara automatik. Jika anda memilihnya secara langsung, seseorang yang lahir pada awal Februari mungkin memilih zodiak yang tidak sepadan dengan zodiak sebenar mereka."
+            "p": "Inilah sebabnya kami hanya mengumpul tarikh lahir tanpa bertanya tentang zodiak di skrin input. Apabila enjin saju mengira cabang tahun, sempadan Ipchun disesuaikan secara automatik. Jika anda memilihnya secara langsung, seseorang yang lahir pada awal Februari mungkin memilih zodiak yang tidak sepadan dengan zodiak sebenar mereka."
           }
         ]
       },
       {
-        "title": "Kesesuaian zodiak hanya mempertimbangkan satu hubungan",
+        "title": "Keserasian zodiak hanya mempertimbangkan satu hubungan",
         "blocks": [
           {
-            "p": "Pengiraan kesesuaian zodiak adalah mudah. Ia membandingkan cabang tahun dua orang untuk menentukan sama ada hubungan itu harmoni, bertentangan, atau ketidakselarasan yang tenang, dan menggunakan skor itu seperti adanya. Oleh kerana hanya ada satu item, tidak perlu mengagihkan berat."
+            "p": "Pengiraan keserasian zodiak adalah mudah. Ia membandingkan cabang tahun dua orang untuk menentukan sama ada hubungan itu harmoni, bertembung, atau ketidakselarasan yang tenang, dan menggunakan skor itu seperti adanya. Oleh kerana hanya ada satu item, tidak perlu mengagihkan berat."
           },
           {
-            "p": "Skor untuk setiap hubungan semua disenaraikan dalam [Jadual Hubungan Dua Belas Cabang](/guide/branches). Kesesuaian cabang hari menggunakan jadual yang sama."
+            "p": "Skor untuk setiap hubungan disenaraikan dalam [Jadual Hubungan Dua Belas Cabang](/guide/branches). Keserasian cabang hari menggunakan jadual yang sama."
           }
         ]
       },
@@ -470,24 +470,24 @@ export const MS_DOCS = {
         "title": "Sebab untuk menentukan berat",
         "blocks": [
           {
-            "p": "Kesesuaian zodiak menyumbang {weightZodiac} kepada kadar padanan akhir. Walaupun kesesuaian saju melihat semua empat tiang, zodiak hanya mempertimbangkan satu watak, jadi mereka tidak boleh diberi berat yang sama."
+            "p": "Keserasian zodiak menyumbang {weightZodiac} kepada kadar pemadanan akhir. Walaupun keserasian saju melihat semua empat tiang, zodiak hanya mempertimbangkan satu karakter, jadi mereka tidak boleh diberi berat yang sama."
           },
           {
             "p": "Namun, terdapat dua sebab mengapa ia tidak dikecualikan."
           },
           {
             "ul": [
-              "**Ia adalah item yang paling mudah difahami secara intuitif**. Walaupun tanpa mengetahui kosa kata tradisi, 'harimau dan monyet bertentangan' adalah masuk akal.",
+              "**Ia adalah item yang paling mudah difahami secara intuitif**. Walaupun tanpa mengetahui perbendaharaan kata tradisi, 'harimau dan monyet bertembung' adalah masuk akal.",
               "**Ia adalah satu-satunya paksi yang tidak berfluktuasi walaupun waktu kelahiran tidak diketahui**. Jika anda tidak tahu waktu, tiang jam hilang dan kekuatan lima elemen berubah, tetapi cabang tahun tetap sama."
             ]
           }
         ]
       },
       {
-        "title": "Anda juga boleh melihat kesesuaian zodiak secara berasingan",
+        "title": "Anda juga boleh melihat keserasian zodiak secara berasingan",
         "blocks": [
           {
-            "p": "Di skrin keputusan, kami menunjukkan skor untuk kedua-dua kesesuaian saju dan kesesuaian zodiak secara berasingan. Jika hanya kadar padanan akhir yang dipersembahkan, tidak jelas dari mana angka itu berasal. Jika dua nilai sangat berbeza, itu sendiri patut diperhatikan."
+            "p": "Di skrin keputusan, kami menunjukkan skor untuk kedua-dua keserasian saju dan keserasian zodiak secara berasingan. Jika hanya kadar pemadanan akhir yang dipersembahkan, tidak jelas dari mana angka itu berasal. Jika dua nilai sangat berbeza, itu sendiri berbaloi untuk diperhatikan."
           }
         ]
       }
@@ -495,26 +495,26 @@ export const MS_DOCS = {
   },
   "guide/ten-gods": {
     "eyebrow": "Sepuluh Dewa",
-    "title": "Sepuluh Dewa dan Kedudukan Pasangan",
-    "summary": "Kami melihat apa yang menjadi tiang hari setiap orang terhadap satu sama lain melalui Sepuluh Dewa. Kami menjelaskan mengapa kekayaan langsung dan kekayaan tidak langsung dibaca dengan cara yang berbeza walaupun kedua-duanya adalah kekayaan.",
+    "title": "Sepuluh Dewa dan Posisi Pasangan",
+    "summary": "Kami melihat apa tiang hari setiap orang kepada satu sama lain melalui Sepuluh Dewa. Kami menerangkan mengapa kekayaan langsung dan kekayaan tidak langsung dibaca dengan cara yang berbeza walaupun kedua-duanya adalah kekayaan.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
-        "title": "Ilmu hari adalah diri seseorang itu sendiri",
+        "title": "Stemp hari adalah diri seseorang itu sendiri",
         "blocks": [
           {
-            "p": "Di antara lapan watak dalam saju, **ilmu hari** (tangkai langit pada hari kelahiran) merujuk kepada diri seseorang itu. Tujuh watak yang tinggal dibaca sebagai persekitaran di mana tangkai hari itu diletakkan."
+            "p": "Antara lapan watak dalam saju, **stemp hari** (stemp langit pada hari kelahiran) merujuk kepada diri seseorang itu sendiri. Tujuh watak yang tinggal dibaca sebagai persekitaran di mana stemp hari itu diletakkan."
           },
           {
-            "p": "**Sepuluh Dewa** (十神) membahagikan bagaimana tangkai hari memahami watak lain kepada sepuluh kategori. Apa yang menyuburkan saya adalah **sumber**, apa yang sama dengan saya adalah **rakan**, apa yang saya hasilkan adalah **keluaran**, apa yang saya kawal adalah **kekayaan**, dan apa yang mengawal saya adalah **kuasa** — setiap lima ini kemudian dibahagikan mengikut polariti, menjadikannya sepuluh."
+            "p": "**Sepuluh Dewa** (十神) membahagikan bagaimana stemp hari memahami watak lain kepada sepuluh kategori. Apa yang memelihara saya adalah **sumber**, apa yang sama dengan saya adalah **rakan**, apa yang saya hasilkan adalah **output**, apa yang saya kawal adalah **kekayaan**, dan apa yang mengawal saya adalah **kuasa** — setiap lima ini kemudian dibahagikan mengikut polariti, menjadikannya sepuluh."
           }
         ]
       },
       {
-        "title": "Apa yang tangkai hari setiap orang kepada satu sama lain",
+        "title": "Apa yang stemp hari setiap orang kepada satu sama lain",
         "blocks": [
           {
-            "p": "Ini adalah item pertama dalam keserasian. Setelah ditentukan apa yang tangkai hari A memahami tangkai hari B, persepsi B terhadap A juga ditentukan, jadi terdapat **hanya enam kemungkinan**."
+            "p": "Ini adalah item pertama dalam keserasian. Setelah ditentukan apa yang stemp hari A memahami stemp hari B, persepsi B terhadap A juga ditentukan, jadi terdapat **hanya enam kemungkinan**."
           },
           {
             "table": {
@@ -530,7 +530,7 @@ export const MS_DOCS = {
                   "Kekayaan Langsung ↔ Kuasa Langsung",
                   "Polariti bertentangan",
                   "Ikatan hangat (有情)",
-                  "Ini adalah pasangan yang secara tradisional dilihat sebagai kedudukan pasangan. Yin dan yang tidak sepadan, menarik satu sama lain."
+                  "Ini adalah pasangan yang secara tradisional dilihat sebagai posisi pasangan. Yin dan yang tidak sepadan, menarik satu sama lain."
                 ],
                 [
                   "Pegawai yang Menyakitkan ↔ Sumber Langsung",
@@ -542,19 +542,19 @@ export const MS_DOCS = {
                   "Rakan ↔ Rakan",
                   "Polariti yang sama",
                   "Setara",
-                  "Mereka menyerupai satu sama lain dan setara, tetapi tidak menolak satu sama lain."
+                  "Mereka menyerupai satu sama lain dan setara, tetapi tidak mendorong satu sama lain."
                 ],
                 [
                   "Saingan ↔ Saingan",
                   "Polariti bertentangan",
                   "Persaingan",
-                  "Mereka tertarik satu sama lain tetapi bersaing untuk kedudukan yang sama."
+                  "Mereka tertarik satu sama lain tetapi bersaing untuk posisi yang sama."
                 ],
                 [
                   "Kekayaan Tidak Langsung ↔ Kuasa Tidak Langsung",
                   "Polariti yang sama",
                   "Ikatan sejuk (無情)",
-                  "Rangsangan adalah besar, tetapi bebannya juga berat."
+                  "Rangsangan adalah besar, tetapi beban juga berat."
                 ],
                 [
                   "Tuhan yang Makan ↔ Sumber Tidak Langsung",
@@ -572,23 +572,23 @@ export const MS_DOCS = {
         "title": "Yin dan Yang berada di persimpangan",
         "blocks": [
           {
-            "p": "Sisi di mana yin dan yang tidak selaras (Kekayaan yang Betul, Pegawai yang Betul, Rakan yang Betul) adalah emosional, sementara sisi yang sama (Sumber, Pegawai, Rakan) adalah tidak emosional, yang merupakan prinsip yang membezakan yang betul dan sisi Sepuluh Dewa."
+            "p": "Sisi di mana yin dan yang tidak selari (Kekayaan yang Betul, Pegawai yang Betul, Rakan yang Betul) adalah emosional, sementara sisi yang sama (Sumber, Pegawai, Rakan) adalah tidak emosional, yang merupakan prinsip yang membezakan yang betul dan sisi Sepuluh Dewa."
           }
         ]
       },
       {
-        "title": "Sebab melihat dengan Sepuluh Dewa dan bukannya tiga elemen",
+        "title": "Sebab untuk melihat dengan Sepuluh Dewa dan bukannya tiga elemen",
         "blocks": [
           {
-            "p": "Terdapat kaedah untuk melihat hubungan tangkai hari dengan tiga elemen (penghasilan bersama, kesamaan, saling mengatasi). Ia mudah, tetapi **yin dan yang hilang.** 甲 (kayu yang positif) dan 乙 (kayu yang negatif) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihimpunkan menjadi satu skor tanpa arah atau yin dan yang."
+            "p": "Terdapat kaedah untuk melihat hubungan stemp hari dengan tiga elemen (penghasilan bersama, kesamaan, saling mengatasi). Ia mudah, tetapi **yin dan yang hilang.** 甲 (kayu yang yin) dan 乙 (kayu yang yin) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihimpunkan menjadi satu skor tanpa arah atau yin dan yang."
           },
           {
-            "p": "Kedudukan pasangan mesti dinilai dari segi Sepuluh Dewa. Jika item yang dilihat oleh lima elemen dan item yang dilihat oleh Sepuluh Dewa dicampurkan dalam satu enjin, akan terdapat dua standard untuk dua watak yang sama. Oleh itu, kita menyatukan dengan Sepuluh Dewa."
+            "p": "Posisi pasangan mesti dinilai dari segi Sepuluh Dewa. Jika item yang dilihat oleh lima elemen dan item yang dilihat oleh Sepuluh Dewa dicampurkan dalam satu enjin, akan ada dua standard untuk dua watak yang sama. Oleh itu, kita menyatukan dengan Sepuluh Dewa."
           }
         ]
       },
       {
-        "title": "Kedudukan pasangan adalah Kekayaan yang Betul dan Pegawai yang Betul",
+        "title": "Posisi pasangan adalah Kekayaan yang Betul dan Pegawai yang Betul",
         "blocks": [
           {
             "p": "Dalam tradisi, yang mana satu daripada Sepuluh Dewa mewakili pasangan berbeza mengikut jantina."
@@ -597,8 +597,8 @@ export const MS_DOCS = {
             "table": {
               "head": [
                 "Jantina",
-                "Kedudukan Pasangan",
-                "Kedudukan Berkaitan"
+                "Posisi Pasangan",
+                "Posisi yang Sepadan"
               ],
               "rows": [
                 [
@@ -632,10 +632,10 @@ export const MS_DOCS = {
         "title": "Kami juga menunjukkan bentuk hubungan",
         "blocks": [
           {
-            "p": "Selain daripada skor, kami menerangkan **bentuk apa** yang dimiliki pasangan batang hari pada skrin keputusan. Sama ada mereka berada dalam posisi yang sama, sama ada satu pihak menyokong yang lain, atau sama ada satu pihak ditekan — jika ia adalah hubungan sokongan atau penekanan, kami menjelaskan pihak mana yang memegang posisi tersebut."
+            "p": "Selain daripada skor, kami menerangkan **bentuk apa** yang dimiliki pasangan day stems pada skrin keputusan. Sama ada mereka berada dalam posisi yang serupa, sama ada satu pihak menyokong yang lain, atau sama ada satu pihak ditekan — jika ia adalah hubungan yang menyokong atau menekan, kami menjelaskan pihak mana yang memegang posisi tersebut."
           },
           {
-            "p": "Jika hanya satu skor yang dipersembahkan, ia meninggalkan soalan 'jadi apa'. Bentuk bukanlah skor tetapi sesuatu untuk dibaca, dan walaupun pasangan dengan skor rendah mempunyai sesuatu untuk ditafsirkan."
+            "p": "Jika hanya satu skor yang ditunjukkan, ia meninggalkan soalan 'jadi apa'. Bentuk bukanlah skor tetapi sesuatu untuk dibaca, dan bahkan pasangan dengan skor rendah mempunyai sesuatu untuk ditafsirkan."
           }
         ]
       }
@@ -644,17 +644,17 @@ export const MS_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Lima elemen",
     "title": "Elemen Sokongan — Tenaga yang diperlukan sekarang",
-    "summary": "Kami melihat lima elemen bukan sebagai 'adakah mereka memilih dua' tetapi sebagai 'adakah pihak lawan mempunyai apa yang saya perlukan'. Kami juga mendedahkan nilai sempadan yang membezakan antara seorang day master yang kuat dan yang lemah.",
+    "summary": "Kami melihat lima elemen bukan sebagai 'adakah mereka memilih dua' tetapi sebagai 'adakah pasangan mempunyai apa yang saya perlukan'. Kami juga mendedahkan nilai sempadan yang membezakan antara day master yang kuat dan yang lemah.",
     "backLabel": "Asas pengiraan",
     "sections": [
       {
         "title": "Sama ada lima elemen adalah 'seimbang' bukanlah soalan tentang keserasian",
         "blocks": [
           {
-            "p": "Terdapat kaedah untuk mengukur sama ada lima tenaga diedarkan secara merata dengan menggabungkan lima elemen kedua-dua orang. Namun, soalan tentang keserasian bukanlah itu. **Adakah pihak lawan mempunyai apa yang saya perlukan?**"
+            "p": "Terdapat kaedah untuk mengukur sama ada lima tenaga diedarkan secara merata dengan menggabungkan lima elemen kedua-dua orang. Namun, soalan tentang keserasian bukanlah itu. **Adakah pasangan mempunyai apa yang saya perlukan?**"
           },
           {
-            "p": "Tingkat keseimbangan adalah simetri, tetapi pelengkap adalah secara asimetri. Ini kerana apa yang A perlukan berbeza daripada apa yang B perlukan. Oleh itu, kami mengukur setiap pihak secara berasingan dan mengambil purata — kerana ia adalah purata, jumlah skor tetap simetri."
+            "p": "Tingkat keseimbangan adalah simetri, tetapi pelengkap adalah secara asimetrik. Ini kerana apa yang A perlukan berbeza daripada apa yang B perlukan. Oleh itu, kami mengukur setiap pihak secara berasingan dan mengambil purata — kerana ia adalah purata, jumlah skor tetap simetri."
           }
         ]
       },
@@ -662,7 +662,7 @@ export const MS_DOCS = {
         "title": "Elemen Sokongan — Kurangkan jika berlebihan, tambah jika tidak mencukupi",
         "blocks": [
           {
-            "p": "Elemen Sokongan (用神) adalah 'tenaga yang diperlukan oleh orang ini sekarang'. Terdapat beberapa kaedah untuk menentukannya (menekan, menyokong, penyakit, dan komunikasi), tetapi ia boleh diterjemahkan kepada peraturan, dan yang paling banyak digunakan adalah **menekan (抑扶)**. Jika day master kuat, ia dilihat bahawa tenaga untuk mengurangkan diperlukan, dan jika lemah, tenaga untuk menambah diperlukan."
+            "p": "Elemen Sokongan (用神) adalah 'tenaga yang diperlukan oleh orang ini sekarang'. Terdapat beberapa kaedah untuk menentukannya (menekan, menyokong, penyakit, dan komunikasi), tetapi ia boleh diterjemahkan ke dalam peraturan, dan yang paling banyak digunakan adalah **menekan (抑扶)**. Jika day master kuat, ia dilihat bahawa tenaga untuk mengurangkan diperlukan, dan jika lemah, tenaga untuk menambah diperlukan."
           },
           {
             "table": {
@@ -673,12 +673,12 @@ export const MS_DOCS = {
               ],
               "rows": [
                 [
-                  "Day master yang kuat (身强)",
+                  "Day master kuat (身强)",
                   "Mengurangkan tenaga — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Tiga"
                 ],
                 [
-                  "Day master yang lemah (身弱)",
+                  "Day master lemah (身弱)",
                   "Menambah tenaga — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Dua"
                 ],
@@ -696,7 +696,7 @@ export const MS_DOCS = {
         "title": "Nilai ambang untuk kekuatan dan kelemahan",
         "blocks": [
           {
-            "p": "Pihak batang hari adalah **印星 dan 比劫** — tenaga yang melahirkan saya dan tenaga yang serupa dengan saya. Oleh kerana dua daripada lima, jika tenaga itu seimbang sepenuhnya, ia menjadi {evenAllyRatio}. Satu julat ditetapkan di atas dan di bawah nilai tersebut."
+            "p": "Pihak day stem adalah **印星 dan 比劫** — tenaga yang melahirkan saya dan tenaga yang serupa dengan saya. Oleh kerana dua daripada lima, jika tenaga itu seimbang sepenuhnya, ia menjadi {evenAllyRatio}. Satu julat ditetapkan di atas dan di bawah nilai tersebut."
           },
           {
             "table": {
@@ -708,7 +708,7 @@ export const MS_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} atau lebih",
-                  "Day master yang kuat"
+                  "Day master kuat"
                 ],
                 [
                   "{weakThreshold} atau lebih dan kurang daripada {strongThreshold}",
@@ -716,7 +716,7 @@ export const MS_DOCS = {
                 ],
                 [
                   "Kurang daripada {weakThreshold}",
-                  "Day master yang lemah"
+                  "Day master lemah"
                 ]
               ]
             }
@@ -728,7 +728,7 @@ export const MS_DOCS = {
         "title": "Keseimbangan adalah 'penghakiman yang kurang pasti'",
         "blocks": [
           {
-            "p": "Keseimbangan bermaksud ia tidak boleh ditampung oleh elemen sokongan. Pada masa ini, kami hanya melihat dua tenaga yang paling nipis sebagai perlu. Pada skrin keputusan, ia dicatat sebagai 'sekarang dalam posisi nipis' dan bukannya kenyataan yang pasti."
+            "p": "Keseimbangan bermaksud ia tidak boleh ditampung oleh elemen sokongan. Pada masa ini, kami hanya melihat dua tenaga yang paling nipis sebagai perlu. Pada skrin keputusan, ia dicatat sebagai 'sekarang dalam posisi nipis' dan bukannya pernyataan yang pasti."
           }
         ]
       },
@@ -736,10 +736,10 @@ export const MS_DOCS = {
         "title": "Kuasa bukanlah jumlah watak",
         "blocks": [
           {
-            "p": "Apabila mengira kuasa lima elemen, kami tidak hanya mengira lapan watak seperti yang muncul. Kami menggunakan nilai yang mencerminkan batang langit tersembunyi (地藏干) dalam cabang bumi dan musim tenaga bulan (月令) di mana seseorang dilahirkan."
+            "p": "Apabila mengira kuasa lima elemen, kami tidak hanya mengira lapan watak seperti yang muncul. Kami menggunakan nilai yang mencerminkan heavenly stems yang tersembunyi (地藏干) dalam earthly branches dan musim tenaga bulan (月令) di mana seseorang dilahirkan."
           },
           {
-            "p": "Jika kami hanya mengira watak permukaan, kami terlepas fakta bahawa walaupun dua watak 木 boleh mempunyai kekuatan yang berbeza bergantung pada musim. 木 musim bunga dan 木 musim luruh, walaupun mereka adalah watak yang sama, mempunyai kuasa yang berbeza."
+            "p": "Jika kami hanya mengira watak permukaan, kami terlepas fakta bahawa bahkan dua watak 木 boleh mempunyai kekuatan yang sangat berbeza bergantung pada musim. 木 musim bunga dan 木 musim luruh, walaupun mereka adalah watak yang sama, mempunyai kuasa yang berbeza."
           }
         ]
       },
@@ -747,7 +747,7 @@ export const MS_DOCS = {
         "title": "Menilai tahap pengisian",
         "blocks": [
           {
-            "p": "Kami melihat kadar elemen sokongan saya dalam kuasa lawan. Namun, kami tidak menggunakan kadar itu secara langsung tetapi **membahagikan jangkaan dengan saiz elemen sokongan.** Apabila kuat, elemen sokongan adalah tiga (jangkaan 60%), dan apabila lemah, ia adalah dua (jangkaan 40%), jadi menggunakan kadar secara langsung bermakna bahawa orang yang kuat sentiasa menerima skor yang lebih tinggi."
+            "p": "Kami melihat kadar elemen sokongan saya dalam kuasa lawan. Namun, kami tidak menggunakan kadar itu secara langsung tetapi **membahagikan jangkaan dengan saiz elemen sokongan.** Apabila kuat, elemen sokongan adalah tiga (jangkaan 60%), dan apabila lemah, ia adalah dua (jangkaan 40%), jadi menggunakan kadar secara langsung bermakna bahawa seseorang yang kuat sentiasa menerima skor yang lebih tinggi."
           },
           {
             "p": "Jika diisi ke tahap yang diharapkan, skor hampir 78 mata diperoleh, dan jika diisi lebih banyak, ia mencapai 100 mata, sementara jika ia sangat kurang, ia menuju ke 55 mata. Di sini juga, bahagian bawah tidak ditetapkan pada 0."
@@ -758,7 +758,7 @@ export const MS_DOCS = {
         "title": "Ini adalah penghakiman awal",
         "blocks": [
           {
-            "p": "Analisis saju sebenar mempertimbangkan pembentukan dan iklim musim (kehangatan dan kelembapan musim) untuk menentukan elemen sokongan, dan kesimpulan boleh berbeza bergantung pada kaedah yang digunakan. Inyeon-Link hanya menggunakan elemen sokongan yang boleh diukur dengan **nilai kuasa.** Ini disebabkan oleh prinsip hanya menggunakan apa yang boleh diterjemahkan kepada peraturan, jadi input yang sama akan sentiasa menghasilkan jawapan yang sama."
+            "p": "Analisis saju sebenar mempertimbangkan pembentukan dan iklim musim (suhu dan kelembapan musim) untuk menentukan elemen sokongan, dan kesimpulan boleh berbeza bergantung pada kaedah yang digunakan. Inyeon-Link hanya menggunakan elemen sokongan yang boleh diukur dengan **nilai kuasa.** Ini disebabkan oleh prinsip hanya menggunakan apa yang boleh diterjemahkan ke dalam peraturan, jadi input yang sama akan sentiasa menghasilkan jawapan yang sama."
           },
           {
             "p": "Sebaliknya, skrin keputusan juga mempersembahkan kekuatan dan kelemahan setiap orang bersama dengan tenaga yang diperlukan sekarang sebagai **bahan bacaan**. Ini untuk mengelakkan menyembunyikan asas skor."
@@ -777,10 +777,10 @@ export const MS_DOCS = {
         "title": "Pengiraan dilakukan sambil membiarkan posisi lawan kosong",
         "blocks": [
           {
-            "p": "Skor kesesuaian dikira dengan memadankan dua orang. **Inyeon’s Match** hanya mengambil data satu orang sambil membiarkan posisi lawan kosong dan menguji semua nilai yang mungkin yang boleh masuk ke dalam posisi itu. Ia seperti menjalankan enjin kesesuaian secara terbalik."
+            "p": "Skor kesesuaian dikira dengan mencocokkan dua orang. **Inyeon’s Match** hanya mengambil data satu orang sambil membiarkan posisi lawan kosong dan menguji semua nilai yang mungkin yang boleh masuk ke dalam posisi itu. Ia seperti menjalankan enjin kesesuaian secara terbalik."
           },
           {
-            "p": "Oleh itu, tidak perlu mengetahui tarikh lahir lawan. Kami masih boleh berkata, 'Jenis profil kesesuaian apa yang sesuai untuk saya?' tentang seseorang yang belum kami temui."
+            "p": "Oleh itu, tidak perlu mengetahui tarikh lahir lawan. Kami masih boleh berkata, 'Profil kesesuaian jenis apa yang sesuai untuk saya?' tentang seseorang yang belum kami temui."
           }
         ]
       },
@@ -788,7 +788,7 @@ export const MS_DOCS = {
         "title": "Kami tidak menjalankan berjuta-juta kombinasi",
         "blocks": [
           {
-            "p": "Skor kesesuaian dalam saju terdiri daripada empat item, dan **setiap item tidak bertindih dalam apa yang diperiksanya.**"
+            "p": "Skor kesesuaian dalam saju terdiri daripada empat item, dan **setiap item tidak bertindih dalam apa yang diperiksa.**"
           },
           {
             "table": {
@@ -822,7 +822,7 @@ export const MS_DOCS = {
             }
           },
           {
-            "p": "Oleh kerana nilai tidak bertukar antara item, **mencari titik tertinggi untuk setiap cabang akan menjadi titik tertinggi keseluruhan.** Tidak perlu memeriksa semua kombinasi tarikh lahir — hanya menetapkan sepuluh batang langit, dua belas cabang bumi, dan lima elemen sudah mencukupi."
+            "p": "Oleh kerana nilai tidak bertukar antara item, **mencari titik tertinggi untuk setiap cabang akan menjadi titik tertinggi keseluruhan**. Tidak perlu memeriksa semua kombinasi tarikh lahir — hanya menetapkan sepuluh batang langit, dua belas cabang bumi, dan lima elemen sudah mencukupi."
           }
         ]
       },
@@ -836,16 +836,16 @@ export const MS_DOCS = {
         ]
       },
       {
-        "title": "Tiada skor keseluruhan disediakan",
+        "title": "Tiada skor keseluruhan diberikan",
         "blocks": [
           {
-            "p": "Ini adalah keputusan yang paling penting pada skrin ini. Mengumpul skor tertinggi untuk setiap cabang mungkin kelihatan menghasilkan 'padanan sempurna', tetapi orang itu mungkin **tidak benar-benar wujud.**"
+            "p": "Ini adalah keputusan yang paling penting di skrin ini. Mengumpul skor tertinggi untuk setiap cabang mungkin kelihatan menghasilkan 'padanan sempurna', tetapi orang itu mungkin **tidak benar-benar wujud.**"
           },
           {
             "p": "Dalam orang sebenar, tuan hari dan lima elemen tidak beroperasi secara berasingan. Seseorang dengan 甲木 biasanya mempunyai tenaga 木 yang kuat juga. Kaedah mengira cabang secara berasingan mengabaikan korelasi itu, jadi nilai yang diperoleh dengan menghubungkan skor tertinggi untuk setiap cabang menjadi kombinasi yang tidak wujud dalam realiti."
           },
           {
-            "p": "Oleh itu, skrin hanya memaparkan **skor item** dan tidak menyediakan skor keseluruhan. Skor keseluruhan akan dikira dengan menerima tarikh lahir orang lain untuk [kesesuaian saju](/compatibility)."
+            "p": "Oleh itu, skrin hanya memaparkan **skor item** dan tidak memberikan skor keseluruhan. Skor keseluruhan akan dikira dengan menerima tarikh lahir orang lain untuk [kesesuaian saju](/compatibility)."
           }
         ]
       },
@@ -853,7 +853,7 @@ export const MS_DOCS = {
         "title": "Cara membaca 'jenis padanan'",
         "blocks": [
           {
-            "p": "Keputusan bermaksud 'jika anda bertemu dengan seseorang dari jenis ini, item ini akan mendapat skor tinggi'. Ia bukan kriteria untuk memilih seseorang, tetapi sebaliknya cara untuk membacanya dari satu perspektif memahami diri sendiri."
+            "p": "Keputusan bermaksud 'jika anda bertemu dengan seseorang dari jenis ini, item ini akan mendapat skor tinggi'. Ia bukan kriteria untuk memilih seseorang, tetapi lebih kepada cara membacanya dari satu perspektif untuk memahami diri sendiri."
           },
           {
             "p": "Sebab-sebab mengapa jenis tertentu mendapat skor tinggi juga dicatat item demi item — sama ada tuan hari berada dalam kedudukan yang baik, atau sama ada orang itu memiliki tenaga yang saya perlukan sekarang."
@@ -880,10 +880,10 @@ export const MS_DOCS = {
         "title": "Masa pada jam dan masa matahari adalah berbeza",
         "blocks": [
           {
-            "p": "Tiang masa (時柱) saju ditentukan oleh kedudukan matahari. Walau bagaimanapun, jam yang kita lihat menggunakan satu masa standard untuk seluruh negara, yang menyebabkan ketidaksesuaian dengan kedudukan sebenar matahari."
+            "p": "Tiang masa (時柱) dalam saju ditentukan oleh kedudukan matahari. Namun, jam yang kita lihat menggunakan satu masa standard untuk seluruh negara, yang menyebabkan perbezaan dengan kedudukan sebenar matahari."
           },
           {
-            "p": "Masa standard Korea berdasarkan garis bujur 135° timur. Oleh kerana garis bujur Seoul adalah kira-kira 127°, ia adalah kira-kira 8° barat, menyebabkan matahari mencapai puncaknya kemudian — apabila ia tengah hari mengikut jam, matahari di Seoul belum mencapai puncaknya. Perbezaan ini adalah kira-kira **32 minit**."
+            "p": "Masa standard Korea adalah berdasarkan garis bujur 135° timur. Oleh kerana garis bujur Seoul adalah sekitar 127°, ia adalah kira-kira 8° barat, menyebabkan matahari mencapai puncaknya kemudian — apabila sudah tengah hari mengikut jam, matahari di Seoul belum mencapai puncaknya. Perbezaan ini adalah sekitar **32 minit**."
           }
         ]
       },
@@ -892,7 +892,7 @@ export const MS_DOCS = {
         "title": "32 minit mengubah tiang masa satu slot",
         "blocks": [
           {
-            "p": "Masa dalam saju dibahagikan kepada unit dua jam. Mereka yang dilahirkan berhampiran sempadan akan mempunyai tiang masa mereka berubah sepenuhnya oleh perbezaan 32 minit — pembetulan ini diperlukan bagi mereka yang jatuh tepat di sempadan ini."
+            "p": "Masa dalam saju dibahagikan kepada unit dua jam. Mereka yang lahir dekat sempadan akan mempunyai tiang masa mereka berubah sepenuhnya oleh perbezaan 32 minit — pembetulan ini diperlukan bagi mereka yang jatuh tepat di sempadan ini."
           }
         ]
       },
@@ -900,10 +900,10 @@ export const MS_DOCS = {
         "title": "Mengapa kami meminta tempat lahir",
         "blocks": [
           {
-            "p": "Jika garis bujur berbeza, jumlah pembetulan juga akan berbeza. Mengaplikasikan pembetulan berasaskan Seoul kepada seseorang yang dilahirkan di luar negara akan mengakibatkan ketidaksesuaian yang ketara dalam tiang masa. Oleh itu, skrin input memerlukan anda untuk memilih tempat lahir anda, dan pengiraan adalah berdasarkan garis bujur dan masa standard bandar itu. Pada masa ini, terdapat {cityCount} tempat dalam senarai."
+            "p": "Jika garis bujur berbeza, jumlah pembetulan juga akan berbeza. Menggunakan pembetulan berdasarkan Seoul untuk seseorang yang lahir di luar negara akan mengakibatkan perbezaan yang ketara dalam tiang masa. Oleh itu, skrin input memerlukan anda untuk memilih tempat lahir anda, dan pengiraan adalah berdasarkan garis bujur dan masa standard bandar itu. Pada masa ini, terdapat {cityCount} tempat dalam senarai."
           },
           {
-            "p": "Di tempat-tempat di mana garis bujur berbeza dengan ketara walaupun dalam negara yang sama (seperti AS, Rusia, Indonesia, dll.), bandar-bandar telah dibahagikan. **15° garis bujur sama dengan satu slot tiang masa.**"
+            "p": "Di tempat-tempat di mana garis bujur berbeza dengan ketara walaupun dalam negara yang sama (seperti AS, Rusia, Indonesia, dll.), bandar-bandar telah dibahagikan. **15° garis bujur sama dengan satu slot tiang masa**."
           },
           {
             "p": "Jika anda tidak memilih, pengiraan akan berdasarkan Seoul. Oleh kerana kebanyakan kelahiran adalah domestik, ini mengurangkan kemungkinan kesilapan, tetapi jika anda dilahirkan di luar negara, sila pastikan untuk memilih."
@@ -914,7 +914,7 @@ export const MS_DOCS = {
         "title": "Masa standard telah berubah beberapa kali pada masa lalu",
         "blocks": [
           {
-            "p": "Terdapat sebab mengapa pembetulan tidak boleh dikira dengan mudah sebagai 'perbezaan garis bujur ÷ 15° × 60 minit'. Masa standard itu sendiri telah berubah sepanjang pelbagai era."
+            "p": "Terdapat sebab mengapa pembetulan tidak boleh dikira dengan mudah sebagai 'perbezaan garis bujur ÷ 15° × 60 minit'. Masa standard itu sendiri telah berbeza sepanjang era yang berbeza."
           },
           {
             "table": {
@@ -926,7 +926,7 @@ export const MS_DOCS = {
               "rows": [
                 [
                   "Sebelum 1912",
-                  "Tiada waktu standard (waktu purata tempatan)"
+                  "Tiada waktu standard (masa purata tempatan)"
                 ],
                 [
                   "1954 – 1961",
@@ -940,7 +940,7 @@ export const MS_DOCS = {
             }
           },
           {
-            "p": "Inyeon-Link tidak menggunakan nilai tetap untuk meridian standard, tetapi mengira waktu standard yang sebenarnya digunakan pada masa itu berdasarkan maklumat **zaman waktu IANA** tempat lahir. Waktu penjimatan siang dan waktu standard yang lalu secara automatik akan dipaparkan."
+            "p": "Inyeon-Link tidak menggunakan nilai tetap untuk meridian standard, tetapi mengira waktu standard yang sebenarnya digunakan pada masa itu berdasarkan maklumat **zon waktu IANA** tempat lahir. Waktu penjimatan siang dan waktu standard yang lalu secara automatik akan dipaparkan."
           }
         ]
       },
@@ -948,10 +948,10 @@ export const MS_DOCS = {
         "title": "Kelahiran sejurus selepas tengah malam juga mempertimbangkan tarikh",
         "blocks": [
           {
-            "p": "Oleh kerana pembetulan adalah -32 minit, mereka yang lahir antara 00:00 dan 00:32 mengikut jam akan menjadi **23:00 hari sebelumnya** dalam waktu solar sebenar. Jika hanya waktu yang dipulangkan dan tarikh dibiarkan tidak berubah, ia akan menulis tiang hari sebagai '23:00 hari sebelumnya'."
+            "p": "Memandangkan pembetulan adalah -32 minit, mereka yang lahir antara 00:00 dan 00:32 mengikut jam akan menjadi **23:00 hari sebelumnya** dalam waktu solar sebenar. Jika hanya waktu yang dipulangkan dan tarikh dibiarkan tidak berubah, ia akan menulis tiang hari sebagai '23:00 hari sebelumnya'."
           },
           {
-            "p": "Inyeon-Link juga akan memulangkan tarikh dalam kes ini. Tiang hari menunjukkan diri seseorang dalam saju, jadi jika ini tidak betul, hampir semua item kesesuaian akan menjadi tidak betul."
+            "p": "Inyeon-Link juga akan memulangkan tarikh dalam kes ini. Tiang hari menunjukkan individu itu sendiri dalam saju, jadi jika ini tidak betul, hampir semua item kesesuaian akan menjadi tidak betul."
           }
         ]
       },
@@ -970,7 +970,7 @@ export const MS_DOCS = {
   },
   "guide/no-storage": {
     "eyebrow": "Maklumat Peribadi",
-    "title": "Kaedah tidak menyimpan maklumat yang dimasukkan",
+    "title": "Kaedah untuk tidak menyimpan maklumat yang dimasukkan",
     "summary": "Ini menerangkan apa yang secara teknikal bermaksud bahawa tarikh lahir anda tidak direkodkan di mana-mana dan apa yang termasuk dalam pautan keputusan.",
     "backLabel": "Asas Pengiraan",
     "sections": [
@@ -978,10 +978,10 @@ export const MS_DOCS = {
         "title": "Tiada keahlian diperlukan",
         "blocks": [
           {
-            "p": "Inyeon-Link tidak membuat akaun. Ia tidak mengumpul nama, emel, atau nombor telefon. Satu-satunya maklumat yang dikumpul adalah tarikh lahir dan (secara pilihan) waktu kelahiran, tempat lahir, dan jantina, dan bahkan itu tidak kekal setelah pengiraan selesai."
+            "p": "Inyeon-Link tidak membuat akaun. Ia tidak mengumpul nama, emel, atau nombor telefon. Satu-satunya maklumat yang dikumpul adalah tarikh lahir dan (secara pilihan) waktu kelahiran, tempat lahir, dan jantina, dan walaupun itu tidak kekal selepas pengiraan selesai."
           },
           {
-            "p": "Terdapat medan untuk memasukkan tajuk untuk dipaparkan di skrin keputusan, tetapi itu adalah **hanya untuk tujuan paparan** dan tidak digunakan dalam pengiraan. Anda tidak perlu memasukkan nama sebenar anda."
+            "p": "Terdapat medan untuk memasukkan tajuk yang akan dipaparkan di skrin keputusan, tetapi itu adalah **hanya untuk tujuan paparan** dan tidak digunakan dalam pengiraan. Anda tidak perlu memasukkan nama sebenar anda."
           }
         ]
       },
@@ -1015,22 +1015,22 @@ export const MS_DOCS = {
         "title": "Mengapa pengiraan dilakukan di pelayan tetapi tidak disimpan?",
         "blocks": [
           {
-            "p": "Pengiraan itu sendiri dilakukan di pelayan. Almanak lunisolar Korea diperlukan untuk menghasilkan saju, dan jadual itu terlalu besar untuk dihantar ke pelayar. Namun, **setelah memproses permintaan, nilai itu tidak digunakan di mana-mana.** Tiada kod untuk menyimpannya dalam pangkalan data."
+            "p": "Pengiraan itu sendiri dilakukan di pelayan. Almanak lunisolar Korea diperlukan untuk menghasilkan saju, dan jadual itu terlalu besar untuk dihantar ke pelayar. Namun, **selepas memproses permintaan, nilai itu tidak digunakan di mana-mana.** Tiada kod untuk menyimpannya dalam pangkalan data."
           },
           {
-            "p": "Rekod minimum yang diperlukan untuk operasi disimpan — satu kaunter untuk mengelakkan orang yang sama menghantar terlalu banyak permintaan dalam masa yang singkat. Ini tidak termasuk tarikh lahir, dan IP akses juga tidak disimpan. Hanya satu nilai, yang dihash dengan tarikh, dikira, dan nilai itu berubah apabila hari berubah."
+            "p": "Rekod minimum yang diperlukan untuk operasi disimpan — pengira untuk mengelakkan orang yang sama menghantar terlalu banyak permintaan dalam masa yang singkat. Ini tidak termasuk tarikh lahir, dan IP akses juga tidak disimpan. Hanya satu nilai, yang dihash dengan tarikh, dikira, dan nilai itu berubah apabila hari berubah."
           }
         ]
       },
       {
-        "title": "Perkara yang tidak dapat dilakukan kerana maklumat tidak disimpan",
+        "title": "Perkara yang tidak boleh dilakukan kerana maklumat tidak disimpan",
         "blocks": [
           {
             "p": "Sejujurnya, terdapat perkara yang telah kami berikan kerana kami tidak menyimpan maklumat."
           },
           {
             "ul": [
-              "**Anda tidak boleh mengambil semula keputusan yang lalu.** Anda perlu mempunyai pautan untuk melihatnya semula.",
+              "**Anda tidak boleh mendapatkan semula keputusan lalu.** Anda perlu mempunyai pautan untuk melihatnya semula.",
               "**Nilai yang sama akan dikira semula.** Tiada cache. Namun, kerana semua peraturan adalah deterministik, [input yang sama akan sentiasa menghasilkan nilai yang sama](/guide/how-compatibility).",
               "**Menyegarkan akan membawa kembali pintu iklan.** Ini kerana tiada tempat untuk menyimpan rekod tontonan."
             ]
@@ -1041,10 +1041,10 @@ export const MS_DOCS = {
         "title": "Sekiranya pembelian",
         "blocks": [
           {
-            "p": "Jika anda membeli laporan, rekod transaksi akan disimpan pada masa itu. Undang-undang menetapkan tempoh penyimpanan untuk pembayaran, dan tanpa sejarah pesanan, pengembalian tidak dapat diproses. Namun, walaupun begitu, **tarikh lahir yang digunakan untuk pengiraan kesesuaian tidak dilampirkan pada pesanan** — ia dikumpul semula semasa membuat PDF setelah pengesahan pembayaran."
+            "p": "Jika anda membeli laporan, rekod transaksi akan disimpan pada masa itu. Undang-undang menetapkan tempoh penyimpanan untuk pembayaran, dan tanpa sejarah pesanan, pengembalian tidak dapat diproses. Namun, walaupun begitu, **tarikh lahir yang digunakan untuk pengiraan kesesuaian tidak dilampirkan pada pesanan** — ia dikumpul semula semasa membuat PDF selepas pengesahan pembayaran."
           },
           {
-            "p": "Butiran dijelaskan dalam [Dasar Privasi](/privacy)."
+            "p": "Butiran dinyatakan dalam [Dasar Privasi](/privacy)."
           }
         ]
       }
@@ -1053,17 +1053,17 @@ export const MS_DOCS = {
   "guide/reports": {
     "eyebrow": "Produk Berbayar",
     "title": "Apa yang termasuk dalam laporan berbayar?",
-    "summary": "Ini menerangkan apa yang telah ditambahkan ke PDF sambil mengekalkan skrin tidak berubah, item demi item. Nilai dan kandungan dibaca dari tetapan produk yang sebenar.",
+    "summary": "Ini menerangkan apa yang telah ditambahkan ke PDF sambil mengekalkan skrin tidak berubah, item demi item. Nilai dan kandungan dibaca dari tetapan produk sebenar.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
         "title": "Skrin tetap tidak berubah, hanya ditambah ke PDF",
         "blocks": [
           {
-            "p": "Pengiraan kesesuaian dan pertanyaan keputusan adalah **percuma**. Kadar padanan, skor dan berat item, carta asal saju kedua-dua individu, dan bentuk hubungan boleh dilihat di skrin. Tiada apa yang telah dikeluarkan dari skrin semasa membuat laporan berbayar."
+            "p": "Pengiraan kesesuaian dan pertanyaan keputusan adalah **percuma**. Kadar padanan, skor dan berat item, carta asal saju kedua-dua individu, dan bentuk hubungan semuanya boleh dilihat di skrin. Tiada apa yang telah dikeluarkan dari skrin semasa membuat laporan berbayar."
           },
           {
-            "p": "Tujuan laporan adalah untuk **menambah lapisan yang tidak ada di skrin**. Dan lapisan itu tidak dibuat; ia terdiri daripada nilai yang telah dikira semasa proses penilaian tetapi tidak digunakan di skrin."
+            "p": "Tujuan laporan adalah untuk **menambah lapisan yang tidak ada di skrin**. Dan lapisan itu tidak direka; ia terdiri daripada nilai yang telah dikira semasa proses penilaian tetapi tidak digunakan di skrin."
           }
         ]
       },
@@ -1087,19 +1087,19 @@ export const MS_DOCS = {
         "title": "Halaman 4 — Arah dua tenaga",
         "blocks": [
           {
-            "p": "Item-item dari lima elemen di skrin dipaparkan sebagai satu skor tunggal. Namun, skor tunggal itu adalah **purata dari dua arah** — mengukur seberapa banyak yang satu mengisi saya dan seberapa banyak saya mengisi yang lain, dan mengambil purata nilai-nilai tersebut."
+            "p": "Item-item dari lima elemen di skrin dipersembahkan sebagai satu skor tunggal. Namun, skor tunggal itu adalah **purata dari dua arah** — mengukur berapa banyak yang satu mengisi saya dan berapa banyak saya mengisi yang lain, dan merata-rata nilai-nilai tersebut."
           },
           {
-            "p": "Komplementariti secara semula jadi adalah **asimetrik**. Ini kerana tenaga yang diperlukan oleh saya dan tenaga yang diperlukan oleh yang lain adalah berbeza. Jika anda hanya melihat purata, hubungan di mana satu pihak mengisi yang lain dengan ketara dan hubungan di mana kedua-duanya mengisi antara satu sama lain secara seimbang akan muncul sebagai nombor yang sama. Laporan ini memisahkan kedua-duanya."
+            "p": "Keselarasan secara semula jadi adalah **asimetrik**. Ini kerana tenaga yang diperlukan oleh saya dan tenaga yang diperlukan oleh yang lain adalah berbeza. Jika anda hanya melihat purata, hubungan di mana satu pihak mengisi pihak lain dengan ketara dan hubungan di mana kedua-duanya saling mengisi secara seimbang akan muncul sebagai nombor yang sama. Laporan memisahkan kedua-duanya."
           },
           {
-            "p": "Juga termasuk dalam bahagian yang sama adalah **graf hubungan empat tiang**. Satu-satunya yang masuk ke dalam kadar padanan adalah cabang hari (日支) — kerana ia adalah posisi pasangan — tetapi cabang tahun, bulan, dan jam yang lain juga boleh dibaca dengan graf hubungan yang sama."
+            "p": "Juga termasuk dalam bahagian yang sama adalah **graf hubungan empat tiang**. Satu-satunya yang masuk ke dalam kadar kesesuaian adalah cabang hari (日支) — kerana ia adalah posisi pasangan — tetapi cabang tahun, bulan, dan jam yang lain juga boleh dibaca dengan graf hubungan yang sama."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Skor dalam jadual ini tidak masuk ke dalam kadar padanan",
+        "title": "Skor dalam jadual ini tidak masuk ke dalam kadar kesesuaian",
         "blocks": [
           {
             "p": "Jika dimasukkan, jumlah skor akan berubah dan tidak akan sepadan dengan pautan hasil yang telah dihantar. Oleh itu, ia hanya termasuk sebagai bahan bacaan, dan fakta itu dicatat di bawah jadual."
@@ -1110,21 +1110,21 @@ export const MS_DOCS = {
         "title": "Halaman 5 — Tinjauan lebih dekat pada saju setiap orang",
         "blocks": [
           {
-            "p": "Bar-bar dari lima elemen di skrin menunjukkan **seberapa banyak yang ada**. Laporan ini menambah **sama ada bulan kelahiran menyokong tenaga itu**. Walaupun dengan jumlah yang sama, tenaga yang kuat (旺) dan tenaga yang mati (死) mempunyai kekuatan yang berbeza."
+            "p": "Bar-bar dari lima elemen di skrin menunjukkan **berapa banyak yang ada**. Laporan menambah **sama ada bulan kelahiran menyokong tenaga itu**. Walaupun dengan jumlah yang sama, tenaga yang kuat (旺) dan tenaga yang mati (死) mempunyai kekuatan yang berbeza."
           },
           {
-            "p": "Anda boleh melihat kekuatan sebelum dan selepas menggandakan dengan tenaga bulan secara berdampingan, menunjukkan seberapa banyak musim telah mendorongnya. **Nisbah sekutu** yang membezakan antara penguasa hari yang kuat dan penguasa hari yang lemah juga dicatat — skrin hanya menunjukkan penilaian, tetapi laporan menunjukkan di mana penilaian itu dibuat."
+            "p": "Anda boleh melihat kekuatan sebelum dan selepas menggandakan dengan tenaga bulan secara berdampingan, menunjukkan berapa banyak musim telah meningkatkannya. **Nisbah sekutu** yang membezakan antara penguasa hari yang kuat dan penguasa hari yang lemah juga dicatat — skrin hanya menunjukkan penilaian, tetapi laporan menunjukkan di mana penilaian itu dibuat."
           }
         ]
       },
       {
-        "title": "Halaman 6 — Apa yang dimaksudkan dengan empat tiang orang lain kepada saya",
+        "title": "Halaman 6 — Apa yang dimaksudkan dengan empat tiang orang lain bagi saya",
         "blocks": [
           {
-            "p": "Kadar padanan hanya membandingkan **tiang hari** kedua individu. Namun, tiga tiang lain orang lain juga ditentukan oleh Sepuluh Dewa menggunakan peraturan yang sama. Walaupun anda boleh memahami **apa maksud orang ini kepada saya** dengan melihat tiang hari sahaja, anda tidak dapat mengetahui **apa posisi orang itu bermakna bagi saya**."
+            "p": "Kadar kesesuaian hanya membandingkan **tiang hari** kedua individu. Namun, tiga tiang yang tinggal dari orang lain juga ditentukan oleh Sepuluh Dewa menggunakan peraturan yang sama. Walaupun anda boleh memahami **apa maksud orang ini bagi saya** dengan melihat tiang hari sahaja, anda tidak dapat mengetahui **apa posisi orang itu bermakna bagi saya**."
           },
           {
-            "p": "Oleh kerana terdapat arah, kedua-dua pihak dipaparkan secara berasingan. Apa yang saya lihat dan apa yang dilihat oleh yang lain adalah berbeza."
+            "p": "Memandangkan terdapat arah, kedua-dua pihak dipersembahkan secara berasingan. Apa yang saya lihat dan apa yang dilihat oleh yang lain adalah berbeza."
           }
         ]
       },
@@ -1132,43 +1132,43 @@ export const MS_DOCS = {
         "title": "Halaman 7 — Bagaimana saju ini dikira",
         "blocks": [
           {
-            "p": "Ia menyatakan seberapa banyak waktu kelahiran disesuaikan dengan waktu solar sebenar, sama ada pembetulan menyebabkan tarikh berubah, dan apa tarikh solar dan lunar ketika saju dihasilkan. Konsep ini dijelaskan dalam dokumen [Menyesuaikan waktu kelahiran dengan waktu solar sebenar](/guide/true-solar-time), tetapi **nilai berapa minit yang disesuaikan dalam kes anda** berbeza dari orang ke orang, jadi ia hanya termasuk dalam laporan."
+            "p": "Ia menyatakan berapa banyak waktu kelahiran disesuaikan dengan waktu solar sebenar, sama ada pembetulan menyebabkan tarikh berubah, dan apa tarikh solar dan lunar ketika saju dihasilkan. Konsep ini dijelaskan dalam dokumen [Menyesuaikan waktu kelahiran dengan waktu solar sebenar](/guide/true-solar-time), tetapi **nilai berapa minit yang disesuaikan dalam kes anda** berbeza dari orang ke orang, jadi ia hanya termasuk dalam laporan."
           }
         ]
       },
       {
-        "title": "Laporan profil padanan Inyeon PDF — {priceAffinityDomestic}",
-        "slot": "",
+        "title": "Laporan profil kesesuaian Inyeon PDF — {priceAffinityDomestic}",
+        "slot": "affinityContents",
         "blocks": [
           {
-            "p": "Pembayaran domestik {priceAffinityDomestic} (termasuk VAT), pembayaran antarabangsa {priceAffinityGlobal}. {pagesAffinity} halaman A4."
+            "p": "Pembayaran domestik {priceAffinityDomestic} (termasuk VAT), pembayaran antarabangsa {priceAffinityGlobal}. A4 {pagesAffinity} halaman."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": ""
+            "p": "Bahagian ini adalah **jadual peringkat keseluruhan**. Skrin hanya menunjukkan set yang sesuai dengan baik, tetapi laporan menyenaraikan semua sepuluh tiang langit dan dua belas cabang bumi **sepenuhnya**. Jika anda hanya melihat set teratas, anda tidak akan tahu 'siapa yang datang seterusnya' dan 'yang mana yang paling tidak sesuai'."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Perkara yang perlu diketahui sebelum membeli",
         "blocks": [
           {
-            "p": ""
+            "p": "**Pelayan tidak menyimpan fail.** Setelah pembayaran diluluskan, dokumen dihasilkan dan dihantar dengan segera, meninggalkan tiada apa-apa di pelayan. Prinsip perkhidmatan ini untuk tidak menyimpan nilai input dikekalkan walaupun dalam aliran berbayar."
           },
           {
-            "p": ""
+            "p": "Oleh itu, **sila simpan fail segera selepas pembayaran.** Anda boleh menerima pesanan yang sama sehingga lima kali, tetapi jika anda meninggalkan skrin hasil dan nilai input hilang, anda tidak dapat menciptanya semula."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Laporan juga adalah bahan rujukan",
         "blocks": [
           {
-            "p": ""
+            "p": "Hanya kerana panjangnya telah meningkat tidak bermakna kesimpulan lebih pasti. Apa yang terdapat dalam laporan lebih banyak adalah **asas pengiraan yang sama**, bukan penegasan yang lebih kuat. Bacaan takdir adalah bidang di mana kesimpulan boleh berbeza bergantung kepada pengamal, dan perkhidmatan ini hanya mengira apa yang boleh diterjemahkan ke dalam peraturan."
           }
         ]
       }
@@ -1184,14 +1184,14 @@ export const MS_DOCS = {
   "contact": {
     "eyebrow": "Hubungi",
     "title": "Pertanyaan",
-    "summary": "Ini adalah saluran untuk pertanyaan mengenai penggunaan, pengembalian, permintaan maklumat peribadi, dan laporan kesilapan, bersama dengan maklumat perniagaan.",
+    "summary": "Ini adalah saluran untuk pertanyaan mengenai penggunaan, pengembalian, permintaan maklumat peribadi, dan laporan kesalahan, bersama dengan maklumat perniagaan.",
     "backLabel": "Kembali ke Halaman Utama",
     "sections": [
       {
         "title": "Hubungi melalui Email",
         "blocks": [
           {
-            "p": "Sila hantar pertanyaan ke **{email}**. Kami akan membalas dalam 2 hari bekerja. Untuk pertanyaan mengenai pembayaran dan pengembalian, sila sertakan **nombor pesanan atau email yang digunakan untuk pembayaran** untuk pengesahan yang lebih cepat."
+            "p": "Sila hantarkan pertanyaan ke **{email}**. Kami akan memberi maklum balas dalam masa 2 hari bekerja. Untuk pertanyaan mengenai pembayaran dan pengembalian, sila sertakan **nombor pesanan atau email yang digunakan untuk pembayaran** untuk pengesahan yang lebih cepat."
           },
           {
             "p": "Pertanyaan melalui telefon boleh dibuat di {customerCenter}."
@@ -1203,9 +1203,9 @@ export const MS_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pembayaran dan Pengembalian** — Jika dokumen tidak dibuat atau jumlah pembayaran berbeza dari pesanan, pengembalian penuh akan diberikan. Syarat terdapat dalam [dasar pengembalian](/refund-policy).",
-              "**Maklumat Peribadi** — Kami menerima permintaan untuk melihat, membetulkan, dan memadam. Dasar pemprosesan terdapat dalam [dasar privasi](/privacy).",
-              "**Laporan Kesilapan Pengiraan** — Jika carta asal saju atau skor nampak aneh, sila maklumkan kepada kami. Jika anda sertakan bila anda memasukkan tarikh dan waktu, kami boleh mengira semula dengan nilai yang sama."
+              "**Pembayaran dan Pengembalian** — Jika dokumen tidak dibuat atau jumlah pembayaran berbeza dari pesanan, pengembalian penuh akan diberikan. Syarat ada dalam [dasar pengembalian](/refund-policy).",
+              "**Maklumat Peribadi** — Kami menerima permintaan untuk melihat, membetulkan, dan memadam. Dasar pemprosesan ada dalam [dasar privasi](/privacy).",
+              "**Laporan Kesalahan Pengiraan** — Jika carta asal saju atau skor nampak aneh, sila maklumkan kepada kami. Jika anda sertakan bila anda memasukkan tarikh dan waktu, kami boleh mengira semula dengan nilai yang sama."
             ]
           }
         ]
@@ -1232,7 +1232,7 @@ export const MS_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Anda tidak perlu menyertakan tarikh dan waktu kelahiran anda dalam email pertanyaan. Kami tidak menyimpan input, jadi kami tidak dapat mengambilnya semula, dan nombor pesanan sudah mencukupi untuk pengesahan. Sila sertakan hanya jika ia diperlukan untuk laporan kesilapan pengiraan."
+            "p": "Anda tidak perlu menyertakan tarikh dan waktu kelahiran anda dalam email pertanyaan. Kami tidak menyimpan input, jadi kami tidak dapat mengambilnya semula, dan nombor pesanan sudah cukup untuk pengesahan. Sila hanya sertakan jika ia perlu untuk laporan kesalahan pengiraan."
           }
         ]
       }
@@ -1247,12 +1247,12 @@ export const MS_NOTICES = {
     "engine": "Pengiraan",
     "support": "Sokongan"
   },
-  "intro": "Perubahan kepada terma penggunaan anda — harga, polisi — dipaparkan di sini sebelum ia berkuat kuasa. Penambahbaikan dalaman tidak disenaraikan: apa yang muncul di sini adalah apa yang anda perlu tahu.",
+  "intro": "Perubahan kepada terma penggunaan anda — harga, polisi — akan dipaparkan di sini sebelum ia berkuatkuasa. Penambahbaikan dalaman tidak disenaraikan: apa yang muncul di sini adalah apa yang anda perlu tahu.",
   "empty": {
     "title": "Tiada notis lagi",
     "body": "Apabila sesuatu berubah, ia akan muncul di sini."
   },
-  "effective": "Bermula {date}",
+  "effective": "Berkuatkuasa {date}",
   "pager": {
     "label": "Halaman notis",
     "newer": "← Lebih Baru",
@@ -1260,10 +1260,10 @@ export const MS_NOTICES = {
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Halaman Hubungi dan Tentang kini dibuka",
+      "title": "Halaman Hubungi dan Mengenai kini dibuka",
       "body": [
-        "Soalan, pemulangan, permintaan privasi dan laporan kesilapan pengiraan kini mempunyai satu tempat untuk pergi — lihat halaman hubungi di footer.",
-        "Jika sesuatu kelihatan salah kira, sila sertakan butiran kelahiran yang menghasilkan ia. Kami tidak menyimpan apa yang anda masukkan, jadi tanpa maklumat tersebut kami tidak dapat menghasilkan semula bacaan."
+        "Soalan, pengembalian wang, permintaan privasi dan laporan kesilapan pengiraan kini mempunyai satu tempat untuk pergi — lihat halaman hubungi di footer.",
+        "Jika sesuatu kelihatan salah kira, sila sertakan butiran kelahiran yang menghasilkannya. Kami tidak menyimpan apa yang anda masukkan, jadi tanpa maklumat tersebut kami tidak dapat menghasilkan semula bacaan."
       ]
     },
     "2026-08-01-pdf-language": {
@@ -1277,8 +1277,8 @@ export const MS_NOTICES = {
     "2026-08-01-engine-version": {
       "title": "Setiap bacaan membawa versi peraturan yang digunakan",
       "body": [
-        "Setiap bacaan dan laporan membawa set peraturan yang digunakan untuk menghasilkan ia (contohnya inyeonlink-match-v10). Input yang sama pada set peraturan yang sama sentiasa memberikan nombor yang sama.",
-        "Jika kami mengubah peraturan tafsiran dengan cara yang boleh mengubah skor, kami akan memaparkannya di sini terlebih dahulu, dengan tarikh ia berkuat kuasa — kerana pautan keputusan yang anda sudah pegang akan dibaca dengan cara yang berbeza.",
+        "Setiap bacaan dan laporan membawa set peraturan yang digunakan untuk menghasilkannya (contohnya inyeonlink-match-v10). Input yang sama pada set peraturan yang sama sentiasa memberikan nombor yang sama.",
+        "Jika kami mengubah peraturan tafsiran dengan cara yang boleh mengubah skor, kami akan memaparkannya di sini terlebih dahulu, dengan tarikh ia berkuatkuasa — kerana pautan keputusan yang anda pegang sudah tentu akan dibaca dengan berbeza.",
         "Set peraturan semasa adalah v10. Pembayaran belum dibuka."
       ]
     }

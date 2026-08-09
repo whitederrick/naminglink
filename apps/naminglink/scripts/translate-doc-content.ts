@@ -50,7 +50,7 @@ type Leaf = { path: string; en: string; ko: string | null };
  * 타입이 잡아 주긴 했지만(그래서 `DocSection.kind`를 유니온으로 좁혀 둔 값이 있다), 잎을
  * 모을 때 빼는 편이 맞다. 번역할 필요가 없는 것에 돈과 시간을 쓸 이유도 없다.
  */
-const STRUCTURAL_KEYS = new Set(["kind", "figure"]);
+const STRUCTURAL_KEYS = new Set(["kind", "figure", "slot"]);
 
 function collect(en: unknown, ko: unknown, trail: string[], out: Leaf[]) {
   if (STRUCTURAL_KEYS.has(trail[trail.length - 1] ?? "")) return;
@@ -144,6 +144,19 @@ function applyGlossary(value: string, leaf: Leaf): string | null {
 function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null {
   // 모델이 문자열이 아닌 것을 돌려주는 일이 있다(객체·배열). 그대로 두면 뒤에서 터진다.
   if (typeof value !== "string") return `문자열이 아니다(${typeof value})`;
+  /**
+   * **빈 응답이 모든 검사를 통과했다.**
+   *
+   * 모델이 답에서 열쇠를 통째로 빠뜨리면 이 자리에 `""`가 들어온다. 그런데 빈 문자열은
+   * 자리표시자 0개·강조 0개·한글 0개라 **아래 검사가 전부 초록**이고, 그대로 파일에 실린다.
+   * 화면은 빈 제목과 빈 문단을 그리므로 **문서가 있는데 아무 말도 하지 않는 상태**가 된다.
+   *
+   * 2026-08-09에 실제로 그랬다 — 인연링크 유료 상품 안내가 15개 언어에서 부분적으로 비었고,
+   * 드림링크는 「하지 않기로 한 것들」 한 편이 통째로 비었다. 둘 다 검사기가 통과시켰다.
+   *
+   * 원문이 빈 자리는 그대로 둔다(자료가 그렇게 정한 것이다).
+   */
+  if (leaf.en.trim() && !value.trim()) return "빈 응답 — 모델이 이 열쇠를 빠뜨렸다";
   // **한국어를 본으로 삼을 때는 이 검사를 걸지 않는다.** 한국어 원문은 상표를 「네이밍링크」로
   // 적으므로 라틴 표기가 0회인데, 그 자리의 영어 번역에는 `Naming-Link`가 있어야 한다.
   // 개수를 맞추라고 하면 옳은 번역을 결함으로 잡는다.

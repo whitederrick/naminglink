@@ -1,165 +1,97 @@
+import type { DocKey } from "@/lib/doc-content";
+
 /**
- * 안내 문서 목록. **허브와 각 문서가 같은 값을 보게 하려고 한곳에 모아 둔다.**
+ * 안내 문서 목록.
  *
- * naminglink `lib/guide-index.ts`와 같은 구조다. 한 페이지에 다 넣지 않는 이유도 같다 —
- * 주로 휴대폰에서 보는 글이라 한 화면에 15화면 분량을 쌓으면 아무도 끝까지 읽지 않는다.
- * 대신 문서 하나가 2~3화면은 되게 두어 "대량 생성 콘텐츠"로 보이지 않게 한다.
+ * ## 여기 있는 것은 순서와 갈래뿐이다
  *
- * **여기 실린 내용은 전부 엔진 코드에 있는 것이다**(`lib/engines/`). 지지 관계표·항목 비중·
- * 점수·경계값은 손으로 옮겨 적지 않고 그 모듈에서 읽어 그린다. 규칙을 고치면 글도 함께 맞는다.
+ * 제목·요약·꼬리표는 **`lib/doc-content`가 로케일별로** 갖는다. 예전에는 이 파일이 한국어
+ * 제목을 들고 있었고, 그래서 본문을 23개 언어로 옮긴 뒤에도 **허브 목록만 한국어**로 남았다.
+ * 값을 두 곳에 두면 한쪽만 번역되는 날이 온다.
+ *
+ * ## `audience`를 `track`으로 바꾼 이유
+ *
+ * 예전 값은 `audience: "ko" | "global"`이었고, **언어와 대상 서비스를 겸하고** 있었다. 한국어로
+ * 들어오면 상세 열두 편을, 그 밖의 언어로 들어오면 영어 요약 세 편만 봤다 — 문서가 23개
+ * 언어로 번역되고 나면 그 거르기는 **일본어 이용자에게서 열두 편을 빼앗는 규칙**이 된다.
+ *
+ * 문서를 가르는 기준은 **언어가 아니라 무엇을 설명하는가**다(형제 앱에서 먼저 그렇게 고쳤다).
+ *
+ *     dictionary   상징 사전을 설명하는 글 — 사전 · 매칭 · 갈리는 뜻 · 갈래 · 못 찾을 때
+ *     reading      꿈 풀이를 어떻게 읽어야 하는가 — 길흉 · 태몽 · 적는 법 · 하지 않는 것
+ *     common       둘 모두에 해당 — 저장하지 않는 방식 · 유료 리포트
+ *
+ * 갈래는 **무엇을 먼저 보여 줄지**를 정할 뿐, 감추지 않는다. 어느 언어로 들어오든 열두 편을
+ * 다 읽을 수 있어야 한다.
+ *
+ * ## 영어 요약 세 편은 상세판에 흡수했다
+ *
+ * `how-it-works`·`what-we-store`·`what-the-reports-contain`은 한국어 상세판의 영어 요약이었다.
+ * 상세판이 23개 언어로 나가는 지금은 **같은 내용의 짧은 판**이 따로 있을 이유가 없다. 주소는
+ * `next.config.ts`가 301로 넘긴다 — 사이트맵에 실려 색인된 주소라 그냥 지우면 404다.
  */
-export type GuideAudience = "ko" | "global";
+export type GuideTrack = "dictionary" | "reading" | "common";
 
 export type GuideEntry = {
-  /** `/guide` 아래의 경로 조각 */
+  /** `/guide` 아래의 경로 조각. `doc-content`의 키는 `guide/<slug>`다. */
   slug: string;
-  title: string;
-  /** 허브 카드와 문서 머리글에 함께 쓴다. 두 곳의 말이 달라지지 않게 한 곳에서 관리한다. */
-  summary: string;
-  /** 허브 카드에 붙는 짧은 꼬리표 */
-  eyebrow: string;
-  /**
-   * 누구에게 보일 것인가.
-   *
-   * - `ko`     한국어로 접속했을 때만. 명리 용어를 그대로 쓰는 글이다.
-   * - `global` 다른 언어로 접속했을 때만. 영어로 쓴다.
-   *
-   * 한국어판을 먼저 다 만들고 그 위에 영어 요약을 얹는다. naminglink와 같은 방침이다 —
-   * 글로벌 서비스를 표방하면서 안내가 한국어뿐이면 앞뒤가 맞지 않는다.
-   */
-  audience: GuideAudience;
+  track: GuideTrack;
 };
 
+/** 허브에 놓이는 순서. 사전 → 매칭 → 읽는 법 → 태몽 → 우리 기준 → 개인정보 → 상품. */
 export const guideEntries: GuideEntry[] = [
-  {
-    slug: "symbol-dictionary",
-    title: "상징 사전은 무엇을 근거로 하나",
-    summary:
-      "풀이가 어디서 나오는지 밝힙니다. 상징 215개를 아홉 갈래로 나눈 기준, 전해 오는 근거를 댈 수 있는 것이 24개뿐인 이유, 그리고 빈자리를 채우지 않는 까닭입니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "how-matching-works",
-    title: "꿈 이야기에서 상징을 찾는 방법",
-    summary:
-      "자유롭게 적은 문장에서 어떻게 상징을 골라내는지, 「특별할」의 별처럼 낱말 안에 우연히 들어간 글자를 어떻게 걸러내는지 설명합니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "one-symbol-many-meanings",
-    title: "같은 상징인데 뜻이 다른 이유",
-    summary:
-      "뱀을 품는 것과 물리는 것은 전통적으로 반대입니다. 상징 215개가 뜻 256가지를 갖는 구조와, 상황을 어떻게 알아보는지 다룹니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "good-and-bad",
-    title: "길몽과 흉몽을 가리는 기준",
-    summary:
-      "상징마다 매겨 둔 네 가지 값과 그 분포, 좋은 쪽이 절반을 넘는 이유, 그리고 섞인 꿈을 섞인 대로 말씀드리는 까닭입니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "conception-dreams",
-    title: "태몽을 가리는 방식",
-    summary:
-      "태몽 상징 27개를 어떻게 판정하는지, 돼지꿈이 모두 태몽이 되지 않는 이유, 그리고 임신과 성별을 판정하지 않는다는 원칙을 밝힙니다.",
-    eyebrow: "태몽",
-    audience: "ko",
-  },
-  {
-    slug: "how-to-write",
-    title: "꿈을 어떻게 적으면 좋은가",
-    summary:
-      "본 것과 한 것을 적어 주시면 잘 걸립니다. 동사 하나가 뜻을 가르는 이유와, 기분·되풀이 여부를 함께 여쭙는 까닭을 설명합니다.",
-    eyebrow: "이용 방법",
-    audience: "ko",
-  },
-  {
-    slug: "categories",
-    title: "아홉 갈래로 나눈 기준",
-    summary:
-      "사물·동물·자연부터 빛깔·수까지 아홉 갈래와 각각의 수, 그리고 감정 갈래를 두지 않은 이유입니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "not-found",
-    title: "상징을 찾지 못했을 때",
-    summary:
-      "못 찾으면 못 찾았다고 말씀드립니다. 왜 못 찾는지, 그 화면에서 무엇을 대신 보여드리는지, 사전을 어떻게 늘려 가는지 다룹니다.",
-    eyebrow: "이용 방법",
-    audience: "ko",
-  },
-  {
-    slug: "no-ai",
-    title: "해몽에 인공지능을 쓰지 않는 이유",
-    summary:
-      "풀이를 만드는 자리에 모델을 부르는 코드가 없습니다. 사전을 모델로 넓혀 보려다 접은 실측 결과와, 그래서 얻은 것과 포기한 것입니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "what-we-do-not-do",
-    title: "하지 않기로 한 것들",
-    summary:
-      "복권 번호·꿈일기·임신 판정·액막이를 하지 않습니다. 각각을 왜 하지 않기로 했는지 밝힙니다.",
-    eyebrow: "서비스 원칙",
-    audience: "ko",
-  },
-  {
-    slug: "reports",
-    title: "꿈을 간직하는 두 가지 방법",
-    summary:
-      "풀이 자체는 값을 받지 않습니다. 파는 두 가지가 무엇이고 무엇이 담기는지, 그리고 그것이 더 나은 풀이가 아닌 이유를 설명합니다.",
-    eyebrow: "유료 상품",
-    audience: "ko",
-  },
-  {
-    slug: "no-storage",
-    title: "적어 주신 꿈을 저장하지 않는 방식",
-    summary:
-      "꿈 이야기가 어디에도 기록되지 않는다는 말이 기술적으로 무슨 뜻인지, 결과 링크에는 무엇이 담기는지 밝힙니다.",
-    eyebrow: "개인정보",
-    audience: "ko",
-  },
-  {
-    slug: "how-it-works",
-    title: "How a dream is read here",
-    summary:
-      "A fixed dictionary of 215 symbols, no language model, and a rule for every step. How symbols are found in what you write, why the same symbol can mean opposite things, and how birth dreams are judged.",
-    eyebrow: "How it works",
-    audience: "global",
-  },
-  {
-    slug: "what-we-store",
-    title: "What happens to the dream you write",
-    summary:
-      "Nothing you type is written down. Here is what that means technically, and what a result link actually carries.",
-    eyebrow: "Privacy",
-    audience: "global",
-  },
-  {
-    slug: "what-the-reports-contain",
-    title: "What is in the paid reports",
-    summary:
-      "The screen stays as it is; the PDF adds to it. Here is what each page carries, chapter by chapter. Prices and contents are read from the live product settings.",
-    eyebrow: "Paid products",
-    audience: "global",
-  },
+  { slug: "symbol-dictionary", track: "dictionary" },
+  { slug: "how-matching-works", track: "dictionary" },
+  { slug: "one-symbol-many-meanings", track: "dictionary" },
+  { slug: "categories", track: "dictionary" },
+  { slug: "not-found", track: "dictionary" },
+  { slug: "how-to-write", track: "reading" },
+  { slug: "good-and-bad", track: "reading" },
+  { slug: "conception-dreams", track: "reading" },
+  { slug: "no-ai", track: "reading" },
+  { slug: "what-we-do-not-do", track: "reading" },
+  { slug: "no-storage", track: "common" },
+  { slug: "reports", track: "common" },
 ];
 
-export function guideEntriesFor(locale: string): GuideEntry[] {
-  const audience: GuideAudience = locale === "ko" ? "ko" : "global";
-  return guideEntries.filter((entry) => entry.audience === audience);
+/** 그 문서의 `doc-content` 키. */
+export function docKeyFor(entry: GuideEntry): DocKey {
+  return `guide/${entry.slug}` as DocKey;
 }
 
 export function findGuideEntry(slug: string): GuideEntry | undefined {
   return guideEntries.find((entry) => entry.slug === slug);
+}
+
+/**
+ * 서비스 슬러그 → 그 서비스가 속한 갈래.
+ *
+ * 이 앱은 서비스가 하나(`dream`)라 갈래를 나눌 일이 아직 드물다. 그래도 자리를 두는 것은
+ * 형제 앱과 틀을 맞추기 위해서다 — 사전 화면에서 안내로 들어오는 길이 생기면 여기에 더한다.
+ */
+export function trackForService(slug: string | undefined): GuideTrack | null {
+  switch (slug) {
+    case "dream":
+      return "reading";
+    case "symbols":
+      return "dictionary";
+    default:
+      return null;
+  }
+}
+
+/**
+ * 허브에 놓을 순서. **거르지 않고 재배열만 한다.**
+ *
+ * 온 곳을 알면 그 갈래를 먼저, 공통을 다음, 나머지를 뒤에 둔다. 모르면 선언된 순서 그대로다.
+ */
+export function guideEntriesFor(fromService?: string): GuideEntry[] {
+  const track = trackForService(fromService);
+  if (!track) return guideEntries;
+
+  const weight = (entry: GuideEntry) =>
+    entry.track === track ? 0 : entry.track === "common" ? 1 : 2;
+  return [...guideEntries].sort((a, b) => weight(a) - weight(b));
 }
 
 /** sitemap·robots가 쓰는 색인 경로. 문서를 더하면 저절로 따라온다. */

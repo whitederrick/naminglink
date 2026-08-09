@@ -28,12 +28,26 @@ export async function guideMetadata(
   const locale = await getRequestLocale(params?.lang);
   const doc = getDocPage(locale, docKeyOf(slug));
 
+  /**
+   * **제목·요약에도 값을 채운다.**
+   *
+   * 본문은 `DocBody`가 채우지만 `<title>`과 description 은 여기서 그대로 넘어간다. 그래서
+   * 요약에 `{symbolTotal}` 을 쓰면 **검색 결과에 중괄호가 그대로 나간다.** 자료를 쓰는 쪽에서는
+   * 「본문에서 되는 것이 요약에서도 될 것」이라고 읽는 편이 자연스러우므로 여기서 채운다.
+   *
+   * 못 채운 자리표시자는 **그 자리만 지운다** — 본문처럼 문단을 통째로 뺄 수는 없다(제목이
+   * 없으면 페이지가 이름을 잃는다). 값이 빠진 문장이 검색 결과에 나가는 것보다는 낫다.
+   */
+  const values = await docValues(locale);
+  const fill = (text: string) =>
+    text.replace(/\{([a-zA-Z]+)\}/g, (whole, name: string) => values[name] ?? whole);
+
   return buildPageMetadata({
     path: `/guide/${slug}`,
     locale,
     requested,
-    title: doc.title,
-    description: doc.summary,
+    title: fill(doc.title),
+    description: fill(doc.summary),
   });
 }
 

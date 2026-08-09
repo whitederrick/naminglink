@@ -106,6 +106,27 @@ export function GuideSection({
 }
 
 /**
+ * 숫자를 눈에 띄게 놓는 자리. **값을 하드코딩하지 말 것** — 부르는 쪽이 엔진이나 DB에서 읽어
+ * 넘긴다. 규칙이 바뀌면 글의 숫자도 함께 바뀌어야 하기 때문이다.
+ */
+export function GuideStats({
+  items,
+}: {
+  items: Array<{ value: string; label: string }>;
+}) {
+  return (
+    <dl className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      {items.map((item) => (
+        <div key={item.label} className="rounded-lg border border-line bg-surface px-4 py-3">
+          <dt className="text-xs text-muted">{item.label}</dt>
+          <dd className="mt-1 text-lg font-semibold tabular-nums">{item.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+/**
  * 본문 중간에 끼우는 강조 상자. 근거·한계처럼 따로 떼어 두면 좋은 것에 쓴다.
  *
  * 이 서비스의 글에는 **한계를 밝히는 상자가 유난히 자주 나온다.** 명리는 술사에 따라 결론이

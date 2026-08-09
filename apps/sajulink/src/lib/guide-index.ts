@@ -1,149 +1,96 @@
+import type { DocKey } from "@/lib/doc-content";
+
 /**
- * 안내 문서 목록. **허브와 각 문서가 같은 값을 보게 하려고 한곳에 모아 둔다.**
+ * 안내 문서 목록.
  *
- * naminglink `lib/guide-index.ts`와 같은 구조다. 한 페이지에 다 넣지 않는 이유도 같다 —
- * 주로 휴대폰에서 보는 글이라 한 화면에 15화면 분량을 쌓으면 아무도 끝까지 읽지 않는다.
- * 대신 문서 하나가 2~3화면은 되게 두어 "대량 생성 콘텐츠"로 보이지 않게 한다.
+ * ## 여기 있는 것은 순서와 갈래뿐이다
  *
- * **여기 실린 내용은 전부 엔진 코드에 있는 것이다**(`lib/engines/`). 지지 관계표·항목 비중·
- * 점수·경계값은 손으로 옮겨 적지 않고 그 모듈에서 읽어 그린다. 규칙을 고치면 글도 함께 맞는다.
+ * 제목·요약·꼬리표는 **`lib/doc-content`가 로케일별로** 갖는다. 예전에는 이 파일이 한국어
+ * 제목을 들고 있었고, 그래서 본문을 23개 언어로 옮긴 뒤에도 **허브 목록만 한국어**로 남았다.
+ * 값을 두 곳에 두면 한쪽만 번역되는 날이 온다.
+ *
+ * ## `audience`를 `track`으로 바꾼 이유
+ *
+ * 예전 값은 `audience: "ko" | "global"`이었고, **언어와 대상 서비스를 겸하고** 있었다. 한국어로
+ * 들어오면 상세 열 편을, 그 밖의 언어로 들어오면 영어 요약 세 편만 봤다 — 문서가 23개 언어로
+ * 번역되고 나면 그 거르기는 **일본어 이용자에게서 열 편을 빼앗는 규칙**이 된다.
+ *
+ * 문서를 가르는 기준은 **언어가 아니라 어느 서비스를 설명하는가**다(naminglink·inyeonlink에서
+ * 먼저 그렇게 고쳤다).
+ *
+ *     reading   사주 풀이를 설명하는 글 — 원국 · 오행 · 용신 · 십신 · 시각
+ *     today     오늘의 운세를 설명하는 글
+ *     common    둘 모두에 해당 — 저장하지 않는 방식 · 유료 리포트
+ *
+ * 갈래는 **무엇을 먼저 보여 줄지**를 정할 뿐, 감추지 않는다. 어느 언어로 들어오든 열 편을
+ * 다 읽을 수 있어야 한다.
+ *
+ * ## 영어 요약 세 편은 상세판에 흡수했다
+ *
+ * `how-it-works`·`what-we-store`·`what-the-reports-contain`은 한국어 상세판의 영어 요약이었다.
+ * 상세판이 23개 언어로 나가는 지금은 **같은 내용의 짧은 판**이 따로 있을 이유가 없다. 주소는
+ * `next.config.ts`가 301로 넘긴다 — 사이트맵에 실려 색인된 주소라 그냥 지우면 404다.
  */
-export type GuideAudience = "ko" | "global";
+export type GuideTrack = "reading" | "today" | "common";
 
 export type GuideEntry = {
-  /** `/guide` 아래의 경로 조각 */
+  /** `/guide` 아래의 경로 조각. `doc-content`의 키는 `guide/<slug>`다. */
   slug: string;
-  title: string;
-  /** 허브 카드와 문서 머리글에 함께 쓴다. 두 곳의 말이 달라지지 않게 한 곳에서 관리한다. */
-  summary: string;
-  /** 허브 카드에 붙는 짧은 꼬리표 */
-  eyebrow: string;
-  /**
-   * 누구에게 보일 것인가.
-   *
-   * - `ko`     한국어로 접속했을 때만. 명리 용어를 그대로 쓰는 글이다.
-   * - `global` 다른 언어로 접속했을 때만. 영어로 쓴다.
-   *
-   * 한국어판을 먼저 다 만들고 그 위에 영어 요약을 얹는다. naminglink와 같은 방침이다 —
-   * 글로벌 서비스를 표방하면서 안내가 한국어뿐이면 앞뒤가 맞지 않는다.
-   */
-  audience: GuideAudience;
+  track: GuideTrack;
 };
 
+/** 허브에 놓이는 순서. 원국 → 오행·용신 → 십신 → 관계표 → 시각 → 오늘 → 개인정보 → 상품. */
 export const guideEntries: GuideEntry[] = [
-  {
-    slug: "natal-chart",
-    title: "사주 원국 — 여덟 글자는 어디서 나오나",
-    summary:
-      "태어난 연·월·일·시가 어떻게 네 기둥 여덟 글자가 되는지, 그중 나를 가리키는 글자는 무엇인지 밝힙니다. 출생 시각을 몰라도 볼 수 있는 이유도 함께 다룹니다.",
-    eyebrow: "서비스 근거",
-    audience: "ko",
-  },
-  {
-    slug: "five-elements",
-    title: "오행 세력과 신강·신약",
-    summary:
-      "여덟 글자를 오행으로 세어 어느 기운이 두텁고 어느 기운이 얇은지 봅니다. 일간의 힘을 가르는 경계값(45%·35%)을 그대로 공개합니다.",
-    eyebrow: "오행",
-    audience: "ko",
-  },
-  {
-    slug: "yongsin",
-    title: "억부용신 — 지금 필요한 기운",
-    summary:
-      "일간이 강하면 덜어 내고 약하면 받쳐 주는 기운을 필요한 것으로 봅니다. 그 기운을 어떻게 고르는지와 중화일 때의 처리를 밝힙니다.",
-    eyebrow: "용신",
-    audience: "ko",
-  },
-  {
-    slug: "ten-gods",
-    title: "십신 — 내 사주 안의 열 자리",
-    summary:
-      "일간을 기준으로 나머지 글자가 무엇인지를 열 가지 이름으로 나눕니다. 같은 재성이라도 정재와 편재를 가르는 이유를 다룹니다.",
-    eyebrow: "십신",
-    audience: "ko",
-  },
-  {
-    slug: "today-fortune",
-    title: "오늘의 운세는 어떻게 나오나",
-    summary:
-      "오늘의 일진을 원국에 대어 점수를 냅니다. 억부 관계 열셋과 지지 관계 일곱, 스무 개 항목과 각각의 가감을 전부 공개합니다.",
-    eyebrow: "오늘의 운세",
-    audience: "ko",
-  },
-  {
-    slug: "branches",
-    title: "십이지 관계 — 합·충·원진",
-    summary:
-      "오늘의 일진과 원국이 어떻게 만나는지 보는 관계표입니다. 삼합·반합·육합·충·원진이 각각 무엇이고 몇 점인지 전부 공개합니다.",
-    eyebrow: "관계표",
-    audience: "ko",
-  },
-  {
-    slug: "zodiac",
-    title: "띠는 사주에서 어디에 있나",
-    summary:
-      "띠는 태어난 해의 지지입니다. 달력 해가 아니라 사주 연주에서 뽑는 이유와, 1월·2월 초 생일이 앞 해의 띠가 되는 까닭을 밝힙니다.",
-    eyebrow: "띠",
-    audience: "ko",
-  },
-  {
-    slug: "true-solar-time",
-    title: "출생 시각을 진태양시로 고칩니다",
-    summary:
-      "표준시와 실제 태양의 위치는 다릅니다. 태어난 곳의 경도로 시각을 고쳐야 시주가 맞는 이유를 다룹니다.",
-    eyebrow: "시각",
-    audience: "ko",
-  },
-  {
-    slug: "no-storage",
-    title: "입력한 정보를 저장하지 않는 방식",
-    summary:
-      "생년월일이 어디에도 기록되지 않는다는 말이 기술적으로 무슨 뜻인지, 결과 링크에는 무엇이 담기는지 밝힙니다.",
-    eyebrow: "개인정보",
-    audience: "ko",
-  },
-  {
-    slug: "reports",
-    title: "유료 리포트에는 무엇이 들어가나",
-    summary:
-      "화면은 그대로 두고 PDF에만 더한 것이 무엇인지 밝힙니다. 값과 목차는 실제 상품 설정에서 읽어 옵니다.",
-    eyebrow: "유료 상품",
-    audience: "ko",
-  },
-  {
-    slug: "how-it-works",
-    title: "How we read your chart",
-    summary:
-      "How four pillars become eight characters, what we weigh, and why. Everything here is a rule — the same birth date always produces the same reading.",
-    eyebrow: "How it works",
-    audience: "global",
-  },
-  {
-    slug: "what-we-store",
-    title: "What happens to the dates you enter",
-    summary:
-      "Nothing you type is written down. Here is what that means technically, and what a result link actually carries.",
-    eyebrow: "Privacy",
-    audience: "global",
-  },
-  {
-    slug: "what-the-reports-contain",
-    title: "What is in the paid reports",
-    summary:
-      "The screen stays as it is; the PDF adds to it. Here is what each report carries. Prices and contents are read from the live product settings.",
-    eyebrow: "Paid products",
-    audience: "global",
-  },
+  { slug: "natal-chart", track: "reading" },
+  { slug: "five-elements", track: "reading" },
+  { slug: "yongsin", track: "reading" },
+  { slug: "ten-gods", track: "reading" },
+  { slug: "branches", track: "reading" },
+  { slug: "zodiac", track: "reading" },
+  { slug: "true-solar-time", track: "reading" },
+  { slug: "today-fortune", track: "today" },
+  { slug: "no-storage", track: "common" },
+  { slug: "reports", track: "common" },
 ];
 
-export function guideEntriesFor(locale: string): GuideEntry[] {
-  const audience: GuideAudience = locale === "ko" ? "ko" : "global";
-  return guideEntries.filter((entry) => entry.audience === audience);
+/** 그 문서의 `doc-content` 키. */
+export function docKeyFor(entry: GuideEntry): DocKey {
+  return `guide/${entry.slug}` as DocKey;
 }
 
 export function findGuideEntry(slug: string): GuideEntry | undefined {
   return guideEntries.find((entry) => entry.slug === slug);
+}
+
+/**
+ * 서비스 슬러그 → 그 서비스가 속한 갈래.
+ *
+ * 안내로 들어올 때 어느 화면에서 왔는지(`?from=`)를 받아, **그 서비스를 설명하는 문서를 먼저**
+ * 놓는다. 모르는 값이면 갈래를 나누지 않고 선언된 순서대로 낸다.
+ */
+export function trackForService(slug: string | undefined): GuideTrack | null {
+  switch (slug) {
+    case "reading":
+      return "reading";
+    case "today":
+      return "today";
+    default:
+      return null;
+  }
+}
+
+/**
+ * 허브에 놓을 순서. **거르지 않고 재배열만 한다.**
+ *
+ * 온 곳을 알면 그 갈래를 먼저, 공통을 다음, 나머지를 뒤에 둔다. 모르면 선언된 순서 그대로다.
+ */
+export function guideEntriesFor(fromService?: string): GuideEntry[] {
+  const track = trackForService(fromService);
+  if (!track) return guideEntries;
+
+  const weight = (entry: GuideEntry) =>
+    entry.track === track ? 0 : entry.track === "common" ? 1 : 2;
+  return [...guideEntries].sort((a, b) => weight(a) - weight(b));
 }
 
 /** sitemap·robots가 쓰는 색인 경로. 문서를 더하면 저절로 따라온다. */

@@ -19,8 +19,54 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
-import { EN_DOCS, EN_NOTICES } from "../src/lib/doc-content/en";
 import { KO_DOCS, KO_NOTICES } from "../src/lib/doc-content/ko";
+
+/**
+ * 영어판을 **없을 수도 있는 것으로** 읽는다.
+ *
+ * 정적 `import` 로 두었더니 **새 앱에서 이 스크립트가 아예 뜨지 않았다** — `--fill-en` 은 en 을
+ * 만들라고 있는 명령인데, 그것을 돌리려면 en 이 이미 있어야 하는 꼴이었다(2026-08-09 사주·드림
+ * 이관에서 걸렸다. 인연링크는 전날 만들어 둔 파일이 있어 드러나지 않았다).
+ *
+ * 없으면 빈 벌로 시작한다. `--fill-en` 이 한국어 원문에서 채우고, 그다음부터 en 이 본이 된다.
+ */
+function loadEnglish(): { EN_DOCS: Record<string, unknown>; EN_NOTICES: NoticeBundle } {
+  const file = path.join(process.cwd(), "src", "lib", "doc-content", "en.ts");
+  if (!existsSync(file)) {
+    // 공지 껍데기는 한국어 원문의 꼴을 그대로 쓰되 값은 비운다. `--fill-en` 이 채운다.
+    return { EN_DOCS: {}, EN_NOTICES: emptyNoticeBundle() };
+  }
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const loaded = require("../src/lib/doc-content/en") as {
+    EN_DOCS: Record<string, unknown>;
+    EN_NOTICES: NoticeBundle;
+  };
+  return loaded;
+}
+
+type NoticeBundle = {
+  kindLabels: Record<string, string>;
+  intro: string;
+  empty: { title: string; body: string };
+  effective: string;
+  pager: { label: string; newer: string; older: string };
+  items: Record<string, { title: string; body: string[] }>;
+};
+
+/** 한국어 공지 껍데기와 **같은 열쇠**를 갖되 값은 빈 벌. 열쇠가 빠지면 채울 자리도 없어진다. */
+function emptyNoticeBundle(): NoticeBundle {
+  const blank = (value: unknown): unknown => {
+    if (typeof value === "string") return "";
+    if (Array.isArray(value)) return [];
+    if (value && typeof value === "object") {
+      return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, blank(v)]));
+    }
+    return value;
+  };
+  return { ...(blank(KO_NOTICES) as NoticeBundle), items: {} };
+}
+
+const { EN_DOCS, EN_NOTICES } = loadEnglish();
 import { localeCodes } from "../src/lib/locale-codes";
 import { localeLabels } from "../src/lib/i18n";
 
@@ -62,7 +108,7 @@ type Leaf = { path: string; en: string; ko: string | null };
  * 타입이 잡아 주긴 했지만(그래서 `DocSection.kind`를 유니온으로 좁혀 둔 값이 있다), 잎을
  * 모을 때 빼는 편이 맞다. 번역할 필요가 없는 것에 돈과 시간을 쓸 이유도 없다.
  */
-const STRUCTURAL_KEYS = new Set(["kind", "figure"]);
+const STRUCTURAL_KEYS = new Set(["kind", "figure", "slot"]);
 
 function collect(en: unknown, ko: unknown, trail: string[], out: Leaf[]) {
   if (STRUCTURAL_KEYS.has(trail[trail.length - 1] ?? "")) return;
@@ -176,6 +222,19 @@ function applyGlossary(value: string, leaf: Leaf): string | null {
 function mismatch(value: unknown, leaf: Leaf, sourceIsKo = false): string | null {
   // 모델이 문자열이 아닌 것을 돌려주는 일이 있다(객체·배열). 그대로 두면 뒤에서 터진다.
   if (typeof value !== "string") return `문자열이 아니다(${typeof value})`;
+  /**
+   * **빈 응답이 모든 검사를 통과했다.**
+   *
+   * 모델이 답에서 열쇠를 통째로 빠뜨리면 이 자리에 `""`가 들어온다. 그런데 빈 문자열은
+   * 자리표시자 0개·강조 0개·한글 0개라 **아래 검사가 전부 초록**이고, 그대로 파일에 실린다.
+   * 화면은 빈 제목과 빈 문단을 그리므로 **문서가 있는데 아무 말도 하지 않는 상태**가 된다.
+   *
+   * 2026-08-09에 실제로 그랬다 — 인연링크 유료 상품 안내가 15개 언어에서 부분적으로 비었고,
+   * 드림링크는 「하지 않기로 한 것들」 한 편이 통째로 비었다. 둘 다 검사기가 통과시켰다.
+   *
+   * 원문이 빈 자리는 그대로 둔다(자료가 그렇게 정한 것이다).
+   */
+  if (leaf.en.trim() && !value.trim()) return "빈 응답 — 모델이 이 열쇠를 빠뜨렸다";
   // **한국어를 본으로 삼을 때는 이 검사를 걸지 않는다.** 한국어 원문은 상표를 「네이밍링크」로
   // 적으므로 라틴 표기가 0회인데, 그 자리의 영어 번역에는 `Naming-Link`가 있어야 한다.
   // 개수를 맞추라고 하면 옳은 번역을 결함으로 잡는다.
@@ -588,7 +647,8 @@ async function fillEnglish(key: string) {
     (id) => !(id in EN_NOTICES.items),
   );
 
-  if (!missing.length && !missingNotices.length) {
+  const { items: _probeItems, ...probeShell } = EN_NOTICES;
+  if (!missing.length && !missingNotices.length && !JSON.stringify(probeShell).includes('""')) {
     console.log("  en — 채울 문서가 없다");
     return 0;
   }
@@ -605,7 +665,21 @@ async function fillEnglish(key: string) {
   const koNoticeSubset = Object.fromEntries(
     missingNotices.map((id) => [id, KO_NOTICES.items[id as keyof typeof KO_NOTICES.items]]),
   );
-  const source = { docs: koSubset, noticeItems: koNoticeSubset };
+
+  /**
+   * 공지 화면의 **껍데기**(종류 꼬리표·머리글·빈 화면 문구·페이저)도 비어 있으면 채운다.
+   *
+   * 새 앱은 en 이 아예 없는 상태로 시작하므로 이 자리가 빈 문자열로 만들어진다. 그대로 두면
+   * **21개 언어가 빈 꼬리표를 본으로 삼아** 만들어지고, 화면에는 종류 칸이 빈 알약으로 남는다.
+   */
+  const { items: _koItems, ...koShell } = KO_NOTICES;
+  const { items: _enItems, ...enShell } = EN_NOTICES;
+  const shellIsEmpty = JSON.stringify(enShell).includes('""');
+  const source = {
+    docs: koSubset,
+    noticeItems: koNoticeSubset,
+    ...(shellIsEmpty ? { noticeShell: koShell } : {}),
+  };
   const leaves: Leaf[] = [];
   collect(source, source, [], leaves);
 
@@ -632,10 +706,12 @@ async function fillEnglish(key: string) {
   const grafted = graft(source, [], values) as {
     docs: Record<string, unknown>;
     noticeItems: Record<string, unknown>;
+    noticeShell?: Record<string, unknown>;
   };
   const merged = { ...EN_DOCS, ...grafted.docs };
   const mergedNotices = {
     ...EN_NOTICES,
+    ...(grafted.noticeShell ?? {}),
     items: { ...EN_NOTICES.items, ...grafted.noticeItems },
   };
   const header = [

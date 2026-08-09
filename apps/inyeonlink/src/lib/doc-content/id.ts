@@ -24,13 +24,13 @@ export const ID_DOCS = {
         "title": "Apa yang kami hitung",
         "blocks": [
           {
-            "p": "Grafik dibangun dari **almanak lunisolar Korea**, dan waktu kelahiran dikoreksi ke **waktu matahari sejati** untuk tempat kelahiran — waktu jam yang sama berarti posisi matahari yang berbeda tergantung pada tempat Anda dilahirkan."
+            "p": "Grafik dibangun dari **almanak lunisolar Korea**, dan waktu kelahiran dikoreksi ke **waktu matahari yang sebenarnya** untuk tempat kelahiran — waktu jam yang sama berarti posisi matahari yang berbeda tergantung di mana Anda dilahirkan."
           },
           {
-            "p": "Skor berasal dari aturan tetap saja. Konsep tradisional — sepuluh dewa, hubungan cabang, elemen pendukung — diekspresikan sebagai aturan, sehingga **input yang sama selalu memberikan hasil yang sama.** Ketika sebuah aturan berubah, kami menjalankan regresi untuk memastikan pembacaan lama tidak berubah."
+            "p": "Skor berasal dari aturan tetap saja. Konsep tradisional — sepuluh dewa, hubungan cabang, elemen pendukung — diekspresikan sebagai aturan, sehingga **input yang sama selalu memberikan hasil yang sama.** Ketika sebuah aturan berubah, kami menjalankan regresi untuk memastikan pembacaan yang lebih lama tidak berubah."
           },
           {
-            "p": "**Tidak ada AI yang terlibat.** Setiap kalimat di layar adalah teks tetap yang terhubung dengan hasil yang dihitung."
+            "p": "**Tidak ada AI yang terlibat.** Setiap kalimat di layar adalah teks tetap yang terlampir pada hasil yang dihitung."
           }
         ]
       },
@@ -39,7 +39,7 @@ export const ID_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Kami tidak meramal nasib.** Tidak ada yang di sini memberi tahu Anda untuk mengejar atau menghindari siapa pun. Ini adalah referensi yang diambil dari tradisi.",
+              "**Kami tidak meramal nasib.** Tidak ada yang di sini memberi tahu Anda untuk mengejar atau menghindari siapa pun. Ini adalah referensi yang diambil dari sebuah tradisi.",
               "**Kami tidak menyimpan apa yang Anda masukkan.** Detail kelahiran digunakan untuk saat perhitungan dan tidak pernah dicatat; tautan hasil hidup di bagian URL yang tidak dikirim browser ke server.",
               "**Skor bukanlah keputusan tentang seseorang.** Angka yang rendah tidak membatalkan sebuah hubungan."
             ]
@@ -59,14 +59,14 @@ export const ID_DOCS = {
   "guide": {
     "eyebrow": "Dasar Perhitungan",
     "title": "Apa Dasar untuk Perhitungan?",
-    "summary": "Inyeon-Link mengungkapkan semua aturan yang digunakannya. Anda dapat memeriksa item dan bobotnya, skor dari tabel hubungan cabang bumi, dan nilai ambang yang membedakan antara seorang penguasa hari yang kuat dan seorang penguasa hari yang lemah — Anda dapat melihat dari mana angka-angka di layar berasal.",
+    "summary": "Inyeon-Link mengungkapkan semua aturan yang digunakannya. Anda dapat memeriksa item dan bobotnya, skor dari tabel hubungan cabang bumi, dan nilai ambang yang membedakan antara seorang penguasa hari yang kuat dan seorang penguasa hari yang lemah — Anda dapat melihat dari mana angka di layar berasal.",
     "backLabel": "Kembali ke Awal",
     "sections": [
       {
         "kind": "note",
         "blocks": [
           {
-            "p": "Nilai yang ditulis di sini semuanya **dibaca langsung dari kode perhitungan**. Karena mereka tidak ditranskripsikan secara manual ke dalam teks, jika aturan berubah, angka dalam dokumen ini juga akan berubah."
+            "p": "Nilai yang ditulis di sini semuanya **dibaca langsung dari kode perhitungan**. Karena tidak ditranskripsikan secara manual ke dalam teks, jika aturan berubah, angka dalam dokumen ini juga akan berubah."
           }
         ]
       }
@@ -94,7 +94,7 @@ export const ID_DOCS = {
               "rows": [
                 [
                   "Kecocokan Saju",
-                  "Day stem, day branch, dan lima elemen — empat item",
+                  "Penguasa hari, cabang hari, dan lima elemen — empat item",
                   "{weightSaju}"
                 ],
                 [
@@ -118,7 +118,7 @@ export const ID_DOCS = {
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju terdiri dari delapan karakter yang dibentuk oleh heavenly stems dan earthly branches dari tahun, bulan, hari, dan jam kelahiran. Day stem dan day branch yang disebutkan di bawah adalah dua karakter dalam pilar hari.",
+            "caption": "Saju terdiri dari delapan karakter yang dibentuk oleh batang langit dan cabang bumi dari tahun, bulan, hari, dan jam kelahiran. Batang hari dan cabang hari yang disebutkan di bawah adalah dua karakter dalam pilar hari.",
             "labels": {
               "year": "Pilar Tahun",
               "yearNote": "Akar · Zodiak",
@@ -127,9 +127,9 @@ export const ID_DOCS = {
               "day": "Pilar Hari",
               "dayNote": "Saya · Istana Pasangan",
               "hour": "Pilar Jam",
-              "hourNote": "Tahun-tahun Selanjutnya · Penggunaan",
-              "stem": "Heavenly Stem",
-              "stemNote": "Day Stem = Saya",
+              "hourNote": "Tahun-Tahun Selanjutnya · Penggunaan",
+              "stem": "Batang Langit",
+              "stemNote": "Batang Hari = Saya",
               "branch": "Cabang Bumi",
               "branchNote": "Cabang Hari = Istana Pasangan"
             }
@@ -191,10 +191,10 @@ export const ID_DOCS = {
         "title": "Perhitungan dapat dilakukan tanpa mengetahui waktu lahir",
         "blocks": [
           {
-            "p": "Waktu lahir digunakan untuk menentukan pilar jam. Jika tidak diketahui, perhitungan akan dilakukan tanpa pilar jam, dan fakta ini akan ditunjukkan di layar hasil. Karena tidak ada input langsung untuk pilar jam di antara empat item kompatibilitas, nilai tidak akan berfluktuasi secara signifikan, tetapi ini mempengaruhi keseimbangan lima elemen."
+            "p": "Waktu lahir digunakan untuk menentukan pilar jam. Jika tidak diketahui, perhitungan akan dilakukan tanpa pilar jam, dan fakta ini akan ditunjukkan di layar hasil. Karena tidak ada input langsung untuk pilar jam di antara empat item kompatibilitas, nilai tidak akan berfluktuasi secara signifikan, tetapi itu mempengaruhi keseimbangan lima elemen."
           },
           {
-            "p": "Jika Anda mengetahui waktu, silakan juga pilih tempat lahir. Jika waktu standar berbeda dari posisi matahari yang sebenarnya, menggunakannya apa adanya dapat menyelaraskan pilar jam [(koreksi waktu matahari yang sebenarnya)](/guide/true-solar-time)."
+            "p": "Jika Anda tahu waktu, silakan juga pilih tempat lahir. Jika waktu standar berbeda dari posisi matahari yang sebenarnya, menggunakannya apa adanya dapat menyebabkan ketidaksesuaian pilar jam [(koreksi waktu matahari sejati)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const ID_DOCS = {
         "title": "Input yang sama akan selalu menghasilkan nilai yang sama",
         "blocks": [
           {
-            "p": "Semua skor ditentukan oleh aturan. Tidak ada kecerdasan buatan yang digunakan, juga tidak ada angka acak yang diterapkan. Oleh karena itu, memasukkan dua tanggal lahir yang sama beberapa kali tidak akan menghasilkan hasil yang berbeda. Sebagai layanan yang tidak menyimpan data, hasil sebelumnya tidak dapat diambil kembali, tetapi **determinisme** mengkompensasi hal itu."
+            "p": "Semua skor ditentukan oleh aturan. Tidak ada kecerdasan buatan yang digunakan, juga tidak ada angka acak yang diterapkan. Oleh karena itu, memasukkan dua tanggal lahir yang sama beberapa kali tidak akan menghasilkan hasil yang berbeda. Sebagai layanan yang tidak menyimpan data, hasil sebelumnya tidak dapat diambil, tetapi **determinisme** mengimbangi hal itu."
           }
         ]
       },
@@ -211,7 +211,7 @@ export const ID_DOCS = {
         "title": "Mengubah aturan akan meningkatkan versi",
         "blocks": [
           {
-            "p": "Setiap kali aturan penilaian diubah, versi mesin diperbarui. Versi dicatat di bagian bawah layar hasil, memungkinkan Anda untuk membedakan aturan mana yang digunakan untuk menghitung angka yang sedang Anda lihat."
+            "p": "Setiap kali aturan penilaian diubah, versi mesin diperbarui. Versi dicatat di bagian bawah layar hasil, memungkinkan Anda untuk membedakan aturan mana yang digunakan untuk menghitung angka yang saat ini Anda lihat."
           }
         ]
       },
@@ -219,7 +219,7 @@ export const ID_DOCS = {
         "title": "Apa yang bukan hasil ini",
         "blocks": [
           {
-            "p": "Ini adalah **bahan referensi** yang dihitung dari aturan yang dibangun berdasarkan perspektif tradisi. Ini bukan prediksi ilmiah, juga bukan pernyataan definitif tentang hubungan antara dua individu. Rentang skor ditetapkan minimum sekitar 45 poin untuk alasan ini — tidak ada kombinasi yang akan menghasilkan nilai mendekati 0 poin."
+            "p": "Ini adalah **materi referensi** yang dihitung dari aturan yang dibangun berdasarkan perspektif tradisi. Ini bukan prediksi ilmiah, juga bukan pernyataan definitif tentang hubungan antara kedua individu. Rentang skor ditetapkan minimum sekitar 45 poin untuk alasan ini — tidak ada kombinasi yang akan menghasilkan nilai mendekati 0 poin."
           }
         ]
       }
@@ -310,7 +310,7 @@ export const ID_DOCS = {
                 [
                   "Ketidakcocokan tenang (怨嗔)",
                   "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Pasangan yang tidak dapat terpisah meskipun menyimpan rasa dendam. Mereka tampak tenang di permukaan tetapi dianggap bertahan lama.",
+                  "Pasangan yang tidak dapat terpisah meskipun menyimpan kebencian. Mereka tampak tenang di permukaan tetapi dianggap bertahan lama.",
                   "{scoreWonjin}"
                 ],
                 [
@@ -328,7 +328,7 @@ export const ID_DOCS = {
         "title": "Triad penuh tidak muncul dalam layanan ini",
         "blocks": [
           {
-            "p": "Triad penuh membutuhkan tiga karakter untuk dibentuk. Namun, kompatibilitas disusun dengan mencocokkan cabang bumi dari dua orang **satu per satu**, menghasilkan hanya dua karakter. Oleh karena itu, apa yang muncul di sini selalu merupakan triad setengah, dan poin triad penuh {scoreSamhap} dicadangkan untuk saat memeriksa formasi dalam setiap saju."
+            "p": "Triad penuh memerlukan tiga karakter untuk dibentuk. Namun, kompatibilitas disusun dengan mencocokkan cabang bumi dari dua orang **satu per satu**, menghasilkan hanya dua karakter. Oleh karena itu, apa yang muncul di sini selalu merupakan triad setengah, dan poin triad penuh {scoreSamhap} disimpan untuk saat memeriksa formasi dalam setiap saju."
           }
         ]
       },
@@ -348,7 +348,7 @@ export const ID_DOCS = {
             "p": "Enam pasangan ketidakcocokan tenang sering dilihat dalam kompatibilitas seperti halnya tabrakan. Jika kita menghitung kombinasi sebagai pasangan dan tabrakan, enam pasangan ini akan tertimbun di bawah poin netral {scoreNeutral}, sehingga mereka ditempatkan secara terpisah."
           },
           {
-            "p": "Sementara tabrakan itu terbuka dan mencolok, ketidakcocokan tenang secara halus tidak selaras. Oleh karena itu, ditempatkan pada skor {scoreWonjin}, yang lebih tinggi dari tabrakan ({scoreChung}) tetapi pasti lebih rendah dari netral ({scoreNeutral})."
+            "p": "Sementara tabrakan itu terbuka dan mencolok, ketidakcocokan tenang secara halus tidak selaras. Oleh karena itu, ini ditempatkan pada skor {scoreWonjin}, yang lebih tinggi dari tabrakan ({scoreChung}) tetapi pasti lebih rendah dari netral ({scoreNeutral})."
           }
         ]
       },
@@ -356,7 +356,7 @@ export const ID_DOCS = {
         "title": "Skor juga diberikan untuk tabrakan",
         "blocks": [
           {
-            "p": "Skor tabrakan terendah adalah {scoreChung}. Tujuannya bukan untuk memberikan nilai mendekati 0. Dalam tradisi, tabrakan bukanlah 'akhir' tetapi 'tabrakan', dan memberikan skor rendah akan menyiratkan bahwa layanan ini membuat pernyataan definitif tentang hubungan."
+            "p": "Skor tabrakan terendah adalah {scoreChung}. Tujuannya bukan untuk memberikan nilai mendekati 0. Dalam tradisi, tabrakan bukanlah 'akhir' tetapi 'tabrakan', dan memberikan skor rendah akan menyiratkan layanan ini membuat pernyataan definitif tentang hubungan."
           },
           {
             "p": "Dengan minimum {scoreChung} dan maksimum {scoreSamhap}, rentangnya jelas, tetapi tidak membuat kesimpulan definitif."
@@ -459,10 +459,10 @@ export const ID_DOCS = {
         "title": "Kecocokan zodiak hanya mempertimbangkan satu hubungan",
         "blocks": [
           {
-            "p": "Perhitungan kecocokan zodiak sangat sederhana. Ini membandingkan cabang tahun dari dua orang untuk menentukan apakah hubungan tersebut harmonis, bertabrakan, atau mengalami ketidakcocokan yang tenang, dan menggunakan skor itu apa adanya. Karena hanya ada satu item, tidak perlu mendistribusikan bobot."
+            "p": "Perhitungan kecocokan zodiak sangat sederhana. Ini membandingkan cabang tahun dari dua orang untuk menentukan apakah hubungan tersebut harmonis, mengalami konflik, atau ketidakcocokan yang tenang, dan menggunakan skor itu apa adanya. Karena hanya ada satu item, tidak perlu mendistribusikan bobot."
           },
           {
-            "p": "Skor untuk setiap hubungan semuanya tercantum dalam [Tabel Hubungan Dua Belas Cabang](/guide/branches). Kecocokan cabang hari menggunakan tabel yang sama."
+            "p": "Skor untuk setiap hubungan semuanya terdaftar dalam [Tabel Hubungan Dua Belas Cabang](/guide/branches). Kecocokan cabang hari menggunakan tabel yang sama."
           }
         ]
       },
@@ -470,15 +470,15 @@ export const ID_DOCS = {
         "title": "Alasan untuk menentukan bobot",
         "blocks": [
           {
-            "p": "Kecocokan zodiak menyumbang {weightZodiac} dari tingkat pencocokan akhir. Sementara kecocokan saju melihat semua empat pilar, zodiak hanya mempertimbangkan satu karakter, jadi mereka tidak dapat diberi bobot sama."
+            "p": "Kecocokan zodiak menyumbang {weightZodiac} dari tingkat kecocokan akhir. Sementara kecocokan saju melihat semua empat pilar, zodiak hanya mempertimbangkan satu karakter, jadi mereka tidak dapat diberi bobot sama."
           },
           {
             "p": "Namun, ada dua alasan mengapa itu tidak dikecualikan."
           },
           {
             "ul": [
-              "**Ini adalah item yang paling mudah dipahami secara intuitif**. Bahkan tanpa mengetahui kosakata tradisi, 'harimau dan monyet bertabrakan' masuk akal.",
-              "**Ini adalah satu-satunya sumbu yang tidak berfluktuasi meskipun waktu kelahiran tidak diketahui**. Jika Anda tidak mengetahui waktu, pilar jam hilang dan kekuatan lima elemen berubah, tetapi cabang tahun tetap sama."
+              "**Ini adalah item yang paling mudah dipahami secara intuitif**. Bahkan tanpa mengetahui kosakata tradisi, 'harimau dan monyet bertentangan' masuk akal.",
+              "**Ini adalah satu-satunya sumbu yang tidak berfluktuasi meskipun waktu kelahiran tidak diketahui**. Jika Anda tidak mengetahui waktu, pilar jam hilang dan kekuatan dari lima elemen berubah, tetapi cabang tahun tetap sama."
             ]
           }
         ]
@@ -487,7 +487,7 @@ export const ID_DOCS = {
         "title": "Anda juga dapat melihat kecocokan zodiak secara terpisah",
         "blocks": [
           {
-            "p": "Di layar hasil, kami menunjukkan skor untuk kecocokan saju dan kecocokan zodiak secara terpisah. Jika hanya tingkat pencocokan akhir yang disajikan, tidak jelas dari mana angka itu berasal. Jika kedua nilai sangat berbeda, itu sendiri patut dicatat."
+            "p": "Di layar hasil, kami menunjukkan skor untuk kecocokan saju dan kecocokan zodiak secara terpisah. Jika hanya tingkat kecocokan akhir yang disajikan, tidak jelas dari mana angka itu berasal. Jika kedua nilai sangat berbeda, itu sendiri patut dicatat."
           }
         ]
       }
@@ -514,7 +514,7 @@ export const ID_DOCS = {
         "title": "Apa batang hari masing-masing orang terhadap satu sama lain",
         "blocks": [
           {
-            "p": "Ini adalah item pertama dalam kompatibilitas. Setelah ditentukan bagaimana batang hari A memahami batang hari B, persepsi B terhadap A juga ditentukan, sehingga ada **hanya enam kemungkinan**."
+            "p": "Ini adalah item pertama dalam kompatibilitas. Setelah ditentukan bagaimana batang hari A memahami batang hari B, persepsi B terhadap A juga ditentukan, sehingga **hanya ada enam kemungkinan**."
           },
           {
             "table": {
@@ -533,9 +533,9 @@ export const ID_DOCS = {
                   "Ini adalah pasangan yang secara tradisional dilihat sebagai posisi pasangan. Yin dan yang tidak cocok, saling menarik."
                 ],
                 [
-                  "Pejabat yang Menyakitkan ↔ Sumber Langsung",
+                  "Pejabat yang Menyakiti ↔ Sumber Langsung",
                   "Polaritas berlawanan",
-                  "Pejabat yang Menyakitkan mengenakan Segel (傷官佩印)",
+                  "Pejabat yang Menyakiti mengenakan Segel (傷官佩印)",
                   "Satu sisi membungkus energi intens dari sisi lainnya."
                 ],
                 [
@@ -559,8 +559,8 @@ export const ID_DOCS = {
                 [
                   "Dewa Makan ↔ Sumber Tidak Langsung",
                   "Polaritas yang sama",
-                  "Bintang burung hantu merampas makanan (梟神奪食)",
-                  "Energi yang diberikan diambil oleh pasangan, memblokir aliran."
+                  "Bintang burung hantu merampok makanan (梟神奪食)",
+                  "Energi yang diberikan diambil oleh pasangan, menghalangi aliran."
                 ]
               ]
             }
@@ -572,7 +572,7 @@ export const ID_DOCS = {
         "title": "Yin dan Yang berada di persimpangan jalan",
         "blocks": [
           {
-            "p": "Sisi di mana yin dan yang tidak selaras (Kekayaan yang Tepat, Pejabat yang Tepat, Rekan yang Tepat) bersifat emosional, sementara sisi yang sama (Sumber, Pejabat, Rekan) bersifat tidak emosional, yang merupakan prinsip yang membedakan yang tepat dan sisi dari Sepuluh Dewa."
+            "p": "Sisi di mana yin dan yang tidak selaras (Kekayaan yang Tepat, Pejabat yang Tepat, Rekan yang Tepat) bersifat emosional, sementara sisi yang sama (Sumber, Pejabat, Rekan) tidak emosional, yang merupakan prinsip yang membedakan yang tepat dan sisi dari Sepuluh Dewa."
           }
         ]
       },
@@ -580,7 +580,7 @@ export const ID_DOCS = {
         "title": "Alasan melihat dengan Sepuluh Dewa daripada tiga elemen",
         "blocks": [
           {
-            "p": "Ada metode untuk melihat hubungan batang hari dengan tiga elemen (generasi timbal balik, kesamaan, saling mengatasi). Ini sederhana, tetapi **yin dan yang menghilang.** 甲 (kayu yang mengalir) dan 乙 (kayu yin) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihancurkan menjadi satu skor tanpa arah atau yin dan yang."
+            "p": "Ada metode untuk melihat hubungan batang hari dengan tiga elemen (generasi timbal balik, kesamaan, saling mengatasi). Ini sederhana, tetapi **yin dan yang menghilang.** 甲 (kayunya yang) dan 乙 (kayunya yin) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihancurkan menjadi satu skor tanpa arah atau yin dan yang."
           },
           {
             "p": "Posisi pasangan harus dievaluasi dalam hal Sepuluh Dewa. Jika item yang dilihat oleh lima elemen dan item yang dilihat oleh Sepuluh Dewa dicampur dalam satu mesin, akan ada dua standar untuk dua karakter yang sama. Oleh karena itu, kita menyatukan dengan Sepuluh Dewa."
@@ -591,7 +591,7 @@ export const ID_DOCS = {
         "title": "Posisi pasangan adalah Kekayaan yang Tepat dan Pejabat yang Tepat",
         "blocks": [
           {
-            "p": "Dalam tradisi, dewa mana dari Sepuluh Dewa yang mewakili pasangan berbeda berdasarkan jenis kelamin."
+            "p": "Dalam tradisi, dewa mana dari Sepuluh Dewa yang mewakili pasangan berbeda berdasarkan gender."
           },
           {
             "table": {
@@ -602,12 +602,12 @@ export const ID_DOCS = {
               ],
               "rows": [
                 [
-                  "Laki-laki",
+                  "Pria",
                   "Kekayaan Langsung (正財)",
                   "Kekayaan Tidak Langsung (偏財)"
                 ],
                 [
-                  "Perempuan",
+                  "Wanita",
                   "Otoritas Langsung (正官)",
                   "Otoritas Tidak Langsung (偏官)"
                 ]
@@ -615,16 +615,16 @@ export const ID_DOCS = {
             }
           },
           {
-            "p": "Bahkan jika mereka adalah sumber yang sama, hanya **Kekayaan yang Tepat** emosional yang dianggap sebagai posisi pasangan, sementara Sumber dibaca sebagai sifat aktivitas dan kekayaan. Oleh karena itu, Kekayaan yang Tepat dan Pejabat yang Tepat dihitung sebagai 2 poin, sementara Sumber dan Pejabat dihitung sebagai 1 poin, dan kedua arah dijumlahkan — jika keduanya dianggap sebagai posisi pasangan, itu adalah yang tertinggi."
+            "p": "Bahkan jika mereka adalah sumber yang sama, hanya **Proper Wealth** emosional yang dianggap sebagai posisi pasangan, sementara Resource dibaca sebagai sifat aktivitas dan kekayaan. Oleh karena itu, Proper Wealth dan Proper Officer dihitung sebagai 2 poin, sementara Resource dan Officer dihitung sebagai 1 poin, dan kedua arah dijumlahkan — jika keduanya dianggap sebagai posisi pasangan, itu adalah yang tertinggi."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Jika jenis kelamin tidak diungkapkan, abaikan item ini",
+        "title": "Jika jenis kelamin tidak diungkapkan, hilangkan item ini",
         "blocks": [
           {
-            "p": "Jika item yang tidak dapat diputuskan diatur ke 0 poin, itu menghasilkan skor yang tidak adil rendah. Berat yang tersisa setelah mengabaikan item dinormalisasi kembali [(item dan berat)](/guide/how-compatibility)."
+            "p": "Jika item yang tidak dapat diputuskan diatur ke 0 poin, itu menghasilkan skor yang tidak adil rendah. Berat yang tersisa setelah menghilangkan item dinormalisasi lagi [(item dan berat)](/guide/how-compatibility)."
           }
         ]
       },
@@ -632,10 +632,10 @@ export const ID_DOCS = {
         "title": "Kami juga menunjukkan bentuk hubungan",
         "blocks": [
           {
-            "p": "Selain skor, kami menjelaskan **bentuk apa** yang dimiliki pasangan batang hari di layar hasil. Apakah mereka memiliki posisi yang serupa, apakah satu sisi mendukung yang lain, atau apakah satu sisi ditekan — jika itu adalah hubungan yang mendukung atau menekan, kami menjelaskan sisi mana yang memegang posisi tersebut."
+            "p": "Selain skor, kami menjelaskan **bentuk apa** yang dimiliki pasangan dari day stems di layar hasil. Apakah mereka berada di posisi yang sama, apakah satu sisi mendukung yang lain, atau apakah satu sisi ditekan — jika itu adalah hubungan yang mendukung atau menekan, kami menjelaskan sisi mana yang memegang posisi tersebut."
           },
           {
-            "p": "Jika hanya satu skor yang disajikan, itu meninggalkan pertanyaan 'jadi apa'. Bentuk bukanlah skor tetapi sesuatu yang harus dibaca, dan bahkan pasangan dengan skor rendah memiliki sesuatu untuk diinterpretasikan."
+            "p": "Jika hanya satu skor yang disajikan, itu meninggalkan pertanyaan 'jadi apa'. Bentuk bukanlah skor tetapi sesuatu untuk dibaca, dan bahkan pasangan dengan skor rendah memiliki sesuatu untuk diinterpretasikan."
           }
         ]
       }
@@ -644,7 +644,7 @@ export const ID_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Lima elemen",
     "title": "Elemen Pendukung — Energi yang dibutuhkan sekarang",
-    "summary": "Kami melihat lima elemen bukan sebagai 'apakah mereka memilih dua' tetapi sebagai 'apakah pasangan memiliki apa yang saya butuhkan'. Kami juga mengungkapkan nilai batas yang membedakan antara seorang penguasa hari yang kuat dan yang lemah.",
+    "summary": "Kami melihat lima elemen bukan sebagai 'apakah mereka memilih dua' tetapi sebagai 'apakah pasangan memiliki apa yang saya butuhkan'. Kami juga mengungkapkan nilai batas yang membedakan antara day master yang kuat dan yang lemah.",
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
@@ -654,7 +654,7 @@ export const ID_DOCS = {
             "p": "Ada metode untuk mengukur apakah lima energi terdistribusi secara merata dengan menggabungkan lima elemen kedua orang. Namun, pertanyaan tentang kompatibilitas bukanlah itu. **Apakah pasangan memiliki apa yang saya butuhkan?**"
           },
           {
-            "p": "Derajat keseimbangan adalah simetris, tetapi komplementaritas secara inheren asimetris. Ini karena apa yang A butuhkan berbeda dari apa yang B butuhkan. Oleh karena itu, kami mengukur setiap sisi secara terpisah dan menghitung rata-rata — karena ini adalah rata-rata, total skor tetap simetris."
+            "p": "Derajat keseimbangan bersifat simetris, tetapi saling melengkapi secara inheren asimetris. Ini karena apa yang dibutuhkan A berbeda dari apa yang dibutuhkan B. Oleh karena itu, kami mengukur setiap sisi secara terpisah dan merata — karena ini adalah rata-rata, total skor tetap simetris."
           }
         ]
       },
@@ -662,23 +662,23 @@ export const ID_DOCS = {
         "title": "Elemen Pendukung — Kurangi jika berlebihan, tambahkan jika tidak cukup",
         "blocks": [
           {
-            "p": "Elemen Pendukung (用神) adalah 'energi yang dibutuhkan orang ini saat ini'. Ada beberapa metode untuk menentukannya (menekan, mendukung, penyakit, dan komunikasi), tetapi dapat diterjemahkan menjadi aturan, dan yang paling umum digunakan adalah **menekan (抑扶)**. Jika penguasa hari kuat, dianggap bahwa energi untuk mengurangi diperlukan, dan jika lemah, energi untuk menambah diperlukan."
+            "p": "Elemen Pendukung (用神) adalah 'energi yang dibutuhkan orang ini saat ini'. Ada beberapa metode untuk menentukan ini (menekan, mendukung, penyakit, dan komunikasi), tetapi dapat diterjemahkan menjadi aturan, dan yang paling banyak digunakan adalah **menekan (抑扶)**. Jika day master kuat, dianggap bahwa energi untuk mengurangi diperlukan, dan jika lemah, energi untuk menambah diperlukan."
           },
           {
             "table": {
               "head": [
                 "Penilaian",
                 "Apa yang dibutuhkan",
-                "Berapa banyak"
+                "Seberapa banyak"
               ],
               "rows": [
                 [
-                  "Penguasa hari yang kuat (身强)",
+                  "Day master kuat (身强)",
                   "Energi yang berkurang — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Tiga"
                 ],
                 [
-                  "Penguasa hari yang lemah (身弱)",
+                  "Day master lemah (身弱)",
                   "Energi yang ditambahkan — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Dua"
                 ],
@@ -696,7 +696,7 @@ export const ID_DOCS = {
         "title": "Nilai ambang untuk kekuatan dan kelemahan",
         "blocks": [
           {
-            "p": "Sisi batang hari adalah **印星 dan 比劫** — energi yang melahirkan saya dan energi yang mirip dengan saya. Karena dua dari lima, jika energinya sepenuhnya seimbang, itu menjadi {evenAllyRatio}. Sebuah rentang ditetapkan di atas dan di bawah nilai itu."
+            "p": "Sisi day stem adalah **印星 dan 比劫** — energi yang melahirkan saya dan energi yang seperti saya. Karena dua dari lima, jika energinya sepenuhnya seimbang, itu menjadi {evenAllyRatio}. Sebuah rentang ditetapkan di atas dan di bawah nilai tersebut."
           },
           {
             "table": {
@@ -708,7 +708,7 @@ export const ID_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} atau lebih",
-                  "Penguasa hari yang kuat"
+                  "Day master kuat"
                 ],
                 [
                   "{weakThreshold} atau lebih dan kurang dari {strongThreshold}",
@@ -716,7 +716,7 @@ export const ID_DOCS = {
                 ],
                 [
                   "Kurang dari {weakThreshold}",
-                  "Penguasa hari yang lemah"
+                  "Day master lemah"
                 ]
               ]
             }
@@ -736,7 +736,7 @@ export const ID_DOCS = {
         "title": "Kekuatan bukanlah jumlah karakter",
         "blocks": [
           {
-            "p": "Saat menghitung kekuatan lima elemen, kami tidak hanya menghitung delapan karakter seperti yang muncul. Kami menggunakan nilai yang mencerminkan batang langit yang tersembunyi (地藏干) dalam cabang bumi dan musim energi bulan (月令) di mana seseorang dilahirkan."
+            "p": "Saat menghitung kekuatan lima elemen, kami tidak hanya menghitung delapan karakter seperti yang muncul. Kami menggunakan nilai yang mencerminkan heavenly stems yang tersembunyi (地藏干) dalam earthly branches dan musim energi bulan (月令) di mana seseorang dilahirkan."
           },
           {
             "p": "Jika kami hanya menghitung karakter permukaan, kami melewatkan fakta bahwa bahkan dua karakter dari 木 dapat memiliki kekuatan yang sama sekali berbeda tergantung pada musim. 木 musim semi dan 木 musim gugur, meskipun mereka adalah karakter yang sama, memiliki kekuatan yang berbeda."
@@ -747,7 +747,7 @@ export const ID_DOCS = {
         "title": "Menilai derajat pengisian",
         "blocks": [
           {
-            "p": "Kami melihat proporsi elemen pendukung saya dalam kekuatan lawan. Namun, kami tidak menggunakan proporsi itu secara langsung tetapi **membagi harapan dengan ukuran elemen pendukung.** Ketika kuat, elemen pendukung adalah tiga (harapan 60%), dan ketika lemah, itu adalah dua (harapan 40%), jadi menggunakan proporsi secara langsung berarti bahwa orang yang kuat selalu menerima skor yang lebih tinggi."
+            "p": "Kami melihat proporsi elemen pendukung saya dalam kekuatan lawan. Namun, kami tidak menggunakan proporsi itu secara langsung tetapi **membagi harapan dengan ukuran elemen pendukung.** Ketika kuat, elemen pendukung adalah tiga (harapan 60%), dan ketika lemah, itu adalah dua (harapan 40%), jadi menggunakan proporsi secara langsung akan berarti bahwa orang yang kuat selalu menerima skor yang lebih tinggi."
           },
           {
             "p": "Jika terisi hingga tingkat yang diharapkan, skor mendekati 78 poin diperoleh, dan jika terisi jauh lebih banyak, mencapai 100 poin, sementara jika sangat kurang, menuju 55 poin. Di sini juga, batas bawah tidak ditetapkan pada 0."
@@ -777,10 +777,10 @@ export const ID_DOCS = {
         "title": "Perhitungan dilakukan sambil membiarkan posisi lawan kosong",
         "blocks": [
           {
-            "p": "Skor kecocokan dihitung dengan mencocokkan dua orang. **Inyeon’s Match** hanya mengambil data satu orang sambil membiarkan posisi lawan kosong dan menguji semua nilai yang mungkin yang dapat masuk ke posisi itu. Ini seperti menjalankan mesin kecocokan secara terbalik."
+            "p": "Skor kompatibilitas dihitung dengan mencocokkan dua orang. **Inyeon’s Match** hanya mengambil data satu orang sambil membiarkan posisi lawan kosong dan menguji semua nilai yang mungkin yang dapat masuk ke posisi itu. Ini seperti menjalankan mesin kompatibilitas secara terbalik."
           },
           {
-            "p": "Dengan demikian, tidak perlu mengetahui tanggal lahir lawan. Kita masih bisa mengatakan, 'Profil kecocokan seperti apa yang cocok untuk saya?' tentang seseorang yang belum kita temui."
+            "p": "Oleh karena itu, tidak perlu mengetahui tanggal lahir lawan. Kami masih bisa mengatakan, 'Tipe profil kecocokan seperti apa yang cocok untuk saya?' tentang seseorang yang belum kami temui."
           }
         ]
       },
@@ -788,7 +788,7 @@ export const ID_DOCS = {
         "title": "Kami tidak menjalankan jutaan kombinasi",
         "blocks": [
           {
-            "p": "Skor kecocokan dalam saju terdiri dari empat item, dan **setiap item tidak tumpang tindih dalam apa yang diperiksanya.**"
+            "p": "Skor kompatibilitas dalam saju terdiri dari empat item, dan **setiap item tidak tumpang tindih dalam apa yang diperiksanya.**"
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const ID_DOCS = {
               "rows": [
                 [
                   "Hubungan batang hari · Sifat pasangan",
-                  "Batang hari dari kedua orang — batang langit",
+                  "Batang hari kedua orang — batang langit",
                   "10"
                 ],
                 [
@@ -810,12 +810,12 @@ export const ID_DOCS = {
                 ],
                 [
                   "Hubungan cabang hari",
-                  "cabang hari dari kedua orang",
+                  "cabang hari kedua orang",
                   "12"
                 ],
                 [
                   "Hubungan zodiak",
-                  "cabang tahun dari kedua orang",
+                  "cabang tahun kedua orang",
                   "12"
                 ]
               ]
@@ -831,7 +831,7 @@ export const ID_DOCS = {
         "title": "Aturan yang sama berlaku",
         "blocks": [
           {
-            "p": "Skor yang ditulis di sini diambil langsung dari mesin kecocokan. Karena tidak ada aturan baru yang dibuat, tipe yang muncul di sini juga akan memiliki skor tertinggi untuk item itu dalam kecocokan yang sebenarnya. Jika aturan kecocokan diubah, layar ini akan mengikuti."
+            "p": "Skor yang ditulis di sini diambil langsung dari mesin kompatibilitas. Karena tidak ada aturan baru yang dibuat, tipe yang muncul di sini juga akan memiliki skor tertinggi untuk item itu dalam kompatibilitas yang sebenarnya. Jika aturan kompatibilitas diubah, layar ini akan mengikuti."
           }
         ]
       },
@@ -842,10 +842,10 @@ export const ID_DOCS = {
             "p": "Ini adalah keputusan terpenting di layar ini. Mengumpulkan skor tertinggi untuk setiap cabang mungkin tampak menghasilkan 'kecocokan sempurna', tetapi orang itu mungkin **tidak benar-benar ada.**"
           },
           {
-            "p": "Pada orang yang nyata, penguasa hari dan lima elemen tidak beroperasi secara terpisah. Seseorang dengan 甲木 biasanya juga memiliki energi 木 yang kuat. Metode menghitung cabang secara terpisah mengabaikan korelasi itu, sehingga nilai yang diperoleh dengan menghubungkan skor tertinggi untuk setiap cabang menjadi kombinasi yang tidak ada dalam kenyataan."
+            "p": "Pada orang nyata, master hari dan lima elemen tidak beroperasi secara terpisah. Seseorang dengan 甲木 biasanya juga memiliki energi 木 yang kuat. Metode menghitung cabang secara terpisah mengabaikan korelasi itu, sehingga nilai yang diperoleh dengan menghubungkan skor tertinggi untuk setiap cabang menjadi kombinasi yang tidak ada dalam kenyataan."
           },
           {
-            "p": "Oleh karena itu, layar hanya menampilkan **skor item** dan tidak memberikan skor total. Skor total akan dihitung dengan menerima tanggal lahir orang lain untuk [kecocokan saju](/compatibility)."
+            "p": "Oleh karena itu, layar hanya menampilkan **skor item** dan tidak memberikan skor total. Skor total akan dihitung dengan menerima tanggal lahir orang lain untuk [saju compatibility](/compatibility)."
           }
         ]
       },
@@ -853,10 +853,10 @@ export const ID_DOCS = {
         "title": "Cara membaca 'tipe kecocokan'",
         "blocks": [
           {
-            "p": "Hasilnya berarti 'jika Anda bertemu seseorang dari tipe ini, item ini akan mendapatkan skor tinggi'. Ini bukan kriteria untuk memilih seseorang, tetapi lebih merupakan cara untuk membacanya dari satu perspektif memahami diri saya."
+            "p": "Hasilnya berarti 'jika Anda bertemu dengan orang bertipe ini, item ini akan mendapatkan skor tinggi'. Ini bukan kriteria untuk memilih seseorang, tetapi lebih merupakan cara untuk membacanya dari satu perspektif pemahaman diri."
           },
           {
-            "p": "Alasan mengapa tipe tertentu mendapatkan skor tinggi juga dicatat item demi item — apakah penguasa hari berada dalam posisi yang menguntungkan, atau apakah orang itu memiliki energi yang saya butuhkan saat ini."
+            "p": "Alasan mengapa tipe tertentu mendapatkan skor tinggi juga dicatat item demi item — apakah master hari berada dalam posisi yang menguntungkan, atau apakah orang itu memiliki energi yang saya butuhkan saat ini."
           }
         ]
       },
@@ -864,7 +864,7 @@ export const ID_DOCS = {
         "title": "Alat konfirmasi",
         "blocks": [
           {
-            "p": "Anda mungkin penasaran apakah orang yang Anda pikirkan sesuai dengan tipe itu. Dengan memasukkan tanggal lahir mereka ke dalam alat konfirmasi di layar hasil, Anda akan diberitahu tentang penguasa hari, cabang hari, dan cabang tahun mereka. Nilai input tidak disimpan pada saat ini [(tidak disimpan)](/guide/no-storage)."
+            "p": "Anda mungkin penasaran apakah orang yang Anda pikirkan sesuai dengan tipe itu. Dengan memasukkan tanggal lahir mereka ke dalam alat konfirmasi di layar hasil, Anda akan diberitahu tentang master hari, cabang hari, dan cabang tahun mereka. Nilai input tidak disimpan pada saat ini [(tidak disimpan)](/guide/no-storage)."
           }
         ]
       }
@@ -873,7 +873,7 @@ export const ID_DOCS = {
   "guide/true-solar-time": {
     "eyebrow": "Waktu",
     "title": "Konversi waktu lahir ke waktu matahari yang sebenarnya",
-    "summary": "Waktu standar dan posisi matahari yang sebenarnya berbeda. Waktu harus dikoreksi berdasarkan bujur tempat lahir untuk menjelaskan mengapa pilar waktu akurat.",
+    "summary": "Waktu standar dan posisi matahari yang sebenarnya berbeda. Waktu harus dikoreksi berdasarkan garis bujur tempat lahir untuk menjelaskan mengapa pilar waktu akurat.",
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
@@ -883,7 +883,7 @@ export const ID_DOCS = {
             "p": "Pilar waktu (時柱) dari saju ditentukan oleh posisi matahari. Namun, jam yang kita lihat menggunakan satu waktu standar untuk seluruh negara, yang menyebabkan ketidaksesuaian dengan posisi matahari yang sebenarnya."
           },
           {
-            "p": "Waktu standar Korea didasarkan pada bujur 135° timur. Karena bujur Seoul sekitar 127°, itu sekitar 8° barat, menyebabkan matahari mencapai puncaknya lebih lambat — ketika sudah siang menurut jam, matahari di Seoul belum mencapai puncaknya. Perbedaan ini sekitar **32 menit**."
+            "p": "Waktu standar Korea didasarkan pada garis bujur 135° timur. Karena garis bujur Seoul sekitar 127°, itu sekitar 8° barat, menyebabkan matahari mencapai puncaknya lebih lambat — ketika sudah tengah hari menurut jam, matahari di Seoul belum mencapai puncaknya. Perbedaan ini sekitar **32 menit**."
           }
         ]
       },
@@ -892,7 +892,7 @@ export const ID_DOCS = {
         "title": "32 menit mengubah pilar waktu satu slot",
         "blocks": [
           {
-            "p": "Waktu dalam saju dibagi menjadi unit dua jam. Mereka yang lahir dekat batas akan memiliki pilar waktu mereka sepenuhnya berubah oleh perbedaan 32 menit — koreksi ini diperlukan bagi mereka yang jatuh tepat di batas ini."
+            "p": "Waktu dalam saju dibagi menjadi unit dua jam. Mereka yang lahir dekat batas akan memiliki pilar waktu mereka sepenuhnya berubah oleh perbedaan 32 menit — koreksi ini diperlukan karena mereka yang jatuh tepat di batas ini."
           }
         ]
       },
@@ -900,10 +900,10 @@ export const ID_DOCS = {
         "title": "Mengapa kami meminta tempat lahir",
         "blocks": [
           {
-            "p": "Jika bujur berbeda, jumlah koreksi juga akan berbeda. Menerapkan koreksi berbasis Seoul kepada seseorang yang lahir di luar negeri akan menghasilkan ketidaksesuaian yang signifikan dalam pilar waktu. Oleh karena itu, layar input mengharuskan Anda untuk memilih tempat lahir Anda, dan perhitungan didasarkan pada bujur dan waktu standar kota tersebut. Saat ini, ada {cityCount} tempat dalam daftar."
+            "p": "Jika garis bujur berbeda, jumlah koreksi juga akan berbeda. Menerapkan koreksi berbasis Seoul kepada seseorang yang lahir di luar negeri akan menghasilkan ketidaksesuaian yang signifikan dalam pilar waktu. Oleh karena itu, layar input mengharuskan Anda untuk memilih tempat lahir Anda, dan perhitungan didasarkan pada garis bujur dan waktu standar kota tersebut. Saat ini, ada {cityCount} tempat dalam daftar."
           },
           {
-            "p": "Di tempat-tempat di mana bujur bervariasi besar bahkan dalam negara yang sama (seperti AS, Rusia, Indonesia, dll.), kota-kota telah dibagi. **15° bujur sama dengan satu slot pilar waktu**."
+            "p": "Di tempat-tempat di mana garis bujur bervariasi besar bahkan dalam negara yang sama (seperti AS, Rusia, Indonesia, dll.), kota-kota telah dibagi. **15° garis bujur sama dengan satu slot pilar waktu**."
           },
           {
             "p": "Jika Anda tidak memilih, perhitungan akan didasarkan pada Seoul. Karena sebagian besar kelahiran adalah domestik, ini mengurangi kemungkinan kesalahan, tetapi jika Anda lahir di luar negeri, harap pastikan untuk memilih."
@@ -914,7 +914,7 @@ export const ID_DOCS = {
         "title": "Waktu standar telah berubah beberapa kali di masa lalu",
         "blocks": [
           {
-            "p": "Ada alasan mengapa koreksi tidak dapat dihitung hanya sebagai 'perbedaan bujur ÷ 15° × 60 menit'. Waktu standar itu sendiri telah bervariasi selama berbagai era."
+            "p": "Ada alasan mengapa koreksi tidak dapat dihitung hanya sebagai 'perbedaan garis bujur ÷ 15° × 60 menit'. Waktu standar itu sendiri telah bervariasi selama berbagai era."
           },
           {
             "table": {
@@ -948,7 +948,7 @@ export const ID_DOCS = {
         "title": "Kelahiran tepat setelah tengah malam juga mempertimbangkan tanggal",
         "blocks": [
           {
-            "p": "Karena koreksi adalah -32 menit, mereka yang lahir antara 00:00 dan 00:32 menurut jam akan menjadi **23:00 hari sebelumnya** dalam waktu matahari yang sebenarnya. Jika hanya waktu yang dibalik dan tanggal dibiarkan tidak berubah, itu akan menulis pilar hari sebagai '23:00 hari sebelumnya'."
+            "p": "Karena koreksi adalah -32 menit, mereka yang lahir antara 00:00 dan 00:32 menurut jam akan menjadi **23:00 hari sebelumnya** dalam waktu matahari sejati. Jika hanya waktu yang dibalik dan tanggal dibiarkan tidak berubah, itu akan menulis pilar hari sebagai '23:00 hari sebelumnya'."
           },
           {
             "p": "Inyeon-Link juga akan membalikkan tanggal dalam kasus ini. Pilar hari menunjukkan orang itu sendiri dalam saju, jadi jika ini salah, hampir semua item kompatibilitas akan salah."
@@ -959,7 +959,7 @@ export const ID_DOCS = {
         "title": "Anda tidak perlu mengetahui waktu",
         "blocks": [
           {
-            "p": "Waktu kelahiran adalah opsional. Jika Anda tidak mengetahuinya, perhitungan akan dilakukan tanpa pilar waktu, dan fakta ini akan ditampilkan di layar hasil. Tidak ada item dalam kompatibilitas yang memerlukan pilar waktu untuk ditulis langsung, tetapi itu mempengaruhi lima elemen, jadi jika Anda mengetahuinya, lebih akurat untuk menyertakannya."
+            "p": "Waktu lahir bersifat opsional. Jika Anda tidak mengetahuinya, perhitungan akan dilakukan tanpa pilar waktu, dan fakta ini akan ditampilkan di layar hasil. Tidak ada item dalam kompatibilitas yang memerlukan pilar waktu untuk ditulis langsung, tetapi itu mempengaruhi lima elemen, jadi jika Anda mengetahuinya, lebih akurat untuk menyertakannya."
           },
           {
             "p": "Kompatibilitas zodiak selalu memiliki nilai yang sama terlepas dari waktu — [karena hanya melihat cabang tahun](/guide/zodiac)."
@@ -978,7 +978,7 @@ export const ID_DOCS = {
         "title": "Tidak diperlukan keanggotaan",
         "blocks": [
           {
-            "p": "Inyeon-Link tidak membuat akun. Ini tidak mengumpulkan nama, email, atau nomor telepon. Satu-satunya informasi yang dikumpulkan adalah tanggal lahir dan (opsional) waktu kelahiran, tempat lahir, dan jenis kelamin, dan bahkan itu tidak tersisa setelah perhitungan selesai."
+            "p": "Inyeon-Link tidak membuat akun. Ini tidak mengumpulkan nama, email, atau nomor telepon. Satu-satunya informasi yang dikumpulkan adalah tanggal lahir dan (opsional) waktu lahir, tempat lahir, dan jenis kelamin, dan bahkan itu tidak tersisa setelah perhitungan selesai."
           },
           {
             "p": "Ada bidang untuk memasukkan judul yang akan ditampilkan di layar hasil, tetapi itu **hanya untuk tujuan tampilan** dan tidak digunakan dalam perhitungan. Anda tidak perlu memasukkan nama asli Anda."
@@ -995,10 +995,10 @@ export const ID_DOCS = {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Apa yang mengikuti **#** adalah nilai input. Bagian ini disebut **fragmen**, yang merupakan **bagian yang tidak dikirim ke server oleh browser**. Ini adalah perilaku web standar dan bukan aturan yang kami buat — itu awalnya dirancang untuk menunjukkan lokasi dalam dokumen, jadi server tidak perlu melihatnya."
+            "p": "Apa yang mengikuti **#** adalah nilai input. Bagian ini disebut **fragmen**, yang merupakan **bagian yang tidak dikirimkan browser ke server**. Ini adalah perilaku web standar dan bukan aturan yang kami buat — itu awalnya dirancang untuk menunjukkan lokasi dalam dokumen, jadi server tidak perlu melihatnya."
           },
           {
-            "p": "Dengan kata lain, ketika Anda membuka tautan hasil, browser membaca nilai itu untuk meminta perhitungan, dan server kami menerima nilai yang diperlukan untuk perhitungan, mengembalikan jawaban, dan kemudian melupakannya."
+            "p": "Dengan kata lain, ketika Anda membuka tautan hasil, browser membaca nilai itu untuk meminta perhitungan, dan server kami menerima nilai yang diperlukan untuk perhitungan, mengembalikan jawaban, dan kemudian melupakan itu."
           }
         ]
       },
@@ -1030,7 +1030,7 @@ export const ID_DOCS = {
           },
           {
             "ul": [
-              "**Anda tidak dapat mengambil hasil sebelumnya.** Anda perlu memiliki tautan untuk melihatnya lagi.",
+              "**Anda tidak dapat mengambil hasil masa lalu.** Anda perlu memiliki tautan untuk melihatnya lagi.",
               "**Nilai yang sama akan dihitung ulang.** Tidak ada cache. Namun, karena semua aturan bersifat deterministik, [input yang sama akan selalu menghasilkan nilai yang sama](/guide/how-compatibility).",
               "**Menyegarkan akan membawa kembali gerbang iklan.** Ini karena tidak ada tempat untuk menyimpan catatan tampilan."
             ]
@@ -1044,7 +1044,7 @@ export const ID_DOCS = {
             "p": "Jika Anda membeli laporan, catatan transaksi akan disimpan pada saat itu. Hukum menetapkan periode penyimpanan untuk pembayaran, dan tanpa riwayat pesanan, pengembalian dana tidak dapat diproses. Namun, meskipun demikian, **tanggal lahir yang digunakan untuk perhitungan kompatibilitas tidak terlampir pada pesanan** — itu dikumpulkan lagi saat membuat PDF setelah konfirmasi pembayaran."
           },
           {
-            "p": "Rincian dijelaskan dalam [Kebijakan Privasi](/privacy)."
+            "p": "Detailnya dijelaskan dalam [Kebijakan Privasi](/privacy)."
           }
         ]
       }
@@ -1053,7 +1053,7 @@ export const ID_DOCS = {
   "guide/reports": {
     "eyebrow": "Produk Berbayar",
     "title": "Apa yang termasuk dalam laporan berbayar?",
-    "summary": "Ini menjelaskan apa yang telah ditambahkan ke PDF sambil menjaga layar tidak berubah, item demi item. Nilai dan konten dibaca dari pengaturan produk yang sebenarnya.",
+    "summary": "Ini menjelaskan apa yang telah ditambahkan ke PDF sambil menjaga layar tetap tidak berubah, item demi item. Nilai dan konten dibaca dari pengaturan produk yang sebenarnya.",
     "backLabel": "Dasar Perhitungan",
     "sections": [
       {
@@ -1063,7 +1063,7 @@ export const ID_DOCS = {
             "p": "Perhitungan kompatibilitas dan permintaan hasil adalah **gratis**. Tingkat kecocokan, skor dan bobot item, grafik saju asli dari kedua individu, dan bentuk hubungan semuanya dapat dilihat di layar. Tidak ada yang dihapus dari layar saat membuat laporan berbayar."
           },
           {
-            "p": "Tujuan laporan adalah untuk **menambahkan lapisan yang tidak ada di layar**. Dan lapisan itu tidak dibuat-buat; itu terdiri dari nilai yang sudah dihitung selama proses penilaian tetapi tidak digunakan di layar."
+            "p": "Tujuan laporan adalah untuk **menambahkan lapisan yang tidak ada di layar**. Dan lapisan itu tidak dibuat; itu terdiri dari nilai yang sudah dihitung selama proses penilaian tetapi tidak digunakan di layar."
           }
         ]
       },
@@ -1079,7 +1079,7 @@ export const ID_DOCS = {
       {
         "blocks": [
           {
-            "p": "**Halaman 1-3 diatur untuk mempertahankan apa yang ada di layar** dan **dari halaman 4 seterusnya adalah konten yang tidak ada di layar**. Di bawah ini, dijelaskan mengapa hal-hal tertentu tidak ditampilkan di layar."
+            "p": "**Halaman 1-3 diorganisir untuk menjaga apa yang ada di layar** dan **dari halaman 4 seterusnya adalah konten yang tidak ada di layar**. Di bawah ini, dijelaskan mengapa hal-hal tertentu tidak ditampilkan di layar."
           }
         ]
       },
@@ -1087,88 +1087,88 @@ export const ID_DOCS = {
         "title": "Halaman 4 — Arah dari dua energi",
         "blocks": [
           {
-            "p": "Item dari lima elemen di layar disajikan sebagai satu skor. Namun, skor tunggal itu adalah **rata-rata dari dua arah** — mengukur seberapa banyak yang lain mengisi saya dan seberapa banyak saya mengisi yang lain, dan merata-rata nilai-nilai tersebut."
+            "p": "Item dari lima elemen yang ada di layar disajikan sebagai satu skor tunggal. Namun, skor tunggal itu adalah **rata-rata dari dua arah** — mengukur seberapa banyak yang lain mengisi saya dan seberapa banyak saya mengisi yang lain, dan merata-rata nilai-nilai tersebut."
           },
           {
-            "p": "Kelengkapan secara inheren **asimetris**. Ini karena energi yang dibutuhkan oleh saya dan energi yang dibutuhkan oleh yang lain berbeda. Jika Anda hanya melihat rata-rata, sebuah hubungan di mana satu sisi mengisi yang lain secara signifikan dan sebuah hubungan di mana keduanya saling mengisi secara merata akan muncul sebagai angka yang sama. Laporan ini memisahkan kedua hal tersebut."
+            "p": "Komplementaritas secara inheren **asimetris**. Ini karena energi yang dibutuhkan oleh saya dan energi yang dibutuhkan oleh yang lain berbeda. Jika Anda hanya melihat rata-rata, sebuah hubungan di mana satu sisi mengisi yang lain secara signifikan dan sebuah hubungan di mana keduanya saling mengisi dengan merata akan muncul sebagai angka yang sama. Laporan memisahkan kedua hal tersebut."
           },
           {
-            "p": "Juga termasuk dalam bagian yang sama adalah **diagram hubungan dari empat pilar**. Satu-satunya yang masuk ke dalam tingkat kecocokan adalah cabang hari (日支) — karena itu adalah posisi pasangan — tetapi cabang tahun, bulan, dan jam lainnya juga dapat dibaca dengan diagram hubungan yang sama."
+            "p": "Juga termasuk dalam bagian yang sama adalah **grafik hubungan dari empat pilar**. Satu-satunya yang masuk ke dalam tingkat kecocokan adalah cabang hari (日支) — karena itu adalah posisi pasangan — tetapi cabang tahun, bulan, dan jam lainnya juga dapat dibaca dengan grafik hubungan yang sama."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Skor dalam tabel ini tidak masuk ke dalam tingkat kecocokan",
         "blocks": [
           {
-            "p": ""
+            "p": "Jika dimasukkan, total skor akan berubah dan tidak akan cocok dengan tautan hasil yang sudah dikirim. Oleh karena itu, ini hanya disertakan sebagai bahan bacaan, dan fakta itu dicatat di bawah tabel."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Halaman 5 — Melihat lebih dekat saju masing-masing orang",
         "blocks": [
           {
-            "p": ""
+            "p": "Balk dari lima elemen di layar menunjukkan **seberapa banyak yang ada**. Laporan menambahkan **apakah bulan kelahiran mendukung energi tersebut**. Bahkan dengan jumlah yang sama, energi yang kuat (旺) dan energi yang mati (死) memiliki kekuatan yang berbeda."
           },
           {
-            "p": ""
+            "p": "Anda dapat melihat kekuatan sebelum dan setelah dikalikan dengan energi bulan berdampingan, menunjukkan seberapa banyak musim telah mendorongnya. **Rasio sekutu** yang membedakan antara penguasa hari yang kuat dan penguasa hari yang lemah juga dicatat — layar hanya menunjukkan penilaian, tetapi laporan menunjukkan di mana penilaian itu dibuat."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Halaman 6 — Apa arti empat pilar orang lain bagi saya",
         "blocks": [
           {
-            "p": ""
+            "p": "Tingkat kecocokan hanya membandingkan **cabang hari** dari kedua individu. Namun, tiga pilar lainnya dari orang lain juga ditentukan oleh Sepuluh Dewa menggunakan aturan yang sama. Sementara Anda dapat memahami **apa arti orang ini bagi saya** hanya dengan melihat cabang hari, Anda tidak dapat mengetahui **apa posisi orang itu berarti bagi saya**."
           },
           {
-            "p": ""
+            "p": "Karena ada arah, kedua sisi disajikan secara terpisah. Apa yang saya lihat dan apa yang dilihat oleh yang lain berbeda."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Halaman 7 — Bagaimana saju ini dihitung",
         "blocks": [
           {
-            "p": "Ini menyatakan seberapa banyak waktu lahir disesuaikan dengan **waktu matahari sejati** (true solar time), apakah koreksi tersebut menyebabkan tanggal berubah, dan apa tanggal matahari dan bulan ketika saju dihasilkan. Konsep ini dijelaskan dalam dokumen [Menyesuaikan waktu lahir dengan waktu matahari sejati](/guide/true-solar-time), tetapi **nilai berapa menit yang disesuaikan dalam kasus Anda** bervariasi dari orang ke orang, jadi hanya termasuk dalam laporan."
+            "p": "Ini menyatakan seberapa banyak waktu kelahiran disesuaikan dengan waktu matahari yang sebenarnya, apakah koreksi menyebabkan tanggal berubah, dan apa tanggal solar dan lunar ketika saju dihasilkan. Konsep ini dijelaskan dalam dokumen [Menyesuaikan waktu kelahiran dengan waktu matahari yang sebenarnya](/guide/true-solar-time), tetapi **nilai berapa menit yang disesuaikan dalam kasus Anda** bervariasi dari orang ke orang, jadi itu hanya disertakan dalam laporan."
           }
         ]
       },
       {
         "title": "Laporan profil kecocokan Inyeon PDF — {priceAffinityDomestic}",
-        "slot": "",
+        "slot": "affinityContents",
         "blocks": [
           {
-            "p": "Pembayaran domestik {priceAffinityDomestic} (termasuk PPN), pembayaran internasional {priceAffinityGlobal}. {pagesAffinity} halaman A4."
+            "p": "Pembayaran domestik {priceAffinityDomestic} (termasuk PPN), pembayaran internasional {priceAffinityGlobal}. A4 {pagesAffinity} halaman."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": ""
+            "p": "Bagian ini adalah **tabel peringkat keseluruhan**. Layar hanya menunjukkan set yang cocok dengan baik, tetapi laporan memberi peringkat semua sepuluh batang langit dan dua belas cabang bumi **secara lengkap**. Jika Anda hanya melihat set teratas, Anda tidak akan tahu 'siapa yang berikutnya' dan 'mana yang paling tidak cocok'."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Hal-hal yang perlu diketahui sebelum membeli",
         "blocks": [
           {
-            "p": ""
+            "p": "**Server tidak menyimpan file.** Setelah pembayaran disetujui, dokumen dihasilkan dan dikirim segera, tanpa meninggalkan apa pun di server. Prinsip layanan ini untuk tidak menyimpan nilai input tetap dipertahankan bahkan dalam alur berbayar."
           },
           {
-            "p": ""
+            "p": "Jadi, **silakan simpan file segera setelah pembayaran.** Anda dapat menerima pesanan yang sama hingga lima kali, tetapi jika Anda meninggalkan layar hasil dan nilai input menghilang, Anda tidak dapat membuatnya kembali."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Laporan juga merupakan bahan referensi",
         "blocks": [
           {
-            "p": ""
+            "p": "Hanya karena panjangnya meningkat tidak berarti kesimpulan lebih pasti. Apa yang lebih banyak terkandung dalam laporan adalah **dasar dari perhitungan yang sama**, bukan pernyataan yang lebih kuat. Pembacaan takdir adalah bidang di mana kesimpulan dapat bervariasi tergantung pada praktisi, dan layanan ini hanya menghitung apa yang dapat diterjemahkan ke dalam aturan."
           }
         ]
       }
@@ -1184,7 +1184,7 @@ export const ID_DOCS = {
   "contact": {
     "eyebrow": "Kontak",
     "title": "Pertanyaan",
-    "summary": "Ini adalah saluran untuk pertanyaan tentang penggunaan, pengembalian dana, permintaan informasi pribadi, dan laporan kesalahan, serta informasi bisnis.",
+    "summary": "Ini adalah saluran untuk pertanyaan tentang penggunaan, pengembalian dana, permintaan informasi pribadi, dan laporan kesalahan, bersama dengan informasi bisnis.",
     "backLabel": "Kembali ke Beranda",
     "sections": [
       {
@@ -1203,9 +1203,9 @@ export const ID_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pembayaran dan Pengembalian Dana** — Jika dokumen tidak dibuat atau jumlah pembayaran berbeda dari pesanan, pengembalian dana penuh akan diberikan. Syaratnya ada di [kebijakan pengembalian dana](/refund-policy).",
-              "**Informasi Pribadi** — Kami menerima permintaan untuk melihat, memperbaiki, dan menghapus. Kebijakan pemrosesannya ada di [kebijakan privasi](/privacy).",
-              "**Laporan Kesalahan Perhitungan** — Jika grafik asli saju atau skor terlihat aneh, harap beri tahu kami. Jika Anda menyertakan kapan Anda memasukkan tanggal dan waktu, kami dapat menghitung ulang dengan nilai yang sama."
+              "**Pembayaran dan Pengembalian Dana** — Jika dokumen tidak dibuat atau jumlah pembayaran berbeda dari pesanan, pengembalian dana penuh akan diberikan. Syaratnya ada dalam [kebijakan pengembalian](/refund-policy).",
+              "**Informasi Pribadi** — Kami menerima permintaan untuk melihat, memperbaiki, dan menghapus. Kebijakan pemrosesan ada dalam [kebijakan privasi](/privacy).",
+              "**Laporan Kesalahan Perhitungan** — Jika grafik asli saju atau skor tampak aneh, harap beri tahu kami. Jika Anda menyertakan kapan Anda memasukkan tanggal dan waktu, kami dapat menghitung ulang dengan nilai yang sama."
             ]
           }
         ]
@@ -1222,7 +1222,7 @@ export const ID_DOCS = {
               "**Alamat** — {address}",
               "**Pusat Pelanggan** — {customerCenter}",
               "**Email** — {email}",
-              "**Petugas Perlindungan Informasi Pribadi** — {privacyOfficer}",
+              "**Pejabat Perlindungan Informasi Pribadi** — {privacyOfficer}",
               "**Penyedia Hosting** — {hostingProvider}"
             ]
           }
@@ -1232,7 +1232,7 @@ export const ID_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Anda tidak perlu menyertakan tanggal dan waktu lahir Anda dalam email permintaan. Kami tidak menyimpan input, jadi kami tidak dapat mengambilnya, dan nomor pesanan sudah cukup untuk konfirmasi. Harap hanya sertakan jika diperlukan untuk laporan kesalahan perhitungan."
+            "p": "Anda tidak perlu menyertakan tanggal dan waktu kelahiran Anda dalam email pertanyaan. Kami tidak menyimpan input, jadi kami tidak dapat mengambilnya, dan nomor pesanan sudah cukup untuk konfirmasi. Harap hanya sertakan jika itu diperlukan untuk laporan kesalahan perhitungan."
           }
         ]
       }
@@ -1247,7 +1247,7 @@ export const ID_NOTICES = {
     "engine": "Perhitungan",
     "support": "Dukungan"
   },
-  "intro": "Perubahan pada syarat penggunaan Anda — harga, kebijakan — diposting di sini sebelum berlaku. Peningkatan internal tidak dicantumkan: apa yang muncul di sini adalah yang perlu Anda ketahui.",
+  "intro": "Perubahan pada syarat penggunaan Anda — harga, kebijakan — diposting di sini sebelum mulai berlaku. Perbaikan internal tidak dicantumkan: apa yang muncul di sini adalah yang perlu Anda ketahui.",
   "empty": {
     "title": "Belum ada pemberitahuan",
     "body": "Ketika sesuatu berubah, itu akan muncul di sini."
@@ -1260,14 +1260,14 @@ export const ID_NOTICES = {
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Halaman Kontak dan Tentang sekarang sudah dibuka",
+      "title": "Halaman Kontak dan Tentang sekarang terbuka",
       "body": [
         "Pertanyaan, pengembalian dana, permintaan privasi, dan laporan kesalahan perhitungan sekarang memiliki satu tempat untuk dituju — lihat halaman kontak di footer.",
-        "Jika sesuatu terlihat salah perhitungan, harap sertakan detail kelahiran yang menghasilkan itu. Kami tidak menyimpan apa yang Anda masukkan, jadi tanpa itu kami tidak dapat mereproduksi pembacaan."
+        "Jika sesuatu terlihat salah perhitungan, harap sertakan detail kelahiran yang memproduksinya. Kami tidak menyimpan apa yang Anda masukkan, jadi tanpa itu kami tidak dapat mereproduksi pembacaan."
       ]
     },
     "2026-08-01-pdf-language": {
-      "title": "Laporan diterbitkan dalam bahasa Inggris untuk bahasa Arab dan Khmer",
+      "title": "Laporan diterbitkan dalam bahasa Inggris untuk Arab dan Khmer",
       "body": [
         "Jika Anda membaca dalam bahasa Arab atau Khmer, laporan PDF yang Anda beli diproduksi dalam bahasa Inggris. Alat yang menyusun dokumen kami belum dapat mengatur paragraf dalam skrip tersebut.",
         "Layar tetap dalam bahasa Anda, dan nama Anda dicetak dalam skrip Anda sendiri di dalam laporan.",
@@ -1278,7 +1278,7 @@ export const ID_NOTICES = {
       "title": "Setiap pembacaan membawa versi aturan yang digunakan",
       "body": [
         "Setiap pembacaan dan laporan membawa set aturan yang digunakan untuk memproduksinya (misalnya inyeonlink-match-v10). Input yang sama pada set aturan yang sama selalu memberikan angka yang sama.",
-        "Jika kami mengubah aturan interpretasi dengan cara yang dapat mengubah skor, kami akan mempostingnya di sini terlebih dahulu, dengan tanggal mulai berlaku — karena tautan hasil yang sudah Anda miliki akan dibaca berbeda.",
+        "Jika kami mengubah aturan interpretasi dengan cara yang dapat mengubah skor, kami mempostingnya di sini terlebih dahulu, dengan tanggal mulai berlakunya — karena tautan hasil yang sudah Anda miliki akan terbaca berbeda.",
         "Set aturan saat ini adalah v10. Pembayaran belum dibuka."
       ]
     }

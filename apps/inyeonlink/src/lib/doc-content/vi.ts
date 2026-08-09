@@ -5,18 +5,18 @@ import type { DocKey } from "./ko";
 export const VI_DOCS = {
   "about": {
     "eyebrow": "Giới thiệu",
-    "title": "Giới thiệu về Inyeon-Link",
-    "summary": "Chúng tôi so sánh hai biểu đồ sinh theo truyền thống Saju của Hàn Quốc. Đây là những gì chúng tôi tính toán và những gì chúng tôi từ chối tuyên bố.",
+    "title": "Giới thiệu Inyeon-Link",
+    "summary": "Chúng tôi so sánh hai biểu đồ sinh theo truyền thống Saju Hàn Quốc. Đây là những gì chúng tôi tính toán và những gì chúng tôi từ chối tuyên bố.",
     "backLabel": "Trang chủ",
     "sections": [
       {
         "title": "Chúng tôi làm gì",
         "blocks": [
           {
-            "p": "Inyeon-Link xây dựng hai biểu đồ sinh từ ngày và giờ sinh và cho thấy **cách hai tập hợp năng lượng gặp nhau.** Bạn cũng có thể đọc biểu đồ của riêng mình và xem những tính cách nào thường phù hợp với bạn."
+            "p": "Inyeon-Link xây dựng hai biểu đồ sinh từ ngày tháng và giờ sinh và cho thấy **cách hai tập hợp năng lượng gặp nhau.** Bạn cũng có thể đọc biểu đồ của riêng mình và xem những tính cách nào thường phù hợp với bạn."
           },
           {
-            "p": "Đọc trên màn hình là **miễn phí và không cần tài khoản.** Các mục trả phí là các báo cáo PDF chứa các số liệu mà màn hình không bao giờ hiển thị — sức mạnh của các yếu tố, các cặp mười thần và các mối quan hệ giữa tất cả bốn trụ cột."
+            "p": "Đọc trên màn hình là **miễn phí và không cần tài khoản.** Các mục trả phí là báo cáo PDF chứa các số liệu mà màn hình không bao giờ hiển thị — sức mạnh của các yếu tố, sự kết hợp của mười vị thần và các mối quan hệ giữa tất cả bốn trụ cột."
           }
         ]
       },
@@ -24,13 +24,13 @@ export const VI_DOCS = {
         "title": "Chúng tôi tính toán gì",
         "blocks": [
           {
-            "p": "Các biểu đồ được xây dựng từ **lịch âm dương Hàn Quốc**, và thời gian sinh được điều chỉnh về **thời gian mặt trời thực** cho nơi sinh — cùng một thời gian đồng hồ có nghĩa là vị trí mặt trời khác nhau tùy thuộc vào nơi bạn sinh ra."
+            "p": "Các biểu đồ được xây dựng từ **lịch âm dương Hàn Quốc**, và thời gian sinh được điều chỉnh theo **thời gian mặt trời thực** cho nơi sinh — cùng một thời gian đồng hồ có nghĩa là vị trí mặt trời khác nhau tùy thuộc vào nơi bạn sinh ra."
           },
           {
-            "p": "Điểm số đến từ các quy tắc cố định. Các khái niệm truyền thống — mười thần, quan hệ nhánh, yếu tố hỗ trợ — được thể hiện dưới dạng quy tắc, vì vậy **cùng một đầu vào luôn cho cùng một kết quả.** Khi một quy tắc thay đổi, chúng tôi chạy một hệ thống hồi quy để đảm bảo rằng các đọc cũ không bị thay đổi."
+            "p": "Điểm số đến từ các quy tắc cố định. Các khái niệm truyền thống — mười vị thần, quan hệ nhánh, yếu tố hỗ trợ — được thể hiện dưới dạng quy tắc, vì vậy **cùng một đầu vào luôn cho cùng một kết quả.** Khi một quy tắc thay đổi, chúng tôi chạy một hệ thống hồi quy để đảm bảo rằng các đọc cũ không bị thay đổi."
           },
           {
-            "p": "**Không có AI nào tham gia.** Mỗi câu trên màn hình là văn bản cố định gắn liền với một kết quả đã tính toán."
+            "p": "**Không có AI tham gia.** Mỗi câu trên màn hình là văn bản cố định gắn liền với một kết quả đã tính toán."
           }
         ]
       },
@@ -39,9 +39,9 @@ export const VI_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Chúng tôi không đoán số phận.** Không có gì ở đây bảo bạn theo đuổi hoặc tránh xa ai đó. Đây là một tài liệu tham khảo được rút ra từ một truyền thống.",
-              "**Chúng tôi không lưu trữ những gì bạn nhập.** Chi tiết sinh được sử dụng trong khoảnh khắc tính toán và không bao giờ được ghi lại; các liên kết kết quả sống trong phần URL mà trình duyệt không gửi đến máy chủ.",
-              "**Một điểm số không phải là phán quyết về một người.** Một số thấp không làm mất giá trị của một mối quan hệ."
+              "**Chúng tôi không đoán vận mệnh.** Không có gì ở đây bảo bạn theo đuổi hoặc tránh xa ai đó. Đây là một tài liệu tham khảo được rút ra từ một truyền thống.",
+              "**Chúng tôi không lưu trữ những gì bạn nhập.** Thông tin sinh được sử dụng cho thời điểm tính toán và không bao giờ được ghi lại; các liên kết kết quả sống trong phần URL mà trình duyệt không gửi đến máy chủ.",
+              "**Một điểm số không phải là phán quyết về một người.** Một số thấp không làm vô hiệu hóa một mối quan hệ."
             ]
           }
         ]
@@ -66,7 +66,7 @@ export const VI_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Các giá trị được viết ở đây đều **được đọc trực tiếp từ mã tính toán**. Vì chúng không được ghi chép thủ công vào văn bản, nếu các quy tắc thay đổi, các con số trong tài liệu này cũng sẽ thay đổi."
+            "p": "Các giá trị được viết ở đây đều **được đọc trực tiếp từ mã tính toán**. Vì chúng không được sao chép thủ công vào văn bản, nếu các quy tắc thay đổi, các con số trong tài liệu này cũng sẽ thay đổi."
           }
         ]
       }
@@ -74,7 +74,7 @@ export const VI_DOCS = {
   },
   "guide/how-compatibility": {
     "eyebrow": "Cơ sở Dịch vụ",
-    "title": "Saju Compatibility Nhìn Vào Điều Gì?",
+    "title": "Saju Compatibility Nhìn vào Điều Gì?",
     "summary": "Nó làm rõ bốn mục và trọng số tương ứng của chúng, và giải thích lý do tại sao bốn mục đó được chọn. Nó cũng đề cập đến lý do tại sao có thể thực hiện các phép tính ngay cả khi không biết thời gian sinh.",
     "backLabel": "Cơ sở Tính toán",
     "sections": [
@@ -82,7 +82,7 @@ export const VI_DOCS = {
         "title": "Tính toán và Kết hợp Hai Trục",
         "blocks": [
           {
-            "p": "Tỷ lệ khớp đến từ hai nhánh. **Saju compatibility** nhìn vào toàn bộ biểu đồ saju gốc của cả hai cá nhân, trong khi **zodiac compatibility** chỉ xem xét một nhánh đất từ năm sinh. Giá trị cuối cùng được lấy bằng cách trung bình trọng số hai."
+            "p": "Tỷ lệ khớp đến từ hai nhánh. **Saju compatibility** nhìn vào toàn bộ biểu đồ saju gốc của cả hai cá nhân, trong khi **zodiac compatibility** chỉ xem xét một nhánh đất từ năm sinh. Giá trị cuối cùng được thu được bằng cách tính trung bình trọng số của hai."
           },
           {
             "table": {
@@ -106,7 +106,7 @@ export const VI_DOCS = {
             }
           },
           {
-            "p": "Phía saju nặng hơn nhiều vì lượng thông tin sử dụng là khác nhau. Saju xem xét tất cả bốn trụ cột, trong khi zodiac chỉ nhìn vào một ký tự. Tuy nhiên, zodiac không bị loại trừ vì hai lý do — nó là mục dễ hiểu nhất về mặt trực quan, và nó là **trục duy nhất mà giá trị của nó không dao động ngay cả khi không biết thời gian sinh.**"
+            "p": "Phía saju nặng hơn nhiều vì lượng thông tin được sử dụng là khác nhau. Saju xem xét tất cả bốn trụ cột, trong khi cung hoàng đạo chỉ nhìn vào một ký tự. Tuy nhiên, cung hoàng đạo không bị loại trừ vì hai lý do — đó là mục dễ hiểu nhất về mặt trực quan, và đó là **trục duy nhất có giá trị không dao động ngay cả khi không biết thời gian sinh.**"
           }
         ]
       },
@@ -114,20 +114,20 @@ export const VI_DOCS = {
         "title": "Bốn Mục của Saju Compatibility",
         "blocks": [
           {
-            "p": "Phía saju được chia thành bốn. Mỗi mục được chọn để đảm bảo rằng những gì chúng xem xét không chồng chéo lên nhau."
+            "p": "Phía saju được chia thành bốn. Mỗi mục được chọn để đảm bảo rằng những gì họ xem xét không chồng chéo."
           },
           {
             "figure": "four-pillars",
             "caption": "Saju bao gồm tám ký tự được hình thành bởi các thiên can và địa chi của năm, tháng, ngày và giờ sinh. Ngày can và ngày chi được đề cập dưới đây là hai ký tự trong trụ ngày.",
             "labels": {
               "year": "Trụ Năm",
-              "yearNote": "Gốc · Zodiac",
+              "yearNote": "Gốc · Cung Hoàng Đạo",
               "month": "Trụ Tháng",
-              "monthNote": "Mùa · Sức mạnh",
+              "monthNote": "Mùa · Sức Mạnh",
               "day": "Trụ Ngày",
               "dayNote": "Tôi · Cung Phu Thê",
               "hour": "Trụ Giờ",
-              "hourNote": "Năm Sau · Sử Dụng",
+              "hourNote": "Năm Cuối · Sử Dụng",
               "stem": "Thiên Can",
               "stemNote": "Ngày Can = Tôi",
               "branch": "Nhánh Địa",
@@ -138,17 +138,17 @@ export const VI_DOCS = {
             "table": {
               "head": [
                 "Mục",
-                "Cái gì được coi là",
-                "Trọng số"
+                "Điều Được Xem Xét",
+                "Trọng Số"
               ],
               "rows": [
                 [
                   "Mối Quan Hệ Nhánh Ngày",
-                  "Những gì mà ngày can (日干) của hai người đối với nhau — được nhìn qua the Ten Gods (Ten Gods)",
+                  "Những gì mà hai nhánh ngày (日干) của người đó là với nhau — được xem qua Mười Thần",
                   "{weightDayMaster}"
                 ],
                 [
-                  "Sự Bổ Sung của Năm Yếu Tố",
+                  "Sự Bổ Sung của Năm Nguyên Tố",
                   "Người bạn đời có năng lượng mà tôi cần không — được xem qua yếu tố hỗ trợ mà biểu đồ hiện tại cần",
                   "{weightElementSupply}"
                 ],
@@ -159,7 +159,7 @@ export const VI_DOCS = {
                 ],
                 [
                   "Mối Quan Hệ Nhánh Ngày",
-                  "Hai nhánh ngày (日支) của hai người có phải là sự kết hợp hay là một sự va chạm?",
+                  "Hai nhánh ngày (日支) của hai người có phải là sự kết hợp hay xung đột không?",
                   "{weightDayBranch}"
                 ]
               ]
@@ -183,26 +183,26 @@ export const VI_DOCS = {
         "title": "Nó sẽ không được coi là 0 điểm",
         "blocks": [
           {
-            "p": "Nếu các vị trí thiếu được coi là 0 điểm, điểm số sẽ bị giảm một cách không công bằng chỉ vì giới tính không được tiết lộ. Việc chuẩn hóa lại trọng số ngăn chặn vấn đề này."
+            "p": "Nếu các vị trí thiếu được coi là 0 điểm, điểm số sẽ bị giảm không công bằng chỉ vì giới tính không được tiết lộ. Việc chuẩn hóa lại trọng số ngăn chặn vấn đề này."
           }
         ]
       },
       {
-        "title": "Các phép tính có thể được thực hiện mà không cần biết giờ sinh",
+        "title": "Các phép tính có thể được thực hiện mà không cần biết thời gian sinh",
         "blocks": [
           {
-            "p": "Giờ sinh được sử dụng để xác định trụ giờ. Nếu không biết, các phép tính sẽ được thực hiện mà không có trụ giờ, và điều này sẽ được chỉ ra trên màn hình kết quả. Vì không có đầu vào trực tiếp cho trụ giờ trong bốn mục tương thích, các giá trị sẽ không dao động đáng kể, nhưng nó ảnh hưởng đến sự cân bằng của năm yếu tố."
+            "p": "Thời gian sinh được sử dụng để xác định trụ giờ. Nếu không biết, các phép tính sẽ được thực hiện mà không có trụ giờ, và điều này sẽ được chỉ ra trên màn hình kết quả. Vì không có đầu vào trực tiếp cho trụ giờ trong bốn mục tương thích, các giá trị sẽ không dao động đáng kể, nhưng nó ảnh hưởng đến sự cân bằng của năm nguyên tố."
           },
           {
-            "p": "Nếu bạn biết thời gian, vui lòng cũng chọn nơi sinh. Nếu giờ chuẩn khác với vị trí mặt trời thực tế, việc sử dụng nó như vậy có thể làm lệch trụ giờ [(sửa đổi giờ mặt trời thực)](/guide/true-solar-time)."
+            "p": "Nếu bạn biết thời gian, vui lòng cũng chọn nơi sinh. Nếu thời gian chuẩn khác với vị trí mặt trời thực tế, việc sử dụng nó như vậy có thể làm lệch trụ giờ [(sửa đổi thời gian mặt trời thực)](/guide/true-solar-time)."
           }
         ]
       },
       {
-        "title": "Cùng một đầu vào sẽ luôn cho ra cùng một giá trị",
+        "title": "Cùng một đầu vào sẽ luôn tạo ra cùng một giá trị",
         "blocks": [
           {
-            "p": "Tất cả các điểm số được xác định bởi các quy tắc. Không có trí tuệ nhân tạo nào được sử dụng, cũng như không có số ngẫu nhiên nào được áp dụng. Do đó, việc nhập cùng một hai ngày sinh nhiều lần sẽ không cho ra kết quả khác nhau. Là một dịch vụ không lưu trữ dữ liệu, các kết quả trước đó không thể được truy xuất, nhưng **định tính** bù đắp cho điều đó."
+            "p": "Tất cả điểm số được xác định bởi các quy tắc. Không có trí tuệ nhân tạo nào được sử dụng, cũng như không có số ngẫu nhiên nào được áp dụng. Do đó, việc nhập cùng một hai ngày sinh nhiều lần sẽ không tạo ra kết quả khác nhau. Là một dịch vụ không lưu trữ dữ liệu, các kết quả trước đó không thể được truy xuất, nhưng **định tính** bù đắp cho điều đó."
           }
         ]
       },
@@ -211,7 +211,7 @@ export const VI_DOCS = {
         "title": "Thay đổi quy tắc sẽ nâng cấp phiên bản",
         "blocks": [
           {
-            "p": "Mỗi khi các quy tắc tính điểm được thay đổi, phiên bản của hệ thống sẽ được cập nhật. Phiên bản được ghi chú ở dưới cùng của màn hình kết quả, cho phép bạn phân biệt quy tắc nào đã được sử dụng để tính toán các số mà bạn đang xem."
+            "p": "Mỗi lần quy tắc tính điểm được thay đổi, phiên bản của động cơ sẽ được cập nhật. Phiên bản được ghi chú ở dưới cùng của màn hình kết quả, cho phép bạn phân biệt quy tắc nào đã được sử dụng để tính toán các số mà bạn đang xem."
           }
         ]
       },
@@ -219,7 +219,7 @@ export const VI_DOCS = {
         "title": "Kết quả này không phải là gì",
         "blocks": [
           {
-            "p": "Đây là một **tài liệu tham khảo** được tính toán từ các quy tắc được xây dựng trên quan điểm của truyền thống. Nó không phải là một dự đoán khoa học, cũng không phải là một tuyên bố xác định về mối quan hệ giữa hai cá nhân. Phạm vi điểm số được đặt tối thiểu khoảng 45 điểm vì lý do này — không có sự kết hợp nào sẽ cho ra giá trị gần 0 điểm."
+            "p": "Đây là một **tài liệu tham khảo** được tính toán từ các quy tắc được xây dựng trên quan điểm của truyền thống. Nó không phải là một dự đoán khoa học, cũng không phải là một tuyên bố xác định về mối quan hệ giữa hai cá nhân. Phạm vi điểm số được đặt tối thiểu khoảng 45 điểm vì lý do này — không có sự kết hợp nào sẽ tạo ra giá trị gần 0 điểm."
           }
         ]
       }
@@ -227,23 +227,23 @@ export const VI_DOCS = {
   },
   "guide/branches": {
     "eyebrow": "Bảng Quan Hệ",
-    "title": "Mười Hai Nhánh Địa — Kết Hợp, Va Chạm, Bất Hòa",
-    "summary": "Đây là một bảng quan hệ được sử dụng cho cả sự tương thích nhánh ngày và sự tương thích hoàng đạo. Nó hoàn toàn tiết lộ ý nghĩa của mỗi sự kết hợp, va chạm và bất hòa cũng như điểm số tương ứng của chúng.",
+    "title": "Mười Hai Nhánh Địa — Kết Hợp, Xung Đột, Bất Hòa",
+    "summary": "Đây là một bảng quan hệ được sử dụng cho cả sự tương thích nhánh ngày và sự tương thích hoàng đạo. Nó hoàn toàn tiết lộ ý nghĩa của mỗi sự kết hợp, xung đột và bất hòa cùng với điểm số tương ứng của chúng.",
     "backLabel": "Cơ Sở Tính Toán",
     "sections": [
       {
         "title": "Các nhánh địa bao gồm mười hai ký tự",
         "blocks": [
           {
-            "p": "Mười hai nhánh địa (十二支) là 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Các dấu hiệu hoàng đạo thường được biết đến liên quan đến mỗi ký tự trong số mười hai này."
+            "p": "Mười hai nhánh địa (十二支) là 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Các dấu hiệu hoàng đạo được biết đến phổ biến gắn liền với mỗi ký tự trong số mười hai này."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Sắp xếp mười hai ký tự trong một vòng tròn cung cấp cái nhìn rõ ràng về các mối quan hệ. Một sự va chạm luôn ngồi đối diện trực tiếp, trong khi một cặp sáu-hài hòa và một bất hòa yên tĩnh thì gần nhau hơn. Những đường này được lấy trực tiếp từ các quy tắc tính toán, không được viết trong văn bản.",
+            "caption": "Sắp xếp mười hai ký tự trong một vòng tròn cung cấp cái nhìn rõ ràng về các mối quan hệ. Một sự xung đột luôn ngồi đối diện trực tiếp, trong khi một cặp sáu-hài hòa và một bất hòa yên tĩnh là hàng xóm gần hơn. Những đường này được lấy trực tiếp từ các quy tắc tính toán, không được viết trong văn bản.",
             "labels": {
-              "alt": "Một sơ đồ cho thấy mười hai nhánh địa được sắp xếp trong một vòng tròn với các đường nối kết hợp sáu-hài hòa, va chạm và bất hòa.",
+              "alt": "Một sơ đồ cho thấy mười hai nhánh địa được sắp xếp trong một vòng tròn với các đường nối kết hợp sáu-hài hòa, xung đột và bất hòa.",
               "yukhap": "Sáu-Hài Hòa",
-              "chung": "Va Chạm",
+              "chung": "Xung Đột",
               "wonjin": "Bất Hòa",
               "rat": "Chuột",
               "ox": "Bò",
@@ -260,12 +260,12 @@ export const VI_DOCS = {
             }
           },
           {
-            "p": "Trong saju, mỗi trong bốn trụ có một nhánh đất. Inyeon-Link sử dụng **nhánh ngày** (cung phu thê) và **nhánh năm** (động vật hoàng đạo) trong số đó. Cả hai vị trí đều được đánh giá bằng cách sử dụng bảng quan hệ dưới đây."
+            "p": "Trong saju, mỗi trong bốn trụ có một nhánh đất. Inyeon-Link sử dụng **nhánh ngày** (cung phu thê) và **nhánh năm** (con giáp) trong số đó. Cả hai vị trí đều được đánh giá bằng bảng quan hệ dưới đây."
           }
         ]
       },
       {
-        "title": "Toàn bộ Bảng Quan hệ",
+        "title": "Bảng Quan Hệ Toàn Diện",
         "blocks": [
           {
             "table": {
@@ -286,19 +286,19 @@ export const VI_DOCS = {
                 [
                   "Sáu-Hài (六合)",
                   "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Các cặp thu hút lẫn nhau. Đây là sự kết hợp phổ biến nhất trong tương thích vì nó chỉ bao gồm hai ký tự.",
+                  "Các cặp thu hút lẫn nhau. Đây là sự kết hợp phổ biến nhất trong quan hệ vì nó chỉ bao gồm hai ký tự.",
                   "{scoreYukhap}"
                 ],
                 [
                   "Nửa tam hợp (半合)",
                   "Hai ký tự bao gồm một nhánh hoàng gia (王地) từ tam hợp (子·酉·午·卯)",
-                  "Một sự kết hợp nửa bao gồm ký tự ở trung tâm của cấu trúc. Nó không thể tạo thành một sự kết hợp hoàn chỉnh chỉ với hai ký tự, khiến nó thấp hơn một tam hợp đầy đủ.",
+                  "Một sự kết hợp nửa bao gồm ký tự ở giữa cấu trúc. Nó không thể tạo thành một sự kết hợp hoàn chỉnh chỉ với hai ký tự, làm cho nó thấp hơn một tam hợp đầy đủ.",
                   "{scoreBanhap}"
                 ],
                 [
-                  "Nhánh đất giống nhau",
+                  "Cùng nhánh đất",
                   "子子 · 丑丑 …",
-                  "Các ký tự giống nhau. Điều này có nghĩa là chúng tương tự nhau, nhưng không có nghĩa là thu hút, vì vậy nó được đặt ở giữa.",
+                  "Các ký tự giống nhau. Điều này có nghĩa là chúng giống nhau, nhưng không có nghĩa là thu hút, vì vậy nó được đặt ở giữa.",
                   "{scoreSame}"
                 ],
                 [
@@ -328,7 +328,7 @@ export const VI_DOCS = {
         "title": "Tam hợp đầy đủ không xuất hiện trong dịch vụ này",
         "blocks": [
           {
-            "p": "Một tam hợp đầy đủ cần ba ký tự để hình thành. Tuy nhiên, sự tương thích được cấu trúc bằng cách ghép các nhánh đất của hai người **một cách lần lượt**, dẫn đến chỉ hai ký tự. Do đó, những gì xuất hiện ở đây luôn là một nửa tam hợp, và các điểm tam hợp đầy đủ {scoreSamhap} được giữ lại cho khi xem xét các cấu trúc trong mỗi saju."
+            "p": "Một tam hợp đầy đủ cần ba ký tự để hình thành. Tuy nhiên, sự tương thích được cấu trúc bằng cách ghép các nhánh đất của hai người **một cách riêng lẻ**, dẫn đến chỉ hai ký tự. Do đó, những gì xuất hiện ở đây luôn là một nửa tam hợp, và các điểm tam hợp đầy đủ {scoreSamhap} được dành cho khi xem xét các cấu trúc trong mỗi saju."
           }
         ]
       },
@@ -337,7 +337,7 @@ export const VI_DOCS = {
         "title": "Nửa tam hợp phải bao gồm một nhánh hoàng gia",
         "blocks": [
           {
-            "p": "Cũng có một phương pháp được coi là nửa tam hợp nếu cả hai ký tự thuộc cùng một nhóm tam hợp. Điều này có thể dẫn đến điểm số cao ngay cả cho các sự kết hợp khó gọi là tam hợp, chẳng hạn như 申辰. Do đó, dịch vụ này chỉ công nhận một nửa tam hợp cho các cặp bao gồm một nhánh hoàng gia (王地) (子·酉·午·卯), và các sự kết hợp như 申辰·巳丑·寅戌·亥未 mà không có nhánh hoàng gia không được tính là tam hợp."
+            "p": "Cũng có một phương pháp được coi là nửa tam hợp nếu cả hai ký tự thuộc cùng một nhóm tam hợp. Điều này có thể dẫn đến điểm số cao ngay cả cho các sự kết hợp khó được gọi là tam hợp, chẳng hạn như 申辰. Do đó, dịch vụ này chỉ công nhận một nửa tam hợp cho các cặp bao gồm một nhánh hoàng gia (王地) (子·酉·午·卯), và các sự kết hợp như 申辰·巳丑·寅戌·亥未 mà không có nhánh hoàng gia không được tính là tam hợp."
           }
         ]
       },
@@ -356,7 +356,7 @@ export const VI_DOCS = {
         "title": "Điểm số cũng được gán cho các va chạm",
         "blocks": [
           {
-            "p": "Điểm số va chạm thấp nhất là {scoreChung}. Ý định không phải là gán một giá trị gần 0. Trong truyền thống, một va chạm không phải là một 'kết thúc' mà là một 'va chạm', và việc gán một điểm số thấp sẽ ngụ ý rằng dịch vụ đang đưa ra một tuyên bố dứt khoát về mối quan hệ."
+            "p": "Điểm số va chạm thấp nhất là {scoreChung}. Ý định không phải là gán một giá trị gần 0. Trong truyền thống, một va chạm không phải là 'kết thúc' mà là một 'va chạm', và việc gán một điểm số thấp sẽ ngụ ý rằng dịch vụ đang đưa ra một tuyên bố dứt khoát về mối quan hệ."
           },
           {
             "p": "Với điểm tối thiểu là {scoreChung} và tối đa là {scoreSamhap}, phạm vi là rõ ràng, nhưng nó không đưa ra một kết luận dứt khoát."
@@ -366,10 +366,10 @@ export const VI_DOCS = {
     ]
   },
   "guide/zodiac": {
-    "eyebrow": "Hoàng đạo",
+    "eyebrow": "Cung hoàng đạo",
     "title": "Tại sao sự tương thích của cung hoàng đạo lại xem xét nhánh năm?",
-    "summary": "Cung hoàng đạo là nhánh đất của năm sinh. Điều này giải thích tại sao nó được lấy từ trụ năm của saju thay vì năm dương lịch, và làm rõ tầm quan trọng của sự tương thích cung hoàng đạo.",
-    "backLabel": "Cơ sở tính toán",
+    "summary": "Cung hoàng đạo là nhánh đất của năm sinh. Điều này giải thích tại sao nó được lấy từ trụ năm của saju thay vì năm dương lịch, và làm rõ ý nghĩa của sự tương thích cung hoàng đạo.",
+    "backLabel": "Cơ sở Tính toán",
     "sections": [
       {
         "title": "Cung hoàng đạo là nhánh đất của năm sinh",
@@ -431,7 +431,7 @@ export const VI_DOCS = {
                 ],
                 [
                   "亥",
-                  "Heo"
+                  "Lợn"
                 ]
               ]
             }
@@ -442,7 +442,7 @@ export const VI_DOCS = {
         "title": "Chúng tôi sử dụng năm của saju, không phải năm dương lịch",
         "blocks": [
           {
-            "p": "Thời điểm mà cung hoàng đạo thay đổi không phải là ngày 1 tháng 1 của dương lịch cũng không phải là Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào tháng 1 hoặc đầu tháng 2 có thể có năm cung hoàng đạo khác với năm trên lịch."
+            "p": "Thời điểm mà cung hoàng đạo thay đổi không phải là ngày 1 tháng 1 của dương lịch hay Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào tháng 1 hoặc đầu tháng 2 có thể có năm cung hoàng đạo khác với năm trên lịch."
           }
         ]
       },
@@ -451,7 +451,7 @@ export const VI_DOCS = {
         "title": "Lý do chúng tôi không hỏi trực tiếp về cung hoàng đạo",
         "blocks": [
           {
-            "p": "Đó là lý do tại sao chúng tôi chỉ thu thập ngày sinh mà không hỏi về cung hoàng đạo trên màn hình nhập liệu. Khi động cơ saju tính toán nhánh năm, ranh giới của Ipchun được điều chỉnh tự động. Nếu bạn chọn trực tiếp, một người sinh vào đầu tháng 2 có thể chọn một cung hoàng đạo không khớp với cung hoàng đạo thực tế của họ."
+            "p": "Đó là lý do tại sao chúng tôi chỉ thu thập ngày sinh mà không hỏi về cung hoàng đạo trên màn hình nhập liệu. Khi động cơ saju tính toán nhánh năm, ranh giới của Ipchun được điều chỉnh tự động. Nếu bạn chọn trực tiếp, người sinh vào đầu tháng 2 có thể chọn một cung hoàng đạo không khớp với cung hoàng đạo thực tế của họ."
           }
         ]
       },
@@ -459,7 +459,7 @@ export const VI_DOCS = {
         "title": "Sự tương thích cung hoàng đạo chỉ xem xét một mối quan hệ",
         "blocks": [
           {
-            "p": "Việc tính toán sự tương thích cung hoàng đạo rất đơn giản. Nó so sánh các nhánh năm của hai người để xác định xem mối quan hệ có hài hòa, có xung đột hay có sự bất hòa nhẹ, và sử dụng điểm số đó như vậy. Vì chỉ có một mục, không cần phân phối trọng số."
+            "p": "Việc tính toán sự tương thích cung hoàng đạo rất đơn giản. Nó so sánh các nhánh năm của hai người để xác định liệu mối quan hệ có hài hòa, có xung đột hay có sự bất hòa nhẹ, và sử dụng điểm số đó như vậy. Vì chỉ có một mục, không cần phân phối trọng số."
           },
           {
             "p": "Các điểm số cho mỗi mối quan hệ đều được liệt kê trong [Bảng Quan Hệ Mười Hai Nhánh](/guide/branches). Sự tương thích nhánh ngày sử dụng cùng một bảng."
@@ -470,7 +470,7 @@ export const VI_DOCS = {
         "title": "Lý do xác định trọng số",
         "blocks": [
           {
-            "p": "Sự tương thích cung hoàng đạo chiếm {weightZodiac} trong tỷ lệ khớp cuối cùng. Trong khi sự tương thích saju xem xét tất cả bốn trụ, cung hoàng đạo chỉ xem xét một nhân vật, vì vậy chúng không thể được trọng số như nhau."
+            "p": "Sự tương thích cung hoàng đạo chiếm {weightZodiac} trong tỷ lệ khớp cuối cùng. Trong khi sự tương thích saju xem xét cả bốn trụ, cung hoàng đạo chỉ xem xét một nhân vật, vì vậy chúng không thể được trọng số như nhau."
           },
           {
             "p": "Tuy nhiên, có hai lý do tại sao nó không bị loại trừ."
@@ -487,7 +487,7 @@ export const VI_DOCS = {
         "title": "Bạn cũng có thể xem sự tương thích cung hoàng đạo riêng biệt",
         "blocks": [
           {
-            "p": "Trên màn hình kết quả, chúng tôi hiển thị điểm số cho cả sự tương thích saju và sự tương thích cung hoàng đạo riêng biệt. Nếu chỉ trình bày tỷ lệ khớp cuối cùng, sẽ không rõ số đó đến từ đâu. Nếu hai giá trị khác nhau đáng kể, điều đó tự nó cũng đáng lưu ý."
+            "p": "Trên màn hình kết quả, chúng tôi hiển thị điểm số cho cả sự tương thích saju và sự tương thích cung hoàng đạo một cách riêng biệt. Nếu chỉ trình bày tỷ lệ khớp cuối cùng, sẽ không rõ số đó đến từ đâu. Nếu hai giá trị khác nhau đáng kể, điều đó tự nó cũng đáng lưu ý."
           }
         ]
       }
@@ -496,25 +496,25 @@ export const VI_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Mười Thần",
     "title": "Mười Thần và Vị Trí Vợ Chồng",
-    "summary": "Chúng tôi xem xét ngày can của mỗi người đối với nhau thông qua Mười Thần. Chúng tôi giải thích tại sao tài sản trực tiếp và tài sản gián tiếp được đọc khác nhau mặc dù cả hai đều là tài sản.",
-    "backLabel": "Cơ sở tính toán",
+    "summary": "Chúng tôi xem xét thiên can của mỗi người đối với nhau thông qua Mười Thần. Chúng tôi giải thích tại sao tài sản trực tiếp và tài sản gián tiếp được đọc khác nhau mặc dù cả hai đều là tài sản.",
+    "backLabel": "Cơ sở Tính toán",
     "sections": [
       {
-        "title": "Cột ngày là chính bản thân người đó",
+        "title": "Căn ngày là chính bản thân người đó",
         "blocks": [
           {
-            "p": "Trong tám ký tự của saju, **cột ngày** (cột thiên của ngày sinh) đề cập đến chính bản thân người đó. Bảy ký tự còn lại được đọc như môi trường mà cột ngày đó được đặt vào."
+            "p": "Trong tám ký tự của saju, **căn ngày** (căn thiên của ngày sinh) đề cập đến chính bản thân người đó. Bảy ký tự còn lại được đọc như môi trường mà căn ngày đó được đặt vào."
           },
           {
-            "p": "**Mười vị thần** (十神) phân chia cách mà cột ngày nhận thức các ký tự khác thành mười loại. Điều nuôi dưỡng tôi là **tài nguyên**, điều giống tôi là **bạn bè**, điều tôi sản xuất là **đầu ra**, điều tôi kiểm soát là **tài sản**, và điều kiểm soát tôi là **quyền lực** — mỗi trong năm điều này sau đó được chia theo cực, tạo thành mười."
+            "p": "**Mười Thần** (十神) phân chia cách mà căn ngày nhận thức các ký tự khác thành mười loại. Điều nuôi dưỡng tôi là **tài nguyên**, điều giống tôi là **bạn bè**, điều tôi sản xuất là **đầu ra**, điều tôi kiểm soát là **tài sản**, và điều kiểm soát tôi là **quyền lực** — mỗi một trong năm điều này sau đó được chia theo tính cực, tạo thành mười."
           }
         ]
       },
       {
-        "title": "Cột ngày của mỗi người là gì đối với nhau",
+        "title": "Căn ngày của mỗi người là gì đối với nhau",
         "blocks": [
           {
-            "p": "Đây là mục đầu tiên trong sự tương thích. Khi xác định được cách mà cột ngày của A nhận thức cột ngày của B, thì nhận thức của B về A cũng được xác định, vì vậy chỉ có **sáu khả năng**."
+            "p": "Đây là mục đầu tiên trong sự tương hợp. Khi xác định được căn ngày của A nhận thức căn ngày của B như thế nào, nhận thức của B về A cũng được xác định, vì vậy chỉ có **sáu khả năng**."
           },
           {
             "table": {
@@ -528,38 +528,38 @@ export const VI_DOCS = {
               "rows": [
                 [
                   "Tài sản trực tiếp ↔ Quyền lực trực tiếp",
-                  "Cực đối",
-                  "Liên kết ấm (有情)",
-                  "Đây là cặp thường được xem như vị trí của vợ/chồng. Âm và dương không khớp, thu hút nhau."
+                  "Tính cực đối lập",
+                  "Mối liên kết ấm (有情)",
+                  "Đây là cặp đôi truyền thống được xem như vị trí của vợ/chồng. Âm và dương không khớp nhau, thu hút lẫn nhau."
                 ],
                 [
-                  "Sát thương quan chức ↔ Tài nguyên trực tiếp",
-                  "Cực đối",
-                  "Sát thương quan chức mang ấn (傷官佩印)",
-                  "Một bên bao bọc năng lượng mạnh mẽ của bên kia."
+                  "Sát thương Quan ↔ Tài nguyên trực tiếp",
+                  "Tính cực đối lập",
+                  "Sát thương Quan mang Ấn (傷官佩印)",
+                  "Một bên bao bọc năng lượng mãnh liệt của bên kia."
                 ],
                 [
                   "Bạn bè ↔ Bạn bè",
-                  "Cùng cực",
-                  "Bình đẳng",
-                  "Họ giống nhau và bình đẳng, nhưng không thúc đẩy nhau."
+                  "Tính cực giống nhau",
+                  "Bằng nhau",
+                  "Họ giống nhau và bằng nhau, nhưng không thúc đẩy lẫn nhau."
                 ],
                 [
                   "Đối thủ ↔ Đối thủ",
-                  "Cực đối",
+                  "Tính cực đối lập",
                   "Cạnh tranh",
-                  "Họ thu hút nhau nhưng cạnh tranh cho cùng một vị trí."
+                  "Họ thu hút lẫn nhau nhưng cạnh tranh cho cùng một vị trí."
                 ],
                 [
                   "Tài sản gián tiếp ↔ Quyền lực gián tiếp",
-                  "Cùng cực",
-                  "Liên kết lạnh (無情)",
+                  "Tính cực giống nhau",
+                  "Mối liên kết lạnh (無情)",
                   "Sự kích thích rất lớn, nhưng gánh nặng cũng nặng nề."
                 ],
                 [
                   "Thần ăn ↔ Tài nguyên gián tiếp",
-                  "Cùng cực",
-                  "Ngôi sao cú cướp thức ăn (梟神奪食)",
+                  "Tính cực giống nhau",
+                  "Ngôi sao cú cắp thực phẩm (梟神奪食)",
                   "Năng lượng được cung cấp bị bên đối tác lấy đi, chặn dòng chảy."
                 ]
               ]
@@ -572,33 +572,33 @@ export const VI_DOCS = {
         "title": "Âm và Dương đang ở ngã ba đường",
         "blocks": [
           {
-            "p": "Bên mà âm và dương không khớp (Tài sản chính, Quan chức chính, Bạn đồng hành chính) là cảm xúc, trong khi bên giống nhau (Tài nguyên, Quan chức, Bạn đồng hành) là không cảm xúc, đây là nguyên tắc phân biệt giữa chính và bên của Mười vị thần."
+            "p": "Bên mà âm và dương không khớp (Tài sản chính, Quan chính, Bạn đồng hành chính) là cảm xúc, trong khi bên giống nhau (Tài nguyên, Quan, Bạn đồng hành) là không có cảm xúc, đây là nguyên tắc phân biệt giữa chính và bên của Mười Thần."
           }
         ]
       },
       {
-        "title": "Lý do xem xét với Mười vị thần thay vì ba yếu tố",
+        "title": "Lý do xem xét với Mười Thần thay vì ba yếu tố",
         "blocks": [
           {
-            "p": "Có một phương pháp xem xét mối quan hệ của cột ngày với ba yếu tố (sinh ra lẫn nhau, giống nhau, vượt qua lẫn nhau). Nó đơn giản, nhưng **âm và dương biến mất.** 甲 (gỗ dương) và 乙 (gỗ âm) trở thành cùng một 'sự giống nhau' như 甲 và 甲, và sự vượt qua lẫn nhau bị nghiền nát thành một điểm số duy nhất mà không có hướng đi hoặc âm và dương."
+            "p": "Có một phương pháp xem xét mối quan hệ của căn ngày với ba yếu tố (sinh ra lẫn nhau, giống nhau, vượt qua lẫn nhau). Nó đơn giản, nhưng **âm và dương biến mất.** 甲 (gỗ dương) và 乙 (gỗ âm) trở thành cùng một 'sự giống nhau' như 甲 và 甲, và sự vượt qua lẫn nhau bị nghiền nát thành một điểm số duy nhất mà không có hướng đi hoặc âm và dương."
           },
           {
-            "p": "Vị trí vợ/chồng phải được đánh giá theo Mười vị thần. Nếu các mục được xem xét bởi năm yếu tố và các mục được xem xét bởi Mười vị thần bị trộn lẫn trong một động cơ, sẽ có hai tiêu chuẩn cho cùng hai ký tự. Do đó, chúng tôi thống nhất với Mười vị thần."
+            "p": "Vị trí vợ/chồng phải được đánh giá theo Mười Thần. Nếu các mục được xem xét bởi năm yếu tố và các mục được xem xét bởi Mười Thần được trộn lẫn trong một động cơ, sẽ có hai tiêu chuẩn cho cùng hai ký tự. Do đó, chúng tôi thống nhất với Mười Thần."
           }
         ]
       },
       {
-        "title": "Vị trí vợ/chồng là Tài sản chính và Quan chức chính",
+        "title": "Vị trí vợ/chồng là Tài sản chính và Quan chính",
         "blocks": [
           {
-            "p": "Trong truyền thống, vị thần nào trong Mười vị thần đại diện cho vợ/chồng khác nhau theo giới tính."
+            "p": "Trong truyền thống, Mười Thần nào đại diện cho vợ/chồng khác nhau theo giới tính."
           },
           {
             "table": {
               "head": [
                 "Giới tính",
-                "Vị trí vợ/chồng",
-                "Vị trí tương ứng"
+                "Vị trí Vợ/chồng",
+                "Vị trí Tương ứng"
               ],
               "rows": [
                 [
@@ -632,10 +632,10 @@ export const VI_DOCS = {
         "title": "Chúng tôi cũng cho thấy hình dạng của mối quan hệ",
         "blocks": [
           {
-            "p": "Ngoài điểm số, chúng tôi mô tả **hình dạng** mà cặp ngày can có trên màn hình kết quả. Liệu chúng có vị trí tương tự, liệu một bên có hỗ trợ bên kia, hay liệu một bên bị áp chế — nếu đó là một mối quan hệ hỗ trợ hoặc áp chế, chúng tôi làm rõ bên nào giữ vị trí đó."
+            "p": "Ngoài điểm số, chúng tôi mô tả **hình dạng** mà cặp ngày chi có trên màn hình kết quả. Liệu chúng có vị trí tương tự, liệu một bên hỗ trợ bên kia, hay liệu một bên bị áp chế — nếu đó là mối quan hệ hỗ trợ hoặc áp chế, chúng tôi làm rõ bên nào giữ vị trí đó."
           },
           {
-            "p": "Nếu chỉ có một điểm số được trình bày, nó để lại câu hỏi 'vậy thì sao'. Hình dạng không phải là một điểm số mà là một điều để đọc, và ngay cả những cặp có điểm số thấp cũng có điều gì đó để diễn giải."
+            "p": "Nếu chỉ có một điểm số được trình bày, nó để lại câu hỏi 'vậy thì sao'. Hình dạng không phải là một điểm số mà là điều để đọc, và ngay cả những cặp có điểm số thấp cũng có điều gì đó để diễn giải."
           }
         ]
       }
@@ -643,7 +643,7 @@ export const VI_DOCS = {
   },
   "guide/yongsin": {
     "eyebrow": "Ngũ hành",
-    "title": "Yếu tố Hỗ trợ — Năng lượng cần thiết ngay bây giờ",
+    "title": "Yếu tố hỗ trợ — Năng lượng cần thiết ngay bây giờ",
     "summary": "Chúng tôi xem ngũ hành không phải là 'họ có chọn hai không' mà là 'đối tác có những gì tôi cần không'. Chúng tôi cũng tiết lộ giá trị ranh giới phân biệt giữa một ngày chủ mạnh và một ngày chủ yếu.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
@@ -651,18 +651,18 @@ export const VI_DOCS = {
         "title": "Liệu ngũ hành có 'cân bằng' hay không không phải là câu hỏi về sự tương thích",
         "blocks": [
           {
-            "p": "Có một phương pháp để đo lường liệu năm năng lượng có được phân phối đều hay không bằng cách kết hợp ngũ hành của hai người. Tuy nhiên, câu hỏi về sự tương thích không phải là điều đó. **Đối tác có những gì tôi cần không?**"
+            "p": "Có một phương pháp để đo lường liệu năm năng lượng có được phân bổ đều hay không bằng cách kết hợp ngũ hành của hai người. Tuy nhiên, câu hỏi về sự tương thích không phải là điều đó. **Đối tác có những gì tôi cần không?**"
           },
           {
-            "p": "Mức độ cân bằng là đối xứng, nhưng tính bổ sung thì vốn dĩ không đối xứng. Điều này là vì những gì A cần khác với những gì B cần. Do đó, chúng tôi đo lường mỗi bên riêng biệt và trung bình — vì đây là một giá trị trung bình, tổng điểm vẫn giữ tính đối xứng."
+            "p": "Mức độ cân bằng là đối xứng, nhưng tính bổ sung thì vốn dĩ không đối xứng. Điều này là vì những gì A cần khác với những gì B cần. Do đó, chúng tôi đo lường từng bên riêng biệt và trung bình — vì đây là một trung bình, tổng điểm vẫn giữ tính đối xứng."
           }
         ]
       },
       {
-        "title": "Yếu tố Hỗ trợ — Giảm nếu quá mức, thêm nếu không đủ",
+        "title": "Yếu tố hỗ trợ — Giảm nếu quá mức, thêm nếu không đủ",
         "blocks": [
           {
-            "p": "Yếu tố Hỗ trợ (用神) là 'năng lượng mà người này cần ngay bây giờ'. Có nhiều phương pháp để xác định nó (áp chế, hỗ trợ, bệnh tật và giao tiếp), nhưng nó có thể được dịch thành các quy tắc, và phương pháp được sử dụng rộng rãi nhất là **áp chế (抑扶)**. Nếu ngày chủ mạnh, người ta cho rằng cần năng lượng để giảm, và nếu yếu, cần năng lượng để thêm vào."
+            "p": "Yếu tố hỗ trợ (用神) là 'năng lượng mà người này cần ngay bây giờ'. Có một số phương pháp để xác định nó (áp chế, hỗ trợ, bệnh tật và giao tiếp), nhưng nó có thể được dịch thành các quy tắc, và phương pháp được sử dụng rộng rãi nhất là **áp chế (抑扶)**. Nếu ngày chủ mạnh, người ta thấy rằng cần năng lượng để giảm, và nếu yếu, cần năng lượng để thêm."
           },
           {
             "table": {
@@ -696,7 +696,7 @@ export const VI_DOCS = {
         "title": "Giá trị ngưỡng cho sức mạnh và yếu",
         "blocks": [
           {
-            "p": "Bên ngày can là **印星 và 比劫** — năng lượng sinh ra tôi và năng lượng giống như tôi. Vì hai trong số năm, nếu năng lượng hoàn toàn cân bằng, nó trở thành {evenAllyRatio}. Một khoảng giá trị được thiết lập trên và dưới giá trị đó."
+            "p": "Bên ngày chi là **印星 và 比劫** — năng lượng sinh ra tôi và năng lượng giống như tôi. Vì hai trong số năm, nếu năng lượng hoàn toàn cân bằng, nó trở thành {evenAllyRatio}. Một khoảng giá trị được thiết lập trên và dưới giá trị đó."
           },
           {
             "table": {
@@ -707,11 +707,11 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "{strongThreshold} hoặc nhiều hơn",
+                  "{strongThreshold} hoặc hơn",
                   "Ngày chủ mạnh"
                 ],
                 [
-                  "{weakThreshold} hoặc nhiều hơn và ít hơn {strongThreshold}",
+                  "{weakThreshold} hoặc hơn và ít hơn {strongThreshold}",
                   "Cân bằng"
                 ],
                 [
@@ -739,7 +739,7 @@ export const VI_DOCS = {
             "p": "Khi đếm sức mạnh của ngũ hành, chúng tôi không chỉ đơn giản đếm tám ký tự như chúng xuất hiện. Chúng tôi sử dụng một giá trị phản ánh các thiên can ẩn (地藏干) bên trong các nhánh đất và mùa của năng lượng của tháng (月令) mà một người được sinh ra."
           },
           {
-            "p": "Nếu chúng tôi chỉ đếm các ký tự bề mặt, chúng tôi sẽ bỏ lỡ thực tế rằng ngay cả hai ký tự của 木 cũng có thể có sức mạnh hoàn toàn khác nhau tùy thuộc vào mùa. 木 của mùa xuân và 木 của mùa thu, mặc dù chúng là cùng một ký tự, có sức mạnh khác nhau."
+            "p": "Nếu chúng tôi chỉ đếm các ký tự bề mặt, chúng tôi bỏ lỡ thực tế rằng ngay cả hai ký tự của 木 cũng có thể có sức mạnh hoàn toàn khác nhau tùy thuộc vào mùa. 木 của mùa xuân và 木 của mùa thu, mặc dù chúng là cùng một ký tự, có sức mạnh khác nhau."
           }
         ]
       },
@@ -747,7 +747,7 @@ export const VI_DOCS = {
         "title": "Chấm điểm mức độ lấp đầy",
         "blocks": [
           {
-            "p": "Chúng tôi xem tỷ lệ của yếu tố hỗ trợ của tôi trong sức mạnh của đối thủ. Tuy nhiên, chúng tôi không sử dụng tỷ lệ đó trực tiếp mà **chia kỳ vọng cho kích thước của yếu tố hỗ trợ.** Khi mạnh, yếu tố hỗ trợ là ba (kỳ vọng 60%), và khi yếu, nó là hai (kỳ vọng 40%), vì vậy việc sử dụng tỷ lệ trực tiếp sẽ có nghĩa là một người mạnh luôn nhận được điểm số cao hơn."
+            "p": "Chúng tôi xem xét tỷ lệ của yếu tố hỗ trợ của tôi trong sức mạnh của đối thủ. Tuy nhiên, chúng tôi không sử dụng tỷ lệ đó trực tiếp mà **chia kỳ vọng cho kích thước của yếu tố hỗ trợ.** Khi mạnh, yếu tố hỗ trợ là ba (kỳ vọng 60%), và khi yếu, nó là hai (kỳ vọng 40%), vì vậy việc sử dụng tỷ lệ trực tiếp có nghĩa là một người mạnh luôn nhận được điểm số cao hơn."
           },
           {
             "p": "Nếu lấp đầy đến mức kỳ vọng, một điểm số gần 78 điểm được đạt được, và nếu lấp đầy nhiều hơn, nó đạt 100 điểm, trong khi nếu thiếu hụt đáng kể, nó hướng tới 55 điểm. Ở đây, cũng vậy, đáy không được đặt ở 0."
@@ -758,10 +758,10 @@ export const VI_DOCS = {
         "title": "Đây là một phán đoán sơ bộ",
         "blocks": [
           {
-            "p": "Phân tích saju thực tế xem xét sự hình thành và khí hậu mùa vụ (nhiệt độ và độ ẩm của mùa) để xác định yếu tố hỗ trợ, và kết luận có thể khác nhau tùy thuộc vào phương pháp được sử dụng. Inyeon-Link chỉ sử dụng các yếu tố hỗ trợ có thể được đo bằng **giá trị sức mạnh.** Điều này là do nguyên tắc chỉ sử dụng những gì có thể được dịch thành quy tắc, vì vậy cùng một đầu vào sẽ luôn cho ra cùng một câu trả lời."
+            "p": "Phân tích saju thực tế xem xét sự hình thành và khí hậu theo mùa (nhiệt độ và độ ẩm của mùa) để xác định yếu tố hỗ trợ, và các kết luận có thể thay đổi tùy thuộc vào phương pháp được sử dụng. Inyeon-Link chỉ sử dụng các yếu tố hỗ trợ có thể được đo bằng **giá trị sức mạnh.** Điều này là do nguyên tắc chỉ sử dụng những gì có thể được dịch thành quy tắc, vì vậy cùng một đầu vào sẽ luôn cho ra cùng một câu trả lời."
           },
           {
-            "p": "Thay vào đó, màn hình kết quả cũng trình bày sức mạnh và yếu của mỗi người cùng với năng lượng hiện tại cần thiết như **tài liệu đọc**. Điều này nhằm tránh việc che giấu cơ sở của điểm số."
+            "p": "Thay vào đó, màn hình kết quả cũng trình bày sức mạnh và yếu của mỗi người cùng với năng lượng cần thiết hiện tại như **tài liệu đọc.** Điều này nhằm tránh việc che giấu cơ sở của điểm số."
           }
         ]
       }
@@ -769,15 +769,15 @@ export const VI_DOCS = {
   },
   "guide/affinity": {
     "eyebrow": "Tiêu chuẩn của chúng tôi",
-    "title": "Inyeon’s Match — Lý do không cung cấp điểm số tổng thể",
-    "summary": "Chúng tôi chỉ lấy dữ liệu của một người trong khi để trống vị trí của đối thủ và thay thế tất cả các giá trị có thể vào vị trí đó. Chúng tôi giải thích lý do không đính kèm điểm số tổng thể vào loại thu được theo cách này.",
+    "title": "Inyeon’s Match — Lý do không cung cấp điểm tổng",
+    "summary": "Chúng tôi chỉ lấy dữ liệu của một người trong khi để vị trí của đối thủ trống và thay thế tất cả các giá trị có thể vào vị trí đó. Chúng tôi giải thích lý do không gán điểm tổng cho loại thu được theo cách này.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
       {
-        "title": "Các phép tính được thực hiện trong khi để trống vị trí của đối thủ",
+        "title": "Các phép tính được thực hiện trong khi để vị trí của đối thủ trống",
         "blocks": [
           {
-            "p": "Điểm số tương thích được tính toán bằng cách ghép hai người lại với nhau. **Inyeon’s Match** chỉ lấy dữ liệu của một người trong khi để trống vị trí của đối thủ và kiểm tra tất cả các giá trị có thể có thể vào vị trí đó. Nó giống như chạy động cơ tương thích theo chiều ngược lại."
+            "p": "Điểm tương thích được tính toán bằng cách ghép hai người lại với nhau. **Inyeon’s Match** chỉ lấy dữ liệu của một người trong khi để vị trí của đối thủ trống và kiểm tra tất cả các giá trị có thể mà có thể vào vị trí đó. Nó giống như chạy động cơ tương thích theo chiều ngược lại."
           },
           {
             "p": "Do đó, không cần biết ngày sinh của đối thủ. Chúng tôi vẫn có thể nói, 'Loại hồ sơ kết hợp nào phù hợp với tôi?' về một người mà chúng tôi chưa gặp."
@@ -785,10 +785,10 @@ export const VI_DOCS = {
         ]
       },
       {
-        "title": "Chúng tôi không chạy hàng triệu tổ hợp",
+        "title": "Chúng tôi không chạy hàng triệu sự kết hợp",
         "blocks": [
           {
-            "p": "Điểm số tương thích trong saju bao gồm bốn mục, và **mỗi mục không chồng chéo lên những gì nó kiểm tra.**"
+            "p": "Điểm tương thích trong saju bao gồm bốn mục, và **mỗi mục không chồng chéo lên nhau trong những gì nó kiểm tra.**"
           },
           {
             "table": {
@@ -799,30 +799,30 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "Mối quan hệ giữa ngày stem · Tính chất vợ chồng",
-                  "Các ngày stem của cả hai người — heavenly stems",
+                  "Mối quan hệ giữa ngày can · Tính chất vợ chồng",
+                  "Các ngày can của cả hai người — thiên can",
                   "10"
                 ],
                 [
-                  "Năm yếu tố bổ sung",
-                  "Yếu tố hỗ trợ của tôi và sức mạnh năm yếu tố của đối thủ",
+                  "Ngũ hành bổ sung",
+                  "Yếu tố hỗ trợ của tôi và sức mạnh ngũ hành của đối thủ",
                   "5"
                 ],
                 [
-                  "Mối quan hệ giữa ngày branch",
-                  "các ngày branch của hai người",
+                  "Mối quan hệ giữa ngày chi",
+                  "các ngày chi của hai người",
                   "12"
                 ],
                 [
-                  "Mối quan hệ giữa cung hoàng đạo",
-                  "các năm branch của hai người",
+                  "Mối quan hệ giữa các con giáp",
+                  "các năm chi của hai người",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Vì các giá trị không trao đổi giữa các mục, **tìm điểm cao nhất cho mỗi nhánh sẽ là điểm cao nhất tổng thể.** Không cần kiểm tra tất cả các tổ hợp ngày sinh — chỉ cần đặt mười heavenly stems, mười hai earthly branches, và năm yếu tố là đủ."
+            "p": "Vì các giá trị không trao đổi giữa các mục, **tìm điểm cao nhất cho mỗi nhánh sẽ là điểm cao nhất tổng thể.** Không cần kiểm tra tất cả các sự kết hợp của ngày sinh — chỉ cần thiết lập mười thiên can, mười hai địa chi và năm yếu tố là đủ."
           }
         ]
       },
@@ -831,21 +831,21 @@ export const VI_DOCS = {
         "title": "Các quy tắc tương tự áp dụng",
         "blocks": [
           {
-            "p": "Các điểm số được viết ở đây được lấy trực tiếp từ động cơ tương thích. Vì không có quy tắc mới nào được tạo ra, loại xuất hiện ở đây cũng sẽ có điểm số cao nhất cho mục đó trong tương thích thực tế. Nếu các quy tắc tương thích thay đổi, màn hình này cũng sẽ theo đó."
+            "p": "Các điểm được viết ở đây được lấy trực tiếp từ động cơ tương thích. Vì không có quy tắc mới nào được tạo ra, loại xuất hiện ở đây cũng sẽ có điểm cao nhất cho mục đó trong tương thích thực tế. Nếu các quy tắc tương thích thay đổi, màn hình này cũng sẽ theo đó."
           }
         ]
       },
       {
-        "title": "Không cung cấp điểm số tổng thể",
+        "title": "Không cung cấp điểm tổng",
         "blocks": [
           {
-            "p": "Đây là quyết định quan trọng nhất trên màn hình này. Việc thu thập các điểm số cao nhất cho mỗi nhánh có thể có vẻ tạo ra một 'kết hợp hoàn hảo', nhưng người đó có thể **không thực sự tồn tại.**"
+            "p": "Đây là quyết định quan trọng nhất trên màn hình này. Việc thu thập các điểm cao nhất cho mỗi nhánh có thể có vẻ tạo ra một 'sự kết hợp hoàn hảo', nhưng người đó có thể **không thực sự tồn tại.**"
           },
           {
-            "p": "Trong những người thực, day master và năm yếu tố không hoạt động riêng biệt. Một người có 甲木 thường có năng lượng 木 mạnh mẽ. Phương pháp tính toán các nhánh riêng biệt này bỏ qua mối tương quan đó, vì vậy giá trị thu được bằng cách kết nối các điểm số cao nhất cho mỗi nhánh trở thành một tổ hợp không tồn tại trong thực tế."
+            "p": "Trong thực tế, ngày chủ và ngũ hành không hoạt động riêng biệt. Một người có 甲木 thường có năng lượng 木 mạnh mẽ. Phương pháp này tính toán các nhánh riêng biệt bỏ qua mối tương quan đó, vì vậy giá trị thu được bằng cách kết nối các điểm cao nhất cho mỗi nhánh trở thành một sự kết hợp không tồn tại trong thực tế."
           },
           {
-            "p": "Do đó, màn hình chỉ hiển thị **điểm số mục** và không cung cấp điểm số tổng thể. Điểm số tổng thể sẽ được tính toán bằng cách nhận ngày sinh của người khác cho [saju compatibility](/compatibility)."
+            "p": "Do đó, màn hình chỉ hiển thị **điểm mục** và không cung cấp điểm tổng. Điểm tổng sẽ được tính toán bằng cách nhận ngày sinh của người khác cho [tương thích saju](/compatibility)."
           }
         ]
       },
@@ -853,10 +853,10 @@ export const VI_DOCS = {
         "title": "Cách đọc 'các loại kết hợp'",
         "blocks": [
           {
-            "p": "Kết quả có nghĩa là 'nếu bạn gặp một người thuộc loại này, mục này sẽ có điểm số cao'. Đây không phải là tiêu chí để chọn một người, mà là một cách để đọc từ một góc độ hiểu bản thân."
+            "p": "Kết quả có nghĩa là 'nếu bạn gặp một người thuộc loại này, mục này sẽ có điểm cao'. Đây không phải là tiêu chí để chọn một người, mà là một cách để đọc từ một góc độ hiểu biết về bản thân."
           },
           {
-            "p": "Các lý do tại sao một số loại có điểm số cao cũng được ghi chú từng mục — liệu day master có ở vị trí thuận lợi hay không, hoặc liệu người đó có sở hữu năng lượng mà tôi hiện cần."
+            "p": "Các lý do tại sao một số loại có điểm cao cũng được ghi chú từng mục — liệu ngày chủ có ở vị trí thuận lợi hay không, hoặc liệu người đó có sở hữu năng lượng mà tôi hiện cần."
           }
         ]
       },
@@ -864,7 +864,7 @@ export const VI_DOCS = {
         "title": "Công cụ xác nhận",
         "blocks": [
           {
-            "p": "Bạn có thể tò mò liệu người mà bạn đang nghĩ đến có tương ứng với loại đó hay không. Bằng cách nhập ngày sinh của họ vào công cụ xác nhận trên màn hình kết quả, bạn sẽ được thông báo về day master, day branch, và year branch của họ. Các giá trị nhập vào không được lưu lại vào thời điểm này [(không lưu)](/guide/no-storage)."
+            "p": "Bạn có thể thắc mắc liệu người mà bạn đang nghĩ đến có tương ứng với loại đó hay không. Bằng cách nhập ngày sinh của họ vào công cụ xác nhận trên màn hình kết quả, bạn sẽ được thông báo về ngày chủ, ngày chi và năm chi của họ. Các giá trị nhập vào không được lưu lại vào thời điểm này [(không được lưu)](/guide/no-storage)."
           }
         ]
       }
@@ -880,7 +880,7 @@ export const VI_DOCS = {
         "title": "Thời gian trên đồng hồ và thời gian của mặt trời là khác nhau",
         "blocks": [
           {
-            "p": "Cột thời gian (時柱) của saju được xác định bởi vị trí của mặt trời. Tuy nhiên, đồng hồ mà chúng ta thấy sử dụng một thời gian chuẩn duy nhất cho toàn quốc, điều này gây ra sự khác biệt với vị trí thực tế của mặt trời."
+            "p": "Cột thời gian (時柱) của saju được xác định bởi vị trí của mặt trời. Tuy nhiên, đồng hồ mà chúng ta thấy sử dụng một thời gian chuẩn duy nhất cho toàn quốc, điều này gây ra sự sai lệch với vị trí thực tế của mặt trời."
           },
           {
             "p": "Thời gian chuẩn của Hàn Quốc dựa trên kinh độ 135° đông. Vì kinh độ của Seoul khoảng 127°, nó cách khoảng 8° về phía tây, khiến mặt trời đạt đỉnh muộn hơn — khi đồng hồ chỉ 12 giờ trưa, mặt trời ở Seoul vẫn chưa đạt đỉnh. Sự khác biệt này khoảng **32 phút**."
@@ -892,7 +892,7 @@ export const VI_DOCS = {
         "title": "32 phút thay đổi cột thời gian một slot",
         "blocks": [
           {
-            "p": "Thời gian trong saju được chia thành các đơn vị hai giờ. Những người sinh gần ranh giới sẽ có cột thời gian của họ hoàn toàn thay đổi bởi sự khác biệt 32 phút — sự điều chỉnh này là cần thiết đối với những người rơi đúng vào ranh giới này."
+            "p": "Thời gian trong saju được chia thành các đơn vị hai giờ. Những người sinh gần ranh giới sẽ có cột thời gian của họ hoàn toàn thay đổi bởi sự khác biệt 32 phút — việc điều chỉnh này là cần thiết đối với những người rơi đúng vào ranh giới này."
           }
         ]
       },
@@ -900,13 +900,13 @@ export const VI_DOCS = {
         "title": "Tại sao chúng tôi yêu cầu nơi sinh",
         "blocks": [
           {
-            "p": "Nếu kinh độ khác nhau, lượng điều chỉnh cũng sẽ khác. Áp dụng điều chỉnh dựa trên Seoul cho một người sinh ở nước ngoài sẽ dẫn đến sự khác biệt đáng kể trong cột thời gian. Do đó, màn hình nhập liệu yêu cầu bạn chọn nơi sinh của mình, và việc tính toán dựa trên kinh độ và thời gian chuẩn của thành phố đó. Hiện tại, có {cityCount} địa điểm trong danh sách."
+            "p": "Nếu kinh độ khác nhau, số lượng điều chỉnh cũng sẽ khác. Áp dụng điều chỉnh dựa trên Seoul cho một người sinh ở nước ngoài sẽ dẫn đến sự sai lệch đáng kể trong cột thời gian. Do đó, màn hình nhập yêu cầu bạn chọn nơi sinh của mình, và việc tính toán dựa trên kinh độ và thời gian chuẩn của thành phố đó. Hiện tại, có {cityCount} địa điểm trong danh sách."
           },
           {
             "p": "Tại những nơi mà kinh độ thay đổi lớn ngay cả trong cùng một quốc gia (như Mỹ, Nga, Indonesia, v.v.), các thành phố đã được chia nhỏ. **15° kinh độ tương đương với một slot cột thời gian.**"
           },
           {
-            "p": "Nếu bạn không chọn, việc tính toán sẽ dựa trên Seoul. Vì hầu hết các ca sinh là trong nước, điều này giảm khả năng xảy ra lỗi, nhưng nếu bạn sinh ra ở nước ngoài, hãy chắc chắn chọn."
+            "p": "Nếu bạn không chọn, việc tính toán sẽ dựa trên Seoul. Vì hầu hết các ca sinh là trong nước, điều này giảm khả năng sai sót, nhưng nếu bạn sinh ra ở nước ngoài, xin hãy chắc chắn chọn."
           }
         ]
       },
@@ -914,11 +914,11 @@ export const VI_DOCS = {
         "title": "Thời gian chuẩn đã thay đổi nhiều lần trong quá khứ",
         "blocks": [
           {
-            "p": "Có lý do tại sao việc điều chỉnh không thể được tính toán đơn giản là 'chênh lệch kinh độ ÷ 15° × 60 phút'. Thời gian chuẩn bản thân đã thay đổi qua các thời kỳ khác nhau."
+            "p": "Có lý do tại sao việc điều chỉnh không thể được tính toán đơn giản là 'sự khác biệt về kinh độ ÷ 15° × 60 phút'. Thời gian chuẩn bản thân đã thay đổi qua các thời kỳ khác nhau."
           },
           {
             "table": {
-              "caption": "Thay đổi về giờ chuẩn của Hàn Quốc — những người sinh trong khoảng thời gian này sẽ có sự khác biệt với các phép tính đơn giản",
+              "caption": "Thay đổi trong giờ chuẩn của Hàn Quốc — những người sinh trong khoảng thời gian này sẽ có sự khác biệt với các phép tính đơn giản",
               "head": [
                 "Thời kỳ",
                 "Điều gì đã khác"
@@ -934,13 +934,13 @@ export const VI_DOCS = {
                 ],
                 [
                   "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Thời gian tiết kiệm ánh sáng ban ngày đã được thực hiện"
+                  "Thời gian tiết kiệm ánh sáng đã được thực hiện"
                 ]
               ]
             }
           },
           {
-            "p": "Inyeon-Link không sử dụng một giá trị cố định cho kinh tuyến chuẩn, mà tính toán giờ chuẩn thực sự đã được sử dụng vào thời điểm đó dựa trên thông tin **múi giờ IANA** của nơi sinh. Thời gian tiết kiệm ánh sáng ban ngày và các giờ chuẩn trong quá khứ được phản ánh tự động."
+            "p": "Inyeon-Link không sử dụng giá trị cố định cho kinh tuyến chuẩn, mà tính toán giờ chuẩn thực tế đã được sử dụng vào thời điểm đó dựa trên thông tin **múi giờ IANA** của nơi sinh. Thời gian tiết kiệm ánh sáng và các giờ chuẩn trong quá khứ được phản ánh tự động."
           }
         ]
       },
@@ -948,7 +948,7 @@ export const VI_DOCS = {
         "title": "Sinh ngay sau nửa đêm cũng cần xem xét ngày",
         "blocks": [
           {
-            "p": "Vì sự điều chỉnh là -32 phút, những người sinh từ 00:00 đến 00:32 theo đồng hồ sẽ là **23:00 của ngày trước** theo giờ mặt trời thực. Nếu chỉ thời gian được đảo ngược và ngày không thay đổi, nó sẽ ghi cột ngày là '23:00 của ngày trước'."
+            "p": "Vì sự điều chỉnh là -32 phút, những người sinh từ 00:00 đến 00:32 theo đồng hồ sẽ là **23:00 của ngày hôm trước** theo giờ mặt trời thực. Nếu chỉ thời gian được đảo ngược và ngày không thay đổi, nó sẽ ghi cột ngày là '23:00 của ngày hôm trước'."
           },
           {
             "p": "Inyeon-Link cũng sẽ đảo ngược ngày trong trường hợp này. Cột ngày chỉ ra chính người đó trong saju, vì vậy nếu điều này không chính xác, hầu hết các mục tương thích sẽ không chính xác."
@@ -962,7 +962,7 @@ export const VI_DOCS = {
             "p": "Thời gian sinh là tùy chọn. Nếu bạn không biết, phép tính sẽ được thực hiện mà không có cột thời gian, và điều này sẽ được hiển thị trên màn hình kết quả. Không có mục nào trong tương thích yêu cầu cột thời gian phải được ghi trực tiếp, nhưng nó có ảnh hưởng đến năm yếu tố, vì vậy nếu bạn biết, việc bao gồm nó sẽ chính xác hơn."
           },
           {
-            "p": "Tương thích theo cung hoàng đạo luôn có giá trị giống nhau bất kể thời gian — [bởi vì nó chỉ xem xét nhánh năm](/guide/zodiac)."
+            "p": "Tương thích cung hoàng đạo luôn có giá trị giống nhau bất kể thời gian — [bởi vì nó chỉ xem xét nhánh năm](/guide/zodiac)."
           }
         ]
       }
@@ -971,7 +971,7 @@ export const VI_DOCS = {
   "guide/no-storage": {
     "eyebrow": "Thông tin cá nhân",
     "title": "Phương pháp không lưu trữ thông tin đã nhập",
-    "summary": "Điều này giải thích ý nghĩa kỹ thuật của việc ngày sinh của bạn không được ghi lại ở bất kỳ đâu và những gì được bao gồm trong liên kết kết quả.",
+    "summary": "Điều này giải thích ý nghĩa kỹ thuật của việc ngày sinh của bạn không được ghi lại ở đâu và những gì được bao gồm trong liên kết kết quả.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
       {
@@ -981,7 +981,7 @@ export const VI_DOCS = {
             "p": "Inyeon-Link không tạo tài khoản. Nó không thu thập tên, email hoặc số điện thoại. Thông tin duy nhất được thu thập là ngày sinh và (tùy chọn) thời gian sinh, nơi sinh và giới tính, và ngay cả điều đó cũng không được giữ lại sau khi phép tính hoàn tất."
           },
           {
-            "p": "Có một trường để nhập tiêu đề hiển thị trên màn hình kết quả, nhưng điều đó **chỉ để mục đích hiển thị** và không được sử dụng trong phép tính. Bạn không cần phải nhập tên thật của mình."
+            "p": "Có một trường để nhập tiêu đề hiển thị trên màn hình kết quả, nhưng điều đó là **chỉ để mục đích hiển thị** và không được sử dụng trong phép tính. Bạn không cần phải nhập tên thật của mình."
           }
         ]
       },
@@ -995,10 +995,10 @@ export const VI_DOCS = {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Những gì theo sau **#** là các giá trị đầu vào. Phần này được gọi là **mảnh**, là một **phần mà trình duyệt không gửi đến máy chủ**. Đây là hành vi web tiêu chuẩn và không phải là quy tắc mà chúng tôi tạo ra — nó ban đầu được thiết kế để chỉ ra một vị trí trong tài liệu, vì vậy máy chủ không cần phải thấy nó."
+            "p": "Những gì theo sau **#** là các giá trị đầu vào. Phần này được gọi là **mảnh**, là một **phần mà trình duyệt không gửi đến máy chủ**. Đây là hành vi web tiêu chuẩn và không phải là quy tắc mà chúng tôi tạo ra — nó được thiết kế ban đầu để chỉ ra một vị trí trong tài liệu, vì vậy máy chủ không cần phải thấy nó."
           },
           {
-            "p": "Nói cách khác, khi bạn mở liên kết kết quả, trình duyệt đọc giá trị đó để yêu cầu phép tính, và máy chủ của chúng tôi nhận được các giá trị cần thiết cho phép tính, trả về câu trả lời, và sau đó quên nó."
+            "p": "Nói cách khác, khi bạn mở liên kết kết quả, trình duyệt đọc giá trị đó để yêu cầu phép tính, và máy chủ của chúng tôi nhận được các giá trị cần thiết cho phép tính, trả về câu trả lời và sau đó quên đi."
           }
         ]
       },
@@ -1007,7 +1007,7 @@ export const VI_DOCS = {
         "title": "Xin hãy cẩn thận khi gửi liên kết cho người khác",
         "blocks": [
           {
-            "p": "Thực tế là nó không được lưu trữ trên máy chủ và rằng liên kết là an toàn không phải là điều giống nhau. Liên kết kết quả chứa cả hai ngày sinh của bạn, vì vậy người nhận liên kết đó có thể thấy cùng một kết quả."
+            "p": "Thực tế là nó không được lưu trữ trên máy chủ và liên kết là an toàn không phải là điều giống nhau. Liên kết kết quả chứa cả hai ngày sinh của bạn, vì vậy người nhận liên kết đó có thể thấy cùng một kết quả."
           }
         ]
       },
@@ -1015,7 +1015,7 @@ export const VI_DOCS = {
         "title": "Tại sao phép tính được thực hiện trên máy chủ nhưng không được lưu trữ?",
         "blocks": [
           {
-            "p": "Phép tính tự nó được thực hiện trên máy chủ. Almanac âm dương Hàn Quốc là cần thiết để tạo ra saju, và bảng đó quá lớn để gửi xuống trình duyệt. Tuy nhiên, **sau khi xử lý yêu cầu, giá trị đó không được sử dụng ở bất kỳ đâu.** Không có mã nào để lưu trữ nó trong cơ sở dữ liệu."
+            "p": "Phép tính tự nó được thực hiện trên máy chủ. Lịch âm dương Hàn Quốc là cần thiết để tạo ra saju, và bảng đó quá lớn để gửi xuống trình duyệt. Tuy nhiên, **sau khi xử lý yêu cầu, giá trị đó không được sử dụng ở đâu cả.** Không có mã nào để lưu trữ nó trong cơ sở dữ liệu."
           },
           {
             "p": "Một bản ghi tối thiểu cần thiết cho hoạt động được giữ lại — một bộ đếm để ngăn chặn cùng một người gửi quá nhiều yêu cầu trong thời gian ngắn. Điều này không bao gồm ngày sinh, và địa chỉ IP truy cập cũng không được giữ lại. Chỉ một giá trị, được băm với ngày, được đếm, và giá trị đó thay đổi khi ngày thay đổi."
@@ -1031,8 +1031,8 @@ export const VI_DOCS = {
           {
             "ul": [
               "**Bạn không thể lấy lại kết quả trước đó.** Bạn cần có liên kết để xem lại chúng.",
-              "**Các giá trị giống nhau sẽ được tính lại.** Không có bộ nhớ cache. Tuy nhiên, vì tất cả các quy tắc là xác định, [đầu vào giống nhau sẽ luôn cho ra cùng một giá trị](/guide/how-compatibility).",
-              "**Làm mới sẽ mang lại cổng quảng cáo.** Điều này là do không có nơi nào để giữ lại hồ sơ xem."
+              "**Các giá trị giống nhau sẽ được tính toán lại.** Không có bộ nhớ cache. Tuy nhiên, vì tất cả các quy tắc là xác định, [cùng một đầu vào sẽ luôn cho ra cùng một giá trị](/guide/how-compatibility).",
+              "**Làm mới sẽ mang lại cổng quảng cáo.** Điều này là do không có nơi nào để giữ lại các bản ghi xem."
             ]
           }
         ]
@@ -1041,7 +1041,7 @@ export const VI_DOCS = {
         "title": "Trong trường hợp mua hàng",
         "blocks": [
           {
-            "p": "Nếu bạn mua một báo cáo, một bản ghi giao dịch sẽ được giữ lại vào thời điểm đó. Luật pháp quy định thời gian lưu giữ cho các khoản thanh toán, và không có lịch sử đơn hàng, việc hoàn tiền không thể được xử lý. Tuy nhiên, ngay cả trong trường hợp đó, **ngày sinh được sử dụng cho các phép tính tương thích không gắn liền với đơn hàng** — nó sẽ được thu thập lại khi tạo PDF sau khi xác nhận thanh toán."
+            "p": "Nếu bạn mua một báo cáo, một bản ghi giao dịch sẽ được giữ lại vào thời điểm đó. Luật pháp quy định thời gian lưu giữ cho các khoản thanh toán, và không có lịch sử đơn hàng, không thể xử lý hoàn tiền. Tuy nhiên, ngay cả trong trường hợp đó, **ngày sinh được sử dụng cho các phép tính tương thích không gắn liền với đơn hàng** — nó sẽ được thu thập lại khi tạo PDF sau khi xác nhận thanh toán."
           },
           {
             "p": "Chi tiết được nêu trong [Chính sách Bảo mật](/privacy)."
@@ -1079,30 +1079,30 @@ export const VI_DOCS = {
       {
         "blocks": [
           {
-            "p": "**Các trang 1-3 được tổ chức để giữ những gì hiển thị trên màn hình** và **từ trang 4 trở đi là nội dung không hiển thị trên màn hình**. Dưới đây, nó giải thích lý do tại sao một số thứ không được hiển thị trên màn hình."
+            "p": "**Các trang 1-3 được tổ chức để giữ những gì hiển thị trên màn hình** và **từ trang 4 trở đi là nội dung không hiển thị trên màn hình**. Dưới đây, nó giải thích lý do tại sao một số điều không được hiển thị trên màn hình."
           }
         ]
       },
       {
-        "title": "Trang 4 — Hướng đi của hai năng lượng",
+        "title": "Trang 4 — Hướng của hai năng lượng",
         "blocks": [
           {
             "p": "Các mục của **ngũ hành** trên màn hình được trình bày như một điểm số duy nhất. Tuy nhiên, điểm số duy nhất đó là **trung bình của hai hướng** — đo lường mức độ mà bên kia lấp đầy tôi và mức độ tôi lấp đầy bên kia, và trung bình các giá trị đó."
           },
           {
-            "p": "Sự bổ sung vốn có là **không đối xứng**. Điều này là do các năng lượng cần thiết cho tôi và các năng lượng cần thiết cho bên kia là khác nhau. Nếu bạn chỉ nhìn vào trung bình, một mối quan hệ mà một bên lấp đầy bên kia một cách đáng kể và một mối quan hệ mà cả hai lấp đầy nhau đều sẽ xuất hiện với cùng một số. Báo cáo tách biệt hai điều đó."
+            "p": "Sự bổ sung vốn có là **mất cân bằng**. Điều này là do các năng lượng cần thiết cho tôi và các năng lượng cần thiết cho bên kia là khác nhau. Nếu bạn chỉ nhìn vào trung bình, một mối quan hệ mà một bên lấp đầy bên kia một cách đáng kể và một mối quan hệ mà cả hai lấp đầy nhau đều sẽ xuất hiện với cùng một số. Báo cáo phân tách hai điều đó."
           },
           {
-            "p": "Cũng được bao gồm trong cùng một phần là **biểu đồ mối quan hệ của bốn trụ**. Chỉ có một cái đi vào tỷ lệ tương thích là **nhánh ngày** (日支) — vì nó là vị trí của vợ/chồng — nhưng các nhánh năm, tháng và giờ khác cũng có thể được đọc với cùng một biểu đồ mối quan hệ."
+            "p": "Cũng được bao gồm trong cùng một phần là **biểu đồ mối quan hệ của bốn trụ cột**. Chỉ có một cái đi vào tỷ lệ khớp là **nhánh ngày** (日支) — vì nó là vị trí của vợ/chồng — nhưng các nhánh năm, tháng và giờ khác cũng có thể được đọc với cùng một biểu đồ mối quan hệ."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Các điểm số trong bảng này không đi vào tỷ lệ tương thích",
+        "title": "Các điểm số trong bảng này không đi vào tỷ lệ khớp",
         "blocks": [
           {
-            "p": "Nếu được bao gồm, tổng điểm sẽ thay đổi và sẽ không khớp với liên kết kết quả đã gửi. Do đó, nó chỉ được bao gồm như tài liệu đọc, và thực tế đó được ghi chú dưới bảng."
+            "p": "Nếu được bao gồm, tổng điểm sẽ thay đổi và sẽ không khớp với liên kết kết quả đã gửi. Do đó, nó chỉ được bao gồm như tài liệu đọc, và điều đó được ghi chú dưới bảng."
           }
         ]
       },
@@ -1113,32 +1113,32 @@ export const VI_DOCS = {
             "p": "Các thanh của **ngũ hành** trên màn hình cho thấy **mức độ hiện diện**. Báo cáo thêm **liệu tháng sinh có hỗ trợ năng lượng đó hay không**. Ngay cả với cùng một lượng, năng lượng mạnh (旺) và năng lượng chết (死) có sức mạnh khác nhau."
           },
           {
-            "p": "Bạn có thể thấy các lực trước và sau khi nhân với năng lượng của tháng bên cạnh nhau, cho thấy mức độ mà mùa đã đẩy nó lên. Tỷ lệ **đồng minh** phân biệt giữa **ngày chủ mạnh** và **ngày chủ yếu** cũng được ghi chú — màn hình chỉ hiển thị phán đoán, nhưng báo cáo cho thấy nơi mà phán đoán đó được đưa ra."
+            "p": "Bạn có thể thấy các lực trước và sau khi nhân với năng lượng của tháng bên cạnh nhau, cho thấy mức độ mà mùa đã đẩy nó lên. Tỷ lệ **đồng minh** phân biệt giữa **ngày chủ mạnh** và **ngày chủ yếu** cũng được ghi chú — màn hình chỉ hiển thị phán đoán, nhưng báo cáo cho thấy nơi mà phán đoán đó được thực hiện."
           }
         ]
       },
       {
-        "title": "Trang 6 — Ý nghĩa của bốn trụ của người khác đối với tôi",
+        "title": "Trang 6 — Những gì bốn trụ cột của người khác có nghĩa với tôi",
         "blocks": [
           {
-            "p": "Tỷ lệ tương thích chỉ so sánh **những trụ ngày** của cả hai cá nhân. Tuy nhiên, ba trụ còn lại của người khác cũng được xác định bởi **Thập Thần** theo cùng một quy tắc. Trong khi bạn có thể hiểu **người này có ý nghĩa gì đối với tôi** chỉ bằng cách nhìn vào trụ ngày, bạn không thể biết **vị trí của người đó có ý nghĩa gì đối với tôi**."
+            "p": "Tỷ lệ khớp chỉ so sánh **ngày can** của cả hai cá nhân. Tuy nhiên, ba cột còn lại của người kia cũng được xác định bởi **Mười vị thần** theo cùng một quy tắc. Trong khi bạn có thể hiểu **người này có ý nghĩa gì với tôi** chỉ bằng cách nhìn vào ngày can, bạn không thể biết **vị trí của người đó có ý nghĩa gì với tôi**."
           },
           {
-            "p": ""
+            "p": "Vì có các hướng, cả hai bên được trình bày riêng biệt. Những gì tôi thấy và những gì bên kia thấy là khác nhau."
           }
         ]
       },
       {
-        "title": "Trang 7 — Cách tính toán saju này",
+        "title": "Trang 7 — Cách saju này được tính toán",
         "blocks": [
           {
-            "p": "Nó nêu rõ mức độ điều chỉnh thời gian sinh về true solar time (true solar time), liệu việc điều chỉnh có làm thay đổi ngày tháng hay không, và ngày dương lịch cũng như âm lịch là gì khi saju được tạo ra. Khái niệm này được giải thích trong tài liệu [Điều chỉnh thời gian sinh về true solar time](/guide/true-solar-time), nhưng **giá trị của số phút đã được điều chỉnh trong trường hợp của bạn** khác nhau giữa các cá nhân, vì vậy nó chỉ được bao gồm trong báo cáo."
+            "p": "Nó cho biết thời gian sinh đã được điều chỉnh bao nhiêu so với **thời gian mặt trời thực** , liệu việc điều chỉnh có làm thay đổi ngày hay không, và ngày dương lịch cũng như âm lịch là gì khi saju được tạo ra. Khái niệm này được giải thích trong tài liệu [Điều chỉnh thời gian sinh đến thời gian mặt trời thực](/guide/true-solar-time), nhưng **giá trị của số phút đã được điều chỉnh trong trường hợp của bạn** khác nhau giữa các cá nhân, vì vậy nó chỉ được bao gồm trong báo cáo."
           }
         ]
       },
       {
-        "title": "Báo cáo hồ sơ kết hợp Inyeon PDF — {priceAffinityDomestic}",
-        "slot": "",
+        "title": "Báo cáo hồ sơ khớp Inyeon — {priceAffinityDomestic}",
+        "slot": "affinityContents",
         "blocks": [
           {
             "p": "Thanh toán trong nước {priceAffinityDomestic} (bao gồm VAT), thanh toán quốc tế {priceAffinityGlobal}. {pagesAffinity} trang A4."
@@ -1148,27 +1148,27 @@ export const VI_DOCS = {
       {
         "blocks": [
           {
-            "p": ""
+            "p": "Phần này là **bảng xếp hạng tổng thể**. Màn hình chỉ hiển thị các bộ khớp tốt, nhưng báo cáo xếp hạng tất cả mười **thiên can** và mười hai **địa chi** **hoàn toàn**. Nếu bạn chỉ nhìn vào các bộ hàng đầu, bạn sẽ không biết 'ai đến tiếp theo' và 'cái nào là ít tương thích nhất'."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Những điều cần biết trước khi mua",
         "blocks": [
           {
-            "p": ""
+            "p": "**Máy chủ không lưu trữ tệp.** Khi thanh toán được phê duyệt, tài liệu được tạo ra và gửi ngay lập tức, không để lại gì trên máy chủ. Nguyên tắc của dịch vụ này là không lưu trữ các giá trị đầu vào vẫn được duy trì ngay cả trong quy trình thanh toán."
           },
           {
-            "p": ""
+            "p": "Vì vậy, **vui lòng lưu tệp ngay sau khi thanh toán.** Bạn có thể nhận cùng một đơn hàng lên đến năm lần, nhưng nếu bạn rời khỏi màn hình kết quả và các giá trị đầu vào biến mất, bạn không thể tái tạo lại nó."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Báo cáo cũng là tài liệu tham khảo",
         "blocks": [
           {
-            "p": ""
+            "p": "Chỉ vì độ dài đã tăng lên không có nghĩa là kết luận chắc chắn hơn. Những gì báo cáo chứa nhiều hơn là **cơ sở của cùng một phép tính**, không phải một khẳng định mạnh mẽ hơn. Đọc vận mệnh là một lĩnh vực mà các kết luận có thể khác nhau tùy thuộc vào người thực hành, và dịch vụ này chỉ tính toán những gì có thể được dịch thành quy tắc."
           }
         ]
       }
@@ -1177,7 +1177,7 @@ export const VI_DOCS = {
   "notice": {
     "eyebrow": "Thông báo",
     "title": "Thông báo",
-    "summary": "Đây là nơi thông báo những thay đổi ảnh hưởng đến việc sử dụng.",
+    "summary": "Đây là nơi để thông báo về những thay đổi ảnh hưởng đến việc sử dụng.",
     "backLabel": "Quay lại Trang Chủ",
     "sections": []
   },
@@ -1204,8 +1204,8 @@ export const VI_DOCS = {
           {
             "ul": [
               "**Thanh toán và Hoàn tiền** — Nếu tài liệu không được tạo ra hoặc số tiền thanh toán khác với đơn hàng, sẽ được hoàn tiền đầy đủ. Điều kiện có trong [chính sách hoàn tiền](/refund-policy).",
-              "**Thông tin cá nhân** — Chúng tôi chấp nhận yêu cầu xem, sửa đổi và xóa. Chính sách xử lý có trong [chính sách bảo mật](/privacy).",
-              "**Báo cáo Lỗi Tính toán** — Nếu biểu đồ gốc saju hoặc điểm số có vẻ lạ, vui lòng cho chúng tôi biết. Nếu bạn bao gồm thời điểm bạn nhập ngày và giờ, chúng tôi có thể tính toán lại với cùng một giá trị."
+              "**Thông tin cá nhân** — Chúng tôi chấp nhận yêu cầu xem, chỉnh sửa và xóa. Chính sách xử lý có trong [chính sách bảo mật](/privacy).",
+              "**Báo cáo Lỗi Tính toán** — Nếu biểu đồ gốc saju hoặc điểm số có vẻ lạ, vui lòng cho chúng tôi biết. Nếu bạn bao gồm thời gian và ngày bạn đã nhập, chúng tôi có thể tính toán lại với cùng một giá trị."
             ]
           }
         ]
@@ -1215,12 +1215,12 @@ export const VI_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Tên Doanh nghiệp** — {companyName}",
+              "**Tên Doanh Nghiệp** — {companyName}",
               "**Người đại diện** — {representative}",
-              "**Số Đăng ký Doanh nghiệp** — {businessNumber}",
-              "**Số Đăng ký Kinh doanh Bán hàng qua Thư** — {mailOrderNumber}",
+              "**Số Đăng Ký Doanh Nghiệp** — {businessNumber}",
+              "**Số Đăng Ký Kinh Doanh Bán Hàng Qua Bưu Điện** — {mailOrderNumber}",
               "**Địa chỉ** — {address}",
-              "**Trung tâm Khách hàng** — {customerCenter}",
+              "**Trung Tâm Khách Hàng** — {customerCenter}",
               "**Email** — {email}",
               "**Nhân viên Bảo vệ Thông tin Cá nhân** — {privacyOfficer}",
               "**Nhà cung cấp Hosting** — {hostingProvider}"
@@ -1232,7 +1232,7 @@ export const VI_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Bạn không cần phải bao gồm ngày sinh và giờ sinh trong email yêu cầu. Chúng tôi không lưu trữ thông tin đầu vào, vì vậy chúng tôi không thể truy xuất chúng, và số đơn hàng là đủ để xác nhận. Vui lòng chỉ bao gồm nếu điều đó cần thiết cho báo cáo lỗi tính toán."
+            "p": "Bạn không cần bao gồm ngày và giờ sinh của mình trong email yêu cầu. Chúng tôi không lưu trữ đầu vào, vì vậy chúng tôi không thể lấy lại chúng, và số đơn hàng là đủ để xác nhận. Vui lòng chỉ bao gồm nó nếu cần thiết cho báo cáo lỗi tính toán."
           }
         ]
       }
@@ -1254,7 +1254,7 @@ export const VI_NOTICES = {
   },
   "effective": "Có hiệu lực từ {date}",
   "pager": {
-    "label": "Trang thông báo",
+    "label": "Các trang thông báo",
     "newer": "← Mới hơn",
     "older": "Cũ hơn →"
   },
@@ -1262,24 +1262,24 @@ export const VI_NOTICES = {
     "2026-08-02-contact": {
       "title": "Trang Liên hệ và Giới thiệu đã mở",
       "body": [
-        "Câu hỏi, hoàn tiền, yêu cầu bảo mật và báo cáo lỗi tính toán giờ đây có một nơi để gửi — xem trang liên hệ ở chân trang.",
-        "Nếu có điều gì đó trông sai sót trong tính toán, vui lòng bao gồm thông tin sinh mà đã tạo ra nó. Chúng tôi không lưu trữ những gì bạn nhập, vì vậy nếu không có chúng, chúng tôi không thể tái tạo lại việc đọc."
+        "Các câu hỏi, hoàn tiền, yêu cầu về quyền riêng tư và báo cáo lỗi tính toán giờ đây có một nơi để gửi — xem trang liên hệ ở chân trang.",
+        "Nếu có điều gì đó trông như bị tính toán sai, vui lòng bao gồm thông tin sinh mà đã tạo ra nó. Chúng tôi không lưu trữ những gì bạn nhập, vì vậy nếu không có chúng, chúng tôi không thể tái tạo lại việc đọc."
       ]
     },
     "2026-08-01-pdf-language": {
       "title": "Báo cáo được phát hành bằng tiếng Anh cho tiếng Ả Rập và Khmer",
       "body": [
-        "Nếu bạn đang đọc bằng tiếng Ả Rập hoặc Khmer, báo cáo PDF bạn mua được sản xuất bằng tiếng Anh. Công cụ bố trí tài liệu của chúng tôi hiện chưa thể định dạng đoạn văn bằng những ngôn ngữ đó.",
-        "Màn hình vẫn ở ngôn ngữ của bạn, và tên của bạn được in bằng ngôn ngữ của bạn trong báo cáo.",
-        "Ghi chú tương tự xuất hiện trước khi thanh toán. Khi công cụ hỗ trợ những ngôn ngữ này, chúng tôi sẽ thông báo ở đây."
+        "Nếu bạn đang đọc bằng tiếng Ả Rập hoặc Khmer, báo cáo PDF bạn mua được sản xuất bằng tiếng Anh. Công cụ định dạng tài liệu của chúng tôi hiện chưa thể đặt đoạn văn bằng các chữ viết đó.",
+        "Màn hình vẫn ở ngôn ngữ của bạn, và tên của bạn được in bằng chữ viết của bạn trong báo cáo.",
+        "Ghi chú tương tự xuất hiện trước khi thanh toán. Khi công cụ hỗ trợ các chữ viết này, chúng tôi sẽ thông báo ở đây."
       ]
     },
     "2026-08-01-engine-version": {
-      "title": "Mỗi lần đọc đều mang phiên bản của các quy tắc đã sử dụng",
+      "title": "Mỗi lần đọc đều mang phiên bản của các quy tắc được sử dụng",
       "body": [
-        "Mỗi lần đọc và báo cáo đều mang bộ quy tắc đã sử dụng để sản xuất nó (ví dụ inyeonlink-match-v10). Đầu vào giống nhau trên cùng một bộ quy tắc luôn cho ra cùng một số.",
-        "Nếu chúng tôi thay đổi các quy tắc diễn giải theo cách có thể làm thay đổi điểm số, chúng tôi sẽ đăng điều đó ở đây trước tiên, cùng với ngày có hiệu lực — vì một liên kết kết quả mà bạn đã giữ sẽ đọc khác đi.",
-        "Bộ quy tắc hiện tại là v10. Thanh toán vẫn chưa mở."
+        "Mỗi lần đọc và báo cáo đều mang bộ quy tắc được sử dụng để sản xuất nó (ví dụ inyeonlink-match-v10). Cùng một đầu vào trên cùng một bộ quy tắc luôn cho ra cùng một số.",
+        "Nếu chúng tôi thay đổi các quy tắc diễn giải theo cách có thể thay đổi điểm số, chúng tôi sẽ đăng ở đây trước tiên, với ngày có hiệu lực — vì một liên kết kết quả bạn đã giữ sẽ đọc khác đi.",
+        "Bộ quy tắc hiện tại là v10. Các khoản thanh toán vẫn chưa mở."
       ]
     }
   }

@@ -92,6 +92,31 @@ for (const app of APP_KEYS) {
     (l) => !new RegExp(`^\\s*${l}:`, "m").test(index),
   );
 
+  /**
+   * ④ **빈 잎이 없는가.**
+   *
+   * 번역기가 모델 응답에서 열쇠를 빠뜨리면 그 자리에 `""`가 들어간다. 그런데 빈 문자열은
+   * 자리표시자도 강조도 한글도 0개라 **번역기의 검사를 전부 통과한다.** 화면은 빈 제목과 빈
+   * 문단을 그리므로, **문서가 있는데 아무 말도 하지 않는 상태**가 된다.
+   *
+   * 2026-08-09에 실제로 그랬다 — 인연링크 유료 상품 안내가 15개 언어에서 부분적으로 비었고
+   * (`"slot": ""`까지 비어 목차 자리도 함께 잃었다), 드림링크는 「하지 않기로 한 것들」 한
+   * 편이 통째로 비었다. **원문에는 0개**였다. 번역기 쪽도 고쳤지만, 그 고침이 되돌아가도
+   * 여기서 잡히도록 함께 센다.
+   *
+   * 한국어 원문에 있는 빈 자리는 자료가 그렇게 정한 것이므로 **원문의 개수를 기준**으로 본다.
+   */
+  const emptyLeaves = (file) =>
+    (readFileSync(file, "utf8").match(/:\s*""/g) ?? []).length;
+  const koEmpty = existsSync(path.join(dir, "ko.ts")) ? emptyLeaves(path.join(dir, "ko.ts")) : 0;
+  const blanks = [];
+  for (const locale of locales) {
+    const file = path.join(dir, `${locale}.ts`);
+    if (!existsSync(file)) continue;
+    const found = emptyLeaves(file);
+    if (found > koEmpty) blanks.push(`${locale}(${found - koEmpty})`);
+  }
+
   // ④ 공지 글이 로케일마다 다 있는가.
   //
   // **타입이 못 잡는 자리다.** 공지 본문은 `Record<공지id, …>`라 키가 빠져도 타입은 만족한다.
@@ -119,8 +144,10 @@ for (const app of APP_KEYS) {
     (unlisted.length ? ` — ${unlisted.join(", ")}` : ""));
   console.log(`  ${missingNotices.length === 0 ? "✓" : "✗"} 공지 ${noticeIds.length}건이 전 로케일에` +
     (missingNotices.length ? ` — 빠짐: ${missingNotices.join(" ")}` : ""));
+  console.log(`  ${blanks.length === 0 ? "✓" : "✗"} 빈 잎 0개(원문 ${koEmpty}개 기준)` +
+    (blanks.length ? ` — ${blanks.join(" ")}` : ""));
 
-  if (missing.length || untranslated.length || unlisted.length || missingNotices.length) failures += 1;
+  if (missing.length || untranslated.length || unlisted.length || missingNotices.length || blanks.length) failures += 1;
   console.log();
 }
 

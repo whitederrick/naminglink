@@ -13,7 +13,7 @@ export const PL_DOCS = {
         "title": "Co robimy",
         "blocks": [
           {
-            "p": "Inyeon-Link tworzy dwa wykresy urodzeniowe na podstawie dat i godzin urodzenia i pokazuje **jak dwa zestawy energii się spotykają.** Możesz również przeczytać swój własny wykres samodzielnie i zobaczyć, które temperamenty mogą ci odpowiadać."
+            "p": "Inyeon-Link tworzy dwa wykresy urodzeniowe na podstawie dat i godzin urodzenia i pokazuje **jak dwa zestawy energii się spotykają.** Możesz również przeczytać swój własny wykres samodzielnie i zobaczyć, które temperamenty mogą Ci odpowiadać."
           },
           {
             "p": "Czytanie na ekranie jest **darmowe i nie wymaga konta.** Płatne elementy to raporty PDF zawierające dane, których ekran nigdy nie pokazuje — siły elementów, pary dziesięciu bogów i relacje we wszystkich czterech filarach."
@@ -24,10 +24,10 @@ export const PL_DOCS = {
         "title": "Co obliczamy",
         "blocks": [
           {
-            "p": "Wykresy są tworzone na podstawie **koreańskiego kalendarza lunisolarnego**, a czas urodzenia jest korygowany do **prawdziwego czasu słonecznego** dla miejsca urodzenia — ten sam czas zegarowy oznacza inną pozycję słońca w zależności od miejsca, w którym się urodziłeś."
+            "p": "Wykresy są tworzone na podstawie **koreańskiego kalendarza lunisolarnym**, a czas urodzenia jest korygowany do **prawdziwego czasu słonecznego** dla miejsca urodzenia — ten sam czas zegarowy oznacza inną pozycję słońca w zależności od miejsca urodzenia."
           },
           {
-            "p": "Wyniki pochodzą tylko z ustalonych zasad. Tradycyjne koncepcje — dziesięciu bogów, relacje między gałęziami, wspierający element — są wyrażane jako zasady, więc **ten sam input zawsze daje ten sam wynik.** Gdy zasada się zmienia, przeprowadzamy regresję, aby upewnić się, że starsze odczyty się nie zmieniły."
+            "p": "Wyniki pochodzą tylko z ustalonych zasad. Tradycyjne koncepcje — dziesięciu bogów, relacje między gałęziami, wspierający element — są wyrażane jako zasady, więc **ten sam input zawsze daje ten sam wynik.** Kiedy zasada się zmienia, uruchamiamy regresję, aby upewnić się, że starsze odczyty się nie zmieniły."
           },
           {
             "p": "**Nie ma zaangażowanej sztucznej inteligencji.** Każde zdanie na ekranie to stały tekst przypisany do obliczonego wyniku."
@@ -39,9 +39,9 @@ export const PL_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Nie wróżymy.** Nic tutaj nie mówi ci, abyś kogoś szukał lub unikał. To odniesienie wyciągnięte z tradycji.",
-              "**Nie przechowujemy tego, co wprowadzasz.** Szczegóły dotyczące urodzenia są używane w momencie obliczenia i nigdy nie są zapisywane; linki do wyników znajdują się w części URL, którą przeglądarka nie wysyła do serwera.",
-              "**Wynik nie jest wyrokiem na osobę.** Niska liczba nie unieważnia relacji."
+              "**Nie wróżymy.** Nic tutaj nie mówi, abyś miał dążyć do kogoś lub unikać kogoś. To odniesienie wyciągnięte z tradycji.",
+              "**Nie przechowujemy tego, co wpisujesz.** Szczegóły urodzenia są używane w momencie obliczenia i nigdy nie są zapisywane; linki wynikowe znajdują się w części URL, której przeglądarka nie wysyła do serwera.",
+              "**Wynik nie jest wyrokiem na osobę.** Niska liczba nie unieważnia związku."
             ]
           }
         ]
@@ -58,7 +58,7 @@ export const PL_DOCS = {
   },
   "guide": {
     "eyebrow": "Podstawa obliczeń",
-    "title": "Na jakiej podstawie dokonujemy obliczeń?",
+    "title": "Jaka jest podstawa obliczeń?",
     "summary": "Inyeon-Link ujawnia wszystkie zasady, które stosuje. Możesz sprawdzić elementy i ich wagi, wyniki z tabeli relacji gałęzi ziemskich oraz wartości progowe, które odróżniają silnego mistrza dnia od słabego mistrza dnia — możesz zobaczyć, skąd pochodzą liczby na ekranie.",
     "backLabel": "Powrót do początku",
     "sections": [
@@ -74,7 +74,7 @@ export const PL_DOCS = {
   },
   "guide/how-compatibility": {
     "eyebrow": "Podstawa usługi",
-    "title": "Na co zwraca uwagę zgodność saju?",
+    "title": "Na co zwraca uwagę kompatybilność saju?",
     "summary": "Wyjaśnia cztery elementy i ich odpowiednie wagi oraz wyjaśnia, dlaczego te cztery zostały wybrane. Zajmuje się również tym, dlaczego obliczenia mogą być dokonywane nawet bez znajomości czasu urodzenia.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
@@ -82,7 +82,7 @@ export const PL_DOCS = {
         "title": "Obliczanie i łączenie dwóch osi",
         "blocks": [
           {
-            "p": "Wskaźnik dopasowania pochodzi z dwóch gałęzi. **Zgodność saju** patrzy na cały oryginalny wykres saju obu osób, podczas gdy **zgodność zodiakalna** uwzględnia tylko jedną gałąź ziemską z roku urodzenia. Ostateczna wartość uzyskiwana jest poprzez ważoną średnią obu."
+            "p": "Wskaźnik dopasowania pochodzi z dwóch gałęzi. **Kompatybilność saju** patrzy na cały oryginalny wykres saju obu osób, podczas gdy **kompatybilność zodiakalna** bierze pod uwagę tylko jedną gałąź ziemską z roku urodzenia. Ostateczna wartość uzyskiwana jest przez ważoną średnią obu."
           },
           {
             "table": {
@@ -93,12 +93,12 @@ export const PL_DOCS = {
               ],
               "rows": [
                 [
-                  "Zgodność Saju",
+                  "Kompatybilność Saju",
                   "Mistrz dnia, gałąź dnia i pięć elementów — cztery elementy",
                   "{weightSaju}"
                 ],
                 [
-                  "Zgodność Zodiakalna",
+                  "Kompatybilność Zodiakalna",
                   "Relacja między gałęziami roku",
                   "{weightZodiac}"
                 ]
@@ -106,15 +106,15 @@ export const PL_DOCS = {
             }
           },
           {
-            "p": "Strona saju jest znacznie cięższa, ponieważ ilość używanych informacji jest różna. Saju uwzględnia wszystkie cztery filary, podczas gdy zodiak patrzy tylko na jeden znak. Jednak zodiak nie jest wykluczony z dwóch powodów — jest to najbardziej intuicyjnie zrozumiały element i jest to **jedyna oś, której wartość nie waha się nawet bez znajomości czasu urodzenia**."
+            "p": "Strona saju jest znacznie cięższa, ponieważ ilość używanych informacji jest różna. Saju uwzględnia wszystkie cztery filary, podczas gdy zodiak patrzy tylko na jeden znak. Jednak zodiak nie jest wykluczony z dwóch powodów — jest to najbardziej intuicyjnie zrozumiały element i jest to **jedyna oś, której wartość nie fluktuuje nawet bez znajomości czasu urodzenia**."
           }
         ]
       },
       {
-        "title": "Cztery elementy zgodności saju",
+        "title": "Cztery elementy kompatybilności saju",
         "blocks": [
           {
-            "p": "Strona saju jest dalej podzielona na cztery. Każdy element jest wybierany, aby zapewnić, że to, co biorą pod uwagę, się nie pokrywa."
+            "p": "Strona saju jest dalej podzielona na cztery. Każdy element jest wybierany, aby zapewnić, że to, co biorą pod uwagę, nie pokrywa się."
           },
           {
             "figure": "four-pillars",
@@ -144,22 +144,22 @@ export const PL_DOCS = {
               "rows": [
                 [
                   "Relacja Pnia Dnia",
-                  "Jakie są wzajemne relacje pni dni (日干) dwóch osób — widziane przez Dziesięciu Bogów",
+                  "Jakie są wzajemne relacje pni dni (日干) dwóch osób — postrzegane przez pryzmat Dziesięciu Bogów",
                   "{weightDayMaster}"
                 ],
                 [
                   "Uzupełnienie Pięciu Elementów",
-                  "Czy partner ma energię, której potrzebuję — widziane przez wspierający element, którego obecnie potrzebuje wykres",
+                  "Czy partner ma energię, której potrzebuję — postrzegane przez pryzmat elementu wspierającego, którego obecnie potrzebuje wykres",
                   "{weightElementSupply}"
                 ],
                 [
                   "Gwiazda Małżonka",
-                  "Czy pni dnia partnera odpowiadają mojej pozycji małżonka?",
+                  "Czy pień dnia partnera odpowiada mojej pozycji małżonka?",
                   "{weightSpouseStar}"
                 ],
                 [
                   "Relacja Gałęzi Dnia",
-                  "Czy gałęzie dnia (日支) dwóch osób są kombinacją czy zderzeniem?",
+                  "Czy gałęzie dni (日支) dwóch osób są kombinacją czy zderzeniem?",
                   "{weightDayBranch}"
                 ]
               ]
@@ -174,7 +174,7 @@ export const PL_DOCS = {
         "title": "Jeśli płeć nie jest ujawniona, element małżonka jest pomijany",
         "blocks": [
           {
-            "p": "Element małżonka wymaga znajomości płci do obliczeń. Tradycja odczytuje pozycję wskazującą na małżonka inaczej w zależności od płci. Jeśli nie jest ujawniona, ten element zostanie **wykluczony** a wagi pozostałych trzech elementów zostaną znormalizowane."
+            "p": "Element małżonka wymaga znajomości płci do obliczeń. Tradycja odczytuje pozycję wskazującą na małżonka inaczej w zależności od płci. Jeśli nie jest ujawniona, ten element zostanie **wykluczony** a wagi pozostałych trzech elementów zostaną ponownie znormalizowane."
           }
         ]
       },
@@ -183,18 +183,18 @@ export const PL_DOCS = {
         "title": "Nie będzie traktowane jako 0 punktów",
         "blocks": [
           {
-            "p": "Jeśli brakujące pozycje będą traktowane jako 0 punktów, wynik zostanie niesprawiedliwie obniżony tylko dlatego, że płeć nie została ujawniona. Normalizacja wag zapobiega temu problemowi."
+            "p": "Jeśli brakujące pozycje będą traktowane jako 0 punktów, wynik zostanie niesprawiedliwie obniżony tylko dlatego, że płeć nie została ujawniona. Ponowna normalizacja wag zapobiega temu problemowi."
           }
         ]
       },
       {
-        "title": "Obliczenia mogą być przeprowadzane bez znajomości czasu urodzenia",
+        "title": "Obliczenia mogą być wykonane bez znajomości czasu urodzenia",
         "blocks": [
           {
-            "p": "Czas urodzenia jest używany do określenia filaru godziny. Jeśli jest nieznany, obliczenia będą przeprowadzane bez filaru godziny, a ten fakt zostanie wskazany na ekranie wyników. Ponieważ nie ma bezpośredniego wejścia dla filaru godziny wśród czterech elementów kompatybilności, wartości nie będą znacząco się wahać, ale wpływa to na równowagę pięciu elementów."
+            "p": "Czas urodzenia jest używany do określenia filaru godziny. Jeśli jest nieznany, obliczenia będą przeprowadzane bez filaru godziny, a ten fakt zostanie wskazany na ekranie wyników. Ponieważ nie ma bezpośredniego wejścia dla filaru godziny wśród czterech elementów kompatybilności, wartości nie będą się znacząco wahać, ale wpływa to na równowagę pięciu elementów."
           },
           {
-            "p": "Jeśli znasz czas, wybierz również miejsce urodzenia. Jeśli czas standardowy różni się od rzeczywistej pozycji słonecznej, użycie go tak jak jest może spowodować niezgodność filaru godziny [(korekta czasu słonecznego)](/guide/true-solar-time)."
+            "p": "Jeśli znasz czas, proszę również wybrać miejsce urodzenia. Jeśli czas standardowy różni się od rzeczywistej pozycji słonecznej, użycie go tak, jak jest, może spowodować niezgodność filaru godziny [(korekta prawdziwego czasu słonecznego)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const PL_DOCS = {
         "title": "Te same dane wejściowe zawsze dadzą tę samą wartość",
         "blocks": [
           {
-            "p": "Wszystkie wyniki są określane przez zasady. Nie używa się sztucznej inteligencji ani liczb losowych. Dlatego wprowadzenie tych samych dwóch dat urodzenia wielokrotnie nie da różnych wyników. Jako usługa, która nie przechowuje danych, wcześniejsze wyniki nie mogą być odzyskane, ale **deterministyczność** to rekompensuje."
+            "p": "Wszystkie wyniki są określane przez zasady. Nie używa się sztucznej inteligencji ani liczb losowych. Dlatego wprowadzenie tych samych dwóch dat urodzenia wielokrotnie nie przyniesie różnych wyników. Jako usługa, która nie przechowuje danych, wcześniejsze wyniki nie mogą być odzyskane, ale **deterministyczność** to rekompensuje."
           }
         ]
       },
@@ -219,7 +219,7 @@ export const PL_DOCS = {
         "title": "Czym ten wynik nie jest",
         "blocks": [
           {
-            "p": "To jest **materiał referencyjny** obliczony na podstawie zasad zbudowanych z perspektywy tradycji. Nie jest to naukowa prognoza, ani ostateczne stwierdzenie dotyczące relacji między dwiema osobami. Zakres punktów jest ustawiony na minimum około 45 punktów z tego powodu — żadna kombinacja nie da wartości bliskiej 0 punktów."
+            "p": "To jest **materiał referencyjny** obliczony na podstawie zasad zbudowanych z perspektywy tradycji. Nie jest to naukowa prognoza, ani definitywne stwierdzenie o relacji między dwiema osobami. Zakres punktów jest ustawiony na minimum około 45 punktów z tego powodu — żadna kombinacja nie da wartości bliskiej 0 punktów."
           }
         ]
       }
@@ -260,7 +260,7 @@ export const PL_DOCS = {
             }
           },
           {
-            "p": "W saju, każda z czterech filarów ma jedną ziemską gałąź. Inyeon-Link wykorzystuje **dzień gałęzi** (pałac małżonka) oraz **rok gałęzi** (zwierzę zodiakalne) spośród nich. Obie pozycje są oceniane przy użyciu poniższej tabeli relacji."
+            "p": "W saju, każda z czterech filarów ma jedną ziemską gałąź. Inyeon-Link wykorzystuje **dzień gałęzi** (pałac małżonka) oraz **rok gałęzi** (zwierzę zodiakalne) spośród nich. Obie pozycje są oceniane za pomocą poniższej tabeli relacji."
           }
         ]
       },
@@ -292,13 +292,13 @@ export const PL_DOCS = {
                 [
                   "Połowa triady (半合)",
                   "Dwa znaki, które zawierają królewską gałąź (王地) z triady (子·酉·午·卯)",
-                  "Połowa kombinacji, która zawiera znak w centrum formacji. Nie może utworzyć pełnej kombinacji tylko z dwóch znaków, co czyni ją niższą niż pełna triada.",
+                  "Połowa kombinacji, która zawiera znak w centrum formacji. Nie może utworzyć kompletnej kombinacji tylko z dwóch znaków, co czyni ją niższą niż pełna triada.",
                   "{scoreBanhap}"
                 ],
                 [
                   "Ta sama ziemska gałąź",
                   "子子 · 丑丑 …",
-                  "Znaki, które są takie same. Oznacza to, że przypominają siebie nawzajem, ale nie implikuje to przyciągania, więc jest umieszczone w środku.",
+                  "Znaki, które są takie same. Oznacza to, że przypominają się nawzajem, ale nie implikuje to przyciągania, więc jest umieszczone w środku.",
                   "{scoreSame}"
                 ],
                 [
@@ -328,16 +328,16 @@ export const PL_DOCS = {
         "title": "Pełne triady nie pojawiają się w tej usłudze",
         "blocks": [
           {
-            "p": "Pełna triada wymaga trzech znaków do utworzenia. Jednak kompatybilność jest zorganizowana poprzez dopasowanie ziemskich gałęzi dwóch osób **po jednej**, co skutkuje tylko dwoma znakami. Dlatego to, co pojawia się tutaj, to zawsze połowa triady, a punkty pełnej triady {scoreSamhap} są zarezerwowane na badanie formacji w każdym saju."
+            "p": "Pełna triada wymaga trzech znaków do utworzenia. Jednak kompatybilność jest zbudowana poprzez dopasowanie ziemskich gałęzi dwóch osób **jeden po drugim**, co skutkuje tylko dwoma znakami. Dlatego to, co pojawia się tutaj, to zawsze pół triada, a punkty pełnej triady {scoreSamhap} są zarezerwowane na badanie formacji w każdym saju."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Połowy triad muszą zawierać królewską gałąź",
+        "title": "Pół triady musi zawierać królewską gałąź",
         "blocks": [
           {
-            "p": "Istnieje również metoda, która liczy się jako połowa triady, jeśli oba znaki należą do tej samej grupy triady. Może to prowadzić do wysokich wyników nawet dla kombinacji, które trudno nazwać triadą, takich jak 申辰. Dlatego ta usługa uznaje połowę triady tylko dla par, które zawierają królewską gałąź (王地) (子·酉·午·卯), a kombinacje takie jak 申辰·巳丑·寅戌·亥未 bez królewskiej gałęzi nie są liczone jako triady."
+            "p": "Istnieje również metoda, która liczy się jako pół triada, jeśli oba znaki należą do tej samej grupy triady. Może to prowadzić do wysokich wyników nawet dla kombinacji, które trudno nazwać triadą, takich jak 申辰. Dlatego ta usługa uznaje pół triadę tylko dla par, które zawierają królewską gałąź (王地) (子·酉·午·卯), a kombinacje takie jak 申辰·巳丑·寅戌·亥未 bez królewskiej gałęzi nie są liczone jako triady."
           }
         ]
       },
@@ -345,10 +345,10 @@ export const PL_DOCS = {
         "title": "Powód oddzielania cichej niezgody",
         "blocks": [
           {
-            "p": "Sześć par cichej niezgody jest postrzeganych tak samo często w kompatybilności jak zderzenia. Jeśli policzymy kombinacje jako pary i zderzenia, te sześć par byłoby całkowicie ukrytych pod neutralnymi punktami {scoreNeutral}, więc są umieszczone osobno."
+            "p": "Sześć par cichej niezgody jest postrzeganych tak samo często w kompatybilności jak zderzenia. Jeśli liczymy kombinacje jako pary i zderzenia, te sześć par byłoby wszystkie pogrzebane pod neutralnymi punktami {scoreNeutral}, więc są umieszczone osobno."
           },
           {
-            "p": "Podczas gdy zderzenia są jawne i uderzające, cicha niezgoda jest subtelnie niedopasowana. Dlatego jest umieszczona na poziomie {scoreWonjin}, który jest wyższy niż zderzenia ({scoreChung}), ale zdecydowanie niższy niż neutralny ({scoreNeutral})."
+            "p": "Podczas gdy zderzenia są jawne i uderzające, cicha niezgoda jest subtelnie źle dopasowana. Dlatego jest umieszczona na poziomie {scoreWonjin}, który jest wyższy niż zderzenia ({scoreChung}), ale zdecydowanie niższy niż neutralny ({scoreNeutral})."
           }
         ]
       },
@@ -356,10 +356,10 @@ export const PL_DOCS = {
         "title": "Wyniki są również przypisane do zderzeń",
         "blocks": [
           {
-            "p": "Najniższy wynik zderzenia to {scoreChung}. Intencją nie jest przypisanie wartości bliskiej 0. W tradycji zderzenie nie jest 'końcem', ale 'kolizją', a przypisanie niskiego wyniku sugerowałoby, że usługa wydaje ostateczne oświadczenie na temat relacji."
+            "p": "Najniższy wynik zderzenia to {scoreChung}. Intencją nie jest przypisanie wartości bliskiej 0. W tradycji zderzenie nie jest 'końcem', lecz 'kolizją', a przypisanie niskiego wyniku sugerowałoby, że usługa wydaje ostateczne oświadczenie na temat relacji."
           },
           {
-            "p": "Z minimalnym wynikiem {scoreChung} i maksymalnym {scoreSamhap}, zakres jest jasny, ale nie prowadzi do ostatecznego wniosku."
+            "p": "Z minimum {scoreChung} i maksimum {scoreSamhap}, zakres jest jasny, ale nie prowadzi do ostatecznego wniosku."
           }
         ]
       }
@@ -368,7 +368,7 @@ export const PL_DOCS = {
   "guide/zodiac": {
     "eyebrow": "Zodiak",
     "title": "Dlaczego zgodność zodiakalna uwzględnia gałąź roku?",
-    "summary": "Zodiak to gałąź ziemska roku urodzenia. Wyjaśnia to, dlaczego pochodzi z filaru roku saju, a nie z roku kalendarzowego, i wyjaśnia znaczenie zgodności zodiakalnej.",
+    "summary": "Zodiak to gałąź ziemska roku urodzenia. To wyjaśnia, dlaczego pochodzi z filaru roku saju, a nie z roku kalendarzowego, i wyjaśnia znaczenie zgodności zodiakalnej.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
@@ -451,7 +451,7 @@ export const PL_DOCS = {
         "title": "Powód, dla którego nie pytamy bezpośrednio o zodiak",
         "blocks": [
           {
-            "p": "Dlatego zbieramy tylko datę urodzenia, nie pytając o zodiak na ekranie wejściowym. Gdy silnik saju oblicza gałąź roku, granica Ipchun jest automatycznie dostosowywana. Jeśli wybierzesz ją bezpośrednio, ktoś urodzony na początku lutego może wybrać zodiak, który nie odpowiada ich rzeczywistemu."
+            "p": "Dlatego zbieramy tylko datę urodzenia, nie pytając o zodiak na ekranie wejściowym. Gdy silnik saju oblicza gałąź roku, granica Ipchun jest automatycznie dostosowywana. Jeśli wybierzesz to bezpośrednio, ktoś urodzony na początku lutego może wybrać zodiak, który nie odpowiada jego rzeczywistemu."
           }
         ]
       },
@@ -459,7 +459,7 @@ export const PL_DOCS = {
         "title": "Zgodność zodiakalna uwzględnia tylko jedną relację",
         "blocks": [
           {
-            "p": "Obliczenie zgodności zodiakalnej jest proste. Porównuje gałęzie roku dwóch osób, aby określić, czy relacja jest harmonijna, czy występuje konflikt, czy cicha niezgoda, i używa tego wyniku tak, jak jest. Ponieważ jest tylko jeden element, nie ma potrzeby rozdzielania wag."
+            "p": "Obliczenie zgodności zodiakalnej jest proste. Porównuje gałęzie roku dwóch osób, aby określić, czy relacja jest harmonijna, czy występuje konflikt, czy cicha niezgoda, i używa tego wyniku tak, jak jest. Ponieważ jest tylko jeden element, nie ma potrzeby przydzielania wag."
           },
           {
             "p": "Wyniki dla każdej relacji są wszystkie wymienione w [Tabeli Relacji Dwunastu Gałęzi](/guide/branches). Zgodność gałęzi dnia korzysta z tej samej tabeli."
@@ -470,7 +470,7 @@ export const PL_DOCS = {
         "title": "Powód ustalania wagi",
         "blocks": [
           {
-            "p": "Zgodność zodiakalna stanowi {weightZodiac} końcowej stawki dopasowania. Podczas gdy zgodność saju uwzględnia wszystkie cztery filary, zodiak bierze pod uwagę tylko jeden charakter, więc nie mogą być one ważone równo."
+            "p": "Zgodność zodiakalna stanowi {weightZodiac} końcowej stawki dopasowania. Podczas gdy zgodność saju uwzględnia wszystkie cztery filary, zodiak bierze pod uwagę tylko jeden element, więc nie mogą być one ważone równo."
           },
           {
             "p": "Jednak istnieją dwa powody, dla których nie jest to wykluczone."
@@ -484,10 +484,10 @@ export const PL_DOCS = {
         ]
       },
       {
-        "title": "Możesz również osobno zobaczyć zgodność zodiakalną",
+        "title": "Możesz również przeglądać zgodność zodiakalną osobno",
         "blocks": [
           {
-            "p": "Na ekranie wyników pokazujemy wyniki zarówno zgodności saju, jak i zgodności zodiakalnej osobno. Jeśli tylko końcowa stawka dopasowania jest przedstawiona, nie jest jasne, skąd pochodzi ta liczba. Jeśli te dwie wartości są znacznie różne, to samo w sobie jest warte uwagi."
+            "p": "Na ekranie wyników pokazujemy wyniki zarówno zgodności saju, jak i zgodności zodiakalnej osobno. Jeśli tylko końcowa stawka dopasowania jest przedstawiona, nie jest jasne, skąd pochodzi ta liczba. Jeśli dwie wartości są znacznie różne, to samo w sobie jest warte zauważenia."
           }
         ]
       }
@@ -496,25 +496,25 @@ export const PL_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Dziesięć Bogów",
     "title": "Dziesięć Bogów i Pozycja Małżonka",
-    "summary": "Patrzymy na to, co każdy dzień jest dla siebie nawzajem przez Dziesięć Bogów. Wyjaśniamy, dlaczego bezpośrednie bogactwo i pośrednie bogactwo są odczytywane inaczej, mimo że oba są bogactwem.",
+    "summary": "Patrzymy na to, co każdy dzieńowy pień oznacza dla siebie nawzajem przez Dziesięć Bogów. Wyjaśniamy, dlaczego bezpośrednie bogactwo i pośrednie bogactwo są odczytywane inaczej, mimo że oba są bogactwem.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Dzień gałęzi to sama osoba",
+        "title": "Stempel dnia to sama osoba",
         "blocks": [
           {
-            "p": "Wśród ośmiu znaków saju, **dzień gałęzi** (niebiańska gałąź dnia urodzenia) odnosi się do samej osoby. Pozostałe siedem znaków odczytuje się jako środowisko, w którym ta dzień gałąź się znajduje."
+            "p": "Wśród ośmiu znaków saju, **dzień** (heavenly stem dnia urodzenia) odnosi się do samej osoby. Pozostałe siedem znaków jest odczytywanych jako środowisko, w którym znajduje się ten dzień."
           },
           {
-            "p": "**Dziesięć Bogów** (十神) dzieli to, jak dzień gałęzi postrzega inne znaki, na dziesięć kategorii. To, co mnie wspiera, to **zasoby**, to, co jest takie samo jak ja, to **rówieśnik**, to, co produkuję, to **wynik**, to, co kontroluję, to **bogactwo**, a to, co mnie kontroluje, to **władza** — każda z pięciu kategorii jest następnie dzielona przez polarność, co daje dziesięć."
+            "p": "**Dziesięć Bogów** (十神) dzieli sposób, w jaki stempel dnia postrzega inne znaki, na dziesięć kategorii. To, co mnie wspiera, to **zasoby**, to, co jest takie samo jak ja, to **rówieśnik**, to, co produkuję, to **wynik**, to, co kontroluję, to **bogactwo**, a to, co mną rządzi, to **władza** — każda z pięciu kategorii jest następnie podzielona według polaryzacji, co daje dziesięć."
           }
         ]
       },
       {
-        "title": "Co oznacza dzień gałęzi każdej osoby dla siebie nawzajem",
+        "title": "Co każdy dzień oznacza dla siebie nawzajem",
         "blocks": [
           {
-            "p": "To jest pierwszy element w kompatybilności. Gdy ustali się, jak dzień gałęzi A postrzega dzień gałęzi B, postrzeganie A przez B również zostaje ustalone, więc istnieje **tylko sześć możliwości**."
+            "p": "To jest pierwszy element w kompatybilności. Gdy ustali się, jak dzień A postrzega dzień B, postrzeganie B przez A również zostaje ustalone, więc istnieje **tylko sześć możliwości**."
           },
           {
             "table": {
@@ -527,39 +527,39 @@ export const PL_DOCS = {
               ],
               "rows": [
                 [
-                  "Bezpośrednie bogactwo ↔ Bezpośrednia władza",
-                  "Przeciwna polarność",
+                  "Bezpośrednie Bogactwo ↔ Bezpośrednia Władza",
+                  "Przeciwna biegunowość",
                   "Ciepła więź (有情)",
                   "To jest para tradycyjnie postrzegana jako pozycja małżonka. Yin i yang są niedopasowane, przyciągając się nawzajem."
                 ],
                 [
                   "Raniący Oficer ↔ Bezpośrednie Zasoby",
-                  "Przeciwna polarność",
+                  "Przeciwna biegunowość",
                   "Raniący Oficer noszący Pieczęć (傷官佩印)",
                   "Jedna strona owija intensywną energię drugiej strony."
                 ],
                 [
                   "Przyjaciel ↔ Przyjaciel",
-                  "Ta sama polarność",
+                  "Ta sama biegunowość",
                   "Równy",
                   "Przypominają siebie nawzajem i są równi, ale nie naciskają na siebie."
                 ],
                 [
                   "Rywal ↔ Rywal",
-                  "Przeciwna polarność",
+                  "Przeciwna biegunowość",
                   "Rywalizacja",
                   "Przyciągają się nawzajem, ale konkurują o tę samą pozycję."
                 ],
                 [
-                  "Pośrednie bogactwo ↔ Pośrednia władza",
-                  "Ta sama polarność",
+                  "Pośrednie Bogactwo ↔ Pośrednia Władza",
+                  "Ta sama biegunowość",
                   "Zimna więź (無情)",
                   "Stymulacja jest duża, ale obciążenie również jest ciężkie."
                 ],
                 [
-                  "Bóg jedzenia ↔ Pośrednie zasoby",
-                  "Ta sama polarność",
-                  "Gwiazda sowa kradnie jedzenie (梟神奪食)",
+                  "Jedzący Bóg ↔ Pośrednie Zasoby",
+                  "Ta sama biegunowość",
+                  "Sowa kradnie jedzenie (梟神奪食)",
                   "Energia dawana jest zabierana przez drugą stronę, blokując przepływ."
                 ]
               ]
@@ -572,23 +572,23 @@ export const PL_DOCS = {
         "title": "Yin i Yang są na rozdrożu",
         "blocks": [
           {
-            "p": "Strona, gdzie yin i yang są niedopasowane (Właściwe bogactwo, Właściwy Oficer, Właściwy Towarzysz) jest emocjonalna, podczas gdy ta sama strona (Zasoby, Oficer, Towarzysz) jest bezemocjonalna, co jest zasadą odróżniającą właściwe od strony Dziesięciu Bogów."
+            "p": "Strona, gdzie yin i yang są niedopasowane (Proper Wealth, Proper Officer, Proper Companion) jest emocjonalna, podczas gdy ta sama strona (Resource, Officer, Companion) jest bezemocjonalna, co jest zasadą, która odróżnia właściwą stronę od strony Dziesięciu Bogów."
           }
         ]
       },
       {
-        "title": "Powód, dla którego patrzymy przez Dziesięć Bogów, a nie trzy elementy",
+        "title": "Powód, dla którego patrzymy przez Dziesięć Bogów zamiast trzech elementów",
         "blocks": [
           {
-            "p": "Istnieje metoda patrzenia na relację dnia gałęzi z trzema elementami (wzajemne generowanie, podobieństwo, wzajemne przezwyciężanie). Jest to proste, ale **yin i yang znikają.** 甲 (yang wood) i 乙 (yin wood) stają się tym samym 'podobieństwem' jak 甲 i 甲, a wzajemne przezwyciężanie jest spłaszczane do jednego wyniku bez kierunku ani yin i yang."
+            "p": "Istnieje metoda patrzenia na relację dnia z trzema elementami (wzajemne generowanie, podobieństwo, wzajemne pokonywanie). Jest to proste, ale **yin i yang znikają.** 甲 (yang wood) i 乙 (yin wood) stają się tym samym 'podobieństwem' jak 甲 i 甲, a wzajemne pokonywanie jest spłaszczane do jednego wyniku bez kierunku ani yin i yang."
           },
           {
-            "p": "Pozycja małżonka musi być oceniana w kontekście Dziesięciu Bogów. Jeśli elementy oceniane przez pięć elementów i elementy oceniane przez Dziesięć Bogów są mieszane w jednym silniku, będą istnieć dwa standardy dla tych samych dwóch znaków. Dlatego jednoczymy się z Dziesięcioma Bogami."
+            "p": "Pozycja małżonka musi być oceniana w kontekście Dziesięciu Bogów. Jeśli elementy postrzegane przez pięć elementów i elementy postrzegane przez Dziesięć Bogów są mieszane w jednym silniku, będą dwa standardy dla tych samych dwóch znaków. Dlatego jednoczymy się z Dziesięcioma Bogami."
           }
         ]
       },
       {
-        "title": "Pozycja małżonka to Właściwe bogactwo i Właściwy Oficer",
+        "title": "Pozycja małżonka to Właściwe Bogactwo i Właściwa Władza",
         "blocks": [
           {
             "p": "W tradycji, który z Dziesięciu Bogów reprezentuje małżonka, różni się w zależności od płci."
@@ -597,31 +597,31 @@ export const PL_DOCS = {
             "table": {
               "head": [
                 "Płeć",
-                "Pozycja małżonka",
-                "Odpowiednia pozycja"
+                "Pozycja Małżonka",
+                "Odpowiednia Pozycja"
               ],
               "rows": [
                 [
                   "Mężczyzna",
-                  "Bezpośrednie bogactwo (正財)",
-                  "Pośrednie bogactwo (偏財)"
+                  "Bezpośrednie Bogactwo (正財)",
+                  "Pośrednie Bogactwo (偏財)"
                 ],
                 [
                   "Kobieta",
-                  "Bezpośrednia władza (正官)",
-                  "Pośrednia władza (偏官)"
+                  "Bezpośrednia Władza (正官)",
+                  "Pośrednia Władza (偏官)"
                 ]
               ]
             }
           },
           {
-            "p": "Nawet jeśli są to te same zasoby, tylko emocjonalny **Właściwy Majątek** jest uważany za pozycję małżonka, podczas gdy Zasób jest odczytywany jako natura aktywności i bogactwa. Dlatego Właściwy Majątek i Właściwy Urzędnik liczą się jako 2 punkty, podczas gdy Zasób i Urzędnik liczą się jako 1 punkt, a obie strony są sumowane — jeśli obie są postrzegane jako pozycje małżonka, to jest to najwyższe."
+            "p": "Nawet jeśli są tymi samymi zasobami, tylko emocjonalny **Właściwy Majątek** jest uważany za pozycję małżonka, podczas gdy Zasób jest odczytywany jako natura aktywności i bogactwa. Dlatego Właściwy Majątek i Właściwy Urzędnik liczą się jako 2 punkty, podczas gdy Zasób i Urzędnik liczą się jako 1 punkt, a obie strony są sumowane — jeśli obie są postrzegane jako pozycje małżonka, to jest to najwyższa ocena."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Jeśli płeć nie jest ujawniona, pomiń ten element",
+        "title": "Jeśli płeć nie jest ujawniona, pomiń ten punkt",
         "blocks": [
           {
             "p": "Jeśli niejednoznaczny element jest ustawiony na 0 punktów, skutkuje to niesprawiedliwie niskim wynikiem. Pozostała waga po pominięciu elementu jest ponownie normalizowana [(element i waga)](/guide/how-compatibility)."
@@ -632,10 +632,10 @@ export const PL_DOCS = {
         "title": "Pokazujemy również kształt relacji",
         "blocks": [
           {
-            "p": "Oprócz wyniku opisujemy **jaki kształt** mają pary pni dni na ekranie wyników. Czy są podobnymi pozycjami, czy jedna strona wspiera drugą, czy jedna strona jest tłumiona — jeśli jest to relacja wspierająca lub tłumiąca, wyjaśniamy, która strona zajmuje tę pozycję."
+            "p": "Oprócz wyniku, opisujemy **jaki kształt** mają pary pni dni na ekranie wyników. Czy są podobnymi pozycjami, czy jedna strona wspiera drugą, czy jedna strona jest tłumiona — jeśli jest to relacja wspierająca lub tłumiąca, wyjaśniamy, która strona zajmuje tę pozycję."
           },
           {
-            "p": "Jeśli przedstawiony jest tylko jeden wynik, pozostawia to pytanie 'i co z tego'. Kształt nie jest wynikiem, ale czymś do odczytania, a nawet pary z niskimi wynikami mają coś do zinterpretowania."
+            "p": "Jeśli prezentowany jest tylko jeden wynik, pozostawia to pytanie 'i co z tego'. Kształt nie jest wynikiem, ale czymś do odczytania, a nawet pary z niskimi wynikami mają coś do zinterpretowania."
           }
         ]
       }
@@ -648,13 +648,13 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Czy pięć elementów jest 'zrównoważone', nie jest pytaniem o kompatybilność",
+        "title": "Czy pięć elementów jest 'zrównoważone' nie jest pytaniem o kompatybilność",
         "blocks": [
           {
-            "p": "Istnieje metoda mierzenia, czy pięć energii jest równomiernie rozłożone, łącząc pięć elementów obu osób. Jednak pytanie o kompatybilność nie jest tym. **Czy druga strona ma to, czego potrzebuję?**"
+            "p": "Istnieje metoda mierzenia, czy pięć energii jest równomiernie rozłożonych, łącząc pięć elementów obu osób. Jednak pytanie o kompatybilność nie jest tym. **Czy druga strona ma to, czego potrzebuję?**"
           },
           {
-            "p": "Stopień równowagi jest symetryczny, ale komplementarność jest z natury asymetryczna. To dlatego, że to, czego potrzebuje A, różni się od tego, czego potrzebuje B. Dlatego mierzymy każdą stronę osobno i uśredniamy — ponieważ jest to średnia, całkowity wynik pozostaje symetryczny."
+            "p": "Stopień równowagi jest symetryczny, ale komplementarność jest z natury asymetryczna. Wynika to z tego, że to, czego potrzebuje A, różni się od tego, czego potrzebuje B. Dlatego mierzymy każdą stronę osobno i uśredniamy — ponieważ jest to średnia, całkowity wynik pozostaje symetryczny."
           }
         ]
       },
@@ -668,7 +668,7 @@ export const PL_DOCS = {
             "table": {
               "head": [
                 "Osąd",
-                "Czego potrzeba",
+                "Co jest potrzebne",
                 "Ile"
               ],
               "rows": [
@@ -728,7 +728,7 @@ export const PL_DOCS = {
         "title": "Równowaga to 'mniej pewny osąd'",
         "blocks": [
           {
-            "p": "Równowaga oznacza, że nie można jej pokryć przez element wspierający. W tym czasie po prostu postrzegamy dwie najsłabsze energie jako niezbędne. Na ekranie wyników jest to zaznaczone jako 'aktualnie w słabej pozycji', a nie jako definitywne stwierdzenie."
+            "p": "Równowaga oznacza, że nie można jej pokryć przez element wspierający. W tym czasie po prostu postrzegamy dwie najsłabsze energie jako niezbędne. Na ekranie wyników jest to zaznaczone jako 'aktualnie w słabej pozycji' zamiast definitywnego stwierdzenia."
           }
         ]
       },
@@ -736,10 +736,10 @@ export const PL_DOCS = {
         "title": "Moc nie jest liczbą znaków",
         "blocks": [
           {
-            "p": "Podczas liczenia mocy pięciu elementów nie liczymy po prostu ośmiu znaków tak, jak się pojawiają. Używamy wartości, która odzwierciedla ukryte pnie niebieskie (地藏干) w ziemskich gałęziach oraz sezon energii miesiąca (月令), w którym się urodzono."
+            "p": "Podczas liczenia mocy pięciu elementów, nie liczymy po prostu ośmiu znaków tak, jak się pojawiają. Używamy wartości, która odzwierciedla ukryte pnie niebieskie (地藏干) w ziemskich gałęziach oraz sezon energii miesiąca (月令), w którym się urodzono."
           },
           {
-            "p": "Jeśli liczymy tylko powierzchowne znaki, umykamy faktowi, że nawet dwa znaki 木 mogą mieć całkowicie różne siły w zależności od sezonu. 木 wiosny i 木 jesieni, chociaż są tym samym znakiem, mają różne moce."
+            "p": "Jeśli liczymy tylko powierzchowne znaki, umykamy faktowi, że nawet dwa znaki 木 mogą mieć zupełnie różne siły w zależności od sezonu. 木 wiosny i 木 jesieni, chociaż są tym samym znakiem, mają różne moce."
           }
         ]
       },
@@ -747,10 +747,10 @@ export const PL_DOCS = {
         "title": "Ocena stopnia wypełnienia",
         "blocks": [
           {
-            "p": "Patrzymy na proporcję mojego elementu wspierającego w mocy przeciwnika. Jednak nie używamy tej proporcji bezpośrednio, ale **dzielimy oczekiwanie przez wielkość elementu wspierającego.** Gdy jest silny, element wspierający wynosi trzy (oczekiwanie 60%), a gdy słaby, wynosi dwa (oczekiwanie 40%), więc bezpośrednie użycie proporcji oznaczałoby, że silna osoba zawsze otrzymuje wyższy wynik."
+            "p": "Patrzymy na proporcję mojego elementu wspierającego w mocy przeciwnika. Jednak nie używamy tej proporcji bezpośrednio, ale **dzielimy oczekiwanie przez wielkość elementu wspierającego.** Kiedy jest silny, element wspierający wynosi trzy (oczekiwanie 60%), a kiedy słaby, wynosi dwa (oczekiwanie 40%), więc użycie proporcji bezpośrednio oznaczałoby, że silna osoba zawsze otrzymuje wyższy wynik."
           },
           {
-            "p": "Jeśli wypełnione do oczekiwanego poziomu, uzyskuje się wynik bliski 78 punktów, a jeśli wypełnione znacznie więcej, osiąga 100 punktów, podczas gdy jeśli jest znacznie niewystarczające, zmierza w kierunku 55 punktów. Tutaj również dolna granica nie jest ustawiona na 0."
+            "p": "Jeśli wypełnienie osiągnie oczekiwany poziom, uzyskuje się wynik bliski 78 punktów, a jeśli wypełnienie jest znacznie większe, osiąga 100 punktów, podczas gdy jeśli jest znacznie niewystarczające, zmierza w kierunku 55 punktów. Tutaj również dolna granica nie jest ustalona na 0."
           }
         ]
       },
@@ -758,7 +758,7 @@ export const PL_DOCS = {
         "title": "To jest wstępny osąd",
         "blocks": [
           {
-            "p": "Rzeczywista analiza saju uwzględnia formację i klimat sezonowy (ciepło i wilgotność sezonu), aby określić element wspierający, a wnioski mogą się różnić w zależności od zastosowanej metody. Inyeon-Link używa tylko elementów wspierających, które można zmierzyć przez **wartości mocy.** Wynika to z zasady używania tylko tego, co można przetłumaczyć na zasady, więc ten sam input zawsze da ten sam wynik."
+            "p": "Rzeczywista analiza saju uwzględnia formację i klimat sezonowy (ciepło i wilgotność sezonu), aby określić element wspierający, a wnioski mogą się różnić w zależności od zastosowanej metody. Inyeon-Link używa tylko elementów wspierających, które można zmierzyć za pomocą **wartości mocy.** Wynika to z zasady używania tylko tego, co można przetłumaczyć na zasady, więc te same dane wejściowe zawsze dadzą tę samą odpowiedź."
           },
           {
             "p": "Zamiast tego, ekran wyników przedstawia również siłę i słabość każdej osoby wraz z aktualnie potrzebną energią jako **materiał do odczytu**. Ma to na celu uniknięcie ukrywania podstawy wyniku."
@@ -770,14 +770,14 @@ export const PL_DOCS = {
   "guide/affinity": {
     "eyebrow": "Nasze standardy",
     "title": "Inyeon’s Match — Powód, dla którego nie podajemy całkowitego wyniku",
-    "summary": "Bierzemy pod uwagę dane tylko jednej osoby, pozostawiając pozycję przeciwnika pustą i podstawiamy wszystkie możliwe wartości do tej pozycji. Wyjaśniamy powód, dla którego nie dołączamy całkowitego wyniku do uzyskanego w ten sposób typu.",
+    "summary": "Bierzemy pod uwagę dane tylko jednej osoby, pozostawiając pozycję przeciwnika pustą i podstawiamy wszystkie możliwe wartości na to miejsce. Wyjaśniamy powód, dla którego nie dołączamy całkowitego wyniku do uzyskanego typu.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Obliczenia są przeprowadzane, pozostawiając pozycję przeciwnika pustą",
+        "title": "Obliczenia są dokonywane, pozostawiając pozycję przeciwnika pustą",
         "blocks": [
           {
-            "p": "Wyniki kompatybilności są obliczane przez dopasowanie dwóch osób. **Inyeon’s Match** bierze pod uwagę dane tylko jednej osoby, pozostawiając pozycję przeciwnika pustą i testuje wszystkie możliwe wartości, które mogą wejść na tę pozycję. To jak uruchomienie silnika kompatybilności w odwrotną stronę."
+            "p": "Wyniki kompatybilności są obliczane przez dopasowanie dwóch osób. **Inyeon’s Match** bierze pod uwagę dane tylko jednej osoby, pozostawiając pozycję przeciwnika pustą i testuje wszystkie możliwe wartości, które mogłyby zająć to miejsce. To jak uruchomienie silnika kompatybilności w odwrotną stronę."
           },
           {
             "p": "Dlatego nie ma potrzeby znajomości daty urodzenia przeciwnika. Możemy nadal powiedzieć: 'Jaki profil dopasowania jest dla mnie odpowiedni?' o kimś, kogo jeszcze nie spotkaliśmy."
@@ -805,7 +805,7 @@ export const PL_DOCS = {
                 ],
                 [
                   "Uzupełnienie pięciu elementów",
-                  "Mój wspierający element i pięć elementów przeciwnika",
+                  "Mój wspierający element i pięciomoc przeciwnika",
                   "5"
                 ],
                 [
@@ -831,7 +831,7 @@ export const PL_DOCS = {
         "title": "Te same zasady mają zastosowanie",
         "blocks": [
           {
-            "p": "Wyniki zapisane tutaj są bezpośrednio pobierane z silnika kompatybilności. Ponieważ nie stworzono nowych zasad, typ, który tutaj wychodzi na szczyt, również będzie miał najwyższy wynik dla tego elementu w rzeczywistej kompatybilności. Jeśli zasady kompatybilności zostaną zmienione, ten ekran również się dostosuje."
+            "p": "Wyniki zapisane tutaj są bezpośrednio pobierane z silnika kompatybilności. Ponieważ nie stworzono nowych zasad, typ, który tutaj wychodzi na czoło, również będzie miał najwyższy wynik dla tego elementu w rzeczywistej kompatybilności. Jeśli zasady kompatybilności zostaną zmienione, ten ekran również się dostosuje."
           }
         ]
       },
@@ -839,13 +839,13 @@ export const PL_DOCS = {
         "title": "Nie podano całkowitego wyniku",
         "blocks": [
           {
-            "p": "To jest najważniejsza decyzja na tym ekranie. Zbieranie najwyższych wyników dla każdej gałęzi może wydawać się prowadzić do 'idealnego dopasowania', ale ta osoba **może w rzeczywistości nie istnieć.**"
+            "p": "To jest najważniejsza decyzja na tym ekranie. Zbieranie najwyższych wyników dla każdej gałęzi może wydawać się prowadzić do 'idealnego dopasowania', ale ta osoba może **w rzeczywistości nie istnieć.**"
           },
           {
-            "p": "W prawdziwych ludziach, mistrz dnia i pięć elementów nie działają osobno. Osoba z 甲木 zazwyczaj ma również silną energię 木. Ta metoda liczenia gałęzi osobno ignoruje tę korelację, więc wartość uzyskana przez połączenie najwyższych wyników dla każdej gałęzi staje się kombinacją, która nie istnieje w rzeczywistości."
+            "p": "W rzeczywistych ludziach, mistrz dnia i pięć elementów nie działają oddzielnie. Osoba z 甲木 zazwyczaj ma również silną energię 木. Ta metoda liczenia gałęzi oddzielnie ignoruje tę korelację, więc wartość uzyskana przez połączenie najwyższych wyników dla każdej gałęzi staje się kombinacją, która nie istnieje w rzeczywistości."
           },
           {
-            "p": "Dlatego ekran wyświetla tylko **wyniki elementów** i nie podaje całkowitego wyniku. Całkowity wynik zostanie obliczony po otrzymaniu daty urodzenia drugiej osoby dla [kompatybilności saju](/compatibility)."
+            "p": "Dlatego ekran wyświetla tylko **wyniki elementów** i nie podaje całkowitego wyniku. Całkowity wynik zostanie obliczony po otrzymaniu daty urodzenia drugiej osoby dla [saju kompatybilności](/compatibility)."
           }
         ]
       },
@@ -853,10 +853,10 @@ export const PL_DOCS = {
         "title": "Jak czytać 'typy dopasowania'",
         "blocks": [
           {
-            "p": "Wynik oznacza 'jeśli spotkasz osobę tego typu, ten element będzie miał wysoki wynik'. Nie jest to kryterium wyboru osoby, lecz raczej sposób na odczytanie tego z jednej perspektywy zrozumienia siebie."
+            "p": "Wynik oznacza 'jeśli spotkasz osobę tego typu, ten element będzie miał wysoki wynik'. Nie jest to kryterium wyboru osoby, ale raczej sposób na odczytanie tego z jednej perspektywy zrozumienia siebie."
           },
           {
-            "p": "Powody, dla których niektóre typy uzyskały wysokie wyniki, są również odnotowane element po elemencie — czy mistrz dnia jest w korzystnej pozycji, czy ta osoba posiada energię, której obecnie potrzebuję."
+            "p": "Powody, dla których niektóre typy uzyskały wysokie wyniki, są również notowane element po elemencie — czy mistrz dnia jest w korzystnej pozycji, czy ta osoba posiada energię, której obecnie potrzebuję."
           }
         ]
       },
@@ -864,7 +864,7 @@ export const PL_DOCS = {
         "title": "Narzędzie potwierdzające",
         "blocks": [
           {
-            "p": "Możesz być ciekaw, czy osoba, którą masz na myśli, odpowiada temu typowi. Wprowadzając ich datę urodzenia do narzędzia potwierdzającego na ekranie wyników, zostaniesz poinformowany o ich mistrzu dnia, gałęzi dnia i gałęzi roku. Wprowadzone wartości nie są w tym czasie zapisywane [(nie zapisane)](/guide/no-storage)."
+            "p": "Możesz być ciekawy, czy osoba, którą masz na myśli, odpowiada temu typowi. Wprowadzając ich datę urodzenia do narzędzia potwierdzającego na ekranie wyników, zostaniesz poinformowany o ich mistrzu dnia, gałęzi dnia i gałęzi roku. Wartości wejściowe nie są w tym czasie zapisywane [(nie zapisane)](/guide/no-storage)."
           }
         ]
       }
@@ -883,7 +883,7 @@ export const PL_DOCS = {
             "p": "Filar czasowy (時柱) saju jest określany przez pozycję słońca. Jednak zegar, który widzimy, używa jednego standardowego czasu dla całego kraju, co powoduje rozbieżność z rzeczywistą pozycją słońca."
           },
           {
-            "p": "Standardowy czas Korei oparty jest na długości geograficznej 135° wschodniej. Ponieważ długość geograficzna Seulu wynosi około 127°, jest to około 8° na zachód, co powoduje, że słońce osiąga swój zenit później — gdy jest południe według zegara, słońce w Seulu jeszcze nie osiągnęło zenitu. Ta różnica wynosi około **32 minut**."
+            "p": "Standardowy czas Korei oparty jest na długości geograficznej 135° wschodniej. Ponieważ długość geograficzna Seulu wynosi około 127°, jest to około 8° na zachód, co powoduje, że słońce osiąga zenit później — gdy jest południe według zegara, słońce w Seulu jeszcze nie osiągnęło zenitu. Ta różnica wynosi około **32 minut**."
           }
         ]
       },
@@ -892,7 +892,7 @@ export const PL_DOCS = {
         "title": "32 minuty zmieniają filar czasowy o jeden slot",
         "blocks": [
           {
-            "p": "Czas w saju dzieli się na jednostki dwugodzinne. Osoby urodzone blisko granicy będą miały swój filar czasowy całkowicie zmieniony przez różnicę 32 minut — ta korekta jest konieczna dla tych, którzy znajdują się dokładnie na tej granicy."
+            "p": "Czas w saju jest podzielony na jednostki dwugodzinne. Osoby urodzone blisko granicy będą miały swój filar czasowy całkowicie zmieniony przez różnicę 32 minut — ta korekta jest konieczna dla tych, którzy znajdują się dokładnie na tej granicy."
           }
         ]
       },
@@ -900,10 +900,10 @@ export const PL_DOCS = {
         "title": "Dlaczego pytamy o miejsce urodzenia",
         "blocks": [
           {
-            "p": "Jeśli długość geograficzna jest inna, kwota korekty również będzie różna. Zastosowanie korekty opartej na Seulu dla kogoś urodzonego za granicą spowoduje znaczną rozbieżność w filarze czasowym. Dlatego ekran wprowadzania wymaga, abyś wybrał swoje miejsce urodzenia, a obliczenia są oparte na długości geograficznej i czasie standardowym tego miasta. Obecnie w liście znajduje się {cityCount} miejsc."
+            "p": "Jeśli długość geograficzna jest inna, kwota korekty również będzie różna. Zastosowanie korekty opartej na Seulu dla kogoś urodzonego za granicą spowoduje znaczną rozbieżność w filarze czasowym. Dlatego ekran wejściowy wymaga wybrania miejsca urodzenia, a obliczenia są oparte na długości geograficznej i czasie standardowym tego miasta. Obecnie w liście znajduje się {cityCount} miejsc."
           },
           {
-            "p": "W miejscach, gdzie długość geograficzna znacznie się różni nawet w obrębie tego samego kraju (takich jak USA, Rosja, Indonezja itp.), miasta zostały podzielone. **15° długości geograficznej odpowiada jednemu slotowi filaru czasowego**."
+            "p": "W miejscach, gdzie długość geograficzna znacznie się różni nawet w obrębie tego samego kraju (takich jak USA, Rosja, Indonezja itp.), miasta zostały podzielone. **15° długości geograficznej równa się jednemu slotowi filaru czasowego**."
           },
           {
             "p": "Jeśli nie wybierzesz, obliczenia będą oparte na Seulu. Ponieważ większość urodzeń ma miejsce w kraju, zmniejsza to szansę na błąd, ale jeśli urodziłeś się za granicą, upewnij się, że wybierzesz."
@@ -914,11 +914,11 @@ export const PL_DOCS = {
         "title": "Czas standardowy zmieniał się wielokrotnie w przeszłości",
         "blocks": [
           {
-            "p": "Istnieje powód, dla którego korekta nie może być obliczona po prostu jako 'różnica długości geograficznej ÷ 15° × 60 minut'. Sam czas standardowy różnił się w różnych epokach."
+            "p": "Istnieje powód, dla którego korekta nie może być obliczana po prostu jako 'różnica długości geograficznej ÷ 15° × 60 minut'. Sam czas standardowy zmieniał się w różnych epokach."
           },
           {
             "table": {
-              "caption": "Zmiany w standardowym czasie Korei — osoby urodzone w tym okresie będą miały różnice w prostych obliczeniach",
+              "caption": "Zmiany w standardowym czasie Korei — osoby urodzone w tym okresie będą miały rozbieżności w prostych obliczeniach",
               "head": [
                 "Okres",
                 "Co było inne"
@@ -940,7 +940,7 @@ export const PL_DOCS = {
             }
           },
           {
-            "p": "Inyeon-Link nie używa stałej wartości dla południka standardowego, lecz oblicza standardowy czas, który był faktycznie używany w danym czasie na podstawie informacji o **strefie czasowej IANA** miejsca urodzenia. Czas letni i przeszłe standardowe czasy są automatycznie uwzględniane."
+            "p": "Inyeon-Link nie używa stałej wartości dla południka standardowego, lecz oblicza standardowy czas, który był rzeczywiście używany w danym czasie na podstawie informacji o **strefie czasowej IANA** miejsca urodzenia. Czas letni i przeszłe standardowe czasy są automatycznie uwzględniane."
           }
         ]
       },
@@ -962,7 +962,7 @@ export const PL_DOCS = {
             "p": "Czas urodzenia jest opcjonalny. Jeśli go nie znasz, obliczenia zostaną przeprowadzone bez filaru czasu, a ten fakt zostanie wyświetlony na ekranie wyników. Nie ma elementów w kompatybilności, które wymagają bezpośredniego wpisania filaru czasu, ale wpływa on na pięć elementów, więc jeśli go znasz, lepiej go uwzględnić."
           },
           {
-            "p": "Kompatybilność zodiakalna zawsze ma tę samą wartość, niezależnie od czasu — [ponieważ bierze pod uwagę tylko filar roku](/guide/zodiac)."
+            "p": "Kompatybilność zodiakalna zawsze ma tę samą wartość, niezależnie od czasu — [ponieważ patrzy tylko na filar roku](/guide/zodiac)."
           }
         ]
       }
@@ -971,11 +971,11 @@ export const PL_DOCS = {
   "guide/no-storage": {
     "eyebrow": "Informacje osobiste",
     "title": "Metoda nieprzechowywania wprowadzonych informacji",
-    "summary": "To wyjaśnia, co technicznie oznacza, że twoja data urodzenia nie jest nigdzie rejestrowana i co jest zawarte w linku wynikowym.",
+    "summary": "Wyjaśnia to, co technicznie oznacza, że twoja data urodzenia nie jest nigdzie rejestrowana i co jest zawarte w linku wynikowym.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Nie jest wymagane członkostwo",
+        "title": "Nie wymagana jest rejestracja",
         "blocks": [
           {
             "p": "Inyeon-Link nie tworzy kont. Nie zbiera imion, adresów e-mail ani numerów telefonów. Jedyną zbieraną informacją jest data urodzenia oraz (opcjonalnie) czas urodzenia, miejsce urodzenia i płeć, a nawet to nie pozostaje po zakończeniu obliczeń."
@@ -998,7 +998,7 @@ export const PL_DOCS = {
             "p": "To, co następuje po **#**, to wartości wejściowe. Ta część nazywana jest **fragmentem**, który jest **sekcją, której przeglądarka nie wysyła do serwera**. To standardowe zachowanie w sieci, a nie zasada, którą stworzyliśmy — pierwotnie zaprojektowano to, aby wskazać lokalizację w dokumencie, więc serwer nie ma potrzeby jej widzieć."
           },
           {
-            "p": "Innymi słowy, gdy otwierasz link wynikowy, przeglądarka odczytuje tę wartość, aby zażądać obliczenia, a nasz serwer otrzymuje wartości potrzebne do obliczeń, zwraca odpowiedź, a następnie o niej zapomina."
+            "p": "Innymi słowy, gdy otwierasz link wynikowy, przeglądarka odczytuje tę wartość, aby zażądać obliczeń, a nasz serwer otrzymuje wartości potrzebne do obliczeń, zwraca odpowiedź, a następnie o niej zapomina."
           }
         ]
       },
@@ -1015,10 +1015,10 @@ export const PL_DOCS = {
         "title": "Dlaczego obliczenia są wykonywane na serwerze, ale nie są przechowywane?",
         "blocks": [
           {
-            "p": "Obliczenia same w sobie są wykonywane na serwerze. Koreański kalendarz lunarny jest potrzebny do wygenerowania saju, a ta tabela jest zbyt duża, aby mogła być przesyłana do przeglądarki. Jednak **po przetworzeniu żądania ta wartość nie jest używana nigdzie.** Nie ma kodu do przechowywania jej w bazie danych."
+            "p": "Obliczenia same w sobie są wykonywane na serwerze. Koreński kalendarz lunarny jest potrzebny do wygenerowania saju, a ta tabela jest zbyt duża, aby mogła być przesyłana do przeglądarki. Jednak **po przetworzeniu żądania ta wartość nie jest używana nigdzie.** Nie ma kodu do przechowywania jej w bazie danych."
           },
           {
-            "p": "Zachowywana jest minimalna rejestracja niezbędna do działania — licznik, aby zapobiec wysyłaniu zbyt wielu żądań przez tę samą osobę w krótkim czasie. To nie obejmuje daty urodzenia, a adres IP dostępu również nie jest przechowywany. Tylko jedna wartość, haszowana z datą, jest liczona, a ta wartość zmienia się, gdy zmienia się dzień."
+            "p": "Zachowywana jest minimalna dokumentacja niezbędna do działania — licznik, aby zapobiec wysyłaniu zbyt wielu żądań przez tę samą osobę w krótkim czasie. To nie obejmuje daty urodzenia, a adres IP dostępu również nie jest przechowywany. Tylko jedna wartość, haszowana z datą, jest liczona, a ta wartość zmienia się, gdy zmienia się dzień."
           }
         ]
       },
@@ -1041,7 +1041,7 @@ export const PL_DOCS = {
         "title": "W przypadku zakupu",
         "blocks": [
           {
-            "p": "Jeśli kupisz raport, w tym czasie zostanie zachowany zapis transakcji. Prawo określa okres przechowywania płatności, a bez historii zamówienia nie można przetworzyć zwrotów. Jednak nawet wtedy **data urodzenia używana do obliczeń kompatybilności nie jest przypisywana do zamówienia** — jest ponownie zbierana podczas tworzenia PDF po potwierdzeniu płatności."
+            "p": "Jeśli zakupisz raport, w tym czasie zostanie zachowany zapis transakcji. Prawo określa okres przechowywania płatności, a bez historii zamówienia nie można przetworzyć zwrotów. Jednak nawet wtedy **data urodzenia używana do obliczeń kompatybilności nie jest przypisana do zamówienia** — jest zbierana ponownie podczas tworzenia PDF po potwierdzeniu płatności."
           },
           {
             "p": "Szczegóły są opisane w [Polityce Prywatności](/privacy)."
@@ -1053,33 +1053,33 @@ export const PL_DOCS = {
   "guide/reports": {
     "eyebrow": "Produkty płatne",
     "title": "Co jest zawarte w płatnym raporcie?",
-    "summary": "To wyjaśnia, co zostało dodane do PDF, zachowując ekran bez zmian, punkt po punkcie. Wartości i treści są odczytywane z rzeczywistych ustawień produktu.",
+    "summary": "Wyjaśnia to, co zostało dodane do PDF, zachowując ekran bez zmian, punkt po punkcie. Wartości i treści są odczytywane z rzeczywistych ustawień produktu.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Ekran pozostaje niezmieniony, tylko dodany do PDF",
+        "title": "Ekran pozostaje bez zmian, tylko dodane do PDF",
         "blocks": [
           {
-            "p": "Obliczenia kompatybilności i zapytania o wyniki są **darmowe**. Współczynniki dopasowania, wyniki i wagi elementów, oryginalne wykresy saju obu osób oraz kształt relacji można zobaczyć na ekranie. Nic nie zostało usunięte z ekranu podczas tworzenia płatnego raportu."
+            "p": "Obliczenia kompatybilności i zapytania o wyniki są **darmowe**. Wskaźniki dopasowania, wyniki i wagi elementów, oryginalne wykresy saju obu osób oraz kształt relacji można zobaczyć na ekranie. Nic nie zostało usunięte z ekranu podczas tworzenia płatnego raportu."
           },
           {
-            "p": "Celem raportu jest **dodanie warstw, które nie są na ekranie**. A ta warstwa nie jest wymyślona; składa się z wartości, które zostały już obliczone podczas procesu oceniania, ale nie były używane na ekranie."
+            "p": "Celem raportu jest **dodanie warstw, których nie ma na ekranie**. A ta warstwa nie jest wymyślona; składa się z wartości, które zostały już obliczone podczas procesu oceniania, ale nie były używane na ekranie."
           }
         ]
       },
       {
-        "title": "Raport PDF o kompatybilności saju — {priceGunghapDomestic}",
+        "title": "Raport o kompatybilności saju PDF — {priceGunghapDomestic}",
         "slot": "gunghapContents",
         "blocks": [
           {
-            "p": "Krajowa płatność {priceGunghapDomestic} (w tym VAT), międzynarodowa płatność {priceGunghapGlobal}. A4 {pagesGunghap} stron."
+            "p": "Płatność krajowa {priceGunghapDomestic} (w tym VAT), płatność międzynarodowa {priceGunghapGlobal}. A4 {pagesGunghap} stron."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": "**Strony 1-3 są zorganizowane, aby zachować to, co jest na ekranie** i **od strony 4 zawierają treści, które nie są na ekranie**. Poniżej wyjaśnia, dlaczego niektóre rzeczy nie były wyświetlane na ekranie."
+            "p": "**Strony 1-3 są zorganizowane, aby zachować to, co jest na ekranie** i **od strony 4 zaczyna się treść, która nie jest na ekranie**. Poniżej wyjaśnia, dlaczego niektóre rzeczy nie zostały wyświetlone na ekranie."
           }
         ]
       },
@@ -1090,10 +1090,10 @@ export const PL_DOCS = {
             "p": "Elementy pięciu elementów na ekranie są przedstawione jako pojedynczy wynik. Jednak ten pojedynczy wynik to **średnia z dwóch kierunków** — mierzy, jak bardzo jeden wypełnia mnie, a jak bardzo ja wypełniam drugiego, i uśrednia te wartości."
           },
           {
-            "p": "Komplementarność jest z natury **asymetryczna**. Dzieje się tak, ponieważ energie potrzebne mi i energie potrzebne drugiej osobie są różne. Jeśli spojrzysz tylko na średnią, relacja, w której jedna strona znacząco wypełnia drugą, oraz relacja, w której obie wypełniają się nawzajem równomiernie, będą wyglądały na tę samą liczbę. Raport rozdziela te dwie."
+            "p": "Komplementarność jest z natury **asymetryczna**. Dzieje się tak, ponieważ energie potrzebne mi i energie potrzebne drugiej osobie są różne. Jeśli spojrzysz tylko na średnią, relacja, w której jedna strona znacząco wypełnia drugą, oraz relacja, w której obie strony wypełniają się nawzajem równomiernie, będą wyglądać na tę samą liczbę. Raport oddziela te dwie."
           },
           {
-            "p": "W tej samej sekcji znajduje się również **wykres relacji czterech filarów**. Jedynym, który wchodzi w wskaźnik dopasowania, jest dzień gałęzi (日支) — ponieważ jest to pozycja małżonka — ale inne gałęzie roku, miesiąca i godziny również można odczytać za pomocą tego samego wykresu relacji."
+            "p": "W tej samej sekcji znajduje się również **wykres relacji czterech filarów**. Jedynym, który wchodzi w wskaźnik dopasowania, jest dzień gałęzi (日支) — ponieważ to pozycja małżonka — ale inne gałęzie roku, miesiąca i godziny również można odczytać za pomocą tego samego wykresu relacji."
           }
         ]
       },
@@ -1102,7 +1102,7 @@ export const PL_DOCS = {
         "title": "Wyniki w tej tabeli nie wchodzą w wskaźnik dopasowania",
         "blocks": [
           {
-            "p": "Gdyby były uwzględnione, całkowity wynik by się zmienił i nie pasowałby do już wysłanego linku z wynikami. Dlatego jest to uwzględnione tylko jako materiał do odczytu, a ten fakt jest zaznaczony poniżej tabeli."
+            "p": "Gdyby były uwzględnione, całkowity wynik by się zmienił i nie pasowałby do już wysłanego linku wynikowego. Dlatego jest to uwzględnione tylko jako materiał do czytania, a ten fakt jest zaznaczony poniżej tabeli."
           }
         ]
       },
@@ -1110,10 +1110,10 @@ export const PL_DOCS = {
         "title": "Strona 5 — Bliższe spojrzenie na saju każdej osoby",
         "blocks": [
           {
-            "p": "Słupki pięciu elementów na ekranie pokazują **jak dużo jest obecne**. Raport dodaje **czy miesiąc urodzenia wspiera tę energię**. Nawet przy tej samej ilości, energia, która jest silna (旺) i energia, która jest martwa (死), mają różne siły."
+            "p": "Słupki pięciu elementów na ekranie pokazują **jak dużo jest obecne**. Raport dodaje **czy miesiąc urodzenia wspiera tę energię**. Nawet przy tej samej ilości, energia silna (旺) i energia martwa (死) mają różne siły."
           },
           {
-            "p": "Możesz zobaczyć siły przed i po pomnożeniu przez energię miesiąca obok siebie, pokazując, jak bardzo sezon ją podniósł. **Wskaźnik sojusznika**, który odróżnia silnego mistrza dnia od słabego mistrza dnia, jest również zaznaczony — ekran pokazuje tylko osąd, ale raport pokazuje, gdzie ten osąd został podjęty."
+            "p": "Możesz zobaczyć siły przed i po pomnożeniu przez energię miesiąca obok siebie, pokazując, jak bardzo sezon ją zwiększył. **Współczynnik sojusznika**, który odróżnia silnego mistrza dnia od słabego mistrza dnia, jest również zaznaczony — ekran pokazuje tylko osąd, ale raport pokazuje, gdzie ten osąd został podjęty."
           }
         ]
       },
@@ -1121,10 +1121,10 @@ export const PL_DOCS = {
         "title": "Strona 6 — Co oznaczają cztery filary drugiej osoby dla mnie",
         "blocks": [
           {
-            "p": "Wskaźnik dopasowania porównuje tylko **dzienne pnie** obu osób. Jednak pozostałe trzy filary drugiej osoby są również określane przez Dziesięciu Bogów przy użyciu tych samych zasad. Chociaż możesz zrozumieć **co ta osoba dla mnie oznacza** patrząc tylko na dzienny pień, nie możesz wiedzieć **co pozycja tej osoby dla mnie oznacza**."
+            "p": "Wskaźnik dopasowania porównuje tylko **stemple dnia** obu osób. Jednak pozostałe trzy filary drugiej osoby są również określane przez Dziesięć Bogów według tych samych zasad. Chociaż możesz zrozumieć **co ta osoba dla mnie znaczy** patrząc tylko na stempel dnia, nie możesz wiedzieć **jaką pozycję ta osoba zajmuje dla mnie**."
           },
           {
-            "p": "Ponieważ istnieją kierunki, obie strony są przedstawione osobno. To, co widzę, a to, co widzi druga osoba, jest różne."
+            "p": "Ponieważ są kierunki, obie strony są przedstawione osobno. To, co widzę, i to, co widzi druga osoba, jest różne."
           }
         ]
       },
@@ -1132,43 +1132,43 @@ export const PL_DOCS = {
         "title": "Strona 7 — Jak obliczono ten saju",
         "blocks": [
           {
-            "p": "Podano, jak bardzo czas urodzenia został dostosowany do prawdziwego czasu słonecznego, czy korekta spowodowała zmianę daty oraz jakie były daty słoneczne i księżycowe, gdy saju został wygenerowany. Koncepcja jest wyjaśniona w dokumencie [Dostosowanie czasu urodzenia do prawdziwego czasu słonecznego](/guide/true-solar-time), ale **wartość, o ile minut została dostosowana w twoim przypadku** różni się w zależności od osoby, więc jest uwzględniona tylko w raporcie."
+            "p": "Podano, jak bardzo czas urodzenia został dostosowany do prawdziwego czasu słonecznego, czy korekta spowodowała zmianę daty oraz jakie były daty słoneczne i księżycowe, gdy saju został wygenerowany. Koncepcja ta jest wyjaśniona w dokumencie [Dostosowanie czasu urodzenia do prawdziwego czasu słonecznego](/guide/true-solar-time), ale **wartość, o ile minut została dostosowana w twoim przypadku** różni się w zależności od osoby, więc jest to uwzględnione tylko w raporcie."
           }
         ]
       },
       {
         "title": "Raport profilu dopasowania Inyeon PDF — {priceAffinityDomestic}",
-        "slot": "",
+        "slot": "affinityContents",
         "blocks": [
           {
-            "p": "Krajowa płatność {priceAffinityDomestic} (w tym VAT), płatność międzynarodowa {priceAffinityGlobal}. A4 {pagesAffinity} stron."
+            "p": "Płatność krajowa {priceAffinityDomestic} (w tym VAT), płatność międzynarodowa {priceAffinityGlobal}. A4 {pagesAffinity} stron."
           }
         ]
       },
       {
         "blocks": [
           {
-            "p": ""
+            "p": "Ta sekcja to **ogólny ranking**. Ekran pokazuje tylko zestawy, które dobrze pasują, ale raport klasyfikuje wszystkie dziesięć stempli niebiańskich i dwanaście gałęzi ziemskich **całkowicie**. Jeśli spojrzysz tylko na najlepsze zestawy, nie będziesz wiedzieć 'kto jest następny' i 'który jest najmniej kompatybilny'."
           }
         ]
       },
       {
-        "title": "",
+        "title": "Rzeczy do wiedzenia przed zakupem",
         "blocks": [
           {
-            "p": ""
+            "p": "**Serwer nie przechowuje plików.** Po zatwierdzeniu płatności dokument jest generowany i natychmiast wysyłany, nie pozostawiając nic na serwerze. Zasada tej usługi, aby nie zapisywać wartości wejściowych, jest utrzymywana nawet w płatnym procesie."
           },
           {
-            "p": ""
+            "p": "Dlatego **proszę zapisać plik natychmiast po płatności.** Możesz otrzymać to samo zamówienie do pięciu razy, ale jeśli opuścisz ekran wyników i wartości wejściowe znikną, nie będziesz mógł go odtworzyć."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "",
+        "title": "Raporty są również materiałami referencyjnymi",
         "blocks": [
           {
-            "p": ""
+            "p": "Sama długość nie oznacza, że wnioski są bardziej pewne. To, co raport zawiera więcej, to **podstawa tego samego obliczenia**, a nie silniejsze twierdzenie. Odczyt przeznaczenia to dziedzina, w której wnioski mogą się różnić w zależności od praktyka, a ta usługa oblicza tylko to, co można przetłumaczyć na zasady."
           }
         ]
       }
@@ -1194,7 +1194,7 @@ export const PL_DOCS = {
             "p": "Proszę wysłać zapytania na **{email}**. Odpowiemy w ciągu 2 dni roboczych. W przypadku zapytań dotyczących płatności i zwrotów proszę dołączyć **numer zamówienia lub email użyty do płatności** dla szybszej weryfikacji."
           },
           {
-            "p": "Zapytania telefoniczne można kierować na {customerCenter}."
+            "p": "Zapytania telefoniczne można składać pod numerem {customerCenter}."
           }
         ]
       },
@@ -1204,26 +1204,26 @@ export const PL_DOCS = {
           {
             "ul": [
               "**Płatność i Zwrot** — Jeśli dokument nie został utworzony lub kwota płatności różni się od zamówienia, zostanie dokonany pełny zwrot. Warunki są w [polityce zwrotów](/refund-policy).",
-              "**Informacje Osobiste** — Przyjmujemy wnioski o wgląd, korektę i usunięcie. Polityka przetwarzania jest w [polityce prywatności](/privacy).",
-              "**Raport o Błędzie Obliczeniowym** — Jeśli oryginalny wykres saju lub wynik wydaje się dziwny, prosimy dać nam znać. Jeśli dołączysz, kiedy wprowadziłeś datę i godzinę, możemy przeliczyć z tymi samymi wartościami."
+              "**Informacje osobiste** — Przyjmujemy wnioski o wgląd, korektę i usunięcie. Polityka przetwarzania jest w [polityce prywatności](/privacy).",
+              "**Raport o błędzie obliczeniowym** — Jeśli oryginalny wykres saju lub wynik wydaje się dziwny, prosimy dać nam znać. Jeśli dołączysz, kiedy wpisałeś datę i czas, możemy przeliczyć z tymi samymi wartościami."
             ]
           }
         ]
       },
       {
-        "title": "Informacje o Firmie",
+        "title": "Informacje o firmie",
         "blocks": [
           {
             "ul": [
-              "**Nazwa Firmy** — {companyName}",
+              "**Nazwa firmy** — {companyName}",
               "**Przedstawiciel** — {representative}",
-              "**Numer Rejestracji Firmy** — {businessNumber}",
-              "**Numer Rejestracji Działalności Gospodarczej** — {mailOrderNumber}",
+              "**Numer rejestracji firmy** — {businessNumber}",
+              "**Numer rejestracji działalności wysyłkowej** — {mailOrderNumber}",
               "**Adres** — {address}",
-              "**Centrum Obsługi Klienta** — {customerCenter}",
+              "**Centrum obsługi klienta** — {customerCenter}",
               "**Email** — {email}",
-              "**Inspektor Ochrony Danych Osobowych** — {privacyOfficer}",
-              "**Dostawca Hostingu** — {hostingProvider}"
+              "**Inspektor ochrony danych osobowych** — {privacyOfficer}",
+              "**Dostawca hostingu** — {hostingProvider}"
             ]
           }
         ]
@@ -1232,7 +1232,7 @@ export const PL_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Nie musisz podawać swojej daty i godziny urodzenia w e-mailu zapytania. Nie zapisujemy danych, więc nie możemy ich odzyskać, a numer zamówienia jest wystarczający do potwierdzenia. Proszę dołączyć go tylko, jeśli jest to konieczne do zgłoszenia błędu w obliczeniach."
+            "p": "Nie musisz dołączać daty i godziny urodzenia w e-mailu zapytania. Nie zapisujemy danych wejściowych, więc nie możemy ich odzyskać, a numer zamówienia jest wystarczający do potwierdzenia. Proszę dołączyć go tylko, jeśli jest to konieczne dla raportu o błędzie obliczeniowym."
           }
         ]
       }
@@ -1247,7 +1247,7 @@ export const PL_NOTICES = {
     "engine": "Obliczenia",
     "support": "Wsparcie"
   },
-  "intro": "Zmiany w warunkach korzystania — ceny, zasady — są publikowane tutaj przed ich wejściem w życie. Wewnętrzne ulepszenia nie są wymienione: to, co się tutaj pojawia, to to, co musisz wiedzieć.",
+  "intro": "Zmiany w warunkach użytkowania — ceny, polityki — są publikowane tutaj przed ich wejściem w życie. Wewnętrzne ulepszenia nie są wymienione: to, co się tutaj pojawia, to to, co musisz wiedzieć.",
   "empty": {
     "title": "Brak powiadomień",
     "body": "Gdy coś się zmieni, pojawi się tutaj."
@@ -1262,23 +1262,23 @@ export const PL_NOTICES = {
     "2026-08-02-contact": {
       "title": "Strony Kontakt i O nas są teraz otwarte",
       "body": [
-        "Pytania, zwroty, prośby o prywatność i zgłoszenia błędów obliczeniowych mają teraz jedno miejsce, do którego można się zgłosić — zobacz stronę kontaktową w stopce.",
-        "Jeśli coś wygląda na źle obliczone, prosimy o dołączenie szczegółów urodzenia, które to spowodowały. Nie przechowujemy tego, co wpisujesz, więc bez nich nie możemy odtworzyć odczytu."
+        "Pytania, zwroty, prośby o prywatność i zgłoszenia błędów obliczeniowych mają teraz jedno miejsce, do którego można się zgłaszać — zobacz stronę kontaktową w stopce.",
+        "Jeśli coś wygląda na źle obliczone, prosimy o dołączenie danych urodzenia, które to spowodowały. Nie przechowujemy tego, co wpisujesz, więc bez nich nie możemy odtworzyć odczytu."
       ]
     },
     "2026-08-01-pdf-language": {
       "title": "Raporty są wydawane w języku angielskim dla arabskiego i khmerskiego",
       "body": [
-        "Jeśli czytasz w języku arabskim lub khmerskim, raport PDF, który kupujesz, jest produkowany w języku angielskim. Narzędzie, które układa nasze dokumenty, jeszcze nie potrafi ustawiać akapitów w tych skryptach.",
-        "Ekran pozostaje w twoim języku, a twoje imię jest drukowane w twoim własnym skrypcie wewnątrz raportu.",
+        "Jeśli czytasz w języku arabskim lub khmerskim, raport PDF, który kupujesz, jest produkowany w języku angielskim. Narzędzie, które układa nasze dokumenty, nie może jeszcze ustawiać akapitów w tych skryptach.",
+        "Ekran pozostaje w twoim języku, a twoje imię jest wydrukowane w twoim własnym skrypcie wewnątrz raportu.",
         "Ta sama uwaga pojawia się przed płatnością. Gdy narzędzie będzie wspierać te skrypty, powiemy o tym tutaj."
       ]
     },
     "2026-08-01-engine-version": {
-      "title": "Każdy odczyt zawiera wersję użytych zasad",
+      "title": "Każdy odczyt zawiera wersję używanych zasad",
       "body": [
         "Każdy odczyt i raport zawiera zestaw zasad użyty do jego produkcji (na przykład inyeonlink-match-v10). Ten sam input na tym samym zestawie zasad zawsze daje te same liczby.",
-        "Jeśli zmienimy zasady interpretacji w sposób, który może wpłynąć na wynik, najpierw opublikujemy to tutaj, z datą, kiedy wejdzie w życie — ponieważ link do wyniku, który już posiadasz, wtedy będzie wyglądał inaczej.",
+        "Jeśli zmienimy zasady interpretacji w sposób, który może wpłynąć na wynik, najpierw opublikujemy to tutaj, z datą, kiedy wejdzie w życie — ponieważ link do wyniku, który już posiadasz, będzie wtedy odczytywany inaczej.",
         "Aktualny zestaw zasad to v10. Płatności nie są jeszcze otwarte."
       ]
     }
