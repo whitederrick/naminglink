@@ -321,7 +321,14 @@ export const EN_DOCS = {
             "p": "There are characters that are included in the list of characters for personal names and **are legally acceptable**, yet are considered unsuitable for names."
           },
           {
-            "p": "The underlying thought is that **\"excessive meaning is actually undesirable.\"** This includes characters that are considered too precious (珍 treasure, 寶 jewel), characters viewed as having too strong a presence (王 king, 帝 emperor), and those regarded as too grand for a person to embody, like heaven or deities. This reflects an old sense of restraint, believing that a name can overshadow the person."
+            "p": "The underlying thought is that **\"excessive meaning is actually undesirable.\"** This reflects an old sense of restraint, believing that a name can overshadow the person."
+          },
+          {
+            "ul": [
+              "珍·寶 — characters seen as too precious",
+              "王·帝 — characters seen as carrying too much force",
+              "heaven and deities — too grand for a person to embody"
+            ]
           },
           {
             "p": "**However, these characters are not unusable.** It is not a legal prohibition but a custom, and customs vary by region, family, and generation, and can change over time."
