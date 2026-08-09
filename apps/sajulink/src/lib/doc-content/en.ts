@@ -18,10 +18,10 @@ export const EN_DOCS = {
         "title": "What do we do?",
         "blocks": [
           {
-            "p": "Saju-Link establishes the **saju (four-pillars) chart based on your birth date and time and shows what the eight characters signify**. It reads the strength of the five elements and the strength of the day master, and also examines today's fortune based on the day's stem."
+            "p": "Saju-Link establishes the **saju (four-pillars) chart based on your birth date and time and shows what the eight characters signify**. It reads the strength of the five elements and the strength of the day pillar, and also examines today's fortune based on the day's stem."
           },
           {
-            "p": "What you see on the screen is **free and does not require membership.** The paid product is a PDF document containing values not shown on the screen — the basis for distinguishing between a strong day master and a weak day master, Wang Sang Hyu Su Sa, and the correction details for true solar time."
+            "p": "What you see on the screen is **free and does not require membership.** The paid product is a PDF document containing values not shown on the screen — the basis for distinguishing between a strong day pillar and a weak day pillar, Wang Sang Hyu Su Sa, and the correction details for true solar time."
           }
         ]
       },
@@ -32,7 +32,7 @@ export const EN_DOCS = {
             "p": "Saju is established using the **manseyeok (Korean lunisolar almanac)**. The time of birth is corrected to the **true solar time** of the birthplace — because the actual position of the sun varies by region even if the clock shows the same time."
           },
           {
-            "p": "Scores are given only according to established rules. Concepts from traditional 명리 (myeongri, the study of fate) such as the Ten Gods, earthly branch relationships, and supporting elements are translated into rules for calculation, and **the same input will always yield the same value**. When rules are changed, regression testing is conducted to ensure that previous results remain unchanged."
+            "p": "Scores are given only according to established rules. Concepts from traditional myeongri (Korean fate study) such as the Ten Gods, earthly branch relationships, and balancing elements are translated into rules for calculation, and **the same input will always yield the same value**. When rules are changed, regression testing is conducted to ensure that previous results remain unchanged."
           },
           {
             "p": "**AI is not used in the sentences on the screen.** The explanations appearing on the free screen are fixed phrases attached to the calculation results. **Only the interpretations in the paid reports** utilize generative AI, and even then, the AI does not create scores — it only writes sentences based on the values provided by the engine."
@@ -44,7 +44,7 @@ export const EN_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**We do not provide fortune-telling.** We do not write that you should meet or avoid anyone. This is a reference material summarizing the perspectives of traditional 명리.",
+              "**We do not provide fortune-telling.** We do not write that you should meet or avoid anyone. This is a reference material summarizing the perspectives of traditional myeongri.",
               "**We do not save inputs.** The birth date and time are used only at the moment of calculation and are not retained on the server. The result link is also stored in a location that the browser does not send to the server.",
               "**Scores are not regarded as human values.** Just because today's fortune is low does not mean you should give up on that day."
             ]
@@ -64,7 +64,7 @@ export const EN_DOCS = {
   "guide": {
     "eyebrow": "Calculation Basis",
     "title": "What is the basis for the calculations?",
-    "summary": "We disclose all the rules used by Saju-Link. You can check where the numbers displayed on the screen come from, including the adjustments for today's fortune, the scores from the earthly branch relationship table, and the boundary values that distinguish between a strong day master and a weak day master.",
+    "summary": "We disclose all the rules used by Saju-Link. You can check where the numbers displayed on the screen come from, including the adjustments for today's fortune, the scores from the earthly branch relationship table, and the boundary values that distinguish between a strong day pillar and a weak day pillar.",
     "backLabel": "Back to Home",
     "sections": [
       {
@@ -79,7 +79,7 @@ export const EN_DOCS = {
   },
   "guide/natal-chart": {
     "eyebrow": "Service Basis",
-    "title": "Saju Chart — Where do the eight characters come from?",
+    "title": "natal chart — Where do the eight characters come from?",
     "summary": "It explains how the year, month, day, and time of birth become the four pillars and eight characters, and identifies which character points to you. It also discusses why it can be viewed even without knowing the exact time of birth.",
     "backLabel": "Calculation Basis",
     "sections": [
@@ -87,7 +87,7 @@ export const EN_DOCS = {
         "title": "Four Pillars, Eight Characters",
         "blocks": [
           {
-            "p": "Saju (四柱) literally means **four pillars**. Each of the year, month, day, and time of birth is established as one pillar, and two characters are written for each pillar. Thus, there are a total of eight characters, which is referred to as **원국 (won-guk)**."
+            "p": "Saju (四柱) literally means **four pillars**. Each of the year, month, day, and time of birth is established as one pillar, and two characters are written for each pillar. Thus, there are a total of eight characters, which is referred to as **the natal chart**."
           },
           {
             "table": {
@@ -139,9 +139,9 @@ export const EN_DOCS = {
               "yearNote": "Root · Zodiac Sign",
               "month": "Month Pillar",
               "monthNote": "Season · Strength",
-              "day": "Day Master",
+              "day": "Day Pillar",
               "dayNote": "Self · Spouse Palace",
-              "hour": "Hour Master",
+              "hour": "Hour Pillar",
               "hourNote": "Later Years · Usage",
               "stem": "Heavenly Stem",
               "stemNote": "Day Stem = Self",
@@ -150,7 +150,7 @@ export const EN_DOCS = {
             }
           },
           {
-            "p": "What this service shows mostly derives from this one character — the interpretation of tendencies, the strength of the five elements, the energy currently needed, and today's reading are all measured based on the Day Stem. The remaining seven characters indicate 'what environment the Day Stem is placed in'."
+            "p": "What this service shows mostly derives from this one character — the interpretation of tendencies, the strength of the five elements, the energy currently needed, and today's fortune are all measured based on the Day Stem. The remaining seven characters indicate 'what environment the Day Stem is placed in'."
           }
         ]
       },
@@ -178,7 +178,7 @@ export const EN_DOCS = {
         "title": "You Can Read It Even Without Knowing the Birth Time",
         "blocks": [
           {
-            "p": "If you do not input the time, the reading will be based on the three pillars and six characters, excluding the Hour Master. We do not guess missing values — arbitrarily assigning an Hour Master can disrupt the strength of the five elements, leading to incorrect conclusions instead of potentially accurate ones."
+            "p": "If you do not input the time, the reading will be based on the three pillars and six characters, excluding the Hour Pillar. We do not guess missing values — arbitrarily assigning an Hour Pillar can disrupt the strength of the five elements, leading to incorrect conclusions instead of potentially accurate ones."
           },
           {
             "p": "If you know the time, it is better to include it. Since two characters are added among the eight, the strength and assessment of the five elements can change. However, we do not use the clock time directly but instead use [True Solar Time](/guide/true-solar-time)."
@@ -189,7 +189,7 @@ export const EN_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "The method of counting the eight characters as five elements to assess strength is continued in [Five Elements Strength and Strong/Weak Day Master](/guide/five-elements), while the method of reading the remaining characters based on the Day Stem is continued in [Ten Gods](/guide/ten-gods)."
+            "p": "The method of counting the eight characters as five elements to assess strength is continued in [Five Elements Strength and Strong/Weak Day Pillar](/guide/five-elements), while the method of reading the remaining characters based on the Day Stem is continued in [Ten Gods](/guide/ten-gods)."
           }
         ]
       }
@@ -197,7 +197,7 @@ export const EN_DOCS = {
   },
   "guide/five-elements": {
     "eyebrow": "Five Elements",
-    "title": "Five Elements Strength and Strong/Weak Day Master",
+    "title": "Five Elements Strength and Strong/Weak Day Pillar",
     "summary": "We count the eight characters as five elements to see which energy is strong and which is weak. We disclose the threshold values (45%·35%) that determine the strength of the Day Stem.",
     "backLabel": "Calculation Basis",
     "sections": [
@@ -205,7 +205,7 @@ export const EN_DOCS = {
         "title": "Counting Eight Characters as Five Energies",
         "blocks": [
           {
-            "p": "The ten Heavenly Stems and twelve Earthly Branches each belong to one of the **Five Elements (五行)** — Wood (木), Fire (火), Earth (土), Metal (金), Water (水). By counting the characters in the original chart by their respective elements, we can determine which energy is strong and which is weak."
+            "p": "The ten Heavenly Stems and twelve Earthly Branches each belong to one of the **Five Elements (五行)** — Wood (木), Fire (火), Earth (土), Metal (金), Water (水). By counting the characters in the natal chart by their respective elements, we can determine which energy is strong and which is weak."
           },
           {
             "p": "However, we do not only count the numbers. We also consider **whether the month of birth supports that energy**. Even the same character can have different strengths depending on whether it meets its season. This is called the Month Sign (月令), and it is divided into five stages: Wang (旺), Sang (相), Hyu (休), Su (囚), and Sa (死)."
@@ -228,7 +228,7 @@ export const EN_DOCS = {
             "p": "After counting the strengths of the five elements, we assess whether the **Day Stem is strong or weak**. The criterion is the ratio of energies aligned with the Day Stem."
           },
           {
-            "p": "The energies aligned with the Day Stem are **Humanity and Companion** — the energies that give birth to me and those that are similar to me. Since there are two out of five, if there is no bias, it will be around {evenAllyRatio}. We assess above and below this boundary as balanced."
+            "p": "The energies aligned with the Day Stem are **Resource and Companion** — the energies that give birth to me and those that are similar to me. Since there are two out of five, if there is no bias, it will be around {evenAllyRatio}. We treat the area around that figure as balanced, and read above and below it as strong or weak."
           },
           {
             "table": {
@@ -240,7 +240,7 @@ export const EN_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} or higher",
-                  "Strong Day Master (身强)",
+                  "Strong Day Pillar (身强)",
                   "The energies supporting the Day Stem are abundant."
                 ],
                 [
@@ -250,7 +250,7 @@ export const EN_DOCS = {
                 ],
                 [
                   "Less than {weakThreshold}",
-                  "Weak Day Master (身弱)",
+                  "Weak Day Pillar (身弱)",
                   "The energies supporting the Day Stem are weak."
                 ]
               ]
@@ -268,7 +268,7 @@ export const EN_DOCS = {
             "p": "Being strong does not mean good, and being weak does not mean bad. If strong, there is the power to push forward, but it is easy to lean to one side; if weak, it is easier to borrow the strength of others, but one may tire easily when enduring alone. **The needed energies differ in either case.**"
           },
           {
-            "p": "Determining that 'needed energy' is the supporting element, and it continues in [Supporting Element](/guide/yongsin)."
+            "p": "Determining that 'needed energy' is the balancing element, and it continues in [Balancing Element](/guide/yongsin)."
           }
         ]
       },
@@ -276,15 +276,15 @@ export const EN_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "How the eight characters are established is in [Saju Original Chart](/guide/natal-chart). How today's Day Master interacts with this strength is covered in [Today's Reading](/guide/today-fortune)."
+            "p": "How the eight characters are established is in [natal chart](/guide/natal-chart). How today's Day Pillar interacts with this strength is covered in [today's fortune](/guide/today-fortune)."
           }
         ]
       }
     ]
   },
   "guide/yongsin": {
-    "eyebrow": "Supporting Element",
-    "title": "Supporting Element — The Energy Needed Now",
+    "eyebrow": "Balancing Element",
+    "title": "Balancing Element — The Energy Needed Now",
     "summary": "If the Day Stem is strong, we consider the energy to reduce; if weak, we consider the energy to support as necessary. This explains how to choose that energy and how to handle it when balanced.",
     "backLabel": "Calculation Basis",
     "sections": [
@@ -300,10 +300,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "Supporting Element — Reduce If Excessive, Add If Lacking",
+        "title": "Balancing Element — Reduce If Excessive, Add If Lacking",
         "blocks": [
           {
-            "p": "The supporting element (用神) is **the energy currently needed by this person**. There are several methods to determine it (reducing, adding, illness, and harmony), but the most widely used is **reducing (抑扶)**. If the day master is strong, it is believed that an energy to reduce is needed; if weak, an energy to add is required."
+            "p": "The balancing element (用神) is **the energy currently needed by this person**. There are several methods to determine it (suppress-and-support, seasonal balance, affliction, mediation), and the one that can be expressed as rules — and is most widely used — is **suppress-and-support (抑扶)**. If the day pillar is strong, it is believed that an energy to reduce is needed; if weak, an energy to add is required."
           },
           {
             "table": {
@@ -314,18 +314,18 @@ export const EN_DOCS = {
               ],
               "rows": [
                 [
-                  "Strong Day Master (身强)",
-                  "Energy to Reduce — Food and Wealth, Official Position",
+                  "Strong Day Pillar (身强)",
+                  "Energy to drain — Output, Wealth and Officer",
                   "Three"
                 ],
                 [
-                  "Weak Day Master (身弱)",
+                  "Weak Day Pillar (身弱)",
                   "Energy to Add — Resource, Companion",
                   "Two"
                 ],
                 [
                   "Balanced (中和)",
-                  "Cannot be covered by reducing, thus the thinnest energy",
+                  "Cannot be decided by suppress-and-support, so the thinnest energies",
                   "Two"
                 ]
               ]
@@ -337,7 +337,7 @@ export const EN_DOCS = {
         "title": "Threshold for Strength and Weakness",
         "blocks": [
           {
-            "p": "The day master side is **Resource and Companion** — the energy that gives birth to me and the energy that is like me. Since two out of five are involved, the complete balance will be {evenAllyRatio}. The width is set above and below this {evenAllyRatio}."
+            "p": "The day pillar side is **Resource and Companion** — the energy that gives birth to me and the energy that is like me. Since two out of five are involved, the complete balance will be {evenAllyRatio}. The width is set above and below this {evenAllyRatio}."
           },
           {
             "table": {
@@ -349,7 +349,7 @@ export const EN_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} or more",
-                  "Strong Day Master"
+                  "Strong Day Pillar"
                 ],
                 [
                   "{weakThreshold} or more and less than {strongThreshold}",
@@ -357,7 +357,7 @@ export const EN_DOCS = {
                 ],
                 [
                   "Less than {weakThreshold}",
-                  "Weak Day Master"
+                  "Weak Day Pillar"
                 ]
               ]
             }
@@ -369,7 +369,7 @@ export const EN_DOCS = {
         "title": "Balanced Is a 'Less Certain Judgment'",
         "blocks": [
           {
-            "p": "Balanced means it cannot be covered by reducing. At this time, the two thinnest energies are simply regarded as necessary. In the result screen, it is noted as 'currently thin position' rather than a definitive statement."
+            "p": "Balanced means suppress-and-support cannot decide it. At this time, the two thinnest energies are simply regarded as necessary. In the result screen, it is noted as 'currently thin position' rather than a definitive statement."
           }
         ]
       },
@@ -385,10 +385,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "Where to Use the Supporting Element",
+        "title": "Where to Use the Balancing Element",
         "blocks": [
           {
-            "p": "The determined supporting element is used in two places. One is the result screen's **'currently needed energy'**, and the other is [today's fortune](/guide/today-fortune) — whether today's energy corresponds to the supporting element is the item that moves the score the most on that day."
+            "p": "The determined balancing element is used in two places. One is the result screen's **'currently needed energy'**, and the other is [today's fortune](/guide/today-fortune) — whether today's energy corresponds to the balancing element is the item that moves the score the most on that day."
           }
         ]
       },
@@ -396,10 +396,10 @@ export const EN_DOCS = {
         "title": "This Is a Simple Judgment",
         "blocks": [
           {
-            "p": "Actual destiny analysis considers the formation and seasonal conditions (the warmth and humidity of the season) to determine the supporting element, and conclusions may vary depending on the method. Saju-Link only uses **reducing that can be measured by strength values**. This is due to the principle of using only what can be converted into rules, so the same input will always yield the same answer."
+            "p": "Actual destiny analysis considers the formation and seasonal conditions (the warmth and humidity of the season) to determine the balancing element, and conclusions may vary depending on the method. Saju-Link only uses **reducing that can be measured by strength values**. This is due to the principle of using only what can be converted into rules, so the same input will always yield the same answer."
           },
           {
-            "p": "Instead, the result screen also presents the strong and weak day master along with the currently needed energy as **reading material**. This is to avoid hiding the basis of the score."
+            "p": "Instead, the result screen also presents the strong and weak day pillar along with the currently needed energy as **reading material**. This is to avoid hiding the basis of the score."
           }
         ]
       }
@@ -408,17 +408,17 @@ export const EN_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "The Ten Gods",
     "title": "The Ten Gods — The Ten Positions Within My Saju",
-    "summary": "Based on the day master, the remaining characters are divided into ten names. It discusses the reasons for distinguishing between regular wealth and side wealth, even if they are the same wealth element.",
+    "summary": "Based on the day pillar, the remaining characters are divided into ten names. It discusses the reasons for distinguishing between regular wealth and side wealth, even if they are the same wealth element.",
     "backLabel": "Calculation Basis",
     "sections": [
       {
-        "title": "The Day Master Is the Person Himself",
+        "title": "The Day Pillar Is the Person Himself",
         "blocks": [
           {
-            "p": "Among the eight characters of the saju, the **day master** (the heavenly stem of the day of birth) refers to the person himself. The remaining seven characters are read as the environment in which that day master exists."
+            "p": "Among the eight characters of the saju, the **day pillar** (the heavenly stem of the day of birth) refers to the person himself. The remaining seven characters are read as the environment in which that day pillar exists."
           },
           {
-            "p": "**The Ten Gods** (十神) are the ten divisions of how the day master perceives the other characters. The energy that nurtures me is Resource, the energy that is like me is Companion, the energy I give birth to is Food and Wealth, the energy that suppresses me is Official Position, and the energy that I suppress is Wealth — these five branches are further divided into yin and yang, forming ten."
+            "p": "**The Ten Gods** (十神) are the ten divisions of how the day pillar perceives the other characters. The energy that nurtures me is Resource, the energy that is like me is Companion, the energy I give birth to is Food and Wealth, the energy that suppresses me is Official Position, and the energy that I suppress is Wealth — these five categories are further divided into yin and yang, forming ten."
           }
         ]
       },
@@ -426,7 +426,7 @@ export const EN_DOCS = {
         "title": "What the Remaining Seven Characters Mean to Me",
         "blocks": [
           {
-            "p": "Once the day master is determined, the remaining characters in the original chart each receive a name. The energy that gives birth to me, the energy that is like me, the energy I give birth to, the energy that suppresses me, and the energy that I suppress — these five branches are further divided into **ten** through yin and yang. This is the Ten Gods."
+            "p": "Once the day pillar is determined, the remaining characters in the natal chart each receive a name. The energy that gives birth to me, the energy that is like me, the energy I give birth to, the energy that suppresses me, and the energy that I suppress — these five branches are further divided into **ten** through yin and yang. This is the Ten Gods."
           },
           {
             "p": "Thus, the Ten Gods refer not to relationships with others but to **the positions within myself**. Which positions are thick or thin indicate my tendencies and the way I live."
@@ -434,7 +434,7 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "The Reason for Viewing as the Ten Gods Instead of Three Elements",
+        "title": "Why we read this through the Ten Gods rather than three elemental relations",
         "blocks": [
           {
             "p": "There is also a method of viewing the relationship of the day stem solely through the three aspects of the five elements (supporting, same, and opposing). It is simple, but **the yin and yang disappear.** 甲 (yang wood) and 乙 (yin wood) become the same as 甲, which is a representation of 'sameness', and the opposing relationship is lumped together into a single score without direction or yin and yang."
@@ -445,10 +445,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "The spouse position is 정재 and 정관",
+        "title": "The spouse position is Proper Wealth and Proper Officer",
         "blocks": [
           {
-            "p": "Traditional fortune-telling views the spouse position differently based on gender. For men, it is **정재 (正財)**, and for women, it is **정관 (正官)**. Even if they are the same wealth element, only the 정재 that is misaligned in yin and yang is considered the spouse position, while 편재 is read not as a spouse but in terms of activity and wealth."
+            "p": "Traditional fortune-telling views the spouse position differently based on gender. For men, it is **Proper Wealth (正財)**, and for women, it is **Proper Officer (正官)**. Even if they are the same wealth element, only the Proper Wealth that is misaligned in yin and yang is considered the spouse position, while Indirect Wealth is read not as a spouse but in terms of activity and wealth."
           }
         ]
       },
@@ -457,7 +457,7 @@ export const EN_DOCS = {
         "title": "If you do not specify gender, this position is omitted",
         "blocks": [
           {
-            "p": "This is because it cannot be determined which side, 정재 or 정관, to consider as the spouse position. Instead of guessing to fill in a missing value, we read the remaining items without that one."
+            "p": "This is because it cannot be determined which side, Proper Wealth or Proper Officer, to consider as the spouse position. Instead of guessing to fill in a missing value, we read the remaining items without that one."
           }
         ]
       }
@@ -466,14 +466,14 @@ export const EN_DOCS = {
   "guide/today-fortune": {
     "eyebrow": "Today's fortune",
     "title": "How does today's fortune come out?",
-    "summary": "Today's day stem is compared to the original chart to score. The twelve relationships of the supporting elements and the seven relationships of the earthly branches, along with all twenty items and their respective additions and subtractions, are fully disclosed.",
+    "summary": "Today's day stem is compared to the natal chart to score. Thirteen suppress-and-support relations and seven earthly branch relations, along with all twenty items and their respective additions and subtractions, are fully disclosed.",
     "backLabel": "Calculation basis",
     "sections": [
       {
         "title": "Today, we also establish it in the same way as the eight characters",
         "blocks": [
           {
-            "p": "Every day has its own **일진 (日辰)**. Using the same method as establishing the original chart's day cycle, today also has one heavenly stem and one earthly branch attached. Today's fortune is about comparing those two characters to the original chart."
+            "p": "Every day has its own **the day pillar of the day (日辰)**. Using the same method as establishing the natal chart's day pillar, today also has one heavenly stem and one earthly branch attached. Today's fortune is about comparing those two characters to the natal chart."
           },
           {
             "p": "The base score is **{baseScore} points**. Items below are added and subtracted, and finally, it is confined between {clampLow} points and {clampHigh} points — we do not mention 0 points or 100 points."
@@ -484,7 +484,7 @@ export const EN_DOCS = {
         "title": "① Is today's energy what I need?",
         "blocks": [
           {
-            "p": "This is the most significant position. We check whether today's energy corresponds to the 'energy needed right now' determined by [억부용신](/guide/yongsin)."
+            "p": "This is the most significant position. We check whether today's energy corresponds to the 'energy needed right now' determined by [the balancing element](/guide/yongsin)."
           },
           {
             "table": {
@@ -516,10 +516,10 @@ export const EN_DOCS = {
       },
       {
         "kind": "note",
-        "title": "Do not consider the 기신 as 'everything except the 용신'",
+        "title": "Do not consider the the adverse element as 'everything except the the balancing element'",
         "blocks": [
           {
-            "p": "If you do that, both the energy that generates the 용신 and the energy that suppresses the 용신 become bad, and the last two rows in the table above become indistinguishable. Only the energy that **pushes harder in the opposite direction** according to the meaning of 억부 is seen as 기신."
+            "p": "If you do that, both the energy that generates the the balancing element and the energy that suppresses the the balancing element become bad, and the last two rows in the table above become indistinguishable. Only the energy that **pushes harder in the opposite direction** according to the meaning of suppress-and-support is seen as the adverse element."
           }
         ]
       },
@@ -562,10 +562,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "③ Today's earthly branch meets the original chart's earthly branches",
+        "title": "③ Today's earthly branch meets the natal chart's earthly branches",
         "blocks": [
           {
-            "p": "Today's earthly branch is compared to the original chart's earthly branches. The relationship table itself is in [십이지 관계](/guide/branches)."
+            "p": "Today's earthly branch is compared to the natal chart's earthly branches. The relationship table itself is in [earthly branch relations](/guide/branches)."
           },
           {
             "table": {
@@ -575,11 +575,11 @@ export const EN_DOCS = {
               ],
               "rows": [
                 [
-                  "full triad (三合)",
+                  "triad (三合)",
                   "{branchSamhap}"
                 ],
                 [
-                  "six-harmony pair (六合)",
+                  "six harmony (六合)",
                   "{branchYukhap}"
                 ],
                 [
@@ -587,7 +587,7 @@ export const EN_DOCS = {
                   "{branchBanhap}"
                 ],
                 [
-                  "quiet, lasting discord (怨嗔)",
+                  "quiet discord (怨嗔)",
                   "{branchWonjin}"
                 ],
                 [
@@ -606,7 +606,7 @@ export const EN_DOCS = {
         "title": "④ Correction Based on Strength",
         "blocks": [
           {
-            "p": "Even with the same energy, the meaning differs for a strong day master and a weak day master. Therefore, we make one last adjustment."
+            "p": "Even with the same energy, the meaning differs for a strong day pillar and a weak day pillar. Therefore, we make one last adjustment."
           },
           {
             "table": {
@@ -616,19 +616,19 @@ export const EN_DOCS = {
               ],
               "rows": [
                 [
-                  "Weak day master but today supports them",
+                  "Weak day pillar but today supports them",
                   "{weakTodayHelps}"
                 ],
                 [
-                  "Strong day master but today appropriately reduces the burden",
+                  "Strong day pillar but today appropriately reduces the burden",
                   "{strongTodayDrains}"
                 ],
                 [
-                  "Strong day master but today thickens the support",
+                  "Strong day pillar but today thickens the support",
                   "{strongTodayHelps}"
                 ],
                 [
-                  "Weak day master but today adds to the burden",
+                  "Weak day pillar but today adds to the burden",
                   "{weakTodayBurdens}"
                 ]
               ]
@@ -673,7 +673,7 @@ export const EN_DOCS = {
             }
           },
           {
-            "p": "The four areas of wealth, love, career, and health inherit a total score of {overallShare}, while the rest is divided according to the Ten Gods and earthly branch relationships relevant to those areas. Therefore, even if the total score is the same, the numbers by area differ from person to person."
+            "p": "The four areas of wealth, love, career, and health inherit {overallShare} of the total score, while the rest is divided according to the Ten Gods and earthly branch relationships relevant to those areas. Therefore, even if the total score is the same, the numbers by area differ from person to person."
           }
         ]
       },
@@ -690,21 +690,21 @@ export const EN_DOCS = {
   "guide/branches": {
     "eyebrow": "Relationship Table",
     "title": "Earthly Branch Relationships — Combination, Clash, and Discord",
-    "summary": "This is a relationship table showing how today's day master interacts with the natal chart. It reveals what each combination, clash, and discord is and how many points they have.",
+    "summary": "This is a relationship table showing how today's day pillar interacts with the natal chart. It reveals what each combination, clash, and discord is and how many points they have.",
     "backLabel": "Calculation Basis",
     "sections": [
       {
         "title": "Earthly Branches are Twelve Characters",
         "blocks": [
           {
-            "p": "The twelve earthly branches (十二支) are 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Commonly known zodiac signs — Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Sheep, Monkey, Rooster, Dog, Pig — are each attached to one of these twelve characters."
+            "p": "The twelve earthly branches (十二支) are 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Commonly known zodiac signs — Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig — are each attached to one of these twelve characters."
           },
           {
             "figure": "branch-wheel",
-            "caption": "When the twelve characters are arranged in a circle, the relationships are clearly visible. Clash (沖) always faces each other, while six-harmony and discord are closer pairs. These lines are not written in the text but are directly derived from the calculation rules.",
+            "caption": "When the twelve characters are arranged in a circle, the relationships are clearly visible. Clash (沖) always faces each other, while six harmony and discord are closer pairs. These lines are not written in the text but are directly derived from the calculation rules.",
             "labels": {
-              "alt": "A diagram showing the twelve earthly branches arranged in a circle with lines connecting six-harmony, clash, and discord.",
-              "yukhap": "Six-Harmony",
+              "alt": "A diagram showing the twelve earthly branches arranged in a circle with lines connecting six harmony, clash, and discord.",
+              "yukhap": "six harmony",
               "chung": "Clash",
               "wonjin": "Discord",
               "rat": "Rat",
@@ -722,7 +722,7 @@ export const EN_DOCS = {
             }
           },
           {
-            "p": "In saju, each of the four pillars has one earthly branch. **Today's reading** is determined by matching **the day's branch** with the four branches of the original chart using the relationship table below."
+            "p": "In saju, each of the four pillars has one earthly branch. **Today's reading** is determined by matching **the day's branch** with the four branches of the natal chart using the relationship table below."
           }
         ]
       },
@@ -740,21 +740,21 @@ export const EN_DOCS = {
               ],
               "rows": [
                 [
-                  "Triad (三合)",
+                  "triad (三合)",
                   "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
                   "When all three characters come together, they form a complete elemental formation (局). This is considered the strongest combination.",
                   "{scoreSamhap}"
                 ],
                 [
-                  "Six Harmony (六合)",
+                  "six harmony (六合)",
                   "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
                   "Pairs that attract each other. This is the most common combination as it consists of only two characters.",
                   "{scoreYukhap}"
                 ],
                 [
-                  "Half Triad (半合)",
+                  "half triad (半合)",
                   "Two characters that include one of the royal characters (子·酉·午·卯) from the triad",
-                  "A half combination that includes a character that is central to the formation. It does not form a complete elemental formation with just two characters, making it lower than the triad.",
+                  "A half triad that includes a character that is central to the formation. It does not form a complete elemental formation with just two characters, making it lower than the triad.",
                   "{scoreBanhap}"
                 ],
                 [
@@ -770,7 +770,7 @@ export const EN_DOCS = {
                   "{scoreNeutral}"
                 ],
                 [
-                  "Quiet Discord (怨嗔)",
+                  "quiet discord (怨嗔)",
                   "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
                   "Pairs that cannot separate despite their dislike. They appear quiet on the surface but are considered to last long.",
                   "{scoreWonjin}"
@@ -787,16 +787,16 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "Triads and Half Triads",
+        "title": "triads and half triads",
         "blocks": [
           {
-            "p": "A triad requires all three characters to be present. Since there are four earthly branches in the original chart, it is possible for the day's branch to combine with them, resulting in a triad — at that time, it receives a score of {scoreSamhap}. If only two characters are involved, it is a half triad."
+            "p": "A triad requires all three characters to be present. Since there are four earthly branches in the natal chart, it is possible for the day's branch to combine with them, resulting in a triad — at that time, it receives a score of {scoreSamhap}. If only two characters are involved, it is a half triad."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Half Triads Require Royal Characters to be Recognized",
+        "title": "half triads Require Royal Characters to be Recognized",
         "blocks": [
           {
             "p": "There is also a method that counts as a half triad if both characters belong to the same triad group. This allows combinations like 申辰, which are difficult to call a combination, to receive high scores. Therefore, this service recognizes a half triad only when it includes royal characters (子·酉·午·卯), and does not consider combinations like 申辰·巳丑·寅戌·亥未 as valid."
@@ -804,10 +804,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "Reason for Separating Quiet Discord",
+        "title": "Reason for Separating quiet discord",
         "blocks": [
           {
-            "p": "The six pairs of quiet discord are seen as frequently as clashes. If we count combinations of both clashes and combinations, these six pairs would all be buried under the no relationship score of {scoreNeutral}, so they are placed separately."
+            "p": "The six pairs of quiet discord are seen as frequently as clashes. If one counted only combinations and clashes, these six pairs would all be buried under the no relationship score of {scoreNeutral}, so they are placed separately."
           },
           {
             "p": "If clashes are pairs that collide head-on and are prominently displayed, quiet discord is subtly misaligned. Therefore, it is placed at a score of {scoreWonjin}, which is higher than clashes ({scoreChung}) but definitely lower than no relationship ({scoreNeutral})."
@@ -818,7 +818,7 @@ export const EN_DOCS = {
         "title": "Scores are also assigned for clashes",
         "blocks": [
           {
-            "p": "The lowest clash score is {scoreChung}. It is intentional not to give a value close to 0. In traditional 명리 (myeongri), a clash is not an 'end' but a 'collision', and giving a score close to the bottom would mean the service is making a definitive statement about the relationship."
+            "p": "The lowest clash score is {scoreChung}. It is intentional not to give a value close to 0. In traditional myeongri, a clash is not an 'end' but a 'collision', and giving a score close to the bottom would mean the service is making a definitive statement about the relationship."
           },
           {
             "p": "With a minimum of {scoreChung} and a maximum of {scoreSamhap}, the difference is clearly visible but not definitive."
@@ -837,7 +837,7 @@ export const EN_DOCS = {
         "title": "The zodiac sign is the earthly branch of the year you were born.",
         "blocks": [
           {
-            "p": "Saju consists of four pillars: year, month, day, and hour, with each pillar having one heavenly stem and one earthly branch. Among them, the **earthly branch of the year**, or 연지 (year branch), is the animal we refer to as the zodiac sign."
+            "p": "Saju consists of four pillars: year, month, day, and hour, with each pillar having one heavenly stem and one earthly branch. Among them, the **earthly branch of the year**, or year branch, is the animal we refer to as the zodiac sign."
           },
           {
             "table": {
@@ -921,10 +921,10 @@ export const EN_DOCS = {
         "title": "The zodiac sign is one character in saju.",
         "blocks": [
           {
-            "p": "Among the eight characters, the one corresponding to the zodiac sign is **one 연지 (year branch)**. The other seven characters — especially the day stem that refers to oneself — have no relation to the zodiac sign."
+            "p": "Among the eight characters, the one corresponding to the zodiac sign is **one year branch**. The other seven characters — especially the day stem that refers to oneself — have no relation to the zodiac sign."
           },
           {
-            "p": "People born in the same year all share the same zodiac sign. Therefore, what can be known from the zodiac sign is only as much as one of the eight characters. This is the reason why this service does not **treat the zodiac sign separately or significantly** — the 연지 (year branch) is calculated for strength and today's 일진 (daily fortune) judgment just like any other earthly branch."
+            "p": "People born in the same year all share the same zodiac sign. Therefore, what can be known from the zodiac sign is only as much as one of the eight characters. This is the reason why this service does not **treat the zodiac sign separately or significantly** — the year branch is calculated for strength and today's the day pillar of the day judgment just like any other earthly branch."
           }
         ]
       },
@@ -933,7 +933,7 @@ export const EN_DOCS = {
         "title": "Still, the reason we show the zodiac sign.",
         "blocks": [
           {
-            "p": "It is the only position where the meaning is understood even if you do not know the terminology of 명리 (myeongri). If the zodiac sign is noted alongside the 연지 (year branch) on the original chart screen, it becomes a clue for reading the other seven characters."
+            "p": "It is the only position where the meaning is understood even if you do not know the terminology of myeongri. If the zodiac sign is noted alongside the year branch on the natal chart screen, it becomes a clue for reading the other seven characters."
           }
         ]
       },
@@ -941,7 +941,7 @@ export const EN_DOCS = {
         "title": "The year branch remains the same even if you do not know the birth time.",
         "blocks": [
           {
-            "p": "If you do not enter the time, the hour pillar is omitted and the strength of the 오행 (five elements) changes. However, the **year branch remains the same** — it is determined solely by the year you were born."
+            "p": "If you do not enter the time, the hour pillar is omitted and the strength of the the five elements (five elements) changes. However, the **year branch remains the same** — it is determined solely by the year you were born."
           },
           {
             "p": "Therefore, the story derived from the year branch does not change even for those who do not know the time. Conversely, this means that what can be said based solely on the zodiac sign is limited, regardless of whether the time is included or not."
@@ -1042,7 +1042,7 @@ export const EN_DOCS = {
             "p": "The birth time is optional. If you do not know it, calculations will be made without the hour pillar, and this fact will be displayed on the results screen. Since this means two out of the eight characters are missing, it will affect the assessment of the five elements' strength and weakness, so if you know it, it is more accurate to include it."
           },
           {
-            "p": "The year branch (띠) is always the same regardless of the time — [because we only look at the year branch](/guide/zodiac)."
+            "p": "The year branch (the zodiac animal) is always the same regardless of the time — [because we only look at the year branch](/guide/zodiac)."
           }
         ]
       }
@@ -1140,7 +1140,7 @@ export const EN_DOCS = {
         "title": "Kept the screen unchanged, added only to the PDF",
         "blocks": [
           {
-            "p": "Saju calculation and result inquiry are **free**. You can see everything on the screen, including the original chart, the five elements, today's luck, and their basis, as nothing has been omitted while creating the paid report."
+            "p": "Saju calculation and result inquiry are **free**. You can see everything on the screen, including the natal chart, the five elements, today's fortune, and their basis, as nothing has been omitted while creating the paid report."
           },
           {
             "p": "The role of the report is to **add layers not present on the screen**. These layers are not fabricated; they are values that were already calculated during the scoring process but were not used on the screen."
@@ -1167,11 +1167,11 @@ export const EN_DOCS = {
         "title": "What is not on the screen",
         "blocks": [
           {
-            "p": "The free screen shows the original chart, the five elements, and today's luck. There are three values that were produced during the calculation process but are not displayed on the screen, and these are the portions of the paid report."
+            "p": "The free screen shows the natal chart, the five elements, and today's fortune. There are three values that were produced during the calculation process but are not displayed on the screen, and these are the portions of the paid report."
           },
           {
             "ul": [
-              "**Day stem convenience ratio** — It shows numerically where the judgment of a strong or weak day master was made. The judgment name alone does not indicate whether it was on the edge or ample.",
+              "**Ratio of the day stem's allies** — It shows numerically where the judgment of a strong or weak day pillar was made. The judgment name alone does not indicate whether it was on the edge or ample.",
               "**Wang Sang Hyu Su Sa** — How much the month of birth has pushed up each energy. If the power bar indicates 'how much is there', this table indicates 'is it in season'.",
               "**True solar time correction details** — The concept is in the guidance document, but **'how many minutes were shifted in your case'** is a different value for each person, so it is included only in the report."
             ]
@@ -1231,7 +1231,7 @@ export const EN_DOCS = {
             "ul": [
               "**Payment and refund** — If the document has not been created or the payment amount differs from the order, a full refund will be provided. Conditions are in the [Refund Policy](/refund-policy).",
               "**Personal information** — We accept requests for viewing, correction, and deletion. The processing policy is in the [Privacy Policy](/privacy).",
-              "**Calculation error report** — If the saju original chart or scores seem strange, please let us know. If you include when you entered the birth date and time, we can recalculate with the same values."
+              "**Calculation error report** — If the saju natal chart or scores seem strange, please let us know. If you include when you entered the birth date and time, we can recalculate with the same values."
             ]
           }
         ]
@@ -1273,7 +1273,7 @@ export const EN_NOTICES = {
     "engine": "Calculation criteria",
     "support": "Inquiry"
   },
-  "intro": "Changes that affect usage conditions, such as prices and terms, will be posted here before implementation. There are many internal improvements, such as the screen becoming faster — only what you need to know will be noted here.",
+  "intro": "Changes that affect usage conditions, such as prices and terms, will be posted here before implementation. Internal improvements such as the screen getting faster are not posted here: what appears here is only what you need to know.",
   "empty": {
     "title": "No notices have been posted.",
     "body": "If there are any changes to inform you, they will be posted here."
@@ -1304,7 +1304,7 @@ export const EN_NOTICES = {
       "title": "The calculation criteria will be included with the results.",
       "body": [
         "Below the results screen and report, the calculation criteria (e.g., sajulink-natal-v1) are indicated. If the input is the same, the same value will always come out under the same criteria.",
-        "If the rules for interpreting 명리 (myeongri) are changed and the scores may differ, we will first post that fact and the effective date here. This is because the numbers in the result links you received previously may change.",
+        "If the rules for interpreting myeongri are changed and the scores may differ, we will first post that fact and the effective date here. This is because the numbers in the result links you received previously may change.",
         "The current criteria is v10, and payment is still in preparation."
       ]
     }

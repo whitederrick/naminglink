@@ -21,7 +21,7 @@ export const EN_DOCS = {
             "p": "Dreams-Link finds **symbols used in traditional dream interpretation** from the dreams you write down and shows their meanings. Since dreams are something we experience daily, the interpretations displayed on the screen are **free and do not require membership.**"
           },
           {
-            "p": "The only things sold for a fee are **two forms of preservation** — an image (dream card) containing a good dream and a PDF that captures the background when a symbol traditionally considered a 태몽 appears."
+            "p": "The only things sold for a fee are **two forms of preservation** — an image (dream card) containing a good dream and a PDF that captures the background when a symbol traditionally considered a a conception dream appears."
           }
         ]
       },
@@ -43,7 +43,7 @@ export const EN_DOCS = {
             "p": "**We do not invent traditional meanings that are not in the dictionary.** If no symbols are found, we simply state that none were found and conclude. Filling that space with plausible words is what this service is most cautious about."
           },
           {
-            "p": "**A 태몽 is merely a sign, not a judgment.** We only inform you that a symbol traditionally considered a 태몽 appeared in the dream. We do not predict pregnancy or the child's gender, and there is no basis for such claims."
+            "p": "**A a conception dream is merely a sign, not a judgment.** We only inform you that a symbol traditionally considered a a conception dream appeared in the dream. We do not predict pregnancy or the child's gender, and there is no basis for such claims."
           },
           {
             "p": "We do not **make definitive statements about health, wealth, or career.** This is a reference from the perspective of traditional dream interpretation and is not medical, financial, or legal advice."
@@ -54,7 +54,7 @@ export const EN_DOCS = {
         "title": "We do not keep the dreams you write down.",
         "blocks": [
           {
-            "p": "Dream stories are the most private part of what this service receives. Therefore, we **do not store them.** The input is only used for calculations and is not recorded on any server logs."
+            "p": "Dream stories are the most private part of what this service receives. Therefore, we **do not store them.** What you enter is carried only in the URL and used for the reading; it is not recorded in any table on our servers."
           },
           {
             "p": "We decided **not to create a function to collect dreams like a dream diary.** It is a valuable feature, but it would require keeping the most private writings."
@@ -81,7 +81,7 @@ export const EN_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "All the numbers written here are **read directly from the symbol dictionary and the searching rules.** Since we do not manually transcribe the text, if the dictionary is expanded or the rules are changed, the numbers in these documents will also change."
+            "p": "All the numbers written here are **read directly from the symbol dictionary and the matching rules.** Since we do not manually transcribe the text, if the dictionary is expanded or the rules are changed, the numbers in these documents will also change."
           }
         ]
       }
@@ -138,7 +138,7 @@ export const EN_DOCS = {
         "title": "Reasons for not arbitrarily expanding the dictionary.",
         "blocks": [
           {
-            "p": "We actually attempted to expand the symbols to hundreds but gave up. The automatically generated entries either repeated the same phrases like 'romance → good relationship' or failed to provide any substantiated origins. We concluded that **accurately finding what exists** is better than simply increasing the numbers."
+            "p": "We actually attempted to expand the symbols to hundreds but gave up. The automatically generated entries either repeated the same phrases like 'romance → good relationship' or failed to provide any a documented traditional source. We concluded that **accurately finding what exists** is better than simply increasing the numbers."
           }
         ]
       },
@@ -146,7 +146,7 @@ export const EN_DOCS = {
         "title": "Good and bad are predetermined by the dictionary.",
         "blocks": [
           {
-            "p": "Each symbol has both good and bad meanings. **Good {polarityPositive}**, **ambivalent {polarityAmbivalent}**, **cautionary {polarityNegative}**, and **neutral {polarityNeutral}**."
+            "p": "Each symbol carries its auspiciousness recorded alongside it. **Good {polarityPositive}**, **ambivalent {polarityAmbivalent}**, **cautionary {polarityNegative}**, and **neutral {polarityNeutral}**."
           },
           {
             "p": "The fact that the good meanings exceed half is not because we are generous, but because traditional dream interpretation has always been like that — large and strong symbols like pigs, dragons, and fire have generally been seen as good omens. However, not all dreams are interpreted positively. This value reflects the nature of each symbol, and the overall atmosphere of the dream is reassessed by gathering the found symbols."
@@ -158,7 +158,7 @@ export const EN_DOCS = {
   "guide/how-matching-works": {
     "eyebrow": "Basis for the Service",
     "title": "How to find symbols in dream stories.",
-    "summary": "It explains how symbols are selected from freely written sentences and how to filter out letters that accidentally entered words like 'special'.",
+    "summary": "It explains how symbols are selected from freely written sentences and how we filter out a symbol that merely happens to sit inside a longer word — 별 (\"star\") inside 특별할 (\"nothing special\").",
     "backLabel": "Basis for Interpretation",
     "sections": [
       {
@@ -180,13 +180,13 @@ export const EN_DOCS = {
           },
           {
             "ul": [
-              "The **star** of \"It was an ordinary day\"",
-              "The **thing** in \"I was chased by someone\"",
-              "The **word** in \"That person said\" and the **belly** in \"I was hungry\""
+              "별 (\"star\") hiding inside 특**별**할 (\"nothing special\")",
+              "게 (\"crab\") hiding inside 누군가에**게** (\"by someone\")",
+              "말 (\"horse\") inside **말**했다 (\"said\"), and 배 (\"boat, pear\") inside **배**가 고팠다 (\"We was hungry\")"
             ]
           },
           {
-            "p": "Counting these as symbols leads to irrelevant interpretations. Therefore, we examine the surrounding characters — if **there is a Korean character in front**, we consider it a fragment of a word and do not count it, and we distinguish whether the attached character at the end is a particle or ending, allowing 「소가」 (soga) to pass while filtering out 「소리」 (sori)."
+            "p": "Counting these as symbols leads to irrelevant interpretations. Therefore, we examine the surrounding characters — if **there is a Korean character in front**, we treat it as part of a longer word and do not count it, and we look at **whether what follows is a particle or a verb ending**, allowing 「소가」 (soga) to pass while filtering out 「소리」 (sori)."
           }
         ]
       },
@@ -195,7 +195,7 @@ export const EN_DOCS = {
         "title": "This is how it has been working",
         "blocks": [
           {
-            "p": "Before implementing this rule, when testing with twelve actual sentences, **all twelve** contained irrelevant symbols. One sentence with no significant content was even marked as a 태몽 (taemong)."
+            "p": "Before implementing this rule, when testing with twelve actual sentences, **all twelve** contained irrelevant symbols. One sentence with no significant content was even marked as a a conception dream."
           },
           {
             "p": "Now, one remains — the 배 (bae) in 「배가 고팠다」 (bae ga gopatda). Since it sounds the same but has a different meaning, it cannot be filtered out by just the surrounding characters."
@@ -209,7 +209,7 @@ export const EN_DOCS = {
         "title": "The same characters always yield the same results",
         "blocks": [
           {
-            "p": "There is no place for coincidence in the searching rules. Since the dictionary is fixed and the rules are established, if you input the same sentence again, **the same symbol will appear in the same order**. The interpretation you see today will not differ from the one you see tomorrow."
+            "p": "There is no place for coincidence in the matching rules. Since the dictionary is fixed and the rules are established, if you input the same sentence again, **the same symbol will appear in the same order**. The interpretation you see today will not differ from the one you see tomorrow."
           },
           {
             "p": "This quality is also a promise we have made to ourselves. Interpretations that change every time are entertaining but lack foundation. This connects to the story of [why we do not use models](/guide/no-ai)."
@@ -228,7 +228,7 @@ export const EN_DOCS = {
         "title": "Even if the symbols are the same, different situations yield different meanings",
         "blocks": [
           {
-            "p": "In traditional 해몽 (dream interpretation), a single symbol does not always have one meaning. Even for the same snake, **holding it and being bitten have been interpreted as completely opposite.** This is also noted in the dictionary."
+            "p": "In traditional dream interpretation, a single symbol does not always have one meaning. Even for the same snake, **holding it and being bitten have been interpreted as completely opposite.** This is also noted in the dictionary."
           },
           {
             "p": "This is why the {symbolTotal} symbols have a total of {meaningTotal} meanings. Each meaning includes **the context in which it applies**, and if that context is visible in the text you provide, we select that meaning."
@@ -290,7 +290,7 @@ export const EN_DOCS = {
   },
   "guide/good-and-bad": {
     "eyebrow": "Service Basis",
-    "title": "Criteria for distinguishing 길몽 (auspicious dreams) and 흉몽 (ominous dreams)",
+    "title": "Criteria for distinguishing auspicious dreams and inauspicious dreams",
     "summary": "The four values assigned to each symbol and their distribution, the reason why positive ones exceed half, and why we communicate mixed dreams as mixed.",
     "backLabel": "Interpretation Basis",
     "sections": [
@@ -304,7 +304,7 @@ export const EN_DOCS = {
             "ul": [
               "**{polarityPositive} positive symbols** — those interpreted as fortunate events like wealth, celebrations, and benefactors.",
               "**{polarityAmbivalent} symbols that vary by situation** — like snakes, where the meaning can flip depending on what was done. This category is the most cautious.",
-              "**{polarityNegative} cautious symbols** — those seen as gossip, disputes, or losses.",
+              "**{polarityNegative} inauspicious symbols** — those seen as gossip, disputes, or losses.",
               "**{polarityNeutral} neutral symbols** — those that are neither good nor bad in themselves, like colors or numbers."
             ]
           }
@@ -314,7 +314,7 @@ export const EN_DOCS = {
         "title": "The reason positive symbols exceed half",
         "blocks": [
           {
-            "p": "This is not because we are generous in our assessments. **Traditional 해몽 (dream interpretation) has always been this way.** Large and powerful symbols like pigs, dragons, fire, and water have generally been viewed as good omens, and the dictionary reflects that tradition."
+            "p": "This is not because we are generous in our assessments. **Traditional dream interpretation (dream interpretation) has always been this way.** Large and powerful symbols like pigs, dragons, fire, and water have generally been viewed as good omens, and the dictionary reflects that tradition."
           },
           {
             "p": "Thus, the fact that 'a good symbol appeared' does not mean 'good things will happen.' What we can convey is limited to how that symbol has been interpreted in the tradition."
@@ -325,7 +325,7 @@ export const EN_DOCS = {
         "title": "The tone of a dream is gathered from its symbols",
         "blocks": [
           {
-            "p": "If multiple symbols are found, we gather their respective auspiciousness to determine the overall tone of the dream. If only positive symbols appear, it is a good dream; if only cautious symbols appear, it is a cautious dream; if **mixed, we communicate it as mixed.**"
+            "p": "If multiple symbols are found, we gather their respective auspiciousness to determine the overall tone of the dream. If only positive symbols appear, it is a good dream; if only inauspicious symbols appear, it is a inauspicious dream; if **mixed, we communicate it as mixed.**"
           },
           {
             "p": "We do not forcefully categorize mixed symbols into one side. In reality, dreams people have are often mixed, and summarizing them as 'a good dream' is neither accurate nor helpful."
@@ -342,10 +342,10 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "When a Cautionary Dream Appears",
+        "title": "When a Inauspicious Dream Appears",
         "blocks": [
           {
-            "p": "Even if a symbol interpreted as caution appears, it is not necessarily bad news. In traditional dream interpretation, an ominous dream has generally been used as **a statement pointing to the situation at hand**. If a symbol that suggests conflict appears, it can be read as a reminder to hold back on words."
+            "p": "Even if a symbol interpreted as caution appears, it is not necessarily bad news. In traditional dream interpretation, an inauspicious dream has generally been used as **a statement pointing to the situation at hand**. If a symbol that suggests conflict appears, it can be read as a reminder to hold back on words."
           },
           {
             "p": "For the same reason, this service does not sell talismans or charms. What is sold is only [two ways to keep your dreams](/guide/reports)."
@@ -389,7 +389,7 @@ export const EN_DOCS = {
             "p": "The pig is a symbol of conception dreams and at the same time **represents wealth dreams.** If it is considered a conception dream just because the symbol appeared, then everyone who dreamed of pigs would have had a conception dream. In reality, it has mostly been interpreted as a wealth dream."
           },
           {
-            "p": "Therefore, we look at **the actual meaning derived from that symbol, not the symbol itself.** We only mark it as a conception dream when the meaning leaning towards conception is chosen in the situation you provided. Even with the same pig, the judgment changes if the context differs."
+            "p": "Therefore, we look at **the actual meaning derived from that symbol, not the symbol itself.** We only mark it as a conception dream when the meaning leaning towards conception is chosen in the situation you provided. Even with the same pig, the reading changes if the sentence differs."
           }
         ]
       },
@@ -476,7 +476,7 @@ export const EN_DOCS = {
             "p": "A longer text does not mean more symbols will be found. Rather, if irrelevant words are mixed in lengthily, there is a greater chance that unrelated words will be interpreted as symbols. **Please write only the scenes you remember.**"
           },
           {
-            "p": "The text you provide is not saved anywhere. The reason you can write freely is noted in [the method of not saving](/guide/no-storage)."
+            "p": "The text you provide is not saved anywhere. The reason you can write freely is noted in [the method of not storing](/guide/no-storage)."
           }
         ]
       }
@@ -492,12 +492,12 @@ export const EN_DOCS = {
         "title": "The Symbols in Dreams Are Divided into Nine Categories",
         "blocks": [
           {
-            "p": "The {symbolTotal} symbols are grouped into nine categories based on their characteristics. The criteria for division is **how they appear in dreams** — whether as animals, objects, or actions I took."
+            "p": "The {symbolTotal} symbols are grouped into nine categories based on their characteristics. The criteria for division is **how they appear in dreams** — whether as animals, objects, or actions we took."
           },
           {
             "ul": [
               "**Objects {categoryThing}** — Tangible items like money, mirrors, and knives. This is the thickest category.",
-              "**Animals {categoryAnimal}** — dragon·pig·snake·cow. Many of these are seen as 태몽 (conception dreams).",
+              "**Animals {categoryAnimal}** — dragon·pig·snake·cow. Many of these are seen as conception dreams.",
               "**Nature {categoryNature}** — things that are large and ancient like water·fire·sun·moon·mountain.",
               "**Action {categoryAction}** — things done in dreams like being chased·falling·flying.",
               "**Body {categoryBody}** — teeth·hair·blood. The meaning varies depending on where on the body it is.",
@@ -510,10 +510,10 @@ export const EN_DOCS = {
         "title": "Why is there no emotion category?",
         "blocks": [
           {
-            "p": "Categories like 「anxiety」·「longing」 are not included. **This is because traditional 해몽 (dream interpretation) does not address emotions.** Old interpretations focused on what was visible and what happened, rather than the dreamer's feelings."
+            "p": "Categories like 「anxiety」·「longing」 are not included. **This is because traditional dream interpretation does not address emotions.** Old interpretations focused on what was visible and what happened, rather than the dreamer's feelings."
           },
           {
-            "p": "I have tried to create an emotion category, but the results were terms like 「loss of affection」·「emotional stability」. These are not **symbols** from dreams but vocabulary from modern psychology. That is a different type of service and not what this dictionary aims to do."
+            "p": "we have tried to create an emotion category, but the results were terms like 「loss of affection」·「emotional stability」. These are not **symbols** from dreams but vocabulary from modern psychology. That is a different type of service and not what this dictionary aims to do."
           }
         ]
       },
@@ -522,7 +522,7 @@ export const EN_DOCS = {
         "title": "So when you write",
         "blocks": [
           {
-            "p": "Please write down **what you saw and did** rather than feelings; it will yield much better results. However, I will ask about your feelings upon waking separately — even the same symbol can have different meanings depending on the situation."
+            "p": "Please write down **what you saw and did** rather than feelings; it will yield much better results. However, we will ask about your feelings upon waking separately — even the same symbol can have different meanings depending on the situation."
           }
         ]
       },
@@ -533,7 +533,7 @@ export const EN_DOCS = {
             "p": "Color {categoryColor} and number {categoryNumber} do not have inherent good or bad meanings. Just as a white snake and a black snake are different, their meanings change depending on **what they are associated with**. Therefore, these two categories are considered in conjunction with other symbols."
           },
           {
-            "p": "A complete list by category is available in the [Symbol Dictionary](/dream/symbols). Opening a symbol will show its transmitted meaning, category, and related symbols."
+            "p": "A complete list by category is available in the [symbol dictionary](/dream/symbols). Opening a symbol will show its traditional meaning, category, and related symbols."
           }
         ]
       }
@@ -542,17 +542,17 @@ export const EN_DOCS = {
   "guide/not-found": {
     "eyebrow": "How to use",
     "title": "When a symbol cannot be found",
-    "summary": "If you cannot find it, I will inform you that it is not found. I will discuss why it cannot be found, what I will show you instead on that screen, and how the dictionary is expanded.",
+    "summary": "If you cannot find it, we will inform you that it is not found. we will discuss why it cannot be found, what we will show you instead on that screen, and how the dictionary is expanded.",
     "backLabel": "Interpretation basis",
     "sections": [
       {
-        "title": "When not found, I will inform you that it is not found",
+        "title": "When not found, we will inform you that it is not found",
         "blocks": [
           {
-            "p": "If I cannot find any symbols in the text you provided, I will **inform you that it is not found.** I will not forcefully associate it with something similar or create plausible sentences to fill the space."
+            "p": "If we cannot find any symbols in the text you provided, we will **inform you that it is not found.** we will not forcefully associate it with something similar or create plausible sentences to fill the space."
           },
           {
-            "p": "This is what this service is most cautious about. The moment I fill a gap, it contradicts the statement of conveying interpretations."
+            "p": "This is what this service is most cautious about. The moment we fill a gap, it breaks the promise that we only pass on handed-down interpretations."
           }
         ]
       },
@@ -565,7 +565,7 @@ export const EN_DOCS = {
           {
             "ul": [
               "**It is a symbol not yet in the dictionary.** Currently, there are {symbolTotal} symbols listed, but there are many more that could appear in dreams.",
-              "**You only wrote feelings.** If there are only emotions like 「I was scared」·「I felt strange」, there are no symbols that can be matched. Traditional 해몽 speaks of **visible objects and actions** rather than emotions.",
+              "**You only wrote feelings.** If there are only emotions like 「I was scared」·「I felt strange」, there are no symbols that can be matched. Traditional dream interpretation speaks of **visible objects and actions** rather than emotions.",
               "**It is too short.** It is better to write in sentences rather than one or two words."
             ]
           }
@@ -581,13 +581,13 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "I do not leave a blank screen",
+        "title": "we do not leave a blank screen",
         "blocks": [
           {
-            "p": "When something cannot be found, I will also show **{popularSymbolCount} frequently searched symbols** on that screen. These are selected from the dictionary based on their representativeness, which can help you recall if one of them appeared in your dream."
+            "p": "When something cannot be found, we will also show **{popularSymbolCount} frequently searched symbols** on that screen. These are selected from the dictionary based on their representativeness, which can help you recall if one of them appeared in your dream."
           },
           {
-            "p": "If you want to browse the entire list, there are {symbolTotal} symbols organized by category in the [Symbol Dictionary](/dream/symbols). Each symbol includes its transmitted meaning and related symbols."
+            "p": "If you want to browse the entire list, there are {symbolTotal} symbols organized by category in the [symbol dictionary](/dream/symbols). Each symbol includes its traditional meaning and related symbols."
           }
         ]
       },
@@ -595,10 +595,10 @@ export const EN_DOCS = {
         "title": "How will the dictionary be expanded in the future?",
         "blocks": [
           {
-            "p": "Rather than increasing the numbers, I am focusing on **accurately identifying what is already there**. I have included {aliasTotal} alternative names for the same symbol, and I have made it possible to recognize words that change form with suffixes."
+            "p": "Rather than increasing the numbers, we am focusing on **accurately identifying what is already there**. we have included {aliasTotal} alternative names for the same symbol, and we have made it possible to recognize words that change form with suffixes."
           },
           {
-            "p": "When expanding the symbols themselves, I will only include those that can **provide transmitted evidence.** Simply increasing numbers without evidence becomes creation rather than a dictionary — I have documented the attempts and results in [Why I do not use models](/guide/no-ai)."
+            "p": "When expanding the symbols themselves, we will only include those that can **provide a documented traditional source.** Simply increasing numbers without evidence becomes creation rather than a dictionary — we have documented the attempts and results in [why we do not use models](/guide/no-ai)."
           }
         ]
       }
@@ -606,18 +606,18 @@ export const EN_DOCS = {
   },
   "guide/no-ai": {
     "eyebrow": "Service basis",
-    "title": "Reasons for not using artificial intelligence in 해몽",
-    "summary": "There is no code that calls a model in the interpretation creation process. I have abandoned the attempt to expand the dictionary using a model based on empirical results, and thus what was gained and what was given up.",
+    "title": "Reasons for not using artificial intelligence in dream interpretation",
+    "summary": "There is no code that calls a model in the interpretation creation process. we have abandoned the attempt to expand the dictionary using a model based on empirical results, and thus what was gained and what was given up.",
     "backLabel": "Interpretation basis",
     "sections": [
       {
-        "title": "Artificial intelligence is not used in 해몽",
+        "title": "Artificial intelligence is not used in dream interpretation",
         "blocks": [
           {
-            "p": "Many current 해몽 services show texts generated by inserting dream stories into generative models. Dreams-Link does not do that. **There is no code that calls a model in the interpretation creation process.**"
+            "p": "Many current dream interpretation services show texts generated by inserting dream stories into generative models. Dreams-Link does not do that. **There is no code that calls a model in the interpretation creation process.**"
           },
           {
-            "p": "What I do is simple. I find symbols in the text you provide that are in the dictionary and select and show the meanings that the dictionary has written for those symbols. There is no place for sentences that are not in the dictionary."
+            "p": "What we do is simple. we find symbols in the text you provide that are in the dictionary and select and show the meanings that the dictionary has written for those symbols. There is no place for sentences that are not in the dictionary."
           }
         ]
       },
@@ -625,10 +625,10 @@ export const EN_DOCS = {
         "title": "Why was this decision made?",
         "blocks": [
           {
-            "p": "**Models do not say they do not know what they do not know.** When asked about symbols without transmitted evidence, they fabricate plausible origins. And whether it is fabricated or not is something the reader cannot discern. If one inserts creation in the place of conveying tradition, the premise of the service collapses."
+            "p": "**Models do not say they do not know what they do not know.** When asked about symbols without a documented traditional source, they fabricate plausible origins. And whether it is fabricated or not is something the reader cannot discern. If one inserts creation in the place of conveying tradition, the premise of the service collapses."
           },
           {
-            "p": "I have actually tried to have a model create symbols to expand the dictionary. Out of sixty-six examples that were worth considering, **fifty-five could not provide any transmitted evidence**, and some included things that could not exist in traditional 해몽, like subways and highways. Therefore, **none were included.**"
+            "p": "we have actually tried to have a model create symbols to expand the dictionary. Out of sixty-six examples that were worth considering, **fifty-five could not provide any a documented traditional source**, and some included things that could not exist in traditional dream interpretation, like subways and highways. Therefore, **none were included.**"
           }
         ]
       },
@@ -637,7 +637,7 @@ export const EN_DOCS = {
         "title": "The same was true even with larger models",
         "blocks": [
           {
-            "p": "When I tried the same task with a better model, only one out of nineteen passed, and that one was just a repetition of the same words in the evidence position. Larger models only speak **more plausibly** about what they do not know."
+            "p": "When we tried the same task with a better model, only one out of nineteen passed, and that one was just a repetition of the same words in the evidence position. Larger models only speak **more plausibly** about what they do not know."
           }
         ]
       },
@@ -693,13 +693,13 @@ export const EN_DOCS = {
         ]
       },
       {
-        "title": "태몽 Report — Document {conceptionPages} Pages",
+        "title": "Conception Dream Report — Document {conceptionPages} Pages",
         "blocks": [
           {
-            "p": "For dreams that show symbols interpreted as 태몽 (conception dreams), we create a **{conceptionPages}-page document.** It includes what symbols appeared, how those symbols have traditionally been interpreted, and a place to record that."
+            "p": "For dreams that show symbols interpreted as conception dreams, we create a **{conceptionPages}-page document.** It includes what symbols appeared, how those symbols have traditionally been interpreted, and a place to record that."
           },
           {
-            "p": "Since 태몽 are often discussed and shared among family members even after the child is born, we created a separate document for dreams that are too precious to just view on the screen."
+            "p": "Since a conception dream are often discussed and shared among family members even after the child is born, we created a separate document for dreams that are too precious to just view on the screen."
           }
         ]
       },
@@ -708,7 +708,7 @@ export const EN_DOCS = {
         "title": "Words Not Said Here Either",
         "blocks": [
           {
-            "p": "We do not determine pregnancy status or the child's gender. Such statements do not appear in the document. For details, see [how to interpret 태몽](/guide/conception-dreams)."
+            "p": "We do not determine pregnancy status or the child's gender. Such statements do not appear in the document. For details, see [how to interpret a conception dream](/guide/conception-dreams)."
           }
         ]
       },
@@ -749,7 +749,7 @@ export const EN_DOCS = {
             "p": "Dreams-Link does not create accounts. We do not collect names, emails, or phone numbers. The only things we collect are the dreams you write down, how you felt when you woke up, and whether you dream the same dream repeatedly, and that does not remain after the interpretation is complete."
           },
           {
-            "p": "Dream stories are the most private of the values this service receives. This is why the rules are stricter than necessary — we have not even set up a space to write down what you submit."
+            "p": "Dream stories are the most private of the values this service receives. This is why the rules are stricter than necessary — we have not even created a table to write down what you submit."
           }
         ]
       },
@@ -802,7 +802,7 @@ export const EN_DOCS = {
           {
             "ul": [
               "**There is no dream diary.** You cannot retrieve the interpretation from last week, and you must have the link to see it again. This is done intentionally — to create a diary, the most private writings must be continuously stored.",
-              "**Finding the same value again.** There is no cache. Instead, the dictionary is fixed, and the matching rules are deterministic, so the same text will always yield the same symbol — the rules replace what the cache would have guaranteed.",
+              "**We compute the same value again every time.** There is no cache. Instead, the dictionary is fixed, and the matching rules are deterministic, so the same text will always yield the same symbol — the rules replace what the cache would have guaranteed.",
               "**Refreshing will bring up the advertisement gate again.** This is because there is nowhere to leave viewing records."
             ]
           }
@@ -812,7 +812,7 @@ export const EN_DOCS = {
         "title": "In case of purchase",
         "blocks": [
           {
-            "p": "If you purchase a report, a transaction record will be kept at that time. The payment has a legally defined retention period, and without an order history, refunds cannot be processed. However, even then, **the dream content written in the interpretation does not attach to the order** — it is received again and written at that moment when creating the document after payment confirmation."
+            "p": "If you purchase a report, a transaction record will be kept at that time. The payment has a legally defined retention period, and without an order history, refunds cannot be processed. However, even then, **the dream text used for the reading is not attached to the order** — it is received again and written at that moment when creating the document after payment confirmation."
           },
           {
             "p": "For details, please refer to the [privacy policy](/privacy)."
@@ -917,7 +917,7 @@ export const EN_DOCS = {
         "title": "We do not determine pregnancy or gender",
         "blocks": [
           {
-            "p": "We will only state that a symbol interpreted as a 태몽 (conception dream) has appeared. Whether you are pregnant or whether the child is a daughter or son is **not something that can be known through dreams.** Such statements do not appear on the screen or in paid documents."
+            "p": "We will only state that a symbol interpreted as a a conception dream (conception dream) has appeared. Whether you are pregnant or whether the child is a daughter or son is **not something that can be known through dreams.** Such statements do not appear on the screen or in paid documents."
           }
         ]
       },
@@ -925,7 +925,7 @@ export const EN_DOCS = {
         "title": "We do not sell talismans or charms",
         "blocks": [
           {
-            "p": "Just because a symbol is interpreted as cautionary does not mean there is a reason to buy something. An 흉몽 (ominous dream) has traditionally been used to **indicate a situation to examine now**, not to pay to avert something."
+            "p": "A symbol read as inauspicious is not a reason to buy anything. An inauspicious dream has traditionally been used to **indicate a situation to examine now**, not to pay to avert something."
           },
           {
             "p": "We do not create anxiety to sell something based on it. The only things we sell are the two mentioned above, and neither provides additional interpretation but rather **ways to keep the same content.**"
@@ -983,15 +983,15 @@ export const EN_NOTICES = {
     "2026-08-06-engine-version": {
       "title": "The results include the symbol dictionary and calculation criteria.",
       "body": [
-        "The basis for interpretation is the traditional 해몽 (dream interpretation) symbol dictionary. The results and documents will include the version of that dictionary (e.g., 1.2.0) and the criteria for finding rules (e.g., dream-1.0.0). The same dream will always yield the same symbol based on the same criteria.",
-        "If adding symbols or changing meanings in advance can alter the results, this fact is presented here. This is because the results you received previously may change.",
+        "The basis for interpretation is the traditional dream interpretation symbol dictionary. The results and documents will include the version of that dictionary (e.g., 1.2.0) and the version of the matching rules (for example dream-1.0.0). The same dream will always yield the same symbol based on the same criteria.",
+        "If we add symbols to the dictionary or change meanings in a way that can alter results, this fact is presented here. This is because the results you received previously may change.",
         "We do not create traditional meanings that are not in the dictionary. If no symbols are found, we simply state that none were found and conclude."
       ]
     },
     "2026-08-06-conception": {
-      "title": "We only inform you about 태몽 and do not make judgments.",
+      "title": "We only inform you about a conception dream and do not make judgments.",
       "body": [
-        "If symbols traditionally viewed as 태몽 appear in the dream, we will inform you of that fact. However, we do not determine pregnancy status or the child's gender — such claims have no basis, and medical judgments are the responsibility of medical institutions.",
+        "If symbols traditionally viewed as a conception dream appear in the dream, we will inform you of that fact. However, we do not determine pregnancy status or the child's gender — such claims have no basis, and medical judgments are the responsibility of medical institutions.",
         "The mention of sons and daughters in traditional narratives is a reflection of customs that have been passed down, and it does not mean that we are predicting it correctly."
       ]
     }
