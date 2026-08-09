@@ -69,6 +69,27 @@ export const EN_DOCS = {
       }
     ]
   },
+  "guide": {
+    "eyebrow": "How Naming-Link works",
+    "title": "What we base your name on",
+    "summary": "How we choose a Korean surname, what we check before suggesting a given name, and how we write your name in Hangul — with the parts we deliberately leave out.",
+    "backLabel": "Guide",
+    "sections": [
+      {
+        "title": "",
+        "blocks": [
+          {
+            "stats": [
+              { "value": "{characterTotal}", "label": "name-hanja characters" },
+              { "value": "{syllableCount}", "label": "Hangul syllables covered" },
+              { "value": "{effectiveDate}", "label": "table effective date" },
+              { "value": "{avoidTotal}", "label": "traditionally avoided characters" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "guide/reading": {
     "eyebrow": "Readings",
     "title": "Fixed readings — one pronunciation per character",

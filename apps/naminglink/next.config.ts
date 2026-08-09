@@ -91,6 +91,26 @@ const securityHeaders = [
   },
 ];
 
+/**
+ * 없어진 안내 문서를 상세판으로 넘긴다.
+ *
+ * 이 셋은 상세 문서의 **영어 요약본**이었다 — 본문을 대조해 확인했다. 안내가 언어가 아니라
+ * **서비스 갈래**로 나뉘고 상세판이 23개 언어를 갖게 되자(2026-08-09) 같은 글이 두 벌이 됐다.
+ *
+ * **그냥 지우면 404다.** 이 주소들은 사이트맵에 실려 색인돼 있었고 외부 링크도 있을 수 있다.
+ * 301로 넘겨 그동안 쌓인 신호를 상세판이 물려받게 한다.
+ *
+ * 로케일 접두사가 붙은 주소(`/ja/guide/…`)도 함께 잡는다 — 색인된 것은 대부분 그쪽이다.
+ */
+const ABSORBED_GUIDES = [
+  ["hangul-spelling-basis", "how-hangul-transliteration"],
+  ["korean-name-basis", "how-global-to-korean"],
+  ["what-you-can-buy", "what-we-sell"],
+].flatMap(([from, to]) => [
+  { source: `/guide/${from}`, destination: `/guide/${to}`, permanent: true },
+  { source: `/:locale/guide/${from}`, destination: `/:locale/guide/${to}`, permanent: true },
+]);
+
 const nextConfig: NextConfig = {
   // 응답에서 `X-Powered-By: Next.js`를 뺀다. 어떤 프레임워크를 쓰는지 굳이 알릴 이유가 없다 —
   // 공격자가 프레임워크별 알려진 취약점을 먼저 훑는 데 쓰는 정보다. 동작에는 영향이 없다.
@@ -137,6 +157,7 @@ const nextConfig: NextConfig = {
         destination: `https://${apexHost}/:path*`,
         permanent: true,
       },
+      ...ABSORBED_GUIDES,
     ];
   },
 };

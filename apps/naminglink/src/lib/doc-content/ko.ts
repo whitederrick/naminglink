@@ -71,6 +71,29 @@ export const KO_DOCS = {
       },
     ],
   },
+  /** 안내 허브. 목록은 화면이 그리고(`slot`), 여기 있는 것은 겉틀과 숫자판이다. */
+  guide: {
+    eyebrow: "이름에 쓰는 한자",
+    title: "이름에 쓰는 한자 안내",
+    summary:
+      "인명용 한자가 무엇인지, 지정 독음과 성씨는 어떻게 다른지, 기피 한자를 왜 지우지 않는지 — Naming-Link가 무엇을 근거로 이름을 제안하는지 정리했습니다.",
+    backLabel: "이용 안내",
+    sections: [
+      {
+        title: "",
+        blocks: [
+          {
+            stats: [
+              { value: "{characterTotal}", label: "인명용 한자" },
+              { value: "{syllableCount}", label: "걸쳐 있는 한글 음절" },
+              { value: "{effectiveDate}", label: "표 기준일" },
+              { value: "{avoidTotal}", label: "기피 한자 정리" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   /**
    * 인명용 한자 전체 목록.
    *

@@ -88,9 +88,16 @@ function entriesOf(app) {
   if (!existsSync(path)) return null;
   const source = readFileSync(path, "utf8");
   const entries = [];
-  const re = /slug:\s*"([a-z0-9-]+)"[\s\S]*?audience:\s*"(ko|global)"/g;
+  // `audience` 는 2026-08-09에 `track` 으로 바뀌었다 — 문서를 가르는 기준이 언어가 아니라
+  // 어느 서비스를 설명하는가로 옮겨졌기 때문이다. 옛 형태(형제 앱)도 아직 읽어야 한다.
+  const re = /slug:\s*"([a-z0-9-]+)"[\s\S]*?(?:track|audience):\s*"(ko|global|korean|common)"/g;
   let match;
-  while ((match = re.exec(source))) entries.push({ slug: match[1], audience: match[2] });
+  while ((match = re.exec(source))) {
+    // `track` 은 대상 서비스를 뜻하고 `audience` 는 언어를 뜻했다. 아래 검사들은 아직 언어
+    // 기준이므로, 옮긴 앱(track)은 「한국어 원문이 기준」인 ko 로 접어 둔다.
+    const track = match[2];
+    entries.push({ slug: match[1], audience: track === "global" ? "global" : "ko" });
+  }
   return entries;
 }
 

@@ -27,7 +27,7 @@ export const ES_DOCS = {
             "p": "El hanja proviene de la **tabla oficial de hanja para nombres de la Corte Suprema de Corea.** Cada carácter tiene una lectura fija para su uso en nombres, y los caracteres fuera de la tabla no pueden ser registrados. No añadimos a esa lista ni elegimos favoritos."
           },
           {
-            "p": "Los saju y las figuras de los cinco elementos se calculan a partir del **almanaque lunisolar coreano**, con la hora de nacimiento corregida al tiempo solar verdadero para el lugar de nacimiento. La lectura es una referencia tradicional, no una predicción."
+            "p": "Los saju y las cifras de los cinco elementos se calculan a partir del **almanaque lunisolar coreano**, con la hora de nacimiento corregida al tiempo solar verdadero para el lugar de nacimiento. La lectura es una referencia tradicional, no una predicción."
           },
           {
             "p": "Las explicaciones escritas son producidas por IA. Para evitar que **invente cosas**, al modelo se le da solo tu entrada y nuestros propios datos de referencia, y se le indica que se mantenga dentro de eso. Las guías explican esto en detalle."
@@ -50,7 +50,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el generador de PDF no soporta esos scripts — y lo decimos en pantalla antes de que pagues."
+            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el renderizador de PDF no soporta esos scripts — y lo decimos en pantalla antes de que pagues."
           }
         ]
       },
@@ -59,6 +59,39 @@ export const ES_DOCS = {
         "blocks": [
           {
             "p": "Los detalles de la empresa y cómo contactarnos están en la [página de contacto](/contact), incluyendo reembolsos, solicitudes de privacidad e informes de errores."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": {
+    "eyebrow": "Cómo funciona Naming-Link",
+    "title": "En qué basamos tu nombre",
+    "summary": "Cómo elegimos un apellido coreano, qué verificamos antes de sugerir un nombre dado, y cómo escribimos tu nombre en Hangul — con las partes que deliberadamente omitimos.",
+    "backLabel": "Guía",
+    "sections": [
+      {
+        "title": "",
+        "blocks": [
+          {
+            "stats": [
+              {
+                "value": "{characterTotal}",
+                "label": "caracteres de hanja"
+              },
+              {
+                "value": "{syllableCount}",
+                "label": "sílabas en Hangul cubiertas"
+              },
+              {
+                "value": "{effectiveDate}",
+                "label": "fecha de vigencia de la tabla"
+              },
+              {
+                "value": "{avoidTotal}",
+                "label": "caracteres tradicionalmente evitados"
+              }
+            ]
           }
         ]
       }
@@ -74,10 +107,10 @@ export const ES_DOCS = {
         "title": "Una lectura fija para cada carácter",
         "blocks": [
           {
-            "p": "La tabla de hanja para nombres no solo decide qué caracteres pueden usarse. **También fija cómo se lee cada carácter cuando aparece en un nombre.** Esa lectura fija es la que se utiliza para el registro."
+            "p": "La tabla de hanja para nombres no solo decide qué caracteres pueden ser usados. **También fija cómo se lee cada carácter cuando aparece en un nombre.** Esa lectura fija es la que se sigue para el registro."
           },
           {
-            "p": "La mayoría de los hanja tienen varias lecturas posibles. Sin embargo, un nombre se escribe en documentos y se pronuncia en voz alta, por lo que necesita exactamente una. Por lo tanto, la tabla asigna a cada carácter su lectura para uso en nombres, y no se puede registrar ninguna otra lectura."
+            "p": "La mayoría de los hanja tienen varias lecturas posibles. Un nombre, sin embargo, se escribe en documentos y se pronuncia en voz alta, por lo que necesita exactamente una. La tabla, por lo tanto, asigna a cada carácter su lectura para uso en nombres, y no se puede registrar ninguna otra lectura."
           }
         ]
       },
@@ -88,7 +121,7 @@ export const ES_DOCS = {
             "p": "Por eso Naming-Link fija el sonido antes de buscar hanja. Si el nombre es \"지은\", el significado solo puede elegirse entre los caracteres asignados a la lectura **지** y los caracteres asignados a la lectura **은**."
           },
           {
-            "p": "Por muy bueno que sea un significado, un carácter cuya lectura no coincide no puede usarse para ese nombre. También nunca cambiamos el sonido de un nombre para ajustarlo a un carácter — un nombre se pronuncia durante toda la vida, y el sonido se establece primero, seguido del hanja."
+            "p": "Por muy bueno que sea un significado, un carácter cuya lectura no coincida no puede ser usado para ese nombre. También nunca cambiamos el sonido de un nombre para ajustarlo a un carácter — un nombre se pronuncia durante toda la vida, y el sonido se establece primero, con el hanja siguiendo."
           }
         ]
       },
@@ -96,10 +129,10 @@ export const ES_DOCS = {
         "title": "Los apellidos están fuera de esta tabla",
         "blocks": [
           {
-            "p": "Esto a menudo se malinterpreta. **La tabla rige el nombre de pila, no el apellido.** Un apellido sigue lo que ya está en el registro familiar, por lo que algunas personas utilizan caracteres que no están en la tabla de hanja para nombres."
+            "p": "Esto a menudo se malinterpreta. **La tabla rige el nombre dado, no el apellido.** Un apellido sigue lo que ya está en el registro familiar, por lo que algunas personas utilizan caracteres que no están en la tabla de hanja para nombres."
           },
           {
-            "p": "Por eso Naming-Link trata el hanja de los apellidos de manera diferente. Solo te ayudamos a encontrar un apellido, y dejamos un campo para ingresar uno directamente, para personas cuyo carácter está fuera de la tabla. Apellidos de dos sílabas como Namgung y Seonwoo se ingresan de la misma manera."
+            "p": "Por eso Naming-Link trata el hanja del apellido de manera diferente. Solo te ayudamos a encontrar un apellido, y dejamos un campo para ingresar uno directamente, para personas cuyo carácter está fuera de la tabla. Apellidos de dos sílabas como Namgung y Seonwoo se ingresan de la misma manera."
           }
         ]
       }
@@ -118,7 +151,7 @@ export const ES_DOCS = {
             "p": "Este servicio escribe **tu nombre** en Hangul. No te da un nombre coreano. Michael se convierte en 마이클 — el mismo nombre, escrito para que los coreanos puedan leerlo y decirlo. No lo cambiamos por un nombre coreano que casualmente signifique algo similar."
           },
           {
-            "p": "Si lo que quieres es un nombre coreano, **eso es un servicio diferente.** Uno conserva tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
+            "p": "Si un nombre coreano es lo que deseas, **eso es un servicio diferente**. Uno mantiene tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
           }
         ]
       },
@@ -126,21 +159,21 @@ export const ES_DOCS = {
         "title": "Sonidos que el coreano no tiene",
         "blocks": [
           {
-            "p": "Cada idioma tiene sonidos que el coreano carece — f, v, z, th, y distinciones vocálicas que el coreano no hace. Para esos escribimos lo que **un hablante de coreano realmente dice** cuando lee tu nombre en voz alta, en lugar de transcribir la fonética original símbolo por símbolo. El objetivo es la escritura que se usará, no la más técnicamente fiel."
+            "p": "Cada idioma tiene sonidos que el coreano no tiene — f, v, z, th, y distinciones vocálicas que el coreano no hace. Para esos escribimos lo que **realmente dice un hablante de coreano** cuando lee tu nombre en voz alta, en lugar de transcribir la fonética original símbolo por símbolo. El objetivo es la ortografía que se usará, no la más técnicamente fiel."
           },
           {
-            "p": "La misma escritura puede diferir dependiendo de dónde provenga un nombre, así que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
+            "p": "La misma ortografía puede diferir dependiendo de dónde provenga un nombre, así que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
           }
         ]
       },
       {
-        "title": "Varios escritos, uno al lado del otro",
+        "title": "Varios deletreos, uno al lado del otro",
         "blocks": [
           {
-            "p": "No hay una única respuesta correcta. La escritura más cercana al sonido original, la que se usa más comúnmente en Corea, y la más fácil de escribir son a menudo tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
+            "p": "No hay una única respuesta correcta. La ortografía más cercana al sonido original, la que se usa más comúnmente en Corea, y la que es más fácil de escribir son a menudo tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
           },
           {
-            "p": "Si ninguna de ellas se siente correcta, puedes añadir una pista sobre el sonido que deseas y volver a ejecutarlo — por ejemplo, que una sílaba en particular debería escribirse de manera diferente."
+            "p": "Si ninguna de ellas se siente correcta, puedes añadir una pista sobre el sonido que deseas y ejecutarlo de nuevo — por ejemplo, que una sílaba particular debería escribirse de manera diferente."
           }
         ]
       },
@@ -149,7 +182,7 @@ export const ES_DOCS = {
         "title": "Sin hanja aquí",
         "blocks": [
           {
-            "p": "No adjuntamos hanja a una transliteración. El hanja lleva significado, y este flujo se trata de sonido. Hacer coincidir caracteres solo con el sonido puede llevarte a un significado que nunca pediste."
+            "p": "No adjuntamos hanja a una transliteración. Los hanja llevan significado, y este flujo es sobre sonido. Igualar caracteres solo al sonido puede llevarte a un significado que nunca pediste."
           }
         ]
       }
@@ -158,14 +191,14 @@ export const ES_DOCS = {
   "guide/how-global-to-korean": {
     "eyebrow": "Cómo funciona",
     "title": "Cómo construimos un nombre coreano",
-    "summary": "Elegimos entre apellidos que existen, evaluamos qué tan fácilmente se dice y se escribe el nombre, y preguntamos para qué es el nombre.",
+    "summary": "Elegimos entre apellidos que existen, evaluamos cuán fácilmente se dice y se escribe el nombre, y preguntamos para qué es el nombre.",
     "backLabel": "Guía",
     "sections": [
       {
         "title": "Comenzamos con el apellido",
         "blocks": [
           {
-            "p": "En Corea, el apellido viene primero, y a diferencia de los nombres de pila, no se inventa libremente — se hereda. Por lo tanto, solo sugerimos apellidos que realmente tienen las personas coreanas. Nuestro grupo predeterminado son los **20 apellidos más comunes**, que juntos cubren aproximadamente el 80% de la población."
+            "p": "En Corea, el apellido viene primero, y a diferencia de los nombres de pila, no se inventa libremente — lo heredas. Así que solo sugerimos apellidos que las personas coreanas realmente tienen. Nuestro grupo predeterminado son los **20 apellidos más comunes**, que juntos cubren aproximadamente el 80% de la población."
           },
           {
             "p": "Si tu propio apellido coincide con uno coreano real por sonido — Wang con 왕, Ye con 예 — lo ponemos primero. Mantener un hilo de conexión con tu nombre original vale más que un apellido elegido al azar."
@@ -182,7 +215,7 @@ export const ES_DOCS = {
             "p": "Este es un nombre que la gente en Corea realmente te llamará, así que lo primero que verificamos es si un coreano puede escucharlo una vez y escribirlo. Un nombre que necesita ser deletreado cada vez es una carga que llevas, no nosotros."
           },
           {
-            "p": "El significado también importa. Los nombres de pila coreanos suelen tener uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
+            "p": "El significado también importa. Los nombres de pila coreanos suelen llevar uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
           }
         ]
       },
@@ -190,7 +223,7 @@ export const ES_DOCS = {
         "title": "Preguntamos para qué es el nombre",
         "blocks": [
           {
-            "p": "Un nombre para trámites universitarios no es lo mismo que un nombre que los amigos gritarán a través de una habitación, o un apodo que usarás en línea. Preguntamos cómo planeas usarlo y lo tenemos en cuenta."
+            "p": "Un nombre para trámites universitarios no es lo mismo que un nombre que los amigos gritarán a través de una habitación, o un apodo que usarás en línea. Preguntamos cómo planeas usarlo y tomamos eso en cuenta."
           }
         ]
       },
@@ -199,7 +232,7 @@ export const ES_DOCS = {
         "title": "Esto no es una transliteración",
         "blocks": [
           {
-            "p": "Aquí proponemos un **nuevo nombre coreano**. Si deseas que tu nombre existente sea escrito en Hangul — Michael como 마이클 — consulta la [guía de escritura en Hangul](/guide/how-hangul-transliteration)."
+            "p": "Aquí proponemos un **nuevo nombre coreano**. Si deseas que tu nombre existente se escriba en Hangul — Michael como 마이클 — consulta la [guía de ortografía en Hangul](/guide/how-hangul-transliteration)."
           }
         ]
       }
@@ -215,7 +248,7 @@ export const ES_DOCS = {
   "contact": {
     "eyebrow": "Contacto",
     "title": "Contáctanos",
-    "summary": "Cómo contactarnos para preguntas, reembolsos, solicitudes de privacidad e informes de errores, con los detalles de nuestra empresa.",
+    "summary": "Cómo comunicarse con nosotros para preguntas, reembolsos, solicitudes de privacidad e informes de errores, con los detalles de nuestra empresa.",
     "backLabel": "Inicio",
     "sections": [
       {
@@ -234,9 +267,9 @@ export const ES_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos en su totalidad. Consulta la [política de reembolsos](/refund-policy).",
+              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos completamente. Consulta la [política de reembolsos](/refund-policy).",
               "**Privacidad** — solicitudes para acceder, corregir o eliminar tus datos. Consulta la [política de privacidad](/privacy).",
-              "**Correcciones** — si un significado de hanja, lectura o cálculo parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
+              "**Correcciones** — si un significado, lectura o cálculo de hanja parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
               "**Cualquier otra cosa** — asociaciones y prensa van a la misma dirección."
             ]
           }
@@ -264,7 +297,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "No necesitas incluir un nombre o fecha de nacimiento en tu mensaje. Los resultados gratuitos nunca se almacenan en nuestros servidores, así que no podemos buscarlos de nuevo — un número de pedido es suficiente."
+            "p": "No es necesario incluir un nombre o fecha de nacimiento en su mensaje. Los resultados gratuitos nunca se almacenan en nuestros servidores, por lo que no podemos volver a buscarlos; un número de pedido es suficiente."
           }
         ]
       }
@@ -292,7 +325,7 @@ export const ES_DOCS = {
             ]
           },
           {
-            "p": "Hay caracteres que están incluidos en la lista de caracteres para nombres personales y **son legalmente aceptables**, pero se consideran inapropiados para nombres."
+            "p": "Hay caracteres que están incluidos en la lista de caracteres para nombres personales y **son legalmente aceptables**, pero se consideran inadecuados para nombres."
           },
           {
             "p": "El pensamiento subyacente es que **\"un significado excesivo es en realidad indeseable.\"** Esto incluye caracteres que se consideran demasiado preciosos (珍 tesoro, 寶 joya), caracteres vistos como teniendo una presencia demasiado fuerte (王 rey, 帝 emperador), y aquellos considerados demasiado grandiosos para que una persona los encarne, como el cielo o deidades. Esto refleja un antiguo sentido de moderación, creyendo que un nombre puede eclipsar a la persona."
@@ -301,12 +334,12 @@ export const ES_DOCS = {
             "p": "**Sin embargo, estos caracteres no son inutilizables.** No es una prohibición legal, sino una costumbre, y las costumbres varían según la región, la familia y la generación, y pueden cambiar con el tiempo."
           },
           {
-            "p": "De hecho, entre los {avoidTotal} caracteres que compilamos, {avoidCommonlyUsed} todavía se utilizan comúnmente en nombres. El hecho de que se sepa que deben evitarse pero que aún se utilicen ampliamente indica que esta costumbre no es absoluta."
+            "p": "De hecho, entre los {avoidTotal} caracteres que compilamos, {avoidCommonlyUsed} todavía se utilizan comúnmente en nombres. El hecho de que se sepa que se evitan pero que aún se utilicen ampliamente indica que esta costumbre no es absoluta."
           }
         ]
       },
       {
-        "title": "¿Qué categorías hay?",
+        "title": "¿Qué Categorías Existen?",
         "blocks": [
           {
             "p": "Los caracteres actualmente compilados se dividen en siete categorías."
@@ -318,14 +351,14 @@ export const ES_DOCS = {
               "**Reyes y Nobleza** — Caracteres que significan estatus, como rey o emperador",
               "**Seres Divinos** — Caracteres que se refieren a reinos sagrados, como dioses o espíritus",
               "**Estaciones y Otros** — Caracteres vinculados a momentos o estados específicos",
-              "**Animales** — Animales considerados como poseedores de una energía fuerte, como dragones o tigres",
+              "**Animales** — Animales considerados con una energía fuerte, como dragones o tigres",
               "**Excesividad** — Caracteres vistos como teniendo significados excesivamente grandes o desbordantes"
             ]
           }
         ]
       },
       {
-        "title": "Puedes agregar o eliminar caracteres tú mismo",
+        "title": "Puedes Agregar o Eliminar Caracteres Tú Mismo",
         "blocks": [
           {
             "p": "No eliminamos arbitrariamente estos caracteres. **Hemos proporcionado dos opciones en la pantalla de entrada para que el nombrador elija cómo manejarlos.**"
@@ -334,21 +367,21 @@ export const ES_DOCS = {
       },
       {
         "kind": "note",
-        "title": "Opciones disponibles en la pantalla de entrada",
+        "title": "Opciones Disponibles en la Pantalla de Entrada",
         "blocks": [
           {
-            "p": "**Excluir caracteres evitados de los candidatos** — Si está habilitado, se excluyen completamente. Si está deshabilitado, permanecen en los resultados con una etiqueta de \"Tradicionalmente evitado\" y la razón adjunta."
+            "p": "**Excluir Caracteres Evitados de los Candidatos** — Si está habilitado, se excluyen completamente. Si está deshabilitado, permanecen en los resultados con una etiqueta de \"Tradicionalmente Evitados\" y la razón adjunta."
           },
           {
-            "p": "**Excluir incluso caracteres comúnmente utilizados** — Esto excluye caracteres que están en la lista de evitación pero que en realidad se utilizan ampliamente (圭·琳·玲·元·太·星·海, etc.). Si está habilitado, los candidatos se reducirán significativamente."
+            "p": "**Excluir Incluso Caracteres Comúnmente Usados** — Esto excluye caracteres que están en la lista de evitación pero que en realidad se utilizan ampliamente (圭·琳·玲·元·太·星·海, etc.). Si está habilitado, los candidatos se reducirán significativamente."
           },
           {
-            "p": "El valor predeterminado es **no excluir, sino solo mostrar**. Si se eliminan silenciosamente de la lista, puede parecer a aquellos que desean usar ese carácter que no existe."
+            "p": "El valor predeterminado es **no excluir, sino solo mostrar**. Si se eliminan silenciosamente de la lista, puede parecer a aquellos que quieren usar ese carácter que no existe."
           }
         ]
       },
       {
-        "title": "Asegurando que las opciones no desaparezcan",
+        "title": "Asegurando Que las Opciones No Desaparezcan",
         "blocks": [
           {
             "p": "Si no quedan caracteres utilizables para esa sílaba, levantaremos la exclusión para esa sílaba y mostraremos candidatos. Creemos que es mejor que no tener opciones en absoluto."
@@ -359,12 +392,12 @@ export const ES_DOCS = {
   },
   "guide/how-korean-to-global": {
     "eyebrow": "Base del Servicio",
-    "title": "¿Cuál es la base para la conversión de nombres globales?",
+    "title": "¿Cuál Es la Base para la Conversión de Nombres Globales?",
     "summary": "Proporcionamos candidatos desde cinco perspectivas, manteniendo los sistemas de escritura de cada idioma y utilizando solo nombres existentes.",
     "backLabel": "Guía de Uso",
     "sections": [
       {
-        "title": "Los candidatos se proporcionan desde cinco perspectivas",
+        "title": "Los Candidatos Se Proporcionan Desde Cinco Perspectivas",
         "blocks": [
           {
             "p": "No hay una sola forma de traducir un nombre a otro idioma. Dependiendo de si se preserva el sonido o el significado, se elige un nombre natural en el contexto local o se prioriza la individualidad, las respuestas variarán. Por lo tanto, en lugar de presentar una opción, proporcionamos **una de cada una de las cinco perspectivas diferentes**."
@@ -374,7 +407,7 @@ export const ES_DOCS = {
               "**Opción de Preservación del Sonido** — Preserva el sonido del nombre original tanto como sea posible",
               "**Opción de Traducción de Significado** — Traduce el significado contenido en el nombre al nombre de ese idioma",
               "**Opción de Compromiso entre Sonido y Significado** — Toma la mitad de cada uno",
-              "**Opción Auténtica Local** — Elige nombres que son realmente utilizados comúnmente en ese contexto cultural",
+              "**Opción Auténtica Local** — Elige nombres que realmente se utilizan comúnmente en ese contexto cultural",
               "**Opción de Individualidad y Marca** — Prioriza nombres que sean memorables y distintivos"
             ]
           },
@@ -384,7 +417,7 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "Cada idioma tiene diferentes reglas del sistema de escritura",
+        "title": "Cada Idioma Tiene Diferentes Reglas del Sistema de Escritura",
         "blocks": [
           {
             "p": "Al traducir a un idioma que no utiliza letras romanas, debe escribirse en el guion de ese idioma. Para el japonés, sería kana y kanji; para el ruso, mongol y kazajo, sería cirílico; para el árabe, sería en escritura árabe; y para el tailandés, jemer e hindi, sería en sus respectivos guiones. Si lo escribes en letras romanas y lo llamas un \"nombre japonés\", no puede usarse en ese país."
@@ -395,15 +428,15 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "Usamos nombres que realmente se utilizan",
+        "title": "Usamos Nombres Que Realmente Se Usan",
         "blocks": [
           {
-            "p": "Para evitar crear nombres que suenen plausibles pero que no existan en ese país, basamos nuestras opciones en nombres existentes. Los nombres se utilizan en documentos e introducciones, por lo que si una persona local piensa \"no hay tal nombre\", no puede usarse."
+            "p": "Para evitar crear nombres que suenen plausibles pero que no existen en ese país, basamos nuestras opciones en nombres existentes. Los nombres se utilizan en documentos e introducciones, por lo que si una persona local piensa \"no hay tal nombre\", no puede usarse."
           }
         ]
       },
       {
-        "title": "Separamos la selección y la descripción",
+        "title": "Separamos Selección y Descripción",
         "blocks": [
           {
             "p": "Manejamos la tarea de determinar cinco candidatos por separado de la tarea de describir cada candidato en detalle. Dado que la descripción toma mucho tiempo, separamos esa parte para crearla simultáneamente."
@@ -426,34 +459,34 @@ export const ES_DOCS = {
   },
   "guide/how-hanja-meaning": {
     "eyebrow": "Base del Servicio",
-    "title": "¿Cuál es la base para emparejar significados de hanja?",
-    "summary": "Primero, los sonidos están fijos, y solo se recopilan hanja que pueden registrarse con ese sonido, y el significado se ve como una combinación en lugar de un solo carácter.",
+    "title": "¿Cuál es la base para emparejar los significados de hanja?",
+    "summary": "Primero, los sonidos son fijos, y solo se reúnen los hanja que pueden registrarse con ese sonido, y el significado se ve como una combinación en lugar de un solo carácter.",
     "backLabel": "Guía de Uso",
     "sections": [
       {
         "title": "Primero, fija los sonidos",
         "blocks": [
           {
-            "p": "Si has decidido por \"지은\", entonces **지** y **은** no cambian. No alteramos el sonido del nombre para que coincida con el hanja. Un nombre es algo que se llama durante toda la vida, y creemos que el orden es que el sonido se fije primero, seguido del hanja."
+            "p": "Si has decidido por \"지은\", entonces **지** y **은** no cambian. No alteramos el sonido del nombre para que coincida con el hanja. Un nombre es algo que se llama de por vida, y creemos que el orden es que el sonido se fije primero, seguido del hanja."
           },
           {
             "figure": "hanja-match-flow",
             "labels": {
               "soundStep": "① Fija el sonido",
               "soundNote": "Nunca lo cambiamos para ajustarlo a un carácter",
-              "tableStep": "② Filtrar por la tabla oficial",
+              "tableStep": "② Filtra por la tabla oficial",
               "tableBody": "solo caracteres asignados a esa lectura",
               "tableNote": "de todos los {total} caracteres en la tabla",
               "tableNoteNoCount": "solo caracteres que están en la tabla",
               "combineStep": "③ Lee los dos juntos",
               "combineNote": "el significado es cómo se lee el par, no cada carácter por separado"
             },
-            "caption": "Este es el orden en el que se reducen los candidatos. No se trata de elegir hanja primero y hacer coincidir los sonidos, sino que los sonidos vienen primero, y solo los caracteres designados para ser leídos con ese sonido se convierten en candidatos."
+            "caption": "Este es el orden en el que se reducen los candidatos. No se trata de elegir hanja primero y emparejar los sonidos, sino que los sonidos vienen primero, y solo los caracteres designados para ser leídos con ese sonido se convierten en candidatos."
           }
         ]
       },
       {
-        "title": "Reúne solo hanja que se pueden registrar con ese sonido",
+        "title": "Reúne solo hanja que pueden registrarse con ese sonido",
         "blocks": [
           {
             "p": "La tabla oficial de hanja para nombres tiene una lectura designada para cada carácter cuando se usa en nombres. Solo los caracteres designados para ser leídos como **지** y **은** se convierten en candidatos. No importa cuán bueno sea el significado, si la lectura no coincide, no puede ser el hanja para ese nombre."
@@ -462,7 +495,7 @@ export const ES_DOCS = {
             "p": "El rango para seleccionar candidatos son los {characterTotal} caracteres de la tabla del Tribunal Supremo. Los caracteres que no están en esta tabla no se presentan en absoluto; incluso si se muestran, no pueden ser registrados."
           },
           {
-            "p": "El número de caracteres en la tabla publicada por el Tribunal Supremo es ligeramente mayor que esto. La tabla también incluye **caracteres sin códigos de caracteres estándar**, que no pueden mostrarse correctamente en pantallas y documentos, por lo que esos caracteres han sido excluidos de los candidatos. Debes consultar con la autoridad correspondiente si puedes registrarte con esos caracteres."
+            "p": "El número de caracteres en la tabla publicada por el Tribunal Supremo es ligeramente mayor que esto. La tabla también incluye **caracteres sin códigos de caracteres estándar**, que no pueden mostrarse correctamente en pantallas y documentos, por lo que esos caracteres han sido excluidos de los candidatos. Debes verificar con la autoridad correspondiente si puedes registrarte con esos caracteres."
           }
         ]
       },
@@ -470,15 +503,15 @@ export const ES_DOCS = {
         "title": "El significado se ve como una combinación, no como un solo carácter",
         "blocks": [
           {
-            "p": "El significado de cada carácter individual siendo bueno y el significado leído cuando se combinan dos caracteres siendo bueno son diferentes. Los nombres se leen como combinaciones, así que miramos las combinaciones juntas. Si tienes significados específicos que deseas incluir o evitar, esos se tienen en cuenta."
+            "p": "El significado de cada carácter individual siendo bueno y el significado leído cuando se combinan dos caracteres siendo bueno son diferentes. Los nombres se leen como combinaciones, por lo que miramos las combinaciones juntas. Si tienes significados específicos que deseas incluir o evitar, esos se tienen en cuenta."
           },
           {
-            "p": "Si estás usando un carácter generacional, ese carácter es fijo, y se buscan combinaciones de las posiciones restantes. El apellido (성) no está restringido por la tabla oficial de hanja para nombres, por lo que se trata por separado."
+            "p": "Si estás usando un carácter de generación, ese carácter es fijo, y se buscan combinaciones de las posiciones restantes. El apellido (성) no está restringido por la tabla oficial de hanja para nombres, por lo que se trata por separado."
           }
         ]
       },
       {
-        "title": "Indicamos costumbres de evitación sin eliminarlas",
+        "title": "Indicamos las costumbres de evitación sin eliminarlas",
         "blocks": [
           {
             "p": "Si un carácter que tradicionalmente se considera que debe evitarse está incluido en los candidatos, no lo eliminamos, sino que mostramos la razón junto con él. Este es un asunto de costumbre, no de ley, y puedes optar por excluirlo completamente de la pantalla de entrada. Para más detalles, consulta [Hanja Tradicionalmente Evitados](/guide/avoid)."
@@ -556,19 +589,19 @@ export const ES_DOCS = {
               "earth": "tierra",
               "metal": "metal",
               "water": "agua",
-              "saeng": "Generación — cada uno da origen a su vecino",
-              "geuk": "Control — cada uno restringe al que salta"
+              "saeng": "Generación — cada una da origen a su vecina",
+              "geuk": "Control — cada una restringe a la que salta"
             },
-            "caption": "Las relaciones entre los cinco elementos. Moverse a lo largo del círculo representa generación mutua (相生), mientras que saltar uno y presionar hacia abajo representa restricción mutua (相剋). Usamos esta relación solo como un eje suplementario para comparar candidatos."
+            "caption": "Las relaciones entre los cinco elementos. Moverse a lo largo del círculo representa la generación mutua (相生), mientras que saltar uno y presionar hacia abajo representa la restricción mutua (相剋). Usamos esta relación solo como un eje suplementario para comparar candidatos."
           },
           {
-            "p": "Si has ingresado tu mes de nacimiento, usamos una referencia simplificada de los cinco elementos basada en ese mes como un eje suplementario para comparar candidatos. Sin embargo, esto no es un análisis preciso de saju, y **no afirmamos que los nombres determinan el destino o carácter de una persona.**"
+            "p": "Si has ingresado tu mes de nacimiento, usamos una referencia simplificada de los cinco elementos basada en ese mes como un eje suplementario para comparar candidatos. Sin embargo, esto no es un análisis preciso de saju, y **no afirmamos que los nombres determinen el destino o carácter de una persona.**"
           },
           {
-            "p": "En la selección final, lo que priorizamos son los sonidos, las combinaciones de significados, los valores que la familia desea transmitir y si realmente puede ser registrado. Si no has ingresado tu mes de nacimiento, excluimos completamente la referencia de los cinco elementos del análisis; no hacemos suposiciones arbitrarias sobre información desconocida."
+            "p": "En la selección final, lo que priorizamos son los sonidos, combinaciones de significados, los valores que la familia desea transmitir y si realmente se puede registrar. Si no has ingresado tu mes de nacimiento, excluimos completamente la referencia de los cinco elementos del análisis — no hacemos suposiciones arbitrarias sobre información desconocida."
           },
           {
-            "p": "Si deseas un análisis preciso basado en saju, cubrimos eso en un informe detallado separado. La razón por la que no priorizamos los cinco elementos en la coincidencia libre de hanja es que no queremos presentar juicios basados en los cinco elementos derivados de una fecha y hora de nacimiento incompletas como si fueran definitivos."
+            "p": "Si deseas un análisis preciso basado en saju, lo cubrimos en un informe detallado separado. La razón por la que no priorizamos los cinco elementos en la coincidencia gratuita de hanja es que no queremos presentar juicios basados en los cinco elementos derivados de una fecha y hora de nacimiento incompletas como si fueran definitivos."
           }
         ]
       }
@@ -577,7 +610,7 @@ export const ES_DOCS = {
   "guide/what-we-sell": {
     "eyebrow": "Productos de Pago",
     "title": "¿Qué se incluye en los productos de pago?",
-    "summary": "Aclaramos cuánto es visible de forma gratuita y qué características adicionales vienen con el pago por cada producto. Los precios se obtienen de la configuración real del producto.",
+    "summary": "Aclaramos cuánto es visible de forma gratuita y qué características adicionales vienen con el pago para cada producto. Los precios se obtienen de la configuración real del producto.",
     "backLabel": "Guía de Uso",
     "sections": [
       {
@@ -598,7 +631,7 @@ export const ES_DOCS = {
             "p": "Los resultados recomendados están estructurados para abrir candidatos uno por uno. Al ver anuncios, se abre uno a la vez, mientras que este producto **abre todos los candidatos restantes a la vez**."
           },
           {
-            "p": "Si no tienes prisa, no es necesario que compres. Los **resultados de abrir a través de anuncios y los de pago son completamente los mismos** — solo es cuestión de esperar, y pagar no produce mejores candidatos."
+            "p": "Si no tienes prisa, no tienes que comprar. Los **resultados de abrir a través de anuncios y los de pago son completamente los mismos** — solo es cuestión de esperar, y pagar no produce mejores candidatos."
           }
         ]
       },
@@ -612,7 +645,7 @@ export const ES_DOCS = {
             "ul": [
               "**Máximo 5 candidatos de hanja detallados** — {priceFiveDetail}. Puedes expandir explicaciones para hasta cinco candidatos en la pantalla. No hay PDF.",
               "**Máximo 10 candidatos de hanja en PDF detallado extendido** — {priceTenDetail}. El número de candidatos aumenta a diez, y se incluye un documento PDF.",
-              "**Máximo 10 candidatos de hanja, saju y reporte integral de los cinco elementos** — {priceTenSaju}. Además de lo anterior, incluye el gráfico de saju derivado de la fecha de nacimiento y las fuerzas de los cinco elementos, examinando por qué un hanja particular se adapta a ese nombre desde la perspectiva de los cinco elementos."
+              "**Máximo 10 candidatos de hanja, saju y el informe integral de los cinco elementos** — {priceTenSaju}. Además de lo anterior, incluye el gráfico de saju derivado de la fecha de nacimiento y las fuerzas de los cinco elementos, examinando por qué un hanja particular se adapta a ese nombre desde la perspectiva de los cinco elementos."
             ]
           }
         ]
@@ -622,7 +655,7 @@ export const ES_DOCS = {
         "title": "El hanja en sí es información de acceso público",
         "blocks": [
           {
-            "p": "El hanja utilizable y sus significados provienen de la tabla oficial de hanja de nombres establecida por la Corte Suprema de Corea, y todos están disponibles públicamente en los documentos de orientación del servicio. Lo que venden los productos de pago no es información de hanja, sino **el acto de seleccionar y explicarlo de acuerdo con el nombre**."
+            "p": "El hanja utilizable y sus significados provienen de la tabla oficial de hanja de nombres establecida por la Corte Suprema de Corea, y todos son de acceso público en los documentos de orientación del servicio. Lo que los productos de pago venden no es información de hanja, sino **el acto de seleccionar y explicarlo según el nombre**."
           }
         ]
       },
@@ -634,7 +667,7 @@ export const ES_DOCS = {
           },
           {
             "ul": [
-              "**Reporte Premium de Nombre Coreano** — 3 páginas. Incluye una portada de caligrafía, el significado del nombre y la razón para elegirlo, y la interpretación de saju y los cinco elementos.",
+              "**Informe Premium de Nombre Coreano** — 3 páginas. Incluye una portada de caligrafía, el significado del nombre y la razón para elegirlo, y la interpretación de saju y los cinco elementos.",
               "**Arte de Nombre en Hangul** — 2 páginas. Incluye una portada de caligrafía y guía de pronunciación. Contiene cómo escribir el nombre en Hangul y cómo pronunciarlo."
             ]
           }
@@ -647,7 +680,7 @@ export const ES_DOCS = {
             "p": "Grabamos el nombre creado en la pantalla en un sello físico y te lo enviamos. Los precios varían según el modelo — sello redondo {priceStampRound}, sello cuadrado {priceStampSquare}, sello de ébano {priceStampEbony}. También está disponible el envío internacional."
           },
           {
-            "p": "**A partir de aquí, los productos incluyen envío.** A diferencia de los artículos anteriores, la producción y el envío toman tiempo, y se requiere una dirección de recepción. La información de envío se utiliza solo para el procesamiento de pedidos y retención legal, y una vez que el procesamiento se completa, se destruirá después del período especificado en la política."
+            "p": "**A partir de aquí, los productos incluyen envío.** A diferencia de los artículos anteriores, la producción y el envío toman tiempo, y se requiere una dirección de recepción. La información de envío se utiliza solo para el procesamiento del pedido y retención legal, y una vez que el procesamiento se completa, se destruirá después del período especificado en la política."
           }
         ]
       },
@@ -661,7 +694,7 @@ export const ES_DOCS = {
             "p": "**Las quejas sobre el contenido de los resultados no son motivo para un reembolso.** Sin embargo, si el documento no fue creado, el archivo no se puede abrir, o el monto del pago difiere del pedido, se procesará como una reemisión o reembolso completo."
           },
           {
-            "p": "Las condiciones detalladas se describen en la [Política de Reembolso](/refund-policy) y [Guía de Precios](/pricing). Este texto sirve como guía sobre lo que está incluido, y las condiciones legales tienen prioridad en esos dos documentos."
+            "p": "Las condiciones detalladas se describen en la [Política de Reembolso](/refund-policy) y la [Guía de Precios](/pricing). Este texto sirve como guía sobre lo que se incluye, y las condiciones legales tienen prioridad en esos dos documentos."
           }
         ]
       }
@@ -670,7 +703,7 @@ export const ES_DOCS = {
   "guide/hanja-basics": {
     "eyebrow": "Sistema",
     "title": "¿Qué es el hanja oficial de nombres?",
-    "summary": "El hanja que se puede usar para los nombres de los niños ha sido establecido por la Corte Suprema en una tabla. Esto resume qué es la tabla y por qué se ha establecido.",
+    "summary": "El hanja que se puede usar para los nombres de los niños ha sido establecido por la Corte Suprema en una tabla. Esto resume qué es la tabla y por qué ha sido establecida.",
     "backLabel": "Guía de Uso",
     "sections": [
       {
@@ -698,13 +731,13 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "¿Por qué se ha establecido?",
+        "title": "¿Por qué ha sido establecido?",
         "blocks": [
           {
-            "p": "Hay decenas de miles de hanja. Entre ellos, algunos tienen significados desagradables, algunos ya no se usan y no tienen lecturas conocidas, y algunos no se pueden mostrar en computadoras en absoluto. Si tales caracteres se incluyen en un nombre, la persona que finalmente lleva la carga es quien usará ese nombre durante toda su vida. Los nombres pueden ser malinterpretados o leídos de manera diferente en varios lugares como el registro de residentes, pasaportes, bancos y escuelas, lo que requiere que el individuo explique su propio nombre."
+            "p": "Hay decenas de miles de hanja. Entre ellos, algunos tienen significados desagradables, algunos ya no se utilizan y no tienen lecturas conocidas, y algunos no se pueden mostrar en computadoras en absoluto. Si tales caracteres se incluyen en un nombre, la persona que finalmente lleva la carga es quien usará ese nombre durante toda su vida. Los nombres pueden ser rotos o leídos de manera diferente en varios lugares como el registro de residentes, pasaportes, bancos y escuelas, lo que requiere que el individuo explique su propio nombre."
           },
           {
-            "p": "Por lo tanto, se ha elegido un método para predefinir el rango de hanja que se puede usar en los nombres. Más que ser una regulación restrictiva, es más un mecanismo para asegurar que los nombres se puedan usar sin problemas a lo largo de la vida de una persona."
+            "p": "Por lo tanto, se ha elegido un método para predefinir el rango de hanja que se puede utilizar en los nombres. Más que ser una regulación restrictiva, es más bien un mecanismo para asegurar que los nombres se puedan usar sin problemas a lo largo de la vida de una persona."
           }
         ]
       },
@@ -712,7 +745,7 @@ export const ES_DOCS = {
         "title": "¿Cuál es la base para las definiciones?",
         "blocks": [
           {
-            "p": "La Corte Suprema establece la tabla oficial de hanja de nombres, que se revisa según sea necesario, y se añaden caracteres."
+            "p": "La Corte Suprema establece la tabla oficial de nombre-hanja, que se revisa según sea necesario, y se añaden caracteres."
           }
         ]
       },
@@ -721,7 +754,7 @@ export const ES_DOCS = {
         "title": "Materiales utilizados en esta pantalla",
         "blocks": [
           {
-            "p": "{publisher} datos oficiales de hanja de nombres · A partir de {effectiveDate}"
+            "p": "{publisher} datos oficiales de nombre-hanja · A partir de {effectiveDate}"
           },
           {
             "p": "{characterTotal} caracteres cubren {syllableCount} sílabas en Hangul. El valor hash del archivo original también se almacena, por lo que si la tabla cambia, se puede verificar cuándo y qué ha cambiado."
@@ -729,13 +762,13 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "El número de caracteres anunciados por la Corte Suprema difiere de lo que mostramos",
+        "title": "El número de caracteres anunciado por la Corte Suprema difiere de lo que mostramos",
         "blocks": [
           {
-            "p": "**El hanja oficial de nombres anunciado por la Corte Suprema es {announcedTotal} caracteres, mientras que lo que presentamos como candidatos es {characterTotal} caracteres.** No hay razón para ocultar esta diferencia, así que lo declaramos claramente."
+            "p": "**El nombre-hanja oficial anunciado por la Corte Suprema es de {announcedTotal} caracteres, mientras que lo que presentamos como candidatos es de {characterTotal} caracteres.** No hay razón para ocultar esta diferencia, así que lo decimos claramente."
           },
           {
-            "p": "Si revisas los datos de consulta de la Corte Suprema, contiene {listedTotal} caracteres. Entre ellos, **{excludedNoStandardCode} caracteres** son **caracteres que no tienen un lugar en el código de caracteres común global (Unicode).** El sistema de la Corte Suprema trata tales caracteres con números que solo funcionan dentro de su propio sistema, y se muestran como **imágenes** en lugar de caracteres en la pantalla."
+            "p": "Si revisas los datos de consulta de la Corte Suprema, contiene {listedTotal} caracteres. Entre ellos, **{excludedNoStandardCode} caracteres** son **caracteres que no tienen un lugar en el código de caracteres común global (Unicode).** El sistema de la Corte Suprema trata esos caracteres con números que solo funcionan dentro de su propio sistema, y se muestran como **imágenes** en lugar de caracteres en la pantalla."
           }
         ]
       },
@@ -744,7 +777,7 @@ export const ES_DOCS = {
         "title": "Agregar más fuentes no resolverá el problema",
         "blocks": [
           {
-            "p": "Para que un carácter aparezca en la pantalla, debe tener un **número acordado por el mundo**, y la fuente contiene la imagen correspondiente a ese número. Los caracteres que no tienen un número no pueden incluirse en ninguna fuente. No importa cuántas fuentes agreguemos, estos caracteres aparecerán como cuadros vacíos."
+            "p": "Para que un carácter aparezca en la pantalla, debe tener un **número acordado por el mundo**, y la fuente contiene la imagen correspondiente a ese número. Los caracteres que no tienen un número no pueden ser incluidos en ninguna fuente. No importa cuántas fuentes agreguemos, estos caracteres aparecerán como cuadros vacíos."
           }
         ]
       },
@@ -752,24 +785,24 @@ export const ES_DOCS = {
         "title": "Por lo tanto, han sido eliminados de los candidatos",
         "blocks": [
           {
-            "p": "**Llenar la lista con caracteres que no se pueden mostrar no es útil.** La mayoría de los significados de estos caracteres también están vacíos en nuestros datos, lo que no se alinea con el método del servicio de elegir nombres basado en significados."
+            "p": "**Llenar la lista con caracteres que no se pueden mostrar no es útil.** La mayoría de los significados de estos caracteres también están vacíos en nuestros datos, lo que no se alinea con el método del servicio para elegir nombres basado en significados."
           },
           {
             "p": "**La razón más importante radica en la persona que usará el nombre.** Un nombre es un valor que se ingresará en varios lugares a lo largo de la vida de una persona. Los caracteres sin códigos de caracteres pueden no poder ser ingresados o impresos en sistemas de bancos, escuelas, hospitales o pasaportes, incluso después de completar el registro de nacimiento. Por lo tanto, no podemos recomendar tales caracteres."
           },
           {
-            "p": "Sin embargo, **no determinamos si esos caracteres pueden ser utilizados o no.** Dado que son caracteres en la tabla del Tribunal Supremo, el registro en sí puede ser posible. Si realmente desea usar ese carácter, consulte directamente en el sistema electrónico de registro de relaciones familiares del Tribunal Supremo, y **pregunte a la autoridad correspondiente sobre la usabilidad real.**"
+            "p": "Sin embargo, **no determinamos si esos caracteres pueden ser utilizados o no.** Dado que son caracteres en la tabla de la Corte Suprema, el registro en sí puede ser posible. Si realmente deseas usar ese carácter, consulta directamente en el sistema electrónico de registro de relaciones familiares de la Corte Suprema, y **consulta con la autoridad correspondiente sobre la usabilidad real.**"
           }
         ]
       },
       {
-        "title": "Si desea usar hanja que no está en la tabla",
+        "title": "Si deseas usar hanja que no está en la tabla",
         "blocks": [
           {
-            "p": "No puede usarlos. Para ser precisos, esos caracteres no se registrarán como hanja para el nombre, y el nombre solo se registrará en Hangul. Si desea usar hanja junto con, debe elegir de la tabla."
+            "p": "No puedes usarlos. Para ser precisos, esos caracteres no se registrarán como hanja para el nombre, y el nombre solo se registrará en Hangul. Si deseas usar hanja junto a ello, debes elegir de la tabla."
           },
           {
-            "p": "Por lo tanto, no presentamos caracteres que no están en la tabla como candidatos. Todos los hanja visibles en la pantalla son caracteres que realmente se pueden usar para el registro de nacimiento. La lista completa está disponible en la [Lista Completa de Hanja de Nombres Oficiales](/guide/hanja)."
+            "p": "Por lo tanto, no presentamos caracteres que no están en la tabla como candidatos. Todos los hanja visibles en la pantalla son caracteres que realmente se pueden usar para el registro de nacimiento. La lista completa está disponible en la [Lista Completa de Nombre-Hanja Oficial](/guide/hanja)."
           }
         ]
       }
@@ -777,8 +810,8 @@ export const ES_DOCS = {
   },
   "guide/hanja": {
     "eyebrow": "Lista",
-    "title": "Lista Completa de Hanja de Nombres Oficiales",
-    "summary": "Hemos organizado los hanja que se pueden usar para el registro de nacimiento por consonante inicial. Puede ver la lectura designada y el significado de cada carácter cuando se usa en nombres.",
+    "title": "Lista Completa de Nombre Hanja Oficial",
+    "summary": "Hemos organizado los hanja que se pueden usar para el registro de nacimiento por consonante inicial. Puedes ver la lectura designada y el significado de cada carácter cuando se usa en nombres.",
     "backLabel": "Guía de Uso",
     "sections": [
       {
@@ -786,7 +819,7 @@ export const ES_DOCS = {
         "slot": "chosung",
         "blocks": [
           {
-            "p": "Esto incluye todos los {characterTotal} caracteres de la tabla oficial de hanja del Tribunal Supremo. Cada carácter incluye la **lectura cuando se usa en nombres** y su significado. Los caracteres no incluidos en la tabla no pueden registrarse como hanja de nombre, por lo que debe elegir de los caracteres listados aquí."
+            "p": "Esto incluye todos los {characterTotal} caracteres de la tabla oficial de nombre-hanja de la Corte Suprema. Cada carácter incluye la **lectura cuando se usa en nombres** y su significado. Los caracteres no incluidos en la tabla no pueden ser registrados como hanja de nombre, por lo que debes elegir entre los caracteres listados aquí."
           },
           {
             "p": "Los dos números en el botón de abajo representan el **número de caracteres con esa consonante inicial** y el **número de sílabas cubiertas**."
@@ -795,13 +828,13 @@ export const ES_DOCS = {
       },
       {
         "kind": "note",
-        "title": "Si el carácter que está buscando no está en la lista",
+        "title": "Si el carácter que buscas no está en la lista",
         "blocks": [
           {
-            "p": "El número de caracteres anunciados por el Tribunal Supremo es {announcedTotal}, pero esta lista contiene {characterTotal} caracteres. **La diferencia de {excludedNoStandardCode} caracteres son aquellos que no se pueden mostrar en ninguna fuente debido a la falta de un lugar en el código de caracteres universal.** El sistema del Tribunal Supremo muestra esos caracteres como imágenes."
+            "p": "El número de caracteres anunciado por la Corte Suprema es {announcedTotal}, pero esta lista contiene {characterTotal} caracteres. **La diferencia de {excludedNoStandardCode} caracteres son aquellos que no se pueden mostrar en ninguna fuente debido a la falta de un lugar en el código de caracteres universal.** El sistema de la Corte Suprema muestra esos caracteres como imágenes."
           },
           {
-            "p": "Hemos detallado las razones de esto y por qué no recomendamos esos caracteres en [¿Qué es el Hanja de Nombre Oficial?](/guide/hanja-basics). Debe consultar con la autoridad correspondiente sobre la usabilidad real de esos caracteres."
+            "p": "Hemos detallado las razones de esto y por qué no recomendamos esos caracteres en [¿Qué es el Hanja de Nombre Oficial?](/guide/hanja-basics). Debes consultar con la autoridad correspondiente sobre la usabilidad real de esos caracteres."
           }
         ]
       },
@@ -834,30 +867,30 @@ export const ES_NOTICES = {
     "policy": "Política",
     "support": "Soporte"
   },
-  "intro": "Los cambios en sus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Las mejoras internas no se enumeran: lo que aparece aquí es lo que necesita saber.",
+  "intro": "Los cambios en tus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Las mejoras internas no se enumeran: lo que aparece aquí es lo que necesitas saber.",
   "empty": {
-    "title": "No hay avisos aún",
+    "title": "Aún no hay avisos",
     "body": "Cuando algo cambie, aparecerá aquí."
   },
   "effective": "En vigor a partir de {date}",
   "pager": {
     "label": "Páginas de aviso",
-    "newer": "← Más Nuevos",
-    "older": "Más Antiguos →"
+    "newer": "← Más nuevo",
+    "older": "Más antiguo →"
   },
   "items": {
     "2026-08-02-contact": {
       "title": "Las páginas de Contacto y Acerca de ya están abiertas",
       "body": [
-        "Preguntas, reembolsos, solicitudes de privacidad e informes de errores ahora tienen un solo lugar al que ir. La página de contacto en el pie de página enumera nuestro correo electrónico y detalles de la empresa.",
-        "Lo que nuestras respuestas se basan, y lo que deliberadamente no hacemos, está escrito en la página de acerca de."
+        "Preguntas, reembolsos, solicitudes de privacidad e informes de errores ahora tienen un lugar al que ir. La página de contacto en el pie de página enumera nuestro correo electrónico y detalles de la empresa.",
+        "Lo que nuestras respuestas se basan, y lo que deliberadamente no hacemos, está escrito en la página acerca de."
       ]
     },
     "2026-08-01-pdf-language": {
       "title": "Los informes PDF se emiten en inglés para árabe y jemer",
       "body": [
-        "Si está utilizando el servicio en árabe o jemer, el PDF que compra se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos guiones.",
-        "La pantalla permanece en su idioma, y su nombre se imprime en su propio guion dentro del documento.",
+        "Si estás utilizando el servicio en árabe o jemer, el PDF que compras se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos guiones.",
+        "La pantalla permanece en tu idioma, y tu nombre se imprime en tu propio guion dentro del documento.",
         "La misma nota aparece antes del pago. Cuando la herramienta soporte estos guiones, lo diremos aquí."
       ]
     },
@@ -865,7 +898,7 @@ export const ES_NOTICES = {
       "title": "Los pagos aún no están abiertos",
       "body": [
         "Crear un nombre y leer el resultado es gratis hoy, y no se necesita cuenta.",
-        "Los artículos de pago aún no están a la venta. Las cantidades mostradas en la página de precios son las que se aplicarán una vez que se abran las ventas."
+        "Los artículos de pago aún no están a la venta. Los montos mostrados en la página de precios son los que se aplicarán una vez que se abran las ventas."
       ]
     }
   }

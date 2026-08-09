@@ -120,6 +120,8 @@ const GLOSSARY_ROMAN: Record<string, string> = {
   한자: "hanja",
   한글: "Hangul",
   사주: "saju",
+  오행: "the five elements",
+  행: "elements",
   // 아래 셋은 로마자 표기가 아니라 **영어 낱말**이다. 그래도 넣는 이유는 같다 — 이 말들이
   // 남으면 그 문단이 통째로 영어로 되돌아가는데, 낱말 하나가 영어인 편이 문단 전체보다 낫다.
   // 프롬프트의 GLOSSARY가 이미 같은 뜻을 지시하므로 지어내는 것이 아니다.
