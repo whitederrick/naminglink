@@ -211,3 +211,49 @@ node ../../scripts/verify-doc-locales.mjs
 - **`verify-self-ads`가 사주링크에만 있다.** 셀프 광고를 그리는 앱이 셋인데 하나만 센다.
   그래서 위 결함이 안 잡혔다
 - `LegalModal` 뒤로가기 수정은 네 앱 배포됐으나 **실제 휴대폰에서 밟아 본 적은 없다**
+
+---
+
+## 7. 형제 앱에 옮기는 절차 (2026-08-09 · 인연링크에서 실측)
+
+앱당 이 순서다. **①~③은 한 번, ④~⑦은 문서마다 되풀이한다.**
+
+    ① 틀 복사    cp naminglink 의 doc-content/types.ts · components/DocBody.tsx ·
+                 scripts/translate-doc-content.ts · scripts/tsconfig.sweep.json
+    ② 적응       DocFigure 이름과 DocBody 의 그림 표를 **그 앱 도형으로** 바꾼다
+                 KEEP_VERBATIM 을 그 앱 상표로 · 프롬프트의 서비스 설명 한 줄
+    ③ 확인       번역기 한 로케일만 돌려 본다(ja). 여기서 막히는 것이 대부분 배선이다
+    ④ ko 이관    page.tsx 의 JSX 산문을 ko.ts 로. **손이 가장 많이 가는 자리다**
+    ⑤ en         사람이 쓴 영어가 있으면 그대로 옮기고, 없으면 `--fill-en`
+    ⑥ 번역       **7갈래 병렬**. 21개를 3개씩 나누면 40~60분이 10~15분이 된다
+    ⑦ 배선       page.tsx 를 DocBody 로 · index.ts 등록부 · 검증
+
+### 앱마다 다른 자리 셋 — ②에서 반드시 볼 것
+
+| | naminglink | inyeonlink |
+|---|---|---|
+| 도형 | `hanja-match-flow` · `five-elements` | `branch-wheel` · `four-pillars` |
+| `localeLabels` 출처 | `src/lib/services` | **`src/lib/i18n`** |
+| 상표 | `Naming-Link` | `Inyeon-Link` |
+
+`OPENAI_API_KEY` 는 **naminglink 의 `.env.local` 에만** 있다. 비밀을 네 벌로 복사하지 않으려고
+`loadKey()` 가 자기 앱 다음으로 `../naminglink/.env.local` 을 본다 — 열쇠를 바꿀 때 고칠 자리가
+하나로 남는다.
+
+### 그림 안 글자를 잊지 말 것
+
+naminglink 에서 본문을 다 옮기고도 **그림 속 글자 24개 조각이 한국어로 남아** 있었다. 배포
+뒤 실측에서야 나왔다. 형제 앱도 같다 — 인연링크 `FourPillarsDiagram` 은 아예
+`language: "ko" | "en"` 을 받는다. **`figure.labels` 로 빼고 SVG `<title>`(화면 낭독기가 읽는
+글)도 함께 옮긴다.**
+
+### 남은 분량
+
+| 앱 | 안내 | 소개·공지·문의 | 상태 |
+|---|---|---|---|
+| inyeonlink | 12편 | 3편 | **틀 완료 · `about` ko/en 이관 · 21로케일 번역 중** |
+| sajulink | 13편 | 3편 | 미착수 |
+| dreamslink | 15편 | 3편 | 미착수 (`dream/symbols` 는 자료라 산문만) |
+
+**병목은 API 가 아니라 ④(ko 이관)다.** 번역은 병렬로 앱당 10~15분이면 끝나지만, JSX 산문을
+자료로 옮기는 것은 문서마다 손이 간다.
