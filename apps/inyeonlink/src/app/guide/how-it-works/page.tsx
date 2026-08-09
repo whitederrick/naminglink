@@ -21,6 +21,26 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 
 const percent = (value: number) => `${Math.round(value * 100)}%`;
 
+/**
+ * 그림 안의 글자. **이 문서를 `doc-content`로 옮기면 이 상수는 사라진다** — 자료의
+ * `figure.labels`가 대신 넘긴다. 예전에는 이 두 벌(ko/en)이 `GuideFigure.tsx` 안에 있었는데,
+ * 그러면 **한국어와 영어 말고는 그림이 없다**(`docs/I18N_DOC_CONTENT.md`).
+ */
+const PILLAR_LABELS = {
+  year: "Year",
+  yearNote: "roots · zodiac animal",
+  month: "Month",
+  monthNote: "season · strength",
+  day: "Day",
+  dayNote: "you · your partner seat",
+  hour: "Hour",
+  hourNote: "later years · how it is used",
+  stem: "Stem",
+  branch: "Branch",
+  stemNote: "day stem = you",
+  branchNote: "day branch = partner seat",
+};
+
 export default async function Page(props: GuidePageProps) {
   const { locale, entry, hubHref } = await guideContext(SLUG, props);
 
@@ -56,7 +76,7 @@ export default async function Page(props: GuidePageProps) {
 
       <GuideSection title="The four Saju factors">
         <GuideFigure caption="A Saju chart is the year, month, day and hour of birth, each written as two characters — a heavenly stem and an earthly branch. The day stem and day branch, highlighted here, are the two seats this service reads most.">
-          <FourPillarsDiagram language="en" />
+          <FourPillarsDiagram labels={PILLAR_LABELS} />
         </GuideFigure>
         <GuideTable
           head={["Factor", "What it asks", "Weight"]}

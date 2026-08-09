@@ -17,6 +17,30 @@ export function generateMetadata(props: GuidePageProps): Promise<Metadata> {
 }
 
 /**
+ * 그림 안의 글자. **이 문서를 `doc-content`로 옮기면 이 상수는 사라진다** — 자료의
+ * `figure.labels`가 대신 넘기고, 그래야 23개 언어에서 그림 안도 그 언어로 나온다. 지금은 이
+ * 문서가 아직 한국어 JSX라 여기 둔다(`docs/I18N_DOC_CONTENT.md` 이관 절차 ④).
+ */
+const WHEEL_LABELS = {
+  alt: "십이지 열두 글자를 원으로 놓고 육합·충·원진을 선으로 이은 그림",
+  yukhap: "육합",
+  chung: "충",
+  wonjin: "원진",
+  rat: "쥐",
+  ox: "소",
+  tiger: "범",
+  rabbit: "토끼",
+  dragon: "용",
+  snake: "뱀",
+  horse: "말",
+  goat: "양",
+  monkey: "원숭이",
+  rooster: "닭",
+  dog: "개",
+  pig: "돼지",
+};
+
+/**
  * 관계별 설명. **점수는 여기에 적지 않는다** — `BRANCH_RELATION_SCORE`에서 읽는다.
  * 표를 손으로 옮겨 적으면 규칙을 고쳤을 때 글만 옛날 값으로 남는다.
  */
@@ -83,8 +107,8 @@ export default async function Page(props: GuidePageProps) {
           쥐·소·범·토끼·용·뱀·말·양·원숭이·닭·개·돼지 — 가 이 열두 글자에 하나씩 붙습니다.
         </p>
         <GuideFigure caption="열두 글자를 원으로 놓으면 관계가 한눈에 보입니다. 충(冲)은 언제나 마주 보는 자리이고, 육합과 원진은 그보다 가까운 짝입니다. 이 선들은 글에 적어 둔 것이 아니라 계산 규칙에서 그대로 뽑았습니다.">
-          <BranchWheel />
-          <BranchWheelLegend />
+          <BranchWheel labels={WHEEL_LABELS} />
+          <BranchWheelLegend labels={WHEEL_LABELS} />
         </GuideFigure>
         <p>
           사주에서는 네 기둥마다 지지가 하나씩 있습니다. 인연링크는 그중 <b>일지</b>(배우자궁)와{" "}

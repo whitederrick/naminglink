@@ -62,7 +62,19 @@ for (const app of APP_KEYS) {
     continue;
   }
 
-  const index = readFileSync(path.join(dir, "index.ts"), "utf8");
+  // 등록부가 없는 상태는 **이관하다 만 것**이다 — 자료 파일은 다 있는데 화면이 아무것도 읽지
+  // 않는다. 실제로 2026-08-09 인연링크가 그랬다(23개 파일 · 등록부 없음 · page.tsx는 옛 JSX).
+  // 예전에는 여기서 검사기가 크래시했고, **크래시는 판정이 아니다** — 미착수와 구분되지 않아
+  // 「아직 안 한 앱」으로 읽힐 수 있다. 자리를 정확히 말하고 실패로 센다.
+  const indexFile = path.join(dir, "index.ts");
+  if (!existsSync(indexFile)) {
+    console.log(`■ ${app} — ✗ 이관 중. 로케일 자료는 있는데 **등록부(index.ts)가 없다**`);
+    console.log(`  화면은 아직 아무것도 읽지 않는다. page.tsx 배선까지 해야 끝이다\n`);
+    failures += 1;
+    continue;
+  }
+
+  const index = readFileSync(indexFile, "utf8");
   const present = new Set(
     readdirSync(dir)
       .filter((f) => /^[a-z-]+\.ts$/.test(f) && !["index.ts", "types.ts"].includes(f))
