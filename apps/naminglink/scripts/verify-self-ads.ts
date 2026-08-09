@@ -4,10 +4,10 @@
 // `public/`에 있다. 셋이 따로 놀면 화면에서만 드러난다 — 로고가 빠진 칸, 번역이 빠진 이름,
 // 그리고 가장 나쁜 것으로 **눌리지도 않는 링크**.
 //
-// 실행: apps/sajulink 에서
+// 실행: apps/naminglink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-self-ads.ts
 
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import {
@@ -17,10 +17,9 @@ import {
   type SelfAdKey,
 } from "@naminglink/core/self-ads";
 
-import { getDictionary, supportedLocales } from "../src/lib/i18n";
 
 /** 이 앱이 자기 자신으로 세는 키. 복제 앱은 여기와 `SelfAdCard`를 함께 바꾼다. */
-const SELF: SelfAdKey = "sajulink";
+const SELF: SelfAdKey = "naminglink";
 const LOGO_DIR = join(process.cwd(), "public", "images", "self-ads");
 
 let failures = 0;
@@ -81,45 +80,40 @@ for (const service of candidates) {
   );
 }
 
-console.log("\n== 23로케일 문구");
-// 사전 타입이 `Record<SelfAdKey, …>`라 키가 빠지면 컴파일에서 걸린다. 여기서 보는 것은
-// **빈 문자열**이다 — 타입은 통과하지만 화면에는 아무것도 안 나온다.
-let emptyStrings = 0;
-for (const locale of supportedLocales) {
-  const copy = getDictionary(locale).selfAds;
-  const blanks: string[] = [];
-  if (!copy.label.trim()) blanks.push("label");
-  if (!copy.comingSoon.trim()) blanks.push("comingSoon");
-  for (const service of SELF_AD_SERVICES) {
-    if (!copy.purposes[service.key]?.trim()) blanks.push(`purposes.${service.key}`);
-  }
-  if (blanks.length) {
-    emptyStrings += blanks.length;
-    check(locale, false, blanks.join(", "));
-  }
+/**
+ * **이 앱은 문구가 사전이 아니라 컴포넌트에 있다.**
+ *
+ * 셀프 광고가 뜨는 세 자리(`NamingForm`·`CandidateUnlockPanel`·`HangulPronunciationResultPage`)가
+ * 한국어 흐름이 중심이라 한국어로만 쓴다(사용자 방침). 23개 언어를 쓰는 형제 앱은 각자
+ * 사전에서 같은 자리를 채우므로 검사도 보는 곳이 다르다 — **구조는 같고 문구의 출처만 다르다.**
+ *
+ * 그래서 여기서는 `SelfAdCard.tsx`의 표를 읽어 **보여 줄 서비스마다 소개가 있는지**만 본다.
+ * 빠지면 화면에 이름만 뜨고 그 아래가 빈다.
+ */
+console.log("\n== 소개 문구");
+const cardSource = readFileSync(
+  join(process.cwd(), "src", "components", "SelfAdCard.tsx"),
+  "utf8",
+);
+for (const service of candidates) {
+  // **detail을 비워 둔다.** 이 검사기는 통과에도 detail을 찍으므로, 여기에 실패 사유를 적으면
+  // 「✓ placelink 소개 — 표에 없다」가 되어 정반대로 읽힌다. 자리는 `SelfAdCard`의 `PURPOSE`다.
+  check(
+    `${service.key} 소개 (SelfAdCard의 PURPOSE)`,
+    new RegExp(String.raw`\b${service.key}:\s*"[^"]+"`).test(cardSource),
+  );
 }
-check(`빈 문구 없음 (${supportedLocales.length}개 로케일)`, emptyStrings === 0);
 
-// **한국어가 남의 언어에 섞이지 않았는가.** 처음 돌렸을 때 태국어 소개가 "อ่านจาก 사주 และราศี"로
-// 나왔다 — 번역기가 사주 용어를 옮기지 못하고 원문 낱말을 그대로 두었다. 로케일 하나를 눈으로
-// 봐서는 안 걸리는 종류다.
-const hangul = /[가-힣]/;
-let leaked = 0;
-for (const locale of supportedLocales) {
-  if (locale === "ko") continue;
-  const copy = getDictionary(locale).selfAds;
-  const texts = [copy.label, copy.comingSoon, ...Object.values(copy.purposes)];
-  const found = texts.filter((text) => hangul.test(text));
-  if (found.length) {
-    leaked += found.length;
-    check(locale, false, found.join(" / "));
-  }
-}
-check("한국어가 섞여 있지 않다", leaked === 0);
-// 대조군 — 검사가 한글을 실제로 알아보는지. `ko`는 위에서 건너뛰므로 여기서 확인한다.
+/**
+ * 대조군 — 소개 문구 검사가 살아 있는가.
+ *
+ * 있는 키는 찾고 **없는 키는 못 찾아야** 한다. 정규식이 망가져 늘 참을 내면 문구가 통째로
+ * 빠져도 「모두 통과」가 찍힌다.
+ */
 check(
-  "대조군 — ko에서는 한글이 잡힌다",
-  hangul.test(getDictionary("ko").selfAds.label),
+  "대조군 — 있는 소개는 찾고 없는 것은 못 찾는다",
+  new RegExp(String.raw`\binyeonlink:\s*"[^"]+"`).test(cardSource) &&
+    !new RegExp(String.raw`\bnosuchservice:\s*"[^"]+"`).test(cardSource),
 );
 
 console.log("\n== 골고루 돌아가는가");

@@ -10,6 +10,8 @@
 // 언어를 고치든 diff가 통째로 흔들린다. 여기서 하는 일은 등록뿐이고, 문구는 각 파일에 있다.
 // (각 파일은 `import type { Dictionary }`로 이 파일을 되참조하지만 **타입 전용**이라 런타임
 // 순환이 생기지 않는다.)
+import type { SelfAdKey } from "@naminglink/core/self-ads";
+
 import { ar } from "@/lib/i18n-locales/ar";
 import { de } from "@/lib/i18n-locales/de";
 import { es } from "@/lib/i18n-locales/es";
@@ -341,6 +343,26 @@ export type Dictionary = {
    * ("추천", "관련 글" 같은 표현은 정책 위반이다).
    */
   ads: { label: string };
+  /**
+   * 형제 서비스 안내(셀프 광고)의 문구.
+   *
+   * **주소와 살아 있는지 여부는 `@naminglink/core/self-ads`가 갖는다.** 앱마다 다를 이유가
+   * 없어 한 곳에 두었고, 여기 있는 것은 그 서비스를 **이 언어로 어떻게 부르는가**뿐이다.
+   *
+   * `inyeonlink`도 목록에 있다. 이 앱에서는 자기 자신이라 빼고 그리지만(`selfAdsExcluding`),
+   * 같은 사전을 형제 앱이 가져다 쓸 수 있으므로 문구는 다섯 벌 다 갖는다.
+   */
+  selfAds: {
+    label: string;
+    /** 아직 열지 않은 서비스에 붙인다. 링크는 걸지 않는다. */
+    comingSoon: string;
+    /**
+     * 서비스마다 한 줄 소개. **이름은 여기 없다** — 상표는 번역하는 것이 아니라 고정값이라
+     * 명단(`SELF_AD_SERVICES.name`)이 갖는다. 사전에 두었더니 중국어에서 `Naming-Link`가
+     * `命名链接`가 됐다.
+     */
+    purposes: Record<SelfAdKey, string>;
+  };
   analyzing: {
     /** 계산이 도는 잠깐 동안(0.1초 남짓) 보이는 문구. */
     title: string;
@@ -800,6 +822,17 @@ const ko: Dictionary = {
       "전통 명리 관점의 참고 자료이며, 과학적 예측이나 관계에 대한 단정이 아닙니다.",
   },
   ads: { label: "광고" },
+  selfAds: {
+    label: "관련 서비스",
+    comingSoon: "준비 중",
+    purposes: {
+      naminglink: "뜻과 획수로 짓는 한글·한자 이름",
+      inyeonlink: "사주와 띠로 보는 두 사람의 궁합",
+      sajulink: "원국과 오늘의 운세로 읽는 나의 사주",
+      dreamslink: "상징 사전으로 풀어 보는 꿈 해몽",
+      placelink: "한국의 데이트 장소를 나누고 추천하는 곳",
+    },
+  },
   analyzing: {
     title: "두 사람의 사주를 맞춰 보고 있습니다",
     // 점을 치는 말이 아니라 관계를 읽는 태도에 관한 문장으로 채운다. 결과를 기다리는 동안
@@ -1422,6 +1455,17 @@ const en: Dictionary = {
       "This is a traditional Saju reading offered for reference. It is not a scientific prediction or a verdict on any relationship.",
   },
   ads: { label: "Advertisement" },
+  selfAds: {
+    label: "Related services",
+    comingSoon: "coming soon",
+    purposes: {
+      naminglink: "Korean and hanja names chosen by meaning and stroke count",
+      inyeonlink: "compatibility read from two people's saju and zodiac signs",
+      sajulink: "your own saju, and how today meets it",
+      dreamslink: "dream readings drawn from a dictionary of symbols",
+      placelink: "sharing and recommending date spots in Korea",
+    },
+  },
   analyzing: {
     title: "Reading both charts",
     quotes: [

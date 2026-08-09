@@ -344,6 +344,17 @@ export const id: Dictionary = {
       "Ini adalah pembacaan Saju tradisional yang disajikan sebagai referensi. Bukan prediksi ilmiah maupun kesimpulan pasti tentang suatu hubungan.",
   },
   ads: { label: "Iklan" },
+  selfAds: {
+    label: "Layanan terkait",
+    comingSoon: "Segera hadir",
+    purposes: {
+      naminglink: "Nama Korea dan hanja yang dipilih berdasarkan arti dan jumlah goresan",
+      inyeonlink: "Bagaimana dua orang cocok, dibaca dari empat pilar dan tanda zodiak mereka",
+      sajulink: "Empat pilar Anda sendiri, dan bagaimana hari ini bertemu dengan mereka",
+      dreamslink: "Pembacaan mimpi yang diambil dari kamus simbol",
+      placelink: "Tempat untuk berkencan di Korea, dibagikan dan direkomendasikan",
+    },
+  },
   analyzing: {
     title: "Sedang membaca kedua bagan",
     quotes: [

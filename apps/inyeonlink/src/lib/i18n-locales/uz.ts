@@ -345,6 +345,17 @@ export const uz: Dictionary = {
       "Bu an'anaviy Saju talqini bo'lib, faqat ma'lumot uchun beriladi. Bu ilmiy bashorat ham, munosabat haqidagi qat'iy hukm ham emas.",
   },
   ads: { label: "Reklama" },
+  selfAds: {
+    label: "Bog'liq xizmatlar",
+    comingSoon: "Tez orada",
+    purposes: {
+      naminglink: "Ma'no va chiziq soni bo'yicha tanlangan koreyscha va hanja nomlari",
+      inyeonlink: "Ikkita odamning to'rt ustuni va zodiak belgilari orqali qanday mos kelishini o'qish",
+      sajulink: "Sizning o'z to'rt ustuningiz va bugun ularni qanday kutib olishi",
+      dreamslink: "Ramzlar lug'atidan olingan tushlarni o'qish",
+      placelink: "Koreyada uchrashuv uchun borish kerak bo'lgan joylar, baham ko'rilgan va tavsiya etilgan",
+    },
+  },
   analyzing: {
     title: "Ikkala jadval solishtirilmoqda",
     quotes: [

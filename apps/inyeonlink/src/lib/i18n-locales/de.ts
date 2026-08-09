@@ -344,6 +344,17 @@ export const de: Dictionary = {
       "Dies ist eine traditionelle Saju-Deutung zur Orientierung. Sie ist keine wissenschaftliche Vorhersage und kein Urteil über eine Beziehung.",
   },
   ads: { label: "Werbung" },
+  selfAds: {
+    label: "Verwandte Dienste",
+    comingSoon: "Demnächst verfügbar",
+    purposes: {
+      naminglink: "Koreanische und Hanja-Namen, gewählt nach Bedeutung und Strichzahl",
+      inyeonlink: "Wie zwei Personen zusammenpassen, gelesen aus ihren vier Säulen und Tierkreiszeichen",
+      sajulink: "Deine eigenen vier Säulen und wie sie heute aufeinander treffen",
+      dreamslink: "Traumdeutungen aus einem Symbolwörterbuch",
+      placelink: "Orte für ein Date in Korea, geteilt und empfohlen",
+    },
+  },
   analyzing: {
     title: "Beide Saju-Tafeln werden gelesen",
     quotes: [

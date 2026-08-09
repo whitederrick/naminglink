@@ -4,7 +4,7 @@
 // `public/`에 있다. 셋이 따로 놀면 화면에서만 드러난다 — 로고가 빠진 칸, 번역이 빠진 이름,
 // 그리고 가장 나쁜 것으로 **눌리지도 않는 링크**.
 //
-// 실행: apps/sajulink 에서
+// 실행: apps/inyeonlink 에서
 //   ../naminglink/node_modules/.bin/tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-self-ads.ts
 
 import { existsSync } from "node:fs";
@@ -20,7 +20,7 @@ import {
 import { getDictionary, supportedLocales } from "../src/lib/i18n";
 
 /** 이 앱이 자기 자신으로 세는 키. 복제 앱은 여기와 `SelfAdCard`를 함께 바꾼다. */
-const SELF: SelfAdKey = "sajulink";
+const SELF: SelfAdKey = "inyeonlink";
 const LOGO_DIR = join(process.cwd(), "public", "images", "self-ads");
 
 let failures = 0;

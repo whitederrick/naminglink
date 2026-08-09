@@ -342,6 +342,17 @@ export const zh: Dictionary = {
       "这是传统命理视角的参考资料，并非科学预测，也不是对某段关系的定论。",
   },
   ads: { label: "广告" },
+  selfAds: {
+    label: "相关服务",
+    comingSoon: "即将推出",
+    purposes: {
+      naminglink: "根据意义和笔画选择的韩文和汉字名字",
+      inyeonlink: "从四柱和生肖看两个人的适合度",
+      sajulink: "你的四柱，以及今天如何与之相遇",
+      dreamslink: "从符号字典中解读的梦境",
+      placelink: "在韩国约会的地方，分享和推荐",
+    },
+  },
   analyzing: {
     title: "正在对照两人的八字",
     quotes: [

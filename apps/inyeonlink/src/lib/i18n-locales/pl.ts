@@ -344,6 +344,17 @@ export const pl: Dictionary = {
       "To tradycyjna interpretacja Saju podana dla orientacji. Nie jest naukową prognozą ani wyrokiem o jakimkolwiek związku.",
   },
   ads: { label: "Reklama" },
+  selfAds: {
+    label: "Usługi pokrewne",
+    comingSoon: "Wkrótce",
+    purposes: {
+      naminglink: "Koreańskie i hanja imiona wybrane według znaczenia i liczby kresek",
+      inyeonlink: "Jak dwie osoby pasują do siebie, czytane z ich czterech filarów i znaków zodiaku",
+      sajulink: "Twoje własne cztery filary i jak dzisiaj się z nimi łączy",
+      dreamslink: "Interpretacje snów oparte na słowniku symboli",
+      placelink: "Miejsca na randkę w Korei, dzielone i polecane",
+    },
+  },
   analyzing: {
     title: "Czytamy oba układy",
     quotes: [

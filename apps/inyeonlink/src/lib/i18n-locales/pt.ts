@@ -343,6 +343,17 @@ export const pt: Dictionary = {
       "Esta é uma leitura tradicional de Saju, oferecida como referência. Não é uma previsão científica nem um veredito sobre qualquer relação.",
   },
   ads: { label: "Publicidade" },
+  selfAds: {
+    label: "Serviços relacionados",
+    comingSoon: "Em breve",
+    purposes: {
+      naminglink: "Nomes coreanos e hanja escolhidos por significado e contagem de traços",
+      inyeonlink: "Como duas pessoas se encaixam, lidas a partir de seus quatro pilares e signos do zodíaco",
+      sajulink: "Seus próprios quatro pilares e como hoje se relaciona com eles",
+      dreamslink: "Interpretações de sonhos extraídas de um dicionário de símbolos",
+      placelink: "Lugares para ir em um encontro na Coreia, compartilhados e recomendados",
+    },
+  },
   analyzing: {
     title: "Lendo os dois mapas",
     quotes: [
