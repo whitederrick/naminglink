@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Phân tích cơ bản (Miễn phí)",
           paragraphs: [
-            "Phân tích cơ bản của bốn dịch vụ bao gồm: Khớp nghĩa Hán tự, Chuyển đổi tên toàn cầu, Chuyển đổi tên Hàn Quốc, và Ghi âm phát âm Hàn Quốc được cung cấp miễn phí cho người không phải thành viên, có thể áp dụng giới hạn sử dụng hàng ngày.",
+            "Phân tích cơ bản của bốn dịch vụ bao gồm ghép nghĩa Hán tự, chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm Hàn Quốc được cung cấp miễn phí cho người không phải thành viên, và có thể áp dụng giới hạn sử dụng hàng ngày. Các sản phẩm trả phí dưới đây sẽ được mở theo thứ tự từ khi chuẩn bị xong phương thức thanh toán, và các sản phẩm chưa thể thanh toán sẽ không được hiển thị trên màn hình. Số tiền ghi trên là giá cơ bản tại thời điểm bắt đầu bán.",
           ],
         },
         {
           title: "Sử dụng theo hình thức thưởng quảng cáo",
           paragraphs: [
-            "Việc mở khóa ứng viên sau khi xem quảng cáo là lợi ích quảng cáo được cung cấp mà không cần thanh toán riêng. Mỗi lần quảng cáo sẽ mở ra một ứng viên tiếp theo. Tình trạng khả dụng có thể thay đổi tùy thuộc vào tồn kho quảng cáo, quốc gia, thiết bị hoặc chính sách của nhà cung cấp quảng cáo.",
+            "Việc mở khóa ứng viên sau khi xem quảng cáo là một lợi ích quảng cáo được cung cấp mà không cần thanh toán riêng. Mỗi lần xem quảng cáo sẽ mở khóa một ứng viên tiếp theo. Tính khả dụng có thể thay đổi tùy thuộc vào tồn kho quảng cáo, quốc gia, thiết bị hoặc chính sách của nhà cung cấp quảng cáo. Trong thời gian không phát quảng cáo, ứng viên đó sẽ được công khai miễn phí mà không cần qua cổng này.",
           ],
         },
         {

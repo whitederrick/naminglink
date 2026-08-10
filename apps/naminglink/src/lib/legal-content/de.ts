@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Basisanalyse (kostenlos)",
           paragraphs: [
-            "Die Basisanalyse der vier Dienstleistungen: Bedeutungszuordnung von Hanja, globale Namensumwandlung, koreanische Namensumwandlung und koreanische Lautschrift, wird nicht registrierten Benutzern kostenlos angeboten, wobei eine tägliche Nutzungseinschränkung gelten kann.",
+            "Die grundlegende Analyse der vier Dienstleistungen: Bedeutungszuordnung von Hanja, globale Namensumwandlung, koreanische Namensumwandlung und Transkription in Hangul wird Nicht-Mitgliedern kostenlos zur Verfügung gestellt, wobei eine tägliche Nutzungslimitierung gelten kann. Die unten aufgeführten kostenpflichtigen Produkte werden nacheinander freigeschaltet, sobald die Zahlungsmethoden bereit sind, und Produkte, die noch nicht bezahlt werden können, werden nicht auf dem Bildschirm angezeigt. Die angegebenen Beträge sind die Basispreise zum Zeitpunkt des Verkaufsstarts.",
           ],
         },
         {
           title: "Werbevergütungsnutzung",
           paragraphs: [
-            "Das Entsperren von Kandidaten nach dem Ansehen von Werbung ist ein werbebasiertes Angebot, das ohne zusätzliche Zahlung bereitgestellt wird. Bei jeder Werbung wird ein weiterer Kandidat freigeschaltet. Die Verfügbarkeit kann je nach Werbevorrat, Land, Gerät oder den Richtlinien des Werbeanbieters variieren.",
+            "Die Freischaltung von Kandidaten nach dem Ansehen von Werbung ist ein werbebasiertes Angebot, das ohne zusätzliche Zahlung bereitgestellt wird. Nach jeder Werbung wird ein weiterer Kandidat freigeschaltet. Die Verfügbarkeit kann je nach Werbevorrat, Land, Gerät oder den Richtlinien des Werbeanbieters variieren. In Zeiten, in denen keine Werbung geschaltet wird, wird der betreffende Kandidat kostenlos ohne diese Schwelle freigegeben.",
           ],
         },
         {

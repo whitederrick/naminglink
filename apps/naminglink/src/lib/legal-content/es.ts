@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Análisis Básico (Gratis)",
           paragraphs: [
-            "El análisis básico de cuatro servicios: coincidencia de significados de caracteres chinos, conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en hangul, se ofrece de forma gratuita a los no miembros, y puede estar sujeto a un límite de uso diario.",
+            "El análisis básico de los cuatro servicios de coincidencia de significados de caracteres chinos, conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en hangul se ofrece de forma gratuita a los no miembros, y puede aplicarse un límite de uso diario. Los productos de pago a continuación se activarán en orden a medida que se complete la preparación del método de pago, y los productos que aún no se pueden pagar no se mostrarán en la pantalla. La cantidad indicada es el precio de referencia al inicio de la venta.",
           ],
         },
         {
           title: "Uso con Recompensa Publicitaria",
           paragraphs: [
-            "Desbloquear candidatos después de ver anuncios es un beneficio publicitario que se ofrece sin pago adicional. Por cada anuncio visto, se desbloquea un candidato. La disponibilidad puede variar según el inventario de anuncios, el país, el dispositivo o las políticas del proveedor de anuncios.",
+            "El desbloqueo de candidatos después de ver anuncios es un beneficio publicitario que se ofrece sin pago adicional. Se desbloquea un candidato por cada anuncio visto. La disponibilidad puede variar según el inventario de anuncios, el país, el dispositivo o las políticas del proveedor de anuncios. Durante los períodos en los que no se publican anuncios, se hará disponible el candidato correspondiente de forma gratuita sin necesidad de este umbral.",
           ],
         },
         {

@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Podstawowa analiza (bezpłatnie)",
           paragraphs: [
-            "Podstawowa analiza czterech usług: dopasowanie znaczenia znaków, globalna konwersja nazw, konwersja nazw koreańskich oraz transkrypcja fonetyczna w Hangulu jest dostępna bezpłatnie dla użytkowników niezarejestrowanych, z możliwością nałożenia ograniczeń dotyczących dziennego zużycia.",
+            "Podstawowa analiza czterech usług: dopasowanie znaczenia znaków chińskich, globalna konwersja nazw, konwersja nazw koreańskich oraz transkrypcja fonetyczna w Hangul, jest dostępna bezpłatnie dla użytkowników niebędących członkami, z możliwością zastosowania ograniczeń dotyczących dziennego zużycia. Poniższe płatne produkty będą udostępniane w kolejności, gdy przygotowanie metody płatności zostanie zakończone, a produkty, które nie są jeszcze dostępne do zakupu, nie będą wyświetlane na ekranie. Podane kwoty są cenami referencyjnymi w momencie rozpoczęcia sprzedaży.",
           ],
         },
         {
           title: "Usługa z nagrodą za oglądanie reklam",
           paragraphs: [
-            "Odblokowanie kandydatów po obejrzeniu reklamy jest oferowane jako korzyść reklamowa bez dodatkowej opłaty. Po każdej reklamie odblokowywany jest jeden kolejny kandydat. Dostępność może się różnić w zależności od zapasów reklamowych, kraju, urządzenia lub polityki dostawcy reklam.",
+            "Odblokowanie kandydatów po obejrzeniu reklamy jest oferowane jako korzyść reklamowa bez dodatkowej opłaty. Po każdej reklamie odblokowywany jest jeden kandydat. Dostępność może się różnić w zależności od zapasów reklamowych, kraju, urządzenia lub polityki dostawcy reklam. W okresach, w których reklamy nie są wyświetlane, dany kandydat jest udostępniany bezpłatnie bez tego progu.",
           ],
         },
         {

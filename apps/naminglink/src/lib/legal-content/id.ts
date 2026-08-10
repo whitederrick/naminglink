@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Analisis Dasar (Gratis)",
           paragraphs: [
-            "Analisis dasar dari empat layanan yaitu pencocokan makna karakter Tionghoa, konversi nama global, konversi nama Korea, dan penulisan pengucapan dalam Hangul disediakan secara gratis untuk non-anggota dan mungkin dikenakan batasan penggunaan harian.",
+            "Analisis dasar dari empat layanan yaitu pencocokan makna Hanja, konversi nama global, konversi nama Korea, dan penulisan pengucapan Hangul disediakan secara gratis untuk pengguna non-anggota, dan batasan penggunaan harian dapat diterapkan. Produk berbayar di bawah ini akan dibuka secara bertahap setelah persiapan metode pembayaran selesai, dan produk yang belum dapat dibayar tidak akan ditampilkan di layar. Jumlah yang tertera adalah harga acuan saat penjualan dimulai.",
           ],
         },
         {
           title: "Penggunaan Berbasis Iklan",
           paragraphs: [
-            "Pembukaan kunci kandidat setelah menonton iklan adalah manfaat berbasis iklan yang disediakan tanpa pembayaran terpisah. Satu iklan akan membuka satu kandidat berikutnya. Ketersediaan dapat bervariasi tergantung pada stok iklan, negara, perangkat, atau kebijakan penyedia iklan.",
+            "Pembukaan kandidat setelah menonton iklan adalah manfaat berbasis iklan yang diberikan tanpa biaya tambahan. Satu iklan akan membuka satu kandidat berikutnya. Ketersediaan dapat bervariasi tergantung pada stok iklan, negara, perangkat, atau kebijakan penyedia iklan. Selama periode tanpa iklan, kandidat tersebut akan dibuka secara gratis tanpa melalui gerbang ini.",
           ],
         },
         {

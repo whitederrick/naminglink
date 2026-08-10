@@ -197,13 +197,13 @@ const content: LegalLocaleContent = {
         {
           title: "Basic Analysis (Free)",
           paragraphs: [
-            "The basic analysis of all four services — Hanja meaning matching, global name conversion, Korean name conversion, and Hangul pronunciation transcription — is free for guests, and daily usage limits may apply.",
+            "The basic analysis of all four services — Hanja meaning matching, global name conversion, Korean name conversion, and Hangul pronunciation transcription — is free for guests, and daily usage limits may apply. The paid products below open one by one as their payment methods become ready, and products that cannot yet be purchased are not shown on screen. The amounts listed are the reference prices at the time sales begin.",
           ],
         },
         {
           title: "Ad-Reward Usage",
           paragraphs: [
-            "Unlocking candidates after watching an ad is an ad-based benefit provided at no charge. Each ad unlocks the next candidate. Availability may vary by ad inventory, country, device, or ad provider policy.",
+            "Unlocking candidates after watching an ad is an ad-based benefit provided at no charge. Each ad unlocks the next candidate. Availability may vary by ad inventory, country, device, or ad provider policy. While no ads are being served, those candidates are shown for free without this step.",
           ],
         },
         {

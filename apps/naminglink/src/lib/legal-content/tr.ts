@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Temel Analiz (Ücretsiz)",
           paragraphs: [
-            "Hanja anlam eşleştirme, küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi gibi dört hizmetin temel analizi, üye olmayan kullanıcılara ücretsiz olarak sunulmakta olup, günlük kullanım kısıtlamaları uygulanabilir.",
+            "Kanji anlam eşleştirme, küresel isim dönüştürme, Kore isim dönüştürme ve Hangul telaffuz gösterimi gibi dört hizmetin temel analizi, üye olmayan kullanıcılara ücretsiz olarak sunulmakta olup, günlük kullanım sınırlamaları uygulanabilir. Aşağıdaki ücretli ürünler, ödeme yönteminin hazır olduğu tarihten itibaren sırayla açılacak ve henüz ödenemeyen ürünler ekranda gösterilmeyecektir. Belirtilen tutar, satışın başladığı zamandaki referans fiyatıdır.",
           ],
         },
         {
           title: "Reklam Tabanlı Kullanım",
           paragraphs: [
-            "Reklam izledikten sonra adayların kilidinin açılması, ek bir ödeme olmaksızın sunulan reklam tabanlı bir avantajdır. Her bir reklam için bir sonraki aday açılmaktadır. Reklam stoğu, ülke, cihaz veya reklam sağlayıcısının politikalarına bağlı olarak kullanılabilirlik değişiklik gösterebilir.",
+            "Reklam izledikten sonra adayların kilidinin açılması, ek bir ödeme olmaksızın sunulan reklam tabanlı bir avantajdır. Her bir reklam için bir sonraki aday açılmaktadır. Reklam stoğu, ülke, cihaz veya reklam sağlayıcısının politikalarına bağlı olarak kullanılabilirlik değişiklik gösterebilir. Reklam yayınlanmadığı süre boyunca, bu geçit olmaksızın ilgili aday ücretsiz olarak erişime açılmaktadır.",
           ],
         },
         {

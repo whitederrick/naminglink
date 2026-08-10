@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Asosiy tahlil (bepul)",
           paragraphs: [
-            "Xanji ma'nosi moslashuvi, global nom o'zgartirish, Koreys nom o'zgartirish, Koreys talaffuz belgilash to'rt xil xizmatning asosiy tahlili a'zolarga bepul taqdim etiladi va kunlik foydalanish cheklovlari qo'llanilishi mumkin.",
+            "Xitoycha maʼnolarni moslashtirish, global nomlarni o‘zgartirish, koreys nomlarini o‘zgartirish, koreyscha talaffuzni yozish kabi to‘rt xil xizmatning asosiy tahlili aʼzo bo‘lmagan foydalanuvchilarga bepul taqdim etiladi va kunlik foydalanish cheklovlari qo‘llanilishi mumkin. Quyidagi pullik mahsulotlar to‘lov usuli tayyor bo‘lgandan keyin navbatma-navbat ochiladi va hali to‘lov qilinmaydigan mahsulotlar ekranda ko‘rsatilmaydi. Ko‘rsatilgan summalar sotuvni boshlash vaqtidagi asosiy narxdir.",
           ],
         },
         {
           title: "Reklama mukofotli foydalanish",
           paragraphs: [
-            "Reklama ko'rilgandan so'ng nomzodlarni ochish, qo'shimcha to'lovsiz taqdim etiladigan reklama turidagi imtiyozdir. Har bir reklama uchun keyingi nomzodlardan biri ochiladi. Reklama zaxirasi, mamlakat, qurilma yoki reklama ta'minotchisi siyosatiga qarab foydalanish imkoniyati o'zgarishi mumkin.",
+            "Reklama ko‘rganingizdan so‘ng, nomzodlarni qulflashni ochish reklama shaklida taqdim etiladigan alohida to‘lovsiz foyda hisoblanadi. Har bir reklama uchun keyingi nomzodlardan biri ochiladi. Reklama zaxirasi, mamlakat, qurilma yoki reklama taqdimotchisi siyosatiga qarab foydalanish mumkinligi o‘zgarishi mumkin. Reklama joylashtirilmaydigan davrda, ushbu to‘siqsiz nomzodlar bepul ochiladi.",
           ],
         },
         {

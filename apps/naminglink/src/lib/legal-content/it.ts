@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Analisi di base (gratuita)",
           paragraphs: [
-            "L'analisi di base dei quattro servizi di corrispondenza del significato dei caratteri cinesi, conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul è fornita gratuitamente agli utenti non registrati, con possibili limiti di utilizzo giornaliero.",
+            "L'analisi di base dei quattro servizi di corrispondenza dei significati dei caratteri cinesi, conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul è fornita gratuitamente agli utenti non registrati, con possibili limiti di utilizzo giornaliero. I seguenti prodotti a pagamento saranno resi disponibili in ordine a partire dal completamento dei metodi di pagamento, e i prodotti non ancora disponibili per il pagamento non verranno visualizzati. Gli importi indicati sono i prezzi di riferimento al momento dell'inizio delle vendite.",
           ],
         },
         {
           title: "Utilizzo con compenso pubblicitario",
           paragraphs: [
-            "Lo sblocco dei candidati dopo la visione di annunci è un beneficio pubblicitario fornito senza pagamento separato. Per ogni annuncio visualizzato, si sblocca un candidato successivo. La disponibilità può variare in base alle scorte pubblicitarie, al paese, al dispositivo o alle politiche del fornitore di annunci.",
+            "Il rilascio dei candidati dopo la visione degli annunci è un beneficio pubblicitario fornito senza alcun pagamento aggiuntivo. Per ogni annuncio visualizzato, si sblocca un candidato successivo. La disponibilità può variare in base all'inventario pubblicitario, al paese, al dispositivo o alle politiche del fornitore di annunci. Durante i periodi in cui non vengono pubblicati annunci, il candidato può essere reso disponibile gratuitamente senza questa soglia.",
           ],
         },
         {

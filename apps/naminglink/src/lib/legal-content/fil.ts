@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Pangunahing Pagsusuri (Libre)",
           paragraphs: [
-            "Ang pangunahing pagsusuri ng apat na serbisyo: pagtutugma ng kahulugan ng Hanja, global na pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at pagbigkas ng Hangeul ay ibinibigay nang libre sa mga hindi miyembro, at maaaring may limitasyon sa pang-araw-araw na paggamit.",
+            "Ang pangunahing pagsusuri ng apat na serbisyo: pagtutugma ng kahulugan ng mga karakter, pandaigdigang pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at pagbigkas ng Hangul ay ibinibigay nang libre sa mga hindi miyembro, at maaaring mayroong limitasyon sa pang-araw-araw na paggamit. Ang mga bayad na produkto sa ibaba ay unti-unting magiging available mula sa oras na handa na ang paraan ng pagbabayad, at ang mga produktong hindi pa maaaring bayaran ay hindi ipapakita sa screen. Ang nakasulat na halaga ay ang batayang presyo sa simula ng pagbebenta.",
           ],
         },
         {
           title: "Paggamit ng Advertising Reward",
           paragraphs: [
-            "Ang pag-unlock ng mga kandidato pagkatapos manood ng advertisement ay isang benepisyo ng advertising na ibinibigay nang walang karagdagang bayad. Isang kandidato ang mabubuksan para sa bawat advertisement na napanood. Ang availability ay maaaring magbago batay sa imbentaryo ng advertisement, bansa, aparato, o mga patakaran ng provider ng advertisement.",
+            "Ang pag-unlock ng mga kandidato pagkatapos manood ng patalastas ay isang benepisyo na ibinibigay nang walang karagdagang bayad. Sa bawat patalastas, isang kandidato ang mabubuksan. Ang pagkakaroon nito ay maaaring magbago batay sa imbentaryo ng patalastas, bansa, aparato, o mga patakaran ng tagapagbigay ng patalastas. Sa mga panahon na walang patalastas, ang mga kandidato ay ilalabas nang libre nang walang ganitong hadlang.",
           ],
         },
         {

@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Analisis Asas (Percuma)",
           paragraphs: [
-            "Analisis asas untuk empat perkhidmatan iaitu pemadanan makna Hanzi, penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul disediakan secara percuma kepada bukan ahli dan mungkin dikenakan had penggunaan harian.",
+            "Analisis asas bagi empat perkhidmatan iaitu pemadanan makna Hanzi, penukaran nama global, penukaran nama Korea, dan penandaan sebutan Hangul disediakan secara percuma kepada bukan ahli dan had penggunaan harian mungkin dikenakan. Produk berbayar di bawah ini akan dibuka secara berperingkat setelah kaedah pembayaran disediakan, dan produk yang belum boleh dibayar tidak akan dipaparkan di skrin. Jumlah yang dinyatakan adalah harga rujukan pada permulaan jualan.",
           ],
         },
         {
           title: "Penggunaan Berbasis Iklan",
           paragraphs: [
-            "Membuka kunci calon selepas menonton iklan adalah manfaat berbentuk iklan yang disediakan tanpa pembayaran tambahan. Satu iklan membolehkan satu calon dibuka. Ketersediaan mungkin berbeza bergantung kepada stok iklan, negara, peranti, atau dasar penyedia iklan.",
+            "Pembukaan kunci calon selepas menonton iklan adalah manfaat berbentuk iklan yang disediakan tanpa pembayaran tambahan. Satu iklan akan membuka satu calon seterusnya. Ketersediaan mungkin berbeza bergantung kepada inventori iklan, negara, peranti, atau dasar penyedia iklan. Dalam tempoh tanpa iklan, calon tersebut akan dibuka secara percuma tanpa melalui pintu masuk ini.",
           ],
         },
         {

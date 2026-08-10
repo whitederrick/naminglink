@@ -201,13 +201,13 @@ const content: LegalLocaleContent = {
         {
           title: "Analyse de base (gratuite)",
           paragraphs: [
-            "L'analyse de base des quatre services de correspondance de signification des caractères chinois, de conversion de noms mondiaux, de conversion de noms coréens et de transcription phonétique en hangeul est fournie gratuitement aux non-membres, avec une limite d'utilisation quotidienne pouvant s'appliquer.",
+            "L'analyse de base des quatre services de correspondance de significations en caractères chinois, de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en hangeul est fournie gratuitement aux non-membres, avec une limite d'utilisation quotidienne pouvant s'appliquer. Les produits payants ci-dessous seront débloqués dans l'ordre dès que les moyens de paiement seront prêts, et les produits qui ne peuvent pas encore être payés ne seront pas affichés à l'écran. Les montants indiqués sont les prix de référence au moment du début des ventes.",
           ],
         },
         {
           title: "Utilisation avec compensation publicitaire",
           paragraphs: [
-            "Le déverrouillage des candidats après visionnage de publicités est un avantage publicitaire fourni sans paiement supplémentaire. Une publicité permet d'ouvrir un candidat. La disponibilité peut varier en fonction des stocks publicitaires, du pays, de l'appareil ou des politiques du fournisseur de publicité.",
+            "Le déverrouillage des candidats après avoir visionné une publicité est un avantage publicitaire offert sans paiement supplémentaire. Une publicité permet de débloquer un candidat. La disponibilité peut varier en fonction des stocks publicitaires, du pays, de l'appareil ou des politiques du fournisseur de publicité. Pendant les périodes sans diffusion de publicité, ce candidat est rendu disponible gratuitement sans passer par ce portail.",
           ],
         },
         {
