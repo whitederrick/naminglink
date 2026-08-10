@@ -5,6 +5,7 @@ import {
   indexablePaths,
   localeUrl,
 } from "@/lib/seo";
+import { indexableChosungSlugs } from "@/lib/hanja-guide-data";
 import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 import { supportedLocales } from "@/lib/services";
 
@@ -32,8 +33,22 @@ function priorityOf(path: string) {
   return servicePaths.includes(path) ? 0.8 : 0.4;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return indexablePaths.flatMap((path) => {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  /**
+   * **인명용 한자 초성 목록도 싣는다** (2026-08-10).
+   *
+   * 열세 편이 각각 1,000자 안팎의 한자를 지정 독음·뜻과 함께 담는 자료 화면이고, 이 사이트에만
+   * 있는 내용이다. 그런데 **sitemap에 없었다** — 허브에서 링크로만 닿아, 구글이 발견은 하되
+   * 중요하지 않다고 판단하기 쉬운 상태였다(실제로 「중복 페이지」로 잡혀 있었다).
+   *
+   * 이제 한국어 한 벌이라 로케일 변형이 없다. **주소 열세 개가 느는 것뿐이고 중복은 0이다.**
+   *
+   * 목록은 라우트와 같은 함수에서 온다(`indexableChosungSlugs`). 조회가 실패하면 빈 배열이라
+   * 이 경로들만 빠진다 — 없는 주소를 색인하라고 내미는 것보다 낫다.
+   */
+  const chosung = await indexableChosungSlugs();
+
+  const rows = indexablePaths.flatMap((path) => {
     const priority = priorityOf(path);
 
     // 한국어 전용 화면은 주소가 하나뿐이다(로케일 주소는 `proxy.ts`가 301로 보낸다).
@@ -56,4 +71,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         })),
     ];
   });
+
+  return [
+    ...rows,
+    // 초성 목록. 한국어 한 벌이라 로케일 변형도 hreflang도 없다.
+    ...chosung.map((slug) => ({
+      url: absoluteUrl(`/guide/hanja/${slug}`),
+      priority: 0.4,
+    })),
+  ];
 }

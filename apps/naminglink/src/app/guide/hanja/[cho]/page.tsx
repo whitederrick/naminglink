@@ -5,7 +5,11 @@ import { notFound } from "next/navigation";
 import { GuideSection, GuideShell } from "@/components/GuideShell";
 import { HanjaSyllableList } from "@/components/HanjaSyllableList";
 import { formatCount } from "@/lib/guide-data";
-import { getChosungGroup, getChosungGroups, TINY_GROUP_LIMIT } from "@/lib/hanja-guide-data";
+import {
+  getChosungGroup,
+  indexableChosungSlugs,
+  TINY_GROUP_LIMIT,
+} from "@/lib/hanja-guide-data";
 import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
@@ -20,10 +24,7 @@ type PageProps = {
  * `notFound()`가 받는다 — 아무 값이나 경로가 되면 빈 페이지가 무한히 생긴다.
  */
 export async function generateStaticParams() {
-  const groups = await getChosungGroups();
-  return groups
-    .filter((group) => group.total > TINY_GROUP_LIMIT)
-    .map((group) => ({ cho: group.slug }));
+  return (await indexableChosungSlugs()).map((cho) => ({ cho }));
 }
 
 function titleOf(jamo: string) {

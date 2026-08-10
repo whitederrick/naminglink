@@ -147,3 +147,18 @@ export async function getChosungGroup(slug: string) {
  * "얇은 페이지"**가 되어 감점 대상이 된다. 목차에서 바로 보여주는 편이 낫다.
  */
 export const TINY_GROUP_LIMIT = 10;
+
+/**
+ * **페이지가 실제로 열리는 초성 슬러그.** 라우트와 sitemap이 이 하나를 함께 본다.
+ *
+ * `generateStaticParams`와 화면의 `notFound()`가 같은 조건(`total > TINY_GROUP_LIMIT`)을 쓰는데,
+ * sitemap이 그 조건을 따로 적으면 언젠가 어긋난다 — 어긋나면 **404가 나는 주소를 색인하라고
+ * 구글에 내미는 꼴**이 된다. 조건을 한 곳에 둔다.
+ *
+ * 조회가 실패하면 `getChosungGroups`가 빈 배열을 준다. 그때 sitemap은 이 경로들을 싣지 않는다 —
+ * 없는 주소를 내미는 것보다 낫다.
+ */
+export async function indexableChosungSlugs(): Promise<string[]> {
+  const groups = await getChosungGroups();
+  return groups.filter((group) => group.total > TINY_GROUP_LIMIT).map((group) => group.slug);
+}
