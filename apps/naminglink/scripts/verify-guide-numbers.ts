@@ -60,7 +60,7 @@ function docContentProse(slug: string) {
   const start = koSource.indexOf(`"guide/${slug}"`);
   if (start < 0) return "";
   const rest = koSource.slice(start + 1);
-  const next = rest.search(/\n {2}["a-zA-Z][\w/-]*: \{/);
+  const next = rest.search(/\n {2}"?[a-zA-Z][\w/-]*"?: \{/);
   return (next < 0 ? rest : rest.slice(0, next)).replace(/\s+/g, " ");
 }
 

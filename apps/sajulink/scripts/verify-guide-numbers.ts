@@ -34,10 +34,45 @@ const SEOUL_CORRECTION = Math.round(((KST_MERIDIAN - SEOUL_LONGITUDE) / 15) * 60
 const problems: string[] = [];
 let checked = 0;
 
+/**
+ * **본문이 어디에 있는가.**
+ *
+ * 2026-08-09에 안내 본문이 `page.tsx`의 JSX에서 `lib/doc-content/ko.ts`로 옮겨졌다(23개 언어).
+ * 그 뒤로 이 검사기는 **숫자를 0개 대조하고 있었다** — `page.tsx`에는 배선만 남아 셀 것이
+ * 없는데, 없는 것을 세면 아무 문제도 못 찾고 초록에 가까운 얼굴로 돈다. 대조군이 「이 결과를
+ * 믿지 말 것」이라고 말해 주지 않았으면 통과로 읽혔을 자리다.
+ *
+ * **고침은 naminglink에서 났고 이 앱에는 오지 않았다**(2026-08-10에 옮겨 옴). 형제 앱에서
+ * 공용 스크립트를 고쳤으면 나머지 앱에도 있는지 그 자리에서 볼 것.
+ */
+const KO_DOC = path.join(process.cwd(), "src", "lib", "doc-content", "ko.ts");
+const koSource = existsSync(KO_DOC) ? readFileSync(KO_DOC, "utf8") : "";
+
+/** 한국어 원문에서 문서 하나의 글만 잘라 낸다. 다음 문서 키가 나오는 자리에서 끊는다. */
+function docContentProse(slug: string) {
+  const start = koSource.indexOf(`"guide/${slug}"`);
+  if (start < 0) return "";
+  const rest = koSource.slice(start + 1);
+  const next = rest.search(/\n {2}"?[a-zA-Z][\w/-]*"?: \{/);
+  return (next < 0 ? rest : rest.slice(0, next)).replace(/\s+/g, " ");
+}
+
 const docs: Array<{ slug: string; text: string }> = [];
 for (const slug of readdirSync(GUIDE)) {
   const file = path.join(GUIDE, slug, "page.tsx");
   if (!existsSync(file)) continue;
+
+  // 본문이 자료로 옮겨진 문서는 그쪽을 본다. 옮기지 않은 문서는 예전대로 화면에서 읽는다.
+  const moved = docContentProse(slug);
+  if (moved) {
+    /**
+     * **강조 표기를 걷어 내고 본다.** 자료로 옮기면서 숫자 둘레에 `**`가 붙었다
+     * (`**32분**입니다`). 아래 정규식들은 화면의 JSX 산문에 맞춰 쓰인 것이라 그 사이에
+     * 별표가 끼면 하나도 못 잡는다 — 실제로 사주링크가 **숫자를 0개 대조**하고 있었다.
+     */
+    docs.push({ slug, text: moved.replace(/\*\*/g, "") });
+    continue;
+  }
   docs.push({
     slug,
     text: (() => {

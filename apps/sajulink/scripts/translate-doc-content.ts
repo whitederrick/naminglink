@@ -205,6 +205,15 @@ const GLOSSARY_ROMAN: Record<string, string> = {
   원진: "quiet discord",
   진태양시: "true solar time",
   만세력: "the Korean lunisolar almanac",
+  /**
+   * 2026-08-10에 실측으로 드러난 자리다. 위 명리 낱말은 촘촘한데 **가장 흔한 「운세」와
+   * 「일주」가 빠져** 있었고, 그 낱말이 남은 잎이 통째로 영어로 되돌아갔다.
+   *
+   * 값은 지어낸 것이 아니라 이 파일의 프롬프트가 이미 지시하는 뜻 그대로다.
+   */
+  운세: "the reading",
+  일주: "the day pillar",
+  오늘의: "today's",
   궁합: "compatibility",
 };
 

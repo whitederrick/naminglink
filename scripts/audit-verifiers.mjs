@@ -29,7 +29,7 @@
 //   node scripts/audit-verifiers.mjs --list     무엇을 어떻게 부를지만 보여 준다
 //   node scripts/audit-verifiers.mjs --filter legal   이름에 그 말이 든 것만
 
-import { spawnSync } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import { readdirSync, readFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -125,19 +125,61 @@ function commandFor(script, tsconfig) {
   return ["npx", ["tsx", "--tsconfig", tsconfig, `scripts/${script.file}`]];
 }
 
+/**
+ * 검사기 하나를 돌린다. **비동기다** — 여럿을 함께 돌리기 위해서다.
+ *
+ * 예전에는 `spawnSync` 로 하나씩 돌아 67~76개에 10분이 넘었다. 대부분 서로 무관한 읽기라
+ * 순차여야 할 이유가 없었다(주석에도 근거가 없었다).
+ */
 function run(script, args, tsconfig) {
   const [bin, base] = commandFor(script, tsconfig);
-  const res = spawnSync(bin, [...base, ...args], {
-    cwd: script.cwd,
-    encoding: "utf8",
-    shell: true,
-    timeout: TIMEOUT_MS,
+  return new Promise((resolve) => {
+    const child = spawn(bin, [...base, ...args], {
+      cwd: script.cwd,
+      shell: true,
+    });
+    let out = "";
+    let timedOut = false;
+    const timer = setTimeout(() => {
+      timedOut = true;
+      child.kill();
+    }, TIMEOUT_MS);
+
+    child.stdout?.on("data", (chunk) => { out += chunk; });
+    child.stderr?.on("data", (chunk) => { out += chunk; });
+    child.on("error", (error) => {
+      clearTimeout(timer);
+      resolve({ code: 1, timedOut, out: `${out}${error.message}` });
+    });
+    child.on("close", (code) => {
+      clearTimeout(timer);
+      resolve({ code: timedOut ? null : code, timedOut, out });
+    });
   });
-  return {
-    code: res.status,
-    timedOut: res.status === null,
-    out: `${res.stdout ?? ""}${res.stderr ?? ""}`,
-  };
+}
+
+/**
+ * 동시에 도는 검사기 수.
+ *
+ * **무제한으로 던지지 않는다.** 상당수가 같은 Supabase와 실 도메인을 두드린다 — 한꺼번에
+ * 보내면 연결 한도나 레이트리밋에 걸려 **진짜 결함이 아닌 빨간불**이 나오고, 그러면 이
+ * 감사 자체를 믿을 수 없게 된다. 6은 그 사이를 잡은 값이고, 늘리기 전에 그 위험을 먼저 볼 것.
+ */
+const CONCURRENCY = 6;
+
+/** 순서를 지켜 결과를 모으되, 도는 것은 최대 `CONCURRENCY` 개다. */
+async function pool(items, worker) {
+  const results = new Array(items.length);
+  let next = 0;
+  const lanes = Array.from({ length: Math.min(CONCURRENCY, items.length) }, async () => {
+    while (true) {
+      const index = next++;
+      if (index >= items.length) return;
+      results[index] = await worker(items[index], index);
+    }
+  });
+  await Promise.all(lanes);
+  return results;
 }
 
 /** 한 번 부른 결과를 갈래로 나눈다. **모르는 실패는 빨간불이다.** */
@@ -182,35 +224,42 @@ if (listOnly) {
   process.exit(0);
 }
 
-const rows = [];
+/**
+ * 돌릴 것을 **평평하게 펴서** 한 번에 풀에 넣는다. 앱별로 나눠 돌리면 앱 하나가 느릴 때
+ * 나머지 갈래가 놀게 된다.
+ */
+const jobs = [];
 for (const { script, wrapper, runs } of plan) {
   if (wrapper) {
-    rows.push({ script, kind: "wrapped", why: wrapper });
+    jobs.push({ script, wrapper });
     continue;
   }
-  for (const { label, args } of runs) {
-    const appDir = script.cwd;
-    let tsconfig = "tsconfig.json";
-    let result = run(script, args, tsconfig);
-    // `server-only` 때문에 죽었다면 전용 tsconfig로 한 번 더. **이름 목록으로 걸지 않는다** —
-    // 새로 생기는 검사기도 저절로 따라오게 하려면 증상으로 걸어야 한다.
-    if (result.code !== 0 && script.file.endsWith(".ts") && needsSweepTsconfig(result.out)) {
-      const sweep = path.join(appDir, "scripts", "tsconfig.sweep.json");
-      if (existsSync(sweep)) {
-        tsconfig = "scripts/tsconfig.sweep.json";
-        result = run(script, args, tsconfig);
-      }
-    }
-    const verdict = classify(result);
-    rows.push({
-      script,
-      label,
-      tsconfig: script.file.endsWith(".ts") ? tsconfig : null,
-      ...verdict,
-      tail: tail(result.out),
-    });
-  }
+  for (const { label, args } of runs) jobs.push({ script, label, args });
 }
+
+const rows = await pool(jobs, async (job) => {
+  if (job.wrapper) return { script: job.script, kind: "wrapped", why: job.wrapper };
+
+  const { script, label, args } = job;
+  let tsconfig = "tsconfig.json";
+  let result = await run(script, args, tsconfig);
+  // `server-only` 때문에 죽었다면 전용 tsconfig로 한 번 더. **이름 목록으로 걸지 않는다** —
+  // 새로 생기는 검사기도 저절로 따라오게 하려면 증상으로 걸어야 한다.
+  if (result.code !== 0 && script.file.endsWith(".ts") && needsSweepTsconfig(result.out)) {
+    const sweep = path.join(script.cwd, "scripts", "tsconfig.sweep.json");
+    if (existsSync(sweep)) {
+      tsconfig = "scripts/tsconfig.sweep.json";
+      result = await run(script, args, tsconfig);
+    }
+  }
+  return {
+    script,
+    label,
+    tsconfig: script.file.endsWith(".ts") ? tsconfig : null,
+    ...classify(result),
+    tail: tail(result.out),
+  };
+});
 
 // ── 대조군 ────────────────────────────────────────────────────────────────
 // 판정기가 살아 있는지 본다. 통과만 세는 러너는 아무것도 보증하지 못한다.

@@ -16,7 +16,7 @@ export const ES_DOCS = {
             "p": "Dreams-Link encuentra **símbolos utilizados en la interpretación tradicional de sueños** a partir de los sueños que escribes y muestra sus significados. Dado que los sueños son algo que experimentamos a diario, las interpretaciones mostradas en la pantalla son **gratuitas y no requieren membresía.**"
           },
           {
-            "p": "Las únicas cosas que se venden por una tarifa son **dos formas de preservación** — una imagen (tarjeta de sueño) que contiene un buen sueño y un PDF que captura el contexto cuando aparece un símbolo tradicionalmente considerado un 태몽."
+            "p": "Las únicas cosas vendidas por una tarifa son **dos formas de preservación** — una imagen (tarjeta de sueño) que contiene un buen sueño y un PDF que captura el contexto cuando aparece un símbolo tradicionalmente considerado un a conception dream (sueño de concepción)."
           }
         ]
       },
@@ -35,13 +35,13 @@ export const ES_DOCS = {
         "title": "¿Qué no decimos?",
         "blocks": [
           {
-            "p": "**No inventamos significados tradicionales que no están en el diccionario.** Si no se encuentran símbolos, simplemente declaramos que no se encontraron y concluimos. Llenar ese espacio con palabras plausibles es lo que este servicio más cuida."
+            "p": "**No inventamos significados tradicionales que no están en el diccionario.** Si no se encuentran símbolos, simplemente afirmamos que no se encontraron y concluimos. Llenar ese espacio con palabras plausibles es de lo que este servicio es más cauteloso."
           },
           {
-            "p": "**Un 태몽 es meramente una señal, no un juicio.** Solo te informamos que un símbolo tradicionalmente considerado un 태몽 apareció en el sueño. No predecimos el embarazo ni el género del niño, y no hay base para tales afirmaciones."
+            "p": "**Un a conception dream (sueño de concepción) es simplemente un signo, no un juicio.** Solo te informamos que un símbolo tradicionalmente considerado un a conception dream (sueño de concepción) apareció en el sueño. No predecimos el embarazo ni el género del niño, y no hay base para tales afirmaciones."
           },
           {
-            "p": "No **hacemos declaraciones definitivas sobre salud, riqueza o carrera.** Esta es una referencia desde la perspectiva de la interpretación tradicional de sueños y no es un consejo médico, financiero o legal."
+            "p": "No hacemos **declaraciones definitivas sobre salud, riqueza o carrera.** Esta es una referencia desde la perspectiva de la interpretación tradicional de sueños y no es consejo médico, financiero o legal."
           }
         ]
       },
@@ -49,7 +49,7 @@ export const ES_DOCS = {
         "title": "No guardamos los sueños que escribes.",
         "blocks": [
           {
-            "p": "Las historias de sueños son la parte más privada de lo que este servicio recibe. Por lo tanto, **no las almacenamos.** La entrada se utiliza solo para cálculos y no se registra en ningún registro de servidor."
+            "p": "Las historias de sueños son la parte más privada de lo que este servicio recibe. Por lo tanto, **no las almacenamos.** Lo que ingresas se lleva solo en la URL y se utiliza para la lectura; no se registra en ninguna tabla en nuestros servidores."
           },
           {
             "p": "Decidimos **no crear una función para recopilar sueños como un diario de sueños.** Es una característica valiosa, pero requeriría mantener los escritos más privados."
@@ -76,7 +76,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Todos los números escritos aquí son **leídos directamente del diccionario de símbolos y las reglas de búsqueda.** Dado que no transcribimos manualmente el texto, si el diccionario se expande o las reglas cambian, los números en estos documentos también cambiarán."
+            "p": "Todos los números escritos aquí son **leídos directamente del diccionario de símbolos y las reglas de coincidencia.** Dado que no transcribimos manualmente el texto, si el diccionario se expande o las reglas cambian, los números en estos documentos también cambiarán."
           }
         ]
       }
@@ -85,7 +85,7 @@ export const ES_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Base para el Servicio",
     "title": "¿Cuál es la base del diccionario de símbolos?",
-    "summary": "Aclara de dónde provienen las interpretaciones. Los criterios para dividir 215 símbolos en nueve categorías, la razón por la que solo 24 pueden ser sustentadas, y por qué no llenamos los vacíos.",
+    "summary": "Aclara de dónde provienen las interpretaciones. Los criterios para dividir 215 símbolos en nueve categorías, la razón por la que solo 24 pueden ser fundamentadas, y por qué no llenamos los vacíos.",
     "backLabel": "Base para la Interpretación",
     "sections": [
       {
@@ -103,7 +103,7 @@ export const ES_DOCS = {
         "title": "Dividido en nueve categorías.",
         "blocks": [
           {
-            "p": "Agrupamos lo que aparece en los sueños en nueve categorías según sus características. Los números entre paréntesis son los conteos actuales."
+            "p": "Agrupamos lo que aparece en los sueños en nueve categorías basadas en sus características. Los números entre paréntesis son los conteos actuales."
           },
           {
             "ul": [
@@ -118,13 +118,13 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "Solo {cultureNoteTotal} pueden ser sustentados.",
+        "title": "Solo {cultureNoteTotal} pueden ser fundamentados.",
         "blocks": [
           {
             "p": "Entre los símbolos, **{cultureNoteTotal}** tienen razones para la interpretación escritas junto a ellos. Por ejemplo, la razón para distinguir entre dientes superiores e inferiores en un sueño de perder dientes. Los símbolos restantes tienen espacios vacíos."
           },
           {
-            "p": "**No hemos llenado los espacios vacíos.** Agregar orígenes plausibles haría que el documento fuera más extenso, pero en ese momento, este diccionario no estaría transmitiendo tradición sino fabricándola. Es más honesto distinguir entre lo que puede y no puede ser sustentado."
+            "p": "**No hemos llenado los espacios vacíos.** Agregar orígenes plausibles haría que el documento fuera más extenso, pero en ese momento, este diccionario no estaría transmitiendo tradición sino fabricándola. Es más honesto distinguir entre lo que puede y no puede ser fundamentado."
           }
         ]
       },
@@ -133,7 +133,7 @@ export const ES_DOCS = {
         "title": "Razones para no expandir arbitrariamente el diccionario.",
         "blocks": [
           {
-            "p": "En realidad, intentamos expandir los símbolos a cientos pero desistimos. Las entradas generadas automáticamente repetían las mismas frases como 'romance → buena relación' o no proporcionaban orígenes sustentados. Concluimos que **encontrar con precisión lo que existe** es mejor que simplemente aumentar los números."
+            "p": "De hecho, intentamos expandir los símbolos a cientos pero desistimos. Las entradas generadas automáticamente repetían las mismas frases como 'romance → buena relación' o no proporcionaban ninguna fuente tradicional documentada. Concluimos que **encontrar con precisión lo que existe** es mejor que simplemente aumentar los números."
           }
         ]
       },
@@ -141,10 +141,10 @@ export const ES_DOCS = {
         "title": "Lo bueno y lo malo están predeterminados por el diccionario.",
         "blocks": [
           {
-            "p": "Cada símbolo tiene significados tanto buenos como malos. **Bueno {polarityPositive}**, **ambivalente {polarityAmbivalent}**, **cauteloso {polarityNegative}**, y **neutral {polarityNeutral}**."
+            "p": "Cada símbolo lleva su auspiciosidad registrada junto a él. **Bueno {polarityPositive}**, **ambivalente {polarityAmbivalent}**, **cauteloso {polarityNegative}**, y **neutral {polarityNeutral}**."
           },
           {
-            "p": "El hecho de que los significados buenos superen la mitad no es porque seamos generosos, sino porque la interpretación tradicional de sueños siempre ha sido así — símbolos grandes y fuertes como cerdos, dragones y fuego generalmente se han visto como buenos augurios. Sin embargo, no todos los sueños se interpretan positivamente. Este valor refleja la naturaleza de cada símbolo, y la atmósfera general del sueño se reevalúa al reunir los símbolos encontrados."
+            "p": "El hecho de que los significados buenos superen la mitad no es porque seamos generosos, sino porque la interpretación tradicional de sueños siempre ha sido así — símbolos grandes y fuertes como cerdos, dragones y fuego han sido vistos generalmente como buenos augurios. Sin embargo, no todos los sueños se interpretan positivamente. Este valor refleja la naturaleza de cada símbolo, y la atmósfera general del sueño se reevalúa al reunir los símbolos encontrados."
           }
         ]
       }
@@ -153,7 +153,7 @@ export const ES_DOCS = {
   "guide/how-matching-works": {
     "eyebrow": "Base para el Servicio",
     "title": "Cómo encontrar símbolos en historias de sueños.",
-    "summary": "Explica cómo se seleccionan los símbolos de oraciones escritas libremente y cómo filtrar letras que accidentalmente ingresaron palabras como 'especial'.",
+    "summary": "Explica cómo se seleccionan los símbolos de oraciones escritas libremente y cómo filtramos un símbolo que simplemente ocurre dentro de una palabra más larga — 별 (\"estrella\") dentro de 특별할 (\"nada especial\").",
     "backLabel": "Base para la Interpretación",
     "sections": [
       {
@@ -163,7 +163,7 @@ export const ES_DOCS = {
             "p": "Cuando escribes libremente tu historia de sueño, buscamos símbolos en ese texto del diccionario. No necesitas seleccionar elementos ni escribir en un formato específico. Simplemente escribe como lo harías normalmente, como 'Anoche, una enorme pitón se envolvió a mi alrededor.'"
           },
           {
-            "p": "Al buscar, no solo miramos el nombre del símbolo, sino también **{aliasTotal} nombres alternativos**. Estas son palabras que se refieren a lo mismo, como 구렁이 (gureongi) y 뱀 (baem), 떨어지다 (tteoreojida) y 빠지다 (ppajida). También se incluyen variaciones con terminaciones, como 「떨어지는」 (tteoreojineun) · 「쫓겨서」 (jjotgyeoseo) · 「빠졌다」 (ppajyeotda)."
+            "p": "Al buscar, no solo consideramos el nombre del símbolo, sino también **{aliasTotal} nombres alternativos**. Estas son palabras que se refieren a lo mismo, como 구렁이 (gureongi) y 뱀 (baem), 떨어지다 (tteoreojida) y 빠지다 (ppajida). También se incluyen variaciones con terminaciones, como 「떨어지는」 (tteoreojineun) · 「쫓겨서」 (jjotgyeoseo) · 「빠졌다」 (ppajyeotda)."
           }
         ]
       },
@@ -171,17 +171,17 @@ export const ES_DOCS = {
         "title": "Los caracteres que aparecen accidentalmente dentro de una palabra no cuentan",
         "blocks": [
           {
-            "p": "Este es el aspecto más desafiante en coreano. Entre los símbolos, hay **{singleCharSymbolTotal} símbolos de un solo carácter** como **별** (byeol) · **말** (mal) · **배** (bae) · **손** (son), que aparecen con frecuencia en otras palabras."
+            "p": "Este es el aspecto más desafiante en coreano. Entre los símbolos, hay **{singleCharSymbolTotal} símbolos de un solo carácter** como **별** (byeol) · **말** (mal) · **배** (bae) · **손** (son), que aparecen frecuentemente en otras palabras."
           },
           {
             "ul": [
-              "La **estrella** de \"Era un día ordinario\"",
-              "La **cosa** en \"Alguien me persiguió\"",
-              "La **palabra** en \"Esa persona dijo\" y el **vientre** en \"Tenía hambre\""
+              "별 (\"estrella\") escondido dentro de 특**별**할 (\"nada especial\")",
+              "게 (\"cangrejo\") escondido dentro de 누군가에**게** (\"por alguien\")",
+              "말 (\"caballo\") dentro de **말**했다 (\"dijo\"), y 배 (\"barco, pera\") dentro de **배**가 고팠다 (\"teníamos hambre\")"
             ]
           },
           {
-            "p": "Contar estos como símbolos conduce a interpretaciones irrelevantes. Por lo tanto, examinamos los caracteres circundantes: si **hay un carácter coreano delante**, lo consideramos un fragmento de una palabra y no lo contamos, y distinguimos si el carácter adjunto al final es una partícula o una terminación, permitiendo que 「소가」 (soga) pase mientras filtramos 「소리」 (sori)."
+            "p": "Contar estos como símbolos lleva a interpretaciones irrelevantes. Por lo tanto, examinamos los caracteres circundantes: si **hay un carácter coreano delante**, lo tratamos como parte de una palabra más larga y no lo contamos, y observamos **si lo que sigue es una partícula o una terminación verbal**, permitiendo que 「소가」 (soga) pase mientras filtramos 「소리」 (sori)."
           }
         ]
       },
@@ -190,7 +190,7 @@ export const ES_DOCS = {
         "title": "Así es como ha estado funcionando",
         "blocks": [
           {
-            "p": "Antes de implementar esta regla, al probar con doce oraciones reales, **todas las doce** contenían símbolos irrelevantes. Una oración sin contenido significativo fue incluso marcada como un 태몽 (taemong)."
+            "p": "Antes de implementar esta regla, al probar con doce oraciones reales, **todas las doce** contenían símbolos irrelevantes. Una oración sin contenido significativo fue incluso marcada como un a conception dream (sueño de concepción)."
           },
           {
             "p": "Ahora, queda uno: el 배 (bae) en 「배가 고팠다」 (bae ga gopatda). Dado que suena igual pero tiene un significado diferente, no puede ser filtrado solo por los caracteres circundantes."
@@ -204,7 +204,7 @@ export const ES_DOCS = {
         "title": "Los mismos caracteres siempre producen los mismos resultados",
         "blocks": [
           {
-            "p": "No hay lugar para la coincidencia en las reglas de búsqueda. Dado que el diccionario es fijo y las reglas están establecidas, si ingresas la misma oración nuevamente, **el mismo símbolo aparecerá en el mismo orden**. La interpretación que ves hoy no diferirá de la que verás mañana."
+            "p": "No hay lugar para la coincidencia en las reglas de coincidencia. Dado que el diccionario es fijo y las reglas están establecidas, si ingresas la misma oración nuevamente, **el mismo símbolo aparecerá en el mismo orden**. La interpretación que ves hoy no diferirá de la que verás mañana."
           },
           {
             "p": "Esta calidad también es una promesa que nos hemos hecho a nosotros mismos. Las interpretaciones que cambian cada vez son entretenidas pero carecen de fundamento. Esto se conecta a la historia de [por qué no usamos modelos](/guide/no-ai)."
@@ -223,7 +223,7 @@ export const ES_DOCS = {
         "title": "Incluso si los símbolos son los mismos, diferentes situaciones producen diferentes significados",
         "blocks": [
           {
-            "p": "En la tradicional 해몽 (interpretación de sueños), un solo símbolo no siempre tiene un significado. Incluso para la misma serpiente, **sostenerla y ser mordido se han interpretado como completamente opuestos.** Esto también se señala en el diccionario."
+            "p": "En la interpretación de sueños tradicional, un solo símbolo no siempre tiene un significado. Incluso para la misma serpiente, **sostenerla y ser mordido se han interpretado como completamente opuestos.** Esto también se señala en el diccionario."
           },
           {
             "p": "Por eso, los {symbolTotal} símbolos tienen un total de {meaningTotal} significados. Cada significado incluye **el contexto en el que se aplica**, y si ese contexto es visible en el texto que proporcionas, seleccionamos ese significado."
@@ -234,7 +234,7 @@ export const ES_DOCS = {
         "title": "Cómo identificar la situación",
         "blocks": [
           {
-            "p": "Verificamos si el texto que proporcionaste contiene palabras que indiquen esa situación. En 「뱀이 나를 물었다」 (baemi nareul mul-eotda), se describe la situación de la mordida, mientras que en 「뱀을 품에 안았다」 (baemeul pume anatda), se describe la situación de sostener. Si no hay palabras que indiquen la situación, la interpretamos utilizando el **significado básico** de ese símbolo."
+            "p": "Verificamos si el texto que proporcionaste contiene palabras que indican esa situación. En 「뱀이 나를 물었다」 (baemi nareul mul-eotda), se describe la situación de la mordida, mientras que en 「뱀을 품에 안았다」 (baemeul pume anatda), se describe la situación de sostener. Si no hay palabras que indiquen la situación, la interpretamos utilizando el **significado básico** de ese símbolo."
           },
           {
             "p": "Por lo tanto, al escribir tu sueño, si incluyes **no solo lo que apareció sino también qué acciones se tomaron**, la interpretación será más precisa. 「돼지를 봤다」 (dwaeji-reul bwatda) transmite menos que 「돼지가 집으로 들어왔다」 (dwaeji-ga jib-euro deureowatda)."
@@ -254,7 +254,7 @@ export const ES_DOCS = {
         "title": "Hay {contextSplitSymbolTotal} símbolos con significados divididos",
         "blocks": [
           {
-            "p": "Entre los {symbolTotal} símbolos en el diccionario, **{contextSplitSymbolTotal}** tienen significados que varían según la situación. El resto se ha leído en una dirección independientemente de la situación."
+            "p": "Entre los {symbolTotal} símbolos en el diccionario, **{contextSplitSymbolTotal}** tienen significados que varían según la situación. El resto se han leído en una dirección sin importar la situación."
           },
           {
             "p": "Estos {contextSplitSymbolTotal} son las áreas más cautelosas. Malinterpretar la situación puede llevar a transmitir buenas noticias como malas, o viceversa. Por lo tanto, si la situación no está clara, no **elegimos forzosamente un lado y en su lugar optamos por el significado básico** de ese símbolo; no queremos afirmar algo incierto como si fuera cierto."
@@ -285,8 +285,8 @@ export const ES_DOCS = {
   },
   "guide/good-and-bad": {
     "eyebrow": "Base del Servicio",
-    "title": "Criterios para distinguir 길몽 (sueños auspiciosos) y 흉몽 (sueños ominosos)",
-    "summary": "Los cuatro valores asignados a cada símbolo y su distribución, la razón por la que los positivos superan la mitad, y por qué comunicamos sueños mixtos como mixtos.",
+    "title": "Criterios para distinguir sueños auspiciosos y sueños inauspiciosos",
+    "summary": "Los cuatro valores asignados a cada símbolo y su distribución, la razón por la cual los positivos superan la mitad, y por qué comunicamos sueños mixtos como mixtos.",
     "backLabel": "Base de Interpretación",
     "sections": [
       {
@@ -299,7 +299,7 @@ export const ES_DOCS = {
             "ul": [
               "**{polarityPositive} símbolos positivos** — aquellos interpretados como eventos afortunados como riqueza, celebraciones y benefactores.",
               "**{polarityAmbivalent} símbolos que varían según la situación** — como las serpientes, donde el significado puede cambiar dependiendo de lo que se hizo. Esta categoría es la más cautelosa.",
-              "**{polarityNegative} símbolos cautelosos** — aquellos vistos como chismes, disputas o pérdidas.",
+              "**{polarityNegative} símbolos inauspiciosos** — aquellos vistos como chismes, disputas o pérdidas.",
               "**{polarityNeutral} símbolos neutrales** — aquellos que no son ni buenos ni malos en sí mismos, como colores o números."
             ]
           }
@@ -309,7 +309,7 @@ export const ES_DOCS = {
         "title": "La razón por la que los símbolos positivos superan la mitad",
         "blocks": [
           {
-            "p": "Esto no se debe a que seamos generosos en nuestras evaluaciones. **La tradicional 해몽 (interpretación de sueños) siempre ha sido así.** Los símbolos grandes y poderosos como los cerdos, dragones, fuego y agua generalmente se han visto como buenos augurios, y el diccionario refleja esa tradición."
+            "p": "Esto no es porque seamos generosos en nuestras evaluaciones. **La interpretación de sueños tradicional (dream interpretation) siempre ha sido así.** Símbolos grandes y poderosos como cerdos, dragones, fuego y agua generalmente se han visto como buenos presagios, y el diccionario refleja esa tradición."
           },
           {
             "p": "Por lo tanto, el hecho de que 'apareció un buen símbolo' no significa 'sucederán cosas buenas.' Lo que podemos transmitir está limitado a cómo ese símbolo ha sido interpretado en la tradición."
@@ -317,33 +317,33 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "El tono de un sueño se recopila de sus símbolos",
+        "title": "El tono de un sueño se recoge de sus símbolos",
         "blocks": [
           {
-            "p": "Si se encuentran múltiples símbolos, recopilamos su respectiva auspiciosidad para determinar el tono general del sueño. Si solo aparecen símbolos positivos, es un buen sueño; si solo aparecen símbolos cautelosos, es un sueño cauteloso; si **es mixto, lo comunicamos como mixto.**"
+            "p": "Si se encuentran múltiples símbolos, recopilamos su respectiva auspiciosidad para determinar el tono general del sueño. Si solo aparecen símbolos positivos, es un buen sueño; si solo aparecen símbolos inauspiciosos, es un sueño inauspicioso; si **es mixto, lo comunicamos como mixto.**"
           },
           {
-            "p": "No forzamos la categorización de símbolos mixtos en un solo lado. En realidad, los sueños que las personas tienen son a menudo mixtos, y resumirlos como 'un buen sueño' no es ni preciso ni útil."
+            "p": "No categorizamos forzosamente símbolos mixtos en un solo lado. En realidad, los sueños que las personas tienen son a menudo mixtos, y resumirlos como 'un buen sueño' no es ni preciso ni útil."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Palabras que No Debes Usar",
+        "title": "Palabras que No Deben Usarse",
         "blocks": [
           {
-            "p": "No hagas afirmaciones definitivas sobre lo que sucederá, cuándo sucederá, o respecto a la salud y la riqueza. Transmitir los significados de los símbolos que se han transmitido a través de la tradición es diferente de predecir el futuro."
+            "p": "No haga declaraciones definitivas sobre lo que sucederá, cuándo sucederá, o sobre salud y riqueza. Transmitir los significados de los símbolos que se han transmitido a través de la tradición es diferente de predecir el futuro."
           }
         ]
       },
       {
-        "title": "Cuando Aparece un Sueño de Advertencia",
+        "title": "Cuando Aparece un Sueño Ominoso",
         "blocks": [
           {
             "p": "Incluso si aparece un símbolo interpretado como advertencia, no necesariamente es una mala noticia. En la interpretación de sueños tradicional, un sueño ominoso se ha utilizado generalmente como **una declaración que señala la situación actual**. Si aparece un símbolo que sugiere conflicto, puede interpretarse como un recordatorio para contener las palabras."
           },
           {
-            "p": "Por la misma razón, este servicio no vende talismanes ni amuletos. Lo que se vende son solo [dos formas de conservar tus sueños](/guide/reports)."
+            "p": "Por la misma razón, este servicio no vende talismanes ni amuletos. Lo que se vende son solo [dos maneras de conservar tus sueños](/guide/reports)."
           }
         ]
       }
@@ -362,7 +362,7 @@ export const ES_DOCS = {
             "p": "**Dreams-Link no determina el estado de embarazo. Tampoco indica el género del niño.** Estos son asuntos que no se pueden conocer a través de los sueños, y no es algo que podamos hacer."
           },
           {
-            "p": "Lo que podemos decirte se limita a esto — **el hecho de que un símbolo tradicionalmente considerado como un sueño de concepción apareció en este sueño.** Eso es todo lo que nuestros antepasados interpretaron sobre ese símbolo."
+            "p": "Lo que podemos decirte se limita a esto — **el hecho de que un símbolo tradicionalmente considerado como un sueño de concepción apareció en este sueño.** Eso es todo lo que nuestros antepasados interpretaron de ese símbolo."
           }
         ]
       },
@@ -381,10 +381,10 @@ export const ES_DOCS = {
         "title": "El Juicio se Basa en el Significado Real, No en los Símbolos",
         "blocks": [
           {
-            "p": "El cerdo es un símbolo de sueños de concepción y al mismo tiempo **representa sueños de riqueza.** Si se considera un sueño de concepción solo porque apareció el símbolo, entonces todos los que soñaron con cerdos habrían tenido un sueño de concepción. En realidad, ha sido interpretado mayormente como un sueño de riqueza."
+            "p": "El cerdo es un símbolo de sueños de concepción y al mismo tiempo **representa sueños de riqueza.** Si se considera un sueño de concepción solo porque apareció el símbolo, entonces todos los que soñaron con cerdos habrían tenido un sueño de concepción. En realidad, se ha interpretado mayormente como un sueño de riqueza."
           },
           {
-            "p": "Por lo tanto, miramos **el significado real derivado de ese símbolo, no el símbolo en sí.** Solo lo marcamos como un sueño de concepción cuando el significado que se inclina hacia la concepción es elegido en la situación que proporcionaste. Incluso con el mismo cerdo, el juicio cambia si el contexto es diferente."
+            "p": "Por lo tanto, miramos **el significado real derivado de ese símbolo, no el símbolo en sí.** Solo lo marcamos como un sueño de concepción cuando se elige el significado que se inclina hacia la concepción en la situación que proporcionaste. Incluso con el mismo cerdo, la interpretación cambia si la frase varía."
           }
         ]
       },
@@ -393,7 +393,7 @@ export const ES_DOCS = {
         "title": "Si Mencionas el Embarazo, Miramos Eso Primero",
         "blocks": [
           {
-            "p": "Si tu escritura incluye palabras como embarazo, sueño de concepción, o parto, primero miramos el significado de ese símbolo que se inclina hacia la concepción. Incluso con el mismo sueño de cerdo, la forma en que nuestros antepasados lo interpretaron variaba dependiendo de la situación actual."
+            "p": "Si tu escritura incluye palabras como embarazo, sueño de concepción, o parto, primero miramos el significado de ese símbolo que se inclina hacia la concepción. Incluso con el mismo sueño de cerdo, la forma en que nuestros antepasados lo interpretaron varió dependiendo de la situación actual."
           }
         ]
       },
@@ -401,10 +401,10 @@ export const ES_DOCS = {
         "title": "La Razón para Separar los Informes de Sueños de Concepción",
         "blocks": [
           {
-            "p": "Los sueños de concepción sirven a un propósito diferente que otros sueños. A menudo se habla de ellos incluso después de que el niño nace y se comparten entre los miembros de la familia. Por lo tanto, en lugar de solo verlo en una pantalla, creamos un **documento que se puede conservar.**"
+            "p": "Los sueños de concepción sirven a un propósito diferente que otros sueños. A menudo se habla de ellos incluso después de que nace el niño y se comparten entre los miembros de la familia. Por lo tanto, en lugar de solo verlo en una pantalla, creamos un **documento que se puede conservar.**"
           },
           {
-            "p": "Lo que se incluye se anota en [dos formas de conservar tus sueños](/guide/reports). Puedes ver todas las interpretaciones sin comprar lo que ves en la pantalla."
+            "p": "Lo que se incluye se anota en [dos maneras de conservar tus sueños](/guide/reports). Puedes ver todas las interpretaciones sin comprar lo que ves en la pantalla."
           }
         ]
       }
@@ -445,10 +445,10 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "Por Qué Preguntamos Sobre Sentimientos y Repetición",
+        "title": "Por Qué Preguntamos Sobre Sentimientos y Repeticiones",
         "blocks": [
           {
-            "p": "Debajo del contenido del sueño, hay un lugar para seleccionar **el sentimiento cuando te despertaste** y **si has repetido el mismo sueño.** No tienes que elegir ambos para que se proporcione un resultado."
+            "p": "Debajo del contenido del sueño, hay un lugar para seleccionar **el sentimiento cuando te despertaste** y **si has repetido el mismo sueño.** No es necesario elegir ambos para que se proporcione un resultado."
           },
           {
             "p": "Estos valores no se utilizan para encontrar símbolos. Se hacen referencia al determinar **qué significado elegir** del mismo símbolo y cómo transmitir el resultado."
@@ -460,7 +460,7 @@ export const ES_DOCS = {
         "title": "En Casos Donde Mencionas el Embarazo",
         "blocks": [
           {
-            "p": "Si tu escritura incluye palabras como embarazo, sueño de concepción, o parto, primero miramos el significado de ese símbolo que se inclina hacia la concepción. Incluso con el mismo sueño de cerdo, la forma en que nuestros antepasados lo interpretaron variaba dependiendo de la situación actual — [cómo interpretar sueños de concepción](/guide/conception-dreams)."
+            "p": "Si tu escritura incluye palabras como embarazo, sueño de concepción, o parto, primero miramos el significado de ese símbolo que se inclina hacia la concepción. Incluso con el mismo sueño de cerdo, la forma en que nuestros antepasados lo interpretaron varió dependiendo de la situación actual — [cómo interpretar sueños de concepción](/guide/conception-dreams)."
           }
         ]
       },
@@ -468,10 +468,10 @@ export const ES_DOCS = {
         "title": "No Hay Necesidad de Escribir Textos Largos",
         "blocks": [
           {
-            "p": "Un texto más largo no significa que se encontrarán más símbolos. Más bien, si se mezclan palabras irrelevantes en longitud, hay una mayor posibilidad de que palabras no relacionadas sean interpretadas como símbolos. **Por favor, escribe solo las escenas que recuerdas.**"
+            "p": "Un texto más largo no significa que se encontrarán más símbolos. Más bien, si se mezclan palabras irrelevantes en longitud, hay una mayor probabilidad de que palabras no relacionadas se interpreten como símbolos. **Por favor, escribe solo las escenas que recuerdas.**"
           },
           {
-            "p": "El texto que proporcionas no se guarda en ninguna parte. La razón por la que puedes escribir libremente se anota en [el método de no guardar](/guide/no-storage)."
+            "p": "El texto que proporcionas no se guarda en ningún lugar. La razón por la que puedes escribir libremente se anota en [el método de no almacenamiento](/guide/no-storage)."
           }
         ]
       }
@@ -487,12 +487,12 @@ export const ES_DOCS = {
         "title": "Los Símbolos en los Sueños se Dividen en Nueve Categorías",
         "blocks": [
           {
-            "p": "Los {symbolTotal} símbolos están agrupados en nueve categorías según sus características. El criterio para la división es **cómo aparecen en los sueños** — ya sea como animales, objetos, o acciones que tomé."
+            "p": "Los {symbolTotal} símbolos se agrupan en nueve categorías según sus características. El criterio para la división es **cómo aparecen en los sueños** — ya sea como animales, objetos, o acciones que realizamos."
           },
           {
             "ul": [
-              "**Objetos {categoryThing}** — Artículos tangibles como dinero, espejos y cuchillos. Esta es la categoría más amplia.",
-              "**Animales {categoryAnimal}** — dragón·cerdo·serpiente·vaca. Muchos de estos se consideran 태몽 (sueños de concepción).",
+              "**Objetos {categoryThing}** — Artículos tangibles como dinero, espejos y cuchillos. Esta es la categoría más extensa.",
+              "**Animales {categoryAnimal}** — dragón·cerdo·serpiente·vaca. Muchos de estos se consideran sueños de concepción.",
               "**Naturaleza {categoryNature}** — cosas que son grandes y antiguas como agua·fuego·sol·luna·montaña.",
               "**Acción {categoryAction}** — cosas que se hacen en los sueños como ser perseguido·caer·volar.",
               "**Cuerpo {categoryBody}** — dientes·cabello·sangre. El significado varía dependiendo de dónde en el cuerpo se encuentre.",
@@ -502,13 +502,13 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "¿Por qué no hay categoría de emociones?",
+        "title": "¿Por qué no hay una categoría de emociones?",
         "blocks": [
           {
-            "p": "Categorías como 「ansiedad」·「anhelo」 no están incluidas. **Esto se debe a que la 해몽 (interpretación de sueños) tradicional no aborda las emociones.** Las interpretaciones antiguas se centraban en lo que era visible y lo que sucedía, en lugar de los sentimientos del soñador."
+            "p": "Categorías como 「ansiedad」·「anhelo」 no están incluidas. **Esto se debe a que la interpretación de sueños tradicional no aborda las emociones.** Las interpretaciones antiguas se centraban en lo que era visible y lo que sucedió, en lugar de los sentimientos del soñador."
           },
           {
-            "p": "He intentado crear una categoría de emociones, pero los resultados fueron términos como 「pérdida de afecto」·「estabilidad emocional」. Estos no son **símbolos** de los sueños, sino vocabulario de la psicología moderna. Ese es un tipo diferente de servicio y no es lo que este diccionario pretende hacer."
+            "p": "hemos intentado crear una categoría de emociones, pero los resultados fueron términos como 「pérdida de afecto」·「estabilidad emocional」. Estos no son **símbolos** de los sueños, sino vocabulario de la psicología moderna. Ese es un tipo diferente de servicio y no es lo que este diccionario pretende hacer."
           }
         ]
       },
@@ -517,7 +517,7 @@ export const ES_DOCS = {
         "title": "Así que cuando escribas",
         "blocks": [
           {
-            "p": "Por favor, escribe **lo que viste y hiciste** en lugar de sentimientos; esto dará resultados mucho mejores. Sin embargo, preguntaré sobre tus sentimientos al despertar por separado — incluso el mismo símbolo puede tener diferentes significados dependiendo de la situación."
+            "p": "Por favor, escribe **lo que viste y hiciste** en lugar de sentimientos; esto dará resultados mucho mejores. Sin embargo, preguntaremos sobre tus sentimientos al despertar por separado — incluso el mismo símbolo puede tener diferentes significados dependiendo de la situación."
           }
         ]
       },
@@ -528,7 +528,7 @@ export const ES_DOCS = {
             "p": "Color {categoryColor} y número {categoryNumber} no tienen significados inherentemente buenos o malos. Así como una serpiente blanca y una serpiente negra son diferentes, sus significados cambian dependiendo de **con qué estén asociados**. Por lo tanto, estas dos categorías se consideran en conjunto con otros símbolos."
           },
           {
-            "p": "Una lista completa por categoría está disponible en el [Diccionario de Símbolos](/dream/symbols). Abrir un símbolo mostrará su significado transmitido, categoría y símbolos relacionados."
+            "p": "Una lista completa por categoría está disponible en el [diccionario de símbolos](/dream/symbols). Abrir un símbolo mostrará su significado tradicional, categoría y símbolos relacionados."
           }
         ]
       }
@@ -537,17 +537,17 @@ export const ES_DOCS = {
   "guide/not-found": {
     "eyebrow": "Cómo usar",
     "title": "Cuando un símbolo no puede ser encontrado",
-    "summary": "Si no puedes encontrarlo, te informaré que no se encuentra. Discutiré por qué no puede ser encontrado, qué te mostraré en su lugar en esa pantalla, y cómo se expande el diccionario.",
+    "summary": "Si no puedes encontrarlo, te informaremos que no se encuentra. discutiremos por qué no puede ser encontrado, qué te mostraremos en su lugar en esa pantalla, y cómo se expande el diccionario.",
     "backLabel": "Base de interpretación",
     "sections": [
       {
-        "title": "Cuando no se encuentra, te informaré que no se encuentra",
+        "title": "Cuando no se encuentra, te informaremos que no se encuentra",
         "blocks": [
           {
-            "p": "Si no puedo encontrar ningún símbolo en el texto que proporcionaste, te **informaré que no se encuentra.** No forzaré una asociación con algo similar ni crearé oraciones plausibles para llenar el espacio."
+            "p": "Si no podemos encontrar ningún símbolo en el texto que proporcionaste, te **informaremos que no se encuentra.** no forzaremos una asociación con algo similar ni crearemos oraciones plausibles para llenar el espacio."
           },
           {
-            "p": "Esto es de lo que este servicio es más cauteloso. En el momento en que lleno un vacío, contradice la declaración de transmitir interpretaciones."
+            "p": "Esto es lo que este servicio tiene más cuidado. En el momento en que llenamos un vacío, rompe la promesa de que solo transmitimos interpretaciones transmitidas."
           }
         ]
       },
@@ -560,7 +560,7 @@ export const ES_DOCS = {
           {
             "ul": [
               "**Es un símbolo que aún no está en el diccionario.** Actualmente, hay {symbolTotal} símbolos listados, pero hay muchos más que podrían aparecer en los sueños.",
-              "**Solo escribiste sentimientos.** Si solo hay emociones como 「tenía miedo」·「me sentí extraño」, no hay símbolos que se puedan asociar. La 해몽 tradicional habla de **objetos y acciones visibles** en lugar de emociones.",
+              "**Solo escribiste sentimientos.** Si solo hay emociones como 「tenía miedo」·「me sentí extraño」, no hay símbolos que puedan ser emparejados. La interpretación de sueños tradicional habla de **objetos y acciones visibles** en lugar de emociones.",
               "**Es demasiado corto.** Es mejor escribir en oraciones en lugar de una o dos palabras."
             ]
           }
@@ -576,13 +576,13 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "No dejo una pantalla en blanco",
+        "title": "no dejamos una pantalla en blanco",
         "blocks": [
           {
-            "p": "Cuando algo no puede ser encontrado, también mostraré **{popularSymbolCount} símbolos buscados con frecuencia** en esa pantalla. Estos son seleccionados del diccionario en función de su representatividad, lo que puede ayudarte a recordar si uno de ellos apareció en tu sueño."
+            "p": "Cuando algo no puede ser encontrado, también mostraremos **{popularSymbolCount} símbolos buscados con frecuencia** en esa pantalla. Estos son seleccionados del diccionario en función de su representatividad, lo que puede ayudarte a recordar si uno de ellos apareció en tu sueño."
           },
           {
-            "p": "Si deseas navegar por la lista completa, hay {symbolTotal} símbolos organizados por categoría en el [Diccionario de Símbolos](/dream/symbols). Cada símbolo incluye su significado transmitido y símbolos relacionados."
+            "p": "Si deseas explorar la lista completa, hay {symbolTotal} símbolos organizados por categoría en el [diccionario de símbolos](/dream/symbols). Cada símbolo incluye su significado tradicional y símbolos relacionados."
           }
         ]
       },
@@ -590,10 +590,10 @@ export const ES_DOCS = {
         "title": "¿Cómo se expandirá el diccionario en el futuro?",
         "blocks": [
           {
-            "p": "En lugar de aumentar los números, me estoy enfocando en **identificar con precisión lo que ya está allí**. He incluido {aliasTotal} nombres alternativos para el mismo símbolo, y he hecho posible reconocer palabras que cambian de forma con sufijos."
+            "p": "En lugar de aumentar los números, nos estamos enfocando en **identificar con precisión lo que ya está allí**. hemos incluido {aliasTotal} nombres alternativos para el mismo símbolo, y hemos hecho posible reconocer palabras que cambian de forma con sufijos."
           },
           {
-            "p": "Al expandir los símbolos en sí, solo incluiré aquellos que puedan **proporcionar evidencia transmitida.** Simplemente aumentar los números sin evidencia se convierte en creación en lugar de un diccionario — he documentado los intentos y resultados en [Por qué no uso modelos](/guide/no-ai)."
+            "p": "Al expandir los símbolos en sí, solo incluiremos aquellos que puedan **proporcionar una fuente tradicional documentada.** Simplemente aumentar los números sin evidencia se convierte en creación en lugar de un diccionario — hemos documentado los intentos y resultados en [por qué no usamos modelos](/guide/no-ai)."
           }
         ]
       }
@@ -601,18 +601,18 @@ export const ES_DOCS = {
   },
   "guide/no-ai": {
     "eyebrow": "Base del servicio",
-    "title": "Razones para no usar inteligencia artificial en 해몽",
-    "summary": "No hay código que llame a un modelo en el proceso de creación de interpretaciones. He abandonado el intento de expandir el diccionario utilizando un modelo basado en resultados empíricos, y así lo que se ganó y lo que se renunció.",
+    "title": "Razones para no usar inteligencia artificial en la interpretación de sueños",
+    "summary": "No hay código que llame a un modelo en el proceso de creación de la interpretación. hemos abandonado el intento de expandir el diccionario utilizando un modelo basado en resultados empíricos, y así lo que se ganó y lo que se renunció.",
     "backLabel": "Base de interpretación",
     "sections": [
       {
-        "title": "No se utiliza inteligencia artificial en 해몽",
+        "title": "No se utiliza inteligencia artificial en la interpretación de sueños",
         "blocks": [
           {
-            "p": "Muchos servicios actuales de 해몽 muestran textos generados al insertar historias de sueños en modelos generativos. Dreams-Link no hace eso. **No hay código que llame a un modelo en el proceso de creación de interpretaciones.**"
+            "p": "Muchos servicios actuales de interpretación de sueños muestran textos generados al insertar historias de sueños en modelos generativos. Dreams-Link no hace eso. **No hay código que llame a un modelo en el proceso de creación de la interpretación.**"
           },
           {
-            "p": "Lo que hago es simple. Encuentro símbolos en el texto que proporcionas que están en el diccionario y selecciono y muestro los significados que el diccionario ha escrito para esos símbolos. No hay lugar para oraciones que no estén en el diccionario."
+            "p": "Lo que hacemos es simple. buscamos símbolos en el texto que proporcionas que están en el diccionario y seleccionamos y mostramos los significados que el diccionario ha escrito para esos símbolos. No hay lugar para oraciones que no estén en el diccionario."
           }
         ]
       },
@@ -620,10 +620,10 @@ export const ES_DOCS = {
         "title": "¿Por qué se tomó esta decisión?",
         "blocks": [
           {
-            "p": "**Los modelos no dicen que no saben lo que no saben.** Cuando se les pregunta sobre símbolos sin evidencia transmitida, fabrican orígenes plausibles. Y si es fabricado o no es algo que el lector no puede discernir. Si uno inserta creación en lugar de transmitir tradición, la premisa del servicio colapsa."
+            "p": "**Los modelos no dicen que no saben lo que no saben.** Cuando se les pregunta sobre símbolos sin una fuente tradicional documentada, fabrican orígenes plausibles. Y si es fabricado o no es algo que el lector no puede discernir. Si uno inserta creación en lugar de transmitir tradición, la premisa del servicio colapsa."
           },
           {
-            "p": "De hecho, he intentado que un modelo cree símbolos para expandir el diccionario. De sesenta y seis ejemplos que valían la pena considerar, **cincuenta y cinco no pudieron proporcionar ninguna evidencia transmitida**, y algunos incluían cosas que no podían existir en la 해몽 tradicional, como metros y autopistas. Por lo tanto, **ninguno fue incluido.**"
+            "p": "hemos intentado que un modelo cree símbolos para expandir el diccionario. De sesenta y seis ejemplos que valían la pena considerar, **cincuenta y cinco no pudieron proporcionar ninguna fuente tradicional documentada**, y algunos incluían cosas que no podían existir en la interpretación de sueños tradicional, como metros y autopistas. Por lo tanto, **ninguno fue incluido.**"
           }
         ]
       },
@@ -632,7 +632,7 @@ export const ES_DOCS = {
         "title": "Lo mismo fue cierto incluso con modelos más grandes",
         "blocks": [
           {
-            "p": "Cuando intenté la misma tarea con un modelo mejor, solo uno de diecinueve pasó, y ese solo fue una repetición de las mismas palabras en la posición de evidencia. Los modelos más grandes solo hablan **más plausiblemente** sobre lo que no saben."
+            "p": "Cuando intentamos la misma tarea con un modelo mejor, solo uno de diecinueve pasó, y ese solo fue una repetición de las mismas palabras en la posición de evidencia. Los modelos más grandes solo hablan **más plausiblemente** sobre lo que no saben."
           }
         ]
       },
@@ -643,7 +643,7 @@ export const ES_DOCS = {
             "ul": [
               "**Si es el mismo sueño, la misma interpretación saldrá.** La redacción no cambia cada vez.",
               "**Es rápido.** No hay espera por la respuesta de un modelo, por lo que los resultados se entregan de inmediato.",
-              "**El sueño que proporcionaste no sale afuera.** No hay necesidad de enviarlo a servidores externos de la empresa — por favor, lee junto con [el método de no almacenar](/guide/no-storage).",
+              "**El sueño que proporcionaste no sale.** No hay necesidad de enviarlo a servidores externos de la empresa — por favor, lee junto con [el método de no almacenar](/guide/no-storage).",
               "**Se puede ofrecer de forma gratuita.** Los sueños son algo que soñamos todos los días, por lo que hay muchas consultas. Si se llama a un modelo para cada consulta, los costos deben ser cubiertos en algún lugar."
             ]
           }
@@ -653,14 +653,14 @@ export const ES_DOCS = {
         "title": "Qué se sacrifica en su lugar",
         "blocks": [
           {
-            "p": "No podemos interpretar lo que no está en el diccionario. Si se hubiera utilizado un modelo, cualquier cosa que escribieras habría producido una respuesta plausible. Elegimos el lado que **dice que no se pudo encontrar cuando no se pudo encontrar.** Lo que mostramos en ese momento está escrito en [cuando un símbolo no puede ser encontrado](/guide/not-found)."
+            "p": "No podemos interpretar lo que no está en el diccionario. Si se hubiera utilizado un modelo, cualquier cosa que escribieras habría producido una respuesta plausible. Elegimos el lado que **dice que no se pudo encontrar cuando no se pudo encontrar**. Lo que mostramos en ese momento está escrito en [cuando no se puede encontrar un símbolo](/guide/not-found)."
           }
         ]
       }
     ]
   },
   "guide/reports": {
-    "eyebrow": "Productos Pagados",
+    "eyebrow": "Productos de Pago",
     "title": "Dos Maneras de Conservar Tus Sueños",
     "summary": "La interpretación en sí no incurre en una tarifa. Explicamos cuáles son las dos cosas que vendemos, qué contienen y por qué no son mejores interpretaciones.",
     "backLabel": "Base de Interpretación",
@@ -688,22 +688,22 @@ export const ES_DOCS = {
         ]
       },
       {
-        "title": "Informe de 태몽 — Documento {conceptionPages} Páginas",
+        "title": "Informe de Sueño de Concepción — Documento de {conceptionPages} Páginas",
         "blocks": [
           {
-            "p": "Para los sueños que muestran símbolos interpretados como 태몽 (sueños de concepción), creamos un **documento de {conceptionPages} páginas.** Incluye qué símbolos aparecieron, cómo esos símbolos han sido tradicionalmente interpretados y un lugar para registrar eso."
+            "p": "Para los sueños que muestran símbolos interpretados como sueños de concepción, creamos un **documento de {conceptionPages} páginas.** Incluye qué símbolos aparecieron, cómo esos símbolos han sido tradicionalmente interpretados y un lugar para registrarlo."
           },
           {
-            "p": "Dado que los 태몽 a menudo se discuten y comparten entre los miembros de la familia incluso después de que nace el niño, creamos un documento separado para sueños que son demasiado preciosos para ser vistos solo en la pantalla."
+            "p": "Dado que un sueño de concepción a menudo se discute y comparte entre los miembros de la familia incluso después de que nace el niño, creamos un documento separado para sueños que son demasiado preciosos para ser vistos solo en la pantalla."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Palabras No Ditas Aquí Tampoco",
+        "title": "Palabras No Dicha Aquí Tampoco",
         "blocks": [
           {
-            "p": "No determinamos el estado de embarazo ni el género del niño. Tales declaraciones no aparecen en el documento. Para más detalles, consulta [cómo interpretar 태몽](/guide/conception-dreams)."
+            "p": "No determinamos el estado de embarazo ni el género del niño. Tales declaraciones no aparecen en el documento. Para más detalles, consulta [cómo interpretar un sueño de concepción](/guide/conception-dreams)."
           }
         ]
       },
@@ -714,7 +714,7 @@ export const ES_DOCS = {
             "p": "Los servicios de hermanos proporcionan informes de nueve páginas. El motor de saju extrae muchos valores de solo una fecha de nacimiento. La interpretación de sueños no funciona de esa manera."
           },
           {
-            "p": "Los símbolos listados en el diccionario totalizan {symbolTotal}, y la mayoría de ellos tienen **un significado cada uno.** Para extender eso a nueve páginas, tendríamos que escribir significados tradicionales que no se encuentran en ningún material, y eso es exactamente lo que este servicio ha decidido no hacer. Por lo tanto, el documento es solo tan largo como los materiales honestamente permiten, y no más."
+            "p": "Los símbolos listados en el diccionario suman {symbolTotal}, y la mayoría de ellos tienen **un significado cada uno.** Para extender eso a nueve páginas, tendríamos que escribir significados tradicionales que no se encuentran en ningún material, y eso es exactamente lo que este servicio ha decidido no hacer. Por lo tanto, el documento es solo tan largo como los materiales honestamente permiten, y no más."
           }
         ]
       },
@@ -722,7 +722,7 @@ export const ES_DOCS = {
         "title": "Precios y Estado de Ventas",
         "blocks": [
           {
-            "p": "Los precios están listados en la [guía de precios](/pricing). La razón por la cual este documento no lista cantidades es intencional — para prevenir situaciones donde el documento de orientación permanezca con cantidades antiguas cuando los precios cambian. La pantalla y los términos leen la misma cantidad desde un solo lugar."
+            "p": "Los precios están listados en la [guía de precios](/pricing). La razón por la que este documento no lista cantidades es intencional — para prevenir situaciones donde el documento de orientación permanezca con cantidades antiguas cuando los precios cambian. La pantalla y los términos leen la misma cantidad de un solo lugar."
           },
           {
             "p": "Los documentos que compras pueden **recibirse nuevamente con el mismo pedido.** Sin embargo, dado que no guardamos archivos, una vez que dejas la pantalla de resultados, no puedes recrearlos — por favor, guarda los archivos que recibes."
@@ -744,7 +744,7 @@ export const ES_DOCS = {
             "p": "Dreams-Link no crea cuentas. No recopilamos nombres, correos electrónicos ni números de teléfono. Las únicas cosas que recopilamos son los sueños que escribes, cómo te sentiste al despertar y si sueñas el mismo sueño repetidamente, y eso no permanece después de que la interpretación se completa."
           },
           {
-            "p": "Las historias de sueños son los valores más privados que este servicio recibe. Por eso las reglas son más estrictas de lo necesario — ni siquiera hemos establecido un espacio para escribir lo que envías."
+            "p": "Las historias de sueños son el valor más privado que este servicio recibe. Por eso las reglas son más estrictas de lo necesario — ni siquiera hemos creado una tabla para escribir lo que envías."
           }
         ]
       },
@@ -758,7 +758,7 @@ export const ES_DOCS = {
             "p": "**/ko/dream/result#eyJ0IjoiSSBkcmVhbXQgb2YgYSBjYXJwLi4u**"
           },
           {
-            "p": "Lo que sigue **#** es el valor de entrada. Esta parte se llama **fragmento**, que es una **parte que el navegador no envía al servidor.** Este es un comportamiento web estándar y no una regla que creamos — fue diseñado originalmente para indicar una ubicación dentro de un documento, por lo que el servidor no tiene necesidad de verlo."
+            "p": "Lo que sigue **#** es el valor de entrada. Esta parte se llama **fragmento**, que es una **parte que el navegador no envía al servidor**. Este es un comportamiento web estándar y no una regla que creamos — fue diseñado originalmente para indicar una ubicación dentro de un documento, por lo que el servidor no tiene necesidad de verlo."
           },
           {
             "p": "Aquí, esta propiedad es particularmente importante — el sueño que proporcionaste **no permanece en los registros de acceso.**"
@@ -781,23 +781,23 @@ export const ES_DOCS = {
         "title": "¿Por qué se realiza el cálculo en el servidor pero no se almacena?",
         "blocks": [
           {
-            "p": "El cálculo en sí se realiza en el servidor. Encontrar símbolos requiere todo el diccionario, y ese diccionario es demasiado grande para ser enviado al navegador. Mantener el diccionario en el servidor también significa que cuando se corrige un error, se refleja para todos de una vez. Sin embargo, **después de procesar la solicitud, ese valor no se utiliza en ningún lugar.** No hay código para insertarlo en la base de datos."
+            "p": "El cálculo en sí se realiza en el servidor. Encontrar símbolos requiere todo el diccionario, y ese diccionario es demasiado grande para ser enviado al navegador. Mantener el diccionario en el servidor también significa que cuando se corrige un error, se refleja para todos a la vez. Sin embargo, **después de procesar la solicitud, ese valor no se utiliza en ninguna parte.** No hay código para insertarlo en la base de datos."
           },
           {
-            "p": "Se mantiene un registro mínimo necesario para la operación — un contador para prevenir que la misma persona envíe demasiadas solicitudes en un corto período de tiempo. Esto no incluye el contenido del sueño, y la IP de acceso tampoco se retiene. Solo se cuenta un valor, hasheado con la fecha, y ese valor cambia cuando cambia el día."
+            "p": "Se mantiene un registro mínimo necesario para la operación — un contador para prevenir que la misma persona envíe demasiadas solicitudes en un corto período de tiempo. Esto no incluye el contenido del sueño, y la IP de acceso tampoco se retiene. Solo se cuenta un valor, hashado con la fecha, y ese valor cambia cuando cambia el día."
           }
         ]
       },
       {
-        "title": "Lo que no se puede hacer porque no se almacena",
+        "title": "Qué no se puede hacer porque no se almacena",
         "blocks": [
           {
             "p": "Para ser honesto, hay cosas que hemos sacrificado porque no almacenamos datos."
           },
           {
             "ul": [
-              "**No hay diario de sueños.** No puedes recuperar la interpretación de la semana pasada, y debes tener el enlace para volver a verlo. Esto se hace intencionalmente — para crear un diario, los escritos más privados deben almacenarse continuamente.",
-              "**Encontrar el mismo valor nuevamente.** No hay caché. En su lugar, el diccionario es fijo, y las reglas de coincidencia son determinísticas, por lo que el mismo texto siempre dará el mismo símbolo — las reglas reemplazan lo que la caché habría garantizado.",
+              "**No hay diario de sueños.** No puedes recuperar la interpretación de la semana pasada, y debes tener el enlace para verla nuevamente. Esto se hace intencionalmente — para crear un diario, los escritos más privados deben ser almacenados continuamente.",
+              "**Calculamos el mismo valor nuevamente cada vez.** No hay caché. En su lugar, el diccionario es fijo, y las reglas de coincidencia son determinísticas, por lo que el mismo texto siempre dará el mismo símbolo — las reglas reemplazan lo que la caché habría garantizado.",
               "**Actualizar traerá de nuevo la puerta de publicidad.** Esto se debe a que no hay lugar para dejar registros de visualización."
             ]
           }
@@ -807,7 +807,7 @@ export const ES_DOCS = {
         "title": "En caso de compra",
         "blocks": [
           {
-            "p": "Si compras un informe, se mantendrá un registro de la transacción en ese momento. El pago tiene un período de retención definido legalmente, y sin un historial de pedidos, no se pueden procesar reembolsos. Sin embargo, incluso entonces, **el contenido del sueño escrito en la interpretación no se adjunta al pedido** — se recibe nuevamente y se escribe en ese momento al crear el documento después de la confirmación del pago."
+            "p": "Si compras un informe, se mantendrá un registro de la transacción en ese momento. El pago tiene un período de retención definido legalmente, y sin un historial de pedidos, no se pueden procesar reembolsos. Sin embargo, incluso entonces, **el texto del sueño utilizado para la lectura no se adjunta al pedido** — se recibe nuevamente y se escribe en ese momento al crear el documento después de la confirmación del pago."
           },
           {
             "p": "Para más detalles, consulta la [política de privacidad](/privacy)."
@@ -847,7 +847,7 @@ export const ES_DOCS = {
             "ul": [
               "**Pago y Reembolso** — Si el documento no ha sido creado o el monto del pago difiere del pedido, se proporcionará un reembolso completo. Las condiciones están en la [política de reembolso](/refund-policy).",
               "**Información Personal** — Aceptamos solicitudes de acceso, corrección y eliminación. La política de procesamiento está en la [política de privacidad](/privacy).",
-              "**Informar Errores de Interpretación** — Si se encontraron símbolos incorrectamente o la interpretación parece extraña, por favor háznoslo saber. Si incluyes cuándo escribiste esa historia de sueño, podemos revisarla nuevamente con el mismo texto."
+              "**Informar Errores de Interpretación** — Si se encontraron símbolos incorrectamente o la interpretación parece extraña, háznoslo saber. Si incluyes cuándo escribiste esa historia de sueño, podemos revisarla nuevamente con el mismo texto."
             ]
           }
         ]
@@ -857,10 +857,10 @@ export const ES_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Nombre Comercial** — {companyName}",
+              "**Nombre de la Empresa** — {companyName}",
               "**Representante** — {representative}",
               "**Número de Registro Comercial** — {businessNumber}",
-              "**Número de Registro de Comercio por Correo** — {mailOrderNumber}",
+              "**Número de Registro de Negocios por Correo** — {mailOrderNumber}",
               "**Dirección** — {address}",
               "**Centro de Atención al Cliente** — {customerCenter}",
               "**Correo Electrónico** — {email}",
@@ -890,10 +890,10 @@ export const ES_DOCS = {
         "title": "No proporcionamos números de lotería",
         "blocks": [
           {
-            "p": "Aunque se aborda comúnmente en los servicios de interpretación de sueños, no hacemos esto. **No hay base en la interpretación de sueños tradicional para extraer números de los sueños.** Aunque hay registros de interpretar sueños con cerdos como riqueza, no hay ninguna regla en la literatura que produzca seis números a partir de eso."
+            "p": "Aunque se aborda comúnmente en los servicios de interpretación de sueños, no hacemos esto. **No hay base en la interpretación de sueños tradicional para extraer números de los sueños.** Si bien hay registros de interpretar sueños de cerdos como riqueza, no hay ninguna regla en la literatura que produzca seis números a partir de eso."
           },
           {
-            "p": "Para crearlos, tendríamos que inventarlos, y en ese momento, este servicio ya no sería un lugar para transmitir las interpretaciones que la tradición ha transmitido. Esto es especialmente preocupante ya que podría llevar a pérdidas financieras."
+            "p": "Para crearlos, tendríamos que inventarlos, y en ese momento, este servicio ya no sería un lugar para transmitir las interpretaciones que la tradición ha legado. Esto es especialmente preocupante ya que podría llevar a pérdidas financieras."
           }
         ]
       },
@@ -901,7 +901,7 @@ export const ES_DOCS = {
         "title": "No creamos diarios de sueños",
         "blocks": [
           {
-            "p": "Si bien sería conveniente tener una función para recopilar sueños pasados, requeriría que **almacenemos continuamente los sueños que proporcionas.** Las narrativas de sueños son el aspecto más privado de lo que este servicio recibe, y hemos decidido no intercambiar eso."
+            "p": "Si bien sería conveniente tener una función para recopilar sueños pasados, requeriría que **almacenáramos continuamente los sueños que proporcionas.** Las narrativas de sueños son el aspecto más privado de lo que este servicio recibe, y hemos decidido no intercambiar eso."
           },
           {
             "p": "En su lugar, los sueños que deseas conservar pueden ser **tomados como imágenes o documentos.** La responsabilidad del almacenamiento recae en los usuarios, no en nosotros — [Dos Maneras de Conservar Tus Sueños](/guide/reports)"
@@ -912,7 +912,7 @@ export const ES_DOCS = {
         "title": "No determinamos el embarazo o el género",
         "blocks": [
           {
-            "p": "Solo afirmaremos que ha aparecido un símbolo interpretado como un 태몽 (sueño de concepción). Si estás embarazada o si el niño es una hija o un hijo **no es algo que se pueda saber a través de los sueños.** Tales afirmaciones no aparecen en la pantalla ni en documentos pagados."
+            "p": "Solo afirmaremos que ha aparecido un símbolo interpretado como un a conception dream (sueño de concepción). Si estás embarazada o si el niño es una hija o un hijo **no es algo que se pueda conocer a través de los sueños.** Tales afirmaciones no aparecen en la pantalla ni en documentos de pago."
           }
         ]
       },
@@ -920,7 +920,7 @@ export const ES_DOCS = {
         "title": "No vendemos talismanes o amuletos",
         "blocks": [
           {
-            "p": "Solo porque un símbolo se interprete como cauteloso no significa que haya una razón para comprar algo. Un 흉몽 (sueño ominoso) se ha utilizado tradicionalmente para **indicar una situación a examinar ahora**, no para pagar para evitar algo."
+            "p": "Un símbolo leído como inauspicioso no es razón para comprar nada. Un sueño inauspicioso se ha utilizado tradicionalmente para **indicar una situación a examinar ahora**, no para pagar para evitar algo."
           },
           {
             "p": "No creamos ansiedad para vender algo basado en ello. Las únicas cosas que vendemos son las dos mencionadas anteriormente, y ninguna proporciona interpretación adicional, sino más bien **maneras de conservar el mismo contenido.**"
@@ -932,7 +932,7 @@ export const ES_DOCS = {
         "title": "No hacemos afirmaciones definitivas sobre el futuro",
         "blocks": [
           {
-            "p": "No hacemos afirmaciones definitivas sobre si algo sucederá, cuándo sucederá, o sobre salud, riqueza o longevidad. Transmitir los significados de símbolos tradicionales y predecir el futuro son asuntos diferentes."
+            "p": "No hacemos afirmaciones definitivas sobre si algo sucederá, cuándo sucederá, o sobre salud, riqueza o longevidad. Transmitir los significados de los símbolos tradicionales y predecir el futuro son asuntos diferentes."
           }
         ]
       },
@@ -940,7 +940,7 @@ export const ES_DOCS = {
         "title": "No fabricamos interpretaciones que no existen",
         "blocks": [
           {
-            "p": "Para símbolos que no existen en el diccionario, **afirmaremos que no pudimos encontrarlos.** No ensamblamos similares ni llenamos el espacio con oraciones plausibles. Por lo tanto, este servicio no [utiliza inteligencia artificial para la interpretación de sueños](/guide/no-ai). El modelo no dice que no sabe lo que no sabe."
+            "p": "Para símbolos que no existen en el diccionario, **afirmaremos que no pudimos encontrarlos.** No ensamblamos otros similares ni llenamos el espacio con oraciones plausibles. Por lo tanto, este servicio no [utiliza inteligencia artificial para la interpretación de sueños](/guide/no-ai). El modelo no dice que no sabe lo que no sabe."
           }
         ]
       }
@@ -955,12 +955,12 @@ export const ES_NOTICES = {
     "engine": "Cálculo",
     "support": "Soporte"
   },
-  "intro": "Los cambios en tus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Las mejoras internas, como que la pantalla se vuelva más rápida, no se publican aquí: lo que aparece aquí es lo que necesitas saber.",
+  "intro": "Los cambios en tus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Mejoras internas como que la pantalla se vuelva más rápida no se publican aquí: lo que aparece aquí es lo que necesitas saber.",
   "empty": {
     "title": "No hay avisos publicados",
     "body": "Si hay algún cambio que informarle, se publicará aquí."
   },
-  "effective": "Vigente desde {date}",
+  "effective": "Efectivo a partir de {date}",
   "pager": {
     "label": "Página de Avisos",
     "newer": "← Más Nuevo",
@@ -971,22 +971,22 @@ export const ES_NOTICES = {
       "title": "El sueño que proporcionó no está almacenado.",
       "body": [
         "Las historias de sueños son los valores más privados que este servicio recibe. Por lo tanto, no se registran en ninguna tabla. La entrada solo se lleva en la dirección del resultado para el cálculo, y una vez que se cierra la ventana, desaparece.",
-        "Decidimos no crear una función que recoja sueños y muestre el flujo (diario de sueños). Es una función útil, pero para hacerlo, los escritos más privados deben almacenarse continuamente.",
+        "Decidimos no crear una función que recoja sueños y muestre el flujo (diario de sueños). Es una función útil, pero para hacerlo, los escritos más privados deben ser almacenados continuamente.",
         "Cuando envíe el enlace del resultado a otros, contiene el contenido del sueño. Por favor, tenga cuidado al compartir."
       ]
     },
     "2026-08-06-engine-version": {
       "title": "Los resultados incluyen el diccionario de símbolos y criterios de cálculo.",
       "body": [
-        "La base para la interpretación es el diccionario de símbolos de 해몽 (interpretación de sueños) tradicional. Los resultados y documentos incluirán la versión de ese diccionario (por ejemplo, 1.2.0) y los criterios para encontrar reglas (por ejemplo, dream-1.0.0). El mismo sueño siempre producirá el mismo símbolo basado en los mismos criterios.",
-        "Si agregar símbolos o cambiar significados de antemano puede alterar los resultados, este hecho se presenta aquí. Esto se debe a que los resultados que recibió anteriormente pueden cambiar.",
-        "No creamos significados tradicionales que no estén en el diccionario. Si no se encuentran símbolos, simplemente afirmamos que no se encontraron y concluimos."
+        "La base para la interpretación es el diccionario de símbolos de interpretación de sueños tradicional. Los resultados y documentos incluirán la versión de ese diccionario (por ejemplo, 1.2.0) y la versión de las reglas de coincidencia (por ejemplo, dream-1.0.0). El mismo sueño siempre producirá el mismo símbolo basado en los mismos criterios.",
+        "Si añadimos símbolos al diccionario o cambiamos significados de una manera que pueda alterar los resultados, este hecho se presentará aquí. Esto se debe a que los resultados que recibió anteriormente pueden cambiar.",
+        "No creamos significados tradicionales que no estén en el diccionario. Si no se encuentran símbolos, simplemente indicamos que no se encontraron y concluimos."
       ]
     },
     "2026-08-06-conception": {
-      "title": "Solo le informamos sobre 태몽 y no hacemos juicios.",
+      "title": "Solo le informamos sobre un sueño de concepción y no hacemos juicios.",
       "body": [
-        "Si aparecen símbolos tradicionalmente vistos como 태몽 en el sueño, le informaremos de ese hecho. Sin embargo, no determinamos el estado de embarazo ni el género del niño; tales afirmaciones no tienen fundamento, y los juicios médicos son responsabilidad de las instituciones médicas.",
+        "Si aparecen símbolos tradicionalmente vistos como un sueño de concepción en el sueño, le informaremos de ese hecho. Sin embargo, no determinamos el estado de embarazo ni el género del niño — tales afirmaciones no tienen fundamento, y los juicios médicos son responsabilidad de las instituciones médicas.",
         "La mención de hijos e hijas en narrativas tradicionales es un reflejo de costumbres que han sido transmitidas, y no significa que estemos prediciendo correctamente."
       ]
     }

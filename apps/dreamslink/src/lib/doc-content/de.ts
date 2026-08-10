@@ -5,18 +5,18 @@ import type { DocKey } from "./ko";
 export const DE_DOCS = {
   "about": {
     "eyebrow": "Einführung",
-    "title": "Einführung in Dreams-Link",
-    "summary": "Dies ist ein Dienst, der Träume mithilfe eines traditionellen Wörterbuchs für Traumdeutung interpretiert. Es wird klargestellt, was als Grundlage verwendet wird und was nicht erwähnt wird.",
+    "title": "Einführung zu Dreams-Link",
+    "summary": "Dies ist ein Service, der Träume mithilfe eines traditionellen Wörterbuchs für Traumdeutung interpretiert. Es wird klargestellt, was als Grundlage verwendet wird und was nicht erwähnt wird.",
     "backLabel": "Zurück zur Startseite",
     "sections": [
       {
         "title": "Was machen wir?",
         "blocks": [
           {
-            "p": "Dreams-Link findet **Symbole, die in der traditionellen Traumdeutung verwendet werden** aus den Träumen, die Sie aufschreiben, und zeigt deren Bedeutungen an. Da Träume etwas sind, das wir täglich erleben, sind die auf dem Bildschirm angezeigten Interpretationen **kostenlos und erfordern keine Mitgliedschaft.**"
+            "p": "Dreams-Link findet **Symbole, die in der traditionellen Traumdeutung verwendet werden** aus den Träumen, die Sie aufschreiben, und zeigt deren Bedeutungen. Da Träume etwas sind, das wir täglich erleben, sind die auf dem Bildschirm angezeigten Interpretationen **kostenlos und erfordern keine Mitgliedschaft.**"
           },
           {
-            "p": "Die einzigen Dinge, die gegen Gebühr verkauft werden, sind **zwei Formen der Bewahrung** — ein Bild (Traumkarte), das einen guten Traum enthält, und ein PDF, das den Hintergrund festhält, wenn ein Symbol, das traditionell als 태몽 (Konzeptionstraum) betrachtet wird, erscheint."
+            "p": "Die einzigen Dinge, die gegen Gebühr verkauft werden, sind **zwei Formen der Bewahrung** — ein Bild (Traumkarte), das einen guten Traum enthält, und ein PDF, das den Hintergrund festhält, wenn ein Symbol, das traditionell als a conception dream (Empfängnisträum) angesehen wird, erscheint."
           }
         ]
       },
@@ -24,7 +24,7 @@ export const DE_DOCS = {
         "title": "Was ist die Grundlage für die Interpretation?",
         "blocks": [
           {
-            "p": "Die Grundlage für die Interpretation ist ein **Wörterbuch von {symbolTotal} Symbolen**. Wir finden Symbole im Traumtext und zeigen nur die Bedeutungen an, die im Wörterbuch für diese Symbole aufgezeichnet sind. Wenn ein Symbol mehrere Bedeutungen hat, wählen wir basierend auf dem Kontext — zum Beispiel wird das Halten einer Schlange und das Gebissenwerden traditionell als Gegensätze betrachtet."
+            "p": "Die Grundlage für die Interpretation ist ein **Wörterbuch von {symbolTotal} Symbolen**. Wir finden Symbole im Traumtext und zeigen nur die Bedeutungen, die im Wörterbuch für diese Symbole aufgezeichnet sind. Wenn ein Symbol mehrere Bedeutungen hat, wählen wir basierend auf dem Kontext — zum Beispiel wird das Halten einer Schlange und das Gebissenwerden traditionell als Gegensätze betrachtet."
           },
           {
             "p": "Die Suche erfolgt **nur nach festen Regeln**. Wenn es der gleiche Traum ist, werden immer die gleichen Symbole erscheinen, und die Interpretation wird sich von gestern bis heute nicht ändern."
@@ -35,10 +35,10 @@ export const DE_DOCS = {
         "title": "Was sagen wir nicht?",
         "blocks": [
           {
-            "p": "**Wir erfinden keine traditionellen Bedeutungen, die nicht im Wörterbuch stehen.** Wenn keine Symbole gefunden werden, geben wir einfach an, dass keine gefunden wurden, und schließen ab. Diese Lücke mit plausiblen Worten zu füllen, ist das, worauf dieser Dienst am vorsichtigsten achtet."
+            "p": "**Wir erfinden keine traditionellen Bedeutungen, die nicht im Wörterbuch stehen.** Wenn keine Symbole gefunden werden, geben wir einfach an, dass keine gefunden wurden, und schließen ab. Diese Lücke mit plausiblen Worten zu füllen, ist das, worauf dieser Service am vorsichtigsten achtet."
           },
           {
-            "p": "**Ein 태몽 ist lediglich ein Zeichen, kein Urteil.** Wir informieren Sie nur darüber, dass ein Symbol, das traditionell als 태몽 betrachtet wird, im Traum erschien. Wir sagen keine Schwangerschaft oder das Geschlecht des Kindes voraus, und es gibt keine Grundlage für solche Behauptungen."
+            "p": "**Ein a conception dream (Empfängnisträum) ist lediglich ein Zeichen, kein Urteil.** Wir informieren Sie nur darüber, dass ein Symbol, das traditionell als a conception dream (Empfängnisträum) angesehen wird, im Traum erschienen ist. Wir sagen nicht voraus, ob eine Schwangerschaft oder das Geschlecht des Kindes eintreten wird, und es gibt keine Grundlage für solche Behauptungen."
           },
           {
             "p": "Wir machen keine **definitiven Aussagen über Gesundheit, Wohlstand oder Karriere.** Dies ist eine Referenz aus der Perspektive der traditionellen Traumdeutung und stellt keinen medizinischen, finanziellen oder rechtlichen Rat dar."
@@ -49,10 +49,10 @@ export const DE_DOCS = {
         "title": "Wir speichern die Träume, die Sie aufschreiben, nicht.",
         "blocks": [
           {
-            "p": "Traumgeschichten sind der privateste Teil dessen, was dieser Dienst erhält. Daher **speichern wir sie nicht.** Die Eingaben werden nur für Berechnungen verwendet und nicht in Serverprotokollen aufgezeichnet."
+            "p": "Traumgeschichten sind der privateste Teil dessen, was dieser Service erhält. Daher **speichern wir sie nicht.** Was Sie eingeben, wird nur in der URL übertragen und für die Deutung verwendet; es wird nicht in einer Tabelle auf unseren Servern aufgezeichnet."
           },
           {
-            "p": "Wir haben beschlossen, **keine Funktion zu erstellen, um Träume wie ein Traumtagebuch zu sammeln.** Es ist eine wertvolle Funktion, aber sie würde erfordern, die privatesten Schriften aufzubewahren."
+            "p": "Wir haben beschlossen, **keine Funktion zu schaffen, um Träume wie ein Traumtagebuch zu sammeln.** Es ist eine wertvolle Funktion, aber sie würde erfordern, die privatesten Schriften aufzubewahren."
           }
         ]
       },
@@ -60,7 +60,7 @@ export const DE_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Die Methode wird ausführlicher im [Leitfaden-Dokument](/guide) beschrieben. Geschäftsinformationen und Kontaktdaten finden Sie unter [Kontakt](/contact)."
+            "p": "Die Methode wird detaillierter im [Leitfaden-Dokument](/guide) beschrieben. Geschäftsinformationen und Kontaktdaten finden Sie unter [Kontaktieren Sie uns](/contact)."
           }
         ]
       }
@@ -69,30 +69,30 @@ export const DE_DOCS = {
   "guide": {
     "eyebrow": "Basis für die Berechnung",
     "title": "Was ist die Grundlage für die Berechnung?",
-    "summary": "Wir legen alle Regeln offen, die Dreams-Link verwendet. Sie können überprüfen, welche Symbole gefunden werden, was im Wörterbuch geschrieben steht — woher die auf dem Bildschirm angezeigten Interpretationen stammen.",
+    "summary": "Wir legen alle Regeln offen, die Dreams-Link verwendet. Sie können überprüfen, welche Symbole gefunden werden, was im Wörterbuch steht — woher die auf dem Bildschirm angezeigten Interpretationen stammen.",
     "backLabel": "Zurück zur Startseite",
     "sections": [
       {
         "kind": "note",
         "blocks": [
           {
-            "p": "Alle hier geschriebenen Zahlen werden **direkt aus dem Symbolwörterbuch und den Suchregeln gelesen.** Da wir den Text nicht manuell transkribieren, werden die Zahlen in diesen Dokumenten auch geändert, wenn das Wörterbuch erweitert oder die Regeln geändert werden."
+            "p": "Alle hier geschriebenen Zahlen werden **direkt aus dem Symbolwörterbuch und den passenden Regeln gelesen.** Da wir den Text nicht manuell transkribieren, werden die Zahlen in diesen Dokumenten auch geändert, wenn das Wörterbuch erweitert oder die Regeln geändert werden."
           }
         ]
       }
     ]
   },
   "guide/symbol-dictionary": {
-    "eyebrow": "Basis für den Dienst",
+    "eyebrow": "Basis für den Service",
     "title": "Was ist die Grundlage des Symbolwörterbuchs?",
-    "summary": "Es wird klargestellt, woher die Interpretationen stammen. Die Kriterien für die Unterteilung von 215 Symbolen in neun Kategorien, der Grund, warum nur 24 substantiierbar sind, und warum wir die Lücken nicht füllen.",
+    "summary": "Es wird klargestellt, woher die Interpretationen stammen. Die Kriterien für die Unterteilung von 215 Symbolen in neun Kategorien, der Grund, warum nur 24 substantiell sein können, und warum wir die Lücken nicht füllen.",
     "backLabel": "Basis für die Interpretation",
     "sections": [
       {
         "title": "Wir zeigen nur, was im Wörterbuch steht.",
         "blocks": [
           {
-            "p": "Die Interpretationen von Dreams-Link stammen aus einem **vorgeschriebenen Symbolwörterbuch**. Wir finden Symbole im Text, den Sie bereitstellen, und zeigen die Bedeutungen an, die im Wörterbuch für diese Symbole aufgezeichnet sind. Wir erstellen keine Wörter, die nicht im Wörterbuch stehen."
+            "p": "Die Interpretationen von Dreams-Link stammen aus einem **vorab geschriebenen Symbolwörterbuch**. Wir finden Symbole im Text, den Sie bereitstellen, und zeigen die Bedeutungen, die im Wörterbuch für diese Symbole aufgezeichnet sind. Wir erstellen keine Wörter, die nicht im Wörterbuch stehen."
           },
           {
             "p": "Derzeit enthält das Wörterbuch **{symbolTotal} Symbole**, und diese Symbole haben insgesamt **{meaningTotal} Bedeutungen**. Die meisten Symbole haben nur eine Bedeutung, während einige je nach Kontext mehrere haben."
@@ -107,7 +107,7 @@ export const DE_DOCS = {
           },
           {
             "ul": [
-              "**Objekte**({categoryThing}) · **Tiere**({categoryAnimal}) · **Natur**({categoryNature}) — die drei größten Kategorien. Die traditionelle Traumdeutung diskutiert hauptsächlich sichtbare Objekte, Tiere und Elemente des Himmels und des Wassers.",
+              "**Objekte**({categoryThing}) · **Tiere**({categoryAnimal}) · **Natur**({categoryNature}) — die drei größten Kategorien. Die traditionelle Traumdeutung diskutiert hauptsächlich sichtbare Objekte, Tiere und Elemente des Himmels und Wassers.",
               "**Handlungen**({categoryAction}) · **Körper**({categoryBody}) — was getan wurde, wie verfolgt werden oder fallen, und wo am Körper, wie im Gesicht oder Haar.",
               "**Menschen**({categoryPerson}) · **Orte**({categoryPlace}) · **Farben**({categoryColor}) · **Zahlen**({categoryNumber})"
             ]
@@ -118,13 +118,13 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "Nur {cultureNoteTotal} können substantiierbar sein.",
+        "title": "Nur {cultureNoteTotal} können substantiell sein.",
         "blocks": [
           {
             "p": "Unter den Symbolen haben **{cultureNoteTotal}** Gründe für die Interpretation, die neben ihnen geschrieben sind. Zum Beispiel der Grund für die Unterscheidung zwischen oberen und unteren Zähnen in einem Traum vom Zahnverlust. Die verbleibenden Symbole haben leere Stellen."
           },
           {
-            "p": "**Wir haben die leeren Stellen nicht gefüllt.** Plausible Ursprünge hinzuzufügen würde das Dokument dicker machen, aber in diesem Moment würde dieses Wörterbuch nicht die Tradition vermitteln, sondern sie fabrizieren. Es ist ehrlicher, zwischen dem, was substantiierbar ist, und dem, was nicht substantiierbar ist, zu unterscheiden."
+            "p": "**Wir haben die leeren Stellen nicht gefüllt.** Plausible Ursprünge hinzuzufügen würde das Dokument dicker machen, aber in diesem Moment würde dieses Wörterbuch nicht die Tradition vermitteln, sondern sie fabrizieren. Es ist ehrlicher, zwischen dem, was substantiell sein kann und was nicht, zu unterscheiden."
           }
         ]
       },
@@ -133,7 +133,7 @@ export const DE_DOCS = {
         "title": "Gründe, das Wörterbuch nicht willkürlich zu erweitern.",
         "blocks": [
           {
-            "p": "Wir haben tatsächlich versucht, die Symbole auf Hunderte zu erweitern, aber aufgegeben. Die automatisch generierten Einträge wiederholten entweder die gleichen Phrasen wie 'Romantik → gute Beziehung' oder boten keine substantiierbaren Ursprünge. Wir kamen zu dem Schluss, dass **es besser ist, genau zu finden, was existiert**, als einfach die Zahlen zu erhöhen."
+            "p": "Wir haben tatsächlich versucht, die Symbole auf Hunderte zu erweitern, aber aufgegeben. Die automatisch generierten Einträge wiederholten entweder die gleichen Phrasen wie 'Romantik → gute Beziehung' oder boten keine dokumentierte traditionelle Quelle. Wir kamen zu dem Schluss, dass **genau zu finden, was existiert**, besser ist, als einfach die Zahlen zu erhöhen."
           }
         ]
       },
@@ -141,26 +141,26 @@ export const DE_DOCS = {
         "title": "Gut und schlecht sind durch das Wörterbuch vorbestimmt.",
         "blocks": [
           {
-            "p": "Jedes Symbol hat sowohl gute als auch schlechte Bedeutungen. **Gut {polarityPositive}**, **ambivalent {polarityAmbivalent}**, **vorsichtige {polarityNegative}**, und **neutral {polarityNeutral}**."
+            "p": "Jedes Symbol trägt seine aufgezeichnete Glücklichkeit mit sich. **Gut {polarityPositive}**, **ambivalent {polarityAmbivalent}**, **vorsichtige {polarityNegative}**, und **neutral {polarityNeutral}**."
           },
           {
-            "p": "Die Tatsache, dass die guten Bedeutungen mehr als die Hälfte übersteigen, liegt nicht daran, dass wir großzügig sind, sondern weil die traditionelle Traumdeutung schon immer so war — große und starke Symbole wie Schweine, Drachen und Feuer wurden allgemein als gute Omen angesehen. Allerdings werden nicht alle Träume positiv interpretiert. Dieser Wert spiegelt die Natur jedes Symbols wider, und die allgemeine Atmosphäre des Traums wird neu bewertet, indem die gefundenen Symbole gesammelt werden."
+            "p": "Die Tatsache, dass die guten Bedeutungen mehr als die Hälfte übersteigen, liegt nicht daran, dass wir großzügig sind, sondern weil die traditionelle Traumdeutung schon immer so war — große und starke Symbole wie Schweine, Drachen und Feuer wurden im Allgemeinen als gute Omen angesehen. Allerdings werden nicht alle Träume positiv interpretiert. Dieser Wert spiegelt die Natur jedes Symbols wider, und die allgemeine Atmosphäre des Traums wird neu bewertet, indem die gefundenen Symbole gesammelt werden."
           }
         ]
       }
     ]
   },
   "guide/how-matching-works": {
-    "eyebrow": "Basis für den Dienst",
+    "eyebrow": "Basis für den Service",
     "title": "Wie man Symbole in Traumgeschichten findet.",
-    "summary": "Es wird erklärt, wie Symbole aus frei geschriebenen Sätzen ausgewählt werden und wie Buchstaben herausgefiltert werden, die versehentlich in Wörter wie 'besonders' eingegangen sind.",
+    "summary": "Es erklärt, wie Symbole aus frei geschriebenen Sätzen ausgewählt werden und wie wir ein Symbol herausfiltern, das lediglich in einem längeren Wort sitzt — 별 (\"Stern\") in 특별할 (\"nichts Besonderes\").",
     "backLabel": "Basis für die Interpretation",
     "sections": [
       {
         "title": "Wir finden Symbole im Text, den Sie bereitstellen.",
         "blocks": [
           {
-            "p": "Wenn Sie Ihre Traumgeschichte frei schreiben, suchen wir nach Symbolen in diesem Text aus dem Wörterbuch. Sie müssen keine Elemente auswählen oder in einem bestimmten Format schreiben. Schreiben Sie einfach, wie Sie es normalerweise tun würden, wie 'Letzte Nacht wickelte sich eine riesige Python um mich.'"
+            "p": "Wenn Sie Ihre Traumgeschichte frei schreiben, suchen wir nach Symbolen in diesem Text aus dem Wörterbuch. Sie müssen keine Elemente auswählen oder in einem bestimmten Format schreiben. Schreiben Sie einfach, wie Sie normalerweise würden, wie 'Letzte Nacht wickelte sich eine riesige Python um mich.'"
           },
           {
             "p": "Bei der Suche betrachten wir nicht nur den Namen des Symbols, sondern auch **{aliasTotal} alternative Namen**. Dies sind Wörter, die sich auf dasselbe beziehen, wie 구렁이 (gureongi) und 뱀 (baem), 떨어지다 (tteoreojida) und 빠지다 (ppajida). Variationen mit Endungen, wie 「떨어지는」 (tteoreojineun) · 「쫓겨서」 (jjotgyeoseo) · 「빠졌다」 (ppajyeotda), sind ebenfalls enthalten."
@@ -171,17 +171,17 @@ export const DE_DOCS = {
         "title": "Zeichen, die zufällig innerhalb eines Wortes erscheinen, zählen nicht",
         "blocks": [
           {
-            "p": "Dies ist der herausforderndste Aspekt im Koreanischen. Unter den Symbolen gibt es **{singleCharSymbolTotal} einzeilige Symbole** wie **별** (byeol) · **말** (mal) · **배** (bae) · **손** (son), die häufig in anderen Wörtern erscheinen."
+            "p": "Dies ist der herausforderndste Aspekt im Koreanischen. Unter den Symbolen gibt es **{singleCharSymbolTotal} einstellige Symbole** wie **별** (byeol) · **말** (mal) · **배** (bae) · **손** (son), die häufig in anderen Wörtern erscheinen."
           },
           {
             "ul": [
-              "Der **Stern** in \"Es war ein gewöhnlicher Tag\"",
-              "Die **Sache** in \"Ich wurde von jemandem verfolgt\"",
-              "Das **Wort** in \"Diese Person sagte\" und der **Bauch** in \"Ich hatte Hunger\""
+              "별 (\"Stern\") versteckt in 특**별**할 (\"nichts Besonderes\")",
+              "게 (\"Krabbe\") versteckt in 누군가에**게** (\"von jemandem\")",
+              "말 (\"Pferd\") in **말**했다 (\"sagte\"), und 배 (\"Boot, Birne\") in **배**가 고팠다 (\"Wir hatten Hunger\")"
             ]
           },
           {
-            "p": "Diese als Symbole zu zählen führt zu irrelevanten Interpretationen. Daher untersuchen wir die umgebenden Zeichen — wenn **ein koreanisches Zeichen davor steht**, betrachten wir es als Fragment eines Wortes und zählen es nicht, und wir unterscheiden, ob das angehängte Zeichen am Ende ein Partikel oder eine Endung ist, wodurch 「소가」 (soga) durchkommt, während 「소리」 (sori) herausgefiltert wird."
+            "p": "Diese als Symbole zu zählen führt zu irrelevanten Interpretationen. Daher untersuchen wir die umgebenden Zeichen — wenn **ein koreanisches Zeichen davor steht**, betrachten wir es als Teil eines längeren Wortes und zählen es nicht, und wir prüfen **ob das, was folgt, ein Partikel oder eine Verbendung ist**, sodass 「소가」 (soga) durchkommt, während 「소리」 (sori) herausgefiltert wird."
           }
         ]
       },
@@ -190,7 +190,7 @@ export const DE_DOCS = {
         "title": "So funktioniert es seit jeher",
         "blocks": [
           {
-            "p": "Vor der Implementierung dieser Regel, als wir mit zwölf tatsächlichen Sätzen testeten, enthielten **alle zwölf** irrelevante Symbole. Ein Satz ohne bedeutenden Inhalt wurde sogar als 태몽 (taemong) markiert."
+            "p": "Bevor diese Regel umgesetzt wurde, enthielten bei Tests mit zwölf tatsächlichen Sätzen **alle zwölf** irrelevante Symbole. Ein Satz ohne signifikanten Inhalt wurde sogar als a conception dream (Empfängnisträum) markiert."
           },
           {
             "p": "Jetzt bleibt eines — das 배 (bae) in 「배가 고팠다」 (bae ga gopatda). Da es gleich klingt, aber eine andere Bedeutung hat, kann es nicht nur durch die umgebenden Zeichen herausgefiltert werden."
@@ -204,7 +204,7 @@ export const DE_DOCS = {
         "title": "Die gleichen Zeichen ergeben immer die gleichen Ergebnisse",
         "blocks": [
           {
-            "p": "Im Suchprozess gibt es keinen Platz für Zufälle. Da das Wörterbuch festgelegt ist und die Regeln etabliert sind, wenn Sie denselben Satz erneut eingeben, **wird dasselbe Symbol in derselben Reihenfolge erscheinen**. Die Interpretation, die Sie heute sehen, wird sich nicht von der unterscheiden, die Sie morgen sehen."
+            "p": "Es gibt keinen Platz für Zufall in den Übereinstimmungsregeln. Da das Wörterbuch festgelegt ist und die Regeln etabliert sind, wenn Sie denselben Satz erneut eingeben, **wird dasselbe Symbol in derselben Reihenfolge erscheinen**. Die Interpretation, die Sie heute sehen, wird sich nicht von der unterscheiden, die Sie morgen sehen."
           },
           {
             "p": "Diese Qualität ist auch ein Versprechen, das wir uns selbst gegeben haben. Interpretationen, die sich jedes Mal ändern, sind unterhaltsam, aber ohne Grundlage. Dies hängt mit der Geschichte zusammen, [warum wir keine Modelle verwenden](/guide/no-ai)."
@@ -223,7 +223,7 @@ export const DE_DOCS = {
         "title": "Selbst wenn die Symbole gleich sind, ergeben unterschiedliche Situationen unterschiedliche Bedeutungen",
         "blocks": [
           {
-            "p": "In der traditionellen 해몽 (Traumdeutung) hat ein einzelnes Symbol nicht immer eine Bedeutung. Selbst für die gleiche Schlange wurden **das Halten und das Gebissenwerden als völlig gegensätzlich interpretiert.** Dies wird auch im Wörterbuch vermerkt."
+            "p": "In der traditionellen Traumdeutung hat ein einzelnes Symbol nicht immer eine Bedeutung. Selbst für die gleiche Schlange wurden **das Halten und das Gebissenwerden als völlig gegensätzlich interpretiert.** Dies wird auch im Wörterbuch vermerkt."
           },
           {
             "p": "Deshalb haben die {symbolTotal} Symbole insgesamt {meaningTotal} Bedeutungen. Jede Bedeutung umfasst **den Kontext, in dem sie gilt**, und wenn dieser Kontext im Text, den Sie bereitstellen, sichtbar ist, wählen wir diese Bedeutung aus."
@@ -234,10 +234,10 @@ export const DE_DOCS = {
         "title": "Wie man die Situation identifiziert",
         "blocks": [
           {
-            "p": "Wir überprüfen, ob der von Ihnen bereitgestellte Text Wörter enthält, die auf diese Situation hinweisen. In 「뱀이 나를 물었다」 (baemi nareul mul-eotda) wird die Biss-Situation beschrieben, während in 「뱀을 품에 안았다」 (baemeul pume anatda) die Halte-Situation beschrieben wird. Wenn keine Wörter vorhanden sind, die auf die Situation hinweisen, interpretieren wir sie mit der **grundlegenden Bedeutung** dieses Symbols."
+            "p": "Wir prüfen, ob der von Ihnen bereitgestellte Text Wörter enthält, die auf diese Situation hinweisen. In 「뱀이 나를 물었다」 (baemi nareul mul-eotda) wird die Biss-Situation beschrieben, während in 「뱀을 품에 안았다」 (baemeul pume anatda) die Haltesituation beschrieben wird. Wenn keine Wörter vorhanden sind, die auf die Situation hinweisen, interpretieren wir sie mit der **grundlegenden Bedeutung** dieses Symbols."
           },
           {
-            "p": "Daher, wenn Sie Ihren Traum schreiben, wenn Sie **nicht nur das, was erschien, sondern auch die durchgeführten Handlungen** einbeziehen, wird die Interpretation genauer. 「돼지를 봤다」 (dwaeji-reul bwatda) vermittelt weniger als 「돼지가 집으로 들어왔다」 (dwaeji-ga jib-euro deureowatda)."
+            "p": "Daher, wenn Sie Ihren Traum aufschreiben, wenn Sie **nicht nur das, was erschienen ist, sondern auch welche Handlungen unternommen wurden**, einbeziehen, wird die Interpretation genauer. 「돼지를 봤다」 (dwaeji-reul bwatda) vermittelt weniger als 「돼지가 집으로 들어왔다」 (dwaeji-ga jib-euro deureowatda)."
           }
         ]
       },
@@ -246,7 +246,7 @@ export const DE_DOCS = {
         "title": "Je mehr Sie schreiben, desto besser, aber es ist nicht notwendig, lange zu schreiben",
         "blocks": [
           {
-            "p": "Zwei oder drei Sätze sind ausreichend. Längeres Schreiben bedeutet nicht, mehr Symbole zu finden; vielmehr, wenn nicht verwandte Wörter gemischt werden, können irrelevante Symbole identifiziert werden."
+            "p": "Zwei oder drei Sätze sind ausreichend. Längeres Schreiben bedeutet nicht, mehr Symbole zu finden; vielmehr, wenn nicht verwandte Wörter vermischt sind, können irrelevante Symbole identifiziert werden."
           }
         ]
       },
@@ -257,7 +257,7 @@ export const DE_DOCS = {
             "p": "Unter den {symbolTotal} Symbolen im Wörterbuch haben **{contextSplitSymbolTotal}** Bedeutungen, die je nach Situation variieren. Der Rest wurde unabhängig von der Situation in eine Richtung gelesen."
           },
           {
-            "p": "Diese {contextSplitSymbolTotal} sind die vorsichtigsten Bereiche. Eine Fehlinterpretation der Situation kann dazu führen, dass gute Nachrichten als schlechte Nachrichten übermittelt werden oder umgekehrt. Daher, wenn die Situation unklar ist, wählen wir nicht **zwanghaft eine Seite und gehen stattdessen mit der grundlegenden Bedeutung** dieses Symbols — wir möchten nicht etwas Ungewisses als gewiss darstellen."
+            "p": "Diese {contextSplitSymbolTotal} sind die vorsichtigsten Bereiche. Eine Fehlinterpretation der Situation kann dazu führen, dass gute Nachrichten als schlechte Nachrichten übermittelt werden oder umgekehrt. Daher wählen wir, wenn die Situation unklar ist, nicht **gewaltsam eine Seite und entscheiden uns stattdessen für die grundlegende Bedeutung** dieses Symbols — wir möchten nichts Ungewisses als gewiss darstellen."
           }
         ]
       },
@@ -266,7 +266,7 @@ export const DE_DOCS = {
         "title": "Die Gefühle beim Aufwachen werden ebenfalls berücksichtigt",
         "blocks": [
           {
-            "p": "Die Gefühle und Wiederholungen, die unten im Trauminhalt gefragt werden, werden nicht verwendet, um Symbole zu finden. Sie werden herangezogen, um zu entscheiden, in welche Richtung in Situationen mit geteilten Bedeutungen interpretiert wird. Sie müssen nicht wählen; Ergebnisse werden trotzdem bereitgestellt."
+            "p": "Die Gefühle und Wiederholungen, die unten im Trauminhalt gefragt werden, werden nicht verwendet, um Symbole zu finden. Sie werden bei der Entscheidung, in welche Richtung in Situationen mit geteilten Bedeutungen interpretiert werden soll, herangezogen. Sie müssen keine Wahl treffen; die Ergebnisse werden dennoch bereitgestellt."
           }
         ]
       },
@@ -277,7 +277,7 @@ export const DE_DOCS = {
             "p": "Wenn mehrere Symbole gefunden werden, sammeln wir, ob jedes dieser Symbole positiv oder vorsichtig ist, um den Gesamton des Traums zu bestimmen. Ein Traum, der ein gutes Symbol und ein vorsichtiges Symbol enthält, wird nicht einfach als 'guter Traum' bezeichnet."
           },
           {
-            "p": "Sie können die verschiedenen Symbole und ihre Bedeutungen im [Symbolwörterbuch](/dream/symbols) einsehen. Es ist auch gut, einen Blick darauf zu werfen, was enthalten ist, bevor Sie Ihren Traum schreiben."
+            "p": "Sie können die verschiedenen Symbole und deren Bedeutungen im [Symbolwörterbuch](/dream/symbols) einsehen. Es ist auch gut, einen Blick darauf zu werfen, was enthalten ist, bevor Sie Ihren Traum aufschreiben."
           }
         ]
       }
@@ -285,21 +285,21 @@ export const DE_DOCS = {
   },
   "guide/good-and-bad": {
     "eyebrow": "Service Basis",
-    "title": "Kriterien zur Unterscheidung von 길몽 (günstigen Träumen) und 흉몽 (ungünstigen Träumen)",
-    "summary": "Die vier Werte, die jedem Symbol zugeordnet sind und ihre Verteilung, der Grund, warum positive über die Hälfte hinausgehen, und warum wir gemischte Träume als gemischt kommunizieren.",
+    "title": "Kriterien zur Unterscheidung zwischen an auspicious dream (günstigen Träumen) und an ominous dream (ungünstigen Träumen)",
+    "summary": "Die vier Werte, die jedem Symbol zugeordnet sind, und ihre Verteilung, der Grund, warum positive über die Hälfte hinausgehen, und warum wir gemischte Träume als gemischt kommunizieren.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
         "title": "Jedes Symbol wird einem von vier Werten zugeordnet",
         "blocks": [
           {
-            "p": "Unter den {symbolTotal} Symbolen im Wörterbuch wird jedes als eines der folgenden kategorisiert."
+            "p": "Unter den {symbolTotal} Symbolen im Wörterbuch wird jedes in eine der folgenden Kategorien eingeteilt."
           },
           {
             "ul": [
               "**{polarityPositive} positive Symbole** — solche, die als glückliche Ereignisse wie Reichtum, Feiern und Wohltäter interpretiert werden.",
-              "**{polarityAmbivalent} Symbole, die je nach Situation variieren** — wie Schlangen, deren Bedeutung je nach Handlung umschlägt. Diese Kategorie ist die vorsichtigste.",
-              "**{polarityNegative} vorsichtige Symbole** — solche, die als Klatsch, Streitigkeiten oder Verluste angesehen werden.",
+              "**{polarityAmbivalent} Symbole, die je nach Situation variieren** — wie Schlangen, deren Bedeutung je nach Handlung umschlagen kann. Diese Kategorie ist die vorsichtigste.",
+              "**{polarityNegative} ungünstige Symbole** — solche, die als Klatsch, Streitigkeiten oder Verluste angesehen werden.",
               "**{polarityNeutral} neutrale Symbole** — solche, die an sich weder gut noch schlecht sind, wie Farben oder Zahlen."
             ]
           }
@@ -309,10 +309,10 @@ export const DE_DOCS = {
         "title": "Der Grund, warum positive Symbole über die Hälfte hinausgehen",
         "blocks": [
           {
-            "p": "Das liegt nicht daran, dass wir großzügig in unseren Bewertungen sind. **Traditionelle 해몽 (Traumdeutung) war schon immer so.** Große und mächtige Symbole wie Schweine, Drachen, Feuer und Wasser wurden im Allgemeinen als gute Omen angesehen, und das Wörterbuch spiegelt diese Tradition wider."
+            "p": "Das liegt nicht daran, dass wir großzügig in unseren Bewertungen sind. **Die traditionelle Traumdeutung (dream interpretation) war schon immer so.** Große und mächtige Symbole wie Schweine, Drachen, Feuer und Wasser wurden allgemein als gute Vorzeichen angesehen, und das Wörterbuch spiegelt diese Tradition wider."
           },
           {
-            "p": "Daher bedeutet die Tatsache, dass 'ein gutes Symbol erschien', nicht, dass 'gute Dinge passieren werden.' Was wir vermitteln können, ist auf die Art und Weise beschränkt, wie dieses Symbol in der Tradition interpretiert wurde."
+            "p": "Daher bedeutet die Tatsache, dass 'ein gutes Symbol erschienen ist', nicht, dass 'gute Dinge passieren werden.' Was wir vermitteln können, ist auf die Weise beschränkt, wie dieses Symbol in der Tradition interpretiert wurde."
           }
         ]
       },
@@ -320,10 +320,10 @@ export const DE_DOCS = {
         "title": "Der Ton eines Traums wird aus seinen Symbolen gesammelt",
         "blocks": [
           {
-            "p": "Wenn mehrere Symbole gefunden werden, sammeln wir ihre jeweilige Glückseligkeit, um den Gesamton des Traums zu bestimmen. Wenn nur positive Symbole erscheinen, ist es ein guter Traum; wenn nur vorsichtige Symbole erscheinen, ist es ein vorsichtiger Traum; wenn **gemischt, kommunizieren wir es als gemischt.**"
+            "p": "Wenn mehrere Symbole gefunden werden, sammeln wir deren jeweilige Glücklichkeit, um den Gesamton des Traums zu bestimmen. Wenn nur positive Symbole erscheinen, ist es ein guter Traum; wenn nur ungünstige Symbole erscheinen, ist es ein ungünstiger Traum; wenn **gemischt, kommunizieren wir es als gemischt.**"
           },
           {
-            "p": "Wir kategorisieren gemischte Symbole nicht zwanghaft auf eine Seite. In Wirklichkeit sind die Träume, die Menschen haben, oft gemischt, und sie als 'guten Traum' zusammenzufassen, ist weder genau noch hilfreich."
+            "p": "Wir kategorisieren gemischte Symbole nicht gewaltsam in eine Seite. In Wirklichkeit sind die Träume, die Menschen haben, oft gemischt, und sie als 'guten Traum' zusammenzufassen, ist weder genau noch hilfreich."
           }
         ]
       },
@@ -337,10 +337,10 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "Wenn ein Warntraum erscheint",
+        "title": "Wenn ein Ungünstiger Traum erscheint",
         "blocks": [
           {
-            "p": "Selbst wenn ein als Warnung interpretiertes Symbol erscheint, bedeutet das nicht unbedingt schlechte Nachrichten. In der traditionellen Traumdeutung wurde ein ominöser Traum im Allgemeinen als **eine Aussage, die auf die aktuelle Situation hinweist** verwendet. Wenn ein Symbol, das Konflikt andeutet, erscheint, kann es als Erinnerung gelesen werden, Worte zurückzuhalten."
+            "p": "Selbst wenn ein als Vorsicht interpretiertes Symbol erscheint, ist das nicht unbedingt eine schlechte Nachricht. In der traditionellen Traumdeutung wurde ein ungünstiger Traum im Allgemeinen als **eine Aussage, die auf die aktuelle Situation hinweist** verwendet. Wenn ein Symbol, das Konflikt andeutet, erscheint, kann es als Erinnerung gelesen werden, Worte zurückzuhalten."
           },
           {
             "p": "Aus demselben Grund verkauft dieser Dienst keine Talismane oder Amulette. Verkauft wird nur [zwei Möglichkeiten, Ihre Träume zu bewahren](/guide/reports)."
@@ -350,41 +350,41 @@ export const DE_DOCS = {
     ]
   },
   "guide/conception-dreams": {
-    "eyebrow": "Empfängnis-Traum",
-    "title": "Wie man Empfängnis-Träume interpretiert",
-    "summary": "Es wird erklärt, wie man 27 Symbole von Empfängnis-Träumen bestimmt, warum nicht alle Schweineträume als Empfängnis-Träume gelten und das Prinzip, das keine Schwangerschaft oder Geschlecht vorhersagt.",
+    "eyebrow": "Empfängnis Traum",
+    "title": "Wie man Empfängnis Träume interpretiert",
+    "summary": "Es wird erklärt, wie man 27 Symbole für Empfängnis Träume bestimmt, warum nicht alle Schweineträume als Empfängnis Träume betrachtet werden und das Prinzip, das keine Vorhersage über Schwangerschaft oder Geschlecht trifft.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
         "title": "Zuerst klären Sie dies",
         "blocks": [
           {
-            "p": "**Dreams-Link bestimmt nicht den Schwangerschaftsstatus. Es zeigt auch nicht das Geschlecht des Kindes an.** Dies sind Angelegenheiten, die durch Träume nicht bekannt sein können, und es ist nicht etwas, was wir tun können."
+            "p": "**Dreams-Link bestimmt nicht den Schwangerschaftsstatus. Es zeigt auch nicht das Geschlecht des Kindes an.** Diese Dinge können durch Träume nicht bekannt werden, und das ist etwas, was wir nicht tun können."
           },
           {
-            "p": "Was wir Ihnen mitteilen können, ist auf dies beschränkt — **die Tatsache, dass ein Symbol, das traditionell als Empfängnis-Traum angesehen wird, in diesem Traum erschien.** Das ist alles, was unsere Vorfahren über dieses Symbol interpretierten."
+            "p": "Was wir Ihnen sagen können, ist darauf beschränkt — **die Tatsache, dass ein Symbol, das traditionell als Empfängnis Traum angesehen wird, in diesem Traum erschien.** Das ist alles, was unsere Vorfahren über dieses Symbol interpretierten."
           }
         ]
       },
       {
-        "title": "Es gibt {conceptionSymbolTotal} Symbole, die als Empfängnis-Träume angesehen werden",
+        "title": "Es gibt {conceptionSymbolTotal} Symbole, die als Empfängnis Träume gelten",
         "blocks": [
           {
-            "p": "Unter den {symbolTotal} Symbolen im Wörterbuch sind **{conceptionSymbolTotal}** als Empfängnis-Träume gekennzeichnet. Es gibt viele Tiere wie Drachen, Schweine und Schlangen sowie Früchte wie Pfirsiche und Kastanien, und die Sonne und der Mond sind ebenfalls enthalten."
+            "p": "Unter den {symbolTotal} Symbolen im Wörterbuch sind **{conceptionSymbolTotal}** als Empfängnis Träume markiert. Es gibt viele Tiere wie Drachen, Schweine und Schlangen sowie Früchte wie Pfirsiche und Kastanien, und die Sonne und der Mond sind ebenfalls enthalten."
           },
           {
-            "p": "Allerdings bedeutet **das Erscheinen dieses Symbols nicht sofort, dass es ein Empfängnis-Traum ist.** Hier hat dieser Dienst Anstrengungen unternommen."
+            "p": "Allerdings bedeutet **das Erscheinen dieses Symbols nicht sofort, dass es ein Empfängnis Traum ist.** Hier hat dieser Dienst Anstrengungen unternommen."
           }
         ]
       },
       {
-        "title": "Das Urteil basiert auf der tatsächlichen Bedeutung, nicht auf Symbolen",
+        "title": "Die Beurteilung basiert auf der tatsächlichen Bedeutung, nicht auf Symbolen",
         "blocks": [
           {
-            "p": "Das Schwein ist ein Symbol für Empfängnis-Träume und gleichzeitig **stellt es Wohlstandsträume dar.** Wenn es nur aufgrund des Erscheines des Symbols als Empfängnis-Traum angesehen wird, dann hätte jeder, der von Schweinen träumt, einen Empfängnis-Traum gehabt. In Wirklichkeit wurde es meist als Wohlstandstraum interpretiert."
+            "p": "Das Schwein ist ein Symbol für Empfängnis Träume und gleichzeitig **stellt es Wohlstandsträume dar.** Wenn es nur wegen des Erscheinen des Symbols als Empfängnis Traum betrachtet wird, dann hätte jeder, der von Schweinen träumt, einen Empfängnis Traum gehabt. In Wirklichkeit wurde es hauptsächlich als Wohlstandstraum interpretiert."
           },
           {
-            "p": "Deshalb betrachten wir **die tatsächliche Bedeutung, die aus diesem Symbol abgeleitet wird, nicht das Symbol selbst.** Wir kennzeichnen es nur als Empfängnis-Traum, wenn die Bedeutung, die in Richtung Empfängnis tendiert, in der von Ihnen bereitgestellten Situation gewählt wird. Selbst bei demselben Schwein ändert sich das Urteil, wenn der Kontext unterschiedlich ist."
+            "p": "Deshalb betrachten wir **die tatsächliche Bedeutung, die aus diesem Symbol abgeleitet wird, nicht das Symbol selbst.** Wir markieren es nur als Empfängnis Traum, wenn die Bedeutung, die in Richtung Empfängnis tendiert, in der von Ihnen bereitgestellten Situation gewählt wird. Selbst bei demselben Schwein ändert sich die Lesart, wenn der Satz anders ist."
           }
         ]
       },
@@ -393,15 +393,15 @@ export const DE_DOCS = {
         "title": "Wenn Sie Schwangerschaft erwähnen, betrachten wir das zuerst",
         "blocks": [
           {
-            "p": "Wenn Ihr Schreiben Wörter wie Schwangerschaft, Empfängnis-Traum oder Geburt enthält, betrachten wir zuerst die Bedeutung dieses Symbols, das in Richtung Empfängnis tendiert. Selbst bei demselben Schweinetraum variierte die Art und Weise, wie unsere Vorfahren ihn interpretierten, je nach aktueller Situation."
+            "p": "Wenn Ihr Schreiben Wörter wie Schwangerschaft, Empfängnis Traum oder Geburt enthält, betrachten wir zuerst die Bedeutung dieses Symbols, das in Richtung Empfängnis tendiert. Selbst bei demselben Schweinetraum variierte die Art und Weise, wie unsere Vorfahren ihn interpretierten, je nach aktueller Situation."
           }
         ]
       },
       {
-        "title": "Der Grund für die Trennung von Empfängnis-Traumberichten",
+        "title": "Der Grund für die Trennung von Empfängnis Traum Berichten",
         "blocks": [
           {
-            "p": "Empfängnis-Träume dienen einem anderen Zweck als andere Träume. Sie werden oft auch nach der Geburt des Kindes besprochen und unter Familienmitgliedern geteilt. Daher haben wir anstelle einer bloßen Anzeige auf einem Bildschirm ein separates **Dokument erstellt, das aufbewahrt werden kann.**"
+            "p": "Empfängnis Träume dienen einem anderen Zweck als andere Träume. Sie werden oft auch nach der Geburt des Kindes besprochen und unter Familienmitgliedern geteilt. Daher haben wir anstelle einer bloßen Anzeige auf einem Bildschirm ein separates **Dokument erstellt, das aufbewahrt werden kann.**"
           },
           {
             "p": "Was enthalten ist, wird in [zwei Möglichkeiten, Ihre Träume zu bewahren](/guide/reports) vermerkt. Sie können alle Interpretationen sehen, ohne das zu kaufen, was Sie auf dem Bildschirm sehen."
@@ -411,9 +411,9 @@ export const DE_DOCS = {
     ]
   },
   "guide/how-to-write": {
-    "eyebrow": "Wie man es verwendet",
+    "eyebrow": "Wie man es benutzt",
     "title": "Wie man seinen Traum effektiv schreibt",
-    "summary": "Wenn Sie aufschreiben, was Sie gesehen und getan haben, wird es gut interpretiert. Es wird erklärt, warum ein einziges Verb die Bedeutung bestimmen kann und warum wir nach Gefühlen und Wiederholungen fragen.",
+    "summary": "Wenn Sie aufschreiben, was Sie gesehen und getan haben, wird es gut interpretiert. Es wird erklärt, warum ein einzelnes Verb die Bedeutung bestimmen kann und warum wir nach Gefühlen und Wiederholungen fragen.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
@@ -429,7 +429,7 @@ export const DE_DOCS = {
             ]
           },
           {
-            "p": "Wenn Sie nur Gefühle aufschreiben, gibt es keine Symbole zu finden. Dies liegt daran, dass die traditionelle Traumdeutung von [Objekten und Handlungen](/guide/categories) spricht, nicht von Emotionen."
+            "p": "Wenn Sie nur Gefühle aufschreiben, gibt es keine Symbole zu finden. Das liegt daran, dass die traditionelle Traumdeutung von [Objekten und Handlungen](/guide/categories) spricht, nicht von Emotionen."
           }
         ]
       },
@@ -448,7 +448,7 @@ export const DE_DOCS = {
         "title": "Warum wir nach Gefühlen und Wiederholungen fragen",
         "blocks": [
           {
-            "p": "Unter dem Trauminhalt gibt es einen Platz, um **das Gefühl, als Sie aufwachten** und **ob Sie denselben Traum wiederholt haben.** Sie müssen nicht beides auswählen, damit ein Ergebnis bereitgestellt wird."
+            "p": "Unter dem Trauminhalt gibt es einen Platz, um **das Gefühl beim Aufwachen** und **ob Sie denselben Traum wiederholt haben** auszuwählen. Sie müssen nicht beide auswählen, damit ein Ergebnis bereitgestellt wird."
           },
           {
             "p": "Diese Werte werden nicht verwendet, um Symbole zu finden. Sie werden herangezogen, wenn es darum geht, **welche Bedeutung aus demselben Symbol gewählt werden soll** und wie das Ergebnis vermittelt werden soll."
@@ -460,7 +460,7 @@ export const DE_DOCS = {
         "title": "In Fällen, in denen Sie Schwangerschaft erwähnen",
         "blocks": [
           {
-            "p": "Wenn Ihr Schreiben Wörter wie Schwangerschaft, Empfängnis-Traum oder Geburt enthält, betrachten wir zuerst die Bedeutung dieses Symbols, das in Richtung Empfängnis tendiert. Selbst bei demselben Schweinetraum variierte die Art und Weise, wie unsere Vorfahren ihn interpretierten, je nach aktueller Situation — [wie man Empfängnis-Träume interpretiert](/guide/conception-dreams)."
+            "p": "Wenn Ihr Schreiben Wörter wie Schwangerschaft, Empfängnis Traum oder Geburt enthält, betrachten wir zuerst die Bedeutung dieses Symbols, das in Richtung Empfängnis tendiert. Selbst bei demselben Schweinetraum variierte die Art und Weise, wie unsere Vorfahren ihn interpretierten, je nach aktueller Situation — [wie man Empfängnis Träume interpretiert](/guide/conception-dreams)."
           }
         ]
       },
@@ -480,21 +480,21 @@ export const DE_DOCS = {
   "guide/categories": {
     "eyebrow": "Basis des Dienstes",
     "title": "Kriterien, die in neun Kategorien unterteilt sind",
-    "summary": "Von Objekten, Tieren und der Natur bis hin zu Farben und Zahlen gibt es neun Kategorien und einen Grund, warum keine emotionale Kategorie enthalten ist.",
+    "summary": "Von Objekten, Tieren und Natur bis hin zu Farben und Zahlen gibt es neun Kategorien und einen Grund, warum eine emotionale Kategorie nicht enthalten ist.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
         "title": "Die Symbole in Träumen sind in neun Kategorien unterteilt",
         "blocks": [
           {
-            "p": "Die {symbolTotal} Symbole sind basierend auf ihren Eigenschaften in neun Kategorien gruppiert. Die Kriterien für die Unterteilung sind **wie sie in Träumen erscheinen** — ob als Tiere, Objekte oder Handlungen, die ich unternommen habe."
+            "p": "Die {symbolTotal} Symbole sind basierend auf ihren Eigenschaften in neun Kategorien gruppiert. Die Kriterien für die Unterteilung sind **wie sie in Träumen erscheinen** — ob als Tiere, Objekte oder Handlungen, die wir unternommen haben."
           },
           {
             "ul": [
               "**Objekte {categoryThing}** — Greifbare Gegenstände wie Geld, Spiegel und Messer. Dies ist die dickste Kategorie.",
-              "**Tiere {categoryAnimal}** — drache·schwein·schlange·kuh. Viele davon werden als 태몽 (Empfängnis-Träume) angesehen.",
-              "**Natur {categoryNature}** — Dinge, die groß und uralt sind, wie wasser·feuer·sonne·mond·berg.",
-              "**Aktion {categoryAction}** — Dinge, die in Träumen geschehen, wie verfolgt werden·fallen·fliegen.",
+              "**Tiere {categoryAnimal}** — Drache·Schwein·Schlange·Kuh. Viele davon werden als a conception dream (Empfängnisträume) angesehen.",
+              "**Natur {categoryNature}** — Dinge, die groß und uralt sind wie wasser·feuer·sonne·mond·berg.",
+              "**Aktion {categoryAction}** — Dinge, die in Träumen geschehen wie verfolgt werden·fallen·fliegen.",
               "**Körper {categoryBody}** — zähne·haare·blut. Die Bedeutung variiert je nachdem, wo am Körper es ist.",
               "**Person {categoryPerson}** · **Ort {categoryPlace}** · **Farbe {categoryColor}** · **Zahl {categoryNumber}**"
             ]
@@ -505,10 +505,10 @@ export const DE_DOCS = {
         "title": "Warum gibt es keine Emotionen-Kategorie?",
         "blocks": [
           {
-            "p": "Kategorien wie 「angst」·「sehnsucht」 sind nicht enthalten. **Das liegt daran, dass traditionelle 해몽 (Traumdeutung) Emotionen nicht behandelt.** Alte Deutungen konzentrierten sich auf das Sichtbare und das, was geschah, anstatt auf die Gefühle des Träumers."
+            "p": "Kategorien wie 「angst」·「sehnsucht」 sind nicht enthalten. **Das liegt daran, dass die traditionelle Traumdeutung Emotionen nicht behandelt.** Alte Deutungen konzentrierten sich auf das Sichtbare und das Geschehene, nicht auf die Gefühle des Träumers."
           },
           {
-            "p": "Ich habe versucht, eine Emotionen-Kategorie zu erstellen, aber die Ergebnisse waren Begriffe wie 「verlust der zuneigung」·「emotionale stabilität」. Diese sind keine **symbole** aus Träumen, sondern Vokabular aus der modernen Psychologie. Das ist eine andere Art von Dienst und nicht das, was dieses Wörterbuch anstrebt."
+            "p": "Wir haben versucht, eine Emotionen-Kategorie zu erstellen, aber die Ergebnisse waren Begriffe wie 「verlust der zuneigung」·「emotionale stabilität」. Diese sind keine **symbole** aus Träumen, sondern Vokabular aus der modernen Psychologie. Das ist eine andere Art von Dienst und nicht das, was dieses Wörterbuch anstrebt."
           }
         ]
       },
@@ -517,7 +517,7 @@ export const DE_DOCS = {
         "title": "Also, wenn Sie schreiben",
         "blocks": [
           {
-            "p": "Bitte schreiben Sie **was Sie gesehen und getan haben** anstatt Gefühle; das wird viel bessere Ergebnisse liefern. Ich werde jedoch separat nach Ihren Gefühlen beim Aufwachen fragen — selbst dasselbe Symbol kann je nach Situation unterschiedliche Bedeutungen haben."
+            "p": "Bitte schreiben Sie **was Sie gesehen und getan haben** anstatt Gefühle; das wird viel bessere Ergebnisse liefern. Wir werden jedoch separat nach Ihren Gefühlen beim Aufwachen fragen — selbst dasselbe Symbol kann je nach Situation unterschiedliche Bedeutungen haben."
           }
         ]
       },
@@ -528,7 +528,7 @@ export const DE_DOCS = {
             "p": "Farbe {categoryColor} und Zahl {categoryNumber} haben keine inhärent guten oder schlechten Bedeutungen. So wie eine weiße Schlange und eine schwarze Schlange unterschiedlich sind, ändern sich ihre Bedeutungen je nachdem, **womit sie assoziiert sind**. Daher werden diese beiden Kategorien in Verbindung mit anderen Symbolen betrachtet."
           },
           {
-            "p": "Eine vollständige Liste nach Kategorien ist im [Symbol-Wörterbuch](/dream/symbols) verfügbar. Das Öffnen eines Symbols zeigt seine überlieferte Bedeutung, Kategorie und verwandte Symbole."
+            "p": "Eine vollständige Liste nach Kategorien ist im [symbolwörterbuch](/dream/symbols) verfügbar. Das Öffnen eines Symbols zeigt seine traditionelle Bedeutung, Kategorie und verwandte Symbole."
           }
         ]
       }
@@ -537,17 +537,17 @@ export const DE_DOCS = {
   "guide/not-found": {
     "eyebrow": "Wie man es benutzt",
     "title": "Wenn ein Symbol nicht gefunden werden kann",
-    "summary": "Wenn Sie es nicht finden können, werde ich Sie informieren, dass es nicht gefunden wurde. Ich werde erläutern, warum es nicht gefunden werden kann, was ich Ihnen stattdessen auf diesem Bildschirm zeigen werde und wie das Wörterbuch erweitert wird.",
+    "summary": "Wenn Sie es nicht finden können, werden wir Sie informieren, dass es nicht gefunden wurde. Wir werden besprechen, warum es nicht gefunden werden kann, was wir stattdessen auf diesem Bildschirm zeigen werden und wie das Wörterbuch erweitert wird.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
-        "title": "Wenn nicht gefunden, werde ich Sie informieren, dass es nicht gefunden wurde",
+        "title": "Wenn nicht gefunden, werden wir Sie informieren, dass es nicht gefunden wurde",
         "blocks": [
           {
-            "p": "Wenn ich keine Symbole im Text, den Sie bereitgestellt haben, finden kann, werde ich **Sie informieren, dass es nicht gefunden wurde.** Ich werde es nicht gewaltsam mit etwas Ähnlichem verbinden oder plausible Sätze erstellen, um den Raum zu füllen."
+            "p": "Wenn wir keine Symbole im Text finden können, den Sie bereitgestellt haben, werden wir **Sie informieren, dass es nicht gefunden wurde.** Wir werden es nicht gewaltsam mit etwas Ähnlichem verbinden oder plausible Sätze erstellen, um den Raum zu füllen."
           },
           {
-            "p": "Das ist, worauf dieser Dienst am vorsichtigsten achtet. In dem Moment, in dem ich eine Lücke fülle, widerspricht es der Aussage, Deutungen zu vermitteln."
+            "p": "Das ist es, worüber dieser Dienst am vorsichtigsten ist. In dem Moment, in dem wir eine Lücke füllen, bricht das Versprechen, dass wir nur überlieferte Deutungen weitergeben."
           }
         ]
       },
@@ -560,7 +560,7 @@ export const DE_DOCS = {
           {
             "ul": [
               "**Es ist ein Symbol, das noch nicht im Wörterbuch ist.** Derzeit sind {symbolTotal} Symbole aufgeführt, aber es gibt viele weitere, die in Träumen erscheinen könnten.",
-              "**Sie haben nur Gefühle geschrieben.** Wenn es nur Emotionen wie 「ich hatte angst」·「ich fühlte mich seltsam」 gibt, gibt es keine Symbole, die zugeordnet werden können. Traditionelle 해몽 spricht von **sichtbaren Objekten und Handlungen** statt von Emotionen.",
+              "**Sie haben nur Gefühle geschrieben.** Wenn es nur Emotionen wie 「ich hatte angst」·「ich fühlte mich seltsam」 gibt, gibt es keine Symbole, die zugeordnet werden können. Die traditionelle Traumdeutung spricht von **sichtbaren Objekten und Handlungen** und nicht von Emotionen.",
               "**Es ist zu kurz.** Es ist besser, in Sätzen zu schreiben als in ein oder zwei Wörtern."
             ]
           }
@@ -576,13 +576,13 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "Ich lasse keinen leeren Bildschirm zurück",
+        "title": "wir lassen keinen leeren Bildschirm zurück",
         "blocks": [
           {
-            "p": "Wenn etwas nicht gefunden werden kann, werde ich auch **{popularSymbolCount} häufig gesuchte Symbole** auf diesem Bildschirm anzeigen. Diese werden aus dem Wörterbuch basierend auf ihrer Repräsentativität ausgewählt, was Ihnen helfen kann, sich zu erinnern, ob eines von ihnen in Ihrem Traum erschienen ist."
+            "p": "Wenn etwas nicht gefunden werden kann, zeigen wir auch **{popularSymbolCount} häufig gesuchte Symbole** auf diesem Bildschirm. Diese werden aus dem Wörterbuch basierend auf ihrer Repräsentativität ausgewählt, was Ihnen helfen kann, sich zu erinnern, ob eines von ihnen in Ihrem Traum erschienen ist."
           },
           {
-            "p": "Wenn Sie die gesamte Liste durchsuchen möchten, gibt es {symbolTotal} Symbole, die nach Kategorien im [Symbol-Wörterbuch](/dream/symbols) organisiert sind. Jedes Symbol enthält seine überlieferte Bedeutung und verwandte Symbole."
+            "p": "Wenn Sie die gesamte Liste durchsuchen möchten, gibt es {symbolTotal} Symbole, die nach Kategorien im [symbolwörterbuch](/dream/symbols) organisiert sind. Jedes Symbol enthält seine traditionelle Bedeutung und verwandte Symbole."
           }
         ]
       },
@@ -590,10 +590,10 @@ export const DE_DOCS = {
         "title": "Wie wird das Wörterbuch in Zukunft erweitert?",
         "blocks": [
           {
-            "p": "Anstatt die Zahlen zu erhöhen, konzentriere ich mich darauf, **genau zu identifizieren, was bereits vorhanden ist**. Ich habe {aliasTotal} alternative Namen für dasselbe Symbol aufgenommen und es möglich gemacht, Wörter zu erkennen, die sich mit Suffixen verändern."
+            "p": "Anstatt die Zahlen zu erhöhen, konzentrieren wir uns darauf, **genau zu identifizieren, was bereits vorhanden ist**. Wir haben {aliasTotal} alternative Namen für dasselbe Symbol aufgenommen, und wir haben es möglich gemacht, Wörter zu erkennen, die sich mit Suffixen verändern."
           },
           {
-            "p": "Bei der Erweiterung der Symbole selbst werde ich nur solche einbeziehen, die **überlieferte Beweise liefern können.** Einfach nur die Zahlen zu erhöhen ohne Beweise wird zur Schöpfung statt zu einem Wörterbuch — ich habe die Versuche und Ergebnisse in [Warum ich keine Modelle verwende](/guide/no-ai) dokumentiert."
+            "p": "Bei der Erweiterung der Symbole selbst werden wir nur solche aufnehmen, die **eine dokumentierte traditionelle Quelle bereitstellen können.** Einfach nur die Zahlen zu erhöhen ohne Beweise wird zur Schöpfung anstatt zu einem Wörterbuch — wir haben die Versuche und Ergebnisse in [warum wir keine Modelle verwenden](/guide/no-ai) dokumentiert."
           }
         ]
       }
@@ -601,18 +601,18 @@ export const DE_DOCS = {
   },
   "guide/no-ai": {
     "eyebrow": "Dienstbasis",
-    "title": "Gründe für die Nichtverwendung von künstlicher Intelligenz in 해몽",
-    "summary": "Es gibt keinen Code, der ein Modell im Prozess der Erstellung von Deutungen aufruft. Ich habe den Versuch aufgegeben, das Wörterbuch mit einem Modell basierend auf empirischen Ergebnissen zu erweitern, und damit, was gewonnen und was aufgegeben wurde.",
+    "title": "Gründe für die Nichtverwendung von künstlicher Intelligenz in der Traumdeutung",
+    "summary": "Es gibt keinen Code, der ein Modell im Prozess der Erstellung von Deutungen aufruft. Wir haben den Versuch aufgegeben, das Wörterbuch mithilfe eines Modells basierend auf empirischen Ergebnissen zu erweitern, und damit, was gewonnen und was aufgegeben wurde.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
-        "title": "Künstliche Intelligenz wird in 해몽 nicht verwendet",
+        "title": "Künstliche Intelligenz wird in der Traumdeutung nicht verwendet",
         "blocks": [
           {
-            "p": "Viele aktuelle 해몽-Dienste zeigen Texte, die durch das Einfügen von Traumgeschichten in generative Modelle erstellt wurden. Dreams-Link macht das nicht. **Es gibt keinen Code, der ein Modell im Prozess der Erstellung von Deutungen aufruft.**"
+            "p": "Viele aktuelle Traumdeutungsdienste zeigen Texte, die durch das Einfügen von Traumgeschichten in generative Modelle erstellt wurden. Dreams-Link tut das nicht. **Es gibt keinen Code, der ein Modell im Prozess der Erstellung von Deutungen aufruft.**"
           },
           {
-            "p": "Was ich tue, ist einfach. Ich finde Symbole im Text, den Sie bereitgestellt haben, die im Wörterbuch sind, und wähle und zeige die Bedeutungen, die das Wörterbuch für diese Symbole geschrieben hat. Es gibt keinen Platz für Sätze, die nicht im Wörterbuch sind."
+            "p": "Was wir tun, ist einfach. Wir finden Symbole im Text, den Sie bereitgestellt haben, die im Wörterbuch sind, und wählen und zeigen die Bedeutungen, die das Wörterbuch für diese Symbole geschrieben hat. Es gibt keinen Platz für Sätze, die nicht im Wörterbuch sind."
           }
         ]
       },
@@ -620,10 +620,10 @@ export const DE_DOCS = {
         "title": "Warum wurde diese Entscheidung getroffen?",
         "blocks": [
           {
-            "p": "**Modelle sagen nicht, dass sie nicht wissen, was sie nicht wissen.** Wenn sie nach Symbolen ohne überlieferte Beweise gefragt werden, fabrizieren sie plausible Ursprünge. Und ob es fabriziert ist oder nicht, ist etwas, das der Leser nicht erkennen kann. Wenn man Schöpfung anstelle von Tradition vermittelt, bricht die Prämisse des Dienstes zusammen."
+            "p": "**Modelle sagen nicht, dass sie nicht wissen, was sie nicht wissen.** Wenn sie nach Symbolen ohne dokumentierte traditionelle Quelle gefragt werden, fabrizieren sie plausible Ursprünge. Und ob es fabriziert ist oder nicht, ist etwas, das der Leser nicht erkennen kann. Wenn man Schöpfung anstelle der Übermittlung von Tradition einfügt, bricht die Prämisse des Dienstes zusammen."
           },
           {
-            "p": "Ich habe tatsächlich versucht, ein Modell Symbole erstellen zu lassen, um das Wörterbuch zu erweitern. Von sechsundsechzig Beispielen, die es wert waren, in Betracht gezogen zu werden, **konnten fünfundfünfzig keine überlieferten Beweise liefern**, und einige enthielten Dinge, die in traditioneller 해몽 nicht existieren konnten, wie U-Bahnen und Autobahnen. Daher **wurden keine aufgenommen.**"
+            "p": "Wir haben tatsächlich versucht, ein Modell Symbole erstellen zu lassen, um das Wörterbuch zu erweitern. Von sechsundsechzig Beispielen, die es wert waren, in Betracht gezogen zu werden, **konnten fünfundfünfzig keine dokumentierte traditionelle Quelle bereitstellen**, und einige beinhalteten Dinge, die in der traditionellen Traumdeutung nicht existieren konnten, wie U-Bahnen und Autobahnen. Daher **wurden keine aufgenommen.**"
           }
         ]
       },
@@ -632,7 +632,7 @@ export const DE_DOCS = {
         "title": "Das Gleiche galt sogar für größere Modelle",
         "blocks": [
           {
-            "p": "Als ich dieselbe Aufgabe mit einem besseren Modell versuchte, bestand nur eines von neunzehn, und das eine war nur eine Wiederholung der gleichen Wörter in der Beweisposition. Größere Modelle sprechen nur **plausibler** über das, was sie nicht wissen."
+            "p": "Als wir die gleiche Aufgabe mit einem besseren Modell versuchten, bestand nur eines von neunzehn, und das war nur eine Wiederholung derselben Worte in der Beweisposition. Größere Modelle sprechen nur **plausibler** über das, was sie nicht wissen."
           }
         ]
       },
@@ -643,7 +643,7 @@ export const DE_DOCS = {
             "ul": [
               "**Wenn es der gleiche Traum ist, wird die gleiche Deutung herauskommen.** Die Formulierung ändert sich nicht jedes Mal.",
               "**Es ist schnell.** Es gibt kein Warten auf die Antwort eines Modells, sodass die Ergebnisse sofort geliefert werden.",
-              "**Der Traum, den Sie bereitgestellt haben, geht nicht nach außen.** Es gibt keine Notwendigkeit, ihn an externe Unternehmensserver zu senden — bitte lesen Sie auch die [Methode der Nicht-Speicherung](/guide/no-storage).",
+              "**Der Traum, den Sie bereitgestellt haben, geht nicht nach außen.** Es gibt keine Notwendigkeit, ihn an externe Unternehmensserver zu senden — bitte lesen Sie weiter mit [der Methode, keine Daten zu speichern](/guide/no-storage).",
               "**Es kann kostenlos angeboten werden.** Träume sind etwas, das wir jeden Tag träumen, also gibt es viele Anfragen. Wenn für jede Anfrage ein Modell aufgerufen wird, müssen die Kosten irgendwo gedeckt werden."
             ]
           }
@@ -653,7 +653,7 @@ export const DE_DOCS = {
         "title": "Was aufgegeben wird",
         "blocks": [
           {
-            "p": "Wir können nicht interpretieren, was nicht im Wörterbuch steht. Hätte ein Modell verwendet werden, hätte alles, was Sie geschrieben haben, eine plausible Antwort produziert. Wir haben uns für die Seite entschieden, die **sagt, dass es nicht gefunden werden konnte, wenn es nicht gefunden werden konnte**. Was wir zu diesem Zeitpunkt zeigen, ist geschrieben in [wenn ein Symbol nicht gefunden werden kann](/guide/not-found)."
+            "p": "Wir können nicht interpretieren, was nicht im Wörterbuch steht. Wenn ein Modell verwendet worden wäre, hätte alles, was Sie geschrieben haben, eine plausible Antwort produziert. Wir haben uns für die Seite entschieden, die **sagt, dass es nicht gefunden werden konnte, wenn es nicht gefunden werden konnte**. Was wir zu diesem Zeitpunkt zeigen, ist in [wenn ein Symbol nicht gefunden werden kann](/guide/not-found) geschrieben."
           }
         ]
       }
@@ -662,14 +662,14 @@ export const DE_DOCS = {
   "guide/reports": {
     "eyebrow": "Bezahlte Produkte",
     "title": "Zwei Möglichkeiten, Ihre Träume zu bewahren",
-    "summary": "Die Interpretation selbst verursacht keine Kosten. Wir erklären, was die beiden Dinge sind, die wir verkaufen, was sie enthalten und warum sie keine besseren Interpretationen sind.",
+    "summary": "Die Interpretation selbst verursacht keine Gebühren. Wir erklären, was die beiden Dinge sind, die wir verkaufen, was sie enthalten und warum sie keine besseren Interpretationen sind.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
-        "title": "Die Interpretation selbst verursacht keine Kosten",
+        "title": "Die Interpretation selbst verursacht keine Gebühren",
         "blocks": [
           {
-            "p": "Das Aufschreiben Ihrer Träume und das Sehen, welche Symbole vorhanden sind, **kostet kein Geld und erfordert keine Mitgliedschaft.** Da die Menschen jeden Tag träumen, haben wir entschieden, dass dieser Raum kostenlos sein sollte."
+            "p": "Das Aufschreiben Ihrer Träume und das Sehen, welche Symbole vorhanden sind, **kostet kein Geld und erfordert keine Mitgliedschaft.** Da Menschen jeden Tag träumen, haben wir entschieden, dass dieser Raum kostenlos sein sollte."
           },
           {
             "p": "**Die beiden Dinge, die wir verkaufen, sind keine besseren Interpretationen.** Sie sind **zwei Möglichkeiten, die gleiche Interpretation zu bewahren.** Der Inhalt, den Sie auf dem Bildschirm sehen, ändert sich nach der Zahlung nicht."
@@ -688,13 +688,13 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "태몽 Report — Dokument {conceptionPages} Seiten",
+        "title": "Bericht über den Empfängnis-Traum — Dokument {conceptionPages} Seiten",
         "blocks": [
           {
-            "p": "Für Träume, die Symbole zeigen, die als 태몽 (Empfängnis-Träume) interpretiert werden, erstellen wir ein **{conceptionPages}-Seiten-Dokument.** Es enthält, welche Symbole erschienen sind, wie diese Symbole traditionell interpretiert wurden und einen Platz, um das aufzuzeichnen."
+            "p": "Für Träume, die Symbole zeigen, die als Empfängnis-Träume interpretiert werden, erstellen wir ein **{conceptionPages}-seitiges Dokument.** Es enthält, welche Symbole erschienen sind, wie diese Symbole traditionell interpretiert wurden und einen Platz, um das aufzuzeichnen."
           },
           {
-            "p": "Da 태몽 oft unter Familienmitgliedern besprochen und geteilt werden, selbst nachdem das Kind geboren ist, haben wir ein separates Dokument für Träume erstellt, die zu kostbar sind, um sie nur auf dem Bildschirm zu sehen."
+            "p": "Da ein Empfängnis-Traum oft unter Familienmitgliedern besprochen und geteilt wird, selbst nachdem das Kind geboren ist, haben wir ein separates Dokument für Träume erstellt, die zu kostbar sind, um sie nur auf dem Bildschirm zu sehen."
           }
         ]
       },
@@ -703,7 +703,7 @@ export const DE_DOCS = {
         "title": "Worte, die auch hier nicht gesagt werden",
         "blocks": [
           {
-            "p": "Wir bestimmen nicht den Schwangerschaftsstatus oder das Geschlecht des Kindes. Solche Aussagen erscheinen nicht im Dokument. Für Details siehe [wie man 태몽 interpretiert](/guide/conception-dreams)."
+            "p": "Wir bestimmen den Schwangerschaftsstatus oder das Geschlecht des Kindes nicht. Solche Aussagen erscheinen nicht im Dokument. Für Details siehe [wie man einen Empfängnis-Traum interpretiert](/guide/conception-dreams)."
           }
         ]
       },
@@ -722,10 +722,10 @@ export const DE_DOCS = {
         "title": "Preise und Verkaufsstatus",
         "blocks": [
           {
-            "p": "Preise sind im [Preise-Leitfaden](/pricing) aufgeführt. Der Grund, warum dieses Dokument keine Beträge auflistet, ist absichtlich — um Situationen zu vermeiden, in denen das Leitdokument mit alten Beträgen bleibt, wenn sich die Preise ändern. Der Bildschirm und die Bedingungen lesen alle denselben Betrag von einem Ort."
+            "p": "Preise sind im [Preisanleitung](/pricing) aufgeführt. Der Grund, warum dieses Dokument keine Beträge auflistet, ist absichtlich — um Situationen zu vermeiden, in denen das Leitdokument mit alten Beträgen bleibt, wenn sich die Preise ändern. Der Bildschirm und die Bedingungen lesen alle denselben Betrag von einem Ort."
           },
           {
-            "p": "Die Dokumente, die Sie kaufen, können **mit derselben Bestellung erneut empfangen werden.** Da wir jedoch keine Dateien aufbewahren, können Sie sie nicht wiederherstellen, sobald Sie den Ergebnisbildschirm verlassen — bitte bewahren Sie die Dateien auf, die Sie erhalten."
+            "p": "Die Dokumente, die Sie kaufen, können **mit derselben Bestellung erneut empfangen werden.** Da wir jedoch keine Dateien aufbewahren, können Sie sie nicht erneut erstellen, sobald Sie den Ergebnisscreen verlassen — bitte bewahren Sie die Dateien auf, die Sie erhalten."
           }
         ]
       }
@@ -734,17 +734,17 @@ export const DE_DOCS = {
   "guide/no-storage": {
     "eyebrow": "Persönliche Informationen",
     "title": "Die Methode, Träume, die Sie aufschreiben, nicht zu speichern",
-    "summary": "Wir erklären, was es technisch bedeutet, dass Traumgeschichten nirgendwo aufgezeichnet werden, und was im Ergebnislink enthalten ist.",
+    "summary": "Wir erklären, was es technisch bedeutet, dass Traumgeschichten nirgendwo aufgezeichnet werden und was im Ergebnislink enthalten ist.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
         "title": "Keine Mitgliedschaft erforderlich",
         "blocks": [
           {
-            "p": "Dreams-Link erstellt keine Konten. Wir sammeln keine Namen, E-Mails oder Telefonnummern. Die einzigen Dinge, die wir sammeln, sind die Träume, die Sie aufschreiben, wie Sie sich beim Aufwachen gefühlt haben und ob Sie denselben Traum wiederholt träumen, und das bleibt nicht nach der Interpretation."
+            "p": "Dreams-Link erstellt keine Konten. Wir sammeln keine Namen, E-Mails oder Telefonnummern. Die einzigen Dinge, die wir sammeln, sind die Träume, die Sie aufschreiben, wie Sie sich beim Aufwachen gefühlt haben und ob Sie denselben Traum wiederholt träumen, und das bleibt nicht nach Abschluss der Interpretation."
           },
           {
-            "p": "Traumgeschichten sind die privatesten Werte, die dieser Dienst erhält. Deshalb sind die Regeln strenger als nötig — wir haben nicht einmal einen Raum eingerichtet, um das, was Sie einreichen, aufzuschreiben."
+            "p": "Traumgeschichten sind die privatesten Werte, die dieser Dienst erhält. Deshalb sind die Regeln strenger als nötig — wir haben nicht einmal einen Tisch erstellt, um das, was Sie einreichen, aufzuschreiben."
           }
         ]
       },
@@ -758,7 +758,7 @@ export const DE_DOCS = {
             "p": "**/ko/dream/result#eyJ0IjoiSSBkcmVhbXQgb2YgYSBjYXJwLi4u**"
           },
           {
-            "p": "Was folgt, **#**, ist der Eingabewert. Dieser Teil wird als **Fragment** bezeichnet, das ein **Teil ist, das der Browser nicht an den Server sendet**. Dies ist ein Standard-Webverhalten und keine Regel, die wir erstellt haben — es wurde ursprünglich entworfen, um einen Standort innerhalb eines Dokuments anzuzeigen, sodass der Server keinen Bedarf hat, es zu sehen."
+            "p": "Was folgt **#** ist der Eingabewert. Dieser Teil wird als **Fragment** bezeichnet, das ein **Teil ist, das der Browser nicht an den Server sendet**. Dies ist ein Standard-Webverhalten und keine Regel, die wir erstellt haben — es wurde ursprünglich entworfen, um einen Standort innerhalb eines Dokuments anzuzeigen, sodass der Server keinen Bedarf hat, es zu sehen."
           },
           {
             "p": "Hier ist diese Eigenschaft besonders wichtig — der Traum, den Sie bereitgestellt haben, **bleibt nicht in den Zugriffsprotokollen.**"
@@ -773,7 +773,7 @@ export const DE_DOCS = {
         "title": "Bitte seien Sie vorsichtig, wenn Sie Links an andere senden",
         "blocks": [
           {
-            "p": "Die Tatsache, dass es nicht auf dem Server gespeichert ist, bedeutet nicht, dass der Link sicher ist. Der Ergebnislink enthält den Traum, den Sie bereitgestellt haben, sodass die Person, die diesen Link erhält, diesen Inhalt lesen kann."
+            "p": "Die Tatsache, dass es nicht auf dem Server gespeichert wird, bedeutet nicht, dass der Link sicher ist. Der Ergebnislink enthält den Traum, den Sie bereitgestellt haben, sodass die Person, die diesen Link erhält, diesen Inhalt lesen kann."
           }
         ]
       },
@@ -781,10 +781,10 @@ export const DE_DOCS = {
         "title": "Warum wird die Berechnung auf dem Server durchgeführt, aber nicht gespeichert?",
         "blocks": [
           {
-            "p": "Die Berechnung selbst erfolgt auf dem Server. Das Finden von Symbolen erfordert das gesamte Wörterbuch, und dieses Wörterbuch ist zu groß, um es an den Browser zu senden. Das Behalten des Wörterbuchs auf dem Server bedeutet auch, dass, wenn ein Fehler behoben wird, er für alle gleichzeitig reflektiert wird. Allerdings, **nach der Verarbeitung der Anfrage wird dieser Wert nirgendwo verwendet.** Es gibt keinen Code, um ihn in die Datenbank einzufügen."
+            "p": "Die Berechnung selbst erfolgt auf dem Server. Das Finden von Symbolen erfordert das gesamte Wörterbuch, und dieses Wörterbuch ist zu groß, um es an den Browser zu senden. Das Behalten des Wörterbuchs auf dem Server bedeutet auch, dass, wenn ein Fehler behoben wird, dies für alle auf einmal reflektiert wird. Allerdings **wird dieser Wert nach der Bearbeitung der Anfrage nirgendwo verwendet.** Es gibt keinen Code, um ihn in die Datenbank einzufügen."
           },
           {
-            "p": "Ein minimaler, für den Betrieb notwendiger Datensatz wird aufbewahrt — ein Zähler, um zu verhindern, dass dieselbe Person zu viele Anfragen in kurzer Zeit sendet. Dies umfasst nicht den Trauminhalt, und die Zugriffs-IP wird ebenfalls nicht gespeichert. Nur ein Wert, der mit dem Datum gehasht ist, wird gezählt, und dieser Wert ändert sich, wenn sich der Tag ändert."
+            "p": "Ein minimales Protokoll, das für den Betrieb erforderlich ist, wird aufbewahrt — ein Zähler, um zu verhindern, dass dieselbe Person zu viele Anfragen in kurzer Zeit sendet. Dies umfasst nicht den Trauminhalt, und die Zugriffs-IP wird ebenfalls nicht gespeichert. Nur ein Wert, der mit dem Datum gehasht ist, wird gezählt, und dieser Wert ändert sich, wenn der Tag wechselt."
           }
         ]
       },
@@ -797,8 +797,8 @@ export const DE_DOCS = {
           {
             "ul": [
               "**Es gibt kein Traumtagebuch.** Sie können die Interpretation von letzter Woche nicht abrufen, und Sie müssen den Link haben, um sie erneut zu sehen. Dies geschieht absichtlich — um ein Tagebuch zu erstellen, müssen die privatesten Aufzeichnungen kontinuierlich gespeichert werden.",
-              "**Das erneute Finden des gleichen Wertes.** Es gibt keinen Cache. Stattdessen ist das Wörterbuch festgelegt, und die Übereinstimmungsregeln sind deterministisch, sodass derselbe Text immer dasselbe Symbol ergibt — die Regeln ersetzen, was der Cache garantiert hätte.",
-              "**Ein Aktualisieren bringt das Werbeportal erneut hervor.** Dies liegt daran, dass es keinen Ort gibt, um Betrachtungsprotokolle zu hinterlassen."
+              "**Wir berechnen jeden Wert jedes Mal erneut.** Es gibt keinen Cache. Stattdessen ist das Wörterbuch festgelegt, und die Übereinstimmungsregeln sind deterministisch, sodass derselbe Text immer dasselbe Symbol ergibt — die Regeln ersetzen das, was der Cache garantiert hätte.",
+              "**Ein Aktualisieren bringt das Werbeportal erneut hervor.** Dies liegt daran, dass es keinen Ort gibt, um die Anzeigedaten zu hinterlassen."
             ]
           }
         ]
@@ -807,7 +807,7 @@ export const DE_DOCS = {
         "title": "Im Falle eines Kaufs",
         "blocks": [
           {
-            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsprotokoll aufbewahrt. Die Zahlung hat eine gesetzlich definierte Aufbewahrungsfrist, und ohne eine Bestellhistorie können Rückerstattungen nicht bearbeitet werden. Selbst dann **fügt der Trauminhalt, der in der Interpretation geschrieben ist, sich nicht an die Bestellung an** — er wird erneut empfangen und in dem Moment geschrieben, in dem das Dokument nach der Zahlungsbestätigung erstellt wird."
+            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsprotokoll aufbewahrt. Die Zahlung hat eine gesetzlich definierte Aufbewahrungsfrist, und ohne eine Bestellhistorie können Rückerstattungen nicht bearbeitet werden. Selbst dann **ist der Traumtext, der für die Lesung verwendet wurde, nicht an die Bestellung angehängt** — er wird erneut empfangen und in dem Moment geschrieben, in dem das Dokument nach der Zahlungsbestätigung erstellt wird."
           },
           {
             "p": "Für Details siehe bitte die [Datenschutzrichtlinie](/privacy)."
@@ -826,7 +826,7 @@ export const DE_DOCS = {
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Anfragen",
-    "summary": "Dies ist der Kanal für Anfragen zu Nutzung, Rückerstattungen, Anfragen zu persönlichen Informationen und Fehlerberichten sowie für Geschäftsinformationen.",
+    "summary": "Dies ist der Kanal für Anfragen zu Nutzung, Rückerstattungen, Anfragen zu persönlichen Informationen und Fehlerberichten sowie für Unternehmensinformationen.",
     "backLabel": "Zurück zur Startseite",
     "sections": [
       {
@@ -845,22 +845,22 @@ export const DE_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Zahlung und Rückerstattung** — Wenn das Dokument nicht erstellt wurde oder der Zahlungsbetrag von der Bestellung abweicht, wird eine vollständige Rückerstattung gewährt. Die Bedingungen finden Sie in der [Rückerstattungspolitik](/refund-policy).",
-              "**Persönliche Informationen** — Wir akzeptieren Anfragen auf Zugang, Berichtigung und Löschung. Die Bearbeitungspolitik finden Sie in der [Datenschutzrichtlinie](/privacy).",
-              "**Fehler bei der Interpretation melden** — Wenn Symbole falsch gefunden wurden oder die Interpretation seltsam erscheint, lassen Sie es uns bitte wissen. Wenn Sie angeben, wann Sie diese Traumgeschichte geschrieben haben, können wir sie mit demselben Text erneut überprüfen."
+              "**Zahlung und Rückerstattung** — Wenn das Dokument nicht erstellt wurde oder der Zahlungsbetrag von der Bestellung abweicht, wird eine vollständige Rückerstattung gewährt. Die Bedingungen finden Sie in der [Rückerstattungsrichtlinie](/refund-policy).",
+              "**Persönliche Informationen** — Wir akzeptieren Anfragen zu Zugang, Korrektur und Löschung. Die Bearbeitungsrichtlinie finden Sie in der [Datenschutzrichtlinie](/privacy).",
+              "**Fehler bei der Interpretation melden** — Wenn Symbole falsch gefunden wurden oder die Interpretation seltsam erscheint, lassen Sie es uns bitte wissen. Wenn Sie angeben, wann Sie diese Traumgeschichte geschrieben haben, können wir sie mit dem gleichen Text erneut überprüfen."
             ]
           }
         ]
       },
       {
-        "title": "Geschäftsinformationen",
+        "title": "Unternehmensinformationen",
         "blocks": [
           {
             "ul": [
               "**Firmenname** — {companyName}",
               "**Vertreter** — {representative}",
               "**Handelsregisternummer** — {businessNumber}",
-              "**Postversand-Handelsregisternummer** — {mailOrderNumber}",
+              "**Nummer der Versandhandelsregistrierung** — {mailOrderNumber}",
               "**Adresse** — {address}",
               "**Kundenservice** — {customerCenter}",
               "**E-Mail** — {email}",
@@ -874,7 +874,7 @@ export const DE_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Sie müssen den Traum, den Sie in der Anfrage-E-Mail angegeben haben, nicht erneut schreiben. Wir speichern keine Eingaben, daher können wir sie nicht erneut abrufen, und die Bestellnummer reicht zur Verifizierung aus. Bitte notieren Sie sie nur, wenn es unbedingt notwendig ist, z.B. um Fehler bei der Interpretation zu melden."
+            "p": "Sie müssen den Traum, den Sie in der Anfrage-E-Mail angegeben haben, nicht erneut schreiben. Wir speichern keine Eingaben, daher können wir sie nicht erneut überprüfen, und die Bestellnummer ist ausreichend zur Verifizierung. Bitte notieren Sie sie nur, wenn es unbedingt notwendig ist, z.B. um Fehler bei der Interpretation zu melden."
           }
         ]
       }
@@ -883,25 +883,25 @@ export const DE_DOCS = {
   "guide/what-we-do-not-do": {
     "eyebrow": "Dienstprinzipien",
     "title": "Was wir nicht tun",
-    "summary": "Wir bieten keine Lotteriezahlen, Traumtagebücher, Schwangerschaftsbestimmungen oder Talismane an. Wir erklären, warum wir uns entschieden haben, jedes dieser Dinge nicht zu tun.",
-    "backLabel": "Interpretationsgrundlage",
+    "summary": "Wir bieten keine Lottozahlen, Traumjournale, Schwangerschaftsbestimmungen oder Talismane an. Wir erklären, warum wir uns entschieden haben, dies nicht zu tun.",
+    "backLabel": "Interpretationsbasis",
     "sections": [
       {
-        "title": "Wir bieten keine Lotteriezahlen an",
+        "title": "Wir bieten keine Lottozahlen an",
         "blocks": [
           {
-            "p": "Obwohl dies häufig in Traumdeutungsdiensten angesprochen wird, tun wir dies nicht. **Es gibt keine Grundlage in der traditionellen Traumdeutung, um Zahlen aus Träumen abzuleiten.** Während es Aufzeichnungen gibt, die Schweineträume als Reichtum interpretieren, gibt es keine Regel in der Literatur, die sechs Zahlen daraus ableitet."
+            "p": "Obwohl dies in Traumdeutungsdiensten häufig angesprochen wird, tun wir dies nicht. **Es gibt keine Grundlage in der traditionellen Traumdeutung, um Zahlen aus Träumen abzuleiten.** Während es Aufzeichnungen gibt, die Schweineträume als Wohlstand interpretieren, gibt es keine Regel in der Literatur, die sechs Zahlen daraus ableitet."
           },
           {
-            "p": "Um sie zu erstellen, müssten wir sie erfinden, und in diesem Moment wäre dieser Dienst nicht mehr ein Ort, um die von der Tradition überlieferten Interpretationen zu vermitteln. Dies ist besonders besorgniserregend, da es zu finanziellen Verlusten führen könnte."
+            "p": "Um sie zu erstellen, müssten wir sie erfinden, und in diesem Moment wäre dieser Dienst nicht mehr ein Ort, um die Interpretationen weiterzugeben, die von der Tradition überliefert wurden. Dies ist besonders besorgniserregend, da es zu finanziellen Verlusten führen könnte."
           }
         ]
       },
       {
-        "title": "Wir erstellen keine Traumtagebücher",
+        "title": "Wir erstellen keine Traumjournale",
         "blocks": [
           {
-            "p": "Obwohl es praktisch wäre, eine Funktion zu haben, um vergangene Träume zu sammeln, würde es erfordern, dass wir **die Träume, die Sie bereitstellen, kontinuierlich speichern.** Traumnarrative sind der privateste Aspekt dessen, was dieser Dienst erhält, und wir haben entschieden, das nicht auszutauschen."
+            "p": "Obwohl es praktisch wäre, eine Funktion zu haben, um vergangene Träume zu sammeln, würde es erfordern, dass wir **die Träume, die Sie bereitstellen, kontinuierlich speichern.** Traumnarrative sind der privateste Aspekt dessen, was dieser Dienst erhält, und wir haben beschlossen, dies nicht auszutauschen."
           },
           {
             "p": "Stattdessen können Träume, die Sie aufbewahren möchten, **als Bilder oder Dokumente aufgenommen werden.** Die Verantwortung für die Speicherung liegt bei den Nutzern, nicht bei uns — [Zwei Möglichkeiten, Ihre Träume zu bewahren](/guide/reports)"
@@ -912,7 +912,7 @@ export const DE_DOCS = {
         "title": "Wir bestimmen keine Schwangerschaft oder Geschlecht",
         "blocks": [
           {
-            "p": "Wir werden nur feststellen, dass ein als 태몽 (Empfängnis-Traum) interpretiertes Symbol erschienen ist. Ob Sie schwanger sind oder ob das Kind eine Tochter oder ein Sohn ist, ist **nicht etwas, das durch Träume bekannt sein kann.** Solche Aussagen erscheinen nicht auf dem Bildschirm oder in bezahlten Dokumenten."
+            "p": "Wir werden nur feststellen, dass ein Symbol, das als a conception dream (Empfängnisträum) interpretiert wird, erschienen ist. Ob Sie schwanger sind oder ob das Kind eine Tochter oder ein Sohn ist, ist **nicht etwas, das durch Träume bekannt werden kann.** Solche Aussagen erscheinen nicht auf dem Bildschirm oder in bezahlten Dokumenten."
           }
         ]
       },
@@ -920,19 +920,19 @@ export const DE_DOCS = {
         "title": "Wir verkaufen keine Talismane oder Amulette",
         "blocks": [
           {
-            "p": "Nur weil ein Symbol als vorsorglich interpretiert wird, bedeutet das nicht, dass es einen Grund gibt, etwas zu kaufen. Ein 흉몽 (unheilvoller Traum) wurde traditionell verwendet, um **eine Situation anzuzeigen, die jetzt zu prüfen ist**, nicht um zu bezahlen, um etwas abzuwenden."
+            "p": "Ein als an ominous dream (ungünstig) gelesenes Symbol ist kein Grund, etwas zu kaufen. Ein ungünstiger Traum wurde traditionell verwendet, um **eine Situation anzuzeigen, die jetzt zu prüfen ist**, nicht um zu bezahlen, um etwas abzuwenden."
           },
           {
-            "p": "Wir erzeugen keine Angst, um etwas basierend darauf zu verkaufen. Die einzigen Dinge, die wir verkaufen, sind die beiden oben genannten, und keines davon bietet zusätzliche Interpretationen, sondern vielmehr **Möglichkeiten, denselben Inhalt zu bewahren.**"
+            "p": "Wir erzeugen keine Angst, um etwas basierend darauf zu verkaufen. Die einzigen Dinge, die wir verkaufen, sind die beiden oben genannten, und keine davon bietet zusätzliche Interpretationen, sondern vielmehr **Möglichkeiten, denselben Inhalt zu bewahren.**"
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Wir machen keine definitiven Aussagen über die Zukunft",
+        "title": "Wir treffen keine definitiven Aussagen über die Zukunft",
         "blocks": [
           {
-            "p": "Wir machen keine definitiven Aussagen darüber, ob etwas passieren wird, wann es passieren wird oder bezüglich Gesundheit, Reichtum oder Lebensdauer. Die Bedeutung traditioneller Symbole zu vermitteln und die Zukunft vorherzusagen, sind unterschiedliche Angelegenheiten."
+            "p": "Wir treffen keine definitiven Aussagen darüber, ob etwas passieren wird, wann es passieren wird, oder bezüglich Gesundheit, Wohlstand oder Lebensdauer. Die Bedeutungen traditioneller Symbole zu vermitteln und die Zukunft vorherzusagen, sind unterschiedliche Angelegenheiten."
           }
         ]
       },
@@ -955,16 +955,16 @@ export const DE_NOTICES = {
     "engine": "Berechnung",
     "support": "Unterstützung"
   },
-  "intro": "Änderungen Ihrer Nutzungsbedingungen — Preise, Richtlinien — werden hier veröffentlicht, bevor sie in Kraft treten. Interne Verbesserungen, wie z.B. eine schnellere Bildschirmdarstellung, werden hier nicht veröffentlicht: Was hier erscheint, ist das, was Sie wissen müssen.",
+  "intro": "Änderungen Ihrer Nutzungsbedingungen — Preise, Richtlinien — werden hier veröffentlicht, bevor sie in Kraft treten. Interne Verbesserungen, wie z.B. dass der Bildschirm schneller wird, werden hier nicht veröffentlicht: Was hier erscheint, ist das, was Sie wissen müssen.",
   "empty": {
-    "title": "Keine Ankündigungen veröffentlicht",
-    "body": "Wenn es Änderungen gibt, über die wir Sie informieren müssen, werden sie hier veröffentlicht."
+    "title": "Keine veröffentlichten Mitteilungen",
+    "body": "Wenn es Änderungen gibt, über die wir Sie informieren müssen, werden diese hier veröffentlicht."
   },
   "effective": "Gültig ab {date}",
   "pager": {
     "label": "Hinweis-Seite",
     "newer": "← Neueste",
-    "older": "Frühere Hinweise →"
+    "older": "Vorherige Hinweise →"
   },
   "items": {
     "2026-08-06-no-storage": {
@@ -978,16 +978,16 @@ export const DE_NOTICES = {
     "2026-08-06-engine-version": {
       "title": "Die Ergebnisse enthalten das Symbolwörterbuch und die Berechnungskriterien.",
       "body": [
-        "Die Grundlage für die Interpretation ist das traditionelle 해몽 (Traumdeutung) Symbolwörterbuch. Die Ergebnisse und Dokumente enthalten die Version dieses Wörterbuchs (z.B. 1.2.0) und die Kriterien zur Regelfindung (z.B. dream-1.0.0). Der gleiche Traum wird immer dasselbe Symbol basierend auf denselben Kriterien ergeben.",
-        "Wenn das Hinzufügen von Symbolen oder das Ändern von Bedeutungen im Voraus die Ergebnisse verändern kann, wird diese Tatsache hier dargestellt. Dies liegt daran, dass sich die Ergebnisse, die Sie zuvor erhalten haben, ändern können.",
+        "Die Grundlage für die Interpretation ist das traditionelle Traumdeutungssymbolwörterbuch. Die Ergebnisse und Dokumente enthalten die Version dieses Wörterbuchs (z.B. 1.2.0) und die Version der Übereinstimmungsregeln (zum Beispiel dream-1.0.0). Der gleiche Traum wird immer dasselbe Symbol basierend auf denselben Kriterien ergeben.",
+        "Wenn wir Symbole zum Wörterbuch hinzufügen oder Bedeutungen ändern, die die Ergebnisse beeinflussen können, wird dies hier dargestellt. Dies liegt daran, dass die Ergebnisse, die Sie zuvor erhalten haben, sich ändern können.",
         "Wir erstellen keine traditionellen Bedeutungen, die nicht im Wörterbuch enthalten sind. Wenn keine Symbole gefunden werden, geben wir einfach an, dass keine gefunden wurden, und schließen ab."
       ]
     },
     "2026-08-06-conception": {
-      "title": "Wir informieren Sie nur über 태몽 und treffen keine Urteile.",
+      "title": "Wir informieren Sie nur über einen a conception dream (Empfängnisträum) und treffen keine Urteile.",
       "body": [
-        "Wenn Symbole, die traditionell als 태몽 betrachtet werden, im Traum erscheinen, werden wir Sie darüber informieren. Wir bestimmen jedoch nicht den Schwangerschaftsstatus oder das Geschlecht des Kindes — solche Behauptungen haben keine Grundlage, und medizinische Urteile liegen in der Verantwortung medizinischer Einrichtungen.",
-        "Die Erwähnung von Söhnen und Töchtern in traditionellen Erzählungen spiegelt Bräuche wider, die überliefert wurden, und bedeutet nicht, dass wir dies korrekt vorhersagen."
+        "Wenn Symbole, die traditionell als a conception dream (Empfängnisträume) angesehen werden, im Traum erscheinen, werden wir Sie darüber informieren. Wir bestimmen jedoch nicht den Schwangerschaftsstatus oder das Geschlecht des Kindes — solche Behauptungen haben keine Grundlage, und medizinische Urteile liegen in der Verantwortung medizinischer Einrichtungen.",
+        "Die Erwähnung von Söhnen und Töchtern in traditionellen Erzählungen ist ein Spiegelbild von Bräuchen, die überliefert wurden, und bedeutet nicht, dass wir dies korrekt vorhersagen."
       ]
     }
   }

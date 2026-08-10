@@ -53,7 +53,19 @@ for (const symbol of DREAM_SYMBOLS) {
  * 정규식의 `(\d[\d,]*)`가 문서에 적힌 수이고, `value`가 지금 사전이 내는 수다.
  */
 const FACTS: Array<{ label: string; near: RegExp; value: number }> = [
-  { label: "상징 수", near: /상징\s*(\d[\d,]*)개/g, value: DREAM_SYMBOLS.length },
+  /**
+   * **「태몽 상징 27개」를 전체 상징 수로 잡지 않게 한다** (2026-08-10).
+   *
+   * 예전 정규식은 `상징\s*(\d+)개`였다. 화면의 JSX 산문에서는 앞에 다른 말이 붙지 않아
+   * 문제가 없었는데, 본문이 자료로 옮겨지며 「태몽 상징 27개를…」이라는 문장이 생겼다.
+   * 27은 태몽 표시가 붙은 수(`conceptionTags`)이지 전체 상징 수가 아니다.
+   *
+   * 앞에 수식어가 붙지 않은 「상징 N개」만 본다 — 문맥이 좁아야 무엇을 세는지가 갈린다.
+   */
+  { label: "상징 수", near: /(?<![가-힣]\s?)상징\s*(\d[\d,]*)개/g, value: DREAM_SYMBOLS.length },
+  // 「태몽 상징 27개」는 전체가 아니라 태몽 표시가 붙은 수다. 위 정규식이 그것을 전체 상징
+  // 수로 잡아 「문서 27 · 실제 215」를 냈다 — 숫자는 맞는데 무엇을 세는지가 달랐다.
+  { label: "태몽 상징(수식어형)", near: /태몽\s*상징\s*(\d[\d,]*)개/g, value: conceptionTags },
   { label: "의미 수", near: /(\d[\d,]*)가지/g, value: meanings },
   // ⚠️ **길흉이 「갈리는 것」(59)과 헷갈리지 말 것.** 문서가 실제로 그 둘을 바꿔 적고 있었다 —
   // 「뜻이 갈리는 상징은 59개」라고 했는데 그건 ambivalent 극성의 수이고, 의미가 여럿인 상징은
@@ -97,10 +109,48 @@ const SPELLED: Array<{ label: string; near: RegExp; value: number }> = [
 ];
 
 // ── 안내 문서를 모은다 ─────────────────────────────────────────────────────
+/**
+ * **본문이 어디에 있는가.**
+ *
+ * 2026-08-09에 안내 본문이 `page.tsx`의 JSX에서 `lib/doc-content/ko.ts`로 옮겨졌다(23개 언어).
+ * 그 뒤로 이 검사기는 **숫자를 0개 대조하고 있었다** — `page.tsx`에는 배선만 남아 셀 것이
+ * 없는데, 없는 것을 세면 아무 문제도 못 찾고 초록에 가까운 얼굴로 돈다. 대조군이 「이 결과를
+ * 믿지 말 것」이라고 말해 주지 않았으면 통과로 읽혔을 자리다.
+ *
+ * **고침은 naminglink에서 났고 이 앱에는 오지 않았다**(2026-08-10에 옮겨 옴). 형제 앱에서
+ * 공용 스크립트를 고쳤으면 나머지 앱에도 있는지 그 자리에서 볼 것.
+ */
+const KO_DOC = path.join(process.cwd(), "src", "lib", "doc-content", "ko.ts");
+const koSource = existsSync(KO_DOC) ? readFileSync(KO_DOC, "utf8") : "";
+
+/** 한국어 원문에서 문서 하나의 글만 잘라 낸다. 다음 문서 키가 나오는 자리에서 끊는다. */
+function docContentProse(slug: string) {
+  const start = koSource.indexOf(`"guide/${slug}"`);
+  if (start < 0) return "";
+  const rest = koSource.slice(start + 1);
+  // **닫는 따옴표까지 넘어야 한다.** `["a-zA-Z][\w/-]*` 는 여는 따옴표만 받아서
+  // `"guide/xxx": {` 를 못 알아봤고, 그러면 다음 키를 못 찾아 **파일 끝까지** 잘라 온다 —
+  // 한 문서의 글에 뒤따르는 문서가 전부 섞여 같은 숫자가 여러 문서에서 잡혔다.
+  const next = rest.search(/\n {2}"?[a-zA-Z][\w/-]*"?: \{/);
+  return (next < 0 ? rest : rest.slice(0, next)).replace(/\s+/g, " ");
+}
+
 const docs: Array<{ slug: string; text: string }> = [];
 for (const slug of readdirSync(GUIDE)) {
   const file = path.join(GUIDE, slug, "page.tsx");
   if (!existsSync(file)) continue;
+
+  // 본문이 자료로 옮겨진 문서는 그쪽을 본다. 옮기지 않은 문서는 예전대로 화면에서 읽는다.
+  const moved = docContentProse(slug);
+  if (moved) {
+    /**
+     * **강조 표기를 걷어 내고 본다.** 자료로 옮기면서 숫자 둘레에 `**`가 붙었다
+     * (`**32분**입니다`). 아래 정규식들은 화면의 JSX 산문에 맞춰 쓰인 것이라 그 사이에
+     * 별표가 끼면 하나도 못 잡는다 — 실제로 사주링크가 **숫자를 0개 대조**하고 있었다.
+     */
+    docs.push({ slug, text: moved.replace(/\*\*/g, "") });
+    continue;
+  }
   // 주석은 검사하지 않는다 — 옛 숫자를 경위로 적어 두는 자리다.
   docs.push({
     slug,
