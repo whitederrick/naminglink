@@ -1,4 +1,4 @@
-import { adsEnabled, adsensePublisherId } from "@/lib/ads";
+import { adsConfigured, adsensePublisherId } from "@/lib/ads";
 
 // ads.txt — 이 도메인의 광고 재고를 누가 팔 수 있는지 밝히는 IAB 표준 파일이다.
 // 애드센스는 이 파일이 없으면 "수익이 손실될 수 있습니다" 경고를 띄우고 일부 입찰을 막는다.
@@ -9,7 +9,10 @@ import { adsEnabled, adsensePublisherId } from "@/lib/ads";
 export const dynamic = "force-static";
 
 export function GET() {
-  if (!adsEnabled) {
+  // **심사 모드와 무관하다** (2026-08-11). 이 파일은 「이 도메인의 광고 재고를 누가 팔 수
+  // 있는가」를 밝히는 연결 표시이지 광고 요청이 아니다. 게재를 멈춘 동안 404를 내면 애드센스
+  // 콘솔이 연결 경고를 띄운다 — 심사 중에 가장 피해야 하는 신호다.
+  if (!adsConfigured) {
     return new Response("Not found", { status: 404 });
   }
 

@@ -18,11 +18,22 @@
  * 죽거나 이용자가 막히면 안 된다.
  */
 
+// **상대 경로로 부른다.** 이 모듈은 `next.config.ts`가 CSP를 만들 때 함께 불러가는데,
+// 그 자리는 Next 밖이라 `@/` 별칭이 풀리지 않는다(`verify-ads-csp.ts`도 같은 경로로 부른다).
+import { adGatesEnabled } from "./ads";
+
 /** 광고 단위 경로. GAM 콘솔에서 보상형 광고 단위를 만들면 `/네트워크코드/이름` 꼴로 나온다. */
 const rawUnit = (process.env.NEXT_PUBLIC_GAM_REWARDED_UNIT ?? "").trim();
 
-/** 형식까지 확인한다. 오타가 들어간 채로 스크립트만 붙으면 CSP만 열리고 광고는 안 나온다. */
-export const gamRewardedEnabled = /^\/\d{5,}\/[\w./-]+$/.test(rawUnit);
+/**
+ * 형식까지 확인한다. 오타가 들어간 채로 스크립트만 붙으면 CSP만 열리고 광고는 안 나온다.
+ *
+ * **관문 스위치를 함께 본다** (2026-08-11). 보상형은 「광고를 봐야 열린다」는 관문 전용
+ * 포맷이라, 관문이 없는 심사 모드에서는 gpt.js를 부를 이유가 없다. 예전에는 이 값이
+ * 애드센스와 **독립**이라 광고를 다 껐다고 생각한 상태에서도 GAM 스크립트만 살아 있었다.
+ */
+export const gamRewardedEnabled =
+  adGatesEnabled && /^\/\d{5,}\/[\w./-]+$/.test(rawUnit);
 
 export const gamRewardedUnit = gamRewardedEnabled ? rawUnit : "";
 

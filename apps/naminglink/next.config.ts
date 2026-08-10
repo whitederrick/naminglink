@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
-import { adsCspSources, adsEnabled } from "./src/lib/ads";
+import { adEligibleLocales, adsConfigured, adsCspSources, adsLive } from "./src/lib/ads";
+import { localeCodes } from "./src/lib/locale-codes";
 import { gamCspSources, gamRewardedEnabled } from "./src/lib/gam-rewarded";
 
 import {
@@ -28,8 +29,11 @@ const isDev = process.env.NODE_ENV !== "production";
 // 광고(애드센스)도 결제와 같은 규칙이다. 퍼블리셔 ID가 없으면 열지 않는다 — 광고를 켜는
 // 순간에만 CSP가 느슨해지고, 끄면 원래대로 돌아간다. 애드센스는 CSP를 공식 지원하지 않아
 // 소재가 임의의 CDN에서 온다(`src/lib/ads.ts` 주석 참고).
+//
+// **심사 모드에서도 열려 있다** — 결과 화면 배너가 그대로 나가기 때문이다. 심사 모드에서
+// 닫히는 것은 아래 GAM 쪽이다(보상형은 관문이라 함께 꺼진다).
 const ads = (kind: keyof typeof adsCspSources) =>
-  adsEnabled ? adsCspSources[kind].map((source) => ` ${source}`).join("") : "";
+  adsConfigured ? adsCspSources[kind].map((source) => ` ${source}`).join("") : "";
 
 // GAM 보상형(잠긴 후보 열기)도 같은 규칙이다. 광고 단위 경로가 없으면 gpt.js를 부르지
 // 않으므로 CSP도 열지 않는다(`src/lib/gam-rewarded.ts` 주석 참고).
@@ -69,7 +73,7 @@ const securityHeaders = [
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       // 보상형 광고는 iframe으로 뜬다. GAM만 켜고 애드센스를 끈 상태도 가능하므로
       // 조건에 함께 넣지 않으면 frame-src가 'none'이 되어 광고가 통째로 막힌다.
-      adsEnabled || gamRewardedEnabled || paymentsConfigured || tossConfiguredForCsp
+      adsConfigured || gamRewardedEnabled || paymentsConfigured || tossConfiguredForCsp
         ? `frame-src 'self'${ads("frame")}${gam("frame")}${pay("frame")}${toss("frame")}`
         : "frame-src 'none'",
       `form-action 'self'${pay("formAction")}${toss("formAction")}`,
@@ -78,6 +82,27 @@ const securityHeaders = [
       "object-src 'none'",
     ].join("; "),
   },
+  /**
+   * **광고 체제를 응답이 스스로 밝힌다** (2026-08-11).
+   *
+   * 검사기가 「지금 이 사이트가 심사 모드인가」를 알아야 기대값을 고를 수 있다
+   * (`scripts/verify-ads-locale-policy.mjs`). 그 값을 검사기 쪽 `.env.local`에서 읽게 하면
+   * **운영 환경변수와 어긋나는 날** 검사기가 엉뚱한 기대값으로 초록불을 낸다 — 「검사기가
+   * 다른 것을 보고 있을 수 있다」의 같은 자리다.
+   *
+   * 그래서 **렌더링을 가르는 값과 같은 모듈**에서 헤더를 만든다. 어긋날 수가 없다.
+   * 이용자에게는 보이지 않고 광고 요청도 아니다.
+   */
+  { key: "X-Ad-Mode", value: adsLive ? "live" : "review" },
+  /**
+   * **광고 코드를 실어도 되는 로케일**(구글 지원 ∩ 사람 검수). 검사기의 대조군이 여기서 온다.
+   *
+   * 예전에는 검사기가 `en·ja·ru`를 대조군으로 **손으로 적어** 두었다. 목록을 좁히는 날
+   * (재거절 시 ko만 남기는 2차 조치) 그 검사기는 **고쳐진 코드를 결함이라고 부른다** — 급한
+   * 마음에 대조군을 지우면 회귀를 잡을 장치가 사라지고, 그것이 이 저장소가 겪은 실패다.
+   * 목록을 배포가 스스로 말하게 두면 그 사고가 구조적으로 불가능해진다.
+   */
+  { key: "X-Ad-Locales", value: adEligibleLocales(localeCodes).join(",") },
   { key: "X-Frame-Options", value: "DENY" },
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },

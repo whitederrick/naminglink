@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import { adsEnabled } from "@/lib/ads";
+import { adGatesEnabled } from "@/lib/ads";
 
 /**
  * 오퍼월과 자체 게이트의 역할 분담.
@@ -37,7 +37,7 @@ import { adsEnabled } from "@/lib/ads";
 
 /** 오퍼월을 게시했는가. 값을 넣은 뒤에는 재배포해야 한다(NEXT_PUBLIC_은 빌드 시점에 박힌다). */
 export const offerwallEnabled =
-  adsEnabled && (process.env.NEXT_PUBLIC_OFFERWALL_ENABLED ?? "").trim() === "true";
+  adGatesEnabled && (process.env.NEXT_PUBLIC_OFFERWALL_ENABLED ?? "").trim() === "true";
 
 /** 구글 메시징 스크립트가 뜰 때까지 기다릴 시간. 이 안에 안 뜨면 못 뜬 것으로 본다. */
 const GOOGLEFC_WAIT_MS = 2500;
@@ -56,10 +56,15 @@ function googlefcPresent() {
  */
 export function useSelfGateNeeded(): boolean | null {
   const [needed, setNeeded] = useState<boolean | null>(() =>
-    offerwallEnabled ? null : true,
+    // **심사 모드에서는 관문 자체가 없다** (2026-08-11). 여기서 참을 돌려주면 광고가 하나도
+    // 나가지 않는 상태에서 셀프 광고 관문만 남아, 화면이 "광고 확인 후 분석 시작"이라고
+    // 말하면서 보여 줄 광고가 없는 꼴이 된다. 판정은 `lib/ads.ts` 한 곳에 있다.
+    !adGatesEnabled ? false : offerwallEnabled ? null : true,
   );
 
   useEffect(() => {
+    // 관문이 없으면(심사 모드) 기다릴 것도 없다.
+    if (!adGatesEnabled) return;
     // 오퍼월을 게시하지 않았으면 기다릴 것이 없다. 우리 게이트가 그대로 돈다.
     if (!offerwallEnabled) return;
 

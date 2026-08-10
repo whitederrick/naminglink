@@ -5,7 +5,7 @@ import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
-import { adsAllowedForLocale, adsenseClient } from "@/lib/ads";
+import { adsAllowedForLocale, adsConfigured, adsenseClient } from "@/lib/ads";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
 import { ogImageFor, siteUrl } from "@/lib/seo";
 import { getPublishedFooterContent } from "@/lib/site-content-server";
@@ -57,6 +57,18 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [ogImageFor(locale)],
     },
     twitter: { card: "summary_large_image", images: [ogImageFor(locale).url] },
+    /**
+     * **사이트 소유권 확인 태그** (2026-08-11 추가).
+     *
+     * 지금까지 이 사이트의 애드센스 연결은 **로더 스니펫에만** 의존하고 있었다. 로더는
+     * 지원하지 않는 언어의 화면에는 붙지 않고(정책), 게재를 멈추면 사라지는 값이라 —
+     * 연결 확인이 그 위에 얹혀 있으면 **광고를 손대는 순간 연결까지 흔들린다.**
+     *
+     * 이 태그는 광고를 요청하지 않는다. 구글이 「이 사이트가 이 계정의 것인가」를 확인하는
+     * 표시일 뿐이라 **전 로케일에 싣는다**(사용자 결정) — 미지원 언어 화면에 두어도 광고
+     * 코드가 아니다. 값의 출처는 게재 여부와 무관한 `adsConfigured`다.
+     */
+    other: adsConfigured ? { "google-adsense-account": adsenseClient } : undefined,
   };
 }
 

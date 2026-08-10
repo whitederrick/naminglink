@@ -36,7 +36,7 @@ import {
 
 import config from "../next.config";
 
-import { adsEnabled } from "../src/lib/ads";
+import { adsConfigured, adsLive } from "../src/lib/ads";
 import { gamRewardedEnabled } from "../src/lib/gam-rewarded";
 import {
   paymentCspSources,
@@ -67,7 +67,10 @@ if (tossConfiguredForCsp)
 
 const client = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
 // 보상형(GAM)도 구글이다. 애드센스만 보고 「광고 꺼짐」이라 부르면 gpt.js가 연 자리를 못 본다.
-const expectAds = adsEnabled || gamRewardedEnabled;
+//
+// **심사 모드와 사이트 연결은 다른 값이다** (2026-08-11). 심사 모드에서도 결과 화면 배너는
+// 나가므로 애드센스 쪽 CSP는 열려 있는 것이 정상이고, 닫혀야 하는 것은 GAM 쪽이다.
+const expectAds = adsConfigured || gamRewardedEnabled;
 
 main();
 
@@ -77,7 +80,7 @@ async function main() {
 
   console.log(`NEXT_PUBLIC_ADSENSE_CLIENT = ${client || "(미설정)"}`);
   console.log(
-    `애드센스 ${adsEnabled ? "켜짐" : "꺼짐"} · GAM 보상형 ${gamRewardedEnabled ? "켜짐" : "꺼짐"}`,
+    `광고 체제 ${adsLive ? "운영(live)" : "심사(review)"} · 사이트 연결 ${adsConfigured ? "있음" : "없음"} · GAM 보상형 ${gamRewardedEnabled ? "켜짐" : "꺼짐"}`,
   );
   console.log(
     `광고와 무관하게 열린 것 — Supabase ${supabaseCspOrigin || "(없음)"} · 해외결제 ${paymentsConfigured ? "켜짐" : "꺼짐"} · 국내결제 ${tossConfiguredForCsp ? "켜짐" : "꺼짐"}\n`,
@@ -108,7 +111,7 @@ async function main() {
   }
 
   if (expectAds) {
-    if (adsEnabled) {
+    if (adsConfigured) {
       check(
         "script-src에 애드센스 로더 도메인이 있다",
         csp.includes("https://pagead2.googlesyndication.com"),
