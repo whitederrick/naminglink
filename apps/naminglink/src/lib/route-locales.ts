@@ -74,7 +74,18 @@ export const GLOBAL_ONLY_PATHS: string[] = ["/global-to-korean"];
  * `/`로 끊는다**: 그러지 않으면 `/guide/hanja-basics`가 `/guide/hanja`의 하위로 잘못 걸린다.
  */
 function matches(pathname: string, bases: string[]): boolean {
-  const path = pathname !== "/" && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  /**
+   * **쿼리와 해시를 먼저 뗀다** (2026-08-10에 실측으로 드러남).
+   *
+   * `lib/seo.ts`는 `hreflangMap("/global-to-korean?mode=transliteration")`처럼 **쿼리가 붙은
+   * 문자열**을 넘긴다(발음 표기 흐름). 그것을 그대로 견주면 어느 목록과도 안 맞아 **글로벌
+   * 전용이 아닌 것으로 판정**되고, 그러면 hreflang에 한국어판이 실린다 — 그 주소는 301이라
+   * **없는 언어판을 선언하는 꼴**이 된다. 구글은 그런 쌍을 무시한다.
+   *
+   * 끝 슬래시도 함께 떼어 `/a`와 `/a/`가 갈리지 않게 한다.
+   */
+  const bare = pathname.split(/[?#]/)[0] ?? pathname;
+  const path = bare !== "/" && bare.endsWith("/") ? bare.slice(0, -1) : bare;
   return bases.some((base) => path === base || path.startsWith(`${base}/`));
 }
 

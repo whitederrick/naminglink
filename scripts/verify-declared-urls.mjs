@@ -28,8 +28,18 @@ const baseArg = args.indexOf("--base");
 const BASE = (baseArg >= 0 ? args[baseArg + 1] : "https://naming-link.com").replace(/\/$/, "");
 const UA = { "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1)" };
 
-/** 선언은 절대 주소(운영 도메인)로 적힌다. 검사할 기준으로 갈아 끼운다. */
-const toBase = (url) => `${BASE}${new URL(url).pathname}`;
+/**
+ * 선언은 절대 주소(운영 도메인)로 적힌다. 검사할 기준으로 갈아 끼운다.
+ *
+ * **쿼리를 반드시 함께 옮긴다** (2026-08-10). 예전에는 `pathname`만 옮겨서
+ * `/en/global-to-korean?mode=transliteration` 의 선언을 검사할 때 모드가 사라졌다 — **다른
+ * 화면을 검사하고 통과를 찍고 있었다.** 그 때문에 그 화면이 301되는 한국어판을 hreflang으로
+ * 선언하는 결함을 이 검사기가 놓쳤다.
+ */
+const toBase = (url) => {
+  const parsed = new URL(url);
+  return `${BASE}${parsed.pathname}${parsed.search}`;
+};
 
 async function statusOf(url) {
   try {
@@ -80,7 +90,20 @@ if (badLocs > 5) problems.push(`… 그 밖 ${badLocs - 5}건`);
 //
 // 전부 열면 요청이 수천 건이 된다. 언어 계열이 다른 표본으로 본다 — 선언을 만드는 코드는
 // 한 곳이라(`lib/seo.ts`) 표본이 맞으면 나머지도 같은 규칙으로 나온다.
-const SAMPLE = ["/en/about", "/ja/guide", "/ru/notice", "/ar/contact", "/en", "/guide/hanja/sa"];
+const SAMPLE = [
+  "/en/about",
+  "/ja/guide",
+  "/ru/notice",
+  "/ar/contact",
+  "/en",
+  "/guide/hanja/sa",
+  /**
+   * **쿼리로 갈리는 화면을 표본에 둔다.** 발음 표기 흐름은 `?mode=transliteration` 으로만
+   * 갈리는데, 표본에 없어서 **경로 판정이 쿼리를 못 떼는 결함을 오래 못 봤다.**
+   * sitemap 에는 없지만(쿼리 주소를 제출하지 않는다) 자기 canonical 을 갖는 화면이다.
+   */
+  "/en/global-to-korean?mode=transliteration",
+];
 let checkedPages = 0;
 
 for (const path of SAMPLE) {
