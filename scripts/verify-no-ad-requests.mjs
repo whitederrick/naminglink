@@ -1,6 +1,16 @@
 #!/usr/bin/env node
 /**
- * **광고가 붙으면 안 되는 화면에서 구글 광고 요청이 실제로 0건인가.**
+ * **광고 요청이 붙으면 안 되는 화면에 0건이고, 붙어야 하는 화면에는 있는가.**
+ *
+ * ## 두 갈래를 함께 세는 이유 (2026-08-11 오후)
+ *
+ * 「0건」만 세는 검사는 **제대로 껐다**와 **배선이 통째로 죽었다**를 구분하지 못한다. 로더를
+ * `AdBanner`가 그릴 때만 부르도록 좁힌 뒤로 그 둘이 같은 모양이 됐다 — 그리고 승인 뒤
+ * `live`로 바꿔도 광고가 안 나가는 회귀는 **화면으로 티가 안 난다**(no-fill이면 높이 0이라
+ * 빈 자리와 구별되지 않는다).
+ *
+ * 그래서 진짜 결과를 하나 만들어 **광고 요청이 나가는 것까지** 본다. 대조군이 검사기의
+ * 탐지력을 재는 것이라면, 이쪽은 **제품의 배선**을 잰다.
  *
  * ## 왜 정적 검사로는 부족한가 (2026-08-11)
  *
@@ -84,8 +94,20 @@ const PATHS = [
   "/no-such-page-for-404-check",
 ];
 
-/** 로케일 표본. 검수 로케일(ko)·미검수 지원 언어(en·ja)·미지원 언어(kk·km)를 섞는다. */
-const LOCALES = ["ko", "en", "ja", "kk", "km"];
+/** 로케일 표본. 검수 로케일(ko)·미검수 지원 언어(en·ja·ru)·미지원 언어(kk·km·mn·uz)를 섞는다. */
+const LOCALES = ["ko", "en", "ja", "ru", "kk", "km", "mn", "uz"];
+
+/**
+ * 광고가 **붙어야 하는** 자리. 지금 사람이 검수한 로케일은 ko 하나뿐이라 여기도 ko다
+ * (`HUMAN_REVIEWED_LOCALES`). 검수 로케일이 늘면 여기도 함께 늘릴 것.
+ *
+ * 한국어 전용 경로라 로케일 접두사가 없다 — `/ko/hanja-meaning`은 여기로 301된다.
+ *
+ * **운영에 비회원 분석 1건이 생긴다.** 비회원 결과는 서버에 저장되지 않으므로 남는 것은
+ * 없지만, 이 검사를 짧은 간격으로 반복하면 레이트리밋에 걸릴 수 있다.
+ */
+const POSITIVE_PATH = "/hanja-meaning";
+const POSITIVE_SAMPLE = { surname: "김", given: "서윤" };
 
 /** 화면마다 기다리는 시간. 스크립트가 늦게 붙는 경우가 있어 즉시 재면 놓친다. */
 const SETTLE_MS = 3000;
@@ -140,7 +162,7 @@ async function waitForDebugger(port) {
 }
 
 const chrome = findChrome();
-console.log("광고가 붙으면 안 되는 화면에서 구글 광고 요청이 0건인가\n");
+console.log("광고 요청이 붙으면 안 되는 화면에 0건이고, 붙어야 하는 화면에는 있는가\n");
 console.log(`  기준 ${BASE}`);
 
 if (!chrome) {
@@ -200,6 +222,21 @@ try {
     return requests.filter(isAdRequest);
   }
 
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  /** 화면에서 식을 하나 돌려 값을 받는다. 던지면 그대로 올린다 — 조용히 통과시키지 않는다. */
+  async function evaluate(expression) {
+    const { result, exceptionDetails } = await cdp.send(
+      "Runtime.evaluate",
+      { expression, returnByValue: true, awaitPromise: true },
+      sessionId,
+    );
+    if (exceptionDetails) {
+      throw new Error(exceptionDetails.exception?.description ?? exceptionDetails.text);
+    }
+    return result.value;
+  }
+
   // ── 대조군 — 탐지기가 살아 있는가 ────────────────────────────────────────
   // 광고 호스트로 요청을 일부러 만들어 본다. 이것이 안 잡히면 아래의 「0건」은 아무 뜻이 없다.
   await load(`${BASE}/`);
@@ -238,12 +275,86 @@ try {
 
   console.log(`\n  화면 ${visited}곳을 열어 ${SETTLE_MS / 1000}초씩 기다렸다`);
 
-  if (problems.length) {
-    console.error(`\n광고 요청 ${problems.length}건 — 광고가 붙으면 안 되는 화면이다:`);
-    for (const line of problems) console.error(`    ✗ ${line}`);
-    console.error("\n로더를 부르는 자리는 `lib/adsense-loader.ts` 하나다. 전역 레이아웃으로 되돌리지 말 것.");
+  // ── 양성 확인 — 붙어야 하는 자리에는 실제로 붙는가 ──────────────────────────
+  //
+  // 진짜 결과를 하나 만든다. 폼은 React가 값을 쥐고 있어 **`value`를 직접 넣으면 안 먹는다**
+  // (`onChange`가 안 돌아 제출이 막힌다) — 네이티브 setter로 넣고 `input`을 쏘아야 한다.
+  // 동의란은 `.click()`이면 된다. 로케일 문구에 기대지 않으려고 폼 안의 차례로만 잡는다.
+  console.log("\n  광고가 붙어야 하는 자리 — 검수 로케일의 진짜 결과");
+  let positiveHosts = [];
+  let positiveFailure = null;
+  try {
+    await load(`${BASE}${POSITIVE_PATH}`);
+
+    const prepared = await evaluate(`(() => {
+      const form = document.querySelector("#naming-input-form");
+      if (!form) return "폼(#naming-input-form)이 없다";
+      const setValue = (el, value) => {
+        const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set;
+        setter.call(el, value);
+        el.dispatchEvent(new Event("input", { bubbles: true }));
+      };
+      const texts = [...form.querySelectorAll("input")].filter(
+        (el) => el.type !== "checkbox" && el.type !== "hidden" && !el.disabled,
+      );
+      if (texts.length < 2) return "이름 칸이 " + texts.length + "개다";
+      setValue(texts[0], ${JSON.stringify(POSITIVE_SAMPLE.surname)});
+      setValue(texts[1], ${JSON.stringify(POSITIVE_SAMPLE.given)});
+      const boxes = [...form.querySelectorAll('input[type="checkbox"]')];
+      if (boxes.length < 2) return "동의란이 " + boxes.length + "개다";
+      for (const box of boxes) if (!box.checked) box.click();
+      return "ok";
+    })()`);
+    if (prepared !== "ok") throw new Error(`입력을 채우지 못했다 — ${prepared}`);
+
+    requests.length = 0;
+    const submitted = await evaluate(`(() => {
+      const button = document.querySelector('#naming-input-form button[type="submit"]');
+      if (!button) return "제출 단추가 없다";
+      if (button.disabled) return "제출 단추가 잠겨 있다";
+      button.click();
+      return "ok";
+    })()`);
+    if (submitted !== "ok") throw new Error(`제출하지 못했다 — ${submitted}`);
+
+    let landed = false;
+    for (let attempt = 0; attempt < 60 && !landed; attempt += 1) {
+      await sleep(500);
+      const here = await evaluate("location.pathname + location.search");
+      landed = here.includes(`${POSITIVE_PATH}/result`) && here.includes("id=");
+    }
+    if (!landed) throw new Error("결과 화면으로 넘어가지 않았다 (30초)");
+
+    // 광고 태그는 결과가 그려진 뒤에 붙는다. 음성 쪽보다 넉넉히 기다린다.
+    await sleep(6000);
+    positiveHosts = [...new Set(requests.filter(isAdRequest).map((url) => new URL(url).host))];
+    if (!positiveHosts.length) {
+      throw new Error("진짜 결과인데 광고 요청이 0건이다 — 배선이 끊겼을 수 있다");
+    }
+    console.log(`  ✓ ${POSITIVE_PATH} 결과  광고 요청 있음 — ${positiveHosts.join(", ")}`);
+  } catch (error) {
+    positiveFailure = error instanceof Error ? error.message : String(error);
+    console.log(`  ✗ ${POSITIVE_PATH} 결과  ${positiveFailure}`);
+  }
+
+  if (problems.length || positiveFailure) {
+    if (problems.length) {
+      console.error(`\n광고 요청 ${problems.length}건 — 광고가 붙으면 안 되는 화면이다:`);
+      for (const line of problems) console.error(`    ✗ ${line}`);
+      console.error("\n로더를 부르는 자리는 `lib/adsense-loader.ts` 하나다. 전역 레이아웃으로 되돌리지 말 것.");
+    }
+    if (positiveFailure) {
+      console.error(`\n양성 확인 실패 — ${positiveFailure}`);
+      console.error("  광고가 **붙어야 하는** 자리다. 셋 중 하나다:");
+      console.error("    · 배선이 끊겼다 — `AdBanner`가 `ensureAdsenseLoader`를 부르는가");
+      console.error("    · 적격 로케일에서 ko가 빠졌다 — `HUMAN_REVIEWED_LOCALES`");
+      console.error("    · 광고 CSP를 `adsLive`로 닫았다 — 심사 모드에서도 열려 있어야 한다");
+      console.error("  폼이 바뀌어 검사기가 결과를 못 만든 것일 수도 있다. 문구는 위에 적혀 있다.");
+    }
   } else {
-    console.log(`\nALL PASS — 화면 ${visited}곳에서 구글 광고 요청이 0건이다.`);
+    console.log(
+      `\nALL PASS — 화면 ${visited}곳에서 광고 요청 0건이고, 진짜 결과에서는 나갔다.`,
+    );
     exitCode = 0;
   }
 

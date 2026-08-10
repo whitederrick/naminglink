@@ -21,11 +21,14 @@ import { supportedLocales } from "@/lib/services";
  */
 // 서비스 화면이 정책 문서보다 먼저 크롤되게 한다. 구글은 priority를 무시하지만
 // 다른 검색엔진 일부는 참고한다.
+//
+// `/stamp-order`는 **일부러 빼 두었다.** 지금은 신청서 대신 판매 중단 사실과 문의 경로만
+// 있는 화면이라, 실제로 쓸 수 있는 서비스 셋과 같은 무게로 내밀 자리가 아니다. 주소 자체는
+// 살아 있고(색인도 막지 않는다) 일반 콘텐츠 무게로만 내려간다. 판매를 시작하면 여기 되돌린다.
 const servicePaths: string[] = [
   "/hanja-meaning",
   "/korean-to-global",
   "/global-to-korean",
-  "/stamp-order",
 ];
 
 function priorityOf(path: string) {
