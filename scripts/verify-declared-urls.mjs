@@ -176,3 +176,5 @@ if (problems.length) {
 }
 
 console.log(`\nALL PASS — sitemap ${locs.length}개와 표본 ${checkedPages}개의 선언이 전부 200이다.`);
+// 성공도 못 박는다 — `fetch`의 keep-alive 소켓 때문에 그냥 두면 운영 주소에서 안 끝난다.
+process.exit(0);

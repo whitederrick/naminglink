@@ -171,3 +171,5 @@ console.log(
     (unknown ? ` (주소를 몰라 확인 못 한 운영 도메인 ${unknown}개)` : "") +
     (unknownDeploy ? ` (없거나 닿지 못한 배포 주소 ${unknownDeploy}개)` : ""),
 );
+// 성공도 못 박는다 — `fetch`의 keep-alive 소켓 때문에 그냥 두면 운영 주소에서 안 끝난다.
+process.exit(0);

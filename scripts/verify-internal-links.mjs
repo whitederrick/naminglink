@@ -140,3 +140,5 @@ if (problems.length) {
 }
 
 console.log(`\nALL PASS — 내부 링크 ${checked}개가 전부 최종 주소다(3xx·4xx·?lang= 0건).`);
+// 성공도 못 박는다 — `fetch`의 keep-alive 소켓 때문에 그냥 두면 운영 주소에서 안 끝난다.
+process.exit(0);
