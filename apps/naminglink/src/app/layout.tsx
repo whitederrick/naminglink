@@ -5,7 +5,7 @@ import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
-import { adsEnabled, adsenseClient } from "@/lib/ads";
+import { adsAllowedForLocale, adsenseClient } from "@/lib/ads";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
 import { ogImageFor, siteUrl } from "@/lib/seo";
 import { getPublishedFooterContent } from "@/lib/site-content-server";
@@ -95,7 +95,10 @@ export default async function RootLayout({
             런타임에 주입하므로 서버가 보낸 HTML에 구글이 안내한 스니펫이 그대로 들어 있지
             않은데, 애드센스 심사는 그 스니펫을 찾는 절차라 형태가 같은 편이 확실하다.
             **Offerwall도 이 코드가 있어야 동작한다** — 구글 문서가 명시한 전제조건이다. */}
-        {adsEnabled ? (
+        {/* **지원하지 않는 언어의 화면에는 로더도 붙이지 않는다**(2026-08-10). 구글 게시자
+            정책이 「지원하지 않는 언어가 주인 페이지에 광고 코드를 두는 것」을 금지한다 —
+            광고가 실제로 채워지는지와 무관하다. 판정은 `lib/ads.ts` 한 곳에 있다. */}
+        {adsAllowedForLocale(locale) ? (
           <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}

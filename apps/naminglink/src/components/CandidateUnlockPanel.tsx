@@ -7,6 +7,7 @@ import { CreditCard, Eye, Unlock } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { SelfAdCard } from "@/components/SelfAdCard";
 import { requestUnlockTicket } from "@/lib/candidate-seal";
+import { adsAllowedForLocale } from "@/lib/ads";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { trackAdEvent } from "@/lib/analytics-client";
 
@@ -835,7 +836,17 @@ export function CandidateUnlockPanel({
        * 광고를 안 봤는데 보상을 주면 보상형을 둔 의미가 없다. **표는 버리지 않는다**
        * (`heldTicket` 주석) — 다시 눌렀을 때 기다림이 두 배가 되지 않게 한다.
        */
-      const outcome = await showRewardedAd();
+      /**
+       * **지원하지 않는 언어에서는 보상형을 부르지 않는다** (2026-08-10).
+       *
+       * GAM 보상형은 `gpt.js`를 불러온다. 구글 게시자 정책은 애드센스만이 아니라 **게시자
+       * 제품 전체**를 대상으로 하고, 그 지원 언어 목록에 kk·km·mn·uz가 없다. 부르는 순간
+       * 그 화면에 구글 광고 코드가 실린다.
+       *
+       * **버튼이 죽지는 않는다.** `unavailable`과 같은 길로 떨어져 자체 게이트 + 셀프 광고가
+       * 그대로 돈다 — 광고가 없다고 후보 열기가 막히면 안 된다는 기존 설계 그대로다.
+       */
+      const outcome = adsAllowedForLocale(locale ?? "") ? await showRewardedAd() : "unavailable";
       if (outcome === "dismissed") return;
 
       /**

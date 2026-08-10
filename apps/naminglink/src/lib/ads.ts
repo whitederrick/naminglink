@@ -18,6 +18,44 @@ export const adsEnabled = /^ca-pub-\d{10,}$/.test(rawClient);
 
 export const adsenseClient = adsEnabled ? rawClient : "";
 
+/**
+ * **구글 게시자 제품이 지원하는 언어.** 여기 없는 언어의 화면에는 광고 코드를 싣지 않는다.
+ *
+ * > "Placing Google ad code on pages with content primarily in an unsupported language is not
+ * > permitted by the Google Publisher Policies."
+ * > — support.google.com/adsense/answer/9727 (2026-08-10 확인)
+ *
+ * 이 서비스의 23개 로케일 중 **카자흐어·크메르어·몽골어·우즈베크어 넷이 목록에 없다.** 그
+ * 화면들에 로더나 `<ins>`가 나가는 것 자체가 정책 위반이다 — 광고가 실제로 채워지는지와
+ * 무관하다.
+ *
+ * ## 왜 「지원 목록」인가, 「비지원 목록」이 아니라
+ *
+ * 비지원 목록으로 두면 **24번째 로케일을 추가하는 날 조용히 광고가 붙는다** — 새 언어는 그
+ * 목록에 없으니 통과한다. 이렇게 두면 새 로케일은 **여기에 명시적으로 넣기 전까지 광고가
+ * 안 붙는다.** 빠진 것은 통과가 아니라 확인 안 된 것이다.
+ *
+ * 구글이 목록을 넓히면 여기에 더한다. 원문을 확인하고 넣을 것 — 추측으로 넣으면 정책 위반이
+ * 조용히 살아난다.
+ */
+const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
+  "ko", "en", "ja", "zh", "de", "es", "fr", "it", "pt",
+  "vi", "th", "id", "ru", "ar", "fil", "hi", "tr", "ms", "pl",
+]);
+
+/**
+ * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —
+ * 정책 문서가 「Google publisher products」 전체를 대상으로 한다.
+ */
+export function adsAllowedForLocale(locale: string): boolean {
+  return adsEnabled && ADSENSE_SUPPORTED_LOCALES.has(locale);
+}
+
+/** 검사기가 대조군으로 쓴다. 지원하지 않는 로케일 목록(우리 23개 중). */
+export function unsupportedAdLocales(locales: readonly string[]): string[] {
+  return locales.filter((locale) => !ADSENSE_SUPPORTED_LOCALES.has(locale));
+}
+
 /** ads.txt에 적는 형태. `ca-` 접두사를 뗀 값이다. */
 export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "";
 
@@ -38,10 +76,21 @@ export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "
  * 어긋나면 컴파일이 깨진다.
  */
 export const adSlots = {
-  /** 서비스 입력 화면 머리글 옆. 인연링크의 header와 같은 자리다. */
-  service_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_SERVICE_HEADER ?? "").trim(),
-  /** 입력 화면 동의 영역 옆. 제출 버튼과는 떨어뜨려 둔다(오클릭 방지). */
-  consent_card: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_CONSENT_CARD ?? "").trim(),
+  /**
+   * **입력 화면 자리는 여기에 없다** (2026-08-10에 뺐다).
+   *
+   * `service_header`(폼 위 배너)와 `consent_card`(동의·제출 옆 인라인) 둘이 있었다. 두 가지가
+   * 겹쳐 걷어냈다.
+   *
+   * · 입력 화면은 **아직 아무것도 발행하지 않은 화면**이다. 보이는 글의 대부분이 폼 라벨과
+   *   선택지인데, 그런 화면에 광고를 얹는 것이 애드센스가 「가치 있는 인벤토리」로 재는
+   *   항목에 정면으로 걸린다 — 2026-08-10 거절 사유가 그것이었다.
+   * · `consent_card`는 **제출 버튼 바로 옆**이었다. 실수 클릭을 유발하는 배치라 분량을
+   *   늘려도 해소되지 않는다.
+   *
+   * **승인 뒤에도 되돌리지 않는다**(사용자 결정). 고정형 배너는 결과 화면에만 둔다.
+   */
+
   /**
    * **관문 자리는 여기에 없다.** 예전에는 `analysis_wait`·`candidate_unlock`·
    * `hangul_candidate_unlock` 셋이 있었다. 전부 "광고를 봐야 결과가 열리는" 자리인데,

@@ -70,6 +70,25 @@ export function proxy(request: NextRequest) {
       return NextResponse.rewrite(target, { request: { headers: noKoreanHeaders(request) } });
     }
 
+    /**
+     * **옛 형태 주소(`?lang=xx`)의 로케일도 레이아웃에 알린다.**
+     *
+     * 루트 레이아웃은 `searchParams`를 못 받아 `?lang=`을 볼 수 없다. 그래서 지금까지
+     * `/hanja-meaning?lang=kk`는 **화면은 카자흐어인데 `<html lang>`은 딴 값**이었다 —
+     * 스크린 리더가 엉뚱한 언어로 읽고, 아랍어면 `dir=rtl`도 틀어진다.
+     *
+     * 광고 판정도 여기에 걸린다. 레이아웃이 로케일을 잘못 알면 **지원하지 않는 언어의
+     * 화면에 광고 로더가 실린다**(`lib/ads.ts`).
+     *
+     * 경로 로케일이 없을 때만 본다 — 경로가 있으면 그쪽이 기준이다(아래).
+     */
+    const queryLocale = request.nextUrl.searchParams.get("lang");
+    if (isLocaleCode(queryLocale)) {
+      return NextResponse.rewrite(request.nextUrl, {
+        request: { headers: localeHeaders(request, queryLocale) },
+      });
+    }
+
     return NextResponse.next();
   }
 

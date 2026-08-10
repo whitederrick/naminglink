@@ -14,7 +14,6 @@ import {
   type Locale,
   type ServiceConfig,
 } from "@/lib/services";
-import { AdBanner } from "@/components/AdBanner";
 import { useSelfGateNeeded } from "@/lib/offerwall";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -996,13 +995,10 @@ export function NamingForm({
                 )}
               </div>
             </div>
-            <div className="flex border-t border-line pt-5 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
-              <AdBanner
-                variant="inline"
-                slotKey="consent_card"
-                label={t.adConsentLabel}
-              />
-            </div>
+            {/* **동의·제출 옆의 배너를 걷어냈다** (2026-08-10, 사용자 결정).
+                두 가지가 겹쳤다. 분량 대비 광고가 지나쳤고 — 이 화면의 글은 대부분 폼
+                라벨이다 — **제출 버튼 바로 옆이라 실수 클릭을 유발하는 배치**였다. 뒤엣것은
+                분량을 늘려도 해소되지 않는 배치 정책 문제라 되돌릴 이유가 없다. */}
           </div>
         </section>
 

@@ -2,7 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
-import { adSlotFor, adsenseClient, type AdPlacement } from "@/lib/ads";
+import { adSlotFor, adsAllowedForLocale, adsenseClient, type AdPlacement } from "@/lib/ads";
+import type { Locale } from "@/lib/services";
 
 // 광고 자리. **슬롯 ID가 있으면 실제 애드센스 유닛을, 없으면 자리 표시만** 그린다.
 //
@@ -20,6 +21,15 @@ type AdBannerProps = {
    * 없는 이름을 쓰면 컴파일이 깨진다.
    */
   slotKey: AdPlacement;
+  /**
+   * 이 화면의 언어. **필수다** — 구글 게시자 정책이 지원하지 않는 언어(kk·km·mn·uz)의 화면에는
+   * 광고 코드를 실을 수 없고, 그 판정은 **서버가 보내는 HTML에서 이미 갈려 있어야** 한다.
+   * 클라이언트에서 지우면 크롤러가 보는 HTML에는 그대로 남는다.
+   *
+   * 옵셔널로 두면 새 호출부가 빠뜨리고, 빠뜨려도 화면은 멀쩡해 아무도 모른다. 판정은
+   * `lib/ads.ts`의 `adsAllowedForLocale` 한 곳에 있다.
+   */
+  locale: Locale;
   label?: string;
   /**
    * 광고가 실제로 채워졌는지 알려준다. `null`은 아직 모른다는 뜻이다(요청 직후).
@@ -40,27 +50,27 @@ const labels = {
 export function AdBanner({
   variant = "inline",
   slotKey,
+  locale,
   label,
   onFilledChange,
 }: AdBannerProps) {
+  /**
+   * **지원하지 않는 언어의 화면에는 아무것도 그리지 않는다.**
+   *
+   * 개발용 자리 표시(아래 점선 상자)도 그리지 않는다 — 그 상자에는 `data-ad-*` 속성이 붙어
+   * 있어서, 「이 화면에 광고 자리가 있다」는 표시가 HTML에 남는다. 정책이 금지하는 것은
+   * 광고가 채워지는 것이 아니라 **광고 코드를 두는 것**이다.
+   *
+   * **값만 여기서 구하고 반환은 훅 뒤에서 한다.** 훅보다 앞에서 `return`하면 훅 호출 순서가
+   * 조건에 따라 달라진다(React 훅 규칙 위반). 처음에 그렇게 썼다가 고쳤다.
+   */
+  const adsAllowed = adsAllowedForLocale(locale);
   const isHeaderSlot = variant === "header";
-  const isConsentSlot = slotKey === "consent_card";
-  const mobileSizes = isHeaderSlot
-    ? "320x100,320x50"
-    : isConsentSlot
-      ? "300x100,250x100"
-      : undefined;
-  const desktopSizes = isHeaderSlot
-    ? "970x90,728x90"
-    : isConsentSlot
-      ? "336x100,300x100"
-      : undefined;
-  const heightClass =
-    isHeaderSlot
-      ? "min-h-[100px] lg:min-h-[90px]"
-      : isConsentSlot
-        ? "min-h-[100px]"
-      : "min-h-20";
+  // 입력 화면 자리(`consent_card`)를 걷어내면서 그 자리 전용 크기 분기도 함께 없앴다.
+  // 남은 자리는 전부 결과 화면 머리글이다(`lib/ads.ts`).
+  const mobileSizes = isHeaderSlot ? "320x100,320x50" : undefined;
+  const desktopSizes = isHeaderSlot ? "970x90,728x90" : undefined;
+  const heightClass = isHeaderSlot ? "min-h-[100px] lg:min-h-[90px]" : "min-h-20";
   const displayLabel = label ?? labels[variant];
 
   /**
@@ -73,11 +83,7 @@ export function AdBanner({
    * `<ins>`에 실제 높이를 함께 준다 — 애드센스는 요소의 계산된 크기를 보고 소재를 고르므로,
    * 높이가 없으면 format만으로는 크기가 잡히지 않는다.
    */
-  const adFormat = isConsentSlot
-    ? "rectangle"
-    : variant === "sidebar"
-      ? "vertical"
-      : "horizontal";
+  const adFormat = variant === "sidebar" ? "vertical" : "horizontal";
   /**
    * 애드센스 표준 크기. 모바일 320×50(표준 배너) · PC 728×90·970×90(리더보드).
    *
@@ -98,9 +104,7 @@ export function AdBanner({
    * `height: auto !important`를 써서 위 클래스 important까지 이기고 자리가 463px로 커진다.
    * 인라인 `!important`는 클래스 `!important`를 이기므로 CSS로는 막을 수 없다.
    */
-  const adHeightClass = isConsentSlot
-    ? "!h-[250px] lg:!h-[280px]"
-    : "!h-[50px] lg:!h-[90px]";
+  const adHeightClass = "!h-[50px] lg:!h-[90px]";
 
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);
@@ -110,7 +114,7 @@ export function AdBanner({
   // 요청 직후에는 없으므로 속성이 붙는 순간을 지켜본다.
   useEffect(() => {
     const element = insRef.current;
-    if (!slot || !element || !onFilledChange) return;
+    if (!adsAllowed || !slot || !element || !onFilledChange) return;
 
     const read = () => {
       const status = element.getAttribute("data-ad-status");
@@ -121,10 +125,10 @@ export function AdBanner({
     const observer = new MutationObserver(read);
     observer.observe(element, { attributes: true, attributeFilter: ["data-ad-status"] });
     return () => observer.disconnect();
-  }, [slot, onFilledChange]);
+  }, [adsAllowed, slot, onFilledChange]);
 
   useEffect(() => {
-    if (!slot || pushed.current) return;
+    if (!adsAllowed || !slot || pushed.current) return;
     try {
       // 스크립트가 아직 안 왔어도 밀어 둔 요청은 로드 후 처리된다(배열에 쌓이는 구조).
       const w = window as unknown as { adsbygoogle?: unknown[] };
@@ -133,7 +137,9 @@ export function AdBanner({
     } catch {
       // 광고 로드 실패가 화면을 망가뜨리면 안 된다.
     }
-  }, [slot]);
+  }, [adsAllowed, slot]);
+
+  if (!adsAllowed) return null;
 
   if (slot) {
     return (
@@ -194,11 +200,6 @@ export function AdBanner({
         <>
           <span className="lg:hidden">{displayLabel} · 모바일 320×100 / 320×50</span>
           <span className="hidden lg:inline">{displayLabel} · PC 970×90 / 728×90</span>
-        </>
-      ) : isConsentSlot ? (
-        <>
-          <span className="lg:hidden">{displayLabel} · 모바일 300×100 / 250×100</span>
-          <span className="hidden lg:inline">{displayLabel} · PC 336×100 / 300×100</span>
         </>
       ) : (
         displayLabel

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
+import { adsAllowedForLocale } from "@/lib/ads";
 import { trackAdEvent } from "@/lib/analytics-client";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -209,7 +210,10 @@ function ReanalysisSection({
     if (rewardedTurn) {
       // **보상형을 API 호출보다 먼저 띄운다.** 순서가 반대면 이용자가 광고를 닫아도 AI 비용은
       // 이미 나간 뒤다. 후보 열기는 닫아도 잃을 것이 없어 순서가 문제되지 않지만 여기는 다르다.
-      const outcome = await showRewardedAd();
+      // **지원하지 않는 언어에서는 보상형을 부르지 않는다** — GAM도 구글 게시자 제품이라
+      // kk·km·mn·uz 화면에 `gpt.js`가 실리면 정책 위반이다(`lib/ads.ts`).
+      // `unavailable`로 떨어지면 아래 자체 게이트가 대신 돈다.
+      const outcome = adsAllowedForLocale(locale) ? await showRewardedAd() : "unavailable";
       // 보상 전에 닫았다 — 분석을 돌리지 않는다. 횟수도 올리지 않는다.
       if (outcome === "dismissed") return;
       if (outcome === "granted") {
@@ -457,13 +461,24 @@ export function HangulPronunciationResultPage({
               {copy.home}
             </Link>
           </div>
-          <div className="order-1 min-w-0 lg:order-2">
+          {/* **결과가 실제로 그려질 때만 광고를 둔다** (2026-08-10).
+
+              예전에는 머리글에 무조건 있어서 **대기 화면·결과 없음 화면에도 광고가 먼저**
+              나갔다. 결과 주소로 직접 들어와 복원에 실패하면 화면에 우리가 발행한 것이 아무것도
+              없는데 광고만 남는다 — 애드센스가 「게시자 콘텐츠 없는 화면의 광고」로 보는 자리다.
+
+              `ready`는 하이드레이션 여부라 서버 HTML에서는 거짓이다. 즉 크롤러가 받는 HTML에는
+              이 자리에 광고 코드가 아예 없다. */}
+          {ready && currentStored ? (
+            <div className="order-1 min-w-0 lg:order-2">
             <AdBanner
               variant="header"
               slotKey="hangul_result_header"
+              locale={locale}
               label={copy.headerAdLabel}
             />
-          </div>
+            </div>
+          ) : null}
         </header>
 
         {!ready ? (

@@ -133,13 +133,24 @@ export function KoreanNameResultPage({
               {copy.home}
             </Link>
           </div>
-          <div className="order-1 min-w-0 lg:order-2">
+          {/* **결과가 실제로 그려질 때만 광고를 둔다** (2026-08-10).
+
+              예전에는 머리글에 무조건 있어서 **대기 화면·결과 없음 화면에도 광고가 먼저**
+              나갔다. 결과 주소로 직접 들어와 복원에 실패하면 화면에 우리가 발행한 것이 아무것도
+              없는데 광고만 남는다 — 애드센스가 「게시자 콘텐츠 없는 화면의 광고」로 보는 자리다.
+
+              `ready`는 하이드레이션 여부라 서버 HTML에서는 거짓이다. 즉 크롤러가 받는 HTML에는
+              이 자리에 광고 코드가 아예 없다. */}
+          {ready && stored ? (
+            <div className="order-1 min-w-0 lg:order-2">
             <AdBanner
               variant="header"
               slotKey="korean_name_result_header"
+              locale={locale}
               label={copy.headerAdLabel}
             />
-          </div>
+            </div>
+          ) : null}
         </header>
 
         {!ready ? (

@@ -4,7 +4,6 @@ import { ServiceLanguageSwitcher } from "@/components/ServiceLanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
 import { NamingForm } from "@/components/NamingForm";
-import { AdBanner } from "@/components/AdBanner";
 import {
   globalNameToHangulService,
   serviceList,
@@ -461,13 +460,14 @@ export function ServiceShell({
                 </nav>
               ) : null}
             </div>
-            <div className="order-1 min-w-0">
-              <AdBanner
-                variant="header"
-                slotKey="service_header"
-                label={shellCopy.headerAdLabel}
-              />
-            </div>
+            {/* **입력 화면에는 고정형 배너를 두지 않는다** (2026-08-10, 사용자 결정).
+                여기는 아직 아무것도 발행하지 않은 화면이다 — 보이는 글의 대부분이 폼 라벨과
+                선택지이고, 그런 화면에 광고를 얹는 것이 애드센스가 「가치 있는 인벤토리」로
+                재는 항목에 정면으로 걸린다(이번 거절 사유가 그것이었다).
+
+                **승인 뒤에도 되돌리지 않는다.** 고정형 배너는 결과 화면에만 둔다 — 거기에는
+                실제로 생성된 내용이 있다. 관문 광고(`CandidateUnlockPanel`)는 「무료로 여는
+                대가」라는 맥락이 분명해 그대로 둔다. */}
           </div>
         </header>
 
