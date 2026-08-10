@@ -5,6 +5,7 @@ import {
   indexablePaths,
   localeUrl,
 } from "@/lib/seo";
+import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
 import { supportedLocales } from "@/lib/services";
 
 /**
@@ -33,9 +34,15 @@ function priorityOf(path: string) {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return indexablePaths.flatMap((path) => {
-    const languages = hreflangMap(path);
     const priority = priorityOf(path);
 
+    // 한국어 전용 화면은 주소가 하나뿐이다(로케일 주소는 `proxy.ts`가 301로 보낸다).
+    // 여기에 언어판을 실으면 sitemap이 **리다이렉트되는 주소를 색인하라고 내미는 꼴**이 된다.
+    if (isKoreanOnlyPath(path)) {
+      return [{ url: absoluteUrl(path), priority }];
+    }
+
+    const languages = hreflangMap(path);
     return [
       // 로케일 없는 주소(x-default). 헤더를 보고 언어를 정하는 자리다.
       { url: absoluteUrl(path), priority, alternates: { languages } },

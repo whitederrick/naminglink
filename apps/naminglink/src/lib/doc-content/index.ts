@@ -1,3 +1,4 @@
+import { guideEntries, type KoreanOnlyDocKey } from "@/lib/guide-index";
 import type { Locale } from "@/lib/services";
 
 import { AR_DOCS, AR_NOTICES } from "./ar";
@@ -12,6 +13,7 @@ import { IT_DOCS, IT_NOTICES } from "./it";
 import { JA_DOCS, JA_NOTICES } from "./ja";
 import { KK_DOCS, KK_NOTICES } from "./kk";
 import { KM_DOCS, KM_NOTICES } from "./km";
+import type { GlobalDocKey } from "./keys";
 import { KO_DOCS, KO_NOTICES, type DocKey } from "./ko";
 import { MN_DOCS, MN_NOTICES } from "./mn";
 import { MS_DOCS, MS_NOTICES } from "./ms";
@@ -48,7 +50,24 @@ import type { DocPage, NoticeCopy } from "./types";
  * 나머지 21개는 `scripts/translate-doc-content.ts`가 en의 구조를
  * 복사하고 잎만 갈아 끼워 만든다. **그 파일들은 손으로 고치지 않는다** — 다시 만들면 지워진다.
  */
-const LOCALE_DOCS: Record<Locale, Record<DocKey, DocPage>> = {
+const KOREAN_ONLY_DOC_KEYS = new Set<string>(
+  guideEntries
+    .filter((entry) => entry.track === "korean")
+    .map((entry) => `guide/${entry.slug}`),
+);
+
+function isKoreanOnlyDocKey(key: DocKey): key is KoreanOnlyDocKey {
+  return KOREAN_ONLY_DOC_KEYS.has(key);
+}
+
+/** ko만 전부 갖는다. 나머지 22개 언어는 `GlobalDocKey`만 갖고, 더 갖고 있으면 tsc가 잡는다. */
+type LocaleDocs = {
+  [L in Locale]: L extends "ko"
+    ? Record<DocKey, DocPage>
+    : Record<GlobalDocKey, DocPage>;
+};
+
+const LOCALE_DOCS: LocaleDocs = {
   ko: KO_DOCS,
   en: EN_DOCS,
   ja: JA_DOCS,
@@ -100,8 +119,14 @@ const LOCALE_NOTICES: Record<Locale, NoticeCopy> = {
   pl: PL_NOTICES,
 };
 
-/** 그 로케일의 문서 한 편. 로케일이 표에 없으면 tsc가 잡으므로 폴백을 두지 않는다. */
+/**
+ * 그 로케일의 문서 한 편. 로케일이 표에 없으면 tsc가 잡으므로 폴백을 두지 않는다.
+ *
+ * korean 갈래 문서는 로케일과 무관하게 **항상 한국어**다. 그 주소는 한 벌뿐이고
+ * (`proxy.ts`가 로케일 주소를 301로 보낸다) 화면도 한국어로 그리는 것이 맞다.
+ */
 export function getDocPage(locale: Locale, key: DocKey): DocPage {
+  if (isKoreanOnlyDocKey(key)) return KO_DOCS[key];
   return LOCALE_DOCS[locale][key];
 }
 
@@ -111,3 +136,4 @@ export function getNoticeCopy(locale: Locale): NoticeCopy {
 }
 
 export type { DocKey };
+export type { GlobalDocKey } from "./keys";

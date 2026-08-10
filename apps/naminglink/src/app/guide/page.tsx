@@ -41,9 +41,9 @@ export default async function GuideIndexPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
   const [counts, values] = await Promise.all([getGuideCounts(), docValues()]);
-  // **거르지 않는다.** 온 곳을 알면 그 갈래를 앞에 놓을 뿐이다(`lib/guide-index.ts`).
-  // 예전에는 언어로 걸러 한국어 이용자만 상세 문서를 봤다.
-  const entries = guideEntriesFor(params?.from);
+  // 한국어 화면이 아니면 korean 갈래를 뺀다 — 그 안내가 설명하는 서비스는 한국어뿐이라
+  // 끝까지 읽어도 갈 곳이 없다. 온 곳을 알면 그 갈래를 앞에 놓는다(`lib/guide-index.ts`).
+  const entries = guideEntriesFor(params?.from, locale);
   const doc = getDocPage(locale, "guide");
   // 안내를 부른 서비스로 돌려보낸다. 없으면 로케일 기본값(`lib/guide-back.ts`).
   const back = guideBackLink(locale, params?.from, doc.backLabel);

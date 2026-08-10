@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { guideEntries } from "@/lib/guide-index";
 import { getServiceCopy } from "@/lib/i18n";
+import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
 import { supportedLocales, type Locale } from "@/lib/services";
 import { localePath } from "@/lib/locale-path";
 
@@ -142,11 +143,23 @@ export function hreflangMap(path: string): Record<string, string> {
  * `?lang=`이 있으면 **그 주소 자신**을 canonical로 둔다(언어판이 각자 색인된다).
  * 없으면 로케일 없는 주소가 canonical이다. 여기서 로케일 있는 주소를 로케일 없는 쪽으로
  * 몰면 23개 언어판이 색인에서 사라진다.
+ *
+ * **한국어 전용 화면은 예외다.** 그 화면은 한국어 한 벌이므로 언어판이 따로 색인될 이유가
+ * 없다. canonical을 로케일 없는 주소 하나로 모으고 hreflang은 **싣지 않는다** — hreflang은
+ * 「각자 색인되는 언어판이 여럿」이라는 선언이라 한 주소로 모으는 canonical과 정면으로
+ * 어긋나고, 어긋나면 구글이 둘 다 무시한다.
+ *
+ * 판정은 **경로에서 자동으로** 한다(`isKoreanOnlyPath`). 화면마다 넘기는 값으로 두면 새 화면을
+ * 만들 때 빠뜨리고, 빠뜨려도 아무 데서도 티가 안 난다.
  */
 export function buildAlternates(
   path: string,
   locale?: Locale | null,
 ): Metadata["alternates"] {
+  if (isKoreanOnlyPath(path)) {
+    return { canonical: absoluteUrl(path) };
+  }
+
   return {
     canonical: locale ? localeUrl(path, locale) : absoluteUrl(path),
     languages: hreflangMap(path),
@@ -180,7 +193,8 @@ export function buildPageMetadata({
   title,
   description,
 }: PageMetaInput): Metadata {
-  const url = requested ? localeUrl(path, requested) : absoluteUrl(path);
+  const url =
+    requested && !isKoreanOnlyPath(path) ? localeUrl(path, requested) : absoluteUrl(path);
   return {
     title,
     description,

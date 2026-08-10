@@ -46,14 +46,53 @@ const read = (file) => (existsSync(file) ? readFileSync(file, "utf8") : null);
  * 파싱하지 않고 정규식으로 센다 — 이 파일들은 생성물이라 꼴이 일정하고, 검사기가 앱 코드를
  * import 하기 시작하면 **앱이 깨졌을 때 검사기도 함께 죽는다.**
  */
+function leavesIn(body) {
+  // `"키": "값"` 과 `키: "값"` 둘 다 받는다(ko는 손으로 써서 따옴표가 없다).
+  return [...body.matchAll(/(?:"([a-zA-Z][\w/-]*)"|([a-zA-Z][\w]*))\s*:\s*"((?:[^"\\]|\\.)*)"/g)]
+    .map((m) => ({ key: m[1] ?? m[2], value: m[3] }));
+}
+
 function leavesOf(source, marker) {
   if (!source) return null;
   const at = source.indexOf(marker);
   if (at < 0) return null;
+  return leavesIn(source.slice(at));
+}
+
+/**
+ * 문서 하나하나의 원문 조각. 키 → 그 문서가 차지하는 글.
+ *
+ * **왜 필요한가.** 한국어에만 있는 문서(korean 갈래)가 생기면서, ko 파일 전체와 en 파일 전체를
+ * 견주는 검사가 성립하지 않게 됐다 — en이 짧은 것이 정상인데 검사기는 「빠졌다」고 읽는다.
+ * 그래서 **양쪽에 다 있어야 하는 문서만 골라** 견준다.
+ */
+function blocksOf(source, marker) {
+  if (!source) return null;
+  const at = source.indexOf(marker);
+  if (at < 0) return null;
   const body = source.slice(at);
-  // `"키": "값"` 과 `키: "값"` 둘 다 받는다(ko는 손으로 써서 따옴표가 없다).
-  return [...body.matchAll(/(?:"([a-zA-Z][\w/-]*)"|([a-zA-Z][\w]*))\s*:\s*"((?:[^"\\]|\\.)*)"/g)]
-    .map((m) => ({ key: m[1] ?? m[2], value: m[3] }));
+  const starts = [...body.matchAll(/\n {2}"?([a-z][\w/-]*)"?:\s*\{/g)];
+  const blocks = new Map();
+  starts.forEach((m, i) => {
+    const end = i + 1 < starts.length ? starts[i + 1].index : body.length;
+    blocks.set(m[1], body.slice(m.index, end));
+  });
+  return blocks;
+}
+
+/**
+ * 그 앱에서 **한국어에만 두는** 문서의 키.
+ *
+ * `guide-index.ts`의 `track: "korean"`에서 읽는다 — 목록을 여기 손으로 적으면 갈래를 옮겼을 때
+ * 두 목록이 어긋난다. 그런 문서가 없는 앱은 빈 집합이고, 그때 이 검사기는 예전과 똑같이 돈다.
+ */
+function koreanOnlyKeysOf(indexSource) {
+  if (!indexSource) return new Set();
+  return new Set(
+    [...indexSource.matchAll(/slug:\s*"([a-z0-9-]+)"\s*,\s*track:\s*"korean"/g)].map(
+      (m) => `guide/${m[1]}`,
+    ),
+  );
 }
 
 /** 문서 키 목록. 등록부가 아니라 자료 자체에서 읽는다. */
@@ -114,6 +153,17 @@ for (const app of APP_KEYS) {
   const koSource = read(path.join(dir, "ko.ts"));
   const koLeaves = leavesOf(koSource, "KO_DOCS");
   const koKeys = docKeysOf(koSource, "KO_DOCS");
+  const indexSource = read(path.join("apps", app, "src", "lib", "guide-index.ts"));
+  /**
+   * 한국어에만 두는 문서. **번역이 빠진 것이 아니라 두지 않기로 한 것이다** — 그 문서가
+   * 설명하는 서비스가 한국어 화면뿐이라 다른 언어로 읽어도 갈 곳이 없다(2026-08-10).
+   * 그래서 ②·③은 이 문서들을 **기대하지 않고**, 오히려 **있으면 결함으로 센다.**
+   */
+  const koreanOnly = koreanOnlyKeysOf(indexSource);
+  const sharedKoKeys = koKeys.filter((key) => !koreanOnly.has(key));
+  const koBlocks = blocksOf(koSource, "KO_DOCS");
+  const sharedKoBody = sharedKoKeys.map((key) => koBlocks?.get(key) ?? "").join("");
+  const sharedKoLeaves = leavesIn(sharedKoBody);
   const koProblems = [];
 
   if (!koLeaves) koProblems.push("ko.ts를 읽지 못했다");
@@ -128,7 +178,6 @@ for (const app of APP_KEYS) {
      * 터진다. 반대로 자료에만 있고 목록에 없는 문서는 **아무도 닿을 수 없다** — 번역까지
      * 다 해 놓고 링크가 없는 상태다.
      */
-    const indexSource = read(path.join("apps", app, "src", "lib", "guide-index.ts"));
     const slugs = indexSource
       ? [...indexSource.matchAll(/slug:\s*"([a-z0-9-]+)"/g)].map((m) => m[1])
       : [];
@@ -179,14 +228,21 @@ for (const app of APP_KEYS) {
 
   if (!enLeaves) enProblems.push("en.ts가 없다 — `--fill-en`을 먼저 돌릴 것");
   else {
-    const missingDocs = koKeys.filter((key) => !enKeys.includes(key));
+    const missingDocs = sharedKoKeys.filter((key) => !enKeys.includes(key));
     if (missingDocs.length) enProblems.push(`ko에 있는데 en에 없다: ${missingDocs.join(", ")}`);
+
+    // 한국어에만 두기로 한 문서가 되살아났는가. **빠진 것만 세면 되돌아오는 것을 못 본다** —
+    // 번역기를 다시 돌리면 그대로 다시 만들어지던 자리다.
+    const revived = enKeys.filter((key) => koreanOnly.has(key));
+    if (revived.length) {
+      enProblems.push(`한국어에만 둘 문서가 en에 있다: ${revived.join(", ")}`);
+    }
 
     const blank = emptyLeaves(enLeaves);
     if (blank.length) enProblems.push(`빈 잎 ${blank.length}개 — ${blank.slice(0, 3).map((l) => l.key).join(", ")}`);
 
-    if (enLeaves.length < koLeaves.length) {
-      enProblems.push(`잎이 모자란다 — ko ${koLeaves.length}개 / en ${enLeaves.length}개`);
+    if (enLeaves.length < sharedKoLeaves.length) {
+      enProblems.push(`잎이 모자란다 — ko ${sharedKoLeaves.length}개 / en ${enLeaves.length}개`);
     }
 
     /**
@@ -197,8 +253,13 @@ for (const app of APP_KEYS) {
      * 문서만 0.58배였다. 영어는 한국어보다 길어지는 것이 보통이라, **한국어보다 짧으면**
      * 무언가 빠진 것이다.
      */
-    const koChars = koSource.length;
-    const enChars = enSource.length;
+    // **양쪽에 다 있어야 하는 문서끼리** 견준다. 파일 전체를 견주면 한국어에만 두기로 한
+    // 문서 때문에 en이 짧아 보이고, 검사기가 옳은 상태를 빨간불로 만든다.
+    const koChars = sharedKoBody.length;
+    const enBlocks = blocksOf(enSource, "EN_DOCS");
+    const enChars = sharedKoKeys
+      .map((key) => enBlocks?.get(key)?.length ?? 0)
+      .reduce((a, b) => a + b, 0);
     if (enChars < koChars * 0.9) {
       enProblems.push(
         `분량이 한국어보다 짧다 — ko ${koChars}자 / en ${enChars}자 (${(enChars / koChars).toFixed(2)}배). 빠진 문서를 찾을 것`,
@@ -236,6 +297,10 @@ for (const app of APP_KEYS) {
 
     const blank = emptyLeaves(leaves);
     if (blank.length) notes.push(`빈 잎 ${blank.length}개`);
+
+    // 한국어에만 두기로 한 문서가 이 언어에 되살아났는가.
+    const revived = docKeysOf(source, marker).filter((key) => koreanOnly.has(key));
+    if (revived.length) notes.push(`한국어 전용 문서가 있다: ${revived.join(", ")}`);
 
     if (leaves.length < enLeaves.length) notes.push(`잎 ${leaves.length}/${enLeaves.length}`);
 

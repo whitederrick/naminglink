@@ -38,8 +38,30 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 /** 선언부: `const 이름: 타입 = {` (export 여부·줄바꿈 무관). */
 const DECL = /(?:export\s+)?(?:const|let)\s+(\w+)\s*:\s*([^=;]+?)=\s*\{/g;
 
-/** 강제되는 키 타입. 앱마다 이름이 조금 다르다(`Locale`·`LocaleCode`). */
-const ENFORCED = /Record<\s*(?:Exclude<\s*)?(Locale|LocaleCode)\b/;
+/**
+ * 강제되는 키 타입. 앱마다 이름이 조금 다르다(`Locale`·`LocaleCode`).
+ *
+ * **매핑 타입(`{ [L in Locale]: … }`)도 받는다.** 요구하는 것은 「키 타입이 로케일 유니온인가」이지
+ * `Record`라는 글자가 아니다. 매핑 타입은 로케일마다 값 타입을 달리 줄 수 있어 오히려 더 좁다 —
+ * 2026-08-10에 `LOCALE_DOCS`가 그렇게 바뀌었다(ko만 한국어 전용 문서를 갖는다). 글자만 보는
+ * 검사기는 **더 엄격해진 코드를 결함이라고 불렀다.**
+ */
+const ENFORCED =
+  /Record<\s*(?:Exclude<\s*)?(Locale|LocaleCode)\b|\[\s*\w+\s+in\s+(?:Exclude<\s*)?(Locale|LocaleCode)\b/;
+
+/**
+ * 선언에 적힌 것이 타입 **별명**이면 같은 파일에서 그 정의를 찾아 대신 본다.
+ *
+ * 별명은 흔한 표기다(`const X: LocaleDocs = {…}`). 별명을 못 따라가면 검사기가 「강제 안 됨」으로
+ * 읽는데, 그건 코드가 아니라 검사기의 한계다. **한 단계만** 따라간다 — 더 들어가면 이 검사기가
+ * 타입 해석기가 되어야 하고, 그러면 앱이 깨질 때 검사기도 함께 죽는다.
+ */
+function resolveAlias(typeText, source) {
+  const name = typeText.trim();
+  if (!/^\w+$/.test(name)) return typeText;
+  const found = new RegExp(`type\\s+${name}\\s*=([\\s\\S]*?);`).exec(source);
+  return found ? found[1] : typeText;
+}
 
 const problems = [];
 let scannedFiles = 0;
@@ -141,7 +163,7 @@ for (const app of APP_KEYS) {
     while ((match = DECL.exec(text)) !== null) {
       const body = balanced(text, text.indexOf("{", match.index + match[0].length - 1));
       if (!body) continue;
-      const verdict = judge(match[1], match[2], body, locales);
+      const verdict = judge(match[1], resolveAlias(match[2], text), body, locales);
       if (!verdict) continue;
       localeMaps += 1;
       const line = text.slice(0, match.index).split("\n").length;
@@ -163,29 +185,41 @@ const CONTROL_OK = `const y: Record<LocaleCode, string> = { ${reference.map((l) 
 const CONTROL_SURNAME = `const z: Record<string, string> = { 김: "Kim", 이: "Lee", 박: "Park", 최: "Choi", 정: "Jung", 강: "Kang", 조: "Cho", 윤: "Yoon", 장: "Jang", 임: "Lim" };`;
 /** 축약 표기 — `accountCopies`가 이 꼴이라 한동안 검사에서 통째로 빠져 있었다. */
 const CONTROL_SHORTHAND = `const w: Record<string, string> = { ${reference.join(", ")} };`;
+/** 매핑 타입 — `Record`가 아니지만 키 타입은 로케일 유니온이다. 통과해야 한다. */
+const CONTROL_MAPPED = `const m: { [L in LocaleCode]: string } = { ${reference.map((l) => `${l}: "v"`).join(", ")} };`;
+/** 타입 별명 뒤에 숨은 매핑 타입. 별명을 못 따라가면 옳은 코드가 결함으로 잡힌다. */
+const CONTROL_ALIAS = `type Aliased = { [L in LocaleCode]: string };
+const a: Aliased = { ${reference.map((l) => `${l}: "v"`).join(", ")} };`;
+/** 별명이 가리키는 것이 `Record<string>`이면 **여전히 잡혀야 한다.** 별명은 빠져나갈 구멍이 아니다. */
+const CONTROL_ALIAS_BAD = `type Loose = Record<string, string>;
+const b: Loose = { ${reference.map((l) => `${l}: "v"`).join(", ")} };`;
 
 function judgeSnippet(snippet) {
   DECL.lastIndex = 0;
   const match = DECL.exec(snippet);
   if (!match) return null;
   const body = balanced(snippet, snippet.indexOf("{", match.index + match[0].length - 1));
-  return judge(match[1], match[2], body, reference);
+  return judge(match[1], resolveAlias(match[2], snippet), body, reference);
 }
 
 const bad = judgeSnippet(CONTROL_BAD);
 const ok = judgeSnippet(CONTROL_OK);
 const surname = judgeSnippet(CONTROL_SURNAME);
 const shorthand = judgeSnippet(CONTROL_SHORTHAND);
+const mapped = judgeSnippet(CONTROL_MAPPED);
+const alias = judgeSnippet(CONTROL_ALIAS);
+const aliasBad = judgeSnippet(CONTROL_ALIAS_BAD);
 const controlHolds =
-  bad && !bad.enforced && ok && ok.enforced && surname === null && shorthand && !shorthand.enforced && localeMaps > 0;
+  bad && !bad.enforced && ok && ok.enforced && surname === null && shorthand && !shorthand.enforced &&
+  mapped && mapped.enforced && alias && alias.enforced && aliasBad && !aliasBad.enforced && localeMaps > 0;
 
 console.log(`\n  훑은 파일 ${scannedFiles}개 · 로케일 표 ${localeMaps}개`);
 if (!controlHolds) {
   console.log("  ✗ 대조군 실패 — 강제 안 된 표를 못 잡거나, 성씨 표를 로케일 표로 잘못 본다.");
-  console.log(`     (강제안됨 감지 ${Boolean(bad && !bad.enforced)} · 강제됨 통과 ${Boolean(ok && ok.enforced)} · 성씨표 제외 ${surname === null} · 축약 감지 ${Boolean(shorthand)} · 실제 표 ${localeMaps}개)`);
+  console.log(`     (강제안됨 감지 ${Boolean(bad && !bad.enforced)} · 강제됨 통과 ${Boolean(ok && ok.enforced)} · 성씨표 제외 ${surname === null} · 축약 감지 ${Boolean(shorthand)} · 매핑 통과 ${Boolean(mapped && mapped.enforced)} · 별명 통과 ${Boolean(alias && alias.enforced)} · 헐거운 별명 감지 ${Boolean(aliasBad && !aliasBad.enforced)} · 실제 표 ${localeMaps}개)`);
   process.exit(1);
 }
-console.log("  ✓ 대조군: Record<string>은 잡고, Record<LocaleCode>와 성씨 표는 통과시킨다");
+console.log("  ✓ 대조군: Record<string>은 별명 뒤에 숨어도 잡고, Record/매핑 타입과 성씨 표는 통과시킨다");
 
 if (problems.length) {
   console.log(`\n어긋난 자리 ${problems.length}건:`);

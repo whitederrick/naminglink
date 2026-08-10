@@ -1,4 +1,5 @@
 import type { DocKey } from "@/lib/doc-content";
+import type { Locale } from "@/lib/services";
 
 /**
  * 안내 문서 목록.
@@ -21,8 +22,14 @@ import type { DocKey } from "@/lib/doc-content";
  *     global   글로벌 대상 서비스 — 한국 이름 만들기 · 한글 발음 표기
  *     common   두 갈래 모두에 해당 — 우리 기준 · 유료 상품
  *
- * 갈래는 **무엇을 먼저 보여 줄지**를 정할 뿐, 감추지 않는다. 어느 언어로 들어오든 열세 편을
- * 다 읽을 수 있어야 한다 — 한국인이 글로벌 서비스가 궁금할 수도 있고 그 반대도 마찬가지다.
+ * ## 갈래가 목록을 거른다 (2026-08-10에 바뀜)
+ *
+ * 처음에는 「갈래는 순서만 정하고 감추지 않는다 — 어느 언어로 들어오든 다 읽을 수 있어야
+ * 한다」고 두었다. **그 전제가 틀렸다.** korean 갈래가 설명하는 서비스는 화면이 한국어뿐이라,
+ * 러시아어 이용자가 그 안내를 끝까지 읽어도 **갈 수 있는 서비스가 없다.**
+ *
+ * 그래서 한국어 화면이 아니면 korean 갈래를 목록에 올리지 않는다. **주소는 살아 있다** —
+ * 링크를 타고 들어오면 열린다(다만 한국어로, 주소도 한 벌이다 — `lib/korean-only-routes.ts`).
  */
 export type GuideTrack = "korean" | "global" | "common";
 
@@ -32,8 +39,14 @@ export type GuideEntry = {
   track: GuideTrack;
 };
 
-/** 허브에 놓이는 순서다. 제도 → 목록 → 서비스 근거 → 우리 기준 → 상품. */
-export const guideEntries: GuideEntry[] = [
+/**
+ * 허브에 놓이는 순서다. 제도 → 목록 → 서비스 근거 → 우리 기준 → 상품.
+ *
+ * **`as const`인 이유:** 여기서 `KoreanOnlyDocKey`가 파생된다(아래). 갈래를 옮기면 자료형이
+ * 따라 움직여, 그 문서를 22개 언어 파일에 남겨 둔 자리가 **tsc에서 바로 걸린다.** 목록을 손으로
+ * 한 벌 더 적어 두면 언젠가 두 목록이 어긋난다.
+ */
+export const guideEntries = [
   { slug: "hanja-basics", track: "korean" },
   { slug: "hanja", track: "korean" },
   { slug: "reading", track: "korean" },
@@ -44,7 +57,11 @@ export const guideEntries: GuideEntry[] = [
   { slug: "how-hangul-transliteration", track: "global" },
   { slug: "what-we-dont-use", track: "common" },
   { slug: "what-we-sell", track: "common" },
-];
+] as const satisfies readonly GuideEntry[];
+
+/** korean 갈래 문서의 `doc-content` 키. 한국어 파일에만 있고 나머지 22개 언어에는 없다. */
+export type KoreanOnlyDocKey =
+  `guide/${Extract<(typeof guideEntries)[number], { track: "korean" }>["slug"]}`;
 
 /** 그 문서의 `doc-content` 키. */
 export function docKeyFor(entry: GuideEntry): DocKey {
@@ -75,15 +92,24 @@ export function trackForService(slug: string | undefined): GuideTrack | null {
 }
 
 /**
- * 허브에 놓을 순서. **거르지 않고 재배열만 한다.**
+ * 허브에 놓을 목록.
  *
- * 온 곳을 알면 그 갈래를 먼저, 공통을 다음, 나머지를 뒤에 둔다. 모르면 선언된 순서 그대로다.
+ * **거른 다음 재배열한다.** 한국어 화면이 아니면 korean 갈래를 뺀다(그 서비스를 쓸 수 없다).
+ * 그다음 온 곳을 알면 그 갈래를 먼저, 공통을 다음, 나머지를 뒤에 둔다.
  */
-export function guideEntriesFor(fromService?: string): GuideEntry[] {
+export function guideEntriesFor(
+  fromService?: string,
+  locale?: Locale,
+): readonly GuideEntry[] {
+  const visible =
+    locale === undefined || locale === "ko"
+      ? guideEntries
+      : guideEntries.filter((entry) => entry.track !== "korean");
+
   const track = trackForService(fromService);
-  if (!track) return guideEntries;
+  if (!track) return visible;
 
   const weight = (entry: GuideEntry) =>
     entry.track === track ? 0 : entry.track === "common" ? 1 : 2;
-  return [...guideEntries].sort((a, b) => weight(a) - weight(b));
+  return [...visible].sort((a, b) => weight(a) - weight(b));
 }

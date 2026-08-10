@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 
+import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
 import { isLocaleCode } from "@/lib/locale-codes";
 
 /**
@@ -13,6 +14,17 @@ import { isLocaleCode } from "@/lib/locale-codes";
  * 공유된 링크와 색인된 주소를 끊지 않기 위해서다. 다만 canonical과 sitemap은 경로 쪽을
  * 가리키므로(`lib/seo.ts`), 검색엔진에는 경로 주소 하나로 모인다.
  */
+/**
+ * 루트 레이아웃에 로케일을 알리는 헤더. 레이아웃은 searchParams를 못 받아 `?lang=`을 볼 수 없다.
+ */
+function localeHeaders(request: NextRequest, locale: string) {
+  const headers = new Headers(request.headers);
+  headers.set("x-locale", locale);
+  return headers;
+}
+
+const koreanLocaleHeaders = (request: NextRequest) => localeHeaders(request, "ko");
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -22,21 +34,44 @@ export function proxy(request: NextRequest) {
   }
 
   const [, first, ...rest] = pathname.split("/");
-  if (!isLocaleCode(first)) return NextResponse.next();
+
+  if (!isLocaleCode(first)) {
+    // 로케일이 없는 한국어 전용 주소. 브라우저 언어를 따르지 않고 **항상 한국어**로 그린다 —
+    // 주소가 하나뿐인 화면이 요청 헤더에 따라 다른 언어로 나오면 그 주소가 무엇인지 모호해진다.
+    if (isKoreanOnlyPath(pathname)) {
+      const target = request.nextUrl.clone();
+      target.searchParams.set("lang", "ko");
+      return NextResponse.rewrite(target, { request: { headers: koreanLocaleHeaders(request) } });
+    }
+    return NextResponse.next();
+  }
 
   // `/ko` → `/`, `/ko/a/b` → `/a/b`
   const target = request.nextUrl.clone();
   target.pathname = rest.length ? `/${rest.join("/")}` : "/";
+
+  /**
+   * 한국어 전용 화면에는 **로케일 주소를 두지 않는다.** rewrite가 아니라 301로 보낸다.
+   *
+   * canonical만 모아도 색인은 한 벌이 되지만, 주소 자체가 살아 있으면 링크·공유·크롤러가 계속
+   * 24벌을 찾아온다. 실제로 그 상태에서 서치 콘솔이 중복으로 잡았고 애드센스가 「가치가 별로
+   * 없는 콘텐츠」로 판정했다. 왜 이 화면들이 한 벌인지는 `lib/korean-only-routes.ts`에 있다.
+   *
+   * **404가 아니라 301이다.** 이미 색인되고 공유된 주소를 끊으면 흐름이 거기서 막힌다.
+   */
+  if (isKoreanOnlyPath(target.pathname)) {
+    target.searchParams.delete("lang");
+    return NextResponse.redirect(target, 301);
+  }
   // 경로의 로케일이 기준이다. 주소에 `?lang=`이 함께 있어도 경로 쪽을 따른다 —
   // 둘이 어긋난 주소로 서로 다른 화면이 나오면 안 된다.
   target.searchParams.set("lang", first);
 
-  // **레이아웃에도 알려 준다.** 루트 레이아웃은 searchParams를 받지 못해 `?lang=`을 볼 수 없다.
-  // 헤더로 넘기지 않으면 `/ko/...`인데 `<html lang="en">`이 나간다 — 스크린 리더가 엉뚱한
-  // 언어로 읽고, 아랍어에서 문서 방향(rtl)도 틀어진다.
-  const headers = new Headers(request.headers);
-  headers.set("x-locale", first);
-  return NextResponse.rewrite(target, { request: { headers } });
+  // **레이아웃에도 알려 준다.** 헤더로 넘기지 않으면 `/ko/...`인데 `<html lang="en">`이 나간다
+  // — 스크린 리더가 엉뚱한 언어로 읽고, 아랍어에서 문서 방향(rtl)도 틀어진다.
+  return NextResponse.rewrite(target, {
+    request: { headers: localeHeaders(request, first) },
+  });
 }
 
 export const config = {

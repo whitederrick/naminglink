@@ -20,6 +20,7 @@ import path from "node:path";
 
 import { EN_DOCS, EN_NOTICES } from "../src/lib/doc-content/en";
 import { KO_DOCS, KO_NOTICES } from "../src/lib/doc-content/ko";
+import { guideEntries } from "../src/lib/guide-index";
 import { localeCodes } from "../src/lib/locale-codes";
 import { localeLabels } from "../src/lib/services";
 
@@ -312,6 +313,29 @@ function bundleOf(docs: unknown, notices: unknown) {
 }
 
 /**
+ * **korean 갈래 안내는 번역하지 않는다.**
+ *
+ * 그 문서가 설명하는 서비스는 화면이 한국어뿐이라, 다른 언어로 옮겨도 읽은 사람이 갈 곳이
+ * 없다(사용자 판단, 2026-08-10). 주소도 한 벌이라 `proxy.ts`가 로케일 주소를 301로 보낸다.
+ *
+ * **여기서 거르지 않으면 되돌아온다.** 22개 언어 파일에서 지워도 다음 번역이 다시 만들어 넣고,
+ * `--fill-en`은 en에 없는 문서를 「빠진 것」으로 보고 도로 채운다. 그래서 원본(ko)에서 잘라 낸
+ * 뒤에 나머지 단계로 넘긴다 — 갈래는 `lib/guide-index.ts`의 `track`이 정한다.
+ */
+function globalDocsOnly<T extends Record<string, unknown>>(docs: T) {
+  const koreanOnly = new Set(
+    guideEntries
+      .filter((entry) => entry.track === "korean")
+      .map((entry) => `guide/${entry.slug}`),
+  );
+  return Object.fromEntries(
+    Object.entries(docs).filter(([key]) => !koreanOnly.has(key)),
+  ) as T;
+}
+
+const KO_GLOBAL_DOCS = globalDocsOnly(KO_DOCS);
+
+/**
  * **en에 없는 문서가 있으면 멈춘다.**
  *
  * 로케일 파일은 en의 구조를 복사해 만든다. 그래서 한국어에만 있는 문서는 **조용히 빠진다** —
@@ -319,7 +343,7 @@ function bundleOf(docs: unknown, notices: unknown) {
  * 한 번 헛돌았다). 먼저 `--fill-en`을 돌리라고 여기서 말한다.
  */
 function requireEnglish() {
-  const missing = Object.keys(KO_DOCS).filter((key) => !(key in EN_DOCS));
+  const missing = Object.keys(KO_GLOBAL_DOCS).filter((key) => !(key in EN_DOCS));
   if (!missing.length) return;
   console.error(
     `en에 없는 문서 ${missing.length}편: ${missing.join(", ")}\n` +
@@ -338,9 +362,9 @@ async function run(locale: string, key: string) {
    */
   const sourceIsKo = fromKo;
   const enBundle = sourceIsKo
-    ? bundleOf(KO_DOCS, KO_NOTICES)
+    ? bundleOf(KO_GLOBAL_DOCS, KO_NOTICES)
     : bundleOf(EN_DOCS, EN_NOTICES);
-  const koBundle = bundleOf(KO_DOCS, KO_NOTICES);
+  const koBundle = bundleOf(KO_GLOBAL_DOCS, KO_NOTICES);
 
   const leaves: Leaf[] = [];
   collect(enBundle, koBundle, [], leaves);
@@ -386,10 +410,10 @@ async function run(locale: string, key: string) {
   const upper = locale.toUpperCase().replace(/-/g, "_");
   const header = [
     `import type { DocPage, NoticeCopy } from "./types";`,
-    `import type { DocKey } from "./ko";`,
+    `import type { GlobalDocKey } from "./keys";`,
     "",
     `/** ${language(locale)} — \`scripts/translate-doc-content.ts\`가 만든다. 손으로 고치지 말 것. */`,
-    `export const ${upper}_DOCS = ${JSON.stringify(grafted.docs, null, 2)} satisfies Record<DocKey, DocPage>;`,
+    `export const ${upper}_DOCS = ${JSON.stringify(grafted.docs, null, 2)} satisfies Record<GlobalDocKey, DocPage>;`,
     "",
     `export const ${upper}_NOTICES = ${JSON.stringify(grafted.notices, null, 2)} satisfies NoticeCopy;`,
     "",
@@ -436,7 +460,7 @@ if (!key) {
  * 그래서 **없는 키만** 옮겨 기존 `EN_DOCS`에 얹는다. 이미 있는 문서는 손대지 않는다.
  */
 async function fillEnglish(key: string) {
-  const missing = Object.keys(KO_DOCS).filter((k) => !(k in EN_DOCS));
+  const missing = Object.keys(KO_GLOBAL_DOCS).filter((k) => !(k in EN_DOCS));
   if (!missing.length) {
     console.log("  en — 채울 문서가 없다");
     return 0;
@@ -444,7 +468,7 @@ async function fillEnglish(key: string) {
   console.log(`  en — 한국어에만 있는 문서 ${missing.length}편: ${missing.join(", ")}`);
 
   const koSubset = Object.fromEntries(
-    missing.map((k) => [k, KO_DOCS[k as keyof typeof KO_DOCS]]),
+    missing.map((k) => [k, KO_GLOBAL_DOCS[k as keyof typeof KO_GLOBAL_DOCS]]),
   );
   const leaves: Leaf[] = [];
   collect(koSubset, koSubset, [], leaves);
@@ -472,7 +496,7 @@ async function fillEnglish(key: string) {
   const merged = { ...EN_DOCS, ...(graft(koSubset, [], values) as Record<string, unknown>) };
   const header = [
     `import type { DocPage, NoticeCopy } from "./types";`,
-    `import type { DocKey } from "./ko";`,
+    `import type { GlobalDocKey } from "./keys";`,
     "",
     `/**`,
     ` * 영어판. **번역기가 21개 로케일을 만들 때 구조와 어투의 본이 되는 벌이다.**`,
@@ -480,7 +504,7 @@ async function fillEnglish(key: string) {
     ` * 소개·문의처럼 사람이 쓴 글과, 한국어 원문에서 옮겨 온 글이 함께 있다. 뒤엣것은`,
     ` * \`translate-doc-content.ts --fill-en\`이 **없는 키만** 채운 것이라 앞엣것을 덮지 않는다.`,
     ` */`,
-    `export const EN_DOCS = ${JSON.stringify(merged, null, 2)} satisfies Record<DocKey, DocPage>;`,
+    `export const EN_DOCS = ${JSON.stringify(merged, null, 2)} satisfies Record<GlobalDocKey, DocPage>;`,
     "",
     `export const EN_NOTICES = ${JSON.stringify(EN_NOTICES, null, 2)} satisfies NoticeCopy;`,
     "",
