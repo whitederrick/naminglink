@@ -66,6 +66,22 @@ export const EN_DOCS = {
         ]
       },
       {
+        "title": "Where our data and translations stand",
+        "blocks": [
+          {
+            "p": "**We would rather say this plainly.** Telling you what a person checked and what nobody checked is more useful than claiming everything was reviewed."
+          },
+          {
+            "ul": [
+              "**Name-hanja data** — the {publisher} name-hanja table, as of {effectiveDate}. We keep a hash of the source file, so if the table changes we can tell what changed.",
+              "**Compiled by** Platforest. Characters, readings and meanings are carried over from the table as they are; we neither add nor remove.",
+              "**Translation** — written first in Korean, then English, then the other languages. **These are machine translations, checked automatically** — for missing sentences, consistent terminology, and the inserted values staying intact. They have not been reviewed by native speakers.",
+              "**Written explanations** are produced by AI, restricted to your input and our own reference data so that it does not invent facts."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -162,6 +178,41 @@ export const EN_DOCS = {
             "p": "We do not attach hanja to a transliteration. Hanja carry meaning, and this flow is about sound. Matching characters to sound alone can land you with a meaning you never asked for."
           }
         ]
+      },
+      {
+        "title": "This runs the opposite way from passport romanization",
+        "blocks": [
+          {
+            "p": "These two are easy to confuse, so here is the difference: **they run in opposite directions.**"
+          },
+          {
+            "ul": [
+              "**Romanization** takes a Korean person's Hangul name and writes it in the Latin alphabet. It is fixed when a passport is issued, and from then on tickets, visas and bank accounts all follow that spelling. 김민준 becomes Kim Minjun.",
+              "**Hangul transliteration** — what this service does — runs the other way. It takes a name written in the Latin alphabet and writes how it sounds in Hangul. Daniel becomes 대니얼."
+            ]
+          },
+          {
+            "p": "So what you get here **does not change the spelling in your passport.** That romanization is already fixed; this is that name written back in Hangul. The two do not always convert back into each other exactly — writing a sound Korean does not have loses a little information on the way."
+          }
+        ]
+      },
+      {
+        "title": "Where you would use this spelling",
+        "blocks": [
+          {
+            "p": "A Hangul spelling is usually needed in places like these."
+          },
+          {
+            "ul": [
+              "**Introducing yourself** — showing your name in Hangul, or saying it in Korean",
+              "**A Hangul name field on a form** — registrations and applications that ask for your name in Hangul. Note that **the institution decides what goes on an official document** — what you get here does not stand in for that",
+              "**A name stamp or keepsake** — the spelling to carve"
+            ]
+          },
+          {
+            "p": "**It is normal for more than one spelling to be defensible.** When a name can be written several ways in Hangul we show them side by side and leave the choice to you."
+          }
+        ]
       }
     ]
   },
@@ -182,6 +233,23 @@ export const EN_DOCS = {
           },
           {
             "p": "You can pick a surname yourself or let us recommend one. Either way it will be **a surname that exists**."
+          }
+        ]
+      },
+      {
+        "title": "There are twenty-six surnames to choose from",
+        "blocks": [
+          {
+            "p": "We kept the list narrow on purpose. **Korean surnames really are concentrated** — Kim, Lee and Park alone account for about 45% of the population, and the top twenty for roughly 80%. Adding rare surnames would widen the menu, but it would also produce names that Koreans do not hear as names."
+          },
+          {
+            "ul": [
+              "**The twenty most common** (about 80% of the population) — 김 Kim · 이 Lee · 박 Park · 최 Choi · 정 Jung · 강 Kang · 조 Cho · 윤 Yoon · 장 Jang · 임 Lim · 한 Han · 오 Oh · 서 Seo · 신 Shin · 권 Kwon · 황 Hwang · 안 Ahn · 송 Song · 전 Jeon · 홍 Hong",
+              "**Real surnames added to keep a thread of sound** — 왕 Wang · 진 Jin · 백 Baek · 마 Ma · 나 Na · 유 Yoo"
+            ]
+          },
+          {
+            "p": "The second group exists so that **your own surname can carry over by sound**. Wang, Jin, Baek, Ma, Na and Yoo are surnames Koreans already have, so saying your name keeps a link to the one you started with. All twenty-six are surnames in actual use — none of them are our invention."
           }
         ]
       },

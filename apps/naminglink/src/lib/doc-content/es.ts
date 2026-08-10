@@ -44,7 +44,7 @@ export const ES_DOCS = {
             "p": "Los cálculos de saju y figuras de los cinco elementos se realizan a partir del **almanaque lunisolar coreano**, con la hora de nacimiento corregida a la hora solar verdadera para el lugar de nacimiento. La lectura es una referencia tradicional, no una predicción."
           },
           {
-            "p": "Las explicaciones escritas son producidas por IA. Para evitar que **invente cosas**, al modelo solo se le da tu entrada y nuestros propios datos de referencia, y se le indica que se mantenga dentro de eso. Las guías explican esto en detalle."
+            "p": "Las explicaciones escritas son producidas por IA. Para evitar que **invente cosas**, al modelo solo se le da tu entrada y nuestros propios datos de referencia, y se le indica que se mantenga dentro de ellos. Las guías explican esto en detalle."
           }
         ]
       },
@@ -55,7 +55,23 @@ export const ES_DOCS = {
             "ul": [
               "**No hacemos predicciones.** Nada aquí promete suerte, riqueza o protección.",
               "**No almacenamos tu nombre.** Los resultados gratuitos nunca se escriben en nuestros servidores, y los documentos de pago se entregan sin conservar una copia del archivo.",
-              "**Pagar no compra una mejor respuesta.** Desbloquear con un anuncio y desbloquear con un pago ofrecen exactamente el mismo contenido."
+              "**Pagar no compra una mejor respuesta.** Desbloquear con un anuncio y desbloquear con un pago dan exactamente el mismo contenido."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dónde se encuentran nuestros datos y traducciones",
+        "blocks": [
+          {
+            "p": "**Preferimos decir esto claramente.** Decirte qué revisó una persona y qué nadie revisó es más útil que afirmar que todo fue revisado."
+          },
+          {
+            "ul": [
+              "**Datos de hanja** — la tabla de hanja de {publisher}, a partir de {effectiveDate}. Mantenemos un hash del archivo fuente, por lo que si la tabla cambia podemos saber qué cambió.",
+              "**Compilado por** Platforest. Los caracteres, lecturas y significados se trasladan de la tabla tal como están; no añadimos ni eliminamos.",
+              "**Traducción** — escrita primero en coreano, luego en inglés, y luego en los otros idiomas. **Estas son traducciones automáticas, verificadas automáticamente** — para oraciones faltantes, terminología consistente, y los valores insertados permaneciendo intactos. No han sido revisadas por hablantes nativos.",
+              "**Explicaciones escritas** son producidas por IA, restringidas a tu entrada y nuestros propios datos de referencia para que no invente hechos."
             ]
           }
         ]
@@ -64,7 +80,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el generador de PDF no soporta esos scripts — y lo decimos en pantalla antes de que pagues."
+            "p": "El servicio está disponible en 23 idiomas. Los PDFs de pago se emiten en inglés para árabe y jemer — el renderizador de PDF no soporta esos scripts — y lo decimos en pantalla antes de que pagues."
           }
         ]
       },
@@ -99,7 +115,7 @@ export const ES_DOCS = {
               },
               {
                 "value": "{effectiveDate}",
-                "label": "fecha de vigencia de la tabla"
+                "label": "fecha de efectividad de la tabla"
               },
               {
                 "value": "{avoidTotal}",
@@ -113,7 +129,7 @@ export const ES_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Las guías a continuación cubren los servicios ofrecidos en tu idioma. Naming-Link también tiene dos servicios para personas que **ya tienen un nombre coreano** — encontrar hanja para un niño y convertir un nombre coreano en uno para usar en el extranjero. Esos necesitan un nombre en Hangul existente, por lo que tanto los servicios como sus guías están en coreano."
+            "p": "Las guías a continuación cubren los servicios ofrecidos en tu idioma. Naming-Link también tiene dos servicios para personas que **ya tienen un nombre coreano** — encontrar hanja para un niño y convertir un nombre coreano en uno para usar en el extranjero. Ambos necesitan un nombre en Hangul existente, por lo que tanto los servicios como sus guías están en coreano."
           },
           {
             "p": "[Acerca de](/about) explica qué servicio es para quién."
@@ -135,29 +151,29 @@ export const ES_DOCS = {
             "p": "Este servicio escribe **tu nombre** en Hangul. No te da un nombre coreano. Michael se convierte en 마이클 — el mismo nombre, escrito para que los coreanos puedan leerlo y decirlo. No lo cambiamos por un nombre coreano que casualmente signifique algo similar."
           },
           {
-            "p": "Si un nombre coreano es lo que deseas, **ese es un servicio diferente**. Uno mantiene tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
+            "p": "Si lo que deseas es un nombre coreano, **ese es un servicio diferente**. Uno mantiene tu nombre y solo cambia el guion; el otro propone un nuevo nombre."
           }
         ]
       },
       {
-        "title": "Sonidos que el coreano no tiene",
+        "title": "Los sonidos que el coreano no tiene",
         "blocks": [
           {
-            "p": "Cada idioma tiene sonidos que el coreano no tiene — f, v, z, th, y distinciones vocálicas que el coreano no hace. Para esos escribimos lo que **realmente dice un hablante de coreano** cuando lee tu nombre en voz alta, en lugar de transcribir la fonética original símbolo por símbolo. El objetivo es la escritura que se usará, no la más técnicamente fiel."
+            "p": "Cada idioma tiene sonidos que el coreano no tiene — f, v, z, th, y distinciones vocálicas que el coreano no hace. Para esos, escribimos lo que **realmente dice un hablante de coreano** cuando lee tu nombre en voz alta, en lugar de transcribir la fonética original símbolo por símbolo. El objetivo es la ortografía que se usará, no la más técnicamente fiel."
           },
           {
-            "p": "La misma escritura puede diferir dependiendo de dónde provenga un nombre, por lo que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
+            "p": "La misma ortografía puede diferir dependiendo de dónde provenga un nombre, así que pedimos tu idioma y país y trabajamos a partir de esa pronunciación."
           }
         ]
       },
       {
-        "title": "Varias escrituras, lado a lado",
+        "title": "Varios deletreos, uno al lado del otro",
         "blocks": [
           {
-            "p": "No hay una única respuesta correcta. La escritura más cercana al sonido original, la que se usa más comúnmente en Corea, y la más fácil de escribir a menudo son tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
+            "p": "No hay una sola respuesta correcta. La ortografía más cercana al sonido original, la que se usa más comúnmente en Corea, y la que es más fácil de escribir son a menudo tres cosas diferentes. Así que las mostramos juntas y decimos qué las separa."
           },
           {
-            "p": "Si ninguna de ellas se siente correcta, puedes añadir una pista sobre el sonido que deseas y ejecutarlo de nuevo — por ejemplo, que una sílaba particular debería escribirse de manera diferente."
+            "p": "Si ninguna de ellas se siente correcta, puedes añadir una pista sobre el sonido que deseas y volver a intentarlo — por ejemplo, que una sílaba particular debería escribirse de manera diferente."
           }
         ]
       },
@@ -166,7 +182,42 @@ export const ES_DOCS = {
         "title": "No hay hanja aquí",
         "blocks": [
           {
-            "p": "No adjuntamos hanja a una transliteración. El hanja tiene significado, y este flujo se trata de sonido. Igualar caracteres solo al sonido puede llevarte a un significado que nunca pediste."
+            "p": "No adjuntamos hanja a una transliteración. Los hanja llevan significado, y este flujo se trata de sonido. Hacer coincidir caracteres solo con el sonido puede llevarte a un significado que nunca pediste."
+          }
+        ]
+      },
+      {
+        "title": "Esto va en la dirección opuesta a la romanización del pasaporte",
+        "blocks": [
+          {
+            "p": "Estos dos son fáciles de confundir, así que aquí está la diferencia: **van en direcciones opuestas.**"
+          },
+          {
+            "ul": [
+              "**La romanización** toma el nombre en Hangul de una persona coreana y lo escribe en el alfabeto latino. Se fija cuando se emite un pasaporte, y a partir de entonces boletos, visas y cuentas bancarias siguen esa ortografía. 김민준 se convierte en Kim Minjun.",
+              "**La transliteración en Hangul** — lo que hace este servicio — va en la otra dirección. Toma un nombre escrito en el alfabeto latino y escribe cómo suena en Hangul. Daniel se convierte en 대니얼."
+            ]
+          },
+          {
+            "p": "Así que lo que obtienes aquí **no cambia la ortografía en tu pasaporte.** Esa romanización ya está fijada; este es ese nombre escrito de nuevo en Hangul. Los dos no siempre se convierten exactamente entre sí — escribir un sonido que el coreano no tiene pierde un poco de información en el camino."
+          }
+        ]
+      },
+      {
+        "title": "Dónde usarías esta ortografía",
+        "blocks": [
+          {
+            "p": "Una ortografía en Hangul suele ser necesaria en lugares como estos."
+          },
+          {
+            "ul": [
+              "**Presentándote** — mostrando tu nombre en Hangul, o diciéndolo en coreano",
+              "**Un campo de nombre en Hangul en un formulario** — registros y solicitudes que piden tu nombre en Hangul. Ten en cuenta que **la institución decide qué aparece en un documento oficial** — lo que obtienes aquí no sustituye eso",
+              "**Un sello de nombre o recuerdo** — la ortografía a tallar"
+            ]
+          },
+          {
+            "p": "**Es normal que más de una ortografía sea defendible.** Cuando un nombre puede escribirse de varias maneras en Hangul, las mostramos una al lado de la otra y dejamos la elección a ti."
           }
         ]
       }
@@ -175,14 +226,14 @@ export const ES_DOCS = {
   "guide/how-global-to-korean": {
     "eyebrow": "Cómo funciona",
     "title": "Cómo construimos un nombre coreano",
-    "summary": "Elegimos entre apellidos que existen, evaluamos cuán fácilmente se dice y se escribe el nombre, y preguntamos para qué es el nombre.",
+    "summary": "Elegimos entre apellidos que existen, evaluamos cuán fácil se dice y se escribe el nombre, y preguntamos para qué es el nombre.",
     "backLabel": "Guía",
     "sections": [
       {
         "title": "Comenzamos con el apellido",
         "blocks": [
           {
-            "p": "En Corea, el apellido viene primero, y a diferencia de los nombres de pila, no se inventa libremente — se hereda. Así que solo sugerimos apellidos que realmente tienen las personas coreanas. Nuestro grupo predeterminado son los **20 apellidos más comunes**, que juntos cubren aproximadamente el 80% de la población."
+            "p": "En Corea, el apellido viene primero, y a diferencia de los nombres de pila, no se inventa libremente — lo heredas. Así que solo sugerimos apellidos que realmente tienen las personas coreanas. Nuestro grupo predeterminado son los **20 apellidos más comunes**, que juntos cubren aproximadamente el 80% de la población."
           },
           {
             "p": "Si tu propio apellido coincide con uno coreano real por sonido — Wang con 왕, Ye con 예 — lo ponemos primero. Mantener un hilo de conexión con tu nombre original vale más que un apellido elegido al azar."
@@ -193,13 +244,30 @@ export const ES_DOCS = {
         ]
       },
       {
+        "title": "Hay veintiséis apellidos para elegir",
+        "blocks": [
+          {
+            "p": "Mantenemos la lista estrecha a propósito. **Los apellidos coreanos realmente están concentrados** — Kim, Lee y Park por sí solos representan aproximadamente el 45% de la población, y los veinte principales alrededor del 80%. Agregar apellidos raros ampliaría el menú, pero también produciría nombres que los coreanos no escuchan como nombres."
+          },
+          {
+            "ul": [
+              "**Los veinte más comunes** (alrededor del 80% de la población) — 김 Kim · 이 Lee · 박 Park · 최 Choi · 정 Jung · 강 Kang · 조 Cho · 윤 Yoon · 장 Jang · 임 Lim · 한 Han · 오 Oh · 서 Seo · 신 Shin · 권 Kwon · 황 Hwang · 안 Ahn · 송 Song · 전 Jeon · 홍 Hong",
+              "**Apellidos reales añadidos para mantener un hilo de sonido** — 왕 Wang · 진 Jin · 백 Baek · 마 Ma · 나 Na · 유 Yoo"
+            ]
+          },
+          {
+            "p": "El segundo grupo existe para que **tu propio apellido pueda trasladarse por sonido**. Wang, Jin, Baek, Ma, Na y Yoo son apellidos que los coreanos ya tienen, así que decir tu nombre mantiene un vínculo con el que comenzaste. Todos los veintiséis son apellidos en uso real — ninguno de ellos es nuestra invención."
+          }
+        ]
+      },
+      {
         "title": "Fácil de decir, fácil de escribir",
         "blocks": [
           {
             "p": "Este es un nombre que la gente en Corea realmente te llamará, así que lo primero que verificamos es si un coreano puede escucharlo una vez y escribirlo. Un nombre que necesita ser deletreado cada vez es una carga que llevas, no nosotros."
           },
           {
-            "p": "El significado también importa. Los nombres de pila coreanos suelen tener uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
+            "p": "El significado también importa. Los nombres de pila coreanos suelen llevar uno, así que te decimos cómo se lee el nombre y por qué lo elegimos — no solo el nombre en sí."
           }
         ]
       },
@@ -207,7 +275,7 @@ export const ES_DOCS = {
         "title": "Preguntamos para qué es el nombre",
         "blocks": [
           {
-            "p": "Un nombre para trámites universitarios no es lo mismo que un nombre que los amigos gritarán a través de una habitación, o un apodo que usarás en línea. Preguntamos cómo planeas usarlo y lo tomamos en cuenta."
+            "p": "Un nombre para trámites universitarios no es lo mismo que un nombre que los amigos gritarán a través de una habitación, o un apodo que usarás en línea. Preguntamos cómo planeas usarlo y tomamos eso en cuenta."
           }
         ]
       },
@@ -216,7 +284,7 @@ export const ES_DOCS = {
         "title": "Esto no es una transliteración",
         "blocks": [
           {
-            "p": "Aquí proponemos un **nuevo nombre coreano**. Si deseas que tu nombre existente esté escrito en Hangul — Michael como 마이클 — consulta la [guía de escritura en Hangul](/guide/how-hangul-transliteration)."
+            "p": "Aquí proponemos un **nuevo nombre coreano**. Si deseas que tu nombre existente se escriba en Hangul — Michael como 마이클 — consulta la [guía de ortografía en Hangul](/guide/how-hangul-transliteration)."
           }
         ]
       }
@@ -251,9 +319,9 @@ export const ES_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos completamente. Consulta la [política de reembolsos](/refund-policy).",
+              "**Pagos y reembolsos** — si un documento nunca fue producido, o el monto cobrado difiere de tu pedido, reembolsamos el total. Consulta la [política de reembolso](/refund-policy).",
               "**Privacidad** — solicitudes para acceder, corregir o eliminar tus datos. Consulta la [política de privacidad](/privacy).",
-              "**Correcciones** — si un significado de hanja, lectura o cálculo parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
+              "**Correcciones** — si un significado, lectura o cálculo de hanja parece incorrecto, háznoslo saber. Mencionar qué pantalla y qué ingresaste ayuda mucho.",
               "**Cualquier otra cosa** — asociaciones y prensa van a la misma dirección."
             ]
           }
@@ -288,19 +356,19 @@ export const ES_DOCS = {
     ]
   },
   "guide/what-we-dont-use": {
-    "eyebrow": "Nuestros Estándares",
-    "title": "Lo Que No Usamos",
-    "summary": "No asignamos fortuna total ni puntajes numéricos, ni usamos conteos de trazos. Los cinco elementos se utilizan solo como un eje suplementario. Aquí están las razones.",
-    "backLabel": "Guía de Uso",
+    "eyebrow": "Nuestros estándares",
+    "title": "Lo que no usamos",
+    "summary": "No asignamos fortuna total ni puntuaciones numéricas, ni usamos conteos de trazos. Los cinco elementos se utilizan solo como un eje suplementario. Aquí están las razones.",
+    "backLabel": "Guía de uso",
     "sections": [
       {
-        "title": "Razones para no asignar fortuna total o puntajes numéricos",
+        "title": "Razones para no asignar fortuna total o puntuaciones numéricas",
         "blocks": [
           {
-            "p": "Existen métodos que asignan fortuna total o puntajes numéricos a los nombres para calificarlos. Naming-Link no proporciona esos números. Las razones son cuatro."
+            "p": "Existen métodos que asignan fortuna total o puntuaciones numéricas a los nombres para calificarlos. Naming-Link no proporciona esos números. Las razones son cuatro."
           },
           {
-            "p": "**Primero, no hay un solo estándar.** Los métodos para calcular la fortuna varían según la escuela, y el mismo nombre puede ser calificado positivamente por un estándar y negativamente por otro. No tenemos base para decidir cuál es el correcto. Es deshonesto presentar uno como si fuera la respuesta."
+            "p": "**Primero, no hay un solo estándar.** Los métodos para calcular la fortuna varían según la escuela, y el mismo nombre puede ser calificado positivamente por un estándar y negativamente por otro. No tenemos base para decidir cuál es correcto. Es deshonesto presentar uno como si fuera la respuesta."
           },
           {
             "p": "**Segundo, esos cálculos dependen de los conteos de trazos.** Sin embargo, los datos de la Corte Suprema no incluyen conteos de trazos en absoluto. Además, los conteos de trazos pueden variar dependiendo de si se cuentan como caracteres regulares o simplificados y cómo se cuentan los radicales. Dado que los números fundamentales no están establecidos de manera definitiva, las puntuaciones construidas sobre ellos no pueden ser definitivas."
@@ -312,7 +380,7 @@ export const ES_DOCS = {
             "p": "**Cuarto, no hay forma de verificar.** La relación entre un nombre y la vida de una persona no puede ser verificada. Convertir algo que no se puede decir que es correcto o incorrecto en una puntuación resulta en un número que no puede ser confirmado, aunque no puede estar equivocado."
           },
           {
-            "p": "Solo usamos lo que puede ser **sustentado.** La tabla oficial de hanja de la Corte Suprema, las lecturas designadas para cada carácter y los significados listados en la tabla. En su lugar, proporcionamos razones por las cuales este candidato fue seleccionado y por qué ciertos caracteres fueron excluidos, mostrando **razones en lugar de puntuaciones**."
+            "p": "Solo usamos lo que puede ser **sustentado.** La tabla oficial de hanja de nombres de la Corte Suprema, las lecturas designadas para cada carácter y los significados listados en la tabla. En su lugar, proporcionamos razones de por qué se seleccionó este candidato y por qué ciertos caracteres fueron excluidos, mostrando **razones en lugar de puntuaciones**."
           }
         ]
       },
@@ -320,10 +388,10 @@ export const ES_DOCS = {
         "title": "No usamos conteos de trazos",
         "blocks": [
           {
-            "p": "Los datos oficiales de hanja proporcionados por la Corte Suprema no incluyen conteos de trazos. Entre los {characterTotal} caracteres que recibimos, **no hay un solo carácter con conteos de trazos.**"
+            "p": "Los datos oficiales de hanja de nombres proporcionados por la Corte Suprema no incluyen conteos de trazos. Entre los {characterTotal} caracteres que recibimos, **no hay un solo carácter con conteos de trazos.**"
           },
           {
-            "p": "Para usar conteos de trazos, tendríamos que obtener números de algún otro lugar, pero si no podemos aclarar de dónde provienen esos números y qué criterios se usaron para contarlos, significaría juzgar nombres basados en números infundados. Hemos decidido no evaluar nombres basados en valores que no pueden ser sustentados."
+            "p": "Para usar conteos de trazos, necesitaríamos obtener números de otro lugar, pero si no podemos aclarar de dónde provienen esos números y qué criterios se usaron para contarlos, significaría juzgar nombres basados en números infundados. Hemos decidido no evaluar nombres basados en valores que no pueden ser sustentados."
           }
         ]
       },
@@ -345,10 +413,10 @@ export const ES_DOCS = {
             "caption": "Las relaciones entre los cinco elementos. Moverse a lo largo del círculo representa generación mutua (相生), mientras que saltar uno y presionar hacia abajo representa restricción mutua (相剋). Usamos esta relación solo como un eje suplementario para comparar candidatos."
           },
           {
-            "p": "Si has ingresado tu mes de nacimiento, usamos una referencia simplificada de los cinco elementos basada en ese mes como un eje suplementario para comparar candidatos. Sin embargo, esto no es un análisis preciso de saju, y **no afirmamos que los nombres determinan el destino o carácter de una persona.**"
+            "p": "Si has ingresado tu mes de nacimiento, usamos una referencia simplificada de los cinco elementos basada en ese mes como un eje suplementario para comparar candidatos. Sin embargo, esto no es un análisis preciso de saju, y **no afirmamos que los nombres determinen el destino o carácter de una persona.**"
           },
           {
-            "p": "En la selección final, lo que priorizamos son los sonidos, combinaciones de significados, los valores que la familia desea transmitir y si puede ser registrado. Si no has ingresado tu mes de nacimiento, excluimos completamente la referencia de los cinco elementos del análisis — no hacemos suposiciones arbitrarias sobre información desconocida."
+            "p": "En la selección final, lo que priorizamos son los sonidos, combinaciones de significados, los valores que la familia desea transmitir y si realmente puede ser registrado. Si no has ingresado tu mes de nacimiento, excluimos completamente la referencia de los cinco elementos del análisis — no hacemos suposiciones arbitrarias sobre información desconocida."
           },
           {
             "p": "Si deseas un análisis preciso basado en saju, lo cubrimos en un informe detallado separado. La razón por la que no priorizamos los cinco elementos en la coincidencia gratuita de hanja es que no queremos presentar juicios basados en los cinco elementos derivados de una fecha y hora de nacimiento incompletas como si fueran definitivos."
@@ -358,10 +426,10 @@ export const ES_DOCS = {
     ]
   },
   "guide/what-we-sell": {
-    "eyebrow": "Productos de Pago",
+    "eyebrow": "Productos de pago",
     "title": "¿Qué incluye los productos de pago?",
     "summary": "Aclaramos cuánto es visible de forma gratuita y qué características adicionales vienen con el pago por cada producto. Los precios se obtienen de la configuración real del producto.",
-    "backLabel": "Guía de Uso",
+    "backLabel": "Guía de uso",
     "sections": [
       {
         "title": "¿Qué es visible de forma gratuita?",
@@ -381,7 +449,7 @@ export const ES_DOCS = {
             "p": "Los resultados recomendados están estructurados para abrir candidatos uno por uno. Al ver anuncios, se abre uno a la vez, mientras que este producto **abre todos los candidatos restantes a la vez**."
           },
           {
-            "p": "Si no tienes prisa, no es necesario que compres. Los **resultados de abrir a través de anuncios y los de pago son completamente los mismos** — solo es cuestión de esperar, y pagar no produce mejores candidatos."
+            "p": "Si no tienes prisa, no es necesario que compres. **Los resultados de abrir a través de anuncios y los de pago son completamente los mismos** — solo es cuestión de esperar, y pagar no produce mejores candidatos."
           }
         ]
       },
@@ -405,7 +473,7 @@ export const ES_DOCS = {
         "title": "El hanja en sí es información de acceso público",
         "blocks": [
           {
-            "p": "El hanja utilizable y sus significados provienen de la tabla oficial de hanja establecida por la Corte Suprema de Corea, y todos son de acceso público en los documentos de orientación del servicio. Lo que los productos de pago venden no es información de hanja, sino **el acto de seleccionar y explicar según el nombre**."
+            "p": "El hanja utilizable y sus significados provienen de la tabla oficial de hanja para nombres establecida por la Corte Suprema de Corea, y todos están disponibles públicamente en los documentos de orientación del servicio. Lo que los productos de pago venden no es información de hanja, sino **el acto de seleccionar y explicarlo de acuerdo con el nombre**."
           }
         ]
       },
@@ -418,7 +486,7 @@ export const ES_DOCS = {
           {
             "ul": [
               "**Informe Premium de Nombre Coreano** — 3 páginas. Incluye una portada de caligrafía, el significado del nombre y la razón para elegirlo, y la interpretación de saju y los cinco elementos.",
-              "**Arte del Nombre en Hangul** — 2 páginas. Incluye una portada de caligrafía y guía de pronunciación. Contiene cómo escribir el nombre en Hangul y cómo pronunciarlo."
+              "**Arte de Nombre en Hangul** — 2 páginas. Incluye una portada de caligrafía y guía de pronunciación. Contiene cómo escribir el nombre en Hangul y cómo pronunciarlo."
             ]
           }
         ]
@@ -427,7 +495,7 @@ export const ES_DOCS = {
         "title": "Sello de Nombre",
         "blocks": [
           {
-            "p": "Grabamos el nombre creado en la pantalla en un sello físico y te lo enviamos. Los precios varían según el modelo — sello redondo {priceStampRound}, sello cuadrado {priceStampSquare}, sello de ébano {priceStampEbony}. También se ofrece envío internacional."
+            "p": "Grabamos el nombre creado en la pantalla en un sello físico y te lo enviamos. Los precios varían según el modelo — sello redondo {priceStampRound}, sello cuadrado {priceStampSquare}, sello de ébano {priceStampEbony}. También está disponible el envío internacional."
           },
           {
             "p": "**A partir de aquí, los productos incluyen envío.** A diferencia de los artículos anteriores, la producción y el envío toman tiempo, y se requiere una dirección de recepción. La información de envío se utiliza solo para el procesamiento de pedidos y retención legal, y una vez que el procesamiento esté completo, se destruirá después del período especificado en la política."
@@ -459,30 +527,30 @@ export const ES_NOTICES = {
     "policy": "Política",
     "support": "Soporte"
   },
-  "intro": "Los cambios en sus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Las mejoras internas no se enumeran: lo que aparece aquí es lo que necesita saber.",
+  "intro": "Los cambios en tus términos de uso — precios, políticas — se publican aquí antes de que entren en vigor. Las mejoras internas no se enumeran: lo que aparece aquí es lo que necesitas saber.",
   "empty": {
-    "title": "Sin avisos aún",
+    "title": "No hay avisos aún",
     "body": "Cuando algo cambie, aparecerá aquí."
   },
   "effective": "Entra en vigor {date}",
   "pager": {
-    "label": "Páginas de avisos",
-    "newer": "← Más nuevo",
-    "older": "Más antiguo →"
+    "label": "Páginas de aviso",
+    "newer": "← Más Nuevos",
+    "older": "Más Antiguos →"
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Las páginas de contacto y sobre están ahora abiertas",
+      "title": "Las páginas de Contacto y Acerca de ya están abiertas",
       "body": [
         "Preguntas, reembolsos, solicitudes de privacidad e informes de errores ahora tienen un solo lugar al que ir. La página de contacto en el pie de página enumera nuestro correo electrónico y detalles de la empresa.",
-        "En qué se basan nuestras respuestas y lo que deliberadamente no hacemos está escrito en la página sobre."
+        "En qué se basan nuestras respuestas, y lo que deliberadamente no hacemos, está escrito en la página acerca de."
       ]
     },
     "2026-08-01-pdf-language": {
-      "title": "Los informes en PDF se emiten en inglés para árabe y jemer",
+      "title": "Los informes PDF se emiten en inglés para árabe y jemer",
       "body": [
-        "Si está utilizando el servicio en árabe o jemer, el PDF que compra se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos guiones.",
-        "La pantalla permanece en su idioma, y su nombre se imprime en su propio guion dentro del documento.",
+        "Si estás utilizando el servicio en árabe o jemer, el PDF que compras se produce en inglés. La herramienta que organiza nuestros documentos aún no puede establecer párrafos en esos dos guiones.",
+        "La pantalla permanece en tu idioma, y tu nombre se imprime en tu propio guion dentro del documento.",
         "La misma nota aparece antes del pago. Cuando la herramienta soporte estos guiones, lo diremos aquí."
       ]
     },
@@ -490,7 +558,7 @@ export const ES_NOTICES = {
       "title": "Los pagos aún no están abiertos",
       "body": [
         "Crear un nombre y leer el resultado es gratis hoy, y no se necesita cuenta.",
-        "Los artículos de pago aún no están a la venta. Las cantidades mostradas en la página de precios son las que se aplicarán una vez que se abran las ventas."
+        "Los artículos de pago aún no están a la venta. Los montos mostrados en la página de precios son los que se aplicarán una vez que se abran las ventas."
       ]
     }
   }
