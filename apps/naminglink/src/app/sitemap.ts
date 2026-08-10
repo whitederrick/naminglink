@@ -58,10 +58,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
 
     const languages = hreflangMap(path);
+    /**
+     * **무접두 주소는 싣지 않는다** (2026-08-10). 루트는 302로, 하위는 영어판으로 308 되는
+     * 자리라 sitemap에 넣으면 **리다이렉트되는 주소를 색인하라고 내미는 꼴**이 된다.
+     * 루트의 무접두 주소는 각 언어판의 hreflang 묶음에서 x-default로만 쓴다.
+     */
     return [
-      // 로케일 없는 주소(x-default). 헤더를 보고 언어를 정하는 자리다.
-      { url: absoluteUrl(path), priority, alternates: { languages } },
-      // 글로벌 전용 화면에는 한국어 주소를 싣지 않는다 — 301로 영어로 보내지는 주소다.
+      // 글로벌 전용 화면에는 한국어 주소를 싣지 않는다 — 308로 영어로 보내지는 주소다.
       ...supportedLocales
         .filter((locale) => !(locale === "ko" && isGlobalOnlyPath(path)))
         .map((locale) => ({

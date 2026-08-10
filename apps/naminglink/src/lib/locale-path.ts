@@ -1,4 +1,5 @@
 import { isLocaleCode } from "@/lib/locale-codes";
+import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 
 /**
  * 로케일이 앞에 붙은 경로를 만든다 — `/ko/hanja-meaning` 꼴.
@@ -16,7 +17,53 @@ import { isLocaleCode } from "@/lib/locale-codes";
  * @param locale 없으면 로케일 없는 주소를 돌려준다(헤더로 언어를 정하는 x-default 자리).
  * @param query  `mode=transliteration`처럼 함께 실을 쿼리(앞의 `?`는 빼고).
  */
+/**
+ * **글자 그대로 로케일을 앞에 붙인다.** 경로 규칙을 보지 않는다.
+ *
+ * 선언(canonical·hreflang·sitemap)에서만 쓴다 — 거기서는 「그 언어판의 주소가 무엇인가」를
+ * 그대로 적어야 하고, 어느 주소를 실을지는 `lib/seo.ts`가 이미 갈라 놓았다.
+ *
+ * **링크에는 쓰지 말 것.** 링크는 `localePath`를 쓴다(아래).
+ */
+export function rawLocalePath(
+  path: string,
+  locale?: string | null,
+  query?: string,
+) {
+  return buildPath(path, locale, query);
+}
+
+/**
+ * **화면에 놓을 링크의 최종 주소.** 경로 성격을 보고 접두사를 정한다.
+ *
+ * ## 왜 규칙을 알아야 하는가 (2026-08-10)
+ *
+ * 2026-08-10에 한국어 전용 화면을 단일 URL로 모으고 글로벌 전용 화면에서 한국어를 내렸는데,
+ * **이 함수는 그 규칙을 모른 채 무조건 접두사를 붙이고 있었다.** 그래서 sitemap에서 뺀 주소를
+ * **내부 링크가 계속 구글에 다시 알려 주는** 상태였다 — 홈의 `/ko/hanja-meaning`, 안내 허브의
+ * 한국어 전용 문서 여섯, 한자 목록의 초성 링크 열셋이 전부 301을 거쳤다.
+ *
+ * 색인에서 지운 주소를 링크가 되살리면 「발견됨-색인 안 됨」 더미가 줄지 않는다. 규칙은
+ * `lib/route-locales.ts`에 있고, 여기서는 그것을 읽어 쓰기만 한다.
+ */
 export function localePath(
+  path: string,
+  locale?: string | null,
+  query?: string,
+) {
+  const [rawPath] = (path.startsWith("/") ? path : `/${path}`).split("?");
+  const base = rawPath!;
+
+  // 한국어 전용 화면은 로케일 주소를 갖지 않는다. 어느 언어에서 걸든 무접두 주소로 보낸다.
+  if (isKoreanOnlyPath(base)) return buildPath(path, null, query);
+
+  // 글로벌 전용 화면에는 한국어판이 없다. ko로 걸면 영어판으로 보낸다.
+  if (locale === "ko" && isGlobalOnlyPath(base)) return buildPath(path, "en", query);
+
+  return buildPath(path, locale, query);
+}
+
+function buildPath(
   path: string,
   locale?: string | null,
   query?: string,

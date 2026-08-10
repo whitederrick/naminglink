@@ -171,7 +171,9 @@ export default async function Home({ searchParams }: HomeProps) {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,24,20,0.88),rgba(18,24,20,0.62),rgba(18,24,20,0.24))]" />
 
         <header className="relative z-40 mx-auto grid w-full max-w-7xl gap-3 px-5 py-4 text-white sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(600px,600px)] lg:items-center lg:gap-5 lg:px-10">
-          <Link href="/" className="flex items-center gap-3">
+          {/* 로고는 **그 언어의 첫 화면**으로 보낸다. `/`로 두면 감지 302를 거치게 되고,
+              내부 링크가 리다이렉트를 만드는 것은 색인에서 지운 주소를 되살리는 일과 같다. */}
+          <Link href={localePath("/", locale)} className="flex items-center gap-3">
             <BrandMark />
             <span className="flex flex-col gap-1">
               <span className="text-[22px] font-semibold leading-none">

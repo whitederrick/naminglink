@@ -3,7 +3,7 @@ import { guideEntries } from "@/lib/guide-index";
 import { getServiceCopy } from "@/lib/i18n";
 import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 import { supportedLocales, type Locale } from "@/lib/services";
-import { localePath } from "@/lib/locale-path";
+import { rawLocalePath } from "@/lib/locale-path";
 
 /**
  * 사이트 절대 주소. canonical·hreflang·sitemap이 전부 여기서 갈라져 나온다.
@@ -117,7 +117,10 @@ export function ogImageFor(locale: Locale) {
  * (`lib/locale-path.ts`).
  */
 export function localeUrl(path: string, locale: Locale) {
-  return `${siteUrl}${localePath(path, locale)}`;
+  // **선언에는 글자 그대로의 주소를 쓴다.** `localePath`는 경로 규칙을 보고 링크를 최종
+  // 주소로 바꾸는데, 여기서 그것을 쓰면 canonical·hreflang이 자기 자신을 못 가리킨다.
+  // 어느 로케일 주소를 실을지는 `buildAlternates`·`hreflangMap`이 이미 갈라 놓았다.
+  return `${siteUrl}${rawLocalePath(path, locale)}`;
 }
 
 /**
@@ -135,8 +138,15 @@ export function hreflangMap(path: string): Record<string, string> {
     if (locale === "ko" && isGlobalOnlyPath(path)) continue;
     map[locale] = localeUrl(path, locale);
   }
-  // 어느 언어에도 해당하지 않는 방문자가 갈 곳. 로케일 없는 주소가 헤더를 보고 언어를 고른다.
-  map["x-default"] = absoluteUrl(path);
+  /**
+   * x-default. **루트만 무접두 주소이고, 하위는 영어판을 직접 가리킨다** (2026-08-10).
+   *
+   * 루트(`/`)는 감지해 302로 보내는 자리라 x-default로 알맞다 — 구글이 그 구성을 명시적으로
+   * 허용한다. 그런데 **하위 경로의 무접두 주소는 영어로 고정 이동(308)**하므로, 그것을
+   * x-default로 두면 「영원히 리다이렉트되는 URL」을 언어판이라고 내미는 꼴이 된다. x-default
+   * URL도 구글의 발견 경로라, 그 주소들을 계속 크롤하며 한 번도 정리되지 않는다.
+   */
+  map["x-default"] = path === "/" ? absoluteUrl("/") : localeUrl(path, "en");
   return map;
 }
 
