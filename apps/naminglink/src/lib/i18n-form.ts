@@ -1,3 +1,4 @@
+import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
 import type { Locale } from "@/lib/services";
 
 // NamingForm의 사용자 노출 문자열(입력 폼 chrome). 외국인 대상 서비스(GLOBAL_TO_KOREAN)에서만
@@ -1125,4 +1126,55 @@ const formCopies: Partial<Record<Locale, FormCopy>> = { ko, en, vi, th, ja, zh, 
 
 export function getFormCopy(locale: Locale): FormCopy {
   return formCopies[locale] ?? en;
+}
+
+/**
+ * **관문이 없을 때의 제출 문구** (2026-08-11).
+ *
+ * 위 `submitDefault`·`submitTransliteration`은 "광고 확인 후 …"라고 말한다. 광고 관문이 도는
+ * 동안에는 맞는 말이지만, **심사 모드에서는 광고가 하나도 나가지 않는다** — 그 상태에서 그
+ * 문구를 그대로 두면 화면이 있지도 않은 절차를 요구하는 셈이고, 심사자에게는 미완성이거나
+ * 기만적인 화면으로 읽힌다.
+ *
+ * **기존 문구를 고치지 않고 한 벌을 더 두는 이유**: 승인 뒤 `NEXT_PUBLIC_AD_MODE=live`로
+ * 관문이 돌아올 때 문구도 함께 돌아와야 한다. 지우고 다시 23개 언어를 쓰는 일을 만들지 않는다.
+ *
+ * 표를 여기 따로 두는 것은 이 둘이 **모드에 따라 갈리는 값**이기 때문이다. `FormCopy` 안에
+ * 섞으면 어느 것이 언제 쓰이는 문구인지 호출부에서만 알 수 있다.
+ */
+const plainSubmitCopies: Record<
+  LocaleCode,
+  { default: string; transliteration: string }
+> = {
+  ko: { default: "분석 시작", transliteration: "한글 발음 분석 시작" },
+  en: { default: "Start analysis", transliteration: "Analyze Hangul pronunciation" },
+  ja: { default: "分析を開始", transliteration: "ハングル発音の分析を開始" },
+  zh: { default: "开始分析", transliteration: "开始分析韩文发音" },
+  de: { default: "Analyse starten", transliteration: "Hangul-Aussprache analysieren" },
+  es: { default: "Iniciar análisis", transliteration: "Analizar la pronunciación en hangul" },
+  fr: { default: "Lancer l'analyse", transliteration: "Analyser la prononciation en hangul" },
+  it: { default: "Avvia l'analisi", transliteration: "Analizza la pronuncia in hangul" },
+  pt: { default: "Iniciar análise", transliteration: "Analisar a pronúncia em hangul" },
+  vi: { default: "Bắt đầu phân tích", transliteration: "Phân tích cách đọc Hangul" },
+  th: { default: "เริ่มวิเคราะห์", transliteration: "วิเคราะห์การออกเสียงฮันกึล" },
+  id: { default: "Mulai analisis", transliteration: "Analisis pelafalan Hangul" },
+  ru: { default: "Начать анализ", transliteration: "Проанализировать произношение хангылем" },
+  ar: { default: "بدء التحليل", transliteration: "تحليل النطق بالهانغول" },
+  fil: { default: "Simulan ang pagsusuri", transliteration: "Suriin ang bigkas sa Hangul" },
+  uz: { default: "Tahlilni boshlash", transliteration: "Hangul talaffuzini tahlil qilish" },
+  mn: { default: "Шинжилгээг эхлүүлэх", transliteration: "Хангылын дуудлагыг шинжлэх" },
+  hi: { default: "विश्लेषण शुरू करें", transliteration: "हंगुल उच्चारण का विश्लेषण करें" },
+  tr: { default: "Analizi başlat", transliteration: "Hangul telaffuzunu analiz et" },
+  km: {
+    default: "ចាប់ផ្តើមវិភាគ",
+    transliteration: "វិភាគការបញ្ចេញសំឡេងហាន់គីល",
+  },
+  ms: { default: "Mulakan analisis", transliteration: "Analisis sebutan Hangul" },
+  kk: { default: "Талдауды бастау", transliteration: "Хангыл айтылымын талдау" },
+  pl: { default: "Rozpocznij analizę", transliteration: "Przeanalizuj wymowę w hangulu" },
+};
+
+/** 조회는 관문을 거친다 — 모르는 코드가 오면 영어로 떨어뜨린다(`isLocaleCode`). */
+export function getPlainSubmitCopy(locale: Locale) {
+  return isLocaleCode(locale) ? plainSubmitCopies[locale] : plainSubmitCopies.en;
 }

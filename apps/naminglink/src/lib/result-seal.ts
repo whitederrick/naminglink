@@ -8,6 +8,7 @@ import {
   randomUUID,
 } from "node:crypto";
 
+import { adGatesEnabled } from "@/lib/ads";
 import { sortCandidatesByRate } from "@/lib/candidate-order";
 import type { LockedCandidate } from "@/lib/candidate-seal";
 import { notifyOps } from "@/lib/ops-alert";
@@ -111,6 +112,24 @@ export function sealCandidates(result: unknown, freeCount = FREE_CANDIDATE_COUNT
   if (!Array.isArray(record.candidates)) return result;
 
   const ordered = sortCandidatesByRate(record.candidates);
+
+  /**
+   * **심사 모드에서는 봉인하지 않는다** (2026-08-11).
+   *
+   * 잠긴 후보를 여는 길은 둘뿐이다 — 광고를 보거나(관문) 결제하거나. 심사 기간에는 관문이
+   * 없고 결제도 열려 있지 않으므로, 봉인을 그대로 두면 **아무도 열 수 없는 잠금**만 화면에
+   * 남는다. 잠긴 자리와 「광고 보고 열기」 단추를 함께 보여 주는 것이 이번 거절 사유와 맞닿아
+   * 있기도 하다.
+   *
+   * **화면은 손대지 않는다.** `CandidateUnlockPanel`은 잠긴 후보가 없으면 스스로 사라지고
+   * (`remainingCount === 0`), 23개 로케일 문구도 그대로 잠든다. 여는 판정은 서버에 있으므로
+   * 여기 한 곳이 유일한 스위치다 — 승인 뒤 `NEXT_PUBLIC_AD_MODE=live`면 그대로 돌아온다.
+   *
+   * 일괄 공개·프리미엄 상품은 **영향이 없다.** 그쪽은 결제 증명을 보는 다른 라우트다
+   * (`api/candidates/unseal-all`·`api/premium-reports/*`).
+   */
+  if (!adGatesEnabled) return { ...record, candidates: ordered };
+
   if (ordered.length <= freeCount) return { ...record, candidates: ordered };
 
   const key = sealKey();

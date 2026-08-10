@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, Home, RotateCcw } from "lucide-react";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { AdBanner } from "@/components/AdBanner";
-import { adsAllowedForLocale } from "@/lib/ads";
+import { adGatesEnabled, adsAllowedForLocale } from "@/lib/ads";
 import { trackAdEvent } from "@/lib/analytics-client";
 import { showRewardedAd } from "@/lib/gam-rewarded";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -172,15 +172,21 @@ function ReanalysisSection({
     // AI를 다시 부른다(후보 열기는 이미 만들어 둔 후보를 화면에서 여는 것이라 원가가 0이다).
     // 그래서 반복이 곧 비용인데, 힌트를 고쳐가며 두세 번 돌리는 흐름이라 매번 보상형 영상을
     // 강제하면 첫 시도조차 안 하게 된다. 한 번은 열어 두고 반복하는 쪽에만 무게를 단다.
+    // **심사 모드에서는 보상형을 돌리지 않는다** (2026-08-11). 관문이 없으므로 두 번째
+    // 시도부터 광고를 세우는 규칙도 함께 쉰다 — 서버 표(시간)는 그대로 남아 남용은 막힌다.
     const previousRuns = readReanalysisCount(storageKey);
-    const rewardedTurn = previousRuns >= 1;
+    const rewardedTurn = adGatesEnabled && previousRuns >= 1;
 
-    trackAdEvent({
-      eventType: "IMPRESSION",
-      slotKey: "hangul_candidate_unlock",
-      locale,
-      serviceType: "GLOBAL_TO_KOREAN",
-    });
+    // 광고 자리 지표다. 광고가 나가지 않는 동안에는 남기지 않는다 — 「노출」로 세면 심사
+    // 기간의 지표가 실제로 보여 준 적 없는 광고로 부풀어 오른다.
+    if (adGatesEnabled) {
+      trackAdEvent({
+        eventType: "IMPRESSION",
+        slotKey: "hangul_candidate_unlock",
+        locale,
+        serviceType: "GLOBAL_TO_KOREAN",
+      });
+    }
 
     /**
      * **표를 집는다.** 위의 횟수(`previousRuns`)는 `sessionStorage`에만 있어 지우면 다시
@@ -230,7 +236,10 @@ function ReanalysisSection({
       // 광고가 없다고 버튼이 죽으면 안 된다(후보 열기와 같은 원칙).
     }
 
-    await runAnalysis(5, held);
+    // **심사 모드에서는 자체 관문(5초)을 세우지 않는다.** 그 5초는 광고를 보는 시간을
+    // 대신하는 값인데 보여 줄 광고가 없다. 서버 표의 준비 시각은 그대로 지킨다(위 `runAnalysis`
+    // 첫머리) — 그쪽은 광고가 아니라 남용을 막는 장치다.
+    await runAnalysis(adGatesEnabled ? 5 : 0, held);
   }
 
   /** 관문을 통과한 뒤의 실제 분석. `waitSeconds`가 0이면 기다리지 않는다(보상형이 이미 시간을 썼다). */
@@ -342,11 +351,14 @@ function ReanalysisSection({
           className="h-11 rounded-lg border border-line bg-background px-3 text-sm outline-none transition focus:border-foreground"
         />
       </label>
-      {loading ? (
+      {loading && adGatesEnabled ? (
         <div className="mt-5 grid gap-3">
           {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 다시 분석을 여는 대가로 광고를
               보게 하는 자리라 애드센스 기준으로는 보상형이다(`CandidateUnlockPanel`과 같은 이유).
-              대가는 GAM 보상형이 맡고, 없거나 못 뜨면 셀프 광고가 자리를 채운다. */}
+              대가는 GAM 보상형이 맡고, 없거나 못 뜨면 셀프 광고가 자리를 채운다.
+
+              **심사 모드에서는 자리째 빠진다** (2026-08-11) — 셀프 광고 카드도, "광고 확인 후
+              다시 분석합니다"라는 카운트다운 문구도 보여 줄 광고가 없는 동안에는 말이 안 된다. */}
           <SelfAdCard />
           <p className="text-center text-sm font-medium text-brand-teal">
             {copy.reanalysisCountdown(countdown)}

@@ -34,7 +34,8 @@ import {
   unsealAllCandidates,
   unsealNextCandidate,
 } from "@/lib/candidate-seal";
-import { getFormCopy } from "@/lib/i18n-form";
+import { getFormCopy, getPlainSubmitCopy } from "@/lib/i18n-form";
+import { adGatesEnabled } from "@/lib/ads";
 import {
   getServiceOverride,
   localizeFieldHint,
@@ -275,6 +276,8 @@ export function NamingForm({
   // 한국어 대상 서비스는 항상 ko를 사용해 기존 한국어 문구를 그대로 유지한다.
   const isForeignAudience = service.serviceType === "GLOBAL_TO_KOREAN";
   const t = getFormCopy(isForeignAudience ? locale : "ko");
+  // 관문이 없는 심사 모드에서 쓰는 제출 문구. 기존 문구는 "광고 확인 후 …"라고 말한다.
+  const plainSubmit = getPlainSubmitCopy(isForeignAudience ? locale : "ko");
   // 외국인 대상 서비스일 때만 폼 설정(섹션 설명·필드 라벨·옵션) 로케일 오버라이드를 적용한다.
   const serviceOverride = isForeignAudience ? getServiceOverride(locale) : null;
   const initialValues = useMemo(() => {
@@ -1019,7 +1022,17 @@ export function NamingForm({
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-3 text-[13px] font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:text-sm"
         >
           <Send aria-hidden="true" size={17} />
-          {isHangulTransliteration ? t.submitTransliteration : t.submitDefault}
+          {/* **관문이 없으면 광고를 말하지 않는다** (2026-08-11). 심사 모드에서는 광고가
+              하나도 나가지 않으므로 "광고 확인 후 분석 시작"은 있지도 않은 절차를 요구하는
+              문구가 된다. 판정은 `lib/ads.ts`의 `adGatesEnabled` 한 곳이고, 관문·대기·문구가
+              **같은 값**으로 함께 켜지고 꺼진다. */}
+          {adGatesEnabled
+            ? isHangulTransliteration
+              ? t.submitTransliteration
+              : t.submitDefault
+            : isHangulTransliteration
+              ? plainSubmit.transliteration
+              : plainSubmit.default}
         </button>
 
         {error ? (
@@ -1044,9 +1057,15 @@ export function NamingForm({
                   {t.editInput}
                 </a>
               </div>
-              <p className="mt-1 text-sm leading-6 text-muted">
-                {t.previewNote}
-              </p>
+              {/* **잠긴 후보가 있을 때만 적는다.** 이 문장은 "가장 적합한 후보 1개를 먼저
+                  공개했습니다 — 추가 후보는 광고 확인 또는 결제로 엽니다"라고 말한다. 잠긴
+                  자리가 없는데도 나가면(심사 모드·후보가 하나뿐인 결과) 없는 잠금을 안내하는
+                  꼴이 된다. 개수는 후보 자체에서 세므로 서버와 어긋나지 않는다. */}
+              {revealedCount < candidateCount ? (
+                <p className="mt-1 text-sm leading-6 text-muted">
+                  {t.previewNote}
+                </p>
+              ) : null}
             </div>
             <ResultCard
               service={service}
@@ -1069,13 +1088,20 @@ export function NamingForm({
         <div
           role="dialog"
           aria-modal="true"
-          aria-label={t.adDialogLabel}
+          // 관문이 없으면 이 상자는 광고 창이 아니라 분석 진행 창이다. 낭독기에 읽히는
+          // 이름도 함께 바뀌어야 한다 — 화면 문구만 고치고 `aria-label`을 두면 눈에 안 보이는
+          // 자리에 옛 말이 남는다(안내 문서의 「돌아가기」 단추에서 겪은 것과 같은 자리다).
+          aria-label={adGatesEnabled ? t.adDialogLabel : t.loadingEyebrow}
           className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
         >
           <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
             <div>
               <p className="text-sm font-semibold text-brand-teal">
-                {isHanjaMeaning ? "광고와 함께 진행하는 한자 이름 분석" : t.loadingEyebrow}
+                {isHanjaMeaning
+                  ? adGatesEnabled
+                    ? "광고와 함께 진행하는 한자 이름 분석"
+                    : "한자 이름 분석 중"
+                  : t.loadingEyebrow}
               </p>
               <h2 className="mt-1 text-lg font-semibold">
                 {isHanjaMeaning
@@ -1095,16 +1121,25 @@ export function NamingForm({
                 게이트의 대가는 **오퍼월(진입)과 GAM 보상형(후보 열기)**이 맡고, 그 둘이 없을
                 때는 셀프 광고가 자리를 채운다. 게이트를 없애거나 기다림을 건너뛰지 않는다 —
                 채울 것만 바꾼다. 애드센스 표시 광고는 모달 밖 일반 자리에만 남는다. */}
-            <SelfAdCard />
-            <p className="text-center text-sm font-medium text-brand-teal">
-              {analysisCountdown > 0
-                ? isHanjaMeaning
-                  ? `광고와 한자 분석을 함께 진행하고 있습니다 · ${analysisCountdown}초`
-                  : t.loadingCountdown(analysisCountdown)
-                : isHanjaMeaning
-                  ? "광고 확인 완료 · 한자 분석 결과를 마무리하고 있습니다"
-                  : t.loadingDone}
-            </p>
+            {/* **심사 모드에서는 이 자리가 통째로 빠진다** (2026-08-11). 셀프 광고 카드와
+                대기 카운트다운은 관문의 구성물이다 — 광고가 하나도 나가지 않는 동안 이용자를
+                광고 카드 앞에 세워 두는 것은 지시서가 짚은 "광고는 없는데 광고를 보라고 하는"
+                자리이고, 아래 문구는 카운트다운이 끝나면 "광고 확인 완료"라고 말한다.
+                남는 것은 분석 진행 표시(`AILoadingSteps`)뿐이라 화면은 그대로 성립한다. */}
+            {adGatesEnabled ? (
+              <>
+                <SelfAdCard />
+                <p className="text-center text-sm font-medium text-brand-teal">
+                  {analysisCountdown > 0
+                    ? isHanjaMeaning
+                      ? `광고와 한자 분석을 함께 진행하고 있습니다 · ${analysisCountdown}초`
+                      : t.loadingCountdown(analysisCountdown)
+                    : isHanjaMeaning
+                      ? "광고 확인 완료 · 한자 분석 결과를 마무리하고 있습니다"
+                      : t.loadingDone}
+                </p>
+              </>
+            ) : null}
             <AILoadingSteps
               variant={
                 isHanjaMeaning

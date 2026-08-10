@@ -72,6 +72,18 @@ const KEY_A = "test-seal-secret-aaaaaaaaaaaaaaaaaaaa";
 const KEY_B = "test-seal-secret-bbbbbbbbbbbbbbbbbbbb";
 
 async function main() {
+  /**
+   * **운영 모드를 기준으로 검사한다** (2026-08-11).
+   *
+   * 심사 모드(`NEXT_PUBLIC_AD_MODE`가 `live`가 아님)에서는 `sealCandidates`가 일부러 봉인하지
+   * 않는다 — 관문이 없어 아무도 열 수 없는 잠금을 만들지 않기 위해서다. 그 상태로 이 검사를
+   * 돌리면 「봉인이 헐거워졌다」가 아니라 **검사기가 다른 모드를 보고 있는 것**인데, 출력만
+   * 보면 구분되지 않는다. 그래서 여기서 모드를 못 박는다.
+   *
+   * 값은 모듈이 읽히기 **전에** 정해져야 한다(`lib/ads.ts`가 로드 시점에 평가한다).
+   */
+  process.env.NEXT_PUBLIC_AD_MODE = "live";
+
   const seal = await import("../src/lib/result-seal");
 
   setSealKey(KEY_A);
