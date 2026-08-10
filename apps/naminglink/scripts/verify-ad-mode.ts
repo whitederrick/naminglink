@@ -21,6 +21,7 @@
 //   npx tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-ad-mode.ts
 
 import { spawnSync } from "node:child_process";
+import { readFileSync } from "node:fs";
 
 /** 검사용 값. 실제 계정과 무관하고, **형식이 맞아야** 각 모듈이 켜진다. */
 const TEST_ENV = {
@@ -38,9 +39,12 @@ type Facts = {
   offerwallEnabled: boolean;
   publisherId: string;
   eligible: string[];
+  adsAllowedKo: boolean;
   adsAllowedEn: boolean;
   adsAllowedKk: boolean;
   lockedCount: number;
+  /** 전역 레이아웃이 로더를 싣는가. **실어서는 안 된다**(자동 광고 자리가 생긴다). */
+  layoutLoadsAdScript: boolean;
 };
 
 /** 자식으로 돌 때. 지금 프로세스의 모드에서 사실을 모아 JSON 한 줄로 낸다. */
@@ -69,11 +73,23 @@ async function collect(): Promise<Facts> {
     offerwallEnabled: offerwall.offerwallEnabled,
     publisherId: ads.adsensePublisherId,
     eligible: ads.adEligibleLocales(localeCodes),
+    adsAllowedKo: ads.adsAllowedForLocale("ko"),
     adsAllowedEn: ads.adsAllowedForLocale("en"),
     adsAllowedKk: ads.adsAllowedForLocale("kk"),
     lockedCount: sealed.candidates.filter(
       (candidate) => (candidate as { __locked?: boolean }).__locked === true,
     ).length,
+    /**
+     * **소스를 읽어서 센다.** 로더를 전역 레이아웃에 되돌리는 것이 이 작업에서 가장 되돌아가기
+     * 쉬운 회귀다 — 되돌리면 로그인·요금·빈 결과 화면이 다시 광고 화면이 되는데, 화면만 봐서는
+     * 티가 나지 않는다(자동 광고는 no-fill이면 높이 0으로 남는다).
+     */
+    layoutLoadsAdScript: /adsbygoogle\.js/.test(
+      readFileSync(new URL("../src/app/layout.tsx", import.meta.url), "utf8").replace(
+        /\/\*[\s\S]*?\*\/|^\s*\/\/.*$/gm,
+        " ",
+      ),
+    ),
   };
 }
 
@@ -137,8 +153,22 @@ async function main() {
     // 뒤엣것은 심사를 멈춘다. 코드에서 한 줄만 잘못 바꿔도 조용히 그 상태가 된다.
     check("사이트 연결(퍼블리셔 ID)이 남는다", review.adsConfigured === true);
     check("ads.txt에 쓸 퍼블리셔 ID가 남는다", review.publisherId.startsWith("pub-"));
-    check("적격 로케일 화면에는 광고 코드가 실린다", review.adsAllowedEn === true);
-    check("미지원 언어에는 실리지 않는다 (kk)", review.adsAllowedKk === false);
+
+    console.log("\n== 로더는 광고 자리에서만 (전역 금지)");
+    // 전역 로더는 자동 광고 자리를 스스로 만든다. 광고 단위를 두지 않은 화면까지 광고 화면이
+    // 되므로, 「로더가 레이아웃에 없다」를 못 박아 둔다.
+    check("전역 레이아웃이 로더를 싣지 않는다", review.layoutLoadsAdScript === false);
+    check("운영 모드에서도 싣지 않는다", live.layoutLoadsAdScript === false);
+
+    console.log("\n== 광고를 실어도 되는 로케일 (지원 ∩ 사람 검수)");
+    check("검수한 로케일(ko)에는 허용된다", review.adsAllowedKo === true);
+    check("검수하지 않은 지원 언어(en)에는 허용되지 않는다", review.adsAllowedEn === false);
+    check("미지원 언어(kk)에는 허용되지 않는다", review.adsAllowedKk === false);
+    check(
+      "적격 목록이 검수 기록과 같다 (지금은 ko 하나)",
+      review.eligible.join(",") === "ko",
+      review.eligible.join(",") || "(비어 있음)",
+    );
 
     console.log("\n== 운영 모드 (NEXT_PUBLIC_AD_MODE=live) — 되돌아오는가");
     check("광고 관문이 켜진다", live.adGatesEnabled === true);
@@ -153,6 +183,7 @@ async function main() {
       `${review.eligible.length}개`,
     );
     check("미지원 언어 판정은 모드와 무관하다", live.adsAllowedKk === false);
+    check("미검수 언어 판정도 모드와 무관하다", live.adsAllowedEn === false);
 
     console.log(`\n${failures === 0 ? "ALL PASS" : `FAIL ${failures}건`}`);
     process.exit(failures === 0 ? 0 : 1);

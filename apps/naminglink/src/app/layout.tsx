@@ -5,7 +5,7 @@ import "./globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
-import { adsAllowedForLocale, adsConfigured, adsenseClient } from "@/lib/ads";
+import { adsConfigured, adsenseClient } from "@/lib/ads";
 import { getRequestLocale, isRtlLocale } from "@/lib/locale";
 import { ogImageFor, siteUrl } from "@/lib/seo";
 import { getPublishedFooterContent } from "@/lib/site-content-server";
@@ -101,22 +101,28 @@ export default async function RootLayout({
         <FooterContentProvider value={footerContent}>
           {children}
         </FooterContentProvider>
-        {/* 애드센스 로더. 퍼블리셔 ID가 없으면 아예 붙지 않는다(다크 런치) — 그래야 CSP도
-            원래대로 조여 둔 채 배포된다. 인연링크와 같은 방식이다.
-            next/script 대신 순수 <script>를 쓴다. next/script는 어느 전략을 골라도 태그를
-            런타임에 주입하므로 서버가 보낸 HTML에 구글이 안내한 스니펫이 그대로 들어 있지
-            않은데, 애드센스 심사는 그 스니펫을 찾는 절차라 형태가 같은 편이 확실하다.
-            **Offerwall도 이 코드가 있어야 동작한다** — 구글 문서가 명시한 전제조건이다. */}
-        {/* **지원하지 않는 언어의 화면에는 로더도 붙이지 않는다**(2026-08-10). 구글 게시자
-            정책이 「지원하지 않는 언어가 주인 페이지에 광고 코드를 두는 것」을 금지한다 —
-            광고가 실제로 채워지는지와 무관하다. 판정은 `lib/ads.ts` 한 곳에 있다. */}
-        {adsAllowedForLocale(locale) ? (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-            crossOrigin="anonymous"
-          />
-        ) : null}
+        {/**
+          * **애드센스 로더는 여기 없다** (2026-08-11에 뺐다).
+          *
+          * 예전에는 지원 언어의 **모든 화면**에 로더를 실었다. 광고 단위(`<ins>`)는 결과 화면
+          * 넷에만 두었으니 「광고는 결과 화면에만」이라고 여겼는데, 실측에서 아니었다 —
+          * 로더는 혼자서 **자동 광고 자리(앵커·비네트)를 만든다.** `/en/login`과 `/en/pricing`에
+          * 우리가 넣지 않은 `<ins class="adsbygoogle adsbygoogle-noablate">`가 하나씩 붙어
+          * 있었다. 발행한 콘텐츠가 없는 화면이 광고 화면이 되는 것이 이번 반려 사유와 같은
+          * 자리다.
+          *
+          * 콘솔로는 막을 수 없다 — 자동 광고는 사이트별 설정인데, 광고 게재 준비가 되지 않은
+          * 사이트에는 그 설정 행 자체가 없다(콘솔 확인). 그래서 **스크립트를 부르는 자리**를
+          * 광고 단위가 실제로 그려지는 곳으로 좁혔다: `components/AdBanner.tsx` →
+          * `lib/adsense-loader.ts`.
+          *
+          * **사이트 연결은 그대로다.** 소유권은 아래 `generateMetadata`의
+          * `google-adsense-account` 메타 태그와 `/ads.txt`가 맡고, 둘 다 구글이 공식 지원하는
+          * 연결 방법이다(콘솔에서 소유권 확인 초록·ads.txt 승인됨을 실측했다).
+          *
+          * 여기에 로더를 되돌리지 말 것. 되돌리는 순간 로그인·요금·빈 결과 화면이 다시
+          * 광고 화면이 된다.
+          */}
       </body>
     </html>
   );

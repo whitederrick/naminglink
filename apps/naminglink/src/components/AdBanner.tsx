@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 
 import { adSlotFor, adsAllowedForLocale, adsenseClient, type AdPlacement } from "@/lib/ads";
+import { ensureAdsenseLoader } from "@/lib/adsense-loader";
 import type { Locale } from "@/lib/services";
 
 // 광고 자리. **슬롯 ID가 있으면 실제 애드센스 유닛을, 없으면 자리 표시만** 그린다.
@@ -130,6 +131,13 @@ export function AdBanner({
   useEffect(() => {
     if (!adsAllowed || !slot || pushed.current) return;
     try {
+      /**
+       * **로더를 여기서 부른다** (2026-08-11). 예전에는 `app/layout.tsx`가 모든 화면에 실었는데,
+       * 로더는 혼자서도 자동 광고 자리(앵커·비네트)를 만든다 — 광고 단위를 두지 않은 로그인·
+       * 요금 화면에도 광고 자리가 생겨 있었다(실측). 부르는 자리를 **광고 단위가 실제로 그려질
+       * 때**로 좁히면 그 자리가 아예 생기지 않는다. 사연은 `lib/adsense-loader.ts`.
+       */
+      ensureAdsenseLoader();
       // 스크립트가 아직 안 왔어도 밀어 둔 요청은 로드 후 처리된다(배열에 쌓이는 구조).
       const w = window as unknown as { adsbygoogle?: unknown[] };
       (w.adsbygoogle = w.adsbygoogle ?? []).push({});
