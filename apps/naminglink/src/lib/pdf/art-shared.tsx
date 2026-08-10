@@ -94,8 +94,9 @@ export function ArtBackdrop({ image }: { image?: string | null }) {
   if (!image) return <HanjiBackdrop />;
   return (
     <View style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }} fixed>
-      {/* react-pdf Image에는 alt 개념이 없다(a11y 규칙은 웹 img 대상). */}
-      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      {/* react-pdf Image에는 alt 개념이 없다(a11y 규칙은 웹 img 대상).
+          규칙은 `eslint.config.mjs`가 이 디렉터리에서 통째로 끈다 — 줄별 지시문은 규칙이
+          꺼진 뒤에 「쓸모없는 지시문」으로 다시 경고가 된다. */}
       <Image src={image} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
     </View>
   );

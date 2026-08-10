@@ -430,7 +430,7 @@ async function run(locale: string, key: string) {
   const failed: string[] = [];
   for (const leaf of leaves) {
     const value = translated[leaf.path] ?? "";
-    let problem = mismatch(value, leaf, sourceIsKo);
+    const problem = mismatch(value, leaf, sourceIsKo);
 
     // 남은 한글이 용어집 낱말뿐이면 표기로 바꿔 살린다(위 `applyGlossary` 주석 참고).
     if (problem && !sourceIsKo && typeof value === "string") {

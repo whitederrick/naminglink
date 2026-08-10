@@ -3,6 +3,18 @@
 import Link from "next/link";
 import { useState } from "react";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
+import { localePath } from "@/lib/locale-path";
+
+/**
+ * 법정 문서의 실제 주소. **모달이 여는 내용과 같은 문서를 가리켜야 한다** — 크롤러가
+ * 따라간 곳과 이용자가 읽은 곳이 다르면 그것대로 문제다.
+ */
+const POLICY_PATHS: Record<LegalDocument, string> = {
+  terms: "/terms",
+  privacy: "/privacy",
+  refund: "/refund-policy",
+  pricing: "/pricing",
+};
 
 type PolicyLabels = Record<LegalDocument, string>;
 
@@ -53,16 +65,36 @@ export function FooterPolicyLinks({
           {link.label}
         </Link>
       ))}
+      {/**
+        * **링크로 두되 모달로 연다** (2026-08-10).
+        *
+        * 예전에는 `<button>`이었다. 이용자에게는 문제가 없지만 **크롤러가 정책 URL을 따라갈
+        * 길이 없었다** — 애드센스 심사가 보는 것이 그 접근성이고, 사이트 구조상으로도 약관·
+        * 개인정보 페이지로 가는 내부 링크가 0개였다.
+        *
+        * 그렇다고 페이지 이동으로 바꿀 수는 없다. **「서비스 흐름 중 페이지 전환 금지, 참고
+        * 문서는 제자리에서」**가 이 저장소의 방침이다 — 약관 넷은 동의 직전에 읽는 것이라
+        * 화면을 떠나면 하던 일을 잃는다.
+        *
+        * 그래서 진짜 `href`를 두고 클릭만 가로챈다. 크롤러는 URL을 보고, 이용자는 모달을 본다.
+        * **새 탭·가운데 클릭·수식키 조합은 가로채지 않는다** — 그때는 새 창에서 페이지가
+        * 열리는 것이 이용자가 기대한 동작이다.
+        */}
       {documents.map((document) => (
-        <button
+        <Link
           key={document}
-          type="button"
-          onClick={() => setOpenDocument(document)}
+          href={localePath(POLICY_PATHS[document], locale)}
+          onClick={(event) => {
+            if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+            if (event.button !== 0) return;
+            event.preventDefault();
+            setOpenDocument(document);
+          }}
           className={linkClass}
           dir={textDirection}
         >
           {labels[document]}
-        </button>
+        </Link>
       ))}
       {/* 이용 안내. **요금안내와 로그인 사이**에 둔다 — 앞의 넷은 법정 문서 묶음이고,
           요금안내와 이용 안내는 둘 다 "정보"라 나란히 놓이며, 로그인은 성격이 다른 계정

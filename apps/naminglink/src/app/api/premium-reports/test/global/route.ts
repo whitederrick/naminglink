@@ -5,7 +5,6 @@ import { buildGlobalNamePremiumResult } from "@/lib/global-name-premium";
 import { buildHangulArtResult } from "@/lib/hangul-art-premium";
 import { translateHangulArtCandidates } from "@/lib/hangul-art-translate";
 import { buildNameArtPackResult } from "@/lib/name-art-pack";
-import { OUTPUT_LANGUAGE_NAMES } from "@/lib/openai";
 import { registerReportFonts } from "@/lib/pdf/dynamic-fonts";
 import { pdfOutputLanguage } from "@/lib/pdf/pdf-language";
 import { renderGlobalNameReportPdf } from "@/lib/pdf/global-name-report";

@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import { GuideShell, GuideStats } from "@/components/GuideShell";
+import { GuideShell } from "@/components/GuideShell";
 import { guideBackLink, guideOriginQuery } from "@/lib/guide-back";
-import { formatCount, getGuideCounts } from "@/lib/guide-data";
 import { DocBody } from "@/components/DocBody";
 import { getDocPage } from "@/lib/doc-content";
 import { docValues } from "@/lib/doc-values";
@@ -40,7 +39,10 @@ export async function generateMetadata({
 export default async function GuideIndexPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const locale = await getRequestLocale(params?.lang);
-  const [counts, values] = await Promise.all([getGuideCounts(), docValues()]);
+  // 예전에는 여기서 숫자판(`GuideStats`)을 그렸다. 허브 본문이 `doc-content` 로 옮겨가며
+  // 그 자리를 자료가 갖게 됐는데 **조회만 남아 있었다** — 쓰지도 않는 값을 DB에서 읽고
+  // 버리고 있었다.
+  const values = await docValues();
   // 한국어 화면이 아니면 korean 갈래를 뺀다 — 그 안내가 설명하는 서비스는 한국어뿐이라
   // 끝까지 읽어도 갈 곳이 없다. 온 곳을 알면 그 갈래를 앞에 놓는다(`lib/guide-index.ts`).
   const entries = guideEntriesFor(params?.from, locale);

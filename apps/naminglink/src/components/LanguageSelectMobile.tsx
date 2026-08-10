@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { Sparkles } from "lucide-react";
 
 import { localePath } from "@/lib/locale-path";
-import { localeLabels, supportedLocales, type Locale } from "@/lib/services";
+import { localeLabels, type Locale } from "@/lib/services";
 
 /**
  * 좁은 화면의 언어 선택기. **`<select>`를 쓴다.**

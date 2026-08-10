@@ -11,6 +11,7 @@ import {
   type StampRegion,
 } from "@/lib/goods-products";
 import { getRequestLocale, isLocale } from "@/lib/locale";
+import { getResultCopy } from "@/lib/i18n-result";
 import { getPurchaseDisplay } from "@/lib/purchase";
 import { buildPageMetadata } from "@/lib/seo";
 import { localePath } from "@/lib/locale-path";
@@ -19,19 +20,29 @@ type StampOrderPageProps = {
   searchParams?: Promise<{ lang?: string; name?: string }>;
 };
 
-// 도장 주문은 로케일별 사전이 따로 없어 제목·설명은 기존 문구를 그대로 쓴다(한·영 병기).
-// canonical과 hreflang은 다른 공개 페이지와 같은 규칙으로 붙인다.
+/**
+ * 제목·설명을 **로케일별로** 낸다 (2026-08-10).
+ *
+ * 예전에는 23개 언어판이 전부 `"이름 도장 신청 · Name Stamp"` 한 벌을 썼다. 본문은 번역되는데
+ * **검색 결과에 나오는 제목만 한·영 병기**로 나가는 상태였다 — 일본어로 검색한 사람에게
+ * 한국어 제목이 보인다.
+ *
+ * **여기서 새 문구를 짓지 않는다.** 결과 화면의 굿즈 문구(`goodsItemTitle`·
+ * `goodsItemDescription`)가 이미 23개 언어로 있고, 가리키는 것도 정확히 이 화면이다.
+ * 화면에 보이는 말과 검색 결과의 말이 어긋나면 그것대로 이탈로 이어진다.
+ */
 export async function generateMetadata({
   searchParams,
 }: StampOrderPageProps): Promise<Metadata> {
   const params = await searchParams;
+  const locale = await getRequestLocale(params?.lang);
+  const copy = getResultCopy(locale);
   return buildPageMetadata({
     path: "/stamp-order",
-    locale: await getRequestLocale(params?.lang),
+    locale,
     requested: isLocale(params?.lang) ? params.lang : null,
-    title: "이름 도장 신청 · Name Stamp",
-    description:
-      "분석 결과의 한글·한자 이름으로 이름 도장을 제작해 배송해 드립니다.",
+    title: copy.goodsItemTitle,
+    description: copy.goodsItemDescription,
   });
 }
 
