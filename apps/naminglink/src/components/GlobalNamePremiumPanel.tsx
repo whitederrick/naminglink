@@ -1002,6 +1002,20 @@ export function GlobalNamePremiumPanel({
   const busyLabel =
     stage === "generating" || stage === "confirming" ? copy.generating : copy.paying;
 
+  /**
+   * **못 파는 동안에는 상품 자리를 내지 않는다** (2026-08-11).
+   *
+   * 아래에 "결제 기능 준비 중입니다" 단추가 23개 언어로 준비돼 있었는데, 그것은 **결과 화면마다
+   * 살 수 없는 상품을 한 칸씩 보여 준다**는 뜻이다. 팔지 않는 상품의 서체 선택·고지·죽은 단추가
+   * 함께 그려지던 자리다.
+   *
+   * 진행 중이거나 이어받을 결제가 있으면 그대로 둔다 — 결제하고 돌아온 이용자가 받을 길을
+   * 잃으면 안 된다. 운영자 테스트 자리도 남긴다.
+   */
+  if (!purchasable && stage === "idle" && !checkout && !resumable && !testVisible) {
+    return null;
+  }
+
   return (
     <section className="rounded-lg border border-brand-teal/25 bg-surface p-5 shadow-sm">
       <div className="flex items-start gap-3">

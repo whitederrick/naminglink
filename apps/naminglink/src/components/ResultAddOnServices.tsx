@@ -34,7 +34,9 @@ function koreanServiceCopy(service: ServiceConfig) {
       goodsExamples: "이름 도장",
       goodsBody:
         "선택한 한글·한자 이름을 도장에 새겨 제작을 신청할 수 있습니다.",
-      button: "굿즈 신청 준비 중",
+      // 이 자리는 **살 수 있을 때만** 그려진다(아래 `stampAvailable`). 그래서 "준비 중"이라는
+      // 말이 여기 있을 이유가 없다 — 옛 값은 팔지 않는 동안에도 카드를 그리던 시절의 잔재다.
+      button: "이름 도장 신청",
     };
   }
 
@@ -175,6 +177,18 @@ export function ResultAddOnServices({
 
   if (!showGoods) return null;
 
+  /**
+   * **지금 팔 수 없으면 자리째 내지 않는다** (2026-08-11).
+   *
+   * 예전에는 여기까지 그리고 맨 아래 단추만 "판매 준비 중"으로 잠갔다. 그러면 결과 화면마다
+   * **살 수 없는 상품 소개 + 죽은 단추**가 한 칸씩 붙는다 — 사이트 전체가 미완성으로 보이는
+   * 자리이고, 애드센스가 「가치 있는 인벤토리」로 재는 항목에도 그대로 걸린다.
+   *
+   * `null`은 아직 조회 중이라는 뜻이다. 그때도 그리지 않는다 — 잠깐 떴다 사라지는 상품 카드는
+   * 있는 것보다 나쁘다. 판매가 열리면(`product_settings.enabled` + 결제 키) 저절로 돌아온다.
+   */
+  if (!stampAvailable) return null;
+
   return (
     <section className="rounded-lg border border-line bg-surface p-5 shadow-sm">
       <p className="text-sm font-semibold text-brand-teal">{copy.eyebrow}</p>
@@ -287,6 +301,9 @@ export function ResultAddOnServices({
               </div>
             </div>
           ) : null}
+          {/* 위에서 `stampAvailable`이 아니면 이 카드를 그리지 않으므로, 여기 오는 것은 살 수
+              있는 경우뿐이다. 조건을 남겨 두는 것은 조회가 끝나기 전 값(`null`)과 렌더 순서가
+              바뀌어도 죽은 링크가 나가지 않게 하기 위한 것이다. */}
           {stampAvailable ? (
             <Link
               href={(() => {
@@ -305,20 +322,9 @@ export function ResultAddOnServices({
               })()}
               className="mt-5 inline-flex h-10 items-center justify-center rounded-lg bg-foreground px-3 text-sm font-semibold text-background transition hover:bg-brand-teal"
             >
-              {(foreign ? copy.button : "이름 도장 신청") +
-                (stampPriceRange ? ` · ${stampPriceRange}` : "")}
+              {copy.button + (stampPriceRange ? ` · ${stampPriceRange}` : "")}
             </Link>
-          ) : (
-            // 아직 못 파는 동안에는 잠근 버튼을 둔다. 링크를 살려 두면 주문 화면까지 갔다가
-            // "판매 준비 중"을 만나게 된다. 금액은 적지 않는다 — 팔지 않는 값이다.
-            <button
-              type="button"
-              disabled
-              className="mt-5 inline-flex h-10 cursor-not-allowed items-center justify-center rounded-lg border border-line bg-surface-strong px-3 text-sm font-semibold text-muted"
-            >
-              {foreign ? "Preparing" : "판매 준비 중"}
-            </button>
-          )}
+          ) : null}
         </article>
       </div>
     </section>

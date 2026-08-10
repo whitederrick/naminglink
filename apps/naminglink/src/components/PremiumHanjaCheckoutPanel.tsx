@@ -525,6 +525,21 @@ export function PremiumHanjaCheckoutPanel({
     ? (checkout.includesPdf ?? HANJA_PRODUCTS[checkout.productCode]?.includesPdf ?? false)
     : testResult && selectedProduct.includesPdf;
 
+  /**
+   * **하나도 못 파는 동안에는 결제 패널을 내지 않는다** (2026-08-11).
+   *
+   * 예전에는 상품 셋을 다 그리고 금액 자리에만 "판매 준비 중"을 적었다. 결과 화면마다 **살 수
+   * 없는 상품표 + 죽은 결제 단추**가 붙는 셈이라, 사이트가 미완성으로 보이는 가장 큰 자리였다.
+   * 살 수 있게 되면(`product_settings.enabled` + 결제 키) 저절로 돌아온다.
+   *
+   * **이미 진행 중이거나 끝난 결제는 가리지 않는다.** 결제하고 돌아온 이용자에게 화면이 통째로
+   * 사라지면 산 것을 받을 길이 없어진다. 운영자 테스트 경로(`adminToken`)도 남긴다.
+   */
+  const nothingOnSale = !paymentConfigured || Object.keys(offers).length === 0;
+  const idleWithoutPurchase =
+    stage === "idle" && !checkout && !recoverable && !testResult && !adminToken;
+  if (nothingOnSale && idleWithoutPurchase) return null;
+
   return (
     <section id="premium-hanja-analysis" className="rounded-lg border border-brand-teal/30 bg-surface p-5 shadow-sm">
       <div className="flex items-start gap-3">
