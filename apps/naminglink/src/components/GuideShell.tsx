@@ -86,10 +86,23 @@ export function GuideSection({
   title: string;
   children: ReactNode;
 }) {
+  /**
+   * **제목이 비면 `<h2>`를 그리지 않는다** (2026-08-11).
+   *
+   * 자료형에서 절 제목은 선택값이라(`DocSection.title?`) 숫자판만 있는 절은 제목이 없다.
+   * 그런데 `DocBody`가 그런 절을 `title ?? ""`로 넘겨 **빈 `<h2>`가 23개 언어의 안내 허브에
+   * 그대로 나가고 있었다**(`/en/guide` 실측). 빈 제목 태그는 화면에서는 안 보이지만 문서
+   * 구조로는 「제목이 있는데 아무 말도 안 하는 절」이라, 접근성 검사와 크롤러가 함께 짚는다.
+   *
+   * **자료가 아니라 여기서 고친다.** `doc-content`의 `title: ""`를 지우면 23개 로케일 파일을
+   * 손대고 번역기를 다시 돌려야 하는데, 그리는 쪽이 판단하면 한 줄로 끝난다.
+   */
   return (
     <section className="mt-10 first:mt-0">
-      <h2 className="break-keep text-xl font-semibold sm:text-2xl">{title}</h2>
-      <div className="mt-3 grid gap-4 text-[15px] leading-8 text-foreground/88">
+      {title ? (
+        <h2 className="break-keep text-xl font-semibold sm:text-2xl">{title}</h2>
+      ) : null}
+      <div className={`grid gap-4 text-[15px] leading-8 text-foreground/88 ${title ? "mt-3" : ""}`}>
         {children}
       </div>
     </section>

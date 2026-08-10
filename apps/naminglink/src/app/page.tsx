@@ -3,17 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { ArrowRight, AudioLines, Globe2, Signature, Sparkles } from "lucide-react";
+import { romanizeCompanyValue } from "@naminglink/core/company";
 import { BrandMark } from "@/components/BrandMark";
+import { DocBody } from "@/components/DocBody";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
+import { getDocPage } from "@/lib/doc-content";
+import { docValues } from "@/lib/doc-values";
+import { docKeyFor, guideEntriesFor } from "@/lib/guide-index";
 import {
   getLandingCopy,
   getTextDirection,
   hangulPronunciationCopy,
 } from "@/lib/i18n";
 import { getRequestLocale, isLocale } from "@/lib/locale";
-import { absoluteUrl, buildAlternates, localeUrl, ogImageFor } from "@/lib/seo";
+import { absoluteUrl, buildAlternates, localeUrl, ogImageFor, siteUrl } from "@/lib/seo";
 import { serviceList } from "@/lib/services";
+import { getPublishedFooterContent } from "@/lib/site-content-server";
 import { localePath } from "@/lib/locale-path";
 
 
@@ -157,6 +163,75 @@ export default async function Home({ searchParams }: HomeProps) {
       : service.slug === "global-to-korean",
   );
 
+  /**
+   * **첫 화면 아래에 기존 문서를 꺼내 놓는다** (2026-08-11).
+   *
+   * 이 화면은 히어로 한 장(204단어)이었고, 안내 문서로 가는 링크가 **푸터에도 없었다.** 문서는
+   * 열여덟 편이 23개 언어로 있는데 홈에서 그 존재를 알 길이 없으니, 크롤러에게도 이용자에게도
+   * 「내용 없는 사이트」로 보인다 — 2026-08-10 거절 사유와 맞닿아 있다.
+   *
+   * **새 주소를 만들지 않는다.** 지금 있는 문서를 홈 본문에서 보이게 할 뿐이다(색인 면적을
+   * 줄여 놓고 곧바로 문서를 늘리면 「정리했다」는 신호를 스스로 지운다).
+   *
+   * **문구를 여기서 짓지 않는다.** 제목·요약·숫자판은 전부 `doc-content`와 `docValues`에서
+   * 온다 — 이미 23개 언어로 있고, 문서를 고치면 홈도 함께 바뀐다. 홈에만 있는 문장을 새로
+   * 적으면 그 문장만 한국어로 남거나 문서와 어긋나는 날이 온다.
+   */
+  const guideDoc = getDocPage(locale, "guide");
+  const aboutDoc = getDocPage(locale, "about");
+  const values = await docValues();
+  // 숫자판은 안내 허브 자료가 이미 갖고 있다. **자리를 번호로 찾지 않는다** — 절 순서가 바뀌면
+  // 조용히 다른 절이 올라온다. 자리표시자를 못 채우면 `DocBody`가 알아서 그 판을 뺀다.
+  const statsSection = guideDoc.sections.find((section) =>
+    section.blocks.some((block) => "stats" in block),
+  );
+  // 그 로케일에서 실제로 열리는 문서만 고른다(한국어 화면이 아니면 korean 갈래는 빠진다).
+  const guideCards = guideEntriesFor(undefined, locale)
+    .slice(0, 4)
+    .map((entry) => ({
+      slug: entry.slug,
+      doc: getDocPage(locale, docKeyFor(entry)),
+    }));
+
+  /**
+   * 구조화 데이터. **화면에 없는 정보를 여기서 만들지 않는다** — 값은 푸터가 그리는 것과 같은
+   * 자료(`site_contents`의 `footer.global`, 없으면 core의 `COMPANY_FACTS`)에서 온다.
+   *
+   * 비한국어 화면에서는 푸터와 **같은 규칙**으로 로마자 표기를 쓴다. 사람 이름·상호를 언어마다
+   * 새로 음역하면 같은 사업자가 언어마다 다른 이름이 된다(2026-08-07에 약관에서 겪었다).
+   *
+   * `FAQPage`·`Article`·`BreadcrumbList`는 넣지 않는다 — 화면에 작성 주체·갱신일·breadcrumb를
+   * 그리는 틀이 아직 없고, 화면에 없는 것을 선언하는 것이 구조화 데이터에서 가장 흔한 위반이다.
+   */
+  const footer = await getPublishedFooterContent();
+  const asShown = (value: string) =>
+    locale === "ko" ? value : romanizeCompanyValue(value);
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: asShown(footer.companyName),
+      alternateName: footer.serviceName,
+      url: siteUrl,
+      logo: absoluteUrl("/images/logo-current.png"),
+      email: footer.email,
+      telephone: footer.customerCenter,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: asShown(footer.address),
+        addressCountry: "KR",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: footer.serviceName,
+      url: siteUrl,
+      inLanguage: locale,
+      publisher: { "@type": "Organization", name: asShown(footer.companyName) },
+    },
+  ];
+
   return (
     <main className="min-h-screen bg-background" dir="ltr">
       <section className="relative flex min-h-[100svh] flex-col overflow-hidden lg:h-[100svh] lg:min-h-0">
@@ -296,17 +371,88 @@ export default async function Home({ searchParams }: HomeProps) {
           </section>
         </div>
 
-        {/* 아래 여백은 인연링크 랜딩(`apps/inyeonlink/src/app/page.tsx`)과 **같은 값이어야 한다.**
-            두 서비스를 오가면 푸터가 한 뼘씩 들썩이는 것이 그대로 보인다. 예전에는 이쪽만
-            `!pb-4`였는데, 그때는 정책 링크가 5개(로그인 포함)라 줄이 더 접혔기 때문이다.
-            지금은 양쪽 다 4개(약관·방침·환불·요금)라 그 전제가 없어져 값을 맞춘다. */}
-        <SiteFooter
-          tone="light"
-          className="relative bottom-1 z-10 shrink-0 bg-foreground/50 !pb-0 !pt-2 backdrop-blur"
-          locale={locale}
-          policyMode="modal"
-        />
       </section>
+
+      {/* **첫 화면은 그대로 두고, 스크롤 아래에 본문을 둔다.** 히어로는 여전히 100svh이고
+          구성도 손대지 않았다. 예전에는 푸터가 히어로 **안에** 있어 이 아래가 아예 없었다 —
+          그래서 푸터를 문서 끝으로 옮겼다(안내·약관 화면과 같은 자리다). */}
+      <section className="mx-auto w-full max-w-7xl px-5 py-14 sm:px-8 lg:px-10">
+        <div className="max-w-3xl">
+          <p className="text-sm font-semibold tracking-wide text-brand-teal">
+            {guideDoc.eyebrow}
+          </p>
+          <h2 className={`mt-2 ${wordBreakClass} text-2xl font-semibold sm:text-3xl`} dir={textDirection}>
+            {guideDoc.title}
+          </h2>
+          <p className={`mt-3 ${wordBreakClass} text-[15px] leading-7 text-muted`} dir={textDirection}>
+            {guideDoc.summary}
+          </p>
+        </div>
+
+        {/* 자료 숫자판. 값은 DB에서 오고, 못 읽으면 `DocBody`가 판을 통째로 뺀다. */}
+        {statsSection ? (
+          <div className="mt-6" dir={textDirection}>
+            <DocBody sections={[statsSection]} locale={locale} values={values} />
+          </div>
+        ) : null}
+
+        <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          {guideCards.map((card) => (
+            <Link
+              key={card.slug}
+              href={localePath(`/guide/${card.slug}`, locale)}
+              className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
+              dir={textDirection}
+            >
+              <p className="text-xs font-semibold tracking-wide text-brand-teal">
+                {card.doc.eyebrow}
+              </p>
+              {/* **`truncate`를 쓰지 않는다.** 히어로 카드가 한 줄 고정이라 제목이 긴 언어에서
+                  잘리는 자리인데, 여기는 폭이 넉넉하므로 줄을 접어 다 보여 준다. */}
+              <p className={`flex items-center gap-2 ${wordBreakClass} text-base font-semibold`}>
+                {card.doc.title}
+                <ArrowRight
+                  aria-hidden="true"
+                  size={16}
+                  className="shrink-0 transition group-hover:translate-x-0.5"
+                />
+              </p>
+              <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
+                {card.doc.summary}
+              </p>
+            </Link>
+          ))}
+        </div>
+
+        <Link
+          href={localePath("/about", locale)}
+          className="group mt-3 grid gap-1 rounded-lg border border-brand-teal/25 bg-surface-strong px-5 py-4 transition hover:border-foreground"
+          dir={textDirection}
+        >
+          <p className="text-xs font-semibold tracking-wide text-brand-teal">
+            {aboutDoc.eyebrow}
+          </p>
+          <p className={`flex items-center gap-2 ${wordBreakClass} text-base font-semibold`}>
+            {aboutDoc.title}
+            <ArrowRight
+              aria-hidden="true"
+              size={16}
+              className="shrink-0 transition group-hover:translate-x-0.5"
+            />
+          </p>
+          <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
+            {aboutDoc.summary}
+          </p>
+        </Link>
+      </section>
+
+      <SiteFooter locale={locale} policyMode="modal" />
+
+      {/* 구조화 데이터는 문서 끝에 둔다. 값은 위에서 푸터와 같은 자료로 만들었다. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
     </main>
   );
 }
