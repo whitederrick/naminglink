@@ -49,6 +49,23 @@ if (!env.SUPABASE_DB_URL) {
 process.env.RESULT_SEAL_SECRET =
   env.RESULT_SEAL_SECRET || "verify-saved-result-reseal-key-0123456789";
 
+/**
+ * **운영 모드를 기준으로 검사한다** (2026-08-11).
+ *
+ * 심사 모드(`NEXT_PUBLIC_AD_MODE`가 `live`가 아님)에서는 `sealCandidates`가 일부러 봉인하지
+ * 않는다 — 관문이 없어 아무도 열 수 없는 잠금을 만들지 않기 위해서다. 그 상태로 이 검사를
+ * 돌리면 **볼 봉인이 없어 누출 검사가 0건**이 되고, 이 파일은 그것을 정직하게 실패로 센다
+ * (「검사 0건은 통과가 아니다」).
+ *
+ * 그런데 그 실패는 **뒷문이 생겼다**는 뜻이 아니라 **다른 모드를 보고 있다**는 뜻이다. 출력만
+ * 봐서는 둘이 구분되지 않으므로 여기서 모드를 못 박는다. 재봉인이 실제로 먹는지는 광고가
+ * 도는 상태(=봉인이 도는 상태)에서 재는 것이 맞다.
+ *
+ * 값은 봉인 모듈이 읽히기 **전에** 정해져야 한다(`lib/ads.ts`가 로드 시점에 평가한다).
+ * 같은 이유로 `verify-candidate-seal.ts`도 모드를 고정한다.
+ */
+process.env.NEXT_PUBLIC_AD_MODE = "live";
+
 let failures = 0;
 /** 실제로 돌아간 누출 검사의 수. 0이면 "이상 없음"은 아무 뜻이 없다. */
 let totalLeakChecks = 0;
