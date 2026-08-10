@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { headers } from "next/headers";
 import { siteUrl } from "@/lib/seo";
 
 /**
@@ -26,8 +27,28 @@ const isDeploymentHost = (() => {
   }
 })();
 
-export default function robots(): MetadataRoute.Robots {
-  if (isPreviewDeployment || isDeploymentHost) {
+
+/**
+ * **설정된 주소만 보면 절반만 막힌다** (2026-08-10에 드러남).
+ *
+ * 위 `isDeploymentHost`는 `NEXT_PUBLIC_SITE_URL`이 무엇인가만 본다. 그런데 실 도메인을 넣는
+ * 순간 그 값은 거짓이 되고, **배포 주소로 들어온 요청까지 열어 준다** — 운영 도메인과 글자
+ * 하나 다르지 않은 사이트 복사본이 크롤링 가능한 채로 하나 더 생긴다. 실측에서 네 앱 중 셋이
+ * 그 상태였다(`<app>.vercel.app`이 `Allow: /`를 냈다).
+ *
+ * 주석은 「`*.vercel.app`이면 전면 차단」이라고 적혀 있었는데 **코드는 그렇게 하고 있지
+ * 않았다.** 막아야 하는 것은 「어디로 들어왔는가」이므로 요청 호스트를 함께 본다.
+ *
+ * 검사: `node scripts/verify-robots-open.mjs` — 운영 도메인이 열려 있는지와 배포 주소가
+ * 막혀 있는지를 **양쪽 다** 센다.
+ */
+async function servedFromDeploymentHost() {
+  const host = (await headers()).get("host") ?? "";
+  return host.endsWith(".vercel.app");
+}
+
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  if (isPreviewDeployment || isDeploymentHost || (await servedFromDeploymentHost())) {
     return { rules: [{ userAgent: "*", disallow: "/" }] };
   }
 

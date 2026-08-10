@@ -34,6 +34,18 @@ export function ServiceLanguageSwitcher({
   /** 딸린 쿼리. 발음 표기 흐름의 `mode=transliteration`처럼 흘리면 다른 서비스로 떨어진다. */
   query?: string;
 }) {
+  /**
+   * 고를 수 있는 언어. **좁은 화면과 넓은 화면이 이 한 벌을 함께 쓴다.**
+   *
+   * **한국어는 뺀다.** 이 선택기는 글로벌 전용 서비스(`GLOBAL_TO_KOREAN`)에서만 그려지는데
+   * (`ServiceShell` 참고) 그 화면에는 한국어판이 없다 — 골라도 영어로 301된다
+   * (`lib/route-locales.ts`). 되돌아올 선택지를 목록에 두지 않는다.
+   *
+   * 처음에는 드롭다운에서만 걸렀는데, 같은 컴포넌트의 `<select>`가 `supportedLocales`를 따로
+   * 돌고 있어 **휴대폰에서만 한국어가 남았다.** 목록이 두 벌이면 한쪽만 고쳐진다.
+   */
+  const options = supportedLocales.filter((item) => item !== "ko");
+
   return (
     <>
       {/* 좁은 화면: `<select>`. 목록을 우리가 그리지 않고 OS에 맡긴다 — iOS는 휠 피커,
@@ -44,6 +56,7 @@ export function ServiceLanguageSwitcher({
         label={label}
         path={path}
         query={query}
+        options={options}
         className="sm:hidden"
       />
 
@@ -72,12 +85,7 @@ export function ServiceLanguageSwitcher({
           언어가 23개라 좁은 화면에서는 길어질 수 있어 높이를 제한하고 스크롤을 준다. */}
       <div className="absolute left-0 right-0 top-full z-50 mt-2 max-h-[60vh] overflow-y-auto rounded-lg border border-line bg-surface p-2 shadow-xl">
         <div className="flex flex-wrap gap-1">
-          {/* **한국어는 뺀다.** 이 선택기는 글로벌 전용 서비스(`GLOBAL_TO_KOREAN`)에서만
-              그려지는데(`ServiceShell` 참고), 그 화면에는 한국어판이 없다 — 골라도 영어로
-              301된다(`lib/route-locales.ts`). 되돌아올 선택지를 목록에 두지 않는다. */}
-          {supportedLocales
-            .filter((item) => item !== "ko")
-            .map((item) => (
+          {options.map((item) => (
             <Link
               key={item}
               href={localePath(path, item, query)}

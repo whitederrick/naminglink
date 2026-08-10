@@ -82,6 +82,8 @@ const targets = given.length
 const problems = [];
 let checked = 0;
 let unknown = 0;
+let checkedDeploy = 0;
+let unknownDeploy = 0;
 
 for (const { app, url } of targets) {
   if (!url) {
@@ -118,6 +120,36 @@ for (const { app, url } of targets) {
     problems.push(`${app} — robots에 Sitemap 줄이 없다.`);
   }
 
+  /**
+   * **반대쪽도 본다 — 배포 주소는 막혀 있어야 한다.**
+   *
+   * `robots.ts`의 방어가 오래 **설정된 `NEXT_PUBLIC_SITE_URL`만** 보고 있었다. 실 도메인을
+   * 넣는 순간 그 판정이 거짓이 되어, `<app>.vercel.app`으로 들어온 요청까지 `Allow: /`를
+   * 받았다 — 크롤링 가능한 사이트 복사본이 하나 더 있는 상태다. 2026-08-10 실측에서 네 앱 중
+   * **셋이 그랬다.** 열려 있는 쪽만 세면 이 구멍은 영원히 안 보인다.
+   */
+  const deployUrl = `https://${app}.vercel.app`;
+  try {
+    const res = await fetch(`${deployUrl}/robots.txt`, { redirect: "follow" });
+    if (res.status === 404) {
+      console.log(`      · ${deployUrl} — 없다(확인 못 함)`);
+      unknownDeploy += 1;
+    } else if (res.ok) {
+      const body = await res.text();
+      if (!isBlocked(body)) {
+        problems.push(
+          `${app} — 배포 주소 ${deployUrl}가 크롤링에 열려 있다. 운영 도메인과 같은 내용이 두 벌로 색인된다.`,
+        );
+      } else {
+        checkedDeploy += 1;
+        console.log(`      · ${deployUrl} — 차단됨`);
+      }
+    }
+  } catch {
+    console.log(`      · ${deployUrl} — 닿지 못했다(확인 못 함)`);
+    unknownDeploy += 1;
+  }
+
   console.log(
     `  ${blocked || deployHost ? "✗" : "✓"} ${String(app).padEnd(11)} ${url}  ${blocked ? "전면 차단" : "열림"}${sitemap ? "" : " · sitemap 없음"}`,
   );
@@ -135,6 +167,7 @@ if (problems.length) {
 }
 
 console.log(
-  `\nALL PASS — 확인한 ${checked}곳이 열려 있다.` +
-    (unknown ? ` (주소를 몰라 확인 못 한 곳 ${unknown}개)` : ""),
+  `\nALL PASS — 운영 도메인 ${checked}곳이 열려 있고, 배포 주소 ${checkedDeploy}곳이 막혀 있다.` +
+    (unknown ? ` (주소를 몰라 확인 못 한 운영 도메인 ${unknown}개)` : "") +
+    (unknownDeploy ? ` (없거나 닿지 못한 배포 주소 ${unknownDeploy}개)` : ""),
 );

@@ -46,6 +46,9 @@ console.log("경로별 언어 규칙 — naminglink 전용인가, 코드와 맞�
 
 // ── ① 형제 앱에 번지지 않았는가 ────────────────────────────────────────────
 for (const app of APP_KEYS.filter((a) => a !== OWNER)) {
+  // 이 앱을 보기 전의 개수. **누적 개수로 O/X를 찍으면** 앞선 앱이 걸린 순간부터 뒤의 멀쩡한
+  // 앱까지 전부 X로 나온다 — 판정은 맞는데 화면이 거짓말을 한다.
+  const before = problems.length;
   const routeFile = path.join(ROOT, "apps", app, "src", "lib", "route-locales.ts");
   if (existsSource(routeFile)) {
     problems.push(
@@ -58,7 +61,9 @@ for (const app of APP_KEYS.filter((a) => a !== OWNER)) {
       `${app}의 guide-index.ts에 track: "korean"이 있다 — 이 앱의 안내는 전부 23개 언어다.`,
     );
   }
-  console.log(`  ${app.padEnd(11)} 한국어 전용 구조 없음 ${problems.length === 0 ? "O" : "X"}`);
+  console.log(
+    `  ${app.padEnd(11)} 한국어 전용 구조 없음 ${problems.length === before ? "O" : "X"}`,
+  );
 }
 
 function existsSource(file) {

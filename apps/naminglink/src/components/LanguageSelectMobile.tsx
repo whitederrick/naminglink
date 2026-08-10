@@ -17,20 +17,29 @@ import { localeLabels, supportedLocales, type Locale } from "@/lib/services";
  * 넓은 화면에서는 이것을 감추고 `<details>` 드롭다운을 쓴다. 마우스로는 23개를 한눈에 보고
  * 바로 누르는 편이 빠르고, 그 폭에서는 상자를 띄워도 깨질 일이 없기 때문이다.
  *
- * **크롤러는 이 요소를 보지 않아도 된다.** 같은 DOM에 `<details>`의 `<a href>` 23개가 그대로
- * 있고(좁은 화면에서 CSS로 감출 뿐), `<head>`의 hreflang 24개가 언어판을 따로 알린다.
+ * **크롤러는 이 요소를 보지 않아도 된다.** 같은 DOM에 `<details>`의 `<a href>`가 그대로 있고
+ * (좁은 화면에서 CSS로 감출 뿐), `<head>`의 hreflang이 언어판을 따로 알린다. 개수는 화면마다
+ * 다르다 — 글로벌 전용 화면에는 한국어판이 없어 하나 적다(`lib/route-locales.ts`).
+ *
+ * **고를 수 있는 언어는 부모가 정해 넘긴다.** 여기서 `supportedLocales`를 직접 돌면 넓은
+ * 화면과 좁은 화면이 서로 다른 목록을 갖게 된다 — 2026-08-10에 실제로 그랬다. 드롭다운에서는
+ * 한국어를 뺐는데 이 `<select>`는 그대로 두어, **휴대폰에서만** 눌러도 영어로 되돌아오는
+ * 선택지가 보였다. 목록은 한 곳에서 만든다.
  */
 export function LanguageSelectMobile({
   locale,
   label,
   path,
   query,
+  options,
   className = "",
 }: {
   locale: Locale;
   label: string;
   path: string;
   query?: string;
+  /** 고를 수 있는 언어. 부모가 화면에 맞게 정해 넘긴다. */
+  options: readonly Locale[];
   className?: string;
 }) {
   const router = useRouter();
@@ -54,7 +63,7 @@ export function LanguageSelectMobile({
         }}
         className="min-w-0 bg-transparent text-sm font-medium text-foreground outline-none"
       >
-        {supportedLocales.map((item) => (
+        {options.map((item) => (
           <option key={item} value={item}>
             {localeLabels[item]}
           </option>
