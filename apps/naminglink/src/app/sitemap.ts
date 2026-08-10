@@ -5,7 +5,7 @@ import {
   indexablePaths,
   localeUrl,
 } from "@/lib/seo";
-import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
+import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 import { supportedLocales } from "@/lib/services";
 
 /**
@@ -46,11 +46,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
       // 로케일 없는 주소(x-default). 헤더를 보고 언어를 정하는 자리다.
       { url: absoluteUrl(path), priority, alternates: { languages } },
-      ...supportedLocales.map((locale) => ({
-        url: localeUrl(path, locale),
-        priority,
-        alternates: { languages },
-      })),
+      // 글로벌 전용 화면에는 한국어 주소를 싣지 않는다 — 301로 영어로 보내지는 주소다.
+      ...supportedLocales
+        .filter((locale) => !(locale === "ko" && isGlobalOnlyPath(path)))
+        .map((locale) => ({
+          url: localeUrl(path, locale),
+          priority,
+          alternates: { languages },
+        })),
     ];
   });
 }

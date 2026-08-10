@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, HeartHandshake, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, HeartHandshake, Languages, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
 import { APP_KEYS, appLabel, type AppKey } from "@naminglink/core/apps";
 import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
@@ -75,6 +75,9 @@ const navGroups = [
       ["배경 관리", `${basePath}/backdrops`, FilePenLine],
       ["상품 설정", `${basePath}/products`, Boxes],
       ["정책·푸터", `${basePath}/content`, FilePenLine],
+      // 글로벌 전용 화면에는 공개 한국어판이 없다(`lib/route-locales.ts`). 뜻의 기준이 되는
+      // 한국어 원문을 운영자가 읽을 곳은 여기뿐이다.
+      ["글로벌 화면 한글 원본", `${basePath}/global-korean-source`, Languages],
     ],
   },
   // **형제 서비스는 그룹을 따로 둔다.** 위 메뉴들은 전부 naminglink 것만 보여 준다 — 한 표에

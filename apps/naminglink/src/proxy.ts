@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
 import { isLocaleCode } from "@/lib/locale-codes";
+import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 
 /**
  * 경로 앞의 로케일(`/ko/hanja-meaning`)을 화면이 아는 형태(`/hanja-meaning?lang=ko`)로 되돌린다.
@@ -13,7 +13,12 @@ import { isLocaleCode } from "@/lib/locale-codes";
  * **두 형태를 모두 받는다.** 예전 주소(`/hanja-meaning?lang=ko`)도 그대로 동작한다 — 이미
  * 공유된 링크와 색인된 주소를 끊지 않기 위해서다. 다만 canonical과 sitemap은 경로 쪽을
  * 가리키므로(`lib/seo.ts`), 검색엔진에는 경로 주소 하나로 모인다.
+ *
+ * **경로마다 쓸 수 있는 언어가 다르다**(2026-08-10). 한국어 전용 화면은 로케일 주소를 갖지
+ * 않고, 글로벌 전용 화면은 한국어를 갖지 않는다 — 어느 화면이 어느 쪽인지와 그 이유는
+ * `lib/route-locales.ts`에 있다.
  */
+
 /**
  * 루트 레이아웃에 로케일을 알리는 헤더. 레이아웃은 searchParams를 못 받아 `?lang=`을 볼 수 없다.
  */
@@ -24,6 +29,19 @@ function localeHeaders(request: NextRequest, locale: string) {
 }
 
 const koreanLocaleHeaders = (request: NextRequest) => localeHeaders(request, "ko");
+
+/**
+ * 「이 화면에는 한국어를 주지 말라」를 화면 코드에 알린다.
+ *
+ * 로케일 판정은 접속 국가·브라우저 설정까지 보므로(`lib/locale.ts`) 미들웨어에서 `lang`만
+ * 지워서는 막히지 않는다 — 한국에서 접속하면 그대로 ko가 나온다. 판정하는 쪽에 조건을 넘긴다.
+ */
+function noKoreanHeaders(request: NextRequest) {
+  const headers = new Headers(request.headers);
+  headers.delete("x-locale");
+  headers.set("x-block-korean", "1");
+  return headers;
+}
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -43,6 +61,15 @@ export function proxy(request: NextRequest) {
       target.searchParams.set("lang", "ko");
       return NextResponse.rewrite(target, { request: { headers: koreanLocaleHeaders(request) } });
     }
+
+    // 글로벌 전용 화면. `?lang=ko`로도 열 수 없다 — 여기서 지우지 않으면 주소 하나로 한국어판을
+    // 강제로 볼 수 있게 된다. 접속 국가가 KR이어서 ko로 떨어지는 경로는 `lib/locale.ts`가 막는다.
+    if (isGlobalOnlyPath(pathname)) {
+      const target = request.nextUrl.clone();
+      if (target.searchParams.get("lang") === "ko") target.searchParams.delete("lang");
+      return NextResponse.rewrite(target, { request: { headers: noKoreanHeaders(request) } });
+    }
+
     return NextResponse.next();
   }
 
@@ -55,13 +82,22 @@ export function proxy(request: NextRequest) {
    *
    * canonical만 모아도 색인은 한 벌이 되지만, 주소 자체가 살아 있으면 링크·공유·크롤러가 계속
    * 24벌을 찾아온다. 실제로 그 상태에서 서치 콘솔이 중복으로 잡았고 애드센스가 「가치가 별로
-   * 없는 콘텐츠」로 판정했다. 왜 이 화면들이 한 벌인지는 `lib/korean-only-routes.ts`에 있다.
+   * 없는 콘텐츠」로 판정했다. 왜 이 화면들이 한 벌인지는 `lib/route-locales.ts`에 있다.
    *
    * **404가 아니라 301이다.** 이미 색인되고 공유된 주소를 끊으면 흐름이 거기서 막힌다.
    */
   if (isKoreanOnlyPath(target.pathname)) {
     target.searchParams.delete("lang");
     return NextResponse.redirect(target, 301);
+  }
+
+  // 글로벌 전용 화면에는 **한국어 주소를 두지 않는다.** 지우는 것이 아니라 영어로 보낸다 —
+  // 404로 끊으면 그 링크를 밟은 사람이 거기서 막힌다.
+  if (first === "ko" && isGlobalOnlyPath(target.pathname)) {
+    const english = request.nextUrl.clone();
+    english.pathname = `/en${target.pathname}`;
+    english.searchParams.delete("lang");
+    return NextResponse.redirect(english, 301);
   }
   // 경로의 로케일이 기준이다. 주소에 `?lang=`이 함께 있어도 경로 쪽을 따른다 —
   // 둘이 어긋난 주소로 서로 다른 화면이 나오면 안 된다.

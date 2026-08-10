@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { guideEntries } from "@/lib/guide-index";
 import { getServiceCopy } from "@/lib/i18n";
-import { isKoreanOnlyPath } from "@/lib/korean-only-routes";
+import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
 import { supportedLocales, type Locale } from "@/lib/services";
 import { localePath } from "@/lib/locale-path";
 
@@ -130,6 +130,9 @@ export function localeUrl(path: string, locale: Locale) {
 export function hreflangMap(path: string): Record<string, string> {
   const map: Record<string, string> = {};
   for (const locale of supportedLocales) {
+    // 글로벌 전용 화면에는 한국어판이 없다(`lib/route-locales.ts`). 그 주소는 301로 영어로
+    // 보내지므로, hreflang에 실으면 **리다이렉트되는 주소를 언어판이라고 내미는 꼴**이 된다.
+    if (locale === "ko" && isGlobalOnlyPath(path)) continue;
     map[locale] = localeUrl(path, locale);
   }
   // 어느 언어에도 해당하지 않는 방문자가 갈 곳. 로케일 없는 주소가 헤더를 보고 언어를 고른다.

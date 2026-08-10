@@ -13,10 +13,24 @@ export const ID_DOCS = {
         "title": "Apa yang kami lakukan",
         "blocks": [
           {
-            "p": "Naming-Link membantu Anda **memilih dan memahami nama Korea** — hanja di balik nama seorang anak, nama Korea untuk digunakan di luar negeri, ejaan Hangul dari nama Anda sendiri, dan kenang-kenangan seperti segel atau laporan cetak."
+            "p": "Naming-Link membantu Anda **memilih dan memahami nama Korea** — hanja di balik nama anak, nama Korea untuk digunakan di luar negeri, ejaan Hangul dari nama Anda sendiri, dan kenang-kenangan seperti stempel atau laporan cetak."
           },
           {
-            "p": "Melihat hasil Anda adalah **gratis dan tidak memerlukan akun.** Item berbayar tidak pernah menjual kembali apa yang sudah ditampilkan di layar: mereka membuka lebih banyak kandidat, menambahkan analisis tertulis, atau mengubah hasil menjadi sesuatu yang bisa Anda simpan."
+            "p": "Melihat hasil Anda adalah **gratis dan tidak memerlukan akun.** Item berbayar tidak pernah menjual kembali apa yang sudah ditampilkan di layar: mereka membuka lebih banyak kandidat, menambahkan analisis tertulis, atau mengubah hasil menjadi sesuatu yang dapat Anda simpan."
+          }
+        ]
+      },
+      {
+        "title": "Untuk siapa setiap layanan",
+        "blocks": [
+          {
+            "p": "Ada dua jenis layanan di sini: satu untuk orang yang **sudah memiliki nama Korea**, dan satu untuk orang yang **membutuhkan satu**. Mereka memerlukan hal yang berbeda dari Anda, jadi mereka ditawarkan dalam bahasa yang berbeda."
+          },
+          {
+            "ul": [
+              "**Ditawarkan dalam bahasa Anda** — menulis nama Anda sendiri dalam Hangul, dan membangun nama Korea. Ini untuk orang tanpa nama Korea, jadi mereka mengikuti bahasa yang Anda gunakan.",
+              "**Ditawarkan hanya dalam bahasa Korea** — menemukan nama-hanja untuk anak, dan mengubah nama Korea menjadi satu untuk digunakan di luar negeri. Keduanya memerlukan **nama Hangul yang sudah ada** untuk bekerja, jadi layar dan panduan mereka tetap dalam bahasa Korea."
+            ]
           }
         ]
       },
@@ -24,7 +38,7 @@ export const ID_DOCS = {
         "title": "Apa yang menjadi dasar jawaban kami",
         "blocks": [
           {
-            "p": "Hanja berasal dari **tabel nama-hanja resmi Mahkamah Agung Korea.** Setiap karakter memiliki bacaan tetap untuk digunakan dalam nama, dan karakter di luar tabel tidak dapat didaftarkan. Kami tidak menambah daftar itu atau memilih favorit."
+            "p": "Hanja berasal dari **tabel nama-hanja resmi Mahkamah Agung Korea.** Setiap karakter memiliki bacaan tetap untuk digunakan dalam nama, dan karakter di luar tabel tidak dapat didaftarkan. Kami tidak menambahkan daftar itu atau memilih favorit."
           },
           {
             "p": "Saju dan angka lima elemen dihitung dari **kalender lunisolar Korea**, dengan waktu lahir yang dikoreksi ke waktu matahari yang sebenarnya untuk tempat lahir. Bacaan adalah referensi tradisional, bukan prediksi."
@@ -39,8 +53,8 @@ export const ID_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Kami tidak meramal nasib.** Tidak ada yang menjanjikan keberuntungan, kekayaan, atau perlindungan.",
-              "**Kami tidak menyimpan nama Anda.** Hasil gratis tidak pernah ditulis di server kami, dan dokumen berbayar disampaikan tanpa menyimpan salinan file.",
+              "**Kami tidak meramal nasib.** Tidak ada yang di sini menjanjikan keberuntungan, kekayaan, atau perlindungan.",
+              "**Kami tidak menyimpan nama Anda.** Hasil gratis tidak pernah ditulis ke server kami, dan dokumen berbayar disampaikan tanpa menyimpan salinan file.",
               "**Membayar tidak membeli jawaban yang lebih baik.** Membuka dengan iklan dan membuka dengan pembayaran memberikan konten yang persis sama."
             ]
           }
@@ -50,7 +64,7 @@ export const ID_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Layanan tersedia dalam 23 bahasa. PDF berbayar diterbitkan dalam bahasa Inggris untuk bahasa Arab dan Khmer — renderer PDF tidak mendukung skrip tersebut — dan kami menyatakannya di layar sebelum Anda membayar."
+            "p": "Layanan ini tersedia dalam 23 bahasa. PDF berbayar diterbitkan dalam bahasa Inggris untuk bahasa Arab dan Khmer — renderer PDF tidak mendukung skrip tersebut — dan kami menyebutkan hal ini di layar sebelum Anda membayar."
           }
         ]
       },
@@ -67,7 +81,7 @@ export const ID_DOCS = {
   "guide": {
     "eyebrow": "Cara kerja Naming-Link",
     "title": "Apa yang menjadi dasar nama Anda",
-    "summary": "Bagaimana kami memilih nama keluarga Korea, apa yang kami periksa sebelum menyarankan nama tertentu, dan bagaimana kami menulis nama Anda dalam Hangul — dengan bagian yang kami sengaja tinggalkan.",
+    "summary": "Bagaimana kami memilih nama keluarga Korea, apa yang kami periksa sebelum menyarankan nama tertentu, dan bagaimana kami menulis nama Anda dalam Hangul — dengan bagian yang dengan sengaja kami tinggalkan.",
     "backLabel": "Panduan",
     "sections": [
       {
@@ -94,12 +108,23 @@ export const ID_DOCS = {
             ]
           }
         ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Panduan di bawah ini mencakup layanan yang ditawarkan dalam bahasa Anda. Naming-Link juga memiliki dua layanan untuk orang yang **sudah memiliki nama Korea** — menemukan nama-hanja untuk anak, dan mengubah nama Korea menjadi satu untuk digunakan di luar negeri. Keduanya memerlukan nama Hangul yang sudah ada, jadi baik layanan maupun panduan mereka ada dalam bahasa Korea."
+          },
+          {
+            "p": "[Tentang](/about) menjelaskan layanan mana yang untuk siapa."
+          }
+        ]
       }
     ]
   },
   "guide/how-hangul-transliteration": {
     "eyebrow": "Cara kerjanya",
-    "title": "Bagaimana kami mengeja nama Anda dalam Hangul",
+    "title": "Cara kami mengeja nama Anda dalam Hangul",
     "summary": "Bagaimana kami memilih suara saat menulis nama asing dalam Hangul, dan mengapa kami tidak melampirkan hanja.",
     "backLabel": "Panduan",
     "sections": [
@@ -107,21 +132,21 @@ export const ID_DOCS = {
         "title": "Kami membawa suara, bukan makna",
         "blocks": [
           {
-            "p": "Layanan ini menulis **nama Anda** dalam Hangul. Ini tidak memberikan Anda nama Korea. Michael menjadi 마이클 — nama yang sama, ditulis agar orang Korea dapat membacanya dan mengucapkannya. Kami tidak menukarnya dengan nama Korea yang kebetulan berarti sesuatu yang mirip."
+            "p": "Layanan ini menulis **nama Anda** dalam Hangul. Ini tidak memberikan Anda nama Korea. Michael menjadi 마이클 — nama yang sama, ditulis agar orang Korea dapat membacanya dan mengucapkannya. Kami tidak menukarnya dengan nama Korea yang kebetulan memiliki arti yang mirip."
           },
           {
-            "p": "Jika nama Korea adalah yang Anda inginkan, **itu adalah layanan yang berbeda**. Satu layanan mempertahankan nama Anda dan hanya mengubah skripnya; yang lainnya mengusulkan nama baru."
+            "p": "Jika nama Korea adalah yang Anda inginkan, **itu adalah layanan yang berbeda.** Satu mempertahankan nama Anda dan hanya mengubah skrip; yang lain mengusulkan nama baru."
           }
         ]
       },
       {
-        "title": "Suara Korea tidak memiliki",
+        "title": "Suara yang tidak dimiliki bahasa Korea",
         "blocks": [
           {
-            "p": "Setiap bahasa memiliki suara yang tidak dimiliki oleh bahasa Korea — f, v, z, th, dan perbedaan vokal yang tidak dibuat oleh bahasa Korea. Untuk suara tersebut, kami menuliskan apa yang **diucapkan oleh penutur bahasa Korea sebenarnya** ketika mereka membaca nama Anda dengan keras, bukan mentranskripsikan fonetik asli simbol demi simbol. Tujuannya adalah ejaan yang akan digunakan, bukan yang paling teknis setia."
+            "p": "Setiap bahasa memiliki suara yang tidak dimiliki bahasa Korea — f, v, z, th, dan perbedaan vokal yang tidak dibuat oleh bahasa Korea. Untuk itu kami menulis apa yang **diucapkan oleh penutur bahasa Korea sebenarnya** ketika mereka membaca nama Anda dengan keras, daripada mentranskripsikan fonetik asli simbol demi simbol. Tujuannya adalah ejaan yang akan digunakan, bukan yang paling teknis setia."
           },
           {
-            "p": "Ejaan yang sama dapat berbeda tergantung dari mana asal nama, jadi kami meminta bahasa dan negara Anda dan bekerja dari pengucapan itu."
+            "p": "Ejaan yang sama dapat berbeda tergantung dari mana nama berasal, jadi kami meminta bahasa dan negara Anda dan bekerja dari pengucapan itu."
           }
         ]
       },
@@ -129,7 +154,7 @@ export const ID_DOCS = {
         "title": "Beberapa ejaan, berdampingan",
         "blocks": [
           {
-            "p": "Tidak ada jawaban yang benar tunggal. Ejaan yang paling dekat dengan suara asli, yang paling umum digunakan di Korea, dan yang paling mudah ditulis sering kali adalah tiga hal yang berbeda. Jadi kami menunjukkan semuanya bersama-sama dan menjelaskan apa yang memisahkan mereka."
+            "p": "Tidak ada jawaban yang benar tunggal. Ejaan yang paling dekat dengan suara asli, yang paling umum digunakan di Korea, dan yang paling mudah ditulis sering kali adalah tiga hal yang berbeda. Jadi kami menunjukkan semuanya bersama dan menjelaskan apa yang memisahkan mereka."
           },
           {
             "p": "Jika tidak ada yang terasa benar, Anda dapat menambahkan petunjuk tentang suara yang Anda inginkan dan menjalankannya lagi — misalnya, bahwa suku kata tertentu harus ditulis berbeda."
@@ -141,7 +166,7 @@ export const ID_DOCS = {
         "title": "Tidak ada hanja di sini",
         "blocks": [
           {
-            "p": "Kami tidak melampirkan hanja pada transliterasi. Hanja membawa makna, dan alur ini tentang suara. Mencocokkan karakter dengan suara saja dapat membuat Anda mendapatkan makna yang tidak pernah Anda minta."
+            "p": "Kami tidak melampirkan hanja pada transliterasi. Hanja memiliki makna, dan alur ini berfokus pada suara. Mencocokkan karakter hanya dengan suara dapat membuat Anda mendapatkan makna yang tidak pernah Anda minta."
           }
         ]
       }
@@ -150,20 +175,20 @@ export const ID_DOCS = {
   "guide/how-global-to-korean": {
     "eyebrow": "Cara kerjanya",
     "title": "Bagaimana kami membangun nama Korea",
-    "summary": "Kami memilih dari nama keluarga yang ada, mempertimbangkan seberapa mudah nama tersebut diucapkan dan ditulis, dan bertanya untuk apa nama tersebut.",
+    "summary": "Kami memilih dari nama keluarga yang ada, mempertimbangkan seberapa mudah nama tersebut diucapkan dan ditulis, serta menanyakan untuk apa nama tersebut.",
     "backLabel": "Panduan",
     "sections": [
       {
         "title": "Kami mulai dengan nama keluarga",
         "blocks": [
           {
-            "p": "Di Korea, nama keluarga datang pertama, dan tidak seperti nama depan, itu tidak diciptakan secara bebas — Anda mewarisinya. Jadi kami hanya menyarankan nama keluarga yang benar-benar dimiliki oleh orang Korea. Kolam default kami adalah **20 nama keluarga yang paling umum**, yang bersama-sama mencakup sekitar 80% populasi."
+            "p": "Di Korea, nama keluarga datang pertama, dan berbeda dengan nama pemberian, nama ini tidak dapat diciptakan secara bebas — Anda mewarisinya. Jadi kami hanya menyarankan nama keluarga yang benar-benar dimiliki oleh orang Korea. Kolam default kami adalah **20 nama keluarga yang paling umum**, yang bersama-sama mencakup sekitar 80% populasi."
           },
           {
-            "p": "Jika nama keluarga Anda kebetulan sesuai dengan nama Korea yang nyata berdasarkan suara — Wang dengan 왕, Ye dengan 예 — kami menempatkan yang itu di depan. Menjaga benang kembali ke nama asli Anda lebih berharga daripada nama keluarga yang dipilih secara acak."
+            "p": "Jika nama keluarga Anda kebetulan cocok dengan nama Korea yang nyata berdasarkan suara — Wang dengan 왕, Ye dengan 예 — kami menempatkan yang itu di depan. Menjaga benang kembali ke nama asli Anda lebih berharga daripada nama keluarga yang dipilih secara acak."
           },
           {
-            "p": "Anda dapat memilih nama keluarga sendiri atau membiarkan kami merekomendasikannya. Dalam hal apapun, itu akan menjadi **nama keluarga yang ada**."
+            "p": "Anda dapat memilih nama keluarga sendiri atau membiarkan kami merekomendasikan satu. Bagaimanapun, itu akan menjadi **nama keluarga yang ada**."
           }
         ]
       },
@@ -171,10 +196,10 @@ export const ID_DOCS = {
         "title": "Mudah diucapkan, mudah ditulis",
         "blocks": [
           {
-            "p": "Ini adalah nama yang akan dipanggil orang-orang di Korea, jadi hal pertama yang kami periksa adalah apakah orang Korea dapat mendengarnya sekali dan menuliskannya. Nama yang perlu dieja setiap kali adalah beban yang Anda bawa, bukan kami."
+            "p": "Ini adalah nama yang akan dipanggil orang di Korea, jadi hal pertama yang kami periksa adalah apakah orang Korea dapat mendengarnya sekali dan menuliskannya. Nama yang perlu dieja setiap kali adalah beban yang Anda bawa, bukan kami."
           },
           {
-            "p": "Makna juga penting. Nama depan Korea biasanya membawa makna, jadi kami memberi tahu Anda bagaimana nama tersebut dibaca dan mengapa kami memilihnya — bukan hanya nama itu sendiri."
+            "p": "Makna juga penting. Nama pemberian Korea biasanya memiliki makna, jadi kami memberi tahu Anda bagaimana nama itu dibaca dan mengapa kami memilihnya — bukan hanya nama itu sendiri."
           }
         ]
       },
@@ -182,7 +207,7 @@ export const ID_DOCS = {
         "title": "Kami bertanya untuk apa nama itu",
         "blocks": [
           {
-            "p": "Nama untuk dokumen universitas tidak sama dengan nama yang akan diteriakkan teman-teman di seberang ruangan, atau nama yang akan Anda gunakan secara online. Kami bertanya bagaimana Anda berencana menggunakannya dan mempertimbangkan hal itu."
+            "p": "Nama untuk dokumen universitas tidak sama dengan nama yang akan diteriakkan teman di seberang ruangan, atau nama yang akan Anda gunakan secara online. Kami bertanya bagaimana Anda berencana menggunakannya dan mempertimbangkan hal itu."
           }
         ]
       },
@@ -211,10 +236,10 @@ export const ID_DOCS = {
     "backLabel": "Beranda",
     "sections": [
       {
-        "title": "Kirim email kepada kami",
+        "title": "Email kami",
         "blocks": [
           {
-            "p": "Tulis ke **{email}**. Kami membalas dalam waktu dua hari kerja. Untuk apa pun tentang pesanan — pembayaran, pengembalian dana, file yang tidak Anda terima — harap sertakan **nomor pesanan atau email yang Anda gunakan untuk membayar**."
+            "p": "Tulis ke **{email}**. Kami membalas dalam dua hari kerja. Untuk apa pun tentang pesanan — pembayaran, pengembalian dana, file yang tidak Anda terima — harap sertakan **nomor pesanan atau email yang Anda gunakan untuk membayar**."
           },
           {
             "p": "Pertanyaan melalui telepon: {customerCenter} (jam kerja bisnis Korea)."
@@ -226,10 +251,10 @@ export const ID_DOCS = {
         "blocks": [
           {
             "ul": [
-              "**Pembayaran dan pengembalian dana** — jika dokumen tidak pernah diproduksi, atau jumlah yang dibebankan berbeda dari pesanan Anda, kami mengembalikan sepenuhnya. Lihat [kebijakan pengembalian dana](/refund-policy).",
+              "**Pembayaran dan pengembalian dana** — jika dokumen tidak pernah diproduksi, atau jumlah yang dikenakan berbeda dari pesanan Anda, kami mengembalikan sepenuhnya. Lihat [kebijakan pengembalian dana](/refund-policy).",
               "**Privasi** — permintaan untuk mengakses, memperbaiki, atau menghapus data Anda. Lihat [kebijakan privasi](/privacy).",
               "**Koreksi** — jika makna, bacaan, atau perhitungan hanja terlihat salah, beri tahu kami. Menyebutkan layar mana dan apa yang Anda masukkan sangat membantu.",
-              "**Hal lainnya** — kemitraan dan pers juga pergi ke alamat yang sama."
+              "**Apa pun yang lain** — kemitraan dan pers pergi ke alamat yang sama."
             ]
           }
         ]
@@ -272,33 +297,33 @@ export const ID_DOCS = {
         "title": "Alasan untuk tidak menetapkan total keberuntungan atau skor numerik",
         "blocks": [
           {
-            "p": "Ada metode yang menetapkan total keberuntungan atau skor numerik untuk nama untuk menilainya. Naming-Link tidak menyediakan angka-angka tersebut. Alasannya ada empat."
+            "p": "Ada metode yang menetapkan total keberuntungan atau skor numerik pada nama untuk menilainya. Naming-Link tidak menyediakan angka tersebut. Alasannya ada empat."
           },
           {
-            "p": "**Pertama, tidak ada satu standar pun.** Metode untuk menghitung keberuntungan bervariasi menurut sekolah, dan nama yang sama dapat dinilai positif oleh satu standar dan negatif oleh yang lain. Kami tidak memiliki dasar untuk memutuskan mana yang benar. Tidak jujur untuk menyajikan satu sebagai jika itu adalah jawaban."
+            "p": "**Pertama, tidak ada satu standar saja.** Metode untuk menghitung keberuntungan bervariasi menurut sekolah, dan nama yang sama dapat dinilai positif oleh satu standar dan negatif oleh yang lain. Kami tidak memiliki dasar untuk memutuskan mana yang benar. Adalah tidak jujur untuk menyajikan satu sebagai seolah-olah itu adalah jawabannya."
           },
           {
-            "p": "**Kedua, perhitungan tersebut bergantung pada hitungan goresan.** Namun, data Mahkamah Agung sama sekali tidak mencakup hitungan goresan. Selain itu, hitungan goresan dapat bervariasi tergantung pada apakah mereka dihitung sebagai karakter biasa atau karakter sederhana dan bagaimana radikal dihitung. Karena angka dasar tidak ditetapkan secara definitif, skor yang dibangun di atasnya tidak dapat definitif."
+            "p": "**Kedua, perhitungan tersebut bergantung pada jumlah goresan.** Namun, data dari Mahkamah Agung sama sekali tidak mencakup jumlah goresan. Selain itu, jumlah goresan dapat bervariasi tergantung pada apakah mereka dihitung sebagai karakter biasa atau disederhanakan dan bagaimana radikal dihitung. Karena angka dasar tidak ditetapkan secara definitif, skor yang dibangun di atasnya tidak dapat dianggap definitif."
           },
           {
-            "p": "**Ketiga, angka tampak lebih solid daripada kenyataan.** Ketika dikatakan \"87 poin\", itu terbaca seperti nilai terukur daripada interpretasi konvensional. Mereka yang memberi nama mungkin merasa tertekan oleh angka itu, mendorong apa yang benar-benar penting (Apakah menyenangkan untuk dipanggil? Apakah maknanya cocok? Apakah itu mengandung harapan yang diinginkan?)."
+            "p": "**Ketiga, angka tampak lebih solid daripada kenyataan.** Ketika dikatakan \"87 poin\", itu terdengar seperti nilai yang terukur daripada interpretasi konvensional. Nama-nama tersebut mungkin merasa tertekan oleh angka itu, mengesampingkan apa yang benar-benar penting (Apakah menyenangkan untuk dipanggil? Apakah maknanya sesuai? Apakah itu mengandung harapan yang diinginkan?)."
           },
           {
-            "p": "**Keempat, tidak ada cara untuk memverifikasi.** Hubungan antara nama dan kehidupan seseorang tidak dapat diverifikasi. Mengubah sesuatu yang tidak dapat dikatakan benar atau salah menjadi skor menghasilkan angka yang tidak dapat dikonfirmasi, meskipun tidak dapat salah."
+            "p": "**Keempat, tidak ada cara untuk memverifikasi.** Hubungan antara nama dan kehidupan seseorang tidak dapat diverifikasi. Mengubah sesuatu yang tidak dapat dikatakan benar atau salah menjadi skor menghasilkan angka yang tidak dapat dikonfirmasi, meskipun itu tidak dapat salah."
           },
           {
-            "p": "Kami hanya menggunakan apa yang dapat **dibuktikan.** Tabel hanja nama resmi Mahkamah Agung, pembacaan yang ditugaskan untuk setiap karakter, dan makna yang terdaftar dalam tabel. Sebagai gantinya, kami memberikan alasan mengapa kandidat ini dipilih dan mengapa karakter tertentu dikecualikan, menunjukkan **alasan daripada skor**."
+            "p": "Kami hanya menggunakan apa yang dapat **dibuktikan.** Tabel hanja resmi dari Mahkamah Agung, pembacaan yang ditetapkan untuk setiap karakter, dan makna yang terdaftar dalam tabel. Sebagai gantinya, kami memberikan alasan mengapa kandidat ini dipilih dan mengapa karakter tertentu dikecualikan, menunjukkan **alasan daripada skor**."
           }
         ]
       },
       {
-        "title": "Kami tidak menggunakan hitungan goresan",
+        "title": "Kami tidak menggunakan jumlah goresan",
         "blocks": [
           {
-            "p": "Data hanja nama resmi yang disediakan oleh Mahkamah Agung tidak mencakup hitungan goresan. Di antara {characterTotal} karakter yang kami terima, **tidak ada satu karakter pun yang memiliki hitungan goresan.**"
+            "p": "Data hanja resmi yang disediakan oleh Mahkamah Agung tidak mencakup jumlah goresan. Di antara {characterTotal} karakter yang kami terima, **tidak ada satu karakter pun yang memiliki jumlah goresan.**"
           },
           {
-            "p": "Untuk menggunakan hitungan goresan, kami perlu mendapatkan angka dari tempat lain, tetapi jika kami tidak dapat menjelaskan dari mana angka tersebut berasal dan kriteria apa yang digunakan untuk menghitungnya, itu berarti menilai nama berdasarkan angka yang tidak berdasar. Kami telah memutuskan untuk tidak mengevaluasi nama berdasarkan nilai yang tidak dapat dibuktikan."
+            "p": "Untuk menggunakan jumlah goresan, kami perlu mendapatkan angka dari tempat lain, tetapi jika kami tidak dapat menjelaskan dari mana angka tersebut berasal dan kriteria apa yang digunakan untuk menghitungnya, itu berarti menilai nama berdasarkan angka yang tidak berdasar. Kami telah memutuskan untuk tidak mengevaluasi nama berdasarkan nilai yang tidak dapat dibuktikan."
           }
         ]
       },
@@ -315,18 +340,18 @@ export const ID_DOCS = {
               "metal": "logam",
               "water": "air",
               "saeng": "Generasi — masing-masing melahirkan tetangganya",
-              "geuk": "Kontrol — masing-masing membatasi yang dilompati"
+              "geuk": "Kontrol — masing-masing membatasi yang dilewati"
             },
-            "caption": "Hubungan antara lima elemen. Bergerak di sepanjang lingkaran mewakili generasi timbal balik (相生), sementara melompati satu dan menekan ke bawah mewakili pembatasan timbal balik (相剋). Kami menggunakan hubungan ini hanya sebagai sumbu tambahan untuk membandingkan kandidat."
+            "caption": "Hubungan antara lima elemen. Bergerak sepanjang lingkaran mewakili generasi timbal balik (相生), sementara melewati satu dan menekan mewakili pengekangan timbal balik (相剋). Kami menggunakan hubungan ini hanya sebagai sumbu tambahan untuk membandingkan kandidat."
           },
           {
             "p": "Jika Anda telah memasukkan bulan kelahiran Anda, kami menggunakan referensi sederhana dari lima elemen berdasarkan bulan tersebut sebagai sumbu tambahan untuk membandingkan kandidat. Namun, ini bukan analisis saju yang tepat, dan **kami tidak mengklaim bahwa nama menentukan nasib atau karakter seseorang.**"
           },
           {
-            "p": "Dalam pemilihan akhir, yang kami prioritaskan adalah suara, kombinasi makna, nilai yang ingin disampaikan keluarga, dan apakah itu dapat didaftarkan. Jika Anda belum memasukkan bulan kelahiran Anda, kami sepenuhnya mengecualikan referensi lima elemen dari analisis — kami tidak membuat asumsi sembarangan tentang informasi yang tidak diketahui."
+            "p": "Dalam pemilihan akhir, yang kami prioritaskan adalah suara, kombinasi makna, nilai yang ingin disampaikan keluarga, dan apakah itu dapat benar-benar didaftarkan. Jika Anda belum memasukkan bulan kelahiran Anda, kami sepenuhnya mengecualikan referensi lima elemen dari analisis — kami tidak membuat asumsi sembarangan tentang informasi yang tidak diketahui."
           },
           {
-            "p": "Jika Anda menginginkan analisis berbasis saju yang tepat, kami membahasnya dalam laporan terpisah yang lebih rinci. Alasan kami tidak memprioritaskan lima elemen dalam pencocokan hanja gratis adalah karena kami tidak ingin menyajikan penilaian berdasarkan lima elemen yang berasal dari tanggal dan waktu kelahiran yang tidak lengkap seolah-olah itu adalah definitif."
+            "p": "Jika Anda menginginkan analisis berbasis saju yang tepat, kami membahasnya dalam laporan terperinci terpisah. Alasan kami tidak memprioritaskan lima elemen dalam pencocokan hanja gratis adalah karena kami tidak ingin menyajikan penilaian berdasarkan lima elemen yang diturunkan dari tanggal dan waktu kelahiran yang tidak lengkap seolah-olah itu adalah definitif."
           }
         ]
       }
@@ -356,7 +381,7 @@ export const ID_DOCS = {
             "p": "Hasil yang direkomendasikan disusun untuk membuka kandidat satu per satu. Saat melihat iklan, satu terbuka pada satu waktu, sementara produk ini **membuka semua kandidat yang tersisa sekaligus**."
           },
           {
-            "p": "Jika Anda tidak terburu-buru, Anda tidak perlu membeli. **Hasil dari membuka melalui iklan dan yang dari pembayaran adalah sama sekali tidak berbeda** — ini hanya masalah menunggu, dan membayar tidak menghasilkan kandidat yang lebih baik."
+            "p": "Jika Anda tidak terburu-buru, Anda tidak perlu membeli. **Hasil dari membuka melalui iklan dan hasil dari pembayaran adalah sama sekali sama** — ini hanya masalah menunggu, dan membayar tidak menghasilkan kandidat yang lebih baik."
           }
         ]
       },
@@ -370,7 +395,7 @@ export const ID_DOCS = {
             "ul": [
               "**Maksimal 5 kandidat hanja terperinci** — {priceFiveDetail}. Anda dapat memperluas penjelasan untuk hingga lima kandidat di layar. Tidak ada PDF.",
               "**Maksimal 10 kandidat hanja PDF terperinci yang diperluas** — {priceTenDetail}. Jumlah kandidat meningkat menjadi sepuluh, dan dokumen PDF disertakan.",
-              "**Maksimal 10 kandidat hanja laporan komprehensif saju dan lima elemen** — {priceTenSaju}. Selain yang di atas, ini mencakup grafik saju yang berasal dari tanggal lahir dan kekuatan lima elemen, memeriksa mengapa hanja tertentu cocok dengan nama tersebut dari perspektif lima elemen."
+              "**Maksimal 10 kandidat hanja laporan komprehensif saju dan lima elemen** — {priceTenSaju}. Selain yang di atas, ini mencakup grafik saju yang diturunkan dari tanggal lahir dan kekuatan lima elemen, memeriksa mengapa hanja tertentu cocok dengan nama tersebut dari perspektif lima elemen."
             ]
           }
         ]
@@ -380,7 +405,7 @@ export const ID_DOCS = {
         "title": "Hanja itu sendiri adalah informasi yang tersedia untuk umum",
         "blocks": [
           {
-            "p": "Hanja yang dapat digunakan dan maknanya berasal dari tabel hanja nama resmi yang ditetapkan oleh Mahkamah Agung Korea, dan semuanya tersedia untuk umum dalam dokumen panduan layanan. Apa yang dijual oleh produk berbayar bukanlah informasi hanja tetapi **tindakan memilih dan menjelaskannya sesuai dengan nama**."
+            "p": "Hanja yang dapat digunakan dan maknanya berasal dari tabel hanja resmi yang ditetapkan oleh Mahkamah Agung Korea, dan semuanya tersedia untuk umum dalam dokumen panduan layanan. Apa yang dijual produk berbayar bukanlah informasi hanja tetapi **tindakan memilih dan menjelaskannya sesuai dengan nama**."
           }
         ]
       },
@@ -402,10 +427,10 @@ export const ID_DOCS = {
         "title": "Stempel Nama",
         "blocks": [
           {
-            "p": "Kami mengukir nama yang dibuat di layar menjadi stempel fisik dan mengirimkannya kepada Anda. Harga bervariasi berdasarkan model — stempel bulat {priceStampRound}, stempel persegi {priceStampSquare}, stempel kayu ebony {priceStampEbony}. Pengiriman internasional juga tersedia."
+            "p": "Kami mengukir nama yang dibuat di layar menjadi stempel fisik dan mengirimkannya kepada Anda. Harga bervariasi berdasarkan model — stempel bulat {priceStampRound}, stempel kotak {priceStampSquare}, stempel ebony {priceStampEbony}. Pengiriman internasional juga tersedia."
           },
           {
-            "p": "**Dari sini, produk termasuk pengiriman.** Tidak seperti item sebelumnya, produksi dan pengiriman memerlukan waktu, dan alamat penerimaan diperlukan. Informasi pengiriman hanya digunakan untuk pemrosesan pesanan dan penyimpanan hukum, dan setelah pemrosesan selesai, itu akan dihancurkan setelah periode yang ditentukan dalam kebijakan."
+            "p": "**Dari sini, produk termasuk pengiriman.** Berbeda dengan item sebelumnya, produksi dan pengiriman memerlukan waktu, dan alamat penerimaan diperlukan. Informasi pengiriman hanya digunakan untuk pemrosesan pesanan dan penyimpanan hukum, dan setelah pemrosesan selesai, akan dihancurkan setelah periode yang ditentukan dalam kebijakan."
           }
         ]
       },
@@ -424,7 +449,7 @@ export const ID_DOCS = {
         ]
       }
     ]
-  },
+  }
 } satisfies Record<GlobalDocKey, DocPage>;
 
 export const ID_NOTICES = {
@@ -434,7 +459,7 @@ export const ID_NOTICES = {
     "policy": "Kebijakan",
     "support": "Dukungan"
   },
-  "intro": "Perubahan pada syarat penggunaan Anda — harga, kebijakan — diposting di sini sebelum berlaku. Perbaikan internal tidak dicantumkan: apa yang muncul di sini adalah apa yang perlu Anda ketahui.",
+  "intro": "Perubahan pada syarat penggunaan Anda — harga, kebijakan — diposting di sini sebelum berlaku. Perbaikan internal tidak dicantumkan: apa yang muncul di sini adalah yang perlu Anda ketahui.",
   "empty": {
     "title": "Belum ada pemberitahuan",
     "body": "Ketika sesuatu berubah, itu akan muncul di sini."
@@ -447,9 +472,9 @@ export const ID_NOTICES = {
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Halaman Kontak dan Tentang sekarang terbuka",
+      "title": "Halaman Kontak dan Tentang sekarang sudah dibuka",
       "body": [
-        "Pertanyaan, pengembalian dana, permintaan privasi, dan laporan kesalahan sekarang memiliki satu tempat untuk pergi. Halaman kontak di footer mencantumkan email dan detail perusahaan kami.",
+        "Pertanyaan, pengembalian dana, permintaan privasi, dan laporan kesalahan sekarang memiliki satu tempat untuk dituju. Halaman kontak di footer mencantumkan email dan detail perusahaan kami.",
         "Apa yang menjadi dasar jawaban kami, dan apa yang dengan sengaja tidak kami lakukan, ditulis di halaman tentang."
       ]
     },
@@ -458,13 +483,13 @@ export const ID_NOTICES = {
       "body": [
         "Jika Anda menggunakan layanan dalam bahasa Arab atau Khmer, PDF yang Anda beli diproduksi dalam bahasa Inggris. Alat yang menyusun dokumen kami belum dapat mengatur paragraf dalam dua skrip tersebut.",
         "Layar tetap dalam bahasa Anda, dan nama Anda dicetak dalam skrip Anda sendiri di dalam dokumen.",
-        "Catatan yang sama muncul sebelum pembayaran. Ketika alat mendukung skrip ini, kami akan menginformasikannya di sini."
+        "Catatan yang sama muncul sebelum pembayaran. Ketika alat mendukung skrip ini, kami akan mengatakannya di sini."
       ]
     },
     "2026-08-01-payments-preparing": {
       "title": "Pembayaran belum dibuka",
       "body": [
-        "Membuat nama dan membaca hasilnya gratis hari ini, dan tidak perlu akun.",
+        "Membuat nama dan membaca hasilnya gratis hari ini, dan tidak diperlukan akun.",
         "Item berbayar belum dijual. Jumlah yang ditampilkan di halaman harga adalah yang akan berlaku setelah penjualan dibuka."
       ]
     }

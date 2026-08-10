@@ -29,7 +29,7 @@ import type { Locale } from "@/lib/services";
  * 러시아어 이용자가 그 안내를 끝까지 읽어도 **갈 수 있는 서비스가 없다.**
  *
  * 그래서 한국어 화면이 아니면 korean 갈래를 목록에 올리지 않는다. **주소는 살아 있다** —
- * 링크를 타고 들어오면 열린다(다만 한국어로, 주소도 한 벌이다 — `lib/korean-only-routes.ts`).
+ * 링크를 타고 들어오면 열린다(다만 한국어로, 주소도 한 벌이다 — `lib/route-locales.ts`).
  */
 export type GuideTrack = "korean" | "global" | "common";
 

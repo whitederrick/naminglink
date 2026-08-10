@@ -86,17 +86,27 @@ export function isRtlLocale(locale: Locale) {
 }
 
 export async function getRequestLocale(searchLocale?: string) {
-  if (isLocale(searchLocale)) {
-    return searchLocale;
-  }
-
   const headerStore = await headers();
+
+  /**
+   * 글로벌 전용 화면에는 한국어를 주지 않는다(`lib/route-locales.ts`). 미들웨어가 이 헤더로
+   * 알려 준다.
+   *
+   * **판정의 모든 갈래에 걸어야 한다.** `?lang=ko`만 막으면 접속 국가가 KR일 때 그대로 한국어가
+   * 나가고, 국가만 막으면 주소로 강제할 수 있다. 그래서 반환하는 자리마다 통과시킨다.
+   */
+  const blockKorean = headerStore.get("x-block-korean") === "1";
+  const allow = (locale: Locale): Locale => (blockKorean && locale === "ko" ? "en" : locale);
+
+  if (isLocale(searchLocale)) {
+    return allow(searchLocale);
+  }
 
   // 경로에 로케일이 있으면(`/ko/…`) 미들웨어가 `x-locale`로 넘겨 준다. 가장 먼저 본다 —
   // 이용자가 주소로 언어를 골랐다는 뜻이라 접속 국가·브라우저 설정보다 우선한다.
   // **레이아웃에는 이 경로뿐이다.** 레이아웃은 searchParams를 받지 못해 `?lang=`을 못 본다.
   const fromPath = headerStore.get("x-locale");
-  if (isLocale(fromPath)) return fromPath;
+  if (isLocale(fromPath)) return allow(fromPath);
 
   const country = headerStore.get("x-vercel-ip-country")?.toUpperCase();
   const acceptLanguage = headerStore.get("accept-language") ?? "";
@@ -107,8 +117,8 @@ export async function getRequestLocale(searchLocale?: string) {
   // 그것까지 맞추려면 지역 단위 정보가 필요하고 무리해서 잡을 일은 아니라고 보았다.
   // 어긋난 사람은 화면의 언어 버튼으로 바꾼다 — 그래서 그 버튼에 의도한 언어가 다 보여야 한다.
   if (country && countryLocaleMap[country]) {
-    return countryLocaleMap[country];
+    return allow(countryLocaleMap[country]);
   }
 
-  return localeFromAcceptLanguage(acceptLanguage) ?? ("en" satisfies Locale);
+  return allow(localeFromAcceptLanguage(acceptLanguage) ?? ("en" satisfies Locale));
 }

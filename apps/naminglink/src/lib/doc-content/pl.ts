@@ -13,10 +13,24 @@ export const PL_DOCS = {
         "title": "Co robimy",
         "blocks": [
           {
-            "p": "Naming-Link pomaga **wybrać i zrozumieć koreańskie imiona** — hanja stojące za imieniem dziecka, koreańskie imię do użycia za granicą, zapis imienia w Hangul oraz pamiątki takie jak pieczęć czy wydrukowany raport."
+            "p": "Naming-Link pomaga **wybrać i zrozumieć koreańskie imiona** — hanja stojące za imieniem dziecka, koreańskie imię do użycia za granicą, zapis Hangul twojego własnego imienia oraz pamiątki, takie jak pieczęć czy wydrukowany raport."
           },
           {
             "p": "Zobaczenie wyników jest **darmowe i nie wymaga konta.** Płatne elementy nigdy nie sprzedają tego, co już pokazano na ekranie: otwierają więcej kandydatów, dodają pisemną analizę lub przekształcają wynik w coś, co możesz zachować."
+          }
+        ]
+      },
+      {
+        "title": "Dla kogo jest każda usługa",
+        "blocks": [
+          {
+            "p": "Są dwa rodzaje usług: jedna dla osób, które **już mają koreańskie imię**, i jedna dla osób, które **potrzebują jednego**. Wymagają różnych rzeczy od ciebie, więc są oferowane w różnych językach."
+          },
+          {
+            "ul": [
+              "**Oferowane w twoim języku** — zapisanie własnego imienia w Hangul oraz budowanie koreańskiego imienia. Te usługi są dla osób bez koreańskiego imienia, więc podążają za językiem, w którym przybywasz.",
+              "**Oferowane tylko w języku koreańskim** — znalezienie hanja dla dziecka oraz przekształcenie koreańskiego imienia na takie do użycia za granicą. Obie wymagają **istniejącego imienia w Hangul**, aby działać, więc ekrany i ich przewodniki pozostają w języku koreańskim."
+            ]
           }
         ]
       },
@@ -27,10 +41,10 @@ export const PL_DOCS = {
             "p": "Hanja pochodzą z **oficjalnej tabeli hanja imion wydanej przez Sąd Najwyższy Korei.** Każdy znak ma przypisaną stałą wymowę do użycia w imionach, a znaki spoza tabeli nie mogą być rejestrowane. Nie dodajemy do tej listy ani nie wybieramy ulubionych."
           },
           {
-            "p": "Saju i figury pięciu elementów są obliczane na podstawie **koreańskiego kalendarza lunisolarnego**, z czasem urodzenia skorygowanym do rzeczywistego czasu słonecznego dla miejsca urodzenia. Odczyt jest tradycyjnym odniesieniem, a nie prognozą."
+            "p": "Saju i figury pięciu elementów są obliczane na podstawie **koreańskiego kalendarza lunisolarnego**, z czasem urodzenia skorygowanym do prawdziwego czasu słonecznego dla miejsca urodzenia. Odczyt jest tradycyjnym odniesieniem, a nie prognozą."
           },
           {
-            "p": "Pisemne wyjaśnienia są generowane przez AI. Aby zapobiec **wymyślaniu rzeczy**, model otrzymuje tylko twoje dane wejściowe i nasze własne dane referencyjne, i jest instruowany, aby pozostać w ich obrębie. Przewodniki szczegółowo to wyjaśniają."
+            "p": "Pisemne wyjaśnienia są produkowane przez AI. Aby zapobiec **wymyślaniu rzeczy**, model otrzymuje tylko twoje dane wejściowe i nasze własne dane referencyjne, i jest instruowany, aby pozostać w ich obrębie. Przewodniki wyjaśniają to szczegółowo."
           }
         ]
       },
@@ -77,11 +91,11 @@ export const PL_DOCS = {
             "stats": [
               {
                 "value": "{characterTotal}",
-                "label": "znaki hanja imienia"
+                "label": "znaki hanja"
               },
               {
                 "value": "{syllableCount}",
-                "label": "pokryte sylaby Hangul"
+                "label": "syllaby Hangul objęte"
               },
               {
                 "value": "{effectiveDate}",
@@ -92,6 +106,17 @@ export const PL_DOCS = {
                 "label": "tradycyjnie unikanie znaków"
               }
             ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Przewodniki poniżej obejmują usługi oferowane w twoim języku. Naming-Link ma również dwie usługi dla osób, które **już mają koreańskie imię** — znalezienie hanja dla dziecka oraz przekształcenie koreańskiego imienia na takie do użycia za granicą. Te wymagają istniejącego imienia w Hangul, więc zarówno usługi, jak i ich przewodniki są w języku koreańskim."
+          },
+          {
+            "p": "[O nas](/about) wyjaśnia, która usługa jest dla kogo."
           }
         ]
       }
@@ -107,21 +132,21 @@ export const PL_DOCS = {
         "title": "Przenosimy dźwięk, nie znaczenie",
         "blocks": [
           {
-            "p": "Ta usługa zapisuje **twoje imię** w Hangul. Nie daje ci koreańskiego imienia. Michael staje się 마이클 — to samo imię, zapisane tak, aby Koreańczycy mogli je przeczytać i wypowiedzieć. Nie zamieniamy go na koreańskie imię, które przypadkiem ma podobne znaczenie."
+            "p": "Ta usługa zapisuje **twoje imię** w Hangul. Nie daje ci koreańskiego imienia. Michael staje się 마이클 — to samo imię, zapisane tak, aby Koreańczycy mogli je przeczytać i wymówić. Nie zamieniamy go na koreańskie imię, które przypadkiem ma podobne znaczenie."
           },
           {
-            "p": "Jeśli chcesz koreańskiego imienia, **to jest inna usługa**. Jedna zachowuje twoje imię i zmienia tylko zapis; druga proponuje nowe imię."
+            "p": "Jeśli chcesz koreańskiego imienia, **to jest inna usługa**. Jedna zachowuje twoje imię i zmienia tylko skrypt; druga proponuje nowe imię."
           }
         ]
       },
       {
-        "title": "Brzmienia, których nie ma w koreańskim",
+        "title": "Dźwięki, których nie ma w koreańskim",
         "blocks": [
           {
-            "p": "Każdy język ma dźwięki, których brakuje w koreańskim — f, v, z, th oraz różnice w samogłoskach, których koreański nie rozróżnia. Dla tych dźwięków zapisujemy to, co **koreański mówca faktycznie mówi** podczas głośnego czytania twojego imienia, zamiast transkrybować oryginalną fonetykę symbol po symbolu. Celem jest zapis, który będzie używany, a nie najbardziej technicznie wierny."
+            "p": "Każdy język ma dźwięki, których brakuje w koreańskim — f, v, z, th oraz różnice samogłoskowe, których koreański nie rozróżnia. Dla tych zapisujemy to, co **koreański mówca faktycznie mówi**, gdy czyta twoje imię na głos, zamiast transkrybować oryginalną fonetykę symbol po symbolu. Celem jest zapis, który będzie używany, a nie najbardziej technicznie wierny."
           },
           {
-            "p": "Ten sam zapis może się różnić w zależności od pochodzenia imienia, dlatego pytamy o twój język i kraj oraz pracujemy na podstawie tej wymowy."
+            "p": "Ten sam zapis może się różnić w zależności od pochodzenia imienia, więc pytamy o twój język i kraj i pracujemy na podstawie tej wymowy."
           }
         ]
       },
@@ -129,10 +154,10 @@ export const PL_DOCS = {
         "title": "Kilka zapisów obok siebie",
         "blocks": [
           {
-            "p": "Nie ma jedynej poprawnej odpowiedzi. Zapis najbliższy oryginalnemu dźwiękowi, ten najczęściej używany w Korei oraz ten najłatwiejszy do napisania to często trzy różne rzeczy. Dlatego pokazujemy je razem i mówimy, co je różni."
+            "p": "Nie ma jedynej poprawnej odpowiedzi. Zapis najbliższy oryginalnemu dźwiękowi, ten najczęściej używany w Korei i ten najłatwiejszy do zapisania to często trzy różne rzeczy. Dlatego pokazujemy je razem i mówimy, co je różni."
           },
           {
-            "p": "Jeśli żaden z nich nie wydaje się odpowiedni, możesz dodać wskazówkę dotyczącą dźwięku, który chcesz, i uruchomić to ponownie — na przykład, że konkretna sylaba powinna być zapisana inaczej."
+            "p": "Jeśli żaden z nich nie wydaje się odpowiedni, możesz dodać wskazówkę na temat dźwięku, który chcesz, i uruchomić to ponownie — na przykład, że konkretna sylaba powinna być zapisana inaczej."
           }
         ]
       },
@@ -150,39 +175,39 @@ export const PL_DOCS = {
   "guide/how-global-to-korean": {
     "eyebrow": "Jak to działa",
     "title": "Jak tworzymy koreańskie imię",
-    "summary": "Wybieramy spośród istniejących nazwisk, oceniamy, jak łatwo imię jest wypowiedzieć i napisać, oraz pytamy, do czego imię ma służyć.",
+    "summary": "Wybieramy spośród istniejących nazwisk, oceniamy, jak łatwo imię jest wypowiedzieć i napisać, oraz pytamy, do czego ma służyć.",
     "backLabel": "Przewodnik",
     "sections": [
       {
         "title": "Zaczynamy od nazwiska",
         "blocks": [
           {
-            "p": "W Korei nazwisko jest na pierwszym miejscu, a w przeciwieństwie do imion nie jest swobodnie wymyślane — dziedziczysz je. Dlatego sugerujemy tylko nazwiska, które faktycznie mają Koreańczycy. Nasza domyślna pula to **20 najczęściej występujących nazwisk**, które razem pokrywają około 80% populacji."
+            "p": "W Korei nazwisko jest na pierwszym miejscu, a w przeciwieństwie do imion nie jest swobodnie wymyślane — dziedziczysz je. Dlatego sugerujemy tylko nazwiska, które rzeczywiście mają Koreańczycy. Nasza domyślna pula to **20 najczęściej występujących nazwisk**, które razem obejmują około 80% populacji."
           },
           {
-            "p": "Jeśli twoje własne nazwisko przypadkiem pokrywa się z prawdziwym koreańskim pod względem brzmienia — Wang z 왕, Ye z 예 — stawiamy je na pierwszym miejscu. Utrzymanie związku z twoim oryginalnym imieniem jest ważniejsze niż losowo wybrane nazwisko."
+            "p": "Jeśli twoje nazwisko przypadkiem pokrywa się z prawdziwym koreańskim pod względem dźwięku — Wang z 왕, Ye z 예 — stawiamy je na pierwszym miejscu. Utrzymanie związku z twoim oryginalnym imieniem jest ważniejsze niż losowo wybrane nazwisko."
           },
           {
-            "p": "Możesz samodzielnie wybrać nazwisko lub pozwolić nam je polecić. Tak czy inaczej, będzie to **istniejące nazwisko**."
+            "p": "Możesz samodzielnie wybrać nazwisko lub pozwolić nam zaproponować jedno. Tak czy inaczej, będzie to **istniejące nazwisko**."
           }
         ]
       },
       {
-        "title": "Łatwe do powiedzenia, łatwe do napisania",
+        "title": "Łatwe do wypowiedzenia, łatwe do napisania",
         "blocks": [
           {
-            "p": "To jest imię, którym ludzie w Korei będą cię faktycznie nazywać, więc pierwszą rzeczą, którą sprawdzamy, jest to, czy Koreańczyk może usłyszeć je raz i zapisać. Imię, które trzeba literować za każdym razem, to ciężar, który nosisz, a nie my."
+            "p": "To jest imię, którym ludzie w Korei będą cię rzeczywiście nazywać, więc pierwszą rzeczą, którą sprawdzamy, jest to, czy Koreańczyk może usłyszeć je raz i zapisać. Imię, które trzeba literować za każdym razem, to ciężar, który nosisz, a nie my."
           },
           {
-            "p": "Znaczenie też ma znaczenie. Koreańskie imiona zazwyczaj mają znaczenie, więc informujemy cię, jak imię się czyta i dlaczego je wybraliśmy — nie tylko samo imię."
+            "p": "Znaczenie też ma znaczenie. Koreańskie imiona zazwyczaj niosą ze sobą znaczenie, więc informujemy cię, jak imię się czyta i dlaczego je wybraliśmy — nie tylko samo imię."
           }
         ]
       },
       {
-        "title": "Pytamy, do czego imię ma służyć",
+        "title": "Pytamy, do czego ma służyć imię",
         "blocks": [
           {
-            "p": "Imię do dokumentów uniwersyteckich nie jest tym samym, co imię, które przyjaciele będą wołać przez pokój, czy pseudonim, którego będziesz używać w Internecie. Pytamy, jak planujesz je używać i bierzemy to pod uwagę."
+            "p": "Imię do dokumentów uniwersyteckich nie jest tym samym, co imię, które przyjaciele będą wołać przez pokój, czy pseudonim, którego będziesz używać online. Pytamy, jak planujesz je używać i bierzemy to pod uwagę."
           }
         ]
       },
@@ -191,7 +216,7 @@ export const PL_DOCS = {
         "title": "To nie jest transliteracja",
         "blocks": [
           {
-            "p": "Tutaj proponujemy **nowe koreańskie imię**. Jeśli chcesz, aby twoje istniejące imię było zapisane w Hangul — Michael jako 마이클 — zobacz [przewodnik po zapisie w Hangul](/guide/how-hangul-transliteration)."
+            "p": "Tutaj proponujemy **nowe koreańskie imię**. Jeśli chcesz, aby twoje istniejące imię było zapisane w Hangul — Michael jako 마이클 — zobacz [przewodnik po pisowni Hangul](/guide/how-hangul-transliteration)."
           }
         ]
       }
@@ -207,14 +232,14 @@ export const PL_DOCS = {
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Skontaktuj się z nami",
-    "summary": "Jak się z nami skontaktować w sprawie pytań, zwrotów, próśb o prywatność i zgłaszania błędów, z naszymi danymi firmy.",
+    "summary": "Jak się z nami skontaktować w sprawie pytań, zwrotów, próśb o prywatność i zgłaszania błędów, z danymi naszej firmy.",
     "backLabel": "Strona główna",
     "sections": [
       {
         "title": "Napisz do nas",
         "blocks": [
           {
-            "p": "Napisz na **{email}**. Odpowiadamy w ciągu dwóch dni roboczych. W sprawach dotyczących zamówienia — płatności, zwrotu, pliku, którego nie otrzymałeś — prosimy o dołączenie **numeru zamówienia lub e-maila, którym płacono**."
+            "p": "Napisz na **{email}**. Odpowiadamy w ciągu dwóch dni roboczych. W przypadku jakichkolwiek pytań dotyczących zamówienia — płatności, zwrotu, pliku, którego nie otrzymałeś — prosimy o dołączenie **numeru zamówienia lub e-maila, którym płaciłeś**."
           },
           {
             "p": "Zapytania telefoniczne: {customerCenter} (koreańskie godziny pracy)."
@@ -228,7 +253,7 @@ export const PL_DOCS = {
             "ul": [
               "**Płatności i zwroty** — jeśli dokument nigdy nie został wyprodukowany lub kwota pobrana różni się od twojego zamówienia, zwracamy w całości. Zobacz [politykę zwrotów](/refund-policy).",
               "**Prywatność** — prośby o dostęp, poprawienie lub usunięcie twoich danych. Zobacz [politykę prywatności](/privacy).",
-              "**Korekcje** — jeśli znaczenie, odczyt lub obliczenie hanja wydaje się błędne, powiedz nam. Wspomnienie, na którym ekranie i co wpisałeś, bardzo pomaga.",
+              "**Korekcje** — jeśli znaczenie, odczyt lub obliczenia hanja wydają się błędne, daj nam znać. Wspomnienie, na którym ekranie i co wpisałeś, bardzo pomaga.",
               "**Cokolwiek innego** — partnerstwa i prasa kierują się na ten sam adres."
             ]
           }
@@ -246,7 +271,7 @@ export const PL_DOCS = {
               "**Adres** — {address}",
               "**Obsługa klienta** — {customerCenter}",
               "**Email** — {email}",
-              "**Inspektor ochrony danych** — {privacyOfficer}",
+              "**Inspektor ochrony prywatności** — {privacyOfficer}",
               "**Dostawca hostingu** — {hostingProvider}"
             ]
           }
@@ -256,7 +281,7 @@ export const PL_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Nie musisz podawać imienia ani daty urodzenia w swojej wiadomości. Darmowe wyniki nigdy nie są przechowywane na naszych serwerach, więc nie możemy ich ponownie wyszukać — numer zamówienia wystarczy."
+            "p": "Nie musisz dołączać imienia ani daty urodzenia w swojej wiadomości. Darmowe wyniki nigdy nie są przechowywane na naszych serwerach, więc nie możemy ich ponownie wyszukać — numer zamówienia wystarczy."
           }
         ]
       }
@@ -265,40 +290,40 @@ export const PL_DOCS = {
   "guide/what-we-dont-use": {
     "eyebrow": "Nasze standardy",
     "title": "Czego nie używamy",
-    "summary": "Nie przypisujemy całkowitego szczęścia ani punktów liczbowych, ani nie używamy liczby pociągnięć. Pięć elementów jest używane tylko jako oś pomocnicza. Oto powody.",
-    "backLabel": "Przewodnik użytkowania",
+    "summary": "Nie przypisujemy całkowitego szczęścia ani punktów liczbowych, ani nie używamy liczby kresek. Pięć elementów jest używanych tylko jako dodatkowa oś. Oto powody.",
+    "backLabel": "Przewodnik po użytkowaniu",
     "sections": [
       {
         "title": "Powody, dla których nie przypisujemy całkowitego szczęścia ani punktów liczbowych",
         "blocks": [
           {
-            "p": "Istnieją metody, które przypisują całkowite szczęście lub punkty liczbowe imionom, aby je ocenić. Naming-Link nie dostarcza tych liczb. Powody są cztery."
+            "p": "Istnieją metody, które przypisują całkowite szczęście lub punkty liczbowe do imion, aby je ocenić. Naming-Link nie dostarcza tych liczb. Powody są cztery."
           },
           {
-            "p": "**Po pierwsze, nie ma tylko jednego standardu.** Metody obliczania szczęścia różnią się w zależności od szkoły, a to samo imię może być oceniane pozytywnie według jednego standardu i negatywnie według innego. Nie mamy podstaw, aby zdecydować, który z nich jest poprawny. To nieuczciwe przedstawiać jeden jako odpowiedź."
+            "p": "**Po pierwsze, nie ma tylko jednego standardu.** Metody obliczania fortuny różnią się w zależności od szkoły, a to samo imię może być oceniane pozytywnie według jednego standardu i negatywnie według innego. Nie mamy podstaw, aby zdecydować, który z nich jest poprawny. Niezgodne jest przedstawianie jednego jako odpowiedzi."
           },
           {
-            "p": "**Po drugie, te obliczenia opierają się na liczbie pociągnięć.** Jednak dane Sądu Najwyższego w ogóle nie zawierają liczby pociągnięć. Co więcej, liczby pociągnięć mogą się różnić w zależności od tego, czy są liczone jako znaki zwykłe czy uproszczone oraz jak liczone są elementy. Ponieważ podstawowe liczby nie są definitywnie ustalone, wyniki oparte na nich nie mogą być definitywne."
+            "p": "**Po drugie, te obliczenia opierają się na liczbie kresek.** Jednak dane z Sądu Najwyższego w ogóle nie zawierają liczby kresek. Co więcej, liczba kresek może się różnić w zależności od tego, czy są liczone jako znaki zwykłe czy uproszczone oraz jak liczone są elementy podstawowe. Ponieważ podstawowe liczby nie są definitywnie ustalone, wyniki oparte na nich nie mogą być definitywne."
           },
           {
-            "p": "**Po trzecie, liczby wydają się bardziej solidne niż rzeczywistość.** Kiedy mówi się \"87 punktów\", brzmi to jak wartość mierzona, a nie konwencjonalna interpretacja. Osoby nadające imiona mogą czuć presję związaną z tą liczbą, odsuwając na bok to, co naprawdę ważne (Czy jest przyjemne w wymawianiu? Czy znaczenie pasuje? Czy zawiera pożądane życzenia?)."
+            "p": "**Po trzecie, liczby wydają się bardziej solidne niż rzeczywistość.** Kiedy mówi \"87 punktów\", brzmi to jak zmierzona wartość, a nie konwencjonalna interpretacja. Osoby wybierające imię mogą czuć presję ze strony tej liczby, odsuwając na bok to, co naprawdę ważne (Czy jest przyjemnie je wymawiać? Czy znaczenie pasuje? Czy zawiera pożądane życzenia?)."
           },
           {
-            "p": "**Po czwarte, nie ma sposobu na weryfikację.** Związek między imieniem a życiem osoby nie może być zweryfikowany. Przekształcanie czegoś, co nie może być uznane za dobre lub złe, w wynik prowadzi do liczby, której nie można potwierdzić, mimo że nie może być błędna."
+            "p": "**Po czwarte, nie ma sposobu na weryfikację.** Związek między imieniem a życiem osoby nie może być zweryfikowany. Przekształcenie czegoś, co nie może być uznane za dobre lub złe, w wynik prowadzi do liczby, której nie można potwierdzić, mimo że nie może być błędna."
           },
           {
-            "p": "Używamy tylko tego, co może być **udowodnione.** Oficjalna tabela imion-hanja Sądu Najwyższego, przypisane odczyty dla każdego znaku oraz znaczenia wymienione w tabeli. Zamiast tego podajemy powody, dla których ten kandydat został wybrany i dlaczego niektóre znaki zostały wykluczone, pokazując **powody zamiast punktów**."
+            "p": "Używamy tylko tego, co można **uzasadnić.** Oficjalna tabela imiennych hanja z Sądu Najwyższego, przypisane odczyty dla każdego znaku oraz znaczenia wymienione w tabeli. Zamiast tego podajemy powody, dla których ten kandydat został wybrany i dlaczego niektóre znaki zostały wykluczone, pokazując **powody zamiast wyników**."
           }
         ]
       },
       {
-        "title": "Nie używamy liczby pociągnięć",
+        "title": "Nie używamy liczby kresek",
         "blocks": [
           {
-            "p": "Oficjalne dane imion-hanja dostarczone przez Sąd Najwyższy nie zawierają liczby pociągnięć. Spośród {characterTotal} znaków, które otrzymaliśmy, **żaden znak nie ma liczby pociągnięć.**"
+            "p": "Oficjalne dane dotyczące imiennych hanja dostarczone przez Sąd Najwyższy nie zawierają liczby kresek. Spośród {characterTotal} znaków, które otrzymaliśmy, **ani jeden znak nie ma liczby kresek.**"
           },
           {
-            "p": "Aby używać liczby pociągnięć, musielibyśmy uzyskać liczby z innego źródła, ale jeśli nie możemy wyjaśnić, skąd te liczby pochodzą i jakie kryteria były użyte do ich policzenia, oznaczałoby to ocenianie imion na podstawie nieuzasadnionych liczb. Zdecydowaliśmy się nie oceniać imion na podstawie wartości, które nie mogą być udowodnione."
+            "p": "Aby użyć liczby kresek, musielibyśmy uzyskać liczby z innego źródła, ale jeśli nie możemy wyjaśnić, skąd te liczby pochodzą i jakie kryteria zostały użyte do ich policzenia, oznaczałoby to ocenianie imion na podstawie nieuzasadnionych liczb. Zdecydowaliśmy się nie oceniać imion na podstawie wartości, które nie mogą być uzasadnione."
           }
         ]
       },
@@ -308,16 +333,16 @@ export const PL_DOCS = {
           {
             "figure": "five-elements",
             "labels": {
-              "alt": "Pięć elementów umieszczonych w okręgu: generacja przebiega między sąsiadami, kontrola pomija jeden",
+              "alt": "Pięć elementów umieszczonych w kole: generacja przebiega między sąsiadami, kontrola pomija jeden",
               "wood": "drewno",
               "fire": "ogień",
               "earth": "ziemia",
               "metal": "metal",
               "water": "woda",
-              "saeng": "Pokolenie — każde rodzi swoje sąsiednie",
-              "geuk": "Kontrola — każde ogranicza to, do czego przeskakuje"
+              "saeng": "Generacja — każdy rodzi swojego sąsiada",
+              "geuk": "Kontrola — każdy ogranicza tego, którego pomija"
             },
-            "caption": "Relacje między pięcioma elementami. Poruszanie się wzdłuż okręgu reprezentuje wzajemne rodzenie się (相生), podczas gdy pomijanie jednego i naciskanie na kolejny reprezentuje wzajemne ograniczenie (相剋). Używamy tej relacji tylko jako dodatkowej osi do porównywania kandydatów."
+            "caption": "Relacje między pięcioma elementami. Poruszanie się wzdłuż koła reprezentuje wzajemną generację (相生), podczas gdy pomijanie jednego i naciskanie reprezentuje wzajemne ograniczenie (相剋). Używamy tej relacji tylko jako dodatkowej osi do porównywania kandydatów."
           },
           {
             "p": "Jeśli wprowadziłeś swój miesiąc urodzenia, używamy uproszczonego odniesienia pięciu elementów na podstawie tego miesiąca jako dodatkowej osi do porównywania kandydatów. Jednak nie jest to precyzyjna analiza saju, a **nie twierdzimy, że imiona determinują los lub charakter osoby.**"
@@ -326,7 +351,7 @@ export const PL_DOCS = {
             "p": "W ostatecznym wyborze priorytetem są dźwięki, kombinacje znaczeń, wartości, które rodzina chce przekazać, oraz to, czy można je faktycznie zarejestrować. Jeśli nie wprowadziłeś swojego miesiąca urodzenia, całkowicie wykluczamy odniesienie pięciu elementów z analizy — nie robimy arbitralnych założeń na temat nieznanych informacji."
           },
           {
-            "p": "Jeśli chcesz precyzyjnej analizy opartej na saju, obejmujemy to w osobnym szczegółowym raporcie. Powodem, dla którego nie priorytetujemy pięciu elementów w darmowym dopasowywaniu hanja, jest to, że nie chcemy przedstawiać osądów opartych na pięciu elementach pochodzących z niekompletnej daty i godziny urodzenia, jakby były one ostateczne."
+            "p": "Jeśli chcesz precyzyjnej analizy opartej na saju, obejmujemy to w osobnym szczegółowym raporcie. Powód, dla którego nie priorytetujemy pięciu elementów w darmowym dopasowywaniu hanja, polega na tym, że nie chcemy przedstawiać ocen opartych na pięciu elementach wyprowadzonych z niekompletnej daty i godziny urodzenia, jakby były definitywne."
           }
         ]
       }
@@ -353,7 +378,7 @@ export const PL_DOCS = {
         "title": "Pełne ujawnienie wszystkich kandydatów — {priceUnlock}",
         "blocks": [
           {
-            "p": "Zalecane wyniki są strukturalnie otwierane jeden po drugim. Podczas przeglądania reklam, jeden otwiera się na raz, podczas gdy ten produkt **otwiera wszystkie pozostałe kandydaty jednocześnie**."
+            "p": "Zalecane wyniki są strukturalnie otwierane jeden po drugim. Podczas przeglądania reklam, jeden otwiera się na raz, podczas gdy ten produkt **otwiera wszystkie pozostałe kandydatów jednocześnie**."
           },
           {
             "p": "Jeśli nie spieszysz się, nie musisz kupować. **Wyniki z otwierania przez reklamy i te z płatności są całkowicie takie same** — to tylko kwestia czekania, a płatność nie przynosi lepszych kandydatów."
@@ -361,7 +386,7 @@ export const PL_DOCS = {
         ]
       },
       {
-        "title": "Szczegóły Hanja — Trzy etapy",
+        "title": "Szczegóły hanja — trzy etapy",
         "blocks": [
           {
             "p": "Istnieją trzy szczegółowe produkty w procesie wyboru hanja do dołączenia do imienia w Hangul."
@@ -370,17 +395,17 @@ export const PL_DOCS = {
             "ul": [
               "**Maksymalnie 5 szczegółowych kandydatów hanja** — {priceFiveDetail}. Możesz rozszerzyć wyjaśnienia dla maksymalnie pięciu kandydatów na ekranie. Nie ma PDF.",
               "**Maksymalnie 10 rozszerzonych szczegółowych kandydatów hanja w PDF** — {priceTenDetail}. Liczba kandydatów wzrasta do dziesięciu, a dokument PDF jest dołączony.",
-              "**Maksymalnie 10 kandydatów hanja z raportem saju i pięciu elementów** — {priceTenSaju}. Oprócz powyższego, zawiera wykres saju pochodzący z daty urodzenia oraz siły pięciu elementów, badając, dlaczego konkretne hanja pasuje do tego imienia z perspektywy pięciu elementów."
+              "**Maksymalnie 10 kandydatów hanja z raportem saju i pięciu elementów** — {priceTenSaju}. Oprócz powyższego, zawiera wykres saju wyprowadzony z daty urodzenia oraz siły pięciu elementów, badając, dlaczego konkretne hanja pasuje do tego imienia z perspektywy pięciu elementów."
             ]
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Hanja jako takie są informacjami publicznymi",
+        "title": "Hanja jest publicznie dostępną informacją",
         "blocks": [
           {
-            "p": "Użyteczne hanja i ich znaczenia pochodzą z oficjalnej tabeli hanja dla imion ustalonej przez Sąd Najwyższy Korei i wszystkie są publicznie dostępne w dokumentach informacyjnych usługi. To, co sprzedają płatne produkty, to nie informacje o hanja, ale **akt wyboru i wyjaśnienia go zgodnie z imieniem**."
+            "p": "Użyteczne hanja i ich znaczenia pochodzą z oficjalnej tabeli imiennych hanja ustalonej przez Sąd Najwyższy Korei, a wszystkie są publicznie dostępne w dokumentach pomocniczych usługi. To, co sprzedają płatne produkty, to nie informacje o hanja, ale **akt wyboru i wyjaśnienia go zgodnie z imieniem**."
           }
         ]
       },
@@ -399,13 +424,13 @@ export const PL_DOCS = {
         ]
       },
       {
-        "title": "Stempel imienia",
+        "title": "Stempel imienny",
         "blocks": [
           {
-            "p": "Wycinamy imię stworzone na ekranie w fizyczny stempel i wysyłamy do Ciebie. Ceny różnią się w zależności od modelu — okrągła pieczęć {priceStampRound}, kwadratowa pieczęć {priceStampSquare}, hebanowa pieczęć {priceStampEbony}. Dostawa międzynarodowa jest również dostępna."
+            "p": "Wycinamy imię stworzone na ekranie w fizyczny stempel i wysyłamy do Ciebie. Ceny różnią się w zależności od modelu — okrągły stempel {priceStampRound}, kwadratowy stempel {priceStampSquare}, stempel z hebanu {priceStampEbony}. Dostawa międzynarodowa jest również dostępna."
           },
           {
-            "p": "**Od tego miejsca, produkty obejmują wysyłkę.** W przeciwieństwie do poprzednich przedmiotów, produkcja i wysyłka zajmują czas, a wymagany jest adres odbioru. Informacje o wysyłce są używane tylko do przetwarzania zamówienia i prawnego przechowywania, a po zakończeniu przetwarzania zostaną zniszczone po okresie określonym w polityce."
+            "p": "**Od tego momentu, produkty obejmują wysyłkę.** W przeciwieństwie do poprzednich przedmiotów, produkcja i wysyłka zajmują czas, a wymagany jest adres dostawy. Informacje o wysyłce są używane tylko do przetwarzania zamówienia i prawnego przechowywania, a po zakończeniu przetwarzania zostaną zniszczone po okresie określonym w polityce."
           }
         ]
       },
@@ -413,7 +438,7 @@ export const PL_DOCS = {
         "title": "Rzeczy do wiedzenia przed zakupem",
         "blocks": [
           {
-            "p": "**Produkty cyfrowe są dostarczane natychmiast po dokonaniu płatności.** Możesz anulować i otrzymać pełny zwrot w dowolnym momencie przed rozpoczęciem pobierania, ale po zakończeniu pobierania, wycofanie z powodu prostej zmiany zdania jest ograniczone (Artykuł 17, Ustęp 2 Ustawy o handlu elektronicznym). Ten warunek jest osobno uzgadniany na ekranie płatności."
+            "p": "**Produkty cyfrowe są dostarczane natychmiast po dokonaniu płatności.** Możesz anulować i otrzymać pełny zwrot w dowolnym momencie przed rozpoczęciem pobierania, ale po zakończeniu pobierania, wycofanie z powodu prostych zmian zdania jest ograniczone (Artykuł 17, Akapit 2 Ustawy o handlu elektronicznym). Ten warunek jest osobno uzgadniany na ekranie płatności."
           },
           {
             "p": "**Reklamacje dotyczące treści wyników nie są powodem do zwrotu.** Jednak jeśli dokument nie został utworzony, plik nie może być otwarty lub kwota płatności różni się od zamówienia, zostanie to przetworzone jako ponowne wydanie lub pełny zwrot."
@@ -424,7 +449,7 @@ export const PL_DOCS = {
         ]
       }
     ]
-  },
+  }
 } satisfies Record<GlobalDocKey, DocPage>;
 
 export const PL_NOTICES = {
@@ -434,7 +459,7 @@ export const PL_NOTICES = {
     "policy": "Polityka",
     "support": "Wsparcie"
   },
-  "intro": "Zmiany w warunkach korzystania — ceny, polityki — są publikowane tutaj przed ich wejściem w życie. Wewnętrzne ulepszenia nie są wymienione: to, co się tutaj pojawia, to to, co musisz wiedzieć.",
+  "intro": "Zmiany w warunkach użytkowania — ceny, polityki — są publikowane tutaj przed ich wejściem w życie. Ulepszenia wewnętrzne nie są wymienione: to, co się tutaj pojawia, to to, co musisz wiedzieć.",
   "empty": {
     "title": "Brak powiadomień",
     "body": "Gdy coś się zmieni, pojawi się tutaj."
@@ -447,17 +472,17 @@ export const PL_NOTICES = {
   },
   "items": {
     "2026-08-02-contact": {
-      "title": "Strony Kontakt i O Nas są teraz otwarte",
+      "title": "Strony Kontakt i O nas są teraz otwarte",
       "body": [
-        "Pytania, zwroty, prośby o prywatność i zgłoszenia błędów mają teraz jedno miejsce, do którego można się zgłosić. Strona kontaktowa w stopce zawiera nasz adres e-mail i dane firmy.",
-        "Na czym opierają się nasze odpowiedzi i czego celowo nie robimy, jest napisane na stronie o nas."
+        "Pytania, zwroty, prośby o prywatność i raporty o błędach mają teraz jedno miejsce, do którego można się zgłaszać. Strona kontaktowa w stopce zawiera nasz adres e-mail i dane firmy.",
+        "Na czym opierają się nasze odpowiedzi i co celowo nie robimy, jest napisane na stronie o nas."
       ]
     },
     "2026-08-01-pdf-language": {
-      "title": "Raporty PDF są wydawane w języku angielskim dla języków arabskiego i khmerskiego",
+      "title": "Raporty PDF są wydawane w języku angielskim dla arabskiego i khmerskiego",
       "body": [
-        "Jeśli korzystasz z usługi w języku arabskim lub khmerskim, PDF, który kupujesz, jest produkowany w języku angielskim. Narzędzie, które układa nasze dokumenty, nie potrafi jeszcze ustawiać akapitów w tych dwóch skryptach.",
-        "Ekran pozostaje w twoim języku, a twoje imię jest wydrukowane w twoim własnym skrypcie wewnątrz dokumentu.",
+        "Jeśli korzystasz z usługi w języku arabskim lub khmerskim, PDF, który kupujesz, jest produkowany w języku angielskim. Narzędzie, które układa nasze dokumenty, nie może jeszcze ustawiać akapitów w tych dwóch skryptach.",
+        "Ekran pozostaje w twoim języku, a twoje imię jest drukowane w twoim własnym skrypcie wewnątrz dokumentu.",
         "Ta sama uwaga pojawia się przed płatnością. Gdy narzędzie będzie wspierać te skrypty, powiemy o tym tutaj."
       ]
     },
@@ -465,7 +490,7 @@ export const PL_NOTICES = {
       "title": "Płatności nie są jeszcze otwarte",
       "body": [
         "Tworzenie imienia i odczytywanie wyniku jest dzisiaj darmowe i nie jest wymagane konto.",
-        "Płatne przedmioty nie są jeszcze w sprzedaży. Kwoty pokazane na stronie cenowej będą miały zastosowanie, gdy sprzedaż się otworzy."
+        "Płatne przedmioty nie są jeszcze w sprzedaży. Kwoty pokazane na stronie cenowej będą obowiązywać, gdy sprzedaż się otworzy."
       ]
     }
   }

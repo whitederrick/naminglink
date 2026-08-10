@@ -6,17 +6,31 @@ export const TR_DOCS = {
   "about": {
     "eyebrow": "Hakkında",
     "title": "Naming-Link Hakkında",
-    "summary": "Size Korece isimleri seçme ve anlama konusunda yardımcı oluyoruz. İşte sonuçlarımızı dayandırdığımız noktalar ve bilerek yapmadığımız şeyler.",
+    "summary": "Korece isimleri seçmenize ve anlamanıza yardımcı oluyoruz. İşte sonuçlarımızı dayandırdığımız noktalar ve bilerek yapmadığımız şeyler.",
     "backLabel": "Ana Sayfa",
     "sections": [
       {
         "title": "Ne yapıyoruz",
         "blocks": [
           {
-            "p": "Naming-Link, size **Korece isimleri seçme ve anlama** konusunda yardımcı olur — bir çocuğun isminin arkasındaki hanja, yurtdışında kullanılacak bir Korece isim, kendi isminizin Hangul yazımı ve mühür veya basılı rapor gibi hatıralar."
+            "p": "Naming-Link, **Korece isimleri seçmenize ve anlamanıza** yardımcı olur — bir çocuğun isminin arkasındaki hanja, yurtdışında kullanılacak bir Korece isim, kendi isminizin Hangul yazımı ve bir mühür veya basılı rapor gibi hatıralar."
           },
           {
             "p": "Sonuçlarınızı görmek **ücretsizdir ve hesap gerektirmez.** Ücretli öğeler, ekranda zaten gösterilenleri yeniden satmaz: daha fazla aday açar, yazılı analiz ekler veya sonucu saklayabileceğiniz bir şeye dönüştürür."
+          }
+        ]
+      },
+      {
+        "title": "Her hizmet kimin için",
+        "blocks": [
+          {
+            "p": "Burada iki tür hizmet var: **zaten bir Korece isme sahip olanlar** için bir hizmet ve **bir isme ihtiyaç duyanlar** için bir hizmet. Bunlar sizden farklı şeyler gerektirir, bu nedenle farklı dillerde sunulurlar."
+          },
+          {
+            "ul": [
+              "**Kendi dilinizde sunulmaktadır** — kendi isminizi Hangul ile yazmak ve bir Korece ismi oluşturmak. Bunlar Korece ismi olmayan kişiler içindir, bu nedenle geldiğiniz dile göre ilerler.",
+              "**Sadece Korece sunulmaktadır** — bir çocuk için isim-hanja bulmak ve bir Korece ismi yurtdışında kullanılacak bir isme dönüştürmek. Her ikisi de çalışmak için **mevcut bir Hangul ismi** gerektirir, bu nedenle ekranlar ve kılavuzları Korece kalır."
+            ]
           }
         ]
       },
@@ -30,7 +44,7 @@ export const TR_DOCS = {
             "p": "Saju ve beş element figürleri, **Kore lunisolar takviminden** hesaplanır ve doğum zamanı, doğum yeri için gerçek güneş zamanına göre düzeltilir. Okuma, geleneksel bir referanstır, tahmin değildir."
           },
           {
-            "p": "Yazılı açıklamalar AI tarafından üretilir. **Şeyler icat etmesini** önlemek için, modele yalnızca sizin girdiniz ve kendi referans verilerimiz verilir ve bunun içinde kalması söylenir. Kılavuzlar bunu ayrıntılı olarak açıklar."
+            "p": "Yazılı açıklamalar AI tarafından üretilir. **şeyler icat etmesini** önlemek için, modele yalnızca sizin girdiniz ve kendi referans verilerimiz verilir ve bunun içinde kalması söylenir. Kılavuzlar bunu ayrıntılı olarak açıklar."
           }
         ]
       },
@@ -41,7 +55,7 @@ export const TR_DOCS = {
             "ul": [
               "**Kehanet yapmıyoruz.** Burada hiçbir şey şans, zenginlik veya koruma vaat etmez.",
               "**İsminizi saklamıyoruz.** Ücretsiz sonuçlar asla sunucularımıza yazılmaz ve ücretli belgeler, dosyanın bir kopyasını saklamadan teslim edilir.",
-              "**Ödeme, daha iyi bir cevap satın almaz.** Reklamla açma ve ödeme ile açma tam olarak aynı içeriği verir."
+              "**Ödeme, daha iyi bir cevap satın almaz.** Reklamla açma ve ödeme ile açma, tam olarak aynı içeriği verir."
             ]
           }
         ]
@@ -58,7 +72,7 @@ export const TR_DOCS = {
         "title": "İletişim",
         "blocks": [
           {
-            "p": "Şirket bilgileri ve bize ulaşma yolları [iletişim sayfasında](/contact) bulunmaktadır; iade, gizlilik talepleri ve hata raporları dahil."
+            "p": "Şirket bilgileri ve bize nasıl ulaşacağınız [iletişim sayfasında](/contact) yer almaktadır, iade, gizlilik talepleri ve hata raporları dahil."
           }
         ]
       }
@@ -67,7 +81,7 @@ export const TR_DOCS = {
   "guide": {
     "eyebrow": "Naming-Link nasıl çalışır",
     "title": "İsminizi neye dayandırıyoruz",
-    "summary": "Korece bir soyadı nasıl seçiyoruz, belirli bir isim önermeden önce neyi kontrol ediyoruz ve isminizi Hangul'da nasıl yazıyoruz — bilerek bıraktığımız kısımlar ile.",
+    "summary": "Bir Korece soyadı nasıl seçiyoruz, bir isim önerirken neyi kontrol ediyoruz ve isminizi Hangul ile nasıl yazıyoruz — bilerek çıkardığımız kısımlar ile.",
     "backLabel": "Kılavuz",
     "sections": [
       {
@@ -94,34 +108,45 @@ export const TR_DOCS = {
             ]
           }
         ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Aşağıdaki kılavuzlar, kendi dilinizde sunulan hizmetleri kapsar. Naming-Link ayrıca **zaten bir Korece isme sahip olanlar** için iki hizmet sunar — bir çocuk için isim-hanja bulmak ve bir Korece ismi yurtdışında kullanılacak bir isme dönüştürmek. Bunlar mevcut bir Hangul ismi gerektirir, bu nedenle her iki hizmet ve kılavuzları Korece'dir."
+          },
+          {
+            "p": "[Hakkında](/about) hangi hizmetin kime ait olduğunu açıklar."
+          }
+        ]
       }
     ]
   },
   "guide/how-hangul-transliteration": {
     "eyebrow": "Nasıl çalışır",
-    "title": "İsminizi Hangul'da nasıl yazıyoruz",
-    "summary": "Yabancı bir ismi Hangul'da yazarken sesleri nasıl seçiyoruz ve neden hanja eklemiyoruz.",
+    "title": "İsminizi Hangul ile nasıl yazıyoruz",
+    "summary": "Yabancı bir ismi Hangul ile yazarken sesleri nasıl seçiyoruz ve neden hanja eklemediğimizi.",
     "backLabel": "Kılavuz",
     "sections": [
       {
         "title": "Anlamı değil, sesi taşırız",
         "blocks": [
           {
-            "p": "Bu hizmet, **isminizi** Hangul'da yazar. Size bir Korece isim vermez. Michael becomes 마이클 — aynı isim, Korelilerin okuyup söyleyebilmesi için yazılmıştır. Benzer bir anlam taşıyan bir Korece isimle değiştirmiyoruz."
+            "p": "Bu hizmet, **isminizi** Hangul ile yazar. Size bir Korece isim vermez. Michael becomes 마이클 — aynı isim, Korelilerin okuyup söyleyebileceği şekilde yazılmıştır. Bunu, benzer bir anlam taşıyan bir Korece ismi ile değiştirmiyoruz."
           },
           {
-            "p": "Eğer istediğiniz bir Kore adıysa, **bu farklı bir hizmettir**. Birisi adınızı korur ve sadece yazı tipini değiştirir; diğeri ise yeni bir ad önerir."
+            "p": "Eğer istediğiniz bir Korece ismi ise, **bu farklı bir hizmettir.** Biri isminizi korur ve sadece yazı tipini değiştirir; diğeri yeni bir isim önerir."
           }
         ]
       },
       {
-        "title": "Korece sesler yok",
+        "title": "Korece'de olmayan sesler",
         "blocks": [
           {
-            "p": "Her dilin Korece'nin eksik olduğu sesler vardır — f, v, z, th ve Korece'nin yapmadığı sesli harf ayrımları. Bu sesler için, adınızı yüksek sesle okurken **bir Korece konuşanın gerçekten söylediği** şekilde yazarız, orijinal fonetiği harf harf yazmak yerine. Amaç, kullanılacak yazım şeklidir, en teknik olarak sadık olan değil."
+            "p": "Her dilin Korece'nin eksik olduğu sesleri vardır — f, v, z, th ve Korece'nin yapmadığı sesli harf ayrımları. Bunlar için, isminizi sesli olarak okuduğunda **bir Korece konuşucunun gerçekten söylediği** şeyi yazarız, orijinal fonetiği sembol sembol transkribe etmek yerine. Amaç, kullanılacak yazım olmaktır, en teknik olarak sadık olan değil."
           },
           {
-            "p": "Aynı yazım, bir adın nereden geldiğine bağlı olarak farklılık gösterebilir, bu yüzden dilinizi ve ülkenizi soruyoruz ve o telaffuza göre çalışıyoruz."
+            "p": "Aynı yazım, bir ismin nereden geldiğine bağlı olarak farklılık gösterebilir, bu nedenle dilinizi ve ülkenizi soruyoruz ve o telaffuzdan çalışıyoruz."
           }
         ]
       },
@@ -129,10 +154,10 @@ export const TR_DOCS = {
         "title": "Birden fazla yazım, yan yana",
         "blocks": [
           {
-            "p": "Tek bir doğru cevap yoktur. Orijinal sese en yakın yazım, Kore'de en yaygın olarak kullanılan yazım ve yazması en kolay olan yazım genellikle üç farklı şeydir. Bu yüzden onları bir arada gösteriyoruz ve neyin ayırdığını söylüyoruz."
+            "p": "Tek bir doğru cevap yoktur. Orijinal sese en yakın yazım, Kore'de en yaygın olarak kullanılan yazım ve yazması en kolay olan yazım genellikle üç farklı şeydir. Bu nedenle, bunları bir arada gösteriyoruz ve ayıran şeyleri söylüyoruz."
           },
           {
-            "p": "Eğer hiçbiri doğru hissettirmiyorsa, istediğiniz ses hakkında bir ipucu ekleyebilir ve tekrar çalıştırabilirsiniz — örneğin, belirli bir hecenin farklı yazılması gerektiğini belirtebilirsiniz."
+            "p": "Eğer hiçbiri doğru hissettirmiyorsa, istediğiniz ses hakkında bir ipucu ekleyebilir ve tekrar çalıştırabilirsiniz — örneğin, belirli bir hecenin farklı yazılması gerektiğini."
           }
         ]
       },
@@ -141,7 +166,7 @@ export const TR_DOCS = {
         "title": "Burada hanja yok",
         "blocks": [
           {
-            "p": "Bir transliterasyona hanja eklemiyoruz. Hanja anlam taşır ve bu akış sesle ilgilidir. Karakterleri sadece sese eşleştirmek, istemediğiniz bir anlamla sonuçlanabilir."
+            "p": "Bir transliterasyona hanja eklemiyoruz. Hanja anlam taşır ve bu akış sesle ilgilidir. Karakterleri sadece sese eşleştirmek, istemediğiniz bir anlamla karşılaşmanıza neden olabilir."
           }
         ]
       }
@@ -149,21 +174,21 @@ export const TR_DOCS = {
   },
   "guide/how-global-to-korean": {
     "eyebrow": "Nasıl çalışır",
-    "title": "Korece bir adı nasıl oluşturuyoruz",
-    "summary": "Mevcut soyadlarından seçim yapıyoruz, adın ne kadar kolay söylendiğini ve yazıldığını değerlendiriyoruz ve adın ne için olduğunu soruyoruz.",
+    "title": "Korece bir isim nasıl oluşturuyoruz",
+    "summary": "Mevcut soyadlarından seçim yapıyoruz, ismin kolayca söylenip yazılmasını değerlendiriyoruz ve ismin ne için olduğunu soruyoruz.",
     "backLabel": "Kılavuz",
     "sections": [
       {
         "title": "Aile adıyla başlıyoruz",
         "blocks": [
           {
-            "p": "Kore'de aile adı önce gelir ve verilen adlar gibi serbestçe icat edilmez — onu miras alırsınız. Bu yüzden yalnızca Koreli insanların gerçekten sahip olduğu soyadlarını öneriyoruz. Varsayılan havuzumuz **en yaygın 20 soyadı**dır ve bunlar toplamda nüfusun yaklaşık %80'ini kapsar."
+            "p": "Kore'de aile adı önce gelir ve verilen isimler gibi serbestçe icat edilmez — onu miras alırsınız. Bu nedenle, yalnızca Korelilerin gerçekten sahip olduğu soyadlarını öneriyoruz. Varsayılan havuzumuz **en yaygın 20 soyadı**dır ve bu soyadları toplamda nüfusun yaklaşık %80'ini kapsar."
           },
           {
-            "p": "Eğer kendi soyadınız bir gerçek Kore soyadıyla ses uyumu sağlıyorsa — Wang ile 왕, Ye ile 예 — onu ilk sıraya koyarız. Orijinal adınıza bir bağ tutmak, rastgele seçilen bir soyadından daha değerlidir."
+            "p": "Eğer kendi soyadınız bir gerçek Kore soyadıyla ses uyumu sağlıyorsa — Wang ile 왕, Ye ile 예 — onu ilk sıraya koyuyoruz. Orijinal isminizle bir bağlantı kurmak, rastgele seçilen bir soyadından daha değerlidir."
           },
           {
-            "p": "Bir soyadı kendiniz seçebilir veya bizim önerimizi kabul edebilirsiniz. Her iki durumda da, **var olan bir soyadı olacaktır**."
+            "p": "Bir soyadı kendiniz seçebilir veya bize öneri yapmamızı sağlayabilirsiniz. Her iki durumda da **var olan bir soyadı** olacaktır."
           }
         ]
       },
@@ -171,18 +196,18 @@ export const TR_DOCS = {
         "title": "Söylemesi kolay, yazması kolay",
         "blocks": [
           {
-            "p": "Bu, Kore'de insanların sizi gerçekten çağıracağı bir isimdir, bu yüzden ilk kontrol ettiğimiz şey, bir Korelinin bunu bir kez duyup yazıp yazamayacağıdır. Her seferinde hecelemek gereken bir isim, sizin taşıdığınız bir yük, bizim değil."
+            "p": "Bu, Kore'de insanların sizi gerçekten çağıracağı bir isimdir, bu yüzden ilk kontrol ettiğimiz şey, bir Korelinin ismi bir kez duyup yazıp yazamayacağıdır. Her seferinde hecelemek zorunda kalacağınız bir isim, sizin taşıdığınız bir yük, bizim değil."
           },
           {
-            "p": "Anlam da önemlidir. Korece verilen adlar genellikle bir anlam taşır, bu yüzden adın ne okunduğunu ve neden seçtiğimizi size söyleriz — sadece adın kendisi değil."
+            "p": "Anlam da önemlidir. Korece verilen isimler genellikle bir anlam taşır, bu yüzden ismin ne okunduğunu ve neden seçtiğimizi size bildiriyoruz — sadece ismin kendisini değil."
           }
         ]
       },
       {
-        "title": "Adın ne için olduğunu soruyoruz",
+        "title": "İsmin ne için olduğunu soruyoruz",
         "blocks": [
           {
-            "p": "Üniversite belgeleri için bir ad, arkadaşların bir odanın içinde bağıracağı bir adla veya çevrimiçi kullanacağınız bir takma adla aynı değildir. Ne amaçla kullanmayı planladığınızı soruyoruz ve bunu dikkate alıyoruz."
+            "p": "Üniversite belgeleri için bir isim, arkadaşların bir odada bağıracağı bir isimle aynı değildir veya çevrimiçi kullanacağınız bir takma adla. Onu nasıl kullanmayı planladığınızı soruyoruz ve bunu dikkate alıyoruz."
           }
         ]
       },
@@ -191,7 +216,7 @@ export const TR_DOCS = {
         "title": "Bu bir transliterasyon değil",
         "blocks": [
           {
-            "p": "Burada **yeni bir Kore adı** öneriyoruz. Mevcut adınızı Hangul ile yazdırmak istiyorsanız — Michael olarak 마이클 — [Hangul yazım kılavuzuna](/guide/how-hangul-transliteration) bakın."
+            "p": "Burada **yeni bir Kore ismi** öneriyoruz. Mevcut isminizin Hangul ile yazılmasını istiyorsanız — Michael olarak 마이클 — [Hangul yazım kılavuzuna](/guide/how-hangul-transliteration) bakın."
           }
         ]
       }
@@ -200,21 +225,21 @@ export const TR_DOCS = {
   "notice": {
     "eyebrow": "Duyurular",
     "title": "Duyurular",
-    "summary": "Hizmeti kullanma şeklinizi etkileyen değişiklikleri duyurduğumuz yer.",
+    "summary": "Hizmeti kullanımınızı etkileyen değişiklikleri duyurduğumuz yer.",
     "backLabel": "Ana Sayfa",
     "sections": []
   },
   "contact": {
     "eyebrow": "İletişim",
     "title": "Bize ulaşın",
-    "summary": "Sorular, iadeler, gizlilik talepleri ve hata raporları için nasıl ulaşabileceğinizi, şirket bilgilerimizle birlikte.",
+    "summary": "Soru, iade, gizlilik talepleri ve hata raporları için nasıl ulaşabileceğinizi, şirket bilgilerimizle birlikte.",
     "backLabel": "Ana Sayfa",
     "sections": [
       {
         "title": "Bize e-posta gönderin",
         "blocks": [
           {
-            "p": "**{email}** adresine yazın. İki iş günü içinde yanıtlıyoruz. Bir siparişle ilgili herhangi bir şey için — ödeme, iade, almadığınız bir dosya — lütfen **sipariş numaranızı veya ödediğiniz e-posta adresini** ekleyin."
+            "p": "**{email}** adresine yazın. İki iş günü içinde yanıt veriyoruz. Bir siparişle ilgili herhangi bir şey — ödeme, iade, almadığınız bir dosya — lütfen **sipariş numaranızı veya ödediğiniz e-posta adresini** ekleyin."
           },
           {
             "p": "Telefonla sorgular: {customerCenter} (Kore iş saatleri)."
@@ -229,7 +254,7 @@ export const TR_DOCS = {
               "**Ödemeler ve iadeler** — eğer bir belge hiç üretilmediyse veya tahsil edilen miktar siparişinizden farklıysa, tam olarak iade ediyoruz. [İade politikası](/refund-policy) için bakın.",
               "**Gizlilik** — verilerinize erişim, düzeltme veya silme talepleri. [Gizlilik politikası](/privacy) için bakın.",
               "**Düzeltmeler** — eğer bir hanja anlamı, okunuşu veya hesaplaması yanlış görünüyorsa, bize bildirin. Hangi ekranda ve ne girdiğinizi belirtmek çok yardımcı olur.",
-              "**Başka bir şey** — ortaklıklar ve basın aynı adrese gider."
+              "**Diğer her şey** — ortaklıklar ve basın aynı adrese gider."
             ]
           }
         ]
@@ -256,7 +281,7 @@ export const TR_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Mesajınızda bir isim veya doğum tarihi eklemenize gerek yoktur. Ücretsiz sonuçlar sunucularımızda asla saklanmaz, bu nedenle onları tekrar arayamıyoruz — bir sipariş numarası yeterlidir."
+            "p": "Mesajınızda bir isim veya doğum tarihi eklemeniz gerekmez. Ücretsiz sonuçlar asla sunucularımızda saklanmaz, bu nedenle onları tekrar bulamayız — bir sipariş numarası yeterlidir."
           }
         ]
       }
@@ -264,69 +289,69 @@ export const TR_DOCS = {
   },
   "guide/what-we-dont-use": {
     "eyebrow": "Standartlarımız",
-    "title": "Kullanmadığımız Şeyler",
-    "summary": "Toplam şans veya sayısal puanlar atamıyoruz, ayrıca darbe sayıları da kullanmıyoruz. Beş element yalnızca tamamlayıcı bir eksen olarak kullanılır. İşte nedenleri.",
+    "title": "Kullanmıyoruz",
+    "summary": "Toplam şans veya sayısal puanlar atamıyoruz, ayrıca darbe sayıları kullanmıyoruz. Beş element yalnızca ek bir eksen olarak kullanılır. İşte nedenleri.",
     "backLabel": "Kullanım Kılavuzu",
     "sections": [
       {
-        "title": "Toplam şans veya sayısal puanlar atamama nedenleri",
+        "title": "Toplam şans veya sayısal puan atamama nedenleri",
         "blocks": [
           {
-            "p": "İsimlere puan vermek için toplam şans veya sayısal puanlar atayan yöntemler vardır. Naming-Link bu sayıları sağlamaz. Nedenleri dört katmanlıdır."
+            "p": "İsimlere toplam şans veya sayısal puan atayan yöntemler vardır. Naming-Link bu sayıları sağlamaz. Nedenleri dördü."
           },
           {
-            "p": "**Öncelikle, tek bir standart yoktur.** Şans hesaplama yöntemleri okula göre değişir ve aynı isim bir standart tarafından olumlu, diğer bir standart tarafından olumsuz değerlendirilebilir. Hangisinin doğru olduğunu belirleyecek bir temelimiz yok. Birini doğruymuş gibi sunmak dürüst değildir."
+            "p": "**Öncelikle, sadece bir standart yoktur.** Şans hesaplama yöntemleri okula göre değişir ve aynı isim bir standart tarafından olumlu, diğer bir standart tarafından olumsuz değerlendirilebilir. Hangisinin doğru olduğunu belirlemek için bir temelimiz yok. Birini doğruymuş gibi sunmak dürüst değildir."
           },
           {
-            "p": "**İkincisi, bu hesaplamalar darbe sayılarına dayanır.** Ancak, Yüksek Mahkeme verileri darbe sayılarını hiç içermez. Dahası, darbe sayıları, karakterlerin normal veya basitleştirilmiş olarak sayılıp sayılmadığına ve köklerin nasıl sayıldığına bağlı olarak değişebilir. Temel sayılar kesin olarak belirlenmediğinden, bunların üzerine inşa edilen puanlar da kesin olamaz."
+            "p": "**İkincisi, bu hesaplamalar darbe sayımlarına dayanır.** Ancak, Yüksek Mahkeme verileri hiç darbe sayısı içermez. Dahası, darbe sayıları, karakterlerin normal veya basitleştirilmiş olarak sayılıp sayılmadığına ve radikallerin nasıl sayıldığına bağlı olarak değişebilir. Temel sayılar kesin olarak belirlenmediğinden, bunların üzerine inşa edilen puanlar kesin olamaz."
           },
           {
-            "p": "**Üçüncüsü, sayılar gerçeklikten daha sağlam görünür.** \"87 puan\" dediğinde, bu ölçülen bir değer gibi okunur, geleneksel bir yorumdan ziyade. Bu isimlendirme, o sayıdan dolayı baskı hissedebilir, gerçekten önemli olanı (Çağırması hoş mu? Anlamı uyuyor mu? İstenilen dilekleri içeriyor mu?) bir kenara itebilir."
+            "p": "**Üçüncüsü, sayılar gerçekte olduğundan daha sağlam görünür.** \"87 puan\" dediğinde, bu ölçülen bir değer gibi okunur, geleneksel bir yorumdan ziyade. Bu isimler o sayıdan baskı hissedebilir, gerçekten önemli olanı (Çağırmak hoş mu? Anlamı uyuyor mu? İstenilen dilekleri içeriyor mu?) bir kenara iterek."
           },
           {
-            "p": "**Dördüncüsü, doğrulama imkanı yoktur.** Bir isim ile bir kişinin hayatı arasındaki ilişki doğrulanamaz. Doğru veya yanlış olduğu söylenemeyen bir şeyi bir puana dönüştürmek, yanlış olamayacak bir sayı ile sonuçlanır, ancak doğrulanamaz."
+            "p": "**Dördüncüsü, doğrulama yolu yoktur.** Bir isim ile bir kişinin hayatı arasındaki ilişki doğrulanamaz. Doğru veya yanlış olduğu söylenemeyen bir şeyi bir puana dönüştürmek, yanlış olamayacak bir sayıya yol açar, ancak bu sayı doğrulanamaz."
           },
           {
-            "p": "Sadece **kanıtlanabilir olanı** kullanıyoruz. Yüksek Mahkeme resmi isim-hanja tablosu, her karakter için belirlenen okumalar ve tabloda listelenen anlamlar. Bunun yerine, bu adayın neden seçildiği ve neden belirli karakterlerin hariç tutulduğuna dair nedenler sağlıyoruz, **puanlar yerine nedenler** gösteriyoruz."
+            "p": "Sadece **kanıtlanabilir olanları** kullanıyoruz. Yüksek Mahkeme'nin resmi isim-hanja tablosu, her karakter için belirlenen okumalar ve tabloda listelenen anlamlar. Bunun yerine, bu adayın neden seçildiği ve belirli karakterlerin neden dışlandığına dair nedenler sunuyoruz, **puanlar yerine nedenler** gösteriyoruz."
           }
         ]
       },
       {
-        "title": "Darbe sayılarını kullanmıyoruz",
+        "title": "Darbe sayımlarını kullanmıyoruz",
         "blocks": [
           {
-            "p": "Yüksek Mahkeme tarafından sağlanan resmi isim-hanja verileri darbe sayılarını içermez. Aldığımız {characterTotal} karakter arasında, **hiçbir karakterin darbe sayısı yoktur.**"
+            "p": "Yüksek Mahkeme tarafından sağlanan resmi isim-hanja verileri darbe sayımlarını içermez. Aldığımız {characterTotal} karakter arasında, **tek bir karakter bile darbe sayısına sahip değildir.**"
           },
           {
-            "p": "Darbe sayılarını kullanmak için, başka bir yerden sayılar elde etmemiz gerekir, ancak bu sayıların nereden geldiğini ve hangi kriterlerin kullanıldığını netleştiremiyorsak, bu, isimleri temelsiz sayılara göre değerlendirmek anlamına gelir. Temelsiz değerlere dayanarak isimleri değerlendirmemeye karar verdik."
+            "p": "Darbe sayımlarını kullanmak için, başka bir yerden sayıları elde etmemiz gerekecek, ancak bu sayıların nereden geldiğini ve nasıl sayıldığını netleştiremiyorsak, bu, isimleri temelsiz sayılara dayanarak değerlendirmek anlamına gelir. Kanıtlanamayan değerlere dayanarak isimleri değerlendirmemeye karar verdik."
           }
         ]
       },
       {
-        "title": "Beş elementi yalnızca bir referans olarak kullanıyoruz",
+        "title": "Beş elementi sadece referans olarak kullanıyoruz",
         "blocks": [
           {
             "figure": "five-elements",
             "labels": {
-              "alt": "Beş element bir daire içinde yerleştirilmiştir: nesil komşular arasında akar, kontrol bir atlar",
+              "alt": "Bir daire içinde yerleştirilen beş element: üretim komşular arasında gerçekleşir, kontrol birini atlar",
               "wood": "ağaç",
               "fire": "ateş",
               "earth": "toprak",
               "metal": "metal",
               "water": "su",
               "saeng": "Üretim — her biri komşusunu doğurur",
-              "geuk": "Kontrol — her biri atladığına engel olur"
+              "geuk": "Kontrol — her biri atladığı kişiyi kısıtlar"
             },
-            "caption": "Beş element arasındaki ilişkiler. Çember boyunca hareket etmek karşılıklı üretimi (相生) temsil ederken, birini atlayıp baskı yapmak karşılıklı kısıtlamayı (相剋) temsil eder. Bu ilişkiyi yalnızca adayları karşılaştırmak için ek bir eksen olarak kullanıyoruz."
+            "caption": "Beş element arasındaki ilişkiler. Daire boyunca hareket etmek karşılıklı üretimi (相生) temsil ederken, birini atlamak ve baskı yapmak karşılıklı kısıtlamayı (相剋) temsil eder. Bu ilişkiyi yalnızca adayları karşılaştırmak için ek bir eksen olarak kullanıyoruz."
           },
           {
-            "p": "Eğer doğum ayınızı girdiyseniz, o aya dayanan beş elementin basitleştirilmiş referansını adayları karşılaştırmak için ek bir eksen olarak kullanıyoruz. Ancak bu, kesin bir saju analizi değildir ve **isimlerin bir kişinin kaderini veya karakterini belirlediğini iddia etmiyoruz.**"
+            "p": "Eğer doğum ayınızı girdiyseniz, o ay temel alınarak beş elementin basitleştirilmiş bir referansını kullanıyoruz, bu da adayları karşılaştırmak için ek bir eksen olarak işlev görüyor. Ancak, bu kesin bir saju analizi değildir ve **isimlerin bir kişinin kaderini veya karakterini belirlediğini iddia etmiyoruz.**"
           },
           {
-            "p": "Son seçimde öncelik verdiğimiz şeyler sesler, anlam kombinasyonları, ailenin iletmek istediği değerler ve kaydedilebilir olup olmadığıdır. Eğer doğum ayınızı girmediyseniz, analizden beş element referansını tamamen hariç tutuyoruz — bilinmeyen bilgiler hakkında keyfi varsayımlar yapmıyoruz."
+            "p": "Son seçimde öncelik verdiğimiz şeyler sesler, anlamların kombinasyonları, ailenin iletmek istediği değerler ve gerçekten kaydedilip kaydedilemeyeceğidir. Eğer doğum ayınızı girmediyseniz, beş element referansını analizden tamamen hariç tutuyoruz — bilinmeyen bilgiler hakkında keyfi varsayımlarda bulunmuyoruz."
           },
           {
-            "p": "Eğer kesin bir saju tabanlı analiz istiyorsanız, bunu ayrı bir detaylı raporda ele alıyoruz. Beş elementleri ücretsiz hanja eşleştirmede öncelik vermememizin nedeni, eksik bir doğum tarihi ve saatine dayanan beş elementlerden elde edilen yargıları kesinmiş gibi sunmak istemememizdir."
+            "p": "Eğer kesin bir saju tabanlı analiz istiyorsanız, bunu ayrı bir detaylı raporda ele alıyoruz. Beş elementleri önceliklendirmememizin nedeni, eksik doğum tarihi ve saatine dayanan beş elementlerden türetilen yargıları kesinmiş gibi sunmak istemememizdir."
           }
         ]
       }
@@ -335,17 +360,17 @@ export const TR_DOCS = {
   "guide/what-we-sell": {
     "eyebrow": "Ücretli Ürünler",
     "title": "Ücretli ürünlerde neler var?",
-    "summary": "Ücretsiz olarak ne kadarının görünür olduğunu ve her ürün için ödemeyle birlikte gelen ek özellikleri netleştiriyoruz. Fiyatlar, gerçek ürün ayarlarından alınmaktadır.",
+    "summary": "Ücretsiz olarak ne kadarının görünür olduğunu ve her ürün için ödemenin getirdiği ek özellikleri netleştiriyoruz. Fiyatlar, gerçek ürün ayarlarından alınır.",
     "backLabel": "Kullanım Kılavuzu",
     "sections": [
       {
         "title": "Ücretsiz olarak ne görünür?",
         "blocks": [
           {
-            "p": "Bir isim oluşturmak ve sonuçları görüntülemek **ücretsizdir**. Üyelik kaydı gerekmemektedir. Hanja'nın eşleşen anlamlarını, Korece isimler oluşturmayı, küresel isim dönüşümünü ve Hangul telaffuz notasyonunu görebilir, ekran üzerinde önerilen sonuçlar ve bunların gerekçeleriyle birlikte inceleyebilirsiniz."
+            "p": "Bir isim oluşturmak ve sonuçları görüntülemek **ücretsizdir.** Üyelik kaydı gerektirmez. Ekranda hanja'nın eşleşen anlamlarını, Korece isimler oluşturmayı, küresel isim dönüşümünü ve Hangul telaffuz notasyonunu görebilir, önerilen sonuçları ve bunların gerekçelerini izleyebilirsiniz."
           },
           {
-            "p": "Ücretli ürünler **ekranda daha önce gösterilenleri yeniden satmaz.** Daha fazla aday açar, daha fazla açıklama ekler veya saklanabilir veya iletilebilir bir format oluşturur."
+            "p": "Ücretli ürünler **zaten ekranda gösterilenleri yeniden satmaz.** Daha fazla aday açar, daha fazla açıklama ekler veya saklanabilir veya iletilebilir bir format oluşturur."
           }
         ]
       },
@@ -353,10 +378,10 @@ export const TR_DOCS = {
         "title": "Tüm adayların tam açıklaması — {priceUnlock}",
         "blocks": [
           {
-            "p": "Önerilen sonuçlar, adayları birer birer açacak şekilde yapılandırılmıştır. Reklamları görüntülerken, bir seferde bir tane açılırken, bu ürün **tüm kalan adayları bir anda açar.**"
+            "p": "Önerilen sonuçlar, adayları birer birer açacak şekilde yapılandırılmıştır. Reklamları görüntülerken, bir tanesi açılırken, bu ürün **tüm kalan adayları bir anda açar.**"
           },
           {
-            "p": "Eğer acele etmiyorsanız, satın almanıza gerek yoktur. **Reklamlar aracılığıyla açılan sonuçlar ile ödemeden elde edilen sonuçlar tamamen aynıdır** — sadece beklemek meselesidir ve ödeme yapmak daha iyi adaylar sağlamaz."
+            "p": "Eğer acele etmiyorsanız, satın almanıza gerek yok. **Reklamlar aracılığıyla açılan sonuçlar ile ödemeden elde edilenler tamamen aynıdır** — sadece beklemek meselesidir ve ödeme yapmak daha iyi adaylar sağlamaz."
           }
         ]
       },
@@ -370,7 +395,7 @@ export const TR_DOCS = {
             "ul": [
               "**Maksimum 5 hanja adayı detaylı** — {priceFiveDetail}. Ekranda beş adaya kadar açıklamaları genişletebilirsiniz. PDF yoktur.",
               "**Maksimum 10 hanja adayı genişletilmiş detaylı PDF** — {priceTenDetail}. Aday sayısı on'a çıkar ve bir PDF belgesi eklenir.",
-              "**Maksimum 10 hanja adayı saju ve beş element kapsamlı raporu** — {priceTenSaju}. Yukarıdakilere ek olarak, doğum tarihinden türetilen saju tablosunu ve beş elementin güçlerini içerir, belirli bir hanjanın o isim için neden uygun olduğunu beş element perspektifinden inceler."
+              "**Maksimum 10 hanja adayı saju ve beş element kapsamlı raporu** — {priceTenSaju}. Yukarıdakilere ek olarak, doğum tarihinden türetilen saju tablosunu ve beş elementin güçlerini içerir, belirli bir hanjanın o isme neden uygun olduğunu beş element perspektifinden inceler."
             ]
           }
         ]
@@ -380,7 +405,7 @@ export const TR_DOCS = {
         "title": "Hanja kendisi kamuya açık bilgilerdir",
         "blocks": [
           {
-            "p": "Kullanılabilir hanja ve anlamları, Kore Yüksek Mahkemesi tarafından belirlenen resmi isim-hanja tablosundan gelmektedir ve hepsi hizmetin kılavuz belgelerinde kamuya açıktır. Ücretli ürünlerin sattığı şey hanja bilgisi değil, **isime göre seçme ve açıklama eylemidir.**"
+            "p": "Kullanılabilir hanja ve anlamları, Yüksek Mahkeme tarafından belirlenen resmi isim-hanja tablosundan gelmektedir ve hepsi hizmetin kılavuz belgelerinde kamuya açıktır. Ücretli ürünlerin sattığı şey hanja bilgisi değil, **isime göre seçme ve açıklama eylemidir.**"
           }
         ]
       },
@@ -388,12 +413,12 @@ export const TR_DOCS = {
         "title": "Küresel Kullanıcılar için PDF'ler",
         "blocks": [
           {
-            "p": "Yabancı isimlerin Korece isimlere dönüştürülmesi veya isimlerin Hangul ile yazılması için mevcut belgeler. Fiyatlar, ödeme ekranında gösterilen tutarları takip eder."
+            "p": "Yabancı isimleri Korece isimlere dönüştürmek veya isimleri Hangul ile yazmak için mevcut belgeler. Fiyatlar, ödeme ekranında görüntülenen tutarları takip eder."
           },
           {
             "ul": [
-              "**Kore İsim Premium Raporu** — 3 sayfa. Kaligrafi kapağını, ismin anlamını ve seçme nedenini, ayrıca saju ve beş element yorumunu içerir.",
-              "**Hangul İsim Sanatı** — 2 sayfa. Kaligrafi kapağı ve telaffuz kılavuzu içerir. İsim nasıl Hangul ile yazılır ve nasıl telaffuz edilir."
+              "**Korece İsim Premium Raporu** — 3 sayfa. Kaligrafi kapağı, ismin anlamı ve neden seçildiği, saju ve beş element yorumunu içerir.",
+              "**Hangul İsim Sanatı** — 2 sayfa. Kaligrafi kapağı ve telaffuz kılavuzu içerir. İsimlerin Hangul ile nasıl yazılacağını ve nasıl telaffuz edileceğini içerir."
             ]
           }
         ]
@@ -402,10 +427,10 @@ export const TR_DOCS = {
         "title": "İsim Mührü",
         "blocks": [
           {
-            "p": "Ekranda oluşturulan ismi fiziksel bir mühre kazıyoruz ve size gönderiyoruz. Fiyatlar modele göre değişir — yuvarlak mühür {priceStampRound}, kare mühür {priceStampSquare}, abanoz mühür {priceStampEbony}. Uluslararası gönderim de mevcuttur."
+            "p": "Ekranda oluşturulan ismi fiziksel bir mühre kazıyoruz ve size gönderiyoruz. Fiyatlar modele göre değişir — yuvarlak mühür {priceStampRound}, kare mühür {priceStampSquare}, abanoz mühür {priceStampEbony}. Uluslararası kargo da mevcuttur."
           },
           {
-            "p": "**Buradan itibaren, ürünler gönderimi içerir.** Önceki maddelerden farklı olarak, üretim ve gönderim zaman alır ve bir teslimat adresi gereklidir. Gönderim bilgileri yalnızca sipariş işleme için ve yasal saklama için kullanılır ve işlem tamamlandıktan sonra, politika gereğince belirtilen süre sonunda imha edilecektir."
+            "p": "**Buradan itibaren, ürünler kargo içerir.** Önceki ürünlerden farklı olarak, üretim ve kargo zaman alır ve bir teslimat adresi gereklidir. Kargo bilgileri yalnızca sipariş işleme için kullanılır ve yasal saklama için, işlem tamamlandıktan sonra, politika gereğince belirtilen süre sonunda imha edilecektir."
           }
         ]
       },
@@ -413,10 +438,10 @@ export const TR_DOCS = {
         "title": "Satın Almadan Önce Bilinmesi Gerekenler",
         "blocks": [
           {
-            "p": "**Dijital ürünler ödeme yapıldıktan hemen sonra sağlanır.** İndirme başlamadan önce istediğiniz zaman iptal edebilir ve tam bir geri ödeme alabilirsiniz, ancak indirme tamamlandıktan sonra, basit bir fikir değişikliği nedeniyle geri çekilme kısıtlanmıştır (Elektronik Ticaret Kanunu Madde 17, Fıkra 2). Bu koşul, ödeme ekranında ayrı olarak kabul edilmektedir."
+            "p": "**Dijital ürünler ödeme yapıldığında hemen sağlanır.** İndirme başlamadan önce istediğiniz zaman iptal edebilir ve tam bir geri ödeme alabilirsiniz, ancak indirme tamamlandıktan sonra, basit bir fikir değişikliği nedeniyle geri çekilme kısıtlanır (Elektronik Ticaret Kanunu'nun 17. Maddesi, 2. Fıkrası). Bu koşul, ödeme ekranında ayrı olarak kabul edilir."
           },
           {
-            "p": "**Sonuçların içeriği hakkında şikayetler geri ödeme nedeni değildir.** Ancak, belge oluşturulmadıysa, dosya açılamıyorsa veya ödeme tutarı siparişle farklıysa, yeniden düzenleme veya tam geri ödeme olarak işleme alınacaktır."
+            "p": "**Sonuçların içeriği ile ilgili şikayetler geri ödeme nedeni değildir.** Ancak, belge oluşturulmadıysa, dosya açılamıyorsa veya ödeme tutarı siparişle farklıysa, yeniden basım veya tam geri ödeme olarak işleme alınacaktır."
           },
           {
             "p": "Detaylı koşullar [İade Politikası](/refund-policy) ve [Fiyatlandırma Kılavuzu](/pricing) belgelerinde belirtilmiştir. Bu metin, nelerin dahil olduğunu rehberlik etmekte olup, yasal koşullar bu iki belgede önceliklidir."
@@ -424,7 +449,7 @@ export const TR_DOCS = {
         ]
       }
     ]
-  },
+  }
 } satisfies Record<GlobalDocKey, DocPage>;
 
 export const TR_NOTICES = {
@@ -439,7 +464,7 @@ export const TR_NOTICES = {
     "title": "Henüz bildirim yok",
     "body": "Bir şey değiştiğinde, burada görünecektir."
   },
-  "effective": "{date} tarihinde yürürlüğe girer",
+  "effective": "Yürürlüğe girer {date}",
   "pager": {
     "label": "Bildirim sayfaları",
     "newer": "← Daha Yeni",
@@ -449,23 +474,23 @@ export const TR_NOTICES = {
     "2026-08-02-contact": {
       "title": "İletişim ve Hakkında sayfaları artık açık",
       "body": [
-        "Sorular, iadeler, gizlilik talepleri ve hata raporları için artık tek bir yer var. Alt kısımdaki iletişim sayfası, e-posta ve şirket bilgilerini listeler.",
-        "**Cevaplarımızın dayandığı şeyler ve bilerek yapmadığımız şeyler, hakkında sayfasında yazılıdır.**"
+        "Sorular, iadeler, gizlilik talepleri ve hata raporları artık tek bir yere yönlendiriliyor. Alt kısımda yer alan iletişim sayfası, e-posta ve şirket bilgilerini listeler.",
+        "Cevaplarımızın dayandığı bilgiler ve kasıtlı olarak yapmadığımız şeyler, hakkında sayfasında yazılıdır."
       ]
     },
     "2026-08-01-pdf-language": {
-      "title": "**PDF raporları Arapça ve Khmer için İngilizce olarak verilmektedir.**",
+      "title": "PDF raporları Arapça ve Kmerce için İngilizce olarak verilmektedir",
       "body": [
-        "**Eğer hizmeti Arapça veya Khmer dilinde kullanıyorsanız, satın aldığınız PDF İngilizce olarak üretilmektedir. Belgelerimizi düzenleyen araç, henüz bu iki yazıda paragrafları ayarlayamamaktadır.**",
-        "**Ekranınız kendi dilinizde kalır ve adınız belgenin içinde kendi yazınızla basılır.**",
-        "**Aynı not, ödeme öncesinde görünmektedir. Araç bu yazıları desteklediğinde, burada belirteceğiz.**"
+        "Eğer hizmeti Arapça veya Kmerce kullanıyorsanız, satın aldığınız PDF İngilizce olarak üretilir. Belgelerimizi düzenleyen araç, henüz bu iki yazıda paragrafları ayarlayamıyor.",
+        "Ekran dilinizde kalır ve adınız belgenin içinde kendi yazınızla basılır.",
+        "Aynı not, ödeme öncesinde görünür. Araç bu yazıları desteklediğinde, burada belirteceğiz."
       ]
     },
     "2026-08-01-payments-preparing": {
-      "title": "**Ödemeler henüz açılmamıştır.**",
+      "title": "Ödemeler henüz açık değil",
       "body": [
-        "**Bir isim oluşturmak ve sonucu okumak bugün ücretsizdir ve hesap açmanıza gerek yoktur.**",
-        "**Ücretli ürünler henüz satışta değildir. Fiyatlandırma sayfasında gösterilen tutarlar, satışlar açıldığında geçerli olacaktır.**"
+        "Bir isim oluşturmak ve sonucu okumak bugün ücretsizdir ve hesap açmanıza gerek yoktur.",
+        "Ücretli ürünler henüz satışta değil. Fiyatlandırma sayfasında gösterilen tutarlar, satışlar açıldığında geçerli olacak olanlardır."
       ]
     }
   }

@@ -110,7 +110,7 @@ async function measure(path) {
   /**
    * **로케일 주소가 301이면 그것으로 끝이다.**
    *
-   * 한국어 전용 화면은 로케일 주소를 두지 않는다(`lib/korean-only-routes.ts`). 리다이렉트를
+   * 한국어 전용 화면은 로케일 주소를 두지 않는다(`lib/route-locales.ts`). 리다이렉트를
    * 따라가 버리면 두 로케일이 같은 문서로 도착해 「본문이 같다」는 결함으로 잡히는데, 그건
    * 결함이 아니라 **의도한 상태**다. 따라가기 전에 상태 코드를 먼저 본다.
    */
@@ -121,8 +121,22 @@ async function measure(path) {
   if (ra.status === 301 && rb.status === 301) {
     return { path, pooled: true, target: rb.location };
   }
-  if (ra.status === 301 || rb.status === 301) {
-    return { path, skipped: `한쪽만 301 (${LOCALE_A}=${ra.status} ${LOCALE_B}=${rb.status})` };
+
+  /**
+   * **한쪽만 301인 것은 글로벌 전용 화면의 모양이다** — 한국어 주소만 영어로 보낸다.
+   *
+   * 처음에는 이것을 「건너뜀」으로 적었는데, 그러면 오늘 새로 막은 바로 그 경로가 **조용히
+   * 검사에서 빠진다.** 건너뛴 줄은 초록불 사이에 섞여 「검사됐다」로 읽힌다. 모양을 알아보고
+   * **판정한다** — 리다이렉트가 같은 경로를 지키는지까지 본다.
+   */
+  if (ra.status === 301 && rb.status === 200) {
+    const keepsPath = ra.location.includes(path);
+    return keepsPath
+      ? { path, koBlocked: true, target: ra.location }
+      : { path, skipped: `${LOCALE_A} 리다이렉트가 경로를 잃었다 → ${ra.location}` };
+  }
+  if (rb.status === 301) {
+    return { path, skipped: `${LOCALE_B}만 301 (${LOCALE_A}=${ra.status})` };
   }
 
   const [a, b] = await Promise.all([
@@ -163,6 +177,10 @@ for (const r of rows) {
     console.log(`  한 벌   301   ${r.path}`);
     continue;
   }
+  if (r.koBlocked) {
+    console.log(`  ko없음  301   ${r.path}  → ${r.target}`);
+    continue;
+  }
   if (r.skipped) {
     console.log(`  건너뜀  ${r.path}  (${r.skipped})`);
     continue;
@@ -194,7 +212,7 @@ if (broken.length > 0) {
   console.error(
     `\n결함 ${broken.length}건 — 본문이 같은데 hreflang으로 언어판이 여럿이라고 선언한다:\n` +
       broken.map((r) => `  ${r.path}  (${r.score.toFixed(3)})`).join("\n") +
-      `\n\n번역하거나, 그 경로를 \`lib/korean-only-routes.ts\`의 갈래에 넣어 한 주소로 모을 것` +
+      `\n\n번역하거나, 그 경로를 \`lib/route-locales.ts\`의 갈래에 넣어 한 주소로 모을 것` +
       `(canonical 한 벌 · hreflang 없음 · 로케일 주소는 301).` +
       `\n**아직 배포하지 않았다면 여기가 빨간불인 것이 정상이다** — 이 검사는 기본으로 운영 주소를 본다.` +
       `\n  빌드 결과물로 재려면: node scripts/verify-locale-shared-pages.mjs --base http://localhost:PORT`,
@@ -203,9 +221,11 @@ if (broken.length > 0) {
 }
 
 const redirected = rows.filter((r) => r.pooled).length;
+const koBlocked = rows.filter((r) => r.koBlocked).length;
 const sameButPooled = measured.filter((r) => r.score >= SAME_THRESHOLD).length;
 console.log(
   `통과 — 로케일 주소를 두지 않는 화면 ${redirected}건(301), ` +
+    `한국어만 막은 화면 ${koBlocked}건, ` +
     `본문이 같지만 canonical로 모은 화면 ${sameButPooled}건, ` +
     `언어판이 각자 사는 화면 ${measured.length - sameButPooled}건.`,
 );

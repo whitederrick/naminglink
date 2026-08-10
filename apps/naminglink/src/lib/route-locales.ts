@@ -45,14 +45,44 @@ export const KOREAN_ONLY_PATHS: string[] = [
 ];
 
 /**
+ * **반대쪽 — 한국어를 두지 않는 화면.**
+ *
+ * 글로벌 전용 서비스의 화면(랜딩·입력·결과)은 한국 이름이 없는 사람을 위한 것이다. 여기에
+ * 한국어판이 공개돼 있으면 곤란하다는 것이 사용자 방침이다(2026-08-10) — 운영자가 원문을
+ * 확인할 자리는 **관리자 화면**이지 공개 주소가 아니다.
+ *
+ * 그래서 이 경로들에서는 ko를 **주소로도 강제로도** 열 수 없다:
+ *
+ *     /ko/global-to-korean       → 301 → /en/global-to-korean
+ *     /global-to-korean?lang=ko  → en 으로 그린다
+ *     접속 국가가 KR             → en 으로 떨어진다
+ *     hreflang · sitemap         → ko 없음
+ *
+ * **안내 문서는 여기 넣지 않는다.** 글로벌 서비스를 설명하는 글을 한국인이 읽는 것은 막을
+ * 이유가 없다 — 막히는 것은 서비스 화면이다.
+ *
+ * `global-name-to-hangul`은 별도 주소가 아니라 **이 화면의 한 모드**라 목록에 없다.
+ * 목록이 `serviceType === "GLOBAL_TO_KOREAN"`과 어긋나면 `verify-route-locales.mjs`가 잡는다 —
+ * `services.ts`를 여기서 import 하지 않는 것은 이 파일이 **미들웨어에 실리기 때문**이다.
+ */
+export const GLOBAL_ONLY_PATHS: string[] = ["/global-to-korean"];
+
+/**
  * 그 경로가 한국어 전용인가.
  *
  * 하위 경로까지 본다 — `/guide/hanja`의 초성 목록(`/guide/hanja/sa`)이 그것이다. 다만 **경계를
  * `/`로 끊는다**: 그러지 않으면 `/guide/hanja-basics`가 `/guide/hanja`의 하위로 잘못 걸린다.
  */
-export function isKoreanOnlyPath(pathname: string): boolean {
+function matches(pathname: string, bases: string[]): boolean {
   const path = pathname !== "/" && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
-  return KOREAN_ONLY_PATHS.some(
-    (base) => path === base || path.startsWith(`${base}/`),
-  );
+  return bases.some((base) => path === base || path.startsWith(`${base}/`));
+}
+
+export function isKoreanOnlyPath(pathname: string): boolean {
+  return matches(pathname, KOREAN_ONLY_PATHS);
+}
+
+/** 하위 경로까지 본다 — 결과 화면(`/global-to-korean/result`)도 같은 규칙이다. */
+export function isGlobalOnlyPath(pathname: string): boolean {
+  return matches(pathname, GLOBAL_ONLY_PATHS);
 }

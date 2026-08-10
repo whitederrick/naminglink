@@ -72,7 +72,12 @@ export function ServiceLanguageSwitcher({
           언어가 23개라 좁은 화면에서는 길어질 수 있어 높이를 제한하고 스크롤을 준다. */}
       <div className="absolute left-0 right-0 top-full z-50 mt-2 max-h-[60vh] overflow-y-auto rounded-lg border border-line bg-surface p-2 shadow-xl">
         <div className="flex flex-wrap gap-1">
-          {supportedLocales.map((item) => (
+          {/* **한국어는 뺀다.** 이 선택기는 글로벌 전용 서비스(`GLOBAL_TO_KOREAN`)에서만
+              그려지는데(`ServiceShell` 참고), 그 화면에는 한국어판이 없다 — 골라도 영어로
+              301된다(`lib/route-locales.ts`). 되돌아올 선택지를 목록에 두지 않는다. */}
+          {supportedLocales
+            .filter((item) => item !== "ko")
+            .map((item) => (
             <Link
               key={item}
               href={localePath(path, item, query)}

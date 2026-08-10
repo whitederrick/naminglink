@@ -206,14 +206,58 @@ const CHUNK = 50;
 
 /** 잎을 나눠 보내고 결과를 합친다. 나누는 자리는 뜻과 무관하므로 순서대로 자른다. */
 async function translate(leaves: Leaf[], locale: string, key: string) {
-  if (leaves.length <= CHUNK) return translateChunk(leaves, locale, key);
-
   const merged: Record<string, string> = {};
   for (let index = 0; index < leaves.length; index += CHUNK) {
     const part = leaves.slice(index, index + CHUNK);
-    Object.assign(merged, await translateChunk(part, locale, key));
+    Object.assign(merged, await chunkWithRetry(part, locale, key));
   }
   return merged;
+}
+
+/**
+ * 덩어리 하나를 보내되, **깨진 응답에 로케일 전체를 잃지 않는다.**
+ *
+ * 2026-08-09 말레이어에서 모델이 한 글자(`重`)를 수천 번 반복해 응답이 한도에서 끊겼고,
+ * 2026-08-10 우즈베크어에서 같은 일이 공백으로 일어났다(`Expected ',' or '}' … position 17066`).
+ * 크기 때문이 아니다 — 둘 다 잎 50개짜리 덩어리였고 같은 입력이 다른 로케일에서는 멀쩡했다.
+ * **모델이 한 번 빠지는 구덩이**다.
+ *
+ * 그때 죽는 것은 그 덩어리가 아니라 **그 명령 전체**다. 뒤에 줄 서 있던 로케일이 시작도 못 한다.
+ * 그래서 다시 보내 보고, 그래도 안 되면 반으로 잘라 본다 — 덩어리가 작아지면 반복에 빠질
+ * 자리도 줄어든다.
+ *
+ * **그래도 안 되면 던진다.** 조용히 건너뛰면 그 잎들이 영어로 남고, 영어로 남은 자리는
+ * 화면에서 정상처럼 보인다.
+ *
+ * **이 함수는 형제 앱에만 있었다**(2026-08-10에 옮겨 옴). 원본이 naminglink인데 고침은 인연링크
+ * 에서 났고 돌아오지 않았다 — 「복제 앱에서 빠지는 건 파일이 아니라 배선」의 반대 방향이다.
+ * 형제 앱에서 무언가를 고쳤으면 **원본에도 있는지** 보고 올 것.
+ */
+async function chunkWithRetry(
+  leaves: Leaf[],
+  locale: string,
+  key: string,
+  depth = 0,
+): Promise<Record<string, string>> {
+  try {
+    return await translateChunk(leaves, locale, key);
+  } catch (error) {
+    // 깨진 JSON에만 다시 시도한다. 열쇠가 틀렸거나 한도에 걸린 것이라면 다시 보내도 같다.
+    if (!(error instanceof SyntaxError) || depth >= 3) throw error;
+
+    // 잎이 하나면 더 쪼갤 수 없으니 그대로 다시 보낸다 — 표본이 달라지면 대개 빠져나온다.
+    if (leaves.length === 1) {
+      console.log(`  ${locale} — 응답이 깨졌다(잎 1개). 다시 보낸다 [${depth + 1}]`);
+      return chunkWithRetry(leaves, locale, key, depth + 1);
+    }
+
+    const half = Math.ceil(leaves.length / 2);
+    console.log(`  ${locale} — 응답이 깨졌다(잎 ${leaves.length}개). ${half}개씩 나눠 보낸다`);
+    return {
+      ...(await chunkWithRetry(leaves.slice(0, half), locale, key, depth + 1)),
+      ...(await chunkWithRetry(leaves.slice(half), locale, key, depth + 1)),
+    };
+  }
 }
 
 async function translateChunk(leaves: Leaf[], locale: string, key: string) {

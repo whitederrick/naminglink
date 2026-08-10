@@ -26,6 +26,20 @@ export const EN_DOCS = {
         ]
       },
       {
+        "title": "Who each service is for",
+        "blocks": [
+          {
+            "p": "There are two kinds of service here: one for people who **already have a Korean name**, and one for people who **need one**. They require different things of you, so they are offered in different languages."
+          },
+          {
+            "ul": [
+              "**Offered in your language** — writing your own name in Hangul, and building a Korean name. These are for people without a Korean name, so they follow the language you arrive in.",
+              "**Offered in Korean only** — finding name-hanja for a child, and turning a Korean name into one for use abroad. Both need an **existing Hangul name** to work from, so the screens and their guides stay in Korean."
+            ]
+          }
+        ]
+      },
+      {
         "title": "What our answers are based on",
         "blocks": [
           {
@@ -85,6 +99,17 @@ export const EN_DOCS = {
               { "value": "{effectiveDate}", "label": "table effective date" },
               { "value": "{avoidTotal}", "label": "traditionally avoided characters" }
             ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "The guides below cover the services offered in your language. Naming-Link also has two services for people who **already have a Korean name** — finding name-hanja for a child, and turning a Korean name into one for use abroad. Those need an existing Hangul name, so both the services and their guides are in Korean."
+          },
+          {
+            "p": "[About](/about) explains which service is for whom."
           }
         ]
       }
