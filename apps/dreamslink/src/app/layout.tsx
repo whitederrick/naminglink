@@ -40,6 +40,15 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [ogImageFor(locale)],
     },
     twitter: { card: "summary_large_image", images: [ogImageFor(locale).url] },
+    /**
+     * **사이트 소유권 확인 태그**. 광고를 요청하지 않는다 — 구글이 「이 사이트가 이 계정의
+     * 것인가」를 확인하는 표시일 뿐이라 전 로케일에 싣는다.
+     *
+     * `adsEnabled`는 **게재 여부가 아니라 연결 여부**다(퍼블리셔 ID가 형식에 맞는가).
+     * 이 변수를 비우면 `/ads.txt`가 404가 되고 이 태그도 함께 사라진다 —
+     * **게재를 멈추는 스위치가 아니다.** P1에서 `adsConfigured`/`adsLive`로 가른다.
+     */
+    other: adsEnabled ? { "google-adsense-account": adsenseClient } : undefined,
   };
 }
 
@@ -61,20 +70,25 @@ export default async function RootLayout({
         {/* 푸터는 레이아웃이 아니라 각 페이지에 둔다. 레이아웃은 searchParams를 받지 못해
             ?lang=으로 바꾼 언어를 알 수 없고, 그러면 한국어 화면에 영어 푸터가 붙는다. */}
         {children}
-        {/* 애드센스 로더. 퍼블리셔 ID가 없으면 아예 붙지 않는다(다크 런치) — 그래야 CSP도
-            원래대로 조여 둔 채 배포된다.
-            next/script 대신 순수 <script>를 쓴다. next/script는 어느 전략을 골라도 실제
-            태그를 런타임에 주입하기 때문에(beforeInteractive는 preload 링크 + 주입 코드로
-            나온다) 서버가 보낸 HTML에는 구글이 안내한 스니펫이 그대로 들어 있지 않다.
-            애드센스 심사는 이 스니펫을 찾는 절차라 형태가 같은 편이 확실하다.
-            React 19가 `async` 스크립트를 <head>로 올려 주므로 위치도 구글 안내와 같아진다. */}
-        {adsEnabled ? (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-            crossOrigin="anonymous"
-          />
-        ) : null}
+        {/**
+          * **애드센스 로더는 여기 없다** (2026-08-11에 뺐다).
+          *
+          * 전역 로더는 모든 화면에 실렸고, **혼자서 자동 광고 자리(앵커·비네트)를 만든다.**
+          * 실측에서 `/en/login`·`/en/pricing`·없는 주소까지 광고 요청이 나갔다 — 발행한
+          * 콘텐츠가 없는 화면이 광고 화면이 되는 것이 naming-link의 2026-08-10 반려 사유였다.
+          * 콘솔로는 막을 수 없다(광고 게재 준비가 안 된 사이트에는 자동 광고 설정 행 자체가
+          * 없다).
+          *
+          * **지금 이 앱에는 로더를 부르는 자리가 없다.** 슬롯 env를 채워도 광고는 나오지
+          * 않는다 — 켜려면 naming-link의 `lib/adsense-loader.ts`처럼 **광고 단위를 실제로
+          * 그릴 때만** 부르는 지연 로더를 먼저 들여와야 한다.
+          *
+          * **사이트 연결은 그대로다.** 소유권은 위 `generateMetadata`의
+          * `google-adsense-account` 메타와 `/ads.txt`가 맡는다. 둘 다 구글이 공식 지원한다.
+          *
+          * 여기에 로더를 되돌리지 말 것. `<ins class="adsbygoogle">`가 가이드·약관·입력
+          * 화면에 아직 남아 있어, **되돌리는 순간 그 자리가 전부 되살아난다.**
+          */}
       </body>
     </html>
   );
