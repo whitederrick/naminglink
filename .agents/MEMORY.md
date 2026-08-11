@@ -1,6 +1,6 @@
 # Naming-Link 작업 메모리
 
-마지막 갱신: 2026-08-10
+마지막 갱신: 2026-08-11
 
 ## 애드센스 재심사 — 현재 합의 (2026-08-10)
 
@@ -30,7 +30,10 @@
 
 ## 현재 운영 상태
 
-- 운영 URL은 `https://naminglink.vercel.app`이며 이번 최종 변경을 `main`에 커밋해 운영 배포한다.
+- 운영 URL은 `https://naming-link.com`이다. 라이브 도메인의 원본은
+  `packages/core/src/self-ads.ts`의 `SELF_AD_SERVICES`다. `naminglink.vercel.app`은
+  `NEXT_PUBLIC_SITE_URL`이 비었을 때의 폴백일 뿐이며, 그 값이 비면 `robots.txt`가
+  `Disallow: /`로 떨어져 크롤링이 통째로 막힌다 — **화면으로는 티가 안 난다.**
 - 프리미엄 상품은 실제 후보 확보 수에 따라 제공하며 `최대 5개/최대 10개`로 표시한다.
 - 결제 화면은 현재 제공 후보 수를 표시하고 화면·PDF·후보 상세 분석의 후보 수와 순서를 강제로 일치시킨다.
 - 안덕규 + 돌림자 `奎` 회귀 결과는 `德奎` 1개이다.
@@ -50,22 +53,43 @@
 
 ## 다음에 반드시 읽을 문서
 
-- `docs/WORK_STATUS_2026-07-16.md`
-- `docs/WORK_STATUS_2026-07-19.md`
-- `docs/PREMIUM_HANJA_REPORT_ARCHITECTURE.md`
-- `docs/SUPABASE_PREMIUM_CLEANUP_CRON.sql`
+- `docs/WORKLOG_2026-08-11-2.md` — 가장 최근 작업(애드센스 실측·검사기 종료 코드)
+- `docs/POST_LAUNCH_CHECKLIST.md` — 남은 일을 **사슬**로 적어 둔 곳. 무엇이 무엇을 막고 있는지가
+  여기 있다. 시간순으로 읽으면 앞이 안 끝났는데 뒤부터 손대게 된다
+- 배경(7월): `docs/WORK_STATUS_2026-07-16.md` · `docs/WORK_STATUS_2026-07-19.md` ·
+  `docs/PREMIUM_HANJA_REPORT_ARCHITECTURE.md` · `docs/SUPABASE_PREMIUM_CLEANUP_CRON.sql`
 
-## 운영 미완료
+## 결제 구조 — 2026-07-29 확정
 
-- PortOne 운영 키 등록과 실제 결제·취소·웹훅 시험
-- `CRON_SECRET` 설정과 24시간 자동 삭제 통합 확인
-- 운영 전 `PREMIUM_TEST_MODE=false` 확인
+- **국내는 토스페이먼츠 직접 연동**이다(`apps/naminglink/src/lib/toss.ts`).
+- **포트원은 해외 페이팔 전용**이다(`lib/portone.ts` · `NEXT_PUBLIC_PORTONE_CHANNEL_KEY_PAYPAL`).
+  포트원 경유 국내 카카오페이 채널은 심사가 취소돼 쓰지 않는다. 단일 채널 키 폴백도 지웠다 —
+  **국내 주문이 포트원으로 떨어지는 경로를 다시 만들면 안 된다.**
+- 구매 노출은 **상품 `enabled` AND 결제 키**로 판정한다. 키 없이 켜 두면 죽은 버튼이 된다.
+
+## 운영 미완료 — 남의 답을 기다리는 세 갈래
+
+셋은 서로 독립이라 어느 것이 먼저 풀리든 상관없다. 사슬은 `docs/POST_LAUNCH_CHECKLIST.md`에 있다.
+
+| | 기다리는 것 | 풀리면 열리는 것 |
+| --- | --- | --- |
+| **A** 애드센스 | naming-link 심사 결과 | 인연링크 광고 · 지표 초기화 |
+| **B** 국내 결제 | 토스 키 · 통신판매업 신고번호 | 상품 판매 개시 · 엄격 CSP |
+| **C** 해외 결제 | 페이팔 심사 | 해외 결제 · 글로벌 프리미엄 PDF |
+
+그 밖에 `CRON_SECRET`(`api/cron/premium-cleanup`) 설정과 24시간 자동 삭제 통합 확인이 남았다.
+
+`PREMIUM_TEST_MODE`는 더 이상 단독 스위치가 아니다. 운영에서는 운영자 로그인이거나
+`PREMIUM_TEST_SECRET` 헤더가 맞아야 열린다(`lib/premium-test-access.ts`) — 플래그만 남아도
+무단 개방되지 않는다.
 
 ## 다음 행동
 
-1. PortOne 운영 자격증명을 받은 뒤 운영 키를 설정한다.
-2. 실제 결제·취소·웹훅·24시간 자동 삭제 통합 시험을 진행한다.
-3. 운영 환경의 `PREMIUM_TEST_MODE=false`를 확인한다.
+1. 콘솔 Auto Ads 확인 · **sitemap 재제출** · 대표 URL 색인 요청 · 구글 선택 canonical 확인 ·
+   그 뒤 **재심사 요청**. 여기까지는 사람이 하는 일이다.
+2. 승인되면 `NEXT_PUBLIC_AD_MODE=live` + 재배포. 광고 관문과 후보 봉인이 함께 돌아온다.
+3. 토스 키와 통신판매업 신고번호가 들어오면 상품을 켠다. **켜기 전에** 부분 판매 가격 필터를
+   보완할 것 — 한 문단에 여러 금액이 있을 때 미판매 금액만 걸러지는지.
 
 ## 절대 보존
 
