@@ -114,9 +114,39 @@ export async function consumeUnlockTicket(
   const visitorHash = getDailyVisitorHash(request);
   if (!supabase || !visitorHash) return "ok";
 
-  // 표를 끊을 수 있는 상황인데 표가 없다면 관문을 건너뛴 요청이다. 화면은 언제나 먼저
-  // 표를 받아 오므로, 여기 오는 정상 요청에는 반드시 표가 붙어 있다.
-  if (!ticket) return "missing";
+  /**
+   * 표가 없다. 여기에는 **성격이 다른 둘**이 겹쳐 있다.
+   *
+   *   1. 관문을 건너뛴 요청 — 막아야 한다
+   *   2. **발급이 실패해 화면이 표를 못 받은 것** — 막으면 안 된다
+   *
+   * 2번은 우리 잘못이다. `issueUnlockTicket`은 RPC가 실패하면 `ticket: null`을 돌려주면서
+   * 「관문이 통째로 열린 채로 돈다」고 적어 두었는데, 여기서 `missing`으로 막아 버리면
+   * **광고를 끝까지 본 이용자가 후보를 못 연다.** 두 주석이 같은 태도를 말하면서 코드는
+   * 반대로 가던 자리다(2026-08-18에 Preview 실측으로 드러났다).
+   *
+   * 그래서 **짐작하지 않고 물어본다.** 같은 RPC를 아무 표로 한 번 부른다 — 살아 있으면
+   * 「그런 표 없음」(`unknown`)을 돌려주고, 죽어 있으면 오류가 난다. 죽어 있으면 발급도
+   * 실패했을 것이므로 통과시킨다. 살아 있는데 표가 없으면 그건 진짜 건너뛴 요청이다.
+   *
+   * 없는 표로 부르므로 **아무것도 소비하지 않는다.** 비용은 표 없는 요청에만 붙는다.
+   */
+  if (!ticket) {
+    const probe = await supabase.rpc("consume_unlock_ticket", {
+      p_ticket_hash: hashTicket(randomBytes(32).toString("base64url")),
+      p_visitor_hash: visitorHash,
+    });
+    if (probe.error) {
+      notifyOps(
+        "unlock-ticket-unavailable",
+        "표를 발급하지도 확인하지도 못해 후보 열기를 통과시키고 있습니다.",
+        { reason: probe.error.message },
+        "warn",
+      );
+      return "ok";
+    }
+    return "missing";
+  }
 
   const { data, error } = await supabase.rpc("consume_unlock_ticket", {
     p_ticket_hash: hashTicket(ticket),
