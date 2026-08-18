@@ -104,6 +104,12 @@ export default async function Page({
             title={dictionary.dream.resultTitle}
             className="mt-10"
           />
+
+          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
+              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
+              아래는 아무도 안 본다. */}
+          <AdBanner variant="header" slotKey="dream_result_header" locale={locale} />
+
           {/* 가격은 서버가 `product_settings`에서 읽어 내려보낸다. 화면이 값을 만들지 않는다.
               판매 전(`enabled=false`)이면 null이 되어 패널이 스스로 "준비 중"으로 뜬다. */}
           <DreamResultView
@@ -118,9 +124,6 @@ export default async function Page({
               사주링크 결과 화면과 같은 자리·같은 값이다 — 드림링크에는 이것이 빠져 있어
               가장 사적인 글을 적은 사람이 결과 화면에서 미저장 안내를 못 봤다. */}
           <PrivacyNotice locale={locale} className="mt-12" />
-        </div>
-        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />
       </div>

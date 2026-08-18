@@ -107,6 +107,12 @@ export default async function Page({ params, searchParams }: Props) {
             className="mt-10"
           />
 
+          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
+              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
+              아래는 아무도 안 본다. */}
+          <AdBanner variant="header" slotKey="symbol_detail_header" locale={locale} />
+
+
           <div className="mt-10 grid gap-6">
             {/* 전해 오는 뜻. 의미가 여럿이면 상황별로 나눠 보여 준다 — 사전이 그렇게 갈라
                 두었고(뱀을 품으면 길, 물리면 흉), 그 구분이 곧 이 상징을 이해하는 열쇠다. */}
@@ -178,7 +184,7 @@ export default async function Page({ params, searchParams }: Props) {
             </section>
 
             {/* 본문을 다 읽은 뒤 자리. 상징 카드 사이에 끼우지 않는다. */}
-            <AdBanner placement="result" locale={locale} />
+            <AdBanner variant="inline" slotKey="symbol_detail_inline" locale={locale} />
 
             {related.length ? (
               <section>
@@ -206,9 +212,6 @@ export default async function Page({ params, searchParams }: Props) {
           </div>
 
           <PrivacyNotice locale={locale} className="mt-12" />
-        </div>
-        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />
       </div>

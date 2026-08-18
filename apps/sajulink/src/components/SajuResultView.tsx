@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 
+import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { SelfAdCard } from "@/components/SelfAdCard";
@@ -164,6 +165,16 @@ export function SajuResultView({
           </div>
         </dl>
       </section>
+
+      {/* 중간 배너. 읽을 것이 끝난 자리가 아니라 **읽는 도중**의 섹션 경계에 둔다.
+          위아래로 버튼이 없는 자리라 오클릭 위험도 낮다 — 애드센스에서 오클릭은 정책 위반이자
+          계정 정지 사유다. */}
+      <AdBanner
+        variant="inline"
+        slotKey="reading_result_inline"
+        locale={locale}
+        className="mb-12 mt-6"
+      />
 
       {/* 유료 리포트 자리 — **실제 결제 패널이다.**
           예전에는 이 자리가 상품 설명과 가격만 그리는 상자였고, `ReportPurchasePanel`은 만들어져

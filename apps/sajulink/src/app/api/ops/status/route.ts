@@ -103,24 +103,18 @@ export async function GET(request: NextRequest) {
         variable: "NEXT_PUBLIC_ADSENSE_CLIENT",
         note: "없으면 광고 스크립트도 CSP 완화도 붙지 않습니다(다크 런치).",
       },
-      {
-        key: "slot_top",
-        label: "광고 자리 · 최상단",
-        enabled: Boolean(adSlots.top),
-        variable: "NEXT_PUBLIC_ADSENSE_SLOT_TOP",
-      },
-      {
-        key: "slot_bottom",
-        label: "광고 자리 · 최하단",
-        enabled: Boolean(adSlots.bottom),
-        variable: "NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM",
-      },
-      {
-        key: "slot_result",
-        label: "광고 자리 · 결과 중간",
-        enabled: Boolean(adSlots.result),
-        variable: "NEXT_PUBLIC_ADSENSE_SLOT_RESULT",
-      },
+      /**
+       * 광고 자리는 **표에서 파생시킨다.** 손으로 적으면 `lib/ads.ts`의 `adSlots`를 고칠
+       * 때마다 이 목록이 뒤에 남아 없는 자리를 보고하거나 새 자리를 빠뜨린다. 실제로
+       * 2026-08-18에 `top`·`bottom`을 걷어냈을 때 여기가 컴파일을 깨뜨려 드러났다 —
+       * 그때는 타입이 잡아 주었지만, 자리를 **더할** 때는 아무도 안 잡아 준다.
+       */
+      ...Object.entries(adSlots).map(([slotKey, slotValue]) => ({
+        key: `slot_${slotKey}`,
+        label: `광고 자리 · ${slotKey}`,
+        enabled: Boolean(slotValue),
+        variable: `NEXT_PUBLIC_ADSENSE_SLOT_${slotKey.toUpperCase()}`,
+      })),
       {
         key: "rewarded",
         label: "GAM 보상형 (제출 게이트)",

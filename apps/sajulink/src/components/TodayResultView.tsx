@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 
+import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
 import { SelfAdCard } from "@/components/SelfAdCard";
 import { emphasize } from "@/lib/emphasize";
@@ -128,6 +129,16 @@ export function TodayResultView({
           {emphasize(d.bookmarkHint)}
         </p>
       </section>
+
+      {/* 중간 배너. 읽을 것이 끝난 자리가 아니라 **읽는 도중**의 섹션 경계에 둔다.
+          위아래로 버튼이 없는 자리라 오클릭 위험도 낮다 — 애드센스에서 오클릭은 정책 위반이자
+          계정 정지 사유다. */}
+      <AdBanner
+        variant="inline"
+        slotKey="today_result_inline"
+        locale={locale}
+        className="mb-12 mt-6"
+      />
 
       {/* 사주 풀이로 건너가는 자리. **같은 프래그먼트를 그대로 이어 붙인다** — 입력은 주소의
           프래그먼트에만 있으므로, 빠뜨리면 생년월일을 다시 넣게 된다. */}

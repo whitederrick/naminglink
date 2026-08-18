@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import { AdBanner } from "@/components/AdBanner";
 import { DreamForm } from "@/components/DreamForm";
 import { GuideLink } from "@/components/GuideLink";
 import { PageHeader } from "@/components/PageHeader";
@@ -87,9 +86,6 @@ export default async function Page({
           <DreamForm dictionary={dictionary} locale={locale} />
           {/* 가장 사적인 글을 적기 직전에 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
-        </div>
-        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />
       </div>

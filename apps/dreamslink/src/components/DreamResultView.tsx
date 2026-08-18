@@ -230,7 +230,12 @@ export function DreamResultView({
 
       {/* 결과를 다 읽은 **뒤** 자리다(`adSlots.result`의 정의와 같다). 상징 카드 사이에 끼우면
           읽는 흐름이 끊기고, 애드센스가 콘텐츠로 오인될 자리를 만든다. */}
-      <AdBanner placement="result" locale={locale} />
+      <AdBanner
+        variant="inline"
+        slotKey="dream_result_inline"
+        locale={locale}
+        className="mb-12 mt-6"
+      />
 
       <p className="break-keep-all text-xs leading-5 text-muted">{t.disclaimer}</p>
     </div>

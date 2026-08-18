@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-import { AdBanner } from "@/components/AdBanner";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale } from "@/lib/i18n";
 
@@ -35,11 +34,6 @@ export function GuideShell({
 }) {
   return (
     <main className="min-h-screen bg-background">
-      {/* 광고 자리는 다른 화면과 같은 규칙이다 — 화면 맨 위와 맨 아래(`PageHeader` 주석). */}
-      <div className="mx-auto w-full max-w-4xl px-5 pt-4 sm:px-8">
-        <AdBanner placement="top" locale={locale} />
-      </div>
-
       <section className="relative isolate overflow-hidden">
         <Image
           src="/images/landing-hero.png"
@@ -75,10 +69,6 @@ export function GuideShell({
       <article className="break-keep-all mx-auto w-full max-w-4xl px-5 py-10 leading-8 text-foreground sm:px-8">
         {children}
       </article>
-
-      <div className="mx-auto w-full max-w-4xl px-5 pb-10 sm:px-8">
-        <AdBanner placement="bottom" locale={locale} />
-      </div>
 
       <SiteFooter locale={locale} />
     </main>

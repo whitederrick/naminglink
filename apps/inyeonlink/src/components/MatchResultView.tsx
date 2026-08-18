@@ -67,7 +67,6 @@ export function MatchResultView({
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
 
-
   // 지금 화면이 어느 프래그먼트로 계산된 것인지 기억한다. null이면 아직 못 읽은 것이다.
   // 주소가 확정되기를 기다리는 사연은 `useResultFragment`에 적어 두었다 — 인연의 결 화면과
   // 같은 것을 쓴다.
@@ -264,7 +263,12 @@ export function MatchResultView({
       {/* 결과를 읽은 직후가 "이 숫자는 어떻게 나왔나"가 가장 궁금한 자리다. */}
       <GuideLink locale={locale} from="compatibility" className="mt-12" />
 
-      <AdBanner placement="result" locale={locale} className="mb-12 mt-6" />
+      <AdBanner
+        variant="inline"
+        slotKey="compatibility_result_inline"
+        locale={locale}
+        className="mb-12 mt-6"
+      />
 
       <h2 className="mt-12 text-xl font-semibold">{t.breakdown}</h2>
       <div className="mt-4 space-y-4">

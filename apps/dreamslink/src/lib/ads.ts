@@ -112,34 +112,50 @@ export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "
 /**
  * 광고 자리별 슬롯 ID. 애드센스 콘솔에서 광고 단위를 만들면 하나씩 나온다.
  *
- * 자리를 나눠 두면 어느 자리가 얼마를 버는지 콘솔에서 갈라 볼 수 있다. 슬롯이 비어 있으면
- * 그 자리만 조용히 렌더링하지 않는다 — 자리 하나를 빼려고 배포를 다시 할 필요가 없다.
+ * **발행한 화면에만, 화면마다 두 자리.** 이미 내용이 실린 화면에 머리글(`_header`)과 본문
+ * 중간(`_inline`) 한 쌍을 둔다. 중간은 읽는 도중의 섹션 경계에 두고 맨 아래에는 두지 않는다 —
+ * 결과 맨 아래는 아무도 안 본다.
+ *
+ * **자리마다 슬롯을 하나씩 준다.** 한 슬롯으로 묶으면 어느 화면이 실제로 버는지 콘솔에서
+ * 갈라 볼 수 없다. 슬롯이 비면 그 자리만 조용히 렌더링하지 않으므로 **한 자리씩 켜 보는 것도
+ * 된다** — 자리 하나를 빼려고 배포를 다시 할 필요가 없다.
+ *
+ * 키는 **snake_case**다. naming-link의 `adSlots`와 같은 규칙이라 네 앱을 한 눈으로 본다.
+ *
+ * ## 되돌리지 말 것 — 여기에 없는 자리들
+ *
+ * · **`top`·`bottom`** (2026-08-18에 뺐다). 머리글(`PageHeader`)·안내(`GuideShell`)·
+ *   약관(`LegalDocumentView`)·입력 화면이 **함께 쓰던 자리**라, 슬롯 ID를 하나 넣으면
+ *   아직 아무것도 발행하지 않은 화면 전부에 광고가 나갔다. naming-link을 2026-08-10에
+ *   반려시킨(「가치가 별로 없는 콘텐츠」) 것이 정확히 그 구조다.
+ * · **계산 중 팝업(`AdWatchOverlay`)**. 화면을 덮는 오버레이이자 결과를 여는 관문이라
+ *   오버레이 게재 금지와 보상형 금지에 동시에 걸린다. 보상형이 필요하면 GAM 보상형 포맷을 쓸 것.
  */
 export const adSlots = {
-  /**
-   * **화면 맨 위.** 머리글보다도 앞이다. 흐름 안의 자리라 스크롤하면 같이 올라간다 —
-   * 화면에 붙어 따라다니는 스티키(구글이 '앵커 광고'라 부르는 것)가 아니다. 앵커는 자동
-   * 광고로만 공식 지원되고, 직접 `position: fixed`로 만들면 정책 위험이 있다.
-   */
-  top: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP ?? "").trim(),
-  /** 결과 화면 — 결과를 다 읽은 뒤, 미저장 안내 앞. */
-  result: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT ?? "").trim(),
-  /**
-   * **화면 맨 아래.** 푸터 바로 위다. 예전의 `form`(입력 화면 맨 아래) 자리를 이것이 대신한다 —
-   * 둘을 함께 두면 입력 화면에서 광고 둘이 붙어 나온다.
-   */
-  bottom: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM ?? "").trim(),
-  /**
-   * **계산 중 팝업(`AdWatchOverlay`) 자리는 여기에 없다.** 예전에는 `analyzing` 슬롯이 있었다.
-   * 그 팝업은 화면을 덮는 오버레이이고 결과를 여는 관문이라, 애드센스 표시 광고를 두면
-   * 오버레이 게재 금지와 보상형 금지에 동시에 걸린다(naminglink에서 같은 이유로 걷어냈다).
-   * 보상형이 필요하면 GAM·AdMob 보상형 포맷을 쓸 것. **이 표에 그 자리를 되돌리지 말 것.**
-   *
-   * **제목 옆 `header` 자리도 없앴다(2026-07-31).** 입력 화면은 폼 하나뿐인데 상단·제목 옆·하단
-   * 으로 광고가 셋이 되어 콘텐츠보다 많아 보였다. 머리글을 다시 짜면서 가로형 배너 한 자리
-   * (`top`)로 합쳤다 — 제목 줄 오른쪽 끝은 언어 선택기가 받았고, 누를 수 있는 것을 광고 옆에
-   * 두면 오클릭이 난다. 되돌리려면 `PageTitle`에 자리를 만드는 것부터 다시 해야 한다.
-   */
+  /** 해몽 결과 — 제목 아래 머리글. */
+  dream_result_header: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_DREAM_RESULT_HEADER ?? ""
+  ).trim(),
+  /** 해몽 결과 — 본문 중간. */
+  dream_result_inline: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_DREAM_RESULT_INLINE ?? ""
+  ).trim(),
+  /** 상징 목록 — 제목 아래 머리글. */
+  symbol_list_header: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_SYMBOL_LIST_HEADER ?? ""
+  ).trim(),
+  /** 상징 목록 — 목록 중간. */
+  symbol_list_inline: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_SYMBOL_LIST_INLINE ?? ""
+  ).trim(),
+  /** 상징 상세 — 제목 아래 머리글. 215장이 이 자리를 쓴다. */
+  symbol_detail_header: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_SYMBOL_DETAIL_HEADER ?? ""
+  ).trim(),
+  /** 상징 상세 — 본문 중간. */
+  symbol_detail_inline: (
+    process.env.NEXT_PUBLIC_ADSENSE_SLOT_SYMBOL_DETAIL_INLINE ?? ""
+  ).trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
@@ -63,9 +62,6 @@ export default async function ReadingPage({
           <SajuForm dictionary={dictionary} locale={locale} menu="reading" />
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
-        </div>
-        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="reading" />
       </div>

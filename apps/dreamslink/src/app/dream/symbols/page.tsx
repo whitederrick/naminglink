@@ -89,6 +89,12 @@ export default async function Page({ searchParams }: Props) {
             title={ko ? "전통 해몽 상징 사전" : "Traditional dream symbols"}
             className="mt-10"
           />
+
+          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
+              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
+              아래는 아무도 안 본다. */}
+          <AdBanner variant="header" slotKey="symbol_list_header" locale={locale} />
+
           <p className="break-keep-all mt-3 text-sm leading-6 text-muted">
             {ko
               ? `상징 ${DREAM_SYMBOLS.length}가지와 전해 오는 뜻입니다. 꿈을 통째로 적으면 여러 상징을 한 번에 찾아 드립니다.`
@@ -118,7 +124,7 @@ export default async function Page({ searchParams }: Props) {
               </section>
             ))}
 
-            <AdBanner placement="result" locale={locale} />
+            <AdBanner variant="inline" slotKey="symbol_list_inline" locale={locale} />
 
             <p className="break-keep-all text-xs leading-5 text-muted">
               {dictionary.dream.disclaimer}
@@ -127,9 +133,6 @@ export default async function Page({ searchParams }: Props) {
                 : ` Based on the traditional dream-symbol dictionary ${DICT_VERSION}.`}
             </p>
           </div>
-        </div>
-        <div className="mx-auto w-full max-w-3xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="dream" />
       </div>

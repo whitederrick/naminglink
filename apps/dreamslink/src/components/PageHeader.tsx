@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, Home } from "lucide-react";
 
-import { AdBanner } from "@/components/AdBanner";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
@@ -52,16 +51,10 @@ export function PageHeader({
 
   return (
     <header className="bg-background">
-      {/* **화면에서 가장 먼저 나오는 자리.** 흐름 안에 있으므로 스크롤하면 같이 올라간다 —
-          화면에 붙어 따라다니는 스티키가 아니다(구글이 '앵커 광고'라 부르는 그것은 자동 광고로만
-          공식 지원되고, 직접 `position: fixed`로 만들면 정책 위험이 있다). */}
-      <div className={`mx-auto w-full ${width} px-6 pt-4`}>
-        <AdBanner placement="top" locale={locale} />
-      </div>
-
-      {/* 버튼은 배너 **아래**다. naminglink가 PC에서만 좌우로 갈랐다가 되돌린 자리이기도 하다 —
-          버튼과 광고가 나란히 붙으면 사이가 12px까지 좁아져 오클릭이 난다(애드센스는 계정 정지
-          사유로 본다). 위아래로 쌓으면 그 거리가 구조적으로 확보된다.
+      {/* **광고 자리는 여기에 없다**(2026-08-18에 뺐다). 머리글은 입력·안내·약관을 포함해 모든
+          화면이 함께 쓰는 자리라, 여기에 배너를 두면 아직 아무것도 발행하지 않은 화면에까지
+          광고가 나간다 — naming-link을 2026-08-10에 반려시킨(「가치가 별로 없는 콘텐츠」) 구조가
+          그것이다. 광고는 결과·사전 화면이 자기 자리에서 직접 부른다(`lib/ads.ts`의 `adSlots`).
 
           `min-w-0`과 줄바꿈이 함께 있어야 한다. flex 항목은 기본이 min-content라, 이것이 없으면
           버튼 줄이 뷰포트보다 넓어질 때 줄지 않고 페이지 전체가 가로로 넘친다. */}

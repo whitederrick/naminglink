@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-import { AdBanner } from "@/components/AdBanner";
 import { CompatibilityForm } from "@/components/CompatibilityForm";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
@@ -75,12 +74,6 @@ export default async function CompatibilityPage({
 
           {/* 생년월일을 넣기 직전에 무엇이 저장되지 않는지 읽히도록 폼 바로 아래에 둔다. */}
           <PrivacyNotice locale={locale} className="mt-10" />
-        </div>
-
-        {/* **화면에서 가장 마지막 자리.** 푸터 바로 위다. 예전에 입력 화면 맨 아래에 있던
-            `form` 자리를 이것이 대신한다 — 둘을 함께 두면 광고 둘이 붙어 나온다. */}
-        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
 
         <SiteFooter locale={locale} />

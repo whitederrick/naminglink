@@ -274,7 +274,12 @@ export function AffinityResultView({
       {/* 결과를 읽은 직후가 "이 숫자는 어떻게 나왔나"가 가장 궁금한 자리다. */}
       <GuideLink locale={locale} from="affinity" className="mt-12" />
 
-      <AdBanner placement="result" locale={locale} className="mb-12 mt-6" />
+      <AdBanner
+        variant="inline"
+        slotKey="affinity_result_inline"
+        locale={locale}
+        className="mb-12 mt-6"
+      />
 
       {/* 곁들임 — 띠 */}
       <h2 className="mt-12 text-xl font-semibold">{t.zodiacTitle}</h2>

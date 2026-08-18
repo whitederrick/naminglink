@@ -52,6 +52,12 @@ export default async function ReadingResultPage({
             path="/reading/result"
             className="mt-10"
           />
+
+          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
+              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
+              아래는 아무도 안 본다. */}
+          <AdBanner variant="header" slotKey="reading_result_header" locale={locale} />
+
           <SajuResultView
             dictionary={dictionary}
             locale={locale}
@@ -59,9 +65,6 @@ export default async function ReadingResultPage({
           />
           {/* 결과를 읽은 직후에 "이건 참고 자료"라는 것과 "저장되지 않았다"는 것을 함께 본다. */}
           <PrivacyNotice locale={locale} className="mt-12" />
-        </div>
-        <div className="mx-auto w-full max-w-5xl px-6 pb-10">
-          <AdBanner placement="bottom" locale={locale} />
         </div>
         <SiteFooter locale={locale} guideFrom="reading" />
       </div>

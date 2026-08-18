@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 
-import { AdBanner } from "@/components/AdBanner";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
@@ -56,9 +55,6 @@ export default async function TodayPage({
         </section>
         <SajuForm dictionary={dictionary} locale={locale} menu="today" />
         <PrivacyNotice locale={locale} className="mt-10" />
-      </div>
-      <div className="mx-auto w-full max-w-5xl px-6 pb-10">
-        <AdBanner placement="bottom" locale={locale} />
       </div>
       <SiteFooter locale={locale} guideFrom="today" />
     </main>
