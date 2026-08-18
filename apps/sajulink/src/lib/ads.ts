@@ -110,6 +110,45 @@ export const adsenseClient = adsEnabled ? rawClient : "";
 export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "";
 
 /**
+ * **슬롯 ID 형식 검사 — 틀리면 빌드를 세운다.**
+ *
+ * 빈 값은 통과시킨다. 자리를 하나씩 켜는 것이 설계이고(다크 런치), 슬롯이 비면 그 자리만
+ * 조용히 렌더링하지 않는다.
+ *
+ * ## 왜 필요한가 (2026-08-18)
+ *
+ * 열네 자리 **전부에 퍼블리셔 ID**가 들어간 채 운영까지 갔다.
+ *
+ *     넣은 값   5084236528895241   ← 퍼블리셔 ID, 16자리, 계정에 하나
+ *     넣을 값   4148237335         ← 광고 단위 ID, 10자리, 자리마다 하나
+ *
+ * 애드센스가 **사이트 확인 화면**에서 보여 준 ads.txt 줄
+ * (`google.com, pub-5084236528895241, DIRECT, …`)에서 가져온 값이었다. 그 줄은 이 코드가
+ * 이미 자동으로 내고 있어 어디에도 붙여넣을 필요가 없는데, 화면에 나란히 보이니 그것이 슬롯
+ * ID로 읽혔다.
+ *
+ * **화면으로는 안 보인다.** 틀린 슬롯은 no-fill과 똑같이 빈 자리로 나오고, 승인 전에는 no-fill이
+ * 정상이라 「아직 승인이 안 나서 그렇겠지」로 지나간다. 그래서 사람이 아니라 여기가 세야 한다.
+ *
+ * **런타임에는 못 터진다.** `NEXT_PUBLIC_`은 빌드 때 값으로 박히므로, 빌드가 통과했다면
+ * 브라우저에서도 같은 값이다.
+ */
+function adSlot(name: string, raw: string | undefined): string {
+  const value = (raw ?? "").trim();
+  if (!value) return "";
+  if (!/^\d{10}$/.test(value)) {
+    throw new Error(
+      `NEXT_PUBLIC_ADSENSE_SLOT_${name}: 광고 단위 ID는 숫자 10자리여야 합니다. ` +
+        `받은 값 "${value}" (${value.length}자리).\n` +
+        "애드센스 → 광고 → '광고 단위 기준'에서 단위를 만들면 나오는 코드의 " +
+        "data-ad-slot 값입니다. ads.txt의 퍼블리셔 ID(pub-…, 16자리)나 " +
+        "data-ad-client 값이 아닙니다.",
+    );
+  }
+  return value;
+}
+
+/**
  * 광고 자리별 슬롯 ID. 애드센스 콘솔에서 광고 단위를 만들면 하나씩 나온다.
  *
  * **발행한 화면에만, 화면마다 두 자리.** 이미 내용이 실린 화면에 머리글(`_header`)과 본문
@@ -133,22 +172,34 @@ export const adsensePublisherId = adsEnabled ? rawClient.slice("ca-".length) : "
  */
 export const adSlots = {
   /** 사주 풀이 결과 — 제목 아래 머리글. */
-  reading_result_header: (
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT_READING_RESULT_HEADER ?? ""
-  ).trim(),
+  reading_result_header: adSlot("READING_RESULT_HEADER", process.env.NEXT_PUBLIC_ADSENSE_SLOT_READING_RESULT_HEADER),
   /** 사주 풀이 결과 — 본문 중간, 무료와 유료의 경계. */
-  reading_result_inline: (
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT_READING_RESULT_INLINE ?? ""
-  ).trim(),
+  reading_result_inline: adSlot("READING_RESULT_INLINE", process.env.NEXT_PUBLIC_ADSENSE_SLOT_READING_RESULT_INLINE),
   /** 오늘의 운세 결과 — 제목 아래 머리글. */
-  today_result_header: (
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT_TODAY_RESULT_HEADER ?? ""
-  ).trim(),
+  today_result_header: adSlot("TODAY_RESULT_HEADER", process.env.NEXT_PUBLIC_ADSENSE_SLOT_TODAY_RESULT_HEADER),
   /** 오늘의 운세 결과 — 본문 중간. */
-  today_result_inline: (
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT_TODAY_RESULT_INLINE ?? ""
-  ).trim(),
+  today_result_inline: adSlot("TODAY_RESULT_INLINE", process.env.NEXT_PUBLIC_ADSENSE_SLOT_TODAY_RESULT_INLINE),
 } as const;
+
+/**
+ * **같은 슬롯 ID를 두 자리에 쓰지 않는다.** 자리를 나눈 이유가 어느 화면이 버는지 갈라 보려는
+ * 것이므로, 값이 겹치면 나눈 의미가 사라진다. 한 자리를 복사해 붙여 넣다가 이름만 바꾸고 값을
+ * 안 바꾸는 실수가 이 검사에 걸린다. **빈 값끼리는 겹쳐도 된다**(아직 안 켠 자리들이다).
+ */
+{
+  const seen = new Map<string, string>();
+  for (const [key, value] of Object.entries(adSlots)) {
+    if (!value) continue;
+    const first = seen.get(value);
+    if (first) {
+      throw new Error(
+        `광고 슬롯 ID ${value}가 두 자리에 들어가 있습니다 — ${first} 와 ${key}. ` +
+          "자리마다 다른 광고 단위를 만들어야 화면별 수익이 갈려 보입니다.",
+      );
+    }
+    seen.set(value, key);
+  }
+}
 
 export type AdPlacement = keyof typeof adSlots;
 
