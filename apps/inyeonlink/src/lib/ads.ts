@@ -114,8 +114,32 @@ export const adsCspSources = {
     "https://googleads.g.doubleclick.net",
     "https://ep1.adtrafficquality.google",
     "https://csi.gstatic.com",
+    /**
+     * **script-src에는 있는데 connect-src에 없었다** (2026-08-18, naminglink 실측).
+     *
+     * 구글 메시징(Funding Choices)은 스크립트만 내려받는 게 아니라 **여기로 계속 통신한다** —
+     * 동의 신호(TCF)·쿠키 갱신·**광고 차단 감지**가 전부 이 주소를 쓴다. 막히면 콘솔이
+     * `ad_blocking_detection_executable`·`web_iab_tcf_v2_signal_executable`·
+     * `cookie_refresh_executable`에서 줄줄이 차단된다.
+     *
+     * 이 앱은 아직 광고 차단 회복을 켜지 않았지만, EEA 동의 메시지가 같은 도메인을 쓴다 —
+     * 켜는 날 같은 자리에서 막힌다.
+     */
+    "https://fundingchoicesmessages.google.com",
+    // ep1은 connect, ep2는 script에만 있었다. 같은 광고 품질 신호라 쌍으로 둔다.
+    "https://ep2.adtrafficquality.google",
   ],
   // 광고 소재는 어느 도메인에서 올지 알 수 없다. 여기만은 목록으로 못 좁힌다.
   image: ["https:"],
+  /**
+   * **동영상 소재도 같다** (2026-08-18). `media-src`가 아예 없어서 `default-src 'self'`로
+   * 떨어졌고, 그래서 광고 동영상이 통째로 막혀 있었다 — 창은 열리는데 안이 비는 증상이다.
+   *
+   *     redirector.gvt1.com/videoplayback/…/file.mp4  → 차단
+   *     NotSupportedError: The element has no supported sources.
+   *
+   * 이미지와 같은 이유로 목록으로 못 좁힌다. 소재가 어느 CDN에서 올지 우리가 정하지 않는다.
+   */
+  media: ["https:"],
   font: ["https://fonts.gstatic.com"],
 } as const;

@@ -47,6 +47,23 @@ const frameSrc = framed
   ? `frame-src 'self'${ads("frame")}${gam("frame")}${pay("frame")}${toss("frame")}`
   : "frame-src 'none'";
 
+/**
+ * **같은 출처가 갈래마다 들어와 중복된다.** 광고·GAM·결제·토스가 각자 목록을 내놓는데 겹치는
+ * 도메인이 있어서 그렇다 — naminglink 운영 헤더에 `media-src 'self' https: https:`와
+ * `connect-src … googleads.g.doubleclick.net … googleads.g.doubleclick.net`이 그대로 나갔다.
+ *
+ * **동작에는 영향이 없다**(같은 값이 두 번 있을 뿐). 다만 헤더를 읽을 때마다 사람이 헷갈리고,
+ * 갈래가 늘수록 심해진다. 조립이 끝난 뒤 한 번에 정리한다 — 갈래마다 목록을 손보는 것보다
+ * 이쪽이 낫다. 어느 갈래가 무엇을 여는지는 그 갈래의 목록에 그대로 남는다.
+ *
+ * 순서는 유지한다(처음 나온 자리에 남긴다). CSP는 순서에 의미가 없지만 diff가 흔들리지 않는다.
+ */
+const dedupeDirective = (directive: string) => {
+  const [name, ...tokens] = directive.split(/\s+/).filter(Boolean);
+  const seen = new Set<string>();
+  return [name, ...tokens.filter((token) => !seen.has(token) && seen.add(token))].join(" ");
+};
+
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -54,9 +71,12 @@ const securityHeaders = [
       "default-src 'self'",
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
       `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${gam("script")}${pay("script")}${toss("script")}`,
-      "style-src 'self' 'unsafe-inline'",
+      // 보상형 소재가 Roboto를 구글 폰트에서 불러온다. 막으면 콘솔이 시끄럽고 소재가 깨진다.
+      `style-src 'self' 'unsafe-inline'${gam("style")}`,
       `img-src 'self' data:${ads("image")}${pay("image")}${toss("image")}`,
-      `font-src 'self' data:${ads("font")}`,
+      `font-src 'self' data:${ads("font")}${gam("font")}`,
+      // **여태 없던 지시문이다.** 없으면 `default-src 'self'`로 떨어져 광고 동영상이 막힌다.
+      `media-src 'self'${ads("media")}${gam("media")}`,
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       frameSrc,
       // 리디렉션 결제는 폼 전송으로 PG사에 넘어간다. 결제를 켜지 않으면 자기 자신만 허용한다.
@@ -64,7 +84,9 @@ const securityHeaders = [
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "object-src 'none'",
-    ].join("; "),
+    ]
+      .map(dedupeDirective)
+      .join("; "),
   },
   { key: "X-Frame-Options", value: "DENY" },
   { key: "X-Content-Type-Options", value: "nosniff" },
