@@ -245,6 +245,20 @@ export const adsCspSources = {
     "https://googleads.g.doubleclick.net",
     "https://ep1.adtrafficquality.google",
     "https://csi.gstatic.com",
+    /**
+     * **script-src에는 있는데 connect-src에 없었다** (2026-08-18 실측).
+     *
+     * 구글 메시징(Funding Choices)은 스크립트만 내려받는 게 아니라 **여기로 계속 통신한다** —
+     * 동의 신호(TCF)·쿠키 갱신·**광고 차단 감지**가 전부 이 주소를 쓴다. 막히면 콘솔이
+     * `ad_blocking_detection_executable`·`web_iab_tcf_v2_signal_executable`·
+     * `cookie_refresh_executable`에서 줄줄이 차단된다.
+     *
+     * 광고 차단 회복을 켠 뒤 배너가 빈 채로 남는 증상이 여기서 왔을 수 있다 — 감지가 실패하면
+     * 구글이 그 페이지를 「광고가 막힌 화면」으로 볼 여지가 있다.
+     */
+    "https://fundingchoicesmessages.google.com",
+    // ep1은 connect, ep2는 script에만 있었다. 같은 광고 품질 신호라 쌍으로 둔다.
+    "https://ep2.adtrafficquality.google",
   ],
   // 광고 소재는 어느 도메인에서 올지 알 수 없다. 여기만은 목록으로 못 좁힌다.
   image: ["https:"],

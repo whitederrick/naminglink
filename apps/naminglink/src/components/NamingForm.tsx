@@ -35,7 +35,8 @@ import {
   unsealNextCandidate,
 } from "@/lib/candidate-seal";
 import { getFormCopy, getPlainSubmitCopy } from "@/lib/i18n-form";
-import { adGatesEnabled } from "@/lib/ads";
+import { adGatesEnabled, adsAllowedForLocale } from "@/lib/ads";
+import { showRewardedAd } from "@/lib/gam-rewarded";
 import {
   getServiceOverride,
   localizeFieldHint,
@@ -457,10 +458,34 @@ export function NamingForm({
       setAnalysisCountdown(0);
     };
 
-    // 오퍼월이 도는 방문에서는 우리 게이트를 띄우지 않는다. 한 번의 이용에 광고 관문이 둘이면
-    // 이용자가 두 번 붙잡힌다. 판정 근거는 `lib/offerwall.ts`에 적어 두었다.
-    // completeAdWindow는 adStartedAt이 null이면 그냥 돌아가므로 아래 호출들은 손댈 것이 없다.
-    if (selfGateNeeded) startAdWindow();
+    /**
+     * **관문의 대가는 GAM 보상형이 먼저다** (2026-08-18).
+     *
+     * 예전에는 이 자리를 오퍼월이 맡기로 되어 있었는데(`docs/WORKLOG_2026-07-30.md`),
+     * **오퍼월은 이 화면에 뜰 수 없다.** 오퍼월은 애드센스 태그가 페이지에 미리 있어야 하고,
+     * 입력 화면에는 그 태그가 **일부러 없다**(2026-08-10 반려 이후 「광고는 발행한 화면에만」).
+     * 실측으로 확인했다 — 입력 화면에서 `window.googlefc`는 `undefined`다.
+     *
+     * 보상형은 다르다. `showRewardedAd()`가 **버튼을 누른 뒤에** `gpt.js`를 스스로 붙이므로,
+     * 입력 화면은 광고 코드 없이 남아 있다가 이용자가 제출을 눌러 의사를 밝힌 뒤에만 실린다.
+     * 정책이 막는 「발행 콘텐츠 없는 화면의 광고 코드」에 해당하지 않는다.
+     *
+     * **`granted`일 때만 셀프 게이트를 건너뛴다.** 닫았거나(dismissed) 못 떴으면
+     * (no-fill·광고차단·넓은 화면) 지금까지처럼 셀프 광고가 자리를 채운다 — 광고가 없다고
+     * 분석이 그냥 나가면 관문이 없는 것과 같다.
+     *
+     * **분석과 동시에 돈다는 성질은 그대로다.** 이 약속을 여기서 기다리지 않고 아래 요청을
+     * 먼저 던진다. 결과를 내보내기 직전에 한 번 기다린다(`await gatePassed`).
+     */
+    const gatePassed = (async () => {
+      if (!selfGateNeeded) return;
+      if (adGatesEnabled && adsAllowedForLocale(locale ?? "")) {
+        const outcome = await showRewardedAd();
+        if (outcome === "granted") return;
+      }
+      startAdWindow();
+      await completeAdWindow();
+    })();
 
     try {
       const countryProfile = selectedCountry
@@ -525,7 +550,7 @@ export function NamingForm({
       const hasRewardableResult =
         !isHanjaMeaning || resultCandidateCount(payload.result) > 0;
 
-      await completeAdWindow();
+      await gatePassed;
 
       trackAnalytics({ eventType: "ANALYSIS_COMPLETED", locale, serviceType: analyticsServiceType });
       if (hasRewardableResult) {
