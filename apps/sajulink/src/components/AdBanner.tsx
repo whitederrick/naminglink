@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-import { adSlotFor, adsenseClient, type AdPlacement } from "@/lib/ads";
+import { adSlotFor, adsAllowedForLocale, adsenseClient, type AdPlacement } from "@/lib/ads";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 declare global {
@@ -36,8 +36,17 @@ export function AdBanner({
   // 되므로 이 자리에서 한 번 밀었는지 직접 기억한다.
   const pushed = useRef(false);
 
+  /**
+   * **이 언어에 광고 코드를 실어도 되는가** (2026-08-18에 배선했다).
+   *
+   * 구글 지원 언어가 아니거나 사람이 검수하지 않은 언어에는 `<ins>`도 요청도 내지 않는다
+   * (`lib/ads.ts`의 `adsAllowedForLocale`). 판정 함수만 만들어 두고 부르지 않으면 파일은
+   * 다 있는데 규칙은 없는 상태가 된다 — 그 자리를 이 한 줄이 메운다.
+   */
+  const adsAllowed = adsAllowedForLocale(locale);
+
   useEffect(() => {
-    if (!slot || pushed.current) return;
+    if (!slot || !adsAllowed || pushed.current) return;
     // 스크립트가 아직 안 왔어도 push해 둔 요청은 로드 후 처리된다 — 배열에 쌓아 두는 구조다.
     try {
       (window.adsbygoogle = window.adsbygoogle ?? []).push({});
@@ -45,7 +54,7 @@ export function AdBanner({
     } catch {
       // 광고 로드 실패가 화면을 망가뜨리면 안 된다. 조용히 넘어간다.
     }
-  }, [slot]);
+  }, [slot, adsAllowed]);
 
   // 슬롯이 없으면 운영에서는 아무것도 그리지 않지만, **개발에서는 자리만 표시한다.**
   // 자리가 안 보이면 광고를 켜기 전에는 배치를 판단할 수 없다 — 크기가 맞는지, 버튼과 너무
@@ -53,6 +62,10 @@ export function AdBanner({
   //
   // `NODE_ENV`는 Next가 빌드 시점에 값으로 박아 넣는다. 운영 빌드에서는 이 분기 자체가 사라져
   // **자리 표시가 배포에 실려 나갈 수 없다.**
+  // 실을 수 없는 언어에서는 자리 표시조차 두지 않는다. 개발에서도 마찬가지다 —
+  // 「여기 광고가 들어간다」고 보이면 그 화면에 넣어도 되는 것으로 읽힌다.
+  if (!adsAllowed) return null;
+
   if (!slot) {
     if (process.env.NODE_ENV === "production") return null;
     return <AdPlaceholder placement={placement} className={className} />;

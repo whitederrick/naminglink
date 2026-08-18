@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
-import { adsCspSources, adsEnabled } from "./src/lib/ads";
+import { adEligibleLocales, adsCspSources, adsEnabled, adsLive } from "./src/lib/ads";
+import { localeCodes } from "./src/lib/locale-codes";
 // 설정 파일에서 직접 가져온다. `gam-rewarded`는 `"use client"`라 이 자리에서 읽을 값이 아니다.
 import { gamCspSources, gamRewardedEnabled } from "./src/lib/gam-rewarded-config";
 import {
@@ -88,6 +89,15 @@ const securityHeaders = [
       .map(dedupeDirective)
       .join("; "),
   },
+  /**
+   * **광고 체제를 응답이 스스로 밝힌다.** 검사기가 「지금 이 사이트가 심사 모드인가」를 알아야
+   * 기대값을 고를 수 있는데, 그 값을 검사기 쪽 `.env.local`에서 읽게 하면 운영 환경변수와
+   * 어긋나는 날 엉뚱한 기대값으로 초록불을 낸다. 렌더링을 가르는 값과 **같은 모듈**에서
+   * 헤더를 만들면 어긋날 수가 없다. 이용자에게는 보이지 않고 광고 요청도 아니다.
+   */
+  { key: "X-Ad-Mode", value: adsLive ? "live" : "review" },
+  /** 광고 코드를 실어도 되는 로케일(지원 ∩ 검수). 검사기의 대조군이 여기서 온다. */
+  { key: "X-Ad-Locales", value: adEligibleLocales(localeCodes).join(",") },
   { key: "X-Frame-Options", value: "DENY" },
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },

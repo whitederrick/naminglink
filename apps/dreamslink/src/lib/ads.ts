@@ -22,6 +22,88 @@ const rawClient = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
  */
 export const adsEnabled = /^ca-pub-\d{10,}$/.test(rawClient);
 
+/**
+ * **광고 체제 — 심사와 운영을 가른다** (naminglink에서 이식, 2026-08-18).
+ *
+ * 연결(`adsEnabled`)과 게재(`adMode`)는 다른 값이다. 광고를 끄려고
+ * `NEXT_PUBLIC_ADSENSE_CLIENT`를 지우면 **ads.txt가 404가 되고 사이트 연결도 함께 죽는다** —
+ * 애드센스 심사는 「코드가 설치되어 있는가」를 보는 절차라 연결을 끊는 것은 심사를 막는 일이다.
+ * 값을 지우지 말고 이 플래그만 쓸 것.
+ *
+ * **기본값은 심사 모드다.** 「켜는 것을 잊는 것」은 수익이 늦어지는 일이고 「끄는 것을 잊는
+ * 것」은 정책 위반이 되는 일이라, 안전한 쪽을 기본으로 둔다.
+ *
+ * **`NEXT_PUBLIC_`이어야 한다.** 광고 컴포넌트가 클라이언트라, 서버에서만 읽으면 서버 HTML과
+ * 하이드레이션 결과가 갈린다.
+ */
+const adMode = (process.env.NEXT_PUBLIC_AD_MODE ?? "").trim().toLowerCase();
+
+/** 운영 모드인가. 거짓이면 심사 모드다. */
+export const adsLive = adMode === "live";
+
+/**
+ * **광고 관문을 세워도 되는가.** 관문이란 「광고를 봐야 결과가 열리는」 자리다.
+ *
+ * 심사 모드에서는 관문이 통째로 없다. 광고를 띄우지 않으면서 화면이 「광고 확인 후 시작」이라고
+ * 말하면 심사자에게는 미완성이거나 기만적인 화면으로 읽힌다.
+ */
+export const adGatesEnabled = adsLive;
+
+/**
+ * **구글 게시자 제품이 지원하는 언어.** 여기 없는 언어의 화면에는 광고 코드를 싣지 않는다.
+ *
+ * > "Placing Google ad code on pages with content primarily in an unsupported language is not
+ * > permitted by the Google Publisher Policies."
+ * > — support.google.com/adsense/answer/9727
+ *
+ * 23개 로케일 중 **카자흐어·크메르어·몽골어·우즈베크어 넷이 목록에 없다.** 그 화면에 로더나
+ * `<ins>`가 나가는 것 자체가 위반이다 — 광고가 실제로 채워지는지와 무관하다.
+ */
+const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
+  "ko", "en", "ja", "zh", "de", "es", "fr", "it", "pt",
+  "vi", "th", "id", "ru", "ar", "fil", "hi", "tr", "ms", "pl",
+]);
+
+/**
+ * **사람이 번역을 검수한 로케일.** 위 목록과 **다른 개념**이다.
+ *
+ * 목록에 en이 있는 것은 구글이 영어 광고를 지원한다는 뜻이지, 우리 영어판을 사람이 읽어 봤다는
+ * 뜻이 아니다. 이 저장소의 번역은 기계 번역이며 원어민 감수를 거치지 않았다.
+ *
+ * **한국어는 번역이 아니라 원문이므로** 검수 대상이 아니다 — 그래서 여기 있다. 나머지는 사람이
+ * 그 언어 화면을 실제로 읽어 본 뒤 `docs/LOCALE_REVIEW_LOG.md`에 줄을 더하고 여기 넣는다.
+ * 근거가 없는 로케일을 여기 적지 말 것 — 이름이 지키지 못하는 약속을 하게 된다.
+ */
+const HUMAN_REVIEWED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
+
+/**
+ * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —
+ * 정책 문서가 「Google publisher products」 전체를 대상으로 한다.
+ *
+ * **심사 모드에서도 참이다.** 발행한 콘텐츠가 그려진 자리의 배너는 그대로 있어야 애드센스가
+ * 코드를 찾는다. 심사 모드에서 꺼지는 것은 **관문**이다(`adGatesEnabled`).
+ */
+export function adsAllowedForLocale(locale: string): boolean {
+  return (
+    adsEnabled &&
+    ADSENSE_SUPPORTED_LOCALES.has(locale) &&
+    HUMAN_REVIEWED_LOCALES.has(locale)
+  );
+}
+
+/** 검사기 대조군. 지원하지 않는 로케일(우리 23개 중). */
+export function unsupportedAdLocales(locales: readonly string[]): string[] {
+  return locales.filter((locale) => !ADSENSE_SUPPORTED_LOCALES.has(locale));
+}
+
+/** 검사기 대조군. 광고 코드가 **있어야 하는** 로케일이다(지원 ∩ 검수). */
+export function adEligibleLocales(locales: readonly string[]): string[] {
+  return locales.filter(
+    (locale) => ADSENSE_SUPPORTED_LOCALES.has(locale) && HUMAN_REVIEWED_LOCALES.has(locale),
+  );
+}
+
+
 export const adsenseClient = adsEnabled ? rawClient : "";
 
 /** ads.txt에 적는 형태. `ca-` 접두사를 뗀 값이다. */
