@@ -21,6 +21,15 @@ type ContentRow = {
   published_at: string | null;
 };
 
+/**
+ * 정책 문서 캐시 태그. 운영자가 약관·개인정보·환불·가격 문서를 게시하면 이 태그를 무효화해
+ * **미리 만들어 둔 화면이 다시 만들어진다**(`app/api/admin/site-content/route.ts`).
+ *
+ * 2026-08-18에 붙였다 — 그 전에는 이 읽기가 요청마다 돌았기 때문에 태그가 필요 없었다.
+ * 정적화는 **그때 읽은 값을 HTML에 박으므로**, 태그가 없으면 게시가 화면에 닿지 않는다.
+ */
+export const POLICY_CONTENT_TAG = "site-content:policy";
+
 export async function getPublishedPolicyDocument(
   kind: LegalDocumentKind,
   locale: Locale,

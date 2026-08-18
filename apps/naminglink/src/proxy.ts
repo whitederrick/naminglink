@@ -21,29 +21,6 @@ import { isGlobalOnlyPath, isKoreanOnlyPath } from "@/lib/route-locales";
  */
 
 /**
- * 루트 레이아웃에 로케일을 알리는 헤더. 레이아웃은 searchParams를 못 받아 `?lang=`을 볼 수 없다.
- */
-function localeHeaders(request: NextRequest, locale: string) {
-  const headers = new Headers(request.headers);
-  headers.set("x-locale", locale);
-  return headers;
-}
-
-/**
- * 「이 화면에는 한국어를 주지 말라」를 화면 코드에 알린다.
- *
- * 로케일 판정은 접속 국가·브라우저 설정까지 보므로(`lib/locale.ts`) 미들웨어에서 `lang`만
- * 지워서는 막히지 않는다 — 한국에서 접속하면 그대로 ko가 나온다. 판정하는 쪽에 조건을 넘긴다.
- */
-function noKoreanHeaders(request: NextRequest, locale?: string) {
-  const headers = new Headers(request.headers);
-  if (locale) headers.set("x-locale", locale);
-  else headers.delete("x-locale");
-  headers.set("x-block-korean", "1");
-  return headers;
-}
-
-/**
  * 로케일 주소로 보낸다. **`lang`만 지우고 나머지 쿼리는 그대로 싣는다.**
  *
  * 쿼리를 통째로 버리면 `mode=transliteration`(발음 표기 흐름)이나 `from=`(안내로 들어온 출처)이
@@ -167,9 +144,16 @@ export function proxy(request: NextRequest) {
     return redirectStrippingLang(request, pathname, 301);
   }
 
-  // `/ko` → `/`, `/ko/a/b` → `/a/b`
-  const target = request.nextUrl.clone();
-  target.pathname = rest.length ? `/${rest.join("/")}` : "/";
+  /**
+   * 경로에서 로케일을 뗀 나머지. **규칙 판정에만 쓴다 — 더 이상 rewrite하지 않는다**
+   * (2026-08-18).
+   *
+   * 예전에는 `/ja/about`을 `/about?lang=ja`로 되돌리고 헤더로 레이아웃에 알려 줬다. 그래야
+   * 라우트 파일을 `[locale]` 아래로 옮기지 않아도 됐기 때문이다. 그 편의의 대가가 **정적
+   * 페이지 0장**이었다 — 레이아웃이 요청 헤더를 읽는 순간 그 아래 전부가 미리 만들어지지
+   * 못한다. 이제 라우트가 `app/[locale]/…`이라 언어가 경로 조각으로 그대로 간다.
+   */
+  const bare = rest.length ? `/${rest.join("/")}` : "/";
 
   /**
    * 한국어 전용 화면에는 **로케일 주소를 두지 않는다.** rewrite가 아니라 301로 보낸다.
@@ -180,32 +164,24 @@ export function proxy(request: NextRequest) {
    *
    * **404가 아니라 301이다.** 이미 색인되고 공유된 주소를 끊으면 흐름이 거기서 막힌다.
    */
-  if (isKoreanOnlyPath(target.pathname)) {
+  if (isKoreanOnlyPath(bare)) {
+    const target = request.nextUrl.clone();
+    target.pathname = bare;
     target.searchParams.delete("lang");
     return NextResponse.redirect(target, 301);
   }
 
   // 글로벌 전용 화면에는 **한국어 주소를 두지 않는다.** 지우는 것이 아니라 영어로 보낸다 —
   // 404로 끊으면 그 링크를 밟은 사람이 거기서 막힌다.
-  if (first === "ko" && isGlobalOnlyPath(target.pathname)) {
+  if (first === "ko" && isGlobalOnlyPath(bare)) {
     const english = request.nextUrl.clone();
-    english.pathname = `/en${target.pathname}`;
+    english.pathname = `/en${bare}`;
     english.searchParams.delete("lang");
     return NextResponse.redirect(english, 301);
   }
-  // 경로의 로케일이 기준이다. 주소에 `?lang=`이 함께 있어도 경로 쪽을 따른다 —
-  // 둘이 어긋난 주소로 서로 다른 화면이 나오면 안 된다.
-  target.searchParams.set("lang", first);
 
-  // **레이아웃에도 알려 준다.** 헤더로 넘기지 않으면 `/ko/...`인데 `<html lang="en">`이 나간다
-  // — 스크린 리더가 엉뚱한 언어로 읽고, 아랍어에서 문서 방향(rtl)도 틀어진다.
-  //
-  // 글로벌 전용 화면에는 차단 헤더를 함께 남긴다. 여기까지 ko가 올 수는 없지만(위에서 301),
-  // **판정하는 쪽이 스스로 막게 두는 편이** 라우팅이 바뀌어도 규칙이 살아남는다.
-  const headers = isGlobalOnlyPath(target.pathname)
-    ? noKoreanHeaders(request, first)
-    : localeHeaders(request, first);
-  return NextResponse.rewrite(target, { request: { headers } });
+  // 나머지는 손대지 않는다. `app/[locale]`이 이 주소를 그대로 받는다.
+  return NextResponse.next();
 }
 
 export const config = {

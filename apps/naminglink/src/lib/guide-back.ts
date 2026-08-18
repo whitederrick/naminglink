@@ -1,4 +1,5 @@
 import type { BackTarget } from "@/components/GuideBackLink";
+import { guideEntriesFor } from "@/lib/guide-index";
 import { landingCopies } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 import type { Locale } from "@/lib/services";
@@ -104,6 +105,23 @@ export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<s
     origins[from] = guideBackLink(locale, from, homeLabel);
   }
   return origins;
+}
+
+/**
+ * 허브의 문서 카드 **순서표**. `from`마다 「기본 순서의 i번째 카드가 몇 번째로 가는지」다.
+ *
+ * 허브가 이 값을 한 번 만들어 넘기면 브라우저가 CSS `order`만 갈아 끼운다
+ * (`components/GuideEntryOrder.tsx`). 갈래 판정은 여기 그대로 있고, 클라이언트로 옮기는 것은
+ * **숫자뿐**이다 — 규칙이 두 곳에 생기지 않는다.
+ */
+export function guideEntryOrders(locale: Locale): Record<string, number[]> {
+  const base = guideEntriesFor(undefined, locale);
+  const orders: Record<string, number[]> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    const ordered = guideEntriesFor(from, locale);
+    orders[from] = base.map((entry) => ordered.findIndex((item) => item.slug === entry.slug));
+  }
+  return orders;
 }
 
 /** 허브가 문서 카드 링크에 실을 쿼리. 아는 값일 때만 붙인다. */

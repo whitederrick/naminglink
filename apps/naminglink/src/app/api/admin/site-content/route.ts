@@ -2,7 +2,7 @@ import { revalidateTag } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
 import { isDevEnvironment } from "@naminglink/core/env";
 import { requireAdmin } from "@/lib/admin-auth";
-import { FOOTER_CONTENT_TAG } from "@/lib/site-content-server";
+import { FOOTER_CONTENT_TAG, POLICY_CONTENT_TAG } from "@/lib/site-content-server";
 import { getFallbackPolicyDocument } from "@/lib/legal-content";
 import { isLocale } from "@/lib/locale";
 import {
@@ -203,6 +203,8 @@ export async function PUT(request: NextRequest) {
   // 수명과 무관하게 전부 지운다 — 법정 표시 항목이라 늦게 반영되는 쪽이 더 나쁘다.
   if (action === "publish" && contentKey === getContentKey("footer", "global")) {
     revalidateTag(FOOTER_CONTENT_TAG, "max");
+    // 정책 문서도 미리 만들어 둔 화면에 박혀 있다. 함께 무효화한다.
+    revalidateTag(POLICY_CONTENT_TAG, "max");
   }
 
   return NextResponse.json({
