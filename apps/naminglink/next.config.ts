@@ -54,6 +54,23 @@ const toss = (kind: keyof typeof tossCspSources) =>
 
 const supabaseConnect = supabaseCspOrigin ? ` ${supabaseCspOrigin}` : "";
 
+/**
+ * **같은 출처가 갈래마다 들어와 중복된다.** 광고·GAM·결제·토스가 각자 목록을 내놓는데 겹치는
+ * 도메인이 있어서 그렇다 — 실제로 운영 헤더에 `media-src 'self' https: https:`와
+ * `connect-src … googleads.g.doubleclick.net … googleads.g.doubleclick.net`이 나갔다.
+ *
+ * **동작에는 영향이 없다**(같은 값이 두 번 있을 뿐). 다만 헤더를 읽을 때마다 사람이 헷갈리고,
+ * 갈래가 늘수록 심해진다. 조립이 끝난 뒤 한 번에 정리한다 — 갈래마다 목록을 손보는 것보다
+ * 이쪽이 낫다. 어느 갈래가 무엇을 여는지는 그 갈래의 목록에 그대로 남는다.
+ *
+ * 순서는 유지한다(처음 나온 자리에 남긴다). CSP는 순서에 의미가 없지만 diff가 흔들리지 않는다.
+ */
+const dedupeDirective = (directive: string) => {
+  const [name, ...tokens] = directive.split(/\s+/).filter(Boolean);
+  const seen = new Set<string>();
+  return [name, ...tokens.filter((token) => !seen.has(token) && seen.add(token))].join(" ");
+};
+
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -83,7 +100,9 @@ const securityHeaders = [
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "object-src 'none'",
-    ].join("; "),
+    ]
+      .map(dedupeDirective)
+      .join("; "),
   },
   /**
    * **광고 체제를 응답이 스스로 밝힌다** (2026-08-11).
