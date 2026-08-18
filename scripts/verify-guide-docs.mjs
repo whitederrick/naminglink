@@ -107,6 +107,22 @@ function entriesOf(app) {
   return entries;
 }
 
+/** `apps/<app>/src/app` 아래의 모든 `guide` 디렉터리. 라우트 그룹이 몇 겹이든 찾는다. */
+function guideDirs(app) {
+  const root = `apps/${app}/src/app`;
+  const found = [];
+  const walk = (dir) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const full = `${dir}/${entry.name}`;
+      if (entry.name === "guide") found.push(full);
+      else walk(full);
+    }
+  };
+  walk(root);
+  return found;
+}
+
 const problems = [];
 let checked = 0;
 
@@ -117,8 +133,18 @@ for (const app of APP_KEYS) {
     continue;
   }
 
-  const dir = `apps/${app}/src/app/guide`;
-  const onDisk = readdirSync(dir).filter((name) => existsSync(`${dir}/${name}/page.tsx`));
+  // **안내 문서가 한 디렉터리에 있다고 적어 두지 않는다** (2026-08-18). naminglink는
+  // 정적화를 하며 라우트 그룹이 둘로 갈렸고, 한국어 전용 문서는 `(korean)/guide`로 옮겨졌다.
+  // 한 자리만 읽으면 옮겨 간 문서들이 **검사받지 않은 채 통과**한다.
+  const dirs = guideDirs(app);
+  if (dirs.length === 0) {
+    problems.push([app, "-", "src/app 아래에서 guide 디렉터리를 하나도 찾지 못했다"]);
+    continue;
+  }
+  const pageOf = (slug) => dirs.map((dir) => `${dir}/${slug}/page.tsx`).find(existsSync);
+  const onDisk = dirs.flatMap((dir) =>
+    readdirSync(dir).filter((name) => existsSync(`${dir}/${name}/page.tsx`)),
+  );
   for (const slug of onDisk) {
     if (!entries.some((entry) => entry.slug === slug)) {
       problems.push([app, slug, "파일은 있는데 guide-index에 없다 — 허브가 링크하지 않는다"]);
@@ -128,8 +154,8 @@ for (const app of APP_KEYS) {
   const count = { ko: 0, global: 0 };
 
   for (const entry of entries) {
-    const file = `${dir}/${entry.slug}/page.tsx`;
-    if (!existsSync(file)) {
+    const file = pageOf(entry.slug);
+    if (!file) {
       problems.push([app, entry.slug, "목록에 있는데 파일이 없다 — 404가 된다"]);
       continue;
     }

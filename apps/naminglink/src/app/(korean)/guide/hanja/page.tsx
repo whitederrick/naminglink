@@ -6,10 +6,9 @@ import { GuideShell } from "@/components/GuideShell";
 import { HanjaSyllableList } from "@/components/HanjaSyllableList";
 import { getDocPage } from "@/lib/doc-content";
 import { docValues } from "@/lib/doc-values";
-import { guideHubHref } from "@/lib/guide-back";
+import { guideHubHref, guideHubOrigins } from "@/lib/guide-back";
 import { formatCount } from "@/lib/guide-data";
 import { getChosungGroups, TINY_GROUP_LIMIT } from "@/lib/hanja-guide-data";
-import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
@@ -25,28 +24,30 @@ import { buildPageMetadata } from "@/lib/seo";
  * 두고(`slot`) 여기서 끼워 넣는다.
  */
 
-type PageProps = { searchParams?: Promise<{ lang?: string; from?: string }> };
-
+/**
+ * **한국어 한 벌짜리 화면이라 요청에서 언어를 읽지 않는다** (2026-08-18).
+ *
+ * 이 서비스는 화면이 한국어뿐이라 로케일 주소를 갖지 않는다(`lib/route-locales.ts`).
+ * 그런데도 `getRequestLocale()`을 부르고 있었고, 그 함수는 `headers()`를 읽는다 —
+ * **읽는 순간 이 화면은 미리 만들어지지 못한다.** 늘 `ko`가 나오는 판정 하나 때문에
+ * 요청마다 서버가 화면을 다시 그리고 있었다.
+ */
+const LOCALE = "ko" as const;
 const KEY = "guide/hanja" as const;
 
-export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
-  const params = await searchParams;
-  const requested = isLocale(params?.lang) ? params.lang : null;
-  const locale = await getRequestLocale(params?.lang);
-  const doc = getDocPage(locale, KEY);
+export function generateMetadata(): Metadata {
+  const doc = getDocPage(LOCALE, KEY);
 
   return buildPageMetadata({
     path: "/guide/hanja",
-    locale,
-    requested,
+    locale: LOCALE,
     title: doc.title,
     description: doc.summary,
   });
 }
 
-export default async function Page({ searchParams }: PageProps) {
-  const params = await searchParams;
-  const locale = await getRequestLocale(params?.lang);
+export default async function Page() {
+  const locale = LOCALE;
   const doc = getDocPage(locale, KEY);
   const [groups, values] = await Promise.all([getChosungGroups(), docValues()]);
 
@@ -60,8 +61,9 @@ export default async function Page({ searchParams }: PageProps) {
       eyebrow={doc.eyebrow}
       title={doc.title}
       description={doc.summary}
-      backHref={guideHubHref(locale, params?.from)}
+      backHref={guideHubHref(locale)}
       backLabel={doc.backLabel}
+      backOrigins={guideHubOrigins(locale, doc.backLabel)}
     >
       <DocBody
         sections={doc.sections}

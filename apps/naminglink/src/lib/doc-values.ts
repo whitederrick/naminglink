@@ -1,4 +1,7 @@
+import { unstable_cache } from "next/cache";
+
 import { getGuideCounts } from "@/lib/guide-data";
+import { PRODUCT_SETTINGS_TAG } from "@/lib/product-settings";
 import { getPurchaseDisplay } from "@/lib/purchase";
 
 /**
@@ -11,7 +14,7 @@ import { getPurchaseDisplay } from "@/lib/purchase";
  * 그리지 않는다 — 화면에 `{characterTotal}`이 나가거나 「대법원 표 자 입니다」처럼 값이 빠진
  * 문장이 나가는 것보다 낫다. 옮기기 전 코드도 `counts ? … : null`로 같은 판단을 했다.
  */
-export async function docValues(): Promise<Record<string, string>> {
+async function readDocValues(): Promise<Record<string, string>> {
   const values: Record<string, string> = {};
 
   const counts = await getGuideCounts();
@@ -60,3 +63,19 @@ export async function docValues(): Promise<Record<string, string>> {
 
   return values;
 }
+
+/**
+ * **미리 만들어 둔 화면이 옛 금액을 물고 굳지 않게 한다** (2026-08-18).
+ *
+ * 안내 문서가 정적으로 만들어지면서 이 값들이 HTML에 박히게 됐다. 금액은 운영자가 콘솔에서
+ * 바꾸는 값이라, 캐시에 태그를 달아 두지 않으면 **상품을 끈 뒤에도 그 화면만 정가를 계속
+ * 내민다.** 팔지 않는 값을 확정 상품처럼 적는 자리다(표시광고법·애드센스 둘 다 걸린다).
+ *
+ * 운영자가 상품을 저장하면 `api/admin/products`가 이 태그를 무효화해 그 화면들이 다시
+ * 만들어진다. 태그가 없는 값도 있어서(한자 수는 `guide-data.ts`의 하루 캐시가 맡는다)
+ * `revalidate`로 상한을 함께 걸어 둔다.
+ */
+export const docValues = unstable_cache(readDocValues, ["doc-values"], {
+  tags: [PRODUCT_SETTINGS_TAG],
+  revalidate: 3600,
+});

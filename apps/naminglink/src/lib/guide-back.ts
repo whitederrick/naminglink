@@ -1,3 +1,4 @@
+import type { BackTarget } from "@/components/GuideBackLink";
 import { landingCopies } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 import type { Locale } from "@/lib/services";
@@ -73,6 +74,36 @@ export function guideBackLink(locale: Locale, from: string | undefined, homeLabe
  */
 export function guideHubHref(locale: Locale, from?: string) {
   return localePath("/guide", locale, guideOriginQuery(from));
+}
+
+/**
+ * **안내 허브로 돌아가는 후보를 한 벌 만들어 둔다** (2026-08-18).
+ *
+ * 문서 화면은 `?from=`을 서버에서 읽지 않는다 — 읽는 순간 그 화면이 정적 렌더링에서 빠지기
+ * 때문이다. 대신 아는 출처마다 목적지를 미리 만들어 넘기고, 어느 것을 쓸지는 브라우저가
+ * 정한다(`components/GuideBackLink.tsx`).
+ *
+ * 이름은 문서가 이미 갖고 있는 `backLabel`(「안내로」)이라 출처마다 다르지 않다. 그래서
+ * 여기서는 주소만 갈린다.
+ */
+export function guideHubOrigins(locale: Locale, label: string): Record<string, BackTarget> {
+  const origins: Record<string, BackTarget> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    origins[from] = { href: guideHubHref(locale, from), label };
+  }
+  return origins;
+}
+
+/**
+ * 허브 화면이 쓰는 후보. **여기서는 이름도 갈린다** — 돌아갈 곳이 서비스 화면이라 그 서비스
+ * 이름이 단추에 적힌다. 사전을 브라우저로 들고 가지 않도록 **지금 로케일의 넷만** 만든다.
+ */
+export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<string, BackTarget> {
+  const origins: Record<string, BackTarget> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    origins[from] = guideBackLink(locale, from, homeLabel);
+  }
+  return origins;
 }
 
 /** 허브가 문서 카드 링크에 실을 쿼리. 아는 값일 때만 붙인다. */

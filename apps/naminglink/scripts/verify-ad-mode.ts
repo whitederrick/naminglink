@@ -21,7 +21,9 @@
 //   npx tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-ad-mode.ts
 
 import { spawnSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 /** 검사용 값. 실제 계정과 무관하고, **형식이 맞아야** 각 모듈이 켜진다. */
 const TEST_ENV = {
@@ -84,13 +86,38 @@ async function collect(): Promise<Facts> {
      * 쉬운 회귀다 — 되돌리면 로그인·요금·빈 결과 화면이 다시 광고 화면이 되는데, 화면만 봐서는
      * 티가 나지 않는다(자동 광고는 no-fill이면 높이 0으로 남는다).
      */
-    layoutLoadsAdScript: /adsbygoogle\.js/.test(
-      readFileSync(new URL("../src/app/layout.tsx", import.meta.url), "utf8").replace(
-        /\/\*[\s\S]*?\*\/|^\s*\/\/.*$/gm,
-        " ",
-      ),
+    layoutLoadsAdScript: rootLayoutSources().some((source) =>
+      /adsbygoogle\.js/.test(source.replace(/\/\*[\s\S]*?\*\/|^\s*\/\/.*$/gm, " ")),
     ),
   };
+}
+
+/**
+ * **루트 레이아웃을 손으로 적지 않는다** (2026-08-18).
+ *
+ * 정적화를 하며 루트 레이아웃이 둘이 됐다 — 로케일 갈래와 한국어 갈래가 각자 `<html>`을
+ * 그린다. 예전 이 검사기는 `src/app/layout.tsx` 한 자리를 읽었는데, 그 파일이 없어지면
+ * `readFileSync`가 던져 검사기가 죽거나(고치면서 try로 감싸면) **조용히 통과**한다.
+ * 「목록에서 빠진 것은 통과가 아니라 검사받지 않은 것」의 같은 자리다.
+ *
+ * 그래서 `src/app` 아래의 모든 `layout.tsx`를 찾아 **하나라도** 로더를 부르면 잡는다.
+ * 레이아웃이 셋이 되어도 이 검사기는 그대로 맞는다.
+ */
+function rootLayoutSources(): string[] {
+  const root = fileURLToPath(new URL("../src/app", import.meta.url));
+  const found: string[] = [];
+  const walk = (dir: string) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const full = join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name === "layout.tsx") found.push(readFileSync(full, "utf8"));
+    }
+  };
+  walk(root);
+  if (found.length === 0) {
+    throw new Error("루트 레이아웃을 한 장도 찾지 못했다 — 이 검사기의 결과를 믿지 말 것");
+  }
+  return found;
 }
 
 function runChild(mode: "review" | "live"): Facts {

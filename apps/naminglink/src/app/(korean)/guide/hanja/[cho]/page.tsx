@@ -10,14 +10,22 @@ import {
   indexableChosungSlugs,
   TINY_GROUP_LIMIT,
 } from "@/lib/hanja-guide-data";
-import { getRequestLocale, isLocale } from "@/lib/locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
 
 type PageProps = {
   params: Promise<{ cho: string }>;
-  searchParams?: Promise<{ lang?: string }>;
 };
+
+/**
+ * **한국어 한 벌짜리 화면이라 요청에서 언어를 읽지 않는다** (2026-08-18).
+ *
+ * 이 서비스는 화면이 한국어뿐이라 로케일 주소를 갖지 않는다(`lib/route-locales.ts`).
+ * 그런데도 `getRequestLocale()`을 부르고 있었고, 그 함수는 `headers()`를 읽는다 —
+ * **읽는 순간 이 화면은 미리 만들어지지 못한다.** 늘 `ko`가 나오는 판정 하나 때문에
+ * 요청마다 서버가 화면을 다시 그리고 있었다.
+ */
+const LOCALE = "ko" as const;
 
 /**
  * 초성 목록은 DB에서 오므로 빌드 시점에 경로를 미리 만들어 둔다. 없는 초성으로 들어오면
@@ -31,34 +39,25 @@ function titleOf(jamo: string) {
   return `${jamo}으로 시작하는 인명용 한자`;
 }
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { cho } = await params;
   const group = await getChosungGroup(cho);
   if (!group) return {};
 
-  const search = await searchParams;
-  const requested = isLocale(search?.lang) ? search.lang : null;
-  const locale = await getRequestLocale(search?.lang);
-
   return buildPageMetadata({
     path: `/guide/hanja/${group.slug}`,
-    locale,
-    requested,
+    locale: LOCALE,
     title: titleOf(group.jamo),
     description: `${group.jamo}으로 시작하는 이름에 쓸 수 있는 한자 ${formatCount(group.total)}자입니다. 글자마다 지정 독음과 뜻을 함께 정리했습니다.`,
   });
 }
 
-export default async function Page({ params, searchParams }: PageProps) {
+export default async function Page({ params }: PageProps) {
   const { cho } = await params;
   const group = await getChosungGroup(cho);
   if (!group || group.total <= TINY_GROUP_LIMIT) notFound();
 
-  const search = await searchParams;
-  const locale = await getRequestLocale(search?.lang);
+  const locale = LOCALE;
 
   return (
     <GuideShell

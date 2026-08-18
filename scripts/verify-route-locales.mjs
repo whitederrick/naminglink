@@ -29,7 +29,7 @@
  * 실행: node scripts/verify-route-locales.mjs
  */
 
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -114,8 +114,25 @@ if (!globalPaths || !koreanPaths) {
  * **주소가 있는 서비스만 견준다.** `global-name-to-hangul`은 `/global-to-korean`의 한 모드라
  * 자기 주소가 없다. 라우트 파일이 있는 것만 경로로 친다.
  */
-const routed = (slug) =>
-  existsSync(path.join(ROOT, "apps", OWNER, "src", "app", "(services)", slug, "page.tsx"));
+/**
+ * **한 디렉터리를 적어 두지 않는다** (2026-08-18). 정적화를 하며 라우트 그룹이 갈렸고
+ * 한국어 전용 서비스는 `(korean)/`으로 옮겨졌다. `(services)` 한 자리만 보면 옮겨 간
+ * 화면이 「주소가 없는 것」으로 읽혀, 이 검사가 통째로 헛돈다(대조군이 그것을 잡았다).
+ */
+const routed = (slug) => {
+  const root = path.join(ROOT, "apps", OWNER, "src", "app");
+  const stack = [root];
+  while (stack.length) {
+    const dir = stack.pop();
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const full = path.join(dir, entry.name);
+      if (entry.name === slug && existsSync(path.join(full, "page.tsx"))) return true;
+      stack.push(full);
+    }
+  }
+  return false;
+};
 
 const expectedGlobal = globalSlugs.filter(routed).map((s) => `/${s}`).sort();
 const expectedKorean = koreanSlugs.filter(routed).map((s) => `/${s}`).sort();

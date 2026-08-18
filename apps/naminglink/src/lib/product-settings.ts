@@ -59,6 +59,19 @@ export async function getProductSetting(code: string): Promise<ProductSetting> {
   return row;
 }
 
+/**
+ * **정적 화면이 값을 물고 굳지 않게 하는 태그** (2026-08-18).
+ *
+ * 위 60초 캐시는 **람다 인스턴스 안에서만** 산다. 안내 문서가 빌드 때 미리 만들어지면 그때
+ * 읽은 금액이 HTML에 박혀, 상품을 끄거나 값을 바꿔도 그 화면만 옛 금액을 계속 내민다 —
+ * 팔지 않는 금액을 확정 상품처럼 적는 자리다(표시광고법·애드센스 둘 다 걸린다).
+ *
+ * 그래서 값을 읽는 쪽(`lib/doc-values.ts`)이 이 태그를 달고, 운영자가 상품을 저장하면
+ * `api/admin/products`가 이 태그를 무효화해 그 화면들이 다시 만들어진다. 푸터가 쓰는
+ * `FOOTER_CONTENT_TAG`와 같은 방식이다.
+ */
+export const PRODUCT_SETTINGS_TAG = "product-settings";
+
 export function invalidateProductSettingsCache() {
   cache = null;
 }

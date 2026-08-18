@@ -1,8 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 
+import {
+  GuideBackLink,
+  GuideBackLinkView,
+  type BackTarget,
+} from "@/components/GuideBackLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale } from "@/lib/services";
 
@@ -22,17 +25,27 @@ export function GuideShell({
   description,
   backHref,
   backLabel,
+  backOrigins,
   children,
 }: {
   locale: Locale;
   eyebrow: string;
   title: string;
   description: string;
-  /** 돌아갈 곳. 보통 이 안내를 부른 서비스 화면이다. */
+  /** 돌아갈 곳. 보통 이 안내를 부른 서비스 화면이다. `?from=`이 없을 때의 값이다. */
   backHref: string;
   backLabel: string;
+  /**
+   * `?from=`으로 온 사람이 돌아갈 곳들. **주면 그 단추만 브라우저에서 정해진다.**
+   *
+   * 서버가 이 값을 읽으면 화면 전체가 정적 렌더링에서 빠진다 — 본문은 하나도 안 바뀌는데
+   * 단추 하나 때문에 요청마다 다시 그리게 된다(`components/GuideBackLink.tsx`).
+   * 주지 않으면 예전처럼 서버가 그린 링크 하나로 끝난다.
+   */
+  backOrigins?: Record<string, BackTarget>;
   children: ReactNode;
 }) {
+  const back: BackTarget = { href: backHref, label: backLabel };
   return (
     <main className="min-h-screen bg-background">
       <section className="relative isolate overflow-hidden">
@@ -50,13 +63,15 @@ export function GuideShell({
             `mx-auto max-w-4xl`이라 문서 화면은 이 기준을 따른다. 히어로만 넓게 잡으면 제목과
             본문의 왼쪽 끝이 어긋나 다른 화면처럼 보인다. */}
         <div className="relative mx-auto grid w-full max-w-4xl gap-4 px-5 py-12 text-white sm:px-8 sm:py-16">
-          <Link
-            href={backHref}
-            className="inline-flex w-fit items-center gap-2 rounded-lg border border-white/35 bg-white/10 px-3 py-2 text-sm font-medium text-white transition hover:bg-white/20"
-          >
-            <ArrowLeft aria-hidden="true" size={16} />
-            {backLabel}
-          </Link>
+          {backOrigins ? (
+            // 미리 만들어 둔 HTML에는 fallback(= `?from=` 없는 깨끗한 주소)이 실리고,
+            // 브라우저가 주소를 읽어 목적지만 갈아 끼운다. 겉모습은 둘이 같다.
+            <Suspense fallback={<GuideBackLinkView {...back} />}>
+              <GuideBackLink fallback={back} origins={backOrigins} />
+            </Suspense>
+          ) : (
+            <GuideBackLinkView {...back} />
+          )}
           <p className="mt-2 text-sm font-semibold tracking-wide text-[#e6c8b6]">
             {eyebrow}
           </p>

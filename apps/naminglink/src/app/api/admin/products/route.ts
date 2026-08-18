@@ -4,7 +4,13 @@ import { z } from "zod";
 import { isDevEnvironment } from "@naminglink/core/env";
 
 import { requireAdmin } from "@/lib/admin-auth";
-import { displayPrice, invalidateProductSettingsCache } from "@/lib/product-settings";
+import { revalidateTag } from "next/cache";
+
+import {
+  PRODUCT_SETTINGS_TAG,
+  displayPrice,
+  invalidateProductSettingsCache,
+} from "@/lib/product-settings";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 export const runtime = "nodejs";
@@ -127,6 +133,8 @@ export async function PATCH(request: NextRequest) {
       changed_by: auth.admin.email ?? auth.admin.id,
     });
     invalidateProductSettingsCache();
+    // 미리 만들어 둔 안내 문서에도 금액이 박혀 있다. 그 화면들을 다시 만들게 한다.
+    revalidateTag(PRODUCT_SETTINGS_TAG, "max");
     // 해석된 금액을 되돌려줘야 관리자가 자릿수 실수를 즉시 알아본다(센트/원 혼동).
     // 가격 변경 시 요금안내·약관 문서의 표기 금액도 갱신해야 한다.
     const notes: string[] = [];

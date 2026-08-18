@@ -29,8 +29,6 @@ function localeHeaders(request: NextRequest, locale: string) {
   return headers;
 }
 
-const koreanLocaleHeaders = (request: NextRequest) => localeHeaders(request, "ko");
-
 /**
  * 「이 화면에는 한국어를 주지 말라」를 화면 코드에 알린다.
  *
@@ -93,9 +91,15 @@ export function proxy(request: NextRequest) {
      */
     if (isKoreanOnlyPath(pathname)) {
       if (queryLocale !== null) return redirectStrippingLang(request, pathname, 301);
-      const target = request.nextUrl.clone();
-      target.searchParams.set("lang", "ko");
-      return NextResponse.rewrite(target, { request: { headers: koreanLocaleHeaders(request) } });
+      /**
+       * **되돌릴 것이 없다** (2026-08-18). 예전에는 여기서 `?lang=ko`를 붙여 rewrite하고
+       * `x-locale` 헤더로 레이아웃에 알려 줬다. 이제 이 갈래의 화면들은 **스스로 ko로 못
+       * 박혀 있어서**(`app/(korean)/`) 알려 줄 것이 없다.
+       *
+       * 그리고 rewrite를 남겨 두면 **미리 만들어 둔 화면을 쿼리 붙은 주소로 요청하게 된다.**
+       * 그 화면들을 정적으로 만든 이유가 그것이라 여기서 손대지 않고 그대로 통과시킨다.
+       */
+      return NextResponse.next();
     }
 
     /**

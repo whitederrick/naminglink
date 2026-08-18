@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
-import "./globals.css";
+import "../globals.css";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { FooterContentProvider } from "@/components/FooterContentProvider";
 import { LocaleHtmlSync } from "@/components/LocaleHtmlSync";
@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 const namingHanja = localFont({
-  src: "../../assets/fonts/NotoSansCJKkr-Naming.otf",
+  src: "../../../assets/fonts/NotoSansCJKkr-Naming.otf",
   variable: "--font-naming-hanja",
   display: "swap",
   preload: false,
