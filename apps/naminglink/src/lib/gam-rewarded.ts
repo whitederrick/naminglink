@@ -73,6 +73,9 @@ export const gamCspSources = {
   connect: ["https://securepubads.g.doubleclick.net", "https://googleads.g.doubleclick.net"],
   style: ["https://fonts.googleapis.com"],
   font: ["https://fonts.gstatic.com"],
+  // 보상형은 **동영상**이다. 파일은 구글 CDN에서 오는데 호스트가 매번 바뀐다
+  // (`redirector.gvt1.com` → `*.googlevideo.com`). 이미지와 같은 이유로 못 좁힌다.
+  media: ["https:"],
 } as const;
 
 const GPT_SRC = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";

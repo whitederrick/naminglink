@@ -236,5 +236,15 @@ export const adsCspSources = {
   ],
   // 광고 소재는 어느 도메인에서 올지 알 수 없다. 여기만은 목록으로 못 좁힌다.
   image: ["https:"],
+  /**
+   * **동영상 소재도 같다** (2026-08-18). `media-src`가 아예 없어서 `default-src 'self'`로
+   * 떨어졌고, 그래서 광고 동영상이 통째로 막혀 있었다 — 창은 열리는데 안이 비는 증상이다.
+   *
+   *     redirector.gvt1.com/videoplayback/…/file.mp4  → 차단
+   *     NotSupportedError: The element has no supported sources.
+   *
+   * 이미지와 같은 이유로 목록으로 못 좁힌다. 소재가 어느 CDN에서 올지 우리가 정하지 않는다.
+   */
+  media: ["https:"],
   font: ["https://fonts.gstatic.com"],
 } as const;

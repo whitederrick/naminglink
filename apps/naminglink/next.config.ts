@@ -71,6 +71,8 @@ const securityHeaders = [
       // 있던 자리라 닫는다. 나중에 blob을 **그림으로** 그릴 일이 생기면 그때 다시 넣을 것.
       `img-src 'self' data:${supabaseConnect}${ads("image")}${pay("image")}${toss("image")}`,
       `font-src 'self' data:${ads("font")}${gam("font")}`,
+      // **여태 없던 지시문이다.** 없으면 `default-src 'self'`로 떨어져 광고 동영상이 막힌다.
+      `media-src 'self'${ads("media")}${gam("media")}`,
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       // 보상형 광고는 iframe으로 뜬다. GAM만 켜고 애드센스를 끈 상태도 가능하므로
       // 조건에 함께 넣지 않으면 frame-src가 'none'이 되어 광고가 통째로 막힌다.
