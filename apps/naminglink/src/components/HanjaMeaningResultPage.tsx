@@ -164,6 +164,13 @@ export function HanjaMeaningResultPage({
               candidateLimit={candidateLimit}
               detailedHanja={detailedHanja}
             />
+            {/* 무료 결과와 유료 안내 사이. 자리를 고른 이유는 `lib/ads.ts`의 주석에 있다. */}
+            <AdBanner
+              variant="inline"
+              slotKey="hanja_result_inline"
+              locale={locale}
+              label="한자 추천 결과 본문 배너 광고"
+            />
             <PremiumHanjaCheckoutPanel
               inputFactors={stored.inputFactors}
               result={currentResult}

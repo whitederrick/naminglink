@@ -150,7 +150,19 @@ export function AdBanner({
    * `height: auto !important`를 써서 위 클래스 important까지 이기고 자리가 463px로 커진다.
    * 인라인 `!important`는 클래스 `!important`를 이기므로 CSS로는 막을 수 없다.
    */
-  const adHeightClass = "!h-[50px] lg:!h-[90px]";
+/**
+   * 모바일 50 → **100**으로 올린다 (2026-08-18).
+   *
+   * 320×50(표준 배너)은 430px 폭 화면에서 **너무 작다** — 좌우가 비고 세로도 얇아 자리가
+   * 있는지도 모르고 지나간다. 100으로 올리면 애드센스가 **320×100(큰 모바일 배너)**을 고를 수
+   * 있다. 폭은 그대로 320이지만 존재감이 두 배가 된다.
+   *
+   * **폭까지 채우려면 `data-full-width-responsive`를 켜야 하는데 그건 아직 안 켠다.** 예전에
+   * 켰다가 음수 마진과 고정 폭이 조상 트랙을 벌려 화면이 가로로 넘쳤다(아래 주석). 그때는
+   * `!max-w-full`과 `[contain:inline-size]`가 없었고 지금은 있으므로 **다시 시도할 값은
+   * 있지만, 실측 전에는 켜지 않는다.**
+   */
+  const adHeightClass = "!h-[100px] lg:!h-[90px]";
 
   const slot = adSlotFor(slotKey);
   const pushed = useRef(false);

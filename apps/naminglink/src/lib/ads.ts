@@ -190,6 +190,18 @@ export const adSlots = {
   ).trim(),
   /** 한글 발음 표기 결과 머리글. */
   hangul_result_header: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANGUL_RESULT_HEADER ?? "").trim(),
+  /**
+   * 한자 의미 매칭 결과 본문 중간 — **무료 결과가 끝나고 유료 안내가 시작되는 경계**다
+   * (2026-08-18).
+   *
+   * **왜 이 자리인가.** 후보 열기 버튼 바로 밑은 피했다. 거기 표시 광고를 두면 「광고를 봐야
+   * 열린다」는 그 광고로 오인되고, 표시 광고는 콘텐츠 해제의 대가로 쓸 수 없다. 이 자리는
+   * 보상형 CTA와 떨어져 있고 절이 바뀌는 지점이라 그 오해가 없다.
+   *
+   * **관문 자리가 아니다.** 위 주석의 금지 목록과 헷갈리지 말 것 — 여기는 아무것도 열어 주지
+   * 않는 일반 배너다.
+   */
+  hanja_result_inline: (process.env.NEXT_PUBLIC_ADSENSE_SLOT_HANJA_RESULT_INLINE ?? "").trim(),
 } as const;
 
 export type AdPlacement = keyof typeof adSlots;
