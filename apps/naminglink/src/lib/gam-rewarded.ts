@@ -37,11 +37,42 @@ export const gamRewardedEnabled =
 
 export const gamRewardedUnit = gamRewardedEnabled ? rawUnit : "";
 
-/** GAM이 쓰는 도메인. CSP에 넣어야 하는 값이라 `next.config.ts`와 공유한다. */
+/**
+ * GAM이 쓰는 도메인. CSP에 넣어야 하는 값이라 `next.config.ts`와 공유한다.
+ *
+ * **보상형은 배너보다 도메인을 더 쓴다** (2026-08-18 실측). 예전 목록은 `gpt.js`가 뜨는 데까지만
+ * 충분했고, 그 뒤 **재생기와 소재가 쓰는 자리들이 빠져 있었다.** 그런데 `enableServices()`가
+ * 없어 광고가 거기까지 간 적이 없어서 드러나지 않았다 — 앞의 결함이 뒤의 결함을 가리고 있었다.
+ *
+ * Preview에서 실제로 막힌 것들이다.
+ *
+ *     script  www.gstatic.com/admanager/outstream/rewarded_web_video_ko.js
+ *             → 막히면 `GoogleRewardedWebVideo is not defined`가 나고 광고가 준비 상태에
+ *               도달하지 못한다. `rewardedSlotReady`가 영영 오지 않는 원인이었다
+ *     frame   cm.g.doubleclick.net · <해시>.safeframe.googlesyndication.com
+ *     style   fonts.googleapis.com (Roboto)
+ *
+ * safeframe은 소재마다 **호스트가 달라지므로** 와일드카드로 둔다.
+ */
 export const gamCspSources = {
-  script: ["https://securepubads.g.doubleclick.net", "https://pagead2.googlesyndication.com"],
-  frame: ["https://securepubads.g.doubleclick.net", "https://googleads.g.doubleclick.net"],
+  script: [
+    "https://securepubads.g.doubleclick.net",
+    "https://pagead2.googlesyndication.com",
+    // 보상형 동영상 재생기.
+    "https://www.gstatic.com",
+  ],
+  frame: [
+    "https://securepubads.g.doubleclick.net",
+    "https://googleads.g.doubleclick.net",
+    // 쿠키 매칭.
+    "https://cm.g.doubleclick.net",
+    // 소재가 뜨는 안전 프레임. 호스트가 소재마다 다르다.
+    "https://*.safeframe.googlesyndication.com",
+    "https://tpc.googlesyndication.com",
+  ],
   connect: ["https://securepubads.g.doubleclick.net", "https://googleads.g.doubleclick.net"],
+  style: ["https://fonts.googleapis.com"],
+  font: ["https://fonts.gstatic.com"],
 } as const;
 
 const GPT_SRC = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";

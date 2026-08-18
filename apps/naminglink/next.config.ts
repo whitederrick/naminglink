@@ -61,7 +61,8 @@ const securityHeaders = [
       "default-src 'self'",
       // Next.js 인라인 부트스트랩 스크립트 때문에 'unsafe-inline'이 필요하다.
       `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}${ads("script")}${gam("script")}${pay("script")}${toss("script")}`,
-      "style-src 'self' 'unsafe-inline'",
+      // 보상형 소재가 Roboto를 구글 폰트에서 불러온다. 막으면 콘솔이 시끄럽고 소재가 깨진다.
+      `style-src 'self' 'unsafe-inline'${gam("style")}`,
       // Supabase Storage: 서체 미리보기(SVG)와 PDF 배경 이미지를 공개 URL로 불러온다.
       //
       // `blob:`이 오래 붙어 있었는데 **쓰는 곳이 없었다**(2026-08-07에 뺐다). PDF를 만들 때
@@ -69,7 +70,7 @@ const securityHeaders = [
       // 그림으로 그리는 자리가 아니라 `img-src`가 다스리는 대상이 아니다. 얻는 것 없이 열려
       // 있던 자리라 닫는다. 나중에 blob을 **그림으로** 그릴 일이 생기면 그때 다시 넣을 것.
       `img-src 'self' data:${supabaseConnect}${ads("image")}${pay("image")}${toss("image")}`,
-      `font-src 'self' data:${ads("font")}`,
+      `font-src 'self' data:${ads("font")}${gam("font")}`,
       `connect-src 'self'${isDev ? " ws: wss:" : ""}${supabaseConnect}${ads("connect")}${gam("connect")}${pay("connect")}${toss("connect")}`,
       // 보상형 광고는 iframe으로 뜬다. GAM만 켜고 애드센스를 끈 상태도 가능하므로
       // 조건에 함께 넣지 않으면 frame-src가 'none'이 되어 광고가 통째로 막힌다.
