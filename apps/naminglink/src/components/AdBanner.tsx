@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 import { adSlotFor, adsAllowedForLocale, adsenseClient, type AdPlacement } from "@/lib/ads";
 import { ensureAdsenseLoader } from "@/lib/adsense-loader";
+import type { LocaleCode } from "@/lib/locale-codes";
 import type { Locale } from "@/lib/services";
 
 // 광고 자리. **슬롯 ID가 있으면 실제 애드센스 유닛을, 없으면 자리 표시만** 그린다.
@@ -48,6 +49,48 @@ const labels = {
   sidebar: "사이드 배너 광고",
 };
 
+/**
+ * **눈에 보이는 라벨은 「광고」 한 단어여야 한다.**
+ *
+ * 애드센스는 광고에 라벨을 붙일 경우 **「광고」나 「스폰서 링크」만** 쓰도록 정해 두었다.
+ * 그런데 이 컴포넌트는 `label`(서술형)을 **화면낭독기용과 화면용에 동시에** 써 왔다. 그래서
+ * 결과 화면에 「한자 추천 결과 상단 배너 광고」가 그대로 찍혔고, 그 문구는 형식에 맞지 않을
+ * 뿐 아니라 **광고가 「한자 추천 결과」인 것처럼 읽힌다** — 라벨이 광고를 콘텐츠로 오인하게
+ * 만드는 자리다(2026-08-18 운영 화면에서 발견).
+ *
+ * 서술형은 `aria-label`에만 남긴다. 그 자리에서는 「어떤 자리의 광고인가」가 도움이 되고,
+ * 화면에는 보이지 않으므로 정책이 다스리는 대상이 아니다.
+ *
+ * 지금 광고가 실제로 나가는 로케일은 ko 하나지만(`adsAllowedForLocale`) **표는 23개를 다
+ * 채운다.** `Record<LocaleCode, …>`라 하나라도 빠지면 tsc가 잡는다 — 나중에 검수 로케일이
+ * 늘어나는 날 라벨만 한국어로 남는 사고를 구조적으로 막는다.
+ */
+const AD_NOTICE: Record<LocaleCode, string> = {
+  ko: "광고",
+  en: "Advertisement",
+  ja: "広告",
+  zh: "广告",
+  de: "Werbung",
+  es: "Publicidad",
+  fr: "Publicité",
+  it: "Pubblicità",
+  pt: "Publicidade",
+  vi: "Quảng cáo",
+  th: "โฆษณา",
+  id: "Iklan",
+  ru: "Реклама",
+  ar: "إعلان",
+  fil: "Patalastas",
+  uz: "Reklama",
+  mn: "Сурталчилгаа",
+  hi: "विज्ञापन",
+  tr: "Reklam",
+  km: "ការផ្សាយពាណិជ្ជកម្ម",
+  ms: "Iklan",
+  kk: "Жарнама",
+  pl: "Reklama",
+};
+
 export function AdBanner({
   variant = "inline",
   slotKey,
@@ -73,6 +116,8 @@ export function AdBanner({
   const desktopSizes = isHeaderSlot ? "970x90,728x90" : undefined;
   const heightClass = isHeaderSlot ? "min-h-[100px] lg:min-h-[90px]" : "min-h-20";
   const displayLabel = label ?? labels[variant];
+  // 화면에 찍히는 한 단어. 서술형(`displayLabel`)은 aria-label 전용이다.
+  const adNotice = AD_NOTICE[locale];
 
   /**
    * 광고 모양을 자리에 맞춰 **고정한다.**
@@ -154,7 +199,7 @@ export function AdBanner({
       <aside aria-label={displayLabel} className="w-full max-w-full overflow-hidden">
         {/* 라벨도 자리 높이에 더해진다. 여백을 8px에서 2px로 줄여 머리글이 화면을 덜 먹게 한다. */}
         <p className="mb-0.5 text-center text-[10px] uppercase tracking-wide text-muted">
-          {displayLabel}
+          {adNotice}
         </p>
         {/* **높이는 이 바깥 상자가 정한다.** 애드센스는 소재가 안 채워지면 `<ins>`에
             `height: auto !important`를 써 넣는데, 인라인 `!important`는 클래스 `!important`를
