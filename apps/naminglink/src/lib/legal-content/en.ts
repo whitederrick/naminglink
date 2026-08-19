@@ -40,7 +40,9 @@ const content: LegalLocaleContent = {
             "In the global name conversion, Korean name conversion, and Hangul pronunciation services, a product that unlocks all remaining candidates at once without ads (₩990 domestic, US$1.99 international) may be offered. Until payment features are activated, candidates can only be unlocked through ad rewards.",
             "Digital products for global users include: (4) Korean Name Report PDF (US$9.99): name art in your chosen typeface for all recommended candidates, meaning explanations, and a Five Elements (Saju) reference; (5) Hangul Pronunciation Art PDF (US$2.99): name art in your chosen typeface with a pronunciation guide; (6) Name Art Pack PDF (US$1.99): one chosen name rendered as art in each typeface you pick. The price and number of typefaces for each product follow the values shown on screen.",
             "Paid detailed reports, analysis results, and PDF files remain available for viewing and download for 24 hours after payment, after which they are automatically deleted.",
-            "Physical merchandise such as name stamps is offered at per-product prices and conditions (₩39,000 / ₩59,000 / ₩79,000 domestic, US$39.90 / US$59.90 / US$79.90 international with shipping included). For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
+            "For physical merchandise such as name stamps, domestic payment prices are ₩39,000 / ₩59,000 / ₩79,000, offered with per-product conditions.",
+            "For the same physical merchandise, international payment prices are US$39.90 / US$59.90 / US$79.90, with international shipping included.",
+            "For every paid product, the product details, price, delivery method, and refund conditions are disclosed on screen before payment.",
           ],
         },
         {
@@ -150,21 +152,24 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Hanja Detailed Reports (₩2,900 / ₩4,900 / ₩9,900)",
+          title: "2. Hanja Detailed Reports",
           paragraphs: [
+            "Domestic payment prices for the Hanja detailed reports are ₩2,900 / ₩4,900 / ₩9,900.",
             "You may cancel after payment as long as AI detailed analysis generation has not started. Once generation is complete and the report can be viewed or downloaded, refunds for a simple change of mind may be restricted.",
             "If content errors, generation failures due to system faults, or payment amount mismatches are confirmed, we will reissue the report or provide a refund. Expiration of the retention period (24 hours after payment) is not grounds for a refund.",
           ],
         },
         {
-          title: "3. Unlock All Candidates (US$1.99)",
+          title: "3. Unlock All Candidates",
           paragraphs: [
+            "The domestic payment price for unlocking all candidates is ₩990.",
+            "The international payment price for the same product is US$1.99.",
             "Unlocking all candidates in the global name conversion, Korean name conversion, and Hangul pronunciation services is digital content delivered immediately upon payment. You may cancel before viewing begins; after viewing, refunds for a simple change of mind may be restricted.",
             "If candidates fail to unlock properly due to a system error, we will re-deliver them or provide a refund.",
           ],
         },
         {
-          title: "4. Global Digital PDF Products (US$9.99 / US$2.99 / US$1.99)",
+          title: "4. Global Digital PDF Products",
           paragraphs: [
             "The Korean Name Report (US$9.99), Hangul Pronunciation Art (US$2.99), and Name Art Pack (US$1.99) are digital content generated after payment. You may cancel before PDF generation begins; after generation completes and the download becomes available, refunds for a simple change of mind may be restricted.",
             "If generation fails, the content is defective, or a payment-amount mismatch is confirmed, we will re-issue or refund. Expiry of the download window (24 hours after payment) is not itself grounds for a refund.",
@@ -173,17 +178,19 @@ const content: LegalLocaleContent = {
         {
           title: "5. Custom-Made Merchandise (Name Stamps, etc.)",
           paragraphs: [
-            "Personalized items such as name stamps (₩39,000 / ₩59,000 / ₩79,000 domestic / US$39.90 / US$59.90 / US$79.90 international, shipping included) can be cancelled until production begins. After production begins the engraved text is personalized, so refunds for a simple change of mind may be restricted; typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
+            "For personalized items such as name stamps, domestic payment prices are ₩39,000 / ₩59,000 / ₩79,000.",
+            "For the same items, international payment prices are US$39.90 / US$59.90 / US$79.90, with international shipping included.",
+            "Personalized items can be cancelled until production begins. After production begins the engraved text is personalized, so refunds for a simple change of mind may be restricted; typos, damage, production errors, or shipping problems are handled by exchange, remake, or refund as appropriate after confirmation.",
           ],
         },
         {
-          title: "5. Ad-Based Unlocking",
+          title: "6. Ad-Based Unlocking",
           paragraphs: [
             "Ad-reward benefits are not paid products. If a reward is not granted due to an ad network error, retry within the service or contact the customer center.",
           ],
         },
         {
-          title: "6. Contact",
+          title: "7. Contact",
           paragraphs: [`Refund inquiries: ${companyInfo.email}`],
         },
       ],
@@ -197,7 +204,7 @@ const content: LegalLocaleContent = {
         {
           title: "Basic Analysis (Free)",
           paragraphs: [
-            "The basic analysis of all four services — Hanja meaning matching, global name conversion, Korean name conversion, and Hangul pronunciation transcription — is free for guests, and daily usage limits may apply. The paid products below open one by one as their payment methods become ready, and products that cannot yet be purchased are not shown on screen. The amounts listed are the reference prices at the time sales begin.",
+            "The basic analysis of all four services — Hanja meaning matching, global name conversion, Korean name conversion, and Hangul pronunciation transcription — is free for guests, and daily usage limits may apply. Only products you can pay for right now are listed below with their prices; products that have not opened yet are not shown.",
           ],
         },
         {
@@ -218,7 +225,8 @@ const content: LegalLocaleContent = {
         {
           title: "Unlock All Candidates",
           paragraphs: [
-            "Unlock all remaining candidates at once, without ads, in the global name conversion, Korean name conversion, and Hangul pronunciation services: US$1.99 (payment feature in preparation)",
+            "Unlock all remaining candidates at once, without ads, in the global name conversion, Korean name conversion, and Hangul pronunciation services — domestic payment: ₩990",
+            "The same product, international payment: US$1.99",
           ],
         },
         {
@@ -227,19 +235,21 @@ const content: LegalLocaleContent = {
             "Korean Name Report PDF (name art, meaning explanations, and Five Elements reference for all recommended candidates): US$9.99",
             "Hangul Pronunciation Art PDF (name art in your chosen typeface with a pronunciation guide): US$2.99",
             "Name Art Pack PDF (one chosen name rendered as art in each typeface you pick): US$1.99",
-            "Prices and the number of typefaces follow the values shown on screen. PDFs remain downloadable for 24 hours after payment and are automatically deleted afterward. (payment feature in preparation)",
+            "Prices and the number of typefaces follow the values shown on screen. PDFs remain downloadable for 24 hours after payment and are automatically deleted afterward.",
           ],
         },
         {
           title: "Korean Name Merchandise",
           paragraphs: [
-            "Name stamp: ₩39,000 / ₩59,000 / ₩79,000 domestic / US$39.90 / US$59.90 / US$79.90 international (shipping included). Other physical merchandise is announced separately with per-product prices, shipping fees, and production times.",
+            "Name stamp (domestic payment): ₩39,000 / ₩59,000 / ₩79,000",
+            "Name stamp (international payment): US$39.90 / US$59.90 / US$79.90 (shipping included)",
+            "Other physical merchandise is announced separately with per-product prices, shipping fees, and production times.",
           ],
         },
         {
-          title: "Before Full Payment Launch",
+          title: "How Prices Are Announced",
           paragraphs: [
-            "Once payment gateway review, e-commerce business registration, and production partnership terms are finalized, the actual payment amount, shipping fees, production time, and refund conditions will be disclosed again on each product screen.",
+            "The payment amount, shipping fees, production time, and refund conditions are disclosed again on the product screen before payment. If an amount in this document differs from the amount on the product screen, the product screen governs.",
           ],
         },
       ],

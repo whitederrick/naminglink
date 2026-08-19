@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Ücretli Hizmetler",
           paragraphs: [
-            "Hanja anlam eşleştirme hizmetinin detaylı ürünleri aşağıdaki gibidir. ① Aday maksimum 5 adet detaylı açıklama ve Hanja kapsamlı detay: ₩2,900 ② Aday maksimum 10 adet genişletilmiş detaylı açıklama, Hanja kapsamlı detay ve saklama amaçlı PDF: ₩4,900 ③ Aday maksimum 10 adet detay, Hanja kapsamlı detay, doğum haritası ve beş element analizi ile saklama amaçlı PDF: ₩9,900.",
-            "Küresel isim dönüştürme, Korece isim dönüştürme, Korece telaffuz yazım hizmetlerinde, kalan adayların tamamını reklamsız bir şekilde bir kerede sunan bir ürün (yurt içi ödeme ₩990, yurt dışı ödeme US$1.99) sağlanabilir. Ödeme işlevi aktif hale gelmeden önce yalnızca reklam ödüllü görüntüleme sunulmaktadır.",
-            "Küresel kullanıcılar için dijital ürün olarak ④ Korece isim kapsamlı rapor PDF (US$9.99): önerilen adayların tamamının seçilen yazı tipi isim sanatı, anlam açıklaması ve beş element doğum haritası referansı ⑤ Korece telaffuz dönüşüm sanatı PDF (US$2.99): seçilen yazı tipi isim sanatı ve telaffuz rehberi ⑥ İsim sanatı paketi PDF (US$1.99): seçilen bir ismi farklı yazı tipleriyle sunma. Her ürünün fiyatı ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir.",
-            "Ücretli detay raporları ve analiz sonuçları, PDF dosyaları ödeme tamamlandıktan sonra 24 saat boyunca yeniden görüntülenebilir ve indirilebilir; saklama süresi dolduğunda otomatik olarak silinir.",
-            "İsim mührü gibi fiziksel ürünler, yurt içinde ₩39,000 / ₩59,000 / ₩79,000, yurt dışında US$39.90 / US$59.90 / US$79.90 (uluslararası kargo ücreti dahil) gibi ürün bazında fiyat ve koşullarla sunulmaktadır. Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli ve iade koşulları hakkında ekranda bilgi verir.",
+            "Hanja anlam eşleştirme hizmetinin detaylı ürünleri aşağıdaki gibidir. ① Aday maksimum 5 adet detaylı açıklama ve Hanja kapsamlı detay: ₩2,900 ② Aday maksimum 10 adet genişletilmiş detaylı açıklama, Hanja kapsamlı detay ve saklama amaçlı PDF: ₩4,900 ③ Aday maksimum 10 adet detay, Hanja kapsamlı detay, doğum haritası·beş element analizi ve saklama amaçlı PDF: ₩9,900.",
+            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz yazım hizmetinde kalan adayların tamamını reklamsız bir seferde açıklayan ürün (yerli ödeme ₩990, yurtdışı ödeme US$1.99) sunulabilir. Ödeme fonksiyonu etkinleştirilmeden önce yalnızca reklam destekli görüntüleme sağlanmaktadır.",
+            "Küresel kullanıcılar için dijital ürün olarak ④ Hangul isim kapsamlı rapor PDF (US$9.99): önerilen adayların tamamının seçilen yazı tipi isim sanatı·anlam açıklaması·beş element doğum haritası referansı ⑤ Hangul telaffuz dönüşüm sanatı PDF (US$2.99): seçilen yazı tipi isim sanatı ve telaffuz rehberi ⑥ İsim sanatı paketi PDF (US$1.99): seçilen bir ismi seçilen yazı tipine göre sanat olarak sunar. Her ürünün fiyatı ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir.",
+            "Ücretli detay raporları ve analiz sonuçları, PDF dosyası ödeme tamamlandıktan sonra 24 saat boyunca yeniden görüntülenebilir·indirilebilir ve saklama süresi dolduğunda otomatik olarak silinir.",
+            "İsim mührü gibi fiziksel ürünlerin yerli ödeme fiyatları ₩39,000 / ₩59,000 / ₩79,000 olup, ürün bazında şartlarla birlikte sunulmaktadır.",
+            "Aynı fiziksel ürünlerin yurtdışı ödeme fiyatları US$39.90 / US$59.90 / US$79.90 olup uluslararası kargo ücreti dahildir.",
+            "Tüm ücretli ürünler, ödeme öncesinde ürün içeriği, fiyat, sağlama şekli, iade koşulları ekran üzerinde belirtilmektedir.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Hanja Detay Raporu (₩2,900·₩4,900·₩9,900)",
+          title: "2. Hanja Detay Raporu",
           paragraphs: [
-            "Ödeme yapıldıktan sonra AI detay analizi oluşturulmadan önce iptal edilebilir. Analiz oluşturulduktan ve görüntüleme veya indirme mümkün hale geldikten sonra, basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
-            "İçerik hatası, sistem arızası nedeniyle oluşturma başarısızlığı veya ödeme tutarı uyuşmazlığı tespit edildiğinde, yeniden düzenleme veya iade işlemi yapılacaktır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona ererse, bu durum iade nedeni sayılmaz.",
+            "Hanja detay raporunun yurtiçi ödeme fiyatı ₩2,900 / ₩4,900 / ₩9,900'dur.",
+            "Ödeme yapıldıktan sonra AI detay analizi oluşturulmadan önce iptal edilebilir. Analiz oluşturma tamamlandıktan ve görüntüleme veya indirme mümkün olduktan sonra, basit bir fikir değişikliği nedeniyle geri ödeme sınırlı olabilir.",
+            "İçerik hatası, sistem arızası nedeniyle oluşturma başarısızlığı, ödeme tutarı uyuşmazlığı tespit edildiğinde yeniden düzenleme veya geri ödeme ile işlem yapılır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona ererse, bu geri ödeme nedeni sayılmaz.",
           ],
         },
         {
-          title: "3. Adayların Toplu Yayınlanması (Yerel ₩990 · Yurt Dışı US$1.99)",
+          title: "3. Adayların Tam Toplu Yayınlanması",
           paragraphs: [
-            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterim hizmetinin adayların toplu yayınlanması, ödeme anında sağlanan dijital içeriktir. Adayların görüntülenmesine başlanmadan önce iptal edilebilir; görüntüleme sonrasında basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
-            "Sistem hatası nedeniyle adaylar normal şekilde yayınlanmadığında, yeniden sağlama veya iade işlemi yapılacaktır.",
+            "Adayların tam toplu yayınlanmasının yerel ödeme fiyatı ₩990,00'dır.",
+            "Aynı ürünün yurtdışı ödeme fiyatı US$1.99'dır.",
+            "Küresel isim dönüşümü, Kore isim dönüşümü, Hangul telaffuz yazım hizmetinin aday toplu yayını, ödeme anında sağlanan dijital içeriktir. Aday görüntülemesi başlamadan önce iptal edilebilir, görüntülemeden sonra ise basit fikir değişikliği iadesi kısıtlanabilir.",
+            "Sistem hatası nedeniyle aday normal olarak yayınlanmadığında, yeniden sağlama veya iade ile işlem yapılır.",
           ],
         },
         {
-          title: "4. Küresel Dijital PDF Ürünleri (US$9.99·US$2.99·US$1.99)",
+          title: "4. Küresel Dijital PDF Ürünü",
           paragraphs: [
-            "Hangul isim kapsamlı raporu (US$9.99), Hangul telaffuz dönüşüm sanatı (US$2.99), isim sanatı paketi (US$1.99) ödeme sonrası oluşturulan dijital içeriklerdir. PDF oluşturulmadan önce iptal edilebilir; oluşturma tamamlandıktan ve indirme mümkün hale geldikten sonra basit fikir değişikliği nedeniyle iade kısıtlanabilir.",
-            "Oluşturma başarısızlığı, içerik hatası veya ödeme tutarı uyuşmazlığı tespit edildiğinde, yeniden düzenleme veya iade işlemi yapılacaktır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona ererse, bu durum iade nedeni sayılmaz.",
+            "Hangul isim kapsamlı raporu (US$9.99), Hangul telaffuz dönüşüm sanatı (US$2.99), isim sanat paketi (US$1.99) ödeme sonrası oluşturulan dijital içeriklerdir. PDF oluşturulmadan önce iptal edilebilir, oluşturma tamamlandıktan ve indirme mümkün olduktan sonra basit bir fikir değişikliği nedeniyle iade sınırlı olabilir.",
+            "Oluşturma hatası, içerik hatası, ödeme tutarı uyuşmazlığı tespit edildiğinde yeniden düzenleme veya iade ile işlem yapılır. Saklama süresi (ödeme sonrası 24 saat) dolduğunda indirme sona erdiğinde iade nedeni sayılmaz.",
           ],
         },
         {
           title: "5. Özel Üretim Ürünler (İsim Mühürü vb.)",
           paragraphs: [
-            "İsim mühürü gibi kişiye özel üretilen ürünler (Yerel ₩39,000 / ₩59,000 / ₩79,000 · Yurt Dışı US$39.90 / US$59.90 / US$79.90, uluslararası kargo ücreti dahil) üretim başlangıcına kadar iptal edilebilir. Üretim başladıktan sonra, yazım metni kişiye özel olarak kesinleşeceğinden, basit fikir değişikliği nedeniyle iade kısıtlanabilir; yazım hatası, hasar, yanlış üretim veya teslimat sorunları tespit edildikten sonra uygun bir yöntemle değişim, yeniden üretim veya iade işlemi yapılacaktır.",
+            "İsim mühürü gibi kişisel özel üretim ürünlerin yurtiçi ödeme fiyatı ₩39,000 / ₩59,000 / ₩79,000'dır.",
+            "Aynı ürünün yurtdışı ödeme fiyatı US$39.90 / US$59.90 / US$79.90 olup uluslararası kargo ücreti dahildir.",
+            "Kişisel özel üretim ürünleri, üretim aşamasına geçmeden önce iptal edilebilir. Üretim aşamasına geçildikten sonra, yazım metni kişisel olarak kesinleşeceğinden, basit fikir değişikliği ile iade sınırlı olabilir; yazım hatası, hasar, yanlış üretim veya teslimat sorunları tespit edildikten sonra değişim, yeniden üretim veya iade gibi uygun yöntemlerle işleme alınacaktır.",
           ],
         },
         {
-          title: "5. Reklam Tabanlı Kilit Açma",
+          title: "6. Reklam Tabanlı Kilit Açma",
           paragraphs: [
             "Reklam izleme avantajları, ödeme ürünü değildir. Reklam ağı hatası nedeniyle ödemenin yapılmadığı durumlarda, hizmet içinde yeniden deneme veya müşteri hizmetleri ile iletişim kurarak işlem yapılacaktır.",
           ],
         },
         {
-          title: "6. İletişim",
+          title: "7. İletişim",
           paragraphs: [
             `İade talepleri için: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Temel Analiz (Ücretsiz)",
           paragraphs: [
-            "Kanji anlam eşleştirme, küresel isim dönüştürme, Kore isim dönüştürme ve Hangul telaffuz gösterimi gibi dört hizmetin temel analizi, üye olmayan kullanıcılara ücretsiz olarak sunulmakta olup, günlük kullanım sınırlamaları uygulanabilir. Aşağıdaki ücretli ürünler, ödeme yönteminin hazır olduğu tarihten itibaren sırayla açılacak ve henüz ödenemeyen ürünler ekranda gösterilmeyecektir. Belirtilen tutar, satışın başladığı zamandaki referans fiyatıdır.",
+            "Hanja anlam eşleştirme, küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz yazımı gibi dört hizmetin temel analizi, üye olmayanlara ücretsiz olarak sunulmakta olup günlük kullanım sınırlamaları uygulanabilir. Aşağıda, şu anda ödenebilir olan ürünler yalnızca tutarlarıyla birlikte gösterilmekte olup, henüz açılmamış ürünler gösterilmemektedir.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Adayların Tam Toplu Açıklaması",
+          title: "Adayların Tam Olarak Açıklanması",
           paragraphs: [
-            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz gösterimi hizmetlerinde kalan tüm adayların reklam olmaksızın bir seferde açıklanması: Yerel ödeme ₩990, yurtdışı ödeme US$1.99 (ödeme işlevi hazırlanıyor)",
+            "Küresel isim dönüştürme, Kore isim dönüştürme, Hangul telaffuz yazım hizmetinde kalan adayların tamamı reklamsız bir şekilde bir kerede açıklanır (yerel ödeme): ₩990",
+            "Aynı ürünün yurtdışı ödeme fiyatı: US$1.99",
           ],
         },
         {
-          title: "Küresel Dijital PDF Ürün",
+          title: "Küresel Dijital PDF Ürünleri",
           paragraphs: [
-            "Hangul isim genel rapor PDF (önerilen adayların isim sanatı, anlam açıklaması, beş element doğum haritası referansı): US$9.99",
+            "Hangul isim kapsamlı rapor PDF (önerilen adayların tüm isim sanatları·anlam açıklamaları·beş element doğum haritası referansı): US$9.99",
             "Hangul telaffuz dönüşüm sanatı PDF (seçilen yazı tipi isim sanatı ve telaffuz rehberi): US$2.99",
-            "İsim sanatı paketi PDF (seçilen bir ismin belirlenen yazı tipine göre sanatı): US$1.99",
-            "Fiyatlar ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir ve PDF, ödeme sonrasında 24 saat boyunca tekrar indirilebilir ve sonrasında otomatik olarak silinir. (ödeme işlevi hazırlanıyor)",
+            "İsim sanatı paketi PDF (seçilen bir ismi seçilen yazı tipine göre sanat olarak sunar): US$1.99",
+            "Fiyatlar ve uygulanan yazı tipi sayısı ekranda belirtilen değerlere tabidir ve PDF, ödeme sonrası 24 saat boyunca tekrar indirilebilir ve sonrasında otomatik olarak silinecektir.",
           ],
         },
         {
           title: "Hangul İsim Ürünleri",
           paragraphs: [
-            "İsim mührü: Yerel ₩39,000 / ₩59,000 / ₩79,000 · Yurtdışı US$39.90 / US$59.90 / US$79.90 (uluslararası kargo ücreti dahil). Diğer fiziksel ürünlerin fiyatları, kargo ücretleri ve üretim süreleri ürün bazında ayrıca bildirilecektir.",
+            "İsim mührü (yerli ödeme): ₩39,000 / ₩59,000 / ₩79,000",
+            "İsim mührü (yurt dışı ödeme): US$39.90 / US$59.90 / US$79.90 (uluslararası kargo ücreti dahil)",
+            "Diğer fiziksel ürünlerin fiyatı, kargo ücreti ve üretim süresi ürün bazında ayrı olarak bildirilecektir.",
           ],
         },
         {
-          title: "Resmi Ödeme Öncesi Bilgilendirme",
+          title: "Ücret Bilgilendirme Kriterleri",
           paragraphs: [
-            "PG incelemesi, ticari satış kaydı, üretim ortaklık şartları kesinleştirildiğinde, gerçek ödeme tutarı, kargo ücreti, üretim süresi ve iade koşulları ürün ekranında tekrar bildirilecektir.",
+            "Ödeme tutarı, nakliye ücreti, üretim süresi, iade koşulları, ödeme öncesinde ürün ekranında tekrar bildirilecektir ve bu belgede yer alan tutar ile ürün ekranındaki tutar farklı ise, ürün ekranındaki tutar esas alınacaktır.",
           ],
         },
       ],

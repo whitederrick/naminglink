@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Servizi a pagamento",
           paragraphs: [
-            "I dettagli del servizio di abbinamento del significato dei caratteri cinesi sono i seguenti: ① massimo 5 candidati con descrizione dettagliata e dettagli complessivi dei caratteri cinesi: ₩2,900 ② massimo 10 candidati con descrizione dettagliata estesa, dettagli complessivi dei caratteri cinesi e PDF per la conservazione: ₩4,900 ③ massimo 10 candidati con dettagli, dettagli complessivi dei caratteri cinesi, analisi del destino e degli elementi e PDF per la conservazione: ₩9,900.",
-            "Nei servizi di conversione di nomi globali, conversione di nomi coreani e trascrizione fonetica in coreano, può essere offerto un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale ₩990, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con compenso pubblicitario.",
-            "Per gli utenti globali, i prodotti digitali comprendono ④ PDF del rapporto completo sui nomi in coreano (US$9.99): arte del nome con caratteri consigliati, interpretazione del significato e riferimento all'analisi del destino e degli elementi ⑤ PDF dell'arte di conversione della pronuncia in coreano (US$2.99): arte del nome con caratteri scelti e guida alla pronuncia ⑥ PDF del pacchetto di arte del nome (US$1.99): fornitura di un nome scelto in arte con caratteri selezionati. I prezzi e il numero di caratteri applicabili per ciascun prodotto seguono i valori indicati sullo schermo.",
-            "I rapporti dettagliati a pagamento e i risultati delle analisi, i file PDF possono essere visualizzati e scaricati nuovamente entro 24 ore dopo il completamento del pagamento e verranno eliminati automaticamente dopo il periodo di conservazione.",
-            "I prodotti fisici come i timbri per nomi sono offerti a prezzi e condizioni specifici, come ₩39,000 / ₩59,000 / ₩79,000 in Corea e US$39.90 / US$59.90 / US$79.90 all'estero (spese di spedizione internazionale incluse). Tutti i prodotti a pagamento mostrano sullo schermo i dettagli del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
+            "I dettagli del servizio di corrispondenza dei significati dei caratteri cinesi sono i seguenti: ① Massimo 5 candidati con descrizione dettagliata e dettagli completi sui caratteri cinesi: ₩2,900 ② Massimo 10 candidati con descrizione dettagliata estesa, dettagli completi sui caratteri cinesi e PDF per la conservazione: ₩4,900 ③ Massimo 10 candidati con dettagli, dettagli completi sui caratteri cinesi, analisi del destino e dei cinque elementi e PDF per la conservazione: ₩9,900.",
+            "Nel servizio di conversione dei nomi globali, conversione dei nomi coreani e traslitterazione in Hangul, può essere fornito un prodotto che rivela tutti i candidati rimanenti senza pubblicità in una sola volta (pagamento nazionale ₩990, pagamento internazionale US$1.99). Prima dell'attivazione della funzione di pagamento, è disponibile solo la visualizzazione con ricompensa pubblicitaria.",
+            "Per gli utenti globali, i prodotti digitali includono ④ Rapporto completo sul nome in Hangul in PDF (US$9.99): arte del nome con caratteri consigliati, spiegazione del significato e riferimento all'analisi del destino e dei cinque elementi ⑤ Arte in PDF per la traslitterazione in Hangul (US$2.99): arte del nome con caratteri scelti e guida alla pronuncia ⑥ Pacchetto di arte del nome in PDF (US$1.99): fornitura di un nome scelto in arte con caratteri selezionati. I prezzi di ciascun prodotto e il numero di caratteri applicabili seguono i valori indicati sullo schermo.",
+            "I rapporti dettagliati a pagamento e i risultati delle analisi, i file PDF possono essere visualizzati e scaricati nuovamente per 24 ore dopo il completamento del pagamento e verranno eliminati automaticamente dopo il periodo di conservazione.",
+            "Il prezzo di pagamento nazionale per i beni fisici come i timbri per nomi è di ₩39,000 / ₩59,000 / ₩79,000 e viene fornito con le condizioni specifiche per ciascun prodotto.",
+            "Il prezzo di pagamento internazionale per gli stessi beni fisici è di US$39.90 / US$59.90 / US$79.90 e include le spese di spedizione internazionale.",
+            "Tutti i prodotti a pagamento mostrano sullo schermo il contenuto del prodotto, il prezzo, il metodo di fornitura e le condizioni di rimborso prima del pagamento.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Rapporto dettagliato sui caratteri cinesi (₩2,900·₩4,900·₩9,900)",
+          title: "2. Rapporto dettagliato Hanja",
           paragraphs: [
-            "È possibile annullare l'ordine prima dell'inizio della generazione dell'analisi dettagliata da parte dell'AI. Una volta completata la generazione dell'analisi e resa disponibile per la visualizzazione o il download, il rimborso per semplice ripensamento potrebbe essere limitato.",
-            "In caso di errore di contenuto, guasto del sistema che causa il fallimento della generazione o discrepanza nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Se il download termina a causa del superamento del periodo di conservazione (24 ore dopo il pagamento), ciò non costituisce motivo di rimborso.",
+            "Il prezzo per il pagamento nazionale del rapporto dettagliato Hanja è di ₩2,900 / ₩4,900 / ₩9,900.",
+            "È possibile annullare prima dell'inizio della generazione dell'analisi dettagliata dell'AI dopo il pagamento. Una volta completata la generazione dell'analisi e resa disponibile per la visualizzazione o il download, i rimborsi per semplice ripensamento possono essere limitati.",
+            "In caso di errori di contenuto, fallimenti di generazione dovuti a malfunzionamenti del sistema o discrepanze nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Se il download termina a causa del superamento del periodo di conservazione (24 ore dopo il pagamento), ciò non costituisce motivo di rimborso.",
           ],
         },
         {
-          title: "3. Pubblicazione complessiva dei candidati (₩990 in Corea · US$1.99 all'estero)",
+          title: "3. Pubblicazione complessiva dei candidati",
           paragraphs: [
-            "La pubblicazione complessiva dei candidati per il servizio di conversione dei nomi globali, conversione dei nomi coreani e trascrizione fonetica in hangul è contenuto digitale fornito immediatamente dopo il pagamento. È possibile annullare l'ordine prima dell'inizio della visualizzazione dei candidati, mentre dopo la visualizzazione il rimborso per semplice ripensamento potrebbe essere limitato.",
-            "In caso di errore di sistema che impedisca la pubblicazione normale dei candidati, verrà effettuata una riemissione o un rimborso.",
+            "Il prezzo di pagamento nazionale per la pubblicazione complessiva dei candidati è ₩990.",
+            "Il prezzo di pagamento internazionale per lo stesso prodotto è US$1.99.",
+            "La pubblicazione complessiva dei candidati per il servizio di conversione dei nomi globali, conversione dei nomi coreani e traslitterazione in Hangul è contenuto digitale fornito immediatamente dopo il pagamento. È possibile annullare prima dell'inizio della visualizzazione dei candidati, mentre dopo la visualizzazione il rimborso per semplice ripensamento può essere limitato.",
+            "In caso di errore di sistema che impedisca la pubblicazione normale dei candidati, verrà effettuata una nuova fornitura o un rimborso.",
           ],
         },
         {
-          title: "4. Prodotto digitale PDF globale (US$9.99·US$2.99·US$1.99)",
+          title: "4. Prodotti PDF digitali globali",
           paragraphs: [
-            "Il rapporto completo sui nomi in hangul (US$9.99), l'arte di conversione della pronuncia in hangul (US$2.99) e il pacchetto di arte dei nomi (US$1.99) sono contenuti digitali generati dopo il pagamento. È possibile annullare l'ordine prima dell'inizio della generazione del PDF, mentre dopo il completamento della generazione e la disponibilità per il download, il rimborso per semplice ripensamento potrebbe essere limitato.",
-            "In caso di fallimento della generazione, errore di contenuto o discrepanza nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Se il download termina a causa del superamento del periodo di conservazione (24 ore dopo il pagamento), ciò non costituisce motivo di rimborso.",
+            "Il rapporto completo sui nomi in Hangul (US$9.99), l'arte della traslitterazione in Hangul (US$2.99) e il pacchetto di arte dei nomi (US$1.99) sono contenuti digitali generati dopo il pagamento. È possibile annullare prima dell'inizio della generazione del PDF, mentre dopo il completamento della generazione e la disponibilità per il download, i rimborsi per semplice cambiamento di idea possono essere limitati.",
+            "In caso di errore di generazione, errore di contenuto o discrepanza nell'importo del pagamento, verrà effettuata una riemissione o un rimborso. Il termine di conservazione (24 ore dopo il pagamento) non è motivo di rimborso se il download è scaduto.",
           ],
         },
         {
-          title: "5. Prodotti personalizzati (timbri per nomi, ecc.)",
+          title: "5. Merchandise personalizzato (timbri con nome, ecc.)",
           paragraphs: [
-            "I prodotti personalizzati come i timbri per nomi (₩39,000 / ₩59,000 / ₩79,000 in Corea · US$39.90 / US$59.90 / US$79.90 all'estero, spese di spedizione internazionale incluse) possono essere annullati fino all'inizio della produzione. Dopo l'inizio della produzione, poiché la frase di incisione viene confermata in modo personalizzato, il rimborso per semplice ripensamento potrebbe essere limitato, mentre errori di battitura, danni, produzione errata o problemi di spedizione verranno gestiti in modo appropriato tramite scambio, riemissione o rimborso dopo verifica.",
+            "Il prezzo di pagamento nazionale per i prodotti personalizzati come i timbri con nome è di ₩39,000 / ₩59,000 / ₩79,000.",
+            "Il prezzo di pagamento internazionale per gli stessi prodotti è di US$39.90 / US$59.90 / US$79.90 e include le spese di spedizione internazionale.",
+            "I prodotti personalizzati possono essere annullati fino all'inizio della produzione. Dopo l'inizio della produzione, la frase incisa sarà confermata in modo personalizzato, quindi i rimborsi per semplice ripensamento possono essere limitati, mentre errori di battitura, danni, errori di produzione o problemi di spedizione saranno gestiti in modo appropriato tramite scambio, riproduzione o rimborso dopo verifica.",
           ],
         },
         {
-          title: "5. Sblocco pubblicitario",
+          title: "6. Sblocco pubblicitario",
           paragraphs: [
             "I vantaggi della visione di annunci non sono prodotti a pagamento. In caso di mancato pagamento della compensazione a causa di un errore nella rete pubblicitaria, verrà gestito tramite ripetizione all'interno del servizio o contattando il servizio clienti.",
           ],
         },
         {
-          title: "6. Contatti",
+          title: "7. Contatti",
           paragraphs: [
             `Richiesta di rimborso: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Analisi di base (gratuita)",
           paragraphs: [
-            "L'analisi di base dei quattro servizi di corrispondenza dei significati dei caratteri cinesi, conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul è fornita gratuitamente agli utenti non registrati, con possibili limiti di utilizzo giornaliero. I seguenti prodotti a pagamento saranno resi disponibili in ordine a partire dal completamento dei metodi di pagamento, e i prodotti non ancora disponibili per il pagamento non verranno visualizzati. Gli importi indicati sono i prezzi di riferimento al momento dell'inizio delle vendite.",
+            "L'analisi di base dei quattro servizi di corrispondenza dei significati in Hanja, conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul è fornita gratuitamente agli utenti non registrati, con possibili limiti di utilizzo giornaliero. Di seguito sono elencati solo i prodotti che possono essere pagati ora, con i relativi importi, mentre i prodotti non ancora aperti non sono mostrati.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Pubblicazione totale dei candidati",
+          title: "Pubblicazione completa dei candidati",
           paragraphs: [
-            "Pubblicazione simultanea di tutti i candidati rimanenti senza pubblicità nei servizi di conversione di nomi globali, conversione di nomi coreani e traslitterazione in Hangul: pagamento nazionale ₩990, pagamento internazionale US$1.99 (funzione di pagamento in preparazione)",
+            "Pubblicazione completa di tutti i candidati rimanenti nel servizio di conversione di nomi globali, conversione di nomi coreani, e traslitterazione in Hangul senza pubblicità (pagamento nazionale): ₩990",
+            "Prezzo per il pagamento internazionale dello stesso prodotto: US$1.99",
           ],
         },
         {
           title: "Prodotti PDF digitali globali",
           paragraphs: [
-            "Rapporto PDF completo sui nomi in Hangul (arte dei nomi e interpretazione del significato di tutti i candidati raccomandati, riferimento al destino e ai cinque elementi): US$9.99",
-            "Arte PDF per la traslitterazione in Hangul (arte del nome con caratteri scelti e guida alla pronuncia): US$2.99",
-            "Pacchetto arte del nome PDF (fornito come arte in base ai caratteri scelti per un nome selezionato): US$1.99",
-            "I prezzi e il numero di caratteri applicabili seguono i valori indicati sullo schermo, e il PDF può essere scaricato nuovamente entro 24 ore dopo il pagamento e verrà automaticamente eliminato successivamente. (funzione di pagamento in preparazione)",
+            "Rapporto completo sui nomi in Hangul PDF (Arte dei nomi di tutti i candidati raccomandati, interpretazione del significato e riferimento al ciclo dei cinque elementi): US$9.99",
+            "Arte della traslitterazione in Hangul PDF (Arte del nome del carattere selezionato e guida alla pronuncia): US$2.99",
+            "Pacchetto arte del nome PDF (Fornito come arte in base al carattere selezionato per un nome scelto): US$1.99",
+            "I prezzi e il numero di caratteri applicabili seguono i valori indicati sullo schermo, e il PDF può essere scaricato nuovamente entro 24 ore dopo il pagamento, dopodiché verrà eliminato automaticamente.",
           ],
         },
         {
-          title: "Merchandising di nomi in Hangul",
+          title: "Merchandise con nomi in Hangul",
           paragraphs: [
-            "Timbro con nome: ₩39,000 / ₩59,000 / ₩79,000 in Corea · US$39.90 / US$59.90 / US$79.90 all'estero (spese di spedizione internazionale incluse). Altri articoli fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente per ciascun prodotto.",
+            "Timbro con nome (pagamento nazionale): ₩39,000 / ₩59,000 / ₩79,000",
+            "Timbro con nome (pagamento internazionale): US$39.90 / US$59.90 / US$79.90 (spese di spedizione internazionale incluse)",
+            "Altri merchandise fisici hanno prezzi, spese di spedizione e tempi di produzione comunicati separatamente.",
           ],
         },
         {
-          title: "Informazioni prima del pagamento ufficiale",
+          title: "Indicazioni sui prezzi",
           paragraphs: [
-            "Una volta definiti i requisiti per la revisione PG, la registrazione per la vendita per corrispondenza e le condizioni di partnership per la produzione, l'importo effettivo del pagamento, le spese di spedizione, i tempi di produzione e le condizioni di rimborso verranno nuovamente comunicati sulla schermata del prodotto.",
+            "L'importo del pagamento, le spese di spedizione, il periodo di produzione e le condizioni di rimborso saranno nuovamente comunicati nella schermata del prodotto prima del pagamento; in caso di differenza tra l'importo di questo documento e l'importo nella schermata del prodotto, l'importo nella schermata del prodotto sarà quello di riferimento.",
           ],
         },
       ],

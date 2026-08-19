@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Servicios de pago",
           paragraphs: [
-            "Los productos detallados del servicio de coincidencia de significados de caracteres chinos son los siguientes: ① Descripción detallada de hasta 5 candidatos y resumen completo de caracteres chinos: ₩2,900 ② Descripción detallada ampliada de hasta 10 candidatos, resumen completo de caracteres chinos y PDF para archivo: ₩4,900 ③ Detalle de hasta 10 candidatos, resumen completo de caracteres chinos, análisis de destino y elementos de los cinco elementos y PDF para archivo: ₩9,900.",
-            "En los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en coreano, puede ofrecerse un producto que revela todos los candidatos restantes sin publicidad de una sola vez (pago nacional ₩990, pago internacional US$1.99). Antes de activar la función de pago, solo se ofrecerá la visualización con compensación publicitaria.",
-            "Como productos digitales para usuarios globales, ④ Informe completo en PDF de nombres en coreano (US$9.99): arte del nombre de la fuente seleccionada, interpretación de significados y referencia de los cinco elementos ⑤ Arte en PDF de conversión de pronunciación en coreano (US$2.99): arte del nombre de la fuente seleccionada y guía de pronunciación ⑥ Paquete de arte de nombres en PDF (US$1.99): un nombre seleccionado proporcionado como arte en diferentes fuentes. Los precios de cada producto y el número de fuentes aplicables se basan en los valores indicados en la pantalla.",
-            "Los informes detallados de pago y los resultados de análisis, así como los archivos PDF, se pueden volver a visualizar y descargar durante 24 horas después de completar el pago, y se eliminarán automáticamente después de que expire el período de retención.",
-            "Los productos físicos como sellos de nombres se ofrecen a precios y condiciones por producto, como ₩39,000 / ₩59,000 / ₩79,000 en Corea y US$39.90 / US$59.90 / US$79.90 (incluido el costo de envío internacional). Todos los productos de pago mostrarán en pantalla el contenido del producto, precio, método de entrega y condiciones de reembolso antes del pago.",
+            "Los detalles del servicio de coincidencia de significados de Hanja son los siguientes. ① Hasta 5 candidatos con descripción detallada y resumen de Hanja: ₩2,900 ② Hasta 10 candidatos con descripción detallada ampliada, resumen de Hanja y PDF para guardar: ₩4,900 ③ Hasta 10 candidatos con detalles, resumen de Hanja, análisis de SaJu y los cinco elementos, y PDF para guardar: ₩9,900.",
+            "En el servicio de conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en Hangul, se puede ofrecer un producto que revela todos los candidatos restantes sin publicidad de una sola vez (pago nacional ₩990, pago en el extranjero US$1.99). Antes de activar la función de pago, solo se ofrece la visualización compensada por publicidad.",
+            "Para usuarios globales, los productos digitales incluyen ④ Informe completo de nombre en Hangul en PDF (US$9.99): arte de nombre en fuente recomendada, interpretación de significados y referencia de SaJu de los cinco elementos ⑤ Arte de conversión de pronunciación en Hangul en PDF (US$2.99): arte de nombre en fuente seleccionada y guía de pronunciación ⑥ Paquete de arte de nombre en PDF (US$1.99): se proporciona arte de un nombre seleccionado en diferentes fuentes. Los precios de cada producto y el número de fuentes aplicables se basan en los valores indicados en la pantalla.",
+            "Los informes detallados de pago y los resultados de análisis, así como los archivos PDF, se pueden volver a visualizar y descargar durante 24 horas después de completar el pago, y se eliminarán automáticamente después del período de retención.",
+            "El precio de pago nacional para productos físicos como sellos de nombre es de ₩39,000 / ₩59,000 / ₩79,000, y se proporciona junto con las condiciones de cada producto.",
+            "El precio de pago en el extranjero para los mismos productos físicos es de US$39.90 / US$59.90 / US$79.90 e incluye el costo de envío internacional.",
+            "Todos los productos de pago muestran en pantalla el contenido del producto, el precio, el método de entrega y las condiciones de reembolso antes del pago.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Informe Detallado de Hanja (₩2,900·₩4,900·₩9,900)",
+          title: "2. Informe detallado de Hanja",
           paragraphs: [
-            "Se puede cancelar antes de que comience la generación del análisis detallado por IA después del pago. Una vez que se complete la generación del análisis y esté disponible para su visualización o descarga, el reembolso por simple cambio de opinión puede estar restringido.",
-            "En caso de errores en el contenido, fallos del sistema que resulten en la falla de generación, o discrepancias en el monto del pago, se procesará un reembolso o reemisión. Si la descarga se ha cerrado debido al transcurso del período de retención (24 horas después del pago), no se considerará motivo de reembolso.",
+            "El precio de pago nacional para el informe detallado de Hanja es ₩2,900 / ₩4,900 / ₩9,900.",
+            "La cancelación es posible antes de que comience la generación del análisis detallado de IA después del pago. Una vez que se complete la generación del análisis y esté disponible para su visualización o descarga, los reembolsos por cambio de opinión pueden estar limitados.",
+            "En caso de errores en el contenido, fallos del sistema que resulten en fallos de generación, o discrepancias en el monto del pago, se procesará un reembolso o reemisión. Si la descarga se ha cerrado debido al transcurso del período de retención (24 horas después del pago), no se considerará motivo de reembolso.",
           ],
         },
         {
-          title: "3. Publicación Masiva de Candidatos (₩990 en Corea · US$1.99 en el extranjero)",
+          title: "3. Divulgación total de candidatos",
           paragraphs: [
-            "La publicación masiva de candidatos para el servicio de conversión de nombres global, conversión de nombres coreanos y transcripción fonética en hangul es contenido digital que se proporciona inmediatamente después del pago. Se puede cancelar antes de que comience la visualización de los candidatos, y después de la visualización, el reembolso por simple cambio de opinión puede estar restringido.",
-            "En caso de que los candidatos no se publiquen correctamente debido a un error del sistema, se procesará un reembolso o reemisión.",
+            "El precio de pago nacional para la divulgación total de candidatos es ₩990.",
+            "El precio de pago internacional para el mismo producto es US$1.99.",
+            "La divulgación de candidatos para el servicio de conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en Hangul es contenido digital que se proporciona inmediatamente después del pago. La cancelación es posible antes de que comience la visualización de los candidatos, y después de la visualización, el reembolso por cambio de opinión puede estar limitado.",
+            "En caso de que los candidatos no se divulguen correctamente debido a un error del sistema, se procesará una nueva divulgación o un reembolso.",
           ],
         },
         {
-          title: "4. Producto Digital PDF Global (US$9.99·US$2.99·US$1.99)",
+          title: "4. Producto digital PDF global",
           paragraphs: [
-            "El informe integral de nombres en hangul (US$9.99), el arte de conversión de pronunciación en hangul (US$2.99) y el paquete de arte de nombres (US$1.99) son contenidos digitales que se generan después del pago. Se puede cancelar antes de que comience la generación del PDF, y una vez que se complete la generación y esté disponible para su descarga, el reembolso por simple cambio de opinión puede estar restringido.",
-            "En caso de falla en la generación, errores en el contenido o discrepancias en el monto del pago, se procesará un reembolso o reemisión. Si la descarga se ha cerrado debido al transcurso del período de retención (24 horas después del pago), no se considerará motivo de reembolso.",
+            "Informe completo de nombres en Hangul (US$9.99), arte de conversión de pronunciación en Hangul (US$2.99), paquete de arte de nombres (US$1.99) son contenidos digitales que se generan después del pago. Se puede cancelar antes de que comience la generación del PDF, y una vez que se complete la generación y esté disponible para su descarga, los reembolsos por cambio de opinión pueden estar limitados.",
+            "En caso de falla en la generación, errores en el contenido o discrepancias en el monto del pago, se procesará un reembolso o reemisión. Si la descarga se ha terminado debido al transcurso del período de retención (24 horas después del pago), no se considerará motivo de reembolso.",
           ],
         },
         {
-          title: "5. Productos Personalizados (Sellos de Nombre, etc.)",
+          title: "5. Productos personalizados (sellos de nombre, etc.)",
           paragraphs: [
-            "Los artículos personalizados como sellos de nombre (₩39,000 / ₩59,000 / ₩79,000 en Corea · US$39.90 / US$59.90 / US$79.90 en el extranjero, incluyendo el costo de envío internacional) se pueden cancelar hasta antes de que comience la producción. Después de que comience la producción, dado que el texto grabado se confirma como personalizado, el reembolso por simple cambio de opinión puede estar restringido, y los errores tipográficos, daños, errores de producción o problemas de envío se manejarán de manera adecuada mediante intercambio, re-producción o reembolso tras la verificación.",
+            "El precio de pago nacional para productos personalizados como sellos de nombre es ₩39,000 / ₩59,000 / ₩79,000.",
+            "El precio de pago internacional para los mismos productos es US$39.90 / US$59.90 / US$79.90 e incluye el costo de envío internacional.",
+            "Los productos personalizados pueden ser cancelados hasta antes de iniciar la producción. Una vez iniciada la producción, el texto grabado se confirma de manera personalizada, por lo que los reembolsos por cambio de opinión pueden estar limitados, y los errores tipográficos, daños, errores de producción o problemas de envío se manejarán de manera adecuada mediante intercambio, reprocesamiento o reembolso tras la verificación.",
           ],
         },
         {
-          title: "5. Desbloqueo por Publicidad",
+          title: "6. Desbloqueo por Publicidad",
           paragraphs: [
             "Los beneficios por ver anuncios no son productos de pago. En caso de que no se otorguen recompensas debido a errores en la red publicitaria, se manejará mediante un nuevo intento dentro del servicio o consulta con el servicio de atención al cliente.",
           ],
         },
         {
-          title: "6. Consultas",
+          title: "7. Consultas",
           paragraphs: [
             `Consultas sobre reembolsos: ${companyInfo.email}`,
           ],
@@ -199,9 +206,9 @@ const content: LegalLocaleContent = {
       effectiveDate: LEGAL_EFFECTIVE_DATE,
       sections: [
         {
-          title: "Análisis Básico (Gratis)",
+          title: "Análisis básico (gratuito)",
           paragraphs: [
-            "El análisis básico de los cuatro servicios de coincidencia de significados de caracteres chinos, conversión de nombres globales, conversión de nombres coreanos y transcripción de pronunciación en hangul se ofrece de forma gratuita a los no miembros, y puede aplicarse un límite de uso diario. Los productos de pago a continuación se activarán en orden a medida que se complete la preparación del método de pago, y los productos que aún no se pueden pagar no se mostrarán en la pantalla. La cantidad indicada es el precio de referencia al inicio de la venta.",
+            "El análisis básico de cuatro servicios: coincidencia de significados en Hanja, conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en Hangul, se ofrece de forma gratuita a los no miembros, y puede aplicarse un límite diario de uso. A continuación, solo se muestran los productos que se pueden pagar ahora con sus respectivos montos, y los productos que aún no se han abierto no se muestran.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Divulgación Total de Candidatos",
+          title: "Divulgación completa de candidatos",
           paragraphs: [
-            "Divulgación de todos los candidatos restantes en los servicios de conversión de nombres globales, conversión de nombres coreanos y transcripción fonética en hangul, sin anuncios, de una sola vez: pago nacional ₩990, pago internacional US$1.99 (función de pago en preparación)",
+            "Conversión de nombres global, conversión de nombres coreanos, servicio de transcripción de pronunciación en Hangul, se divulgan todos los candidatos restantes de una vez y sin publicidad (pago nacional): ₩990",
+            "Precio de pago en el extranjero para el mismo producto: US$1.99",
           ],
         },
         {
-          title: "Producto Digital PDF Global",
+          title: "Producto PDF Digital Global",
           paragraphs: [
-            "Informe completo en PDF de nombres en hangul (arte de nombres recomendados, interpretación de significados y referencia de cinco elementos): US$9.99",
-            "Arte en PDF de conversión de pronunciación en hangul (arte de nombres en fuente seleccionada y guía de pronunciación): US$2.99",
-            "Paquete de arte de nombres en PDF (arte de un nombre seleccionado en diferentes fuentes): US$1.99",
-            "Los precios y el número de fuentes aplicables se rigen por los valores indicados en la pantalla, y el PDF se puede volver a descargar durante 24 horas después del pago, y luego se eliminará automáticamente. (función de pago en preparación)",
+            "Informe completo de nombres en Hangul PDF (Arte de nombres de todos los candidatos recomendados, explicación de significados y referencia de los cinco elementos del destino): US$9.99",
+            "Arte de conversión de pronunciación en Hangul PDF (Arte de nombres de fuentes seleccionadas y guía de pronunciación): US$2.99",
+            "Paquete de arte de nombres PDF (Se proporciona arte de una sola fuente para el nombre seleccionado): US$1.99",
+            "Los precios y la cantidad de fuentes aplicables se rigen por los valores indicados en la pantalla, y el PDF se puede volver a descargar durante 24 horas después del pago y se eliminará automáticamente después.",
           ],
         },
         {
-          title: "Productos de Merchandising de Nombres en Hangul",
+          title: "Productos con nombres en Hangul",
           paragraphs: [
-            "Sello de nombre: ₩39,000 / ₩59,000 / ₩79,000 en el país · US$39.90 / US$59.90 / US$79.90 en el extranjero (incluido el costo de envío internacional). Otros productos físicos tendrán precios, costos de envío y plazos de producción indicados por separado.",
+            "Sello de nombre (pago nacional): ₩39,000 / ₩59,000 / ₩79,000",
+            "Sello de nombre (pago internacional): US$39.90 / US$59.90 / US$79.90 (incluido el costo de envío internacional)",
+            "Otros productos físicos tienen precios, costos de envío y plazos de producción que se comunicarán por separado.",
           ],
         },
         {
-          title: "Información Antes del Pago Formal",
+          title: "Guía de montos",
           paragraphs: [
-            "Una vez que se confirmen las condiciones de revisión de PG, el registro de comercio electrónico y las condiciones de asociación de producción, se volverán a indicar el monto real del pago, el costo de envío, el plazo de producción y las condiciones de reembolso en la pantalla del producto.",
+            "El monto de pago, el costo de envío, el tiempo de producción y las condiciones de reembolso se volverán a notificar en la pantalla del producto antes del pago, y en caso de que el monto de este documento y el monto en la pantalla del producto sean diferentes, el monto en la pantalla del producto será el que prevalezca.",
           ],
         },
       ],

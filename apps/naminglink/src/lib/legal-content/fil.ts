@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Bayad na Serbisyo",
           paragraphs: [
-            "Ang detalyadong produkto ng serbisyo ng pagtutugma ng kahulugan ng Hanja ay ang mga sumusunod. ① Hanggang 5 kandidato na may detalyadong paglalarawan at komprehensibong Hanja: ₩2,900 ② Hanggang 10 kandidato na may pinalawak na detalyadong paglalarawan, komprehensibong Hanja at PDF para sa koleksyon: ₩4,900 ③ Hanggang 10 kandidato na may detalyado, komprehensibong Hanja, pagsusuri ng fortune-telling at mga elemento, at PDF para sa koleksyon: ₩9,900.",
-            "Sa mga serbisyo ng pag-convert ng pandaigdigang pangalan, pag-convert ng pangalan sa Korean, at pag-transliterate ng pangalan sa Korean, maaaring mag-alok ng produkto na naglalantad ng lahat ng natitirang kandidato nang walang advertising sa isang pagkakataon (₩990 para sa domestic payment, US$1.99 para sa international payment). Bago ma-activate ang function ng pagbabayad, ang pagtingin ay limitado lamang sa gantimpala sa advertising.",
-            "Para sa mga pandaigdigang gumagamit, ang mga digital na produkto ay ④ PDF ng komprehensibong ulat ng pangalan sa Korean (US$9.99): lahat ng inirekomendang kandidato na may pangalan ng font art, paliwanag ng kahulugan, at sanggunian sa fortune-telling ⑤ PDF ng art ng pag-convert ng pagbigkas sa Korean (US$2.99): art ng pangalan ng napiling font at gabay sa pagbigkas ⑥ PDF ng art pack ng pangalan (US$1.99): isang napiling pangalan na ibinibigay sa art ayon sa napiling font. Ang mga presyo ng bawat produkto at ang bilang ng mga font na inilapat ay sumusunod sa mga halagang nakasaad sa screen.",
-            "Ang mga bayad na detalyadong ulat at resulta ng pagsusuri, PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagkumpleto ng pagbabayad, at awtomatikong mabubura pagkatapos ng panahon ng pag-iimbak.",
-            "Ang mga pisikal na produkto tulad ng pangalan ng selyo ay ibinibigay sa mga presyo at kondisyon ng produkto tulad ng ₩39,000 / ₩59,000 / ₩79,000 para sa domestic at US$39.90 / US$59.90 / US$79.90 (kasama ang internasyonal na pagpapadala). Lahat ng bayad na produkto ay may impormasyon tungkol sa nilalaman ng produkto, presyo, paraan ng pagbibigay, at mga kondisyon ng refund na nakasaad sa screen bago ang pagbabayad.",
+            "Ang detalyadong produkto ng serbisyo ng pagtutugma ng kahulugan ng Hanja ay ang mga sumusunod. ① Hanggang 5 kandidato na may detalyadong paliwanag at komprehensibong Hanja: ₩2,900 ② Hanggang 10 kandidato na may pinalawak na detalyadong paliwanag, komprehensibong Hanja at PDF para sa pag-iimbak: ₩4,900 ③ Hanggang 10 kandidato na may detalyado, komprehensibong Hanja, pagsusuri ng Saju·Ohaeng at PDF para sa pag-iimbak: ₩9,900.",
+            "Sa serbisyo ng global na pagbabago ng pangalan, pagbabago ng pangalan ng Korea, at pagbigkas ng Hangul, maaaring mag-alok ng produkto na naglalantad ng lahat ng natitirang kandidato nang walang anunsyo sa isang pagkakataon (lokal na pagbabayad ₩990, banyagang pagbabayad US$1.99). Bago ma-activate ang function ng pagbabayad, tanging ang advertisement reward viewing lamang ang ibinibigay.",
+            "Para sa mga digital na produkto para sa global na gumagamit, ④ PDF ng komprehensibong ulat ng pangalan sa Hangul (US$9.99): lahat ng inirekomendang kandidato na may napiling font, sining ng pangalan, paliwanag ng kahulugan, at sanggunian sa Ohaeng ⑤ PDF ng sining ng paglipat ng pagbigkas sa Hangul (US$2.99): sining ng pangalan na may napiling font at gabay sa pagbigkas ⑥ PDF ng pangalan art pack (US$1.99): isang napiling pangalan na ibinibigay sa sining ayon sa napiling font. Ang presyo ng bawat produkto at bilang ng mga font na naaangkop ay sumusunod sa mga halagang nakasaad sa screen.",
+            "Ang bayad na detalyadong ulat at mga resulta ng pagsusuri, PDF file ay maaaring muling tingnan at i-download sa loob ng 24 na oras pagkatapos ng pagkumpleto ng pagbabayad, at awtomatikong mabubura pagkatapos ng panahon ng pag-iimbak.",
+            "Ang presyo ng lokal na pagbabayad para sa mga pisikal na produkto tulad ng pangalan na selyo ay ₩39,000 / ₩59,000 / ₩79,000 at ibinibigay kasama ang mga kondisyon ng produkto.",
+            "Ang presyo ng banyagang pagbabayad para sa parehong pisikal na produkto ay US$39.90 / US$59.90 / US$79.90 at kasama ang internasyonal na bayad sa pagpapadala.",
+            "Ang lahat ng bayad na produkto ay naglalantad ng nilalaman ng produkto, presyo, paraan ng pagbibigay, at mga kondisyon ng refund sa screen bago ang pagbabayad.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Detalyadong Ulat ng Hanja (₩2,900·₩4,900·₩9,900)",
+          title: "2. Detalyadong Ulat ng Hanja",
           paragraphs: [
-            "Bago magsimula ang paglikha ng AI detalyadong pagsusuri pagkatapos ng pagbabayad, maaari itong kanselahin. Kapag natapos na ang paglikha ng pagsusuri at ito ay maaaring ma-access o ma-download, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
-            "Kung may mga pagkakamali sa nilalaman, pagkasira ng sistema na nagdudulot ng pagkabigo sa paglikha, o kung may hindi pagkakatugma sa halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang pag-expire ng panahon ng pag-iimbak (24 na oras pagkatapos ng pagbabayad) na nagdudulot ng pagtigil ng pag-download ay hindi itinuturing na dahilan para sa refund.",
+            "Ang presyo ng lokal na pagbabayad para sa detalyadong ulat ng Hanja ay ₩2,900 / ₩4,900 / ₩9,900.",
+            "Maaaring kanselahin bago magsimula ang paglikha ng AI detalyadong pagsusuri pagkatapos ng pagbabayad. Kapag natapos na ang paglikha ng pagsusuri at maaari na itong tingnan o i-download, ang mga refund dahil sa simpleng pagbabago ng isip ay maaaring limitahan.",
+            "Kung may mga pagkakamali sa nilalaman, pagkabigo sa paglikha dahil sa mga problema sa sistema, o kung may hindi pagkakatugma sa halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang mga kaso kung saan natapos na ang pag-download dahil sa paglipas ng panahon ng pag-iingat (24 na oras pagkatapos ng pagbabayad) ay hindi itinuturing na dahilan para sa refund.",
           ],
         },
         {
-          title: "3. Pangkalahatang Pagbubunyag ng Mga Kandidato (₩990 · US$1.99)",
+          title: "3. Pangkalahatang Pagbubunyag ng mga Kandidato",
           paragraphs: [
-            "Ang pangkalahatang pagbubunyag ng mga kandidato para sa global name conversion, Korean name conversion, at Korean pronunciation notation service ay digital content na ibinibigay agad pagkatapos ng pagbabayad. Bago magsimula ang pag-access sa mga kandidato, maaari itong kanselahin, at pagkatapos ng pag-access, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
-            "Kung ang mga kandidato ay hindi maayos na nailabas dahil sa pagkakamali ng sistema, ito ay ipoproseso bilang muling pagbibigay o refund.",
+            "Ang lokal na presyo para sa pangkalahatang pagbubunyag ng mga kandidato ay ₩990.",
+            "Ang presyo para sa pangkalahatang pagbubunyag ng parehong produkto sa ibang bansa ay US$1.99.",
+            "Ang pangkalahatang pagbubunyag ng global name conversion, Korean name conversion, at Hangul pronunciation notation service ay digital content na ibinibigay agad pagkatapos ng pagbabayad. Maaaring kanselahin bago magsimula ang pagtingin sa mga kandidato, ngunit ang pagbabalik dahil sa simpleng pagbabago ng isip ay maaaring limitahan pagkatapos ng pagtingin.",
+            "Kung ang mga kandidato ay hindi maayos na naipakita dahil sa error ng sistema, ito ay ipoproseso bilang muling pagbibigay o refund.",
           ],
         },
         {
-          title: "4. Global Digital PDF na Produkto (US$9.99·US$2.99·US$1.99)",
+          title: "4. Global na Digital na PDF na Produkto",
           paragraphs: [
-            "Ang Comprehensive Report ng Korean Name (US$9.99), Korean Pronunciation Conversion Art (US$2.99), at Name Art Pack (US$1.99) ay digital content na nalikha pagkatapos ng pagbabayad. Bago magsimula ang paglikha ng PDF, maaari itong kanselahin, at pagkatapos ng pagkumpleto ng paglikha at pagkakaroon ng posibilidad na ma-download, ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado.",
-            "Kung may pagkabigo sa paglikha, pagkakamali sa nilalaman, o hindi pagkakatugma sa halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang pag-expire ng panahon ng pag-iimbak (24 na oras pagkatapos ng pagbabayad) na nagdudulot ng pagtigil ng pag-download ay hindi itinuturing na dahilan para sa refund.",
+            "Ang Comprehensive Report ng mga Pangalan sa Hangul (US$9.99), Art ng Paglipat ng Pagbigkas sa Hangul (US$2.99), at Name Art Pack (US$1.99) ay mga digital na nilalaman na nalikha pagkatapos ng pagbabayad. Maaaring kanselahin bago magsimula ang paglikha ng PDF, ngunit pagkatapos makumpleto ang paglikha at maging available para sa pag-download, ang mga refund dahil sa simpleng pagbabago ng isip ay maaaring limitahan.",
+            "Kung mayroong pagkabigo sa paglikha, pagkakamali sa nilalaman, o hindi pagkakatugma ng halaga ng pagbabayad, ito ay ipoproseso bilang muling pag-isyu o refund. Ang pag-expire ng panahon ng pag-iimbak (24 oras pagkatapos ng pagbabayad) na nagresulta sa pagtigil ng pag-download ay hindi itinuturing na dahilan para sa refund.",
           ],
         },
         {
-          title: "5. Customized Goods (Tulad ng Name Stamp)",
+          title: "5. Pasadyang Gawaing Merchandise (Tulad ng Pangalan na Selyo atbp.)",
           paragraphs: [
-            "Ang mga personal na customized na produkto (₩39,000 / ₩59,000 / ₩79,000 · US$39.90 / US$59.90 / US$79.90, kasama ang international shipping fee) ay maaaring kanselahin hanggang bago magsimula ang paggawa. Pagkatapos ng pagsisimula ng paggawa, ang inskripsyon ay nakumpirma na bilang personal na customized, kaya ang refund dahil sa simpleng pagbabago ng isip ay maaaring limitado, at ang mga pagkakamali sa pagbaybay, pinsala, maling paggawa o problema sa paghahatid ay ipoproseso sa pamamagitan ng palitan, muling paggawa, o refund batay sa angkop na paraan pagkatapos ng pagsusuri.",
+            "Ang presyo ng lokal na pagbabayad para sa mga personal na pasadyang gawaing tulad ng pangalan na selyo ay ₩39,000 / ₩59,000 / ₩79,000.",
+            "Ang presyo ng banyagang pagbabayad para sa parehong produkto ay US$39.90 / US$59.90 / US$79.90 at kasama na ang internasyonal na bayad sa pagpapadala.",
+            "Ang mga personal na pasadyang gawaing produkto ay maaaring kanselahin hanggang bago simulan ang paggawa. Matapos simulan ang paggawa, ang mga inskripsyon ay nakatakdang pasadyang, kaya't ang simpleng pagbabago ng isip ay maaaring limitahan ang refund, at ang mga pagkakamali, pinsala, maling paggawa o mga isyu sa pagpapadala ay ipoproseso sa pamamagitan ng angkop na paraan ng pagpapalit, muling paggawa, o refund pagkatapos ng pagsusuri.",
           ],
         },
         {
-          title: "5. Advertising Unlock",
+          title: "6. Advertising Unlock",
           paragraphs: [
             "Ang mga benepisyo mula sa panonood ng advertisement ay hindi produkto ng pagbabayad. Kung ang kabayaran ay hindi ibinibigay dahil sa pagkakamali ng advertising network, ito ay ipoproseso sa pamamagitan ng muling pagtatangkang gawin sa loob ng serbisyo o sa pamamagitan ng pakikipag-ugnayan sa customer service.",
           ],
         },
         {
-          title: "6. Mga Tanong",
+          title: "7. Mga Tanong",
           paragraphs: [
             `Para sa mga tanong tungkol sa refund: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Pangunahing Pagsusuri (Libre)",
           paragraphs: [
-            "Ang pangunahing pagsusuri ng apat na serbisyo: pagtutugma ng kahulugan ng mga karakter, pandaigdigang pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at pagbigkas ng Hangul ay ibinibigay nang libre sa mga hindi miyembro, at maaaring mayroong limitasyon sa pang-araw-araw na paggamit. Ang mga bayad na produkto sa ibaba ay unti-unting magiging available mula sa oras na handa na ang paraan ng pagbabayad, at ang mga produktong hindi pa maaaring bayaran ay hindi ipapakita sa screen. Ang nakasulat na halaga ay ang batayang presyo sa simula ng pagbebenta.",
+            "Ang pangunahing pagsusuri ng apat na serbisyo: pagtutugma ng kahulugan ng Hanja, pandaigdigang pagbabago ng pangalan, pagbabago ng pangalan ng Koreano, at pagbigkas ng Hangul ay ibinibigay nang libre sa mga hindi miyembro at maaaring may limitasyon sa pang-araw-araw na paggamit. Sa ibaba ay nakalista lamang ang mga produktong maaaring bayaran ngayon kasama ang halaga, at hindi ipinapakita ang mga produktong hindi pa bukas.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Pangkalahatang Pagbubukas ng Lahat ng Kandidato",
+          title: "Pangkalahatang Pagbubunyag ng mga Kandidato",
           paragraphs: [
-            "Ang lahat ng natitirang kandidato mula sa global na pagbabago ng pangalan, pagbabago ng pangalan sa Korea, at serbisyo ng pagbigkas ng Hangeul ay ibubukas nang sabay-sabay nang walang advertisement: ₩990 para sa domestic na pagbabayad, US$1.99 para sa international na pagbabayad (nasa proseso ng paghahanda ang function ng pagbabayad)",
+            "Pangkalahatang pagbubunyag ng lahat ng natitirang kandidato sa serbisyo ng global na pangalan na pagbabago, pagbabago ng pangalan ng Koreano, at pagbaybay ng Hangul nang walang anunsyo (lokal na pagbabayad): ₩990",
+            "Presyo ng banyagang pagbabayad para sa parehong produkto: US$1.99",
           ],
         },
         {
-          title: "Global na Digital PDF na Produkto",
+          title: "Pandaigdigang Digital na PDF na Produkto",
           paragraphs: [
-            "Komprehensibong ulat ng pangalan sa Hangeul PDF (art ng pangalan at paliwanag ng kahulugan ng lahat ng inirerekomendang kandidato, at sanggunian sa Saju at Limang Elemento): US$9.99",
-            "Art ng pagbigkas ng Hangeul PDF (art ng pangalan gamit ang napiling font at gabay sa pagbigkas): US$2.99",
-            "Art pack ng pangalan PDF (isang napiling pangalan na ibinibigay bilang art gamit ang napiling font): US$1.99",
-            "Ang presyo at bilang ng mga font na naaangkop ay susunod sa mga halagang nakasaad sa screen, at ang PDF ay maaaring muling i-download sa loob ng 24 na oras pagkatapos ng pagbabayad at pagkatapos ay awtomatikong mabubura. (nasa proseso ng paghahanda ang function ng pagbabayad)",
+            "Koreanong Pangalan na Komprehensibong Ulat PDF (Art, Kahulugan ng Pangalan ng Lahat ng Inirerekomendang Kandidato, at Sanggunian sa Limang Elemento): US$9.99",
+            "Koreanong Pagbigkas na Paglipat ng Art PDF (Art ng Napiling Font at Patnubay sa Pagbigkas): US$2.99",
+            "Pangalan Art Pack PDF (Isang Napiling Pangalan na Ibinigay sa Art ng Napiling Font): US$1.99",
+            "Ang presyo at bilang ng mga font na naaangkop ay sumusunod sa mga halagang nakasaad sa screen, at ang PDF ay maaaring ma-download muli sa loob ng 24 na oras pagkatapos ng pagbabayad at awtomatikong mabubura pagkatapos nito.",
           ],
         },
         {
-          title: "Mga Produkto ng Pangalan sa Hangeul",
+          title: "Mga Produkto ng Pangalan sa Hangul",
           paragraphs: [
-            "Timbangan ng pangalan: ₩39,000 / ₩59,000 / ₩79,000 para sa domestic · US$39.90 / US$59.90 / US$79.90 para sa international (kasama ang bayad sa internasyonal na pagpapadala). Ang iba pang mga pisikal na produkto ay magkakaroon ng hiwalay na abiso para sa presyo, bayad sa pagpapadala, at panahon ng paggawa.",
+            "Pangalan na Selyo (lokal na pagbabayad): ₩39,000 / ₩59,000 / ₩79,000",
+            "Pangalan na Selyo (internasyonal na pagbabayad): US$39.90 / US$59.90 / US$79.90 (kasama ang internasyonal na bayad sa pagpapadala)",
+            "Ang iba pang mga pisikal na produkto ay may hiwalay na abiso para sa presyo, bayad sa pagpapadala, at tagal ng paggawa.",
           ],
         },
         {
-          title: "Pabatid Bago ang Pormal na Pagbabayad",
+          title: "Mga Batayan ng Halaga",
           paragraphs: [
-            "Kapag nakumpirma na ang pagsusuri ng PG, pag-uulat ng negosyo sa telekomunikasyon, at mga kondisyon ng pakikipagtulungan sa paggawa, ang aktwal na halaga ng pagbabayad, bayad sa pagpapadala, panahon ng paggawa, at mga kondisyon ng refund ay muling ibibigay sa screen ng produkto.",
+            "Ang halaga ng pagbabayad, gastos sa pagpapadala, panahon ng paggawa, at mga kondisyon ng pagbabalik ay muling ipapaalam sa screen ng produkto bago ang pagbabayad, at kung ang halaga sa dokumentong ito ay naiiba sa halaga sa screen ng produkto, ang halaga sa screen ng produkto ang magiging batayan.",
           ],
         },
       ],

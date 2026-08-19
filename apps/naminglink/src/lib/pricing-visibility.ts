@@ -7,7 +7,24 @@ import { getPurchaseDisplay } from "@/lib/purchase";
 import type { PolicyDocumentContent } from "@/lib/site-content";
 
 /**
- * 요금 안내에서 **지금 살 수 없는 상품의 금액을 감춘다.**
+ * 요금 안내·이용약관·환불정책에서 **지금 살 수 없는 상품의 금액을 감춘다.**
+ *
+ * ## 세 문서에 함께 건다 (2026-08-19)
+ *
+ * 처음에는 요금 안내에만 걸었다. 그래서 같은 금액이 **약관과 환불정책에는 그대로 남았다** —
+ * 국내 판매 계획이 없는 이름 도장의 39,000원이 그 자리였고, 토스페이먼츠에 「실물 배송 상품
+ * 없음」이라고 회신한 것과 화면이 정면으로 어긋났다. **거르개를 한 화면에만 걸면 나머지가
+ * 옛 상태를 계속 보여 준다.**
+ *
+ * ## 금액은 제목에 적지 않는다
+ *
+ * 이 거르개는 **문단만** 본다. 그런데 환불정책의 절 제목이 「2. 한자 상세 리포트
+ * (2,900원·4,900원·9,900원)」처럼 금액을 담고 있었다 — 문단을 다 빼도 제목은 남으므로 팔지
+ * 않는 값이 그대로 걸린다. 제목을 거를 방법은 없다(문장 일부만 지울 수 없고, 절을 통째로
+ * 빼면 파는 상품의 환불 조항까지 사라진다).
+ *
+ * 그래서 **제목에서 금액을 걷어내고 문단으로 내렸다**(2026-08-19). 새 절을 쓸 때도 같다 —
+ * 금액은 거르개가 닿는 곳에만 적는다.
  *
  * ## 왜 필요한가 (2026-08-11)
  *
@@ -74,7 +91,7 @@ export async function sellablePriceTokens(): Promise<Set<string>> {
 /**
  * 살 수 없는 금액이 든 문단을 빼고, 그래서 빈 절이 되면 절도 뺀다.
  *
- * **금액이 없는 문단은 건드리지 않는다** — 무료 범위·광고 보상형·보관 기간·정식 결제 전 안내가
+ * **금액이 없는 문단은 건드리지 않는다** — 무료 범위·광고 보상형·보관 기간·금액 안내 기준이
  * 거기 해당한다. 그 글은 판매 여부와 무관하게 참이다.
  *
  * 순수 함수로 둔다. 조회(`sellablePriceTokens`)와 갈라 두어야 검사기가 표를 만들어 태울 수 있다.
@@ -105,12 +122,34 @@ export function withSellablePricesOnly(
      * 「미출시 상품이 확정 상품처럼 보인다」는 지적이 겨눈 자리가 정확히 그것이다.
      *
      * 그래서 **원래 금액이 있던 절**은 금액이 하나라도 남을 때만 살린다. 애초에 금액이 없던
-     * 절(무료 범위·광고 보상형·정식 결제 전 안내)은 건드리지 않는다.
+     * 절(무료 범위·광고 보상형·금액 안내 기준)은 건드리지 않는다.
      */
     .filter(({ section, hadPrices }) =>
       hadPrices ? section.paragraphs.some(priced) : section.paragraphs.length > 0,
     )
     .map(({ section }) => section);
 
-  return { ...content, sections };
+  return { ...content, sections: renumbered(sections) };
+}
+
+/** 「4. 유료 서비스」처럼 제목 앞에 붙는 조항 번호. */
+const SECTION_NUMBER = /^(\d+)\.\s*/;
+
+/**
+ * **뺀 절 때문에 번호가 건너뛰지 않게 한다** (2026-08-19).
+ *
+ * 환불정책·이용약관은 절 제목에 조항 번호를 담는다. 거르개가 「4. 글로벌 디지털 PDF 상품」과
+ * 「5. 맞춤 제작 굿즈」를 빼자 화면에 **1 · 2 · 3 · 6 · 7**이 남았다 — 읽는 사람에게는 조항이
+ * 두 개 사라진 문서로 보인다. 하필 그것을 읽는 사람이 계약심사자다.
+ *
+ * 번호는 **데이터가 아니라 자리**다. 남은 절에 차례로 다시 매긴다. 번호가 없는 문서(요금
+ * 안내)는 건드리지 않고, 번호가 있는 절끼리만 센다 — 섞여 있어도 안전하다.
+ */
+function renumbered(sections: PolicyDocumentContent["sections"]): PolicyDocumentContent["sections"] {
+  let next = 0;
+  return sections.map((section) => {
+    if (!SECTION_NUMBER.test(section.title)) return section;
+    next += 1;
+    return { ...section, title: section.title.replace(SECTION_NUMBER, `${next}. `) };
+  });
 }

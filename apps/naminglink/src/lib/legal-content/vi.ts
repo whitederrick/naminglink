@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Dịch vụ trả phí",
           paragraphs: [
-            "Chi tiết sản phẩm của dịch vụ phù hợp ý nghĩa Hán tự như sau: ① Tối đa 5 ứng cử viên với mô tả chi tiết và tổng hợp Hán tự: ₩2,900 ② Tối đa 10 ứng cử viên với mô tả chi tiết mở rộng, tổng hợp Hán tự và PDF lưu trữ: ₩4,900 ③ Tối đa 10 ứng cử viên với chi tiết, tổng hợp Hán tự, phân tích bát tự và ngũ hành, cùng PDF lưu trữ: ₩9,900.",
-            "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm tên bằng Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng cử viên còn lại mà không có quảng cáo (thanh toán trong nước ₩990, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp hình thức xem xét theo quảng cáo.",
-            "Sản phẩm kỹ thuật số cho người dùng toàn cầu bao gồm ④ Báo cáo tổng hợp tên Hàn Quốc PDF (US$9.99): nghệ thuật tên phông chữ được đề xuất, giải thích ý nghĩa, tham khảo bát tự và ngũ hành ⑤ Nghệ thuật chuyển đổi âm Hàn Quốc PDF (US$2.99): nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm ⑥ Gói nghệ thuật tên PDF (US$1.99): cung cấp một tên đã chọn dưới dạng nghệ thuật theo từng phông chữ. Giá cả và số lượng phông chữ áp dụng cho từng sản phẩm sẽ theo giá trị được thông báo trên màn hình.",
-            "Báo cáo chi tiết trả phí và kết quả phân tích, tệp PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi hoàn tất thanh toán, và sẽ tự động bị xóa sau thời gian lưu trữ.",
-            "Hàng hóa vật lý như con dấu tên được cung cấp với giá ₩39,000 / ₩59,000 / ₩79,000 trong nước, US$39.90 / US$59.90 / US$79.90 (bao gồm phí vận chuyển quốc tế) tùy theo từng sản phẩm. Tất cả các sản phẩm trả phí sẽ được thông báo về nội dung sản phẩm, giá cả, phương thức cung cấp và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
+            "Chi tiết sản phẩm dịch vụ ghép nghĩa Hán tự như sau. ① Tối đa 5 ứng viên với mô tả chi tiết và tổng hợp Hán tự: ₩2,900 ② Tối đa 10 ứng viên với mô tả chi tiết mở rộng, tổng hợp Hán tự và PDF để lưu trữ: ₩4,900 ③ Tối đa 10 ứng viên với mô tả chi tiết, tổng hợp Hán tự, phân tích tứ trụ và ngũ hành, cùng PDF để lưu trữ: ₩9,900.",
+            "Dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và dịch vụ ghi âm phát âm Hàn Quốc có thể cung cấp sản phẩm công khai toàn bộ ứng viên còn lại mà không có quảng cáo (thanh toán trong nước ₩990, thanh toán quốc tế US$1.99). Trước khi kích hoạt chức năng thanh toán, chỉ có thể cung cấp xem thưởng quảng cáo.",
+            "Sản phẩm kỹ thuật số dành cho người dùng toàn cầu bao gồm ④ Báo cáo tổng hợp tên Hàn Quốc PDF (US$9.99): tên nghệ thuật phông chữ của toàn bộ ứng viên được đề xuất, giải thích ý nghĩa và tham khảo tứ trụ ngũ hành ⑤ Nghệ thuật chuyển đổi phát âm Hàn Quốc PDF (US$2.99): nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm ⑥ Gói nghệ thuật tên PDF (US$1.99): cung cấp một tên đã chọn dưới dạng nghệ thuật theo từng phông chữ. Giá của từng sản phẩm và số lượng phông chữ áp dụng sẽ theo giá đã thông báo trên màn hình.",
+            "Báo cáo chi tiết trả phí và kết quả phân tích, tệp PDF có thể được xem lại và tải xuống trong vòng 24 giờ sau khi hoàn tất thanh toán, và sẽ tự động bị xóa sau khi hết thời gian lưu trữ.",
+            "Giá thanh toán trong nước cho các sản phẩm vật lý như con dấu tên là ₩39,000 / ₩59,000 / ₩79,000 và sẽ được cung cấp cùng với điều kiện của từng sản phẩm.",
+            "Giá thanh toán quốc tế cho cùng một sản phẩm vật lý là US$39.90 / US$59.90 / US$79.90 và đã bao gồm phí vận chuyển quốc tế.",
+            "Tất cả các sản phẩm trả phí sẽ thông báo nội dung sản phẩm, giá cả, phương thức cung cấp, và điều kiện hoàn tiền trên màn hình trước khi thanh toán.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Báo cáo chi tiết Hán tự (₩2,900·₩4,900·₩9,900)",
+          title: "2. Báo cáo chi tiết Hanja",
           paragraphs: [
-            "Trước khi bắt đầu tạo phân tích chi tiết AI sau khi thanh toán, có thể hủy bỏ. Sau khi quá trình tạo phân tích hoàn tất và có thể xem hoặc tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
-            "Trong trường hợp phát hiện lỗi nội dung, thất bại trong việc tạo do sự cố hệ thống, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc sẽ không được coi là lý do hoàn tiền.",
+            "Giá thanh toán trong nước cho báo cáo chi tiết Hanja là ₩2,900 / ₩4,900 / ₩9,900.",
+            "Trước khi bắt đầu tạo phân tích chi tiết AI sau khi thanh toán, có thể hủy. Sau khi việc tạo phân tích hoàn tất và có thể xem hoặc tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
+            "Trong trường hợp phát hiện lỗi nội dung, thất bại trong việc tạo do sự cố hệ thống, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu trữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc không thuộc lý do hoàn tiền.",
           ],
         },
         {
-          title: "3. Công khai toàn bộ ứng viên (₩990 trong nước · US$1.99 quốc tế)",
+          title: "3. Công khai toàn bộ ứng viên",
           paragraphs: [
-            "Việc công khai toàn bộ ứng viên cho dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và dịch vụ ghi âm bằng Hangul là nội dung kỹ thuật số được cung cấp ngay lập tức sau khi thanh toán. Trước khi bắt đầu xem ứng viên, có thể hủy bỏ, và sau khi xem, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
-            "Trong trường hợp hệ thống gặp lỗi và ứng viên không được công khai bình thường, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền.",
+            "Giá thanh toán trong nước cho công khai toàn bộ ứng viên là ₩990.",
+            "Giá thanh toán quốc tế cho cùng một sản phẩm là US$1.99.",
+            "Công khai ứng viên cho dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm phát âm Hangul là nội dung kỹ thuật số được cung cấp ngay khi thanh toán. Trước khi bắt đầu xem ứng viên, có thể hủy bỏ, và sau khi xem, việc hoàn tiền do thay đổi ý kiến có thể bị hạn chế.",
+            "Trong trường hợp ứng viên không được công khai bình thường do lỗi hệ thống, sẽ được xử lý bằng cách tái cung cấp hoặc hoàn tiền.",
           ],
         },
         {
-          title: "4. Sản phẩm PDF kỹ thuật số toàn cầu (US$9.99·US$2.99·US$1.99)",
+          title: "4. Sản phẩm PDF kỹ thuật số toàn cầu",
           paragraphs: [
-            "Báo cáo tổng hợp tên Hàn Quốc (US$9.99), nghệ thuật chuyển đổi âm Hàn (US$2.99), gói nghệ thuật tên (US$1.99) là nội dung kỹ thuật số được tạo ra sau khi thanh toán. Trước khi bắt đầu tạo PDF, có thể hủy bỏ, và sau khi quá trình tạo hoàn tất và có thể tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
-            "Trong trường hợp thất bại trong việc tạo, phát hiện lỗi nội dung, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và việc tải xuống đã kết thúc sẽ không được coi là lý do hoàn tiền.",
+            "Báo cáo tên tiếng Hàn (US$9.99), Nghệ thuật chuyển đổi phát âm tiếng Hàn (US$2.99), Gói nghệ thuật tên (US$1.99) là nội dung kỹ thuật số được tạo ra sau khi thanh toán. Có thể hủy trước khi bắt đầu tạo PDF, và sau khi hoàn tất tạo và có thể tải xuống, việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế.",
+            "Trong trường hợp xác nhận thất bại trong việc tạo, lỗi nội dung, hoặc không khớp số tiền thanh toán, sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền. Trường hợp hết thời gian lưu giữ (24 giờ sau khi thanh toán) và không thể tải xuống sẽ không được coi là lý do hoàn tiền.",
           ],
         },
         {
-          title: "5. Hàng hóa tùy chỉnh (như con dấu tên)",
+          title: "5. Sản phẩm tùy chỉnh (con dấu tên, v.v.)",
           paragraphs: [
-            "Các sản phẩm tùy chỉnh cá nhân như con dấu tên (₩39,000 / ₩59,000 / ₩79,000 trong nước · US$39.90 / US$59.90 / US$79.90 quốc tế, bao gồm phí vận chuyển quốc tế) có thể hủy bỏ trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến đơn giản có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý bằng cách đổi, sản xuất lại hoặc hoàn tiền theo cách phù hợp sau khi xác nhận.",
+            "Giá thanh toán trong nước cho sản phẩm tùy chỉnh cá nhân như con dấu tên là ₩39,000 / ₩59,000 / ₩79,000.",
+            "Giá thanh toán quốc tế cho sản phẩm tương tự là US$39.90 / US$59.90 / US$79.90 và đã bao gồm phí vận chuyển quốc tế.",
+            "Sản phẩm tùy chỉnh cá nhân có thể được hủy trước khi bắt đầu sản xuất. Sau khi bắt đầu sản xuất, văn bản khắc sẽ được xác nhận theo cách cá nhân hóa, do đó việc hoàn tiền do thay đổi ý kiến có thể bị hạn chế, và các vấn đề như lỗi chính tả, hư hỏng, sản xuất sai hoặc vấn đề giao hàng sẽ được xử lý theo cách thích hợp như đổi, sản xuất lại hoặc hoàn tiền sau khi xác nhận.",
           ],
         },
         {
-          title: "5. Mở khóa quảng cáo",
+          title: "6. Mở khóa quảng cáo",
           paragraphs: [
             "Lợi ích xem quảng cáo không phải là sản phẩm thanh toán. Trong trường hợp không nhận được bồi thường do lỗi mạng quảng cáo, sẽ được xử lý bằng cách thử lại trong dịch vụ hoặc liên hệ với trung tâm khách hàng.",
           ],
         },
         {
-          title: "6. Liên hệ",
+          title: "7. Liên hệ",
           paragraphs: [
             `Yêu cầu hoàn tiền: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Phân tích cơ bản (Miễn phí)",
           paragraphs: [
-            "Phân tích cơ bản của bốn dịch vụ bao gồm ghép nghĩa Hán tự, chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm Hàn Quốc được cung cấp miễn phí cho người không phải thành viên, và có thể áp dụng giới hạn sử dụng hàng ngày. Các sản phẩm trả phí dưới đây sẽ được mở theo thứ tự từ khi chuẩn bị xong phương thức thanh toán, và các sản phẩm chưa thể thanh toán sẽ không được hiển thị trên màn hình. Số tiền ghi trên là giá cơ bản tại thời điểm bắt đầu bán.",
+            "Phân tích cơ bản của bốn dịch vụ bao gồm ghép nghĩa Hanja, chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm Hangeul được cung cấp miễn phí cho người không phải thành viên và có thể áp dụng giới hạn sử dụng hàng ngày. Dưới đây chỉ hiển thị các sản phẩm có thể thanh toán ngay cùng với số tiền, và các sản phẩm chưa mở sẽ không được hiển thị.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Công khai toàn bộ ứng viên một lần",
+          title: "Công khai toàn bộ ứng viên",
           paragraphs: [
-            "Công khai toàn bộ ứng viên còn lại từ dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc và ghi âm phát âm Hàn Quốc mà không có quảng cáo: Thanh toán trong nước ₩990, thanh toán quốc tế US$1.99 (chức năng thanh toán đang được chuẩn bị).",
+            "Công khai toàn bộ ứng viên còn lại trong dịch vụ chuyển đổi tên toàn cầu, chuyển đổi tên Hàn Quốc, và ghi âm phát âm Hangul một lần mà không có quảng cáo (thanh toán trong nước): ₩990",
+            "Giá thanh toán quốc tế cho cùng một sản phẩm: US$1.99",
           ],
         },
         {
           title: "Sản phẩm PDF kỹ thuật số toàn cầu",
           paragraphs: [
-            "Báo cáo PDF tổng hợp tên Hàn Quốc (bao gồm nghệ thuật tên, giải thích ý nghĩa và tham khảo bát tự ngũ hành của toàn bộ ứng viên được đề xuất): US$9.99",
-            "PDF nghệ thuật chuyển đổi phát âm Hàn Quốc (nghệ thuật tên với phông chữ lựa chọn và hướng dẫn phát âm): US$2.99",
-            "Gói PDF nghệ thuật tên (cung cấp nghệ thuật cho một tên đã chọn theo từng phông chữ): US$1.99",
-            "Giá cả và số lượng phông chữ áp dụng sẽ theo giá trị được thông báo trên màn hình, và PDF có thể được tải xuống lại trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa. (Chức năng thanh toán đang được chuẩn bị).",
+            "Báo cáo tổng hợp tên tiếng Hàn PDF (Giải thích nghệ thuật và ý nghĩa của tất cả các ứng viên được đề xuất, tham khảo ngũ hành và bát tự): US$9.99",
+            "Nghệ thuật chuyển đổi phát âm tiếng Hàn PDF (Nghệ thuật tên phông chữ đã chọn và hướng dẫn phát âm): US$2.99",
+            "Gói nghệ thuật tên PDF (Cung cấp nghệ thuật theo phông chữ đã chọn cho 1 tên đã chọn): US$1.99",
+            "Giá cả và số lượng phông chữ áp dụng sẽ theo giá trị được thông báo trên màn hình, và PDF có thể được tải xuống lại trong vòng 24 giờ sau khi thanh toán, sau đó sẽ tự động bị xóa.",
           ],
         },
         {
-          title: "Hàng hóa tên Hàn Quốc",
+          title: "Sản phẩm tên bằng Hangul",
           paragraphs: [
-            "Con dấu tên: Trong nước ₩39,000 / ₩59,000 / ₩79,000 · Quốc tế US$39.90 / US$59.90 / US$79.90 (bao gồm phí vận chuyển quốc tế). Các hàng hóa vật lý khác sẽ có giá cả, phí vận chuyển và thời gian sản xuất được thông báo riêng.",
+            "Con dấu tên (thanh toán trong nước): ₩39,000 / ₩59,000 / ₩79,000",
+            "Con dấu tên (thanh toán quốc tế): US$39.90 / US$59.90 / US$79.90 (bao gồm phí vận chuyển quốc tế)",
+            "Các sản phẩm thực tế khác sẽ được thông báo giá, phí vận chuyển và thời gian sản xuất riêng theo từng sản phẩm.",
           ],
         },
         {
-          title: "Hướng dẫn trước khi thanh toán chính thức",
+          title: "Hướng dẫn về số tiền",
           paragraphs: [
-            "Khi điều kiện hợp tác sản xuất, đăng ký kinh doanh thương mại điện tử và thẩm định PG được xác nhận, số tiền thanh toán thực tế, phí vận chuyển, thời gian sản xuất và điều kiện hoàn tiền sẽ được thông báo lại trên màn hình sản phẩm.",
+            "Số tiền thanh toán, phí vận chuyển, thời gian sản xuất, điều kiện hoàn tiền sẽ được thông báo lại trên màn hình sản phẩm trước khi thanh toán, và nếu số tiền trong tài liệu này khác với số tiền trên màn hình sản phẩm, số tiền trên màn hình sản phẩm sẽ là tiêu chuẩn.",
           ],
         },
       ],

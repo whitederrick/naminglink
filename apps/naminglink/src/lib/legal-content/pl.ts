@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Usługi płatne",
           paragraphs: [
-            "Szczegółowe usługi dopasowania znaczenia znaków chińskich są następujące. ① Maksymalnie 5 kandydatów z szczegółowym opisem oraz kompleksowym opisem znaków chińskich: ₩2,900 ② Maksymalnie 10 kandydatów z rozszerzonym szczegółowym opisem, kompleksowym opisem znaków chińskich oraz PDF do pobrania: ₩4,900 ③ Maksymalnie 10 kandydatów z szczegółowym opisem, kompleksowym opisem znaków chińskich, analizą astrologiczną i PDF do pobrania: ₩9,900.",
-            "W ramach usług przekształcania imion globalnych, przekształcania imion koreańskich oraz transkrypcji fonetycznej w języku koreańskim, może być dostępny produkt, który ujawnia wszystkie pozostałe kandydaty bez reklam w jednym kroku (płatność krajowa ₩990, płatność zagraniczna US$1.99). Przed aktywacją funkcji płatności dostępne są jedynie przeglądy w systemie wynagradzania za reklamy.",
-            "Dla użytkowników globalnych dostępne są cyfrowe produkty: ④ Kompleksowy raport PDF dotyczący imion w języku koreańskim (US$9.99): sztuka nazw, interpretacja znaczenia oraz odniesienia do astrologii ⑤ PDF sztuki konwersji fonetycznej w języku koreańskim (US$2.99): sztuka nazw i wskazówki dotyczące wymowy ⑥ PDF pakietu sztuki imion (US$1.99): sztuka jednego wybranego imienia w różnych czcionkach. Ceny i liczba zastosowanych czcionek dla każdego produktu są zgodne z wartościami podanymi na ekranie.",
-            "Płatne szczegółowe raporty i wyniki analizy, pliki PDF mogą być przeglądane i pobierane przez 24 godziny po zakończeniu płatności, a po upływie okresu przechowywania zostaną automatycznie usunięte.",
-            "Fizyczne towary, takie jak pieczątki imienne, są oferowane w cenach ₩39,000 / ₩59,000 / ₩79,000 w kraju oraz US$39.90 / US$59.90 / US$79.90 za granicą (w tym koszty wysyłki międzynarodowej) w zależności od produktu. Wszystkie płatne produkty mają wyświetlane informacje o treści produktu, cenie, sposobie dostarczenia oraz warunkach zwrotu przed dokonaniem płatności.",
+            "Szczegółowe produkty usługi dopasowania znaczenia Hanja są następujące. ① Maksymalnie 5 kandydatów, szczegółowy opis oraz kompleksowe Hanja: ₩2,900 ② Maksymalnie 10 kandydatów, rozszerzony szczegółowy opis, kompleksowe Hanja oraz PDF do przechowywania: ₩4,900 ③ Maksymalnie 10 kandydatów, szczegółowy opis, kompleksowe Hanja, analiza Saju i Pięciu Elementów oraz PDF do przechowywania: ₩9,900.",
+            "W usłudze globalnej konwersji nazw, konwersji koreańskich nazw oraz transkrypcji Hangul może być dostępny produkt, który ujawnia wszystkie pozostałe kandydaty bez reklam w jednym kroku (płatność krajowa ₩990, płatność zagraniczna US$1.99). Przed aktywacją funkcji płatności dostępne są jedynie przeglądy z nagrodami reklamowymi.",
+            "Dla globalnych użytkowników dostępne są cyfrowe produkty: ④ Kompleksowy raport PDF z koreańskim imieniem (US$9.99): wybór czcionek, sztuka imienia, interpretacja znaczenia, odniesienia do Saju i Pięciu Elementów ⑤ PDF z sztuką konwersji wymowy Hangul (US$2.99): sztuka imienia w wybranej czcionce oraz wskazówki dotyczące wymowy ⑥ Pakiet sztuki imienia PDF (US$1.99): jedna wybrana nazwa w sztuce według wybranej czcionki. Ceny każdego produktu oraz liczba zastosowanych czcionek są zgodne z wartościami podanymi na ekranie.",
+            "Płatne szczegółowe raporty i wyniki analiz, pliki PDF mogą być przeglądane i pobierane ponownie przez 24 godziny po zakończeniu płatności, a po upływie okresu przechowywania zostaną automatycznie usunięte.",
+            "Ceny krajowe za fizyczne gadżety, takie jak pieczątki imienne, wynoszą ₩39,000 / ₩59,000 / ₩79,000 i są podawane wraz z warunkami dla poszczególnych produktów.",
+            "Ceny zagraniczne za te same fizyczne gadżety wynoszą US$39.90 / US$59.90 / US$79.90 i obejmują koszty międzynarodowej wysyłki.",
+            "Wszystkie płatne produkty wyświetlają na ekranie informacje o treści produktu, cenie, sposobie dostarczenia oraz warunkach zwrotu przed dokonaniem płatności.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Szczegółowy raport o znakach (₩2,900·₩4,900·₩9,900)",
+          title: "2. Szczegółowy raport Hanja",
           paragraphs: [
-            "Można anulować zamówienie przed rozpoczęciem generowania szczegółowej analizy AI po dokonaniu płatności. Po zakończeniu generowania analizy i uzyskaniu możliwości przeglądania lub pobierania, zwroty z powodu zmiany zdania mogą być ograniczone.",
-            "W przypadku stwierdzenia błędów w treści, awarii systemu prowadzącej do niepowodzenia w generowaniu, lub niezgodności kwoty płatności, zostanie przeprowadzona ponowna emisja lub zwrot. Upłynięcie okresu przechowywania (24 godziny po dokonaniu płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
+            "Cena krajowa za szczegółowy raport Hanja wynosi ₩2,900 / ₩4,900 / ₩9,900.",
+            "Anulowanie jest możliwe przed rozpoczęciem generowania szczegółowej analizy AI po dokonaniu płatności. Po zakończeniu generowania analizy i udostępnieniu jej do przeglądania lub pobierania, zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku stwierdzenia błędów w treści, awarii systemu prowadzącej do niepowodzenia w generowaniu, lub niezgodności kwoty płatności, sprawa będzie rozpatrywana jako ponowne wydanie lub zwrot. Przekroczenie okresu przechowywania (24 godziny po płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
           ],
         },
         {
-          title: "3. Całkowite ujawnienie kandydatów (krajowe ₩990 · zagraniczne US$1.99)",
+          title: "3. Całkowite ujawnienie kandydatów",
           paragraphs: [
-            "Całkowite ujawnienie kandydatów dla usług konwersji nazw globalnych, konwersji nazw koreańskich oraz transkrypcji fonetycznej w hangulu jest cyfrową treścią dostarczaną natychmiast po dokonaniu płatności. Można anulować zamówienie przed rozpoczęciem przeglądania kandydatów, natomiast po przeglądaniu zwroty z powodu zmiany zdania mogą być ograniczone.",
-            "W przypadku, gdy kandydaci nie są prawidłowo ujawniani z powodu błędu systemu, zostanie przeprowadzona ponowna emisja lub zwrot.",
+            "Całkowite ujawnienie kandydatów w kraju kosztuje ₩990.",
+            "Cena za międzynarodową płatność za ten sam produkt wynosi US$1.99.",
+            "Całkowite ujawnienie kandydatów dla usług globalnej konwersji nazw, konwersji nazw koreańskich oraz transkrypcji Hangul to cyfrowa treść dostarczana natychmiast po dokonaniu płatności. Można anulować przed rozpoczęciem przeglądania kandydatów, a po przeglądzie zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku, gdy kandydaci nie zostaną prawidłowo ujawnieni z powodu błędu systemu, zostanie to rozwiązane poprzez ponowne udostępnienie lub zwrot pieniędzy.",
           ],
         },
         {
-          title: "4. Globalny produkt PDF (US$9.99·US$2.99·US$1.99)",
+          title: "4. Globalny cyfrowy produkt PDF",
           paragraphs: [
-            "Kompleksowy raport o imionach w hangulu (US$9.99), sztuka konwersji fonetycznej w hangulu (US$2.99), pakiet sztuki imienia (US$1.99) to cyfrowe treści generowane po dokonaniu płatności. Można anulować zamówienie przed rozpoczęciem generowania PDF, natomiast po zakończeniu generowania i uzyskaniu możliwości pobrania, zwroty z powodu zmiany zdania mogą być ograniczone.",
-            "W przypadku stwierdzenia niepowodzenia w generowaniu, błędów w treści lub niezgodności kwoty płatności, zostanie przeprowadzona ponowna emisja lub zwrot. Upłynięcie okresu przechowywania (24 godziny po dokonaniu płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
+            "Raport zbiorczy o imionach w Hangul (US$9.99), sztuka konwersji wymowy Hangul (US$2.99), pakiet sztuki imion (US$1.99) to cyfrowe treści generowane po dokonaniu płatności. Można anulować przed rozpoczęciem generowania PDF, a po zakończeniu generowania i udostępnieniu do pobrania, zwroty z powodu zmiany zdania mogą być ograniczone.",
+            "W przypadku stwierdzenia niepowodzenia w generowaniu, błędów w treści lub niezgodności kwoty płatności, sprawa będzie rozpatrywana jako ponowne wydanie lub zwrot. Przekroczenie okresu przechowywania (24 godziny po płatności) skutkuje zakończeniem możliwości pobrania i nie stanowi podstawy do zwrotu.",
           ],
         },
         {
-          title: "5. Spersonalizowane produkty (np. pieczątki z imieniem)",
+          title: "5. Spersonalizowane produkty (stempel z imieniem itp.)",
           paragraphs: [
-            "Produkty spersonalizowane, takie jak pieczątki z imieniem (krajowe ₩39,000 / ₩59,000 / ₩79,000 · zagraniczne US$39.90 / US$59.90 / US$79.90, w tym międzynarodowe koszty wysyłki), można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji, ponieważ tekst grawerunku jest ustalany indywidualnie, zwroty z powodu zmiany zdania mogą być ograniczone, a błędy, uszkodzenia, błędna produkcja lub problemy z dostawą będą rozpatrywane w odpowiedni sposób poprzez wymianę, ponowną produkcję lub zwrot po weryfikacji.",
+            "Cena krajowa za spersonalizowane produkty, takie jak stempel z imieniem, wynosi ₩39,000 / ₩59,000 / ₩79,000.",
+            "Cena zagraniczna za te same produkty wynosi US$39.90 / US$59.90 / US$79.90 i obejmuje międzynarodowe koszty wysyłki.",
+            "Spersonalizowane produkty można anulować do momentu rozpoczęcia produkcji. Po rozpoczęciu produkcji, tekst grawerunku jest ustalany indywidualnie, dlatego zwroty z powodu zmiany zdania mogą być ograniczone, a błędy, uszkodzenia, błędna produkcja lub problemy z dostawą będą rozwiązywane w odpowiedni sposób poprzez wymianę, ponowną produkcję lub zwrot pieniędzy po weryfikacji.",
           ],
         },
         {
-          title: "5. Odblokowanie z reklamą",
+          title: "6. Odblokowanie z reklamą",
           paragraphs: [
             "Korzyści z oglądania reklam nie są produktem płatnym. W przypadku, gdy nagroda nie została przyznana z powodu błędu w sieci reklamowej, można to rozwiązać poprzez ponowną próbę w usłudze lub kontakt z obsługą klienta.",
           ],
         },
         {
-          title: "6. Kontakt",
+          title: "7. Kontakt",
           paragraphs: [
             `Zapytania dotyczące zwrotów: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Podstawowa analiza (bezpłatnie)",
           paragraphs: [
-            "Podstawowa analiza czterech usług: dopasowanie znaczenia znaków chińskich, globalna konwersja nazw, konwersja nazw koreańskich oraz transkrypcja fonetyczna w Hangul, jest dostępna bezpłatnie dla użytkowników niebędących członkami, z możliwością zastosowania ograniczeń dotyczących dziennego zużycia. Poniższe płatne produkty będą udostępniane w kolejności, gdy przygotowanie metody płatności zostanie zakończone, a produkty, które nie są jeszcze dostępne do zakupu, nie będą wyświetlane na ekranie. Podane kwoty są cenami referencyjnymi w momencie rozpoczęcia sprzedaży.",
+            "Podstawowa analiza czterech usług: dopasowanie znaczenia Hanja, globalna konwersja nazw, konwersja nazw koreańskich, transkrypcja Hangul jest dostępna bezpłatnie dla osób niebędących członkami, z możliwością nałożenia dziennego limitu użytkowania. Poniżej przedstawione są tylko produkty, które można obecnie opłacić, a produkty, które jeszcze nie są otwarte, nie są wyświetlane.",
           ],
         },
         {
@@ -222,28 +229,31 @@ const content: LegalLocaleContent = {
         {
           title: "Całkowite ujawnienie kandydatów",
           paragraphs: [
-            "Globalna konwersja nazw, konwersja nazw koreańskich oraz usługa transkrypcji fonetycznej w Hangulu umożliwiają jednorazowe ujawnienie wszystkich pozostałych kandydatów bez reklam: płatność krajowa ₩990, płatność zagraniczna US$1.99 (funkcja płatności w przygotowaniu)",
+            "Globalna konwersja nazw, konwersja nazw koreańskich, usługa transkrypcji Hangul ujawnia wszystkich pozostałych kandydatów jednocześnie bez reklam (płatność krajowa): ₩990",
+            "Cena za ten sam produkt przy płatności zagranicznej: US$1.99",
           ],
         },
         {
-          title: "Globalny produkt PDF",
+          title: "Globalny cyfrowy produkt PDF",
           paragraphs: [
-            "Kompleksowy raport PDF dotyczący nazw w Hangulu (sztuka nazw, interpretacja znaczenia, odniesienia do BaZi i pięciu elementów dla wszystkich rekomendowanych kandydatów): US$9.99",
-            "PDF sztuki konwersji fonetycznej w Hangulu (sztuka nazw w wybranym kroju pisma oraz wskazówki dotyczące wymowy): US$2.99",
-            "Pakiet sztuki nazw PDF (sztuka dla jednego wybranego imienia w wybranym kroju pisma): US$1.99",
-            "Ceny oraz liczba zastosowanych krojów pisma są zgodne z wartościami podanymi na ekranie, a PDF mogą być pobierane ponownie w ciągu 24 godzin po dokonaniu płatności, a następnie są automatycznie usuwane. (funkcja płatności w przygotowaniu)",
+            "Raport PDF z imionami w Hangul (szerokie omówienie imion, sztuka, znaczenie, odniesienia do pięciu żywiołów): US$9.99",
+            "PDF z konwersją wymowy w Hangul (sztuka wybranego kroju pisma i wskazówki dotyczące wymowy): US$2.99",
+            "Pakiet sztuki imion PDF (sztuka dla jednego wybranego imienia w różnych krojach pisma): US$1.99",
+            "Ceny oraz liczba zastosowanych krojów pisma są zgodne z wartościami podanymi na ekranie, a PDF można pobrać ponownie w ciągu 24 godzin po dokonaniu płatności, po czym zostanie automatycznie usunięty.",
           ],
         },
         {
-          title: "Towary z nazwami w Hangulu",
+          title: "Towary z imionami w Hangul",
           paragraphs: [
-            "Stempel z imieniem: krajowa cena ₩39,000 / ₩59,000 / ₩79,000 · zagraniczna cena US$39.90 / US$59.90 / US$79.90 (w tym koszty wysyłki międzynarodowej). Inne fizyczne towary będą miały osobno podane ceny, koszty wysyłki oraz czas produkcji.",
+            "Imię pieczątka (płatność krajowa): ₩39,000 / ₩59,000 / ₩79,000",
+            "Imię pieczątka (płatność zagraniczna): US$39.90 / US$59.90 / US$79.90 (w tym koszty wysyłki międzynarodowej)",
+            "Inne fizyczne towary będą miały osobno podane ceny, koszty wysyłki oraz czas produkcji.",
           ],
         },
         {
-          title: "Informacje przed dokonaniem płatności",
+          title: "Informacje o kwotach",
           paragraphs: [
-            "Po zatwierdzeniu oceny PG, zgłoszeniu działalności handlowej oraz ustaleniu warunków współpracy produkcyjnej, rzeczywista kwota płatności, koszty wysyłki, czas produkcji oraz warunki zwrotu będą ponownie podane na ekranie produktu.",
+            "Kwota płatności, koszty wysyłki, czas realizacji oraz warunki zwrotu będą ponownie podane na ekranie produktu przed dokonaniem płatności, a w przypadku różnicy między kwotami w tym dokumencie a kwotami na ekranie produktu, kwota na ekranie produktu będzie miała pierwszeństwo.",
           ],
         },
       ],

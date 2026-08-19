@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Perkhidmatan Berbayar",
           paragraphs: [
-            "Butiran produk untuk perkhidmatan pemadanan makna Hanja adalah seperti berikut. ① Maksimum 5 calon dengan penerangan terperinci dan makna Hanja secara keseluruhan: ₩2,900 ② Maksimum 10 calon dengan penerangan terperinci yang diperluas, makna Hanja secara keseluruhan dan PDF untuk simpanan: ₩4,900 ③ Maksimum 10 calon dengan penerangan terperinci, makna Hanja secara keseluruhan, analisis nasib dan elemen serta PDF untuk simpanan: ₩9,900.",
-            "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penyataan sebutan Hangul mungkin menawarkan produk yang mendedahkan semua calon yang tinggal tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
-            "Sebagai produk digital untuk pengguna global, ④ Laporan komprehensif nama Hangul dalam PDF (US$9.99): Seni nama jenis huruf untuk semua calon yang dicadangkan, penjelasan makna, dan rujukan nasib elemen ⑤ Seni PDF penukaran sebutan Hangul (US$2.99): Seni nama jenis huruf yang dipilih dan panduan sebutan ⑥ Pakej seni nama PDF (US$1.99): Menyediakan satu nama yang dipilih dalam seni berdasarkan jenis huruf yang dipilih. Harga dan bilangan jenis huruf yang dikenakan untuk setiap produk adalah mengikut nilai yang dipaparkan di skrin.",
-            "Laporan terperinci berbayar dan hasil analisis, fail PDF boleh dibuka semula dan dimuat turun dalam tempoh 24 jam selepas pembayaran selesai, dan akan dipadam secara automatik selepas tempoh penyimpanan tamat.",
-            "Barang fizikal seperti cap nama disediakan dengan harga domestik ₩39,000 / ₩59,000 / ₩79,000, luar negara US$39.90 / US$59.90 / US$79.90 (termasuk kos penghantaran antarabangsa) mengikut harga dan syarat produk. Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
+            "Butiran produk perkhidmatan pemadanan makna Hanja adalah seperti berikut. ① Maksimum 5 calon dengan penerangan terperinci dan maklumat Hanja keseluruhan: ₩2,900 ② Maksimum 10 calon dengan penerangan terperinci yang diperluas, maklumat Hanja keseluruhan dan PDF untuk simpanan: ₩4,900 ③ Maksimum 10 calon dengan penerangan terperinci, maklumat Hanja keseluruhan, analisis Saju·Oheang dan PDF untuk simpanan: ₩9,900.",
+            "Perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul mungkin menawarkan produk yang mendedahkan keseluruhan calon yang tinggal tanpa iklan sekaligus (pembayaran domestik ₩990, pembayaran luar negara US$1.99). Sebelum fungsi pembayaran diaktifkan, hanya paparan dengan ganjaran iklan yang disediakan.",
+            "Produk digital untuk pengguna global termasuk ④ Laporan PDF nama Hangul keseluruhan (US$9.99): seni nama jenis huruf pilihan, penjelasan makna, rujukan Saju Oheang ⑤ Seni PDF penukaran sebutan Hangul (US$2.99): seni nama jenis huruf pilihan dan panduan sebutan ⑥ Pek seni nama PDF (US$1.99): menyediakan 1 nama yang dipilih dalam seni jenis huruf yang dipilih. Harga dan bilangan jenis huruf yang digunakan untuk setiap produk adalah mengikut nilai yang dipaparkan di skrin.",
+            "Laporan terperinci berbayar dan keputusan analisis, fail PDF boleh dibuka semula dan dimuat turun dalam masa 24 jam selepas pembayaran selesai, dan akan dipadam secara automatik selepas tempoh penyimpanan tamat.",
+            "Harga pembayaran domestik untuk barang fizikal seperti cap nama adalah ₩39,000 / ₩59,000 / ₩79,000 dan akan disediakan bersama syarat produk.",
+            "Harga pembayaran luar negara untuk barang fizikal yang sama adalah US$39.90 / US$59.90 / US$79.90 dan termasuk kos penghantaran antarabangsa.",
+            "Semua produk berbayar akan memaparkan maklumat produk, harga, cara penyampaian, dan syarat pemulangan di skrin sebelum pembayaran.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Laporan Terperinci Hanzi (₩2,900·₩4,900·₩9,900)",
+          title: "2. Laporan Terperinci Hanja",
           paragraphs: [
-            "Pembatalan boleh dilakukan sebelum analisis terperinci AI dimulakan selepas pembayaran. Setelah analisis selesai dan boleh dilihat atau dimuat turun, pemulangan atas alasan perubahan fikiran mungkin terhad.",
-            "Kesalahan kandungan, kegagalan pengeluaran akibat gangguan sistem, dan ketidakcocokan jumlah pembayaran yang disahkan akan diproses sebagai pengeluaran semula atau pemulangan. Jika muat turun tamat selepas tempoh penyimpanan (24 jam selepas pembayaran), ia tidak dianggap sebagai alasan untuk pemulangan.",
+            "Harga pembayaran domestik untuk laporan terperinci Hanja adalah ₩2,900 / ₩4,900 / ₩9,900.",
+            "Pembatalan boleh dilakukan sebelum permulaan penciptaan analisis terperinci AI selepas pembayaran. Setelah penciptaan analisis selesai dan boleh dilihat atau dimuat turun, pengembalian wang kerana perubahan fikiran mungkin terhad.",
+            "Kesalahan kandungan, kegagalan penciptaan akibat gangguan sistem, dan ketidakcocokan jumlah pembayaran yang disahkan akan diproses dengan pengeluaran semula atau pengembalian wang. Kes tamat tempoh penyimpanan (24 jam selepas pembayaran) tidak dianggap sebagai alasan untuk pengembalian wang.",
           ],
         },
         {
-          title: "3. Pendedahan Keseluruhan Calon (₩990 dalam negara · US$1.99 luar negara)",
+          title: "3. Pendedahan Keseluruhan Calon",
           paragraphs: [
-            "Pendedahan keseluruhan calon untuk perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul adalah kandungan digital yang disediakan sebaik sahaja pembayaran dilakukan. Pembatalan boleh dilakukan sebelum pendedahan calon dimulakan, dan selepas pendedahan, pemulangan atas alasan perubahan fikiran mungkin terhad.",
-            "Jika calon tidak dipaparkan dengan betul akibat ralat sistem, ia akan diproses sebagai penyediaan semula atau pemulangan.",
+            "Harga pembayaran domestik untuk pendedahan keseluruhan calon adalah ₩990.",
+            "Harga pembayaran luar negara untuk produk yang sama adalah US$1.99.",
+            "Pendedahan keseluruhan calon untuk perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul adalah kandungan digital yang disediakan sebaik sahaja pembayaran dibuat. Pembatalan boleh dilakukan sebelum pemeriksaan calon dimulakan, dan selepas pemeriksaan, pengembalian wang kerana perubahan fikiran mungkin terhad.",
+            "Jika calon tidak didedahkan dengan betul akibat ralat sistem, ia akan diproses semula atau dikembalikan.",
           ],
         },
         {
-          title: "4. Produk PDF Digital Global (US$9.99·US$2.99·US$1.99)",
+          title: "4. Produk PDF Digital Global",
           paragraphs: [
-            "Laporan komprehensif nama Hangul (US$9.99), seni penukaran sebutan Hangul (US$2.99), dan pek seni nama (US$1.99) adalah kandungan digital yang dihasilkan selepas pembayaran. Pembatalan boleh dilakukan sebelum penghasilan PDF dimulakan, dan setelah penghasilan selesai dan boleh dimuat turun, pemulangan atas alasan perubahan fikiran mungkin terhad.",
-            "Kegagalan penghasilan, kesalahan kandungan, dan ketidakcocokan jumlah pembayaran yang disahkan akan diproses sebagai pengeluaran semula atau pemulangan. Jika muat turun tamat selepas tempoh penyimpanan (24 jam selepas pembayaran), ia tidak dianggap sebagai alasan untuk pemulangan.",
+            "Laporan Nama Hangul (US$9.99), Seni Penukaran Sebutan Hangul (US$2.99), Pakej Seni Nama (US$1.99) adalah kandungan digital yang dihasilkan selepas pembayaran. Pembatalan boleh dilakukan sebelum proses penghasilan PDF dimulakan, dan selepas penghasilan selesai dan boleh dimuat turun, pengembalian wang kerana perubahan fikiran mungkin terhad.",
+            "Jika terdapat kegagalan penghasilan, kesilapan kandungan, atau ketidakcocokan jumlah pembayaran, ia akan diproses sebagai pengeluaran semula atau pengembalian wang. Jika muat turun tamat kerana tempoh penyimpanan (24 jam selepas pembayaran) telah berlalu, ia tidak dianggap sebagai alasan untuk pengembalian wang.",
           ],
         },
         {
-          title: "5. Barangan Buatan Khusus (stempel nama dan lain-lain)",
+          title: "5. Barang Kustom (Stempel Nama dll)",
           paragraphs: [
-            "Barangan buatan khusus seperti stempel nama (₩39,000 / ₩59,000 / ₩79,000 dalam negara · US$39.90 / US$59.90 / US$79.90 luar negara, termasuk kos penghantaran antarabangsa) boleh dibatalkan sehingga sebelum pengeluaran dimulakan. Setelah pengeluaran dimulakan, frasa ukiran akan disahkan secara peribadi, jadi pemulangan atas alasan perubahan fikiran mungkin terhad, dan kesalahan cetakan, kerosakan, pengeluaran salah, atau masalah penghantaran akan diproses dengan cara yang sesuai melalui pertukaran, pengeluaran semula, atau pemulangan setelah disahkan.",
+            "Harga pembayaran domestik untuk barang kustom seperti stempel nama adalah ₩39,000 / ₩59,000 / ₩79,000.",
+            "Harga pembayaran luar negara untuk barang yang sama adalah US$39.90 / US$59.90 / US$79.90 dan termasuk kos penghantaran antarabangsa.",
+            "Barang kustom boleh dibatalkan sehingga sebelum memulakan pengeluaran. Setelah pengeluaran dimulakan, teks ukiran akan disahkan secara peribadi, jadi pengembalian kerana perubahan fikiran mungkin terhad, dan kesalahan, kerosakan, pengeluaran yang salah atau masalah penghantaran akan ditangani dengan cara yang sesuai melalui pertukaran, pengeluaran semula, atau pengembalian setelah disahkan.",
           ],
         },
         {
-          title: "5. Pembatalan Kunci Berasaskan Iklan",
+          title: "6. Pembatalan Kunci Berasaskan Iklan",
           paragraphs: [
             "Manfaat menonton iklan bukanlah produk yang dibayar. Jika pampasan tidak diberikan akibat ralat rangkaian iklan, ia akan diproses melalui percubaan semula dalam perkhidmatan atau melalui pertanyaan kepada pusat khidmat pelanggan.",
           ],
         },
         {
-          title: "6. Pertanyaan",
+          title: "7. Pertanyaan",
           paragraphs: [
             `Pertanyaan mengenai pemulangan: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Analisis Asas (Percuma)",
           paragraphs: [
-            "Analisis asas bagi empat perkhidmatan iaitu pemadanan makna Hanzi, penukaran nama global, penukaran nama Korea, dan penandaan sebutan Hangul disediakan secara percuma kepada bukan ahli dan had penggunaan harian mungkin dikenakan. Produk berbayar di bawah ini akan dibuka secara berperingkat setelah kaedah pembayaran disediakan, dan produk yang belum boleh dibayar tidak akan dipaparkan di skrin. Jumlah yang dinyatakan adalah harga rujukan pada permulaan jualan.",
+            "Analisis asas untuk empat perkhidmatan iaitu pemadanan makna Hanja, penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul disediakan secara percuma kepada bukan ahli dan had penggunaan harian mungkin dikenakan. Di bawah ini hanya produk yang boleh dibayar sekarang ditunjukkan bersama jumlahnya, dan produk yang belum dibuka tidak ditunjukkan.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Pendedahan Keseluruhan Calon Secara Serentak",
+          title: "Pendedahan Keseluruhan Calon",
           paragraphs: [
-            "Mendedahkan semua calon yang tinggal dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan penulisan sebutan Hangul tanpa iklan sekaligus: pembayaran domestik ₩990, pembayaran luar negara US$1.99 (fungsi pembayaran sedang disediakan)",
+            "Pendedahan keseluruhan calon yang tinggal tanpa iklan dalam perkhidmatan penukaran nama global, penukaran nama Korea, dan perkhidmatan penulisan sebutan Hangul (pembayaran domestik): ₩990",
+            "Harga pembayaran luar negara untuk produk yang sama: US$1.99",
           ],
         },
         {
           title: "Produk PDF Digital Global",
           paragraphs: [
-            "Laporan PDF komprehensif nama Hangul (seni nama dan penjelasan makna untuk semua calon yang disyorkan serta rujukan Bazi Lima Elemen): US$9.99",
-            "PDF seni penukaran sebutan Hangul (seni nama dengan jenis huruf pilihan dan panduan sebutan): US$2.99",
-            "PDF pek seni nama (seni untuk satu nama yang dipilih dengan jenis huruf yang dipilih): US$1.99",
-            "Harga dan jumlah jenis huruf yang dikenakan adalah mengikut nilai yang dinyatakan di skrin, dan PDF boleh dimuat turun semula dalam tempoh 24 jam selepas pembayaran dan akan dipadam secara automatik selepas itu. (fungsi pembayaran sedang disediakan)",
+            "Laporan Komprehensif Nama Hangul PDF (Penjelasan seni dan makna untuk semua nama calon yang disyorkan, serta rujukan kepada lima elemen dan nasib): US$9.99",
+            "Seni PDF Penukaran Sebutan Hangul (Seni nama dengan jenis huruf pilihan dan panduan sebutan): US$2.99",
+            "Pakej Seni Nama PDF (Seni untuk satu nama yang dipilih dengan jenis huruf yang dipilih): US$1.99",
+            "Harga dan jumlah jenis huruf yang digunakan adalah mengikut nilai yang dinyatakan di skrin, dan PDF boleh dimuat turun semula dalam tempoh 24 jam selepas pembayaran dan akan dipadam secara automatik selepas itu.",
           ],
         },
         {
           title: "Barangan Nama Hangul",
           paragraphs: [
-            "Stempel nama: domestik ₩39,000 / ₩59,000 / ₩79,000 · luar negara US$39.90 / US$59.90 / US$79.90 (termasuk kos penghantaran antarabangsa). Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
+            "Nama cap (pembayaran domestik): ₩39,000 / ₩59,000 / ₩79,000",
+            "Nama cap (pembayaran luar negara): US$39.90 / US$59.90 / US$79.90 (termasuk kos penghantaran antarabangsa)",
+            "Barangan fizikal lain akan dinyatakan harga, kos penghantaran, dan tempoh pembuatan secara berasingan.",
           ],
         },
         {
-          title: "Pemberitahuan Sebelum Pembayaran Rasmi",
+          title: "Panduan Jumlah",
           paragraphs: [
-            "Apabila penilaian PG, pendaftaran perniagaan dalam talian, dan syarat kerjasama pembuatan telah disahkan, jumlah pembayaran sebenar, kos penghantaran, tempoh pembuatan, dan syarat pemulangan akan dinyatakan semula di skrin produk.",
+            "Jumlah pembayaran, kos penghantaran, tempoh pembuatan, dan syarat pemulangan akan dinyatakan semula di skrin produk sebelum pembayaran, dan jika jumlah dalam dokumen ini berbeza dengan jumlah di skrin produk, jumlah di skrin produk adalah yang menjadi rujukan.",
           ],
         },
       ],

@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Services payants",
           paragraphs: [
-            "Les détails des services de correspondance de signification des caractères chinois sont les suivants : ① Description détaillée de jusqu'à 5 candidats et détails complets des caractères chinois : ₩2,900 ② Description détaillée étendue de jusqu'à 10 candidats, détails complets des caractères chinois et PDF à conserver : ₩4,900 ③ Détails de jusqu'à 10 candidats, détails complets des caractères chinois, analyse des quatre piliers et des cinq éléments, et PDF à conserver : ₩9,900.",
-            "Pour les services de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en coréen, un produit peut être proposé pour révéler tous les candidats restants sans publicité en une seule fois (₩990 pour les paiements nationaux, US$1.99 pour les paiements internationaux). Avant l'activation de la fonction de paiement, seule la consultation avec compensation publicitaire est disponible.",
-            "Pour les utilisateurs globaux, les produits numériques suivants sont proposés : ④ Rapport complet sur les noms en coréen PDF (US$9.99) : Art des noms des candidats recommandés, explication des significations et références aux quatre piliers et aux cinq éléments ⑤ Art de conversion phonétique en coréen PDF (US99.$2) : Art des noms avec police choisie et guide de prononciation ⑥ Pack d'art de noms PDF (US$1.99) : Fourniture d'un art pour un nom choisi selon la police sélectionnée. Les prix et le nombre de polices appliquées pour chaque produit sont conformes aux valeurs affichées à l'écran.",
+            "Les détails des produits du service de correspondance de signification des caractères chinois sont les suivants. ① Maximum 5 candidats avec description détaillée et détails complets des caractères chinois : ₩2,900 ② Maximum 10 candidats avec description détaillée étendue, détails complets des caractères chinois et PDF à conserver : ₩4,900 ③ Maximum 10 candidats avec détails, détails complets des caractères chinois, analyse des quatre éléments et PDF à conserver : ₩9,900.",
+            "Un produit est proposé dans le service de conversion de noms mondiaux, de conversion de noms coréens et de transcription phonétique en coréen, qui permet de révéler tous les candidats restants sans publicité en une seule fois (paiement national ₩990, paiement international US$1.99). Avant l'activation de la fonction de paiement, seule la consultation avec récompense publicitaire est disponible.",
+            "Pour les utilisateurs mondiaux, les produits numériques suivants sont disponibles : ④ Rapport complet sur les noms en coréen en PDF (US$9.99) : art des noms de toutes les suggestions recommandées, explication des significations et référence aux quatre éléments ⑤ Art de conversion phonétique en coréen en PDF (US$2.99) : art des noms avec la police choisie et guide de prononciation ⑥ Pack d'art de nom en PDF (US$1.99) : art d'un nom choisi fourni dans différentes polices. Les prix de chaque produit et le nombre de polices appliquées suivent les valeurs affichées à l'écran.",
             "Les rapports détaillés payants et les résultats d'analyse, ainsi que les fichiers PDF, peuvent être consultés et téléchargés à nouveau pendant 24 heures après le paiement, et seront automatiquement supprimés après la période de conservation.",
-            "Les produits physiques tels que les tampons de nom sont proposés à des prix et conditions spécifiques, notamment ₩39,000 / ₩59,000 / ₩79,000 en Corée et US$39.90 / US$59.90 / US$79.90 à l'étranger (frais de livraison internationale inclus). Tous les produits payants affichent les détails du produit, le prix, le mode de fourniture et les conditions de remboursement à l'écran avant le paiement.",
+            "Les prix de paiement national pour les produits physiques tels que les tampons de nom sont de ₩39,000 / ₩59,000 / ₩79,000 et sont fournis avec les conditions spécifiques à chaque produit.",
+            "Les prix de paiement international pour les mêmes produits physiques sont de US$39.90 / US$59.90 / US$79.90, incluant les frais de livraison internationale.",
+            "Tous les produits payants affichent à l'écran les détails du produit, le prix, le mode de fourniture et les conditions de remboursement avant le paiement.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Rapport détaillé en caractères chinois (₩2,900·₩4,900·₩9,900)",
+          title: "2. Rapport détaillé sur les Hanja",
           paragraphs: [
-            "Il est possible d'annuler avant le début de la génération de l'analyse détaillée par l'IA après le paiement. Une fois la génération de l'analyse terminée et accessible pour consultation ou téléchargement, le remboursement pour simple changement d'avis peut être limité.",
-            "En cas d'erreur de contenu, d'échec de génération dû à un dysfonctionnement du système, ou de non-concordance du montant payé, un réémission ou un remboursement sera effectué. Si le téléchargement est terminé en raison de l'expiration de la période de conservation (24 heures après le paiement), cela ne constitue pas un motif de remboursement.",
+            "Le prix de paiement domestique pour le rapport détaillé sur les Hanja est de ₩2,900 / ₩4,900 / ₩9,900.",
+            "L'annulation est possible avant le début de la génération de l'analyse détaillée après le paiement. Une fois la génération de l'analyse terminée et accessible pour consultation ou téléchargement, les remboursements pour simple changement d'avis peuvent être limités.",
+            "En cas d'erreur de contenu, d'échec de génération dû à une défaillance du système, ou de non-concordance du montant du paiement, un réémission ou un remboursement sera effectué. Le fait que le téléchargement soit terminé après la période de conservation (24 heures après le paiement) ne constitue pas un motif de remboursement.",
           ],
         },
         {
-          title: "3. Publication groupée de tous les candidats (₩990 en Corée · US$1.99 à l'étranger)",
+          title: "3. Publication intégrale des candidats",
           paragraphs: [
-            "La publication groupée des candidats pour le service de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en coréen est un contenu numérique fourni immédiatement après le paiement. Il est possible d'annuler avant le début de la consultation des candidats, et après consultation, le remboursement pour simple changement d'avis peut être limité.",
-            "En cas d'erreur système empêchant la publication normale des candidats, un réémission ou un remboursement sera effectué.",
+            "Le prix de paiement domestique pour la publication intégrale des candidats est de ₩990.",
+            "Le prix de paiement à l'étranger pour le même produit est de US$1.99.",
+            "La publication intégrale des candidats pour le service de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en Hangul est un contenu numérique fourni immédiatement après le paiement. L'annulation est possible avant le début de la consultation des candidats, et après la consultation, le remboursement pour simple changement d'avis peut être limité.",
+            "En cas d'erreur système empêchant la publication normale des candidats, un nouveau traitement ou un remboursement sera effectué.",
           ],
         },
         {
-          title: "4. Produit numérique PDF global (US$9.99·US$2.99·US$1.99)",
+          title: "4. Produit PDF numérique mondial",
           paragraphs: [
-            "Le rapport complet sur les noms coréens (US$9.99), l'art de conversion phonétique en coréen (US$2.99), et le pack d'art de noms (US$1.99) sont des contenus numériques générés après le paiement. Il est possible d'annuler avant le début de la génération du PDF, et une fois la génération terminée et le téléchargement disponible, le remboursement pour simple changement d'avis peut être limité.",
-            "En cas d'échec de génération, d'erreur de contenu, ou de non-concordance du montant payé, un réémission ou un remboursement sera effectué. Si le téléchargement est terminé en raison de l'expiration de la période de conservation (24 heures après le paiement), cela ne constitue pas un motif de remboursement.",
+            "Le rapport complet sur les noms en coréen (US$9.99), l'art de conversion de prononciation en coréen (US$2.99), et le pack d'art de nom (US$1.99) sont des contenus numériques générés après paiement. L'annulation est possible avant le début de la génération du PDF, et une fois la génération terminée et le téléchargement disponible, les remboursements pour simple changement d'avis peuvent être limités.",
+            "En cas d'échec de génération, d'erreur de contenu ou de non-concordance du montant payé, un réémission ou un remboursement sera effectué. Si le délai de conservation (24 heures après le paiement) est dépassé et que le téléchargement est terminé, cela ne constitue pas un motif de remboursement.",
           ],
         },
         {
           title: "5. Produits personnalisés (tampons de nom, etc.)",
           paragraphs: [
-            "Les articles personnalisés tels que les tampons de nom (₩39,000 / ₩59,000 / ₩79,000 en Corée · US$39.90 / US$59.90 / US$79.90 à l'étranger, frais de livraison internationale inclus) peuvent être annulés jusqu'à avant le début de la production. Après le début de la production, le texte gravé est confirmé de manière personnalisée, donc le remboursement pour simple changement d'avis peut être limité, et les erreurs de frappe, les dommages, les erreurs de production ou les problèmes de livraison seront traités de manière appropriée par échange, nouvelle production ou remboursement après vérification.",
+            "Le prix de paiement national pour les articles personnalisés tels que les tampons de nom est de ₩39,000 / ₩59,000 / ₩79,000.",
+            "Le prix de paiement international pour les mêmes articles est de US$39.90 / US$59.90 / US$79.90, frais de livraison internationale inclus.",
+            "Les articles personnalisés peuvent être annulés jusqu'à ce que la production commence. Après le début de la production, le texte gravé est confirmé de manière personnalisée, donc les remboursements pour changement d'avis peuvent être limités, et les erreurs, dommages, erreurs de fabrication ou problèmes de livraison seront traités de manière appropriée par échange, nouvelle fabrication ou remboursement après vérification.",
           ],
         },
         {
-          title: "5. Déverrouillage par publicité",
+          title: "6. Déverrouillage par publicité",
           paragraphs: [
             "Les avantages liés à la visualisation de publicités ne sont pas des produits payants. En cas de non-paiement de la récompense en raison d'une erreur du réseau publicitaire, cela sera traité par une nouvelle tentative dans le service ou en contactant le service client.",
           ],
         },
         {
-          title: "6. Contact",
+          title: "7. Contact",
           paragraphs: [
             `Pour toute demande de remboursement : ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Analyse de base (gratuite)",
           paragraphs: [
-            "L'analyse de base des quatre services de correspondance de significations en caractères chinois, de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en hangeul est fournie gratuitement aux non-membres, avec une limite d'utilisation quotidienne pouvant s'appliquer. Les produits payants ci-dessous seront débloqués dans l'ordre dès que les moyens de paiement seront prêts, et les produits qui ne peuvent pas encore être payés ne seront pas affichés à l'écran. Les montants indiqués sont les prix de référence au moment du début des ventes.",
+            "L'analyse de base des quatre services de correspondance de signification en Hanja, de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en Hangul est fournie gratuitement aux non-membres, avec une limite d'utilisation quotidienne pouvant s'appliquer. Ci-dessous, seuls les produits pouvant être payés immédiatement sont affichés avec leur montant, et les produits qui ne sont pas encore ouverts ne sont pas affichés.",
           ],
         },
         {
@@ -220,30 +227,33 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "Publication groupée de tous les candidats",
+          title: "Publication intégrale des candidats",
           paragraphs: [
-            "Publication de tous les candidats restants dans les services de conversion de noms mondiaux, de conversion de noms coréens et de transcription phonétique en hangeul sans publicité : paiement national ₩990, paiement international US$1.99 (fonction de paiement en préparation)",
+            "Publication intégrale des candidats restants dans le service de conversion de noms globaux, de conversion de noms coréens et de transcription phonétique en Hangul, sans publicité (paiement national) : ₩990",
+            "Prix du même produit pour les paiements internationaux : US$1.99",
           ],
         },
         {
-          title: "Produits PDF numériques mondiaux",
+          title: "Produit PDF numérique mondial",
           paragraphs: [
-            "Rapport PDF complet sur les noms en hangeul (art des noms recommandés, explication des significations, référence aux quatre piliers et aux cinq éléments) : US$9.99",
-            "Art de conversion phonétique en hangeul PDF (art des noms avec police choisie et guide de prononciation) : US$2.99",
-            "Pack d'art de noms PDF (art d'un nom choisi fourni selon la police sélectionnée) : US$1.99",
-            "Les prix et le nombre de polices appliquées suivent les valeurs indiquées à l'écran, et le PDF peut être téléchargé à nouveau pendant 24 heures après le paiement, puis sera automatiquement supprimé. (fonction de paiement en préparation)",
+            "Rapport complet sur les noms en coréen PDF (interprétation de l'art et de la signification des noms de tous les candidats recommandés, référence aux cinq éléments et à l'astrologie coréenne) : US$9.99",
+            "Art de conversion de la prononciation en coréen PDF (art du nom de la police sélectionnée et guide de prononciation) : US$2.99",
+            "Pack d'art de nom PDF (fournit l'art d'un nom sélectionné dans différentes polices) : US$1.99",
+            "Les prix et le nombre de polices appliquées suivent les valeurs indiquées à l'écran, et le PDF peut être téléchargé à nouveau pendant 24 heures après le paiement, puis sera automatiquement supprimé.",
           ],
         },
         {
-          title: "Produits dérivés de noms en hangeul",
+          title: "Produits avec des noms en Hangul",
           paragraphs: [
-            "Tampon de nom : ₩39,000 / ₩59,000 / ₩79,000 en national · US$39.90 / US$59.90 / US$79.90 à l'international (frais de livraison internationale inclus). D'autres produits physiques auront des prix, frais de livraison et délais de production indiqués séparément.",
+            "Tampon de nom (paiement national) : ₩39,000 / ₩59,000 / ₩79,000",
+            "Tampon de nom (paiement international) : US$39.90 / US$59.90 / US$79.90 (frais de livraison internationale inclus)",
+            "Les autres produits physiques auront des prix, des frais de livraison et des délais de production indiqués séparément.",
           ],
         },
         {
-          title: "Informations avant paiement officiel",
+          title: "Informations sur les montants",
           paragraphs: [
-            "Une fois que l'examen PG, l'enregistrement de la vente à distance et les conditions de partenariat de production sont confirmés, le montant réel du paiement, les frais de livraison, le délai de production et les conditions de remboursement seront à nouveau indiqués sur l'écran du produit.",
+            "Le montant de la commande, les frais de livraison, le délai de production et les conditions de remboursement seront à nouveau indiqués sur l'écran du produit avant le paiement, et en cas de différence entre les montants de ce document et ceux de l'écran du produit, le montant de l'écran du produit sera la référence.",
           ],
         },
       ],

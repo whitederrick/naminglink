@@ -12,17 +12,22 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "src", "lib", "legal-content");
+// **파는 금액을 하나도 빠뜨리지 말 것.** 여기 없는 금액은 정규화가 통째로 지나가고, 그
+// 로케일만 「59.000 Won」 같은 표기로 남는다 — 화면에는 보이는데 검사기는 조용하다.
+// 2026-08-19에 도장 59,000·79,000이 그 상태였다(추가하며 확인).
 const AMOUNTS = [
   ["2", "900"],
   ["4", "900"],
   ["9", "900"],
   ["39", "000"],
+  ["59", "000"],
+  ["79", "000"],
 ];
 // 마침표·일반 공백·비분리 공백·좁은 비분리 공백 모두 천 단위 구분자로 쓰였다.
 const SEPARATOR = "[.\\u0020\\u00a0\\u202f\\u2009]";
 // 각 언어가 쓴 '원'. 라틴 문자 표기만 단어 경계를 요구한다(다른 단어 안에 걸리지 않도록).
 const WON_WORD = "(?:Won\\b|won\\b|وون|วอน|វ៉ុន|ウォン|韩元|वोन)";
-const ALL_AMOUNTS = ["990", "2,900", "4,900", "9,900", "39,000"];
+const ALL_AMOUNTS = ["990", "2,900", "4,900", "9,900", "39,000", "59,000", "79,000"];
 
 let changedFiles = 0;
 for (const file of readdirSync(DIR).filter((name) => name.endsWith(".ts") && !["ko.ts", "types.ts", "index.ts"].includes(name))) {

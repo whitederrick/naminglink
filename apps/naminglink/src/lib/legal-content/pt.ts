@@ -36,11 +36,13 @@ const content: LegalLocaleContent = {
         {
           title: "4. Serviços Pagos",
           paragraphs: [
-            "Os detalhes do serviço de correspondência de significados de caracteres chineses são os seguintes: ① Até 5 candidatos com descrição detalhada e resumo de caracteres: ₩2,900 ② Até 10 candidatos com descrição detalhada expandida, resumo de caracteres e PDF para armazenamento: ₩4,900 ③ Até 10 candidatos com detalhes, resumo de caracteres, análise de destino e cinco elementos e PDF para armazenamento: ₩9,900.",
-            "Nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição de pronúncia em coreano, pode ser oferecido um produto que revela todos os candidatos restantes de uma só vez, sem anúncios (pagamento nacional ₩990, pagamento internacional US$1.99). Antes da ativação da função de pagamento, apenas a visualização com recompensa publicitária está disponível.",
-            "Para usuários globais, os produtos digitais incluem ④ Relatório completo em PDF de nomes em coreano (US$9.99): arte do nome da fonte escolhida, interpretação de significados e referências de cinco elementos e destino ⑤ Arte em PDF de conversão de pronúncia em coreano (US$2.99): arte do nome da fonte escolhida e guia de pronúncia ⑥ Pacote de arte de nomes em PDF (US$1.99): fornecido como arte em diferentes fontes para um nome escolhido. Os preços de cada produto e o número de fontes aplicáveis seguem os valores informados na tela.",
-            "Os relatórios detalhados pagos e os resultados de análise, bem como os arquivos PDF, podem ser visualizados e baixados novamente por 24 horas após a conclusão do pagamento, e serão excluídos automaticamente após o período de armazenamento.",
-            "Produtos físicos como carimbos de nome são oferecidos a preços e condições específicas, como ₩39,000 / ₩59,000 / ₩79,000 no país e US$39.90 / US$59.90 / US$79.90 no exterior (incluindo frete internacional). Todos os produtos pagos informam o conteúdo do produto, preço, forma de fornecimento e condições de reembolso na tela antes do pagamento.",
+            "Os detalhes do serviço de correspondência de significados de Hanja são os seguintes. ① Máximo de 5 candidatos, descrição detalhada e resumo de Hanja: ₩2,900 ② Máximo de 10 candidatos, descrição detalhada expandida, resumo de Hanja e PDF para download: ₩4,900 ③ Máximo de 10 candidatos, descrição detalhada, resumo de Hanja, análise de Saju e os cinco elementos e PDF para download: ₩9,900.",
+            "No serviço de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em Hangul, pode ser oferecido um produto que revela todos os candidatos restantes de uma só vez, sem anúncios (pagamento nacional ₩990, pagamento internacional US$1.99). Antes da ativação da função de pagamento, apenas a visualização compensada por anúncios será disponibilizada.",
+            "Para usuários globais, os produtos digitais incluem ④ Relatório completo em PDF de nomes em Hangul (US$9.99): arte do nome em fonte recomendada, interpretação de significados e referência de Saju dos cinco elementos ⑤ Arte em PDF de conversão de pronúncia em Hangul (US$2.99): arte do nome em fonte escolhida e guia de pronúncia ⑥ Pacote de arte de nome em PDF (US$1.99): fornecido como arte em fontes escolhidas para um nome selecionado. Os preços de cada produto e o número de fontes aplicáveis seguem os valores informados na tela.",
+            "Os relatórios detalhados pagos e os resultados da análise, em arquivos PDF, podem ser visualizados e baixados novamente dentro de 24 horas após a conclusão do pagamento, e serão excluídos automaticamente após o período de armazenamento.",
+            "Os preços de pagamento nacional para produtos físicos, como carimbos de nome, são ₩39,000 / ₩59,000 / ₩79,000 e são fornecidos com condições específicas para cada produto.",
+            "Os preços de pagamento internacional para os mesmos produtos físicos são US$39.90 / US$59.90 / US$79.90, incluindo o custo de envio internacional.",
+            "Todos os produtos pagos exibem na tela o conteúdo do produto, preço, método de fornecimento e condições de reembolso antes do pagamento.",
           ],
         },
         {
@@ -152,40 +154,45 @@ const content: LegalLocaleContent = {
           ],
         },
         {
-          title: "2. Relatório Detalhado de Hanzi (₩2,900·₩4,900·₩9,900)",
+          title: "2. Relatório Detalhado de Hanja",
           paragraphs: [
-            "O cancelamento é possível antes do início da geração da análise detalhada pela IA após o pagamento. Após a conclusão da geração da análise e a possibilidade de visualização ou download, o reembolso por simples mudança de ideia pode ser restrito.",
-            "Em caso de erro de conteúdo, falha do sistema que resulte em falha na geração, ou discrepância no valor pago, será tratado como reemissão ou reembolso. O término do período de armazenamento (24 horas após o pagamento) que resulta na finalização do download não é considerado motivo para reembolso.",
+            "O preço de pagamento nacional para o Relatório Detalhado de Hanja é ₩2,900 / ₩4,900 / ₩9,900.",
+            "O cancelamento é possível antes do início da geração da análise detalhada após o pagamento. Após a conclusão da geração da análise, quando a visualização ou download estiver disponível, o reembolso por simples mudança de ideia pode ser restrito.",
+            "Em caso de erro de conteúdo, falha de sistema que resulte em falha na geração, ou discrepância no valor do pagamento, será tratado como reemissão ou reembolso. O término do período de armazenamento (24 horas após o pagamento) não é considerado motivo para reembolso.",
           ],
         },
         {
-          title: "3. Divulgação Total de Candidatos (₩990 no país · US$1.99 no exterior)",
+          title: "3. Divulgação Total de Candidatos",
           paragraphs: [
-            "A divulgação total de candidatos para o serviço de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em hangul é um conteúdo digital fornecido imediatamente após o pagamento. O cancelamento é possível antes do início da visualização dos candidatos, e após a visualização, o reembolso por simples mudança de ideia pode ser restrito.",
-            "Em caso de erro do sistema que impeça a divulgação normal dos candidatos, será tratado como reemissão ou reembolso.",
+            "O preço de pagamento nacional para a divulgação total de candidatos é ₩990.",
+            "O preço de pagamento internacional para o mesmo produto é US$1.99.",
+            "A divulgação total de candidatos para o serviço de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em Hangul é um conteúdo digital fornecido imediatamente após o pagamento. O cancelamento é possível antes do início da visualização dos candidatos, e após a visualização, o reembolso por arrependimento pode ser limitado.",
+            "Caso ocorra um erro no sistema e os candidatos não sejam divulgados corretamente, será oferecida uma nova divulgação ou reembolso.",
           ],
         },
         {
-          title: "4. Produto Digital PDF Global (US$9.99·US$2.99·US$1.99)",
+          title: "4. Produto Digital PDF Global",
           paragraphs: [
-            "O relatório abrangente de nomes em hangul (US$9.99), a arte de conversão fonética em hangul (US$2.99) e o pacote de arte de nomes (US$1.99) são conteúdos digitais gerados após o pagamento. O cancelamento é possível antes do início da geração do PDF, e após a conclusão da geração e a possibilidade de download, o reembolso por simples mudança de ideia pode ser restrito.",
-            "Em caso de falha na geração, erro de conteúdo ou discrepância no valor pago, será tratado como reemissão ou reembolso. O término do período de armazenamento (24 horas após o pagamento) que resulta na finalização do download não é considerado motivo para reembolso.",
+            "Relatório completo de nomes em Hangul (US$9.99), Arte de conversão de pronúncia em Hangul (US$2.99), Pacote de arte de nomes (US$1.99) são conteúdos digitais gerados após o pagamento. O cancelamento é possível antes do início da geração do PDF, e uma vez que a geração esteja concluída e o download disponível, reembolsos por simples mudança de ideia podem ser restritos.",
+            "Em caso de falha na geração, erro de conteúdo ou discrepância no valor do pagamento, será tratado como reemissão ou reembolso. O término do período de armazenamento (24 horas após o pagamento) não é considerado motivo para reembolso.",
           ],
         },
         {
-          title: "5. Produtos Personalizados (como carimbos de nome)",
+          title: "5. Produtos personalizados (carimbo de nome, etc.)",
           paragraphs: [
-            "Produtos personalizados (como carimbos de nome) (₩39,000 / ₩59,000 / ₩79,000 no país · US$39.90 / US$59.90 / US$79.90 no exterior, incluindo frete internacional) podem ser cancelados até o início da produção. Após o início da produção, como a frase de gravação é confirmada como personalizada, o reembolso por simples mudança de ideia pode ser restrito, e erros de digitação, danos, produção incorreta ou problemas de entrega serão tratados de forma adequada entre troca, reedição ou reembolso após verificação.",
+            "O preço de pagamento nacional para produtos personalizados, como carimbos de nome, é de ₩39,000 / ₩59,000 / ₩79,000.",
+            "O preço de pagamento internacional para os mesmos produtos é de US$39.90 / US$59.90 / US$79.90, incluindo o custo de envio internacional.",
+            "Produtos personalizados podem ser cancelados até o início da produção. Após o início da produção, como a frase gravada é confirmada como personalizada, o reembolso por mudança de ideia pode ser restrito, e erros de digitação, danos, produção incorreta ou problemas de entrega serão tratados de forma adequada por meio de troca, reedição ou reembolso após verificação.",
           ],
         },
         {
-          title: "5. Desbloqueio por Anúncios",
+          title: "6. Desbloqueio por Anúncios",
           paragraphs: [
             "Os benefícios de visualização de anúncios não são produtos pagos. Em caso de falha na rede de anúncios que resulte na não concessão de recompensas, será tratado como nova tentativa dentro do serviço ou consulta ao atendimento ao cliente.",
           ],
         },
         {
-          title: "6. Contato",
+          title: "7. Contato",
           paragraphs: [
             `Consultas sobre reembolso: ${companyInfo.email}`,
           ],
@@ -201,7 +208,7 @@ const content: LegalLocaleContent = {
         {
           title: "Análise Básica (Gratuita)",
           paragraphs: [
-            "A análise básica dos quatro serviços de correspondência de significados de caracteres chineses, conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em hangul é oferecida gratuitamente para não membros, podendo haver limitações na quantidade de uso diário. Os produtos pagos abaixo serão desbloqueados na ordem em que os métodos de pagamento estiverem prontos, e os produtos que ainda não podem ser pagos não serão exibidos na tela. Os valores indicados são os preços de referência no início das vendas.",
+            "A análise básica dos quatro serviços de correspondência de significados em Hanja, conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em Hangul é oferecida gratuitamente para não-membros, podendo haver limites de uso diário. Abaixo, apenas os produtos que podem ser pagos agora são exibidos com os valores, e os produtos que ainda não foram abertos não são mostrados.",
           ],
         },
         {
@@ -222,28 +229,31 @@ const content: LegalLocaleContent = {
         {
           title: "Divulgação Total de Candidatos",
           paragraphs: [
-            "Divulgação de todos os candidatos restantes nos serviços de conversão de nomes globais, conversão de nomes coreanos e transcrição fonética em hangul, sem anúncios, de uma só vez: pagamento nacional ₩990, pagamento internacional US$1.99 (função de pagamento em preparação)",
+            "Conversão de nomes globais, conversão de nomes coreanos, serviço de transcrição fonética em Hangul, divulgação total de todos os candidatos restantes sem anúncios (pagamento nacional): ₩990",
+            "Preço para pagamento no exterior do mesmo produto: US$1.99",
           ],
         },
         {
-          title: "Produto Digital Global em PDF",
+          title: "Produto Digital PDF Global",
           paragraphs: [
-            "Relatório abrangente em PDF de nomes em hangul (arte de nomes recomendados, interpretação de significados e referência de quatro pilares e cinco elementos): US$9.99",
-            "Arte em PDF de conversão fonética em hangul (arte de nome em fonte escolhida e guia de pronúncia): US$2.99",
-            "Pacote de arte de nome em PDF (arte de um nome escolhido em fontes selecionadas): US$1.99",
-            "Os preços e o número de fontes aplicáveis seguem os valores informados na tela, e o PDF pode ser baixado novamente por 24 horas após o pagamento, sendo automaticamente excluído após esse período. (função de pagamento em preparação)",
+            "Relatório Completo de Nomes em Hangul PDF (Arte e interpretação dos significados de todos os nomes recomendados, referência aos cinco elementos e ao destino): US$9.99",
+            "Arte de Conversão de Pronúncia em Hangul PDF (Arte do nome da fonte selecionada e guia de pronúncia): US$2.99",
+            "Pacote de Arte de Nomes PDF (Fornecido como arte em diferentes fontes para um nome selecionado): US$1.99",
+            "Os preços e o número de fontes aplicáveis seguem os valores informados na tela, e o PDF pode ser baixado novamente por 24 horas após o pagamento, sendo automaticamente excluído após esse período.",
           ],
         },
         {
-          title: "Produtos de Nome em Hangul",
+          title: "Produtos com Nomes em Hangul",
           paragraphs: [
-            "Carimbo de nome: ₩39,000 / ₩59,000 / ₩79,000 no país · US$39.90 / US$59.90 / US$79.90 no exterior (incluindo frete internacional). Outros produtos físicos têm preços, custos de envio e prazos de produção informados separadamente.",
+            "Nome do carimbo (pagamento nacional): ₩39,000 / ₩59,000 / ₩79,000",
+            "Nome do carimbo (pagamento internacional): US$39.90 / US$59.90 / US$79.90 (frete internacional incluído)",
+            "Outros produtos físicos terão preços, frete e prazos de produção informados separadamente.",
           ],
         },
         {
-          title: "Informações Antes do Pagamento Formal",
+          title: "Orientação sobre Valores",
           paragraphs: [
-            "Após a aprovação do PG, registro de comércio eletrônico e confirmação das condições de parceria de produção, o valor real do pagamento, custos de envio, prazo de produção e condições de reembolso serão novamente informados na tela do produto.",
+            "O valor do pagamento, o custo de envio, o prazo de produção e as condições de reembolso serão novamente informados na tela do produto antes do pagamento, e, caso haja discrepância entre os valores deste documento e os valores na tela do produto, o valor na tela do produto será o que prevalece.",
           ],
         },
       ],
