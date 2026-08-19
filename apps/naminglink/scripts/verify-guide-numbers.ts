@@ -26,7 +26,24 @@ import path from "node:path";
 
 import { koreanFamilyNameChoices } from "../src/lib/services";
 
-const GUIDE = path.join(process.cwd(), "src", "app", "guide");
+/**
+ * 안내 문서가 놓인 자리. **두 곳이다.**
+ *
+ * 2026-08-18 정적화에서 라우트 그룹이 갈렸다 — 한국어 갈래는 `(korean)/guide`, 로케일 갈래는
+ * `[locale]/guide`. 그때 이 검사기는 `src/app/guide` 하나만 보고 있었고, 그 디렉터리가
+ * 사라지면서 **`readdirSync`가 던져 다음 날까지 한 번도 돌지 못했다**(ENOENT).
+ *
+ * 같은 실패를 `verify-route-locales.mjs`도 겪었고 거기서는 「한 디렉터리를 적어 두지 않는다」로
+ * 고쳤다. 여기만 남아 있었다. **한 곳을 고칠 때 같은 병을 앓는 곳을 함께 셀 것.**
+ */
+const GUIDE_DIRS = [
+  path.join(process.cwd(), "src", "app", "(korean)", "guide"),
+  path.join(process.cwd(), "src", "app", "[locale]", "guide"),
+].filter(existsSync);
+if (GUIDE_DIRS.length === 0) {
+  console.error("안내 문서 디렉터리를 한 곳도 못 찾았다 — 경로가 또 바뀌었는지 볼 것.");
+  process.exit(1);
+}
 const PDF = path.join(process.cwd(), "src", "lib", "pdf");
 
 const problems: string[] = [];
@@ -66,8 +83,10 @@ function docContentProse(slug: string) {
 
 // ── 문서를 모은다 ──────────────────────────────────────────────────────────
 const docs: Array<{ slug: string; text: string }> = [];
-for (const slug of readdirSync(GUIDE)) {
-  const file = path.join(GUIDE, slug, "page.tsx");
+for (const [dir, slug] of GUIDE_DIRS.flatMap((dir) =>
+  readdirSync(dir).map((slug) => [dir, slug] as const),
+)) {
+  const file = path.join(dir, slug, "page.tsx");
   if (!existsSync(file)) continue;
 
   const moved = docContentProse(slug);

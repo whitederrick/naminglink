@@ -73,7 +73,17 @@ const pdfResponse = await fetch("http://localhost:3001/api/premium-reports/test/
 });
 const pdfBytes = new Uint8Array(await pdfResponse.arrayBuffer());
 await mkdir("tmp/pdfs", { recursive: true });
-await writeFile(`tmp/pdfs/premium-hanja-report-${productCode.toLowerCase()}.pdf`, pdfBytes);
+/**
+ * **파일 이름에 `-ko`를 남긴다** (2026-08-19).
+ *
+ * 이 리포트는 국내 상품이라 본문이 한국어다. 그런데 `audit-pdf-language.py`는 같은 폴더의
+ * PDF를 전수로 훑으며 **이름에 `-ko`가 없으면 비한국어 문서로 본다** — 그래서 이 파일이
+ * 「한국어가 남은 문서」로 잡혔다(한글 3,607개).
+ *
+ * 이 검사기는 dev 서버가 떠 있어야 돌기 때문에 오래 「못 돎」으로 조용했고, 서버를 띄운 날
+ * 처음 드러났다. **돌지 않는 검사기는 통과가 아니라 검사되지 않은 것이다.**
+ */
+await writeFile(`tmp/pdfs/premium-hanja-report-${productCode.toLowerCase()}-ko.pdf`, pdfBytes);
 
 console.log(JSON.stringify({
   freeHanja: free.data.result.candidates[0].hanja,
