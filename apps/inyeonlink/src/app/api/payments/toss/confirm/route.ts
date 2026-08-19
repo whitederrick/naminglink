@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { notifyOps } from "@/lib/ops-alert";
 import { getSupabaseAdminClient } from "@/lib/supabase";
-import { confirmTossPayment } from "@/lib/toss";
+import { confirmTossPayment, tossPaymentAllowed } from "@/lib/toss";
 
 // 토스 결제창이 돌아오는 자리. **여기서 승인해야 비로소 결제가 된다.**
 //
@@ -92,6 +92,21 @@ export async function GET(request: NextRequest) {
         lang: locale,
         payment: "paid",
         orderId,
+      });
+    }
+
+    /**
+     * **테스트 키로는 승인하지 않는다** (2026-08-19). 승인 API를 부르는 순간 결제가 완성되고
+     * 상품이 나간다 — 심사 기간에 테스트 키를 운영에 넣어 두면 아무나 돈 없이 받아 갈 수 있는
+     * 자리다. 허용 시각(`TOSS_ALLOW_TEST_KEY_UNTIL`)이 지나면 저절로 닫힌다 → `lib/toss.ts`
+     *
+     * 승인하지 않은 결제는 10분 뒤 만료되므로 돈도 상품도 움직이지 않는다.
+     */
+    if (!tossPaymentAllowed()) {
+      return backToResult(request, orderType, {
+        lang: locale,
+        payment: "failed",
+        code: "TOSS_TEST_KEY_BLOCKED",
       });
     }
 

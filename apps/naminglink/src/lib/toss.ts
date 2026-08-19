@@ -22,6 +22,44 @@ export const tossConfigured = Boolean(
   process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY && process.env.TOSS_SECRET_KEY,
 );
 
+/**
+ * **테스트 키로 결제를 완성해도 되는가.**
+ *
+ * ## 왜 필요한가 (2026-08-19)
+ *
+ * 계약심사는 「결제 가능한 실제 판매 상품」과 「결제창 연동」을 요구한다. 그래서 심사 기간에는
+ * **테스트 키를 운영에 넣는다** — 그러면 금액이 화면에 뜨고 결제창도 열린다.
+ *
+ * 그런데 토스에는 포트원의 `isTestChannelAllowed` 같은 장치가 **없었다.** 테스트 키가 운영에
+ * 들어간 상태에서는 **아무나 결제창을 통과해 돈 없이 유료 리포트를 받아 갈 수 있다** —
+ * 서버가 승인 API를 부르면 그것으로 결제가 완성되기 때문이다.
+ *
+ * ## 시각으로 닫는다
+ *
+ * 포트원 쪽 주석이 그 방식의 약점을 적어 두고 있다 — 「다크 런치 기간에만 한시로 끄려고 둔
+ * 값인데, **지우는 것을 잊으면 그대로 남는다**」. 그래서 여기서는 참/거짓이 아니라 **끝나는
+ * 시각**을 받는다. 사람이 지우지 않아도 그 시각이 지나면 저절로 닫힌다.
+ *
+ *     TOSS_ALLOW_TEST_KEY_UNTIL=2026-08-21T00:00:00Z
+ *
+ * **라이브 키에는 이 관문이 없는 것과 같다** — 값이 `test_`로 시작할 때만 본다.
+ *
+ * 막히면 승인 API를 **부르기 전에** 멈춘다. 승인하지 않은 결제는 10분 뒤 만료되므로 돈도
+ * 상품도 움직이지 않는다.
+ */
+export function isTossTestKey(env: Record<string, string | undefined> = process.env) {
+  return (env.TOSS_SECRET_KEY ?? "").startsWith("test_");
+}
+
+export function tossPaymentAllowed(
+  env: Record<string, string | undefined> = process.env,
+  now: number = Date.now(),
+) {
+  if (!isTossTestKey(env)) return true;
+  const until = Date.parse(env.TOSS_ALLOW_TEST_KEY_UNTIL ?? "");
+  return Number.isFinite(until) && now < until;
+}
+
 export function getTossClientKey() {
   return process.env.NEXT_PUBLIC_TOSS_CLIENT_KEY ?? null;
 }
