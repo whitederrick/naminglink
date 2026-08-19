@@ -65,7 +65,26 @@ export const KOREAN_ONLY_PATHS: string[] = [
  * 목록이 `serviceType === "GLOBAL_TO_KOREAN"`과 어긋나면 `verify-route-locales.mjs`가 잡는다 —
  * `services.ts`를 여기서 import 하지 않는 것은 이 파일이 **미들웨어에 실리기 때문**이다.
  */
-export const GLOBAL_ONLY_PATHS: string[] = ["/global-to-korean"];
+const GLOBAL_ONLY_SERVICE_PATHS = ["/global-to-korean"];
+
+/**
+ * **서비스가 아닌데 글로벌 전용인 화면.**
+ *
+ * 이름 도장은 한국에 도장을 만들 곳이 없는 외국인을 위한 굿즈다. 국내 판매 계획이 없다는 것이
+ * 사업 결정이고(2026-08-18, 토스페이먼츠 계약심사), 결제도 포트원 경유 페이팔뿐이다. 그런데
+ * 주소는 `/ko/stamp-order`가 200으로 열려 있었다 — **국내에서 파는 실물 상품이 있는 것으로
+ * 읽히는 자리**다.
+ *
+ * 서비스 갈래(`serviceType`)로는 이 결정을 담을 수 없다. 도장은 서비스가 아니라 굿즈라
+ * `services.ts`에 없다. 그래서 목록을 따로 두고, `verify-route-locales.mjs`가 **서비스 목록은
+ * `serviceType`과, 이 목록은 실재하는 라우트와** 각각 견준다.
+ */
+const GLOBAL_ONLY_GOODS_PATHS = ["/stamp-order"];
+
+export const GLOBAL_ONLY_PATHS: string[] = [
+  ...GLOBAL_ONLY_SERVICE_PATHS,
+  ...GLOBAL_ONLY_GOODS_PATHS,
+];
 
 /**
  * 그 경로가 한국어 전용인가.

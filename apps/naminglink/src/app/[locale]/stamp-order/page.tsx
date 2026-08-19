@@ -88,6 +88,14 @@ export async function generateMetadata({
 export default async function StampOrderPage({ params, searchParams }: StampOrderPageProps) {
   const locale = routeLocale((await params).locale);
   const query = await searchParams;
+  /**
+   * **ko는 여기까지 오지 않는다** (2026-08-19). 이 화면은 글로벌 전용이 되어 `/ko/stamp-order`가
+   * `/en/stamp-order`로 301 된다(`lib/route-locales.ts`의 `GLOBAL_ONLY_GOODS_PATHS`). 국내
+   * 판매를 하지 않기로 한 사업 결정이고, 토스페이먼츠에 「실물 배송 상품 없음」이라고 회신했다.
+   *
+   * 그래도 갈래를 지우지 않는다 — 판매를 재개하는 날 목록에서 경로 하나를 빼면 되돌아온다.
+   * 갈래를 지우면 그날 화면을 다시 만들어야 한다.
+   */
   const region: StampRegion = locale === "ko" ? "domestic" : "global";
   const initialName = String(query?.name ?? "").trim().slice(0, 8);
 

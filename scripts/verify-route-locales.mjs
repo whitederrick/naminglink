@@ -19,8 +19,16 @@
  * ## 무엇을 보는가
  *
  *   ① 형제 앱에 `route-locales.ts`가 없는가 · `track: "korean"`이 없는가
- *   ② naminglink의 `GLOBAL_ONLY_PATHS`가 `serviceType === "GLOBAL_TO_KOREAN"`과 맞는가
+ *   ② naminglink의 `GLOBAL_ONLY_SERVICE_PATHS`가 `serviceType === "GLOBAL_TO_KOREAN"`과 맞는가
  *   ③ naminglink의 한국어 전용 서비스 경로가 그 반대편과 맞는가
+ *   ④ 글로벌 전용 **굿즈** 경로가 실재하는 라우트이고, 서비스가 아닌가
+ *   ⑤ `GLOBAL_ONLY_PATHS`가 그 두 목록의 합일 뿐인가 — 손으로 끼워 넣은 경로가 없는가
+ *
+ * ④⑤가 생긴 이유 (2026-08-19): 이름 도장은 **글로벌 전용인데 서비스가 아니다.** 국내 판매를
+ * 하지 않기로 한 사업 결정이라 `/ko/stamp-order`가 열려 있으면 안 되는데, 도장은 굿즈라
+ * `services.ts`에 없어 ②의 기준으로는 담기지 않는다. 기준을 느슨하게 푸는 대신 **글로벌 전용의
+ * 정의를 서비스 갈래에서 경로 정책으로 넓혔다** — 서비스 목록은 여전히 `serviceType`과 1:1로
+ * 맞아야 하고, 굿즈 목록은 「라우트가 실재하는가」와 「서비스가 아닌가」를 따로 센다.
  *
  * ②·③이 필요한 이유: `route-locales.ts`는 **미들웨어에 실리므로** `services.ts`(1,100줄)를
  * import 하지 않는다. 그래서 목록을 그 파일 안에 적어 두었고, 적어 둔 것은 언젠가 어긋난다.
@@ -102,10 +110,11 @@ if (types.size === 0) {
 const globalSlugs = [...types].filter(([, t]) => t === "GLOBAL_TO_KOREAN").map(([s]) => s);
 const koreanSlugs = [...types].filter(([, t]) => t !== "GLOBAL_TO_KOREAN").map(([s]) => s);
 
-const globalPaths = listOf("GLOBAL_ONLY_PATHS");
+const globalPaths = listOf("GLOBAL_ONLY_SERVICE_PATHS");
+const goodsPaths = listOf("GLOBAL_ONLY_GOODS_PATHS");
 const koreanPaths = listOf("KOREAN_ONLY_SERVICE_PATHS");
 
-if (!globalPaths || !koreanPaths) {
+if (!globalPaths || !goodsPaths || !koreanPaths) {
   console.error("\nroute-locales.ts에서 경로 목록을 못 읽었다 — 이 결과를 믿지 말 것.");
   process.exit(1);
 }
@@ -145,11 +154,45 @@ const diff = (a, b) => [
 const globalDiff = diff(expectedGlobal, [...globalPaths].sort());
 const koreanDiff = diff(expectedKorean, [...koreanPaths].sort());
 
-console.log(`\n  ${OWNER} 글로벌 전용 ${globalPaths.join(" ")} ${globalDiff.length ? "X" : "O"}`);
+/**
+ * ④ 글로벌 전용 **굿즈** — 서비스가 아니므로 `serviceType`으로는 잴 수 없다.
+ *
+ * 대신 둘을 센다. 그 주소에 화면이 실제로 있는가(`routed`), 그리고 **서비스가 아닌가.**
+ * 서비스가 이 목록으로 새어 들어오면 ②의 1:1 대조를 우회하는 뒷문이 된다.
+ */
+const goodsProblems = goodsPaths.flatMap((entry) => {
+  const slug = entry.slice(1);
+  const lines = [];
+  if (!routed(slug)) lines.push(`${entry}에 해당하는 화면이 없다`);
+  if (types.has(slug)) lines.push(`${entry}는 서비스다 — GLOBAL_ONLY_SERVICE_PATHS로 옮길 것`);
+  return lines;
+});
+
+/**
+ * ⑤ 합집합이 그 둘뿐인가.
+ *
+ * `GLOBAL_ONLY_PATHS`에 문자열을 직접 적으면 ②④ 어느 검사도 그 경로를 보지 않는다. 그 배열이
+ * **펼침 둘로만** 이루어져 있음을 확인해 뒷문을 닫는다.
+ */
+const unionBody = /GLOBAL_ONLY_PATHS: string\[\] = \[([\s\S]*?)\]/.exec(routeSource)?.[1] ?? "";
+const unionOk =
+  unionBody.includes("...GLOBAL_ONLY_SERVICE_PATHS") &&
+  unionBody.includes("...GLOBAL_ONLY_GOODS_PATHS") &&
+  !unionBody.includes('"');
+
+console.log(`\n  ${OWNER} 글로벌 전용 서비스 ${globalPaths.join(" ")} ${globalDiff.length ? "X" : "O"}`);
+console.log(`  ${OWNER} 글로벌 전용 굿즈 ${goodsPaths.join(" ")} ${goodsProblems.length ? "X" : "O"}`);
 console.log(`  ${OWNER} 한국어 전용 ${koreanPaths.join(" ")} ${koreanDiff.length ? "X" : "O"}`);
+console.log(`  ${OWNER} GLOBAL_ONLY_PATHS = 서비스 + 굿즈 ${unionOk ? "O" : "X"}`);
 
 if (globalDiff.length) {
-  problems.push(`GLOBAL_ONLY_PATHS가 serviceType과 어긋난다: ${globalDiff.join(" ")}`);
+  problems.push(`GLOBAL_ONLY_SERVICE_PATHS가 serviceType과 어긋난다: ${globalDiff.join(" ")}`);
+}
+for (const line of goodsProblems) problems.push(`GLOBAL_ONLY_GOODS_PATHS: ${line}`);
+if (!unionOk) {
+  problems.push(
+    "GLOBAL_ONLY_PATHS가 두 목록의 합이 아니다 — 직접 적은 경로는 어느 검사도 보지 않는다.",
+  );
 }
 if (koreanDiff.length) {
   problems.push(`KOREAN_ONLY_SERVICE_PATHS가 serviceType과 어긋난다: ${koreanDiff.join(" ")}`);
@@ -160,9 +203,15 @@ if (koreanDiff.length) {
 // 판정이 살아 있는가. 어긋난 목록을 넣으면 잡아야 하고, 맞는 목록은 통과해야 한다.
 const controlCaught = diff(expectedGlobal, ["/nonexistent-service"]).length > 0;
 const controlPasses = diff(expectedGlobal, [...expectedGlobal]).length === 0;
-if (!controlCaught || !controlPasses || expectedGlobal.length === 0) {
+/**
+ * 굿즈 쪽 판정도 살아 있는가. **둘 다 센다** — 없는 화면을 「있다」고 하지 않는지, 서비스를
+ * 서비스로 알아보는지. 한쪽만 보면 판정이 죽어도 초록이 나온다.
+ */
+const goodsControlCaught =
+  !routed("nonexistent-goods") && types.has(expectedGlobal[0]?.slice(1) ?? "");
+if (!controlCaught || !controlPasses || expectedGlobal.length === 0 || !goodsControlCaught) {
   console.error(
-    `\n✗ 대조군 실패 — 어긋남 감지 ${controlCaught} · 일치 통과 ${controlPasses} · 읽은 글로벌 서비스 ${expectedGlobal.length}개`,
+    `\n✗ 대조군 실패 — 어긋남 감지 ${controlCaught} · 일치 통과 ${controlPasses} · 굿즈 판정 ${goodsControlCaught} · 읽은 글로벌 서비스 ${expectedGlobal.length}개`,
   );
   process.exit(1);
 }
