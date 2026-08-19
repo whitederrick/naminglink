@@ -11,7 +11,6 @@ import { SelfAdCard } from "@/components/SelfAdCard";
 import { requestUnlockTicket } from "@/lib/candidate-seal";
 import { adsAllowedForLocale } from "@/lib/ads";
 import { showRewardedAd } from "@/lib/gam-rewarded";
-import { useSelfGateNeeded } from "@/lib/offerwall";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -419,6 +418,27 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
   },
 };
 
+/**
+ * 관문 문구를 고르는 규칙.
+ *
+ * **결과 진입 관문(`ResultEntryGate`)도 같은 표를 쓴다.** 두 자리는 같은 대가를 치르는
+ * 자리라(광고를 보고 후보를 연다) 문구가 갈리면 이용자가 서로 다른 약속을 읽는다. 표를
+ * 베껴 적으면 한쪽만 고쳐지는 날이 온다.
+ *
+ * 외국인 대상 서비스에서만 로케일 문구를 쓰고, 한국어 대상 서비스는 항상 ko다.
+ */
+export function isForeignAudience(locale: string | undefined, serviceType: string | undefined) {
+  return serviceType === "GLOBAL_TO_KOREAN" && !!locale && locale !== "ko";
+}
+
+export function unlockCopyFor(locale: string | undefined, serviceType: string | undefined) {
+  return isForeignAudience(locale, serviceType)
+    ? isLocaleCode(locale)
+      ? unlockCopies[locale]
+      : unlockCopies.en
+    : unlockCopies.ko;
+}
+
 type UnlockCheckout = {
   // 국내는 토스페이먼츠 직접, 해외는 포트원 경유 페이팔. 서버가 어느 쪽인지 정해서 내려준다.
   // 국내=토스 직접, 해외=포트원 페이팔. 그 밖의 결제사는 없다(2026-07-29 일원화).
@@ -486,12 +506,8 @@ export function CandidateUnlockPanel({
     await onUnlockAll?.(order);
   };
   const remainingCount = Math.max(0, totalCount - revealedCount);
-  const isForeign = serviceType === "GLOBAL_TO_KOREAN" && locale && locale !== "ko";
-  const copy = isForeign
-    ? isLocaleCode(locale)
-      ? unlockCopies[locale]
-      : unlockCopies.en
-    : unlockCopies.ko;
+  const isForeign = isForeignAudience(locale, serviceType);
+  const copy = unlockCopyFor(locale, serviceType);
   // 마운트 시 이전 결제 해금 상태를 복원한다(새로고침·재방문 대응).
   // 실패 문구를 쓰므로 `copy` 뒤에 둔다.
   const unlockRestored = useRef(false);
@@ -525,14 +541,6 @@ export function CandidateUnlockPanel({
   // 예전에는 여기서 `NEXT_PUBLIC_*` 키만 보고 판단하고 가격은 문구에 박아 두었다. 그래서 상품을
   // 내려도 화면에는 "990원"이 그대로 보였고, **결제 키가 생기는 순간 판매 중지 상품의 버튼이
   // 활성화돼** 눌러야 주문 라우트가 503을 돌려줬다.
-  /**
-   * 오퍼월이 도는 방문인가. 판정 중에는 `null`이다 → `lib/offerwall.ts`
-   *
-   * **첫 후보 하나에만 쓴다.** 오퍼월은 결과 화면을 덮고 통과해야 걷히므로, 그 방문에서는
-   * 이미 대가를 받은 셈이다. 그 자리에 관문을 또 세우면 한 번의 이용에 관문이 둘이 된다.
-   */
-  const selfGateNeeded = useSelfGateNeeded();
-
   const [unlockPrice, setUnlockPrice] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
@@ -786,21 +794,17 @@ export function CandidateUnlockPanel({
     setUnlockError("");
     setLoading(true);
     /**
-     * **오퍼월은 첫 후보 하나만 연다** (2026-08-19).
+     * **여기서 오퍼월을 봐 주지 않는다** (2026-08-19).
      *
-     * 관문이 입력 화면에서 결과 화면으로 옮겨졌다. 오퍼월은 결과 화면을 덮고 통과해야
-     * 걷히므로, 그 방문에서는 **첫 후보의 대가를 이미 받은 것**이다. 그 자리에 관문을 또
-     * 세우면 한 번의 이용에 관문이 둘이 된다.
+     * 오퍼월은 **결과 화면에 들어올 때 한 번** 치르는 대가이고, 그 대가로 열리는 것은 무료
+     * 후보 하나다(`ResultEntryGate`). 이 자리는 그 다음 후보를 여는 자리라 대가가 따로 있어야
+     * 한다 — "광고 하나에 후보 하나".
      *
-     * **둘째부터는 예외 없이 광고를 요구한다.** 예전에 `selfGateNeeded`를 이 함수 전체에
-     * 적용했다가 「오퍼월 한 번에 후보 전부가 열리는」 상태가 됐다 — 광고 하나에 결과 전체가
-     * 나가므로 "1광고 1결과"가 성립하지 않는다. 그래서 `revealedCount === 0`으로 **첫 자리에만**
-     * 묶는다.
-     *
-     * 표(`takeTicket`)와 서버가 잰 기다림은 이 경우에도 그대로 지킨다 — 여는 판정은 서버에
-     * 있고, 화면이 그 규칙을 건너뛰게 두지 않는다.
+     * 예전에 이 자리에 `selfGateNeeded === false && revealedCount === 0`이라는 면제를 두었는데
+     * 두 가지가 틀렸다. **첫째, 한 번도 참이 되지 않았다** — 무료 후보가 하나 열려 있으므로
+     * `revealedCount`의 시작값은 0이 아니라 1이다. **둘째, 참이 됐더라도 틀렸다** — 진입
+     * 관문이 생긴 지금 그 면제는 오퍼월 하나로 후보 둘을 여는 셈이 된다.
      */
-    const coveredByOfferwall = selfGateNeeded === false && revealedCount === 0;
     trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
 
     try {
@@ -845,11 +849,9 @@ export function CandidateUnlockPanel({
        * **버튼이 죽지는 않는다.** `unavailable`과 같은 길로 떨어져 자체 게이트 + 셀프 광고가
        * 그대로 돈다 — 광고가 없다고 후보 열기가 막히면 안 된다는 기존 설계 그대로다.
        */
-      const outcome = coveredByOfferwall
-        ? "granted"
-        : adsAllowedForLocale(locale ?? "")
-          ? await showRewardedAd()
-          : "unavailable";
+      const outcome = adsAllowedForLocale(locale ?? "")
+        ? await showRewardedAd()
+        : "unavailable";
       if (outcome === "dismissed") return;
 
       /**

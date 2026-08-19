@@ -9,6 +9,7 @@ import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { GlobalNamePremiumPanel } from "@/components/GlobalNamePremiumPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
+import { ResultEntryGate } from "@/components/ResultEntryGate";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { services, type Locale } from "@/lib/services";
@@ -114,6 +115,11 @@ export function KoreanNameResultPage({
 
   return (
     <main className="min-h-screen">
+      {/* **결과가 실제로 있을 때만 관문을 세운다.** 복원에 실패한 화면에서 관문이 돌면 발행한
+          콘텐츠가 하나도 없는 자리에서 광고를 보게 하는 셈이 된다(머리글 배너와 같은 조건). */}
+      {ready && stored ? (
+        <ResultEntryGate locale={locale} serviceType={service.serviceType} />
+      ) : null}
       <section className="mx-auto grid w-full max-w-5xl gap-6 px-5 py-6 sm:px-8 lg:px-10">
         <header className="grid gap-3 border-b border-line pb-5 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-center">
           <div className="order-2 flex flex-wrap gap-2 lg:order-1">

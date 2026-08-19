@@ -1012,9 +1012,13 @@ export function NamingForm({
               하나도 나가지 않으므로 "광고 확인 후 분석 시작"은 있지도 않은 절차를 요구하는
               문구가 된다. 판정은 `lib/ads.ts`의 `adGatesEnabled` 한 곳이고, 관문·대기·문구가
               **같은 값**으로 함께 켜지고 꺼진다. */}
-          {/* 관문이 결과 화면으로 옮겨져 이 단추는 광고를 말하지 않는다. 문구는 심사 모드용으로
-              이미 23로케일에 있던 것을 쓴다. */}
-          {isHangulTransliteration ? plainSubmit.transliteration : plainSubmit.default}
+          {adGatesEnabled
+            ? isHangulTransliteration
+              ? t.submitTransliteration
+              : t.submitDefault
+            : isHangulTransliteration
+              ? plainSubmit.transliteration
+              : plainSubmit.default}
         </button>
 
         {error ? (
