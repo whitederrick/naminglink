@@ -24,6 +24,8 @@ import { createRequire } from "node:module";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
+import { APP_KEYS } from "@naminglink/core/apps";
+
 // 네 `toss.ts`는 `server-only`를 들여온다. 이 검사는 서버 모듈을 서버 밖에서 부르는 것이
 // 목적이므로 그 가드만 비운다 — 가드는 코드에 그대로 남아 클라이언트 임포트를 막는다.
 const nodeRequire = createRequire(import.meta.url);
@@ -31,7 +33,12 @@ nodeRequire.cache[nodeRequire.resolve("server-only")] = {
   exports: {},
 } as unknown as NodeModule;
 
-const APPS = ["naminglink", "inyeonlink", "sajulink", "dreamslink"] as const;
+/**
+ * **앱 목록을 손으로 적지 않는다.** 빠진 앱은 통과가 아니라 **검사받지 않은 것**인데 화면에는
+ * ALL PASS가 찍힌다 — `scripts/app-keys.mjs` 첫머리가 그 병을 여덟 곳에서 겪은 기록을 갖고
+ * 있다. 실제로 이 파일이 처음엔 목록을 적고 있었고 `verify-app-coverage`가 잡았다.
+ */
+const APPS = APP_KEYS;
 const ROOT = path.resolve(process.cwd(), "..", "..");
 
 let failures = 0;

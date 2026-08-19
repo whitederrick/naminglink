@@ -1,8 +1,11 @@
 import "server-only";
 
+import { unstable_cache } from "next/cache";
+
 import { CANDIDATE_UNLOCK_PRODUCTS } from "@/lib/unlock-products";
 import { HANJA_PRODUCT_CODES } from "@/lib/hanja-products";
 import { STAMP_MODEL_CODES, STAMP_REGIONS, stampSettingCode } from "@/lib/goods-products";
+import { PRODUCT_SETTINGS_TAG } from "@/lib/product-settings";
 import { getPurchaseDisplay } from "@/lib/purchase";
 import type { PolicyDocumentContent } from "@/lib/site-content";
 
@@ -73,7 +76,7 @@ const AMOUNT = "[0-9]{1,3}(?:,[0-9]{3})*";
 const TOKEN = new RegExp(`₩${AMOUNT}|US\\$[0-9]+\\.[0-9]{2}|${AMOUNT}원`, "g");
 
 /** 지금 살 수 있는 상품의 금액 표기. 한국어 꼴(`2,900원`)과 나머지 꼴(`₩2,900`)을 함께 넣는다. */
-export async function sellablePriceTokens(): Promise<Set<string>> {
+async function readSellablePriceTokens(): Promise<Set<string>> {
   const tokens = new Set<string>();
   await Promise.all(
     pricedProductCodes().map(async (code) => {
@@ -86,6 +89,31 @@ export async function sellablePriceTokens(): Promise<Set<string>> {
     }),
   );
   return tokens;
+}
+
+/**
+ * **미리 만들어 둔 화면이 옛 판매 상태를 물고 굳지 않게 한다** (2026-08-19).
+ *
+ * 이 값을 읽는 세 화면(`/pricing`·`/terms`·`/refund-policy`)은 정적으로 만들어진다. 그래서
+ * 태그가 없으면 **상품을 켜도 그 화면만 계속 「금액 없음」을 내민다** — 실제로 그랬다. 계약심사
+ * 자료가 가리키는 주소가 바로 그 셋이라, 메일의 금액표와 화면이 어긋난 채로 남을 뻔했다.
+ *
+ * 같은 병을 안내 문서가 2026-08-18에 겪었고 `lib/doc-values.ts`가 이 태그로 고쳤다. **그때
+ * 태그를 한 곳에만 달았다** — 값을 읽는 자리는 둘이었는데.
+ *
+ * 운영자가 상품을 저장하면 `api/admin/products`가 이 태그를 무효화해 세 화면이 다시 만들어진다.
+ * `revalidate` 상한을 함께 걸어, 태그를 못 받는 경로(직접 DB 수정 등)에서도 한 시간 안에 맞는다.
+ *
+ * **`Set`은 캐시에 담기지 않는다** — `unstable_cache`가 JSON으로 굳히므로 배열로 오간다.
+ */
+const cachedSellablePrices = unstable_cache(
+  async () => [...(await readSellablePriceTokens())],
+  ["sellable-price-tokens"],
+  { tags: [PRODUCT_SETTINGS_TAG], revalidate: 3600 },
+);
+
+export async function sellablePriceTokens(): Promise<Set<string>> {
+  return new Set(await cachedSellablePrices());
 }
 
 /**
