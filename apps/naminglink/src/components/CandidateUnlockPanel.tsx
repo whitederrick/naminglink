@@ -896,7 +896,17 @@ export function CandidateUnlockPanel({
         />
       ) : null}
 
-      <div className="mt-5 grid gap-3 sm:grid-cols-2">
+      {/**
+        * **칸 수는 실제로 그려지는 단추 수를 따른다** (2026-08-19).
+        *
+        * 두 칸으로 고정해 두면 한자 흐름처럼 단추가 하나만 남는 화면에서 **절반 너비로 서서**
+        * 옆이 비어 보인다. 「전체 후보 상품 보기」를 걷어내면서 드러난 자리다.
+        */}
+      <div
+        className={`mt-5 grid gap-3 ${
+          serviceType === "HANJA_MEANING_MATCH" ? "" : "sm:grid-cols-2"
+        }`}
+      >
         <button
           type="button"
           onClick={unlockWithAd}
