@@ -208,7 +208,9 @@ export default async function Home({ params }: HomeProps) {
       name: asShown(footer.companyName),
       alternateName: footer.serviceName,
       url: siteUrl,
-      logo: absoluteUrl("/images/logo-current.png"),
+      // 검색 결과가 쓰는 로고. **큰 원본을 준다** — PDF 표지는 64pt로 그려 256이면 되지만
+      // 여기는 구글이 그대로 내걸 수 있어 해상도가 필요하다. 2026-08-19에 옛 로고에서 옮겼다.
+      logo: absoluteUrl("/images/naminglink-circle-logo.png"),
       email: footer.email,
       telephone: footer.customerCenter,
       address: {

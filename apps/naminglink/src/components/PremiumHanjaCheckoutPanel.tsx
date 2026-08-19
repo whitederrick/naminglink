@@ -124,12 +124,21 @@ function suggestedHour(value: unknown) {
 export function PremiumHanjaCheckoutPanel({
   inputFactors,
   result,
+  locale,
   paymentConfigured,
   premiumTestMode,
   onPremiumReady,
 }: {
   inputFactors?: Record<string, unknown>;
   result: unknown;
+  /**
+   * 상품 정보 고시·청약철회 문구가 쓸 언어 (2026-08-19).
+   *
+   * **이 값을 안 넘기면 고시가 영어로 나간다.** `CheckoutConsent`는 `locale`이 없으면 영문으로
+   * 떨어지는데, 이 패널만 넘기지 않고 있었다 — 같은 화면의 후보 패널은 한국어인데 결제 고시만
+   * 영어인 상태였다. 전자상거래법이 요구하는 고시라 언어가 어긋나면 안 된다.
+   */
+  locale: string;
   paymentConfigured: boolean;
   premiumTestMode: boolean;
   /**
@@ -629,6 +638,7 @@ export function PremiumHanjaCheckoutPanel({
       {stage !== "ready" && purchasable ? (
         <CheckoutConsent
           kind="DIGITAL"
+          locale={locale}
           checked={consented}
           onChange={setConsented}
           className="mt-5"

@@ -4,6 +4,8 @@ import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
 import * as PortOne from "@portone/browser-sdk/v2";
 import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { CreditCard, Eye, Unlock } from "lucide-react";
+
+import { HANJA_PRODUCTS } from "@/lib/hanja-products";
 import { useEffect, useRef, useState } from "react";
 import { SelfAdCard } from "@/components/SelfAdCard";
 import { requestUnlockTicket } from "@/lib/candidate-seal";
@@ -22,7 +24,6 @@ type UnlockCopy = {
   watchingNote: (seconds: number) => string;
   watching: string;
   watchButton: string;
-  hanjaProductsLink: string;
   /** 살 수 없을 때의 버튼 라벨. **가격이 들어가면 안 된다** — 팔지 않는 값을 노출하게 된다. */
   bulkPreparing: string;
   /** 살 수 있을 때의 버튼 라벨. `{price}`는 DB에서 온 표시 가격으로 바뀐다. */
@@ -41,8 +42,15 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
   ko: {
     title: "추가 후보 열기",
     status: (revealed, locked) => `현재 ${revealed}개 공개 · ${locked}개 잠금`,
-    descHanja:
-      "광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 전체 결제 시에는 모든 후보와 한자 종합 상세를 광고 없이 확인할 수 있도록 준비 중입니다.",
+    /**
+     * **상품 이름을 손으로 적지 않는다.** 이름은 `HANJA_PRODUCTS`가 갖고 있고 결제 패널이
+     * 그리는 이름과 같은 값이다 — 베껴 적으면 상품명을 고치는 날 이 문장만 옛 이름으로 남는다.
+     *
+     * **판매 여부도 적지 않는다.** 예전 문장은 「…확인할 수 있도록 준비 중입니다」였는데 상품을
+     * 켠 날 그대로 거짓이 됐다. 살 수 있는지는 위 결제 패널이 스스로 말한다 — 같은 날 약관·요금
+     * 문서에서 `(결제 기능 준비 중)`을 걷어낸 것과 같은 원칙이다.
+     */
+    descHanja: `광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 위의 유료 상품(${HANJA_PRODUCTS.FIVE_DETAIL.name} · ${HANJA_PRODUCTS.TEN_DETAIL.name} · ${HANJA_PRODUCTS.TEN_SAJU_PDF.name})을 결제하시면 전체 후보를 광고 없이 확인할 수 있습니다.`,
     descDefault:
       "광고를 한 번 확인할 때마다 서로 다른 추천 관점의 다음 후보 1개가 열립니다. 990원 결제로 남은 후보 전체를 광고 없이 한 번에 공개하는 기능을 준비 중입니다.",
     watchingNote: (seconds) => `광고 확인 후 후보 1개를 엽니다. ${seconds}초`,
@@ -50,7 +58,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchButton: "광고 보고 다음 후보 열기",
     // 금액을 적지 않는다. 이 링크가 가리키는 상품표는 DB 가격을 그리고 판매 중이 아니면
     // "판매 준비 중"으로 바뀌는데, 여기에 "2,900원부터"가 박혀 있으면 그와 어긋난다.
-    hanjaProductsLink: "전체 후보 상품 보기",
     bulkPreparing: "결제 기능 준비 중입니다.",
     bulkButtonReady: "전체 후보 일괄 공개 · {price}",
     bulkPaying: "결제 진행 중…",
@@ -67,7 +74,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Sẽ mở một ứng viên sau quảng cáo. ${seconds} giây`,
     watching: "Đang xem quảng cáo",
     watchButton: "Xem quảng cáo để mở ứng viên tiếp theo",
-    hanjaProductsLink: "Xem gói toàn bộ ứng viên · từ ₩2.900",
     bulkPreparing: "Tính năng thanh toán sắp ra mắt.",
     bulkButtonReady: "Mở toàn bộ ứng viên · {price}",
     bulkPaying: "Đang xử lý thanh toán…",
@@ -84,7 +90,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `จะเปิดชื่อที่แนะนำ 1 รายการหลังชมโฆษณา ${seconds} วินาที`,
     watching: "กำลังชมโฆษณา",
     watchButton: "ชมโฆษณาเพื่อเปิดชื่อที่แนะนำถัดไป",
-    hanjaProductsLink: "ดูแพ็กเกจชื่อที่แนะนำทั้งหมด · เริ่มต้น ₩2,900",
     bulkPreparing: "ฟีเจอร์การชำระเงินกำลังจะเปิดเร็ว ๆ นี้",
     bulkButtonReady: "เปิดชื่อที่แนะนำทั้งหมดในครั้งเดียว · {price}",
     bulkPaying: "กำลังดำเนินการชำระเงิน…",
@@ -101,7 +106,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `広告の確認後に候補を1件開きます。${seconds}秒`,
     watching: "広告を確認中",
     watchButton: "広告を見て次の候補を開く",
-    hanjaProductsLink: "全候補の商品を見る · ₩2,900から",
     bulkPreparing: "決済機能は準備中です。",
     bulkButtonReady: "全候補を一括公開 · {price}",
     bulkPaying: "決済処理中…",
@@ -118,7 +122,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `观看广告后将解锁 1 个候选名字。${seconds} 秒`,
     watching: "正在观看广告",
     watchButton: "观看广告解锁下一个候选名字",
-    hanjaProductsLink: "查看全部候选产品 · ₩2,900 起",
     bulkPreparing: "支付功能即将上线。",
     bulkButtonReady: "一次性解锁全部候选名字 · {price}",
     bulkPaying: "正在处理付款…",
@@ -135,7 +138,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Satu kandidat terbuka setelah iklan. ${seconds} detik`,
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka kandidat berikutnya",
-    hanjaProductsLink: "Lihat produk seluruh kandidat · mulai ₩2,900",
     bulkPreparing: "Fitur pembayaran segera hadir.",
     bulkButtonReady: "Buka seluruh kandidat sekaligus · {price}",
     bulkPaying: "Memproses pembayaran…",
@@ -152,7 +154,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Nach der Werbung wird ein Kandidat freigeschaltet. ${seconds} Sek.`,
     watching: "Werbung läuft",
     watchButton: "Werbung ansehen und nächsten Kandidaten freischalten",
-    hanjaProductsLink: "Alle Kandidaten-Produkte ansehen · ab ₩2,900",
     bulkPreparing: "Die Zahlungsfunktion ist in Vorbereitung.",
     bulkButtonReady: "Alle Kandidaten freischalten · {price}",
     bulkPaying: "Zahlung wird verarbeitet…",
@@ -169,7 +170,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Se desbloqueará un candidato tras el anuncio. ${seconds} s`,
     watching: "Viendo el anuncio",
     watchButton: "Ver un anuncio para desbloquear el siguiente candidato",
-    hanjaProductsLink: "Ver productos con todos los candidatos · desde ₩2,900",
     bulkPreparing: "El pago estará disponible próximamente.",
     bulkButtonReady: "Desbloquear todos los candidatos · {price}",
     bulkPaying: "Procesando el pago…",
@@ -186,7 +186,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Un candidat sera dévoilé après la publicité. ${seconds} s`,
     watching: "Publicité en cours",
     watchButton: "Regarder une publicité pour dévoiler le candidat suivant",
-    hanjaProductsLink: "Voir les offres tous candidats · à partir de ₩2,900",
     bulkPreparing: "Le paiement sera bientôt disponible.",
     bulkButtonReady: "Débloquer tous les candidats · {price}",
     bulkPaying: "Paiement en cours…",
@@ -203,7 +202,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Un candidato verrà sbloccato dopo l'annuncio. ${seconds} s`,
     watching: "Annuncio in corso",
     watchButton: "Guarda un annuncio per sbloccare il prossimo candidato",
-    hanjaProductsLink: "Vedi i prodotti con tutti i candidati · da ₩2,900",
     bulkPreparing: "Il pagamento sarà presto disponibile.",
     bulkButtonReady: "Sblocca tutti i candidati · {price}",
     bulkPaying: "Pagamento in corso…",
@@ -220,7 +218,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Um candidato será revelado após o anúncio. ${seconds} s`,
     watching: "Assistindo ao anúncio",
     watchButton: "Assistir a um anúncio para revelar o próximo candidato",
-    hanjaProductsLink: "Ver produtos com todos os candidatos · a partir de ₩2,900",
     bulkPreparing: "O pagamento estará disponível em breve.",
     bulkButtonReady: "Desbloquear todos os candidatos · {price}",
     bulkPaying: "Processando o pagamento…",
@@ -237,7 +234,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `После рекламы откроется один вариант. ${seconds} с`,
     watching: "Просмотр рекламы",
     watchButton: "Посмотреть рекламу и открыть следующий вариант",
-    hanjaProductsLink: "Смотреть продукты со всеми вариантами · от ₩2,900",
     bulkPreparing: "Оплата скоро появится.",
     bulkButtonReady: "Открыть все варианты · {price}",
     bulkPaying: "Обработка платежа…",
@@ -254,7 +250,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `سيُكشف مرشح واحد بعد الإعلان. ${seconds} ثانية`,
     watching: "جارٍ مشاهدة الإعلان",
     watchButton: "شاهد إعلانًا لكشف المرشح التالي",
-    hanjaProductsLink: "عرض منتجات جميع المرشحات · ابتداءً من ₩2,900",
     bulkPreparing: "الدفع متاح قريبًا.",
     bulkButtonReady: "فتح جميع المرشحات · {price}",
     bulkPaying: "جارٍ معالجة الدفع…",
@@ -271,7 +266,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Reklamdan sonra bir aday açılacak. ${seconds} sn`,
     watching: "Reklam izleniyor",
     watchButton: "Bir sonraki adayı açmak için reklam izleyin",
-    hanjaProductsLink: "Tüm aday ürünlerini gör · ₩2,900'dan itibaren",
     bulkPreparing: "Ödeme yakında kullanılabilir olacak.",
     bulkButtonReady: "Tüm adayları aç · {price}",
     bulkPaying: "Ödeme işleniyor…",
@@ -288,7 +282,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Magbubukas ng isang kandidato pagkatapos ng ad. ${seconds} segundo`,
     watching: "Nanonood ng ad",
     watchButton: "Manood ng ad para buksan ang susunod na kandidato",
-    hanjaProductsLink: "Tingnan ang mga produkto ng buong kandidato · mula ₩2,900",
     bulkPreparing: "Malapit nang magbukas ang pagbabayad.",
     bulkButtonReady: "Buksan ang lahat ng kandidato · {price}",
     bulkPaying: "Pinoproseso ang bayad…",
@@ -305,7 +298,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Reklamadan so‘ng bitta nomzod ochiladi. ${seconds} soniya`,
     watching: "Reklama ko‘rilmoqda",
     watchButton: "Navbatdagi nomzodni ochish uchun reklama ko‘ring",
-    hanjaProductsLink: "Barcha nomzodli mahsulotlarni ko‘rish · ₩2,900 dan",
     bulkPreparing: "To‘lov tez orada ishga tushadi.",
     bulkButtonReady: "Barcha nomzodlarni ochish · {price}",
     bulkPaying: "To‘lov amalga oshirilmoqda…",
@@ -322,7 +314,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Зар үзсэний дараа нэг хувилбар нээгдэнэ. ${seconds} секунд`,
     watching: "Зар үзэж байна",
     watchButton: "Зар үзээд дараагийн хувилбарыг нээх",
-    hanjaProductsLink: "Бүх хувилбарын бүтээгдэхүүнийг үзэх · ₩2,900-с эхэлнэ",
     bulkPreparing: "Төлбөрийн функц тун удахгүй нээгдэнэ.",
     bulkButtonReady: "Бүх хувилбарыг нэг дор нээх · {price}",
     bulkPaying: "Төлбөр боловсруулж байна…",
@@ -339,7 +330,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `विज्ञापन के बाद एक उम्मीदवार नाम खुलेगा। ${seconds} सेकंड`,
     watching: "विज्ञापन देखा जा रहा है",
     watchButton: "अगला उम्मीदवार नाम खोलने के लिए विज्ञापन देखें",
-    hanjaProductsLink: "सभी उम्मीदवार नामों के प्रोडक्ट देखें · ₩2,900 से",
     bulkPreparing: "भुगतान सुविधा जल्द आ रही है।",
     bulkButtonReady: "सभी उम्मीदवार नाम अनलॉक करें · {price}",
     bulkPaying: "भुगतान प्रोसेस हो रहा है…",
@@ -356,7 +346,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `បេក្ខឈ្មោះមួយនឹងបើកបន្ទាប់ពីពាណិជ្ជកម្ម។ ${seconds} វិនាទី`,
     watching: "កំពុងមើលពាណិជ្ជកម្ម",
     watchButton: "មើលពាណិជ្ជកម្មដើម្បីបើកបេក្ខឈ្មោះបន្ទាប់",
-    hanjaProductsLink: "មើលផលិតផលបេក្ខឈ្មោះទាំងអស់ · ចាប់ពី ₩2,900",
     bulkPreparing: "មុខងារទូទាត់នឹងមកដល់ឆាប់ៗនេះ។",
     bulkButtonReady: "បើកបេក្ខឈ្មោះទាំងអស់ · {price}",
     bulkPaying: "កំពុងដំណើរការទូទាត់…",
@@ -373,7 +362,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Жарнамадан кейін бір нұсқа ашылады. ${seconds} секунд`,
     watching: "Жарнама көрсетілуде",
     watchButton: "Келесі нұсқаны ашу үшін жарнама көріңіз",
-    hanjaProductsLink: "Барлық нұсқа қамтылған өнімдерді көру · ₩2,900-ден бастап",
     bulkPreparing: "Төлем мүмкіндігі жақында қосылады.",
     bulkButtonReady: "Барлық нұсқаны бірден ашу · {price}",
     bulkPaying: "Төлем өңделуде…",
@@ -390,7 +378,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Satu calon akan dibuka selepas iklan. ${seconds} saat`,
     watching: "Menonton iklan",
     watchButton: "Tonton iklan untuk membuka calon seterusnya",
-    hanjaProductsLink: "Lihat produk semua calon · dari ₩2,900",
     bulkPreparing: "Fungsi pembayaran akan datang tidak lama lagi.",
     bulkButtonReady: "Buka semua calon sekali gus · {price}",
     bulkPaying: "Memproses pembayaran…",
@@ -407,7 +394,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Po reklamie odblokujemy jednego kandydata. ${seconds} s`,
     watching: "Trwa reklama",
     watchButton: "Obejrzyj reklamę, aby odblokować kolejnego kandydata",
-    hanjaProductsLink: "Zobacz produkty ze wszystkimi kandydatami · od ₩2,900",
     bulkPreparing: "Płatności będą dostępne wkrótce.",
     bulkButtonReady: "Odblokuj wszystkich kandydatów · {price}",
     bulkPaying: "Przetwarzanie płatności…",
@@ -424,7 +410,6 @@ const unlockCopies: Record<LocaleCode, UnlockCopy> = {
     watchingNote: (seconds) => `Revealing one candidate after the ad. ${seconds}s`,
     watching: "Watching ad",
     watchButton: "Watch an ad to reveal the next candidate",
-    hanjaProductsLink: "View full candidate products · from ₩2,900",
     bulkPreparing: "Payment is coming soon.",
     bulkButtonReady: "Unlock all candidates · {price}",
     bulkPaying: "Processing payment…",
@@ -925,15 +910,19 @@ export function CandidateUnlockPanel({
           <Eye aria-hidden="true" size={17} />
           {loading ? copy.watching : copy.watchButton}
         </button>
-        {serviceType === "HANJA_MEANING_MATCH" ? (
-          <a
-            href="#premium-hanja-analysis"
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-brand-teal/35 bg-surface-strong px-4 text-sm font-semibold text-brand-teal"
-          >
-            <CreditCard aria-hidden="true" size={17} />
-            {copy.hanjaProductsLink}
-          </a>
-        ) : bulkConfigured ? (
+        {/**
+          * **한자 흐름에는 이 자리에 단추를 두지 않는다** (2026-08-19).
+          *
+          * 예전에는 「전체 후보 상품 보기」 링크가 있었다. 무엇을 사는지도 얼마인지도 말하지
+          * 않으면서 화면 **위쪽**의 결제 패널로 스크롤만 시키는 단추였고, 그 패널이 살 것이
+          * 없어 사라진 날에는 **앵커가 없어 눌러도 아무 일이 없었다.**
+          *
+          * 무엇을 결제하면 되는지는 **설명 문장이 상품 이름으로** 말한다(`descHanja`).
+          *
+          * **`null`이어야 한다.** 이 갈래를 지우면 아래 일괄 공개(₩990) 단추가 대신 뜬다 —
+          * 그것은 이름 변환 계열 상품이라 한자 화면에 있으면 안 되는 값이다.
+          */}
+        {serviceType === "HANJA_MEANING_MATCH" ? null : bulkConfigured ? (
           <button
             type="button"
             onClick={unlockAllWithPayment}

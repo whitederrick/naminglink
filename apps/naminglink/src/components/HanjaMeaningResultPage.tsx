@@ -174,6 +174,7 @@ export function HanjaMeaningResultPage({
             <PremiumHanjaCheckoutPanel
               inputFactors={stored.inputFactors}
               result={currentResult}
+              locale={locale}
               paymentConfigured={paymentConfigured}
               premiumTestMode={premiumTestMode}
               // 상품이 여는 범위는 서버가 상품표를 보고 정한다. 화면은 결제 증명만 넘긴다 —

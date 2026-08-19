@@ -113,7 +113,11 @@ Font.registerHyphenationCallback((word) => [word]);
 // 표지 우측 상단 로고를 base64 data URI로 미리 읽어둔다(@react-pdf가 로컬 파일 경로를 직접 fetch하려다 실패하는 문제 회피).
 let coverLogoSrc: string | null = null;
 try {
-  const data = readFileSync(path.join(process.cwd(), "public/images/logo-current.png"));
+  // 머리글의 `BrandMark`와 **같은 파일**을 쓴다. 한쪽만 바꾸면 화면과 문서의 로고가 갈린다.
+  // 2026-08-19에 옛 `logo-current.png`에서 옮겼다 — 웹은 이미 새 로고였고 문서만 옛 로고였다.
+  const data = readFileSync(
+    path.join(process.cwd(), "public/images/naminglink-circle-logo-256.png"),
+  );
   coverLogoSrc = `data:image/png;base64,${data.toString("base64")}`;
 } catch {
   coverLogoSrc = null;
