@@ -1,7 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 
+import {
+  GuideBackLink,
+  GuideBackLinkView,
+  type BackTarget,
+} from "@/components/GuideBackLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale } from "@/lib/i18n";
 
@@ -21,6 +25,7 @@ export function GuideShell({
   description,
   backHref,
   backLabel,
+  backOrigins,
   children,
 }: {
   locale: Locale;
@@ -30,8 +35,15 @@ export function GuideShell({
   /** 돌아갈 곳. 보통 이 안내를 부른 화면이다. */
   backHref: string;
   backLabel: string;
+  /**
+   * 출처(`?from=`)별 목적지. **주면 브라우저가 고르고, 안 주면 `backHref` 그대로다.**
+   * 서버가 `?from=`을 읽으면 단추 하나 때문에 이 화면 전체가 요청마다 다시 그려진다
+   * (`components/GuideBackLink.tsx`).
+   */
+  backOrigins?: Record<string, BackTarget>;
   children: ReactNode;
 }) {
+  const back: BackTarget = { href: backHref, label: backLabel };
   return (
     <main className="min-h-screen bg-background">
       <section className="relative isolate overflow-hidden">
@@ -47,13 +59,14 @@ export function GuideShell({
             방향과 색은 랜딩 히어로의 그라데이션과 같은 값이다. */}
         <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(18,12,15,0.93),rgba(18,12,15,0.74)_55%,rgba(18,12,15,0.35))]" />
         <div className="relative mx-auto grid w-full max-w-4xl gap-4 px-5 py-12 text-white sm:px-8 sm:py-16">
-          <Link
-            href={backHref}
-            className="inline-flex w-fit items-center gap-2 rounded-lg border border-white/35 bg-white/10 px-3 py-2 text-sm font-medium text-white transition hover:bg-white/20"
-          >
-            <span aria-hidden>←</span>
-            {backLabel}
-          </Link>
+          {backOrigins ? (
+            // 대체는 기본 목적지 그대로다 — 미리 만들어 둔 HTML에 실리는 것이 이쪽이다.
+            <Suspense fallback={<GuideBackLinkView {...back} />}>
+              <GuideBackLink fallback={back} origins={backOrigins} />
+            </Suspense>
+          ) : (
+            <GuideBackLinkView {...back} />
+          )}
           <p className="mt-2 text-sm font-semibold tracking-wide text-[#e2b7c6]">
             {eyebrow}
           </p>

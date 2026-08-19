@@ -1,39 +1,78 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 import { isLocaleCode } from "@/lib/locale-codes";
+import { detectLocale } from "@/lib/locale-detect";
 
 /**
- * 경로 앞의 로케일(`/ko/compatibility`)을 화면이 아는 형태(`/compatibility?lang=ko`)로 되돌린다.
+ * 공개 주소는 `/ko/reading`처럼 **로케일 경로 한 벌**이다.
  *
- * **rewrite이지 redirect가 아니다.** 주소창에는 `/ko/compatibility`가 그대로 남고, 서버는
- * 예전과 같은 라우트를 예전과 같은 쿼리로 처리한다. 그래서 라우트 파일을 `[locale]` 아래로
- * 옮기지 않아도 되고, 각 페이지는 계속 `searchParams.lang`만 읽는다.
+ * ## 왜 바뀌었나 (2026-08-19)
  *
- * **두 형태를 모두 받는다.** 예전 주소(`/compatibility?lang=ko`)도 그대로 동작한다 — 이미
- * 공유된 링크와 색인된 주소를 끊지 않기 위해서다. 다만 canonical과 sitemap은 경로 쪽을
- * 가리키므로(`lib/seo.ts`), 검색엔진에는 경로 주소 하나로 모인다.
+ * 예전에는 라우트 파일이 평평했고(`app/reading`), 미들웨어가 `/ko/reading`를
+ * `/reading?lang=ko`로 **rewrite**했다. 그래서 화면은 `searchParams`를, 루트 레이아웃은 `headers()`를 읽어야 했고,
+ * **이 앱은 정적 페이지가 한 장도 없었다** — 모든 응답이 `no-store`였다. 서치 콘솔이 로케일
+ * 붙은 주소를 「발견됨 — 현재 색인이 생성되지 않음」으로 잡던 자리다(`lib/route-locale.ts`).
  *
- * naminglink `src/proxy.ts`와 같은 파일이다. 한쪽만 고치면 두 서비스의 주소 규칙이 갈린다.
+ * 이제 로케일은 실제 경로 조각이다(`app/[locale]/…`). 미들웨어는 **로케일 주소를 그대로
+ * 통과시킨다** — rewrite하면 없는 무접두 라우트로 보내게 되고, 미리 만들어 둔 정적 산출물도
+ * 함께 우회한다.
+ *
+ * ## 옛 주소를 끊지 않는다
+ *
+ * 무접두 주소(`/reading`)와 `?lang=` 주소는 이미 공유됐고 색인돼 있다. 라우트를 옮기면
+ * 그 주소들이 **404가 된다** — 실제로 옮긴 직후 `/`가 404였다. 리다이렉트로 언어판에 모은다.
+ *
+ *     /                    302 → /{접속 국가·브라우저 언어로 고른 언어판}
+ *     /reading             308 → /en/reading
+ *     /a?lang=ko           301 → /ko/a
+ *     /ko/a?lang=en        301 → /ko/a          (경로가 기준이다)
+ *
+ * 루트만 302인 것은 **고른 언어가 사람마다 다르기 때문**이다. 영구 이동으로 알리면 크롤러가
+ * 한 언어판을 루트의 정본으로 굳힌다. 하위 경로는 언제나 영어판으로 가므로 308이다.
+ *
+ * naminglink `src/proxy.ts`와 같은 규칙이다. 한쪽만 고치면 두 서비스의 주소 규칙이 갈린다.
  */
+function redirectToLocale(
+  request: NextRequest,
+  locale: string,
+  pathname: string,
+  status: 301 | 302 | 308,
+) {
+  const target = request.nextUrl.clone();
+  target.pathname = pathname === "/" ? `/${locale}` : `/${locale}${pathname}`;
+  target.searchParams.delete("lang");
+  return NextResponse.redirect(target, status);
+}
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const [, first] = pathname.split("/");
 
-  const [, first, ...rest] = pathname.split("/");
-  if (!isLocaleCode(first)) return NextResponse.next();
+  if (!isLocaleCode(first)) {
+    // 옛 `?lang=` 주소는 그 언어판으로 옮긴다. 이용자가 언어를 고른 주소라 영어판이 아니다.
+    const requested = request.nextUrl.searchParams.get("lang");
+    if (isLocaleCode(requested)) {
+      return redirectToLocale(request, requested, pathname, 301);
+    }
+    if (pathname === "/") {
+      const locale = detectLocale(
+        request.headers.get("x-vercel-ip-country"),
+        request.headers.get("accept-language"),
+      );
+      return redirectToLocale(request, locale, pathname, 302);
+    }
+    return redirectToLocale(request, "en", pathname, 308);
+  }
 
-  // `/ko` → `/`, `/ko/a/b` → `/a/b`
-  const target = request.nextUrl.clone();
-  target.pathname = rest.length ? `/${rest.join("/")}` : "/";
-  // 경로의 로케일이 기준이다. 주소에 `?lang=`이 함께 있어도 경로 쪽을 따른다 —
-  // 둘이 어긋난 주소로 서로 다른 화면이 나오면 안 된다.
-  target.searchParams.set("lang", first);
+  // 경로에 로케일이 있는데 `?lang=`도 붙어 있으면 쿼리를 뗀다. 둘이 어긋난 주소로 서로 다른
+  // 화면이 나오면 안 되고, 같은 화면에 주소가 둘이면 색인이 갈린다.
+  if (request.nextUrl.searchParams.has("lang")) {
+    const target = request.nextUrl.clone();
+    target.searchParams.delete("lang");
+    return NextResponse.redirect(target, 301);
+  }
 
-  // **레이아웃에도 알려 준다.** 루트 레이아웃은 searchParams를 받지 못해 `?lang=`을 볼 수 없다.
-  // 헤더로 넘기지 않으면 `/ko/...`인데 `<html lang="en">`이 나간다 — 스크린 리더가 엉뚱한
-  // 언어로 읽고, 아랍어에서 문서 방향(rtl)도 틀어진다.
-  const headers = new Headers(request.headers);
-  headers.set("x-locale", first);
-  return NextResponse.rewrite(target, { request: { headers } });
+  return NextResponse.next();
 }
 
 export const config = {

@@ -1,3 +1,5 @@
+import type { BackTarget } from "@/components/GuideBackLink";
+import { guideEntriesFor } from "@/lib/guide-index";
 import { getDictionary, type Dictionary, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
@@ -66,4 +68,51 @@ export function guideHubHref(locale: Locale | null, from?: string) {
 /** 허브가 문서 카드 링크에 실을 쿼리. 아는 값일 때만 붙인다. */
 export function guideOriginQuery(from?: string) {
   return from && from in ORIGINS ? `from=${from}` : undefined;
+}
+
+/**
+ * **안내 허브로 돌아가는 후보를 한 벌 만들어 둔다** (2026-08-19).
+ *
+ * 문서 화면은 `?from=`을 서버에서 읽지 않는다 — 읽는 순간 그 화면이 정적 렌더링에서 빠지기
+ * 때문이다. 대신 아는 출처마다 목적지를 미리 만들어 넘기고, 어느 것을 쓸지는 브라우저가
+ * 정한다(`components/GuideBackLink.tsx`).
+ *
+ * 이름은 문서가 이미 갖고 있는 `backLabel`(「안내로」)이라 출처마다 다르지 않다. 그래서
+ * 여기서는 주소만 갈린다.
+ */
+export function guideHubOrigins(locale: Locale, label: string): Record<string, BackTarget> {
+  const origins: Record<string, BackTarget> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    origins[from] = { href: guideHubHref(locale, from), label };
+  }
+  return origins;
+}
+
+/**
+ * 허브 화면이 쓰는 후보. **여기서는 이름도 갈린다** — 돌아갈 곳이 서비스 화면이라 그 서비스
+ * 이름이 단추에 적힌다. 사전을 브라우저로 들고 가지 않도록 **지금 로케일의 것만** 만든다.
+ */
+export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<string, BackTarget> {
+  const origins: Record<string, BackTarget> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    origins[from] = guideBackLink(locale, from, homeLabel);
+  }
+  return origins;
+}
+
+/**
+ * 허브의 문서 카드 **순서표**. `from`마다 「기본 순서의 i번째 카드가 몇 번째로 가는지」다.
+ *
+ * 허브가 이 값을 한 번 만들어 넘기면 브라우저가 CSS `order`만 갈아 끼운다
+ * (`components/GuideEntryOrder.tsx`). 갈래 판정은 `guide-index.ts`에 그대로 있고, 클라이언트로
+ * 옮기는 것은 **숫자뿐**이다 — 규칙이 두 곳에 생기지 않는다.
+ */
+export function guideEntryOrders(): Record<string, number[]> {
+  const base = guideEntriesFor(undefined);
+  const orders: Record<string, number[]> = {};
+  for (const from of Object.keys(ORIGINS)) {
+    const ordered = guideEntriesFor(from);
+    orders[from] = base.map((entry) => ordered.findIndex((item) => item.slug === entry.slug));
+  }
+  return orders;
 }
