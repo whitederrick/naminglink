@@ -11,6 +11,7 @@ import { SelfAdCard } from "@/components/SelfAdCard";
 import { requestUnlockTicket } from "@/lib/candidate-seal";
 import { adsAllowedForLocale } from "@/lib/ads";
 import { showRewardedAd } from "@/lib/gam-rewarded";
+import { useSelfGateNeeded } from "@/lib/offerwall";
 import { trackAdEvent } from "@/lib/analytics-client";
 
 const UNLOCK_AD_SECONDS = 5;
@@ -524,6 +525,14 @@ export function CandidateUnlockPanel({
   // 예전에는 여기서 `NEXT_PUBLIC_*` 키만 보고 판단하고 가격은 문구에 박아 두었다. 그래서 상품을
   // 내려도 화면에는 "990원"이 그대로 보였고, **결제 키가 생기는 순간 판매 중지 상품의 버튼이
   // 활성화돼** 눌러야 주문 라우트가 503을 돌려줬다.
+  /**
+   * 오퍼월이 도는 방문인가. 판정 중에는 `null`이다 → `lib/offerwall.ts`
+   *
+   * **첫 후보 하나에만 쓴다.** 오퍼월은 결과 화면을 덮고 통과해야 걷히므로, 그 방문에서는
+   * 이미 대가를 받은 셈이다. 그 자리에 관문을 또 세우면 한 번의 이용에 관문이 둘이 된다.
+   */
+  const selfGateNeeded = useSelfGateNeeded();
+
   const [unlockPrice, setUnlockPrice] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
@@ -777,16 +786,21 @@ export function CandidateUnlockPanel({
     setUnlockError("");
     setLoading(true);
     /**
-     * **후보 열기는 오퍼월과 무관하게 항상 광고를 요구한다.**
+     * **오퍼월은 첫 후보 하나만 연다** (2026-08-19).
      *
-     * 오퍼월은 입력 화면에서 돌고, 통과하면 결과 화면으로 **페이지가 바뀐다.** 거기까지가
-     * 오퍼월의 몫이다. 후보 열기는 같은 페이지 안에서 일어나므로 오퍼월이 다시 뜰 수 없고,
-     * 그래서 이 자리는 GAM 보상형이 맡는다.
+     * 관문이 입력 화면에서 결과 화면으로 옮겨졌다. 오퍼월은 결과 화면을 덮고 통과해야
+     * 걷히므로, 그 방문에서는 **첫 후보의 대가를 이미 받은 것**이다. 그 자리에 관문을 또
+     * 세우면 한 번의 이용에 관문이 둘이 된다.
      *
-     * 예전에는 `selfGateNeeded`(오퍼월 판정)를 여기서도 봤다. 그러면 오퍼월을 한 번 통과한
-     * 이용자가 **나머지 후보를 전부 공짜로 여는** 상태가 된다 — 광고 한 번에 결과 전체가
-     * 나가므로 "1광고 1결과"가 성립하지 않는다. 그 연결을 끊는다.
+     * **둘째부터는 예외 없이 광고를 요구한다.** 예전에 `selfGateNeeded`를 이 함수 전체에
+     * 적용했다가 「오퍼월 한 번에 후보 전부가 열리는」 상태가 됐다 — 광고 하나에 결과 전체가
+     * 나가므로 "1광고 1결과"가 성립하지 않는다. 그래서 `revealedCount === 0`으로 **첫 자리에만**
+     * 묶는다.
+     *
+     * 표(`takeTicket`)와 서버가 잰 기다림은 이 경우에도 그대로 지킨다 — 여는 판정은 서버에
+     * 있고, 화면이 그 규칙을 건너뛰게 두지 않는다.
      */
+    const coveredByOfferwall = selfGateNeeded === false && revealedCount === 0;
     trackAdEvent({ eventType: "IMPRESSION", slotKey: "candidate_unlock", locale, serviceType });
 
     try {
@@ -831,7 +845,11 @@ export function CandidateUnlockPanel({
        * **버튼이 죽지는 않는다.** `unavailable`과 같은 길로 떨어져 자체 게이트 + 셀프 광고가
        * 그대로 돈다 — 광고가 없다고 후보 열기가 막히면 안 된다는 기존 설계 그대로다.
        */
-      const outcome = adsAllowedForLocale(locale ?? "") ? await showRewardedAd() : "unavailable";
+      const outcome = coveredByOfferwall
+        ? "granted"
+        : adsAllowedForLocale(locale ?? "")
+          ? await showRewardedAd()
+          : "unavailable";
       if (outcome === "dismissed") return;
 
       /**

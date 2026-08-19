@@ -14,13 +14,11 @@ import {
   type Locale,
   type ServiceConfig,
 } from "@/lib/services";
-import { useSelfGateNeeded } from "@/lib/offerwall";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
-import { SelfAdCard } from "@/components/SelfAdCard";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
 import {
@@ -35,8 +33,7 @@ import {
   unsealNextCandidate,
 } from "@/lib/candidate-seal";
 import { getFormCopy, getPlainSubmitCopy } from "@/lib/i18n-form";
-import { adGatesEnabled, adsAllowedForLocale } from "@/lib/ads";
-import { showRewardedAd } from "@/lib/gam-rewarded";
+import { adGatesEnabled } from "@/lib/ads";
 import {
   getServiceOverride,
   localizeFieldHint,
@@ -197,9 +194,6 @@ function resolveMotivation(
  */
 const hangulOnlyFields = new Set(["familyName", "givenNameHangul", "generationSyllable"]);
 
-const DEFAULT_ANALYSIS_AD_SECONDS = 10;
-const HANJA_ANALYSIS_AD_SECONDS = 15;
-
 const resultCandidateCount = (result: unknown) => cappedCandidateCount(result, 5);
 
 // 초안 보존 시간. 결과 페이지에서 "입력 수정"으로 돌아오는 흐름은 살리되,
@@ -256,8 +250,6 @@ export function NamingForm({
   locale: Locale;
 }) {
   const router = useRouter();
-  // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 제출을 잠깐 막는다.
-  const selfGateNeeded = useSelfGateNeeded();
   const isHangulTransliteration = service.slug === "global-name-to-hangul";
   // 한글 발음 표기는 API에서는 GLOBAL_TO_KOREAN을 재사용하지만,
   // 통계(site_events)에서는 별도 서비스로 구분해 집계한다.
@@ -265,9 +257,6 @@ export function NamingForm({
     ? "GLOBAL_NAME_TO_HANGUL"
     : service.serviceType;
   const isHanjaMeaning = service.serviceType === "HANJA_MEANING_MATCH";
-  const analysisAdSeconds = isHanjaMeaning
-    ? HANJA_ANALYSIS_AD_SECONDS
-    : DEFAULT_ANALYSIS_AD_SECONDS;
   const isKoreanToGlobal = service.serviceType === "KOREAN_TO_GLOBAL";
   const isGlobalToKorean =
     service.serviceType === "GLOBAL_TO_KOREAN" && !isHangulTransliteration;
@@ -335,7 +324,6 @@ export function NamingForm({
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<NamingFieldErrors>({});
   const [result, setResult] = useState<ApiResult | null>(null);
-  const [analysisCountdown, setAnalysisCountdown] = useState(0);
   const [officialCandidateCount, setOfficialCandidateCount] =
     useState<number | null>(null);
   const [avoidedExcluded, setAvoidedExcluded] = useState<
@@ -431,32 +419,6 @@ export function NamingForm({
     setOfficialCandidateCount(null);
     setLoading(true);
     trackAnalytics({ eventType: "ANALYSIS_STARTED", locale, serviceType: analyticsServiceType });
-    let adStartedAt: number | null = null;
-    let countdownTimer: number | null = null;
-    let adWindowComplete = true;
-    const startAdWindow = () => {
-      if (adStartedAt !== null) return;
-
-      adStartedAt = Date.now();
-      adWindowComplete = false;
-      setAnalysisCountdown(analysisAdSeconds);
-      trackAdEvent({ eventType: "IMPRESSION", slotKey: "analysis_wait", locale, serviceType: analyticsServiceType });
-      countdownTimer = window.setInterval(() => {
-        if (adStartedAt === null) return;
-        const elapsed = Math.floor((Date.now() - adStartedAt) / 1000);
-        setAnalysisCountdown(Math.max(0, analysisAdSeconds - elapsed));
-      }, 250);
-    };
-    const completeAdWindow = async () => {
-      if (adWindowComplete || adStartedAt === null) return;
-
-      const remaining = analysisAdSeconds * 1000 - (Date.now() - adStartedAt);
-      if (remaining > 0) {
-        await new Promise((resolve) => window.setTimeout(resolve, remaining));
-      }
-      adWindowComplete = true;
-      setAnalysisCountdown(0);
-    };
 
     /**
      * **관문의 대가는 GAM 보상형이 먼저다** (2026-08-18).
@@ -477,15 +439,17 @@ export function NamingForm({
      * **분석과 동시에 돈다는 성질은 그대로다.** 이 약속을 여기서 기다리지 않고 아래 요청을
      * 먼저 던진다. 결과를 내보내기 직전에 한 번 기다린다(`await gatePassed`).
      */
-    const gatePassed = (async () => {
-      if (!selfGateNeeded) return;
-      if (adGatesEnabled && adsAllowedForLocale(locale ?? "")) {
-        const outcome = await showRewardedAd();
-        if (outcome === "granted") return;
-      }
-      startAdWindow();
-      await completeAdWindow();
-    })();
+    /**
+     * **관문은 결과 화면으로 옮겼다** (2026-08-19).
+     *
+     * 예전에는 이 자리에서 광고를 보여 주고 분석을 시작했다. 그런데 오퍼월은 애드센스 태그가
+     * 있는 화면에서만 뜨고 입력 화면에는 그 태그가 없어, 오퍼월을 쓰려면 관문이 결과 화면에
+     * 있어야 한다. **한 번의 이용에 관문을 둘 두지 않으므로 여기서는 뺀다.**
+     *
+     * 이제 결과 화면에서 오퍼월 → GAM 보상형 → 자체 광고 순으로 첫 후보를 연다
+     * (`CandidateUnlockPanel`·`lib/result-seal.ts`의 `FREE_CANDIDATE_COUNT`).
+     */
+    const gatePassed = Promise.resolve();
 
     try {
       const countryProfile = selectedCountry
@@ -632,11 +596,8 @@ export function NamingForm({
       setResult(payload);
     } catch (caught) {
       trackAnalytics({ eventType: "ANALYSIS_FAILED", locale, serviceType: analyticsServiceType });
-      if (!adWindowComplete) await completeAdWindow();
       setError(caught instanceof Error ? caught.message : t.errorGeneric);
     } finally {
-      if (countdownTimer !== null) window.clearInterval(countdownTimer);
-      setAnalysisCountdown(0);
       setLoading(false);
     }
   }
@@ -1041,7 +1002,7 @@ export function NamingForm({
             (심사 중에 버튼이 안 눌리는 사이트를 검토자가 보는 것도 그 자체로 위험하다.) */}
         <button
           type="submit"
-          disabled={loading || selfGateNeeded === null}
+          disabled={loading}
           // 문구가 긴 로케일("광고 확인 후 한글 발음 분석 시작")이 좁은 화면에서 두 줄로
           // 넘어가지 않도록 모바일만 글자를 한 단계 줄인다.
           className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-foreground px-3 text-[13px] font-semibold text-background transition hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:text-sm"
@@ -1051,13 +1012,9 @@ export function NamingForm({
               하나도 나가지 않으므로 "광고 확인 후 분석 시작"은 있지도 않은 절차를 요구하는
               문구가 된다. 판정은 `lib/ads.ts`의 `adGatesEnabled` 한 곳이고, 관문·대기·문구가
               **같은 값**으로 함께 켜지고 꺼진다. */}
-          {adGatesEnabled
-            ? isHangulTransliteration
-              ? t.submitTransliteration
-              : t.submitDefault
-            : isHangulTransliteration
-              ? plainSubmit.transliteration
-              : plainSubmit.default}
+          {/* 관문이 결과 화면으로 옮겨져 이 단추는 광고를 말하지 않는다. 문구는 심사 모드용으로
+              이미 23로케일에 있던 것을 쓴다. */}
+          {isHangulTransliteration ? plainSubmit.transliteration : plainSubmit.default}
         </button>
 
         {error ? (
@@ -1146,25 +1103,12 @@ export function NamingForm({
                 게이트의 대가는 **오퍼월(진입)과 GAM 보상형(후보 열기)**이 맡고, 그 둘이 없을
                 때는 셀프 광고가 자리를 채운다. 게이트를 없애거나 기다림을 건너뛰지 않는다 —
                 채울 것만 바꾼다. 애드센스 표시 광고는 모달 밖 일반 자리에만 남는다. */}
-            {/* **심사 모드에서는 이 자리가 통째로 빠진다** (2026-08-11). 셀프 광고 카드와
-                대기 카운트다운은 관문의 구성물이다 — 광고가 하나도 나가지 않는 동안 이용자를
-                광고 카드 앞에 세워 두는 것은 지시서가 짚은 "광고는 없는데 광고를 보라고 하는"
-                자리이고, 아래 문구는 카운트다운이 끝나면 "광고 확인 완료"라고 말한다.
-                남는 것은 분석 진행 표시(`AILoadingSteps`)뿐이라 화면은 그대로 성립한다. */}
-            {adGatesEnabled ? (
-              <>
-                <SelfAdCard />
-                <p className="text-center text-sm font-medium text-brand-teal">
-                  {analysisCountdown > 0
-                    ? isHanjaMeaning
-                      ? `광고와 한자 분석을 함께 진행하고 있습니다 · ${analysisCountdown}초`
-                      : t.loadingCountdown(analysisCountdown)
-                    : isHanjaMeaning
-                      ? "광고 확인 완료 · 한자 분석 결과를 마무리하고 있습니다"
-                      : t.loadingDone}
-                </p>
-              </>
-            ) : null}
+            {/* **대기 중 광고 카드는 관문과 함께 결과 화면으로 갔다** (2026-08-19).
+                여기 있던 셀프 광고와 카운트다운은 입력 화면 관문의 구성물이었다. 관문이 없어진
+                지금 남겨 두면 문구가 거짓이 된다 — 23로케일의 `loadingDone`이 「광고 확인
+                완료」라고 말하는데 이 화면에서는 광고를 보지 않는다.
+                남는 것은 분석 진행 표시(`AILoadingSteps`)뿐이고, 2026-08-11 심사 모드에서
+                같은 상태를 이미 겪어 화면이 그대로 성립하는 것을 확인했다. */}
             <AILoadingSteps
               variant={
                 isHanjaMeaning
