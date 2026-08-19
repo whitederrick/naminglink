@@ -168,6 +168,9 @@ export function ResultEntryGate({
 
   return (
     <div
+      /* `lib/offerwall.ts`가 「화면을 덮는 남의 요소」를 찾을 때 우리 오버레이를 걸러 내는
+         표식이다. 없으면 관문이 자기 자신을 오퍼월로 읽고 곧바로 비켜 준다. */
+      data-result-entry-gate=""
       role="dialog"
       aria-modal="true"
       aria-label={copy.watching}
