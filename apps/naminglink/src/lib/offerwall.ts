@@ -83,30 +83,25 @@ export function coversViewport(
 /**
  * **오퍼월이 지금 화면을 덮고 있는가.**
  *
- * 구글의 클래스 이름에 기대지 않는다 — 이름은 바뀌지만 「화면을 덮는다」는 성질은 안 바뀐다.
- * 오퍼월은 `body` 바로 밑에 화면을 덮는 요소로 들어온다.
+ * **iframe 만 센다** (2026-08-19). 예전에는 `body` 바로 밑에서 화면을 덮는 요소를 찾았는데,
+ * 그러면 **우리 자신의 오버레이가 걸린다** — 실측에서 입력 화면의 분석 중 상자가 오퍼월로
+ * 읽혔고, 관문은 열리자마자 「오퍼월이 있다」며 비켜 줬다. 광고가 0개가 됐다.
  *
- * **우리 오버레이는 세지 않는다.** 결과 진입 관문도 같은 모양이라 그대로 두면 자기 자신을
- * 오퍼월로 읽는다.
+ * 오퍼월은 구글이 **iframe 안에** 그린다. 우리 오버레이에는 iframe이 없다. 그래서 「화면을
+ * 덮는 iframe」이 우리 것과 남의 것을 가르는 선이 된다 — 표식을 일일이 붙이는 것보다 튼튼하다
+ * (붙이는 것을 잊은 오버레이 하나가 다시 같은 결함을 만든다).
+ *
+ * 배너 광고 iframe 은 걸리지 않는다 — 화면 절반을 덮지 않는다. GAM 보상형의 전면 iframe 은
+ * 이 판정이 끝난 **뒤에** 뜬다(그때는 이미 폴링을 멈춘 상태다).
  */
 function offerwallVisible() {
   if (typeof window === "undefined") return false;
-
-  /**
-   * **잴 수 없는 상태에서는 판정하지 않는다.**
-   *
-   * 배경 탭에서는 `innerWidth`·`innerHeight`가 0이다. 그러면 「너비가 화면의 절반 이상」이
-   * 0 이상이 되어 **0×0 요소까지 전부 화면을 덮는 것으로 읽힌다** — 실측에서 Next의
-   * `<next-route-announcer>`(0×0, position:absolute)가 그렇게 잡혔다. 그대로 두면 오퍼월이
-   * 없는데도 비켜 주고 광고가 하나도 안 나간다.
-   */
-  for (const el of Array.from(document.body.children)) {
-    if (el.hasAttribute("data-result-entry-gate")) continue;
-    const style = window.getComputedStyle(el);
-    if (style.position !== "fixed" && style.position !== "absolute") continue;
+  for (const frame of Array.from(document.querySelectorAll("iframe"))) {
+    const style = window.getComputedStyle(frame);
     if (style.visibility === "hidden" || style.display === "none") continue;
-    const box = el.getBoundingClientRect();
-    if (coversViewport(box, window.innerWidth, window.innerHeight)) return true;
+    if (coversViewport(frame.getBoundingClientRect(), window.innerWidth, window.innerHeight)) {
+      return true;
+    }
   }
   return false;
 }

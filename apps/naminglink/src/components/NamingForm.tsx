@@ -1074,20 +1074,20 @@ export function NamingForm({
         <div
           role="dialog"
           aria-modal="true"
-          // 관문이 없으면 이 상자는 광고 창이 아니라 분석 진행 창이다. 낭독기에 읽히는
-          // 이름도 함께 바뀌어야 한다 — 화면 문구만 고치고 `aria-label`을 두면 눈에 안 보이는
-          // 자리에 옛 말이 남는다(안내 문서의 「돌아가기」 단추에서 겪은 것과 같은 자리다).
-          aria-label={adGatesEnabled ? t.adDialogLabel : t.loadingEyebrow}
+          // **이 상자는 광고 창이 아니라 분석 진행 창이다** (2026-08-19). 관문이 결과 화면으로
+          // 옮겨져 분석 중에는 광고가 없다. 낭독기에 읽히는 이름도 함께 바뀌어야 한다 —
+          // 화면 문구만 고치고 `aria-label`을 두면 눈에 안 보이는 자리에 옛 말이 남는다
+          // (안내 문서의 「돌아가기」 단추에서 겪은 것과 같은 자리다).
+          aria-label={t.loadingEyebrow}
           className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
         >
           <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
             <div>
               <p className="text-sm font-semibold text-brand-teal">
-                {isHanjaMeaning
-                  ? adGatesEnabled
-                    ? "광고와 함께 진행하는 한자 이름 분석"
-                    : "한자 이름 분석 중"
-                  : t.loadingEyebrow}
+                {/* **「광고와 함께」라고 말하지 않는다** (2026-08-19). 관문이 결과 화면으로
+                    옮겨져 이 시점에는 광고가 하나도 안 나간다. 사용자가 휴대폰 화면으로
+                    짚어 준 자리다 — 문구가 화면보다 오래 산다. */}
+                {isHanjaMeaning ? "한자 이름 분석 중" : t.loadingEyebrow}
               </p>
               <h2 className="mt-1 text-lg font-semibold">
                 {isHanjaMeaning

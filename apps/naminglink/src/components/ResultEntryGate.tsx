@@ -166,33 +166,38 @@ export function ResultEntryGate({
 
   if (stage === "done") return null;
 
+  /**
+   * **기다리는 동안에는 상자를 그리지 않는다** (2026-08-19).
+   *
+   * 오퍼월이 뜰지 정해지기 전에도 「광고 확인 중」이라고 쓰인 **빈 상자**가 떠 있었다.
+   * 사용자가 휴대폰 화면으로 짚어 준 자리다 — 아직 광고가 없는데 광고를 말하고, 상자 안에는
+   * 아무것도 없다.
+   *
+   * 이 구간에 필요한 것은 **결과를 가리는 일** 하나뿐이다. 그래서 덮개만 남긴다. GAM 갈래도
+   * 같다 — 구글이 자기 화면을 띄우므로 그 아래에 우리 상자를 둘 이유가 없다.
+   */
+  const showCard = stage === "self";
+
   return (
     <div
-      /* `lib/offerwall.ts`가 「화면을 덮는 남의 요소」를 찾을 때 우리 오버레이를 걸러 내는
-         표식이다. 없으면 관문이 자기 자신을 오퍼월로 읽고 곧바로 비켜 준다. */
-      data-result-entry-gate=""
       role="dialog"
       aria-modal="true"
       aria-label={copy.watching}
       className="fixed inset-0 z-50 grid place-items-center bg-foreground/55 p-4 backdrop-blur-sm"
     >
-      <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
-        {/* **제목을 따로 두지 않는다.** 후보 열기 관문의 제목(`copy.title`)은 「추가 후보 열기」라
-            이 자리에서는 틀린 말이 된다 — 여기는 결과를 처음 여는 자리라 「추가」가 없다.
-            새 문구를 만들면 23로케일을 새로 번역해야 하므로, 이미 있는 두 문장(`watching`·
-            `watchingNote`)만으로 말한다. 둘 다 이 자리에서 그대로 참이다. */}
-        <p className="text-sm font-semibold text-brand-teal">{copy.watching}</p>
-        {/* 셀프 광고는 **채울 것이 없을 때만** 그린다. 오퍼월·GAM 갈래에서는 구글 쪽 화면이
-            떠 있으므로 그 아래에 우리 광고를 겹쳐 두면 둘을 한꺼번에 보여 주는 모양이 된다. */}
-        {stage === "self" ? (
-          <>
-            <SelfAdCard />
-            <p className="text-center text-sm font-medium text-brand-teal">
-              {copy.watchingNote(countdown)}
-            </p>
-          </>
-        ) : null}
-      </div>
+      {showCard ? (
+        <div className="grid w-full max-w-xl gap-4 rounded-xl border border-line bg-background p-5 shadow-2xl sm:p-6">
+          {/* **제목을 따로 두지 않는다.** 후보 열기 관문의 제목(`copy.title`)은 「추가 후보
+              열기」라 이 자리에서는 틀린 말이 된다 — 여기는 결과를 처음 여는 자리라 「추가」가
+              없다. 새 문구를 만들면 23로케일을 새로 번역해야 하므로, 이미 있는 두 문장
+              (`watching`·`watchingNote`)만으로 말한다. 둘 다 이 자리에서 그대로 참이다. */}
+          <p className="text-sm font-semibold text-brand-teal">{copy.watching}</p>
+          <SelfAdCard />
+          <p className="text-center text-sm font-medium text-brand-teal">
+            {copy.watchingNote(countdown)}
+          </p>
+        </div>
+      ) : null}
     </div>
   );
 }

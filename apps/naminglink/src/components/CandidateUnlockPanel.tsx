@@ -487,6 +487,17 @@ export function CandidateUnlockPanel({
   // 청약철회 제한 동의. 체크 전에는 결제로 넘어가지 않는다.
   const [consented, setConsented] = useState(false);
   const [countdown, setCountdown] = useState(0);
+  /**
+   * 셀프 광고를 그려도 되는가.
+   *
+   * **`loading` 으로 그리면 안 된다** (2026-08-19). 그 값은 단추를 누르는 즉시 참이 되므로
+   * 셀프 광고가 **GAM 보상형을 부르기도 전에** 그려진다 — 실측에서 셀프가 +0.15초, `gpt.js`
+   * 로드가 +1.70초였다. 지금은 GAM 이 no-fill 이라 티가 안 나지만, 채워지는 날에는 셀프 광고
+   * 위에 GAM 광고가 겹친다.
+   *
+   * 셀프 광고는 **채울 것이 없다고 밝혀진 뒤에만** 그린다.
+   */
+  const [selfAdOpen, setSelfAdOpen] = useState(false);
   // 오퍼월이 도는 방문이면 false. 판정 중에는 null이라 버튼을 잠깐 막는다.
   const [bulkStage, setBulkStage] = useState<"idle" | "ordering" | "paying" | "paypal">("idle");
   const [bulkError, setBulkError] = useState("");
@@ -863,9 +874,12 @@ export function CandidateUnlockPanel({
        * 초기 트래픽에서는 이쪽이 더 흔하다. 광고가 없다고 버튼이 죽으면 안 된다.
        */
       const selfGateMs = outcome === "granted" ? 0 : UNLOCK_AD_SECONDS * 1000;
+      // 보상형을 끝까지 본 방문에는 셀프 광고를 겹치지 않는다 — 대가를 이미 치렀다.
+      if (selfGateMs > 0) setSelfAdOpen(true);
       await countDown(Math.max(selfGateMs, readyAt - Date.now()));
       await grantUnlock(held.ticket);
     } finally {
+      setSelfAdOpen(false);
       setLoading(false);
     }
   }
@@ -889,7 +903,7 @@ export function CandidateUnlockPanel({
         </div>
       </div>
 
-      {loading ? (
+      {loading && selfAdOpen ? (
         <div className="mt-5 grid gap-3">
           {/* **이 자리에 애드센스 표시 광고를 두지 않는다.** 잠긴 후보를 여는 대가로 광고를
               보게 하는 자리라, 애드센스 기준으로는 보상형이다. 표시 광고는 콘텐츠 해제의
