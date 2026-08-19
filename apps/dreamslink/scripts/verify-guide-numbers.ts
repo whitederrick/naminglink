@@ -24,7 +24,37 @@ import path from "node:path";
 import { ALIASES_EN } from "../src/lib/dream-aliases-en";
 import { CONCEPTION_TAG, DREAM_SYMBOLS } from "../src/lib/dream-symbols";
 
-const GUIDE = path.join(process.cwd(), "src", "app", "guide");
+/**
+ * 안내 문서가 놓인 자리를 **찾아낸다. 적어 두지 않는다.**
+ *
+ * 2026-08-19 정적화에서 라우트가 `src/app/guide`에서 `src/app/[locale]/guide`로 옮겨졌고,
+ * 그 순간 이 검사기는 `readdirSync`가 ENOENT로 던지며 **아예 돌지 못했다.** 같은 날 아침
+ * naminglink에서 똑같은 자리를 이미 겪었는데, 이 파일은 그 앱의 복제본이라 결함도 함께
+ * 복제돼 있었다 — 한 곳을 고칠 때 같은 병을 앓는 곳을 함께 셀 것.
+ *
+ * 그래서 경로를 적는 대신 `src/app` 아래에서 `guide` 디렉터리를 걸어 찾는다. 라우트 그룹이
+ * 또 갈려도 따라온다. **한 곳도 못 찾으면 실패다** — 검사 0건은 통과가 아니다.
+ */
+function findGuideDirs(root: string): string[] {
+  const found: string[] = [];
+  const stack = [root];
+  while (stack.length) {
+    const dir = stack.pop()!;
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const full = path.join(dir, entry.name);
+      if (entry.name === "guide") found.push(full);
+      else stack.push(full);
+    }
+  }
+  return found;
+}
+
+const GUIDE_DIRS = findGuideDirs(path.join(process.cwd(), "src", "app"));
+if (GUIDE_DIRS.length === 0) {
+  console.error("안내 문서 디렉터리를 한 곳도 못 찾았다 — 경로가 또 바뀌었는지 볼 것.");
+  process.exit(1);
+}
 
 // ── 사전에서 실제 값을 센다 ────────────────────────────────────────────────
 const category: Record<string, number> = {};
@@ -136,8 +166,10 @@ function docContentProse(slug: string) {
 }
 
 const docs: Array<{ slug: string; text: string }> = [];
-for (const slug of readdirSync(GUIDE)) {
-  const file = path.join(GUIDE, slug, "page.tsx");
+for (const [dir, slug] of GUIDE_DIRS.flatMap((dir) =>
+  readdirSync(dir).map((slug) => [dir, slug] as const),
+)) {
+  const file = path.join(dir, slug, "page.tsx");
   if (!existsSync(file)) continue;
 
   // 본문이 자료로 옮겨진 문서는 그쪽을 본다. 옮기지 않은 문서는 예전대로 화면에서 읽는다.

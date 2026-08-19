@@ -1,16 +1,23 @@
 import type { Metadata } from "next";
 
 import { getDocPage, type DocKey } from "@/lib/doc-content";
-import { guideHubHref } from "@/lib/guide-back";
+import { guideHubHref, guideHubOrigins } from "@/lib/guide-back";
 import { docKeyFor, findGuideEntry } from "@/lib/guide-index";
 import { docValues } from "@/lib/doc-values";
-import { isLocale, type Locale } from "@/lib/i18n";
-import { getRequestLocale } from "@/lib/locale";
+import type { Locale } from "@/lib/i18n";
+import { routeLocale } from "@/lib/route-locale";
 import { buildPageMetadata } from "@/lib/seo";
+import type { BackTarget } from "@/components/GuideBackLink";
 import type { DocPage } from "@/lib/doc-content/types";
 
+/**
+ * **언어는 주소에서 오고, `?from=`은 서버가 읽지 않는다** (2026-08-19).
+ *
+ * 열두 편이 이 한 곳을 거치므로 여기서 요청을 읽으면 **열두 편이 한꺼번에** 정적 렌더링에서
+ * 빠진다. 실제로 그 상태였다 — `lib/route-locale.ts`에 경위를 적어 두었다.
+ */
 export type GuidePageProps = {
-  searchParams?: Promise<{ lang?: string; from?: string }>;
+  params: Promise<{ locale: string }>;
 };
 
 /**
@@ -21,11 +28,10 @@ export type GuidePageProps = {
  */
 export async function guideMetadata(
   slug: string,
-  { searchParams }: GuidePageProps,
+  { params }: GuidePageProps,
 ): Promise<Metadata> {
-  const params = await searchParams;
-  const requested = isLocale(params?.lang) ? params.lang : null;
-  const locale = await getRequestLocale(params?.lang);
+  const locale = routeLocale((await params).locale);
+  const requested = locale;
   const doc = getDocPage(locale, docKeyOf(slug));
 
   /**
@@ -60,21 +66,24 @@ export async function guideMetadata(
  */
 export async function guideContext(
   slug: string,
-  { searchParams }: GuidePageProps,
+  { params }: GuidePageProps,
 ): Promise<{
   locale: Locale;
   doc: DocPage;
   hubHref: string;
+  hubOrigins: Record<string, BackTarget>;
   values: Record<string, string>;
 }> {
-  const params = await searchParams;
-  const locale = await getRequestLocale(params?.lang);
-  const [values] = await Promise.all([docValues(locale)]);
+  const locale = routeLocale((await params).locale);
+  const doc = getDocPage(locale, docKeyOf(slug));
+  const values = await docValues(locale);
 
   return {
     locale,
-    doc: getDocPage(locale, docKeyOf(slug)),
-    hubHref: guideHubHref(locale, params?.from),
+    doc,
+    // 출처가 없을 때의 목적지. 출처별 후보는 아래 `hubOrigins`가 갖고, 고르는 것은 브라우저다.
+    hubHref: guideHubHref(locale),
+    hubOrigins: guideHubOrigins(locale, doc.backLabel),
     values,
   };
 }
