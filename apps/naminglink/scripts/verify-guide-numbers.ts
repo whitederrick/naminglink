@@ -27,19 +27,32 @@ import path from "node:path";
 import { koreanFamilyNameChoices } from "../src/lib/services";
 
 /**
- * 안내 문서가 놓인 자리. **두 곳이다.**
+ * 안내 문서가 놓인 자리를 **찾아낸다. 적어 두지 않는다.**
  *
- * 2026-08-18 정적화에서 라우트 그룹이 갈렸다 — 한국어 갈래는 `(korean)/guide`, 로케일 갈래는
- * `[locale]/guide`. 그때 이 검사기는 `src/app/guide` 하나만 보고 있었고, 그 디렉터리가
- * 사라지면서 **`readdirSync`가 던져 다음 날까지 한 번도 돌지 못했다**(ENOENT).
+ * 2026-08-18~19 정적화에서 라우트가 `src/app/guide`에서 `src/app/[locale]/guide`(와 라우트
+ * 그룹)로 옮겨졌고, 그 순간 이 검사기는 `readdirSync`가 ENOENT로 던지며 **아예 돌지 못했다.**
+ * 네 앱에 같은 파일이 복제돼 있어 결함도 함께 복제돼 있었다 — 한 곳을 고칠 때 같은 병을 앓는
+ * 곳을 함께 셀 것.
  *
- * 같은 실패를 `verify-route-locales.mjs`도 겪었고 거기서는 「한 디렉터리를 적어 두지 않는다」로
- * 고쳤다. 여기만 남아 있었다. **한 곳을 고칠 때 같은 병을 앓는 곳을 함께 셀 것.**
+ * 그래서 경로를 적는 대신 `src/app` 아래에서 `guide` 디렉터리를 걸어 찾는다. 라우트 그룹이
+ * 또 갈려도 따라온다. **한 곳도 못 찾으면 실패다** — 검사 0건은 통과가 아니다.
  */
-const GUIDE_DIRS = [
-  path.join(process.cwd(), "src", "app", "(korean)", "guide"),
-  path.join(process.cwd(), "src", "app", "[locale]", "guide"),
-].filter(existsSync);
+function findGuideDirs(root: string): string[] {
+  const found: string[] = [];
+  const stack = [root];
+  while (stack.length) {
+    const dir = stack.pop()!;
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const full = path.join(dir, entry.name);
+      if (entry.name === "guide") found.push(full);
+      else stack.push(full);
+    }
+  }
+  return found;
+}
+
+const GUIDE_DIRS = findGuideDirs(path.join(process.cwd(), "src", "app"));
 if (GUIDE_DIRS.length === 0) {
   console.error("안내 문서 디렉터리를 한 곳도 못 찾았다 — 경로가 또 바뀌었는지 볼 것.");
   process.exit(1);
