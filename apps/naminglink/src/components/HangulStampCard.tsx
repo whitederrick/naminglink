@@ -1,5 +1,6 @@
 "use client";
 
+import { getUiLabels } from "@/lib/ui-labels";
 import Link from "next/link";
 import { useState } from "react";
 import { ShoppingBag } from "lucide-react";
@@ -112,7 +113,7 @@ export function HangulStampCard({
 
         <div className="mt-4 rounded-lg bg-surface-strong px-4 py-3">
           <p className="text-xs text-muted">
-            {locale === "ko" ? "도장 문구" : "Stamp"} ({stampText.length}/{STAMP_MAX})
+            {getUiLabels(locale).stampText} ({stampText.length}/{STAMP_MAX})
           </p>
           <p className="mt-1 text-lg font-semibold tracking-wide">{stampText || "—"}</p>
         </div>

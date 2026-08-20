@@ -42,7 +42,7 @@ type DeleteCopy = {
   cancel: string;
 };
 
-const COPY: Record<Locale, DeleteCopy> = {
+export const COPY: Record<Locale, DeleteCopy> = {
   ko: {
     title: "회원 탈퇴",
     warning:

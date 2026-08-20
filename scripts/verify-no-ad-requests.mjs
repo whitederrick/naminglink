@@ -118,8 +118,12 @@ const expectedStatus = (suffix) => (suffix === NOT_FOUND_PATH ? 404 : 200);
 const LOCALES = ["ko", "en", "ja", "ru", "kk", "km", "mn", "uz"];
 
 /**
- * 광고가 **붙어야 하는** 자리. 지금 사람이 검수한 로케일은 ko 하나뿐이라 여기도 ko다
- * (`HUMAN_REVIEWED_LOCALES`). 검수 로케일이 늘면 여기도 함께 늘릴 것.
+ * 광고가 **붙어야 하는** 자리. 지금 광고를 연 로케일은 ko 하나뿐이라 여기도 ko다.
+ *
+ * 상수 이름이 앱마다 다르다 — naminglink 는 `AD_OPENED_LOCALES`(2026-08-20 개명),
+ * 형제 셋은 아직 `HUMAN_REVIEWED_LOCALES`다. 개명한 이유는 옛 이름이 `ko` 에 대해 거짓이기
+ * 때문이다: `ko` 는 원문이라 번역 검수를 받은 적이 없다. 검수 완료의 증거는
+ * `docs/locale-review/manifest.json` 에 있고, 상수는 **실제로 연 것**만 담는다.
  *
  * 한국어 전용 경로라 로케일 접두사가 없다 — `/ko/hanja-meaning`은 여기로 301된다.
  *
@@ -451,7 +455,8 @@ try {
       console.error(`\n양성 확인 실패 — ${positiveFailure}`);
       console.error("  광고가 **붙어야 하는** 자리다. 셋 중 하나다:");
       console.error("    · 배선이 끊겼다 — `AdBanner`가 `ensureAdsenseLoader`를 부르는가");
-      console.error("    · 적격 로케일에서 ko가 빠졌다 — `HUMAN_REVIEWED_LOCALES`");
+      console.error("    · 적격 로케일에서 ko가 빠졌다 — naminglink 는 `AD_OPENED_LOCALES`,");
+      console.error("      형제 셋은 `HUMAN_REVIEWED_LOCALES`(아직 개명 전)");
       console.error("    · 광고 CSP를 `adsLive`로 닫았다 — 심사 모드에서도 열려 있어야 한다");
       console.error("  폼이 바뀌어 검사기가 결과를 못 만든 것일 수도 있다. 문구는 위에 적혀 있다.");
     }

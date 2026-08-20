@@ -47,7 +47,7 @@ type PremiumCopy = {
  * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가 조용하고
  * 아래 조회가 영어로 내려간다 — 그 언어 사용자만 영어를 보고 아무도 모른다.
  */
-const premiumCopies: Record<LocaleCode, PremiumCopy> = {
+export const premiumCopies: Record<LocaleCode, PremiumCopy> = {
   ko: {
     title: "프리미엄 한글 이름 리포트 (PDF)",
     desc: "추천된 한글 이름 후보 전체를 한 권의 기념 PDF로 — 후보마다 선택한 붓글씨 서체의 이름 아트, 의미와 추천 이유, 오행 사주 풀이까지 담아 드립니다. 결제 후 24시간 동안 내려받을 수 있습니다.",

@@ -38,7 +38,7 @@ type UnlockCopy = {
  * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가 조용하고
  * 아래 조회가 영어로 내려간다 — 그 언어 사용자만 영어를 보고 아무도 모른다.
  */
-const unlockCopies: Record<LocaleCode, UnlockCopy> = {
+export const unlockCopies: Record<LocaleCode, UnlockCopy> = {
   ko: {
     title: "추가 후보 열기",
     status: (revealed, locked) => `현재 ${revealed}개 공개 · ${locked}개 잠금`,

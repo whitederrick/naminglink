@@ -59,6 +59,15 @@ const ARGV = {
 /** 「돌 수 없다」고 스스로 말하는 출력. 결함이 아니라 검사할 수 없었던 것이다. */
 const CANNOT_RUN = [
   { re: /서버가 없다|ECONNREFUSED|fetch failed|dev 서버가 떠 있어야/i, why: "dev 서버 필요" },
+  /**
+   * **엉뚱한 환경을 보고 있는 것도 「환경이 없다」다** (2026-08-20).
+   *
+   * 이 저장소는 네 앱을 붙은 포트로 띄운다(3001~3004). `BASE_URL`이 하나 옆을 가리키면 **200과
+   * `text/html`이 정상으로 돌아오므로** 검사기가 앱 결함으로 신고하게 된다 — 없는 결함을 쫓게
+   * 되고, 출력이 「HTTP 200」이라 원인도 안 보인다. 2026-08-19에 빨간불 하나의 정체를 찾는 데
+   * 하루가 걸린 자리가 이 부류다.
+   */
+  { re: /다른 앱을 보고 있다/i, why: "다른 앱 환경" },
   { re: /OPENAI_API_KEY|비용이 든다/i, why: "OpenAI 비용" },
   { re: /\.env\.local|환경변수|Missing (SUPABASE|OPENAI)/i, why: "환경변수 필요" },
   { re: /원본 PDF|기준 자료가 없|reference PDF/i, why: "기준 자료 필요" },
@@ -270,6 +279,17 @@ const CONTROL = [
     label: "스스로 못 돈다고 말하면 못 돎",
     result: { code: 1, out: "서버가 없다: http://localhost:3001" },
     want: "cannot",
+  },
+  {
+    label: "다른 앱을 보고 있으면 못 돎",
+    result: { code: 1, out: "다른 앱을 보고 있다: http://localhost:3002 — 화면이 「Inyeon-Link」이다." },
+    want: "cannot",
+  },
+  {
+    // 서버가 응답했는데 화면이 아니면 **앱 결함**이다. 못 돎으로 새면 안 된다.
+    label: "서버는 응답했는데 화면이 아니면 빨간불",
+    result: { code: 1, out: "화면이 나오지 않는다: http://localhost:3001 → HTTP 500 · content-type text/plain" },
+    want: "red",
   },
   { label: "시간 초과는 빨간불", result: { code: null, timedOut: true, out: "" }, want: "red" },
 ];

@@ -84,25 +84,35 @@ const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
 ]);
 
 /**
- * **사람이 번역을 검수한 로케일.** 「구글이 지원하는 언어」와 **다른 개념**이다.
+ * **운영자가 실제로 광고를 연 로케일.** 「구글이 지원하는 언어」와도, 「사람이 검수를 마친
+ * 언어」와도 **다른 개념**이다.
  *
  * 위 목록에 en이 있는 것은 구글이 영어 광고를 지원한다는 뜻이지, 우리 영어판을 사람이 읽어
  * 봤다는 뜻이 아니다. 이 저장소의 번역은 **기계 번역이며 원어민 감수를 거치지 않았다**
  * (`doc-content` 자료에도 그렇게 적어 두었다).
  *
- * ## 지금은 한국어뿐이다
+ * ## 이름을 `HUMAN_REVIEWED_LOCALES`에서 바꿨다 (2026-08-20, 구현 명세 §11)
  *
- * 한때 이 값을 `ADSENSE_SUPPORTED_LOCALES`(지원 19개 전부)로 두었다. **이름은 「사람 검수」인데
- * 값은 아무도 읽어 보지 않은 19개**였고, 그 상태로 승인 뒤 `live`로 켜면 미검수 언어 열아홉에
- * 한꺼번에 광고가 열린다. 이름이 지키지 못하는 약속을 하고 있었다(외부 검토가 짚었다).
+ * 옛 이름은 `ko`에 대해 거짓말을 했다 — `ko`는 원문이라 **번역 검수를 받은 적이 없는데** 이름은
+ * 「사람이 검수한 로케일」이라고 말했다. 그 거짓이 기능을 실제로 막는다: 이 집합을 관리자 약관
+ * 게시 관문의 열쇠로 쓰면 **한국어 약관을 게시할 수 없게 된다.**
  *
- * 한국어는 번역이 아니라 원문이므로 검수 대상이 아니다 — 그래서 여기 있다. 나머지는
- * **사람이 그 언어 화면을 실제로 읽어 본 뒤** `docs/LOCALE_REVIEW_LOG.md`에 줄을 더하고
- * 여기에 함께 넣는다. 그 문서에 근거가 없는 로케일을 여기 적지 말 것.
+ * 그래서 역할을 둘로 갈랐다.
+ *
+ *     docs/locale-review/manifest.json   사람이 검수를 마친 증거이자 **개방 상한**
+ *     AD_OPENED_LOCALES                  운영자가 **실제로 광고를 연** 부분집합
+ *
+ * 불변식은 `scripts/verify-locale-manifest.ts`가 센다.
+ *
+ *     AD_OPENED_LOCALES − {원문 로케일} ⊆ 모든 필수 scope 완료 · deferred=0 인 manifest 로케일
+ *
+ * **manifest 에 줄을 더하는 것만으로 광고가 켜지지 않는다.** 여는 것은 사람이 이 상수를 고쳐야
+ * 하고, 그래야 한 커밋에 두 자리가 함께 바뀌어 리뷰에 보인다 — 2026-08-11에 이 값을 지원 19개
+ * 전부로 두었다가 **아무도 읽어 보지 않은 열아홉에 광고가 열릴 뻔한** 자리가 정확히 그것이다.
  *
  * 색인 범위와는 **별개다.** 미검수 로케일의 sitemap·색인은 그대로 두고, 광고만 좁힌다.
  */
-const HUMAN_REVIEWED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
+export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
 
 /**
  * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —
@@ -116,7 +126,7 @@ export function adsAllowedForLocale(locale: string): boolean {
   return (
     adsConfigured &&
     ADSENSE_SUPPORTED_LOCALES.has(locale) &&
-    HUMAN_REVIEWED_LOCALES.has(locale)
+    AD_OPENED_LOCALES.has(locale)
   );
 }
 
@@ -128,7 +138,7 @@ export function unsupportedAdLocales(locales: readonly string[]): string[] {
 /** 검사기 대조군. 광고 코드가 **있어야 하는** 로케일이다(지원 ∩ 검수). */
 export function adEligibleLocales(locales: readonly string[]): string[] {
   return locales.filter(
-    (locale) => ADSENSE_SUPPORTED_LOCALES.has(locale) && HUMAN_REVIEWED_LOCALES.has(locale),
+    (locale) => ADSENSE_SUPPORTED_LOCALES.has(locale) && AD_OPENED_LOCALES.has(locale),
   );
 }
 

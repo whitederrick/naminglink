@@ -22,6 +22,7 @@ import { EN_DOCS, EN_NOTICES } from "../src/lib/doc-content/en";
 import { KO_DOCS, KO_NOTICES } from "../src/lib/doc-content/ko";
 import { guideEntries } from "../src/lib/guide-index";
 import { localeCodes } from "../src/lib/locale-codes";
+import { evaluate } from "./regeneration-guard";
 import { localeLabels } from "../src/lib/services";
 
 const DIR = path.join(process.cwd(), "src", "lib", "doc-content");
@@ -479,13 +480,63 @@ const fromKo = args.includes("--from-ko");
 /** 한국어에만 있는 문서의 영어를 채운다. `en.ts`의 기존 항목은 건드리지 않는다. */
 const fillEn = args.includes("--fill-en");
 const all = args.includes("--all");
-const targets = all
+const invalidateArg = args.find((a) => a.startsWith("--invalidate-review"));
+const requested = all
   ? localeCodes.filter((code) => code !== "ko" && code !== "en")
   : args.filter((a) => !a.startsWith("--"));
 
-if (!targets.length && !fillEn) {
+if (!requested.length && !fillEn) {
   console.log("쓰는 법: translate-doc-content.ts <locale…> | --all | --fill-en");
+  console.log("         검수된 로케일을 덮으려면 --invalidate-review=<locale> 로 명시할 것");
   process.exit(1);
+}
+
+/**
+ * **재생성 보호 관문** (2026-08-20, 구현 명세 §7).
+ *
+ * `run()`은 로케일마다 `writeFileSync`로 **파일을 통째로 다시 쓴다.** 검수를 마친 로케일이
+ * 대상에 섞여 있으면 사람이 고친 문장이 조용히 사라지고, **검수 로그는 그대로 남아** 「읽어
+ * 봤다」가 읽어 본 적 없는 내용을 가리키게 된다.
+ *
+ * 그래서 **한 파일도 쓰기 전에** 대상 전체를 판정한다. 로케일을 하나씩 검사하며 쓰면 중간에
+ * 멈췄을 때 앞의 파일은 이미 덮여 있고, 그것을 되돌리는 것은 git 이지 검사기가 아니다.
+ */
+const guard = evaluate({
+  scope: "docs",
+  targets: all ? [] : requested,
+  all,
+  invalidate: invalidateArg ? (invalidateArg.split("=")[1] ?? "") : null,
+  fromKo,
+  fillEn,
+});
+if (!guard.ok) {
+  console.error("재생성 관문 — 아무것도 쓰지 않고 멈춘다");
+  for (const error of guard.errors) console.error(`  ✗ ${error}`);
+  process.exit(1);
+}
+for (const note of guard.notes) console.log(`  · ${note}`);
+
+/** 관문이 허락한 것만 남긴다. `--all` 이어도 `ko`·`en` 은 원문이라 대상이 아니다. */
+const targets = requested.filter((code) => guard.allowed.includes(code));
+if (!targets.length && !fillEn) {
+  console.error("갱신할 대상이 하나도 남지 않았다 — 0건 실행을 성공으로 세지 않는다.");
+  process.exit(1);
+}
+
+/** `--fill-en` 은 `en.ts` 를 쓴다. `en` 검수가 끝났으면 그것도 보호 대상이다. */
+if (fillEn) {
+  const enGuard = evaluate({
+    scope: "docs",
+    targets: ["en"],
+    all: false,
+    invalidate: invalidateArg ? (invalidateArg.split("=")[1] ?? "") : null,
+    fromKo: false,
+  });
+  if (!enGuard.ok) {
+    console.error("재생성 관문 — `--fill-en` 이 검수된 `en` 을 덮으려 한다. 아무것도 쓰지 않는다.");
+    for (const error of enGuard.errors) console.error(`  ✗ ${error}`);
+    process.exit(1);
+  }
 }
 
 const key = loadKey();

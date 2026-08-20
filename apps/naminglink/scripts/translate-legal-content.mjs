@@ -8,6 +8,7 @@
 //   (번역이 금액을 로케일 관습대로 2.900 / 1,99 US$ 등으로 바꿔놓아 표기가 결제 화면과 어긋난다.
 //    마지막으로 validate-legal-content.ts로 확인할 것.)
 // 안전장치: 파일별로 sections 배열을 브래킷 매칭으로 치환하고, 끝나면 호출부(상위)에서 tsc로 검증.
+import { spawnSync } from "node:child_process";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -227,8 +228,60 @@ function selfTest() {
 const argv = process.argv.slice(2);
 if (argv.includes("--self-test")) selfTest();
 
+/**
+ * **인자 없는 실행이 전 로케일을 덮던 자리다** (2026-08-20, 구현 명세 §7).
+ *
+ * 예전에는 `argv.length ? argv : Object.keys(LANG_NAMES)` 였다. 즉 `node scripts/
+ * translate-legal-content.mjs` 만 치면 **23개 로케일의 약관 네 편이 전부 다시 번역돼 덮였다.**
+ * 가장 파괴적인 동작이 기본값 자리에 있었다.
+ *
+ * 지금은 대상을 반드시 적어야 하고, 전체 실행은 `--all` 로만 한다.
+ */
+const wantsAll = argv.includes("--all");
+const named = argv.filter((value) => !value.startsWith("--"));
+if (!wantsAll && named.length === 0) {
+  console.error("대상이 없다. 로케일을 적거나 `--all` 을 명시할 것.");
+  console.error("  node scripts/translate-legal-content.mjs vi th");
+  console.error("  node scripts/translate-legal-content.mjs --all");
+  console.error("  검수된 로케일을 덮으려면 --invalidate-review=<locale> 로 명시할 것");
+  process.exit(1);
+}
+
+/**
+ * **재생성 보호 관문.** 판정은 `scripts/regeneration-guard.ts` 한 곳에만 둔다 — 이 파일은
+ * 순수 node 라 TypeScript 인벤토리를 직접 못 부르므로 `tsx` 하위 프로세스로 부른다. 관문을
+ * `.mjs` 로 한 벌 더 쓰면 두 판정이 갈라지고, 갈라진 판정은 언젠가 한쪽만 고쳐진다.
+ *
+ * **한 파일도 쓰기 전에** 부른다.
+ */
+const guardArgs = ["tsx", "scripts/regeneration-guard.ts", "--scope", "legal"];
+if (wantsAll) guardArgs.push("--all");
+else guardArgs.push("--targets", named.join(","));
+for (const flag of argv.filter((value) => value.startsWith("--invalidate-review"))) guardArgs.push(flag);
+
+const guard = spawnSync("npx", guardArgs, { cwd: process.cwd(), encoding: "utf8", shell: true });
+process.stdout.write(guard.stdout ?? "");
+if (guard.status !== 0) {
+  process.stderr.write(guard.stderr ?? "");
+  console.error("재생성 관문이 막았다 — 아무것도 쓰지 않았다.");
+  process.exit(1);
+}
+const allowed = (/^ALLOWED=(.*)$/m.exec(guard.stdout ?? "")?.[1] ?? "")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean);
+if (allowed.length === 0) {
+  console.error("관문이 허락한 대상이 0건이다 — 0건 실행을 성공으로 세지 않는다.");
+  process.exit(1);
+}
+
 const env = loadEnv();
-const targets = argv.length ? argv : Object.keys(LANG_NAMES);
+// `ko` 는 원문이라 번역 대상이 아니다. 관문이 넘긴 목록에서 마지막으로 한 번 더 거른다.
+const targets = allowed.filter((locale) => locale !== "ko" && LANG_NAMES[locale]);
+if (targets.length === 0) {
+  console.error("번역할 로케일이 없다 — `LANG_NAMES` 에 있는 대상이 하나도 남지 않았다.");
+  process.exit(1);
+}
 
 for (const locale of targets) {
   const langName = LANG_NAMES[locale];

@@ -65,7 +65,7 @@ const labels = {
  * 채운다.** `Record<LocaleCode, …>`라 하나라도 빠지면 tsc가 잡는다 — 나중에 검수 로케일이
  * 늘어나는 날 라벨만 한국어로 남는 사고를 구조적으로 막는다.
  */
-const AD_NOTICE: Record<LocaleCode, string> = {
+export const AD_NOTICE: Record<LocaleCode, string> = {
   ko: "광고",
   en: "Advertisement",
   ja: "広告",
