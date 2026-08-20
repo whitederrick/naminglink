@@ -31,12 +31,21 @@ type GuideOrigin = {
   label: (dictionary: Dictionary) => string;
 };
 
-const ORIGINS: Record<string, GuideOrigin> = {
-  reading: { path: "/reading", label: (d) => d.landing.cta },
-  today: { path: "/today", label: (d) => d.today.menu },
-};
-
-export type GuideOriginKey = keyof typeof ORIGINS;
+/**
+ * **표는 `Map` 이다 — 「아는 slug」에 물려받은 이름이 섞이면 안 된다** (2026-08-20).
+ *
+ * 객체 리터럴에 `ORIGINS[from]` · `from in ORIGINS` 로 물으면 **프로토타입에서 물려받은
+ * 이름까지 찾는다.** `from=toString` 이 참이 되고, 그 값은 함수라 `origin.path` 가
+ * `undefined` 인 채 `localePath` 로 들어가 죽는다.
+ *
+ * 같은 결함이 naminglink `lib/stamp-back.ts` 에서 **실제로 HTTP 500 으로 재현됐다**(재검증
+ * P1). 여기는 지금 호출부가 `from` 을 넘기지 않아 닿지 않지만, 닿게 하는 것은 한 줄이다.
+ * 「지금은 안전」에 기대지 않고 갈래 자체를 없앤다 — `Map` 에는 물려받는 이름이 없다.
+ */
+const ORIGINS = new Map<string, GuideOrigin>([
+  ["reading", { path: "/reading", label: (d) => d.landing.cta }],
+  ["today", { path: "/today", label: (d) => d.today.menu }],
+]);
 
 /**
  * 안내 문서에서 돌아가는 링크. 부른 화면이 있으면 그곳으로, 없으면 홈으로.
@@ -46,7 +55,7 @@ export type GuideOriginKey = keyof typeof ORIGINS;
  * 기본값을 두면 그 값이 21개 언어에서 그대로 나가는 날이 온다.
  */
 export function guideBackLink(locale: Locale, from: string | undefined, homeLabel: string) {
-  const origin = from ? ORIGINS[from] : undefined;
+  const origin = from ? ORIGINS.get(from) : undefined;
   if (!origin) return { href: localePath("/", locale), label: homeLabel };
 
   return {
@@ -67,7 +76,7 @@ export function guideHubHref(locale: Locale | null, from?: string) {
 
 /** 허브가 문서 카드 링크에 실을 쿼리. 아는 값일 때만 붙인다. */
 export function guideOriginQuery(from?: string) {
-  return from && from in ORIGINS ? `from=${from}` : undefined;
+  return from && ORIGINS.has(from) ? `from=${from}` : undefined;
 }
 
 /**
@@ -82,7 +91,7 @@ export function guideOriginQuery(from?: string) {
  */
 export function guideHubOrigins(locale: Locale, label: string): Record<string, BackTarget> {
   const origins: Record<string, BackTarget> = {};
-  for (const from of Object.keys(ORIGINS)) {
+  for (const from of ORIGINS.keys()) {
     origins[from] = { href: guideHubHref(locale, from), label };
   }
   return origins;
@@ -94,7 +103,7 @@ export function guideHubOrigins(locale: Locale, label: string): Record<string, B
  */
 export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<string, BackTarget> {
   const origins: Record<string, BackTarget> = {};
-  for (const from of Object.keys(ORIGINS)) {
+  for (const from of ORIGINS.keys()) {
     origins[from] = guideBackLink(locale, from, homeLabel);
   }
   return origins;
@@ -110,7 +119,7 @@ export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<s
 export function guideEntryOrders(): Record<string, number[]> {
   const base = guideEntriesFor(undefined);
   const orders: Record<string, number[]> = {};
-  for (const from of Object.keys(ORIGINS)) {
+  for (const from of ORIGINS.keys()) {
     const ordered = guideEntriesFor(from);
     orders[from] = base.map((entry) => ordered.findIndex((item) => item.slug === entry.slug));
   }
