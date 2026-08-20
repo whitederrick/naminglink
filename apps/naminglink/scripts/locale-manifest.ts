@@ -135,6 +135,91 @@ export function sourceKindErrors(record: ScopeRecord): string[] {
 }
 
 /**
+ * **`reviewSourceHash` 가 가리켜야 할 원문의 로케일.** `null` 이면 원문 자리라 해시가 없다.
+ *
+ * 결함 동결 P0-2 (2026-08-20). 2판까지는 "재계약하라"만 있고 **무엇에서** 계산할지가 없었다.
+ * `en` docs 에는 사람이 쓴 원문과 `--fill-en` 산출물이 **섞여 있어** 로케일 단위 규칙으로는
+ * 계산할 수 없다. 그래서 artifact 단위로 정한다.
+ *
+ *     en docs 직접 작성            origin      없음
+ *     en docs 의 --fill-en 산출물  translated  대응하는 ko artifact
+ *     비영어 docs                  translated  대응하는 en artifact
+ *     ko legal                     origin      없음
+ *     비한국어 legal               translated  대응하는 ko artifact
+ *     screen · consent 전체 로케일 origin      없음   ← 생성기 없는 직접 작성물
+ *
+ * `screen`·`consent` 는 로케일을 가리지 않고 `origin` 이다. 사람이 다른 원문과 대조했다고
+ * **명시한** artifact 만 `translated` 로 적고 실제 원문 해시를 쓴다.
+ */
+export function sourceLocaleFor(record: ScopeRecord, artifact: ArtifactRecord): string | null {
+  if (artifact.sourceKind === "origin") return null;
+  if (record.scope === "screen" || record.scope === "consent") return "ko";
+  if (record.scope === "docs") return record.locale === "en" ? "ko" : "en";
+  return "ko"; // legal
+}
+
+/**
+ * **`reviewSourceHash` 를 실제 원문에서 다시 계산해 대조한다.**
+ *
+ * 결함 동결 P0-2. 예전 검사는 **구조뿐**이었다 — `origin` 엔 없어야 하고 `translated` 엔
+ * 있어야 한다. 값이 실제 원문과 맞는지는 아무도 보지 않았고, 그래서
+ * `reviewSourceHash: "bogus"` 가 유효한 검수 증빙으로 통과했다.
+ *
+ * 더 나쁜 것: `regeneration-guard.ts` 가 이 값을 **드리프트 비교의 기준**으로 쓴다.
+ * 위조값이면 기준 자체가 쓰레기다.
+ *
+ * `targetHash` 와 **같은 취급**을 받아야 한다 — 구조 검사가 아니라 재계산 대조.
+ */
+export function reviewSourceHashErrors(record: ScopeRecord): string[] {
+  const errors: string[] = [];
+  const key = `${record.locale}/${record.scope}`;
+  /** 원문 로케일별 인벤토리. 필요할 때만 읽는다. */
+  const sourceCache = new Map<string, Map<string, string>>();
+  const sourceLeaves = (locale: string) => {
+    let found = sourceCache.get(locale);
+    if (!found) {
+      found = new Map(
+        scopeInventory(record.scope, locale as LocaleCode).map((leaf) => [leaf.path, leaf.value]),
+      );
+      sourceCache.set(locale, found);
+    }
+    return found;
+  };
+
+  for (const artifact of record.artifacts ?? []) {
+    const sourceLocale = sourceLocaleFor(record, artifact);
+    if (sourceLocale === null) {
+      if (artifact.reviewSourceHash !== undefined) {
+        errors.push(`${key}:${artifact.id} — origin 인데 reviewSourceHash 가 있다.`);
+      }
+      continue;
+    }
+    if (artifact.reviewSourceHash === undefined) {
+      errors.push(`${key}:${artifact.id} — translated 인데 reviewSourceHash 가 없다.`);
+      continue;
+    }
+    // **대응하는 원문이 없으면 실패한다**(조건 ③). 없는 것을 대조했다고 말할 수 없다.
+    const sourceValue = sourceLeaves(sourceLocale).get(artifact.id);
+    if (sourceValue === undefined) {
+      errors.push(
+        `${key}:${artifact.id} — 대응하는 원문 artifact 가 '${sourceLocale}' 에 없다. ` +
+          "무엇과 대조했는지 확인할 수 없으므로 검수 증빙으로 쓸 수 없다.",
+      );
+      continue;
+    }
+    const expected = hashValue(sourceValue);
+    if (artifact.reviewSourceHash !== expected) {
+      errors.push(
+        `${key}:${artifact.id} — reviewSourceHash 가 '${sourceLocale}' 원문과 다르다` +
+          `(기록 ${artifact.reviewSourceHash.slice(0, 12)}… · 실제 ${expected.slice(0, 12)}…). ` +
+          "검수 뒤 원문이 바뀌었거나, 대조하지 않고 적은 값이다.",
+      );
+    }
+  }
+  return errors;
+}
+
+/**
  * 기록된 인벤토리 버전이 **지금 값과 같은가**.
  *
  * 다르면 검수 뒤 대상 목록이 바뀐 것이다 — 새 문구가 생겼거나 표가 늘었다. 그 상태의 검수는
@@ -168,18 +253,15 @@ export function validateManifest(manifest: Manifest): string[] {
     for (const artifact of record.artifacts ?? []) {
       const where = `${key}:${artifact.id}`;
       if (!artifact.targetHash) errors.push(`${where} — targetHash 가 없다`);
-      if (artifact.sourceKind === "origin" && artifact.reviewSourceHash) {
-        errors.push(`${where} — origin 인데 reviewSourceHash 가 있다(대조한 원문이 없어야 정상이다)`);
-      }
-      if (artifact.sourceKind === "translated" && !artifact.reviewSourceHash) {
-        errors.push(`${where} — translated 인데 reviewSourceHash 가 없다`);
-      }
       if (artifact.sourceKind !== "origin" && artifact.sourceKind !== "translated") {
         errors.push(`${where} — 모르는 sourceKind: ${String(artifact.sourceKind)}`);
       }
     }
 
     errors.push(...sourceKindErrors(record));
+    // **구조가 아니라 값을 본다**(결함 동결 P0-2). 있고 없음 검사도 여기가 함께 한다 —
+    // 두 벌이 되면 언젠가 갈라진다.
+    errors.push(...reviewSourceHashErrors(record));
     errors.push(...inventoryVersionErrors(record));
   }
   return errors;

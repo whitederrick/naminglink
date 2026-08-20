@@ -1,7 +1,7 @@
 import { revalidateTag } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
 import { isDevEnvironment } from "@naminglink/core/env";
-import { sealedLegalHash } from "@/lib/locale-review-seal";
+import { legalPublishBlocked, sealedLegalHash } from "@/lib/locale-review-seal";
 import { hashReviewDocument } from "@/lib/review-hash";
 import { requireAdmin } from "@/lib/admin-auth";
 import { FOOTER_CONTENT_TAG, POLICY_CONTENT_TAG } from "@/lib/site-content-server";
@@ -181,14 +181,16 @@ export async function PUT(request: NextRequest) {
    * **초안 저장은 막지 않는다.** 고칠 자유는 남기고, 화면에 내보내는 것만 검수를 거치게 한다.
    * 무효화 단추는 여기 두지 않는다 — manifest 를 고쳐 배포하는 길 하나로 둔다.
    */
-  const sealedHash = action === "publish" ? sealedLegalHash(locale, kind) : null;
-  const incomingHash = sealedHash ? hashReviewDocument(content) : "";
   /**
    * **게시만 막고 초안은 저장한다.** 여기서 바로 돌려보내면 운영자가 고친 내용까지 사라져,
    * 관문이 「막는 장치」가 아니라 「일을 지우는 장치」가 된다. 아래 upsert 는 그대로 돌고
    * `published_*` 만 얹지 않는다.
+   *
+   * 판정식은 `locale-review-seal.ts` 에서 가져온다 — 검사기도 **같은 함수**를 부른다.
+   * 예전에는 두 벌로 적혀 있어, 이쪽을 고쳐도 검사기는 초록불이었다(결함 동결 P1-5).
    */
-  const publishBlocked = Boolean(sealedHash) && sealedHash !== incomingHash;
+  const publishBlocked =
+    action === "publish" && legalPublishBlocked(locale, kind, hashReviewDocument(content));
 
   if (action === "publish" && !publishBlocked) {
     values.published_content = content;
@@ -215,7 +217,7 @@ export async function PUT(request: NextRequest) {
         error: "검수된 약관이라 승인되지 않은 내용을 게시할 수 없습니다. 초안은 저장했습니다.",
         details: [
           `locale ${locale} · ${kind} · 검수 완료 상태`,
-          `현재 hash ${incomingHash} · 승인 hash ${sealedHash}`,
+          `현재 hash ${hashReviewDocument(content)} · 승인 hash ${sealedLegalHash(locale, kind) ?? "-"}`,
           "게시하려면 다시 검수한 뒤 docs/locale-review/manifest.json 을 갱신하고,",
           "`npx tsx scripts/seal-locale-review.ts` 로 봉인을 다시 만들어 배포하십시오.",
           "이 화면에는 검수를 즉석에서 무효화하는 단추를 두지 않습니다 — 그 길을 열면 게시 직후부터",

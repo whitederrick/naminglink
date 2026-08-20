@@ -14,11 +14,15 @@
  */
 import { readFileSync } from "node:fs";
 
-import { buildSeal, renderSeal, SEAL_PATH } from "./seal-locale-review";
+import { buildSeal, renderSeal, SealMismatchError, SEAL_PATH } from "./seal-locale-review";
 import { fileOnlyReader } from "./legal-source";
-import { loadManifest, hashValue, type Manifest, type ScopeRecord } from "./locale-manifest";
+import { loadManifest, hashValue, type ScopeRecord } from "./locale-manifest";
 import { scopeInventory } from "./locale-inventory";
-import { LEGAL_REVIEW_SEAL, sealedLegalHash } from "../src/lib/locale-review-seal";
+import {
+  LEGAL_REVIEW_SEAL,
+  isBlockedBySeal,
+  legalPublishBlocked,
+} from "../src/lib/locale-review-seal";
 import { hashReviewDocument } from "../src/lib/review-hash";
 import { getLegalLocaleContent } from "../src/lib/legal-content";
 
@@ -41,7 +45,15 @@ const manifest = loadManifest();
 // ── ① 봉인이 manifest 와 같은가 ────────────────────────────────────────────
 console.log("① 봉인 ↔ manifest");
 {
-  const { seal, skipped } = await buildSeal(manifest, fileOnlyReader);
+  // **어긋나면 던진다**(결함 동결 P0-1 ③). 여기서 잡아 빨간불로 바꾼다.
+  let seal: Record<string, string>;
+  try {
+    ({ seal } = await buildSeal(manifest, fileOnlyReader));
+  } catch (error) {
+    if (!(error instanceof SealMismatchError)) throw error;
+    for (const note of error.reasons) fail(`봉인을 만들 수 없다: ${note}`);
+    seal = {};
+  }
   const onDisk = readFileSync(SEAL_PATH, "utf8");
   const expected = renderSeal(seal);
   check(
@@ -53,16 +65,18 @@ console.log("① 봉인 ↔ manifest");
     "불러온 상수도 같은 건수다",
     Object.keys(LEGAL_REVIEW_SEAL).length === Object.keys(seal).length,
   );
-  // **건너뜀은 통과가 아니다.** 봉인이 빠진 로케일은 런타임에서 게시가 열린다.
-  for (const note of skipped) fail(`봉인이 빠졌다(게시가 열린다): ${note}`);
 }
 
 // ── ② 관문 판정 ────────────────────────────────────────────────────────────
-/** 라우트와 같은 판정식(`site-content/route.ts`). 여기 두 벌이 되지 않게 규칙만 옮겨 적는다. */
-const blocked = (locale: string, kind: string, content: unknown) => {
-  const sealed = sealedLegalHash(locale, kind);
-  return Boolean(sealed) && sealed !== hashReviewDocument(content);
-};
+/**
+ * **라우트가 부르는 바로 그 함수를 부른다** (결함 동결 P1-5).
+ *
+ * 예전에는 여기 판정식을 **옮겨 적어** 두었다. 그때는 값이 같았지만, 라우트를 고쳐도 이 검사기는
+ * 초록불이라 **갈라지는 것을 알아챌 방법이 없었다.** 지금은 한 자리에서 export 한 것을
+ * 라우트(`site-content/route.ts`)와 여기가 함께 import 한다 — 두 벌이 아닌 것이 구조적으로 참이다.
+ */
+const blocked = (locale: string, kind: string, content: unknown) =>
+  legalPublishBlocked(locale, kind, hashReviewDocument(content));
 
 console.log("\n② 관문 판정");
 {
@@ -87,10 +101,10 @@ console.log("\n③ 대조군 — 판정기가 살아 있는가");
   // 봉인이 비어 있어도 판정식 자체는 시험할 수 있다. 가짜 봉인으로 세 갈래를 만든다.
   const fakeSeal = (map: Record<string, string>) => (locale: string, kind: string) =>
     map[`${locale}:${kind}`] ?? null;
-  const decide = (lookup: (l: string, k: string) => string | null, content: unknown) => {
-    const sealed = lookup("en", "terms");
-    return Boolean(sealed) && sealed !== hashReviewDocument(content);
-  };
+  // **판정 알맹이를 그대로 부른다.** 여기 규칙을 다시 적으면 P1-5 를 고치면서 같은 결함을
+  // 대조군에 새로 심는 셈이 된다.
+  const decide = (lookup: (l: string, k: string) => string | null, content: unknown) =>
+    isBlockedBySeal(lookup("en", "terms"), hashReviewDocument(content));
   const doc = { title: "T", sections: [{ title: "1. a", paragraphs: ["p"] }] };
   const approved = hashReviewDocument(doc);
 
@@ -105,7 +119,23 @@ console.log("\n③ 대조군 — 판정기가 살아 있는가");
     decide(fakeSeal({ "en:privacy": approved }), { ...doc, title: "바뀜" }) === false,
   );
 
-  // manifest 드리프트가 있으면 봉인하지 않는다(틀린 값을 정답으로 굳히지 않는다).
+  /**
+   * **공용 판정 함수의 행동을 직접 본다**(결함 동결 P1-5 조건 ②).
+   *
+   * 「양쪽이 함께 바뀌는지」를 시험하지는 않는다 — import 하면 두 벌이 아닌 것이 구조적으로
+   * 참이고, 거기에 시험을 더하면 「도는가만 보는 형식적 시험」이 하나 는다. 이번에 없앤 부류다.
+   */
+  const sealedNow = Object.keys(LEGAL_REVIEW_SEAL);
+  if (sealedNow.length === 0) {
+    check("봉인이 없으면 막지 않는다(공용 함수)", legalPublishBlocked("en", "terms", "무엇이든") === false);
+  } else {
+    const [locale, kind] = sealedNow[0]!.split(":");
+    const sealedValue = LEGAL_REVIEW_SEAL[sealedNow[0]!]!;
+    check("봉인 == 내용 → 허용(공용 함수)", legalPublishBlocked(locale!, kind!, sealedValue) === false);
+    check("봉인 != 내용 → 차단(공용 함수)", legalPublishBlocked(locale!, kind!, "다른값") === true);
+  }
+
+  // manifest 드리프트가 있으면 **부분 봉인을 만들지 않고 죽는다**(결함 동결 P0-1 ③).
   const koLegal = scopeInventory("legal", "ko");
   const driftedRecord: ScopeRecord = {
     locale: "ko",
@@ -120,10 +150,15 @@ console.log("\n③ 대조군 — 판정기가 살아 있는가");
     reviewedAt: "2026-08-20",
     verdicts: { modified: 0, approved: koLegal.length, deferred: 0 },
   };
-  const drifted: Manifest = { version: 1, scopes: [driftedRecord] };
-  const result = await buildSeal(drifted, fileOnlyReader);
-  check("드리프트가 있으면 봉인하지 않는다", Object.keys(result.seal).length === 0);
-  check("건너뛴 이유를 알린다", result.skipped.length > 0);
+  let mismatch: SealMismatchError | null = null;
+  try {
+    await buildSeal({ version: 1, scopes: [driftedRecord] }, fileOnlyReader);
+  } catch (error) {
+    if (!(error instanceof SealMismatchError)) throw error;
+    mismatch = error;
+  }
+  check("드리프트가 있으면 던진다(부분 봉인을 돌려주지 않는다)", mismatch !== null);
+  check("죽은 이유를 알린다", (mismatch?.reasons.length ?? 0) > 0);
 
   // 반대 방향 — 드리프트가 없으면 봉인한다(0건으로 늘 통과하는 검사가 아니다).
   const cleanRecord: ScopeRecord = {

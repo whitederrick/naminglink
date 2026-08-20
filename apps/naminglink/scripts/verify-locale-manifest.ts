@@ -138,6 +138,38 @@ console.log("\n⑤ 보류");
 // ── ⑥ 대조군 ───────────────────────────────────────────────────────────────
 console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
 {
+  /**
+   * **결함 동결 P0-2 의 대조군 재료.** 같은 레코드를 두 갈래로 만들어 양방향을 본다 —
+   * 하나는 Codex 가 통과시킨 `"bogus"`, 하나는 실제 `ko` 원문에서 계산한 값.
+   */
+  const jaLegal = scopeInventory("legal", "ja");
+  const koLegalByPath = new Map(
+    scopeInventory("legal", "ko").map((leaf) => [leaf.path, leaf.value]),
+  );
+  const jaLegalRecord = (sourceHash: (path: string) => string) => ({
+    version: 1 as const,
+    scopes: [
+      {
+        locale: "ja",
+        scope: "legal" as const,
+        inventoryVersion: inventoryVersion("ja"),
+        artifacts: jaLegal.map((leaf) => ({
+          id: leaf.path,
+          sourceKind: "translated" as const,
+          reviewSourceHash: sourceHash(leaf.path),
+          targetHash: hashValue(leaf.value),
+        })),
+        reviewer: "대조군",
+        reviewedAt: "2026-08-20",
+        verdicts: { modified: 0, approved: jaLegal.length, deferred: 0 },
+      },
+    ],
+  });
+  const bogusSourceHashErrors = validateManifest(jaLegalRecord(() => "bogus"));
+  const realSourceHashErrors = validateManifest(
+    jaLegalRecord((path) => hashValue(koLegalByPath.get(path) ?? "")),
+  );
+
   const control: { label: string; ok: boolean }[] = [
     {
       label: "origin 인데 reviewSourceHash 가 있으면 잡는다",
@@ -289,6 +321,49 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
             },
           ],
         }).some((error) => error.includes("inventoryVersion 이 다르다")),
+    },
+    {
+      /**
+       * **Codex 가 통과시킨 값**(2026-08-20 · 결함 동결 P0-2). `reviewSourceHash: "bogus"` 가
+       * 유효한 검수 증빙으로 통과했다 — 검사가 **구조뿐**이라 값이 실제 원문과 맞는지는
+       * 아무도 보지 않았다. 게다가 `regeneration-guard` 가 그 값을 드리프트 비교의 **기준**으로
+       * 쓴다. 위조값이면 기준 자체가 쓰레기다.
+       *
+       * 가짜 이름이 아니라 **실제로 통과했던 값 그대로** 넣는다.
+       */
+      label: 'reviewSourceHash: "bogus" 를 잡는다 (Codex 가 통과시킨 값)',
+      ok: bogusSourceHashErrors.some((error) => error.includes("원문과 다르다")),
+    },
+    {
+      // 반대 방향 — 실제 ko 원문에서 계산한 값이면 막지 않는다.
+      label: "실제 원문에서 계산한 reviewSourceHash 는 통과한다(대조군)",
+      ok: realSourceHashErrors.length === 0,
+    },
+    {
+      // 조건 ③ — 없는 것을 대조했다고 말할 수 없다.
+      label: "대응하는 원문 artifact 가 없으면 잡는다",
+      ok:
+        validateManifest({
+          version: 1,
+          scopes: [
+            {
+              locale: "ja",
+              scope: "legal",
+              inventoryVersion: inventoryVersion("ja"),
+              artifacts: [
+                {
+                  id: "legal.존재하지-않는.항목",
+                  sourceKind: "translated",
+                  reviewSourceHash: hashValue("x"),
+                  targetHash: hashValue("y"),
+                },
+              ],
+              reviewer: "r",
+              reviewedAt: "d",
+              verdicts: { modified: 0, approved: 1, deferred: 0 },
+            },
+          ],
+        }).some((error) => error.includes("대응하는 원문")),
     },
     {
       // 반대 방향 — 옳게 적은 기록은 통과해야 한다. 늘 실패하는 검사는 검사가 아니다.

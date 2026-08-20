@@ -13,22 +13,68 @@ import { writeFileSync } from "node:fs";
 import path from "node:path";
 
 import { loadManifest, scopeComplete, hashValue, type Manifest } from "./locale-manifest";
-import { scopeInventory } from "./locale-inventory";
 import {
   fileOnlyReader,
   resolveLegalDocuments,
+  resolvedLegalLeaves,
   supabasePublishedReader,
   type PublishedLegalReader,
 } from "./legal-source";
 import { hashReviewDocument } from "../src/lib/review-hash";
-import type { LocaleCode } from "../src/lib/locale-codes";
 
 export const SEAL_PATH = path.join(process.cwd(), "src", "lib", "locale-review-seal.ts");
 
 /**
- * manifest 가 승인한 약관 문서의 해시. **드리프트가 있으면 봉인하지 않는다** — 검수 당시와
- * 내용이 다르면 그 승인은 이미 뜻을 잃었고, 그것을 봉인하면 관문이 **틀린 값을 정답으로**
- * 굳힌다.
+ * **봉인을 만들 수 없다.** 검수가 승인한 문서와 지금 운영 원본이 다르다는 뜻이다.
+ *
+ * 결함 동결 P0-1 조건 ③. 예전에는 `skipped` 배열만 돌려줬는데, **호출자가 무시할 수 있는
+ * 반환값은 관문이 아니다.** 부르는 쪽이 그냥 넘어가면 반쪽 봉인이 그대로 쓰인다.
+ * 지금은 던진다 — 넘어가려면 명시적으로 잡아야 한다.
+ */
+export class SealMismatchError extends Error {
+  readonly reasons: readonly string[];
+  constructor(reasons: readonly string[]) {
+    super(`검수와 운영 원본이 어긋난다 (${reasons.length}건)`);
+    this.name = "SealMismatchError";
+    this.reasons = reasons;
+  }
+}
+
+/**
+ * **운영 원본을 물어보지 못했다.** 결함 동결 P0-3.
+ *
+ * `SealMismatchError` 와 **다른 것**이다. 저것은 「봤는데 다르다」(결함), 이것은 「못 봤다」
+ * (환경). 둘을 한 오류로 묶으면 다시 「못 돎이 통과로 새는」 자리가 생긴다.
+ */
+export class SealEnvironmentError extends Error {
+  readonly reasons: readonly string[];
+  constructor(reasons: readonly string[]) {
+    super(`운영 원본을 확인하지 못했다 — 환경변수 (${reasons.length}건)`);
+    this.name = "SealEnvironmentError";
+    this.reasons = reasons;
+  }
+}
+
+/**
+ * manifest 가 승인한 약관 문서의 해시.
+ *
+ * **드리프트가 있으면 봉인하지 않는다** — 검수 당시와 내용이 다르면 그 승인은 이미 뜻을
+ * 잃었고, 그것을 봉인하면 관문이 **틀린 값을 정답으로** 굳힌다.
+ *
+ * ## 무엇과 대조하는가 (2026-08-20 정정 · 결함 동결 P0-1)
+ *
+ * 예전에는 드리프트를 **파일 인벤토리**로 검사하고 봉인 값은 **고른 원본**(DB일 수 있다)에서
+ * 만들었다. 둘이 다른 것을 보므로, manifest 가 파일 내용을 승인해 둔 상태에서 DB 문서를
+ * 바꿔 넣으면 검사는 파일끼리 통과하고 **승인한 적 없는 DB 내용이 봉인**됐다.
+ *
+ * 지금은 **먼저 고르고, 고른 것을 승인 해시와 대조한다.** 대조 대상과 봉인 대상이 같은
+ * 문서다. 변환은 `resolvedLegalLeaves`(`legal-source.ts`) 하나를 packet 과 함께 쓴다.
+ *
+ * 그래서 **DB 기준으로 정상 승인한 manifest 도 통과한다** — 파일 기준으로 검사하던 때는
+ * 그것이 거짓 드리프트로 거부됐고, 조건 ②(정상 승인분은 막지 않는다)를 시험할 방법조차
+ * 없었다.
+ *
+ * @throws {SealMismatchError} 어긋나면 **부분 봉인을 만들지 않고 던진다**.
  */
 export async function buildSeal(
   manifest: Manifest,
@@ -40,15 +86,38 @@ export async function buildSeal(
   reader: PublishedLegalReader = fileOnlyReader,
 ): Promise<{ seal: Record<string, string>; skipped: string[]; sources: Record<string, string> }> {
   const seal: Record<string, string> = {};
-  const skipped: string[] = [];
+  const reasons: string[] = [];
   /** 로케일별로 **무엇을 봉인했는지**. 파일인지 DB 게시본인지 기록에 남는다. */
   const sources: Record<string, string> = {};
 
   for (const record of manifest.scopes) {
     if (record.scope !== "legal" || !scopeComplete(record)) continue;
 
-    const inventory = scopeInventory("legal", record.locale as LocaleCode);
-    const byId = new Map(inventory.map((leaf) => [leaf.path, leaf.value]));
+    // **DEC-01 — DB 게시본이 있으면 그것이 운영 원본이다.** 화면이 고르는 순서와 같다.
+    // 먼저 고른다. 대조도 봉인도 **이 결과 하나**를 본다.
+    const resolved = await resolveLegalDocuments(record.locale, reader);
+    sources[record.locale] = resolved.source;
+    if (resolved.unavailable.length) {
+      /**
+       * **못 물어본 것을 「게시본 없음」으로 세지 않는다** (결함 동결 P0-3).
+       *
+       * 여기서 넘어가면 자격증명 없는 컴퓨터가 **파일을 봉인해 놓고**, 화면은 DB 게시본을
+       * 내보내는 상태가 만들어진다. 봉인은 운영 원본을 봐야 하는데 운영 원본을 못 봤다.
+       * 통과도 실패도 아닌 **환경 실패**다.
+       */
+      throw new SealEnvironmentError(
+        resolved.unavailable.map((u) => `${record.locale}:${u.kind} — ${u.reason}`),
+      );
+    }
+    if (resolved.invalidFromDb.length) {
+      reasons.push(
+        `${record.locale} — DB 게시본이 있는데 형식이 깨졌다(${resolved.invalidFromDb.join(", ")}). 화면은 파일로 떨어지므로 봉인하지 않는다.`,
+      );
+      continue;
+    }
+
+    // 고른 원본을 인벤토리와 **같은 잎 모양**으로 펴서 승인 해시와 대조한다.
+    const byId = new Map(resolvedLegalLeaves(record.locale, resolved).map((l) => [l.path, l.value]));
     const drifted = record.artifacts.filter((artifact) => {
       const current = byId.get(artifact.id);
       return current === undefined || hashValue(current) !== artifact.targetHash;
@@ -61,28 +130,23 @@ export async function buildSeal(
        * 되고, 런타임의 `sealedLegalHash` 는 `null` 을 돌려주며, 관문은 「검수 안 된 로케일」로
        * 보아 **게시를 허용한다.** 검수 뒤 내용이 바뀐 바로 그 문서가 가장 게시되면 안 되는
        * 것인데 정반대로 열렸다 — fail-open 이다.
-       *
-       * 지금은 봉인을 만들지 않고 **호출자가 실패하게** 한다. `skipped` 가 비어 있지 않으면
-       * `main()` 도 `verify-legal-publish-gate.ts` 도 빨간불이다.
        */
-      skipped.push(`${record.locale} — 검수 뒤 내용이 바뀐 artifact ${drifted.length}건. 다시 검수할 것.`);
-      continue;
-    }
-
-    // **DEC-01 — DB 게시본이 있으면 그것이 운영 원본이다.** 화면이 고르는 순서와 같다.
-    const resolved = await resolveLegalDocuments(record.locale, reader);
-    sources[record.locale] = resolved.source;
-    if (resolved.invalidFromDb.length) {
-      skipped.push(
-        `${record.locale} — DB 게시본이 있는데 형식이 깨졌다(${resolved.invalidFromDb.join(", ")}). 화면은 파일로 떨어지므로 봉인하지 않는다.`,
+      const where = resolved.source === "db" ? "DB 게시본" : "파일";
+      reasons.push(
+        `${record.locale} — 검수가 승인한 내용과 지금 운영 원본(${where})이 다르다. artifact ${drifted.length}건: ${drifted.slice(0, 3).map((d) => d.id).join(", ")}${drifted.length > 3 ? " …" : ""}`,
       );
       continue;
     }
+
     for (const kind of Object.keys(resolved.documents)) {
       seal[`${record.locale}:${kind}`] = hashReviewDocument(resolved.documents[kind]);
     }
   }
-  return { seal, skipped, sources };
+
+  // **부분 봉인을 돌려주지 않는다.** 어긋난 로케일이 하나라도 있으면 전체가 죽는다.
+  if (reasons.length) throw new SealMismatchError(reasons);
+
+  return { seal, skipped: [], sources };
 }
 
 export function renderSeal(seal: Record<string, string>): string {
@@ -112,17 +176,62 @@ ${body}
 export function sealedLegalHash(locale: string, kind: string): string | null {
   return LEGAL_REVIEW_SEAL[\`\${locale}:\${kind}\`] ?? null;
 }
+
+/**
+ * **게시를 막아야 하는가.** 관리자 라우트와 검사기가 **둘 다 이 함수를 부른다**.
+ *
+ * 결함 동결 P1-5 (2026-08-20). 예전에는 같은 판정식이 두 벌 적혀 있었다.
+ *
+ *     src/app/api/admin/site-content/route.ts   Boolean(sealedHash) && sealedHash !== incomingHash
+ *     scripts/verify-legal-publish-gate.ts      같은 식을 옮겨 적음
+ *
+ * 그때는 값이 같았다. 그런데 **검사기가 규칙을 다시 적어 놓아서, 라우트를 고쳐도 검사기는
+ * 초록불**이었다 — 갈라지는 것을 알아챌 방법이 없었다. 한 자리에서 export 하면 두 벌이
+ * 아닌 것이 구조적으로 참이 된다.
+ *
+ * 봉인이 없으면 막지 않는다. 그 (로케일, 문서)는 아직 검수 대상이 아니라는 뜻이다.
+ */
+export function legalPublishBlocked(
+  locale: string,
+  kind: string,
+  contentHash: string,
+): boolean {
+  return isBlockedBySeal(sealedLegalHash(locale, kind), contentHash);
+}
+
+/**
+ * 판정의 **알맹이**. 봉인값을 주입받는다.
+ *
+ * 봉인이 비어 있는 동안에도 판정기가 살아 있는지 시험할 수 있어야 해서 꺼내 두었다. 이게
+ * 없으면 대조군이 규칙을 **다시 적게** 되고, 그러면 P1-5 를 고치면서 같은 결함을 대조군에
+ * 새로 심는 셈이 된다.
+ */
+export function isBlockedBySeal(sealed: string | null, contentHash: string): boolean {
+  return sealed !== null && sealed !== contentHash;
+}
 `;
 }
 
 async function main() {
   const manifest = loadManifest();
   // 봉인은 **실제 운영 원본**을 봐야 한다 — 런타임 관문이 그 값과 대조하기 때문이다.
-  const { seal, skipped, sources } = await buildSeal(manifest, await supabasePublishedReader());
-  if (skipped.length) {
+  let seal: Record<string, string>;
+  let sources: Record<string, string>;
+  try {
+    ({ seal, sources } = await buildSeal(manifest, await supabasePublishedReader()));
+  } catch (error) {
+    if (error instanceof SealEnvironmentError) {
+      // **통과가 아니다.** 봉인은 운영 원본을 봐야 하는데 그것을 못 봤다.
+      console.error("CANNOT_RUN — 운영 원본을 확인하지 못했다. 환경변수가 필요하다.");
+      for (const note of error.reasons) console.error(`  · ${note}`);
+      console.error("  .env.local 의 Supabase 자격증명을 채우고 다시 돌릴 것.");
+      console.error("  **파일로 봉인하지 않았다** — 화면이 DB 게시본을 낼 수 있기 때문이다.");
+      process.exit(1);
+    }
+    if (!(error instanceof SealMismatchError)) throw error;
     // **봉인을 쓰지 않는다.** 반쪽 봉인은 그 로케일의 게시를 열어 버린다(위 주석).
-    console.error("봉인을 만들지 않았다 — 검수와 내용이 어긋난 로케일이 있다.");
-    for (const note of skipped) console.error(`  ✗ ${note}`);
+    console.error("봉인을 만들지 않았다 — 검수와 운영 원본이 어긋난 로케일이 있다.");
+    for (const note of error.reasons) console.error(`  ✗ ${note}`);
     console.error("  다시 검수해 manifest 를 갱신하거나, 그 로케일의 검수를 폐기할 것.");
     process.exit(1);
   }
