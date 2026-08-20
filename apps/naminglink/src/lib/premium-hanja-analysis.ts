@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import { hanjaMeaningDisplay } from "@/lib/hanja-meaning-display";
 
 import { AiUsageRecorder } from "@/lib/ai-usage";
 
@@ -127,31 +128,62 @@ function baseCandidate(
   index: number,
 ): PremiumHanjaReportCandidate {
   const hanjaName = text(candidate.hanja);
-  const characters = records(candidate.character_breakdown).map((item) => ({
-    hangul: text(item.syllable),
-    hanja: text(item.character),
-    meaning: text(item.meaning),
-    elementLabel: text(item.elementLabel) || null,
-    originLabel: text(item.origin_label) || null,
-    officialReadingConfirmed: Boolean(text(item.designated_reading)),
-  }));
-  const meaningPath = characters.map((item) => item.meaning).filter(Boolean);
+  /**
+   * **뜻을 모르는 글자는 모른다고 적는다** (2026-08-20).
+   *
+   * 대법원 표에는 뜻 칸에 발음이 그대로 적힌 글자가 410자 있다(`鐘`의 뜻 칸이 "종"). 그대로
+   * 쓰면 유료 리포트에 「鐘은 '종'의 뜻을 지닙니다」 같은 동어 반복이 실린다. `meaning` 에
+   * 표시용 문구를 담아 두면 **이 값을 그대로 그리는 PDF(`pdf/premium-hanja-report.tsx`)도
+   * 함께 고쳐진다** — 표시 규칙을 두 곳에 두지 않는다.
+   */
+  const characters = records(candidate.character_breakdown).map((item) => {
+    const reading = text(item.designated_reading) || text(item.syllable);
+    const display = hanjaMeaningDisplay(text(item.meaning), reading);
+    return {
+      hangul: text(item.syllable),
+      hanja: text(item.character),
+      meaning: display.text,
+      meaningKnown: display.known,
+      elementLabel: text(item.elementLabel) || null,
+      originLabel: text(item.origin_label) || null,
+      officialReadingConfirmed: Boolean(text(item.designated_reading)),
+    };
+  });
+  /** 뜻으로 **문장을 만들 수 있는** 글자만. 모르는 뜻으로 이야기를 지어내지 않는다. */
+  const knownCharacters = characters.filter((item) => item.meaningKnown);
+  const meaningPath = knownCharacters.map((item) => item.meaning);
   return {
     displayName,
     hanjaName,
     focusLabel: text(candidate.recommendation_focus) || `후보 ${index + 1}`,
     summary:
       text(candidate.recommendation_reason) ||
-      `${characters.map((item) => `${item.hanja}(${item.meaning})`).join("·")}의 자의를 결합한 후보입니다.`,
+      (knownCharacters.length
+        ? `${knownCharacters.map((item) => `${item.hanja}(${item.meaning})`).join("·")}의 자의를 결합한 후보입니다.`
+        : `${characters.map((item) => item.hanja).join("·")} — 공식 자료에 뜻이 적혀 있지 않아 뜻으로 설명하지 않는 후보입니다.`),
     characters,
     story:
       text(candidate.story) ||
-      characters.map((item) => `${item.hanja}은 '${item.meaning}'의 뜻을 지닙니다.`).join(" "),
+      characters
+        .map((item) =>
+          item.meaningKnown
+            ? `${item.hanja}은 '${item.meaning}'의 뜻을 지닙니다.`
+            : `${item.hanja}은 공식 인명용 한자표에 뜻이 적혀 있지 않아 이 리포트에서 뜻을 단정하지 않습니다.`,
+        )
+        .join(" "),
     practicalUse:
       text(candidate.practical_analysis) ||
-      `${meaningPath.join("에서 ")}로 이어지는 의미 구조로 이름을 설명할 수 있습니다.`,
-    selectionGuide: `${meaningPath.join("·")}의 가치를 이름에서 직접적으로 드러내고 싶은 경우 검토할 수 있는 후보입니다. 첫 글자의 뜻이 이름의 출발 이미지를 어떻게 만드는지 살펴야 합니다. 둘째 글자의 뜻이 그 이미지를 자연스럽게 이어 주는지도 확인해야 합니다. 마지막으로 두 자의를 한 문장으로 설명했을 때 가족이 담고 싶은 가치와 맞는지 다른 후보와 나란히 비교할 수 있습니다.`,
-    meaningCaution: `사전 뜻은 상징적 의미를 설명하는 자료이며 이름 사용자의 성격이나 미래를 결정하지 않습니다. '${meaningPath.join("·")}'의 현대적 인상이 가족과 주변 사용자에게 어떻게 받아들여지는지도 함께 살펴야 합니다.`,
+      (meaningPath.length >= 2
+        ? `${meaningPath.join("에서 ")}로 이어지는 의미 구조로 이름을 설명할 수 있습니다.`
+        : meaningPath.length === 1
+          ? `'${meaningPath[0]}'의 뜻이 이름의 인상을 만듭니다. 나머지 글자는 공식 자료에 뜻이 적혀 있지 않아 뜻으로 설명하지 않습니다.`
+          : "이 후보의 글자들은 공식 인명용 한자표에 뜻이 적혀 있지 않아, 뜻이 아니라 소리와 등록 가능성으로 설명합니다."),
+    selectionGuide: meaningPath.length === 0
+      ? "이 후보의 글자들은 공식 인명용 한자표에 뜻이 적혀 있지 않습니다. 집안에서 정한 글자라면 그 뜻은 가족이 아는 바를 따르고, 이 리포트는 지정 음가와 등록 가능성만 확인해 드립니다."
+      : `${meaningPath.join("·")}의 가치를 이름에서 직접적으로 드러내고 싶은 경우 검토할 수 있는 후보입니다. 첫 글자의 뜻이 이름의 출발 이미지를 어떻게 만드는지 살펴야 합니다. 둘째 글자의 뜻이 그 이미지를 자연스럽게 이어 주는지도 확인해야 합니다. 마지막으로 두 자의를 한 문장으로 설명했을 때 가족이 담고 싶은 가치와 맞는지 다른 후보와 나란히 비교할 수 있습니다.`,
+    meaningCaution: meaningPath.length === 0
+      ? "이 후보의 글자들은 공식 인명용 한자표에 뜻이 적혀 있지 않아, 사전 뜻을 근거로 한 설명을 싣지 않았습니다. 뜻을 지어내지 않는 것이 이 리포트의 원칙입니다."
+      : `사전 뜻은 상징적 의미를 설명하는 자료이며 이름 사용자의 성격이나 미래를 결정하지 않습니다. '${meaningPath.join("·")}'의 현대적 인상이 가족과 주변 사용자에게 어떻게 받아들여지는지도 함께 살펴야 합니다.`,
     sajuConnection: null,
     officialSourceLabel:
       "서비스에 등록된 공식 인명용 한자 자료의 지정 음가 후보를 기준으로 했으며, 신고 시점에 공식 조회를 다시 확인해야 합니다.",
