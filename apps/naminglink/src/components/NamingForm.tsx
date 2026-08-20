@@ -13,6 +13,7 @@ import {
   type FieldConfig,
   type Locale,
   type ServiceConfig,
+  type FieldOption,
 } from "@/lib/services";
 import { AILoadingSteps } from "@/components/AILoadingSteps";
 import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
@@ -308,6 +309,49 @@ export function NamingForm({
   // SSR과 클라이언트 첫 렌더가 동일하도록 초기값은 결정적인 initialValues를 쓰고,
   // sessionStorage 초안 복원은 마운트 후 useEffect에서 적용해 hydration 불일치를 막는다.
   const [values, setValues] = useState(initialValues);
+  /**
+   * **돌림자 한자를 고를 수 있게 한다** (2026-08-20).
+   *
+   * 이 칸은 한자를 직접 치는 자유 입력이었다. PC 한글 키보드는 한자 변환 키가 있지만
+   * **안드로이드 Gboard 한국어에는 없다** — 그 이용자는 필수 칸을 채울 방법이 없었다.
+   *
+   * 음절을 넣으면 공식 표의 후보를 받아 목록으로 그린다. 조회가 비면 **자유 입력 그대로**
+   * 둔다(연결이 끊겼다고 입력까지 막지 않는다).
+   */
+  const [generationHanjaOptions, setGenerationHanjaOptions] = useState<FieldOption[]>([]);
+  const generationSyllableValue = values.generationSyllable ?? "";
+  const generationUsed = values.generationNameUsage === "used";
+  useEffect(() => {
+    if (!generationUsed || !/^[가-힣]$/.test(generationSyllableValue)) {
+      setGenerationHanjaOptions([]);
+      return;
+    }
+    let cancelled = false;
+    void (async () => {
+      try {
+        const response = await fetch(
+          `/api/hanja/name-syllable?syllable=${encodeURIComponent(generationSyllableValue)}`,
+        );
+        const payload = (await response.json()) as {
+          ok?: boolean;
+          options?: { hanja: string; meaning: string }[];
+        };
+        if (cancelled) return;
+        setGenerationHanjaOptions(
+          (payload.options ?? []).map((option) => ({
+            value: option.hanja,
+            label: `${option.hanja} · ${option.meaning}`,
+          })),
+        );
+      } catch {
+        if (!cancelled) setGenerationHanjaOptions([]);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [generationUsed, generationSyllableValue]);
+
   useEffect(() => {
     void Promise.resolve().then(() => {
       const restored = restoredDraftValues(initialValues, draftStorageKey);
@@ -783,6 +827,18 @@ export function NamingForm({
                     <span className="text-sm font-medium">{localizedLabel}</span>
                     <FieldInput
                       field={(() => {
+                        // 돌림자 한자: 후보를 받아 왔으면 목록으로, 못 받았으면 자유 입력 그대로.
+                        if (field.name === "generationHanja" && generationHanjaOptions.length) {
+                          return {
+                            ...field,
+                            type: "select" as const,
+                            label: localizedLabel,
+                            options: [
+                              { value: "", label: `${generationSyllableValue} 자 한자를 골라 주세요` },
+                              ...generationHanjaOptions,
+                            ],
+                          };
+                        }
                         const resolvedOptions =
                           isHangulTransliteration && field.name === "country"
                             ? getCountryOptionsForLocale(values.originalNameLanguage)

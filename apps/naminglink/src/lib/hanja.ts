@@ -1,3 +1,5 @@
+import { hanjaMeaningDisplay } from "@/lib/hanja-meaning-display";
+
 type HanjaElement = "wood" | "fire" | "earth" | "metal" | "water" | "neutral";
 
 type HanjaOption = {
@@ -1016,13 +1018,33 @@ function officialOptionsFromInput(
     const character = stringValue(option.character);
     const reading = stringValue(option.reading);
     const meaning = displayMeaning(option.meaning);
+    /**
+     * **여기서는 「글자로서 성립하는가」만 본다** (2026-08-20).
+     *
+     * 예전에는 이 자리에서 뜻 품질(`hasUsableMeaning`·`hasUnsuitableMeaning`)과
+     * `isCandidateOptionAllowed`까지 함께 걸렀다. 그런데 이 함수는 **공식 자료를 들여오는
+     * 문**이다. 여기서 지운 글자는 아래 모든 경로에서 존재하지 않는 것이 된다 — 추천 후보만이
+     * 아니라 **돌림자 고정과 배제 사유 표시까지** 그 글자를 못 본다.
+     *
+     * 실제로 그래서 이런 일이 났다.
+     *
+     *     이종수 · 돌림자 鐘  →  후보 0개
+     *     이종수 · 돌림자 鍾  →  후보 10개
+     *
+     * `鐘`은 대법원 인명용 한자표에 **등재된 글자**다(발음 종·이름 사용 가능). 다만 그 표의
+     * 뜻 칸에 뜻이 아니라 발음이 그대로 "종"이라고 적혀 있어 「뜻 없는 글자」로 걸렸다. 화면은
+     * 「지정 음가와 등록 가능성을 확인하기 어렵습니다」라고 말했는데, **둘 다 확인된 글자였다.**
+     * 같은 상태의 글자가 9,938자 중 410자다(功·肝·權 등).
+     *
+     * 뜻 품질은 **우리가 글자를 고를 때** 볼 일이다. 돌림자는 집안이 정해서 알려 준 글자이지
+     * 우리가 고르는 글자가 아니다. 그래서 그 판정은 `optionsForPosition` 의 일반 후보 갈래로
+     * 옮겼다 — 거기서 `isCandidateOptionAllowed` 가 그대로 건다.
+     */
     if (
       !character ||
       reading !== syllable ||
       !isCjkIdeograph(character) ||
-      isPrivateUseCharacter(character) ||
-      !hasUsableMeaning(meaning, reading) ||
-      hasUnsuitableMeaning(meaning)
+      isPrivateUseCharacter(character)
     ) return [];
 
     const candidate = {
@@ -1044,7 +1066,8 @@ function officialOptionsFromInput(
           ? (option.avoidNote as { label: string; reason: string })
           : undefined,
     };
-    return isCandidateOptionAllowed(candidate, inputFactors) ? [candidate] : [];
+    // 뜻 품질·기피 판정은 **고르는 자리**(`optionsForPosition`)로 옮겼다. 위 주석 참고.
+    return [candidate];
   });
 
   return options;
@@ -1270,9 +1293,37 @@ function combineOptions(optionGroups: HanjaOption[][], limit = 80) {
   return combinations;
 }
 
+/**
+ * **뜻을 모르는 글자로 이야기를 지어내지 않는다** (2026-08-20).
+ *
+ * 대법원 표에는 뜻 칸에 발음이 그대로 적힌 글자가 410자 있다(`鐘`의 뜻 칸이 "종"). 그것을
+ * 뜻처럼 문장에 넣으면 「鐘의 '종'의 뜻을 담습니다」 같은 동어 반복이 결과에 실린다.
+ *
+ * 아래 문장 생성기들은 전부 이 두 함수를 거친다 — 한 자리만 고치면 나머지가 남는다.
+ */
+function meaningKnown(option: HanjaOption) {
+  return hanjaMeaningDisplay(option.meaning, option.reading).known;
+}
+
+/** 뜻으로 문장을 만들 수 있는 글자만. */
+function withMeaning(options: HanjaOption[]) {
+  return options.filter(meaningKnown);
+}
+
+/** 뜻을 모르는 글자를 문장에서 어떻게 부를지. */
+function unknownMeaningClause(options: HanjaOption[]) {
+  const unknown = options.filter((option) => !meaningKnown(option));
+  if (!unknown.length) return "";
+  return ` ${unknown.map((option) => option.character).join("·")}${unknown.length > 1 ? "는" : "은"} 공식 인명용 한자표에 뜻이 적혀 있지 않아 뜻으로 설명하지 않습니다.`;
+}
+
 function candidateMeaning(options: HanjaOption[]) {
   return options
-    .map((option) => `${option.character}(${option.meaning}) — ${option.note}`)
+    .map((option) =>
+      meaningKnown(option)
+        ? `${option.character}(${option.meaning}) — ${option.note}`
+        : `${option.character} — ${option.note}`,
+    )
     .join(" ");
 }
 
@@ -1289,16 +1340,21 @@ function recommendationReason(
     ),
   ];
   const characterFlow = characterMeaningFlow(options);
-  const factualDifference = options
+  const known = withMeaning(options);
+  const factualDifference = known
     .map(
       (option) =>
         `${option.reading} 음절에 ${option.character}의 '${option.meaning}'`,
     )
     .join(", ");
 
-  return matchedTags.length
-    ? `${characterFlow} 뜻이 부모가 담고 싶은 '${parentWishes}' 가운데 ${matchedTags.join("·")}의 가치와 연결됩니다.`
-    : `${factualDifference}을 사용해 ${options.map((option) => `'${option.meaning}'`).join("과 ")}의 뜻을 한 이름 안에 담았습니다.`;
+  if (matchedTags.length) {
+    return `${characterFlow} 뜻이 부모가 담고 싶은 '${parentWishes}' 가운데 ${matchedTags.join("·")}의 가치와 연결됩니다.`;
+  }
+  if (!known.length) {
+    return `${options.map((option) => option.character).join("·")}는 지정 발음이 확인된 한자입니다. 공식 인명용 한자표에 뜻이 적혀 있지 않아 이 결과에서는 뜻을 단정하지 않습니다.`;
+  }
+  return `${factualDifference}을 사용해 ${known.map((option) => `'${option.meaning}'`).join("과 ")}의 뜻을 한 이름 안에 담았습니다.${unknownMeaningClause(options)}`;
 }
 
 function candidateStory(
@@ -1307,15 +1363,16 @@ function candidateStory(
   parentWishes: string,
 ) {
   const characterStories = options
-    .map(
-      (option) =>
-        `${option.reading} 음절의 ${option.character}는 '${option.meaning}'의 뜻을 담습니다.`,
+    .map((option) =>
+      meaningKnown(option)
+        ? `${option.reading} 음절의 ${option.character}는 '${option.meaning}'의 뜻을 담습니다.`
+        : `${option.reading} 음절의 ${option.character}는 공식 인명용 한자표에 뜻이 적혀 있지 않아 뜻을 단정하지 않습니다.`,
     )
     .join(" ");
   const tagImage = [
     ...new Set(options.flatMap((option) => option.tags.slice(0, 2))),
   ].join("·");
-  const meaningImage = [...new Set(options.map((option) => option.meaning))].join("·");
+  const meaningImage = [...new Set(withMeaning(options).map((option) => option.meaning))].join("·");
   const combinedImage = tagImage || meaningImage;
   const wishSentence = parentWishes
     ? `두 뜻은 부모가 담고 싶은 '${parentWishes}'의 가치 중 실제로 맞닿는 부분을 구체적으로 살펴볼 수 있게 합니다.`
@@ -1329,16 +1386,20 @@ function practicalNameAnalysis(
   options: HanjaOption[],
 ) {
   const characterMeanings = options
-    .map((option) => `${option.character}(${option.meaning})`)
+    .map((option) => (meaningKnown(option) ? `${option.character}(${option.meaning})` : option.character))
     .join("·");
-  const explanation = options
+  const known = withMeaning(options);
+  const explanation = known
     .map(
       (option) =>
         `${option.reading}에는 ${option.character}의 '${option.meaning}'을 썼다고 설명할 수 있습니다`,
     )
     .join(". ");
 
-  return `'${displayName}'은 ${characterMeanings}로 표기하며, ${explanation}. 두 글자의 뜻을 연결하면 ${options.map((option) => option.meaning).join("에서 ")}로 이어지는 의미 구조가 됩니다.`;
+  if (known.length < 2) {
+    return `'${displayName}'은 ${characterMeanings}로 표기합니다.${explanation ? ` ${explanation}.` : ""}${unknownMeaningClause(options)}`;
+  }
+  return `'${displayName}'은 ${characterMeanings}로 표기하며, ${explanation}. 두 글자의 뜻을 연결하면 ${known.map((option) => option.meaning).join("에서 ")}로 이어지는 의미 구조가 됩니다.${unknownMeaningClause(options)}`;
 }
 
 function sajuReferenceNote(
@@ -1367,13 +1428,17 @@ function singleHanjaReason(
   }
 
   if (preferredElement !== "neutral" && option.element === preferredElement) {
-    return `${option.character}는 출생 정보에서 참고한 ${elementLabels[preferredElement]}의 보완 관점과 연결되며, '${option.meaning}'의 뜻도 이름의 긍정적인 인상을 더합니다.`;
+    return meaningKnown(option)
+      ? `${option.character}는 출생 정보에서 참고한 ${elementLabels[preferredElement]}의 보완 관점과 연결되며, '${option.meaning}'의 뜻도 이름의 긍정적인 인상을 더합니다.`
+      : `${option.character}는 출생 정보에서 참고한 ${elementLabels[preferredElement]}의 보완 관점과 연결됩니다. 공식 인명용 한자표에 뜻이 적혀 있지 않아 뜻은 단정하지 않습니다.`;
   }
 
   const tagSummary = option.tags.slice(0, 2).join(", ");
   return tagSummary
     ? `${option.character}는 '${option.reading}' 지정 발음을 유지하면서 ${tagSummary} 이미지를 더합니다.`
-    : `${option.character}는 '${option.reading}' 지정 발음이 확인된 한자로, '${option.meaning}'의 뜻을 담습니다.`;
+    : meaningKnown(option)
+      ? `${option.character}는 '${option.reading}' 지정 발음이 확인된 한자로, '${option.meaning}'의 뜻을 담습니다.`
+      : `${option.character}는 '${option.reading}' 지정 발음이 확인된 한자입니다. 공식 인명용 한자표에 뜻이 적혀 있지 않아 뜻은 단정하지 않습니다.`;
 }
 
 function buildHanjaOptionDetails(
@@ -1492,10 +1557,16 @@ export function buildHanjaMeaningResult(inputFactors: Record<string, unknown>) {
   const optionsForPosition = (syllable: string, index: number) => {
     const rawOptions =
       officialOptionsFromInput(inputFactors, syllable) ?? hanjaBank[syllable] ?? [];
-    // 돌림자는 가족이 확정한 글자이므로 의미 품질 필터(isCandidateOptionAllowed)와 중복 제거보다
-    // 먼저 고정한다. 약자 설명 글자(예: 徳)나 의미 중복 글자도 돌림자로 지정되면 그대로 쓴다.
-    // 단, 공식 DB 경로(officialOptionsFromInput)는 PUA·무의미·부정 의미를 이미 걸러내므로,
-    // 그런 글자가 돌림자면 여기서도 후보가 비어 정상적으로 "확인 어려움"으로 처리된다.
+    /**
+     * 돌림자는 **가족이 확정한 글자**이므로 의미 품질 필터(`isCandidateOptionAllowed`)와 중복
+     * 제거보다 먼저 고정한다. 약자 설명 글자(예: 徳)나 의미가 겹치는 글자도 돌림자로 지정되면
+     * 그대로 쓴다 — 우리가 고르는 글자가 아니라 받아 적는 글자다.
+     *
+     * **예전에는 이 면제가 작동하지 않았다** (2026-08-20에 고침). 공식 DB 경로
+     * (`officialOptionsFromInput`)가 이 자리보다 **위에서** 뜻 품질까지 걸러 버려, 여기 닿기
+     * 전에 글자가 이미 사라졌기 때문이다. 그래서 대법원 표에 등재된 `鐘`을 돌림자로 쓰면 후보가
+     * 0개였다. 지금은 그 문이 「글자로서 성립하는가」만 보므로 이 면제가 실제로 작동한다.
+     */
     if (index === generationIndex) {
       return rawOptions.filter((option) => option.character === generationHanja);
     }

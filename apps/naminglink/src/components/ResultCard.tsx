@@ -1,4 +1,5 @@
 import { isLocaleCode, type LocaleCode } from "@/lib/locale-codes";
+import { hanjaMeaningDisplay } from "@/lib/hanja-meaning-display";
 import { AlertTriangle, CheckCircle2, Lock } from "lucide-react";
 import { candidateRate } from "@/lib/candidate-order";
 import { isLockedCandidate } from "@/lib/candidate-seal";
@@ -49,7 +50,7 @@ type ResultCardCopy = {
  * **`Record<LocaleCode, …>`로 둔다.** `Record<string, …>`이면 로케일이 하나 빠져도 tsc가 조용하고
  * 아래 조회가 영어로 내려간다 — 그 언어 사용자만 영어를 보고 아무도 모른다.
  */
-const resultCardCopies: Record<LocaleCode, ResultCardCopy> = {
+export const resultCardCopies: Record<LocaleCode, ResultCardCopy> = {
   ko: {
     analysisSummary: "분석 요약",
     summaryFallback: "분석 결과가 준비되었습니다.",
@@ -797,11 +798,16 @@ function compactHanjaComposition(item: Record<string, unknown>) {
   return getBreakdown(item.character_breakdown)
     .map((part) => {
       const character = text(part.character);
-      const meaning = text(part.meaning);
       const reading = text(part.designated_reading) || text(part.syllable);
       if (!character) return "";
-      if (!meaning) return reading ? `${character} (${reading})` : character;
-      return `${character} · ${meaning}${reading ? ` (${reading})` : ""}`;
+      /**
+       * **뜻이 발음과 같으면 뜻이 아니다** (2026-08-20). 대법원 표에는 뜻 칸에 발음이 그대로
+       * 적힌 글자가 410자 있다(`鐘`의 뜻 칸이 "종"이다). 그대로 내보이면 「鐘 · 종 (종)」이
+       * 되어 이용자가 그것을 뜻으로 읽는다. 모르면 모른다고 적는다.
+       */
+      const meaning = hanjaMeaningDisplay(text(part.meaning), reading);
+      if (!meaning.known) return reading ? `${character} (${reading}) · ${meaning.text}` : character;
+      return `${character} · ${meaning.text}${reading ? ` (${reading})` : ""}`;
     })
     .filter(Boolean)
     .join(" / ");
