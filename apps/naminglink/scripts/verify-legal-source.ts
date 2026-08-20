@@ -43,6 +43,17 @@ import { hashReviewDocument } from "../src/lib/review-hash";
 import { localeCodes } from "../src/lib/locale-codes";
 
 let failures = 0;
+/**
+ * **물어보지 못한 것.** 결함(`failures`)과 **따로** 센다.
+ *
+ * 2026-08-20 재검증에서 뚫렸다 — 출력에는 `CANNOT_RUN` 이라 쓰고 **exit 0 으로 끝냈다.**
+ * 감사기(`scripts/audit-verifiers.mjs`)는 종료 코드 0을 가장 먼저 통과로 분류하므로
+ * `CANNOT_RUN` 문구를 보지도 않는다. 문구만 만들고 종료를 안 붙인 것이다.
+ *
+ * 「못 돎은 통과가 아니다」. 0이 아닌 코드로 끝내면 감사기가 출력의 `CANNOT_RUN` 을 읽어
+ * **빨간불이 아니라 「환경 없음」**으로 갈래를 잡는다.
+ */
+let cannotRun = 0;
 const check = (label: string, ok: boolean, detail = "") => {
   if (ok) console.log(`  ✓ ${label}`);
   else {
@@ -258,6 +269,7 @@ async function main() {
     const probe = await resolveLegalDocuments("ko", reader);
     if (probe.unavailable.length) {
       // **통과가 아니다.** 환경변수가 없어 운영 원본을 확인하지 못했다.
+      cannotRun += 1;
       console.log("  · CANNOT_RUN — 환경변수가 없어 게시본을 물어보지 못했다.");
       console.log(`    ${probe.unavailable[0]!.reason}`);
       console.log("    운영 현황은 이 컴퓨터에서 알 수 없다. 위 ①~⑤ 는 주입 reader 라 유효하다.");
@@ -273,8 +285,18 @@ async function main() {
     console.log(`  · 로케일 ${localeCodes.length}개 중 검수 기록이 있는 것만 봉인 대상이다.`);
   }
 
-  console.log(failures === 0 ? "\n통과\n" : `\n빨간불 ${failures}건\n`);
-  process.exit(failures === 0 ? 0 : 1);
+  if (failures > 0) {
+    console.log(`\n빨간불 ${failures}건\n`);
+    process.exit(1);
+  }
+  if (cannotRun > 0) {
+    // **통과가 아니다.** 판정한 것과 못 판정한 것을 갈라 적고, 0이 아닌 코드로 끝낸다.
+    // 감사기가 출력의 `CANNOT_RUN` 을 읽어 빨간불이 아니라 「환경 없음」으로 갈래를 잡는다.
+    console.log("\n①~⑤ 는 통과했으나 운영 현황을 확인하지 못했다 — CANNOT_RUN\n");
+    process.exit(2);
+  }
+  console.log("\n통과\n");
+  process.exit(0);
 }
 
 void main();

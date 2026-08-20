@@ -283,11 +283,11 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
     },
     {
       /**
-       * **Codex 가 재현한 위조**(2026-08-20): `inventoryVersion: "bogus"` 에 모든 artifact 를
-       * `sourceKind: "origin"` 으로 적으면 검증 오류 0건 · completed: ["en"] 이 나왔다.
-       * 대조한 원문 없이 광고 개방 상한에 드는 길이었다. 두 규칙으로 닫았다.
+       * **이름이 본문보다 넓게 말하고 있었다** (2026-08-20 재검증). 이름은 「en/docs」인데
+       * 본문은 `vi` 를 쓴다. 그래서 en/docs 199개 전부 origin 위장이 오류 0건으로 통과하는
+       * 동안에도 이 대조군은 초록불이었다. 이름을 본문에 맞추고, en 갈래는 아래에 따로 둔다.
        */
-      label: "en/docs 를 전부 origin 으로 적어도 잡는다",
+      label: "docs 에서 en 이 아닌 로케일의 origin 을 잡는다",
       ok:
         validateManifest({
           version: 1,
@@ -302,7 +302,34 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
               verdicts: { modified: 0, approved: 1, deferred: 0 },
             },
           ],
-        }).some((error) => error.includes("origin 일 수 있는 로케일")),
+        }).some((error) => error.includes("origin 일 수 없다")),
+    },
+    {
+      // **본론** — en/docs 를 전부 origin 으로 적으면 잡는가. 위 이름이 약속하던 것.
+      label: "en/docs 를 전부 origin 으로 적으면 잡는다 (ORIGIN_DOCS_EN 밖)",
+      ok:
+        validateManifest({
+          version: 1,
+          scopes: [
+            {
+              locale: "en",
+              scope: "docs",
+              inventoryVersion: inventoryVersion("en"),
+              artifacts: scopeInventory("docs", "en").map((leaf) => ({
+                id: leaf.path,
+                sourceKind: "origin" as const,
+                targetHash: hashValue(leaf.value),
+              })),
+              reviewer: "r",
+              reviewedAt: "d",
+              verdicts: {
+                modified: 0,
+                approved: scopeInventory("docs", "en").length,
+                deferred: 0,
+              },
+            },
+          ],
+        }).some((error) => error.includes("ORIGIN_DOCS_EN")),
     },
     {
       label: "지어낸 inventoryVersion 을 잡는다",
@@ -366,20 +393,31 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
         }).some((error) => error.includes("대응하는 원문")),
     },
     {
-      // 반대 방향 — 옳게 적은 기록은 통과해야 한다. 늘 실패하는 검사는 검사가 아니다.
-      label: "en/docs 의 origin 은 정당하다(대조군)",
+      /**
+       * **반대 방향.** 늘 실패하는 검사는 검사가 아니다.
+       *
+       * 옛 대조군은 「en/docs 의 origin 은 정당하다」였는데, 그 규칙이 en/docs 199개 위장을
+       * 허용한 통로였다. 이제 정당한 origin 자리는 `screen`·`consent`(직접 작성물)다.
+       */
+      label: "en/screen 의 origin 은 정당하다(막지 않는다)",
       ok:
         validateManifest({
           version: 1,
           scopes: [
             {
               locale: "en",
-              scope: "docs",
+              scope: "screen",
               inventoryVersion: inventoryVersion("en"),
-              artifacts: [{ id: "a", sourceKind: "origin", targetHash: "t" }],
+              artifacts: scopeInventory("screen", "en")
+                .slice(0, 3)
+                .map((leaf) => ({
+                  id: leaf.path,
+                  sourceKind: "origin" as const,
+                  targetHash: hashValue(leaf.value),
+                })),
               reviewer: "r",
               reviewedAt: "d",
-              verdicts: { modified: 0, approved: 1, deferred: 0 },
+              verdicts: { modified: 0, approved: 3, deferred: 0 },
             },
           ],
         }).length === 0,
@@ -400,7 +438,7 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
               verdicts: { modified: 0, approved: 1, deferred: 0 },
             },
           ],
-        }).some((error) => error.includes("origin 일 수 있는 로케일")),
+        }).some((error) => error.includes("origin 일 수 없다")),
     },
     { label: "원문 로케일이 값에서 파생된다", ok: origins.has("ko") },
   ];

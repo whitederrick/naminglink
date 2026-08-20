@@ -114,22 +114,56 @@ export function saveManifest(manifest: Manifest): void {
  *     legal  `ko` 만 origin — 나머지는 ko 에서 옮긴 것이다
  *     screen·consent  `ko` 만 origin — 손으로 쓰는 표이고 원문은 한국어다
  */
-function allowedOriginLocale(scope: Scope): string {
-  return scope === "docs" ? "en" : "ko";
+/**
+ * **`en` docs 중 사람이 영어로 **직접 쓴** artifact.** 여기 없으면 `--fill-en` 산출물로 본다.
+ *
+ * ## 왜 목록이 필요한가 (2026-08-20 재검증)
+ *
+ * `en` docs 에는 직접 작성물과 `--fill-en` 산출물이 섞여 있는데, **`--fill-en` 이 흔적을
+ * 남기지 않는다.** 그래서 어느 쪽인지 사후에 가릴 방법이 없다. 그 틈으로 en/docs 199개를
+ * **전부 `origin` 으로 적어도 오류 0건**이 나왔다 — 대조한 원문 없이 검수 완료가 성립했다.
+ *
+ * 가릴 수 없으면 **선언하게 하고 기본은 닫는다.** 목록에 없는 것은 옮긴 것으로 보고
+ * `reviewSourceHash` 를 요구한다. 목록에 넣으려면 **이유를 함께** 적어야 한다 —
+ * `EXCLUDED_TABLES` 와 같은 방식이다.
+ *
+ * **비어 있는 것이 지금의 옳은 상태다.** 직접 쓴 영어 문서가 확인되면 그때 여기 적는다.
+ */
+export const ORIGIN_DOCS_EN: readonly { id: string; reason: string }[] = [];
+
+/**
+ * **그 자리에서 `origin` 이 성립하는가.** 판정은 여기 하나뿐이다.
+ *
+ * 재검증에서 규칙이 **두 벌**이라 정상 기록이 거짓 거부됐다. `sourceLocaleFor` 는
+ * `screen`·`consent` 를 전 로케일 `origin` 으로 보는데, 옛 `allowedOriginLocale` 은 `ko` 만
+ * 허용해서 **정상 `en/screen` 검수 manifest 를 아예 만들 수 없었다.** 광고 개방 상한까지
+ * 갈 길이 막힌 것이다.
+ *
+ *     screen · consent   전 로케일 origin      ← 생성기 없는 직접 작성물
+ *     legal              ko 만
+ *     docs               en 만, 그중에서도 ORIGIN_DOCS_EN 에 적힌 것만
+ */
+export function originAllowed(scope: Scope, locale: string, artifactId: string): boolean {
+  if (scope === "screen" || scope === "consent") return true;
+  if (scope === "legal") return locale === "ko";
+  // docs
+  if (locale !== "en") return false;
+  return ORIGIN_DOCS_EN.some((entry) => entry.id === artifactId);
 }
 
 export function sourceKindErrors(record: ScopeRecord): string[] {
   const errors: string[] = [];
-  const allowed = allowedOriginLocale(record.scope);
   const key = `${record.locale}/${record.scope}`;
-  if (record.locale === allowed) return errors;
   for (const artifact of record.artifacts ?? []) {
-    if (artifact.sourceKind === "origin") {
-      errors.push(
-        `${key}:${artifact.id} — 이 scope 에서 origin 일 수 있는 로케일은 '${allowed}' 뿐이다. ` +
-          `'${record.locale}' 는 옮긴 것이므로 translated 여야 하고 reviewSourceHash 가 있어야 한다.`,
-      );
-    }
+    if (artifact.sourceKind !== "origin") continue;
+    if (originAllowed(record.scope, record.locale, artifact.id)) continue;
+    errors.push(
+      record.scope === "docs" && record.locale === "en"
+        ? `${key}:${artifact.id} — en/docs 는 ORIGIN_DOCS_EN 에 이유와 함께 적힌 것만 origin 이다. ` +
+          "적혀 있지 않으면 `--fill-en` 산출물로 보고 translated + reviewSourceHash 를 요구한다."
+        : `${key}:${artifact.id} — 이 scope 에서 '${record.locale}' 는 origin 일 수 없다. ` +
+          "옮긴 것이므로 translated 여야 하고 reviewSourceHash 가 있어야 한다.",
+    );
   }
   return errors;
 }
@@ -157,6 +191,8 @@ export function sourceLocaleFor(record: ScopeRecord, artifact: ArtifactRecord): 
   if (record.scope === "docs") return record.locale === "en" ? "ko" : "en";
   return "ko"; // legal
 }
+
+/** `origin` 이 성립하는 자리인지의 판정은 `originAllowed` 하나다(위 참고). */
 
 /**
  * **`reviewSourceHash` 를 실제 원문에서 다시 계산해 대조한다.**

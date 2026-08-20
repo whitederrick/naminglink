@@ -117,7 +117,30 @@ export async function buildSeal(
     }
 
     // 고른 원본을 인벤토리와 **같은 잎 모양**으로 펴서 승인 해시와 대조한다.
-    const byId = new Map(resolvedLegalLeaves(record.locale, resolved).map((l) => [l.path, l.value]));
+    const leaves = resolvedLegalLeaves(record.locale, resolved);
+    const byId = new Map(leaves.map((l) => [l.path, l.value]));
+
+    /**
+     * **적힌 것이 맞는가 뿐 아니라, 빠짐없이 적혔는가** (2026-08-20 재검증 P0).
+     *
+     * 예전에는 manifest 에 **적힌 artifact 만** 대조하고 `resolved.documents` **전체**를
+     * 봉인했다. 그래서 115개 중 1개만 적어 넣어도 약관 4종이 통째로 봉인됐다 —
+     * 아무도 안 읽은 문서가 「승인됨」으로 굳는다.
+     *
+     * 「검사 0건은 실패」와 같은 자리다. **대조한 개수가 대상 개수와 같아야** 그 검수가
+     * 그 문서를 덮었다고 말할 수 있다.
+     */
+    const covered = new Set(record.artifacts.map((artifact) => artifact.id));
+    const missing = leaves.filter((leaf) => !covered.has(leaf.path));
+    if (missing.length) {
+      reasons.push(
+        `${record.locale} — 검수가 덮지 못한 문장이 ${missing.length}건 있다(대상 ${leaves.length} · 기록 ${covered.size}). ` +
+          `예: ${missing.slice(0, 3).map((leaf) => leaf.path).join(", ")}${missing.length > 3 ? " …" : ""}. ` +
+          "일부만 검수하고 문서 전체를 봉인할 수 없다.",
+      );
+      continue;
+    }
+
     const drifted = record.artifacts.filter((artifact) => {
       const current = byId.get(artifact.id);
       return current === undefined || hashValue(current) !== artifact.targetHash;
