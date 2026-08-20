@@ -69,6 +69,15 @@ const CANNOT_RUN = [
    */
   { re: /다른 앱을 보고 있다/i, why: "다른 앱 환경" },
   { re: /OPENAI_API_KEY|비용이 든다/i, why: "OpenAI 비용" },
+  /**
+   * **검사기가 스스로 붙이는 표식을 실제로 읽는다** (2026-08-20 재검증 P1).
+   *
+   * `verify-legal-source.ts:53` 은 「0이 아닌 코드로 끝내면 감사기가 출력의 `CANNOT_RUN` 을
+   * 읽어 환경 없음으로 갈래를 잡는다」고 **계약을 적어 두었는데, 여기에 그 토큰이 없었다.**
+   * 실제로 갈린 것은 우연히 함께 찍히던 「환경변수」 때문이었다 — 그 문장을 다듬는 날 조용히
+   * 빨간불로 바뀐다. 계약을 적었으면 읽는 쪽에 그 계약이 있어야 한다.
+   */
+  { re: /\bCANNOT_RUN\b/, why: "검사기가 CANNOT_RUN 을 선언" },
   { re: /\.env\.local|환경변수|Missing (SUPABASE|OPENAI)/i, why: "환경변수 필요" },
   { re: /원본 PDF|기준 자료가 없|reference PDF/i, why: "기준 자료 필요" },
 ];
@@ -97,35 +106,57 @@ function discover() {
   return found;
 }
 
-/** 주석을 걷어낸다. 이름이 주석에 나오는 것은 「부른다」가 아니다. */
-function stripComments(source) {
-  return source
-    .replace(/\/\*[\s\S]*?\*\//g, " ")
-    .replace(/^\s*\/\/.*$/gm, " ")
-    .replace(/^\s*#.*$/gm, " ");
-}
-
 /**
- * 다른 검사기가 이 파일을 **자식 프로세스로 불러 주는가.**
+ * 다른 검사기가 이 파일을 **대신 돌려 주는가.**
  *
  * `audit-pdfs.mjs`가 파이썬 셋을 감싸는 것이 그 예다. 감싸진 것을 따로 부르면 인자가 없어
  * 빨간불이 나는데, **실제로는 감싼 쪽이 이미 돌렸다.**
  *
- * 처음에는 「소스에 그 이름이 있으면」으로 봤다가 엉망이 됐다 — 주석에 적힌 이름이 걸리고,
- * 형제 앱의 **같은 이름 사본끼리 서로 감쌌다고** 판정했다(파일 이름만 봐서는 자기 자신과
- * 남의 앱 사본을 가를 수 없다). 지금은 셋을 다 요구한다: 자식 프로세스를 쓰고, 주석이 아닌
- * 자리에 이름이 있고, 이름이 서로 다를 것.
+ * ## 「부르면 감싼 것」이 검사기를 통째로 사라지게 했다 (2026-08-20 재검증 P1)
+ *
+ * 예전 규칙은 **자식 프로세스를 쓰고 주석 아닌 자리에 이름이 있으면** 감싼 것으로 봤다.
+ * 그날 `verify-review-attacks.ts`(공격 파일)가 `verify-legal-source.ts`를 띄우자 이렇게 됐다.
+ *
+ *     naminglink/verify-legal-source.ts  —  감싸짐 ← naminglink/verify-review-attacks.ts
+ *
+ * **공격은 그 검사기를 자격증명을 일부러 빼고 돌린다.** 「못 돎이 못 돎으로 갈리는가」를 보는
+ * 것이지 제품을 검사한 게 아니다. 그런데 감사기는 그 결과로 **갈음**해 버렸고, 제품 검사기
+ * 하나가 스윕에서 조용히 빠졌다. `--filter legal-source`로 좁히면 **실행 0회에 `ALL PASS`**가
+ * 나왔다 — 「검사 0건은 실패」와 정확히 같은 자리다.
+ *
+ * 부르는 것과 갈음하는 것은 다르다. 그래서 **감싼 쪽이 그렇게 선언할 때만** 감싼 것으로 본다.
+ * 선언이 없는 호출(공격·프로브)은 그냥 호출이고, 감싸진 쪽은 **제 발로 돈다.**
+ *
+ *     // AUDIT_WRAPS: audit-pdf-language.py
  */
-const SPAWNS_CHILD = /child_process|subprocess/;
+const WRAPS_DECL = /^[ \t]*(?:\/\/|#)[ \t]*AUDIT_WRAPS:[ \t]*(\S+)[ \t]*$/gm;
 
-function wrapperOf(target, all) {
-  for (const other of all) {
-    if (other === target || other.file === target.file) continue;
-    const source = readFileSync(path.join(ROOT, other.dir, other.file), "utf8");
-    if (!SPAWNS_CHILD.test(source)) continue;
-    if (stripComments(source).includes(target.file)) return `${other.where}/${other.file}`;
+/** 선언된 이름을 모은다. **죽은 선언은 잡는다** — 없는 파일을 감쌌다고 적을 수 없다. */
+function wrapDeclarations(all) {
+  const declared = new Map(); // file → "where/file" (감싼 쪽)
+  const errors = [];
+  const known = new Set(all.map((s) => s.file));
+  for (const script of all) {
+    const source = readFileSync(path.join(ROOT, script.dir, script.file), "utf8");
+    for (const [, name] of source.matchAll(WRAPS_DECL)) {
+      const who = `${script.where}/${script.file}`;
+      if (name === script.file) {
+        errors.push(`${who} — 자기 자신을 감쌌다고 적었다`);
+        continue;
+      }
+      if (!known.has(name)) {
+        errors.push(`${who} — AUDIT_WRAPS: ${name} 이라는 검사기가 없다. 적용되지 않는 선언은 지운다.`);
+        continue;
+      }
+      const already = declared.get(name);
+      if (already && already !== who) {
+        errors.push(`${name} — ${already} 와 ${who} 가 둘 다 감쌌다고 적었다. 갈음은 한 곳이어야 한다.`);
+        continue;
+      }
+      declared.set(name, who);
+    }
   }
-  return null;
+  return { declared, errors };
 }
 
 function commandFor(script, tsconfig) {
@@ -216,8 +247,16 @@ const selected = filter && argv.includes("--filter")
   ? all.filter((s) => s.file.includes(filter) || s.where.includes(filter))
   : all;
 
+// **선언 자체가 성립하는가.** 죽은 선언·겹친 선언은 갈음을 조용히 비운다.
+const { declared, errors: declErrors } = wrapDeclarations(all);
+if (declErrors.length) {
+  console.log("■ AUDIT_WRAPS 선언이 깨졌다");
+  for (const e of declErrors) console.log(`  ✗ ${e}`);
+  process.exit(1);
+}
+
 const plan = selected.map((script) => {
-  const wrapper = wrapperOf(script, all);
+  const wrapper = declared.get(script.file) ?? null;
   const runs = ARGV[script.file]?.() ?? [{ label: null, args: [] }];
   return { script, wrapper, runs };
 });
@@ -270,6 +309,40 @@ const rows = await pool(jobs, async (job) => {
   };
 });
 
+/**
+ * **갈음이 실제로 성립했는가** (2026-08-20 재검증 P1).
+ *
+ * 「감싸짐」은 *감싼 검사의 결과로 갈음한다*는 뜻이다. 그런데 감싼 쪽이 이번 실행에 **없거나**
+ * (`--filter`로 좁혔을 때) 돌았는데 통과하지 못했다면, 갈음할 결과가 없다. 그 상태를 그대로
+ * 「감싸짐」에 두면 **아무도 안 돈 검사기가 조용히 초록불 쪽에 선다.**
+ *
+ * 갈음이 성립하지 않으면 **빨간불**이다. 통과도 못 돎도 아니다 — 환경이 없는 게 아니라
+ * **검사를 안 한 것**이기 때문이다.
+ */
+function resolveWrapped(rows) {
+  const outcomeOf = new Map(); // "where/file" → 그 검사기의 실행 결과들
+  for (const row of rows) {
+    if (row.kind === "wrapped") continue;
+    const key = `${row.script.where}/${row.script.file}`;
+    if (!outcomeOf.has(key)) outcomeOf.set(key, []);
+    outcomeOf.get(key).push(row.kind);
+  }
+  return rows.map((row) => {
+    if (row.kind !== "wrapped") return row;
+    const kinds = outcomeOf.get(row.why);
+    if (!kinds?.length) {
+      return { ...row, kind: "red", why: `갈음할 결과가 없다 — 감싼 ${row.why} 가 이번에 돌지 않았다`, tail: "" };
+    }
+    if (kinds.every((kind) => kind === "pass")) return row;
+    // **환경이 없어 감싼 쪽이 못 돌았다면 감싸진 쪽도 「못 돎」이다.** 여기서 빨간불을 내면
+    // 렌더 산출물이 없는 컴퓨터마다 없는 결함 세 건이 신고된다 — 갈래를 잘못 잡은 것이다.
+    if (kinds.every((kind) => kind === "pass" || kind === "cannot")) {
+      return { ...row, kind: "cannot", why: `감싼 ${row.why} 가 돌지 못했다 — 이것도 안 돈 것이다` };
+    }
+    return { ...row, kind: "red", why: `감싼 ${row.why} 가 통과하지 못했다(${kinds.join("·")}) — 갈음이 성립하지 않는다`, tail: "" };
+  });
+}
+
 // ── 대조군 ────────────────────────────────────────────────────────────────
 // 판정기가 살아 있는지 본다. 통과만 세는 러너는 아무것도 보증하지 못한다.
 const CONTROL = [
@@ -292,6 +365,12 @@ const CONTROL = [
     want: "red",
   },
   { label: "시간 초과는 빨간불", result: { code: null, timedOut: true, out: "" }, want: "red" },
+  {
+    // 검사기가 붙인 표식을 읽는가. 이 계약은 `verify-legal-source.ts` 가 머리말에 적어 두었다.
+    label: "CANNOT_RUN 을 선언하면 못 돎",
+    result: { code: 2, out: "①~⑤ 는 통과했으나 운영 현황을 확인하지 못했다 — CANNOT_RUN" },
+    want: "cannot",
+  },
 ];
 let controlOk = true;
 for (const { label, result, want } of CONTROL) {
@@ -302,10 +381,61 @@ for (const { label, result, want } of CONTROL) {
   }
 }
 
-const pass = rows.filter((r) => r.kind === "pass");
-const cannot = rows.filter((r) => r.kind === "cannot");
-const wrapped = rows.filter((r) => r.kind === "wrapped");
-const red = rows.filter((r) => r.kind === "red");
+/**
+ * **갈음 판정에도 대조군이 있어야 한다.** 이 규칙이 없어서 실행 0회에 `ALL PASS` 가 났다.
+ * 판정기를 고쳐 놓고 그 판정기가 사는지 안 세면 다음에 또 같은 자리로 돌아온다.
+ */
+const at = (where, file, kind) => ({ script: { where, file }, kind });
+const WRAP_CONTROL = [
+  {
+    label: "감싼 쪽이 통과했으면 갈음이 선다",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass")],
+    want: "wrapped",
+  },
+  {
+    label: "감싼 쪽이 이번에 안 돌았으면 빨간불",
+    rows: [at("(root)", "a.py", "wrapped-src")],
+    want: "red",
+  },
+  {
+    label: "감싼 쪽이 빨간불이면 갈음이 서지 않는다",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "red")],
+    want: "red",
+  },
+  {
+    // **못 돎으로 갈음할 수 없다.** 다만 그것은 빨간불이 아니라 **못 돎**이다 — 감싼 쪽이
+    // 환경이 없어 못 돌았으면 감싸진 쪽도 「검사 안 됨」이지 「결함」이 아니다.
+    label: "감싼 쪽이 못 돎이면 감싸진 쪽도 못 돎",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "cannot")],
+    want: "cannot",
+  },
+  {
+    // 여러 번 도는 검사기라면 **한 번이라도 빨간불이면** 갈음이 서지 않는다.
+    label: "감싼 쪽이 통과와 빨간불을 섞으면 빨간불",
+    rows: [
+      at("(root)", "a.py", "wrapped-src"),
+      at("(root)", "w.mjs", "pass"),
+      at("(root)", "w.mjs", "red"),
+    ],
+    want: "red",
+  },
+];
+for (const { label, rows: sample, want } of WRAP_CONTROL) {
+  const input = sample.map((r) =>
+    r.kind === "wrapped-src" ? { ...r, kind: "wrapped", why: "(root)/w.mjs" } : r,
+  );
+  const got = resolveWrapped(input)[0].kind;
+  if (got !== want) {
+    console.log(`  ✗ 대조군 실패 — ${label}: 기대 ${want} · 실제 ${got}`);
+    controlOk = false;
+  }
+}
+
+const resolved = resolveWrapped(rows);
+const pass = resolved.filter((r) => r.kind === "pass");
+const cannot = resolved.filter((r) => r.kind === "cannot");
+const wrapped = resolved.filter((r) => r.kind === "wrapped");
+const red = resolved.filter((r) => r.kind === "red");
 
 console.log(
   `\n검사기 ${selected.length}개 · 실행 ${rows.length}회 — ` +
@@ -344,6 +474,22 @@ if (red.length) {
   console.log(`\n빨간불 ${red.length}건. 진짜 결함인지 검사기 결함인지 갈라 볼 것.`);
   process.exit(1);
 }
+
+/**
+ * **한 번도 안 돌았으면 통과가 아니다** (2026-08-20 재검증 P1).
+ *
+ * `--filter` 가 아무것도 못 고르거나 고른 것이 전부 감싸짐이면 실행이 0회다. 그때 예전 코드는
+ * 「빨간불 없음」을 이유로 `ALL PASS` 를 찍었다 — **검사 0건은 실패**라는 규칙이 이 러너 자신에는
+ * 적용돼 있지 않았다. 초록불을 근거로 쓰는 것은 사람이므로, 여기서 막는다.
+ */
+if (!pass.length && !cannot.length) {
+  console.log(
+    `\n실행 0회다. 초록불을 낼 수 없다 — 검사기 ${selected.length}개를 골랐고 그중 아무것도 돌지 않았다.` +
+      (filter ? `\n  --filter ${filter} 가 고른 것이 없거나 전부 감싸짐이다.` : ""),
+  );
+  process.exit(1);
+}
+
 console.log("\nALL PASS — 빨간불 없음.");
 if (cannot.length) {
   console.log(`⚠ 다만 ${cannot.length}건은 **돌지 못했다.** 통과가 아니다.`);

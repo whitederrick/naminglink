@@ -21,6 +21,17 @@
 //
 // ⚠️ **먼저 렌더해야 한다.** 산출물이 없으면 그 앱은 「렌더 먼저」로 알린다 — 0건을 통과로
 // 보지 않는다.
+//
+// ## 감사기에게 「내가 이 셋을 대신 돌린다」고 알린다 (2026-08-20)
+//
+// `scripts/audit-verifiers.mjs` 는 예전에 **부르기만 하면** 감싼 것으로 봤다. 그러다 공격
+// 스크립트가 검사기를 부르자 그 검사기가 스윕에서 조용히 사라졌다 — 갈음할 수 없는 실행으로
+// 갈음해 버린 것이다. 지금은 **선언한 것만** 갈음한다. 아래 세 줄이 그 선언이고, 없는 파일을
+// 적으면 감사기가 잡는다.
+//
+// AUDIT_WRAPS: audit-pdf-language.py
+// AUDIT_WRAPS: audit-pdf-layout.py
+// AUDIT_WRAPS: audit-pdf-glyphs.py
 
 import { spawnSync } from "node:child_process";
 import { existsSync, readFileSync, readdirSync } from "node:fs";

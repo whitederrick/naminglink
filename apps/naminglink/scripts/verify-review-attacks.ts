@@ -24,7 +24,13 @@ import path from "node:path";
 
 import { buildSeal } from "./seal-locale-review";
 import { fileOnlyReader } from "./legal-source";
-import { hashValue, validateManifest, type Manifest, type ScopeRecord } from "./locale-manifest";
+import {
+  hashValue,
+  originDocsEnErrors,
+  validateManifest,
+  type Manifest,
+  type ScopeRecord,
+} from "./locale-manifest";
 import { inventoryVersion, scopeInventory } from "./locale-inventory";
 import { scanText } from "./locale-table-scan";
 
@@ -159,15 +165,28 @@ async function main() {
     for (const key of Object.keys(env)) {
       if (/SUPABASE/i.test(key)) delete env[key];
     }
+    /**
+     * **tsx 실행 파일을 경로로 박지 않는다**(2차 재검증 P1).
+     *
+     * `process.cwd()/node_modules/tsx/...` 로 박아 뒀더니 **격리 복사본에서 제품 검사를
+     * 하기도 전에 `MODULE_NOT_FOUND` 로 죽었다.** 워크트리에는 앱 로컬 `node_modules` 가
+     * 없고 상위에서 해석되기 때문이다. 공격이 크래시를 결함으로 셀 뻔했다.
+     *
+     * 모듈 해석으로 찾는다 — 어디서 돌든 지금 프로세스가 쓰는 그 tsx 다.
+     */
+    const { createRequire } = await import("node:module");
+    const require_ = createRequire(path.join(process.cwd(), "package.json"));
+    const tsxCli = path.join(path.dirname(require_.resolve("tsx/package.json")), "dist", "cli.mjs");
     const run = spawnSync(
       process.execPath,
-      [
-        path.join(process.cwd(), "node_modules", "tsx", "dist", "cli.mjs"),
-        "--tsconfig",
-        "scripts/tsconfig.sweep.json",
-        "scripts/verify-legal-source.ts",
-      ],
+      [tsxCli, "--tsconfig", "scripts/tsconfig.sweep.json", "scripts/verify-legal-source.ts"],
       { env, encoding: "utf8", cwd: process.cwd() },
+    );
+    // **크래시를 결함으로 세지 않는다.** 제품 검사가 실제로 돌았는지 먼저 본다.
+    check(
+      "공격이 제품 검사를 실제로 돌렸다(크래시가 아니다)",
+      !`${run.stderr ?? ""}`.includes("MODULE_NOT_FOUND"),
+      `tsx 를 찾지 못했다: ${tsxCli}`,
     );
     const out = `${run.stdout ?? ""}${run.stderr ?? ""}`;
     const saidCannotRun = out.includes("CANNOT_RUN");
@@ -201,9 +220,75 @@ async function main() {
     );
   }
 
+  // ── ⑥ 2차 재검증에서 나온 것 ────────────────────────────────────────────
+  console.log("\n⑥ 2차 재검증 (Codex · Claude App)");
+  {
+    /**
+     * **P0 — `ORIGIN_DOCS_EN` 을 비워 둔 것이 새 거짓 거부다.**
+     *
+     * 「가릴 자료가 없다」고 적었는데 `doc-content/en.ts:7` 이 적고 있었다 — 소개·문의처럼
+     * 사람이 쓴 글과 옮겨 온 글이 함께 있다. 안 찾은 것이다. 비워 두면 en 검수를 시작하는
+     * 순간 **있지도 않은 ko 원문 해시를 요구**받는다.
+     */
+    const enDocsLeaves = scopeInventory("docs", "en");
+    const one = (prefix: string) => enDocsLeaves.find((leaf) => leaf.path.startsWith(prefix))!;
+    const asOrigin = (leaf: { path: string; value: string }): Manifest => ({
+      version: 1,
+      scopes: [
+        record({
+          locale: "en",
+          scope: "docs",
+          artifacts: [{ id: leaf.path, sourceKind: "origin" as const, targetHash: hashValue(leaf.value) }],
+          verdicts: { modified: 0, approved: 1, deferred: 0 },
+        }),
+      ],
+    });
+
+    const aboutErrors = validateManifest(asOrigin(one("docs.about.")));
+    check(
+      "사람이 영어로 쓴 docs.about 의 origin 은 정당하다(막지 않는다)",
+      !says(aboutErrors, "ORIGIN_DOCS_EN"),
+      `거부됨: ${aboutErrors.find((e) => e.includes("ORIGIN_DOCS_EN")) ?? ""}`,
+    );
+    check(
+      "옮겨 온 docs.guide 를 origin 으로 적으면 여전히 잡는다",
+      says(validateManifest(asOrigin(one("docs.guide"))), "ORIGIN_DOCS_EN"),
+    );
+
+    /** **P2 — 같은 artifact id 를 두 번 적어도 통과한다.** 판정 수를 채우는 통로가 된다. */
+    const leaf = scopeInventory("screen", "en")[0]!;
+    const duplicated: Manifest = {
+      version: 1,
+      scopes: [
+        record({
+          locale: "en",
+          scope: "screen",
+          artifacts: [
+            { id: leaf.path, sourceKind: "origin" as const, targetHash: hashValue(leaf.value) },
+            { id: leaf.path, sourceKind: "origin" as const, targetHash: hashValue(leaf.value) },
+          ],
+          verdicts: { modified: 0, approved: 2, deferred: 0 },
+        }),
+      ],
+    };
+    check(
+      "같은 artifact id 를 두 번 적으면 잡는다",
+      says(validateManifest(duplicated), "두 번"),
+      "판정 수를 채우려고 같은 id 를 복제할 수 있다",
+    );
+
+    /** **P2 — 목록 항목 자체를 아무도 검사하지 않는다.** 이유가 비어도, 좌표가 없어도. */
+    const listErrors = originDocsEnErrors();
+    check(
+      "ORIGIN_DOCS_EN 의 이유가 비어 있지 않고 좌표가 실재한다",
+      listErrors.length === 0,
+      listErrors[0] ?? "",
+    );
+  }
+
   console.log(
     failures === 0
-      ? "\n다섯 우회가 전부 막혔다\n"
+      ? "\n공격 여섯 묶음이 전부 막혔다(1차 다섯 + 2차 재검증분)\n"
       : `\n뚫린 우회 ${failures}건 — 아직 병합할 수 없다\n`,
   );
   process.exit(failures === 0 ? 0 : 1);

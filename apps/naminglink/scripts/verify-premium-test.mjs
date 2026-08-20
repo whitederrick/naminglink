@@ -18,11 +18,64 @@
 
 const BASE_URL = (process.env.BASE_URL || "http://localhost:3001").replace(/\/$/, "");
 
-const alive = await fetch(BASE_URL, { method: "HEAD" }).catch(() => null);
-if (!alive) {
-  console.error(`서버가 없다: ${BASE_URL}`);
+/**
+ * **`HEAD`로는 서버가 준비됐는지 알 수 없다** (2026-08-20).
+ *
+ * 예전에는 `fetch(BASE_URL, { method: "HEAD" })`의 성공만 봤다. 그런데 `.catch(() => null)`이
+ * 잡는 것은 **연결 실패뿐**이라, 응답이 오기만 하면 404도 500도 「서버가 있음」으로 통과했다.
+ * 그 뒤 OpenAI를 부르는 단계로 들어가므로, **돈을 쓰고 나서** 화면이 없다는 것을 알게 된다.
+ *
+ * 그래서 실제 화면을 `GET`으로 받아 `ok`를 본다. 그리고 「서버가 없다」와 「서버는 있는데
+ * 화면이 안 나온다」를 **다른 문장으로** 알린다 — 둘은 고치는 방법이 다르다.
+ *
+ * ## 갈래가 셋이다 (2026-08-20, 구현 명세 §12)
+ *
+ * 「서버에 닿았는가」로만 나누면 **성격이 다른 둘이 한 칸에 들어간다.** 이 저장소는 네 앱을
+ * 붙은 포트로 띄운다 — `naminglink 3001 · inyeonlink 3002 · sajulink 3003 · dreamslink 3004`.
+ * `BASE_URL`이 하나 옆을 가리키면 **200 과 `text/html`이 정상으로 돌아온다.** 그때 빨간불을
+ * 내면 naminglink 에 없는 결함을 신고하는 셈이고, 출력이 「HTTP 200 · text/html」이라 읽는
+ * 사람이 원인을 짚지도 못한다.
+ *
+ *     연결 실패 · 시간 초과          환경이 없다   → 못 돎  「dev 서버가 떠 있어야」
+ *     4xx · 5xx · HTML 아님          앱이 깨졌다   → 빨간불  상태·콘텐츠 유형만 적는다
+ *     200 HTML 인데 남의 앱          환경이 틀렸다 → 못 돎  「다른 앱을 보고 있다」
+ *     Naming-Link 200 HTML           진행
+ *
+ * **가운데 갈래에는 「dev 서버가 떠 있어야」도 「비용이 든다」도 적지 않는다.**
+ * `scripts/audit-verifiers.mjs`의 `CANNOT_RUN`이 그 두 문구로 「못 돎」을 가리기 때문에,
+ * 적으면 진짜 앱 실패가 실행 불가로 조용히 분류된다.
+ */
+const READY_TIMEOUT_MS = 45_000;
+const HINT_DEV = "  apps/naminglink> npm run dev   (그다음 이 스크립트를 다시 돌린다)";
+
+const probe = await fetch(BASE_URL, {
+  headers: { accept: "text/html" },
+  signal: AbortSignal.timeout(READY_TIMEOUT_MS),
+}).catch((error) => ({ __failed: true, timedOut: error?.name === "TimeoutError" }));
+
+if (probe.__failed) {
+  // ① 환경이 없다. 첫 컴파일이 오래 걸리는 경우도 여기로 온다.
+  console.error(`서버가 없다: ${BASE_URL} — ${probe.timedOut ? `${READY_TIMEOUT_MS / 1000}초 안에 응답이 없다` : "연결 실패"}`);
   console.error("이 검사는 dev 서버가 떠 있어야 하고 **OpenAI 호출로 비용이 든다.**");
-  console.error("  apps/naminglink> npm run dev   (그다음 이 스크립트를 다시 돌린다)");
+  console.error(HINT_DEV);
+  process.exit(1);
+}
+
+const probeType = probe.headers.get("content-type") ?? "(없음)";
+if (probe.status !== 200 || !/text\/html/i.test(probeType)) {
+  // ② 앱이 깨졌다. **못 돎으로 새는 문구를 쓰지 않는다.**
+  console.error(`화면이 나오지 않는다: ${BASE_URL} → HTTP ${probe.status} · content-type ${probeType}`);
+  console.error("서버는 응답했다. 앱 쪽 결함이므로 실패로 센다.");
+  process.exit(1);
+}
+
+const probeHtml = await probe.text();
+if (!/og:site_name"\s+content="Naming-Link"|<title>[^<]*Naming-Link/i.test(probeHtml)) {
+  // ③ 환경이 틀렸다. 남의 앱이 정상 응답한 것을 우리 결함으로 세지 않는다.
+  const seen = /og:site_name"\s+content="([^"]+)"/i.exec(probeHtml)?.[1] ?? "알 수 없음";
+  console.error(`다른 앱을 보고 있다: ${BASE_URL} — 화면이 「${seen}」이다(Naming-Link 가 아니다).`);
+  console.error("  BASE_URL 을 확인할 것. 이 저장소는 네 앱을 붙은 포트로 띄운다:");
+  console.error("  naminglink 3001 · inyeonlink 3002 · sajulink 3003 · dreamslink 3004");
   process.exit(1);
 }
 
@@ -66,7 +119,7 @@ const premium = await jsonRequest("/api/premium-reports/test", {
   result: free.data.result,
 });
 const reportData = premium.data.premium.reportData;
-const pdfResponse = await fetch("http://localhost:3001/api/premium-reports/test/pdf", {
+const pdfResponse = await fetch(`${BASE_URL}/api/premium-reports/test/pdf`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ reportData }),

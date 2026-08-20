@@ -80,8 +80,19 @@ function walk(dir, out = []) {
 
 const files = walk(staticDir);
 if (files.length === 0) {
-  console.error(`.next/static 이 비어 있다 — 먼저 빌드할 것 (${staticDir})`);
-  process.exit(1);
+  /**
+   * **못 돎이지 결함이 아니다** (2026-08-20).
+   *
+   * 예전에는 `exit 1` 로 끝냈다. 그러면 `scripts/audit-verifiers.mjs` 가 이것을 **빨간불**로
+   * 센다 — 빌드를 안 한 컴퓨터마다 「번들에 비밀이 샌다」와 같은 칸에 들어간다. 진짜 결함과
+   * 섞이면 사람은 빨간불을 무시하는 법부터 배운다.
+   *
+   * `verify-legal-source.ts` 가 세운 계약을 따른다 — 출력에 `CANNOT_RUN` 을 적고 0이 아닌
+   * 코드로 끝낸다. 감사기는 그 토큰을 읽어 **「못 돎」**으로 가른다. 못 돎은 통과가 아니다.
+   */
+  console.error(`CANNOT_RUN — .next/static 이 비어 있다. 먼저 빌드할 것 (${staticDir})`);
+  console.error("이 검사는 빌드 산출물을 읽는다. 검사한 것이 없으므로 통과로 세지 않는다.");
+  process.exit(2);
 }
 
 const blobs = files.map((f) => ({ f, text: readFileSync(f, "utf8") }));

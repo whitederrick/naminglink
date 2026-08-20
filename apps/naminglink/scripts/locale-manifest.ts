@@ -127,9 +127,79 @@ export function saveManifest(manifest: Manifest): void {
  * `reviewSourceHash` 를 요구한다. 목록에 넣으려면 **이유를 함께** 적어야 한다 —
  * `EXCLUDED_TABLES` 와 같은 방식이다.
  *
- * **비어 있는 것이 지금의 옳은 상태다.** 직접 쓴 영어 문서가 확인되면 그때 여기 적는다.
+ * ## 비워 둔 것이 새 거짓 거부였다 (2026-08-20 2차 재검증 P0)
+ *
+ * 처음에는 「직접 쓴 영어 문서가 확인되면 그때 적는다」며 **비워 뒀다.** 그런데 바로 그
+ * `en.ts` 머리말이 *「소개·문의처럼 사람이 쓴 글과, 한국어 원문에서 옮겨 온 글이 함께
+ * 있다」*고 적고 있었다. **안 찾은 것이다.** 비워 두면 en 검수를 시작하는 순간 사람이 영어로
+ * 쓴 78개에 대해 **있지도 않은 ko 원문 해시**를 요구받는다 — 통과하려면 거짓으로 적어야 하고,
+ * 그러면 검수 증빙의 출처가 통째로 틀어진다. 막는 쪽으로 틀린 것도 결함이다.
+ *
+ * ## 어떻게 갈랐나 — 짐작이 아니라 이력으로
+ *
+ * `--fill-en` 은 **없는 키만** 채우므로 지금 파일만 봐서는 갈리지 않는다. 그래서 `en.ts` 가
+ * 처음 생긴 `df1c6b4` 를 보고, 그 **부모 커밋의 화면 소스에 그 영어 문장이 이미 있었는지**를
+ * 대조했다.
+ *
+ *     df1c6b4 시점 en.ts 의 절     about · notice · contact · notices 메타
+ *     그 문장이 부모 JSX 에 있는가  있다 (about/contact/notice/page.tsx · lib/notices.ts)
+ *     `guide` 는                    df1c6b4 에 없다 — 뒤에 ko 에서 옮겨 왔다(eae9acb…acb2ea7)
+ *
+ * 이 결과가 인벤토리의 199개를 **78 origin · 121 translated** 로 가른다. 문장 일부는 부모에서
+ * 그대로 찾히지 않는데, 다른 것은 `**강조**` 표기와 `{email}` 자리표뿐이고 본문은 같다
+ * (예: "choose and understand Korean names" · "two business days").
+ *
+ * **`guide` 를 넣지 않는 것이 이 목록의 핵심이다.** 안내 13편이 여기 들어오면 옮겨 온 글이
+ * 원문으로 둔갑한다.
  */
-export const ORIGIN_DOCS_EN: readonly { id: string; reason: string }[] = [];
+export const ORIGIN_DOCS_EN: readonly { prefix: string; reason: string }[] = [
+  {
+    // 잎 29개. 경계를 위해 끝점을 찍는다 — `docs.about` 로만 적으면 `docs.aboutXxx` 도 걸린다.
+    prefix: "docs.about.",
+    reason:
+      "소개는 화면 JSX 에 영어로 쓰여 있던 것을 자료로 옮긴 것이다(df1c6b4). " +
+      "부모 커밋 about/page.tsx 에 본문이 그대로 있다(\"choose and understand Korean names\").",
+  },
+  {
+    prefix: "docs.contact.",
+    reason:
+      "문의도 같은 커밋에서 영어 원문째 옮겨 왔다(df1c6b4). " +
+      "부모 커밋 contact/page.tsx 에 본문이 있다(\"two business days\" · \"Korean business hours\").",
+  },
+  {
+    prefix: "docs.notice.",
+    reason: "공지 화면 겉틀 4개. 부모 커밋 notice/page.tsx 에 영어로 있었다(df1c6b4).",
+  },
+  {
+    prefix: "notices.",
+    reason:
+      "공지 목록의 문구와 메타 21개(kindLabels·intro·empty·effective·pager·items). " +
+      "부모 커밋 lib/notices.ts 에 영어로 있었다(df1c6b4).",
+  },
+];
+
+/**
+ * **목록 자체를 검사한다.** 이유가 비었거나 좌표가 실재하지 않으면 잡는다.
+ *
+ * 2차 재검증 지적(P2). 목록이 `{prefix, reason}` 을 **선언만** 하고 아무도 안 봤다.
+ * 이유 없는 항목은 검사를 조용히 비우고, 죽은 좌표는 오래 남아 근거처럼 보인다 —
+ * `EXCLUDED_TABLES` 에 세워 둔 규칙과 같다.
+ */
+export function originDocsEnErrors(): string[] {
+  const errors: string[] = [];
+  const leaves = scopeInventory("docs", "en");
+  for (const entry of ORIGIN_DOCS_EN) {
+    if (!entry.reason.trim()) {
+      errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — 이유가 비어 있다. 이유 없는 예외는 검사를 비운다.`);
+    }
+    if (!leaves.some((leaf) => leaf.path.startsWith(entry.prefix))) {
+      errors.push(
+        `ORIGIN_DOCS_EN:${entry.prefix} — en/docs 인벤토리에 그 좌표가 없다. 적용되지 않는 예외는 지운다.`,
+      );
+    }
+  }
+  return errors;
+}
 
 /**
  * **그 자리에서 `origin` 이 성립하는가.** 판정은 여기 하나뿐이다.
@@ -148,7 +218,7 @@ export function originAllowed(scope: Scope, locale: string, artifactId: string):
   if (scope === "legal") return locale === "ko";
   // docs
   if (locale !== "en") return false;
-  return ORIGIN_DOCS_EN.some((entry) => entry.id === artifactId);
+  return ORIGIN_DOCS_EN.some((entry) => artifactId.startsWith(entry.prefix));
 }
 
 export function sourceKindErrors(record: ScopeRecord): string[] {
@@ -274,6 +344,9 @@ export function validateManifest(manifest: Manifest): string[] {
   const errors: string[] = [];
   if (manifest.version !== 1) errors.push(`알 수 없는 manifest version: ${String(manifest.version)}`);
 
+  // 목록이 그 자체로 성립하는가. **manifest 와 무관하게 늘 본다.**
+  errors.push(...originDocsEnErrors());
+
   const seen = new Set<string>();
   for (const record of manifest.scopes) {
     const key = `${record.locale}/${record.scope}`;
@@ -286,8 +359,12 @@ export function validateManifest(manifest: Manifest): string[] {
     if (!record.inventoryVersion?.trim()) errors.push(`${key} — inventoryVersion 이 비어 있다`);
     if (!record.artifacts?.length) errors.push(`${key} — artifact 가 0건이다(0건은 완료가 아니다)`);
 
+    // **같은 artifact id 를 두 번 적을 수 없다**(2차 재검증 P2). 판정 수를 채우는 통로가 된다.
+    const seenIds = new Set<string>();
     for (const artifact of record.artifacts ?? []) {
       const where = `${key}:${artifact.id}`;
+      if (seenIds.has(artifact.id)) errors.push(`${where} — 같은 artifact id 가 두 번 있다`);
+      seenIds.add(artifact.id);
       if (!artifact.targetHash) errors.push(`${where} — targetHash 가 없다`);
       if (artifact.sourceKind !== "origin" && artifact.sourceKind !== "translated") {
         errors.push(`${where} — 모르는 sourceKind: ${String(artifact.sourceKind)}`);
