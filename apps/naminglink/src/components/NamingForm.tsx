@@ -322,12 +322,14 @@ export function NamingForm({
   const generationSyllableValue = values.generationSyllable ?? "";
   const generationUsed = values.generationNameUsage === "used";
   useEffect(() => {
-    if (!generationUsed || !/^[가-힣]$/.test(generationSyllableValue)) {
-      setGenerationHanjaOptions([]);
-      return;
-    }
     let cancelled = false;
+    // **효과 본문에서 곧바로 setState 하지 않는다.** 그러면 렌더가 연쇄로 도는 자리가 되고
+    // `react-hooks/set-state-in-effect`가 잡는다. 비우는 것도 아래 비동기 흐름 안에서 한다.
     void (async () => {
+      if (!generationUsed || !/^[가-힣]$/.test(generationSyllableValue)) {
+        if (!cancelled) setGenerationHanjaOptions([]);
+        return;
+      }
       try {
         const response = await fetch(
           `/api/hanja/name-syllable?syllable=${encodeURIComponent(generationSyllableValue)}`,
