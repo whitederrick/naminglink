@@ -27,6 +27,27 @@ export function stampSettingCode(model: StampModelCode, region: StampRegion) {
   return STAMP_MODELS[model].settingCode[region];
 }
 
+/**
+ * 그 로케일이 **국내인가 해외인가**. 배송·결제사·가격표가 여기서 갈린다.
+ *
+ * 2026-08-20에 꺼냈다. `stamp-order` 페이지에만 인라인으로 있어서, 결과 화면 카드가 같은
+ * 판정을 하려면 규칙을 옮겨 적어야 했다.
+ */
+export function stampRegionForLocale(locale: string): StampRegion {
+  return locale === "ko" ? "domestic" : "global";
+}
+
+/**
+ * 판정의 **알맹이**. 이미 읽어 둔 표시 가격에서 정한다.
+ *
+ * `stamp-order` 페이지는 화면에 쓰려고 가격 셋을 이미 읽는다. 거기서 서버 조회를 또
+ * 하면 같은 조회를 두 번 하고, 그렇다고 페이지가 규칙을 **옮겨 적으면** 판정이 두 벌이
+ * 된다 — 지금 고치고 있는 바로 그 결함이다. 그래서 알맹이를 꺼내 둘이 같이 부른다.
+ */
+export function stampOrderableFrom(prices: readonly (string | null)[]): boolean {
+  return prices.some((price) => price !== null);
+}
+
 export function getStampProduct(region: StampRegion) {
   return region === "global" ? STAMP_PRODUCT_GLOBAL : STAMP_PRODUCT;
 }
