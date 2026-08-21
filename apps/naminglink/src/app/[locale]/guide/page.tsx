@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import { GuideShell } from "@/components/GuideShell";
+import { ReturnLink } from "@/components/ReturnLink";
 import { GuideEntryOrder } from "@/components/GuideEntryOrder";
 import { guideBackLink, guideEntryOrders, guideServiceOrigins } from "@/lib/guide-back";
 import { DocBody } from "@/components/DocBody";
@@ -71,10 +71,15 @@ export default async function GuideIndexPage({ params }: PageProps) {
           // 제목·요약은 `doc-content`가 로케일별로 갖는다 — 목록만 한국어로 남지 않게.
           const doc = getDocPage(locale, docKeyFor(entry));
           return (
-          <Link
+          <ReturnLink
             key={entry.slug}
-            // 출처를 문서까지 들고 간다. 문서에서 허브로, 허브에서 서비스로 두 번 눌러
-            // 나가는 길에서도 처음 들어온 화면으로 돌아가야 한다.
+            // **출처를 문서까지 들고 간다.** 다만 「문서 → 허브 → 서비스」로 두 번
+            // 눌러 나가는 것이 아니라, **문서에서 처음 들어온 화면으로 곧장** 돌아간다.
+            //
+            // 두 번 눌러 나가려면 허브의 주소를 통째로(그 안의 returnTo 까지) 문서의
+            // returnTo 로 실어야 하는데, 그러면 한 칸 들어갈 때마다 값이 배로 길어져
+            // 512자 상한에서 **조용히 통째로 버려진다.** 그래서 출처는 한 번 정해지면
+            // 갈아치우지도 겹쳐 싣지도 않고 그대로 따라다닌다 (components/ReturnLink.tsx).
             href={localePath(`/guide/${entry.slug}`, locale)}
             className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
           >
@@ -90,7 +95,7 @@ export default async function GuideIndexPage({ params }: PageProps) {
               />
             </p>
             <p className="text-sm leading-7 text-muted">{doc.summary}</p>
-          </Link>
+          </ReturnLink>
           );
         })}
       </GuideEntryOrder>

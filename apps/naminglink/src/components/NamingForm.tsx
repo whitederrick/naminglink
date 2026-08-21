@@ -20,6 +20,7 @@ import { CandidateUnlockPanel } from "@/components/CandidateUnlockPanel";
 import { ResultAddOnServices } from "@/components/ResultAddOnServices";
 import { ResultCard } from "@/components/ResultCard";
 import { ResultStorageNotice } from "@/components/ResultStorageNotice";
+import { ReturnLink } from "@/components/ReturnLink";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
 import { trackAdEvent, trackAnalytics } from "@/lib/analytics-client";
 import {
@@ -1031,12 +1032,14 @@ export function NamingForm({
                 ) : (
                   <p className="rounded-lg border border-line bg-background p-3 text-sm leading-6 text-muted">
                     {t.guestNoSavePrefix}
-                    <Link
+                    {/* 로그인하고 돌아오면 **적던 화면 그대로**여야 한다. 값이 없으면
+                        평범한 링크와 같다(ReturnLink 가 알아서 뺀다). */}
+                    <ReturnLink
                       href={localePath("/login", locale)}
                       className="font-semibold text-foreground underline decoration-line underline-offset-4"
                     >
                       {t.loginLink}
-                    </Link>
+                    </ReturnLink>
                     {t.guestNoSaveSuffix}
                   </p>
                 )}

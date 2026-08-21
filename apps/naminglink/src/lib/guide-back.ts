@@ -101,6 +101,23 @@ export function guideHubHref(locale: Locale, from?: string) {
  * 이름은 문서가 이미 갖고 있는 `backLabel`(「안내로」)이라 출처마다 다르지 않다. 그래서
  * 여기서는 주소만 갈린다.
  */
+/**
+ * **표에 실제로 적힌 이름만** 돌려준다.
+ *
+ * `origins[from]` 로 곧바로 읽으면 `toString`·`constructor`·`__proto__` 같은 **물려받은
+ * 이름**이 값처럼 통과한다. 그러면 `target.href` 가 `undefined` 인 링크가 그려진다.
+ * 표를 만드는 쪽은 2026-08-20 에 Map 으로 고쳤는데 **읽는 쪽이 남아 있었다** — 같은 결함이
+ * 네 앱에 그대로 있었다.
+ */
+export function pickOrigin(
+  origins: Record<string, BackTarget>,
+  from: string | null,
+): BackTarget | null {
+  if (!from) return null;
+  if (!Object.hasOwn(origins, from)) return null;
+  return origins[from] ?? null;
+}
+
 export function guideHubOrigins(locale: Locale, label: string): Record<string, BackTarget> {
   const origins: Record<string, BackTarget> = {};
   for (const from of ORIGINS.keys()) {

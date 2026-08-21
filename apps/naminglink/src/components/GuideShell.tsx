@@ -7,6 +7,7 @@ import {
   type BackTarget,
 } from "@/components/GuideBackLink";
 import { SiteFooter } from "@/components/SiteFooter";
+import { getAuthCopy } from "@/lib/i18n-auth";
 import type { Locale } from "@/lib/services";
 
 /**
@@ -46,6 +47,14 @@ export function GuideShell({
   children: ReactNode;
 }) {
   const back: BackTarget = { href: backHref, label: backLabel };
+  /**
+   * 이력이 있을 때 단추에 적을 이름. **서버에서 뽑아 넘긴다** — 23개 언어 사전을 브라우저
+   * 번들에 실으면 안 된다(`GuideBackLink.tsx` 머리말과 같은 이유).
+   *
+   * 로그인 화면이 쓰는 그 문자열이다(`AuthPageNav` → `getAuthCopy(locale).back`).
+   * 같은 뜻에 두 벌의 번역을 두지 않는다.
+   */
+  const previousLabel = getAuthCopy(locale).back;
   return (
     <main className="min-h-screen bg-background">
       <section className="relative isolate overflow-hidden">
@@ -66,11 +75,15 @@ export function GuideShell({
           {backOrigins ? (
             // 미리 만들어 둔 HTML에는 fallback(= `?from=` 없는 깨끗한 주소)이 실리고,
             // 브라우저가 주소를 읽어 목적지만 갈아 끼운다. 겉모습은 둘이 같다.
-            <Suspense fallback={<GuideBackLinkView {...back} />}>
-              <GuideBackLink fallback={back} origins={backOrigins} />
+            <Suspense fallback={<GuideBackLinkView {...back} previousLabel={previousLabel} />}>
+              <GuideBackLink
+                fallback={back}
+                origins={backOrigins}
+                previousLabel={previousLabel}
+              />
             </Suspense>
           ) : (
-            <GuideBackLinkView {...back} />
+            <GuideBackLinkView {...back} previousLabel={previousLabel} />
           )}
           <p className="mt-2 text-sm font-semibold tracking-wide text-[#e6c8b6]">
             {eyebrow}

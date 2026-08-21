@@ -1,5 +1,6 @@
 "use client";
 
+import { ReturnLink } from "@/components/ReturnLink";
 import { getUiLabels } from "@/lib/ui-labels";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -787,6 +788,20 @@ export function SiteFooter({
     href: localePath("/notice", locale),
     label: labels.notice,
   };
+  /**
+   * **화면을 옮기는 링크만 지금 주소를 실어 보낸다**(`components/ReturnLink.tsx`).
+   *
+   * 약관·개인정보·환불·요금은 뺐다 — 모달형 푸터에서는 화면을 옮기지 않고, 링크형에서
+   * 여는 `PolicyLayout` 은 아직 `returnTo` 를 읽지 않는다. **읽지 않는 화면에 값을 붙이면
+   * 주소창만 지저분해진다.**
+   */
+  const carriesReturnTo = new Set([
+    aboutLink.href,
+    contactLink.href,
+    noticeLink.href,
+    guideLink.href,
+    accountLink.href,
+  ]);
   const footerLinks = [
     aboutLink,
     contactLink,
@@ -858,16 +873,27 @@ export function SiteFooter({
               leadingLinks={[aboutLink, contactLink, noticeLink]}
             />
           ) : (
-            footerLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={linkClass}
-                dir={textDirection}
-              >
-                {link.label}
-              </Link>
-            ))
+            footerLinks.map((link) =>
+              carriesReturnTo.has(link.href) ? (
+                <ReturnLink
+                  key={link.href}
+                  href={link.href}
+                  className={linkClass}
+                  dir={textDirection}
+                >
+                  {link.label}
+                </ReturnLink>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={linkClass}
+                  dir={textDirection}
+                >
+                  {link.label}
+                </Link>
+              ),
+            )
           )}
         </nav>
 
