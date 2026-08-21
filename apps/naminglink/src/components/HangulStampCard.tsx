@@ -8,6 +8,7 @@ import { ShoppingBag } from "lucide-react";
 import { getResultCopy } from "@/lib/i18n-result";
 import type { Locale } from "@/lib/services";
 import { localePath } from "@/lib/locale-path";
+import { stampOriginQuery } from "@/lib/stamp-back";
 
 // 도장에 새길 수 있는 최대 글자 수. stamp-order의 stampName 검증(한글 1~8자, 공백 불가)과 맞춘다.
 const STAMP_MAX = 8;
@@ -20,10 +21,21 @@ export function HangulStampCard({
   candidates,
   revealedCount,
   locale,
+  orderable,
+  resultId,
 }: {
   candidates: Array<{ hangul: string }>;
   revealedCount: number;
   locale: Locale;
+  /**
+   * **지금 도장을 주문할 수 있는가.** 서버가 `stampOrderable` 로 읽어 내려보낸다.
+   *
+   * 이 값이 없던 때는 단추가 글자 길이만 보고 살아 있었고, 눌러 들어간 목적지는
+   * 「지금은 받지 않는다」고 말했다 — 닫힌 상품으로 한 번 보낸 뒤 거절하는 흐름이었다.
+   */
+  orderable: boolean;
+  /** 돌아올 결과 화면을 가리키는 1회용 조회 ID. 링크에 실어 보낸다. */
+  resultId: string;
 }) {
   const copy = getResultCopy(locale);
   const revealed = candidates
@@ -52,7 +64,8 @@ export function HangulStampCard({
   // 선택 조각을 원래 순서로 공백 없이 이어 붙인다(도장 문구엔 공백이 들어가지 않는다).
   const stampText = selectedParts.map((index) => parts[index]).join("");
   const tooLong = stampText.length > STAMP_MAX;
-  const canOrder = stampText.length > 0 && !tooLong;
+  // **판매 여부를 함께 본다**(2026-08-20). 글자만 보면 닫힌 상품으로 사용자를 보낸다.
+  const canOrder = orderable && stampText.length > 0 && !tooLong;
 
   if (revealed.length === 0) return null;
 
@@ -120,7 +133,18 @@ export function HangulStampCard({
         {tooLong ? <p className="mt-2 text-sm font-medium text-red-600">{copy.stampTooLong}</p> : null}
 
         <Link
-          href={localePath("/stamp-order", locale, `name=${encodeURIComponent(stampText)}`)}
+          href={localePath(
+            "/stamp-order",
+            locale,
+            // **어디서 왔는지 함께 보낸다.** 신청 화면의 돌아가기가 이 값으로 결과 화면을
+            // 되찾는다(2026-08-20). 없으면 그쪽이 홈으로 떨어진다.
+            [
+              `name=${encodeURIComponent(stampText)}`,
+              stampOriginQuery("transliteration", resultId),
+            ]
+              .filter(Boolean)
+              .join("&"),
+          )}
           aria-disabled={!canOrder}
           tabIndex={canOrder ? undefined : -1}
           className={`mt-5 inline-flex h-10 items-center justify-center rounded-lg px-3 text-sm font-semibold transition ${

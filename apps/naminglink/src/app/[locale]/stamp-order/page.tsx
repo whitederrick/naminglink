@@ -5,12 +5,16 @@ import { ArrowLeft } from "lucide-react";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StampOrderForm } from "@/components/StampOrderForm";
 import {
+  stampOrderableFrom,
+  stampRegionForLocale,
   stampSettingCode,
   STAMP_MODEL_CODES,
   type StampModelCode,
   type StampRegion,
 } from "@/lib/goods-products";
 import { getDocPage } from "@/lib/doc-content";
+import { getAuthCopy } from "@/lib/i18n-auth";
+import { stampBackTarget } from "@/lib/stamp-back";
 import { routeLocale } from "@/lib/route-locale";
 import { isLocaleCode } from "@/lib/locale-codes";
 import { stampPausedNotice } from "@/lib/stamp-order-copy";
@@ -26,7 +30,7 @@ import { localePath } from "@/lib/locale-path";
  */
 type StampOrderPageProps = {
   params: Promise<{ locale: string }>;
-  searchParams?: Promise<{ name?: string }>;
+  searchParams?: Promise<{ name?: string; from?: string; rid?: string }>;
 };
 
 
@@ -68,7 +72,7 @@ export default async function StampOrderPage({ params, searchParams }: StampOrde
    * 그래도 갈래를 지우지 않는다 — 판매를 재개하는 날 목록에서 경로 하나를 빼면 되돌아온다.
    * 갈래를 지우면 그날 화면을 다시 만들어야 한다.
    */
-  const region: StampRegion = locale === "ko" ? "domestic" : "global";
+  const region: StampRegion = stampRegionForLocale(locale);
   const initialName = String(query?.name ?? "").trim().slice(0, 8);
 
   // 모델별 표시 가격. **살 수 없으면 null이다**(판매 중지이거나 결제 수단 미준비).
@@ -92,6 +96,16 @@ export default async function StampOrderPage({ params, searchParams }: StampOrde
       : { eyebrow: "이름 굿즈", title: "이름 도장 신청", back: "홈으로" };
 
   /**
+   * **돌아가기는 온 곳으로 보낸다**(2026-08-20). 예전에는 무조건 홈이라, 결과 화면의 도장
+   * 카드로 들어온 사람이 돌아가면 결과를 잃었다. 「이전 화면으로」는 `i18n-auth`가 23로케일로
+   * 이미 갖고 있어 새 번역이 필요 없다.
+   */
+  const back = stampBackTarget(locale, query?.from, query?.rid, {
+    previous: getAuthCopy(locale).back,
+    home: heading.back,
+  });
+
+  /**
    * **한 모델도 팔 수 없으면 신청서를 내지 않는다** (2026-08-11).
    *
    * 이 주소는 sitemap에 실려 있어 크롤러와 이용자가 직접 들어온다. 그런데 지금까지는 살 수
@@ -102,7 +116,9 @@ export default async function StampOrderPage({ params, searchParams }: StampOrde
    * **현재 상태를 한 번만 사실대로** 적은 뒤 문의 창구로 잇는다. 판매가 열리면 저절로 신청서가
    * 돌아온다 — 조건은 `getPurchaseDisplay`(상품 enabled AND 결제 수단) 하나다.
    */
-  const orderable = Object.values(modelPrices).some((price) => price !== null);
+  // 판정은 `stampOrderableFrom` 하나다 — 결과 화면 카드도 같은 규칙을 본다(2026-08-20).
+  // 여기서 규칙을 옮겨 적으면 판정이 두 벌이 되고, 그게 이번에 고친 결함이다.
+  const orderable = stampOrderableFrom(Object.values(modelPrices));
   const contactDoc = getDocPage(locale, "contact");
   const goodsCopy = getResultCopy(locale);
   const notice = isLocaleCode(locale) ? stampPausedNotice[locale] : stampPausedNotice.en;
@@ -113,11 +129,11 @@ export default async function StampOrderPage({ params, searchParams }: StampOrde
         <header className="grid gap-3 border-b border-line pb-5">
           <div className="flex flex-wrap items-center gap-2">
             <Link
-              href={localePath("/", locale)}
+              href={back.href}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-semibold shadow-sm"
             >
               <ArrowLeft aria-hidden="true" size={17} />
-              {heading.back}
+              {back.label}
             </Link>
           </div>
           <div>

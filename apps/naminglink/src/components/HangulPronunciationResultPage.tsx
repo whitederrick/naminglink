@@ -396,9 +396,12 @@ const emptySubscribe = () => () => {};
 export function HangulPronunciationResultPage({
   resultId,
   locale,
+  stampOrderable,
 }: {
   resultId: string;
   locale: Locale;
+  /** 도장을 지금 주문할 수 있는가. 서버 페이지가 `stampOrderable()` 로 읽어 내려보낸다. */
+  stampOrderable: boolean;
 }) {
   const router = useRouter();
   const copy = getResultCopy(locale);
@@ -560,6 +563,8 @@ export function HangulPronunciationResultPage({
               candidates={artCandidatesOf(currentStored.result)}
               revealedCount={revealedCount}
               locale={locale}
+              orderable={stampOrderable}
+              resultId={resultId}
             />
           </div>
         ) : (
