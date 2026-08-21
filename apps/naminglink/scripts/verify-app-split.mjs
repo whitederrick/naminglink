@@ -1,4 +1,5 @@
 // 서비스별 운영 지표가 실제로 갈라져 있는지 확인한다.
+// AUDIT_NO_SIDE_EFFECTS: select 와 읽기 전용 RPC(admin_analytics_snapshot)뿐 · 트랜잭션은 rollback 으로 닫는다
 //
 // 실행: node scripts/verify-app-split.mjs
 //

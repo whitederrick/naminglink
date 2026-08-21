@@ -1,4 +1,5 @@
 // 읽기 전용 DB 감사. 아무것도 쓰지 않는다.
+// AUDIT_NO_SIDE_EFFECTS: 카탈로그·건수 select 만 던진다 — 쓰기 문장이 하나도 없다
 import { readFileSync } from "node:fs";
 import pg from "pg";
 

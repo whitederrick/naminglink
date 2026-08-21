@@ -200,6 +200,19 @@ function discover() {
  *
  * 그리고 **적지 않으면 잡는다.** 아래 힌트에 걸리는데 아무 선언도 없으면 빨간불이다.
  * 목록을 손으로 관리하면 새로 생기는 검사기가 조용히 빠져나간다.
+ *
+ * ## 이 관문이 막지 못하는 것 (2026-08-21 5차 재검증 P2 — 한계를 적어 둔다)
+ *
+ * **`AUDIT_NO_SIDE_EFFECTS` 는 신뢰에 기댄다.** 실제로 쓰는 파일에 그럴듯한 이유를 달면
+ * 힌트가 덮이고 그대로 통과한다(대조군으로 재현됨). 이것을 코드로 막을 방법은 없다 —
+ * 「이 `.query()` 가 무엇을 하는가」는 문자열로 알 수 없기 때문이다.
+ *
+ * 그래도 이 설계를 쓰는 이유는 **이유 문자열이 책임의 흔적으로 남기** 때문이다. 누가 무엇을
+ * 근거로 「아니다」라고 했는지가 파일에 적히고, 틀리면 그 줄이 증거가 된다. 아무 표식 없이
+ * 빠져나가는 것과는 다르다.
+ *
+ * **이유를 적을 때 짐작하지 말 것.** 호출 자리를 열어 보고 적는다 — 2026-08-21 에
+ * `verify-unlock-ticket.mjs` 를 「supabase 쓰기가 아니다」만 보고 넘겼다가 놓쳤다.
  */
 // **이유가 비어도 선언은 잡는다.** `(.+?)` 로 적으면 「AUDIT_SIDE_EFFECTS:」만 쓴 줄이 아예
 // 매칭되지 않아 **선언이 없는 것처럼** 조용히 넘어간다 — 대조군이 그것을 잡았다.
@@ -212,6 +225,25 @@ const SIDE_EFFECT_HINTS = [
     re: /\.from\(\s*["'][a-z_]+["']\s*\)[\s\S]{0,400}?\.(insert|upsert|update|delete)\(/,
     why: "운영 DB 표에 쓰는 것으로 보인다",
   },
+  /**
+   * **DB 에 직접 붙는 것 자체를 묻는다** (2026-08-21 5차 재검증 P0).
+   *
+   * 힌트가 supabase-js 체인만 봐서 `verify-unlock-ticket.mjs` 를 놓쳤다. 그 파일은 `pg` 로
+   * 직접 붙어 raw SQL 로 쓰기 RPC(`issue_unlock_ticket`·`consume_unlock_ticket`)를 부르고
+   * 마지막에 `delete` 한다 — **선언 0건인 채 기본 스윕의 통과 칸에 있었다.**
+   *
+   * 그물을 한 칸 조이는 대신 **접속 자체**를 묻는다. 읽기만 하는 검사기도 한 줄 적게 되지만,
+   * 놓쳐서 운영 표에 쓰는 것보다 싸다. 실제로 `audit-db.mjs`(카탈로그 select)와
+   * `verify-app-split.mjs`(select + 읽기 전용 RPC)가 이 힌트에 걸렸고, 둘 다 본문을 확인해
+   * `AUDIT_NO_SIDE_EFFECTS` 로 이유를 적었다.
+   */
+  { re: /from\s+["']pg["']|new\s+(?:pg\.)?Client\s*\(/, why: "DB 에 직접 붙는 것으로 보인다" },
+  {
+    re: /\.query\(\s*[`"'][\s\S]{0,300}?\b(insert\s+into|update\s+\S+\s+set|delete\s+from|truncate)\b/i,
+    why: "raw SQL 로 쓰는 것으로 보인다",
+  },
+  /** RPC 는 이름만으로 읽기·쓰기를 가릴 수 없다. **부르면 적게 한다.** */
+  { re: /\.rpc\(\s*["'][a-z_]+["']/, why: "DB 함수를 부른다 — 쓰는 함수일 수 있다" },
   { re: /from\s+["'](?:openai|@\/lib\/openai)["']/, why: "OpenAI 를 부르는 것으로 보인다" },
   { re: /import\(\s*["'][^"']*lib\/openai["']\s*\)/, why: "OpenAI 를 동적으로 부르는 것으로 보인다" },
 ];
@@ -248,6 +280,20 @@ function sideEffectAuditSources(entries) {
     }
     if (no && !no[1].trim()) {
       errors.push(`${who} — AUDIT_NO_SIDE_EFFECTS 에 이유가 없다. 왜 아닌지 적을 것.`);
+    }
+    /**
+     * **없앤 갈래의 선언이 조용히 무시되고 있었다** (2026-08-21 5차 재검증 P2).
+     *
+     * 「감싸짐」을 걷어내면서 `AUDIT_WRAPS` 를 읽는 곳이 사라졌다. 그래서 그 줄을 적어도
+     * 아무 일도 안 일어난다 — 적은 사람은 **갈음이 선 줄 알고**, 감사기는 그냥 둘 다 돈다.
+     * 실패 방향이 안전한 쪽이라 사고가 나지는 않지만, **거짓 안심**은 그 자체로 결함이다.
+     * 옛 코드에 있던 「적용되지 않는 선언은 지운다」 규칙을 여기서 잇는다.
+     */
+    if (/^[ \t]*(?:\/\/|#)[ \t]*AUDIT_WRAPS:/m.test(source)) {
+      errors.push(
+        `${who} — AUDIT_WRAPS 선언이 남아 있다. 그 갈래는 없앴다(§13) — 읽는 곳이 없으므로 ` +
+          "적어도 아무 일도 일어나지 않는다. 지우고, 인자가 필요하면 ARGV 에 적을 것.",
+      );
     }
   }
   return { declaredSideEffects, errors };
@@ -442,7 +488,8 @@ for (const { script, sideEffects, runs } of plan) {
 const sweepJob = async (job) => {
   // **안 돌린 것은 통과가 아니다.** 못 돎과 같은 칸에 넣는다(합계·종료 코드 둘 다).
   if (job.skipped) {
-    return { script: job.script, kind: "cannot", why: `안 돌림 — ${job.skipped}`, tail: "" };
+    // `ran: false` — **부르지 않았다.** 합계에서 「실행 N회」로 세면 안 된다(5차 재검증 P3).
+    return { script: job.script, kind: "cannot", why: `안 돌림 — ${job.skipped}`, tail: "", ran: false };
   }
   if (job.noArgs) {
     return {
@@ -450,6 +497,7 @@ const sweepJob = async (job) => {
       kind: "cannot",
       why: "부를 인자가 없다 — 계획이 비었다(산출물을 먼저 만들 것)",
       tail: "",
+      ran: false,
     };
   }
 
@@ -557,6 +605,36 @@ const SIDE_CONTROL = [
     wantError: true,
     wantDeclared: false,
   },
+  /**
+   * **아래 셋은 2026-08-21 5차 재검증에서 실제로 샌 자리다.**
+   *
+   * 힌트가 supabase-js 체인과 OpenAI 임포트 둘만 봤다. `verify-unlock-ticket.mjs` 는
+   * `pg` 로 **직접 붙어 raw SQL 로 쓰기 RPC** 를 부르고 마지막에 `delete` 한다 — 그물 밖이라
+   * 선언 0건인 채 **기본 스윕의 통과 칸에 있었다.** 「기본 스윕은 DB 쓰기가 없다」는
+   * `c272fea` 의 계약이 그 하루 동안 거짓이었다.
+   *
+   * 그래서 **DB 에 직접 붙는 것 자체**를 힌트로 삼는다. 읽기만 하는 검사기도 한 줄 적어야
+   * 하지만, 놓쳐서 운영 표에 쓰는 것보다 그 값이 싸다 — 실제로 `audit-db.mjs` 와
+   * `verify-app-split.mjs` 가 그렇게 걸렸고, 둘 다 읽기 전용임을 확인해 이유를 적었다.
+   */
+  {
+    label: "pg 로 직접 붙으면 선언을 요구한다",
+    body: 'import pg from "pg";\nconst client = new pg.Client({ connectionString: url });',
+    wantError: true,
+    wantDeclared: false,
+  },
+  {
+    label: "raw SQL 쓰기 문장도 잡는다",
+    body: 'await conn.query("delete from public.unlock_tickets where visitor_hash like $1", [p]);',
+    wantError: true,
+    wantDeclared: false,
+  },
+  {
+    label: "쓸 수 있는 RPC 호출도 잡는다",
+    body: 'const { data } = await supabase.rpc("consume_rate_limit", { p_scope: s });',
+    wantError: true,
+    wantDeclared: false,
+  },
   {
     label: "OpenAI 를 부르는데 아무 선언도 없으면 빨간불",
     body: 'import { generateNamingResult } from "@/lib/openai";',
@@ -626,9 +704,19 @@ const pass = resolved.filter((r) => r.kind === "pass");
 const cannot = resolved.filter((r) => r.kind === "cannot");
 const red = resolved.filter((r) => r.kind === "red");
 
+/**
+ * **부르지 않은 것을 「실행」으로 세지 않는다** (2026-08-21 5차 재검증 P3).
+ *
+ * 예전에는 계획에 오른 수를 그대로 「실행 N회」로 찍었다. 그래서 부수효과라 건너뛴 것만
+ * 고른 필터 실행이 **「실행 1회 · 통과 0 · 검사 안 됨 1」**로 나왔다 — 아무것도 안 돌았는데
+ * 하나 돈 것처럼 보인다. 이 러너가 다른 검사기에게 요구하는 것과 같은 규칙을 자신에게도 적용한다.
+ */
+const ranCount = resolved.filter((r) => r.ran !== false).length;
+const skippedCount = resolved.length - ranCount;
 console.log(
-  `\n검사기 ${selected.length}개 · 실행 ${resolved.length}회 — ` +
-    `통과 ${pass.length} / 검사 안 됨 ${cannot.length} / 빨간불 ${red.length}`,
+  `\n검사기 ${selected.length}개 · 실행 ${ranCount}회` +
+    (skippedCount ? ` · 안 부름 ${skippedCount}개` : "") +
+    ` — 통과 ${pass.length} / 검사 안 됨 ${cannot.length} / 빨간불 ${red.length}`,
 );
 const name = (r) => `${r.script.where}/${r.script.file}${r.label ? ` (${r.label})` : ""}`;
 
