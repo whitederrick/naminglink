@@ -1,4 +1,5 @@
 // 저장 기록 재봉인 검사.
+// AUDIT_SIDE_EFFECTS: 저장된 기록이 없으면 generateNamingResult 를 실호출한다 — OpenAI 비용
 //
 // 로그인한 회원이 "저장 결과 열기"를 누르면 `/api/account/results/[id]`가 `naming_logs`의
 // **평문** 기록을 읽어 생성 때와 같은 규칙으로 **다시 봉인해** 내려보낸다. 이 재봉인이

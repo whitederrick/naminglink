@@ -25,6 +25,7 @@ import path from "node:path";
 import { buildSeal } from "./seal-locale-review";
 import { fileOnlyReader } from "./legal-source";
 import {
+  docsEnAdjudicationErrors,
   hashValue,
   originAllowed,
   originDocsEnErrors,
@@ -327,11 +328,52 @@ async function main() {
      * **닫는 쪽으로만 고치면 그것도 결함이다**(2026-08-20 P0 과 같은 병). 실제로 갈라 둔
      * 78개는 그대로 origin 이어야 한다 — 아니면 있지도 않은 ko 원문 해시를 요구받는다.
      */
-    const listed = ORIGIN_DOCS_EN.flatMap((entry) => entry.ids);
+    const listed = ORIGIN_DOCS_EN.flatMap((entry) => entry.originIds);
     check(
       `갈라 둔 잎 ${listed.length}개는 그대로 origin 이다`,
       listed.length === 78 && listed.every((id) => originAllowed("docs", "en", id)),
       `origin 이 아닌 것: ${listed.find((id) => !originAllowed("docs", "en", id)) ?? "(없음)"}`,
+    );
+
+    /**
+     * **빠져나갈 길이 있어야 관문이다** (4차 재검증 P1).
+     *
+     * 처음엔 origin 만 적을 수 있었다. 그래서 새 잎이 생기면 「옮긴 것이면 그대로 두라」는
+     * 안내를 따라도 **다음 실행에서 또 빨간불**이었다 — 사람이 할 수 있는 일이 거짓으로
+     * origin 이라고 적는 것뿐이었고, 그러면 검수 증빙의 출처가 통째로 틀어진다.
+     *
+     * 실제 표로는 이 갈래를 시험할 수 없다(지금은 안 가른 잎이 없다). **가짜 표를 넣어** 본다.
+     */
+    const NEW_LEAF = "notices.items.2099-01-01-new-notice.title";
+    const inventory = [...scopeInventory("docs", "en").map((leaf) => leaf.path), NEW_LEAF];
+    const group = (originIds: string[], translatedIds: string[]) => [
+      { prefix: "notices.items.2099-", reason: "시험용 묶음", originIds, translatedIds },
+    ];
+
+    check(
+      "안 가른 새 잎은 빨간불이다",
+      says(docsEnAdjudicationErrors(group([], []), inventory), "아직 안 갈랐다"),
+      "새로 생긴 잎이 조용히 흘러가면 안 된다",
+    );
+    check(
+      "**translated 로 적으면 빨간불이 멎는다**",
+      docsEnAdjudicationErrors(group([], [NEW_LEAF]), inventory).length === 0,
+      `아직 남는다: ${docsEnAdjudicationErrors(group([], [NEW_LEAF]), inventory)[0] ?? ""}`,
+    );
+    check(
+      "그렇게 적어도 origin 으로는 통하지 않는다",
+      !originAllowed("docs", "en", NEW_LEAF),
+      "translated 로 적었다고 origin 이 되면 갈래를 적는 의미가 없다",
+    );
+    check(
+      "origin 으로 적어도 빨간불이 멎는다(닫는 쪽으로만 고치지 않았다)",
+      docsEnAdjudicationErrors(group([NEW_LEAF], []), inventory).length === 0,
+      "영어로 새로 쓴 글까지 막으면 그것이 거짓 거부다",
+    );
+    check(
+      "양쪽에 적으면 잡는다",
+      says(docsEnAdjudicationErrors(group([NEW_LEAF], [NEW_LEAF]), inventory), "양쪽에 적혀"),
+      "판정이 둘이면 어느 쪽이 참인지 아무도 모른다",
     );
 
     // 옆으로 새는 문도 여전히 닫혀 있는지 함께 본다(끝점이 지워지면 되살아난다).

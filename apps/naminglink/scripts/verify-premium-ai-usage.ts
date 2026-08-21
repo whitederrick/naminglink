@@ -1,6 +1,8 @@
 // 프리미엄 리포트 생성이 ai_usage_logs에 사용량을 남기는지 실호출로 검증한다.
 // 실행: cd scripts && npx tsx --tsconfig tsconfig.sweep.json verify-premium-ai-usage.ts
 // OpenAI를 실제로 호출하므로 토큰 비용이 조금 든다. 검증 후 남긴 행은 지운다.
+//
+// AUDIT_SIDE_EFFECTS: OpenAI 를 실제로 호출한다(토큰 비용) · ai_usage_logs 행을 만들고 지운다
 import { createClient } from "@supabase/supabase-js";
 
 // **`.env.local` 파싱은 한 곳에만 둔다** (2026-08-21). 여기 있던 것을 `load-env-local.ts` 로
@@ -8,9 +10,27 @@ import { createClient } from "@supabase/supabase-js";
 // 못 읽는다. `verify-legal-source.ts` 가 그 자리에서 늘 「못 돎」이었다.
 import { loadEnvLocal } from "./load-env-local";
 
-const env = loadEnvLocal();
+/**
+ * **읽는 곳은 `process.env` 하나다** (2026-08-21 재검증 P1).
+ *
+ * 처음엔 `loadEnvLocal()` 이 돌려준 표를 그대로 썼다. 그런데 그 loader 의 계약은 **이미
+ * `process.env` 에 있는 값이 이긴다**(Vercel·CI 가 넣어 준 값을 로컬 파일이 밀어내면 안 된다).
+ * 반환값을 쓰면 그 계약을 **부르는 쪽에서 깨뜨린다** — 아래 `generateNamingResult` 는
+ * `process.env` 를 보고, 여기 `createClient` 는 파일 값을 본다. **둘이 다른 DB 를 볼 수 있고**,
+ * 그러면 호출은 한쪽에 쓰고 확인·삭제는 다른 쪽을 뒤진다.
+ */
+loadEnvLocal();
 
-const supabase = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+if (!supabaseUrl || !serviceRoleKey) {
+  // 못 돎은 통과가 아니다. **사유는 마지막 줄에 적는다** — 감사기가 거기서만 읽는다.
+  console.error("이 검사는 Supabase 자격증명이 있어야 하고 OpenAI 호출로 비용이 든다.");
+  console.error("CANNOT_RUN — NEXT_PUBLIC_SUPABASE_URL · SUPABASE_SERVICE_ROLE_KEY 가 없다.");
+  process.exit(2);
+}
+
+const supabase = createClient(supabaseUrl, serviceRoleKey);
 
 async function main() {
   const { buildGlobalNamePremiumResult } = await import("@/lib/global-name-premium");

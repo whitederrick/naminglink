@@ -12,29 +12,38 @@
 // 그 사실이 **각 파일 머리 주석에만** 적혀 있었다. 주석은 사람이 읽어야 알고, 훑는 사람은
 // 다음에도 같은 7건에서 멈춘다. **부르는 법을 코드가 알아야 한다.**
 //
-// ## 갈래
+// ## 갈래 — **셋뿐이다**
 //
-//   통과    exit 0
-//   못 돎   서버·비용·자료가 있어야 하는 검사. **통과로 세지 않는다**
-//   감싸짐  다른 검사가 불러 준다(그 검사의 결과로 갈음한다)
-//   빨간불  나머지 전부. **분류하지 못한 실패도 여기 넣는다** — 모르는 것을 통과로 바꾸지 않는다
+//   통과       exit 0
+//   검사 안 됨 환경이 없어 못 돌았거나(dev 서버·자격증명), 부수효과가 있어 **안 돌렸다.**
+//              **통과로 세지 않는다** — 합계에 따로 찍히고 종료 코드가 2가 된다
+//   빨간불     나머지 전부. **분류하지 못한 실패도 여기 넣는다** — 모르는 것을 통과로 바꾸지 않는다
+//
+// 「감싸짐」(다른 검사가 대신 돌려 준다)은 **없앴다.** 세 판 연속 뚫려서다 — 아래
+// `ARGV` 의 PDF 항목에 그 경위가 적혀 있다.
 //
 // ## 새 검사기를 만들면
 //
-// 아무것도 안 해도 된다. 파일 이름이 `verify|audit|validate`로 시작하면 **저절로 잡힌다.**
-// 부르는 법이 특별하면 아래 `ARGV`에 한 줄 더한다. 감싸서 대신 돌리는 검사라면 `AUDIT_WRAPS`로
-// **선언하고, 실제로 불러서 그 이름이 출력에 남게** 한다 — 선언만으로는 갈음이 서지 않는다.
+// 파일 이름이 `verify|audit|validate`로 시작하면 **저절로 잡힌다.** 그다음 둘만 보면 된다.
+//
+//   인자가 필요하면      아래 `ARGV` 에 한 줄
+//   비용이 들거나        `// AUDIT_SIDE_EFFECTS: <무엇을 건드리는지>`
+//   운영 DB 를 건드리면   → 기본 스윕에서 **안 돈다**(안 돌린 것은 통과가 아니다)
+//
+// 건드리는 것으로 **보이는데** 아무 선언도 없으면 감사기가 잡는다. 실제로는 아니라면
+// `// AUDIT_NO_SIDE_EFFECTS: <왜 아닌지>` 로 이유를 적는다.
 //
 // 실행:
-//   node scripts/audit-verifiers.mjs            전부 돌린다
+//   node scripts/audit-verifiers.mjs            전부 돌린다(부수효과 있는 것은 뺀다)
 //   node scripts/audit-verifiers.mjs --list     무엇을 어떻게 부를지만 보여 준다
 //   node scripts/audit-verifiers.mjs --filter legal   이름에 그 말이 든 것만
 //   node scripts/audit-verifiers.mjs --self-test      대조군만 세고 끝낸다(스윕을 돌리지 않는다)
+//   node scripts/audit-verifiers.mjs --with-side-effects   **비용·운영 DB 를 건드린다**
 //
 // 종료 코드 — **`exit 0`은 「전부 돌았고 깨끗하다」일 때뿐이다.**
 //   0  고른 것이 전부 돌았고 빨간불이 없다
-//   1  빨간불이 있다 · 대조군이 깨졌다 · 실행 0회다
-//   2  빨간불은 없으나 **검사하지 못한 것이 있다**(못 돎). 통과가 아니다
+//   1  빨간불이 있다 · 대조군이 깨졌다 · 실행 0회다 · 부수효과 선언이 없다
+//   2  빨간불은 없으나 **검사하지 못한 것이 있다.** 통과가 아니다
 
 import { spawn, spawnSync } from "node:child_process";
 import { readdirSync, readFileSync, existsSync } from "node:fs";
@@ -61,7 +70,50 @@ const ARGV = {
       label: app,
       args: [app, `https://${APP_DOMAINS[app]}`],
     })),
+  /**
+   * **PDF 검사 셋은 인자를 받아 직접 돈다** (2026-08-21 4차 재검증 P1).
+   *
+   * 예전에는 `audit-pdfs.mjs` 가 「내가 대신 돌린다」고 선언하면 이 셋을 **안 돌렸다**(감싸짐).
+   * 그 갈래가 두 번 뚫렸다 — 부르기만 해도 참이 됐고, 선언만 해도 참이 됐고, 자취를
+   * 요구하자 **이름만 찍어도** 참이 됐다. **출력 문자열로 만드는 증거는 위조된다.**
+   *
+   * 그래서 갈음을 없앴다. `audit-pdfs.mjs --audit-plan` 은 「어떤 인자로 무엇을 돌릴지」만
+   * 알려 주고, 여기서 **감사기가 제 손으로** 돌린다. 믿을 것이 없으면 속을 것도 없다.
+   */
+  "audit-pdf-language.py": () => pdfRuns("audit-pdf-language.py"),
+  "audit-pdf-layout.py": () => pdfRuns("audit-pdf-layout.py"),
+  "audit-pdf-glyphs.py": () => pdfRuns("audit-pdf-glyphs.py"),
 };
+
+/** 계획을 한 번만 물어본다(셋이 같은 계획을 쓴다). */
+let pdfPlanCache = null;
+function pdfPlan() {
+  if (pdfPlanCache) return pdfPlanCache;
+  const r = spawnSync("node", ["scripts/audit-pdfs.mjs", "--audit-plan"], {
+    cwd: ROOT,
+    encoding: "utf8",
+  });
+  if (r.status !== 0) {
+    pdfPlanCache = { jobs: [], gaps: [{ app: "(all)", why: `계획을 못 받았다: exit ${r.status}` }] };
+    return pdfPlanCache;
+  }
+  try {
+    pdfPlanCache = JSON.parse(r.stdout);
+  } catch (error) {
+    pdfPlanCache = { jobs: [], gaps: [{ app: "(all)", why: `계획이 JSON 이 아니다: ${error.message}` }] };
+  }
+  return pdfPlanCache;
+}
+
+/**
+ * 그 스크립트를 돌릴 인자들. **비어 있으면 빈 배열을 돌려준다** — 부르는 쪽이 그것을
+ * 「검사 안 됨」으로 적는다. 조용히 통과시키지 않는다.
+ */
+function pdfRuns(script) {
+  return pdfPlan()
+    .jobs.filter((job) => job.script === script)
+    .map((job) => ({ label: `${job.app}/${path.basename(job.dir)}`, args: job.args.slice(1) }));
+}
 
 /** 「돌 수 없다」고 스스로 말하는 출력. 결함이 아니라 검사할 수 없었던 것이다. */
 const CANNOT_RUN = [
@@ -114,56 +166,102 @@ function discover() {
 }
 
 /**
- * 다른 검사기가 이 파일을 **대신 돌려 주는가.**
+ * **감싸짐이라는 갈래는 없앴다** (2026-08-21 4차 재검증 P1).
  *
- * `audit-pdfs.mjs`가 파이썬 셋을 감싸는 것이 그 예다. 감싸진 것을 따로 부르면 인자가 없어
- * 빨간불이 나는데, **실제로는 감싼 쪽이 이미 돌렸다.**
+ * 「다른 검사기가 이 파일을 대신 돌려 준다」는 갈래가 세 판 연속 뚫렸다.
  *
- * ## 「부르면 감싼 것」이 검사기를 통째로 사라지게 했다 (2026-08-20 재검증 P1)
+ *     1판  부르기만 하면 참    → 공격 스크립트가 제품 검사기를 스윕에서 지웠다
+ *     2판  선언하면 참        → 부르지도 않으면서 적기만 해도 참이 됐다
+ *     3판  출력에 이름이 있으면 참 → 「나는 그것을 부른 적이 없다」라고 찍어도 참이 됐다
  *
- * 예전 규칙은 **자식 프로세스를 쓰고 주석 아닌 자리에 이름이 있으면** 감싼 것으로 봤다.
- * 그날 `verify-review-attacks.ts`(공격 파일)가 `verify-legal-source.ts`를 띄우자 이렇게 됐다.
+ * 세 판 다 **출력이나 소스의 문자열**을 증거로 삼았다. 그것은 무엇을 하든 위조된다 —
+ * 감싼 쪽이 자기 출력을 통제하기 때문이다. 규칙을 조일수록 위조가 한 줄 길어질 뿐이었다.
  *
- *     naminglink/verify-legal-source.ts  —  감싸짐 ← naminglink/verify-review-attacks.ts
+ * 그래서 **믿는 것을 그만뒀다.** 인자가 필요한 검사기는 위 `ARGV` 가 인자를 받아 오고,
+ * 감사기가 **제 손으로** 돌린다(`audit-pdfs.mjs --audit-plan`). 갈음이 없으면 갈음 사기도 없다.
  *
- * **공격은 그 검사기를 자격증명을 일부러 빼고 돌린다.** 「못 돎이 못 돎으로 갈리는가」를 보는
- * 것이지 제품을 검사한 게 아니다. 그런데 감사기는 그 결과로 **갈음**해 버렸고, 제품 검사기
- * 하나가 스윕에서 조용히 빠졌다. `--filter legal-source`로 좁히면 **실행 0회에 `ALL PASS`**가
- * 나왔다 — 「검사 0건은 실패」와 정확히 같은 자리다.
- *
- * 부르는 것과 갈음하는 것은 다르다. 그래서 **감싼 쪽이 그렇게 선언할 때만** 감싼 것으로 본다.
- * 선언이 없는 호출(공격·프로브)은 그냥 호출이고, 감싸진 쪽은 **제 발로 돈다.**
- *
- *     // AUDIT_WRAPS: audit-pdf-language.py
+ * 대가는 `audit-pdf-*.py` 셋이 스윕당 두 번 도는 것이다 — 감사기가 한 번, `audit-pdfs.mjs`
+ * 가 제 검사를 하며 한 번. **그 값이면 싸다.**
  */
-const WRAPS_DECL = /^[ \t]*(?:\/\/|#)[ \t]*AUDIT_WRAPS:[ \t]*(\S+)[ \t]*$/gm;
+/**
+ * **스윕은 읽기 전용 관문이어야 한다** (2026-08-21 4차 재검증 P1).
+ *
+ * 이 러너는 이름이 `verify|audit|validate` 로 시작하면 **전부** 돌린다. 그 안에 이런 것들이
+ * 섞여 있었다 — `verify-name-script-rules.ts` 는 언어마다 `generateNamingResult` 를 **실호출**
+ * 하고, `verify-premium-ai-usage.ts` 는 OpenAI 를 부른 뒤 `ai_usage_logs` 행을 지우며,
+ * 주문·티켓 검사기는 운영 DB 에 행을 만들고 지운다.
+ *
+ * 즉 「전수 스윕을 한 번 돌린다」가 **사용자 승인 없는 비용 지출과 운영 상태 변경**이었다.
+ * 2026-08-21 하루에만 다섯 번 돌았다. 검사기를 믿게 만드는 도구가 그 자체로 부작용이었던 것이다.
+ *
+ * 그래서 **선언하게 하고 기본은 끈다.** `AUDIT_WRAPS` 와 달리 이 선언은 **거짓으로 적을
+ * 이유가 없다** — 적으면 안 돌고, 안 돌면 통과로 세지도 않는다(「안 돌림」은 못 돎과 같은 칸,
+ * `exit 2`). 숨기려고 적는 것이 아니라 **드러내려고** 적는 것이다.
+ *
+ * 그리고 **적지 않으면 잡는다.** 아래 힌트에 걸리는데 아무 선언도 없으면 빨간불이다.
+ * 목록을 손으로 관리하면 새로 생기는 검사기가 조용히 빠져나간다.
+ */
+// **이유가 비어도 선언은 잡는다.** `(.+?)` 로 적으면 「AUDIT_SIDE_EFFECTS:」만 쓴 줄이 아예
+// 매칭되지 않아 **선언이 없는 것처럼** 조용히 넘어간다 — 대조군이 그것을 잡았다.
+const SIDE_EFFECTS_DECL = /^[ \t]*(?:\/\/|#)[ \t]*AUDIT_SIDE_EFFECTS:[ \t]*(.*?)[ \t]*$/m;
+/** 「힌트에 걸리지만 실제로는 아니다」를 **이유와 함께** 적는 자리. */
+const NO_SIDE_EFFECTS_DECL = /^[ \t]*(?:\/\/|#)[ \t]*AUDIT_NO_SIDE_EFFECTS:[ \t]*(.*?)[ \t]*$/m;
 
-/** 선언된 이름을 모은다. **죽은 선언은 잡는다** — 없는 파일을 감쌌다고 적을 수 없다. */
-function wrapDeclarations(all) {
-  const declared = new Map(); // file → "where/file" (감싼 쪽)
+const SIDE_EFFECT_HINTS = [
+  {
+    re: /\.from\(\s*["'][a-z_]+["']\s*\)[\s\S]{0,400}?\.(insert|upsert|update|delete)\(/,
+    why: "운영 DB 표에 쓰는 것으로 보인다",
+  },
+  { re: /from\s+["'](?:openai|@\/lib\/openai)["']/, why: "OpenAI 를 부르는 것으로 보인다" },
+  { re: /import\(\s*["'][^"']*lib\/openai["']\s*\)/, why: "OpenAI 를 동적으로 부르는 것으로 보인다" },
+];
+
+/**
+ * 소스를 받아 판정한다. **파일을 읽지 않는다** — 대조군이 가짜 소스를 넣어 볼 수 있어야
+ * 하고, 그러지 못하면 이 판정기가 사는지 셀 방법이 없다.
+ */
+function sideEffectAuditSources(entries) {
+  const declaredSideEffects = new Map(); // "where/file" → 이유
   const errors = [];
-  const known = new Set(all.map((s) => s.file));
-  for (const script of all) {
-    const source = readFileSync(path.join(ROOT, script.dir, script.file), "utf8");
-    for (const [, name] of source.matchAll(WRAPS_DECL)) {
-      const who = `${script.where}/${script.file}`;
-      if (name === script.file) {
-        errors.push(`${who} — 자기 자신을 감쌌다고 적었다`);
+  for (const { where, file, body: source } of entries) {
+    const who = `${where}/${file}`;
+    const yes = SIDE_EFFECTS_DECL.exec(source);
+    const no = NO_SIDE_EFFECTS_DECL.exec(source);
+    if (yes && no) {
+      errors.push(`${who} — 부수효과가 있다고도 없다고도 적었다. 하나만 적을 것.`);
+      continue;
+    }
+    if (yes) {
+      if (!yes[1].trim()) {
+        errors.push(`${who} — AUDIT_SIDE_EFFECTS 에 이유가 없다. 무엇을 건드리는지 적을 것.`);
         continue;
       }
-      if (!known.has(name)) {
-        errors.push(`${who} — AUDIT_WRAPS: ${name} 이라는 검사기가 없다. 적용되지 않는 선언은 지운다.`);
-        continue;
-      }
-      const already = declared.get(name);
-      if (already && already !== who) {
-        errors.push(`${name} — ${already} 와 ${who} 가 둘 다 감쌌다고 적었다. 갈음은 한 곳이어야 한다.`);
-        continue;
-      }
-      declared.set(name, who);
+      declaredSideEffects.set(who, yes[1].trim());
+      continue;
+    }
+    const hit = SIDE_EFFECT_HINTS.find((hint) => hint.re.test(source));
+    if (hit && !no) {
+      errors.push(
+        `${who} — ${hit.why}. AUDIT_SIDE_EFFECTS 로 무엇을 건드리는지 적거나, ` +
+          "아니라면 AUDIT_NO_SIDE_EFFECTS 로 왜 아닌지 적을 것.",
+      );
+    }
+    if (no && !no[1].trim()) {
+      errors.push(`${who} — AUDIT_NO_SIDE_EFFECTS 에 이유가 없다. 왜 아닌지 적을 것.`);
     }
   }
-  return { declared, errors };
+  return { declaredSideEffects, errors };
+}
+
+/** 실제 파일로 부른다. 판정 규칙은 위 하나뿐이다. */
+function sideEffectAudit(scripts) {
+  return sideEffectAuditSources(
+    scripts.map((script) => ({
+      where: script.where,
+      file: script.file,
+      body: readFileSync(path.join(ROOT, script.dir, script.file), "utf8"),
+    })),
+  );
 }
 
 function commandFor(script, tsconfig) {
@@ -278,32 +376,40 @@ const argv = process.argv.slice(2);
 const listOnly = argv.includes("--list");
 /** 대조군만 세고 끝낸다. 판정기를 고치는 동안 97개를 돌릴 이유가 없다. */
 const selfTest = argv.includes("--self-test");
+/**
+ * **부수효과가 있는 검사기까지 돌린다.** 비용이 들고 운영 DB 를 건드린다 —
+ * 사람이 그것을 알고 명시적으로 켤 때만 돈다. 기본은 꺼져 있다.
+ */
+const withSideEffects = argv.includes("--with-side-effects");
 const filter = argv[argv.indexOf("--filter") + 1];
 const all = discover();
 const selected = filter && argv.includes("--filter")
   ? all.filter((s) => s.file.includes(filter) || s.where.includes(filter))
   : all;
 
-// **선언 자체가 성립하는가.** 죽은 선언·겹친 선언은 갈음을 조용히 비운다.
-const { declared, errors: declErrors } = wrapDeclarations(all);
+const { declaredSideEffects, errors: declErrors } = sideEffectAudit(all);
 if (declErrors.length) {
-  console.log("■ AUDIT_WRAPS 선언이 깨졌다");
+  console.log("■ 부수효과 선언이 없거나 깨졌다");
   for (const e of declErrors) console.log(`  ✗ ${e}`);
+  console.log("\n검사기가 무엇을 건드리는지 코드가 알아야 한다. 이유와 함께 적을 것.");
   process.exit(1);
 }
 
 const plan = selected.map((script) => {
-  const wrapper = declared.get(script.file) ?? null;
+  const who = `${script.where}/${script.file}`;
+  const sideEffects = declaredSideEffects.get(who) ?? null;
   const runs = ARGV[script.file]?.() ?? [{ label: null, args: [] }];
-  return { script, wrapper, runs };
+  return { script, sideEffects, runs };
 });
 
 if (listOnly) {
   console.log(`검사기 ${all.length}개 (선택 ${selected.length}개)\n`);
-  for (const { script, wrapper, runs } of plan) {
-    const how = wrapper
-      ? `감싸짐 ← ${wrapper}`
-      : runs.map((r) => (r.args.length ? `[${r.args.join(" ")}]` : "인자 없음")).join(" · ");
+  for (const { script, sideEffects, runs } of plan) {
+    const how = sideEffects
+      ? `부수효과 — ${sideEffects}`
+      : runs.length === 0
+        ? "부를 인자가 없다"
+        : runs.map((r) => (r.args.length ? `[${r.args.join(" ")}]` : "인자 없음")).join(" · ");
     console.log(`  ${script.where}/${script.file}  —  ${how}`);
   }
   process.exit(0);
@@ -314,9 +420,17 @@ if (listOnly) {
  * 나머지 갈래가 놀게 된다.
  */
 const jobs = [];
-for (const { script, wrapper, runs } of plan) {
-  if (wrapper) {
-    jobs.push({ script, wrapper });
+for (const { script, sideEffects, runs } of plan) {
+  if (sideEffects && !withSideEffects) {
+    jobs.push({ script, skipped: sideEffects });
+    continue;
+  }
+  if (runs.length === 0) {
+    /**
+     * **인자를 못 받은 것은 통과가 아니다.** `ARGV` 가 빈 배열을 돌려주면(예: PDF 산출물이
+     * 없어 계획이 비었을 때) 이 검사기는 한 번도 안 돈다. 예전 구조라면 조용히 사라졌다.
+     */
+    jobs.push({ script, noArgs: true });
     continue;
   }
   for (const { label, args } of runs) jobs.push({ script, label, args });
@@ -326,7 +440,18 @@ for (const { script, wrapper, runs } of plan) {
  * 한 번 부르는 일. **대조군이 끝난 뒤에 부른다** — 아래 `runSweep()` 호출 자리를 볼 것.
  */
 const sweepJob = async (job) => {
-  if (job.wrapper) return { script: job.script, kind: "wrapped", why: job.wrapper };
+  // **안 돌린 것은 통과가 아니다.** 못 돎과 같은 칸에 넣는다(합계·종료 코드 둘 다).
+  if (job.skipped) {
+    return { script: job.script, kind: "cannot", why: `안 돌림 — ${job.skipped}`, tail: "" };
+  }
+  if (job.noArgs) {
+    return {
+      script: job.script,
+      kind: "cannot",
+      why: "부를 인자가 없다 — 계획이 비었다(산출물을 먼저 만들 것)",
+      tail: "",
+    };
+  }
 
   const { script, label, args } = job;
   let tsconfig = "tsconfig.json";
@@ -346,72 +471,8 @@ const sweepJob = async (job) => {
     tsconfig: script.file.endsWith(".ts") ? tsconfig : null,
     ...classify(result),
     tail: tail(result.out),
-    // **감쌌다는 선언의 증거.** 이번 실행이 출력에 이름을 남긴 검사기들 — `resolveWrapped` 가 쓴다.
-    named: [...declared.keys()].filter((file) => result.out.includes(file)),
   };
 };
-
-/**
- * **갈음이 실제로 성립했는가** (2026-08-20 재검증 P1).
- *
- * 「감싸짐」은 *감싼 검사의 결과로 갈음한다*는 뜻이다. 그런데 감싼 쪽이 이번 실행에 **없거나**
- * (`--filter`로 좁혔을 때) 돌았는데 통과하지 못했다면, 갈음할 결과가 없다. 그 상태를 그대로
- * 「감싸짐」에 두면 **아무도 안 돈 검사기가 조용히 초록불 쪽에 선다.**
- *
- * 갈음이 성립하지 않으면 **빨간불**이다. 통과도 못 돎도 아니다 — 환경이 없는 게 아니라
- * **검사를 안 한 것**이기 때문이다.
- *
- * ## 선언은 증거가 아니다 (2026-08-21)
- *
- * 2026-08-20 에 「부르면 감싼 것」을 「선언해야 감싼 것」으로 바꿨다. 그런데 **선언만 하면
- * 참이 됐다.** `wrapDeclarations()` 가 보는 것은 ⓐ자기 자신 ⓑ없는 파일 ⓒ중복 선언 셋뿐이고,
- * **실제로 부르는지는 아무도 안 봤다.** 부르지도 않으면서 선언만 한 대조군을 넣자
- * `verify-robots-open.mjs` 가 **한 번도 안 돈 채 「감싸짐」으로 사라지고 ALL PASS** 가 났다.
- * 규칙만 바뀌고 병은 그대로였던 것이다.
- *
- * 그래서 **이번 실행의 자취**를 요구한다 — 감싼 쪽 출력에 감싸진 파일 이름이 있어야 한다.
- * 소스를 읽어 판정하지 않는다(그 방식이 2026-08-20 #15 에서 거짓 초록불을 냈다). 실제로
- * 돌린 프로세스가 남긴 출력만 증거로 센다.
- */
-function resolveWrapped(rows) {
-  const outcomeOf = new Map(); // "where/file" → 그 검사기의 실행 결과들
-  const namedBy = new Map(); // "where/file" → 그 실행이 출력에 이름을 남긴 파일들
-  for (const row of rows) {
-    if (row.kind === "wrapped") continue;
-    const key = `${row.script.where}/${row.script.file}`;
-    if (!outcomeOf.has(key)) outcomeOf.set(key, []);
-    outcomeOf.get(key).push(row.kind);
-    if (!namedBy.has(key)) namedBy.set(key, new Set());
-    for (const named of row.named ?? []) namedBy.get(key).add(named);
-  }
-  return rows.map((row) => {
-    if (row.kind !== "wrapped") return row;
-    const kinds = outcomeOf.get(row.why);
-    if (!kinds?.length) {
-      return { ...row, kind: "red", why: `갈음할 결과가 없다 — 감싼 ${row.why} 가 이번에 돌지 않았다`, tail: "" };
-    }
-    if (kinds.every((kind) => kind === "pass")) {
-      // **통과했다고 부른 것은 아니다.** 선언은 의도이고, 자취가 증거다.
-      if (!namedBy.get(row.why)?.has(row.script.file)) {
-        return {
-          ...row,
-          kind: "red",
-          why:
-            `${row.why} 가 감쌌다고 적었지만 이번 실행 출력에 ${row.script.file} 이 없다 — ` +
-            "선언만 있고 부른 자취가 없다",
-          tail: "",
-        };
-      }
-      return row;
-    }
-    // **환경이 없어 감싼 쪽이 못 돌았다면 감싸진 쪽도 「못 돎」이다.** 여기서 빨간불을 내면
-    // 렌더 산출물이 없는 컴퓨터마다 없는 결함 세 건이 신고된다 — 갈래를 잘못 잡은 것이다.
-    if (kinds.every((kind) => kind === "pass" || kind === "cannot")) {
-      return { ...row, kind: "cannot", why: `감싼 ${row.why} 가 돌지 못했다 — 이것도 안 돈 것이다` };
-    }
-    return { ...row, kind: "red", why: `감싼 ${row.why} 가 통과하지 못했다(${kinds.join("·")}) — 갈음이 성립하지 않는다`, tail: "" };
-  });
-}
 
 // ── 대조군 ────────────────────────────────────────────────────────────────
 // 판정기가 살아 있는지 본다. 통과만 세는 러너는 아무것도 보증하지 못한다.
@@ -477,68 +538,66 @@ for (const { label, result, want } of CONTROL) {
 }
 
 /**
- * **갈음 판정에도 대조군이 있어야 한다.** 이 규칙이 없어서 실행 0회에 `ALL PASS` 가 났다.
- * 판정기를 고쳐 놓고 그 판정기가 사는지 안 세면 다음에 또 같은 자리로 돌아온다.
+ * **부수효과 선언에도 대조군이 있어야 한다.**
+ *
+ * 이 판정이 조용히 멎으면 스윕이 다시 비용을 쓰고 운영 DB 를 건드린다 — 그리고 그 사실이
+ * 화면에는 「통과」로 보인다. 가짜 소스를 넣어 판정기가 사는지 센다.
  */
-const at = (where, file, kind, named = []) => ({ script: { where, file }, kind, named });
-const WRAP_CONTROL = [
+const src = (body) => ({ where: "(control)", file: "verify-x.mjs", dir: null, body });
+const SIDE_CONTROL = [
   {
-    label: "감싼 쪽이 통과했고 부른 자취가 있으면 갈음이 선다",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass", ["a.py"])],
-    want: "wrapped",
+    label: "선언하면 잡히지 않는다(그리고 이유가 남는다)",
+    body: '// AUDIT_SIDE_EFFECTS: OpenAI 를 부른다\nimport OpenAI from "openai";',
+    wantError: false,
+    wantDeclared: true,
   },
   {
-    label: "감싼 쪽이 이번에 안 돌았으면 빨간불",
-    rows: [at("(root)", "a.py", "wrapped-src")],
-    want: "red",
+    label: "DB 에 쓰는데 아무 선언도 없으면 빨간불",
+    body: 'await supabase.from("orders").insert({ id: 1 });',
+    wantError: true,
+    wantDeclared: false,
   },
   {
-    label: "감싼 쪽이 빨간불이면 갈음이 서지 않는다",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "red")],
-    want: "red",
+    label: "OpenAI 를 부르는데 아무 선언도 없으면 빨간불",
+    body: 'import { generateNamingResult } from "@/lib/openai";',
+    wantError: true,
+    wantDeclared: false,
   },
   {
-    // **못 돎으로 갈음할 수 없다.** 다만 그것은 빨간불이 아니라 **못 돎**이다 — 감싼 쪽이
-    // 환경이 없어 못 돌았으면 감싸진 쪽도 「검사 안 됨」이지 「결함」이 아니다.
-    label: "감싼 쪽이 못 돎이면 감싸진 쪽도 못 돎",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "cannot")],
-    want: "cannot",
+    label: "아니라고 이유와 함께 적으면 잡지 않는다",
+    body: '// AUDIT_NO_SIDE_EFFECTS: 소스 문자열만 훑는다\nimport OpenAI from "openai";',
+    wantError: false,
+    wantDeclared: false,
   },
   {
-    // 여러 번 도는 검사기라면 **한 번이라도 빨간불이면** 갈음이 서지 않는다.
-    label: "감싼 쪽이 통과와 빨간불을 섞으면 빨간불",
-    rows: [
-      at("(root)", "a.py", "wrapped-src"),
-      at("(root)", "w.mjs", "pass", ["a.py"]),
-      at("(root)", "w.mjs", "red"),
-    ],
-    want: "red",
+    label: "이유 없는 선언은 잡는다",
+    body: "// AUDIT_SIDE_EFFECTS:\n",
+    wantError: true,
+    wantDeclared: false,
   },
   {
-    /**
-     * **2026-08-21 에 실제로 뚫린 자리.** 부르지도 않으면서 `AUDIT_WRAPS` 만 적고 스스로
-     * 통과한 대조군을 넣자 `verify-robots-open.mjs` 가 한 번도 안 돈 채 스윕에서 사라졌다.
-     * 선언은 의도이고, 이번 실행의 출력이 증거다.
-     */
-    label: "선언만 하고 부른 자취가 없으면 빨간불",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass")],
-    want: "red",
+    label: "있다고도 없다고도 적으면 잡는다",
+    body: "// AUDIT_SIDE_EFFECTS: 쓴다\n// AUDIT_NO_SIDE_EFFECTS: 안 쓴다\n",
+    wantError: true,
+    wantDeclared: false,
   },
   {
-    // **자취를 요구하는 것이 못 돎을 빨간불로 바꾸면 안 된다.** 환경이 없어 감싼 쪽이 못
-    // 돌았으면 이름을 남길 수도 없다 — 그건 「검사 안 됨」이지 「선언이 거짓」이 아니다.
-    label: "못 돎이면 자취가 없어도 빨간불이 아니다",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "cannot")],
-    want: "cannot",
+    // **닫는 쪽으로만 틀리면 안 된다.** 아무 관계 없는 검사기가 걸리면 사람이 선언을 남발한다.
+    label: "부수효과가 없으면 아무것도 요구하지 않는다",
+    body: 'const rows = readFileSync("x").toString();\nmap.delete("k");',
+    wantError: false,
+    wantDeclared: false,
   },
 ];
-for (const { label, rows: sample, want } of WRAP_CONTROL) {
-  const input = sample.map((r) =>
-    r.kind === "wrapped-src" ? { ...r, kind: "wrapped", why: "(root)/w.mjs" } : r,
-  );
-  const got = resolveWrapped(input)[0].kind;
-  if (got !== want) {
-    console.log(`  ✗ 대조군 실패 — ${label}: 기대 ${want} · 실제 ${got}`);
+for (const { label, body, wantError, wantDeclared } of SIDE_CONTROL) {
+  const { declaredSideEffects, errors } = sideEffectAuditSources([src(body)]);
+  const gotError = errors.length > 0;
+  const gotDeclared = declaredSideEffects.size > 0;
+  if (gotError !== wantError || gotDeclared !== wantDeclared) {
+    console.log(
+      `  ✗ 대조군 실패 — ${label}: 기대 오류 ${wantError}·선언 ${wantDeclared} · ` +
+        `실제 오류 ${gotError}·선언 ${gotDeclared}${errors[0] ? ` (${errors[0]})` : ""}`,
+    );
     controlOk = false;
   }
 }
@@ -555,23 +614,21 @@ if (!controlOk) {
   console.log("  ✗ 대조군이 깨졌다. 판정기를 못 믿으므로 스윕을 돌리지 않는다.");
   process.exit(1);
 }
-console.log("  ✓ 대조군: 갈래 판정과 갈음 판정이 둘 다 산다");
+console.log("  ✓ 대조군: 갈래 판정이 산다");
 if (selfTest) {
-  console.log(`    낱말 갈래 ${CONTROL.length}건 · 갈음 ${WRAP_CONTROL.length}건 — 전부 기대대로.`);
+  console.log(`    낱말 갈래 ${CONTROL.length}건 · 부수효과 선언 ${SIDE_CONTROL.length}건 — 전부 기대대로.`);
   process.exit(0);
 }
 
-const rows = await pool(jobs, sweepJob);
+const resolved = await pool(jobs, sweepJob);
 
-const resolved = resolveWrapped(rows);
 const pass = resolved.filter((r) => r.kind === "pass");
 const cannot = resolved.filter((r) => r.kind === "cannot");
-const wrapped = resolved.filter((r) => r.kind === "wrapped");
 const red = resolved.filter((r) => r.kind === "red");
 
 console.log(
-  `\n검사기 ${selected.length}개 · 실행 ${rows.length}회 — ` +
-    `통과 ${pass.length} / 못 돎 ${cannot.length} / 감싸짐 ${wrapped.length} / 빨간불 ${red.length}`,
+  `\n검사기 ${selected.length}개 · 실행 ${resolved.length}회 — ` +
+    `통과 ${pass.length} / 검사 안 됨 ${cannot.length} / 빨간불 ${red.length}`,
 );
 const name = (r) => `${r.script.where}/${r.script.file}${r.label ? ` (${r.label})` : ""}`;
 
@@ -581,13 +638,8 @@ if (red.length) {
   console.log("");
 }
 if (cannot.length) {
-  console.log("■ 못 돎 — 통과로 세지 않는다");
+  console.log("■ 검사 안 됨 — 통과로 세지 않는다");
   for (const r of cannot) console.log(`  · ${name(r)} — ${r.why}`);
-  console.log("");
-}
-if (wrapped.length) {
-  console.log("■ 감싸짐 — 감싼 검사의 결과로 갈음한다");
-  for (const r of wrapped) console.log(`  · ${name(r)} ← ${r.why}`);
   console.log("");
 }
 console.log("■ 통과");

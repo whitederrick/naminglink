@@ -1,4 +1,5 @@
 // 도장 주문 배송 PII 파기(goods-pii-cleanup)의 실동작 검증.
+// AUDIT_SIDE_EFFECTS: 운영 orders 표에 시험 행을 넣고 지운다(is_test)
 // 실행: cd scripts && npx tsx --tsconfig tsconfig.sweep.json verify-goods-pii-cleanup.ts
 //
 // 공유 Supabase에 테스트 주문을 넣고 파기를 돌린 뒤 결과를 확인하고, 성공·실패와 무관하게

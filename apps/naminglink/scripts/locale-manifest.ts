@@ -167,13 +167,32 @@ export function saveManifest(manifest: Manifest): void {
  * 그 목록에 있는지로만 한다. 접두사는 이제 판정이 아니라 **묶음 이름**이다 — 그 아래 새 잎이
  * 생기면 `originDocsEnErrors()` 가 「갈라 적을 것」이라고 빨간불을 낸다. 조용히 통과시키지도,
  * 조용히 거부하지도 않는다.
+ *
+ * ## 「갈라 적을 것」이라고 해 놓고 적을 자리를 안 만들었다 (2026-08-21 4차 재검증 P1)
+ *
+ * 위 문단대로 고쳤더니 **빠져나갈 길이 없었다.** 목록에 없는 잎이 생기면 빨간불을 내면서
+ * 안내는 「옮긴 것이면 그대로 두라」고 했는데, **그대로 두면 다음 실행에서도 계속 빨간불**이다.
+ * origin 은 적을 자리가 있고 translated 는 없었다 — 한쪽만 적을 수 있는 판정 기록이었다.
+ *
+ * 내가 2026-08-20 에 낸 거짓 거부(`ORIGIN_DOCS_EN = []`)와 **같은 병이다.** 막는 쪽으로
+ * 틀린 것도 결함이고, 그 방향은 초록불로 위장돼 더 오래 산다.
+ *
+ * 그래서 **양쪽 다 적는다.** 이 표는 「origin 목록」이 아니라 **묶음별 판정 기록**이다 —
+ * 사람이 잎마다 origin 인지 translated 인지 갈라 적고, 어느 쪽에도 없는 것만 빨간불이다.
  */
 export const ORIGIN_DOCS_EN: readonly {
-  /** 묶음 이름. **판정에 쓰지 않는다** — 아래 `ids` 에 없는 잎이 이 아래 생겼는지 세는 데 쓴다. */
+  /** 묶음 이름. **판정에 쓰지 않는다** — 아래 두 목록에 없는 잎이 이 아래 생겼는지 세는 데 쓴다. */
   prefix: string;
   reason: string;
   /** `df1c6b4` 대조로 「사람이 영어로 쓴 것」이라 가른 잎. **여기 적힌 것만 origin 이다.** */
-  ids: readonly string[];
+  originIds: readonly string[];
+  /**
+   * 같은 묶음 안에서 **옮긴 것**이라고 가른 잎. 지금은 넷 다 비어 있다 — 이 묶음들의 잎
+   * 78개가 전부 origin 이기 때문이다(세어서 확인했다). **비어 있는 것이 판정의 결과**이지
+   * 「아직 안 적었다」가 아니다. 앞으로 한국어에서 옮긴 공지가 `notices.items.*` 로 들어오면
+   * 여기 적는다 — 그러면 `reviewSourceHash` 를 요구받고, 빨간불도 멎는다.
+   */
+  translatedIds: readonly string[];
 }[] = [
   {
     // 잎 29개. 끝점은 묶음 경계를 위한 것이다 — `docs.about` 로만 적으면 `docs.aboutXxx` 도 센다.
@@ -181,7 +200,7 @@ export const ORIGIN_DOCS_EN: readonly {
     reason:
       "소개는 화면 JSX 에 영어로 쓰여 있던 것을 자료로 옮긴 것이다(df1c6b4). " +
       "부모 커밋 about/page.tsx 에 본문이 그대로 있다(\"choose and understand Korean names\").",
-    ids: [
+    originIds: [
       "docs.about.backLabel",
       "docs.about.eyebrow",
       "docs.about.sections[0].blocks[0].p",
@@ -212,13 +231,14 @@ export const ORIGIN_DOCS_EN: readonly {
       "docs.about.summary",
       "docs.about.title",
     ],
+    translatedIds: [],
   },
   {
     prefix: "docs.contact.",
     reason:
       "문의도 같은 커밋에서 영어 원문째 옮겨 왔다(df1c6b4). " +
       "부모 커밋 contact/page.tsx 에 본문이 있다(\"two business days\" · \"Korean business hours\").",
-    ids: [
+    originIds: [
       "docs.contact.backLabel",
       "docs.contact.eyebrow",
       "docs.contact.sections[0].blocks[0].p",
@@ -244,23 +264,25 @@ export const ORIGIN_DOCS_EN: readonly {
       "docs.contact.summary",
       "docs.contact.title",
     ],
+    translatedIds: [],
   },
   {
     prefix: "docs.notice.",
     reason: "공지 화면 겉틀 4개. 부모 커밋 notice/page.tsx 에 영어로 있었다(df1c6b4).",
-    ids: [
+    originIds: [
       "docs.notice.backLabel",
       "docs.notice.eyebrow",
       "docs.notice.summary",
       "docs.notice.title",
     ],
+    translatedIds: [],
   },
   {
     prefix: "notices.",
     reason:
       "공지 목록의 문구와 메타 21개(kindLabels·intro·empty·effective·pager·items). " +
       "부모 커밋 lib/notices.ts 에 영어로 있었다(df1c6b4).",
-    ids: [
+    originIds: [
       "notices.effective",
       "notices.empty.body",
       "notices.empty.title",
@@ -283,6 +305,7 @@ export const ORIGIN_DOCS_EN: readonly {
       "notices.pager.newer",
       "notices.pager.older",
     ],
+    translatedIds: [],
   },
 ];
 
@@ -299,40 +322,78 @@ export const ORIGIN_DOCS_EN: readonly {
  * 떨어진다. 그 자체는 안전한 쪽이지만 **조용하다** — 사람이 영어로 새로 쓴 글까지 있지도 않은
  * ko 원문 해시를 요구받게 되고, 그것이 2026-08-20 에 낸 거짓 거부와 같은 병이다.
  *
- * 그래서 묶음 아래 **목록에 없는 잎**이 보이면 빨간불을 낸다. 사람이 「이건 옮긴 것」인지
+ * 그래서 묶음 아래 **어느 목록에도 없는 잎**이 보이면 빨간불을 낸다. 사람이 「이건 옮긴 것」인지
  * 「영어로 새로 쓴 것」인지 갈라 적어야 넘어간다. 어느 쪽으로도 조용히 흐르지 않는다.
+ *
+ * **적을 자리가 양쪽에 다 있어야 한다** (4차 재검증 P1). 처음엔 origin 만 적을 수 있었다.
+ * 그러면 「옮긴 것이면 그대로 두라」는 안내를 따라도 **다음 실행에서 또 빨간불**이다 —
+ * 빠져나갈 길이 없는 관문은 관문이 아니라 거짓 거부다.
  */
-export function originDocsEnErrors(): string[] {
+/** 판정 기록 한 묶음. 시험이 **가짜 표를 넣어 볼 수 있어야** 해서 형을 따로 뺀다. */
+export type DocsEnAdjudication = {
+  readonly prefix: string;
+  readonly reason: string;
+  readonly originIds: readonly string[];
+  readonly translatedIds: readonly string[];
+};
+
+/**
+ * 판정 기록을 검사한다. **표와 인벤토리를 주입받는다.**
+ *
+ * `legal-source.ts` 가 reader 를 주입하게 만든 것과 같은 이유다 — 실제 표만 보면 「새 잎이
+ * 생겼을 때 어떻게 되는가」를 시험할 방법이 없고, 그러면 그 갈래는 **운영에서 처음** 돈다.
+ */
+export function docsEnAdjudicationErrors(
+  entries: readonly DocsEnAdjudication[],
+  leafPaths: readonly string[],
+): string[] {
   const errors: string[] = [];
-  const leaves = scopeInventory("docs", "en");
-  const known = new Set(leaves.map((leaf) => leaf.path));
-  const listed = new Set(ORIGIN_DOCS_EN.flatMap((entry) => entry.ids));
-  for (const entry of ORIGIN_DOCS_EN) {
+  const known = new Set(leafPaths);
+  for (const entry of entries) {
     if (!entry.reason.trim()) {
       errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — 이유가 비어 있다. 이유 없는 예외는 검사를 비운다.`);
     }
-    if (!entry.ids.length) {
-      errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — 잎 목록이 비어 있다. 빈 예외는 아무것도 열지 않는다.`);
+    const decided = [...entry.originIds, ...entry.translatedIds];
+    if (!decided.length) {
+      errors.push(
+        `ORIGIN_DOCS_EN:${entry.prefix} — 판정한 잎이 하나도 없다. 묶음만 적고 아무것도 안 가른 것이다.`,
+      );
+    }
+    // **같은 잎을 양쪽에 적을 수 없다.** 판정이 둘이면 어느 쪽이 참인지 아무도 모른다.
+    for (const id of entry.originIds) {
+      if (entry.translatedIds.includes(id)) {
+        errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — ${id} 이 origin 과 translated 양쪽에 적혀 있다.`);
+      }
     }
     // **죽은 좌표.** 적어 둔 잎이 인벤토리에 없으면 근거처럼 보이는 채로 오래 남는다.
-    for (const id of entry.ids) {
+    for (const id of decided) {
       if (!known.has(id)) {
         errors.push(
           `ORIGIN_DOCS_EN:${entry.prefix} — 적어 둔 잎 ${id} 이 en/docs 인벤토리에 없다. 적용되지 않는 예외는 지운다.`,
         );
       }
     }
-    // **새로 생긴 잎.** 접두사 아래인데 목록에 없다 — 사람이 갈라 적어야 한다.
-    for (const leaf of leaves) {
-      if (!leaf.path.startsWith(entry.prefix)) continue;
-      if (listed.has(leaf.path)) continue;
+    // **아직 안 가른 잎.** 접두사 아래인데 어느 목록에도 없다.
+    const decidedHere = new Set(decided);
+    for (const leafPath of leafPaths) {
+      if (!leafPath.startsWith(entry.prefix)) continue;
+      if (decidedHere.has(leafPath)) continue;
       errors.push(
-        `ORIGIN_DOCS_EN:${entry.prefix} — 새 잎 ${leaf.path} 이 생겼는데 갈라 적지 않았다. ` +
-          "옮긴 것이면 그대로 두고(translated), 영어로 새로 쓴 것이면 이유와 함께 ids 에 넣을 것.",
+        `ORIGIN_DOCS_EN:${entry.prefix} — 새 잎 ${leafPath} 을 아직 안 갈랐다. ` +
+          "한국어에서 옮긴 것이면 translatedIds 에, 영어로 새로 쓴 것이면 originIds 에 넣을 것 " +
+          "(어느 쪽이든 적어야 이 빨간불이 멎는다).",
       );
     }
   }
   return errors;
+}
+
+/** 실제 표와 실제 인벤토리로 부른다. 판정 규칙은 위 하나뿐이다. */
+export function originDocsEnErrors(): string[] {
+  return docsEnAdjudicationErrors(
+    ORIGIN_DOCS_EN,
+    scopeInventory("docs", "en").map((leaf) => leaf.path),
+  );
 }
 
 /**
@@ -340,7 +401,7 @@ export function originDocsEnErrors(): string[] {
  * 「아는 값」을 객체가 아니라 `Set` 으로 담는 이유도 같다(`toString`·`__proto__` 가 통과한다).
  */
 const ORIGIN_DOCS_EN_IDS: ReadonlySet<string> = new Set(
-  ORIGIN_DOCS_EN.flatMap((entry) => entry.ids),
+  ORIGIN_DOCS_EN.flatMap((entry) => entry.originIds),
 );
 
 /**

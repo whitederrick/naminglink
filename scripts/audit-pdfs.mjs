@@ -22,16 +22,23 @@
 // ⚠️ **먼저 렌더해야 한다.** 산출물이 없으면 그 앱은 「렌더 먼저」로 알린다 — 0건을 통과로
 // 보지 않는다.
 //
-// ## 감사기에게 「내가 이 셋을 대신 돌린다」고 알린다 (2026-08-20)
+// ## 감사기에게 **인자를 알려 준다** — 대신 돌려 주지 않는다 (2026-08-21)
 //
-// `scripts/audit-verifiers.mjs` 는 예전에 **부르기만 하면** 감싼 것으로 봤다. 그러다 공격
-// 스크립트가 검사기를 부르자 그 검사기가 스윕에서 조용히 사라졌다 — 갈음할 수 없는 실행으로
-// 갈음해 버린 것이다. 지금은 **선언한 것만** 갈음한다. 아래 세 줄이 그 선언이고, 없는 파일을
-// 적으면 감사기가 잡는다.
+// 이 자리는 두 번 틀렸다.
 //
-// AUDIT_WRAPS: audit-pdf-language.py
-// AUDIT_WRAPS: audit-pdf-layout.py
-// AUDIT_WRAPS: audit-pdf-glyphs.py
+//   2026-08-20  「부르기만 하면 감싼 것」 — 공격 스크립트가 검사기를 부르자 그 검사기가
+//               스윕에서 조용히 사라졌다
+//   2026-08-21  「선언하면 감싼 것」 — 부르지도 않으면서 적기만 해도 참이 됐다.
+//               자취(출력에 이름이 있는가)를 요구해도 **이름만 찍으면 통과**했다
+//
+// 출력 문자열로 만드는 증거는 무엇을 하든 위조된다. 그래서 **갈음이라는 갈래 자체를 없앴다.**
+// 이 파일은 「어떤 인자로 무엇을 돌릴지」만 알려 주고(`--audit-plan`), 감사기가 **직접**
+// `audit-pdf-*.py` 를 돌린다. 믿을 것이 없으면 속을 것도 없다.
+//
+//   node scripts/audit-pdfs.mjs --audit-plan   돌릴 것을 JSON 으로 내고 끝낸다
+//
+// 계획을 만드는 코드와 실제로 돌리는 코드는 **같은 하나**다(`buildPlan`). 두 벌로 적으면
+// 감사기가 도는 것과 이 파일이 도는 것이 갈라진다.
 
 import { spawnSync } from "node:child_process";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
@@ -83,13 +90,9 @@ function sampleNamesOf(app) {
 /**
  * **부른 파일 이름을 출력에 남긴다** (2026-08-21).
  *
- * 위 `AUDIT_WRAPS` 세 줄은 「내가 이 셋을 대신 돌린다」는 **선언**이다. 그런데 감사기가
- * 선언만 보고 갈음해 주는 바람에, 부르지도 않으면서 적기만 해도 참이 됐다 — 실제로 그런
- * 대조군을 넣자 검사기 하나가 한 번도 안 돈 채 스윕에서 사라졌다.
- *
- * 지금 감사기는 **이번 실행의 출력에 그 이름이 있는지**를 증거로 본다. 라벨(「언어」·「지면」·
- * 「글리프」)만으로는 증거가 되지 않으므로 스크립트 경로를 함께 찍는다. 이 한 줄이 없으면
- * 감사기가 세 파일을 「선언만 있고 부른 자취가 없다」로 빨간불 낸다 — 그것이 옳은 동작이다.
+ * 부른 스크립트 경로를 함께 찍는다 — 사람이 출력만 보고도 무엇이 돌았는지 알 수 있게.
+ * **이것은 감사기에게 주는 증거가 아니다.** 감사기는 이제 `--audit-plan` 을 받아 제 손으로
+ * 돌린다(머리말 참고). 출력 문자열을 증거로 삼는 방식은 두 번 뚫렸다.
  */
 function run(label, cmd, args) {
   const r = spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8" });
@@ -101,35 +104,81 @@ function run(label, cmd, args) {
   return r.status === 0;
 }
 
-let failures = 0;
-let audited = 0;
-
-for (const app of apps) {
-  const dirs = pdfDirsOf(app);
-  console.log(`\n[${app}]`);
-  if (dirs.length === 0) {
-    // **산출물이 없는 것은 통과가 아니다.** 렌더를 안 했다는 사실을 그대로 말한다.
-    console.log("    ⚠ PDF 산출물이 없다 — 견본을 먼저 렌더할 것(이 앱은 검사되지 않았다)");
-    failures += 1;
-    continue;
-  }
-  const fonts = path.join("apps", app, "assets", "fonts");
-  for (const dir of dirs) {
-    const rel = path.relative(ROOT, dir).replace(/\\/g, "/");
-    audited += 1;
-    console.log(`  ${rel}`);
-    const names = sampleNamesOf(app);
-    const nameArgs = names.length ? ["--names", names.join(",")] : [];
-    if (!run("언어", "python", ["scripts/audit-pdf-language.py", rel, ...nameArgs])) failures += 1;
-    if (!run("지면", "python", ["scripts/audit-pdf-layout.py", `${rel}/*.pdf`])) failures += 1;
-    if (existsSync(path.join(ROOT, fonts))) {
-      if (!run("글리프", "python", ["scripts/audit-pdf-glyphs.py", "--fonts", fonts, `${rel}/*.pdf`]))
-        failures += 1;
-    } else {
-      console.log("    ⚠ 서체 폴더가 없다 — 글리프 검사를 건너뛴다");
-      failures += 1;
+/**
+ * **돌릴 것을 먼저 다 정한다.** 이 하나가 `--audit-plan` 의 출력이자 아래 실행의 대본이다.
+ *
+ * 계획과 실행을 따로 적으면 감사기가 도는 것과 이 파일이 도는 것이 갈라진다 — 같은 규칙을
+ * 두 벌로 적지 않는다.
+ */
+function buildPlan() {
+  const jobs = []; // { app, dir, label, script, args }
+  const gaps = []; // { app, why } — 검사할 수 없는 자리. **통과가 아니다.**
+  for (const app of apps) {
+    const dirs = pdfDirsOf(app);
+    if (dirs.length === 0) {
+      gaps.push({ app, why: "PDF 산출물이 없다 — 견본을 먼저 렌더할 것(이 앱은 검사되지 않았다)" });
+      continue;
+    }
+    const fonts = path.join("apps", app, "assets", "fonts");
+    const hasFonts = existsSync(path.join(ROOT, fonts));
+    for (const dir of dirs) {
+      const rel = path.relative(ROOT, dir).replace(/\\/g, "/");
+      const names = sampleNamesOf(app);
+      const nameArgs = names.length ? ["--names", names.join(",")] : [];
+      jobs.push({
+        app,
+        dir: rel,
+        label: "언어",
+        script: "audit-pdf-language.py",
+        args: ["scripts/audit-pdf-language.py", rel, ...nameArgs],
+      });
+      jobs.push({
+        app,
+        dir: rel,
+        label: "지면",
+        script: "audit-pdf-layout.py",
+        args: ["scripts/audit-pdf-layout.py", `${rel}/*.pdf`],
+      });
+      if (hasFonts) {
+        jobs.push({
+          app,
+          dir: rel,
+          label: "글리프",
+          script: "audit-pdf-glyphs.py",
+          args: ["scripts/audit-pdf-glyphs.py", "--fonts", fonts, `${rel}/*.pdf`],
+        });
+      } else {
+        gaps.push({ app, why: "서체 폴더가 없다 — 글리프 검사를 못 한다" });
+      }
     }
   }
+  return { jobs, gaps };
+}
+
+const { jobs: planned, gaps } = buildPlan();
+
+if (process.argv.includes("--audit-plan")) {
+  // 감사기가 읽는다. **사람이 읽는 줄을 섞지 않는다** — 이 출력은 통째로 JSON 이어야 한다.
+  console.log(JSON.stringify({ jobs: planned, gaps }, null, 2));
+  process.exit(0);
+}
+
+let failures = 0;
+let audited = 0;
+const seenDirs = new Set();
+
+for (const { app, why } of gaps) {
+  console.log(`\n[${app}]`);
+  console.log(`    ⚠ ${why}`);
+  failures += 1;
+}
+for (const job of planned) {
+  if (!seenDirs.has(job.dir)) {
+    seenDirs.add(job.dir);
+    audited += 1;
+    console.log(`\n[${job.app}] ${job.dir}`);
+  }
+  if (!run(job.label, "python", job.args)) failures += 1;
 }
 
 console.log(`\nPDF 검사 — 폴더 ${audited}개 · 어긋난 자리 ${failures}건`);

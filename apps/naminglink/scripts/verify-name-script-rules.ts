@@ -1,4 +1,5 @@
 // KOREAN_TO_GLOBAL 비로마자 대상 언어의 문자 체계 규칙(NAME_SCRIPT_RULES) 실호출 검증 스윕.
+// AUDIT_SIDE_EFFECTS: generateNamingResult 를 언어마다 실호출한다 — OpenAI 토큰 비용이 든다
 // 감사 백로그 "힌디어 외 스크립트 규칙 검증 스윕" 처리용 — 언어당 실호출 1회(gpt-4o-mini).
 // 검사 항목: ① name이 해당 문자 체계로만 표기(로마자·한글 금지)
 //           ② full_name_local에 한글 성 잔존 없음(normalizeKoreanToGlobalResult 검증)
