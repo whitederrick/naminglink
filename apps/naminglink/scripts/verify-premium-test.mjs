@@ -44,6 +44,14 @@ const BASE_URL = (process.env.BASE_URL || "http://localhost:3001").replace(/\/$/
  * **가운데 갈래에는 「dev 서버가 떠 있어야」도 「비용이 든다」도 적지 않는다.**
  * `scripts/audit-verifiers.mjs`의 `CANNOT_RUN`이 그 두 문구로 「못 돎」을 가리기 때문에,
  * 적으면 진짜 앱 실패가 실행 불가로 조용히 분류된다.
+ *
+ * ## 사유는 **마지막 줄**에 적는다 (2026-08-21)
+ *
+ * 감사기가 예전에는 그 문구를 **출력 아무 데나**에서 찾았다. 그래서 절 제목에 낱말이 있기만
+ * 해도 진짜 실패가 「못 돎」으로 갈렸다. 지금은 **마지막 줄**만 사유로 읽는다.
+ *
+ * 그 결과 이 파일처럼 사유 뒤에 힌트를 더 찍는 검사기는 **사유가 가려진다.** 사람이 읽을
+ * 문장은 그대로 두고, 마지막에 `CANNOT_RUN` 한 줄을 붙여 계약을 명시한다.
  */
 const READY_TIMEOUT_MS = 45_000;
 const HINT_DEV = "  apps/naminglink> npm run dev   (그다음 이 스크립트를 다시 돌린다)";
@@ -58,6 +66,7 @@ if (probe.__failed) {
   console.error(`서버가 없다: ${BASE_URL} — ${probe.timedOut ? `${READY_TIMEOUT_MS / 1000}초 안에 응답이 없다` : "연결 실패"}`);
   console.error("이 검사는 dev 서버가 떠 있어야 하고 **OpenAI 호출로 비용이 든다.**");
   console.error(HINT_DEV);
+  console.error("CANNOT_RUN — dev 서버가 떠 있어야 돌 수 있다.");
   process.exit(1);
 }
 
@@ -76,6 +85,7 @@ if (!/og:site_name"\s+content="Naming-Link"|<title>[^<]*Naming-Link/i.test(probe
   console.error(`다른 앱을 보고 있다: ${BASE_URL} — 화면이 「${seen}」이다(Naming-Link 가 아니다).`);
   console.error("  BASE_URL 을 확인할 것. 이 저장소는 네 앱을 붙은 포트로 띄운다:");
   console.error("  naminglink 3001 · inyeonlink 3002 · sajulink 3003 · dreamslink 3004");
+  console.error("CANNOT_RUN — 다른 앱을 보고 있다. 이 앱을 검사한 것이 아니다.");
   process.exit(1);
 }
 

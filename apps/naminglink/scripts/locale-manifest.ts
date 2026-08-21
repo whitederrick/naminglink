@@ -151,30 +151,138 @@ export function saveManifest(manifest: Manifest): void {
  *
  * **`guide` 를 넣지 않는 것이 이 목록의 핵심이다.** 안내 13편이 여기 들어오면 옮겨 온 글이
  * 원문으로 둔갑한다.
+ *
+ * ## 접두사는 **미래에 생길 잎까지** 열어 뒀다 (2026-08-21, 두 검토자 공통 지적)
+ *
+ * 끝점(`docs.about.`)을 찍어 `docs.aboutXxx` 는 막았지만, 그것으로 막은 것은 **옆으로 새는
+ * 이름**뿐이었다. 접두사 **아래로** 새로 생기는 잎은 그대로 통과한다 — 재검증에서
+ * `docs.about.__future_unreviewed__` 가 아무 검수 없이 origin 으로 처리되는 것이 재현됐다.
+ *
+ * 실물 위험은 `notices.` 다. 지금 `notices.items` 아래 공지 셋이 있는데 **공지는 운영 중에
+ * 늘어난다.** 앞으로 한국어로 써서 en 으로 옮긴 공지가 들어오면, 옮긴 글인데도
+ * `reviewSourceHash` 없이 **자동으로 「사람이 영어로 쓴 원문」**이 된다. 78/121 갈래는
+ * `df1c6b4` 시점에 대조해 얻은 값인데, 규칙이 접두사라 **그 시점에 얼지 않았던 것이다.**
+ *
+ * 그래서 **접두사로 판정하지 않는다.** 그때 실제로 갈라 둔 **잎 78개를 그대로 적고**, 판정은
+ * 그 목록에 있는지로만 한다. 접두사는 이제 판정이 아니라 **묶음 이름**이다 — 그 아래 새 잎이
+ * 생기면 `originDocsEnErrors()` 가 「갈라 적을 것」이라고 빨간불을 낸다. 조용히 통과시키지도,
+ * 조용히 거부하지도 않는다.
  */
-export const ORIGIN_DOCS_EN: readonly { prefix: string; reason: string }[] = [
+export const ORIGIN_DOCS_EN: readonly {
+  /** 묶음 이름. **판정에 쓰지 않는다** — 아래 `ids` 에 없는 잎이 이 아래 생겼는지 세는 데 쓴다. */
+  prefix: string;
+  reason: string;
+  /** `df1c6b4` 대조로 「사람이 영어로 쓴 것」이라 가른 잎. **여기 적힌 것만 origin 이다.** */
+  ids: readonly string[];
+}[] = [
   {
-    // 잎 29개. 경계를 위해 끝점을 찍는다 — `docs.about` 로만 적으면 `docs.aboutXxx` 도 걸린다.
+    // 잎 29개. 끝점은 묶음 경계를 위한 것이다 — `docs.about` 로만 적으면 `docs.aboutXxx` 도 센다.
     prefix: "docs.about.",
     reason:
       "소개는 화면 JSX 에 영어로 쓰여 있던 것을 자료로 옮긴 것이다(df1c6b4). " +
       "부모 커밋 about/page.tsx 에 본문이 그대로 있다(\"choose and understand Korean names\").",
+    ids: [
+      "docs.about.backLabel",
+      "docs.about.eyebrow",
+      "docs.about.sections[0].blocks[0].p",
+      "docs.about.sections[0].blocks[1].p",
+      "docs.about.sections[0].title",
+      "docs.about.sections[1].blocks[0].p",
+      "docs.about.sections[1].blocks[1].ul[0]",
+      "docs.about.sections[1].blocks[1].ul[1]",
+      "docs.about.sections[1].title",
+      "docs.about.sections[2].blocks[0].p",
+      "docs.about.sections[2].blocks[1].p",
+      "docs.about.sections[2].blocks[2].p",
+      "docs.about.sections[2].title",
+      "docs.about.sections[3].blocks[0].ul[0]",
+      "docs.about.sections[3].blocks[0].ul[1]",
+      "docs.about.sections[3].blocks[0].ul[2]",
+      "docs.about.sections[3].title",
+      "docs.about.sections[4].blocks[0].p",
+      "docs.about.sections[4].blocks[1].ul[0]",
+      "docs.about.sections[4].blocks[1].ul[1]",
+      "docs.about.sections[4].blocks[1].ul[2]",
+      "docs.about.sections[4].blocks[1].ul[3]",
+      "docs.about.sections[4].title",
+      "docs.about.sections[5].blocks[0].p",
+      "docs.about.sections[5].kind",
+      "docs.about.sections[6].blocks[0].p",
+      "docs.about.sections[6].title",
+      "docs.about.summary",
+      "docs.about.title",
+    ],
   },
   {
     prefix: "docs.contact.",
     reason:
       "문의도 같은 커밋에서 영어 원문째 옮겨 왔다(df1c6b4). " +
       "부모 커밋 contact/page.tsx 에 본문이 있다(\"two business days\" · \"Korean business hours\").",
+    ids: [
+      "docs.contact.backLabel",
+      "docs.contact.eyebrow",
+      "docs.contact.sections[0].blocks[0].p",
+      "docs.contact.sections[0].blocks[1].p",
+      "docs.contact.sections[0].title",
+      "docs.contact.sections[1].blocks[0].ul[0]",
+      "docs.contact.sections[1].blocks[0].ul[1]",
+      "docs.contact.sections[1].blocks[0].ul[2]",
+      "docs.contact.sections[1].blocks[0].ul[3]",
+      "docs.contact.sections[1].title",
+      "docs.contact.sections[2].blocks[0].ul[0]",
+      "docs.contact.sections[2].blocks[0].ul[1]",
+      "docs.contact.sections[2].blocks[0].ul[2]",
+      "docs.contact.sections[2].blocks[0].ul[3]",
+      "docs.contact.sections[2].blocks[0].ul[4]",
+      "docs.contact.sections[2].blocks[0].ul[5]",
+      "docs.contact.sections[2].blocks[0].ul[6]",
+      "docs.contact.sections[2].blocks[0].ul[7]",
+      "docs.contact.sections[2].blocks[0].ul[8]",
+      "docs.contact.sections[2].title",
+      "docs.contact.sections[3].blocks[0].p",
+      "docs.contact.sections[3].kind",
+      "docs.contact.summary",
+      "docs.contact.title",
+    ],
   },
   {
     prefix: "docs.notice.",
     reason: "공지 화면 겉틀 4개. 부모 커밋 notice/page.tsx 에 영어로 있었다(df1c6b4).",
+    ids: [
+      "docs.notice.backLabel",
+      "docs.notice.eyebrow",
+      "docs.notice.summary",
+      "docs.notice.title",
+    ],
   },
   {
     prefix: "notices.",
     reason:
       "공지 목록의 문구와 메타 21개(kindLabels·intro·empty·effective·pager·items). " +
       "부모 커밋 lib/notices.ts 에 영어로 있었다(df1c6b4).",
+    ids: [
+      "notices.effective",
+      "notices.empty.body",
+      "notices.empty.title",
+      "notices.intro",
+      "notices.items.2026-08-01-payments-preparing.body[0]",
+      "notices.items.2026-08-01-payments-preparing.body[1]",
+      "notices.items.2026-08-01-payments-preparing.title",
+      "notices.items.2026-08-01-pdf-language.body[0]",
+      "notices.items.2026-08-01-pdf-language.body[1]",
+      "notices.items.2026-08-01-pdf-language.body[2]",
+      "notices.items.2026-08-01-pdf-language.title",
+      "notices.items.2026-08-02-contact.body[0]",
+      "notices.items.2026-08-02-contact.body[1]",
+      "notices.items.2026-08-02-contact.title",
+      "notices.kindLabels.policy",
+      "notices.kindLabels.product",
+      "notices.kindLabels.service",
+      "notices.kindLabels.support",
+      "notices.pager.label",
+      "notices.pager.newer",
+      "notices.pager.older",
+    ],
   },
 ];
 
@@ -184,22 +292,56 @@ export const ORIGIN_DOCS_EN: readonly { prefix: string; reason: string }[] = [
  * 2차 재검증 지적(P2). 목록이 `{prefix, reason}` 을 **선언만** 하고 아무도 안 봤다.
  * 이유 없는 항목은 검사를 조용히 비우고, 죽은 좌표는 오래 남아 근거처럼 보인다 —
  * `EXCLUDED_TABLES` 에 세워 둔 규칙과 같다.
+ *
+ * ## 새로 생긴 잎을 **여기서** 잡는다 (2026-08-21)
+ *
+ * 판정이 접두사에서 잎 목록으로 바뀌면서, 접두사 아래 새 잎이 생기면 그냥 `translated` 로
+ * 떨어진다. 그 자체는 안전한 쪽이지만 **조용하다** — 사람이 영어로 새로 쓴 글까지 있지도 않은
+ * ko 원문 해시를 요구받게 되고, 그것이 2026-08-20 에 낸 거짓 거부와 같은 병이다.
+ *
+ * 그래서 묶음 아래 **목록에 없는 잎**이 보이면 빨간불을 낸다. 사람이 「이건 옮긴 것」인지
+ * 「영어로 새로 쓴 것」인지 갈라 적어야 넘어간다. 어느 쪽으로도 조용히 흐르지 않는다.
  */
 export function originDocsEnErrors(): string[] {
   const errors: string[] = [];
   const leaves = scopeInventory("docs", "en");
+  const known = new Set(leaves.map((leaf) => leaf.path));
+  const listed = new Set(ORIGIN_DOCS_EN.flatMap((entry) => entry.ids));
   for (const entry of ORIGIN_DOCS_EN) {
     if (!entry.reason.trim()) {
       errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — 이유가 비어 있다. 이유 없는 예외는 검사를 비운다.`);
     }
-    if (!leaves.some((leaf) => leaf.path.startsWith(entry.prefix))) {
+    if (!entry.ids.length) {
+      errors.push(`ORIGIN_DOCS_EN:${entry.prefix} — 잎 목록이 비어 있다. 빈 예외는 아무것도 열지 않는다.`);
+    }
+    // **죽은 좌표.** 적어 둔 잎이 인벤토리에 없으면 근거처럼 보이는 채로 오래 남는다.
+    for (const id of entry.ids) {
+      if (!known.has(id)) {
+        errors.push(
+          `ORIGIN_DOCS_EN:${entry.prefix} — 적어 둔 잎 ${id} 이 en/docs 인벤토리에 없다. 적용되지 않는 예외는 지운다.`,
+        );
+      }
+    }
+    // **새로 생긴 잎.** 접두사 아래인데 목록에 없다 — 사람이 갈라 적어야 한다.
+    for (const leaf of leaves) {
+      if (!leaf.path.startsWith(entry.prefix)) continue;
+      if (listed.has(leaf.path)) continue;
       errors.push(
-        `ORIGIN_DOCS_EN:${entry.prefix} — en/docs 인벤토리에 그 좌표가 없다. 적용되지 않는 예외는 지운다.`,
+        `ORIGIN_DOCS_EN:${entry.prefix} — 새 잎 ${leaf.path} 이 생겼는데 갈라 적지 않았다. ` +
+          "옮긴 것이면 그대로 두고(translated), 영어로 새로 쓴 것이면 이유와 함께 ids 에 넣을 것.",
       );
     }
   }
   return errors;
 }
+
+/**
+ * 판정에 쓰는 집합. **표는 한 번만 만든다** — 규칙이 두 벌이 되면 하나만 고쳐지는 날이 온다.
+ * 「아는 값」을 객체가 아니라 `Set` 으로 담는 이유도 같다(`toString`·`__proto__` 가 통과한다).
+ */
+const ORIGIN_DOCS_EN_IDS: ReadonlySet<string> = new Set(
+  ORIGIN_DOCS_EN.flatMap((entry) => entry.ids),
+);
 
 /**
  * **그 자리에서 `origin` 이 성립하는가.** 판정은 여기 하나뿐이다.
@@ -211,14 +353,18 @@ export function originDocsEnErrors(): string[] {
  *
  *     screen · consent   전 로케일 origin      ← 생성기 없는 직접 작성물
  *     legal              ko 만
- *     docs               en 만, 그중에서도 ORIGIN_DOCS_EN 에 적힌 것만
+ *     docs               en 만, 그중에서도 ORIGIN_DOCS_EN 에 **잎으로** 적힌 것만
+ *
+ * **접두사로 묻지 않는다** (2026-08-21). 접두사는 아래로 자라는 문이었다 —
+ * `docs.about.__future_unreviewed__` 가 검수 없이 origin 으로 통과하는 것이 재검증에서
+ * 재현됐다. 지금은 `df1c6b4` 대조로 갈라 둔 **잎 78개의 집합**에 있는지로만 판정한다.
  */
 export function originAllowed(scope: Scope, locale: string, artifactId: string): boolean {
   if (scope === "screen" || scope === "consent") return true;
   if (scope === "legal") return locale === "ko";
   // docs
   if (locale !== "en") return false;
-  return ORIGIN_DOCS_EN.some((entry) => artifactId.startsWith(entry.prefix));
+  return ORIGIN_DOCS_EN_IDS.has(artifactId);
 }
 
 export function sourceKindErrors(record: ScopeRecord): string[] {

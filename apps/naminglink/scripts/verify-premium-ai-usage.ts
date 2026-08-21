@@ -2,20 +2,13 @@
 // 실행: cd scripts && npx tsx --tsconfig tsconfig.sweep.json verify-premium-ai-usage.ts
 // OpenAI를 실제로 호출하므로 토큰 비용이 조금 든다. 검증 후 남긴 행은 지운다.
 import { createClient } from "@supabase/supabase-js";
-import { readFileSync } from "node:fs";
 
-const env = Object.fromEntries(
-  readFileSync(new URL("../.env.local", import.meta.url), "utf8")
-    .split(/\r?\n/)
-    .filter((line) => line.includes("="))
-    .map((line) => {
-      const index = line.indexOf("=");
-      return [line.slice(0, index).trim(), line.slice(index + 1).trim().replace(/^"|"$/g, "")];
-    }),
-) as Record<string, string>;
-for (const key of ["OPENAI_API_KEY", "OPENAI_MODEL", "NEXT_PUBLIC_SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"]) {
-  if (env[key]) process.env[key] = env[key];
-}
+// **`.env.local` 파싱은 한 곳에만 둔다** (2026-08-21). 여기 있던 것을 `load-env-local.ts` 로
+// 옮겼다 — 따옴표 벗기기·주석 처리가 두 벌로 갈라지면 한쪽 검사기만 조용히 자격증명을
+// 못 읽는다. `verify-legal-source.ts` 가 그 자리에서 늘 「못 돎」이었다.
+import { loadEnvLocal } from "./load-env-local";
+
+const env = loadEnvLocal();
 
 const supabase = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
 

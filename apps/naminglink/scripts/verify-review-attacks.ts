@@ -26,11 +26,14 @@ import { buildSeal } from "./seal-locale-review";
 import { fileOnlyReader } from "./legal-source";
 import {
   hashValue,
+  originAllowed,
   originDocsEnErrors,
+  ORIGIN_DOCS_EN,
   validateManifest,
   type Manifest,
   type ScopeRecord,
 } from "./locale-manifest";
+import { IGNORE_FLAG } from "./load-env-local";
 import { inventoryVersion, scopeInventory } from "./locale-inventory";
 import { scanText } from "./locale-table-scan";
 
@@ -166,6 +169,14 @@ async function main() {
       if (/SUPABASE/i.test(key)) delete env[key];
     }
     /**
+     * **환경변수만 지워서는 그 상태가 안 만들어진다** (2026-08-21).
+     *
+     * `verify-legal-source.ts` 에 `.env.local` 배선을 넣자 이 공격이 그 자리에서 뚫렸다 —
+     * 부모 환경을 아무리 비워도 검사기가 파일을 스스로 읽어 **자격증명이 되살아났다.**
+     * 배선을 넣으면서 못 돎 경로를 시험할 방법을 없앤 것이다. 파일도 함께 끈다.
+     */
+    env[IGNORE_FLAG] = "1";
+    /**
      * **tsx 실행 파일을 경로로 박지 않는다**(2차 재검증 P1).
      *
      * `process.cwd()/node_modules/tsx/...` 로 박아 뒀더니 **격리 복사본에서 제품 검사를
@@ -286,9 +297,54 @@ async function main() {
     );
   }
 
+  // ── ⑦ 접두사 아래로 자라는 문 ────────────────────────────────────────────
+  console.log("\n⑦ 아직 없는 잎이 origin 으로 통과하는가 (3차 재검증 · 두 검토자 공통)");
+  {
+    /**
+     * **접두사 판정은 옆이 아니라 아래로 새는 문이었다.**
+     *
+     * 끝점(`docs.about.`)을 찍어 `docs.aboutXxx` 는 막았지만, 그 **아래** 새로 생기는 잎은
+     * 그대로 통과했다. 두 검토자가 독립적으로 같은 자리를 냈고, 코덱스는 실물까지 재현했다 —
+     * `docs.about.__future_unreviewed__` 가 검수 없이 origin 이 된다.
+     *
+     * 실물 위험은 `notices.` 다. 공지는 운영 중에 늘어나고, 한국어로 써서 옮긴 공지가
+     * `notices.items.*` 로 들어오면 **옮긴 글이 원문으로 둔갑**한다.
+     */
+    for (const probe of [
+      "docs.about.__future_unreviewed__",
+      "docs.contact.__future_unreviewed__",
+      "docs.notice.__future_unreviewed__",
+      "notices.items.2099-01-01-not-yet-written.title",
+    ]) {
+      check(
+        `아직 없는 잎 ${probe} 은 origin 이 아니다`,
+        !originAllowed("docs", "en", probe),
+        "접두사로 판정하면 앞으로 생길 공지·문단이 검수 없이 원문이 된다",
+      );
+    }
+
+    /**
+     * **닫는 쪽으로만 고치면 그것도 결함이다**(2026-08-20 P0 과 같은 병). 실제로 갈라 둔
+     * 78개는 그대로 origin 이어야 한다 — 아니면 있지도 않은 ko 원문 해시를 요구받는다.
+     */
+    const listed = ORIGIN_DOCS_EN.flatMap((entry) => entry.ids);
+    check(
+      `갈라 둔 잎 ${listed.length}개는 그대로 origin 이다`,
+      listed.length === 78 && listed.every((id) => originAllowed("docs", "en", id)),
+      `origin 이 아닌 것: ${listed.find((id) => !originAllowed("docs", "en", id)) ?? "(없음)"}`,
+    );
+
+    // 옆으로 새는 문도 여전히 닫혀 있는지 함께 본다(끝점이 지워지면 되살아난다).
+    check(
+      "docs.aboutXxx 처럼 옆으로 새는 이름도 막힌다",
+      !originAllowed("docs", "en", "docs.aboutUs.title"),
+      "접두사 끝점이 지워지면 되살아나는 자리다",
+    );
+  }
+
   console.log(
     failures === 0
-      ? "\n공격 여섯 묶음이 전부 막혔다(1차 다섯 + 2차 재검증분)\n"
+      ? "\n공격 일곱 묶음이 전부 막혔다(1차 다섯 + 2차 재검증분 + 3차 재검증분)\n"
       : `\n뚫린 우회 ${failures}건 — 아직 병합할 수 없다\n`,
   );
   process.exit(failures === 0 ? 0 : 1);

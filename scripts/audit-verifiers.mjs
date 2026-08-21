@@ -22,12 +22,19 @@
 // ## 새 검사기를 만들면
 //
 // 아무것도 안 해도 된다. 파일 이름이 `verify|audit|validate`로 시작하면 **저절로 잡힌다.**
-// 부르는 법이 특별하면 아래 `ARGV`에 한 줄 더하거나, 감싸는 검사가 그 파일 이름을 언급하게 한다.
+// 부르는 법이 특별하면 아래 `ARGV`에 한 줄 더한다. 감싸서 대신 돌리는 검사라면 `AUDIT_WRAPS`로
+// **선언하고, 실제로 불러서 그 이름이 출력에 남게** 한다 — 선언만으로는 갈음이 서지 않는다.
 //
 // 실행:
 //   node scripts/audit-verifiers.mjs            전부 돌린다
 //   node scripts/audit-verifiers.mjs --list     무엇을 어떻게 부를지만 보여 준다
 //   node scripts/audit-verifiers.mjs --filter legal   이름에 그 말이 든 것만
+//   node scripts/audit-verifiers.mjs --self-test      대조군만 세고 끝낸다(스윕을 돌리지 않는다)
+//
+// 종료 코드 — **`exit 0`은 「전부 돌았고 깨끗하다」일 때뿐이다.**
+//   0  고른 것이 전부 돌았고 빨간불이 없다
+//   1  빨간불이 있다 · 대조군이 깨졌다 · 실행 0회다
+//   2  빨간불은 없으나 **검사하지 못한 것이 있다**(못 돎). 통과가 아니다
 
 import { spawn, spawnSync } from "node:child_process";
 import { readdirSync, readFileSync, existsSync } from "node:fs";
@@ -222,14 +229,42 @@ async function pool(items, worker) {
   return results;
 }
 
+/**
+ * **멈춘 이유는 마지막 줄에 적힌다.**
+ *
+ * ## 출력 아무 데나 있으면 진짜 실패가 「못 돎」이 됐다 (2026-08-21)
+ *
+ * 예전에는 `CANNOT_RUN` 을 **출력 전체**에서 찾았다. 그 낱말이 *비정상 종료의 사유인지*는
+ * 묻지 않았다. 그래서 이런 것들이 전부 「환경 없음」으로 갈렸다.
+ *
+ *   verify-review-attacks.ts:155  절 제목으로 `④ CANNOT_RUN 이 통과로 새는가` 를 **늘** 찍는다
+ *                                 → PR #2 의 공격 여섯 묶음은 뚫려도 스윕에서 빨간불이 될 수 없었다
+ *   verify-legal-source.ts:273    환경변수가 없으면 본문 중간에 `· CANNOT_RUN — …` 을 찍는다
+ *                                 → 자격증명 없는 컴퓨터에서는 이 검사기의 **exit 1 이 안 보였다**
+ *
+ * 두 번째가 더 나쁘다. 제품 검사기이고, 「환경이 없다」와 「결함이 있다」가 **함께** 나는 상태가
+ * 흔하기 때문이다. 그때 출력에는 둘 다 적혀 있는데 갈래는 「못 돎」 하나로 접혔다.
+ *
+ * 그래서 **자리로 판정한다.** 프로세스는 멈춘 자리에서 이유를 말한다 — 마지막 줄이 그것이다.
+ * 검사기가 못 돌았으면 **마지막 말이 그 사유여야 한다.** 중간에 흘린 낱말은 근거가 아니다.
+ */
+function lastLine(out) {
+  const lines = String(out ?? "")
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return lines[lines.length - 1] ?? "";
+}
+
 /** 한 번 부른 결과를 갈래로 나눈다. **모르는 실패는 빨간불이다.** */
 function classify(result) {
   if (result.code === 0) return { kind: "pass" };
   if (result.timedOut) {
     return { kind: "red", why: `${TIMEOUT_MS / 1000}초 안에 끝나지 않았다` };
   }
+  const reason = lastLine(result.out);
   for (const { re, why } of CANNOT_RUN) {
-    if (re.test(result.out)) return { kind: "cannot", why };
+    if (re.test(reason)) return { kind: "cannot", why };
   }
   return { kind: "red", why: `exit ${result.code}` };
 }
@@ -241,6 +276,8 @@ function tail(out, lines = 3) {
 // ── 실행 ──────────────────────────────────────────────────────────────────
 const argv = process.argv.slice(2);
 const listOnly = argv.includes("--list");
+/** 대조군만 세고 끝낸다. 판정기를 고치는 동안 97개를 돌릴 이유가 없다. */
+const selfTest = argv.includes("--self-test");
 const filter = argv[argv.indexOf("--filter") + 1];
 const all = discover();
 const selected = filter && argv.includes("--filter")
@@ -285,7 +322,10 @@ for (const { script, wrapper, runs } of plan) {
   for (const { label, args } of runs) jobs.push({ script, label, args });
 }
 
-const rows = await pool(jobs, async (job) => {
+/**
+ * 한 번 부르는 일. **대조군이 끝난 뒤에 부른다** — 아래 `runSweep()` 호출 자리를 볼 것.
+ */
+const sweepJob = async (job) => {
   if (job.wrapper) return { script: job.script, kind: "wrapped", why: job.wrapper };
 
   const { script, label, args } = job;
@@ -306,8 +346,10 @@ const rows = await pool(jobs, async (job) => {
     tsconfig: script.file.endsWith(".ts") ? tsconfig : null,
     ...classify(result),
     tail: tail(result.out),
+    // **감쌌다는 선언의 증거.** 이번 실행이 출력에 이름을 남긴 검사기들 — `resolveWrapped` 가 쓴다.
+    named: [...declared.keys()].filter((file) => result.out.includes(file)),
   };
-});
+};
 
 /**
  * **갈음이 실제로 성립했는가** (2026-08-20 재검증 P1).
@@ -318,14 +360,29 @@ const rows = await pool(jobs, async (job) => {
  *
  * 갈음이 성립하지 않으면 **빨간불**이다. 통과도 못 돎도 아니다 — 환경이 없는 게 아니라
  * **검사를 안 한 것**이기 때문이다.
+ *
+ * ## 선언은 증거가 아니다 (2026-08-21)
+ *
+ * 2026-08-20 에 「부르면 감싼 것」을 「선언해야 감싼 것」으로 바꿨다. 그런데 **선언만 하면
+ * 참이 됐다.** `wrapDeclarations()` 가 보는 것은 ⓐ자기 자신 ⓑ없는 파일 ⓒ중복 선언 셋뿐이고,
+ * **실제로 부르는지는 아무도 안 봤다.** 부르지도 않으면서 선언만 한 대조군을 넣자
+ * `verify-robots-open.mjs` 가 **한 번도 안 돈 채 「감싸짐」으로 사라지고 ALL PASS** 가 났다.
+ * 규칙만 바뀌고 병은 그대로였던 것이다.
+ *
+ * 그래서 **이번 실행의 자취**를 요구한다 — 감싼 쪽 출력에 감싸진 파일 이름이 있어야 한다.
+ * 소스를 읽어 판정하지 않는다(그 방식이 2026-08-20 #15 에서 거짓 초록불을 냈다). 실제로
+ * 돌린 프로세스가 남긴 출력만 증거로 센다.
  */
 function resolveWrapped(rows) {
   const outcomeOf = new Map(); // "where/file" → 그 검사기의 실행 결과들
+  const namedBy = new Map(); // "where/file" → 그 실행이 출력에 이름을 남긴 파일들
   for (const row of rows) {
     if (row.kind === "wrapped") continue;
     const key = `${row.script.where}/${row.script.file}`;
     if (!outcomeOf.has(key)) outcomeOf.set(key, []);
     outcomeOf.get(key).push(row.kind);
+    if (!namedBy.has(key)) namedBy.set(key, new Set());
+    for (const named of row.named ?? []) namedBy.get(key).add(named);
   }
   return rows.map((row) => {
     if (row.kind !== "wrapped") return row;
@@ -333,7 +390,20 @@ function resolveWrapped(rows) {
     if (!kinds?.length) {
       return { ...row, kind: "red", why: `갈음할 결과가 없다 — 감싼 ${row.why} 가 이번에 돌지 않았다`, tail: "" };
     }
-    if (kinds.every((kind) => kind === "pass")) return row;
+    if (kinds.every((kind) => kind === "pass")) {
+      // **통과했다고 부른 것은 아니다.** 선언은 의도이고, 자취가 증거다.
+      if (!namedBy.get(row.why)?.has(row.script.file)) {
+        return {
+          ...row,
+          kind: "red",
+          why:
+            `${row.why} 가 감쌌다고 적었지만 이번 실행 출력에 ${row.script.file} 이 없다 — ` +
+            "선언만 있고 부른 자취가 없다",
+          tail: "",
+        };
+      }
+      return row;
+    }
     // **환경이 없어 감싼 쪽이 못 돌았다면 감싸진 쪽도 「못 돎」이다.** 여기서 빨간불을 내면
     // 렌더 산출물이 없는 컴퓨터마다 없는 결함 세 건이 신고된다 — 갈래를 잘못 잡은 것이다.
     if (kinds.every((kind) => kind === "pass" || kind === "cannot")) {
@@ -371,6 +441,31 @@ const CONTROL = [
     result: { code: 2, out: "①~⑤ 는 통과했으나 운영 현황을 확인하지 못했다 — CANNOT_RUN" },
     want: "cannot",
   },
+  /**
+   * **아래 셋은 2026-08-21 에 실제로 뚫렸던 자리다.** 낱말이 출력 어딘가에 있기만 하면 진짜
+   * 실패가 「못 돎」으로 갈렸다. 셋 다 「마지막 줄이 사유다」로 고친 뒤에야 빨간불이 된다.
+   */
+  {
+    // verify-review-attacks.ts:155 — 절 제목으로 그 낱말을 늘 찍는다.
+    label: "절 제목에만 있는 CANNOT_RUN 은 사유가 아니다",
+    result: { code: 1, out: "④ CANNOT_RUN 이 통과로 새는가 (Codex P0)\n  ✗ 공격 하나가 뚫렸다\n빨간불 1건" },
+    want: "red",
+  },
+  {
+    // verify-legal-source.ts:273 — 환경이 없으면서 **동시에** 결함이 있는 상태.
+    label: "못 돎과 결함이 함께 나면 결함이 이긴다",
+    result: {
+      code: 1,
+      out: "  · CANNOT_RUN — 환경변수가 없어 게시본을 물어보지 못했다.\n  ✗ 깨진 게시본이 있다: terms\n빨간불 1건",
+    },
+    want: "red",
+  },
+  {
+    // 낱말 규칙 전부에 같은 자리가 있다 — `CANNOT_RUN` 만의 병이 아니다.
+    label: "「서버가 없다」도 제목에만 있으면 사유가 아니다",
+    result: { code: 1, out: "② 서버가 없다를 통과로 세는가\n  ✗ 뚫렸다\n빨간불 1건" },
+    want: "red",
+  },
 ];
 let controlOk = true;
 for (const { label, result, want } of CONTROL) {
@@ -385,11 +480,11 @@ for (const { label, result, want } of CONTROL) {
  * **갈음 판정에도 대조군이 있어야 한다.** 이 규칙이 없어서 실행 0회에 `ALL PASS` 가 났다.
  * 판정기를 고쳐 놓고 그 판정기가 사는지 안 세면 다음에 또 같은 자리로 돌아온다.
  */
-const at = (where, file, kind) => ({ script: { where, file }, kind });
+const at = (where, file, kind, named = []) => ({ script: { where, file }, kind, named });
 const WRAP_CONTROL = [
   {
-    label: "감싼 쪽이 통과했으면 갈음이 선다",
-    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass")],
+    label: "감싼 쪽이 통과했고 부른 자취가 있으면 갈음이 선다",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass", ["a.py"])],
     want: "wrapped",
   },
   {
@@ -414,10 +509,27 @@ const WRAP_CONTROL = [
     label: "감싼 쪽이 통과와 빨간불을 섞으면 빨간불",
     rows: [
       at("(root)", "a.py", "wrapped-src"),
-      at("(root)", "w.mjs", "pass"),
+      at("(root)", "w.mjs", "pass", ["a.py"]),
       at("(root)", "w.mjs", "red"),
     ],
     want: "red",
+  },
+  {
+    /**
+     * **2026-08-21 에 실제로 뚫린 자리.** 부르지도 않으면서 `AUDIT_WRAPS` 만 적고 스스로
+     * 통과한 대조군을 넣자 `verify-robots-open.mjs` 가 한 번도 안 돈 채 스윕에서 사라졌다.
+     * 선언은 의도이고, 이번 실행의 출력이 증거다.
+     */
+    label: "선언만 하고 부른 자취가 없으면 빨간불",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "pass")],
+    want: "red",
+  },
+  {
+    // **자취를 요구하는 것이 못 돎을 빨간불로 바꾸면 안 된다.** 환경이 없어 감싼 쪽이 못
+    // 돌았으면 이름을 남길 수도 없다 — 그건 「검사 안 됨」이지 「선언이 거짓」이 아니다.
+    label: "못 돎이면 자취가 없어도 빨간불이 아니다",
+    rows: [at("(root)", "a.py", "wrapped-src"), at("(root)", "w.mjs", "cannot")],
+    want: "cannot",
   },
 ];
 for (const { label, rows: sample, want } of WRAP_CONTROL) {
@@ -431,6 +543,26 @@ for (const { label, rows: sample, want } of WRAP_CONTROL) {
   }
 }
 
+/**
+ * **관문은 비싼 단계 앞에 있어야 한다** (2026-08-21).
+ *
+ * 예전에는 대조군을 **스윕이 다 돈 뒤에** 셌다. 판정기가 깨졌는지 알려면 97개를 7분간 돌리고
+ * 나서야 알 수 있었다는 뜻이다. 게다가 그 7분의 결과는 이미 못 믿을 것이었다. 순서를 뒤집는다.
+ *
+ * `--self-test` 는 대조군만 세고 끝낸다. 판정기를 고치는 동안 이것만 돌리면 된다.
+ */
+if (!controlOk) {
+  console.log("  ✗ 대조군이 깨졌다. 판정기를 못 믿으므로 스윕을 돌리지 않는다.");
+  process.exit(1);
+}
+console.log("  ✓ 대조군: 갈래 판정과 갈음 판정이 둘 다 산다");
+if (selfTest) {
+  console.log(`    낱말 갈래 ${CONTROL.length}건 · 갈음 ${WRAP_CONTROL.length}건 — 전부 기대대로.`);
+  process.exit(0);
+}
+
+const rows = await pool(jobs, sweepJob);
+
 const resolved = resolveWrapped(rows);
 const pass = resolved.filter((r) => r.kind === "pass");
 const cannot = resolved.filter((r) => r.kind === "cannot");
@@ -441,12 +573,6 @@ console.log(
   `\n검사기 ${selected.length}개 · 실행 ${rows.length}회 — ` +
     `통과 ${pass.length} / 못 돎 ${cannot.length} / 감싸짐 ${wrapped.length} / 빨간불 ${red.length}`,
 );
-if (!controlOk) {
-  console.log("  ✗ 대조군이 깨졌다. 이 결과를 믿지 말 것.");
-  process.exit(1);
-}
-console.log("  ✓ 대조군: 통과·빨간불·못 돎·시간초과를 제 갈래로 나눈다\n");
-
 const name = (r) => `${r.script.where}/${r.script.file}${r.label ? ` (${r.label})` : ""}`;
 
 if (red.length) {
@@ -490,7 +616,28 @@ if (!pass.length && !cannot.length) {
   process.exit(1);
 }
 
-console.log("\nALL PASS — 빨간불 없음.");
+/**
+ * **화면으로만 「통과가 아니다」라고 말하고 exit 0 으로 끝냈다** (2026-08-21).
+ *
+ * 이 러너는 「못 돎은 통과가 아니다」를 갈래로도 적고 문구로도 적어 놓고, **종료 코드는
+ * 0** 이었다. 종료 코드를 읽는 것은 사람이 아니라 스크립트다. 그래서 검사기 둘이 안 돈 스윕이
+ * `SWEEP_EXIT=0` 으로 나가 「전부 돌았다」와 구별되지 않았다 — `exit 0` 을 「끝남」으로 읽지
+ * 말라는 규칙을 이 파일 자신이 어기고 있었던 것이다.
+ *
+ *   0  고른 것이 전부 돌았고 빨간불이 없다
+ *   1  빨간불이 있다 (또는 대조군이 깨졌다 · 실행 0회다)
+ *   2  빨간불은 없으나 **검사하지 못한 것이 있다**
+ *
+ * 마지막 줄에 사유를 적는다 — 이 러너가 다른 검사기에게 요구하는 계약과 같은 것을 지킨다.
+ */
 if (cannot.length) {
-  console.log(`⚠ 다만 ${cannot.length}건은 **돌지 못했다.** 통과가 아니다.`);
+  console.log(
+    `\n빨간불은 없다. 다만 검사기 ${cannot.length}개를 **돌리지 못했다** — 통과가 아니다.` +
+      "\n환경을 갖추고 다시 돌리거나, 이 결과를 「그만큼은 검사 안 됨」으로 읽을 것.",
+  );
+  console.log(`\n검사하지 못한 검사기 ${cannot.length}개가 있다 — CANNOT_RUN\n`);
+  process.exit(2);
 }
+
+console.log("\nALL PASS — 빨간불 없음. 고른 검사기가 전부 돌았다.\n");
+process.exit(0);

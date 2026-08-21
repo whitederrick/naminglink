@@ -36,11 +36,24 @@ import {
   resolvedLegalLeaves,
   supabasePublishedReader,
 } from "./legal-source";
+/**
+ * **`.env.local` 을 읽는다** (2026-08-21).
+ *
+ * 이 검사기는 전수 스윕에서 늘 「못 돎 — 자격증명이 없다」로 나왔는데, 그 파일은 **46줄로
+ * 있었다.** 읽지 않았을 뿐이다. 「없다」를 안 찾고 단정한 자리이고, 그 사이 ⑥ 운영 현황은
+ * **한 번도 검사되지 않았다.** 못 돎은 통과가 아니다 — 없앨 수 있으면 없앤다.
+ *
+ * 파일이 없는 환경(CI)에서는 빈 표가 오고, 아래 ⑥ 이 그대로 `CANNOT_RUN` 으로 적는다.
+ */
+import { loadEnvLocal } from "./load-env-local";
 import { buildSeal, SealEnvironmentError, SealMismatchError } from "./seal-locale-review";
 import { hashValue, type Manifest, type ScopeRecord } from "./locale-manifest";
 import { getLegalLocaleContent } from "../src/lib/legal-content";
 import { hashReviewDocument } from "../src/lib/review-hash";
 import { localeCodes } from "../src/lib/locale-codes";
+
+// **자격증명을 먼저 채운다.** `supabasePublishedReader()` 는 `process.env` 를 본다.
+loadEnvLocal();
 
 let failures = 0;
 /**

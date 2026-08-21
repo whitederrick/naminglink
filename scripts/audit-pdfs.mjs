@@ -80,11 +80,23 @@ function sampleNamesOf(app) {
   return [...names];
 }
 
+/**
+ * **부른 파일 이름을 출력에 남긴다** (2026-08-21).
+ *
+ * 위 `AUDIT_WRAPS` 세 줄은 「내가 이 셋을 대신 돌린다」는 **선언**이다. 그런데 감사기가
+ * 선언만 보고 갈음해 주는 바람에, 부르지도 않으면서 적기만 해도 참이 됐다 — 실제로 그런
+ * 대조군을 넣자 검사기 하나가 한 번도 안 돈 채 스윕에서 사라졌다.
+ *
+ * 지금 감사기는 **이번 실행의 출력에 그 이름이 있는지**를 증거로 본다. 라벨(「언어」·「지면」·
+ * 「글리프」)만으로는 증거가 되지 않으므로 스크립트 경로를 함께 찍는다. 이 한 줄이 없으면
+ * 감사기가 세 파일을 「선언만 있고 부른 자취가 없다」로 빨간불 낸다 — 그것이 옳은 동작이다.
+ */
 function run(label, cmd, args) {
   const r = spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8" });
   const out = `${r.stdout ?? ""}${r.stderr ?? ""}`;
   const tail = out.trim().split("\n").slice(-2).join(" / ");
-  console.log(`    ${r.status === 0 ? "PASS" : "FAIL"}  ${label}`);
+  const script = args.find((a) => /\.py$/.test(a)) ?? args[0];
+  console.log(`    ${r.status === 0 ? "PASS" : "FAIL"}  ${label}  (${script})`);
   if (r.status !== 0) console.log(`          ${tail.slice(0, 220)}`);
   return r.status === 0;
 }
