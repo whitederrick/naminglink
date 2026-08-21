@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, Sparkles } from "lucide-react";
+import { ReturnLink } from "@/components/ReturnLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import { localePath } from "@/lib/locale-path";
 import type { Locale } from "@/lib/services";
@@ -28,13 +29,14 @@ export function PolicyLayout({
             <ArrowLeft aria-hidden="true" size={17} />
             Naming-Link
           </Link>
-          <Link
+          {/* 약관 화면에서 로그인으로 갔다가 돌아오면 그 약관으로 돌아와야 한다. */}
+          <ReturnLink
             href={localePath("/login", locale)}
             className="inline-flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-sm font-semibold transition hover:border-foreground"
           >
             <Sparkles aria-hidden="true" size={15} />
             {loginLabel}
-          </Link>
+          </ReturnLink>
         </div>
       </header>
 

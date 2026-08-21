@@ -14,6 +14,7 @@
 // 실행: apps/naminglink 에서
 //   npx tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-return-to.ts
 import { safeReturnTo, withReturnTo, RETURN_TO_PARAM } from "../src/lib/return-to";
+import { pickOrigin } from "../src/lib/guide-back";
 
 /** 역슬래시. **소스에 직접 적지 않는다** — 셸·히어독을 거치며 사라진 적이 있다. */
 const BS = String.fromCharCode(92);
@@ -33,7 +34,6 @@ const MUST_BLOCK: Array<[string, string]> = [
   ["줄바꿈 섞임", "/a\nb"],
   ["탭 섞임", "/a\tb"],
   ["너무 긴 값", `/${"x".repeat(600)}`],
-  ["깨진 퍼센트", "/%zz"],
 ];
 
 /** 받아야 하는 값. **막는 쪽으로 틀린 것도 결함이다.** */
@@ -46,6 +46,14 @@ const MUST_ALLOW: string[] = [
   "/global-to-korean/result?id=abcdef&mode=transliteration",
   "/a?q=%3F",
   "/a#b",
+  // **막는 쪽으로 틀린 것도 결함이다.** 아래 넷은 정상적인 우리 주소인데 거부되고 있었다.
+  "/a%20b", // 인코딩된 공백. 경로에 띄어쓰기가 있으면 URL API 가 이렇게 만든다
+  "/ko/guide?q=a%20b", // 쿼리 쪽 인코딩된 공백
+  "/a%b", // 홀로 있는 %. 풀 수 없을 뿐 남의 사이트가 아니다
+  // 예전에는 「깨진 퍼센트」로 **막는 칸**에 있었다. 그런데 이것은 /100% 와 같은 갈래다 —
+  // 풀리지 않을 뿐 우리 경로이고, 남의 사이트가 될 길이 없다. 막는 쪽으로 틀린 것이었다.
+  "/%zz",
+  "/100%", // 끝에 붙은 %
 ];
 
 let failures = 0;
@@ -71,6 +79,17 @@ for (const value of MUST_ALLOW) {
 
 console.log("\n③ 주소에 붙이는 모양");
 check(
+  "조각(#) 앞에 붙인다 — 뒤에 붙이면 쿼리가 조각의 일부가 된다",
+  withReturnTo("/ko/about#help", "/x") === "/ko/about?" + RETURN_TO_PARAM + "=%2Fx#help",
+  withReturnTo("/ko/about#help", "/x"),
+);
+check(
+  "쿼리와 조각이 다 있어도 조각 앞에 붙인다",
+  withReturnTo("/ko/guide?from=a#top", "/x") ===
+    "/ko/guide?from=a&" + RETURN_TO_PARAM + "=%2Fx#top",
+  withReturnTo("/ko/guide?from=a#top", "/x"),
+);
+check(
   "쿼리가 없으면 ? 로 붙인다",
   withReturnTo("/ko/about", "/x") === `/ko/about?${RETURN_TO_PARAM}=%2Fx`,
   withReturnTo("/ko/about", "/x"),
@@ -91,6 +110,35 @@ check(
   withReturnTo("/ko/about", "/r?id=1&m=2"),
 );
 
+check(
+  "목적지와 지금 화면이 같으면 안 붙인다 — 자기 자신을 가리키는 단추가 생긴다",
+  withReturnTo("/ko/about", "/ko/about") === "/ko/about",
+  withReturnTo("/ko/about", "/ko/about"),
+);
+check(
+  "같은 화면인지는 조각(#)을 떼고 본다",
+  withReturnTo("/ko/about", "/ko/about#top") === "/ko/about",
+  withReturnTo("/ko/about", "/ko/about#top"),
+);
+check(
+  "다른 화면이면 그대로 붙인다",
+  withReturnTo("/ko/about", "/ko/guide") === "/ko/about?" + RETURN_TO_PARAM + "=%2Fko%2Fguide",
+  withReturnTo("/ko/about", "/ko/guide"),
+);
+
+console.log("");
+console.log("④ 출처 표에서 물려받은 이름이 통과하지 않는가");
+const ORIGINS = { "hanja-meaning": { href: "/ko/guide?from=hanja-meaning", label: "안내로" } };
+for (const key of ["toString", "constructor", "__proto__", "valueOf", "hasOwnProperty"]) {
+  const got = pickOrigin(ORIGINS, key);
+  check("물려받은 이름은 없는 것으로: " + key, got === null, "표에 없는데 무언가를 돌려줬다");
+}
+check(
+  "표에 있는 이름은 그대로 돌려준다",
+  pickOrigin(ORIGINS, "hanja-meaning") === ORIGINS["hanja-meaning"],
+);
+check("from 이 없으면 null", pickOrigin(ORIGINS, null) === null);
+
 // **검사 0건은 실패로 처리한다.** 목록이 비면 이 검사기는 늘 통과한다.
 const total = MUST_BLOCK.length + MUST_ALLOW.length;
 if (total === 0) {
@@ -100,7 +148,7 @@ if (total === 0) {
 
 console.log(
   failures === 0
-    ? `\n통과 — 막을 것 ${MUST_BLOCK.length}개 · 통과할 것 ${MUST_ALLOW.length}개 · 붙이기 4건\n`
+    ? `\n통과 — 막을 것 ${MUST_BLOCK.length}개 · 통과할 것 ${MUST_ALLOW.length}개 · 붙이기 9건 · 출처 표 7건\n`
     : `\n빨간불 ${failures}건 — 돌아갈 주소 판정이 새고 있다\n`,
 );
 process.exit(failures === 0 ? 0 : 1);

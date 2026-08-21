@@ -27,19 +27,35 @@
 /** 주소에 실을 이름. 읽는 쪽과 쓰는 쪽이 같은 값을 봐야 하므로 여기 하나만 둔다. */
 export const RETURN_TO_PARAM = "returnTo";
 
+/** 역슬래시. **소스에 직접 적지 않는다** — 셸·히어독을 거치며 사라진 적이 있다. */
+const BACKSLASH = String.fromCharCode(92);
+
 /** 너무 긴 값은 받지 않는다. 주소창을 채우는 장난을 그대로 되돌려 주지 않기 위해서다. */
 const MAX_LENGTH = 512;
 
-/** 공백·제어 문자. 섞이면 브라우저마다 주소를 다르게 읽는다. */
-function hasBlankOrControl(value: string): boolean {
+/**
+ * 제어 문자. **정규식 이스케이프를 쓰지 않는다** — 소스에 제어 바이트가 그대로 박혀 파일이
+ * 이진으로 잡힌 적이 있다(2026-08-21).
+ */
+function hasControl(value: string): boolean {
   for (const ch of value) {
-    // 공백류(스페이스·탭·줄바꿈)와 제어 문자. **정규식 이스케이프를 쓰지 않는다** —
-    // 소스에 제어 바이트가 그대로 박혀 파일이 이진으로 잡힌 적이 있다(2026-08-21).
-    if (ch.trim() === "") return true;
     const code = ch.charCodeAt(0);
     if (code < 32 || code === 127) return true;
   }
   return false;
+}
+
+/**
+ * 공백류까지 포함해서 막는다. **날것 그대로의 주소**에 쓴다.
+ *
+ * 푼 값에는 쓰지 않는다 — `%20` 은 정상적인 우리 주소이고(경로에 띄어쓰기가 있으면 URL API 가
+ * 그렇게 만든다), 그것을 막으면 **막는 쪽으로 틀린 것**이 된다.
+ */
+function hasBlankOrControl(value: string): boolean {
+  for (const ch of value) {
+    if (ch.trim() === "") return true;
+  }
+  return hasControl(value);
 }
 
 /**
@@ -49,28 +65,39 @@ function hasBlankOrControl(value: string): boolean {
  *
  *     https://evil.com     `/` 로 시작하지 않는다
  *     //evil.com           브라우저가 프로토콜 상대 주소로 읽는다
- *     /\evil.com           역슬래시를 `/` 로 고쳐 읽는 브라우저가 있다
+ *     /(역슬래시)evil.com   역슬래시를 `/` 로 고쳐 읽는 브라우저가 있다
  *     /%2F%2Fevil.com      풀어 보면 위와 같아진다
  *     javascript:alert(1)  `/` 로 시작하지 않으므로 위에서 걸린다
  *
- * **한 겹 풀어서도 본다.** 풀 수 없는 값(깨진 `%`)은 받지 않는다.
+ * **통과해야 하는 것도 목록에 있다.** `/a%20b` · `/100%` 처럼 정상적인 우리 주소를 막으면
+ * 그것도 결함이다(`scripts/verify-return-to.ts` 의 `MUST_ALLOW`).
  */
 export function safeReturnTo(value: string | null | undefined): string | null {
   if (!value) return null;
   if (value.length > MAX_LENGTH) return null;
 
-  let decoded = value;
+  // **날것 그대로의 값.** 이것이 실제로 주소에 들어가므로 공백류까지 막는다.
+  if (!value.startsWith("/")) return null;
+  if (value.startsWith("//")) return null;
+  if (value.includes(BACKSLASH)) return null;
+  if (hasBlankOrControl(value)) return null;
+
+  // **한 겹 풀어서도 본다.** 다만 풀리지 않는 값(홀로 있는 %, 끝에 붙은 %)은 **거부하지
+  // 않는다** — 풀 수 없을 뿐 남의 사이트가 아니고, 브라우저도 그것을 구조로 읽지 않는다.
+  // 예전에는 여기서 곧바로 null 을 내어 `/100%` 같은 우리 주소가 막혔다.
+  let decoded: string | null = null;
   try {
     decoded = decodeURIComponent(value);
   } catch {
-    return null;
+    decoded = null;
   }
 
-  for (const candidate of [value, decoded]) {
-    if (!candidate.startsWith("/")) return null;
-    if (candidate.startsWith("//")) return null;
-    if (candidate.includes("\\")) return null;
-    if (hasBlankOrControl(candidate)) return null;
+  if (decoded !== null) {
+    if (!decoded.startsWith("/")) return null;
+    if (decoded.startsWith("//")) return null;
+    if (decoded.includes(BACKSLASH)) return null;
+    // 푼 값에서는 **제어 문자만** 막는다. `%20` 이 공백으로 풀리는 것은 정상이다.
+    if (hasControl(decoded)) return null;
   }
 
   // **원본을 그대로 돌려준다.** 풀어서 돌려주면 `%3F` 가 `?` 로 바뀌는 식으로 주소의 뜻이
@@ -90,11 +117,34 @@ export function currentInternalPath(): string | null {
   return safeReturnTo(`${url.pathname}${url.search}${url.hash}`);
 }
 
-/** 주소에 `returnTo` 를 붙인다. 실을 것이 없으면 원래 주소 그대로. */
+/**
+ * 두 내부 주소가 **같은 화면**을 가리키는가. 조각(#)은 빼고 본다.
+ *
+ * 같은 화면이면 `returnTo` 를 붙이지 않는다 — `/ko/about` 에서 푸터의 「소개」를 다시 누르면
+ * 「이전 화면으로」가 자기 자신을 가리키게 되어, 눌러도 제자리인 단추가 생긴다.
+ */
+export function isSameScreen(a: string, b: string): boolean {
+  const strip = (value: string) => {
+    const at = value.indexOf("#");
+    return at === -1 ? value : value.slice(0, at);
+  };
+  return strip(a) === strip(b);
+}
+
+/**
+ * 주소에 `returnTo` 를 붙인다. 실을 것이 없으면 원래 주소 그대로.
+ *
+ * **조각(#) 앞에 붙인다.** 뒤에 붙이면 `/ko/about#help?returnTo=...` 가 되어 쿼리가 통째로
+ * **조각의 일부**가 된다 — 서버도 브라우저도 그것을 쿼리로 읽지 않아 값이 조용히 사라진다.
+ */
 export function withReturnTo(href: string, returnTo: string | null): string {
   if (!returnTo) return href;
-  const separator = href.includes("?") ? "&" : "?";
-  return `${href}${separator}${RETURN_TO_PARAM}=${encodeURIComponent(returnTo)}`;
+  if (isSameScreen(href, returnTo)) return href;
+  const hashAt = href.indexOf("#");
+  const base = hashAt === -1 ? href : href.slice(0, hashAt);
+  const fragment = hashAt === -1 ? "" : href.slice(hashAt);
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}${RETURN_TO_PARAM}=${encodeURIComponent(returnTo)}${fragment}`;
 }
 
 /**

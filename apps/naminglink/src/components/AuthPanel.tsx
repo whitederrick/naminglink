@@ -8,6 +8,7 @@ import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { isLocaleCode } from "@/lib/locale-codes";
 import { localePath } from "@/lib/locale-path";
+import { readReturnTo, withReturnTo } from "@/lib/return-to";
 
 type AuthPanelProps = {
   intent?: "login" | "account";
@@ -65,7 +66,10 @@ export function AuthPanel({ intent = "login", locale }: AuthPanelProps) {
     const { error: authError } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: `${window.location.origin}${localePath("/account", locale)}`,
+        // **메일 링크로 돌아오는 자리까지 이어 붙인다.** 여기서 끊기면 로그인 전에 보던
+        // 화면이 로그인 성공과 함께 사라진다 — 돌아갈 곳을 아는 것은 이 시점이 마지막이다.
+        emailRedirectTo:
+          window.location.origin + withReturnTo(localePath("/account", locale), readReturnTo()),
       },
     });
 

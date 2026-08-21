@@ -1,5 +1,6 @@
 "use client";
 
+import { pickOrigin } from "@/lib/guide-back";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
@@ -61,6 +62,6 @@ export function GuideBackLink({
   origins: Record<string, BackTarget>;
 }) {
   const from = useSearchParams().get("from");
-  const target = (from && origins[from]) || fallback;
+  const target = pickOrigin(origins, from) ?? fallback;
   return <GuideBackLinkView href={target.href} label={target.label} />;
 }

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import { GuideShell } from "@/components/GuideShell";
+import { ReturnLink } from "@/components/ReturnLink";
 import { GuideEntryOrder } from "@/components/GuideEntryOrder";
 import { guideBackLink, guideEntryOrders, guideServiceOrigins } from "@/lib/guide-back";
 import { DocBody } from "@/components/DocBody";
@@ -71,7 +71,7 @@ export default async function GuideIndexPage({ params }: PageProps) {
           // 제목·요약은 `doc-content`가 로케일별로 갖는다 — 목록만 한국어로 남지 않게.
           const doc = getDocPage(locale, docKeyFor(entry));
           return (
-          <Link
+          <ReturnLink
             key={entry.slug}
             // 출처를 문서까지 들고 간다. 문서에서 허브로, 허브에서 서비스로 두 번 눌러
             // 나가는 길에서도 처음 들어온 화면으로 돌아가야 한다.
@@ -90,7 +90,7 @@ export default async function GuideIndexPage({ params }: PageProps) {
               />
             </p>
             <p className="text-sm leading-7 text-muted">{doc.summary}</p>
-          </Link>
+          </ReturnLink>
           );
         })}
       </GuideEntryOrder>

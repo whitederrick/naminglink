@@ -1,5 +1,6 @@
 "use client";
 
+import { pickOrigin } from "@/lib/guide-back";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { useSearchParams } from "next/navigation";
@@ -107,7 +108,7 @@ export function GuideBackLink({
   previousLabel?: string;
 }) {
   const from = useSearchParams().get("from");
-  const target = (from && origins[from]) || fallback;
+  const target = pickOrigin(origins, from) ?? fallback;
   return (
     <GuideBackLinkView href={target.href} label={target.label} previousLabel={previousLabel} />
   );

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 import { GuideNote, GuideSection, GuideShell } from "@/components/GuideShell";
+import { ReturnLink } from "@/components/ReturnLink";
 import { getDocPage, getNoticeCopy } from "@/lib/doc-content";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
@@ -122,23 +122,23 @@ export default async function Page({ params, searchParams }: PageProps) {
           className="mt-10 flex items-center justify-center gap-4 border-t border-line pt-5 text-sm"
         >
           {page > 1 ? (
-            <Link
+            <ReturnLink
               href={localePath("/notice", locale, page - 1 === 1 ? undefined : `page=${page - 1}`)}
               className="rounded-lg border border-line px-3 py-2 font-medium transition hover:border-foreground"
             >
               {copy.pager.newer}
-            </Link>
+            </ReturnLink>
           ) : null}
           <span className="tabular-nums text-muted">
             {page} / {lastPage}
           </span>
           {page < lastPage ? (
-            <Link
+            <ReturnLink
               href={localePath("/notice", locale, `page=${page + 1}`)}
               className="rounded-lg border border-line px-3 py-2 font-medium transition hover:border-foreground"
             >
               {copy.pager.older}
-            </Link>
+            </ReturnLink>
           ) : null}
         </nav>
       ) : null}
