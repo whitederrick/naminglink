@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { getUiLabels } from "@/lib/ui-labels";
 import { ArrowLeft, ArrowRight, BadgeCheck, Sparkles } from "lucide-react";
 import { ServiceLanguageSwitcher } from "@/components/ServiceLanguageSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale, ServiceConfig } from "@/lib/services";
+import type { LocaleCode } from "@/lib/locale-codes";
 import { NamingForm } from "@/components/NamingForm";
 import {
   globalNameToHangulService,
@@ -12,7 +14,7 @@ import {
 import { getServiceOverride, localizeServiceHero } from "@/lib/i18n-service";
 import { localePath } from "@/lib/locale-path";
 
-const homeLabels: Record<Locale, string> = {
+export const homeLabels: Record<Locale, string> = {
   ko: "홈",
   en: "Home",
   ja: "ホーム",
@@ -40,7 +42,7 @@ const homeLabels: Record<Locale, string> = {
 
 const koreanEntryServiceSlugs = new Set(["hanja-meaning", "korean-to-global"]);
 
-const globalNavigationLabels: Record<
+export const globalNavigationLabels: Record<
   Locale,
   { transliteration: string; koreanName: string }
 > = {
@@ -70,8 +72,13 @@ const globalNavigationLabels: Record<
 };
 
 // 외국인 대상 서비스에서만 로케일 문구를 쓰고, 한국어 대상 서비스는 항상 ko를 유지한다(다른 로케일은 영어 폴백).
-const shellCopies: Record<
-  string,
+/**
+ * **`Record<LocaleCode, …>`로 둔다** (2026-08-20). 예전에는 `Record<string, …>`이라
+ * 로케일이 하나 빠져도 tsc 가 조용했고, 그 언어 이용자만 영어를 보게 된다
+ * → `locale-maps-must-be-record-localecode`.
+ */
+export const shellCopies: Record<
+  LocaleCode,
   {
     promiseLabel: string;
     defaultLanguage: string;
@@ -356,7 +363,7 @@ function ServicePromisePanel({
               href={localePath("/guide", locale, `from=${service.slug}`)}
               className="inline-flex items-center gap-1.5 rounded-lg px-2 py-2 text-sm font-medium text-brand-teal underline decoration-brand-teal/30 underline-offset-4 transition hover:decoration-brand-teal"
             >
-              {locale === "ko" ? "이용 안내" : "How it works"}
+              {getUiLabels(locale).guideLink}
               <ArrowRight aria-hidden="true" size={14} />
             </Link>
           </div>

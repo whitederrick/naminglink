@@ -1,4 +1,5 @@
 // 서비스별 운영 지표가 실제로 갈라져 있는지 확인한다.
+// AUDIT_NO_SIDE_EFFECTS: select 와 읽기 전용 RPC(admin_analytics_snapshot)뿐 · 트랜잭션은 rollback 으로 닫는다
 //
 // 실행: node scripts/verify-app-split.mjs
 //
@@ -131,6 +132,22 @@ try {
 
   // 3) RPC가 서비스별로 다른 집합을 보는가. 두 서비스의 주문 수를 더하면 전체와 같아야 한다
   //    — 어느 한쪽 필터가 빠지면 합계가 두 배가 되고, 둘 다 빠지면 값이 같아진다.
+  //
+  /**
+   * **한 스냅샷 안에서 묻는다** (2026-08-21).
+   *
+   * 이 절은 질의를 다섯 번 나눠 던진다 — 앱별 RPC 넷 + 전체 하나. 그런데 이 사이트는 **살아
+   * 있고 방문이 들어온다.** 2026-08-21 전수 스윕에서 `8921 / 전체 8922` 로 **1 차이** 빨간불이
+   * 났고, 곧바로 다시 돌리니 `8947 / 8947` 로 통과했다. 그 몇 분 사이 방문이 26건 늘었다.
+   *
+   * 결함이 아니라 **경쟁 상태**다. 그리고 이런 가짜 빨간불이 제일 나쁘다 — 사람이 빨간불을
+   * 무시하는 법부터 배운다.
+   *
+   * 임계값(「1건까지는 봐준다」)을 두지 않는다. 그건 근본 원인을 덮는 것이고, 진짜로 하나가
+   * 새는 날을 못 잡게 만든다. **REPEATABLE READ 로 묶으면** 다섯 질의가 같은 스냅샷을 보고,
+   * RPC 안의 `now()` 도 트랜잭션 시작 시각으로 고정된다 — 창과 행이 함께 얼어붙는다.
+   */
+  await client.query("begin isolation level repeatable read");
   const snapshots = {};
   for (const app of APPS) {
     const { rows } = await client.query(
@@ -166,6 +183,8 @@ try {
     summedVisits === eventTotals[0].visits,
     `${visitParts.join(" + ")} = ${summedVisits} / 전체 ${eventTotals[0].visits}`,
   );
+  // 읽기만 했으므로 되돌린다 — 이 검사기는 아무것도 쓰지 않는다.
+  await client.query("rollback");
 
   // **이 검사만은 일반화하지 않는다.** 인연링크는 규칙 엔진뿐이라 AI를 아예 안 쓴다 — 0이
   // 아니면 필터가 잘못된 것이다. 반면 **사주링크는 유료 경로에서 AI를 쓰므로** 같은 잣대를

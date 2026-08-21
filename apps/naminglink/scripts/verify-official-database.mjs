@@ -1,4 +1,5 @@
 import path from "node:path";
+// AUDIT_NO_SIDE_EFFECTS: 쓰기는 --publish 일 때만 돈다. 감사기는 인자 없이 부르므로 읽기만 한다
 import { fileURLToPath } from "node:url";
 
 import { createClient } from "@supabase/supabase-js";

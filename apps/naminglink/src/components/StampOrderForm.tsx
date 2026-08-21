@@ -1,5 +1,6 @@
 "use client";
 
+import type { LocaleCode } from "@/lib/locale-codes";
 import * as PortOne from "@portone/browser-sdk/v2";
 import { CheckoutConsent } from "@/components/CheckoutConsent";
 import { Stamp } from "lucide-react";
@@ -31,7 +32,12 @@ type StampCheckout = {
   currency: "KRW" | "USD";
 };
 
-const COPY = {
+/**
+ * **`satisfies Record<LocaleCode, …>`로 못 박는다** (2026-08-20). 자료형이 없어 로케일이 하나
+ * 빠져도 tsc 가 조용했고, 권위 인벤토리의 훑기도 이 표를 통째로 놓쳤다. `satisfies` 는 값의
+ * 자료형 추론(`as const` 의 좁은 문자열 자료형)을 유지하면서 **키 완전성만** 강제한다.
+ */
+export const COPY = {
   ko: {
     heading: "이름 도장 신청 · {price}",
     intro:
@@ -753,7 +759,7 @@ const COPY = {
     doneBody: "Twoja płatność została potwierdzona. Skontaktujemy się z Tobą, gdy produkcja się rozpocznie; międzynarodowa dostawa zazwyczaj zajmuje 2–3 tygodnie po wysyłce. Jeśli zamówiłeś, będąc zalogowanym, możesz śledzić status na swojej stronie konta.",
     orderNo: "Numer zamówienia",
   },
-} as const;
+} as const satisfies Record<LocaleCode, unknown>;
 
 export function StampOrderForm({
   initialName,

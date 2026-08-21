@@ -1,4 +1,5 @@
 // 후보 열기 관문 표 검사.
+// AUDIT_SIDE_EFFECTS: 운영 unlock_tickets 에 표를 발급·소비하고 마지막에 지운다(raw SQL)
 //
 // 광고를 봤다는 증명이 웹에는 없어(SSV는 앱 전용) 대신 **시간**을 서버가 잰다. 그 판단은
 // 전부 Postgres 함수 안에 있으므로(`supabase/migrations/20260803100000_unlock_tickets.sql`)

@@ -1,5 +1,6 @@
 "use client";
 
+import { getUiLabels } from "@/lib/ui-labels";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { romanizeCompanyValue } from "@naminglink/core/company";
@@ -58,7 +59,7 @@ type FooterCopy = {
   };
 };
 
-const footerCopies: Record<Locale, FooterCopy> = {
+export const footerCopies: Record<Locale, FooterCopy> = {
   ko: {
     links: {
       terms: "이용약관",
@@ -707,6 +708,8 @@ export function SiteFooter({
     ? "text-white/86 hover:text-white"
     : "text-foreground hover:text-brand-teal";
   const copy = footerCopies[locale];
+  // 컴포넌트 안에 박혀 있던 두 갈래 문구를 옮겨 온 표(구현 명세 §9).
+  const labels = getUiLabels(locale);
 
   // 로그인 여부만 본다. 이메일 등 개인정보는 푸터에 쓰지 않으므로 가져오지 않는다.
   useEffect(() => {
@@ -765,7 +768,7 @@ export function SiteFooter({
   // 모든 언어에서 건다. 라벨만 갈라 준다.
   const guideLink = {
     href: guideHubHref(locale, guideFrom),
-    label: locale === "ko" ? "이용 안내" : "How it works",
+    label: labels.guideLink,
   };
   // 소개·문의하기. 안내 허브와 같은 방식으로 라벨만 갈라 모든 언어에서 건다 — 두 페이지가
   // 한국어·영어 두 벌이라 23로케일 사전에 라벨을 새로 넣을 이유가 없다.
@@ -774,15 +777,15 @@ export function SiteFooter({
   // 닿지 않는 페이지는 없는 것과 같다(안내 문서를 만들어 놓고 sitemap에 넣지 않아 겪었다).
   const aboutLink = {
     href: localePath("/about", locale),
-    label: locale === "ko" ? "소개" : "About",
+    label: labels.about,
   };
   const contactLink = {
     href: localePath("/contact", locale),
-    label: locale === "ko" ? "문의하기" : "Contact",
+    label: labels.contact,
   };
   const noticeLink = {
     href: localePath("/notice", locale),
-    label: locale === "ko" ? "공지사항" : "Notices",
+    label: labels.notice,
   };
   const footerLinks = [
     aboutLink,
@@ -795,7 +798,7 @@ export function SiteFooter({
     guideLink,
     accountLink,
   ];
-  const customerCenterLabel = locale === "ko" ? "고객센터" : "Customer service";
+  const customerCenterLabel = labels.customerService;
   const footerValue = (label: string, value: string) =>
     localizeFooterValue(locale, copy, displayFooterValue(label, value));
   const firstLine = [

@@ -16,7 +16,7 @@ const generalSteps = [
  * **`ko`만 뺀 전 로케일이 있어야 한다.** 한국어는 위의 `generalSteps`를 쓴다. `Record<string, …>`
  * 이던 동안에는 로케일이 빠져도 tsc가 조용했고 그 언어만 영어 문구가 떴다.
  */
-const generalStepsByLocale: Record<Exclude<LocaleCode, "ko">, string[]> = {
+export const generalStepsByLocale: Record<Exclude<LocaleCode, "ko">, string[]> = {
   en: [
     "Organizing the meaning and conditions of your input.",
     "Comparing pronunciation, culture, and reference details.",
