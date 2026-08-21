@@ -237,7 +237,12 @@ const SIDE_EFFECT_HINTS = [
    * `verify-app-split.mjs`(select + 읽기 전용 RPC)가 이 힌트에 걸렸고, 둘 다 본문을 확인해
    * `AUDIT_NO_SIDE_EFFECTS` 로 이유를 적었다.
    */
-  { re: /from\s+["']pg["']|new\s+(?:pg\.)?Client\s*\(/, why: "DB 에 직접 붙는 것으로 보인다" },
+  {
+    // `Pool` 과 동적 임포트도 함께 본다 — 5차 재검증에서 Claude App 이 짚은 회피 경로다.
+    // 그래도 **문자열 그물로 악의는 못 막는다**(아래 한계 절 참고). 정직하게 쓰면 걸린다.
+    re: /from\s+["']pg["']|import\(\s*["']pg["']\s*\)|new\s+(?:pg\.)?(?:Client|Pool)\s*\(/,
+    why: "DB 에 직접 붙는 것으로 보인다",
+  },
   {
     re: /\.query\(\s*[`"'][\s\S]{0,300}?\b(insert\s+into|update\s+\S+\s+set|delete\s+from|truncate)\b/i,
     why: "raw SQL 로 쓰는 것으로 보인다",
@@ -257,6 +262,24 @@ function sideEffectAuditSources(entries) {
   const errors = [];
   for (const { where, file, body: source } of entries) {
     const who = `${where}/${file}`;
+    /**
+     * **없앤 갈래의 선언이 남아 있는가 — 가장 먼저 본다** (2026-08-21 5차 재검증 P2).
+     *
+     * 「감싸짐」을 걷어내면서 `AUDIT_WRAPS` 를 읽는 곳이 사라졌다. 그 줄을 적어도 아무 일이
+     * 안 일어난다 — 적은 사람은 **갈음이 선 줄 알고**, 감사기는 그냥 둘 다 돈다. 실패 방향이
+     * 안전한 쪽이라 사고가 나지는 않지만 **거짓 안심**은 그 자체로 결함이다.
+     *
+     * 처음에는 이 검사를 반복문 **끝**에 뒀다. 그런데 위쪽 갈래마다 `continue` 가 있어서,
+     * `AUDIT_SIDE_EFFECTS` 를 적은 파일에서는 **여기까지 오지도 않았다** — 「어디에 남아도
+     * 빨간불」이라는 계약을 세워 놓고 그 계약이 반쪽이었다. 그래서 **맨 앞으로 옮긴다.**
+     * 다른 갈래와 독립이므로 `continue` 뒤에 두면 안 된다.
+     */
+    if (/^[ \t]*(?:\/\/|#)[ \t]*AUDIT_WRAPS:/m.test(source)) {
+      errors.push(
+        `${who} — AUDIT_WRAPS 선언이 남아 있다. 그 갈래는 없앴다(§13) — 읽는 곳이 없으므로 ` +
+          "적어도 아무 일도 일어나지 않는다. 지우고, 인자가 필요하면 ARGV 에 적을 것.",
+      );
+    }
     const yes = SIDE_EFFECTS_DECL.exec(source);
     const no = NO_SIDE_EFFECTS_DECL.exec(source);
     if (yes && no) {
@@ -280,20 +303,6 @@ function sideEffectAuditSources(entries) {
     }
     if (no && !no[1].trim()) {
       errors.push(`${who} — AUDIT_NO_SIDE_EFFECTS 에 이유가 없다. 왜 아닌지 적을 것.`);
-    }
-    /**
-     * **없앤 갈래의 선언이 조용히 무시되고 있었다** (2026-08-21 5차 재검증 P2).
-     *
-     * 「감싸짐」을 걷어내면서 `AUDIT_WRAPS` 를 읽는 곳이 사라졌다. 그래서 그 줄을 적어도
-     * 아무 일도 안 일어난다 — 적은 사람은 **갈음이 선 줄 알고**, 감사기는 그냥 둘 다 돈다.
-     * 실패 방향이 안전한 쪽이라 사고가 나지는 않지만, **거짓 안심**은 그 자체로 결함이다.
-     * 옛 코드에 있던 「적용되지 않는 선언은 지운다」 규칙을 여기서 잇는다.
-     */
-    if (/^[ \t]*(?:\/\/|#)[ \t]*AUDIT_WRAPS:/m.test(source)) {
-      errors.push(
-        `${who} — AUDIT_WRAPS 선언이 남아 있다. 그 갈래는 없앴다(§13) — 읽는 곳이 없으므로 ` +
-          "적어도 아무 일도 일어나지 않는다. 지우고, 인자가 필요하면 ARGV 에 적을 것.",
-      );
     }
   }
   return { declaredSideEffects, errors };
@@ -666,6 +675,25 @@ const SIDE_CONTROL = [
     wantError: false,
     wantDeclared: false,
   },
+  {
+    label: "없앤 AUDIT_WRAPS 선언이 남아 있으면 빨간불",
+    body: "// AUDIT_WRAPS: audit-pdf-language.py\n",
+    wantError: true,
+    wantDeclared: false,
+  },
+  {
+    /**
+     * **5차 재검증 P2 — 계약이 반쪽이었다.**
+     *
+     * 이 검사를 반복문 끝에 뒀더니 `AUDIT_SIDE_EFFECTS` 가 있는 파일은 `continue` 로 빠져
+     * **여기까지 오지 않았다.** 「어디에 남아도 빨간불」이라 적어 놓고 한 갈래만 봤다.
+     * 그래서 선언이 **함께** 있는 경우를 시험으로 못 박는다.
+     */
+    label: "부수효과 선언과 함께 있어도 AUDIT_WRAPS 는 잡는다",
+    body: "// AUDIT_SIDE_EFFECTS: 운영 DB 에 쓴다\n// AUDIT_WRAPS: old-wrapper.mjs\n",
+    wantError: true,
+    wantDeclared: true,
+  },
 ];
 for (const { label, body, wantError, wantDeclared } of SIDE_CONTROL) {
   const { declaredSideEffects, errors } = sideEffectAuditSources([src(body)]);
@@ -744,14 +772,17 @@ if (red.length) {
 /**
  * **한 번도 안 돌았으면 통과가 아니다** (2026-08-20 재검증 P1).
  *
- * `--filter` 가 아무것도 못 고르거나 고른 것이 전부 감싸짐이면 실행이 0회다. 그때 예전 코드는
- * 「빨간불 없음」을 이유로 `ALL PASS` 를 찍었다 — **검사 0건은 실패**라는 규칙이 이 러너 자신에는
- * 적용돼 있지 않았다. 초록불을 근거로 쓰는 것은 사람이므로, 여기서 막는다.
+ * `--filter` 가 아무것도 못 고르면 실행이 0회다. 그때 예전 코드는 「빨간불 없음」을 이유로
+ * `ALL PASS` 를 찍었다 — **검사 0건은 실패**라는 규칙이 이 러너 자신에는 적용돼 있지 않았다.
+ * 초록불을 근거로 쓰는 것은 사람이므로, 여기서 막는다.
+ *
+ * 안내 문구에 있던 「전부 감싸짐이다」는 지웠다 — **그 갈래는 없앴는데 안내만 남아 있었다**
+ * (5차 재검증 P3). 없는 갈래를 원인으로 안내하면 읽는 사람이 없는 것을 찾는다.
  */
 if (!pass.length && !cannot.length) {
   console.log(
     `\n실행 0회다. 초록불을 낼 수 없다 — 검사기 ${selected.length}개를 골랐고 그중 아무것도 돌지 않았다.` +
-      (filter ? `\n  --filter ${filter} 가 고른 것이 없거나 전부 감싸짐이다.` : ""),
+      (filter ? `\n  --filter ${filter} 와 이름이 맞는 검사기가 없다.` : ""),
   );
   process.exit(1);
 }
