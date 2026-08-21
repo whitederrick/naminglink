@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { LegalModal, type LegalDocument } from "@/components/LegalModal";
+// **화면을 옮기는 링크만** 이것으로 바꾼다. 약관류는 모달이라 옮기지 않는다.
+import { ReturnLink } from "@/components/ReturnLink";
 import { localePath } from "@/lib/locale-path";
 
 /**
@@ -56,14 +58,14 @@ export function FooterPolicyLinks({
   return (
     <>
       {leadingLinks.map((link) => (
-        <Link
+        <ReturnLink
           key={link.href}
           href={link.href}
           className={linkClass}
           dir={textDirection}
         >
           {link.label}
-        </Link>
+        </ReturnLink>
       ))}
       {/**
         * **링크로 두되 모달로 연다** (2026-08-10).
@@ -103,18 +105,18 @@ export function FooterPolicyLinks({
           **한국어에서만 보인다.** 인명용 한자는 대법원 제도라 한국에 한정된 내용이어서,
           다른 언어판 푸터에 링크만 걸어 두면 눌렀을 때 읽을 수 없는 글이 나온다. */}
       {guideHref && guideLabel ? (
-        <Link href={guideHref} className={linkClass} dir={textDirection}>
+        <ReturnLink href={guideHref} className={linkClass} dir={textDirection}>
           {guideLabel}
-        </Link>
+        </ReturnLink>
       ) : null}
 
       {/* 로그인은 팝업이 아니라 페이지 이동이다(약관과 달리 화면을 옮기는 것이 목적).
           요금안내 뒤에 같은 글꼴·크기로 붙여 푸터의 다른 항목과 구분되지 않게 한다.
           이 링크가 사이트 전체에서 유일한 로그인 진입점이다 — 예전에는 문구만 23개 로케일에
           남고 링크가 빠져 있어, 입력 화면의 저장 안내문을 봐야만 로그인을 찾을 수 있었다. */}
-      <Link href={loginHref} className={linkClass} dir={textDirection}>
+      <ReturnLink href={loginHref} className={linkClass} dir={textDirection}>
         {loginLabel}
-      </Link>
+      </ReturnLink>
 
       {openDocument && (
         <LegalModal
