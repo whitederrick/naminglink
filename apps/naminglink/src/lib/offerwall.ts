@@ -55,6 +55,27 @@ export const offerwallEnabled =
 const OFFERWALL_WAIT_MS = 8000;
 const POLL_INTERVAL_MS = 100;
 
+/**
+ * `googlefcInactive` 마커를 본 뒤에도 **더 지켜보는 시간**.
+ *
+ * 그 마커는 「안 띄운다」의 최종 통보가 아니다. 2026-08-24 에 운영에서 관측했다 —
+ * 마커를 보고 우리 카드를 그린 **2~3초 뒤에 오퍼월이 떴다.** 둘이 겹쳐 보였고, 우리
+ * 카운트다운이 오퍼월 뒤에 그대로 남았다.
+ *
+ * 그래서 마커는 **「아마 안 뜬다」로만** 받고 이만큼 더 본다. 오퍼월이 그 사이에 뜨면
+ * 우리 카드는 **아예 그려지지 않는다**. 안 뜨면 그때 그린다 — 8초를 다 기다리지 않는
+ * 마커의 본래 값은 그대로 남는다.
+ */
+const INACTIVE_GRACE_MS = 3500;
+
+/**
+ * 자체 관문이 도는 동안에도 오퍼월을 계속 지켜보는 상한.
+ *
+ * 판정을 한 번 내리고 끝내면 **되돌릴 수 없다** — 그것이 위 사고의 구조적 원인이다.
+ * 늦게 뜬 오퍼월도 대가를 치른 것이므로, 보이면 그 자리에서 비켜 준다.
+ */
+const LATE_WATCH_MS = 20000;
+
 /** 「화면을 덮는다」로 볼 최소 크기(px). 0×0 요소가 통과하는 것을 막는다. */
 const MIN_COVER_PX = 200;
 
@@ -123,6 +144,39 @@ function googlefcInactive() {
   );
 }
 
+/** 한 번 재어 본 결과. 시각은 관문이 시작한 때로부터의 밀리초다. */
+export type GateProbe = {
+  readonly offerwallVisible: boolean;
+  readonly fcInactive: boolean;
+  readonly elapsedMs: number;
+  /** 마커를 처음 본 시각. 아직 못 봤으면 null. */
+  readonly inactiveSeenAtMs: number | null;
+};
+
+/**
+ * 지금 무엇을 할 것인가. **순수 함수로 꺼내 둔다** — 검사기가 대조군으로 잰다
+ * (`scripts/verify-offerwall-detection.ts`). 폴링 안에 인라인으로 두면
+ * 「이 판정이 겹침을 막는가」를 물을 수 없다.
+ *
+ *   yield — 오퍼월이 떴다. 우리는 비켜 준다.
+ *   self  — 우리 관문을 돌린다.
+ *   wait  — 아직 모른다. 더 본다.
+ */
+export type GateDecision = "yield" | "self" | "wait";
+
+export function decideSelfGate(probe: GateProbe): GateDecision {
+  // ① 실제로 떴다. 이 판정만이 관측이고 나머지는 추정이다 — 언제 나오든 이긴다.
+  if (probe.offerwallVisible) return "yield";
+  // ② 마커를 봤다. **끝내지 않고** 유예만큼 더 본다.
+  if (probe.fcInactive && probe.inactiveSeenAtMs !== null) {
+    return probe.elapsedMs - probe.inactiveSeenAtMs >= INACTIVE_GRACE_MS ? "self" : "wait";
+  }
+  // ③ 상한. 광고차단기·로딩 실패·구글이 늦는 경우 전부 여기로 온다.
+  //    광고가 하나도 안 나가는 것보다 우리 관문이 도는 편이 낫다.
+  if (probe.elapsedMs >= OFFERWALL_WAIT_MS) return "self";
+  return "wait";
+}
+
 export function useSelfGateNeeded(): boolean | null {
   const [needed, setNeeded] = useState<boolean | null>(() =>
     // **심사 모드에서는 관문 자체가 없다** (2026-08-11). 여기서 참을 돌려주면 광고가 하나도
@@ -138,25 +192,37 @@ export function useSelfGateNeeded(): boolean | null {
     if (!offerwallEnabled) return;
 
     const startedAt = Date.now();
+    let inactiveSeenAtMs: number | null = null;
+    let decided = false;
+
     const timer = window.setInterval(() => {
-      // ① 오퍼월이 실제로 화면을 덮었다. 대가를 이미 받은 것이니 우리는 비켜 준다.
-      if (offerwallVisible()) {
+      const elapsedMs = Date.now() - startedAt;
+      const visible = offerwallVisible();
+      if (inactiveSeenAtMs === null && googlefcInactive()) inactiveSeenAtMs = elapsedMs;
+
+      const decision = decideSelfGate({
+        offerwallVisible: visible,
+        fcInactive: inactiveSeenAtMs !== null,
+        elapsedMs,
+        inactiveSeenAtMs,
+      });
+
+      if (decision === "yield") {
+        // 늦게 떴어도 대가는 치러졌다. 우리 관문이 이미 돌고 있었다면 그쪽이 걷는다.
         window.clearInterval(timer);
         setNeeded(false);
         return;
       }
-      // ② 구글이 안 띄우기로 했다. 더 기다릴 것이 없다.
-      if (googlefcInactive()) {
-        window.clearInterval(timer);
+
+      if (decision === "self" && !decided) {
+        decided = true;
         setNeeded(true);
-        return;
+        // **여기서 멈추지 않는다.** 예전에는 이 자리에서 인터벌을 껐고, 그래서 뒤늦게
+        // 오퍼월이 떠도 ①이 받아 줄 기회가 없었다 — 자체 광고와 오퍼월이 겹쳤다.
       }
-      // ③ 상한. 광고차단기·로딩 실패·구글이 늦는 경우 전부 여기로 온다.
-      //    **광고가 하나도 안 나가는 것보다 우리 게이트가 도는 편이 낫다.**
-      if (Date.now() - startedAt >= OFFERWALL_WAIT_MS) {
-        window.clearInterval(timer);
-        setNeeded(true);
-      }
+
+      // 판정을 내린 뒤에도 상한까지는 계속 본다. 되돌릴 수 있어야 겹치지 않는다.
+      if (elapsedMs >= LATE_WATCH_MS) window.clearInterval(timer);
     }, POLL_INTERVAL_MS);
 
     return () => window.clearInterval(timer);
