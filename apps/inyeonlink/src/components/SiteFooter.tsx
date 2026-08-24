@@ -1,7 +1,7 @@
 import { guideLinkLabel } from "@/components/GuideLink";
 import { LegalLinks } from "@/components/LegalLinks";
 import { getCompanyInfo } from "@/lib/company-server";
-import { romanizeCompanyValue } from "@naminglink/core/company";
+import { localizeCompanyValue } from "@naminglink/core/company-display";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
@@ -13,36 +13,6 @@ import { localePath } from "@/lib/locale-path";
 // 관리자 화면에서 고치려고 클라이언트에서 API로 받아오고, 이 앱은 고칠 일이 없으므로 서버
 // 컴포넌트에서 바로 읽는다. 링크 목록만 짧다(파는 것이 하나뿐이라 요금안내가 따로 없다).
 
-// "준비 중" 계열 문구의 로케일별 표기. naminglink `SiteFooter.tsx`의 `footerCopies[*].values`에서
-// 그대로 가져왔다 — 사전(i18n)이 아니라 푸터 컴포넌트가 들고 있는 값이라 그쪽 구조를 따랐다.
-const PENDING_COPIES: Record<
-  Locale,
-  { pending: string; registrationPending: string; mailOrderPending: string }
-> = {
-  ko: { pending: "확인 예정", registrationPending: "준비 중", mailOrderPending: "신고 준비 중" },
-  en: { pending: "to be confirmed", registrationPending: "pending", mailOrderPending: "filing pending" },
-  ja: { pending: "確認予定", registrationPending: "準備中", mailOrderPending: "申告準備中" },
-  zh: { pending: "待确认", registrationPending: "准备中", mailOrderPending: "申报准备中" },
-  de: { pending: "in Prüfung", registrationPending: "in Vorbereitung", mailOrderPending: "Meldung in Vorbereitung" },
-  es: { pending: "por confirmar", registrationPending: "en preparación", mailOrderPending: "registro en preparación" },
-  fr: { pending: "à confirmer", registrationPending: "en préparation", mailOrderPending: "déclaration en préparation" },
-  it: { pending: "da confermare", registrationPending: "in preparazione", mailOrderPending: "segnalazione in preparazione" },
-  pt: { pending: "a confirmar", registrationPending: "em preparação", mailOrderPending: "declaração em preparação" },
-  vi: { pending: "sẽ xác nhận", registrationPending: "đang chuẩn bị", mailOrderPending: "đang chuẩn bị khai báo" },
-  th: { pending: "รอยืนยัน", registrationPending: "กำลังเตรียม", mailOrderPending: "กำลังเตรียมแจ้ง" },
-  id: { pending: "akan dikonfirmasi", registrationPending: "sedang disiapkan", mailOrderPending: "pelaporan disiapkan" },
-  ru: { pending: "уточняется", registrationPending: "готовится", mailOrderPending: "подача готовится" },
-  ar: { pending: "سيتم التأكيد", registrationPending: "قيد التحضير", mailOrderPending: "قيد الإبلاغ" },
-  fil: { pending: "kukumpirmahin", registrationPending: "inihahanda", mailOrderPending: "inihahanda ang filing" },
-  uz: { pending: "tasdiqlanadi", registrationPending: "tayyorlanmoqda", mailOrderPending: "ariza tayyorlanmoqda" },
-  mn: { pending: "баталгаажина", registrationPending: "бэлтгэж байна", mailOrderPending: "мэдүүлэг бэлтгэж байна" },
-  hi: { pending: "पुष्टि बाकी", registrationPending: "तैयारी में", mailOrderPending: "फाइलिंग तैयारी में" },
-  tr: { pending: "onay bekliyor", registrationPending: "hazırlanıyor", mailOrderPending: "bildirim hazırlanıyor" },
-  km: { pending: "នឹងបញ្ជាក់", registrationPending: "កំពុងរៀបចំ", mailOrderPending: "កំពុងរៀបចំដាក់ស្នើ" },
-  ms: { pending: "akan disahkan", registrationPending: "sedang disediakan", mailOrderPending: "pemfailan disediakan" },
-  kk: { pending: "нақтыланады", registrationPending: "дайындалуда", mailOrderPending: "өтініш дайындалуда" },
-  pl: { pending: "do potwierdzenia", registrationPending: "w przygotowaniu", mailOrderPending: "zgłoszenie w przygotowaniu" },
-};
 
 /**
  * 푸터 값 한 칸을 화면에 쓸 문자열로 다듬는다.
@@ -52,25 +22,13 @@ const PENDING_COPIES: Record<
  * 그래서 값이 라벨로 시작하면 그 부분을 떼고, 한국어가 아니면 로케일 표기로 바꾼다.
  * (naminglink는 한국어일 때 걷어내지 않아 같은 겹침이 남아 있다 — 그쪽도 손봐야 한다.)
  */
+/**
+ * 푸터 값 한 칸을 화면에 쓸 문자열로. **규칙은 core 에 한 벌 있다** —
+ * 「준비 중」류의 로케일 문구와 인명·상호·주소의 로마자 표기, 그리고 라벨 겹침 떼기.
+ * 예전에는 이 규칙이 앱마다 따로 있었고 서로 달랐다.
+ */
 function displayValue(locale: Locale, label: string, value: string) {
-  const trimmed = value.trim();
-  const pendingCopy = PENDING_COPIES[locale];
-
-  if (trimmed === "통신판매업 신고 준비 중") return pendingCopy.mailOrderPending;
-  if (trimmed === "사업자등록번호 준비 중") return pendingCopy.registrationPending;
-  if (trimmed === "확인 예정") return pendingCopy.pending;
-
-  // 위 세 가지 말고도 값이 라벨로 시작하면 겹치므로 떼어 낸다. 떼고 나서 빈 문자열이 되면
-  // 값 자체가 라벨뿐이었다는 뜻이라 원래 값을 그대로 둔다.
-  const stripped =
-    label && trimmed.startsWith(label)
-      ? trimmed.slice(label.length).trim() || trimmed
-      : trimmed;
-
-  // 인명·상호·주소는 비한국어 로케일에서 **로마자 한 벌**로 낸다(표는 core에 있다). 예전에는
-  // 이 앱들이 한국어 값을 그대로 내보내, 같은 페이지에서 푸터는 `곽은하(대표)`, 약관은 그
-  // 언어로 지어낸 음역을 적었다 — 2026-08-07.
-  return locale === "ko" ? stripped : romanizeCompanyValue(stripped);
+  return localizeCompanyValue(locale, label, value);
 }
 
 export async function SiteFooter({

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { localizeCompanyValues } from "@naminglink/core/company-display";
 import { DocBody } from "@/components/DocBody";
 import { GuideShell } from "@/components/GuideShell";
 import { getDocPage } from "@/lib/doc-content";
@@ -55,7 +56,7 @@ export default async function Page({ params }: PageProps) {
       <DocBody
         sections={doc.sections}
         locale={locale}
-        values={{
+        values={localizeCompanyValues(locale, {
           companyName: footer.companyName,
           representative: footer.representative,
           businessNumber: footer.businessNumber,
@@ -65,7 +66,7 @@ export default async function Page({ params }: PageProps) {
           email: footer.email,
           privacyOfficer: footer.privacyOfficer,
           hostingProvider: footer.hostingProvider,
-        }}
+        })}
       />
     </GuideShell>
   );
