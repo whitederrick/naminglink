@@ -56,17 +56,20 @@ const OFFERWALL_WAIT_MS = 8000;
 const POLL_INTERVAL_MS = 100;
 
 /**
- * `googlefcInactive` 마커를 본 뒤에도 **더 지켜보는 시간**.
+ * ## 유예를 두었다가 없앴다 (2026-08-24, 같은 날 두 번 관측)
  *
- * 그 마커는 「안 띄운다」의 최종 통보가 아니다. 2026-08-24 에 운영에서 관측했다 —
- * 마커를 보고 우리 카드를 그린 **2~3초 뒤에 오퍼월이 떴다.** 둘이 겹쳐 보였고, 우리
- * 카운트다운이 오퍼월 뒤에 그대로 남았다.
+ * 처음에는 마커를 본 뒤 3.5초를 더 지켜봤다 — 마커를 보고 카드를 그린 2~3초 뒤에
+ * 오퍼월이 떠서 둘이 겹쳤기 때문이다. 그런데 그렇게 고치고 다시 재 보니, **오퍼월이
+ * 안 뜨는 방문에서는 3~5초 동안 빈 화면만 보였다.**
  *
- * 그래서 마커는 **「아마 안 뜬다」로만** 받고 이만큼 더 본다. 오퍼월이 그 사이에 뜨면
- * 우리 카드는 **아예 그려지지 않는다**. 안 뜨면 그때 그린다 — 8초를 다 기다리지 않는
- * 마커의 본래 값은 그대로 남는다.
+ * 오퍼월은 매 방문 뜨지 않는다(구글이 빈도를 제한한다). 즉 **흔한 경로가 「안 뜸」**인데,
+ * 유예는 드문 경우를 막으려고 흔한 경로 전부에 대기를 물린 셈이었다. 트레이드오프가
+ * 거꾸로였다.
+ *
+ * 지금은 마커를 보면 곧바로 우리 카드를 그리고, **늦게 뜬 오퍼월에는 비켜 준다**
+ * (`shouldKeepWatching`). 겹침은 「잠깐 스쳤다 사라지는 것」으로 끝난다 — 카운트다운이
+ * 오퍼월 뒤에 남는 일은 없다. 그것이 원래 고치려던 결함이다.
  */
-const INACTIVE_GRACE_MS = 3500;
 
 /**
  * 자체 관문이 도는 동안에도 오퍼월을 계속 지켜보는 상한.
@@ -75,6 +78,19 @@ const INACTIVE_GRACE_MS = 3500;
  * 늦게 뜬 오퍼월도 대가를 치른 것이므로, 보이면 그 자리에서 비켜 준다.
  */
 const LATE_WATCH_MS = 20000;
+
+/**
+ * 판정을 내린 뒤에도 계속 볼 것인가.
+ *
+ * **이것이 원래 결함의 자리다.** 예전에는 마커를 본 순간 인터벌을 껐고, 그래서 뒤늦게
+ * 오퍼월이 떠도 받을 방법이 없어 자체 광고와 겹쳤다. 그 자리의 주석은 「①이 받아 준다」고
+ * 적고 있었지만, 받을 기회 자체가 없었다.
+ *
+ * 순수 함수로 꺼내 두어 검사기가 잰다 — 「판정 뒤에도 보는가」는 문장이 아니라 값이어야 한다.
+ */
+export function shouldKeepWatching(elapsedMs: number): boolean {
+  return elapsedMs < LATE_WATCH_MS;
+}
 
 /** 「화면을 덮는다」로 볼 최소 크기(px). 0×0 요소가 통과하는 것을 막는다. */
 const MIN_COVER_PX = 200;
@@ -167,10 +183,9 @@ export type GateDecision = "yield" | "self" | "wait";
 export function decideSelfGate(probe: GateProbe): GateDecision {
   // ① 실제로 떴다. 이 판정만이 관측이고 나머지는 추정이다 — 언제 나오든 이긴다.
   if (probe.offerwallVisible) return "yield";
-  // ② 마커를 봤다. **끝내지 않고** 유예만큼 더 본다.
-  if (probe.fcInactive && probe.inactiveSeenAtMs !== null) {
-    return probe.elapsedMs - probe.inactiveSeenAtMs >= INACTIVE_GRACE_MS ? "self" : "wait";
-  }
+  // ② 마커를 봤다. 곧바로 우리 관문을 돌린다 — 8초를 다 기다리지 않는 것이 마커의 값이다.
+  //    틀릴 수 있지만 **끝은 아니다**: 뒤늦게 오퍼월이 뜨면 위 ①이 받는다.
+  if (probe.fcInactive) return "self";
   // ③ 상한. 광고차단기·로딩 실패·구글이 늦는 경우 전부 여기로 온다.
   //    광고가 하나도 안 나가는 것보다 우리 관문이 도는 편이 낫다.
   if (probe.elapsedMs >= OFFERWALL_WAIT_MS) return "self";
@@ -222,7 +237,7 @@ export function useSelfGateNeeded(): boolean | null {
       }
 
       // 판정을 내린 뒤에도 상한까지는 계속 본다. 되돌릴 수 있어야 겹치지 않는다.
-      if (elapsedMs >= LATE_WATCH_MS) window.clearInterval(timer);
+      if (!shouldKeepWatching(elapsedMs)) window.clearInterval(timer);
     }, POLL_INTERVAL_MS);
 
     return () => window.clearInterval(timer);

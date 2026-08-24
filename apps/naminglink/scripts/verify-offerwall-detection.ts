@@ -26,7 +26,12 @@
  *   npx tsx scripts/verify-offerwall-detection.ts
  */
 
-import { coversViewport, decideSelfGate, type GateDecision } from "../src/lib/offerwall";
+import {
+  coversViewport,
+  decideSelfGate,
+  shouldKeepWatching,
+  type GateDecision,
+} from "../src/lib/offerwall";
 
 type Case = {
   label: string;
@@ -137,19 +142,13 @@ const GATE_CASES: GateCase[] = [
     expect: "yield",
   },
   {
-    label: "마커를 막 봤다 — 끝내지 않고 더 본다",
+    /**
+     * 마커를 보면 **곧바로** 그린다. 8초를 다 안 기다리는 것이 마커의 값이다.
+     * 2026-08-24 에 여기에 3.5초 유예를 넣었다가 걷었다 — 오퍼월이 안 뜨는 방문
+     * (빈도 제한 탓에 이쪽이 흔하다)마다 빈 화면이 3~5초 보였다.
+     */
+    label: "마커를 봤다 — 곧바로 그린다",
     probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 1000, inactiveSeenAtMs: 1000 },
-    expect: "wait",
-  },
-  {
-    /** 실측 그대로 — 마커 1초, 오퍼월 3~4초. 유예 안이므로 아직 그리지 않는다. */
-    label: "마커 뒤 2.5초 — 아직 그리지 않는다 (실측 재현)",
-    probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 3500, inactiveSeenAtMs: 1000 },
-    expect: "wait",
-  },
-  {
-    label: "마커 뒤 유예를 넘겼다 — 그때 그린다",
-    probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 5000, inactiveSeenAtMs: 1000 },
     expect: "self",
   },
   {
@@ -182,6 +181,24 @@ for (const c of GATE_CASES) {
   console.log("\n  ✓ 대조군: yield · self · wait 세 갈래가 모두 나온다");
 }
 
+/**
+ * **판정 뒤에도 계속 보는가 — 원래 결함의 자리.**
+ *
+ * 예전 코드는 마커를 본 순간 인터벌을 껐다. 그래서 뒤늦게 오퍼월이 떠도 받을 방법이
+ * 없었고, 자체 광고 위로 오퍼월이 얹혀 우리 카운트다운이 그 뒤에 남았다.
+ * 「마커를 보면 즉시 그린다」는 되돌려도 되지만, **이것을 되돌리면 그 결함이 되살아난다.**
+ */
+console.log("\n판정 뒤에도 지켜보는가 — 늦게 뜬 오퍼월을 받을 수 있는가\n");
+for (const c of [
+  { label: "판정 직후에도 계속 본다", elapsedMs: 1100, expect: true },
+  { label: "실측 시점(마커 1초 · 오퍼월 3~4초)에 아직 보고 있다", elapsedMs: 4000, expect: true },
+  { label: "상한을 넘으면 그만 본다", elapsedMs: 20000, expect: false },
+]) {
+  const got = shouldKeepWatching(c.elapsedMs);
+  const ok = got === c.expect;
+  console.log(`  ${ok ? "✓" : "✗"} ${c.label}  → ${got} (기대 ${c.expect})`);
+  if (!ok) failures.push(c.label);
+}
 if (failures.length) {
   console.log(`\n어긋난 자리 ${failures.length}건:`);
   for (const line of failures) console.log(`    ✗ ${line}`);
