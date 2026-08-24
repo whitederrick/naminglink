@@ -252,23 +252,37 @@ locale · scope · 검수일 · 현재 hash · 승인 hash · 재검수 절차
 
 ## 11. 광고 개방 계약
 
+> **2026-08-24에 바뀌었다.** 아래는 `LOCALE_AD_STRATEGY_2026-08-21.md` §3.1 로 교체된 계약이다.
+> 옛 계약(「모든 필수 scope 완료」)은 잎 705개를 사람이 전부 판정하라는 뜻이었고, 같은 문서
+> §2.2 가 **en·ja 외 20개 언어에는 그것이 구조적으로 불가능**하다고 판단했다.
+
 역할:
 
 ```text
-ADSENSE_SUPPORTED_LOCALES  Google 지원 범위
-AD_OPENED_LOCALES          운영자가 실제로 광고를 연 범위
-review manifest            사람 검수 완료의 증거와 개방 상한
+ADSENSE_SUPPORTED_LOCALES        Google 지원 범위
+AD_OPENED_LOCALES                운영자가 실제로 광고를 연 범위
+trade-copy-review.json           거래 문구를 사람이 읽은 증거 (조건 ②·③)
+review manifest                  법률 게시 쪽에서 계속 쓴다 — 광고는 더 이상 안 본다
 ```
 
-불변식:
+불변식 (`scripts/verify-locale-manifest.ts` ④):
 
 ```text
 AD_OPENED_LOCALES - {서비스 defaultLocale}
-⊆ 모든 필수 scope 완료 · deferred=0인 manifest locale
+⊆ docs/locale-review/trade-copy-review.json 에
+     · 66자리 전부 판정  · 판정 수 = 자리 수  · 미해결 중대 결함 0
+     · sourceHash 가 지금 문구와 일치
+  하는 로케일
 ```
 
-- manifest 작성만으로 광고를 자동 개방하지 않는다.
+- **①(전수 자동검증)은 선언으로 받지 않는다.** 이 검사기가 전수 스윕 안에서 돌므로
+  구조로 강제된다. 「자동검증 통과함」이라고 적은 문자열은 증거가 못 된다(CLAUDE.md §13).
+- **`sourceHash` 가 핵심이다.** 읽은 뒤 문구를 고치면 기록이 저절로 낡아 빨간불이 난다 —
+  「한 번 읽었다」가 영원한 통행증이 되지 않는다.
+- 기록 작성만으로 광고를 자동 개방하지 않는다.
 - `en`을 목록에 넣는 작업은 사용자 별도 승인을 요구한다.
+  → **2026-08-24 승인·반영.** 66자리 검수(좋음 13 · 의심 52 · 고쳐야 함 1)와
+  그에서 나온 결함 둘(문구 52자리 · `/[locale]/contact` 배선)을 닫은 뒤 열었다.
 - 현재 `ad_events`는 광고 노출이 아니라 관문 원격측정이다.
 - 개방 후 무효 트래픽은 AdSense 콘솔을 1차 자료로 관측한다.
 - `AdBanner` 계측·`GATE_ENTERED` 분리·실제 provider 기록은 후속 작업이다.

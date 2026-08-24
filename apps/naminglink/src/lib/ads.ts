@@ -99,20 +99,35 @@ const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
  *
  * 그래서 역할을 둘로 갈랐다.
  *
- *     docs/locale-review/manifest.json   사람이 검수를 마친 증거이자 **개방 상한**
- *     AD_OPENED_LOCALES                  운영자가 **실제로 광고를 연** 부분집합
+ *     docs/locale-review/trade-copy-review.json   거래 문구를 사람이 읽은 **증거**
+ *     AD_OPENED_LOCALES                           운영자가 **실제로 광고를 연** 부분집합
  *
- * 불변식은 `scripts/verify-locale-manifest.ts`가 센다.
+ * ## 조건이 바뀌었다 (2026-08-24, `LOCALE_AD_STRATEGY_2026-08-21.md` §3.1)
  *
- *     AD_OPENED_LOCALES − {원문 로케일} ⊆ 모든 필수 scope 완료 · deferred=0 인 manifest 로케일
+ * 옛 조건은 「manifest 의 필수 scope 4개 완료」 — 잎 705개를 사람이 전부 판정하라는 뜻이었다.
+ * 전략 문서 §2.2 가 **en·ja 외 20개 언어는 사람 검수가 구조적으로 불가능**하다고 판단하고
+ * (「셋 다 읽을 사람이 없다」), 조건을 셋으로 바꿨다.
  *
- * **manifest 에 줄을 더하는 것만으로 광고가 켜지지 않는다.** 여는 것은 사람이 이 상수를 고쳐야
+ *     ① 전수 자동검증 + 구조 점검 통과
+ *     ② 핵심 거래·고지 문구 66자리를 사람이 확인 (금액·환불·사업자 정보·결제 고시)
+ *     ③ 확인된 중대 결함이 미해결로 남아 있지 않을 것
+ *
+ * 불변식은 `scripts/verify-locale-manifest.ts` ④가 센다. **①은 선언으로 받지 않는다** —
+ * 그 검사기가 전수 스윕 안에서 돌므로 구조로 강제된다. ②·③은 위 기록 파일이 증거이고,
+ * 그 기록은 **읽은 문구의 해시를 함께 든다** — 문구를 고치면 기록이 저절로 낡아 빨간불이 난다.
+ *
+ * manifest 는 없어지지 않았다. **법률 게시**가 계속 쓴다(§3.2).
+ *
+ * **기록에 줄을 더하는 것만으로 광고가 켜지지 않는다.** 여는 것은 사람이 이 상수를 고쳐야
  * 하고, 그래야 한 커밋에 두 자리가 함께 바뀌어 리뷰에 보인다 — 2026-08-11에 이 값을 지원 19개
  * 전부로 두었다가 **아무도 읽어 보지 않은 열아홉에 광고가 열릴 뻔한** 자리가 정확히 그것이다.
  *
+ * `en` 은 2026-08-24에 열었다 — 66자리를 사람이 전부 읽었고(좋음 13 · 의심 52 · 고쳐야 함 1),
+ * 나온 결함을 문구 52자리와 `/[locale]/contact` 배선 고침으로 닫은 뒤다.
+ *
  * 색인 범위와는 **별개다.** 미검수 로케일의 sitemap·색인은 그대로 두고, 광고만 좁힌다.
  */
-export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
+export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko", "en"]);
 
 /**
  * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —

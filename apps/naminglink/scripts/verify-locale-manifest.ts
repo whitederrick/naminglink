@@ -27,7 +27,9 @@
  *
  * 실행: apps/naminglink 에서 `npx tsx scripts/verify-locale-manifest.ts`
  */
-import { SCOPES, inventoryVersion, scopeInventory } from "./locale-inventory";
+// SCOPES 는 광고 조건에서 빠졌다(2026-08-24, 전략 §3.1). manifest 의 scope 완료 판정은
+// `completedLocales` 안에 남아 있고 **법률 게시가 계속 쓴다** — 여기서 직접 셀 일이 없어졌다.
+import { inventoryVersion, scopeInventory } from "./locale-inventory";
 import {
   MANIFEST_PATH,
   completedLocales,
@@ -38,6 +40,12 @@ import {
   validateManifest,
 } from "./locale-manifest";
 import { AD_OPENED_LOCALES } from "../src/lib/ads";
+import { TRADE_COPY_TOTAL, tradeCopyHash } from "./trade-copy";
+import {
+  loadTradeCopyReview,
+  tradeCopyReviewPath,
+  tradeCopyReviewProblems,
+} from "./trade-copy-review";
 import type { LocaleCode } from "../src/lib/locale-codes";
 
 let failures = 0;
@@ -100,23 +108,55 @@ if (manifest.scopes.length === 0) {
   }
 }
 
-// ── ④ 광고 개방 불변식 ─────────────────────────────────────────────────────
-console.log("\n④ 광고 개방 불변식 — AD_OPENED_LOCALES − {원문} ⊆ 검수 완료");
-if (origins.size === 0) {
-  fail("원문 로케일을 하나도 못 찾았다 — `services.ts`의 defaultLocale 파생이 깨졌다(0건은 통과가 아니다).");
-} else if (openedBeyondOrigin.length === 0) {
-  console.log("  · 비교 0건 — 원문 밖에 열린 로케일이 아직 없다. **통과가 아니라 「열지 않았다」다.**");
-  console.log("    (`en`을 열면 여기서 실제 비교가 시작된다.)");
-} else {
-  const notCompleted = openedBeyondOrigin.filter((locale) => !completed.has(locale));
-  if (notCompleted.length) {
-    for (const locale of notCompleted) {
-      fail(`${locale} 는 광고가 열려 있는데 검수 완료 기록이 없다 — manifest 에 필수 scope ${SCOPES.length}개가 deferred=0 으로 있어야 한다.`);
-    }
+// ── ④ 광고 개방 조건 (LOCALE_AD_STRATEGY_2026-08-21 §3.1) ─────────────────
+//
+// 옛 조건은 「manifest 의 필수 scope 4개 완료」였다. 그것은 잎 705개를 사람이 전부
+// 판정하라는 뜻인데, 전략 문서 §2.2 가 **en·ja 외 20개 언어는 사람 검수가 구조적으로
+// 불가능하다**고 판단하고 조건을 셋으로 바꿨다.
+//
+//   ① 전수 자동검증 + 구조 점검 통과
+//   ② 핵심 거래·고지 문구를 사람이 확인 (금액·환불·사업자 정보·결제 고시 66자리)
+//   ③ 확인된 중대 결함이 미해결로 남아 있지 않을 것
+//
+// **①은 여기서 선언으로 받지 않는다.** 이 검사기 자체가 전수 스윕 안에서 돌고, 스윕이
+// 빨간불이면 배포 관문이 서므로 ①은 구조로 강제된다. 「자동검증 통과함」이라고 적은
+// 문자열을 증거로 삼으면 그 문자열은 감싼 쪽이 통제하는 값이 된다 — 세 판 연속 뚫렸던
+// 「감싸짐」과 같은 병이다(CLAUDE.md §13).
+//
+// ②·③은 기록이 필요하다. `docs/locale-review/trade-copy-review.json` 이 그것이고,
+// **그 기록은 읽은 문구의 해시를 함께 든다** — 문구를 고치면 기록이 저절로 낡아
+// 여기서 빨간불이 난다. 「한 번 읽었다」가 영원한 통행증이 되지 않게 하는 자리다.
+//
+// manifest 는 **법률 게시**가 계속 쓴다(§3.2). 광고만 이 조건을 본다.
+console.log("\n④ 광고 개방 조건 — 거래 문구 검수 기록 (전략 §3.1 ②·③)");
+{
+  const review = loadTradeCopyReview();
+  console.log(`  · 기록 위치 ${tradeCopyReviewPath()} · 검수된 로케일 {${review.map((r) => r.locale).sort().join(", ") || "없음"}}`);
+  if (origins.size === 0) {
+    fail("원문 로케일을 하나도 못 찾았다 — `services.ts`의 defaultLocale 파생이 깨졌다(0건은 통과가 아니다).");
+  } else if (openedBeyondOrigin.length === 0) {
+    console.log("  · 비교 0건 — 원문 밖에 열린 로케일이 아직 없다. **통과가 아니라 「열지 않았다」다.**");
   } else {
-    console.log(`  ✓ 비교 ${openedBeyondOrigin.length}건 모두 완료 기록이 있다: ${openedBeyondOrigin.join(", ")}`);
+    const before = failures;
+    for (const locale of openedBeyondOrigin) {
+      const record = review.find((r) => r.locale === locale);
+      if (!record) {
+        fail(`${locale} 는 광고가 열려 있는데 거래 문구 검수 기록이 없다 — ${tradeCopyReviewPath()} 를 볼 것.`);
+        continue;
+      }
+      const now = tradeCopyHash(locale as Parameters<typeof tradeCopyHash>[0]);
+      for (const problem of tradeCopyReviewProblems(record, TRADE_COPY_TOTAL, now)) {
+        fail(`${locale} — ${problem}`);
+      }
+    }
+    if (failures === before) {
+      console.log(`  ✓ 비교 ${openedBeyondOrigin.length}건 모두 조건 ②·③ 을 채운다: ${openedBeyondOrigin.join(", ")}`);
+    }
   }
 }
+
+// 참고 — manifest 완료 로케일은 **법률 게시**가 쓴다. 광고 조건에서는 뺐다(§3.1).
+console.log(`  · (참고) manifest 필수 scope 완료 로케일: {${[...completed].sort().join(", ") || "없음"}} — 법률 게시가 쓴다`);
 
 // ── ⑤ 보류가 남은 scope ────────────────────────────────────────────────────
 console.log("\n⑤ 보류");
@@ -249,6 +289,56 @@ console.log("\n⑥ 대조군 — 판정기가 살아 있는가");
           },
         ],
       }).has("en"),
+    },
+    {
+      /**
+       * 아래 다섯은 **광고 개방 조건 ②·③의 판정기**를 시험한다. 이 관문은 「사람이 읽었다」는
+       * 기록을 믿는 자리다 — 판정기가 죽어 있으면 기록만 적으면 광고가 열린다.
+       * 「감싸짐」이 세 판 연속 뚫린 자리가 정확히 이런 모양이었다(CLAUDE.md §13).
+       */
+      label: "거래 문구 검수: 자리 수가 모자라면 잡는다",
+      ok:
+        tradeCopyReviewProblems(
+          { locale: "en", reviewedOn: "d", reviewer: "r", record: "x", positions: 10, verdicts: { good: 10, doubt: 0, fix: 0 }, unresolvedCritical: 0, sourceHash: "h" },
+          TRADE_COPY_TOTAL,
+          "h",
+        ).length > 0,
+    },
+    {
+      label: "거래 문구 검수: 판정이 0건이면 잡는다",
+      ok:
+        tradeCopyReviewProblems(
+          { locale: "en", reviewedOn: "d", reviewer: "r", record: "x", positions: 0, verdicts: { good: 0, doubt: 0, fix: 0 }, unresolvedCritical: 0, sourceHash: "h" },
+          0,
+          "h",
+        ).length > 0,
+    },
+    {
+      label: "거래 문구 검수: 미해결 중대 결함이 남으면 잡는다",
+      ok:
+        tradeCopyReviewProblems(
+          { locale: "en", reviewedOn: "d", reviewer: "r", record: "x", positions: 2, verdicts: { good: 2, doubt: 0, fix: 0 }, unresolvedCritical: 1, sourceHash: "h" },
+          2,
+          "h",
+        ).length > 0,
+    },
+    {
+      label: "거래 문구 검수: 읽은 뒤 문구가 바뀌면 잡는다(해시)",
+      ok:
+        tradeCopyReviewProblems(
+          { locale: "en", reviewedOn: "d", reviewer: "r", record: "x", positions: 2, verdicts: { good: 2, doubt: 0, fix: 0 }, unresolvedCritical: 0, sourceHash: "old" },
+          2,
+          "new",
+        ).length > 0,
+    },
+    {
+      label: "거래 문구 검수: 온전한 기록은 통과시킨다(대조군)",
+      ok:
+        tradeCopyReviewProblems(
+          { locale: "en", reviewedOn: "d", reviewer: "r", record: "x", positions: 2, verdicts: { good: 1, doubt: 1, fix: 0 }, unresolvedCritical: 0, sourceHash: "h" },
+          2,
+          "h",
+        ).length === 0,
     },
     {
       /**
