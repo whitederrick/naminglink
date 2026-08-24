@@ -7,6 +7,7 @@
     "./env": "./src/env.ts",
     "./apps": "./src/apps.ts",
     "./company": "./src/company.ts",
+    "./company-display": "./src/company-display.ts",
     "./self-ads": "./src/self-ads.ts",
     "./csp-audit": "./src/csp-audit.ts",
     "./saju": "./src/saju/engine.ts",
