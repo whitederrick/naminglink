@@ -1,10 +1,36 @@
 # 비한국어 광고 개방 — 구조 실측, 방향 전환의 이유, 예상 상황과 대응
 
-> 상태: **제안 — 사용자 결정 대기**
-> 작성: 2026-08-21 · Claude Code
+> 상태: **①~④ 완료 (2026-08-24) · ⑤ 신고 채널 미착수**
+> 작성: 2026-08-21 · Claude Code · 갱신: 2026-08-24
 > 전제가 된 대화: 「비한글 광고를 붙이기 위한 사전 작업이 이 정도로 방대한 것인지 모르겠다」
 > 관련: [`GLOBAL_LOCALE_REVIEW_IMPLEMENTATION_SPEC.md`](./GLOBAL_LOCALE_REVIEW_IMPLEMENTATION_SPEC.md) ·
-> [`LOCALE_REVIEW_LOG.md`](./LOCALE_REVIEW_LOG.md) · PR #2
+> [`LOCALE_REVIEW_LOG.md`](./LOCALE_REVIEW_LOG.md) · PR #2 · PR #7(거래 문구 검수) · PR #8(en 개방)
+>
+> ## 2026-08-24 진행 상황
+>
+> §3.5 실행 순서 ①~④(광고 개방의 임계 경로)가 끝났다.
+>
+> ```
+> ① 구조 실측            완료 (이 문서, 2026-08-21)
+> ② 거래 문구 사람 확인   완료 — 66자리 전부 판정(좋음 13·의심 52·고쳐야 함 1),
+>                        결함 둘을 문구 52자리 + /[locale]/contact 배선으로 닫음
+>                        (docs/TRADE_COPY_REVIEW_EN_RESULT_2026-08-24.md)
+> ③ 광고 조건 변경        완료 — verify-locale-manifest.ts ④를 manifest 필수 scope
+>                        기준에서 trade-copy-review.json 기반 §3.1 세 조건으로 교체(PR #8)
+> ④ en 개방              완료 — AD_OPENED_LOCALES = {ko, en} (PR #8, 2026-08-24)
+> ─── 임계 경로 끝. 나머지 20개 언어는 §2.2 대로 계속 닫혀 있다 ───
+> ⑤ 신고 채널            **미착수.** 세부 설계 문서 없음·착수일 없음. §5가 이미
+>                        「별도 설계 문서에서 사용자가 정한다」고 못 박아 뒀다.
+>                        다음 세션에서 설계 문서 작성부터 시작하기로 함.
+> ⑥ 형제 셋 이식          별도 — 광고 로케일 게이트·슬롯은 이미 배포됨
+>                        (sibling-ad-locale-gate-ported, sibling-ads-result-only-14-slots)
+> ```
+>
+> **en 개방 직후 실사용 중 발견한 결함**(광고 게이트 자체와는 별개, 오퍼월/자체광고 순서
+> 문제): 자체 광고가 뜬 뒤 오퍼월이 겹쳐 뜨는 결함을 두 판(PR #9→#10)에 걸쳐 고쳤다.
+> 1판은 마커 감지 후 3.5초 유예를 넣었으나 오퍼월이 안 뜨는(흔한) 방문마다 빈 화면만
+> 늘려 2판에서 유예를 걷었다. `apps/naminglink/src/lib/offerwall.ts`의
+> `decideSelfGate`/`shouldKeepWatching` 참고.
 
 이 문서는 셋을 담는다 — ① 오늘 잰 구조 실측, ② 왜 「전수 사람 검수」 대신
 「전수 자동검증·구조 점검 + 핵심 거래 문구 확인」을 광고 개방 조건으로 삼고 신고 채널은
