@@ -42,7 +42,13 @@ type Facts = {
   publisherId: string;
   eligible: string[];
   adsAllowedKo: boolean;
-  adsAllowedEn: boolean;
+  /**
+   * **열지 않은 지원 언어** 하나와 그 판정. 어느 언어인지는 목록에서 파생한다 —
+   * 특정 로케일을 박아 두면 그 로케일을 여는 날 검사기가 깨지고, 그때 고치는 손이
+   * 「검사기가 틀렸네」 하고 판정을 지우게 된다.
+   */
+  unopenedLocale: string | null;
+  adsAllowedUnopened: boolean | null;
   adsAllowedKk: boolean;
   lockedCount: number;
   /** 전역 레이아웃이 로더를 싣는가. **실어서는 안 된다**(자동 광고 자리가 생긴다). */
@@ -67,6 +73,13 @@ async function collect(): Promise<Facts> {
     ],
   }) as { candidates: Array<Record<string, unknown>> };
 
+  // 지원하는데 아직 열지 않은 언어. 없으면 null 이고, 그때는 대조군이 없다는 뜻이다.
+  // 특정 로케일을 박지 않는 이유는 위 Facts 주석에 적었다.
+  const unopened =
+    localeCodes.find(
+      (code) => ads.unsupportedAdLocales([code]).length === 0 && !ads.AD_OPENED_LOCALES.has(code),
+    ) ?? null;
+
   return {
     adsLive: ads.adsLive,
     adGatesEnabled: ads.adGatesEnabled,
@@ -76,7 +89,8 @@ async function collect(): Promise<Facts> {
     publisherId: ads.adsensePublisherId,
     eligible: ads.adEligibleLocales(localeCodes),
     adsAllowedKo: ads.adsAllowedForLocale("ko"),
-    adsAllowedEn: ads.adsAllowedForLocale("en"),
+    unopenedLocale: unopened,
+    adsAllowedUnopened: unopened === null ? null : ads.adsAllowedForLocale(unopened),
     adsAllowedKk: ads.adsAllowedForLocale("kk"),
     lockedCount: sealed.candidates.filter(
       (candidate) => (candidate as { __locked?: boolean }).__locked === true,
@@ -189,12 +203,28 @@ async function main() {
 
     console.log("\n== 광고를 실어도 되는 로케일 (지원 ∩ 사람 검수)");
     check("검수한 로케일(ko)에는 허용된다", review.adsAllowedKo === true);
-    check("검수하지 않은 지원 언어(en)에는 허용되지 않는다", review.adsAllowedEn === false);
-    check("미지원 언어(kk)에는 허용되지 않는다", review.adsAllowedKk === false);
     check(
-      "적격 목록이 검수 기록과 같다 (지금은 ko 하나)",
-      review.eligible.join(",") === "ko",
+      review.unopenedLocale
+        ? `열지 않은 지원 언어(${review.unopenedLocale})에는 허용되지 않는다`
+        : "열지 않은 지원 언어가 하나도 없다 — 대조군이 없으므로 통과로 세지 않는다",
+      review.unopenedLocale !== null && review.adsAllowedUnopened === false,
+    );
+    check("미지원 언어(kk)에는 허용되지 않는다", review.adsAllowedKk === false);
+    // 적격 목록은 **열린 것 ∩ 애드센스 지원**이어야 한다. 특정 로케일을 박지 않는다 —
+    // 2026-08-24 에 en 을 열자 「ko 하나」라고 박아 둔 이 줄이 깨졌다.
+    const adsModule = await import("../src/lib/ads");
+    const { localeCodes } = await import("../src/lib/locale-codes");
+    const expectedEligible = localeCodes.filter(
+      (code) => adsModule.unsupportedAdLocales([code]).length === 0 && adsModule.AD_OPENED_LOCALES.has(code),
+    );
+    check(
+      `적격 목록이 열린 로케일과 같다 (${expectedEligible.join(", ") || "없음"})`,
+      review.eligible.join(",") === expectedEligible.join(","),
       review.eligible.join(",") || "(비어 있음)",
+    );
+    check(
+      "적격 목록이 비어 있지 않다 — 0건은 통과가 아니다",
+      expectedEligible.length > 0,
     );
 
     console.log("\n== 운영 모드 (NEXT_PUBLIC_AD_MODE=live) — 되돌아오는가");
@@ -210,7 +240,12 @@ async function main() {
       `${review.eligible.length}개`,
     );
     check("미지원 언어 판정은 모드와 무관하다", live.adsAllowedKk === false);
-    check("미검수 언어 판정도 모드와 무관하다", live.adsAllowedEn === false);
+    check(
+      "열지 않은 언어 판정도 모드와 무관하다",
+      review.unopenedLocale !== null &&
+        live.unopenedLocale === review.unopenedLocale &&
+        live.adsAllowedUnopened === false,
+    );
 
     console.log(`\n${failures === 0 ? "ALL PASS" : `FAIL ${failures}건`}`);
     process.exit(failures === 0 ? 0 : 1);

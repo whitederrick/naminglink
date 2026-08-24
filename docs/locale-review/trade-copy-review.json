@@ -1,0 +1,17 @@
+{
+  "note": "광고 개방 조건 ②·③의 증거. LOCALE_AD_STRATEGY_2026-08-21.md §3.1 이 정한 계약이다. 이 파일에 줄을 더하는 것만으로 광고가 켜지지 않는다 — 여는 것은 apps/naminglink/src/lib/ads.ts 의 AD_OPENED_LOCALES 를 사람이 고쳐야 하고, 그래야 한 커밋에 두 자리가 함께 바뀌어 리뷰에 보인다.",
+  "version": 1,
+  "reviews": [
+    {
+      "locale": "en",
+      "reviewedOn": "2026-08-24",
+      "reviewer": "사용자",
+      "record": "docs/TRADE_COPY_REVIEW_EN_RESULT_2026-08-24.md",
+      "positions": 66,
+      "verdicts": { "good": 13, "doubt": 52, "fix": 1 },
+      "unresolvedCritical": 0,
+      "unresolvedNote": "의심 52건은 전부 문구를 고쳐 반영했다(채택 30 · 수정 채택 22). 「고쳐야 함」 1건(D-mailOrderNumber)은 문구가 아니라 배선 결함이었고, /[locale]/contact 가 사업자 값을 변환 없이 그리던 것을 네 앱 모두 고쳐 배포했다(커밋 45becc9).",
+      "sourceHash": "6eecdc02355b888c2c3137af67d5f822e2aeac85d62610fe8447fb3c34f4d78f"
+    }
+  ]
+}
