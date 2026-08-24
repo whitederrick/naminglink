@@ -26,7 +26,7 @@
  *   npx tsx scripts/verify-offerwall-detection.ts
  */
 
-import { coversViewport } from "../src/lib/offerwall";
+import { coversViewport, decideSelfGate, type GateDecision } from "../src/lib/offerwall";
 
 type Case = {
   label: string;
@@ -109,6 +109,78 @@ if (!anyTrue || !anyFalse) {
   process.exit(1);
 }
 console.log("\n  ✓ 대조군: 참과 거짓이 모두 나온다");
+
+/**
+ * **관문 판정 — 우리 카드와 오퍼월이 겹치지 않는가.**
+ *
+ * 2026-08-24 운영 관측이 이 표의 출처다. `googlefcInactive` 마커를 보고 우리 카드를
+ * 그린 **2~3초 뒤에 오퍼월이 떴다.** 예전 판정은 마커를 보는 순간 끝내 버려서
+ * (인터벌을 껐다) 그 뒤에 뜬 오퍼월을 받을 방법이 없었다.
+ *
+ * 그래서 여기서 재는 것은 「덮는가」가 아니라 **「언제 무엇을 하기로 하는가」**다.
+ */
+type GateCase = {
+  label: string;
+  probe: Parameters<typeof decideSelfGate>[0];
+  expect: GateDecision;
+};
+
+const GATE_CASES: GateCase[] = [
+  {
+    label: "오퍼월이 떴다 — 언제든 비켜 준다",
+    probe: { offerwallVisible: true, fcInactive: false, elapsedMs: 300, inactiveSeenAtMs: null },
+    expect: "yield",
+  },
+  {
+    label: "오퍼월이 늦게 떴다(자체 관문이 이미 돌던 시각) — 그래도 비켜 준다",
+    probe: { offerwallVisible: true, fcInactive: true, elapsedMs: 6000, inactiveSeenAtMs: 1000 },
+    expect: "yield",
+  },
+  {
+    label: "마커를 막 봤다 — 끝내지 않고 더 본다",
+    probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 1000, inactiveSeenAtMs: 1000 },
+    expect: "wait",
+  },
+  {
+    /** 실측 그대로 — 마커 1초, 오퍼월 3~4초. 유예 안이므로 아직 그리지 않는다. */
+    label: "마커 뒤 2.5초 — 아직 그리지 않는다 (실측 재현)",
+    probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 3500, inactiveSeenAtMs: 1000 },
+    expect: "wait",
+  },
+  {
+    label: "마커 뒤 유예를 넘겼다 — 그때 그린다",
+    probe: { offerwallVisible: false, fcInactive: true, elapsedMs: 5000, inactiveSeenAtMs: 1000 },
+    expect: "self",
+  },
+  {
+    label: "아무 신호도 없다 — 상한 전에는 기다린다",
+    probe: { offerwallVisible: false, fcInactive: false, elapsedMs: 5000, inactiveSeenAtMs: null },
+    expect: "wait",
+  },
+  {
+    label: "아무 신호도 없이 상한을 넘겼다 — 우리 관문이 돈다",
+    probe: { offerwallVisible: false, fcInactive: false, elapsedMs: 8000, inactiveSeenAtMs: null },
+    expect: "self",
+  },
+];
+
+console.log("\n관문 판정 — 우리 카드와 오퍼월이 겹치지 않는가\n");
+for (const c of GATE_CASES) {
+  const got = decideSelfGate(c.probe);
+  const ok = got === c.expect;
+  console.log(`  ${ok ? "✓" : "✗"} ${c.label}  → ${got} (기대 ${c.expect})`);
+  if (!ok) failures.push(c.label);
+}
+
+// 대조군 — 세 갈래가 전부 나오는가. 하나로 굳으면 위 표가 통째로 무의미하다.
+{
+  const seen = new Set(GATE_CASES.map((c) => decideSelfGate(c.probe)));
+  if (seen.size < 3) {
+    console.error(`\n✗ 대조군 실패 — 갈래가 ${seen.size}종뿐이다(${[...seen].join(", ")}). 판정이 굳었다.`);
+    process.exit(1);
+  }
+  console.log("\n  ✓ 대조군: yield · self · wait 세 갈래가 모두 나온다");
+}
 
 if (failures.length) {
   console.log(`\n어긋난 자리 ${failures.length}건:`);
