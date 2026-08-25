@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Globe2, HeartHandshake, Languages, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
+import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Flag, Globe2, HeartHandshake, Languages, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
 import { APP_KEYS, appLabel, type AppKey } from "@naminglink/core/apps";
 import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
@@ -53,6 +53,7 @@ const navGroups = [
     items: [
       ["회원 관리", `${basePath}/users`, Users],
       ["굿즈 주문", `${basePath}/orders`, Package],
+      ["신고 내역", `${basePath}/reports`, Flag],
     ],
   },
   {
@@ -103,6 +104,7 @@ type View =
   | "admins"
   | "orders"
   | "ai"
+  | "reports"
   | "analytics"
   | "usage"
   /** 형제 서비스 현황·주문. **어느 서비스인지는 `app` prop이 정한다.** */
@@ -215,6 +217,11 @@ const viewCopy: Record<View, { title: string; description: string }> = {
     title: "AI 사용량",
     description:
       "OpenAI 호출량·토큰·응답 시간·오류를 모니터링합니다. 상태 필터로 오류 호출을 점검하고, 특정 서비스의 토큰이 급증하면 남용 여부를 의심하세요. AI 토큰은 곧 비용이므로 기간을 바꿔 추세를 함께 확인하는 것을 권장합니다.",
+  },
+  reports: {
+    title: "신고 내역",
+    description:
+      "이용자가 광고 개방 화면에서 제출한 URL·문제 서술입니다(광고 개방 조건의 관측망 — 사람이 하는 거래 문구 확인이 검토의 실체이고, 이 채널은 추가로 접수하는 창구입니다).\n신고 0건은 검토가 끝났다는 뜻이 아니라 접수가 없었다는 뜻입니다. 처리 상태는 여기서 바꾸되, 미처리 건수만으로 광고를 자동으로 끄지 않습니다 — 중대 결함 여부 판정은 사람의 일입니다.",
   },
   analytics: {
     title: "글로벌 접속 통계",
@@ -345,6 +352,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
 
 type UserRow = Record<string, string | boolean | null>;
 type OrderRow = Record<string, string | number | boolean | null>;
+type ReportRow = Record<string, string | number | boolean | null>;
 type UsageRow = Record<string, string | number>;
 type CostRow = AiUsageSummaryRow;
 
@@ -684,6 +692,91 @@ function OrdersView({
         ])}
       />
       <Pagination page={paged.page} totalPages={paged.totalPages} total={paged.total} onChange={paged.setPage} />
+    </>
+  );
+}
+
+const reportStatusLabels: Record<string, string> = {
+  open: "미처리",
+  rejected: "기각",
+  duplicate: "중복",
+  resolved: "처리 완료",
+};
+
+// docs/LOCALE_AD_STRATEGY_2026-08-21.md §4.5 — 미처리 건수만으로 광고를 자동으로 끄지 않는다.
+// 여기서는 표시만 하고, 판정(중대 결함 여부)은 사람이 상태를 바꾸는 것으로 남긴다.
+function ReportsView({
+  reports,
+  pendingCount,
+  oldestPendingDays,
+  onAction,
+}: {
+  reports: ReportRow[];
+  pendingCount: number;
+  oldestPendingDays: number;
+  onAction: (body: Record<string, string>) => void;
+}) {
+  const [status, setStatus] = useState("all");
+  const filtered = useMemo(
+    () => reports.filter((report) => status === "all" || report.status === status),
+    [reports, status],
+  );
+  const paged = usePagedList(filtered, status);
+  return (
+    <>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Metric label="미처리 신고" value={number.format(pendingCount)} />
+        <Metric label="최장 미처리 일수" value={pendingCount ? `${number.format(oldestPendingDays)}일` : "-"} />
+      </div>
+      <FilterBar>
+        <FilterSelect
+          label="상태"
+          value={status}
+          onChange={setStatus}
+          options={[
+            { value: "all", label: "전체" },
+            ...Object.entries(reportStatusLabels).map(([value, label]) => ({ value, label })),
+          ]}
+        />
+      </FilterBar>
+      {reports.length === 0 ? (
+        <Empty>접수된 신고가 없습니다. 신고 0건은 검토가 끝났다는 뜻이 아니라 접수가 없었다는 뜻입니다.</Empty>
+      ) : (
+        <>
+          <Table
+            headers={["접수일", "로케일", "URL", "내용", "상태"]}
+            rows={paged.pageItems.map((report) => [
+              date.format(new Date(String(report.created_at))),
+              report.locale ?? "-",
+              <a
+                key="url"
+                href={String(report.url)}
+                target="_blank"
+                rel="noreferrer"
+                className="break-all text-brand-teal underline"
+              >
+                {String(report.url)}
+              </a>,
+              <span key="message" className="block max-w-md whitespace-pre-wrap break-words">
+                {String(report.message)}
+              </span>,
+              <select
+                key="status"
+                value={String(report.status)}
+                onChange={(event) =>
+                  onAction({ action: "UPDATE_REPORT_STATUS", reportId: String(report.id), status: event.target.value })
+                }
+                className="rounded border border-line bg-background px-2 py-1"
+              >
+                {Object.entries(reportStatusLabels).map(([value, label]) => (
+                  <option key={value} value={value}>{label}</option>
+                ))}
+              </select>,
+            ])}
+          />
+          <Pagination page={paged.page} totalPages={paged.totalPages} total={paged.total} onChange={paged.setPage} />
+        </>
+      )}
     </>
   );
 }
@@ -1202,7 +1295,7 @@ export function AdminOperationsConsole({
       // 형제 서비스 화면은 같은 API를 `app`만 바꿔 부른다 — 주문 목록과 집계 로직이
       // 하나뿐이라야 한쪽만 고쳐지는 일이 없다.
       const apiView =
-        view === "ai" || view === "users" || view === "admins" || view === "orders"
+        view === "ai" || view === "users" || view === "admins" || view === "orders" || view === "reports"
           ? view
           : view === "service-orders"
             ? "orders"
@@ -1248,9 +1341,9 @@ export function AdminOperationsConsole({
     : viewCopy[view];
   const snapshot = payload?.snapshot as Snapshot | undefined;
   const summary = useMemo(() => snapshot?.summary ?? {}, [snapshot]);
-  const showRange = !["users", "admins", "orders", "service-orders"].includes(view);
+  const showRange = !["users", "admins", "orders", "service-orders", "reports"].includes(view);
   // 주문 수치가 들어가는 화면에서만 의미가 있다(회원·운영자·AI 사용량은 주문과 무관).
-  const showTestToggle = !["users", "admins", "ai"].includes(view);
+  const showTestToggle = !["users", "admins", "ai", "reports"].includes(view);
 
   // **훅을 전부 부른 뒤에 나간다.** 위 `useState`·`useEffect`·`useMemo`보다 앞에서 반환하면
   // 확인이 끝나 화면이 바뀔 때 훅의 개수가 달라져 React가 터진다.
@@ -1338,6 +1431,15 @@ export function AdminOperationsConsole({
           usage={(payload?.usage ?? []) as UsageRow[]}
           summary={(payload?.usageSummary ?? []) as CostRow[]}
           krwPerUsd={Number(payload?.krwPerUsd ?? 1400)}
+        />
+      );
+    if (view === "reports")
+      return (
+        <ReportsView
+          reports={(payload?.reports ?? []) as ReportRow[]}
+          pendingCount={Number(payload?.pendingCount ?? 0)}
+          oldestPendingDays={Number(payload?.oldestPendingDays ?? 0)}
+          onAction={(body) => void runAction(body)}
         />
       );
     if (!snapshot) return null;

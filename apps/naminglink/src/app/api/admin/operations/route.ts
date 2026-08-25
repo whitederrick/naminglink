@@ -114,6 +114,29 @@ export async function GET(request: NextRequest) {
     })) });
   }
 
+  // 신고 채널(관측망). docs/LOCALE_AD_STRATEGY_2026-08-21.md §3.5 ⑤·§4.5 — 미처리 건수·
+  // 최장 미처리 일수는 화면에서 이 목록으로부터 계산한다(주문 화면이 orders로 그러듯).
+  // **이 건수로 광고를 자동 차단하지 않는다** — 판정은 사람의 일로 남는다.
+  if (view === "reports") {
+    const { data, error } = await supabase.from("locale_reports")
+      .select("id,url,message,locale,status,created_at,updated_at")
+      .order("created_at", { ascending: false }).limit(500);
+    if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+    const reports = data ?? [];
+    // 여기서 계산해 내려준다 — 화면(React 컴포넌트)에서 Date.now()를 직접 부르면 렌더 순수성
+    // 규칙에 걸린다. 서버 라우트 핸들러는 렌더가 아니라 문제 없다.
+    const openReports = reports.filter((report) => report.status === "open");
+    const oldestOpenMs = openReports.length
+      ? Math.min(...openReports.map((report) => new Date(report.created_at).getTime()))
+      : null;
+    return NextResponse.json({
+      ok: true,
+      reports,
+      pendingCount: openReports.length,
+      oldestPendingDays: oldestOpenMs ? Math.floor((Date.now() - oldestOpenMs) / 86400000) : 0,
+    });
+  }
+
   if (view === "ai") {
     const since = new Date(Date.now() - days * 86400000).toISOString();
     // **서비스로 거른다.** 예전에는 거르지 않아 이 화면이 모든 서비스의 AI 원가를 합쳐
@@ -194,6 +217,7 @@ const actionSchema = z.discriminatedUnion("action", [
   z.object({ action: z.enum(["DISABLE_USER", "ENABLE_USER"]), userId: z.string().uuid() }),
   z.object({ action: z.literal("DELETE_USER"), userId: z.string().uuid() }),
   z.object({ action: z.literal("UPDATE_ORDER"), orderId: z.string().uuid(), fulfillmentStatus: z.enum(["PENDING", "PROCESSING", "SHIPPED", "COMPLETED", "CANCELLED"]) }),
+  z.object({ action: z.literal("UPDATE_REPORT_STATUS"), reportId: z.string().uuid(), status: z.enum(["open", "rejected", "duplicate", "resolved"]) }),
 ]);
 
 export async function PATCH(request: NextRequest) {
@@ -235,6 +259,14 @@ export async function PATCH(request: NextRequest) {
       by: auth.admin.id,
       at: new Date().toISOString(),
     });
+    return NextResponse.json({ ok: true });
+  }
+
+  if (parsed.data.action === "UPDATE_REPORT_STATUS") {
+    const { error } = await supabase.from("locale_reports")
+      .update({ status: parsed.data.status, updated_at: new Date().toISOString() })
+      .eq("id", parsed.data.reportId);
+    if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
     return NextResponse.json({ ok: true });
   }
 

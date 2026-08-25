@@ -16,6 +16,9 @@ import { guideHubHref } from "@/lib/guide-back";
 import { getAuthCopy } from "@/lib/i18n-auth";
 import { localePath } from "@/lib/locale-path";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { AD_OPENED_LOCALES } from "@/lib/ads";
+import { getReportCopy } from "@/lib/report-copy";
+import { ReportModal } from "@/components/ReportModal";
 
 type SiteFooterProps = {
   tone?: "light" | "dark";
@@ -617,6 +620,11 @@ export function SiteFooter({
   // 서버 렌더에서는 로그인 여부를 알 수 없으므로 "로그인"으로 시작하고, 세션을 확인한 뒤
   // 필요하면 계정으로 바꾼다. 반대로 두면 로그아웃 상태에서 "계정"이 잠깐 보인다.
   const [signedIn, setSignedIn] = useState(false);
+  // 신고 채널(§3.5 ⑤). 광고 개방 로케일에서만 연다 — AD_OPENED_LOCALES를 사람이 고칠 때
+  // 이 버튼도 같은 커밋에서 함께 열리게 하려는 것이다(그 상수를 새로 볼 이유가 없게).
+  const [reportOpen, setReportOpen] = useState(false);
+  const reportCopy = getReportCopy(locale);
+  const showReportTrigger = AD_OPENED_LOCALES.has(locale);
   const isLight = tone === "light";
   const wrapperClass = isLight
     ? "border-white/15 text-white/72"
@@ -810,7 +818,24 @@ export function SiteFooter({
               ),
             )
           )}
+          {/* 신고 채널 트리거. 두 푸터 모드(modal·link) 공통이라 삼항연산자 바깥에 형제로
+              둔다 — FooterPolicyLinks의 prop 표면을 넓히지 않는다. 페이지 이동이 아니라
+              모달을 여는 버튼이라 링크가 아니다(약관과 달리 크롤러가 따라갈 콘텐츠가 아님). */}
+          {showReportTrigger ? (
+            <button
+              type="button"
+              onClick={() => setReportOpen(true)}
+              className={linkClass}
+              dir={textDirection}
+            >
+              {reportCopy.triggerLabel}
+            </button>
+          ) : null}
         </nav>
+
+        {reportOpen ? (
+          <ReportModal locale={locale} onClose={() => setReportOpen(false)} />
+        ) : null}
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">
           {mobileRows.map((row, rowIndex) => (

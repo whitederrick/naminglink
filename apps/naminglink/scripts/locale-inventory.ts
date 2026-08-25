@@ -34,6 +34,7 @@ import { notFoundCopies } from "../src/lib/not-found-copy";
 import { localeLabels } from "../src/lib/services";
 import { stampPausedNotice } from "../src/lib/stamp-order-copy";
 import { uiLabels } from "../src/lib/ui-labels";
+import { reportCopies } from "../src/lib/report-copy";
 
 import { footerCopies } from "../src/components/SiteFooter";
 import { homeLabels, globalNavigationLabels, shellCopies } from "../src/components/ServiceShell";
@@ -113,6 +114,7 @@ export const SCREEN_SOURCES: readonly ScreenSource[] = [
   { id: "stampPaused", decl: "src/lib/stamp-order-copy.ts:stampPausedNotice", load: (l) => stampPausedNotice[l] },
   // 컴포넌트에 두 갈래로 박혀 있던 문구를 옮겨 온 표(구현 명세 §9). 옮긴 순간부터 검수 대상이다.
   { id: "uiLabels", decl: "src/lib/ui-labels.ts:uiLabels", load: (l) => uiLabels[l] },
+  { id: "reportCopy", decl: "src/lib/report-copy/index.ts:reportCopies", load: (l) => reportCopies[l as Locale] },
   /**
    * 아래 둘은 **자료형 표기가 없어** 처음 훑기에서 통째로 빠졌다(2026-08-20). `shellCopies` 는
    * `Record<string, …>`이라 로케일이 빠져도 tsc 가 조용하다 → `locale-maps-must-be-record-localecode`.
