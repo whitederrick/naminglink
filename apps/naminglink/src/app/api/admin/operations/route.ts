@@ -117,9 +117,12 @@ export async function GET(request: NextRequest) {
   // 신고 채널(관측망). docs/LOCALE_AD_STRATEGY_2026-08-21.md §3.5 ⑤·§4.5 — 미처리 건수·
   // 최장 미처리 일수는 화면에서 이 목록으로부터 계산한다(주문 화면이 orders로 그러듯).
   // **이 건수로 광고를 자동 차단하지 않는다** — 판정은 사람의 일로 남는다.
+  // 네 앱이 이 표를 공유한다(2026-08-25 형제 셋 이식) — service 로 어느 앱의 신고인지 가른다.
+  // app 파라미터로 거르지 않는다: 신고는 주문처럼 서비스별로 격리해야 할 매출 데이터가
+  // 아니라 관측망이라, 한 화면에서 전부 보고 서비스 칸으로 걸러 보는 쪽이 운영에 더 맞다.
   if (view === "reports") {
     const { data, error } = await supabase.from("locale_reports")
-      .select("id,url,message,locale,status,created_at,updated_at")
+      .select("id,service,url,message,locale,status,created_at,updated_at")
       .order("created_at", { ascending: false }).limit(500);
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
     const reports = data ?? [];

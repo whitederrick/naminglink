@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { BarChart3, BookOpenCheck, Bot, Boxes, FilePenLine, FileText, Flag, Globe2, HeartHandshake, Languages, LayoutDashboard, LogOut, Package, ShieldCheck, SlidersHorizontal, Users } from "lucide-react";
-import { APP_KEYS, appLabel, type AppKey } from "@naminglink/core/apps";
+import { APP_KEYS, appLabel, isAppKey, type AppKey } from "@naminglink/core/apps";
 import { BrandMark } from "@/components/BrandMark";
 import type { AiUsageSummaryRow } from "@/lib/ai-pricing";
 import { getSupabaseBrowserClient } from "@/lib/supabase-browser";
@@ -717,11 +717,17 @@ function ReportsView({
   onAction: (body: Record<string, string>) => void;
 }) {
   const [status, setStatus] = useState("all");
+  const [service, setService] = useState("all");
   const filtered = useMemo(
-    () => reports.filter((report) => status === "all" || report.status === status),
-    [reports, status],
+    () =>
+      reports.filter(
+        (report) =>
+          (status === "all" || report.status === status) &&
+          (service === "all" || report.service === service),
+      ),
+    [reports, status, service],
   );
-  const paged = usePagedList(filtered, status);
+  const paged = usePagedList(filtered, `${status}|${service}`);
   return (
     <>
       <div className="grid gap-4 sm:grid-cols-2">
@@ -729,6 +735,15 @@ function ReportsView({
         <Metric label="최장 미처리 일수" value={pendingCount ? `${number.format(oldestPendingDays)}일` : "-"} />
       </div>
       <FilterBar>
+        <FilterSelect
+          label="서비스"
+          value={service}
+          onChange={setService}
+          options={[
+            { value: "all", label: "전체" },
+            ...APP_KEYS.map((key) => ({ value: key, label: appLabel(key) })),
+          ]}
+        />
         <FilterSelect
           label="상태"
           value={status}
@@ -744,9 +759,10 @@ function ReportsView({
       ) : (
         <>
           <Table
-            headers={["접수일", "로케일", "URL", "내용", "상태"]}
+            headers={["접수일", "서비스", "로케일", "URL", "내용", "상태"]}
             rows={paged.pageItems.map((report) => [
               date.format(new Date(String(report.created_at))),
+              isAppKey(report.service) ? appLabel(report.service) : String(report.service ?? "-"),
               report.locale ?? "-",
               <a
                 key="url"

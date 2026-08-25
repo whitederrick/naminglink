@@ -19,12 +19,15 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: "잘못된 신고입니다." }, { status: 400 });
   }
   // 시간당 5건 — 정상 이용자가 같은 시간에 여러 화면을 신고하는 경우는 드물다.
-  if (!(await checkRateLimit(request, "locale-report", { windowSeconds: 3600, limit: 5 }))) {
+  // 스코프에 서비스 접두사(naming_)를 붙인다 — 네 앱이 rate_limit_counters 표를 공유해서
+  // 접두사가 없으면 한 서비스의 트래픽이 다른 서비스의 한도를 깎는다(형제 앱 컨벤션과 통일).
+  if (!(await checkRateLimit(request, "naming_locale_report", { windowSeconds: 3600, limit: 5 }))) {
     return NextResponse.json({ ok: false, error: "요청이 너무 잦습니다." }, { status: 429 });
   }
   const supabase = getSupabaseAdminClient();
   if (!supabase) return NextResponse.json({ ok: false }, { status: 503 });
   const { error } = await supabase.from("locale_reports").insert({
+    service: "naminglink",
     url: parsed.data.url,
     message: parsed.data.message,
     locale: parsed.data.locale ?? null,

@@ -1,9 +1,11 @@
 import { guideLinkLabel } from "@/components/GuideLink";
 import { LegalLinks } from "@/components/LegalLinks";
+import { ReportFooterButton } from "@/components/ReportFooterButton";
 import { guideHubHref } from "@/lib/guide-back";
 import { getCompanyInfo } from "@/lib/company-server";
 import { localizeCompanyValue } from "@naminglink/core/company-display";
 import { getDictionary, isRtlLocale, type Locale } from "@/lib/i18n";
+import { HUMAN_REVIEWED_LOCALES } from "@/lib/ads";
 import { localePath } from "@/lib/locale-path";
 
 // naminglink의 SiteFooter와 **같은 구조**다. 가운데 정렬 · 정책 링크 한 줄 · 사업자 정보
@@ -146,6 +148,13 @@ export async function SiteFooter({
           <a href={localePath("/notice", linkLocale)} className={linkClass} dir={textDirection}>
             {locale === "ko" ? "공지사항" : "Notices"}
           </a>
+          {/* 신고 채널. 광고 검수가 열린 로케일에만 노출한다(naminglink와 같은 설계) —
+              HUMAN_REVIEWED_LOCALES가 늘어날 때 같은 커밋에서 버튼도 함께 열리게 하려는 것.
+              페이지 이동이 아니라 모달을 여는 버튼이라 LegalLinks 밖에, 안내 문서들과
+              같은 자리에 둔다. */}
+          {HUMAN_REVIEWED_LOCALES.has(locale) ? (
+            <ReportFooterButton locale={locale} linkClass={linkClass} textDirection={textDirection} />
+          ) : null}
         </nav>
 
         <div className="mt-1 grid gap-0.5 text-[11px] leading-5 sm:hidden">
