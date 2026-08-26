@@ -22,22 +22,22 @@ export const dynamic = "force-dynamic";
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 /**
- * 주문 종류별 결과 화면.
+ * 주문 종류별 결과 화면. 꿈 카드·태몽 리포트 둘 다 `/dream/result`로 돌아간다(이 앱은
+ * 결과 화면이 하나뿐이다) — `report/pdf/route.ts:90`과 같은 갈래로 `kind`를 읽는다.
  *
- * 리포트가 둘이 되면서 돌아갈 자리도 둘이 됐다. **주문에 적힌 종류를 우선 믿는다** — 쿼리의
- * `kind`는 결제창을 거치며 이용자가 손댈 수 있는 값이라, 주문을 찾은 뒤에는 그쪽을 쓴다.
- * 주문을 못 찾은 오류 경로에서만 쿼리 값으로 자리를 정한다(어느 화면에 오류를 띄울지의 문제라
- * 틀려도 결제에 영향이 없다).
+ * **주문에 적힌 종류를 우선 믿는다** — 쿼리의 `kind`는 결제창을 거치며 이용자가 손댈 수
+ * 있는 값이라, 주문을 찾은 뒤에는 그쪽을 쓴다. 주문을 못 찾은 오류 경로에서만 쿼리 값으로
+ * 자리를 정한다(어느 화면에 오류를 띄울지의 문제라 틀려도 결제에 영향이 없다).
  */
 const RESULT_PATH = {
-  GUNGHAP_PDF: "/compatibility/result",
-  AFFINITY_PDF: "/affinity/result",
+  DREAM_CARD: "/dream/result",
+  DREAM_CONCEPTION_PDF: "/dream/result",
 } as const;
 
 type ReportOrderType = keyof typeof RESULT_PATH;
 
 function orderTypeFromQuery(kind: string | null): ReportOrderType {
-  return kind === "affinity" ? "AFFINITY_PDF" : "GUNGHAP_PDF";
+  return kind === "conception" ? "DREAM_CONCEPTION_PDF" : "DREAM_CARD";
 }
 
 /** 결과 화면으로 되돌린다. 화면이 이 값으로 다음 동작을 정한다. */

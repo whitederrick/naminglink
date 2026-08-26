@@ -45,13 +45,46 @@ async function resolveEntitlement(
 ): Promise<Entitlement> {
   if (input.premium) {
     try {
-      const { session } = await getAuthorizedPremiumSession(
+      const { supabase, session } = await getAuthorizedPremiumSession(
         input.premium.sessionId,
         input.premium.accessToken,
       );
       if (String(session.status) !== "PAID" && String(session.status) !== "READY") {
         return { error: "결제가 확인되지 않았습니다.", status: 402 };
       }
+
+      /**
+       * **세션 하나는 결과 한 벌만 연다.** `order` 분기와 같은 이유·같은 구조다(주석은 위쪽
+       * 참고) — sessionId/accessToken은 결제 후에도 브라우저(localStorage)에 남아 있어, 묶어
+       * 두지 않으면 같은 프리미엄 결제로 다른 무료 결과의 후보를 얼마든지 열 수 있다.
+       */
+      const boundSid = typeof session.unseal_sid === "string" ? session.unseal_sid : null;
+      if (boundSid && boundSid !== sid) {
+        return { error: "이 결제로는 다른 결과를 열 수 없습니다.", status: 403 };
+      }
+      if (!boundSid && sid) {
+        const { data: bound, error: bindError } = await supabase
+          .from("premium_analysis_sessions")
+          .update({ unseal_sid: sid, updated_at: new Date().toISOString() })
+          .eq("id", session.id)
+          .is("unseal_sid", null)
+          .select("id");
+        if (bindError) {
+          console.error("Failed to bind unseal sid to premium session", bindError);
+          return { error: "결제 정보를 확인하지 못했습니다.", status: 503 };
+        }
+        if (!bound?.length) {
+          const { data: fresh } = await supabase
+            .from("premium_analysis_sessions")
+            .select("unseal_sid")
+            .eq("id", session.id)
+            .maybeSingle();
+          if (fresh?.unseal_sid !== sid) {
+            return { error: "이 결제로는 다른 결과를 열 수 없습니다.", status: 403 };
+          }
+        }
+      }
+
       const product = getHanjaProduct(String(session.product_code) as HanjaProductCode);
       return { limit: product.candidateLimit };
     } catch {

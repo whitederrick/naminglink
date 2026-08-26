@@ -90,8 +90,13 @@ export async function purgeGoodsOrderPii(supabase: SupabaseClient, now: string) 
       // 배송 완료 시각을 따로 저장하지 않지만 updated_at은 완료 시각 이후에만 움직이므로
       // updated_at 기준은 항상 보수적이다(일찍 지우는 일은 없고, 늦게 지울 수는 있다).
       // 환불·취소(CANCELLED)된 유료 주문도 배송지가 남으므로 같은 기간을 적용한다.
+      //
+      // **PAID뿐 아니라 REFUNDED도 건다.** 웹훅(payments/portone/webhook/route.ts)의
+      // Transaction.Cancelled는 payment_status를 PAID가 아니라 REFUNDED로 바꾼다 — PAID만
+      // 보면 환불된 주문은 이 쿼리에도 위 이탈 쿼리(UNPAID만 봄)에도 걸리지 않아 개인정보가
+      // 영구히 남았다(2026-08-26 코드 리뷰에서 발견).
       selectPending()
-        .eq("payment_status", "PAID")
+        .in("payment_status", ["PAID", "REFUNDED"])
         .in("fulfillment_status", ["COMPLETED", "CANCELLED"])
         .lte("updated_at", settledCutoff),
     ]);

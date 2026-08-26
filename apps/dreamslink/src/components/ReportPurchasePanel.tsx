@@ -191,9 +191,8 @@ export function ReportPurchasePanel({
           window.location.origin,
         );
         returnTo.searchParams.set("lang", locale);
-        // 승인 라우트가 어느 결과 화면으로 되돌릴지 정하는 데 쓴다. 실패 자리도 상품마다
-        // 다르므로 현재 경로를 그대로 쓴다 — 경로를 박아 두면 인연의 결에서 결제에 실패한
-        // 사람이 궁합 화면으로 떨어진다.
+        // 승인 라우트가 어느 결과 화면으로 되돌릴지 정하는 데 쓴다(꿈 카드·태몽 리포트 둘 다
+        // /dream/result). 실패 자리는 현재 경로를 그대로 쓴다.
         returnTo.searchParams.set("kind", kind);
         const failTo = new URL(window.location.pathname, window.location.origin);
         failTo.searchParams.set("lang", locale);

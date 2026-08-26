@@ -59,6 +59,9 @@ export async function GET(request: NextRequest) {
   }
 
   try {
+    // **KRW 주문만 승인한다.** 국내(토스)·해외(페이팔)가 같은 order_type을 쓰므로
+    // (report-product.ts) 통화까지 걸지 않으면 해외 USD 주문을 소액 KRW 토스 결제로
+    // 승인시킬 수 있다 — 금액은 숫자로만 비교되고 통화는 보지 않기 때문이다.
     const { data: order } = await supabase
       .from("orders")
       .select(
@@ -67,6 +70,7 @@ export async function GET(request: NextRequest) {
       .eq("id", orderId)
       .eq("order_type", ORDER_TYPE)
       .eq("service", "sajulink")
+      .eq("payment_currency", "KRW")
       .maybeSingle();
 
     if (!order) {

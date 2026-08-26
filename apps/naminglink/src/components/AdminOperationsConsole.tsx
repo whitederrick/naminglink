@@ -703,6 +703,17 @@ const reportStatusLabels: Record<string, string> = {
   resolved: "처리 완료",
 };
 
+/** 신고 URL을 링크로 그려도 되는가. API가 저장 전에 이미 http(s)만 받지만, 이 화면은
+ * 관리자 권한 세션에서 그려지므로 저장된 값도 한 번 더 본다(2026-08-26, XSS 리뷰 지적). */
+function isHttpUrl(value: string) {
+  try {
+    const protocol = new URL(value).protocol;
+    return protocol === "http:" || protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
 // docs/LOCALE_AD_STRATEGY_2026-08-21.md §4.5 — 미처리 건수만으로 광고를 자동으로 끄지 않는다.
 // 여기서는 표시만 하고, 판정(중대 결함 여부)은 사람이 상태를 바꾸는 것으로 남긴다.
 function ReportsView({
@@ -764,15 +775,21 @@ function ReportsView({
               date.format(new Date(String(report.created_at))),
               isAppKey(report.service) ? appLabel(report.service) : String(report.service ?? "-"),
               report.locale ?? "-",
-              <a
-                key="url"
-                href={String(report.url)}
-                target="_blank"
-                rel="noreferrer"
-                className="break-all text-brand-teal underline"
-              >
-                {String(report.url)}
-              </a>,
+              isHttpUrl(String(report.url)) ? (
+                <a
+                  key="url"
+                  href={String(report.url)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="break-all text-brand-teal underline"
+                >
+                  {String(report.url)}
+                </a>
+              ) : (
+                <span key="url" className="break-all text-red-600">
+                  {String(report.url)}
+                </span>
+              ),
               <span key="message" className="block max-w-md whitespace-pre-wrap break-words">
                 {String(report.message)}
               </span>,

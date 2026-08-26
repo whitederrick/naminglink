@@ -42,10 +42,14 @@ export async function GET(request: NextRequest) {
   let returnPath = "/";
 
   try {
+    // service로 건다 — orders 표를 형제 서비스들과 공유한다(sajulink/inyeonlink confirm
+    // 라우트와 같은 이유). 없으면 다른 서비스가 우연히 같은 이름의 order_type을 쓰는 순간
+    // 그 서비스의 주문도 이 경로로 승인될 수 있다.
     const { data: order } = await supabase
       .from("orders")
       .select("id,order_type,payment_status,payment_amount,metadata")
       .eq("id", orderId)
+      .eq("service", "naminglink")
       .maybeSingle();
 
     if (!order) return backTo(request, "/", { payment: "notfound" });

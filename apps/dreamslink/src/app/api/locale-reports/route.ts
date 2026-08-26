@@ -13,10 +13,25 @@ import { getSupabaseAdminClient } from "@/lib/supabase";
 export const runtime = "nodejs";
 
 const schema = z.object({
-  url: z.string().trim().min(1).max(2000),
+  url: z
+    .string()
+    .trim()
+    .min(1)
+    .max(2000)
+    .refine(isHttpUrl, "url must be an absolute http(s) URL"),
   message: z.string().trim().min(1).max(4000),
   locale: z.string().max(20).optional(),
 });
+
+/** javascript:·data: 등 실행 가능한 스킴을 막는다 — 이 URL은 관리자 콘솔에서 링크로 그려진다. */
+function isHttpUrl(value: string) {
+  try {
+    const protocol = new URL(value).protocol;
+    return protocol === "http:" || protocol === "https:";
+  } catch {
+    return false;
+  }
+}
 
 function getRequestIp(request: NextRequest) {
   const realIp = request.headers.get("x-real-ip")?.trim();
