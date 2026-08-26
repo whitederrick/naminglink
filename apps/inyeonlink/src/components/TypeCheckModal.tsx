@@ -186,6 +186,7 @@ export function TypeCheckModal({
                     label={dictionary.form.year}
                     value={year}
                     digits={4}
+                    min={MIN_BIRTH_YEAR}
                     max={MAX_BIRTH_YEAR}
                     onChange={setYear}
                   />
@@ -193,6 +194,7 @@ export function TypeCheckModal({
                     label={dictionary.form.month}
                     value={month}
                     digits={2}
+                    min={1}
                     max={12}
                     onChange={setMonth}
                   />
@@ -200,6 +202,7 @@ export function TypeCheckModal({
                     label={dictionary.form.day}
                     value={day}
                     digits={2}
+                    min={1}
                     max={31}
                     onChange={setDay}
                   />
@@ -295,16 +298,23 @@ function DateField({
   label,
   value,
   digits,
+  min,
   max,
   onChange,
 }: {
   label: string;
   value: string;
   digits: number;
+  min: number;
   max: number;
   onChange: (next: string) => void;
 }) {
   // 입력 폼과 같은 규칙이다 — `type="number"`의 max는 타이핑을 막지 못하므로 직접 거른다.
+  //
+  // **`min`도 PersonFields.tsx의 NumberField와 같이 blur에서 맞춘다.** 예전에는 이 자리에
+  // min 자체가 없어 "0"월·"0"일이 그대로 남았다 — check()가 제출 시점에는 잡지만, 화면은
+  // "같은 구조·같은 동작"이라 적어 두고 실제로는 한 쪽만 고쳐진 채였다(2026-08-26 코드
+  // 리뷰에서 발견).
   const handle = (raw: string) => {
     const onlyDigits = raw.replace(/\D/g, "").slice(0, digits);
     if (!onlyDigits) return onChange("");
@@ -322,6 +332,11 @@ function DateField({
         value={value}
         maxLength={digits}
         onChange={(event) => handle(event.target.value)}
+        onBlur={() => {
+          if (!value) return;
+          const numeric = Number(value);
+          if (!Number.isNaN(numeric) && numeric < min) onChange(String(min));
+        }}
         className="mt-0.5 w-full rounded-lg border border-line bg-surface px-3 py-2"
       />
     </label>
