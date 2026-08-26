@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import { ArrowRight } from "lucide-react";
+
 import { BrandMark } from "@/components/BrandMark";
+import { DocBody } from "@/components/DocBody";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
-import { getDictionary } from "@/lib/i18n";
+import { getDocPage } from "@/lib/doc-content";
+import { docValues } from "@/lib/doc-values";
+import { docKeyFor, guideEntriesFor } from "@/lib/guide-index";
+import { getDictionary, isRtlLocale } from "@/lib/i18n";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
 import { buildAlternates, localeUrl, ogImageFor } from "@/lib/seo";
@@ -59,6 +65,34 @@ export default async function LandingPage({
   const { landing } = dictionary;
   // 로케일은 이제 주소에 늘 있다. 링크에도 그대로 이어 붙여 언어가 흐름 중에 바뀌지 않게 한다.
   const linkLocale = locale;
+  const textDirection = isRtlLocale(locale) ? "rtl" : "ltr";
+  // break-keep(keep-all)은 한국어 단어 단위 줄바꿈용. 띄어쓰기가 없는 문자권(일본어·중국어·
+  // 태국어·크메르어)에서는 줄바꿈 지점이 없어 텍스트가 뷰포트 밖으로 흘러나가므로 일반 줄바꿈을 쓴다.
+  // naminglink 랜딩과 같은 판정이다.
+  const spacelessScript = ["ja", "zh", "th", "km"].includes(locale);
+  const wordBreakClass = spacelessScript
+    ? "break-normal [overflow-wrap:anywhere]"
+    : "break-keep";
+
+  /**
+   * **첫 화면 아래에 안내 문서를 꺼내 놓는다.** naminglink가 2026-08-11에 같은 문제로 애드센스
+   * "가치가 별로 없는 콘텐츠" 반려를 받고 넣은 자리다 — 히어로 한 장뿐이면 문서가 있어도 홈에서
+   * 그 존재를 알 길이 없어 크롤러·이용자 모두에게 "내용 없는 사이트"로 보인다.
+   *
+   * 문구는 여기서 짓지 않는다 — 제목·요약·숫자판은 `doc-content`·`docValues`에서 온다.
+   */
+  const guideDoc = getDocPage(locale, "guide");
+  const aboutDoc = getDocPage(locale, "about");
+  const values = await docValues(locale);
+  const statsSection = guideDoc.sections.find((section) =>
+    section.blocks.some((block) => "stats" in block),
+  );
+  const guideCards = guideEntriesFor()
+    .slice(0, 4)
+    .map((entry) => ({
+      slug: entry.slug,
+      doc: getDocPage(locale, docKeyFor(entry)),
+    }));
 
   return (
     <main className="min-h-screen bg-background">
@@ -183,17 +217,80 @@ export default async function LandingPage({
             <PrivacyNotice locale={locale} tone="onDark" />
           </div>
         </div>
-
-        {/* naminglink와 같다 — 푸터를 히어로 섹션 안에 두어 데스크탑에서 한 화면에 담는다.
-            여백 값도 naminglink 랜딩과 **같아야 한다**(`!pb-0 !pt-2`). 한쪽만 바꾸면 두 서비스를
-            오갈 때 푸터가 들썩인다. 예전에는 naminglink만 `!pb-4`였는데, 그때는 그쪽 정책 링크가
-            5개(로그인 포함)라 줄이 더 접혔기 때문이다. 지금은 양쪽 다 4개라 그 전제가 없다. */}
-        <SiteFooter
-          locale={locale}
-          tone="light"
-          className="relative bottom-1 z-10 shrink-0 bg-black/25 !pb-0 !pt-2 backdrop-blur"
-        />
       </section>
+
+      {/* **첫 화면은 그대로 두고, 스크롤 아래에 안내 문서를 둔다.** 히어로는 여전히 100svh다.
+          예전에는 푸터가 히어로 **안에** 있어 이 아래가 아예 없었다 — naminglink가 2026-08-11에
+          같은 이유로 먼저 옮겼고, 그 자리를 그대로 옮겨 온다. */}
+      <section className="mx-auto w-full max-w-7xl px-5 py-14 sm:px-8 lg:px-10">
+        <div className="max-w-3xl">
+          <p className="text-sm font-semibold tracking-wide text-brand-navy">
+            {guideDoc.eyebrow}
+          </p>
+          <h2 className={`mt-2 ${wordBreakClass} text-2xl font-semibold sm:text-3xl`} dir={textDirection}>
+            {guideDoc.title}
+          </h2>
+          <p className={`mt-3 ${wordBreakClass} text-[15px] leading-7 text-muted`} dir={textDirection}>
+            {guideDoc.summary}
+          </p>
+        </div>
+
+        {/* 자료 숫자판. 값은 엔진·DB에서 오고, 못 읽으면 `DocBody`가 판을 통째로 뺀다. */}
+        {statsSection ? (
+          <div className="mt-6" dir={textDirection}>
+            <DocBody sections={[statsSection]} locale={locale} values={values} />
+          </div>
+        ) : null}
+
+        <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          {guideCards.map((card) => (
+            <Link
+              key={card.slug}
+              href={localePath(`/guide/${card.slug}`, linkLocale)}
+              className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
+              dir={textDirection}
+            >
+              <p className="text-xs font-semibold tracking-wide text-brand-navy">
+                {card.doc.eyebrow}
+              </p>
+              <p className={`flex items-center gap-2 ${wordBreakClass} text-base font-semibold`}>
+                {card.doc.title}
+                <ArrowRight
+                  aria-hidden="true"
+                  size={16}
+                  className="shrink-0 transition group-hover:translate-x-0.5"
+                />
+              </p>
+              <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
+                {card.doc.summary}
+              </p>
+            </Link>
+          ))}
+        </div>
+
+        <Link
+          href={localePath("/about", linkLocale)}
+          className="group mt-3 grid gap-1 rounded-lg border border-brand-navy/25 bg-surface-strong px-5 py-4 transition hover:border-foreground"
+          dir={textDirection}
+        >
+          <p className="text-xs font-semibold tracking-wide text-brand-navy">
+            {aboutDoc.eyebrow}
+          </p>
+          <p className={`flex items-center gap-2 ${wordBreakClass} text-base font-semibold`}>
+            {aboutDoc.title}
+            <ArrowRight
+              aria-hidden="true"
+              size={16}
+              className="shrink-0 transition group-hover:translate-x-0.5"
+            />
+          </p>
+          <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
+            {aboutDoc.summary}
+          </p>
+        </Link>
+      </section>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }
