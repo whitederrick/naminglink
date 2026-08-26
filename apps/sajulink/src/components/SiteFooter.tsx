@@ -70,9 +70,14 @@ export async function SiteFooter({
     : "font-semibold text-foreground";
 
   // 사용자가 보고 있는 언어를 약관 페이지에도 그대로 넘긴다(IP·브라우저 언어 재추정 방지).
-  // 한국어는 로케일 없는 주소를 그대로 쓴다 — 국내 방문자에게 보이는 주소가 짧아지고,
-  // 헤더로 언어가 갈리는 x-default 자리와도 어긋나지 않는다.
-  const linkLocale = locale === "ko" ? null : locale;
+  //
+  // **한국어도 반드시 `/ko/…`로 명시한다** (2026-08-26 수정). 예전에는 한국어만 로케일 없는
+  // 주소를 그대로 썼는데, 2026-08-10 하이브리드 URL 구조가 무접두 하위 경로를 **영어로 308
+  // 고정**시켜 버렸다(`hybrid-url-structure` — "내부 링크가 더 이상 무접두 주소를 만들지
+  // 않는다"는 그 개편의 전제였다). 이 푸터가 바로 그 전제를 깨고 있었다 — 소개·문의하기·
+  // 공지사항·안내 문서처럼 실제로 페이지 이동하는 링크를 누른 한국어 이용자가 전부 영어
+  // 화면으로 떨어지고 있었다(약관류는 모달로 가로채 눌러도 안 드러났을 뿐이다).
+  const linkLocale = locale;
   const footerLinks = [
     { kind: "terms" as const, href: localePath("/terms", linkLocale), label: copy.terms },
     { kind: "privacy" as const, href: localePath("/privacy", linkLocale), label: copy.privacy },
@@ -123,26 +128,17 @@ export async function SiteFooter({
     >
       <div className="mx-auto max-w-7xl">
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 font-semibold">
-          <LegalLinks
-            locale={locale}
-            items={footerLinks}
-            linkClassName={linkClass}
-            textDirection={textDirection}
-          />
-          {/* 안내 문서는 팝업이 아니라 페이지라 LegalLinks 밖에 둔다. 약관처럼 확인용으로
+          {/* **순서는 naminglink와 같다** (2026-08-26 정렬) — 소개·문의하기·공지사항 →
+              법적 고지(LegalLinks) → 이용 안내 → 신고. 두 서비스를 오가는 이용자가 같은
+              자리에서 같은 항목을 찾게 하려는 것이라 한쪽만 바꾸면 다시 어긋난다.
+
+              안내 문서는 팝업이 아니라 페이지라 LegalLinks 밖에 둔다. 약관처럼 확인용으로
               잠깐 열어 보는 글이 아니라 처음부터 끝까지 읽는 글이기 때문이다.
               소개·문의하기도 같은 이유로 여기 둔다.
 
               **푸터에 거는 것이 핵심이다.** 애드센스 심사는 이 두 페이지가 있는지를 보는데,
               어디에서도 닿지 않는 페이지는 없는 것과 같다. 라벨만 갈라 모든 언어에서 건다 —
               두 페이지가 한국어·영어 두 벌이라 23로케일 사전에 넣을 이유가 없다. */}
-          <a
-            href={guideHubHref(linkLocale, guideFrom)}
-            className={linkClass}
-            dir={textDirection}
-          >
-            {guideLinkLabel(locale, "short")}
-          </a>
           <a href={localePath("/about", linkLocale)} className={linkClass} dir={textDirection}>
             {locale === "ko" ? "소개" : "About"}
           </a>
@@ -151,6 +147,19 @@ export async function SiteFooter({
           </a>
           <a href={localePath("/notice", linkLocale)} className={linkClass} dir={textDirection}>
             {locale === "ko" ? "공지사항" : "Notices"}
+          </a>
+          <LegalLinks
+            locale={locale}
+            items={footerLinks}
+            linkClassName={linkClass}
+            textDirection={textDirection}
+          />
+          <a
+            href={guideHubHref(linkLocale, guideFrom)}
+            className={linkClass}
+            dir={textDirection}
+          >
+            {guideLinkLabel(locale, "short")}
           </a>
           {/* 신고 채널. 광고 검수가 열린 로케일에만 노출한다(naminglink와 같은 설계) —
               AD_OPENED_LOCALES가 늘어날 때 같은 커밋에서 버튼도 함께 열리게 하려는 것.
