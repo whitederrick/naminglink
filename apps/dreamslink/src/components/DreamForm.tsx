@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
+import { AdWatchOverlay } from "@/components/AdWatchOverlay";
+import { submitAdGateEnabled } from "@/lib/ads";
 import { DREAM_MOODS, DREAM_TEXT_MAX, encodeDreamInput, type DreamMood } from "@/lib/dream-input";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
@@ -15,13 +16,14 @@ import { trackAnalytics } from "@/lib/analytics-client";
  * 이 서비스가 받는 값 중 가장 사적인 것이라 미저장 원칙이 여기서 가장 중요하다.
  */
 export function DreamForm({ dictionary, locale }: { dictionary: Dictionary; locale: Locale }) {
-  const router = useRouter();
   const t = dictionary.dream;
   const [text, setText] = useState("");
   const [mood, setMood] = useState<DreamMood | null>(null);
   const [recurring, setRecurring] = useState(false);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  // 광고를 다 본 뒤 넘어갈 주소. null이면 아직 광고를 띄우지 않은 상태다(형제 폼과 같은 처리).
+  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
 
   async function submit() {
     const trimmed = text.trim();
@@ -31,11 +33,36 @@ export function DreamForm({ dictionary, locale }: { dictionary: Dictionary; loca
     }
     setError("");
     setBusy(true);
-    // **이동 직전에 기다린다.** 집계는 화면이 바뀌면 날아간다 — 인연링크에서 시작 이벤트가
-    // 통째로 유실된 적이 있다(`analytics-lost-on-navigation`).
-    await trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "DREAM_READING", locale });
+    // 분석 시작. **보내 놓고 이동 직전에 기다린다**(`analytics-client`) — 집계는 화면이
+    // 바뀌면 날아간다(`analytics-lost-on-navigation`).
+    const started = trackAnalytics({ eventType: "ANALYSIS_STARTED", serviceType: "DREAM_READING", locale });
     const fragment = encodeDreamInput({ text: trimmed, mood, recurring });
-    router.push(`${localePath("/dream/result", locale)}#${fragment}`);
+    const target = `${localePath("/dream/result", locale)}#${fragment}`;
+
+    // **router.push를 쓰지 않는다.** 두 번째 조회에서 주소에 프래그먼트가 두 번 붙는
+    // (`...#첫번째#두번째`) 사고가 형제 폼들에서 있었다(CompatibilityForm.tsx 주석 참고).
+    // location.assign은 넘긴 문자열이 그대로 주소가 되므로 프래그먼트가 하나임이 보장된다.
+    //
+    // 제출을 누르면 여기서 광고를 띄우고 끝난 뒤 결과로 넘어간다(형제 세 앱과 같은 흐름).
+    // 광고 단위가 없으면(2026-08-26 기준 — 애드센스 심사 대기 중) `submitAdGateEnabled`가
+    // 거짓이라 관문 없이 그대로 넘어간다.
+    if (submitAdGateEnabled) {
+      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
+      setPendingTarget(target);
+      return;
+    }
+    // **문서를 갈아 끼우기 전에 기다린다.** 안 기다리면 시작 기록이 그대로 날아간다.
+    await started;
+    window.location.assign(target);
+  }
+
+  if (pendingTarget) {
+    return (
+      <AdWatchOverlay
+        dictionary={dictionary}
+        onDone={() => window.location.assign(pendingTarget)}
+      />
+    );
   }
 
   return (
@@ -85,6 +112,11 @@ export function DreamForm({ dictionary, locale }: { dictionary: Dictionary; loca
         {t.recurringLabel}
       </label>
 
+      {/* 형제 폼들은 관문 on/off에 따라 `submit`/`submitNoAd` 두 문구를 쓴다("광고 확인 후
+          보기" vs "보기") — 관문이 꺼져 있는데 광고를 예고하면 안 되기 때문이다. 여기는
+          아직 `submitNoAd`가 사전에 없어 `submit` 한 벌만 쓴다. 지금은 `submitAdGateEnabled`가
+          거짓이라(애드센스 심사 대기) 정확하지만, GAM을 켜는 날 23로케일 `submitNoAd`를
+          더하고 형제 폼과 같은 분기로 바꿀 것. */}
       <button
         type="button"
         onClick={() => void submit()}
