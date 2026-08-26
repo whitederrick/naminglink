@@ -47,7 +47,10 @@ export function GuideEntryOrder({ orders, className, children }: Props) {
 
 function OrderedNav({ orders, className, children }: Props) {
   const from = useSearchParams().get("from");
-  const order = (from && orders[from]) || null;
+  // Object.hasOwn로 거른다 — 안 그러면 from=constructor·toString 같은 값이 orders의
+  // 상속된 Object.prototype 멤버를 가리킨다(guide-back.ts의 pickOrigin과 같은 이유,
+  // 2026-08-26 코드 리뷰에서 이 컴포넌트에는 빠져 있는 것을 발견).
+  const order = from && Object.hasOwn(orders, from) ? orders[from] : null;
 
   return (
     <ul className={className}>
