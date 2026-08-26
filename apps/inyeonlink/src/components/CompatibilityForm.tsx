@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import {
   emptyPerson,
@@ -12,6 +12,7 @@ import { AdWatchOverlay } from "@/components/AdWatchOverlay";
 import { submitAdGateEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
+import { useAdGatedSubmit } from "@/lib/use-ad-gated-submit";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import {
   encodeMatchInput,
@@ -31,34 +32,9 @@ export function CompatibilityForm({
   const [personB, setPersonB] = useState<PersonDraft>(emptyPerson);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  // 광고를 다 본 뒤 넘어갈 주소. null이면 광고를 띄우지 않은 상태다.
-  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
-
-  // 결과 화면으로 넘어간 뒤 **뒤로 가기**로 이 폼에 돌아오면 브라우저가 페이지를 통째로
-  // 되살리는 경우가 있다(bfcache). 그러면 자바스크립트 상태까지 그대로 복원되어 제출 버튼이
-  // "계산 중…"인 채 잠겨 있고, 다시 눌러도 아무 일도 일어나지 않는다.
-  //
-  // `pageshow`는 그 복원 시점에도 발생하므로 여기서 잠금을 푼다. 일반 로드에서도 한 번
-  // 발생하지만 이미 false라 영향이 없다.
-  useEffect(() => {
-    const unlock = () => setSubmitting(false);
-    window.addEventListener("pageshow", unlock);
-    return () => window.removeEventListener("pageshow", unlock);
-  }, []);
-
-  // 결과 화면에서 "다시 계산하기"로 돌아오면 이전 조회의 프래그먼트가 주소에 남아 있다.
-  // 두 가지 이유로 지운다.
-  //   - 새 프래그먼트가 그 뒤에 덧붙어 `#앞것#뒷것`이 되던 원인이다.
-  //   - 이 화면은 그 값이 필요 없는데 남의 생년월일이 주소창에 계속 보인다.
-  // replaceState라 히스토리에 항목이 늘지 않는다.
-  useEffect(() => {
-    if (!window.location.hash) return;
-    window.history.replaceState(
-      null,
-      "",
-      `${window.location.pathname}${window.location.search}`,
-    );
-  }, []);
+  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 광고 관문 통과 후 이동 —
+  // AffinityForm.tsx와 같은 배선이라 훅으로 뽑았다(use-ad-gated-submit.ts).
+  const { pendingTarget, goto } = useAdGatedSubmit(setSubmitting);
 
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
@@ -88,18 +64,11 @@ export function CompatibilityForm({
     // 문서가 새로 뜨는 만큼 **스크립트가 돌기 전에 주소가 확정돼 있다** — 결과 화면이 해시를
     // 빈 값으로 읽는 경합도 함께 사라진다. 전체 이동이라 전환이 조금 느려지지만, 이 화면은
     // 어차피 결과를 받으러 서버를 한 번 다녀온다.
-  // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에
-  // 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서 한 번 더 눌러야 했다.
-  // 광고를 시작하는 것이 이 버튼이라, 관문이 켜져 있을 때만 버튼 문구가 그 사실을 말한다.
-  // 광고 단위가 없으면(지금) 관문도 문구도 함께 사라져 그대로 넘어간다.
-    if (submitAdGateEnabled) {
-      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
-      setPendingTarget(target);
-      return;
-    }
-    // **문서를 갈아 끼우기 전에 기다린다.** 안 기다리면 시작 기록이 그대로 날아간다.
-    await started;
-    window.location.assign(target);
+    //
+    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다(goto — 위 훅 참고).
+    // 예전에는 결과 화면에 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서
+    // 한 번 더 눌러야 했다. 광고 단위가 없으면(지금) 관문 없이 그대로 넘어간다.
+    await goto(target, started);
   }
 
   if (pendingTarget) {

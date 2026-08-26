@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import {
   emptyPerson,
@@ -17,6 +17,7 @@ import {
 import { AdWatchOverlay } from "@/components/AdWatchOverlay";
 import { submitAdGateEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
+import { useAdGatedSubmit } from "@/lib/use-ad-gated-submit";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 export function AffinityForm({
@@ -33,26 +34,9 @@ export function AffinityForm({
   );
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  // 광고를 다 본 뒤 넘어갈 주소. null이면 아직 광고를 띄우지 않은 상태다.
-  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
-
-  // 뒤로 가기로 돌아오면(bfcache) 제출 버튼이 잠긴 채 되살아난다. 궁합 폼과 같은 처리다.
-  useEffect(() => {
-    const unlock = () => setSubmitting(false);
-    window.addEventListener("pageshow", unlock);
-    return () => window.removeEventListener("pageshow", unlock);
-  }, []);
-
-  // 이전 조회의 프래그먼트가 주소에 남아 있으면 지운다. 이 화면은 그 값이 필요 없고, 남겨
-  // 두면 새 프래그먼트가 뒤에 덧붙어 `#앞것#뒷것`이 된다.
-  useEffect(() => {
-    if (!window.location.hash) return;
-    window.history.replaceState(
-      null,
-      "",
-      `${window.location.pathname}${window.location.search}`,
-    );
-  }, []);
+  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 광고 관문 통과 후 이동 —
+  // CompatibilityForm.tsx와 같은 배선이라 훅으로 뽑았다(use-ad-gated-submit.ts).
+  const { pendingTarget, goto } = useAdGatedSubmit(setSubmitting);
 
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
@@ -70,19 +54,10 @@ export function AffinityForm({
 
     // 궁합과 같은 이유로 프래그먼트에 싣고 location.assign으로 넘긴다(주소가 확정된 뒤에
     // 결과 화면의 스크립트가 돈다). 자세한 사연은 CompatibilityForm 주석에 있다.
-    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다. 예전에는 결과 화면에
-    // 게이트를 세웠는데, 그러면 버튼을 누른 사람이 결과 페이지에서 한 번 더 눌러야 했다.
-    // 광고를 시작하는 것이 이 버튼이라, 관문이 켜져 있을 때만 버튼 문구가 그 사실을 말한다.
-    // 광고 단위가 없으면(지금) 관문도 문구도 함께 사라져 그대로 넘어간다.
     const target = `${localePath("/affinity/result", locale)}#${encodeAffinityInput(input)}`;
-    if (submitAdGateEnabled) {
-      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
-      setPendingTarget(target);
-      return;
-    }
-    // **문서를 갈아 끼우기 전에 기다린다.** 안 기다리면 시작 기록이 그대로 날아간다.
-    await started;
-    window.location.assign(target);
+    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다(goto — 위 훅 참고).
+    // 광고 단위가 없으면(지금) 관문 없이 그대로 넘어간다.
+    await goto(target, started);
   }
 
   if (pendingTarget) {
