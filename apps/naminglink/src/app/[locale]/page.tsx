@@ -113,7 +113,7 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
   // 그 값은 미들웨어가 경로에서 되돌려 넣던 것이었다. 이제 경로 조각이 그대로 온다.
   const locale = routeLocale((await params).locale);
   const copy = getLandingCopy(locale);
-  const title = `Naming-Link | ${copy.badge}`;
+  const title = copy.badge;
   const description = copy.descriptionLines.join(" ");
 
   return {
