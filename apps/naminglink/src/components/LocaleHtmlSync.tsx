@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 
 import { isLocaleCode } from "@/lib/locale-codes";
+import { isRtlLocale } from "@/lib/text-direction";
 
 // 주소의 로케일과 <html lang>·<html dir>을 맞춘다.
 //
@@ -19,7 +20,7 @@ export function LocaleHtmlSync() {
     if (!isLocaleCode(first)) return;
     const root = document.documentElement;
     if (root.lang !== first) root.lang = first;
-    const dir = first === "ar" ? "rtl" : "ltr";
+    const dir = isRtlLocale(first) ? "rtl" : "ltr";
     if (root.dir !== dir) root.dir = dir;
   });
   return null;

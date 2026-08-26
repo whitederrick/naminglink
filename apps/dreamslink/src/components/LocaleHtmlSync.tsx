@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { isLocale } from "@/lib/i18n";
+import { isLocale, isRtlLocale } from "@/lib/i18n";
 
 // 루트 레이아웃은 IP·Accept-Language로 <html lang>·<html dir>을 정하지만 searchParams를 받지
 // 못해 ?lang= 수동 전환은 반영하지 못한다. 이 컴포넌트가 URL의 ?lang=만 보고 보정한다.
@@ -13,7 +13,7 @@ export function LocaleHtmlSync() {
     if (!isLocale(lang)) return;
     const root = document.documentElement;
     if (root.lang !== lang) root.lang = lang;
-    const dir = lang === "ar" ? "rtl" : "ltr";
+    const dir = isRtlLocale(lang) ? "rtl" : "ltr";
     if (root.dir !== dir) root.dir = dir;
   }, []);
   return null;

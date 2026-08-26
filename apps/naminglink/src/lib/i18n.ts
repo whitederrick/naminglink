@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/services";
+import { isRtlLocale } from "@/lib/text-direction";
 
 type ServiceLandingCopy = {
   audience: string;
@@ -932,5 +933,5 @@ export function getServiceCopy(
 }
 
 export function getTextDirection(locale: Locale) {
-  return locale === "ar" ? "rtl" : "ltr";
+  return isRtlLocale(locale) ? "rtl" : "ltr";
 }
