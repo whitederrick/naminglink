@@ -1,13 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 
 import type { FiveElement } from "@naminglink/core/saju";
 
 import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
-import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
@@ -19,21 +18,18 @@ import { emphasize } from "@/lib/emphasize";
 import type { BranchCandidate, StemCandidate } from "@/lib/engines";
 import type { PublicAffinityOutcome } from "@/lib/public-outcome";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
-import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
+import {
+  useResolveResult,
+  useRestorePendingPaymentFragment,
+  useResultFragment,
+} from "@/lib/use-result-fragment";
 
 // 궁합 결과 화면과 같은 뼈대다 — 프래그먼트를 읽어 POST로 계산을 요청하고, 주소가 바뀌면
 // 다시 계산한다. 다른 것은 **보여 주는 방식**이다. 궁합은 하나의 총점을 크게 세우지만 여기서는
 // 총점을 내지 않는다(`lib/engines/affinity.ts` 참고). 대신 유형을 세로로 늘어놓는다.
-
-type State =
-  | { status: "loading" }
-  | { status: "error"; message: string; fragment: string }
-  | {
-      status: "ready";
-      outcome: PublicAffinityOutcome;
-      input: AffinityInput;
-      fragment: string;
-    };
+//
+// 결제복귀 프래그먼트 복원과 계산 요청·결과 상태 관리는 MatchResultView.tsx와 같은 훅
+// (use-result-fragment.ts)을 쓴다 — 예전에는 두 파일이 이 로직 전체를 복붙해 두고 있었다.
 
 /** 본문에 세워 보여 줄 상위 유형 수. 하나만 내면 "그 사람 어디 있나"가 되고, 열을 다 내면 답이 아니다. */
 const BEST_COUNT = 3;
@@ -64,86 +60,25 @@ export function AffinityResultView({
    */
   offerPrice: string | null;
 }) {
-  const [state, setState] = useState<State>({ status: "loading" });
   const [copied, setCopied] = useState(false);
   const [checkOpen, setCheckOpen] = useState(false);
   const t = dictionary.affinity;
   const resolvedFragment = useResultFragment();
 
-  // 국내 결제는 우리 서버 라우트로 리디렉트되어 승인되므로, 돌아온 주소에는 입력값 프래그먼트가
-  // 없다. 결제 직전에 브라우저(sessionStorage)에 맡겨 둔 값을 주소에 되돌려 놓아야 결과를 다시
-  // 그리고 PDF를 받을 수 있다. **궁합 화면에는 이 처리가 있었는데 여기에는 없었다** — 그래서
-  // 국내에서 인연의 결 PDF를 결제하면 오류 화면으로 돌아와 파일을 받을 방법이 없었다.
-  // **서버에 저장한 것이 아니다** — 탭을 닫으면 함께 사라진다.
-  useEffect(() => {
-    if (window.location.hash) return;
-    const params = new URLSearchParams(window.location.search);
-    if (!params.get("payment")) return;
-    try {
-      const raw = window.sessionStorage.getItem("inyeonlink.pendingPayment");
-      if (!raw) return;
-      const saved = JSON.parse(raw) as { fragment?: string };
-      if (saved.fragment) {
-        window.location.replace(`${window.location.href}#${saved.fragment}`);
-      }
-    } catch {
-      // 복원에 실패하면 아래 흐름이 "결과를 읽을 수 없습니다"로 안내한다.
-    }
-  }, []);
-
-  useEffect(() => {
-    if (resolvedFragment === null) return;
-    const fragment = resolvedFragment;
-    let cancelled = false;
-
-    // 프래그먼트 해석 실패도 예외로 던져 한 갈래로 모은다. effect 안에서 setState를 동기로
-    // 호출하면 렌더가 연쇄로 도는데, .catch는 마이크로태스크라 그 문제가 없다.
-    async function resolve() {
-      const decoded = decodeFragment(fragment);
-      const input = decoded ? decodeAffinityInput(decoded) : null;
-      if (!input) throw new Error("MISSING_INPUT");
-
-      const response = await fetch("/api/affinity", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(input),
-      });
-      if (!response.ok) {
-        const body = await response.json().catch(() => null);
-        throw new Error(body?.error ?? "UNKNOWN");
-      }
-      return { outcome: (await response.json()) as PublicAffinityOutcome, input };
-    }
-
-    resolve()
-      .then(({ outcome, input }) => {
-        if (cancelled) return;
-        setState({ status: "ready", outcome, input, fragment });
-        trackAnalytics({ eventType: "ANALYSIS_COMPLETED", serviceType: "AFFINITY_MATCH", locale });
-      })
-      .catch((cause: Error) => {
-        if (cancelled) return;
-        setState({
-          status: "error",
-          message: errorMessage(cause.message),
-          fragment,
-        });
-        // 실패도 남긴다 — 완료만 세면 완료율이 항상 100%로 보인다.
-        trackAnalytics({ eventType: "ANALYSIS_FAILED", serviceType: "AFFINITY_MATCH", locale });
-      });
-
-    function errorMessage(code: string) {
-      if (code === "MISSING_INPUT") return t.missingInput;
-      if (code === "UNCALCULABLE_DATE" || code === "INVALID_INPUT") {
-        return dictionary.form.errorInvalidDate;
-      }
-      return dictionary.form.errorGeneric;
-    }
-
-    return () => {
-      cancelled = true;
-    };
-  }, [resolvedFragment, dictionary, locale, t.missingInput]);
+  // 결제복귀 프래그먼트 복원 + 계산 요청·결과 상태. **궁합 화면에는 이 처리가 있었는데
+  // 여기에는 없었다** — 그래서 한때 국내에서 인연의 결 PDF를 결제하면 오류 화면으로 돌아와
+  // 파일을 받을 방법이 없었다. 지금은 훅 하나(use-result-fragment.ts)를 두 화면이 함께
+  // 쓰므로 같은 사고가 반복되지 않는다.
+  useRestorePendingPaymentFragment();
+  const state = useResolveResult<AffinityInput, PublicAffinityOutcome>({
+    fragment: resolvedFragment,
+    decode: decodeAffinityInput,
+    fetchUrl: "/api/affinity",
+    serviceType: "AFFINITY_MATCH",
+    locale,
+    dictionary,
+    missingInputMessage: t.missingInput,
+  });
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {

@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
-import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { emphasize } from "@/lib/emphasize";
@@ -21,21 +20,16 @@ import type {
 } from "@/lib/public-outcome";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { decodeMatchInput, type MatchInput } from "@/lib/match-input";
-import { decodeFragment, useResultFragment } from "@/lib/use-result-fragment";
+import {
+  useResolveResult,
+  useRestorePendingPaymentFragment,
+  useResultFragment,
+} from "@/lib/use-result-fragment";
 import { romanizePillar } from "@naminglink/core/saju";
 
-// 결과에는 **어느 프래그먼트로 계산한 것인지**를 함께 담는다. 주소의 프래그먼트가 바뀌었는데
-// 상태가 아직 이전 것이면 그건 낡은 화면이므로 "계산 중"으로 보여야 한다. effect 안에서
-// 동기로 상태를 되돌리는 대신 렌더에서 비교하는 방식이라 렌더가 연쇄로 돌지 않는다.
-type State =
-  | { status: "loading" }
-  | { status: "error"; message: string; fragment: string }
-  | {
-      status: "ready";
-      outcome: PublicMatchOutcome;
-      input: MatchInput;
-      fragment: string;
-    };
+// 결제복귀 프래그먼트 복원과 계산 요청·결과 상태 관리는 AffinityResultView.tsx와 같은 훅
+// (use-result-fragment.ts)을 쓴다 — 예전에는 두 파일이 이 로직 전체를 복붙해 두고 있었다.
+// 그 훅이 돌려주는 `ResolveState`가 여기서 쓰던 `State`(loading/error/ready) 모양과 같다.
 
 /**
  * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
@@ -63,7 +57,6 @@ export function MatchResultView({
    */
   offerPrice: string | null;
 }) {
-  const [state, setState] = useState<State>({ status: "loading" });
   const [copied, setCopied] = useState(false);
   const t = dictionary.result;
 
@@ -72,85 +65,17 @@ export function MatchResultView({
   // 같은 것을 쓴다.
   const resolvedFragment = useResultFragment();
 
-  // 토스 결제에서 돌아온 경우 프래그먼트를 되살린다.
-  //
-  // 국내 결제는 우리 서버 라우트로 리디렉트되어 승인되므로, 돌아온 주소에는 입력값 프래그먼트가
-  // 없다. 결제 직전에 브라우저(sessionStorage)에 맡겨 둔 값을 주소에 되돌려 놓아야 결과를 다시
-  // 그릴 수 있다. **서버에 저장한 것이 아니다** — 탭을 닫으면 함께 사라진다.
-  useEffect(() => {
-    if (window.location.hash) return;
-    const params = new URLSearchParams(window.location.search);
-    if (!params.get("payment")) return;
-    try {
-      const raw = window.sessionStorage.getItem("inyeonlink.pendingPayment");
-      if (!raw) return;
-      const saved = JSON.parse(raw) as { fragment?: string };
-      if (saved.fragment) {
-        window.location.replace(`${window.location.href}#${saved.fragment}`);
-      }
-    } catch {
-      // 복원에 실패하면 아래 흐름이 "결과를 읽을 수 없습니다"로 안내한다.
-    }
-  }, []);
-
-  useEffect(() => {
-    if (resolvedFragment === null) return;
-    const fragment = resolvedFragment;
-    let cancelled = false;
-
-    // 입력값은 프래그먼트에만 있다. 서버 컴포넌트는 프래그먼트를 볼 수 없으므로(브라우저가
-    // 서버로 보내지 않는다) 여기서 읽어 POST로 계산을 요청한다.
-    //
-    // 프래그먼트 해석 실패도 예외로 던져 한 갈래로 모은다. effect 안에서 setState를 동기로
-    // 호출하면 렌더가 연쇄로 도는데, .catch는 마이크로태스크라 그 문제가 없다.
-    async function resolve() {
-      const decoded = decodeFragment(fragment);
-      const input = decoded ? decodeMatchInput(decoded) : null;
-      if (!input) throw new Error("MISSING_INPUT");
-
-      const response = await fetch("/api/match", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(input),
-      });
-      if (!response.ok) {
-        const body = await response.json().catch(() => null);
-        throw new Error(body?.error ?? "UNKNOWN");
-      }
-      return { outcome: (await response.json()) as PublicMatchOutcome, input };
-    }
-
-    resolve()
-      .then(({ outcome, input }) => {
-        if (cancelled) return;
-        setState({ status: "ready", outcome, input, fragment });
-        // 분석 완료. 입력값은 싣지 않는다 — 메뉴 구분과 경로뿐이다.
-        trackAnalytics({ eventType: "ANALYSIS_COMPLETED", serviceType: "GUNGHAP_MATCH", locale });
-      })
-      .catch((cause: Error) => {
-        if (cancelled) return;
-        setState({
-          status: "error",
-          message: errorMessage(cause.message),
-          fragment,
-        });
-        // **실패도 남긴다.** 완료만 세면 완료율이 항상 100%로 보이고, 입력 형식 문제나 엔진
-        // 오류가 늘어도 화면에서는 아무 일도 일어나지 않는 것처럼 보인다.
-        trackAnalytics({ eventType: "ANALYSIS_FAILED", serviceType: "GUNGHAP_MATCH", locale });
-      });
-
-    function errorMessage(code: string) {
-      if (code === "MISSING_INPUT") return t.missingInput;
-      if (code === "UNCALCULABLE_DATE" || code === "INVALID_INPUT") {
-        return dictionary.form.errorInvalidDate;
-      }
-      return dictionary.form.errorGeneric;
-    }
-
-    return () => {
-      cancelled = true;
-    };
-  }, [resolvedFragment, dictionary, locale, t.missingInput]);
+  // 결제복귀 프래그먼트 복원 + 계산 요청·결과 상태. 두 화면이 함께 쓰는 훅이다(위 주석 참고).
+  useRestorePendingPaymentFragment();
+  const state = useResolveResult<MatchInput, PublicMatchOutcome>({
+    fragment: resolvedFragment,
+    decode: decodeMatchInput,
+    fetchUrl: "/api/match",
+    serviceType: "GUNGHAP_MATCH",
+    locale,
+    dictionary,
+    missingInputMessage: t.missingInput,
+  });
 
   const copyLink = useCallback(() => {
     navigator.clipboard.writeText(window.location.href).then(() => {
