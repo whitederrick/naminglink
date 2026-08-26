@@ -7,6 +7,7 @@ import { emphasize } from "@/lib/emphasize";
 import { fillTemplate, getDictionary, type Locale, type ReportCopy } from "@/lib/i18n";
 import { pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import { rememberForRedirect } from "@/lib/pending-payment";
+import { regionForLocale } from "@/lib/report-region";
 import type { SajuInput } from "@/lib/saju-input";
 
 // 리포트 PDF 구매. 국내는 토스페이먼츠(결제창), 해외는 페이팔(버튼을 패널 안에 그린다).
@@ -95,13 +96,9 @@ export function ReportPurchasePanel({
   /** 결제 복귀를 이미 처리했는가. 개발 모드의 이중 실행과 리렌더를 함께 막는다. */
   const returnHandled = useRef(false);
   // 화면 언어가 결제권역을 정한다 — ko는 국내(토스페이먼츠·원화), 나머지 22개는 해외
-  // (페이팔·달러).
-  //
-  // ⚠️ **이 규칙은 `lib/report-product.ts`의 `regionForLocale`과 같은 것이다.** 그쪽이
-  // `server-only`라 브라우저에서 부를 수 없어 여기 한 벌 더 있다. 바꿀 때는 두 곳을 함께
-  // 고칠 것 — 어긋나면 화면이 보여 준 가격과 서버가 만드는 주문이 달라지고, 타입이 같아서
-  // 컴파일러는 잡지 못한다.
-  const region = locale === "ko" ? "domestic" : "global";
+  // (페이팔·달러). lib/report-region.ts의 regionForLocale과 같은 함수다(서버의
+  // report-product.ts도 그것을 가져다 쓴다) — 예전에는 여기 인라인으로 한 벌 더 있었다.
+  const region = regionForLocale(locale);
 
   /** 결제가 확인된 주문으로 PDF를 받아 저장한다. */
   async function download(order: Issuable) {
