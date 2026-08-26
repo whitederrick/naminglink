@@ -11,7 +11,7 @@ import {
   fallbackFooterContent,
   type FooterContent,
 } from "@/lib/site-content";
-import { isRtlLocale } from "@/lib/locale";
+import { isRtlLocale } from "@/lib/text-direction";
 import type { Locale } from "@/lib/services";
 import { guideHubHref } from "@/lib/guide-back";
 import { getAuthCopy } from "@/lib/i18n-auth";

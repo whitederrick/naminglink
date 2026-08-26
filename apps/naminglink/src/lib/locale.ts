@@ -2,13 +2,12 @@ import { headers } from "next/headers";
 
 import { detectLocale } from "@/lib/locale-detect";
 import { supportedLocales, type Locale } from "@/lib/services";
+import { isRtlLocale } from "@/lib/text-direction";
+
+export { isRtlLocale };
 
 export function isLocale(value: string | null | undefined): value is Locale {
   return supportedLocales.includes(value as Locale);
-}
-
-export function isRtlLocale(locale: Locale) {
-  return locale === "ar";
 }
 
 export async function getRequestLocale(searchLocale?: string) {

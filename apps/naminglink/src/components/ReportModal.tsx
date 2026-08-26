@@ -3,7 +3,7 @@
 import { X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { isRtlLocale } from "@/lib/locale";
+import { isRtlLocale } from "@/lib/text-direction";
 import { getReportCopy } from "@/lib/report-copy";
 import type { Locale } from "@/lib/services";
 
