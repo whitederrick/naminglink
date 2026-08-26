@@ -99,7 +99,10 @@ export async function POST(request: NextRequest) {
   try {
     const orderId = randomUUID();
     // 토스는 orderId를 그대로 쓴다(6~64자 규칙에 UUID가 들어간다). 포트원은 별도 결제 ID를 쓴다.
-    const paymentId = `iy_${orderId.replaceAll("-", "")}`;
+    // 접두사는 서비스를 가리킨다 — 인연링크 원본을 복제하며 "iy_"가 그대로 남아 있었다
+    // (2026-08-26 코드 리뷰에서 발견). PortOne 대시보드·정산 스크립트가 이 접두사로 서비스를
+    // 가르므로, 드림링크 결제가 인연링크로 오분류되고 있었다.
+    const paymentId = `dl_${orderId.replaceAll("-", "")}`;
 
     const { error } = await insertOrder(supabase, {
       id: orderId,

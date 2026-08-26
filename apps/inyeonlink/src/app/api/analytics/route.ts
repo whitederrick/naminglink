@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createHmac } from "node:crypto";
 import { z } from "zod";
 
-import { checkRateLimit } from "@/lib/request-guard";
+import { checkRateLimit, getDailyVisitorHash } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 /**
@@ -24,35 +23,15 @@ const schema = z.object({
   serviceType: z.enum(["GUNGHAP_MATCH", "AFFINITY_MATCH"]).optional(),
 });
 
-function getRequestIp(request: NextRequest) {
-  // 신뢰 프록시가 마지막에 덧붙이는 값을 쓴다 — 첫 값은 클라이언트가 위조할 수 있다.
-  const realIp = request.headers.get("x-real-ip")?.trim();
-  if (realIp) return realIp;
-  const forwarded = request.headers.get("x-forwarded-for");
-  if (forwarded) {
-    const parts = forwarded.split(",").map((part) => part.trim()).filter(Boolean);
-    if (parts.length) return parts[parts.length - 1];
-  }
-  return "local";
-}
-
 function getCountryCode(request: NextRequest) {
   const value = request.headers.get("x-vercel-ip-country")?.toUpperCase();
   return value && /^[A-Z]{2}$/.test(value) ? value : null;
 }
 
-/**
- * 하루 단위 방문자 식별자. 원래 IP는 남기지 않는다.
- *
- * **naminglink와 같은 소금을 쓰면 안 된다** — 는 것이 아니라, 같아도 무방하다. 어차피 날짜와
- * 함께 해시하므로 되돌릴 수 없고, 두 서비스를 오간 사람을 같은 방문자로 세는 것은 오히려 맞다.
- */
-function getDailyVisitorHash(request: NextRequest) {
-  const secret = process.env.ANALYTICS_HASH_SALT ?? process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!secret) return null;
-  const day = new Date().toISOString().slice(0, 10);
-  return createHmac("sha256", secret).update(`${day}:${getRequestIp(request)}`).digest("hex");
-}
+// getDailyVisitorHash는 request-guard.ts에서 가져온다 — 예전에는 여기·locale-reports·
+// request-guard 세 곳에 같은 함수가 복붙돼 있었다(2026-08-26 코드 리뷰에서 발견).
+// **naminglink와 같은 소금을 쓰면 안 된다는 것이 아니다** — 같아도 무방하다. 어차피 날짜와
+// 함께 해시하므로 되돌릴 수 없고, 두 서비스를 오간 사람을 같은 방문자로 세는 것은 오히려 맞다.
 
 /**
  * 실을 수 있는 본문의 상한. 경로와 로케일과 메뉴 구분뿐이라 4KB면 넘치고도 남는다.

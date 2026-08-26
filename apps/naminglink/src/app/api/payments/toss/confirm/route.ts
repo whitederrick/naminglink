@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { markPremiumSessionPaid } from "@/lib/premium-session";
+import { checkRateLimit } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 import { confirmTossPayment, tossPaymentAllowed } from "@/lib/toss";
 
@@ -31,6 +32,13 @@ export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams;
   const paymentKey = query.get("paymentKey") ?? "";
   const orderId = query.get("orderId") ?? "";
+
+  // 다른 결제 라우트와 달리 이 라우트만 레이트리밋이 없었다 — 여기서 매 요청마다
+  // confirmTossPayment(실제 토스 API 호출)가 나간다(2026-08-26 코드 리뷰에서 발견,
+  // 네 앱 전부 같은 공백이었다). 정상 재요청(새로고침·복귀)까지 막지 않게 넉넉히 잡는다.
+  if (!(await checkRateLimit(request, "naming_toss_confirm", { windowSeconds: 3600, limit: 30 }))) {
+    return backTo(request, "/", { payment: "failed" });
+  }
 
   if (!paymentKey || !UUID.test(orderId)) {
     return backTo(request, "/", { payment: "invalid" });

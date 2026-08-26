@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createHmac } from "node:crypto";
 import { z } from "zod";
-import { checkRateLimit } from "@/lib/request-guard";
+import { checkRateLimit, getDailyVisitorHash } from "@/lib/request-guard";
 import { getSupabaseAdminClient } from "@/lib/supabase";
 
 // 신고 채널(관측망). naminglink의 같은 경로와 짝이고 같은 locale_reports 표에 쓴다.
@@ -33,24 +32,8 @@ function isHttpUrl(value: string) {
   }
 }
 
-function getRequestIp(request: NextRequest) {
-  const realIp = request.headers.get("x-real-ip")?.trim();
-  if (realIp) return realIp;
-  const forwarded = request.headers.get("x-forwarded-for");
-  if (forwarded) {
-    const parts = forwarded.split(",").map((part) => part.trim()).filter(Boolean);
-    if (parts.length) return parts[parts.length - 1];
-  }
-  return "local";
-}
-
-/** 하루 단위 방문자 식별자. 원래 IP는 남기지 않는다. */
-function getDailyVisitorHash(request: NextRequest) {
-  const secret = process.env.ANALYTICS_HASH_SALT ?? process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!secret) return null;
-  const day = new Date().toISOString().slice(0, 10);
-  return createHmac("sha256", secret).update(`${day}:${getRequestIp(request)}`).digest("hex");
-}
+// getDailyVisitorHash는 request-guard.ts에서 가져온다 — 예전에는 여기·analytics·
+// request-guard 세 곳에 같은 함수가 복붙돼 있었다(2026-08-26 코드 리뷰에서 발견).
 
 // 본문은 URL과 자유서술뿐이라 4KB면 넘치고도 남는다(analytics/route.ts와 같은 상한).
 const MAX_BODY_BYTES = 4 * 1024;

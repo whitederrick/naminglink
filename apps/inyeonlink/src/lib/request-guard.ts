@@ -13,7 +13,7 @@ import { getSupabaseAdminClient } from "@/lib/supabase";
 // 하루 단위 식별자로 쓴다 — 원래 IP를 저장하지 않으면서도 같은 사람의 반복 요청은 셀 수 있다.
 // 입력을 저장하지 않는다는 이 서비스의 원칙과 충돌하지 않는다.
 
-function getRequestIp(request: NextRequest) {
+export function getRequestIp(request: NextRequest) {
   // x-real-ip는 Vercel 등 신뢰 프록시가 실제 클라이언트 IP로 덮어쓴다.
   // x-forwarded-for의 첫 값은 클라이언트가 위조할 수 있으므로, 프록시가 마지막에 덧붙이는
   // 값(맨 오른쪽)을 쓴다 — 헤더를 돌려 한도를 우회하는 것을 막는다.
@@ -28,7 +28,7 @@ function getRequestIp(request: NextRequest) {
 }
 
 /** 하루 단위 방문자 식별자. 원래 IP는 남기지 않는다. */
-function getDailyVisitorHash(request: NextRequest) {
+export function getDailyVisitorHash(request: NextRequest) {
   const secret =
     process.env.ANALYTICS_HASH_SALT ?? process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!secret) return null;
