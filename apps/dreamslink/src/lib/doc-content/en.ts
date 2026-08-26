@@ -90,7 +90,7 @@ export const EN_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Basis for the Service",
     "title": "What is the basis of the symbol dictionary?",
-    "summary": "It clarifies where the interpretations come from. The criteria for dividing 215 symbols into nine categories, the reason only 24 can be substantiated, and why we do not fill in the gaps.",
+    "summary": "It clarifies where the interpretations come from. The criteria for dividing 216 symbols into nine categories, the reason only 24 can be substantiated, and why we do not fill in the gaps.",
     "backLabel": "Basis for Interpretation",
     "sections": [
       {
@@ -221,7 +221,7 @@ export const EN_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Service Basis",
     "title": "The reason the same symbol has different meanings",
-    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 215 symbols have 256 meanings and how to interpret situations.",
+    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 216 symbols have 262 meanings and how to interpret situations.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {

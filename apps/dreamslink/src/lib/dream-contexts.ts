@@ -12,6 +12,17 @@ export const CONTEXT_EN: Record<string, string> = {
   "임신 태몽 아기 아이 임산부 출산": "pregnant pregnancy expecting baby infant childbirth",
   "뱀을 잡거나 품": "catch caught hold held holding",
   "뱀에게 물림": "bite bitten bit",
+
+  // 돼지 — 죽임 / 저절로 죽음 (주공해몽, 2026-08-26)
+  "돼지를 죽임": "killed killing slaughter slaughtered butchered",
+  "돼지가 저절로 죽음": "died dying naturally sick illness",
+
+  // 죽음 — 본인이 죽음 / 타인이 죽음 (주공해몽, 2026-08-26)
+  // **"died"를 넣지 않는다** — 두 의미 모두에 해당하는 낱말이라 넣으면 항상 동점이 나고
+  // 먼저 검사되는 이쪽이 늘 이긴다(`dream-contexts-ko.ts`와 같은 이유, 실측으로 확인).
+  // 주어를 가리키는 낱말만 남긴다.
+  "자신이 죽음": "myself personally own",
+  "타인이 죽는 것을 봄": "someone else friend family father mother",
   "용이 승천": "dragon ascend ascending",
   "호랑이를 타거나 물리침": "tiger ride riding defeat defeated",
   "호랑이에게 쫓김": "tiger chase chased",
@@ -80,6 +91,11 @@ export const CONTEXT_EN: Record<string, string> = {
   "자유롭게 낢": "freely free soaring high joy",
   "떨어질까 두려움": "afraid fear feared falling scared anxious",
   "무언가에 쫓김": "chase chased",
+  // **"chase/chasing"을 넣지 않는다** — 이 상징 자체가 그 낱말로 걸려서 온 것이라 두 의미
+  // 모두에 항상 점수를 주고, 먼저 검사되는 이 의미가 동점에서 늘 이겨 "놓침"이 안 뽑힌다
+  // (`dream-contexts-ko.ts`와 같은 이유, 실측으로 확인).
+  "동물이나 사람을 쫓아감": "caught catching gained closing",
+  "쫓다가 놓침": "lost losing missed escape escaped",
   "시험을 못 봄": "test fail failed",
   "본인의 결혼": "wedding marry",
   "자신/타인의 죽음": "death die dying",

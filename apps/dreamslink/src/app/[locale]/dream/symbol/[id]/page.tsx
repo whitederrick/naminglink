@@ -11,6 +11,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import {
   contextText,
   cultureNote,
+  meaningSource,
+  meaningSourceLabel,
   meaningText,
   readingLanguage,
   symbolTerm,
@@ -83,6 +85,14 @@ export default async function Page({ params }: Props) {
   const ko = language === "ko";
   const related = relatedSymbols(symbol);
   const themes = themeLabels(symbol.tags ?? [], language);
+  // 전통과 일반 해석은 절부터 가른다 — "전해 오는 뜻" 제목 아래에 전통 근거 없는 해석을
+  // 두면 출처를 속이는 셈이 된다(dream-symbols.ts 머리말 참고).
+  const traditionMeanings = symbol.meanings.filter(
+    (meaning) => meaningSource(meaning) === "tradition",
+  );
+  const generalMeanings = symbol.meanings.filter(
+    (meaning) => meaningSource(meaning) === "general",
+  );
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
@@ -98,7 +108,12 @@ export default async function Page({ params }: Props) {
       </div>
       <div aria-hidden className="fixed inset-0 z-0 bg-[#f9f8fc]/25" />
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/dream" width="max-w-3xl" />
+        <PageHeader
+          locale={locale}
+          path="/dream"
+          width="max-w-3xl"
+          ad={{ slotKey: "symbol_detail_header" }}
+        />
         <div className="mx-auto w-full max-w-3xl px-6 pb-16">
           <PageTitle
             locale={locale}
@@ -107,43 +122,74 @@ export default async function Page({ params }: Props) {
             className="mt-10"
           />
 
-          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
-              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
-              아래는 아무도 안 본다. */}
-          <AdBanner variant="header" slotKey="symbol_detail_header" locale={locale} />
-
 
           <div className="mt-10 grid gap-6">
             {/* 전해 오는 뜻. 의미가 여럿이면 상황별로 나눠 보여 준다 — 사전이 그렇게 갈라
-                두었고(뱀을 품으면 길, 물리면 흉), 그 구분이 곧 이 상징을 이해하는 열쇠다. */}
-            <section>
-              <h2 className="mb-3 text-lg font-semibold">
-                {ko ? "전해 오는 뜻" : "What it has traditionally meant"}
-              </h2>
-              <div className="grid gap-3">
-                {symbol.meanings.map((meaning, index) => (
-                  <div
-                    key={index}
-                    className="rounded-xl border border-line bg-surface p-5"
-                  >
-                    {/* **상황은 한국어 한 벌뿐이다.** 접근자 없이 그리면 영어 화면에 한국어가
-                        섞인다(`contextText` 주석 참고). 없으면 그 줄이 통째로 빠진다. */}
-                    {contextText(meaning.context, language) ? (
-                      <p className="text-xs font-semibold text-brand-violet">
-                        {`${meaning.context}일 때`}
-                      </p>
-                    ) : null}
-                    <p
-                      className={`break-keep-all text-sm leading-6 ${
-                        contextText(meaning.context, language) ? "mt-1" : ""
-                      }`}
+                두었고(뱀을 품으면 길, 물리면 흉), 그 구분이 곧 이 상징을 이해하는 열쇠다.
+                **일반 해석(`source: "general"`)은 여기 섞지 않는다** — 이 절 제목이
+                "전해 오는 뜻"이라 전통이 아닌 것을 여기 넣으면 출처를 속이는 셈이 된다
+                (2026-08-26). 아래 별도 절로 갈랐다. */}
+            {traditionMeanings.length ? (
+              <section>
+                <h2 className="mb-3 text-lg font-semibold">
+                  {ko ? "전해 오는 뜻" : "What it has traditionally meant"}
+                </h2>
+                <div className="grid gap-3">
+                  {traditionMeanings.map((meaning, index) => (
+                    <div
+                      key={index}
+                      className="rounded-xl border border-line bg-surface p-5"
                     >
-                      {meaningText(meaning, language)}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </section>
+                      {/* **상황은 한국어 한 벌뿐이다.** 접근자 없이 그리면 영어 화면에 한국어가
+                          섞인다(`contextText` 주석 참고). 없으면 그 줄이 통째로 빠진다. */}
+                      {contextText(meaning.context, language) ? (
+                        <p className="text-xs font-semibold text-brand-violet">
+                          {`${meaning.context}일 때`}
+                        </p>
+                      ) : null}
+                      <p
+                        className={`break-keep-all text-sm leading-6 ${
+                          contextText(meaning.context, language) ? "mt-1" : ""
+                        }`}
+                      >
+                        {meaningText(meaning, language)}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+
+            {/* 일반적인 해석. 전통 근거는 없지만 사람이 검토해 실었다 — 절 제목으로 먼저
+                구분하고 한 번 더 "전통 해몽"이 아니라고 밝힌다. */}
+            {generalMeanings.length ? (
+              <section>
+                <h2 className="mb-3 text-lg font-semibold">
+                  {meaningSourceLabel("general", language)}
+                </h2>
+                <div className="grid gap-3">
+                  {generalMeanings.map((meaning, index) => (
+                    <div
+                      key={index}
+                      className="rounded-xl border border-dashed border-line bg-surface p-5"
+                    >
+                      {contextText(meaning.context, language) ? (
+                        <p className="text-xs font-semibold text-muted">
+                          {`${meaning.context}일 때`}
+                        </p>
+                      ) : null}
+                      <p
+                        className={`break-keep-all text-sm leading-6 ${
+                          contextText(meaning.context, language) ? "mt-1" : ""
+                        }`}
+                      >
+                        {meaningText(meaning, language)}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ) : null}
 
             {cultureNote(symbol.culture_note, language) ? (
               <section className="rounded-xl border border-line bg-surface p-5">

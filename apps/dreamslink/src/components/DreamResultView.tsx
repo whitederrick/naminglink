@@ -8,6 +8,8 @@ import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { trackAnalytics } from "@/lib/analytics-client";
 import {
   cultureNote,
+  meaningSource,
+  meaningSourceLabel,
   meaningText,
   readingLanguage,
   symbolTerm,
@@ -84,10 +86,19 @@ export function DreamResultView({
       .then(({ outcome, input }) => {
         if (cancelled) return;
         setState({ status: "ready", outcome, input });
+        // **사전 갭 계측.** 상징 id는 216개 닫힌 목록의 분류값이지 꿈 원문이 아니다(자세한
+        // 근거는 `analytics-client.ts` 머리말). `contextMatchedCount`가 `matchedCount`보다
+        // 작을수록 "대표 의미로만 떨어진" 상징이 많았다는 뜻 — 다음에 문맥을 넓힐 우선순위를
+        // 감이 아니라 이 숫자로 정한다.
         void trackAnalytics({
           eventType: "ANALYSIS_COMPLETED",
           serviceType: "DREAM_READING",
           locale,
+          metadata: {
+            matchedCount: outcome.matched.length,
+            matchedIds: outcome.matched.map((item) => item.id).join(","),
+            contextMatchedCount: outcome.matched.filter((item) => item.contextMatched).length,
+          },
         });
       })
       .catch(() => {
@@ -144,7 +155,17 @@ export function DreamResultView({
                 {/* **한국어를 박아 두지 말 것.** 예전에는 `item.term`(= term_ko)과
                     `interpretation_ko`를 그대로 그려, 스물세 언어 전부에서 상징 이름과 풀이가
                     한국어로 나갔다. 고르는 규칙은 `lib/dream-language.ts` 한 곳에 있다. */}
-                <p className="font-semibold">{symbolTerm(item, language)}</p>
+                <div className="flex flex-wrap items-baseline justify-between gap-x-2">
+                  <p className="font-semibold">{symbolTerm(item, language)}</p>
+                  {/* **일반 해석에만 라벨을 붙인다** (2026-08-26). 전통은 지금까지처럼
+                      아무 표시가 없다 — 라벨을 둘 다 붙이면 "일반적인 해석"이 마치 전통과
+                      대등한 자격을 얻은 것처럼 읽힌다. 구분이 필요한 쪽에만 표시한다. */}
+                  {meaningSource(item.meaning) === "general" ? (
+                    <span className="rounded-full border border-line bg-surface-strong px-2 py-0.5 text-[11px] font-semibold text-muted">
+                      {meaningSourceLabel("general", language)}
+                    </span>
+                  ) : null}
+                </div>
                 <p className="break-keep-all mt-1 text-sm leading-6 text-muted">
                   {meaningText(item.meaning, language)}
                 </p>
@@ -198,7 +219,18 @@ export function DreamResultView({
         </section>
       ) : null}
 
-      {/* 파는 자리. **결과를 다 읽은 뒤, 광고보다 앞**이다 — 파는 것이 먼저다.
+      {/* 중간 배너. 읽을 것이 끝난 자리가 아니라 **읽는 도중**의 섹션 경계에 둔다 — 사주링크
+          `SajuResultView`와 같은 자리(상징 다 읽은 뒤, 파는 자리 전)다. 예전에는 이 배너가
+          꿈카드·태몽 리포트 패널보다 **아래**에 있어 "꿈카드로 간직하기" 버튼 밑에 묻혀
+          있었다(2026-08-26 사용자 지적) — 위아래로 버튼이 없는 자리로 옮긴다. */}
+      <AdBanner
+        variant="inline"
+        slotKey="dream_result_inline"
+        locale={locale}
+        className="mb-6 mt-6"
+      />
+
+      {/* 파는 자리. **결과를 다 읽은 뒤, 광고 다음**이다 — 파는 것이 먼저다.
           예전에는 `ReportPurchasePanel`이 만들어져 있는데 **어디에서도 부르지 않았다.**
           상품을 켜는 날 구매로 가는 길이 없는 상태였다(사주링크가 같은 자리를 고쳤다).
 
@@ -227,15 +259,6 @@ export function DreamResultView({
           offerPrice={conceptionPrice}
         />
       ) : null}
-
-      {/* 결과를 다 읽은 **뒤** 자리다(`adSlots.result`의 정의와 같다). 상징 카드 사이에 끼우면
-          읽는 흐름이 끊기고, 애드센스가 콘텐츠로 오인될 자리를 만든다. */}
-      <AdBanner
-        variant="inline"
-        slotKey="dream_result_inline"
-        locale={locale}
-        className="mb-12 mt-6"
-      />
 
       <p className="break-keep-all text-xs leading-5 text-muted">{t.disclaimer}</p>
     </div>

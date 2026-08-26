@@ -48,6 +48,28 @@ export function meaningText(meaning: DreamMeaning, language: ReadingLanguage): s
 }
 
 /**
+ * 이 의미가 전통 해몽인지 일반적인 해석인지 가른다.
+ *
+ * **화면은 이 값으로 절을 나눈다** — 전통(`source`가 없거나 `"tradition"`)과 일반(사람이
+ * 검토했지만 전통 근거는 없는 것)을 같은 절에 섞지 않는다. 문구가 아니라 값을 돌려주는
+ * 이유는 절 제목·`aria-label`처럼 부르는 자리마다 문구가 다를 수 있어서다.
+ */
+export function meaningSource(meaning: Pick<DreamMeaning, "source">): "tradition" | "general" {
+  return meaning.source === "general" ? "general" : "tradition";
+}
+
+/** 위 값의 화면 라벨. 상징 상세·결과 화면이 절 제목에 쓴다. */
+export function meaningSourceLabel(
+  source: "tradition" | "general",
+  language: ReadingLanguage,
+): string {
+  if (source === "tradition") {
+    return language === "ko" ? "전통 해몽" : "Traditional";
+  }
+  return language === "ko" ? "일반적인 해석" : "General interpretation";
+}
+
+/**
  * 전해 오는 배경 한 줄(`culture_note`).
  *
  * **한국어로만 있고 24개뿐이다.** 영어 판이 없으므로 영어로 읽는 사람에게는 아예 보이지

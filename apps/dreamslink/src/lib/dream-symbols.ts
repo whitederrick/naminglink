@@ -7,8 +7,13 @@ import data from "@/lib/dream-symbols.data.json";
  *
  * **모델을 사전에 묶어 둔다.** 해몽은 "그럴듯한 말"을 무한히 지어낼 수 있는 영역이라, 근거를
  * 걸어 두지 않으면 모델이 전통에 없는 의미를 전통인 양 쓴다. 그래서 규칙은 하나다 —
- * **`traditional` 서술은 여기 있는 의미에서만 나온다.** 매칭이 0건이면 전통 해석을 만들지 않고
- * "전통 상징을 찾지 못했다"고 말한다.
+ * **전통 서술은 `meaning.source`가 `"tradition"`(또는 생략)인 의미에서만 나온다.** 매칭이
+ * 0건이면 전통 해석을 만들지 않고 "전통 상징을 찾지 못했다"고 말한다.
+ *
+ * **`source: "general"`은 예외를 허용하는 것이지 규칙을 없애는 것이 아니다** (2026-08-26).
+ * 사전이 얕아 흔한 상황(예: "쫓아다니는 개")에 문맥이 없는 공백을 사람이 검토한 일반적인
+ * 해석으로 메우되, **전통과 절대 같은 절에서 섞어 보여주지 않는다** — 화면이 출처별로
+ * 나눈다. `DreamMeaning.source` 주석 참고.
  *
  * ## 사전이 얕다는 사실을 알고 쓴다
  *
@@ -24,6 +29,20 @@ import data from "@/lib/dream-symbols.data.json";
 
 export type DreamPolarity = "positive" | "negative" | "neutral" | "ambivalent";
 
+/**
+ * 이 의미의 출처. **없으면 `"tradition"`이다**(기존 215개 항목 전부가 이것이고,
+ * `scripts/backfill-dream-meaning-source.mjs`가 명시적으로 채워 두었다 — 값을 생략해서
+ * "어차피 기본값" 상태로 남겨 두지 않는다).
+ *
+ * `"general"`은 전통 근거(`culture_note`류)를 못 대지만 사람이 검토해 실은 일반적인 해석이다
+ * (2026-08-26, "강아지를 쫓아다니는 꿈"처럼 흔한 상황인데 사전에 문맥이 없어 생기는 공백을
+ * 메우려고 도입 — `dream-dictionary-cannot-be-model-grown` 메모). **`"tradition"`과 같은
+ * 절에서 섞어 보여주지 않는다** — `dream-symbols.ts` 머리말의 "전통 서술은 여기 있는 의미에서만
+ * 나온다"는 약속이 `"tradition"`에만 적용된다는 뜻이고, 화면(`DreamResultView`·상징 상세
+ * 페이지)이 절을 분리해서 그린다.
+ */
+export type DreamMeaningSource = "tradition" | "general";
+
 export type DreamMeaning = {
   /**
    * 어떤 상황일 때의 의미인가. 비어 있으면 그 상징의 기본 의미다.
@@ -36,6 +55,7 @@ export type DreamMeaning = {
   interpretation_ko: string;
   interpretation_en: string;
   polarity?: DreamPolarity;
+  source?: DreamMeaningSource;
 };
 
 export type DreamSymbol = {

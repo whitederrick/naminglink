@@ -10,8 +10,12 @@ import { getSupabaseAdminClient } from "@/lib/supabase";
  * **`app`은 서버가 박는다.** 클라이언트가 보내는 값을 믿으면 남의 서비스 통계에 행을 넣을 수
  * 있다. 이 라우트는 드림링크 배포에만 있으므로 값이 하나로 정해진다.
  *
- * **생년월일은 물론이고 경로 외의 아무것도 받지 않는다.** 입력을 저장하지 않는 것이 이 서비스의
- * 원칙이라, 스키마에 `metadata`를 아예 두지 않았다(naminglink에는 있다).
+ * **생년월일은 물론이고 꿈 원문은 절대 받지 않는다.** 입력을 저장하지 않는 것이 이 서비스의
+ * 원칙이다.
+ *
+ * **`metadata`는 2026-08-26에 naminglink와 같은 얕은 record로 열었다.** 담기는 것은 216개
+ * 닫힌 목록의 상징 id뿐이라 꿈 내용을 복원할 수 없다 — 사전의 빈 자리를 실측으로 찾으려는
+ * 것이다(`lib/analytics-client.ts` 머리말 참고).
  */
 
 export const runtime = "nodejs";
@@ -24,6 +28,7 @@ const schema = z.object({
   // 클라이언트(DreamForm.tsx·DreamResultView.tsx)는 "DREAM_READING"만 보내므로 모든
   // 분석 이벤트가 이 스키마에서 거부돼 site_events에 한 건도 안 남고 있었다(2026-08-26 발견).
   serviceType: z.enum(["DREAM_READING"]).optional(),
+  metadata: z.record(z.string(), z.union([z.string(), z.number(), z.boolean(), z.null()])).optional(),
 });
 
 function getCountryCode(request: NextRequest) {
@@ -87,7 +92,7 @@ export async function POST(request: NextRequest) {
     country_code: getCountryCode(request),
     service_type: parsed.data.serviceType ?? null,
     visitor_hash: getDailyVisitorHash(request),
-    metadata: {},
+    metadata: parsed.data.metadata ?? {},
   });
   if (error) {
     console.error("Failed to record analytics event", error);

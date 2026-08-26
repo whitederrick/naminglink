@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.3.0",
+  "dictVer": "1.5.0",
   "symbols": [
     {
       "id": "pig",
@@ -16,19 +16,35 @@
         "태몽"
       ],
       "weight": 3,
-      "culture_note": "한국 대표 재물 길몽",
+      "culture_note": "한국 대표 재물 길몽 — 돼지를 잡는 꿈은 성취·재물의 조짐으로 널리 풀이된다. 중국 고전 《주공해몽》 「殺豬吉豬自死凶」(돼지를 잡으면 길하고 저절로 죽으면 흉하다)을 1차 근거로 삼고, 오늘날 한국 해몽 자료의 통설과도 어긋나지 않음을 대조 확인했다.",
       "meanings": [
         {
           "context": "돼지가 집에 들어오거나 품",
           "interpretation_ko": "재물·횡재수",
           "interpretation_en": "incoming wealth / windfall",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 재물복을 지닌 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "돼지를 죽임",
+          "interpretation_ko": "재물이나 이로운 일이 생김",
+          "interpretation_en": "a sign of gain or benefit",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "돼지가 저절로 죽음",
+          "interpretation_ko": "재물이 새거나 좋지 않은 조짐",
+          "interpretation_en": "a sign of loss or misfortune",
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -53,13 +69,15 @@
           "context": "뱀을 잡거나 품",
           "interpretation_ko": "재물·태몽 가능",
           "interpretation_en": "wealth or conception omen",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "뱀에게 물림",
           "interpretation_ko": "구설·건강 주의",
           "interpretation_en": "caution: disputes or health",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -85,7 +103,8 @@
           "context": "용이 승천",
           "interpretation_ko": "큰 성공·명예·귀한 태몽",
           "interpretation_en": "great success, honor, noble birth omen",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -110,19 +129,22 @@
           "context": "호랑이를 타거나 물리침",
           "interpretation_ko": "권력·귀인·출세",
           "interpretation_en": "power, patron, advancement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "호랑이에게 쫓김",
           "interpretation_ko": "위협·강한 압박",
           "interpretation_en": "threat or pressure",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 기개가 큰 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -146,13 +168,15 @@
           "context": "온순한 개",
           "interpretation_ko": "친구·조력자",
           "interpretation_en": "friend or helper",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "개에게 물림",
           "interpretation_ko": "배신·다툼",
           "interpretation_en": "betrayal or conflict",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -174,7 +198,8 @@
           "context": "고양이가 노려봄",
           "interpretation_ko": "질투·구설·숨은 적",
           "interpretation_en": "jealousy, gossip, hidden rival",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -199,13 +224,15 @@
           "context": "살진 소",
           "interpretation_ko": "재물·근면의 결실",
           "interpretation_en": "wealth, fruit of diligence",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 부지런하고 복이 있는 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -229,13 +256,15 @@
           "context": "말을 탐",
           "interpretation_ko": "출세·좋은 이동·승진",
           "interpretation_en": "advancement, favorable move",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 활달하고 크게 나아가는 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -259,7 +288,8 @@
           "context": "수탉이 욺",
           "interpretation_ko": "새 소식·시작",
           "interpretation_en": "news or new beginning",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -283,13 +313,15 @@
           "context": "물고기를 잡음",
           "interpretation_ko": "재물·성취",
           "interpretation_en": "wealth or achievement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 자식을 얻는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -314,7 +346,8 @@
           "context": "잉어가 뛰어오름",
           "interpretation_ko": "큰 재물·귀한 태몽·입신",
           "interpretation_en": "great fortune, noble birth, success",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -335,7 +368,8 @@
           "context": "새가 날아옴",
           "interpretation_ko": "소식·기회",
           "interpretation_en": "news or opportunity",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -357,7 +391,8 @@
           "context": "까치가 욺",
           "interpretation_ko": "기쁜 소식·손님",
           "interpretation_en": "good news or guest",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -378,7 +413,8 @@
           "context": "까마귀가 욺",
           "interpretation_ko": "불길한 소식·근심",
           "interpretation_en": "ill news or worry",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -402,13 +438,15 @@
           "context": "거북이가 나타남",
           "interpretation_ko": "장수·재물·귀인",
           "interpretation_en": "longevity, wealth, patron",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 장수하는 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -429,13 +467,15 @@
           "context": "쥐가 곡식을 모음",
           "interpretation_ko": "재물 축적",
           "interpretation_en": "accumulating wealth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "쥐가 물건을 갉음",
           "interpretation_ko": "손실·좀도둑",
           "interpretation_en": "loss or petty theft",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -457,7 +497,8 @@
           "context": "곰을 봄",
           "interpretation_ko": "귀인·아들 태몽",
           "interpretation_en": "patron or son-birth omen",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -481,13 +522,15 @@
           "context": "사슴을 봄",
           "interpretation_ko": "귀인·경사",
           "interpretation_en": "patron or happy event",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀하고 순한 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -508,7 +551,8 @@
           "context": "토끼를 봄",
           "interpretation_ko": "다산·평온",
           "interpretation_en": "fertility or calm",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -530,13 +574,15 @@
           "context": "봉황이 나타남",
           "interpretation_ko": "큰 명예·귀한 인연",
           "interpretation_en": "great honor or noble bond",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -557,7 +603,8 @@
           "context": "나비가 날아듦",
           "interpretation_ko": "연애·변화·경사",
           "interpretation_en": "romance or transformation",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -583,13 +630,15 @@
           "context": "벌떼",
           "interpretation_ko": "근면의 결실·재물",
           "interpretation_en": "reward of diligence",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "벌에 쏘임",
           "interpretation_ko": "작은 다툼·손해",
           "interpretation_en": "minor conflict or loss",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -611,13 +660,15 @@
           "context": "아침 거미",
           "interpretation_ko": "재물·손님",
           "interpretation_en": "wealth or guest",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "거미줄에 얽힘",
           "interpretation_ko": "얽힌 근심",
           "interpretation_en": "entanglement or worry",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -638,7 +689,8 @@
           "context": "개구리가 뜀",
           "interpretation_ko": "재물·번창",
           "interpretation_en": "wealth or growth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -661,7 +713,8 @@
           "context": "벌레가 들끓음",
           "interpretation_ko": "근심·질병 주의(단 구더기는 재물)",
           "interpretation_en": "worry/illness (maggots = wealth)",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -683,7 +736,8 @@
           "context": "집안의 큰 구렁이",
           "interpretation_ko": "집안 재물·수호",
           "interpretation_en": "household wealth or guardian",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -706,7 +760,8 @@
           "context": "맑고 잔잔한 물",
           "interpretation_ko": "재물·정서적 안정",
           "interpretation_en": "wealth and emotional calm",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -729,7 +784,8 @@
           "context": "탁한 물",
           "interpretation_ko": "근심·혼란·건강 주의",
           "interpretation_en": "worry, confusion, health caution",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -752,13 +808,15 @@
           "context": "맑은 물의 큰 홍수",
           "interpretation_ko": "큰 재물·기회",
           "interpretation_en": "great wealth or opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "휩쓸림",
           "interpretation_ko": "통제 못할 변화·손실",
           "interpretation_en": "overwhelming change or loss",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -779,13 +837,15 @@
           "context": "잔잔한 바다",
           "interpretation_ko": "큰 기회·포부",
           "interpretation_en": "big opportunity or ambition",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "거친 파도",
           "interpretation_ko": "감정의 동요",
           "interpretation_en": "emotional turbulence",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -808,7 +868,8 @@
           "context": "강을 건넘",
           "interpretation_ko": "전환·통과의례",
           "interpretation_en": "transition or passage",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -832,13 +893,15 @@
           "context": "단비",
           "interpretation_ko": "정화·재물·해갈",
           "interpretation_en": "cleansing, wealth, relief",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "궂은 비",
           "interpretation_ko": "우울·지연",
           "interpretation_en": "gloom or delay",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -863,13 +926,15 @@
           "context": "활활 크게 타오름",
           "interpretation_ko": "번성·재물·명성",
           "interpretation_en": "prosperity, wealth, fame",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "작은 불·꺼져감",
           "interpretation_ko": "근심·기력 소진",
           "interpretation_en": "worry or burnout",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -892,7 +957,8 @@
           "context": "산 정상에 오름",
           "interpretation_ko": "목표 달성·지위 상승",
           "interpretation_en": "goal reached, rising status",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -916,7 +982,8 @@
           "context": "무성한 나무",
           "interpretation_ko": "성장·가문 번성",
           "interpretation_en": "growth or family prosperity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -940,19 +1007,22 @@
           "context": "활짝 핀 꽃",
           "interpretation_ko": "경사·연애·번영",
           "interpretation_en": "joy, romance, flourishing",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "시든 꽃",
           "interpretation_ko": "쇠퇴·이별",
           "interpretation_en": "decline or parting",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -978,13 +1048,15 @@
           "context": "떠오르는 태양",
           "interpretation_ko": "권위·희망·번영",
           "interpretation_en": "authority, hope, prosperity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1009,13 +1081,15 @@
           "context": "밝은 보름달",
           "interpretation_ko": "소망 성취·귀함",
           "interpretation_en": "wish granted, nobility",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1039,7 +1113,8 @@
           "context": "별이 품에 듦",
           "interpretation_ko": "귀한 태몽·소망",
           "interpretation_en": "noble birth or wish",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1060,7 +1135,8 @@
           "context": "선명한 무지개",
           "interpretation_ko": "희망·경사·화해",
           "interpretation_en": "hope, joy, reconciliation",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1083,13 +1159,15 @@
           "context": "깨끗한 눈",
           "interpretation_ko": "정화·행운",
           "interpretation_en": "purity or luck",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "눈보라",
           "interpretation_ko": "고립·시련",
           "interpretation_en": "isolation or hardship",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1112,7 +1190,8 @@
           "context": "강한 바람",
           "interpretation_ko": "변화·소식",
           "interpretation_en": "change or news",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1135,7 +1214,8 @@
           "context": "번개가 침",
           "interpretation_ko": "갑작스런 변화·깨달음",
           "interpretation_en": "sudden change or insight",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1159,13 +1239,15 @@
           "context": "오색구름",
           "interpretation_ko": "귀한 경사",
           "interpretation_en": "noble fortune",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "먹구름",
           "interpretation_ko": "불확실·근심",
           "interpretation_en": "uncertainty or worry",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1186,7 +1268,8 @@
           "context": "맑은 물이 솟는 우물",
           "interpretation_ko": "재물·복의 근원",
           "interpretation_en": "source of wealth or blessing",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1207,7 +1290,8 @@
           "context": "땅이 흔들림",
           "interpretation_ko": "큰 변화·기반 불안",
           "interpretation_en": "upheaval or instability",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1237,13 +1321,15 @@
           "context": "윗니가 빠짐",
           "interpretation_ko": "윗사람/부모 관련 근심",
           "interpretation_en": "concern about elders/parents",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         },
         {
           "context": "피 없이 빠짐",
           "interpretation_ko": "변화·전환",
           "interpretation_en": "transition or change",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1267,13 +1353,15 @@
           "context": "머리가 빠짐",
           "interpretation_ko": "기력·재물 손실",
           "interpretation_en": "loss of vitality or wealth",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         },
         {
           "context": "머리를 자름",
           "interpretation_ko": "근심 정리·새 출발",
           "interpretation_en": "clearing worry, fresh start",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1296,7 +1384,8 @@
           "context": "피를 봄/묻음",
           "interpretation_ko": "재물·활력",
           "interpretation_en": "wealth or vitality",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1320,7 +1409,8 @@
           "context": "똥을 밟거나 몸에 묻음",
           "interpretation_ko": "재물·행운",
           "interpretation_en": "wealth or luck",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1343,7 +1433,8 @@
           "context": "시원하게 봄",
           "interpretation_ko": "근심 해소·재물",
           "interpretation_en": "relief of worry, wealth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1364,7 +1455,8 @@
           "context": "손톱이 빠짐",
           "interpretation_ko": "기력·자원 손실",
           "interpretation_en": "loss of energy or resources",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1391,13 +1483,15 @@
           "context": "사람들 앞에서 벌거벗음",
           "interpretation_ko": "수치·취약함·노출 불안",
           "interpretation_en": "shame or vulnerability",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         },
         {
           "context": "개의치 않음",
           "interpretation_ko": "해방·솔직함",
           "interpretation_en": "liberation or authenticity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1420,7 +1514,8 @@
           "context": "임신한 꿈",
           "interpretation_ko": "새 시작·기르는 일·프로젝트",
           "interpretation_en": "new beginning or nurtured project",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1443,7 +1538,8 @@
           "context": "피나는 상처",
           "interpretation_ko": "(피=재물) 재물 또는 심리적 상처",
           "interpretation_en": "wealth (blood) or emotional hurt",
-          "polarity": "ambivalent"
+          "polarity": "ambivalent",
+          "source": "tradition"
         }
       ]
     },
@@ -1464,7 +1560,8 @@
           "context": "밝게 보임",
           "interpretation_ko": "통찰·진실 인식",
           "interpretation_en": "insight or seeing truth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1493,7 +1590,8 @@
           "context": "높은 곳에서 떨어짐",
           "interpretation_ko": "불안·통제감 상실·지위 걱정",
           "interpretation_en": "anxiety, loss of control",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1522,13 +1620,15 @@
           "context": "자유롭게 낢",
           "interpretation_ko": "자유·성취·상승 욕구",
           "interpretation_en": "freedom, achievement, ambition",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "떨어질까 두려움",
           "interpretation_ko": "성취 뒤 불안",
           "interpretation_en": "anxiety about success",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1557,7 +1657,45 @@
           "context": "무언가에 쫓김",
           "interpretation_ko": "스트레스·회피 중인 문제",
           "interpretation_en": "stress or avoided problem",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
+        }
+      ]
+    },
+    {
+      "id": "chasing",
+      "term_ko": "쫓음",
+      "term_en": "chasing",
+      "aliases": [
+        "쫓아다니",
+        "쫓아가",
+        "쫓는",
+        "쫓았",
+        "추격",
+        "뒤쫓",
+        "쫓다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "tags": [
+        "추진력",
+        "욕구"
+      ],
+      "weight": 2,
+      "meanings": [
+        {
+          "context": "동물이나 사람을 쫓아감",
+          "interpretation_ko": "원하는 것을 향해 적극적으로 나아가는 마음",
+          "interpretation_en": "actively moving toward something you want",
+          "polarity": "positive",
+          "source": "general"
+        },
+        {
+          "context": "쫓다가 놓침",
+          "interpretation_ko": "원하는 것을 아직 붙잡지 못한 상태",
+          "interpretation_en": "not yet having caught up with what you're after",
+          "polarity": "neutral",
+          "source": "general"
         }
       ]
     },
@@ -1583,7 +1721,8 @@
           "context": "시험을 못 봄",
           "interpretation_ko": "평가 불안·자기 검열",
           "interpretation_en": "performance anxiety",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1610,7 +1749,8 @@
           "context": "본인의 결혼",
           "interpretation_ko": "큰 변화(전통상 흉으로도 봄)",
           "interpretation_en": "major change (sometimes ill-omened)",
-          "polarity": "ambivalent"
+          "polarity": "ambivalent",
+          "source": "tradition"
         }
       ]
     },
@@ -1630,13 +1770,28 @@
         "재생"
       ],
       "weight": 3,
-      "culture_note": "죽음꿈은 재생·장수의 길몽으로 봄",
+      "culture_note": "죽음꿈은 재생·장수의 길몽으로 봄 — 흉한 장면이 오히려 길하게 뒤집히는 '반음몽(反陰夢)'의 대표 예다. 중국 고전 《주공해몽》 「見人死自死者吉」(남이 죽는 것보다 자신이 죽는 꿈이 더 길하다)을 1차 근거로 삼고, 한국 해몽 문헌에서도 자신의 죽음을 장수·대운의 시작으로 푸는 같은 원리가 확인된다.",
       "meanings": [
         {
           "context": "자신/타인의 죽음",
           "interpretation_ko": "끝과 새 시작·재생(현실 죽음 아님)",
           "interpretation_en": "endings & rebirth (not literal)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
+        },
+        {
+          "context": "자신이 죽음",
+          "interpretation_ko": "전통적으로 오히려 좋은 일이 생길 조짐으로 봄",
+          "interpretation_en": "traditionally seen as a sign that something good is coming",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "타인이 죽는 것을 봄",
+          "interpretation_ko": "그 관계나 상황에 변화가 있으리라는 신호",
+          "interpretation_en": "a sign of change in that relationship or situation",
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -1664,7 +1819,8 @@
           "context": "펑펑 욺",
           "interpretation_ko": "감정 해소·경사(반전)",
           "interpretation_en": "emotional release, good news",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1690,7 +1846,8 @@
           "context": "크게 웃음",
           "interpretation_ko": "뜻밖의 근심(반전)",
           "interpretation_en": "unexpected worry (reversal)",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1717,7 +1874,8 @@
           "context": "싸워 이김",
           "interpretation_ko": "갈등 해소·승리",
           "interpretation_en": "resolution or victory",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1743,7 +1901,8 @@
           "context": "길을 못 찾음",
           "interpretation_ko": "방향 상실·결정 어려움",
           "interpretation_en": "lost direction, indecision",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1769,7 +1928,8 @@
           "context": "깨끗이 씻음",
           "interpretation_ko": "근심 정화·회복",
           "interpretation_en": "cleansing of worry, renewal",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1796,7 +1956,8 @@
           "context": "위로 올라감",
           "interpretation_ko": "발전·승진",
           "interpretation_en": "progress or promotion",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1820,7 +1981,8 @@
           "context": "아래로 내려감",
           "interpretation_ko": "후퇴·지위 하락",
           "interpretation_en": "setback or decline",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1846,7 +2008,8 @@
           "context": "맛있게 배불리 먹음",
           "interpretation_ko": "풍요·만족",
           "interpretation_en": "abundance or satisfaction",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1870,7 +2033,8 @@
           "context": "물에 빠져 허우적",
           "interpretation_ko": "감정·상황에 압도됨",
           "interpretation_en": "overwhelmed by emotion/situation",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1896,7 +2060,8 @@
           "context": "순산",
           "interpretation_ko": "결실·새 국면",
           "interpretation_en": "fruition or new phase",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1920,7 +2085,8 @@
           "context": "땅을 파 무언가 나옴",
           "interpretation_ko": "숨은 재물·기회 발굴",
           "interpretation_en": "uncovering wealth or opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -1945,7 +2111,8 @@
           "context": "소중한 것을 잃음",
           "interpretation_ko": "상실 불안·놓친 기회",
           "interpretation_en": "fear of loss or missed chance",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -1970,13 +2137,15 @@
           "context": "돈이 들어옴",
           "interpretation_ko": "재물·기회",
           "interpretation_en": "income or opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "돈을 주움",
           "interpretation_ko": "뜻밖 지출·작은 손실(반대 해석)",
           "interpretation_en": "unexpected expense (reversal)",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2000,7 +2169,8 @@
           "context": "금·보석을 얻음",
           "interpretation_ko": "재물·귀한 인연",
           "interpretation_en": "wealth or precious bond",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2021,13 +2191,15 @@
           "context": "반지를 낌",
           "interpretation_ko": "결합·약속·연애",
           "interpretation_en": "union, promise, romance",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "반지를 잃음",
           "interpretation_ko": "관계 균열",
           "interpretation_en": "rift in relationship",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2050,13 +2222,15 @@
           "context": "칼을 쥠",
           "interpretation_ko": "결단력·권한",
           "interpretation_en": "decisiveness or authority",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "칼에 다침",
           "interpretation_ko": "다툼·상처",
           "interpretation_en": "conflict or injury",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2080,13 +2254,15 @@
           "context": "새 신발",
           "interpretation_ko": "새 인연·지위",
           "interpretation_en": "new partner or position",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "신발을 잃음",
           "interpretation_ko": "배우자·지위 상실 불안",
           "interpretation_en": "loss of partner or status",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2109,7 +2285,8 @@
           "context": "새 옷을 입음",
           "interpretation_ko": "새 역할·지위 상승",
           "interpretation_en": "new role or rising status",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2130,13 +2307,15 @@
           "context": "거울을 봄",
           "interpretation_ko": "자기 성찰·진실 직면",
           "interpretation_en": "self-reflection, facing truth",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         },
         {
           "context": "깨진 거울",
           "interpretation_ko": "관계·자아 균열",
           "interpretation_en": "broken bond or self-image",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2157,7 +2336,8 @@
           "context": "열쇠를 얻음",
           "interpretation_ko": "문제 해결·새 기회",
           "interpretation_en": "solution or new opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2180,13 +2360,15 @@
           "context": "크고 좋은 집",
           "interpretation_ko": "안정·기반 확장",
           "interpretation_en": "stability, growth of base",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "허물어지는 집",
           "interpretation_ko": "기반 불안",
           "interpretation_en": "instability of foundation",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2211,13 +2393,15 @@
           "context": "차를 잘 몲",
           "interpretation_ko": "진로·삶 통제감",
           "interpretation_en": "control over life direction",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "사고·브레이크 고장",
           "interpretation_ko": "통제 상실·방향 불안",
           "interpretation_en": "loss of control",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2240,7 +2424,8 @@
           "context": "배를 타고 나아감",
           "interpretation_ko": "새 여정·기회",
           "interpretation_en": "new journey or venture",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2261,7 +2446,8 @@
           "context": "다리를 건넘",
           "interpretation_ko": "전환·연결·인연",
           "interpretation_en": "transition or connection",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2285,7 +2471,8 @@
           "context": "잘 손질된 무덤",
           "interpretation_ko": "조상 음덕·재물(반전 길몽)",
           "interpretation_en": "ancestral blessing, wealth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2307,7 +2494,8 @@
           "context": "관을 봄",
           "interpretation_ko": "재물·승진(반전 길몽)",
           "interpretation_en": "wealth or promotion (reversal)",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2330,7 +2518,8 @@
           "context": "쌀·밥이 가득함",
           "interpretation_ko": "재물·풍요",
           "interpretation_en": "wealth and abundance",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2351,7 +2540,8 @@
           "context": "책을 얻거나 읽음",
           "interpretation_ko": "학문·문서운·기회",
           "interpretation_en": "learning, documents, opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2372,7 +2562,8 @@
           "context": "총을 겨눔/맞음",
           "interpretation_ko": "강한 압박·결정적 사건",
           "interpretation_en": "strong pressure or decisive event",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2395,7 +2586,8 @@
           "context": "계단을 오르내림",
           "interpretation_ko": "단계적 변화(오름=발전, 내림=후퇴)",
           "interpretation_en": "stepwise change",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2416,7 +2608,8 @@
           "context": "우산을 씀",
           "interpretation_ko": "보호·조력자",
           "interpretation_en": "protection or support",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2437,7 +2630,8 @@
           "context": "멈추거나 잃은 시계",
           "interpretation_ko": "때·기회에 대한 불안",
           "interpretation_en": "anxiety about timing",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2464,13 +2658,15 @@
           "context": "밝은 표정의 조상",
           "interpretation_ko": "음덕·좋은 조언",
           "interpretation_en": "blessing or good counsel",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "무언가 요구/어두움",
           "interpretation_ko": "경고·주의",
           "interpretation_en": "warning or caution",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2493,13 +2689,15 @@
           "context": "예쁜 아기",
           "interpretation_ko": "새 시작·기쁨",
           "interpretation_en": "new beginning or joy",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "우는 아기",
           "interpretation_ko": "돌봐야 할 근심",
           "interpretation_en": "a worry needing care",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2523,7 +2721,8 @@
           "context": "유명인과 친해짐",
           "interpretation_ko": "인정 욕구·귀인",
           "interpretation_en": "desire for recognition, patron",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2546,7 +2745,8 @@
           "context": "높은 사람을 만남",
           "interpretation_ko": "귀인·인정·출세",
           "interpretation_en": "patron, recognition, advancement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2569,7 +2769,8 @@
           "context": "성직자의 인도",
           "interpretation_ko": "지혜·영적 인도",
           "interpretation_en": "wisdom or guidance",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2592,7 +2793,8 @@
           "context": "신령이 나타남",
           "interpretation_ko": "가호·중요한 계시",
           "interpretation_en": "protection or important message",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2613,7 +2815,8 @@
           "context": "낯선 이와 만남",
           "interpretation_ko": "자신의 숨은 면·새 인연",
           "interpretation_en": "hidden self or new bond",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2636,7 +2839,8 @@
           "context": "옛 연인이 나옴",
           "interpretation_ko": "미해결 감정·과거의 교훈",
           "interpretation_en": "unresolved feelings or lesson",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2659,7 +2863,8 @@
           "context": "많은 사람에 둘러싸임",
           "interpretation_ko": "사회적 압박·관심",
           "interpretation_en": "social pressure or attention",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2682,7 +2887,8 @@
           "context": "학교로 돌아감",
           "interpretation_ko": "배움·미해결 과제·평가 불안",
           "interpretation_en": "learning or unresolved evaluation",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2706,13 +2912,15 @@
           "context": "깨끗한 화장실/시원한 배설",
           "interpretation_ko": "재물·근심 해소",
           "interpretation_en": "wealth, relief of worry",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "더러운 화장실",
           "interpretation_ko": "근심·건강 주의",
           "interpretation_en": "worry or health caution",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2735,7 +2943,8 @@
           "context": "절에서 기도",
           "interpretation_ko": "평안·소망 성취",
           "interpretation_en": "peace or wish fulfillment",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2758,7 +2967,8 @@
           "context": "북적이는 시장",
           "interpretation_ko": "거래·재물 활동",
           "interpretation_en": "trade or financial activity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2779,7 +2989,8 @@
           "context": "치료 받음",
           "interpretation_ko": "회복·돌봄 필요",
           "interpretation_en": "recovery or need for care",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2802,7 +3013,8 @@
           "context": "갇힘",
           "interpretation_ko": "속박감·제약",
           "interpretation_en": "feeling trapped or restricted",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -2825,7 +3037,8 @@
           "context": "갈림길",
           "interpretation_ko": "인생 선택·진로",
           "interpretation_en": "life choice or direction",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2846,7 +3059,8 @@
           "context": "물속을 편히 다님",
           "interpretation_ko": "감정·무의식 탐색",
           "interpretation_en": "exploring emotion/unconscious",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2867,7 +3081,8 @@
           "context": "맑고 넓은 하늘",
           "interpretation_ko": "희망·포부·자유",
           "interpretation_en": "hope, ambition, freedom",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2890,7 +3105,8 @@
           "context": "흰 옷·흰 동물",
           "interpretation_ko": "순수·귀함·경사",
           "interpretation_en": "purity, nobility, good fortune",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2913,7 +3129,8 @@
           "context": "선명한 빨강",
           "interpretation_ko": "열정·활력(과하면 다툼)",
           "interpretation_en": "passion/vitality (excess = conflict)",
-          "polarity": "ambivalent"
+          "polarity": "ambivalent",
+          "source": "tradition"
         }
       ]
     },
@@ -2936,7 +3153,8 @@
           "context": "검은색",
           "interpretation_ko": "미지·깊이(맥락 따라 근심)",
           "interpretation_en": "mystery/depth (context-dependent)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -2959,7 +3177,8 @@
           "context": "금빛으로 빛남",
           "interpretation_ko": "재물·귀함·번영",
           "interpretation_en": "wealth, nobility, prosperity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -2981,7 +3200,8 @@
           "context": "7이 반복",
           "interpretation_ko": "행운·완성",
           "interpretation_en": "luck or completion",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3004,7 +3224,8 @@
           "context": "3이 반복",
           "interpretation_ko": "조화·안정",
           "interpretation_en": "harmony or stability",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3025,7 +3246,8 @@
           "context": "코끼리를 봄",
           "interpretation_ko": "귀인·큰 후원·권위",
           "interpretation_en": "patron, big support, authority",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3046,7 +3268,8 @@
           "context": "사자를 봄/제압",
           "interpretation_ko": "권력·용기·경쟁 승리",
           "interpretation_en": "power, courage, victory",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3067,7 +3290,8 @@
           "context": "늑대에 쫓김",
           "interpretation_ko": "위협·숨은 적",
           "interpretation_en": "threat or hidden enemy",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3090,7 +3314,8 @@
           "context": "독수리가 하늘을 낢",
           "interpretation_ko": "야망·높은 성취",
           "interpretation_en": "ambition, high achievement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3111,7 +3336,8 @@
           "context": "비둘기가 날아옴",
           "interpretation_ko": "화해·평화·좋은 소식",
           "interpretation_en": "peace, reconciliation, news",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3134,7 +3360,8 @@
           "context": "양떼",
           "interpretation_ko": "온순한 재물·풍요",
           "interpretation_en": "gentle wealth or abundance",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3155,7 +3382,8 @@
           "context": "큰 고래를 봄",
           "interpretation_ko": "큰 기회·귀한 태몽",
           "interpretation_en": "big opportunity or noble birth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3176,7 +3404,8 @@
           "context": "상어가 나타남",
           "interpretation_ko": "강한 경쟁자·위협",
           "interpretation_en": "strong rival or threat",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3199,7 +3428,8 @@
           "context": "문어에 감김",
           "interpretation_ko": "얽힌 상황·복잡함",
           "interpretation_en": "entanglement or complexity",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3220,7 +3450,8 @@
           "context": "물 위의 오리 한 쌍",
           "interpretation_ko": "부부 화합·가정 평안",
           "interpretation_en": "marital harmony, peace",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3241,7 +3472,8 @@
           "context": "공작이 날개를 폄",
           "interpretation_ko": "명예·인정·화려함",
           "interpretation_en": "honor, recognition, splendor",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3262,7 +3494,8 @@
           "context": "부엉이가 응시",
           "interpretation_ko": "지혜·통찰(또는 경고)",
           "interpretation_en": "wisdom or a warning",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3283,7 +3516,8 @@
           "context": "여우를 만남",
           "interpretation_ko": "교활한 사람·속임 주의",
           "interpretation_en": "cunning person, beware deceit",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3304,7 +3538,8 @@
           "context": "개미가 줄지어 감",
           "interpretation_ko": "근면·꾸준한 축적",
           "interpretation_en": "diligence, steady accumulation",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3325,7 +3560,8 @@
           "context": "모기에 시달림",
           "interpretation_ko": "작은 근심·성가신 방해",
           "interpretation_en": "petty worry or nuisance",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3348,7 +3584,8 @@
           "context": "게를 잡음",
           "interpretation_ko": "재물(단 옆걸음=지연)",
           "interpretation_en": "wealth (but delays possible)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3369,7 +3606,8 @@
           "context": "땅속 지렁이",
           "interpretation_ko": "드러나지 않는 재물·기반",
           "interpretation_en": "hidden wealth or foundation",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3390,7 +3628,8 @@
           "context": "거대한 공룡",
           "interpretation_ko": "압도적 문제 또는 큰 힘",
           "interpretation_en": "overwhelming issue or great power",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3413,7 +3652,8 @@
           "context": "혜성이 지나감",
           "interpretation_ko": "드문 기회·큰 변화",
           "interpretation_en": "rare opportunity or big change",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3434,7 +3674,8 @@
           "context": "화산 폭발",
           "interpretation_ko": "억눌린 감정 분출·격변",
           "interpretation_en": "pent-up emotion erupting",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3455,7 +3696,8 @@
           "context": "동굴 속",
           "interpretation_ko": "내면 탐색·은신·재충전",
           "interpretation_en": "inner exploration or retreat",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3476,7 +3718,8 @@
           "context": "외딴 섬",
           "interpretation_ko": "고립감 또는 평온한 안식",
           "interpretation_en": "isolation or peaceful refuge",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3499,7 +3742,8 @@
           "context": "미끄러운 얼음",
           "interpretation_ko": "정체·차가운 관계·위험",
           "interpretation_en": "stagnation, cold relations, risk",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3522,7 +3766,8 @@
           "context": "짙은 안개",
           "interpretation_ko": "불확실·판단 흐림",
           "interpretation_en": "uncertainty, unclear judgment",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3545,7 +3790,8 @@
           "context": "휘몰아치는 회오리",
           "interpretation_ko": "통제 불가 격변",
           "interpretation_en": "uncontrollable upheaval",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3566,7 +3812,8 @@
           "context": "맑은 계곡물",
           "interpretation_ko": "휴식·정화·재충전",
           "interpretation_en": "rest, cleansing, renewal",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3589,7 +3836,8 @@
           "context": "솟는 샘물",
           "interpretation_ko": "복·재물의 근원",
           "interpretation_en": "source of blessing/wealth",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3612,7 +3860,8 @@
           "context": "큰 바위",
           "interpretation_ko": "굳건한 기반 또는 앞을 막는 장애",
           "interpretation_en": "solid base or an obstacle",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3634,13 +3883,15 @@
           "context": "진주를 얻음",
           "interpretation_ko": "귀한 결실·숨은 가치",
           "interpretation_en": "precious reward, hidden value",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 딸의 태몽으로 보아 온 상징이다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3663,7 +3914,8 @@
           "context": "울창한 숲",
           "interpretation_ko": "성장의 잠재력 또는 길 잃음",
           "interpretation_en": "growth potential or feeling lost",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3684,7 +3936,8 @@
           "context": "수염이 길게 남",
           "interpretation_ko": "권위·성숙·명예",
           "interpretation_en": "authority, maturity, honor",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3705,7 +3958,8 @@
           "context": "혀를 다침",
           "interpretation_ko": "말실수·구설 주의",
           "interpretation_en": "slip of tongue, gossip caution",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3726,7 +3980,8 @@
           "context": "귀가 커지거나 밝아짐",
           "interpretation_ko": "좋은 소식·경청",
           "interpretation_en": "good news or attentiveness",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3747,7 +4002,8 @@
           "context": "심장이 뜀",
           "interpretation_ko": "강한 감정·중요한 결정",
           "interpretation_en": "strong emotion or key decision",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3770,7 +4026,8 @@
           "context": "해골을 봄",
           "interpretation_ko": "근본·과거의 잔재(반전 재물로도)",
           "interpretation_en": "roots or remains (sometimes wealth)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3791,7 +4048,8 @@
           "context": "땀을 흘림",
           "interpretation_ko": "노력의 대가·근심 해소",
           "interpretation_en": "reward of effort, relief",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3812,7 +4070,8 @@
           "context": "손을 잡음",
           "interpretation_ko": "협력·인연·능력",
           "interpretation_en": "cooperation, bond, ability",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3833,7 +4092,8 @@
           "context": "발을 다침",
           "interpretation_ko": "진로·이동의 제약",
           "interpretation_en": "hindered progress or mobility",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -3854,7 +4114,8 @@
           "context": "밝은 얼굴",
           "interpretation_ko": "좋은 평판·자신감",
           "interpretation_en": "good reputation, confidence",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3879,7 +4140,8 @@
           "context": "즐겁게 춤",
           "interpretation_ko": "기쁨·조화·경사",
           "interpretation_en": "joy, harmony, celebration",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3904,7 +4166,8 @@
           "context": "노래를 부름",
           "interpretation_ko": "자기표현·경사(때로 구설)",
           "interpretation_en": "self-expression, joy (sometimes gossip)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -3929,7 +4192,8 @@
           "context": "간절히 기도",
           "interpretation_ko": "소망·마음의 평안·가호",
           "interpretation_en": "wish, peace of mind, protection",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3954,7 +4218,8 @@
           "context": "음식을 만듦",
           "interpretation_ko": "준비·풍요·돌봄",
           "interpretation_en": "preparation, abundance, care",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -3979,7 +4244,8 @@
           "context": "물건을 고름",
           "interpretation_ko": "욕구·선택의 갈등",
           "interpretation_en": "desire or choice tension",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4005,7 +4271,8 @@
           "context": "먼 여행을 떠남",
           "interpretation_ko": "새 국면·기회·변화",
           "interpretation_en": "new phase, opportunity, change",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4032,7 +4299,8 @@
           "context": "차를 놓침",
           "interpretation_ko": "기회 놓칠 불안·타이밍",
           "interpretation_en": "fear of missed opportunity",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -4057,7 +4325,8 @@
           "context": "계속 늦음",
           "interpretation_ko": "준비 부족·압박감",
           "interpretation_en": "unpreparedness, pressure",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -4082,7 +4351,8 @@
           "context": "어딘가 숨음",
           "interpretation_ko": "회피·드러내기 두려움",
           "interpretation_en": "avoidance or fear of exposure",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -4106,7 +4376,8 @@
           "context": "키스",
           "interpretation_ko": "애정·친밀·화해",
           "interpretation_en": "affection, intimacy, reconciliation",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4132,7 +4403,8 @@
           "context": "취하도록 마심",
           "interpretation_ko": "해방감 또는 과도함·구설",
           "interpretation_en": "release or excess/gossip",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4157,7 +4429,8 @@
           "context": "새집으로 이사",
           "interpretation_ko": "환경 변화·새 국면",
           "interpretation_en": "life change, new phase",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4182,7 +4455,8 @@
           "context": "글·서류를 씀",
           "interpretation_ko": "문서운·계약·성취",
           "interpretation_en": "documents, contracts, achievement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4205,7 +4479,8 @@
           "context": "편지를 받음",
           "interpretation_ko": "소식·연락·기회",
           "interpretation_en": "news, contact, opportunity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4226,7 +4501,8 @@
           "context": "오래된 사진",
           "interpretation_ko": "과거 회상·미련",
           "interpretation_en": "reminiscence or lingering",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4247,7 +4523,8 @@
           "context": "왕관을 씀",
           "interpretation_ko": "명예·성공·인정",
           "interpretation_en": "honor, success, recognition",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4268,7 +4545,8 @@
           "context": "지갑을 잃음",
           "interpretation_ko": "재물·자원 손실 불안",
           "interpretation_en": "fear of losing wealth/resources",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -4289,7 +4567,8 @@
           "context": "안경을 씀",
           "interpretation_ko": "명확한 통찰·새 관점",
           "interpretation_en": "clarity, new perspective",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4310,7 +4589,8 @@
           "context": "사진을 찍음",
           "interpretation_ko": "기억하고픈 순간·주목",
           "interpretation_en": "a moment to remember, attention",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4333,7 +4613,8 @@
           "context": "약을 먹음",
           "interpretation_ko": "회복·문제 치유",
           "interpretation_en": "recovery or healing of a problem",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4354,7 +4635,8 @@
           "context": "바늘에 찔림",
           "interpretation_ko": "따끔한 지적·작은 고통",
           "interpretation_en": "a sharp remark or minor pain",
-          "polarity": "negative"
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -4375,7 +4657,8 @@
           "context": "종소리",
           "interpretation_ko": "중요한 소식·전환의 신호",
           "interpretation_en": "important news or signal",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4399,7 +4682,8 @@
           "context": "아름다운 그림",
           "interpretation_ko": "창의·이상·감상",
           "interpretation_en": "creativity, ideal, appreciation",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4420,7 +4704,8 @@
           "context": "편안한 침대",
           "interpretation_ko": "휴식·안정·친밀",
           "interpretation_en": "rest, stability, intimacy",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4441,7 +4726,8 @@
           "context": "무언가를 자름",
           "interpretation_ko": "관계·인연의 단절 또는 결단",
           "interpretation_en": "cutting ties or making a cut",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4462,7 +4748,8 @@
           "context": "쌍둥이를 봄",
           "interpretation_ko": "두 갈래 기회·이중성",
           "interpretation_en": "dual opportunity or duality",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4483,7 +4770,8 @@
           "context": "군인을 봄",
           "interpretation_ko": "규율·보호 또는 다가올 갈등",
           "interpretation_en": "discipline/protection or coming conflict",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4504,7 +4792,8 @@
           "context": "경찰이 나타남",
           "interpretation_ko": "규범·양심 또는 통제 불안",
           "interpretation_en": "conscience/rules or fear of control",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4525,7 +4814,8 @@
           "context": "의사를 만남",
           "interpretation_ko": "치유·전문적 도움",
           "interpretation_en": "healing or expert help",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4549,7 +4839,8 @@
           "context": "도둑이 듦",
           "interpretation_ko": "손실 불안(반전으로 재물수도)",
           "interpretation_en": "fear of loss (sometimes wealth reversal)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4572,7 +4863,8 @@
           "context": "신랑·신부를 봄",
           "interpretation_ko": "결합·새 출발(전통상 흉으로도)",
           "interpretation_en": "union, new start (sometimes ill-omened)",
-          "polarity": "ambivalent"
+          "polarity": "ambivalent",
+          "source": "tradition"
         }
       ]
     },
@@ -4596,7 +4888,8 @@
           "context": "인자한 노인",
           "interpretation_ko": "지혜·귀인의 조언",
           "interpretation_en": "wisdom or a mentor's counsel",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4617,7 +4910,8 @@
           "context": "외국인과 만남",
           "interpretation_ko": "새로운 세계·기회·낯선 인연",
           "interpretation_en": "new world, opportunity, novel bond",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4638,7 +4932,8 @@
           "context": "공항에서 떠남",
           "interpretation_ko": "큰 전환·새 출발",
           "interpretation_en": "major transition, departure",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4661,7 +4956,8 @@
           "context": "기차역에서 기다림",
           "interpretation_ko": "인생 전환점·선택의 대기",
           "interpretation_en": "a turning point or waiting choice",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4684,7 +4980,8 @@
           "context": "높은 탑",
           "interpretation_ko": "높은 목표·성취·명성",
           "interpretation_en": "lofty goal, achievement, fame",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4705,7 +5002,8 @@
           "context": "올라감/추락",
           "interpretation_ko": "지위 급상승 또는 급락 불안",
           "interpretation_en": "rapid rise or fear of fall",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4726,7 +5024,8 @@
           "context": "옥상에 섬",
           "interpretation_ko": "넓은 시야·중대한 기로",
           "interpretation_en": "broad view or a pivotal edge",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4747,7 +5046,8 @@
           "context": "은행에 감",
           "interpretation_ko": "재물 관리·자원에 대한 관심",
           "interpretation_en": "managing wealth/resources",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4768,7 +5068,8 @@
           "context": "낯선 호텔",
           "interpretation_ko": "임시 국면·과도기",
           "interpretation_en": "a temporary phase or transition",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4789,7 +5090,8 @@
           "context": "따뜻한 빵",
           "interpretation_ko": "기본적 풍요·생계",
           "interpretation_en": "basic abundance, livelihood",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4810,7 +5112,8 @@
           "context": "고기를 먹음",
           "interpretation_ko": "풍요·욕구 충족(날고기는 주의)",
           "interpretation_en": "abundance/desire (raw = caution)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4834,13 +5137,15 @@
           "context": "잘 익은 과일",
           "interpretation_ko": "결실·건강·성취",
           "interpretation_en": "fruition, health, achievement",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 딸의 태몽으로 보아 온 상징이다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4864,13 +5169,15 @@
           "context": "온전한 계란",
           "interpretation_ko": "잠재력·새 시작(깨지면 손실)",
           "interpretation_en": "potential, new start (broken = loss)",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 새 생명이 깃드는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4893,7 +5200,8 @@
           "context": "함께 술을 나눔",
           "interpretation_ko": "경사·화합(과하면 구설)",
           "interpretation_en": "celebration/bonding (excess = gossip)",
-          "polarity": "neutral"
+          "polarity": "neutral",
+          "source": "tradition"
         }
       ]
     },
@@ -4914,7 +5222,8 @@
           "context": "흰 우유",
           "interpretation_ko": "양육·건강·순수한 자원",
           "interpretation_en": "nourishment, health, pure resource",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4935,7 +5244,8 @@
           "context": "축하 케이크",
           "interpretation_ko": "경사·보상·기쁨",
           "interpretation_en": "celebration, reward, joy",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4958,7 +5268,8 @@
           "context": "탐스러운 복숭아",
           "interpretation_ko": "장수·연애·귀한 태몽",
           "interpretation_en": "longevity, romance, birth omen",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -4981,7 +5292,8 @@
           "context": "맑은 파랑",
           "interpretation_ko": "평온·신뢰·희망",
           "interpretation_en": "calm, trust, hope",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5004,7 +5316,8 @@
           "context": "싱그러운 초록",
           "interpretation_ko": "성장·건강·새 출발",
           "interpretation_en": "growth, health, fresh start",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5027,7 +5340,8 @@
           "context": "9가 반복",
           "interpretation_ko": "완성·한 주기의 마무리",
           "interpretation_en": "completion, end of a cycle",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5051,7 +5365,8 @@
           "context": "8이 반복",
           "interpretation_ko": "재물·번영",
           "interpretation_en": "wealth and prosperity",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5074,7 +5389,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5097,7 +5413,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 자손을 얻는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5120,7 +5437,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 결실과 자손의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5143,7 +5461,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 자손이 번성하는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5165,7 +5484,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 아들의 태몽으로 보아 온 상징이다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     },
@@ -5188,7 +5508,8 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
-          "polarity": "positive"
+          "polarity": "positive",
+          "source": "tradition"
         }
       ]
     }

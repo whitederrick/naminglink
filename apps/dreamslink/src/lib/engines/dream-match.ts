@@ -67,6 +67,15 @@ export type MatchedSymbol = {
   matchedOn: string;
   /** 꿈 텍스트에서 처음 나온 위치. 같은 무게면 먼저 말한 것을 앞에 둔다. */
   at: number;
+  /**
+   * 이 의미가 **글의 상황과 실제로 맞아 골라졌는가**, 아니면 걸리는 상황이 없어 대표(첫 번째)
+   * 의미로 떨어졌는가. 의미가 하나뿐인 상징은 애초에 가릴 상황이 없으므로 `true`다.
+   *
+   * **집계용이다.** 화면에는 안 쓰고, 어느 상징이 자주 "대표로만 떨어지는지" 세는 데 쓴다
+   * (`DreamResultView`가 익명 카운트로 보낸다) — 사전을 어디부터 넓힐지 감이 아니라 실측으로
+   * 정하려는 것이다(2026-08-26).
+   */
+  contextMatched: boolean;
 };
 
 export type DreamOutcome = {
@@ -260,9 +269,12 @@ const PARTICLES = [
  *
  * 📄 **이 규칙을 고치면 `app/guide/one-symbol-many-meanings`도 함께 볼 것.**
  */
-function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
+function chooseMeaning(
+  haystack: string,
+  symbol: DreamSymbol,
+): { meaning: DreamMeaning; contextMatched: boolean } {
   const meanings = symbol.meanings;
-  if (meanings.length <= 1) return meanings[0];
+  if (meanings.length <= 1) return { meaning: meanings[0], contextMatched: true };
 
   /**
    * **태몽 맥락은 낱말 수로 겨루지 않는다.**
@@ -276,7 +288,7 @@ function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
   const saidPregnancy = CONCEPTION_WORDS.some((word) => haystack.includes(word));
   if (saidPregnancy) {
     const conceptionMeaning = meanings.find((meaning) => isConceptionMeaning(meaning));
-    if (conceptionMeaning) return conceptionMeaning;
+    if (conceptionMeaning) return { meaning: conceptionMeaning, contextMatched: true };
   }
 
   const korean = isKoreanText(haystack);
@@ -308,7 +320,7 @@ function chooseMeaning(haystack: string, symbol: DreamSymbol): DreamMeaning {
       bestScore = score;
     }
   }
-  return best;
+  return { meaning: best, contextMatched: bestScore > 0 };
 }
 
 /**
@@ -457,7 +469,7 @@ export function matchDream(text: string): DreamOutcome {
   for (const symbol of DREAM_SYMBOLS) {
     const hit = findTerm(haystack, symbol);
     if (!hit) continue;
-    const meaning = chooseMeaning(haystack, symbol);
+    const { meaning, contextMatched } = chooseMeaning(haystack, symbol);
     matched.push({
       id: symbol.id,
       term_ko: symbol.term_ko,
@@ -470,6 +482,7 @@ export function matchDream(text: string): DreamOutcome {
       culture_note: symbol.culture_note,
       matchedOn: hit.matchedOn,
       at: hit.at,
+      contextMatched,
     });
   }
 

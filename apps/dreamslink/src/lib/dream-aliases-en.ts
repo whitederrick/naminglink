@@ -302,6 +302,13 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "was running from someone",
     "was pursued"
   ],
+  "chasing": [
+    "was chasing",
+    "chased",
+    "was pursuing",
+    "ran after",
+    "was running after"
+  ],
   "exam": [
     "took an exam",
     "had a test",
@@ -315,7 +322,10 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
   "death": [
     "experienced death",
     "saw death",
-    "was dead"
+    "was dead",
+    "died",
+    "was dying",
+    "my death"
   ],
   "crying": [
     "was crying",
