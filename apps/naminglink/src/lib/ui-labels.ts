@@ -42,7 +42,7 @@ export const uiLabels: Record<LocaleCode, UiLabels> = {
   ko: {
     guideLink: "이용 안내",
     about: "소개",
-    contact: "문의",
+    contact: "문의하기",
     notice: "공지",
     customerService: "고객센터",
     stampText: "도장 문구",
