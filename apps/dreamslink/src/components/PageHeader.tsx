@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { ArrowLeft, Home } from "lucide-react";
 
+import { AdBanner } from "@/components/AdBanner";
+import type { AdPlacement } from "@/lib/ads";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
 /**
- * 랜딩 외 페이지의 머리글 — **가로형 배너 한 자리와 이동 버튼**이 전부다.
+ * 랜딩 외 페이지의 머리글 — **이동 버튼과, 있으면 광고 한 자리**가 전부다.
  *
  * **브랜드 로고와 이름을 뺐다(사용자 결정).** 화면을 열자마자 로고와 언어 단추 여섯 개가 먼저
  * 눈에 들고 정작 이 화면이 무엇인지는 그 아래에서 시작했다. 돌아갈 길은 '홈' 버튼이 대신하고,
@@ -15,15 +17,16 @@ import { localePath } from "@/lib/locale-path";
  * 메뉴를, 결과 화면(`HanjaMeaningResultPage` 등)은 `입력 수정` + `홈`을 둔다. 두 서비스를 오가는
  * 사용자가 같은 자리에서 같은 것을 찾게 하려는 것이라, 한쪽만 바꾸면 어긋난다.
  *
- * **배너는 한 자리뿐이다.** 예전에는 여기 최상단 배너와 제목 옆 `header` 배너가 따로 있었는데,
- * 입력 화면은 폼 하나뿐이라 상단·제목 옆·하단으로 광고가 셋이 되어 콘텐츠보다 많아 보였다
- * (2026-07-30 기록에 "심사에서 걸리면 `SLOT_HEADER`를 비우면 된다"고 남겨 둔 자리다).
- * 제목 옆 자리를 걷어내고 이 배너 하나로 합쳤다 — `header` 슬롯은 `lib/ads.ts`에서도 없앴다.
+ * **배너 자리는 `ad`를 받았을 때만 생긴다** (2026-08-26, naminglink와 위치 통일 — 사용자 결정).
+ * 예전에는 광고 자리를 아예 없애 결과 화면이 제목 아래에 따로 배너를 그렸는데, naminglink
+ * 결과 화면은 이 머리글과 같은 줄에 배너를 둔다. `ad`를 안 넘기면 예전처럼 이동 버튼뿐이라
+ * 입력·안내·약관 화면은 그대로다 — 광고는 부르는 쪽이 명시했을 때만 나간다.
  */
 export function PageHeader({
   locale,
   path,
   width,
+  ad,
 }: {
   locale: Locale;
   /**
@@ -45,21 +48,26 @@ export function PageHeader({
    * 부르는 쪽의 본문 컨테이너와 **같은 값**을 넘길 것. 값이 갈리면 다시 어긋난다.
    */
   width: string;
+  /**
+   * **결과·사전 화면만 넘긴다.** 광고는 발행한 화면에만 둔다는 규칙이 이 값으로 강제된다 —
+   * 입력·안내·약관 호출부는 이 필드를 아예 모르므로 실수로 넘길 수 없다.
+   */
+  ad?: { slotKey: AdPlacement; label?: string };
 }) {
   const dictionary = getDictionary(locale);
   const nav = navFor(path, locale, dictionary);
 
   return (
     <header className="bg-background">
-      {/* **광고 자리는 여기에 없다**(2026-08-18에 뺐다). 머리글은 입력·안내·약관을 포함해 모든
-          화면이 함께 쓰는 자리라, 여기에 배너를 두면 아직 아무것도 발행하지 않은 화면에까지
-          광고가 나간다 — naming-link을 2026-08-10에 반려시킨(「가치가 별로 없는 콘텐츠」) 구조가
-          그것이다. 광고는 결과·사전 화면이 자기 자리에서 직접 부른다(`lib/ads.ts`의 `adSlots`).
+      {/* `min-w-0`과 줄바꿈이 함께 있어야 한다. flex 항목은 기본이 min-content라, 이것이 없으면
+          버튼 줄이 뷰포트보다 넓어질 때 줄지 않고 페이지 전체가 가로로 넘친다.
 
-          `min-w-0`과 줄바꿈이 함께 있어야 한다. flex 항목은 기본이 min-content라, 이것이 없으면
-          버튼 줄이 뷰포트보다 넓어질 때 줄지 않고 페이지 전체가 가로로 넘친다. */}
+          **열은 naminglink 결과 화면(`KoreanNameResultPage`)과 같다** — `auto` 열에 버튼,
+          `minmax(0,1fr)` 열에 광고. 모바일에서는 광고가 위, 버튼이 아래로 순서가 바뀐다
+          (naminglink와 같은 순서). */}
       <div className={`mx-auto w-full ${width} px-6 py-4`}>
-        <div className="flex min-w-0 flex-wrap items-center gap-2">
+        <div className="grid gap-3 lg:grid-cols-[auto_minmax(0,1fr)] lg:items-center">
+        <div className="order-2 flex min-w-0 flex-wrap items-center gap-2 lg:order-1">
           {nav.map((item) =>
             item.tone === "solid" ? (
               <Link
@@ -92,6 +100,12 @@ export function PageHeader({
               </Link>
             ),
           )}
+        </div>
+        {ad ? (
+          <div className="order-1 min-w-0 lg:order-2">
+            <AdBanner variant="header" slotKey={ad.slotKey} locale={locale} label={ad.label} />
+          </div>
+        ) : null}
         </div>
       </div>
     </header>

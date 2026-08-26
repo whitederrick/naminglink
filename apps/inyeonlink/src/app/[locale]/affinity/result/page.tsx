@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-import { AdBanner } from "@/components/AdBanner";
 import { AffinityResultView } from "@/components/AffinityResultView";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
@@ -50,7 +49,12 @@ export default async function AffinityResultPage({
       <div aria-hidden className="fixed inset-0 z-0 bg-[#fbf7f6]/35" />
 
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/affinity/result" width="max-w-2xl" />
+        <PageHeader
+          locale={locale}
+          path="/affinity/result"
+          width="max-w-2xl"
+          ad={{ slotKey: "affinity_result_header" }}
+        />
 
         <div className="mx-auto w-full max-w-2xl px-6 pb-16">
           <PageTitle
@@ -59,11 +63,6 @@ export default async function AffinityResultPage({
             path="/affinity/result"
             className="mt-10"
           />
-
-          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
-              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
-              아래는 아무도 안 본다. */}
-          <AdBanner variant="header" slotKey="affinity_result_header" locale={locale} />
 
           <AffinityResultView
             dictionary={dictionary}

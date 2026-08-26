@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-import { AdBanner } from "@/components/AdBanner";
 import { DreamResultView } from "@/components/DreamResultView";
 import { PageHeader } from "@/components/PageHeader";
 import { PageTitle } from "@/components/PageTitle";
@@ -92,7 +91,12 @@ export default async function Page({
       </div>
       <div aria-hidden className="fixed inset-0 z-0 bg-[#f9f8fc]/25" />
       <div className="relative z-10">
-        <PageHeader locale={locale} path="/dream/result" width="max-w-3xl" />
+        <PageHeader
+          locale={locale}
+          path="/dream/result"
+          width="max-w-3xl"
+          ad={{ slotKey: "dream_result_header" }}
+        />
         <div className="mx-auto w-full max-w-3xl px-6 pb-16">
           {/* `mt-10`은 사주링크 결과 화면과 같은 값이다. 없으면 제목이 머리글 버튼 줄에
               그대로 붙는다 — 이 자리에 언어 선택기도 함께 있어 더 빽빽해 보인다. */}
@@ -102,11 +106,6 @@ export default async function Page({
             title={dictionary.dream.resultTitle}
             className="mt-10"
           />
-
-          {/* 결과 머리글 배너. 제목 바로 아래, 본문이 시작하기 전이다. 이 화면의 배너는 둘이고
-              나머지 하나는 본문 중간(`_inline`)에 있다 — **맨 아래에는 두지 않는다.** 결과 맨
-              아래는 아무도 안 본다. */}
-          <AdBanner variant="header" slotKey="dream_result_header" locale={locale} />
 
           {/* 가격은 서버가 `product_settings`에서 읽어 내려보낸다. 화면이 값을 만들지 않는다.
               판매 전(`enabled=false`)이면 null이 되어 패널이 스스로 "준비 중"으로 뜬다. */}
