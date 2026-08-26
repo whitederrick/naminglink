@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.14.0",
+  "dictVer": "1.15.0",
   "symbols": [
     {
       "id": "pig",
@@ -995,8 +995,16 @@
           "interpretation_en": "gloom or delay",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "길에서 비를 만남",
+          "interpretation_ko": "뜻밖의 대접이나 좋은 소식",
+          "interpretation_en": "an unexpected treat or good news",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「行路逢雨有酒食」(길을 가다 비를 만나면 술과 음식이 생긴다)을 근거로 삼았다."
     },
     {
       "id": "fire",
@@ -1210,8 +1218,23 @@
           "interpretation_en": "noble birth or wish",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "별이 떨어짐",
+          "interpretation_ko": "구설·건강 주의",
+          "interpretation_en": "caution: disputes or health issues",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "별을 손에 쥠",
+          "interpretation_ko": "큰 부귀를 얻음",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「星入懷主生貴子」(별이 품에 들면 귀한 자식을 낳는다)·「星落有病及官事」(별이 떨어지면 병이나 관재구설이 생긴다)·「持執星宿大富貴」(별을 손에 쥐면 크게 부귀해진다)를 근거로 삼았다."
     },
     {
       "id": "rainbow",
@@ -1232,8 +1255,16 @@
           "interpretation_en": "hope, joy, reconciliation",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "무지개 색이 검음",
+          "interpretation_ko": "안 좋은 일이 생길 조짐",
+          "interpretation_en": "a sign of misfortune",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「赤虹見吉黑虹凶」(붉은 무지개는 길하고 검은 무지개는 흉하다)을 근거로 삼았다."
     },
     {
       "id": "snow",
@@ -1287,8 +1318,16 @@
           "interpretation_en": "change or news",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "바람이 옷깃을 스침",
+          "interpretation_ko": "질병을 조심할 조짐",
+          "interpretation_en": "a caution about illness",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「風吹人衣主疾病」(바람이 옷을 스치면 질병을 조심해야 한다)을 근거로 삼았다."
     },
     {
       "id": "lightning",
@@ -1311,8 +1350,23 @@
           "interpretation_en": "sudden change or insight",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "번개가 몸을 비침",
+          "interpretation_ko": "경사스러운 일이 생길 조짐",
+          "interpretation_en": "a sign of an auspicious occasion",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "벼락을 맞음",
+          "interpretation_ko": "부귀를 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth and status",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「電光照身有吉慶」(번개 빛이 몸을 비치면 길한 경사가 있다)·「身被霹靂主富貴」(벼락을 맞으면 부귀를 얻는다)를 근거로 삼았다."
     },
     {
       "id": "cloud",
@@ -1343,8 +1397,16 @@
           "interpretation_en": "uncertainty or worry",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "구름이 사방에서 일어남",
+          "interpretation_ko": "거래나 계약이 순조로울 조짐",
+          "interpretation_en": "a sign that dealings or agreements will go smoothly",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「雲起四方交易吉」(구름이 사방에서 일어나면 거래가 길하다)을 근거로 삼았다."
     },
     {
       "id": "well",
