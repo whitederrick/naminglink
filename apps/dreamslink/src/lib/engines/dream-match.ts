@@ -220,8 +220,10 @@ function isStandalone(haystack: string, term: string, at: number) {
     );
   }
 
-  if (term.length > 1) return true;
-
+  // **2글자 이상이라고 경계 검사를 건너뛰지 않는다.** 예전에는 `term.length > 1`이면 무조건
+  // 통과시켰다 — "무덤"(2글자)이 "무덤덤했다"(무심했다)의 앞부분과 우연히 겹쳐 걸리는 식의
+  // 오탐이 그래서 새고 있었다(2026-08-26 코드 리뷰에서 실행으로 확인). 길이와 무관하게
+  // 아래 경계 검사를 그대로 적용한다.
   const before = at > 0 ? haystack[at - 1] : "";
   if (HANGUL.test(before)) return false;
 
