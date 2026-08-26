@@ -428,7 +428,7 @@ const CONCEPTION_WORDS = [
 ];
 
 /** 이 의미가 태몽을 말하는가. 사전은 우리가 관리하는 canonical ko라 문구로 판정해도 흔들리지 않는다. */
-function isConceptionMeaning(meaning: DreamMeaning) {
+export function isConceptionMeaning(meaning: DreamMeaning) {
   return (
     meaning.context?.includes(CONCEPTION_TAG) === true ||
     meaning.interpretation_ko.includes(CONCEPTION_TAG)

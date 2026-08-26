@@ -3,7 +3,6 @@ import { Document, Page, StyleSheet, Text, View, renderToBuffer } from "@react-p
 import {
   contextText,
   cultureNote,
-  isConceptionTag,
   meaningText,
   readingLanguage,
   symbolTerm,
@@ -13,7 +12,7 @@ import type { Locale } from "@/lib/i18n";
 import { MixedText, pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import { CONCEPTION_PAGE_COUNT } from "@/lib/report-pages";
 import { warmUpLayoutEngine } from "@/lib/pdf/warm-up";
-import type { DreamOutcome } from "@/lib/engines/dream-match";
+import { isConceptionMeaning, type DreamOutcome } from "@/lib/engines/dream-match";
 
 /**
  * 태몽 리포트 PDF.
@@ -171,9 +170,16 @@ export function ConceptionReport({
    * 순간 렌더러가 죽는다(2026-08-26 코드 리뷰에서 발견 — 이름 필드만 예외 대상이었다).
    */
   const dreamTextRenderable = !pdfLanguageDiffers(locale);
-  // **판정은 한국어 원본 태그로 한다.** 표시 이름이 무엇이든 태그 자체는 사전의 값이다.
-  const conceptionSymbols = outcome.matched.filter((item) => item.tags.some(isConceptionTag));
-  const others = outcome.matched.filter((item) => !item.tags.some(isConceptionTag));
+  /**
+   * **태그가 아니라 이 꿈에서 고른 의미로 가른다.** `dream-match.ts`의 `isConceptionDream`이
+   * 이미 이 규칙으로 판정하는데, 이 문서는 `item.tags`(상징 전체의 정적 태그)로 따로
+   * 걸러 같은 결함을 되풀이하고 있었다 — 돼지는 재물·태몽 태그를 둘 다 갖고 있어, 이번
+   * 꿈에서 실제로 고른 의미가 재물이어도 태그만 보면 태몽 상징으로 잡혔다(2026-08-06에
+   * `isConceptionDream` 쪽에서 한 번 고친 바로 그 문제 — `isConceptionMeaning` 주석 참고.
+   * 2026-08-26 코드 리뷰에서 이 문서가 옛 방식을 다시 쓰고 있는 것을 발견).
+   */
+  const conceptionSymbols = outcome.matched.filter((item) => isConceptionMeaning(item.meaning));
+  const others = outcome.matched.filter((item) => !isConceptionMeaning(item.meaning));
 
   /**
    * **한 장에 카드가 몇 개까지 앉는가.** 측정값이지 취향이 아니다.
