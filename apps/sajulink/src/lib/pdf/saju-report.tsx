@@ -14,12 +14,12 @@ import {
 
 import { FIVE_ELEMENTS, STEM_ELEMENT } from "@naminglink/core/saju/elements";
 import { tenGod } from "@naminglink/core/saju/ten-gods";
-import { romanizePillar } from "@naminglink/core/saju";
 
 import type { PersonReading } from "@/lib/engines";
 import type { NatalOutlook } from "@/lib/engines/natal-outlook";
 import { fillTemplate, type Dictionary, type Locale } from "@/lib/i18n";
 import { MixedText, SCRIPT_FAMILY } from "@/lib/pdf/fonts";
+import { ELEMENT_COLOR, pillarReading } from "@/lib/pillar-display";
 import { warmUpLayoutEngine } from "@/lib/pdf/warm-up";
 import type { SajuInterpretation } from "@/lib/saju-interpretation";
 
@@ -75,16 +75,8 @@ try {
   logoSrc = null;
 }
 
-/**
- * 간지 아래에 적을 독음. **한국어면 한글, 그 밖에는 로마자다.**
- *
- * 한자(壬申)는 어느 언어에서도 그대로 둔다 — 그것이 간지의 원문이다. 바꾸는 것은 독음뿐인데,
- * 예전에는 로케일과 무관하게 언제나 한글이라 **독일어 이용자에게 「임신」이 나갔다**(2026-08-07).
- * 읽을 수 없는 글자는 정보가 아니다.
- */
-function pillarReading(hangul: string, locale: Locale) {
-  return locale === "ko" ? hangul : romanizePillar(hangul);
-}
+// pillarReading은 lib/pillar-display.ts에서 가져온다 — 화면과 값을 공유해야 해서
+// (2026-08-26 코드 리뷰에서 복붙 중복을 발견).
 
 const styles = StyleSheet.create({
   page: {
@@ -335,15 +327,6 @@ function PillarGrid({
     </View>
   );
 }
-
-/** 오행의 관습적인 색. 결과 화면과 같은 값을 쓴다. */
-const ELEMENT_COLOR: Record<string, string> = {
-  WOOD: "#4f6f5e",
-  FIRE: "#b4535a",
-  EARTH: "#b4832f",
-  METAL: "#9aa0a6",
-  WATER: "#3f4a63",
-};
 
 function ElementBars({
   reading,

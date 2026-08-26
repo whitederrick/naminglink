@@ -1772,8 +1772,16 @@ const en: Dictionary = {
 };
 
 // 23개 로케일 전부 채워졌다. `translatedLocales`가 이 객체의 키에서 나오므로, 언어 선택기에
-// 무엇이 뜨는지는 여기서 정해진다 — 번역이 미덥지 않은 언어가 생기면 이 줄에서 빼면 그만이다.
-const dictionaries: Partial<Record<Locale, Dictionary>> = {
+// 무엇이 뜨는지는 여기서 정해진다.
+//
+// **`Partial`이 아니라 `Record`다.** 다른 사전 셋(report-copy·doc-content·legal-locales)은
+// 전부 `Record<Locale,...>`라 로케일이 빠지면 컴파일이 잡는데, 이 마스터 사전만 `Partial`이라
+// 로케일이 빠져도 조용히 통과하고 `getDictionary`의 `?? en` 폴백으로 그 언어의 화면 전체가
+// 영어가 됐다(2026-08-26 코드 리뷰에서 발견, CLAUDE.md "로케일 표는 Record<LocaleCode>로"와
+// 같은 규칙). 번역이 미덥지 않은 언어를 빼려면 `Locale`(`locale-codes.ts`)에서 먼저 빼야
+// 한다 — 그래야 이 사전뿐 아니라 라우팅·sitemap 등 그 로케일을 참조하는 다른 자리도 함께
+// 컴파일 에러로 걸린다.
+const dictionaries: Record<Locale, Dictionary> = {
   ko,
   en,
   ja,
@@ -1800,7 +1808,7 @@ const dictionaries: Partial<Record<Locale, Dictionary>> = {
 };
 
 export function getDictionary(locale: Locale): Dictionary {
-  return dictionaries[locale] ?? en;
+  return dictionaries[locale];
 }
 
 /** 사전에 실제 번역이 있는 로케일. 언어 선택기에서 이 목록만 노출한다. */

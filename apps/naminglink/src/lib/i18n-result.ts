@@ -933,9 +933,11 @@ const pl: ResultCopy = {
     "Analiza się zakończyła, ale zapis na Twoim koncie się nie powiódł. Sprawdź wynik, a następnie uruchom analizę ponownie.",
 };
 
-// ko/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk/ms/pl을 작성했고, 나머지 로케일은 영어로 폴백한다.
-const resultCopies: Partial<Record<Locale, ResultCopy>> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
+// 23개 로케일 전부 작성돼 있다. Record(Partial 아님)로 둬서 하나라도 빠지면 컴파일이 잡는다
+// — 예전에는 Partial이라 로케일이 빠져도 조용히 통과하고 런타임에만 영어로 떨어졌다
+// (2026-08-26 코드 리뷰에서 발견, CLAUDE.md "로케일 표는 Record<LocaleCode>로"와 같은 규칙).
+const resultCopies: Record<Locale, ResultCopy> = { ko, en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
 
 export function getResultCopy(locale: Locale): ResultCopy {
-  return resultCopies[locale] ?? en;
+  return resultCopies[locale];
 }

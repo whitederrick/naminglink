@@ -2563,13 +2563,16 @@ const pl: ServiceCopyOverride = {
   },
 };
 
-// ko(원본)/en/vi/th/ja/zh/id/de/es/fr/it/pt/ru/ar/tr/fil/uz/mn/hi/km/kk/ms/pl을 작성했고, 나머지 로케일은 영어로 폴백한다.
-const overrides: Partial<Record<Locale, ServiceCopyOverride>> = { en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
+// ko(원본)를 뺀 나머지 22개 로케일 전부 작성돼 있다. `Record<Exclude<Locale,"ko">,...>`로
+// 둬서 ko는 여전히(의도대로) 못 넣고, 22개 중 하나라도 빠지면 컴파일이 잡는다 — 예전에는
+// `Partial<Record<Locale,...>>`라 ko가 아닌 로케일이 빠져도 조용히 통과하고 런타임에만
+// 영어로 떨어졌다(2026-08-26 코드 리뷰에서 발견).
+const overrides: Record<Exclude<Locale, "ko">, ServiceCopyOverride> = { en, vi, th, ja, zh, id, de, es, fr, it, pt, ru, ar, tr, fil, uz, mn, hi, km, kk, ms, pl };
 
 // 한국어는 원본 설정(services.ts)을 그대로 쓰므로 null을 반환한다.
 export function getServiceOverride(locale: Locale): ServiceCopyOverride | null {
   if (locale === "ko") return null;
-  return overrides[locale] ?? en;
+  return overrides[locale];
 }
 
 export function localizeSectionTitle(
