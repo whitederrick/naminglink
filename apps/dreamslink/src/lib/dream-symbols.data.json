@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.5.0",
+  "dictVer": "1.6.0",
   "symbols": [
     {
       "id": "pig",
@@ -200,8 +200,16 @@
           "interpretation_en": "jealousy, gossip, hidden rival",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "고양이가 쥐를 잡음",
+          "interpretation_ko": "재물이나 성과를 얻음",
+          "interpretation_en": "a sign of gain or achievement",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「貓捕鼠者大得財」(고양이가 쥐를 잡으면 크게 재물을 얻는다)를 근거로 문맥을 추가했다."
     },
     {
       "id": "ox",
@@ -5509,6 +5517,64 @@
           "interpretation_ko": "전통적으로 귀한 자식의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
+          "source": "tradition"
+        }
+      ]
+    },
+    {
+      "id": "found-item",
+      "term_ko": "주움",
+      "term_en": "finding",
+      "aliases": [
+        "주웠다",
+        "주웠어요",
+        "주운",
+        "줍는",
+        "발견했다",
+        "습득했다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "tags": [
+        "재물",
+        "행운"
+      ],
+      "weight": 2,
+      "culture_note": "중국 고전 《주공해몽》 「拾得錢物皆大吉」(돈이나 물건을 주우면 모두 크게 길하다)을 1차 근거로 삼고, 오늘날 한국의 '돈 줍는 꿈=길몽·횡재수' 통설과도 대조 확인했다.",
+      "meanings": [
+        {
+          "context": "돈이나 물건을 주움",
+          "interpretation_ko": "뜻밖의 재물이나 좋은 소식",
+          "interpretation_en": "an unexpected gain or good news",
+          "polarity": "positive",
+          "source": "tradition"
+        }
+      ]
+    },
+    {
+      "id": "breakup",
+      "term_ko": "이별",
+      "term_en": "breakup",
+      "aliases": [
+        "헤어졌",
+        "헤어지는",
+        "이별하는",
+        "작별"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "tags": [
+        "관계",
+        "변화"
+      ],
+      "weight": 2,
+      "culture_note": "중국 고전 《주공해몽》 「夫妻分釵主離別」(부부가 비녀를 나눠 가지면 이별의 조짐이다 — 전통 혼례에서 비녀를 나누는 것이 이별 의식이었다).",
+      "meanings": [
+        {
+          "context": "연인이나 배우자와 헤어짐",
+          "interpretation_ko": "지금 관계나 마음의 정리가 필요하다는 신호",
+          "interpretation_en": "a sign that a relationship or your feelings need sorting out",
+          "polarity": "neutral",
           "source": "tradition"
         }
       ]

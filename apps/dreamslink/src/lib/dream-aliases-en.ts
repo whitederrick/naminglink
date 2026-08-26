@@ -309,6 +309,19 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "ran after",
     "was running after"
   ],
+  "found-item": [
+    "found money",
+    "found a wallet",
+    "picked up money",
+    "picked up a wallet",
+    "found something"
+  ],
+  "breakup": [
+    "broke up",
+    "was breaking up",
+    "we broke up",
+    "split up"
+  ],
   "exam": [
     "took an exam",
     "had a test",

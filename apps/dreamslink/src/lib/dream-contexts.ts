@@ -29,6 +29,8 @@ export const CONTEXT_EN: Record<string, string> = {
   "온순한 개": "gentle friendly tame wagging calm approached",
   "개에게 물림": "bit bite bitten attacked growled",
   "고양이가 노려봄": "cat stare staring",
+  // 고양이 — 쥐를 잡음 (주공해몽, 2026-08-26)
+  "고양이가 쥐를 잡음": "mouse rat caught catching",
   "말을 탐": "horse seek seeking",
   "수탉이 욺": "chicken crowing",
   "물고기를 잡음": "fish catch caught",
