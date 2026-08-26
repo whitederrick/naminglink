@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.7.0",
+  "dictVer": "1.9.0",
   "symbols": [
     {
       "id": "pig",
@@ -1325,7 +1325,7 @@
         "변화"
       ],
       "weight": 3,
-      "culture_note": "윗니=윗사람, 아랫니=아랫사람. 중국 고전 《주공해몽》 「齒自落者父母凶」(이가 저절로 빠지면 부모에게 흉하다)과도 대조 확인했다.",
+      "culture_note": "윗니=윗사람, 아랫니=아랫사람. 중국 고전 《주공해몽》 「齒自落者父母凶」(이가 저절로 빠지면 부모에게 흉하다)·「齒落更生子孫興」(이가 빠졌다가 다시 나면 자손이 번성한다)과 대조 확인했다.",
       "meanings": [
         {
           "context": "윗니가 빠짐",
@@ -1346,6 +1346,13 @@
           "interpretation_ko": "아랫사람/자녀 관련 근심",
           "interpretation_en": "concern about younger family members/children",
           "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "이가 빠졌다가 다시 남",
+          "interpretation_ko": "자손이 번성할 조짐",
+          "interpretation_en": "a sign that descendants will flourish",
+          "polarity": "positive",
           "source": "tradition"
         }
       ]
@@ -1777,8 +1784,22 @@
       "term_en": "death",
       "aliases": [
         "죽는 꿈",
-        "죽었",
-        "돌아가셨"
+        "죽었다",
+        "죽었어요",
+        "죽은",
+        "돌아가셨다",
+        "돌아가셨어요",
+        "죽은 사람",
+        "살해당했다",
+        "살해당했어요",
+        "살해당한",
+        "피살",
+        "죽였다",
+        "죽였어요",
+        "죽인",
+        "자살했다",
+        "자살하는",
+        "자살했어요"
       ],
       "category": "action",
       "polarity": "positive",
@@ -1787,7 +1808,7 @@
         "재생"
       ],
       "weight": 3,
-      "culture_note": "죽음꿈은 재생·장수의 길몽으로 봄 — 흉한 장면이 오히려 길하게 뒤집히는 '반음몽(反陰夢)'의 대표 예다. 중국 고전 《주공해몽》 「見人死自死者吉」(남이 죽는 것보다 자신이 죽는 꿈이 더 길하다)을 1차 근거로 삼고, 한국 해몽 문헌에서도 자신의 죽음을 장수·대운의 시작으로 푸는 같은 원리가 확인된다.",
+      "culture_note": "죽음꿈은 상황에 따라 갈린다 — 자신이 죽거나 죽은 사람이 되살아나면 길하게, 죽은 사람이 서 있으면 흉하게 보는 식이다. 중국 고전 《주공해몽》 「見人死自死者吉」·「死人立者主大凶」·「死人復活主有信」을 근거로 삼았다.",
       "meanings": [
         {
           "context": "자신/타인의 죽음",
@@ -1808,6 +1829,41 @@
           "interpretation_ko": "그 관계나 상황에 변화가 있으리라는 신호",
           "interpretation_en": "a sign of change in that relationship or situation",
           "polarity": "neutral",
+          "source": "tradition"
+        },
+        {
+          "context": "타인에게 살해당함",
+          "interpretation_ko": "오히려 매우 길한 조짐",
+          "interpretation_en": "traditionally seen as a very auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "타인을 죽임",
+          "interpretation_ko": "큰 재물이나 부귀를 얻음",
+          "interpretation_en": "a sign of great wealth or fortune",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "스스로 목숨을 끊음",
+          "interpretation_ko": "전통 해몽에서는 길한 조짐으로 보았다. 이 풀이는 전통 상징 해석이며 실제 위기 상황과는 무관합니다. 힘든 상황이라면 자살예방상담전화 1393으로 연락해 주세요.",
+          "interpretation_en": "traditionally seen as an auspicious sign. This is a traditional symbolic reading and is unrelated to real-life crises. If you're struggling, please reach out to a crisis line in your area.",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "죽은 사람이 서 있음",
+          "interpretation_ko": "매우 흉한 조짐",
+          "interpretation_en": "traditionally seen as a very inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "죽은 사람이 되살아남",
+          "interpretation_ko": "믿을 만한 좋은 소식이 옴",
+          "interpretation_en": "trustworthy good news is coming",
+          "polarity": "positive",
           "source": "tradition"
         }
       ]
@@ -2333,9 +2389,23 @@
           "interpretation_en": "broken bond or self-image",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "거울이 밝음",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "traditionally seen as an auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "거울이 어두움",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "traditionally seen as an inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
         }
       ],
-      "culture_note": "중국 고전 《주공해몽》 「鏡破主夫妻離別」(거울이 깨지면 부부 이별의 조짐이다)과 대조 확인했다."
+      "culture_note": "중국 고전 《주공해몽》 「鏡破主夫妻離別」(거울이 깨지면 부부 이별의 조짐이다)과 대조 확인했다. 「明鏡者吉暗者凶」(거울이 밝으면 길하고 어두우면 흉하다)도 같은 원문에 두 번 나올 만큼 확실한 근거다."
     },
     {
       "id": "key",

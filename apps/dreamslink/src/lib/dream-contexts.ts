@@ -23,6 +23,14 @@ export const CONTEXT_EN: Record<string, string> = {
   // 주어를 가리키는 낱말만 남긴다.
   "자신이 죽음": "myself personally own",
   "타인이 죽는 것을 봄": "someone else friend family father mother",
+
+  // 죽음 — 3차 확장 (주공해몽, 2026-08-26)
+  "타인에게 살해당함": "was murdered was attacked stabbed by",
+  "타인을 죽임": "murdered strangled stabbed someone",
+  "스스로 목숨을 끊음": "suicide took my own life ended my life",
+  "죽은 사람이 서 있음": "standing stood upright",
+  "죽은 사람이 되살아남": "revived resurrected alive again",
+
   "용이 승천": "dragon ascend ascending",
   "호랑이를 타거나 물리침": "tiger ride riding defeat defeated",
   "호랑이에게 쫓김": "tiger chase chased",
@@ -80,6 +88,7 @@ export const CONTEXT_EN: Record<string, string> = {
   "피 없이 빠짐": "without blood painless bleeding none",
   // 아랫니 (주공해몽, 2026-08-26)
   "아랫니가 빠짐": "lower bottom back",
+  "이가 빠졌다가 다시 남": "grew back regrew growing again new tooth",
   "머리가 빠짐": "hair fall falling",
   "머리를 자름": "hair cut cutting",
   "피를 봄/묻음": "blood see seeing",
@@ -126,6 +135,8 @@ export const CONTEXT_EN: Record<string, string> = {
   "신발을 잃음": "shoe lose lost",
   "새 옷을 입음": "clothes wear wore",
   "거울을 봄": "mirror see saw",
+  "거울이 밝음": "bright shining clear polished",
+  "거울이 어두움": "dark dim cloudy tarnished",
   "열쇠를 얻음": "key get got",
   "크고 좋은 집": "large big fine spacious grand",
   "허물어지는 집": "collapsing crumbling collapsed ruined cracked",

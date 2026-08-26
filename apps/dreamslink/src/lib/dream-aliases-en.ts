@@ -338,7 +338,16 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "was dead",
     "died",
     "was dying",
-    "my death"
+    "my death",
+    "was murdered",
+    "murdered someone",
+    "i murdered",
+    "committed suicide",
+    "suicide",
+    "dead person was standing",
+    "corpse was standing",
+    "came back to life",
+    "came back from the dead"
   ],
   "crying": [
     "was crying",
