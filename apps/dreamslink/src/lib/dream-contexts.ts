@@ -78,6 +78,8 @@ export const CONTEXT_EN: Record<string, string> = {
   "땅이 흔들림": "earthquake shake shaking",
   "윗니가 빠짐": "upper top front",
   "피 없이 빠짐": "without blood painless bleeding none",
+  // 아랫니 (주공해몽, 2026-08-26)
+  "아랫니가 빠짐": "lower bottom back",
   "머리가 빠짐": "hair fall falling",
   "머리를 자름": "hair cut cutting",
   "피를 봄/묻음": "blood see seeing",

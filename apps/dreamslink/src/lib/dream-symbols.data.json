@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.6.0",
+  "dictVer": "1.7.0",
   "symbols": [
     {
       "id": "pig",
@@ -1313,7 +1313,9 @@
         "이가 빠",
         "이빨 빠",
         "이가 흔들",
-        "치아가 빠"
+        "치아가 빠",
+        "윗니",
+        "아랫니"
       ],
       "category": "body",
       "polarity": "ambivalent",
@@ -1323,7 +1325,7 @@
         "변화"
       ],
       "weight": 3,
-      "culture_note": "윗니=윗사람, 아랫니=아랫사람",
+      "culture_note": "윗니=윗사람, 아랫니=아랫사람. 중국 고전 《주공해몽》 「齒自落者父母凶」(이가 저절로 빠지면 부모에게 흉하다)과도 대조 확인했다.",
       "meanings": [
         {
           "context": "윗니가 빠짐",
@@ -1337,6 +1339,13 @@
           "interpretation_ko": "변화·전환",
           "interpretation_en": "transition or change",
           "polarity": "neutral",
+          "source": "tradition"
+        },
+        {
+          "context": "아랫니가 빠짐",
+          "interpretation_ko": "아랫사람/자녀 관련 근심",
+          "interpretation_en": "concern about younger family members/children",
+          "polarity": "negative",
           "source": "tradition"
         }
       ]
