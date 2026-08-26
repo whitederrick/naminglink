@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.9.0",
+  "dictVer": "1.14.0",
   "symbols": [
     {
       "id": "pig",
@@ -78,8 +78,30 @@
           "interpretation_en": "caution: disputes or health",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "뱀이 용으로 변함",
+          "interpretation_ko": "귀인의 도움을 받을 조짐",
+          "interpretation_en": "a sign of receiving help from an influential person",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "뱀의 색이 붉거나 검음",
+          "interpretation_ko": "구설이 생길 조짐",
+          "interpretation_en": "a sign of upcoming disputes or gossip",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "뱀의 색이 푸르거나 초록",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "traditionally seen as an auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「蛇化龍得貴人助」(뱀이 용으로 변하면 귀인의 도움을 받는다)·「蛇赤黑口舌青吉」(붉거나 검은 뱀은 구설, 푸른 뱀은 길하다)를 근거로 삼았다."
     },
     {
       "id": "dragon",
@@ -97,13 +119,34 @@
         "권위"
       ],
       "weight": 3,
-      "culture_note": "대길몽, 귀한 자식·큰 출세",
+      "culture_note": "대길몽, 귀한 자식·큰 출세. 다만 중국 고전 《주공해몽》에는 「龍死亡主失貴位」(용이 죽으면 지위를 잃는다)·「龍入井中官被辱」(용이 우물에 들어가면 모욕을 당한다)처럼 상황에 따라 흉하게 보는 문맥도 있다.",
       "meanings": [
         {
           "context": "용이 승천",
           "interpretation_ko": "큰 성공·명예·귀한 태몽",
           "interpretation_en": "great success, honor, noble birth omen",
           "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "용이 죽음",
+          "interpretation_ko": "지위나 명예를 잃을 조짐",
+          "interpretation_en": "a sign of losing status or honor",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "용을 타고 이동함",
+          "interpretation_ko": "귀한 지위를 얻거나 바라던 일이 이루어짐",
+          "interpretation_en": "a sign of attaining high status or a wish coming true",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "용이 우물에 들어감",
+          "interpretation_ko": "윗사람에게 모욕을 당할 조짐",
+          "interpretation_en": "a sign of being disgraced by someone in authority",
+          "polarity": "negative",
           "source": "tradition"
         }
       ]
@@ -143,6 +186,13 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 기개가 큰 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "호랑이가 집에 들어옴",
+          "interpretation_ko": "중요한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an important position",
           "polarity": "positive",
           "source": "tradition"
         }
@@ -241,6 +291,13 @@
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "소가 사람을 받음",
+          "interpretation_ko": "일이 뜻대로 안 풀릴 조짐",
+          "interpretation_en": "a sign that things will not go as planned",
+          "polarity": "negative",
+          "source": "tradition"
         }
       ]
     },
@@ -272,6 +329,20 @@
           "interpretation_ko": "전통적으로 활달하고 크게 나아가는 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "말을 타고 빨리 달림",
+          "interpretation_ko": "기쁜 일이 생길 조짐",
+          "interpretation_en": "a sign of upcoming joy",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "말이 느리게 감",
+          "interpretation_ko": "일이 둔하게 풀릴 조짐",
+          "interpretation_en": "a sign that things will move slowly",
+          "polarity": "negative",
           "source": "tradition"
         }
       ]
@@ -328,6 +399,13 @@
           "context": "임신 태몽 아기 아이 임산부 출산",
           "interpretation_ko": "전통적으로 귀한 자식을 얻는 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "물고기가 떼지어 헤엄침",
+          "interpretation_ko": "재물이 생길 조짐",
+          "interpretation_en": "a sign of incoming wealth",
           "polarity": "positive",
           "source": "tradition"
         }
@@ -454,6 +532,13 @@
           "interpretation_ko": "전통적으로 장수하는 아이의 태몽으로 보았다",
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "거북이를 잡음",
+          "interpretation_ko": "상을 당할 조짐",
+          "interpretation_en": "a sign of a funeral or loss",
+          "polarity": "negative",
           "source": "tradition"
         }
       ]
@@ -1061,12 +1146,13 @@
         },
         {
           "context": "임신 태몽 아기 아이 임산부 출산",
-          "interpretation_ko": "전통적으로 귀한 아이의 태몽으로 보았다",
-          "interpretation_en": "traditionally read as a conception dream",
+          "interpretation_ko": "전통적으로 귀한 아들의 태몽으로 보았다",
+          "interpretation_en": "traditionally read as a conception dream for a son",
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": " 중국 고전 《주공해몽》 「日入懷貴子月女」(해가 품에 들면 귀한 아들, 달이면 딸의 태몽)를 근거로 삼았다."
     },
     {
       "id": "moon",
@@ -1099,7 +1185,8 @@
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「日入懷貴子月女」(해가 품에 들면 귀한 아들, 달이면 딸의 태몽)를 근거로 삼았다."
     },
     {
       "id": "star",
@@ -2198,13 +2285,13 @@
         "현금"
       ],
       "category": "object",
-      "polarity": "ambivalent",
+      "polarity": "positive",
       "tags": [
         "재물",
         "지출"
       ],
       "weight": 3,
-      "culture_note": "돈 줍기는 오히려 지출로 보기도",
+      "culture_note": "돈 줍는 꿈은 길몽·횡재수로 보는 것이 오늘날 한국의 통설이며, 중국 고전 《주공해몽》 「拾得錢物皆大吉」와도 맞는다. 다만 '돈을 주우면 오히려 나간다'는 반대 해석도 민간에 함께 전해온다. 「還人錢物疾病去」(빌린 돈이나 물건을 돌려주면 병이 낫는다)도 근거로 삼았다.",
       "meanings": [
         {
           "context": "돈이 들어옴",
@@ -2215,9 +2302,23 @@
         },
         {
           "context": "돈을 주움",
-          "interpretation_ko": "뜻밖 지출·작은 손실(반대 해석)",
-          "interpretation_en": "unexpected expense (reversal)",
+          "interpretation_ko": "뜻밖의 재물이나 좋은 소식",
+          "interpretation_en": "an unexpected gain or good news",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "돈을 잃어버림",
+          "interpretation_ko": "근심스러운 일이 생길 조짐",
+          "interpretation_en": "a sign of coming worry or trouble",
           "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "빌린 돈을 갚음",
+          "interpretation_ko": "앓던 근심이나 병이 풀림",
+          "interpretation_en": "a lingering worry or illness is resolved",
+          "polarity": "positive",
           "source": "tradition"
         }
       ]

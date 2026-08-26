@@ -12,6 +12,9 @@ export const CONTEXT_EN: Record<string, string> = {
   "임신 태몽 아기 아이 임산부 출산": "pregnant pregnancy expecting baby infant childbirth",
   "뱀을 잡거나 품": "catch caught hold held holding",
   "뱀에게 물림": "bite bitten bit",
+  "뱀이 용으로 변함": "turned into dragon became dragon transformed",
+  "뱀의 색이 붉거나 검음": "red black",
+  "뱀의 색이 푸르거나 초록": "blue green",
 
   // 돼지 — 죽임 / 저절로 죽음 (주공해몽, 2026-08-26)
   "돼지를 죽임": "killed killing slaughter slaughtered butchered",
@@ -32,8 +35,12 @@ export const CONTEXT_EN: Record<string, string> = {
   "죽은 사람이 되살아남": "revived resurrected alive again",
 
   "용이 승천": "dragon ascend ascending",
+  "용이 죽음": "died dying death",
+  "용을 타고 이동함": "rode riding ride",
+  "용이 우물에 들어감": "well",
   "호랑이를 타거나 물리침": "tiger ride riding defeat defeated",
   "호랑이에게 쫓김": "tiger chase chased",
+  "호랑이가 집에 들어옴": "entered house came into my home",
   "온순한 개": "gentle friendly tame wagging calm approached",
   "개에게 물림": "bit bite bitten attacked growled",
   "고양이가 노려봄": "cat stare staring",
@@ -126,6 +133,8 @@ export const CONTEXT_EN: Record<string, string> = {
   "소중한 것을 잃음": "lose lose lost",
   "돈이 들어옴": "came received earned gained arrived",
   "돈을 주움": "picked picking street ground floor",
+  "돈을 잃어버림": "lost losing money stolen",
+  "빌린 돈을 갚음": "repaid repaying paid back returned borrowed",
   "금·보석을 얻음": "gold jewel obtain",
   "반지를 낌": "ring wear",
   "반지를 잃음": "ring lose lost",
@@ -242,6 +251,11 @@ export const CONTEXT_EN: Record<string, string> = {
   "9가 반복": "number nine repeat",
   "8이 반복": "number eight repeat",
   "살진 소": "cow ox fat plump fattened",
+  "소가 사람을 받음": "gored rammed butted charged",
+  "말을 타고 빨리 달림": "fast quickly galloping swift",
+  "말이 느리게 감": "slow slowly plodding",
+  "물고기가 떼지어 헤엄침": "school shoal swarm many fish",
+  "거북이를 잡음": "caught catching turtle",
   "단비": "rain welcome timely gentle needed",
   "궂은 비": "rain dreary gloomy dismal drizzle",
   "깨진 거울": "mirror broken cracked shattered"
