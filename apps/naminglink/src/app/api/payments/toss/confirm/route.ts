@@ -98,6 +98,8 @@ export async function GET(request: NextRequest) {
         .eq("payment_status", "UNPAID");
     } else if (order.order_type === "CANDIDATE_UNLOCK") {
       // 분석 세션이 없는 즉시 전달 상품이라 처리까지 완료로 만든다.
+      // STAMP_DELIVERY 분기와 같은 이유로 payment_status="UNPAID" 조건을 건다 — 없으면
+      // 환불된 뒤 재요청이 무조건 다시 PAID로 되돌릴 수 있다.
       await supabase
         .from("orders")
         .update({
@@ -106,7 +108,8 @@ export async function GET(request: NextRequest) {
           metadata: { ...metadata, tossPaymentKey: payment.paymentKey, paidAt },
           updated_at: new Date().toISOString(),
         })
-        .eq("id", order.id);
+        .eq("id", order.id)
+        .eq("payment_status", "UNPAID");
     } else {
       const { data: session } = await supabase
         .from("premium_analysis_sessions")

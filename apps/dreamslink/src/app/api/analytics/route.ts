@@ -21,7 +21,10 @@ const schema = z.object({
   eventType: z.enum(["PAGE_VIEW", "ANALYSIS_STARTED", "ANALYSIS_COMPLETED", "ANALYSIS_FAILED"]),
   path: z.string().max(300).default("/"),
   locale: z.string().max(20).optional(),
-  serviceType: z.enum(["GUNGHAP_MATCH", "AFFINITY_MATCH"]).optional(),
+  // 인연링크 원본을 그대로 복사해 GUNGHAP_MATCH/AFFINITY_MATCH를 받고 있었다 — 드림링크
+  // 클라이언트(DreamForm.tsx·DreamResultView.tsx)는 "DREAM_READING"만 보내므로 모든
+  // 분석 이벤트가 이 스키마에서 거부돼 site_events에 한 건도 안 남고 있었다(2026-08-26 발견).
+  serviceType: z.enum(["DREAM_READING"]).optional(),
 });
 
 function getRequestIp(request: NextRequest) {

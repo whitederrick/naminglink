@@ -1,7 +1,7 @@
 "use client";
 
 import { X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { emphasize } from "@/lib/emphasize";
@@ -11,7 +11,10 @@ import { MAX_BIRTH_YEAR, MIN_BIRTH_YEAR } from "@/lib/match-input";
 
 // 간이 유형 확인기. `LegalModal`과 **같은 구조·같은 동작**이다 — 바깥 눌러 닫기(onMouseDown
 // 기준이라 드래그로 글자를 고르다 놓아도 닫히지 않는다), Esc로 닫기, 열려 있는 동안 뒤 화면
-// 스크롤 잠금. 같은 서비스 안에서 팝업이 화면마다 다르게 굴면 안 된다.
+// 스크롤 잠금, **그리고 뒤로가기로 닫기.** 같은 서비스 안에서 팝업이 화면마다 다르게 굴면
+// 안 된다 — "같은 구조"라고 주석만 적고 뒤로가기 처리를 빠뜨렸던 적이 있다(2026-08-26
+// 코드 리뷰에서 발견: 결과 화면에서 이 팝업을 연 뒤 뒤로가기를 누르면 팝업이 안 닫히고
+// 결과 화면 자체를 이탈했다 — LegalModal.tsx가 2026-08-08에 겪은 것과 같은 회귀).
 //
 // 계산은 서버가 하지만 **순위는 여기서 매긴다.** 유형 목록은 이미 결과 화면이 들고 있으므로
 // 서버가 다시 보낼 이유가 없고, 그래야 서버가 알아야 할 것이 "이 날짜의 일간" 하나로 줄어든다.
@@ -44,6 +47,10 @@ export function TypeCheckModal({
   const [month, setMonth] = useState("");
   const [day, setDay] = useState("");
   const [state, setState] = useState<State>({ status: "idle" });
+  const closeRef = useRef(onClose);
+  useEffect(() => {
+    closeRef.current = onClose;
+  }, [onClose]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -58,6 +65,24 @@ export function TypeCheckModal({
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [onClose]);
+
+  // ReportModal.tsx·LegalModal.tsx와 같은 패턴. 의존성을 비운 것도 같은 이유 —
+  // closeRef로 최신 onClose를 읽어 StrictMode 이중 마운트에서도 안전하다.
+  useEffect(() => {
+    const previous = window.history.state as Record<string, unknown> | null;
+    window.history.pushState({ ...previous, __typeCheckModal: true }, "");
+    let closedByBack = false;
+    const onPopState = () => {
+      closedByBack = true;
+      closeRef.current();
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => {
+      window.removeEventListener("popstate", onPopState);
+      const current = window.history.state as Record<string, unknown> | null;
+      if (!closedByBack && current?.__typeCheckModal === true) window.history.back();
+    };
+  }, []);
 
   async function check(event: React.FormEvent) {
     event.preventDefault();

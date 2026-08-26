@@ -2,6 +2,7 @@ import "server-only";
 
 import type { PaidPayment } from "@portone/server-sdk/payment";
 
+import { notifyOps } from "@/lib/ops-alert";
 import {
   premiumReportExpiresAt,
   verifyPremiumReportToken,
@@ -86,7 +87,7 @@ export async function markPremiumSessionPaid(
     throw new Error("결제 정보가 이 주문과 일치하지 않습니다.");
   }
 
-  const { error: sessionError } = await supabase
+  const { data: updatedSessions, error: sessionError } = await supabase
     .from("premium_analysis_sessions")
     .update({
       status: "PAID",
@@ -96,7 +97,23 @@ export async function markPremiumSessionPaid(
       updated_at: now,
     })
     .eq("id", sessionId)
-    .in("status", ["PENDING_PAYMENT", "PAID", "FAILED"]);
+    .in("status", ["PENDING_PAYMENT", "PAID", "FAILED"])
+    .select("id");
   if (sessionError) throw sessionError;
+  if (!updatedSessions?.length) {
+    // **주문은 이미 위에서 PAID로 커밋됐다.** 흔한 원인은 정리 크론이 방치 세션으로 보고
+    // 먼저 DELETED로 지운 것 — 그 경우 input_payload가 이미 비워져 있어 재생성이 안 된다.
+    // 조용히 통과시키면 "결제됐고 status:PAID"를 돌려주고 실제로는 리포트가 영영 안 나온다
+    // (2026-08-26 코드 리뷰에서 발견). 사람이 확인해 환불하도록 알린다.
+    notifyOps(
+      "premium-session-paid-not-applied",
+      "결제는 확정됐는데 분석 세션을 PAID로 표시하지 못했습니다 — 환불 확인이 필요합니다",
+      { sessionId, orderId },
+      "critical",
+    );
+    throw new Error(
+      `결제는 확정됐지만 분석 세션(${sessionId})을 PAID로 표시하지 못했습니다 — 세션이 이미 삭제됐거나 상태가 예상 밖입니다.`,
+    );
+  }
   return { paidAt: paidAt.toISOString(), expiresAt: expiresAt.toISOString() };
 }

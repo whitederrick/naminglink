@@ -84,9 +84,15 @@ export type SajuInterpretation = {
 export const MUTABLE_FIELDS = ["summary"] as const;
 
 /**
- * 캐시 키 — `입력해시 + 엔진버전 + 프롬프트버전 + locale + 날짜`.
+ * 캐시 키 — `입력해시 + 엔진버전 + 프롬프트버전 + locale`.
  *
- * **날짜가 들어가는 이유**: 해설이 오늘의 운세를 언급하므로 자정을 넘기면 다른 글이어야 한다.
+ * **날짜를 넣지 않는다.** `sajuOutputInstruction()`이 모델에게 요구하는 `summary`는 일간·강약·
+ * 오행 후박 등 **원국 사실뿐**이다 — 오늘의 운세는 프롬프트가 요구하지 않는다. 그런데 날짜가
+ * 키에 있으면 자정만 넘어도 캐시가 비어 모델을 다시 부르고, 결과가 문장 수준에서 달라질 수
+ * 있었다. 약관은 "이 문서는 평생 바뀌지 않는 원국 풀이와 올해의 운세로 이루어집니다"라고
+ * 약속하는데, 재발급(`REISSUE_LIMIT`)이 날짜를 넘기면 그 약속이 깨지고 있었다
+ * (2026-08-26 코드 리뷰에서 발견 — 날짜를 넣던 이유였던 옛 프롬프트는 이미 자리가 없다).
+ *
  * **엔진·프롬프트 버전이 들어가는 이유**: 규칙이나 지시를 고치면 옛 글이 그대로 나오면 안 된다.
  */
 function cacheKey(
@@ -97,7 +103,7 @@ function cacheKey(
     .update(JSON.stringify(factors.natal))
     .digest("hex")
     .slice(0, 32);
-  return [inputHash, TODAY_FORTUNE_VERSION, PROMPT_VERSION, locale, factors.today.date].join(":");
+  return [inputHash, TODAY_FORTUNE_VERSION, PROMPT_VERSION, locale].join(":");
 }
 
 /**

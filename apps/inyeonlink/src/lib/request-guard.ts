@@ -92,5 +92,17 @@ export async function checkRateLimit(
     );
     return true;
   }
-  return data !== false;
+  // **`data`가 진짜 boolean이 아니면 그것도 알린다.** 예전에는 `data !== false`로만 판정해
+  // RPC가 `null`/`undefined`를 반환하는 경우(예: 함수 버그, 예상 밖의 반환 경로)까지 조용히
+  // "허용"으로 셌다 — error 분기와 달리 알림이 없어 **가장 위험한 실패가 가장 조용했다**
+  // (2026-08-26 코드 리뷰에서 발견, 위 §의 2026-08-06 사고와 같은 병).
+  if (typeof data !== "boolean") {
+    notifyOps(
+      `rate-limit-unexpected-result:${scope}`,
+      `레이트리밋 RPC가 boolean이 아닌 값을 반환해 통과시키고 있습니다 (${scope})`,
+      { scope, data },
+    );
+    return true;
+  }
+  return data;
 }

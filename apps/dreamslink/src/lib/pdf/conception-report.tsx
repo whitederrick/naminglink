@@ -10,7 +10,7 @@ import {
   themeLabels,
 } from "@/lib/dream-language";
 import type { Locale } from "@/lib/i18n";
-import { MixedText } from "@/lib/pdf/fonts";
+import { MixedText, pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import { CONCEPTION_PAGE_COUNT } from "@/lib/report-pages";
 import { warmUpLayoutEngine } from "@/lib/pdf/warm-up";
 import type { DreamOutcome } from "@/lib/engines/dream-match";
@@ -69,6 +69,9 @@ const COPY = {
     title: "태몽 리포트",
     subtitle: (version: string) => `전통 해몽 상징 사전 ${version} 기준`,
     yourDream: "적어 주신 꿈",
+    /** ar·km 전용. 원문 꿈 문단이 줄바꿈되면 렌더러가 죽어(`pdf/fonts.tsx`) 대신 낸다. */
+    dreamOmittedNotice:
+      "적어 주신 꿈은 이 문서 형식으로는 옮겨 담을 수 없어 생략했습니다. 화면의 무료 결과에서 원문 그대로 확인하실 수 있습니다.",
     atAGlance: "한눈에",
     summary: (found: number, conception: number, themes: string) =>
       `찾은 상징 ${found}개 · 전통적으로 태몽으로 보는 상징 ${conception}개${themes ? ` · 주제 ${themes}` : ""}`,
@@ -105,6 +108,10 @@ const COPY = {
     subtitle: (version: string) =>
       `Based on the traditional Korean dream-symbol dictionary ${version}`,
     yourDream: "The dream you wrote",
+    /** ar·km only. The renderer crashes on a wrapping paragraph in these scripts
+     * (`pdf/fonts.tsx`), so the raw dream text is left out and this note takes its place. */
+    dreamOmittedNotice:
+      "The dream you wrote could not be included in this document format. You can still read it in the free result on-screen.",
     atAGlance: "At a glance",
     summary: (found: number, conception: number, themes: string) =>
       `${found} symbol(s) found · ${conception} traditionally read as conception omens${themes ? ` · themes: ${themes}` : ""}`,
@@ -157,6 +164,13 @@ export function ConceptionReport({
 }: ConceptionReportInput) {
   const language = readingLanguage(locale);
   const t = COPY[language];
+  /**
+   * **원문 꿈 문단은 ar·km에서 그대로 실을 수 없다.** 문서 전체는 이 두 로케일에서 이미
+   * 영어로 나가지만(`pdfLocale`), 그건 우리가 쓴 고정 문구 얘기다. 사용자가 원문 그대로
+   * 적은 `dreamText`는 그 예외를 안 받아 여전히 원래 문자 그대로 렌더되고, 줄바꿈이 생기는
+   * 순간 렌더러가 죽는다(2026-08-26 코드 리뷰에서 발견 — 이름 필드만 예외 대상이었다).
+   */
+  const dreamTextRenderable = !pdfLanguageDiffers(locale);
   // **판정은 한국어 원본 태그로 한다.** 표시 이름이 무엇이든 태그 자체는 사전의 값이다.
   const conceptionSymbols = outcome.matched.filter((item) => item.tags.some(isConceptionTag));
   const others = outcome.matched.filter((item) => !item.tags.some(isConceptionTag));
@@ -229,7 +243,10 @@ export function ConceptionReport({
         <MixedText style={styles.title} text={t.title} />
         <MixedText style={styles.subtitle} text={t.subtitle(dictVersion)} />
         <MixedText style={styles.heading} text={t.yourDream} />
-        <MixedText style={styles.paragraph} text={dreamText} />
+        <MixedText
+          style={styles.paragraph}
+          text={dreamTextRenderable ? dreamText : t.dreamOmittedNotice}
+        />
         <MixedText style={styles.heading} text={t.atAGlance} />
         <MixedText
           style={styles.paragraph}

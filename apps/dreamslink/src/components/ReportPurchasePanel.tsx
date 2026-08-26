@@ -85,7 +85,12 @@ type Stage =
   | { name: "paypal"; checkout: PortOneCheckout }
   | { name: "issuing" }
   | { name: "done"; order: Issuable }
-  | { name: "failed"; message: string };
+  /**
+   * `retryOrder`가 있으면 **결제는 이미 끝났고 발급만 실패한 것**이다(예: PDF 렌더 일시
+   * 오류). 그때 재시도 버튼이 `buy()`로 연결되면 이미 결제된 주문에 결제를 한 번 더
+   * 시키는 이중결제가 된다 — 발급만 다시 부르게 갈라 둔다(2026-08-26 코드 리뷰에서 발견).
+   */
+  | { name: "failed"; message: string; retryOrder?: Issuable };
 
 export function ReportPurchasePanel({
   kind,
@@ -234,7 +239,17 @@ export function ReportPurchasePanel({
       if (payment.code) throw new Error(payment.message || t.failed);
       if (payment.paymentId !== checkout.paymentId) throw new Error(t.failed);
 
-      await download(issuableOf(checkout));
+      // 결제는 여기까지 오면 이미 끝났다. 아래 발급이 실패해도 재시도는 재발급이어야
+      // 한다 — 바깥 catch로 떨어지면 버튼이 buy()로 이어져 이중결제가 된다.
+      try {
+        await download(issuableOf(checkout));
+      } catch (caught) {
+        setStage({
+          name: "failed",
+          message: caught instanceof Error ? caught.message : t.failed,
+          retryOrder: issuableOf(checkout),
+        });
+      }
     } catch (caught) {
       setStage({
         name: "failed",
@@ -285,14 +300,20 @@ export function ReportPurchasePanel({
           return;
         }
         // 토스 주문은 결제 식별자가 따로 없어 주문 번호가 곧 그 값이다.
-        await download({ orderId, paymentId: orderId });
+        // 여기 도달했다는 것 자체가 결제 승인이 끝났다는 뜻이다(outcome==="paid"는 서버
+        // 승인 라우트가 확정한 뒤에만 붙는다) — 발급이 실패해도 재시도는 재발급이어야
+        // 하므로 retryOrder를 함께 남긴다.
+        const issuable = { orderId, paymentId: orderId };
+        try {
+          await download(issuable);
+        } catch (caught) {
+          setStage({
+            name: "failed",
+            message: caught instanceof Error ? caught.message : t.failed,
+            retryOrder: issuable,
+          });
+        }
       })
-      .catch((caught: unknown) =>
-        setStage({
-          name: "failed",
-          message: caught instanceof Error ? caught.message : t.failed,
-        }),
-      )
       .finally(clearQuery);
     // 복귀 처리는 최초 마운트에서 한 번만 한다.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -314,10 +335,12 @@ export function ReportPurchasePanel({
       },
       {
         onPaymentSuccess: () => {
+          // 결제는 이미 성공했다 — 재시도는 재발급이어야 한다(위 buy()의 같은 처리 참고).
           void download(issuableOf(checkout)).catch((caught) =>
             setStage({
               name: "failed",
               message: caught instanceof Error ? caught.message : t.failed,
+              retryOrder: issuableOf(checkout),
             }),
           );
         },
@@ -338,9 +361,12 @@ export function ReportPurchasePanel({
   // 뒤에는 동의 사실이 이미 서버에 남아 있어 화면에서 되돌릴 수 있게 두면 기록과 어긋난다.
   // 다시 받기도 이미 결제하며 동의한 주문이다.
   const onSale = Boolean(offerPrice);
+  // 이미 결제된 주문의 재발급(stage.retryOrder)은 새 구매가 아니므로 다시 동의를 묻지
+  // 않는다 — "done" 단계(정상 재발급)와 같은 취급이다.
   const consentNeeded =
-    onSale && (stage.name === "idle" || stage.name === "failed");
+    onSale && (stage.name === "idle" || (stage.name === "failed" && !stage.retryOrder));
   const blocked = busy || !onSale || (consentNeeded && !consented);
+  const retryOrder = stage.name === "done" ? stage.order : stage.name === "failed" ? stage.retryOrder : undefined;
   const busyLabel =
     stage.name === "ordering"
       ? t.ordering
@@ -412,13 +438,13 @@ export function ReportPurchasePanel({
       ) : (
         <button
           type="button"
-          onClick={stage.name === "done" ? () => void download(stage.order) : buy}
+          onClick={retryOrder ? () => void download(retryOrder) : buy}
           disabled={blocked}
           className="mt-5 w-full rounded-full bg-brand-violet px-8 py-3.5 font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {busy
             ? busyLabel
-            : stage.name === "done"
+            : retryOrder
               ? t.retry
               : offerPrice
                 ? fillTemplate(t.buyButton, { price: offerPrice })

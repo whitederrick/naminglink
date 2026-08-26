@@ -92,6 +92,11 @@ export async function POST(request: Request) {
       } else if (order.order_type === "CANDIDATE_UNLOCK") {
         // 일괄 공개는 분석 세션이 없는 즉시 전달 상품 — 주문만 결제·처리 완료로 만든다
         // (confirm 라우트와 동일 처리, 웹훅이 먼저 도착해도 confirm은 멱등이라 안전).
+        //
+        // **STAMP_DELIVERY 분기와 같은 이유로 payment_status="UNPAID" 조건을 건다.** 없으면
+        // 환불(Transaction.Cancelled → REFUNDED)된 뒤 재전송·중복된 Transaction.Paid 웹훅이
+        // 도착했을 때 무조건 다시 PAID/COMPLETED로 되돌려 환불된 잠금해제를 재활성화할 수
+        // 있다(2026-08-26 코드 리뷰에서 발견).
         await supabase
           .from("orders")
           .update({
@@ -104,7 +109,8 @@ export async function POST(request: Request) {
             },
             updated_at: new Date().toISOString(),
           })
-          .eq("id", order.id);
+          .eq("id", order.id)
+          .eq("payment_status", "UNPAID");
       } else {
         const { data: session } = await supabase
           .from("premium_analysis_sessions")
