@@ -9,7 +9,7 @@
 
 export const CONTEXT_EN: Record<string, string> = {
   "돼지가 집에 들어오거나 품": "pig enter entering hold held",
-  "임신 태몽 아기 아이 임산부 출산": "bead pregnancy baby",
+  "임신 태몽 아기 아이 임산부 출산": "pregnant pregnancy expecting baby infant childbirth",
   "뱀을 잡거나 품": "catch caught hold held holding",
   "뱀에게 물림": "bite bitten bit",
   "용이 승천": "dragon ascend ascending",
