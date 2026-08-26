@@ -4,7 +4,7 @@ import { X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { getReportCopy } from "@/lib/report-copy";
-import type { Locale } from "@/lib/i18n";
+import { isRtlLocale, type Locale } from "@/lib/i18n";
 
 // 신고 채널 트리거 모달. docs/LOCALE_AD_STRATEGY_2026-08-21.md §3.5 ⑤ — 광고 개방의
 // 관측망이다. 검토의 실체는 사람이 하는 거래 문구 확인이고, 이 채널은 추가 접수 창구다.
@@ -81,7 +81,7 @@ export function ReportModal({ locale, onClose }: { locale: Locale; onClose: () =
         role="dialog"
         aria-modal="true"
         aria-labelledby="report-modal-title"
-        dir={locale === "ar" ? "rtl" : "ltr"}
+        dir={isRtlLocale(locale) ? "rtl" : "ltr"}
         className="flex w-full max-w-md flex-col overflow-hidden rounded-xl border border-[#ded9cc] bg-white text-[#17201b] shadow-2xl"
       >
         <header className="flex items-start justify-between gap-4 border-b border-[#ded9cc] px-5 py-4">

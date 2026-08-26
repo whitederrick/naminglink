@@ -11,6 +11,7 @@ import {
   fallbackFooterContent,
   type FooterContent,
 } from "@/lib/site-content";
+import { isRtlLocale } from "@/lib/locale";
 import type { Locale } from "@/lib/services";
 import { guideHubHref } from "@/lib/guide-back";
 import { getAuthCopy } from "@/lib/i18n-auth";
@@ -761,7 +762,7 @@ export function SiteFooter({
     [secondLine[2]],
     [secondLine[4]],
   ];
-  const textDirection = locale === "ar" ? "rtl" : "ltr";
+  const textDirection = isRtlLocale(locale) ? "rtl" : "ltr";
   const valueClass = isLight
     ? "font-semibold text-white"
     : "font-semibold text-foreground";

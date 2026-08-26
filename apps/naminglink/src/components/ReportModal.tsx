@@ -3,6 +3,7 @@
 import { X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { isRtlLocale } from "@/lib/locale";
 import { getReportCopy } from "@/lib/report-copy";
 import type { Locale } from "@/lib/services";
 
@@ -81,7 +82,7 @@ export function ReportModal({ locale, onClose }: { locale: Locale; onClose: () =
         role="dialog"
         aria-modal="true"
         aria-labelledby="report-modal-title"
-        dir={locale === "ar" ? "rtl" : "ltr"}
+        dir={isRtlLocale(locale) ? "rtl" : "ltr"}
         className="flex w-full max-w-md flex-col overflow-hidden rounded-xl border border-[#ded9cc] bg-white text-[#17201b] shadow-2xl"
       >
         <header className="flex items-start justify-between gap-4 border-b border-[#ded9cc] px-5 py-4">
