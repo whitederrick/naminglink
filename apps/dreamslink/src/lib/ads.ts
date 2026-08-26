@@ -65,19 +65,24 @@ const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
 ]);
 
 /**
- * **사람이 번역을 검수한 로케일.** 위 목록과 **다른 개념**이다.
+ * **운영자가 실제로 광고를 연 로케일.** 위 목록과 **다른 개념**이다.
  *
  * 목록에 en이 있는 것은 구글이 영어 광고를 지원한다는 뜻이지, 우리 영어판을 사람이 읽어 봤다는
  * 뜻이 아니다. 이 저장소의 번역은 기계 번역이며 원어민 감수를 거치지 않았다.
  *
- * **한국어는 번역이 아니라 원문이므로** 검수 대상이 아니다 — 그래서 여기 있다. 나머지는 사람이
+ * **한국어는 번역이 아니라 원문이므로** 검수 없이도 연다 — 그래서 여기 있다. 나머지는 사람이
  * 그 언어 화면을 실제로 읽어 본 뒤 `docs/LOCALE_REVIEW_LOG.md`에 줄을 더하고 여기 넣는다.
  * 근거가 없는 로케일을 여기 적지 말 것 — 이름이 지키지 못하는 약속을 하게 된다.
+ *
+ * **이름이 `HUMAN_REVIEWED_LOCALES`였다.** naminglink가 2026-08-20에 같은 이름을 이
+ * 이유로 버렸다 — 이름은 "사람이 검수했다"인데 실제로 넣는 판단 기준은 조금씩 넓어질 수
+ * 있어, 이름이 못 지키는 약속을 상수에 적는 꼴이었다. 형제 앱들은 그 이름을 그대로 물려받고
+ * 있었다(2026-08-26 코드 리뷰에서 발견) — naminglink와 같은 이름으로 맞춘다.
  */
 // 신고 채널(관측망, naminglink docs/LOCALE_AD_STRATEGY_2026-08-21.md §3.5 ⑤)이 이 값을
 // 그대로 가져다 쓴다 — 광고 검수가 열릴 때 신고 버튼도 같은 커밋에서 함께 열리게 하려는
 // 것이다. 그래서 export한다.
-export const HUMAN_REVIEWED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
+export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
 
 /**
  * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —
@@ -90,7 +95,7 @@ export function adsAllowedForLocale(locale: string): boolean {
   return (
     adsEnabled &&
     ADSENSE_SUPPORTED_LOCALES.has(locale) &&
-    HUMAN_REVIEWED_LOCALES.has(locale)
+    AD_OPENED_LOCALES.has(locale)
   );
 }
 
@@ -102,7 +107,7 @@ export function unsupportedAdLocales(locales: readonly string[]): string[] {
 /** 검사기 대조군. 광고 코드가 **있어야 하는** 로케일이다(지원 ∩ 검수). */
 export function adEligibleLocales(locales: readonly string[]): string[] {
   return locales.filter(
-    (locale) => ADSENSE_SUPPORTED_LOCALES.has(locale) && HUMAN_REVIEWED_LOCALES.has(locale),
+    (locale) => ADSENSE_SUPPORTED_LOCALES.has(locale) && AD_OPENED_LOCALES.has(locale),
   );
 }
 
