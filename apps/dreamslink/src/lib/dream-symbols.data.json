@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.24.0",
+  "dictVer": "1.25.0",
   "symbols": [
     {
       "id": "pig",
@@ -369,8 +369,16 @@
           "interpretation_en": "news or new beginning",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "닭이 알을 품음",
+          "interpretation_ko": "큰 기쁨이 생길 조짐",
+          "interpretation_en": "a sign of great joy",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「雞抱卵主有大喜」(닭이 알을 품으면 큰 기쁨이 있다)를 근거로 삼았다."
     },
     {
       "id": "fish",
@@ -456,8 +464,16 @@
           "interpretation_en": "news or opportunity",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "새가 품에 듦",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「飛鳥入懷皆主吉」(나는 새가 품에 들면 다 길하다)를 근거로 삼았다."
     },
     {
       "id": "magpie",
@@ -501,8 +517,16 @@
           "interpretation_en": "ill news or worry",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "까마귀가 다른 새와 시끄럽게 다툼",
+          "interpretation_ko": "뜻밖의 대접을 받을 조짐",
+          "interpretation_en": "a sign of an unexpected treat",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「鴉雀相噪主酒食」(까마귀와 참새가 시끄럽게 다투면 술과 음식이 생긴다)를 근거로 삼았다."
     },
     {
       "id": "turtle",
@@ -569,8 +593,16 @@
           "interpretation_en": "loss or petty theft",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "흰 쥐가 길을 인도함",
+          "interpretation_ko": "남의 도움을 받을 조짐",
+          "interpretation_en": "a sign of receiving help from someone",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「白鼠引路人提攜」(흰 쥐가 길을 인도하면 남의 도움을 받는다)를 근거로 삼았다."
     },
     {
       "id": "bear",
@@ -624,8 +656,16 @@
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "사슴이 집 안에 있음",
+          "interpretation_ko": "벼슬과 녹을 얻을 조짐",
+          "interpretation_en": "a sign of gaining rank and reward",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「獐鹿在家得官祿」(노루나 사슴이 집에 있으면 벼슬과 녹을 얻는다)를 근거로 삼았다."
     },
     {
       "id": "rabbit",
@@ -646,8 +686,16 @@
           "interpretation_en": "fertility or calm",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "토끼가 하늘로 오름",
+          "interpretation_ko": "귀한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining a noble position",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「群兔上天得貴位」(토끼 떼가 하늘로 오르면 귀한 지위를 얻는다)를 근거로 삼았다."
     },
     {
       "id": "phoenix",

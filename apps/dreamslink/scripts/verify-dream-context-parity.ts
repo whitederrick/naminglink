@@ -208,6 +208,12 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "bathing", label: "목욕 — 먼지투성이", ko: "먼지투성이인 채로 목욕을 했다", en: "I was bathing while still covered in dust" },
   { id: "hair", label: "머리카락 — 감음", ko: "머리카락을 감았다", en: "I washed my hair" },
   { id: "rice", label: "쌀 — 흩어짐", ko: "쌀이 바닥에 흩어져 있었다", en: "rice was scattered all over the floor" },
+  { id: "chicken", label: "닭 — 알을 품음", ko: "닭이 알을 품고 있었다", en: "a chicken was brooding over an egg" },
+  { id: "bird", label: "새 — 품에 듦", ko: "새가 내 품에 안겼다", en: "a bird nestled in my arms" },
+  { id: "crow", label: "까마귀 — 다툼", ko: "까마귀가 다른 새와 시끄럽게 다투고 있었다", en: "a crow was noisily quarreling with another bird" },
+  { id: "rat", label: "쥐 — 길을 인도함", ko: "흰 쥐가 나타나 길을 인도했다", en: "a white rat appeared and led the way" },
+  { id: "deer", label: "사슴 — 집 안에 있음", ko: "사슴이 집 안에 들어와 있었다", en: "a deer was inside the house" },
+  { id: "rabbit", label: "토끼 — 하늘로 오름", ko: "토끼가 하늘로 날아올랐다", en: "a rabbit rose up into the sky" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
