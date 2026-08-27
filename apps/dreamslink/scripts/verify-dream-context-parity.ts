@@ -190,6 +190,14 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "clothes", label: "옷 — 새옷", ko: "새 옷을 사서 차려입었다", en: "I bought new clothes and dressed up" },
   { id: "clothes", label: "옷 — 찢어짐", ko: "입고 있던 옷이 갑자기 찢어졌다", en: "the clothes I was wearing suddenly tore" },
   { id: "shoe", label: "신발 — 해짐", ko: "신발이 다 해져 있었다", en: "my shoes were completely worn out" },
+  { id: "book", label: "책 — 가르침", ko: "책을 통해 누군가 글을 가르쳐 줬다", en: "someone taught me to read using a book" },
+  { id: "letter", label: "편지 — 받음", ko: "편지를 받았다", en: "I received a letter" },
+  { id: "letter", label: "편지 — 보냄", ko: "편지를 써서 부쳤다", en: "I wrote a letter and mailed it" },
+  { id: "writing", label: "글쓰기 — 필기구를 줌", ko: "글을 쓰는 중에 쓰던 펜을 남에게 줬다", en: "I gave away the pen I had been writing with" },
+  { id: "grave", label: "무덤 — 나무가 자람", ko: "무덤에 나무가 자라나 있었다", en: "a tree was growing on the grave" },
+  { id: "grave", label: "무덤 — 나무가 꺾임", ko: "무덤의 나무가 꺾여 있었다", en: "the tree on the grave had broken" },
+  { id: "coffin", label: "관 — 시신을 넣음", ko: "관에 시신을 넣는 것을 보았다", en: "I saw a body being placed into a coffin" },
+  { id: "marriage", label: "결혼 — 남의 결혼", ko: "남의 결혼식을 보았다", en: "I watched someone else's wedding" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
