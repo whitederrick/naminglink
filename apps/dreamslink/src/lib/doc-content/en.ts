@@ -221,7 +221,7 @@ export const EN_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Service Basis",
     "title": "The reason the same symbol has different meanings",
-    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 218 symbols have 296 meanings and how to interpret situations.",
+    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 218 symbols have 303 meanings and how to interpret situations.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {
@@ -357,7 +357,7 @@ export const EN_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Conception Dream",
     "title": "How to Interpret Conception Dreams",
-    "summary": "It reveals how to determine 27 conception dream symbols, why not all pig dreams are considered conception dreams, and the principle that does not predict pregnancy or gender.",
+    "summary": "It reveals how to determine 28 conception dream symbols, why not all pig dreams are considered conception dreams, and the principle that does not predict pregnancy or gender.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {

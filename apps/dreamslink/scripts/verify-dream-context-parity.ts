@@ -165,6 +165,17 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "tiger", label: "호랑이 — 쫓김", ko: "호랑이에게 쫓겼다", en: "a tiger chased after me" },
   { id: "ancestor", label: "조상 — 밝음", ko: "돌아가신 할아버지가 환하게 웃으셨다", en: "my late grandfather smiled brightly" },
   { id: "ancestor", label: "조상 — 어두움", ko: "돌아가신 분이 어두운 얼굴로 무언가를 요구했다", en: "the deceased looked dark and demanded something" },
+  { id: "earthquake", label: "지진 — 흔들림", ko: "지진이 나서 땅이 흔들렸다", en: "an earthquake made the ground shake" },
+  { id: "earthquake", label: "지진 — 갈라짐", ko: "지진이 나서 땅이 갈라졌다", en: "an earthquake cracked the ground open" },
+  { id: "mountain", label: "산 — 정상", ko: "산 정상까지 올라갔다", en: "I climbed to the mountain peak" },
+  { id: "mountain", label: "산 — 떨어짐", ko: "산에 올랐다가 굴러떨어졌다", en: "I fell while climbing the mountain" },
+  { id: "tree", label: "나무 — 무성함", ko: "나무가 무성하게 우거져 있었다", en: "the tree was lush and thick with leaves" },
+  { id: "tree", label: "나무 — 말라 죽음", ko: "나무가 말라 죽어 있었다", en: "the tree had withered and died" },
+  { id: "flower", label: "꽃 — 나눠 줌", ko: "누군가에게 꽃을 나눠 줬다", en: "I gave flowers away to someone" },
+  { id: "stone", label: "돌 — 큰 바위", ko: "커다란 바위가 있었다", en: "there was a huge rock" },
+  { id: "stone", label: "돌 — 위에 누움", ko: "바위 위에 누워 있었다", en: "I was lying atop a stone" },
+  { id: "apple", label: "과일 — 익음", ko: "과일이 탐스럽게 익어 있었다", en: "the fruit was ripe and inviting" },
+  { id: "apple", label: "과일 — 과수원", ko: "과일이 열린 과수원을 거닐었다", en: "I strolled through an orchard full of fruit trees" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");

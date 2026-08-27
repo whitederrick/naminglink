@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.15.0",
+  "dictVer": "1.16.0",
   "symbols": [
     {
       "id": "pig",
@@ -1060,8 +1060,16 @@
           "interpretation_en": "goal reached, rising status",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "산에 올랐다가 떨어짐",
+          "interpretation_ko": "지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's position",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「昇山落地主失位」(산에 올랐다가 땅으로 떨어지면 지위를 잃는다)를 근거로 삼았다."
     },
     {
       "id": "tree",
@@ -1085,8 +1093,16 @@
           "interpretation_en": "growth or family prosperity",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "나무가 말라 죽음",
+          "interpretation_ko": "집안이 불안해질 조짐",
+          "interpretation_en": "a sign of unrest in the family",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「樹木枯死宅不安」(나무가 말라 죽으면 집안이 불안해진다)을 근거로 삼았다."
     },
     {
       "id": "flower",
@@ -1124,8 +1140,16 @@
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "남에게 꽃을 나눠 줌",
+          "interpretation_ko": "이별할 조짐",
+          "interpretation_en": "a sign of parting",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「與人分花主分散」(남과 꽃을 나누면 헤어질 조짐이다)을 근거로 삼았다."
     },
     {
       "id": "sun",
@@ -1449,8 +1473,16 @@
           "interpretation_en": "upheaval or instability",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "땅이 갈라짐",
+          "interpretation_ko": "질병을 조심할 조짐",
+          "interpretation_en": "a caution about illness",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「地裂主疾病大凶」(땅이 갈라지면 질병으로 크게 흉하다)을 근거로 삼았다."
     },
     {
       "id": "tooth-fall",
@@ -4103,7 +4135,8 @@
       "polarity": "ambivalent",
       "tags": [
         "기반",
-        "장애"
+        "장애",
+        "태몽"
       ],
       "weight": 1,
       "meanings": [
@@ -4113,8 +4146,23 @@
           "interpretation_en": "solid base or an obstacle",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "돌 위에 누움",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a sign of great fortune",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "임신 태몽 아기 아이 임산부 출산",
+          "interpretation_ko": "귀한 자식을 얻을 태몽",
+          "interpretation_en": "traditionally read as a conception dream of a noble child",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「臥於石上主大吉」(돌 위에 누우면 크게 길하다)·「手弄小石生貴子」(작은 돌을 손으로 만지작거리면 귀한 자식을 낳는다)를 근거로 삼았다."
     },
     {
       "id": "pearl",
@@ -5397,8 +5445,16 @@
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "과수원을 거닒",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「果林中行主得財」(과수원을 거닐면 재물을 얻는다)를 근거로 삼았다."
     },
     {
       "id": "egg",
