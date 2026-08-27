@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.25.0",
+  "dictVer": "1.31.0",
   "symbols": [
     {
       "id": "pig",
@@ -787,7 +787,9 @@
       "id": "spider",
       "term_ko": "거미",
       "term_en": "spider",
-      "aliases": [],
+      "aliases": [
+        "거미줄"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "tags": [
@@ -1559,7 +1561,8 @@
         "이가 흔들",
         "치아가 빠",
         "윗니",
-        "아랫니"
+        "아랫니",
+        "이가 빠졌다"
       ],
       "category": "body",
       "polarity": "ambivalent",
@@ -1752,7 +1755,8 @@
         "나체",
         "벌거벗",
         "알몸",
-        "옷이 벗겨"
+        "옷이 벗겨",
+        "벌거벗었다"
       ],
       "category": "body",
       "polarity": "ambivalent",
@@ -1831,7 +1835,10 @@
       "id": "eye",
       "term_ko": "눈(眼)",
       "term_en": "eye",
-      "aliases": [],
+      "aliases": [
+        "눈동자",
+        "눈알"
+      ],
       "category": "body",
       "polarity": "neutral",
       "tags": [
@@ -1889,7 +1896,8 @@
         "날았",
         "날아올",
         "날아다",
-        "하늘을 날"
+        "하늘을 날",
+        "날았다"
       ],
       "category": "action",
       "polarity": "positive",
@@ -2018,7 +2026,9 @@
         "혼례",
         "결혼했",
         "결혼하",
-        "결혼식"
+        "결혼식",
+        "결혼했다",
+        "결혼했어요"
       ],
       "category": "action",
       "polarity": "ambivalent",
@@ -2254,7 +2264,8 @@
         "씻음",
         "목욕하",
         "씻었",
-        "샤워"
+        "샤워",
+        "씻었다"
       ],
       "category": "action",
       "polarity": "positive",
@@ -2517,7 +2528,9 @@
       "term_en": "gold / jewel",
       "aliases": [
         "금덩이",
-        "다이아"
+        "다이아",
+        "금",
+        "보석"
       ],
       "category": "object",
       "polarity": "positive",
@@ -3098,7 +3111,8 @@
         "돌아가신",
         "돌아가신 분",
         "선친",
-        "조상님"
+        "조상님",
+        "조상"
       ],
       "category": "person",
       "polarity": "ambivalent",
@@ -3186,7 +3200,8 @@
       "term_ko": "대통령·임금",
       "term_en": "president / king",
       "aliases": [
-        "높은 사람"
+        "높은 사람",
+        "대통령"
       ],
       "category": "person",
       "polarity": "positive",
@@ -4342,7 +4357,8 @@
       "term_ko": "돌·바위",
       "term_en": "stone / rock",
       "aliases": [
-        "바위"
+        "바위",
+        "돌"
       ],
       "category": "nature",
       "polarity": "ambivalent",
@@ -5384,7 +5400,9 @@
       "term_ko": "신부·신랑",
       "term_en": "bride / groom",
       "aliases": [
-        "웨딩"
+        "웨딩",
+        "신랑",
+        "신부"
       ],
       "category": "person",
       "polarity": "ambivalent",

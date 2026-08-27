@@ -140,7 +140,7 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "hair", label: "머리 — 빠짐", ko: "머리카락이 자꾸 빠졌다", en: "my hair kept falling out" },
   { id: "hair", label: "머리 — 자름", ko: "머리카락을 짧게 잘랐다", en: "I cut my hair short" },
   { id: "naked", label: "벌거벗음 — 사람 앞", ko: "사람들 앞에서 벌거벗었다", en: "I was naked in front of a crowd" },
-  { id: "naked", label: "벌거벗음 — 개의치 않음", ko: "벌거벗었지만 개의치 않았다", en: "I was naked but did not care at all" },
+  { id: "naked", label: "벌거벗음 — 개의치 않음", ko: "개의치 않고 벌거벗은 채로 있었다", en: "I was naked but did not care at all" },
   { id: "flying", label: "날다 — 자유", ko: "자유롭게 하늘을 날았다", en: "I was flying freely through the sky" },
   { id: "flying", label: "날다 — 두려움", ko: "날다가 떨어질까 두려웠다", en: "while flying I feared I would fall" },
   { id: "money", label: "돈 — 들어옴", ko: "돈이 들어왔다", en: "money came in to me" },
