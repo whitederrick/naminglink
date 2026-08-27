@@ -221,7 +221,7 @@ export const EN_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Service Basis",
     "title": "The reason the same symbol has different meanings",
-    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 218 symbols have 308 meanings and how to interpret situations.",
+    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 218 symbols have 314 meanings and how to interpret situations.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {

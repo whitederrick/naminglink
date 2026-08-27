@@ -156,7 +156,9 @@ export const CONTEXT_EN: Record<string, string> = {
   "칼을 잃어버림": "lost losing missing",
   "새 신발": "shoe wear",
   "신발을 잃음": "shoe lose lost",
+  "신발이 해짐": "worn out tattered frayed",
   "새 옷을 입음": "clothes wear wore",
+  "옷이 갑자기 찢어짐": "torn ripped tore suddenly",
   "거울을 봄": "mirror see saw",
   "거울이 밝음": "bright shining clear polished",
   "거울이 어두움": "dark dim cloudy tarnished",
@@ -263,9 +265,17 @@ export const CONTEXT_EN: Record<string, string> = {
   "잘 익은 과일": "fruit apple ripe",
   "과수원을 거닒": "orchard walked walking strolled",
   "온전한 계란": "egg whole",
-  "함께 술을 나눔": "alcohol wine share sharing",
+  // **"alcohol"·"wine"을 뺐다** — `term_en`이 "alcohol / wine"이라 `ownTerms` 정확 일치
+  // 검사가 이 낱말들을 못 걸러내고, 그러면 "wine"이라는 말만 있어도 이 의미가 공짜로
+  // 1점을 받아 새 문맥("술에 취함" 등)과 동점이 났다(실측으로 확인). 상징 이름 자체를
+  // 빼고 남는 낱말만 남긴다.
+  "함께 술을 나눔": "share sharing toast",
+  "남이 권하는 술을 받음": "offered accepted",
+  "술에 취하도록 마심": "drunk intoxicated",
   "흰 우유": "milk nourish",
   "탐스러운 복숭아": "peach ripe",
+  "복숭아를 먹음": "reunited reconnected reunion",
+  "감을 먹음": "persimmon ate eating",
   "9가 반복": "number nine repeat",
   "8이 반복": "number eight repeat",
   "살진 소": "cow ox fat plump fattened",

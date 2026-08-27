@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.17.0",
+  "dictVer": "1.19.0",
   "symbols": [
     {
       "id": "pig",
@@ -2539,7 +2539,7 @@
         "지위"
       ],
       "weight": 1,
-      "culture_note": "신발=배우자/지위 상징",
+      "culture_note": "중국 고전 《주공해몽》 「鞋破子孫妻妾病」(신발이 해지면 자손이나 배우자가 병든다)을 근거로 삼았다.",
       "meanings": [
         {
           "context": "새 신발",
@@ -2552,6 +2552,13 @@
           "context": "신발을 잃음",
           "interpretation_ko": "배우자·지위 상실 불안",
           "interpretation_en": "loss of partner or status",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "신발이 해짐",
+          "interpretation_ko": "가족의 건강을 조심할 조짐",
+          "interpretation_en": "a caution about a family member's health",
           "polarity": "negative",
           "source": "tradition"
         }
@@ -2578,8 +2585,16 @@
           "interpretation_en": "new role or rising status",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "옷이 갑자기 찢어짐",
+          "interpretation_ko": "가정에 근심이 생길 조짐",
+          "interpretation_en": "a sign of trouble at home",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「衣服忽破妻外心」(옷이 갑자기 찢어지면 가정에 근심이 생긴다)을 근거로 삼았다."
     },
     {
       "id": "mirror",
@@ -5532,7 +5547,8 @@
       "term_ko": "술(음료)",
       "term_en": "alcohol / wine",
       "aliases": [
-        "와인"
+        "와인",
+        "술"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -5548,8 +5564,23 @@
           "interpretation_en": "celebration/bonding (excess = gossip)",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "남이 권하는 술을 받음",
+          "interpretation_ko": "장수할 조짐",
+          "interpretation_en": "a sign of long life",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "술에 취하도록 마심",
+          "interpretation_ko": "질병을 조심할 조짐",
+          "interpretation_en": "a caution about illness",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「人請飲酒主長命」(남이 청하는 술을 받으면 장수한다)·「飲酒至醉主疾病」(취하도록 마시면 질병이 온다)을 근거로 삼았다."
     },
     {
       "id": "milk",
@@ -5608,12 +5639,19 @@
         "태몽"
       ],
       "weight": 1,
-      "culture_note": "복숭아=장수·연애·태몽",
+      "culture_note": "장수·연애의 상징으로 통하던 것에 더해, 중국 고전 《주공해몽》 「食柿桃離而復合」(감이나 복숭아를 먹으면 헤어졌던 사람과 다시 만난다)는 근거도 있다.",
       "meanings": [
         {
           "context": "탐스러운 복숭아",
           "interpretation_ko": "장수·연애·귀한 태몽",
           "interpretation_en": "longevity, romance, birth omen",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "복숭아를 먹음",
+          "interpretation_ko": "헤어진 사람과 다시 만날 조짐",
+          "interpretation_en": "a sign of reuniting with someone you parted from",
           "polarity": "positive",
           "source": "tradition"
         }
@@ -5762,7 +5800,8 @@
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「食棗者主生貴子」(대추를 먹으면 귀한 자식을 낳는다)를 근거로 삼았다."
     },
     {
       "id": "persimmon",
@@ -5785,8 +5824,16 @@
           "interpretation_en": "traditionally read as a conception dream",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "감을 먹음",
+          "interpretation_ko": "질병을 조심할 조짐",
+          "interpretation_en": "a caution about illness",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「食柿食柑主疾病」(감이나 귤을 먹으면 질병이 생긴다)을 근거로 삼았다. 태몽 쪽 통설과는 별개의 흉조다."
     },
     {
       "id": "grape",

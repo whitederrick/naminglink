@@ -182,6 +182,14 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "house", label: "집 — 아무도 없음", ko: "집에 갔더니 아무도 없었다", en: "I went to my house, but it was empty and silent" },
   { id: "umbrella", label: "우산 — 나눠 줌", ko: "누군가에게 우산을 나눠 줬다", en: "I gave my umbrella away to someone" },
   { id: "knife", label: "칼 — 잃어버림", ko: "칼을 잃어버렸다", en: "I lost my knife" },
+  { id: "persimmon", label: "감 — 먹음", ko: "감을 먹었다", en: "I ate a persimmon" },
+  { id: "peach", label: "복숭아 — 익음", ko: "탐스럽게 익은 복숭아를 보았다", en: "I saw a plump, ripe peach" },
+  { id: "peach", label: "복숭아 — 재회", ko: "헤어졌던 사람과 다시 만났고 복숭아를 먹었다", en: "I reunited with someone I had parted from and ate a peach" },
+  { id: "wine", label: "술 — 권함을 받음", ko: "누군가 권하는 술을 받아 마셨다", en: "someone offered me wine and I accepted" },
+  { id: "wine", label: "술 — 취함", ko: "술에 취하도록 마셨다", en: "I drank wine until I was completely drunk" },
+  { id: "clothes", label: "옷 — 새옷", ko: "새 옷을 사서 차려입었다", en: "I bought new clothes and dressed up" },
+  { id: "clothes", label: "옷 — 찢어짐", ko: "입고 있던 옷이 갑자기 찢어졌다", en: "the clothes I was wearing suddenly tore" },
+  { id: "shoe", label: "신발 — 해짐", ko: "신발이 다 해져 있었다", en: "my shoes were completely worn out" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
