@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.36.0",
+  "dictVer": "1.37.0",
   "symbols": [
     {
       "id": "pig",
@@ -196,7 +196,8 @@
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「虎入宅中官職重」(호랑이가 집에 들어오면 중요한 관직을 얻는다)를 근거로 삼았다."
     },
     {
       "id": "dog",
@@ -299,7 +300,8 @@
           "polarity": "negative",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「牛觸人凡事不成」(소가 사람을 받으면 모든 일이 이루어지지 않는다)을 근거로 삼았다."
     },
     {
       "id": "horse",
@@ -345,7 +347,8 @@
           "polarity": "negative",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「乘馬快吉鈍主凶」(말을 타고 빨리 달리면 길하고 느리면 흉하다)을 근거로 삼았다."
     },
     {
       "id": "chicken",
@@ -417,7 +420,8 @@
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「群魚游水主有財」(물고기가 떼지어 헤엄치면 재물이 생긴다)를 근거로 삼았다."
     },
     {
       "id": "carp",
@@ -565,7 +569,8 @@
           "polarity": "negative",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「捉龜者主喪事至」(거북이를 잡으면 상을 당할 일이 온다)를 근거로 삼았다."
     },
     {
       "id": "rat",
