@@ -85,7 +85,7 @@ export const FR_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Base du Service",
     "title": "Quelle est la base du dictionnaire de symboles ?",
-    "summary": "Il clarifie d'où proviennent les interprétations. Les critères pour diviser 215 symboles en neuf catégories, la raison pour laquelle seulement 24 peuvent être justifiés, et pourquoi nous ne comblons pas les lacunes.",
+    "summary": "Il clarifie d'où proviennent les interprétations. Les critères pour diviser {symbolTotal} symboles en neuf catégories, la raison pour laquelle seulement {cultureNoteTotal} peuvent être justifiés, et pourquoi nous ne comblons pas les lacunes.",
     "backLabel": "Base de l'Interprétation",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const FR_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Base du service",
     "title": "La raison pour laquelle le même symbole a différentes significations",
-    "summary": "Traditionnellement, tenir un serpent et être mordu par un est opposé. Cela discute de la structure où 215 symboles ont 256 significations et comment interpréter les situations.",
+    "summary": "Traditionnellement, tenir un serpent et être mordu par un est opposé. Cela discute de la structure où {symbolTotal} symboles ont {meaningTotal} significations et comment interpréter les situations.",
     "backLabel": "Base d'interprétation",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const FR_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Rêve de conception",
     "title": "Comment interpréter les rêves de conception",
-    "summary": "Il révèle comment déterminer 27 symboles de rêve de conception, pourquoi tous les rêves de cochon ne sont pas considérés comme des rêves de conception, et le principe qui ne prédit pas la grossesse ou le sexe.",
+    "summary": "Il révèle comment déterminer {conceptionSymbolTotal} symboles de rêve de conception, pourquoi tous les rêves de cochon ne sont pas considérés comme des rêves de conception, et le principe qui ne prédit pas la grossesse ou le sexe.",
     "backLabel": "Base d'interprétation",
     "sections": [
       {

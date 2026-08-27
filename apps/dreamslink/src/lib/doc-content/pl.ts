@@ -85,7 +85,7 @@ export const PL_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Podstawa usługi",
     "title": "Jaka jest podstawa słownika symboli?",
-    "summary": "Wyjaśnia, skąd pochodzą interpretacje. Kryteria podziału 215 symboli na dziewięć kategorii, powód, dla którego tylko 24 mogą być uzasadnione, oraz dlaczego nie wypełniamy luk.",
+    "summary": "Wyjaśnia, skąd pochodzą interpretacje. Kryteria podziału {symbolTotal} symboli na dziewięć kategorii, powód, dla którego tylko {cultureNoteTotal} mogą być uzasadnione, oraz dlaczego nie wypełniamy luk.",
     "backLabel": "Podstawa interpretacji",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const PL_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Podstawa usługi",
     "title": "Powód, dla którego ten sam symbol ma różne znaczenia",
-    "summary": "Tradycyjnie, trzymanie węża i bycie przez niego ukąszonym to przeciwieństwa. To omawia strukturę, w której 215 symboli ma 256 znaczeń i jak interpretować sytuacje.",
+    "summary": "Tradycyjnie, trzymanie węża i bycie przez niego ukąszonym to przeciwieństwa. To omawia strukturę, w której {symbolTotal} symboli ma {meaningTotal} znaczeń i jak interpretować sytuacje.",
     "backLabel": "Podstawa interpretacji",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const PL_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Sen o poczęciu",
     "title": "Jak interpretować sny o poczęciu",
-    "summary": "Wyjaśnia, jak określić 27 symboli snów o poczęciu, dlaczego nie wszystkie sny o świniach są uważane za sny o poczęciu oraz zasady, które nie przewidują ciąży ani płci.",
+    "summary": "Wyjaśnia, jak określić {conceptionSymbolTotal} symboli snów o poczęciu, dlaczego nie wszystkie sny o świniach są uważane za sny o poczęciu oraz zasady, które nie przewidują ciąży ani płci.",
     "backLabel": "Podstawa interpretacji",
     "sections": [
       {

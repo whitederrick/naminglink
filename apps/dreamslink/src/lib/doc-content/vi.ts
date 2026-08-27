@@ -85,7 +85,7 @@ export const VI_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Cơ sở cho Dịch vụ",
     "title": "Cơ sở nào cho từ điển biểu tượng?",
-    "summary": "Nó làm rõ nguồn gốc của các giải mã. Các tiêu chí để chia 215 biểu tượng thành chín danh mục, lý do chỉ 24 biểu tượng có thể được chứng minh, và lý do tại sao chúng tôi không lấp đầy các khoảng trống.",
+    "summary": "Nó làm rõ nguồn gốc của các giải mã. Các tiêu chí để chia {symbolTotal} biểu tượng thành chín danh mục, lý do chỉ {cultureNoteTotal} biểu tượng có thể được chứng minh, và lý do tại sao chúng tôi không lấp đầy các khoảng trống.",
     "backLabel": "Cơ sở cho Giải mã",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const VI_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Cơ sở dịch vụ",
     "title": "Lý do cùng một biểu tượng có nhiều nghĩa khác nhau",
-    "summary": "Theo truyền thống, việc giữ một con rắn và bị một con rắn cắn là hai điều trái ngược. Điều này thảo luận về cấu trúc mà 215 biểu tượng có 256 nghĩa và cách diễn giải các tình huống.",
+    "summary": "Theo truyền thống, việc giữ một con rắn và bị một con rắn cắn là hai điều trái ngược. Điều này thảo luận về cấu trúc mà {symbolTotal} biểu tượng có {meaningTotal} nghĩa và cách diễn giải các tình huống.",
     "backLabel": "Cơ sở giải thích",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const VI_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Giấc Mơ Thụ Thai",
     "title": "Cách Giải Thích Giấc Mơ Thụ Thai",
-    "summary": "Nó tiết lộ cách xác định 27 biểu tượng giấc mơ thụ thai, tại sao không phải tất cả giấc mơ về lợn đều được coi là giấc mơ thụ thai, và nguyên tắc không dự đoán thai kỳ hoặc giới tính.",
+    "summary": "Nó tiết lộ cách xác định {conceptionSymbolTotal} biểu tượng giấc mơ thụ thai, tại sao không phải tất cả giấc mơ về lợn đều được coi là giấc mơ thụ thai, và nguyên tắc không dự đoán thai kỳ hoặc giới tính.",
     "backLabel": "Cơ Sở Giải Thích",
     "sections": [
       {

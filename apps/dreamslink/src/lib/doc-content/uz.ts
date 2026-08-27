@@ -85,7 +85,7 @@ export const UZ_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Xizmatning Asosi",
     "title": "Ramzlar lug'ati asosini nima?",
-    "summary": "Bu talqinlarning qayerdan kelishini aniqlaydi. 215 ramzni to'qqiz toifaga bo'lish mezonlari, faqat 24 tasdiqlanishi mumkinligi sababi va nima uchun bo'shliqlarni to'ldirmasligimizni tushuntiradi.",
+    "summary": "Bu talqinlarning qayerdan kelishini aniqlaydi. {symbolTotal} ramzni to'qqiz toifaga bo'lish mezonlari, faqat {cultureNoteTotal} tasdiqlanishi mumkinligi sababi va nima uchun bo'shliqlarni to'ldirmasligimizni tushuntiradi.",
     "backLabel": "Talqin Asosi",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const UZ_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Xizmat Asosi",
     "title": "Bir xil ramzning turli ma'nolarga ega bo'lishining sababi",
-    "summary": "An'anaviy ravishda, ilonni ushlash va undan chaqish qarama-qarshi. Bu 215 ramzning 256 ma'noga ega bo'lishi va vaziyatlarni qanday talqin qilishni muhokama qiladi.",
+    "summary": "An'anaviy ravishda, ilonni ushlash va undan chaqish qarama-qarshi. Bu {symbolTotal} ramzning {meaningTotal} ma'noga ega bo'lishi va vaziyatlarni qanday talqin qilishni muhokama qiladi.",
     "backLabel": "Talqin Asosi",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const UZ_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Tug'ilish tushlari",
     "title": "Tug'ilish tushlarini qanday talqin qilish kerak",
-    "summary": "Bu 27 ta tug'ilish tushlari ramzlarini qanday aniqlashni, barcha cho'chqa tushlari tug'ilish tushlari deb hisoblanmasligini va homiladorlik yoki jinsni bashorat qilmaydigan printsipni ochib beradi.",
+    "summary": "Bu {conceptionSymbolTotal} ta tug'ilish tushlari ramzlarini qanday aniqlashni, barcha cho'chqa tushlari tug'ilish tushlari deb hisoblanmasligini va homiladorlik yoki jinsni bashorat qilmaydigan printsipni ochib beradi.",
     "backLabel": "Talqin asoslari",
     "sections": [
       {

@@ -85,7 +85,7 @@ export const TR_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Hizmetin Temeli",
     "title": "Sembol sözlüğünün temeli nedir?",
-    "summary": "Yorumların nereden geldiğini netleştirir. 215 sembolün dokuz kategoriye ayrılma kriterleri, yalnızca 24'ünün neden desteklenebileceği ve neden boşlukları doldurmadığımızı açıklar.",
+    "summary": "Yorumların nereden geldiğini netleştirir. {symbolTotal} sembolün dokuz kategoriye ayrılma kriterleri, yalnızca {cultureNoteTotal}'ünün neden desteklenebileceği ve neden boşlukları doldurmadığımızı açıklar.",
     "backLabel": "Yorumlama Temeli",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const TR_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Hizmet Temeli",
     "title": "Aynı sembolün farklı anlamlara sahip olmasının nedeni",
-    "summary": "Geleneksel olarak, bir yılanı tutmak ve bir yılan tarafından ısırılmak zıt anlamlardır. Bu, 215 sembolün 256 anlamı olan yapıyı ve durumları nasıl yorumlayacağımızı tartışır.",
+    "summary": "Geleneksel olarak, bir yılanı tutmak ve bir yılan tarafından ısırılmak zıt anlamlardır. Bu, {symbolTotal} sembolün {meaningTotal} anlamı olan yapıyı ve durumları nasıl yorumlayacağımızı tartışır.",
     "backLabel": "Yorumlama Temeli",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const TR_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Kavuşma Rüyası",
     "title": "Kavuşma Rüyalarını Nasıl Yorumlayabilirsiniz",
-    "summary": "27 kavuşma rüyası sembolünü nasıl belirleyeceğinizi, tüm domuz rüyalarının neden kavuşma rüyası olarak kabul edilmediğini ve hamilelik veya cinsiyet tahmin etmeyen ilkeleri açıklar.",
+    "summary": "{conceptionSymbolTotal} kavuşma rüyası sembolünü nasıl belirleyeceğinizi, tüm domuz rüyalarının neden kavuşma rüyası olarak kabul edilmediğini ve hamilelik veya cinsiyet tahmin etmeyen ilkeleri açıklar.",
     "backLabel": "Yorumlama Temeli",
     "sections": [
       {

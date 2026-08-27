@@ -85,7 +85,7 @@ export const PT_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Base para o Serviço",
     "title": "Qual é a base do dicionário de símbolos?",
-    "summary": "Esclarece de onde vêm as interpretações. Os critérios para dividir 215 símbolos em nove categorias, a razão pela qual apenas 24 podem ser substanciados e por que não preenchemos as lacunas.",
+    "summary": "Esclarece de onde vêm as interpretações. Os critérios para dividir {symbolTotal} símbolos em nove categorias, a razão pela qual apenas {cultureNoteTotal} podem ser substanciados e por que não preenchemos as lacunas.",
     "backLabel": "Base para Interpretação",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const PT_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Base do Serviço",
     "title": "A razão pela qual o mesmo símbolo tem significados diferentes",
-    "summary": "Tradicionalmente, segurar uma cobra e ser mordido por uma são opostos. Isso discute a estrutura onde 215 símbolos têm 256 significados e como interpretar situações.",
+    "summary": "Tradicionalmente, segurar uma cobra e ser mordido por uma são opostos. Isso discute a estrutura onde {symbolTotal} símbolos têm {meaningTotal} significados e como interpretar situações.",
     "backLabel": "Base da Interpretação",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const PT_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Sonho de Concepção",
     "title": "Como Interpretar Sonhos de Concepção",
-    "summary": "Revela como determinar 27 símbolos de sonho de concepção, por que nem todos os sonhos com porcos são considerados sonhos de concepção, e o princípio que não prevê gravidez ou gênero.",
+    "summary": "Revela como determinar {conceptionSymbolTotal} símbolos de sonho de concepção, por que nem todos os sonhos com porcos são considerados sonhos de concepção, e o princípio que não prevê gravidez ou gênero.",
     "backLabel": "Base de Interpretação",
     "sections": [
       {

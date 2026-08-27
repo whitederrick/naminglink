@@ -75,8 +75,23 @@ export async function guideContext(
   values: Record<string, string>;
 }> {
   const locale = routeLocale((await params).locale);
-  const doc = getDocPage(locale, docKeyOf(slug));
+  const raw = getDocPage(locale, docKeyOf(slug));
   const values = await docValues(locale);
+
+  /**
+   * **제목·요약의 자리표시자를 여기서 채워 내보낸다** (2026-08-27).
+   *
+   * 예전에는 `generateMetadata`만 채우고 화면에 그리는 쪽(`GuideShell`의 `description`)은
+   * `doc.summary`를 **날것 그대로** 받았다. 그래서 요약에 `{cultureNoteTotal}`을 쓰면
+   * 검색 결과에는 값이 나가는데 **화면에는 중괄호가 그대로 보였다.**
+   *
+   * 그 탓에 자료를 쓰는 쪽이 요약에서는 자리표시자를 못 쓰고 **숫자를 손으로 박았고**,
+   * 그 숫자가 23개 로케일에서 낡았다 — 「근거를 댈 수 있는 것은 24개뿐」(실제 82개) ·
+   * 「상징 215개」(실제 218개). 채우는 자리를 하나로 모아 자리표시자를 쓸 수 있게 한다.
+   */
+  const fill = (text: string) =>
+    text.replace(/\{([a-zA-Z]+)\}/g, (whole, name: string) => values[name] ?? whole);
+  const doc: DocPage = { ...raw, title: fill(raw.title), summary: fill(raw.summary) };
 
   return {
     locale,

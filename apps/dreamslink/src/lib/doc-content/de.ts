@@ -85,7 +85,7 @@ export const DE_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Basis für den Service",
     "title": "Was ist die Grundlage des Symbolwörterbuchs?",
-    "summary": "Es wird klargestellt, woher die Interpretationen stammen. Die Kriterien für die Unterteilung von 215 Symbolen in neun Kategorien, der Grund, warum nur 24 substantiell sein können, und warum wir die Lücken nicht füllen.",
+    "summary": "Es wird klargestellt, woher die Interpretationen stammen. Die Kriterien für die Unterteilung von {symbolTotal} Symbolen in neun Kategorien, der Grund, warum nur {cultureNoteTotal} substantiell sein können, und warum wir die Lücken nicht füllen.",
     "backLabel": "Basis für die Interpretation",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const DE_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Service Basis",
     "title": "Der Grund, warum dasselbe Symbol unterschiedliche Bedeutungen hat",
-    "summary": "Traditionell sind das Halten einer Schlange und das Gebissenwerden von einer Schlange Gegensätze. Dies diskutiert die Struktur, in der 215 Symbole 256 Bedeutungen haben und wie man Situationen interpretiert.",
+    "summary": "Traditionell sind das Halten einer Schlange und das Gebissenwerden von einer Schlange Gegensätze. Dies diskutiert die Struktur, in der {symbolTotal} Symbole {meaningTotal} Bedeutungen haben und wie man Situationen interpretiert.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const DE_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Empfängnis Traum",
     "title": "Wie man Empfängnis Träume interpretiert",
-    "summary": "Es wird erklärt, wie man 27 Symbole für Empfängnis Träume bestimmt, warum nicht alle Schweineträume als Empfängnis Träume betrachtet werden und das Prinzip, das keine Vorhersage über Schwangerschaft oder Geschlecht trifft.",
+    "summary": "Es wird erklärt, wie man {conceptionSymbolTotal} Symbole für Empfängnis Träume bestimmt, warum nicht alle Schweineträume als Empfängnis Träume betrachtet werden und das Prinzip, das keine Vorhersage über Schwangerschaft oder Geschlecht trifft.",
     "backLabel": "Interpretationsbasis",
     "sections": [
       {

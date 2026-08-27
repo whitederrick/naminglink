@@ -85,7 +85,7 @@ export const IT_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Base per il Servizio",
     "title": "Qual è la base del dizionario dei simboli?",
-    "summary": "Chiarisce da dove provengono le interpretazioni. I criteri per dividere 215 simboli in nove categorie, il motivo per cui solo 24 possono essere giustificati e perché non riempiamo i vuoti.",
+    "summary": "Chiarisce da dove provengono le interpretazioni. I criteri per dividere {symbolTotal} simboli in nove categorie, il motivo per cui solo {cultureNoteTotal} possono essere giustificati e perché non riempiamo i vuoti.",
     "backLabel": "Base per l'Interpretazione",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const IT_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Fondamento del Servizio",
     "title": "Il motivo per cui lo stesso simbolo ha significati diversi",
-    "summary": "Tradizionalmente, tenere un serpente e essere morsi da uno sono opposti. Questo discute la struttura in cui 215 simboli hanno 256 significati e come interpretare le situazioni.",
+    "summary": "Tradizionalmente, tenere un serpente e essere morsi da uno sono opposti. Questo discute la struttura in cui {symbolTotal} simboli hanno {meaningTotal} significati e come interpretare le situazioni.",
     "backLabel": "Fondamento dell'Interpretazione",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const IT_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Sogno di Concepimento",
     "title": "Come Interpretare i Sogni di Concepimento",
-    "summary": "Rivela come determinare 27 simboli di sogni di concepimento, perché non tutti i sogni di maiale sono considerati sogni di concepimento, e il principio che non prevede gravidanza o genere.",
+    "summary": "Rivela come determinare {conceptionSymbolTotal} simboli di sogni di concepimento, perché non tutti i sogni di maiale sono considerati sogni di concepimento, e il principio che non prevede gravidanza o genere.",
     "backLabel": "Base di Interpretazione",
     "sections": [
       {

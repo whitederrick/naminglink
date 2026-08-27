@@ -85,7 +85,7 @@ export const JA_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "サービスの基盤",
     "title": "象徴辞典の基盤は何ですか？",
-    "summary": "解釈がどこから来るのかを明確にします。215の象徴を9つのカテゴリーに分ける基準、なぜ24だけが裏付けられるのか、そしてなぜ空白を埋めないのかを説明します。",
+    "summary": "解釈がどこから来るのかを明確にします。{symbolTotal}の象徴を9つのカテゴリーに分ける基準、なぜ{cultureNoteTotal}だけが裏付けられるのか、そしてなぜ空白を埋めないのかを説明します。",
     "backLabel": "解釈の基盤",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const JA_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "サービスの基盤",
     "title": "同じシンボルが異なる意味を持つ理由",
-    "summary": "伝統的に、蛇を持つことと蛇に噛まれることは対極にあります。これは、215のシンボルが256の意味を持つ構造と、状況を解釈する方法について説明します。",
+    "summary": "伝統的に、蛇を持つことと蛇に噛まれることは対極にあります。これは、{symbolTotal}のシンボルが{meaningTotal}の意味を持つ構造と、状況を解釈する方法について説明します。",
     "backLabel": "解釈の基盤",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const JA_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "胎夢",
     "title": "胎夢の解釈方法",
-    "summary": "27の胎夢の象徴を特定する方法、すべての豚の夢が胎夢と見なされるわけではない理由、妊娠や性別を予測しない原則について説明します。",
+    "summary": "{conceptionSymbolTotal}の胎夢の象徴を特定する方法、すべての豚の夢が胎夢と見なされるわけではない理由、妊娠や性別を予測しない原則について説明します。",
     "backLabel": "解釈の基礎",
     "sections": [
       {

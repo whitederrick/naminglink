@@ -85,7 +85,7 @@ export const MS_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Asas untuk Perkhidmatan",
     "title": "Apa asas kamus simbol?",
-    "summary": "Ia menjelaskan dari mana tafsiran berasal. Kriteria untuk membahagikan 215 simbol kepada sembilan kategori, sebab hanya 24 yang boleh dibuktikan, dan mengapa kami tidak mengisi kekosongan.",
+    "summary": "Ia menjelaskan dari mana tafsiran berasal. Kriteria untuk membahagikan {symbolTotal} simbol kepada sembilan kategori, sebab hanya {cultureNoteTotal} yang boleh dibuktikan, dan mengapa kami tidak mengisi kekosongan.",
     "backLabel": "Asas untuk Tafsiran",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const MS_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Asas Perkhidmatan",
     "title": "Sebab simbol yang sama mempunyai makna yang berbeza",
-    "summary": "Secara tradisional, memegang ular dan digigit oleh satu adalah bertentangan. Ini membincangkan struktur di mana 215 simbol mempunyai 256 makna dan cara untuk mentafsir situasi.",
+    "summary": "Secara tradisional, memegang ular dan digigit oleh satu adalah bertentangan. Ini membincangkan struktur di mana {symbolTotal} simbol mempunyai {meaningTotal} makna dan cara untuk mentafsir situasi.",
     "backLabel": "Asas Tafsiran",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const MS_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Mimpi Konsepsi",
     "title": "Cara Menafsirkan Mimpi Konsepsi",
-    "summary": "Ia mendedahkan cara untuk menentukan 27 simbol mimpi konsepsi, mengapa tidak semua mimpi babi dianggap sebagai mimpi konsepsi, dan prinsip yang tidak meramalkan kehamilan atau jantina.",
+    "summary": "Ia mendedahkan cara untuk menentukan {conceptionSymbolTotal} simbol mimpi konsepsi, mengapa tidak semua mimpi babi dianggap sebagai mimpi konsepsi, dan prinsip yang tidak meramalkan kehamilan atau jantina.",
     "backLabel": "Asas Tafsiran",
     "sections": [
       {

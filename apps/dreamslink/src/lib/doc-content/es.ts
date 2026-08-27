@@ -85,7 +85,7 @@ export const ES_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Base para el Servicio",
     "title": "¿Cuál es la base del diccionario de símbolos?",
-    "summary": "Aclara de dónde provienen las interpretaciones. Los criterios para dividir 215 símbolos en nueve categorías, la razón por la que solo 24 pueden ser fundamentadas, y por qué no llenamos los vacíos.",
+    "summary": "Aclara de dónde provienen las interpretaciones. Los criterios para dividir {symbolTotal} símbolos en nueve categorías, la razón por la que solo {cultureNoteTotal} pueden ser fundamentadas, y por qué no llenamos los vacíos.",
     "backLabel": "Base para la Interpretación",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const ES_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Base del Servicio",
     "title": "La razón por la que el mismo símbolo tiene diferentes significados",
-    "summary": "Tradicionalmente, sostener una serpiente y ser mordido por una son opuestos. Esto discute la estructura donde 215 símbolos tienen 256 significados y cómo interpretar situaciones.",
+    "summary": "Tradicionalmente, sostener una serpiente y ser mordido por una son opuestos. Esto discute la estructura donde {symbolTotal} símbolos tienen {meaningTotal} significados y cómo interpretar situaciones.",
     "backLabel": "Base de Interpretación",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const ES_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Sueño de Concepción",
     "title": "Cómo Interpretar Sueños de Concepción",
-    "summary": "Revela cómo determinar 27 símbolos de sueños de concepción, por qué no todos los sueños de cerdo se consideran sueños de concepción, y el principio que no predice el embarazo o el género.",
+    "summary": "Revela cómo determinar {conceptionSymbolTotal} símbolos de sueños de concepción, por qué no todos los sueños de cerdo se consideran sueños de concepción, y el principio que no predice el embarazo o el género.",
     "backLabel": "Base de Interpretación",
     "sections": [
       {

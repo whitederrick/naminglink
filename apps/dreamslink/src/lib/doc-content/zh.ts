@@ -85,7 +85,7 @@ export const ZH_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "服务基础",
     "title": "符号字典的基础是什么？",
-    "summary": "它阐明了解读的来源。将215个符号分为九类的标准，只有24个可以被证实的原因，以及为什么我们不填补空白。",
+    "summary": "它阐明了解读的来源。将{symbolTotal}个符号分为九类的标准，只有{cultureNoteTotal}个可以被证实的原因，以及为什么我们不填补空白。",
     "backLabel": "解读的基础",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const ZH_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "服务基础",
     "title": "相同符号具有不同含义的原因",
-    "summary": "传统上，抓住一条蛇和被蛇咬是相反的。这讨论了215个符号具有256个含义的结构以及如何解释情况。",
+    "summary": "传统上，抓住一条蛇和被蛇咬是相反的。这讨论了{symbolTotal}个符号具有{meaningTotal}个含义的结构以及如何解释情况。",
     "backLabel": "解释基础",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const ZH_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "怀孕梦",
     "title": "如何解读怀孕梦",
-    "summary": "它揭示了如何确定27个怀孕梦符号，为什么并非所有的猪梦都被视为怀孕梦，以及不预测怀孕或性别的原则。",
+    "summary": "它揭示了如何确定{conceptionSymbolTotal}个怀孕梦符号，为什么并非所有的猪梦都被视为怀孕梦，以及不预测怀孕或性别的原则。",
     "backLabel": "解读基础",
     "sections": [
       {

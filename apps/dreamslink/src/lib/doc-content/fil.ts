@@ -85,7 +85,7 @@ export const FIL_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Batayan para sa Serbisyo",
     "title": "Ano ang batayan ng diksyunaryo ng simbolo?",
-    "summary": "Nililinaw nito kung saan nagmumula ang mga interpretasyon. Ang mga pamantayan para sa paghahati ng 215 simbolo sa siyam na kategorya, ang dahilan kung bakit 24 lamang ang maaaring patunayan, at kung bakit hindi namin pinupunan ang mga puwang.",
+    "summary": "Nililinaw nito kung saan nagmumula ang mga interpretasyon. Ang mga pamantayan para sa paghahati ng {symbolTotal} simbolo sa siyam na kategorya, ang dahilan kung bakit {cultureNoteTotal} lamang ang maaaring patunayan, at kung bakit hindi namin pinupunan ang mga puwang.",
     "backLabel": "Batayan para sa Interpretasyon",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const FIL_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Batayan ng Serbisyo",
     "title": "Ang dahilan kung bakit ang parehong simbolo ay may iba't ibang kahulugan",
-    "summary": "Tradisyonal, ang paghawak ng ahas at ang pagkakagat ng isa ay mga kabaligtaran. Tinalakay nito ang estruktura kung saan 215 simbolo ang may 256 kahulugan at kung paano i-interpret ang mga sitwasyon.",
+    "summary": "Tradisyonal, ang paghawak ng ahas at ang pagkakagat ng isa ay mga kabaligtaran. Tinalakay nito ang estruktura kung saan {symbolTotal} simbolo ang may {meaningTotal} kahulugan at kung paano i-interpret ang mga sitwasyon.",
     "backLabel": "Batayan ng Interpretasyon",
     "sections": [
       {
@@ -352,7 +352,7 @@ export const FIL_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "a conception dream",
     "title": "Paano I-interpret ang mga a conception dream",
-    "summary": "Ipinapakita nito kung paano matutukoy ang 27 simbolo ng a conception dream, kung bakit hindi lahat ng mga panaginip tungkol sa baboy ay itinuturing na mga a conception dream, at ang prinsipyo na hindi nag-predict ng pagbubuntis o kasarian.",
+    "summary": "Ipinapakita nito kung paano matutukoy ang {conceptionSymbolTotal} simbolo ng a conception dream, kung bakit hindi lahat ng mga panaginip tungkol sa baboy ay itinuturing na mga a conception dream, at ang prinsipyo na hindi nag-predict ng pagbubuntis o kasarian.",
     "backLabel": "Batayan ng Interpretasyon",
     "sections": [
       {

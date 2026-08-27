@@ -90,7 +90,7 @@ export const EN_DOCS = {
   "guide/symbol-dictionary": {
     "eyebrow": "Basis for the Service",
     "title": "What is the basis of the symbol dictionary?",
-    "summary": "It clarifies where the interpretations come from. The criteria for dividing 218 symbols into nine categories, the reason only 24 can be substantiated, and why we do not fill in the gaps.",
+    "summary": "It clarifies where the interpretations come from. The criteria for dividing {symbolTotal} symbols into nine categories, the reason only {cultureNoteTotal} can be substantiated, and why we do not fill in the gaps.",
     "backLabel": "Basis for Interpretation",
     "sections": [
       {
@@ -221,7 +221,7 @@ export const EN_DOCS = {
   "guide/one-symbol-many-meanings": {
     "eyebrow": "Service Basis",
     "title": "The reason the same symbol has different meanings",
-    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where 218 symbols have 350 meanings and how to interpret situations.",
+    "summary": "Traditionally, holding a snake and being bitten by one are opposites. This discusses the structure where {symbolTotal} symbols have {meaningTotal} meanings and how to interpret situations.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {
@@ -357,7 +357,7 @@ export const EN_DOCS = {
   "guide/conception-dreams": {
     "eyebrow": "Conception Dream",
     "title": "How to Interpret Conception Dreams",
-    "summary": "It reveals how to determine 28 conception dream symbols, why not all pig dreams are considered conception dreams, and the principle that does not predict pregnancy or gender.",
+    "summary": "It reveals how to determine {conceptionSymbolTotal} conception dream symbols, why not all pig dreams are considered conception dreams, and the principle that does not predict pregnancy or gender.",
     "backLabel": "Interpretation Basis",
     "sections": [
       {
