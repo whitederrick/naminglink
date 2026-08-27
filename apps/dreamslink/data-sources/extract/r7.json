@@ -1,0 +1,1967 @@
+[
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "관을 쓰고 수레에 오름",
+    "interpretation_ko": "벼슬이 옮겨 오를 조짐",
+    "interpretation_en": "a sign of being promoted to a new post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "戴官登車官欲遷",
+      "translation_ko": "관을 쓰고 수레에 오르면 벼슬이 옮겨지려 한다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "관을 쓰고 수레에 오름",
+    "interpretation_ko": "벼슬이 옮겨 오를 조짐",
+    "interpretation_en": "a sign of being promoted to a new post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "戴官登車官欲遷",
+      "translation_ko": "관을 쓰고 수레에 오르면 벼슬이 옮겨지려 한다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "스스로 두건과 모자를 씀",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "自戴襆頭巾帽吉",
+      "translation_ko": "스스로 복두와 두건과 모자를 쓰면 길하다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "관을 쓰고 높은 대에 오름",
+    "interpretation_ko": "직위가 오를 조짐",
+    "interpretation_en": "a sign of rising in rank",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "簪冠登台職位遷",
+      "translation_ko": "비녀를 꽂아 관을 쓰고 대에 오르면 직위가 옮겨진다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "귀인이 옷을 줌",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "貴人與之衣冠吉",
+      "translation_ko": "귀인이 의관을 주면 길하다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "귀인이 관을 줌",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "貴人與之衣冠吉",
+      "translation_ko": "귀인이 의관을 주면 길하다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷을 새것으로 바꿔 입음",
+    "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining salary and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "新換衣冠祿位至",
+      "translation_ko": "의관을 새로 바꾸면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "관을 새것으로 바꿔 씀",
+    "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining salary and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "新換衣冠祿位至",
+      "translation_ko": "의관을 새로 바꾸면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "관모가 불에 타 없어짐",
+    "interpretation_ko": "맡은 자리가 바뀔 조짐",
+    "interpretation_en": "a sign that one's post will change",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "燒毀冠帽欲更官",
+      "translation_ko": "관모를 태워 없애면 관직을 바꾸려 한다"
+    }
+  },
+  {
+    "term_ko": "모자",
+    "term_en": "hat",
+    "context": "관모를 잃어버림",
+    "interpretation_ko": "자리에서 물러날 조짐",
+    "interpretation_en": "a sign of stepping down from one's post",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "失去冠帽去退職",
+      "translation_ko": "관모를 잃으면 직에서 물러난다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "관복의 띠를 주움",
+    "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining salary and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "拾得官帶祿位至",
+      "translation_ko": "관대를 주우면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "관복",
+    "term_en": "official robe",
+    "context": "남에게 관복을 줌",
+    "interpretation_ko": "관직을 얻을 조짐",
+    "interpretation_en": "a sign of obtaining a post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "與人公服主得職",
+      "translation_ko": "남에게 관복을 주면 관직을 얻는다"
+    }
+  },
+  {
+    "term_ko": "관복",
+    "term_en": "official robe",
+    "context": "남이 관복을 줌",
+    "interpretation_ko": "관직이 더해질 조짐",
+    "interpretation_en": "a sign of added office and rank",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "人與公服加官職",
+      "translation_ko": "남이 관복을 주면 관직이 더해진다"
+    }
+  },
+  {
+    "term_ko": "관복",
+    "term_en": "official robe",
+    "context": "여자가 관복을 갖춰 입음",
+    "interpretation_ko": "아들을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "女著冠帶主生子",
+      "translation_ko": "여자가 관대를 갖춰 입으면 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "관복",
+    "term_en": "official robe",
+    "context": "관복을 새로 물들임",
+    "interpretation_ko": "새 관직이 올 조짐",
+    "interpretation_en": "a sign that a new post will come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "洗笏染服新官來",
+      "translation_ko": "홀을 씻고 관복을 물들이면 새 관직이 온다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "허리띠를 맴",
+    "interpretation_ko": "벼슬이 이르러 길한 조짐",
+    "interpretation_en": "an auspicious sign that office will come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "腰帶者主官至吉",
+      "translation_ko": "허리띠를 매면 벼슬이 이르러 길하다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "문서에 도장을 찍음",
+    "interpretation_ko": "명성을 얻을 조짐",
+    "interpretation_en": "a sign of gaining a good name",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "文書用印有名聲",
+      "translation_ko": "문서에 도장을 쓰면 명성이 있다"
+    }
+  },
+  {
+    "term_ko": "문서",
+    "term_en": "document",
+    "context": "문서에 도장을 찍음",
+    "interpretation_ko": "명성을 얻을 조짐",
+    "interpretation_en": "a sign of gaining a good name",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "文書用印有名聲",
+      "translation_ko": "문서에 도장을 쓰면 명성이 있다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "도장을 몸에 지님",
+    "interpretation_ko": "아내가 귀한 아들을 낳을 조짐",
+    "interpretation_en": "a sign that one's wife will bear a noble son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "帶印主妻生貴子",
+      "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "새 도포를 입음",
+    "interpretation_ko": "배필이 늘 조짐",
+    "interpretation_en": "a sign of gaining a spouse",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著新袍主添妻妾",
+      "translation_ko": "새 도포를 입으면 처첩이 늘어난다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "비단에 수놓은 옷을 입음",
+    "interpretation_ko": "자손이 번영할 조짐",
+    "interpretation_en": "a sign that descendants will flourish",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著錦繡衣子孫榮",
+      "translation_ko": "비단에 수놓은 옷을 입으면 자손이 번영한다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷을 빨아 물들임",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "洗染衣服皆大吉",
+      "translation_ko": "옷을 빨고 물들이면 모두 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "도롱이를 걸침",
+    "interpretation_ko": "큰 은혜를 입을 조짐",
+    "interpretation_en": "a sign of receiving great favor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "披蓑衣主大恩至",
+      "translation_ko": "도롱이를 걸치면 큰 은혜가 온다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷이 기름에 더러워짐",
+    "interpretation_ko": "큰 은택을 입을 조짐",
+    "interpretation_en": "a sign of receiving great favor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "被油污衣大恩澤",
+      "translation_ko": "기름에 옷이 더러워지면 큰 은택이 있다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷이 갑자기 해짐",
+    "interpretation_ko": "아내가 딴마음을 품을 조짐",
+    "interpretation_en": "a sign that one's wife turns her heart elsewhere",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "衣服忽破妻外心",
+      "translation_ko": "옷이 갑자기 해지면 아내가 딴마음을 품는다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "새 옷에 쌀을 모아 담음",
+    "interpretation_ko": "온갖 일이 흉할 조짐",
+    "interpretation_en": "a sign that all matters turn ill",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "新衣攢米百事凶",
+      "translation_ko": "새 옷에 쌀을 모으면 온갖 일이 흉하다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "새 옷에 쌀을 모아 담음",
+    "interpretation_ko": "온갖 일이 흉할 조짐",
+    "interpretation_en": "a sign that all matters turn ill",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "新衣攢米百事凶",
+      "translation_ko": "새 옷에 쌀을 모으면 온갖 일이 흉하다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "남에게 옷을 줌",
+    "interpretation_ko": "근심이 닥칠 조짐",
+    "interpretation_en": "a sign that trouble will come",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "與人衣服主患至",
+      "translation_ko": "남에게 옷을 주면 근심이 온다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷감을 마름질해 지어 입음",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "裁衣著孛衣皆吉",
+      "translation_ko": "옷을 마름질하고 옷을 지어 입으면 모두 길하다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "옷의 띠가 저절로 풀림",
+    "interpretation_ko": "온갖 일이 길할 조짐",
+    "interpretation_en": "a sign that all matters go well",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "衣帶自解百事吉",
+      "translation_ko": "옷의 띠가 저절로 풀리면 온갖 일이 길하다"
+    }
+  },
+  {
+    "term_ko": "노란 옷",
+    "term_en": "yellow clothing",
+    "context": "누런 옷을 입음",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著黃衣皂衣皆吉",
+      "translation_ko": "누런 옷과 검은 옷을 입으면 모두 길하다"
+    }
+  },
+  {
+    "term_ko": "검은 옷",
+    "term_en": "black clothing",
+    "context": "검은 옷을 입음",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著黃衣皂衣皆吉",
+      "translation_ko": "누런 옷과 검은 옷을 입으면 모두 길하다"
+    }
+  },
+  {
+    "term_ko": "흰 옷",
+    "term_en": "white clothing",
+    "context": "흰 옷을 입음",
+    "interpretation_ko": "남에게 청을 받을 조짐",
+    "interpretation_en": "a sign that someone will make a request of you",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著白衣主有人請",
+      "translation_ko": "흰 옷을 입으면 남이 청하는 일이 있다"
+    }
+  },
+  {
+    "term_ko": "푸른 옷",
+    "term_en": "blue clothing",
+    "context": "푸른 옷을 입음",
+    "interpretation_ko": "신인이 도와줄 조짐",
+    "interpretation_en": "a sign that a divine helper lends strength",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著青衣神人助力",
+      "translation_ko": "푸른 옷을 입으면 신인이 힘을 도와준다"
+    }
+  },
+  {
+    "term_ko": "쪽빛 옷",
+    "term_en": "indigo clothing",
+    "context": "쪽빛에 수놓은 옷을 입음",
+    "interpretation_ko": "아내에게 크게 이로울 조짐",
+    "interpretation_en": "a sign of great benefit to one's wife",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著藍繡衣妻大利",
+      "translation_ko": "쪽빛에 수놓은 옷을 입으면 아내에게 크게 이롭다"
+    }
+  },
+  {
+    "term_ko": "자줏빛 옷",
+    "term_en": "purple clothing",
+    "context": "여러 사람이 자줏빛 옷을 입음",
+    "interpretation_ko": "정분에 폐단이 생길 조짐",
+    "interpretation_en": "a sign of trouble in affections",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "眾人著紫主情獘",
+      "translation_ko": "여러 사람이 자줏빛 옷을 입으면 정분에 폐단이 생긴다"
+    }
+  },
+  {
+    "term_ko": "푸른 옷",
+    "term_en": "blue clothing",
+    "context": "남과 함께 푸른 옷을 입음",
+    "interpretation_ko": "집안 사람이 흩어질 조짐",
+    "interpretation_en": "a sign that the household scatters",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "與人著青家人散",
+      "translation_ko": "남과 함께 푸른 옷을 입으면 집안 사람이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "흰 옷",
+    "term_en": "white clothing",
+    "context": "여러 사람이 흰 옷을 입음",
+    "interpretation_ko": "관재가 생길 조짐",
+    "interpretation_en": "a sign of legal trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "眾人著白主官事",
+      "translation_ko": "여러 사람이 흰 옷을 입으면 관재가 생긴다"
+    }
+  },
+  {
+    "term_ko": "붉은 옷",
+    "term_en": "red clothing",
+    "context": "여러 사람이 붉은 옷을 입음",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "眾人著緋大吉利",
+      "translation_ko": "여러 사람이 붉은 옷을 입으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "아내가 남편의 옷을 입음",
+    "interpretation_ko": "귀한 아들을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a noble son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "妻著夫衣生貴子",
+      "translation_ko": "아내가 남편의 옷을 입으면 귀한 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "여자가 옷을 차려입음",
+    "interpretation_ko": "평온하고 무사할 조짐",
+    "interpretation_en": "a sign of calm and uneventful days",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "女子著衣平無事",
+      "translation_ko": "여자가 옷을 입으면 평온하고 무사하다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "남과 옷을 함께 입음",
+    "interpretation_ko": "아내에게 사사로운 정이 생길 조짐",
+    "interpretation_en": "a sign of a secret affection in one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "與人共衣妻私情",
+      "translation_ko": "남과 옷을 함께 입으면 아내에게 사사로운 정이 생긴다"
+    }
+  },
+  {
+    "term_ko": "옷",
+    "term_en": "clothing",
+    "context": "옷을 잃어버림",
+    "interpretation_ko": "아내가 난산할 조짐",
+    "interpretation_en": "a sign of a difficult childbirth for one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "失卻衣服妻難產",
+      "translation_ko": "옷을 잃으면 아내가 난산한다"
+    }
+  },
+  {
+    "term_ko": "이불",
+    "term_en": "blanket",
+    "context": "좋은 이불을 스스로 덮음",
+    "interpretation_ko": "부귀를 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "好被自蓋得富貴",
+      "translation_ko": "좋은 이불을 스스로 덮으면 부귀를 얻는다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "남이 자기 신을 신음",
+    "interpretation_ko": "아내에게 사사로운 정이 있을 조짐",
+    "interpretation_en": "a sign of a secret affection in one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "人著己履妻有私",
+      "translation_ko": "남이 자기 신을 신으면 아내에게 사사로운 정이 있다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "신을 얻음",
+    "interpretation_ko": "부리는 사람에게 길한 조짐",
+    "interpretation_en": "an auspicious sign for one's servants",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "得靴鞋主奴婢吉",
+      "translation_ko": "신을 얻으면 종에게 길한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "신을 잃어버림",
+    "interpretation_ko": "부리는 사람이 달아날 조짐",
+    "interpretation_en": "a sign that one's servants will run away",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "失履主奴婢逃走",
+      "translation_ko": "신을 잃으면 종이 달아난다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "신을 벗음",
+    "interpretation_ko": "흉한 일이 있을 조짐",
+    "interpretation_en": "a sign that something ill will happen",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "脫靴束帶主有凶",
+      "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "띠를 졸라맴",
+    "interpretation_ko": "흉한 일이 있을 조짐",
+    "interpretation_en": "a sign that something ill will happen",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "脫靴束帶主有凶",
+      "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "신이 해져 떨어짐",
+    "interpretation_ko": "자손과 아내가 병들 조짐",
+    "interpretation_en": "a sign of illness for children and wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "鞋破子孫妻妾病",
+      "translation_ko": "신이 해지면 자손과 처첩이 병든다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "삼으로 삼은 신을 신음",
+    "interpretation_ko": "온갖 일이 화합할 조짐",
+    "interpretation_en": "a sign that all matters come together well",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "著麻鞋百事和合",
+      "translation_ko": "삼신을 신으면 온갖 일이 화합한다"
+    }
+  },
+  {
+    "term_ko": "벼슬",
+    "term_en": "official post",
+    "context": "새로 벼슬을 받음",
+    "interpretation_ko": "귀한 아들을 둘 조짐",
+    "interpretation_en": "a sign of having a noble son",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "新授官爵主貴子",
+      "translation_ko": "새로 관작을 받으면 귀한 아들을 둔다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "빌어서 신을 얻음",
+    "interpretation_ko": "남이 도와줄 조짐",
+    "interpretation_en": "a sign that others will lend help",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "乞得鞋履人助力",
+      "translation_ko": "빌어서 신을 얻으면 남이 힘을 도와준다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "나막신이 벗겨짐",
+    "interpretation_ko": "액운에서 벗어날 조짐",
+    "interpretation_en": "a sign of escaping misfortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "木履脫時己出厄",
+      "translation_ko": "나막신이 벗겨지면 자기가 액에서 벗어난다"
+    }
+  },
+  {
+    "term_ko": "살해당함",
+    "term_en": "being killed",
+    "context": "남에게 죽임을 당함",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被人殺害者大吉",
+      "translation_ko": "남에게 죽임을 당하면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "남을 죽임",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺死他人大富貴",
+      "translation_ko": "남을 죽이면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "자살",
+    "term_en": "taking one's own life",
+    "context": "칼을 들고 스스로를 찌름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "持刀自殺者大吉",
+      "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼을 들고 스스로를 찌름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "持刀自殺者大吉",
+      "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "사람을 죽여 피가 옷을 적심",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺人血污衣得財",
+      "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "피가 옷을 적심",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺人血污衣得財",
+      "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼에 찔림",
+    "interpretation_ko": "시원하게 풀리고 이로울 조짐",
+    "interpretation_en": "a sign of relief and benefit",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被刀刺火出快利",
+      "translation_ko": "칼에 찔려 불이 나오면 시원하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼을 들고 서로 싸움",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "持刀相殺見血吉",
+      "translation_ko": "칼을 들고 서로 죽여 피를 보면 길하다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "서로 싸우다 피를 봄",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "持刀相殺見血吉",
+      "translation_ko": "칼을 들고 서로 죽여 피를 보면 길하다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼에 다쳐 피가 남",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "刀傷出血主酒食",
+      "translation_ko": "칼에 다쳐 피가 나면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "상처에서 피가 남",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "刀傷出血主酒食",
+      "translation_ko": "칼에 다쳐 피가 나면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "베이고 찔려 피를 봄",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "砍刺見血主大吉",
+      "translation_ko": "베고 찔러 피를 보면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "몸에서 피가 흐르는 것을 봄",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "炙身見血流大吉",
+      "translation_ko": "몸을 지져 피가 흐르는 것을 보면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼에 스스로 다침",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "刀斧自傷主大吉",
+      "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "도끼",
+    "term_en": "axe",
+    "context": "도끼에 스스로 다침",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "刀斧自傷主大吉",
+      "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "knife",
+    "context": "칼로 남을 벰",
+    "interpretation_ko": "제 재물을 잃을 조짐",
+    "interpretation_en": "a sign of losing one's own wealth",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "持刀斫人自失財",
+      "translation_ko": "칼로 남을 베면 스스로 재물을 잃는다"
+    }
+  },
+  {
+    "term_ko": "머리",
+    "term_en": "head",
+    "context": "남이 자기 머리를 내리침",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "人砍頭腦中二吉",
+      "translation_ko": "남이 머리를 내리쳐 맞으면 길하다"
+    }
+  },
+  {
+    "term_ko": "매맞음",
+    "term_en": "being beaten",
+    "context": "남에게 맞음",
+    "interpretation_ko": "힘을 얻을 조짐",
+    "interpretation_en": "a sign of gaining strength",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被人打者主得力",
+      "translation_ko": "남에게 맞으면 힘을 얻는다"
+    }
+  },
+  {
+    "term_ko": "매맞음",
+    "term_en": "being beaten",
+    "context": "남에게 발로 차임",
+    "interpretation_ko": "재물을 구하게 될 조짐",
+    "interpretation_en": "a sign of seeking and finding wealth",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被人腳踢主求財",
+      "translation_ko": "남에게 발로 차이면 재물을 구한다"
+    }
+  },
+  {
+    "term_ko": "때림",
+    "term_en": "beating someone",
+    "context": "아내를 때림",
+    "interpretation_ko": "힘을 잃을 조짐",
+    "interpretation_en": "a sign of losing strength",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "打妻妾者主失力",
+      "translation_ko": "처첩을 때리면 힘을 잃는다"
+    }
+  },
+  {
+    "term_ko": "싸움",
+    "term_en": "fight",
+    "context": "집안 사람끼리 다툼",
+    "interpretation_ko": "식구가 흩어질 조짐",
+    "interpretation_en": "a sign that the household scatters",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "家中人鬥主分散",
+      "translation_ko": "집안 사람이 싸우면 흩어진다"
+    }
+  },
+  {
+    "term_ko": "머리",
+    "term_en": "head",
+    "context": "머리가 잘린 채로 걸어감",
+    "interpretation_ko": "큰 기쁨이 있을 조짐",
+    "interpretation_en": "a sign of great joy",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "斷頭而行主大喜",
+      "translation_ko": "머리가 잘린 채로 걸어가면 큰 기쁨이 있다"
+    }
+  },
+  {
+    "term_ko": "싸움",
+    "term_en": "fight",
+    "context": "여자들이 서로 때림",
+    "interpretation_ko": "병이 닥칠 조짐",
+    "interpretation_en": "a sign that illness will come",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "女人相打主病至",
+      "translation_ko": "여자들이 서로 때리면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "싸움",
+    "term_en": "fight",
+    "context": "형제가 서로 때림",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "兄弟相打大吉利",
+      "translation_ko": "형제가 서로 때리면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "매맞음",
+    "term_en": "being beaten",
+    "context": "아내에게 맞음",
+    "interpretation_ko": "흉한 일이 있을 조짐",
+    "interpretation_en": "a sign that something ill will happen",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被妻妾打主凶事",
+      "translation_ko": "처첩에게 맞으면 흉한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "사람을 죽이는 것을 봄",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "看見殺人主大吉",
+      "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "찔림",
+    "term_en": "being stabbed",
+    "context": "남에게 찔림",
+    "interpretation_ko": "크게 길하고 창성할 조짐",
+    "interpretation_en": "a sign of great fortune and prosperity",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被人簽刺大吉昌",
+      "translation_ko": "남에게 찔리면 크게 길하고 창성하다"
+    }
+  },
+  {
+    "term_ko": "손",
+    "term_en": "hand",
+    "context": "손이 부러짐",
+    "interpretation_ko": "자식이 병들 조짐",
+    "interpretation_en": "a sign that a child falls ill",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "手措折者主子病",
+      "translation_ko": "손이 부러지면 자식이 병든다"
+    }
+  },
+  {
+    "term_ko": "절",
+    "term_en": "bowing",
+    "context": "남에게 머리를 조아려 절함",
+    "interpretation_ko": "온갖 일이 길할 조짐",
+    "interpretation_en": "a sign that all matters go well",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "向人叩頭百事吉",
+      "translation_ko": "남에게 머리를 조아리면 온갖 일이 길하다"
+    }
+  },
+  {
+    "term_ko": "말다툼",
+    "term_en": "quarrel",
+    "context": "남과 서로 욕하며 다툼",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "與人相罵者主吉",
+      "translation_ko": "남과 서로 욕하면 길하다"
+    }
+  },
+  {
+    "term_ko": "말다툼",
+    "term_en": "quarrel",
+    "context": "욕을 먹고도 모르는 척함",
+    "interpretation_ko": "큰 귀함이 올 조짐",
+    "interpretation_en": "a sign that great honor will come",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被罵佯顛大貴至",
+      "translation_ko": "욕을 먹고 미친 척하면 큰 귀함이 온다"
+    }
+  },
+  {
+    "term_ko": "모욕",
+    "term_en": "humiliation",
+    "context": "남에게 모욕을 당함",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "被人凌辱主得財",
+      "translation_ko": "남에게 능욕을 당하면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "돼지를 잡음",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺豬豖者大吉利",
+      "translation_ko": "돼지를 잡으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양을 잡거나 때림",
+    "interpretation_ko": "병이 들어 흉할 조짐",
+    "interpretation_en": "an ill sign of falling sick",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺羊打羊主病凶",
+      "translation_ko": "양을 죽이거나 때리면 병이 들어 흉하다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "호랑이를 잡음",
+    "interpretation_ko": "무거운 직인을 얻을 조짐",
+    "interpretation_en": "a sign of receiving a weighty office",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺虎豹主得重印",
+      "translation_ko": "호랑이와 표범을 죽이면 무거운 인장을 얻는다"
+    }
+  },
+  {
+    "term_ko": "표범",
+    "term_en": "leopard",
+    "context": "표범을 잡음",
+    "interpretation_ko": "무거운 직인을 얻을 조짐",
+    "interpretation_en": "a sign of receiving a weighty office",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺虎豹主得重印",
+      "translation_ko": "호랑이와 표범을 죽이면 무거운 인장을 얻는다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소를 잡음",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺牛鹿者大富貴",
+      "translation_ko": "소와 사슴을 잡으면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "사슴",
+    "term_en": "deer",
+    "context": "사슴을 잡음",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺牛鹿者大富貴",
+      "translation_ko": "소와 사슴을 잡으면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소를 잡아 고기를 먹음",
+    "interpretation_ko": "재물이 생길 조짐",
+    "interpretation_en": "a sign that wealth will arise",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺牛食肉主生財",
+      "translation_ko": "소를 잡아 고기를 먹으면 재물이 생긴다"
+    }
+  },
+  {
+    "term_ko": "나귀",
+    "term_en": "donkey",
+    "context": "나귀를 잡음",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺驢騾馬有酒食",
+      "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "노새를 잡음",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺驢騾馬有酒食",
+      "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 잡음",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺驢騾馬有酒食",
+      "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "거북",
+    "term_en": "turtle",
+    "context": "거북을 죽임",
+    "interpretation_ko": "상을 당할 조짐",
+    "interpretation_en": "a sign of a death in the family",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺龜者主有喪事",
+      "translation_ko": "거북을 죽이면 상사가 있다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "새를 죽임",
+    "interpretation_ko": "집안 여자에게 재난이 있을 조짐",
+    "interpretation_en": "a sign of calamity for the women of the house",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺鳥雀妻妾災難",
+      "translation_ko": "새와 참새를 죽이면 처첩에게 재난이 있다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "닭을 잡음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺雞鵝鴨主大吉",
+      "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "거위",
+    "term_en": "goose",
+    "context": "거위를 잡음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺雞鵝鴨主大吉",
+      "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "오리",
+    "term_en": "duck",
+    "context": "오리를 잡음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "被害鬥傷打罵",
+      "original": "殺雞鵝鴨主大吉",
+      "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울이 밝게 비침",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "明鏡者吉暗者凶",
+      "translation_ko": "거울이 밝으면 길하고 어두우면 흉하다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울이 어둡게 흐림",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "明鏡者吉暗者凶",
+      "translation_ko": "거울이 밝으면 길하고 어두우면 흉하다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울을 주움",
+    "interpretation_ko": "좋은 배필을 맞을 조짐",
+    "interpretation_en": "a sign of finding a good spouse",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "拾得鏡者招好妻",
+      "translation_ko": "거울을 주우면 좋은 아내를 맞는다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울로 자기를 비춰 봄",
+    "interpretation_ko": "먼 곳의 소식이 올 조짐",
+    "interpretation_en": "a sign that news from afar will arrive",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "將鏡自照遠信至",
+      "translation_ko": "거울로 자기를 비추면 먼 곳의 소식이 온다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울로 남을 비춤",
+    "interpretation_ko": "아내에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "鏡照他人妻妾凶",
+      "translation_ko": "거울로 남을 비추면 처첩에게 흉하다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "남의 거울을 얻음",
+    "interpretation_ko": "귀한 아들을 둘 조짐",
+    "interpretation_en": "a sign of having a noble son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "得他人鏡有貴子",
+      "translation_ko": "남의 거울을 얻으면 귀한 아들을 둔다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "남이 자기 거울을 만지작거림",
+    "interpretation_ko": "아내에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "他人弄己鏡妻凶",
+      "translation_ko": "남이 자기 거울을 만지면 아내에게 흉하다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울이 깨짐",
+    "interpretation_ko": "부부가 이별할 조짐",
+    "interpretation_en": "a sign that husband and wife will part",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "鏡破主夫妻離別",
+      "translation_ko": "거울이 깨지면 부부가 이별한다"
+    }
+  },
+  {
+    "term_ko": "비녀",
+    "term_en": "hairpin",
+    "context": "금비녀가 흔들려 움직임",
+    "interpretation_ko": "먼 길을 떠날 조짐",
+    "interpretation_en": "a sign of a long journey ahead",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "金釵動有遠行事",
+      "translation_ko": "금비녀가 움직이면 먼 길 떠날 일이 있다"
+    }
+  },
+  {
+    "term_ko": "금장신구",
+    "term_en": "gold ornament",
+    "context": "금장식이 쌍을 이룸",
+    "interpretation_ko": "사랑하는 사람이 늘 조짐",
+    "interpretation_en": "a sign of gaining a beloved",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "金鈿成雙增愛妾",
+      "translation_ko": "금장식이 쌍을 이루면 사랑하는 첩이 늘어난다"
+    }
+  },
+  {
+    "term_ko": "비녀",
+    "term_en": "hairpin",
+    "context": "비녀와 팔찌가 서로 부딪힘",
+    "interpretation_ko": "아내와 헤어질 흉한 조짐",
+    "interpretation_en": "an ill sign of parting from one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "釵釧相敲妻別凶",
+      "translation_ko": "비녀와 팔찌가 서로 부딪히면 아내와 이별하여 흉하다"
+    }
+  },
+  {
+    "term_ko": "팔찌",
+    "term_en": "bracelet",
+    "context": "팔찌가 비녀와 서로 부딪힘",
+    "interpretation_ko": "아내와 헤어질 흉한 조짐",
+    "interpretation_en": "an ill sign of parting from one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "釵釧相敲妻別凶",
+      "translation_ko": "비녀와 팔찌가 서로 부딪히면 아내와 이별하여 흉하다"
+    }
+  },
+  {
+    "term_ko": "비녀",
+    "term_en": "hairpin",
+    "context": "금비녀가 환하게 빛남",
+    "interpretation_ko": "귀한 아들을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a noble son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "金釵耀主生貴子",
+      "translation_ko": "금비녀가 빛나면 귀한 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "비녀",
+    "term_en": "hairpin",
+    "context": "꽃을 새긴 비녀를 봄",
+    "interpretation_ko": "집안 여자에게 간사한 일이 생길 조짐",
+    "interpretation_en": "a sign of deceit among the women of the house",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "花釵妻妾有姦佞",
+      "translation_ko": "꽃비녀는 처첩에게 간사한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "팔찌",
+    "term_en": "bracelet",
+    "context": "은팔찌를 봄",
+    "interpretation_ko": "부부가 서로 다툴 조짐",
+    "interpretation_en": "a sign that husband and wife come to blows",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "銀釧夫妻主相毆",
+      "translation_ko": "은팔찌는 부부가 서로 때린다"
+    }
+  },
+  {
+    "term_ko": "꽃 장식",
+    "term_en": "flower ornament",
+    "context": "머리에 꽃 장식을 누름",
+    "interpretation_ko": "집안 여자가 딴마음을 품을 조짐",
+    "interpretation_en": "a sign that a woman of the house turns her heart elsewhere",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "花壓妻妾生外心",
+      "translation_ko": "꽃 장식을 누르면 처첩이 딴마음을 낸다"
+    }
+  },
+  {
+    "term_ko": "빗",
+    "term_en": "comb",
+    "context": "남이 빗을 줌",
+    "interpretation_ko": "아름다운 배필을 얻을 조짐",
+    "interpretation_en": "a sign of gaining a beautiful companion",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "人與梳篦得美妾",
+      "translation_ko": "남이 빗과 참빗을 주면 아름다운 첩을 얻는다"
+    }
+  },
+  {
+    "term_ko": "참빗",
+    "term_en": "fine-toothed comb",
+    "context": "남이 참빗을 줌",
+    "interpretation_ko": "아름다운 배필을 얻을 조짐",
+    "interpretation_en": "a sign of gaining a beautiful companion",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "人與梳篦得美妾",
+      "translation_ko": "남이 빗과 참빗을 주면 아름다운 첩을 얻는다"
+    }
+  },
+  {
+    "term_ko": "빗",
+    "term_en": "comb",
+    "context": "상아나 나무로 만든 빗을 봄",
+    "interpretation_ko": "묵은 일이 모두 사라질 조짐",
+    "interpretation_en": "a sign that old troubles all pass away",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "牙木梳舊事盡去",
+      "translation_ko": "상아 빗과 나무 빗은 묵은 일이 다 없어진다"
+    }
+  },
+  {
+    "term_ko": "참빗",
+    "term_en": "fine-toothed comb",
+    "context": "참빗을 봄",
+    "interpretation_ko": "귀인이 이끌어 줄 조짐",
+    "interpretation_en": "a sign that a noble patron will lend a hand",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "見篦子貴人提攜",
+      "translation_ko": "참빗을 보면 귀인이 이끌어 준다"
+    }
+  },
+  {
+    "term_ko": "참빗",
+    "term_en": "fine-toothed comb",
+    "context": "참빗을 얻음",
+    "interpretation_ko": "아름다운 사람이 찾아올 조짐",
+    "interpretation_en": "a sign that a beautiful person will come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "得篦子者美女至",
+      "translation_ko": "참빗을 얻으면 미녀가 온다"
+    }
+  },
+  {
+    "term_ko": "양치질",
+    "term_en": "brushing teeth",
+    "context": "이를 닦음",
+    "interpretation_ko": "병이 생기지 않을 조짐",
+    "interpretation_en": "a sign that illness will not arise",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "刷牙者病患不生",
+      "translation_ko": "이를 닦으면 병이 생기지 않는다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "연지를 얻음",
+    "interpretation_ko": "딸을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a daughter",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "得胭脂粉主生女",
+      "translation_ko": "연지와 분을 얻으면 딸을 낳는다"
+    }
+  },
+  {
+    "term_ko": "분",
+    "term_en": "face powder",
+    "context": "분을 얻음",
+    "interpretation_ko": "딸을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a daughter",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "得胭脂粉主生女",
+      "translation_ko": "연지와 분을 얻으면 딸을 낳는다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "연지를 봄",
+    "interpretation_ko": "큰 재물의 이익이 있을 조짐",
+    "interpretation_en": "a sign of great gain in wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "見脂粉主大財利",
+      "translation_ko": "연지와 분을 보면 큰 재물의 이익이 있다"
+    }
+  },
+  {
+    "term_ko": "분",
+    "term_en": "face powder",
+    "context": "분을 봄",
+    "interpretation_ko": "큰 재물의 이익이 있을 조짐",
+    "interpretation_en": "a sign of great gain in wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "見脂粉主大財利",
+      "translation_ko": "연지와 분을 보면 큰 재물의 이익이 있다"
+    }
+  },
+  {
+    "term_ko": "분",
+    "term_en": "face powder",
+    "context": "분을 얻어 아내에게 줌",
+    "interpretation_ko": "예쁜 딸을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a lovely daughter",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "得粉僕妻生嬌女",
+      "translation_ko": "분을 얻으면 아내가 예쁜 딸을 낳는다"
+    }
+  },
+  {
+    "term_ko": "손수건",
+    "term_en": "handkerchief",
+    "context": "손수건을 봄",
+    "interpretation_ko": "구설이 생길 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "手帕者主口舌事",
+      "translation_ko": "손수건은 구설이 생긴다"
+    }
+  },
+  {
+    "term_ko": "바늘",
+    "term_en": "needle",
+    "context": "바늘을 얻음",
+    "interpretation_ko": "온갖 일이 이루어질 조짐",
+    "interpretation_en": "a sign that all matters come to fruition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "針線得者百事就",
+      "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "실",
+    "term_en": "thread",
+    "context": "실을 얻음",
+    "interpretation_ko": "온갖 일이 이루어질 조짐",
+    "interpretation_en": "a sign that all matters come to fruition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "鏡環釵釧梳篦",
+      "original": "針線得者百事就",
+      "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+    }
+  }
+]

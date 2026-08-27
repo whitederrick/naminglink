@@ -1,0 +1,581 @@
+[
+ {
+  "id": "snake",
+  "aliases": ["구렁이", "독사", "살모사", "능구렁이"],
+  "aliases_en": ["serpent", "python", "cobra", "viper", "snakes"],
+  "contexts": {
+   "뱀이 문 안으로 들어옴": "문으로 대문 현관 문턱",
+   "뱀이 부뚜막에 들어옴": "부뚜막 아궁이 부엌 솥단지",
+   "뱀이 용으로 변함": "용으로 용이 승천 변해 변하 둔갑",
+   "뱀이 사람을 죽임": "죽였 죽이 죽임 살해",
+   "뱀이 사람에게 덤벼듦": "덤벼 덤비 달려들 물었 물려 공격",
+   "뱀이 품속으로 들어옴": "품속 품안 가슴속 품으로",
+   "뱀이 물속을 헤엄쳐 감": "헤엄 물속 강물 냇물 시냇",
+   "뱀이 사람을 따라감": "따라와 따라오 따라가 뒤따라 쫓아와",
+   "뱀이 곡도로 들어감": "곡도 굴속 구멍으로 구멍에 굴로",
+   "뱀이 몸을 휘감음": "휘감 감싸 칭칭 온몸을 조여",
+   "뱀이 여럿 몰려 있음": "여럿 떼로 우글 무더기 수십 여러마리",
+   "뱀이 붉거나 검음": "붉은 빨간 검은 까만 붉고",
+   "뱀이 푸름": "푸른 푸르 초록 파란",
+   "뱀이 누렇거나 흼": "누런 노란 누렇 하얀 백색",
+   "뱀이 다가오고 새가 달려옴": "새가 새와 새한 참새 날아와",
+   "거북과 뱀이 함께 있음": "거북 자라 남생이"
+  },
+  "contexts_en": {
+   "뱀이 문 안으로 들어옴": "door doorway gate entrance threshold",
+   "뱀이 부뚜막에 들어옴": "stove kitchen hearth furnace",
+   "뱀이 용으로 변함": "dragon dragons ascended transformed",
+   "뱀이 사람을 죽임": "killed kill killing slain",
+   "뱀이 사람에게 덤벼듦": "lunged attacked charged bit striking",
+   "뱀이 품속으로 들어옴": "bosom chest clothes hugged",
+   "뱀이 물속을 헤엄쳐 감": "swimming swam water river stream",
+   "뱀이 사람을 따라감": "followed following chased pursued",
+   "뱀이 곡도로 들어감": "hole burrow cave tunnel",
+   "뱀이 몸을 휘감음": "coiled wrapped wound around squeezed",
+   "뱀이 여럿 몰려 있음": "many several swarm nest lots",
+   "뱀이 붉거나 검음": "red black crimson dark",
+   "뱀이 푸름": "green greenish emerald",
+   "뱀이 누렇거나 흼": "yellow white pale golden",
+   "뱀이 다가오고 새가 달려옴": "bird birds sparrow flying",
+   "거북과 뱀이 함께 있음": "turtle tortoise"
+  }
+ },
+ {
+  "id": "sun",
+  "aliases": ["태양", "햇빛", "햇살", "해님"],
+  "aliases_en": ["sunlight", "sunshine", "sunrise", "daylight"],
+  "contexts": {
+   "해가 막 떠오름": "떠올랐 솟아올 아침해 동틀 일출",
+   "햇빛이 몸을 비춤": "비춰 비치 내리쬐 몸에 살갗",
+   "해가 떨어짐": "떨어지 저물 서산 일몰 넘어가",
+   "해가 어둑하게 흐림": "어둑 흐릿 침침 흐려 뿌옇",
+   "해가 막 떠오르려 함": "떠오르려 뜨려 동트려 밝아오",
+   "해와 달이 한자리에서 만남": "달이 달과 나란히 초승달 보름달",
+   "해가 산에 걸림": "산에 산위 봉우리 걸려 걸린",
+   "해를 등에 지거나 품에 안음": "등에 등지 업고 짊어",
+   "해를 삼킴": "삼켰 삼키 먹었 입으로",
+   "해에 절하여 예를 올림": "절하 절을 엎드려 경배 예를",
+   "햇빛이 집 안으로 들어옴": "집안 방안 창으로 마루 대청",
+   "해가 처음 떠오르는데 구름 한 점 없음": "맑은 맑게 청명 화창 깨끗한",
+   "해가 떠서 빛이 남": "빛나 환하게 눈부시 찬란",
+   "구름이 걷히고 해가 떠오름": "걷히고 걷혀 개어 개이 갠뒤",
+   "해가 품 안으로 들어옴": "품속 품안 가슴속 품으로",
+   "해가 구름에 갑자기 가려짐": "가려 가리 구름에 뒤덮 갑자기"
+  },
+  "contexts_en": {
+   "해가 막 떠오름": "rose rising dawn daybreak morning",
+   "햇빛이 몸을 비춤": "shone body skin rays warm",
+   "해가 떨어짐": "setting sank west dusk twilight",
+   "해가 어둑하게 흐림": "dim dull gloomy faint hazy",
+   "해가 막 떠오르려 함": "almost horizon barely emerging",
+   "해와 달이 한자리에서 만남": "moon together alongside crescent",
+   "해가 산에 걸림": "mountain peak hung ridge",
+   "해를 등에 지거나 품에 안음": "back shoulders carried bore",
+   "해를 삼킴": "swallowed swallow ate devoured",
+   "해에 절하여 예를 올림": "bowed bowing worshipped knelt",
+   "햇빛이 집 안으로 들어옴": "house room window indoors",
+   "해가 처음 떠오르는데 구름 한 점 없음": "cloudless spotless pure serene",
+   "해가 떠서 빛이 남": "shining brilliant dazzling radiance glowed",
+   "구름이 걷히고 해가 떠오름": "cleared parted lifted broke",
+   "해가 품 안으로 들어옴": "bosom chest embraced hugged",
+   "해가 구름에 갑자기 가려짐": "covered hidden obscured blocked suddenly"
+  }
+ },
+ {
+  "id": "city-wall",
+  "aliases": ["성곽", "성벽", "궁성", "성문"],
+  "aliases_en": ["fortress", "rampart", "citadel", "city walls", "castle wall"],
+  "contexts": {
+   "궁성이 막힘": "막혀 막힌 궁성 가로막 닫혀",
+   "성에 오르는데 남이 끌어 줌": "끌어 잡아주 도와줘 이끌어 손잡아",
+   "성에 올랐다가 붙잡힘": "붙잡 잡혀 붙들 체포",
+   "성곽이 넓고 큼": "넓고 크고 웅장 거대 광대",
+   "성 안을 돌아다님": "돌아다 거닐 배회 안을 헤매",
+   "성문을 나섬": "나섰 나가 나서 밖으로",
+   "이어진 성이 푸른빛을 띰": "푸른 푸르 이어진 파란",
+   "붉은 성곽에 오름": "붉은 빨간 붉게 주홍",
+   "성 위에 집을 지음": "집을 짓고 지었 건물 가옥"
+  },
+  "contexts_en": {
+   "궁성이 막힘": "blocked barred palace shut sealed",
+   "성에 오르는데 남이 끌어 줌": "pulled helped lifted assisted",
+   "성에 올랐다가 붙잡힘": "caught seized captured arrested",
+   "성곽이 넓고 큼": "vast huge wide enormous grand",
+   "성 안을 돌아다님": "wandering wandered strolling roaming inside",
+   "성문을 나섬": "gate exited leaving outside",
+   "이어진 성이 푸른빛을 띰": "green blue connected stretching",
+   "붉은 성곽에 오름": "crimson scarlet vermilion",
+   "성 위에 집을 지음": "house built building home"
+  }
+ },
+ {
+  "id": "outhouse",
+  "aliases": ["변소", "화장실", "측간", "해우소"],
+  "aliases_en": ["latrine", "privy", "toilet", "restroom", "outhouses"],
+  "contexts": {
+   "뒷간 안에 머물러 있음": "머물 앉아 쭈그리 서있",
+   "뒷간에 빠졌다가 밖으로 나옴": "빠졌다 나왔 기어나 빠져나",
+   "뒷간에 빠져 나오지 못함": "못했 못하 갇혀 허우적 헤어나",
+   "뒷간 지붕 위에 누움": "지붕 누워 누웠 올라가",
+   "뒷간 안이 바싹 말라 있음": "말라 바싹 메말 건조 마른",
+   "뒷간을 새로 지음": "새로 지었 짓고 신축",
+   "뒷간을 쳐서 치움": "치우 퍼내 청소 쳐서 비웠",
+   "뒷간에 가서 똥오줌 속에 있음": "똥오줌 대소변 오줌 분뇨",
+   "뒷간에 똥이 넘침": "넘쳐 넘쳤 넘치 가득 흘러넘"
+  },
+  "contexts_en": {
+   "뒷간 안에 머물러 있음": "stayed standing sitting remained inside",
+   "뒷간에 빠졌다가 밖으로 나옴": "escaped climbed emerged crawled out",
+   "뒷간에 빠져 나오지 못함": "stuck trapped unable sinking couldn't",
+   "뒷간 지붕 위에 누움": "roof lying lay top",
+   "뒷간 안이 바싹 말라 있음": "dry dried parched empty",
+   "뒷간을 새로 지음": "built new building rebuilt",
+   "뒷간을 쳐서 치움": "cleaned emptied cleared scooped",
+   "뒷간에 가서 똥오줌 속에 있음": "excrement urine feces filth",
+   "뒷간에 똥이 넘침": "overflowing overflowed spilling full"
+  }
+ },
+ {
+  "id": "sheep",
+  "aliases": ["양떼", "면양", "숫양", "암양"],
+  "aliases_en": ["lamb", "ewe", "ram", "flock of sheep"],
+  "contexts": {
+   "양을 끌고 집으로 돌아옴": "끌고 데리고 집으로 돌아왔",
+   "양이 돼지처럼 걸어감": "돼지처럼 돼지같이 걸어가",
+   "양이 몸을 긁음": "긁는 긁고 긁어 비비",
+   "양을 타고 거리로 나감": "타고 올라타 거리로 길거리",
+   "어미 양과 새끼 양을 봄": "어미 새끼 어린 젖먹이",
+   "양을 잡거나 때림": "잡아 때리 때렸 죽였 도살",
+   "양이 수레를 끎": "수레 마차 끌었 끄는"
+  },
+  "contexts_en": {
+   "양을 끌고 집으로 돌아옴": "home leading brought returned",
+   "양이 돼지처럼 걸어감": "pig walked waddling",
+   "양이 몸을 긁음": "scratching scratched itching rubbing",
+   "양을 타고 거리로 나감": "riding rode street town",
+   "어미 양과 새끼 양을 봄": "mother baby young lambs",
+   "양을 잡거나 때림": "killed beat slaughtered hit",
+   "양이 수레를 끎": "cart wagon pulling carriage"
+  }
+ },
+ {
+  "id": "pig",
+  "aliases": ["도야지"],
+  "aliases_en": ["hog", "swine", "boar", "piglet", "pigs"],
+  "contexts": {
+   "돼지를 잡음": "잡아 잡았 도살 붙잡 죽였",
+   "돼지가 저절로 죽음": "저절로 스스로 죽어있 병들 절로",
+   "돼지가 사람으로 변함": "사람으로 사람이 변해 변하 둔갑",
+   "양이 돼지처럼 걸어감": "양이 양과 양처럼 걸어가",
+   "돼지가 몸을 긁음": "긁는 긁고 긁어 비비"
+  },
+  "contexts_en": {
+   "돼지를 잡음": "caught killed slaughtered butchered",
+   "돼지가 저절로 죽음": "died dead sick naturally itself",
+   "돼지가 사람으로 변함": "human person transformed turned",
+   "양이 돼지처럼 걸어감": "sheep lamb walking",
+   "돼지가 몸을 긁음": "scratching scratched itching rubbing"
+  }
+ },
+ {
+  "id": "turtle",
+  "aliases": ["남생이", "자라"],
+  "aliases_en": ["tortoise", "turtles"],
+  "contexts": {
+   "거북이 우물이나 집으로 들어옴": "우물 집으로 들어왔 마당 마루",
+   "거북과 뱀이 함께 있음": "뱀과 뱀이 구렁이 함께",
+   "거북을 봄": "보았 봤다 바라보 발견",
+   "거북을 잡음": "잡았 붙잡 잡아 붙들",
+   "거북을 죽임": "죽였 죽이 죽임 해쳤"
+  },
+  "contexts_en": {
+   "거북이 우물이나 집으로 들어옴": "well house home yard entered",
+   "거북과 뱀이 함께 있음": "snake serpent together",
+   "거북을 봄": "saw seeing looked spotted",
+   "거북을 잡음": "caught catching grabbed held",
+   "거북을 죽임": "killed kill dead"
+  }
+ },
+ {
+  "id": "barley",
+  "aliases": [],
+  "aliases_en": [],
+  "contexts": {
+   "보리를 봄": "보았 봤다 바라보",
+   "크고 작은 보리를 봄": "크고 작은 굵고 잘고",
+   "쌀과 보리가 나란히 놓임": "나란히 쌀과 놓여 놓인",
+   "쌀과 보리 위에 앉거나 누움": "앉아 앉았 누워 누웠 올라앉"
+  },
+  "contexts_en": {
+   "보리를 봄": "saw seeing looked",
+   "크고 작은 보리를 봄": "big small large little",
+   "쌀과 보리가 나란히 놓임": "rice laid placed piled",
+   "쌀과 보리 위에 앉거나 누움": "sat sitting lay lying"
+  }
+ },
+ {
+  "id": "rain",
+  "aliases": ["빗물", "소나기", "장맛비", "폭우", "빗줄기", "장대비"],
+  "aliases_en": ["rainfall", "downpour", "raining", "showers"],
+  "contexts": {
+   "비가 그쳐 흩어짐": "그쳐 그쳤 개었 멎었 흩어",
+   "궂은비가 내려 어둑함": "궂은 어둑 우중충 음산 흐릿",
+   "길을 가다 비를 만남": "길을 가다가 도중에 만났 길에서",
+   "큰비가 쏟아짐": "쏟아 퍼붓 억수 세차게"
+  },
+  "contexts_en": {
+   "비가 그쳐 흩어짐": "stopped ceased dispersed clearing",
+   "궂은비가 내려 어둑함": "drizzle dreary gloomy grey dismal",
+   "길을 가다 비를 만남": "road walking journey path caught",
+   "큰비가 쏟아짐": "pouring heavy torrential downpour"
+  }
+ },
+ {
+  "id": "thief-2",
+  "aliases": ["도적", "강도", "절도"],
+  "aliases_en": ["robber", "burglar", "bandit", "thieves"],
+  "contexts": {
+   "도둑을 쫓아 저자에 들어가 나오지 못함": "쫓아 뒤쫓 저자 장터 헤매",
+   "억센 도둑이 집에 들어옴": "억센 사나운 집에 침입 들어왔",
+   "도둑과 함께 길을 감": "함께 같이 동행 나란히",
+   "자기가 도둑이 됨": "내가 자기가 스스로 훔쳤 훔치"
+  },
+  "contexts_en": {
+   "도둑을 쫓아 저자에 들어가 나오지 못함": "chasing chased market pursued",
+   "억센 도둑이 집에 들어옴": "fierce strong house intruder broke",
+   "도둑과 함께 길을 감": "together walked along accompanied",
+   "자기가 도둑이 됨": "myself became stealing stole"
+  }
+ },
+ {
+  "id": "fight",
+  "aliases": ["다툼", "싸우", "언쟁", "주먹다짐", "말다툼"],
+  "aliases_en": ["fighting", "quarrel", "brawl", "argument", "beating"],
+  "contexts": {
+   "집안 사람끼리 다툼": "집안 가족 식구 친척 부모",
+   "여자들이 서로 때림": "여자 여인 부인 아낙",
+   "형제가 서로 때림": "형제 형과 동생 남매"
+  },
+  "contexts_en": {
+   "집안 사람끼리 다툼": "family household relatives parents",
+   "여자들이 서로 때림": "women woman wives ladies",
+   "형제가 서로 때림": "brothers brother siblings"
+  }
+ },
+ {
+  "id": "monk",
+  "aliases": ["승려", "법사", "비구", "사문"],
+  "aliases_en": ["monks", "priest", "bhikkhu", "buddhist monk"],
+  "contexts": {
+   "법사가 법좌에 오름": "법좌 법상 설법 올라 높은자리",
+   "스님이 사람에게 경 읽기를 가르침": "가르치 가르쳐 배우 독경 읽기를",
+   "스님과 비구니가 경을 봄": "비구니 여승 함께 나란히"
+  },
+  "contexts_en": {
+   "법사가 법좌에 오름": "dharma seat preaching pulpit ascended",
+   "스님이 사람에게 경 읽기를 가르침": "teaching taught reading sutra learn",
+   "스님과 비구니가 경을 봄": "nun nuns together"
+  }
+ },
+ {
+  "id": "sun-and-moon",
+  "aliases": ["일월"],
+  "aliases_en": ["sun and the moon"],
+  "contexts": {
+   "불이 해와 달을 태움": "불이 불길 태우 태웠 화염",
+   "배 위에서 해와 달을 봄": "뱃전 배에서 갑판 바라보",
+   "배를 타고 해와 달을 지나감": "타고 지나 건너 항해 스쳐"
+  },
+  "contexts_en": {
+   "불이 해와 달을 태움": "fire burning burned flames",
+   "배 위에서 해와 달을 봄": "boat deck watching aboard",
+   "배를 타고 해와 달을 지나감": "sailed passed crossing past"
+  }
+ },
+ {
+  "id": "beard",
+  "aliases": ["구레나룻"],
+  "aliases_en": ["beards", "whiskers", "mustache"],
+  "contexts": {
+   "수염이 희어져 빠짐": "희어 하얘 세어 허옇 빠지",
+   "빠졌던 수염이 다시 남": "다시 새로 자라 돋아 났다"
+  },
+  "contexts_en": {
+   "수염이 희어져 빠짐": "white grey turned falling",
+   "빠졌던 수염이 다시 남": "grew back again regrew new"
+  }
+ },
+ {
+  "id": "bell",
+  "aliases": ["종소리", "범종", "쇠북"],
+  "aliases_en": ["bells", "temple bell", "gong"],
+  "contexts": {
+   "종과 경쇠가 소리를 냄": "경쇠 소리를 맑은 은은",
+   "종과 북이 크게 울림": "북이 북과 크게 우렁 요란"
+  },
+  "contexts_en": {
+   "종과 경쇠가 소리를 냄": "chime chimes stone sounding clear",
+   "종과 북이 크게 울림": "drum drums loud thunderous booming"
+  }
+ },
+ {
+  "id": "farming",
+  "aliases": ["밭갈이", "씨뿌리", "경작", "파종", "농작"],
+  "aliases_en": ["farm", "plowing", "cultivating", "tilling", "sowing"],
+  "contexts": {
+   "산속에서 농사를 지음": "산속 산에서 산중 깊은",
+   "남에게 밭 갈고 씨 뿌리는 법을 가르침": "가르치 가르쳐 남에게 알려주"
+  },
+  "contexts_en": {
+   "산속에서 농사를 지음": "mountain mountains hills",
+   "남에게 밭 갈고 씨 뿌리는 법을 가르침": "teaching taught showed others"
+  }
+ },
+ {
+  "id": "flute",
+  "aliases": ["퉁소", "단소", "대금", "젓대"],
+  "aliases_en": ["flutes", "pipe", "reed pipe"],
+  "contexts": {
+   "남이 피리를 줌": "주었 받았 건네 선물",
+   "피리를 붊": "불었 부는 불고 연주"
+  },
+  "contexts_en": {
+   "남이 피리를 줌": "gave given received gift",
+   "피리를 붊": "played playing blowing blew"
+  }
+ },
+ {
+  "id": "marketplace",
+  "aliases": ["저자", "장터", "장날"],
+  "aliases_en": ["market", "bazaar", "markets", "marketplaces"],
+  "contexts": {
+   "부부가 함께 시장에 들어감": "부부 아내 남편 함께 같이",
+   "시장에 사람이 하나도 없음": "아무도 없었 없는 한산 비어"
+  },
+  "contexts_en": {
+   "부부가 함께 시장에 들어감": "wife husband couple together",
+   "시장에 사람이 하나도 없음": "empty deserted nobody abandoned"
+  }
+ },
+ {
+  "id": "monkey",
+  "aliases": ["잔나비"],
+  "aliases_en": ["monkeys", "ape"],
+  "contexts": {
+   "산 원숭이를 봄": "산에 산속 야생 숲속",
+   "흰 원숭이를 봄": "하얀 하얗 백색 새하얀 은빛"
+  },
+  "contexts_en": {
+   "산 원숭이를 봄": "wild mountain forest",
+   "흰 원숭이를 봄": "white pale snowy"
+  }
+ },
+ {
+  "id": "rock",
+  "aliases": ["암석", "반석"],
+  "aliases_en": ["boulder", "rocks", "stone", "cliff"],
+  "contexts": {
+   "너럭바위가 편안하고 든든함": "너럭 편안 든든 평평 넓적",
+   "바위에 오름": "올라 오르 기어올 꼭대기"
+  },
+  "contexts_en": {
+   "너럭바위가 편안하고 든든함": "flat comfortable solid steady broad",
+   "바위에 오름": "climbed climbing ascended top"
+  }
+ },
+ {
+  "id": "shooting-an-arrow",
+  "aliases": ["활을", "화살", "궁술", "활시위"],
+  "aliases_en": ["archery", "bow and arrow", "shooting arrows", "shot an arrow"],
+  "contexts": {
+   "내가 남을 쏨": "내가 남을 상대를 겨누 겨눴",
+   "남이 나를 쏨": "남이 나를 맞았 맞혀 맞았다"
+  },
+  "contexts_en": {
+   "내가 남을 쏨": "aimed aiming target someone",
+   "남이 나를 쏨": "hit struck wounded pierced"
+  }
+ },
+ {
+  "id": "ancestral-rite",
+  "aliases": ["제례", "제향", "차례상"],
+  "aliases_en": ["ancestor ritual", "memorial rite", "sacrifice to gods", "jesa"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "awl",
+  "aliases": [],
+  "aliases_en": ["awls", "gimlet"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "bear",
+  "aliases": ["반달곰", "불곰", "흑곰"],
+  "aliases_en": ["bears", "black bear", "grizzly"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "bodhisattva",
+  "aliases": ["관음", "관세음"],
+  "aliases_en": ["bodhisattvas", "buddhas", "kwan yin"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "brushing-teeth",
+  "aliases": ["양치", "칫솔", "이를 닦", "이빨을 닦"],
+  "aliases_en": ["brush my teeth", "brushing my teeth", "toothbrush", "brushed teeth"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "clapper",
+  "aliases": [],
+  "aliases_en": ["clappers", "wooden clapper"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "combing-one-s-hair",
+  "aliases": ["빗질", "머리를 빗", "참빗", "얼레빗"],
+  "aliases_en": ["comb my hair", "combing hair", "brushing hair", "combed"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "deceased-elder",
+  "aliases": ["조상", "선친", "망자", "고인", "돌아가신", "웃어른"],
+  "aliases_en": ["dead elder", "late father", "ancestor", "deceased relative", "departed elder"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "dove",
+  "aliases": [],
+  "aliases_en": ["doves", "pigeon", "pigeons"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "fireworks",
+  "aliases": ["폭죽"],
+  "aliases_en": ["firework", "firecrackers"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "fog",
+  "aliases": ["운무", "자욱"],
+  "aliases_en": ["mist", "foggy", "haze", "misty"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "heavenly-messenger",
+  "aliases": ["천사", "천신"],
+  "aliases_en": ["angel", "messenger from heaven", "celestial messenger"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "house-centipede",
+  "aliases": ["돈벌레"],
+  "aliases_en": ["centipede", "centipedes"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "joy",
+  "aliases": ["기쁜", "기뻐", "경사", "즐거"],
+  "aliases_en": ["joyful", "happy event", "rejoicing", "happiness"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "leech",
+  "aliases": [],
+  "aliases_en": ["leeches"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "moth",
+  "aliases": ["부나비", "불나비"],
+  "aliases_en": ["moths"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "music",
+  "aliases": ["음악", "악기", "가락", "연주"],
+  "aliases_en": ["musical performance", "playing music", "musicians"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "peach",
+  "aliases": ["도화", "복사꽃", "천도"],
+  "aliases_en": ["peaches"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "poverty",
+  "aliases": ["빈곤", "궁핍", "곤궁"],
+  "aliases_en": ["poor", "destitute", "impoverished", "penniless"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "roe-deer",
+  "aliases": ["고라니"],
+  "aliases_en": ["deer", "roebuck"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "sage",
+  "aliases": ["현인", "성자"],
+  "aliases_en": ["sages", "wise man", "saint", "wise men"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "someone-calling-out",
+  "aliases": ["부르는", "불러", "호명"],
+  "aliases_en": ["calling my name", "someone calls", "shouting", "called out"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "sprout",
+  "aliases": ["새싹", "새순", "떡잎", "싹눈"],
+  "aliases_en": ["sprouts", "sprouting", "shoot", "bud"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "umbrella",
+  "aliases": ["양산", "파라솔"],
+  "aliases_en": ["umbrellas", "parasol"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "washbasin",
+  "aliases": ["대야", "세면대", "세숫물"],
+  "aliases_en": ["basin", "wash basin", "washbowl"],
+  "contexts": {},
+  "contexts_en": {}
+ },
+ {
+  "id": "writing",
+  "aliases": ["붓글씨", "서예", "글씨를 쓰", "글을 쓰", "시문"],
+  "aliases_en": ["write", "wrote", "calligraphy", "writing poems"],
+  "contexts": {},
+  "contexts_en": {}
+ }
+]

@@ -1,0 +1,1877 @@
+[
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅이 흔들려 움직임",
+    "interpretation_ko": "벼슬자리를 옮길 길한 조짐",
+    "interpretation_en": "an auspicious sign of a transfer in office",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "地動主遷官位吉",
+      "translation_ko": "땅이 움직이면 벼슬자리를 옮기게 되어 길하다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅이 갈라짐",
+    "interpretation_ko": "병이 들 크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign of illness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "地裂主疾病大凶",
+      "translation_ko": "땅이 갈라지면 질병이 생겨 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "밭과 땅을 평평하게 고름",
+    "interpretation_ko": "크게 길하고 번창할 조짐",
+    "interpretation_en": "a very auspicious sign of prosperity",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "修平田地大吉昌",
+      "translation_ko": "밭과 땅을 평평하게 고르면 크게 길하고 번창한다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅이 높고 낮아 고르지 않음",
+    "interpretation_ko": "병이 들 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "地高下不平主病",
+      "translation_ko": "땅이 높고 낮아 평평하지 않으면 병이 든다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅속에서 검은 기운이 올라옴",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "地中黑氣上主凶",
+      "translation_ko": "땅속에서 검은 기운이 올라오면 흉하다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "집 마루 위의 땅이 꺼짐",
+    "interpretation_ko": "어머니에게 근심이 생길 조짐",
+    "interpretation_en": "a sign of worry for one's mother",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "堂上地陷主母憂",
+      "translation_ko": "마루 위의 땅이 꺼지면 어머니에게 근심이 있다"
+    }
+  },
+  {
+    "term_ko": "돌",
+    "term_en": "stone",
+    "context": "돌 위에 누움",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "臥於石上主大吉",
+      "translation_ko": "돌 위에 누우면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "돌",
+    "term_en": "stone",
+    "context": "돌을 옮겨 집에 들임",
+    "interpretation_ko": "부귀해질 조짐",
+    "interpretation_en": "a sign of wealth and honor",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "運石入家主富貴",
+      "translation_ko": "돌을 옮겨 집에 들이면 부귀해진다"
+    }
+  },
+  {
+    "term_ko": "돌",
+    "term_en": "stone",
+    "context": "돌 위에서 이익과 녹봉을 얻음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "石上得利祿大吉",
+      "translation_ko": "돌 위에서 이익과 녹봉을 얻으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "돌",
+    "term_en": "stone",
+    "context": "돌을 품에 안음",
+    "interpretation_ko": "벼슬이 오를 조짐",
+    "interpretation_en": "a sign of promotion in office",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "登岩抱石官職遷",
+      "translation_ko": "바위에 올라 돌을 안으면 관직이 오른다"
+    }
+  },
+  {
+    "term_ko": "돌",
+    "term_en": "stone",
+    "context": "손으로 작은 돌을 만지작거림",
+    "interpretation_ko": "귀한 자식을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a noble child",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "手弄小石生貴子",
+      "translation_ko": "손으로 작은 돌을 만지작거리면 귀한 자식을 낳는다"
+    }
+  },
+  {
+    "term_ko": "바위",
+    "term_en": "rock",
+    "context": "너럭바위가 편안하고 든든함",
+    "interpretation_ko": "근심과 의심이 없어질 조짐",
+    "interpretation_en": "a sign that worry and doubt will vanish",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "盤石安穩無憂疑",
+      "translation_ko": "너럭바위가 편안하고 든든하면 근심과 의심이 없다"
+    }
+  },
+  {
+    "term_ko": "바위",
+    "term_en": "rock",
+    "context": "바위에 오름",
+    "interpretation_ko": "벼슬이 오를 조짐",
+    "interpretation_en": "a sign of promotion in office",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "登岩抱石官職遷",
+      "translation_ko": "바위에 올라 돌을 안으면 관직이 오른다"
+    }
+  },
+  {
+    "term_ko": "흙",
+    "term_en": "soil",
+    "context": "몸이 흙 속으로 들어감",
+    "interpretation_ko": "온갖 일이 잘 풀릴 조짐",
+    "interpretation_en": "a sign that all matters will go well",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "身入土中百事吉",
+      "translation_ko": "몸이 흙 속에 들어가면 온갖 일이 길하다"
+    }
+  },
+  {
+    "term_ko": "흙",
+    "term_en": "soil",
+    "context": "스스로 흙을 파 가짐",
+    "interpretation_ko": "치욕을 당할 조짐",
+    "interpretation_en": "a sign of suffering disgrace",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "自身取土被恥辱",
+      "translation_ko": "스스로 흙을 파 가지면 치욕을 당한다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산에 올랐다가 땅에 떨어짐",
+    "interpretation_ko": "지위를 잃을 조짐",
+    "interpretation_en": "a sign of losing one's position",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "昇山落地主失位",
+      "translation_ko": "산에 올랐다가 땅에 떨어지면 지위를 잃는다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산에 오르며 두려워함",
+    "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining salary and position",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "上山恐怕祿位至",
+      "translation_ko": "산에 오르며 두려워하면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "오르던 산이 무너져 내림",
+    "interpretation_ko": "흉악한 일이 생길 조짐",
+    "interpretation_en": "a sign of grave misfortune",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "上山毀壞主凶惡",
+      "translation_ko": "산에 올랐는데 산이 무너지면 흉악하다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "높은 산을 유람하며 구경함",
+    "interpretation_ko": "봄과 여름에 길한 조짐",
+    "interpretation_en": "an auspicious sign in spring and summer",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "遊看高山春夏吉",
+      "translation_ko": "높은 산을 유람하며 구경하면 봄과 여름에 길하다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "높은 산에 자리 잡고 삶",
+    "interpretation_ko": "기쁜 일이 생길 조짐",
+    "interpretation_en": "a sign of a joyful event",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "居住高山有喜事",
+      "translation_ko": "높은 산에 살면 기쁜 일이 있다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산길을 가다 재물을 얻음",
+    "interpretation_ko": "복된 인연이 닿을 조짐",
+    "interpretation_en": "a sign of blessed fortune and good ties",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "山行得財有福緣",
+      "translation_ko": "산길을 가다 재물을 얻으면 복된 인연이 있다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "물건을 안고 산에 오름",
+    "interpretation_ko": "귀한 자식을 밸 조짐",
+    "interpretation_en": "a sign of conceiving a noble child",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "抱物上山孕貴子",
+      "translation_ko": "물건을 안고 산에 오르면 귀한 자식을 밴다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산속에서 농사를 지음",
+    "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
+    "interpretation_en": "a sign of abundant food and clothing",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "山中農稼衣食豐",
+      "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "산속에서 농사를 지음",
+    "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
+    "interpretation_en": "a sign of abundant food and clothing",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "山中農稼衣食豐",
+      "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
+    }
+  },
+  {
+    "term_ko": "언덕",
+    "term_en": "slope",
+    "context": "비탈길을 걸어 오름",
+    "interpretation_ko": "병과 근심이 없어질 조짐",
+    "interpretation_en": "a sign that illness and worry will be dispelled",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "行走上坡病思除",
+      "translation_ko": "비탈길을 걸어 오르면 병과 근심이 없어진다"
+    }
+  },
+  {
+    "term_ko": "숲",
+    "term_en": "forest",
+    "context": "동산의 숲이 우거짐",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "園林茂盛大吉利",
+      "translation_ko": "동산의 숲이 우거지면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "숲",
+    "term_en": "forest",
+    "context": "숲속에 앉거나 누움",
+    "interpretation_ko": "병이 나을 조짐",
+    "interpretation_en": "a sign of recovery from illness",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "林中坐臥病欲痊",
+      "translation_ko": "숲속에 앉거나 누우면 병이 나으려 한다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "마른 나무에 다시 싹이 틈",
+    "interpretation_ko": "자손이 번성할 조짐",
+    "interpretation_en": "a sign that descendants will flourish",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "枯木再發子孫興",
+      "translation_ko": "마른 나무에 다시 싹이 트면 자손이 흥한다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "나무가 말라 죽음",
+    "interpretation_ko": "집안이 편치 않을 조짐",
+    "interpretation_en": "a sign of unrest in the household",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "樹木枯死宅不安",
+      "translation_ko": "나무가 말라 죽으면 집안이 편안하지 않다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "나무가 시들어 잎이 짐",
+    "interpretation_ko": "주인에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for the head of the house",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "樹木凋零主人凶",
+      "translation_ko": "나무가 시들어 잎이 지면 주인이 흉하다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "숲속에 나무가 새로 자람",
+    "interpretation_ko": "귀한 자식을 얻을 조짐",
+    "interpretation_en": "a sign of gaining a noble child",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "林中樹生添貴子",
+      "translation_ko": "숲속에 나무가 자라면 귀한 자식이 는다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "나무를 심음",
+    "interpretation_ko": "크게 길하고 번창할 조짐",
+    "interpretation_en": "a very auspicious sign of prosperity",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "種植樹木大吉昌",
+      "translation_ko": "나무를 심으면 크게 길하고 번창한다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "큰 나무에 오름",
+    "interpretation_ko": "명예와 이익이 드러날 조짐",
+    "interpretation_en": "a sign that fame and profit will be made manifest",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "登大樹名利顯揚",
+      "translation_ko": "큰 나무에 오르면 이름과 이익이 드러나 높아진다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "오른 나무가 갑자기 부러짐",
+    "interpretation_ko": "죽거나 다칠 조짐",
+    "interpretation_en": "a sign of death or injury",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "上樹忽折有死傷",
+      "translation_ko": "나무에 올랐는데 갑자기 부러지면 죽거나 다친다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "마른 나무에 꽃이 핌",
+    "interpretation_ko": "자손이 번성할 조짐",
+    "interpretation_en": "a sign that descendants will flourish",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "枯木開花子孫興",
+      "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "큰 나무가 집 위로 넘어짐",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "大樹落人屋上吉",
+      "translation_ko": "큰 나무가 남의 집 위에 떨어지면 길하다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "나무 아래에 서 있음",
+    "interpretation_ko": "귀인의 보살핌을 받을 조짐",
+    "interpretation_en": "a sign of being sheltered by a benefactor",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "立樹下貴人庇蔭",
+      "translation_ko": "나무 아래 서면 귀인이 감싸 보살펴 준다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "집 마루 위에 나무가 자람",
+    "interpretation_ko": "부모에게 근심이 생길 조짐",
+    "interpretation_en": "a sign of worry for one's parents",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "樹生堂上父母憂",
+      "translation_ko": "나무가 마루 위에 자라면 부모에게 근심이 있다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "큰 나무가 갑자기 부러짐",
+    "interpretation_ko": "흉악한 일이 생길 조짐",
+    "interpretation_en": "a sign of grave misfortune",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "大樹忽折主凶惡",
+      "translation_ko": "큰 나무가 갑자기 부러지면 흉악하다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "나무를 메고 집으로 옴",
+    "interpretation_ko": "재물을 얻어 기쁠 조짐",
+    "interpretation_en": "a sign of joy from gaining wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "擔木來家得財喜",
+      "translation_ko": "나무를 메고 집에 오면 재물을 얻어 기쁘다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "큰 나무를 베어 넘김",
+    "interpretation_ko": "재물을 많이 얻을 조짐",
+    "interpretation_en": "a sign of gaining much wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "砍伐大樹多得財",
+      "translation_ko": "큰 나무를 베면 재물을 많이 얻는다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "풀과 나무가 우거짐",
+    "interpretation_ko": "집안이 흥할 조짐",
+    "interpretation_en": "a sign that the household will prosper",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "草木茂盛家道興",
+      "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "풀과 나무가 우거짐",
+    "interpretation_ko": "집안이 흥할 조짐",
+    "interpretation_en": "a sign that the household will prosper",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "草木茂盛家道興",
+      "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
+    }
+  },
+  {
+    "term_ko": "꽃",
+    "term_en": "flower",
+    "context": "남과 꽃을 나누어 가짐",
+    "interpretation_ko": "서로 헤어져 흩어질 조짐",
+    "interpretation_en": "a sign of parting and separation",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "與人分花主分散",
+      "translation_ko": "남과 꽃을 나누면 서로 흩어진다"
+    }
+  },
+  {
+    "term_ko": "꽃",
+    "term_en": "flower",
+    "context": "마른 나무에 꽃이 핌",
+    "interpretation_ko": "자손이 번성할 조짐",
+    "interpretation_en": "a sign that descendants will flourish",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "枯木開花子孫興",
+      "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
+    }
+  },
+  {
+    "term_ko": "과일나무",
+    "term_en": "fruit tree",
+    "context": "문 안에 과일나무가 자람",
+    "interpretation_ko": "자식을 얻을 조짐",
+    "interpretation_en": "a sign of having a child",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "門中生果樹有子",
+      "translation_ko": "문 안에 과일나무가 자라면 자식을 둔다"
+    }
+  },
+  {
+    "term_ko": "과일나무",
+    "term_en": "fruit tree",
+    "context": "과일나무에 열매가 많이 익음",
+    "interpretation_ko": "자손이 편안할 조짐",
+    "interpretation_en": "a sign that descendants will be at peace",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "果樹多熟子孫安",
+      "translation_ko": "과일나무에 열매가 많이 익으면 자손이 편안하다"
+    }
+  },
+  {
+    "term_ko": "소나무",
+    "term_en": "pine tree",
+    "context": "소나무가 배 위에 자람",
+    "interpretation_ko": "높은 벼슬에 오를 조짐",
+    "interpretation_en": "a sign of rising to high office",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "松生腹上位三公",
+      "translation_ko": "소나무가 배 위에 자라면 삼공의 자리에 오른다"
+    }
+  },
+  {
+    "term_ko": "소나무",
+    "term_en": "pine tree",
+    "context": "집 안에 소나무가 자람",
+    "interpretation_ko": "하는 일이 풍성해질 조짐",
+    "interpretation_en": "a sign that one's affairs will turn abundant",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "家中生松事轉豐",
+      "translation_ko": "집 안에 소나무가 자라면 일이 풍성해진다"
+    }
+  },
+  {
+    "term_ko": "측백나무",
+    "term_en": "cypress tree",
+    "context": "집 안에 측백나무가 자람",
+    "interpretation_ko": "길하고 이로움이 많을 조짐",
+    "interpretation_en": "a sign of much good fortune and benefit",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "家中生柏多吉利",
+      "translation_ko": "집 안에 측백나무가 자라면 길하고 이로움이 많다"
+    }
+  },
+  {
+    "term_ko": "대나무",
+    "term_en": "bamboo",
+    "context": "뜰 앞에 대나무가 서 있음",
+    "interpretation_ko": "기쁜 일이 거듭될 조짐",
+    "interpretation_en": "a sign of joy upon joy",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "庭前竹木喜重重",
+      "translation_ko": "뜰 앞에 대나무가 있으면 기쁨이 거듭된다"
+    }
+  },
+  {
+    "term_ko": "단풍나무",
+    "term_en": "maple tree",
+    "context": "단풍나무가 지붕 위에 자람",
+    "interpretation_ko": "온갖 일이 뜻대로 이루어질 조짐",
+    "interpretation_en": "a sign that all matters will be accomplished",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "楓生屋上百事遂",
+      "translation_ko": "단풍나무가 지붕 위에 자라면 온갖 일이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "난초",
+    "term_en": "orchid",
+    "context": "난초가 뜰 앞에 자람",
+    "interpretation_ko": "손자를 볼 조짐",
+    "interpretation_en": "a sign of gaining grandchildren",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "蘭生庭前主添孫",
+      "translation_ko": "난초가 뜰 앞에 자라면 손자가 는다"
+    }
+  },
+  {
+    "term_ko": "뽕나무",
+    "term_en": "mulberry tree",
+    "context": "뽕나무가 우물 위에 자람",
+    "interpretation_ko": "근심이 생길 조짐",
+    "interpretation_en": "a sign of coming worry",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "桑生井上主有憂",
+      "translation_ko": "뽕나무가 우물 위에 자라면 근심이 있다"
+    }
+  },
+  {
+    "term_ko": "과수원",
+    "term_en": "orchard",
+    "context": "과수원 속을 거닒",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "果林中行主得財",
+      "translation_ko": "과수원 속을 거닐면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "채소밭",
+    "term_en": "vegetable garden",
+    "context": "채소밭 안으로 들어감",
+    "interpretation_ko": "큰 재물이 일어날 조짐",
+    "interpretation_en": "a sign of great wealth arising",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "入菜園中大發財",
+      "translation_ko": "채소밭에 들어가면 크게 재물이 인다"
+    }
+  },
+  {
+    "term_ko": "죽순",
+    "term_en": "bamboo shoot",
+    "context": "죽순을 꺾어 집으로 가져옴",
+    "interpretation_ko": "여자가 자식을 가질 조짐",
+    "interpretation_en": "a sign that a woman will conceive",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "折筍到家女有子",
+      "translation_ko": "죽순을 꺾어 집에 오면 여자가 자식을 갖는다"
+    }
+  },
+  {
+    "term_ko": "죽순",
+    "term_en": "bamboo shoot",
+    "context": "죽순을 봄",
+    "interpretation_ko": "자손이 늘어날 조짐",
+    "interpretation_en": "a sign of increasing descendants",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "見筍者主添子孫",
+      "translation_ko": "죽순을 보면 자손이 는다"
+    }
+  },
+  {
+    "term_ko": "거름",
+    "term_en": "manure",
+    "context": "땅을 쓸어 거름을 치움",
+    "interpretation_ko": "집안이 기울 조짐",
+    "interpretation_en": "a sign that the household will decline",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "掃地除糞家欲破",
+      "translation_ko": "땅을 쓸어 거름을 치우면 집이 무너지려 한다"
+    }
+  },
+  {
+    "term_ko": "거름",
+    "term_en": "manure",
+    "context": "거름 흙이 수북이 쌓임",
+    "interpretation_ko": "돈과 재물이 모일 조짐",
+    "interpretation_en": "a sign that money and wealth will gather",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "地理山石樹木",
+      "original": "糞土堆者錢財聚",
+      "translation_ko": "거름 흙이 쌓이면 돈과 재물이 모인다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "밭에 풀이 자람",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "田中生草主得財",
+      "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "밭을 넓게 갈아 씨를 심음",
+    "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining salary and position",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "種田廣大有祿位",
+      "translation_ko": "밭을 넓게 갈아 심으면 녹봉과 지위가 있다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "밭에 씨 뿌리는 사람을 봄",
+    "interpretation_ko": "녹봉과 지위가 이를 조짐",
+    "interpretation_en": "a sign that salary and position will come",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "見種田者祿位至",
+      "translation_ko": "밭에 씨 뿌리는 사람을 보면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "남을 시켜 밭에 씨를 심게 함",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "使人種田地大吉",
+      "translation_ko": "남을 시켜 밭에 심게 하면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "남의 밭을 사들임",
+    "interpretation_ko": "벼슬이 오를 조짐",
+    "interpretation_en": "a sign of advancement in office",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "買人田宅主進職",
+      "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
+    }
+  },
+  {
+    "term_ko": "밭",
+    "term_en": "field",
+    "context": "밭이 무너져 못 쓰게 됨",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "破敗田地主大吉",
+      "translation_ko": "밭이 무너지고 못 쓰게 되면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "남의 집을 사들임",
+    "interpretation_ko": "벼슬이 오를 조짐",
+    "interpretation_en": "a sign of advancement in office",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "買人田宅主進職",
+      "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "밭에 풀이 자람",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "田中生草主得財",
+      "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "남에게 밭 갈고 씨 뿌리는 법을 가르침",
+    "interpretation_ko": "먼 길을 떠나게 될 조짐",
+    "interpretation_en": "a sign of a long journey ahead",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "教人耕種遠行至",
+      "translation_ko": "남에게 밭 갈고 씨 뿌리기를 가르치면 먼 길 갈 일이 온다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "스스로 밭에 벼를 심음",
+    "interpretation_ko": "길을 떠나게 될 조짐",
+    "interpretation_en": "a sign of setting out on a journey",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "自種田禾主出行",
+      "translation_ko": "스스로 밭에 벼를 심으면 길을 떠난다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "몸이 벼 속에 들어가 있음",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "身在禾中大吉利",
+      "translation_ko": "몸이 벼 속에 있으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "밭의 벼를 베어 거둠",
+    "interpretation_ko": "집안이 편안해질 조짐",
+    "interpretation_en": "a sign of peace in the household",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "割收田禾家居安",
+      "translation_ko": "밭의 벼를 베어 거두면 집안이 편안하다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "지붕 위에 벼가 자람",
+    "interpretation_ko": "벼슬자리에 길한 조짐",
+    "interpretation_en": "an auspicious sign for one's official post",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "屋上生禾官位吉",
+      "translation_ko": "지붕 위에 벼가 자라면 관직이 길하다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "볏모가 잘 여묾",
+    "interpretation_ko": "부귀가 오래갈 조짐",
+    "interpretation_en": "a sign of lasting wealth and honor",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "禾苗豊熟富貴長",
+      "translation_ko": "볏모가 잘 여물면 부귀가 오래간다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "벼를 봄",
+    "interpretation_ko": "큰 재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining great wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "見麥稻主得大財",
+      "translation_ko": "보리와 벼를 보면 큰 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "벼와 곡식을 얻음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "得禾榖者主大吉",
+      "translation_ko": "벼와 곡식을 얻으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "벼",
+    "term_en": "rice plant",
+    "context": "벼를 얻었다가 갑자기 잃음",
+    "interpretation_ko": "뜻을 이룰 조짐",
+    "interpretation_en": "a sign of achieving one's ambition",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "得禾忽失主得志",
+      "translation_ko": "벼를 얻었다가 갑자기 잃으면 뜻을 이룬다"
+    }
+  },
+  {
+    "term_ko": "보리",
+    "term_en": "barley",
+    "context": "보리를 봄",
+    "interpretation_ko": "큰 재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining great wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "見麥稻主得大財",
+      "translation_ko": "보리와 벼를 보면 큰 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "보리",
+    "term_en": "barley",
+    "context": "크고 작은 보리를 봄",
+    "interpretation_ko": "아내에게 딴마음이 생길 조짐",
+    "interpretation_en": "a sign that one's wife harbors private intentions",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "大小麥主妻私心",
+      "translation_ko": "크고 작은 보리는 아내에게 사사로운 마음이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "보리",
+    "term_en": "barley",
+    "context": "쌀과 보리가 나란히 놓임",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "米麥相排大吉利",
+      "translation_ko": "쌀과 보리가 나란히 늘어서면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "보리",
+    "term_en": "barley",
+    "context": "쌀과 보리 위에 앉거나 누움",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "坐臥米麥主大吉",
+      "translation_ko": "쌀과 보리 위에 앉거나 누우면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "멥쌀을 찧어 흰쌀로 만듦",
+    "interpretation_ko": "재물이 생길 길한 조짐",
+    "interpretation_en": "an auspicious sign of coming wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "粳精米者有財吉",
+      "translation_ko": "멥쌀을 찧어 흰쌀로 만들면 재물이 있어 길하다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀과 곡식이 수북이 쌓임",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "米谷堆吉散主凶",
+      "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀과 곡식이 흩어짐",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "米谷堆吉散主凶",
+      "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀과 보리가 나란히 놓임",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "米麥相排大吉利",
+      "translation_ko": "쌀과 보리가 나란히 늘어서면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀과 보리 위에 앉거나 누움",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "坐臥米麥主大吉",
+      "translation_ko": "쌀과 보리 위에 앉거나 누우면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "오곡이 무성하게 자람",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "五穀茂盛主得財",
+      "translation_ko": "오곡이 무성하면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "곡식 이삭이 고르게 팸",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "穀穗齊秀大吉利",
+      "translation_ko": "곡식 이삭이 고르게 패면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "손에 곡식을 쥠",
+    "interpretation_ko": "복과 녹을 얻을 조짐",
+    "interpretation_en": "a sign of blessings and emolument",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "手中把榖主福祿",
+      "translation_ko": "손에 곡식을 쥐면 복과 녹이 있다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "벼와 곡식을 얻음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "得禾榖者主大吉",
+      "translation_ko": "벼와 곡식을 얻으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "콩",
+    "term_en": "soybean",
+    "context": "콩의 싹과 잎을 봄",
+    "interpretation_ko": "자손에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for one's descendants",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "大豆苗葉子孫凶",
+      "translation_ko": "콩의 싹과 잎은 자손에게 흉하다"
+    }
+  },
+  {
+    "term_ko": "좁쌀",
+    "term_en": "millet",
+    "context": "좁쌀을 봄",
+    "interpretation_ko": "바치는 물건이 들어올 조짐",
+    "interpretation_en": "a sign that a gift will arrive",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "粟米必有獻物至",
+      "translation_ko": "좁쌀은 반드시 바치는 물건이 이른다"
+    }
+  },
+  {
+    "term_ko": "채소",
+    "term_en": "vegetables",
+    "context": "채소를 심음",
+    "interpretation_ko": "오래 살 크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign of a long life",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "種菜主長命大吉",
+      "translation_ko": "채소를 심으면 오래 살고 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "메밀",
+    "term_en": "buckwheat",
+    "context": "메밀 국수와 떡을 봄",
+    "interpretation_ko": "관청 일이 옮겨질 조짐",
+    "interpretation_en": "a sign that official matters will be moved",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "喬麥麵餅官事遷",
+      "translation_ko": "메밀 국수와 떡은 관청 일이 옮겨진다"
+    }
+  },
+  {
+    "term_ko": "밀가루",
+    "term_en": "wheat flour",
+    "context": "밀가루와 겨가 서로 섞임",
+    "interpretation_ko": "집안이 궁핍해질 조짐",
+    "interpretation_en": "a sign that the household will fall into want",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "麵糠相交家欲儉",
+      "translation_ko": "밀가루와 겨가 서로 섞이면 집안이 궁핍해지려 한다"
+    }
+  },
+  {
+    "term_ko": "누룩",
+    "term_en": "fermentation starter",
+    "context": "누룩을 씻어 고름",
+    "interpretation_ko": "억울한 일을 겪을 조짐",
+    "interpretation_en": "a sign of suffering an injustice",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "涓麴必主枉屈事",
+      "translation_ko": "누룩을 씻어 고르면 반드시 억울한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "싹",
+    "term_en": "sprout",
+    "context": "싹이 돋아남",
+    "interpretation_ko": "나쁜 일이 잇따를 조짐",
+    "interpretation_en": "a sign of misfortunes following one after another",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "萌芽者主惡事連",
+      "translation_ko": "싹이 트면 나쁜 일이 잇따른다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "삼이 몸에 우거짐",
+    "interpretation_ko": "병이 들 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "麻叢身者主疾至",
+      "translation_ko": "삼이 몸에 우거지면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "삼이 숲처럼 우거져 자람",
+    "interpretation_ko": "크게 길하고 이로울 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "田園五榖耕種",
+      "original": "麻生如林大吉利",
+      "translation_ko": "삼이 숲처럼 자라면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 잔치를 벌임",
+    "interpretation_ko": "서로 헤어질 조짐",
+    "interpretation_en": "a sign of parting from each other",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻宴會主相別",
+      "translation_ko": "부부가 잔치를 벌이면 서로 헤어진다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 서로 꾸짖고 다툼",
+    "interpretation_ko": "병이 들 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻相罵主病患",
+      "translation_ko": "부부가 서로 꾸짖으면 병이 든다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 비녀를 나누어 가짐",
+    "interpretation_ko": "이별할 조짐",
+    "interpretation_en": "a sign of separation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻分釵主離別",
+      "translation_ko": "부부가 비녀를 나누면 이별한다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 서로 때리며 싸움",
+    "interpretation_ko": "다시 화합할 조짐",
+    "interpretation_en": "a sign of reconciliation",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻相打欲和會",
+      "translation_ko": "부부가 서로 때리면 화합하려 한다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "아내가 남편과 함께 물에 들어감",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "婦人與夫入水吉",
+      "translation_ko": "여자가 남편과 함께 물에 들어가면 길하다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 서로 머리를 빗어 줌",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻各與梳頭吉",
+      "translation_ko": "부부가 서로 머리를 빗어 주면 길하다"
+    }
+  },
+  {
+    "term_ko": "부부",
+    "term_en": "married couple",
+    "context": "부부가 서로 절을 함",
+    "interpretation_ko": "헤어져 흩어질 조짐",
+    "interpretation_en": "a sign of parting and separation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "夫妻相拜主分散",
+      "translation_ko": "부부가 서로 절하면 헤어져 흩어진다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자와 함께 길을 감",
+    "interpretation_ko": "재물을 잃을 조짐",
+    "interpretation_en": "a sign of losing wealth",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "同婦人行主失財",
+      "translation_ko": "여자와 함께 길을 가면 재물을 잃는다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자를 품에 안음",
+    "interpretation_ko": "기쁜 일이 생길 조짐",
+    "interpretation_en": "a sign of a joyful event",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "抱婦人主有喜事",
+      "translation_ko": "여자를 안으면 기쁜 일이 있다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자와 몸을 섞음",
+    "interpretation_ko": "요사스러운 재앙이 따를 조짐",
+    "interpretation_en": "a sign of an evil affliction",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "與婦人交有邪祟",
+      "translation_ko": "여자와 몸을 섞으면 사악한 빌미가 있다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자와 나란히 앉음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "與婦人共坐大吉",
+      "translation_ko": "여자와 함께 앉으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자의 음부를 봄",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "見婦人陰主口舌",
+      "translation_ko": "여자의 음부를 보면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자가 알몸으로 있음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "婦人赤身主大吉",
+      "translation_ko": "여자가 벌거벗은 몸이면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편을 품에 안음",
+    "interpretation_ko": "큰 재물을 얻어 기쁠 조짐",
+    "interpretation_en": "a sign of joy from gaining great wealth",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "抱夫主大得財喜",
+      "translation_ko": "남편을 안으면 크게 재물을 얻어 기쁘다"
+    }
+  },
+  {
+    "term_ko": "남자",
+    "term_en": "man",
+    "context": "남자와 몸을 섞음",
+    "interpretation_ko": "재물을 잃을 조짐",
+    "interpretation_en": "a sign of losing wealth",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "交接男子主失財",
+      "translation_ko": "남자와 몸을 섞으면 재물을 잃는다"
+    }
+  },
+  {
+    "term_ko": "남자",
+    "term_en": "man",
+    "context": "남자가 알몸으로 있음",
+    "interpretation_ko": "운수가 트일 조짐",
+    "interpretation_en": "a sign that one's fortune will open up",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "男子裸體命通達",
+      "translation_ko": "남자가 알몸이면 운수가 통달한다"
+    }
+  },
+  {
+    "term_ko": "남자",
+    "term_en": "man",
+    "context": "남자가 여승으로 변함",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "男子化為尼姑凶",
+      "translation_ko": "남자가 여승으로 변하면 흉하다"
+    }
+  },
+  {
+    "term_ko": "아내",
+    "term_en": "wife",
+    "context": "아내가 비단옷을 입음",
+    "interpretation_ko": "귀한 자식을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a noble child",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "妻著錦衣生貴子",
+      "translation_ko": "아내가 비단옷을 입으면 귀한 자식을 낳는다"
+    }
+  },
+  {
+    "term_ko": "아내",
+    "term_en": "wife",
+    "context": "아내가 아이를 뱀",
+    "interpretation_ko": "바깥으로 사사로운 정이 생길 조짐",
+    "interpretation_en": "a sign of a secret affair outside the home",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "妻有孕主外私情",
+      "translation_ko": "아내가 아이를 배면 밖에 사사로운 정이 있다"
+    }
+  },
+  {
+    "term_ko": "임신",
+    "term_en": "pregnancy",
+    "context": "아내가 아이를 뱀",
+    "interpretation_ko": "바깥으로 사사로운 정이 생길 조짐",
+    "interpretation_en": "a sign of a secret affair outside the home",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "妻有孕主外私情",
+      "translation_ko": "아내가 아이를 배면 밖에 사사로운 정이 있다"
+    }
+  },
+  {
+    "term_ko": "형제",
+    "term_en": "siblings",
+    "context": "형제가 서로 헤어짐",
+    "interpretation_ko": "구설이 닥칠 조짐",
+    "interpretation_en": "a sign that gossip and disputes will come",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "兄弟分別口舌臨",
+      "translation_ko": "형제가 헤어지면 구설이 닥친다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "어린 아들딸을 품에 안음",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "抱小兒女主口舌",
+      "translation_ko": "어린 아들딸을 안으면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "어린아이가 죽음",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "小兒死者主口舌",
+      "translation_ko": "어린아이가 죽으면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "갓난아이",
+    "term_en": "newborn baby",
+    "context": "갓 태어난 아들딸을 봄",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "新生男女主大吉",
+      "translation_ko": "갓 태어난 아들딸은 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "혼인하는 것을 봄",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "見嫁娶及孝主凶",
+      "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
+    }
+  },
+  {
+    "term_ko": "상",
+    "term_en": "funeral mourning",
+    "context": "상 치르는 것을 봄",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "夫妻產孕交懽",
+      "original": "見嫁娶及孝主凶",
+      "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
+    }
+  }
+]

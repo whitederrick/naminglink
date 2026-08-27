@@ -1,0 +1,501 @@
+[
+ {
+  "id": "horse",
+  "term_ko": "말",
+  "term_en": "horse",
+  "category": "animal",
+  "contexts": [
+   "말이 뜰 앞에서 춤추듯 뛰놂",
+   "말이 천 리 길을 달림",
+   "탄 말이 빠르게 내달림",
+   "탄 말이 굼떠 나아가지 못함",
+   "말이 오가며 내달림",
+   "말이 돈과 물건을 등에 싣고 감",
+   "말이 방 안으로 들어옴",
+   "말을 씻겨 풀어 놓아 줌",
+   "말 떼가 멀리 달려 나감",
+   "죄인이 말을 달려 감",
+   "말에게 물림",
+   "흰 말을 타고 감",
+   "집 안에서 말이 태어남",
+   "말을 잡음",
+   "집 안에서 말이 새끼를 낳음",
+   "흰 말이 수레를 끎",
+   "말 네 마리가 수레를 끎",
+   "말을 갖추어 채비함",
+   "귀인이 탄 말이 달림"
+  ]
+ },
+ {
+  "id": "ox",
+  "term_ko": "소",
+  "term_en": "ox",
+  "category": "animal",
+  "contexts": [
+   "누런 소가 집으로 옴",
+   "물소를 봄",
+   "소가 산비탈을 올라감",
+   "소를 끌고 산에 오름",
+   "소뿔에 피가 묻어 있음",
+   "소가 사람을 뿔로 받음",
+   "소가 문 밖으로 나감",
+   "물소가 집으로 옴",
+   "소가 송아지를 낳음",
+   "소를 타고 성 안으로 들어감",
+   "소를 끌고 집으로 돌아옴",
+   "소를 잡음",
+   "소를 잡아 고기를 먹음"
+  ]
+ },
+ {
+  "id": "banner",
+  "term_ko": "깃발",
+  "term_en": "banner",
+  "category": "object",
+  "contexts": [
+   "깃발에 용이 그려져 있음",
+   "깃발과 부절을 품에 안음",
+   "깃발과 칼이 산속으로 이끌어 들임",
+   "깃발과 일산을 만듦",
+   "깃발을 들고 나가 맞이함",
+   "깃발이 끝내 밖으로 나감",
+   "손에 깃발과 부절을 듦",
+   "새 깃발을 만드는 것을 봄",
+   "번과 일산을 만듦"
+  ]
+ },
+ {
+  "id": "coffin",
+  "term_ko": "관",
+  "term_en": "coffin",
+  "category": "object",
+  "contexts": [
+   "대청 위에 관이 놓여 있음",
+   "새 무덤과 관을 봄",
+   "관이 무덤에서 저절로 나옴",
+   "관을 집으로 들임",
+   "시신이 관 밖으로 나옴",
+   "관을 열고 죽은 사람과 말함",
+   "관에 시신을 넣는 것을 봄",
+   "물 위에 뜬 관을 봄"
+  ]
+ },
+ {
+  "id": "straw-mat",
+  "term_ko": "돗자리",
+  "term_en": "straw mat",
+  "category": "object",
+  "contexts": [
+   "돗자리를 집 안으로 들임",
+   "돗자리를 집 밖으로 내보냄",
+   "돗자리가 해어져 찢어짐",
+   "돗자리를 새것으로 바꿔 들임",
+   "돗자리를 바꾸어 내보냄",
+   "돗자리와 대자리를 봄",
+   "돗자리를 훼손함",
+   "돗자리를 펴고 여럿이 함께 앉음"
+  ]
+ },
+ {
+  "id": "bird",
+  "term_ko": "새",
+  "term_en": "bird",
+  "category": "animal",
+  "contexts": [
+   "공중에서 새가 욺",
+   "나는 새가 품에 들어옴",
+   "나는 새를 붙잡음",
+   "새가 달려오고 뱀이 다가옴",
+   "새를 죽임"
+  ]
+ },
+ {
+  "id": "chicken",
+  "term_ko": "닭",
+  "term_en": "chicken",
+  "category": "animal",
+  "contexts": [
+   "닭을 씻김",
+   "닭이 욺",
+   "닭이 알을 품음",
+   "닭이 나무 위에 있음",
+   "닭을 잡음"
+  ]
+ },
+ {
+  "id": "axe",
+  "term_ko": "도끼",
+  "term_en": "axe",
+  "category": "object",
+  "contexts": [
+   "칼과 도끼에 스스로 다침",
+   "남에게서 칼과 도끼를 얻음",
+   "창과 도끼에 빛이 남",
+   "도끼에 스스로 다침"
+  ]
+ },
+ {
+  "id": "grass",
+  "term_ko": "풀",
+  "term_en": "grass",
+  "category": "nature",
+  "contexts": [
+   "문 앞에 풀이 자람",
+   "풀과 나무가 우거짐",
+   "밭에 풀이 자람",
+   "집 안에 풀이 자람"
+  ]
+ },
+ {
+  "id": "shackles-2",
+  "term_ko": "족쇄",
+  "term_en": "shackles",
+  "category": "object",
+  "contexts": [
+   "칼과 족쇄가 몸에 채워짐",
+   "족쇄가 부러져 망가짐",
+   "족쇄가 집 안으로 들어옴",
+   "족쇄를 두려워함"
+  ]
+ },
+ {
+  "id": "death",
+  "term_ko": "죽음",
+  "term_en": "death",
+  "category": "action",
+  "contexts": [
+   "남이 죽는 것을 봄",
+   "자기가 죽음",
+   "자식이 죽음"
+  ]
+ },
+ {
+  "id": "killing-someone",
+  "term_ko": "살인",
+  "term_en": "killing someone",
+  "category": "action",
+  "contexts": [
+   "남을 죽임",
+   "사람을 죽여 피가 옷을 적심",
+   "사람을 죽이는 것을 봄"
+  ]
+ },
+ {
+  "id": "pine-tree",
+  "term_ko": "소나무",
+  "term_en": "pine tree",
+  "category": "nature",
+  "contexts": [
+   "소나무가 배 위에 자람",
+   "집 안에 소나무가 자람",
+   "지붕 위에 소나무와 잣나무가 자람"
+  ]
+ },
+ {
+  "id": "vessel",
+  "term_ko": "그릇",
+  "term_en": "vessel",
+  "category": "object",
+  "contexts": [
+   "그릇에 보석을 박아 꾸밈",
+   "그릇이 우물에 떨어짐",
+   "부뚜막 아래에서 그릇이 울림"
+  ]
+ },
+ {
+  "id": "candle",
+  "term_ko": "촛불",
+  "term_en": "candle",
+  "category": "object",
+  "contexts": [
+   "촛불을 봄",
+   "등불과 촛불이 밝게 빛남"
+  ]
+ },
+ {
+  "id": "chisel",
+  "term_ko": "끌",
+  "term_en": "chisel",
+  "category": "object",
+  "contexts": [
+   "끌을 봄",
+   "남이 끌을 건네줌"
+  ]
+ },
+ {
+  "id": "goose",
+  "term_ko": "거위",
+  "term_en": "goose",
+  "category": "animal",
+  "contexts": [
+   "거위와 오리가 함께 헤엄침",
+   "거위를 잡음"
+  ]
+ },
+ {
+  "id": "hammer",
+  "term_ko": "망치",
+  "term_en": "hammer",
+  "category": "object",
+  "contexts": [
+   "망치와 송곳을 봄",
+   "망치를 들려 하는데 잡아 주는 사람이 있음"
+  ]
+ },
+ {
+  "id": "peacock",
+  "term_ko": "공작",
+  "term_en": "peacock",
+  "category": "animal",
+  "contexts": [
+   "공작을 봄",
+   "공작이 날며 춤춤"
+  ]
+ },
+ {
+  "id": "phoenix",
+  "term_ko": "봉황",
+  "term_en": "phoenix",
+  "category": "animal",
+  "contexts": [
+   "봉황을 봄",
+   "봉황이 손바닥에 내려앉음"
+  ]
+ },
+ {
+  "id": "spear",
+  "term_ko": "창",
+  "term_en": "spear",
+  "category": "object",
+  "contexts": [
+   "창을 봄",
+   "창과 도끼에 빛이 남"
+  ]
+ },
+ {
+  "id": "teeth",
+  "term_ko": "이",
+  "term_en": "teeth",
+  "category": "body",
+  "contexts": [
+   "이가 저절로 빠짐",
+   "빠진 이가 다시 남"
+  ]
+ },
+ {
+  "id": "being-killed",
+  "term_ko": "죽임을 당함",
+  "term_en": "being killed",
+  "category": "action",
+  "contexts": [
+   "남에게 죽임을 당함"
+  ]
+ },
+ {
+  "id": "being-stabbed",
+  "term_ko": "찔림",
+  "term_en": "being stabbed",
+  "category": "action",
+  "contexts": [
+   "남에게 찔림"
+  ]
+ },
+ {
+  "id": "carp",
+  "term_ko": "잉어",
+  "term_en": "carp",
+  "category": "animal",
+  "contexts": [
+   "잉어를 봄"
+  ]
+ },
+ {
+  "id": "chicken-meat",
+  "term_ko": "닭고기",
+  "term_en": "chicken meat",
+  "category": "object",
+  "contexts": [
+   "닭고기를 먹음"
+  ]
+ },
+ {
+  "id": "cricket",
+  "term_ko": "귀뚜라미",
+  "term_en": "cricket",
+  "category": "animal",
+  "contexts": [
+   "귀뚜라미 소리가 잦음"
+  ]
+ },
+ {
+  "id": "cup",
+  "term_ko": "잔",
+  "term_en": "cup",
+  "category": "object",
+  "contexts": [
+   "잔이 깨짐"
+  ]
+ },
+ {
+  "id": "eggplant",
+  "term_ko": "가지",
+  "term_en": "eggplant",
+  "category": "object",
+  "contexts": [
+   "가지를 먹음"
+  ]
+ },
+ {
+  "id": "envoy",
+  "term_ko": "사신",
+  "term_en": "envoy",
+  "category": "person",
+  "contexts": [
+   "사신이 문으로 들어옴"
+  ]
+ },
+ {
+  "id": "garden",
+  "term_ko": "동산",
+  "term_en": "garden",
+  "category": "place",
+  "contexts": [
+   "동산으로 나감"
+  ]
+ },
+ {
+  "id": "gold-ornament",
+  "term_ko": "금장신구",
+  "term_en": "gold ornament",
+  "category": "object",
+  "contexts": [
+   "금장식이 쌍을 이룸"
+  ]
+ },
+ {
+  "id": "incense",
+  "term_ko": "향",
+  "term_en": "incense",
+  "category": "object",
+  "contexts": [
+   "향을 사르고 절을 함"
+  ]
+ },
+ {
+  "id": "inkstone",
+  "term_ko": "벼루",
+  "term_en": "inkstone",
+  "category": "object",
+  "contexts": [
+   "손으로 붓과 벼루를 만짐"
+  ]
+ },
+ {
+  "id": "mandarin-duck",
+  "term_ko": "원앙",
+  "term_en": "mandarin duck",
+  "category": "animal",
+  "contexts": [
+   "원앙이 흩어져 감"
+  ]
+ },
+ {
+  "id": "milk",
+  "term_ko": "젖",
+  "term_en": "milk",
+  "category": "object",
+  "contexts": [
+   "남과 함께 젖을 먹음"
+  ]
+ },
+ {
+  "id": "official-s-seat",
+  "term_ko": "관청 자리",
+  "term_en": "official's seat",
+  "category": "object",
+  "contexts": [
+   "관청 자리가 옮겨짐"
+  ]
+ },
+ {
+  "id": "orchid",
+  "term_ko": "난초",
+  "term_en": "orchid",
+  "category": "nature",
+  "contexts": [
+   "난초가 뜰 앞에 자람"
+  ]
+ },
+ {
+  "id": "queen",
+  "term_ko": "왕비",
+  "term_en": "queen",
+  "category": "person",
+  "contexts": [
+   "왕비가 불러 마시게 함"
+  ]
+ },
+ {
+  "id": "red-clothing",
+  "term_ko": "붉은 옷",
+  "term_en": "red clothing",
+  "category": "object",
+  "contexts": [
+   "여러 사람이 붉은 옷을 입음"
+  ]
+ },
+ {
+  "id": "sea",
+  "term_ko": "바다",
+  "term_en": "sea",
+  "category": "nature",
+  "contexts": [
+   "강과 바다가 넘쳐 불어남"
+  ]
+ },
+ {
+  "id": "slope",
+  "term_ko": "언덕",
+  "term_en": "slope",
+  "category": "place",
+  "contexts": [
+   "비탈길을 걸어 오름"
+  ]
+ },
+ {
+  "id": "taking-religious-vows",
+  "term_ko": "계를 받음",
+  "term_en": "taking religious vows",
+  "category": "action",
+  "contexts": [
+   "몸소 계행을 받음"
+  ]
+ },
+ {
+  "id": "the-milky-way",
+  "term_ko": "은하수",
+  "term_en": "the Milky Way",
+  "category": "nature",
+  "contexts": [
+   "은하수를 건넘"
+  ]
+ },
+ {
+  "id": "weaving",
+  "term_ko": "베짜기",
+  "term_en": "weaving",
+  "category": "action",
+  "contexts": [
+   "날실을 걸어 베를 짬"
+  ]
+ },
+ {
+  "id": "white-clothes",
+  "term_ko": "흰옷",
+  "term_en": "white clothes",
+  "category": "object",
+  "contexts": [
+   "자기가 흰옷을 입고 있음"
+  ]
+ }
+]

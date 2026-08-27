@@ -1,0 +1,574 @@
+[
+  {
+    "id": "clothing",
+    "aliases": ["의복", "옷가지", "옷차림"],
+    "aliases_en": ["clothes", "garment", "garments", "outfit", "robe"],
+    "contexts": {
+      "옷이 진흙으로 더러워짐": "진흙 흙탕 더러워 더럽혀",
+      "적삼이 진흙으로 더러워짐": "적삼 홑옷 속적삼",
+      "남에게 옷을 줌": "남에게 남한테 남에게줬",
+      "귀인이 옷을 줌": "귀인 어른이 높은분 벼슬아치",
+      "옷을 새것으로 바꿔 입음": "바꿔입 갈아입 새옷으로 바꾸어",
+      "새 도포를 입음": "도포 두루마기",
+      "비단에 수놓은 옷을 입음": "비단 수놓 자수 화려한",
+      "옷을 빨아 물들임": "물들 염색 빨아서",
+      "도롱이를 걸침": "도롱이 우비 비옷",
+      "옷이 기름에 더러워짐": "기름 기름때 얼룩",
+      "옷이 갑자기 해짐": "해어 해졌 낡아 찢어",
+      "새 옷에 쌀을 모아 담음": "쌀을 곡식 담았 모아",
+      "옷감을 마름질해 지어 입음": "마름질 지어입 재단 만들어입",
+      "아내가 남편의 옷을 입음": "아내가 남편의 부인이",
+      "여자가 옷을 차려입음": "차려입 치장 곱게입 꾸며",
+      "남과 옷을 함께 입음": "함께입 같이입 나눠입",
+      "옷을 잃어버림": "잃어 잃었 없어졌 사라졌"
+    },
+    "contexts_en": {
+      "옷이 진흙으로 더러워짐": "mud muddy dirtied soiled",
+      "적삼이 진흙으로 더러워짐": "undershirt thin jacket",
+      "남에게 옷을 줌": "someone another else",
+      "귀인이 옷을 줌": "noble nobleman dignitary official",
+      "옷을 새것으로 바꿔 입음": "changed changing swapped replaced",
+      "새 도포를 입음": "coat overcoat cloak",
+      "비단에 수놓은 옷을 입음": "silk embroidered brocade",
+      "옷을 빨아 물들임": "dyed dyeing dye washed",
+      "도롱이를 걸침": "straw raincoat rain cape",
+      "옷이 기름에 더러워짐": "oil grease greasy stained",
+      "옷이 갑자기 해짐": "torn frayed ragged tattered suddenly",
+      "새 옷에 쌀을 모아 담음": "rice grain gathered",
+      "옷감을 마름질해 지어 입음": "sewed sewing tailored stitched",
+      "아내가 남편의 옷을 입음": "wife husband",
+      "여자가 옷을 차려입음": "woman dressed up adorned",
+      "남과 옷을 함께 입음": "shared together same",
+      "옷을 잃어버림": "lost losing missing"
+    }
+  },
+  {
+    "id": "sky",
+    "aliases": ["창공"],
+    "aliases_en": ["heavens", "firmament", "open sky"],
+    "contexts": {
+      "하늘의 문이 열림": "열리 열려 열린 문이열",
+      "하늘의 빛이 몸을 비춤": "빛이 비춰 비추 광채",
+      "하늘이 맑게 갬": "맑게 개어 개었 화창",
+      "하늘이 환하게 밝음": "환하 밝아 밝은",
+      "하늘의 문이 붉음": "붉은 붉게 붉어",
+      "얼굴을 들어 하늘을 바라봄": "올려다 쳐다보 바라보 우러러",
+      "용을 타고 하늘에 오름": "용을 용에 용타고",
+      "하늘에 올라 아내를 구함": "아내를 배필 짝을",
+      "하늘에서 물건을 가져옴": "물건을 가져와 가지고내려",
+      "날아서 하늘로 오름": "날아서 날개 훨훨 새처럼",
+      "하늘에 올랐다가 지붕 위에 오름": "지붕 기와지붕",
+      "하늘이 갈라짐": "갈라 쪼개 찢어",
+      "하늘이 더욱 넉넉하고 풍성함": "넉넉 풍성 드넓 광활",
+      "하늘을 두루 돌아다님": "돌아다니 떠돌 유람 노닐"
+    },
+    "contexts_en": {
+      "하늘의 문이 열림": "gate door opened opening",
+      "하늘의 빛이 몸을 비춤": "light shone shining ray beam",
+      "하늘이 맑게 갬": "cleared clearing sunny",
+      "하늘이 환하게 밝음": "bright brightly glowing radiant",
+      "얼굴을 들어 하늘을 바라봄": "looked gazing gazed upward",
+      "하늘의 문이 붉음": "red reddish crimson",
+      "용을 타고 하늘에 오름": "dragon rode riding",
+      "하늘에 올라 아내를 구함": "wife bride sought",
+      "하늘에서 물건을 가져옴": "brought took something object",
+      "날아서 하늘로 오름": "flew flying flight wings",
+      "하늘에 올랐다가 지붕 위에 오름": "roof rooftop",
+      "하늘이 갈라짐": "split cracked torn apart",
+      "하늘이 더욱 넉넉하고 풍성함": "vast abundant boundless immense",
+      "하늘을 두루 돌아다님": "wandered roamed traveled around"
+    }
+  },
+  {
+    "id": "blood",
+    "aliases": ["선혈", "핏자국", "출혈"],
+    "aliases_en": ["bleeding", "bled", "bloody", "bloodstain"],
+    "contexts": {
+      "손발에서 고름과 피가 나옴": "고름 손발 손과발",
+      "피가 침상에 묻어 있음": "침상 침대 이불",
+      "소뿔에 피가 묻어 있음": "소뿔 뿔에 쇠뿔",
+      "칼에 다쳐 피가 남": "칼에 칼로 칼날 칼끝",
+      "피가 옷을 적심": "옷을 적셔 옷이 스며",
+      "서로 싸우다 피를 봄": "싸우 다투 격투 드잡이",
+      "상처에서 피가 남": "상처 다친곳 흉터",
+      "베이고 찔려 피를 봄": "베여 베였 베이 찔려 찔리 찔렸",
+      "몸에서 피가 흐르는 것을 봄": "흐르 흘러 몸에서"
+    },
+    "contexts_en": {
+      "손발에서 고름과 피가 나옴": "pus hands feet limbs",
+      "피가 침상에 묻어 있음": "bed bedding sheets mattress",
+      "소뿔에 피가 묻어 있음": "ox horn cow bull",
+      "칼에 다쳐 피가 남": "knife blade sword dagger",
+      "피가 옷을 적심": "clothes soaked drenched shirt",
+      "서로 싸우다 피를 봄": "fight fought fighting quarrel",
+      "상처에서 피가 남": "wound injury scar",
+      "베이고 찔려 피를 봄": "stabbed pierced pricked slashed",
+      "몸에서 피가 흐르는 것을 봄": "flowing streamed pouring body"
+    }
+  },
+  {
+    "id": "buddha",
+    "aliases": ["불상", "석가", "여래", "부처님"],
+    "aliases_en": ["buddha statue", "sakyamuni", "buddhist idol"],
+    "contexts": {
+      "부처께 절하니 부처가 움직이려 함": "절하 절을 움직이 꿈틀",
+      "부처가 성을 냄": "성을내 화를내 노하 진노",
+      "여러 부처와 보살을 봄": "여러 보살 많은 수많은",
+      "신과 부처를 그림": "그림 그리 그려 그렸",
+      "마루 위에 신과 부처가 있음": "마루 대청 마룻바닥",
+      "신과 부처가 형체를 이루지 못함": "형체 흐릿 뭉개 뚜렷하지",
+      "신과 부처를 바라봄": "바라보 쳐다보 우러러",
+      "부처가 사람과 말을 나눔": "말을 이야기 대화 말씀"
+    },
+    "contexts_en": {
+      "부처께 절하니 부처가 움직이려 함": "bowed bowing moved stirred",
+      "부처가 성을 냄": "angry anger wrathful furious",
+      "여러 부처와 보살을 봄": "many several bodhisattvas multiple",
+      "신과 부처를 그림": "painted painting drew drawing",
+      "마루 위에 신과 부처가 있음": "floor hall wooden",
+      "신과 부처가 형체를 이루지 못함": "shapeless formless blurred indistinct",
+      "신과 부처를 바라봄": "gazed staring watching",
+      "부처가 사람과 말을 나눔": "spoke talking conversation words"
+    }
+  },
+  {
+    "id": "bed-curtain",
+    "aliases": ["휘장", "장막", "커튼"],
+    "aliases_en": ["curtain", "canopy", "drapes", "bed canopy"],
+    "contexts": {
+      "침상 휘장을 바꿈": "바꾸 바꿔 교체",
+      "침상 휘장을 활짝 펼침": "펼쳐 펼치 활짝 젖혀",
+      "침상 휘장을 새로 침": "새로 새것 달았 걸었",
+      "침상 휘장이 문 밖으로 나감": "문밖 밖으로 나가",
+      "침상 휘장을 거두어 바꿈": "거두 걷어 걷었",
+      "침상 휘장이 찢어지고 상함": "찢어 찢기 해어 상하",
+      "침상 휘장을 빨아 씻음": "빨아 씻어 세탁"
+    },
+    "contexts_en": {
+      "침상 휘장을 바꿈": "changed replaced",
+      "침상 휘장을 활짝 펼침": "spread wide drawn open",
+      "침상 휘장을 새로 침": "new hung hanging",
+      "침상 휘장이 문 밖으로 나감": "outside door outdoors",
+      "침상 휘장을 거두어 바꿈": "down removed gathered",
+      "침상 휘장이 찢어지고 상함": "torn tattered damaged ripped",
+      "침상 휘장을 빨아 씻음": "washed washing cleaned"
+    }
+  },
+  {
+    "id": "ground",
+    "aliases": ["대지", "지면", "토지"],
+    "aliases_en": ["earth", "soil", "land"],
+    "contexts": {
+      "땅이 흔들려 움직임": "흔들 진동 지진 요동",
+      "땅이 갈라짐": "갈라 쪼개 균열",
+      "밭과 땅을 평평하게 고름": "평평 고르 밭을 다지",
+      "땅이 높고 낮아 고르지 않음": "높고낮 울퉁불퉁 고르지않 기울",
+      "땅속에서 검은 기운이 올라옴": "검은 기운 연기 시커먼",
+      "집 마루 위의 땅이 꺼짐": "꺼져 꺼지 내려앉 마루"
+    },
+    "contexts_en": {
+      "땅이 흔들려 움직임": "shook shaking earthquake trembled",
+      "땅이 갈라짐": "split cracked crack fissure",
+      "밭과 땅을 평평하게 고름": "leveled flattened field smoothed",
+      "땅이 높고 낮아 고르지 않음": "uneven bumpy sloping rough",
+      "땅속에서 검은 기운이 올라옴": "black dark vapor smoke rising",
+      "집 마루 위의 땅이 꺼짐": "sank collapsed caved floor"
+    }
+  },
+  {
+    "id": "drum",
+    "aliases": ["북소리", "큰북"],
+    "aliases_en": ["drums", "drumming", "drumbeat"],
+    "contexts": {
+      "북을 침": "두드리 두들기 치니",
+      "종과 북이 크게 울림": "종과 종소리 크게 우렁차",
+      "북을 쳐 소리가 남": "소리가났 소리가나 울렸",
+      "북의 아름다운 소리를 들음": "아름다운 듣기좋 은은 맑은",
+      "북을 보아도 울리지 않음": "울리지않 소리없 나지않 잠잠"
+    },
+    "contexts_en": {
+      "북을 침": "beat beating struck hitting",
+      "종과 북이 크게 울림": "bell bells loudly resounded",
+      "북을 쳐 소리가 남": "sounded noise",
+      "북의 아름다운 소리를 들음": "beautiful lovely pleasant heard",
+      "북을 보아도 울리지 않음": "silent soundless quiet nothing"
+    }
+  },
+  {
+    "id": "weeping",
+    "aliases": ["통곡", "눈물", "흐느", "오열"],
+    "aliases_en": ["crying", "cried", "wept", "sobbing", "wailing", "tears"],
+    "contexts": {
+      "남과 함께 소리 내어 욺": "함께 같이 둘이서",
+      "소리를 놓아 크게 욺": "크게 대성 목놓아 엉엉",
+      "먼 데서 온 사람이 슬피 욺": "슬피 멀리서 먼데서",
+      "침상 위에서 욺": "침상 침대 잠자리",
+      "이를 드러내고 욺": "이를드러 이빨 드러내"
+    },
+    "contexts_en": {
+      "남과 함께 소리 내어 욺": "together someone both",
+      "소리를 놓아 크게 욺": "loudly aloud wailed bawling",
+      "먼 데서 온 사람이 슬피 욺": "sadly sorrowfully stranger far away",
+      "침상 위에서 욺": "bed bedside lying",
+      "이를 드러내고 욺": "teeth bared showing"
+    }
+  },
+  {
+    "id": "road",
+    "aliases": ["도로", "골목", "큰길"],
+    "aliases_en": ["street", "path", "roads", "highway", "lane"],
+    "contexts": {
+      "사방으로 길이 뚫려 있음": "사방 뚫려 갈래 훤히",
+      "길에서 재물을 주움": "주웠 주우 재물 돈을",
+      "길이 진흙탕이고 가시덤불이 우거짐": "진흙 가시 덤불 질척",
+      "큰길이 무너져 내려앉음": "무너 내려앉 꺼져 갈라져"
+    },
+    "contexts_en": {
+      "사방으로 길이 뚫려 있음": "directions crossroads everywhere",
+      "길에서 재물을 주움": "picked up found money treasure",
+      "길이 진흙탕이고 가시덤불이 우거짐": "muddy thorns brambles overgrown",
+      "큰길이 무너져 내려앉음": "collapsed caved sank crumbled"
+    }
+  },
+  {
+    "id": "silk",
+    "aliases": ["실크", "비단천"],
+    "aliases_en": ["silks", "silk cloth", "brocade", "satin"],
+    "contexts": {
+      "채색 비단을 남에게 줌": "채색 알록 오색 색깔있",
+      "귀인이 비단을 내려 줌": "귀인 어른이 벼슬 높은분",
+      "남이 명주 비단을 줌": "명주 받았 얻었",
+      "남에게 비단을 줌": "남에게 남한테 건네"
+    },
+    "contexts_en": {
+      "채색 비단을 남에게 줌": "colored colorful multicolored",
+      "귀인이 비단을 내려 줌": "noble nobleman dignitary bestowed",
+      "남이 명주 비단을 줌": "received got",
+      "남에게 비단을 줌": "handed gave away"
+    }
+  },
+  {
+    "id": "flower",
+    "aliases": ["꽃송이", "꽃다발", "화초"],
+    "aliases_en": ["flowers", "blossom", "blossoms", "bloom"],
+    "contexts": {
+      "남과 꽃을 나누어 가짐": "나누어 나눠 함께",
+      "마른 나무에 꽃이 핌": "마른 고목 죽은나무 피어",
+      "배 위에서 꽃을 봄": "배위 뱃전 배에서"
+    },
+    "contexts_en": {
+      "남과 꽃을 나누어 가짐": "shared sharing divided together",
+      "마른 나무에 꽃이 핌": "dead tree withered bare branch bloomed",
+      "배 위에서 꽃을 봄": "boat ship deck"
+    }
+  },
+  {
+    "id": "man",
+    "aliases": ["사내", "남성", "사나이"],
+    "aliases_en": ["male", "men", "gentleman", "guy"],
+    "contexts": {
+      "남자와 몸을 섞음": "몸을섞 정을통 관계를 동침",
+      "남자가 알몸으로 있음": "알몸 벌거 나체",
+      "남자가 여승으로 변함": "여승 비구니 변하 바뀌"
+    },
+    "contexts_en": {
+      "남자와 몸을 섞음": "sex intercourse slept lovemaking",
+      "남자가 알몸으로 있음": "naked nude undressed bare",
+      "남자가 여승으로 변함": "nun turned into transformed became"
+    }
+  },
+  {
+    "id": "thunder",
+    "aliases": ["천둥", "우렛소리", "뇌성"],
+    "aliases_en": ["thunderclap", "thundering", "thunderstorm"],
+    "contexts": {
+      "우레가 크게 침": "크게 요란 세차 쾅쾅",
+      "우렛소리가 두렵게 들림": "두렵 무서 겁이",
+      "우레가 땅에서 울림": "땅에서 지축 아래에서"
+    },
+    "contexts_en": {
+      "우레가 크게 침": "loud loudly crashed struck",
+      "우렛소리가 두렵게 들림": "frightening scary afraid terrified",
+      "우레가 땅에서 울림": "ground below beneath"
+    }
+  },
+  {
+    "id": "armor",
+    "aliases": ["갑주", "철갑"],
+    "aliases_en": ["armour", "breastplate", "suit of armor"],
+    "contexts": {
+      "갑옷과 투구가 몸을 감쌈": "투구 감싸 뒤덮 온몸",
+      "갑옷을 입고 칼을 짚음": "칼을 검을 짚고"
+    },
+    "contexts_en": {
+      "갑옷과 투구가 몸을 감쌈": "helmet wrapped covered whole body",
+      "갑옷을 입고 칼을 짚음": "sword blade leaning holding"
+    }
+  },
+  {
+    "id": "book",
+    "aliases": ["서적", "책자", "경서"],
+    "aliases_en": ["books", "scripture", "scriptures", "volume"],
+    "contexts": {
+      "여러 빛깔의 경서를 봄": "빛깔 여러 색깔 알록",
+      "책상 위에 책이 있음": "책상 탁자 위에놓"
+    },
+    "contexts_en": {
+      "여러 빛깔의 경서를 봄": "colored colorful multicolored several",
+      "책상 위에 책이 있음": "desk table"
+    }
+  },
+  {
+    "id": "donkey",
+    "aliases": ["당나귀"],
+    "aliases_en": ["donkeys"],
+    "contexts": {
+      "나귀를 타고 감": "타고 올라타 등에",
+      "나귀를 잡음": "잡았 붙잡 붙들"
+    },
+    "contexts_en": {
+      "나귀를 타고 감": "rode riding mounted",
+      "나귀를 잡음": "caught grabbed seized"
+    }
+  },
+  {
+    "id": "fruit-tree",
+    "aliases": ["과수", "과실나무", "열매나무"],
+    "aliases_en": ["fruit trees", "orchard tree", "fruit-bearing tree"],
+    "contexts": {
+      "문 안에 과일나무가 자람": "문안 대문 자라 마당",
+      "과일나무에 열매가 많이 익음": "열매 익어 주렁 많이달"
+    },
+    "contexts_en": {
+      "문 안에 과일나무가 자람": "gate courtyard growing grew inside",
+      "과일나무에 열매가 많이 익음": "ripe ripened laden abundant"
+    }
+  },
+  {
+    "id": "long-journey",
+    "aliases": ["여행", "원행", "먼길"],
+    "aliases_en": ["travel", "traveling", "voyage", "trip"],
+    "contexts": {
+      "먼 길을 오가며 다님": "오가 다니 왕래 돌아다니",
+      "텅 비고 사람이 없는 먼 곳": "텅빈 아무도없 사람이없 황량"
+    },
+    "contexts_en": {
+      "먼 길을 오가며 다님": "forth coming going wandering",
+      "텅 비고 사람이 없는 먼 곳": "empty deserted nobody desolate"
+    }
+  },
+  {
+    "id": "mule",
+    "aliases": [],
+    "aliases_en": ["mules"],
+    "contexts": {
+      "노새를 타고 감": "타고 올라타 등에",
+      "노새를 잡음": "잡았 붙잡 붙들"
+    },
+    "contexts_en": {
+      "노새를 타고 감": "rode riding mounted",
+      "노새를 잡음": "caught grabbed seized"
+    }
+  },
+  {
+    "id": "rabbit",
+    "aliases": ["산토끼"],
+    "aliases_en": ["bunny", "hare", "rabbits"],
+    "contexts": {
+      "토끼 무리가 하늘로 오름": "하늘 무리 떼지어 날아올",
+      "살아 있는 토끼가 동산에 있음": "동산 언덕 살아있 뛰노"
+    },
+    "contexts_en": {
+      "토끼 무리가 하늘로 오름": "sky rose flew group flock",
+      "살아 있는 토끼가 동산에 있음": "hill garden alive living"
+    }
+  },
+  {
+    "id": "shrine",
+    "aliases": ["신당", "위패"],
+    "aliases_en": ["shrines", "ancestral hall", "temple"],
+    "contexts": {
+      "신을 모신 사당에 들어감": "들어가 안으로 모신",
+      "사당이 넓고 큼": "넓고 크고 웅장"
+    },
+    "contexts_en": {
+      "신을 모신 사당에 들어감": "entered walked inside enshrined",
+      "사당이 넓고 큼": "large spacious wide grand"
+    }
+  },
+  {
+    "id": "altar",
+    "aliases": [],
+    "aliases_en": ["altars", "sacrificial altar"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bamboo",
+    "aliases": ["대숲", "죽림"],
+    "aliases_en": ["bamboo stalk", "bamboo grove", "bamboo tree"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bamboo-blind",
+    "aliases": ["주렴", "대발"],
+    "aliases_en": ["blind", "blinds", "bamboo screen", "reed screen"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bowl",
+    "aliases": ["대접", "밥그릇"],
+    "aliases_en": ["bowls", "porcelain bowl", "dish"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "box",
+    "aliases": ["궤짝"],
+    "aliases_en": ["chest", "boxes", "casket"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cloth",
+    "aliases": ["헝겊", "천조각"],
+    "aliases_en": ["fabric", "textile", "rag"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cloth-2",
+    "aliases": ["삼베", "무명"],
+    "aliases_en": ["hemp cloth", "linen", "hemp"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "divine-woman",
+    "aliases": ["선녀", "무녀"],
+    "aliases_en": ["goddess", "female deity", "celestial woman"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "document",
+    "aliases": ["서류", "증서", "계약서"],
+    "aliases_en": ["papers", "deed", "certificate", "contract"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fleeing",
+    "aliases": ["도망", "도주", "탈출"],
+    "aliases_en": ["ran away", "escaped", "escaping", "fled"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "flower-ornament",
+    "aliases": ["화관"],
+    "aliases_en": ["hair flower", "floral ornament", "garland", "wreath"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hiding",
+    "aliases": ["은신", "숨어", "숨었"],
+    "aliases_en": ["hid", "hidden", "concealed", "hiding place"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "honey",
+    "aliases": ["벌꿀", "꿀물"],
+    "aliases_en": ["honeycomb"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "lamp",
+    "aliases": ["등잔", "촛불", "호롱불"],
+    "aliases_en": ["lantern", "candle", "oil lamp"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "lawsuit",
+    "aliases": ["소송", "재판", "고소"],
+    "aliases_en": ["lawsuits", "trial", "court case", "litigation"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "mouth-organ",
+    "aliases": [],
+    "aliases_en": ["reed pipe", "sheng"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "mulberry",
+    "aliases": ["뽕나무 열매"],
+    "aliases_en": ["mulberries", "mulberry fruit"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "pillow",
+    "aliases": ["목침"],
+    "aliases_en": ["pillows", "cushion", "headrest"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "pit",
+    "aliases": ["웅덩이", "도랑"],
+    "aliases_en": ["hole", "ditch", "hollow", "trench"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "roof-beam",
+    "aliases": ["대들보"],
+    "aliases_en": ["beam", "crossbeam", "main beam"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "roof-tile",
+    "aliases": ["기왓장"],
+    "aliases_en": ["tiles", "roof tiles", "tiled roof"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sparrowhawk",
+    "aliases": ["송골매"],
+    "aliases_en": ["hawk", "falcon"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "spinning-thread",
+    "aliases": ["길쌈", "물레"],
+    "aliases_en": ["spinning", "weaving", "spun thread", "loom"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "vegetables",
+    "aliases": ["나물", "야채", "푸성귀"],
+    "aliases_en": ["vegetable", "greens", "garden greens"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "verbal-abuse",
+    "aliases": ["욕을", "모욕", "험담"],
+    "aliases_en": ["insulted", "cursed at", "swore at", "scolded"],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

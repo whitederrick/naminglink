@@ -1,0 +1,1832 @@
+[
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장을 바꿈",
+    "interpretation_ko": "벼슬자리가 옮겨질 조짐",
+    "interpretation_en": "a sign of a transfer in office",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床帳改主官遷移",
+      "translation_ko": "침상 휘장을 바꾸면 벼슬자리가 옮겨진다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장을 활짝 펼침",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "舒展床帳大富貴",
+      "translation_ko": "침상 휘장을 펼치면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장을 새로 침",
+    "interpretation_ko": "먼 곳 사람이 찾아올 조짐",
+    "interpretation_en": "a sign that someone from afar will visit",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "新安床帳遠人來",
+      "translation_ko": "침상 휘장을 새로 치면 먼 데 사람이 온다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장이 문 밖으로 나감",
+    "interpretation_ko": "아내를 잃을 흉한 조짐",
+    "interpretation_en": "an inauspicious sign of losing one's wife",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床帳出門者妻亡",
+      "translation_ko": "침상 휘장이 문 밖으로 나가면 아내가 죽는다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장을 거두어 바꿈",
+    "interpretation_ko": "이사가 길할 조짐",
+    "interpretation_en": "a sign that moving house will be auspicious",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床帳收換移居吉",
+      "translation_ko": "침상 휘장을 거두어 바꾸면 이사가 길하다"
+    }
+  },
+  {
+    "term_ko": "개미",
+    "term_en": "ant",
+    "context": "개미가 침상 위로 올라옴",
+    "interpretation_ko": "상서롭지 못한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床上有蟻至不祥",
+      "translation_ko": "침상 위에 개미가 오면 상서롭지 못하다"
+    }
+  },
+  {
+    "term_ko": "침상",
+    "term_en": "bed",
+    "context": "침상 위에 개미가 있음",
+    "interpretation_ko": "상서롭지 못한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床上有蟻至不祥",
+      "translation_ko": "침상 위에 개미가 오면 상서롭지 못하다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장이 찢어지고 상함",
+    "interpretation_ko": "아내가 위태로울 흉한 조짐",
+    "interpretation_en": "an inauspicious sign that one's wife is in danger",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床帳破損妻欲亡",
+      "translation_ko": "침상 휘장이 찢어지고 상하면 아내가 죽으려 한다"
+    }
+  },
+  {
+    "term_ko": "장막",
+    "term_en": "curtain",
+    "context": "장막을 열어젖힘",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "開帳幔主有酒食",
+      "translation_ko": "장막을 열면 술과 음식이 있다"
+    }
+  },
+  {
+    "term_ko": "장막",
+    "term_en": "curtain",
+    "context": "장막이 무너지고 헐어짐",
+    "interpretation_ko": "아내와 자식이 병들 조짐",
+    "interpretation_en": "a sign that wife and children will fall ill",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "帳幔壞者妻子病",
+      "translation_ko": "장막이 무너지면 아내와 자식이 병든다"
+    }
+  },
+  {
+    "term_ko": "침상",
+    "term_en": "bed",
+    "context": "침상 다리를 새로 갈아 끼움",
+    "interpretation_ko": "부리는 사람에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for one's servants",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "床腳新換奴僕凶",
+      "translation_ko": "침상 다리를 새로 바꾸면 하인에게 흉하다"
+    }
+  },
+  {
+    "term_ko": "침상",
+    "term_en": "bed",
+    "context": "침상에 올라가 누움",
+    "interpretation_ko": "크게 흉악할 조짐",
+    "interpretation_en": "a sign of great misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "上床臥者大凶惡",
+      "translation_ko": "침상에 올라 누우면 크게 흉악하다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "피가 침상에 묻어 있음",
+    "interpretation_ko": "아내와 첩이 부정을 저지를 조짐",
+    "interpretation_en": "a sign of infidelity in the household",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "血在床妻妾有姦",
+      "translation_ko": "피가 침상에 있으면 처첩이 간통한다"
+    }
+  },
+  {
+    "term_ko": "침상",
+    "term_en": "bed",
+    "context": "침상에 피가 있음",
+    "interpretation_ko": "아내와 첩이 부정을 저지를 조짐",
+    "interpretation_en": "a sign of infidelity in the household",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "血在床妻妾有姦",
+      "translation_ko": "피가 침상에 있으면 처첩이 간통한다"
+    }
+  },
+  {
+    "term_ko": "침상 휘장",
+    "term_en": "bed curtain",
+    "context": "침상 휘장을 빨아 씻음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "洗床帳則主大吉",
+      "translation_ko": "침상 휘장을 씻으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 집 안으로 들임",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "薦蓆入吉出則凶",
+      "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 집 밖으로 내보냄",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "薦蓆入吉出則凶",
+      "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리가 해어져 찢어짐",
+    "interpretation_ko": "자리와 지위를 잃을 조짐",
+    "interpretation_en": "a sign of losing one's post",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "破蓆者主失官位",
+      "translation_ko": "돗자리가 찢어지면 벼슬자리를 잃는다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 새것으로 바꿔 들임",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "換蓆入吉出則凶",
+      "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 바꾸어 내보냄",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "換蓆入吉出則凶",
+      "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리와 대자리를 봄",
+    "interpretation_ko": "힘 있는 도움을 받을 조짐",
+    "interpretation_en": "a sign of receiving powerful help",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "蓆簞者主有力助",
+      "translation_ko": "돗자리와 대자리는 힘 있는 도움이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담요",
+    "term_en": "blanket",
+    "context": "담요와 요를 펴서 깖",
+    "interpretation_ko": "모든 일이 평온할 조짐",
+    "interpretation_en": "a sign that all matters will be settled and calm",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "毯褥舖陳萬事穩",
+      "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
+    }
+  },
+  {
+    "term_ko": "요",
+    "term_en": "mattress",
+    "context": "요를 펴서 깖",
+    "interpretation_ko": "모든 일이 평온할 조짐",
+    "interpretation_en": "a sign that all matters will be settled and calm",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "毯褥舖陳萬事穩",
+      "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 훼손함",
+    "interpretation_ko": "아내가 부정을 저지를 조짐",
+    "interpretation_en": "a sign of a wife's infidelity",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "毀蓆幔者妻有姦",
+      "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
+    }
+  },
+  {
+    "term_ko": "장막",
+    "term_en": "curtain",
+    "context": "장막을 훼손함",
+    "interpretation_ko": "아내가 부정을 저지를 조짐",
+    "interpretation_en": "a sign of a wife's infidelity",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "毀蓆幔者妻有姦",
+      "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
+    }
+  },
+  {
+    "term_ko": "발",
+    "term_en": "bamboo blind",
+    "context": "새 발을 드리움",
+    "interpretation_ko": "좋은 아내를 얻을 조짐",
+    "interpretation_en": "a sign of gaining a good wife",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "新簾者主得好妻",
+      "translation_ko": "새 발은 좋은 아내를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "돗자리를 펴고 여럿이 함께 앉음",
+    "interpretation_ko": "벼슬자리를 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "舖蓆合坐得官位",
+      "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
+    }
+  },
+  {
+    "term_ko": "이불",
+    "term_en": "quilt",
+    "context": "좋은 이불을 스스로 덮음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "好被自蓋主大吉",
+      "translation_ko": "좋은 이불을 스스로 덮으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "베개",
+    "term_en": "pillow",
+    "context": "좋은 베개를 봄",
+    "interpretation_ko": "귀인이 도와줄 조짐",
+    "interpretation_en": "a sign that a benefactor will lend support",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "見好枕有貴人扶",
+      "translation_ko": "좋은 베개를 보면 귀인이 돕는다"
+    }
+  },
+  {
+    "term_ko": "손수건",
+    "term_en": "handkerchief",
+    "context": "손수건을 봄",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "見手帕主有口舌",
+      "translation_ko": "손수건을 보면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "천",
+    "term_en": "cloth",
+    "context": "손에 천을 감아 묶음",
+    "interpretation_ko": "병이 찾아올 조짐",
+    "interpretation_en": "a sign that illness will come",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "手中縛布病患至",
+      "translation_ko": "손에 천을 묶으면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "솥",
+    "term_en": "cauldron",
+    "context": "큰 솥을 봄",
+    "interpretation_ko": "큰 재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining great wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鼎鼐者主得大財",
+      "translation_ko": "큰 솥은 큰 재물을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솥",
+    "term_en": "cauldron",
+    "context": "솥이 넘치도록 가득 참",
+    "interpretation_ko": "큰 재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining great wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "釜溢者主得大財",
+      "translation_ko": "가마솥이 넘치면 큰 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "옥그릇",
+    "term_en": "jade vessel",
+    "context": "옥과 돌로 만든 그릇을 봄",
+    "interpretation_ko": "남의 도움을 받을 조짐",
+    "interpretation_en": "a sign of receiving help from others",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "玉石器主有人助",
+      "translation_ko": "옥과 돌로 만든 그릇은 도와줄 사람이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "냄비",
+    "term_en": "pan",
+    "context": "구리 냄비를 봄",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "銅鐺者主口舌至",
+      "translation_ko": "구리 냄비는 구설이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솥",
+    "term_en": "cauldron",
+    "context": "무쇠솥이 깨짐",
+    "interpretation_ko": "상을 당할 조짐",
+    "interpretation_en": "a sign that a funeral will come",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鍋鐵破主喪事來",
+      "translation_ko": "무쇠솥이 깨지면 상사가 온다"
+    }
+  },
+  {
+    "term_ko": "냄비",
+    "term_en": "pan",
+    "context": "냄비가 깨짐",
+    "interpretation_ko": "궂은일이 생길 조짐",
+    "interpretation_en": "a sign that bad affairs will arise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鐺盞破主有惡事",
+      "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
+    }
+  },
+  {
+    "term_ko": "잔",
+    "term_en": "cup",
+    "context": "잔이 깨짐",
+    "interpretation_ko": "궂은일이 생길 조짐",
+    "interpretation_en": "a sign that bad affairs will arise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鐺盞破主有惡事",
+      "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
+    }
+  },
+  {
+    "term_ko": "사발",
+    "term_en": "bowl",
+    "context": "사기 사발을 봄",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of feasting to come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "磁碗者主酒食至",
+      "translation_ko": "사기 사발은 술과 음식이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "사기 접시를 봄",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "磁碟者主口舌至",
+      "translation_ko": "사기 접시는 구설이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숟가락",
+    "term_en": "spoon",
+    "context": "숟가락을 봄",
+    "interpretation_ko": "아내와 자손에게 이로울 조짐",
+    "interpretation_en": "a sign of benefit to wife and descendants",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "匙主益妻妾子孫",
+      "translation_ko": "숟가락은 처첩과 자손에게 이롭다"
+    }
+  },
+  {
+    "term_ko": "젓가락",
+    "term_en": "chopsticks",
+    "context": "젓가락을 봄",
+    "interpretation_ko": "논밭과 집이 늘어날 조짐",
+    "interpretation_en": "a sign that land and house will increase",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "櫡主益田宅奴僕",
+      "translation_ko": "젓가락은 논밭과 집과 부리는 사람에게 이롭다"
+    }
+  },
+  {
+    "term_ko": "동이",
+    "term_en": "basin",
+    "context": "동이를 봄",
+    "interpretation_ko": "곳간이 넉넉해질 크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign of a fuller storehouse",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "盆主益倉庫大吉",
+      "translation_ko": "동이는 곳간에 이로우니 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "동이",
+    "term_en": "basin",
+    "context": "동이의 밑바닥이 빠짐",
+    "interpretation_ko": "재물이 흩어질 조짐",
+    "interpretation_en": "a sign that wealth will scatter",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "棳盆脫底主財散",
+      "translation_ko": "동이의 밑이 빠지면 재물이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "동이",
+    "term_en": "basin",
+    "context": "동이 안으로 들어감",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "入盆甕器大富貴",
+      "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "항아리",
+    "term_en": "jar",
+    "context": "항아리 안으로 들어감",
+    "interpretation_ko": "크게 부귀할 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "入盆甕器大富貴",
+      "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
+    }
+  },
+  {
+    "term_ko": "세숫대야",
+    "term_en": "washbasin",
+    "context": "세숫대야를 봄",
+    "interpretation_ko": "아름다운 사람이 찾아올 조짐",
+    "interpretation_en": "a sign that a beautiful woman will come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "洗面盆者美妾至",
+      "translation_ko": "세숫대야는 아름다운 첩이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동이",
+    "term_en": "basin",
+    "context": "크고 작은 동이를 함께 봄",
+    "interpretation_ko": "온 가족이 한자리에 모일 조짐",
+    "interpretation_en": "a sign of the family being reunited",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "大小盆者主團圓",
+      "translation_ko": "크고 작은 동이는 단란하게 모일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동이",
+    "term_en": "basin",
+    "context": "동이를 얻음",
+    "interpretation_ko": "구하는 바를 얻을 조짐",
+    "interpretation_en": "a sign of obtaining what one seeks",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "得盆子者所求得",
+      "translation_ko": "동이를 얻으면 구하는 바를 얻는다"
+    }
+  },
+  {
+    "term_ko": "물통",
+    "term_en": "bucket",
+    "context": "물통에 물이 가득 담김",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "桶盛水者主大吉",
+      "translation_ko": "통에 물이 담기면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "물통",
+    "term_en": "bucket",
+    "context": "물통이 비어 물이 없음",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "桶無水者主大凶",
+      "translation_ko": "통에 물이 없으면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "물통",
+    "term_en": "bucket",
+    "context": "남이 큰 물통을 보내옴",
+    "interpretation_ko": "이익을 얻을 조짐",
+    "interpretation_en": "a sign of gaining profit",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "人送大桶主得利",
+      "translation_ko": "남이 큰 통을 보내오면 이익을 얻는다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "탁자를 집 안에 괴어 둠",
+    "interpretation_ko": "일이 이루어지지 않을 조짐",
+    "interpretation_en": "a sign that matters will not come together",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "桌架於宅事不成",
+      "translation_ko": "탁자를 집에 괴어 두면 일이 이루어지지 않는다"
+    }
+  },
+  {
+    "term_ko": "톱",
+    "term_en": "saw",
+    "context": "톱을 봄",
+    "interpretation_ko": "끊고 결단할 일이 생길 조짐",
+    "interpretation_en": "a sign that a matter must be cut off and decided",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鋸主有斷決之事",
+      "translation_ko": "톱은 끊어 결단할 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "맷돌",
+    "term_en": "millstone",
+    "context": "맷돌을 봄",
+    "interpretation_ko": "입고 먹는 일과 이사에 크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign for livelihood and moving house",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "碾衣食移居大吉",
+      "translation_ko": "맷돌은 옷과 음식, 이사에 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "망치",
+    "term_en": "hammer",
+    "context": "망치와 송곳을 봄",
+    "interpretation_ko": "남에게 침해당할 조짐",
+    "interpretation_en": "a sign of being encroached upon",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鎚鑽者主侵害事",
+      "translation_ko": "망치와 송곳은 침해하는 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "송곳",
+    "term_en": "awl",
+    "context": "송곳을 봄",
+    "interpretation_ko": "남에게 침해당할 조짐",
+    "interpretation_en": "a sign of being encroached upon",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鎚鑽者主侵害事",
+      "translation_ko": "망치와 송곳은 침해하는 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "망치",
+    "term_en": "hammer",
+    "context": "망치를 들려 하는데 잡아 주는 사람이 있음",
+    "interpretation_ko": "도와줄 사람이 있을 조짐",
+    "interpretation_en": "a sign that someone will lend a hand",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鎚欲舉動有人持",
+      "translation_ko": "망치를 들려 하면 붙잡아 주는 사람이 있다"
+    }
+  },
+  {
+    "term_ko": "끌",
+    "term_en": "chisel",
+    "context": "끌을 봄",
+    "interpretation_ko": "남에게 부림을 받으나 길한 조짐",
+    "interpretation_en": "an auspicious sign, though one is put to work by others",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "鑿主被人驅使吉",
+      "translation_ko": "끌은 남에게 부림을 받으니 길하다"
+    }
+  },
+  {
+    "term_ko": "다리미",
+    "term_en": "iron",
+    "context": "다리미에 불이 담겨 있음",
+    "interpretation_ko": "좋은 일이 이루어질 조짐",
+    "interpretation_en": "a sign that a good matter will come together",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "熨斗盛火好事成",
+      "translation_ko": "다리미에 불이 담기면 좋은 일이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "화로",
+    "term_en": "brazier",
+    "context": "옷을 말리는 화로 바구니를 봄",
+    "interpretation_ko": "논밭과 재산이 늘어날 조짐",
+    "interpretation_en": "a sign that land and property will increase",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "燻籠者益增田產",
+      "translation_ko": "옷 말리는 화로 바구니는 논밭과 재산을 늘린다"
+    }
+  },
+  {
+    "term_ko": "저울",
+    "term_en": "scales",
+    "context": "남이 저울을 건네줌",
+    "interpretation_ko": "권세와 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining power and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "人與秤者主權位",
+      "translation_ko": "남이 저울을 주면 권세와 지위를 얻는다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄을 봄",
+    "interpretation_ko": "오래 살고 크게 길할 조짐",
+    "interpretation_en": "a very auspicious sign of long life",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "繩索主長命大吉",
+      "translation_ko": "밧줄은 목숨이 길고 크게 길할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄이 끊어짐",
+    "interpretation_ko": "흉악한 일이 생길 조짐",
+    "interpretation_en": "a sign that a grievous matter will arise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "繩索斷者主凶惡",
+      "translation_ko": "밧줄이 끊어지면 흉악하다"
+    }
+  },
+  {
+    "term_ko": "끌",
+    "term_en": "chisel",
+    "context": "남이 끌을 건네줌",
+    "interpretation_ko": "돈을 얻고 잃는 일이 있을 조짐",
+    "interpretation_en": "a sign of money both gained and lost",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "人與鑿者得失金",
+      "translation_ko": "남이 끌을 주면 돈을 얻고 잃는 일이 있다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "남이 허리띠를 보내옴",
+    "interpretation_ko": "자리와 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "人送帶者主得位",
+      "translation_ko": "남이 띠를 보내오면 지위를 얻는다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "누런 소가 집으로 옴",
+    "interpretation_ko": "부귀할 조짐",
+    "interpretation_en": "a sign of wealth and honor",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "黃牛來家主富貴",
+      "translation_ko": "누런 소가 집에 오면 부귀하다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "물소를 봄",
+    "interpretation_ko": "조상이 음식을 찾는 조짐",
+    "interpretation_en": "a sign that ancestors are seeking offerings",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "水牛主先祖索食",
+      "translation_ko": "물소는 조상이 음식을 찾는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소가 산비탈을 올라감",
+    "interpretation_ko": "크게 길하고 번창할 조짐",
+    "interpretation_en": "a sign of great fortune and prosperity",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛上山坡大吉昌",
+      "translation_ko": "소가 산비탈에 오르면 크게 길하고 번창한다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소를 끌고 산에 오름",
+    "interpretation_ko": "부귀할 조짐",
+    "interpretation_en": "a sign of wealth and honor",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牽牛上山主富貴",
+      "translation_ko": "소를 끌고 산에 오르면 부귀하다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소뿔에 피가 묻어 있음",
+    "interpretation_ko": "높은 자리에 오를 조짐",
+    "interpretation_en": "a sign of rising to high office",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛角有血主三公",
+      "translation_ko": "소뿔에 피가 있으면 삼공의 자리에 오른다"
+    }
+  },
+  {
+    "term_ko": "피",
+    "term_en": "blood",
+    "context": "소뿔에 피가 묻어 있음",
+    "interpretation_ko": "높은 자리에 오를 조짐",
+    "interpretation_en": "a sign of rising to high office",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛角有血主三公",
+      "translation_ko": "소뿔에 피가 있으면 삼공의 자리에 오른다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소가 사람을 뿔로 받음",
+    "interpretation_ko": "모든 일이 이루어지지 않을 조짐",
+    "interpretation_en": "a sign that nothing will come together",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛觸人凡事不成",
+      "translation_ko": "소가 사람을 받으면 온갖 일이 이루어지지 않는다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소가 문 밖으로 나감",
+    "interpretation_ko": "좋은 일이 곧 닥칠 조짐",
+    "interpretation_en": "a sign that good fortune arrives at once",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛出門好事立至",
+      "translation_ko": "소가 문을 나가면 좋은 일이 곧 온다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "물소가 집으로 옴",
+    "interpretation_ko": "상을 당할 조짐",
+    "interpretation_en": "a sign that a funeral will come",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "水牛來家主喪事",
+      "translation_ko": "물소가 집에 오면 상사가 있다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소가 송아지를 낳음",
+    "interpretation_ko": "구하는 바를 모두 얻을 조짐",
+    "interpretation_en": "a sign of obtaining all that one seeks",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牛生犢所求皆得",
+      "translation_ko": "소가 송아지를 낳으면 구하는 바를 다 얻는다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소를 타고 성 안으로 들어감",
+    "interpretation_ko": "기쁜 일이 찾아올 조짐",
+    "interpretation_en": "a sign that joy will come",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "騎牛入城有喜臨",
+      "translation_ko": "소를 타고 성에 들어가면 기쁜 일이 온다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 뜰 앞에서 춤추듯 뛰놂",
+    "interpretation_ko": "흉한 일이 흩어져 사라질 조짐",
+    "interpretation_en": "a sign that misfortune will scatter",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "馬舞庭前凶事散",
+      "translation_ko": "말이 뜰 앞에서 춤추면 흉한 일이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "소",
+    "term_en": "ox",
+    "context": "소를 끌고 집으로 돌아옴",
+    "interpretation_ko": "기쁘고 즐거울 조짐",
+    "interpretation_en": "a sign of joy and merriment",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牽牛羊來家歡樂",
+      "translation_ko": "소와 양을 끌고 집에 오면 기쁘고 즐겁다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양을 끌고 집으로 돌아옴",
+    "interpretation_ko": "기쁘고 즐거울 조짐",
+    "interpretation_en": "a sign of joy and merriment",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "牽牛羊來家歡樂",
+      "translation_ko": "소와 양을 끌고 집에 오면 기쁘고 즐겁다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 천 리 길을 달림",
+    "interpretation_ko": "큰 기쁨이 찾아올 조짐",
+    "interpretation_en": "a sign that great joy will arrive",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "馬行千里大喜至",
+      "translation_ko": "말이 천 리를 가면 큰 기쁨이 온다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "탄 말이 빠르게 내달림",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "乘馬快吉鈍主凶",
+      "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "탄 말이 굼떠 나아가지 못함",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "乘馬快吉鈍主凶",
+      "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 오가며 내달림",
+    "interpretation_ko": "문서에 관한 일이 생길 조짐",
+    "interpretation_en": "a sign of matters involving documents",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "走馬來往文書事",
+      "translation_ko": "말이 오가며 달리면 문서에 관한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 돈과 물건을 등에 싣고 감",
+    "interpretation_ko": "자리와 녹을 잃을 조짐",
+    "interpretation_en": "a sign of losing one's post and stipend",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "馬駝錢物失祿位",
+      "translation_ko": "말이 돈과 물건을 실으면 녹과 자리를 잃는다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 방 안으로 들어옴",
+    "interpretation_ko": "남녀 사이의 어지러운 일이 생길 조짐",
+    "interpretation_en": "a sign of an illicit affair",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "馬入室主奸情事",
+      "translation_ko": "말이 방에 들어오면 간통하는 일이 있다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 씻겨 풀어 놓아 줌",
+    "interpretation_ko": "모두 기쁜 일이 될 조짐",
+    "interpretation_en": "a sign that all will be joyful matters",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "披洗放馬皆喜事",
+      "translation_ko": "말을 씻겨 놓아주면 모두 기쁜 일이다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말 떼가 멀리 달려 나감",
+    "interpretation_ko": "온갖 흉한 일이 풀릴 조짐",
+    "interpretation_en": "a sign that all misfortunes will be undone",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "群馬奔遠百凶解",
+      "translation_ko": "말 떼가 멀리 달리면 온갖 흉한 일이 풀린다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "죄인이 말을 달려 감",
+    "interpretation_ko": "액운이 물러갈 조짐",
+    "interpretation_en": "a sign that calamity departs",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "罪人走馬厄事去",
+      "translation_ko": "죄인이 말을 달리면 액운이 물러간다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말에게 물림",
+    "interpretation_ko": "자리와 녹을 얻을 조짐",
+    "interpretation_en": "a sign of gaining post and stipend",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "被馬咬有祿位至",
+      "translation_ko": "말에게 물리면 녹과 자리가 온다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "흰 말을 타고 감",
+    "interpretation_ko": "병을 앓을 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "乘白馬者主疾病",
+      "translation_ko": "흰 말을 타면 병을 앓는다"
+    }
+  },
+  {
+    "term_ko": "나귀",
+    "term_en": "donkey",
+    "context": "나귀를 타고 감",
+    "interpretation_ko": "재물을 얻어 길할 조짐",
+    "interpretation_en": "an auspicious sign of gaining wealth",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "騎驢騾主得財吉",
+      "translation_ko": "나귀나 노새를 타면 재물을 얻어 길하다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "노새를 타고 감",
+    "interpretation_ko": "재물을 얻어 길할 조짐",
+    "interpretation_en": "an auspicious sign of gaining wealth",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "騎驢騾主得財吉",
+      "translation_ko": "나귀나 노새를 타면 재물을 얻어 길하다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "돼지를 잡음",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "殺豬吉豬自死凶",
+      "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "돼지가 저절로 죽음",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "殺豬吉豬自死凶",
+      "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "돼지가 사람으로 변함",
+    "interpretation_ko": "관재와 송사가 닥칠 조짐",
+    "interpretation_en": "a sign that legal trouble will come",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "豬豚變人官事至",
+      "translation_ko": "돼지가 사람으로 변하면 관재가 온다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양이 돼지처럼 걸어감",
+    "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
+    "interpretation_en": "a sign that a traveler will arrive",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "羊作豚行行人至",
+      "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "양이 돼지처럼 걸어감",
+    "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
+    "interpretation_en": "a sign that a traveler will arrive",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "羊作豚行行人至",
+      "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "돼지가 몸을 긁음",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "豬羊搔癢主口舌",
+      "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양이 몸을 긁음",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "豬羊搔癢主口舌",
+      "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양을 타고 거리로 나감",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "騎羊上街主得財",
+      "translation_ko": "양을 타고 거리에 나서면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "어미 양과 새끼 양을 봄",
+    "interpretation_ko": "수명이 늘어나 크게 길할 조짐",
+    "interpretation_en": "a very auspicious sign of a lengthened life",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "子母羊益命大吉",
+      "translation_ko": "어미 양과 새끼 양은 목숨을 더해 주니 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "개가 사람을 보고 짖음",
+    "interpretation_ko": "귀신이 먹을 것을 구하러 온 조짐",
+    "interpretation_en": "a sign that a spirit has come seeking food",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "犬吠人鬼來求食",
+      "translation_ko": "개가 사람을 보고 짖으면 귀신이 먹을 것을 구하러 온 것이다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "개가 주인을 보고 짖음",
+    "interpretation_ko": "재물을 잃을 흉한 조짐",
+    "interpretation_en": "an inauspicious sign of losing wealth",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "犬吠主人失財凶",
+      "translation_ko": "개가 주인을 보고 짖으면 재물을 잃어 흉하다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "집 안에서 말이 태어남",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "牛馬豬羊六畜",
+      "original": "屋中生馬主大吉",
+      "translation_ko": "집 안에서 말이 나면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "사방으로 길이 뚫려 있음",
+    "interpretation_ko": "이름과 이익을 함께 이룰 조짐",
+    "interpretation_en": "a sign of achieving both fame and profit",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "見四路通名利遂",
+      "translation_ko": "사방으로 길이 통한 것을 보면 명예와 이익을 이룬다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "길에서 재물을 주움",
+    "interpretation_ko": "일이 막힘없이 트일 조짐",
+    "interpretation_en": "a sign that affairs will run smoothly",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "道中得財主通達",
+      "translation_ko": "길에서 재물을 얻으면 일이 막힘없이 통한다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "길이 진흙탕이고 가시덤불이 우거짐",
+    "interpretation_ko": "일이 이루어지지 않을 조짐",
+    "interpretation_en": "a sign that matters will not come together",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "道泥荊棘事不成",
+      "translation_ko": "길이 진흙과 가시덤불이면 일이 이루어지지 않는다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "큰길이 무너져 내려앉음",
+    "interpretation_ko": "재물을 잃을 조짐",
+    "interpretation_en": "a sign of losing wealth",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "大道崩陷主失財",
+      "translation_ko": "큰길이 무너져 꺼지면 재물을 잃는다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리를 고쳐 손봄",
+    "interpretation_ko": "모든 일이 화합할 조짐",
+    "interpretation_en": "a sign that all matters will be in harmony",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "修橋樑者萬事和",
+      "translation_ko": "다리를 고치면 온갖 일이 화합한다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리를 건너는 것을 봄",
+    "interpretation_ko": "관재와 송사가 생길 조짐",
+    "interpretation_en": "a sign of legal trouble",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "見渡橋主有官事",
+      "translation_ko": "다리를 건너는 것을 보면 관재가 있다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리 위에 앉아 있음",
+    "interpretation_ko": "자리와 녹을 얻을 조짐",
+    "interpretation_en": "a sign of gaining post and stipend",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋上坐主祿位至",
+      "translation_ko": "다리 위에 앉으면 녹과 자리가 온다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리가 무너진 것을 봄",
+    "interpretation_ko": "관재와 송사가 생길 조짐",
+    "interpretation_en": "a sign of legal trouble",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "見橋壞主有官事",
+      "translation_ko": "다리가 무너진 것을 보면 관재가 있다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "손을 잡고 함께 다리에 오름",
+    "interpretation_ko": "아내가 아이를 밸 조짐",
+    "interpretation_en": "a sign that one's wife will conceive",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "攜手上橋妻有孕",
+      "translation_ko": "손을 잡고 다리에 오르면 아내가 아이를 밴다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리 위에서 소리쳐 부름",
+    "interpretation_ko": "송사에서 이치를 얻을 조짐",
+    "interpretation_en": "a sign of winning one's case",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋上呼喚訟得理",
+      "translation_ko": "다리 위에서 소리쳐 부르면 송사에서 이치를 얻는다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리를 새로 놓음",
+    "interpretation_ko": "크게 화합할 조짐",
+    "interpretation_en": "a sign of great harmony",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "新造橋者大和合",
+      "translation_ko": "다리를 새로 만들면 크게 화합한다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리가 끊어짐",
+    "interpretation_ko": "구설에 오를 조짐",
+    "interpretation_en": "a sign of gossip and disputes",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋斷者主有口舌",
+      "translation_ko": "다리가 끊어지면 구설이 있다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리 기둥이 부러짐",
+    "interpretation_ko": "자손에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for one's descendants",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋柱折者子孫凶",
+      "translation_ko": "다리 기둥이 부러지면 자손에게 흉하다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "다리와 길 위로 수레가 지나감",
+    "interpretation_ko": "모두 흉한 조짐",
+    "interpretation_en": "an inauspicious sign in every respect",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋路上往車皆凶",
+      "translation_ko": "다리와 길 위로 수레가 지나가면 모두 흉하다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레가 다리와 길 위를 지나감",
+    "interpretation_ko": "모두 흉한 조짐",
+    "interpretation_en": "an inauspicious sign in every respect",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "橋路上往車皆凶",
+      "translation_ko": "다리와 길 위로 수레가 지나가면 모두 흉하다"
+    }
+  },
+  {
+    "term_ko": "시장",
+    "term_en": "marketplace",
+    "context": "부부가 함께 시장에 들어감",
+    "interpretation_ko": "재산을 마련할 조짐",
+    "interpretation_en": "a sign of acquiring property",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "夫妻入市主置產",
+      "translation_ko": "부부가 시장에 들어가면 재산을 마련한다"
+    }
+  },
+  {
+    "term_ko": "시장",
+    "term_en": "marketplace",
+    "context": "시장에 사람이 하나도 없음",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "道路橋梁市集",
+      "original": "見市中無人主凶",
+      "translation_ko": "시장에 사람이 없는 것을 보면 흉하다"
+    }
+  }
+]

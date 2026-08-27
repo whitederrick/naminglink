@@ -1,0 +1,257 @@
+[
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤이 높이 솟아 있음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓高者大吉利",
+      "translation_ko": "무덤이 높으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "새 무덤과 관을 봄",
+    "interpretation_ko": "근심이 풀릴 조짐",
+    "interpretation_en": "a sign that worries will be lifted",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "新塚棺槨主憂除",
+      "translation_ko": "새 무덤과 관은 근심이 없어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위에 구름 기운이 서림",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓上有雲氣吉",
+      "translation_ko": "무덤 위에 구름 기운이 있으면 길하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤의 문이 열림",
+    "interpretation_ko": "온갖 일이 잘 풀릴 조짐",
+    "interpretation_en": "a sign that all matters will go well",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓門開百事吉",
+      "translation_ko": "무덤의 문이 열리면 온갖 일이 길하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위가 밝음",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓上明吉暗凶",
+      "translation_ko": "무덤 위가 밝으면 길하고 어두우면 흉하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위가 어두움",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓上明吉暗凶",
+      "translation_ko": "무덤 위가 밝으면 길하고 어두우면 흉하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤에 나무가 자람",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓生樹吉折凶",
+      "translation_ko": "무덤에 나무가 자라면 길하고 꺾이면 흉하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤의 나무가 꺾임",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓生樹吉折凶",
+      "translation_ko": "무덤에 나무가 자라면 길하고 꺾이면 흉하다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위에 꽃이 핌",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "塚墓上開花大吉",
+      "translation_ko": "무덤 위에 꽃이 피면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "새 무덤과 관을 봄",
+    "interpretation_ko": "근심이 풀릴 조짐",
+    "interpretation_en": "a sign that worries will be lifted",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "新塚棺槨主憂除",
+      "translation_ko": "새 무덤과 관은 근심이 없어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "관이 무덤에서 저절로 나옴",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "棺自出墓中大吉",
+      "translation_ko": "관이 무덤에서 저절로 나오면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "관을 집으로 들임",
+    "interpretation_ko": "벼슬과 지위를 얻을 조짐",
+    "interpretation_en": "a sign of gaining rank and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "抬棺入宅祿位至",
+      "translation_ko": "관을 들어 집에 들이면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "시신이 관 밖으로 나옴",
+    "interpretation_ko": "손님이 찾아올 조짐",
+    "interpretation_en": "a sign that a visitor will come",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "死人出棺外客至",
+      "translation_ko": "죽은 사람이 관 밖으로 나오면 손님이 온다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "관을 열고 죽은 사람과 말함",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "開棺與死人言凶",
+      "translation_ko": "관을 열고 죽은 사람과 말하면 흉하다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "관에 시신을 넣는 것을 봄",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "棺殮死人主得財",
+      "translation_ko": "관에 시신을 넣으면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "물 위에 뜬 관을 봄",
+    "interpretation_ko": "큰 재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining great wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "見棺水上大得財",
+      "translation_ko": "물 위에 있는 관을 보면 크게 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "텅 비고 사람이 없는 먼 곳",
+    "interpretation_ko": "먼 길을 떠나게 될 조짐",
+    "interpretation_en": "a sign of a long journey ahead",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "塚墓棺槨迎送",
+      "original": "空遠無人主遠行",
+      "translation_ko": "텅 비고 멀어 사람이 없으면 먼 길을 떠난다"
+    }
+  }
+]

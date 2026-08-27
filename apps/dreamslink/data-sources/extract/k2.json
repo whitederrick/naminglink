@@ -1,0 +1,500 @@
+[
+ {
+  "id": "clothing",
+  "term_ko": "옷",
+  "term_en": "clothing",
+  "category": "object",
+  "contexts": [
+   "옷이 진흙으로 더러워짐",
+   "적삼이 진흙으로 더러워짐",
+   "남에게 옷을 줌",
+   "귀인이 옷을 줌",
+   "옷을 새것으로 바꿔 입음",
+   "새 도포를 입음",
+   "비단에 수놓은 옷을 입음",
+   "옷을 빨아 물들임",
+   "도롱이를 걸침",
+   "옷이 기름에 더러워짐",
+   "옷이 갑자기 해짐",
+   "새 옷에 쌀을 모아 담음",
+   "남에게 옷을 줌",
+   "옷감을 마름질해 지어 입음",
+   "아내가 남편의 옷을 입음",
+   "여자가 옷을 차려입음",
+   "남과 옷을 함께 입음",
+   "옷을 잃어버림"
+  ]
+ },
+ {
+  "id": "sky",
+  "term_ko": "하늘",
+  "term_en": "sky",
+  "category": "nature",
+  "contexts": [
+   "하늘의 문이 열림",
+   "하늘의 빛이 몸을 비춤",
+   "하늘이 맑게 갬",
+   "하늘이 환하게 밝음",
+   "하늘의 문이 붉음",
+   "얼굴을 들어 하늘을 바라봄",
+   "용을 타고 하늘에 오름",
+   "하늘에 올라 아내를 구함",
+   "하늘에서 물건을 가져옴",
+   "날아서 하늘로 오름",
+   "하늘에 올랐다가 지붕 위에 오름",
+   "하늘이 갈라짐",
+   "하늘이 더욱 넉넉하고 풍성함",
+   "하늘을 두루 돌아다님"
+  ]
+ },
+ {
+  "id": "blood",
+  "term_ko": "피",
+  "term_en": "blood",
+  "category": "body",
+  "contexts": [
+   "손발에서 고름과 피가 나옴",
+   "피가 침상에 묻어 있음",
+   "소뿔에 피가 묻어 있음",
+   "칼에 다쳐 피가 남",
+   "피가 옷을 적심",
+   "서로 싸우다 피를 봄",
+   "상처에서 피가 남",
+   "베이고 찔려 피를 봄",
+   "몸에서 피가 흐르는 것을 봄"
+  ]
+ },
+ {
+  "id": "buddha",
+  "term_ko": "부처",
+  "term_en": "Buddha",
+  "category": "person",
+  "contexts": [
+   "부처께 절하니 부처가 움직이려 함",
+   "부처가 성을 냄",
+   "여러 부처와 보살을 봄",
+   "신과 부처를 그림",
+   "마루 위에 신과 부처가 있음",
+   "신과 부처가 형체를 이루지 못함",
+   "신과 부처를 바라봄",
+   "부처가 사람과 말을 나눔"
+  ]
+ },
+ {
+  "id": "bed-curtain",
+  "term_ko": "침상 휘장",
+  "term_en": "bed curtain",
+  "category": "object",
+  "contexts": [
+   "침상 휘장을 바꿈",
+   "침상 휘장을 활짝 펼침",
+   "침상 휘장을 새로 침",
+   "침상 휘장이 문 밖으로 나감",
+   "침상 휘장을 거두어 바꿈",
+   "침상 휘장이 찢어지고 상함",
+   "침상 휘장을 빨아 씻음"
+  ]
+ },
+ {
+  "id": "ground",
+  "term_ko": "땅",
+  "term_en": "ground",
+  "category": "nature",
+  "contexts": [
+   "땅이 흔들려 움직임",
+   "땅이 갈라짐",
+   "밭과 땅을 평평하게 고름",
+   "땅이 높고 낮아 고르지 않음",
+   "땅속에서 검은 기운이 올라옴",
+   "집 마루 위의 땅이 꺼짐"
+  ]
+ },
+ {
+  "id": "drum",
+  "term_ko": "북",
+  "term_en": "drum",
+  "category": "object",
+  "contexts": [
+   "북을 침",
+   "종과 북이 크게 울림",
+   "북을 쳐 소리가 남",
+   "북의 아름다운 소리를 들음",
+   "북을 보아도 울리지 않음"
+  ]
+ },
+ {
+  "id": "weeping",
+  "term_ko": "울음",
+  "term_en": "weeping",
+  "category": "action",
+  "contexts": [
+   "남과 함께 소리 내어 욺",
+   "소리를 놓아 크게 욺",
+   "먼 데서 온 사람이 슬피 욺",
+   "침상 위에서 욺",
+   "이를 드러내고 욺"
+  ]
+ },
+ {
+  "id": "road",
+  "term_ko": "길",
+  "term_en": "road",
+  "category": "place",
+  "contexts": [
+   "사방으로 길이 뚫려 있음",
+   "길에서 재물을 주움",
+   "길이 진흙탕이고 가시덤불이 우거짐",
+   "큰길이 무너져 내려앉음"
+  ]
+ },
+ {
+  "id": "silk",
+  "term_ko": "비단",
+  "term_en": "silk",
+  "category": "object",
+  "contexts": [
+   "채색 비단을 남에게 줌",
+   "귀인이 비단을 내려 줌",
+   "남이 명주 비단을 줌",
+   "남에게 비단을 줌"
+  ]
+ },
+ {
+  "id": "flower",
+  "term_ko": "꽃",
+  "term_en": "flower",
+  "category": "nature",
+  "contexts": [
+   "남과 꽃을 나누어 가짐",
+   "마른 나무에 꽃이 핌",
+   "배 위에서 꽃을 봄"
+  ]
+ },
+ {
+  "id": "man",
+  "term_ko": "남자",
+  "term_en": "man",
+  "category": "person",
+  "contexts": [
+   "남자와 몸을 섞음",
+   "남자가 알몸으로 있음",
+   "남자가 여승으로 변함"
+  ]
+ },
+ {
+  "id": "thunder",
+  "term_ko": "우레",
+  "term_en": "thunder",
+  "category": "nature",
+  "contexts": [
+   "우레가 크게 침",
+   "우렛소리가 두렵게 들림",
+   "우레가 땅에서 울림"
+  ]
+ },
+ {
+  "id": "armor",
+  "term_ko": "갑옷",
+  "term_en": "armor",
+  "category": "object",
+  "contexts": [
+   "갑옷과 투구가 몸을 감쌈",
+   "갑옷을 입고 칼을 짚음"
+  ]
+ },
+ {
+  "id": "book",
+  "term_ko": "책",
+  "term_en": "book",
+  "category": "object",
+  "contexts": [
+   "여러 빛깔의 경서를 봄",
+   "책상 위에 책이 있음"
+  ]
+ },
+ {
+  "id": "donkey",
+  "term_ko": "나귀",
+  "term_en": "donkey",
+  "category": "animal",
+  "contexts": [
+   "나귀를 타고 감",
+   "나귀를 잡음"
+  ]
+ },
+ {
+  "id": "fruit-tree",
+  "term_ko": "과일나무",
+  "term_en": "fruit tree",
+  "category": "nature",
+  "contexts": [
+   "문 안에 과일나무가 자람",
+   "과일나무에 열매가 많이 익음"
+  ]
+ },
+ {
+  "id": "long-journey",
+  "term_ko": "먼 길 떠남",
+  "term_en": "long journey",
+  "category": "action",
+  "contexts": [
+   "먼 길을 오가며 다님",
+   "텅 비고 사람이 없는 먼 곳"
+  ]
+ },
+ {
+  "id": "mule",
+  "term_ko": "노새",
+  "term_en": "mule",
+  "category": "animal",
+  "contexts": [
+   "노새를 타고 감",
+   "노새를 잡음"
+  ]
+ },
+ {
+  "id": "rabbit",
+  "term_ko": "토끼",
+  "term_en": "rabbit",
+  "category": "animal",
+  "contexts": [
+   "토끼 무리가 하늘로 오름",
+   "살아 있는 토끼가 동산에 있음"
+  ]
+ },
+ {
+  "id": "shrine",
+  "term_ko": "사당",
+  "term_en": "shrine",
+  "category": "place",
+  "contexts": [
+   "신을 모신 사당에 들어감",
+   "사당이 넓고 큼"
+  ]
+ },
+ {
+  "id": "altar",
+  "term_ko": "제단",
+  "term_en": "altar",
+  "category": "place",
+  "contexts": [
+   "제단에 오름"
+  ]
+ },
+ {
+  "id": "bamboo",
+  "term_ko": "대나무",
+  "term_en": "bamboo",
+  "category": "nature",
+  "contexts": [
+   "뜰 앞에 대나무가 서 있음"
+  ]
+ },
+ {
+  "id": "bamboo-blind",
+  "term_ko": "발",
+  "term_en": "bamboo blind",
+  "category": "object",
+  "contexts": [
+   "새 발을 드리움"
+  ]
+ },
+ {
+  "id": "bowl",
+  "term_ko": "사발",
+  "term_en": "bowl",
+  "category": "object",
+  "contexts": [
+   "사기 사발을 봄"
+  ]
+ },
+ {
+  "id": "box",
+  "term_ko": "상자",
+  "term_en": "box",
+  "category": "object",
+  "contexts": [
+   "상자와 그릇을 봄"
+  ]
+ },
+ {
+  "id": "cloth",
+  "term_ko": "천",
+  "term_en": "cloth",
+  "category": "object",
+  "contexts": [
+   "손에 천을 감아 묶음"
+  ]
+ },
+ {
+  "id": "cloth-2",
+  "term_ko": "베",
+  "term_en": "cloth",
+  "category": "object",
+  "contexts": [
+   "베와 비단을 얻음"
+  ]
+ },
+ {
+  "id": "divine-woman",
+  "term_ko": "신녀",
+  "term_en": "divine woman",
+  "category": "person",
+  "contexts": [
+   "신녀와 정을 통함"
+  ]
+ },
+ {
+  "id": "document",
+  "term_ko": "문서",
+  "term_en": "document",
+  "category": "object",
+  "contexts": [
+   "문서에 도장을 찍음"
+  ]
+ },
+ {
+  "id": "fleeing",
+  "term_ko": "달아남",
+  "term_en": "fleeing",
+  "category": "action",
+  "contexts": [
+   "몸이 달아나 벗어남"
+  ]
+ },
+ {
+  "id": "flower-ornament",
+  "term_ko": "꽃 장식",
+  "term_en": "flower ornament",
+  "category": "object",
+  "contexts": [
+   "머리에 꽃 장식을 누름"
+  ]
+ },
+ {
+  "id": "hiding",
+  "term_ko": "숨음",
+  "term_en": "hiding",
+  "category": "action",
+  "contexts": [
+   "엎드려 몸을 숨김"
+  ]
+ },
+ {
+  "id": "honey",
+  "term_ko": "꿀",
+  "term_en": "honey",
+  "category": "object",
+  "contexts": [
+   "남과 함께 꿀을 먹음"
+  ]
+ },
+ {
+  "id": "lamp",
+  "term_ko": "등불",
+  "term_en": "lamp",
+  "category": "object",
+  "contexts": [
+   "등불과 촛불이 밝게 빛남"
+  ]
+ },
+ {
+  "id": "lawsuit",
+  "term_ko": "송사",
+  "term_en": "lawsuit",
+  "category": "action",
+  "contexts": [
+   "관가에 들어가 송사함"
+  ]
+ },
+ {
+  "id": "mouth-organ",
+  "term_ko": "생황",
+  "term_en": "mouth organ",
+  "category": "object",
+  "contexts": [
+   "생황을 붊"
+  ]
+ },
+ {
+  "id": "mulberry",
+  "term_ko": "오디",
+  "term_en": "mulberry",
+  "category": "object",
+  "contexts": [
+   "오디를 먹음"
+  ]
+ },
+ {
+  "id": "pillow",
+  "term_ko": "베개",
+  "term_en": "pillow",
+  "category": "object",
+  "contexts": [
+   "좋은 베개를 봄"
+  ]
+ },
+ {
+  "id": "pit",
+  "term_ko": "구덩이",
+  "term_en": "pit",
+  "category": "place",
+  "contexts": [
+   "문 앞에 구덩이와 도랑이 있음"
+  ]
+ },
+ {
+  "id": "roof-beam",
+  "term_ko": "들보",
+  "term_en": "roof beam",
+  "category": "object",
+  "contexts": [
+   "들보가 갑자기 부러짐"
+  ]
+ },
+ {
+  "id": "roof-tile",
+  "term_ko": "기와",
+  "term_en": "roof tile",
+  "category": "object",
+  "contexts": [
+   "지붕 기와가 떨어짐"
+  ]
+ },
+ {
+  "id": "sparrowhawk",
+  "term_ko": "새매",
+  "term_en": "sparrowhawk",
+  "category": "animal",
+  "contexts": [
+   "새매를 부림"
+  ]
+ },
+ {
+  "id": "spinning-thread",
+  "term_ko": "실 잣기",
+  "term_en": "spinning thread",
+  "category": "action",
+  "contexts": [
+   "실을 자아 길쌈함"
+  ]
+ },
+ {
+  "id": "vegetables",
+  "term_ko": "채소",
+  "term_en": "vegetables",
+  "category": "nature",
+  "contexts": [
+   "채소를 심음"
+  ]
+ },
+ {
+  "id": "verbal-abuse",
+  "term_ko": "욕설",
+  "term_en": "verbal abuse",
+  "category": "action",
+  "contexts": [
+   "남에게 욕을 먹고 모욕을 당함"
+  ]
+ }
+]

@@ -1,0 +1,509 @@
+[
+ {
+  "id": "house",
+  "term_ko": "집",
+  "term_en": "house",
+  "category": "place",
+  "contexts": [
+   "불이 제 집을 태움",
+   "집 안에 불빛이 있음",
+   "남의 집을 사들임",
+   "성 위에 집을 지음",
+   "집 지붕 위에 오름",
+   "올라간 지붕이 부서짐",
+   "지붕을 새로 덮음",
+   "집을 새로 고침",
+   "바람에 집이 흔들림",
+   "살던 집에서 나옴",
+   "집을 남에게 저당 잡힘",
+   "집을 팔거나 저당 잡힘",
+   "집에 사람이 하나도 없음",
+   "지붕 위로 배가 지나감",
+   "남과 집을 두고 다툼",
+   "부인과 집을 두고 다툼",
+   "집 마당이 꺼져 내려앉음",
+   "시골집을 손보아 고침"
+  ]
+ },
+ {
+  "id": "dragon",
+  "term_ko": "용",
+  "term_en": "dragon",
+  "category": "animal",
+  "contexts": [
+   "용을 타고 하늘에 오름",
+   "용을 타고 물에 들어감",
+   "용이 물속에서 잠듦",
+   "용이 문 앞을 지키고 있음",
+   "용이 죽음",
+   "용을 타고 산에 오름",
+   "용이 우물 속으로 들어감",
+   "용이 하늘로 날아오름",
+   "용을 타고 저자에 들어감",
+   "용이 문 안으로 들어옴",
+   "용이 부뚜막에 들어옴",
+   "뱀이 용으로 변함",
+   "부인이 용을 봄",
+   "용이 사람을 죽임",
+   "깃발에 용이 있음"
+  ]
+ },
+ {
+  "id": "feces",
+  "term_ko": "똥",
+  "term_en": "feces",
+  "category": "body",
+  "contexts": [
+   "똥이 몸을 더럽힘",
+   "똥이 몸을 더럽힘",
+   "대변이 땅에 가득함",
+   "똥을 지고 집으로 돌아옴",
+   "대변을 잃어버림",
+   "똥오줌 속에 있음",
+   "뒷간에 똥이 넘침",
+   "똥 가운데 앉음",
+   "똥과 흙이 무더기로 쌓임"
+  ]
+ },
+ {
+  "id": "deity",
+  "term_ko": "신",
+  "term_en": "deity",
+  "category": "person",
+  "contexts": [
+   "신이 성을 냄",
+   "신과 부처를 그림",
+   "신을 모신 사당에 들어가니 신이 움직임",
+   "신과 귀신에게 맞음",
+   "마루 위에 신과 부처가 있음",
+   "신과 부처가 형체를 이루지 못함",
+   "신을 맞이하고 마을 제사를 지냄",
+   "신과 부처를 바라봄"
+  ]
+ },
+ {
+  "id": "married-couple",
+  "term_ko": "부부",
+  "term_en": "married couple",
+  "category": "person",
+  "contexts": [
+   "부부가 잔치를 벌임",
+   "부부가 서로 꾸짖고 다툼",
+   "부부가 비녀를 나누어 가짐",
+   "부부가 서로 때리며 싸움",
+   "아내가 남편과 함께 물에 들어감",
+   "부부가 서로 머리를 빗어 줌",
+   "부부가 서로 절을 함"
+  ]
+ },
+ {
+  "id": "rice",
+  "term_ko": "쌀",
+  "term_en": "rice",
+  "category": "object",
+  "contexts": [
+   "새 옷에 쌀을 모아 담음",
+   "멥쌀을 찧어 흰쌀로 만듦",
+   "쌀과 곡식이 수북이 쌓임",
+   "쌀과 곡식이 흩어짐",
+   "쌀과 보리가 나란히 놓임",
+   "쌀과 보리 위에 앉거나 누움"
+  ]
+ },
+ {
+  "id": "tiger",
+  "term_ko": "호랑이",
+  "term_en": "tiger",
+  "category": "animal",
+  "contexts": [
+   "사나운 호랑이가 크게 울부짖음",
+   "호랑이를 타고 감",
+   "호랑이가 집 안으로 들어옴",
+   "호랑이가 움직이지 않고 있음",
+   "호랑이를 잡음"
+  ]
+ },
+ {
+  "id": "bed",
+  "term_ko": "침상",
+  "term_en": "bed",
+  "category": "object",
+  "contexts": [
+   "침상 위에 개미가 있음",
+   "침상 다리를 새로 갈아 끼움",
+   "침상에 올라가 누움",
+   "침상에 피가 있음"
+  ]
+ },
+ {
+  "id": "official-robe",
+  "term_ko": "관복",
+  "term_en": "official robe",
+  "category": "object",
+  "contexts": [
+   "남에게 관복을 줌",
+   "남이 관복을 줌",
+   "여자가 관복을 갖춰 입음",
+   "관복을 새로 물들임"
+  ]
+ },
+ {
+  "id": "words-spoken-by-others",
+  "term_ko": "남의 말",
+  "term_en": "words spoken by others",
+  "category": "action",
+  "contexts": [
+   "남이 아주 좋다고 말함",
+   "남이 나더러 죽었다고 말함",
+   "남이 함께 가자고 말함",
+   "남이 너는 필요 없다고 말함"
+  ]
+ },
+ {
+  "id": "face-powder",
+  "term_ko": "분",
+  "term_en": "face powder",
+  "category": "object",
+  "contexts": [
+   "분을 얻음",
+   "분을 봄",
+   "분을 얻어 아내에게 줌"
+  ]
+ },
+ {
+  "id": "mud",
+  "term_ko": "진흙",
+  "term_en": "mud",
+  "category": "nature",
+  "contexts": [
+   "진흙 속에 빠져 있음",
+   "진흙이 옷을 더럽힘",
+   "진흙이 적삼을 더럽힘"
+  ]
+ },
+ {
+  "id": "song",
+  "term_ko": "노래",
+  "term_en": "song",
+  "category": "action",
+  "contexts": [
+   "노래하는 것을 봄",
+   "마루 위에서 노래하고 풍악을 울림",
+   "병자가 노래함"
+  ]
+ },
+ {
+  "id": "bee",
+  "term_ko": "벌",
+  "term_en": "bee",
+  "category": "animal",
+  "contexts": [
+   "벌과 나비가 어우러져 놂",
+   "벌이 사람의 다리를 쏨"
+  ]
+ },
+ {
+  "id": "being-beaten-2",
+  "term_ko": "매 맞음",
+  "term_en": "being beaten",
+  "category": "action",
+  "contexts": [
+   "관가에서 매를 맞음",
+   "고문과 매질을 당함"
+  ]
+ },
+ {
+  "id": "feast",
+  "term_ko": "잔치",
+  "term_en": "feast",
+  "category": "action",
+  "contexts": [
+   "잔치를 열어 손님을 모음",
+   "귀인이 베푼 잔치를 받음"
+  ]
+ },
+ {
+  "id": "fishing",
+  "term_ko": "낚시",
+  "term_en": "fishing",
+  "category": "action",
+  "contexts": [
+   "물속에서 낚시를 함",
+   "숲속에서 고기잡이를 함"
+  ]
+ },
+ {
+  "id": "melon",
+  "term_ko": "오이",
+  "term_en": "melon",
+  "category": "object",
+  "contexts": [
+   "문드러진 오이를 먹음",
+   "오이씨를 먹음"
+  ]
+ },
+ {
+  "id": "millet",
+  "term_ko": "좁쌀",
+  "term_en": "millet",
+  "category": "object",
+  "contexts": [
+   "좁쌀을 먹음",
+   "좁쌀을 봄"
+  ]
+ },
+ {
+  "id": "rouge",
+  "term_ko": "연지",
+  "term_en": "rouge",
+  "category": "object",
+  "contexts": [
+   "연지를 얻음",
+   "연지를 봄"
+  ]
+ },
+ {
+  "id": "seal",
+  "term_ko": "도장",
+  "term_en": "seal",
+  "category": "object",
+  "contexts": [
+   "문서에 도장을 찍음",
+   "도장을 몸에 지님"
+  ]
+ },
+ {
+  "id": "ant",
+  "term_ko": "개미",
+  "term_en": "ant",
+  "category": "animal",
+  "contexts": [
+   "개미가 침상 위로 올라옴"
+  ]
+ },
+ {
+  "id": "arrow",
+  "term_ko": "화살",
+  "term_en": "arrow",
+  "category": "object",
+  "contexts": [
+   "활과 화살을 지님"
+  ]
+ },
+ {
+  "id": "beating-someone",
+  "term_ko": "때림",
+  "term_en": "beating someone",
+  "category": "action",
+  "contexts": [
+   "아내를 때림"
+  ]
+ },
+ {
+  "id": "blue",
+  "term_ko": "푸른색",
+  "term_en": "blue",
+  "category": "color",
+  "contexts": [
+   "성이 푸른빛을 띰"
+  ]
+ },
+ {
+  "id": "buckwheat",
+  "term_ko": "메밀",
+  "term_en": "buckwheat",
+  "category": "object",
+  "contexts": [
+   "메밀 국수와 떡을 봄"
+  ]
+ },
+ {
+  "id": "city-gate",
+  "term_ko": "성문",
+  "term_en": "city gate",
+  "category": "place",
+  "contexts": [
+   "성문이 활짝 열림"
+  ]
+ },
+ {
+  "id": "condolence-visit",
+  "term_ko": "문상",
+  "term_en": "condolence visit",
+  "category": "action",
+  "contexts": [
+   "남에게 문상을 감"
+  ]
+ },
+ {
+  "id": "daoist-temple",
+  "term_ko": "도교 사원",
+  "term_en": "Daoist temple",
+  "category": "place",
+  "contexts": [
+   "도교 사원에 찾아감"
+  ]
+ },
+ {
+  "id": "dragonfly",
+  "term_ko": "잠자리",
+  "term_en": "dragonfly",
+  "category": "animal",
+  "contexts": [
+   "잠자리가 짝지어 낢"
+  ]
+ },
+ {
+  "id": "fermented-soybean-paste",
+  "term_ko": "장",
+  "term_en": "fermented soybean paste",
+  "category": "object",
+  "contexts": [
+   "장과 메주를 먹음"
+  ]
+ },
+ {
+  "id": "food",
+  "term_ko": "음식",
+  "term_en": "food",
+  "category": "object",
+  "contexts": [
+   "남과 어울려 함께 음식을 먹음"
+  ]
+ },
+ {
+  "id": "heaven-and-earth",
+  "term_ko": "천지",
+  "term_en": "heaven and earth",
+  "category": "nature",
+  "contexts": [
+   "천지가 넉넉하고 풍성함"
+  ]
+ },
+ {
+  "id": "household",
+  "term_ko": "집안",
+  "term_en": "household",
+  "category": "place",
+  "contexts": [
+   "집안이 가난해짐"
+  ]
+ },
+ {
+  "id": "jar",
+  "term_ko": "항아리",
+  "term_en": "jar",
+  "category": "object",
+  "contexts": [
+   "항아리 안으로 들어감"
+  ]
+ },
+ {
+  "id": "letter",
+  "term_ko": "편지",
+  "term_en": "letter",
+  "category": "object",
+  "contexts": [
+   "편지를 봉함"
+  ]
+ },
+ {
+  "id": "mosquito",
+  "term_ko": "모기",
+  "term_en": "mosquito",
+  "category": "animal",
+  "contexts": [
+   "모기가 사람을 묾"
+  ]
+ },
+ {
+  "id": "naked-body",
+  "term_ko": "알몸",
+  "term_en": "naked body",
+  "category": "body",
+  "contexts": [
+   "옷 없이 몸을 드러냄"
+  ]
+ },
+ {
+  "id": "parrot",
+  "term_ko": "앵무새",
+  "term_en": "parrot",
+  "category": "animal",
+  "contexts": [
+   "앵무새를 봄"
+  ]
+ },
+ {
+  "id": "pregnancy",
+  "term_ko": "임신",
+  "term_en": "pregnancy",
+  "category": "action",
+  "contexts": [
+   "아내가 아이를 뱀"
+  ]
+ },
+ {
+  "id": "river-snail",
+  "term_ko": "우렁이",
+  "term_en": "river snail",
+  "category": "animal",
+  "contexts": [
+   "우렁이를 봄"
+  ]
+ },
+ {
+  "id": "salt",
+  "term_ko": "소금",
+  "term_en": "salt",
+  "category": "object",
+  "contexts": [
+   "소금을 먹음"
+  ]
+ },
+ {
+  "id": "soldiers",
+  "term_ko": "군사",
+  "term_en": "soldiers",
+  "category": "person",
+  "contexts": [
+   "군사가 흩어지는 것을 봄"
+  ]
+ },
+ {
+  "id": "sunset-glow",
+  "term_ko": "노을",
+  "term_en": "sunset glow",
+  "category": "nature",
+  "contexts": [
+   "노을이 하늘에 가득함"
+  ]
+ },
+ {
+  "id": "travelling-together",
+  "term_ko": "동행",
+  "term_en": "travelling together",
+  "category": "action",
+  "contexts": [
+   "짝을 지어 함께 길을 감"
+  ]
+ },
+ {
+  "id": "washing-hands-and-feet",
+  "term_ko": "손발 씻기",
+  "term_en": "washing hands and feet",
+  "category": "action",
+  "contexts": [
+   "손을 씻고 발을 씻음"
+  ]
+ },
+ {
+  "id": "wings",
+  "term_ko": "날개",
+  "term_en": "wings",
+  "category": "body",
+  "contexts": [
+   "몸에 날개가 돋아 낢"
+  ]
+ }
+]

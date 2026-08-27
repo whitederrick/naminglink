@@ -1,0 +1,509 @@
+[
+ {
+  "id": "well",
+  "term_ko": "우물",
+  "term_en": "well",
+  "category": "place",
+  "contexts": [
+   "우물을 파서 물을 봄",
+   "우물이 저절로 부서짐",
+   "우물물이 끓어 넘침",
+   "우물이 말라붙음",
+   "우물에 몸을 비춰 봄",
+   "몸이 우물에 빠짐",
+   "방이 우물 속에 있음",
+   "길어 올린 우물물이 맑음",
+   "길어 올린 우물물이 흐림",
+   "우물물에 진흙이 섞여 있음",
+   "우물이 마르려 함",
+   "우물 안에 물고기가 있음",
+   "우물을 들여다보는데 소리가 남",
+   "우물 속에 엎드려 숨음",
+   "취해서 우물에 빠짐",
+   "집이 우물 속에 있음",
+   "사람이 우물에서 나온다고 말함",
+   "우물을 치거나 새로 팜",
+   "그릇이 우물에 떨어짐",
+   "불을 잡고 우물을 태움"
+  ]
+ },
+ {
+  "id": "moon",
+  "term_ko": "달",
+  "term_en": "moon",
+  "category": "nature",
+  "contexts": [
+   "달이 막 떠오름",
+   "달빛이 몸을 비춤",
+   "달이 떨어짐",
+   "달이 어둑하게 흐림",
+   "달이 막 떠오르려 함",
+   "해와 달이 한자리에서 만남",
+   "달이 산에 걸림",
+   "달을 등에 지거나 품에 안음",
+   "달을 삼킴",
+   "달에 절하여 예를 올림",
+   "달이 품 안으로 들어옴",
+   "달에 절하고 향을 사름"
+  ]
+ },
+ {
+  "id": "cart",
+  "term_ko": "수레",
+  "term_en": "cart",
+  "category": "object",
+  "contexts": [
+   "수레가 다리와 길 위를 지나감",
+   "관을 쓰고 수레에 오름",
+   "수레가 부서져 깨짐",
+   "짐을 실은 수레가 일어나지 못함",
+   "수레를 몰고 나다님",
+   "수레가 잘 굴러감",
+   "수레가 나아가지 않음",
+   "수레가 대문 안으로 들어옴",
+   "앓는 사람이 수레에 오름",
+   "흰 말이 끄는 수레를 몰음"
+  ]
+ },
+ {
+  "id": "rice-plant",
+  "term_ko": "벼",
+  "term_en": "rice plant",
+  "category": "nature",
+  "contexts": [
+   "스스로 밭에 벼를 심음",
+   "몸이 벼 속에 들어가 있음",
+   "밭의 벼를 베어 거둠",
+   "지붕 위에 벼가 자람",
+   "볏모가 잘 여묾",
+   "벼를 봄",
+   "벼와 곡식을 얻음",
+   "벼를 얻었다가 갑자기 잃음"
+  ]
+ },
+ {
+  "id": "illness",
+  "term_ko": "병",
+  "term_en": "illness",
+  "category": "body",
+  "contexts": [
+   "병들어 누웠는데 남이 부축해 줌",
+   "병이 위중함",
+   "자기가 병듦",
+   "병자가 노래함",
+   "병자가 울고 웃음",
+   "병자가 자리에서 일어남",
+   "병자가 수레에 실림"
+  ]
+ },
+ {
+  "id": "basin",
+  "term_ko": "동이",
+  "term_en": "basin",
+  "category": "object",
+  "contexts": [
+   "동이를 봄",
+   "동이의 밑바닥이 빠짐",
+   "동이 안으로 들어감",
+   "크고 작은 동이를 함께 봄",
+   "동이를 얻음"
+  ]
+ },
+ {
+  "id": "dead-person",
+  "term_ko": "죽은 사람",
+  "term_en": "dead person",
+  "category": "person",
+  "contexts": [
+   "죽은 사람이 욺",
+   "죽은 사람이 일어서 있음",
+   "죽은 사람이 품에서 욺",
+   "죽은 사람이 되살아남",
+   "죽은 사람이 음식을 먹음"
+  ]
+ },
+ {
+  "id": "wind",
+  "term_ko": "바람",
+  "term_en": "wind",
+  "category": "nature",
+  "contexts": [
+   "사나운 바람이 몰아침",
+   "바람이 사람의 옷자락을 불어 젖힘",
+   "갑자기 큰바람이 붊",
+   "바람이 울부짖듯 소리를 냄",
+   "바람이 불어 집이 흔들림"
+  ]
+ },
+ {
+  "id": "river",
+  "term_ko": "강",
+  "term_en": "river",
+  "category": "nature",
+  "contexts": [
+   "강과 바다가 넘쳐 불어남",
+   "강물에 모래와 돌이 있음",
+   "불이 강물을 태움",
+   "배를 타고 강을 건넘"
+  ]
+ },
+ {
+  "id": "storehouse",
+  "term_ko": "창고",
+  "term_en": "storehouse",
+  "category": "place",
+  "contexts": [
+   "왕과 제후의 곳간에 들어감",
+   "창고를 새로 지어 세움",
+   "창고 안으로 들어감",
+   "창고가 무너짐"
+  ]
+ },
+ {
+  "id": "fine-toothed-comb",
+  "term_ko": "참빗",
+  "term_en": "fine-toothed comb",
+  "category": "object",
+  "contexts": [
+   "남이 참빗을 줌",
+   "참빗을 봄",
+   "참빗을 얻음"
+  ]
+ },
+ {
+  "id": "meat",
+  "term_ko": "고기",
+  "term_en": "meat",
+  "category": "object",
+  "contexts": [
+   "날고기를 먹음",
+   "익힌 고기를 먹음",
+   "저절로 죽은 짐승의 고기를 먹음"
+  ]
+ },
+ {
+  "id": "thief",
+  "term_ko": "도적",
+  "term_en": "thief",
+  "category": "person",
+  "contexts": [
+   "무리를 이끌고 도적을 무찌름",
+   "도적이 스스로 옥에 들어감",
+   "도적을 쫓아가는 것을 봄"
+  ]
+ },
+ {
+  "id": "bamboo-shoot",
+  "term_ko": "죽순",
+  "term_en": "bamboo shoot",
+  "category": "nature",
+  "contexts": [
+   "죽순을 꺾어 집으로 가져옴",
+   "죽순을 봄"
+  ]
+ },
+ {
+  "id": "blue-clothing",
+  "term_ko": "푸른 옷",
+  "term_en": "blue clothing",
+  "category": "object",
+  "contexts": [
+   "푸른 옷을 입음",
+   "남과 함께 푸른 옷을 입음"
+  ]
+ },
+ {
+  "id": "duck",
+  "term_ko": "오리",
+  "term_en": "duck",
+  "category": "animal",
+  "contexts": [
+   "오리가 거위와 함께 헤엄침",
+   "오리를 잡음"
+  ]
+ },
+ {
+  "id": "forest",
+  "term_ko": "숲",
+  "term_en": "forest",
+  "category": "nature",
+  "contexts": [
+   "동산의 숲이 우거짐",
+   "숲속에 앉거나 누움"
+  ]
+ },
+ {
+  "id": "manure",
+  "term_ko": "거름",
+  "term_en": "manure",
+  "category": "object",
+  "contexts": [
+   "땅을 쓸어 거름을 치움",
+   "거름 흙이 수북이 쌓임"
+  ]
+ },
+ {
+  "id": "moving-house",
+  "term_ko": "이사",
+  "term_en": "moving house",
+  "category": "action",
+  "contexts": [
+   "남의 새 집으로 옮겨 듦",
+   "헐고 낡은 집으로 옮겨 감"
+  ]
+ },
+ {
+  "id": "rainbow",
+  "term_ko": "무지개",
+  "term_en": "rainbow",
+  "category": "nature",
+  "contexts": [
+   "붉은 무지개를 봄",
+   "검은 무지개를 봄"
+  ]
+ },
+ {
+  "id": "shrimp",
+  "term_ko": "새우",
+  "term_en": "shrimp",
+  "category": "animal",
+  "contexts": [
+   "새우가 물고기로 변함",
+   "새우와 조개가 울며 달아남"
+  ]
+ },
+ {
+  "id": "ancestor",
+  "term_ko": "조상",
+  "term_en": "ancestor",
+  "category": "person",
+  "contexts": [
+   "조상이 말하며 음식을 구함"
+  ]
+ },
+ {
+  "id": "ball-game",
+  "term_ko": "공놀이",
+  "term_en": "ball game",
+  "category": "action",
+  "contexts": [
+   "공을 침"
+  ]
+ },
+ {
+  "id": "bat",
+  "term_ko": "박쥐",
+  "term_en": "bat",
+  "category": "animal",
+  "contexts": [
+   "박쥐가 떼지어 낢"
+  ]
+ },
+ {
+  "id": "body",
+  "term_ko": "몸",
+  "term_en": "body",
+  "category": "body",
+  "contexts": [
+   "몸이 갑자기 살찌거나 여윔"
+  ]
+ },
+ {
+  "id": "bronze-pot",
+  "term_ko": "구리 솥",
+  "term_en": "bronze pot",
+  "category": "object",
+  "contexts": [
+   "구리 솥을 봄"
+  ]
+ },
+ {
+  "id": "cleaning",
+  "term_ko": "청소",
+  "term_en": "cleaning",
+  "category": "action",
+  "contexts": [
+   "집에 물을 뿌리고 쓺"
+  ]
+ },
+ {
+  "id": "club",
+  "term_ko": "몽둥이",
+  "term_en": "club",
+  "category": "object",
+  "contexts": [
+   "스스로 몽둥이로 매를 침"
+  ]
+ },
+ {
+  "id": "divination",
+  "term_ko": "점치기",
+  "term_en": "divination",
+  "category": "action",
+  "contexts": [
+   "남에게 가서 점을 침"
+  ]
+ },
+ {
+  "id": "dog-meat",
+  "term_ko": "개고기",
+  "term_en": "dog meat",
+  "category": "object",
+  "contexts": [
+   "개고기를 먹음"
+  ]
+ },
+ {
+  "id": "flea",
+  "term_ko": "벼룩",
+  "term_en": "flea",
+  "category": "animal",
+  "contexts": [
+   "벼룩이 날고 고치를 짓지 않음"
+  ]
+ },
+ {
+  "id": "fly",
+  "term_ko": "파리",
+  "term_en": "fly",
+  "category": "animal",
+  "contexts": [
+   "파리가 사람의 옷을 더럽힘"
+  ]
+ },
+ {
+  "id": "hemp-clothes",
+  "term_ko": "삼베옷",
+  "term_en": "hemp clothes",
+  "category": "object",
+  "contexts": [
+   "남의 삼베옷을 얻음"
+  ]
+ },
+ {
+  "id": "horns",
+  "term_ko": "뿔",
+  "term_en": "horns",
+  "category": "body",
+  "contexts": [
+   "머리에 뿔 두 개가 남"
+  ]
+ },
+ {
+  "id": "jujube",
+  "term_ko": "대추",
+  "term_en": "jujube",
+  "category": "object",
+  "contexts": [
+   "대추를 먹음"
+  ]
+ },
+ {
+  "id": "lead",
+  "term_ko": "납",
+  "term_en": "lead",
+  "category": "object",
+  "contexts": [
+   "납과 주석을 봄"
+  ]
+ },
+ {
+  "id": "mourning-clothes",
+  "term_ko": "상복",
+  "term_en": "mourning clothes",
+  "category": "object",
+  "contexts": [
+   "몸에 상복을 입음"
+  ]
+ },
+ {
+  "id": "mulberry-tree",
+  "term_ko": "뽕나무",
+  "term_en": "mulberry tree",
+  "category": "nature",
+  "contexts": [
+   "뽕나무가 우물 위에 자람"
+  ]
+ },
+ {
+  "id": "person-in-white",
+  "term_ko": "흰옷 입은 사람",
+  "term_en": "person in white",
+  "category": "person",
+  "contexts": [
+   "흰옷 입은 사람이 부름"
+  ]
+ },
+ {
+  "id": "plate",
+  "term_ko": "접시",
+  "term_en": "plate",
+  "category": "object",
+  "contexts": [
+   "사기 접시를 봄"
+  ]
+ },
+ {
+  "id": "roof",
+  "term_ko": "지붕",
+  "term_en": "roof",
+  "category": "object",
+  "contexts": [
+   "지붕 위에 올라섬"
+  ]
+ },
+ {
+  "id": "royal-court",
+  "term_ko": "조정",
+  "term_en": "royal court",
+  "category": "place",
+  "contexts": [
+   "조정에 나아가 절함"
+  ]
+ },
+ {
+  "id": "soybean",
+  "term_ko": "콩",
+  "term_en": "soybean",
+  "category": "nature",
+  "contexts": [
+   "콩의 싹과 잎을 봄"
+  ]
+ },
+ {
+  "id": "spoon",
+  "term_ko": "숟가락",
+  "term_en": "spoon",
+  "category": "object",
+  "contexts": [
+   "숟가락을 봄"
+  ]
+ },
+ {
+  "id": "vegetable-garden",
+  "term_ko": "채소밭",
+  "term_en": "vegetable garden",
+  "category": "place",
+  "contexts": [
+   "채소밭 안으로 들어감"
+  ]
+ },
+ {
+  "id": "vomiting",
+  "term_ko": "구토",
+  "term_en": "vomiting",
+  "category": "action",
+  "contexts": [
+   "토함"
+  ]
+ },
+ {
+  "id": "yellow-clothing",
+  "term_ko": "노란 옷",
+  "term_en": "yellow clothing",
+  "category": "object",
+  "contexts": [
+   "누런 옷을 입음"
+  ]
+ }
+]

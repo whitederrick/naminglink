@@ -1,0 +1,501 @@
+[
+ {
+  "id": "sword",
+  "term_ko": "칼",
+  "term_en": "sword",
+  "category": "object",
+  "contexts": [
+   "깃발과 칼이 산속으로 이끌어 들임",
+   "칼을 뽑아 들고 길을 나섬",
+   "남에게서 칼을 얻음",
+   "남이 칼 세 자루를 줌",
+   "남과 더불어 칼로 벰",
+   "칼에 다쳐 피가 남",
+   "부러진 칼로 남을 찌름",
+   "칼과 도끼에 스스로 다침",
+   "남에게서 칼과 도끼를 얻음",
+   "칼이 물속에 빠짐",
+   "칼을 잃어버림",
+   "칼을 차고 길을 감",
+   "칼을 갈아 날이 날카로워짐",
+   "남에게 칼을 줌",
+   "칼이 잠자리 머리맡에 있음",
+   "여자가 칼을 참",
+   "여자가 칼을 뽑음",
+   "갑옷을 입고 칼을 짚음",
+   "칼을 들고 스스로를 찌름",
+   "칼에 찔림",
+   "칼을 들고 서로 싸움",
+   "칼에 다쳐 피가 남",
+   "칼에 스스로 다침",
+   "칼로 남을 벰"
+  ]
+ },
+ {
+  "id": "fish",
+  "term_ko": "물고기",
+  "term_en": "fish",
+  "category": "animal",
+  "contexts": [
+   "물고기가 물 위로 날아오름",
+   "우물 안에 물고기가 있음",
+   "그물을 쳐서 물고기를 잡음",
+   "남이 물고기를 잡아 먹음",
+   "물고기를 빼앗아 먹음",
+   "물고기 떼가 물에서 헤엄침",
+   "큰 물고기가 뛰어오름",
+   "작은 물고기가 새끼를 낳음",
+   "마른 물고기가 물에 들어감",
+   "몸이 물고기 위에 앉음",
+   "우물 안에 물고기가 있음"
+  ]
+ },
+ {
+  "id": "grave",
+  "term_ko": "무덤",
+  "term_en": "grave",
+  "category": "place",
+  "contexts": [
+   "무덤이 높이 솟아 있음",
+   "새 무덤과 관을 봄",
+   "무덤 위에 구름 기운이 서림",
+   "무덤의 문이 열림",
+   "무덤 위가 밝음",
+   "무덤 위가 어두움",
+   "무덤에 나무가 자람",
+   "무덤의 나무가 꺾임",
+   "무덤 위에 꽃이 핌"
+  ]
+ },
+ {
+  "id": "star",
+  "term_ko": "별",
+  "term_en": "star",
+  "category": "nature",
+  "contexts": [
+   "하늘의 별이 밝게 빛남",
+   "별에 절하고 향을 사름",
+   "별이 품 안으로 들어옴",
+   "별이 떨어짐",
+   "별이 줄지어 늘어섬",
+   "별을 손에 쥠",
+   "흐르는 별이 떨어지지 않음",
+   "별을 손으로 어루만짐"
+  ]
+ },
+ {
+  "id": "field",
+  "term_ko": "밭",
+  "term_en": "field",
+  "category": "place",
+  "contexts": [
+   "밭에 풀이 자람",
+   "밭을 넓게 갈아 씨를 심음",
+   "밭에 씨 뿌리는 사람을 봄",
+   "남을 시켜 밭에 씨를 심게 함",
+   "남의 밭을 사들임",
+   "밭이 무너져 못 쓰게 됨"
+  ]
+ },
+ {
+  "id": "buddhist-temple",
+  "term_ko": "절",
+  "term_en": "Buddhist temple",
+  "category": "place",
+  "contexts": [
+   "웃어른께 몸소 절함",
+   "남에게 머리를 조아려 절함",
+   "절 안에 들어감",
+   "절에 경전이 놓여 있음",
+   "비구니 절로 옮겨 감"
+  ]
+ },
+ {
+  "id": "king",
+  "term_ko": "임금",
+  "term_en": "king",
+  "category": "person",
+  "contexts": [
+   "임금을 의장 앞에서 마주함",
+   "임금의 행렬을 봄",
+   "임금이 불러들임",
+   "임금이 자리를 내려 줌",
+   "임금·제후와 나란히 앉음"
+  ]
+ },
+ {
+  "id": "grain",
+  "term_ko": "곡식",
+  "term_en": "grain",
+  "category": "object",
+  "contexts": [
+   "오곡이 무성하게 자람",
+   "곡식 이삭이 고르게 팸",
+   "손에 곡식을 쥠",
+   "벼와 곡식을 얻음"
+  ]
+ },
+ {
+  "id": "immortal",
+  "term_ko": "신선",
+  "term_en": "immortal",
+  "category": "person",
+  "contexts": [
+   "신선을 만나 이야기함",
+   "노군과 진인을 봄",
+   "신선과 성인이 집에 옴",
+   "사원에서 신선을 만남"
+  ]
+ },
+ {
+  "id": "bucket",
+  "term_ko": "물통",
+  "term_en": "bucket",
+  "category": "object",
+  "contexts": [
+   "물통에 물이 가득 담김",
+   "물통이 비어 물이 없음",
+   "남이 큰 물통을 보내옴"
+  ]
+ },
+ {
+  "id": "ceremonial-canopy",
+  "term_ko": "일산",
+  "term_en": "ceremonial canopy",
+  "category": "object",
+  "contexts": [
+   "깃발과 일산을 만듦",
+   "깃털 일산이 몸을 덮음",
+   "흰 일산이 몸을 덮음"
+  ]
+ },
+ {
+  "id": "main-hall",
+  "term_ko": "대청",
+  "term_en": "main hall",
+  "category": "place",
+  "contexts": [
+   "높은 대청에 오름",
+   "대청 위에 관이 놓여 있음",
+   "안채 대청이 무너져 내림"
+  ]
+ },
+ {
+  "id": "noble-person",
+  "term_ko": "귀인",
+  "term_en": "noble person",
+  "category": "person",
+  "contexts": [
+   "귀인을 만나러 갔으나 만나지 못함",
+   "귀인을 봄",
+   "귀인이 말을 달림"
+  ]
+ },
+ {
+  "id": "writing-brush",
+  "term_ko": "붓",
+  "term_en": "writing brush",
+  "category": "object",
+  "contexts": [
+   "손으로 붓과 벼루를 만짐",
+   "남이 내 붓을 가져감",
+   "남이 붓을 보내 줌"
+  ]
+ },
+ {
+  "id": "bracelet",
+  "term_ko": "팔찌",
+  "term_en": "bracelet",
+  "category": "object",
+  "contexts": [
+   "팔찌가 비녀와 서로 부딪힘",
+   "은팔찌를 봄"
+  ]
+ },
+ {
+  "id": "deer",
+  "term_ko": "사슴",
+  "term_en": "deer",
+  "category": "animal",
+  "contexts": [
+   "사슴이 집 안에 있음",
+   "사슴을 잡음"
+  ]
+ },
+ {
+  "id": "ghost",
+  "term_ko": "귀신",
+  "term_en": "ghost",
+  "category": "person",
+  "contexts": [
+   "신과 귀신에게 맞음",
+   "귀신과 싸움"
+  ]
+ },
+ {
+  "id": "hemp",
+  "term_ko": "삼",
+  "term_en": "hemp",
+  "category": "nature",
+  "contexts": [
+   "삼이 몸에 우거짐",
+   "삼이 숲처럼 우거져 자람"
+  ]
+ },
+ {
+  "id": "net",
+  "term_ko": "그물",
+  "term_en": "net",
+  "category": "object",
+  "contexts": [
+   "몸이 그물에 걸림",
+   "그물이 몸을 덮어씌움"
+  ]
+ },
+ {
+  "id": "quilt",
+  "term_ko": "이불",
+  "term_en": "quilt",
+  "category": "object",
+  "contexts": [
+   "좋은 이불을 스스로 덮음",
+   "좋은 이불을 스스로 덮음"
+  ]
+ },
+ {
+  "id": "soil",
+  "term_ko": "흙",
+  "term_en": "soil",
+  "category": "nature",
+  "contexts": [
+   "몸이 흙 속으로 들어감",
+   "스스로 흙을 파 가짐"
+  ]
+ },
+ {
+  "id": "wife",
+  "term_ko": "아내",
+  "term_en": "wife",
+  "category": "person",
+  "contexts": [
+   "아내가 비단옷을 입음",
+   "아내가 아이를 뱀"
+  ]
+ },
+ {
+  "id": "beef",
+  "term_ko": "쇠고기",
+  "term_en": "beef",
+  "category": "object",
+  "contexts": [
+   "마루 위에서 쇠고기를 먹음"
+  ]
+ },
+ {
+  "id": "blanket",
+  "term_ko": "담요",
+  "term_en": "blanket",
+  "category": "object",
+  "contexts": [
+   "담요와 요를 펴서 깖"
+  ]
+ },
+ {
+  "id": "butterfly",
+  "term_ko": "나비",
+  "term_en": "butterfly",
+  "category": "animal",
+  "contexts": [
+   "벌과 나비가 어우러져 놂"
+  ]
+ },
+ {
+  "id": "chopsticks",
+  "term_ko": "젓가락",
+  "term_en": "chopsticks",
+  "category": "object",
+  "contexts": [
+   "젓가락을 봄"
+  ]
+ },
+ {
+  "id": "cooked-rice",
+  "term_ko": "밥",
+  "term_en": "cooked rice",
+  "category": "object",
+  "contexts": [
+   "밥을 먹음"
+  ]
+ },
+ {
+  "id": "dance",
+  "term_ko": "춤",
+  "term_en": "dance",
+  "category": "action",
+  "contexts": [
+   "춤추는 것을 봄"
+  ]
+ },
+ {
+  "id": "duck-meat",
+  "term_ko": "오리고기",
+  "term_en": "duck meat",
+  "category": "object",
+  "contexts": [
+   "오리고기를 먹음"
+  ]
+ },
+ {
+  "id": "fermentation-starter",
+  "term_ko": "누룩",
+  "term_en": "fermentation starter",
+  "category": "object",
+  "contexts": [
+   "누룩을 씻어 고름"
+  ]
+ },
+ {
+  "id": "frost",
+  "term_ko": "서리",
+  "term_en": "frost",
+  "category": "nature",
+  "contexts": [
+   "서리가 내림"
+  ]
+ },
+ {
+  "id": "hand",
+  "term_ko": "손",
+  "term_en": "hand",
+  "category": "body",
+  "contexts": [
+   "손이 부러짐"
+  ]
+ },
+ {
+  "id": "humiliation",
+  "term_ko": "모욕",
+  "term_en": "humiliation",
+  "category": "action",
+  "contexts": [
+   "남에게 모욕을 당함"
+  ]
+ },
+ {
+  "id": "jade-vessel",
+  "term_ko": "옥그릇",
+  "term_en": "jade vessel",
+  "category": "object",
+  "contexts": [
+   "옥과 돌로 만든 그릇을 봄"
+  ]
+ },
+ {
+  "id": "lightning",
+  "term_ko": "번개",
+  "term_en": "lightning",
+  "category": "nature",
+  "contexts": [
+   "번갯빛이 몸을 비춤"
+  ]
+ },
+ {
+  "id": "mortar",
+  "term_ko": "절구",
+  "term_en": "mortar",
+  "category": "object",
+  "contexts": [
+   "절구 안에 입김을 불어 넣음"
+  ]
+ },
+ {
+  "id": "needle",
+  "term_ko": "바늘",
+  "term_en": "needle",
+  "category": "object",
+  "contexts": [
+   "바늘을 얻음"
+  ]
+ },
+ {
+  "id": "pardon",
+  "term_ko": "사면",
+  "term_en": "pardon",
+  "category": "action",
+  "contexts": [
+   "큰 사면을 받음"
+  ]
+ },
+ {
+  "id": "prisoner",
+  "term_ko": "죄인",
+  "term_en": "prisoner",
+  "category": "person",
+  "contexts": [
+   "죄인이 달아나 벗어남"
+  ]
+ },
+ {
+  "id": "river-porpoise",
+  "term_ko": "강돼지",
+  "term_en": "river porpoise",
+  "category": "animal",
+  "contexts": [
+   "강돼지를 봄"
+  ]
+ },
+ {
+  "id": "saw",
+  "term_ko": "톱",
+  "term_en": "saw",
+  "category": "object",
+  "contexts": [
+   "톱을 봄"
+  ]
+ },
+ {
+  "id": "soldier",
+  "term_ko": "군인",
+  "term_en": "soldier",
+  "category": "person",
+  "contexts": [
+   "군인이 집에 들어옴"
+  ]
+ },
+ {
+  "id": "sweat",
+  "term_ko": "땀",
+  "term_en": "sweat",
+  "category": "body",
+  "contexts": [
+   "몸에 땀이 흐름"
+  ]
+ },
+ {
+  "id": "trading",
+  "term_ko": "거래",
+  "term_en": "trading",
+  "category": "action",
+  "contexts": [
+   "남과 물건을 거래함"
+  ]
+ },
+ {
+  "id": "washing-one-s-face",
+  "term_ko": "세수",
+  "term_en": "washing one's face",
+  "category": "action",
+  "contexts": [
+   "얼굴을 씻음"
+  ]
+ },
+ {
+  "id": "wild-duck",
+  "term_ko": "물오리",
+  "term_en": "wild duck",
+  "category": "animal",
+  "contexts": [
+   "물오리가 집 안으로 들어옴"
+  ]
+ }
+]

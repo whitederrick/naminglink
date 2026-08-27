@@ -1,0 +1,2042 @@
+[
+  {
+    "term_ko": "궁궐",
+    "term_en": "palace",
+    "context": "제왕의 궁궐에 들어감",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "入帝王宮行大吉",
+      "translation_ko": "제왕의 궁에 들어가 다니면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "조정",
+    "term_en": "royal court",
+    "context": "조정에 나아가 절함",
+    "interpretation_ko": "부귀를 누릴 조짐",
+    "interpretation_en": "a sign of wealth and honor",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "拜朝廷者主富貴",
+      "translation_ko": "조정에 참배하는 사람은 부귀를 누린다"
+    }
+  },
+  {
+    "term_ko": "창고",
+    "term_en": "storehouse",
+    "context": "왕과 제후의 곳간에 들어감",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "入王侯府庫大吉",
+      "translation_ko": "왕과 제후의 곳간에 들어가면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "도교 사원",
+    "term_en": "Daoist temple",
+    "context": "도교 사원에 찾아감",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "行道宮見仙主吉",
+      "translation_ko": "도교 사원에 가서 신선을 보면 길하다"
+    }
+  },
+  {
+    "term_ko": "신선",
+    "term_en": "immortal",
+    "context": "사원에서 신선을 만남",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "行道宮見仙主吉",
+      "translation_ko": "도교 사원에 가서 신선을 보면 길하다"
+    }
+  },
+  {
+    "term_ko": "관청",
+    "term_en": "government office",
+    "context": "관청 안에 앉아 있음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "坐官府中主大吉",
+      "translation_ko": "관청 안에 앉으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "사당",
+    "term_en": "shrine",
+    "context": "사당이 넓고 큼",
+    "interpretation_ko": "일마다 잘 풀릴 조짐",
+    "interpretation_en": "a sign that every matter will go well",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "神廟廣大事事吉",
+      "translation_ko": "사당이 넓고 크면 일마다 길하다"
+    }
+  },
+  {
+    "term_ko": "누각",
+    "term_en": "pavilion",
+    "context": "누각에 오름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上樓閣壇主大吉",
+      "translation_ko": "누각과 제단에 오르면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "제단",
+    "term_en": "altar",
+    "context": "제단에 오름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上樓閣壇主大吉",
+      "translation_ko": "누각과 제단에 오르면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "대청",
+    "term_en": "main hall",
+    "context": "높은 대청에 오름",
+    "interpretation_ko": "큰 부귀가 올 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上高堂大富貴至",
+      "translation_ko": "높은 대청에 오르면 큰 부귀가 온다"
+    }
+  },
+  {
+    "term_ko": "누각",
+    "term_en": "pavilion",
+    "context": "높은 누각에서 술을 마심",
+    "interpretation_ko": "부귀가 올 조짐",
+    "interpretation_en": "a sign that wealth and honor will come",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "高樓飲酒富貴至",
+      "translation_ko": "높은 누각에서 술을 마시면 부귀가 온다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "높은 누각에서 술을 마심",
+    "interpretation_ko": "부귀가 올 조짐",
+    "interpretation_en": "a sign that wealth and honor will come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "高樓飲酒富貴至",
+      "translation_ko": "높은 누각에서 술을 마시면 부귀가 온다"
+    }
+  },
+  {
+    "term_ko": "누각",
+    "term_en": "pavilion",
+    "context": "집에 높은 누각을 세움",
+    "interpretation_ko": "편안한 일이 있을 조짐",
+    "interpretation_en": "a sign of peaceful affairs",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "家起高樓安穩事",
+      "translation_ko": "집에 높은 누각을 세우면 편안한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성에 오르는데 남이 끌어 줌",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上城為人所拽吉",
+      "translation_ko": "성에 오를 때 남이 끌어 주면 길하다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성에 올랐다가 붙잡힘",
+    "interpretation_ko": "관직이 높이 드러날 조짐",
+    "interpretation_en": "a sign that one's official post will rise",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上城被執官職顯",
+      "translation_ko": "성에 올라 붙잡히면 관직이 드러난다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성곽이 넓고 큼",
+    "interpretation_ko": "재물과 기쁜 일이 많을 조짐",
+    "interpretation_en": "a sign of much wealth and joy",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "城郭廣大財喜多",
+      "translation_ko": "성곽이 넓고 크면 재물과 기쁨이 많다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성 안을 돌아다님",
+    "interpretation_ko": "흉한 조짐",
+    "interpretation_en": "an inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "城中行凶出門吉",
+      "translation_ko": "성 안에서 다니면 흉하고 성문을 나서면 길하다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성문을 나섬",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "城中行凶出門吉",
+      "translation_ko": "성 안에서 다니면 흉하고 성문을 나서면 길하다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "이어진 성이 푸른빛을 띰",
+    "interpretation_ko": "기쁜 일이 있어 길한 조짐",
+    "interpretation_en": "an auspicious sign of joyful news",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "連城青色有喜吉",
+      "translation_ko": "이어진 성이 푸른빛이면 기쁜 일이 있어 길하다"
+    }
+  },
+  {
+    "term_ko": "푸른색",
+    "term_en": "blue",
+    "context": "성이 푸른빛을 띰",
+    "interpretation_ko": "기쁜 일이 있어 길한 조짐",
+    "interpretation_en": "an auspicious sign of joyful news",
+    "polarity": "positive",
+    "category": "color",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "連城青色有喜吉",
+      "translation_ko": "이어진 성이 푸른빛이면 기쁜 일이 있어 길하다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "붉은 성곽에 오름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "登赤城郭主大吉",
+      "translation_ko": "붉은 성곽에 오르면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "붉은색",
+    "term_en": "red",
+    "context": "성곽이 붉은빛을 띰",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "color",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "登赤城郭主大吉",
+      "translation_ko": "붉은 성곽에 오르면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "성 위에 집을 지음",
+    "interpretation_ko": "크게 길하고 이로운 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "蓋城上屋大吉利",
+      "translation_ko": "성 위에 집을 지으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "성",
+    "term_en": "city wall",
+    "context": "성 위에 집을 지음",
+    "interpretation_ko": "크게 길하고 이로운 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "蓋城上屋大吉利",
+      "translation_ko": "성 위에 집을 지으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집 지붕 위에 오름",
+    "interpretation_ko": "부유해질 조짐",
+    "interpretation_en": "a sign of becoming wealthy",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上屋主富出園吉",
+      "translation_ko": "지붕에 오르면 부유해지고 동산에 나가면 길하다"
+    }
+  },
+  {
+    "term_ko": "동산",
+    "term_en": "garden",
+    "context": "동산으로 나감",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上屋主富出園吉",
+      "translation_ko": "지붕에 오르면 부유해지고 동산에 나가면 길하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "올라간 지붕이 부서짐",
+    "interpretation_ko": "집안 형편이 기울 흉한 조짐",
+    "interpretation_en": "an inauspicious sign that the household will decline",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "上屋破壞家道凶",
+      "translation_ko": "지붕에 올랐다가 부서지면 집안이 흉하다"
+    }
+  },
+  {
+    "term_ko": "대청",
+    "term_en": "main hall",
+    "context": "대청 위에 관이 놓여 있음",
+    "interpretation_ko": "몸이 편안하고 즐거울 조짐",
+    "interpretation_en": "a sign of bodily ease and joy",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "堂上有棺身安樂",
+      "translation_ko": "대청 위에 관이 있으면 몸이 편안하고 즐겁다"
+    }
+  },
+  {
+    "term_ko": "관",
+    "term_en": "coffin",
+    "context": "대청 위에 관이 놓여 있음",
+    "interpretation_ko": "몸이 편안하고 즐거울 조짐",
+    "interpretation_en": "a sign of bodily ease and joy",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "堂上有棺身安樂",
+      "translation_ko": "대청 위에 관이 있으면 몸이 편안하고 즐겁다"
+    }
+  },
+  {
+    "term_ko": "대청",
+    "term_en": "main hall",
+    "context": "안채 대청이 무너져 내림",
+    "interpretation_ko": "집주인에게 흉한 조짐",
+    "interpretation_en": "an inauspicious sign for the head of the house",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "正堂倒陷家主凶",
+      "translation_ko": "안채 대청이 무너져 내리면 집주인이 흉하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "지붕을 새로 덮음",
+    "interpretation_ko": "오래 살 길한 조짐",
+    "interpretation_en": "an auspicious sign of long life",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "覆蓋屋宇長命吉",
+      "translation_ko": "지붕을 덮으면 수명이 길고 길하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집을 새로 고침",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋宅更新主大吉",
+      "translation_ko": "집을 새로 고치면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "바람이 불어 집이 흔들림",
+    "interpretation_ko": "거처를 옮기게 될 조짐",
+    "interpretation_en": "a sign of moving house",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "風吹屋動主遷移",
+      "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "바람에 집이 흔들림",
+    "interpretation_ko": "거처를 옮기게 될 조짐",
+    "interpretation_en": "a sign of moving house",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "風吹屋動主遷移",
+      "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
+    }
+  },
+  {
+    "term_ko": "이사",
+    "term_en": "moving house",
+    "context": "남의 새 집으로 옮겨 듦",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "遷入他人新宅吉",
+      "translation_ko": "남의 새 집으로 이사하면 길하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "살던 집에서 나옴",
+    "interpretation_ko": "아내에게 기쁜 일이 있을 조짐",
+    "interpretation_en": "a sign of a joyful event for one's wife",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "居出宅主妻喜事",
+      "translation_ko": "살던 집에서 나오면 아내에게 기쁜 일이 있다"
+    }
+  },
+  {
+    "term_ko": "이사",
+    "term_en": "moving house",
+    "context": "헐고 낡은 집으로 옮겨 감",
+    "interpretation_ko": "아름다운 아내를 얻을 조짐",
+    "interpretation_en": "a sign of gaining a beautiful wife",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "搬移破屋主美妻",
+      "translation_ko": "헌 집으로 이사하면 아름다운 아내를 얻는다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집을 남에게 저당 잡힘",
+    "interpretation_ko": "관직을 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "人或典房主官位",
+      "translation_ko": "남에게 집을 저당 잡히면 관직을 얻는다"
+    }
+  },
+  {
+    "term_ko": "집안",
+    "term_en": "household",
+    "context": "집안이 가난해짐",
+    "interpretation_ko": "크게 길하고 이로운 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "家道貧窮大吉利",
+      "translation_ko": "집안이 가난해지면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "청소",
+    "term_en": "cleaning",
+    "context": "집에 물을 뿌리고 쓺",
+    "interpretation_ko": "먼 데서 사람이 찾아올 조짐",
+    "interpretation_en": "a sign that someone from afar will come",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "洒掃宅舍遠人來",
+      "translation_ko": "집을 물 뿌려 쓸면 먼 데 사람이 온다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집을 팔거나 저당 잡힘",
+    "interpretation_ko": "지위를 잃을 조짐",
+    "interpretation_en": "a sign of losing one's position",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "典賣典舍主失位",
+      "translation_ko": "집을 팔거나 저당 잡히면 지위를 잃는다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집에 사람이 하나도 없음",
+    "interpretation_ko": "죽음이 있을 흉한 조짐",
+    "interpretation_en": "an inauspicious sign of a death",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋宅無人主死亡",
+      "translation_ko": "집에 사람이 없으면 죽음이 있다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "지붕 위로 배가 지나감",
+    "interpretation_ko": "어두운 일이 있을 조짐",
+    "interpretation_en": "a sign of shady, obscure affairs",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋上穿舟有暗昧",
+      "translation_ko": "지붕 위로 배가 지나가면 어두운 일이 있다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배가 지붕 위를 지나감",
+    "interpretation_ko": "어두운 일이 있을 조짐",
+    "interpretation_en": "a sign of shady, obscure affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋上穿舟有暗昧",
+      "translation_ko": "지붕 위로 배가 지나가면 어두운 일이 있다"
+    }
+  },
+  {
+    "term_ko": "담",
+    "term_en": "wall",
+    "context": "담을 넘어 집으로 들어감",
+    "interpretation_ko": "온갖 일이 떠나갈 조짐",
+    "interpretation_en": "a sign that all matters will depart",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "踰牆渡宅百事去",
+      "translation_ko": "담을 넘어 집으로 들어가면 온갖 일이 떠나간다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "남과 집을 두고 다툼",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "與人爭屋主大凶",
+      "translation_ko": "남과 집을 다투면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "부인과 집을 두고 다툼",
+    "interpretation_ko": "길한 조짐",
+    "interpretation_en": "an auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "與婦人爭屋主吉",
+      "translation_ko": "부인과 집을 다투면 길하다"
+    }
+  },
+  {
+    "term_ko": "들보",
+    "term_en": "roof beam",
+    "context": "들보가 갑자기 부러짐",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "房樑忽折主大凶",
+      "translation_ko": "들보가 갑자기 부러지면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집 마당이 꺼져 내려앉음",
+    "interpretation_ko": "죽음이 있을 흉한 조짐",
+    "interpretation_en": "an inauspicious sign of a death",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "院宅坑下主死亡",
+      "translation_ko": "집 마당이 꺼져 내려앉으면 죽음이 있다"
+    }
+  },
+  {
+    "term_ko": "담",
+    "term_en": "wall",
+    "context": "아내와 아들이 담 아래 있음",
+    "interpretation_ko": "관직이 올 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "妻男牆下官位至",
+      "translation_ko": "아내와 아들이 담 아래 있으면 관직이 온다"
+    }
+  },
+  {
+    "term_ko": "담",
+    "term_en": "wall",
+    "context": "담 위에서 흙을 팜",
+    "interpretation_ko": "맡은 일과 자리가 바뀔 조짐",
+    "interpretation_en": "a sign that one's office will change",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "牆上掘土主更政",
+      "translation_ko": "담 위에서 흙을 파면 정사가 바뀐다"
+    }
+  },
+  {
+    "term_ko": "군인",
+    "term_en": "soldier",
+    "context": "군인이 집에 들어옴",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "軍人入宅主大吉",
+      "translation_ko": "군인이 집에 들어오면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "기와",
+    "term_en": "roof tile",
+    "context": "지붕 기와가 떨어짐",
+    "interpretation_ko": "부녀가 다툴 조짐",
+    "interpretation_en": "a sign of a quarrel among the women of the house",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "死央瓦落婦爭鬥",
+      "translation_ko": "기와가 떨어지면 부녀가 다툰다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "집 안에서 말이 새끼를 낳음",
+    "interpretation_ko": "남자에게서 소식이 올 조짐",
+    "interpretation_en": "a sign that news from a man will arrive",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋中生馬男信至",
+      "translation_ko": "집 안에서 말이 나면 남자의 소식이 온다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "집 안에 풀이 자람",
+    "interpretation_ko": "집이 비게 될 조짐",
+    "interpretation_en": "a sign that the house will be emptied",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋中生草家欲空",
+      "translation_ko": "집 안에 풀이 자라면 집이 비게 된다"
+    }
+  },
+  {
+    "term_ko": "소나무",
+    "term_en": "pine tree",
+    "context": "지붕 위에 소나무와 잣나무가 자람",
+    "interpretation_ko": "수명이 늘어날 조짐",
+    "interpretation_en": "a sign of a longer life",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "屋上生松柏益壽",
+      "translation_ko": "지붕 위에 소나무와 잣나무가 자라면 수명이 는다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "시골집을 손보아 고침",
+    "interpretation_ko": "큰 기쁨이 있을 조짐",
+    "interpretation_en": "a sign of great joy",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "修理田舍有大喜",
+      "translation_ko": "시골집을 수리하면 큰 기쁨이 있다"
+    }
+  },
+  {
+    "term_ko": "절",
+    "term_en": "Buddhist temple",
+    "context": "절 안에 들어감",
+    "interpretation_ko": "아들을 낳을 조짐",
+    "interpretation_en": "a sign of bearing a son",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "入寺院中生男子",
+      "translation_ko": "절에 들어가면 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "절",
+    "term_en": "Buddhist temple",
+    "context": "절에 경전이 놓여 있음",
+    "interpretation_ko": "앓던 사람이 나을 조짐",
+    "interpretation_en": "a sign that the sick will recover",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "寺舍有經病人痊",
+      "translation_ko": "절에 경전이 있으면 병자가 낫는다"
+    }
+  },
+  {
+    "term_ko": "경전",
+    "term_en": "scripture",
+    "context": "절에 경전이 놓여 있음",
+    "interpretation_ko": "앓던 사람이 나을 조짐",
+    "interpretation_en": "a sign that the sick will recover",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "寺舍有經病人痊",
+      "translation_ko": "절에 경전이 있으면 병자가 낫는다"
+    }
+  },
+  {
+    "term_ko": "절",
+    "term_en": "Buddhist temple",
+    "context": "비구니 절로 옮겨 감",
+    "interpretation_ko": "병이 올 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "遷移尼寺主病至",
+      "translation_ko": "비구니 절로 옮기면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "창고",
+    "term_en": "storehouse",
+    "context": "창고를 새로 지어 세움",
+    "interpretation_ko": "복과 녹이 올 조짐",
+    "interpretation_en": "a sign that blessings and prosperity will come",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "起蓋倉庫福祿至",
+      "translation_ko": "창고를 지으면 복록이 온다"
+    }
+  },
+  {
+    "term_ko": "창고",
+    "term_en": "storehouse",
+    "context": "창고 안으로 들어감",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "入倉庫中大吉昂",
+      "translation_ko": "창고 안에 들어가면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "창고",
+    "term_en": "storehouse",
+    "context": "창고가 무너짐",
+    "interpretation_ko": "온갖 일이 흉할 조짐",
+    "interpretation_en": "a sign that all matters will go badly",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "宮室屋宇倉庫",
+      "original": "倉庫崩壞百事凶",
+      "translation_ko": "창고가 무너지면 온갖 일이 흉하다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배가 하늘을 날아감",
+    "interpretation_ko": "큰 부귀를 누릴 조짐",
+    "interpretation_en": "a sign of great wealth and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船飛行主大富貴",
+      "translation_ko": "배가 날아가면 큰 부귀를 누린다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배가 얕은 물에서 언덕에 걸림",
+    "interpretation_ko": "시비와 액운이 있을 조짐",
+    "interpretation_en": "a sign of disputes and misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船淺在岸是非厄",
+      "translation_ko": "배가 얕은 곳에서 언덕에 걸리면 시비와 액이 있다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 강을 건넘",
+    "interpretation_ko": "벼슬을 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船渡江河得官",
+      "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
+    }
+  },
+  {
+    "term_ko": "강",
+    "term_en": "river",
+    "context": "배를 타고 강을 건넘",
+    "interpretation_ko": "벼슬을 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船渡江河得官",
+      "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배 안에 물이 고여 있음",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船中有水主得財",
+      "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "배 안에 물이 고여 있음",
+    "interpretation_ko": "재물을 얻을 조짐",
+    "interpretation_en": "a sign of gaining wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船中有水主得財",
+      "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 해와 달을 봄",
+    "interpretation_ko": "관직을 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船看日月得職",
+      "translation_ko": "배를 타고 해와 달을 보면 관직을 얻는다"
+    }
+  },
+  {
+    "term_ko": "해와 달",
+    "term_en": "sun and moon",
+    "context": "배 위에서 해와 달을 봄",
+    "interpretation_ko": "관직을 얻을 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船看日月得職",
+      "translation_ko": "배를 타고 해와 달을 보면 관직을 얻는다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 해와 달을 지나감",
+    "interpretation_ko": "부유해질 조짐",
+    "interpretation_en": "a sign of becoming wealthy",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船過日月主富",
+      "translation_ko": "배를 타고 해와 달을 지나면 부유해진다"
+    }
+  },
+  {
+    "term_ko": "해와 달",
+    "term_en": "sun and moon",
+    "context": "배를 타고 해와 달을 지나감",
+    "interpretation_ko": "부유해질 조짐",
+    "interpretation_en": "a sign of becoming wealthy",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船過日月主富",
+      "translation_ko": "배를 타고 해와 달을 지나면 부유해진다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 술을 마심",
+    "interpretation_ko": "먼 데서 손님이 올 조짐",
+    "interpretation_en": "a sign that a guest from afar will come",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船飲酒遠客至",
+      "translation_ko": "배를 타고 술을 마시면 먼 데서 손님이 온다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "배 위에서 술을 마심",
+    "interpretation_ko": "먼 데서 손님이 올 조짐",
+    "interpretation_en": "a sign that a guest from afar will come",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船飲酒遠客至",
+      "translation_ko": "배를 타고 술을 마시면 먼 데서 손님이 온다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "남과 한 배를 탐",
+    "interpretation_ko": "거처를 옮기게 될 조짐",
+    "interpretation_en": "a sign of moving house",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "與人同船主移居",
+      "translation_ko": "남과 한 배를 타면 거처를 옮긴다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배가 돛에 바람을 받아 나아감",
+    "interpretation_ko": "크게 길하고 이로운 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船風帆大吉利",
+      "translation_ko": "배를 타고 돛에 바람을 받으면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 키를 봄",
+    "interpretation_ko": "편안하고 안온할 조짐",
+    "interpretation_en": "a sign of peace and stability",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船見舵主安穩",
+      "translation_ko": "배를 타고 키를 보면 편안하다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 다리 밑을 지남",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船橋下過大吉",
+      "translation_ko": "배를 타고 다리 밑을 지나면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "context": "배로 다리 밑을 지나감",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船橋下過大吉",
+      "translation_ko": "배를 타고 다리 밑을 지나면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "앓는 사람이 배를 탐",
+    "interpretation_ko": "죽음에 이를 흉한 조짐",
+    "interpretation_en": "an inauspicious sign of death",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "病人乘船必主死",
+      "translation_ko": "병자가 배를 타면 반드시 죽는다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "아버지를 도와 배를 탐",
+    "interpretation_ko": "관직이 올 조짐",
+    "interpretation_en": "a sign of gaining an official post",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "助父乘船官位至",
+      "translation_ko": "아버지를 도와 배를 타면 관직이 온다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "몸이 배 안에 누움",
+    "interpretation_ko": "흉한 일이 있을 조짐",
+    "interpretation_en": "a sign of misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "身臥船中主有凶",
+      "translation_ko": "몸이 배 안에 누우면 흉한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "불을 들고 배에 오름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "執火入船主大吉",
+      "translation_ko": "불을 들고 배에 들면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "불",
+    "term_en": "fire",
+    "context": "불을 손에 들고 배에 오름",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "執火入船主大吉",
+      "translation_ko": "불을 들고 배에 들면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "집 안에서 배를 탐",
+    "interpretation_ko": "재물을 잃을 조짐",
+    "interpretation_en": "a sign of losing wealth",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "家中乘船主沒財",
+      "translation_ko": "집 안에서 배를 타면 재물을 잃는다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배를 타고 꽃을 봄",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of food and drink to come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船看花酒食至",
+      "translation_ko": "배를 타고 꽃을 보면 술과 음식이 온다"
+    }
+  },
+  {
+    "term_ko": "꽃",
+    "term_en": "flower",
+    "context": "배 위에서 꽃을 봄",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of food and drink to come",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "乘船看花酒食至",
+      "translation_ko": "배를 타고 꽃을 보면 술과 음식이 온다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "배가 부서져 깨짐",
+    "interpretation_ko": "상서롭지 못한 조짐",
+    "interpretation_en": "an ominous sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船車破碎主不祥",
+      "translation_ko": "배와 수레가 부서지면 상서롭지 못하다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레가 부서져 깨짐",
+    "interpretation_ko": "상서롭지 못한 조짐",
+    "interpretation_en": "an ominous sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "船車破碎主不祥",
+      "translation_ko": "배와 수레가 부서지면 상서롭지 못하다"
+    }
+  },
+  {
+    "term_ko": "수레바퀴",
+    "term_en": "cart wheel",
+    "context": "수레바퀴가 부서짐",
+    "interpretation_ko": "부부가 서로 헤어질 조짐",
+    "interpretation_en": "a sign that husband and wife will part",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車輪破夫妻相別",
+      "translation_ko": "수레바퀴가 부서지면 부부가 서로 헤어진다"
+    }
+  },
+  {
+    "term_ko": "수레바퀴",
+    "term_en": "cart wheel",
+    "context": "수레바퀴가 꺾여 넘어짐",
+    "interpretation_ko": "살림이 무너질 조짐",
+    "interpretation_en": "a sign of ruin",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車輪折倒主破敗",
+      "translation_ko": "수레바퀴가 꺾여 넘어지면 살림이 무너진다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "짐을 실은 수레가 일어나지 못함",
+    "interpretation_ko": "액운이 물러갈 조짐",
+    "interpretation_en": "a sign that misfortune will depart",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車載不起厄事去",
+      "translation_ko": "수레가 짐을 싣고 일어나지 못하면 액운이 사라진다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레를 몰고 나다님",
+    "interpretation_ko": "녹봉과 지위가 올 조짐",
+    "interpretation_en": "a sign of gaining rank and position",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "駕車遊行祿位至",
+      "translation_ko": "수레를 몰고 다니면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레가 잘 굴러감",
+    "interpretation_ko": "온갖 일이 순조로울 조짐",
+    "interpretation_en": "a sign that all matters will go smoothly",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車行主百事順和",
+      "translation_ko": "수레가 굴러가면 온갖 일이 순조롭다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레가 나아가지 않음",
+    "interpretation_ko": "구하는 바를 이루지 못할 조짐",
+    "interpretation_en": "a sign that what one seeks will not be attained",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車不行所求不遂",
+      "translation_ko": "수레가 가지 않으면 구하는 바를 이루지 못한다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "수레가 대문 안으로 들어옴",
+    "interpretation_ko": "흉한 일이 있을 조짐",
+    "interpretation_en": "a sign of misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "車入門主有凶事",
+      "translation_ko": "수레가 문에 들어오면 흉한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "앓는 사람이 수레에 오름",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "病人上車主大凶",
+      "translation_ko": "병자가 수레에 오르면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "상여",
+    "term_en": "funeral carriage",
+    "context": "상여와 마주침",
+    "interpretation_ko": "재앙이 흩어질 조짐",
+    "interpretation_en": "a sign that calamity will scatter",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "喪車遇者主災散",
+      "translation_ko": "상여를 만나면 재앙이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "흰 말이 끄는 수레를 몰음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "行車白馬主大吉",
+      "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "흰 말이 수레를 끎",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "行車白馬主大吉",
+      "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말 네 마리가 수레를 끎",
+    "interpretation_ko": "길한 듯하나 도리어 흉한 조짐",
+    "interpretation_en": "a seemingly auspicious sign that turns inauspicious",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "四馬駕車吉反凶",
+      "translation_ko": "네 마리 말이 수레를 끌면 길한 듯하나 도리어 흉하다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "양이 수레를 끎",
+    "interpretation_ko": "일이 심상치 않게 될 조짐",
+    "interpretation_en": "a sign that matters will turn out unusual",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "以羊駕車事不常",
+      "translation_ko": "양이 수레를 끌면 일이 심상치 않다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 갖추어 채비함",
+    "interpretation_ko": "먼 길을 떠날 조짐",
+    "interpretation_en": "a sign of a long journey ahead",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "備馬者主遠行事",
+      "translation_ko": "말을 준비하면 먼 길 갈 일이 있다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "먼 길을 오가며 다님",
+    "interpretation_ko": "운수가 트일 조짐",
+    "interpretation_en": "a sign that one's fortune will open up",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "船車遊行物件",
+      "original": "遠行出入命通達",
+      "translation_ko": "먼 길을 오가면 운수가 통달한다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥이 무너짐",
+    "interpretation_ko": "사면을 받을 길한 조짐",
+    "interpretation_en": "an auspicious sign of being pardoned",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "牢獄崩壞有赦吉",
+      "translation_ko": "감옥이 무너지면 사면이 있어 길하다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "옥에 갇혀 앉아 있음",
+    "interpretation_ko": "사면을 받을 조짐",
+    "interpretation_en": "a sign of receiving a pardon",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "坐獄中必有恩赦",
+      "translation_ko": "옥에 갇혀 있으면 반드시 은사를 입는다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "옥에 들어가 재앙을 당함",
+    "interpretation_ko": "영화롭고 귀해질 조짐",
+    "interpretation_en": "a sign of honor and high rank",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "入獄愛災主榮貴",
+      "translation_ko": "옥에 들어가 재앙을 당하면 영화롭고 귀해진다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "옥중에서 죽는 사람을 봄",
+    "interpretation_ko": "관재와 송사가 흩어질 조짐",
+    "interpretation_en": "a sign that legal troubles will disperse",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "獄中死者官事散",
+      "translation_ko": "옥중에서 죽으면 관재가 흩어진다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "남을 옥에 들여보냄",
+    "interpretation_ko": "재물을 얻을 길한 조짐",
+    "interpretation_en": "an auspicious sign of gaining wealth",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "使人入獄得財吉",
+      "translation_ko": "남을 옥에 넣으면 재물을 얻어 길하다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥 안으로 들어감",
+    "interpretation_ko": "크게 귀해질 조짐",
+    "interpretation_en": "a sign of great honor",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "入牢獄主有大貴",
+      "translation_ko": "감옥에 들어가면 크게 귀해진다"
+    }
+  },
+  {
+    "term_ko": "도적",
+    "term_en": "thief",
+    "context": "도적이 스스로 옥에 들어감",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "盜賊自入獄大凶",
+      "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "도적이 스스로 옥에 들어감",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "盜賊自入獄大凶",
+      "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥이 더럽고 냄새남",
+    "interpretation_ko": "온갖 일이 길할 조짐",
+    "interpretation_en": "a sign that all matters will go well",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "牢獄臭污百事吉",
+      "translation_ko": "감옥이 더럽고 냄새나면 온갖 일이 길하다"
+    }
+  },
+  {
+    "term_ko": "죄인",
+    "term_en": "prisoner",
+    "context": "죄인이 달아나 벗어남",
+    "interpretation_ko": "앓던 병이 물러갈 조짐",
+    "interpretation_en": "a sign that illness will depart",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "罪人走脫疾病去",
+      "translation_ko": "죄인이 달아나면 질병이 사라진다"
+    }
+  },
+  {
+    "term_ko": "도적",
+    "term_en": "thief",
+    "context": "도적을 쫓아가는 것을 봄",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "趕賊行見者大吉",
+      "translation_ko": "도적을 쫓는 것을 보면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "족쇄",
+    "term_en": "shackles",
+    "context": "칼과 족쇄가 몸에 채워짐",
+    "interpretation_ko": "병이 올 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "枷銷臨身疾病至",
+      "translation_ko": "칼과 족쇄가 몸에 채워지면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "족쇄",
+    "term_en": "shackles",
+    "context": "족쇄가 부러져 망가짐",
+    "interpretation_ko": "구설이 흩어질 조짐",
+    "interpretation_en": "a sign that gossip and disputes will scatter",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "枷鎖折損口舌散",
+      "translation_ko": "족쇄가 부러지면 구설이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "족쇄",
+    "term_en": "shackles",
+    "context": "족쇄가 집 안으로 들어옴",
+    "interpretation_ko": "크게 흉한 조짐",
+    "interpretation_en": "a very inauspicious sign",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "枷鎖入宅主大凶",
+      "translation_ko": "족쇄가 집에 들어오면 크게 흉하다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄이 몸을 묶음",
+    "interpretation_ko": "크게 길하고 이로운 조짐",
+    "interpretation_en": "a very auspicious and favorable sign",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "繩索繫身大吉利",
+      "translation_ko": "밧줄로 몸이 묶이면 크게 길하고 이롭다"
+    }
+  },
+  {
+    "term_ko": "그물",
+    "term_en": "net",
+    "context": "몸이 그물에 걸림",
+    "interpretation_ko": "관재와 송사가 있을 조짐",
+    "interpretation_en": "a sign of legal trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "身被羅網主官事",
+      "translation_ko": "몸이 그물에 걸리면 관재가 있다"
+    }
+  },
+  {
+    "term_ko": "그물",
+    "term_en": "net",
+    "context": "그물이 몸을 덮어씌움",
+    "interpretation_ko": "술과 음식이 생길 조짐",
+    "interpretation_en": "a sign of food and drink to come",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "被羅網罩主酒食",
+      "translation_ko": "그물에 덮이면 술과 음식이 생긴다"
+    }
+  },
+  {
+    "term_ko": "벌 받음",
+    "term_en": "being punished",
+    "context": "남에게 벌을 받음",
+    "interpretation_ko": "녹봉과 지위가 올 조짐",
+    "interpretation_en": "a sign of gaining rank and position",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "被人決罰祿位至",
+      "translation_ko": "남에게 벌을 받으면 녹봉과 지위가 온다"
+    }
+  },
+  {
+    "term_ko": "천대받음",
+    "term_en": "being humiliated",
+    "context": "남에게 천대를 받음",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "被人作賤者大吉",
+      "translation_ko": "남에게 천대받으면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "묶임",
+    "term_en": "being bound",
+    "context": "남에게 몸이 묶임",
+    "interpretation_ko": "병이 올 조짐",
+    "interpretation_en": "a sign of illness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "被人綁住疾病至",
+      "translation_ko": "남에게 묶이면 병이 온다"
+    }
+  },
+  {
+    "term_ko": "매 맞음",
+    "term_en": "being beaten",
+    "context": "관가에서 매를 맞음",
+    "interpretation_ko": "상복을 입게 될 조짐",
+    "interpretation_en": "a sign of going into mourning",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "被官打身主孝服",
+      "translation_ko": "관가에서 매를 맞으면 상복을 입는다"
+    }
+  },
+  {
+    "term_ko": "몽둥이",
+    "term_en": "club",
+    "context": "스스로 몽둥이로 매를 침",
+    "interpretation_ko": "치욕을 당할 조짐",
+    "interpretation_en": "a sign of disgrace",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "自以杖決恥辱生",
+      "translation_ko": "스스로 몽둥이로 벌하면 치욕이 생긴다"
+    }
+  },
+  {
+    "term_ko": "족쇄",
+    "term_en": "shackles",
+    "context": "족쇄를 두려워함",
+    "interpretation_ko": "서로 흩어져 헤어질 조짐",
+    "interpretation_en": "a sign of separation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "枷鎖怕怖主分散",
+      "translation_ko": "족쇄를 두려워하면 흩어져 헤어진다"
+    }
+  },
+  {
+    "term_ko": "송사",
+    "term_en": "lawsuit",
+    "context": "관가에 들어가 송사함",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "入官詞訟主大吉",
+      "translation_ko": "관가에 들어가 송사하면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "관청",
+    "term_en": "government office",
+    "context": "남을 관가로 불러들임",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "邀人入官主大吉",
+      "translation_ko": "남을 관가에 불러들이면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "관리",
+    "term_en": "official",
+    "context": "관리가 관청으로 이끌어 감",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "吏引入司主大吉",
+      "translation_ko": "관리가 관청으로 이끌면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "관리",
+    "term_en": "official",
+    "context": "관리에게 이름이 적혀 걸림",
+    "interpretation_ko": "급한 일이 생길 조짐",
+    "interpretation_en": "a sign that an urgent matter will arise",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "為吏所錄有急事",
+      "translation_ko": "관리에게 적히면 급한 일이 있다"
+    }
+  },
+  {
+    "term_ko": "귀인",
+    "term_en": "noble person",
+    "context": "귀인이 말을 달림",
+    "interpretation_ko": "관재와 송사가 밝혀질 조짐",
+    "interpretation_en": "a sign that legal matters will be cleared up",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "貴人走馬官事明",
+      "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "귀인이 탄 말이 달림",
+    "interpretation_ko": "관재와 송사가 밝혀질 조짐",
+    "interpretation_en": "a sign that legal matters will be cleared up",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "貴人走馬官事明",
+      "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
+    }
+  },
+  {
+    "term_ko": "매 맞음",
+    "term_en": "being beaten",
+    "context": "고문과 매질을 당함",
+    "interpretation_ko": "크게 길한 조짐",
+    "interpretation_en": "a very auspicious sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "zhougong",
+      "locator": "捕禁刑罰獄具",
+      "original": "拷訊杖責主大吉",
+      "translation_ko": "고문과 매질을 당하면 크게 길하다"
+    }
+  }
+]

@@ -1,0 +1,509 @@
+[
+ {
+  "id": "snake",
+  "term_ko": "뱀",
+  "term_en": "snake",
+  "category": "animal",
+  "contexts": [
+   "뱀이 문 안으로 들어옴",
+   "뱀이 부뚜막에 들어옴",
+   "뱀이 용으로 변함",
+   "뱀이 사람을 죽임",
+   "뱀이 사람에게 덤벼듦",
+   "뱀이 품속으로 들어옴",
+   "뱀이 물속을 헤엄쳐 감",
+   "뱀이 사람을 따라감",
+   "뱀이 곡도로 들어감",
+   "뱀이 몸을 휘감음",
+   "뱀이 여럿 몰려 있음",
+   "뱀이 붉거나 검음",
+   "뱀이 푸름",
+   "뱀이 누렇거나 흼",
+   "뱀이 다가오고 새가 달려옴",
+   "거북과 뱀이 함께 있음"
+  ]
+ },
+ {
+  "id": "sun",
+  "term_ko": "해",
+  "term_en": "sun",
+  "category": "nature",
+  "contexts": [
+   "해가 막 떠오름",
+   "햇빛이 몸을 비춤",
+   "해가 떨어짐",
+   "해가 어둑하게 흐림",
+   "해가 막 떠오르려 함",
+   "해와 달이 한자리에서 만남",
+   "해가 산에 걸림",
+   "해를 등에 지거나 품에 안음",
+   "해를 삼킴",
+   "해에 절하여 예를 올림",
+   "햇빛이 집 안으로 들어옴",
+   "해가 처음 떠오르는데 구름 한 점 없음",
+   "해가 떠서 빛이 남",
+   "구름이 걷히고 해가 떠오름",
+   "해가 품 안으로 들어옴",
+   "해가 구름에 갑자기 가려짐"
+  ]
+ },
+ {
+  "id": "city-wall",
+  "term_ko": "성",
+  "term_en": "city wall",
+  "category": "place",
+  "contexts": [
+   "궁성이 막힘",
+   "성에 오르는데 남이 끌어 줌",
+   "성에 올랐다가 붙잡힘",
+   "성곽이 넓고 큼",
+   "성 안을 돌아다님",
+   "성문을 나섬",
+   "이어진 성이 푸른빛을 띰",
+   "붉은 성곽에 오름",
+   "성 위에 집을 지음"
+  ]
+ },
+ {
+  "id": "outhouse",
+  "term_ko": "뒷간",
+  "term_en": "outhouse",
+  "category": "place",
+  "contexts": [
+   "뒷간 안에 머물러 있음",
+   "뒷간에 빠졌다가 밖으로 나옴",
+   "뒷간에 빠져 나오지 못함",
+   "뒷간 지붕 위에 누움",
+   "뒷간 안이 바싹 말라 있음",
+   "뒷간을 새로 지음",
+   "뒷간을 쳐서 치움",
+   "뒷간에 가서 똥오줌 속에 있음",
+   "뒷간에 똥이 넘침"
+  ]
+ },
+ {
+  "id": "sheep",
+  "term_ko": "양",
+  "term_en": "sheep",
+  "category": "animal",
+  "contexts": [
+   "양을 끌고 집으로 돌아옴",
+   "양이 돼지처럼 걸어감",
+   "양이 몸을 긁음",
+   "양을 타고 거리로 나감",
+   "어미 양과 새끼 양을 봄",
+   "양을 잡거나 때림",
+   "양이 수레를 끎"
+  ]
+ },
+ {
+  "id": "pig",
+  "term_ko": "돼지",
+  "term_en": "pig",
+  "category": "animal",
+  "contexts": [
+   "돼지를 잡음",
+   "돼지가 저절로 죽음",
+   "돼지가 사람으로 변함",
+   "양이 돼지처럼 걸어감",
+   "돼지가 몸을 긁음",
+   "돼지를 잡음"
+  ]
+ },
+ {
+  "id": "turtle",
+  "term_ko": "거북",
+  "term_en": "turtle",
+  "category": "animal",
+  "contexts": [
+   "거북이 우물이나 집으로 들어옴",
+   "거북과 뱀이 함께 있음",
+   "거북을 봄",
+   "거북을 잡음",
+   "거북을 죽임"
+  ]
+ },
+ {
+  "id": "barley",
+  "term_ko": "보리",
+  "term_en": "barley",
+  "category": "nature",
+  "contexts": [
+   "보리를 봄",
+   "크고 작은 보리를 봄",
+   "쌀과 보리가 나란히 놓임",
+   "쌀과 보리 위에 앉거나 누움"
+  ]
+ },
+ {
+  "id": "rain",
+  "term_ko": "비",
+  "term_en": "rain",
+  "category": "nature",
+  "contexts": [
+   "비가 그쳐 흩어짐",
+   "궂은비가 내려 어둑함",
+   "길을 가다 비를 만남",
+   "큰비가 쏟아짐"
+  ]
+ },
+ {
+  "id": "thief-2",
+  "term_ko": "도둑",
+  "term_en": "thief",
+  "category": "person",
+  "contexts": [
+   "도둑을 쫓아 저자에 들어가 나오지 못함",
+   "억센 도둑이 집에 들어옴",
+   "도둑과 함께 길을 감",
+   "자기가 도둑이 됨"
+  ]
+ },
+ {
+  "id": "fight",
+  "term_ko": "싸움",
+  "term_en": "fight",
+  "category": "action",
+  "contexts": [
+   "집안 사람끼리 다툼",
+   "여자들이 서로 때림",
+   "형제가 서로 때림"
+  ]
+ },
+ {
+  "id": "monk",
+  "term_ko": "스님",
+  "term_en": "monk",
+  "category": "person",
+  "contexts": [
+   "법사가 법좌에 오름",
+   "스님이 사람에게 경 읽기를 가르침",
+   "스님과 비구니가 경을 봄"
+  ]
+ },
+ {
+  "id": "sun-and-moon",
+  "term_ko": "해와 달",
+  "term_en": "sun and moon",
+  "category": "nature",
+  "contexts": [
+   "불이 해와 달을 태움",
+   "배 위에서 해와 달을 봄",
+   "배를 타고 해와 달을 지나감"
+  ]
+ },
+ {
+  "id": "beard",
+  "term_ko": "수염",
+  "term_en": "beard",
+  "category": "body",
+  "contexts": [
+   "수염이 희어져 빠짐",
+   "빠졌던 수염이 다시 남"
+  ]
+ },
+ {
+  "id": "bell",
+  "term_ko": "종",
+  "term_en": "bell",
+  "category": "object",
+  "contexts": [
+   "종과 경쇠가 소리를 냄",
+   "종과 북이 크게 울림"
+  ]
+ },
+ {
+  "id": "farming",
+  "term_ko": "농사",
+  "term_en": "farming",
+  "category": "action",
+  "contexts": [
+   "산속에서 농사를 지음",
+   "남에게 밭 갈고 씨 뿌리는 법을 가르침"
+  ]
+ },
+ {
+  "id": "flute",
+  "term_ko": "피리",
+  "term_en": "flute",
+  "category": "object",
+  "contexts": [
+   "남이 피리를 줌",
+   "피리를 붊"
+  ]
+ },
+ {
+  "id": "marketplace",
+  "term_ko": "시장",
+  "term_en": "marketplace",
+  "category": "place",
+  "contexts": [
+   "부부가 함께 시장에 들어감",
+   "시장에 사람이 하나도 없음"
+  ]
+ },
+ {
+  "id": "monkey",
+  "term_ko": "원숭이",
+  "term_en": "monkey",
+  "category": "animal",
+  "contexts": [
+   "산 원숭이를 봄",
+   "흰 원숭이를 봄"
+  ]
+ },
+ {
+  "id": "rock",
+  "term_ko": "바위",
+  "term_en": "rock",
+  "category": "nature",
+  "contexts": [
+   "너럭바위가 편안하고 든든함",
+   "바위에 오름"
+  ]
+ },
+ {
+  "id": "shooting-an-arrow",
+  "term_ko": "활쏘기",
+  "term_en": "shooting an arrow",
+  "category": "action",
+  "contexts": [
+   "내가 남을 쏨",
+   "남이 나를 쏨"
+  ]
+ },
+ {
+  "id": "ancestral-rite",
+  "term_ko": "제사",
+  "term_en": "ancestral rite",
+  "category": "action",
+  "contexts": [
+   "신에게 제사를 지냄"
+  ]
+ },
+ {
+  "id": "awl",
+  "term_ko": "송곳",
+  "term_en": "awl",
+  "category": "object",
+  "contexts": [
+   "송곳을 봄"
+  ]
+ },
+ {
+  "id": "bear",
+  "term_ko": "곰",
+  "term_en": "bear",
+  "category": "animal",
+  "contexts": [
+   "곰을 봄"
+  ]
+ },
+ {
+  "id": "bodhisattva",
+  "term_ko": "보살",
+  "term_en": "bodhisattva",
+  "category": "person",
+  "contexts": [
+   "여러 부처와 보살을 봄"
+  ]
+ },
+ {
+  "id": "brushing-teeth",
+  "term_ko": "양치질",
+  "term_en": "brushing teeth",
+  "category": "action",
+  "contexts": [
+   "이를 닦음"
+  ]
+ },
+ {
+  "id": "clapper",
+  "term_ko": "박판",
+  "term_en": "clapper",
+  "category": "object",
+  "contexts": [
+   "남과 함께 박판을 침"
+  ]
+ },
+ {
+  "id": "combing-one-s-hair",
+  "term_ko": "머리 빗기",
+  "term_en": "combing one's hair",
+  "category": "action",
+  "contexts": [
+   "머리를 곱게 빗음"
+  ]
+ },
+ {
+  "id": "deceased-elder",
+  "term_ko": "돌아가신 어른",
+  "term_en": "deceased elder",
+  "category": "person",
+  "contexts": [
+   "먼저 돌아가신 웃어른을 봄"
+  ]
+ },
+ {
+  "id": "dove",
+  "term_ko": "비둘기",
+  "term_en": "dove",
+  "category": "animal",
+  "contexts": [
+   "비둘기가 욺"
+  ]
+ },
+ {
+  "id": "fireworks",
+  "term_ko": "불꽃놀이",
+  "term_en": "fireworks",
+  "category": "object",
+  "contexts": [
+   "불꽃놀이를 봄"
+  ]
+ },
+ {
+  "id": "fog",
+  "term_ko": "안개",
+  "term_en": "fog",
+  "category": "nature",
+  "contexts": [
+   "안개가 앞을 가림"
+  ]
+ },
+ {
+  "id": "heavenly-messenger",
+  "term_ko": "하늘의 사자",
+  "term_en": "heavenly messenger",
+  "category": "person",
+  "contexts": [
+   "하늘이 보낸 사자를 봄"
+  ]
+ },
+ {
+  "id": "house-centipede",
+  "term_ko": "그리마",
+  "term_en": "house centipede",
+  "category": "animal",
+  "contexts": [
+   "그리마를 봄"
+  ]
+ },
+ {
+  "id": "joy",
+  "term_ko": "기쁨",
+  "term_en": "joy",
+  "category": "action",
+  "contexts": [
+   "집안에 기쁜 일이 있음"
+  ]
+ },
+ {
+  "id": "leech",
+  "term_ko": "거머리",
+  "term_en": "leech",
+  "category": "animal",
+  "contexts": [
+   "거머리를 봄"
+  ]
+ },
+ {
+  "id": "moth",
+  "term_ko": "나방",
+  "term_en": "moth",
+  "category": "animal",
+  "contexts": [
+   "나방이 등불로 날아듦"
+  ]
+ },
+ {
+  "id": "music",
+  "term_ko": "풍악",
+  "term_en": "music",
+  "category": "action",
+  "contexts": [
+   "남이 풍악을 울림"
+  ]
+ },
+ {
+  "id": "peach",
+  "term_ko": "복숭아",
+  "term_en": "peach",
+  "category": "object",
+  "contexts": [
+   "감과 복숭아를 먹음"
+  ]
+ },
+ {
+  "id": "poverty",
+  "term_ko": "가난",
+  "term_en": "poverty",
+  "category": "action",
+  "contexts": [
+   "가난하게 군사들 틈에 지냄"
+  ]
+ },
+ {
+  "id": "roe-deer",
+  "term_ko": "노루",
+  "term_en": "roe deer",
+  "category": "animal",
+  "contexts": [
+   "노루가 집 안에 있음"
+  ]
+ },
+ {
+  "id": "sage",
+  "term_ko": "성현",
+  "term_en": "sage",
+  "category": "person",
+  "contexts": [
+   "성현과 이야기를 나눔"
+  ]
+ },
+ {
+  "id": "someone-calling-out",
+  "term_ko": "부르는 소리",
+  "term_en": "someone calling out",
+  "category": "action",
+  "contexts": [
+   "남이 밖에서 부름"
+  ]
+ },
+ {
+  "id": "sprout",
+  "term_ko": "싹",
+  "term_en": "sprout",
+  "category": "nature",
+  "contexts": [
+   "싹이 돋아남"
+  ]
+ },
+ {
+  "id": "umbrella",
+  "term_ko": "우산",
+  "term_en": "umbrella",
+  "category": "object",
+  "contexts": [
+   "남과 우산을 나눔"
+  ]
+ },
+ {
+  "id": "washbasin",
+  "term_ko": "세숫대야",
+  "term_en": "washbasin",
+  "category": "object",
+  "contexts": [
+   "세숫대야를 봄"
+  ]
+ },
+ {
+  "id": "writing",
+  "term_ko": "글씨 쓰기",
+  "term_en": "writing",
+  "category": "action",
+  "contexts": [
+   "시문을 짓고 글씨를 씀"
+  ]
+ }
+]

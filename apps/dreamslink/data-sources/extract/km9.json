@@ -1,0 +1,578 @@
+[
+  {
+    "id": "boat",
+    "aliases": ["나룻배", "돛단배", "선박", "여객선", "어선", "보트", "뱃머리"],
+    "aliases_en": ["ship", "sailboat", "ferry", "canoe", "boats"],
+    "contexts": {
+      "배를 먹음": "먹었 먹어 먹는 깎아 달콤 과일",
+      "배가 지붕 위를 지나감": "지붕 옥상 기와 처마",
+      "배가 하늘을 날아감": "하늘 날아 날았 공중 떠올라",
+      "배가 얕은 물에서 언덕에 걸림": "얕은 얕아 언덕 모래 좌초 걸려 걸렸",
+      "배를 타고 강을 건넘": "강을 강물 강가 건너 건넜 나루",
+      "배 안에 물이 고여 있음": "고여 고인 침수 잠겨 새어들",
+      "배를 타고 해와 달을 봄": "해와 햇빛 달빛 일월",
+      "배를 타고 해와 달을 지나감": "해와 지나갔 지나가 스쳐 통과 가로질러",
+      "배를 타고 술을 마심": "술을 마셨 마시 취해 잔치",
+      "남과 한 배를 탐": "함께 같이 동승 일행 여럿이",
+      "배가 돛에 바람을 받아 나아감": "돛을 돛이 바람 순풍 나아가",
+      "배를 타고 키를 봄": "키를 키가 방향타 조타 노를",
+      "배를 타고 다리 밑을 지남": "다리 교각 밑을 아래로 지나쳤",
+      "앓는 사람이 배를 탐": "앓는 아픈 병든 환자 아파",
+      "아버지를 도와 배를 탐": "아버지 아버님 부친 도와 도왔",
+      "몸이 배 안에 누움": "누워 누웠 드러누 잠들 자고",
+      "불을 들고 배에 오름": "불을 횃불 등불 불빛 들고",
+      "집 안에서 배를 탐": "집안 방안 마당 실내 집에서",
+      "배를 타고 꽃을 봄": "꽃이 꽃을 꽃밭 만발 화사",
+      "배가 부서져 깨짐": "부서 깨졌 깨져 침몰 가라앉 난파"
+    },
+    "contexts_en": {
+      "배를 먹음": "ate eating pear fruit sweet",
+      "배가 지붕 위를 지나감": "roof rooftop tiles eaves",
+      "배가 하늘을 날아감": "sky flying flew air soaring",
+      "배가 얕은 물에서 언덕에 걸림": "shallow shore hill aground stuck stranded sandbank",
+      "배를 타고 강을 건넘": "river crossing crossed cross ferry",
+      "배 안에 물이 고여 있음": "leaking leak flooded pooled bilge swamped",
+      "배를 타고 해와 달을 봄": "sun moon sunlight moonlight",
+      "배를 타고 해와 달을 지나감": "sun moon passed passing sailed beyond",
+      "배를 타고 술을 마심": "drinking drank liquor wine alcohol",
+      "남과 한 배를 탐": "together others companion shared aboard",
+      "배가 돛에 바람을 받아 나아감": "sail sails wind breeze forward",
+      "배를 타고 키를 봄": "rudder helm steering oar tiller",
+      "배를 타고 다리 밑을 지남": "bridge underneath beneath arch",
+      "앓는 사람이 배를 탐": "sick ill illness patient ailing",
+      "아버지를 도와 배를 탐": "father dad helping helped",
+      "몸이 배 안에 누움": "lying lay asleep sleeping resting",
+      "불을 들고 배에 오름": "fire torch lamp lantern carrying",
+      "집 안에서 배를 탐": "house home indoors room courtyard",
+      "배를 타고 꽃을 봄": "flower flowers blossoms blooming",
+      "배가 부서져 깨짐": "broke broken wrecked sank sinking capsized"
+    }
+  },
+  {
+    "id": "bridge",
+    "aliases": ["교량", "돌다리", "구름다리", "육교", "외나무다리"],
+    "aliases_en": ["overpass", "footbridge", "bridges"],
+    "contexts": {
+      "다리를 고쳐 손봄": "고쳐 고쳤 수리 보수 손질",
+      "다리를 건너는 것을 봄": "건너는 건너가 건넜 건너서",
+      "다리 위에 앉아 있음": "앉아 앉았 걸터앉 앉은",
+      "다리가 무너진 것을 봄": "무너 무너져 무너진 붕괴 내려앉",
+      "손을 잡고 함께 다리에 오름": "손잡고 손을잡 함께 같이 나란히",
+      "다리 위에서 소리쳐 부름": "소리쳐 소리질 외쳤 불렀 고함",
+      "다리를 새로 놓음": "새로 놓았 놓는 건설 세웠",
+      "다리가 끊어짐": "끊어 끊겼 끊긴 잘렸",
+      "다리 기둥이 부러짐": "기둥 교각 받침 부러 부러졌",
+      "다리와 길 위로 수레가 지나감": "수레 마차 달려 길위로",
+      "배로 다리 밑을 지나감": "배가 배로 밑을 아래로 뱃길"
+    },
+    "contexts_en": {
+      "다리를 고쳐 손봄": "repair repaired repairing fixing mending",
+      "다리를 건너는 것을 봄": "crossing crossed across walking over",
+      "다리 위에 앉아 있음": "sitting sat perched",
+      "다리가 무너진 것을 봄": "collapsed collapsing crumbled caved",
+      "손을 잡고 함께 다리에 오름": "holding hands together climbed",
+      "다리 위에서 소리쳐 부름": "shouting shouted calling yelled",
+      "다리를 새로 놓음": "new build built building constructed",
+      "다리가 끊어짐": "snapped severed cut broke apart",
+      "다리 기둥이 부러짐": "pillar pier post column support",
+      "다리와 길 위로 수레가 지나감": "cart wagon carriage road passing",
+      "배로 다리 밑을 지나감": "boat sailing underneath beneath"
+    }
+  },
+  {
+    "id": "mirror",
+    "aliases": ["손거울", "전신거울", "화장거울", "경대"],
+    "aliases_en": ["looking glass", "hand mirror", "mirrors"],
+    "contexts": {
+      "거울에 비친 모습이 밝음": "비친 모습 밝았 환한 또렷",
+      "거울에 비친 모습이 어두움": "비친 모습 어두웠 어두운 침침",
+      "깨진 거울로 사람을 비춤": "깨진 금간 조각난 갈라진",
+      "거울이 밝게 비침": "밝게 환하게 빛났 빛나 반짝",
+      "거울이 어둡게 흐림": "흐릿 흐려 흐린 뿌옇 김서",
+      "거울을 주움": "주웠 주운 줍는 떨어져있",
+      "거울로 자기를 비춰 봄": "자신 자기 스스로 나를",
+      "거울로 남을 비춤": "남을 다른사람 타인 상대방",
+      "남의 거울을 얻음": "얻었 얻은 받았 선물 남의",
+      "남이 자기 거울을 만지작거림": "만지작 만졌 만지 손대 뒤적",
+      "거울이 깨짐": "깨졌 깨져 깨뜨 산산조각 부서"
+    },
+    "contexts_en": {
+      "거울에 비친 모습이 밝음": "reflection reflected image bright clear",
+      "거울에 비친 모습이 어두움": "reflection reflected image dark dim gloomy",
+      "깨진 거울로 사람을 비춤": "cracked chipped split fractured",
+      "거울이 밝게 비침": "shining shone gleaming brightly glowing",
+      "거울이 어둡게 흐림": "cloudy blurry foggy hazy dull tarnished",
+      "거울을 주움": "picked found lying ground",
+      "거울로 자기를 비춰 봄": "myself self own face",
+      "거울로 남을 비춤": "another person else others",
+      "남의 거울을 얻음": "received got given borrowed",
+      "남이 자기 거울을 만지작거림": "touching touched handling fiddling",
+      "거울이 깨짐": "broke breaking shattered smashed pieces"
+    }
+  },
+  {
+    "id": "shoes",
+    "aliases": ["구두", "운동화", "짚신", "나막신", "고무신", "슬리퍼", "샌들"],
+    "aliases_en": ["shoe", "sneakers", "sandals", "footwear", "boots"],
+    "contexts": {
+      "남이 자기 신을 신음": "남이 다른사람 타인이 누군가",
+      "신을 얻음": "얻었 얻은 받았 생겼 선물",
+      "신을 잃어버림": "잃어 잃었 없어졌 사라졌 도둑",
+      "신을 벗음": "벗었 벗고 벗어 맨발",
+      "신이 해져 떨어짐": "해져 해진 낡아 낡은 구멍 닳아",
+      "삼으로 삼은 신을 신음": "짚신 삼은 삼으로 미투리",
+      "빌어서 신을 얻음": "빌려 빌린 빌어서 얻어신",
+      "나막신이 벗겨짐": "나막신 벗겨 미끄러"
+    },
+    "contexts_en": {
+      "남이 자기 신을 신음": "someone else another wearing mine",
+      "신을 얻음": "got received obtained new pair",
+      "신을 잃어버림": "lost losing missing gone disappeared",
+      "신을 벗음": "removed barefoot took",
+      "신이 해져 떨어짐": "worn torn tattered hole ragged",
+      "삼으로 삼은 신을 신음": "straw hemp woven sandals",
+      "빌어서 신을 얻음": "borrowed borrowing lent begged",
+      "나막신이 벗겨짐": "clogs slipped came off"
+    }
+  },
+  {
+    "id": "hat",
+    "aliases": ["관모", "두건", "벙거지", "중절모", "야구모자"],
+    "aliases_en": ["cap", "caps", "headgear", "hood"],
+    "contexts": {
+      "관을 쓰고 수레에 오름": "수레 마차 가마 타고",
+      "스스로 두건과 모자를 씀": "스스로 직접 두건 손수",
+      "관을 쓰고 높은 대에 오름": "높은 누대 단상 올라가 계단",
+      "귀인이 관을 줌": "귀인 높은사람 주었 받았 선물",
+      "관을 새것으로 바꿔 씀": "새것 새로 바꿔 바꾸 갈아",
+      "관모가 불에 타 없어짐": "불에 불이 타서 불타 재가",
+      "관모를 잃어버림": "잃어 잃었 없어졌 사라졌 도둑"
+    },
+    "contexts_en": {
+      "관을 쓰고 수레에 오름": "cart carriage wagon riding",
+      "스스로 두건과 모자를 씀": "myself headscarf kerchief wearing",
+      "관을 쓰고 높은 대에 오름": "high platform terrace climbed tall",
+      "귀인이 관을 줌": "noble nobleman gave gift received",
+      "관을 새것으로 바꿔 씀": "new replaced changed swapped",
+      "관모가 불에 타 없어짐": "burned burnt fire ashes",
+      "관모를 잃어버림": "lost missing gone disappeared"
+    }
+  },
+  {
+    "id": "belt",
+    "aliases": ["혁대", "벨트", "허리끈", "허리춤"],
+    "aliases_en": ["sash", "girdle", "waistband", "belts"],
+    "contexts": {
+      "남이 허리띠를 보내옴": "보내왔 보내온 남이 선물 부쳐",
+      "관복의 띠를 주움": "주웠 주운 관복 떨어져있",
+      "허리띠를 맴": "매었 매고 둘렀 차고",
+      "옷의 띠가 저절로 풀림": "저절로 풀렸 풀려 풀어졌 스르르",
+      "띠를 졸라맴": "졸라 조였 조여 단단히 꽉조"
+    },
+    "contexts_en": {
+      "남이 허리띠를 보내옴": "sent gave brought someone",
+      "관복의 띠를 주움": "picked found official robe",
+      "허리띠를 맴": "tied fastened wore wearing",
+      "옷의 띠가 저절로 풀림": "undone loosened untied itself",
+      "띠를 졸라맴": "tightened tight cinched pulled"
+    }
+  },
+  {
+    "id": "crane",
+    "aliases": ["두루미"],
+    "aliases_en": ["cranes", "white crane"],
+    "contexts": {
+      "학이 하늘로 올라감": "하늘 날아올 올라가 승천 높이",
+      "학이 욺": "울었 우는 울음 우짖",
+      "학이 품속으로 들어옴": "품속 품에 안겼 들어왔",
+      "학이 수레를 끎": "수레 마차 끌었 끄는",
+      "학을 놓아 줌": "놓아 풀어 날려보 자유"
+    },
+    "contexts_en": {
+      "학이 하늘로 올라감": "sky rose ascending soaring upward",
+      "학이 욺": "cried crying call calling",
+      "학이 품속으로 들어옴": "arms bosom embraced chest",
+      "학이 수레를 끎": "cart pulling pulled wagon",
+      "학을 놓아 줌": "released freed let loose"
+    }
+  },
+  {
+    "id": "army",
+    "aliases": ["부대", "병영"],
+    "aliases_en": ["troops", "military", "armies"],
+    "contexts": {
+      "군마가 성으로 들어옴": "군마 성으로 성안 들어왔 말들이",
+      "군대 진영 안에 있음": "진영 막사 진지 안에있",
+      "장수와 병졸이 뒤따름": "장수 병졸 뒤따 따라왔 거느",
+      "군대가 패하는 것을 봄": "패했 패하 패배 졌다 무너"
+    },
+    "contexts_en": {
+      "군마가 성으로 들어옴": "warhorses entered fortress walls gate",
+      "군대 진영 안에 있음": "camp barracks encampment inside",
+      "장수와 병졸이 뒤따름": "general following followed behind troops",
+      "군대가 패하는 것을 봄": "defeated defeat losing lost routed"
+    }
+  },
+  {
+    "id": "hairpin",
+    "aliases": ["금비녀", "은비녀", "머리핀"],
+    "aliases_en": ["hairpins", "hair pin", "hair stick"],
+    "contexts": {
+      "금비녀가 흔들려 움직임": "흔들 흔들렸 움직 떨렸",
+      "비녀와 팔찌가 서로 부딪힘": "팔찌 부딪 서로 맞부딪",
+      "금비녀가 환하게 빛남": "빛났 환하 반짝 번쩍 금빛",
+      "꽃을 새긴 비녀를 봄": "꽃무늬 새겨 새긴 조각"
+    },
+    "contexts_en": {
+      "금비녀가 흔들려 움직임": "shaking swaying trembling moved",
+      "비녀와 팔찌가 서로 부딪힘": "bracelet clinked knocked together",
+      "금비녀가 환하게 빛남": "shining glowed sparkled golden",
+      "꽃을 새긴 비녀를 봄": "flower carved engraved pattern"
+    }
+  },
+  {
+    "id": "rope",
+    "aliases": ["동아줄", "새끼줄", "포승줄", "로프"],
+    "aliases_en": ["ropes", "cord", "cords"],
+    "contexts": {
+      "밧줄이 몸을 묶음": "묶였 묶여 묶인 감겼 결박 옭아",
+      "밧줄을 봄": "놓여 늘어져 걸려있 가만히",
+      "밧줄이 끊어짐": "끊어 끊겼 끊긴 잘렸"
+    },
+    "contexts_en": {
+      "밧줄이 몸을 묶음": "tied bound wrapped around restrained",
+      "밧줄을 봄": "lying coiled hanging",
+      "밧줄이 끊어짐": "snapped broke breaking severed"
+    }
+  },
+  {
+    "id": "dog",
+    "aliases": ["강아지", "반려견", "멍멍이"],
+    "aliases_en": ["puppy", "dogs", "hound"],
+    "contexts": {
+      "사나운 개를 봄": "사나운 사납 무서운 으르렁 맹견",
+      "개가 사람을 보고 짖음": "낯선 행인 지나가는 모르는 짖었 짖는",
+      "개가 주인을 보고 짖음": "주인 주인을 주인에게 집주인"
+    },
+    "contexts_en": {
+      "사나운 개를 봄": "fierce vicious ferocious growling angry",
+      "개가 사람을 보고 짖음": "stranger passerby unfamiliar someone",
+      "개가 주인을 보고 짖음": "owner master household"
+    }
+  },
+  {
+    "id": "insect",
+    "aliases": ["곤충", "구더기", "애벌레", "송충이"],
+    "aliases_en": ["insects", "bug", "bugs", "worms"],
+    "contexts": {
+      "병든 몸에 벌레가 생김": "병든 아픈 상처 생겼 들끓 곪은",
+      "몸 위로 벌레가 기어감": "기어 기어가 기어다 스멀",
+      "몸이 벌레 위에 앉음": "앉았 위에앉 깔고 눌러 밟았"
+    },
+    "contexts_en": {
+      "병든 몸에 벌레가 생김": "sick ill wound sores infested appeared",
+      "몸 위로 벌레가 기어감": "crawling crawled creeping over",
+      "몸이 벌레 위에 앉음": "sat sitting pressed squashed"
+    }
+  },
+  {
+    "id": "scissors",
+    "aliases": [],
+    "aliases_en": ["shears"],
+    "contexts": {
+      "가위를 봄": "놓여 보였 발견",
+      "가위로 물건을 자름": "잘랐 자르 오렸 베었 재단",
+      "가위의 다리가 부러짐": "부러 부러졌 부서 망가"
+    },
+    "contexts_en": {
+      "가위를 봄": "lying there noticed spotted",
+      "가위로 물건을 자름": "cut cutting snipped trimmed",
+      "가위의 다리가 부러짐": "broke broken snapped blade"
+    }
+  },
+  {
+    "id": "urine",
+    "aliases": ["소변", "방뇨"],
+    "aliases_en": ["pee", "urinating", "peeing"],
+    "contexts": {
+      "오줌이 몸을 더럽힘": "더럽 묻었 젖었 지렸 얼룩",
+      "소변을 잃어버림": "잃어 잃었 못참 참지"
+    },
+    "contexts_en": {
+      "오줌이 몸을 더럽힘": "soiled stained wet dirty splashed",
+      "소변을 잃어버림": "lost losing incontinence hold"
+    }
+  },
+  {
+    "id": "cart-wheel",
+    "aliases": ["바퀴", "차바퀴"],
+    "aliases_en": ["wheel", "wheels"],
+    "contexts": {
+      "수레바퀴가 부서짐": "부서 부숴 깨졌 산산",
+      "수레바퀴가 꺾여 넘어짐": "꺾여 꺾인 넘어졌 기울어 쓰러"
+    },
+    "contexts_en": {
+      "수레바퀴가 부서짐": "broke shattered smashed",
+      "수레바퀴가 꺾여 넘어짐": "bent buckled toppled tipped fell"
+    }
+  },
+  {
+    "id": "child",
+    "aliases": ["어린아이", "어린이", "자식", "꼬마", "아들딸"],
+    "aliases_en": ["kid", "kids", "children", "little one"],
+    "contexts": {
+      "어린 아들딸을 품에 안음": "품에 안았 안고 껴안 아들딸",
+      "어린아이가 죽음": "죽었 죽는 숨졌 잃었 세상을떠"
+    },
+    "contexts_en": {
+      "어린 아들딸을 품에 안음": "held embraced arms hugging cradled",
+      "어린아이가 죽음": "died death passed away dying"
+    }
+  },
+  {
+    "id": "government-office",
+    "aliases": ["관가", "관아", "동헌"],
+    "aliases_en": ["magistrate", "government building"],
+    "contexts": {
+      "관청 안에 앉아 있음": "앉아 앉았 안에있 자리에",
+      "남을 관가로 불러들임": "불러 불렀 소환 끌려 데려"
+    },
+    "contexts_en": {
+      "관청 안에 앉아 있음": "sitting sat inside seated",
+      "남을 관가로 불러들임": "summoned called brought dragged"
+    }
+  },
+  {
+    "id": "greens",
+    "aliases": ["산나물", "푸성귀"],
+    "aliases_en": ["wild greens", "herbs"],
+    "contexts": {
+      "온갖 나물을 먹음": "온갖 여러가지 갖가지 골고루 푸짐",
+      "먹는 나물이 누렇게 뜬 것을 봄": "누렇 누런 노랗 시들 상한"
+    },
+    "contexts_en": {
+      "온갖 나물을 먹음": "all kinds various assorted many",
+      "먹는 나물이 누렇게 뜬 것을 봄": "yellowed wilted withered pale spoiled"
+    }
+  },
+  {
+    "id": "persimmon",
+    "aliases": ["홍시", "곶감", "단감", "연시"],
+    "aliases_en": ["persimmons"],
+    "contexts": {
+      "감과 귤을 먹음": "귤을 귤과 감귤 밀감",
+      "감과 복숭아를 먹음": "복숭아 천도 도리"
+    },
+    "contexts_en": {
+      "감과 귤을 먹음": "tangerine tangerines mandarin citrus",
+      "감과 복숭아를 먹음": "peach peaches"
+    }
+  },
+  {
+    "id": "person-reading-a-book",
+    "aliases": ["글 읽는 사람", "독서하는 사람", "책을 읽는 사람", "책을 읽고"],
+    "aliases_en": ["someone reading", "reader", "reading a book"],
+    "contexts": {
+      "책 읽는 사람을 봄": "선비 학생 공부하는 글읽는",
+      "남이 책 읽는 것을 봄": "남이 다른 타인이 옆에서 누군가"
+    },
+    "contexts_en": {
+      "책 읽는 사람을 봄": "scholar student studying aloud",
+      "남이 책 읽는 것을 봄": "someone else another person"
+    }
+  },
+  {
+    "id": "steamed-bun",
+    "aliases": ["왕만두", "찐만두"],
+    "aliases_en": ["dumpling", "dumplings", "bun", "buns", "mandu"],
+    "contexts": {
+      "만두를 먹음": "먹었 먹어 맛있 배불리",
+      "만두를 보고도 먹지 못함": "먹지 못했 못하고 바라만 굶주"
+    },
+    "contexts_en": {
+      "만두를 먹음": "ate eating delicious full",
+      "만두를 보고도 먹지 못함": "unable hungry watched only stared"
+    }
+  },
+  {
+    "id": "swallow",
+    "aliases": [],
+    "aliases_en": ["swallows"],
+    "contexts": {
+      "제비가 날아 품에 들어옴": "품에 품속 안겼 들어왔 가슴에",
+      "제비가 날아옴": "날아왔 날아오 지저귀 처마"
+    },
+    "contexts_en": {
+      "제비가 날아 품에 들어옴": "arms bosom chest into",
+      "제비가 날아옴": "flew flying arrived came"
+    }
+  },
+  {
+    "id": "being-killed-2",
+    "aliases": ["살해당했다", "살해당하는", "살해됐다", "죽임을 당했다", "피살"],
+    "aliases_en": ["was killed", "was murdered", "murdered me", "killed me"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "being-punished",
+    "aliases": ["벌을 받았다", "벌을 받는", "처벌을 받았다", "혼났다"],
+    "aliases_en": ["punished", "was punished", "penalty"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cat",
+    "aliases": ["길고양이", "새끼고양이", "야옹이"],
+    "aliases_en": ["kitten", "cats", "kitty"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "centipede",
+    "aliases": ["왕지네"],
+    "aliases_en": ["centipedes"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crow",
+    "aliases": ["갈까마귀"],
+    "aliases_en": ["crows", "raven", "ravens"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crown-prince",
+    "aliases": ["세자", "왕세자", "황태자"],
+    "aliases_en": ["prince", "heir apparent", "royal heir"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "elder",
+    "aliases": ["어르신", "윗어른", "연장자"],
+    "aliases_en": ["elders", "senior", "older person"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "elephant",
+    "aliases": [],
+    "aliases_en": ["elephants", "white elephant"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "garlic",
+    "aliases": ["통마늘", "깐마늘"],
+    "aliases_en": ["garlic clove", "cloves of garlic"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "go-stone",
+    "aliases": ["바둑알", "바둑"],
+    "aliases_en": ["go stones", "baduk", "go board"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "indigo-clothing",
+    "aliases": ["남색 옷", "쪽빛옷", "남빛 옷"],
+    "aliases_en": ["indigo robe", "indigo clothes"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ink-stick",
+    "aliases": ["먹물"],
+    "aliases_en": ["ink", "ink stick"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "maple-tree",
+    "aliases": ["단풍"],
+    "aliases_en": ["maple", "maple leaves"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "mattress",
+    "aliases": ["이부자리", "매트리스", "깔개"],
+    "aliases_en": ["bedding", "sleeping mat", "futon"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "oil",
+    "aliases": ["참기름", "들기름", "식용유"],
+    "aliases_en": ["sesame oil", "cooking oil", "oils"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "orchard",
+    "aliases": ["과일밭"],
+    "aliases_en": ["orchards", "fruit garden"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "receiving-an-official-post",
+    "aliases": ["관직을 받았다", "벼슬을 받았다", "부임했다", "임명받았다", "승진했다"],
+    "aliases_en": ["appointed", "official appointment", "promotion", "took office"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "red",
+    "aliases": ["빨간색", "붉은빛", "빨강", "적색"],
+    "aliases_en": ["crimson", "scarlet", "reddish"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "shackles",
+    "aliases": ["사슬", "쇠줄"],
+    "aliases_en": ["chains", "iron chain"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "siblings",
+    "aliases": ["남매", "자매", "오누이"],
+    "aliases_en": ["brothers", "sisters", "brother and sister"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "tangerine",
+    "aliases": ["감귤", "밀감"],
+    "aliases_en": ["tangerines", "mandarin", "citrus"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "taoist-priest",
+    "aliases": ["도인", "여도사"],
+    "aliases_en": ["taoist", "daoist priest"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wedding",
+    "aliases": ["결혼식", "혼인", "혼인하는", "결혼했다", "결혼하는"],
+    "aliases_en": ["marriage", "getting married", "wedding ceremony", "married"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wheat-flour",
+    "aliases": [],
+    "aliases_en": ["flour"],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -1,0 +1,501 @@
+[
+ {
+  "id": "fire",
+  "term_ko": "불",
+  "term_en": "fire",
+  "category": "nature",
+  "contexts": [
+   "불 위에 차려 놓은 것을 봄",
+   "하늘의 불이 문을 태움",
+   "물 위에서 불이 나옴",
+   "불이 해와 달을 태움",
+   "불이 강물을 태움",
+   "불이 산과 들을 태움",
+   "불이 제 집을 태움",
+   "불꽃이 활활 타오름",
+   "불이 땅에서 솟아남",
+   "불을 들고 길을 감",
+   "큰불이 하늘을 태움",
+   "몸이 불 속에 있음",
+   "불을 잡고 길을 감",
+   "불을 잡고 우물을 태움",
+   "집 안에 불빛이 있음",
+   "부엌에서 불이 남",
+   "벼슬을 기다리며 불을 켬",
+   "사람을 태워 고약한 냄새가 남",
+   "불을 손에 들고 배에 오름"
+  ]
+ },
+ {
+  "id": "water",
+  "term_ko": "물",
+  "term_en": "water",
+  "category": "nature",
+  "contexts": [
+   "물을 마심",
+   "우물을 파서 물을 봄",
+   "물 위를 걸어감",
+   "물 위에 서 있음",
+   "물이 넘실넘실 흐름",
+   "물 위에서 불이 나옴",
+   "스스로 물속에 있음",
+   "물에 빠져 나오지 못함",
+   "쉬지 않고 물을 마심",
+   "흐르는 물이 몸을 감돎",
+   "큰물이 맑게 갬",
+   "남의 집에 물이 있음",
+   "배 안에 물이 고여 있음"
+  ]
+ },
+ {
+  "id": "mountain",
+  "term_ko": "산",
+  "term_en": "mountain",
+  "category": "place",
+  "contexts": [
+   "산이 해와 달을 물고 있음",
+   "불이 산과 들을 태움",
+   "산에 올랐다가 땅에 떨어짐",
+   "산에 오르며 두려워함",
+   "오르던 산이 무너져 내림",
+   "높은 산을 유람하며 구경함",
+   "높은 산에 자리 잡고 삶",
+   "산길을 가다 재물을 얻음",
+   "물건을 안고 산에 오름",
+   "산속에서 농사를 지음"
+  ]
+ },
+ {
+  "id": "prison",
+  "term_ko": "감옥",
+  "term_en": "prison",
+  "category": "place",
+  "contexts": [
+   "감옥이 무너짐",
+   "옥에 갇혀 앉아 있음",
+   "옥에 들어가 재앙을 당함",
+   "옥중에서 죽는 사람을 봄",
+   "남을 옥에 들여보냄",
+   "감옥 안으로 들어감",
+   "도적이 스스로 옥에 들어감",
+   "감옥이 더럽고 냄새남"
+  ]
+ },
+ {
+  "id": "kitchen-stove",
+  "term_ko": "부뚜막",
+  "term_en": "kitchen stove",
+  "category": "object",
+  "contexts": [
+   "부뚜막 아래로 물이 흐름",
+   "부뚜막 아래에 불을 땜",
+   "부뚜막과 솥이 깨짐",
+   "부뚜막 아래에 입김을 불어 넣음",
+   "부뚜막 아래에서 그릇이 울림",
+   "집에 부뚜막이 둘 있음",
+   "부엌과 부뚜막을 고쳐 지음"
+  ]
+ },
+ {
+  "id": "woman",
+  "term_ko": "여자",
+  "term_en": "woman",
+  "category": "person",
+  "contexts": [
+   "여자와 함께 길을 감",
+   "여자를 품에 안음",
+   "여자와 몸을 섞음",
+   "여자와 나란히 앉음",
+   "여자의 음부를 봄",
+   "여자가 알몸으로 있음"
+  ]
+ },
+ {
+  "id": "mouse",
+  "term_ko": "쥐",
+  "term_en": "mouse",
+  "category": "animal",
+  "contexts": [
+   "쥐가 참새와 싸움",
+   "쥐가 고양이에게 잡힘",
+   "흰 쥐가 길을 인도함",
+   "쥐가 사람의 옷을 물어뜯음",
+   "쥐가 크게 내달림"
+  ]
+ },
+ {
+  "id": "cauldron",
+  "term_ko": "솥",
+  "term_en": "cauldron",
+  "category": "object",
+  "contexts": [
+   "큰 솥을 봄",
+   "솥이 넘치도록 가득 참",
+   "무쇠솥이 깨짐",
+   "부뚜막과 솥이 깨짐"
+  ]
+ },
+ {
+  "id": "jade",
+  "term_ko": "옥",
+  "term_en": "jade",
+  "category": "object",
+  "contexts": [
+   "금은과 주옥을 봄",
+   "옥이 산처럼 쌓임",
+   "주옥이 품에 가득함",
+   "옥 그릇과 기물을 얻음"
+  ]
+ },
+ {
+  "id": "being-beaten",
+  "term_ko": "매맞음",
+  "term_en": "being beaten",
+  "category": "action",
+  "contexts": [
+   "남에게 맞음",
+   "남에게 발로 차임",
+   "아내에게 맞음"
+  ]
+ },
+ {
+  "id": "crossbow",
+  "term_ko": "쇠뇌",
+  "term_en": "crossbow",
+  "category": "object",
+  "contexts": [
+   "남이 활과 쇠뇌를 보내 줌",
+   "쇠뇌에 시위를 걸기 어려움",
+   "활과 쇠뇌가 서로 다툼"
+  ]
+ },
+ {
+  "id": "leopard",
+  "term_ko": "표범",
+  "term_en": "leopard",
+  "category": "animal",
+  "contexts": [
+   "표범을 봄",
+   "표범 같은 짐승을 봄",
+   "표범을 잡음"
+  ]
+ },
+ {
+  "id": "official",
+  "term_ko": "관리",
+  "term_en": "official",
+  "category": "person",
+  "contexts": [
+   "관리를 마주 대함",
+   "관리가 관청으로 이끌어 감",
+   "관리에게 이름이 적혀 걸림"
+  ]
+ },
+ {
+  "id": "wolf",
+  "term_ko": "이리",
+  "term_en": "wolf",
+  "category": "animal",
+  "contexts": [
+   "이리가 움직이지 않고 있음",
+   "이리를 봄",
+   "이리가 다리를 물어뜯음"
+  ]
+ },
+ {
+  "id": "brazier",
+  "term_ko": "화로",
+  "term_en": "brazier",
+  "category": "object",
+  "contexts": [
+   "옷을 말리는 화로 바구니를 봄",
+   "여러 사람이 화로를 둘러쌈"
+  ]
+ },
+ {
+  "id": "comb",
+  "term_ko": "빗",
+  "term_en": "comb",
+  "category": "object",
+  "contexts": [
+   "남이 빗을 줌",
+   "상아나 나무로 만든 빗을 봄"
+  ]
+ },
+ {
+  "id": "gold-and-silver-treasure",
+  "term_ko": "금은보화",
+  "term_en": "gold and silver treasure",
+  "category": "object",
+  "contexts": [
+   "금은보화를 봄",
+   "금은과 주옥을 봄"
+  ]
+ },
+ {
+  "id": "head",
+  "term_ko": "머리",
+  "term_en": "head",
+  "category": "body",
+  "contexts": [
+   "남이 자기 머리를 내리침",
+   "머리가 잘린 채로 걸어감"
+  ]
+ },
+ {
+  "id": "pan",
+  "term_ko": "냄비",
+  "term_en": "pan",
+  "category": "object",
+  "contexts": [
+   "구리 냄비를 봄",
+   "냄비가 깨짐"
+  ]
+ },
+ {
+  "id": "quarrel",
+  "term_ko": "말다툼",
+  "term_en": "quarrel",
+  "category": "action",
+  "contexts": [
+   "남과 서로 욕하며 다툼",
+   "욕을 먹고도 모르는 척함"
+  ]
+ },
+ {
+  "id": "soldier-setting-out",
+  "term_ko": "출정하는 사람",
+  "term_en": "soldier setting out",
+  "category": "person",
+  "contexts": [
+   "출정하는 사람이 막 길을 나섬",
+   "출정했던 사람이 돌아옴"
+  ]
+ },
+ {
+  "id": "white-clothing",
+  "term_ko": "흰 옷",
+  "term_en": "white clothing",
+  "category": "object",
+  "contexts": [
+   "흰 옷을 입음",
+   "여러 사람이 흰 옷을 입음"
+  ]
+ },
+ {
+  "id": "being-bound",
+  "term_ko": "묶임",
+  "term_en": "being bound",
+  "category": "action",
+  "contexts": [
+   "남에게 몸이 묶임"
+  ]
+ },
+ {
+  "id": "black-clothing",
+  "term_ko": "검은 옷",
+  "term_en": "black clothing",
+  "category": "object",
+  "contexts": [
+   "검은 옷을 입음"
+  ]
+ },
+ {
+  "id": "calendar",
+  "term_ko": "달력",
+  "term_en": "calendar",
+  "category": "object",
+  "contexts": [
+   "책력을 얻음"
+  ]
+ },
+ {
+  "id": "chives",
+  "term_ko": "부추",
+  "term_en": "chives",
+  "category": "object",
+  "contexts": [
+   "파와 부추를 먹음"
+  ]
+ },
+ {
+  "id": "copper",
+  "term_ko": "구리",
+  "term_en": "copper",
+  "category": "object",
+  "contexts": [
+   "구리로 만든 물건을 얻음"
+  ]
+ },
+ {
+  "id": "dairy-food",
+  "term_ko": "유제품",
+  "term_en": "dairy food",
+  "category": "object",
+  "contexts": [
+   "남이 권하는 유제품을 먹음"
+  ]
+ },
+ {
+  "id": "dung-beetle",
+  "term_ko": "쇠똥구리",
+  "term_en": "dung beetle",
+  "category": "animal",
+  "contexts": [
+   "쇠똥구리가 무더기를 지음"
+  ]
+ },
+ {
+  "id": "face",
+  "term_ko": "얼굴",
+  "term_en": "face",
+  "category": "body",
+  "contexts": [
+   "얼굴에 검은 부스럼이 남"
+  ]
+ },
+ {
+  "id": "funeral-carriage",
+  "term_ko": "상여",
+  "term_en": "funeral carriage",
+  "category": "object",
+  "contexts": [
+   "상여와 마주침"
+  ]
+ },
+ {
+  "id": "green-onion",
+  "term_ko": "파",
+  "term_en": "green onion",
+  "category": "object",
+  "contexts": [
+   "파와 부추를 먹음"
+  ]
+ },
+ {
+  "id": "hunting",
+  "term_ko": "사냥",
+  "term_en": "hunting",
+  "category": "action",
+  "contexts": [
+   "숲속에서 사냥을 함"
+  ]
+ },
+ {
+  "id": "iron-2",
+  "term_ko": "쇠붙이",
+  "term_en": "iron",
+  "category": "object",
+  "contexts": [
+   "쇠로 만든 기물을 봄"
+  ]
+ },
+ {
+  "id": "lion",
+  "term_ko": "사자",
+  "term_en": "lion",
+  "category": "animal",
+  "contexts": [
+   "사자가 크게 울부짖음"
+  ]
+ },
+ {
+  "id": "mole-cricket",
+  "term_ko": "땅강아지",
+  "term_en": "mole cricket",
+  "category": "animal",
+  "contexts": [
+   "땅강아지를 봄"
+  ]
+ },
+ {
+  "id": "newborn-baby",
+  "term_ko": "갓난아이",
+  "term_en": "newborn baby",
+  "category": "person",
+  "contexts": [
+   "갓 태어난 아들딸을 봄"
+  ]
+ },
+ {
+  "id": "paper-money",
+  "term_ko": "지전",
+  "term_en": "paper money",
+  "category": "object",
+  "contexts": [
+   "남에게서 지전을 받음"
+  ]
+ },
+ {
+  "id": "purple-clothing",
+  "term_ko": "자줏빛 옷",
+  "term_en": "purple clothing",
+  "category": "object",
+  "contexts": [
+   "여러 사람이 자줏빛 옷을 입음"
+  ]
+ },
+ {
+  "id": "ring",
+  "term_ko": "가락지",
+  "term_en": "ring",
+  "category": "object",
+  "contexts": [
+   "금과 옥으로 된 가락지를 얻음"
+  ]
+ },
+ {
+  "id": "scales",
+  "term_ko": "저울",
+  "term_en": "scales",
+  "category": "object",
+  "contexts": [
+   "남이 저울을 건네줌"
+  ]
+ },
+ {
+  "id": "softshell-turtle",
+  "term_ko": "자라",
+  "term_en": "softshell turtle",
+  "category": "animal",
+  "contexts": [
+   "자라를 봄"
+  ]
+ },
+ {
+  "id": "table",
+  "term_ko": "탁자",
+  "term_en": "table",
+  "category": "object",
+  "contexts": [
+   "탁자를 집 안에 괴어 둠"
+  ]
+ },
+ {
+  "id": "tin",
+  "term_ko": "주석",
+  "term_en": "tin",
+  "category": "object",
+  "contexts": [
+   "납과 주석을 봄"
+  ]
+ },
+ {
+  "id": "washing-one-s-hair",
+  "term_ko": "머리 감기",
+  "term_en": "washing one's hair",
+  "category": "action",
+  "contexts": [
+   "머리를 감음"
+  ]
+ },
+ {
+  "id": "wicked-person-2",
+  "term_ko": "악한 사람",
+  "term_en": "wicked person",
+  "category": "person",
+  "contexts": [
+   "악한 사람이 서로 끌어당김"
+  ]
+ }
+]
