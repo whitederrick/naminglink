@@ -198,6 +198,12 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "grave", label: "무덤 — 나무가 꺾임", ko: "무덤의 나무가 꺾여 있었다", en: "the tree on the grave had broken" },
   { id: "coffin", label: "관 — 시신을 넣음", ko: "관에 시신을 넣는 것을 보았다", en: "I saw a body being placed into a coffin" },
   { id: "marriage", label: "결혼 — 남의 결혼", ko: "남의 결혼식을 보았다", en: "I watched someone else's wedding" },
+  { id: "monk", label: "스님 — 가르침", ko: "스님이 나에게 가르침을 줬다", en: "a monk taught me something" },
+  { id: "monk", label: "스님 — 경 읽는 모습", ko: "스님이 경을 읽는 모습을 보았다", en: "I watched a monk reading a sutra" },
+  { id: "god", label: "신 — 맞음", ko: "귀신에게 맞았다", en: "I was struck by a god" },
+  { id: "god", label: "신 — 귀신과 싸움", ko: "귀신과 싸웠다", en: "I fought with a vengeful god" },
+  { id: "prison", label: "감옥 — 무너짐", ko: "감옥이 무너져 있었다", en: "the prison had collapsed" },
+  { id: "thief", label: "도둑 — 쫓아냄", ko: "도둑을 쫓아냈다", en: "I chased the thief away" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");

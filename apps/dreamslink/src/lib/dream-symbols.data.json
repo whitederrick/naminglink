@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.20.0",
+  "dictVer": "1.23.0",
   "symbols": [
     {
       "id": "pig",
@@ -3128,7 +3128,9 @@
       "term_ko": "스님·성직자",
       "term_en": "monk / priest",
       "aliases": [
-        "종교인"
+        "종교인",
+        "스님",
+        "성직자"
       ],
       "category": "person",
       "polarity": "positive",
@@ -3144,15 +3146,31 @@
           "interpretation_en": "wisdom or guidance",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "스님이 가르침을 줌",
+          "interpretation_ko": "길한 일이 생길 조짐",
+          "interpretation_en": "a sign of good fortune",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "스님이 경 읽는 모습을 봄",
+          "interpretation_ko": "답답한 일이 생길 조짐",
+          "interpretation_en": "a sign of frustration or worry",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「僧師教人唸經吉」(스님이 경 읽는 법을 가르치면 길하다)·「和尚尼姑看經悶」(스님이나 비구니가 경을 보면 답답한 일이 생긴다)을 근거로 삼았다."
     },
     {
       "id": "god",
       "term_ko": "신·신령",
       "term_en": "god / deity",
       "aliases": [
-        "산신령"
+        "산신령",
+        "귀신"
       ],
       "category": "person",
       "polarity": "positive",
@@ -3168,8 +3186,23 @@
           "interpretation_en": "protection or important message",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "신에게 맞음",
+          "interpretation_ko": "불길한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "귀신과 싸움",
+          "interpretation_ko": "장수할 조짐",
+          "interpretation_en": "a sign of long life",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「被神鬼打大不祥」(신이나 귀신에게 맞으면 매우 불길하다)·「與鬼鬥者主延壽」(귀신과 싸우면 수명이 늘어난다)를 근거로 삼았다."
     },
     {
       "id": "stranger",
@@ -3388,8 +3421,16 @@
           "interpretation_en": "feeling trapped or restricted",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "감옥이 무너짐",
+          "interpretation_ko": "사면을 받을 조짐",
+          "interpretation_en": "a sign of being pardoned",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「牢獄崩壞有赦吉」(감옥이 무너지면 사면을 받아 길하다)을 근거로 삼았다."
     },
     {
       "id": "road",
@@ -5238,13 +5279,20 @@
         "재물"
       ],
       "weight": 1,
-      "culture_note": "도둑에게 빼앗기면 오히려 재물로 보기도",
+      "culture_note": "중국 고전 《주공해몽》 「趕賊行見者大吉」(도둑을 쫓아가는 것을 보면 크게 길하다)를 근거로 삼았다.",
       "meanings": [
         {
           "context": "도둑이 듦",
           "interpretation_ko": "손실 불안(반전으로 재물수도)",
           "interpretation_en": "fear of loss (sometimes wealth reversal)",
           "polarity": "neutral",
+          "source": "tradition"
+        },
+        {
+          "context": "도둑을 쫓아냄",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
           "source": "tradition"
         }
       ]
