@@ -233,6 +233,12 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "thief", label: "도둑 — 함께 다님", ko: "도둑과 함께 길을 다녔다", en: "I traveled along the road together with a thief" },
   { id: "bed", label: "침대 — 편안함", ko: "편안한 침대에 누워 잤다", en: "I lay down and slept in a comfortable bed" },
   { id: "bed", label: "침대 — 이불을 덮음", ko: "포근한 이불을 덮었다", en: "I covered myself with a warm, cozy blanket" },
+
+  // 밀러(Miller, 1901) 1차 배치(2026-08-27) — 218개 상징 vs 밀러 2,257개 표제어 대조로
+  // 아직 안 쓴 자료 72개를 발견, 그중 거미·반지·열쇠부터
+  { id: "spider", label: "거미 — 죽임", ko: "거미를 발로 밟아 죽였다", en: "I stepped on a spider and killed it" },
+  { id: "ring", label: "반지 — 깨짐", ko: "반지가 갑자기 깨졌다", en: "the ring on my finger broke" },
+  { id: "key", label: "열쇠 — 잃어버림", ko: "열쇠를 잃어버려서 곤란했다", en: "I lost my key and it caused trouble" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
