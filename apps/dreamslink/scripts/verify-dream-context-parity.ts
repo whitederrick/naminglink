@@ -225,6 +225,14 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "bridge", label: "다리 — 무너짐", ko: "다리가 무너진 것을 보았다", en: "I saw the bridge had collapsed" },
   { id: "market", label: "시장 — 북적임", ko: "북적이는 시장을 구경했다", en: "I visited a bustling market" },
   { id: "market", label: "시장 — 사람 없음", ko: "사람이 없는 시장을 보았다", en: "I saw an empty, deserted market" },
+
+  // 12차 배치(2026-08-27) — 帝王文武呼召·身體面目齒髮·被害鬥傷打罵·衣帳毯褥匙櫡 갈래
+  { id: "hair", label: "머리카락 — 하얗게 셈", ko: "머리카락이 갑자기 하얗게 세었다", en: "my hair suddenly turned gray" },
+  { id: "president", label: "높은 사람 — 만남", ko: "귀인을 만나 나란히 앉았다", en: "I met the king and sat together" },
+  { id: "president", label: "높은 사람 — 못 만남", ko: "귀인을 만나러 갔지만 만나지 못했다", en: "I tried to visit the president but could not meet them" },
+  { id: "thief", label: "도둑 — 함께 다님", ko: "도둑과 함께 길을 다녔다", en: "I traveled along the road together with a thief" },
+  { id: "bed", label: "침대 — 편안함", ko: "편안한 침대에 누워 잤다", en: "I lay down and slept in a comfortable bed" },
+  { id: "bed", label: "침대 — 이불을 덮음", ko: "포근한 이불을 덮었다", en: "I covered myself with a warm, cozy blanket" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");

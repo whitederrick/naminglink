@@ -980,7 +980,9 @@ export const ALIASES_EN: Record<string, readonly string[]> = {
     "was in bed",
     "lay on a bed",
     "got into bed",
-    "bed was there"
+    "bed was there",
+    "blanket",
+    "quilt"
   ],
   "scissors": [
     "used scissors",

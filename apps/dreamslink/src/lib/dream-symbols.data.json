@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.33.0",
+  "dictVer": "1.34.0",
   "symbols": [
     {
       "id": "pig",
@@ -1640,9 +1640,16 @@
           "interpretation_en": "a sign of moving house or recovering from illness",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "머리가 하얗게 셈",
+          "interpretation_ko": "장수할 길조",
+          "interpretation_en": "a sign of long life",
+          "polarity": "positive",
+          "source": "tradition"
         }
       ],
-      "culture_note": "중국 고전 《주공해몽》 「洗頭遷居疾病除」(머리를 감으면 이사하거나 병이 낫는다)를 근거로 삼았다."
+      "culture_note": "중국 고전 《주공해몽》 「洗頭遷居疾病除」(머리를 감으면 이사하거나 병이 낫는다)· 「頭白主長命大吉」(머리가 하얗게 세면 장수한다)을 근거로 삼았다."
     },
     {
       "id": "blood",
@@ -3233,7 +3240,8 @@
       "term_en": "president / king",
       "aliases": [
         "높은 사람",
-        "대통령"
+        "대통령",
+        "귀인"
       ],
       "category": "person",
       "polarity": "positive",
@@ -3249,8 +3257,16 @@
           "interpretation_en": "patron, recognition, advancement",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "높은 사람을 만나려다 만나지 못함",
+          "interpretation_ko": "일이 뜻대로 풀리지 않을 조짐",
+          "interpretation_en": "a sign that things won't go as planned",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「王侯並坐大吉利」(왕후와 나란히 앉으면 크게 길하다)· 「來見貴人不得凶」(귀인을 만나러 왔다가 만나지 못하면 흉하다)을 근거로 삼았다."
     },
     {
       "id": "monk",
@@ -5284,7 +5300,9 @@
       "id": "bed",
       "term_ko": "침대",
       "term_en": "bed",
-      "aliases": [],
+      "aliases": [
+        "이불"
+      ],
       "category": "object",
       "polarity": "neutral",
       "tags": [
@@ -5299,8 +5317,16 @@
           "interpretation_en": "rest, stability, intimacy",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "포근한 이불을 덮음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a strongly auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「好被自蓋主大吉」(좋은 이불을 스스로 덮으면 크게 길하다)를 근거로 삼았다."
     },
     {
       "id": "scissors",
@@ -5426,7 +5452,7 @@
         "재물"
       ],
       "weight": 1,
-      "culture_note": "중국 고전 《주공해몽》 「趕賊行見者大吉」(도둑을 쫓아가는 것을 보면 크게 길하다)를 근거로 삼았다.",
+      "culture_note": "중국 고전 《주공해몽》 「趕賊行見者大吉」(도둑을 쫓아가는 것을 보면 크게 길하다)· 「強賊入宅主家破」(강도가 집에 들면 집안이 망한다)· 「與賊同行大吉利」(도둑과 함께 다니면 크게 길하다)를 근거로 삼았다.",
       "meanings": [
         {
           "context": "도둑이 듦",
@@ -5439,6 +5465,13 @@
           "context": "도둑을 쫓아냄",
           "interpretation_ko": "길한 조짐",
           "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "도둑과 함께 다님",
+          "interpretation_ko": "뜻밖에 크게 길한 조짐",
+          "interpretation_en": "an unexpectedly very auspicious sign",
           "polarity": "positive",
           "source": "tradition"
         }
