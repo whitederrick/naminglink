@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.16.0",
+  "dictVer": "1.17.0",
   "symbols": [
     {
       "id": "pig",
@@ -1451,8 +1451,23 @@
           "interpretation_en": "source of wealth or blessing",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "우물이 마름",
+          "interpretation_ko": "집안 재물이 흩어질 조짐",
+          "interpretation_en": "a sign that household wealth will scatter",
+          "polarity": "negative",
+          "source": "tradition"
+        },
+        {
+          "context": "우물에 빠짐",
+          "interpretation_ko": "질병을 조심할 조짐",
+          "interpretation_en": "a caution about illness",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「井枯涸者家財散」(우물이 마르면 집안 재물이 흩어진다)·「身墜井中疾病凶」(우물에 빠지면 질병으로 흉하다)을 근거로 삼았다."
     },
     {
       "id": "earthquake",
@@ -2499,8 +2514,16 @@
           "interpretation_en": "conflict or injury",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "칼을 잃어버림",
+          "interpretation_ko": "재물이 흩어질 조짐",
+          "interpretation_en": "a sign that wealth will be lost",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「失落刀劍主破財」(칼을 잃어버리면 재물이 깨진다)를 근거로 삼았다."
     },
     {
       "id": "shoe",
@@ -2652,8 +2675,16 @@
           "interpretation_en": "instability of foundation",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "집에 아무도 없음",
+          "interpretation_ko": "집안에 큰 우환이 생길 조짐",
+          "interpretation_en": "a sign of serious trouble in the household",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「屋宅無人主死亡」(집에 사람이 없으면 집안에 큰 우환이 생긴다)을 근거로 삼았다."
     },
     {
       "id": "car",
@@ -2893,8 +2924,16 @@
           "interpretation_en": "protection or support",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "우산을 남에게 나눠 줌",
+          "interpretation_ko": "이별할 조짐",
+          "interpretation_en": "a sign of parting",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「與人分傘主分散」(우산을 나눠주면 헤어질 조짐이다)을 근거로 삼았다."
     },
     {
       "id": "watch",

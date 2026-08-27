@@ -176,6 +176,12 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "stone", label: "돌 — 위에 누움", ko: "바위 위에 누워 있었다", en: "I was lying atop a stone" },
   { id: "apple", label: "과일 — 익음", ko: "과일이 탐스럽게 익어 있었다", en: "the fruit was ripe and inviting" },
   { id: "apple", label: "과일 — 과수원", ko: "과일이 열린 과수원을 거닐었다", en: "I strolled through an orchard full of fruit trees" },
+  { id: "well", label: "우물 — 솟음", ko: "우물에서 맑은 물이 솟아났다", en: "clear water rose up from the well" },
+  { id: "well", label: "우물 — 마름", ko: "우물이 바닥나 말라 있었다", en: "the well had dried up completely" },
+  { id: "well", label: "우물 — 빠짐", ko: "우물에 빠졌다", en: "I fell into the well" },
+  { id: "house", label: "집 — 아무도 없음", ko: "집에 갔더니 아무도 없었다", en: "I went to my house, but it was empty and silent" },
+  { id: "umbrella", label: "우산 — 나눠 줌", ko: "누군가에게 우산을 나눠 줬다", en: "I gave my umbrella away to someone" },
+  { id: "knife", label: "칼 — 잃어버림", ko: "칼을 잃어버렸다", en: "I lost my knife" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
