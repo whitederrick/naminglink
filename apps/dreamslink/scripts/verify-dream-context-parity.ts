@@ -214,6 +214,17 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "rat", label: "쥐 — 길을 인도함", ko: "흰 쥐가 나타나 길을 인도했다", en: "a white rat appeared and led the way" },
   { id: "deer", label: "사슴 — 집 안에 있음", ko: "사슴이 집 안에 들어와 있었다", en: "a deer was inside the house" },
   { id: "rabbit", label: "토끼 — 하늘로 오름", ko: "토끼가 하늘로 날아올랐다", en: "a rabbit rose up into the sky" },
+  { id: "gold", label: "금 — 얻음", ko: "금을 발견해 얻었다", en: "I found and obtained some gold" },
+  { id: "gold", label: "금 — 품에 가득함", ko: "보석이 품에 넘치도록 가득했다", en: "my arms were overflowing with jewels" },
+  { id: "boat", label: "배 — 나아감", ko: "배를 타고 나아갔다", en: "I sailed forward on a boat" },
+  { id: "boat", label: "배 — 부서짐", ko: "배가 부서졌다", en: "the boat broke apart" },
+  { id: "car", label: "차 — 아픈 채로 탐", ko: "몸이 아픈 채로 차를 탔다", en: "I was sick and got in the car" },
+  { id: "road", label: "길 — 갈림길", ko: "갈림길 앞에서 고민했다", en: "I had to choose which fork in the road to take" },
+  { id: "road", label: "길 — 재물을 얻음", ko: "길에서 재물을 주웠다", en: "I found wealth on the road" },
+  { id: "bridge", label: "다리 — 건넘", ko: "다리를 건넜다", en: "I crossed the bridge" },
+  { id: "bridge", label: "다리 — 무너짐", ko: "다리가 무너진 것을 보았다", en: "I saw the bridge had collapsed" },
+  { id: "market", label: "시장 — 북적임", ko: "북적이는 시장을 구경했다", en: "I visited a bustling market" },
+  { id: "market", label: "시장 — 사람 없음", ko: "사람이 없는 시장을 보았다", en: "I saw an empty, deserted market" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");

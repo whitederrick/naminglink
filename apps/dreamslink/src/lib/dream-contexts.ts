@@ -165,7 +165,11 @@ export const CONTEXT_EN: Record<string, string> = {
   "돈을 주움": "picked picking street ground floor",
   "돈을 잃어버림": "lost losing money stolen",
   "빌린 돈을 갚음": "repaid repaying paid back returned borrowed",
-  "금·보석을 얻음": "gold jewel obtain",
+  // **"gold"·"jewel"을 뺐다** — term_en이 "gold / jewel"이라 own-term 필터가 이 낱말들을
+  // 못 걸러(6·10차 배치의 term_en 슬래시 버그와 같은 종류), 새 의미를 넣기 전에
+  // 예방적으로 정리했다.
+  "금·보석을 얻음": "obtained found acquired",
+  "보석이 품에 가득함": "overflowing filled abundance",
   "반지를 낌": "ring wear",
   "반지를 잃음": "ring lose lost",
   "칼을 쥠": "held holding grip wielded carried",
@@ -184,9 +188,14 @@ export const CONTEXT_EN: Record<string, string> = {
   "허물어지는 집": "collapsing crumbling collapsed ruined cracked",
   "집에 아무도 없음": "empty deserted silent vacant",
   "차를 잘 몲": "car drive drove",
+  "몸이 아픈 채로 차를 탐": "sick ill unwell",
   "사고·브레이크 고장": "car crash break fail",
-  "배를 타고 나아감": "boat ship sail sailed",
+  // **"boat"·"ship"을 뺐다** — term_en이 "boat / ship"이라 own-term 필터가 못 걸러
+  // 새 의미와 동점이 날 위험이 있었다(예방적 정리).
+  "배를 타고 나아감": "sail sailed advanced",
+  "배가 부서짐": "broke broken wrecked",
   "다리를 건넘": "bridge cross crossed",
+  "다리가 무너진 것을 봄": "collapsed collapsing fell",
   "잘 손질된 무덤": "well-maintained tended neat",
   "무덤에 나무가 자람": "tree grew growing",
   "무덤의 나무가 꺾임": "broke snapped broken",
@@ -223,8 +232,10 @@ export const CONTEXT_EN: Record<string, string> = {
   "더러운 화장실": "filthy dirty foul stinking clogged",
   "절에서 기도": "pray prayed",
   "북적이는 시장": "visit visited",
+  "사람이 없는 시장을 봄": "empty deserted vacant",
   "치료 받음": "receive received",
   "갈림길": "choose chose",
+  "길에서 재물을 얻음": "wealth money found",
   "물속을 편히 다님": "swim swam",
   "맑고 넓은 하늘": "see saw",
   "흰 옷·흰 동물": "wear wore",

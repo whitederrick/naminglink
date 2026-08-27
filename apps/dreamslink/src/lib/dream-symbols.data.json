@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.31.0",
+  "dictVer": "1.33.0",
   "symbols": [
     {
       "id": "pig",
@@ -2546,8 +2546,16 @@
           "interpretation_en": "wealth or precious bond",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "보석이 품에 가득함",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a strongly inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「珠玉滿懷主大凶」(구슬이나 옥이 품에 가득하면 크게 흉하다)을 근거로 삼았다."
     },
     {
       "id": "ring",
@@ -2823,8 +2831,16 @@
           "interpretation_en": "loss of control",
           "polarity": "negative",
           "source": "tradition"
+        },
+        {
+          "context": "몸이 아픈 채로 차를 탐",
+          "interpretation_ko": "건강을 크게 조심할 조짐",
+          "interpretation_en": "a strong caution about health",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「病人上車主大凶」(병자가 수레를 타면 크게 흉하다)을 근거로 삼았다."
     },
     {
       "id": "boat",
@@ -2847,8 +2863,16 @@
           "interpretation_en": "new journey or venture",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "배가 부서짐",
+          "interpretation_ko": "불길한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「船車破碎主不祥」(배와 수레가 부서지면 상서롭지 못하다)을 근거로 삼았다."
     },
     {
       "id": "bridge",
@@ -2869,8 +2893,16 @@
           "interpretation_en": "transition or connection",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "다리가 무너진 것을 봄",
+          "interpretation_ko": "관재구설을 조심할 조짐",
+          "interpretation_en": "a caution about legal trouble or disputes",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「見橋壞主有官事」(다리가 무너진 것을 보면 관재가 생긴다)를 근거로 삼았다."
     },
     {
       "id": "grave",
@@ -3472,8 +3504,16 @@
           "interpretation_en": "trade or financial activity",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "사람이 없는 시장을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「見市中無人主凶」(시장에 사람이 없는 것을 보면 흉하다)을 근거로 삼았다."
     },
     {
       "id": "hospital",
@@ -3534,7 +3574,8 @@
       "term_ko": "길",
       "term_en": "road / path",
       "aliases": [
-        "도로"
+        "도로",
+        "갈림길"
       ],
       "category": "place",
       "polarity": "neutral",
@@ -3550,8 +3591,16 @@
           "interpretation_en": "life choice or direction",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "길에서 재물을 얻음",
+          "interpretation_ko": "뜻이 통하고 일이 풀릴 조짐",
+          "interpretation_en": "a sign that things will go smoothly",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「道中得財主通達」(길에서 재물을 얻으면 다 통한다)을 근거로 삼았다."
     },
     {
       "id": "underwater",
