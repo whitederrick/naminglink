@@ -1,5 +1,5 @@
 {
-  "dictVer": "1.23.0",
+  "dictVer": "1.24.0",
   "symbols": [
     {
       "id": "pig",
@@ -1582,8 +1582,16 @@
           "interpretation_en": "clearing worry, fresh start",
           "polarity": "neutral",
           "source": "tradition"
+        },
+        {
+          "context": "머리를 감음",
+          "interpretation_ko": "이사하거나 병이 나을 조짐",
+          "interpretation_en": "a sign of moving house or recovering from illness",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「洗頭遷居疾病除」(머리를 감으면 이사하거나 병이 낫는다)를 근거로 삼았다."
     },
     {
       "id": "blood",
@@ -1623,13 +1631,20 @@
         "재물"
       ],
       "weight": 3,
-      "culture_note": "대표 재물 길몽",
+      "culture_note": "중국 고전 《주공해몽》 「尿屎污身主得財」(오줌이나 똥이 몸을 더럽히면 재물을 얻는다)·「失大小便主失財」(대소변을 실수로 지리면 재물을 잃는다)를 근거로 삼았다.",
       "meanings": [
         {
           "context": "똥을 밟거나 몸에 묻음",
           "interpretation_ko": "재물·행운",
           "interpretation_en": "wealth or luck",
           "polarity": "positive",
+          "source": "tradition"
+        },
+        {
+          "context": "대소변을 실수로 지림",
+          "interpretation_ko": "재물이 흩어질 조짐",
+          "interpretation_en": "a sign that wealth will be lost",
+          "polarity": "negative",
           "source": "tradition"
         }
       ]
@@ -1656,7 +1671,8 @@
           "polarity": "positive",
           "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「尿屎污身主得財」(오줌이나 똥이 몸을 더럽히면 재물을 얻는다)를 근거로 삼았다."
     },
     {
       "id": "nail",
@@ -2206,8 +2222,16 @@
           "interpretation_en": "cleansing of worry, renewal",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "먼지투성이인 채로 목욕함",
+          "interpretation_ko": "병이 나을 조짐",
+          "interpretation_en": "a sign of recovering from illness",
+          "polarity": "positive",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「沐浴塵土疾病安」(먼지투성이로 목욕하면 병이 낫는다)을 근거로 삼았다."
     },
     {
       "id": "climbing",
@@ -2861,7 +2885,9 @@
       "term_ko": "쌀·밥",
       "term_en": "rice",
       "aliases": [
-        "곡식"
+        "곡식",
+        "쌀",
+        "밥"
       ],
       "category": "object",
       "polarity": "positive",
@@ -2877,8 +2903,16 @@
           "interpretation_en": "wealth and abundance",
           "polarity": "positive",
           "source": "tradition"
+        },
+        {
+          "context": "쌀이 흩어짐",
+          "interpretation_ko": "재물이 흩어질 조짐",
+          "interpretation_en": "a sign that wealth will scatter",
+          "polarity": "negative",
+          "source": "tradition"
         }
-      ]
+      ],
+      "culture_note": "중국 고전 《주공해몽》 「米谷堆吉散主凶」(쌀이 쌓이면 길하고 흩어지면 흉하다)을 근거로 삼았다."
     },
     {
       "id": "book",

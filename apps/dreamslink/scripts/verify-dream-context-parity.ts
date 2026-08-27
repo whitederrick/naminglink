@@ -204,6 +204,10 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "god", label: "신 — 귀신과 싸움", ko: "귀신과 싸웠다", en: "I fought with a vengeful god" },
   { id: "prison", label: "감옥 — 무너짐", ko: "감옥이 무너져 있었다", en: "the prison had collapsed" },
   { id: "thief", label: "도둑 — 쫓아냄", ko: "도둑을 쫓아냈다", en: "I chased the thief away" },
+  { id: "feces", label: "똥 — 실수로 지림", ko: "대변을 실수로 지렸다", en: "I had an accident and soiled myself with feces" },
+  { id: "bathing", label: "목욕 — 먼지투성이", ko: "먼지투성이인 채로 목욕을 했다", en: "I was bathing while still covered in dust" },
+  { id: "hair", label: "머리카락 — 감음", ko: "머리카락을 감았다", en: "I washed my hair" },
+  { id: "rice", label: "쌀 — 흩어짐", ko: "쌀이 바닥에 흩어져 있었다", en: "rice was scattered all over the floor" },
 ];
 
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
