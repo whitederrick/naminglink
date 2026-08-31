@@ -1,0 +1,989 @@
+[
+  {
+    "id": "accuse",
+    "term_ko": "비난",
+    "term_en": "accuse",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "누군가를 비열한 행동으로 비난함",
+        "interpretation_ko": "아랫사람들과 다투게 되고 자신의 위신이 높은 자리에서 내던져질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신이 비난받음",
+        "interpretation_ko": "은밀하고 악의적인 방식으로 험담을 퍼뜨린 죄를 지을 위험이 있음",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "acquit",
+    "term_ko": "무죄 판결",
+    "term_en": "acquit",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자신이 범죄에서 무죄 판결을 받음",
+        "interpretation_ko": "값진 재산을 얻게 되지만 그것을 손에 넣기 전에 소송의 위험이 있을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "다른 사람이 무죄 판결을 받는 것을 봄",
+        "interpretation_ko": "친구들이 자신의 수고에 기쁨을 더해 줄 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "adopted",
+    "term_ko": "입양",
+    "term_en": "adopted",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "입양된 자녀나 부모를 봄",
+        "interpretation_ko": "낯선 이들의 계획과 투기를 통해 재산을 모으게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "자신이나 남이 아이를 입양함",
+        "interpretation_ko": "거처를 불운하게 옮기게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "adulation",
+    "term_ko": "아첨",
+    "term_en": "adulation",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아첨을 갈구함",
+        "interpretation_ko": "분에 넘치는 명예로운 자리를 거만하게 채우게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "남에게 아첨함",
+        "interpretation_ko": "물질적 이익을 도모하려는 바람에서 소중한 것을 뚜렷이 내어주게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "advancement",
+    "term_ko": "전진",
+    "term_en": "advancement",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "어떤 일에서든 전진함",
+        "interpretation_ko": "빠르게 출세하여 사랑의 결실을 이룰 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "다른 사람이 전진하는 것을 봄",
+        "interpretation_ko": "친구들이 자신 곁에서 호의를 받는 자리에 서게 될 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "adventurer",
+    "term_ko": "모험가",
+    "term_en": "adventurer",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "모험가에게 희생당함",
+        "interpretation_ko": "아첨꾼과 음흉한 악당들의 손쉬운 먹잇감이 되어 일을 매끄럽게 다루지 못하고 불운을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 자신을 여성 모험가라고 생각함",
+        "interpretation_ko": "자기 처신에 너무 몰두한 나머지 아첨에 넘어가 수치와 자신의 호의를 맞바꾸고 있음을 알아채지 못할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "adversary",
+    "term_ko": "적수",
+    "term_en": "adversary",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "적과 만나거나 맞섬",
+        "interpretation_ko": "자신의 이익을 향한 어떤 공격이든 즉시 막아 낼 조짐이나 병도 위협할 수 있음",
+        "polarity": "negative"
+      },
+      {
+        "context": "적을 이겨냄",
+        "interpretation_ko": "어떤 큰 재난의 영향에서 벗어날 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "adversity",
+    "term_ko": "역경",
+    "term_en": "adversity",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "역경에 처함",
+        "interpretation_ko": "실패와 계속되는 나쁜 전망을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 역경에 처한 것을 봄",
+        "interpretation_ko": "음울한 처지를 뜻하며 누군가의 병이 계획이 잘 풀릴지에 대한 깊은 두려움을 낳을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "advertisement",
+    "term_ko": "광고",
+    "term_en": "advertisement",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "광고 문안을 만들어냄",
+        "interpretation_ko": "이익을 늘리거나 재산을 일구려면 몸소 노동을 해야 할 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "광고를 읽음",
+        "interpretation_ko": "적들이 자신을 따라잡아 경쟁에서 패배시킬 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "advice",
+    "term_ko": "조언",
+    "term_en": "advice",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "조언을 받음",
+        "interpretation_ko": "품위의 기준을 높이고 정직한 방법으로 자립과 도덕적 경지에 이르려 애쓰게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "법률 자문을 구함",
+        "interpretation_ko": "자기 일에 그 가치와 정당성을 의심하게 만드는 거래가 생길 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "affliction",
+    "term_ko": "고난",
+    "term_en": "affliction",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "고난이 자신을 무겁게 짓누름",
+        "interpretation_ko": "어떤 재앙이 반드시 다가오고 있음을 예고하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 고난받는 것을 봄",
+        "interpretation_ko": "많은 병과 불행에 둘러싸일 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "affluence",
+    "term_ko": "부유함",
+    "term_en": "affluence",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "부유하게 지냄",
+        "interpretation_ko": "운 좋은 일을 도모하게 되고 부유한 사람들과 즐겁게 어울릴 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성이 기이하고 환상적인 부유함을 봄",
+        "interpretation_ko": "덧없고 잠깐뿐인 쾌락을 불길하게 예고하는 조짐이니 친구와 부모에 대한 도리를 더 살피고 가정을 아끼는 마음을 길러야 함",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "affrighted",
+    "term_ko": "겁에 질림",
+    "term_en": "affrighted",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자신이 겁에 질림",
+        "interpretation_ko": "사고로 부상을 입을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 겁에 질린 것을 봄",
+        "interpretation_ko": "비참하고 괴로운 광경에 가까워질 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "africa",
+    "term_ko": "아프리카",
+    "term_en": "africa",
+    "category": "place",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "식인종에 둘러싸여 아프리카에 있음",
+        "interpretation_ko": "적들과 다투기 좋아하는 사람들에게 시달릴 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 아프리카 풍경을 봄",
+        "interpretation_ko": "쓸쓸하고 즐거움도 이득도 없는 여행을 떠날 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "afternoon",
+    "term_ko": "오후",
+    "term_en": "afternoon",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "여성이 오후를 봄",
+        "interpretation_ko": "오래가고 즐거운 우정을 맺을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "흐리고 비 오는 오후를 봄",
+        "interpretation_ko": "실망과 불쾌함을 뜻하는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "agony",
+    "term_ko": "고통",
+    "term_en": "agony",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "고통스러운 꿈을 꿈",
+        "interpretation_ko": "어떤 이들이 믿게 하려는 것만큼 좋은 꿈은 아니며, 근심과 기쁨이 뒤섞이되 근심이 더 많음을 뜻하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "돈이나 재산을 잃어 고통스러워함",
+        "interpretation_ko": "불안한 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "ague",
+    "term_ko": "학질",
+    "term_en": "ague",
+    "category": "body",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "학질로 떨림",
+        "interpretation_ko": "몸에 병이 생기고, 자기 일에 대한 흔들리는 생각 때문에 쇠약해질 지경에 이를 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 학질로 떠는 것을 봄",
+        "interpretation_ko": "다른 사람의 영향력에 지나치게 무관심하여 사람들의 기분을 상하게 할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "album",
+    "term_ko": "앨범",
+    "term_en": "album",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "앨범을 봄",
+        "interpretation_ko": "성공하고 진실한 친구를 얻을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성이 앨범 속 사진을 봄",
+        "interpretation_ko": "곧 매우 마음에 드는 새 애인이 생길 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "alley",
+    "term_ko": "골목",
+    "term_en": "alley",
+    "category": "place",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "골목에 대한 꿈을 꿈",
+        "interpretation_ko": "운이 예전만큼 즐겁거나 좋지 않고 성가신 근심거리가 많이 생길 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 어두워진 뒤 골목을 헤맴",
+        "interpretation_ko": "불명예스러운 사귐과 평판에 오점이 생길 것을 경고하는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "alloy",
+    "term_ko": "합금",
+    "term_en": "alloy",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "합금에 대한 꿈을 꿈",
+        "interpretation_ko": "사업이 복잡하게 얽혀 성가시게 할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 합금에 대한 꿈을 꿈",
+        "interpretation_ko": "슬픔과 근심이 기쁨을 완전히 가릴 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "almonds",
+    "term_ko": "아몬드",
+    "term_en": "almonds",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아몬드 꿈을 꿈",
+        "interpretation_ko": "좋은 조짐으로 재물이 쌓일 것이나 잠시 슬픔도 함께 따를 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "흠 있는 아몬드를 봄",
+        "interpretation_ko": "새로운 상황이 오기 전까지 바라던 소원을 이루지 못해 완전히 실망할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "alms",
+    "term_ko": "자선",
+    "term_en": "alms",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "마지못해 자선을 주거나 받음",
+        "interpretation_ko": "나쁜 일을 불러올 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "기꺼이 자선을 주거나 받음",
+        "interpretation_ko": "좋은 꿈",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "aluminum",
+    "term_ko": "알루미늄",
+    "term_en": "aluminum",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "알루미늄 꿈을 꿈",
+        "interpretation_ko": "재산이 아무리 적어도 만족할 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "여성이 자신의 알루미늄 장식품이 변색된 것을 봄",
+        "interpretation_ko": "낯설고 뜻밖의 슬픔과 손실이 닥칠 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "ambush",
+    "term_ko": "매복",
+    "term_en": "ambush",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "매복 공격을 당함",
+        "interpretation_ko": "가까이 몰래 숨은 위험이 있어 경고를 소홀히 하면 곧 덮쳐 무너뜨릴 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "복수하려고 매복함",
+        "interpretation_ko": "친구를 속이려고 서슴없이 비열한 짓을 저지를 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "amethyst",
+    "term_ko": "자수정",
+    "term_en": "amethyst",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자수정을 봄",
+        "interpretation_ko": "그럭저럭 괜찮은 사업에 만족할 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성이 자수정을 잃어버림",
+        "interpretation_ko": "파혼과 애정에서 냉대를 예고하는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "ammonia",
+    "term_ko": "암모니아",
+    "term_en": "ammonia",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "암모니아를 봄",
+        "interpretation_ko": "친구의 행동에 불쾌함을 느끼고 그로 인해 다툼과 우정의 파탄이 뒤따를 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 투명한 암모니아 병을 봄",
+        "interpretation_ko": "친근하다고 여긴 어떤 사람의 성품과 속내에 속게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "ammunition",
+    "term_ko": "탄약",
+    "term_en": "ammunition",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "탄약 꿈을 꿈",
+        "interpretation_ko": "결실을 약속하는 어떤 일을 맡게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "탄약이 바닥남",
+        "interpretation_ko": "애쓴 일과 노력이 헛되이 끝날 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "andirons",
+    "term_ko": "장작받침쇠",
+    "term_en": "andirons",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "장작받침쇠가 타는 장작을 받치고 있는 것을 봄",
+        "interpretation_ko": "친구들 사이에 좋은 뜻이 오갈 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "빈 벽난로에 놓인 장작받침쇠를 봄",
+        "interpretation_ko": "재산을 잃고 죽음이 있을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "anecdote",
+    "term_ko": "일화",
+    "term_en": "anecdote",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "일화를 이야기하는 꿈을 꿈",
+        "interpretation_ko": "지성보다 흥겨운 어울림을 훨씬 좋아하게 되고, 자기 자신처럼 일도 불안정해질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 남이 들려주는 일화를 들음",
+        "interpretation_ko": "즐거움을 좇는 유쾌한 무리에 끼게 될 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "anger",
+    "term_ko": "분노",
+    "term_en": "anger",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "분노하는 꿈을 꿈",
+        "interpretation_ko": "끔찍한 시련이 기다리고, 사랑하는 이에게 실망하고 인연이 끊기며 적이 재산이나 명예를 새로 공격할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "친구나 친척이 화를 내는데 침착하게 맞섬",
+        "interpretation_ko": "다투는 친구들을 중재해 오래가는 호의와 감사를 얻을 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "annoy",
+    "term_ko": "성가심",
+    "term_en": "annoy",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "성가신 일을 겪는 꿈을 꿈",
+        "interpretation_ko": "자신을 해치려 움직이는 적이 있다는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "꿈속에서 겪은 성가신 일",
+        "interpretation_ko": "이튿날 사소한 일들로 곧 그대로 이루어지기 쉬운 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "antelope",
+    "term_ko": "영양",
+    "term_en": "antelope",
+    "category": "animal",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "꿈에 영양을 봄",
+        "interpretation_ko": "포부는 높되 큰 힘을 쏟아야 이룰 수 있을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성이 영양이 발을 헛디뎌 높은 데서 떨어지는 것을 봄",
+        "interpretation_ko": "바라던 사랑이 도리어 자신을 무너뜨릴 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "anxiety",
+    "term_ko": "불안",
+    "term_en": "anxiety",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "불안해하는 꿈을 꿈",
+        "interpretation_ko": "때로는 좋은 조짐이어서, 위태롭던 상황이 지나고 성공과 마음의 활력이 찾아옴",
+        "polarity": "positive"
+      },
+      {
+        "context": "중대한 일 하나를 두고 불안해함",
+        "interpretation_ko": "사업과 사회적 처지가 겹쳐 재앙 같은 상황이 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "apes",
+    "term_ko": "유인원",
+    "term_en": "apes",
+    "category": "animal",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "유인원을 보는 꿈을 꿈",
+        "interpretation_ko": "아끼는 친구에게 치욕과 병이 닥칠 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "작은 유인원이 나무에 매달린 것을 봄",
+        "interpretation_ko": "거짓된 사람이 곁에 있어 주변을 불편하게 만들 것이니 조심하라는 조짐이며, 속임수가 따름",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "apparition",
+    "term_ko": "유령",
+    "term_en": "apparition",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "유령을 보는 꿈을 꿈",
+        "interpretation_ko": "자신에게 딸린 이들을 각별히 돌보아야 하며, 재앙이 닥치고 재산과 목숨이 함께 위태로울 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 사람이 유령 꿈을 꿈",
+        "interpretation_ko": "이성과의 교제에서 반듯해야 하며, 그러지 않으면 평판이 깎일 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "april",
+    "term_ko": "4월",
+    "term_en": "april",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "4월을 꿈꿈",
+        "interpretation_ko": "많은 즐거움과 이익이 자기 몫이 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "꿈속 날씨가 궂음",
+        "interpretation_ko": "지나가는 불운의 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "apron",
+    "term_ko": "앞치마",
+    "term_en": "apron",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "여성이 앞치마를 두른 꿈을 꿈",
+        "interpretation_ko": "굴곡진 길을 걷게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여학생이 앞치마가 풀리거나 찢어지는 꿈을 꿈",
+        "interpretation_ko": "성적이 나빠지고 부모와 교사에게 예절에 대해 훈계받을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "architect",
+    "term_ko": "건축가",
+    "term_en": "architect",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "건축가가 도면을 그리는 꿈을 꿈",
+        "interpretation_ko": "사업에 변화가 생겨 손해를 볼 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 건축가를 봄",
+        "interpretation_ko": "좋은 혼처를 구하려는 바람과 계획이 뜻대로 안 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "arrested",
+    "term_ko": "체포됨",
+    "term_en": "arrested",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "점잖아 보이는 낯선 사람이 체포되는 것을 봄",
+        "interpretation_ko": "변화를 바라지만 실패가 두려워 새로운 시도를 망설이게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "체포되는 사람이 경관에게 저항함",
+        "interpretation_ko": "새로운 일을 끝까지 밀어붙이는 데서 큰 기쁨을 느낄 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "ascend",
+    "term_ko": "오르기",
+    "term_en": "ascend",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "비틀거리지 않고 계단 꼭대기까지 오름",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "오르는 도중에 비틀거림",
+        "interpretation_ko": "그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "asparagus",
+    "term_ko": "아스파라거스",
+    "term_en": "asparagus",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아스파라거스 꿈을 꿈",
+        "interpretation_ko": "풍족한 환경과 하인·자녀의 순종을 뜻하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "아스파라거스를 먹음",
+        "interpretation_ko": "성공이 중단될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "assistance",
+    "term_ko": "도움",
+    "term_en": "assistance",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "누군가에게 도움을 줌",
+        "interpretation_ko": "더 높은 지위로 오르려는 노력에서 호의를 얻을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "누군가 자신을 도와줌",
+        "interpretation_ko": "편안한 처지에 놓이고 다정한 친구들이 가까이 있을 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "astral",
+    "term_ko": "아스트랄(영체)",
+    "term_en": "astral",
+    "category": "body",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아스트랄(영체)에 관한 꿈을 꿈",
+        "interpretation_ko": "노력과 계획이 세속적 성공과 명성으로 이어질 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "자신의 아스트랄 자아(유령이나 형상)를 봄",
+        "interpretation_ko": "가슴을 찢는 고난을 가져올 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "attic",
+    "term_ko": "다락방",
+    "term_en": "attic",
+    "category": "place",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "다락방에 있음",
+        "interpretation_ko": "이루어지지 못할 희망을 품고 있다는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 다락방에서 잠을 잠",
+        "interpretation_ko": "지금 하는 일에서 만족을 찾지 못할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "attorney",
+    "term_ko": "변호사",
+    "term_en": "attorney",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "법정에서 변호사를 봄",
+        "interpretation_ko": "세속적 이해가 걸린 당사자 사이에 심각한 분쟁이 생기고 원수가 거짓 주장으로 다가오는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "변호사가 자신을 변호함",
+        "interpretation_ko": "친구들이 다가올 곤경에서 돕겠지만 원수보다 더 큰 근심을 안길 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "august",
+    "term_ko": "팔월",
+    "term_en": "august",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "팔월(八月)이라는 달의 꿈을 꿈",
+        "interpretation_ko": "불운한 거래와 애정 문제에서의 오해를 뜻하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 팔월에 결혼하는 꿈을 꿈",
+        "interpretation_ko": "초기 결혼 생활에 슬픔이 있을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "aunt",
+    "term_ko": "고모(이모)",
+    "term_en": "aunt",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "젊은 여성이 고모(이모)를 봄",
+        "interpretation_ko": "어떤 행동으로 심한 질책을 받아 큰 괴로움을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "고모(이모)가 웃으며 행복해 보임",
+        "interpretation_ko": "사소한 다툼이 곧 즐거움으로 바뀔 조짐",
+        "polarity": "positive"
+      }
+    ]
+  }
+]

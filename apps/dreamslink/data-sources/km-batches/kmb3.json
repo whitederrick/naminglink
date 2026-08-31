@@ -1,0 +1,775 @@
+[
+  {
+    "id": "automobile",
+    "term_ko": "자동차",
+    "term_en": "automobile",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자동차를 타고 감",
+        "interpretation_ko": "편안한 처지에서 안절부절못하며 자신의 일에 변화를 줄 조짐이나, 부적절한 처신의 큰 위험이 있음",
+        "polarity": "negative"
+      },
+      {
+        "context": "함께 탄 자동차가 고장 남",
+        "interpretation_ko": "누리려던 즐거움이 기대한 만큼 이어지지 않을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자동차의 진로를 피해 달아남",
+        "interpretation_ko": "정직하게 허용되는 한 어떤 경쟁자를 피하는 것이 좋을 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "젊은 여성이 자동차를 찾아다님",
+        "interpretation_ko": "누군가를 자기 편으로 끌어들이려는 목적에서 실망할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bacon",
+    "term_ko": "베이컨",
+    "term_en": "bacon",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "손이 깨끗한 사람과 함께 베이컨을 먹음",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "상한 베이컨을 봄",
+        "interpretation_ko": "지각이 둔해지고 불만족스러운 상태로 근심할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "소금과 연기를 벗어나지 못한 베이컨을 훈제함",
+        "interpretation_ko": "나쁜 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "소금과 연기에서 벗어난 베이컨을 훈제함",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "banana",
+    "term_ko": "바나나",
+    "term_en": "banana",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "바나나 꿈을 꿈",
+        "interpretation_ko": "흥미 없고 사랑스럽지 않은 배우자를 만날 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "바나나를 먹음",
+        "interpretation_ko": "사업에서 지루한 시도를 하고 스스로 짊어진 의무가 생길 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "바나나가 썩어가는 것을 봄",
+        "interpretation_ko": "곧 불쾌한 일에 휘말리게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "바나나를 거래함",
+        "interpretation_ko": "무익한 이해관계가 주변에 쌓일 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bank",
+    "term_ko": "은행",
+    "term_en": "bank",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "빈 창구를 봄",
+        "interpretation_ko": "사업에 손실이 생길 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "금화를 내어줌",
+        "interpretation_ko": "부주의함을 뜻하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "금화를 받음",
+        "interpretation_ko": "큰 이득과 번영을 뜻하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "은화와 지폐가 쌓인 것을 봄",
+        "interpretation_ko": "명예와 재산이 늘고 모든 계층에게서 큰 존경을 받을 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "beacon-light",
+    "term_ko": "등대 불빛",
+    "term_en": "beacon light",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "선원이 등대 불빛을 봄",
+        "interpretation_ko": "잔잔한 바다와 번영하는 항해를 예고하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "곤경에 처한 사람이 등대 불빛을 봄",
+        "interpretation_ko": "젊은이들 사이에서 따뜻하고 변치 않는 애착이 생길 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "병든 사람이 등대 불빛을 봄",
+        "interpretation_ko": "빠른 회복과 계속되는 건강, 사업에 새로운 활력이 생길 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄",
+        "interpretation_ko": "행운이 유리하게 결정된다고 여기던 바로 그때 상황이 뒤바뀔 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "beads",
+    "term_ko": "구슬",
+    "term_en": "beads",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "구슬(염주) 꿈을 꿈",
+        "interpretation_ko": "지위가 높은 사람들의 관심을 받게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "구슬을 셈",
+        "interpretation_ko": "순수한 기쁨과 만족을 예고하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "구슬을 꿰어 줄에 꿈",
+        "interpretation_ko": "부유한 사람들의 호의를 얻을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "구슬을 흩뿌림",
+        "interpretation_ko": "지인들 사이에서 지위를 잃을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bellows",
+    "term_ko": "풀무",
+    "term_en": "bellows",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "풀무질을 함",
+        "interpretation_ko": "고난이 있으나 노력과 인내로 가난과 운명을 끝내 이겨낼 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "풀무를 봄",
+        "interpretation_ko": "멀리 있는 친구들이 당신을 그리워하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "풀무 소리를 들음",
+        "interpretation_ko": "강력한 수단의 도움으로 신비한 지식을 얻을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "쓰이지 않고 방치된 풀무를 봄",
+        "interpretation_ko": "잘못된 충동으로 에너지를 낭비했음을 나타내는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bird-s-nest",
+    "term_ko": "새 둥지",
+    "term_en": "bird's nest",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "빈 새 둥지를 봄",
+        "interpretation_ko": "사업 전망이 어둡고 우울할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "둥지 안에 알이 있음",
+        "interpretation_ko": "모든 일에서 좋은 결과가 따를 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "둥지 안에 새끼가 있음",
+        "interpretation_ko": "여행이 성공적이고 거래가 만족스러울 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "둥지 속 새끼들이 외롭고 버려져 있음",
+        "interpretation_ko": "자신의 슬픔과 어리석음이 근심을 불러올 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bishop",
+    "term_ko": "주교",
+    "term_en": "bishop",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "주교 꿈을 꿈 (교사·저술가)",
+        "interpretation_ko": "교사와 저술가는 어려운 주제를 파고드느라 큰 정신적 근심을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "주교 꿈을 꿈 (상인)",
+        "interpretation_ko": "상인에게는 어리석은 구매로 손해를 볼 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "꿈에서 주교를 봄",
+        "interpretation_ko": "고된 노동이 자신의 몫이 될 것이며 오한과 학질이 따를 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "크게 존경받는 주교의 인정을 받음",
+        "interpretation_ko": "사랑이나 사업에서 성공을 거둘 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "bonnet",
+    "term_ko": "보닛(모자)",
+    "term_en": "bonnet",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "보닛 꿈을 꿈",
+        "interpretation_ko": "뒷말과 비방하는 험담이 많을 조짐이니 여성은 스스로를 조심히 지켜야 함",
+        "polarity": "negative"
+      },
+      {
+        "context": "남성이 여성이 보닛 끈을 매는 것을 봄",
+        "interpretation_ko": "뜻밖의 행운이 가까이 있고 친구들이 신실하고 진실할 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성의 보닛이 새것이고 검은색이 아님",
+        "interpretation_ko": "즐겁고 악의 없는 연애 유희를 하게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "검은 보닛을 봄",
+        "interpretation_ko": "이성 친구 중에 거짓된 사람이 있다는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bosom",
+    "term_ko": "가슴",
+    "term_en": "bosom",
+    "category": "body",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "젊은 여성의 가슴이 상처 입음",
+        "interpretation_ko": "어떤 고통이 그녀를 위협하고 있다는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "가슴이 더럽거나 쪼그라든 것을 봄",
+        "interpretation_ko": "사랑에서 큰 실망을 겪고 많은 연적이 그녀를 괴롭힐 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "가슴이 희고 풍만함",
+        "interpretation_ko": "곧 부를 얻게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "애인이 얇은 코르사주 너머로 가슴을 몰래 지켜봄",
+        "interpretation_ko": "지나치게 열정적인 구애자의 부드러운 설득에 넘어가려 한다는 조짐",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "bread",
+    "term_ko": "빵",
+    "term_en": "bread",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "여성이 빵을 먹는 꿈을 꿈",
+        "interpretation_ko": "고집 센 아이들 때문에 괴로워하며 헛된 수고와 근심으로 많은 날을 보낼 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람과 빵을 나눔",
+        "interpretation_ko": "평생 안정된 생계를 보장받을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "불결한 빵이 많이 있는 것을 봄",
+        "interpretation_ko": "궁핍과 비참함이 짓누를 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "빵이 좋고 그것을 먹을 수 있음",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "breakfast",
+    "term_ko": "아침 식사",
+    "term_en": "breakfast",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아침 식사 꿈을 꿈(정신노동에 종사하는 사람)",
+        "interpretation_ko": "정신노동에 종사하는 사람에게 좋은 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "신선한 우유와 달걀, 잘 차려진 잘 익은 과일 접시로 된 아침 식사를 봄",
+        "interpretation_ko": "급하지만 좋은 변화를 뜻하는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "혼자 식사를 함",
+        "interpretation_ko": "적의 함정에 빠질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람과 함께 식사를 함",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "bull",
+    "term_ko": "황소",
+    "term_en": "bull",
+    "category": "animal",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "황소가 자신을 쫓아오는 것을 봄",
+        "interpretation_ko": "시기하고 질투하는 경쟁자들 때문에 사업에 어려움을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 황소를 만남",
+        "interpretation_ko": "청혼을 받으나 거절함으로써 더 나은 운을 얻을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "황소가 사람을 뿔로 들이받는 것을 봄",
+        "interpretation_ko": "남의 것을 함부로 써서 불행을 자초할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "흰 황소를 봄",
+        "interpretation_ko": "물질을 최고로 여기는 이들보다 더 높은 삶의 경지로 올라서며 대개 이득을 뜻하는 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "abhor",
+    "term_ko": "혐오",
+    "term_en": "abhor",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "어떤 사람을 혐오하는 꿈을 꿈",
+        "interpretation_ko": "누군가에게 이상한 반감을 품게 되고, 그의 정직함에 대한 의심이 사실로 드러날 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "남들에게 혐오받는다고 여기는 꿈을 꿈",
+        "interpretation_ko": "남에게 품은 선의가 이기심으로 바뀔 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 애인에게 혐오받는 꿈을 꿈",
+        "interpretation_ko": "성격이 전혀 맞지 않는 남자를 사랑하게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "above",
+    "term_ko": "머리 위의 물체",
+    "term_en": "above",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "머리 위에 매달린 것이 떨어지려는 꿈을 꿈",
+        "interpretation_ko": "위험을 암시하며, 자신에게 떨어지면 파멸이나 갑작스런 실망으로 이어질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "떨어진 것이 비껴가 맞지 않음",
+        "interpretation_ko": "돈을 잃을 뻔한 위기를 가까스로 피하거나 다른 불행이 뒤따를 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "머리 위의 것이 단단히 고정돼 위험이 없어 보임",
+        "interpretation_ko": "위협받던 손실 뒤에 상황이 나아질 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "absinthe",
+    "term_ko": "압생트",
+    "term_en": "absinthe",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "압생트에 취하는 꿈을 꿈",
+        "interpretation_ko": "순진한 동료들과 어울려 흥청망청 어리석게 지내고, 유혹적이고 이기적인 공상에 유산을 낭비할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 애인과 압생트를 마시는 꿈을 꿈",
+        "interpretation_ko": "애인의 부적절한 관계 요구를 물리쳐야 한다는 경고",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 취한 꿈을 꿈",
+        "interpretation_ko": "강한 설득 없이도 정조를 내주게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "abyss",
+    "term_ko": "심연",
+    "term_en": "abyss",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "심연을 들여다보는 꿈을 꿈",
+        "interpretation_ko": "재산을 빼앗길 위협에 맞닥뜨리고, 개인적인 다툼과 비난으로 삶의 문제에 대처하지 못하게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 심연을 들여다보는 꿈을 꿈",
+        "interpretation_ko": "달갑지 않은 근심을 스스로 짊어질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 심연에 빠지거나 건너는 꿈을 꿈",
+        "interpretation_ko": "심연에 빠지면 실망이 완전해지나, 건너거나 피하는 데 성공하면 다시 일어설 조짐",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "accordion",
+    "term_ko": "아코디언",
+    "term_en": "accordion",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아코디언 음악을 듣는 꿈을 꿈",
+        "interpretation_ko": "슬픔과 회한에서 벗어나게 할 오락을 즐기게 되고, 그 덕에 짐을 더 명랑하게 짊어질 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성이 아코디언을 연주하는 꿈을 꿈",
+        "interpretation_ko": "슬픈 사건을 계기로 애인의 마음을 얻고, 그것이 결혼 생활에 오래가는 행복을 안겨줄 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "아코디언 소리가 어긋나는 꿈을 꿈",
+        "interpretation_ko": "애인의 병이나 곤란으로 슬퍼하게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "acid",
+    "term_ko": "산",
+    "term_en": "acid",
+    "label_ko": "산(산성)",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "산을 마심",
+        "interpretation_ko": "불길한 꿈으로 큰 근심을 가져올 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 신맛 나는 산성 음료를 마심",
+        "interpretation_ko": "곤란한 상황에 스스로를 옭아맬 조짐이며 건강까지 얽힐 수 있음",
+        "polarity": "negative"
+      },
+      {
+        "context": "독성이 있는 산을 봄",
+        "interpretation_ko": "자신을 향한 어떤 배신이 드러날 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "adam-and-eve",
+    "term_ko": "아담과 이브",
+    "term_en": "adam and eve",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "아담과 이브 꿈을 꿈",
+        "interpretation_ko": "어떤 중대한 사건이 일의 성공에 대한 희망을 빼앗아 갈 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "정원의 아담과 이브를 봄(아담은 무화과 잎을 걸치고 이브는 뱀 장식만 두른 채 나체임)",
+        "interpretation_ko": "배신과 불신이 합쳐져 자신의 운을 뒤엎을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "이브가 뱀과 이야기하는 것을 보거나 들음",
+        "interpretation_ko": "교활한 여자들이 자신을 재물과 평판의 손실로 몰아넣을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "adder",
+    "term_ko": "독사",
+    "term_en": "adder",
+    "category": "animal",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라짐",
+        "interpretation_ko": "친구들의 불운에 크게 상심하고 자신에게도 손실이 닥칠 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 독사를 봄",
+        "interpretation_ko": "기만적인 사람이 자신에게 곤란을 일으킬 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "독사가 그녀에게서 달아남",
+        "interpretation_ko": "자신에게 가해지는 공격에서 스스로의 평판을 지켜낼 수 있을 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "afraid",
+    "term_ko": "두려움",
+    "term_en": "afraid",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "어떤 일이나 여행을 계속하기가 두려움",
+        "interpretation_ko": "가정에 어려움이 생기고 하는 일이 실패할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 두려워하는 것을 봄",
+        "interpretation_ko": "어떤 친구가 자신의 어려움 때문에 자신에게 호의를 베풀지 못할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 개를 무서워함",
+        "interpretation_ko": "참된 친구를 의심하게 될 가능성이 있는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "alabaster",
+    "term_ko": "설화석고",
+    "term_en": "alabaster",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "설화석고를 봄",
+        "interpretation_ko": "결혼과 모든 정당한 일에서 성공할 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "설화석고 조각상이나 그릇을 깨뜨림",
+        "interpretation_ko": "슬픔과 뉘우침을 뜻하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 향이 든 설화석고 상자를 잃어버림",
+        "interpretation_ko": "자신의 평판을 부주의하게 다뤄 애인이나 재산을 잃을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "alien",
+    "term_ko": "이방인",
+    "term_en": "alien",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "낯선 사람이 자신을 기쁘게 함",
+        "interpretation_ko": "건강이 좋고 주변 환경이 즐거울 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "낯선 사람이 자신을 불쾌하게 함",
+        "interpretation_ko": "실망할 일을 예상해야 할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신이 외국인이 됨",
+        "interpretation_ko": "변치 않는 우정을 뜻하는 조짐",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "id": "alum",
+    "term_ko": "백반",
+    "term_en": "alum",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "백반을 봄",
+        "interpretation_ko": "잘 세워 둔 계획이 좌절될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "백반을 맛봄",
+        "interpretation_ko": "죄 없는 사람에게 저지른 어떤 악행에 대해 남몰래 뉘우칠 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 많은 양의 백반 꿈을 꿈",
+        "interpretation_ko": "결혼 생활에서 실망하고 애정을 잃을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "amateur",
+    "term_ko": "아마추어 배우",
+    "term_en": "amateur",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "무대 위 아마추어 배우를 봄",
+        "interpretation_ko": "바라던 일이 즐겁고 만족스럽게 이루어짐을 보게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "아마추어가 비극을 연기함",
+        "interpretation_ko": "행복 속에 악이 퍼질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "꿈속 장면이 흐릿하거나 일그러짐",
+        "interpretation_ko": "본업과 무관한 어떤 일에서 빠르고 확실하게 패배를 겪을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "id": "house",
+    "term_ko": "집",
+    "term_en": "house",
+    "key_file": "km4",
+    "aliases": [
+      "주택",
+      "가옥",
+      "저택"
+    ],
+    "aliases_en": [
+      "home",
+      "residence",
+      "dwelling"
+    ],
+    "existing_contexts": {
+      "불이 제 집을 태움": "화재 불타 불길 태우 타버",
+      "집 안에 불빛이 있음": "불빛 환하 밝은 등불",
+      "남의 집을 사들임": "사들 구입 매입 샀다",
+      "성 위에 집을 지음": "성벽 성곽 지었 짓고 건축",
+      "집 지붕 위에 오름": "올라 올라가 올라섰 기어올",
+      "올라간 지붕이 부서짐": "부서 무너지 무너져 내려앉지붕",
+      "지붕을 새로 덮음": "덮었 덮고 이엉 기와",
+      "집을 새로 고침": "수리 개조 리모델 새단장",
+      "바람에 집이 흔들림": "바람 흔들 흔들리 태풍 휘청",
+      "살던 집에서 나옴": "나왔 떠났 이사",
+      "집을 남에게 저당 잡힘": "저당 담보 잡혔 잡히",
+      "집을 팔거나 저당 잡힘": "팔았 팔아 매도 처분",
+      "집에 사람이 하나도 없음": "아무도 텅빈 비어있 적막 없었",
+      "지붕 위로 배가 지나감": "배가 지나가 뱃머리 돛단",
+      "남과 집을 두고 다툼": "이웃 타인 남과 시비",
+      "부인과 집을 두고 다툼": "아내 부인 마누라 아내와",
+      "집 마당이 꺼져 내려앉음": "마당 꺼져 함몰 푹꺼 가라앉",
+      "시골집을 손보아 고침": "시골 고향 손보 손질"
+    },
+    "existing_contexts_en": {
+      "불이 제 집을 태움": "fire burning burned burnt ablaze",
+      "집 안에 불빛이 있음": "light lit glowing lamp bright",
+      "남의 집을 사들임": "bought buying purchased",
+      "성 위에 집을 지음": "castle fortress wall built building",
+      "집 지붕 위에 오름": "climbed climbing onto top",
+      "올라간 지붕이 부서짐": "collapsed broke broken crumbled",
+      "지붕을 새로 덮음": "thatch thatched tiles retiled shingles",
+      "집을 새로 고침": "repaired renovated remodeled fixed",
+      "바람에 집이 흔들림": "wind shaking shook swayed storm",
+      "살던 집에서 나옴": "left leaving moved away departed",
+      "집을 남에게 저당 잡힘": "mortgage mortgaged pawned collateral",
+      "집을 팔거나 저당 잡힘": "sold selling sell",
+      "집에 사람이 하나도 없음": "empty nobody deserted abandoned",
+      "지붕 위로 배가 지나감": "boat ship sailing sailed",
+      "남과 집을 두고 다툼": "quarrel dispute argued neighbor stranger",
+      "부인과 집을 두고 다툼": "wife spouse marital",
+      "집 마당이 꺼져 내려앉음": "yard courtyard sank sinking caved",
+      "시골집을 손보아 고침": "countryside village hometown rural"
+    },
+    "missing_meanings": [
+      {
+        "context": "집을 지음",
+        "interpretation_ko": "지금의 일을 지혜롭게 바꿀 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "우아한 집을 소유함",
+        "interpretation_ko": "더 나은 집으로 옮기고 운이 따를 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "낡고 허름한 집을 봄",
+        "interpretation_ko": "사업이나 노력에 실패하고 건강이 나빠질 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "bed",
+    "term_ko": "침대",
+    "term_en": "bed",
+    "key_file": "km4",
+    "aliases": [
+      "침대",
+      "평상"
+    ],
+    "aliases_en": [
+      "beds",
+      "bedstead"
+    ],
+    "existing_contexts": {
+      "침상 위에 개미가 있음": "개미 벌레 기어다",
+      "침상 다리를 새로 갈아 끼움": "다리를 갈아 교체 새것으로",
+      "침상에 올라가 누움": "올라가 누워 드러누 눕는",
+      "침상에 피가 있음": "피가 핏자국 붉게 혈흔"
+    },
+    "existing_contexts_en": {
+      "침상 위에 개미가 있음": "ant ants insects crawling",
+      "침상 다리를 새로 갈아 끼움": "leg legs replaced repaired",
+      "침상에 올라가 누움": "climbing onto lay lying rested",
+      "침상에 피가 있음": "blood bloody bloodstain stained"
+    },
+    "missing_meanings": [
+      {
+        "context": "깨끗하고 하얀 침대를 봄",
+        "interpretation_ko": "근심이 평화롭게 그칠 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "여성이 침대를 정리하는 꿈을 꿈",
+        "interpretation_ko": "새로운 연인과 즐거운 일이 생길 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "낯선 방에서 침대에 있는 꿈을 꿈",
+        "interpretation_ko": "뜻밖의 친구들이 찾아올 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "병든 사람이 침대에 있는 꿈을 꿈",
+        "interpretation_ko": "새로운 문제가 생기고 어쩌면 죽음에 이를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "야외에서 침대에 누워 자는 꿈을 꿈",
+        "interpretation_ko": "즐거운 경험을 하고 재산을 늘릴 기회가 생길 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "매우 창백해 보이는 친구가 침대에 누워 있는 것을 봄",
+        "interpretation_ko": "이상하고 애처로운 문제가 친구들을 짓눌러 자신에게도 불만을 가져올 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "어머니가 아이가 잠자리에 오줌을 싸는 꿈을 꿈",
+        "interpretation_ko": "유별난 근심이 생기고 병든 사람의 회복이 예상보다 늦어질 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "자신이 잠자리에 오줌을 싸는 꿈을 꿈",
+        "interpretation_ko": "병이 생기거나 일상 사업에 지장을 줄 불행이 생길 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "bee",
+    "term_ko": "벌",
+    "term_en": "bees",
+    "key_file": "km4",
+    "aliases": [
+      "꿀벌",
+      "말벌",
+      "벌떼"
+    ],
+    "aliases_en": [
+      "bees",
+      "honeybee",
+      "wasp"
+    ],
+    "existing_contexts": {
+      "벌과 나비가 어우러져 놂": "나비 어우러 날아다 놀고",
+      "벌이 사람의 다리를 쏨": "쏘였 쏘여 쏘았 다리를"
+    },
+    "existing_contexts_en": {
+      "벌과 나비가 어우러져 놂": "butterfly butterflies fluttering playing",
+      "벌이 사람의 다리를 쏨": "stung sting stinging leg"
+    },
+    "missing_meanings": [
+      {
+        "context": "벌을 봄",
+        "interpretation_ko": "즐겁고 이로운 만남을 뜻하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "관리(장교)가 벌 꿈을 꿈",
+        "interpretation_ko": "순종하는 부하와 건강한 환경을 가져오는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "목회자가 벌 꿈을 꿈",
+        "interpretation_ko": "새 신도가 많아지고 기도하는 회중이 생길 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "사업가가 벌 꿈을 꿈",
+        "interpretation_ko": "거래가 늘어날 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "부모가 벌 꿈을 꿈",
+        "interpretation_ko": "효성스러운 자녀에게서 큰 기쁨을 누릴 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "벌에 쏘임",
+        "interpretation_ko": "친한 사람으로부터 손실이나 피해를 입을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "feast",
+    "term_ko": "잔치",
+    "term_en": "banquet",
+    "key_file": "km4",
+    "aliases": [
+      "연회",
+      "축하연",
+      "회식"
+    ],
+    "aliases_en": [
+      "banquet",
+      "party",
+      "celebration"
+    ],
+    "existing_contexts": {
+      "잔치를 열어 손님을 모음": "손님 열어 초대해 모았 차렸",
+      "귀인이 베푼 잔치를 받음": "귀인 초대받 대접받 얻어먹 귀한분"
+    },
+    "existing_contexts_en": {
+      "잔치를 열어 손님을 모음": "guests invited gathered threw hosting",
+      "귀인이 베푼 잔치를 받음": "noble dignitary important person honored treated"
+    },
+    "missing_meanings": [
+      {
+        "context": "잔치(연회) 꿈을 꿈",
+        "interpretation_ko": "좋은 꿈이며 친구들이 호의를 베풀 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심",
+        "interpretation_ko": "온갖 사업에서 큰 이득을 얻고 친구들 사이에 행복이 있을 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄",
+        "interpretation_ko": "심각한 오해나 실망을 예고하는 불길한 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "fishing",
+    "term_ko": "낚시",
+    "term_en": "angling",
+    "key_file": "km4",
+    "aliases": [
+      "고기잡이",
+      "낚싯대",
+      "낚시질"
+    ],
+    "aliases_en": [
+      "fishing rod",
+      "angling",
+      "catching fish"
+    ],
+    "existing_contexts": {
+      "물속에서 낚시를 함": "물속 강에서 바다 호수 물가",
+      "숲속에서 고기잡이를 함": "숲속 숲에서 산속 나무 수풀"
+    },
+    "existing_contexts_en": {
+      "물속에서 낚시를 함": "water river sea lake stream",
+      "숲속에서 고기잡이를 함": "forest woods mountain trees grove"
+    },
+    "missing_meanings": [
+      {
+        "context": "물고기를 낚는 꿈을 꿈",
+        "interpretation_ko": "좋은 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "한 마리도 낚지 못함",
+        "interpretation_ko": "나쁜 일이 있을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "arrow",
+    "term_ko": "화살",
+    "term_en": "arrow",
+    "key_file": "km4",
+    "aliases": [
+      "화살촉",
+      "활과 화살"
+    ],
+    "aliases_en": [
+      "arrows",
+      "bow and arrow"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "화살 꿈을 꿈",
+        "interpretation_ko": "즐거움이 뒤따르며 여흥과 축제, 즐거운 여행이 있을 것이고 괴로움이 그칠 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "낡거나 부러진 화살을 봄",
+        "interpretation_ko": "사랑이나 사업에서 실망할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "활과 화살을 지님",
+        "interpretation_ko": "크게 길한 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "ant",
+    "term_ko": "개미",
+    "term_en": "ants",
+    "key_file": "km4",
+    "aliases": [
+      "개미떼",
+      "왕개미"
+    ],
+    "aliases_en": [
+      "ants"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "개미를 보는 꿈을 꿈",
+        "interpretation_ko": "그날 자잘한 성가심이 많고, 사소한 걱정에 쫓기며 모든 일에 불만을 느낄 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "개미가 침상 위로 올라옴",
+        "interpretation_ko": "상서롭지 못한 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "bathing",
+    "term_ko": "목욕",
+    "term_en": "bath",
+    "key_file": "km7",
+    "aliases": [
+      "샤워",
+      "멱감"
+    ],
+    "aliases_en": [
+      "bath",
+      "bathe",
+      "washing",
+      "shower"
+    ],
+    "existing_contexts": {
+      "목욕을 함": "씻었 깨끗이 개운",
+      "남녀가 목욕하고 잠자리에 오름": "남녀 잠자리 이성 동침",
+      "티끌과 흙으로 목욕함": "흙으로 티끌 진흙 먼지 흙탕"
+    },
+    "existing_contexts_en": {
+      "목욕을 함": "washed clean refreshed",
+      "남녀가 목욕하고 잠자리에 오름": "man woman bed sleeping together",
+      "티끌과 흙으로 목욕함": "dirt mud dust muddy"
+    },
+    "missing_meanings": [
+      {
+        "context": "젊은 사람이 목욕하는 꿈을 꿈",
+        "interpretation_ko": "이성에 대한 염려로 다른 사람들의 영향에 평판을 잃을까 두려워하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "임신한 여성이 목욕 꿈을 꿈",
+        "interpretation_ko": "유산이나 사고를 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "남성이 목욕 꿈을 꿈",
+        "interpretation_ko": "간통을 뜻하며 이후 모든 거래를 신중히 해야 함을 알리는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "다른 사람들과 함께 목욕하러 들어감",
+        "interpretation_ko": "나쁜 동료를 피해야 하며 명예 훼손이 뒤따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "목욕물이 흐림",
+        "interpretation_ko": "나쁜 일과 죽음, 가까이 있는 적을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "과부가 자신의 목욕 꿈을 꿈",
+        "interpretation_ko": "예전의 인연을 잊고 새로운 사랑을 서두르게 될 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      },
+      {
+        "context": "목욕 꿈에서 소녀들에게 주는 경고",
+        "interpretation_ko": "남성 동료를 피해야 한다는 경고의 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      },
+      {
+        "context": "목욕 꿈을 꾼 남성들",
+        "interpretation_ko": "색정적인 밀회에 연루될 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "따뜻한 물로 목욕함",
+        "interpretation_ko": "일반적으로 나쁜 일을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "차갑고 맑은 물로 목욕함",
+        "interpretation_ko": "기쁜 소식과 오랜 건강을 예고하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "맑은 바다에서 목욕함",
+        "interpretation_ko": "사업이 확장되고 지식을 향한 탐구가 충족될 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "wicked-person",
+    "term_ko": "악인",
+    "term_en": "wicked person",
+    "key_file": "km7",
+    "aliases": [
+      "악당",
+      "나쁜 사람",
+      "악한 사람",
+      "못된",
+      "악인",
+      "나쁜사람",
+      "흉악"
+    ],
+    "aliases_en": [
+      "evil person",
+      "bad person",
+      "villain",
+      "wicked man",
+      "bad people",
+      "wicked people"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "악한 사람과 말을 나눔",
+        "interpretation_ko": "구설에 오를 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      },
+      {
+        "context": "악한 사람이 서로 끌어당김",
+        "interpretation_ko": "질병이 올 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "calendar",
+    "term_ko": "달력",
+    "term_en": "almanac",
+    "key_file": "km6",
+    "aliases": [
+      "책력",
+      "역서"
+    ],
+    "aliases_en": [
+      "almanac",
+      "calendars"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "달력을 봄",
+        "interpretation_ko": "운이 오락가락하고 헛된 쾌락을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "달력의 점괘를 살펴봄",
+        "interpretation_ko": "사소한 일들로 시간을 빼앗기며 시달릴 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "책력을 얻음",
+        "interpretation_ko": "시험에 급제할 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  }
+]

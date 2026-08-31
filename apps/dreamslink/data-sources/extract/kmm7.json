@@ -1,0 +1,1355 @@
+[
+  {
+    "id": "boiler",
+    "aliases": [
+      "난방기",
+      "온수기",
+      "보일러실",
+      "화덕솥"
+    ],
+    "aliases_en": [
+      "a boiler",
+      "the boiler",
+      "a furnace",
+      "a water heater"
+    ],
+    "contexts": {
+      "고장 난 보일러를 봄": "고장 망가 부서 터졌 새는",
+      "여성이 지하실에 내려가 보일러를 살펴봄": "지하실 내려가 살펴 점검 여자가"
+    },
+    "contexts_en": {
+      "고장 난 보일러를 봄": "broken damaged burst leaking",
+      "여성이 지하실에 내려가 보일러를 살펴봄": "basement cellar inspect descended woman"
+    }
+  },
+  {
+    "id": "bolts",
+    "aliases": [
+      "볼트",
+      "걸쇠",
+      "문빗장",
+      "잠금쇠"
+    ],
+    "aliases_en": [
+      "a bolt",
+      "door bolt",
+      "a latch",
+      "a bolt lock"
+    ],
+    "contexts": {
+      "빗장(볼트) 꿈을 꿈": "보였 새것 튼튼 잠갔 채웠",
+      "빗장이 낡거나 부러짐": "낡은 낡아 녹슬 부러 헐거"
+    },
+    "contexts_en": {
+      "빗장(볼트) 꿈을 꿈": "saw new sturdy locked fastened",
+      "빗장이 낡거나 부러짐": "old worn rusty broken loose"
+    }
+  },
+  {
+    "id": "bones",
+    "aliases": [
+      "뼈다귀",
+      "해골",
+      "유골",
+      "백골"
+    ],
+    "aliases_en": [
+      "a bone",
+      "a skeleton",
+      "a skull",
+      "bone fragments"
+    ],
+    "contexts": {
+      "살에서 뼈가 튀어나온 것을 봄": "튀어나 살에서 삐져 드러난 살갗",
+      "뼈 무더기를 봄": "무더기 쌓인 더미 잔뜩 흩어진"
+    },
+    "contexts_en": {
+      "살에서 뼈가 튀어나온 것을 봄": "protruding sticking flesh exposed jutting",
+      "뼈 무더기를 봄": "heap pile mound scattered many"
+    }
+  },
+  {
+    "id": "bookcase",
+    "aliases": [
+      "책장",
+      "서가",
+      "책꽂이",
+      "책 선반"
+    ],
+    "aliases_en": [
+      "a bookcase",
+      "a bookshelf",
+      "book shelves",
+      "a book cabinet"
+    ],
+    "contexts": {
+      "꿈에서 책장을 봄": "가득 빼곡 책이많 꽂혀",
+      "빈 책장을 봄": "텅빈 비어 아무것도 휑하"
+    },
+    "contexts_en": {
+      "꿈에서 책장을 봄": "full filled books stacked",
+      "빈 책장을 봄": "empty bare vacant nothing"
+    }
+  },
+  {
+    "id": "bottles",
+    "aliases": [
+      "유리병",
+      "물병",
+      "술병",
+      "약병"
+    ],
+    "aliases_en": [
+      "a bottle",
+      "a glass bottle",
+      "a flask",
+      "bottle of water"
+    ],
+    "contexts": {
+      "투명한 액체로 가득 찬 병을 봄": "투명 맑은 가득 액체 채워",
+      "빈 병을 봄": "텅빈 비어있 아무것도 말라"
+    },
+    "contexts_en": {
+      "투명한 액체로 가득 찬 병을 봄": "clear full liquid transparent filled",
+      "빈 병을 봄": "empty drained nothing hollow"
+    }
+  },
+  {
+    "id": "bouquet",
+    "aliases": [
+      "부케",
+      "꽃묶음",
+      "꽃바구니",
+      "한 아름 꽃"
+    ],
+    "aliases_en": [
+      "a bouquet",
+      "a bunch of flowers",
+      "a nosegay",
+      "a floral spray"
+    ],
+    "contexts": {
+      "아름답고 화려한 색의 꽃다발을 봄": "아름다 화려 알록 색색 싱싱",
+      "시든 꽃다발을 봄": "시든 시들 마른 갈색으로 죽은"
+    },
+    "contexts_en": {
+      "아름답고 화려한 색의 꽃다발을 봄": "beautiful bright colorful fresh vivid",
+      "시든 꽃다발을 봄": "withered wilted faded dead dried"
+    }
+  },
+  {
+    "id": "bow-and-arrow",
+    "aliases": [
+      "화살",
+      "활쏘기",
+      "활시위",
+      "궁술"
+    ],
+    "aliases_en": [
+      "a bow",
+      "an arrow",
+      "arrows",
+      "archery"
+    ],
+    "contexts": {
+      "활과 화살 꿈을 꿈": "쏘아맞 명중 겨누 들고있",
+      "화살을 잘못 쏨": "빗나 잘못 헛쏘 놓쳤 빗맞"
+    },
+    "contexts_en": {
+      "활과 화살 꿈을 꿈": "aimed hit target holding",
+      "화살을 잘못 쏨": "missed misses astray wide"
+    }
+  },
+  {
+    "id": "branch",
+    "aliases": [
+      "가지",
+      "잔가지",
+      "곁가지",
+      "나무 가지"
+    ],
+    "aliases_en": [
+      "a branch",
+      "branches",
+      "a bough",
+      "a tree limb"
+    ],
+    "contexts": {
+      "가지에 열매와 푸른 잎이 가득함": "열매 푸른 잎이 무성 싱싱",
+      "가지가 말라 있음": "말라 마른 시들 앙상 메말"
+    },
+    "contexts_en": {
+      "가지에 열매와 푸른 잎이 가득함": "fruit green leaves laden lush",
+      "가지가 말라 있음": "dry dried withered bare dead"
+    }
+  },
+  {
+    "id": "brewing",
+    "aliases": [
+      "술 빚",
+      "맥주 만들",
+      "발효",
+      "양조장"
+    ],
+    "aliases_en": [
+      "a brewery",
+      "brewing beer",
+      "making beer",
+      "brewing ale"
+    ],
+    "contexts": {
+      "커다란 양조장에 있는 꿈을 꿈": "커다란 건물 안에 공장 서있",
+      "어떤 형태로든 양조하는 꿈을 꿈": "직접 빚었 담그 발효시"
+    },
+    "contexts_en": {
+      "커다란 양조장에 있는 꿈을 꿈": "large building inside",
+      "어떤 형태로든 양조하는 꿈을 꿈": "myself fermenting brewed"
+    }
+  },
+  {
+    "id": "briars",
+    "aliases": [
+      "찔레",
+      "찔레덤불",
+      "찔레꽃",
+      "가시나무"
+    ],
+    "aliases_en": [
+      "a briar",
+      "a briar patch",
+      "thorns",
+      "thorny bushes"
+    ],
+    "contexts": {
+      "가시덤불에 걸려 있는 자신을 봄": "걸려 걸린 갇혀 얽혀 찔렸",
+      "가시덤불에서 스스로 벗어나는 데 성공함": "벗어났 빠져나왔 헤치고 성공"
+    },
+    "contexts_en": {
+      "가시덤불에 걸려 있는 자신을 봄": "caught tangled stuck entangled trapped",
+      "가시덤불에서 스스로 벗어나는 데 성공함": "escaped freed extricated succeeded"
+    }
+  },
+  {
+    "id": "brick",
+    "aliases": [
+      "블록",
+      "적벽돌",
+      "벽돌담",
+      "벽돌집"
+    ],
+    "aliases_en": [
+      "a brick",
+      "bricks",
+      "red brick",
+      "brickwork"
+    ],
+    "contexts": {
+      "벽돌 꿈을 꿈": "쌓여 놓여 보였 담장",
+      "벽돌을 직접 만듦": "직접 만들 찍어 굽고 반죽"
+    },
+    "contexts_en": {
+      "벽돌 꿈을 꿈": "saw lying wall pile",
+      "벽돌을 직접 만듦": "making molded myself moulding"
+    }
+  },
+  {
+    "id": "bridle-bits",
+    "aliases": [
+      "말재갈",
+      "굴레",
+      "고삐",
+      "재갈 물린 말"
+    ],
+    "aliases_en": [
+      "a horse bit",
+      "a bridle",
+      "bridle and bit",
+      "the bits"
+    ],
+    "contexts": {
+      "재갈을 보는 꿈을 꿈": "보였 물리 채우 단단",
+      "재갈이 부러지거나 망가짐": "부러 망가 끊어 부서"
+    },
+    "contexts_en": {
+      "재갈을 보는 꿈을 꿈": "saw holding fitted intact",
+      "재갈이 부러지거나 망가짐": "broken broke damaged snapped"
+    }
+  },
+  {
+    "id": "brimstone",
+    "aliases": [
+      "유황불",
+      "유황 냄새",
+      "황 덩어리"
+    ],
+    "aliases_en": [
+      "sulphur",
+      "sulfur",
+      "burning sulphur",
+      "fire and brimstone"
+    ],
+    "contexts": {
+      "유황 꿈을 꿈": "냄새 덩어리 노란 가루",
+      "유황불을 봄": "타오르 불길 불꽃 화염"
+    },
+    "contexts_en": {
+      "유황 꿈을 꿈": "smell lump yellow powder",
+      "유황불을 봄": "flames blazing"
+    }
+  },
+  {
+    "id": "bronchitis",
+    "aliases": [
+      "기관지",
+      "기침병",
+      "기관지 염증",
+      "가래 기침"
+    ],
+    "aliases_en": [
+      "bronchial trouble",
+      "a bad cough",
+      "a chest infection"
+    ],
+    "contexts": {
+      "기관지염에 걸린 꿈을 꿈": "걸렸 걸려 진단 옮았",
+      "꿈에서 기관지염을 앓음": "앓고 앓았 시달리 기침이"
+    },
+    "contexts_en": {
+      "기관지염에 걸린 꿈을 꿈": "caught diagnosed contracted developed",
+      "꿈에서 기관지염을 앓음": "suffering suffered coughing"
+    }
+  },
+  {
+    "id": "buffalo",
+    "aliases": [
+      "들소",
+      "버팔로",
+      "물소떼",
+      "무소"
+    ],
+    "aliases_en": [
+      "a buffalo",
+      "buffaloes",
+      "a bison",
+      "water buffalo"
+    ],
+    "contexts": {
+      "여성이 물소 여러 마리를 죽임": "죽였 잡아죽 여러마리 여자가 사냥",
+      "물소를 봄": "보였 바라보 서있 풀을뜯"
+    },
+    "contexts_en": {
+      "여성이 물소 여러 마리를 죽임": "killed killing slew woman several",
+      "물소를 봄": "saw watched standing grazing"
+    }
+  },
+  {
+    "id": "bugle",
+    "aliases": [
+      "뿔피리",
+      "트럼펫",
+      "나팔소리",
+      "군나팔"
+    ],
+    "aliases_en": [
+      "a bugle",
+      "a trumpet",
+      "a bugle call",
+      "bugles"
+    ],
+    "contexts": {
+      "나팔에서 나는 즐거운 소리를 들음": "들렸 들었 소리가 울려 경쾌",
+      "나팔을 붊": "불었 불며 입에대 연주했"
+    },
+    "contexts_en": {
+      "나팔에서 나는 즐거운 소리를 들음": "heard sound sweet ringing",
+      "나팔을 붊": "blew blowing played myself"
+    }
+  },
+  {
+    "id": "bulldog",
+    "aliases": [
+      "불독",
+      "투견",
+      "사나운 개"
+    ],
+    "aliases_en": [
+      "a bulldog",
+      "a bull dog",
+      "bulldogs"
+    ],
+    "contexts": {
+      "낯선 곳에 들어갔다가 불도그의 공격을 받음": "공격 물렸 덤벼 낯선 사납",
+      "불도그가 우호적으로 다가옴": "다가와 꼬리 반갑 순하 친근"
+    },
+    "contexts_en": {
+      "낯선 곳에 들어갔다가 불도그의 공격을 받음": "attacked bitten strange fierce lunged",
+      "불도그가 우호적으로 다가옴": "friendly approached wagging gentle"
+    }
+  },
+  {
+    "id": "burden",
+    "aliases": [
+      "무거운 짐",
+      "짐꾸러미",
+      "봇짐",
+      "부담"
+    ],
+    "aliases_en": [
+      "a burden",
+      "a heavy load",
+      "a load",
+      "carrying a load"
+    ],
+    "contexts": {
+      "무거운 짐을 짊어짐": "무거운 짊어 등에지 어깨에 이고",
+      "짐에서 벗어나려 애씀": "벗어나 내려놓 애쓰 떨쳐"
+    },
+    "contexts_en": {
+      "무거운 짐을 짊어짐": "shoulders bearing",
+      "짐에서 벗어나려 애씀": "escape struggling shedding throwing"
+    }
+  },
+  {
+    "id": "abroad",
+    "aliases": [
+      "해외",
+      "타국",
+      "외국여행",
+      "이국땅"
+    ],
+    "aliases_en": [
+      "going abroad",
+      "overseas",
+      "a foreign country",
+      "traveling abroad"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "abundance",
+    "aliases": [
+      "풍족",
+      "넉넉함",
+      "풍성",
+      "부족함 없"
+    ],
+    "aliases_en": [
+      "plenty",
+      "abundant",
+      "plentiful",
+      "an abundance"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "adamant",
+    "aliases": [
+      "아주 단단한 돌",
+      "금강석",
+      "깨지지 않는 돌"
+    ],
+    "aliases_en": [
+      "adamantine stone",
+      "an unbreakable stone",
+      "adamantine"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "admire",
+    "aliases": [
+      "동경",
+      "우러러",
+      "찬사를 받",
+      "선망"
+    ],
+    "aliases_en": [
+      "admired",
+      "admiration",
+      "being admired",
+      "looking up to"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "admonish",
+    "aliases": [
+      "타이르",
+      "꾸짖",
+      "나무라",
+      "충고"
+    ],
+    "aliases_en": [
+      "admonishing",
+      "scolding",
+      "reproving",
+      "chiding"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "advocate",
+    "aliases": [
+      "변호",
+      "두둔",
+      "편들",
+      "지지 발언"
+    ],
+    "aliases_en": [
+      "advocating",
+      "pleading a cause",
+      "defending a cause",
+      "arguing for"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "agate",
+    "aliases": [
+      "마노석",
+      "마노 구슬",
+      "줄무늬 돌"
+    ],
+    "aliases_en": [
+      "an agate",
+      "agate stone",
+      "agates"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "alarm-bell",
+    "aliases": [
+      "비상종",
+      "경보음",
+      "알람 소리",
+      "종을 울려"
+    ],
+    "aliases_en": [
+      "an alarm",
+      "alarm bells",
+      "a warning bell",
+      "a tocsin"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ale-house",
+    "aliases": [
+      "술집",
+      "주점",
+      "맥줏집",
+      "목로주점"
+    ],
+    "aliases_en": [
+      "an alehouse",
+      "a tavern",
+      "a pub",
+      "a beer house"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "alligator",
+    "aliases": [
+      "악어떼",
+      "크로커다일",
+      "악어 입"
+    ],
+    "aliases_en": [
+      "an alligator",
+      "alligators",
+      "a crocodile",
+      "a gator"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "alms-house",
+    "aliases": [
+      "빈민 구제소",
+      "자선원",
+      "양로원"
+    ],
+    "aliases_en": [
+      "an almshouse",
+      "a poorhouse",
+      "a charity house"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "america",
+    "aliases": [
+      "아메리카",
+      "미합중국",
+      "미국 땅"
+    ],
+    "aliases_en": [
+      "the United States",
+      "the USA",
+      "American soil"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "apprentice",
+    "aliases": [
+      "수습생",
+      "도제",
+      "견습공",
+      "제자로 일"
+    ],
+    "aliases_en": [
+      "an apprentice",
+      "apprenticeship",
+      "a trainee"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "arm",
+    "aliases": [
+      "팔뚝",
+      "양팔",
+      "두 팔",
+      "팔목"
+    ],
+    "aliases_en": [
+      "my arm",
+      "both arms",
+      "one arm"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "aroma",
+    "aliases": [
+      "좋은 냄새",
+      "향내",
+      "달콤한 냄새",
+      "은은한 향"
+    ],
+    "aliases_en": [
+      "a sweet smell",
+      "fragrance",
+      "a pleasant scent",
+      "a perfume smell"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "art-gallery",
+    "aliases": [
+      "화랑",
+      "갤러리",
+      "그림 전시",
+      "전시회"
+    ],
+    "aliases_en": [
+      "an art gallery",
+      "an art museum",
+      "a picture gallery"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "asceticism",
+    "aliases": [
+      "금욕",
+      "고행",
+      "절제 생활",
+      "수도 생활"
+    ],
+    "aliases_en": [
+      "an ascetic",
+      "ascetic life",
+      "self denial"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ashes",
+    "aliases": [
+      "잿더미",
+      "재가루",
+      "타고 남은 재",
+      "화산재"
+    ],
+    "aliases_en": [
+      "ash",
+      "cinders",
+      "embers",
+      "ashes of a fire"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "asia",
+    "aliases": [
+      "아시아 대륙",
+      "동양",
+      "아시아 여행"
+    ],
+    "aliases_en": [
+      "Asian countries",
+      "the continent of Asia",
+      "the Orient"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "asylum",
+    "aliases": [
+      "정신 병동",
+      "정신 요양원",
+      "수용소"
+    ],
+    "aliases_en": [
+      "an asylum",
+      "a madhouse",
+      "a mental hospital",
+      "an insane asylum"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "atlas",
+    "aliases": [
+      "지도첩",
+      "세계 지도",
+      "지도를 펼"
+    ],
+    "aliases_en": [
+      "an atlas",
+      "a map book",
+      "a book of maps"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "augur",
+    "aliases": [
+      "복술가",
+      "예언자",
+      "역술가",
+      "점술가"
+    ],
+    "aliases_en": [
+      "an augur",
+      "augurs",
+      "a soothsayer",
+      "a diviner"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "aura",
+    "aliases": [
+      "영기",
+      "기운의 빛",
+      "몸을 감싼 기운"
+    ],
+    "aliases_en": [
+      "an aura",
+      "auras",
+      "the aura around",
+      "a halo of light"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "baby-carriage",
+    "aliases": [
+      "유아차",
+      "아기 수레",
+      "아기차를 밀"
+    ],
+    "aliases_en": [
+      "a baby carriage",
+      "a pram",
+      "a stroller",
+      "a baby buggy"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "badger",
+    "aliases": [
+      "오소리굴",
+      "오소리 한 마리"
+    ],
+    "aliases_en": [
+      "a badger",
+      "badgers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bagpipe",
+    "aliases": [
+      "백파이프 소리",
+      "스코틀랜드 피리",
+      "풍적"
+    ],
+    "aliases_en": [
+      "bagpipes",
+      "a bagpiper",
+      "playing the pipes"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "baking",
+    "aliases": [
+      "빵을 굽",
+      "제빵",
+      "오븐에 굽",
+      "빵 만들"
+    ],
+    "aliases_en": [
+      "baking bread",
+      "baked bread",
+      "making bread",
+      "in the oven"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ballet",
+    "aliases": [
+      "발레 공연",
+      "발레리나",
+      "무용 공연"
+    ],
+    "aliases_en": [
+      "a ballet",
+      "ballet dancers",
+      "a ballerina"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "banjo",
+    "aliases": [
+      "밴조 연주",
+      "벤조",
+      "현악기 밴조"
+    ],
+    "aliases_en": [
+      "a banjo",
+      "banjos",
+      "playing the banjo"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bankrupt",
+    "aliases": [
+      "부도",
+      "빚더미",
+      "망했",
+      "파산 선고"
+    ],
+    "aliases_en": [
+      "bankruptcy",
+      "going bankrupt",
+      "insolvent",
+      "broke financially"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "barefoot",
+    "aliases": [
+      "신발 없이",
+      "맨발로 걷",
+      "벗은 발"
+    ],
+    "aliases_en": [
+      "barefooted",
+      "no shoes",
+      "bare feet",
+      "without shoes"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "basement",
+    "aliases": [
+      "지하 창고",
+      "지하층",
+      "반지하",
+      "지하방"
+    ],
+    "aliases_en": [
+      "a basement",
+      "a cellar",
+      "the basement",
+      "a cellar room"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bay-tree",
+    "aliases": [
+      "월계수 나무",
+      "월계관",
+      "베이 트리"
+    ],
+    "aliases_en": [
+      "a bay tree",
+      "a laurel tree",
+      "bay laurel"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bayonet",
+    "aliases": [
+      "대검",
+      "총에 꽂은 칼",
+      "착검"
+    ],
+    "aliases_en": [
+      "a bayonet",
+      "bayonets",
+      "a fixed bayonet"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bedchamber",
+    "aliases": [
+      "안방",
+      "잠자는 방",
+      "규방",
+      "침소"
+    ],
+    "aliases_en": [
+      "a bedroom",
+      "a sleeping chamber",
+      "my bedroom"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bequest",
+    "aliases": [
+      "증여",
+      "물려받",
+      "상속",
+      "유언으로 남"
+    ],
+    "aliases_en": [
+      "a legacy",
+      "an inheritance",
+      "a bequeathal",
+      "left in a will"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "birthday",
+    "aliases": [
+      "생신",
+      "생일잔치",
+      "태어난 날",
+      "돌잔치"
+    ],
+    "aliases_en": [
+      "a birthday",
+      "my birthday",
+      "a birthday party"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "biscuit",
+    "aliases": [
+      "과자",
+      "쿠키",
+      "건빵",
+      "비스켓"
+    ],
+    "aliases_en": [
+      "biscuits",
+      "a cookie",
+      "a cracker",
+      "baking biscuits"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bite",
+    "aliases": [
+      "물렸",
+      "물리는",
+      "깨물",
+      "물어뜯"
+    ],
+    "aliases_en": [
+      "bitten",
+      "being bitten",
+      "a bite",
+      "biting me"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "blackboard",
+    "aliases": [
+      "흑판",
+      "분필 글씨",
+      "교실 칠판"
+    ],
+    "aliases_en": [
+      "a blackboard",
+      "a chalkboard",
+      "chalk on the board"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "blacksmith",
+    "aliases": [
+      "대장간",
+      "풀무질하는 사람",
+      "쇠붙이 벼리",
+      "편자공"
+    ],
+    "aliases_en": [
+      "a blacksmith",
+      "a smith",
+      "a farrier",
+      "at the forge"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bleating",
+    "aliases": [
+      "염소 울음",
+      "양이 우는 소리",
+      "새끼 짐승 울음",
+      "매애"
+    ],
+    "aliases_en": [
+      "a bleat",
+      "sheep bleating",
+      "lambs bleating",
+      "a goat bleating"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bleeding",
+    "aliases": [
+      "피를 흘리",
+      "피가 나",
+      "코피",
+      "유혈"
+    ],
+    "aliases_en": [
+      "blood flowing",
+      "bled",
+      "losing blood",
+      "a bleeding wound"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "blind-man-s-buff",
+    "aliases": [
+      "숨바꼭질",
+      "눈 가리고 하는 놀이",
+      "술래가 되"
+    ],
+    "aliases_en": [
+      "blind man's bluff",
+      "playing blind man's buff",
+      "a game of tag"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "blindfold",
+    "aliases": [
+      "눈을 가리",
+      "안대",
+      "눈이 가려"
+    ],
+    "aliases_en": [
+      "blindfolded",
+      "eyes covered",
+      "a blindfold over"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "blossoms",
+    "aliases": [
+      "꽃이 핀",
+      "개화",
+      "만개",
+      "꽃망울"
+    ],
+    "aliases_en": [
+      "blossom",
+      "in bloom",
+      "blooming trees",
+      "trees in blossom"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "boarding-house",
+    "aliases": [
+      "하숙",
+      "여인숙",
+      "셋방살이 집",
+      "기숙사"
+    ],
+    "aliases_en": [
+      "a boarding house",
+      "a lodging house",
+      "lodgings"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bobbin",
+    "aliases": [
+      "실꾸리",
+      "실감개",
+      "실을 감는 통"
+    ],
+    "aliases_en": [
+      "a bobbin",
+      "bobbins",
+      "a spool",
+      "a reel of thread"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bog",
+    "aliases": [
+      "수렁",
+      "습지",
+      "진창 늪",
+      "늪에 빠"
+    ],
+    "aliases_en": [
+      "a bog",
+      "a marsh",
+      "a swamp",
+      "a quagmire"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bomb-shell",
+    "aliases": [
+      "폭탄이 터지",
+      "포탄",
+      "폭발물"
+    ],
+    "aliases_en": [
+      "a bomb",
+      "a bombshell",
+      "an explosive shell",
+      "a shell burst"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "book-store",
+    "aliases": [
+      "책방",
+      "서적상",
+      "헌책방"
+    ],
+    "aliases_en": [
+      "a bookstore",
+      "a bookshop",
+      "a book shop"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "brambles",
+    "aliases": [
+      "가시넝쿨",
+      "산딸기 덤불",
+      "넝쿨에 얽"
+    ],
+    "aliases_en": [
+      "a bramble",
+      "bramble bushes",
+      "thorny brambles"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "brandy",
+    "aliases": [
+      "코냑",
+      "브랜디 한 잔",
+      "양주 브랜디"
+    ],
+    "aliases_en": [
+      "a brandy",
+      "cognac",
+      "a glass of brandy"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "brass",
+    "aliases": [
+      "놋쇠",
+      "놋그릇",
+      "구리 합금",
+      "황동빛"
+    ],
+    "aliases_en": [
+      "brass metal",
+      "brasses",
+      "a brass object"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bray",
+    "aliases": [
+      "당나귀 울음",
+      "나귀가 우",
+      "히힝 우는 소리"
+    ],
+    "aliases_en": [
+      "braying",
+      "a donkey braying",
+      "an ass braying"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "brothel",
+    "aliases": [
+      "기생집",
+      "매춘굴",
+      "홍등가"
+    ],
+    "aliases_en": [
+      "a brothel",
+      "a bawdy house",
+      "a house of ill repute"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "buckle",
+    "aliases": [
+      "허리띠 고리",
+      "벨트 버클",
+      "죔쇠"
+    ],
+    "aliases_en": [
+      "a buckle",
+      "buckles",
+      "a belt buckle"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "bullock",
+    "aliases": [
+      "거세우",
+      "황소",
+      "수소",
+      "부린 소"
+    ],
+    "aliases_en": [
+      "a bullock",
+      "bullocks",
+      "a young ox",
+      "a steer"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "burr",
+    "aliases": [
+      "도꼬마리",
+      "옷에 붙는 가시",
+      "가시 씨앗"
+    ],
+    "aliases_en": [
+      "a burr",
+      "burrs",
+      "a bur",
+      "sticky burrs"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

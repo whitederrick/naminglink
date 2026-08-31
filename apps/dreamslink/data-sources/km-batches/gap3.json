@@ -1,0 +1,643 @@
+[
+  {
+    "id": "blood",
+    "term_ko": "피",
+    "term_en": "blood",
+    "key_file": "km2",
+    "aliases": [
+      "선혈",
+      "핏자국",
+      "출혈"
+    ],
+    "aliases_en": [
+      "bleeding",
+      "bled",
+      "bloody",
+      "bloodstain"
+    ],
+    "existing_contexts": {
+      "손발에서 고름과 피가 나옴": "고름 손발 손과발",
+      "피가 침상에 묻어 있음": "침상 침대 이불",
+      "소뿔에 피가 묻어 있음": "소뿔 뿔에 쇠뿔",
+      "칼에 다쳐 피가 남": "칼에 칼로 칼날 칼끝",
+      "피가 옷을 적심": "옷을 적셔 옷이 스며",
+      "서로 싸우다 피를 봄": "싸우 다투 격투 드잡이",
+      "상처에서 피가 남": "상처 다친곳 흉터",
+      "베이고 찔려 피를 봄": "베여 베였 베이 찔려 찔리 찔렸",
+      "몸에서 피가 흐르는 것을 봄": "흐르 흘러 몸에서"
+    },
+    "existing_contexts_en": {
+      "손발에서 고름과 피가 나옴": "pus hands feet limbs",
+      "피가 침상에 묻어 있음": "bedding sheets mattress",
+      "소뿔에 피가 묻어 있음": "ox horn cow bull",
+      "칼에 다쳐 피가 남": "knife blade sword dagger",
+      "피가 옷을 적심": "clothes soaked drenched shirt",
+      "서로 싸우다 피를 봄": "fight fought fighting quarrel",
+      "상처에서 피가 남": "wound injury scar",
+      "베이고 찔려 피를 봄": "stabbed pierced pricked slashed",
+      "몸에서 피가 흐르는 것을 봄": "flowing streamed pouring body"
+    },
+    "missing_meanings": [
+      {
+        "context": "피 묻은 옷을 봄",
+        "interpretation_ko": "성공 가도에 오른 당신을 무너뜨리려는 적들이 있다는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "피와 관련된 꿈에서 경계할 점",
+        "interpretation_ko": "이상한 우정을 조심해야 한다는 경고",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "상처에서 피가 흐르는 것을 봄",
+        "interpretation_ko": "몸이 아프고 근심할 조짐이며, 외국 회사와의 불행한 거래로 사업이 나빠질 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "자기 손에 피가 묻은 것을 봄",
+        "interpretation_ko": "몸가짐과 자기 일을 조심하지 않으면 즉각적인 불운이 따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "book",
+    "term_ko": "책",
+    "term_en": "books",
+    "key_file": "km2",
+    "aliases": [
+      "서적",
+      "책자",
+      "경서"
+    ],
+    "aliases_en": [
+      "books",
+      "scripture",
+      "scriptures",
+      "volume"
+    ],
+    "existing_contexts": {
+      "여러 빛깔의 경서를 봄": "빛깔 여러 색깔 알록",
+      "책상 위에 책이 있음": "책상 탁자 위에놓"
+    },
+    "existing_contexts_en": {
+      "여러 빛깔의 경서를 봄": "colored colorful multicolored several",
+      "책상 위에 책이 있음": "desk table"
+    },
+    "missing_meanings": [
+      {
+        "context": "책을 공부하는 꿈을 꿈",
+        "interpretation_ko": "즐거운 일과 명예와 부를 얻을 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "저술가가 자신의 저작이 인쇄에 들어가는 꿈을 꿈",
+        "interpretation_ko": "경계해야 할 조짐이며, 저작을 세상에 내놓는 데 큰 어려움을 겪을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "난해한 주제와 학자들의 숨은 뜻을 풀어내는 데 큰 공부와 시간을 들이는 꿈을 꿈",
+        "interpretation_ko": "명예를 정당히 얻을 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "아이들이 책을 보는 것을 봄",
+        "interpretation_ko": "젊은이들이 화목하고 품행이 바를 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "낡은 책 꿈을 꿈",
+        "interpretation_ko": "어떤 형태로든 악을 피하라는 경고",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "donkey",
+    "term_ko": "당나귀",
+    "term_en": "donkey",
+    "key_file": "km2",
+    "aliases": [
+      "당나귀"
+    ],
+    "aliases_en": [
+      "donkeys"
+    ],
+    "existing_contexts": {
+      "나귀를 타고 감": "타고 올라타 등에",
+      "나귀를 잡음": "잡았 붙잡 붙들"
+    },
+    "existing_contexts_en": {
+      "나귀를 타고 감": "rode riding mounted",
+      "나귀를 잡음": "caught grabbed seized"
+    },
+    "missing_meanings": [
+      {
+        "context": "당나귀를 봄",
+        "interpretation_ko": "성가신 일을 많이 겪고 소식이나 물건을 받는 데 지연이 생길 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "짐을 진 당나귀들을 봄",
+        "interpretation_ko": "인내하고 애쓴 끝에 여행이든 사랑이든 하려는 일에 성공할 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "당나귀가 쫓아와 두려워함",
+        "interpretation_ko": "추문이나 불쾌한 소문의 희생자가 될 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "내키지 않게 당나귀를 타거나 기수로 나섬",
+        "interpretation_ko": "불필요한 다툼이 뒤따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "altar",
+    "term_ko": "제단",
+    "term_en": "altar",
+    "key_file": "km2",
+    "aliases": [],
+    "aliases_en": [
+      "altars",
+      "sacrificial altar"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "제단 앞의 사제를 봄",
+        "interpretation_ko": "사업과 가정에서 다툼과 불만족스러운 상태를 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "제단에서 결혼식을 봄",
+        "interpretation_ko": "친구에게는 슬픔을, 노년에게는 죽음을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "제단이 꿈에 나타남",
+        "interpretation_ko": "잘못을 저지르는 것을 경고하려는 것이며 뉘우침도 함께 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "제단에 오름",
+        "interpretation_ko": "크게 길한 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "box",
+    "term_ko": "상자",
+    "term_en": "box",
+    "key_file": "km2",
+    "aliases": [
+      "궤짝"
+    ],
+    "aliases_en": [
+      "chest",
+      "boxes",
+      "casket"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "상품이 든 상자를 엶",
+        "interpretation_ko": "헤아릴 수 없는 부와 함께 먼 곳으로 즐거운 여행을 떠나 좋은 결과를 얻을 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "상자가 비어 있음",
+        "interpretation_ko": "온갖 일에서 실망이 뒤따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "돈이 가득 찬 상자를 봄",
+        "interpretation_ko": "사업 근심에서 벗어나 편안한 은퇴를 예고하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "상자와 그릇을 봄",
+        "interpretation_ko": "구설수가 생길 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "cloth",
+    "term_ko": "천",
+    "term_en": "cloth",
+    "key_file": "km2",
+    "aliases": [
+      "헝겊",
+      "천조각",
+      "삼베",
+      "무명"
+    ],
+    "aliases_en": [
+      "fabric",
+      "textile",
+      "rag",
+      "hemp cloth",
+      "linen",
+      "hemp"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "손에 천을 감아 묶음",
+        "interpretation_ko": "병이 찾아올 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      },
+      {
+        "context": "베와 비단을 얻음",
+        "interpretation_ko": "먼 친척이 찾아올 조짐",
+        "polarity": "neutral",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "beef",
+    "term_ko": "소고기",
+    "term_en": "beef",
+    "key_file": "km5",
+    "aliases": [
+      "소고기",
+      "우육",
+      "한우"
+    ],
+    "aliases_en": [
+      "cow meat",
+      "steak",
+      "ox meat"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "날것에 피가 밴 소고기를 봄",
+        "interpretation_ko": "악성 암과 종양이 생길 조짐이니 타박상이나 부상을 조심해야 한다",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "익힌 소고기를 보거나 먹음",
+        "interpretation_ko": "인간의 힘으로 감당 못할 고통이 닥치고 끔찍한 방식으로 목숨을 잃을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "보기 좋게 차려진 소고기를 봄",
+        "interpretation_ko": "사랑과 사업에서 조화로운 상태를 예고하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "소고기가 보기 좋지 않게 차려짐",
+        "interpretation_ko": "사소하더라도 좋지 않은 일이 예고되는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "마루 위에서 쇠고기를 먹음",
+        "interpretation_ko": "길한 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "bracelet",
+    "term_ko": "팔찌",
+    "term_en": "bracelet",
+    "key_file": "km5",
+    "aliases": [
+      "브레이슬릿",
+      "손목띠"
+    ],
+    "aliases_en": [
+      "bracelets",
+      "bangle",
+      "armlet",
+      "wristband"
+    ],
+    "existing_contexts": {
+      "팔찌가 비녀와 서로 부딪힘": "비녀 부딪 소리 맞부",
+      "은팔찌를 봄": "은팔 은빛 은으로"
+    },
+    "existing_contexts_en": {
+      "팔찌가 비녀와 서로 부딪힘": "hairpin clashing clinking sound",
+      "은팔찌를 봄": "silver"
+    },
+    "missing_meanings": [
+      {
+        "context": "애인이나 친구가 준 팔찌가 팔을 감싼 것을 봄",
+        "interpretation_ko": "이른 결혼과 행복한 결합을 확신하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "젊은 여성이 팔찌를 잃어버림",
+        "interpretation_ko": "여러 손실과 언짢은 일을 겪을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "팔찌를 찾음",
+        "interpretation_ko": "좋은 재산이 그녀 손에 들어올 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "blanket",
+    "term_ko": "담요",
+    "term_en": "blanket",
+    "key_file": "km5",
+    "aliases": [
+      "모포",
+      "무릎담요"
+    ],
+    "aliases_en": [
+      "blankets",
+      "rug"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "담요가 더러워진 꿈을 꿈",
+        "interpretation_ko": "배신을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "새 것이고 흰 담요를 봄",
+        "interpretation_ko": "실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "담요와 요를 펴서 깖",
+        "interpretation_ko": "모든 일이 평온할 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      },
+      {
+        "context": "좋은 이불을 스스로 덮음",
+        "interpretation_ko": "부귀를 얻을 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "humiliation",
+    "term_ko": "모욕",
+    "term_en": "affront",
+    "key_file": "km5",
+    "aliases": [
+      "치욕",
+      "망신",
+      "수모",
+      "굴욕"
+    ],
+    "aliases_en": [
+      "humiliated",
+      "insult",
+      "insulted",
+      "disgrace",
+      "shamed"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "모욕당하는 꿈을 꿈",
+        "interpretation_ko": "좋지 않은 꿈으로, 꿈꾼 사람은 반드시 눈물을 흘리며 울게 될 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "젊은 여성이 모욕당함",
+        "interpretation_ko": "불친절한 사람이 자신의 무지를 이용해 낯선 사람과 곤란한 처지에 빠뜨리거나 친구와의 이해관계를 위태롭게 할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "남에게 모욕을 당함",
+        "interpretation_ko": "재물을 얻을 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "thief",
+    "term_ko": "도둑",
+    "term_en": "thief",
+    "key_file": "km1",
+    "aliases": [
+      "도둑",
+      "강도",
+      "산적",
+      "도적떼",
+      "도적",
+      "절도"
+    ],
+    "aliases_en": [
+      "a thief",
+      "thieves",
+      "a robber",
+      "a bandit",
+      "robber",
+      "burglar",
+      "bandit"
+    ],
+    "existing_contexts": {
+      "무리를 이끌고 도적을 무찌름": "무찔 물리쳤 이끌 싸워",
+      "도적이 스스로 옥에 들어감": "감옥 옥에 잡혀 갇혔",
+      "도적을 쫓아가는 것을 봄": "쫓는 추격 지켜보 목격 구경",
+      "도둑을 쫓아 저자에 들어가 나오지 못함": "저자 장터 시장 갇혀 헤매",
+      "억센 도둑이 집에 들어옴": "억센 사나운 집에 침입 들어왔",
+      "도둑과 함께 길을 감": "함께 같이 동행 나란히",
+      "자기가 도둑이 됨": "내가 자기가 훔쳤 훔치 도둑질"
+    },
+    "existing_contexts_en": {
+      "무리를 이끌고 도적을 무찌름": "defeated led troops fought",
+      "도적이 스스로 옥에 들어감": "prison jail surrendered",
+      "도적을 쫓아가는 것을 봄": "saw watched witnessed observed",
+      "도둑을 쫓아 저자에 들어가 나오지 못함": "market marketplace trapped stuck",
+      "억센 도둑이 집에 들어옴": "fierce strong house intruder broke",
+      "도둑과 함께 길을 감": "together walked along accompanied",
+      "자기가 도둑이 됨": "myself became stealing stole"
+    },
+    "missing_meanings": [
+      {
+        "context": "도둑들이 자신의 몸을 뒤짐",
+        "interpretation_ko": "낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "자기 집이나 사업장이 도둑맞음",
+        "interpretation_ko": "사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "basin",
+    "term_ko": "동이",
+    "term_en": "basin",
+    "key_file": "km1",
+    "aliases": [
+      "항아리",
+      "물동이",
+      "단지",
+      "질그릇"
+    ],
+    "aliases_en": [
+      "a basin",
+      "clay pot",
+      "water jar",
+      "earthen jar"
+    ],
+    "existing_contexts": {
+      "동이를 봄": "보였 바라보 놓여있",
+      "동이의 밑바닥이 빠짐": "밑바닥 바닥이 깨졌 구멍",
+      "동이 안으로 들어감": "안으로 들어갔 들어가 속으로",
+      "크고 작은 동이를 함께 봄": "크고 작은 여러 나란히",
+      "동이를 얻음": "얻었 받았 생겼 가져왔"
+    },
+    "existing_contexts_en": {
+      "동이를 봄": "saw looked",
+      "동이의 밑바닥이 빠짐": "bottom broke hole cracked",
+      "동이 안으로 들어감": "inside entered climbed",
+      "크고 작은 동이를 함께 봄": "large small several both",
+      "동이를 얻음": "received got obtained gained"
+    },
+    "missing_meanings": [
+      {
+        "context": "젊은 여성이 대야에서 목욕하는 꿈을 꿈",
+        "interpretation_ko": "여성스러운 매력으로 진실한 우정과 지위 상승을 얻을 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "bat",
+    "term_ko": "박쥐",
+    "term_en": "bats",
+    "key_file": "km1",
+    "aliases": [],
+    "aliases_en": [
+      "a bat",
+      "bats"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "박쥐 꿈을 꿈",
+        "interpretation_ko": "끔찍한 운명과 온갖 악으로 인한 슬픔과 재앙이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "박쥐(귀신 같은 괴물) 꿈을 꾼 뒤",
+        "interpretation_ko": "부모와 친구의 죽음, 사지나 시력을 잃는 일이 뒤따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "흰 박쥐를 봄",
+        "interpretation_ko": "죽음을 거의 확실히 알리는 조짐이며 흔히 아이의 죽음이 뒤따름",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "박쥐가 떼지어 낢",
+        "interpretation_ko": "은밀한 일이 오래갈 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "soybean",
+    "term_ko": "콩",
+    "term_en": "beans",
+    "key_file": "km1",
+    "aliases": [
+      "메주콩",
+      "콩밭",
+      "콩알"
+    ],
+    "aliases_en": [
+      "a soybean",
+      "soybeans",
+      "beans",
+      "bean sprouts"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "콩이 자라는 것을 봄",
+        "interpretation_ko": "나쁜 꿈이며 아이들 사이에서 근심과 병을 예고하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "마른 콩을 봄",
+        "interpretation_ko": "세상일에서 큰 실망을 뜻하며 전염병을 조심해야 하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "콩을 먹는 꿈을 꿈",
+        "interpretation_ko": "사랑하는 친구에게 불행이나 병이 생길 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "콩의 싹과 잎을 봄",
+        "interpretation_ko": "자손에게 흉한 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  }
+]

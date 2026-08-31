@@ -8,20 +8,55 @@
 // (CLAUDE.md §21). 사용자 지시로 **전량 폐기**하고 원문에서 새로 만든다(2026-08-27).
 //
 // 새 사전의 규칙은 하나다 — **원문 인용이 없으면 항목이 존재할 수 없다.**
-// 모든 의미가 `cite`를 갖고, `cite.original`은 `verify-dream-cite.mjs`가 원문 파일과
+// 모든 의미가 `cites`를 갖고, `cite.original`은 `verify-dream-cite.mjs`가 원문 파일과
 // 문자열로 대조한다. 지어낸 인용은 위조가 불가능하다.
+//
+// ## 두 원문을 하나의 사전으로 합친다 (2026-08-31, 사용자 결정)
+//
+// 주공해몽(동아시아 전통)과 밀러(1901, 서양)를 **한 사전으로 합치되 출처는 화면에서
+// 구분해 보여 준다.** 출처는 이미 의미마다 `cites[].work`에 있으므로 별도 라벨을
+// 만들지 않는다 — **§21의 병("라벨은 적기만 하면 참이 된다")을 되풀이하지 않기 위해서다.**
+// 인용 자체가 출처의 증거이고, 화면은 그 증거를 읽어서 가른다.
+//
+// ## 상징의 동일성은 `term_en`으로 잡는다 — `term_ko`가 아니다 (2026-08-31)
+//
+// 처음엔 `term_ko`로 묶었다. **동음이의어가 한 상징으로 뭉개졌다:**
+//
+//   배 = 船(boat) + 梨(pear)   → `食梨者主失財帛`("배를 먹으면 재물을 잃는다")가
+//                                 boat 상징 안에 들어가 있었다(실제로 그렇게 커밋됐다)
+//   산 = 山(mountain) + 산성(acid, 밀러)  → 산을 오르는 꿈과 산을 마시는 꿈이 한자리에
+//
+// 한국어 이름은 **뜻을 가르지 못한다.** 영어 이름이 가른다. 그래서 `term_en`을 기준으로
+// 삼되, 두 방향의 예외를 **목록으로 얼려 둔다**(§11 — 경계를 규칙으로 적으면 시간이
+// 지나며 움직인다. 얼리려면 목록으로 적어야 한다):
+//
+//   SYNONYMS  다른 영어 이름인데 같은 상징      (bees→bee, burglars→thief …)
+//   SPLIT_BY_KO  같은 영어 이름인데 다른 상징   (iron = 다리미 熨斗 / 쇠붙이 鐵器)
+//
+// 규칙(복수형 s를 떼기 등)으로 적지 않는다 — `bus`/`glass`처럼 규칙이 틀리는 자리가
+// 반드시 생기고, 그때 조용히 뭉개진다.
+//
+// ## 화면에 쓸 이름 — `label_ko`
+//
+// 상징을 가르고 나면 **한국어 이름이 겹친다**(배 셋, 산 둘). 목록에서 구분이 안 되므로
+// 괄호로 밝힌다(사용자 결정 2026-08-31): 「배(선박)」·「배(과일)」·「배(복부)」.
+//
+// **`term_ko`는 괄호 없는 본말 그대로 둔다** — 매칭 키가 그것을 쓰기 때문이다. 괄호를
+// 본말에 넣으면 "배"라고 쓴 꿈이 안 걸린다. 화면용 이름만 `label_ko`로 따로 낸다.
+//
+// **이름이 겹치는데 목록에 없으면 조립을 멈춘다**(exit 1). 밀러 나머지 1,900여 표제어를
+// 넣다 보면 새 충돌이 반드시 나온다 — 그때 조용히 통과시키지 않기 위해서다.
 //
 // ## 하는 일
 //
-// 1. `data-sources/extract/result*.json`을 전부 읽는다(에이전트 산출물, 항목 단위)
-// 2. `verify-dream-cite.mjs`가 이미 통과시킨 것만 들어온다는 전제 — 여기서도 한 번 더 본다
-// 3. 같은 상징(term_ko 기준)끼리 묶어 `meanings` 배열로 만든다
-// 4. 상징 id를 만든다(term_en 기반, 중복이면 접미사)
-// 5. 새 사전 파일로 쓴다
+// 1. `data-sources/extract/`의 주공해몽(`r*.json`)과 밀러(`m*.json`) 결과를 전부 읽는다
+// 2. 같은 상징끼리 묶어 `meanings` 배열로 만든다(위 규칙)
+// 3. 상징 id를 만든다(`term_en` 기반, 중복이면 접미사)
+// 4. 새 사전 파일로 쓴다
 //
 // 실행: node scripts/build-dream-dictionary-v2.mjs
 // 산출: apps/dreamslink/src/lib/dream-symbols.v2.data.json
-//        (기존 파일은 건드리지 않는다 — 교체는 별도 단계에서 한다)
+//        (기존 `dream-symbols.data.json`은 건드리지 않는다 — 교체는 별도 단계)
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import path from "node:path";
@@ -29,14 +64,95 @@ import path from "node:path";
 const EXTRACT_DIR = path.resolve("apps/dreamslink/data-sources/extract");
 const OUT = path.resolve("apps/dreamslink/src/lib/dream-symbols.v2.data.json");
 
+/**
+ * **다른 영어 이름인데 같은 상징** — 왼쪽을 오른쪽으로 합친다.
+ *
+ * 전부 실제로 두 원문에 함께 나온 자리다(2026-08-31에 30개 겹침을 눈으로 대조해 가림).
+ * 단수/복수와 동의어뿐이고, **뜻이 다른 것은 여기 넣지 않았다.**
+ */
+const SYNONYMS = new Map([
+  ["bees", "bee"],
+  ["ants", "ant"],
+  ["bells", "bell"],
+  ["books", "book"],
+  ["bats", "bat"],
+  ["bugs", "insect"],
+  ["bath", "bathing"],
+  ["banquet", "feast"],
+  ["almanac", "calendar"],
+  ["angling", "fishing"],
+  ["burglars", "thief"],
+  ["affront", "humiliation"],
+  ["beans", "soybean"],
+  ["brothers", "siblings"],
+  ["belly", "abdomen"],
+
+  // 아래 여섯은 **`term_ko`로 묶던 때에는 한 상징이었다.** 기준을 `term_en`으로 바꾸자
+  // 갈라졌고, 원문을 하나씩 열어 보니 전부 같은 것이었다(2026-08-31). 에이전트가
+  // 배치마다 영어 이름을 다르게 적었을 뿐이다 — 가르면 이용자에게 같은 이름이 둘 뜬다.
+  ["abscess", "boil"],          // 종기 — 둘 다 밀러의 같은 피부 종기
+  ["excrement", "feces"],       // 똥 — 둘 다 주공해몽 屎尿/糞
+  ["latrine", "outhouse"],      // 뒷간 — 둘 다 廁. 상황 문구까지 겹친다
+  ["clothes", "clothing"],      // 옷 — 둘 다 衣裳/衣冠
+  ["knife", "sword"],           // 칼 — 「sword」 묶음에도 刀가 섞여 있다(임의로 갈린 것)
+  ["castle", "city wall"],      // 성 — 宮城/城郭 둘 다 城
+  ["bandits", "thief"],         // 도적 — 率眾破賊의 賊. km1의 thief 판별어에 이미 이 문맥이 있다
+]);
+
+/**
+ * **같은 영어 이름인데 다른 상징** — 한국어 이름으로 가른다.
+ *
+ * `iron`이 그렇다: 熨斗(다리미)와 鐵器(쇠붙이)가 둘 다 iron 이다. 영어가 못 가르는
+ * 자리라 한국어가 가른다 — 위의 배·산과 정확히 반대 방향이다.
+ */
+const SPLIT_BY_KO = new Set(["iron"]);
+
+/**
+ * **갈라 놓은 상징의 id를 못 박는다.**
+ *
+ * 가른 상징은 영어 이름이 같으므로 id가 겹치고, 뒤에 오는 쪽이 `-2`를 받는다. 그런데
+ * **누가 뒤에 오는지는 추출 파일을 읽는 순서에 달려 있다** — 배치 하나가 늘거나 파일
+ * 이름이 바뀌면 `iron`과 `iron-2`가 조용히 뒤바뀐다. 그러면 매칭 키 표(`km*.json`)가
+ * 이름으로 붙여 둔 별칭이 **엉뚱한 상징에 붙는다**(쇠붙이의 "무쇠"가 다리미에 붙는 식).
+ * id는 주소이기도 해서 바뀌면 링크도 깨진다.
+ *
+ * 키는 `symbolKey()`가 만드는 값이다.
+ */
+const EXPLICIT_IDS = new Map([
+  ["iron 다리미", "iron"],
+  ["iron 쇠붙이", "iron-2"],
+]);
+
+/**
+ * **화면에 쓸 이름** — 한국어 이름이 겹치는 상징에만 붙인다. 키는 상징 id.
+ *
+ * 목록에 없는 충돌이 나오면 조립이 멈춘다. 새 원문을 넣다가 멈추면 여기 한 줄 적는다.
+ */
+const LABEL_KO = new Map([
+  ["boat", "배(선박)"],
+  ["pear", "배(과일)"],
+  ["abdomen", "배(복부)"],
+  ["mountain", "산(山)"],
+  ["acid", "산(산성)"],
+  // 절 — 「身拜尊長」(절하다)과 「入寺院中」(사찰)은 한국어로만 같은 말이다.
+  ["bowing", "절(인사)"],
+  ["buddhist-temple", "절(사찰)"],
+]);
+
 if (!existsSync(EXTRACT_DIR)) {
   console.error(`추출 결과 디렉터리가 없다: ${EXTRACT_DIR}`);
   process.exit(2);
 }
 
-const files = readdirSync(EXTRACT_DIR)
-  .filter((f) => /^(r\d+|result-tomb)\.json$/.test(f))
-  .sort();
+/**
+ * 주공해몽은 `r1.json`~`r9.json`·`result-tomb.json`, 밀러는 `m1.json`·`m4a.json`·
+ * `miller-pilot.json` 꼴이다. **글롭이 실제 파일명과 어긋나면 0개를 읽고도 조용히 도는데**,
+ * 그 사고를 이미 한 번 냈다(`verify-dream-cite.mjs`가 `result*.json`을 찾아 늘 0건이었다,
+ * 2026-08-28). 아래 정규식은 두 검사기와 **같은 모양**으로 맞춰 둔다.
+ */
+const FILE_RE = /^(r\d+|result-tomb|m\d+[ab]?|miller-pilot)\.json$/;
+
+const files = readdirSync(EXTRACT_DIR).filter((f) => FILE_RE.test(f)).sort();
 
 // **검사 0건은 통과가 아니다**(CLAUDE.md §1·§3).
 if (files.length === 0) {
@@ -62,27 +178,46 @@ if (items.length === 0) {
 
 // ── 상징 단위로 묶는다 ──────────────────────────────────────────────────────
 
+/** 영어 이름을 상징 키로 만든다. 동의어는 대표 이름으로 접는다. */
+function canonicalEn(termEn) {
+  const en = String(termEn ?? "").trim().toLowerCase();
+  return SYNONYMS.get(en) ?? en;
+}
+
 /**
- * **`term_ko`를 상징의 동일성 기준으로 삼는다.**
- *
- * 에이전트가 갈래별로 나뉘어 돌아서 같은 상징이 여러 파일에 나온다(불·물·집 등).
- * 한국어 이름이 같으면 같은 상징으로 본다 — `term_en`은 에이전트마다 다르게 적을 수 있다
- * (rat/mouse 등). 영어 이름은 가장 많이 쓰인 것을 고른다.
+ * 상징의 동일성 키. 보통은 대표 영어 이름이고, 영어가 못 가르는 자리
+ * (`SPLIT_BY_KO`)에서만 한국어 이름을 덧붙인다.
  */
+function symbolKey(item) {
+  const en = canonicalEn(item.term_en);
+  if (!en) return "";
+  return SPLIT_BY_KO.has(en) ? `${en} ${String(item.term_ko).trim()}` : en;
+}
+
 const bySymbol = new Map();
 
 for (const item of items) {
-  const key = String(item.term_ko).trim();
+  const key = symbolKey(item);
   if (!key) continue;
   if (!bySymbol.has(key)) {
     bySymbol.set(key, {
-      term_ko: key,
+      key,
+      canonEn: canonicalEn(item.term_en),
+      koVotes: new Map(),
       enVotes: new Map(),
       catVotes: new Map(),
       meanings: [],
     });
   }
   const sym = bySymbol.get(key);
+
+  /**
+   * 한국어·영어 이름은 **다수결로 고른다.** 같은 상징을 여러 에이전트가 조금씩 다르게
+   * 적는다(침상/침대, 도둑/도적, 쇠고기/소고기). 표기 하나를 골라야 화면과 매칭이
+   * 한 벌로 선다.
+   */
+  const ko = String(item.term_ko ?? "").trim();
+  if (ko) sym.koVotes.set(ko, (sym.koVotes.get(ko) ?? 0) + 1);
   const en = String(item.term_en ?? "").trim();
   if (en) sym.enVotes.set(en, (sym.enVotes.get(en) ?? 0) + 1);
   const cat = String(item.category ?? "").trim();
@@ -98,8 +233,22 @@ for (const item of items) {
    * 합치지 않으면 매칭 키 표(`contexts`)가 상황 문구를 키로 쓰는데 **같은 키가 둘이
    * 되어 하나가 조용히 사라진다**(JSON 객체의 성질). 실제로 매칭 키를 만들던 중에
    * 이 자리가 드러났다.
+   *
+   * **합치는 것은 같은 원문 안에서만이다.** 두 원문이 같은 상황 문구를 내면서 **뜻은
+   * 다르게 말하는 자리가 있다** — 「거울이 깨짐」이 주공해몽에선 `鏡破主夫妻離別`
+   * (부부가 헤어진다)이고 밀러에선 "가까운 사람의 갑작스러운 죽음"이다.
+   *
+   * 처음엔 상황 문구만 같으면 합쳤다. 그러자 **살아남은 해석은 밀러의 "죽음"인데 그
+   * 아래 주공해몽 인용("부부가 이별한다")이 붙어 있었다** — 인용은 진짜인데 그 인용이
+   * 그 해석을 뒷받침하지 않는다. CLAUDE.md §22가 말한 바로 그 병이고, §21의 재발이다
+   * (근거 없는 것에 근거가 있는 것처럼 보이는 표시가 붙는 것).
+   *
+   * 그래서 **`work`가 같을 때만 합친다.** 두 원문이 같은 말을 하면 의미가 둘로 남고,
+   * 화면은 출처를 갈라 둘 다 보여 준다 — 그것이 이 사전이 하려는 일이다.
    */
-  const same = sym.meanings.find((m) => m.context === item.context);
+  const same = sym.meanings.find(
+    (m) => m.context === item.context && m.cites[0].work === item.cite.work,
+  );
   if (same) {
     const already = same.cites.some((c) => c.original === item.cite.original);
     if (!already) same.cites.push(item.cite);
@@ -141,10 +290,12 @@ const usedIds = new Set();
 let seq = 0;
 
 for (const sym of bySymbol.values()) {
-  const term_en = topOf(sym.enVotes, "");
+  const term_ko = topOf(sym.koVotes, "");
+  const term_en = topOf(sym.enVotes, sym.canonEn);
   const category = topOf(sym.catVotes, "object");
-  let id = slugify(term_en, `symbol-${++seq}`);
-  // 영어 이름이 겹치면(용/이무기가 둘 다 dragon 등) 뒤에 번호를 붙인다.
+  // **id 는 대표 영어 이름으로 짓는다** — 다수결로 고른 표기(bees 등)가 아니라.
+  // 그래야 같은 상징이 배치마다 다른 주소를 갖지 않는다.
+  let id = EXPLICIT_IDS.get(sym.key) ?? slugify(sym.canonEn, `symbol-${++seq}`);
   if (usedIds.has(id)) {
     let n = 2;
     while (usedIds.has(`${id}-${n}`)) n++;
@@ -160,23 +311,79 @@ for (const sym of bySymbol.values()) {
   else if (pol.positive > pol.negative && pol.positive > pol.neutral) polarity = "positive";
   else if (pol.negative > pol.positive && pol.negative > pol.neutral) polarity = "negative";
 
+  /** 이 상징이 어느 원문에서 왔는가 — 인용에서 **세어서** 낸다(라벨을 믿지 않는다). */
+  const works = [...new Set(sym.meanings.flatMap((m) => m.cites.map((c) => c.work)))].sort();
+
   symbols.push({
     id,
-    term_ko: sym.term_ko,
+    term_ko,
     term_en,
     aliases: [],          // 매칭 키는 별도 단계에서 손으로 채운다
     category,
     polarity,
+    works,
     tags: [],
     weight: 1,
     meanings: sym.meanings,
   });
 }
 
+// ── 한국어 이름이 겹치는 자리를 잡는다 ──────────────────────────────────────
+
+/**
+ * **겹치는데 화면 이름이 없으면 멈춘다.**
+ *
+ * 조용히 통과시키면 목록에 「배」가 셋 나란히 뜨고 이용자는 무엇이 무엇인지 모른다.
+ * §11의 "얼리려면 목록으로" — 새 충돌은 사람이 한 줄 적어야 지나간다.
+ */
+const byKo = new Map();
+for (const s of symbols) {
+  if (!byKo.has(s.term_ko)) byKo.set(s.term_ko, []);
+  byKo.get(s.term_ko).push(s);
+}
+
+const unlabeled = [];
+for (const [ko, group] of byKo) {
+  if (group.length < 2) continue;
+  for (const s of group) {
+    if (LABEL_KO.has(s.id)) s.label_ko = LABEL_KO.get(s.id);
+    else unlabeled.push(`  「${ko}」 ← id=${s.id} (term_en=${s.term_en}, 의미 ${s.meanings.length}개)`);
+  }
+}
+
+if (unlabeled.length > 0) {
+  console.error(
+    `\n한국어 이름이 겹치는데 화면 이름이 정해지지 않은 상징 ${unlabeled.length}개:`,
+  );
+  for (const line of unlabeled) console.error(line);
+  console.error(
+    "\n같은 이름이 목록에 여럿 뜨면 이용자가 가릴 수 없다." +
+      "\nbuild-dream-dictionary-v2.mjs 의 LABEL_KO 에 「이름(구분)」을 적고 다시 돌린다.",
+  );
+  process.exit(1);
+}
+
+/**
+ * **한 상징 안에서 상황 문구가 겹치는 자리를 센다.**
+ *
+ * 두 원문이 같은 상황을 다르게 해석하면 의미가 둘로 남는다(위 참고). 그런데 매칭 키
+ * 표(`dream-contexts*.ts`)는 **상황 문구를 객체 키로 쓴다** — 같은 키가 둘이면 하나가
+ * 조용히 사라진다(JSON 객체의 성질). 이 사전 자체는 배열이라 안전하지만, **다음 단계인
+ * 매칭 표 조립이 여기서 깨진다.** 조립을 멈추지는 않되 반드시 눈에 띄게 적는다.
+ */
+const dupContexts = [];
+for (const s of symbols) {
+  const seen = new Map();
+  for (const m of s.meanings) seen.set(m.context, (seen.get(m.context) ?? 0) + 1);
+  for (const [ctx, n] of seen) {
+    if (n > 1) dupContexts.push(`  ${s.term_ko}(${s.id}) — 「${ctx}」 ${n}번`);
+  }
+}
+
 symbols.sort((a, b) => b.meanings.length - a.meanings.length || a.id.localeCompare(b.id));
 
 const out = {
-  dictVer: "2.0.0",
+  dictVer: "2.1.0",
   builtFrom: files,
   symbols,
 };
@@ -185,6 +392,33 @@ const out = {
 writeFileSync(OUT, `${JSON.stringify(out, null, 2)}\n`.replace(/\n/g, "\r\n"), "utf8");
 
 const meaningTotal = symbols.reduce((n, s) => n + s.meanings.length, 0);
-console.log(`\n상징 ${symbols.length}개 · 의미 ${meaningTotal}개`);
+const citeTotal = symbols.reduce(
+  (n, s) => n + s.meanings.reduce((k, m) => k + m.cites.length, 0),
+  0,
+);
+const byWork = { zhougong: 0, miller: 0, both: 0 };
+for (const s of symbols) {
+  if (s.works.length > 1) byWork.both++;
+  else if (s.works[0] === "miller") byWork.miller++;
+  else byWork.zhougong++;
+}
+
+console.log(`\n상징 ${symbols.length}개 · 의미 ${meaningTotal}개 · 인용 ${citeTotal}개`);
+console.log(
+  `출처별 상징: 주공해몽만 ${byWork.zhougong} · 밀러만 ${byWork.miller} · 둘 다 ${byWork.both}`,
+);
+console.log(`이름이 겹쳐 구분을 붙인 상징: ${[...byKo.values()].filter((g) => g.length > 1).flat().length}개`);
+
+if (dupContexts.length > 0) {
+  console.log(
+    `\n두 원문이 같은 상황을 다르게 해석하는 자리 ${dupContexts.length}개 — 의미를 둘로 남겼다:`,
+  );
+  for (const line of dupContexts) console.log(line);
+  console.log(
+    "  → 매칭 표(dream-contexts*.ts)는 상황 문구를 객체 키로 쓴다." +
+      "\n    이 자리들은 키가 겹치므로 매칭 표 조립 때 출처까지 키에 넣어야 한다.",
+  );
+}
+
 console.log(`→ ${path.relative(process.cwd(), OUT)}`);
-console.log(`\n확인: node scripts/verify-dream-cite.mjs`);
+console.log(`\n확인: node scripts/verify-dream-cite.mjs <추출 파일들>`);

@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "accuse",
+    "aliases": [
+      "험담",
+      "비방",
+      "꾸짖음",
+      "탓하기"
+    ],
+    "aliases_en": [
+      "accusation",
+      "accusing",
+      "blame",
+      "blaming someone"
+    ],
+    "contexts": {
+      "누군가를 비열한 행동으로 비난함": "내가 상대를 비열 꾸짖",
+      "자신이 비난받음": "받았 받는 당했 억울"
+    },
+    "contexts_en": {
+      "누군가를 비열한 행동으로 비난함": "blamed else",
+      "자신이 비난받음": "slandered slander gossip rumors"
+    }
+  },
+  {
+    "id": "acquit",
+    "aliases": [
+      "무죄",
+      "방면",
+      "혐의 벗음",
+      "석방 판결"
+    ],
+    "aliases_en": [
+      "acquitted",
+      "acquittal",
+      "found not guilty",
+      "cleared of charges"
+    ],
+    "contexts": {
+      "자신이 범죄에서 무죄 판결을 받음": "내가 나에게 풀려났 석방 혐의를",
+      "다른 사람이 무죄 판결을 받는 것을 봄": "다른 남이 친구가 지켜보"
+    },
+    "contexts_en": {
+      "자신이 범죄에서 무죄 판결을 받음": "myself innocent released",
+      "다른 사람이 무죄 판결을 받는 것을 봄": "someone another watched saw"
+    }
+  },
+  {
+    "id": "adopted",
+    "aliases": [
+      "양자",
+      "양녀",
+      "입양아",
+      "수양딸"
+    ],
+    "aliases_en": [
+      "adoption",
+      "adoptive child",
+      "foster child",
+      "adopting a child"
+    ],
+    "contexts": {
+      "입양된 자녀나 부모를 봄": "자녀 아이가 부모를",
+      "자신이나 남이 아이를 입양함": "데려왔 데려오 맡아 키우"
+    },
+    "contexts_en": {
+      "입양된 자녀나 부모를 봄": "parents seeing",
+      "자신이나 남이 아이를 입양함": "took raising"
+    }
+  },
+  {
+    "id": "adulation",
+    "aliases": [
+      "아부",
+      "알랑거림",
+      "비위 맞추기",
+      "치켜세움"
+    ],
+    "aliases_en": [
+      "flattery",
+      "fawning",
+      "sycophancy",
+      "adoring praise"
+    ],
+    "contexts": {
+      "아첨을 갈구함": "갈구 바라 원했 듣고싶",
+      "남에게 아첨함": "남에게 남을 상대에게 치켜"
+    },
+    "contexts_en": {
+      "아첨을 갈구함": "craved craving wanted receiving",
+      "남에게 아첨함": "flattering others toward"
+    }
+  },
+  {
+    "id": "advancement",
+    "aliases": [
+      "출세",
+      "승진",
+      "진급",
+      "앞으로 나아감"
+    ],
+    "aliases_en": [
+      "advancing",
+      "promotion",
+      "moving forward",
+      "getting ahead"
+    ],
+    "contexts": {
+      "어떤 일에서든 전진함": "내가 스스로 승진 나아갔",
+      "다른 사람이 전진하는 것을 봄": "다른 남이 동료가 지켜봤"
+    },
+    "contexts_en": {
+      "어떤 일에서든 전진함": "myself promoted",
+      "다른 사람이 전진하는 것을 봄": "someone another watched"
+    }
+  },
+  {
+    "id": "adventurer",
+    "aliases": [
+      "협잡꾼",
+      "사기꾼",
+      "떠돌이 모험",
+      "여성 모험가"
+    ],
+    "aliases_en": [
+      "adventuress",
+      "adventurers",
+      "fortune hunter"
+    ],
+    "contexts": {
+      "모험가에게 희생당함": "희생 당했 속아 먹잇감",
+      "젊은 여성이 자신을 여성 모험가라고 생각함": "여성이 아가씨 자신을 생각"
+    },
+    "contexts_en": {
+      "모험가에게 희생당함": "victim victimized cheated",
+      "젊은 여성이 자신을 여성 모험가라고 생각함": "woman herself thinks considered"
+    }
+  },
+  {
+    "id": "adversary",
+    "aliases": [
+      "원수",
+      "맞수",
+      "경쟁자",
+      "대적"
+    ],
+    "aliases_en": [
+      "adversaries",
+      "enemy",
+      "opponent",
+      "foe"
+    ],
+    "contexts": {
+      "적과 만나거나 맞섬": "만났 마주 맞섰 대치",
+      "적을 이겨냄": "이겼 이겨 물리쳤 승리"
+    },
+    "contexts_en": {
+      "적과 만나거나 맞섬": "met meeting confronted facing",
+      "적을 이겨냄": "overcame defeated conquered beat"
+    }
+  },
+  {
+    "id": "adversity",
+    "aliases": [
+      "곤경",
+      "시련",
+      "궁핍",
+      "불운한 처지"
+    ],
+    "aliases_en": [
+      "hardship",
+      "misfortune",
+      "trouble",
+      "distress"
+    ],
+    "contexts": {
+      "역경에 처함": "내가 처했 겪었 빠졌",
+      "다른 사람이 역경에 처한 것을 봄": "다른 남이 친구가 지켜봤"
+    },
+    "contexts_en": {
+      "역경에 처함": "myself suffering",
+      "다른 사람이 역경에 처한 것을 봄": "someone another watched"
+    }
+  },
+  {
+    "id": "advertisement",
+    "aliases": [
+      "광고문",
+      "신문 광고",
+      "선전",
+      "광고지"
+    ],
+    "aliases_en": [
+      "advertisements",
+      "advertising",
+      "an ad",
+      "ads"
+    ],
+    "contexts": {
+      "광고 문안을 만들어냄": "만들 작성 문안",
+      "광고를 읽음": "읽었 읽고 읽는"
+    },
+    "contexts_en": {
+      "광고 문안을 만들어냄": "writing composing wrote making",
+      "광고를 읽음": "reading read perused"
+    }
+  },
+  {
+    "id": "advice",
+    "aliases": [
+      "충고",
+      "권고",
+      "자문",
+      "상담"
+    ],
+    "aliases_en": [
+      "counsel",
+      "advising",
+      "recommendation",
+      "guidance"
+    ],
+    "contexts": {
+      "조언을 받음": "받았 받는 들었 얻었",
+      "법률 자문을 구함": "법률 변호 소송 법적"
+    },
+    "contexts_en": {
+      "조언을 받음": "received receiving given",
+      "법률 자문을 구함": "legal lawyer attorney court"
+    }
+  },
+  {
+    "id": "affliction",
+    "aliases": [
+      "괴로움",
+      "시달림",
+      "환난",
+      "비탄"
+    ],
+    "aliases_en": [
+      "afflictions",
+      "suffering",
+      "distress",
+      "tribulation"
+    ],
+    "contexts": {
+      "고난이 자신을 무겁게 짓누름": "짓눌 무겁 나를 시달",
+      "다른 사람이 고난받는 것을 봄": "다른 남이 친구가 지켜봤"
+    },
+    "contexts_en": {
+      "고난이 자신을 무겁게 짓누름": "weighed burdened myself heavily",
+      "다른 사람이 고난받는 것을 봄": "someone another watched"
+    }
+  },
+  {
+    "id": "affluence",
+    "aliases": [
+      "풍족",
+      "부자",
+      "넉넉함",
+      "호화"
+    ],
+    "aliases_en": [
+      "wealth",
+      "riches",
+      "opulence",
+      "prosperity"
+    ],
+    "contexts": {
+      "부유하게 지냄": "내가 지냈 살았 풍족",
+      "젊은 여성이 기이하고 환상적인 부유함을 봄": "여성이 아가씨 기이 환상"
+    },
+    "contexts_en": {
+      "부유하게 지냄": "myself living wealthy",
+      "젊은 여성이 기이하고 환상적인 부유함을 봄": "woman strange fantastic"
+    }
+  },
+  {
+    "id": "affrighted",
+    "aliases": [
+      "두려움에 떪",
+      "놀람",
+      "공포",
+      "기겁"
+    ],
+    "aliases_en": [
+      "frightened",
+      "terrified",
+      "scared",
+      "fright"
+    ],
+    "contexts": {
+      "자신이 겁에 질림": "내가 나는 스스로 질렸",
+      "다른 사람이 겁에 질린 것을 봄": "다른 남이 지켜봤"
+    },
+    "contexts_en": {
+      "자신이 겁에 질림": "myself",
+      "다른 사람이 겁에 질린 것을 봄": "someone another watched saw"
+    }
+  },
+  {
+    "id": "africa",
+    "aliases": [
+      "african",
+      "아프리카 대륙",
+      "검은 대륙",
+      "사하라"
+    ],
+    "aliases_en": [
+      "african",
+      "african continent",
+      "dark continent"
+    ],
+    "contexts": {
+      "식인종에 둘러싸여 아프리카에 있음": "식인종 둘러싸 갇혔 야만",
+      "여성이 아프리카 풍경을 봄": "여성이 아가씨 풍경 경치"
+    },
+    "contexts_en": {
+      "식인종에 둘러싸여 아프리카에 있음": "cannibals surrounded",
+      "여성이 아프리카 풍경을 봄": "woman scenery landscape"
+    }
+  },
+  {
+    "id": "afternoon",
+    "aliases": [
+      "한낮",
+      "점심 무렵",
+      "오후 나절"
+    ],
+    "aliases_en": [
+      "afternoons",
+      "early afternoon",
+      "late afternoon"
+    ],
+    "contexts": {
+      "여성이 오후를 봄": "여성이 아가씨 맑은 화창",
+      "흐리고 비 오는 오후를 봄": "흐리 비오 궂은 비가"
+    },
+    "contexts_en": {
+      "여성이 오후를 봄": "woman clear bright",
+      "흐리고 비 오는 오후를 봄": "cloudy rainy rain gloomy"
+    }
+  },
+  {
+    "id": "agony",
+    "aliases": [
+      "극심한 아픔",
+      "고뇌",
+      "몸부림",
+      "괴로워함"
+    ],
+    "aliases_en": [
+      "agonizing",
+      "anguish",
+      "torment",
+      "in agony"
+    ],
+    "contexts": {
+      "고통스러운 꿈을 꿈": "몸부림 신음 아파하",
+      "돈이나 재산을 잃어 고통스러워함": "돈을 재산을 잃어 손실"
+    },
+    "contexts_en": {
+      "고통스러운 꿈을 꿈": "writhing groaning pain",
+      "돈이나 재산을 잃어 고통스러워함": "money property lost losing"
+    }
+  },
+  {
+    "id": "ague",
+    "aliases": [
+      "말라리아",
+      "오한",
+      "한기",
+      "열병"
+    ],
+    "aliases_en": [
+      "malaria",
+      "chills",
+      "fever",
+      "the shakes"
+    ],
+    "contexts": {
+      "학질로 떨림": "내가 떨었 오한 앓았",
+      "다른 사람이 학질로 떠는 것을 봄": "다른 남이 지켜봤"
+    },
+    "contexts_en": {
+      "학질로 떨림": "myself shivering shaking",
+      "다른 사람이 학질로 떠는 것을 봄": "someone another watched"
+    }
+  },
+  {
+    "id": "album",
+    "aliases": [
+      "사진첩",
+      "기념첩",
+      "스크랩북"
+    ],
+    "aliases_en": [
+      "albums",
+      "photo album",
+      "scrapbook"
+    ],
+    "contexts": {
+      "앨범을 봄": "펼쳤 넘겼 놓여",
+      "젊은 여성이 앨범 속 사진을 봄": "여성이 아가씨 사진"
+    },
+    "contexts_en": {
+      "앨범을 봄": "opened turning lying",
+      "젊은 여성이 앨범 속 사진을 봄": "woman photographs pictures"
+    }
+  },
+  {
+    "id": "alley",
+    "aliases": [
+      "골목길",
+      "뒷골목",
+      "좁은 길",
+      "샛길"
+    ],
+    "aliases_en": [
+      "alleys",
+      "alleyway",
+      "narrow lane",
+      "back alley"
+    ],
+    "contexts": {
+      "골목에 대한 꿈을 꿈": "걸었 지나 들어섰",
+      "젊은 여성이 어두워진 뒤 골목을 헤맴": "여성이 아가씨 어두워 헤맸 밤에"
+    },
+    "contexts_en": {
+      "골목에 대한 꿈을 꿈": "walking passing",
+      "젊은 여성이 어두워진 뒤 골목을 헤맴": "woman dark night wandering"
+    }
+  },
+  {
+    "id": "alloy",
+    "aliases": [
+      "섞인 쇠",
+      "합성 금속",
+      "놋쇠"
+    ],
+    "aliases_en": [
+      "alloys",
+      "mixed metal",
+      "metal alloy"
+    ],
+    "contexts": {
+      "합금에 대한 꿈을 꿈": "쇠붙이 금속 섞인",
+      "여성이 합금에 대한 꿈을 꿈": "여성이 아가씨"
+    },
+    "contexts_en": {
+      "합금에 대한 꿈을 꿈": "blend blended compound alloyed",
+      "여성이 합금에 대한 꿈을 꿈": "woman girl"
+    }
+  },
+  {
+    "id": "almonds",
+    "aliases": [
+      "편도",
+      "아몬드 알",
+      "견과"
+    ],
+    "aliases_en": [
+      "almond",
+      "almond nuts",
+      "sweet almonds"
+    ],
+    "contexts": {
+      "아몬드 꿈을 꿈": "신선 탐스 알이",
+      "흠 있는 아몬드를 봄": "흠이 상한 벌레 썩은"
+    },
+    "contexts_en": {
+      "아몬드 꿈을 꿈": "fresh plump good",
+      "흠 있는 아몬드를 봄": "blighted wormy spoiled"
+    }
+  },
+  {
+    "id": "alms",
+    "aliases": [
+      "적선",
+      "동냥",
+      "보시",
+      "구제"
+    ],
+    "aliases_en": [
+      "charity",
+      "almsgiving",
+      "giving alms",
+      "donation"
+    ],
+    "contexts": {
+      "마지못해 자선을 주거나 받음": "마지못해 억지로 인색 꺼리",
+      "기꺼이 자선을 주거나 받음": "기꺼이 기쁘게 흔쾌"
+    },
+    "contexts_en": {
+      "마지못해 자선을 주거나 받음": "grudgingly reluctantly refused",
+      "기꺼이 자선을 주거나 받음": "willingly cheerfully gladly"
+    }
+  },
+  {
+    "id": "aluminum",
+    "aliases": [
+      "알루미늄 그릇",
+      "양은",
+      "알루미늄 장식"
+    ],
+    "aliases_en": [
+      "aluminium",
+      "aluminum ware",
+      "aluminum ornaments"
+    ],
+    "contexts": {
+      "알루미늄 꿈을 꿈": "반짝 그릇 만족",
+      "여성이 자신의 알루미늄 장식품이 변색된 것을 봄": "여성이 아가씨 변색 장식품 흐려"
+    },
+    "contexts_en": {
+      "알루미늄 꿈을 꿈": "bright shiny",
+      "여성이 자신의 알루미늄 장식품이 변색된 것을 봄": "woman tarnished"
+    }
+  },
+  {
+    "id": "ambush",
+    "aliases": [
+      "잠복",
+      "기습",
+      "숨어 기다림",
+      "복병"
+    ],
+    "aliases_en": [
+      "ambushed",
+      "ambushes",
+      "lying in wait",
+      "surprise attack"
+    ],
+    "contexts": {
+      "매복 공격을 당함": "당했 습격 덮쳤 기습을",
+      "복수하려고 매복함": "복수 숨어 기다렸 노렸"
+    },
+    "contexts_en": {
+      "매복 공격을 당함": "attacked victim",
+      "복수하려고 매복함": "revenge waiting hiding"
+    }
+  },
+  {
+    "id": "amethyst",
+    "aliases": [
+      "보라 수정",
+      "자주빛 보석",
+      "수정 반지"
+    ],
+    "aliases_en": [
+      "amethysts",
+      "purple gem",
+      "violet stone"
+    ],
+    "contexts": {
+      "자수정을 봄": "반짝 지녔 끼었",
+      "젊은 여성이 자수정을 잃어버림": "여성이 아가씨 잃어 잃었 분실"
+    },
+    "contexts_en": {
+      "자수정을 봄": "seeing wearing sparkling",
+      "젊은 여성이 자수정을 잃어버림": "woman lost losing"
+    }
+  },
+  {
+    "id": "ammonia",
+    "aliases": [
+      "암모니아수",
+      "자극적인 약품 냄새"
+    ],
+    "aliases_en": [
+      "ammonia water",
+      "smelling salts"
+    ],
+    "contexts": {
+      "암모니아를 봄": "냄새 맡았 코를",
+      "젊은 여성이 투명한 암모니아 병을 봄": "여성이 아가씨 투명 병을"
+    },
+    "contexts_en": {
+      "암모니아를 봄": "smell odor fumes",
+      "젊은 여성이 투명한 암모니아 병을 봄": "woman clear bottle"
+    }
+  },
+  {
+    "id": "ammunition",
+    "aliases": [
+      "실탄",
+      "총알",
+      "화약",
+      "군수품"
+    ],
+    "aliases_en": [
+      "ammo",
+      "cartridges",
+      "bullets",
+      "munitions"
+    ],
+    "contexts": {
+      "탄약 꿈을 꿈": "쌓인 가득 갖췄",
+      "탄약이 바닥남": "바닥 떨어졌 다썼 없어"
+    },
+    "contexts_en": {
+      "탄약 꿈을 꿈": "plenty stocked supply",
+      "탄약이 바닥남": "exhausted depleted empty"
+    }
+  },
+  {
+    "id": "andirons",
+    "aliases": [
+      "벽난로 받침쇠",
+      "화로 받침",
+      "장작 걸이"
+    ],
+    "aliases_en": [
+      "andiron",
+      "firedogs",
+      "fire dogs"
+    ],
+    "contexts": {
+      "장작받침쇠가 타는 장작을 받치고 있는 것을 봄": "타는 불타 장작이 활활",
+      "빈 벽난로에 놓인 장작받침쇠를 봄": "텅빈 벽난로 차가운 재만"
+    },
+    "contexts_en": {
+      "장작받침쇠가 타는 장작을 받치고 있는 것을 봄": "burning logs blazing",
+      "빈 벽난로에 놓인 장작받침쇠를 봄": "empty fireplace cold"
+    }
+  },
+  {
+    "id": "anecdote",
+    "aliases": [
+      "재미난 이야기",
+      "우스개",
+      "에피소드",
+      "이야깃거리"
+    ],
+    "aliases_en": [
+      "anecdotes",
+      "telling stories",
+      "a funny story"
+    ],
+    "contexts": {
+      "일화를 이야기하는 꿈을 꿈": "이야기하 들려주 말했 내가",
+      "젊은 여성이 남이 들려주는 일화를 들음": "여성이 아가씨 들었 듣고"
+    },
+    "contexts_en": {
+      "일화를 이야기하는 꿈을 꿈": "relating narrating",
+      "젊은 여성이 남이 들려주는 일화를 들음": "woman listening heard"
+    }
+  },
+  {
+    "id": "anger",
+    "aliases": [
+      "격분",
+      "노여움",
+      "성냄",
+      "화를 냄"
+    ],
+    "aliases_en": [
+      "angry",
+      "rage",
+      "fury",
+      "wrath"
+    ],
+    "contexts": {
+      "분노하는 꿈을 꿈": "화가났 격분 치밀 성났",
+      "친구나 친척이 화를 내는데 침착하게 맞섬": "친구가 친척 침착 달랬"
+    },
+    "contexts_en": {
+      "분노하는 꿈을 꿈": "enraged furious raging",
+      "친구나 친척이 화를 내는데 침착하게 맞섬": "friend relative calmly soothing"
+    }
+  },
+  {
+    "id": "annoy",
+    "aliases": [
+      "짜증",
+      "귀찮음",
+      "거슬림",
+      "신경 쓰임"
+    ],
+    "aliases_en": [
+      "annoyed",
+      "annoyance",
+      "irritation",
+      "vexation"
+    ],
+    "contexts": {
+      "성가신 일을 겪는 꿈을 꿈": "적이 해치려 방해",
+      "꿈속에서 겪은 성가신 일": "이튿날 다음날 사소"
+    },
+    "contexts_en": {
+      "성가신 일을 겪는 꿈을 꿈": "enemies working against",
+      "꿈속에서 겪은 성가신 일": "tomorrow trifles trivial"
+    }
+  },
+  {
+    "id": "antelope",
+    "aliases": [
+      "가젤",
+      "영양 떼",
+      "사슴 같은 짐승"
+    ],
+    "aliases_en": [
+      "antelopes",
+      "gazelle",
+      "gazelles"
+    ],
+    "contexts": {
+      "꿈에 영양을 봄": "뛰노 달리 무리",
+      "젊은 여성이 영양이 발을 헛디뎌 높은 데서 떨어지는 것을 봄": "여성이 아가씨 헛디 떨어지 높은"
+    },
+    "contexts_en": {
+      "꿈에 영양을 봄": "seeing running herd",
+      "젊은 여성이 영양이 발을 헛디뎌 높은 데서 떨어지는 것을 봄": "woman stumble falling height"
+    }
+  },
+  {
+    "id": "anxiety",
+    "aliases": [
+      "초조",
+      "걱정",
+      "근심",
+      "조바심"
+    ],
+    "aliases_en": [
+      "anxious",
+      "worry",
+      "worried",
+      "apprehension"
+    ],
+    "contexts": {
+      "불안해하는 꿈을 꿈": "막연 이유없 그저",
+      "중대한 일 하나를 두고 불안해함": "중대한 사업 한가지 어떤일"
+    },
+    "contexts_en": {
+      "불안해하는 꿈을 꿈": "vague general",
+      "중대한 일 하나를 두고 불안해함": "matter business important"
+    }
+  },
+  {
+    "id": "apes",
+    "aliases": [
+      "원숭이",
+      "고릴라",
+      "침팬지",
+      "성성이"
+    ],
+    "aliases_en": [
+      "ape",
+      "monkey",
+      "monkeys",
+      "gorilla"
+    ],
+    "contexts": {
+      "유인원을 보는 꿈을 꿈": "보는 커다란 무리",
+      "작은 유인원이 나무에 매달린 것을 봄": "작은 나무에 매달"
+    },
+    "contexts_en": {
+      "유인원을 보는 꿈을 꿈": "seeing large",
+      "작은 유인원이 나무에 매달린 것을 봄": "small tree clinging"
+    }
+  },
+  {
+    "id": "apparition",
+    "aliases": [
+      "귀신",
+      "혼령",
+      "허깨비",
+      "망령"
+    ],
+    "aliases_en": [
+      "apparitions",
+      "ghost",
+      "ghosts",
+      "phantom"
+    ],
+    "contexts": {
+      "유령을 보는 꿈을 꿈": "나타났 하얀 소름 무서",
+      "젊은 사람이 유령 꿈을 꿈": "젊은 여성이 아가씨 연인"
+    },
+    "contexts_en": {
+      "유령을 보는 꿈을 꿈": "appeared white ghostly",
+      "젊은 사람이 유령 꿈을 꿈": "young woman lover"
+    }
+  },
+  {
+    "id": "april",
+    "aliases": [
+      "사월",
+      "4월달",
+      "봄 사월"
+    ],
+    "aliases_en": [
+      "the month of april",
+      "april weather",
+      "springtime april"
+    ],
+    "contexts": {
+      "4월을 꿈꿈": "봄날 화창 사월",
+      "꿈속 날씨가 궂음": "날씨가 궂은 흐린 비바람"
+    },
+    "contexts_en": {
+      "4월을 꿈꿈": "spring pleasant",
+      "꿈속 날씨가 궂음": "bad stormy cloudy"
+    }
+  },
+  {
+    "id": "apron",
+    "aliases": [
+      "에이프런",
+      "행주치마",
+      "앞치마 끈"
+    ],
+    "aliases_en": [
+      "aprons",
+      "pinafore",
+      "kitchen apron"
+    ],
+    "contexts": {
+      "여성이 앞치마를 두른 꿈을 꿈": "둘렀 입었 매고",
+      "여학생이 앞치마가 풀리거나 찢어지는 꿈을 꿈": "여학생 학생이 풀렸 찢어"
+    },
+    "contexts_en": {
+      "여성이 앞치마를 두른 꿈을 꿈": "wearing woman",
+      "여학생이 앞치마가 풀리거나 찢어지는 꿈을 꿈": "schoolgirl unfastened torn"
+    }
+  },
+  {
+    "id": "architect",
+    "aliases": [
+      "설계사",
+      "건축 설계자",
+      "도면 그리는 사람"
+    ],
+    "aliases_en": [
+      "architects",
+      "building designer",
+      "draughtsman"
+    ],
+    "contexts": {
+      "건축가가 도면을 그리는 꿈을 꿈": "도면 설계도 그리는",
+      "젊은 여성이 건축가를 봄": "여성이 아가씨 혼처"
+    },
+    "contexts_en": {
+      "건축가가 도면을 그리는 꿈을 꿈": "plans drawing draft",
+      "젊은 여성이 건축가를 봄": "woman girl marriage"
+    }
+  },
+  {
+    "id": "arrested",
+    "aliases": [
+      "체포",
+      "잡혀감",
+      "연행",
+      "구속"
+    ],
+    "aliases_en": [
+      "arrest",
+      "taken into custody",
+      "apprehended",
+      "under arrest"
+    ],
+    "contexts": {
+      "점잖아 보이는 낯선 사람이 체포되는 것을 봄": "낯선 점잖 모르는",
+      "체포되는 사람이 경관에게 저항함": "저항 반항 경관 몸싸움"
+    },
+    "contexts_en": {
+      "점잖아 보이는 낯선 사람이 체포되는 것을 봄": "stranger respectable unknown",
+      "체포되는 사람이 경관에게 저항함": "resisting officer struggle"
+    }
+  },
+  {
+    "id": "ascend",
+    "aliases": [
+      "올라감",
+      "등반",
+      "계단을 오름",
+      "상승"
+    ],
+    "aliases_en": [
+      "ascending",
+      "climbing",
+      "going up",
+      "ascent"
+    ],
+    "contexts": {
+      "비틀거리지 않고 계단 꼭대기까지 오름": "꼭대기 끝까지 무사히",
+      "오르는 도중에 비틀거림": "비틀 헛디 넘어질 도중"
+    },
+    "contexts_en": {
+      "비틀거리지 않고 계단 꼭대기까지 오름": "top summit reached",
+      "오르는 도중에 비틀거림": "stumbled stumbling slipping"
+    }
+  },
+  {
+    "id": "asparagus",
+    "aliases": [
+      "아스파라거스 순",
+      "아스파라거스 밭"
+    ],
+    "aliases_en": [
+      "asparagus tips",
+      "asparagus bed",
+      "asparagus stalks"
+    ],
+    "contexts": {
+      "아스파라거스 꿈을 꿈": "자라 밭에 다발",
+      "아스파라거스를 먹음": "먹었 먹는 씹었"
+    },
+    "contexts_en": {
+      "아스파라거스 꿈을 꿈": "growing bunch",
+      "아스파라거스를 먹음": "eating eaten devoured"
+    }
+  },
+  {
+    "id": "assistance",
+    "aliases": [
+      "도와줌",
+      "원조",
+      "지원",
+      "거들기"
+    ],
+    "aliases_en": [
+      "assisting",
+      "help",
+      "helping",
+      "aid"
+    ],
+    "contexts": {
+      "누군가에게 도움을 줌": "주었 도와주 베풀",
+      "누군가 자신을 도와줌": "받았 도움받 나를"
+    },
+    "contexts_en": {
+      "누군가에게 도움을 줌": "giving rendering others",
+      "누군가 자신을 도와줌": "receiving received assisted"
+    }
+  },
+  {
+    "id": "astral",
+    "aliases": [
+      "영체",
+      "유체",
+      "아스트랄체",
+      "혼백"
+    ],
+    "aliases_en": [
+      "astral body",
+      "astral self",
+      "spirit body"
+    ],
+    "contexts": {
+      "아스트랄(영체)에 관한 꿈을 꿈": "기운 신비 별빛",
+      "자신의 아스트랄 자아(유령이나 형상)를 봄": "자아 형상 유령 자신의"
+    },
+    "contexts_en": {
+      "아스트랄(영체)에 관한 꿈을 꿈": "spiritual mystic",
+      "자신의 아스트랄 자아(유령이나 형상)를 봄": "double ghost figure"
+    }
+  },
+  {
+    "id": "attic",
+    "aliases": [
+      "다락",
+      "고미다락",
+      "지붕 밑 방"
+    ],
+    "aliases_en": [
+      "attics",
+      "garret",
+      "loft"
+    ],
+    "contexts": {
+      "다락방에 있음": "올라갔 있었 들어갔",
+      "젊은 여성이 다락방에서 잠을 잠": "여성이 아가씨 잠을"
+    },
+    "contexts_en": {
+      "다락방에 있음": "climbed",
+      "젊은 여성이 다락방에서 잠을 잠": "woman sleeping slept"
+    }
+  },
+  {
+    "id": "attorney",
+    "aliases": [
+      "법률가",
+      "변호인",
+      "대리인",
+      "법정 대리인"
+    ],
+    "aliases_en": [
+      "attorneys",
+      "lawyer",
+      "counsel",
+      "barrister"
+    ],
+    "contexts": {
+      "법정에서 변호사를 봄": "법정 재판 판사",
+      "변호사가 자신을 변호함": "변호해 나를 편에서 맡아"
+    },
+    "contexts_en": {
+      "법정에서 변호사를 봄": "court trial judge",
+      "변호사가 자신을 변호함": "defending defended behalf"
+    }
+  },
+  {
+    "id": "august",
+    "aliases": [
+      "8월",
+      "여름 팔월",
+      "팔월달"
+    ],
+    "aliases_en": [
+      "month of august",
+      "in august",
+      "august month"
+    ],
+    "contexts": {
+      "팔월(八月)이라는 달의 꿈을 꿈": "여름 무더 더위",
+      "젊은 여성이 팔월에 결혼하는 꿈을 꿈": "여성이 아가씨 결혼 혼례"
+    },
+    "contexts_en": {
+      "팔월(八月)이라는 달의 꿈을 꿈": "summer hot",
+      "젊은 여성이 팔월에 결혼하는 꿈을 꿈": "woman marrying wedding married"
+    }
+  },
+  {
+    "id": "aunt",
+    "aliases": [
+      "이모",
+      "고모",
+      "숙모",
+      "아주머니"
+    ],
+    "aliases_en": [
+      "aunts",
+      "auntie",
+      "my aunt"
+    ],
+    "contexts": {
+      "젊은 여성이 고모(이모)를 봄": "여성이 아가씨 질책 꾸중",
+      "고모(이모)가 웃으며 행복해 보임": "웃으며 행복 미소 즐거워"
+    },
+    "contexts_en": {
+      "젊은 여성이 고모(이모)를 봄": "woman girl reprimand rebuke",
+      "고모(이모)가 웃으며 행복해 보임": "smiling happy laughing cheerful"
+    }
+  }
+]

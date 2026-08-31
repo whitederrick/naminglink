@@ -13,7 +13,23 @@
 // 4. 같은 상징 안에서 서로 다른 문맥의 판별어가 겹치는 낱말을 공유하는가
 //    (겹치면 그 낱말이 나온 문장이 어느 문맥에 속하는지 갈리지 않는다)
 //
-// 실행: node scripts/verify-dream-km.mjs [km2 km4 ...]  (인자 없으면 km1~km9 전부)
+// ## 5. 커버리지 — **이 검사기가 오래 못 보던 자리** (2026-08-31에 추가)
+//
+// 위 1~4는 전부 **파일에 있는 항목**을 훑는다. 그래서 **아예 빠진 것은 못 본다** —
+// 상징에 항목이 없거나, 항목은 있는데 어떤 의미의 판별어가 없으면 위반 0건으로
+// 조용히 통과한다. 실제로 그 상태로 지나갔다:
+//
+//   주공해몽·밀러를 한 사전으로 합친 뒤, **두 원문에 다 있는 상징 34개**의 밀러 쪽
+//   의미 124개에 판별어가 없었다. km 배치는 밀러가 합쳐지기 전에 만들어졌고, 밀러
+//   배치는 "키가 아예 없는 상징"만 골랐다(그 34개는 항목이 **있었다**). 검사기는
+//   678개 항목 위반 0건이라고 했고, 커버리지를 손으로 세어서야 142개가 드러났다.
+//
+// CLAUDE.md §24가 그 사고다 — **진위 검사와 커버리지 대조는 다른 일이다.**
+// 이제 인자 없이 돌리면(=전수) 커버리지도 함께 본다. 파일 몇 개만 지정해 돌릴 때는
+// 전체를 알 수 없으므로 건너뛰고, 건너뛰었다고 화면에 적는다(§1 — 「검사 안 됨」을
+// 통과로 보이게 하지 않는다).
+//
+// 실행: node scripts/verify-dream-km.mjs [km2 kmm4 ...]  (인자 없으면 km1~9·kmm1~7 전부)
 // 종료 코드: 0 위반 없음 / 1 위반 있음 / 2 검사할 것이 없음
 
 import { readFileSync, existsSync } from "node:fs";
@@ -30,11 +46,25 @@ const v2 = JSON.parse(readFileSync(V2_PATH, "utf8"));
 const symbolById = new Map(v2.symbols.map((s) => [s.id, s]));
 
 const argGroups = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-const groups = argGroups.length > 0 ? argGroups : Array.from({ length: 9 }, (_, i) => `km${i + 1}`);
+
+/**
+ * 전수 목록. **주공해몽(`km1~9`)과 밀러(`kmm1~7`)를 둘 다 넣는다** — 밀러를 합친 뒤
+ * 기본값이 `km1~9`에 머물러 있으면 밀러 키 265개가 매번 검사에서 빠진다.
+ */
+const ALL_GROUPS = [
+  ...Array.from({ length: 9 }, (_, i) => `km${i + 1}`),
+  ...Array.from({ length: 7 }, (_, i) => `kmm${i + 1}`),
+];
+
+const groups = argGroups.length > 0 ? argGroups : ALL_GROUPS;
+/** 일부만 돌리면 커버리지를 잴 수 없다 — 잰 척하지 않는다. */
+const checkCoverage = argGroups.length === 0;
 
 let totalEntries = 0;
 let totalViolations = 0;
 const usedIds = new Set();
+/** 커버리지 대조용 — id → 항목. 「무엇이 빠졌는가」는 모아 놓고서야 물을 수 있다. */
+const entryById = new Map();
 
 for (const group of groups) {
   const file = path.join(EXTRACT_DIR, `${group}.json`);
@@ -61,6 +91,7 @@ for (const group of groups) {
     }
     if (usedIds.has(e.id)) bad.push(`${tag} 다른 그룹과 id 중복`);
     usedIds.add(e.id);
+    entryById.set(e.id, e);
 
     const term = sym.term_ko;
     const isSingleChar = term.length === 1;
@@ -141,6 +172,46 @@ for (const group of groups) {
 }
 
 console.log(`\n합계: 항목 ${totalEntries}개 · 위반 ${totalViolations}건`);
+
+// ── 5. 커버리지 — 「빠진 것」은 위 검사들이 볼 수 없다 (CLAUDE.md §24) ──────────
+
+if (checkCoverage) {
+  const noKey = [];
+  const noContext = [];
+
+  for (const sym of v2.symbols) {
+    const e = entryById.get(sym.id);
+    if (!e) {
+      noKey.push(`  ${sym.id}(${sym.term_ko}) — 매칭 키 항목이 없다`);
+      continue;
+    }
+    // 의미가 하나뿐이면 가를 것이 없으므로 판별어를 요구하지 않는다.
+    if (sym.meanings.length < 2) continue;
+    for (const m of sym.meanings) {
+      const missKo = !(m.context in (e.contexts ?? {}));
+      const missEn = !(m.context in (e.contexts_en ?? {}));
+      if (missKo || missEn) {
+        const which = missKo && missEn ? "ko·en" : missKo ? "ko" : "en";
+        noContext.push(`  ${sym.id}(${sym.term_ko}) 「${m.context}」 — 판별어 없음(${which})`);
+      }
+    }
+  }
+
+  const coverageBad = noKey.length + noContext.length;
+  console.log(
+    `커버리지: 상징 ${v2.symbols.length}개 중 키 있음 ${entryById.size}개` +
+      ` · 판별어 빠진 의미 ${noContext.length}개`,
+  );
+  for (const line of noKey.slice(0, 20)) console.log(line);
+  if (noKey.length > 20) console.log(`  … 외 ${noKey.length - 20}개`);
+  for (const line of noContext.slice(0, 20)) console.log(line);
+  if (noContext.length > 20) console.log(`  … 외 ${noContext.length - 20}개`);
+
+  totalViolations += coverageBad;
+} else {
+  // **건너뛴 것을 통과로 보이게 하지 않는다**(CLAUDE.md §1).
+  console.log("커버리지: 일부 파일만 지정해 돌렸으므로 재지 않았다 — 전수는 인자 없이 돌린다.");
+}
 
 if (totalEntries === 0) {
   console.error("검사한 항목이 0개다 — 검사 안 됨으로 처리한다.");

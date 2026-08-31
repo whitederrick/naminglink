@@ -1,0 +1,605 @@
+[
+  {
+    "id": "apparel",
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "category": "object",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "옷차림 꿈을 꿈",
+        "interpretation_ko": "옷이 온전하고 깨끗한지, 더럽고 낡았는지에 따라 일이 성공하거나 실패할 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "좋지만 유행이 지난 옷을 봄",
+        "interpretation_ko": "재물은 얻으나 새로운 생각을 업신여길 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "유행이 지난 옷을 마다함",
+        "interpretation_ko": "지금의 환경을 벗어나 새로운 인연·일·사랑으로 들어가 다른 사람이 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "자신이나 남이 흰옷을 입은 것을 봄",
+        "interpretation_ko": "큰일이 되는 변화가 있으나 거의 언제나 그 변화에 슬픔이 따를 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "흰옷 입은 사람과 함께 걸음",
+        "interpretation_ko": "그 사람의 병이나 곤경을 알리는 조짐이나, 젊은 여성이나 아이라면 한동안 좋은 환경이 있을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신이나 남이 검은 옷을 입은 것을 봄",
+        "interpretation_ko": "다툼과 실망, 불쾌한 동행이 있을 조짐이며 사업이라면 기대에 못 미칠 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "노란 옷을 봄",
+        "interpretation_ko": "즐거운 일과 재물의 진전이 다가올 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "노란 옷이 기이한 빛 속에 유령처럼 스쳐 지나감",
+        "interpretation_ko": "앞의 좋은 뜻이 거꾸로 뒤집힐 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "노란 천을 꿈꿈",
+        "interpretation_ko": "운이 따를 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "푸른 옷을 꿈꿈",
+        "interpretation_ko": "끈질기고 힘찬 노력으로 뜻을 이루고 친구들이 한결같이 도울 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "진홍색 옷을 꿈꿈",
+        "interpretation_ko": "밝힌 뜻을 때맞춰 바꾸어 만만찮은 적에게서 벗어날 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "초록 옷을 봄",
+        "interpretation_ko": "번영과 행복을 바라볼 수 있는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "여러 빛깔이 섞인 옷을 봄",
+        "interpretation_ko": "앞날에 빠른 변화가 있고 좋은 기운과 나쁜 기운이 뒤섞일 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "몸에 맞지 않는 옷을 꿈꿈",
+        "interpretation_ko": "애정에 어긋남이 생기고 어떤 일에서 실수하기 쉬울 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "노인이나 젊은이가 제 나이에 어울리는 옷을 입은 것을 봄",
+        "interpretation_ko": "마음에 없는 일을 떠맡아 근심이 많아질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 제 옷차림이 마음에 들지 않는 꿈을 꿈",
+        "interpretation_ko": "사회적 지위를 좇는 길에서 성가신 경쟁을 많이 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "남의 옷차림을 부러워함",
+        "interpretation_ko": "친구들에 대해 질투 어린 두려움을 갖게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "옷가지 하나를 잃는 꿈을 꿈",
+        "interpretation_ko": "사업과 애정에 어지러움이 생길 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 얇고 비치는 검은 옷을 입은 꿈을 꿈",
+        "interpretation_ko": "뼈아픈 슬픔과 실망을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 진홍색 옷에 검은 상장 베일을 쓴 다른 여성을 만남",
+        "interpretation_ko": "자기보다 못하다고 여기던 이에게 밀려나고 쓰라린 실망으로 여자들 전체에 마음이 상할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "옷 꿈에서 얼굴이 일그러지고 빛이 기이함",
+        "interpretation_ko": "빛깔이 밝더라도 조심할 조짐이며, 좋은 계획이 어그러져 해를 입을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "abandon",
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "버림받는 꿈을 꿈",
+        "interpretation_ko": "미래의 성공 계획을 세우기 어려워질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람을 버림",
+        "interpretation_ko": "불행한 상황이 겹겹이 쌓여 극복할 희망이 거의 없어질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신의 집을 버림",
+        "interpretation_ko": "운을 시험하다 곧 곤경에 빠질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "연인을 버림",
+        "interpretation_ko": "잃어버린 귀중품을 되찾지 못하고 친구들이 호의를 거둘 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "정부(情婦)를 버림",
+        "interpretation_ko": "뜻밖에 상당한 유산을 받을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "종교를 버림",
+        "interpretation_ko": "유력 인사를 공격해 곤경에 빠질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자식을 버림",
+        "interpretation_ko": "침착함과 판단력이 부족해 재산을 잃을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "사업을 버림",
+        "interpretation_ko": "다툼과 의심이 따르는 괴로운 상황을 나타내는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "배를 버리고 떠남",
+        "interpretation_ko": "사업 실패에 얽힐 수 있음을 암시하나, 뭍으로 피신하면 이익은 안전하게 지켜질 조짐",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "actor",
+    "term_ko": "배우",
+    "term_en": "actor",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "여배우를 봄",
+        "interpretation_ko": "지금의 처지가 끊임없는 기쁨과 호의 속에 있을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "곤경에 처한 배우를 봄",
+        "interpretation_ko": "친구를 불운과 빚에서 건지려 기꺼이 재산과 영향력을 나눌 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "자신이 배우라고 생각함",
+        "interpretation_ko": "생계를 위해 일해야 하지만 그 수고가 즐겁게 따라올 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "배우와 사랑에 빠짐",
+        "interpretation_ko": "타고난 성향과 재능이 즐거움 쪽에 붙고 힘겨운 노고와는 멀어질 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "죽은 배우나 여배우를 봄",
+        "interpretation_ko": "자신의 행운이 격렬하고 걷잡을 수 없는 불행 속에 파묻힐 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "배우들이 떠돌며 빈털터리가 된 것을 봄",
+        "interpretation_ko": "일이 잘 풀릴 전망에서 실패의 위협으로 바뀔 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "가정의 안락함을 누리는 사람이 배우들이 떠돌며 빈털터리가 된 것을 봄",
+        "interpretation_ko": "격변과 신의 없는 맹세에 대한 경고",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 배우와 약혼하거나 결혼하려 함",
+        "interpretation_ko": "화려함이 사라진 뒤 그 애착이 후회를 가져올 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "남성이 여배우와 즐기는 꿈을 꿈",
+        "interpretation_ko": "아내나 애인과의 다툼이 즐거움보다 더 큰 고통을 안길 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "abdomen",
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "label_ko": "배(복부)",
+    "category": "body",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자신의 배를 보는 꿈을 꿈",
+        "interpretation_ko": "큰 기대를 품게 되나 고집을 억누르고 노동에 힘써야 하며, 쾌락은 해가 될 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "배가 쪼그라든 것을 봄",
+        "interpretation_ko": "거짓 친구들에게 박해와 배신을 당할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "배가 부어 있는 것을 봄",
+        "interpretation_ko": "고난이 있으나 이를 극복하고 노동의 결실을 누릴 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "배에서 피가 배어 나오는 것을 봄",
+        "interpretation_ko": "가족에게 사고나 비극이 생길 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "아이의 배가 병든 상태인 것을 봄",
+        "interpretation_ko": "전염병이 자신을 따라다닐 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "부어오르고 곪은 배를 봄",
+        "interpretation_ko": "심각한 질병을 나타내는 나쁜 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "배 위에서 무언가 움직이는 것을 봄",
+        "interpretation_ko": "굴욕과 고된 노동을 예고하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "건강한 배를 봄",
+        "interpretation_ko": "미친 듯한 욕망을 뜻하는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "acorn",
+    "term_ko": "도토리",
+    "term_en": "acorn",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "도토리를 봄",
+        "interpretation_ko": "앞날에 즐거운 일이 있고 큰 이득이 있을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "땅에서 도토리를 주움",
+        "interpretation_ko": "고된 수고 끝에 성공할 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "여성이 도토리를 먹음",
+        "interpretation_ko": "고된 처지에서 벗어나 편안하고 즐거운 자리로 오를 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "나무에서 도토리를 흔들어 떨어뜨림",
+        "interpretation_ko": "사업이나 사랑에서 바라던 것을 빠르게 이룰 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "푸르게 자라는 도토리를 보거나 땅에 흩어진 도토리를 봄",
+        "interpretation_ko": "일이 더 나은 쪽으로 바뀔 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "썩거나 시든 도토리를 봄",
+        "interpretation_ko": "실망과 좌절을 뜻함",
+        "polarity": "negative"
+      },
+      {
+        "context": "나무에서 덜 익은 도토리를 잡아 뜯음",
+        "interpretation_ko": "성급함과 경솔함으로 자신의 이익을 해칠 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "apples",
+    "term_ko": "사과",
+    "term_en": "apples",
+    "category": "nature",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "사과를 보는 꿈을 꿈",
+        "interpretation_ko": "대부분의 사람에게 매우 좋은 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "푸른 잎이 달린 나무에 붉은 사과가 열린 것을 봄",
+        "interpretation_ko": "더없이 상서로운 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "사과를 먹음",
+        "interpretation_ko": "흠 없는 사과가 아니라면 그리 좋지 않은 조짐",
+        "polarity": "neutral"
+      },
+      {
+        "context": "나무에 익은 사과가 달린 것을 봄",
+        "interpretation_ko": "바라던 것을 이룰 때가 왔으니 뜻한 바를 헤아려 두려움 없이 나아가라는 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "나무 꼭대기에 익은 사과가 달린 것을 봄",
+        "interpretation_ko": "너무 높은 것을 겨누지 말라는 경고의 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "땅에 떨어진 사과를 봄",
+        "interpretation_ko": "거짓된 친구와 아첨꾼이 자신을 해치고 있을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "썩은 사과를 봄",
+        "interpretation_ko": "가망 없는 헛수고를 뜻하는 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bride",
+    "term_ko": "신부",
+    "term_en": "bride",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "신부가 되는 꿈에서 혼례 단장을 기쁘게 함",
+        "interpretation_ko": "곧 매우 기쁜 유산을 받게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "혼례 단장에 불만을 느낌",
+        "interpretation_ko": "기대하던 일에 실망하게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "신부에게 입맞춤하는 꿈을 꿈",
+        "interpretation_ko": "친구 사이에 행복한 화해가 이루어질 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "신부가 다른 사람에게 입맞춤함",
+        "interpretation_ko": "친구가 많이 생기고 기쁜 일이 많을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "신부가 당신에게 입맞춤함",
+        "interpretation_ko": "건강을 누리고 애인이 뜻밖의 재물을 물려받게 될 것을 알게 될 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "입맞춤한 신부가 초췌하고 병들어 보임",
+        "interpretation_ko": "자신의 성공과 친구들의 처신에 불만을 느끼게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "신부가 남편에게 무심한 꿈을 꿈",
+        "interpretation_ko": "여러 불행한 일들이 즐거움을 망칠 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "bedbugs",
+    "term_ko": "빈대",
+    "term_en": "bedbugs",
+    "category": "animal",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "꿈에 빈대를 봄",
+        "interpretation_ko": "지속적인 질병과 불행한 상태를 나타내는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "빈대를 아주 많이 봄",
+        "interpretation_ko": "죽음을 암시하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "죽은 척하는 빈대를 봄",
+        "interpretation_ko": "질병으로 인한 불행을 예고하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "빈대를 으깼는데 피 대신 물이 나옴",
+        "interpretation_ko": "놀랍지만 치명적이지는 않은 병이나 사고를 뜻하는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "흰 벽을 기어오르는 빈대에 뜨거운 물을 끼얹음",
+        "interpretation_ko": "중병으로 괴로울 것이나 죽음에 대한 두려움은 쓸데없다는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "뜨거운 물로도 빈대가 죽지 않음",
+        "interpretation_ko": "치명적인 결과를 낳는 심각한 합병증이 있을 법한 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "acquaintance",
+    "term_ko": "지인",
+    "term_en": "acquaintance",
+    "category": "person",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "지인을 만나 즐겁게 대화함",
+        "interpretation_ko": "사업이 순조롭게 돌아가고 집안일에 불화가 거의 없을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "지인과 다투거나 언성을 높임",
+        "interpretation_ko": "굴욕과 곤혹스러운 일이 소용돌이치듯 자신을 둘러쌀 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "지인을 만나기가 부끄럽거나 좋지 않은 때에 만남",
+        "interpretation_ko": "부정한 처신을 저지르게 되고 그 비밀이 남들에게 새어 나갈 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 자신의 지인 범위가 넓다고 여김",
+        "interpretation_ko": "큰 이해관계를 갖게 되고 그 사랑도 얻을 만한 가치가 있을 조짐",
+        "polarity": "positive"
+      },
+      {
+        "context": "젊은 여성의 지인 범위가 좁음",
+        "interpretation_ko": "사교적인 호의를 얻는 데 운이 없을 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "adultery",
+    "term_ko": "간통",
+    "term_en": "adultery",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자신이 간통을 저지름",
+        "interpretation_ko": "어떤 불법 행위로 기소당할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 이 꿈을 꿈",
+        "interpretation_ko": "남편의 애정을 붙잡지 못하고 사소한 자극에도 성질과 앙심이 자신을 압도하게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 남편의 친구와 간통함",
+        "interpretation_ko": "남편에게 부당하게 외면당하고 그에게 권리를 잔인하게 짓밟힐 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "여성이 젊은 남자를 간통으로 꾀어낸다고 생각함",
+        "interpretation_ko": "공공연한 밀통 때문에 버림받고 이혼당할 위험에 처할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 이 꿈을 꿈",
+        "interpretation_ko": "타락과 저급한 욕망을 뜻하며 낯선 모험에서 즐거움을 찾게 될 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "age",
+    "term_ko": "나이",
+    "term_en": "age",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "나이에 대한 꿈을 꿈",
+        "interpretation_ko": "어떤 일을 하든 실패할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신의 나이에 대한 꿈을 꿈",
+        "interpretation_ko": "고집스러운 생각 때문에 친척들의 분노를 사게 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 실제보다 나이 많다고 비난받음",
+        "interpretation_ko": "나쁜 사람들과 어울리게 되고 자신의 해명이 조롱거리가 될 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "자신이 늙어 보이는 것을 봄",
+        "interpretation_ko": "병에 걸리거나 만족스럽지 못한 일을 겪을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "애인이 늙어 보이는 것을 봄",
+        "interpretation_ko": "그를 잃을 위험에 처할 조짐",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "id": "amorous",
+    "term_ko": "색정",
+    "term_en": "amorous",
+    "category": "action",
+    "works": [
+      "miller"
+    ],
+    "meanings": [
+      {
+        "context": "자신이 색정적임",
+        "interpretation_ko": "추문에 빠뜨릴 위험이 있는 개인적 욕망과 쾌락을 경계하라는 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "젊은 여성이 색정적임",
+        "interpretation_ko": "성실하고 도덕적인 사람을 가려 사귀지 않으면 부정한 관계에 빠질 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "기혼 여성이 색정적임",
+        "interpretation_ko": "가정 밖에서 쾌락을 바라며 불만을 품을 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "다른 사람이 색정적인 것을 봄",
+        "interpretation_ko": "도덕적 의무를 소홀히 하도록 설득당할 조짐",
+        "polarity": "negative"
+      },
+      {
+        "context": "동물이 색정적인 것을 봄",
+        "interpretation_ko": "방탕한 남녀와 어울려 타락한 쾌락에 빠질 조짐",
+        "polarity": "negative"
+      }
+    ]
+  }
+]

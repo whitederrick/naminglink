@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "author",
+    "aliases": [
+      "소설가",
+      "글쓴이",
+      "문인",
+      "저자"
+    ],
+    "aliases_en": [
+      "a writer",
+      "a novelist",
+      "a playwright"
+    ],
+    "contexts": {
+      "작가가 원고를 출판사에게 거절당함": "원고 출판사 거절 반려",
+      "작가가 근심하며 자기 작품을 들여다보는 것을 봄": "근심 걱정하 들여다보 자기작품"
+    },
+    "contexts_en": {
+      "작가가 원고를 출판사에게 거절당함": "manuscript publisher rejected refused",
+      "작가가 근심하며 자기 작품을 들여다보는 것을 봄": "worried anxious poring brooding"
+    }
+  },
+  {
+    "id": "autumn",
+    "aliases": [
+      "가을철",
+      "단풍철",
+      "추수철"
+    ],
+    "aliases_en": [
+      "the fall season",
+      "autumnal days",
+      "in the fall"
+    ],
+    "contexts": {
+      "여성이 가을 꿈을 꿈": "보았 바라보 풍경 단풍",
+      "여성이 가을에 결혼하는 것을 생각함": "결혼 혼인 신랑 시집"
+    },
+    "contexts_en": {
+      "여성이 가을 꿈을 꿈": "saw seeing scenery leaves",
+      "여성이 가을에 결혼하는 것을 생각함": "marry marriage wedding groom"
+    }
+  },
+  {
+    "id": "awake",
+    "aliases": [
+      "잠에서 깸",
+      "각성",
+      "눈을 뜸",
+      "잠이 깼"
+    ],
+    "aliases_en": [
+      "waking up",
+      "woke up",
+      "wide awake"
+    ],
+    "contexts": {
+      "자신이 깨어 있는 꿈을 꿈": "내가 자신이 스스로",
+      "푸르게 자란 들판을 지나며 그것이 깨어남의 경험이라 느낌": "들판 푸르 지나며 초원"
+    },
+    "contexts_en": {
+      "자신이 깨어 있는 꿈을 꿈": "myself own personally",
+      "푸르게 자란 들판을 지나며 그것이 깨어남의 경험이라 느낌": "field green meadow walking"
+    }
+  },
+  {
+    "id": "bachelor",
+    "aliases": [
+      "총각",
+      "미혼 남자",
+      "노총각"
+    ],
+    "aliases_en": [
+      "a single man",
+      "an unmarried man",
+      "a single guy"
+    ],
+    "contexts": {
+      "남성이 자신이 독신남인 꿈을 꿈": "남자가 사내가 스스로",
+      "여성이 독신남 꿈을 꿈": "여자가 처녀 아가씨"
+    },
+    "contexts_en": {
+      "남성이 자신이 독신남인 꿈을 꿈": "myself himself male",
+      "여성이 독신남 꿈을 꿈": "woman girl lady"
+    }
+  },
+  {
+    "id": "back-bite",
+    "aliases": [
+      "뒷담화",
+      "뒷말",
+      "비방",
+      "흉보"
+    ],
+    "aliases_en": [
+      "backbiting",
+      "gossip",
+      "slander",
+      "talking behind my back"
+    ],
+    "contexts": {
+      "다른 사람들과 함께 험담을 함": "함께 같이 어울려 동참",
+      "친구들이 자신을 험담함": "친구들이 뒤에서 당했 들었"
+    },
+    "contexts_en": {
+      "다른 사람들과 함께 험담을 함": "together joined along",
+      "친구들이 자신을 험담함": "friends gossiped"
+    }
+  },
+  {
+    "id": "backgammon",
+    "aliases": [
+      "주사위 놀이",
+      "보드게임",
+      "말판놀이"
+    ],
+    "aliases_en": [
+      "a board game",
+      "a dice game",
+      "a tables game"
+    ],
+    "contexts": {
+      "백개먼 놀이를 함": "즐겼 두면서 상대와",
+      "백개먼 놀이에서 짐": "졌다 지고 패했 잃었"
+    },
+    "contexts_en": {
+      "백개먼 놀이를 함": "played playing",
+      "백개먼 놀이에서 짐": "lost losing defeated beaten"
+    }
+  },
+  {
+    "id": "bail",
+    "aliases": [
+      "보석금",
+      "보증금",
+      "석방금"
+    ],
+    "aliases_en": [
+      "bail money",
+      "posting bail",
+      "bailed out"
+    ],
+    "contexts": {
+      "꿈꾼 사람이 보석을 구하려 함": "구하려 마련하 애쓰 내가",
+      "다른 사람을 위해 보석금을 대신 냄": "대신 남을위해 다른사람 내주"
+    },
+    "contexts_en": {
+      "꿈꾼 사람이 보석을 구하려 함": "seeking sought trying myself",
+      "다른 사람을 위해 보석금을 대신 냄": "another someone else paid"
+    }
+  },
+  {
+    "id": "bailiff",
+    "aliases": [
+      "집달관",
+      "법원 직원",
+      "압류 나온 사람"
+    ],
+    "aliases_en": [
+      "a court officer",
+      "a sheriff",
+      "a debt collector"
+    ],
+    "contexts": {
+      "집행관 꿈을 꿈": "보았 나타났 마주쳤",
+      "집행관이 체포하러 오거나 구애하러 옴": "체포 잡으러 구애 청혼 찾아왔"
+    },
+    "contexts_en": {
+      "집행관 꿈을 꿈": "saw appeared",
+      "집행관이 체포하러 오거나 구애하러 옴": "arrest arresting courting wooing came"
+    }
+  },
+  {
+    "id": "bake-house",
+    "aliases": [
+      "제과점",
+      "제빵소",
+      "빵 굽는 곳",
+      "베이커리"
+    ],
+    "aliases_en": [
+      "a bakery",
+      "a bakeshop",
+      "a baking house"
+    ],
+    "contexts": {
+      "제과소(빵집)에 있음": "들어갔 서있 내가",
+      "젊은 여성이 제과소(빵집)에 있는 꿈을 꿈": "젊은 여성 처녀 아가씨"
+    },
+    "contexts_en": {
+      "제과소(빵집)에 있음": "myself inside stood",
+      "젊은 여성이 제과소(빵집)에 있는 꿈을 꿈": "young woman girl maiden"
+    }
+  },
+  {
+    "id": "balcony",
+    "aliases": [
+      "베란다",
+      "테라스",
+      "난간"
+    ],
+    "aliases_en": [
+      "a veranda",
+      "a terrace",
+      "a portico"
+    ],
+    "contexts": {
+      "연인들이 발코니에서 슬픈 작별을 함": "연인 작별 이별 헤어지",
+      "발코니 꿈을 꿈": "보았 바라보 서있"
+    },
+    "contexts_en": {
+      "연인들이 발코니에서 슬픈 작별을 함": "lovers farewell parting sad",
+      "발코니 꿈을 꿈": "saw looking stood"
+    }
+  },
+  {
+    "id": "ball",
+    "aliases": [
+      "댄스파티",
+      "연회",
+      "무도장",
+      "춤추는 자리"
+    ],
+    "aliases_en": [
+      "a dance party",
+      "a formal dance",
+      "a masquerade"
+    ],
+    "contexts": {
+      "아름답고 화려하게 차려입은 사람들이 매혹적인 음악에 맞춰 춤을 춤": "아름답 화려 차려입 음악 춤을췄",
+      "무도회에서 다른 사람들이 무관심해 우울하고 괴로움을 느낌": "무관심 우울 괴로 외면"
+    },
+    "contexts_en": {
+      "아름답고 화려하게 차려입은 사람들이 매혹적인 음악에 맞춰 춤을 춤": "beautiful dressed music dancing",
+      "무도회에서 다른 사람들이 무관심해 우울하고 괴로움을 느낌": "indifferent gloomy miserable ignored"
+    }
+  },
+  {
+    "id": "balloon",
+    "aliases": [
+      "풍선",
+      "열기구",
+      "기구를 타"
+    ],
+    "aliases_en": [
+      "a hot air balloon",
+      "an airship",
+      "a gas balloon"
+    ],
+    "contexts": {
+      "기구(풍선) 꿈을 꿈": "보았 떠있 바라보",
+      "기구(풍선)를 타고 올라감": "타고 올라 상승 하늘로"
+    },
+    "contexts_en": {
+      "기구(풍선) 꿈을 꿈": "saw floating watched",
+      "기구(풍선)를 타고 올라감": "riding ascending rose upward"
+    }
+  },
+  {
+    "id": "banishment",
+    "aliases": [
+      "유배",
+      "쫓겨남",
+      "귀양",
+      "내쫓김"
+    ],
+    "aliases_en": [
+      "exile",
+      "being banished",
+      "cast out",
+      "deported"
+    ],
+    "contexts": {
+      "외국으로 추방됨": "외국 타국 내가 당했",
+      "자녀를 추방함": "자녀 아이를 자식 내쫓았"
+    },
+    "contexts_en": {
+      "외국으로 추방됨": "foreign abroad myself",
+      "자녀를 추방함": "child children son daughter"
+    }
+  },
+  {
+    "id": "bantam",
+    "aliases": [
+      "작은 닭",
+      "난쟁이 닭",
+      "애완 닭"
+    ],
+    "aliases_en": [
+      "a small chicken",
+      "a dwarf hen",
+      "a little rooster"
+    ],
+    "contexts": {
+      "밴텀 닭(작은 닭)을 봄": "보았 바라보 건강",
+      "닭이 병들어 보이거나 겨울 폭풍에 노출됨": "병들 겨울 폭풍 아파"
+    },
+    "contexts_en": {
+      "밴텀 닭(작은 닭)을 봄": "saw looked healthy",
+      "닭이 병들어 보이거나 겨울 폭풍에 노출됨": "sick ailing winter storm"
+    }
+  },
+  {
+    "id": "bar",
+    "aliases": [
+      "주점",
+      "선술집",
+      "맥줏집",
+      "호프집"
+    ],
+    "aliases_en": [
+      "a tavern",
+      "a pub",
+      "a saloon",
+      "a drinking house"
+    ],
+    "contexts": {
+      "술집에서 일하는 꿈을 꿈": "일하 근무 종업원 서빙",
+      "술집을 봄": "보았 바라보 지나쳤"
+    },
+    "contexts_en": {
+      "술집에서 일하는 꿈을 꿈": "working worked bartending serving",
+      "술집을 봄": "saw looked passed"
+    }
+  },
+  {
+    "id": "barber",
+    "aliases": [
+      "미용사",
+      "머리 깎아주는 사람",
+      "이발소 주인"
+    ],
+    "aliases_en": [
+      "a hairdresser",
+      "a hair cutter",
+      "a barbershop man"
+    ],
+    "contexts": {
+      "이발사 꿈을 꿈": "보았 만났 내가",
+      "젊은 여성이 이발사 꿈을 꿈": "젊은 여성 처녀 아가씨"
+    },
+    "contexts_en": {
+      "이발사 꿈을 꿈": "saw met myself",
+      "젊은 여성이 이발사 꿈을 꿈": "young woman girl maiden"
+    }
+  },
+  {
+    "id": "barley-field",
+    "aliases": [
+      "보리 이삭",
+      "보리 들판",
+      "맥전"
+    ],
+    "aliases_en": [
+      "a field of barley",
+      "a barley crop",
+      "a barley harvest"
+    ],
+    "contexts": {
+      "보리밭 꿈을 꿈": "보았 바라보 푸른",
+      "보리밭에서 무언가 썩어가는 것을 봄": "썩어 썩은 부패 상한"
+    },
+    "contexts_en": {
+      "보리밭 꿈을 꿈": "saw looked green",
+      "보리밭에서 무언가 썩어가는 것을 봄": "rotting rotten decaying spoiled"
+    }
+  },
+  {
+    "id": "barmaid",
+    "aliases": [
+      "여급",
+      "술집 아가씨",
+      "여자 바텐더"
+    ],
+    "aliases_en": [
+      "a bar girl",
+      "a waitress in a pub",
+      "a serving girl"
+    ],
+    "contexts": {
+      "남성이 술집 여급 꿈을 꿈": "남자가 사내가 남성이",
+      "젊은 여성이 자신이 술집 여급이 된 꿈을 꿈": "젊은 처녀 아가씨 스스로"
+    },
+    "contexts_en": {
+      "남성이 술집 여급 꿈을 꿈": "male himself gentleman",
+      "젊은 여성이 자신이 술집 여급이 된 꿈을 꿈": "young woman became"
+    }
+  },
+  {
+    "id": "barn",
+    "aliases": [
+      "곡식 창고",
+      "축사",
+      "농가 창고",
+      "마구간"
+    ],
+    "aliases_en": [
+      "a hayloft",
+      "a granary",
+      "a farm shed"
+    ],
+    "contexts": {
+      "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄": "가득 곡식 옥수수 살진 익은",
+      "텅 빈 헛간을 봄": "텅빈 비어 휑하 아무것도"
+    },
+    "contexts_en": {
+      "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄": "full grain corn ripe fattened",
+      "텅 빈 헛간을 봄": "empty bare nothing"
+    }
+  },
+  {
+    "id": "barometer",
+    "aliases": [
+      "기압 재는 기계",
+      "청우계",
+      "날씨계"
+    ],
+    "aliases_en": [
+      "a weather glass",
+      "a pressure gauge",
+      "an aneroid"
+    ],
+    "contexts": {
+      "기압계를 보는 꿈을 꿈": "보았 바라보 확인하",
+      "기압계가 깨짐": "깨졌 깨져 부서 망가"
+    },
+    "contexts_en": {
+      "기압계를 보는 꿈을 꿈": "saw looked reading",
+      "기압계가 깨짐": "broke broken shattered cracked"
+    }
+  },
+  {
+    "id": "baseball",
+    "aliases": [
+      "야구 경기",
+      "야구장",
+      "야구 시합"
+    ],
+    "aliases_en": [
+      "a baseball game",
+      "playing baseball",
+      "a baseball match"
+    ],
+    "contexts": {
+      "야구 꿈을 꿈": "보았 구경 관람",
+      "젊은 여성이 야구를 하는 꿈을 꿈": "젊은 여성 처녀 아가씨"
+    },
+    "contexts_en": {
+      "야구 꿈을 꿈": "saw watching spectator",
+      "젊은 여성이 야구를 하는 꿈을 꿈": "young woman girl maiden"
+    }
+  },
+  {
+    "id": "basket",
+    "aliases": [
+      "광주리",
+      "소쿠리",
+      "장바구니"
+    ],
+    "aliases_en": [
+      "a hamper",
+      "a wicker basket",
+      "a pannier"
+    ],
+    "contexts": {
+      "가득 찬 바구니를 보거나 나름": "가득 채워 들고 날랐",
+      "빈 바구니를 봄": "텅빈 비어 아무것도"
+    },
+    "contexts_en": {
+      "가득 찬 바구니를 보거나 나름": "full filled carrying carried",
+      "빈 바구니를 봄": "empty bare nothing"
+    }
+  },
+  {
+    "id": "bass-voice",
+    "aliases": [
+      "굵은 목소리",
+      "베이스 음성",
+      "낮은 목소리"
+    ],
+    "aliases_en": [
+      "a deep voice",
+      "a low voice",
+      "a booming voice"
+    ],
+    "contexts": {
+      "자신이 저음(베이스) 목소리를 가진 꿈을 꿈": "내가 자신이 스스로",
+      "연인 사이에서 저음 목소리 꿈을 꿈": "연인 애인 사랑하는사이"
+    },
+    "contexts_en": {
+      "자신이 저음(베이스) 목소리를 가진 꿈을 꿈": "myself own personally",
+      "연인 사이에서 저음 목소리 꿈을 꿈": "lover lovers sweetheart"
+    }
+  },
+  {
+    "id": "baste",
+    "aliases": [
+      "시침 바느질",
+      "기름 바르기",
+      "임시 바느질"
+    ],
+    "aliases_en": [
+      "basting",
+      "tacking stitches",
+      "spooning fat over meat"
+    ],
+    "contexts": {
+      "요리하며 고기에 기름을 바르는(베이스팅) 꿈을 꿈": "고기 기름 요리 굽는",
+      "여성이 바느질감에 시침질을 하는 꿈을 꿈": "바느질 바늘 옷감 꿰매"
+    },
+    "contexts_en": {
+      "요리하며 고기에 기름을 바르는(베이스팅) 꿈을 꿈": "cooking roasting",
+      "여성이 바느질감에 시침질을 하는 꿈을 꿈": "sewing needle cloth stitching"
+    }
+  },
+  {
+    "id": "bathroom",
+    "aliases": [
+      "목욕실",
+      "목욕탕",
+      "욕조가 있는 방"
+    ],
+    "aliases_en": [
+      "a bath room",
+      "a washroom",
+      "a bathing room"
+    ],
+    "contexts": {
+      "욕실에서 흰 장미를, 상자 속에서 노란 장미를 봄": "장미 흰꽃 노란 상자",
+      "젊은 여성이 욕실 꿈을 꿈": "젊은 여성 처녀 아가씨"
+    },
+    "contexts_en": {
+      "욕실에서 흰 장미를, 상자 속에서 노란 장미를 봄": "roses white yellow box",
+      "젊은 여성이 욕실 꿈을 꿈": "young woman girl maiden"
+    }
+  },
+  {
+    "id": "battle",
+    "aliases": [
+      "싸움터",
+      "전쟁",
+      "교전",
+      "격전"
+    ],
+    "aliases_en": [
+      "a fight",
+      "warfare",
+      "a skirmish",
+      "combat"
+    ],
+    "contexts": {
+      "전투 꿈을 꿈": "겪었 참여 벌어졌",
+      "전투에서 패배함": "패배 졌다 지고 무너졌"
+    },
+    "contexts_en": {
+      "전투 꿈을 꿈": "witnessed took part raging",
+      "전투에서 패배함": "lost losing defeated beaten"
+    }
+  },
+  {
+    "id": "beat",
+    "aliases": [
+      "때림",
+      "구타",
+      "매를 맞",
+      "몽둥이질"
+    ],
+    "aliases_en": [
+      "beating",
+      "whipping",
+      "being struck",
+      "thrashing"
+    ],
+    "contexts": {
+      "화난 사람에게 맞는 꿈을 꿈": "맞았 맞는 화난 당했",
+      "아이를 때림": "아이를 자녀 때렸 회초리"
+    },
+    "contexts_en": {
+      "화난 사람에게 맞는 꿈을 꿈": "beaten angry assaulted",
+      "아이를 때림": "child children spanking punished"
+    }
+  },
+  {
+    "id": "beaver",
+    "aliases": [
+      "해리",
+      "댐을 짓는 짐승"
+    ],
+    "aliases_en": [
+      "beavers",
+      "a beaver dam",
+      "a river rodent"
+    ],
+    "contexts": {
+      "비버를 보는 꿈을 꿈": "보았 바라보 지켜봤",
+      "비버를 가죽 때문에 죽이는 꿈을 꿈": "죽였 가죽 사냥 잡아"
+    },
+    "contexts_en": {
+      "비버를 보는 꿈을 꿈": "saw watching observed",
+      "비버를 가죽 때문에 죽이는 꿈을 꿈": "killed killing fur hunting"
+    }
+  },
+  {
+    "id": "beetles",
+    "aliases": [
+      "풍뎅이",
+      "갑충",
+      "등딱지 벌레"
+    ],
+    "aliases_en": [
+      "a beetle",
+      "bugs",
+      "a scarab"
+    ],
+    "contexts": {
+      "몸에 딱정벌레가 있는 것을 봄": "몸에 기어 붙어 옷에",
+      "딱정벌레를 죽임": "죽였 밟아 잡아죽"
+    },
+    "contexts_en": {
+      "몸에 딱정벌레가 있는 것을 봄": "body crawling clinging skin",
+      "딱정벌레를 죽임": "killed killing crushed squashed"
+    }
+  },
+  {
+    "id": "beheading",
+    "aliases": [
+      "목이 잘림",
+      "목을 벰",
+      "단두"
+    ],
+    "aliases_en": [
+      "decapitation",
+      "head cut off",
+      "being beheaded"
+    ],
+    "contexts": {
+      "자신이 참수당하는 꿈을 꿈": "내가 자신이 스스로 당했",
+      "피가 많이 흐르며 다른 사람이 참수당하는 것을 봄": "피가 다른사람 흐르 낭자"
+    },
+    "contexts_en": {
+      "자신이 참수당하는 꿈을 꿈": "myself own personally",
+      "피가 많이 흐르며 다른 사람이 참수당하는 것을 봄": "blood another someone bleeding"
+    }
+  },
+  {
+    "id": "bellman",
+    "aliases": [
+      "종 치는 사람",
+      "종지기",
+      "마을 포고꾼"
+    ],
+    "aliases_en": [
+      "a bell ringer",
+      "a town crier",
+      "a bellhop"
+    ],
+    "contexts": {
+      "종치기(벨맨)를 봄": "보았 마주쳤 나타났",
+      "슬퍼 보이는 종치기를 봄": "슬퍼 우울 침울 시무룩"
+    },
+    "contexts_en": {
+      "종치기(벨맨)를 봄": "saw met appeared",
+      "슬퍼 보이는 종치기를 봄": "sad sorrowful gloomy mournful"
+    }
+  },
+  {
+    "id": "bench",
+    "aliases": [
+      "긴 의자",
+      "공원 의자",
+      "걸상"
+    ],
+    "aliases_en": [
+      "a park seat",
+      "a long seat",
+      "a settle"
+    ],
+    "contexts": {
+      "벤치에 앉는 꿈을 꿈": "내가앉 스스로 혼자앉",
+      "다른 사람이 벤치에 앉는 것을 봄": "다른사람 남이 누군가"
+    },
+    "contexts_en": {
+      "벤치에 앉는 꿈을 꿈": "myself own personally",
+      "다른 사람이 벤치에 앉는 것을 봄": "another someone else watched"
+    }
+  },
+  {
+    "id": "bereavement",
+    "aliases": [
+      "가족을 잃",
+      "상을 당",
+      "여읨"
+    ],
+    "aliases_en": [
+      "losing a loved one",
+      "mourning a death",
+      "a loss in the family"
+    ],
+    "contexts": {
+      "자녀를 잃는 꿈(사별)을 꿈": "자녀 아이를 자식",
+      "친척이나 친구와 사별함": "친척 친구 인척"
+    },
+    "contexts_en": {
+      "자녀를 잃는 꿈(사별)을 꿈": "child children son daughter",
+      "친척이나 친구와 사별함": "relative friend kinsman"
+    }
+  },
+  {
+    "id": "bet",
+    "aliases": [
+      "도박",
+      "베팅",
+      "돈을 걸",
+      "판돈"
+    ],
+    "aliases_en": [
+      "betting",
+      "gambling",
+      "placing a wager",
+      "staking money"
+    ],
+    "contexts": {
+      "경마에 돈을 거는 꿈을 꿈": "경마 말에 경주 트랙",
+      "도박 테이블에서 돈을 거는 꿈을 꿈": "테이블 카드 노름판 도박장"
+    },
+    "contexts_en": {
+      "경마에 돈을 거는 꿈을 꿈": "races horse racing track",
+      "도박 테이블에서 돈을 거는 꿈을 꿈": "table cards casino gaming"
+    }
+  },
+  {
+    "id": "bible",
+    "aliases": [
+      "성서",
+      "성경책",
+      "경전"
+    ],
+    "aliases_en": [
+      "the scriptures",
+      "the holy book",
+      "the good book"
+    ],
+    "contexts": {
+      "성경 꿈을 꿈": "읽었 보았 펼쳤",
+      "성경의 가르침을 비방하는 꿈을 꿈": "비방 헐뜯 조롱 부정하"
+    },
+    "contexts_en": {
+      "성경 꿈을 꿈": "read reading saw",
+      "성경의 가르침을 비방하는 꿈을 꿈": "scoffing mocking denouncing ridiculing"
+    }
+  },
+  {
+    "id": "bicycle",
+    "aliases": [
+      "두발자전거",
+      "싸이클",
+      "자전거 타기"
+    ],
+    "aliases_en": [
+      "a bike",
+      "cycling",
+      "riding a bike"
+    ],
+    "contexts": {
+      "자전거를 타고 언덕을 오름": "오르 올라가 언덕위로 힘차게",
+      "여성이 자전거를 타고 언덕을 내려감": "내려 내리막 여성이 여자가"
+    },
+    "contexts_en": {
+      "자전거를 타고 언덕을 오름": "uphill climbing pedalled",
+      "여성이 자전거를 타고 언덕을 내려감": "downhill descending woman"
+    }
+  },
+  {
+    "id": "bier",
+    "aliases": [
+      "상여",
+      "영구대",
+      "시신 받침대",
+      "관 받침"
+    ],
+    "aliases_en": [
+      "a coffin stand",
+      "a funeral litter",
+      "a catafalque"
+    ],
+    "contexts": {
+      "관대(상여)를 봄": "보았 마주쳤 놓여있",
+      "교회에서 꽃으로 장식된 관대를 봄": "교회 성당 꽃으로 장식"
+    },
+    "contexts_en": {
+      "관대(상여)를 봄": "saw plain standing",
+      "교회에서 꽃으로 장식된 관대를 봄": "church flowers decorated adorned"
+    }
+  },
+  {
+    "id": "bigamy",
+    "aliases": [
+      "이중결혼",
+      "두집살림",
+      "중복 혼인"
+    ],
+    "aliases_en": [
+      "a second marriage",
+      "two wives",
+      "two husbands"
+    ],
+    "contexts": {
+      "남자가 중혼을 저지름": "남자가 남편이 사내가",
+      "여자가 중혼을 저지름": "여자가 아내가 부인이"
+    },
+    "contexts_en": {
+      "남자가 중혼을 저지름": "husband gentleman",
+      "여자가 중혼을 저지름": "wife lady woman"
+    }
+  },
+  {
+    "id": "birth",
+    "aliases": [
+      "아이를 낳",
+      "분만",
+      "해산",
+      "출생"
+    ],
+    "aliases_en": [
+      "giving birth",
+      "childbirth",
+      "delivering a baby"
+    ],
+    "contexts": {
+      "기혼 여성이 아이를 낳는 꿈을 꿈": "기혼 결혼한 유부녀",
+      "미혼 여성이 아이를 낳는 꿈을 꿈": "미혼 처녀 시집안간"
+    },
+    "contexts_en": {
+      "기혼 여성이 아이를 낳는 꿈을 꿈": "wedded wife matron",
+      "미혼 여성이 아이를 낳는 꿈을 꿈": "unmarried single maiden"
+    }
+  },
+  {
+    "id": "birthday-present",
+    "aliases": [
+      "생일 선물 받",
+      "생신 선물",
+      "축하 선물"
+    ],
+    "aliases_en": [
+      "a birthday gift",
+      "a gift for my birthday",
+      "a present on a birthday"
+    ],
+    "contexts": {
+      "생일 선물로 뜻밖의 기쁨을 받음": "받았 뜻밖 기뻤 놀라운",
+      "축하연이나 초대연에서 생일 선물을 줌": "주었 건넸 축하연 초대연"
+    },
+    "contexts_en": {
+      "생일 선물로 뜻밖의 기쁨을 받음": "received unexpected surprise delighted",
+      "축하연이나 초대연에서 생일 선물을 줌": "gave giving party reception"
+    }
+  },
+  {
+    "id": "bladder",
+    "aliases": [
+      "오줌보",
+      "소변 주머니"
+    ],
+    "aliases_en": [
+      "the urinary organ",
+      "a pig bladder",
+      "a water sac"
+    ],
+    "contexts": {
+      "자신의 방광 꿈을 꿈": "자신의 건강 스스로 아팠",
+      "아이들이 방광을 불어 부풀리는 것을 봄": "아이들 불어 부풀 풍선처럼"
+    },
+    "contexts_en": {
+      "자신의 방광 꿈을 꿈": "myself own health",
+      "아이들이 방광을 불어 부풀리는 것을 봄": "children blowing inflating"
+    }
+  },
+  {
+    "id": "blind",
+    "aliases": [
+      "시각 장애",
+      "앞이 안 보",
+      "실명",
+      "눈이 안 보"
+    ],
+    "aliases_en": [
+      "blindness",
+      "losing my sight",
+      "cannot see"
+    ],
+    "contexts": {
+      "자신이 눈이 먼 꿈을 꿈": "내가 자신이 스스로",
+      "다른 사람이 눈이 먼 것을 봄": "다른사람 남이 누군가"
+    },
+    "contexts_en": {
+      "자신이 눈이 먼 꿈을 꿈": "myself own personally",
+      "다른 사람이 눈이 먼 것을 봄": "another someone else"
+    }
+  },
+  {
+    "id": "blood-stone",
+    "aliases": [
+      "블러드스톤",
+      "붉은 보석",
+      "혈석 반지"
+    ],
+    "aliases_en": [
+      "a bloodstone",
+      "a heliotrope stone",
+      "a red gem"
+    ],
+    "contexts": {
+      "혈석을 봄": "보았 바라보 눈에띄",
+      "젊은 여성이 혈석을 선물로 받음": "젊은 여성 선물 받았"
+    },
+    "contexts_en": {
+      "혈석을 봄": "saw looked noticed",
+      "젊은 여성이 혈석을 선물로 받음": "young woman gift received"
+    }
+  },
+  {
+    "id": "blotting-paper",
+    "aliases": [
+      "잉크 흡수지",
+      "먹지",
+      "흡묵지"
+    ],
+    "aliases_en": [
+      "a blotter",
+      "an ink blotting sheet",
+      "a blotting pad"
+    ],
+    "contexts": {
+      "압지를 사용함": "사용 썼다 눌러 찍었",
+      "낡은 압지를 봄": "낡은 헐어 오래된 너덜"
+    },
+    "contexts_en": {
+      "압지를 사용함": "used using pressed",
+      "낡은 압지를 봄": "old worn shabby"
+    }
+  },
+  {
+    "id": "blushing",
+    "aliases": [
+      "얼굴이 빨개",
+      "홍조",
+      "부끄러워 붉"
+    ],
+    "aliases_en": [
+      "a blush",
+      "turning red",
+      "a reddening face"
+    ],
+    "contexts": {
+      "젊은 여성이 얼굴 붉히는 꿈을 꿈": "젊은 여성 처녀 내가",
+      "다른 사람이 얼굴 붉히는 것을 봄": "다른사람 남이 누군가"
+    },
+    "contexts_en": {
+      "젊은 여성이 얼굴 붉히는 꿈을 꿈": "young woman girl myself",
+      "다른 사람이 얼굴 붉히는 것을 봄": "another someone else"
+    }
+  },
+  {
+    "id": "boa-constrictor",
+    "aliases": [
+      "구렁이",
+      "비단뱀",
+      "왕뱀",
+      "큰뱀"
+    ],
+    "aliases_en": [
+      "a boa",
+      "a python",
+      "a giant snake"
+    ],
+    "contexts": {
+      "보아뱀 꿈을 꿈": "보았 마주쳤 나타났",
+      "보아뱀을 죽임": "죽였 죽여 때려잡"
+    },
+    "contexts_en": {
+      "보아뱀 꿈을 꿈": "saw encountered appeared",
+      "보아뱀을 죽임": "killed killing slew"
+    }
+  },
+  {
+    "id": "boasting",
+    "aliases": [
+      "자랑질",
+      "떠벌림",
+      "뽐냄",
+      "과시"
+    ],
+    "aliases_en": [
+      "bragging",
+      "showing off",
+      "big talk"
+    ],
+    "contexts": {
+      "허풍떠는 소리를 들음": "들었 듣고 남이떠",
+      "경쟁자에게 허풍을 떪": "경쟁자 라이벌 내가떠 상대에게"
+    },
+    "contexts_en": {
+      "허풍떠는 소리를 들음": "heard hearing listened",
+      "경쟁자에게 허풍을 떪": "rival competitor myself"
+    }
+  }
+]

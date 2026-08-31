@@ -334,13 +334,7 @@ function chooseMeaning(
    * slash-bug-live` 메모리에 실측 기록). `findTerm`이 이미 "/"로 가르므로 여기서도
    * 같은 방식으로 갈라 낱말 단위로 만든다.
    */
-  const ownTerms = korean
-    ? []
-    : [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
-        .filter(Boolean)
-        .flatMap((term) => term.split("/"))
-        .flatMap((term) => term.trim().toLowerCase().split(/\s+/))
-        .filter((word) => word.length > 0);
+  const ownTerms = ownTermsOf(symbol, korean);
 
   let best = meanings[0];
   let bestScore = 0;
@@ -421,14 +415,39 @@ const SCORING_STOPWORDS = new Set([
  * 부분 문자열로 센다 — 한국어는 조사가 붙어 오므로 그래야 걸린다(`돼지가`가 「돼지가」에).
  * 영어는 기능어를 빼고 센다(위 `SCORING_STOPWORDS`).
  */
-function contextScore(haystack: string, context: string, ownTerms: string[] = []) {
-  const words = context
+/**
+ * 이 상징의 「제 이름 낱말들」 — 판별어에서 걸러 낼 것.
+ *
+ * **함수로 꺼내 둔 이유는 검사기가 같은 판정을 다시 적지 않게 하기 위해서다**(CLAUDE.md §6 —
+ * 판정이 두 곳에 적히면 하나만 고쳐지는 날이 온다). `audit-km-dead-words.mts`가 이 함수와
+ * `SCORING_STOPWORDS`를 그대로 불러 「이 판별어가 엔진에서 0점인가」를 묻는다.
+ */
+export function ownTermsOf(
+  symbol: Pick<DreamSymbol, "term_ko" | "term_en" | "aliases">,
+  korean: boolean,
+): string[] {
+  if (korean) return [];
+  return [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
+    .filter(Boolean)
+    .flatMap((term) => term.split("/"))
+    .flatMap((term) => term.trim().toLowerCase().split(/\s+/))
+    .filter((word) => word.length > 0);
+}
+
+/** 판별어 문자열에서 **실제로 점수를 낼 수 있는 낱말**만 추린다. 위와 같은 이유로 내보낸다. */
+export function scoringWordsOf(context: string, ownTerms: string[] = []): string[] {
+  return context
     .toLowerCase()
     .split(/[^0-9a-z가-힣]+/)
     .filter(
       (word) =>
         word.length >= 2 && !SCORING_STOPWORDS.has(word) && !ownTerms.includes(word),
     );
+}
+
+function contextScore(haystack: string, context: string, ownTerms: string[] = []) {
+  // 추리는 규칙은 `scoringWordsOf` 한 곳에만 있다(§6) — 검사기도 그것을 부른다.
+  const words = scoringWordsOf(context, ownTerms);
   return words.reduce((sum, word) => sum + (haystack.includes(word) ? 1 : 0), 0);
 }
 

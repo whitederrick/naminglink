@@ -1,8 +1,16 @@
 [
   {
     "id": "house",
-    "aliases": ["주택", "가옥", "저택"],
-    "aliases_en": ["home", "residence", "dwelling"],
+    "aliases": [
+      "주택",
+      "가옥",
+      "저택"
+    ],
+    "aliases_en": [
+      "home",
+      "residence",
+      "dwelling"
+    ],
     "contexts": {
       "불이 제 집을 태움": "화재 불타 불길 태우 타버",
       "집 안에 불빛이 있음": "불빛 환하 밝은 등불",
@@ -21,14 +29,17 @@
       "남과 집을 두고 다툼": "이웃 타인 남과 시비",
       "부인과 집을 두고 다툼": "아내 부인 마누라 아내와",
       "집 마당이 꺼져 내려앉음": "마당 꺼져 함몰 푹꺼 가라앉",
-      "시골집을 손보아 고침": "시골 고향 손보 손질"
+      "시골집을 손보아 고침": "시골 고향 손보 손질",
+      "집을 지음": "신축 세우 짓는 목수",
+      "우아한 집을 소유함": "우아 화려 훌륭 소유",
+      "낡고 허름한 집을 봄": "낡은 허름 폐가 오래된"
     },
     "contexts_en": {
       "불이 제 집을 태움": "fire burning burned burnt ablaze",
       "집 안에 불빛이 있음": "light lit glowing lamp bright",
       "남의 집을 사들임": "bought buying purchased",
       "성 위에 집을 지음": "castle fortress wall built building",
-      "집 지붕 위에 오름": "climbed climbing onto top",
+      "집 지붕 위에 오름": "climbed climbing top",
       "올라간 지붕이 부서짐": "collapsed broke broken crumbled",
       "지붕을 새로 덮음": "thatch thatched tiles retiled shingles",
       "집을 새로 고침": "repaired renovated remodeled fixed",
@@ -41,13 +52,22 @@
       "남과 집을 두고 다툼": "quarrel dispute argued neighbor stranger",
       "부인과 집을 두고 다툼": "wife spouse marital",
       "집 마당이 꺼져 내려앉음": "yard courtyard sank sinking caved",
-      "시골집을 손보아 고침": "countryside village hometown rural"
+      "시골집을 손보아 고침": "countryside village hometown rural",
+      "집을 지음": "constructing construction carpenter erecting",
+      "우아한 집을 소유함": "elegant owning owned mansion",
+      "낡고 허름한 집을 봄": "dilapidated shabby ruined decaying"
     }
   },
   {
     "id": "dragon",
-    "aliases": ["청룡", "황룡", "이무기"],
-    "aliases_en": ["dragons"],
+    "aliases": [
+      "청룡",
+      "황룡",
+      "이무기"
+    ],
+    "aliases_en": [
+      "dragons"
+    ],
     "contexts": {
       "용을 타고 하늘에 오름": "하늘 구름 창공",
       "용을 타고 물에 들어감": "물속으로 물에들 강물 바다 헤엄",
@@ -85,8 +105,19 @@
   },
   {
     "id": "feces",
-    "aliases": ["대변", "배설물", "인분", "똥오줌"],
-    "aliases_en": ["poop", "shit", "excrement", "stool", "dung"],
+    "aliases": [
+      "대변",
+      "배설물",
+      "인분",
+      "똥오줌"
+    ],
+    "aliases_en": [
+      "poop",
+      "shit",
+      "excrement",
+      "stool",
+      "dung"
+    ],
     "contexts": {
       "똥이 몸을 더럽힘": "몸에 묻었 뒤집어 더럽 뒤범벅",
       "대변이 땅에 가득함": "땅에 바닥에 가득 널려 온통",
@@ -110,8 +141,17 @@
   },
   {
     "id": "deity",
-    "aliases": ["신령", "신령님", "산신령"],
-    "aliases_en": ["god", "gods", "deities", "divinity"],
+    "aliases": [
+      "신령",
+      "신령님",
+      "산신령"
+    ],
+    "aliases_en": [
+      "god",
+      "gods",
+      "deities",
+      "divinity"
+    ],
     "contexts": {
       "신이 성을 냄": "노하 진노 화난 성난 분노",
       "신과 부처를 그림": "그림 그렸 그리고 화폭 초상",
@@ -135,8 +175,15 @@
   },
   {
     "id": "married-couple",
-    "aliases": ["내외", "신혼부부"],
-    "aliases_en": ["husband and wife", "spouses", "wedded couple"],
+    "aliases": [
+      "내외",
+      "신혼부부"
+    ],
+    "aliases_en": [
+      "husband and wife",
+      "spouses",
+      "wedded couple"
+    ],
     "contexts": {
       "부부가 잔치를 벌임": "잔치 연회 축하 술상 상을차",
       "부부가 서로 꾸짖고 다툼": "꾸짖 나무라 말다툼 언쟁 다투",
@@ -158,8 +205,17 @@
   },
   {
     "id": "rice",
-    "aliases": ["백미", "흰쌀", "멥쌀", "쌀알"],
-    "aliases_en": ["white rice", "grain", "grains"],
+    "aliases": [
+      "백미",
+      "흰쌀",
+      "멥쌀",
+      "쌀알"
+    ],
+    "aliases_en": [
+      "white rice",
+      "grain",
+      "grains"
+    ],
     "contexts": {
       "새 옷에 쌀을 모아 담음": "옷에 담았 모아 옷자락 주머니",
       "멥쌀을 찧어 흰쌀로 만듦": "찧어 방아 도정 하얗게",
@@ -179,8 +235,13 @@
   },
   {
     "id": "tiger",
-    "aliases": ["백호", "호랭이"],
-    "aliases_en": ["tigers"],
+    "aliases": [
+      "백호",
+      "호랭이"
+    ],
+    "aliases_en": [
+      "tigers"
+    ],
     "contexts": {
       "사나운 호랑이가 크게 울부짖음": "울부짖 포효 으르렁 사나운 울음소리",
       "호랑이를 타고 감": "타고 올라타 등에 태워",
@@ -198,25 +259,54 @@
   },
   {
     "id": "bed",
-    "aliases": ["침대", "평상"],
-    "aliases_en": ["beds", "bedstead"],
+    "aliases": [
+      "침대",
+      "평상"
+    ],
+    "aliases_en": [
+      "beds",
+      "bedstead"
+    ],
     "contexts": {
       "침상 위에 개미가 있음": "개미 벌레 기어다",
       "침상 다리를 새로 갈아 끼움": "다리를 갈아 교체 새것으로",
       "침상에 올라가 누움": "올라가 누워 드러누 눕는",
-      "침상에 피가 있음": "피가 핏자국 붉게 혈흔"
+      "침상에 피가 있음": "피가 핏자국 붉게 혈흔",
+      "깨끗하고 하얀 침대를 봄": "하얀 깨끗 정갈 뽀얀",
+      "여성이 침대를 정리하는 꿈을 꿈": "정리 정돈 이부자리 시트",
+      "낯선 방에서 침대에 있는 꿈을 꿈": "낯선 생소 모르는 처음보",
+      "병든 사람이 침대에 있는 꿈을 꿈": "병든 아픈 환자 앓는",
+      "야외에서 침대에 누워 자는 꿈을 꿈": "야외 바깥 노숙 들판",
+      "매우 창백해 보이는 친구가 침대에 누워 있는 것을 봄": "창백 친구 핼쑥 안색",
+      "어머니가 아이가 잠자리에 오줌을 싸는 꿈을 꿈": "어머니 아이 자식 아들",
+      "자신이 잠자리에 오줌을 싸는 꿈을 꿈": "오줌 소변 지렸 실수"
     },
     "contexts_en": {
       "침상 위에 개미가 있음": "ant ants insects crawling",
       "침상 다리를 새로 갈아 끼움": "leg legs replaced repaired",
-      "침상에 올라가 누움": "climbing onto lay lying rested",
-      "침상에 피가 있음": "blood bloody bloodstain stained"
+      "침상에 올라가 누움": "climbing lay lying rested",
+      "침상에 피가 있음": "blood bloody bloodstain stained",
+      "깨끗하고 하얀 침대를 봄": "white clean spotless fresh",
+      "여성이 침대를 정리하는 꿈을 꿈": "woman making tidying arranging",
+      "낯선 방에서 침대에 있는 꿈을 꿈": "strange unfamiliar room unknown",
+      "병든 사람이 침대에 있는 꿈을 꿈": "sick sickness patient invalid",
+      "야외에서 침대에 누워 자는 꿈을 꿈": "outdoors outside camping field",
+      "매우 창백해 보이는 친구가 침대에 누워 있는 것을 봄": "friend pale pallid ghastly",
+      "어머니가 아이가 잠자리에 오줌을 싸는 꿈을 꿈": "mother child children daughter",
+      "자신이 잠자리에 오줌을 싸는 꿈을 꿈": "wetting urinate urine wet"
     }
   },
   {
     "id": "official-robe",
-    "aliases": ["예복", "조복"],
-    "aliases_en": ["official uniform", "court robe", "government robes"],
+    "aliases": [
+      "예복",
+      "조복"
+    ],
+    "aliases_en": [
+      "official uniform",
+      "court robe",
+      "government robes"
+    ],
     "contexts": {
       "남에게 관복을 줌": "주었 건네 넘겨 줬다",
       "남이 관복을 줌": "받았 받아 얻었 선물받",
@@ -225,7 +315,7 @@
     },
     "contexts_en": {
       "남에게 관복을 줌": "gave giving handed offered",
-      "남이 관복을 줌": "received receiving got obtained",
+      "남이 관복을 줌": "received receiving obtained",
       "여자가 관복을 갖춰 입음": "woman wife lady wearing dressed",
       "관복을 새로 물들임": "dyed dyeing colored recolored"
     }
@@ -249,23 +339,40 @@
   },
   {
     "id": "face-powder",
-    "aliases": ["분가루", "화장분", "백분", "파우더"],
-    "aliases_en": ["powder", "makeup powder", "cosmetic powder"],
+    "aliases": [
+      "분가루",
+      "화장분",
+      "백분",
+      "파우더"
+    ],
+    "aliases_en": [
+      "powder",
+      "makeup powder",
+      "cosmetic powder"
+    ],
     "contexts": {
       "분을 얻음": "얻었 얻어 생겼 받았",
       "분을 봄": "보았 바라보 쳐다 눈에띄",
       "분을 얻어 아내에게 줌": "아내 부인 건네 주었"
     },
     "contexts_en": {
-      "분을 얻음": "got obtained received found",
+      "분을 얻음": "obtained received found",
       "분을 봄": "saw seeing looked noticed",
       "분을 얻어 아내에게 줌": "wife gave giving handed"
     }
   },
   {
     "id": "mud",
-    "aliases": ["진창", "흙탕", "흙탕물"],
-    "aliases_en": ["muddy", "mire", "sludge"],
+    "aliases": [
+      "진창",
+      "흙탕",
+      "흙탕물"
+    ],
+    "aliases_en": [
+      "muddy",
+      "mire",
+      "sludge"
+    ],
     "contexts": {
       "진흙 속에 빠져 있음": "빠져 빠졌 갇혀 허우적 헤어나",
       "진흙이 옷을 더럽힘": "옷이 옷을 옷에 묻었 더럽",
@@ -279,8 +386,14 @@
   },
   {
     "id": "song",
-    "aliases": ["노랫소리", "가요"],
-    "aliases_en": ["singing", "songs"],
+    "aliases": [
+      "노랫소리",
+      "가요"
+    ],
+    "aliases_en": [
+      "singing",
+      "songs"
+    ],
     "contexts": {
       "노래하는 것을 봄": "보았 지켜보 구경 다른사람",
       "마루 위에서 노래하고 풍악을 울림": "마루 풍악 악기 잔치 흥겹",
@@ -294,60 +407,100 @@
   },
   {
     "id": "bee",
-    "aliases": ["꿀벌", "말벌", "벌떼"],
-    "aliases_en": ["bees", "honeybee", "wasp"],
+    "aliases": [
+      "꿀벌",
+      "말벌",
+      "벌떼"
+    ],
+    "aliases_en": [
+      "bees",
+      "honeybee",
+      "wasp"
+    ],
     "contexts": {
       "벌과 나비가 어우러져 놂": "나비 어우러 날아다 놀고",
-      "벌이 사람의 다리를 쏨": "쏘였 쏘여 쏘았 다리를"
+      "벌이 사람의 다리를 쏨": "쏘였 쏘여 쏘았 다리를",
+      "벌을 봄": "무리 떼지어 윙윙 잔뜩",
+      "관리(장교)가 벌 꿈을 꿈": "장교 군인 부하 지휘",
+      "목회자가 벌 꿈을 꿈": "목사 목회 신도 교회",
+      "사업가가 벌 꿈을 꿈": "사업가 장사 거래 상인",
+      "부모가 벌 꿈을 꿈": "부모 자녀 아이들 자식",
+      "벌에 쏘임": "쏘인 쏘이 벌침 물렸"
     },
     "contexts_en": {
       "벌과 나비가 어우러져 놂": "butterfly butterflies fluttering playing",
-      "벌이 사람의 다리를 쏨": "stung sting stinging leg"
-    }
-  },
-  {
-    "id": "being-beaten-2",
-    "aliases": ["매질", "얻어맞음", "구타당함"],
-    "aliases_en": ["beaten", "flogged", "whipped", "thrashed"],
-    "contexts": {
-      "관가에서 매를 맞음": "관가 관청 곤장 재판 원님",
-      "고문과 매질을 당함": "고문 심문 형벌 채찍 매질"
-    },
-    "contexts_en": {
-      "관가에서 매를 맞음": "court magistrate office authorities caning",
-      "고문과 매질을 당함": "torture tortured whipping interrogation flogging"
+      "벌이 사람의 다리를 쏨": "stung sting stinging leg",
+      "벌을 봄": "swarm swarming hive buzzing",
+      "관리(장교)가 벌 꿈을 꿈": "officer soldier subordinates command",
+      "목회자가 벌 꿈을 꿈": "minister preacher congregation church",
+      "사업가가 벌 꿈을 꿈": "merchant trade business trading",
+      "부모가 벌 꿈을 꿈": "parent parents children dutiful",
+      "벌에 쏘임": "bitten venom painful hurt"
     }
   },
   {
     "id": "feast",
-    "aliases": ["연회", "축하연", "회식"],
-    "aliases_en": ["banquet", "party", "celebration"],
+    "aliases": [
+      "연회",
+      "축하연",
+      "회식"
+    ],
+    "aliases_en": [
+      "banquet",
+      "party",
+      "celebration"
+    ],
     "contexts": {
       "잔치를 열어 손님을 모음": "손님 열어 초대해 모았 차렸",
-      "귀인이 베푼 잔치를 받음": "귀인 초대받 대접받 얻어먹 귀한분"
+      "귀인이 베푼 잔치를 받음": "귀인 초대받 대접받 얻어먹 귀한분",
+      "잔치(연회) 꿈을 꿈": "참석 구경 열린 벌어진",
+      "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심": "화려 차려입 포도주 값진",
+      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "흉측 불협 기이 식탁"
     },
     "contexts_en": {
       "잔치를 열어 손님을 모음": "guests invited gathered threw hosting",
-      "귀인이 베푼 잔치를 받음": "noble dignitary important person honored treated"
+      "귀인이 베푼 잔치를 받음": "noble dignitary important person honored treated",
+      "잔치(연회) 꿈을 꿈": "attend attending festive merry",
+      "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심": "rich richly dressed costly wine",
+      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "discord ugly hideous empty table"
     }
   },
   {
     "id": "fishing",
-    "aliases": ["고기잡이", "낚싯대", "낚시질"],
-    "aliases_en": ["fishing rod", "angling", "catching fish"],
+    "aliases": [
+      "고기잡이",
+      "낚싯대",
+      "낚시질"
+    ],
+    "aliases_en": [
+      "fishing rod",
+      "angling",
+      "catching fish"
+    ],
     "contexts": {
       "물속에서 낚시를 함": "물속 강에서 바다 호수 물가",
-      "숲속에서 고기잡이를 함": "숲속 숲에서 산속 나무 수풀"
+      "숲속에서 고기잡이를 함": "숲속 숲에서 산속 나무 수풀",
+      "물고기를 낚는 꿈을 꿈": "낚았 잡았 건져 물고기",
+      "한 마리도 낚지 못함": "허탕 빈손 실패 놓쳤"
     },
     "contexts_en": {
       "물속에서 낚시를 함": "water river sea lake stream",
-      "숲속에서 고기잡이를 함": "forest woods mountain trees grove"
+      "숲속에서 고기잡이를 함": "forest woods mountain trees grove",
+      "물고기를 낚는 꿈을 꿈": "caught hooked landed successful",
+      "한 마리도 낚지 못함": "nothing none empty failed"
     }
   },
   {
     "id": "melon",
-    "aliases": ["참외", "물외"],
-    "aliases_en": ["cucumber", "cucumbers", "melons"],
+    "aliases": [
+      "참외",
+      "물외"
+    ],
+    "aliases_en": [
+      "cucumber",
+      "cucumbers",
+      "melons"
+    ],
     "contexts": {
       "문드러진 오이를 먹음": "문드러 썩은 상한 물러진 곰팡",
       "오이씨를 먹음": "씨를 씨앗 종자"
@@ -359,8 +512,14 @@
   },
   {
     "id": "millet",
-    "aliases": ["차조", "기장"],
-    "aliases_en": ["millets", "foxtail millet"],
+    "aliases": [
+      "차조",
+      "기장"
+    ],
+    "aliases_en": [
+      "millets",
+      "foxtail millet"
+    ],
     "contexts": {
       "좁쌀을 먹음": "먹었 먹어 씹어 삼켰",
       "좁쌀을 봄": "보았 바라보 쳐다 눈에띄"
@@ -372,21 +531,37 @@
   },
   {
     "id": "rouge",
-    "aliases": ["연지곤지", "볼연지"],
-    "aliases_en": ["blusher", "blush", "red makeup"],
+    "aliases": [
+      "연지곤지",
+      "볼연지"
+    ],
+    "aliases_en": [
+      "blusher",
+      "blush",
+      "red makeup"
+    ],
     "contexts": {
       "연지를 얻음": "얻었 얻어 생겼 받았",
       "연지를 봄": "보았 바라보 쳐다 눈에띄"
     },
     "contexts_en": {
-      "연지를 얻음": "got obtained received found",
+      "연지를 얻음": "obtained received found",
       "연지를 봄": "saw seeing looked noticed"
     }
   },
   {
     "id": "seal",
-    "aliases": ["인장", "인감", "직인", "낙관"],
-    "aliases_en": ["stamp", "signet", "official seal"],
+    "aliases": [
+      "인장",
+      "인감",
+      "직인",
+      "낙관"
+    ],
+    "aliases_en": [
+      "stamp",
+      "signet",
+      "official seal"
+    ],
     "contexts": {
       "문서에 도장을 찍음": "문서 서류 찍었 계약 날인",
       "도장을 몸에 지님": "지니 품에 가지고 몸에 주머니"
@@ -398,183 +573,397 @@
   },
   {
     "id": "ant",
-    "aliases": ["개미떼", "왕개미"],
-    "aliases_en": ["ants"],
-    "contexts": {},
-    "contexts_en": {}
+    "aliases": [
+      "개미떼",
+      "왕개미"
+    ],
+    "aliases_en": [
+      "ants"
+    ],
+    "contexts": {
+      "개미를 보는 꿈을 꿈": "기어다 줄지어 바글 잔뜩",
+      "개미가 침상 위로 올라옴": "침상 침대 이불 올라"
+    },
+    "contexts_en": {
+      "개미를 보는 꿈을 꿈": "crawling swarming everywhere annoying",
+      "개미가 침상 위로 올라옴": "bed bedding climbing blanket mattress"
+    }
   },
   {
     "id": "arrow",
-    "aliases": ["화살촉", "활과 화살"],
-    "aliases_en": ["arrows", "bow and arrow"],
-    "contexts": {},
-    "contexts_en": {}
+    "aliases": [
+      "화살촉",
+      "활과 화살"
+    ],
+    "aliases_en": [
+      "arrows",
+      "bow and arrow"
+    ],
+    "contexts": {
+      "화살 꿈을 꿈": "날아 과녁 쏘아 겨누",
+      "낡거나 부러진 화살을 봄": "낡은 부러진 망가진 부서진",
+      "활과 화살을 지님": "활과 화살통 지녔 챙겨"
+    },
+    "contexts_en": {
+      "화살 꿈을 꿈": "flying shot target aiming",
+      "낡거나 부러진 화살을 봄": "broken worn snapped damaged",
+      "활과 화살을 지님": "quiver carrying holding bearing"
+    }
   },
   {
     "id": "beating-someone",
-    "aliases": ["때리기", "손찌검", "주먹질"],
-    "aliases_en": ["hitting someone", "beat up", "punched"],
+    "aliases": [
+      "때리기",
+      "손찌검",
+      "주먹질"
+    ],
+    "aliases_en": [
+      "hitting someone",
+      "beat up",
+      "punched"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "blue",
-    "aliases": ["파란색", "파랑", "청색", "푸른빛"],
-    "aliases_en": ["blue color", "bluish", "azure"],
+    "aliases": [
+      "파란색",
+      "파랑",
+      "청색",
+      "푸른빛"
+    ],
+    "aliases_en": [
+      "blue color",
+      "bluish",
+      "azure"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "buckwheat",
-    "aliases": ["메밀국수", "메밀묵", "막국수"],
-    "aliases_en": ["buckwheat noodles", "soba"],
+    "aliases": [
+      "메밀국수",
+      "메밀묵",
+      "막국수"
+    ],
+    "aliases_en": [
+      "buckwheat noodles",
+      "soba"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "city-gate",
     "aliases": [],
-    "aliases_en": ["castle gate", "fortress gate", "town gate"],
+    "aliases_en": [
+      "castle gate",
+      "fortress gate",
+      "town gate"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "condolence-visit",
-    "aliases": ["조문", "빈소", "장례식장", "상갓집"],
-    "aliases_en": ["funeral visit", "paying respects", "condolences", "wake"],
+    "aliases": [
+      "조문",
+      "빈소",
+      "장례식장",
+      "상갓집"
+    ],
+    "aliases_en": [
+      "funeral visit",
+      "paying respects",
+      "condolences",
+      "wake"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "daoist-temple",
-    "aliases": ["도관"],
-    "aliases_en": ["Taoist temple", "Daoist shrine", "Taoist shrine"],
+    "aliases": [
+      "도관"
+    ],
+    "aliases_en": [
+      "Taoist temple",
+      "Daoist shrine",
+      "Taoist shrine"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "dragonfly",
-    "aliases": ["고추잠자리", "왕잠자리"],
-    "aliases_en": ["dragonflies"],
+    "aliases": [
+      "고추잠자리",
+      "왕잠자리"
+    ],
+    "aliases_en": [
+      "dragonflies"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "fermented-soybean-paste",
-    "aliases": ["된장", "간장", "고추장", "메주"],
-    "aliases_en": ["soybean paste", "doenjang", "soy sauce", "bean paste"],
+    "aliases": [
+      "된장",
+      "간장",
+      "고추장",
+      "메주"
+    ],
+    "aliases_en": [
+      "soybean paste",
+      "doenjang",
+      "soy sauce",
+      "bean paste"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "food",
-    "aliases": ["먹을 것", "밥상", "식사", "요리"],
-    "aliases_en": ["meal", "meals", "dish", "eating"],
+    "aliases": [
+      "먹을 것",
+      "밥상",
+      "식사",
+      "요리"
+    ],
+    "aliases_en": [
+      "meal",
+      "meals",
+      "dish",
+      "eating"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "heaven-and-earth",
-    "aliases": ["하늘과 땅", "온 세상", "천지사방"],
-    "aliases_en": ["sky and earth", "whole world", "universe"],
+    "aliases": [
+      "하늘과 땅",
+      "온 세상",
+      "천지사방"
+    ],
+    "aliases_en": [
+      "sky and earth",
+      "whole world",
+      "universe"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "household",
-    "aliases": ["가정", "살림", "가세", "집안 형편"],
-    "aliases_en": ["family", "household affairs", "home life"],
+    "aliases": [
+      "가정",
+      "살림",
+      "가세",
+      "집안 형편"
+    ],
+    "aliases_en": [
+      "family",
+      "household affairs",
+      "home life"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "jar",
-    "aliases": ["단지", "옹기", "독을"],
-    "aliases_en": ["pot", "urn", "clay jar", "crock"],
+    "aliases": [
+      "단지",
+      "옹기",
+      "독을"
+    ],
+    "aliases_en": [
+      "pot",
+      "urn",
+      "clay jar",
+      "crock"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "letter",
-    "aliases": ["서신", "서한", "봉투"],
-    "aliases_en": ["letters", "mail", "envelope"],
+    "aliases": [
+      "서신",
+      "서한",
+      "봉투"
+    ],
+    "aliases_en": [
+      "letters",
+      "mail",
+      "envelope"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "mosquito",
-    "aliases": ["모기떼"],
-    "aliases_en": ["mosquitoes", "mosquito bite"],
+    "aliases": [
+      "모기떼"
+    ],
+    "aliases_en": [
+      "mosquitoes",
+      "mosquito bite"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "naked-body",
-    "aliases": ["나체", "맨몸", "벌거벗은 몸", "발가벗"],
-    "aliases_en": ["naked", "nude", "bare body", "undressed"],
+    "aliases": [
+      "나체",
+      "맨몸",
+      "벌거벗은 몸",
+      "발가벗"
+    ],
+    "aliases_en": [
+      "naked",
+      "nude",
+      "bare body",
+      "undressed"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "parrot",
-    "aliases": ["앵무"],
-    "aliases_en": ["parrots"],
+    "aliases": [
+      "앵무"
+    ],
+    "aliases_en": [
+      "parrots"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "pregnancy",
-    "aliases": ["임산부", "임신부", "출산", "태몽"],
-    "aliases_en": ["pregnant", "expecting", "with child", "childbirth"],
+    "aliases": [
+      "임산부",
+      "임신부",
+      "출산",
+      "태몽"
+    ],
+    "aliases_en": [
+      "pregnant",
+      "expecting",
+      "with child",
+      "childbirth"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "river-snail",
-    "aliases": ["다슬기", "골뱅이"],
-    "aliases_en": ["snail", "river snails", "freshwater snail"],
+    "aliases": [
+      "다슬기",
+      "골뱅이"
+    ],
+    "aliases_en": [
+      "snail",
+      "river snails",
+      "freshwater snail"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "salt",
-    "aliases": ["천일염", "소금물"],
-    "aliases_en": ["salty", "sea salt"],
+    "aliases": [
+      "천일염",
+      "소금물"
+    ],
+    "aliases_en": [
+      "salty",
+      "sea salt"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "soldiers",
-    "aliases": ["군대", "병사", "군인", "병졸"],
-    "aliases_en": ["soldier", "troops", "army", "warriors"],
+    "aliases": [
+      "군대",
+      "병사",
+      "군인",
+      "병졸"
+    ],
+    "aliases_en": [
+      "soldier",
+      "troops",
+      "army",
+      "warriors"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "sunset-glow",
-    "aliases": ["석양", "저녁놀", "붉은 하늘"],
-    "aliases_en": ["sunset", "afterglow", "evening glow", "red sky"],
+    "aliases": [
+      "석양",
+      "저녁놀",
+      "붉은 하늘"
+    ],
+    "aliases_en": [
+      "sunset",
+      "afterglow",
+      "evening glow",
+      "red sky"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "travelling-together",
-    "aliases": ["동반", "길동무", "함께 감", "같이 감"],
-    "aliases_en": ["traveling together", "walking together", "companion", "went together"],
+    "aliases": [
+      "동반",
+      "길동무",
+      "함께 감",
+      "같이 감"
+    ],
+    "aliases_en": [
+      "traveling together",
+      "walking together",
+      "companion",
+      "went together"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "washing-hands-and-feet",
-    "aliases": ["손 씻기", "발 씻기", "세족"],
-    "aliases_en": ["washing hands", "washing feet", "wash my hands"],
+    "aliases": [
+      "손 씻기",
+      "발 씻기",
+      "세족"
+    ],
+    "aliases_en": [
+      "washing hands",
+      "washing feet",
+      "wash my hands"
+    ],
     "contexts": {},
     "contexts_en": {}
   },
   {
     "id": "wings",
-    "aliases": ["날갯짓", "양날개"],
-    "aliases_en": ["wing", "winged", "feathered wings"],
+    "aliases": [
+      "날갯짓",
+      "양날개"
+    ],
+    "aliases_en": [
+      "wing",
+      "winged",
+      "feathered wings"
+    ],
     "contexts": {},
     "contexts_en": {}
   }

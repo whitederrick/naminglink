@@ -1,0 +1,407 @@
+[
+  {
+    "id": "apparel",
+    "aliases": [
+      "의복",
+      "복장",
+      "옷맵시",
+      "차림새"
+    ],
+    "aliases_en": [
+      "clothing",
+      "garments",
+      "attire",
+      "an outfit"
+    ],
+    "contexts": {
+      "옷차림 꿈을 꿈": "깨끗 더럽 낡은 온전",
+      "좋지만 유행이 지난 옷을 봄": "유행 구식 촌스",
+      "유행이 지난 옷을 마다함": "마다 거절 뿌리치 물리치",
+      "자신이나 남이 흰옷을 입은 것을 봄": "흰옷 하얀 백색 흰색",
+      "흰옷 입은 사람과 함께 걸음": "동행 나란히 걸었 걸어가",
+      "자신이나 남이 검은 옷을 입은 것을 봄": "검은 까만 흑색",
+      "노란 옷을 봄": "노란 노랑 황색",
+      "노란 옷이 기이한 빛 속에 유령처럼 스쳐 지나감": "유령 스쳐 지나갔 어른거",
+      "노란 천을 꿈꿈": "옷감 천조각 헝겊 원단",
+      "푸른 옷을 꿈꿈": "푸른 파란 청색",
+      "진홍색 옷을 꿈꿈": "진홍 다홍 붉은 빨간",
+      "초록 옷을 봄": "초록 녹색 연두",
+      "여러 빛깔이 섞인 옷을 봄": "알록달록 색색 여러빛깔 뒤섞",
+      "몸에 맞지 않는 옷을 꿈꿈": "헐렁 꽉끼 안맞 맞지않",
+      "노인이나 젊은이가 제 나이에 어울리는 옷을 입은 것을 봄": "노인 어울리 나이에 연배",
+      "여성이 제 옷차림이 마음에 들지 않는 꿈을 꿈": "불만 못마땅 언짢",
+      "남의 옷차림을 부러워함": "부러워 시샘 질투 샘이",
+      "옷가지 하나를 잃는 꿈을 꿈": "잃어 잃었 없어졌 분실",
+      "젊은 여성이 얇고 비치는 검은 옷을 입은 꿈을 꿈": "비치는 얇은 속이비 시스루",
+      "젊은 여성이 진홍색 옷에 검은 상장 베일을 쓴 다른 여성을 만남": "베일 상장 마주쳤 만난",
+      "옷 꿈에서 얼굴이 일그러지고 빛이 기이함": "일그러 얼굴 뒤틀 기이"
+    },
+    "contexts_en": {
+      "옷차림 꿈을 꿈": "clean whole soiled shabby",
+      "좋지만 유행이 지난 옷을 봄": "fashion outdated unfashionable",
+      "유행이 지난 옷을 마다함": "refused refusing rejected declined",
+      "자신이나 남이 흰옷을 입은 것을 봄": "white pale",
+      "흰옷 입은 사람과 함께 걸음": "walking walked alongside accompanied",
+      "자신이나 남이 검은 옷을 입은 것을 봄": "black dark",
+      "노란 옷을 봄": "yellow golden",
+      "노란 옷이 기이한 빛 속에 유령처럼 스쳐 지나감": "ghostly phantom flitting apparition",
+      "노란 천을 꿈꿈": "fabric textile material",
+      "푸른 옷을 꿈꿈": "blue azure",
+      "진홍색 옷을 꿈꿈": "crimson scarlet",
+      "초록 옷을 봄": "green emerald",
+      "여러 빛깔이 섞인 옷을 봄": "multicolored mottled assorted",
+      "몸에 맞지 않는 옷을 꿈꿈": "misfit",
+      "노인이나 젊은이가 제 나이에 어울리는 옷을 입은 것을 봄": "elderly youthful suited appropriate",
+      "여성이 제 옷차림이 마음에 들지 않는 꿈을 꿈": "dissatisfied displeased discontented",
+      "남의 옷차림을 부러워함": "envy envious jealous coveted",
+      "옷가지 하나를 잃는 꿈을 꿈": "lost losing missing mislaid",
+      "젊은 여성이 얇고 비치는 검은 옷을 입은 꿈을 꿈": "sheer transparent gauzy",
+      "젊은 여성이 진홍색 옷에 검은 상장 베일을 쓴 다른 여성을 만남": "veil mourning encountered",
+      "옷 꿈에서 얼굴이 일그러지고 빛이 기이함": "distorted twisted faces"
+    }
+  },
+  {
+    "id": "abandon",
+    "aliases": [
+      "유기",
+      "내버림",
+      "저버림",
+      "내팽개"
+    ],
+    "aliases_en": [
+      "desertion",
+      "forsaking",
+      "deserting",
+      "giving up"
+    ],
+    "contexts": {
+      "버림받는 꿈을 꿈": "버림받 버려졌 내쳐졌 홀로남",
+      "다른 사람을 버림": "타인 남을 다른사람",
+      "자신의 집을 버림": "집을 가출 고향 살던집",
+      "연인을 버림": "연인 애인 여자친구 남자친구",
+      "정부(情婦)를 버림": "정부 내연 첩을 애첩",
+      "종교를 버림": "종교 신앙 믿음 교회",
+      "자식을 버림": "자식 아이를 자녀 아들",
+      "사업을 버림": "사업 장사 가게 접었",
+      "배를 버리고 떠남": "배를 선박 갑판 뭍으로"
+    },
+    "contexts_en": {
+      "버림받는 꿈을 꿈": "abandoned forsaken",
+      "다른 사람을 버림": "another somebody",
+      "자신의 집을 버림": "home house residence",
+      "연인을 버림": "lover sweetheart girlfriend boyfriend",
+      "정부(情婦)를 버림": "mistress paramour concubine",
+      "종교를 버림": "religion faith church",
+      "자식을 버림": "child children offspring daughter",
+      "사업을 버림": "business shop trade venture",
+      "배를 버리고 떠남": "ship vessel deck ashore"
+    }
+  },
+  {
+    "id": "actor",
+    "aliases": [
+      "여배우",
+      "연기자",
+      "탤런트",
+      "영화배우"
+    ],
+    "aliases_en": [
+      "an actress",
+      "actors",
+      "a performer",
+      "a stage actor"
+    ],
+    "contexts": {
+      "여배우를 봄": "여배우 여자배우",
+      "곤경에 처한 배우를 봄": "곤경 어려움 딱한 궁지",
+      "자신이 배우라고 생각함": "스스로 자신이 나자신",
+      "배우와 사랑에 빠짐": "사랑에 반해 연애 좋아하게",
+      "죽은 배우나 여배우를 봄": "죽은 사망 고인 세상을떠",
+      "배우들이 떠돌며 빈털터리가 된 것을 봄": "떠돌 빈털터리 유랑 무일푼",
+      "가정의 안락함을 누리는 사람이 배우들이 떠돌며 빈털터리가 된 것을 봄": "안락 넉넉 가정의 편안",
+      "젊은 여성이 배우와 약혼하거나 결혼하려 함": "약혼 결혼 혼인 청혼",
+      "남성이 여배우와 즐기는 꿈을 꿈": "즐기 놀아 유흥 희롱"
+    },
+    "contexts_en": {
+      "여배우를 봄": "female leading lady starlet",
+      "곤경에 처한 배우를 봄": "distress trouble difficulty plight",
+      "자신이 배우라고 생각함": "myself thinking imagined",
+      "배우와 사랑에 빠짐": "love falling infatuated",
+      "죽은 배우나 여배우를 봄": "dead deceased corpse",
+      "배우들이 떠돌며 빈털터리가 된 것을 봄": "strolling penniless wandering vagabond",
+      "가정의 안락함을 누리는 사람이 배우들이 떠돌며 빈털터리가 된 것을 봄": "comforts comfortable household",
+      "젊은 여성이 배우와 약혼하거나 결혼하려 함": "engaged marry marriage betrothed",
+      "남성이 여배우와 즐기는 꿈을 꿈": "flirting enjoying amusing"
+    }
+  },
+  {
+    "id": "abdomen",
+    "aliases": [
+      "복부",
+      "아랫배",
+      "윗배",
+      "뱃속"
+    ],
+    "aliases_en": [
+      "belly",
+      "stomach",
+      "tummy",
+      "midriff"
+    ],
+    "contexts": {
+      "자신의 배를 보는 꿈을 꿈": "자신의 스스로 본인",
+      "배가 쪼그라든 것을 봄": "쪼그라 홀쭉 야위 움푹",
+      "배가 부어 있는 것을 봄": "부어 부었 부풀 불룩",
+      "배에서 피가 배어 나오는 것을 봄": "피가 출혈 피를 배어나",
+      "아이의 배가 병든 상태인 것을 봄": "아이 어린 아기 병든",
+      "부어오르고 곪은 배를 봄": "고름 짓무 종기",
+      "배 위에서 무언가 움직이는 것을 봄": "움직이 꿈틀 무언가 기어다",
+      "건강한 배를 봄": "건강 튼튼 멀쩡"
+    },
+    "contexts_en": {
+      "자신의 배를 보는 꿈을 꿈": "myself mine personally",
+      "배가 쪼그라든 것을 봄": "shrunken shrivelled sunken",
+      "배가 부어 있는 것을 봄": "swollen distended bloated",
+      "배에서 피가 배어 나오는 것을 봄": "blood bleeding oozing",
+      "아이의 배가 병든 상태인 것을 봄": "child infant diseased",
+      "부어오르고 곪은 배를 봄": "festering ulcerated pus inflamed",
+      "배 위에서 무언가 움직이는 것을 봄": "moving crawling creeping",
+      "건강한 배를 봄": "healthy sound wholesome"
+    }
+  },
+  {
+    "id": "acorn",
+    "aliases": [
+      "상수리",
+      "꿀밤",
+      "도토리묵"
+    ],
+    "aliases_en": [
+      "acorns",
+      "an oak nut",
+      "oak seeds"
+    ],
+    "contexts": {
+      "도토리를 봄": "보았 바라보 눈앞에",
+      "땅에서 도토리를 주움": "주웠 주워 줍는 집어들",
+      "여성이 도토리를 먹음": "먹었 먹는 씹어 여자가",
+      "나무에서 도토리를 흔들어 떨어뜨림": "흔들 털어 떨어뜨",
+      "푸르게 자라는 도토리를 보거나 땅에 흩어진 도토리를 봄": "푸르게 자라 흩어 널려",
+      "썩거나 시든 도토리를 봄": "썩은 시든 썩어 상한",
+      "나무에서 덜 익은 도토리를 잡아 뜯음": "덜익은 뜯어 설익 잡아당"
+    },
+    "contexts_en": {
+      "도토리를 봄": "saw seeing sight",
+      "땅에서 도토리를 주움": "picked picking gathered ground",
+      "여성이 도토리를 먹음": "eating eaten chewing woman",
+      "나무에서 도토리를 흔들어 떨어뜨림": "shaking shook knocking",
+      "푸르게 자라는 도토리를 보거나 땅에 흩어진 도토리를 봄": "growing green scattered strewn",
+      "썩거나 시든 도토리를 봄": "rotten decayed withered blighted",
+      "나무에서 덜 익은 도토리를 잡아 뜯음": "unripe pulled tore immature"
+    }
+  },
+  {
+    "id": "apples",
+    "aliases": [
+      "능금",
+      "홍옥",
+      "아오리",
+      "사과나무"
+    ],
+    "aliases_en": [
+      "an apple",
+      "apple tree",
+      "red apples"
+    ],
+    "contexts": {
+      "사과를 보는 꿈을 꿈": "보았 바라보 눈앞",
+      "푸른 잎이 달린 나무에 붉은 사과가 열린 것을 봄": "붉은 빨간 푸른잎 초록잎",
+      "사과를 먹음": "먹었 먹는 베어물 한입",
+      "나무에 익은 사과가 달린 것을 봄": "익은 잘익 탐스",
+      "나무 꼭대기에 익은 사과가 달린 것을 봄": "꼭대기 맨위 높은가지",
+      "땅에 떨어진 사과를 봄": "떨어진 땅에 낙과 바닥에",
+      "썩은 사과를 봄": "썩은 상한 문드러 곰팡"
+    },
+    "contexts_en": {
+      "사과를 보는 꿈을 꿈": "saw seeing sight",
+      "푸른 잎이 달린 나무에 붉은 사과가 열린 것을 봄": "leaves green boughs",
+      "사과를 먹음": "eating eaten bite tasted",
+      "나무에 익은 사과가 달린 것을 봄": "ripe ripened mellow",
+      "나무 꼭대기에 익은 사과가 달린 것을 봄": "top treetop highest lofty",
+      "땅에 떨어진 사과를 봄": "fallen ground fell windfall",
+      "썩은 사과를 봄": "rotten spoiled decayed"
+    }
+  },
+  {
+    "id": "bride",
+    "aliases": [
+      "새색시",
+      "색시",
+      "웨딩드레스"
+    ],
+    "aliases_en": [
+      "a bride",
+      "the bride",
+      "a newlywed",
+      "bride-to-be"
+    ],
+    "contexts": {
+      "신부가 되는 꿈에서 혼례 단장을 기쁘게 함": "기쁘 흐뭇 만족 즐겁게",
+      "혼례 단장에 불만을 느낌": "불만 못마땅 언짢 실망",
+      "신부에게 입맞춤하는 꿈을 꿈": "내가 나는 다가가",
+      "신부가 다른 사람에게 입맞춤함": "다른사람 남에게 딴사람",
+      "신부가 당신에게 입맞춤함": "나에게 내게 나한테",
+      "입맞춤한 신부가 초췌하고 병들어 보임": "초췌 병들 야윈 핼쑥",
+      "신부가 남편에게 무심한 꿈을 꿈": "남편 무심 냉담 데면"
+    },
+    "contexts_en": {
+      "신부가 되는 꿈에서 혼례 단장을 기쁘게 함": "delighted joyfully glad",
+      "혼례 단장에 불만을 느낌": "dissatisfied displeased discontent",
+      "신부에게 입맞춤하는 꿈을 꿈": "kissing",
+      "신부가 다른 사람에게 입맞춤함": "another somebody else",
+      "신부가 당신에게 입맞춤함": "kissed",
+      "입맞춤한 신부가 초췌하고 병들어 보임": "haggard sickly ailing careworn",
+      "신부가 남편에게 무심한 꿈을 꿈": "husband indifferent cold neglectful"
+    }
+  },
+  {
+    "id": "bedbugs",
+    "aliases": [
+      "베드버그",
+      "침대벌레"
+    ],
+    "aliases_en": [
+      "a bedbug",
+      "bed bugs",
+      "a bed bug"
+    ],
+    "contexts": {
+      "꿈에 빈대를 봄": "보였 보았 눈에띄",
+      "빈대를 아주 많이 봄": "많이 잔뜩 우글 떼로",
+      "죽은 척하는 빈대를 봄": "죽은척 죽은체 시늉 꼼짝않",
+      "빈대를 으깼는데 피 대신 물이 나옴": "으깼 으깨 물이나 피대신",
+      "흰 벽을 기어오르는 빈대에 뜨거운 물을 끼얹음": "뜨거운 끼얹 벽을 기어오르",
+      "뜨거운 물로도 빈대가 죽지 않음": "죽지않 살아남 끄떡 소용없"
+    },
+    "contexts_en": {
+      "꿈에 빈대를 봄": "saw seeing single",
+      "빈대를 아주 많이 봄": "many numerous swarming lots",
+      "죽은 척하는 빈대를 봄": "feigning pretending motionless",
+      "빈대를 으깼는데 피 대신 물이 나옴": "crushed squashed water blood",
+      "흰 벽을 기어오르는 빈대에 뜨거운 물을 끼얹음": "hot poured wall climbing",
+      "뜨거운 물로도 빈대가 죽지 않음": "survived unaffected persisted resisted"
+    }
+  },
+  {
+    "id": "acquaintance",
+    "aliases": [
+      "아는 사람",
+      "친지",
+      "안면 있는 사람"
+    ],
+    "aliases_en": [
+      "an acquaintance",
+      "someone I know",
+      "a familiar face"
+    ],
+    "contexts": {
+      "지인을 만나 즐겁게 대화함": "즐겁게 대화 반갑 담소",
+      "지인과 다투거나 언성을 높임": "다투 언성 말다툼 싸웠",
+      "지인을 만나기가 부끄럽거나 좋지 않은 때에 만남": "부끄 창피 민망 좋지않은때",
+      "젊은 여성이 자신의 지인 범위가 넓다고 여김": "넓다 넓은 폭넓 많은사람",
+      "젊은 여성의 지인 범위가 좁음": "좁다 좁은 적은 몇안"
+    },
+    "contexts_en": {
+      "지인을 만나 즐겁게 대화함": "pleasant conversation chatting cheerful",
+      "지인과 다투거나 언성을 높임": "quarrel argued arguing shouting",
+      "지인을 만나기가 부끄럽거나 좋지 않은 때에 만남": "ashamed embarrassed awkward inopportune",
+      "젊은 여성이 자신의 지인 범위가 넓다고 여김": "wide broad large circle",
+      "젊은 여성의 지인 범위가 좁음": "narrow small few limited"
+    }
+  },
+  {
+    "id": "adultery",
+    "aliases": [
+      "불륜",
+      "외도",
+      "바람피",
+      "정사"
+    ],
+    "aliases_en": [
+      "an affair",
+      "cheating",
+      "infidelity",
+      "unfaithful"
+    ],
+    "contexts": {
+      "자신이 간통을 저지름": "내가 스스로 저질렀 자신이",
+      "여성이 이 꿈을 꿈": "여자가 아내 기혼",
+      "여성이 남편의 친구와 간통함": "남편의 친구와 남편친구",
+      "여성이 젊은 남자를 간통으로 꾀어낸다고 생각함": "유혹 꾀어 꼬드 남자를",
+      "젊은 여성이 이 꿈을 꿈": "처녀 미혼 아가씨"
+    },
+    "contexts_en": {
+      "자신이 간통을 저지름": "myself committed committing",
+      "여성이 이 꿈을 꿈": "wife married matron",
+      "여성이 남편의 친구와 간통함": "husband friend companion",
+      "여성이 젊은 남자를 간통으로 꾀어낸다고 생각함": "tempting luring seduce enticing",
+      "젊은 여성이 이 꿈을 꿈": "maiden girl damsel"
+    }
+  },
+  {
+    "id": "age",
+    "aliases": [
+      "몇 살",
+      "나잇살",
+      "연배"
+    ],
+    "aliases_en": [
+      "how old",
+      "my age",
+      "old age"
+    ],
+    "contexts": {
+      "나이에 대한 꿈을 꿈": "연령 연세 세월",
+      "자신의 나이에 대한 꿈을 꿈": "자신의 내나이 제나이",
+      "젊은 여성이 실제보다 나이 많다고 비난받음": "비난 나이많다 실제보다 놀림",
+      "자신이 늙어 보이는 것을 봄": "늙어보 노인처럼 폭삭",
+      "애인이 늙어 보이는 것을 봄": "애인 연인 남자친구 여자친구"
+    },
+    "contexts_en": {
+      "나이에 대한 꿈을 꿈": "years lifetime",
+      "자신의 나이에 대한 꿈을 꿈": "myself mine",
+      "젊은 여성이 실제보다 나이 많다고 비난받음": "accused older reproached",
+      "자신이 늙어 보이는 것을 봄": "aging wrinkled gray",
+      "애인이 늙어 보이는 것을 봄": "lover sweetheart girlfriend"
+    }
+  },
+  {
+    "id": "amorous",
+    "aliases": [
+      "음탕",
+      "색욕",
+      "호색",
+      "정욕"
+    ],
+    "aliases_en": [
+      "lustful",
+      "lecherous",
+      "lust",
+      "passionate desire"
+    ],
+    "contexts": {
+      "자신이 색정적임": "내가 스스로 자신이",
+      "젊은 여성이 색정적임": "젊은 처녀 아가씨",
+      "기혼 여성이 색정적임": "기혼 유부녀 결혼한 아내",
+      "다른 사람이 색정적인 것을 봄": "다른사람 타인 남이",
+      "동물이 색정적인 것을 봄": "동물 짐승 개가 소가"
+    },
+    "contexts_en": {
+      "자신이 색정적임": "myself personally",
+      "젊은 여성이 색정적임": "girl maiden young single",
+      "기혼 여성이 색정적임": "married wife matron",
+      "다른 사람이 색정적인 것을 봄": "another others someone",
+      "동물이 색정적인 것을 봄": "animals beasts dog horse"
+    }
+  }
+]

@@ -1,0 +1,679 @@
+[
+  {
+    "id": "automobile",
+    "aliases": [
+      "승용차",
+      "택시",
+      "자가용",
+      "차량"
+    ],
+    "aliases_en": [
+      "a car",
+      "cars",
+      "motorcar",
+      "vehicle"
+    ],
+    "contexts": {
+      "자동차를 타고 감": "타고 승차 운전 몰고 드라이브",
+      "함께 탄 자동차가 고장 남": "고장 멈춰 멈췄 망가 퍼져",
+      "자동차의 진로를 피해 달아남": "피해 피하 달아 도망 비켜",
+      "젊은 여성이 자동차를 찾아다님": "찾아다 찾으러 헤매 두리번"
+    },
+    "contexts_en": {
+      "자동차를 타고 감": "riding rode driving drove",
+      "함께 탄 자동차가 고장 남": "broke broken breakdown stalled",
+      "자동차의 진로를 피해 달아남": "dodged fled escaped avoided",
+      "젊은 여성이 자동차를 찾아다님": "searching looking hunting"
+    }
+  },
+  {
+    "id": "bacon",
+    "aliases": [
+      "삼겹살",
+      "훈제 고기",
+      "돼지 뱃살"
+    ],
+    "aliases_en": [
+      "rashers",
+      "smoked pork",
+      "bacon strips"
+    ],
+    "contexts": {
+      "손이 깨끗한 사람과 함께 베이컨을 먹음": "깨끗 손이 함께 나눠",
+      "상한 베이컨을 봄": "상한 상했 썩은 곰팡",
+      "소금과 연기를 벗어나지 못한 베이컨을 훈제함": "절어 배어 찌든 눅눅",
+      "소금과 연기에서 벗어난 베이컨을 훈제함": "말끔 잘마른 제대로 노릇"
+    },
+    "contexts_en": {
+      "손이 깨끗한 사람과 함께 베이컨을 먹음": "clean shared sharing eating",
+      "상한 베이컨을 봄": "rotten spoiled decayed mouldy",
+      "소금과 연기를 벗어나지 못한 베이컨을 훈제함": "salty smoky cured soaked",
+      "소금과 연기에서 벗어난 베이컨을 훈제함": "crisp dried proper freed"
+    }
+  },
+  {
+    "id": "banana",
+    "aliases": [
+      "바나나 다발",
+      "바나나 껍질",
+      "바나나 송이"
+    ],
+    "aliases_en": [
+      "bananas",
+      "a banana",
+      "banana peel"
+    ],
+    "contexts": {
+      "바나나 꿈을 꿈": "나왔 등장 그저 단순",
+      "바나나를 먹음": "먹었 먹는 먹고 씹었",
+      "바나나가 썩어가는 것을 봄": "썩어 썩은 물러 검게",
+      "바나나를 거래함": "거래 사고팔 장사 팔았"
+    },
+    "contexts_en": {
+      "바나나 꿈을 꿈": "dreamt appeared merely",
+      "바나나를 먹음": "eating ate chewed",
+      "바나나가 썩어가는 것을 봄": "rotting rotten mushy blackened",
+      "바나나를 거래함": "trading traded selling bought"
+    }
+  },
+  {
+    "id": "bank",
+    "aliases": [
+      "은행 창구",
+      "은행 금고",
+      "예금",
+      "은행에 감"
+    ],
+    "aliases_en": [
+      "a bank",
+      "banks",
+      "bank vault"
+    ],
+    "contexts": {
+      "빈 창구를 봄": "텅빈 비어 창구 아무도",
+      "금화를 내어줌": "내어주 건네 지불 꺼내",
+      "금화를 받음": "받았 받는 받아 수령",
+      "은화와 지폐가 쌓인 것을 봄": "지폐 은화 쌓인 수북"
+    },
+    "contexts_en": {
+      "빈 창구를 봄": "empty teller vacant",
+      "금화를 내어줌": "paying paid handing gave",
+      "금화를 받음": "received receiving",
+      "은화와 지폐가 쌓인 것을 봄": "silver notes piled stacked"
+    }
+  },
+  {
+    "id": "beacon-light",
+    "aliases": [
+      "등대",
+      "봉화",
+      "등댓불",
+      "신호 불빛"
+    ],
+    "aliases_en": [
+      "a beacon",
+      "lighthouse",
+      "beacon fire",
+      "signal light"
+    ],
+    "contexts": {
+      "선원이 등대 불빛을 봄": "선원 뱃사람 항해 배를탄",
+      "곤경에 처한 사람이 등대 불빛을 봄": "어려움 처한 힘든 위기",
+      "병든 사람이 등대 불빛을 봄": "병든 아픈 앓던 환자",
+      "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "꺼지 꺼졌 폭풍 사라졌"
+    },
+    "contexts_en": {
+      "선원이 등대 불빛을 봄": "sailor seaman voyage",
+      "곤경에 처한 사람이 등대 불빛을 봄": "distress trouble troubled",
+      "병든 사람이 등대 불빛을 봄": "illness sick ailing patient",
+      "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "extinguished darkened storm faded"
+    }
+  },
+  {
+    "id": "beads",
+    "aliases": [
+      "염주",
+      "묵주",
+      "유리구슬",
+      "구슬 목걸이"
+    ],
+    "aliases_en": [
+      "a rosary",
+      "prayer beads",
+      "glass beads"
+    ],
+    "contexts": {
+      "구슬(염주) 꿈을 꿈": "나왔 등장 그저 단순",
+      "구슬을 셈": "세었 세는 헤아 개수",
+      "구슬을 꿰어 줄에 꿈": "꿰어 꿰었 실에 엮어",
+      "구슬을 흩뿌림": "흩뿌 흩어 쏟아 뿌렸"
+    },
+    "contexts_en": {
+      "구슬(염주) 꿈을 꿈": "dreamt appeared merely",
+      "구슬을 셈": "counting counted number",
+      "구슬을 꿰어 줄에 꿈": "stringing strung threaded",
+      "구슬을 흩뿌림": "scattered scattering spilled"
+    }
+  },
+  {
+    "id": "bellows",
+    "aliases": [
+      "풀무질",
+      "대장간 바람통",
+      "손풀무"
+    ],
+    "aliases_en": [
+      "a bellows",
+      "forge bellows",
+      "hand bellows"
+    ],
+    "contexts": {
+      "풀무질을 함": "불어넣 밟았 눌렀 바람을",
+      "풀무를 봄": "놓여 매달린 걸린 그저",
+      "풀무 소리를 들음": "소리 들렸 들었 삐걱",
+      "쓰이지 않고 방치된 풀무를 봄": "방치 버려진 녹슨 먼지"
+    },
+    "contexts_en": {
+      "풀무질을 함": "blowing pumping fanning working",
+      "풀무를 봄": "hanging lying merely",
+      "풀무 소리를 들음": "sound heard hearing creaking",
+      "쓰이지 않고 방치된 풀무를 봄": "unused neglected rusty dusty"
+    }
+  },
+  {
+    "id": "bird-s-nest",
+    "aliases": [
+      "둥지",
+      "새집",
+      "보금자리",
+      "새 둥우리"
+    ],
+    "aliases_en": [
+      "a nest",
+      "nests",
+      "bird nest",
+      "birds nest"
+    ],
+    "contexts": {
+      "빈 새 둥지를 봄": "텅빈 비어있 아무것도",
+      "둥지 안에 알이 있음": "알이 알들 알을 계란",
+      "둥지 안에 새끼가 있음": "새끼가 어린새 부화한",
+      "둥지 속 새끼들이 외롭고 버려져 있음": "버려 외롭 홀로 어미없"
+    },
+    "contexts_en": {
+      "빈 새 둥지를 봄": "empty deserted bare",
+      "둥지 안에 알이 있음": "eggs egg",
+      "둥지 안에 새끼가 있음": "chicks fledglings hatched young",
+      "둥지 속 새끼들이 외롭고 버려져 있음": "abandoned lonely forsaken alone"
+    }
+  },
+  {
+    "id": "bishop",
+    "aliases": [
+      "대주교",
+      "성직자",
+      "감독",
+      "주교님"
+    ],
+    "aliases_en": [
+      "a bishop",
+      "bishops",
+      "the bishop"
+    ],
+    "contexts": {
+      "주교 꿈을 꿈 (교사·저술가)": "교사 선생 저술 작가 글쓰",
+      "주교 꿈을 꿈 (상인)": "상인 장사꾼 사업가 상점",
+      "꿈에서 주교를 봄": "봤다 보았 마주쳤",
+      "크게 존경받는 주교의 인정을 받음": "인정 존경받 축복 칭찬"
+    },
+    "contexts_en": {
+      "주교 꿈을 꿈 (교사·저술가)": "teacher writer author studies",
+      "주교 꿈을 꿈 (상인)": "merchant trader shopkeeper business",
+      "꿈에서 주교를 봄": "saw seeing met",
+      "크게 존경받는 주교의 인정을 받음": "approved blessed honored esteemed"
+    }
+  },
+  {
+    "id": "bonnet",
+    "aliases": [
+      "여성용 모자",
+      "챙 모자",
+      "머릿수건",
+      "차양 모자"
+    ],
+    "aliases_en": [
+      "a bonnet",
+      "bonnets",
+      "ladies hat",
+      "sun hat"
+    ],
+    "contexts": {
+      "보닛 꿈을 꿈": "나왔 등장 그저 단순",
+      "남성이 여성이 보닛 끈을 매는 것을 봄": "끈을 매는 묶는 남자가",
+      "젊은 여성의 보닛이 새것이고 검은색이 아님": "새것 새로산 밝은색 알록",
+      "검은 보닛을 봄": "검은 검정 까만"
+    },
+    "contexts_en": {
+      "보닛 꿈을 꿈": "dreamt appeared simply",
+      "남성이 여성이 보닛 끈을 매는 것을 봄": "tying tied ribbon strings",
+      "젊은 여성의 보닛이 새것이고 검은색이 아님": "bright colorful newly fresh",
+      "검은 보닛을 봄": "black dark"
+    }
+  },
+  {
+    "id": "bosom",
+    "aliases": [
+      "젖가슴",
+      "앞가슴",
+      "가슴팍",
+      "품속"
+    ],
+    "aliases_en": [
+      "breast",
+      "breasts",
+      "chest",
+      "cleavage"
+    ],
+    "contexts": {
+      "젊은 여성의 가슴이 상처 입음": "상처 다쳤 베인 찔린",
+      "가슴이 더럽거나 쪼그라든 것을 봄": "더럽 쪼그라 지저분 말라",
+      "가슴이 희고 풍만함": "희고 하얀 풍만 풍성",
+      "애인이 얇은 코르사주 너머로 가슴을 몰래 지켜봄": "몰래 훔쳐보 애인이 옷너머"
+    },
+    "contexts_en": {
+      "젊은 여성의 가슴이 상처 입음": "wounded injured hurt",
+      "가슴이 더럽거나 쪼그라든 것을 봄": "dirty shriveled soiled shrunken",
+      "가슴이 희고 풍만함": "white plump full fair",
+      "애인이 얇은 코르사주 너머로 가슴을 몰래 지켜봄": "lover peeping secretly corsage"
+    }
+  },
+  {
+    "id": "bread",
+    "aliases": [
+      "식빵",
+      "빵조각",
+      "빵 한 덩이",
+      "밀빵"
+    ],
+    "aliases_en": [
+      "a loaf",
+      "loaves",
+      "bread loaf",
+      "a slice of bread"
+    ],
+    "contexts": {
+      "여성이 빵을 먹는 꿈을 꿈": "여자가 여성이 부인이 아내가",
+      "다른 사람과 빵을 나눔": "나눠 나누 함께 건네",
+      "불결한 빵이 많이 있는 것을 봄": "불결 더러운 곰팡 잔뜩",
+      "빵이 좋고 그것을 먹을 수 있음": "맛있 좋은 신선 갓구운"
+    },
+    "contexts_en": {
+      "여성이 빵을 먹는 꿈을 꿈": "woman wife eating",
+      "다른 사람과 빵을 나눔": "sharing shared together",
+      "불결한 빵이 많이 있는 것을 봄": "filthy dirty mouldy stale",
+      "빵이 좋고 그것을 먹을 수 있음": "good fresh tasty wholesome"
+    }
+  },
+  {
+    "id": "breakfast",
+    "aliases": [
+      "아침밥",
+      "조식",
+      "아침 상",
+      "아침을 먹"
+    ],
+    "aliases_en": [
+      "morning meal",
+      "eating breakfast",
+      "a breakfast"
+    ],
+    "contexts": {
+      "아침 식사 꿈을 꿈(정신노동에 종사하는 사람)": "정신노동 사무 글쓰 연구",
+      "신선한 우유와 달걀, 잘 차려진 잘 익은 과일 접시로 된 아침 식사를 봄": "우유 달걀 과일 차려진",
+      "혼자 식사를 함": "혼자 홀로 나혼자",
+      "다른 사람과 함께 식사를 함": "함께 같이 여럿 다른사람과"
+    },
+    "contexts_en": {
+      "아침 식사 꿈을 꿈(정신노동에 종사하는 사람)": "scholar writing mental clerk",
+      "신선한 우유와 달걀, 잘 차려진 잘 익은 과일 접시로 된 아침 식사를 봄": "milk eggs fruit spread",
+      "혼자 식사를 함": "alone solitary",
+      "다른 사람과 함께 식사를 함": "together company others"
+    }
+  },
+  {
+    "id": "bull",
+    "aliases": [
+      "수소",
+      "싸움소",
+      "투우",
+      "황소가 달려"
+    ],
+    "aliases_en": [
+      "a bull",
+      "bulls",
+      "the bull"
+    ],
+    "contexts": {
+      "황소가 자신을 쫓아오는 것을 봄": "쫓아오 쫓기 달려들 뒤쫓",
+      "젊은 여성이 황소를 만남": "만났 마주쳤 마주치 처녀가",
+      "황소가 사람을 뿔로 들이받는 것을 봄": "뿔로 들이받 받혔 찔렸",
+      "흰 황소를 봄": "흰빛 하얀 백색"
+    },
+    "contexts_en": {
+      "황소가 자신을 쫓아오는 것을 봄": "chasing chased pursuing",
+      "젊은 여성이 황소를 만남": "met meeting encountered",
+      "황소가 사람을 뿔로 들이받는 것을 봄": "gored goring horns tossing",
+      "흰 황소를 봄": "white whitish"
+    }
+  },
+  {
+    "id": "abhor",
+    "aliases": [
+      "싫어함",
+      "역겨움",
+      "미움",
+      "질색"
+    ],
+    "aliases_en": [
+      "abhorring",
+      "abhorrence",
+      "revulsion"
+    ],
+    "contexts": {
+      "어떤 사람을 혐오하는 꿈을 꿈": "싫어 역겨 미워 꺼려",
+      "남들에게 혐오받는다고 여기는 꿈을 꿈": "받는다 미움받 배척 따돌",
+      "젊은 여성이 애인에게 혐오받는 꿈을 꿈": "애인이 연인이 남자친구"
+    },
+    "contexts_en": {
+      "어떤 사람을 혐오하는 꿈을 꿈": "loathing detesting disliking",
+      "남들에게 혐오받는다고 여기는 꿈을 꿈": "hated despised shunned rejected",
+      "젊은 여성이 애인에게 혐오받는 꿈을 꿈": "lover sweetheart boyfriend"
+    }
+  },
+  {
+    "id": "above",
+    "aliases": [
+      "머리 위",
+      "위에 매달린 것",
+      "천장의 물체",
+      "위쪽"
+    ],
+    "aliases_en": [
+      "above me",
+      "over my head",
+      "up above"
+    ],
+    "contexts": {
+      "머리 위에 매달린 것이 떨어지려는 꿈을 꿈": "매달린 떨어지려 위태 흔들",
+      "떨어진 것이 비껴가 맞지 않음": "비껴 빗나 스쳐 피했",
+      "머리 위의 것이 단단히 고정돼 위험이 없어 보임": "단단히 고정 안전 튼튼"
+    },
+    "contexts_en": {
+      "머리 위에 매달린 것이 떨어지려는 꿈을 꿈": "hanging overhead falling loose",
+      "떨어진 것이 비껴가 맞지 않음": "missed missing swerved past",
+      "머리 위의 것이 단단히 고정돼 위험이 없어 보임": "fastened secure firm fixed"
+    }
+  },
+  {
+    "id": "absinthe",
+    "aliases": [
+      "압생트 술",
+      "독한 술",
+      "쑥술"
+    ],
+    "aliases_en": [
+      "absinth",
+      "green fairy",
+      "absinthe liquor"
+    ],
+    "contexts": {
+      "압생트에 취하는 꿈을 꿈": "취해 취한 만취 흥청",
+      "젊은 여성이 애인과 압생트를 마시는 꿈을 꿈": "애인과 연인과 함께마",
+      "젊은 여성이 취한 꿈을 꿈": "여성이 처녀가 그녀가"
+    },
+    "contexts_en": {
+      "압생트에 취하는 꿈을 꿈": "drunk intoxicated revelry squandering",
+      "젊은 여성이 애인과 압생트를 마시는 꿈을 꿈": "lover sweetheart drinking together",
+      "젊은 여성이 취한 꿈을 꿈": "woman girl herself"
+    }
+  },
+  {
+    "id": "abyss",
+    "aliases": [
+      "나락",
+      "낭떠러지",
+      "깊은 구렁",
+      "끝없는 구덩이"
+    ],
+    "aliases_en": [
+      "a chasm",
+      "the abyss",
+      "bottomless pit",
+      "a gulf"
+    ],
+    "contexts": {
+      "심연을 들여다보는 꿈을 꿈": "들여다 내려다 굽어",
+      "여성이 심연을 들여다보는 꿈을 꿈": "여성이 그녀가 처녀가",
+      "여성이 심연에 빠지거나 건너는 꿈을 꿈": "빠졌 빠져 건너 뛰어넘"
+    },
+    "contexts_en": {
+      "심연을 들여다보는 꿈을 꿈": "peering looking gazing",
+      "여성이 심연을 들여다보는 꿈을 꿈": "woman girl herself",
+      "여성이 심연에 빠지거나 건너는 꿈을 꿈": "fell falling crossing crossed"
+    }
+  },
+  {
+    "id": "accordion",
+    "aliases": [
+      "손풍금",
+      "풍금",
+      "아코디언 연주"
+    ],
+    "aliases_en": [
+      "an accordion",
+      "accordions",
+      "concertina"
+    ],
+    "contexts": {
+      "아코디언 음악을 듣는 꿈을 꿈": "듣는 들었 들려오 음악을",
+      "젊은 여성이 아코디언을 연주하는 꿈을 꿈": "연주 켰다 켜는 다뤘",
+      "아코디언 소리가 어긋나는 꿈을 꿈": "어긋 음이틀 불협 삐걱"
+    },
+    "contexts_en": {
+      "아코디언 음악을 듣는 꿈을 꿈": "hearing heard music listening",
+      "젊은 여성이 아코디언을 연주하는 꿈을 꿈": "playing played girl",
+      "아코디언 소리가 어긋나는 꿈을 꿈": "discordant jarring untuned wrong"
+    }
+  },
+  {
+    "id": "acid",
+    "aliases": [
+      "산성",
+      "황산",
+      "염산",
+      "산성 액체"
+    ],
+    "aliases_en": [
+      "an acid",
+      "acids",
+      "sulphuric acid",
+      "acidic liquid"
+    ],
+    "contexts": {
+      "산을 마심": "마셨 마시 들이켰 삼켰",
+      "여성이 신맛 나는 산성 음료를 마심": "신맛 시큼 음료 여성이",
+      "독성이 있는 산을 봄": "독성 유독 독약 위험한"
+    },
+    "contexts_en": {
+      "산을 마심": "drank drinking swallowed",
+      "여성이 신맛 나는 산성 음료를 마심": "sour tart beverage woman",
+      "독성이 있는 산을 봄": "poisonous poison toxic"
+    }
+  },
+  {
+    "id": "adam-and-eve",
+    "aliases": [
+      "아담",
+      "에덴동산",
+      "최초의 남녀"
+    ],
+    "aliases_en": [
+      "adam",
+      "eden",
+      "garden of eden"
+    ],
+    "contexts": {
+      "아담과 이브 꿈을 꿈": "나왔 등장 그저 단순",
+      "정원의 아담과 이브를 봄(아담은 무화과 잎을 걸치고 이브는 뱀 장식만 두른 채 나체임)": "정원 무화과 나체 벌거",
+      "이브가 뱀과 이야기하는 것을 보거나 들음": "이야기 말하는 대화 속삭"
+    },
+    "contexts_en": {
+      "아담과 이브 꿈을 꿈": "dreamt appeared merely",
+      "정원의 아담과 이브를 봄(아담은 무화과 잎을 걸치고 이브는 뱀 장식만 두른 채 나체임)": "fig naked leaves",
+      "이브가 뱀과 이야기하는 것을 보거나 들음": "talking speaking conversation heard"
+    }
+  },
+  {
+    "id": "adder",
+    "aliases": [
+      "살무사",
+      "독뱀",
+      "독을 가진 뱀"
+    ],
+    "aliases_en": [
+      "an adder",
+      "adders",
+      "viper"
+    ],
+    "contexts": {
+      "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라짐": "친구를 물었 덤불 누워",
+      "젊은 여성이 독사를 봄": "여성이 처녀가 그녀가 보았",
+      "독사가 그녀에게서 달아남": "달아 도망 피해 사라졌"
+    },
+    "contexts_en": {
+      "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라짐": "friend bit bitten bushes",
+      "젊은 여성이 독사를 봄": "woman girl saw",
+      "독사가 그녀에게서 달아남": "fled escaping away glided"
+    }
+  },
+  {
+    "id": "afraid",
+    "aliases": [
+      "무서움",
+      "겁남",
+      "공포",
+      "무서워"
+    ],
+    "aliases_en": [
+      "scared",
+      "fearful",
+      "terrified"
+    ],
+    "contexts": {
+      "어떤 일이나 여행을 계속하기가 두려움": "여행 계속하기 나서기 일을",
+      "다른 사람이 두려워하는 것을 봄": "다른사람 남이 친구가 겁먹은",
+      "젊은 여성이 개를 무서워함": "강아지 개를 개가 짖는"
+    },
+    "contexts_en": {
+      "어떤 일이나 여행을 계속하기가 두려움": "journey continue undertaking",
+      "다른 사람이 두려워하는 것을 봄": "another someone others frightened",
+      "젊은 여성이 개를 무서워함": "dog dogs puppy"
+    }
+  },
+  {
+    "id": "alabaster",
+    "aliases": [
+      "설화 석고",
+      "석고",
+      "흰 돌",
+      "석고 조각"
+    ],
+    "aliases_en": [
+      "alabaster stone",
+      "white alabaster",
+      "alabaster box"
+    ],
+    "contexts": {
+      "설화석고를 봄": "보았 봤다 하얀 매끄",
+      "설화석고 조각상이나 그릇을 깨뜨림": "깨뜨 깨졌 부서 조각상",
+      "젊은 여성이 향이 든 설화석고 상자를 잃어버림": "향이 상자 잃어 분실"
+    },
+    "contexts_en": {
+      "설화석고를 봄": "saw smooth",
+      "설화석고 조각상이나 그릇을 깨뜨림": "broke broken statue vase shattered",
+      "젊은 여성이 향이 든 설화석고 상자를 잃어버림": "perfume lost ointment"
+    }
+  },
+  {
+    "id": "alien",
+    "aliases": [
+      "낯선 사람",
+      "외국인",
+      "이국 사람",
+      "타지 사람"
+    ],
+    "aliases_en": [
+      "a stranger",
+      "a foreigner",
+      "strangers",
+      "foreigners"
+    ],
+    "contexts": {
+      "낯선 사람이 자신을 기쁘게 함": "기쁘 즐겁 반갑 친절",
+      "낯선 사람이 자신을 불쾌하게 함": "불쾌 언짢 거슬 무례",
+      "자신이 외국인이 됨": "스스로 되었 되어 낯선땅"
+    },
+    "contexts_en": {
+      "낯선 사람이 자신을 기쁘게 함": "delighted charmed kind agreeable",
+      "낯선 사람이 자신을 불쾌하게 함": "offended annoyed rude repelled",
+      "자신이 외국인이 됨": "myself became abroad emigrated"
+    }
+  },
+  {
+    "id": "alum",
+    "aliases": [
+      "명반",
+      "백반 가루",
+      "떫은 가루"
+    ],
+    "aliases_en": [
+      "alum powder",
+      "potash alum",
+      "a lump of alum"
+    ],
+    "contexts": {
+      "백반을 봄": "보았 봤다 하얀덩이",
+      "백반을 맛봄": "맛보 맛을 혀에 떫은",
+      "여성이 많은 양의 백반 꿈을 꿈": "많은양 잔뜩 수북 여성이"
+    },
+    "contexts_en": {
+      "백반을 봄": "saw seeing white",
+      "백반을 맛봄": "taste tasted tasting bitter",
+      "여성이 많은 양의 백반 꿈을 꿈": "quantity heap woman much"
+    }
+  },
+  {
+    "id": "amateur",
+    "aliases": [
+      "아마추어",
+      "연극 배우",
+      "무대 배우",
+      "풋내기 배우"
+    ],
+    "aliases_en": [
+      "amateurs",
+      "amateur actor",
+      "amateur actors"
+    ],
+    "contexts": {
+      "무대 위 아마추어 배우를 봄": "무대 공연 연극을보",
+      "아마추어가 비극을 연기함": "비극 슬픈역 눈물연기",
+      "꿈속 장면이 흐릿하거나 일그러짐": "흐릿 일그러 뿌옇 왜곡"
+    },
+    "contexts_en": {
+      "무대 위 아마추어 배우를 봄": "stage performing watching",
+      "아마추어가 비극을 연기함": "tragedy tragic mournful",
+      "꿈속 장면이 흐릿하거나 일그러짐": "blurred distorted hazy indistinct"
+    }
+  }
+]

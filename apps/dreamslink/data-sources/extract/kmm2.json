@@ -1,0 +1,579 @@
+[
+  {
+    "id": "baby",
+    "aliases": [
+      "갓난아이",
+      "젖먹이",
+      "신생아",
+      "아가"
+    ],
+    "aliases_en": [
+      "an infant",
+      "a newborn",
+      "babies",
+      "a little child"
+    ],
+    "contexts": {
+      "우는 아기를 봄": "우는 울고 울음 보채",
+      "밝고 깨끗한 아기를 봄": "밝고 깨끗 환하 뽀얀 예쁜",
+      "아기가 혼자 걸음": "혼자 걸음 걸어 아장",
+      "여성이 아기에게 젖을 물리는 꿈을 꿈": "젖을 물리 수유",
+      "열병 걸린 아기를 데려가는 꿈을 꿈": "열병 데려가 고열 아파"
+    },
+    "contexts_en": {
+      "우는 아기를 봄": "crying cried tears",
+      "밝고 깨끗한 아기를 봄": "bright clean beautiful healthy",
+      "아기가 혼자 걸음": "walking alone toddling",
+      "여성이 아기에게 젖을 물리는 꿈을 꿈": "nursing suckling breast milk",
+      "열병 걸린 아기를 데려가는 꿈을 꿈": "fever feverish carrying"
+    }
+  },
+  {
+    "id": "baldness",
+    "aliases": [
+      "탈모",
+      "민머리",
+      "벗겨진 머리"
+    ],
+    "aliases_en": [
+      "bald",
+      "a bald head",
+      "going bald",
+      "hair loss"
+    ],
+    "contexts": {
+      "대머리 남성을 봄": "남자 사내 아저씨",
+      "남성이 대머리 여성 꿈을 꿈": "여자 여인 아내",
+      "민둥산이나 대머리 같은 산을 봄": "민둥산 산이 언덕 벌거숭이",
+      "젊은 여성이 대머리 남성 꿈을 꿈": "젊은 처녀 미혼 아가씨",
+      "대머리인 아기들을 봄": "아기 갓난 아이들 애기"
+    },
+    "contexts_en": {
+      "대머리 남성을 봄": "gentleman fellow guy",
+      "남성이 대머리 여성 꿈을 꿈": "lady wife spouse",
+      "민둥산이나 대머리 같은 산을 봄": "mountain hill barren summit",
+      "젊은 여성이 대머리 남성 꿈을 꿈": "young girl maiden suitor",
+      "대머리인 아기들을 봄": "infant infants babies"
+    }
+  },
+  {
+    "id": "baptism",
+    "aliases": [
+      "침례",
+      "영세",
+      "세례명"
+    ],
+    "aliases_en": [
+      "a baptism",
+      "being baptized",
+      "a christening"
+    ],
+    "contexts": {
+      "세례 꿈을 꿈": "교회 성당 예식",
+      "세례 지원자가 되는 꿈을 꿈": "지원자 후보 신청",
+      "세례자 요한이 요단강에서 그리스도에게 세례를 주는 것을 봄": "요한 요단 강가",
+      "성령이 그리스도 위에 내려오는 것을 봄": "내려오 내려왔 강림 비둘기",
+      "성령과 불로 세례를 받음": "불로 불길 받았 받는"
+    },
+    "contexts_en": {
+      "세례 꿈을 꿈": "church font ceremony",
+      "세례 지원자가 되는 꿈을 꿈": "candidate applicant applying",
+      "세례자 요한이 요단강에서 그리스도에게 세례를 주는 것을 봄": "john jordan river",
+      "성령이 그리스도 위에 내려오는 것을 봄": "descending descended dove spirit",
+      "성령과 불로 세례를 받음": "fire flames burning received"
+    }
+  },
+  {
+    "id": "break",
+    "aliases": [
+      "파괴",
+      "고장",
+      "망가짐"
+    ],
+    "aliases_en": [
+      "broken",
+      "damaged",
+      "wrecked",
+      "fell apart"
+    ],
+    "contexts": {
+      "무언가가 부서지는 꿈을 꿈": "부서지 무언가 물건이",
+      "자기 팔다리가 부러짐": "팔다리 팔이 다리가 부러 골절",
+      "가구를 부숨": "가구 의자 책상 장롱",
+      "창문을 깨뜨림": "창문 유리 깨뜨 창틀",
+      "깨진 반지를 봄": "반지 가락지 깨진 금간"
+    },
+    "contexts_en": {
+      "무언가가 부서지는 꿈을 꿈": "something anything object",
+      "자기 팔다리가 부러짐": "limb bone fracture arm",
+      "가구를 부숨": "furniture chair table wardrobe",
+      "창문을 깨뜨림": "window glass pane smashed",
+      "깨진 반지를 봄": "ring cracked jewel"
+    }
+  },
+  {
+    "id": "bronze",
+    "aliases": [
+      "구리",
+      "놋쇠"
+    ],
+    "aliases_en": [
+      "a bronze statue",
+      "brass",
+      "a copper statue"
+    ],
+    "contexts": {
+      "여성이 청동상을 보는 꿈을 꿈": "여성 여자 그녀",
+      "청동상이 살아 움직이는 듯 보임": "살아 생동 꿈틀 진짜",
+      "청동상이 움직이는 꿈을 꾼 뒤": "움직 이후 나중 그뒤",
+      "청동 뱀이나 벌레를 보는 꿈을 꿈": "뱀이 뱀을 벌레 구렁이 지네",
+      "청동 금속을 봄": "금속 쇳덩이 덩어리 재질"
+    },
+    "contexts_en": {
+      "여성이 청동상을 보는 꿈을 꿈": "woman lady",
+      "청동상이 살아 움직이는 듯 보임": "alive living lifelike",
+      "청동상이 움직이는 꿈을 꾼 뒤": "moved moving afterward later",
+      "청동 뱀이나 벌레를 보는 꿈을 꿈": "snake serpent insect worm",
+      "청동 금속을 봄": "metal metallic lump"
+    }
+  },
+  {
+    "id": "broth",
+    "aliases": [
+      "수프",
+      "스프",
+      "고깃국"
+    ],
+    "aliases_en": [
+      "a stew",
+      "bouillon",
+      "a bowl of broth"
+    ],
+    "contexts": {
+      "고기 국물을 보는 꿈을 꿈": "고기 육수 곰탕",
+      "국물 꿈에 이어 친구들이 곁을 지킴": "친구 곁을 곁에 지켜",
+      "금전적 도움이 필요할 때 국물 꿈을 꿈": "돈이 금전 궁핍 도움이",
+      "연인들에게 국물 꿈이 나타남": "연인 애인 커플",
+      "직접 국물을 만듦": "직접 만들 끓였 요리"
+    },
+    "contexts_en": {
+      "고기 국물을 보는 꿈을 꿈": "meat beef soup",
+      "국물 꿈에 이어 친구들이 곁을 지킴": "friends stood beside supportive",
+      "금전적 도움이 필요할 때 국물 꿈을 꿈": "money financial needed loan",
+      "연인들에게 국물 꿈이 나타남": "lovers sweetheart romance couple",
+      "직접 국물을 만듦": "made making cooked myself"
+    }
+  },
+  {
+    "id": "brush",
+    "aliases": [
+      "빗자루",
+      "구둣솔",
+      "머리빗"
+    ],
+    "aliases_en": [
+      "a hairbrush",
+      "a bristle brush",
+      "a broom"
+    ],
+    "contexts": {
+      "머리빗을 사용함": "사용 썼다 쓰다가 손질",
+      "오래된 머리빗을 봄": "오래된 낡은 묵은 해진",
+      "옷솔을 봄": "옷솔 눈에띄 놓여",
+      "옷을 솔질하느라 분주함": "솔질 옷을 분주 털었",
+      "여러 종류의 솔을 봄": "여러 종류 갖가지"
+    },
+    "contexts_en": {
+      "머리빗을 사용함": "comb combing hair",
+      "오래된 머리빗을 봄": "old worn ancient shabby",
+      "옷솔을 봄": "garment noticed lying",
+      "옷을 솔질하느라 분주함": "clothes busy scrubbing",
+      "여러 종류의 솔을 봄": "various kinds assorted several"
+    }
+  },
+  {
+    "id": "abbey",
+    "aliases": [
+      "수녀원",
+      "암자",
+      "승원"
+    ],
+    "aliases_en": [
+      "an abbey",
+      "a monastery",
+      "a convent",
+      "a cloister"
+    ],
+    "contexts": {
+      "폐허가 된 수도원을 봄": "폐허 무너진 허물어 황폐",
+      "신부가 수도원 입구를 막는 꿈을 꿈": "입구 막아 가로막 문앞",
+      "젊은 여성이 수도원에 들어감": "들어갔 들어가 발을들 안으로",
+      "젊은 여성이 수도원에서 신부와 대화함": "대화 이야기 말을나 신부와"
+    },
+    "contexts_en": {
+      "폐허가 된 수도원을 봄": "ruined ruins crumbling derelict",
+      "신부가 수도원 입구를 막는 꿈을 꿈": "priest doorway barring gateway",
+      "젊은 여성이 수도원에 들어감": "entered entering inside walked",
+      "젊은 여성이 수도원에서 신부와 대화함": "conversation talking chatting spoke"
+    }
+  },
+  {
+    "id": "abbot",
+    "aliases": [
+      "대수도원장",
+      "원장 신부"
+    ],
+    "aliases_en": [
+      "an abbot",
+      "a prior",
+      "head of the monastery"
+    ],
+    "contexts": {
+      "자신이 수도원장이 되는 꿈을 꿈": "내가 자신이 되는 스스로",
+      "경건히 수행하는 수도원장을 봄": "경건 수행 기도하 엄숙",
+      "젊은 여성이 수도원장과 대화함": "대화 이야기 말을나",
+      "젊은 여성이 수도원장과 결혼함": "결혼 혼인 시집 신랑"
+    },
+    "contexts_en": {
+      "자신이 수도원장이 되는 꿈을 꿈": "myself became becoming",
+      "경건히 수행하는 수도원장을 봄": "devout praying pious solemn",
+      "젊은 여성이 수도원장과 대화함": "conversation talking chatting",
+      "젊은 여성이 수도원장과 결혼함": "married marriage wedding bride"
+    }
+  },
+  {
+    "id": "abode",
+    "aliases": [
+      "살 곳",
+      "머물 곳",
+      "보금자리",
+      "처소"
+    ],
+    "aliases_en": [
+      "a dwelling",
+      "a place to live",
+      "lodging",
+      "a residence"
+    ],
+    "contexts": {
+      "자신의 거처를 찾지 못하는 꿈을 꿈": "찾지못 못찾 헤매 어디인지",
+      "꿈에 거처가 없음": "없었 없는 하나도 아무데도",
+      "거처를 옮김": "옮겼 옮기 이사 이전했",
+      "젊은 여성이 거처를 떠난 꿈을 꿈": "떠났 떠나 나왔 집을나"
+    },
+    "contexts_en": {
+      "자신의 거처를 찾지 못하는 꿈을 꿈": "unable find finding lost",
+      "꿈에 거처가 없음": "none nowhere homeless",
+      "거처를 옮김": "moved moving relocated changed",
+      "젊은 여성이 거처를 떠난 꿈을 꿈": "left leaving departed away"
+    }
+  },
+  {
+    "id": "abuse",
+    "aliases": [
+      "폭언",
+      "괴롭힘",
+      "가혹행위"
+    ],
+    "aliases_en": [
+      "abusing",
+      "being abused",
+      "mistreatment",
+      "ill-treatment"
+    ],
+    "contexts": {
+      "다른 사람을 학대하는 꿈을 꿈": "남을 다른사람 타인을 괴롭혔",
+      "자신이 학대당한다고 느끼는 꿈을 꿈": "당했 당하 시달 내가받",
+      "젊은 여성이 욕설을 듣는 꿈을 꿈": "들었 듣는 험담 욕먹었",
+      "젊은 여성이 스스로 욕설을 하는 꿈을 꿈": "욕했 퍼부었 내뱉 쏘아붙"
+    },
+    "contexts_en": {
+      "다른 사람을 학대하는 꿈을 꿈": "others someone another harming",
+      "자신이 학대당한다고 느끼는 꿈을 꿈": "myself victim suffering mistreated",
+      "젊은 여성이 욕설을 듣는 꿈을 꿈": "heard hearing insulted",
+      "젊은 여성이 스스로 욕설을 하는 꿈을 꿈": "swearing scolding shouted cursing"
+    }
+  },
+  {
+    "id": "academy",
+    "aliases": [
+      "학원",
+      "아카데미",
+      "교육원",
+      "모교"
+    ],
+    "aliases_en": [
+      "an academy",
+      "a school",
+      "a college",
+      "an institute"
+    ],
+    "contexts": {
+      "꿈에 학교를 방문함": "방문 찾아갔 구경 들렀",
+      "자신이 학교를 소유하거나 재학 중이라고 여김": "소유 재학 다니는 주인",
+      "지식을 얻지만 제대로 소화해 적용하지 못함": "지식 배웠지만 소화 적용",
+      "학업을 마친 뒤 다시 학교로 돌아감": "마친뒤 졸업 다시돌아 되돌아"
+    },
+    "contexts_en": {
+      "꿈에 학교를 방문함": "visited visiting toured",
+      "자신이 학교를 소유하거나 재학 중이라고 여김": "owned attending enrolled student",
+      "지식을 얻지만 제대로 소화해 적용하지 못함": "knowledge apply digest learned",
+      "학업을 마친 뒤 다시 학교로 돌아감": "finished graduated returned"
+    }
+  },
+  {
+    "id": "accounts",
+    "aliases": [
+      "계산서",
+      "고지서",
+      "외상값"
+    ],
+    "aliases_en": [
+      "a bill",
+      "an invoice",
+      "a statement"
+    ],
+    "contexts": {
+      "지불해야 할 청구서를 받는 꿈을 꿈": "받았 받는 날아왔 도착",
+      "청구서를 지불함": "지불 갚았 냈다 결제",
+      "다른 사람에게 빚을 받아야 할 처지가 됨": "빚을 채권 돌려받 갚으라고",
+      "젊은 여성 경리가 장부를 결산하는 꿈을 꿈": "경리 장부 결산 회계"
+    },
+    "contexts_en": {
+      "지불해야 할 청구서를 받는 꿈을 꿈": "received arrived came due",
+      "청구서를 지불함": "paid paying settled cleared",
+      "다른 사람에게 빚을 받아야 할 처지가 됨": "owed debtor collect creditor",
+      "젊은 여성 경리가 장부를 결산하는 꿈을 꿈": "bookkeeper ledger balancing clerk"
+    }
+  },
+  {
+    "id": "ache",
+    "aliases": [
+      "아픔",
+      "쑤시",
+      "욱신",
+      "저림"
+    ],
+    "aliases_en": [
+      "an ache",
+      "aching",
+      "pain",
+      "sore"
+    ],
+    "contexts": {
+      "몸에 통증이 있음": "몸이 온몸 전신 여기저기",
+      "젊은 여성이 가슴앓이를 함": "가슴앓 가슴이 심장 애태",
+      "젊은 여성이 허리 통증을 앓음": "허리 요통 등허리",
+      "젊은 여성이 두통을 앓음": "두통 머리가 머리아 편두통"
+    },
+    "contexts_en": {
+      "몸에 통증이 있음": "body limbs everywhere general",
+      "젊은 여성이 가슴앓이를 함": "heartache heart chest lovesick",
+      "젊은 여성이 허리 통증을 앓음": "backache back waist lumbar",
+      "젊은 여성이 두통을 앓음": "headache head migraine temples"
+    }
+  },
+  {
+    "id": "acrobat",
+    "aliases": [
+      "곡예",
+      "서커스",
+      "재주꾼",
+      "광대"
+    ],
+    "aliases_en": [
+      "acrobats",
+      "a gymnast",
+      "a trapeze artist"
+    ],
+    "contexts": {
+      "곡예사들을 봄": "보았 바라보 구경했 공연을",
+      "자신이 곡예를 함": "내가 직접 재주넘 물구나무",
+      "여성 곡예사들을 봄": "여성 여자 그녀들",
+      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "타이츠 쫄쫄이 몸에붙 딱붙"
+    },
+    "contexts_en": {
+      "곡예사들을 봄": "saw watched troupe circus",
+      "자신이 곡예를 함": "myself performing somersault tumbling",
+      "여성 곡예사들을 봄": "female women girls",
+      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "tights leotard"
+    }
+  },
+  {
+    "id": "addition",
+    "aliases": [
+      "더하기",
+      "합산",
+      "셈하"
+    ],
+    "aliases_en": [
+      "adding up",
+      "summing",
+      "arithmetic",
+      "doing sums"
+    ],
+    "contexts": {
+      "덧셈을 곰곰이 생각함": "곰곰이 골똘 생각에잠 궁리",
+      "덧셈에서 오류를 발견함": "오류 틀린곳 잘못된 발견했",
+      "기계로 숫자를 더함": "기계 계산기 자동으로",
+      "숫자를 제대로 읽어내지 못함": "읽어내지 못읽 읽지못 흐릿"
+    },
+    "contexts_en": {
+      "덧셈을 곰곰이 생각함": "pondering thinking contemplating",
+      "덧셈에서 오류를 발견함": "error mistake wrong discovered",
+      "기계로 숫자를 더함": "machine calculator automatically",
+      "숫자를 제대로 읽어내지 못함": "misread unable blurred figures"
+    }
+  },
+  {
+    "id": "adieu",
+    "aliases": [
+      "작별",
+      "이별",
+      "고별",
+      "안녕히"
+    ],
+    "aliases_en": [
+      "farewell",
+      "saying goodbye",
+      "a goodbye",
+      "parting"
+    ],
+    "contexts": {
+      "사람들에게 유쾌하게 작별 인사를 함": "유쾌 즐겁게 웃으며 밝게",
+      "사람들에게 슬프고 침울하게 작별 인사를 함": "슬프 침울 우울하게 눈물지",
+      "고향과 조국에 작별을 고함": "고향 조국 나라를 떠나며",
+      "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던짐": "입맞춤 키스 아이들 손을흔"
+    },
+    "contexts_en": {
+      "사람들에게 유쾌하게 작별 인사를 함": "cheerfully happily merry smiling",
+      "사람들에게 슬프고 침울하게 작별 인사를 함": "sad sadly gloomy sorrowful",
+      "고향과 조국에 작별을 고함": "homeland country native motherland",
+      "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던짐": "kiss kissing children blowing"
+    }
+  },
+  {
+    "id": "air",
+    "aliases": [
+      "대기",
+      "숨결",
+      "산소"
+    ],
+    "aliases_en": [
+      "the air",
+      "fresh air",
+      "the atmosphere"
+    ],
+    "contexts": {
+      "공기에 대한 꿈을 꿈": "막연 그저 특별히",
+      "뜨거운 공기를 들이마심": "뜨거운 더운 후끈 뜨겁",
+      "차가운 공기를 느낌": "차가운 서늘 싸늘 찬공기",
+      "습기에 짓눌림을 느낌": "습기 눅눅 축축 후텁"
+    },
+    "contexts_en": {
+      "공기에 대한 꿈을 꿈": "merely simply generally",
+      "뜨거운 공기를 들이마심": "hot warm heated inhaled",
+      "차가운 공기를 느낌": "cold chilly cool freezing",
+      "습기에 짓눌림을 느낌": "damp humid muggy moisture"
+    }
+  },
+  {
+    "id": "angels",
+    "aliases": [
+      "수호천사",
+      "천사들",
+      "날개 달린 존재"
+    ],
+    "aliases_en": [
+      "an angel",
+      "a guardian angel",
+      "heavenly beings"
+    ],
+    "contexts": {
+      "천사를 보는 꿈을 꿈": "보았 바라보 나타났",
+      "천사 꿈이 유난히 기분 좋음": "기분좋 즐거운 유쾌 황홀",
+      "천사 꿈이 경고처럼 다가옴": "경고 위협 불길 섬뜩",
+      "악한 사람과 선한 사람이 각각 천사를 봄": "악한 선한 나쁜사람 착한사람"
+    },
+    "contexts_en": {
+      "천사를 보는 꿈을 꿈": "saw seeing appeared",
+      "천사 꿈이 유난히 기분 좋음": "pleasant delightful joyful blissful",
+      "천사 꿈이 경고처럼 다가옴": "warning ominous foreboding dread",
+      "악한 사람과 선한 사람이 각각 천사를 봄": "wicked righteous evil good"
+    }
+  },
+  {
+    "id": "anvil",
+    "aliases": [
+      "대장간",
+      "쇠모루"
+    ],
+    "aliases_en": [
+      "an anvil",
+      "a blacksmith's anvil",
+      "the smithy anvil"
+    ],
+    "contexts": {
+      "불꽃이 튀는 뜨거운 쇠를 봄": "불꽃 튀는 뜨거운 벌겋",
+      "쇠가 차갑거나 작음": "차갑 식은 작은 조그",
+      "모루를 보는 꿈을 꿈": "보았 바라보 놓여있",
+      "모루가 부서져 있음": "부서져 깨진 금이간 망가"
+    },
+    "contexts_en": {
+      "불꽃이 튀는 뜨거운 쇠를 봄": "sparks hot glowing fiery",
+      "쇠가 차갑거나 작음": "cold small chilly tiny",
+      "모루를 보는 꿈을 꿈": "saw looked lying",
+      "모루가 부서져 있음": "broken cracked shattered damaged"
+    }
+  },
+  {
+    "id": "apricot",
+    "aliases": [
+      "살구꽃",
+      "살구나무"
+    ],
+    "aliases_en": [
+      "an apricot",
+      "apricots",
+      "apricot fruit"
+    ],
+    "contexts": {
+      "살구가 자라는 것을 봄": "자라 열매가 익어가 주렁",
+      "살구를 먹음": "먹었 먹으 베어물 맛보",
+      "다른 사람이 살구를 먹는 것을 봄": "남이 다른사람 타인이 지켜보",
+      "살구가 사소한 일에 시간을 낭비한 것을 뜻한다는 말을 들음": "시간낭비 사소한 헛되이 속설"
+    },
+    "contexts_en": {
+      "살구가 자라는 것을 봄": "growing ripening tree orchard",
+      "살구를 먹음": "ate eating tasted myself",
+      "다른 사람이 살구를 먹는 것을 봄": "someone else watched another",
+      "살구가 사소한 일에 시간을 낭비한 것을 뜻한다는 말을 들음": "trifles wasted time superstition"
+    }
+  },
+  {
+    "id": "atonement",
+    "aliases": [
+      "참회",
+      "회개",
+      "죄를 씻"
+    ],
+    "aliases_en": [
+      "atoning",
+      "making amends",
+      "expiation",
+      "repentance"
+    ],
+    "contexts": {
+      "속죄의 꿈을 꿈": "단순히 그냥 평범",
+      "속죄의 꿈에서 젊은이들의 구애가 나타남": "구애 젊은이 연애 청혼",
+      "다른 사람이 자신의 그릇된 행동을 대신 속죄함": "대신 남이 다른사람 대신해",
+      "여성이 속죄의 꿈을 꿈": "여성 여자 그녀"
+    },
+    "contexts_en": {
+      "속죄의 꿈을 꿈": "merely simply plain",
+      "속죄의 꿈에서 젊은이들의 구애가 나타남": "courtship wooing lovers youths",
+      "다른 사람이 자신의 그릇된 행동을 대신 속죄함": "instead another behalf someone",
+      "여성이 속죄의 꿈을 꿈": "woman female"
+    }
+  }
+]

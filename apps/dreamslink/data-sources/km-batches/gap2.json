@@ -1,0 +1,753 @@
+[
+  {
+    "id": "boat",
+    "term_ko": "배",
+    "term_en": "boat",
+    "label_ko": "배(선박)",
+    "key_file": "km9",
+    "aliases": [
+      "나룻배",
+      "돛단배",
+      "선박",
+      "여객선",
+      "어선",
+      "보트",
+      "뱃머리"
+    ],
+    "aliases_en": [
+      "ship",
+      "sailboat",
+      "ferry",
+      "canoe",
+      "boats"
+    ],
+    "existing_contexts": {
+      "배가 지붕 위를 지나감": "지붕 옥상 기와 처마",
+      "배가 하늘을 날아감": "하늘 날아 날았 공중 떠올라",
+      "배가 얕은 물에서 언덕에 걸림": "얕은 얕아 언덕 모래 좌초 걸려 걸렸",
+      "배를 타고 강을 건넘": "강을 강물 강가 건너 건넜 나루",
+      "배 안에 물이 고여 있음": "고여 고인 침수 잠겨 새어들",
+      "배를 타고 해와 달을 봄": "해와 햇빛 달빛 일월 보았 봤다 바라봤 바라보 떠있는",
+      "배를 타고 해와 달을 지나감": "지나갔 지나가 지나쳐 스쳐 통과 가로질러",
+      "배를 타고 술을 마심": "술을 마셨 마시 취해 잔치",
+      "남과 한 배를 탐": "함께 같이 동승 일행 여럿이",
+      "배가 돛에 바람을 받아 나아감": "돛을 돛이 바람 순풍 나아가",
+      "배를 타고 키를 봄": "키를 키가 방향타 조타 노를",
+      "배를 타고 다리 밑을 지남": "다리 교각 밑을 아래로 지나쳤",
+      "앓는 사람이 배를 탐": "앓는 아픈 병든 환자 아파",
+      "아버지를 도와 배를 탐": "아버지 아버님 부친 도와 도왔",
+      "몸이 배 안에 누움": "누워 누웠 드러누 잠들 자고",
+      "불을 들고 배에 오름": "불을 횃불 등불 불빛 들고",
+      "집 안에서 배를 탐": "집안 방안 마당 실내 집에서",
+      "배를 타고 꽃을 봄": "꽃이 꽃을 꽃밭 만발 화사",
+      "배가 부서져 깨짐": "부서 깨졌 깨져 침몰 가라앉 난파"
+    },
+    "existing_contexts_en": {
+      "배가 지붕 위를 지나감": "roof rooftop tiles eaves",
+      "배가 하늘을 날아감": "sky airborne flew air ascended",
+      "배가 얕은 물에서 언덕에 걸림": "shallow shore aground stuck stranded sandbank",
+      "배를 타고 강을 건넘": "river crossing crossed cross ferry",
+      "배 안에 물이 고여 있음": "leaking leak flooded pooled bilge swamped",
+      "배를 타고 해와 달을 봄": "sun moon sunlight moonlight watched gazing",
+      "배를 타고 해와 달을 지나감": "passed passing sailed beyond glided",
+      "배를 타고 술을 마심": "drinking drank liquor wine alcohol",
+      "남과 한 배를 탐": "together others companion shared aboard",
+      "배가 돛에 바람을 받아 나아감": "sails wind breeze forward",
+      "배를 타고 키를 봄": "rudder helm steering tiller",
+      "배를 타고 다리 밑을 지남": "bridge underneath beneath arch",
+      "앓는 사람이 배를 탐": "sick illness patient ailing",
+      "아버지를 도와 배를 탐": "father dad helping helped",
+      "몸이 배 안에 누움": "lying lay asleep sleeping resting",
+      "불을 들고 배에 오름": "fire torch lamp lantern carrying",
+      "집 안에서 배를 탐": "house home indoors room courtyard",
+      "배를 타고 꽃을 봄": "flower flowers blossoms blooming",
+      "배가 부서져 깨짐": "broke broken wrecked sank sinking capsized"
+    },
+    "missing_meanings": [
+      {
+        "context": "맑은 물 위의 배를 봄",
+        "interpretation_ko": "밝은 전망을 예고하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "물이 사납고 거침",
+        "interpretation_ko": "근심과 불행한 변화가 위협할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "즐거운 일행과 함께 사고 없이 배에 오름",
+        "interpretation_ko": "많은 은혜가 쏟아질 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "폭풍우 치는 물에서 항해하다 배 밖으로 떨어짐",
+        "interpretation_ko": "불운한 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "term_ko": "다리",
+    "term_en": "bridge",
+    "key_file": "km9",
+    "aliases": [
+      "교량",
+      "돌다리",
+      "구름다리",
+      "육교",
+      "외나무다리"
+    ],
+    "aliases_en": [
+      "overpass",
+      "footbridge",
+      "bridges"
+    ],
+    "existing_contexts": {
+      "다리를 고쳐 손봄": "고쳐 고쳤 수리 보수 손질",
+      "다리를 건너는 것을 봄": "건너는 건너가 건넜 건너서",
+      "다리 위에 앉아 있음": "앉아 앉았 걸터앉 앉은",
+      "다리가 무너진 것을 봄": "무너 무너져 무너진 붕괴 내려앉",
+      "손을 잡고 함께 다리에 오름": "손잡고 손을잡 함께 같이 나란히",
+      "다리 위에서 소리쳐 부름": "소리쳐 소리질 외쳤 불렀 고함",
+      "다리를 새로 놓음": "새로 놓았 놓는 건설 세웠",
+      "다리가 끊어짐": "끊어 끊겼 끊긴 잘렸",
+      "다리 기둥이 부러짐": "기둥 교각 받침 부러 부러졌",
+      "다리와 길 위로 수레가 지나감": "수레 마차 달려 길위로",
+      "배로 다리 밑을 지나감": "배가 배로 밑을 아래로 뱃길"
+    },
+    "existing_contexts_en": {
+      "다리를 고쳐 손봄": "repair repaired repairing fixing mending",
+      "다리를 건너는 것을 봄": "crossing crossed across walking over",
+      "다리 위에 앉아 있음": "sitting sat perched",
+      "다리가 무너진 것을 봄": "collapsed collapsing crumbled caved",
+      "손을 잡고 함께 다리에 오름": "holding hands together climbed",
+      "다리 위에서 소리쳐 부름": "shouting shouted calling yelled",
+      "다리를 새로 놓음": "new build built building constructed",
+      "다리가 끊어짐": "snapped severed cut broke apart",
+      "다리 기둥이 부러짐": "pillar pier post column support",
+      "다리와 길 위로 수레가 지나감": "cart wagon carriage road passing",
+      "배로 다리 밑을 지나감": "boat sailing underneath beneath"
+    },
+    "missing_meanings": [
+      {
+        "context": "낡고 어둠 속으로 이어진 긴 다리를 봄",
+        "interpretation_ko": "소중한 것을 잃는 깊은 우울과 암울한 상황이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "젊은이나 연인이 낡고 어두운 다리를 봄",
+        "interpretation_ko": "마음에 품은 가장 큰 소망에 실망하고 사랑하는 사람이 이상에 못 미칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "다리를 안전하게 건넘",
+        "interpretation_ko": "방법이 위태로워 보여도 결국 어려움을 극복할 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "다리를 건너다가 장애나 지체를 겪음",
+        "interpretation_ko": "재앙이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "눈앞에서 다리가 무너짐",
+        "interpretation_ko": "배신과 거짓 숭배자를 조심해야 할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "다리 아래로 맑은 물을 봄",
+        "interpretation_ko": "풍요가 따를 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "다리 아래로 흐리고 탁한 물을 보거나 닿음",
+        "interpretation_ko": "최선을 다한 노력이 슬픈 결과로 돌아올 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "mirror",
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "key_file": "km9",
+    "aliases": [
+      "손거울",
+      "전신거울",
+      "화장거울",
+      "경대"
+    ],
+    "aliases_en": [
+      "looking glass",
+      "hand mirror",
+      "mirrors"
+    ],
+    "existing_contexts": {
+      "거울에 비친 모습이 밝음": "밝았 밝아 밝은 환한 또렷",
+      "거울에 비친 모습이 어두움": "어두웠 어두워 어두운 캄캄 침침",
+      "깨진 거울로 사람을 비춤": "깨진 금간 조각난 갈라진",
+      "거울이 밝게 비침": "밝게 환하게 빛났 빛나 반짝",
+      "거울이 어둡게 흐림": "흐릿 흐려 흐린 뿌옇 김서",
+      "거울을 주움": "주웠 주운 줍는 떨어져있",
+      "거울로 자기를 비춰 봄": "자신 자기 스스로 나를",
+      "거울로 남을 비춤": "남을 다른사람 타인 상대방",
+      "남의 거울을 얻음": "얻었 얻은 받았 선물 남의",
+      "남이 자기 거울을 만지작거림": "만지작 만졌 만지 손대 뒤적",
+      "거울이 깨짐": "깨졌 깨져 깨뜨 산산조각 부서"
+    },
+    "existing_contexts_en": {
+      "거울에 비친 모습이 밝음": "bright brightly clear vivid glowing",
+      "거울에 비친 모습이 어두움": "dark darkly dim gloomy murky",
+      "깨진 거울로 사람을 비춤": "cracked chipped split fractured",
+      "거울이 밝게 비침": "shining shone gleaming sparkling radiant",
+      "거울이 어둡게 흐림": "cloudy blurry foggy hazy dull tarnished",
+      "거울을 주움": "picked found lying ground",
+      "거울로 자기를 비춰 봄": "myself self own face",
+      "거울로 남을 비춤": "another person else others",
+      "남의 거울을 얻음": "received got given borrowed",
+      "남이 자기 거울을 만지작거림": "touching touched handling fiddling",
+      "거울이 깨짐": "broke breaking shattered smashed pieces"
+    },
+    "missing_meanings": [
+      {
+        "context": "거울에 비친 자신을 봄",
+        "interpretation_ko": "낙담할 일이 많고 병으로 근심하며 재물을 잃을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "거울 속 다른 사람을 봄",
+        "interpretation_ko": "남들이 자기 이익을 위해 부당하게 대할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "거울 속 동물을 봄",
+        "interpretation_ko": "실망하고 재물을 잃을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "여성이 거울을 깨뜨림",
+        "interpretation_ko": "불행한 우정과 불행한 결혼을 예고하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "거울 속 창백한 애인을 봄",
+        "interpretation_ko": "죽음이나 파혼을 예고하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "거울 속 행복한 애인을 봄",
+        "interpretation_ko": "잠시 소원해지나 오래가지 않을 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "belt",
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "key_file": "km9",
+    "aliases": [
+      "혁대",
+      "벨트",
+      "허리끈",
+      "허리춤"
+    ],
+    "aliases_en": [
+      "sash",
+      "girdle",
+      "waistband",
+      "belts"
+    ],
+    "existing_contexts": {
+      "남이 허리띠를 보내옴": "보내왔 보내온 남이 선물 부쳐",
+      "관복의 띠를 주움": "주웠 주운 관복 떨어져있",
+      "허리띠를 맴": "매었 매고 둘렀 차고",
+      "옷의 띠가 저절로 풀림": "저절로 풀렸 풀려 풀어졌 스르르",
+      "띠를 졸라맴": "졸라 조였 조여 단단히 꽉조"
+    },
+    "existing_contexts_en": {
+      "남이 허리띠를 보내옴": "sent gave brought someone",
+      "관복의 띠를 주움": "picked found official robe",
+      "허리띠를 맴": "fastened wore wearing",
+      "옷의 띠가 저절로 풀림": "undone loosened untied itself",
+      "띠를 졸라맴": "tightened tight cinched pulled"
+    },
+    "missing_meanings": [
+      {
+        "context": "최신 유행 벨트를 가진 꿈을 꿈",
+        "interpretation_ko": "곧 낯선 사람을 만나 약속을 하게 되고 그것이 번영을 해칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "유행이 지난 벨트를 봄",
+        "interpretation_ko": "무례함으로 마땅히 비난받을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "shackles",
+    "term_ko": "족쇄",
+    "term_en": "shackles",
+    "key_file": "km9",
+    "aliases": [
+      "사슬",
+      "쇠줄",
+      "차꼬",
+      "형틀",
+      "쇠고랑",
+      "수갑"
+    ],
+    "aliases_en": [
+      "chains",
+      "iron chain",
+      "shackle",
+      "fetters",
+      "handcuffs",
+      "manacles"
+    ],
+    "existing_contexts": {
+      "칼과 족쇄가 몸에 채워짐": "칼과 채워 몸에",
+      "족쇄가 부러져 망가짐": "부러 망가 부서 끊어",
+      "족쇄가 집 안으로 들어옴": "집안 안으로 들어옴",
+      "족쇄를 두려워함": "두려 무서 겁이"
+    },
+    "existing_contexts_en": {
+      "칼과 족쇄가 몸에 채워짐": "cangue locked bound body",
+      "족쇄가 부러져 망가짐": "broken snapped shattered",
+      "족쇄가 집 안으로 들어옴": "house entered inside home",
+      "족쇄를 두려워함": "afraid feared frightened dread"
+    },
+    "missing_meanings": [
+      {
+        "context": "칼과 쇠사슬이 몸에 채워짐",
+        "interpretation_ko": "병이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "insect",
+    "term_ko": "벌레",
+    "term_en": "insect",
+    "key_file": "km9",
+    "aliases": [
+      "곤충",
+      "구더기",
+      "애벌레",
+      "송충이"
+    ],
+    "aliases_en": [
+      "insects",
+      "bug",
+      "bugs",
+      "worms"
+    ],
+    "existing_contexts": {
+      "병든 몸에 벌레가 생김": "병든 아픈 상처 생겼 들끓 곪은",
+      "몸 위로 벌레가 기어감": "기어 기어가 기어다 스멀",
+      "몸이 벌레 위에 앉음": "앉았 위에앉 깔고 눌러 밟았"
+    },
+    "existing_contexts_en": {
+      "병든 몸에 벌레가 생김": "sick ill wound sores infested appeared",
+      "몸 위로 벌레가 기어감": "crawling crawled creeping over",
+      "몸이 벌레 위에 앉음": "sat sitting pressed squashed"
+    },
+    "missing_meanings": [
+      {
+        "context": "벌레를 봄",
+        "interpretation_ko": "일상에 역겹고 성가신 문제가 생기고, 하인들의 부주의로 가족이 고생하며 병이 뒤따를 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "siblings",
+    "term_ko": "형제",
+    "term_en": "brothers",
+    "key_file": "km9",
+    "aliases": [
+      "남매",
+      "자매",
+      "오누이"
+    ],
+    "aliases_en": [
+      "brothers",
+      "sisters",
+      "brother and sister"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "형제가 활기 넘치는 모습을 봄",
+        "interpretation_ko": "자신이나 형제의 행운을 기뻐할 일이 생길 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "형제가 가난하고 곤경에 처하거나 도움을 구걸함",
+        "interpretation_ko": "곧 임종을 지키게 되거나 자신 또는 형제에게 심각한 손실이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "형제가 서로 헤어짐",
+        "interpretation_ko": "구설이 닥칠 조짐",
+        "polarity": "negative",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "bird",
+    "term_ko": "새",
+    "term_en": "bird",
+    "key_file": "km8",
+    "aliases": [
+      "조류",
+      "날짐승",
+      "산새",
+      "들새"
+    ],
+    "aliases_en": [
+      "a bird",
+      "birds"
+    ],
+    "existing_contexts": {
+      "공중에서 새가 욺": "공중 하늘 울었 울음 지저귀",
+      "나는 새가 품에 들어옴": "품에 품으로 안겼 들어옴",
+      "나는 새를 붙잡음": "붙잡 잡았 손에잡",
+      "새가 달려오고 뱀이 다가옴": "뱀이 뱀과 다가",
+      "새를 죽임": "죽였 죽임 죽이"
+    },
+    "existing_contexts_en": {
+      "공중에서 새가 욺": "sky air crying chirping sang",
+      "나는 새가 품에 들어옴": "bosom chest embrace flew into",
+      "나는 새를 붙잡음": "caught grabbed seized",
+      "새가 달려오고 뱀이 다가옴": "snake approaching slither",
+      "새를 죽임": "killed killing kill"
+    },
+    "missing_meanings": [
+      {
+        "context": "아름다운 깃털의 새를 봄",
+        "interpretation_ko": "길조로 여겨지는 꿈",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "여성이 아름다운 깃털의 새 꿈을 꿈",
+        "interpretation_ko": "부유하고 행복한 배우자가 가까이 있다는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "털갈이하거나 울지 않는 새를 봄",
+        "interpretation_ko": "부유한 사람들이 버림받고 몰락한 이들을 무자비하고 비정하게 대한다는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "다친 새를 봄",
+        "interpretation_ko": "그릇된 자녀로 인한 깊은 슬픔을 예고하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "날아가는 새를 봄",
+        "interpretation_ko": "꿈꾼 사람에게 번영이 따를 조짐이며, 불쾌한 상황은 다가올 행운의 물결 앞에 사라질 것",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "새를 잡음",
+        "interpretation_ko": "전혀 나쁘지 않은 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      },
+      {
+        "context": "새가 말하는 소리를 들음",
+        "interpretation_ko": "명확한 판단력을 요하는 일을 수행할 능력이 없음을 스스로 인정하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "총으로 새를 쏘아 죽임",
+        "interpretation_ko": "흉작으로 인한 재앙을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "banner",
+    "term_ko": "깃발",
+    "term_en": "banner",
+    "key_file": "km8",
+    "aliases": [
+      "군기",
+      "깃대",
+      "기치"
+    ],
+    "aliases_en": [
+      "a flag",
+      "flags",
+      "banners",
+      "pennant"
+    ],
+    "existing_contexts": {
+      "깃발에 용이 그려져 있음": "용이 그려 그림 용무늬",
+      "깃발과 부절을 품에 안음": "품에 안았 안고 껴안",
+      "깃발과 칼이 산속으로 이끌어 들임": "산속 칼과 이끌",
+      "깃발과 일산을 만듦": "일산 양산 만들 만듦",
+      "깃발을 들고 나가 맞이함": "맞이 마중 영접",
+      "깃발이 끝내 밖으로 나감": "밖으로 나갔 사라",
+      "손에 깃발과 부절을 듦": "손에 손으로 쥐고 부절",
+      "새 깃발을 만드는 것을 봄": "새로 새것 만드는",
+      "번과 일산을 만듦": "번과 번기"
+    },
+    "existing_contexts_en": {
+      "깃발에 용이 그려져 있음": "dragon drawn painted embroidered",
+      "깃발과 부절을 품에 안음": "embraced bosom chest hugged",
+      "깃발과 칼이 산속으로 이끌어 들임": "sword mountain led into",
+      "깃발과 일산을 만듦": "parasol canopy made",
+      "깃발을 들고 나가 맞이함": "greet welcome meeting",
+      "깃발이 끝내 밖으로 나감": "outside away gone",
+      "손에 깃발과 부절을 듦": "hand holding held tally",
+      "새 깃발을 만드는 것을 봄": "new making watched",
+      "번과 일산을 만듦": "streamer pennon"
+    },
+    "missing_meanings": [
+      {
+        "context": "맑은 하늘에 자국 깃발이 휘날리는 것을 봄",
+        "interpretation_ko": "외적에 대한 승리를 뜻하는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "찢기고 낡은 깃발을 봄",
+        "interpretation_ko": "전쟁과 육해군의 명예 실추를 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "axe",
+    "term_ko": "도끼",
+    "term_en": "axe",
+    "key_file": "km8",
+    "aliases": [
+      "손도끼",
+      "도끼날"
+    ],
+    "aliases_en": [
+      "an axe",
+      "axes",
+      "hatchet",
+      "an ax"
+    ],
+    "existing_contexts": {
+      "칼과 도끼에 스스로 다침": "칼과 칼에",
+      "남에게서 칼과 도끼를 얻음": "얻었 받았 선물",
+      "창과 도끼에 빛이 남": "빛이 빛나 번쩍 창과",
+      "도끼에 스스로 다침": "스스로 저절로 다쳤"
+    },
+    "existing_contexts_en": {
+      "칼과 도끼에 스스로 다침": "sword knife blade",
+      "남에게서 칼과 도끼를 얻음": "received given gift someone",
+      "창과 도끼에 빛이 남": "spear shining glowing gleam",
+      "도끼에 스스로 다침": "myself accidentally wounded hurt"
+    },
+    "missing_meanings": [
+      {
+        "context": "도끼를 봄",
+        "interpretation_ko": "누릴 즐거움이 자신의 애씀과 기운에 달려 있을 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      },
+      {
+        "context": "다른 사람이 도끼 쓰는 것을 봄",
+        "interpretation_ko": "친구들이 활기차고 생기 있어 그들과 가까이 있으면 즐거울 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "젊은 여성이 도끼를 봄",
+        "interpretation_ko": "애인은 훌륭하겠지만 재물은 많지 않을 조짐",
+        "polarity": "neutral",
+        "work": "miller"
+      },
+      {
+        "context": "깨지거나 녹슨 도끼를 봄",
+        "interpretation_ko": "병들고 돈과 재산을 잃을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "beard",
+    "term_ko": "수염",
+    "term_en": "beard",
+    "key_file": "km3",
+    "aliases": [
+      "구레나룻"
+    ],
+    "aliases_en": [
+      "beards",
+      "whiskers",
+      "mustache"
+    ],
+    "existing_contexts": {
+      "수염이 희어져 빠짐": "희어 하얘 세어 허옇 빠지",
+      "빠졌던 수염이 다시 남": "다시 새로 자라 돋아 났다"
+    },
+    "existing_contexts_en": {
+      "수염이 희어져 빠짐": "white grey turned falling",
+      "빠졌던 수염이 다시 남": "grew back again regrew new"
+    },
+    "missing_meanings": [
+      {
+        "context": "수염을 보는 꿈을 꿈",
+        "interpretation_ko": "마음이 맞지 않는 사람과 주도권 다툼이 벌어지고 돈을 잃을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "흰 수염을 봄",
+        "interpretation_ko": "불운과 다툼을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "여성에게 난 수염을 봄",
+        "interpretation_ko": "불쾌한 인간관계와 오래가는 병을 예고하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "누군가 자신의 수염을 잡아당김",
+        "interpretation_ko": "재산을 잃지 않으려면 아슬아슬한 위험을 겪게 될 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "수염을 빗으며 감탄함",
+        "interpretation_ko": "번영과 함께 허영심이 커져 예전 동료들에게 미움을 살 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "젊은 여성이 수염에 감탄함",
+        "interpretation_ko": "독신 생활을 벗어나고 싶어 하지만 불행한 결혼의 위협을 받을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      }
+    ]
+  },
+  {
+    "id": "bear",
+    "term_ko": "곰",
+    "term_en": "bear",
+    "key_file": "km3",
+    "aliases": [
+      "반달곰",
+      "불곰",
+      "흑곰"
+    ],
+    "aliases_en": [
+      "bears",
+      "black bear",
+      "grizzly"
+    ],
+    "existing_contexts": {},
+    "existing_contexts_en": {},
+    "missing_meanings": [
+      {
+        "context": "곰 꿈을 꿈",
+        "interpretation_ko": "온갖 일에서 압도적인 경쟁을 뜻하는 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "곰을 죽임",
+        "interpretation_ko": "이전의 얽힌 문제에서 벗어날 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      },
+      {
+        "context": "젊은 여성이 곰 꿈을 꿈",
+        "interpretation_ko": "위협적인 경쟁자가 생기거나 어떤 불행을 겪을 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "곰을 봄",
+        "interpretation_ko": "귀한 자식을 낳을 조짐",
+        "polarity": "positive",
+        "work": "zhougong"
+      }
+    ]
+  },
+  {
+    "id": "bell",
+    "term_ko": "종",
+    "term_en": "bells",
+    "key_file": "km3",
+    "aliases": [
+      "종소리",
+      "범종",
+      "쇠북"
+    ],
+    "aliases_en": [
+      "bells",
+      "temple bell",
+      "gong"
+    ],
+    "existing_contexts": {
+      "종과 경쇠가 소리를 냄": "경쇠 소리를 맑은 은은",
+      "종과 북이 크게 울림": "북이 북과 크게 우렁 요란"
+    },
+    "existing_contexts_en": {
+      "종과 경쇠가 소리를 냄": "chime chimes stone sounding clear",
+      "종과 북이 크게 울림": "drum drums loud thunderous booming"
+    },
+    "missing_meanings": [
+      {
+        "context": "종이 조종처럼 울리는 소리를 들음",
+        "interpretation_ko": "멀리 있는 친구의 죽음이 있고 나쁜 소식이 근심하게 할 조짐",
+        "polarity": "negative",
+        "work": "miller"
+      },
+      {
+        "context": "자유의 종을 봄",
+        "interpretation_ko": "상대에 대한 기쁜 승리를 나타내는 조짐",
+        "polarity": "positive",
+        "work": "miller"
+      }
+    ]
+  }
+]
