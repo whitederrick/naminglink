@@ -146,7 +146,7 @@ if (files.length === 0) {
     process.exit(2);
   }
   files = readdirSync(EXTRACT_DIR)
-    .filter((f) => /^result\d+\.json$/.test(f))
+    .filter((f) => /^(r\d+|result-tomb)\.json$/.test(f))
     .sort()
     .map((f) => path.join(EXTRACT_DIR, f));
 }

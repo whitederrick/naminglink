@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "집을 지음",
+    "interpretation_ko": "지금의 일을 지혜롭게 바꿀 조짐",
+    "interpretation_en": "a sign that you will make wise changes in your present affairs",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "House",
+      "original": "To dream of building a house, you will make wise changes in your present affairs.",
+      "translation_ko": "집을 짓는 꿈을 꾸면 지금의 일을 지혜롭게 바꾸게 된다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "우아한 집을 소유함",
+    "interpretation_ko": "더 나은 집으로 옮기고 운이 따를 조짐",
+    "interpretation_en": "a sign that you will soon move to a better home and fortune will favor you",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "House",
+      "original": "To dream that you own an elegant house, denotes that you will soon leave your home for a better, and fortune will be kind to you.",
+      "translation_ko": "우아한 집을 소유한 꿈을 꾸면 곧 더 나은 집으로 옮기고 운이 따르게 된다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "낡고 허름한 집을 봄",
+    "interpretation_ko": "사업이나 노력에 실패하고 건강이 나빠질 조짐",
+    "interpretation_en": "a sign of failure in business or effort, and declining health",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "House",
+      "original": "Old and dilapidated houses, denote failure in business or any effort, and declining health.",
+      "translation_ko": "낡고 허름한 집은 사업이나 어떤 노력이든 실패하고 건강이 나빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울에 비친 자신을 봄",
+    "interpretation_ko": "낙담할 일이 많고 병으로 근심하며 재물을 잃을 조짐",
+    "interpretation_en": "a sign that you will meet many discouraging issues, and sickness will cause distress and loss of fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "To dream of seeing yourself in a mirror, denotes that you will meet many discouraging issues, and sickness will cause you distress and loss in fortune.",
+      "translation_ko": "거울 속 자신을 보는 꿈을 꾸면 낙담할 일을 많이 만나고 병으로 근심하며 재물을 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울이 깨짐",
+    "interpretation_ko": "가까운 사람의 갑작스럽거나 비참한 죽음을 예고하는 조짐",
+    "interpretation_en": "a sign foretelling the sudden or violent death of someone related to you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "To see a broken mirror, foretells the sudden or violent death of some one related to you.",
+      "translation_ko": "깨진 거울을 보면 가까운 사람이 갑작스럽거나 비참하게 죽을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울 속 다른 사람을 봄",
+    "interpretation_ko": "남들이 자기 이익을 위해 부당하게 대할 조짐",
+    "interpretation_en": "a sign that others will treat you unfairly to promote their own interests",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "To see others in a mirror, denotes that others will act unfairly towards you to promote their own interests.",
+      "translation_ko": "거울 속에서 다른 사람을 보면 남들이 자기 이익을 위해 부당하게 대할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울 속 동물을 봄",
+    "interpretation_ko": "실망하고 재물을 잃을 조짐",
+    "interpretation_en": "a sign of disappointment and loss of fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "To see animals in a mirror, denotes disappointment and loss in fortune.",
+      "translation_ko": "거울 속에서 동물을 보면 실망하고 재물을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "여성이 거울을 깨뜨림",
+    "interpretation_ko": "불행한 우정과 불행한 결혼을 예고하는 조짐",
+    "interpretation_en": "a sign foretelling unfortunate friendships and an unhappy marriage",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "For a young woman to break a mirror, foretells unfortunate friendships and an unhappy marriage.",
+      "translation_ko": "젊은 여성이 거울을 깨뜨리면 불행한 우정과 불행한 결혼을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울 속 창백한 애인을 봄",
+    "interpretation_ko": "죽음이나 파혼을 예고하는 조짐",
+    "interpretation_en": "a sign foretelling death or a broken engagement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "To see her lover in a mirror looking pale and careworn, denotes death or a broken engagement.",
+      "translation_ko": "거울 속 애인이 창백하고 초췌해 보이면 죽음이나 파혼을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거울",
+    "term_en": "mirror",
+    "context": "거울 속 행복한 애인을 봄",
+    "interpretation_ko": "잠시 소원해지나 오래가지 않을 조짐",
+    "interpretation_en": "a sign that a slight estrangement will arise but will be short-lived",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mirror",
+      "original": "If he seems happy, a slight estrangement will arise, but it will be of short duration.",
+      "translation_ko": "애인이 행복해 보이면 잠시 소원해지지만 오래가지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아기",
+    "term_en": "baby",
+    "context": "우는 아기를 봄",
+    "interpretation_ko": "건강 악화와 실망을 예고하는 흉조",
+    "interpretation_en": "a sign foretelling ill health and disappointments",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Baby",
+      "original": "To dream of crying babies, is indicative of ill health and disappointments.",
+      "translation_ko": "우는 아기 꿈을 꾸면 건강이 나빠지고 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아기",
+    "term_en": "baby",
+    "context": "밝고 깨끗한 아기를 봄",
+    "interpretation_ko": "사랑이 이루어지고 좋은 친구가 많이 생길 조짐",
+    "interpretation_en": "a sign that love will be requited and many warm friends will come",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Baby",
+      "original": "A bright, clean baby, denotes love requited, and many warm friends.",
+      "translation_ko": "밝고 깨끗한 아기는 사랑이 이루어지고 좋은 친구가 많이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아기",
+    "term_en": "baby",
+    "context": "아기가 혼자 걸음",
+    "interpretation_ko": "독립심과 사소한 것에 얽매이지 않을 조짐",
+    "interpretation_en": "a sure sign of independence and total disregard of lesser concerns",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Baby",
+      "original": "Walking alone, it is a sure sign of independence and a total ignoring of smaller spirits.",
+      "translation_ko": "아기가 혼자 걷는 것은 독립심과 사소한 것에 얽매이지 않을 확실한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아기",
+    "term_en": "baby",
+    "context": "여성이 아기에게 젖을 물리는 꿈을 꿈",
+    "interpretation_ko": "가장 믿는 사람에게 속을 조짐",
+    "interpretation_en": "a sign that you will be deceived by the one you trust most",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Baby",
+      "original": "If a woman dream she is nursing a baby, she will be deceived by the one she trusts most.",
+      "translation_ko": "여성이 아기에게 젖을 물리는 꿈을 꾸면 가장 믿는 사람에게 속게 된다"
+    }
+  },
+  {
+    "term_ko": "아기",
+    "term_en": "baby",
+    "context": "열병 걸린 아기를 데려가는 꿈을 꿈",
+    "interpretation_ko": "마음에 근심이 많을 흉조",
+    "interpretation_en": "a bad sign that you will have many sorrows of mind",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Baby",
+      "original": "It is a bad sign to dream that you take your baby if sick with fever. You will have many sorrows of mind.",
+      "translation_ko": "열병에 걸린 아기를 데려가는 꿈을 꾸는 것은 마음에 근심이 많을 흉조다"
+    }
+  }
+]

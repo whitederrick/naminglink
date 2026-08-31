@@ -1,0 +1,392 @@
+[
+  {
+    "term_ko": "솔",
+    "term_en": "brush",
+    "context": "머리빗을 사용함",
+    "interpretation_ko": "잘못된 처신으로 불행을 겪을 조짐",
+    "interpretation_en": "a sign that you will suffer misfortune from your own mismanagement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Brush",
+      "original": "To dream of using a hair-brush, denotes you will suffer misfortune from your mismanagement.",
+      "translation_ko": "머리빗을 사용하는 꿈을 꾸면 잘못된 처신으로 불행을 겪게 된다"
+    }
+  },
+  {
+    "term_ko": "솔",
+    "term_en": "brush",
+    "context": "오래된 머리빗을 봄",
+    "interpretation_ko": "병들고 건강이 나빠질 조짐",
+    "interpretation_en": "a sign of sickness and ill health",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Brush",
+      "original": "To see old hair brushes, denotes sickness and ill health.",
+      "translation_ko": "오래된 머리빗을 보면 병들고 건강이 나빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솔",
+    "term_en": "brush",
+    "context": "옷솔을 봄",
+    "interpretation_ko": "힘겨운 일이 곧 닥칠 조짐",
+    "interpretation_en": "a sign that a heavy task is pending over you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Brush",
+      "original": "To see clothes brushes, indicates a heavy task is pending over you.",
+      "translation_ko": "옷솔을 보면 힘겨운 일이 곧 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솔",
+    "term_en": "brush",
+    "context": "옷을 솔질하느라 분주함",
+    "interpretation_ko": "고된 일에 대한 보상을 곧 받을 조짐",
+    "interpretation_en": "a sign that you will soon receive reimbursement for laborious work",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Brush",
+      "original": "If you are busy brushing your clothes, you will soon receive reimbursement for laborious work.",
+      "translation_ko": "옷을 솔질하느라 분주하면 고된 일에 대한 보상을 곧 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솔",
+    "term_en": "brush",
+    "context": "여러 종류의 솔을 봄",
+    "interpretation_ko": "다양하지만 제법 즐겁고 보수도 좋은 일거리가 생길 조짐",
+    "interpretation_en": "a sign of a varied line of work, yet withal rather pleasing and remunerative",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Brush",
+      "original": "To see miscellaneous brushes, foretells a varied line of work, yet withal, rather pleasing and remunerative.",
+      "translation_ko": "여러 종류의 솔을 보면 다양하지만 제법 즐겁고 보수도 좋은 일거리가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "버클",
+    "term_en": "buckle",
+    "context": "버클을 봄",
+    "interpretation_ko": "즐거운 자리로의 초대가 이어지고 일이 어지럽게 뒤엉킬 조짐",
+    "interpretation_en": "a sign that you will be beset with invitations to places of pleasure, and your affairs will be in danger of chaotic confusion",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buckle",
+      "original": "To dream of buckles, foretells that you will be beset with invitations to places of pleasure, and your affairs will be in danger of chaotic confusion.",
+      "translation_ko": "버클 꿈을 꾸면 즐거운 자리로의 초대가 이어지고 일이 어지럽게 뒤엉킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물소",
+    "term_en": "buffalo",
+    "context": "여성이 물소 여러 마리를 죽임",
+    "interpretation_ko": "엄청난 일을 벌이나 의지로 밀어붙이고 물질적 쾌락을 버려 남자들의 찬사를 얻고 오래 바라던 은혜를 받을 조짐",
+    "interpretation_en": "a sign that she will undertake a stupendous enterprise, but by enforcing will power and leaving off material pleasures, she will win commendation from men, and may receive long wished for favors",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buffalo",
+      "original": "If a woman dreams that she kills a lot of buffaloes, she will undertake a stupendous enterprise, but by enforcing will power and leaving off material pleasures, she will win commendation from men, and may receive long wished for favors.",
+      "translation_ko": "여성이 물소 여러 마리를 죽이는 꿈을 꾸면 엄청난 일을 벌이나, 의지로 밀어붙이고 물질적 쾌락을 버려 남자들의 찬사를 얻고 오래 바라던 은혜를 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물소",
+    "term_en": "buffalo",
+    "context": "물소를 봄",
+    "interpretation_ko": "고집 세고 힘은 세나 우둔한 적들이 있음을 예고하며, 그들이 대놓고 맞서 와도 지혜로 대처하면 불행을 면할 조짐",
+    "interpretation_en": "a sign of obstinate and powerful but stupid enemies, who will boldly declare against you but whom you will escape by diplomacy",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buffalo",
+      "original": "Buffalo, seen in a dream, augurs obstinate and powerful but stupid enemies. They will boldly declare against you but by diplomacy you will escape much misfortune.",
+      "translation_ko": "꿈에서 물소를 보면 고집 세고 힘은 세나 우둔한 적들이 있다는 조짐이다. 그들이 대놓고 맞서 오지만 지혜로 대처하면 큰 불행을 면하게 된다"
+    }
+  },
+  {
+    "term_ko": "나팔",
+    "term_en": "bugle",
+    "context": "나팔에서 나는 즐거운 소리를 들음",
+    "interpretation_ko": "보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐",
+    "interpretation_en": "a sign to prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Bugle",
+      "original": "To hear joyous blasts from a bugle, prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers.",
+      "translation_ko": "나팔에서 나는 즐거운 소리를 들으면 보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나팔",
+    "term_en": "bugle",
+    "context": "나팔을 붊",
+    "interpretation_ko": "운 좋은 거래가 있을 조짐",
+    "interpretation_en": "a sign of fortunate dealings",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Bugle",
+      "original": "Blowing a bugle, denotes fortunate dealings.",
+      "translation_ko": "나팔을 불면 운 좋은 거래가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벌레",
+    "term_en": "bugs",
+    "context": "벌레를 봄",
+    "interpretation_ko": "일상에 역겹고 성가신 문제가 생기고, 하인들의 부주의로 가족이 고생하며 병이 뒤따를 조짐",
+    "interpretation_en": "a sign that some disgustingly revolting complications will rise in your daily life; families will suffer from the carelessness of servants, and sickness may follow",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bugs",
+      "original": "To dream of bugs denotes that some disgustingly revolting complications will rise in your daily life. Families will suffer from the carelessness of servants, and sickness may follow.",
+      "translation_ko": "벌레 꿈을 꾸면 일상에 역겹고 성가신 문제가 생기고, 하인들의 부주의로 가족이 고생하며 병이 뒤따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "건물",
+    "term_en": "building",
+    "context": "크고 웅장한 건물 앞에 푸른 잔디가 펼쳐진 것을 봄",
+    "interpretation_ko": "풍요로운 긴 삶과 먼 나라로의 여행과 탐험을 뜻하는 조짐",
+    "interpretation_en": "a sign of a long life of plenty, and travels and explorations into distant countries",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Buildings",
+      "original": "To see large and magnificent buildings, with green lawns stretching out before them, is significant of a long life of plenty, and travels and explorations into distant countries.",
+      "translation_ko": "크고 웅장한 건물 앞에 푸른 잔디가 펼쳐진 것을 보면 풍요로운 긴 삶과 먼 나라로의 여행과 탐험을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "건물",
+    "term_en": "building",
+    "context": "작고 새로 지은 집을 봄",
+    "interpretation_ko": "행복한 가정과 이로운 사업을 뜻하는 조짐",
+    "interpretation_en": "a sign of happy homes and profitable undertakings",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Buildings",
+      "original": "Small and newly built houses, denote happy homes and profitable undertakings",
+      "translation_ko": "작고 새로 지은 집은 행복한 가정과 이로운 사업을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "건물",
+    "term_en": "building",
+    "context": "낡고 지저분한 건물을 봄",
+    "interpretation_ko": "건강이 나빠지고 사랑과 사업이 쇠퇴할 조짐",
+    "interpretation_en": "a sign that ill health and decay of love and business will follow",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Buildings",
+      "original": "if old and filthy buildings, ill health and decay of love and business will follow.",
+      "translation_ko": "낡고 지저분한 건물이면 건강이 나빠지고 사랑과 사업이 쇠퇴할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "황소",
+    "term_en": "bull",
+    "context": "황소가 자신을 쫓아오는 것을 봄",
+    "interpretation_ko": "시기하고 질투하는 경쟁자들 때문에 사업에 어려움을 겪을 조짐",
+    "interpretation_en": "a sign that business trouble, through envious and jealous competitors, will harass you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bull",
+      "original": "To see one pursuing you, business trouble, through envious and jealous competitors, will harass you.",
+      "translation_ko": "황소가 자신을 쫓아오는 것을 보면 시기하고 질투하는 경쟁자들 때문에 사업에 어려움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "황소",
+    "term_en": "bull",
+    "context": "젊은 여성이 황소를 만남",
+    "interpretation_ko": "청혼을 받으나 거절함으로써 더 나은 운을 얻을 조짐",
+    "interpretation_en": "a sign that she will have an offer of marriage, but by declining this offer, will better her fortune",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bull",
+      "original": "If a young woman meets a bull, she will have an offer of marriage, but, by declining this offer, she will better her fortune.",
+      "translation_ko": "젊은 여성이 황소를 만나면 청혼을 받지만 그것을 거절함으로써 더 나은 운을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "황소",
+    "term_en": "bull",
+    "context": "황소가 사람을 뿔로 들이받는 것을 봄",
+    "interpretation_ko": "남의 것을 함부로 써서 불행을 자초할 조짐",
+    "interpretation_en": "a sign that misfortune from unwisely using another's possessions will overtake you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bull",
+      "original": "To see a bull goring a person, misfortune from unwisely using another's possessions will overtake you.",
+      "translation_ko": "황소가 사람을 뿔로 들이받는 것을 보면 남의 것을 함부로 써서 불행을 자초할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "황소",
+    "term_en": "bull",
+    "context": "흰 황소를 봄",
+    "interpretation_ko": "물질을 최고로 여기는 이들보다 더 높은 삶의 경지로 올라서며 대개 이득을 뜻하는 조짐",
+    "interpretation_en": "a sign that you will lift yourself up to a higher plane of life than those who persist in making material things their God; it usually denotes gain",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bull",
+      "original": "To dream of a white bull, denotes that you will lift yourself up to a higher plane of life than those who persist in making material things their God. It usually denotes gain.",
+      "translation_ko": "흰 황소 꿈을 꾸면 물질을 최고로 여기는 이들보다 더 높은 삶의 경지로 올라서게 되며, 대개 이득을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불도그",
+    "term_en": "bulldog",
+    "context": "낯선 곳에 들어갔다가 불도그의 공격을 받음",
+    "interpretation_ko": "위증으로 원하는 것을 얻으려다 법을 어길 위험이 있을 조짐",
+    "interpretation_en": "a sign that you will be in danger of transgressing the laws of your country by using perjury to obtain your desires",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bulldog",
+      "original": "To dream of entering strange premises and have a bulldog attack you, you will be in danger of transgressing the laws of your country by using perjury to obtain your desires.",
+      "translation_ko": "낯선 곳에 들어갔다가 불도그의 공격을 받는 꿈을 꾸면 위증으로 원하는 것을 얻으려다 법을 어길 위험이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불도그",
+    "term_en": "bulldog",
+    "context": "불도그가 우호적으로 다가옴",
+    "interpretation_ko": "적들의 비난과 방해에도 불구하고 살면서 성공할 조짐",
+    "interpretation_en": "a sign that you will rise in life, regardless of adverse criticisms and seditious interference of enemies",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bulldog",
+      "original": "If one meets you in a friendly way, you will rise in life, regardless of adverse criticisms and seditious interference of enemies.",
+      "translation_ko": "불도그가 우호적으로 다가오면 적들의 비난과 방해에도 불구하고 살면서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거세한 소",
+    "term_en": "bullock",
+    "context": "거세한 소가 나오는 꿈을 꿈",
+    "interpretation_ko": "위험에 처했을 때 다정한 친구들이 둘러싸 주고 건강도 좋을 조짐",
+    "interpretation_en": "a sign that kind friends will surround you if you are in danger from enemies, and good health is promised you",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bullock",
+      "original": "Denotes that kind friends will surround you, if you are in danger from enemies. Good health is promised you.",
+      "translation_ko": "거세한 소가 나오는 꿈은 위험에 처했을 때 다정한 친구들이 둘러싸 주고 건강도 좋을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐",
+    "term_en": "burden",
+    "context": "무거운 짐을 짊어짐",
+    "interpretation_ko": "권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐",
+    "interpretation_en": "a sign that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Burden",
+      "original": "To dream that you carry a heavy burden, signifies that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power.",
+      "translation_ko": "무거운 짐을 짊어지는 꿈을 꾸면 권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐",
+    "term_en": "burden",
+    "context": "짐에서 벗어나려 애씀",
+    "interpretation_ko": "성공의 정점까지 오를 조짐",
+    "interpretation_en": "a sign that you will climb to the topmost heights of success",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Burden",
+      "original": "But to struggle free from it, you will climb to the topmost heights of success.",
+      "translation_ko": "짐에서 벗어나려 애쓰면 성공의 정점까지 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "가시열매",
+    "term_en": "burr",
+    "context": "가시열매를 봄",
+    "interpretation_ko": "성가신 짐에서 벗어나려 애쓰며 환경의 변화를 찾을 조짐",
+    "interpretation_en": "a sign that you will struggle to free yourself from some unpleasant burden, and will seek a change of surroundings",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Burr",
+      "original": "To dream of burrs, denotes that you will struggle to free self from some unpleasant burden, and will seek a change of surroundings.",
+      "translation_ko": "가시열매 꿈을 꾸면 성가신 짐에서 벗어나려 애쓰며 환경의 변화를 찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도둑",
+    "term_en": "burglars",
+    "context": "도둑들이 자신의 몸을 뒤짐",
+    "interpretation_ko": "낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐",
+    "interpretation_en": "a sign that you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Burglars",
+      "original": "To dream that they are searching your person, you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers.",
+      "translation_ko": "도둑들이 자신의 몸을 뒤지는 꿈을 꾸면 낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도둑",
+    "term_en": "burglars",
+    "context": "자기 집이나 사업장이 도둑맞음",
+    "interpretation_ko": "사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐",
+    "interpretation_en": "a sign that your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you; accidents may happen to the careless after this dream",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Burglars",
+      "original": "If you dream of your home, or place of business, being burglarized, your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you. Accidents may happen to the careless after this dream.",
+      "translation_ko": "자기 집이나 사업장이 도둑맞는 꿈을 꾸면 사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐이다"
+    }
+  }
+]

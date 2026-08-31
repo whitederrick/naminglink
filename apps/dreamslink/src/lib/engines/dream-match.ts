@@ -26,6 +26,13 @@ import {
 /**
  * 규칙을 바꾸면 올린다 — 결과 문서에 찍히고 캐시 키에도 들어간다.
  *
+ * 1.5.0 (2026-08-28) — **`ownTerms`를 낱말 단위로 쪼갰다.** `term_en`이 "A / B"나
+ * 여러 낱말일 때 이름을 통째로만 걸러서, 그 구성 낱말이 판별어로도 쓰이면 공짜
+ * 점수가 상시 샜다 — `naked`("being naked")는 "I was naked and I didn't mind at
+ * all"이 정반대 의미로 갔고, `ancestor`("ancestor / deceased")도 같은 이유로
+ * 뚫렸다(사용자 지적으로 재확인, 실제 `matchDream`을 직접 불러 확인). 이름을
+ * `findTerm`처럼 "/"로 가르고 낱말 하나하나로 쪼개 걸러지도록 고쳤다.
+ *
  * 1.4.0 (2026-08-07) — **어미 `-ing`을 뺐다.** 영어에서 `-ing`는 활용형이 아니라 다른 낱말을
  * 만드는 일이 잦다 — 「a bell was ringing」이 반지(ring)로, 「a fishing boat」가 물고기(fish)로
  * 걸렸다. 별칭 706개를 실제 문장에 태워 찾았다. 빼도 잃는 것이 없다(`flying`·`eating`은
@@ -44,7 +51,7 @@ import {
  * 「A snake bit me」가 재물 꿈으로 읽혔다. 영어 상황 키워드·영어 별칭·슬래시 표기 분리·
  * 임신 신호 영어판·기능어 거르기를 함께 넣었다. 한국어 결과는 바뀌지 않는다.
  */
-export const ENGINE_VERSION = "dream-1.4.0";
+export const ENGINE_VERSION = "dream-1.5.0";
 
 export type MatchedSymbol = {
   id: string;
@@ -316,12 +323,24 @@ function chooseMeaning(
    * 자체가 판별 정보**다 — 「깨진 거울」과 「거울을 봄」에서 앞의 것만 이름이 조사 없이 들어간다.
    * 이름을 빼면 둘 다 0점이 되어 판별이 죽는다(실제로 그렇게 만들었다가 `verify-dream-context-
    * parity`가 잡았다). 한국어 쪽은 이미 맞게 돌고 있으므로 건드리지 않는다.
+   *
+   * **낱말 단위로 쪼갠다** — `term_en`이 "A / B"(`cow / ox`)나 여러 낱말(`being naked`)일
+   * 수 있는데, `contextScore`의 `ownTerms.includes(word)`는 판별어를 이미 낱말 하나하나로
+   * 쪼갠 뒤 비교한다. 이름을 통째로만 넣으면("cow / ox" 그대로) 그 안의 낱말("cow"·"ox")은
+   * 절대 걸러지지 않는다. 실제로 그래서 뚫린 자리가 있었다 — `naked`("being naked")의
+   * 두 의미 판별어에 전부 "being naked"가 그대로 있어서 그 낱말들이 공짜 점수로 상시
+   * 새었고("I was naked and I didn't mind at all"이 정반대 의미로 갔다), `ancestor`
+   * ("ancestor / deceased")도 같은 이유로 뚫렸다(2026-08-28, `dream-match-ownterms-
+   * slash-bug-live` 메모리에 실측 기록). `findTerm`이 이미 "/"로 가르므로 여기서도
+   * 같은 방식으로 갈라 낱말 단위로 만든다.
    */
   const ownTerms = korean
     ? []
     : [symbol.term_ko, symbol.term_en, ...(symbol.aliases ?? [])]
         .filter(Boolean)
-        .map((term) => term.toLowerCase());
+        .flatMap((term) => term.split("/"))
+        .flatMap((term) => term.trim().toLowerCase().split(/\s+/))
+        .filter((word) => word.length > 0);
 
   let best = meanings[0];
   let bestScore = 0;

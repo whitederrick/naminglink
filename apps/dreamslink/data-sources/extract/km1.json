@@ -33,7 +33,7 @@
       "우물에 몸을 비춰 봄": "reflection reflected mirror",
       "몸이 우물에 빠짐": "fell falling drowning drowned",
       "방이 우물 속에 있음": "room bedroom",
-      "길어 올린 우물물이 맑음": "clear clean pure transparent",
+      "길어 올린 우물물이 맑음": "clear pure transparent crystal",
       "길어 올린 우물물이 흐림": "murky cloudy turbid dirty",
       "우물물에 진흙이 섞여 있음": "mud muddy silt sludge",
       "우물이 마르려 함": "drying shrinking receding sinking",
@@ -99,7 +99,7 @@
     },
     "contexts_en": {
       "수레가 다리와 길 위를 지나감": "bridge road crossing passed",
-      "관을 쓰고 수레에 오름": "hat cap crown wearing",
+      "관을 쓰고 수레에 오름": "cap crown wearing",
       "수레가 부서져 깨짐": "broke broken shattered wrecked",
       "짐을 실은 수레가 일어나지 못함": "loaded heavy cargo burden",
       "수레를 몰고 나다님": "drove driving riding around",
@@ -274,7 +274,7 @@
       "저절로 죽은 짐승의 고기를 먹음": "저절로 병들어 썩은 죽어있"
     },
     "contexts_en": {
-      "날고기를 먹음": "raw uncooked bloody",
+      "날고기를 먹음": "raw bloody fresh",
       "익힌 고기를 먹음": "cooked grilled boiled roasted",
       "저절로 죽은 짐승의 고기를 먹음": "carrion rotten dead animal"
     }
@@ -395,7 +395,7 @@
     },
     "contexts_en": {
       "새우가 물고기로 변함": "fish became turned changed",
-      "새우와 조개가 울며 달아남": "clam shellfish fleeing fled"
+      "새우와 조개가 울며 달아남": "clam fleeing fled"
     }
   },
   {

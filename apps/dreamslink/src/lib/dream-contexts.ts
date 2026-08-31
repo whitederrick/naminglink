@@ -128,8 +128,14 @@ export const CONTEXT_EN: Record<string, string> = {
   "대소변을 실수로 지림": "wet accident soiled",
   "시원하게 봄": "urine relieve relieving",
   "손톱이 빠짐": "nail fall falling",
-  "사람들 앞에서 벌거벗음": "being naked stand standing",
-  "개의치 않음": "being naked not care",
+  // **클렌징(2026-08-28)** — 두 판별어 모두에 상징 이름("being naked")이 그대로
+  // 박혀 있었다. `ownTerms`가 다중 단어 이름을 낱말로 못 쪼개던 시절엔 이게 안
+  // 걸러져 두 의미 모두에 공짜 점수를 줬고("I was naked and I didn't mind at all"이
+  // 정반대 의미로 감, 실측으로 확인·`dream-match.ts` 1.5.0에서 엔진 고침), 엔진을
+  // 고치고 나니 이번엔 남은 낱말이 너무 적어(`not care` 하나뿐) "mind"·"liberating"
+  // 같은 자연스러운 표현을 하나도 못 잡았다. 이름을 빼고 실제 표현을 넓혔다.
+  "사람들 앞에서 벌거벗음": "embarrassed ashamed exposed vulnerable crowd staring watched",
+  "개의치 않음": "care mind comfortable confident liberating unbothered fine",
   "임신한 꿈": "pregnancy dream",
   "피나는 상처": "wound bleed bleeding",
   "밝게 보임": "eye bright",
@@ -216,8 +222,11 @@ export const CONTEXT_EN: Record<string, string> = {
   "우산을 씀": "umbrella use used",
   "우산을 남에게 나눠 줌": "gave giving handed shared",
   "멈추거나 잃은 시계": "watch clock stop lose",
-  "밝은 표정의 조상": "ancestor deceased bright face",
-  "무언가 요구/어두움": "ancestor deceased demand dark",
+  // **클렌징(2026-08-28)** — 위 `naked`와 같은 병("ancestor deceased"가 상징 이름
+  // 그대로 두 판별어에 박혀 있었음). 엔진 고침 뒤 남은 낱말("bright face"·"demand
+  // dark")이 자연스러운 표현을 넓게 못 잡아 함께 넓혔다.
+  "밝은 표정의 조상": "bright smiling smile warm kind gentle blessing guidance peaceful",
+  "무언가 요구/어두움": "dark demand upset angry worried warning urgent unsettled serious want wants wanting needs",
   "예쁜 아기": "baby pretty",
   "우는 아기": "baby cry crying",
   "유명인과 친해짐": "celebrity befriend befriended",

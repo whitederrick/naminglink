@@ -23,7 +23,7 @@
    "집에 작은 문을 냄": "작은 쪽문 조그만 좁은"
   },
   "contexts_en": {
-   "문이 높고 큼": "tall large huge grand",
+   "문이 높고 큼": "towering large huge grand",
    "문을 새로 냄": "installed added cut opening",
    "문이 홀연히 열림": "suddenly abruptly unexpectedly",
    "문이 활짝 열림": "wide flung fully",
@@ -52,8 +52,8 @@
    "나무가 시들어 잎이 짐": "시들 낙엽 잎이 떨어졌",
    "숲속에 나무가 새로 자람": "숲속 숲에 숲이 숲으로",
    "나무를 심음": "심었 심는 심어 묘목",
-   "큰 나무에 오름": "올라 오르 기어올",
-   "오른 나무가 갑자기 부러짐": "올라갔 올라간 올라탄 부러",
+   "큰 나무에 오름": "오르 기어올",
+   "오른 나무가 갑자기 부러짐": "올라갔 올라간 올라탄",
    "마른 나무에 꽃이 핌": "꽃이 꽃을 개화 피었 꽃피",
    "큰 나무가 집 위로 넘어짐": "지붕 덮쳐 넘어졌 쓰러졌",
    "나무 아래에 서 있음": "아래에 그늘 밑에서",
@@ -69,8 +69,8 @@
    "나무가 시들어 잎이 짐": "wilting leaves shedding falling",
    "숲속에 나무가 새로 자람": "forest woods",
    "나무를 심음": "planting planted sapling",
-   "큰 나무에 오름": "climbing climb",
-   "오른 나무가 갑자기 부러짐": "climbed while broke",
+   "큰 나무에 오름": "ascending ascend scaled scaling",
+   "오른 나무가 갑자기 부러짐": "climbed plunged tumbled accident",
    "마른 나무에 꽃이 핌": "blossom flowers bloomed blooming",
    "큰 나무가 집 위로 넘어짐": "roof onto crushed toppled",
    "나무 아래에 서 있음": "under beneath shade standing",
@@ -100,12 +100,12 @@
    "구름이 걷힘": "clearing cleared parted lifted",
    "구름이 갑자기 해를 가림": "sun sunlight hid",
    "구름이 사방에서 피어오름": "rising everywhere billowing gathering",
-   "오색 구름을 봄": "colorful colored rainbow",
-   "구름이 붉거나 흼": "red white crimson",
+   "오색 구름을 봄": "colorful rainbow",
+   "구름이 붉거나 흼": "reddish white crimson",
    "구름이 푸르거나 검음": "blue green bluish",
    "뜬구름을 봄": "floating drifting adrift",
    "구름과 안개가 앞을 가림": "fog mist haze",
-   "검은 구름이 땅까지 내려옴": "black dark descending ground low"
+   "검은 구름이 땅까지 내려옴": "black dark descending ground"
   }
  },
  {
@@ -124,7 +124,7 @@
   },
   "contexts_en": {
    "부인이 머리를 풀어 헤침": "wife woman lady",
-   "머리가 하얗게 셈": "white gray grey turning",
+   "머리가 하얗게 셈": "gray grey graying turning",
    "머리가 벗겨지고 머리털이 빠짐": "bald balding scalp receding",
    "머리털이 희어져 빠짐": "whitened losing falling",
    "빠졌던 머리털이 다시 남": "regrew back again growing",

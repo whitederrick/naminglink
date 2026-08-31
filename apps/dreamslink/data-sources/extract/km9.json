@@ -10,8 +10,8 @@
       "배가 얕은 물에서 언덕에 걸림": "얕은 얕아 언덕 모래 좌초 걸려 걸렸",
       "배를 타고 강을 건넘": "강을 강물 강가 건너 건넜 나루",
       "배 안에 물이 고여 있음": "고여 고인 침수 잠겨 새어들",
-      "배를 타고 해와 달을 봄": "해와 햇빛 달빛 일월",
-      "배를 타고 해와 달을 지나감": "해와 지나갔 지나가 스쳐 통과 가로질러",
+      "배를 타고 해와 달을 봄": "해와 햇빛 달빛 일월 보았 봤다 바라봤 바라보 떠있는",
+      "배를 타고 해와 달을 지나감": "지나갔 지나가 지나쳐 스쳐 통과 가로질러",
       "배를 타고 술을 마심": "술을 마셨 마시 취해 잔치",
       "남과 한 배를 탐": "함께 같이 동승 일행 여럿이",
       "배가 돛에 바람을 받아 나아감": "돛을 돛이 바람 순풍 나아가",
@@ -28,18 +28,18 @@
     "contexts_en": {
       "배를 먹음": "ate eating pear fruit sweet",
       "배가 지붕 위를 지나감": "roof rooftop tiles eaves",
-      "배가 하늘을 날아감": "sky flying flew air soaring",
-      "배가 얕은 물에서 언덕에 걸림": "shallow shore hill aground stuck stranded sandbank",
+      "배가 하늘을 날아감": "sky airborne flew air ascended",
+      "배가 얕은 물에서 언덕에 걸림": "shallow shore aground stuck stranded sandbank",
       "배를 타고 강을 건넘": "river crossing crossed cross ferry",
       "배 안에 물이 고여 있음": "leaking leak flooded pooled bilge swamped",
-      "배를 타고 해와 달을 봄": "sun moon sunlight moonlight",
-      "배를 타고 해와 달을 지나감": "sun moon passed passing sailed beyond",
+      "배를 타고 해와 달을 봄": "sun moon sunlight moonlight watched gazing",
+      "배를 타고 해와 달을 지나감": "passed passing sailed beyond glided",
       "배를 타고 술을 마심": "drinking drank liquor wine alcohol",
       "남과 한 배를 탐": "together others companion shared aboard",
-      "배가 돛에 바람을 받아 나아감": "sail sails wind breeze forward",
-      "배를 타고 키를 봄": "rudder helm steering oar tiller",
+      "배가 돛에 바람을 받아 나아감": "sails wind breeze forward",
+      "배를 타고 키를 봄": "rudder helm steering tiller",
       "배를 타고 다리 밑을 지남": "bridge underneath beneath arch",
-      "앓는 사람이 배를 탐": "sick ill illness patient ailing",
+      "앓는 사람이 배를 탐": "sick illness patient ailing",
       "아버지를 도와 배를 탐": "father dad helping helped",
       "몸이 배 안에 누움": "lying lay asleep sleeping resting",
       "불을 들고 배에 오름": "fire torch lamp lantern carrying",
@@ -84,8 +84,8 @@
     "aliases": ["손거울", "전신거울", "화장거울", "경대"],
     "aliases_en": ["looking glass", "hand mirror", "mirrors"],
     "contexts": {
-      "거울에 비친 모습이 밝음": "비친 모습 밝았 환한 또렷",
-      "거울에 비친 모습이 어두움": "비친 모습 어두웠 어두운 침침",
+      "거울에 비친 모습이 밝음": "밝았 밝아 밝은 환한 또렷",
+      "거울에 비친 모습이 어두움": "어두웠 어두워 어두운 캄캄 침침",
       "깨진 거울로 사람을 비춤": "깨진 금간 조각난 갈라진",
       "거울이 밝게 비침": "밝게 환하게 빛났 빛나 반짝",
       "거울이 어둡게 흐림": "흐릿 흐려 흐린 뿌옇 김서",
@@ -97,10 +97,10 @@
       "거울이 깨짐": "깨졌 깨져 깨뜨 산산조각 부서"
     },
     "contexts_en": {
-      "거울에 비친 모습이 밝음": "reflection reflected image bright clear",
-      "거울에 비친 모습이 어두움": "reflection reflected image dark dim gloomy",
+      "거울에 비친 모습이 밝음": "bright brightly clear vivid glowing",
+      "거울에 비친 모습이 어두움": "dark darkly dim gloomy murky",
       "깨진 거울로 사람을 비춤": "cracked chipped split fractured",
-      "거울이 밝게 비침": "shining shone gleaming brightly glowing",
+      "거울이 밝게 비침": "shining shone gleaming sparkling radiant",
       "거울이 어둡게 흐림": "cloudy blurry foggy hazy dull tarnished",
       "거울을 주움": "picked found lying ground",
       "거울로 자기를 비춰 봄": "myself self own face",
@@ -142,7 +142,7 @@
     "contexts": {
       "관을 쓰고 수레에 오름": "수레 마차 가마 타고",
       "스스로 두건과 모자를 씀": "스스로 직접 두건 손수",
-      "관을 쓰고 높은 대에 오름": "높은 누대 단상 올라가 계단",
+      "관을 쓰고 높은 대에 오름": "누대 단상 올라가 계단",
       "귀인이 관을 줌": "귀인 높은사람 주었 받았 선물",
       "관을 새것으로 바꿔 씀": "새것 새로 바꿔 바꾸 갈아",
       "관모가 불에 타 없어짐": "불에 불이 타서 불타 재가",
@@ -172,7 +172,7 @@
     "contexts_en": {
       "남이 허리띠를 보내옴": "sent gave brought someone",
       "관복의 띠를 주움": "picked found official robe",
-      "허리띠를 맴": "tied fastened wore wearing",
+      "허리띠를 맴": "fastened wore wearing",
       "옷의 띠가 저절로 풀림": "undone loosened untied itself",
       "띠를 졸라맴": "tightened tight cinched pulled"
     }
@@ -378,7 +378,7 @@
     },
     "contexts_en": {
       "책 읽는 사람을 봄": "scholar student studying aloud",
-      "남이 책 읽는 것을 봄": "someone else another person"
+      "남이 책 읽는 것을 봄": "someone else another"
     }
   },
   {

@@ -13,7 +13,7 @@
       "지붕을 새로 덮음": "덮었 덮고 이엉 기와",
       "집을 새로 고침": "수리 개조 리모델 새단장",
       "바람에 집이 흔들림": "바람 흔들 흔들리 태풍 휘청",
-      "살던 집에서 나옴": "나왔 떠났 이사 나가",
+      "살던 집에서 나옴": "나왔 떠났 이사",
       "집을 남에게 저당 잡힘": "저당 담보 잡혔 잡히",
       "집을 팔거나 저당 잡힘": "팔았 팔아 매도 처분",
       "집에 사람이 하나도 없음": "아무도 텅빈 비어있 적막 없었",
@@ -98,7 +98,7 @@
       "똥과 흙이 무더기로 쌓임": "흙과 무더기 쌓여 쌓였 더미"
     },
     "contexts_en": {
-      "똥이 몸을 더럽힘": "smeared soiled dirtied body clothes",
+      "똥이 몸을 더럽힘": "smeared body clothes",
       "대변이 땅에 가득함": "ground floor everywhere scattered filled",
       "똥을 지고 집으로 돌아옴": "carrying carried hauling brought home",
       "대변을 잃어버림": "lost losing disappeared missing",
@@ -149,10 +149,10 @@
     "contexts_en": {
       "부부가 잔치를 벌임": "feast banquet celebration party",
       "부부가 서로 꾸짖고 다툼": "scolding quarrel argued arguing bickering",
-      "부부가 비녀를 나누어 가짐": "hairpin ornament split shared divided",
+      "부부가 비녀를 나누어 가짐": "ornament split shared divided",
       "부부가 서로 때리며 싸움": "hitting beat beating struck punched",
       "아내가 남편과 함께 물에 들어감": "water river lake wading",
-      "부부가 서로 머리를 빗어 줌": "comb combing brushed hair",
+      "부부가 서로 머리를 빗어 줌": "comb combing brushed strands",
       "부부가 서로 절을 함": "bow bowed bowing greeting"
     }
   },

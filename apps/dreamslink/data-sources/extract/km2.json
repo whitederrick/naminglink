@@ -23,15 +23,15 @@
       "옷을 잃어버림": "잃어 잃었 없어졌 사라졌"
     },
     "contexts_en": {
-      "옷이 진흙으로 더러워짐": "mud muddy dirtied soiled",
-      "적삼이 진흙으로 더러워짐": "undershirt thin jacket",
+      "옷이 진흙으로 더러워짐": "mud muddy dirtied",
+      "적삼이 진흙으로 더러워짐": "undershirt jacket garment",
       "남에게 옷을 줌": "someone another else",
       "귀인이 옷을 줌": "noble nobleman dignitary official",
       "옷을 새것으로 바꿔 입음": "changed changing swapped replaced",
-      "새 도포를 입음": "coat overcoat cloak",
+      "새 도포를 입음": "cloak mantle wrap",
       "비단에 수놓은 옷을 입음": "silk embroidered brocade",
       "옷을 빨아 물들임": "dyed dyeing dye washed",
-      "도롱이를 걸침": "straw raincoat rain cape",
+      "도롱이를 걸침": "straw raincoat cape",
       "옷이 기름에 더러워짐": "oil grease greasy stained",
       "옷이 갑자기 해짐": "torn frayed ragged tattered suddenly",
       "새 옷에 쌀을 모아 담음": "rice grain gathered",
@@ -64,11 +64,11 @@
     },
     "contexts_en": {
       "하늘의 문이 열림": "gate door opened opening",
-      "하늘의 빛이 몸을 비춤": "light shone shining ray beam",
+      "하늘의 빛이 몸을 비춤": "shone shining ray beam",
       "하늘이 맑게 갬": "cleared clearing sunny",
       "하늘이 환하게 밝음": "bright brightly glowing radiant",
       "얼굴을 들어 하늘을 바라봄": "looked gazing gazed upward",
-      "하늘의 문이 붉음": "red reddish crimson",
+      "하늘의 문이 붉음": "reddish crimson scarlet",
       "용을 타고 하늘에 오름": "dragon rode riding",
       "하늘에 올라 아내를 구함": "wife bride sought",
       "하늘에서 물건을 가져옴": "brought took something object",
@@ -96,7 +96,7 @@
     },
     "contexts_en": {
       "손발에서 고름과 피가 나옴": "pus hands feet limbs",
-      "피가 침상에 묻어 있음": "bed bedding sheets mattress",
+      "피가 침상에 묻어 있음": "bedding sheets mattress",
       "소뿔에 피가 묻어 있음": "ox horn cow bull",
       "칼에 다쳐 피가 남": "knife blade sword dagger",
       "피가 옷을 적심": "clothes soaked drenched shirt",
@@ -161,7 +161,7 @@
     "contexts": {
       "땅이 흔들려 움직임": "흔들 진동 지진 요동",
       "땅이 갈라짐": "갈라 쪼개 균열",
-      "밭과 땅을 평평하게 고름": "평평 고르 밭을 다지",
+      "밭과 땅을 평평하게 고름": "평평 밭을 다지",
       "땅이 높고 낮아 고르지 않음": "높고낮 울퉁불퉁 고르지않 기울",
       "땅속에서 검은 기운이 올라옴": "검은 기운 연기 시커먼",
       "집 마루 위의 땅이 꺼짐": "꺼져 꺼지 내려앉 마루"
@@ -188,7 +188,7 @@
     },
     "contexts_en": {
       "북을 침": "beat beating struck hitting",
-      "종과 북이 크게 울림": "bell bells loudly resounded",
+      "종과 북이 크게 울림": "bell bells loudly echoing",
       "북을 쳐 소리가 남": "sounded noise",
       "북의 아름다운 소리를 들음": "beautiful lovely pleasant heard",
       "북을 보아도 울리지 않음": "silent soundless quiet nothing"

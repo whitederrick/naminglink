@@ -26,20 +26,20 @@
   },
   "contexts_en": {
    "불 위에 차려 놓은 것을 봄": "food meal offering cooking",
-   "하늘의 불이 문을 태움": "sky gate door heaven",
+   "하늘의 불이 문을 태움": "sky gate heaven",
    "물 위에서 불이 나옴": "surface pond sea lake",
    "불이 해와 달을 태움": "sun moon",
    "불이 강물을 태움": "river stream",
    "불이 산과 들을 태움": "mountain field forest",
-   "불이 제 집을 태움": "house home dwelling",
+   "불이 제 집을 태움": "house home",
    "불꽃이 활활 타오름": "flames blazing roaring crackling",
-   "불이 땅에서 솟아남": "ground earth erupting sprang",
+   "불이 땅에서 솟아남": "ground erupting sprang",
    "불을 들고 길을 감": "carrying walking road torch",
    "큰불이 하늘을 태움": "huge enormous entire vast",
    "몸이 불 속에 있음": "inside engulfed surrounded body trapped",
    "불을 잡고 길을 감": "holding gripping gripped clutching",
    "불을 잡고 우물을 태움": "well",
-   "집 안에 불빛이 있음": "light glow lamp indoors room",
+   "집 안에 불빛이 있음": "glow lamp indoors room",
    "부엌에서 불이 남": "kitchen stove hearth",
    "벼슬을 기다리며 불을 켬": "candle lighting appointment office post",
    "사람을 태워 고약한 냄새가 남": "person stench smell flesh corpse",
@@ -99,7 +99,7 @@
   },
   "contexts_en": {
    "산이 해와 달을 물고 있음": "sun moon holding",
-   "불이 산과 들을 태움": "fire burning fields",
+   "불이 산과 들을 태움": "fire burning flames",
    "산에 올랐다가 땅에 떨어짐": "fell falling plunged dropped",
    "산에 오르며 두려워함": "afraid fear scared trembling",
    "오르던 산이 무너져 내림": "collapsed crumbling landslide caved",
@@ -155,7 +155,7 @@
    "부뚜막 아래에 입김을 불어 넣음": "breath blowing blew",
    "부뚜막 아래에서 그릇이 울림": "bowl dish ringing sound",
    "집에 부뚜막이 둘 있음": "two second another",
-   "부엌과 부뚜막을 고쳐 지음": "repairing rebuilding renovating kitchen"
+   "부엌과 부뚜막을 고쳐 지음": "repairing rebuilding renovating"
   }
  },
  {
@@ -342,7 +342,7 @@
    "금은과 주옥을 봄": "주옥 구슬 진주 옥과"
   },
   "contexts_en": {
-   "금은보화를 봄": "treasure riches heap wealth",
+   "금은보화를 봄": "riches heap wealth",
    "금은과 주옥을 봄": "pearl jade gems"
   }
  },
@@ -394,7 +394,7 @@
    "출정했던 사람이 돌아옴": "돌아왔 돌아오 귀환 개선"
   },
   "contexts_en": {
-   "출정하는 사람이 막 길을 나섬": "leaving departing farewell setting",
+   "출정하는 사람이 막 길을 나섬": "leaving departing farewell",
    "출정했던 사람이 돌아옴": "returned returning back home"
   }
  },

@@ -1,0 +1,407 @@
+[
+  {
+    "term_ko": "살구",
+    "term_en": "apricot",
+    "context": "살구가 자라는 것을 봄",
+    "interpretation_ko": "앞날이 겉보기엔 장밋빛 같아도 감춰진 씁쓸함과 슬픔이 있을 조짐",
+    "interpretation_en": "a sign that the future, though seemingly rosy hued, holds masked bitterness and sorrow for you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apricot",
+      "original": "Dreams of seeing apricots growing, denote that the future, though seemingly rosy hued, holds masked bitterness and sorrow for you.",
+      "translation_ko": "살구가 자라는 것을 보는 꿈을 꾸면 앞날이 겉보기엔 장밋빛 같아도 감춰진 씁쓸함과 슬픔이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "살구",
+    "term_en": "apricot",
+    "context": "살구를 먹음",
+    "interpretation_ko": "재앙 같은 영향이 가까이 다가올 조짐",
+    "interpretation_en": "a sign that calamitous influences are drawing near",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apricot",
+      "original": "To eat them signifies the near approach of calamitous influences.",
+      "translation_ko": "살구를 먹으면 재앙 같은 영향이 가까이 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "살구",
+    "term_en": "apricot",
+    "context": "다른 사람이 살구를 먹는 것을 봄",
+    "interpretation_ko": "주변 상황이 불쾌하고 마음에 들지 않게 될 조짐",
+    "interpretation_en": "a sign that your surroundings will be unpleasant and disagreeable to your fancies",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apricot",
+      "original": "If others eat them, your surroundings will be unpleasant and disagreeable to your fancies.",
+      "translation_ko": "다른 사람이 살구를 먹으면 주변 상황이 불쾌하고 마음에 들지 않게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "살구",
+    "term_en": "apricot",
+    "context": "살구가 사소한 일에 시간을 낭비한 것을 뜻한다는 말을 들음",
+    "interpretation_ko": "쓸모없는 사소한 일에 시간을 낭비해 왔음을 뜻한다는 속설",
+    "interpretation_en": "a saying that apricots denote you have been wasting time over trifles or small things of no value",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apricot",
+      "original": "A friend says: ``Apricots denote that you have been wasting time over trifles or small things of no value.''",
+      "translation_ko": "한 친구는 말한다 — ``살구는 쓸모없는 사소한 일에 시간을 낭비해 왔음을 뜻한다.''"
+    }
+  },
+  {
+    "term_ko": "4월",
+    "term_en": "april",
+    "context": "4월을 꿈꿈",
+    "interpretation_ko": "많은 즐거움과 이익이 자기 몫이 될 조짐",
+    "interpretation_en": "a sign that much pleasure and profit will be your allotment",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "April",
+      "original": "To dream of the month of April, signifies that much pleasure and profit will be your allotment.",
+      "translation_ko": "4월을 꿈꾸면 많은 즐거움과 이익이 자기 몫이 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "4월",
+    "term_en": "april",
+    "context": "꿈속 날씨가 궂음",
+    "interpretation_ko": "지나가는 불운의 조짐",
+    "interpretation_en": "a sign of passing ill luck",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "April",
+      "original": "If the weather is miserable, it is a sign of passing ill luck.",
+      "translation_ko": "날씨가 궂으면 지나가는 불운의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "앞치마",
+    "term_en": "apron",
+    "context": "여성이 앞치마를 두른 꿈을 꿈",
+    "interpretation_ko": "굴곡진 길을 걷게 될 조짐",
+    "interpretation_en": "a sign of a zigzag course, for a young woman",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apron",
+      "original": "To dream of an apron, signifies a zigzag course, for a young woman.",
+      "translation_ko": "앞치마를 두른 꿈을 꾸면 젊은 여성에게 굴곡진 길이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "앞치마",
+    "term_en": "apron",
+    "context": "여학생이 앞치마가 풀리거나 찢어지는 꿈을 꿈",
+    "interpretation_ko": "성적이 나빠지고 부모와 교사에게 예절에 대해 훈계받을 조짐",
+    "interpretation_en": "a sign of bad lessons, and lectures in propriety from parents and teachers",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apron",
+      "original": "For a school girl to dream that her apron is loosened, or torn, implies bad lessons, and lectures in propriety from parents and teachers.",
+      "translation_ko": "여학생이 앞치마가 풀리거나 찢어지는 꿈을 꾸면 성적이 나빠지고 부모와 교사에게 예절에 대해 훈계받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아치",
+    "term_en": "arch",
+    "context": "꿈에 아치를 봄",
+    "interpretation_ko": "꾸준한 노력으로 명성을 얻고 부를 쌓을 조짐",
+    "interpretation_en": "a sign of your rise to distinction and the gaining of wealth by persistent effort",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Arch",
+      "original": "An arch in a dream, denotes your rise to distinction and the gaining of wealth by persistent effort.",
+      "translation_ko": "꿈에 아치를 보면 꾸준한 노력으로 명성을 얻고 부를 쌓을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아치",
+    "term_en": "arch",
+    "context": "아치 밑을 지나감",
+    "interpretation_ko": "예전에 무시하던 사람들이 자신을 찾아올 조짐",
+    "interpretation_en": "a sign foretelling that many who formerly ignored your position will seek you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Arch",
+      "original": "To pass under one, foretells that many will seek you who formerly ignored your position.",
+      "translation_ko": "아치 밑을 지나가면 예전에 무시하던 사람들이 자신을 찾아올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아치",
+    "term_en": "arch",
+    "context": "젊은 여성이 무너진 아치를 봄",
+    "interpretation_ko": "희망이 무너지고 새로운 처지에서 비참해질 조짐",
+    "interpretation_en": "a sign of the destruction of her hopes, and she will be miserable in her new situation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Arch",
+      "original": "For a young woman to see a fallen arch, denotes the destruction of her hopes, and she will be miserable in her new situation.",
+      "translation_ko": "젊은 여성이 무너진 아치를 보면 희망이 무너지고 새로운 처지에서 비참해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대주교",
+    "term_en": "archbishop",
+    "context": "대주교를 보는 꿈을 꿈",
+    "interpretation_ko": "부와 명예를 얻으려는 시도에서 많은 장애물을 만날 조짐",
+    "interpretation_en": "a sign foretelling many obstacles to resist in your attempt to master fortune or rise to public honor",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Archbishop",
+      "original": "To dream of seeing an archbishop, foretells you will have many obstacles to resist in your attempt to master fortune or rise to public honor.",
+      "translation_ko": "대주교를 보는 꿈을 꾸면 부와 명예를 얻으려는 시도에서 많은 장애물을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대주교",
+    "term_en": "archbishop",
+    "context": "평범한 시민 옷차림의 대주교를 봄",
+    "interpretation_ko": "지위 높은 사람들의 도움과 격려를 받아 하는 일마다 성공할 조짐",
+    "interpretation_en": "a sign that you will have aid and encouragement from those in prominent positions and will succeed in your enterprises",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Archbishop",
+      "original": "To see one in the every day dress of a common citizen, denotes you will have aid and encouragement from those in prominent positions and will succeed in your enterprises.",
+      "translation_ko": "평범한 시민 옷차림의 대주교를 보면 지위 높은 사람들의 도움과 격려를 받아 하는 일마다 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대주교",
+    "term_en": "archbishop",
+    "context": "젊은 여성이 대주교가 자신을 친절히 이끌어 주는 꿈을 꿈",
+    "interpretation_ko": "우정을 맺는 데 운이 따를 조짐",
+    "interpretation_en": "a sign that she will be fortunate in forming her friendships",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Archbishop",
+      "original": "For a young woman to dream that an archbishop is kindly directing her, foretells she will be fortunate in forming her friendships.",
+      "translation_ko": "젊은 여성이 대주교가 자신을 친절히 이끌어 주는 꿈을 꾸면 우정을 맺는 데 운이 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "건축가",
+    "term_en": "architect",
+    "context": "건축가가 도면을 그리는 꿈을 꿈",
+    "interpretation_ko": "사업에 변화가 생겨 손해를 볼 조짐",
+    "interpretation_en": "a sign of a change in your business, which will be likely to result in loss to you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Architect",
+      "original": "Architects drawing plans in your dreams, denotes a change in your business, which will be likely to result in loss to you.",
+      "translation_ko": "건축가가 도면을 그리는 꿈을 꾸면 사업에 변화가 생겨 손해를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "건축가",
+    "term_en": "architect",
+    "context": "젊은 여성이 건축가를 봄",
+    "interpretation_ko": "좋은 혼처를 구하려는 바람과 계획이 뜻대로 안 될 조짐",
+    "interpretation_en": "a sign that she will meet rebuffs in her aspirations and maneuvers to make a favorable marriage",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Architect",
+      "original": "For a young woman to see an architect, foretells she will meet rebuffs in her aspirations and maneuvers to make a favorable marriage.",
+      "translation_ko": "젊은 여성이 건축가를 보면 좋은 혼처를 구하려는 바람과 계획이 뜻대로 안 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "팔",
+    "term_en": "arm",
+    "context": "팔이 절단되는 꿈을 꿈",
+    "interpretation_ko": "이별이나 이혼을 뜻하며 부부 사이에 서로 불만이 생기고, 불길한 조짐이니 기만과 사기를 조심해야 함",
+    "interpretation_en": "a sign meaning separation or divorce; mutual dissatisfaction will occur between husband and wife, it is a dream of sinister import — beware of deceitfulness and fraud",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Arm",
+      "original": "To dream of seeing an arm amputated, means separation or divorce. Mutual dissatisfaction will occur between husband and wife. It is a dream of sinister import. Beware of deceitfulness and fraud.",
+      "translation_ko": "팔이 절단되는 꿈을 꾸면 이별이나 이혼을 뜻하며 부부 사이에 서로 불만이 생긴다. 불길한 조짐이니 기만과 사기를 조심해야 한다"
+    }
+  },
+  {
+    "term_ko": "향기",
+    "term_en": "aroma",
+    "context": "여성이 달콤한 향기를 맡는 꿈을 꿈",
+    "interpretation_ko": "곧 기쁜 일이나 선물을 받을 조짐",
+    "interpretation_en": "a sign that she will soon be the recipient of some pleasure or present",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Aroma",
+      "original": "For a young woman to dream of a sweet aroma, denotes she will soon be the recipient of some pleasure or present.",
+      "translation_ko": "젊은 여성이 달콤한 향기를 맡는 꿈을 꾸면 곧 기쁜 일이나 선물을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "체포됨",
+    "term_en": "arrested",
+    "context": "점잖아 보이는 낯선 사람이 체포되는 것을 봄",
+    "interpretation_ko": "변화를 바라지만 실패가 두려워 새로운 시도를 망설이게 될 조짐",
+    "interpretation_en": "a sign that you desire to make changes, and new speculations will be subordinated by the fear of failure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Arrested",
+      "original": "To see respectable-looking strangers arrested, foretells that you desire to make changes, and new speculations will be subordinated by the fear of failure.",
+      "translation_ko": "점잖아 보이는 낯선 사람이 체포되는 것을 보면 변화를 바라지만 실패가 두려워 새로운 시도를 망설이게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "체포됨",
+    "term_en": "arrested",
+    "context": "체포되는 사람이 경관에게 저항함",
+    "interpretation_ko": "새로운 일을 끝까지 밀어붙이는 데서 큰 기쁨을 느낄 조짐",
+    "interpretation_en": "a sign that you will have great delight in pushing to completion the new enterprise",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Arrested",
+      "original": "If they resist the officers, you will have great delight in pushing to completion the new enterprise.",
+      "translation_ko": "체포되는 사람이 경관에게 저항하면 새로운 일을 끝까지 밀어붙이는 데서 큰 기쁨을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "화살",
+    "term_en": "arrow",
+    "context": "화살 꿈을 꿈",
+    "interpretation_ko": "즐거움이 뒤따르며 여흥과 축제, 즐거운 여행이 있을 것이고 괴로움이 그칠 조짐",
+    "interpretation_en": "a sign that pleasure follows this dream — entertainments, festivals and pleasant journeys may be expected, and suffering will cease",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Arrow",
+      "original": "Pleasure follows this dream.  Entertainments, festivals and pleasant journeys may be expected.  Suffering will cease.",
+      "translation_ko": "화살 꿈을 꾸면 즐거움이 뒤따르며 여흥과 축제, 즐거운 여행이 있을 것이고 괴로움이 그칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "화살",
+    "term_en": "arrow",
+    "context": "낡거나 부러진 화살을 봄",
+    "interpretation_ko": "사랑이나 사업에서 실망할 조짐",
+    "interpretation_en": "a sign of disappointments in love or business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Arrow",
+      "original": "An old or broken arrow, portends disappointments in love or business.",
+      "translation_ko": "낡거나 부러진 화살은 사랑이나 사업에서 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "미술관",
+    "term_en": "art gallery",
+    "context": "미술관을 방문함",
+    "interpretation_ko": "가정에서 불행한 인연을 맺어 겉으로는 행복한 척하지만 속으로는 다른 사람에게 마음을 두게 될 조짐",
+    "interpretation_en": "a sign of unfortunate unions in domestic circles — you will struggle to put forth an appearance of happiness, but will secretly care for other associations",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Art Gallery",
+      "original": "To visit an art gallery, portends unfortunate unions in domestic circles. You will struggle to put forth an appearance of happiness, but will secretly care for other associations.",
+      "translation_ko": "미술관을 방문하면 가정에서 불행한 인연을 맺어 겉으로는 행복한 척하지만 속으로는 다른 사람에게 마음을 두게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르기",
+    "term_en": "ascend",
+    "context": "비틀거리지 않고 계단 꼭대기까지 오름",
+    "interpretation_ko": "좋은 조짐",
+    "interpretation_en": "a good sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ascend",
+      "original": "If you reach the extreme point of ascent, or top of steps, without stumbling, it is good",
+      "translation_ko": "비틀거리지 않고 계단 꼭대기까지 오르면 좋은 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르기",
+    "term_en": "ascend",
+    "context": "오르는 도중에 비틀거림",
+    "interpretation_ko": "그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐",
+    "interpretation_en": "a sign that you will have obstacles to overcome before the good of the day is found",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ascend",
+      "original": "otherwise, you will have obstacles to overcome before the good of the day is found.",
+      "translation_ko": "그렇지 않고 비틀거리면 그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "금욕주의",
+    "term_en": "asceticism",
+    "context": "금욕주의를 꿈꿈",
+    "interpretation_ko": "낯선 사람에게는 매력적으로 보이지만 친구에게는 거부감을 주는, 이상한 원칙과 견해를 갖게 될 조짐",
+    "interpretation_en": "a sign that you will cultivate strange principles and views, rendering yourself fascinating to strangers, but repulsive to friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Asceticism",
+      "original": "To dream of asceticism, denotes that you will cultivate strange principles and views, rendering yourself fascinating to strangers, but repulsive to friends.",
+      "translation_ko": "금욕주의를 꿈꾸면 낯선 사람에게는 매력적으로 보이지만 친구에게는 거부감을 주는, 이상한 원칙과 견해를 갖게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "재",
+    "term_en": "ashes",
+    "context": "재를 보는 꿈을 꿈",
+    "interpretation_ko": "불행의 조짐이며 여러 쓰라린 변화가 찾아온다 — 농부에게는 흉작, 상인에게는 거래 실패, 부모에게는 자식으로 인한 슬픔으로 나타남",
+    "interpretation_en": "a sign of woe, and many bitter changes are sure to come to the dreamer — blasted crops to the farmer, unsuccessful deals for the trader, and parents will reap the sorrows of wayward children",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Ashes",
+      "original": "Dreaming of ashes omens woe, and many bitter changes are sure to come to the dreamer.  Blasted crops to the farmer.  Unsuccessful deals for the trader.  Parents will reap the sorrows of wayward children.",
+      "translation_ko": "재를 보는 꿈을 꾸면 불행의 조짐이며 여러 쓰라린 변화가 찾아온다 — 농부에게는 흉작, 상인에게는 거래 실패, 부모에게는 자식으로 인한 슬픔으로 나타난다"
+    }
+  }
+]

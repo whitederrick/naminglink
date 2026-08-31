@@ -1,0 +1,992 @@
+[
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "버림받는 꿈을 꿈",
+    "interpretation_ko": "미래의 성공 계획을 세우기 어려워질 조짐",
+    "interpretation_en": "a sign that you will have difficulty in framing your plans for future success",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "To dream that you are abandoned, denotes that you will have difficulty in framing your plans for future success.",
+      "translation_ko": "버림받는 꿈을 꾸면 미래의 성공 계획을 세우기 어려워진다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "다른 사람을 버림",
+    "interpretation_ko": "불행한 상황이 겹겹이 쌓여 극복할 희망이 거의 없어질 조짐",
+    "interpretation_en": "a sign that unhappy conditions will pile thick around you, leaving little hope of surmounting them",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "To abandon others, you will see unhappy conditions piled thick around you, leaving little hope of surmounting them.",
+      "translation_ko": "다른 사람을 버리는 꿈을 꾸면 불행한 상황이 겹겹이 쌓여 극복할 희망이 거의 없어진다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "자신의 집을 버림",
+    "interpretation_ko": "운을 시험하다 곧 곤경에 빠질 조짐",
+    "interpretation_en": "a sign that you will soon come to grief in experimenting with fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "If it is your house that you abandon, you will soon come to grief in experimenting with fortune.",
+      "translation_ko": "자신의 집을 버리는 꿈이면 운을 시험하다 곧 곤경에 빠지게 된다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "연인을 버림",
+    "interpretation_ko": "잃어버린 귀중품을 되찾지 못하고 친구들이 호의를 거둘 조짐",
+    "interpretation_en": "a sign that you will fail to recover lost valuables, and friends will turn aside from your favors",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "If you abandon your sweetheart, you will fail to recover lost valuables, and friends will turn aside from your favors.",
+      "translation_ko": "연인을 버리는 꿈이면 잃어버린 귀중품을 되찾지 못하고 친구들이 호의를 거두게 된다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "정부(情婦)를 버림",
+    "interpretation_ko": "뜻밖에 상당한 유산을 받을 조짐",
+    "interpretation_en": "a sign that you will unexpectedly come into a goodly inheritance",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "If you abandon a mistress, you will unexpectedly come into a goodly inheritance.",
+      "translation_ko": "정부를 버리는 꿈이면 뜻밖에 상당한 유산을 받게 된다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "종교를 버림",
+    "interpretation_ko": "유력 인사를 공격해 곤경에 빠질 조짐",
+    "interpretation_en": "a sign that you will come to grief by your attacks on prominent people",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "If it is religion you abandon, you will come to grief by your attacks on prominent people.",
+      "translation_ko": "종교를 버리는 꿈이면 유력 인사를 공격해 곤경에 빠지게 된다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "자식을 버림",
+    "interpretation_ko": "침착함과 판단력이 부족해 재산을 잃을 조짐",
+    "interpretation_en": "a sign that you will lose your fortune by lack of calmness and judgment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "To abandon children, denotes that you will lose your fortune by lack of calmness and judgment.",
+      "translation_ko": "자식을 버리는 꿈이면 침착함과 판단력 부족으로 재산을 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "사업을 버림",
+    "interpretation_ko": "다툼과 의심이 따르는 괴로운 상황을 나타내는 조짐",
+    "interpretation_en": "a sign of distressing circumstances in which there will be quarrels and suspicion",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "To abandon your business, indicates distressing circumstances in which there will be quarrels and suspicion.",
+      "translation_ko": "사업을 버리는 꿈이면 다툼과 의심이 따르는 괴로운 상황을 나타낸다"
+    }
+  },
+  {
+    "term_ko": "버림",
+    "term_en": "abandon",
+    "context": "배를 버리고 떠남",
+    "interpretation_ko": "사업 실패에 얽힐 수 있음을 암시하나, 뭍으로 피신하면 이익은 안전하게 지켜질 조짐",
+    "interpretation_en": "a sign of possible entanglement in some business failure, but if you escape to shore your interests will remain secure",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abandon",
+      "original": "To see yourself or friend abandon a ship, suggests your possible entanglement in some business failure, but if you escape to shore your interests will remain secure.",
+      "translation_ko": "자신이나 친구가 배를 버리는 것을 보면 사업 실패에 얽힐 수 있음을 암시하나, 뭍으로 피신하면 이익은 안전하게 지켜진다"
+    }
+  },
+  {
+    "term_ko": "수도원",
+    "term_en": "abbey",
+    "context": "폐허가 된 수도원을 봄",
+    "interpretation_ko": "희망과 계획이 초라하게 미완성으로 끝날 조짐",
+    "interpretation_en": "a sign that your hopes and schemes will fall into ignoble incompletion",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbey",
+      "original": "To see an abbey in ruins, foretells that your hopes and schemes will fall into ignoble incompletion.",
+      "translation_ko": "폐허가 된 수도원을 보면 희망과 계획이 초라하게 미완성으로 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수도원",
+    "term_en": "abbey",
+    "context": "신부가 수도원 입구를 막는 꿈을 꿈",
+    "interpretation_ko": "적들이 당혹감을 발전으로 오인해 파멸에서 구원받을 조짐",
+    "interpretation_en": "a sign that you will be saved from a ruinous state by enemies mistaking your embarrassment for progress",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbey",
+      "original": "To dream that a priest bars your entrance into an abbey, denotes that you will be saved from a ruinous state by enemies mistaking your embarrassment for progress.",
+      "translation_ko": "신부가 수도원 입구를 막는 꿈을 꾸면 적들이 당혹감을 발전으로 오인해 파멸에서 구원받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수도원",
+    "term_en": "abbey",
+    "context": "젊은 여성이 수도원에 들어감",
+    "interpretation_ko": "격렬한 병에 걸릴 조짐",
+    "interpretation_en": "a sign foretelling her violent illness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbey",
+      "original": "For a young woman to get into an abbey, foretells her violent illness.",
+      "translation_ko": "젊은 여성이 수도원에 들어가는 꿈이면 격렬한 병에 걸릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수도원",
+    "term_en": "abbey",
+    "context": "젊은 여성이 수도원에서 신부와 대화함",
+    "interpretation_ko": "경솔함으로 진실한 친구들의 비난을 받을 조짐",
+    "interpretation_en": "a sign that she will incur the censure of true friends for indiscretion",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbey",
+      "original": "If she converses with a priest in an abbey, she will incur the censure of true friends for indiscretion.",
+      "translation_ko": "젊은 여성이 수도원에서 신부와 대화하면 경솔함으로 진실한 친구들의 비난을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수녀원장",
+    "term_en": "abbess",
+    "context": "젊은 여성이 수녀원장을 보는 꿈을 꿈",
+    "interpretation_ko": "내키지 않는 일을 억지로 하고, 반항이 실패한 뒤에야 권위에 복종할 조짐",
+    "interpretation_en": "a sign that she will be compelled to perform distasteful tasks, and will submit to authority only after unsuccessful rebellion",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbess",
+      "original": "For a young woman to dream that she sees an abbess, denotes that she will be compelled to perform distasteful tasks, and will submit to authority only after unsuccessful rebellion.",
+      "translation_ko": "젊은 여성이 수녀원장을 보는 꿈을 꾸면 내키지 않는 일을 억지로 하고, 반항이 실패한 뒤에야 권위에 복종하게 된다"
+    }
+  },
+  {
+    "term_ko": "수녀원장",
+    "term_en": "abbess",
+    "context": "미소 짓고 자애로운 수녀원장을 봄",
+    "interpretation_ko": "진실한 친구들에 둘러싸이고 앞날이 즐거울 조짐",
+    "interpretation_en": "a sign that you will be surrounded by true friends and pleasing prospects",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbess",
+      "original": "To dream of an abbess smiling and benignant, denotes you will be surrounded by true friends and pleasing prospects.",
+      "translation_ko": "미소 짓고 자애로운 수녀원장을 보는 꿈을 꾸면 진실한 친구들에 둘러싸이고 앞날이 즐거워진다"
+    }
+  },
+  {
+    "term_ko": "수도원장",
+    "term_en": "abbot",
+    "context": "자신이 수도원장이 되는 꿈을 꿈",
+    "interpretation_ko": "몰락을 노리는 배신의 음모가 꾸며지고 있다는 경고",
+    "interpretation_en": "a warning that treacherous plots are being laid for your downfall",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbot",
+      "original": "To dream that you are an abbot, warns you that treacherous plots are being laid for your downfall.",
+      "translation_ko": "자신이 수도원장이 되는 꿈을 꾸면 몰락을 노리는 배신의 음모가 꾸며지고 있다는 경고다"
+    }
+  },
+  {
+    "term_ko": "수도원장",
+    "term_en": "abbot",
+    "context": "경건히 수행하는 수도원장을 봄",
+    "interpretation_ko": "교묘한 아첨과 기만에 넘어가 기꺼이 희생자가 될 조짐",
+    "interpretation_en": "a forewarning of smooth flattery and deceit pulling you a willing victim into the meshes of artful bewilderment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbot",
+      "original": "If you see this pious man in devotional exercises, it forewarns you of smooth flattery and deceit pulling you a willing victim into the meshes of artful bewilderment.",
+      "translation_ko": "경건히 수행하는 수도원장을 보면 교묘한 아첨과 기만에 넘어가 기꺼이 희생자가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수도원장",
+    "term_en": "abbot",
+    "context": "젊은 여성이 수도원장과 대화함",
+    "interpretation_ko": "아첨에 넘어가 평판에 흠이 갈 조짐",
+    "interpretation_en": "a sign that she will yield to insinuating flatteries, and in yielding she will besmirch her reputation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbot",
+      "original": "For a young woman to talk with an abbot, portends that she will yield to insinuating flatteries, and in yielding she will besmirch her reputation.",
+      "translation_ko": "젊은 여성이 수도원장과 대화하면 아첨에 넘어가 평판에 흠이 갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수도원장",
+    "term_en": "abbot",
+    "context": "젊은 여성이 수도원장과 결혼함",
+    "interpretation_ko": "가난과 유혹에도 이름과 명예를 지킬 조짐",
+    "interpretation_en": "a sign that she will uphold her name and honor despite poverty and temptation",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Abbot",
+      "original": "If she marries one, she will uphold her name and honor despite poverty and temptation.",
+      "translation_ko": "젊은 여성이 수도원장과 결혼하면 가난과 유혹에도 이름과 명예를 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "context": "자신의 배를 보는 꿈을 꿈",
+    "interpretation_ko": "큰 기대를 품게 되나 고집을 억누르고 노동에 힘써야 하며, 쾌락은 해가 될 조짐",
+    "interpretation_en": "a sign that you will have great expectations, but you must curb hardheadedness and redouble your energies on your labor, as pleasure is approaching to your hurt",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abdomen",
+      "original": "To see your abdomen in a dream, foretells that you will have great expectations, but you must curb hardheadedness and redouble your energies on your labor, as pleasure is approaching to your hurt.",
+      "translation_ko": "자신의 배를 보는 꿈을 꾸면 큰 기대를 품게 되나 고집을 억누르고 노동에 힘써야 하며, 쾌락은 해가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "context": "배가 쪼그라든 것을 봄",
+    "interpretation_ko": "거짓 친구들에게 박해와 배신을 당할 조짐",
+    "interpretation_en": "a sign that you will be persecuted and defied by false friends",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abdomen",
+      "original": "To see your abdomen shriveled, foretells that you will be persecuted and defied by false friends.",
+      "translation_ko": "배가 쪼그라든 것을 보면 거짓 친구들에게 박해와 배신을 당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "context": "배가 부어 있는 것을 봄",
+    "interpretation_ko": "고난이 있으나 이를 극복하고 노동의 결실을 누릴 조짐",
+    "interpretation_en": "a sign that you will have tribulations, but you will overcome them and enjoy the fruits of your labor",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abdomen",
+      "original": "To see it swollen, you will have tribulations, but you will overcome them and enjoy the fruits of your labor.",
+      "translation_ko": "배가 부어 있는 것을 보면 고난이 있으나 이를 극복하고 노동의 결실을 누리게 된다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "context": "배에서 피가 배어 나오는 것을 봄",
+    "interpretation_ko": "가족에게 사고나 비극이 생길 조짐",
+    "interpretation_en": "a sign foretelling an accident or tragedy in your family",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abdomen",
+      "original": "To see blood oozing from the abdomen, foretells an accident or tragedy in your family.",
+      "translation_ko": "배에서 피가 배어 나오는 것을 보면 가족에게 사고나 비극이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "abdomen",
+    "context": "아이의 배가 병든 상태인 것을 봄",
+    "interpretation_ko": "전염병이 자신을 따라다닐 조짐",
+    "interpretation_en": "a sign that contagion will pursue you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abdomen",
+      "original": "The abdomen of children in an unhealthy state, portends that contagion will pursue you.",
+      "translation_ko": "아이의 배가 병든 상태인 것을 보면 전염병이 자신을 따라다닐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혐오",
+    "term_en": "abhor",
+    "context": "어떤 사람을 혐오하는 꿈을 꿈",
+    "interpretation_ko": "누군가에게 이상한 반감을 품게 되고, 그의 정직함에 대한 의심이 사실로 드러날 조짐",
+    "interpretation_en": "a sign that you will entertain strange dislike for some person, and your suspicion of his honesty will prove correct",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abhor",
+      "original": "To dream that you abhor a person, denotes that you will entertain strange dislike for some person, and your suspicion of his honesty will prove correct.",
+      "translation_ko": "어떤 사람을 혐오하는 꿈을 꾸면 이상한 반감을 품게 되고, 그의 정직함에 대한 의심이 사실로 드러난다"
+    }
+  },
+  {
+    "term_ko": "혐오",
+    "term_en": "abhor",
+    "context": "남들에게 혐오받는다고 여기는 꿈을 꿈",
+    "interpretation_ko": "남에게 품은 선의가 이기심으로 바뀔 조짐",
+    "interpretation_en": "a sign that your good intentions to others will subside into selfishness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abhor",
+      "original": "To think yourself held in abhorrence by others, predicts that your good intentions to others will subside into selfishness.",
+      "translation_ko": "남들에게 혐오받는다고 여기는 꿈을 꾸면 남에게 품은 선의가 이기심으로 바뀌게 된다"
+    }
+  },
+  {
+    "term_ko": "혐오",
+    "term_en": "abhor",
+    "context": "젊은 여성이 애인에게 혐오받는 꿈을 꿈",
+    "interpretation_ko": "성격이 전혀 맞지 않는 남자를 사랑하게 될 조짐",
+    "interpretation_en": "a sign that she will love a man who is in no sense congenial",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abhor",
+      "original": "For a young woman to dream that her lover abhors her, foretells that she will love a man who is in no sense congenial.",
+      "translation_ko": "젊은 여성이 애인에게 혐오받는 꿈을 꾸면 성격이 전혀 맞지 않는 남자를 사랑하게 된다"
+    }
+  },
+  {
+    "term_ko": "비참함",
+    "term_en": "abject",
+    "context": "자신이 비참한 처지에 놓인 꿈을 꿈",
+    "interpretation_ko": "암울한 소식을 받아 번영을 향한 노력이 느슨해질 조짐",
+    "interpretation_en": "a sign that you will be the recipient of gloomy tidings, which will cause a relaxation in your strenuous efforts to climb the heights of prosperity",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abject",
+      "original": "To dream that you are abject, denotes that you will be the recipient of gloomy tidings, which will cause a relaxation in your strenuous efforts to climb the heights of prosperity.",
+      "translation_ko": "자신이 비참한 처지에 놓인 꿈을 꾸면 암울한 소식을 받아 번영을 향한 노력이 느슨해진다"
+    }
+  },
+  {
+    "term_ko": "비참함",
+    "term_en": "abject",
+    "context": "다른 사람이 비참한 처지에 있는 것을 봄",
+    "interpretation_ko": "친구들 사이에 다툼과 부정한 거래가 있다는 조짐",
+    "interpretation_en": "a sign of bickerings and false dealings among your friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abject",
+      "original": "To see others abject, is a sign of bickerings and false dealings among your friends.",
+      "translation_ko": "다른 사람이 비참한 처지에 있는 것을 보면 친구들 사이에 다툼과 부정한 거래가 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거처",
+    "term_en": "abode",
+    "context": "자신의 거처를 찾지 못하는 꿈을 꿈",
+    "interpretation_ko": "다른 사람의 진실함에 대한 믿음을 완전히 잃을 조짐",
+    "interpretation_en": "a sign that you will completely lose faith in the integrity of others",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abode",
+      "original": "To dream that you can't find your abode, you will completely lose faith in the integrity of others.",
+      "translation_ko": "자신의 거처를 찾지 못하는 꿈을 꾸면 다른 사람의 진실함에 대한 믿음을 완전히 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "거처",
+    "term_en": "abode",
+    "context": "꿈에 거처가 없음",
+    "interpretation_ko": "일이 불운해지고 투기로 손해를 볼 조짐",
+    "interpretation_en": "a sign that you will be unfortunate in your affairs, and lose by speculation",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abode",
+      "original": "If you have no abode in your dreams, you will be unfortunate in your affairs, and lose by speculation.",
+      "translation_ko": "꿈에 거처가 없으면 일이 불운해지고 투기로 손해를 보게 된다"
+    }
+  },
+  {
+    "term_ko": "거처",
+    "term_en": "abode",
+    "context": "거처를 옮김",
+    "interpretation_ko": "급한 소식이 오고 서둘러 여행을 떠나게 될 조짐",
+    "interpretation_en": "a sign of hurried tidings and that hasty journeys will be made by you",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abode",
+      "original": "To change your abode, signifies hurried tidings and that hasty journeys will be made by you.",
+      "translation_ko": "거처를 옮기는 꿈이면 급한 소식이 오고 서둘러 여행을 떠나게 된다"
+    }
+  },
+  {
+    "term_ko": "거처",
+    "term_en": "abode",
+    "context": "젊은 여성이 거처를 떠난 꿈을 꿈",
+    "interpretation_ko": "자신에 대한 중상과 거짓말이 퍼질 조짐",
+    "interpretation_en": "a sign significant of slander and falsehoods being perpetrated against her",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abode",
+      "original": "For a young woman to dream that she has left her abode, is significant of slander and falsehoods being perpetrated against her.",
+      "translation_ko": "젊은 여성이 거처를 떠난 꿈을 꾸면 자신에 대한 중상과 거짓말이 퍼질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "머리 위의 물체",
+    "term_en": "above",
+    "context": "머리 위에 매달린 것이 떨어지려는 꿈을 꿈",
+    "interpretation_ko": "위험을 암시하며, 자신에게 떨어지면 파멸이나 갑작스런 실망으로 이어질 조짐",
+    "interpretation_en": "implies danger; if it falls upon you it may be ruin or sudden disappointment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Above",
+      "original": "To see anything hanging above you, and about to fall, implies danger; if it falls upon you it may be ruin or sudden disappointment.",
+      "translation_ko": "머리 위에 매달린 것이 떨어지려는 꿈을 꾸면 위험을 암시하며, 자신에게 떨어지면 파멸이나 갑작스런 실망으로 이어진다"
+    }
+  },
+  {
+    "term_ko": "머리 위의 물체",
+    "term_en": "above",
+    "context": "떨어진 것이 비껴가 맞지 않음",
+    "interpretation_ko": "돈을 잃을 뻔한 위기를 가까스로 피하거나 다른 불행이 뒤따를 조짐",
+    "interpretation_en": "a sign that you will have a narrow escape from loss of money, or other misfortunes may follow",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Above",
+      "original": "If it falls near, but misses you, it is a sign that you will have a narrow escape from loss of money, or other misfortunes may follow.",
+      "translation_ko": "떨어진 것이 비껴가 맞지 않으면 돈을 잃을 뻔한 위기를 가까스로 피하거나 다른 불행이 뒤따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "머리 위의 물체",
+    "term_en": "above",
+    "context": "머리 위의 것이 단단히 고정돼 위험이 없어 보임",
+    "interpretation_ko": "위협받던 손실 뒤에 상황이 나아질 조짐",
+    "interpretation_en": "a sign that your condition will improve after threatened loss",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Above",
+      "original": "Should it be securely fixed above you, so as not to imply danger, your condition will improve after threatened loss.",
+      "translation_ko": "머리 위의 것이 단단히 고정돼 위험이 없어 보이면 위협받던 손실 뒤에 상황이 나아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "외국",
+    "term_en": "abroad",
+    "context": "외국에 있거나 외국으로 가는 꿈을 꿈",
+    "interpretation_ko": "곧 일행과 함께 즐거운 여행을 떠나고, 다른 기후에서 머물기 위해 고국을 떠나야 할 조짐",
+    "interpretation_en": "a sign that you will soon, in company with a party, make a pleasant trip, and will find it necessary to absent yourself from your native country for a sojourn in a different climate",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Abroad",
+      "original": "To dream that you are abroad, or going abroad, foretells that you will soon, in company with a party, make a pleasant trip, and you will find it necessary to absent yourself from your native country for a sojourn in a different climate.",
+      "translation_ko": "외국에 있거나 외국으로 가는 꿈을 꾸면 곧 일행과 함께 즐거운 여행을 떠나고, 다른 기후에서 머물기 위해 고국을 떠나야 하게 된다"
+    }
+  },
+  {
+    "term_ko": "부재",
+    "term_en": "absence",
+    "context": "누군가의 부재를 슬퍼하는 꿈을 꿈",
+    "interpretation_ko": "성급한 행동을 뉘우쳐 평생 갈 우정을 얻게 될 조짐",
+    "interpretation_en": "a sign that repentance for some hasty action will be the means of securing you life-long friendships",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Absence",
+      "original": "To grieve over the absence of any one in your dreams, denotes that repentance for some hasty action will be the means of securing you life-long friendships.",
+      "translation_ko": "누군가의 부재를 슬퍼하는 꿈을 꾸면 성급한 행동을 뉘우쳐 평생 갈 우정을 얻게 된다"
+    }
+  },
+  {
+    "term_ko": "부재",
+    "term_en": "absence",
+    "context": "친구의 부재를 기뻐하는 꿈을 꿈",
+    "interpretation_ko": "머지않아 원수를 완전히 떨쳐낼 조짐",
+    "interpretation_en": "a sign that you will soon be well rid of an enemy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Absence",
+      "original": "If you rejoice over the absence of friends, it denotes that you will soon be well rid of an enemy.",
+      "translation_ko": "친구의 부재를 기뻐하는 꿈을 꾸면 머지않아 원수를 완전히 떨쳐내게 된다"
+    }
+  },
+  {
+    "term_ko": "종기",
+    "term_en": "abscess",
+    "context": "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈",
+    "interpretation_ko": "자신에게 불행이 겹쳐 밀려들고, 동시에 남의 슬픔에 깊이 공감하게 될 조짐",
+    "interpretation_en": "a sign that you will be overwhelmed with misfortune of your own; at the same time your deepest sympathies will be enlisted for the sorrows of others",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Abscess",
+      "original": "To dream that you have an abscess which seems to have reached a chronic stage, you will be overwhelmed with misfortune of your own; at the same time your deepest sympathies will be enlisted for the sorrows of others.",
+      "translation_ko": "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꾸면 자신에게 불행이 겹쳐 밀려들고, 동시에 남의 슬픔에 깊이 공감하게 된다"
+    }
+  },
+  {
+    "term_ko": "압생트",
+    "term_en": "absinthe",
+    "context": "압생트에 취하는 꿈을 꿈",
+    "interpretation_ko": "순진한 동료들과 어울려 흥청망청 어리석게 지내고, 유혹적이고 이기적인 공상에 유산을 낭비할 조짐",
+    "interpretation_en": "a sign that you will lead a merry and foolish pace with innocent companions, and waste your inheritance in prodigal lavishness on the siren, selfish fancy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Absinthe",
+      "original": "To come under the influence of absinthe in dreams, denotes that you will lead a merry and foolish pace with innocent companions, and waste your inheritance in prodigal lavishness on the siren, selfish fancy.",
+      "translation_ko": "압생트에 취하는 꿈을 꾸면 순진한 동료들과 어울려 흥청망청 어리석게 지내고, 유혹적이고 이기적인 공상에 유산을 낭비하게 된다"
+    }
+  },
+  {
+    "term_ko": "압생트",
+    "term_en": "absinthe",
+    "context": "젊은 여성이 애인과 압생트를 마시는 꿈을 꿈",
+    "interpretation_ko": "애인의 부적절한 관계 요구를 물리쳐야 한다는 경고",
+    "interpretation_en": "a warning to resist his persuasions to illicit consummation of their love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Absinthe",
+      "original": "For a young woman to dream that she drinks absinthe with her lover warns her to resist his persuasions to illicit consummation of their love.",
+      "translation_ko": "젊은 여성이 애인과 압생트를 마시는 꿈을 꾸면 애인의 부적절한 관계 요구를 물리쳐야 한다는 경고다"
+    }
+  },
+  {
+    "term_ko": "압생트",
+    "term_en": "absinthe",
+    "context": "젊은 여성이 취한 꿈을 꿈",
+    "interpretation_ko": "강한 설득 없이도 정조를 내주게 될 조짐",
+    "interpretation_en": "a sign that she will yield up her favors without strong persuasion",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Absinthe",
+      "original": "If she dreams she is drunk, she will yield up her favors without strong persuasion.",
+      "translation_ko": "젊은 여성이 취한 꿈을 꾸면 강한 설득 없이도 정조를 내주게 된다"
+    }
+  },
+  {
+    "term_ko": "풍요",
+    "term_en": "abundance",
+    "context": "풍요를 누리는 꿈을 꿈",
+    "interpretation_ko": "운명을 탓할 일이 없고 앞으로 운의 호의에 기대지 않아도 될 조짐이나, 부정으로 인해 가정의 행복이 무너질 위험이 있음",
+    "interpretation_en": "a sign that you will have no occasion to reproach Fortune, and that you will be independent of her future favors, but your domestic happiness may suffer a collapse under the strain you are likely to put upon it by your infidelity",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abundance",
+      "original": "To dream that you are possessed with an abundance; foretells that you will have no occasion to reproach Fortune, and that you will be independent of her future favors; but your domestic happiness may suffer a collapse under the strain you are likely to put upon it by your infidelity.",
+      "translation_ko": "풍요를 누리는 꿈을 꾸면 운명을 탓할 일이 없고 앞으로 운의 호의에 기대지 않아도 되나, 부정으로 인해 가정의 행복이 무너질 위험이 있다"
+    }
+  },
+  {
+    "term_ko": "학대",
+    "term_en": "abuse",
+    "context": "다른 사람을 학대하는 꿈을 꿈",
+    "interpretation_ko": "일이 불운해지고 남과의 사업 관계에서 지나친 고집으로 돈을 잃을 조짐",
+    "interpretation_en": "a sign that you will be unfortunate in your affairs, losing good money through over-bearing persistency in business relations with others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abuse",
+      "original": "To dream of abusing a person, means that you will be unfortunate in your affairs, losing good money through over-bearing persistency in business relations with others.",
+      "translation_ko": "다른 사람을 학대하는 꿈을 꾸면 일이 불운해지고 남과의 사업 관계에서 지나친 고집으로 돈을 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "학대",
+    "term_en": "abuse",
+    "context": "자신이 학대당한다고 느끼는 꿈을 꿈",
+    "interpretation_ko": "남의 적의로 일상에서 시달릴 조짐",
+    "interpretation_en": "a sign that you will be molested in your daily pursuits by the enmity of others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abuse",
+      "original": "To feel yourself abused, you will be molested in your daily pursuits by the enmity of others.",
+      "translation_ko": "자신이 학대당한다고 느끼는 꿈을 꾸면 남의 적의로 일상에서 시달리게 된다"
+    }
+  },
+  {
+    "term_ko": "학대",
+    "term_en": "abuse",
+    "context": "젊은 여성이 욕설을 듣는 꿈을 꿈",
+    "interpretation_ko": "누군가의 질투와 시기로 곤란을 겪을 조짐",
+    "interpretation_en": "a sign that she will fall under the ban of some person's jealousy and envy",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abuse",
+      "original": "For a young woman to dream that she hears abusive language, foretells that she will fall under the ban of some person's jealousy and envy.",
+      "translation_ko": "젊은 여성이 욕설을 듣는 꿈을 꾸면 누군가의 질투와 시기로 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "학대",
+    "term_en": "abuse",
+    "context": "젊은 여성이 스스로 욕설을 하는 꿈을 꿈",
+    "interpretation_ko": "예상치 못한 냉대를 당해 지난날 친구들에게 못되게 굴었던 것에 수치심과 후회를 느낄 조짐",
+    "interpretation_en": "a sign that she will meet with unexpected rebuffs, that may fill her with mortification and remorse for her past unworthy conduct toward friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Abuse",
+      "original": "If she uses the language herself, she will meet with unexpected rebuffs, that may fill her with mortification and remorse for her past unworthy conduct toward friends.",
+      "translation_ko": "젊은 여성이 스스로 욕설을 하는 꿈을 꾸면 예상치 못한 냉대를 당해 지난날 친구들에게 못되게 굴었던 것에 수치심과 후회를 느끼게 된다"
+    }
+  },
+  {
+    "term_ko": "심연",
+    "term_en": "abyss",
+    "context": "심연을 들여다보는 꿈을 꿈",
+    "interpretation_ko": "재산을 빼앗길 위협에 맞닥뜨리고, 개인적인 다툼과 비난으로 삶의 문제에 대처하지 못하게 될 조짐",
+    "interpretation_en": "a sign that you will be confronted by threats of seizure of property, and that there will be quarrels and reproaches of a personal nature which will unfit you to meet the problems of life",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Abyss",
+      "original": "To dream of looking into an abyss, means that you will be confronted by threats of seizure of property, and that there will be quarrels and reproaches of a personal nature which will unfit you to meet the problems of life.",
+      "translation_ko": "심연을 들여다보는 꿈을 꾸면 재산을 빼앗길 위협에 맞닥뜨리고, 개인적인 다툼과 비난으로 삶의 문제에 대처하지 못하게 된다"
+    }
+  },
+  {
+    "term_ko": "심연",
+    "term_en": "abyss",
+    "context": "여성이 심연을 들여다보는 꿈을 꿈",
+    "interpretation_ko": "달갑지 않은 근심을 스스로 짊어질 조짐",
+    "interpretation_en": "a sign that she will burden herself with unwelcome cares",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Abyss",
+      "original": "For a woman to be looking into an abyss, foretells that she will burden herself with unwelcome cares.",
+      "translation_ko": "여성이 심연을 들여다보는 꿈을 꾸면 달갑지 않은 근심을 스스로 짊어지게 된다"
+    }
+  },
+  {
+    "term_ko": "심연",
+    "term_en": "abyss",
+    "context": "여성이 심연에 빠지거나 건너는 꿈을 꿈",
+    "interpretation_ko": "심연에 빠지면 실망이 완전해지나, 건너거나 피하는 데 성공하면 다시 일어설 조짐",
+    "interpretation_en": "if she falls into the abyss her disappointment will be complete; but if she succeeds in crossing, or avoiding it, she will reinstate herself",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Abyss",
+      "original": "If she falls into the abyss her disappointment will be complete; but if she succeeds in crossing, or avoiding it, she will reinstate herself.",
+      "translation_ko": "여성이 심연에 빠지면 실망이 완전해지나, 건너거나 피하는 데 성공하면 다시 일어설 조짐이다"
+    }
+  },
+  {
+    "term_ko": "학교",
+    "term_en": "academy",
+    "context": "꿈에 학교를 방문함",
+    "interpretation_ko": "게으름과 무관심으로 흘려보낸 기회를 후회할 조짐",
+    "interpretation_en": "a sign that you will regret opportunities that you have let pass through sheer idleness and indifference",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Academy",
+      "original": "To visit an academy in your dreams, denotes that you will regret opportunities that you have let pass through sheer idleness and indifference.",
+      "translation_ko": "꿈에 학교를 방문하면 게으름과 무관심으로 흘려보낸 기회를 후회하게 된다"
+    }
+  },
+  {
+    "term_ko": "학교",
+    "term_en": "academy",
+    "context": "자신이 학교를 소유하거나 재학 중이라고 여김",
+    "interpretation_ko": "포부가 손쉽게 꺾일 조짐",
+    "interpretation_en": "a sign that you are to meet easy defeat of aspirations",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Academy",
+      "original": "To think you own, or are an inmate of one, you will find that you are to meet easy defeat of aspirations.",
+      "translation_ko": "자신이 학교를 소유하거나 재학 중이라고 여기는 꿈을 꾸면 포부가 손쉽게 꺾일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "학교",
+    "term_en": "academy",
+    "context": "지식을 얻지만 제대로 소화해 적용하지 못함",
+    "interpretation_ko": "지식은 얻으나 이를 제대로 소화해 적용하지 못할 조짐",
+    "interpretation_en": "a sign that you will take on knowledge, but be unable to rightly assimilate and apply it",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Academy",
+      "original": "You will take on knowledge, but be unable to rightly assimilate and apply it.",
+      "translation_ko": "지식은 얻으나 이를 제대로 소화해 적용하지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "학교",
+    "term_en": "academy",
+    "context": "학업을 마친 뒤 다시 학교로 돌아감",
+    "interpretation_ko": "감당하지 못할 요구를 받게 될 조짐",
+    "interpretation_en": "a sign that demands will be made which the dreamer may find himself or herself unable to meet",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Academy",
+      "original": "For a young woman or any person to return to an academy after having finished there, signifies that demands will be made which the dreamer may find himself or her self unable to meet.",
+      "translation_ko": "학업을 마친 뒤 다시 학교로 돌아가는 꿈을 꾸면 감당하지 못할 요구를 받게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "승낙",
+    "term_en": "accepted",
+    "context": "사업가가 자신의 제안이 받아들여지는 꿈을 꿈",
+    "interpretation_ko": "실패할 것 같던 거래를 결국 성사시킬 조짐",
+    "interpretation_en": "a sign that he will succeed in making a trade, which heretofore looked as if it would prove a failure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Accepted",
+      "original": "For a business man to dream that his proposition has been accepted, foretells that he will succeed in making a trade, which heretofore looked as if it would prove a failure.",
+      "translation_ko": "사업가가 자신의 제안이 받아들여지는 꿈을 꾸면 실패할 것 같던 거래를 결국 성사시키게 된다"
+    }
+  },
+  {
+    "term_ko": "승낙",
+    "term_en": "accepted",
+    "context": "연인이 애인에게 청혼을 승낙받는 꿈을 꿈",
+    "interpretation_ko": "자신과 남들이 흠모하는 사람과 행복하게 결혼할 조짐",
+    "interpretation_en": "a sign that he will happily wed the object of his own and others' admiration",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Accepted",
+      "original": "For a lover to dream that he has been accepted by his sweetheart, denotes that he will happily wed the object of his own and others' admiration.",
+      "translation_ko": "연인이 애인에게 청혼을 승낙받는 꿈을 꾸면 자신과 남들이 흠모하는 사람과 행복하게 결혼하게 된다"
+    }
+  },
+  {
+    "term_ko": "사고",
+    "term_en": "accident",
+    "context": "사고가 나는 꿈을 꿈",
+    "interpretation_ko": "생명을 잃을 위험이 있으니 한동안 여행을 피하라는 경고",
+    "interpretation_en": "a warning to avoid any mode of travel for a short period, as you are threatened with loss of life",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Accident",
+      "original": "To dream of an accident is a warning to avoid any mode of travel for a short period, as you are threatened with loss of life.",
+      "translation_ko": "사고가 나는 꿈을 꾸면 생명을 잃을 위험이 있으니 한동안 여행을 피하라는 경고다"
+    }
+  },
+  {
+    "term_ko": "사고",
+    "term_en": "accident",
+    "context": "가축(재산)에 사고가 생기는 꿈을 꿈",
+    "interpretation_ko": "온 힘을 다해 무언가를 얻으려 애쓰다가, 그 일을 돕던 친구가 같은 값어치의 재산을 잃는 것을 보게 될 조짐",
+    "interpretation_en": "a sign that you will struggle with all your might to gain some object and then see some friend lose property of the same value in aiding your cause",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Accident",
+      "original": "For an accident to befall stock, denotes that you will struggle with all your might to gain some object and then see some friend lose property of the same value in aiding your cause.",
+      "translation_ko": "가축(재산)에 사고가 생기는 꿈을 꾸면 온 힘을 다해 무언가를 얻으려 애쓰다가, 그 일을 돕던 친구가 같은 값어치의 재산을 잃는 것을 보게 된다"
+    }
+  },
+  {
+    "term_ko": "아코디언",
+    "term_en": "accordion",
+    "context": "아코디언 음악을 듣는 꿈을 꿈",
+    "interpretation_ko": "슬픔과 회한에서 벗어나게 할 오락을 즐기게 되고, 그 덕에 짐을 더 명랑하게 짊어질 조짐",
+    "interpretation_en": "a sign that you will engage in amusement which will win you from sadness and retrospection, and by this means be enabled to take up your burden more cheerfully",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accordion",
+      "original": "To dream of hearing the music of an accordion, denotes that you will engage in amusement which will win you from sadness and retrospection. You will by this means be enabled to take up your burden more cheerfully.",
+      "translation_ko": "아코디언 음악을 듣는 꿈을 꾸면 슬픔과 회한에서 벗어나게 할 오락을 즐기게 되고, 그 덕에 짐을 더 명랑하게 짊어지게 된다"
+    }
+  },
+  {
+    "term_ko": "아코디언",
+    "term_en": "accordion",
+    "context": "젊은 여성이 아코디언을 연주하는 꿈을 꿈",
+    "interpretation_ko": "슬픈 사건을 계기로 애인의 마음을 얻고, 그것이 결혼 생활에 오래가는 행복을 안겨줄 조짐",
+    "interpretation_en": "a sign that she will win her lover by some sad occurrence; but, notwithstanding which, the same will confer lasting happiness upon her union",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accordion",
+      "original": "For a young woman to dream that she is playing an accordion, portends that she will win her lover by some sad occurrence; but, notwithstanding which, the same will confer lasting happiness upon her union.",
+      "translation_ko": "젊은 여성이 아코디언을 연주하는 꿈을 꾸면 슬픈 사건을 계기로 애인의 마음을 얻고, 그것이 결혼 생활에 오래가는 행복을 안겨준다"
+    }
+  },
+  {
+    "term_ko": "아코디언",
+    "term_en": "accordion",
+    "context": "아코디언 소리가 어긋나는 꿈을 꿈",
+    "interpretation_ko": "애인의 병이나 곤란으로 슬퍼하게 될 조짐",
+    "interpretation_en": "a sign that she will be saddened by the illness or trouble of her lover",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accordion",
+      "original": "If the accordion gets out of tune, she will be saddened by the illness or trouble of her lover.",
+      "translation_ko": "아코디언 소리가 어긋나는 꿈을 꾸면 애인의 병이나 곤란으로 슬퍼하게 된다"
+    }
+  },
+  {
+    "term_ko": "청구서",
+    "term_en": "accounts",
+    "context": "지불해야 할 청구서를 받는 꿈을 꿈",
+    "interpretation_ko": "위태로운 처지에 놓여 법에 호소해야 벗어날 조짐",
+    "interpretation_en": "a sign that you will be in a dangerous position, and may have recourse to law to disentangle yourself",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accounts",
+      "original": "To dream of having accounts presented to you for payment, you will be in a dangerous position.  You may have recourse to law to disentangle yourself.",
+      "translation_ko": "지불해야 할 청구서를 받는 꿈을 꾸면 위태로운 처지에 놓여 법에 호소해야 벗어나게 된다"
+    }
+  },
+  {
+    "term_ko": "청구서",
+    "term_en": "accounts",
+    "context": "청구서를 지불함",
+    "interpretation_ko": "심각한 분쟁에서 곧 타협을 이룰 조짐",
+    "interpretation_en": "a sign that you will soon effect a compromise in some serious dispute",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accounts",
+      "original": "If you pay the accounts, you will soon effect a compromise in some serious dispute.",
+      "translation_ko": "청구서를 지불하는 꿈을 꾸면 심각한 분쟁에서 곧 타협을 이루게 된다"
+    }
+  },
+  {
+    "term_ko": "청구서",
+    "term_en": "accounts",
+    "context": "다른 사람에게 빚을 받아야 할 처지가 됨",
+    "interpretation_ko": "사업에서 관리가 매끄럽지 못하고 불쾌한 일들이 생길 조짐",
+    "interpretation_en": "a sign that disagreeable contingencies will arise in your business, marring the smoothness of its management",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accounts",
+      "original": "To hold accounts against others, foretells that disagreeable contingencies will arise in your business, marring the smoothness of its management.",
+      "translation_ko": "다른 사람에게 빚을 받아야 할 처지가 되는 꿈을 꾸면 사업에서 관리가 매끄럽지 못하고 불쾌한 일들이 생기게 된다"
+    }
+  },
+  {
+    "term_ko": "청구서",
+    "term_en": "accounts",
+    "context": "젊은 여성 경리가 장부를 결산하는 꿈을 꿈",
+    "interpretation_ko": "사업과 애정 문제에서 어려움을 겪으나, 훌륭한 사람이 나타나 그의 행복을 위해 설득하고 지금 고용주에게 큰 신망을 얻을 조짐",
+    "interpretation_en": "a sign that she will have trouble in business, and in her love affairs, but some worthy person will persuade her to account for his happiness, and she will be much respected by her present employers",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Accounts",
+      "original": "For a young woman book-keeper to dream of footing up accounts, denotes that she will have trouble in business, and in her love affairs; but some worthy person will persuade her to account for his happiness.  She will be much respected by her present employers.",
+      "translation_ko": "젊은 여성 경리가 장부를 결산하는 꿈을 꾸면 사업과 애정 문제에서 어려움을 겪으나, 훌륭한 사람이 나타나 그의 행복을 위해 설득하고 지금 고용주에게 큰 신망을 얻는다"
+    }
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "term_ko": "장작받침쇠",
+    "term_en": "andirons",
+    "context": "장작받침쇠가 타는 장작을 받치고 있는 것을 봄",
+    "interpretation_ko": "친구들 사이에 좋은 뜻이 오갈 조짐",
+    "interpretation_en": "a sign of good will among friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Andirons",
+      "original": "Andirons seen in a dream, denotes good will among friends, if the irons support burning logs;",
+      "translation_ko": "꿈에 장작받침쇠를 보되 그것이 타는 장작을 받치고 있으면 친구들 사이에 좋은 뜻이 오갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장작받침쇠",
+    "term_en": "andirons",
+    "context": "빈 벽난로에 놓인 장작받침쇠를 봄",
+    "interpretation_ko": "재산을 잃고 죽음이 있을 조짐",
+    "interpretation_en": "a sign that loss of property and death are signified",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Andirons",
+      "original": "if they are in an empty fireplace, loss of property and death are signified.",
+      "translation_ko": "장작받침쇠가 빈 벽난로에 놓여 있으면 재산을 잃고 죽음이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "일화",
+    "term_en": "anecdote",
+    "context": "일화를 이야기하는 꿈을 꿈",
+    "interpretation_ko": "지성보다 흥겨운 어울림을 훨씬 좋아하게 되고, 자기 자신처럼 일도 불안정해질 조짐",
+    "interpretation_en": "a sign that you will greatly prefer gay companionship to that of intellect, and that your affairs will prove as unstable as yourself",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anecdote",
+      "original": "To dream of relating an anecdote, signifies that you will greatly prefer gay companionship to that of intellect, and that your affairs will prove as unstable as yourself.",
+      "translation_ko": "일화를 이야기하는 꿈을 꾸면 지성보다 흥겨운 어울림을 훨씬 좋아하게 되고, 자기 자신처럼 일도 불안정해진다"
+    }
+  },
+  {
+    "term_ko": "일화",
+    "term_en": "anecdote",
+    "context": "젊은 여성이 남이 들려주는 일화를 들음",
+    "interpretation_ko": "즐거움을 좇는 유쾌한 무리에 끼게 될 조짐",
+    "interpretation_en": "a sign that she will be one of a merry party of pleasure-seekers",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anecdote",
+      "original": "For a young woman to hear anecdotes related, denotes that she will be one of a merry party of pleasure-seekers.",
+      "translation_ko": "젊은 여성이 남이 들려주는 일화를 들으면 즐거움을 좇는 유쾌한 무리에 끼게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "천사",
+    "term_en": "angels",
+    "context": "천사를 보는 꿈을 꿈",
+    "interpretation_ko": "마음이 흔들릴 일이 있고 처지가 바뀔 조짐",
+    "interpretation_en": "a sign prophetic of disturbing influences in the soul, bringing a changed condition of the person's lot",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Angels",
+      "original": "To dream of angels is prophetic of disturbing influences in the soul. It brings a changed condition of the person's lot.",
+      "translation_ko": "천사를 보는 꿈은 마음이 흔들릴 일을 예고하며, 그 사람의 처지가 바뀌게 된다"
+    }
+  },
+  {
+    "term_ko": "천사",
+    "term_en": "angels",
+    "context": "천사 꿈이 유난히 기분 좋음",
+    "interpretation_ko": "친구들의 건강한 소식을 듣고 모르던 친척에게서 유산을 받을 조짐",
+    "interpretation_en": "a sign that you will hear of the health of friends, and receive a legacy from unknown relatives",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Angels",
+      "original": "If the dream is unusually pleasing, you will hear of the health of friends, and receive a legacy from unknown relatives.",
+      "translation_ko": "그 꿈이 유난히 기분 좋으면 친구들의 건강한 소식을 듣고 모르던 친척에게서 유산을 받게 된다"
+    }
+  },
+  {
+    "term_ko": "천사",
+    "term_en": "angels",
+    "context": "천사 꿈이 경고처럼 다가옴",
+    "interpretation_ko": "사랑이나 돈 문제로 추문이 날 위협을 받을 조짐",
+    "interpretation_en": "a sign that the dreamer may expect threats of scandal about love or money matters",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Angels",
+      "original": "If the dream comes as a token of warning, the dreamer may expect threats of scandal about love or money matters.",
+      "translation_ko": "그 꿈이 경고의 표시로 오면 사랑이나 돈 문제로 추문이 날 위협을 받게 된다"
+    }
+  },
+  {
+    "term_ko": "천사",
+    "term_en": "angels",
+    "context": "악한 사람과 선한 사람이 각각 천사를 봄",
+    "interpretation_ko": "악한 사람에게는 회개하라는 요구이고, 선한 사람에게는 위로가 되는 조짐",
+    "interpretation_en": "to wicked people a demand to repent, and to good people a consolation",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Angels",
+      "original": "To wicked people, it is a demand to repent; to good people it should be a consolation.",
+      "translation_ko": "악한 사람에게는 회개하라는 요구이고, 선한 사람에게는 위로가 되어야 한다"
+    }
+  },
+  {
+    "term_ko": "분노",
+    "term_en": "anger",
+    "context": "분노하는 꿈을 꿈",
+    "interpretation_ko": "끔찍한 시련이 기다리고, 사랑하는 이에게 실망하고 인연이 끊기며 적이 재산이나 명예를 새로 공격할 조짐",
+    "interpretation_en": "a sign that some awful trial awaits you — disappointments in loved ones, broken ties, and enemies who may make new attacks upon your property or character",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anger",
+      "original": "To dream of anger, denotes that some awful trial awaits you. Disappointments in loved ones, and broken ties, of enemies may make new attacks upon your property or character.",
+      "translation_ko": "분노하는 꿈을 꾸면 끔찍한 시련이 기다린다. 사랑하는 이에게 실망하고 인연이 끊기며, 적이 재산이나 명예를 새로 공격할 수 있다"
+    }
+  },
+  {
+    "term_ko": "분노",
+    "term_en": "anger",
+    "context": "친구나 친척이 화를 내는데 침착하게 맞섬",
+    "interpretation_ko": "다투는 친구들을 중재해 오래가는 호의와 감사를 얻을 조짐",
+    "interpretation_en": "a sign that you will mediate between opposing friends, and gain their lasting favor and gratitude",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anger",
+      "original": "To dreams that friends or relatives are angry with you, while you meet their anger with composure, denotes you will mediate between opposing friends, and gain their lasting favor and gratitude.",
+      "translation_ko": "친구나 친척이 자신에게 화를 내는데 침착하게 맞서는 꿈을 꾸면, 다투는 친구들을 중재해 오래가는 호의와 감사를 얻게 된다"
+    }
+  },
+  {
+    "term_ko": "낚시",
+    "term_en": "angling",
+    "context": "물고기를 낚는 꿈을 꿈",
+    "interpretation_ko": "좋은 조짐",
+    "interpretation_en": "a good sign",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Angling",
+      "original": "To dream of catching fish is good.",
+      "translation_ko": "물고기를 낚는 꿈은 좋다"
+    }
+  },
+  {
+    "term_ko": "낚시",
+    "term_en": "angling",
+    "context": "한 마리도 낚지 못함",
+    "interpretation_ko": "나쁜 일이 있을 조짐",
+    "interpretation_en": "a sign that it will be bad for you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Angling",
+      "original": "If you fail to catch any, it will be bad for you.",
+      "translation_ko": "한 마리도 낚지 못하면 나쁜 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "성가심",
+    "term_en": "annoy",
+    "context": "성가신 일을 겪는 꿈을 꿈",
+    "interpretation_ko": "자신을 해치려 움직이는 적이 있다는 조짐",
+    "interpretation_en": "a sign that you have enemies who are at work against you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Annoy",
+      "original": "This dream denotes that you have enemies who are at work against you.",
+      "translation_ko": "이 꿈은 자신을 해치려 움직이는 적이 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "성가심",
+    "term_en": "annoy",
+    "context": "꿈속에서 겪은 성가신 일",
+    "interpretation_ko": "이튿날 사소한 일들로 곧 그대로 이루어지기 쉬운 조짐",
+    "interpretation_en": "a sign apt to find speedy fulfilment in the trifling incidents of the following day",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Annoy",
+      "original": "Annoyances experienced in dreams are apt to find speedy fulfilment in the trifling incidents of the following day.",
+      "translation_ko": "꿈에서 겪은 성가신 일은 이튿날의 사소한 사건으로 곧 그대로 이루어지기 쉽다"
+    }
+  },
+  {
+    "term_ko": "영양",
+    "term_en": "antelope",
+    "context": "꿈에 영양을 봄",
+    "interpretation_ko": "포부는 높되 큰 힘을 쏟아야 이룰 수 있을 조짐",
+    "interpretation_en": "a sign that your ambitions will be high, but may be realized by putting forth great energy",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Antelope",
+      "original": "Seeing antelopes in a dream, foretells your ambitions will be high, but may be realized by putting forth great energy.",
+      "translation_ko": "꿈에 영양을 보면 포부는 높되 큰 힘을 쏟아야 이룰 수 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "영양",
+    "term_en": "antelope",
+    "context": "젊은 여성이 영양이 발을 헛디뎌 높은 데서 떨어지는 것을 봄",
+    "interpretation_ko": "바라던 사랑이 도리어 자신을 무너뜨릴 조짐",
+    "interpretation_en": "a sign that the love she aspires to will prove her undoing",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Antelope",
+      "original": "For a young woman to see an antelope miss its footing and fall from a height, denotes the love she aspires to will prove her undoing.",
+      "translation_ko": "젊은 여성이 영양이 발을 헛디뎌 높은 데서 떨어지는 것을 보면 바라던 사랑이 도리어 자신을 무너뜨릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "개미",
+    "term_en": "ants",
+    "context": "개미를 보는 꿈을 꿈",
+    "interpretation_ko": "그날 자잘한 성가심이 많고, 사소한 걱정에 쫓기며 모든 일에 불만을 느낄 조짐",
+    "interpretation_en": "a sign of many petty annoyances during the day, chasing little worries, and finding general dissatisfaction in all things",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ants",
+      "original": "The dreamer of ants should expect many petty annoyances during the day; chasing little worries, and finding general dissatisfaction in all things.",
+      "translation_ko": "개미 꿈을 꾼 사람은 그날 자잘한 성가심을 많이 겪고, 사소한 걱정에 쫓기며 모든 일에 불만을 느끼게 된다"
+    }
+  },
+  {
+    "term_ko": "모루",
+    "term_en": "anvil",
+    "context": "불꽃이 튀는 뜨거운 쇠를 봄",
+    "interpretation_ko": "즐거운 일이 있을 조짐이며, 농부에게는 풍작이고 여성에게는 특히 이로움",
+    "interpretation_en": "a sign of pleasing work — to the farmer, an abundant crop; favorable indeed to women",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Anvil",
+      "original": "To see hot iron with sparks flying, is significant of a pleasing work; to the farmer, an abundant crop; favorable indeed to women.",
+      "translation_ko": "불꽃이 튀는 뜨거운 쇠를 보면 즐거운 일이 있을 조짐이며, 농부에게는 풍작이고 여성에게는 참으로 이롭다"
+    }
+  },
+  {
+    "term_ko": "모루",
+    "term_en": "anvil",
+    "context": "쇠가 차갑거나 작음",
+    "interpretation_ko": "권력을 가진 이들에게서 작은 호의를 받을 조짐",
+    "interpretation_en": "a sign that small favors may be expected from those in power",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Anvil",
+      "original": "Cold, or small, favors may be expected from those in power.",
+      "translation_ko": "쇠가 차갑거나 작으면 권력을 가진 이들에게서 작은 호의를 받게 된다"
+    }
+  },
+  {
+    "term_ko": "모루",
+    "term_en": "anvil",
+    "context": "모루를 보는 꿈을 꿈",
+    "interpretation_ko": "성공할 힘은 자신에게 있으나 그것을 얻으려면 고되게 일해야 할 조짐",
+    "interpretation_en": "a sign that the means of success is in your power, but in order to obtain it you will have to labor under difficulty",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Anvil",
+      "original": "The means of success is in your power, but in order to obtain it you will have to labor under difficulty.",
+      "translation_ko": "성공할 힘은 자신에게 있으나 그것을 얻으려면 고되게 일해야 한다"
+    }
+  },
+  {
+    "term_ko": "모루",
+    "term_en": "anvil",
+    "context": "모루가 부서져 있음",
+    "interpretation_ko": "제 소홀함으로 다시 오지 않을 좋은 기회를 내던졌을 조짐",
+    "interpretation_en": "a sign that you have, through your own neglect, thrown away promising opportunities that cannot be recalled",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Anvil",
+      "original": "If the anvil is broken, it foretells that you have, through your own neglect, thrown away promising opportunities that cannot be recalled.",
+      "translation_ko": "모루가 부서져 있으면 제 소홀함으로 다시 오지 않을 좋은 기회를 내던졌다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불안",
+    "term_en": "anxiety",
+    "context": "불안해하는 꿈을 꿈",
+    "interpretation_ko": "때로는 좋은 조짐이어서, 위태롭던 상황이 지나고 성공과 마음의 활력이 찾아옴",
+    "interpretation_en": "occasionally a good omen, denoting, after threatening states, success and rejuvenation of mind",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anxiety",
+      "original": "A dream of this kind is occasionally a good omen, denoting, after threatening states, success and rejuvenation of mind;",
+      "translation_ko": "이런 꿈은 때로 좋은 조짐이어서, 위태롭던 상황이 지난 뒤 성공과 마음의 활력을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "불안",
+    "term_en": "anxiety",
+    "context": "중대한 일 하나를 두고 불안해함",
+    "interpretation_ko": "사업과 사회적 처지가 겹쳐 재앙 같은 상황이 될 조짐",
+    "interpretation_en": "a sign of a disastrous combination of business and social states",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Anxiety",
+      "original": "but if the dreamer is anxious about some momentous affair, it indicates a disastrous combination of business and social states.",
+      "translation_ko": "그러나 꿈꾼 이가 중대한 일 하나를 두고 불안해하면 사업과 사회적 처지가 겹쳐 재앙 같은 상황이 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유인원",
+    "term_en": "apes",
+    "context": "유인원을 보는 꿈을 꿈",
+    "interpretation_ko": "아끼는 친구에게 치욕과 병이 닥칠 조짐",
+    "interpretation_en": "a sign that humiliation and disease will come to some dear friend",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Apes",
+      "original": "This dream brings humiliation and disease to some dear friend.",
+      "translation_ko": "이 꿈은 아끼는 친구에게 치욕과 병을 가져온다"
+    }
+  },
+  {
+    "term_ko": "유인원",
+    "term_en": "apes",
+    "context": "작은 유인원이 나무에 매달린 것을 봄",
+    "interpretation_ko": "거짓된 사람이 곁에 있어 주변을 불편하게 만들 것이니 조심하라는 조짐이며, 속임수가 따름",
+    "interpretation_en": "a warning to beware — a false person is close to you and will cause unpleasantness in your circle, and deceit goes with this dream",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Apes",
+      "original": "To see a small ape cling to a tree, warns the dreamer to beware; a false person is close to you and will cause unpleasantness in your circle. Deceit goes with this dream.",
+      "translation_ko": "작은 유인원이 나무에 매달린 것을 보면 조심하라는 경고다. 거짓된 사람이 곁에 있어 주변을 불편하게 만들며, 속임수가 이 꿈을 따라다닌다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "옷차림 꿈을 꿈",
+    "interpretation_ko": "옷이 온전하고 깨끗한지, 더럽고 낡았는지에 따라 일이 성공하거나 실패할 조짐",
+    "interpretation_en": "a sign that enterprises will be successes or failures, as the apparel seems to be whole and clean, or soiled and threadbare",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "Dreams of apparel, denote that enterprises will be successes or failures, as the apparel seems to be whole and clean, or soiled and threadbare.",
+      "translation_ko": "옷차림 꿈은 옷이 온전하고 깨끗한지, 더럽고 낡았는지에 따라 일이 성공하거나 실패할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "좋지만 유행이 지난 옷을 봄",
+    "interpretation_ko": "재물은 얻으나 새로운 생각을 업신여길 조짐",
+    "interpretation_en": "a sign that you will have fortune, but you will scorn progressive ideas",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see fine apparel, but out of date, foretells that you will have fortune, but you will scorn progressive ideas.",
+      "translation_ko": "좋지만 유행이 지난 옷을 보면 재물은 얻으나 새로운 생각을 업신여기게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "유행이 지난 옷을 마다함",
+    "interpretation_ko": "지금의 환경을 벗어나 새로운 인연·일·사랑으로 들어가 다른 사람이 될 조짐",
+    "interpretation_en": "a sign that you will outgrow present environments and enter into new relations, new enterprises and new loves, which will transform you into a different person",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "If you reject out-of-date apparel, you will outgrow present environments and enter into new relations, new enterprises and new loves, which will transform you into a different person.",
+      "translation_ko": "유행이 지난 옷을 마다하면 지금의 환경을 벗어나 새로운 인연과 일과 사랑으로 들어가 다른 사람이 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "자신이나 남이 흰옷을 입은 것을 봄",
+    "interpretation_ko": "큰일이 되는 변화가 있으나 거의 언제나 그 변화에 슬픔이 따를 조짐",
+    "interpretation_en": "a sign of eventful changes, and you will nearly always find the change bearing sadness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see yourself or others appareled in white, denotes eventful changes, and you will nearly always find the change bearing sadness.",
+      "translation_ko": "자신이나 남이 흰옷을 입은 것을 보면 큰일이 되는 변화가 있으나 거의 언제나 그 변화에 슬픔이 따른다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "흰옷 입은 사람과 함께 걸음",
+    "interpretation_ko": "그 사람의 병이나 곤경을 알리는 조짐이나, 젊은 여성이나 아이라면 한동안 좋은 환경이 있을 조짐",
+    "interpretation_en": "a sign proclaiming that person's illness or distress, unless it be a young woman or child, then you will have pleasing surroundings for a season at least",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To walk with a person wearing white, proclaims that person's illness or distress, unless it be a young woman or child, then you will have pleasing surroundings for a season at least.",
+      "translation_ko": "흰옷 입은 사람과 함께 걸으면 그 사람의 병이나 곤경을 알리는 것이다. 다만 젊은 여성이나 아이라면 적어도 한동안은 좋은 환경이 있을 것이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "자신이나 남이 검은 옷을 입은 것을 봄",
+    "interpretation_ko": "다툼과 실망, 불쾌한 동행이 있을 조짐이며 사업이라면 기대에 못 미칠 조짐",
+    "interpretation_en": "a sign portending quarrels, disappointments, and disagreeable companions; or, if it refers to business, the business will fall short of expectations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see yourself, or others, dressed in black, portends quarrels, disappointments, and disagreeable companions; or, if it refers to business, the business will fall short of expectations.",
+      "translation_ko": "자신이나 남이 검은 옷을 입은 것을 보면 다툼과 실망과 불쾌한 동행이 있고, 사업에 관한 것이라면 기대에 못 미친다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "노란 옷을 봄",
+    "interpretation_ko": "즐거운 일과 재물의 진전이 다가올 조짐",
+    "interpretation_en": "a sign foretelling approaching gaieties and financial progress",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see yellow apparel, foretells approaching gaieties and financial progress.",
+      "translation_ko": "노란 옷을 보면 즐거운 일과 재물의 진전이 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "노란 옷이 기이한 빛 속에 유령처럼 스쳐 지나감",
+    "interpretation_ko": "앞의 좋은 뜻이 거꾸로 뒤집힐 조짐",
+    "interpretation_en": "a sign that the reverse may be expected",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "Seen as a flitting spectre, in an unnatural light, the reverse may be expected.",
+      "translation_ko": "기이한 빛 속에서 유령처럼 스쳐 지나가는 것으로 보이면 그 반대를 예상해야 한다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "노란 천을 꿈꿈",
+    "interpretation_ko": "운이 따를 조짐",
+    "interpretation_en": "a sign that you will be fortunate",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "You will be fortunate if you dream of yellow cloth.",
+      "translation_ko": "노란 천을 꿈꾸면 운이 따를 것이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "푸른 옷을 꿈꿈",
+    "interpretation_ko": "끈질기고 힘찬 노력으로 뜻을 이루고 친구들이 한결같이 도울 조짐",
+    "interpretation_en": "a sign of carrying forward to victory your aspirations, through energetic, insistent efforts, with friends loyally supporting you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To dream of blue apparel, signifies carrying forward to victory your aspirations, through energetic, insistent efforts. Friends will loyally support you.",
+      "translation_ko": "푸른 옷을 꿈꾸면 끈질기고 힘찬 노력으로 뜻을 이루게 된다. 친구들이 한결같이 도울 것이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "진홍색 옷을 꿈꿈",
+    "interpretation_ko": "밝힌 뜻을 때맞춰 바꾸어 만만찮은 적에게서 벗어날 조짐",
+    "interpretation_en": "a sign that you will escape formidable enemies by a timely change in your expressed intention",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To dream of crimson apparel, foretells that you will escape formidable enemies by a timely change in your expressed intention.",
+      "translation_ko": "진홍색 옷을 꿈꾸면 밝힌 뜻을 때맞춰 바꾸어 만만찮은 적에게서 벗어나게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "초록 옷을 봄",
+    "interpretation_ko": "번영과 행복을 바라볼 수 있는 조짐",
+    "interpretation_en": "a hopeful sign of prosperity and happiness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see green apparel, is a hopeful sign of prosperity and happiness.",
+      "translation_ko": "초록 옷을 보면 번영과 행복을 바라볼 수 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "여러 빛깔이 섞인 옷을 봄",
+    "interpretation_ko": "앞날에 빠른 변화가 있고 좋은 기운과 나쁜 기운이 뒤섞일 조짐",
+    "interpretation_en": "a sign foretelling swift changes, and intermingling of good and bad influences in your future",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see many colored apparel, foretells swift changes, and intermingling of good and bad influences in your future.",
+      "translation_ko": "여러 빛깔이 섞인 옷을 보면 앞날에 빠른 변화가 있고 좋은 기운과 나쁜 기운이 뒤섞이게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "몸에 맞지 않는 옷을 꿈꿈",
+    "interpretation_ko": "애정에 어긋남이 생기고 어떤 일에서 실수하기 쉬울 조짐",
+    "interpretation_en": "a sign intimating crosses in your affections, and that you are likely to make a mistake in some enterprise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To dream of misfitting apparel, intimates crosses in your affections, and that you are likely to make a mistake in some enterprise.",
+      "translation_ko": "몸에 맞지 않는 옷을 꿈꾸면 애정에 어긋남이 생기고 어떤 일에서 실수하기 쉽다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "노인이나 젊은이가 제 나이에 어울리는 옷을 입은 것을 봄",
+    "interpretation_ko": "마음에 없는 일을 떠맡아 근심이 많아질 조짐",
+    "interpretation_en": "a sign that you will undertake some engagement for which you will have no liking, and which will give rise to many cares",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To see old or young in appropriate apparel, denotes that you will undertake some engagement for which you will have no liking, and which will give rise to many cares.",
+      "translation_ko": "노인이나 젊은이가 제 나이에 어울리는 옷을 입은 것을 보면 마음에 없는 일을 떠맡아 근심이 많아진다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "여성이 제 옷차림이 마음에 들지 않는 꿈을 꿈",
+    "interpretation_ko": "사회적 지위를 좇는 길에서 성가신 경쟁을 많이 겪을 조짐",
+    "interpretation_en": "a sign that she will find many vexatious rivalries in her quest for social distinction",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "For a woman to dream that she is displeased with her apparel, foretells that she will find many vexatious rivalries in her quest for social distinction.",
+      "translation_ko": "여성이 제 옷차림이 마음에 들지 않는 꿈을 꾸면 사회적 지위를 좇는 길에서 성가신 경쟁을 많이 겪게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "남의 옷차림을 부러워함",
+    "interpretation_ko": "친구들에 대해 질투 어린 두려움을 갖게 될 조짐",
+    "interpretation_en": "a sign that she will have jealous fears of her friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To admire the apparel of others, denotes that she will have jealous fears of her friends.",
+      "translation_ko": "남의 옷차림을 부러워하면 친구들에 대해 질투 어린 두려움을 갖게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "옷가지 하나를 잃는 꿈을 꿈",
+    "interpretation_ko": "사업과 애정에 어지러움이 생길 조짐",
+    "interpretation_en": "a sign of disturbances in your business and love affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "To dream of the loss of any article of apparel, denotes disturbances in your business and love affairs.",
+      "translation_ko": "옷가지 하나를 잃는 꿈을 꾸면 사업과 애정에 어지러움이 생긴다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "젊은 여성이 얇고 비치는 검은 옷을 입은 꿈을 꿈",
+    "interpretation_ko": "뼈아픈 슬픔과 실망을 겪을 조짐",
+    "interpretation_en": "a sign that she will undergo chastening sorrow and disappointment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "For a young woman to dream of being attired in a guazy black costume, foretells she will undergo chastening sorrow and disappointment.",
+      "translation_ko": "젊은 여성이 얇고 비치는 검은 옷을 입은 꿈을 꾸면 뼈아픈 슬픔과 실망을 겪게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "젊은 여성이 진홍색 옷에 검은 상장 베일을 쓴 다른 여성을 만남",
+    "interpretation_ko": "자기보다 못하다고 여기던 이에게 밀려나고 쓰라린 실망으로 여자들 전체에 마음이 상할 조짐",
+    "interpretation_en": "a sign that she will be outrivaled by one she hardly considers her equal, and bitter disappointment will sour her against women generally",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "For a young woman to dream that she meets another attired in a crimson dress with a crepe mourning veil over her face, foretells she will be outrivaled by one she hardly considers her equal, and bitter disappointment will sour her against women generally.",
+      "translation_ko": "젊은 여성이 진홍색 옷에 검은 상장 베일을 쓴 다른 여성을 만나는 꿈을 꾸면, 자기보다 못하다고 여기던 이에게 밀려나고 쓰라린 실망으로 여자들 전체에 마음이 상하게 된다"
+    }
+  },
+  {
+    "term_ko": "옷차림",
+    "term_en": "apparel",
+    "context": "옷 꿈에서 얼굴이 일그러지고 빛이 기이함",
+    "interpretation_ko": "빛깔이 밝더라도 조심할 조짐이며, 좋은 계획이 어그러져 해를 입을 조짐",
+    "interpretation_en": "a warning that, though the colors are bright, the miscarriage of some worthy plan will work you harm",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparel",
+      "original": "If the faces are distorted and the light unearthly, though the colors are bright, beware; the miscarriage of some worthy plan will work you harm.",
+      "translation_ko": "얼굴이 일그러지고 빛이 기이하면 빛깔이 밝더라도 조심하라. 좋은 계획이 어그러져 해를 입게 된다"
+    }
+  },
+  {
+    "term_ko": "유령",
+    "term_en": "apparition",
+    "context": "유령을 보는 꿈을 꿈",
+    "interpretation_ko": "자신에게 딸린 이들을 각별히 돌보아야 하며, 재앙이 닥치고 재산과 목숨이 함께 위태로울 조짐",
+    "interpretation_en": "a sign to take unusual care of all depending upon you — calamity awaits you and yours, and both property and life are in danger",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparition",
+      "original": "Take unusual care of all depending upon you. Calamity awaits you and yours. Both property and life are in danger.",
+      "translation_ko": "자신에게 딸린 이들을 각별히 돌보아야 한다. 재앙이 자신과 가족을 기다리며, 재산과 목숨이 함께 위태롭다"
+    }
+  },
+  {
+    "term_ko": "유령",
+    "term_en": "apparition",
+    "context": "젊은 사람이 유령 꿈을 꿈",
+    "interpretation_ko": "이성과의 교제에서 반듯해야 하며, 그러지 않으면 평판이 깎일 조짐",
+    "interpretation_en": "a sign that young people should be decidedly upright in their communications with the opposite sex, as character is likely to be rated at a discount",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Apparition",
+      "original": "Young people should be decidedly upright in their communications with the opposite sex. Character is likely to be rated at a discount.",
+      "translation_ko": "젊은 사람은 이성과의 교제에서 반듯해야 한다. 평판이 깎이기 쉽다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "사과를 보는 꿈을 꿈",
+    "interpretation_ko": "대부분의 사람에게 매우 좋은 조짐",
+    "interpretation_en": "a very good sign to the majority of people",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "This is a very good dream to the majority of people.",
+      "translation_ko": "이것은 대부분의 사람에게 매우 좋은 꿈이다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "푸른 잎이 달린 나무에 붉은 사과가 열린 것을 봄",
+    "interpretation_ko": "더없이 상서로운 조짐",
+    "interpretation_en": "an exceedingly propitious sign to the dreamer",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "To see red apples on trees with green foliage is exceedingly propitious to the dreamer.",
+      "translation_ko": "푸른 잎이 달린 나무에 붉은 사과가 열린 것을 보면 더없이 상서롭다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "사과를 먹음",
+    "interpretation_ko": "흠 없는 사과가 아니라면 그리 좋지 않은 조짐",
+    "interpretation_en": "a sign not as good, unless they be faultless",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "To eat them is not as good, unless they be faultless.",
+      "translation_ko": "사과를 먹는 것은 흠이 없는 것이 아니라면 그만큼 좋지 않다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "나무에 익은 사과가 달린 것을 봄",
+    "interpretation_ko": "바라던 것을 이룰 때가 왔으니 뜻한 바를 헤아려 두려움 없이 나아가라는 조짐",
+    "interpretation_en": "a sign that the time has arrived for you to realize your hopes; think over what you intend to do, and go fearlessly ahead",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "Ripe apples on a tree, denotes that the time has arrived for you to realize your hopes; think over what you intend to do, and go fearlessly ahead.",
+      "translation_ko": "나무에 익은 사과가 달려 있으면 바라던 것을 이룰 때가 온 것이다. 뜻한 바를 헤아려 두려움 없이 나아가라"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "나무 꼭대기에 익은 사과가 달린 것을 봄",
+    "interpretation_ko": "너무 높은 것을 겨누지 말라는 경고의 조짐",
+    "interpretation_en": "a warning not to aim too high",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "Ripe on the top of the tree, warns you not to aim too high.",
+      "translation_ko": "나무 꼭대기에 익은 사과가 달려 있으면 너무 높은 것을 겨누지 말라는 경고다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "땅에 떨어진 사과를 봄",
+    "interpretation_ko": "거짓된 친구와 아첨꾼이 자신을 해치고 있을 조짐",
+    "interpretation_en": "a sign that false friends and flatterers are working you harm",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "Apples on the ground imply that false friends, and flatterers are working you harm.",
+      "translation_ko": "땅에 떨어진 사과는 거짓된 친구와 아첨꾼이 자신을 해치고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사과",
+    "term_en": "apples",
+    "context": "썩은 사과를 봄",
+    "interpretation_ko": "가망 없는 헛수고를 뜻하는 조짐",
+    "interpretation_en": "a sign typifying hopeless efforts",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Apples",
+      "original": "Decayed apples typify hopeless efforts.",
+      "translation_ko": "썩은 사과는 가망 없는 헛수고를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "견습생",
+    "term_en": "apprentice",
+    "context": "견습생으로 일하는 꿈을 꿈",
+    "interpretation_ko": "또래들 사이에서 제자리를 얻으려 애쓰게 될 조짐",
+    "interpretation_en": "a sign that you will have a struggle to win a place among your companions",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Apprentice",
+      "original": "To dream that you serve as an apprentice, foretells you will have a struggle to win a place among your companions",
+      "translation_ko": "견습생으로 일하는 꿈을 꾸면 또래들 사이에서 제자리를 얻으려 애쓰게 된다"
+    }
+  }
+]

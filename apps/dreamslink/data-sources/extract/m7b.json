@@ -1,0 +1,722 @@
+[
+  {
+    "term_ko": "중혼",
+    "term_en": "bigamy",
+    "context": "남자가 중혼을 저지름",
+    "interpretation_ko": "남자다움을 잃고 정신력이 쇠약해질 조짐",
+    "interpretation_en": "a sign of loss of manhood and failing mentality",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Bigamy",
+      "original": "For a man to commit bigamy, denotes loss of manhood and failing mentality.",
+      "translation_ko": "남자가 중혼을 저지르면 남자다움을 잃고 정신력이 쇠약해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "중혼",
+    "term_en": "bigamy",
+    "context": "여자가 중혼을 저지름",
+    "interpretation_ko": "매우 신중하지 않으면 불명예를 당할 조짐",
+    "interpretation_en": "a sign that she will suffer dishonor unless very discreet",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Bigamy",
+      "original": "To a woman, it predicts that she will suffer dishonor unless very discreet.",
+      "translation_ko": "여자에게는 매우 신중하지 않으면 불명예를 당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자전거",
+    "term_en": "bicycle",
+    "context": "자전거를 타고 언덕을 오름",
+    "interpretation_ko": "밝은 전망을 뜻하는 조짐",
+    "interpretation_en": "a sign signifying bright prospects",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Bicycle",
+      "original": "To dream of riding a bicycle up hill, signifies bright prospects.",
+      "translation_ko": "자전거를 타고 언덕을 오르는 꿈을 꾸면 밝은 전망을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자전거",
+    "term_en": "bicycle",
+    "context": "여성이 자전거를 타고 언덕을 내려감",
+    "interpretation_ko": "평판과 건강에 조심해야 하며 불행이 가까이 있다는 조짐",
+    "interpretation_en": "a sign calling for care regarding her good name and health, with misfortune hovering near",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Bicycle",
+      "original": "Riding it down hill, if the rider be a woman, calls for care regarding her good name and health; misfortune hovers near.",
+      "translation_ko": "여성이 자전거를 타고 언덕을 내려가면 평판과 건강에 조심해야 하며 불행이 가까이 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "당구",
+    "term_en": "billiards",
+    "context": "당구 꿈을 꿈",
+    "interpretation_ko": "다가올 곤란과 재산을 둘러싼 소송과 다툼을 예고하는 조짐",
+    "interpretation_en": "a sign foretelling coming troubles to the dreamer, including lawsuits and contentions over property",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Billiards",
+      "original": "Billiards, foretell coming troubles to the dreamer. Law suits and contentions over property.",
+      "translation_ko": "당구는 꿈꾼 사람에게 다가올 곤란과 재산을 둘러싼 소송과 다툼을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "당구",
+    "term_en": "billiards",
+    "context": "당구 꿈에서 비방이 따라옴",
+    "interpretation_ko": "비방이 일어나 손해를 끼칠 조짐",
+    "interpretation_en": "a sign that slander will work to your detriment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Billiards",
+      "original": "Slander will get in her work to your detriment.",
+      "translation_ko": "비방이 일어나 손해를 끼칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "당구",
+    "term_en": "billiards",
+    "context": "당구대와 공이 쓰이지 않고 그대로 놓여 있음을 봄",
+    "interpretation_ko": "기만적인 동료들이 자신을 해치고 있다는 조짐",
+    "interpretation_en": "a sign that deceitful comrades are undermining you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Billiards",
+      "original": "If you see table and balls idle, deceitful comrades are undermining you",
+      "translation_ko": "당구대와 공이 쓰이지 않고 그대로 놓여 있음을 보면 기만적인 동료들이 자신을 해치고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "아름다운 깃털의 새를 봄",
+    "interpretation_ko": "길조로 여겨지는 꿈",
+    "interpretation_en": "a favorable sign",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "It is a favorable dream to see birds of beautiful plumage.",
+      "translation_ko": "아름다운 깃털의 새를 보는 것은 길조로 여겨지는 꿈이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "여성이 아름다운 깃털의 새 꿈을 꿈",
+    "interpretation_ko": "부유하고 행복한 배우자가 가까이 있다는 조짐",
+    "interpretation_en": "a sign that a wealthy and happy partner is near",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "A wealthy and happy partner is near if a woman has dreams of this nature.",
+      "translation_ko": "여성이 이런 새 꿈을 꾸면 부유하고 행복한 배우자가 가까이 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "털갈이하거나 울지 않는 새를 봄",
+    "interpretation_ko": "부유한 사람들이 버림받고 몰락한 이들을 무자비하고 비정하게 대한다는 조짐",
+    "interpretation_en": "a sign of merciless and inhuman treatment of the outcast and fallen by people of wealth",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "Moulting and songless birds, denotes merciless and inhuman treatment of the outcast and fallen by people of wealth.",
+      "translation_ko": "털갈이하거나 울지 않는 새는 부유한 사람들이 버림받고 몰락한 이들을 무자비하고 비정하게 대한다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "다친 새를 봄",
+    "interpretation_ko": "그릇된 자녀로 인한 깊은 슬픔을 예고하는 조짐",
+    "interpretation_en": "a sign fateful of deep sorrow caused by erring offspring",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "To see a wounded bird, is fateful of deep sorrow caused by erring offspring.",
+      "translation_ko": "다친 새를 보면 그릇된 자녀로 인한 깊은 슬픔을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "날아가는 새를 봄",
+    "interpretation_ko": "꿈꾼 사람에게 번영이 따를 조짐이며, 불쾌한 상황은 다가올 행운의 물결 앞에 사라질 것",
+    "interpretation_en": "a sign of prosperity to the dreamer; all disagreeable environments will vanish before the wave of prospective good",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "To see flying birds, is a sign of prosperity to the dreamer. All disagreeable environments will vanish before the wave of prospective good.",
+      "translation_ko": "날아가는 새를 보면 번영이 따를 조짐이며, 불쾌한 상황은 다가올 행운의 물결 앞에 사라질 것이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "새를 잡음",
+    "interpretation_ko": "전혀 나쁘지 않은 조짐",
+    "interpretation_en": "a sign that is not at all bad",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "To catch birds, is not at all bad.",
+      "translation_ko": "새를 잡는 것은 전혀 나쁘지 않은 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "새가 말하는 소리를 들음",
+    "interpretation_ko": "명확한 판단력을 요하는 일을 수행할 능력이 없음을 스스로 인정하는 조짐",
+    "interpretation_en": "a sign of owning one's inability to perform tasks that demand great clearness of perception",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "To hear them speak, is owning one's inability to perform tasks that demand great clearness of perception.",
+      "translation_ko": "새가 말하는 소리를 들으면 명확한 판단력을 요하는 일을 수행할 능력이 없음을 스스로 인정하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새",
+    "term_en": "bird",
+    "context": "총으로 새를 쏘아 죽임",
+    "interpretation_ko": "흉작으로 인한 재앙을 뜻하는 조짐",
+    "interpretation_en": "a sign of disaster from dearth of harvest",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Birds",
+      "original": "To kill than with a gun, is disaster from dearth of harvest.",
+      "translation_ko": "총으로 새를 쏘아 죽이면 흉작으로 인한 재앙을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새 둥지",
+    "term_en": "bird's nest",
+    "context": "빈 새 둥지를 봄",
+    "interpretation_ko": "사업 전망이 어둡고 우울할 조짐",
+    "interpretation_en": "a sign of gloom and a dull outlook for business",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Bird's Nest",
+      "original": "To see an empty bird's nest, denotes gloom and a dull outlook for business.",
+      "translation_ko": "빈 새 둥지를 보면 사업 전망이 어둡고 우울할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새 둥지",
+    "term_en": "bird's nest",
+    "context": "둥지 안에 알이 있음",
+    "interpretation_ko": "모든 일에서 좋은 결과가 따를 조짐",
+    "interpretation_en": "a sign that good results will follow all engagements",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Bird's Nest",
+      "original": "With eggs in the nest, good results will follow all engagements.",
+      "translation_ko": "둥지 안에 알이 있으면 모든 일에서 좋은 결과가 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새 둥지",
+    "term_en": "bird's nest",
+    "context": "둥지 안에 새끼가 있음",
+    "interpretation_ko": "여행이 성공적이고 거래가 만족스러울 조짐",
+    "interpretation_en": "a sign of successful journeys and satisfactory dealings",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Bird's Nest",
+      "original": "If young ones are in the nest, it denotes successful journeys and satisfactory dealings.",
+      "translation_ko": "둥지 안에 새끼가 있으면 여행이 성공적이고 거래가 만족스러울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새 둥지",
+    "term_en": "bird's nest",
+    "context": "둥지 속 새끼들이 외롭고 버려져 있음",
+    "interpretation_ko": "자신의 슬픔과 어리석음이 근심을 불러올 조짐",
+    "interpretation_en": "a sign that sorrow and folly of yours will cause you anxiety",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Bird's Nest",
+      "original": "If they are lonely and deserted, sorrow, and folly of yours will cause you anxiety.",
+      "translation_ko": "둥지 속 새끼들이 외롭고 버려져 있으면 자신의 슬픔과 어리석음이 근심을 불러올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출산",
+    "term_en": "birth",
+    "context": "기혼 여성이 아이를 낳는 꿈을 꿈",
+    "interpretation_ko": "큰 기쁨과 상당한 유산을 예고하는 조짐",
+    "interpretation_en": "a sign foretelling great joy and a handsome legacy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Birth",
+      "original": "For a married woman to dream of giving birth to a child, great joy and a handsome legacy is foretold.",
+      "translation_ko": "기혼 여성이 아이를 낳는 꿈을 꾸면 큰 기쁨과 상당한 유산을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출산",
+    "term_en": "birth",
+    "context": "미혼 여성이 아이를 낳는 꿈을 꿈",
+    "interpretation_ko": "정조를 잃고 애인에게 버림받을 조짐",
+    "interpretation_en": "a sign of loss of virtue and abandonment by her lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Birth",
+      "original": "For a single woman, loss of virtue and abandonment by her lover.",
+      "translation_ko": "미혼 여성이 같은 꿈을 꾸면 정조를 잃고 애인에게 버림받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "생일",
+    "term_en": "birthday",
+    "context": "생일 꿈을 꿈",
+    "interpretation_ko": "젊은이에게는 가난과 거짓을, 노인에게는 오랜 근심과 쓸쓸함을 알리는 조짐",
+    "interpretation_en": "a signal of poverty and falsehood to the young, and to the old, long trouble and desolation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Birthday",
+      "original": "To dream of a birthday is a signal of poverty and falsehood to the young, to the old, long trouble and desolation.",
+      "translation_ko": "생일 꿈을 꾸는 것은 젊은이에게는 가난과 거짓을, 노인에게는 오랜 근심과 쓸쓸함을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "생일 선물",
+    "term_en": "birthday present",
+    "context": "생일 선물로 뜻밖의 기쁨을 받음",
+    "interpretation_ko": "많은 훌륭한 성취를 이룰 조짐이며, 일하는 사람들은 자기 일에서 발전할 것",
+    "interpretation_en": "a sign of a multitude of high accomplishments; working people will advance in their trades",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Birthday Presents",
+      "original": "Receiving happy surprises, means a multitude of high accomplishments. Working people will advance in their trades.",
+      "translation_ko": "뜻밖의 기쁜 선물을 받으면 많은 훌륭한 성취를 이룰 조짐이며, 일하는 사람들은 자기 일에서 발전할 것이다"
+    }
+  },
+  {
+    "term_ko": "생일 선물",
+    "term_en": "birthday present",
+    "context": "축하연이나 초대연에서 생일 선물을 줌",
+    "interpretation_ko": "작은 배려를 뜻하는 조짐",
+    "interpretation_en": "a sign of small deferences",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Birthday Presents",
+      "original": "Giving birthday presents, denotes small deferences, if given at a fe^te or reception.",
+      "translation_ko": "축하연이나 초대연에서 생일 선물을 주면 작은 배려를 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "비스킷",
+    "term_en": "biscuit",
+    "context": "비스킷을 먹거나 구움",
+    "interpretation_ko": "건강이 나빠지고 사소한 다툼으로 가족 간 평화가 깨질 조짐",
+    "interpretation_en": "a sign of ill health and family peace ruptured over silly disputes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Biscuits",
+      "original": "Eating or baking them, indicates ill health and family peace ruptured over silly disputes.",
+      "translation_ko": "비스킷을 먹거나 구우면 건강이 나빠지고 사소한 다툼으로 가족 간 평화가 깨질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "주교",
+    "term_en": "bishop",
+    "context": "주교 꿈을 꿈 (교사·저술가)",
+    "interpretation_ko": "교사와 저술가는 어려운 주제를 파고드느라 큰 정신적 근심을 겪을 조짐",
+    "interpretation_en": "a sign that teachers and authors will suffer great mental worries, caused from delving into intricate subjects",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Bishop",
+      "original": "To dream of a bishop, teachers and authors will suffer great mental worries, caused from delving into intricate subjects.",
+      "translation_ko": "주교 꿈을 꾸면 교사와 저술가는 어려운 주제를 파고드느라 큰 정신적 근심을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "주교",
+    "term_en": "bishop",
+    "context": "주교 꿈을 꿈 (상인)",
+    "interpretation_ko": "상인에게는 어리석은 구매로 손해를 볼 조짐",
+    "interpretation_en": "a sign that the tradesman will make foolish purchases likely to incur loss of good money",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Bishop",
+      "original": "To the tradesman, foolish buying, in which he is likely to incur loss of good money.",
+      "translation_ko": "상인에게는 어리석은 구매로 재물을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "주교",
+    "term_en": "bishop",
+    "context": "꿈에서 주교를 봄",
+    "interpretation_ko": "고된 노동이 자신의 몫이 될 것이며 오한과 학질이 따를 조짐",
+    "interpretation_en": "a sign that hard work will be his patrimony, with chills and ague as attendant",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Bishop",
+      "original": "For one to see a bishop in his dreams, hard work will be his patrimony, with chills and ague as attendant.",
+      "translation_ko": "꿈에서 주교를 보면 고된 노동이 자신의 몫이 될 것이며 오한과 학질이 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "주교",
+    "term_en": "bishop",
+    "context": "크게 존경받는 주교의 인정을 받음",
+    "interpretation_ko": "사랑이나 사업에서 성공을 거둘 조짐",
+    "interpretation_en": "a sign that you will be successful in your undertakings in love or business",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Bishop",
+      "original": "If you meet the approval of a much admired bishop, you will be successful in your undertakings in love or business.",
+      "translation_ko": "크게 존경받는 주교의 인정을 받으면 사랑이나 사업에서 성공을 거둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물림",
+    "term_en": "bite",
+    "context": "물리는 꿈을 꿈",
+    "interpretation_ko": "흉조이며, 되돌릴 수 없는 일을 되돌리고 싶은 마음을 뜻하고, 적으로 인해 손해를 볼 조짐",
+    "interpretation_en": "an ill omen implying a wish to undo work that is past undoing, and that you are likely to suffer losses through some enemy",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Bite",
+      "original": "This dream omens ill. It implies a wish to undo work that is past undoing. You are also likely to suffer losses through some enemy.",
+      "translation_ko": "물리는 꿈은 흉조이며, 되돌릴 수 없는 일을 되돌리고 싶은 마음을 뜻하고, 적으로 인해 손해를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "블랙베리",
+    "term_en": "blackberry",
+    "context": "블랙베리 꿈을 꿈",
+    "interpretation_ko": "많은 불행을 뜻하는 조짐",
+    "interpretation_en": "a sign of many ills",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Blackberries",
+      "original": "To dream of blackberries denotes many ills.",
+      "translation_ko": "블랙베리 꿈을 꾸면 많은 불행을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "블랙베리",
+    "term_en": "blackberry",
+    "context": "블랙베리를 땀",
+    "interpretation_ko": "불운을 뜻하는 조짐",
+    "interpretation_en": "a sign of bad luck",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blackberries",
+      "original": "To gather them is unlucky.",
+      "translation_ko": "블랙베리를 따면 불운을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "블랙베리",
+    "term_en": "blackberry",
+    "context": "블랙베리를 먹음",
+    "interpretation_ko": "손해를 뜻하는 조짐",
+    "interpretation_en": "a sign of losses",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blackberries",
+      "original": "Eating them denotes losses.",
+      "translation_ko": "블랙베리를 먹으면 손해를 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "칠판",
+    "term_en": "blackboard",
+    "context": "칠판에 흰 분필로 쓰인 글씨를 봄",
+    "interpretation_ko": "어떤 사람이 중병으로 쓰러졌다는 나쁜 소식이 들리거나, 경기 침체의 공황으로 재정이 흔들릴 조짐",
+    "interpretation_en": "a sign of ill tidings of some person prostrated with some severe malady, or that your financial security will be swayed by the panicky condition of commerce",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Blackboard",
+      "original": "To see in your dreams writing in white chalk on a blackboard, denotes ill tidings of some person prostrated with some severe malady, or your financial security will be swayed by the panicky condition of commerce.",
+      "translation_ko": "칠판에 흰 분필로 쓰인 글씨를 보면 어떤 사람이 중병으로 쓰러졌다는 나쁜 소식이 들리거나, 경기 침체의 공황으로 재정이 흔들릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대장장이",
+    "term_en": "blacksmith",
+    "context": "꿈에서 대장장이를 봄",
+    "interpretation_ko": "힘든 일이 곧 자신에게 이롭게 작용할 조짐",
+    "interpretation_en": "a sign that laborious undertakings will soon work to your advantage",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Blacksmith",
+      "original": "To see a blacksmith in a dream, means laborious undertakings will soon work to your advantage.",
+      "translation_ko": "꿈에서 대장장이를 보면 힘든 일이 곧 자신에게 이롭게 작용할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "방광",
+    "term_en": "bladder",
+    "context": "자신의 방광 꿈을 꿈",
+    "interpretation_ko": "건강과 기력을 조심하지 않으면 사업에 큰 곤란을 겪을 조짐",
+    "interpretation_en": "a sign that you will have heavy trouble in your business if you are not careful of your health and the way you spend your energies",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Bladder",
+      "original": "To dream of your bladder, denotes you will have heavy trouble in your business if you are not careful of your health and the way you spend your energies.",
+      "translation_ko": "자신의 방광 꿈을 꾸면 건강과 기력을 조심하지 않으면 사업에 큰 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "방광",
+    "term_en": "bladder",
+    "context": "아이들이 방광을 불어 부풀리는 것을 봄",
+    "interpretation_ko": "기대했던 것이 만족을 주지 못할 조짐",
+    "interpretation_en": "a sign that your expectations will fail to give you much comfort",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Bladder",
+      "original": "To see children blowing up bladders, foretells your expectations will fail to give you much comfort.",
+      "translation_ko": "아이들이 방광을 불어 부풀리는 것을 보면 기대했던 것이 만족을 주지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담요",
+    "term_en": "blanket",
+    "context": "담요가 더러워진 꿈을 꿈",
+    "interpretation_ko": "배신을 뜻하는 조짐",
+    "interpretation_en": "a sign of treachery",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Blanket",
+      "original": "Blankets in your dream means treachery if soiled.",
+      "translation_ko": "담요가 더러워진 꿈을 꾸면 배신을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담요",
+    "term_en": "blanket",
+    "context": "새 것이고 흰 담요를 봄",
+    "interpretation_ko": "실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐",
+    "interpretation_en": "a sign of success where failure is feared, and that a fatal sickness will be avoided through unseen agencies",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Blanket",
+      "original": "If new and white, success where failure is feared, and a fatal sickness will be avoided through unseen agencies.",
+      "translation_ko": "새 것이고 흰 담요를 보면 실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신성모독",
+    "term_en": "blasphemy",
+    "context": "신성모독 꿈을 꿈",
+    "interpretation_ko": "우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐",
+    "interpretation_en": "a sign of an enemy creeping into your life, who under assumed friendship will do you great harm",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blasphemy",
+      "original": "Blasphemy, denotes an enemy creeping into your life, who under assumed friendship will do you great harm.",
+      "translation_ko": "신성모독 꿈은 우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신성모독",
+    "term_en": "blasphemy",
+    "context": "자기 자신을 저주하는 꿈을 꿈",
+    "interpretation_ko": "나쁜 운수를 뜻하는 조짐",
+    "interpretation_en": "a sign of evil fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blasphemy",
+      "original": "To dream you are cursing yourself, means evil fortune.",
+      "translation_ko": "자기 자신을 저주하는 꿈을 꾸면 나쁜 운수를 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신성모독",
+    "term_en": "blasphemy",
+    "context": "남에게 저주받는 꿈을 꿈",
+    "interpretation_ko": "애정과 번영을 통한 안도를 뜻하는 조짐",
+    "interpretation_en": "a sign signifying relief through affection and prosperity",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blasphemy",
+      "original": "To dream you are cursed by others, signifies relief through affection and prosperity.",
+      "translation_ko": "남에게 저주받는 꿈을 꾸면 애정과 번영을 통한 안도를 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐승 울음소리",
+    "term_en": "bleating",
+    "context": "꿈에서 어린 짐승이 우는 소리를 들음",
+    "interpretation_ko": "반드시 불쾌하지는 않은 새로운 임무와 근심이 생길 조짐",
+    "interpretation_en": "a sign that you will have new duties and cares, though not necessarily unpleasant ones",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Bleating",
+      "original": "To hear young animals bleating in your dreams, foretells that you will have new duties and cares, though not necessarily unpleasant ones.",
+      "translation_ko": "꿈에서 어린 짐승이 우는 소리를 들으면 반드시 불쾌하지는 않은 새로운 임무와 근심이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출혈",
+    "term_en": "bleeding",
+    "context": "피를 흘리는 꿈을 꿈",
+    "interpretation_ko": "끔찍한 사고로 인한 죽음과 자신에 대한 악의적인 소문을 뜻하며 운이 등을 돌릴 조짐",
+    "interpretation_en": "a sign of death by horrible accidents and malicious reports about you; fortune will turn against you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Bleeding",
+      "original": "To dream of bleeding, denotes death by horrible accidents and malicious reports about you. Fortune will turn against you.",
+      "translation_ko": "피를 흘리는 꿈을 꾸면 끔찍한 사고로 인한 죽음과 자신에 대한 악의적인 소문을 뜻하며 운이 등을 돌릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "눈이 멂",
+    "term_en": "blind",
+    "context": "자신이 눈이 먼 꿈을 꿈",
+    "interpretation_ko": "부유함에서 거의 극빈 상태로 갑자기 바뀔 조짐",
+    "interpretation_en": "a sign of a sudden change from affluence to almost abject poverty",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Blind",
+      "original": "To dream of being blind, denotes a sudden change from affluence to almost abject poverty.",
+      "translation_ko": "자신이 눈이 먼 꿈을 꾸면 부유함에서 거의 극빈 상태로 갑자기 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "눈이 멂",
+    "term_en": "blind",
+    "context": "다른 사람이 눈이 먼 것을 봄",
+    "interpretation_ko": "훌륭한 사람이 도움을 청해 올 조짐",
+    "interpretation_en": "a sign that some worthy person will call on you for aid",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Blind",
+      "original": "To see others blind, denotes that some worthy person will call on you for aid.",
+      "translation_ko": "다른 사람이 눈이 먼 것을 보면 훌륭한 사람이 도움을 청해 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "눈가리개",
+    "term_en": "blindfold",
+    "context": "여성이 눈이 가려지는 꿈을 꿈",
+    "interpretation_ko": "자신을 괴롭히고 근심하게 할 어지러운 일들이 일어나고 있으며, 자신으로 인해 다른 사람들이 실망을 느낄 조짐",
+    "interpretation_en": "a sign that disturbing elements are rising around to distress and trouble her; disappointment will be felt by others through her",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Blindfold",
+      "original": "For a woman to dream that she is blindfolded, means that disturbing elements are rising around to distress and trouble her. Disappointment will be felt by others through her.",
+      "translation_ko": "여성이 눈이 가려지는 꿈을 꾸면 자신을 괴롭히고 근심하게 할 어지러운 일들이 일어나고 있으며, 자신으로 인해 다른 사람들이 실망을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "술래잡기",
+    "term_en": "blind man's buff",
+    "context": "술래잡기 놀이를 하는 꿈을 꿈",
+    "interpretation_ko": "자신을 망신시키고 돈까지 잃게 할 어리석은 일에 뛰어들려 하는 조짐",
+    "interpretation_en": "a sign that you are about to engage in some weak enterprise which will likely humiliate you, besides losing money for you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Blind Man's Buff",
+      "original": "To dream that you are playing at blind man's buff, denotes that you are about to engage in some weak enterprise which will likely humiliate you, besides losing money for you.",
+      "translation_ko": "술래잡기 놀이를 하는 꿈을 꾸면 자신을 망신시키고 돈까지 잃게 할 어리석은 일에 뛰어들려 하는 조짐이다"
+    }
+  }
+]
