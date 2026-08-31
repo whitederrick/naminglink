@@ -1,13 +1,15 @@
 import { Document, Page, StyleSheet, Text, View, renderToBuffer } from "@react-pdf/renderer";
 
 import {
+  citeLines,
   contextText,
-  cultureNote,
   meaningText,
+  meaningWorkLabel,
   readingLanguage,
   symbolTerm,
   themeLabels,
 } from "@/lib/dream-language";
+import { meaningWork } from "@/lib/dream-symbols";
 import type { Locale } from "@/lib/i18n";
 import { MixedText, pdfLanguageDiffers } from "@/lib/pdf/fonts";
 import { CONCEPTION_PAGE_COUNT } from "@/lib/report-pages";
@@ -300,8 +302,17 @@ export function ConceptionReport({
             <View key={item.id} style={styles.card} wrap={false}>
               <MixedText style={styles.term} text={symbolTerm(item, language)} />
               <MixedText style={styles.paragraph} text={meaningText(item.meaning, language)} />
-              {cultureNote(item.culture_note, language) ? (
-                <MixedText style={styles.meta} text={item.culture_note as string} />
+              {/* **근거를 문서에도 싣는다**(2026-08-31). 유료 리포트라 더 그렇다 — 옛 사전은
+                  근거 없는 해석에 「전통」 라벨만 붙어 있었고(§21), 돈을 낸 사람도 그것을
+                  확인할 방법이 없었다. 어느 원문인지와 인용을 함께 적는다. */}
+              {item.meaning.cites?.[0] ? (
+                <MixedText
+                  style={styles.meta}
+                  text={`${meaningWorkLabel(meaningWork(item.meaning)!, language)} · ${
+                    citeLines(item.meaning.cites[0], language).translation ??
+                    item.meaning.cites[0].original
+                  }`}
+                />
               ) : null}
             </View>
           ))

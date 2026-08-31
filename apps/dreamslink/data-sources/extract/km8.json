@@ -171,13 +171,13 @@
       "물 위에 뜬 관을 봄": "떠있 떠내려 강물 물에"
     },
     "contexts_en": {
-      "대청 위에 관이 놓여 있음": "hall floor placed lying",
+      "대청 위에 관이 놓여 있음": "hall floor lying",
       "새 무덤과 관을 봄": "grave tomb new",
       "관이 무덤에서 저절로 나옴": "spontaneously itself emerged",
       "관을 집으로 들임": "house brought carried inside",
       "시신이 관 밖으로 나옴": "outside slipped corpse",
       "관을 열고 죽은 사람과 말함": "opened talked spoke dead",
-      "관에 시신을 넣는 것을 봄": "putting sealed encoffin",
+      "관에 시신을 넣는 것을 봄": "putting sealed encoffin body laid",
       "물 위에 뜬 관을 봄": "floating water river ocean"
     }
   },
@@ -244,7 +244,7 @@
     },
     "contexts_en": {
       "공중에서 새가 욺": "sky air crying chirping sang",
-      "나는 새가 품에 들어옴": "bosom chest embrace flew",
+      "나는 새가 품에 들어옴": "bosom chest embrace flew nestled arms",
       "나는 새를 붙잡음": "caught grabbed seized",
       "새가 달려오고 뱀이 다가옴": "snake approaching slither",
       "새를 죽임": "killed killing kill",
@@ -891,7 +891,9 @@
       "the sea",
       "ocean",
       "seaside",
-      "seashore"
+      "seashore",
+      "waves",
+      "rough waves"
     ],
     "contexts": {},
     "contexts_en": {}

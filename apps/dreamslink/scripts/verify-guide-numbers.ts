@@ -70,7 +70,10 @@ for (const symbol of DREAM_SYMBOLS) {
   meanings += symbol.meanings.length;
   if (symbol.meanings.length > 1) multiMeaning += 1;
   koAliases += (symbol.aliases ?? []).length;
-  if (symbol.culture_note) cultureNotes += 1;
+  // v2 교체(2026-08-31) 뒤로는 「전승 배경이 적힌 상징」이 아니라 **「원문 인용이 붙은
+  // 상징」**을 센다 — 새 사전은 인용 없는 항목이 존재할 수 없어 상징 총수와 같아진다.
+  // `doc-values.ts`의 `cultureNoteTotal`과 **같은 기준으로 세야** 이 검사가 뜻을 갖는다.
+  if (symbol.meanings.some((meaning) => (meaning.cites?.length ?? 0) > 0)) cultureNotes += 1;
   if ((symbol.tags ?? []).includes(CONCEPTION_TAG)) conceptionTags += 1;
 }
 

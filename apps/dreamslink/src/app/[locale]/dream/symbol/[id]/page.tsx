@@ -9,16 +9,21 @@ import { PageTitle } from "@/components/PageTitle";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
+  citeLines,
   contextText,
-  cultureNote,
-  meaningSource,
-  meaningSourceLabel,
   meaningText,
+  meaningWorkHeading,
   readingLanguage,
   symbolTerm,
   themeLabels,
 } from "@/lib/dream-language";
-import { DREAM_SYMBOLS, DICT_VERSION } from "@/lib/dream-symbols";
+import {
+  DREAM_SYMBOLS,
+  DICT_VERSION,
+  meaningWork,
+  type DreamMeaning,
+  type DreamWork,
+} from "@/lib/dream-symbols";
 import { getDictionary } from "@/lib/i18n";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
@@ -57,6 +62,49 @@ export function generateStaticParams() {
   return DREAM_SYMBOLS.map((symbol) => ({ id: symbol.id }));
 }
 
+/**
+ * 그 의미의 **원문 인용**. 이 사전이 옛 사전과 다른 자리이고, 이용자가 직접 확인할 수 있는
+ * 유일한 근거다.
+ *
+ * 옛 사전은 「전해 오는 배경」이라는 한국어 한 줄이 218개 중 82개에만 있었고, 나머지는
+ * 근거가 없는데도 「전해 오는 뜻」 절에 실려 있었다(CLAUDE.md §21). 지금은 **의미마다
+ * 인용이 있고 그것을 그대로 보여 준다** — 요약하거나 다듬지 않는다. 다듬으면 원문 대조가
+ * 깨지고, 깨진 것을 눈감으면 옛 사전과 같아진다.
+ *
+ * 번역문은 한국어 한 벌뿐이라 영어 화면에는 원문만 나간다(`citeLines`).
+ */
+function MeaningCites({
+  meaning,
+  language,
+}: {
+  meaning: DreamMeaning;
+  language: "ko" | "en";
+}) {
+  if (!meaning.cites?.length) return null;
+  return (
+    <div className="mt-3 border-t border-line pt-3">
+      {meaning.cites.map((cite, index) => {
+        const { original, translation } = citeLines(cite, language);
+        return (
+          <div key={index} className={index > 0 ? "mt-2" : undefined}>
+            <p className="break-keep-all text-xs leading-5 text-muted">
+              <span className="font-medium">{original}</span>
+              {cite.locator ? (
+                <span className="ml-1 opacity-70">— {cite.locator}</span>
+              ) : null}
+            </p>
+            {translation ? (
+              <p className="break-keep-all mt-0.5 text-xs leading-5 text-muted opacity-80">
+                {translation}
+              </p>
+            ) : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id, locale: rawLocale } = await params;
   const symbol = findSymbol(id);
@@ -85,14 +133,24 @@ export default async function Page({ params }: Props) {
   const ko = language === "ko";
   const related = relatedSymbols(symbol);
   const themes = themeLabels(symbol.tags ?? [], language);
-  // 전통과 일반 해석은 절부터 가른다 — "전해 오는 뜻" 제목 아래에 전통 근거 없는 해석을
-  // 두면 출처를 속이는 셈이 된다(dream-symbols.ts 머리말 참고).
-  const traditionMeanings = symbol.meanings.filter(
-    (meaning) => meaningSource(meaning) === "tradition",
-  );
-  const generalMeanings = symbol.meanings.filter(
-    (meaning) => meaningSource(meaning) === "general",
-  );
+  /**
+   * **의미를 원문별로 가른다**(2026-08-31 교체).
+   *
+   * 이 사전은 주공해몽(동아시아)과 밀러(1901, 서양)를 합친 것이다. 두 전통은 같은 상징을
+   * 정반대로 읽기도 한다 — 거울이 깨지면 주공해몽은 「부부 이별」, 밀러는 「가까운 이의
+   * 죽음」이다. **섞어 보여 주면 어느 전통의 말인지 알 수 없다.**
+   *
+   * 갈래를 **라벨이 아니라 인용에서** 얻는 것이 핵심이다(`meaningWork`). 옛 사전은
+   * `source: "tradition"`이라는 라벨로 갈랐는데 그 라벨이 거짓일 수 있었다(§21).
+   *
+   * 순서는 사전에 나온 순서를 따르되 원문 등장 순으로 절을 세운다 — 상징마다 어느 쪽이
+   * 먼저인지 달라지면 읽는 사람이 자리를 잃는다.
+   */
+  const WORK_ORDER: DreamWork[] = ["zhougong", "miller"];
+  const meaningsByWork = WORK_ORDER.map((work) => ({
+    work,
+    meanings: symbol.meanings.filter((meaning) => meaningWork(meaning) === work),
+  })).filter((group) => group.meanings.length > 0);
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
@@ -124,18 +182,17 @@ export default async function Page({ params }: Props) {
 
 
           <div className="mt-10 grid gap-6">
-            {/* 전해 오는 뜻. 의미가 여럿이면 상황별로 나눠 보여 준다 — 사전이 그렇게 갈라
-                두었고(뱀을 품으면 길, 물리면 흉), 그 구분이 곧 이 상징을 이해하는 열쇠다.
-                **일반 해석(`source: "general"`)은 여기 섞지 않는다** — 이 절 제목이
-                "전해 오는 뜻"이라 전통이 아닌 것을 여기 넣으면 출처를 속이는 셈이 된다
-                (2026-08-26). 아래 별도 절로 갈랐다. */}
-            {traditionMeanings.length ? (
-              <section>
+            {/* 전해 오는 뜻 — **원문별로 절을 나눈다**(2026-08-31).
+                의미가 여럿이면 상황별로 갈라 보여 준다. 사전이 그렇게 갈라 두었고
+                (뱀을 품으면 길, 물리면 흉) 그 구분이 곧 이 상징을 이해하는 열쇠다.
+                절을 원문으로 가르는 이유는 `meaningsByWork` 주석에 적었다. */}
+            {meaningsByWork.map(({ work, meanings }) => (
+              <section key={work}>
                 <h2 className="mb-3 text-lg font-semibold">
-                  {ko ? "전해 오는 뜻" : "What it has traditionally meant"}
+                  {meaningWorkHeading(work, language)}
                 </h2>
                 <div className="grid gap-3">
-                  {traditionMeanings.map((meaning, index) => (
+                  {meanings.map((meaning, index) => (
                     <div
                       key={index}
                       className="rounded-xl border border-line bg-surface p-5"
@@ -154,51 +211,12 @@ export default async function Page({ params }: Props) {
                       >
                         {meaningText(meaning, language)}
                       </p>
+                      <MeaningCites meaning={meaning} language={language} />
                     </div>
                   ))}
                 </div>
               </section>
-            ) : null}
-
-            {/* 일반적인 해석. 전통 근거는 없지만 사람이 검토해 실었다 — 절 제목으로 먼저
-                구분하고 한 번 더 "전통 해몽"이 아니라고 밝힌다. */}
-            {generalMeanings.length ? (
-              <section>
-                <h2 className="mb-3 text-lg font-semibold">
-                  {meaningSourceLabel("general", language)}
-                </h2>
-                <div className="grid gap-3">
-                  {generalMeanings.map((meaning, index) => (
-                    <div
-                      key={index}
-                      className="rounded-xl border border-dashed border-line bg-surface p-5"
-                    >
-                      {contextText(meaning.context, language) ? (
-                        <p className="text-xs font-semibold text-muted">
-                          {`${meaning.context}일 때`}
-                        </p>
-                      ) : null}
-                      <p
-                        className={`break-keep-all text-sm leading-6 ${
-                          contextText(meaning.context, language) ? "mt-1" : ""
-                        }`}
-                      >
-                        {meaningText(meaning, language)}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            ) : null}
-
-            {cultureNote(symbol.culture_note, language) ? (
-              <section className="rounded-xl border border-line bg-surface p-5">
-                <h2 className="text-sm font-semibold">전해 오는 배경</h2>
-                <p className="break-keep-all mt-1 text-sm leading-6 text-muted">
-                  {symbol.culture_note}
-                </p>
-              </section>
-            ) : null}
+            ))}
 
             {themes.length ? (
               <section>

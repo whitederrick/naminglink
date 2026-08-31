@@ -100,7 +100,12 @@
   },
   {
     "id": "cloud",
-    "aliases": [],
+    "aliases": [
+      "먹구름",
+      "오색구름",
+      "뭉게구름",
+      "구름떼"
+    ],
     "aliases_en": [
       "clouds",
       "cloudy"
@@ -114,13 +119,13 @@
       "구름이 푸르거나 검음": "푸른 푸르 파란 푸르스",
       "뜬구름을 봄": "떠다니 흘러가 둥둥 떠있",
       "구름과 안개가 앞을 가림": "안개 자욱 앞이 시야",
-      "검은 구름이 땅까지 내려옴": "검은 시커먼 땅까지 내려앉 낮게"
+      "검은 구름이 땅까지 내려옴": "검은 시커먼 땅까지 내려앉 낮게 먹구름"
     },
     "contexts_en": {
       "구름이 걷힘": "clearing cleared parted lifted",
       "구름이 갑자기 해를 가림": "sun sunlight hid",
       "구름이 사방에서 피어오름": "rising everywhere billowing gathering",
-      "오색 구름을 봄": "colorful rainbow",
+      "오색 구름을 봄": "colorful rainbow colors",
       "구름이 붉거나 흼": "reddish white crimson",
       "구름이 푸르거나 검음": "blue green bluish",
       "뜬구름을 봄": "floating drifting adrift",
@@ -236,7 +241,9 @@
     "aliases_en": [
       "snowing",
       "snowfall",
-      "snowflakes"
+      "snowflakes",
+      "blizzard",
+      "snowstorm"
     ],
     "contexts": {
       "눈이 내림": "펑펑 함박 소복",

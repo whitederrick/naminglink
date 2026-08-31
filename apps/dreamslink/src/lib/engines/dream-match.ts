@@ -1,6 +1,11 @@
-import { ALIASES_EN } from "@/lib/dream-aliases-en";
-import { CONTEXT_KO } from "@/lib/dream-contexts-ko";
-import { CONTEXT_EN } from "@/lib/dream-contexts";
+// v2 사전(원문 재구축) 전용 표. 2026-08-31 교체.
+//
+// **키가 `상징id::상황`으로 바뀌었다.** 옛 표는 상황 문구 하나만으로 전역 키를 삼아서,
+// 서로 다른 두 상징이 같은 문구를 쓰면 한쪽이 조용히 사라졌다(「해와 달이 한자리에서
+// 만남」이 sun·moon 양쪽에 있다). `contextFor`가 합성 키로 찾는다.
+import { ALIASES_EN_V2 as ALIASES_EN } from "@/lib/dream-aliases-en.v2";
+import { CONTEXT_KO_V2 as CONTEXT_KO } from "@/lib/dream-contexts-ko.v2";
+import { CONTEXT_EN_V2 as CONTEXT_EN } from "@/lib/dream-contexts.v2";
 import {
   CONCEPTION_TAG,
   DREAM_SYMBOLS,
@@ -69,7 +74,8 @@ export type MatchedSymbol = {
   polarity: DreamPolarity;
   weight: number;
   tags: string[];
-  culture_note?: string;
+  /** 화면에 쓸 이름(겹치는 이름만 괄호가 붙는다). 없으면 `term_ko`를 쓴다. */
+  label_ko?: string;
   /** 무엇이 걸렸는지. 화면에서 "왜 이 상징인가"를 보일 때 쓴다. */
   matchedOn: string;
   /** 꿈 텍스트에서 처음 나온 위치. 같은 무게면 먼저 말한 것을 앞에 둔다. */
@@ -339,7 +345,7 @@ function chooseMeaning(
   let best = meanings[0];
   let bestScore = 0;
   for (const meaning of meanings) {
-    const score = contextScore(haystack, contextFor(meaning, korean), ownTerms);
+    const score = contextScore(haystack, contextFor(symbol, meaning, korean), ownTerms);
     if (score > bestScore) {
       best = meaning;
       bestScore = score;
@@ -368,8 +374,21 @@ function isKoreanText(haystack: string) {
  * 어차피 0점인데, 떨어뜨려 두면 「값이 있다」고 착각해 빠진 자리를 못 본다. 빠진 자리는
  * `verify-dream-context-parity`가 센다.
  */
-function contextFor(meaning: DreamMeaning, korean: boolean) {
+function contextFor(
+  symbol: Pick<DreamSymbol, "id">,
+  meaning: DreamMeaning,
+  korean: boolean,
+) {
+  /**
+   * **키는 `상징id::상황`이다**(v2, 2026-08-31).
+   *
+   * 옛 표는 상황 문구 하나만으로 전역 키를 삼았다. 서로 다른 두 상징이 우연히 같은 문구를
+   * 쓰면 — 실제로 걸렸다, 원문이 「日月」을 함께 말하는 줄이라 「해와 달이 한자리에서 만남」이
+   * `sun`·`moon` 양쪽 상징에 들어갔다 — **한쪽이 조용히 사라진다**(JSON 객체 키 유일성).
+   * 상징 id를 붙여 그 갈래를 아예 없앤다.
+   */
   const display = meaning.context ?? "";
+  const key = `${symbol.id}::${display}`;
   /**
    * 한국어도 **매칭 키를 따로 본다**(2026-08-07).
    *
@@ -380,8 +399,8 @@ function contextFor(meaning: DreamMeaning, korean: boolean) {
    * 표에 없으면 화면 문구를 그대로 쓴다. 의미가 하나뿐인 상징은 판별을 하지 않으므로
    * 표에 적을 이유가 없다.
    */
-  if (korean) return CONTEXT_KO[display] ?? display;
-  return CONTEXT_EN[display] ?? "";
+  if (korean) return CONTEXT_KO[key] ?? display;
+  return CONTEXT_EN[key] ?? "";
 }
 
 /**
@@ -489,12 +508,47 @@ const CONCEPTION_WORDS = [
   "with child",
 ];
 
-/** 이 의미가 태몽을 말하는가. 사전은 우리가 관리하는 canonical ko라 문구로 판정해도 흔들리지 않는다. */
+/**
+ * **태몽으로 읽히는 풀이의 말투** — 얼려 둔 목록(v2 교체, 2026-08-31).
+ *
+ * ## 왜 목록인가
+ *
+ * 옛 사전은 풀이에 「태몽」이라는 낱말을 직접 적어 두고 그 낱말을 찾았다. 그런데 그
+ * 태몽 의미들은 **AI가 지어낸 것**이었다(CLAUDE.md §21 — 폐기된 218개의 일부).
+ *
+ * v2는 원문에서 지었으므로 **「태몽」이라는 낱말이 한 번도 안 나온다.** 대신 원문이
+ * 그 일을 말하는 방식이 있다 — `蛇入懷中生貴子`(뱀이 품에 들면 귀한 자식을 낳는다),
+ * `吞日者生貴子`(해를 삼키면 귀한 아들을 낳는다). **근거가 지어낸 라벨에서 인용으로
+ * 바뀐 것이지 태몽이 사라진 것이 아니다** — v2에 40자리가 있다.
+ *
+ * 규칙(정규식 한 줄)으로 적지 않고 목록으로 얼리는 이유는 §11과 같다 — 「아이」·「낳」
+ * 같은 넓은 낱말로 잡으면 **이미 임신한 사람 이야기**(「임신한 부인에게 길한 조짐」)나
+ * **아이가 나오는 다른 꿈**까지 태몽이 된다. 태몽은 **아이를 밴다·낳는다는 조짐**이다.
+ */
+const CONCEPTION_PHRASES = [
+  "자식을 낳",
+  "자식을 얻",
+  "자식을 밸",
+  "아들을 낳",
+  "딸을 낳",
+  "아이를 밸",
+  "아이를 낳",
+  "잉태",
+  // 옛 사전 호환. v2에는 없지만, 이 낱말이 풀이에 들어오면 그것은 태몽이라는 뜻이다.
+  CONCEPTION_TAG,
+];
+
+/**
+ * 이 의미가 태몽을 말하는가.
+ *
+ * **상징이 아니라 「고른 의미」로 판정한다** — 돼지는 태몽으로도 읽히지만 보통은 재물
+ * 꿈이다. 태그로 판정하면 돼지꿈을 꾼 사람이 전부 태몽이 된다(2026-08-06에 실제로
+ * 그렇게 새어 나왔다). v2에서는 이것이 더 분명해졌다 — 「뱀이 품속으로 들어옴」만
+ * 태몽이고 「뱀에 물림」은 아니다. 인용이 그렇게 갈라 두었다.
+ */
 export function isConceptionMeaning(meaning: DreamMeaning) {
-  return (
-    meaning.context?.includes(CONCEPTION_TAG) === true ||
-    meaning.interpretation_ko.includes(CONCEPTION_TAG)
-  );
+  const text = `${meaning.context ?? ""} ${meaning.interpretation_ko}`;
+  return CONCEPTION_PHRASES.some((phrase) => text.includes(phrase));
 }
 
 /**
@@ -529,7 +583,7 @@ export function matchDream(text: string): DreamOutcome {
       polarity: meaning.polarity ?? symbol.polarity,
       weight: symbol.weight ?? 1,
       tags: symbol.tags ?? [],
-      culture_note: symbol.culture_note,
+      label_ko: symbol.label_ko,
       matchedOn: hit.matchedOn,
       at: hit.at,
       contextMatched,

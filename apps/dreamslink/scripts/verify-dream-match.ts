@@ -111,7 +111,10 @@ const WITH_PARTICLES: Array<[string, string]> = [
   ["똥을 밟았다", "똥"],
   ["말이 달렸다", "말"],
   ["집에 들어갔다", "집"],
-  ["밤을 주웠다", "밤"],
+  // v2 교체(2026-08-31)로 「밤」이 사라졌다 — 주공해몽·밀러 원문에 그 표제어가 없다.
+  // **없는 상징을 시험하려고 사전에 넣지 않는다**(그것이 폐기된 옛 사전의 병이다, §21).
+  // 시험의 뜻은 「한 글자 상징이 조사와 함께 걸리는가」이므로 v2에 있는 것으로 바꾼다.
+  ["피를 흘렸다", "피"],
 ];
 const lost = WITH_PARTICLES.filter(
   ([text, term]) => !matchDream(text).matched.some((m) => m.term_ko === term),
@@ -128,14 +131,33 @@ check(
 const pigPlain = matchDream("돼지가 집에 들어왔다");
 check("돼지꿈만으로는 태몽이 아니다", pigPlain.conception === false, `conception=${pigPlain.conception}`);
 
-// 임신을 말한 사람에게는 태몽 의미가 먼저다. **낱말 수로 겨루면 원래 의미가 이긴다.**
-const pigPregnant = matchDream("임신했는데 돼지가 집에 들어오는 꿈을 꿨다");
-const pigMeaning = pigPregnant.matched.find((m) => m.id === "pig")?.meaning.interpretation_ko ?? "";
-check("임신을 말하면 태몽 의미를 고른다", pigPregnant.conception && pigMeaning.includes("태몽"), pigMeaning);
+/**
+ * **v2 교체(2026-08-31)로 태몽의 근거가 바뀌었다.**
+ *
+ * 옛 사전은 풀이에 「태몽」이라는 낱말을 적어 두고 그것을 찾았는데, 그 태몽 의미들은
+ * **AI가 지어낸 것**이었다(폐기된 218개의 일부, CLAUDE.md §21). 그래서 돼지에도 용에도
+ * 태몽 의미가 붙어 있었고 「용이 하늘로 올라갔다」만으로 태몽이 됐다.
+ *
+ * v2는 원문이 태몽을 말하는 자리에만 그 뜻이 있다 — `蛇入懷中生貴子`(뱀이 품에 들면
+ * 귀한 자식을 낳는다)·`吞日者生貴子`(해를 삼키면 귀한 아들을 낳는다). **상징이 아니라
+ * 상황이 태몽을 만든다**: 뱀이 품에 들면 태몽이고, 뱀에 물리면 아니다.
+ *
+ * 그래서 시험도 **인용이 있는 자리**로 옮긴다. 「용이 하늘로 올라갔다」는 이제 태몽이
+ * 아니다(용의 태몽 자리는 「부인이 용을 봄」이다) — 그것이 원문에 더 맞다.
+ */
+const snakeBosom = matchDream("뱀이 품속으로 들어왔다");
+const snakeBosomMeaning =
+  snakeBosom.matched.find((m) => m.id === "snake")?.meaning.interpretation_ko ?? "";
+check(
+  "원문이 태몽을 말하는 자리는 태몽으로 걸린다",
+  snakeBosom.conception && snakeBosomMeaning.includes("자식"),
+  snakeBosomMeaning,
+);
 
-// 의미 자체가 태몽인 상징은 맥락 없이도 태몽이다.
-const dragon = matchDream("용이 하늘로 올라갔다");
-check("전통적으로 태몽인 상징은 그대로 태몽", dragon.conception === true);
+// 같은 상징이라도 **상황이 다르면 태몽이 아니다.** 뱀에 물린 것은 재물 조짐이다(蛇趕人主得大財).
+const snakeBitten = matchDream("뱀에게 물렸다");
+check("같은 상징이라도 다른 상황은 태몽이 아니다", snakeBitten.conception === false,
+  `conception=${snakeBitten.conception}`);
 
 // 태몽과 무관한 꿈이 태몽으로 새지 않는다.
 const fall = matchDream("추락하는 꿈을 꿨다");
@@ -186,12 +208,18 @@ const EN_MUST_MATCH: Array<[string, string]> = [
   ["I saw two pigs in the house", "pig"],
   ["The dogs barked at me", "dog"],
   ["birds were flying in the sky", "bird"],
-  ["my tooth fell out", "tooth-fall"],
-  ["Clear water was flowing", "water-clear"],
+  // ⚠️ v2 교체(2026-08-31)로 **상징 id가 바뀌었다.** 옛 사전은 상황까지 상징으로 쪼개
+  //    두었지만(`tooth-fall`·`water-clear`·`drowning`), v2는 **상징 하나에 상황별 의미**를
+  //    단다 — 「이(teeth)」에 「이가 저절로 빠짐」·「빠진 이가 다시 남」이 달리는 식이다.
+  //    원문이 그렇게 적혀 있기 때문이고, 이쪽이 상황 판별의 원래 설계와도 맞는다.
+  //    **시험의 뜻(어미가 붙어도 걸린다)은 그대로 두고 id만 v2의 것으로 옮긴다.**
+  ["my tooth fell out", "teeth"],
+  ["Clear water was flowing", "water"],
   // **모호한 낱말은 빼는 것이 아니라 한정한다**(사용자 제안). 높은 언덕은 산으로 본다.
+  // 맨 "hill"을 별칭으로 두면 「a small hill」까지 산이 된다 — 아래 오탐 목록이 그것을 잡는다.
   ["I climbed a high hill", "mountain"],
   ["I crossed a wide river", "river"],
-  ["I was drowning in the sea", "drowning"],
+  ["I was drowning in the sea", "sea"],
   ["the toilet was full of excrement", "feces"],
 ];
 for (const [text, mustHave] of EN_MUST_MATCH) {

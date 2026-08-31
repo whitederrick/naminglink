@@ -19,8 +19,8 @@
       "뱀이 부뚜막에 들어옴": "부뚜막 아궁이 부엌 솥단지",
       "뱀이 용으로 변함": "용으로 용이 승천 변해 변하 둔갑",
       "뱀이 사람을 죽임": "죽였 죽이 죽임 살해",
-      "뱀이 사람에게 덤벼듦": "덤벼 덤비 달려들 물었 물려 공격",
-      "뱀이 품속으로 들어옴": "품속 품안 가슴속 품으로",
+      "뱀이 사람에게 덤벼듦": "덤벼 덤비 달려들 물었 물려 공격 물렸 물린",
+      "뱀이 품속으로 들어옴": "품속 품안 가슴속 품으로 품에 안았 안고",
       "뱀이 물속을 헤엄쳐 감": "헤엄 물속 강물 냇물 시냇",
       "뱀이 사람을 따라감": "따라와 따라오 따라가 뒤따라 쫓아와",
       "뱀이 곡도로 들어감": "곡도 굴속 구멍으로 구멍에 굴로",
@@ -38,7 +38,7 @@
       "뱀이 용으로 변함": "dragon dragons ascended transformed",
       "뱀이 사람을 죽임": "killed kill killing slain",
       "뱀이 사람에게 덤벼듦": "lunged attacked charged bit striking",
-      "뱀이 품속으로 들어옴": "bosom chest clothes hugged",
+      "뱀이 품속으로 들어옴": "bosom chest clothes hugged held holding",
       "뱀이 물속을 헤엄쳐 감": "swimming swam water river stream",
       "뱀이 사람을 따라감": "followed following chased pursued",
       "뱀이 곡도로 들어감": "hole burrow cave tunnel",
@@ -352,13 +352,13 @@
     ],
     "contexts": {
       "법사가 법좌에 오름": "법좌 법상 설법 올라 높은자리",
-      "스님이 사람에게 경 읽기를 가르침": "가르치 가르쳐 배우 독경 읽기를",
-      "스님과 비구니가 경을 봄": "비구니 여승 함께 나란히"
+      "스님이 사람에게 경 읽기를 가르침": "가르치 가르쳐 배우 독경 읽기를 가르침",
+      "스님과 비구니가 경을 봄": "비구니 여승 함께 나란히 읽는"
     },
     "contexts_en": {
       "법사가 법좌에 오름": "dharma seat preaching pulpit ascended",
-      "스님이 사람에게 경 읽기를 가르침": "teaching taught reading sutra learn",
-      "스님과 비구니가 경을 봄": "nun nuns together"
+      "스님이 사람에게 경 읽기를 가르침": "teaching taught learn",
+      "스님과 비구니가 경을 봄": "nun nuns together reading sutra"
     }
   },
   {

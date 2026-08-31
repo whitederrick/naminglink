@@ -31,8 +31,21 @@ export async function docValues(_locale: Locale): Promise<Record<string, string>
 
     // 한 글자짜리 상징은 매칭에서 오탐을 내기 쉬워 따로 다루는 자리가 있다.
     singleCharSymbolTotal: count((symbol) => symbol.term_ko.length === 1),
-    // 전승 배경은 있는 것에만 있다. **없다고 지어내지 않는다**는 것이 이 사전의 규칙이다.
-    cultureNoteTotal: count((symbol) => Boolean(symbol.culture_note)),
+    /**
+     * **원문 인용이 붙은 상징 수.**
+     *
+     * 옛 사전에서는 「전해 오는 배경(`culture_note`)이 적힌 상징 수」였고 218개 중 82개뿐
+     * 이었다 — 나머지는 근거 없이 「전통」으로 표시돼 있었다(CLAUDE.md §21). 새 사전은
+     * **인용이 없으면 항목이 존재할 수 없으므로** 이 수는 상징 총수와 같다.
+     *
+     * ⚠️ **자리표시자 이름은 그대로 두었다.** 23개 로케일 안내 문서가 이 이름을 쓰고 있고,
+     * 문구를 고치는 것은 번역 파이프라인을 타는 별도 작업이다(사용자 결정 2026-08-31).
+     * 지금 문서에는 「근거를 댈 수 있는 것이 N개뿐」이라고 적혀 있는데 **그 「뿐」이 이제
+     * 사실과 어긋난다** — 수치는 맞지만 문장의 결이 틀렸다. 다음 과제로 남아 있다.
+     */
+    cultureNoteTotal: count((symbol) =>
+      symbol.meanings.some((meaning) => (meaning.cites?.length ?? 0) > 0),
+    ),
 
     polarityPositive: byPolarity("positive"),
     polarityAmbivalent: byPolarity("ambivalent"),

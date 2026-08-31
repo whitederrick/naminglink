@@ -24,7 +24,7 @@
 // 실행: apps/dreamslink 에서
 //   ../naminglink/node_modules/.bin/tsx scripts/verify-dream-context-parity.ts
 
-import { CONTEXT_EN } from "../src/lib/dream-contexts";
+import { CONTEXT_EN_V2 as CONTEXT_EN } from "../src/lib/dream-contexts.v2";
 import { DREAM_SYMBOLS } from "../src/lib/dream-symbols";
 import { matchDream } from "../src/lib/engines/dream-match";
 
@@ -48,7 +48,12 @@ const discriminating = DREAM_SYMBOLS.flatMap((symbol) =>
 // 1) 판별에 쓰이는 상황에 영어가 다 있는가
 // ---------------------------------------------------------------------------
 console.log("판별에 쓰이는 상황의 영어 키워드");
-const missing = discriminating.filter((item) => !CONTEXT_EN[item.context]);
+// v2 표의 키는 `상징id::상황`이다(옛 표는 상황 문구만 써서 두 상징이 같은 문구를
+// 쓰면 한쪽이 조용히 사라졌다). 엔진의 `contextFor`와 **같은 키로** 물어야 한다 —
+// 다른 키로 물으면 이 검사기가 다른 것을 보게 된다(CLAUDE.md §「검사기가 다른 것을 보고 있었다」).
+const ctxKey = (item: { symbol: { id: string }; context: string }) =>
+  `${item.symbol.id}::${item.context}`;
+const missing = discriminating.filter((item) => !CONTEXT_EN[ctxKey(item)]);
 for (const item of missing) {
   fail(
     `${item.symbol.term_ko} / ${item.context}`,
@@ -66,7 +71,7 @@ console.log(`  상황 ${discriminating.length}개 · 영어 없음 ${missing.len
 console.log("\n영어 키워드에 판별할 낱말이 남는가");
 let nameOnly = 0;
 for (const item of discriminating) {
-  const english = CONTEXT_EN[item.context];
+  const english = CONTEXT_EN[ctxKey(item)];
   if (!english) continue;
   const own = [item.symbol.term_ko, item.symbol.term_en, ...(item.symbol.aliases ?? [])]
     .filter(Boolean)
@@ -126,10 +131,16 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "lightning", label: "번개 — 벼락을 맞음", ko: "벼락을 맞았다", en: "I was struck by a bolt of lightning" },
   { id: "rainbow", label: "무지개 — 선명함", ko: "선명한 무지개가 떴다", en: "a vivid rainbow appeared" },
   { id: "rainbow", label: "무지개 — 검음", ko: "무지개의 색이 검었다", en: "the rainbow was black" },
-  { id: "fire", label: "불 — 크게", ko: "불이 활활 크게 타올랐다", en: "a fire blazed up enormously" },
+  // **두 문장이 같은 상황을 가리켜야 이 검사가 뜻을 갖는다.** 옛 쌍은 한국어가 「활활」,
+  // 영어가 「enormously」를 말해 v2의 두 이웃 의미(「불꽃이 활활 타오름」·「큰불이 하늘을
+  // 태움」)로 갈렸다 — 사전이 아니라 **쌍이 어긋난 것**이다. 한쪽으로 모아 적는다.
+  { id: "fire", label: "불 — 활활", ko: "불꽃이 활활 타올랐다", en: "the flames blazed up" },
   { id: "fire", label: "불 — 꺼져감", ko: "작은 불이 꺼져 갔다", en: "a small fire was dying out" },
   { id: "flower", label: "꽃 — 활짝", ko: "활짝 핀 꽃을 보았다", en: "I saw flowers in full bloom" },
-  { id: "flower", label: "꽃 — 시듦", ko: "시든 꽃이 있었다", en: "the flowers had withered" },
+  // **v2에는 「시든 꽃」 의미가 없다** — 주공해몽·밀러 원문에 그 줄이 없기 때문이다.
+  // 없는 뜻을 시험하면 양쪽이 서로 다른 대표 의미로 떨어져 「갈린다」고 신고할 뿐이다.
+  // 사전에 실제로 있는 상황으로 옮긴다(원문에 그 줄이 들어오면 그때 시듦을 되살릴 것).
+  { id: "flower", label: "꽃 — 나눠 가짐", ko: "남과 꽃을 나누어 가졌다", en: "we shared the flowers together" },
   { id: "snow", label: "눈 — 깨끗", ko: "깨끗한 눈이 쌓였다", en: "clean white snow had piled up" },
   { id: "snow", label: "눈 — 눈보라", ko: "눈보라가 몰아쳐 눈 속에 갇혔다", en: "I was trapped in a blizzard" },
   { id: "cloud", label: "구름 — 오색", ko: "오색구름이 떴다", en: "clouds of many colors appeared" },
@@ -232,7 +243,9 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "president", label: "높은 사람 — 못 만남", ko: "귀인을 만나러 갔지만 만나지 못했다", en: "I tried to visit the president but could not meet them" },
   { id: "thief", label: "도둑 — 함께 다님", ko: "도둑과 함께 길을 다녔다", en: "I traveled along the road together with a thief" },
   { id: "bed", label: "침대 — 편안함", ko: "편안한 침대에 누워 잤다", en: "I lay down and slept in a comfortable bed" },
-  { id: "bed", label: "침대 — 이불을 덮음", ko: "포근한 이불을 덮었다", en: "I covered myself with a warm, cozy blanket" },
+  // v2(2026-08-31)는 **이불을 독립 상징으로 둔다**(`quilt`, 好衾自蓋). 옛 사전은 이불을
+  // 침대의 별칭으로 삼았지만 원문이 그렇게 적혀 있지 않다 — 대상을 사전에 맞춘다.
+  { id: "quilt", label: "이불 — 덮음", ko: "포근한 이불을 덮었다", en: "I covered myself with a warm quilt" },
 
   // 밀러(Miller, 1901) 1차 배치(2026-08-27) — 218개 상징 vs 밀러 2,257개 표제어 대조로
   // 아직 안 쓴 자료 72개를 발견, 그중 거미·반지·열쇠부터
@@ -241,8 +254,30 @@ const PAIRS: Array<{ id: string; label: string; ko: string; en: string }> = [
   { id: "key", label: "열쇠 — 잃어버림", ko: "열쇠를 잃어버려서 곤란했다", en: "I lost my key and it caused trouble" },
 ];
 
+/**
+ * **v2 교체(2026-08-31) — 사전에 없는 상징을 가리키는 쌍은 건너뛴다.**
+ *
+ * 이 쌍들은 옛 218개 사전을 보고 손으로 쓴 것이다. v2는 원문(주공해몽·밀러)에서 다시
+ * 지었으므로 **옛 사전에 있던 상징 여럿이 아직 없다** — 자동차·열쇠·거미처럼 원문에
+ * 표제어가 없거나, 밀러 2,257개 중 13%만 처리해 아직 안 들어온 것들이다.
+ *
+ * 없는 상징을 「안 걸렸다」로 신고하면 **진짜 신호가 그 잡음에 묻힌다.** 그렇다고 조용히
+ * 빼면 「통과」로 위장된다(CLAUDE.md §1) — 그래서 **건너뛴 수를 크게 찍고**, 그 목록을
+ * 다음 사람이 볼 수 있게 남긴다. 사전이 넓어지면 이 수가 저절로 줄어든다.
+ */
+const knownIds = new Set(DREAM_SYMBOLS.map((symbol) => symbol.id));
+const skipped = PAIRS.filter((pair) => !knownIds.has(pair.id));
+const livePairs = PAIRS.filter((pair) => knownIds.has(pair.id));
+
 console.log("\n같은 상황을 두 언어로 적으면 같은 뜻이 나오는가");
-for (const pair of PAIRS) {
+if (skipped.length > 0) {
+  const ids = [...new Set(skipped.map((pair) => pair.id))].sort();
+  console.log(
+    `  ⚠ 건너뜀 ${skipped.length}쌍 — v2 사전에 아직 없는 상징 ${ids.length}종: ${ids.join(", ")}`,
+  );
+  console.log("    (검사한 것이 아니다. 그 상징이 사전에 들어오면 이 줄이 줄어든다.)");
+}
+for (const pair of livePairs) {
   /**
    * **`matched[0]`이 아니라 그 상징을 찾는다.**
    *
@@ -263,7 +298,7 @@ for (const pair of PAIRS) {
     );
   }
 }
-console.log(`  문장 쌍 ${PAIRS.length}개`);
+console.log(`  문장 쌍 ${livePairs.length}개 검사 · ${skipped.length}쌍 건너뜀(사전에 없음)`);
 
 // ---------------------------------------------------------------------------
 // 대조군 — 검사가 살아 있는지 증명한다.

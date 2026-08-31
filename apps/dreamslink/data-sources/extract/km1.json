@@ -15,7 +15,7 @@
       "우물을 파서 물을 봄": "팠다 팠더 팠고 파내려 물이나오",
       "우물이 저절로 부서짐": "부서 무너 깨져 허물어 저절로",
       "우물물이 끓어 넘침": "끓어 끓고 넘쳐 넘치 솟구",
-      "우물이 말라붙음": "말라붙 바싹 텅비 완전히",
+      "우물이 말라붙음": "말라붙 바싹 텅비 완전히 말라 바닥나",
       "우물에 몸을 비춰 봄": "비춰 비추 비친 그림자 얼굴이",
       "몸이 우물에 빠짐": "빠졌 빠져 빠지 추락",
       "방이 우물 속에 있음": "방이 방안 침실",
@@ -305,7 +305,6 @@
     ],
     "aliases_en": [
       "a river",
-      "a stream",
       "riverbank"
     ],
     "contexts": {
@@ -569,7 +568,7 @@
     ],
     "contexts": {
       "붉은 무지개를 봄": "붉은 빨간 붉게 적색",
-      "검은 무지개를 봄": "검은 까만 검게 흑색"
+      "검은 무지개를 봄": "검은 까만 검게 흑색 검었 검은색"
     },
     "contexts_en": {
       "붉은 무지개를 봄": "red crimson scarlet",
@@ -600,13 +599,20 @@
     "id": "ancestor",
     "aliases": [
       "선조",
-      "조상님"
+      "조상님",
+      "돌아가신",
+      "선친",
+      "조상님들"
     ],
     "aliases_en": [
       "an ancestor",
       "ancestors",
       "a forefather",
-      "a deceased relative"
+      "a deceased relative",
+      "late grandfather",
+      "deceased grandfather",
+      "my late",
+      "deceased"
     ],
     "contexts": {},
     "contexts_en": {}

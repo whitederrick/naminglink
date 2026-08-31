@@ -7,14 +7,14 @@ import { AdBanner } from "@/components/AdBanner";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
 import { trackAnalytics } from "@/lib/analytics-client";
 import {
-  cultureNote,
-  meaningSource,
-  meaningSourceLabel,
+  citeLines,
   meaningText,
+  meaningWorkLabel,
   readingLanguage,
   symbolTerm,
   themeLabels,
 } from "@/lib/dream-language";
+import { meaningWork } from "@/lib/dream-symbols";
 import { decodeDreamInput, type DreamInput } from "@/lib/dream-input";
 import type { DreamOutcome } from "@/lib/engines/dream-match";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -157,21 +157,28 @@ export function DreamResultView({
                     한국어로 나갔다. 고르는 규칙은 `lib/dream-language.ts` 한 곳에 있다. */}
                 <div className="flex flex-wrap items-baseline justify-between gap-x-2">
                   <p className="font-semibold">{symbolTerm(item, language)}</p>
-                  {/* **일반 해석에만 라벨을 붙인다** (2026-08-26). 전통은 지금까지처럼
-                      아무 표시가 없다 — 라벨을 둘 다 붙이면 "일반적인 해석"이 마치 전통과
-                      대등한 자격을 얻은 것처럼 읽힌다. 구분이 필요한 쪽에만 표시한다. */}
-                  {meaningSource(item.meaning) === "general" ? (
+                  {/* **어느 원문의 말인지 언제나 밝힌다**(2026-08-31).
+                      옛 화면은 "일반 해석"에만 라벨을 붙이고 전통은 무표시로 뒀는데, 그때는
+                      출처가 한 갈래(전통)뿐이었기 때문이다. 지금은 두 원문(주공해몽·밀러)이
+                      섞여 있고 **같은 상징을 정반대로 읽는 자리도 있다** — 무표시로 두면
+                      이용자가 어느 전통의 말인지 알 방법이 없다. */}
+                  {meaningWork(item.meaning) ? (
                     <span className="rounded-full border border-line bg-surface-strong px-2 py-0.5 text-[11px] font-semibold text-muted">
-                      {meaningSourceLabel("general", language)}
+                      {meaningWorkLabel(meaningWork(item.meaning)!, language)}
                     </span>
                   ) : null}
                 </div>
                 <p className="break-keep-all mt-1 text-sm leading-6 text-muted">
                   {meaningText(item.meaning, language)}
                 </p>
-                {cultureNote(item.culture_note, language) ? (
-                  <p className="break-keep-all mt-1 text-xs leading-5 text-muted">
-                    {item.culture_note}
+                {/* 인용 원문 한 줄. **근거를 화면에서 확인할 수 있어야 한다**(§21) —
+                    옛 사전은 근거가 없는 것에도 「전통」 라벨이 붙어 있었고, 이용자는 그것을
+                    확인할 방법이 없었다. 결과 화면은 좁으므로 첫 인용만 보이고 나머지는
+                    상징 페이지에서 본다. */}
+                {item.meaning.cites?.[0] ? (
+                  <p className="break-keep-all mt-2 text-xs leading-5 text-muted opacity-80">
+                    {citeLines(item.meaning.cites[0], language).translation ??
+                      item.meaning.cites[0].original}
                   </p>
                 ) : null}
               </div>

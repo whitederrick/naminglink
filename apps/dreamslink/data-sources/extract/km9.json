@@ -27,7 +27,7 @@
       "배를 타고 해와 달을 지나감": "지나갔 지나가 지나쳐 스쳐 통과 가로질러",
       "배를 타고 술을 마심": "술을 마셨 마시 취해 잔치",
       "남과 한 배를 탐": "함께 같이 동승 일행 여럿이",
-      "배가 돛에 바람을 받아 나아감": "돛을 돛이 바람 순풍 나아가",
+      "배가 돛에 바람을 받아 나아감": "돛을 돛이 바람 순풍 나아가 나아갔",
       "배를 타고 키를 봄": "키를 키가 방향타 조타 노를",
       "배를 타고 다리 밑을 지남": "다리 교각 밑을 아래로 지나쳤",
       "앓는 사람이 배를 탐": "앓는 아픈 병든 환자 아파",
@@ -49,10 +49,10 @@
       "배를 타고 강을 건넘": "river crossing crossed cross",
       "배 안에 물이 고여 있음": "leaking leak flooded pooled bilge swamped",
       "배를 타고 해와 달을 봄": "sun moon sunlight moonlight watched gazing",
-      "배를 타고 해와 달을 지나감": "passed passing sailed beyond glided",
+      "배를 타고 해와 달을 지나감": "passed passing beyond glided",
       "배를 타고 술을 마심": "drinking drank liquor wine alcohol",
       "남과 한 배를 탐": "together others companion shared aboard",
-      "배가 돛에 바람을 받아 나아감": "sails wind breeze forward",
+      "배가 돛에 바람을 받아 나아감": "sails wind breeze forward onward",
       "배를 타고 키를 봄": "rudder helm steering tiller",
       "배를 타고 다리 밑을 지남": "bridge underneath beneath arch",
       "앓는 사람이 배를 탐": "sick illness patient ailing",
@@ -153,7 +153,8 @@
       "거울 속 동물을 봄": "동물 짐승 강아지 고양이",
       "여성이 거울을 깨뜨림": "여성 여자 아내 그녀",
       "거울 속 창백한 애인을 봄": "창백 핼쑥 파리한 여윈",
-      "거울 속 행복한 애인을 봄": "행복 즐거운 웃는 미소"
+      "거울 속 행복한 애인을 봄": "행복 즐거운 웃는 미소",
+      "깨진 거울을 봄": "파편 조각들 유리조각"
     },
     "contexts_en": {
       "거울에 비친 모습이 밝음": "bright brightly clear vivid glowing",
@@ -172,7 +173,8 @@
       "거울 속 동물을 봄": "animal animals beast creature dog",
       "여성이 거울을 깨뜨림": "woman women wife lady",
       "거울 속 창백한 애인을 봄": "pale pallid sickly wan ghastly",
-      "거울 속 행복한 애인을 봄": "happy happily smiling joyful merry"
+      "거울 속 행복한 애인을 봄": "happy happily smiling joyful merry",
+      "깨진 거울을 봄": "shards fragments debris"
     }
   },
   {

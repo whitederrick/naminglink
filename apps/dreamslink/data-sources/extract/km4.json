@@ -115,7 +115,6 @@
       "poop",
       "shit",
       "excrement",
-      "stool",
       "dung"
     ],
     "contexts": {
@@ -129,14 +128,14 @@
       "똥과 흙이 무더기로 쌓임": "흙과 무더기 쌓여 쌓였 더미"
     },
     "contexts_en": {
-      "똥이 몸을 더럽힘": "smeared body clothes",
+      "똥이 몸을 더럽힘": "smeared body clothes soiled",
       "대변이 땅에 가득함": "ground floor everywhere scattered filled",
       "똥을 지고 집으로 돌아옴": "carrying carried hauling brought home",
       "대변을 잃어버림": "lost losing disappeared missing",
       "똥오줌 속에 있음": "urine pee sewage immersed",
       "뒷간에 똥이 넘침": "outhouse latrine toilet overflowing overflowed",
       "똥 가운데 앉음": "sitting sat squatting middle",
-      "똥과 흙이 무더기로 쌓임": "dirt soil pile heap piled"
+      "똥과 흙이 무더기로 쌓임": "dirt pile heap piled"
     }
   },
   {
@@ -420,7 +419,7 @@
     "contexts": {
       "벌과 나비가 어우러져 놂": "나비 어우러 날아다 놀고",
       "벌이 사람의 다리를 쏨": "쏘였 쏘여 쏘았 다리를",
-      "벌을 봄": "무리 떼지어 윙윙 잔뜩",
+      "벌을 봄": "무리 떼지어 윙윙 잔뜩 벌떼 떼가",
       "관리(장교)가 벌 꿈을 꿈": "장교 군인 부하 지휘",
       "목회자가 벌 꿈을 꿈": "목사 목회 신도 교회",
       "사업가가 벌 꿈을 꿈": "사업가 장사 거래 상인",

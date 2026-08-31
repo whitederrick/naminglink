@@ -21,9 +21,21 @@ const EXTRACT_DIR = path.resolve("apps/dreamslink/data-sources/extract");
 const v2 = JSON.parse(readFileSync(V2_DATA, "utf8"));
 const symbolById = new Map(v2.symbols.map((s) => [s.id, s]));
 
+/**
+ * 주공해몽(`km1~9`)과 **밀러(`kmm1~7`)를 둘 다 읽는다.**
+ *
+ * 밀러를 합친 뒤에도 이 목록이 `km1~9`에 머물러 있으면 **밀러 265개 상징의 별칭·판별어가
+ * 통째로 빠진 표가 만들어진다** — 그러고도 스크립트는 조용히 성공한다. 같은 자리를
+ * `verify-dream-km.mjs`에서 한 번 겪었다(기본 목록이 옛것에 머물러 있던 것, 2026-08-31).
+ */
+const KM_GROUPS = [
+  ...Array.from({ length: 9 }, (_, i) => `km${i + 1}`),
+  ...Array.from({ length: 7 }, (_, i) => `kmm${i + 1}`),
+];
+
 let kmAll = [];
-for (let n = 1; n <= 9; n++) {
-  kmAll.push(...JSON.parse(readFileSync(path.join(EXTRACT_DIR, `km${n}.json`), "utf8")));
+for (const g of KM_GROUPS) {
+  kmAll.push(...JSON.parse(readFileSync(path.join(EXTRACT_DIR, `${g}.json`), "utf8")));
 }
 
 // **검사 0건은 통과가 아니다**(CLAUDE.md §1·§3).
@@ -77,6 +89,34 @@ for (const km of kmAll) {
     }
     contextKo[`${km.id}::${ctx}`] = disc;
     ctxKeyCount++;
+  }
+
+  /**
+   * **한 상징 안에서 상황 문구가 겹치면 멈춘다.**
+   *
+   * 합성 키(`id::문맥`)를 써도 **같은 상징 안에서 문구가 겹치면 여전히 한 키**다. 두
+   * 원문이 같은 상황을 다르게 해석하는 자리(「거울이 깨짐」이 주공해몽·밀러 양쪽에 있다)가
+   * 그렇다 — 그러면 두 의미가 **같은 판별어를 받아 늘 동점**이 되고, 뒤의 것은 영영 못
+   * 뽑힌다. 게다가 km 파일도 문구를 키로 쓰므로 판별어를 따로 적을 수조차 없다.
+   *
+   * 조용히 넘어가면 「판별어가 다 있다」는 커버리지 검사까지 통과한다(둘이 같은 키를
+   * 보므로). 그래서 **여기서 멈추고 사람이 문구를 가르게 한다** — 대개 원문을 다시 읽으면
+   * 실제로 다른 상황이다(밀러는 "깨진 거울을 **봄**", 주공해몽은 "거울이 **깨짐**").
+   */
+  const ctxSeen = new Map();
+  for (const m of sym.meanings) {
+    ctxSeen.set(m.context, (ctxSeen.get(m.context) ?? 0) + 1);
+  }
+  for (const [ctx, n] of ctxSeen) {
+    if (n > 1) {
+      console.error(
+        `${km.id}: 상황 문구 「${ctx}」가 의미 ${n}개에 겹친다 — 판별어를 따로 줄 수 없다.`,
+      );
+      console.error(
+        "  원문을 다시 읽고 문구를 갈라 적을 것(추출 파일의 context를 고친 뒤 사전을 다시 조립).",
+      );
+      process.exit(1);
+    }
   }
   for (const [ctx, disc] of Object.entries(km.contexts_en ?? {})) {
     if (!meaningCtxSet.has(ctx)) {

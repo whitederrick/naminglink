@@ -1,80 +1,112 @@
-import data from "@/lib/dream-symbols.data.json";
+import data from "@/lib/dream-symbols.v2.data.json";
 
 /**
- * 전통 해몽 상징 사전.
+ * 해몽 상징 사전 — **원문에서 다시 지은 것**(v2, 2026-08-31 교체).
  *
- * ## 이 사전이 하는 일
+ * ## 왜 다시 지었나
  *
- * **모델을 사전에 묶어 둔다.** 해몽은 "그럴듯한 말"을 무한히 지어낼 수 있는 영역이라, 근거를
- * 걸어 두지 않으면 모델이 전통에 없는 의미를 전통인 양 쓴다. 그래서 규칙은 하나다 —
- * **전통 서술은 `meaning.source`가 `"tradition"`(또는 생략)인 의미에서만 나온다.** 매칭이
- * 0건이면 전통 해석을 만들지 않고 "전통 상징을 찾지 못했다"고 말한다.
+ * 옛 사전(218개, 2026-08-06 생성)은 AI가 상식으로 만든 것 위에 `source: "tradition"`이라는
+ * **문자열 라벨**을 기계적으로 붙였다. 라벨은 적기만 하면 참이 되므로 347개 의미 중 345개가
+ * "전통 근거 확인됨"이었는데 **166개는 근거가 아예 없었다**(CLAUDE.md §21). 사용자가
+ * "근거도 없는 자료를 기준으로 잡은 게 문제 아니냐"고 짚어 **전량 폐기**하고 원문에서 새로
+ * 지었다.
  *
- * **`source: "general"`은 예외를 허용하는 것이지 규칙을 없애는 것이 아니다** (2026-08-26).
- * 사전이 얕아 흔한 상황(예: "쫓아다니는 개")에 문맥이 없는 공백을 사람이 검토한 일반적인
- * 해석으로 메우되, **전통과 절대 같은 절에서 섞어 보여주지 않는다** — 화면이 출처별로
- * 나눈다. `DreamMeaning.source` 주석 참고.
+ * ## 새 사전의 규칙은 하나다 — **인용이 없으면 항목이 존재할 수 없다**
  *
- * ## 사전이 얕다는 사실을 알고 쓴다
+ * 모든 의미가 `cites`를 갖고, `cite.original`은 원문 파일과 **문자열로 대조된다**
+ * (`scripts/verify-dream-cite.mjs`). 라벨과 달리 위조할 수 없다 — 지어낸 인용은 대조에서
+ * 걸린다. 그래서 이 사전에는 `source` 필드도, "근거 없음" 상태도 없다. 없는 것은 아예
+ * 항목이 되지 못했다.
  *
- * 상징 209개, **의미는 상징당 평균 1.1개**다. 사주 엔진처럼 값을 많이 내는 물건이 아니다.
- * 그래서 이 서비스는 사주처럼 아홉 장짜리 문서를 만들지 않는다 — 만들려면 없는 것을 지어내야
- * 하고, 그것이 이 파일이 막으려는 바로 그 일이다.
+ * ## 원문 둘을 합쳤다 — 출처는 인용이 말한다
+ *
+ * 주공해몽(동아시아 전통)과 밀러(1901, 서양)를 한 사전으로 합쳤다(사용자 결정 2026-08-31).
+ * **출처 라벨을 따로 만들지 않았다** — §21의 병을 되풀이하지 않으려고, 각 의미의
+ * `cites[].work`가 곧 출처의 증거다. 화면은 그것을 읽어 절을 나눈다
+ * (`meaningWork`·`meaningWorkLabel`, `dream-language.ts`).
+ *
+ * ## `tags`는 태몽 표시뿐이다
+ *
+ * 옛 사전에는 주제 태그가 200종 가까이 있었지만 전부 그 폐기된 AI 생성물이라 옮기지
+ * 않았다. 지금 남은 것은 **태몽 표시 하나**다 — 태몽은 「이 상징의 뜻」이 아니라 「이
+ * 상징이 태몽으로 전해지는가」라 원문 인용으로 세울 수 없고, 그래서 **의미가 아니라
+ * 표시**로 둔다(`isConceptionDream` 주석과 같은 결). 옛 28개 중 21개만 옮겼다 —
+ * 나머지 일곱은 v2에 그 상징 자체가 없고, **없는 것을 지어내지 않는다.**
  *
  * ## `dictVer`
  *
  * 캐시 키에 들어간다. **사전을 고치면 반드시 올릴 것** — 안 올리면 옛 해석이 계속 나온다
- * (인연링크 약관에서 순번 키를 쓰다 같은 일을 겪었다).
+ * (인연링크 약관에서 순번 키를 쓰다 같은 일을 겪었다). 조립기가 값을 박는다.
  */
 
 export type DreamPolarity = "positive" | "negative" | "neutral" | "ambivalent";
 
+/** 이 의미의 근거가 된 원문. */
+export type DreamWork = "zhougong" | "miller";
+
 /**
- * 이 의미의 출처. **없으면 `"tradition"`이다**(기존 215개 항목 전부가 이것이고,
- * `scripts/backfill-dream-meaning-source.mjs`가 명시적으로 채워 두었다 — 값을 생략해서
- * "어차피 기본값" 상태로 남겨 두지 않는다).
+ * 원문 인용 — **이 사전의 근거 그 자체**다.
  *
- * `"general"`은 전통 근거(`culture_note`류)를 못 대지만 사람이 검토해 실은 일반적인 해석이다
- * (2026-08-26, "강아지를 쫓아다니는 꿈"처럼 흔한 상황인데 사전에 문맥이 없어 생기는 공백을
- * 메우려고 도입 — `dream-dictionary-cannot-be-model-grown` 메모). **`"tradition"`과 같은
- * 절에서 섞어 보여주지 않는다** — `dream-symbols.ts` 머리말의 "전통 서술은 여기 있는 의미에서만
- * 나온다"는 약속이 `"tradition"`에만 적용된다는 뜻이고, 화면(`DreamResultView`·상징 상세
- * 페이지)이 절을 분리해서 그린다.
+ * `original`은 원문에 **글자 그대로** 있어야 한다(`verify-dream-cite.mjs`가 대조한다).
+ * 화면이 이것을 그대로 보여 주므로, 요약하거나 다듬어 넣지 말 것 — 다듬는 순간 대조가
+ * 깨지고, 깨진 것을 눈감으면 옛 사전과 같아진다.
  */
-export type DreamMeaningSource = "tradition" | "general";
+export type DreamCite = {
+  work: DreamWork;
+  /** 주공해몽은 갈래 이름(`刀劍旌節鐘鼓`), 밀러는 표제어(`Mirror`). */
+  locator?: string;
+  original: string;
+  translation_ko?: string;
+};
 
 export type DreamMeaning = {
   /**
-   * 어떤 상황일 때의 의미인가. 비어 있으면 그 상징의 기본 의미다.
+   * 어떤 상황일 때의 의미인가.
    *
-   * ⚠️ **이것은 화면 문구가 아니라 매칭 키다.** 이용자가 적은 글에 이 낱말이 있는지 세어
-   * 여러 의미 중 하나를 고른다(`chooseMeaning`) — 「뱀을 품다」와 「뱀에 물리다」를 가르는
-   * 자리다. 그래서 **읽기 좋게 다듬는 것이 아니라 이용자가 실제로 칠 말**로 적는다.
+   * ⚠️ **화면 문구이면서 매칭 키의 일부다.** 판별어 표(`dream-contexts*.v2.ts`)가
+   * `상징id::이 문구`를 키로 쓴다 — 문구를 고치면 그 자리의 판별이 통째로 죽는다.
+   * 고칠 일이 있으면 추출 파일의 `context`를 고치고 표를 다시 만든다.
    */
   context?: string;
   interpretation_ko: string;
   interpretation_en: string;
   polarity?: DreamPolarity;
-  source?: DreamMeaningSource;
+  /**
+   * 근거. **비어 있을 수 없다** — 조립기가 인용 없는 항목을 만들지 않는다.
+   *
+   * 여럿인 경우는 **한 원문 안에서** 같은 말을 하는 줄이 둘일 때다(`殺豬吉豬自死凶`와
+   * `殺豬豖者大吉利`는 둘 다 "돼지를 잡으면 길하다"). **서로 다른 원문의 인용이 한
+   * 의미에 섞이지는 않는다** — 그렇게 합쳤다가 밀러 해석 아래 주공해몽 인용이 붙는
+   * 사고를 냈다(CLAUDE.md §22와 같은 병, 2026-08-31에 고침).
+   */
+  cites: DreamCite[];
 };
 
 export type DreamSymbol = {
   id: string;
+  /** 괄호 없는 본말. **매칭이 이것을 쓴다** — 화면 이름은 `label_ko`다. */
   term_ko: string;
   term_en: string;
   /** 표기 변형·동의어. 매칭은 이것까지 본다. */
   aliases?: string[];
   category: string;
   polarity: DreamPolarity;
+  /**
+   * 화면에 쓸 이름. **한국어 이름이 다른 상징과 겹칠 때만** 있다
+   * (「배(선박)」·「배(과일)」·「배(복부)」·「산(山)」·「산(산성)」·「절(인사)」·「절(사찰)」).
+   * 없으면 `term_ko`를 쓴다 — `symbolLabel()`을 거칠 것.
+   */
+  label_ko?: string;
+  /** 이 상징의 의미들이 어느 원문에서 왔는가. 조립기가 인용에서 **세어서** 낸다. */
+  works?: DreamWork[];
+  /** 지금은 태몽 표시뿐이다(위 머리말 참고). */
   tags?: string[];
   /** 대표 상징일수록 크다. 무엇을 먼저 보여 줄지 정한다. */
   weight?: number;
-  /** 한국 전통 해몽 배경. 209개 중 24개에만 있다 — 없다고 지어내지 말 것. */
-  culture_note?: string;
   meanings: DreamMeaning[];
 };
 
-const source = data as { dictVer: string; symbols: DreamSymbol[] };
+const source = data as unknown as { dictVer: string; symbols: DreamSymbol[] };
 
 export const DICT_VERSION = source.dictVer;
 export const DREAM_SYMBOLS: readonly DreamSymbol[] = source.symbols;
@@ -84,4 +116,19 @@ export const CONCEPTION_TAG = "태몽";
 
 export function symbolById(id: string): DreamSymbol | undefined {
   return DREAM_SYMBOLS.find((symbol) => symbol.id === id);
+}
+
+/**
+ * 이 의미가 어느 원문에서 왔는가. **화면이 이 값으로 절을 나눈다.**
+ *
+ * 값을 세지 않고 `cites[0]`만 보는 이유는 **한 의미의 인용은 전부 같은 원문**이기
+ * 때문이다(조립기가 그렇게 보장하고, 섞이면 그것이 결함이다 — `DreamMeaning.cites` 주석).
+ */
+export function meaningWork(meaning: Pick<DreamMeaning, "cites">): DreamWork | undefined {
+  return meaning.cites?.[0]?.work;
+}
+
+/** 화면에 쓸 상징 이름. 겹치는 이름만 괄호가 붙는다. */
+export function symbolLabel(symbol: Pick<DreamSymbol, "term_ko" | "label_ko">): string {
+  return symbol.label_ko ?? symbol.term_ko;
 }

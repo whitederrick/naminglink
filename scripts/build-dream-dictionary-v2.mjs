@@ -139,6 +139,29 @@ const LABEL_KO = new Map([
   ["buddhist-temple", "절(사찰)"],
 ]);
 
+/**
+ * **태몽 상징** — 옛 218개 사전에서 옮겨 온 목록(2026-08-31).
+ *
+ * 태몽은 「이 상징의 뜻이 무엇인가」가 아니라 **「이 상징이 태몽으로 전해지는가」**다.
+ * 원문(주공해몽·밀러)은 태몽이라는 갈래 자체를 따로 두지 않으므로 인용으로 세울 수 없고,
+ * 그래서 이것은 **의미가 아니라 표시**다(`isConceptionDream` 주석과 같은 결).
+ *
+ * 옛 사전에 28개가 있었고 그중 **21개만** 옮겼다. 나머지 일곱(고래·진주·사과·계란·밤·
+ * 포도·고추)은 **v2 사전에 그 상징 자체가 없다** — 원문에 표제어가 없기 때문이다.
+ * 없는 상징을 태몽으로 만들려면 인용 없는 항목을 지어내야 하는데, 그것이 이 사전이
+ * 폐기한 옛 사전의 병이다(§21). **없으면 없는 대로 둔다**(사용자 결정 2026-08-31).
+ *
+ * 밀러 나머지 표제어가 들어오며 해당 상징이 생기면 그때 여기 한 줄 더한다.
+ */
+const CONCEPTION_SYMBOL_IDS = new Set([
+  "pig", "snake", "dragon", "tiger", "ox", "horse", "fish", "carp", "turtle",
+  "bear", "deer", "phoenix", "flower", "sun", "moon", "star", "stone",
+  "peach", "jujube", "persimmon", "beads",
+]);
+
+/** 화면·PDF가 이 문자열로 태몽을 가린다(`CONCEPTION_TAG`). */
+const CONCEPTION_TAG = "태몽";
+
 if (!existsSync(EXTRACT_DIR)) {
   console.error(`추출 결과 디렉터리가 없다: ${EXTRACT_DIR}`);
   process.exit(2);
@@ -291,7 +314,17 @@ let seq = 0;
 
 for (const sym of bySymbol.values()) {
   const term_ko = topOf(sym.koVotes, "");
-  const term_en = topOf(sym.enVotes, sym.canonEn);
+  /**
+   * **영어 이름은 다수결이 아니라 대표 이름(`canonEn`)을 쓴다.**
+   *
+   * 다수결로 뽑으면 밀러 표제어의 복수형이 이긴다 — `벌`의 `term_en`이 "bees"가 되고, 그러면
+   * **영어 문장 "a bee stung me"가 그 상징에 안 걸린다**(`findTerm`은 `term_en`과 별칭을
+   * 찾는데 단수 "bee"가 어디에도 없다). 실제로 회귀 하니스가 이 자리를 잡았다(2026-08-31).
+   *
+   * 밀린 변형("bees")은 `km*.json`의 `aliases_en`에 이미 들어 있다 — 그래서 대표 이름으로
+   * 바꿔도 복수형 문장이 안 걸리게 되지는 않는다. 없는 자리는 조립 뒤에 확인해서 채웠다.
+   */
+  const term_en = sym.canonEn || topOf(sym.enVotes, "");
   const category = topOf(sym.catVotes, "object");
   // **id 는 대표 영어 이름으로 짓는다** — 다수결로 고른 표기(bees 등)가 아니라.
   // 그래야 같은 상징이 배치마다 다른 주소를 갖지 않는다.
@@ -322,7 +355,7 @@ for (const sym of bySymbol.values()) {
     category,
     polarity,
     works,
-    tags: [],
+    tags: CONCEPTION_SYMBOL_IDS.has(id) ? [CONCEPTION_TAG] : [],
     weight: 1,
     meanings: sym.meanings,
   });
@@ -371,6 +404,23 @@ if (unlabeled.length > 0) {
  * 조용히 사라진다(JSON 객체의 성질). 이 사전 자체는 배열이라 안전하지만, **다음 단계인
  * 매칭 표 조립이 여기서 깨진다.** 조립을 멈추지는 않되 반드시 눈에 띄게 적는다.
  */
+/**
+ * **태몽 목록의 id가 실제로 있는지 본다.**
+ *
+ * 없는 id를 적어 두면 태그가 조용히 안 붙고, 유료 태몽 리포트가 상징을 못 찾는다 —
+ * 화면에는 아무 오류도 안 뜬다. 「검사 0건은 통과가 아니다」와 같은 자리다(§1).
+ */
+const missingConception = [...CONCEPTION_SYMBOL_IDS].filter(
+  (id) => !symbols.some((s) => s.id === id),
+);
+if (missingConception.length > 0) {
+  console.error(
+    `\n태몽 목록에 있는데 사전에 없는 id ${missingConception.length}개: ${missingConception.join(", ")}`,
+  );
+  console.error("태그가 조용히 안 붙으면 태몽 리포트가 상징을 못 찾는다 — 목록을 고칠 것.");
+  process.exit(1);
+}
+
 const dupContexts = [];
 for (const s of symbols) {
   const seen = new Map();

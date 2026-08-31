@@ -1,4 +1,10 @@
-import { CONCEPTION_TAG, type DreamMeaning, type DreamSymbol } from "@/lib/dream-symbols";
+import {
+  CONCEPTION_TAG,
+  type DreamCite,
+  type DreamMeaning,
+  type DreamSymbol,
+  type DreamWork,
+} from "@/lib/dream-symbols";
 import { TAG_LABELS_EN } from "@/lib/dream-tags";
 import type { Locale } from "@/lib/i18n";
 
@@ -48,39 +54,57 @@ export function meaningText(meaning: DreamMeaning, language: ReadingLanguage): s
 }
 
 /**
- * 이 의미가 전통 해몽인지 일반적인 해석인지 가른다.
+ * 이 의미가 **어느 원문에서 왔는가**의 화면 라벨. 상징 상세·결과 화면이 절 제목에 쓴다.
  *
- * **화면은 이 값으로 절을 나눈다** — 전통(`source`가 없거나 `"tradition"`)과 일반(사람이
- * 검토했지만 전통 근거는 없는 것)을 같은 절에 섞지 않는다. 문구가 아니라 값을 돌려주는
- * 이유는 절 제목·`aria-label`처럼 부르는 자리마다 문구가 다를 수 있어서다.
+ * ## 왜 이 축으로 가르나
+ *
+ * 옛 사전은 `source: "tradition" | "general"`(전통 근거가 있다/없다)로 갈랐다. 그 라벨은
+ * **적기만 하면 참이 되어서** 근거 없는 166개가 "전통"으로 표시돼 있었다(CLAUDE.md §21).
+ * 새 사전은 근거 없는 의미가 아예 없으므로 그 축 자체가 사라졌다 — 지금 가르는 것은
+ * **어느 원문인가**이고, 그 값은 라벨이 아니라 **인용 자체**에서 나온다(`meaningWork`).
+ *
+ * 두 원문은 성격이 다르다. 같은 상징을 정반대로 읽는 자리도 있다(거울이 깨지면 주공해몽은
+ * 부부 이별, 밀러는 가까운 이의 죽음). **섞어 보여 주면 어느 전통의 말인지 알 수 없다.**
  */
-export function meaningSource(meaning: Pick<DreamMeaning, "source">): "tradition" | "general" {
-  return meaning.source === "general" ? "general" : "tradition";
+export function meaningWorkLabel(work: DreamWork, language: ReadingLanguage): string {
+  if (work === "miller") {
+    return language === "ko" ? "밀러 해몽서(1901)" : "Miller's dream book (1901)";
+  }
+  return language === "ko" ? "주공해몽(周公解夢)" : "The Duke of Zhou's dream book";
 }
 
-/** 위 값의 화면 라벨. 상징 상세·결과 화면이 절 제목에 쓴다. */
-export function meaningSourceLabel(
-  source: "tradition" | "general",
-  language: ReadingLanguage,
-): string {
-  if (source === "tradition") {
-    return language === "ko" ? "전통 해몽" : "Traditional";
+/** 절 제목에 쓰는 긴 문구. 「어디에 전해 오는 뜻인가」를 한 줄로 말한다. */
+export function meaningWorkHeading(work: DreamWork, language: ReadingLanguage): string {
+  if (work === "miller") {
+    return language === "ko"
+      ? "서양에 전해 오는 뜻 — 밀러 해몽서(1901)"
+      : "In the Western tradition — Miller's dream book (1901)";
   }
-  return language === "ko" ? "일반적인 해석" : "General interpretation";
+  return language === "ko"
+    ? "동아시아에 전해 오는 뜻 — 주공해몽(周公解夢)"
+    : "In the East Asian tradition — the Duke of Zhou's dream book";
 }
 
 /**
- * 전해 오는 배경 한 줄(`culture_note`).
+ * 화면에 보여 줄 **인용 원문과 그 번역**.
  *
- * **한국어로만 있고 24개뿐이다.** 영어 판이 없으므로 영어로 읽는 사람에게는 아예 보이지
- * 않는다 — 한국어 문장을 그대로 내보내는 것보다 없는 편이 낫다. 지어내는 것은 이 서비스가
- * 가장 경계하는 일이라 여기서 모델을 부르지도 않는다.
+ * ## 옛 `culture_note`를 대신한다
+ *
+ * 옛 사전에는 「전해 오는 배경」이라는 한국어 한 줄이 218개 중 82개에만 있었다. 새 사전은
+ * **모든 의미에 원문 인용이 있으므로** 배경을 따로 적을 필요가 없다 — 근거가 곧 배경이다.
+ *
+ * **한국어 화면에는 번역을, 영어 화면에는 원문만** 보여 준다. 번역문(`translation_ko`)은
+ * 한국어 한 벌뿐이라 영어 화면에 그대로 실으면 한국어가 섞인다(`contextText`와 같은 규칙).
+ * 원문 자체(한문·영문)는 어느 화면에서든 그대로 보여 준다 — **그것이 증거이기 때문이다.**
  */
-export function cultureNote(
-  note: string | undefined,
+export function citeLines(
+  cite: DreamCite,
   language: ReadingLanguage,
-): string | undefined {
-  return language === "ko" ? note : undefined;
+): { original: string; translation?: string } {
+  return {
+    original: cite.original,
+    translation: language === "ko" ? cite.translation_ko : undefined,
+  };
 }
 
 /**

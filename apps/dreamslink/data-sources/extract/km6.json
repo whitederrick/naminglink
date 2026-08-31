@@ -41,7 +41,7 @@
       "불이 강물을 태움": "river stream",
       "불이 산과 들을 태움": "mountain field forest",
       "불이 제 집을 태움": "house home",
-      "불꽃이 활활 타오름": "blazing roaring crackling",
+      "불꽃이 활활 타오름": "blazing roaring crackling blazed",
       "불이 땅에서 솟아남": "ground erupting sprang",
       "불을 들고 길을 감": "carrying walking road torch",
       "큰불이 하늘을 태움": "huge enormous entire vast",
@@ -100,8 +100,10 @@
     "aliases_en": [
       "mountains",
       "peak",
-      "hill",
-      "mountainside"
+      "mountainside",
+      "high hill",
+      "steep hill",
+      "tall hill"
     ],
     "contexts": {
       "산이 해와 달을 물고 있음": "해와 달을물 태양 품고",

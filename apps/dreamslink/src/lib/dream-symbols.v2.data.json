@@ -30,7 +30,15 @@
       "id": "boat",
       "term_ko": "배",
       "term_en": "boat",
-      "aliases": [],
+      "aliases": [
+        "나룻배",
+        "돛단배",
+        "선박",
+        "여객선",
+        "어선",
+        "보트",
+        "뱃머리"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -369,7 +377,13 @@
       "id": "sword",
       "term_ko": "칼",
       "term_en": "sword",
-      "aliases": [],
+      "aliases": [
+        "단검",
+        "장검",
+        "식칼",
+        "도검",
+        "비수"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -712,7 +726,12 @@
       "id": "apparel",
       "term_ko": "옷차림",
       "term_en": "apparel",
-      "aliases": [],
+      "aliases": [
+        "의복",
+        "복장",
+        "옷맵시",
+        "차림새"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -1021,7 +1040,11 @@
       "id": "house",
       "term_ko": "집",
       "term_en": "house",
-      "aliases": [],
+      "aliases": [
+        "주택",
+        "가옥",
+        "저택"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -1331,7 +1354,11 @@
       "id": "well",
       "term_ko": "우물",
       "term_en": "well",
-      "aliases": [],
+      "aliases": [
+        "샘물",
+        "우물가",
+        "두레박"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -1626,7 +1653,11 @@
       "id": "fire",
       "term_ko": "불",
       "term_en": "fire",
-      "aliases": [],
+      "aliases": [
+        "화재",
+        "화염",
+        "불꽃"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -1907,13 +1938,20 @@
       "id": "horse",
       "term_ko": "말",
       "term_en": "horse",
-      "aliases": [],
+      "aliases": [
+        "망아지",
+        "조랑말",
+        "백마",
+        "준마"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -2188,7 +2226,13 @@
       "id": "bridge",
       "term_ko": "다리",
       "term_en": "bridge",
-      "aliases": [],
+      "aliases": [
+        "교량",
+        "돌다리",
+        "구름다리",
+        "육교",
+        "외나무다리"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -2456,7 +2500,12 @@
       "id": "mirror",
       "term_ko": "거울",
       "term_en": "mirror",
-      "aliases": [],
+      "aliases": [
+        "손거울",
+        "전신거울",
+        "화장거울",
+        "경대"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -2481,7 +2530,7 @@
           ]
         },
         {
-          "context": "거울이 깨짐",
+          "context": "깨진 거울을 봄",
           "interpretation_ko": "가까운 사람의 갑작스럽거나 비참한 죽음을 예고하는 조짐",
           "interpretation_en": "a sign foretelling the sudden or violent death of someone related to you",
           "polarity": "negative",
@@ -2724,7 +2773,11 @@
       "id": "clothing",
       "term_ko": "옷",
       "term_en": "clothing",
-      "aliases": [],
+      "aliases": [
+        "의복",
+        "옷가지",
+        "옷차림"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -2983,7 +3036,12 @@
       "id": "door",
       "term_ko": "문",
       "term_en": "door",
-      "aliases": [],
+      "aliases": [
+        "대문",
+        "출입문",
+        "현관문",
+        "문짝"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -3242,13 +3300,20 @@
       "id": "snake",
       "term_ko": "뱀",
       "term_en": "snake",
-      "aliases": [],
+      "aliases": [
+        "구렁이",
+        "독사",
+        "살모사",
+        "능구렁이"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -3481,13 +3546,20 @@
       "id": "sun",
       "term_ko": "해",
       "term_en": "sun",
-      "aliases": [],
+      "aliases": [
+        "태양",
+        "햇빛",
+        "햇살",
+        "해님"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -3720,13 +3792,19 @@
       "id": "dragon",
       "term_ko": "용",
       "term_en": "dragon",
-      "aliases": [],
+      "aliases": [
+        "청룡",
+        "황룡",
+        "이무기"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -3945,7 +4023,11 @@
       "id": "tree",
       "term_ko": "나무",
       "term_en": "tree",
-      "aliases": [],
+      "aliases": [
+        "고목",
+        "거목",
+        "수목"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -4169,8 +4251,11 @@
     {
       "id": "bathing",
       "term_ko": "목욕",
-      "term_en": "bath",
-      "aliases": [],
+      "term_en": "bathing",
+      "aliases": [
+        "샤워",
+        "멱감"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -4382,7 +4467,9 @@
       "id": "sky",
       "term_ko": "하늘",
       "term_en": "sky",
-      "aliases": [],
+      "aliases": [
+        "창공"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -4593,7 +4680,12 @@
       "id": "bird",
       "term_ko": "새",
       "term_en": "bird",
-      "aliases": [],
+      "aliases": [
+        "조류",
+        "날짐승",
+        "산새",
+        "들새"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -4791,7 +4883,11 @@
       "id": "blood",
       "term_ko": "피",
       "term_en": "blood",
-      "aliases": [],
+      "aliases": [
+        "선혈",
+        "핏자국",
+        "출혈"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -4989,13 +5085,21 @@
       "id": "ox",
       "term_ko": "소",
       "term_en": "ox",
-      "aliases": [],
+      "aliases": [
+        "황소",
+        "암소",
+        "젖소",
+        "송아지",
+        "물소"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -5383,7 +5487,10 @@
       "id": "bed",
       "term_ko": "침대",
       "term_en": "bed",
-      "aliases": [],
+      "aliases": [
+        "침대",
+        "평상"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -5567,13 +5674,20 @@
       "id": "moon",
       "term_ko": "달",
       "term_en": "moon",
-      "aliases": [],
+      "aliases": [
+        "달빛",
+        "보름달",
+        "초승달",
+        "월광"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -5750,7 +5864,11 @@
       "id": "banner",
       "term_ko": "깃발",
       "term_en": "banner",
-      "aliases": [],
+      "aliases": [
+        "군기",
+        "깃대",
+        "기치"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -5920,7 +6038,12 @@
       "id": "cart",
       "term_ko": "수레",
       "term_en": "cart",
-      "aliases": [],
+      "aliases": [
+        "마차",
+        "달구지",
+        "구르마",
+        "손수레"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -6075,13 +6198,18 @@
       "id": "fish",
       "term_ko": "물고기",
       "term_en": "fish",
-      "aliases": [],
+      "aliases": [
+        "생선",
+        "어류"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -6236,7 +6364,11 @@
       "id": "mountain",
       "term_ko": "산",
       "term_en": "mountain",
-      "aliases": [],
+      "aliases": [
+        "산속",
+        "봉우리",
+        "산등성이"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -6392,7 +6524,12 @@
       "id": "abandon",
       "term_ko": "버림",
       "term_en": "abandon",
-      "aliases": [],
+      "aliases": [
+        "유기",
+        "내버림",
+        "저버림",
+        "내팽개"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -6533,7 +6670,12 @@
       "id": "actor",
       "term_ko": "배우",
       "term_en": "actor",
-      "aliases": [],
+      "aliases": [
+        "여배우",
+        "연기자",
+        "탤런트",
+        "영화배우"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -6674,7 +6816,12 @@
       "id": "city-wall",
       "term_ko": "성",
       "term_en": "city wall",
-      "aliases": [],
+      "aliases": [
+        "성곽",
+        "성벽",
+        "궁성",
+        "성문"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -6815,7 +6962,12 @@
       "id": "cloud",
       "term_ko": "구름",
       "term_en": "cloud",
-      "aliases": [],
+      "aliases": [
+        "먹구름",
+        "오색구름",
+        "뭉게구름",
+        "구름떼"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -6956,7 +7108,13 @@
       "id": "grave",
       "term_ko": "무덤",
       "term_en": "grave",
-      "aliases": [],
+      "aliases": [
+        "묘지",
+        "산소",
+        "봉분",
+        "무덤가",
+        "묫자리"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -7097,7 +7255,12 @@
       "id": "outhouse",
       "term_ko": "뒷간",
       "term_en": "outhouse",
-      "aliases": [],
+      "aliases": [
+        "변소",
+        "화장실",
+        "측간",
+        "해우소"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -7238,7 +7401,14 @@
       "id": "thief",
       "term_ko": "도둑",
       "term_en": "thief",
-      "aliases": [],
+      "aliases": [
+        "도둑",
+        "강도",
+        "산적",
+        "도적떼",
+        "도적",
+        "절도"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -7380,7 +7550,12 @@
       "id": "abdomen",
       "term_ko": "배",
       "term_en": "abdomen",
-      "aliases": [],
+      "aliases": [
+        "복부",
+        "아랫배",
+        "윗배",
+        "뱃속"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -7505,7 +7680,10 @@
       "id": "axe",
       "term_ko": "도끼",
       "term_en": "axe",
-      "aliases": [],
+      "aliases": [
+        "손도끼",
+        "도끼날"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -7633,7 +7811,9 @@
       "id": "beard",
       "term_ko": "수염",
       "term_en": "beard",
-      "aliases": [],
+      "aliases": [
+        "구레나룻"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -7760,8 +7940,12 @@
     {
       "id": "bee",
       "term_ko": "벌",
-      "term_en": "bees",
-      "aliases": [],
+      "term_en": "bee",
+      "aliases": [
+        "꿀벌",
+        "말벌",
+        "벌떼"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -7882,8 +8066,13 @@
     {
       "id": "buddha",
       "term_ko": "부처",
-      "term_en": "Buddha",
-      "aliases": [],
+      "term_en": "buddha",
+      "aliases": [
+        "불상",
+        "석가",
+        "여래",
+        "부처님"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -8010,7 +8199,11 @@
       "id": "coffin",
       "term_ko": "관",
       "term_en": "coffin",
-      "aliases": [],
+      "aliases": [
+        "관짝",
+        "목관",
+        "관곽"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -8137,7 +8330,11 @@
       "id": "deity",
       "term_ko": "신",
       "term_en": "deity",
-      "aliases": [],
+      "aliases": [
+        "신령",
+        "신령님",
+        "산신령"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -8264,7 +8461,12 @@
       "id": "feces",
       "term_ko": "똥",
       "term_en": "feces",
-      "aliases": [],
+      "aliases": [
+        "대변",
+        "배설물",
+        "인분",
+        "똥오줌"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -8397,7 +8599,12 @@
       "id": "hair",
       "term_ko": "머리카락",
       "term_en": "hair",
-      "aliases": [],
+      "aliases": [
+        "머리털",
+        "머리칼",
+        "두발",
+        "모발"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -8524,7 +8731,12 @@
       "id": "prison",
       "term_ko": "감옥",
       "term_en": "prison",
-      "aliases": [],
+      "aliases": [
+        "감방",
+        "옥살이",
+        "교도소",
+        "형무소"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -8651,7 +8863,12 @@
       "id": "rice-plant",
       "term_ko": "벼",
       "term_en": "rice plant",
-      "aliases": [],
+      "aliases": [
+        "볏단",
+        "나락",
+        "이삭",
+        "볏모"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -8778,7 +8995,15 @@
       "id": "shoes",
       "term_ko": "신발",
       "term_en": "shoes",
-      "aliases": [],
+      "aliases": [
+        "구두",
+        "운동화",
+        "짚신",
+        "나막신",
+        "고무신",
+        "슬리퍼",
+        "샌들"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -8905,13 +9130,20 @@
       "id": "star",
       "term_ko": "별",
       "term_en": "star",
-      "aliases": [],
+      "aliases": [
+        "별빛",
+        "별들",
+        "샛별",
+        "별자리"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -9032,7 +9264,11 @@
       "id": "straw-mat",
       "term_ko": "돗자리",
       "term_en": "straw mat",
-      "aliases": [],
+      "aliases": [
+        "멍석",
+        "삿자리",
+        "깔개"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -9159,7 +9395,11 @@
       "id": "acorn",
       "term_ko": "도토리",
       "term_en": "acorn",
-      "aliases": [],
+      "aliases": [
+        "상수리",
+        "꿀밤",
+        "도토리묵"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -9272,7 +9512,12 @@
       "id": "apples",
       "term_ko": "사과",
       "term_en": "apples",
-      "aliases": [],
+      "aliases": [
+        "능금",
+        "홍옥",
+        "아오리",
+        "사과나무"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -9385,7 +9630,11 @@
       "id": "bed-curtain",
       "term_ko": "침상 휘장",
       "term_en": "bed curtain",
-      "aliases": [],
+      "aliases": [
+        "휘장",
+        "장막",
+        "커튼"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -9498,7 +9747,12 @@
       "id": "belt",
       "term_ko": "허리띠",
       "term_en": "belt",
-      "aliases": [],
+      "aliases": [
+        "혁대",
+        "벨트",
+        "허리끈",
+        "허리춤"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -9609,8 +9863,12 @@
     {
       "id": "book",
       "term_ko": "책",
-      "term_en": "books",
-      "aliases": [],
+      "term_en": "book",
+      "aliases": [
+        "서적",
+        "책자",
+        "경서"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -9724,7 +9982,11 @@
       "id": "bride",
       "term_ko": "신부",
       "term_en": "bride",
-      "aliases": [],
+      "aliases": [
+        "새색시",
+        "색시",
+        "웨딩드레스"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -9837,7 +10099,13 @@
       "id": "hat",
       "term_ko": "모자",
       "term_en": "hat",
-      "aliases": [],
+      "aliases": [
+        "관모",
+        "두건",
+        "벙거지",
+        "중절모",
+        "야구모자"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -9950,7 +10218,12 @@
       "id": "illness",
       "term_ko": "병",
       "term_en": "illness",
-      "aliases": [],
+      "aliases": [
+        "질병",
+        "병환",
+        "질환",
+        "몸살"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -10063,7 +10336,10 @@
       "id": "kitchen-stove",
       "term_ko": "부뚜막",
       "term_en": "kitchen stove",
-      "aliases": [],
+      "aliases": [
+        "아궁이",
+        "화덕"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -10176,7 +10452,13 @@
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
-      "aliases": [],
+      "aliases": [
+        "소주",
+        "막걸리",
+        "맥주",
+        "청주",
+        "음주"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -10289,7 +10571,10 @@
       "id": "married-couple",
       "term_ko": "부부",
       "term_en": "married couple",
-      "aliases": [],
+      "aliases": [
+        "내외",
+        "신혼부부"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -10402,7 +10687,12 @@
       "id": "sheep",
       "term_ko": "양",
       "term_en": "sheep",
-      "aliases": [],
+      "aliases": [
+        "양떼",
+        "면양",
+        "숫양",
+        "암양"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -10515,7 +10805,12 @@
       "id": "basin",
       "term_ko": "동이",
       "term_en": "basin",
-      "aliases": [],
+      "aliases": [
+        "항아리",
+        "물동이",
+        "단지",
+        "질그릇"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -10615,7 +10910,10 @@
       "id": "bedbugs",
       "term_ko": "빈대",
       "term_en": "bedbugs",
-      "aliases": [],
+      "aliases": [
+        "베드버그",
+        "침대벌레"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -10708,7 +11006,9 @@
       "id": "donkey",
       "term_ko": "당나귀",
       "term_en": "donkey",
-      "aliases": [],
+      "aliases": [
+        "당나귀"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -10808,7 +11108,13 @@
       "id": "field",
       "term_ko": "밭",
       "term_en": "field",
-      "aliases": [],
+      "aliases": [
+        "텃밭",
+        "논밭",
+        "농지",
+        "경작지",
+        "전답"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -10907,7 +11213,11 @@
       "id": "ground",
       "term_ko": "땅",
       "term_en": "ground",
-      "aliases": [],
+      "aliases": [
+        "대지",
+        "지면",
+        "토지"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -11006,7 +11316,12 @@
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
-      "aliases": [],
+      "aliases": [
+        "백미",
+        "흰쌀",
+        "멥쌀",
+        "쌀알"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -11105,13 +11420,19 @@
       "id": "stone",
       "term_ko": "돌",
       "term_en": "stone",
-      "aliases": [],
+      "aliases": [
+        "바위",
+        "돌멩이",
+        "자갈"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -11204,7 +11525,12 @@
       "id": "woman",
       "term_ko": "여자",
       "term_en": "woman",
-      "aliases": [],
+      "aliases": [
+        "여인",
+        "여성",
+        "아낙",
+        "부인"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -11303,7 +11629,11 @@
       "id": "acquaintance",
       "term_ko": "지인",
       "term_en": "acquaintance",
-      "aliases": [],
+      "aliases": [
+        "아는 사람",
+        "친지",
+        "안면 있는 사람"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -11388,7 +11718,12 @@
       "id": "adultery",
       "term_ko": "간통",
       "term_en": "adultery",
-      "aliases": [],
+      "aliases": [
+        "불륜",
+        "외도",
+        "바람피",
+        "정사"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -11473,7 +11808,11 @@
       "id": "age",
       "term_ko": "나이",
       "term_en": "age",
-      "aliases": [],
+      "aliases": [
+        "몇 살",
+        "나잇살",
+        "연배"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -11558,7 +11897,12 @@
       "id": "amorous",
       "term_ko": "색정",
       "term_en": "amorous",
-      "aliases": [],
+      "aliases": [
+        "음탕",
+        "색욕",
+        "호색",
+        "정욕"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -11643,7 +11987,12 @@
       "id": "baby",
       "term_ko": "아기",
       "term_en": "baby",
-      "aliases": [],
+      "aliases": [
+        "갓난아이",
+        "젖먹이",
+        "신생아",
+        "아가"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -11728,7 +12077,11 @@
       "id": "baldness",
       "term_ko": "대머리",
       "term_en": "baldness",
-      "aliases": [],
+      "aliases": [
+        "탈모",
+        "민머리",
+        "벗겨진 머리"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -11813,7 +12166,11 @@
       "id": "baptism",
       "term_ko": "세례",
       "term_en": "baptism",
-      "aliases": [],
+      "aliases": [
+        "침례",
+        "영세",
+        "세례명"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -11898,7 +12255,11 @@
       "id": "beef",
       "term_ko": "소고기",
       "term_en": "beef",
-      "aliases": [],
+      "aliases": [
+        "소고기",
+        "우육",
+        "한우"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -11980,7 +12341,14 @@
       "id": "being-beaten",
       "term_ko": "매맞음",
       "term_en": "being beaten",
-      "aliases": [],
+      "aliases": [
+        "구타",
+        "얻어맞",
+        "두들겨",
+        "매질",
+        "얻어맞음",
+        "구타당함"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -12065,7 +12433,10 @@
       "id": "bracelet",
       "term_ko": "팔찌",
       "term_en": "bracelet",
-      "aliases": [],
+      "aliases": [
+        "브레이슬릿",
+        "손목띠"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -12151,7 +12522,11 @@
       "id": "break",
       "term_ko": "파손",
       "term_en": "break",
-      "aliases": [],
+      "aliases": [
+        "파괴",
+        "고장",
+        "망가짐"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -12236,7 +12611,10 @@
       "id": "bronze",
       "term_ko": "청동",
       "term_en": "bronze",
-      "aliases": [],
+      "aliases": [
+        "구리",
+        "놋쇠"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -12321,7 +12699,11 @@
       "id": "broth",
       "term_ko": "국물",
       "term_en": "broth",
-      "aliases": [],
+      "aliases": [
+        "수프",
+        "스프",
+        "고깃국"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -12406,7 +12788,11 @@
       "id": "brush",
       "term_ko": "솔",
       "term_en": "brush",
-      "aliases": [],
+      "aliases": [
+        "빗자루",
+        "구둣솔",
+        "머리빗"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -12491,7 +12877,11 @@
       "id": "chicken",
       "term_ko": "닭",
       "term_en": "chicken",
-      "aliases": [],
+      "aliases": [
+        "수탉",
+        "암탉",
+        "병아리"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -12576,7 +12966,9 @@
       "id": "crane",
       "term_ko": "학",
       "term_en": "crane",
-      "aliases": [],
+      "aliases": [
+        "두루미"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -12661,7 +13053,12 @@
       "id": "dead-person",
       "term_ko": "죽은 사람",
       "term_en": "dead person",
-      "aliases": [],
+      "aliases": [
+        "시신",
+        "시체",
+        "망자",
+        "고인"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -12746,7 +13143,10 @@
       "id": "drum",
       "term_ko": "북",
       "term_en": "drum",
-      "aliases": [],
+      "aliases": [
+        "북소리",
+        "큰북"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -12830,8 +13230,12 @@
     {
       "id": "feast",
       "term_ko": "잔치",
-      "term_en": "banquet",
-      "aliases": [],
+      "term_en": "feast",
+      "aliases": [
+        "연회",
+        "축하연",
+        "회식"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -12917,7 +13321,13 @@
       "id": "king",
       "term_ko": "임금",
       "term_en": "king",
-      "aliases": [],
+      "aliases": [
+        "국왕",
+        "군주",
+        "황제",
+        "폐하",
+        "왕이"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -13002,7 +13412,11 @@
       "id": "mouse",
       "term_ko": "쥐",
       "term_en": "mouse",
-      "aliases": [],
+      "aliases": [
+        "생쥐",
+        "들쥐",
+        "시궁쥐"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -13087,13 +13501,17 @@
       "id": "pig",
       "term_ko": "돼지",
       "term_en": "pig",
-      "aliases": [],
+      "aliases": [
+        "도야지"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -13178,7 +13596,14 @@
       "id": "shackles",
       "term_ko": "족쇄",
       "term_en": "shackles",
-      "aliases": [],
+      "aliases": [
+        "사슬",
+        "쇠줄",
+        "차꼬",
+        "형틀",
+        "쇠고랑",
+        "수갑"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -13263,7 +13688,12 @@
       "id": "snow",
       "term_ko": "눈",
       "term_en": "snow",
-      "aliases": [],
+      "aliases": [
+        "함박눈",
+        "폭설",
+        "눈보라",
+        "눈발"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -13348,13 +13778,18 @@
       "id": "tiger",
       "term_ko": "호랑이",
       "term_en": "tiger",
-      "aliases": [],
+      "aliases": [
+        "백호",
+        "호랭이"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -13433,13 +13868,18 @@
       "id": "turtle",
       "term_ko": "거북",
       "term_en": "turtle",
-      "aliases": [],
+      "aliases": [
+        "남생이",
+        "자라"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -13518,7 +13958,12 @@
       "id": "weeping",
       "term_ko": "울음",
       "term_en": "weeping",
-      "aliases": [],
+      "aliases": [
+        "통곡",
+        "눈물",
+        "흐느",
+        "오열"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -13603,7 +14048,12 @@
       "id": "wind",
       "term_ko": "바람",
       "term_en": "wind",
-      "aliases": [],
+      "aliases": [
+        "강풍",
+        "돌풍",
+        "태풍",
+        "회오리"
+      ],
       "category": "nature",
       "polarity": "neutral",
       "works": [
@@ -13688,7 +14138,11 @@
       "id": "abbey",
       "term_ko": "수도원",
       "term_en": "abbey",
-      "aliases": [],
+      "aliases": [
+        "수녀원",
+        "암자",
+        "승원"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -13759,7 +14213,10 @@
       "id": "abbot",
       "term_ko": "수도원장",
       "term_en": "abbot",
-      "aliases": [],
+      "aliases": [
+        "대수도원장",
+        "원장 신부"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -13830,7 +14287,12 @@
       "id": "abode",
       "term_ko": "거처",
       "term_en": "abode",
-      "aliases": [],
+      "aliases": [
+        "살 곳",
+        "머물 곳",
+        "보금자리",
+        "처소"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -13901,7 +14363,11 @@
       "id": "abuse",
       "term_ko": "학대",
       "term_en": "abuse",
-      "aliases": [],
+      "aliases": [
+        "폭언",
+        "괴롭힘",
+        "가혹행위"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -13972,7 +14438,12 @@
       "id": "academy",
       "term_ko": "학교",
       "term_en": "academy",
-      "aliases": [],
+      "aliases": [
+        "학원",
+        "아카데미",
+        "교육원",
+        "모교"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -14043,7 +14514,11 @@
       "id": "accounts",
       "term_ko": "청구서",
       "term_en": "accounts",
-      "aliases": [],
+      "aliases": [
+        "계산서",
+        "고지서",
+        "외상값"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -14114,7 +14589,12 @@
       "id": "ache",
       "term_ko": "통증",
       "term_en": "ache",
-      "aliases": [],
+      "aliases": [
+        "아픔",
+        "쑤시",
+        "욱신",
+        "저림"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -14185,7 +14665,12 @@
       "id": "acrobat",
       "term_ko": "곡예사",
       "term_en": "acrobat",
-      "aliases": [],
+      "aliases": [
+        "곡예",
+        "서커스",
+        "재주꾼",
+        "광대"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -14256,7 +14741,11 @@
       "id": "addition",
       "term_ko": "덧셈",
       "term_en": "addition",
-      "aliases": [],
+      "aliases": [
+        "더하기",
+        "합산",
+        "셈하"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -14327,7 +14816,12 @@
       "id": "adieu",
       "term_ko": "작별 인사",
       "term_en": "adieu",
-      "aliases": [],
+      "aliases": [
+        "작별",
+        "이별",
+        "고별",
+        "안녕히"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -14398,7 +14892,11 @@
       "id": "air",
       "term_ko": "공기",
       "term_en": "air",
-      "aliases": [],
+      "aliases": [
+        "대기",
+        "숨결",
+        "산소"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -14541,7 +15039,11 @@
       "id": "angels",
       "term_ko": "천사",
       "term_en": "angels",
-      "aliases": [],
+      "aliases": [
+        "수호천사",
+        "천사들",
+        "날개 달린 존재"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -14612,7 +15114,10 @@
       "id": "anvil",
       "term_ko": "모루",
       "term_en": "anvil",
-      "aliases": [],
+      "aliases": [
+        "대장간",
+        "쇠모루"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -14683,7 +15188,10 @@
       "id": "apricot",
       "term_ko": "살구",
       "term_en": "apricot",
-      "aliases": [],
+      "aliases": [
+        "살구꽃",
+        "살구나무"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -14754,7 +15262,10 @@
       "id": "army",
       "term_ko": "군대",
       "term_en": "army",
-      "aliases": [],
+      "aliases": [
+        "부대",
+        "병영"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -14825,7 +15336,11 @@
       "id": "atonement",
       "term_ko": "속죄",
       "term_en": "atonement",
-      "aliases": [],
+      "aliases": [
+        "참회",
+        "회개",
+        "죄를 씻"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -14896,7 +15411,12 @@
       "id": "automobile",
       "term_ko": "자동차",
       "term_en": "automobile",
-      "aliases": [],
+      "aliases": [
+        "승용차",
+        "택시",
+        "자가용",
+        "차량"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -14967,7 +15487,11 @@
       "id": "bacon",
       "term_ko": "베이컨",
       "term_en": "bacon",
-      "aliases": [],
+      "aliases": [
+        "삼겹살",
+        "훈제 고기",
+        "돼지 뱃살"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15038,7 +15562,11 @@
       "id": "banana",
       "term_ko": "바나나",
       "term_en": "banana",
-      "aliases": [],
+      "aliases": [
+        "바나나 다발",
+        "바나나 껍질",
+        "바나나 송이"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -15109,7 +15637,12 @@
       "id": "bank",
       "term_ko": "은행",
       "term_en": "bank",
-      "aliases": [],
+      "aliases": [
+        "은행 창구",
+        "은행 금고",
+        "예금",
+        "은행에 감"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15250,7 +15783,7 @@
     {
       "id": "bat",
       "term_ko": "박쥐",
-      "term_en": "bats",
+      "term_en": "bat",
       "aliases": [],
       "category": "animal",
       "polarity": "negative",
@@ -15323,7 +15856,12 @@
       "id": "beacon-light",
       "term_ko": "등대 불빛",
       "term_en": "beacon light",
-      "aliases": [],
+      "aliases": [
+        "등대",
+        "봉화",
+        "등댓불",
+        "신호 불빛"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15394,13 +15932,20 @@
       "id": "beads",
       "term_ko": "구슬",
       "term_en": "beads",
-      "aliases": [],
+      "aliases": [
+        "염주",
+        "묵주",
+        "유리구슬",
+        "구슬 목걸이"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
         "miller"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -15465,14 +16010,20 @@
       "id": "bear",
       "term_ko": "곰",
       "term_en": "bear",
-      "aliases": [],
+      "aliases": [
+        "반달곰",
+        "불곰",
+        "흑곰"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "miller",
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -15536,8 +16087,12 @@
     {
       "id": "bell",
       "term_ko": "종",
-      "term_en": "bells",
-      "aliases": [],
+      "term_en": "bell",
+      "aliases": [
+        "종소리",
+        "범종",
+        "쇠북"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15607,7 +16162,11 @@
       "id": "bellows",
       "term_ko": "풀무",
       "term_en": "bellows",
-      "aliases": [],
+      "aliases": [
+        "풀무질",
+        "대장간 바람통",
+        "손풀무"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15674,7 +16233,12 @@
       "id": "bird-s-nest",
       "term_ko": "새 둥지",
       "term_en": "bird's nest",
-      "aliases": [],
+      "aliases": [
+        "둥지",
+        "새집",
+        "보금자리",
+        "새 둥우리"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -15745,7 +16309,12 @@
       "id": "bishop",
       "term_ko": "주교",
       "term_en": "bishop",
-      "aliases": [],
+      "aliases": [
+        "대주교",
+        "성직자",
+        "감독",
+        "주교님"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -15816,7 +16385,10 @@
       "id": "blanket",
       "term_ko": "담요",
       "term_en": "blanket",
-      "aliases": [],
+      "aliases": [
+        "모포",
+        "무릎담요"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15888,7 +16460,12 @@
       "id": "bonnet",
       "term_ko": "보닛(모자)",
       "term_en": "bonnet",
-      "aliases": [],
+      "aliases": [
+        "여성용 모자",
+        "챙 모자",
+        "머릿수건",
+        "차양 모자"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -15959,7 +16536,12 @@
       "id": "bosom",
       "term_ko": "가슴",
       "term_en": "bosom",
-      "aliases": [],
+      "aliases": [
+        "젖가슴",
+        "앞가슴",
+        "가슴팍",
+        "품속"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -16030,7 +16612,10 @@
       "id": "bow",
       "term_ko": "활",
       "term_en": "bow",
-      "aliases": [],
+      "aliases": [
+        "쇠뇌",
+        "석궁"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16101,7 +16686,9 @@
       "id": "box",
       "term_ko": "상자",
       "term_en": "box",
-      "aliases": [],
+      "aliases": [
+        "궤짝"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16173,7 +16760,12 @@
       "id": "bread",
       "term_ko": "빵",
       "term_en": "bread",
-      "aliases": [],
+      "aliases": [
+        "식빵",
+        "빵조각",
+        "빵 한 덩이",
+        "밀빵"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16244,7 +16836,12 @@
       "id": "breakfast",
       "term_ko": "아침 식사",
       "term_en": "breakfast",
-      "aliases": [],
+      "aliases": [
+        "아침밥",
+        "조식",
+        "아침 상",
+        "아침을 먹"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -16315,7 +16912,12 @@
       "id": "bull",
       "term_ko": "황소",
       "term_en": "bull",
-      "aliases": [],
+      "aliases": [
+        "수소",
+        "싸움소",
+        "투우",
+        "황소가 달려"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -16386,7 +16988,11 @@
       "id": "cauldron",
       "term_ko": "솥",
       "term_en": "cauldron",
-      "aliases": [],
+      "aliases": [
+        "가마솥",
+        "솥단지",
+        "무쇠솥"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16456,8 +17062,12 @@
     {
       "id": "fishing",
       "term_ko": "낚시",
-      "term_en": "angling",
-      "aliases": [],
+      "term_en": "fishing",
+      "aliases": [
+        "고기잡이",
+        "낚싯대",
+        "낚시질"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -16529,7 +17139,12 @@
       "id": "grain",
       "term_ko": "곡식",
       "term_en": "grain",
-      "aliases": [],
+      "aliases": [
+        "알곡",
+        "낟알",
+        "양곡",
+        "잡곡"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -16600,7 +17215,12 @@
       "id": "grass",
       "term_ko": "풀",
       "term_en": "grass",
-      "aliases": [],
+      "aliases": [
+        "잡초",
+        "풀밭",
+        "수풀",
+        "잔디"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -16671,7 +17291,11 @@
       "id": "hairpin",
       "term_ko": "비녀",
       "term_en": "hairpin",
-      "aliases": [],
+      "aliases": [
+        "금비녀",
+        "은비녀",
+        "머리핀"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16742,7 +17366,12 @@
       "id": "immortal",
       "term_ko": "신선",
       "term_en": "immortal",
-      "aliases": [],
+      "aliases": [
+        "선인",
+        "도인",
+        "선녀",
+        "신령"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -16813,7 +17442,12 @@
       "id": "insect",
       "term_ko": "벌레",
       "term_en": "insect",
-      "aliases": [],
+      "aliases": [
+        "곤충",
+        "구더기",
+        "애벌레",
+        "송충이"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -16885,7 +17519,11 @@
       "id": "jade",
       "term_ko": "옥",
       "term_en": "jade",
-      "aliases": [],
+      "aliases": [
+        "구슬",
+        "옥돌",
+        "보석"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -16956,7 +17594,12 @@
       "id": "money",
       "term_ko": "돈",
       "term_en": "money",
-      "aliases": [],
+      "aliases": [
+        "금전",
+        "현금",
+        "지폐",
+        "동전"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -17027,7 +17670,10 @@
       "id": "official-robe",
       "term_ko": "관복",
       "term_en": "official robe",
-      "aliases": [],
+      "aliases": [
+        "예복",
+        "조복"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -17098,7 +17744,14 @@
       "id": "rain",
       "term_ko": "비",
       "term_en": "rain",
-      "aliases": [],
+      "aliases": [
+        "빗물",
+        "소나기",
+        "장맛비",
+        "폭우",
+        "빗줄기",
+        "장대비"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -17169,7 +17822,12 @@
       "id": "river",
       "term_ko": "강",
       "term_en": "river",
-      "aliases": [],
+      "aliases": [
+        "강물",
+        "하천",
+        "냇물",
+        "강가"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -17240,7 +17898,14 @@
       "id": "road",
       "term_ko": "길",
       "term_en": "road",
-      "aliases": [],
+      "aliases": [
+        "도로",
+        "골목",
+        "큰길",
+        "갈림길",
+        "길목",
+        "오솔길"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -17311,7 +17976,10 @@
       "id": "silk",
       "term_ko": "비단",
       "term_en": "silk",
-      "aliases": [],
+      "aliases": [
+        "실크",
+        "비단천"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -17381,8 +18049,12 @@
     {
       "id": "soybean",
       "term_ko": "콩",
-      "term_en": "beans",
-      "aliases": [],
+      "term_en": "soybean",
+      "aliases": [
+        "메주콩",
+        "콩밭",
+        "콩알"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -17454,7 +18126,12 @@
       "id": "storehouse",
       "term_ko": "창고",
       "term_en": "storehouse",
-      "aliases": [],
+      "aliases": [
+        "곳간",
+        "곡간",
+        "저장고",
+        "헛간"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -17596,7 +18273,12 @@
       "id": "abhor",
       "term_ko": "혐오",
       "term_en": "abhor",
-      "aliases": [],
+      "aliases": [
+        "싫어함",
+        "역겨움",
+        "미움",
+        "질색"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -17653,7 +18335,12 @@
       "id": "above",
       "term_ko": "머리 위의 물체",
       "term_en": "above",
-      "aliases": [],
+      "aliases": [
+        "머리 위",
+        "위에 매달린 것",
+        "천장의 물체",
+        "위쪽"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -17710,7 +18397,11 @@
       "id": "absinthe",
       "term_ko": "압생트",
       "term_en": "absinthe",
-      "aliases": [],
+      "aliases": [
+        "압생트 술",
+        "독한 술",
+        "쑥술"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -17767,7 +18458,12 @@
       "id": "abyss",
       "term_ko": "심연",
       "term_en": "abyss",
-      "aliases": [],
+      "aliases": [
+        "나락",
+        "낭떠러지",
+        "깊은 구렁",
+        "끝없는 구덩이"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -17824,7 +18520,11 @@
       "id": "accordion",
       "term_ko": "아코디언",
       "term_en": "accordion",
-      "aliases": [],
+      "aliases": [
+        "손풍금",
+        "풍금",
+        "아코디언 연주"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -17881,7 +18581,12 @@
       "id": "acid",
       "term_ko": "산",
       "term_en": "acid",
-      "aliases": [],
+      "aliases": [
+        "산성",
+        "황산",
+        "염산",
+        "산성 액체"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -17939,7 +18644,11 @@
       "id": "adam-and-eve",
       "term_ko": "아담과 이브",
       "term_en": "adam and eve",
-      "aliases": [],
+      "aliases": [
+        "아담",
+        "에덴동산",
+        "최초의 남녀"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -17996,7 +18705,11 @@
       "id": "adder",
       "term_ko": "독사",
       "term_en": "adder",
-      "aliases": [],
+      "aliases": [
+        "살무사",
+        "독뱀",
+        "독을 가진 뱀"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -18053,7 +18766,12 @@
       "id": "afraid",
       "term_ko": "두려움",
       "term_en": "afraid",
-      "aliases": [],
+      "aliases": [
+        "무서움",
+        "겁남",
+        "공포",
+        "무서워"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -18110,7 +18828,12 @@
       "id": "alabaster",
       "term_ko": "설화석고",
       "term_en": "alabaster",
-      "aliases": [],
+      "aliases": [
+        "설화 석고",
+        "석고",
+        "흰 돌",
+        "석고 조각"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -18167,7 +18890,12 @@
       "id": "alien",
       "term_ko": "이방인",
       "term_en": "alien",
-      "aliases": [],
+      "aliases": [
+        "낯선 사람",
+        "외국인",
+        "이국 사람",
+        "타지 사람"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -18224,7 +18952,11 @@
       "id": "alum",
       "term_ko": "백반",
       "term_en": "alum",
-      "aliases": [],
+      "aliases": [
+        "명반",
+        "백반 가루",
+        "떫은 가루"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -18281,7 +19013,12 @@
       "id": "amateur",
       "term_ko": "아마추어 배우",
       "term_en": "amateur",
-      "aliases": [],
+      "aliases": [
+        "아마추어",
+        "연극 배우",
+        "무대 배우",
+        "풋내기 배우"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -18338,7 +19075,11 @@
       "id": "amputation",
       "term_ko": "절단",
       "term_en": "amputation",
-      "aliases": [],
+      "aliases": [
+        "잘라냈",
+        "잘려나갔",
+        "팔다리를 잃"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -18395,7 +19136,11 @@
       "id": "anchor",
       "term_ko": "닻",
       "term_en": "anchor",
-      "aliases": [],
+      "aliases": [
+        "닻줄",
+        "앵커",
+        "쇠닻"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -18452,7 +19197,11 @@
       "id": "arch",
       "term_ko": "아치",
       "term_en": "arch",
-      "aliases": [],
+      "aliases": [
+        "아치형",
+        "홍예",
+        "아치문"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -18509,7 +19258,11 @@
       "id": "archbishop",
       "term_ko": "대주교",
       "term_en": "archbishop",
-      "aliases": [],
+      "aliases": [
+        "주교",
+        "성직자",
+        "추기경"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -18566,7 +19319,10 @@
       "id": "arrow",
       "term_ko": "화살",
       "term_en": "arrow",
-      "aliases": [],
+      "aliases": [
+        "화살촉",
+        "활과 화살"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -18624,7 +19380,10 @@
       "id": "asp",
       "term_ko": "살모사",
       "term_en": "asp",
-      "aliases": [],
+      "aliases": [
+        "독사",
+        "코브라"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -18681,7 +19440,11 @@
       "id": "assassin",
       "term_ko": "암살자",
       "term_en": "assassin",
-      "aliases": [],
+      "aliases": [
+        "자객",
+        "살인청부",
+        "암살범"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -18738,7 +19501,11 @@
       "id": "auction",
       "term_ko": "경매",
       "term_en": "auction",
-      "aliases": [],
+      "aliases": [
+        "경매장",
+        "낙찰",
+        "입찰"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -18795,7 +19562,11 @@
       "id": "back",
       "term_ko": "등",
       "term_en": "back",
-      "aliases": [],
+      "aliases": [
+        "등짝",
+        "등허리",
+        "잔등"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -18852,7 +19623,10 @@
       "id": "baghavad-gitta",
       "term_ko": "바가바드기타",
       "term_en": "baghavad gitta",
-      "aliases": [],
+      "aliases": [
+        "힌두 경전",
+        "인도 경전"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -18909,7 +19683,12 @@
       "id": "beauty",
       "term_ko": "아름다움",
       "term_en": "beauty",
-      "aliases": [],
+      "aliases": [
+        "미모",
+        "아름다운",
+        "예쁜",
+        "미인"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -18966,7 +19745,11 @@
       "id": "bedfellow",
       "term_ko": "잠자리 동무",
       "term_en": "bedfellow",
-      "aliases": [],
+      "aliases": [
+        "동침",
+        "같이 자는 사람",
+        "옆에서 자는"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -19020,7 +19803,11 @@
       "id": "beer",
       "term_ko": "맥주",
       "term_en": "beer",
-      "aliases": [],
+      "aliases": [
+        "생맥주",
+        "호프",
+        "에일"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -19074,7 +19861,10 @@
       "id": "beets",
       "term_ko": "사탕무",
       "term_en": "beets",
-      "aliases": [],
+      "aliases": [
+        "붉은무",
+        "비트"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -19128,7 +19918,11 @@
       "id": "beggar",
       "term_ko": "거지",
       "term_en": "beggar",
-      "aliases": [],
+      "aliases": [
+        "동냥",
+        "걸인",
+        "노숙자"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -19182,7 +19976,11 @@
       "id": "belladonna",
       "term_ko": "벨라도나",
       "term_en": "belladonna",
-      "aliases": [],
+      "aliases": [
+        "독말풀",
+        "가지과 독초",
+        "아트로파"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -19236,7 +20034,11 @@
       "id": "billiards",
       "term_ko": "당구",
       "term_en": "billiards",
-      "aliases": [],
+      "aliases": [
+        "당구장",
+        "포켓볼",
+        "큐대"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -19293,7 +20095,11 @@
       "id": "blackberry",
       "term_ko": "블랙베리",
       "term_en": "blackberry",
-      "aliases": [],
+      "aliases": [
+        "산딸기",
+        "검은 딸기",
+        "복분자"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -19350,7 +20156,11 @@
       "id": "blasphemy",
       "term_ko": "신성모독",
       "term_en": "blasphemy",
-      "aliases": [],
+      "aliases": [
+        "불경",
+        "모독",
+        "신을 욕"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -19407,7 +20217,11 @@
       "id": "blow",
       "term_ko": "타격",
       "term_en": "blow",
-      "aliases": [],
+      "aliases": [
+        "구타",
+        "때림",
+        "얻어맞"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -19464,7 +20278,12 @@
       "id": "boil",
       "term_ko": "종기",
       "term_en": "boil",
-      "aliases": [],
+      "aliases": [
+        "부스럼",
+        "고름집",
+        "뾰루지",
+        "농양"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -19521,7 +20340,11 @@
       "id": "boots",
       "term_ko": "부츠",
       "term_en": "boots",
-      "aliases": [],
+      "aliases": [
+        "장화",
+        "가죽신",
+        "목이 긴 신"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -19578,7 +20401,11 @@
       "id": "borrowing",
       "term_ko": "빌림",
       "term_en": "borrowing",
-      "aliases": [],
+      "aliases": [
+        "빌려",
+        "대출",
+        "차용"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -19635,7 +20462,11 @@
       "id": "brain",
       "term_ko": "뇌",
       "term_en": "brain",
-      "aliases": [],
+      "aliases": [
+        "두뇌",
+        "뇌수",
+        "머릿골"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -19692,7 +20523,11 @@
       "id": "breath",
       "term_ko": "숨결",
       "term_en": "breath",
-      "aliases": [],
+      "aliases": [
+        "입김",
+        "호흡",
+        "날숨"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -19749,7 +20584,11 @@
       "id": "bridle",
       "term_ko": "굴레",
       "term_en": "bridle",
-      "aliases": [],
+      "aliases": [
+        "고삐",
+        "말굴레",
+        "재갈"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -19806,7 +20645,11 @@
       "id": "brood",
       "term_ko": "새끼",
       "term_en": "brood",
-      "aliases": [],
+      "aliases": [
+        "병아리떼",
+        "한배 새끼",
+        "가금 새끼"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -19863,7 +20706,11 @@
       "id": "broom",
       "term_ko": "빗자루",
       "term_en": "broom",
-      "aliases": [],
+      "aliases": [
+        "싸리비",
+        "빗자락",
+        "청소용 비"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -19920,7 +20767,13 @@
       "id": "bucket",
       "term_ko": "물통",
       "term_en": "bucket",
-      "aliases": [],
+      "aliases": [
+        "양동이",
+        "들통",
+        "두레박",
+        "물동이",
+        "바께쓰"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -19976,8 +20829,13 @@
     {
       "id": "buddhist-temple",
       "term_ko": "절",
-      "term_en": "Buddhist temple",
-      "aliases": [],
+      "term_en": "buddhist temple",
+      "aliases": [
+        "사찰",
+        "사원",
+        "암자",
+        "불당"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -20035,7 +20893,11 @@
       "id": "building",
       "term_ko": "건물",
       "term_en": "building",
-      "aliases": [],
+      "aliases": [
+        "빌딩",
+        "저택",
+        "건축물"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -20091,8 +20953,11 @@
     {
       "id": "calendar",
       "term_ko": "달력",
-      "term_en": "almanac",
-      "aliases": [],
+      "term_en": "calendar",
+      "aliases": [
+        "책력",
+        "역서"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -20150,7 +21015,11 @@
       "id": "ceremonial-canopy",
       "term_ko": "일산",
       "term_en": "ceremonial canopy",
-      "aliases": [],
+      "aliases": [
+        "양산",
+        "차양",
+        "가리개"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -20207,7 +21076,10 @@
       "id": "crossbow",
       "term_ko": "쇠뇌",
       "term_en": "crossbow",
-      "aliases": [],
+      "aliases": [
+        "석궁",
+        "노궁"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -20264,7 +21136,11 @@
       "id": "curtain",
       "term_ko": "장막",
       "term_en": "curtain",
-      "aliases": [],
+      "aliases": [
+        "휘장",
+        "천막",
+        "커튼"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -20321,7 +21197,11 @@
       "id": "death",
       "term_ko": "죽음",
       "term_en": "death",
-      "aliases": [],
+      "aliases": [
+        "사망",
+        "임종",
+        "별세"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -20378,7 +21258,11 @@
       "id": "dog",
       "term_ko": "개",
       "term_en": "dog",
-      "aliases": [],
+      "aliases": [
+        "강아지",
+        "반려견",
+        "멍멍이"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -20435,7 +21319,12 @@
       "id": "face-powder",
       "term_ko": "분",
       "term_en": "face powder",
-      "aliases": [],
+      "aliases": [
+        "분가루",
+        "화장분",
+        "백분",
+        "파우더"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -20492,7 +21381,13 @@
       "id": "fight",
       "term_ko": "싸움",
       "term_en": "fight",
-      "aliases": [],
+      "aliases": [
+        "다툼",
+        "싸우",
+        "언쟁",
+        "주먹다짐",
+        "말다툼"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -20549,7 +21444,10 @@
       "id": "fine-toothed-comb",
       "term_ko": "참빗",
       "term_en": "fine-toothed comb",
-      "aliases": [],
+      "aliases": [
+        "머리빗",
+        "얼레빗"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -20606,13 +21504,19 @@
       "id": "flower",
       "term_ko": "꽃",
       "term_en": "flower",
-      "aliases": [],
+      "aliases": [
+        "꽃송이",
+        "꽃다발",
+        "화초"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -20662,8 +21566,13 @@
     {
       "id": "humiliation",
       "term_ko": "모욕",
-      "term_en": "affront",
-      "aliases": [],
+      "term_en": "humiliation",
+      "aliases": [
+        "치욕",
+        "망신",
+        "수모",
+        "굴욕"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -20721,7 +21630,11 @@
       "id": "killing-someone",
       "term_ko": "살인",
       "term_en": "killing someone",
-      "aliases": [],
+      "aliases": [
+        "살해",
+        "살인자",
+        "죽이는"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -20778,7 +21691,11 @@
       "id": "kitchen",
       "term_ko": "부엌",
       "term_en": "kitchen",
-      "aliases": [],
+      "aliases": [
+        "주방",
+        "부뚜막",
+        "조리실"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -20892,7 +21809,11 @@
       "id": "main-hall",
       "term_ko": "대청",
       "term_en": "main hall",
-      "aliases": [],
+      "aliases": [
+        "마루",
+        "대청마루",
+        "본채"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -20949,7 +21870,11 @@
       "id": "man",
       "term_ko": "남자",
       "term_en": "man",
-      "aliases": [],
+      "aliases": [
+        "사내",
+        "남성",
+        "사나이"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -21006,7 +21931,10 @@
       "id": "meat",
       "term_ko": "고기",
       "term_en": "meat",
-      "aliases": [],
+      "aliases": [
+        "육류",
+        "살코기"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -21063,7 +21991,12 @@
       "id": "monk",
       "term_ko": "스님",
       "term_en": "monk",
-      "aliases": [],
+      "aliases": [
+        "승려",
+        "법사",
+        "비구",
+        "사문"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -21120,7 +22053,11 @@
       "id": "mud",
       "term_ko": "진흙",
       "term_en": "mud",
-      "aliases": [],
+      "aliases": [
+        "진창",
+        "흙탕",
+        "흙탕물"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -21177,7 +22114,12 @@
       "id": "noble-person",
       "term_ko": "귀인",
       "term_en": "noble person",
-      "aliases": [],
+      "aliases": [
+        "고관",
+        "양반",
+        "윗사람",
+        "높으신"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -21234,7 +22176,12 @@
       "id": "official",
       "term_ko": "관리",
       "term_en": "official",
-      "aliases": [],
+      "aliases": [
+        "벼슬아치",
+        "관원",
+        "관료",
+        "공무원"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -21291,7 +22238,12 @@
       "id": "pavilion",
       "term_ko": "누각",
       "term_en": "pavilion",
-      "aliases": [],
+      "aliases": [
+        "정자",
+        "다락",
+        "망루",
+        "누대"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -21348,7 +22300,11 @@
       "id": "pine-tree",
       "term_ko": "소나무",
       "term_en": "pine tree",
-      "aliases": [],
+      "aliases": [
+        "솔나무",
+        "적송",
+        "해송"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -21405,7 +22361,12 @@
       "id": "rope",
       "term_ko": "밧줄",
       "term_en": "rope",
-      "aliases": [],
+      "aliases": [
+        "동아줄",
+        "새끼줄",
+        "포승줄",
+        "로프"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -21524,8 +22485,12 @@
     {
       "id": "siblings",
       "term_ko": "형제",
-      "term_en": "brothers",
-      "aliases": [],
+      "term_en": "siblings",
+      "aliases": [
+        "남매",
+        "자매",
+        "오누이"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -21583,7 +22548,10 @@
       "id": "song",
       "term_ko": "노래",
       "term_en": "song",
-      "aliases": [],
+      "aliases": [
+        "노랫소리",
+        "가요"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -21640,7 +22608,9 @@
       "id": "sun-and-moon",
       "term_ko": "해와 달",
       "term_en": "sun and moon",
-      "aliases": [],
+      "aliases": [
+        "일월"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -21697,7 +22667,11 @@
       "id": "thunder",
       "term_ko": "우레",
       "term_en": "thunder",
-      "aliases": [],
+      "aliases": [
+        "천둥",
+        "우렛소리",
+        "뇌성"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -21754,7 +22728,13 @@
       "id": "vessel",
       "term_ko": "그릇",
       "term_en": "vessel",
-      "aliases": [],
+      "aliases": [
+        "사발",
+        "접시",
+        "항아리",
+        "단지",
+        "식기"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -21811,7 +22791,11 @@
       "id": "wall",
       "term_ko": "담",
       "term_en": "wall",
-      "aliases": [],
+      "aliases": [
+        "담장",
+        "울타리",
+        "담벼락"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -21868,7 +22852,10 @@
       "id": "wolf",
       "term_ko": "이리",
       "term_en": "wolf",
-      "aliases": [],
+      "aliases": [
+        "늑대",
+        "승냥이"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -21925,7 +22912,11 @@
       "id": "writing-brush",
       "term_ko": "붓",
       "term_en": "writing brush",
-      "aliases": [],
+      "aliases": [
+        "모필",
+        "붓대",
+        "붓글씨"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -21982,7 +22973,11 @@
       "id": "abbess",
       "term_ko": "수녀원장",
       "term_en": "abbess",
-      "aliases": [],
+      "aliases": [
+        "수녀원 원장",
+        "수도원장",
+        "수녀장"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -22025,7 +23020,11 @@
       "id": "abject",
       "term_ko": "비참함",
       "term_en": "abject",
-      "aliases": [],
+      "aliases": [
+        "비참한 처지",
+        "참담",
+        "비굴"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22068,7 +23067,11 @@
       "id": "absence",
       "term_ko": "부재",
       "term_en": "absence",
-      "aliases": [],
+      "aliases": [
+        "없어짐",
+        "떠나있",
+        "곁에 없"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -22111,7 +23114,11 @@
       "id": "accepted",
       "term_ko": "승낙",
       "term_en": "accepted",
-      "aliases": [],
+      "aliases": [
+        "받아들여",
+        "수락",
+        "허락"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -22154,7 +23161,11 @@
       "id": "accident",
       "term_ko": "사고",
       "term_en": "accident",
-      "aliases": [],
+      "aliases": [
+        "교통사고",
+        "재해",
+        "다치는 일"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22197,7 +23208,12 @@
       "id": "accuse",
       "term_ko": "비난",
       "term_en": "accuse",
-      "aliases": [],
+      "aliases": [
+        "험담",
+        "비방",
+        "꾸짖음",
+        "탓하기"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22240,7 +23256,12 @@
       "id": "acquit",
       "term_ko": "무죄 판결",
       "term_en": "acquit",
-      "aliases": [],
+      "aliases": [
+        "무죄",
+        "방면",
+        "혐의 벗음",
+        "석방 판결"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -22283,7 +23304,12 @@
       "id": "adopted",
       "term_ko": "입양",
       "term_en": "adopted",
-      "aliases": [],
+      "aliases": [
+        "양자",
+        "양녀",
+        "입양아",
+        "수양딸"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -22326,7 +23352,12 @@
       "id": "adulation",
       "term_ko": "아첨",
       "term_en": "adulation",
-      "aliases": [],
+      "aliases": [
+        "아부",
+        "알랑거림",
+        "비위 맞추기",
+        "치켜세움"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22369,7 +23400,12 @@
       "id": "advancement",
       "term_ko": "전진",
       "term_en": "advancement",
-      "aliases": [],
+      "aliases": [
+        "출세",
+        "승진",
+        "진급",
+        "앞으로 나아감"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -22412,7 +23448,12 @@
       "id": "adventurer",
       "term_ko": "모험가",
       "term_en": "adventurer",
-      "aliases": [],
+      "aliases": [
+        "협잡꾼",
+        "사기꾼",
+        "떠돌이 모험",
+        "여성 모험가"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -22455,7 +23496,12 @@
       "id": "adversary",
       "term_ko": "적수",
       "term_en": "adversary",
-      "aliases": [],
+      "aliases": [
+        "원수",
+        "맞수",
+        "경쟁자",
+        "대적"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -22498,7 +23544,12 @@
       "id": "adversity",
       "term_ko": "역경",
       "term_en": "adversity",
-      "aliases": [],
+      "aliases": [
+        "곤경",
+        "시련",
+        "궁핍",
+        "불운한 처지"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22541,7 +23592,12 @@
       "id": "advertisement",
       "term_ko": "광고",
       "term_en": "advertisement",
-      "aliases": [],
+      "aliases": [
+        "광고문",
+        "신문 광고",
+        "선전",
+        "광고지"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -22584,7 +23640,12 @@
       "id": "advice",
       "term_ko": "조언",
       "term_en": "advice",
-      "aliases": [],
+      "aliases": [
+        "충고",
+        "권고",
+        "자문",
+        "상담"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -22627,7 +23688,12 @@
       "id": "affliction",
       "term_ko": "고난",
       "term_en": "affliction",
-      "aliases": [],
+      "aliases": [
+        "괴로움",
+        "시달림",
+        "환난",
+        "비탄"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22670,7 +23736,12 @@
       "id": "affluence",
       "term_ko": "부유함",
       "term_en": "affluence",
-      "aliases": [],
+      "aliases": [
+        "풍족",
+        "부자",
+        "넉넉함",
+        "호화"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -22713,7 +23784,12 @@
       "id": "affrighted",
       "term_ko": "겁에 질림",
       "term_en": "affrighted",
-      "aliases": [],
+      "aliases": [
+        "두려움에 떪",
+        "놀람",
+        "공포",
+        "기겁"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22756,7 +23832,12 @@
       "id": "africa",
       "term_ko": "아프리카",
       "term_en": "africa",
-      "aliases": [],
+      "aliases": [
+        "african",
+        "아프리카 대륙",
+        "검은 대륙",
+        "사하라"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -22799,7 +23880,11 @@
       "id": "afternoon",
       "term_ko": "오후",
       "term_en": "afternoon",
-      "aliases": [],
+      "aliases": [
+        "한낮",
+        "점심 무렵",
+        "오후 나절"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -22842,7 +23927,12 @@
       "id": "agony",
       "term_ko": "고통",
       "term_en": "agony",
-      "aliases": [],
+      "aliases": [
+        "극심한 아픔",
+        "고뇌",
+        "몸부림",
+        "괴로워함"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -22885,7 +23975,12 @@
       "id": "ague",
       "term_ko": "학질",
       "term_en": "ague",
-      "aliases": [],
+      "aliases": [
+        "말라리아",
+        "오한",
+        "한기",
+        "열병"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -22928,7 +24023,11 @@
       "id": "album",
       "term_ko": "앨범",
       "term_en": "album",
-      "aliases": [],
+      "aliases": [
+        "사진첩",
+        "기념첩",
+        "스크랩북"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -22971,7 +24070,12 @@
       "id": "alley",
       "term_ko": "골목",
       "term_en": "alley",
-      "aliases": [],
+      "aliases": [
+        "골목길",
+        "뒷골목",
+        "좁은 길",
+        "샛길"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -23014,7 +24118,11 @@
       "id": "alloy",
       "term_ko": "합금",
       "term_en": "alloy",
-      "aliases": [],
+      "aliases": [
+        "섞인 쇠",
+        "합성 금속",
+        "놋쇠"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -23057,7 +24165,11 @@
       "id": "almonds",
       "term_ko": "아몬드",
       "term_en": "almonds",
-      "aliases": [],
+      "aliases": [
+        "편도",
+        "아몬드 알",
+        "견과"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -23100,7 +24212,12 @@
       "id": "alms",
       "term_ko": "자선",
       "term_en": "alms",
-      "aliases": [],
+      "aliases": [
+        "적선",
+        "동냥",
+        "보시",
+        "구제"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -23143,7 +24260,11 @@
       "id": "aluminum",
       "term_ko": "알루미늄",
       "term_en": "aluminum",
-      "aliases": [],
+      "aliases": [
+        "알루미늄 그릇",
+        "양은",
+        "알루미늄 장식"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -23186,7 +24307,12 @@
       "id": "ambush",
       "term_ko": "매복",
       "term_en": "ambush",
-      "aliases": [],
+      "aliases": [
+        "잠복",
+        "기습",
+        "숨어 기다림",
+        "복병"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -23229,7 +24355,11 @@
       "id": "amethyst",
       "term_ko": "자수정",
       "term_en": "amethyst",
-      "aliases": [],
+      "aliases": [
+        "보라 수정",
+        "자주빛 보석",
+        "수정 반지"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -23272,7 +24402,10 @@
       "id": "ammonia",
       "term_ko": "암모니아",
       "term_en": "ammonia",
-      "aliases": [],
+      "aliases": [
+        "암모니아수",
+        "자극적인 약품 냄새"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -23315,7 +24448,12 @@
       "id": "ammunition",
       "term_ko": "탄약",
       "term_en": "ammunition",
-      "aliases": [],
+      "aliases": [
+        "실탄",
+        "총알",
+        "화약",
+        "군수품"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -23358,7 +24496,11 @@
       "id": "andirons",
       "term_ko": "장작받침쇠",
       "term_en": "andirons",
-      "aliases": [],
+      "aliases": [
+        "벽난로 받침쇠",
+        "화로 받침",
+        "장작 걸이"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -23401,7 +24543,12 @@
       "id": "anecdote",
       "term_ko": "일화",
       "term_en": "anecdote",
-      "aliases": [],
+      "aliases": [
+        "재미난 이야기",
+        "우스개",
+        "에피소드",
+        "이야깃거리"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -23444,7 +24591,12 @@
       "id": "anger",
       "term_ko": "분노",
       "term_en": "anger",
-      "aliases": [],
+      "aliases": [
+        "격분",
+        "노여움",
+        "성냄",
+        "화를 냄"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -23487,7 +24639,12 @@
       "id": "annoy",
       "term_ko": "성가심",
       "term_en": "annoy",
-      "aliases": [],
+      "aliases": [
+        "짜증",
+        "귀찮음",
+        "거슬림",
+        "신경 쓰임"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -23529,8 +24686,11 @@
     {
       "id": "ant",
       "term_ko": "개미",
-      "term_en": "ants",
-      "aliases": [],
+      "term_en": "ant",
+      "aliases": [
+        "개미떼",
+        "왕개미"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -23574,7 +24734,11 @@
       "id": "antelope",
       "term_ko": "영양",
       "term_en": "antelope",
-      "aliases": [],
+      "aliases": [
+        "가젤",
+        "영양 떼",
+        "사슴 같은 짐승"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -23617,7 +24781,12 @@
       "id": "anxiety",
       "term_ko": "불안",
       "term_en": "anxiety",
-      "aliases": [],
+      "aliases": [
+        "초조",
+        "걱정",
+        "근심",
+        "조바심"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -23660,7 +24829,12 @@
       "id": "apes",
       "term_ko": "유인원",
       "term_en": "apes",
-      "aliases": [],
+      "aliases": [
+        "원숭이",
+        "고릴라",
+        "침팬지",
+        "성성이"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -23703,7 +24877,12 @@
       "id": "apparition",
       "term_ko": "유령",
       "term_en": "apparition",
-      "aliases": [],
+      "aliases": [
+        "귀신",
+        "혼령",
+        "허깨비",
+        "망령"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -23746,7 +24925,11 @@
       "id": "april",
       "term_ko": "4월",
       "term_en": "april",
-      "aliases": [],
+      "aliases": [
+        "사월",
+        "4월달",
+        "봄 사월"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -23789,7 +24972,11 @@
       "id": "apron",
       "term_ko": "앞치마",
       "term_en": "apron",
-      "aliases": [],
+      "aliases": [
+        "에이프런",
+        "행주치마",
+        "앞치마 끈"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -23832,7 +25019,11 @@
       "id": "architect",
       "term_ko": "건축가",
       "term_en": "architect",
-      "aliases": [],
+      "aliases": [
+        "설계사",
+        "건축 설계자",
+        "도면 그리는 사람"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -23875,7 +25066,10 @@
       "id": "armor",
       "term_ko": "갑옷",
       "term_en": "armor",
-      "aliases": [],
+      "aliases": [
+        "갑주",
+        "철갑"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -23918,7 +25112,12 @@
       "id": "arrested",
       "term_ko": "체포됨",
       "term_en": "arrested",
-      "aliases": [],
+      "aliases": [
+        "체포",
+        "잡혀감",
+        "연행",
+        "구속"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -23961,7 +25160,12 @@
       "id": "ascend",
       "term_ko": "오르기",
       "term_en": "ascend",
-      "aliases": [],
+      "aliases": [
+        "올라감",
+        "등반",
+        "계단을 오름",
+        "상승"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -24004,7 +25208,10 @@
       "id": "asparagus",
       "term_ko": "아스파라거스",
       "term_en": "asparagus",
-      "aliases": [],
+      "aliases": [
+        "아스파라거스 순",
+        "아스파라거스 밭"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -24047,7 +25254,12 @@
       "id": "assistance",
       "term_ko": "도움",
       "term_en": "assistance",
-      "aliases": [],
+      "aliases": [
+        "도와줌",
+        "원조",
+        "지원",
+        "거들기"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -24090,7 +25302,12 @@
       "id": "astral",
       "term_ko": "아스트랄(영체)",
       "term_en": "astral",
-      "aliases": [],
+      "aliases": [
+        "영체",
+        "유체",
+        "아스트랄체",
+        "혼백"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -24133,7 +25350,11 @@
       "id": "attic",
       "term_ko": "다락방",
       "term_en": "attic",
-      "aliases": [],
+      "aliases": [
+        "다락",
+        "고미다락",
+        "지붕 밑 방"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -24176,7 +25397,12 @@
       "id": "attorney",
       "term_ko": "변호사",
       "term_en": "attorney",
-      "aliases": [],
+      "aliases": [
+        "법률가",
+        "변호인",
+        "대리인",
+        "법정 대리인"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -24219,7 +25445,11 @@
       "id": "august",
       "term_ko": "팔월",
       "term_en": "august",
-      "aliases": [],
+      "aliases": [
+        "8월",
+        "여름 팔월",
+        "팔월달"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -24262,7 +25492,12 @@
       "id": "aunt",
       "term_ko": "고모(이모)",
       "term_en": "aunt",
-      "aliases": [],
+      "aliases": [
+        "이모",
+        "고모",
+        "숙모",
+        "아주머니"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -24305,7 +25540,12 @@
       "id": "author",
       "term_ko": "작가",
       "term_en": "author",
-      "aliases": [],
+      "aliases": [
+        "소설가",
+        "글쓴이",
+        "문인",
+        "저자"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -24348,7 +25588,11 @@
       "id": "autumn",
       "term_ko": "가을",
       "term_en": "autumn",
-      "aliases": [],
+      "aliases": [
+        "가을철",
+        "단풍철",
+        "추수철"
+      ],
       "category": "nature",
       "polarity": "neutral",
       "works": [
@@ -24391,7 +25635,12 @@
       "id": "awake",
       "term_ko": "깨어남",
       "term_en": "awake",
-      "aliases": [],
+      "aliases": [
+        "잠에서 깸",
+        "각성",
+        "눈을 뜸",
+        "잠이 깼"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -24434,7 +25683,11 @@
       "id": "bachelor",
       "term_ko": "독신남",
       "term_en": "bachelor",
-      "aliases": [],
+      "aliases": [
+        "총각",
+        "미혼 남자",
+        "노총각"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -24477,7 +25730,12 @@
       "id": "back-bite",
       "term_ko": "험담",
       "term_en": "back-bite",
-      "aliases": [],
+      "aliases": [
+        "뒷담화",
+        "뒷말",
+        "비방",
+        "흉보"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -24520,7 +25778,11 @@
       "id": "backgammon",
       "term_ko": "백개먼",
       "term_en": "backgammon",
-      "aliases": [],
+      "aliases": [
+        "주사위 놀이",
+        "보드게임",
+        "말판놀이"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -24563,7 +25825,11 @@
       "id": "bail",
       "term_ko": "보석(보증금)",
       "term_en": "bail",
-      "aliases": [],
+      "aliases": [
+        "보석금",
+        "보증금",
+        "석방금"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -24606,7 +25872,11 @@
       "id": "bailiff",
       "term_ko": "집행관",
       "term_en": "bailiff",
-      "aliases": [],
+      "aliases": [
+        "집달관",
+        "법원 직원",
+        "압류 나온 사람"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -24649,7 +25919,12 @@
       "id": "bake-house",
       "term_ko": "빵집(제과소)",
       "term_en": "bake-house",
-      "aliases": [],
+      "aliases": [
+        "제과점",
+        "제빵소",
+        "빵 굽는 곳",
+        "베이커리"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -24692,7 +25967,11 @@
       "id": "balcony",
       "term_ko": "발코니",
       "term_en": "balcony",
-      "aliases": [],
+      "aliases": [
+        "베란다",
+        "테라스",
+        "난간"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -24735,7 +26014,12 @@
       "id": "ball",
       "term_ko": "무도회",
       "term_en": "ball",
-      "aliases": [],
+      "aliases": [
+        "댄스파티",
+        "연회",
+        "무도장",
+        "춤추는 자리"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -24778,7 +26062,11 @@
       "id": "balloon",
       "term_ko": "기구(풍선)",
       "term_en": "balloon",
-      "aliases": [],
+      "aliases": [
+        "풍선",
+        "열기구",
+        "기구를 타"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -24864,7 +26152,12 @@
       "id": "banishment",
       "term_ko": "추방",
       "term_en": "banishment",
-      "aliases": [],
+      "aliases": [
+        "유배",
+        "쫓겨남",
+        "귀양",
+        "내쫓김"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -24907,7 +26200,11 @@
       "id": "bantam",
       "term_ko": "밴텀 닭",
       "term_en": "bantam",
-      "aliases": [],
+      "aliases": [
+        "작은 닭",
+        "난쟁이 닭",
+        "애완 닭"
+      ],
       "category": "animal",
       "polarity": "neutral",
       "works": [
@@ -24950,7 +26247,12 @@
       "id": "bar",
       "term_ko": "술집",
       "term_en": "bar",
-      "aliases": [],
+      "aliases": [
+        "주점",
+        "선술집",
+        "맥줏집",
+        "호프집"
+      ],
       "category": "place",
       "polarity": "neutral",
       "works": [
@@ -24993,7 +26295,11 @@
       "id": "barber",
       "term_ko": "이발사",
       "term_en": "barber",
-      "aliases": [],
+      "aliases": [
+        "미용사",
+        "머리 깎아주는 사람",
+        "이발소 주인"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -25036,7 +26342,11 @@
       "id": "barley-field",
       "term_ko": "보리밭",
       "term_en": "barley field",
-      "aliases": [],
+      "aliases": [
+        "보리 이삭",
+        "보리 들판",
+        "맥전"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -25079,7 +26389,11 @@
       "id": "barmaid",
       "term_ko": "술집 여급",
       "term_en": "barmaid",
-      "aliases": [],
+      "aliases": [
+        "여급",
+        "술집 아가씨",
+        "여자 바텐더"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -25122,7 +26436,12 @@
       "id": "barn",
       "term_ko": "헛간",
       "term_en": "barn",
-      "aliases": [],
+      "aliases": [
+        "곡식 창고",
+        "축사",
+        "농가 창고",
+        "마구간"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -25165,7 +26484,11 @@
       "id": "barometer",
       "term_ko": "기압계",
       "term_en": "barometer",
-      "aliases": [],
+      "aliases": [
+        "기압 재는 기계",
+        "청우계",
+        "날씨계"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -25208,7 +26531,11 @@
       "id": "baseball",
       "term_ko": "야구",
       "term_en": "baseball",
-      "aliases": [],
+      "aliases": [
+        "야구 경기",
+        "야구장",
+        "야구 시합"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -25251,7 +26578,11 @@
       "id": "basket",
       "term_ko": "바구니",
       "term_en": "basket",
-      "aliases": [],
+      "aliases": [
+        "광주리",
+        "소쿠리",
+        "장바구니"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -25294,7 +26625,11 @@
       "id": "bass-voice",
       "term_ko": "저음 목소리",
       "term_en": "bass voice",
-      "aliases": [],
+      "aliases": [
+        "굵은 목소리",
+        "베이스 음성",
+        "낮은 목소리"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -25337,7 +26672,11 @@
       "id": "baste",
       "term_ko": "시침질",
       "term_en": "baste",
-      "aliases": [],
+      "aliases": [
+        "시침 바느질",
+        "기름 바르기",
+        "임시 바느질"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25380,7 +26719,11 @@
       "id": "bathroom",
       "term_ko": "욕실",
       "term_en": "bathroom",
-      "aliases": [],
+      "aliases": [
+        "목욕실",
+        "목욕탕",
+        "욕조가 있는 방"
+      ],
       "category": "place",
       "polarity": "neutral",
       "works": [
@@ -25423,7 +26766,12 @@
       "id": "battle",
       "term_ko": "전투",
       "term_en": "battle",
-      "aliases": [],
+      "aliases": [
+        "싸움터",
+        "전쟁",
+        "교전",
+        "격전"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -25466,7 +26814,12 @@
       "id": "beat",
       "term_ko": "매질",
       "term_en": "beat",
-      "aliases": [],
+      "aliases": [
+        "때림",
+        "구타",
+        "매를 맞",
+        "몽둥이질"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25509,7 +26862,10 @@
       "id": "beaver",
       "term_ko": "비버",
       "term_en": "beaver",
-      "aliases": [],
+      "aliases": [
+        "해리",
+        "댐을 짓는 짐승"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -25552,7 +26908,11 @@
       "id": "beetles",
       "term_ko": "딱정벌레",
       "term_en": "beetles",
-      "aliases": [],
+      "aliases": [
+        "풍뎅이",
+        "갑충",
+        "등딱지 벌레"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -25593,7 +26953,11 @@
       "id": "beheading",
       "term_ko": "참수",
       "term_en": "beheading",
-      "aliases": [],
+      "aliases": [
+        "목이 잘림",
+        "목을 벰",
+        "단두"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25634,7 +26998,11 @@
       "id": "bellman",
       "term_ko": "종치기",
       "term_en": "bellman",
-      "aliases": [],
+      "aliases": [
+        "종 치는 사람",
+        "종지기",
+        "마을 포고꾼"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -25675,7 +27043,11 @@
       "id": "bench",
       "term_ko": "벤치",
       "term_en": "bench",
-      "aliases": [],
+      "aliases": [
+        "긴 의자",
+        "공원 의자",
+        "걸상"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -25716,7 +27088,11 @@
       "id": "bereavement",
       "term_ko": "사별",
       "term_en": "bereavement",
-      "aliases": [],
+      "aliases": [
+        "가족을 잃",
+        "상을 당",
+        "여읨"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25757,7 +27133,12 @@
       "id": "bet",
       "term_ko": "내기",
       "term_en": "bet",
-      "aliases": [],
+      "aliases": [
+        "도박",
+        "베팅",
+        "돈을 걸",
+        "판돈"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25798,7 +27179,11 @@
       "id": "bible",
       "term_ko": "성경",
       "term_en": "bible",
-      "aliases": [],
+      "aliases": [
+        "성서",
+        "성경책",
+        "경전"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -25839,7 +27224,11 @@
       "id": "bicycle",
       "term_ko": "자전거",
       "term_en": "bicycle",
-      "aliases": [],
+      "aliases": [
+        "두발자전거",
+        "싸이클",
+        "자전거 타기"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -25882,7 +27271,12 @@
       "id": "bier",
       "term_ko": "관대",
       "term_en": "bier",
-      "aliases": [],
+      "aliases": [
+        "상여",
+        "영구대",
+        "시신 받침대",
+        "관 받침"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -25923,7 +27317,11 @@
       "id": "bigamy",
       "term_ko": "중혼",
       "term_en": "bigamy",
-      "aliases": [],
+      "aliases": [
+        "이중결혼",
+        "두집살림",
+        "중복 혼인"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -25966,7 +27364,12 @@
       "id": "birth",
       "term_ko": "출산",
       "term_en": "birth",
-      "aliases": [],
+      "aliases": [
+        "아이를 낳",
+        "분만",
+        "해산",
+        "출생"
+      ],
       "category": "action",
       "polarity": "ambivalent",
       "works": [
@@ -26009,7 +27412,11 @@
       "id": "birthday-present",
       "term_ko": "생일 선물",
       "term_en": "birthday present",
-      "aliases": [],
+      "aliases": [
+        "생일 선물 받",
+        "생신 선물",
+        "축하 선물"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -26052,7 +27459,10 @@
       "id": "bladder",
       "term_ko": "방광",
       "term_en": "bladder",
-      "aliases": [],
+      "aliases": [
+        "오줌보",
+        "소변 주머니"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -26095,7 +27505,12 @@
       "id": "blind",
       "term_ko": "눈이 멂",
       "term_en": "blind",
-      "aliases": [],
+      "aliases": [
+        "시각 장애",
+        "앞이 안 보",
+        "실명",
+        "눈이 안 보"
+      ],
       "category": "body",
       "polarity": "neutral",
       "works": [
@@ -26138,7 +27553,11 @@
       "id": "blood-stone",
       "term_ko": "혈석",
       "term_en": "blood stone",
-      "aliases": [],
+      "aliases": [
+        "블러드스톤",
+        "붉은 보석",
+        "혈석 반지"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -26181,7 +27600,11 @@
       "id": "blotting-paper",
       "term_ko": "압지",
       "term_en": "blotting paper",
-      "aliases": [],
+      "aliases": [
+        "잉크 흡수지",
+        "먹지",
+        "흡묵지"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -26224,7 +27647,12 @@
       "id": "blue-clothing",
       "term_ko": "푸른 옷",
       "term_en": "blue clothing",
-      "aliases": [],
+      "aliases": [
+        "파란 옷",
+        "청색 옷",
+        "푸른옷",
+        "청의"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -26267,7 +27695,11 @@
       "id": "blushing",
       "term_ko": "얼굴 붉힘",
       "term_en": "blushing",
-      "aliases": [],
+      "aliases": [
+        "얼굴이 빨개",
+        "홍조",
+        "부끄러워 붉"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -26310,7 +27742,12 @@
       "id": "boa-constrictor",
       "term_ko": "보아뱀",
       "term_en": "boa constrictor",
-      "aliases": [],
+      "aliases": [
+        "구렁이",
+        "비단뱀",
+        "왕뱀",
+        "큰뱀"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -26353,7 +27790,12 @@
       "id": "boasting",
       "term_ko": "허풍",
       "term_en": "boasting",
-      "aliases": [],
+      "aliases": [
+        "자랑질",
+        "떠벌림",
+        "뽐냄",
+        "과시"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -26396,7 +27838,12 @@
       "id": "boiler",
       "term_ko": "보일러",
       "term_en": "boiler",
-      "aliases": [],
+      "aliases": [
+        "난방기",
+        "온수기",
+        "보일러실",
+        "화덕솥"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -26439,7 +27886,12 @@
       "id": "bolts",
       "term_ko": "빗장",
       "term_en": "bolts",
-      "aliases": [],
+      "aliases": [
+        "볼트",
+        "걸쇠",
+        "문빗장",
+        "잠금쇠"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -26482,7 +27934,12 @@
       "id": "bones",
       "term_ko": "뼈",
       "term_en": "bones",
-      "aliases": [],
+      "aliases": [
+        "뼈다귀",
+        "해골",
+        "유골",
+        "백골"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -26525,7 +27982,12 @@
       "id": "bookcase",
       "term_ko": "책장(가구)",
       "term_en": "bookcase",
-      "aliases": [],
+      "aliases": [
+        "책장",
+        "서가",
+        "책꽂이",
+        "책 선반"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -26568,7 +28030,12 @@
       "id": "bottles",
       "term_ko": "병(용기)",
       "term_en": "bottles",
-      "aliases": [],
+      "aliases": [
+        "유리병",
+        "물병",
+        "술병",
+        "약병"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -26611,7 +28078,12 @@
       "id": "bouquet",
       "term_ko": "꽃다발",
       "term_en": "bouquet",
-      "aliases": [],
+      "aliases": [
+        "부케",
+        "꽃묶음",
+        "꽃바구니",
+        "한 아름 꽃"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -26654,7 +28126,12 @@
       "id": "bow-and-arrow",
       "term_ko": "활과 화살",
       "term_en": "bow and arrow",
-      "aliases": [],
+      "aliases": [
+        "화살",
+        "활쏘기",
+        "활시위",
+        "궁술"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -26697,7 +28174,12 @@
       "id": "bowing",
       "term_ko": "절",
       "term_en": "bowing",
-      "aliases": [],
+      "aliases": [
+        "절하",
+        "큰절",
+        "맞절",
+        "절을 올리"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -26741,7 +28223,12 @@
       "id": "branch",
       "term_ko": "나뭇가지",
       "term_en": "branch",
-      "aliases": [],
+      "aliases": [
+        "가지",
+        "잔가지",
+        "곁가지",
+        "나무 가지"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -26784,7 +28271,10 @@
       "id": "brazier",
       "term_ko": "화로",
       "term_en": "brazier",
-      "aliases": [],
+      "aliases": [
+        "화롯불",
+        "난로"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -26827,7 +28317,12 @@
       "id": "brewing",
       "term_ko": "양조",
       "term_en": "brewing",
-      "aliases": [],
+      "aliases": [
+        "술 빚",
+        "맥주 만들",
+        "발효",
+        "양조장"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -26870,7 +28365,12 @@
       "id": "briars",
       "term_ko": "가시덤불(찔레)",
       "term_en": "briars",
-      "aliases": [],
+      "aliases": [
+        "찔레",
+        "찔레덤불",
+        "찔레꽃",
+        "가시나무"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -26913,7 +28413,12 @@
       "id": "brick",
       "term_ko": "벽돌",
       "term_en": "brick",
-      "aliases": [],
+      "aliases": [
+        "블록",
+        "적벽돌",
+        "벽돌담",
+        "벽돌집"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -26956,7 +28461,12 @@
       "id": "bridle-bits",
       "term_ko": "재갈",
       "term_en": "bridle bits",
-      "aliases": [],
+      "aliases": [
+        "말재갈",
+        "굴레",
+        "고삐",
+        "재갈 물린 말"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -26999,7 +28509,11 @@
       "id": "brimstone",
       "term_ko": "유황",
       "term_en": "brimstone",
-      "aliases": [],
+      "aliases": [
+        "유황불",
+        "유황 냄새",
+        "황 덩어리"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -27042,7 +28556,12 @@
       "id": "bronchitis",
       "term_ko": "기관지염",
       "term_en": "bronchitis",
-      "aliases": [],
+      "aliases": [
+        "기관지",
+        "기침병",
+        "기관지 염증",
+        "가래 기침"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -27084,8 +28603,10 @@
     {
       "id": "buddhist-nun",
       "term_ko": "비구니",
-      "term_en": "Buddhist nun",
-      "aliases": [],
+      "term_en": "buddhist nun",
+      "aliases": [
+        "여승"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -27128,7 +28649,12 @@
       "id": "buffalo",
       "term_ko": "물소",
       "term_en": "buffalo",
-      "aliases": [],
+      "aliases": [
+        "들소",
+        "버팔로",
+        "물소떼",
+        "무소"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -27171,7 +28697,12 @@
       "id": "bugle",
       "term_ko": "나팔",
       "term_en": "bugle",
-      "aliases": [],
+      "aliases": [
+        "뿔피리",
+        "트럼펫",
+        "나팔소리",
+        "군나팔"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27214,7 +28745,11 @@
       "id": "bulldog",
       "term_ko": "불도그",
       "term_en": "bulldog",
-      "aliases": [],
+      "aliases": [
+        "불독",
+        "투견",
+        "사나운 개"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -27257,7 +28792,12 @@
       "id": "burden",
       "term_ko": "짐",
       "term_en": "burden",
-      "aliases": [],
+      "aliases": [
+        "무거운 짐",
+        "짐꾸러미",
+        "봇짐",
+        "부담"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -27300,7 +28840,10 @@
       "id": "candle",
       "term_ko": "촛불",
       "term_en": "candle",
-      "aliases": [],
+      "aliases": [
+        "양초",
+        "촛대"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27343,7 +28886,10 @@
       "id": "cart-wheel",
       "term_ko": "수레바퀴",
       "term_en": "cart wheel",
-      "aliases": [],
+      "aliases": [
+        "바퀴",
+        "차바퀴"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -27386,7 +28932,13 @@
       "id": "child",
       "term_ko": "아이",
       "term_en": "child",
-      "aliases": [],
+      "aliases": [
+        "어린아이",
+        "어린이",
+        "자식",
+        "꼬마",
+        "아들딸"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -27472,7 +29024,12 @@
       "id": "clam",
       "term_ko": "조개",
       "term_en": "clam",
-      "aliases": [],
+      "aliases": [
+        "대합",
+        "바지락",
+        "홍합",
+        "조갯살"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -27515,7 +29072,12 @@
       "id": "cloth",
       "term_ko": "천",
       "term_en": "cloth",
-      "aliases": [],
+      "aliases": [
+        "헝겊",
+        "천조각",
+        "삼베",
+        "무명"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -27558,7 +29120,11 @@
       "id": "comb",
       "term_ko": "빗",
       "term_en": "comb",
-      "aliases": [],
+      "aliases": [
+        "참빗",
+        "얼레빗",
+        "머리빗"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27601,13 +29167,18 @@
       "id": "deer",
       "term_ko": "사슴",
       "term_en": "deer",
-      "aliases": [],
+      "aliases": [
+        "노루",
+        "꽃사슴"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -27644,7 +29215,11 @@
       "id": "duck",
       "term_ko": "오리",
       "term_en": "duck",
-      "aliases": [],
+      "aliases": [
+        "집오리",
+        "물오리",
+        "청둥오리"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -27687,7 +29262,13 @@
       "id": "farming",
       "term_ko": "농사",
       "term_en": "farming",
-      "aliases": [],
+      "aliases": [
+        "밭갈이",
+        "씨뿌리",
+        "경작",
+        "파종",
+        "농작"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -27730,7 +29311,12 @@
       "id": "flute",
       "term_ko": "피리",
       "term_en": "flute",
-      "aliases": [],
+      "aliases": [
+        "퉁소",
+        "단소",
+        "대금",
+        "젓대"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27773,7 +29359,11 @@
       "id": "forest",
       "term_ko": "숲",
       "term_en": "forest",
-      "aliases": [],
+      "aliases": [
+        "수풀",
+        "삼림",
+        "밀림"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -27816,7 +29406,11 @@
       "id": "fruit-tree",
       "term_ko": "과일나무",
       "term_en": "fruit tree",
-      "aliases": [],
+      "aliases": [
+        "과수",
+        "과실나무",
+        "열매나무"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -27859,7 +29453,13 @@
       "id": "ghost",
       "term_ko": "귀신",
       "term_en": "ghost",
-      "aliases": [],
+      "aliases": [
+        "유령",
+        "혼령",
+        "망령",
+        "도깨비",
+        "영혼"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -27902,7 +29502,12 @@
       "id": "gold-and-silver-treasure",
       "term_ko": "금은보화",
       "term_en": "gold and silver treasure",
-      "aliases": [],
+      "aliases": [
+        "금은보배",
+        "보물",
+        "재보",
+        "금은"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27945,7 +29550,12 @@
       "id": "gold-and-silver-vessel",
       "term_ko": "금은 그릇",
       "term_en": "gold and silver vessel",
-      "aliases": [],
+      "aliases": [
+        "금그릇",
+        "은그릇",
+        "금잔",
+        "은잔"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -27988,7 +29598,9 @@
       "id": "goose",
       "term_ko": "거위",
       "term_en": "goose",
-      "aliases": [],
+      "aliases": [
+        "기러기"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -28031,7 +29643,11 @@
       "id": "government-office",
       "term_ko": "관청",
       "term_en": "government office",
-      "aliases": [],
+      "aliases": [
+        "관가",
+        "관아",
+        "동헌"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -28074,7 +29690,10 @@
       "id": "greens",
       "term_ko": "나물",
       "term_en": "greens",
-      "aliases": [],
+      "aliases": [
+        "산나물",
+        "푸성귀"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -28117,7 +29736,11 @@
       "id": "hammer",
       "term_ko": "망치",
       "term_en": "hammer",
-      "aliases": [],
+      "aliases": [
+        "해머",
+        "쇠망치",
+        "장도리"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -28160,7 +29783,11 @@
       "id": "head",
       "term_ko": "머리",
       "term_en": "head",
-      "aliases": [],
+      "aliases": [
+        "머리통",
+        "대가리",
+        "두상"
+      ],
       "category": "body",
       "polarity": "positive",
       "works": [
@@ -28203,7 +29830,11 @@
       "id": "hemp",
       "term_ko": "삼",
       "term_en": "hemp",
-      "aliases": [],
+      "aliases": [
+        "삼베",
+        "대마",
+        "삼대"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -28246,7 +29877,11 @@
       "id": "long-journey",
       "term_ko": "먼 길 떠남",
       "term_en": "long journey",
-      "aliases": [],
+      "aliases": [
+        "여행",
+        "원행",
+        "먼길"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -28289,7 +29924,11 @@
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
-      "aliases": [],
+      "aliases": [
+        "퇴비",
+        "비료",
+        "두엄"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -28332,7 +29971,11 @@
       "id": "marketplace",
       "term_ko": "시장",
       "term_en": "marketplace",
-      "aliases": [],
+      "aliases": [
+        "저자",
+        "장터",
+        "장날"
+      ],
       "category": "place",
       "polarity": "ambivalent",
       "works": [
@@ -28375,7 +30018,10 @@
       "id": "melon",
       "term_ko": "오이",
       "term_en": "melon",
-      "aliases": [],
+      "aliases": [
+        "참외",
+        "물외"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -28418,7 +30064,10 @@
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
-      "aliases": [],
+      "aliases": [
+        "차조",
+        "기장"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -28461,7 +30110,9 @@
       "id": "monkey",
       "term_ko": "원숭이",
       "term_en": "monkey",
-      "aliases": [],
+      "aliases": [
+        "잔나비"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
@@ -28504,7 +30155,10 @@
       "id": "moving-house",
       "term_ko": "이사",
       "term_en": "moving house",
-      "aliases": [],
+      "aliases": [
+        "이주",
+        "이삿짐"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -28590,7 +30244,11 @@
       "id": "net",
       "term_ko": "그물",
       "term_en": "net",
-      "aliases": [],
+      "aliases": [
+        "어망",
+        "투망",
+        "그물망"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -28633,7 +30291,9 @@
       "id": "pan",
       "term_ko": "냄비",
       "term_en": "pan",
-      "aliases": [],
+      "aliases": [
+        "프라이팬"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -28676,7 +30336,11 @@
       "id": "paper",
       "term_ko": "종이",
       "term_en": "paper",
-      "aliases": [],
+      "aliases": [
+        "백지",
+        "한지",
+        "종잇장"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -28719,7 +30383,9 @@
       "id": "peacock",
       "term_ko": "공작",
       "term_en": "peacock",
-      "aliases": [],
+      "aliases": [
+        "공작새"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -28762,13 +30428,20 @@
       "id": "persimmon",
       "term_ko": "감",
       "term_en": "persimmon",
-      "aliases": [],
+      "aliases": [
+        "홍시",
+        "곶감",
+        "단감",
+        "연시"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -28805,7 +30478,12 @@
       "id": "person-reading-a-book",
       "term_ko": "책 읽는 사람",
       "term_en": "person reading a book",
-      "aliases": [],
+      "aliases": [
+        "글 읽는 사람",
+        "독서하는 사람",
+        "책을 읽는 사람",
+        "책을 읽고"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -28848,13 +30526,19 @@
       "id": "phoenix",
       "term_ko": "봉황",
       "term_en": "phoenix",
-      "aliases": [],
+      "aliases": [
+        "봉새",
+        "불사조",
+        "봉황새"
+      ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -28891,7 +30575,11 @@
       "id": "pork",
       "term_ko": "돼지고기",
       "term_en": "pork",
-      "aliases": [],
+      "aliases": [
+        "삼겹살",
+        "제육",
+        "돈육"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -28934,7 +30622,12 @@
       "id": "quarrel",
       "term_ko": "말다툼",
       "term_en": "quarrel",
-      "aliases": [],
+      "aliases": [
+        "말싸움",
+        "언쟁",
+        "욕설",
+        "말씨름"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -28977,7 +30670,9 @@
       "id": "rabbit",
       "term_ko": "토끼",
       "term_en": "rabbit",
-      "aliases": [],
+      "aliases": [
+        "산토끼"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -29063,7 +30758,10 @@
       "id": "rock",
       "term_ko": "바위",
       "term_en": "rock",
-      "aliases": [],
+      "aliases": [
+        "암석",
+        "반석"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -29106,7 +30804,10 @@
       "id": "rouge",
       "term_ko": "연지",
       "term_en": "rouge",
-      "aliases": [],
+      "aliases": [
+        "연지곤지",
+        "볼연지"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -29149,7 +30850,12 @@
       "id": "seal",
       "term_ko": "도장",
       "term_en": "seal",
-      "aliases": [],
+      "aliases": [
+        "인장",
+        "인감",
+        "직인",
+        "낙관"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -29192,7 +30898,12 @@
       "id": "shooting-an-arrow",
       "term_ko": "활쏘기",
       "term_en": "shooting an arrow",
-      "aliases": [],
+      "aliases": [
+        "활을",
+        "화살",
+        "궁술",
+        "활시위"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -29235,7 +30946,10 @@
       "id": "shrimp",
       "term_ko": "새우",
       "term_en": "shrimp",
-      "aliases": [],
+      "aliases": [
+        "왕새우",
+        "보리새우"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -29278,7 +30992,10 @@
       "id": "shrine",
       "term_ko": "사당",
       "term_en": "shrine",
-      "aliases": [],
+      "aliases": [
+        "신당",
+        "위패"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -29321,7 +31038,12 @@
       "id": "soil",
       "term_ko": "흙",
       "term_en": "soil",
-      "aliases": [],
+      "aliases": [
+        "토양",
+        "진흙",
+        "흙더미",
+        "땅바닥"
+      ],
       "category": "nature",
       "polarity": "ambivalent",
       "works": [
@@ -29364,7 +31086,12 @@
       "id": "soldier-setting-out",
       "term_ko": "출정하는 사람",
       "term_en": "soldier setting out",
-      "aliases": [],
+      "aliases": [
+        "출정",
+        "출병",
+        "종군",
+        "전쟁터"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -29450,7 +31177,11 @@
       "id": "spear",
       "term_ko": "창",
       "term_en": "spear",
-      "aliases": [],
+      "aliases": [
+        "창검",
+        "장창",
+        "삼지창"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -29493,7 +31224,10 @@
       "id": "steamed-bun",
       "term_ko": "만두",
       "term_en": "steamed bun",
-      "aliases": [],
+      "aliases": [
+        "왕만두",
+        "찐만두"
+      ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
@@ -29579,7 +31313,13 @@
       "id": "teeth",
       "term_ko": "이",
       "term_en": "teeth",
-      "aliases": [],
+      "aliases": [
+        "치아",
+        "이빨",
+        "어금니",
+        "앞니",
+        "송곳니"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -29622,7 +31362,11 @@
       "id": "thread",
       "term_ko": "실",
       "term_en": "thread",
-      "aliases": [],
+      "aliases": [
+        "실타래",
+        "명주실",
+        "실뭉치"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -29665,7 +31409,10 @@
       "id": "urine",
       "term_ko": "오줌",
       "term_en": "urine",
-      "aliases": [],
+      "aliases": [
+        "소변",
+        "방뇨"
+      ],
       "category": "body",
       "polarity": "ambivalent",
       "works": [
@@ -29714,7 +31461,12 @@
       "id": "white-clothing",
       "term_ko": "흰 옷",
       "term_en": "white clothing",
-      "aliases": [],
+      "aliases": [
+        "흰옷",
+        "백의",
+        "소복",
+        "하얀옷"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -29757,7 +31509,15 @@
       "id": "wicked-person",
       "term_ko": "악인",
       "term_en": "wicked person",
-      "aliases": [],
+      "aliases": [
+        "악당",
+        "나쁜 사람",
+        "악한 사람",
+        "못된",
+        "악인",
+        "나쁜사람",
+        "흉악"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -29800,7 +31560,12 @@
       "id": "wife",
       "term_ko": "아내",
       "term_en": "wife",
-      "aliases": [],
+      "aliases": [
+        "부인",
+        "마누라",
+        "와이프",
+        "집사람"
+      ],
       "category": "person",
       "polarity": "ambivalent",
       "works": [
@@ -29843,7 +31608,12 @@
       "id": "abroad",
       "term_ko": "외국",
       "term_en": "abroad",
-      "aliases": [],
+      "aliases": [
+        "해외",
+        "타국",
+        "외국여행",
+        "이국땅"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -29872,7 +31642,12 @@
       "id": "abundance",
       "term_ko": "풍요",
       "term_en": "abundance",
-      "aliases": [],
+      "aliases": [
+        "풍족",
+        "넉넉함",
+        "풍성",
+        "부족함 없"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -29901,7 +31676,11 @@
       "id": "adamant",
       "term_ko": "아다만트",
       "term_en": "adamant",
-      "aliases": [],
+      "aliases": [
+        "아주 단단한 돌",
+        "금강석",
+        "깨지지 않는 돌"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -29930,7 +31709,12 @@
       "id": "admire",
       "term_ko": "흠모",
       "term_en": "admire",
-      "aliases": [],
+      "aliases": [
+        "동경",
+        "우러러",
+        "찬사를 받",
+        "선망"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -29959,7 +31743,12 @@
       "id": "admonish",
       "term_ko": "훈계",
       "term_en": "admonish",
-      "aliases": [],
+      "aliases": [
+        "타이르",
+        "꾸짖",
+        "나무라",
+        "충고"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -29988,7 +31777,12 @@
       "id": "advocate",
       "term_ko": "옹호",
       "term_en": "advocate",
-      "aliases": [],
+      "aliases": [
+        "변호",
+        "두둔",
+        "편들",
+        "지지 발언"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -30017,7 +31811,11 @@
       "id": "agate",
       "term_ko": "마노",
       "term_en": "agate",
-      "aliases": [],
+      "aliases": [
+        "마노석",
+        "마노 구슬",
+        "줄무늬 돌"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -30046,7 +31844,12 @@
       "id": "alarm-bell",
       "term_ko": "경종",
       "term_en": "alarm bell",
-      "aliases": [],
+      "aliases": [
+        "비상종",
+        "경보음",
+        "알람 소리",
+        "종을 울려"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -30075,7 +31878,12 @@
       "id": "ale-house",
       "term_ko": "선술집",
       "term_en": "ale-house",
-      "aliases": [],
+      "aliases": [
+        "술집",
+        "주점",
+        "맥줏집",
+        "목로주점"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30104,7 +31912,11 @@
       "id": "alligator",
       "term_ko": "악어",
       "term_en": "alligator",
-      "aliases": [],
+      "aliases": [
+        "악어떼",
+        "크로커다일",
+        "악어 입"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -30133,7 +31945,11 @@
       "id": "alms-house",
       "term_ko": "구빈원",
       "term_en": "alms-house",
-      "aliases": [],
+      "aliases": [
+        "빈민 구제소",
+        "자선원",
+        "양로원"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30162,7 +31978,11 @@
       "id": "america",
       "term_ko": "미국",
       "term_en": "america",
-      "aliases": [],
+      "aliases": [
+        "아메리카",
+        "미합중국",
+        "미국 땅"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30191,7 +32011,13 @@
       "id": "ancestor",
       "term_ko": "조상",
       "term_en": "ancestor",
-      "aliases": [],
+      "aliases": [
+        "선조",
+        "조상님",
+        "돌아가신",
+        "선친",
+        "조상님들"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -30220,7 +32046,11 @@
       "id": "ancestral-rite",
       "term_ko": "제사",
       "term_en": "ancestral rite",
-      "aliases": [],
+      "aliases": [
+        "제례",
+        "제향",
+        "차례상"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -30249,7 +32079,12 @@
       "id": "apprentice",
       "term_ko": "견습생",
       "term_en": "apprentice",
-      "aliases": [],
+      "aliases": [
+        "수습생",
+        "도제",
+        "견습공",
+        "제자로 일"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -30278,7 +32113,12 @@
       "id": "arm",
       "term_ko": "팔",
       "term_en": "arm",
-      "aliases": [],
+      "aliases": [
+        "팔뚝",
+        "양팔",
+        "두 팔",
+        "팔목"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -30307,7 +32147,12 @@
       "id": "aroma",
       "term_ko": "향기",
       "term_en": "aroma",
-      "aliases": [],
+      "aliases": [
+        "좋은 냄새",
+        "향내",
+        "달콤한 냄새",
+        "은은한 향"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -30336,7 +32181,12 @@
       "id": "art-gallery",
       "term_ko": "미술관",
       "term_en": "art gallery",
-      "aliases": [],
+      "aliases": [
+        "화랑",
+        "갤러리",
+        "그림 전시",
+        "전시회"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30365,7 +32215,12 @@
       "id": "asceticism",
       "term_ko": "금욕주의",
       "term_en": "asceticism",
-      "aliases": [],
+      "aliases": [
+        "금욕",
+        "고행",
+        "절제 생활",
+        "수도 생활"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30394,7 +32249,12 @@
       "id": "ashes",
       "term_ko": "재",
       "term_en": "ashes",
-      "aliases": [],
+      "aliases": [
+        "잿더미",
+        "재가루",
+        "타고 남은 재",
+        "화산재"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -30423,7 +32283,11 @@
       "id": "asia",
       "term_ko": "아시아",
       "term_en": "asia",
-      "aliases": [],
+      "aliases": [
+        "아시아 대륙",
+        "동양",
+        "아시아 여행"
+      ],
       "category": "place",
       "polarity": "neutral",
       "works": [
@@ -30452,7 +32316,11 @@
       "id": "asylum",
       "term_ko": "정신병원",
       "term_en": "asylum",
-      "aliases": [],
+      "aliases": [
+        "정신 병동",
+        "정신 요양원",
+        "수용소"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30481,7 +32349,11 @@
       "id": "atlas",
       "term_ko": "지도책",
       "term_en": "atlas",
-      "aliases": [],
+      "aliases": [
+        "지도첩",
+        "세계 지도",
+        "지도를 펼"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -30510,7 +32382,12 @@
       "id": "augur",
       "term_ko": "점쟁이",
       "term_en": "augur",
-      "aliases": [],
+      "aliases": [
+        "복술가",
+        "예언자",
+        "역술가",
+        "점술가"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -30539,7 +32416,11 @@
       "id": "aura",
       "term_ko": "아우라(기운)",
       "term_en": "aura",
-      "aliases": [],
+      "aliases": [
+        "영기",
+        "기운의 빛",
+        "몸을 감싼 기운"
+      ],
       "category": "body",
       "polarity": "neutral",
       "works": [
@@ -30597,7 +32478,11 @@
       "id": "baby-carriage",
       "term_ko": "유모차",
       "term_en": "baby carriage",
-      "aliases": [],
+      "aliases": [
+        "유아차",
+        "아기 수레",
+        "아기차를 밀"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -30626,7 +32511,10 @@
       "id": "badger",
       "term_ko": "오소리",
       "term_en": "badger",
-      "aliases": [],
+      "aliases": [
+        "오소리굴",
+        "오소리 한 마리"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -30655,7 +32543,11 @@
       "id": "bagpipe",
       "term_ko": "백파이프",
       "term_en": "bagpipe",
-      "aliases": [],
+      "aliases": [
+        "백파이프 소리",
+        "스코틀랜드 피리",
+        "풍적"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -30684,7 +32576,12 @@
       "id": "baking",
       "term_ko": "빵 굽기",
       "term_en": "baking",
-      "aliases": [],
+      "aliases": [
+        "빵을 굽",
+        "제빵",
+        "오븐에 굽",
+        "빵 만들"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30713,7 +32610,11 @@
       "id": "ball-game",
       "term_ko": "공놀이",
       "term_en": "ball game",
-      "aliases": [],
+      "aliases": [
+        "공차기",
+        "공던지기",
+        "공을 치"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30742,7 +32643,11 @@
       "id": "ballet",
       "term_ko": "발레",
       "term_en": "ballet",
-      "aliases": [],
+      "aliases": [
+        "발레 공연",
+        "발레리나",
+        "무용 공연"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30771,7 +32676,10 @@
       "id": "bamboo",
       "term_ko": "대나무",
       "term_en": "bamboo",
-      "aliases": [],
+      "aliases": [
+        "대숲",
+        "죽림"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -30800,7 +32708,10 @@
       "id": "bamboo-blind",
       "term_ko": "발",
       "term_en": "bamboo blind",
-      "aliases": [],
+      "aliases": [
+        "주렴",
+        "대발"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -30829,7 +32740,11 @@
       "id": "banjo",
       "term_ko": "밴조",
       "term_en": "banjo",
-      "aliases": [],
+      "aliases": [
+        "밴조 연주",
+        "벤조",
+        "현악기 밴조"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -30858,7 +32773,12 @@
       "id": "bankrupt",
       "term_ko": "파산",
       "term_en": "bankrupt",
-      "aliases": [],
+      "aliases": [
+        "부도",
+        "빚더미",
+        "망했",
+        "파산 선고"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30887,7 +32807,11 @@
       "id": "barefoot",
       "term_ko": "맨발",
       "term_en": "barefoot",
-      "aliases": [],
+      "aliases": [
+        "신발 없이",
+        "맨발로 걷",
+        "벗은 발"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -30916,7 +32840,12 @@
       "id": "basement",
       "term_ko": "지하실",
       "term_en": "basement",
-      "aliases": [],
+      "aliases": [
+        "지하 창고",
+        "지하층",
+        "반지하",
+        "지하방"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -30945,7 +32874,11 @@
       "id": "bay-tree",
       "term_ko": "월계수",
       "term_en": "bay tree",
-      "aliases": [],
+      "aliases": [
+        "월계수 나무",
+        "월계관",
+        "베이 트리"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -30974,7 +32907,11 @@
       "id": "bayonet",
       "term_ko": "총검",
       "term_en": "bayonet",
-      "aliases": [],
+      "aliases": [
+        "대검",
+        "총에 꽂은 칼",
+        "착검"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31003,7 +32940,11 @@
       "id": "beating-someone",
       "term_ko": "때림",
       "term_en": "beating someone",
-      "aliases": [],
+      "aliases": [
+        "때리기",
+        "손찌검",
+        "주먹질"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -31032,7 +32973,12 @@
       "id": "bedchamber",
       "term_ko": "침실",
       "term_en": "bedchamber",
-      "aliases": [],
+      "aliases": [
+        "안방",
+        "잠자는 방",
+        "규방",
+        "침소"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -31060,7 +33006,12 @@
       "id": "being-bound",
       "term_ko": "묶임",
       "term_en": "being bound",
-      "aliases": [],
+      "aliases": [
+        "결박",
+        "포박",
+        "밧줄에",
+        "묶여"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -31089,7 +33040,13 @@
       "id": "being-humiliated",
       "term_ko": "천대받음",
       "term_en": "being humiliated",
-      "aliases": [],
+      "aliases": [
+        "천대",
+        "멸시",
+        "홀대",
+        "무시당",
+        "업신여"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31118,7 +33075,15 @@
       "id": "being-killed",
       "term_ko": "죽임을 당함",
       "term_en": "being killed",
-      "aliases": [],
+      "aliases": [
+        "살해당",
+        "피살",
+        "죽임을당",
+        "살해당했다",
+        "살해당하는",
+        "살해됐다",
+        "죽임을 당했다"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31153,7 +33118,12 @@
       "id": "being-punished",
       "term_ko": "벌 받음",
       "term_en": "being punished",
-      "aliases": [],
+      "aliases": [
+        "벌을 받았다",
+        "벌을 받는",
+        "처벌을 받았다",
+        "혼났다"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31182,7 +33152,11 @@
       "id": "being-stabbed",
       "term_ko": "찔림",
       "term_en": "being stabbed",
-      "aliases": [],
+      "aliases": [
+        "찔렸",
+        "찔려",
+        "찔린"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31211,7 +33185,12 @@
       "id": "being-taught-letters",
       "term_ko": "글을 배움",
       "term_en": "being taught letters",
-      "aliases": [],
+      "aliases": [
+        "글공부",
+        "글씨공부",
+        "학문",
+        "글자를 배"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31240,7 +33219,12 @@
       "id": "bequest",
       "term_ko": "유산",
       "term_en": "bequest",
-      "aliases": [],
+      "aliases": [
+        "증여",
+        "물려받",
+        "상속",
+        "유언으로 남"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -31268,7 +33252,12 @@
       "id": "birthday",
       "term_ko": "생일",
       "term_en": "birthday",
-      "aliases": [],
+      "aliases": [
+        "생신",
+        "생일잔치",
+        "태어난 날",
+        "돌잔치"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -31297,7 +33286,12 @@
       "id": "biscuit",
       "term_ko": "비스킷",
       "term_en": "biscuit",
-      "aliases": [],
+      "aliases": [
+        "과자",
+        "쿠키",
+        "건빵",
+        "비스켓"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31326,7 +33320,12 @@
       "id": "bite",
       "term_ko": "물림",
       "term_en": "bite",
-      "aliases": [],
+      "aliases": [
+        "물렸",
+        "물리는",
+        "깨물",
+        "물어뜯"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -31355,7 +33354,12 @@
       "id": "black-clothing",
       "term_ko": "검은 옷",
       "term_en": "black clothing",
-      "aliases": [],
+      "aliases": [
+        "검은옷",
+        "검정옷",
+        "흑의",
+        "까만옷"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -31384,7 +33388,11 @@
       "id": "blackboard",
       "term_ko": "칠판",
       "term_en": "blackboard",
-      "aliases": [],
+      "aliases": [
+        "흑판",
+        "분필 글씨",
+        "교실 칠판"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31413,7 +33421,12 @@
       "id": "blacksmith",
       "term_ko": "대장장이",
       "term_en": "blacksmith",
-      "aliases": [],
+      "aliases": [
+        "대장간",
+        "풀무질하는 사람",
+        "쇠붙이 벼리",
+        "편자공"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -31442,7 +33455,12 @@
       "id": "bleating",
       "term_ko": "짐승 울음소리",
       "term_en": "bleating",
-      "aliases": [],
+      "aliases": [
+        "염소 울음",
+        "양이 우는 소리",
+        "새끼 짐승 울음",
+        "매애"
+      ],
       "category": "animal",
       "polarity": "neutral",
       "works": [
@@ -31471,7 +33489,12 @@
       "id": "bleeding",
       "term_ko": "출혈",
       "term_en": "bleeding",
-      "aliases": [],
+      "aliases": [
+        "피를 흘리",
+        "피가 나",
+        "코피",
+        "유혈"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -31500,7 +33523,11 @@
       "id": "blind-man-s-buff",
       "term_ko": "술래잡기",
       "term_en": "blind man's buff",
-      "aliases": [],
+      "aliases": [
+        "숨바꼭질",
+        "눈 가리고 하는 놀이",
+        "술래가 되"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -31529,7 +33556,11 @@
       "id": "blindfold",
       "term_ko": "눈가리개",
       "term_en": "blindfold",
-      "aliases": [],
+      "aliases": [
+        "눈을 가리",
+        "안대",
+        "눈이 가려"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31558,7 +33589,12 @@
       "id": "blossoms",
       "term_ko": "꽃(개화)",
       "term_en": "blossoms",
-      "aliases": [],
+      "aliases": [
+        "꽃이 핀",
+        "개화",
+        "만개",
+        "꽃망울"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -31587,7 +33623,12 @@
       "id": "blue",
       "term_ko": "푸른색",
       "term_en": "blue",
-      "aliases": [],
+      "aliases": [
+        "파란색",
+        "파랑",
+        "청색",
+        "푸른빛"
+      ],
       "category": "color",
       "polarity": "positive",
       "works": [
@@ -31616,7 +33657,12 @@
       "id": "boarding-house",
       "term_ko": "하숙집",
       "term_en": "boarding house",
-      "aliases": [],
+      "aliases": [
+        "하숙",
+        "여인숙",
+        "셋방살이 집",
+        "기숙사"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -31645,7 +33691,11 @@
       "id": "bobbin",
       "term_ko": "보빈",
       "term_en": "bobbin",
-      "aliases": [],
+      "aliases": [
+        "실꾸리",
+        "실감개",
+        "실을 감는 통"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -31674,7 +33724,10 @@
       "id": "bodhisattva",
       "term_ko": "보살",
       "term_en": "bodhisattva",
-      "aliases": [],
+      "aliases": [
+        "관음",
+        "관세음"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -31703,7 +33756,11 @@
       "id": "body",
       "term_ko": "몸",
       "term_en": "body",
-      "aliases": [],
+      "aliases": [
+        "신체",
+        "육신",
+        "온몸"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -31732,7 +33789,12 @@
       "id": "bog",
       "term_ko": "늪지",
       "term_en": "bog",
-      "aliases": [],
+      "aliases": [
+        "수렁",
+        "습지",
+        "진창 늪",
+        "늪에 빠"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -31761,7 +33823,11 @@
       "id": "bomb-shell",
       "term_ko": "폭탄",
       "term_en": "bomb shell",
-      "aliases": [],
+      "aliases": [
+        "폭탄이 터지",
+        "포탄",
+        "폭발물"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31790,7 +33856,11 @@
       "id": "book-store",
       "term_ko": "서점",
       "term_en": "book store",
-      "aliases": [],
+      "aliases": [
+        "책방",
+        "서적상",
+        "헌책방"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -31819,7 +33889,10 @@
       "id": "bowl",
       "term_ko": "사발",
       "term_en": "bowl",
-      "aliases": [],
+      "aliases": [
+        "대접",
+        "밥그릇"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -31848,7 +33921,11 @@
       "id": "brambles",
       "term_ko": "가시덤불",
       "term_en": "brambles",
-      "aliases": [],
+      "aliases": [
+        "가시넝쿨",
+        "산딸기 덤불",
+        "넝쿨에 얽"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -31877,7 +33954,11 @@
       "id": "brandy",
       "term_ko": "브랜디",
       "term_en": "brandy",
-      "aliases": [],
+      "aliases": [
+        "코냑",
+        "브랜디 한 잔",
+        "양주 브랜디"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -31906,7 +33987,12 @@
       "id": "brass",
       "term_ko": "황동",
       "term_en": "brass",
-      "aliases": [],
+      "aliases": [
+        "놋쇠",
+        "놋그릇",
+        "구리 합금",
+        "황동빛"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -31935,7 +34021,11 @@
       "id": "bray",
       "term_ko": "당나귀 울음소리",
       "term_en": "bray",
-      "aliases": [],
+      "aliases": [
+        "당나귀 울음",
+        "나귀가 우",
+        "히힝 우는 소리"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -31964,7 +34054,11 @@
       "id": "bronze-pot",
       "term_ko": "구리 솥",
       "term_en": "bronze pot",
-      "aliases": [],
+      "aliases": [
+        "구리솥",
+        "놋솥",
+        "청동솥"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -31993,7 +34087,11 @@
       "id": "brothel",
       "term_ko": "유곽",
       "term_en": "brothel",
-      "aliases": [],
+      "aliases": [
+        "기생집",
+        "매춘굴",
+        "홍등가"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -32022,7 +34120,12 @@
       "id": "brushing-teeth",
       "term_ko": "양치질",
       "term_en": "brushing teeth",
-      "aliases": [],
+      "aliases": [
+        "양치",
+        "칫솔",
+        "이를 닦",
+        "이빨을 닦"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -32051,7 +34154,11 @@
       "id": "buckle",
       "term_ko": "버클",
       "term_en": "buckle",
-      "aliases": [],
+      "aliases": [
+        "허리띠 고리",
+        "벨트 버클",
+        "죔쇠"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32080,7 +34187,11 @@
       "id": "buckwheat",
       "term_ko": "메밀",
       "term_en": "buckwheat",
-      "aliases": [],
+      "aliases": [
+        "메밀국수",
+        "메밀묵",
+        "막국수"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -32109,7 +34220,12 @@
       "id": "bullock",
       "term_ko": "거세한 소",
       "term_en": "bullock",
-      "aliases": [],
+      "aliases": [
+        "거세우",
+        "황소",
+        "수소",
+        "부린 소"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -32138,7 +34254,11 @@
       "id": "burr",
       "term_ko": "가시열매",
       "term_en": "burr",
-      "aliases": [],
+      "aliases": [
+        "도꼬마리",
+        "옷에 붙는 가시",
+        "가시 씨앗"
+      ],
       "category": "nature",
       "polarity": "neutral",
       "works": [
@@ -32167,7 +34287,10 @@
       "id": "butterfly",
       "term_ko": "나비",
       "term_en": "butterfly",
-      "aliases": [],
+      "aliases": [
+        "호랑나비",
+        "흰나비"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -32225,13 +34348,18 @@
       "id": "carp",
       "term_ko": "잉어",
       "term_en": "carp",
-      "aliases": [],
+      "aliases": [
+        "비단잉어",
+        "황금잉어"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -32254,7 +34382,11 @@
       "id": "cat",
       "term_ko": "고양이",
       "term_en": "cat",
-      "aliases": [],
+      "aliases": [
+        "길고양이",
+        "새끼고양이",
+        "야옹이"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -32283,7 +34415,9 @@
       "id": "centipede",
       "term_ko": "지네",
       "term_en": "centipede",
-      "aliases": [],
+      "aliases": [
+        "왕지네"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -32312,7 +34446,11 @@
       "id": "chicken-meat",
       "term_ko": "닭고기",
       "term_en": "chicken meat",
-      "aliases": [],
+      "aliases": [
+        "계육",
+        "닭요리",
+        "치킨"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -32340,8 +34478,10 @@
     {
       "id": "chinese-onion",
       "term_ko": "염교",
-      "term_en": "Chinese onion",
-      "aliases": [],
+      "term_en": "chinese onion",
+      "aliases": [
+        "락교"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32370,7 +34510,9 @@
       "id": "chives",
       "term_ko": "부추",
       "term_en": "chives",
-      "aliases": [],
+      "aliases": [
+        "정구지"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32399,7 +34541,9 @@
       "id": "chopsticks",
       "term_ko": "젓가락",
       "term_en": "chopsticks",
-      "aliases": [],
+      "aliases": [
+        "수저"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -32486,7 +34630,11 @@
       "id": "cleaning",
       "term_ko": "청소",
       "term_en": "cleaning",
-      "aliases": [],
+      "aliases": [
+        "대청소",
+        "물청소",
+        "쓸고 닦"
+      ],
       "category": "action",
       "polarity": "neutral",
       "works": [
@@ -32515,7 +34663,11 @@
       "id": "club",
       "term_ko": "몽둥이",
       "term_en": "club",
-      "aliases": [],
+      "aliases": [
+        "방망이",
+        "곤봉",
+        "막대기"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32544,7 +34696,12 @@
       "id": "combing-one-s-hair",
       "term_ko": "머리 빗기",
       "term_en": "combing one's hair",
-      "aliases": [],
+      "aliases": [
+        "빗질",
+        "머리를 빗",
+        "참빗",
+        "얼레빗"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -32573,7 +34730,12 @@
       "id": "condolence-visit",
       "term_ko": "문상",
       "term_en": "condolence visit",
-      "aliases": [],
+      "aliases": [
+        "조문",
+        "빈소",
+        "장례식장",
+        "상갓집"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -32602,7 +34764,11 @@
       "id": "cooked-rice",
       "term_ko": "밥",
       "term_en": "cooked rice",
-      "aliases": [],
+      "aliases": [
+        "쌀밥",
+        "공깃밥",
+        "진지"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32631,7 +34797,10 @@
       "id": "copper",
       "term_ko": "구리",
       "term_en": "copper",
-      "aliases": [],
+      "aliases": [
+        "청동",
+        "놋쇠"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -32660,7 +34829,12 @@
       "id": "crab",
       "term_ko": "게",
       "term_en": "crab",
-      "aliases": [],
+      "aliases": [
+        "꽃게",
+        "대게",
+        "참게",
+        "게장"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -32718,7 +34892,9 @@
       "id": "crow",
       "term_ko": "까마귀",
       "term_en": "crow",
-      "aliases": [],
+      "aliases": [
+        "갈까마귀"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -32747,7 +34923,11 @@
       "id": "crown-prince",
       "term_ko": "태자",
       "term_en": "crown prince",
-      "aliases": [],
+      "aliases": [
+        "세자",
+        "왕세자",
+        "황태자"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -32776,7 +34956,12 @@
       "id": "cup",
       "term_ko": "잔",
       "term_en": "cup",
-      "aliases": [],
+      "aliases": [
+        "술잔",
+        "찻잔",
+        "유리잔",
+        "머그"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -32805,7 +34990,9 @@
       "id": "cypress-tree",
       "term_ko": "측백나무",
       "term_en": "cypress tree",
-      "aliases": [],
+      "aliases": [
+        "측백"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -32834,7 +35021,12 @@
       "id": "dairy-food",
       "term_ko": "유제품",
       "term_en": "dairy food",
-      "aliases": [],
+      "aliases": [
+        "우유",
+        "치즈",
+        "버터",
+        "요구르트"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -32863,7 +35055,11 @@
       "id": "dance",
       "term_ko": "춤",
       "term_en": "dance",
-      "aliases": [],
+      "aliases": [
+        "무용",
+        "댄스",
+        "춤사위"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -32891,8 +35087,10 @@
     {
       "id": "daoist-temple",
       "term_ko": "도교 사원",
-      "term_en": "Daoist temple",
-      "aliases": [],
+      "term_en": "daoist temple",
+      "aliases": [
+        "도관"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -32921,7 +35119,14 @@
       "id": "deceased-elder",
       "term_ko": "돌아가신 어른",
       "term_en": "deceased elder",
-      "aliases": [],
+      "aliases": [
+        "조상",
+        "선친",
+        "망자",
+        "고인",
+        "돌아가신",
+        "웃어른"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -32950,7 +35155,12 @@
       "id": "divination",
       "term_ko": "점치기",
       "term_en": "divination",
-      "aliases": [],
+      "aliases": [
+        "점집",
+        "점쟁이",
+        "운세",
+        "점을 치"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -32979,7 +35189,10 @@
       "id": "divine-woman",
       "term_ko": "신녀",
       "term_en": "divine woman",
-      "aliases": [],
+      "aliases": [
+        "선녀",
+        "무녀"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -33008,7 +35221,11 @@
       "id": "document",
       "term_ko": "문서",
       "term_en": "document",
-      "aliases": [],
+      "aliases": [
+        "서류",
+        "증서",
+        "계약서"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33037,7 +35254,11 @@
       "id": "dog-meat",
       "term_ko": "개고기",
       "term_en": "dog meat",
-      "aliases": [],
+      "aliases": [
+        "보신탕",
+        "개장국",
+        "영양탕"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33095,7 +35316,10 @@
       "id": "dragonfly",
       "term_ko": "잠자리",
       "term_en": "dragonfly",
-      "aliases": [],
+      "aliases": [
+        "고추잠자리",
+        "왕잠자리"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -33124,7 +35348,11 @@
       "id": "duck-meat",
       "term_ko": "오리고기",
       "term_en": "duck meat",
-      "aliases": [],
+      "aliases": [
+        "오리",
+        "오리탕",
+        "훈제오리"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33153,7 +35381,10 @@
       "id": "dung-beetle",
       "term_ko": "쇠똥구리",
       "term_en": "dung beetle",
-      "aliases": [],
+      "aliases": [
+        "말똥구리",
+        "똥구리"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -33240,7 +35471,11 @@
       "id": "elder",
       "term_ko": "웃어른",
       "term_en": "elder",
-      "aliases": [],
+      "aliases": [
+        "어르신",
+        "윗어른",
+        "연장자"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -33298,7 +35533,11 @@
       "id": "envoy",
       "term_ko": "사신",
       "term_en": "envoy",
-      "aliases": [],
+      "aliases": [
+        "사절",
+        "특사",
+        "칙사"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -33356,7 +35595,9 @@
       "id": "face",
       "term_ko": "얼굴",
       "term_en": "face",
-      "aliases": [],
+      "aliases": [
+        "안면"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -33385,7 +35626,11 @@
       "id": "fermentation-starter",
       "term_ko": "누룩",
       "term_en": "fermentation starter",
-      "aliases": [],
+      "aliases": [
+        "효모",
+        "술밑",
+        "곡자"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33414,7 +35659,12 @@
       "id": "fermented-soybean-paste",
       "term_ko": "장",
       "term_en": "fermented soybean paste",
-      "aliases": [],
+      "aliases": [
+        "된장",
+        "간장",
+        "고추장",
+        "메주"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33443,7 +35693,9 @@
       "id": "fireworks",
       "term_ko": "불꽃놀이",
       "term_en": "fireworks",
-      "aliases": [],
+      "aliases": [
+        "폭죽"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33501,7 +35753,11 @@
       "id": "fleeing",
       "term_ko": "달아남",
       "term_en": "fleeing",
-      "aliases": [],
+      "aliases": [
+        "도망",
+        "도주",
+        "탈출"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -33530,7 +35786,9 @@
       "id": "flower-ornament",
       "term_ko": "꽃 장식",
       "term_en": "flower ornament",
-      "aliases": [],
+      "aliases": [
+        "화관"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33559,7 +35817,10 @@
       "id": "fly",
       "term_ko": "파리",
       "term_en": "fly",
-      "aliases": [],
+      "aliases": [
+        "똥파리",
+        "쉬파리"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -33588,7 +35849,10 @@
       "id": "fog",
       "term_ko": "안개",
       "term_en": "fog",
-      "aliases": [],
+      "aliases": [
+        "운무",
+        "자욱"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -33617,7 +35881,12 @@
       "id": "food",
       "term_ko": "음식",
       "term_en": "food",
-      "aliases": [],
+      "aliases": [
+        "먹을 것",
+        "밥상",
+        "식사",
+        "요리"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33646,7 +35915,11 @@
       "id": "frost",
       "term_ko": "서리",
       "term_en": "frost",
-      "aliases": [],
+      "aliases": [
+        "된서리",
+        "무서리",
+        "서릿발"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -33675,7 +35948,12 @@
       "id": "funeral-carriage",
       "term_ko": "상여",
       "term_en": "funeral carriage",
-      "aliases": [],
+      "aliases": [
+        "꽃상여",
+        "영구차",
+        "운구",
+        "장례행렬"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33704,7 +35982,13 @@
       "id": "funeral-mourning",
       "term_ko": "상",
       "term_en": "funeral mourning",
-      "aliases": [],
+      "aliases": [
+        "장례",
+        "초상",
+        "상갓집",
+        "문상",
+        "빈소"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -33733,7 +36017,11 @@
       "id": "garden",
       "term_ko": "동산",
       "term_en": "garden",
-      "aliases": [],
+      "aliases": [
+        "정원",
+        "화원",
+        "뒷동산"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -33762,7 +36050,10 @@
       "id": "garlic",
       "term_ko": "마늘",
       "term_en": "garlic",
-      "aliases": [],
+      "aliases": [
+        "통마늘",
+        "깐마늘"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33791,7 +36082,10 @@
       "id": "go-stone",
       "term_ko": "바둑돌",
       "term_en": "go stone",
-      "aliases": [],
+      "aliases": [
+        "바둑알",
+        "바둑"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33820,7 +36114,13 @@
       "id": "gold-ornament",
       "term_ko": "금장신구",
       "term_en": "gold ornament",
-      "aliases": [],
+      "aliases": [
+        "금장식",
+        "금붙이",
+        "금목걸이",
+        "금반지",
+        "금비녀"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -33878,7 +36178,11 @@
       "id": "green-onion",
       "term_ko": "파",
       "term_en": "green onion",
-      "aliases": [],
+      "aliases": [
+        "대파",
+        "쪽파",
+        "실파"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33907,7 +36211,11 @@
       "id": "hand",
       "term_ko": "손",
       "term_en": "hand",
-      "aliases": [],
+      "aliases": [
+        "손바닥",
+        "양손",
+        "두손"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -33936,7 +36244,9 @@
       "id": "handkerchief",
       "term_ko": "손수건",
       "term_en": "handkerchief",
-      "aliases": [],
+      "aliases": [
+        "수건"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -33971,7 +36281,11 @@
       "id": "heaven-and-earth",
       "term_ko": "천지",
       "term_en": "heaven and earth",
-      "aliases": [],
+      "aliases": [
+        "하늘과 땅",
+        "온 세상",
+        "천지사방"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -34000,7 +36314,10 @@
       "id": "heavenly-messenger",
       "term_ko": "하늘의 사자",
       "term_en": "heavenly messenger",
-      "aliases": [],
+      "aliases": [
+        "천사",
+        "천신"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -34029,7 +36346,10 @@
       "id": "hemp-clothes",
       "term_ko": "삼베옷",
       "term_en": "hemp clothes",
-      "aliases": [],
+      "aliases": [
+        "삼베",
+        "베옷"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -34058,7 +36378,11 @@
       "id": "hiding",
       "term_ko": "숨음",
       "term_en": "hiding",
-      "aliases": [],
+      "aliases": [
+        "은신",
+        "숨어",
+        "숨었"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -34087,7 +36411,10 @@
       "id": "honey",
       "term_ko": "꿀",
       "term_en": "honey",
-      "aliases": [],
+      "aliases": [
+        "벌꿀",
+        "꿀물"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34145,7 +36472,9 @@
       "id": "house-centipede",
       "term_ko": "그리마",
       "term_en": "house centipede",
-      "aliases": [],
+      "aliases": [
+        "돈벌레"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -34174,7 +36503,12 @@
       "id": "household",
       "term_ko": "집안",
       "term_en": "household",
-      "aliases": [],
+      "aliases": [
+        "가정",
+        "살림",
+        "가세",
+        "집안 형편"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -34203,7 +36537,11 @@
       "id": "hunting",
       "term_ko": "사냥",
       "term_en": "hunting",
-      "aliases": [],
+      "aliases": [
+        "수렵",
+        "사냥꾼",
+        "몰이"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -34232,7 +36570,12 @@
       "id": "husband",
       "term_ko": "남편",
       "term_en": "husband",
-      "aliases": [],
+      "aliases": [
+        "신랑",
+        "서방",
+        "배우자",
+        "지아비"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -34261,7 +36604,12 @@
       "id": "incense",
       "term_ko": "향",
       "term_en": "incense",
-      "aliases": [],
+      "aliases": [
+        "향불",
+        "향내",
+        "분향",
+        "향로"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34290,7 +36638,11 @@
       "id": "indigo-clothing",
       "term_ko": "쪽빛 옷",
       "term_en": "indigo clothing",
-      "aliases": [],
+      "aliases": [
+        "남색 옷",
+        "쪽빛옷",
+        "남빛 옷"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34319,7 +36671,9 @@
       "id": "ink-stick",
       "term_ko": "먹",
       "term_en": "ink stick",
-      "aliases": [],
+      "aliases": [
+        "먹물"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34377,7 +36731,10 @@
       "id": "iron",
       "term_ko": "다리미",
       "term_en": "iron",
-      "aliases": [],
+      "aliases": [
+        "인두",
+        "다림질"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34406,7 +36763,11 @@
       "id": "iron-2",
       "term_ko": "쇠붙이",
       "term_en": "iron",
-      "aliases": [],
+      "aliases": [
+        "쇳덩이",
+        "철제",
+        "무쇠"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34435,7 +36796,11 @@
       "id": "jade-vessel",
       "term_ko": "옥그릇",
       "term_en": "jade vessel",
-      "aliases": [],
+      "aliases": [
+        "옥잔",
+        "옥기",
+        "옥돌그릇"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34464,7 +36829,11 @@
       "id": "jar",
       "term_ko": "항아리",
       "term_en": "jar",
-      "aliases": [],
+      "aliases": [
+        "단지",
+        "옹기",
+        "독을"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34493,7 +36862,12 @@
       "id": "joy",
       "term_ko": "기쁨",
       "term_en": "joy",
-      "aliases": [],
+      "aliases": [
+        "기쁜",
+        "기뻐",
+        "경사",
+        "즐거"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -34528,7 +36902,9 @@
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -34551,7 +36927,11 @@
       "id": "lamp",
       "term_ko": "등불",
       "term_en": "lamp",
-      "aliases": [],
+      "aliases": [
+        "등잔",
+        "촛불",
+        "호롱불"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34580,7 +36960,11 @@
       "id": "lawsuit",
       "term_ko": "송사",
       "term_en": "lawsuit",
-      "aliases": [],
+      "aliases": [
+        "소송",
+        "재판",
+        "고소"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -34609,7 +36993,9 @@
       "id": "lead",
       "term_ko": "납",
       "term_en": "lead",
-      "aliases": [],
+      "aliases": [
+        "납덩이"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34667,7 +37053,11 @@
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
-      "aliases": [],
+      "aliases": [
+        "서신",
+        "서한",
+        "봉투"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34696,7 +37086,12 @@
       "id": "lightning",
       "term_ko": "번개",
       "term_en": "lightning",
-      "aliases": [],
+      "aliases": [
+        "벼락",
+        "번갯불",
+        "번갯빛",
+        "천둥번개"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -34725,7 +37120,10 @@
       "id": "lion",
       "term_ko": "사자",
       "term_en": "lion",
-      "aliases": [],
+      "aliases": [
+        "숫사자",
+        "암사자"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -34783,7 +37181,9 @@
       "id": "mandarin-duck",
       "term_ko": "원앙",
       "term_en": "mandarin duck",
-      "aliases": [],
+      "aliases": [
+        "원앙새"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -34812,7 +37212,9 @@
       "id": "maple-tree",
       "term_ko": "단풍나무",
       "term_en": "maple tree",
-      "aliases": [],
+      "aliases": [
+        "단풍"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -34841,7 +37243,11 @@
       "id": "mattress",
       "term_ko": "요",
       "term_en": "mattress",
-      "aliases": [],
+      "aliases": [
+        "이부자리",
+        "매트리스",
+        "깔개"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34870,7 +37276,10 @@
       "id": "milk",
       "term_ko": "젖",
       "term_en": "milk",
-      "aliases": [],
+      "aliases": [
+        "모유",
+        "우유"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -34899,7 +37308,9 @@
       "id": "millstone",
       "term_ko": "맷돌",
       "term_en": "millstone",
-      "aliases": [],
+      "aliases": [
+        "연자방아"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -34957,7 +37368,11 @@
       "id": "mortar",
       "term_ko": "절구",
       "term_en": "mortar",
-      "aliases": [],
+      "aliases": [
+        "절구통",
+        "확독",
+        "방아"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -34986,7 +37401,9 @@
       "id": "mosquito",
       "term_ko": "모기",
       "term_en": "mosquito",
-      "aliases": [],
+      "aliases": [
+        "모기떼"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -35015,7 +37432,10 @@
       "id": "moth",
       "term_ko": "나방",
       "term_en": "moth",
-      "aliases": [],
+      "aliases": [
+        "부나비",
+        "불나비"
+      ],
       "category": "animal",
       "polarity": "neutral",
       "works": [
@@ -35044,7 +37464,10 @@
       "id": "mourning-clothes",
       "term_ko": "상복",
       "term_en": "mourning clothes",
-      "aliases": [],
+      "aliases": [
+        "소복",
+        "장례복"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35102,7 +37525,9 @@
       "id": "mulberry",
       "term_ko": "오디",
       "term_en": "mulberry",
-      "aliases": [],
+      "aliases": [
+        "뽕나무 열매"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35131,7 +37556,10 @@
       "id": "mulberry-tree",
       "term_ko": "뽕나무",
       "term_en": "mulberry tree",
-      "aliases": [],
+      "aliases": [
+        "뽕잎",
+        "뽕밭"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -35160,7 +37588,12 @@
       "id": "music",
       "term_ko": "풍악",
       "term_en": "music",
-      "aliases": [],
+      "aliases": [
+        "음악",
+        "악기",
+        "가락",
+        "연주"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -35189,7 +37622,12 @@
       "id": "naked-body",
       "term_ko": "알몸",
       "term_en": "naked body",
-      "aliases": [],
+      "aliases": [
+        "나체",
+        "맨몸",
+        "벌거벗은 몸",
+        "발가벗"
+      ],
       "category": "body",
       "polarity": "positive",
       "works": [
@@ -35218,7 +37656,11 @@
       "id": "needle",
       "term_ko": "바늘",
       "term_en": "needle",
-      "aliases": [],
+      "aliases": [
+        "바느질",
+        "재봉바늘",
+        "실바늘"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35247,7 +37689,12 @@
       "id": "newborn-baby",
       "term_ko": "갓난아이",
       "term_en": "newborn baby",
-      "aliases": [],
+      "aliases": [
+        "갓난아기",
+        "신생아",
+        "핏덩이",
+        "젖먹이"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -35276,7 +37723,12 @@
       "id": "official-post",
       "term_ko": "벼슬",
       "term_en": "official post",
-      "aliases": [],
+      "aliases": [
+        "관직",
+        "임관",
+        "승진",
+        "취임"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -35305,7 +37757,12 @@
       "id": "official-s-seat",
       "term_ko": "관청 자리",
       "term_en": "official's seat",
-      "aliases": [],
+      "aliases": [
+        "관직",
+        "벼슬자리",
+        "관아",
+        "공직"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35334,7 +37791,11 @@
       "id": "oil",
       "term_ko": "기름",
       "term_en": "oil",
-      "aliases": [],
+      "aliases": [
+        "참기름",
+        "들기름",
+        "식용유"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35363,7 +37824,9 @@
       "id": "orchard",
       "term_ko": "과수원",
       "term_en": "orchard",
-      "aliases": [],
+      "aliases": [
+        "과일밭"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -35392,7 +37855,11 @@
       "id": "orchid",
       "term_ko": "난초",
       "term_en": "orchid",
-      "aliases": [],
+      "aliases": [
+        "춘란",
+        "동양란",
+        "난화"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -35421,7 +37888,11 @@
       "id": "palace",
       "term_ko": "궁궐",
       "term_en": "palace",
-      "aliases": [],
+      "aliases": [
+        "대궐",
+        "궁전",
+        "왕궁"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -35450,7 +37921,11 @@
       "id": "paper-money",
       "term_ko": "지전",
       "term_en": "paper money",
-      "aliases": [],
+      "aliases": [
+        "지폐",
+        "종이돈",
+        "노잣돈"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35479,7 +37954,12 @@
       "id": "pardon",
       "term_ko": "사면",
       "term_en": "pardon",
-      "aliases": [],
+      "aliases": [
+        "특사",
+        "방면",
+        "용서",
+        "사면령"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -35508,7 +37988,9 @@
       "id": "parrot",
       "term_ko": "앵무새",
       "term_en": "parrot",
-      "aliases": [],
+      "aliases": [
+        "앵무"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -35537,13 +38019,19 @@
       "id": "peach",
       "term_ko": "복숭아",
       "term_en": "peach",
-      "aliases": [],
+      "aliases": [
+        "도화",
+        "복사꽃",
+        "천도"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
         "zhougong"
       ],
-      "tags": [],
+      "tags": [
+        "태몽"
+      ],
       "weight": 1,
       "meanings": [
         {
@@ -35566,7 +38054,12 @@
       "id": "pear",
       "term_ko": "배",
       "term_en": "pear",
-      "aliases": [],
+      "aliases": [
+        "배를 먹",
+        "서양배",
+        "돌배",
+        "배즙"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -35596,7 +38089,12 @@
       "id": "person-in-white",
       "term_ko": "흰옷 입은 사람",
       "term_en": "person in white",
-      "aliases": [],
+      "aliases": [
+        "하얀 옷 입은",
+        "흰옷 입은",
+        "소복 입은",
+        "백의"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -35625,7 +38123,9 @@
       "id": "pillow",
       "term_ko": "베개",
       "term_en": "pillow",
-      "aliases": [],
+      "aliases": [
+        "목침"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35654,7 +38154,10 @@
       "id": "pit",
       "term_ko": "구덩이",
       "term_en": "pit",
-      "aliases": [],
+      "aliases": [
+        "웅덩이",
+        "도랑"
+      ],
       "category": "place",
       "polarity": "negative",
       "works": [
@@ -35683,7 +38186,10 @@
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
-      "aliases": [],
+      "aliases": [
+        "사기접시",
+        "사기그릇"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -35712,7 +38218,11 @@
       "id": "poverty",
       "term_ko": "가난",
       "term_en": "poverty",
-      "aliases": [],
+      "aliases": [
+        "빈곤",
+        "궁핍",
+        "곤궁"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -35741,7 +38251,12 @@
       "id": "pregnancy",
       "term_ko": "임신",
       "term_en": "pregnancy",
-      "aliases": [],
+      "aliases": [
+        "임산부",
+        "임신부",
+        "출산",
+        "태몽"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -35770,7 +38285,12 @@
       "id": "prisoner",
       "term_ko": "죄인",
       "term_en": "prisoner",
-      "aliases": [],
+      "aliases": [
+        "수감자",
+        "죄수",
+        "범인",
+        "포로"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -35799,7 +38319,11 @@
       "id": "purple-clothing",
       "term_ko": "자줏빛 옷",
       "term_en": "purple clothing",
-      "aliases": [],
+      "aliases": [
+        "자주색",
+        "보라색",
+        "자색옷"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -35857,7 +38381,12 @@
       "id": "queen",
       "term_ko": "왕비",
       "term_en": "queen",
-      "aliases": [],
+      "aliases": [
+        "황후",
+        "왕후",
+        "중전",
+        "여왕"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -35886,7 +38415,11 @@
       "id": "quilt",
       "term_ko": "이불",
       "term_en": "quilt",
-      "aliases": [],
+      "aliases": [
+        "침구",
+        "금침",
+        "솜이불"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -35915,7 +38448,13 @@
       "id": "receiving-an-official-post",
       "term_ko": "관직을 받음",
       "term_en": "receiving an official post",
-      "aliases": [],
+      "aliases": [
+        "관직을 받았다",
+        "벼슬을 받았다",
+        "부임했다",
+        "임명받았다",
+        "승진했다"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -35944,7 +38483,12 @@
       "id": "red",
       "term_ko": "붉은색",
       "term_en": "red",
-      "aliases": [],
+      "aliases": [
+        "빨간색",
+        "붉은빛",
+        "빨강",
+        "적색"
+      ],
       "category": "color",
       "polarity": "positive",
       "works": [
@@ -35973,7 +38517,11 @@
       "id": "red-clothing",
       "term_ko": "붉은 옷",
       "term_en": "red clothing",
-      "aliases": [],
+      "aliases": [
+        "빨간 옷",
+        "붉은옷",
+        "홍의"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36002,7 +38550,13 @@
       "id": "rice-cake",
       "term_ko": "떡",
       "term_en": "rice cake",
-      "aliases": [],
+      "aliases": [
+        "인절미",
+        "송편",
+        "가래떡",
+        "시루떡",
+        "찹쌀떡"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -36031,7 +38585,11 @@
       "id": "ring",
       "term_ko": "가락지",
       "term_en": "ring",
-      "aliases": [],
+      "aliases": [
+        "반지",
+        "금반지",
+        "옥반지"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36060,7 +38618,10 @@
       "id": "river-porpoise",
       "term_ko": "강돼지",
       "term_en": "river porpoise",
-      "aliases": [],
+      "aliases": [
+        "강돌고래",
+        "상괭이"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -36089,7 +38650,10 @@
       "id": "river-snail",
       "term_ko": "우렁이",
       "term_en": "river snail",
-      "aliases": [],
+      "aliases": [
+        "다슬기",
+        "골뱅이"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -36118,7 +38682,9 @@
       "id": "roe-deer",
       "term_ko": "노루",
       "term_en": "roe deer",
-      "aliases": [],
+      "aliases": [
+        "고라니"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -36147,7 +38713,11 @@
       "id": "roof",
       "term_ko": "지붕",
       "term_en": "roof",
-      "aliases": [],
+      "aliases": [
+        "옥상",
+        "기와",
+        "처마"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36176,7 +38746,9 @@
       "id": "roof-beam",
       "term_ko": "들보",
       "term_en": "roof beam",
-      "aliases": [],
+      "aliases": [
+        "대들보"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -36205,7 +38777,9 @@
       "id": "roof-tile",
       "term_ko": "기와",
       "term_en": "roof tile",
-      "aliases": [],
+      "aliases": [
+        "기왓장"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -36234,7 +38808,11 @@
       "id": "royal-court",
       "term_ko": "조정",
       "term_en": "royal court",
-      "aliases": [],
+      "aliases": [
+        "궁궐",
+        "대궐",
+        "임금 앞"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -36263,7 +38841,10 @@
       "id": "sage",
       "term_ko": "성현",
       "term_en": "sage",
-      "aliases": [],
+      "aliases": [
+        "현인",
+        "성자"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -36292,7 +38873,10 @@
       "id": "salt",
       "term_ko": "소금",
       "term_en": "salt",
-      "aliases": [],
+      "aliases": [
+        "천일염",
+        "소금물"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36321,7 +38905,12 @@
       "id": "saw",
       "term_ko": "톱",
       "term_en": "saw",
-      "aliases": [],
+      "aliases": [
+        "톱날",
+        "실톱",
+        "전기톱",
+        "톱질"
+      ],
       "category": "object",
       "polarity": "neutral",
       "works": [
@@ -36350,7 +38939,11 @@
       "id": "scales",
       "term_ko": "저울",
       "term_en": "scales",
-      "aliases": [],
+      "aliases": [
+        "저울추",
+        "저울대",
+        "천칭"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36379,7 +38972,11 @@
       "id": "scripture",
       "term_ko": "경전",
       "term_en": "scripture",
-      "aliases": [],
+      "aliases": [
+        "불경",
+        "경문",
+        "성경"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36408,7 +39005,12 @@
       "id": "sea",
       "term_ko": "바다",
       "term_en": "sea",
-      "aliases": [],
+      "aliases": [
+        "해변",
+        "대양",
+        "바닷물",
+        "바닷가"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -36437,7 +39039,12 @@
       "id": "slope",
       "term_ko": "언덕",
       "term_en": "slope",
-      "aliases": [],
+      "aliases": [
+        "비탈",
+        "고갯길",
+        "둔덕",
+        "경사"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -36466,7 +39073,9 @@
       "id": "smoke",
       "term_ko": "연기",
       "term_en": "smoke",
-      "aliases": [],
+      "aliases": [
+        "매연"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -36495,7 +39104,10 @@
       "id": "softshell-turtle",
       "term_ko": "자라",
       "term_en": "softshell turtle",
-      "aliases": [],
+      "aliases": [
+        "남생이",
+        "민물거북"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -36524,7 +39136,13 @@
       "id": "soldier",
       "term_ko": "군인",
       "term_en": "soldier",
-      "aliases": [],
+      "aliases": [
+        "병사",
+        "군사",
+        "장병",
+        "군졸",
+        "병졸"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -36553,7 +39171,12 @@
       "id": "soldiers",
       "term_ko": "군사",
       "term_en": "soldiers",
-      "aliases": [],
+      "aliases": [
+        "군대",
+        "병사",
+        "군인",
+        "병졸"
+      ],
       "category": "person",
       "polarity": "negative",
       "works": [
@@ -36582,7 +39205,11 @@
       "id": "someone-calling-out",
       "term_ko": "부르는 소리",
       "term_en": "someone calling out",
-      "aliases": [],
+      "aliases": [
+        "부르는",
+        "불러",
+        "호명"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -36611,7 +39238,9 @@
       "id": "sparrowhawk",
       "term_ko": "새매",
       "term_en": "sparrowhawk",
-      "aliases": [],
+      "aliases": [
+        "송골매"
+      ],
       "category": "animal",
       "polarity": "positive",
       "works": [
@@ -36640,7 +39269,10 @@
       "id": "spinning-thread",
       "term_ko": "실 잣기",
       "term_en": "spinning thread",
-      "aliases": [],
+      "aliases": [
+        "길쌈",
+        "물레"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -36669,7 +39301,10 @@
       "id": "spoon",
       "term_ko": "숟가락",
       "term_en": "spoon",
-      "aliases": [],
+      "aliases": [
+        "수저",
+        "숟갈"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -36698,7 +39333,12 @@
       "id": "sprout",
       "term_ko": "싹",
       "term_en": "sprout",
-      "aliases": [],
+      "aliases": [
+        "새싹",
+        "새순",
+        "떡잎",
+        "싹눈"
+      ],
       "category": "nature",
       "polarity": "negative",
       "works": [
@@ -36727,7 +39367,11 @@
       "id": "sunset-glow",
       "term_ko": "노을",
       "term_en": "sunset glow",
-      "aliases": [],
+      "aliases": [
+        "석양",
+        "저녁놀",
+        "붉은 하늘"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -36756,7 +39400,11 @@
       "id": "sweat",
       "term_ko": "땀",
       "term_en": "sweat",
-      "aliases": [],
+      "aliases": [
+        "식은땀",
+        "땀방울",
+        "진땀"
+      ],
       "category": "body",
       "polarity": "negative",
       "works": [
@@ -36785,7 +39433,10 @@
       "id": "table",
       "term_ko": "탁자",
       "term_en": "table",
-      "aliases": [],
+      "aliases": [
+        "테이블",
+        "책상"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -36814,7 +39465,12 @@
       "id": "taking-one-s-own-life",
       "term_ko": "자살",
       "term_en": "taking one's own life",
-      "aliases": [],
+      "aliases": [
+        "목숨을 끊",
+        "스스로 목숨",
+        "자해",
+        "극단적"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -36843,7 +39499,12 @@
       "id": "taking-religious-vows",
       "term_ko": "계를 받음",
       "term_en": "taking religious vows",
-      "aliases": [],
+      "aliases": [
+        "수계",
+        "계행",
+        "출가",
+        "불계"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -36872,7 +39533,10 @@
       "id": "tangerine",
       "term_ko": "귤",
       "term_en": "tangerine",
-      "aliases": [],
+      "aliases": [
+        "감귤",
+        "밀감"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -36900,8 +39564,11 @@
     {
       "id": "taoist-priest",
       "term_ko": "도사",
-      "term_en": "Taoist priest",
-      "aliases": [],
+      "term_en": "taoist priest",
+      "aliases": [
+        "도인",
+        "여도사"
+      ],
       "category": "person",
       "polarity": "positive",
       "works": [
@@ -36929,8 +39596,11 @@
     {
       "id": "the-milky-way",
       "term_ko": "은하수",
-      "term_en": "the Milky Way",
-      "aliases": [],
+      "term_en": "the milky way",
+      "aliases": [
+        "미리내",
+        "은하"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -36959,7 +39629,11 @@
       "id": "thunderbolt",
       "term_ko": "벼락",
       "term_en": "thunderbolt",
-      "aliases": [],
+      "aliases": [
+        "낙뢰",
+        "번개",
+        "천둥"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -36988,7 +39662,9 @@
       "id": "tin",
       "term_ko": "주석",
       "term_en": "tin",
-      "aliases": [],
+      "aliases": [
+        "양철"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -37017,7 +39693,12 @@
       "id": "trading",
       "term_ko": "거래",
       "term_en": "trading",
-      "aliases": [],
+      "aliases": [
+        "매매",
+        "장사",
+        "흥정",
+        "교환"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -37046,7 +39727,12 @@
       "id": "travelling-together",
       "term_ko": "동행",
       "term_en": "travelling together",
-      "aliases": [],
+      "aliases": [
+        "동반",
+        "길동무",
+        "함께 감",
+        "같이 감"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -37075,7 +39761,10 @@
       "id": "umbrella",
       "term_ko": "우산",
       "term_en": "umbrella",
-      "aliases": [],
+      "aliases": [
+        "양산",
+        "파라솔"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -37104,7 +39793,11 @@
       "id": "vegetable-garden",
       "term_ko": "채소밭",
       "term_en": "vegetable garden",
-      "aliases": [],
+      "aliases": [
+        "텃밭",
+        "남새밭",
+        "야채밭"
+      ],
       "category": "place",
       "polarity": "positive",
       "works": [
@@ -37133,7 +39826,11 @@
       "id": "vegetables",
       "term_ko": "채소",
       "term_en": "vegetables",
-      "aliases": [],
+      "aliases": [
+        "나물",
+        "야채",
+        "푸성귀"
+      ],
       "category": "nature",
       "polarity": "positive",
       "works": [
@@ -37162,7 +39859,11 @@
       "id": "verbal-abuse",
       "term_ko": "욕설",
       "term_en": "verbal abuse",
-      "aliases": [],
+      "aliases": [
+        "욕을",
+        "모욕",
+        "험담"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -37191,7 +39892,12 @@
       "id": "vomiting",
       "term_ko": "구토",
       "term_en": "vomiting",
-      "aliases": [],
+      "aliases": [
+        "토했",
+        "게웠",
+        "구역질",
+        "메스꺼"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -37220,7 +39926,11 @@
       "id": "washbasin",
       "term_ko": "세숫대야",
       "term_en": "washbasin",
-      "aliases": [],
+      "aliases": [
+        "대야",
+        "세면대",
+        "세숫물"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [
@@ -37249,7 +39959,11 @@
       "id": "washing-hands-and-feet",
       "term_ko": "손발 씻기",
       "term_en": "washing hands and feet",
-      "aliases": [],
+      "aliases": [
+        "손 씻기",
+        "발 씻기",
+        "세족"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -37278,7 +39992,10 @@
       "id": "washing-one-s-face",
       "term_ko": "세수",
       "term_en": "washing one's face",
-      "aliases": [],
+      "aliases": [
+        "세면",
+        "세안"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -37307,7 +40024,11 @@
       "id": "washing-one-s-hair",
       "term_ko": "머리 감기",
       "term_en": "washing one's hair",
-      "aliases": [],
+      "aliases": [
+        "머리감",
+        "샴푸",
+        "세발"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -37336,7 +40057,11 @@
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
-      "aliases": [],
+      "aliases": [
+        "재산",
+        "재화",
+        "패물"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -37365,7 +40090,12 @@
       "id": "weaving",
       "term_ko": "베짜기",
       "term_en": "weaving",
-      "aliases": [],
+      "aliases": [
+        "길쌈",
+        "직조",
+        "베틀",
+        "베를 짜"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -37394,7 +40124,13 @@
       "id": "wedding",
       "term_ko": "혼례",
       "term_en": "wedding",
-      "aliases": [],
+      "aliases": [
+        "결혼식",
+        "혼인",
+        "혼인하는",
+        "결혼했다",
+        "결혼하는"
+      ],
       "category": "action",
       "polarity": "negative",
       "works": [
@@ -37452,7 +40188,12 @@
       "id": "white-clothes",
       "term_ko": "흰옷",
       "term_en": "white clothes",
-      "aliases": [],
+      "aliases": [
+        "하얀 옷",
+        "백의",
+        "소복",
+        "흰 옷"
+      ],
       "category": "object",
       "polarity": "negative",
       "works": [
@@ -37481,7 +40222,11 @@
       "id": "wild-duck",
       "term_ko": "물오리",
       "term_en": "wild duck",
-      "aliases": [],
+      "aliases": [
+        "들오리",
+        "청둥오리",
+        "야생오리"
+      ],
       "category": "animal",
       "polarity": "negative",
       "works": [
@@ -37510,7 +40255,10 @@
       "id": "wings",
       "term_ko": "날개",
       "term_en": "wings",
-      "aliases": [],
+      "aliases": [
+        "날갯짓",
+        "양날개"
+      ],
       "category": "body",
       "polarity": "positive",
       "works": [
@@ -37539,7 +40287,13 @@
       "id": "writing",
       "term_ko": "글씨 쓰기",
       "term_en": "writing",
-      "aliases": [],
+      "aliases": [
+        "붓글씨",
+        "서예",
+        "글씨를 쓰",
+        "글을 쓰",
+        "시문"
+      ],
       "category": "action",
       "polarity": "positive",
       "works": [
@@ -37568,7 +40322,11 @@
       "id": "yellow-clothing",
       "term_ko": "노란 옷",
       "term_en": "yellow clothing",
-      "aliases": [],
+      "aliases": [
+        "누런 옷",
+        "황색 옷",
+        "노랑 옷"
+      ],
       "category": "object",
       "polarity": "positive",
       "works": [

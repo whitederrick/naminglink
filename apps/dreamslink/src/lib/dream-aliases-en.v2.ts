@@ -51,7 +51,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "river": [
     "a river",
-    "a stream",
     "riverbank"
   ],
   "storehouse": [
@@ -74,7 +73,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "a thief",
     "thieves",
     "a robber",
-    "a bandit"
+    "a bandit",
+    "robber",
+    "burglar",
+    "bandit"
   ],
   "bamboo-shoot": [
     "a bamboo shoot",
@@ -123,7 +125,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "an ancestor",
     "ancestors",
     "a forefather",
-    "a deceased relative"
+    "a deceased relative",
+    "late grandfather",
+    "deceased grandfather",
+    "my late",
+    "deceased"
   ],
   "ball-game": [
     "a ball game",
@@ -394,9 +400,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cloth": [
     "fabric",
     "textile",
-    "rag"
-  ],
-  "cloth-2": [
+    "rag",
     "hemp cloth",
     "linen",
     "hemp"
@@ -543,12 +547,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "downpour",
     "raining",
     "showers"
-  ],
-  "thief-2": [
-    "robber",
-    "burglar",
-    "bandit",
-    "thieves"
   ],
   "fight": [
     "fighting",
@@ -752,7 +750,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "poop",
     "shit",
     "excrement",
-    "stool",
     "dung"
   ],
   "deity": [
@@ -801,12 +798,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "bees",
     "honeybee",
     "wasp"
-  ],
-  "being-beaten-2": [
-    "beaten",
-    "flogged",
-    "whipped",
-    "thrashed"
   ],
   "feast": [
     "banquet",
@@ -1141,7 +1132,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "insult",
     "insulted",
     "disgrace",
-    "shamed"
+    "shamed",
+    "affront"
   ],
   "jade-vessel": [
     "jade bowl",
@@ -1211,6 +1203,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "wild ducks",
     "waterfowl"
   ],
+  "bowing": [
+    "bow",
+    "bowed",
+    "bowing down",
+    "kowtow"
+  ],
   "fire": [
     "flames",
     "blaze",
@@ -1220,8 +1218,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mountain": [
     "mountains",
     "peak",
-    "hill",
-    "mountainside"
+    "mountainside",
+    "high hill",
+    "steep hill",
+    "tall hill"
   ],
   "prison": [
     "jail",
@@ -1263,7 +1263,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "beaten",
     "struck",
     "assaulted",
-    "hit"
+    "hit",
+    "flogged",
+    "whipped",
+    "thrashed"
   ],
   "crossbow": [
     "crossbows",
@@ -1441,12 +1444,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "shampoo",
     "hair wash"
   ],
-  "wicked-person-2": [
-    "evil person",
-    "villain",
-    "bad people",
-    "wicked people"
-  ],
   "door": [
     "doors",
     "gate",
@@ -1480,7 +1477,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "snow": [
     "snowing",
     "snowfall",
-    "snowflakes"
+    "snowflakes",
+    "blizzard",
+    "snowstorm"
   ],
   "bow": [
     "bows",
@@ -1676,7 +1675,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "evil person",
     "bad person",
     "villain",
-    "wicked man"
+    "wicked man",
+    "bad people",
+    "wicked people"
   ],
   "horse": [
     "a horse",
@@ -1735,13 +1736,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "weed",
     "lawn",
     "grasses"
-  ],
-  "shackles-2": [
-    "shackle",
-    "fetters",
-    "chains",
-    "handcuffs",
-    "manacles"
   ],
   "death": [
     "died",
@@ -1812,7 +1806,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "was killed",
     "killed me",
     "being murdered",
-    "murdered me"
+    "murdered me",
+    "was murdered"
   ],
   "being-stabbed": [
     "stabbed",
@@ -1909,7 +1904,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "the sea",
     "ocean",
     "seaside",
-    "seashore"
+    "seashore",
+    "waves",
+    "rough waves"
   ],
   "slope": [
     "a slope",
@@ -2050,12 +2047,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "swallow": [
     "swallows"
   ],
-  "being-killed-2": [
-    "was killed",
-    "was murdered",
-    "murdered me",
-    "killed me"
-  ],
   "being-punished": [
     "punished",
     "was punished",
@@ -2136,7 +2127,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "shackles": [
     "chains",
-    "iron chain"
+    "iron chain",
+    "shackle",
+    "fetters",
+    "handcuffs",
+    "manacles"
   ],
   "siblings": [
     "brothers",
@@ -2160,5 +2155,1421 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "wheat-flour": [
     "flour"
+  ],
+  "pear": [
+    "pear",
+    "pears",
+    "eating a pear"
+  ],
+  "apparel": [
+    "clothing",
+    "garments",
+    "attire",
+    "an outfit"
+  ],
+  "abandon": [
+    "desertion",
+    "forsaking",
+    "deserting",
+    "giving up"
+  ],
+  "actor": [
+    "an actress",
+    "actors",
+    "a performer",
+    "a stage actor"
+  ],
+  "abdomen": [
+    "belly",
+    "stomach",
+    "tummy",
+    "midriff"
+  ],
+  "acorn": [
+    "acorns",
+    "an oak nut",
+    "oak seeds"
+  ],
+  "apples": [
+    "an apple",
+    "apple tree",
+    "red apples"
+  ],
+  "bride": [
+    "a bride",
+    "the bride",
+    "a newlywed",
+    "bride-to-be"
+  ],
+  "bedbugs": [
+    "a bedbug",
+    "bed bugs",
+    "a bed bug"
+  ],
+  "acquaintance": [
+    "an acquaintance",
+    "someone I know",
+    "a familiar face"
+  ],
+  "adultery": [
+    "an affair",
+    "cheating",
+    "infidelity",
+    "unfaithful"
+  ],
+  "age": [
+    "how old",
+    "my age",
+    "old age"
+  ],
+  "amorous": [
+    "lustful",
+    "lecherous",
+    "lust",
+    "passionate desire"
+  ],
+  "baby": [
+    "an infant",
+    "a newborn",
+    "babies",
+    "a little child"
+  ],
+  "baldness": [
+    "bald",
+    "a bald head",
+    "going bald",
+    "hair loss"
+  ],
+  "baptism": [
+    "a baptism",
+    "being baptized",
+    "a christening"
+  ],
+  "break": [
+    "broken",
+    "damaged",
+    "wrecked",
+    "fell apart"
+  ],
+  "bronze": [
+    "a bronze statue",
+    "brass",
+    "a copper statue"
+  ],
+  "broth": [
+    "a stew",
+    "bouillon",
+    "a bowl of broth"
+  ],
+  "brush": [
+    "a hairbrush",
+    "a bristle brush",
+    "a broom"
+  ],
+  "abbey": [
+    "an abbey",
+    "a monastery",
+    "a convent",
+    "a cloister"
+  ],
+  "abbot": [
+    "an abbot",
+    "a prior",
+    "head of the monastery"
+  ],
+  "abode": [
+    "a dwelling",
+    "a place to live",
+    "lodging",
+    "a residence"
+  ],
+  "abuse": [
+    "abusing",
+    "being abused",
+    "mistreatment",
+    "ill-treatment"
+  ],
+  "academy": [
+    "an academy",
+    "a school",
+    "a college",
+    "an institute"
+  ],
+  "accounts": [
+    "a bill",
+    "an invoice",
+    "a statement"
+  ],
+  "ache": [
+    "an ache",
+    "aching",
+    "pain",
+    "sore"
+  ],
+  "acrobat": [
+    "acrobats",
+    "a gymnast",
+    "a trapeze artist"
+  ],
+  "addition": [
+    "adding up",
+    "summing",
+    "arithmetic",
+    "doing sums"
+  ],
+  "adieu": [
+    "farewell",
+    "saying goodbye",
+    "a goodbye",
+    "parting"
+  ],
+  "air": [
+    "the air",
+    "fresh air",
+    "the atmosphere"
+  ],
+  "angels": [
+    "an angel",
+    "a guardian angel",
+    "heavenly beings"
+  ],
+  "anvil": [
+    "an anvil",
+    "a blacksmith's anvil",
+    "the smithy anvil"
+  ],
+  "apricot": [
+    "an apricot",
+    "apricots",
+    "apricot fruit"
+  ],
+  "atonement": [
+    "atoning",
+    "making amends",
+    "expiation",
+    "repentance"
+  ],
+  "automobile": [
+    "a car",
+    "cars",
+    "motorcar",
+    "vehicle"
+  ],
+  "bacon": [
+    "rashers",
+    "smoked pork",
+    "bacon strips"
+  ],
+  "banana": [
+    "bananas",
+    "a banana",
+    "banana peel"
+  ],
+  "bank": [
+    "a bank",
+    "banks",
+    "bank vault"
+  ],
+  "beacon-light": [
+    "a beacon",
+    "lighthouse",
+    "beacon fire",
+    "signal light"
+  ],
+  "beads": [
+    "a rosary",
+    "prayer beads",
+    "glass beads"
+  ],
+  "bellows": [
+    "a bellows",
+    "forge bellows",
+    "hand bellows"
+  ],
+  "bird-s-nest": [
+    "a nest",
+    "nests",
+    "bird nest",
+    "birds nest"
+  ],
+  "bishop": [
+    "a bishop",
+    "bishops",
+    "the bishop"
+  ],
+  "bonnet": [
+    "a bonnet",
+    "bonnets",
+    "ladies hat",
+    "sun hat"
+  ],
+  "bosom": [
+    "breast",
+    "breasts",
+    "chest",
+    "cleavage"
+  ],
+  "bread": [
+    "a loaf",
+    "loaves",
+    "bread loaf",
+    "a slice of bread"
+  ],
+  "breakfast": [
+    "morning meal",
+    "eating breakfast",
+    "a breakfast"
+  ],
+  "bull": [
+    "a bull",
+    "bulls",
+    "the bull"
+  ],
+  "abhor": [
+    "abhorring",
+    "abhorrence",
+    "revulsion"
+  ],
+  "above": [
+    "above me",
+    "over my head",
+    "up above"
+  ],
+  "absinthe": [
+    "absinth",
+    "green fairy",
+    "absinthe liquor"
+  ],
+  "abyss": [
+    "a chasm",
+    "the abyss",
+    "bottomless pit",
+    "a gulf"
+  ],
+  "accordion": [
+    "an accordion",
+    "accordions",
+    "concertina"
+  ],
+  "acid": [
+    "an acid",
+    "acids",
+    "sulphuric acid",
+    "acidic liquid"
+  ],
+  "adam-and-eve": [
+    "adam",
+    "eden",
+    "garden of eden"
+  ],
+  "adder": [
+    "an adder",
+    "adders",
+    "viper"
+  ],
+  "afraid": [
+    "scared",
+    "fearful",
+    "terrified"
+  ],
+  "alabaster": [
+    "alabaster stone",
+    "white alabaster",
+    "alabaster box"
+  ],
+  "alien": [
+    "a stranger",
+    "a foreigner",
+    "strangers",
+    "foreigners"
+  ],
+  "alum": [
+    "alum powder",
+    "potash alum",
+    "a lump of alum"
+  ],
+  "amateur": [
+    "amateurs",
+    "amateur actor",
+    "amateur actors"
+  ],
+  "amputation": [
+    "amputated",
+    "severed"
+  ],
+  "anchor": [
+    "anchors",
+    "anchorage"
+  ],
+  "arch": [
+    "archway",
+    "arches"
+  ],
+  "archbishop": [
+    "a bishop",
+    "a prelate"
+  ],
+  "asp": [
+    "a viper",
+    "an adder",
+    "a venomous snake"
+  ],
+  "assassin": [
+    "a killer",
+    "a murderer",
+    "a hired killer"
+  ],
+  "auction": [
+    "auctioned",
+    "auction house"
+  ],
+  "back": [
+    "my back",
+    "his back",
+    "her back"
+  ],
+  "baghavad-gitta": [
+    "the Gita",
+    "a Hindu scripture"
+  ],
+  "beauty": [
+    "beautiful",
+    "lovely",
+    "gorgeous"
+  ],
+  "bedfellow": [
+    "a bedmate",
+    "sharing my bed"
+  ],
+  "beer": [
+    "ale",
+    "lager",
+    "a pint"
+  ],
+  "beets": [
+    "a beet",
+    "beetroot"
+  ],
+  "beggar": [
+    "a tramp",
+    "a vagrant",
+    "begging"
+  ],
+  "belladonna": [
+    "deadly nightshade",
+    "nightshade"
+  ],
+  "billiards": [
+    "pool",
+    "snooker"
+  ],
+  "blackberry": [
+    "blackberries",
+    "bramble berries"
+  ],
+  "blasphemy": [
+    "profanity",
+    "sacrilege",
+    "blaspheming"
+  ],
+  "blow": [
+    "a beating",
+    "a punch",
+    "a whack"
+  ],
+  "boil": [
+    "an abscess",
+    "a carbuncle",
+    "a sore"
+  ],
+  "boots": [
+    "a boot",
+    "footwear"
+  ],
+  "borrowing": [
+    "borrow",
+    "borrowed",
+    "a loan"
+  ],
+  "brain": [
+    "brains",
+    "the mind"
+  ],
+  "breath": [
+    "breathing",
+    "breaths"
+  ],
+  "bridle": [
+    "reins",
+    "a halter"
+  ],
+  "brood": [
+    "a clutch of chicks",
+    "a litter"
+  ],
+  "broom": [
+    "a besom",
+    "a sweeping brush"
+  ],
+  "building": [
+    "a structure",
+    "an edifice",
+    "buildings"
+  ],
+  "abbess": [
+    "a mother superior",
+    "a nun",
+    "a prioress"
+  ],
+  "abject": [
+    "wretched",
+    "miserable",
+    "abjectly"
+  ],
+  "absence": [
+    "absent",
+    "missing them"
+  ],
+  "accepted": [
+    "accepting",
+    "an acceptance",
+    "approved"
+  ],
+  "accident": [
+    "a crash",
+    "a mishap",
+    "an injury"
+  ],
+  "accuse": [
+    "accusation",
+    "accusing",
+    "blame",
+    "blaming someone"
+  ],
+  "acquit": [
+    "acquitted",
+    "acquittal",
+    "found not guilty",
+    "cleared of charges"
+  ],
+  "adopted": [
+    "adoption",
+    "adoptive child",
+    "foster child",
+    "adopting a child"
+  ],
+  "adulation": [
+    "flattery",
+    "fawning",
+    "sycophancy",
+    "adoring praise"
+  ],
+  "advancement": [
+    "advancing",
+    "promotion",
+    "moving forward",
+    "getting ahead"
+  ],
+  "adventurer": [
+    "adventuress",
+    "adventurers",
+    "fortune hunter"
+  ],
+  "adversary": [
+    "adversaries",
+    "enemy",
+    "opponent",
+    "foe"
+  ],
+  "adversity": [
+    "hardship",
+    "misfortune",
+    "trouble",
+    "distress"
+  ],
+  "advertisement": [
+    "advertisements",
+    "advertising",
+    "an ad",
+    "ads"
+  ],
+  "advice": [
+    "counsel",
+    "advising",
+    "recommendation",
+    "guidance"
+  ],
+  "affliction": [
+    "afflictions",
+    "suffering",
+    "distress",
+    "tribulation"
+  ],
+  "affluence": [
+    "wealth",
+    "riches",
+    "opulence",
+    "prosperity"
+  ],
+  "affrighted": [
+    "frightened",
+    "terrified",
+    "scared",
+    "fright"
+  ],
+  "africa": [
+    "african",
+    "african continent",
+    "dark continent"
+  ],
+  "afternoon": [
+    "afternoons",
+    "early afternoon",
+    "late afternoon"
+  ],
+  "agony": [
+    "agonizing",
+    "anguish",
+    "torment",
+    "in agony"
+  ],
+  "ague": [
+    "malaria",
+    "chills",
+    "fever",
+    "the shakes"
+  ],
+  "album": [
+    "albums",
+    "photo album",
+    "scrapbook"
+  ],
+  "alley": [
+    "alleys",
+    "alleyway",
+    "narrow lane",
+    "back alley"
+  ],
+  "alloy": [
+    "alloys",
+    "mixed metal",
+    "metal alloy"
+  ],
+  "almonds": [
+    "almond",
+    "almond nuts",
+    "sweet almonds"
+  ],
+  "alms": [
+    "charity",
+    "almsgiving",
+    "giving alms",
+    "donation"
+  ],
+  "aluminum": [
+    "aluminium",
+    "aluminum ware",
+    "aluminum ornaments"
+  ],
+  "ambush": [
+    "ambushed",
+    "ambushes",
+    "lying in wait",
+    "surprise attack"
+  ],
+  "amethyst": [
+    "amethysts",
+    "purple gem",
+    "violet stone"
+  ],
+  "ammonia": [
+    "ammonia water",
+    "smelling salts"
+  ],
+  "ammunition": [
+    "ammo",
+    "cartridges",
+    "bullets",
+    "munitions"
+  ],
+  "andirons": [
+    "andiron",
+    "firedogs",
+    "fire dogs"
+  ],
+  "anecdote": [
+    "anecdotes",
+    "telling stories",
+    "a funny story"
+  ],
+  "anger": [
+    "angry",
+    "rage",
+    "fury",
+    "wrath"
+  ],
+  "annoy": [
+    "annoyed",
+    "annoyance",
+    "irritation",
+    "vexation"
+  ],
+  "antelope": [
+    "antelopes",
+    "gazelle",
+    "gazelles"
+  ],
+  "anxiety": [
+    "anxious",
+    "worry",
+    "worried",
+    "apprehension"
+  ],
+  "apes": [
+    "ape",
+    "monkey",
+    "monkeys",
+    "gorilla"
+  ],
+  "apparition": [
+    "apparitions",
+    "ghost",
+    "ghosts",
+    "phantom"
+  ],
+  "april": [
+    "the month of april",
+    "april weather",
+    "springtime april"
+  ],
+  "apron": [
+    "aprons",
+    "pinafore",
+    "kitchen apron"
+  ],
+  "architect": [
+    "architects",
+    "building designer",
+    "draughtsman"
+  ],
+  "arrested": [
+    "arrest",
+    "taken into custody",
+    "apprehended",
+    "under arrest"
+  ],
+  "ascend": [
+    "ascending",
+    "climbing",
+    "going up",
+    "ascent"
+  ],
+  "asparagus": [
+    "asparagus tips",
+    "asparagus bed",
+    "asparagus stalks"
+  ],
+  "assistance": [
+    "assisting",
+    "help",
+    "helping",
+    "aid"
+  ],
+  "astral": [
+    "astral body",
+    "astral self",
+    "spirit body"
+  ],
+  "attic": [
+    "attics",
+    "garret",
+    "loft"
+  ],
+  "attorney": [
+    "attorneys",
+    "lawyer",
+    "counsel",
+    "barrister"
+  ],
+  "august": [
+    "month of august",
+    "in august",
+    "august month"
+  ],
+  "aunt": [
+    "aunts",
+    "auntie",
+    "my aunt"
+  ],
+  "author": [
+    "a writer",
+    "a novelist",
+    "a playwright"
+  ],
+  "autumn": [
+    "the fall season",
+    "autumnal days",
+    "in the fall"
+  ],
+  "awake": [
+    "waking up",
+    "woke up",
+    "wide awake"
+  ],
+  "bachelor": [
+    "a single man",
+    "an unmarried man",
+    "a single guy"
+  ],
+  "back-bite": [
+    "backbiting",
+    "gossip",
+    "slander",
+    "talking behind my back"
+  ],
+  "backgammon": [
+    "a board game",
+    "a dice game",
+    "a tables game"
+  ],
+  "bail": [
+    "bail money",
+    "posting bail",
+    "bailed out"
+  ],
+  "bailiff": [
+    "a court officer",
+    "a sheriff",
+    "a debt collector"
+  ],
+  "bake-house": [
+    "a bakery",
+    "a bakeshop",
+    "a baking house"
+  ],
+  "balcony": [
+    "a veranda",
+    "a terrace",
+    "a portico"
+  ],
+  "ball": [
+    "a dance party",
+    "a formal dance",
+    "a masquerade"
+  ],
+  "balloon": [
+    "a hot air balloon",
+    "an airship",
+    "a gas balloon"
+  ],
+  "banishment": [
+    "exile",
+    "being banished",
+    "cast out",
+    "deported"
+  ],
+  "bantam": [
+    "a small chicken",
+    "a dwarf hen",
+    "a little rooster"
+  ],
+  "bar": [
+    "a tavern",
+    "a pub",
+    "a saloon",
+    "a drinking house"
+  ],
+  "barber": [
+    "a hairdresser",
+    "a hair cutter",
+    "a barbershop man"
+  ],
+  "barley-field": [
+    "a field of barley",
+    "a barley crop",
+    "a barley harvest"
+  ],
+  "barmaid": [
+    "a bar girl",
+    "a waitress in a pub",
+    "a serving girl"
+  ],
+  "barn": [
+    "a hayloft",
+    "a granary",
+    "a farm shed"
+  ],
+  "barometer": [
+    "a weather glass",
+    "a pressure gauge",
+    "an aneroid"
+  ],
+  "baseball": [
+    "a baseball game",
+    "playing baseball",
+    "a baseball match"
+  ],
+  "basket": [
+    "a hamper",
+    "a wicker basket",
+    "a pannier"
+  ],
+  "bass-voice": [
+    "a deep voice",
+    "a low voice",
+    "a booming voice"
+  ],
+  "baste": [
+    "basting",
+    "tacking stitches",
+    "spooning fat over meat"
+  ],
+  "bathroom": [
+    "a bath room",
+    "a washroom",
+    "a bathing room"
+  ],
+  "battle": [
+    "a fight",
+    "warfare",
+    "a skirmish",
+    "combat"
+  ],
+  "beat": [
+    "beating",
+    "whipping",
+    "being struck",
+    "thrashing"
+  ],
+  "beaver": [
+    "beavers",
+    "a beaver dam",
+    "a river rodent"
+  ],
+  "beetles": [
+    "a beetle",
+    "bugs",
+    "a scarab"
+  ],
+  "beheading": [
+    "decapitation",
+    "head cut off",
+    "being beheaded"
+  ],
+  "bellman": [
+    "a bell ringer",
+    "a town crier",
+    "a bellhop"
+  ],
+  "bench": [
+    "a park seat",
+    "a long seat",
+    "a settle"
+  ],
+  "bereavement": [
+    "losing a loved one",
+    "mourning a death",
+    "a loss in the family"
+  ],
+  "bet": [
+    "betting",
+    "gambling",
+    "placing a wager",
+    "staking money"
+  ],
+  "bible": [
+    "the scriptures",
+    "the holy book",
+    "the good book"
+  ],
+  "bicycle": [
+    "a bike",
+    "cycling",
+    "riding a bike"
+  ],
+  "bier": [
+    "a coffin stand",
+    "a funeral litter",
+    "a catafalque"
+  ],
+  "bigamy": [
+    "a second marriage",
+    "two wives",
+    "two husbands"
+  ],
+  "birth": [
+    "giving birth",
+    "childbirth",
+    "delivering a baby"
+  ],
+  "birthday-present": [
+    "a birthday gift",
+    "a gift for my birthday",
+    "a present on a birthday"
+  ],
+  "bladder": [
+    "the urinary organ",
+    "a pig bladder",
+    "a water sac"
+  ],
+  "blind": [
+    "blindness",
+    "losing my sight",
+    "cannot see"
+  ],
+  "blood-stone": [
+    "a bloodstone",
+    "a heliotrope stone",
+    "a red gem"
+  ],
+  "blotting-paper": [
+    "a blotter",
+    "an ink blotting sheet",
+    "a blotting pad"
+  ],
+  "blushing": [
+    "a blush",
+    "turning red",
+    "a reddening face"
+  ],
+  "boa-constrictor": [
+    "a boa",
+    "a python",
+    "a giant snake"
+  ],
+  "boasting": [
+    "bragging",
+    "showing off",
+    "big talk"
+  ],
+  "boiler": [
+    "a boiler",
+    "the boiler",
+    "a furnace",
+    "a water heater"
+  ],
+  "bolts": [
+    "a bolt",
+    "door bolt",
+    "a latch",
+    "a bolt lock"
+  ],
+  "bones": [
+    "a bone",
+    "a skeleton",
+    "a skull",
+    "bone fragments"
+  ],
+  "bookcase": [
+    "a bookcase",
+    "a bookshelf",
+    "book shelves",
+    "a book cabinet"
+  ],
+  "bottles": [
+    "a bottle",
+    "a glass bottle",
+    "a flask",
+    "bottle of water"
+  ],
+  "bouquet": [
+    "a bouquet",
+    "a bunch of flowers",
+    "a nosegay",
+    "a floral spray"
+  ],
+  "bow-and-arrow": [
+    "a bow",
+    "an arrow",
+    "arrows",
+    "archery"
+  ],
+  "branch": [
+    "a branch",
+    "branches",
+    "a bough",
+    "a tree limb"
+  ],
+  "brewing": [
+    "a brewery",
+    "brewing beer",
+    "making beer",
+    "brewing ale"
+  ],
+  "briars": [
+    "a briar",
+    "a briar patch",
+    "thorns",
+    "thorny bushes"
+  ],
+  "brick": [
+    "a brick",
+    "bricks",
+    "red brick",
+    "brickwork"
+  ],
+  "bridle-bits": [
+    "a horse bit",
+    "a bridle",
+    "bridle and bit",
+    "the bits"
+  ],
+  "brimstone": [
+    "sulphur",
+    "sulfur",
+    "burning sulphur",
+    "fire and brimstone"
+  ],
+  "bronchitis": [
+    "bronchial trouble",
+    "a bad cough",
+    "a chest infection"
+  ],
+  "buffalo": [
+    "a buffalo",
+    "buffaloes",
+    "a bison",
+    "water buffalo"
+  ],
+  "bugle": [
+    "a bugle",
+    "a trumpet",
+    "a bugle call",
+    "bugles"
+  ],
+  "bulldog": [
+    "a bulldog",
+    "a bull dog",
+    "bulldogs"
+  ],
+  "burden": [
+    "a burden",
+    "a heavy load",
+    "a load",
+    "carrying a load"
+  ],
+  "abroad": [
+    "going abroad",
+    "overseas",
+    "a foreign country",
+    "traveling abroad"
+  ],
+  "abundance": [
+    "plenty",
+    "abundant",
+    "plentiful",
+    "an abundance"
+  ],
+  "adamant": [
+    "adamantine stone",
+    "an unbreakable stone",
+    "adamantine"
+  ],
+  "admire": [
+    "admired",
+    "admiration",
+    "being admired",
+    "looking up to"
+  ],
+  "admonish": [
+    "admonishing",
+    "scolding",
+    "reproving",
+    "chiding"
+  ],
+  "advocate": [
+    "advocating",
+    "pleading a cause",
+    "defending a cause",
+    "arguing for"
+  ],
+  "agate": [
+    "an agate",
+    "agate stone",
+    "agates"
+  ],
+  "alarm-bell": [
+    "an alarm",
+    "alarm bells",
+    "a warning bell",
+    "a tocsin"
+  ],
+  "ale-house": [
+    "an alehouse",
+    "a tavern",
+    "a pub",
+    "a beer house"
+  ],
+  "alligator": [
+    "an alligator",
+    "alligators",
+    "a crocodile",
+    "a gator"
+  ],
+  "alms-house": [
+    "an almshouse",
+    "a poorhouse",
+    "a charity house"
+  ],
+  "america": [
+    "the United States",
+    "the USA",
+    "American soil"
+  ],
+  "apprentice": [
+    "an apprentice",
+    "apprenticeship",
+    "a trainee"
+  ],
+  "arm": [
+    "my arm",
+    "both arms",
+    "one arm"
+  ],
+  "aroma": [
+    "a sweet smell",
+    "fragrance",
+    "a pleasant scent",
+    "a perfume smell"
+  ],
+  "art-gallery": [
+    "an art gallery",
+    "an art museum",
+    "a picture gallery"
+  ],
+  "asceticism": [
+    "an ascetic",
+    "ascetic life",
+    "self denial"
+  ],
+  "ashes": [
+    "ash",
+    "cinders",
+    "embers",
+    "ashes of a fire"
+  ],
+  "asia": [
+    "Asian countries",
+    "the continent of Asia",
+    "the Orient"
+  ],
+  "asylum": [
+    "an asylum",
+    "a madhouse",
+    "a mental hospital",
+    "an insane asylum"
+  ],
+  "atlas": [
+    "an atlas",
+    "a map book",
+    "a book of maps"
+  ],
+  "augur": [
+    "an augur",
+    "augurs",
+    "a soothsayer",
+    "a diviner"
+  ],
+  "aura": [
+    "an aura",
+    "auras",
+    "the aura around",
+    "a halo of light"
+  ],
+  "baby-carriage": [
+    "a baby carriage",
+    "a pram",
+    "a stroller",
+    "a baby buggy"
+  ],
+  "badger": [
+    "a badger",
+    "badgers"
+  ],
+  "bagpipe": [
+    "bagpipes",
+    "a bagpiper",
+    "playing the pipes"
+  ],
+  "baking": [
+    "baking bread",
+    "baked bread",
+    "making bread",
+    "in the oven"
+  ],
+  "ballet": [
+    "a ballet",
+    "ballet dancers",
+    "a ballerina"
+  ],
+  "banjo": [
+    "a banjo",
+    "banjos",
+    "playing the banjo"
+  ],
+  "bankrupt": [
+    "bankruptcy",
+    "going bankrupt",
+    "insolvent",
+    "broke financially"
+  ],
+  "barefoot": [
+    "barefooted",
+    "no shoes",
+    "bare feet",
+    "without shoes"
+  ],
+  "basement": [
+    "a basement",
+    "a cellar",
+    "the basement",
+    "a cellar room"
+  ],
+  "bay-tree": [
+    "a bay tree",
+    "a laurel tree",
+    "bay laurel"
+  ],
+  "bayonet": [
+    "a bayonet",
+    "bayonets",
+    "a fixed bayonet"
+  ],
+  "bedchamber": [
+    "a bedroom",
+    "a sleeping chamber",
+    "my bedroom"
+  ],
+  "bequest": [
+    "a legacy",
+    "an inheritance",
+    "a bequeathal",
+    "left in a will"
+  ],
+  "birthday": [
+    "a birthday",
+    "my birthday",
+    "a birthday party"
+  ],
+  "biscuit": [
+    "biscuits",
+    "a cookie",
+    "a cracker",
+    "baking biscuits"
+  ],
+  "bite": [
+    "bitten",
+    "being bitten",
+    "a bite",
+    "biting me"
+  ],
+  "blackboard": [
+    "a blackboard",
+    "a chalkboard",
+    "chalk on the board"
+  ],
+  "blacksmith": [
+    "a blacksmith",
+    "a smith",
+    "a farrier",
+    "at the forge"
+  ],
+  "bleating": [
+    "a bleat",
+    "sheep bleating",
+    "lambs bleating",
+    "a goat bleating"
+  ],
+  "bleeding": [
+    "blood flowing",
+    "bled",
+    "losing blood",
+    "a bleeding wound"
+  ],
+  "blind-man-s-buff": [
+    "blind man's bluff",
+    "playing blind man's buff",
+    "a game of tag"
+  ],
+  "blindfold": [
+    "blindfolded",
+    "eyes covered",
+    "a blindfold over"
+  ],
+  "blossoms": [
+    "blossom",
+    "in bloom",
+    "blooming trees",
+    "trees in blossom"
+  ],
+  "boarding-house": [
+    "a boarding house",
+    "a lodging house",
+    "lodgings"
+  ],
+  "bobbin": [
+    "a bobbin",
+    "bobbins",
+    "a spool",
+    "a reel of thread"
+  ],
+  "bog": [
+    "a bog",
+    "a marsh",
+    "a swamp",
+    "a quagmire"
+  ],
+  "bomb-shell": [
+    "a bomb",
+    "a bombshell",
+    "an explosive shell",
+    "a shell burst"
+  ],
+  "book-store": [
+    "a bookstore",
+    "a bookshop",
+    "a book shop"
+  ],
+  "brambles": [
+    "a bramble",
+    "bramble bushes",
+    "thorny brambles"
+  ],
+  "brandy": [
+    "a brandy",
+    "cognac",
+    "a glass of brandy"
+  ],
+  "brass": [
+    "brass metal",
+    "brasses",
+    "a brass object"
+  ],
+  "bray": [
+    "braying",
+    "a donkey braying",
+    "an ass braying"
+  ],
+  "brothel": [
+    "a brothel",
+    "a bawdy house",
+    "a house of ill repute"
+  ],
+  "buckle": [
+    "a buckle",
+    "buckles",
+    "a belt buckle"
+  ],
+  "bullock": [
+    "a bullock",
+    "bullocks",
+    "a young ox",
+    "a steer"
+  ],
+  "burr": [
+    "a burr",
+    "burrs",
+    "a bur",
+    "sticky burrs"
   ]
 };
