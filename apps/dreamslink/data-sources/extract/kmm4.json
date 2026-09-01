@@ -1,8 +1,15 @@
 [
   {
     "id": "amputation",
-    "aliases": ["잘라냈", "잘려나갔", "팔다리를 잃"],
-    "aliases_en": ["amputated", "severed"],
+    "aliases": [
+      "잘라냈",
+      "잘려나갔",
+      "팔다리를 잃"
+    ],
+    "aliases_en": [
+      "amputated",
+      "severed"
+    ],
     "contexts": {
       "팔다리를 절단함": "팔다리 손발 사지",
       "다리나 팔 전체를 잃음": "전체 통째 송두리 몽땅",
@@ -16,8 +23,15 @@
   },
   {
     "id": "anchor",
-    "aliases": ["닻줄", "앵커", "쇠닻"],
-    "aliases_en": ["anchors", "anchorage"],
+    "aliases": [
+      "닻줄",
+      "앵커",
+      "쇠닻"
+    ],
+    "aliases_en": [
+      "anchors",
+      "anchorage"
+    ],
     "contexts": {
       "닻을 봄(바다가 잔잔함)": "잔잔 고요 평온",
       "닻을 봄(뱃사람이 아닌 사람)": "외국 이사 헤어",
@@ -31,8 +45,15 @@
   },
   {
     "id": "arch",
-    "aliases": ["아치형", "홍예", "아치문"],
-    "aliases_en": ["archway", "arches"],
+    "aliases": [
+      "아치형",
+      "홍예",
+      "아치문"
+    ],
+    "aliases_en": [
+      "archway",
+      "arches"
+    ],
     "contexts": {
       "꿈에 아치를 봄": "보였 바라보 눈앞에",
       "아치 밑을 지나감": "밑을 지나 통과 아래를",
@@ -46,8 +67,14 @@
   },
   {
     "id": "archbishop",
-    "aliases": ["주교", "성직자", "추기경"],
-    "aliases_en": ["a bishop", "a prelate"],
+    "aliases": [
+      "성직자",
+      "추기경"
+    ],
+    "aliases_en": [
+      "a bishop",
+      "a prelate"
+    ],
     "contexts": {
       "대주교를 보는 꿈을 꿈": "보였 마주쳤 나타났",
       "평범한 시민 옷차림의 대주교를 봄": "시민 평범 옷차림 사복",
@@ -61,8 +88,15 @@
   },
   {
     "id": "asp",
-    "aliases": ["독사", "코브라"],
-    "aliases_en": ["a viper", "an adder", "a venomous snake"],
+    "aliases": [
+      "독사",
+      "코브라"
+    ],
+    "aliases_en": [
+      "a viper",
+      "an adder",
+      "a venomous snake"
+    ],
     "contexts": {
       "여성이 살모사 꿈을 꿈": "여성 여자 부인",
       "살모사 꿈에서 원수가 나타남": "원수 앙심 해치려 명예를",
@@ -76,8 +110,16 @@
   },
   {
     "id": "assassin",
-    "aliases": ["자객", "살인청부", "암살범"],
-    "aliases_en": ["a killer", "a murderer", "a hired killer"],
+    "aliases": [
+      "자객",
+      "살인청부",
+      "암살범"
+    ],
+    "aliases_en": [
+      "a killer",
+      "a murderer",
+      "a hired killer"
+    ],
     "contexts": {
       "자신이 암살자의 칼을 맞음": "찔렸 칼에맞 당했",
       "피 묻은 암살자가 다른 사람 위에 서 있는 것을 봄": "피묻은 다른사람 서있 위에서",
@@ -91,8 +133,15 @@
   },
   {
     "id": "auction",
-    "aliases": ["경매장", "낙찰", "입찰"],
-    "aliases_en": ["auctioned", "auction house"],
+    "aliases": [
+      "경매장",
+      "낙찰",
+      "입찰"
+    ],
+    "aliases_en": [
+      "auctioned",
+      "auction house"
+    ],
     "contexts": {
       "경매인이 외치는 소리를 들음": "외치 소리를 들었",
       "경매에서 물건을 삼": "샀다 구입 사들 물건을",
@@ -106,8 +155,16 @@
   },
   {
     "id": "back",
-    "aliases": ["등짝", "등허리", "잔등"],
-    "aliases_en": ["my back", "his back", "her back"],
+    "aliases": [
+      "등짝",
+      "등허리",
+      "잔등"
+    ],
+    "aliases_en": [
+      "my back",
+      "his back",
+      "her back"
+    ],
     "contexts": {
       "벌거벗은 등을 봄": "벌거벗 맨살 알몸",
       "누군가 돌아서서 걸어감": "돌아서 걸어갔 뒤돌아 멀어져",
@@ -121,8 +178,14 @@
   },
   {
     "id": "baghavad-gitta",
-    "aliases": ["힌두 경전", "인도 경전"],
-    "aliases_en": ["the Gita", "a Hindu scripture"],
+    "aliases": [
+      "힌두 경전",
+      "인도 경전"
+    ],
+    "aliases_en": [
+      "the Gita",
+      "a Hindu scripture"
+    ],
     "contexts": {
       "바가바드기타(경전) 꿈을 꿈": "경전 읽었 은둔 휴식",
       "바가바드기타 꿈에서 벗들이 여행을 계획해 줌": "벗들 친구들 여행을 계획",
@@ -136,8 +199,17 @@
   },
   {
     "id": "beauty",
-    "aliases": ["미모", "아름다운", "예쁜", "미인"],
-    "aliases_en": ["beautiful", "lovely", "gorgeous"],
+    "aliases": [
+      "미모",
+      "아름다운",
+      "예쁜",
+      "미인"
+    ],
+    "aliases_en": [
+      "beautiful",
+      "lovely",
+      "gorgeous"
+    ],
     "contexts": {
       "어떤 형태로든 아름다움을 봄": "풍경 경치 광경",
       "아름다운 여성을 봄": "여성 여자 부인 미녀",
@@ -151,8 +223,15 @@
   },
   {
     "id": "bedfellow",
-    "aliases": ["동침", "같이 자는 사람", "옆에서 자는"],
-    "aliases_en": ["a bedmate", "sharing my bed"],
+    "aliases": [
+      "동침",
+      "같이 자는 사람",
+      "옆에서 자는"
+    ],
+    "aliases_en": [
+      "a bedmate",
+      "sharing my bed"
+    ],
     "contexts": {
       "잠자리 동무가 싫은 꿈을 꿈": "싫었 역겨 불쾌 꺼려",
       "낯선 잠자리 동무가 있음": "낯선 모르는사람 처음보",
@@ -166,8 +245,16 @@
   },
   {
     "id": "beer",
-    "aliases": ["생맥주", "호프", "에일"],
-    "aliases_en": ["ale", "lager", "a pint"],
+    "aliases": [
+      "생맥주",
+      "호프",
+      "에일"
+    ],
+    "aliases_en": [
+      "ale",
+      "lager",
+      "a pint"
+    ],
     "contexts": {
       "술집에서 맥주를 마심": "술집 주점 바에서",
       "다른 사람이 맥주 마시는 것을 봄": "다른사람 남이 지켜보 구경",
@@ -181,8 +268,14 @@
   },
   {
     "id": "beets",
-    "aliases": ["붉은무", "비트"],
-    "aliases_en": ["a beet", "beetroot"],
+    "aliases": [
+      "붉은무",
+      "비트"
+    ],
+    "aliases_en": [
+      "a beet",
+      "beetroot"
+    ],
     "contexts": {
       "사탕무가 풍성히 자라는 것을 봄": "풍성 자라 무성 밭에",
       "다른 사람들과 함께 사탕무를 먹음": "함께 같이 먹었 사람들과",
@@ -196,8 +289,16 @@
   },
   {
     "id": "beggar",
-    "aliases": ["동냥", "걸인", "노숙자"],
-    "aliases_en": ["a tramp", "a vagrant", "begging"],
+    "aliases": [
+      "동냥",
+      "걸인",
+      "노숙자"
+    ],
+    "aliases_en": [
+      "a tramp",
+      "a vagrant",
+      "begging"
+    ],
     "contexts": {
       "늙고 쇠약한 거지를 봄": "늙고 쇠약 노인 병약",
       "거지에게 적선함": "적선 도와줬 베풀 은전",
@@ -211,8 +312,15 @@
   },
   {
     "id": "belladonna",
-    "aliases": ["독말풀", "가지과 독초", "아트로파"],
-    "aliases_en": ["deadly nightshade", "nightshade"],
+    "aliases": [
+      "독말풀",
+      "가지과 독초",
+      "아트로파"
+    ],
+    "aliases_en": [
+      "deadly nightshade",
+      "nightshade"
+    ],
     "contexts": {
       "벨라도나(독말풀류) 꿈을 꿈": "보았 보였 발견",
       "여성이 벨라도나 꿈을 꿈": "여성 여자 부인",
@@ -226,8 +334,15 @@
   },
   {
     "id": "billiards",
-    "aliases": ["당구장", "포켓볼", "큐대"],
-    "aliases_en": ["pool", "snooker"],
+    "aliases": [
+      "당구장",
+      "포켓볼",
+      "큐대"
+    ],
+    "aliases_en": [
+      "pool",
+      "snooker"
+    ],
     "contexts": {
       "당구 꿈을 꿈": "쳤다 치는 경기 게임",
       "당구 꿈에서 비방이 따라옴": "비방 험담 헐뜯 소문",
@@ -241,8 +356,15 @@
   },
   {
     "id": "blackberry",
-    "aliases": ["산딸기", "검은 딸기", "복분자"],
-    "aliases_en": ["blackberries", "bramble berries"],
+    "aliases": [
+      "산딸기",
+      "검은 딸기",
+      "복분자"
+    ],
+    "aliases_en": [
+      "blackberries",
+      "bramble berries"
+    ],
     "contexts": {
       "블랙베리 꿈을 꿈": "보았 보였 눈에띄",
       "블랙베리를 땀": "땄다 따는 꺾어 수확",
@@ -256,8 +378,16 @@
   },
   {
     "id": "blasphemy",
-    "aliases": ["불경", "모독", "신을 욕"],
-    "aliases_en": ["profanity", "sacrilege", "blaspheming"],
+    "aliases": [
+      "불경",
+      "모독",
+      "신을 욕"
+    ],
+    "aliases_en": [
+      "profanity",
+      "sacrilege",
+      "blaspheming"
+    ],
     "contexts": {
       "신성모독 꿈을 꿈": "신성 모독하 욕설",
       "자기 자신을 저주하는 꿈을 꿈": "자신을 스스로 자기를",
@@ -271,8 +401,16 @@
   },
   {
     "id": "blow",
-    "aliases": ["구타", "때림", "얻어맞"],
-    "aliases_en": ["a beating", "a punch", "a whack"],
+    "aliases": [
+      "구타",
+      "때림",
+      "얻어맞"
+    ],
+    "aliases_en": [
+      "a beating",
+      "a punch",
+      "a whack"
+    ],
     "contexts": {
       "매를 맞는 꿈을 꿈": "매를맞 맞는 두들겨",
       "매를 얻어맞음": "얻어맞 머리를 세게",
@@ -286,8 +424,17 @@
   },
   {
     "id": "boil",
-    "aliases": ["부스럼", "고름집", "뾰루지", "농양"],
-    "aliases_en": ["an abscess", "a carbuncle", "a sore"],
+    "aliases": [
+      "부스럼",
+      "고름집",
+      "뾰루지",
+      "농양"
+    ],
+    "aliases_en": [
+      "an abscess",
+      "a carbuncle",
+      "a sore"
+    ],
     "contexts": {
       "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈": "만성 오래된 낫지않 고질",
       "고름과 피가 나오는 종기를 봄": "고름 피가 터져 진물",
@@ -301,8 +448,15 @@
   },
   {
     "id": "boots",
-    "aliases": ["장화", "가죽신", "목이 긴 신"],
-    "aliases_en": ["a boot", "footwear"],
+    "aliases": [
+      "장화",
+      "가죽신",
+      "목이 긴 신"
+    ],
+    "aliases_en": [
+      "a boot",
+      "footwear"
+    ],
     "contexts": {
       "자기 부츠를 다른 사람이 신은 것을 봄": "다른사람이 남이신 빼앗",
       "새 부츠를 신음": "새부츠 새로산 새것 신었",
@@ -316,8 +470,16 @@
   },
   {
     "id": "borrowing",
-    "aliases": ["빌려", "대출", "차용"],
-    "aliases_en": ["borrow", "borrowed", "a loan"],
+    "aliases": [
+      "빌려",
+      "대출",
+      "차용"
+    ],
+    "aliases_en": [
+      "borrow",
+      "borrowed",
+      "a loan"
+    ],
     "contexts": {
       "무언가를 빌리는 꿈을 꿈": "물건을 무언가 얻어",
       "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈": "은행 은행가 돈을",
@@ -331,8 +493,15 @@
   },
   {
     "id": "brain",
-    "aliases": ["두뇌", "뇌수", "머릿골"],
-    "aliases_en": ["brains", "the mind"],
+    "aliases": [
+      "두뇌",
+      "뇌수",
+      "머릿골"
+    ],
+    "aliases_en": [
+      "brains",
+      "the mind"
+    ],
     "contexts": {
       "자신의 뇌를 봄": "자신의 내머리 스스로",
       "동물의 뇌를 봄": "동물의 짐승 가축",
@@ -346,8 +515,15 @@
   },
   {
     "id": "breath",
-    "aliases": ["입김", "호흡", "날숨"],
-    "aliases_en": ["breathing", "breaths"],
+    "aliases": [
+      "입김",
+      "호흡",
+      "날숨"
+    ],
+    "aliases_en": [
+      "breathing",
+      "breaths"
+    ],
     "contexts": {
       "꿈에서 순수하고 달콤한 숨결로 어떤 사람에게 가까이 다가감": "달콤 향긋 상쾌 가까이",
       "숨결이 악취가 남": "악취 고약 냄새가 구린",
@@ -361,8 +537,14 @@
   },
   {
     "id": "bridle",
-    "aliases": ["고삐", "말굴레", "재갈"],
-    "aliases_en": ["reins", "a halter"],
+    "aliases": [
+      "고삐",
+      "말굴레"
+    ],
+    "aliases_en": [
+      "reins",
+      "a halter"
+    ],
     "contexts": {
       "굴레(고삐)를 보는 꿈을 꿈": "보았 보였 손에들",
       "굴레가 낡거나 부러짐": "낡거나 부러 해어 닳아",
@@ -376,8 +558,15 @@
   },
   {
     "id": "brood",
-    "aliases": ["병아리떼", "한배 새끼", "가금 새끼"],
-    "aliases_en": ["a clutch of chicks", "a litter"],
+    "aliases": [
+      "병아리떼",
+      "한배 새끼",
+      "가금 새끼"
+    ],
+    "aliases_en": [
+      "a clutch of chicks",
+      "a litter"
+    ],
     "contexts": {
       "여성이 새끼를 거느린 가금을 봄": "여성 여자 가금 닭이",
       "많은 아이를 돌보게 되는 꿈으로 이어짐": "많은아이 아이들 돌보 말썽",
@@ -391,8 +580,15 @@
   },
   {
     "id": "broom",
-    "aliases": ["싸리비", "빗자락", "청소용 비"],
-    "aliases_en": ["a besom", "a sweeping brush"],
+    "aliases": [
+      "싸리비",
+      "빗자락",
+      "청소용 비"
+    ],
+    "aliases_en": [
+      "a besom",
+      "a sweeping brush"
+    ],
     "contexts": {
       "새 빗자루를 보는 꿈을 꿈": "새빗자루 새것 새로산",
       "사용 중인 빗자루를 봄": "사용중 쓰고있 닳은 쓸고",
@@ -406,8 +602,16 @@
   },
   {
     "id": "building",
-    "aliases": ["빌딩", "저택", "건축물"],
-    "aliases_en": ["a structure", "an edifice", "buildings"],
+    "aliases": [
+      "빌딩",
+      "저택",
+      "건축물"
+    ],
+    "aliases_en": [
+      "a structure",
+      "an edifice",
+      "buildings"
+    ],
     "contexts": {
       "크고 웅장한 건물 앞에 푸른 잔디가 펼쳐진 것을 봄": "웅장 잔디 푸른 거대",
       "작고 새로 지은 집을 봄": "작고 새로지은 아담 새집",
@@ -421,8 +625,16 @@
   },
   {
     "id": "abbess",
-    "aliases": ["수녀원 원장", "수도원장", "수녀장"],
-    "aliases_en": ["a mother superior", "a nun", "a prioress"],
+    "aliases": [
+      "수녀원 원장",
+      "수도원장",
+      "수녀장"
+    ],
+    "aliases_en": [
+      "a mother superior",
+      "a nun",
+      "a prioress"
+    ],
     "contexts": {
       "젊은 여성이 수녀원장을 보는 꿈을 꿈": "젊은여성 처녀 소녀가",
       "미소 짓고 자애로운 수녀원장을 봄": "미소 자애 인자 웃는"
@@ -434,8 +646,16 @@
   },
   {
     "id": "abject",
-    "aliases": ["비참한 처지", "참담", "비굴"],
-    "aliases_en": ["wretched", "miserable", "abjectly"],
+    "aliases": [
+      "비참한 처지",
+      "참담",
+      "비굴"
+    ],
+    "aliases_en": [
+      "wretched",
+      "miserable",
+      "abjectly"
+    ],
     "contexts": {
       "자신이 비참한 처지에 놓인 꿈을 꿈": "자신이 내가 스스로",
       "다른 사람이 비참한 처지에 있는 것을 봄": "다른사람 남이 타인이"
@@ -447,8 +667,15 @@
   },
   {
     "id": "absence",
-    "aliases": ["없어짐", "떠나있", "곁에 없"],
-    "aliases_en": ["absent", "missing them"],
+    "aliases": [
+      "없어짐",
+      "떠나있",
+      "곁에 없"
+    ],
+    "aliases_en": [
+      "absent",
+      "missing them"
+    ],
     "contexts": {
       "누군가의 부재를 슬퍼하는 꿈을 꿈": "슬퍼 그리워 눈물 서운",
       "친구의 부재를 기뻐하는 꿈을 꿈": "기뻐 홀가분 좋았 후련"
@@ -460,8 +687,16 @@
   },
   {
     "id": "accepted",
-    "aliases": ["받아들여", "수락", "허락"],
-    "aliases_en": ["accepting", "an acceptance", "approved"],
+    "aliases": [
+      "받아들여",
+      "수락",
+      "허락"
+    ],
+    "aliases_en": [
+      "accepting",
+      "an acceptance",
+      "approved"
+    ],
     "contexts": {
       "사업가가 자신의 제안이 받아들여지는 꿈을 꿈": "사업가 제안 거래 계약",
       "연인이 애인에게 청혼을 승낙받는 꿈을 꿈": "청혼 연인 애인 결혼"
@@ -473,8 +708,16 @@
   },
   {
     "id": "accident",
-    "aliases": ["교통사고", "재해", "다치는 일"],
-    "aliases_en": ["a crash", "a mishap", "an injury"],
+    "aliases": [
+      "교통사고",
+      "재해",
+      "다치는 일"
+    ],
+    "aliases_en": [
+      "a crash",
+      "a mishap",
+      "an injury"
+    ],
     "contexts": {
       "사고가 나는 꿈을 꿈": "여행 차를 다쳤 나에게",
       "가축(재산)에 사고가 생기는 꿈을 꿈": "가축 짐승 재산에 기르던"

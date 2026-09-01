@@ -591,12 +591,10 @@
   {
     "id": "arrow",
     "aliases": [
-      "화살촉",
-      "활과 화살"
+      "화살촉"
     ],
     "aliases_en": [
-      "arrows",
-      "bow and arrow"
+      "arrows"
     ],
     "contexts": {
       "화살 꿈을 꿈": "날아 과녁 쏘아 겨누",
@@ -883,23 +881,6 @@
     "aliases_en": [
       "salty",
       "sea salt"
-    ],
-    "contexts": {},
-    "contexts_en": {}
-  },
-  {
-    "id": "soldiers",
-    "aliases": [
-      "군대",
-      "병사",
-      "군인",
-      "병졸"
-    ],
-    "aliases_en": [
-      "soldier",
-      "troops",
-      "army",
-      "warriors"
     ],
     "contexts": {},
     "contexts_en": {}

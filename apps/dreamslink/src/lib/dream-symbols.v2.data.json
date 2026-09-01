@@ -13554,7 +13554,6 @@
       "term_ko": "돌",
       "term_en": "stone",
       "aliases": [
-        "바위",
         "돌멩이",
         "자갈"
       ],
@@ -14745,7 +14744,6 @@
       "term_ko": "청동",
       "term_en": "bronze",
       "aliases": [
-        "구리",
         "놋쇠"
       ],
       "category": "object",
@@ -19154,7 +19152,6 @@
       "term_ko": "주교",
       "term_en": "bishop",
       "aliases": [
-        "대주교",
         "성직자",
         "감독",
         "주교님"
@@ -23525,7 +23522,6 @@
       "term_ko": "대주교",
       "term_en": "archbishop",
       "aliases": [
-        "주교",
         "성직자",
         "추기경"
       ],
@@ -23586,8 +23582,7 @@
       "term_ko": "화살",
       "term_en": "arrow",
       "aliases": [
-        "화살촉",
-        "활과 화살"
+        "화살촉"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -24852,8 +24847,7 @@
       "term_en": "bridle",
       "aliases": [
         "고삐",
-        "말굴레",
-        "재갈"
+        "말굴레"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -29170,6 +29164,69 @@
       ]
     },
     {
+      "id": "white-clothing",
+      "term_ko": "흰 옷",
+      "term_en": "white clothing",
+      "aliases": [
+        "흰옷",
+        "백의",
+        "소복",
+        "하얀옷",
+        "하얀 옷"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자기가 흰옷을 입고 있음",
+          "interpretation_ko": "남이 자기를 두고 무언가 꾀할 조짐",
+          "interpretation_en": "a sign that others are plotting against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "自身白衣人所謀",
+              "translation_ko": "자신이 흰옷을 입으면 남이 꾀하는 바가 있다"
+            }
+          ]
+        },
+        {
+          "context": "흰 옷을 입음",
+          "interpretation_ko": "남에게 청을 받을 조짐",
+          "interpretation_en": "a sign that someone will make a request of you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "著白衣主有人請",
+              "translation_ko": "흰 옷을 입으면 남이 청하는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "여러 사람이 흰 옷을 입음",
+          "interpretation_ko": "관재가 생길 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "眾人著白主官事",
+              "translation_ko": "여러 사람이 흰 옷을 입으면 관재가 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wolf",
       "term_ko": "이리",
       "term_en": "wolf",
@@ -31199,7 +31256,6 @@
       "term_ko": "유령",
       "term_en": "apparition",
       "aliases": [
-        "귀신",
         "혼령",
         "허깨비",
         "망령"
@@ -32570,7 +32626,6 @@
       "term_en": "bar",
       "aliases": [
         "주점",
-        "선술집",
         "맥줏집",
         "호프집"
       ],
@@ -33501,8 +33556,7 @@
       "term_en": "bible",
       "aliases": [
         "성서",
-        "성경책",
-        "경전"
+        "성경책"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -34447,7 +34501,6 @@
       "term_ko": "활과 화살",
       "term_en": "bow and arrow",
       "aliases": [
-        "화살",
         "활쏘기",
         "활시위",
         "궁술"
@@ -34783,7 +34836,6 @@
       "term_en": "bridle bits",
       "aliases": [
         "말재갈",
-        "굴레",
         "고삐",
         "재갈 물린 말"
       ],
@@ -38729,7 +38781,6 @@
       "term_ko": "구리",
       "term_en": "copper",
       "aliases": [
-        "청동",
         "놋쇠"
       ],
       "category": "object",
@@ -39062,7 +39113,6 @@
       "term_ko": "귀신",
       "term_en": "ghost",
       "aliases": [
-        "유령",
         "혼령",
         "망령",
         "도깨비",
@@ -40691,6 +40741,55 @@
       ]
     },
     {
+      "id": "soldier",
+      "term_ko": "군사",
+      "term_en": "soldier",
+      "aliases": [
+        "병사",
+        "군사",
+        "장병",
+        "군졸",
+        "병졸"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "군사가 흩어지는 것을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "見軍兵散主有凶",
+              "translation_ko": "군사가 흩어지는 것을 보면 흉함이 있다"
+            }
+          ]
+        },
+        {
+          "context": "군인이 집에 들어옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "軍人入宅主大吉",
+              "translation_ko": "군인이 집에 들어오면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "soldier-setting-out",
       "term_ko": "출정하는 사람",
       "term_en": "soldier setting out",
@@ -41060,54 +41159,6 @@
               "locator": "垢污沐浴凌辱",
               "original": "失大小便主失財",
               "translation_ko": "대소변을 잃으면 재물을 잃는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "white-clothing",
-      "term_ko": "흰 옷",
-      "term_en": "white clothing",
-      "aliases": [
-        "흰옷",
-        "백의",
-        "소복",
-        "하얀옷"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "흰 옷을 입음",
-          "interpretation_ko": "남에게 청을 받을 조짐",
-          "interpretation_en": "a sign that someone will make a request of you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "著白衣主有人請",
-              "translation_ko": "흰 옷을 입으면 남이 청하는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "여러 사람이 흰 옷을 입음",
-          "interpretation_ko": "관재가 생길 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "眾人著白主官事",
-              "translation_ko": "여러 사람이 흰 옷을 입으면 관재가 생긴다"
             }
           ]
         }
@@ -41487,7 +41538,6 @@
       "term_ko": "선술집",
       "term_en": "ale-house",
       "aliases": [
-        "술집",
         "주점",
         "맥줏집",
         "목로주점"
@@ -47787,7 +47837,6 @@
       "term_ko": "번개",
       "term_en": "lightning",
       "aliases": [
-        "벼락",
         "번갯불",
         "번갯빛",
         "천둥번개"
@@ -49672,8 +49721,7 @@
       "term_en": "scripture",
       "aliases": [
         "불경",
-        "경문",
-        "성경"
+        "경문"
       ],
       "category": "object",
       "polarity": "positive",
@@ -49825,75 +49873,6 @@
               "locator": "龜鱉魚蝦昆蟲",
               "original": "見鱉者主有得財",
               "translation_ko": "자라를 보면 재물을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "soldier",
-      "term_ko": "군인",
-      "term_en": "soldier",
-      "aliases": [
-        "병사",
-        "군사",
-        "장병",
-        "군졸",
-        "병졸"
-      ],
-      "category": "person",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "군인이 집에 들어옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "軍人入宅主大吉",
-              "translation_ko": "군인이 집에 들어오면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "soldiers",
-      "term_ko": "군사",
-      "term_en": "soldiers",
-      "aliases": [
-        "군대",
-        "병사",
-        "군인",
-        "병졸"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "군사가 흩어지는 것을 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "見軍兵散主有凶",
-              "translation_ko": "군사가 흩어지는 것을 보면 흉함이 있다"
             }
           ]
         }
@@ -50329,7 +50308,6 @@
       "term_en": "thunderbolt",
       "aliases": [
         "낙뢰",
-        "번개",
         "천둥"
       ],
       "category": "nature",
@@ -50877,40 +50855,6 @@
               "locator": "田園五榖耕種",
               "original": "麵糠相交家欲儉",
               "translation_ko": "밀가루와 겨가 서로 섞이면 집안이 궁핍해지려 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "white-clothes",
-      "term_ko": "흰옷",
-      "term_en": "white clothes",
-      "aliases": [
-        "하얀 옷",
-        "백의",
-        "소복",
-        "흰 옷"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "자기가 흰옷을 입고 있음",
-          "interpretation_ko": "남이 자기를 두고 무언가 꾀할 조짐",
-          "interpretation_en": "a sign that others are plotting against you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "自身白衣人所謀",
-              "translation_ko": "자신이 흰옷을 입으면 남이 꾀하는 바가 있다"
             }
           ]
         }

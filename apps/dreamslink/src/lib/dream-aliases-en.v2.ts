@@ -287,7 +287,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "ground": [
     "earth",
-    "soil",
     "land"
   ],
   "drum": [
@@ -598,7 +597,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "rock": [
     "boulder",
     "rocks",
-    "stone",
     "cliff"
   ],
   "shooting-an-arrow": [
@@ -831,8 +829,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "ants"
   ],
   "arrow": [
-    "arrows",
-    "bow and arrow"
+    "arrows"
   ],
   "beating-someone": [
     "hitting someone",
@@ -927,12 +924,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "salt": [
     "salty",
     "sea salt"
-  ],
-  "soldiers": [
-    "soldier",
-    "troops",
-    "army",
-    "warriors"
   ],
   "sunset-glow": [
     "sunset",
@@ -1053,7 +1044,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "ghosts",
     "spirit",
     "demon",
-    "apparition",
     "specter"
   ],
   "hemp": [
@@ -1075,7 +1065,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "soil": [
     "earth",
     "dirt",
-    "ground",
     "mud",
     "clay"
   ],
@@ -1142,7 +1131,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "jade dish"
   ],
   "lightning": [
-    "thunderbolt",
     "lightning bolt",
     "thunder"
   ],
@@ -1181,7 +1169,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "soldier": [
     "soldiers",
     "troops",
-    "warrior"
+    "warrior",
+    "warriors"
   ],
   "sweat": [
     "sweating",
@@ -1324,10 +1313,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "marching off"
   ],
   "white-clothing": [
-    "white clothes",
     "white robe",
     "dressed in white",
-    "white garment"
+    "white garment",
+    "white dress"
   ],
   "being-bound": [
     "bound",
@@ -1350,7 +1339,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "garlic chives"
   ],
   "copper": [
-    "bronze",
     "brass",
     "copper vessel"
   ],
@@ -1471,7 +1459,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "stone": [
     "stones",
-    "rock",
     "rocks",
     "pebble"
   ],
@@ -1647,8 +1634,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "scripture": [
     "scriptures",
     "sutra",
-    "holy book",
-    "bible"
+    "holy book"
   ],
   "smoke": [
     "fumes",
@@ -1661,9 +1647,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "self-harm"
   ],
   "thunderbolt": [
-    "lightning",
     "thunder",
-    "struck by lightning"
+    "struck by lightning",
+    "bolt of lightning"
   ],
   "wealth": [
     "riches",
@@ -1928,12 +1914,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "loom",
     "weave",
     "woven"
-  ],
-  "white-clothes": [
-    "white robe",
-    "white dress",
-    "white garment",
-    "dressed in white"
   ],
   "boat": [
     "ship",
@@ -2831,7 +2811,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "apparition": [
     "apparitions",
-    "ghost",
     "ghosts",
     "phantom"
   ],

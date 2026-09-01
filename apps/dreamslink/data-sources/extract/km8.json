@@ -988,22 +988,5 @@
     ],
     "contexts": {},
     "contexts_en": {}
-  },
-  {
-    "id": "white-clothes",
-    "aliases": [
-      "하얀 옷",
-      "백의",
-      "소복",
-      "흰 옷"
-    ],
-    "aliases_en": [
-      "white robe",
-      "white dress",
-      "white garment",
-      "dressed in white"
-    ],
-    "contexts": {},
-    "contexts_en": {}
   }
 ]

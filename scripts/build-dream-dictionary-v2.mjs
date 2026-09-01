@@ -110,6 +110,11 @@ const SYNONYMS = new Map([
   // 부뚜막 — 밀러 `Cooking Stove`와 주공해몽 竈는 한국어로 같은 것이다(밥 짓는 화덕).
   // 2026-09-01 배치 19.
   ["cooking stove", "kitchen stove"],
+
+  // 아래 둘은 **같은 것이 갈라져 있던 자리**다(넷 다 주공해몽). 상징끼리 서로의 이름을
+  // 별칭으로 쥐고 있어 늘 함께 걸렸다 — 2026-09-01 별칭 전수 대조에서 드러났다.
+  ["white clothes", "white clothing"],
+  ["soldiers", "soldier"],
 ]);
 
 /**

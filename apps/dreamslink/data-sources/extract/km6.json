@@ -584,21 +584,24 @@
       "흰옷",
       "백의",
       "소복",
-      "하얀옷"
+      "하얀옷",
+      "하얀 옷"
     ],
     "aliases_en": [
-      "white clothes",
       "white robe",
       "dressed in white",
-      "white garment"
+      "white garment",
+      "white dress"
     ],
     "contexts": {
       "흰 옷을 입음": "입었 입고 걸치",
-      "여러 사람이 흰 옷을 입음": "여러사람 사람들이 모두 무리 떼지어"
+      "여러 사람이 흰 옷을 입음": "여러사람 사람들이 모두 무리 떼지어",
+      "자기가 흰옷을 입고 있음": "자기가 스스로 내가"
     },
     "contexts_en": {
       "흰 옷을 입음": "wearing wore",
-      "여러 사람이 흰 옷을 입음": "many people everyone crowd"
+      "여러 사람이 흰 옷을 입음": "many people everyone crowd",
+      "자기가 흰옷을 입고 있음": "himself herself own"
     }
   },
   {
@@ -673,11 +676,9 @@
   {
     "id": "copper",
     "aliases": [
-      "청동",
       "놋쇠"
     ],
     "aliases_en": [
-      "bronze",
       "brass",
       "copper vessel"
     ],

@@ -211,13 +211,11 @@
   {
     "id": "stone",
     "aliases": [
-      "바위",
       "돌멩이",
       "자갈"
     ],
     "aliases_en": [
       "stones",
-      "rock",
       "rocks",
       "pebble"
     ],
@@ -879,14 +877,12 @@
     "id": "scripture",
     "aliases": [
       "불경",
-      "경문",
-      "성경"
+      "경문"
     ],
     "aliases_en": [
       "scriptures",
       "sutra",
-      "holy book",
-      "bible"
+      "holy book"
     ],
     "contexts": {},
     "contexts_en": {}
@@ -924,13 +920,12 @@
     "id": "thunderbolt",
     "aliases": [
       "낙뢰",
-      "번개",
       "천둥"
     ],
     "aliases_en": [
-      "lightning",
       "thunder",
-      "struck by lightning"
+      "struck by lightning",
+      "bolt of lightning"
     ],
     "contexts": {},
     "contexts_en": {}

@@ -486,7 +486,6 @@
   {
     "id": "ghost",
     "aliases": [
-      "유령",
       "혼령",
       "망령",
       "도깨비",
@@ -496,7 +495,6 @@
       "ghosts",
       "spirit",
       "demon",
-      "apparition",
       "specter"
     ],
     "contexts": {
@@ -577,7 +575,6 @@
     "aliases_en": [
       "earth",
       "dirt",
-      "ground",
       "mud",
       "clay"
     ],
@@ -831,13 +828,11 @@
   {
     "id": "lightning",
     "aliases": [
-      "벼락",
       "번갯불",
       "번갯빛",
       "천둥번개"
     ],
     "aliases_en": [
-      "thunderbolt",
       "lightning bolt",
       "thunder"
     ],
@@ -948,10 +943,17 @@
     "aliases_en": [
       "soldiers",
       "troops",
-      "warrior"
+      "warrior",
+      "warriors"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "군인이 집에 들어옴": "집에 들어왔 집으로",
+      "군사가 흩어지는 것을 봄": "흩어지 흩어졌 뿔뿔이"
+    },
+    "contexts_en": {
+      "군인이 집에 들어옴": "entered house home",
+      "군사가 흩어지는 것을 봄": "scattered scattering dispersed"
+    }
   },
   {
     "id": "sweat",

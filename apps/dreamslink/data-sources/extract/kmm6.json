@@ -305,7 +305,6 @@
     "id": "bar",
     "aliases": [
       "주점",
-      "선술집",
       "맥줏집",
       "호프집"
     ],
@@ -732,8 +731,7 @@
     "id": "bible",
     "aliases": [
       "성서",
-      "성경책",
-      "경전"
+      "성경책"
     ],
     "aliases_en": [
       "the scriptures",
