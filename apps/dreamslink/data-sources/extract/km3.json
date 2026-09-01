@@ -711,14 +711,38 @@
   },
   {
     "id": "dove",
-    "aliases": [],
+    "aliases": [
+      "산비둘기",
+      "집비둘기",
+      "비둘기들"
+    ],
     "aliases_en": [
       "doves",
       "pigeon",
       "pigeons"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "비둘기가 욺": "구구 울어대 울어댔",
+      "비둘기가 짝을 짓고 둥지를 지음": "짝을 짝짓 둥지 새끼",
+      "비둘기가 외로이 구슬프게 우는 소리를 들음": "구슬프 구슬픈 외로이 슬피",
+      "죽은 비둘기를 봄": "죽은 죽어 주검 시체",
+      "흰 비둘기 떼를 봄": "떼를 떼가 무리 여럿",
+      "흰 비둘기를 봄": "하얀",
+      "비둘기가 편지를 물어다 줌": "쪽지 물어다 가져다",
+      "편지를 가져온 비둘기가 지쳐 보임": "지쳐 지친 기진 힘없",
+      "비둘기가 가져온 편지에 파멸을 알리는 글이 있음": "파멸 끝장 불길 흉한"
+    },
+    "contexts_en": {
+      "비둘기가 욺": "cooing",
+      "비둘기가 짝을 짓고 둥지를 지음": "mating nests obedience mercy",
+      "비둘기가 외로이 구슬프게 우는 소리를 들음": "mournful lonely sorrow father",
+      "죽은 비둘기를 봄": "dead separation infidelity",
+      "흰 비둘기 떼를 봄": "flock peaceful innocent",
+      "흰 비둘기를 봄": "white bountiful harvests loyalty",
+      "비둘기가 편지를 물어다 줌": "letter brings tidings reconciliation",
+      "편지를 가져온 비둘기가 지쳐 보임": "exhausted sadness invalid",
+      "비둘기가 가져온 편지에 파멸을 알리는 글이 있음": "doomed desperate financial"
+    }
   },
   {
     "id": "fireworks",

@@ -5,7 +5,8 @@
       "대문",
       "출입문",
       "현관문",
-      "문짝"
+      "문짝",
+      "문간"
     ],
     "aliases_en": [
       "doors",
@@ -30,7 +31,13 @@
       "문 앞에 풀이 자람": "풀이 잡초 풀밭 우거",
       "문 앞에 구덩이와 도랑이 있음": "구덩이 도랑 웅덩이 파여",
       "하늘의 불이 문을 태움": "불이 불타 태워 화재 불길",
-      "집에 작은 문을 냄": "작은 쪽문 조그만 좁은"
+      "집에 작은 문을 냄": "작은 쪽문 조그만 좁은",
+      "문으로 들어감": "들어가 들어갔 들어섰",
+      "어린 시절 살던 집의 문으로 들어감": "어린 시절 어릴 고향 살던",
+      "비 오는 밤에 문으로 들어감": "빗속 비를 비가 밤에",
+      "남들이 문간을 지나가는 것을 봄": "남들 사람들 지나가",
+      "문을 닫으려는데 문짝이 빠져 남을 다치게 함": "닫으려 다치 돌쩌귀 경첩",
+      "남이 문을 잠그려는데 문짝이 빠짐": "잠그려 자물쇠 걸어잠"
     },
     "contexts_en": {
       "문이 높고 큼": "towering large huge grand",
@@ -49,7 +56,13 @@
       "문 앞에 풀이 자람": "grass weeds growing",
       "문 앞에 구덩이와 도랑이 있음": "pit ditch hole trench",
       "하늘의 불이 문을 태움": "fire burning burned flames",
-      "집에 작은 문을 냄": "small little narrow side"
+      "집에 작은 문을 냄": "small little narrow side",
+      "문으로 들어감": "entering escape slander enemies",
+      "어린 시절 살던 집의 문으로 들어감": "childhood plenty congeniality",
+      "비 오는 밤에 문으로 들어감": "rain night escapades assignations",
+      "남들이 문간을 지나가는 것을 봄": "others paying farmers reprove",
+      "문을 닫으려는데 문짝이 빠져 남을 다치게 함": "hinge injuring unintentionally advice",
+      "남이 문을 잠그려는데 문짝이 빠짐": "powerless misfortune aid another"
     }
   },
   {
@@ -196,7 +209,8 @@
       "술에 취하도록 마심": "취하 취해 취했 만취 곤드",
       "귀인과 마주 앉아 술을 마심": "귀인 마주 앉아 어른과 높은사람",
       "높은 누각에서 술을 마심": "누각 정자 다락 높은곳",
-      "배 위에서 술을 마심": "배위 배에서 뱃놀이 선상"
+      "배 위에서 술을 마심": "배위 배에서 뱃놀이 선상",
+      "여성이 흥청거리며 술을 마심": "흥청 왁자 떠들썩 진탕"
     },
     "contexts_en": {
       "남이 권하는 술을 마심": "offered pouring urged poured",
@@ -205,7 +219,8 @@
       "술에 취하도록 마심": "drunk drunken intoxicated wasted",
       "귀인과 마주 앉아 술을 마심": "noble dignitary facing sitting",
       "높은 누각에서 술을 마심": "pavilion tower upstairs",
-      "배 위에서 술을 마심": "boat ship aboard deck"
+      "배 위에서 술을 마심": "boat ship aboard deck",
+      "여성이 흥청거리며 술을 마심": "hilarious discredit pleasure"
     }
   },
   {
@@ -654,12 +669,10 @@
   {
     "id": "camel",
     "aliases": [
-      "쌍봉낙타",
-      "단봉낙타"
+      "쌍봉낙타"
     ],
     "aliases_en": [
-      "camels",
-      "dromedary"
+      "camels"
     ],
     "contexts": {
       "낙타를 봄": "홀로 마리 우두커니",

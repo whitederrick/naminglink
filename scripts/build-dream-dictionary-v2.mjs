@@ -142,6 +142,39 @@ const EXPLICIT_IDS = new Map([
 ]);
 
 /**
+ * **상징의 「기본값」을 못 박는다 — 첫 의미가 곧 아무것도 안 걸렸을 때의 답이다.**
+ *
+ * `dream-match.ts`의 `pickByScore`는 판별어 점수가 전부 0이면 `from[0]`을 돌려준다.
+ * 곧 **의미 배열의 첫째가 그 상징의 기본값**이다(CLAUDE.md §25 곁가지 3 — 그래서 대표
+ * 의미의 판별어는 비워 두라고 적혀 있다).
+ *
+ * 그런데 **누가 첫째가 되는지는 위 `files`의 정렬 순서**가 정한다. `m*.json`(밀러)이
+ * `r*.json`(주공해몽)보다 먼저 정렬되므로, **밀러 배치를 하나 넣을 때마다 이미 있던
+ * 상징의 기본값이 조용히 밀러 쪽으로 갈아치워진다.** 배치 27b에서 실측으로 다섯이
+ * 걸렸다(2026-09-02):
+ *
+ *   물   「물을 마심」(길)              → 「맑은 물을 마시려 해도 마시지 못함」(흉)
+ *   문   「문이 높고 큼」(길)            → 「문으로 들어감」(흉)
+ *   용   「용을 타고 하늘에 오름」(길)   → 「용을 봄」(흉)
+ *   술   「남이 권하는 술을 마심」(길)   → 「여성이 흥청거리며 술을 마심」(흉)
+ *   비둘기 「비둘기가 욺」(흉)           → 「비둘기가 짝을 짓고 둥지를 지음」(길)
+ *
+ * tsc·검사기·하니스 어디에도 안 걸린다. **화면에 뜨는 답만 바뀐다.**
+ * `EXPLICIT_IDS`가 id에 대해 하는 일을 기본값에 대해 하는 것이다 — 순서에 기대지 말고
+ * **목록으로 얼린다**(CLAUDE.md §11).
+ *
+ * **여기 없는 상징의 기본값은 여전히 파일 순서가 정한다.** 그것을 그대로 두지 않도록
+ * 아래 「기본값이 바뀐 상징」 관문이 **이전 사전과 대조**해서 잡는다.
+ */
+const FALLBACK_FIRST = new Map([
+  ["water", "물을 마심"],
+  ["door", "문이 높고 큼"],
+  ["dragon", "용을 타고 하늘에 오름"],
+  ["liquor", "남이 권하는 술을 마심"],
+  ["dove", "비둘기가 욺"],
+]);
+
+/**
  * **「자주 찾는 상징」으로 내보낼 상징** — `weight: 3`.
  *
  * 상징을 하나도 못 찾은 결과 화면이 이 값으로 목록을 고른다
@@ -360,6 +393,7 @@ function slugify(en, fallback) {
 const symbols = [];
 const usedIds = new Set();
 const usedExplicitIds = new Set();
+const usedFallbackIds = new Set();
 let seq = 0;
 
 for (const sym of bySymbol.values()) {
@@ -399,6 +433,23 @@ for (const sym of bySymbol.values()) {
   /** 이 상징이 어느 원문에서 왔는가 — 인용에서 **세어서** 낸다(라벨을 믿지 않는다). */
   const works = [...new Set(sym.meanings.flatMap((m) => m.cites.map((c) => c.work)))].sort();
 
+  /**
+   * **기본값으로 못 박은 의미를 맨 앞으로 옮긴다.** 못 박아 놓고 그 상황 문구가 사라지면
+   * 조용히 딴 것이 기본값이 되므로 **멈춘다**(검사 0건은 통과가 아니다 — §3).
+   */
+  const wantFirst = FALLBACK_FIRST.get(id);
+  if (wantFirst !== undefined) {
+    const at = sym.meanings.findIndex((m) => m.context === wantFirst);
+    if (at < 0) {
+      console.error(
+        `FALLBACK_FIRST: ${id} 의 「${wantFirst}」가 의미에 없다 — 기본값이 딴 것으로 바뀐다.`,
+      );
+      process.exit(1);
+    }
+    usedFallbackIds.add(id);
+    if (at > 0) sym.meanings.unshift(...sym.meanings.splice(at, 1));
+  }
+
   symbols.push({
     id,
     term_ko,
@@ -429,6 +480,59 @@ if (unusedExplicit.length > 0) {
       "\n안 쓰이면 id 가 추출 파일 순서로 정해진다 — 주소가 조용히 뒤바뀔 수 있다.",
   );
   process.exit(1);
+}
+
+const unusedFallback = [...FALLBACK_FIRST.keys()].filter((k) => !usedFallbackIds.has(k));
+if (unusedFallback.length > 0) {
+  console.error(
+    `\nFALLBACK_FIRST 에 적혔는데 사전에 없는 상징: ${unusedFallback.join(", ")}`,
+  );
+  process.exit(1);
+}
+
+/**
+ * **기본값이 바뀐 상징을 이전 사전과 대조해서 잡는다.**
+ *
+ * `FALLBACK_FIRST`는 내가 **알고 정한** 자리만 지킨다. 여기 없는 상징의 기본값은 여전히
+ * 추출 파일 이름의 정렬 순서가 정하고, 밀러 배치를 하나 넣을 때마다 조용히 갈아치워질 수
+ * 있다(2026-09-02에 다섯이 그랬다). 그래서 **덮어쓰기 전의 사전**을 자로 삼아 잰다.
+ *
+ * 자를 이 조립기 자신의 옛 산출물에서 가져오는 것은 §24가 경고한 자리지만, 여기서 재려는
+ * 것은 「원문을 옳게 읽었는가」가 아니라 **「이번 조립이 이미 나가 있는 답을 바꿨는가」**다 —
+ * 그 물음의 자는 정의상 **지금 나가 있는 사전**이다.
+ *
+ * ## 이것이 못 잡는 것 (§22)
+ *
+ *   · 새로 생긴 상징은 못 본다 — 견줄 옛 값이 없다.
+ *   · 첫 의미만 본다. 둘째 이하의 순서가 바뀌는 것은 판별어가 정하므로 여기서 안 잰다.
+ *   · **바뀐 것이 옳은지는 판정하지 않는다.** 사람이 보고 `FALLBACK_FIRST`에 적으라는 뜻이다.
+ */
+if (existsSync(OUT)) {
+  const prev = JSON.parse(readFileSync(OUT, "utf8"));
+  const prevFirst = new Map(
+    (Array.isArray(prev) ? prev : (prev.symbols ?? [])).map((s) => [
+      s.id,
+      s.meanings?.[0]?.context,
+    ]),
+  );
+  const flipped = symbols.filter(
+    (s) => prevFirst.has(s.id) && prevFirst.get(s.id) !== s.meanings[0].context,
+  );
+  if (flipped.length > 0) {
+    console.error(
+      `\n기본값(첫 의미)이 바뀐 상징 ${flipped.length}개 — 판별어가 하나도 안 걸린 꿈의 답이 바뀐다:`,
+    );
+    for (const s of flipped) {
+      console.error(`  ${s.id} (${s.term_ko})`);
+      console.error(`     전: ${prevFirst.get(s.id)}`);
+      console.error(`     후: ${s.meanings[0].context}`);
+    }
+    console.error(
+      "\n바꿀 뜻이었으면 FALLBACK_FIRST 에 적어 얼리고, 아니면 그 배치가 어느 의미를" +
+        "\n앞에 밀어 넣었는지 본다. 첫 의미는 아무것도 안 걸렸을 때 화면에 뜨는 답이다.",
+    );
+    process.exit(1);
+  }
 }
 
 /** **「자주 찾는 상징」 목록이 사전과 어긋나면 멈춘다.** 빈 목록은 화면에서 절이 사라진다. */

@@ -21,6 +21,7 @@
     "m25.json",
     "m26.json",
     "m27a.json",
+    "m27b.json",
     "m3.json",
     "m4a.json",
     "m4b.json",
@@ -798,6 +799,356 @@
         }
       ],
       "label_ko": "배(선박)"
+    },
+    {
+      "id": "door",
+      "term_ko": "문",
+      "term_en": "door",
+      "aliases": [
+        "대문",
+        "출입문",
+        "현관문",
+        "문짝",
+        "문간"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "문이 높고 큼",
+          "interpretation_ko": "부귀할 조짐",
+          "interpretation_en": "a sign of wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶高大主富貴",
+              "translation_ko": "문이 높고 크면 부귀할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문으로 들어감",
+          "interpretation_ko": "헐뜯는 말과, 벗어나려 애써도 벗어나지 못할 적이 있을 조짐",
+          "interpretation_en": "slander, and enemies from whom you are trying in vain to escape",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "To dream of entering a door, denotes slander, and enemies from whom you are trying in vain to escape. This is the same of any door, except the door of your childhood home.",
+              "translation_ko": "문으로 들어가는 꿈은 헐뜯는 말과, 벗어나려 애써도 벗어나지 못하는 적을 뜻한다. 어느 문이든 마찬가지이나 어린 시절 살던 집의 문만은 다르다"
+            }
+          ]
+        },
+        {
+          "context": "어린 시절 살던 집의 문으로 들어감",
+          "interpretation_ko": "나날이 넉넉하고 마음 맞는 이들로 채워질 조짐",
+          "interpretation_en": "your days will be filled with plenty and congeniality",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "If it is this door you dream of entering, your days will be filled with plenty and congeniality.",
+              "translation_ko": "그 문으로 들어가는 꿈이면, 나날이 넉넉하고 마음 맞는 이들로 채워진다"
+            }
+          ]
+        },
+        {
+          "context": "비 오는 밤에 문으로 들어감",
+          "interpretation_ko": "여자에게는 용서받지 못할 탈선이, 남자에게는 그릇된 놀음으로 재물이 새고 몰래 만날 일이 있을 조짐",
+          "interpretation_en": "unpardonable escapades to women; to a man, a drawing on his resources by unwarranted vice, and assignations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "To dream of entering a door at night through the rain, denotes, to women, unpardonable escapades; to a man, it is significant of a drawing on his resources by unwarranted vice, and also foretells assignations.",
+              "translation_ko": "비를 맞으며 밤에 문으로 들어가는 꿈은, 여자에게는 용서받지 못할 탈선을, 남자에게는 그릇된 놀음으로 재물이 새는 것과 몰래 만날 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 문간을 지나가는 것을 봄",
+          "interpretation_ko": "살림을 벌이가 되게 하려는 애가 헛될 조짐",
+          "interpretation_en": "unsuccessful attempts to get your affairs into a paying condition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "To see others go through a doorway, denotes unsuccessful attempts to get your affairs into a paying condition. It also means changes to farmers and the political world.",
+              "translation_ko": "남들이 문간을 지나가는 것을 보는 꿈은, 살림을 벌이가 되게 하려는 애가 헛됨을 뜻한다. 농사짓는 이와 정치 쪽에는 변화를 뜻하기도 한다"
+            }
+          ]
+        },
+        {
+          "context": "문을 닫으려는데 문짝이 빠져 남을 다치게 함",
+          "interpretation_ko": "뜻하지 않게 잘못 이른 말 때문에 벗에게 모진 화가 닥칠 조짐",
+          "interpretation_en": "malignant evil threatens your friend through your unintentionally wrong advice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "To dream that you attempt to close a door, and it falls from its hinges, injuring some one, denotes that malignant evil threatens your friend through your unintentionally wrong advice.",
+              "translation_ko": "문을 닫으려는데 문이 돌쩌귀에서 빠져 누군가를 다치게 하는 꿈은, 뜻하지 않게 잘못 이른 말 때문에 벗에게 모진 화가 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 문을 잠그려는데 문짝이 빠짐",
+          "interpretation_ko": "벗의 불행을 알게 되나 도울 힘이 없을 조짐",
+          "interpretation_en": "you will have knowledge of some friend's misfortune and be powerless to aid him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Door",
+              "original": "If you see another attempt to lock a door, and it falls from its hinges, you will have knowledge of some friend's misfortune and be powerless to aid him.",
+              "translation_ko": "남이 문을 잠그려는데 문이 돌쩌귀에서 빠지는 것을 보면, 벗의 불행을 알게 되나 도울 힘이 없다"
+            }
+          ]
+        },
+        {
+          "context": "문을 새로 냄",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "新開門戶大富貴",
+              "translation_ko": "문을 새로 내면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "문이 홀연히 열림",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶忽開主大吉",
+              "translation_ko": "문이 홀연히 열리면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문이 활짝 열림",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶大開大吉利",
+              "translation_ko": "문이 활짝 열리면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "문을 새것으로 고침",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門更新主生貴子",
+              "translation_ko": "문을 새로 고치면 귀한 아들을 낳을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문이 저절로 열림",
+          "interpretation_ko": "아내에게 사사로운 정이 있을 조짐",
+          "interpretation_en": "a sign that the wife has a secret affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門自開妻有私情",
+              "translation_ko": "문이 저절로 열리면 아내에게 사사로운 정이 있다"
+            }
+          ]
+        },
+        {
+          "context": "문이 갈라져 열림",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶裂開主大吉",
+              "translation_ko": "문이 갈라져 열리면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문이 부서짐",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that misfortune will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶破壞有凶事",
+              "translation_ko": "문이 부서지면 흉한 일이 있다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶破壞主大凶",
+              "translation_ko": "문이 부서지면 크게 흉할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문이 닫혀 막힘",
+          "interpretation_ko": "일이 통하지 않을 조짐",
+          "interpretation_en": "a sign that affairs will not go through",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶閉塞事不通",
+              "translation_ko": "문이 닫혀 막히면 일이 통하지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "문짝이 저절로 부러짐",
+          "interpretation_ko": "부리는 사람이 달아날 조짐",
+          "interpretation_en": "a sign that servants will run away",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門扇自折奴僕走",
+              "translation_ko": "문짝이 저절로 부러지면 종이 달아난다"
+            }
+          ]
+        },
+        {
+          "context": "문 안에 사람이 없음",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門戶內無人大凶",
+              "translation_ko": "문 안에 사람이 없으면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "문을 고치거나 옮김",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "修移門戶大吉利",
+              "translation_ko": "문을 고치거나 옮기면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "돌로 문을 만듦",
+          "interpretation_ko": "오래 살 조짐",
+          "interpretation_en": "a sign of a long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "石為門戶主壽命",
+              "translation_ko": "돌로 문을 만들면 수명이 길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "문 앞에 풀이 자람",
+          "interpretation_ko": "높은 벼슬에 오를 조짐",
+          "interpretation_en": "a sign of rising to high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門前生草作刺史",
+              "translation_ko": "문 앞에 풀이 자라면 자사가 된다"
+            }
+          ]
+        },
+        {
+          "context": "문 앞에 구덩이와 도랑이 있음",
+          "interpretation_ko": "일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that affairs will not come to fruition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門前坑溝事不成",
+              "translation_ko": "문 앞에 구덩이와 도랑이 있으면 일이 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "하늘의 불이 문을 태움",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that misfortune will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "天火燒門主凶事",
+              "translation_ko": "하늘의 불이 문을 태우면 흉한 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집에 작은 문을 냄",
+          "interpretation_ko": "사사로운 정이 생길 조짐",
+          "interpretation_en": "a sign of a secret affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "屋開小門主私情",
+              "translation_ko": "집에 작은 문을 내면 사사로운 정이 생길 조짐이다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "sword",
@@ -3791,264 +4142,246 @@
       ]
     },
     {
-      "id": "door",
-      "term_ko": "문",
-      "term_en": "door",
+      "id": "dragon",
+      "term_ko": "용",
+      "term_en": "dragon",
       "aliases": [
-        "대문",
-        "출입문",
-        "현관문",
-        "문짝"
+        "청룡",
+        "황룡",
+        "이무기"
       ],
-      "category": "object",
+      "category": "animal",
       "polarity": "ambivalent",
       "works": [
+        "miller",
         "zhougong"
       ],
-      "tags": [],
-      "weight": 1,
+      "tags": [
+        "태몽"
+      ],
+      "weight": 3,
       "meanings": [
         {
-          "context": "문이 높고 큼",
-          "interpretation_ko": "부귀할 조짐",
-          "interpretation_en": "a sign of wealth and honor",
+          "context": "용을 타고 하늘에 오름",
+          "interpretation_ko": "크게 귀해질 조짐",
+          "interpretation_en": "a sign of becoming greatly honored",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶高大主富貴",
-              "translation_ko": "문이 높고 크면 부귀할 조짐이다"
+              "locator": "天地日月星辰",
+              "original": "乘龍上天大主貴",
+              "translation_ko": "용을 타고 하늘에 오르면 크게 귀하다"
             }
           ]
         },
         {
-          "context": "문을 새로 냄",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
+          "context": "용을 봄",
+          "interpretation_ko": "격한 마음에 휘둘리고, 비꼬는 성미가 터져 나와 적의 손아귀에 들 조짐",
+          "interpretation_en": "you allow yourself to be governed by your passions, and are likely to place yourself in the power of your enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dragon",
+              "original": "To dream of a dragon, denotes that you allow yourself to be governed by your passions, and that you are likely to place yourself in the power of your enemies through those outbursts of sardonic tendencies.",
+              "translation_ko": "용 꿈은 격한 마음에 스스로를 내맡기고 있음을, 그리고 비꼬는 성미가 터져 나와 적의 손아귀에 들기 쉬움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "용을 타고 물에 들어감",
+          "interpretation_ko": "귀한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining a noble position",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "新開門戶大富貴",
-              "translation_ko": "문을 새로 내면 크게 부귀하다"
+              "locator": "龍蛇禽獸等類",
+              "original": "乘龍入水有貴位",
+              "translation_ko": "용을 타고 물에 들어가면 귀한 지위를 얻는다"
             }
           ]
         },
         {
-          "context": "문이 홀연히 열림",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "용이 물속에서 잠듦",
+          "interpretation_ko": "구하는 일이 이루어질 조짐",
+          "interpretation_en": "a sign that what one seeks will be accomplished",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶忽開主大吉",
-              "translation_ko": "문이 홀연히 열리면 크게 길할 조짐이다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍眠水中求事遂",
+              "translation_ko": "용이 물속에서 자면 구하는 일이 이루어진다"
             }
           ]
         },
         {
-          "context": "문이 활짝 열림",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "용이 문 앞을 지키고 있음",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a sign of great fortune and prosperity",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶大開大吉利",
-              "translation_ko": "문이 활짝 열리면 크게 길하고 이롭다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍當門者大吉昌",
+              "translation_ko": "용이 문을 마주하고 있으면 크게 길하고 번창한다"
             }
           ]
         },
         {
-          "context": "문을 새것으로 고침",
-          "interpretation_ko": "귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門更新主生貴子",
-              "translation_ko": "문을 새로 고치면 귀한 아들을 낳을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "문이 저절로 열림",
-          "interpretation_ko": "아내에게 사사로운 정이 있을 조짐",
-          "interpretation_en": "a sign that the wife has a secret affair",
+          "context": "용이 죽음",
+          "interpretation_ko": "귀한 지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing a noble position",
           "polarity": "negative",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門自開妻有私情",
-              "translation_ko": "문이 저절로 열리면 아내에게 사사로운 정이 있다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍死亡主失貴位",
+              "translation_ko": "용이 죽으면 귀한 지위를 잃는다"
             }
           ]
         },
         {
-          "context": "문이 갈라져 열림",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "용을 타고 산에 오름",
+          "interpretation_ko": "구하는 바가 이루어질 조짐",
+          "interpretation_en": "a sign that what one seeks will be accomplished",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶裂開主大吉",
-              "translation_ko": "문이 갈라져 열리면 크게 길할 조짐이다"
+              "locator": "龍蛇禽獸等類",
+              "original": "乘龍上山所求遂",
+              "translation_ko": "용을 타고 산에 오르면 구하는 바가 이루어진다"
             }
           ]
         },
         {
-          "context": "문이 부서짐",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that misfortune will occur",
+          "context": "용이 우물 속으로 들어감",
+          "interpretation_ko": "벼슬자리에서 욕을 당할 조짐",
+          "interpretation_en": "a sign of disgrace in one's official post",
           "polarity": "negative",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶破壞有凶事",
-              "translation_ko": "문이 부서지면 흉한 일이 있다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶破壞主大凶",
-              "translation_ko": "문이 부서지면 크게 흉할 조짐이다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍入井中官被辱",
+              "translation_ko": "용이 우물에 들어가면 관리가 욕을 당한다"
             }
           ]
         },
         {
-          "context": "문이 닫혀 막힘",
-          "interpretation_ko": "일이 통하지 않을 조짐",
-          "interpretation_en": "a sign that affairs will not go through",
-          "polarity": "negative",
+          "context": "용이 하늘로 날아오름",
+          "interpretation_ko": "관직을 얻어 크게 귀해질 조짐",
+          "interpretation_en": "a sign of gaining office and great honor",
+          "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶閉塞事不通",
-              "translation_ko": "문이 닫혀 막히면 일이 통하지 않는다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍飛有官位大貴",
+              "translation_ko": "용이 날면 관직이 있고 크게 귀해진다"
             }
           ]
         },
         {
-          "context": "문짝이 저절로 부러짐",
-          "interpretation_ko": "부리는 사람이 달아날 조짐",
-          "interpretation_en": "a sign that servants will run away",
-          "polarity": "negative",
+          "context": "용을 타고 저자에 들어감",
+          "interpretation_ko": "귀한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining a noble position",
+          "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門扇自折奴僕走",
-              "translation_ko": "문짝이 저절로 부러지면 종이 달아난다"
+              "locator": "龍蛇禽獸等類",
+              "original": "乘龍入市主貴位",
+              "translation_ko": "용을 타고 저자에 들어가면 귀한 지위를 얻는다"
             }
           ]
         },
         {
-          "context": "문 안에 사람이 없음",
+          "context": "용이 문 안으로 들어옴",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇入門主得財",
+              "translation_ko": "용과 뱀이 문에 들어오면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "용이 부뚜막에 들어옴",
+          "interpretation_ko": "관직이 이를 조짐",
+          "interpretation_en": "a sign that an official post will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇入灶有官至",
+              "translation_ko": "용과 뱀이 부뚜막에 들어오면 관직이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 용으로 변함",
+          "interpretation_ko": "귀인의 도움을 얻을 조짐",
+          "interpretation_en": "a sign of receiving help from an influential person",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇化龍得貴人助",
+              "translation_ko": "뱀이 용으로 변하면 귀인의 도움을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "부인이 용을 봄",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of giving birth to a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "婦人見龍生貴子",
+              "translation_ko": "부인이 용을 보면 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "용이 사람을 죽임",
           "interpretation_ko": "크게 흉한 조짐",
           "interpretation_en": "a very inauspicious sign",
           "polarity": "negative",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門戶內無人大凶",
-              "translation_ko": "문 안에 사람이 없으면 크게 흉하다"
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇殺人主大凶",
+              "translation_ko": "용과 뱀이 사람을 죽이면 크게 흉하다"
             }
           ]
         },
         {
-          "context": "문을 고치거나 옮김",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "깃발에 용이 있음",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
           "polarity": "positive",
           "cites": [
             {
               "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "修移門戶大吉利",
-              "translation_ko": "문을 고치거나 옮기면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "돌로 문을 만듦",
-          "interpretation_ko": "오래 살 조짐",
-          "interpretation_en": "a sign of a long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "石為門戶主壽命",
-              "translation_ko": "돌로 문을 만들면 수명이 길 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "문 앞에 풀이 자람",
-          "interpretation_ko": "높은 벼슬에 오를 조짐",
-          "interpretation_en": "a sign of rising to high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門前生草作刺史",
-              "translation_ko": "문 앞에 풀이 자라면 자사가 된다"
-            }
-          ]
-        },
-        {
-          "context": "문 앞에 구덩이와 도랑이 있음",
-          "interpretation_ko": "일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that affairs will not come to fruition",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門前坑溝事不成",
-              "translation_ko": "문 앞에 구덩이와 도랑이 있으면 일이 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "하늘의 불이 문을 태움",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that misfortune will occur",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "天火燒門主凶事",
-              "translation_ko": "하늘의 불이 문을 태우면 흉한 일이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "집에 작은 문을 냄",
-          "interpretation_ko": "사사로운 정이 생길 조짐",
-          "interpretation_en": "a sign of a secret affair",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "屋開小門主私情",
-              "translation_ko": "집에 작은 문을 내면 사사로운 정이 생길 조짐이다"
+              "locator": "刀劍旌節鐘鼓",
+              "original": "旌旂有龍大吉利",
+              "translation_ko": "깃발에 용이 있으면 크게 길하고 이롭다"
             }
           ]
         }
@@ -4772,237 +5105,6 @@
               "locator": "被害鬥傷打罵",
               "original": "殺驢騾馬有酒食",
               "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dragon",
-      "term_ko": "용",
-      "term_en": "dragon",
-      "aliases": [
-        "청룡",
-        "황룡",
-        "이무기"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 3,
-      "meanings": [
-        {
-          "context": "용을 타고 하늘에 오름",
-          "interpretation_ko": "크게 귀해질 조짐",
-          "interpretation_en": "a sign of becoming greatly honored",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "乘龍上天大主貴",
-              "translation_ko": "용을 타고 하늘에 오르면 크게 귀하다"
-            }
-          ]
-        },
-        {
-          "context": "용을 타고 물에 들어감",
-          "interpretation_ko": "귀한 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining a noble position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "乘龍入水有貴位",
-              "translation_ko": "용을 타고 물에 들어가면 귀한 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "용이 물속에서 잠듦",
-          "interpretation_ko": "구하는 일이 이루어질 조짐",
-          "interpretation_en": "a sign that what one seeks will be accomplished",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍眠水中求事遂",
-              "translation_ko": "용이 물속에서 자면 구하는 일이 이루어진다"
-            }
-          ]
-        },
-        {
-          "context": "용이 문 앞을 지키고 있음",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a sign of great fortune and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍當門者大吉昌",
-              "translation_ko": "용이 문을 마주하고 있으면 크게 길하고 번창한다"
-            }
-          ]
-        },
-        {
-          "context": "용이 죽음",
-          "interpretation_ko": "귀한 지위를 잃을 조짐",
-          "interpretation_en": "a sign of losing a noble position",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍死亡主失貴位",
-              "translation_ko": "용이 죽으면 귀한 지위를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "용을 타고 산에 오름",
-          "interpretation_ko": "구하는 바가 이루어질 조짐",
-          "interpretation_en": "a sign that what one seeks will be accomplished",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "乘龍上山所求遂",
-              "translation_ko": "용을 타고 산에 오르면 구하는 바가 이루어진다"
-            }
-          ]
-        },
-        {
-          "context": "용이 우물 속으로 들어감",
-          "interpretation_ko": "벼슬자리에서 욕을 당할 조짐",
-          "interpretation_en": "a sign of disgrace in one's official post",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍入井中官被辱",
-              "translation_ko": "용이 우물에 들어가면 관리가 욕을 당한다"
-            }
-          ]
-        },
-        {
-          "context": "용이 하늘로 날아오름",
-          "interpretation_ko": "관직을 얻어 크게 귀해질 조짐",
-          "interpretation_en": "a sign of gaining office and great honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍飛有官位大貴",
-              "translation_ko": "용이 날면 관직이 있고 크게 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "용을 타고 저자에 들어감",
-          "interpretation_ko": "귀한 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining a noble position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "乘龍入市主貴位",
-              "translation_ko": "용을 타고 저자에 들어가면 귀한 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "용이 문 안으로 들어옴",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇入門主得財",
-              "translation_ko": "용과 뱀이 문에 들어오면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "용이 부뚜막에 들어옴",
-          "interpretation_ko": "관직이 이를 조짐",
-          "interpretation_en": "a sign that an official post will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇入灶有官至",
-              "translation_ko": "용과 뱀이 부뚜막에 들어오면 관직이 이른다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 용으로 변함",
-          "interpretation_ko": "귀인의 도움을 얻을 조짐",
-          "interpretation_en": "a sign of receiving help from an influential person",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇化龍得貴人助",
-              "translation_ko": "뱀이 용으로 변하면 귀인의 도움을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "부인이 용을 봄",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of giving birth to a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "婦人見龍生貴子",
-              "translation_ko": "부인이 용을 보면 귀한 자식을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "용이 사람을 죽임",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇殺人主大凶",
-              "translation_ko": "용과 뱀이 사람을 죽이면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "깃발에 용이 있음",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "旌旂有龍大吉利",
-              "translation_ko": "깃발에 용이 있으면 크게 길하고 이롭다"
             }
           ]
         }
@@ -5876,6 +5978,218 @@
               "locator": "天地日月星辰",
               "original": "巡天摩星位公卿",
               "translation_ko": "하늘을 돌며 별을 만지면 공경의 지위에 오른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "term_ko": "물",
+      "term_en": "water",
+      "aliases": [],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "물을 마심",
+          "interpretation_ko": "큰 이익을 얻을 조짐",
+          "interpretation_en": "a sign of great gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食水者主得大利",
+              "translation_ko": "물을 먹으면 큰 이익을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물을 마시려 해도 마시지 못함",
+          "interpretation_ko": "슬며시 건네진 즐거움을 끝내 누리지 못할 조짐",
+          "interpretation_en": "she will fail to enjoy some pleasure that is insinuatingly offered her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drinking",
+              "original": "If she dreams that she fails to drink clear water, though she uses her best efforts to do so, she will fail to enjoy some pleasure that is insinuatingly offered her.",
+              "translation_ko": "애를 써도 맑은 물을 마시지 못하는 꿈은, 슬며시 건네진 즐거움을 끝내 누리지 못함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "우물을 파서 물을 봄",
+          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
+          "interpretation_en": "a sign that news will come from afar",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "穿井見水遠信至",
+              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "물 위를 걸어감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上行者主大吉",
+              "translation_ko": "물 위를 걸어가면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에 서 있음",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that misfortune will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上立者主凶事",
+              "translation_ko": "물 위에 서 있으면 흉한 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물이 넘실넘실 흐름",
+          "interpretation_ko": "새 혼인이 있을 조짐",
+          "interpretation_en": "a sign that a new marriage will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水流洋洋有新婚",
+              "translation_ko": "물이 넘실넘실 흐르면 새 혼인이 있다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에서 불이 나옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上火出主大吉",
+              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 물속에 있음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "自在水中大吉利",
+              "translation_ko": "스스로 물속에 있으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "물에 빠져 나오지 못함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "自跌水中不出凶",
+              "translation_ko": "스스로 물에 빠져 나오지 못하면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "쉬지 않고 물을 마심",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "飲水不休得大財",
+              "translation_ko": "쉬지 않고 물을 마시면 큰 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "흐르는 물이 몸을 감돎",
+          "interpretation_ko": "옥사와 송사가 있을 조짐",
+          "interpretation_en": "a sign of imprisonment and lawsuits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "流水遶身有獄訟",
+              "translation_ko": "흐르는 물이 몸을 감돌면 옥사와 송사가 있다"
+            }
+          ]
+        },
+        {
+          "context": "큰물이 맑게 갬",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "大水澄清大吉利",
+              "translation_ko": "큰물이 맑으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "남의 집에 물이 있음",
+          "interpretation_ko": "아들을 잃을 조짐",
+          "interpretation_en": "a sign of losing a son",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "人家有水兒子亡",
+              "translation_ko": "남의 집에 물이 있으면 아들이 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "배 안에 물이 고여 있음",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "船中有水主得財",
+              "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
             }
           ]
         }
@@ -6890,203 +7204,6 @@
               "locator": "被害鬥傷打罵",
               "original": "殺牛食肉主生財",
               "translation_ko": "소를 잡아 고기를 먹으면 재물이 생긴다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "water",
-      "term_ko": "물",
-      "term_en": "water",
-      "aliases": [],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "물을 마심",
-          "interpretation_ko": "큰 이익을 얻을 조짐",
-          "interpretation_en": "a sign of great gain",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食水者主得大利",
-              "translation_ko": "물을 먹으면 큰 이익을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "우물을 파서 물을 봄",
-          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
-          "interpretation_en": "a sign that news will come from afar",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "穿井見水遠信至",
-              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "물 위를 걸어감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上行者主大吉",
-              "translation_ko": "물 위를 걸어가면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에 서 있음",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that misfortune will occur",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上立者主凶事",
-              "translation_ko": "물 위에 서 있으면 흉한 일이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "물이 넘실넘실 흐름",
-          "interpretation_ko": "새 혼인이 있을 조짐",
-          "interpretation_en": "a sign that a new marriage will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水流洋洋有新婚",
-              "translation_ko": "물이 넘실넘실 흐르면 새 혼인이 있다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에서 불이 나옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上火出主大吉",
-              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "스스로 물속에 있음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "自在水中大吉利",
-              "translation_ko": "스스로 물속에 있으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "물에 빠져 나오지 못함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "自跌水中不出凶",
-              "translation_ko": "스스로 물에 빠져 나오지 못하면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "쉬지 않고 물을 마심",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "飲水不休得大財",
-              "translation_ko": "쉬지 않고 물을 마시면 큰 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "흐르는 물이 몸을 감돎",
-          "interpretation_ko": "옥사와 송사가 있을 조짐",
-          "interpretation_en": "a sign of imprisonment and lawsuits",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "流水遶身有獄訟",
-              "translation_ko": "흐르는 물이 몸을 감돌면 옥사와 송사가 있다"
-            }
-          ]
-        },
-        {
-          "context": "큰물이 맑게 갬",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "大水澄清大吉利",
-              "translation_ko": "큰물이 맑으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "남의 집에 물이 있음",
-          "interpretation_ko": "아들을 잃을 조짐",
-          "interpretation_en": "a sign of losing a son",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "人家有水兒子亡",
-              "translation_ko": "남의 집에 물이 있으면 아들이 죽는다"
-            }
-          ]
-        },
-        {
-          "context": "배 안에 물이 고여 있음",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "船中有水主得財",
-              "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
             }
           ]
         }
@@ -9369,6 +9486,152 @@
       ]
     },
     {
+      "id": "dove",
+      "term_ko": "비둘기",
+      "term_en": "dove",
+      "aliases": [
+        "산비둘기",
+        "집비둘기",
+        "비둘기들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비둘기가 욺",
+          "interpretation_ko": "부인의 구설이 있을 조짐",
+          "interpretation_en": "a sign of gossip involving a woman",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鳩鳴者婦人口舌",
+              "translation_ko": "비둘기가 울면 부인의 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "비둘기가 짝을 짓고 둥지를 지음",
+          "interpretation_ko": "세상이 평온하고, 아이들이 순하며 자비가 두루 미치는 즐거운 집안이 될 조짐",
+          "interpretation_en": "peacefulness of the world and joyous homes where children render obedience",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "Dreaming of doves mating and building their nests, indicates peacefulness of the world and joyous homes where children render obedience, and mercy is extended to all.",
+              "translation_ko": "비둘기가 짝을 짓고 둥지를 트는 꿈은, 세상이 평온하고 아이들이 순하며 자비가 두루 미치는 즐거운 집안을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "비둘기가 외로이 구슬프게 우는 소리를 들음",
+          "interpretation_ko": "기대던 이의 죽음으로 슬픔과 실망이 올 조짐 — 흔히 아버지의 죽음을 알린다",
+          "interpretation_en": "sorrow and disappointment through the death of one to whom you looked for aid; often the death of a father",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "To hear the lonely, mournful voice of a dove, portends sorrow and disappointment through the death of one to whom you looked for aid. Often it portends the death of a father.",
+              "translation_ko": "비둘기가 외로이 구슬프게 우는 소리를 들으면, 기대던 이의 죽음으로 슬픔과 실망이 온다. 흔히 아버지의 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 비둘기를 봄",
+          "interpretation_ko": "죽음이나 배신으로 부부가 갈라설 조짐",
+          "interpretation_en": "a separation of husband and wife, either through death or infidelity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "To see a dead dove, is ominous of a separation of husband and wife, either through death or infidelity.",
+              "translation_ko": "죽은 비둘기를 보는 것은, 죽음이나 배신으로 부부가 갈라짐을 알리는 흉조다"
+            }
+          ]
+        },
+        {
+          "context": "흰 비둘기 떼를 봄",
+          "interpretation_ko": "평온하고 순한 즐거움과 앞날의 좋은 일이 있을 조짐",
+          "interpretation_en": "peaceful, innocent pleasures, and fortunate developments in the future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "To dream of seeing a flock of white doves, denotes peaceful, innocent pleasures, and fortunate developments in the future.",
+              "translation_ko": "흰 비둘기 떼를 보는 꿈은, 평온하고 순한 즐거움과 앞날의 좋은 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "흰 비둘기를 봄",
+          "interpretation_ko": "거둠이 넉넉하고 벗들의 곧은 마음을 온전히 믿을 조짐",
+          "interpretation_en": "bountiful harvests and the utmost confidence in the loyalty of friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "To see white doves, denotes bountiful harvests and the utmost confidence in the loyalty of friends.",
+              "translation_ko": "흰 비둘기를 보는 꿈은, 거둠이 넉넉하고 벗들의 곧은 마음을 온전히 믿게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "비둘기가 편지를 물어다 줌",
+          "interpretation_ko": "멀리 있는 벗에게서 반가운 소식이 오고 연인끼리 화해할 조짐",
+          "interpretation_en": "tidings of a pleasant nature from absent friends, also a lovers' reconciliation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "If one brings you a letter, tidings of a pleasant nature from absent friends is intimated, also a lovers' reconciliation is denoted.",
+              "translation_ko": "비둘기가 편지를 가져다주면, 멀리 있는 벗의 반가운 소식과 연인끼리의 화해를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 가져온 비둘기가 지쳐 보임",
+          "interpretation_ko": "화해에 슬픔이 배거나, 반가운 소식에 앓는 벗의 이야기가 섞일 조짐",
+          "interpretation_en": "a note of sadness will pervade the reconciliation, or a sad touch may be given the pleasant tidings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "If the dove seems exhausted, a note of sadness will pervade the reconciliation, or a sad touch may be given the pleasant tidings by mention of an invalid friend; if of business, a slight drop may follow.",
+              "translation_ko": "비둘기가 지쳐 보이면, 화해에 슬픔이 배거나 반가운 소식에 앓는 벗의 이야기가 섞인다. 장사 일이면 조금 기울 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "비둘기가 가져온 편지에 파멸을 알리는 글이 있음",
+          "interpretation_ko": "제 몸이나 살붙이가 크게 앓아 재물을 잃을 조짐",
+          "interpretation_en": "a desperate illness, either your own or of a relative, may cause you financial misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doves",
+              "original": "If the letter bears the message that you are doomed, it foretells that a desperate illness, either your own or of a relative, may cause you financial misfortune.",
+              "translation_ko": "편지에 네가 끝장났다는 글이 적혀 있으면, 제 몸이나 살붙이가 크게 앓아 재물을 잃게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "grave",
       "term_ko": "무덤",
       "term_en": "grave",
@@ -11397,6 +11660,140 @@
       ]
     },
     {
+      "id": "liquor",
+      "term_ko": "술",
+      "term_en": "liquor",
+      "aliases": [
+        "소주",
+        "막걸리",
+        "맥주",
+        "청주",
+        "음주"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 권하는 술을 마심",
+          "interpretation_ko": "오래 살 조짐",
+          "interpretation_en": "a sign of a long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "人請飲酒主長命",
+              "translation_ko": "남이 청하여 술을 마시면 목숨이 길다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 흥청거리며 술을 마심",
+          "interpretation_ko": "지금은 즐거워도 제 이름을 깎을 일에 발을 들이고 있을 조짐",
+          "interpretation_en": "she is engaging in affairs which may work to her discredit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drinking",
+              "original": "For a woman to dream of hilarious drinking, denotes that she is engaging in affairs which may work to her discredit, though she may now find much pleasure in the same.",
+              "translation_ko": "여자가 흥청거리며 술 마시는 꿈은, 지금은 즐거울지라도 제 이름을 깎을 일에 발을 들이고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남과 함께 술을 마심",
+          "interpretation_ko": "구설수에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "與人飲酒有口舌",
+              "translation_ko": "남과 술을 마시면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "술을 마심",
+          "interpretation_ko": "곡하고 울 일이 생길 조짐",
+          "interpretation_en": "a sign of weeping and mourning",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "飲酒者主哭泣事",
+              "translation_ko": "술을 마시면 곡하고 우는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "술에 취하도록 마심",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "飲酒至醉主疾病",
+              "translation_ko": "술을 마셔 취하면 질병이 있다"
+            }
+          ]
+        },
+        {
+          "context": "귀인과 마주 앉아 술을 마심",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "與貴人對飲大吉",
+              "translation_ko": "귀인과 마주 앉아 마시면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "높은 누각에서 술을 마심",
+          "interpretation_ko": "부귀가 올 조짐",
+          "interpretation_en": "a sign that wealth and honor will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "高樓飲酒富貴至",
+              "translation_ko": "높은 누각에서 술을 마시면 부귀가 온다"
+            }
+          ]
+        },
+        {
+          "context": "배 위에서 술을 마심",
+          "interpretation_ko": "먼 데서 손님이 올 조짐",
+          "interpretation_en": "a sign that a guest from afar will come",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "乘船飲酒遠客至",
+              "translation_ko": "배를 타고 술을 마시면 먼 데서 손님이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "prison",
       "term_ko": "감옥",
       "term_en": "prison",
@@ -12882,6 +13279,122 @@
       ]
     },
     {
+      "id": "carriage",
+      "term_ko": "마차",
+      "term_en": "carriage",
+      "aliases": [
+        "사륜마차",
+        "마차를 탔다"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마차를 봄",
+          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
+          "interpretation_en": "you will be gratified, and you will make visits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
+              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 타고 감",
+          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
+          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
+              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 찾아다님",
+          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
+          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
+              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 몲",
+          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
+          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
+              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
+          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
+              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
+          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
+              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
+            }
+          ]
+        },
+        {
+          "context": "남이 모는 마차에 실려 감",
+          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
+          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
+              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "chimney",
       "term_ko": "굴뚝",
       "term_en": "chimney",
@@ -13348,125 +13861,6 @@
               "locator": "哀樂病死歌唱",
               "original": "病人裝車必死亡",
               "translation_ko": "병자가 수레에 실리면 반드시 죽는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "liquor",
-      "term_ko": "술",
-      "term_en": "liquor",
-      "aliases": [
-        "소주",
-        "막걸리",
-        "맥주",
-        "청주",
-        "음주"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남이 권하는 술을 마심",
-          "interpretation_ko": "오래 살 조짐",
-          "interpretation_en": "a sign of a long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "人請飲酒主長命",
-              "translation_ko": "남이 청하여 술을 마시면 목숨이 길다"
-            }
-          ]
-        },
-        {
-          "context": "남과 함께 술을 마심",
-          "interpretation_ko": "구설수에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "與人飲酒有口舌",
-              "translation_ko": "남과 술을 마시면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "술을 마심",
-          "interpretation_ko": "곡하고 울 일이 생길 조짐",
-          "interpretation_en": "a sign of weeping and mourning",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "飲酒者主哭泣事",
-              "translation_ko": "술을 마시면 곡하고 우는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "술에 취하도록 마심",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "飲酒至醉主疾病",
-              "translation_ko": "술을 마셔 취하면 질병이 있다"
-            }
-          ]
-        },
-        {
-          "context": "귀인과 마주 앉아 술을 마심",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "與貴人對飲大吉",
-              "translation_ko": "귀인과 마주 앉아 마시면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "높은 누각에서 술을 마심",
-          "interpretation_ko": "부귀가 올 조짐",
-          "interpretation_en": "a sign that wealth and honor will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "高樓飲酒富貴至",
-              "translation_ko": "높은 누각에서 술을 마시면 부귀가 온다"
-            }
-          ]
-        },
-        {
-          "context": "배 위에서 술을 마심",
-          "interpretation_ko": "먼 데서 손님이 올 조짐",
-          "interpretation_en": "a sign that a guest from afar will come",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "乘船飲酒遠客至",
-              "translation_ko": "배를 타고 술을 마시면 먼 데서 손님이 온다"
             }
           ]
         }
@@ -22161,6 +22555,12 @@
               "locator": "Cab",
               "original": "To dream of driving a public cab, denotes manual labor, with little chance of advancement.",
               "translation_ko": "삯마차를 모는 꿈은 고된 일을 하며 나아질 길이 적음을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "To dream of driving a public cab, denotes menial labor, with little chance for advancement.",
+              "translation_ko": "삯마차를 모는 꿈은, 고된 일을 하며 나아질 길이 적음을 뜻한다"
             }
           ]
         }
@@ -22330,8 +22730,7 @@
       "term_ko": "낙타",
       "term_en": "camel",
       "aliases": [
-        "쌍봉낙타",
-        "단봉낙타"
+        "쌍봉낙타"
       ],
       "category": "animal",
       "polarity": "positive",
@@ -28564,66 +28963,6 @@
       ]
     },
     {
-      "id": "carriage",
-      "term_ko": "마차",
-      "term_en": "carriage",
-      "aliases": [
-        "사륜마차",
-        "마차를 탔다"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마차를 봄",
-          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
-          "interpretation_en": "you will be gratified, and you will make visits",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
-              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 타고 감",
-          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
-          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
-              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 찾아다님",
-          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
-          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
-              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cauliflower",
       "term_ko": "콜리플라워",
       "term_en": "cauliflower",
@@ -32087,6 +32426,65 @@
               "locator": "Doctor",
               "original": "To dream that a doctor makes an incision in your flesh, trying to discover blood, but failing in his efforts, denotes that you will be tormented and injured by some evil person, who may try to make you pay out money for his debts.",
               "translation_ko": "의사가 피를 찾으려 살을 째는데 찾지 못하는 꿈은, 악한 이에게 시달리고 남의 빚을 물게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drama",
+      "term_ko": "연극",
+      "term_en": "drama",
+      "aliases": [
+        "무대극"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연극을 봄",
+          "interpretation_ko": "멀리 있는 벗과 반갑게 다시 만날 조짐",
+          "interpretation_en": "pleasant reunions with distant friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To see a drama, signifies pleasant reunions with distant friends.",
+              "translation_ko": "연극을 보는 꿈은, 멀리 있는 벗과 반갑게 다시 만남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연극이 지루함",
+          "interpretation_ko": "잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 둘 조짐",
+          "interpretation_en": "you will be forced to accept an uncongenial companion at some entertainment or secret affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To be bored with the performance of a drama, you will be forced to accept an uncongenial companion at some entertainment or secret affair.",
+              "translation_ko": "연극이 지루한 꿈은, 잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 두게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연극을 씀",
+          "interpretation_ko": "괴로움과 빚에 빠졌다가 기적처럼 헤어날 조짐",
+          "interpretation_en": "you will be plunged into distress and debt, to be extricated as if by a miracle",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To write one, portends that you will be plunged into distress and debt, to be extricated as if by a miracle.",
+              "translation_ko": "연극을 쓰는 꿈은, 괴로움과 빚에 빠졌다가 기적처럼 헤어남을 알린다"
             }
           ]
         }
@@ -45954,6 +46352,192 @@
       ]
     },
     {
+      "id": "dowry",
+      "term_ko": "지참금",
+      "term_en": "dowry",
+      "aliases": [
+        "혼수",
+        "결혼 지참금"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지참금을 받지 못함",
+          "interpretation_ko": "가난과, 기대어 살아가기엔 차가운 세상이 있을 조짐",
+          "interpretation_en": "penury and a cold world to depend on for a living",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dowry",
+              "original": "To dream that you fail to receive a dowry, signifies penury and a cold world to depend on for a living.",
+              "translation_ko": "지참금을 받지 못하는 꿈은, 가난과 기대어 살아가기엔 차가운 세상을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "지참금을 받음",
+          "interpretation_ko": "그날 바라던 바가 이루어질 조짐",
+          "interpretation_en": "your expectations for the day will be fulfilled",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dowry",
+              "original": "If you receive it, your expectations for the day will be fulfilled.",
+              "translation_ko": "지참금을 받으면, 그날 바라던 바가 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dram-drinking",
+      "term_ko": "독주",
+      "term_en": "dram-drinking",
+      "aliases": [
+        "화주"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "독주를 즐겨 마심",
+          "interpretation_ko": "심술궂은 겨룸과 자잘한 것을 두고 다툴 조짐",
+          "interpretation_en": "ill-natured rivalry and contention for small possession",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dram-drinking",
+              "original": "To be given to dram-drinking in your dreams, omens ill-natured rivalry and contention for small possession.",
+              "translation_ko": "꿈에서 독한 술을 늘 홀짝이면, 심술궂은 겨룸과 자잘한 것을 두고 다투게 된다"
+            }
+          ]
+        },
+        {
+          "context": "독주를 끊음",
+          "interpretation_ko": "지금 자리보다 높이 올라 넉넉함을 누릴 조짐",
+          "interpretation_en": "you will rise above present estate and rejoice in prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dram-drinking",
+              "original": "To think you have quit dram-drinking, or find that others have done so, shows that you will rise above present estate and rejoice in prosperity.",
+              "translation_ko": "독한 술을 끊었거나 남이 끊은 것을 보면, 지금 자리보다 높이 올라 넉넉함을 누리게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dressing",
+      "term_ko": "옷 입기",
+      "term_en": "dressing",
+      "aliases": [
+        "옷을 입다",
+        "옷을 입었다",
+        "옷을 입는데",
+        "옷을 입지"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옷을 입는 데 애를 먹음",
+          "interpretation_ko": "못된 이들이 성가시게 굴어 즐길 자리에 가지 못할 조짐",
+          "interpretation_en": "some evil persons will worry and detain you from places of amusement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dressing",
+              "original": "To think you are having trouble in dressing, while dreaming, means some evil persons will worry and detain you from places of amusement.",
+              "translation_ko": "꿈에서 옷을 입는 데 애를 먹으면, 못된 이들이 성가시게 굴어 즐길 자리에 가지 못하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "기차 시간에 맞춰 옷을 입지 못함",
+          "interpretation_ko": "남의 부주의로 성가신 일이 많을 조짐",
+          "interpretation_en": "you will have many annoyances through the carelessness of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dressing",
+              "original": "If you can't get dressed in time for a train, you will have many annoyances through the carelessness of others.",
+              "translation_ko": "기차 시간에 맞춰 옷을 입지 못하면, 남의 부주의로 성가신 일이 많아진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropsy",
+      "term_ko": "부종",
+      "term_en": "dropsy",
+      "aliases": [
+        "수종",
+        "몸이 부었다",
+        "붓는 병"
+      ],
+      "category": "body",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부종을 앓음",
+          "interpretation_ko": "한동안 앓으나 기운을 되찾아 나을 조짐",
+          "interpretation_en": "illness for a time, but from which you will recover with renewed vigor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dropsy",
+              "original": "To dream of being afflicted with the dropsy, denotes illness for a time, but from which you will recover with renewed vigor.",
+              "translation_ko": "부종을 앓는 꿈은 한동안 앓으나 기운을 되찾아 낫게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 부종을 앓는 것을 봄",
+          "interpretation_ko": "멀리 있는 이에게서 곧 소식이 오고 그가 성하다는 기별을 들을 조짐",
+          "interpretation_en": "you will hear from the absent shortly, and have tidings of their good health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dropsy",
+              "original": "To see others thus afflicted, denotes that you will hear from the absent shortly, and have tidings of their good health.",
+              "translation_ko": "남이 그렇게 앓는 것을 보면, 멀리 있는 이에게서 곧 소식이 오고 그가 성하다는 기별을 듣는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "duck",
       "term_ko": "오리",
       "term_en": "duck",
@@ -53796,29 +54380,33 @@
       ]
     },
     {
-      "id": "dove",
-      "term_ko": "비둘기",
-      "term_en": "dove",
-      "aliases": [],
-      "category": "animal",
-      "polarity": "negative",
+      "id": "doorbell",
+      "term_ko": "초인종",
+      "term_en": "doorbell",
+      "aliases": [
+        "문종",
+        "현관 벨",
+        "벨소리"
+      ],
+      "category": "object",
+      "polarity": "neutral",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "비둘기가 욺",
-          "interpretation_ko": "부인의 구설이 있을 조짐",
-          "interpretation_en": "a sign of gossip involving a woman",
-          "polarity": "negative",
+          "context": "초인종 소리를 듣거나 초인종을 누름",
+          "interpretation_ko": "뜻밖의 소식이나 급한 부름, 또는 앓는 살붙이의 곁을 지킬 일이 있을 조짐",
+          "interpretation_en": "unexpected tidings, or a hasty summons to business, or the bedside of a sick relative",
+          "polarity": "neutral",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鳩鳴者婦人口舌",
-              "translation_ko": "비둘기가 울면 부인의 구설이 있다"
+              "work": "miller",
+              "locator": "Door Bell",
+              "original": "To dream you hear or ring a door bell, foretells unexpected tidings, or a hasty summons to business, or the bedtide of a sick relative.",
+              "translation_ko": "초인종 소리를 듣거나 누르는 꿈은, 뜻밖의 소식이나 급한 부름, 또는 앓는 살붙이의 곁을 지킬 일을 알린다"
             }
           ]
         }
@@ -53851,6 +54439,70 @@
               "locator": "龜鱉魚蝦昆蟲",
               "original": "蜻蜓對飛美人來",
               "translation_ko": "잠자리가 짝지어 날면 미인이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draw-knife",
+      "term_ko": "당겨 깎는 칼",
+      "term_en": "draw-knife",
+      "aliases": [
+        "당김칼",
+        "깎는 칼"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "당겨 깎는 칼을 보거나 씀",
+          "interpretation_ko": "바람이 이루어지지 않고, 좋아 보이던 앞일이 어긋나 실망으로 끝날 조짐",
+          "interpretation_en": "unfulfiled hopes or desires; some fair prospect will go down in mistake and disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Draw-knife",
+              "original": "To see or use a draw-knife, portends unfulfiled hopes or desires. Some fair prospect will loom before you, only to go down in mistake and disappointment.",
+              "translation_ko": "당겨 깎는 칼을 보거나 쓰는 꿈은 바람이 이루어지지 않음을 알린다. 좋아 보이던 앞일이 눈앞에 어른거리다가 어긋나고 실망으로 끝난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dromedary",
+      "term_ko": "단봉낙타",
+      "term_en": "dromedary",
+      "aliases": [
+        "단봉 낙타",
+        "외봉낙타"
+      ],
+      "category": "animal",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "단봉낙타를 봄",
+          "interpretation_ko": "뜻밖의 베풂을 받고 새 영예를 의젓하게 지니며, 너그러이 베풀 조짐",
+          "interpretation_en": "you will be the recipient of unexpected beneficence, and will wear your new honors with dignity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dromedary",
+              "original": "To dream of a dromedary, denotes that you will be the recipient of unexpected beneficence, and will wear your new honors with dignity; you will dispense charity with a gracious hands. To lovers, this dream foretells congenial dispositions.",
+              "translation_ko": "단봉낙타 꿈은 뜻밖의 베풂을 받고 새 영예를 의젓하게 지니며 너그러이 베풀게 됨을 뜻한다. 연인에게는 서로 마음이 맞음을 알린다"
             }
           ]
         }
@@ -58322,6 +58974,38 @@
               "locator": "飲食酒肉瓜菜",
               "original": "嘔吐者病人主瘥",
               "translation_ko": "토하면 병자의 병이 낫는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagon",
+      "term_ko": "짐수레",
+      "term_en": "wagon",
+      "aliases": [
+        "짐마차",
+        "짐칸"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐수레를 몲",
+          "interpretation_ko": "한동안 가난과 딱한 형편에 머물 조짐",
+          "interpretation_en": "you will remain in poverty and unfortunate circumstances for some time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If it is a wagon, you will remain in poverty and unfortunate circumstances for some time.",
+              "translation_ko": "짐수레라면, 한동안 가난과 딱한 형편에 머물게 된다"
             }
           ]
         }

@@ -15,8 +15,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "cart": [
     "a cart",
-    "carts",
-    "wagon"
+    "carts"
   ],
   "rice-plant": [
     "rice plant",
@@ -1554,8 +1553,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "studying writing"
   ],
   "camel": [
-    "camels",
-    "dromedary"
+    "camels"
   ],
   "chinese-onion": [
     "rakkyo",
@@ -4768,5 +4766,45 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "doomsday": [
     "doomsday",
     "judgment day"
+  ],
+  "doorbell": [
+    "a door bell",
+    "door bell"
+  ],
+  "dowry": [
+    "a dowry",
+    "dowries"
+  ],
+  "drama": [
+    "a drama",
+    "a play",
+    "dramas"
+  ],
+  "dram-drinking": [
+    "dram drinking",
+    "dram-drinking",
+    "tippling"
+  ],
+  "draw-knife": [
+    "a draw-knife",
+    "draw knife",
+    "drawknife"
+  ],
+  "dressing": [
+    "getting dressed",
+    "get dressed"
+  ],
+  "dromedary": [
+    "a dromedary",
+    "dromedaries"
+  ],
+  "dropsy": [
+    "dropsy",
+    "edema",
+    "the dropsy"
+  ],
+  "wagon": [
+    "a wagon",
+    "wagons"
   ]
 };

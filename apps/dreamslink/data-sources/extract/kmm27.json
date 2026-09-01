@@ -89,5 +89,160 @@
       "최후의 심판을 기다림": "living forward substantial",
       "젊은 여성에게 최후의 심판 꿈이 나타남": "young station deserving"
     }
+  },
+  {
+    "id": "doorbell",
+    "aliases": [
+      "문종",
+      "현관 벨",
+      "벨소리"
+    ],
+    "aliases_en": [
+      "a door bell",
+      "door bell"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dowry",
+    "aliases": [
+      "혼수",
+      "결혼 지참금"
+    ],
+    "aliases_en": [
+      "a dowry",
+      "dowries"
+    ],
+    "contexts": {
+      "지참금을 받지 못함": "못했 못받 받지",
+      "지참금을 받음": "받았 받게 건네받"
+    },
+    "contexts_en": {
+      "지참금을 받지 못함": "fail penury cold",
+      "지참금을 받음": "receive expectations fulfilled"
+    }
+  },
+  {
+    "id": "drama",
+    "aliases": [
+      "무대극"
+    ],
+    "aliases_en": [
+      "a drama",
+      "a play",
+      "dramas"
+    ],
+    "contexts": {
+      "연극을 봄": "관람 구경했",
+      "연극이 지루함": "지루 따분 하품 재미없",
+      "연극을 씀": "썼다 쓰고 희곡 대본 극본"
+    },
+    "contexts_en": {
+      "연극을 봄": "reunions distant",
+      "연극이 지루함": "bored performance uncongenial companion",
+      "연극을 씀": "write writing distress debt"
+    }
+  },
+  {
+    "id": "dram-drinking",
+    "aliases": [
+      "화주"
+    ],
+    "aliases_en": [
+      "dram drinking",
+      "dram-drinking",
+      "tippling"
+    ],
+    "contexts": {
+      "독주를 즐겨 마심": "즐겨 홀짝 자주",
+      "독주를 끊음": "끊었 끊고 끊은 그만뒀"
+    },
+    "contexts_en": {
+      "독주를 즐겨 마심": "given rivalry contention",
+      "독주를 끊음": "quit rise prosperity"
+    }
+  },
+  {
+    "id": "draw-knife",
+    "aliases": [
+      "당김칼",
+      "깎는 칼"
+    ],
+    "aliases_en": [
+      "a draw-knife",
+      "draw knife",
+      "drawknife"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dressing",
+    "aliases": [
+      "옷을 입다",
+      "옷을 입었다",
+      "옷을 입는데",
+      "옷을 입지"
+    ],
+    "aliases_en": [
+      "getting dressed",
+      "get dressed"
+    ],
+    "contexts": {
+      "옷을 입는 데 애를 먹음": "애를 애먹 쩔쩔 허둥",
+      "기차 시간에 맞춰 옷을 입지 못함": "기차 열차 시간에"
+    },
+    "contexts_en": {
+      "옷을 입는 데 애를 먹음": "trouble worry detain amusement",
+      "기차 시간에 맞춰 옷을 입지 못함": "train annoyances carelessness"
+    }
+  },
+  {
+    "id": "dromedary",
+    "aliases": [
+      "단봉 낙타",
+      "외봉낙타"
+    ],
+    "aliases_en": [
+      "a dromedary",
+      "dromedaries"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dropsy",
+    "aliases": [
+      "수종",
+      "몸이 부었다",
+      "붓는 병"
+    ],
+    "aliases_en": [
+      "dropsy",
+      "edema",
+      "the dropsy"
+    ],
+    "contexts": {
+      "부종을 앓음": "앓았 앓고 걸렸 시달",
+      "남이 부종을 앓는 것을 봄": "남이 남을 딴사람 남들"
+    },
+    "contexts_en": {
+      "부종을 앓음": "afflicted recover renewed vigor",
+      "남이 부종을 앓는 것을 봄": "others absent shortly tidings"
+    }
+  },
+  {
+    "id": "wagon",
+    "aliases": [
+      "짐마차",
+      "짐칸"
+    ],
+    "aliases_en": [
+      "a wagon",
+      "wagons"
+    ],
+    "contexts": {},
+    "contexts_en": {}
   }
 ]

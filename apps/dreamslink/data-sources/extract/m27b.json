@@ -1,0 +1,557 @@
+[
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "문으로 들어감",
+    "interpretation_ko": "헐뜯는 말과, 벗어나려 애써도 벗어나지 못할 적이 있을 조짐",
+    "interpretation_en": "slander, and enemies from whom you are trying in vain to escape",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "To dream of entering a door, denotes slander, and enemies from whom you are trying in vain to escape. This is the same of any door, except the door of your childhood home.",
+      "translation_ko": "문으로 들어가는 꿈은 헐뜯는 말과, 벗어나려 애써도 벗어나지 못하는 적을 뜻한다. 어느 문이든 마찬가지이나 어린 시절 살던 집의 문만은 다르다"
+    }
+  },
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "어린 시절 살던 집의 문으로 들어감",
+    "interpretation_ko": "나날이 넉넉하고 마음 맞는 이들로 채워질 조짐",
+    "interpretation_en": "your days will be filled with plenty and congeniality",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "If it is this door you dream of entering, your days will be filled with plenty and congeniality.",
+      "translation_ko": "그 문으로 들어가는 꿈이면, 나날이 넉넉하고 마음 맞는 이들로 채워진다"
+    }
+  },
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "비 오는 밤에 문으로 들어감",
+    "interpretation_ko": "여자에게는 용서받지 못할 탈선이, 남자에게는 그릇된 놀음으로 재물이 새고 몰래 만날 일이 있을 조짐",
+    "interpretation_en": "unpardonable escapades to women; to a man, a drawing on his resources by unwarranted vice, and assignations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "To dream of entering a door at night through the rain, denotes, to women, unpardonable escapades; to a man, it is significant of a drawing on his resources by unwarranted vice, and also foretells assignations.",
+      "translation_ko": "비를 맞으며 밤에 문으로 들어가는 꿈은, 여자에게는 용서받지 못할 탈선을, 남자에게는 그릇된 놀음으로 재물이 새는 것과 몰래 만날 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "남들이 문간을 지나가는 것을 봄",
+    "interpretation_ko": "살림을 벌이가 되게 하려는 애가 헛될 조짐",
+    "interpretation_en": "unsuccessful attempts to get your affairs into a paying condition",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "To see others go through a doorway, denotes unsuccessful attempts to get your affairs into a paying condition. It also means changes to farmers and the political world.",
+      "translation_ko": "남들이 문간을 지나가는 것을 보는 꿈은, 살림을 벌이가 되게 하려는 애가 헛됨을 뜻한다. 농사짓는 이와 정치 쪽에는 변화를 뜻하기도 한다"
+    }
+  },
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "문을 닫으려는데 문짝이 빠져 남을 다치게 함",
+    "interpretation_ko": "뜻하지 않게 잘못 이른 말 때문에 벗에게 모진 화가 닥칠 조짐",
+    "interpretation_en": "malignant evil threatens your friend through your unintentionally wrong advice",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "To dream that you attempt to close a door, and it falls from its hinges, injuring some one, denotes that malignant evil threatens your friend through your unintentionally wrong advice.",
+      "translation_ko": "문을 닫으려는데 문이 돌쩌귀에서 빠져 누군가를 다치게 하는 꿈은, 뜻하지 않게 잘못 이른 말 때문에 벗에게 모진 화가 닥침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "문",
+    "term_en": "door",
+    "context": "남이 문을 잠그려는데 문짝이 빠짐",
+    "interpretation_ko": "벗의 불행을 알게 되나 도울 힘이 없을 조짐",
+    "interpretation_en": "you will have knowledge of some friend's misfortune and be powerless to aid him",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door",
+      "original": "If you see another attempt to lock a door, and it falls from its hinges, you will have knowledge of some friend's misfortune and be powerless to aid him.",
+      "translation_ko": "남이 문을 잠그려는데 문이 돌쩌귀에서 빠지는 것을 보면, 벗의 불행을 알게 되나 도울 힘이 없다"
+    }
+  },
+  {
+    "term_ko": "초인종",
+    "term_en": "doorbell",
+    "context": "초인종 소리를 듣거나 초인종을 누름",
+    "interpretation_ko": "뜻밖의 소식이나 급한 부름, 또는 앓는 살붙이의 곁을 지킬 일이 있을 조짐",
+    "interpretation_en": "unexpected tidings, or a hasty summons to business, or the bedside of a sick relative",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Door Bell",
+      "original": "To dream you hear or ring a door bell, foretells unexpected tidings, or a hasty summons to business, or the bedtide of a sick relative.",
+      "translation_ko": "초인종 소리를 듣거나 누르는 꿈은, 뜻밖의 소식이나 급한 부름, 또는 앓는 살붙이의 곁을 지킬 일을 알린다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "비둘기가 짝을 짓고 둥지를 지음",
+    "interpretation_ko": "세상이 평온하고, 아이들이 순하며 자비가 두루 미치는 즐거운 집안이 될 조짐",
+    "interpretation_en": "peacefulness of the world and joyous homes where children render obedience",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "Dreaming of doves mating and building their nests, indicates peacefulness of the world and joyous homes where children render obedience, and mercy is extended to all.",
+      "translation_ko": "비둘기가 짝을 짓고 둥지를 트는 꿈은, 세상이 평온하고 아이들이 순하며 자비가 두루 미치는 즐거운 집안을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "비둘기가 외로이 구슬프게 우는 소리를 들음",
+    "interpretation_ko": "기대던 이의 죽음으로 슬픔과 실망이 올 조짐 — 흔히 아버지의 죽음을 알린다",
+    "interpretation_en": "sorrow and disappointment through the death of one to whom you looked for aid; often the death of a father",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "To hear the lonely, mournful voice of a dove, portends sorrow and disappointment through the death of one to whom you looked for aid. Often it portends the death of a father.",
+      "translation_ko": "비둘기가 외로이 구슬프게 우는 소리를 들으면, 기대던 이의 죽음으로 슬픔과 실망이 온다. 흔히 아버지의 죽음을 알린다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "죽은 비둘기를 봄",
+    "interpretation_ko": "죽음이나 배신으로 부부가 갈라설 조짐",
+    "interpretation_en": "a separation of husband and wife, either through death or infidelity",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "To see a dead dove, is ominous of a separation of husband and wife, either through death or infidelity.",
+      "translation_ko": "죽은 비둘기를 보는 것은, 죽음이나 배신으로 부부가 갈라짐을 알리는 흉조다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "흰 비둘기 떼를 봄",
+    "interpretation_ko": "평온하고 순한 즐거움과 앞날의 좋은 일이 있을 조짐",
+    "interpretation_en": "peaceful, innocent pleasures, and fortunate developments in the future",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "To dream of seeing a flock of white doves, denotes peaceful, innocent pleasures, and fortunate developments in the future.",
+      "translation_ko": "흰 비둘기 떼를 보는 꿈은, 평온하고 순한 즐거움과 앞날의 좋은 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "흰 비둘기를 봄",
+    "interpretation_ko": "거둠이 넉넉하고 벗들의 곧은 마음을 온전히 믿을 조짐",
+    "interpretation_en": "bountiful harvests and the utmost confidence in the loyalty of friends",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "To see white doves, denotes bountiful harvests and the utmost confidence in the loyalty of friends.",
+      "translation_ko": "흰 비둘기를 보는 꿈은, 거둠이 넉넉하고 벗들의 곧은 마음을 온전히 믿게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "비둘기가 편지를 물어다 줌",
+    "interpretation_ko": "멀리 있는 벗에게서 반가운 소식이 오고 연인끼리 화해할 조짐",
+    "interpretation_en": "tidings of a pleasant nature from absent friends, also a lovers' reconciliation",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "If one brings you a letter, tidings of a pleasant nature from absent friends is intimated, also a lovers' reconciliation is denoted.",
+      "translation_ko": "비둘기가 편지를 가져다주면, 멀리 있는 벗의 반가운 소식과 연인끼리의 화해를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "편지를 가져온 비둘기가 지쳐 보임",
+    "interpretation_ko": "화해에 슬픔이 배거나, 반가운 소식에 앓는 벗의 이야기가 섞일 조짐",
+    "interpretation_en": "a note of sadness will pervade the reconciliation, or a sad touch may be given the pleasant tidings",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "If the dove seems exhausted, a note of sadness will pervade the reconciliation, or a sad touch may be given the pleasant tidings by mention of an invalid friend; if of business, a slight drop may follow.",
+      "translation_ko": "비둘기가 지쳐 보이면, 화해에 슬픔이 배거나 반가운 소식에 앓는 벗의 이야기가 섞인다. 장사 일이면 조금 기울 수 있다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "비둘기가 가져온 편지에 파멸을 알리는 글이 있음",
+    "interpretation_ko": "제 몸이나 살붙이가 크게 앓아 재물을 잃을 조짐",
+    "interpretation_en": "a desperate illness, either your own or of a relative, may cause you financial misfortune",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Doves",
+      "original": "If the letter bears the message that you are doomed, it foretells that a desperate illness, either your own or of a relative, may cause you financial misfortune.",
+      "translation_ko": "편지에 네가 끝장났다는 글이 적혀 있으면, 제 몸이나 살붙이가 크게 앓아 재물을 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "지참금",
+    "term_en": "dowry",
+    "context": "지참금을 받지 못함",
+    "interpretation_ko": "가난과, 기대어 살아가기엔 차가운 세상이 있을 조짐",
+    "interpretation_en": "penury and a cold world to depend on for a living",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dowry",
+      "original": "To dream that you fail to receive a dowry, signifies penury and a cold world to depend on for a living.",
+      "translation_ko": "지참금을 받지 못하는 꿈은, 가난과 기대어 살아가기엔 차가운 세상을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "지참금",
+    "term_en": "dowry",
+    "context": "지참금을 받음",
+    "interpretation_ko": "그날 바라던 바가 이루어질 조짐",
+    "interpretation_en": "your expectations for the day will be fulfilled",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dowry",
+      "original": "If you receive it, your expectations for the day will be fulfilled.",
+      "translation_ko": "지참금을 받으면, 그날 바라던 바가 이루어진다"
+    }
+  },
+  {
+    "term_ko": "용",
+    "term_en": "dragon",
+    "context": "용을 봄",
+    "interpretation_ko": "격한 마음에 휘둘리고, 비꼬는 성미가 터져 나와 적의 손아귀에 들 조짐",
+    "interpretation_en": "you allow yourself to be governed by your passions, and are likely to place yourself in the power of your enemies",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Dragon",
+      "original": "To dream of a dragon, denotes that you allow yourself to be governed by your passions, and that you are likely to place yourself in the power of your enemies through those outbursts of sardonic tendencies.",
+      "translation_ko": "용 꿈은 격한 마음에 스스로를 내맡기고 있음을, 그리고 비꼬는 성미가 터져 나와 적의 손아귀에 들기 쉬움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연극",
+    "term_en": "drama",
+    "context": "연극을 봄",
+    "interpretation_ko": "멀리 있는 벗과 반갑게 다시 만날 조짐",
+    "interpretation_en": "pleasant reunions with distant friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Drama",
+      "original": "To see a drama, signifies pleasant reunions with distant friends.",
+      "translation_ko": "연극을 보는 꿈은, 멀리 있는 벗과 반갑게 다시 만남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연극",
+    "term_en": "drama",
+    "context": "연극이 지루함",
+    "interpretation_ko": "잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 둘 조짐",
+    "interpretation_en": "you will be forced to accept an uncongenial companion at some entertainment or secret affair",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Drama",
+      "original": "To be bored with the performance of a drama, you will be forced to accept an uncongenial companion at some entertainment or secret affair.",
+      "translation_ko": "연극이 지루한 꿈은, 잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 두게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연극",
+    "term_en": "drama",
+    "context": "연극을 씀",
+    "interpretation_ko": "괴로움과 빚에 빠졌다가 기적처럼 헤어날 조짐",
+    "interpretation_en": "you will be plunged into distress and debt, to be extricated as if by a miracle",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Drama",
+      "original": "To write one, portends that you will be plunged into distress and debt, to be extricated as if by a miracle.",
+      "translation_ko": "연극을 쓰는 꿈은, 괴로움과 빚에 빠졌다가 기적처럼 헤어남을 알린다"
+    }
+  },
+  {
+    "term_ko": "독주",
+    "term_en": "dram-drinking",
+    "context": "독주를 즐겨 마심",
+    "interpretation_ko": "심술궂은 겨룸과 자잘한 것을 두고 다툴 조짐",
+    "interpretation_en": "ill-natured rivalry and contention for small possession",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dram-drinking",
+      "original": "To be given to dram-drinking in your dreams, omens ill-natured rivalry and contention for small possession.",
+      "translation_ko": "꿈에서 독한 술을 늘 홀짝이면, 심술궂은 겨룸과 자잘한 것을 두고 다투게 된다"
+    }
+  },
+  {
+    "term_ko": "독주",
+    "term_en": "dram-drinking",
+    "context": "독주를 끊음",
+    "interpretation_ko": "지금 자리보다 높이 올라 넉넉함을 누릴 조짐",
+    "interpretation_en": "you will rise above present estate and rejoice in prosperity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dram-drinking",
+      "original": "To think you have quit dram-drinking, or find that others have done so, shows that you will rise above present estate and rejoice in prosperity.",
+      "translation_ko": "독한 술을 끊었거나 남이 끊은 것을 보면, 지금 자리보다 높이 올라 넉넉함을 누리게 된다"
+    }
+  },
+  {
+    "term_ko": "당겨 깎는 칼",
+    "term_en": "draw-knife",
+    "context": "당겨 깎는 칼을 보거나 씀",
+    "interpretation_ko": "바람이 이루어지지 않고, 좋아 보이던 앞일이 어긋나 실망으로 끝날 조짐",
+    "interpretation_en": "unfulfiled hopes or desires; some fair prospect will go down in mistake and disappointment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Draw-knife",
+      "original": "To see or use a draw-knife, portends unfulfiled hopes or desires. Some fair prospect will loom before you, only to go down in mistake and disappointment.",
+      "translation_ko": "당겨 깎는 칼을 보거나 쓰는 꿈은 바람이 이루어지지 않음을 알린다. 좋아 보이던 앞일이 눈앞에 어른거리다가 어긋나고 실망으로 끝난다"
+    }
+  },
+  {
+    "term_ko": "옷 입기",
+    "term_en": "dressing",
+    "context": "옷을 입는 데 애를 먹음",
+    "interpretation_ko": "못된 이들이 성가시게 굴어 즐길 자리에 가지 못할 조짐",
+    "interpretation_en": "some evil persons will worry and detain you from places of amusement",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dressing",
+      "original": "To think you are having trouble in dressing, while dreaming, means some evil persons will worry and detain you from places of amusement.",
+      "translation_ko": "꿈에서 옷을 입는 데 애를 먹으면, 못된 이들이 성가시게 굴어 즐길 자리에 가지 못하게 된다"
+    }
+  },
+  {
+    "term_ko": "옷 입기",
+    "term_en": "dressing",
+    "context": "기차 시간에 맞춰 옷을 입지 못함",
+    "interpretation_ko": "남의 부주의로 성가신 일이 많을 조짐",
+    "interpretation_en": "you will have many annoyances through the carelessness of others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dressing",
+      "original": "If you can't get dressed in time for a train, you will have many annoyances through the carelessness of others.",
+      "translation_ko": "기차 시간에 맞춰 옷을 입지 못하면, 남의 부주의로 성가신 일이 많아진다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "여성이 흥청거리며 술을 마심",
+    "interpretation_ko": "지금은 즐거워도 제 이름을 깎을 일에 발을 들이고 있을 조짐",
+    "interpretation_en": "she is engaging in affairs which may work to her discredit",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Drinking",
+      "original": "For a woman to dream of hilarious drinking, denotes that she is engaging in affairs which may work to her discredit, though she may now find much pleasure in the same.",
+      "translation_ko": "여자가 흥청거리며 술 마시는 꿈은, 지금은 즐거울지라도 제 이름을 깎을 일에 발을 들이고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "맑은 물을 마시려 해도 마시지 못함",
+    "interpretation_ko": "슬며시 건네진 즐거움을 끝내 누리지 못할 조짐",
+    "interpretation_en": "she will fail to enjoy some pleasure that is insinuatingly offered her",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Drinking",
+      "original": "If she dreams that she fails to drink clear water, though she uses her best efforts to do so, she will fail to enjoy some pleasure that is insinuatingly offered her.",
+      "translation_ko": "애를 써도 맑은 물을 마시지 못하는 꿈은, 슬며시 건네진 즐거움을 끝내 누리지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "마차를 몲",
+    "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
+    "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
+      "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "삯마차",
+    "term_en": "cab",
+    "context": "삯마차를 몲",
+    "interpretation_ko": "고된 일을 하며 나아질 길이 적을 조짐",
+    "interpretation_en": "menial labor, with little chance for advancement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "To dream of driving a public cab, denotes menial labor, with little chance for advancement.",
+      "translation_ko": "삯마차를 모는 꿈은, 고된 일을 하며 나아질 길이 적음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "짐수레를 몲",
+    "interpretation_ko": "한동안 가난과 딱한 형편에 머물 조짐",
+    "interpretation_en": "you will remain in poverty and unfortunate circumstances for some time",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "If it is a wagon, you will remain in poverty and unfortunate circumstances for some time.",
+      "translation_ko": "짐수레라면, 한동안 가난과 딱한 형편에 머물게 된다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "남자가 남이 모는 마차에 실려 감",
+    "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
+    "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
+      "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "여자가 남이 모는 마차에 실려 감",
+    "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
+    "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
+      "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "남이 모는 마차에 실려 감",
+    "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
+    "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Driving",
+      "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
+      "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+    }
+  },
+  {
+    "term_ko": "단봉낙타",
+    "term_en": "dromedary",
+    "context": "단봉낙타를 봄",
+    "interpretation_ko": "뜻밖의 베풂을 받고 새 영예를 의젓하게 지니며, 너그러이 베풀 조짐",
+    "interpretation_en": "you will be the recipient of unexpected beneficence, and will wear your new honors with dignity",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Dromedary",
+      "original": "To dream of a dromedary, denotes that you will be the recipient of unexpected beneficence, and will wear your new honors with dignity; you will dispense charity with a gracious hands. To lovers, this dream foretells congenial dispositions.",
+      "translation_ko": "단봉낙타 꿈은 뜻밖의 베풂을 받고 새 영예를 의젓하게 지니며 너그러이 베풀게 됨을 뜻한다. 연인에게는 서로 마음이 맞음을 알린다"
+    }
+  },
+  {
+    "term_ko": "부종",
+    "term_en": "dropsy",
+    "context": "부종을 앓음",
+    "interpretation_ko": "한동안 앓으나 기운을 되찾아 나을 조짐",
+    "interpretation_en": "illness for a time, but from which you will recover with renewed vigor",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Dropsy",
+      "original": "To dream of being afflicted with the dropsy, denotes illness for a time, but from which you will recover with renewed vigor.",
+      "translation_ko": "부종을 앓는 꿈은 한동안 앓으나 기운을 되찾아 낫게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "부종",
+    "term_en": "dropsy",
+    "context": "남이 부종을 앓는 것을 봄",
+    "interpretation_ko": "멀리 있는 이에게서 곧 소식이 오고 그가 성하다는 기별을 들을 조짐",
+    "interpretation_en": "you will hear from the absent shortly, and have tidings of their good health",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Dropsy",
+      "original": "To see others thus afflicted, denotes that you will hear from the absent shortly, and have tidings of their good health.",
+      "translation_ko": "남이 그렇게 앓는 것을 보면, 멀리 있는 이에게서 곧 소식이 오고 그가 성하다는 기별을 듣는다"
+    }
+  }
+]
