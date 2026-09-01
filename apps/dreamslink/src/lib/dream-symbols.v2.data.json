@@ -20,6 +20,7 @@
     "m24.json",
     "m25.json",
     "m26.json",
+    "m27a.json",
     "m3.json",
     "m4a.json",
     "m4b.json",
@@ -43,6 +44,414 @@
     "result-tomb.json"
   ],
   "symbols": [
+    {
+      "id": "dog",
+      "term_ko": "개",
+      "term_en": "dog",
+      "aliases": [
+        "강아지",
+        "반려견",
+        "멍멍이",
+        "개들",
+        "개가",
+        "개를",
+        "사냥개",
+        "애완견",
+        "맹견",
+        "광견",
+        "미친개",
+        "삽살개",
+        "똥개"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사나운 개가 나타남",
+          "interpretation_ko": "적이 생기고 돌이킬 수 없는 불운이 따를 조짐",
+          "interpretation_en": "enemies and unalterable misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of a vicious dog, denotes enemies and unalterable misfortune.",
+              "translation_ko": "사나운 개 꿈은 적과 돌이킬 수 없는 불운을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개가 다정하게 굶",
+          "interpretation_ko": "크게 얻고 한결같은 벗이 생길 조짐",
+          "interpretation_en": "great gain and constant friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream that a dog fondles you, indicates great gain and constant friends.",
+              "translation_ko": "개가 다정하게 구는 꿈은 큰 얻음과 한결같은 벗을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "품 좋은 개를 기름",
+          "interpretation_ko": "든든한 재물을 지니게 될 조짐",
+          "interpretation_en": "you will be possessed of solid wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of owning a dog with fine qualities, denotes that you will be possessed of solid wealth.",
+              "translation_ko": "품이 좋은 개를 기르는 꿈은 든든한 재물을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사냥개가 뒤를 쫓음",
+          "interpretation_ko": "무너질 위험이 큰 유혹에 빠질 조짐",
+          "interpretation_en": "you are likely to fall into some temptation, in which there is much danger of your downfall",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream that a blood-hound is tracking you, you are likely to fall into some temptation, in which there is much danger of your downfall.",
+              "translation_ko": "사냥개가 뒤를 쫓는 꿈은, 무너질 위험이 큰 유혹에 빠짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "작은 개들을 봄",
+          "interpretation_ko": "생각과 즐거움이 가벼운 쪽에 쏠려 있다는 뜻",
+          "interpretation_en": "your thoughts and chief pleasures are of a frivolous order",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of small dogs, indicates that your thoughts and chief pleasures are of a frivolous order.",
+              "translation_ko": "작은 개들 꿈은, 생각과 즐거움이 가벼운 쪽에 쏠려 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개에게 물림",
+          "interpretation_ko": "혼인이나 일에서 다투기 좋아하는 짝을 만날 조짐",
+          "interpretation_en": "a quarrelsome companion either in marriage or business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of dogs biting you, foretells for you a quarrelsome companion either in marriage or business.",
+              "translation_ko": "개에게 물리는 꿈은, 혼인이나 일에서 다투기 좋아하는 짝을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여위고 더러운 개를 봄",
+          "interpretation_ko": "하는 일이 안 되고 아이들이 앓을 조짐",
+          "interpretation_en": "failure in business, also sickness among children",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "Lean, filthy dogs, indicate failure in business, also sickness among children.",
+              "translation_ko": "여위고 더러운 개는 하는 일의 실패와 아이들의 병을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개 품평회를 봄",
+          "interpretation_ko": "운에서 여러 가지 은혜를 입을 조짐",
+          "interpretation_en": "indicative of many and varied favors from fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of a dog-show, is indicative of many and varied favors from fortune.",
+              "translation_ko": "개 품평회 꿈은 운에서 오는 여러 가지 은혜를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개 짖는 소리를 들음",
+          "interpretation_ko": "가라앉는 소식이 오고 어려움이 뒤따를 조짐",
+          "interpretation_en": "news of a depressing nature, and difficulties are more than likely to follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To hear the barking of dogs, foretells news of a depressing nature.  Difficulties are more than likely to follow.",
+              "translation_ko": "개 짖는 소리를 들으면 가라앉는 소식이 온다. 어려움이 뒤따르기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "개들이 여우 따위를 뒤쫓는 것을 봄",
+          "interpretation_ko": "모든 일이 부쩍 활기를 띨 조짐",
+          "interpretation_en": "an unusual briskness in all affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To see dogs on the chase of foxes, and other large game, denotes an unusual briskness in all affairs.",
+              "translation_ko": "개들이 여우나 큰 짐승을 뒤쫓는 것을 보면, 모든 일이 부쩍 활기를 띤다"
+            }
+          ]
+        },
+        {
+          "context": "곱게 꾸민 애완견을 봄",
+          "interpretation_ko": "겉치레를 좋아하고 마음이 좁다는 뜻",
+          "interpretation_en": "a love of show, and that the owner is selfish and narrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To see fancy pet dogs, signifies a love of show, and that the owner is selfish and narrow.",
+              "translation_ko": "곱게 꾸민 애완견을 보면, 겉치레를 좋아하고 마음이 좁음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "큰 맹견을 보고 몹시 놀람",
+          "interpretation_ko": "남보다 나아지려다 불편을 겪을 조짐",
+          "interpretation_en": "you will experience inconvenience because of efforts to rise above mediocrity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To feel much fright upon seeing a large mastiff, denotes that you will experience inconvenience because of efforts to rise above mediocrity.",
+              "translation_ko": "큰 맹견을 보고 몹시 놀라는 꿈은, 남보다 나아지려다 겪는 불편을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개가 으르렁거리는 소리를 들음",
+          "interpretation_ko": "꾀부리는 이들에게 휘둘리고 집안이 언짢아질 조짐",
+          "interpretation_en": "you are at the mercy of designing people, and you will be afflicted with unpleasant home surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To hear the growling and snarling of dogs, indicates that you are at the mercy of designing people, and you will be afflicted with unpleasant home surroundings.",
+              "translation_ko": "개가 으르렁거리는 소리를 들으면, 꾀부리는 이들에게 휘둘리고 집안이 언짢아진다"
+            }
+          ]
+        },
+        {
+          "context": "개가 외로이 길게 우는 소리를 들음",
+          "interpretation_ko": "죽음이나 벗과의 오랜 헤어짐이 있을 조짐",
+          "interpretation_en": "a death or a long separation from friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To hear the lonely baying of a dog, foretells a death or a long separation from friends.",
+              "translation_ko": "개가 외로이 길게 우는 소리를 들으면, 죽음이나 벗과의 오랜 헤어짐이 있다"
+            }
+          ]
+        },
+        {
+          "context": "개들이 으르렁대며 서로 싸움",
+          "interpretation_ko": "적에게 눌리고 삶이 가라앉을 조짐",
+          "interpretation_en": "you will be overcome by your enemies, and your life will be filled with depression",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To hear dogs growling and fighting, portends that you will be overcome by your enemies, and your life will be filled with depression.",
+              "translation_ko": "개들이 으르렁대며 싸우는 소리를 들으면, 적에게 눌리고 삶이 가라앉는다"
+            }
+          ]
+        },
+        {
+          "context": "개와 고양이가 사이좋다가 갑자기 싸움",
+          "interpretation_ko": "말리지 못하면 사랑과 세상일에서 재앙을 만날 조짐",
+          "interpretation_en": "you will meet with disaster in love and worldly pursuits, unless you succeed in quelling the row",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To see dogs and cats seemingly on friendly terms, and suddenly turning on each other, showing their teeth and a general fight ensuing, you will meet with disaster in love and worldly pursuits, unless you succeed in quelling the row.",
+              "translation_ko": "개와 고양이가 사이좋다가 갑자기 이를 드러내고 싸우는 것을 보면, 말리지 못하는 한 사랑과 세상일에서 재앙을 만난다"
+            }
+          ]
+        },
+        {
+          "context": "다정한 흰 개가 다가옴",
+          "interpretation_ko": "일에서든 사랑에서든 이길 조짐이며, 여성에게는 이른 혼인을 뜻함",
+          "interpretation_en": "a victorious engagement whether in business or love; for a woman, an omen of an early marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "If you dream of a friendly white dog approaching you, it portends for you a victorious engagement whether in business or love.  For a woman, this is an omen of an early marriage.",
+              "translation_ko": "다정한 흰 개가 다가오는 꿈은, 일에서든 사랑에서든 이김을 알린다. 여성에게는 이른 혼인의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "머리가 여럿 달린 개를 봄",
+          "interpretation_ko": "한꺼번에 너무 여러 갈래를 벌이고 있다는 뜻",
+          "interpretation_en": "you are trying to maintain too many branches of business at one time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of a many-headed dog, you are trying to maintain too many branches of business at one time.",
+              "translation_ko": "머리가 여럿 달린 개 꿈은, 한꺼번에 너무 여러 갈래를 벌이고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "미친개를 봄",
+          "interpretation_ko": "아무리 애써도 바라던 결과가 나오지 않을 조짐",
+          "interpretation_en": "your most strenuous efforts will not bring desired results",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of a mad dog, your most strenuous efforts will not bring desired results, and fatal disease may be clutching at your vitals.",
+              "translation_ko": "미친개 꿈은, 아무리 애써도 바라던 결과가 나오지 않음을 뜻한다. 모진 병이 몸을 붙들고 있을 수도 있다"
+            }
+          ]
+        },
+        {
+          "context": "미친개에게 물림",
+          "interpretation_ko": "저나 아끼는 이의 마음이 무너질 조짐",
+          "interpretation_en": "you or some loved one is on the verge of insanity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "If a mad dog succeeds in biting you, it is a sign that you or some loved one is on the verge of insanity, and a deplorable tragedy may occur.",
+              "translation_ko": "미친개에게 물리면, 저나 아끼는 이의 마음이 무너질 지경이라는 표이며 딱한 일이 일어날 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "개를 데리고 홀로 길을 감",
+          "interpretation_ko": "든든한 벗과 잘되는 일이 따를 조짐",
+          "interpretation_en": "stanch friends and successful undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of traveling alone, with a dog following you, foretells stanch friends and successful undertakings.",
+              "translation_ko": "개를 데리고 홀로 길을 가는 꿈은, 든든한 벗과 잘되는 일을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "개가 헤엄치는 것을 봄",
+          "interpretation_ko": "기쁨과 복으로 수월하게 나아갈 조짐",
+          "interpretation_en": "an easy stretch to happiness and fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream of dogs swimming, indicates for you an easy stretch to happiness and fortune.",
+              "translation_ko": "개가 헤엄치는 꿈은, 기쁨과 복으로 수월하게 나아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개가 눈앞에서 고양이를 죽임",
+          "interpretation_ko": "이문이 남는 거래와 뜻밖의 즐거움이 있을 조짐",
+          "interpretation_en": "profitable dealings and some unexpected pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "To dream that a dog kills a cat in your presence, is significant of profitable dealings and some unexpected pleasure.",
+              "translation_ko": "개가 눈앞에서 고양이를 죽이는 꿈은, 이문이 남는 거래와 뜻밖의 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "개가 눈앞에서 뱀을 죽임",
+          "interpretation_ko": "좋은 운의 조짐",
+          "interpretation_en": "an omen of good luck",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dogs",
+              "original": "For a dog to kill a snake in your presence, is an omen of good luck",
+              "translation_ko": "개가 눈앞에서 뱀을 죽이는 것은 좋은 운의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사나운 개를 봄",
+          "interpretation_ko": "도적이 들 조짐",
+          "interpretation_en": "a sign of thieves",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "豹狼惡狗有盜賊",
+              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "개가 사람을 보고 짖음",
+          "interpretation_ko": "귀신이 먹을 것을 구하러 온 조짐",
+          "interpretation_en": "a sign that a spirit has come seeking food",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "犬吠人鬼來求食",
+              "translation_ko": "개가 사람을 보고 짖으면 귀신이 먹을 것을 구하러 온 것이다"
+            }
+          ]
+        },
+        {
+          "context": "개가 주인을 보고 짖음",
+          "interpretation_ko": "재물을 잃을 흉한 조짐",
+          "interpretation_en": "an inauspicious sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "犬吠主人失財凶",
+              "translation_ko": "개가 주인을 보고 짖으면 재물을 잃어 흉하다"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "boat",
       "term_ko": "배",
@@ -4132,6 +4541,237 @@
               "locator": "天地日月星辰",
               "original": "雲忽遮日有陰私",
               "translation_ko": "구름이 갑자기 해를 가리면 은밀한 사사로움이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "donkey",
+      "term_ko": "당나귀",
+      "term_en": "donkey",
+      "aliases": [
+        "당나귀",
+        "나귀",
+        "당나귀를",
+        "당나귀가"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "당나귀가 얼굴에 대고 욺",
+          "interpretation_ko": "됨됨이가 바르지 못한 이에게 남들 앞에서 모욕을 당할 조짐",
+          "interpretation_en": "you are about to be publicly insulted by an unscrupulous person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To dream of a donkey braying in your face, denotes that you are about to be publicly insulted by a lewd and unscrupulous person.",
+              "translation_ko": "당나귀가 얼굴에 대고 우는 꿈은, 남들 앞에서 모욕을 당하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "멀리서 들리는 당나귀 울음이 구슬픔",
+          "interpretation_ko": "가까운 이의 죽음으로 재물을 얻고 언짢은 매임에서 풀려날 조짐",
+          "interpretation_en": "you will receive wealth and release from unpleasant bonds by the death of some person close to you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To hear the distant braying filling space with melancholy, you will receive wealth and release from unpleasant bonds by the death of some person close to you.",
+              "translation_ko": "멀리서 들리는 울음이 구슬프게 퍼지면, 가까운 이의 죽음으로 재물을 얻고 언짢은 매임에서 풀려난다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀를 타고 낯선 땅을 다님",
+          "interpretation_ko": "먼 나라를 다니며 지나기 어려운 곳을 두루 살필 조짐",
+          "interpretation_en": "you will visit foreign lands and make many explorations into places difficult of passage",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "If you see yourself riding on a donkey, you will visit foreign lands and make many explorations into places difficult of passage.",
+              "translation_ko": "제가 당나귀를 타고 있는 것을 보면, 먼 나라를 다니며 지나기 어려운 곳을 두루 살핀다"
+            }
+          ]
+        },
+        {
+          "context": "남이 당나귀를 타는 것을 봄",
+          "interpretation_ko": "그들에게 변변찮은 물림과 고된 삶이 있을 조짐",
+          "interpretation_en": "a meagre inheritance for them and a toiling life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To see others riding donkeys, denotes a meagre inheritance for them and a toiling life.",
+              "translation_ko": "남이 당나귀를 타는 것을 보면, 그들에게 변변찮은 물림과 고된 삶이 있다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀를 몲",
+          "interpretation_ko": "적이 무너뜨리려 드는 것에 맞서 온 힘과 뚝심을 쏟게 될 조짐",
+          "interpretation_en": "all your energies and pluck will be brought into play against a desperate effort on the part of enemies to overthrow you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To drive a donkey, signifies that all your energies and pluck will be brought into play against a desperate effort on the part of enemies to overthrow you.",
+              "translation_ko": "당나귀를 모는 꿈은, 적이 무너뜨리려 드는 것에 맞서 온 힘과 뚝심을 쏟게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀에게 걷어차임",
+          "interpretation_ko": "떳떳하지 못한 사이를 이어 가며 들킬까 마음 졸일 조짐",
+          "interpretation_en": "you are carrying on illicit connections, from which you will suffer much anxiety from fear of betrayal",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "If you are kicked by this little animal, it shows that you are carrying on illicit connections, from which you will suffer much anxiety from fear of betrayal.",
+              "translation_ko": "이 작은 짐승에게 걷어차이면, 떳떳하지 못한 사이를 이어 가며 들킬까 마음을 졸이게 된다"
+            }
+          ]
+        },
+        {
+          "context": "고삐를 잡고 당나귀를 이끎",
+          "interpretation_ko": "어떤 자리에서든 주인이 될 조짐",
+          "interpretation_en": "you will be master of every situation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "If you lead one by a halter, you will be master of every situation, and lead women into your way of seeing things by flattery.",
+              "translation_ko": "고삐를 잡고 이끌면 어떤 자리에서든 주인이 된다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 당나귀를 타고 모는 것을 봄",
+          "interpretation_ko": "아이들이 건강하고 순할 조짐",
+          "interpretation_en": "health and obedience for them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To see children riding and driving donkeys, signifies health and obedience for them.",
+              "translation_ko": "아이들이 당나귀를 타고 모는 것을 보면, 아이들이 건강하고 순하다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀에서 떨어짐",
+          "interpretation_ko": "운이 나쁘고 세상일이 어그러지며 연인은 다투고 갈라설 조짐",
+          "interpretation_en": "ill luck and disappointment in secular affairs; lovers will quarrel and separate",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Donkey",
+              "original": "To fall or be thrown from one, denotes ill luck and disappointment in secular affairs.  Lovers will quarrel and separate.",
+              "translation_ko": "당나귀에서 떨어지거나 내동댕이쳐지면, 운이 나쁘고 세상일이 어그러진다. 연인은 다투고 갈라선다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀를 봄",
+          "interpretation_ko": "성가신 일을 많이 겪고 소식이나 물건을 받는 데 지연이 생길 조짐",
+          "interpretation_en": "you will meet many annoyances, and delays will accrue in receiving news or goods",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ass",
+              "original": "To see an ass in a dream, you will meet many annoyances, and delays will accrue in receiving news or goods.",
+              "translation_ko": "꿈에서 당나귀를 보면 성가신 일을 많이 겪고 소식이나 물건을 받는 데 지연이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐을 진 당나귀들을 봄",
+          "interpretation_ko": "인내하고 애쓴 끝에 여행이든 사랑이든 하려는 일에 성공할 조짐",
+          "interpretation_en": "after patience and toil, you will succeed in your undertakings, whether of travel or love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ass",
+              "original": "To see donkeys carrying burdens, denotes that, after patience and toil, you will succeed in your undertakings, whether of travel or love.",
+              "translation_ko": "짐을 진 당나귀들을 보면 인내하고 애쓴 끝에 여행이든 사랑이든 하려는 일에 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "당나귀가 쫓아와 두려워함",
+          "interpretation_ko": "추문이나 불쾌한 소문의 희생자가 될 조짐",
+          "interpretation_en": "you will be the victim of scandal or other displeasing reports",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ass",
+              "original": "If an ass pursues you, and you are afraid of it, you will be the victim of scandal or other displeasing reports.",
+              "translation_ko": "당나귀가 쫓아와 두려워하면 추문이나 불쾌한 소문의 희생자가 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "내키지 않게 당나귀를 타거나 기수로 나섬",
+          "interpretation_ko": "불필요한 다툼이 뒤따를 조짐",
+          "interpretation_en": "unnecessary quarrels may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ass",
+              "original": "If you unwillingly ride on one, or, as jockey, unnecessary quarrels may follow.",
+              "translation_ko": "내키지 않게 당나귀를 타거나 기수로 나서면 불필요한 다툼이 뒤따를 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "나귀를 타고 감",
+          "interpretation_ko": "재물을 얻어 길할 조짐",
+          "interpretation_en": "an auspicious sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "騎驢騾主得財吉",
+              "translation_ko": "나귀나 노새를 타면 재물을 얻어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "나귀를 잡음",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of feasting to come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺驢騾馬有酒食",
+              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
             }
           ]
         }
@@ -14007,108 +14647,6 @@
               "locator": "Cotton",
               "original": "To dream that cotton is advancing, denotes an immediate change from low to high prices, and all will be in better circumstances.",
               "translation_ko": "목화 값이 오르는 꿈은, 값이 단번에 올라 모두의 형편이 나아짐을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "donkey",
-      "term_ko": "당나귀",
-      "term_en": "donkey",
-      "aliases": [
-        "당나귀"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "당나귀를 봄",
-          "interpretation_ko": "성가신 일을 많이 겪고 소식이나 물건을 받는 데 지연이 생길 조짐",
-          "interpretation_en": "you will meet many annoyances, and delays will accrue in receiving news or goods",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ass",
-              "original": "To see an ass in a dream, you will meet many annoyances, and delays will accrue in receiving news or goods.",
-              "translation_ko": "꿈에서 당나귀를 보면 성가신 일을 많이 겪고 소식이나 물건을 받는 데 지연이 생길 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "짐을 진 당나귀들을 봄",
-          "interpretation_ko": "인내하고 애쓴 끝에 여행이든 사랑이든 하려는 일에 성공할 조짐",
-          "interpretation_en": "after patience and toil, you will succeed in your undertakings, whether of travel or love",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ass",
-              "original": "To see donkeys carrying burdens, denotes that, after patience and toil, you will succeed in your undertakings, whether of travel or love.",
-              "translation_ko": "짐을 진 당나귀들을 보면 인내하고 애쓴 끝에 여행이든 사랑이든 하려는 일에 성공할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "당나귀가 쫓아와 두려워함",
-          "interpretation_ko": "추문이나 불쾌한 소문의 희생자가 될 조짐",
-          "interpretation_en": "you will be the victim of scandal or other displeasing reports",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ass",
-              "original": "If an ass pursues you, and you are afraid of it, you will be the victim of scandal or other displeasing reports.",
-              "translation_ko": "당나귀가 쫓아와 두려워하면 추문이나 불쾌한 소문의 희생자가 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "내키지 않게 당나귀를 타거나 기수로 나섬",
-          "interpretation_ko": "불필요한 다툼이 뒤따를 조짐",
-          "interpretation_en": "unnecessary quarrels may follow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ass",
-              "original": "If you unwillingly ride on one, or, as jockey, unnecessary quarrels may follow.",
-              "translation_ko": "내키지 않게 당나귀를 타거나 기수로 나서면 불필요한 다툼이 뒤따를 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "나귀를 타고 감",
-          "interpretation_ko": "재물을 얻어 길할 조짐",
-          "interpretation_en": "an auspicious sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "騎驢騾主得財吉",
-              "translation_ko": "나귀나 노새를 타면 재물을 얻어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "나귀를 잡음",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of feasting to come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺驢騾馬有酒食",
-              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
             }
           ]
         }
@@ -31494,61 +32032,61 @@
       ]
     },
     {
-      "id": "dog",
-      "term_ko": "개",
-      "term_en": "dog",
+      "id": "doctor",
+      "term_ko": "의사",
+      "term_en": "doctor",
       "aliases": [
-        "강아지",
-        "반려견",
-        "멍멍이"
+        "의사가",
+        "의사를",
+        "진찰"
       ],
-      "category": "animal",
-      "polarity": "negative",
+      "category": "person",
+      "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "사나운 개를 봄",
-          "interpretation_ko": "도적이 들 조짐",
-          "interpretation_en": "a sign of thieves",
-          "polarity": "negative",
+          "context": "의사를 사사로이 만남",
+          "interpretation_ko": "몸이 성하고 살림이 두루 넉넉할 조짐",
+          "interpretation_en": "good health and general prosperity",
+          "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "豹狼惡狗有盜賊",
-              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "This is a most auspicious dream, denoting good health and general prosperity, if you meet him socially, for you will not then spend your money for his services.",
+              "translation_ko": "사사로이 만나는 것이면 아주 좋은 꿈이며, 몸이 성하고 살림이 두루 넉넉함을 뜻한다. 그에게 돈을 쓸 일이 없기 때문이다"
             }
           ]
         },
         {
-          "context": "개가 사람을 보고 짖음",
-          "interpretation_ko": "귀신이 먹을 것을 구하러 온 조짐",
-          "interpretation_en": "a sign that a spirit has come seeking food",
-          "polarity": "neutral",
+          "context": "의사에게 진찰을 받음",
+          "interpretation_ko": "기운 빠지는 병과 집안 사이의 언짢은 다툼이 있을 조짐",
+          "interpretation_en": "discouraging illness and disagreeable differences between members of a family",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "犬吠人鬼來求食",
-              "translation_ko": "개가 사람을 보고 짖으면 귀신이 먹을 것을 구하러 온 것이다"
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "To dream of a doctor professionally, signifies discouraging illness and disagreeable differences between members of a family.",
+              "translation_ko": "의사를 일로 만나는 꿈은, 기운 빠지는 병과 집안 사이의 언짢은 다툼을 뜻한다"
             }
           ]
         },
         {
-          "context": "개가 주인을 보고 짖음",
-          "interpretation_ko": "재물을 잃을 흉한 조짐",
-          "interpretation_en": "an inauspicious sign of losing wealth",
+          "context": "의사가 살을 째는데 피가 나지 않음",
+          "interpretation_ko": "악한 이에게 시달리고 남의 빚을 물게 될 조짐",
+          "interpretation_en": "you will be tormented and injured by some evil person, who may try to make you pay out money for his debts",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "犬吠主人失財凶",
-              "translation_ko": "개가 주인을 보고 짖으면 재물을 잃어 흉하다"
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "To dream that a doctor makes an incision in your flesh, trying to discover blood, but failing in his efforts, denotes that you will be tormented and injured by some evil person, who may try to make you pay out money for his debts.",
+              "translation_ko": "의사가 피를 찾으려 살을 째는데 찾지 못하는 꿈은, 악한 이에게 시달리고 남의 빚을 물게 됨을 뜻한다"
             }
           ]
         }
@@ -45278,6 +45816,144 @@
       ]
     },
     {
+      "id": "dome",
+      "term_ko": "둥근지붕",
+      "term_en": "dome",
+      "aliases": [
+        "돔",
+        "둥근 지붕"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "둥근지붕 위에서 낯선 경치를 내려다봄",
+          "interpretation_ko": "삶이 좋은 쪽으로 바뀌고 낯선 이들 사이에서 떳떳한 자리에 설 조짐",
+          "interpretation_en": "a favorable change in your life; you will occupy honorable places among strangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dome",
+              "original": "To dream that you are in the dome of a building, viewing a strange landscape, signifies a favorable change in your life.  You will occupy honorable places among strangers.",
+              "translation_ko": "건물의 둥근지붕에서 낯선 경치를 내려다보는 꿈은, 삶이 좋은 쪽으로 바뀜을 뜻한다. 낯선 이들 사이에서 떳떳한 자리에 선다"
+            }
+          ]
+        },
+        {
+          "context": "둥근지붕을 멀리서 바라봄",
+          "interpretation_ko": "뜻한 높이에 끝내 닿지 못하고, 사랑하는 이에게 외면당할 조짐",
+          "interpretation_en": "you will never reach the height of your ambition, and the object of your desires will scorn your attention",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dome",
+              "original": "To behold a dome from a distance, portends that you will never reach the height of your ambition, and if you are in love, the object of your desires will scorn your attention.",
+              "translation_ko": "둥근지붕을 멀리서 바라보는 꿈은, 뜻한 높이에 끝내 닿지 못함을 알린다. 사랑하고 있다면 그 사람이 마음을 외면한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dominoes",
+      "term_ko": "도미노",
+      "term_en": "dominoes",
+      "aliases": [
+        "도미노 놀이",
+        "도미노패"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도미노 놀이에서 짐",
+          "interpretation_ko": "벗에게 모욕을 당하고 둘레가 제 처신을 걱정할 조짐",
+          "interpretation_en": "you will be affronted by a friend, and much uneasiness for your safety will be entertained by your people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dominoes",
+              "original": "To dream of playing at dominoes, and lose, you will be affronted by a friend, and much uneasiness for your safety will be entertained by your people, as you will not be discreet in your affairs with women or other matters that engage your attention.",
+              "translation_ko": "도미노 놀이를 하다 지는 꿈은, 벗에게 모욕을 당하고 둘레가 제 처신을 걱정하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "도미노 놀이에서 이김",
+          "interpretation_ko": "방탕한 이들에게 떠받들려 제 잇속의 즐거움을 얻으나 살붙이는 괴로울 조짐",
+          "interpretation_en": "you will be much courted and admired by certain dissolute characters, bringing you selfish pleasures, but much distress to your relatives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dominoes",
+              "original": "If you are the winner of the game, it foretells that you will be much courted and admired by certain dissolute characters, bringing you selfish pleasures, but much distress to your relatives.",
+              "translation_ko": "그 놀이에서 이기면, 방탕한 이들에게 떠받들려 제 잇속의 즐거움을 얻으나 살붙이에게는 큰 괴로움이 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doomsday",
+      "term_ko": "최후의 심판",
+      "term_en": "doomsday",
+      "aliases": [
+        "심판의 날",
+        "세상의 끝"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "최후의 심판을 기다림",
+          "interpretation_ko": "실속 있는 일에 마음을 쏟지 않으면 꾀 많은 벗에게 재물을 빼앗길 조짐",
+          "interpretation_en": "a warning for you to give substantial and material affairs close attention, or the artful and scheming friends will have possession of your wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doomsday",
+              "original": "To dream that you are living on, and looking forward to seeing doomsday, is a warning for you to give substantial and material affairs close attention, or you will find that the artful and scheming friends you are entertaining will have possession of what they desire from you, which is your wealth, and not your sentimentality.",
+              "translation_ko": "살아남아 최후의 심판을 기다리는 꿈은, 실속 있는 일에 마음을 쏟으라는 경고다. 그러지 않으면 꾀 많은 벗이 바라던 것 — 마음이 아니라 재물 — 을 가져간다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성에게 최후의 심판 꿈이 나타남",
+          "interpretation_ko": "높은 자리의 남자를 마다하고 가까이 있는 곧은 사람의 사랑을 받아들이라는 뜻",
+          "interpretation_en": "this dream encourages her to throw aside the attention of men above her in station and accept the love of an honest and deserving man near her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doomsday",
+              "original": "To a young woman, this dream encourages her to throw aside the attention of men above her in station and accept the love of an honest and deserving man near her.",
+              "translation_ko": "젊은 여성에게 이 꿈은, 높은 자리의 남자를 마다하고 가까이 있는 곧고 마땅한 사람의 사랑을 받아들이라고 이른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "duck",
       "term_ko": "오리",
       "term_en": "duck",
@@ -53083,6 +53759,37 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食犬肉主有爭訟",
               "translation_ko": "개고기를 먹으면 다툼과 송사가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dolphin",
+      "term_ko": "돌고래",
+      "term_en": "dolphin",
+      "aliases": [
+        "돌고래를 보았다"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돌고래를 봄",
+          "interpretation_ko": "새로운 다스림 아래 놓이기 쉬운 조짐이며 그리 좋은 꿈은 아님",
+          "interpretation_en": "your liability to come under a new government; it is not a very good dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dolphin",
+              "original": "To dream of a dolphin, indicates your liability to come under a new government.  It is not a very good dream.",
+              "translation_ko": "돌고래 꿈은 새로운 다스림 아래 놓이기 쉬움을 뜻한다. 그리 좋은 꿈은 아니다"
             }
           ]
         }

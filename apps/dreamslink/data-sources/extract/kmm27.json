@@ -1,0 +1,93 @@
+[
+  {
+    "id": "doctor",
+    "aliases": [
+      "의사가",
+      "의사를",
+      "진찰"
+    ],
+    "aliases_en": [
+      "a doctor",
+      "physician"
+    ],
+    "contexts": {
+      "의사를 사사로이 만남": "사사로이 사석 친구로",
+      "의사에게 진찰을 받음": "진찰 진료 병원에서",
+      "의사가 살을 째는데 피가 나지 않음": "살을 째고 피가 나지"
+    },
+    "contexts_en": {
+      "의사를 사사로이 만남": "socially auspicious prosperity",
+      "의사에게 진찰을 받음": "professionally discouraging differences",
+      "의사가 살을 째는데 피가 나지 않음": "incision flesh tormented"
+    }
+  },
+  {
+    "id": "dolphin",
+    "aliases": [
+      "돌고래를 보았다"
+    ],
+    "aliases_en": [
+      "dolphins",
+      "a dolphin"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dome",
+    "aliases": [
+      "돔",
+      "둥근 지붕"
+    ],
+    "aliases_en": [
+      "a dome",
+      "domes"
+    ],
+    "contexts": {
+      "둥근지붕 위에서 낯선 경치를 내려다봄": "내려다 위에서 경치",
+      "둥근지붕을 멀리서 바라봄": "멀리서 아득 바라보"
+    },
+    "contexts_en": {
+      "둥근지붕 위에서 낯선 경치를 내려다봄": "viewing strange landscape",
+      "둥근지붕을 멀리서 바라봄": "behold distance ambition"
+    }
+  },
+  {
+    "id": "dominoes",
+    "aliases": [
+      "도미노 놀이",
+      "도미노패"
+    ],
+    "aliases_en": [
+      "dominos",
+      "playing dominoes"
+    ],
+    "contexts": {
+      "도미노 놀이에서 짐": "졌다 지고 패했",
+      "도미노 놀이에서 이김": "이겼 이기 따냈"
+    },
+    "contexts_en": {
+      "도미노 놀이에서 짐": "lose affronted uneasiness",
+      "도미노 놀이에서 이김": "winner courted dissolute"
+    }
+  },
+  {
+    "id": "doomsday",
+    "aliases": [
+      "심판의 날",
+      "세상의 끝"
+    ],
+    "aliases_en": [
+      "doomsday",
+      "judgment day"
+    ],
+    "contexts": {
+      "최후의 심판을 기다림": "기다리 살아남 바라보며",
+      "젊은 여성에게 최후의 심판 꿈이 나타남": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "최후의 심판을 기다림": "living forward substantial",
+      "젊은 여성에게 최후의 심판 꿈이 나타남": "young station deserving"
+    }
+  }
+]

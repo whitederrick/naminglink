@@ -4748,5 +4748,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "docks": [
     "the docks",
     "a dock"
+  ],
+  "doctor": [
+    "a doctor",
+    "physician"
+  ],
+  "dolphin": [
+    "dolphins",
+    "a dolphin"
+  ],
+  "dome": [
+    "a dome",
+    "domes"
+  ],
+  "dominoes": [
+    "dominos",
+    "playing dominoes"
+  ],
+  "doomsday": [
+    "doomsday",
+    "judgment day"
   ]
 };

@@ -486,7 +486,10 @@
   {
     "id": "donkey",
     "aliases": [
-      "당나귀"
+      "당나귀",
+      "나귀",
+      "당나귀를",
+      "당나귀가"
     ],
     "aliases_en": [
       "donkeys"
@@ -497,7 +500,16 @@
       "당나귀를 봄": "보았 바라보 마주쳤",
       "짐을 진 당나귀들을 봄": "짐을 짐진 무거운 실은",
       "당나귀가 쫓아와 두려워함": "쫓아와 두려 무서 달려들",
-      "내키지 않게 당나귀를 타거나 기수로 나섬": "내키지 마지못 억지로 기수"
+      "내키지 않게 당나귀를 타거나 기수로 나섬": "내키지 마지못 억지로 기수",
+      "당나귀가 얼굴에 대고 욺": "얼굴에 대고 코앞",
+      "멀리서 들리는 당나귀 울음이 구슬픔": "멀리서 구슬프 아득",
+      "당나귀를 타고 낯선 땅을 다님": "낯선 나라 돌아다 외국",
+      "남이 당나귀를 타는 것을 봄": "남이 남들 다른 사람이",
+      "당나귀를 몲": "몰았 몰고 채찍",
+      "당나귀에게 걷어차임": "걷어차 차였 뒷발",
+      "고삐를 잡고 당나귀를 이끎": "고삐 이끌 끌고",
+      "아이들이 당나귀를 타고 모는 것을 봄": "아이들 어린이 애들",
+      "당나귀에서 떨어짐": "떨어졌 굴러떨 내동댕이"
     },
     "contexts_en": {
       "나귀를 타고 감": "rode riding mounted",
@@ -505,7 +517,16 @@
       "당나귀를 봄": "saw sight noticed spotted",
       "짐을 진 당나귀들을 봄": "laden burden loaded packs",
       "당나귀가 쫓아와 두려워함": "chased chasing afraid frightened",
-      "내키지 않게 당나귀를 타거나 기수로 나섬": "unwilling reluctantly jockey"
+      "내키지 않게 당나귀를 타거나 기수로 나섬": "unwilling reluctantly jockey",
+      "당나귀가 얼굴에 대고 욺": "braying face insulted",
+      "멀리서 들리는 당나귀 울음이 구슬픔": "distant melancholy release",
+      "당나귀를 타고 낯선 땅을 다님": "foreign lands explorations",
+      "남이 당나귀를 타는 것을 봄": "others meagre toiling",
+      "당나귀를 몲": "drive energies pluck",
+      "당나귀에게 걷어차임": "kicked illicit betrayal",
+      "고삐를 잡고 당나귀를 이끎": "halter master situation",
+      "아이들이 당나귀를 타고 모는 것을 봄": "children obedience health",
+      "당나귀에서 떨어짐": "thrown secular quarrel"
     }
   },
   {
