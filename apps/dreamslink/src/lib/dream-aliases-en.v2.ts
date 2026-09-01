@@ -4328,5 +4328,77 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cotton-cloth": [
     "calico",
     "cotton fabric"
+  ],
+  "cotton-gin": [
+    "gin",
+    "cotton gins"
+  ],
+  "couch": [
+    "a couch",
+    "couches",
+    "settee"
+  ],
+  "cough": [
+    "coughing",
+    "coughed"
+  ],
+  "counter": [
+    "counters",
+    "shop counter"
+  ],
+  "counterfeit-money": [
+    "fake money",
+    "forged money"
+  ],
+  "counselor": [
+    "a counselor",
+    "counsellor",
+    "legal adviser"
+  ],
+  "countenance": [
+    "visage",
+    "a countenance"
+  ],
+  "counterpane": [
+    "bedspread",
+    "coverlet"
+  ],
+  "counting": [
+    "counted",
+    "count"
+  ],
+  "country": [
+    "countryside",
+    "the country"
+  ],
+  "courtship": [
+    "courted",
+    "courting",
+    "being courted"
+  ],
+  "cousin": [
+    "cousins",
+    "my cousin"
+  ],
+  "cowslip": [
+    "cowslips",
+    "primrose"
+  ],
+  "coxcomb": [
+    "a coxcomb",
+    "fop",
+    "dandy"
+  ],
+  "cradle": [
+    "cradles",
+    "a cradle"
+  ],
+  "crape": [
+    "crepe",
+    "black crape"
+  ],
+  "crawfish": [
+    "crayfish",
+    "a crawfish"
   ]
 };

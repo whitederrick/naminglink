@@ -14,6 +14,7 @@
     "m19.json",
     "m2.json",
     "m20.json",
+    "m21.json",
     "m3.json",
     "m4a.json",
     "m4b.json",
@@ -9915,6 +9916,136 @@
       ]
     },
     {
+      "id": "cattle",
+      "term_ko": "소떼",
+      "term_en": "cattle",
+      "aliases": [
+        "소 떼",
+        "소들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음",
+          "interpretation_ko": "마음 맞는 좋은 짝을 통해 넉넉함과 행복이 올 조짐",
+          "interpretation_en": "prosperity and happiness through a congenial and pleasant companion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "To dream of seeing good-looking and fat cattle contentedly grazing in green pastures, denotes prosperity and happiness through a congenial and pleasant companion.",
+              "translation_ko": "보기 좋고 살진 소떼가 푸른 목장에서 한가로이 풀을 뜯는 꿈은, 마음 맞는 좋은 짝을 통해 넉넉함과 행복이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여위고 털이 헝클어진 소떼를 봄",
+          "interpretation_ko": "힘을 잘못 쓰고 자잘한 일을 싫어해 평생 고되게 일할 조짐",
+          "interpretation_en": "you will toil all your life because of misspent energy and dislike of details of work",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "To see cattle lean and shaggy, and poorly fed, you will be likely to toil all your life because of misspent energy and dislike of details of work.",
+              "translation_ko": "여위고 털이 헝클어지고 잘 먹이지 못한 소떼를 보면, 힘을 잘못 쓰고 자잘한 일을 싫어한 탓에 평생 고되게 일하기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "소떼가 우르르 내달림",
+          "interpretation_ko": "가진 통솔력을 다 써야 앞길을 이롭게 지킬 수 있을 조짐",
+          "interpretation_en": "you will have to exert all the powers of command you have to keep your career in a profitable channel",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "To see cattle stampeding, means that you will have to exert all the powers of command you have to keep your career in a profitable channel.",
+              "translation_ko": "소떼가 우르르 내닫는 것을 보면, 가진 통솔력을 다 써야 제 앞길을 이로운 물길에 붙들어 둘 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "젖 짜는 때의 소떼를 봄",
+          "interpretation_ko": "많은 이가 애써 얻으려던 재물의 주인이 될 조짐",
+          "interpretation_en": "you will be the successful owner of wealth that many have worked to obtain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "To see a herd of cows at milking time, you will be the successful owner of wealth that many have worked to obtain.",
+              "translation_ko": "젖 짜는 때의 소떼를 보면, 많은 이가 애써 얻으려던 재물의 주인이 된다"
+            }
+          ]
+        },
+        {
+          "context": "젖이 그득한 소의 젖을 짬",
+          "interpretation_ko": "큰 행운이 예비되어 있을 조짐",
+          "interpretation_en": "great good fortune is in store for you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "To dream of milking cows with udders well filled, great good fortune is in store for you.",
+              "translation_ko": "젖이 그득한 소의 젖을 짜는 꿈은 큰 행운이 예비되어 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "송아지가 젖을 먼저 빨아 먹음",
+          "interpretation_ko": "마음을 늦게 보여 연인을 잃거나, 일을 소홀히 해 재산을 잃을 조짐",
+          "interpretation_en": "you are about to lose your lover by slowness to show your reciprocity, or your property from neglect of business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "If the calf has stolen the milk, it signifies that you are about to lose your lover by slowness to show your reciprocity, or your property from neglect of business.",
+              "translation_ko": "송아지가 젖을 먼저 빨아 먹었다면, 마음을 늦게 보여 연인을 잃거나 일을 소홀히 해 재산을 잃게 된다"
+            }
+          ]
+        },
+        {
+          "context": "뿔이 길고 검은 사나운 소떼를 봄",
+          "interpretation_ko": "적이 있을 조짐",
+          "interpretation_en": "enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cattle",
+              "original": "Long-horned and dark, vicious cattle, denote enemies.",
+              "translation_ko": "뿔이 길고 검은 사나운 소떼는 적을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젖 짜기를 기다리는 소떼를 봄",
+          "interpretation_ko": "바라고 뜻하던 것이 넉넉히 이루어질 조짐",
+          "interpretation_en": "abundant fulfilment of hopes and desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cows",
+              "original": "To dream of seeing cows waiting for the milking hour, promises abundant fulfilment of hopes and desires.",
+              "translation_ko": "젖 짤 때를 기다리는 소떼를 보는 꿈은, 바라고 뜻하던 것이 넉넉히 이루어짐을 약속한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cemetery",
       "term_ko": "묘지",
       "term_en": "cemetery",
@@ -10039,6 +10170,138 @@
               "locator": "Cemetery",
               "original": "To see little children gathering flowers and chasing butterflies among the graves, denotes prosperous changes and no graves of any of your friends to weep over.  Good health will hold high carnival.",
               "translation_ko": "무덤 사이에서 어린아이들이 꽃을 꺾고 나비를 쫓는 것을 보면, 넉넉해지는 변화가 오고 울어야 할 벗의 무덤이 없다. 건강이 한껏 넘친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crane",
+      "term_ko": "학",
+      "term_en": "crane",
+      "aliases": [
+        "두루미",
+        "학 떼",
+        "학들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "학 떼가 북쪽으로 날아가는 것을 봄",
+          "interpretation_ko": "하는 일의 앞날이 어두워지고 여성에게는 실망이 따를 조짐",
+          "interpretation_en": "gloomy prospects for business, and to a woman it is significant of disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crane",
+              "original": "To dream of seeing a flight of cranes tending northward, indicates gloomy prospects for business. To a woman, it is significant of disappointment;",
+              "translation_ko": "학 떼가 북쪽으로 날아가는 것을 보는 꿈은 하는 일의 앞날이 어두움을 뜻한다. 여성에게는 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "학 떼가 남쪽으로 날아가는 것을 봄",
+          "interpretation_ko": "멀리 있던 벗과 기쁘게 만나고 연인의 마음이 한결같을 조짐",
+          "interpretation_en": "a joyful meeting of absent friends, and that lovers will remain faithful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crane",
+              "original": "but to see them flying southward, prognosticates a joyful meeting of absent friends, and that lovers will remain faithful.",
+              "translation_ko": "남쪽으로 날아가는 것을 보면 멀리 있던 벗과 기쁘게 만나고 연인의 마음이 한결같다"
+            }
+          ]
+        },
+        {
+          "context": "학이 땅으로 내려앉는 것을 봄",
+          "interpretation_ko": "예사롭지 않은 일이 가까이 와 있다는 뜻",
+          "interpretation_en": "events of unusual moment are at hand",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crane",
+              "original": "To see them fly to the ground, events of unusual moment are at hand.",
+              "translation_ko": "땅으로 내려앉는 것을 보면 예사롭지 않은 일이 가까이 와 있다"
+            }
+          ]
+        },
+        {
+          "context": "학이 하늘로 올라감",
+          "interpretation_ko": "어린아이에게 재앙이 있을 조짐",
+          "interpretation_en": "a sign of misfortune for the young children",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鶴上天主小口災",
+              "translation_ko": "학이 하늘로 오르면 어린아이에게 재앙이 있다"
+            }
+          ]
+        },
+        {
+          "context": "학이 욺",
+          "interpretation_ko": "녹봉과 지위가 크게 드러날 조짐",
+          "interpretation_en": "a sign that one's rank and salary will greatly rise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鶴鳴者祿位大顯",
+              "translation_ko": "학이 울면 녹봉과 지위가 크게 드러난다"
+            }
+          ]
+        },
+        {
+          "context": "학이 품속으로 들어옴",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of giving birth to a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鶴入懷中生貴子",
+              "translation_ko": "학이 품속에 들어오면 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "학이 수레를 끎",
+          "interpretation_ko": "먼 길의 정벌하는 일이 있을 조짐",
+          "interpretation_en": "a sign of a distant campaign",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鶴駕車主征代事",
+              "translation_ko": "학이 수레를 끌면 정벌하는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "학을 놓아 줌",
+          "interpretation_ko": "재물을 얻어 길한 조짐",
+          "interpretation_en": "an auspicious sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "放鶴者主得財吉",
+              "translation_ko": "학을 놓아주면 재물을 얻어 길하다"
             }
           ]
         }
@@ -11925,122 +12188,6 @@
               "locator": "水火盜賊燈燭",
               "original": "燈燭光明主大吉",
               "translation_ko": "등불과 촛불이 밝으면 크게 길할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cattle",
-      "term_ko": "소떼",
-      "term_en": "cattle",
-      "aliases": [
-        "소 떼",
-        "소들"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음",
-          "interpretation_ko": "마음 맞는 좋은 짝을 통해 넉넉함과 행복이 올 조짐",
-          "interpretation_en": "prosperity and happiness through a congenial and pleasant companion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "To dream of seeing good-looking and fat cattle contentedly grazing in green pastures, denotes prosperity and happiness through a congenial and pleasant companion.",
-              "translation_ko": "보기 좋고 살진 소떼가 푸른 목장에서 한가로이 풀을 뜯는 꿈은, 마음 맞는 좋은 짝을 통해 넉넉함과 행복이 옴을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여위고 털이 헝클어진 소떼를 봄",
-          "interpretation_ko": "힘을 잘못 쓰고 자잘한 일을 싫어해 평생 고되게 일할 조짐",
-          "interpretation_en": "you will toil all your life because of misspent energy and dislike of details of work",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "To see cattle lean and shaggy, and poorly fed, you will be likely to toil all your life because of misspent energy and dislike of details of work.",
-              "translation_ko": "여위고 털이 헝클어지고 잘 먹이지 못한 소떼를 보면, 힘을 잘못 쓰고 자잘한 일을 싫어한 탓에 평생 고되게 일하기 쉽다"
-            }
-          ]
-        },
-        {
-          "context": "소떼가 우르르 내달림",
-          "interpretation_ko": "가진 통솔력을 다 써야 앞길을 이롭게 지킬 수 있을 조짐",
-          "interpretation_en": "you will have to exert all the powers of command you have to keep your career in a profitable channel",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "To see cattle stampeding, means that you will have to exert all the powers of command you have to keep your career in a profitable channel.",
-              "translation_ko": "소떼가 우르르 내닫는 것을 보면, 가진 통솔력을 다 써야 제 앞길을 이로운 물길에 붙들어 둘 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "젖 짜는 때의 소떼를 봄",
-          "interpretation_ko": "많은 이가 애써 얻으려던 재물의 주인이 될 조짐",
-          "interpretation_en": "you will be the successful owner of wealth that many have worked to obtain",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "To see a herd of cows at milking time, you will be the successful owner of wealth that many have worked to obtain.",
-              "translation_ko": "젖 짜는 때의 소떼를 보면, 많은 이가 애써 얻으려던 재물의 주인이 된다"
-            }
-          ]
-        },
-        {
-          "context": "젖이 그득한 소의 젖을 짬",
-          "interpretation_ko": "큰 행운이 예비되어 있을 조짐",
-          "interpretation_en": "great good fortune is in store for you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "To dream of milking cows with udders well filled, great good fortune is in store for you.",
-              "translation_ko": "젖이 그득한 소의 젖을 짜는 꿈은 큰 행운이 예비되어 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "송아지가 젖을 먼저 빨아 먹음",
-          "interpretation_ko": "마음을 늦게 보여 연인을 잃거나, 일을 소홀히 해 재산을 잃을 조짐",
-          "interpretation_en": "you are about to lose your lover by slowness to show your reciprocity, or your property from neglect of business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "If the calf has stolen the milk, it signifies that you are about to lose your lover by slowness to show your reciprocity, or your property from neglect of business.",
-              "translation_ko": "송아지가 젖을 먼저 빨아 먹었다면, 마음을 늦게 보여 연인을 잃거나 일을 소홀히 해 재산을 잃게 된다"
-            }
-          ]
-        },
-        {
-          "context": "뿔이 길고 검은 사나운 소떼를 봄",
-          "interpretation_ko": "적이 있을 조짐",
-          "interpretation_en": "enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cattle",
-              "original": "Long-horned and dark, vicious cattle, denote enemies.",
-              "translation_ko": "뿔이 길고 검은 사나운 소떼는 적을 뜻한다"
             }
           ]
         }
@@ -16359,93 +16506,6 @@
               "locator": "Clover",
               "original": "For a young woman to dream of seeing a snake crawling through blossoming clover, foretells she will be early disappointed in love, and her surroundings will be gloomy and discouraging, though to her friends she seems peculiarly fortunate.",
               "translation_ko": "젊은 여성이 꽃 핀 클로버 사이로 뱀이 기어가는 것을 보는 꿈을 꾸면, 일찍 사랑에 실망하고 둘레가 어둡고 답답해진다. 그러나 벗들 눈에는 유난히 운이 좋아 보인다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "crane",
-      "term_ko": "학",
-      "term_en": "crane",
-      "aliases": [
-        "두루미"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "학이 하늘로 올라감",
-          "interpretation_ko": "어린아이에게 재앙이 있을 조짐",
-          "interpretation_en": "a sign of misfortune for the young children",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鶴上天主小口災",
-              "translation_ko": "학이 하늘로 오르면 어린아이에게 재앙이 있다"
-            }
-          ]
-        },
-        {
-          "context": "학이 욺",
-          "interpretation_ko": "녹봉과 지위가 크게 드러날 조짐",
-          "interpretation_en": "a sign that one's rank and salary will greatly rise",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鶴鳴者祿位大顯",
-              "translation_ko": "학이 울면 녹봉과 지위가 크게 드러난다"
-            }
-          ]
-        },
-        {
-          "context": "학이 품속으로 들어옴",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of giving birth to a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鶴入懷中生貴子",
-              "translation_ko": "학이 품속에 들어오면 귀한 자식을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "학이 수레를 끎",
-          "interpretation_ko": "먼 길의 정벌하는 일이 있을 조짐",
-          "interpretation_en": "a sign of a distant campaign",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鶴駕車主征代事",
-              "translation_ko": "학이 수레를 끌면 정벌하는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "학을 놓아 줌",
-          "interpretation_ko": "재물을 얻어 길한 조짐",
-          "interpretation_en": "an auspicious sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "放鶴者主得財吉",
-              "translation_ko": "학을 놓아주면 재물을 얻어 길하다"
             }
           ]
         }
@@ -28095,6 +28155,318 @@
               "locator": "Cotton Cloth",
               "original": "To the married it denotes a pleasant yet a humble abode.",
               "translation_ko": "혼인한 이에게는 수수하지만 마음 편한 살림을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counting",
+      "term_ko": "헤아림",
+      "term_en": "counting",
+      "aliases": [
+        "세었다",
+        "세는",
+        "헤아렸다",
+        "세어 보았다",
+        "세어 냈다",
+        "세었",
+        "세어",
+        "세고"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 아이들을 세는데 아이들이 밝고 고움",
+          "interpretation_ko": "아이들을 이끄는 데 어려움이 없고 아이들이 귀한 자리에 오를 조짐",
+          "interpretation_en": "you will have no trouble in controlling them, and they will attain honorable places",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counting",
+              "original": "To dream of counting your children, and they are merry and sweet-looking, denotes that you will have no trouble in controlling them, and they will attain honorable places.",
+              "translation_ko": "제 아이들을 세는데 밝고 고운 꿈은, 아이들을 이끄는 데 어려움이 없고 아이들이 귀한 자리에 오름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 줄 돈을 세어 냄",
+          "interpretation_ko": "무언가를 잃게 될 조짐",
+          "interpretation_en": "you will meet with loss of some kind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counting",
+              "original": "but to count out money to another person, you will meet with loss of some kind.",
+              "translation_ko": "남에게 줄 돈을 세어 내면 무언가를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 셈",
+          "interpretation_ko": "운이 따르고 빚을 갚을 힘이 늘 있을 조짐",
+          "interpretation_en": "you will be lucky and always able to pay your debts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counting",
+              "original": "To dream of counting money, you will be lucky and always able to pay your debts;",
+              "translation_ko": "돈을 세는 꿈은, 운이 따르고 빚을 갚을 힘이 늘 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cowslip",
+      "term_ko": "앵초",
+      "term_en": "cowslip",
+      "aliases": [
+        "앵초꽃",
+        "노란 앵초",
+        "앵초들"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "앵초를 꺾음",
+          "interpretation_ko": "가깝고 따뜻해 보이던 벗 사이가 언짢게 끝날 조짐",
+          "interpretation_en": "unhappy ending of seemingly close and warm friendships",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cowslip",
+              "original": "To dream of gathering cowslips, portends unhappy ending of seemingly close and warm friendships;",
+              "translation_ko": "앵초를 꺾는 꿈은, 가깝고 따뜻해 보이던 벗 사이가 언짢게 끝남을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "앵초가 자라는 것을 봄",
+          "interpretation_ko": "연인에게 넉넉하지 못한 살림이 따를 조짐",
+          "interpretation_en": "a limited competency for lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cowslip",
+              "original": "but seeing them growing, denotes a limited competency for lovers. This is a sinister dream.",
+              "translation_ko": "자라는 것을 보면 연인에게 넉넉하지 못한 살림이 따른다. 이는 불길한 꿈이다"
+            }
+          ]
+        },
+        {
+          "context": "앵초가 활짝 핀 것을 봄",
+          "interpretation_ko": "일에 고비가 오고 단란하던 집안이 흩어질 조짐",
+          "interpretation_en": "a crisis in your affairs, and the breaking up of happy homes may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cowslip",
+              "original": "To see them in full bloom, denotes a crisis in your affairs. The breaking up of happy homes may follow this dream.",
+              "translation_ko": "활짝 핀 것을 보면 일에 고비가 온다. 단란하던 집안이 흩어질 수 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crab",
+      "term_ko": "게",
+      "term_en": "crab",
+      "aliases": [
+        "꽃게",
+        "대게",
+        "참게",
+        "게장",
+        "게들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "게들을 봄",
+          "interpretation_ko": "얽히고설킨 일이 많아 가장 밝은 판단을 짜내야 할 조짐",
+          "interpretation_en": "you will have many complicated affairs, for the solving of which you will be forced to exert the soundest judgment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crabs",
+              "original": "To dream of crabs, indicates that you will have many complicated affairs, for the solving of which you will be forced to exert the soundest judgment.",
+              "translation_ko": "게 꿈은, 얽히고설킨 일이 많아 가장 밝은 판단을 짜내야 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연인에게 게 꿈이 나타남",
+          "interpretation_ko": "길고 고된 사랑의 여정이 따를 조짐",
+          "interpretation_en": "a long and difficult courtship for lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crabs",
+              "original": "This dream portends to lovers a long and difficult courtship.",
+              "translation_ko": "이 꿈은 연인에게 길고 고된 사랑의 여정을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "게를 봄",
+          "interpretation_ko": "온갖 병이 사라질 조짐",
+          "interpretation_en": "a sign that all ailments will disperse",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "螃蟹主百病消散",
+              "translation_ko": "게는 온갖 병이 사라질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cradle",
+      "term_ko": "요람",
+      "term_en": "cradle",
+      "aliases": [
+        "요람을 흔들었다",
+        "요람을 흔드는",
+        "요람에 눕"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고운 아기가 누운 요람을 봄",
+          "interpretation_ko": "살림이 넉넉해지고 고운 아이들의 사랑을 받을 조짐",
+          "interpretation_en": "prosperity and the affections of beautiful children",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cradle",
+              "original": "To dream of a cradle, with a beautiful infant occupying it, portends prosperity and the affections of beautiful children.",
+              "translation_ko": "고운 아기가 누운 요람 꿈은, 넉넉한 살림과 고운 아이들의 사랑을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제 아기를 요람에서 흔들어 재움",
+          "interpretation_ko": "집안 누군가가 크게 앓을 조짐",
+          "interpretation_en": "the serious illness of one of the family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cradle",
+              "original": "To rock your own baby in a cradle, denotes the serious illness of one of the family.",
+              "translation_ko": "제 아기를 요람에서 흔들어 재우는 꿈은, 집안 누군가가 크게 앓음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 요람을 흔듦",
+          "interpretation_ko": "제 자리가 무너질 조짐이니 남의 말을 옮기는 것을 삼갈 것",
+          "interpretation_en": "portentous of her downfall, and she should beware of gossiping",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cradle",
+              "original": "For a young woman to dream of rocking a cradle is portentous of her downfall. She should beware of gossiping.",
+              "translation_ko": "젊은 여성이 요람을 흔드는 꿈은 제 자리가 무너질 조짐이다. 남의 말을 옮기는 것을 삼가야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crape",
+      "term_ko": "상포",
+      "term_en": "crape",
+      "aliases": [
+        "검은 상포",
+        "상포를 둘렀다"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "문에 상포가 걸린 것을 봄",
+          "interpretation_ko": "살붙이나 벗의 갑작스러운 죽음을 듣게 될 조짐",
+          "interpretation_en": "you will hear of the sudden death of some relative or friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crape",
+              "original": "To dream of seeing crape hanging from a door, denotes that you will hear of the sudden death of some relative or friend.",
+              "translation_ko": "문에 상포가 걸린 것을 보는 꿈은, 살붙이나 벗의 갑작스러운 죽음을 듣게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "상포를 두른 사람을 봄",
+          "interpretation_ko": "죽음이 아닌 다른 슬픔이 마음을 채울 조짐",
+          "interpretation_en": "sorrow, other than death, will possess you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crape",
+              "original": "To see a person dressed in crape, indicates that sorrow, other than death, will possess you. It is bad for business and trade.",
+              "translation_ko": "상포를 두른 사람을 보는 꿈은, 죽음이 아닌 다른 슬픔이 마음을 채움을 뜻한다. 장사와 거래에는 나쁘다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이에게 상포 꿈이 나타남",
+          "interpretation_ko": "연인 사이에 다툼과 헤어짐이 있을 조짐",
+          "interpretation_en": "lovers' disputes and separations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crape",
+              "original": "To the young, it implies lovers' disputes and separations.",
+              "translation_ko": "젊은이에게는 연인 사이의 다툼과 헤어짐을 뜻한다"
             }
           ]
         }
@@ -39910,6 +40282,384 @@
       ]
     },
     {
+      "id": "cotton-gin",
+      "term_ko": "조면기",
+      "term_en": "cotton gin",
+      "aliases": [
+        "씨아",
+        "조면 기계"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "조면기를 봄",
+          "interpretation_ko": "재물 쪽으로 한 걸음 나아가 흐뭇하고 만족스러울 조짐",
+          "interpretation_en": "you will make some advancement toward fortune which will be very pleasing and satisfactory",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Gin",
+              "original": "To dream of a cotton gin, foretells you will make some advancement toward fortune which will be very pleasing and satisfactory.",
+              "translation_ko": "조면기 꿈은, 재물 쪽으로 한 걸음 나아가 흐뭇하고 만족스러워짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "부서지거나 낡은 조면기를 봄",
+          "interpretation_ko": "불운과 근심이 이룬 것을 무너뜨릴 조짐",
+          "interpretation_en": "misfortune and trouble will overthrow success",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Gin",
+              "original": "To see a broken or dilapidated gin, signifies misfortune and trouble will overthrow success.",
+              "translation_ko": "부서지거나 낡은 조면기를 보면, 불운과 근심이 이룬 것을 무너뜨린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cough",
+      "term_ko": "기침",
+      "term_en": "cough",
+      "aliases": [
+        "기침을 했다",
+        "기침이 났다",
+        "콜록",
+        "기침하는",
+        "기침했다",
+        "기침하며"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기침이 그치지 않아 괴로움",
+          "interpretation_ko": "몸이 약해진 상태이나, 몸가짐을 살피면 나아질 조짐",
+          "interpretation_en": "a state of low health, but one from which you will recuperate if care is observed in your habits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cough",
+              "original": "To dream that you are aggravated by a constant cough indicates a state of low health; but one from which you will recuperate if care is observed in your habits.",
+              "translation_ko": "기침이 그치지 않아 괴로운 꿈은 몸이 약해진 상태를 뜻하나, 몸가짐을 살피면 회복한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 기침하는 소리를 들음",
+          "interpretation_ko": "언짢은 둘레에 놓이나 끝내는 벗어날 조짐",
+          "interpretation_en": "unpleasant surroundings from which you will ultimately emerge",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cough",
+              "original": "To dream of hearing others cough, indicates unpleasant surroundings from which you will ultimately emerge.",
+              "translation_ko": "남이 기침하는 소리를 듣는 꿈은, 언짢은 둘레에 놓이나 끝내 벗어남을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "countenance",
+      "term_ko": "얼굴 생김새",
+      "term_en": "countenance",
+      "aliases": [
+        "생김새",
+        "이목구비",
+        "얼굴 모습"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "곱고 순한 얼굴을 봄",
+          "interpretation_ko": "머지않아 즐거운 일이 제 몫으로 올 조짐",
+          "interpretation_en": "you may safely look for some pleasure to fall to your lot in the near future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Countenance",
+              "original": "To dream of a beautiful and ingenuous countenance, you may safely look for some pleasure to fall to your lot in the near future;",
+              "translation_ko": "곱고 순한 얼굴을 보는 꿈은, 머지않아 즐거운 일이 제 몫으로 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "밉고 찡그린 얼굴을 봄",
+          "interpretation_ko": "거래가 뜻대로 되지 않을 조짐",
+          "interpretation_en": "unfavorable transactions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Countenance",
+              "original": "but to behold an ugly and scowling visage, portends unfavorable transactions.",
+              "translation_ko": "밉고 찡그린 얼굴을 보면 거래가 뜻대로 되지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counter",
+      "term_ko": "계산대",
+      "term_en": "counter",
+      "aliases": [
+        "카운터",
+        "판매대",
+        "계산대들"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "계산대를 봄",
+          "interpretation_ko": "일에 마음을 붙여 게으름과 해로운 욕심이 스며들지 못할 조짐",
+          "interpretation_en": "active interest will debar idleness from infecting your life with unhealthful desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counter",
+              "original": "To dream of counters, foretells that active interest will debar idleness from infecting your life with unhealthful desires.",
+              "translation_ko": "계산대 꿈은, 일에 마음을 붙여 게으름과 해로운 욕심이 스며들지 못하게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "비어 있고 더러운 계산대를 봄",
+          "interpretation_ko": "불운한 거래로 제 몫을 다 잃을까 마음이 몹시 불안해질 조짐",
+          "interpretation_en": "unfortunate engagements which will bring great uneasiness of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counter",
+              "original": "To dream of empty and soiled counters, foretells unfortunate engagements which will bring great uneasiness of mind lest your interest will be wholly swept away.",
+              "translation_ko": "비어 있고 더러운 계산대 꿈은, 불운한 거래로 제 몫을 다 잃을까 마음이 몹시 불안해짐을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterpane",
+      "term_ko": "침대보",
+      "term_en": "counterpane",
+      "aliases": [
+        "이불보",
+        "홑이불",
+        "침대보를 덮었다"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "깨끗하고 흰 침대보를 봄",
+          "interpretation_ko": "여성에게 즐거운 일거리가 생길 조짐",
+          "interpretation_en": "pleasant occupations for women",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counterpane",
+              "original": "A counterpane is very good to dream of, if clean and white, denoting pleasant occupations for women;",
+              "translation_ko": "침대보가 깨끗하고 희면 아주 좋은 꿈이며, 여성에게 즐거운 일거리를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "더러워진 침대보를 봄",
+          "interpretation_ko": "성가신 일이 닥치고 병이 따르기 쉬운 조짐",
+          "interpretation_en": "harassing situations, and sickness usually follows this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counterpane",
+              "original": "but if it be soiled you may expect harassing situations. Sickness usually follows this dream.",
+              "translation_ko": "더러워져 있으면 성가신 일을 겪는다. 이 꿈 뒤에는 흔히 병이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "country",
+      "term_ko": "시골",
+      "term_en": "country",
+      "aliases": [
+        "시골길",
+        "전원",
+        "농촌"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "곡식이 넘치고 맑은 시내가 흐르는 아름다운 시골에 있음",
+          "interpretation_ko": "더없이 좋은 때가 다가오고 재물이 쌓일 조짐",
+          "interpretation_en": "the very acme of good times is at hand, and wealth will pile in upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Country",
+              "original": "To dream of being in a beautiful and fertile country, where abound rich fields of grain and running streams of pure water, denotes the very acme of good times is at hand. Wealth will pile in upon you, and you will be able to reign in state in any country.",
+              "translation_ko": "곡식이 넘치고 맑은 시내가 흐르는 아름다운 시골에 있는 꿈은, 더없이 좋은 때가 다가옴을 뜻한다. 재물이 쌓이고 어디서든 떳떳하게 지낸다"
+            }
+          ]
+        },
+        {
+          "context": "메마르고 헐벗은 시골을 봄",
+          "interpretation_ko": "어수선한 때가 오고 굶주림과 병이 돌 조짐",
+          "interpretation_en": "you will see and hear of troublous times, and famine and sickness will be in the land",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Country",
+              "original": "If the country be dry and bare, you will see and hear of troublous times. Famine and sickness will be in the land.",
+              "translation_ko": "그 시골이 메마르고 헐벗었으면 어수선한 때를 보고 듣는다. 굶주림과 병이 그 땅에 돈다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courtship",
+      "term_ko": "구애",
+      "term_en": "courtship",
+      "aliases": [
+        "구애를 받았다",
+        "구애했다",
+        "구애하는"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 구애받는 꿈을 꿈",
+          "interpretation_ko": "곧 청혼하리라 여기다가 번번이 어긋나고, 헛된 바람과 덧없는 즐거움 뒤에 실망이 따를 조짐",
+          "interpretation_en": "she will often think that now he will propose, but often she will be disappointed",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Courtship",
+              "original": "Bad, bad, will be the fate of the woman who dreams of being courted. She will often think that now he will propose, but often she will be disappointed.",
+              "translation_ko": "구애받는 꿈을 꾸는 여성의 앞날은 나쁘고 또 나쁘다. 곧 청혼하리라 여기다가 번번이 어긋난다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 구애하는 꿈을 꿈",
+          "interpretation_ko": "짝을 맞을 만한 사람이 못 된다는 뜻",
+          "interpretation_en": "he is not worthy of a companion",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Courtship",
+              "original": "For a man to dream of courting, implies that he is not worthy of a companion.",
+              "translation_ko": "남성이 구애하는 꿈은, 짝을 맞을 만한 사람이 못 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cousin",
+      "term_ko": "사촌",
+      "term_en": "cousin",
+      "aliases": [
+        "사촌들",
+        "사촌 형",
+        "사촌 동생"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사촌 꿈을 꿈",
+          "interpretation_ko": "바라던 것이 어그러지고 시달림이 따를 조짐",
+          "interpretation_en": "disappointments and afflictions, and saddened lives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cousin",
+              "original": "Dreaming of one's cousin, denotes disappointments and afflictions. Saddened lives are predicted by this dream.",
+              "translation_ko": "사촌 꿈은 어그러진 바람과 시달림을 뜻한다. 이 꿈은 서글픈 나날을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "사촌과 다정하게 편지를 주고받음",
+          "interpretation_ko": "집안 사이가 돌이킬 수 없이 갈라질 조짐",
+          "interpretation_en": "a fatal rupture between families",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cousin",
+              "original": "To dream of an affectionate correspondence with one's cousin, denotes a fatal rupture between families.",
+              "translation_ko": "사촌과 다정하게 편지를 주고받는 꿈은, 집안 사이가 돌이킬 수 없이 갈라짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "deer",
       "term_ko": "사슴",
       "term_en": "deer",
@@ -46761,34 +47511,162 @@
       ]
     },
     {
-      "id": "crab",
-      "term_ko": "게",
-      "term_en": "crab",
+      "id": "couch",
+      "term_ko": "소파",
+      "term_en": "couch",
       "aliases": [
-        "꽃게",
-        "대게",
-        "참게",
-        "게장"
+        "긴 소파",
+        "소파에 기대어",
+        "소파에 누웠다"
       ],
-      "category": "animal",
-      "polarity": "positive",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "게를 봄",
-          "interpretation_ko": "온갖 병이 사라질 조짐",
-          "interpretation_en": "a sign that all ailments will disperse",
-          "polarity": "positive",
+          "context": "긴 소파에 기대어 누움",
+          "interpretation_ko": "헛된 바람을 품게 될 조짐",
+          "interpretation_en": "false hopes will be entertained",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "螃蟹主百病消散",
-              "translation_ko": "게는 온갖 병이 사라질 조짐이다"
+              "work": "miller",
+              "locator": "Couch",
+              "original": "To dream of reclining on a couch, indicates that false hopes will be entertained.",
+              "translation_ko": "소파에 기대어 눕는 꿈은, 헛된 바람을 품게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counselor",
+      "term_ko": "조언자",
+      "term_en": "counselor",
+      "aliases": [
+        "자문",
+        "조언자를 만났다"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "조언자를 봄",
+          "interpretation_ko": "제게도 재주가 있어 남의 판단보다 제 판단을 앞세우게 될 조짐",
+          "interpretation_en": "you are likely to be possessed of some ability yourself, and you will usually prefer your own judgment to that of others",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counselor",
+              "original": "To dream of a counselor, you are likely to be possessed of some ability yourself, and you will usually prefer your own judgment to that of others.",
+              "translation_ko": "조언자 꿈은, 제게도 재주가 있어 남의 판단보다 제 판단을 앞세우게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterfeit-money",
+      "term_ko": "위조지폐",
+      "term_en": "counterfeit money",
+      "aliases": [
+        "위폐",
+        "위조지폐를 받았다"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "위조지폐 꿈을 꿈",
+          "interpretation_ko": "막돼먹고 쓸모없는 이와 얽혀 애를 먹을 조짐",
+          "interpretation_en": "you will have trouble with some unruly and worthless person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Counterfeit Money",
+              "original": "To dream of counterfeit money, denotes you will have trouble with some unruly and worthless person. This dream always omens evil, whether you receive it or pass it.",
+              "translation_ko": "위조지폐 꿈은 막돼먹고 쓸모없는 이와 얽혀 애를 먹게 됨을 뜻한다. 받든 건네든 이 꿈은 늘 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coxcomb",
+      "term_ko": "허세꾼",
+      "term_en": "coxcomb",
+      "aliases": [
+        "멋쟁이",
+        "멋부리는 사람",
+        "뽐내는 사람"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "허세꾼을 봄",
+          "interpretation_ko": "마음가짐이 낮아진 상태라는 뜻",
+          "interpretation_en": "a low state of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coxcomb",
+              "original": "To dream of a coxcomb, denotes a low state of mind.",
+              "translation_ko": "허세꾼 꿈은 마음가짐이 낮아진 상태를 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crawfish",
+      "term_ko": "가재",
+      "term_en": "crawfish",
+      "aliases": [
+        "가재들",
+        "민물가재"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가재를 봄",
+          "interpretation_ko": "젊은 사람이라면 사랑하는 일에 반드시 속임수가 끼어들 조짐",
+          "interpretation_en": "deceit is sure to assail you in your affairs of the heart, if you are young",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crawfish",
+              "original": "Deceit is sure to assail you in your affairs of the heart, if you are young, after dreaming of this backward-going thing.",
+              "translation_ko": "뒷걸음질하는 이 것을 꿈꾼 뒤에는, 젊은 사람이라면 사랑하는 일에 반드시 속임수가 끼어든다"
             }
           ]
         }

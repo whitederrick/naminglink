@@ -687,14 +687,23 @@
       "꽃게",
       "대게",
       "참게",
-      "게장"
+      "게장",
+      "게들"
     ],
     "aliases_en": [
       "crabs",
       "crabmeat"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "게를 봄": "마리 기어 옆으로",
+      "게들을 봄": "여러 게들 얽히",
+      "연인에게 게 꿈이 나타남": "연인 애인 사랑"
+    },
+    "contexts_en": {
+      "게를 봄": "shell claw crawling",
+      "게들을 봄": "complicated affairs judgment",
+      "연인에게 게 꿈이 나타남": "lovers difficult courtship"
+    }
   },
   {
     "id": "cypress-tree",

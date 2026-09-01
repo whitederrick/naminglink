@@ -310,12 +310,6 @@ function chooseMeaning(
    *
    * 임신을 말한 사람에게는 그쪽이 먼저다. 그런 신호가 없으면 이 규칙은 아무 일도 하지 않는다.
    */
-  const saidPregnancy = CONCEPTION_WORDS.some((word) => haystack.includes(word));
-  if (saidPregnancy) {
-    const conceptionMeaning = meanings.find((meaning) => isConceptionMeaning(meaning));
-    if (conceptionMeaning) return { meaning: conceptionMeaning, contextMatched: true };
-  }
-
   const korean = isKoreanText(haystack);
 
   /**
@@ -342,15 +336,40 @@ function chooseMeaning(
    */
   const ownTerms = ownTermsOf(symbol, korean);
 
-  let best = meanings[0];
-  let bestScore = 0;
-  for (const meaning of meanings) {
-    const score = contextScore(haystack, contextFor(symbol, meaning, korean), ownTerms);
-    if (score > bestScore) {
-      best = meaning;
-      bestScore = score;
+  /** 낱말 겹침으로 하나 고른다. 아무 것도 안 걸리면 첫째(대표)로 떨어진다. */
+  const pickByScore = (from: DreamMeaning[]) => {
+    let picked = from[0];
+    let score = 0;
+    for (const meaning of from) {
+      const s = contextScore(haystack, contextFor(symbol, meaning, korean), ownTerms);
+      if (s > score) {
+        picked = meaning;
+        score = s;
+      }
+    }
+    return { meaning: picked, score };
+  };
+
+  /**
+   * **태몽 맥락이면 태몽 의미들 「안에서」 고른다.**
+   *
+   * 태몽 신호가 있으면 태몽 쪽을 먼저 본다는 규칙은 그대로다(위 주석). 그런데 첫 판은
+   * `meanings.find(...)`로 **맨 앞의 태몽 의미를 무조건** 돌려주었다 — 그래서 **태몽
+   * 의미가 둘 이상인 상징 다섯**(뱀·해·달·분·출산)에서 **뒤엣것이 영영 안 뽑혔다.**
+   * 「임신했는데 뱀이 몸을 휘감았다」가 「뱀이 품속으로 들어옴」으로 갔다(2026-09-02에
+   * 실측으로 확인, `scripts/verify-conception-pick.ts`가 그 다섯을 지킨다).
+   *
+   * 태몽 의미가 하나뿐인 상징에서는 예전과 똑같이 돈다 — 고를 것이 하나다.
+   */
+  const saidPregnancy = CONCEPTION_WORDS.some((word) => haystack.includes(word));
+  if (saidPregnancy) {
+    const conception = meanings.filter((meaning) => isConceptionMeaning(meaning));
+    if (conception.length > 0) {
+      return { meaning: pickByScore(conception).meaning, contextMatched: true };
     }
   }
+
+  const { meaning: best, score: bestScore } = pickByScore(meanings);
   return { meaning: best, contextMatched: bestScore > 0 };
 }
 

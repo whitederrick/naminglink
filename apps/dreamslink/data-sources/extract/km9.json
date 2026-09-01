@@ -286,7 +286,9 @@
   {
     "id": "crane",
     "aliases": [
-      "두루미"
+      "두루미",
+      "학 떼",
+      "학들"
     ],
     "aliases_en": [
       "cranes",
@@ -297,14 +299,20 @@
       "학이 욺": "울었 우는 울음 우짖",
       "학이 품속으로 들어옴": "품속 품에 안겼 들어왔",
       "학이 수레를 끎": "수레 마차 끌었 끄는",
-      "학을 놓아 줌": "놓아 풀어 날려보 자유"
+      "학을 놓아 줌": "놓아 풀어 날려보 자유",
+      "학 떼가 북쪽으로 날아가는 것을 봄": "북쪽 북으로 북녘",
+      "학 떼가 남쪽으로 날아가는 것을 봄": "남쪽 남으로 남녘",
+      "학이 땅으로 내려앉는 것을 봄": "내려앉 땅으로 착지"
     },
     "contexts_en": {
       "학이 하늘로 올라감": "sky rose ascending soaring upward",
       "학이 욺": "cried crying call calling",
       "학이 품속으로 들어옴": "arms bosom embraced chest",
       "학이 수레를 끎": "cart pulling pulled wagon",
-      "학을 놓아 줌": "released freed let loose"
+      "학을 놓아 줌": "released freed let loose",
+      "학 떼가 북쪽으로 날아가는 것을 봄": "northward gloomy prospects",
+      "학 떼가 남쪽으로 날아가는 것을 봄": "southward faithful absent",
+      "학이 땅으로 내려앉는 것을 봄": "ground unusual moment"
     }
   },
   {

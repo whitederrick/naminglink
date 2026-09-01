@@ -1,0 +1,327 @@
+[
+  {
+    "id": "cotton-gin",
+    "aliases": [
+      "씨아",
+      "조면 기계"
+    ],
+    "aliases_en": [
+      "gin",
+      "cotton gins"
+    ],
+    "contexts": {
+      "조면기를 봄": "돌아가 기계 새것",
+      "부서지거나 낡은 조면기를 봄": "부서 낡은 망가"
+    },
+    "contexts_en": {
+      "조면기를 봄": "advancement pleasing satisfactory",
+      "부서지거나 낡은 조면기를 봄": "broken dilapidated overthrow"
+    }
+  },
+  {
+    "id": "couch",
+    "aliases": [
+      "긴 소파",
+      "소파에 기대어",
+      "소파에 누웠다"
+    ],
+    "aliases_en": [
+      "a couch",
+      "couches",
+      "settee"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cough",
+    "aliases": [
+      "기침을 했다",
+      "기침이 났다",
+      "콜록",
+      "기침하는",
+      "기침했다",
+      "기침하며"
+    ],
+    "aliases_en": [
+      "coughing",
+      "coughed"
+    ],
+    "contexts": {
+      "기침이 그치지 않아 괴로움": "그치지 계속 자꾸",
+      "남이 기침하는 소리를 들음": "남이 소리를 들었"
+    },
+    "contexts_en": {
+      "기침이 그치지 않아 괴로움": "constant aggravated recuperate",
+      "남이 기침하는 소리를 들음": "others hearing unpleasant"
+    }
+  },
+  {
+    "id": "counter",
+    "aliases": [
+      "카운터",
+      "판매대",
+      "계산대들"
+    ],
+    "aliases_en": [
+      "counters",
+      "shop counter"
+    ],
+    "contexts": {
+      "계산대를 봄": "가게 상점 놓인",
+      "비어 있고 더러운 계산대를 봄": "비어 더러 지저분"
+    },
+    "contexts_en": {
+      "계산대를 봄": "active interest idleness",
+      "비어 있고 더러운 계산대를 봄": "empty soiled unfortunate"
+    }
+  },
+  {
+    "id": "counterfeit-money",
+    "aliases": [
+      "위폐",
+      "위조지폐를 받았다"
+    ],
+    "aliases_en": [
+      "fake money",
+      "forged money"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "counselor",
+    "aliases": [
+      "자문",
+      "조언자를 만났다"
+    ],
+    "aliases_en": [
+      "a counselor",
+      "counsellor",
+      "legal adviser"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "countenance",
+    "aliases": [
+      "생김새",
+      "이목구비",
+      "얼굴 모습"
+    ],
+    "aliases_en": [
+      "visage",
+      "a countenance"
+    ],
+    "contexts": {
+      "곱고 순한 얼굴을 봄": "곱고 순한 어여쁜",
+      "밉고 찡그린 얼굴을 봄": "밉고 찡그 험상"
+    },
+    "contexts_en": {
+      "곱고 순한 얼굴을 봄": "beautiful ingenuous pleasure",
+      "밉고 찡그린 얼굴을 봄": "ugly scowling unfavorable"
+    }
+  },
+  {
+    "id": "counterpane",
+    "aliases": [
+      "이불보",
+      "홑이불",
+      "침대보를 덮었다"
+    ],
+    "aliases_en": [
+      "bedspread",
+      "coverlet"
+    ],
+    "contexts": {
+      "깨끗하고 흰 침대보를 봄": "깨끗 하얀 새것",
+      "더러워진 침대보를 봄": "더러 얼룩 지저분"
+    },
+    "contexts_en": {
+      "깨끗하고 흰 침대보를 봄": "clean white pleasant",
+      "더러워진 침대보를 봄": "soiled harassing sickness"
+    }
+  },
+  {
+    "id": "counting",
+    "aliases": [
+      "세었다",
+      "세는",
+      "헤아렸다",
+      "세어 보았다",
+      "세어 냈다",
+      "세었",
+      "세어",
+      "세고"
+    ],
+    "aliases_en": [
+      "counted",
+      "count"
+    ],
+    "contexts": {
+      "제 아이들을 세는데 아이들이 밝고 고움": "아이들 자식 밝고",
+      "남에게 줄 돈을 세어 냄": "남에게 남한테 건네",
+      "돈을 셈": "돈을 지폐 동전"
+    },
+    "contexts_en": {
+      "제 아이들을 세는데 아이들이 밝고 고움": "children merry controlling",
+      "남에게 줄 돈을 세어 냄": "another person loss",
+      "돈을 셈": "money lucky debts"
+    }
+  },
+  {
+    "id": "country",
+    "aliases": [
+      "시골길",
+      "전원",
+      "농촌"
+    ],
+    "aliases_en": [
+      "countryside",
+      "the country"
+    ],
+    "contexts": {
+      "곡식이 넘치고 맑은 시내가 흐르는 아름다운 시골에 있음": "아름다운 기름진 곡식",
+      "메마르고 헐벗은 시골을 봄": "메마르 헐벗 황량"
+    },
+    "contexts_en": {
+      "곡식이 넘치고 맑은 시내가 흐르는 아름다운 시골에 있음": "fertile abundant acme",
+      "메마르고 헐벗은 시골을 봄": "dry bare troublous"
+    }
+  },
+  {
+    "id": "courtship",
+    "aliases": [
+      "구애를 받았다",
+      "구애했다",
+      "구애하는"
+    ],
+    "aliases_en": [
+      "courted",
+      "courting",
+      "being courted"
+    ],
+    "contexts": {
+      "여성이 구애받는 꿈을 꿈": "여자 여성 처녀",
+      "남성이 구애하는 꿈을 꿈": "남자 남성 사내"
+    },
+    "contexts_en": {
+      "여성이 구애받는 꿈을 꿈": "proposal disappointed fate",
+      "남성이 구애하는 꿈을 꿈": "worthy companion suitor"
+    }
+  },
+  {
+    "id": "cousin",
+    "aliases": [
+      "사촌들",
+      "사촌 형",
+      "사촌 동생"
+    ],
+    "aliases_en": [
+      "cousins",
+      "my cousin"
+    ],
+    "contexts": {
+      "사촌 꿈을 꿈": "만났 보았 나타났",
+      "사촌과 다정하게 편지를 주고받음": "편지 다정 주고받"
+    },
+    "contexts_en": {
+      "사촌 꿈을 꿈": "disappointments afflictions saddened",
+      "사촌과 다정하게 편지를 주고받음": "affectionate correspondence rupture"
+    }
+  },
+  {
+    "id": "cowslip",
+    "aliases": [
+      "앵초꽃",
+      "노란 앵초",
+      "앵초들"
+    ],
+    "aliases_en": [
+      "cowslips",
+      "primrose"
+    ],
+    "contexts": {
+      "앵초를 꺾음": "꺾었 꺾어 땄다",
+      "앵초가 자라는 것을 봄": "자라는 자라고 돋아",
+      "앵초가 활짝 핀 것을 봄": "활짝 만발 흐드러"
+    },
+    "contexts_en": {
+      "앵초를 꺾음": "gathering unhappy friendships",
+      "앵초가 자라는 것을 봄": "growing limited competency",
+      "앵초가 활짝 핀 것을 봄": "bloom crisis breaking"
+    }
+  },
+  {
+    "id": "coxcomb",
+    "aliases": [
+      "멋쟁이",
+      "멋부리는 사람",
+      "뽐내는 사람"
+    ],
+    "aliases_en": [
+      "a coxcomb",
+      "fop",
+      "dandy"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cradle",
+    "aliases": [
+      "요람을 흔들었다",
+      "요람을 흔드는",
+      "요람에 눕"
+    ],
+    "aliases_en": [
+      "cradles",
+      "a cradle"
+    ],
+    "contexts": {
+      "고운 아기가 누운 요람을 봄": "아기가 누운 예쁜",
+      "제 아기를 요람에서 흔들어 재움": "흔들어 재웠 어르",
+      "젊은 여성이 요람을 흔듦": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "고운 아기가 누운 요람을 봄": "infant occupying prosperity",
+      "제 아기를 요람에서 흔들어 재움": "rock illness family",
+      "젊은 여성이 요람을 흔듦": "young woman downfall"
+    }
+  },
+  {
+    "id": "crape",
+    "aliases": [
+      "검은 상포",
+      "상포를 둘렀다"
+    ],
+    "aliases_en": [
+      "crepe",
+      "black crape"
+    ],
+    "contexts": {
+      "문에 상포가 걸린 것을 봄": "문에 걸린 대문",
+      "상포를 두른 사람을 봄": "두른 입은 차림",
+      "젊은이에게 상포 꿈이 나타남": "젊은 연인 애인"
+    },
+    "contexts_en": {
+      "문에 상포가 걸린 것을 봄": "hanging door sudden",
+      "상포를 두른 사람을 봄": "dressed sorrow possess",
+      "젊은이에게 상포 꿈이 나타남": "young lovers disputes"
+    }
+  },
+  {
+    "id": "crawfish",
+    "aliases": [
+      "가재들",
+      "민물가재"
+    ],
+    "aliases_en": [
+      "crayfish",
+      "a crawfish"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]
