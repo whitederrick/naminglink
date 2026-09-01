@@ -907,15 +907,29 @@
   {
     "id": "plate",
     "aliases": [
-      "사기접시"
+      "사기접시",
+      "접시를 다루",
+      "접시가 깨"
     ],
     "aliases_en": [
       "a plate",
       "plates",
       "a porcelain dish"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "사기 접시를 봄": "사기 백자 도자",
+      "접시를 다룸": "다루 들었 옮겼",
+      "접시가 깨짐": "깨졌 깨져 부서",
+      "선반에 반들반들한 접시가 놓임": "선반 반들 늘어선",
+      "더러운 접시를 봄": "더러 지저분 얼룩"
+    },
+    "contexts_en": {
+      "사기 접시를 봄": "earthen simple seeing",
+      "접시를 다룸": "handling good fortune",
+      "접시가 깨짐": "broken short-lived cause",
+      "선반에 반들반들한 접시가 놓임": "shelves polished marriage",
+      "더러운 접시를 봄": "soiled dissatisfaction unpromising"
+    }
   },
   {
     "id": "roof",

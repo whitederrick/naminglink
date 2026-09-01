@@ -4677,5 +4677,76 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "diamonds": [
     "a diamond",
     "diamond ring"
+  ],
+  "dice": [
+    "a die",
+    "throwing dice"
+  ],
+  "dictionary": [
+    "a dictionary",
+    "dictionaries"
+  ],
+  "difficulty": [
+    "difficulties",
+    "in difficulty"
+  ],
+  "digging": [
+    "digging",
+    "dug a hole"
+  ],
+  "dinner": [
+    "dinner",
+    "supper"
+  ],
+  "disaster": [
+    "a disaster",
+    "disasters"
+  ],
+  "disease": [
+    "diseased",
+    "a disease"
+  ],
+  "disgrace": [
+    "in disgrace",
+    "disgraceful"
+  ],
+  "disinherited": [
+    "disinherited",
+    "losing his inheritance"
+  ],
+  "dispute": [
+    "disputes",
+    "disputing"
+  ],
+  "distaff": [
+    "a distaff"
+  ],
+  "distance": [
+    "at a distance",
+    "far away"
+  ],
+  "ditch": [
+    "a ditch",
+    "ditches"
+  ],
+  "diving": [
+    "diving",
+    "dived"
+  ],
+  "dividend": [
+    "dividends",
+    "a dividend"
+  ],
+  "divining-rod": [
+    "divining rods",
+    "a divining rod"
+  ],
+  "divorce": [
+    "divorced",
+    "a divorce"
+  ],
+  "docks": [
+    "the docks",
+    "a dock"
   ]
 };

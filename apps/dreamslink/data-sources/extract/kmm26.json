@@ -1,0 +1,387 @@
+[
+  {
+    "id": "dice",
+    "aliases": [
+      "주사위를 던졌다",
+      "노름 주사위"
+    ],
+    "aliases_en": [
+      "a die",
+      "throwing dice"
+    ],
+    "contexts": {
+      "주사위를 봄": "놓인 굴러 나왔",
+      "연인이 주사위를 던지는 것을 봄": "연인 애인 던지는"
+    },
+    "contexts_en": {
+      "주사위를 봄": "speculations misery contagious",
+      "연인이 주사위를 던지는 것을 봄": "girl lover unworthiness"
+    }
+  },
+  {
+    "id": "dictionary",
+    "aliases": [
+      "사전을 찾",
+      "낱말책"
+    ],
+    "aliases_en": [
+      "a dictionary",
+      "dictionaries"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "difficulty",
+    "aliases": [
+      "어려움에 놓",
+      "곤경",
+      "난처"
+    ],
+    "aliases_en": [
+      "difficulties",
+      "in difficulty"
+    ],
+    "contexts": {
+      "어려움에 놓임": "처했 부딪 시달",
+      "어려움에서 빠져나옴": "빠져나 헤어나 벗어났",
+      "여성이 어려움에 놓임": "여자 여성 부인",
+      "연인에게 어려움 꿈이 나타남": "연인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "어려움에 놓임": "temporary embarrassment classes",
+      "어려움에서 빠져나옴": "extricate prosperity yourself",
+      "여성이 어려움에 놓임": "woman threatened enemies",
+      "연인에게 어려움 꿈이 나타남": "lovers contrariety courtship"
+    }
+  },
+  {
+    "id": "digging",
+    "aliases": [
+      "땅을 팠다",
+      "땅을 파는",
+      "구덩이를 팠다",
+      "땅을 팠",
+      "땅을 파",
+      "구덩이를 팠",
+      "구덩이를 파"
+    ],
+    "aliases_en": [
+      "digging",
+      "dug a hole"
+    ],
+    "contexts": {
+      "땅을 팜": "오르막 고되 애써",
+      "구덩이를 파다 반짝이는 것을 찾음": "반짝 빛나는 찾았",
+      "파 보니 텅 빈 안개뿐임": "안개 비어 휑하니",
+      "판 구덩이에 물이 참": "물이 차올 고였"
+    },
+    "contexts_en": {
+      "땅을 팜": "never want uphill",
+      "구덩이를 파다 반짝이는 것을 찾음": "glittering substance favorable",
+      "파 보니 텅 빈 안개뿐임": "hollow mist forebodings",
+      "판 구덩이에 물이 참": "filling strenuous bend"
+    }
+  },
+  {
+    "id": "dinner",
+    "aliases": [
+      "저녁 식사",
+      "만찬",
+      "저녁을 먹었다"
+    ],
+    "aliases_en": [
+      "dinner",
+      "supper"
+    ],
+    "contexts": {
+      "홀로 저녁밥을 먹음": "홀로 혼자 외따로",
+      "젊은 여성이 연인과 저녁밥을 먹음": "연인 애인 여자",
+      "여럿이 초대받은 저녁 자리에 끼임": "초대 손님 여럿"
+    },
+    "contexts_en": {
+      "홀로 저녁밥을 먹음": "alone necessaries seriously",
+      "젊은 여성이 연인과 저녁밥을 먹음": "lovers quarrel rupture",
+      "여럿이 초대받은 저녁 자리에 끼임": "invited guests hospitalities"
+    }
+  },
+  {
+    "id": "disaster",
+    "aliases": [
+      "재앙",
+      "참사",
+      "재난을 당했다"
+    ],
+    "aliases_en": [
+      "a disaster",
+      "disasters"
+    ],
+    "contexts": {
+      "탈것을 타고 가다 재난을 당함": "타고 가다 탈것 차를",
+      "젊은 여성이 재난에 휘말림": "여자 여성 처녀",
+      "바다에서 재난이 남": "바다에서 뱃사람 배가",
+      "재난에서 구조됨": "구조 구해 살아났",
+      "제가 타지 않은 철도 사고를 봄": "철도 기차 열차"
+    },
+    "contexts_en": {
+      "탈것을 타고 가다 재난을 당함": "conveyance property malarious",
+      "젊은 여성이 재난에 휘말림": "young participant desertion",
+      "바다에서 재난이 남": "sailors gains sea",
+      "재난에서 구조됨": "rescued trying unscathed",
+      "제가 타지 않은 철도 사고를 봄": "railway wreck relative"
+    }
+  },
+  {
+    "id": "disease",
+    "aliases": [
+      "병이 들었다",
+      "앓게 되었다",
+      "병들어"
+    ],
+    "aliases_en": [
+      "diseased",
+      "a disease"
+    ],
+    "contexts": {
+      "제가 병듦": "내가 스스로 몸이",
+      "젊은 여성이 고칠 수 없는 병에 듦": "고칠 낫지 여자"
+    },
+    "contexts_en": {
+      "제가 병듦": "slight attack relative",
+      "젊은 여성이 고칠 수 없는 병에 듦": "incurably single blessedness"
+    }
+  },
+  {
+    "id": "disgrace",
+    "aliases": [
+      "낯을 잃",
+      "부끄러운 행실",
+      "체면을 잃",
+      "낯을 잃었",
+      "체면을 잃었",
+      "부끄러운 짓",
+      "낯을 잃었다",
+      "체면을 잃었다"
+    ],
+    "aliases_en": [
+      "in disgrace",
+      "disgraceful"
+    ],
+    "contexts": {
+      "아이나 벗의 부끄러운 행실로 애를 태움": "아이 벗의 애를",
+      "제가 낯을 잃음": "내가 스스로 제가"
+    },
+    "contexts_en": {
+      "아이나 벗의 부끄러운 행실로 애를 태움": "worried children unsatisfying",
+      "제가 낯을 잃음": "yourself morality uprightness"
+    }
+  },
+  {
+    "id": "disinherited",
+    "aliases": [
+      "상속에서 제외",
+      "물려받을 것을 잃",
+      "내리물림을 잃",
+      "상속에서 밀려났",
+      "물려받을 것을 잃었",
+      "상속에서 제외되",
+      "상속에서 밀려났다",
+      "물려받을 것을 잃었다",
+      "상속에서 밀려나"
+    ],
+    "aliases_en": [
+      "disinherited",
+      "losing his inheritance"
+    ],
+    "contexts": {
+      "상속에서 밀려남": "밀려났 제외됐 끊겼",
+      "젊은 남성이 거스름 탓에 물려받을 것을 잃음": "남자 젊은이 거스",
+      "여성에게 상속에서 밀려나는 꿈이 나타남": "여자 여성 부인"
+    },
+    "contexts_en": {
+      "상속에서 밀려남": "warns business standing",
+      "젊은 남성이 거스름 탓에 물려받을 것을 잃음": "disobedience parents suitable",
+      "여성에게 상속에서 밀려나는 꿈이 나타남": "woman careful conduct"
+    }
+  },
+  {
+    "id": "dispute",
+    "aliases": [
+      "언쟁을 벌였다",
+      "따졌다",
+      "입씨름"
+    ],
+    "aliases_en": [
+      "disputes",
+      "disputing"
+    ],
+    "contexts": {
+      "하찮은 일로 언쟁함": "하찮 사소 별것",
+      "배운 이들과 언쟁함": "배운 학자 똑똑한"
+    },
+    "contexts_en": {
+      "하찮은 일로 언쟁함": "trifles unfairness judging",
+      "배운 이들과 언쟁함": "learned latent sluggish"
+    }
+  },
+  {
+    "id": "distaff",
+    "aliases": [
+      "실을 감는 막대",
+      "물레 가락"
+    ],
+    "aliases_en": [
+      "a distaff"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "distance",
+    "aliases": [
+      "멀리 떨어져",
+      "먼 데",
+      "아득히",
+      "멀리 있는",
+      "멀리서",
+      "먼 곳"
+    ],
+    "aliases_en": [
+      "at a distance",
+      "far away"
+    ],
+    "contexts": {
+      "사는 곳에서 멀리 떨어져 있음": "사는 집에서 고향",
+      "멀리 있는 벗을 봄": "벗을 친구 동무",
+      "멀리서 소를 몰아 밭을 가는 사람들을 봄": "소를 밭을 쟁기",
+      "남성이 멀리서 낯선 여성이 손짓하는 것을 봄": "낯선 여자 손짓"
+    },
+    "contexts_en": {
+      "사는 곳에서 멀리 떨어져 있음": "residence journey strangers",
+      "멀리 있는 벗을 봄": "friends slight disappointments",
+      "멀리서 소를 몰아 밭을 가는 사람들을 봄": "plowing oxen broad",
+      "남성이 멀리서 낯선 여성이 손짓하는 것을 봄": "twilight kisses acquaintance"
+    }
+  },
+  {
+    "id": "ditch",
+    "aliases": [
+      "도랑에 빠졌다",
+      "개천 도랑"
+    ],
+    "aliases_en": [
+      "a ditch",
+      "ditches"
+    ],
+    "contexts": {
+      "도랑에 빠짐": "빠졌 빠져 굴러",
+      "도랑을 뛰어넘음": "뛰어넘 건너뛰 넘었"
+    },
+    "contexts_en": {
+      "도랑에 빠짐": "falling degradation personal",
+      "도랑을 뛰어넘음": "jump suspicion wrong-doing"
+    }
+  },
+  {
+    "id": "diving",
+    "aliases": [
+      "물에 뛰어들었다",
+      "자맥질",
+      "잠수했다",
+      "잠수하는",
+      "잠수해",
+      "잠수를"
+    ],
+    "aliases_en": [
+      "diving",
+      "dived"
+    ],
+    "contexts": {
+      "맑은 물에 잠수함": "맑은 깨끗한 투명",
+      "흐린 물에 잠수함": "흐린 흙탕 탁했",
+      "남이 잠수하는 것을 봄": "남이 남들 다른 사람이",
+      "연인에게 잠수 꿈이 나타남": "연인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "맑은 물에 잠수함": "clear termination embarrassment",
+      "흐린 물에 잠수함": "muddy anxiety turn",
+      "남이 잠수하는 것을 봄": "others pleasant companions",
+      "연인에게 잠수 꿈이 나타남": "lovers consummation passionate"
+    }
+  },
+  {
+    "id": "dividend",
+    "aliases": [
+      "배당",
+      "이익금"
+    ],
+    "aliases_en": [
+      "dividends",
+      "a dividend"
+    ],
+    "contexts": {
+      "배당금을 받음": "받았 들어왔 나왔",
+      "바라던 배당금을 못 받음": "못했 놓쳤 실패"
+    },
+    "contexts_en": {
+      "배당금을 받음": "augments successful harvests",
+      "바라던 배당금을 못 받음": "fail securing management"
+    }
+  },
+  {
+    "id": "divining-rod",
+    "aliases": [
+      "점치는 막대",
+      "수맥 막대"
+    ],
+    "aliases_en": [
+      "divining rods",
+      "a divining rod"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "divorce",
+    "aliases": [
+      "이혼했다",
+      "갈라섰다",
+      "헤어졌다",
+      "이혼하는",
+      "이혼을"
+    ],
+    "aliases_en": [
+      "divorced",
+      "a divorce"
+    ],
+    "contexts": {
+      "제가 이혼함": "내가 스스로 제가",
+      "여성에게 이혼 꿈이 나타남": "여자 여성 부인"
+    },
+    "contexts_en": {
+      "제가 이혼함": "satisfied companion congenial",
+      "여성에게 이혼 꿈이 나타남": "women single infidelity"
+    }
+  },
+  {
+    "id": "docks",
+    "aliases": [
+      "선착장",
+      "부두에 있"
+    ],
+    "aliases_en": [
+      "the docks",
+      "a dock"
+    ],
+    "contexts": {
+      "부두에 있음": "있었 서성 나갔",
+      "부두를 홀로 헤매는데 어둠이 덮침": "홀로 헤매 어둠",
+      "부두에 해가 비침": "햇빛 볕이 화창"
+    },
+    "contexts_en": {
+      "부두에 있음": "unpropitious journey accidents",
+      "부두를 홀로 헤매는데 어둠이 덮침": "wandering darkness deadly",
+      "부두에 해가 비침": "sun shining escape"
+    }
+  }
+]

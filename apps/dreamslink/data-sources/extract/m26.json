@@ -1,0 +1,812 @@
+[
+  {
+    "term_ko": "주사위",
+    "term_en": "dice",
+    "context": "주사위를 봄",
+    "interpretation_ko": "셈이 어긋나 괴로움과 절망이 따르고 돌림병이 올 조짐",
+    "interpretation_en": "unfortunate speculations, and consequent misery and despair, and contagious sickness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dice",
+      "original": "To dream of dice, is indicative of unfortunate speculations, and consequent misery and despair.  It also foretells contagious sickness.",
+      "translation_ko": "주사위 꿈은 어긋난 셈과 그로 인한 괴로움과 절망을 뜻한다. 돌림병도 알린다"
+    }
+  },
+  {
+    "term_ko": "주사위",
+    "term_en": "dice",
+    "context": "연인이 주사위를 던지는 것을 봄",
+    "interpretation_ko": "그가 마음을 줄 만한 사람이 못 된다는 뜻",
+    "interpretation_en": "indicates his unworthiness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dice",
+      "original": "For a girl to dream that she sees her lover throwing dice, indicates his unworthiness.",
+      "translation_ko": "처녀가 연인이 주사위를 던지는 것을 보는 꿈은, 그가 마음을 줄 만한 사람이 못 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사전",
+    "term_en": "dictionary",
+    "context": "사전을 찾아봄",
+    "interpretation_ko": "제 뜻대로 하면 될 일을 남의 말과 훈수에 지나치게 기댈 조짐",
+    "interpretation_en": "you will depend too much upon the opinion and suggestions of others for the clear management of your own affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dictionary",
+      "original": "To dream that you are referring to a dictionary, signifies you will depend too much upon the opinion and suggestions of others for the clear management of your own affairs, which could be done with proper dispatch if your own will was given play.",
+      "translation_ko": "사전을 찾아보는 꿈은, 제 뜻대로 하면 될 일을 남의 말과 훈수에 지나치게 기대게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "어려움",
+    "term_en": "difficulty",
+    "context": "어려움에 놓임",
+    "interpretation_ko": "일하는 이에게 한동안 곤란한 일이 있을 조짐",
+    "interpretation_en": "temporary embarrassment for business men of all classes",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Difficulty",
+      "original": "This dream signifies temporary embarrassment for business men of all classes, including soldiers and writers.",
+      "translation_ko": "이 꿈은 온갖 일을 하는 이에게 한동안의 곤란함을 뜻한다. 군인과 글 쓰는 이도 그렇다"
+    }
+  },
+  {
+    "term_ko": "어려움",
+    "term_en": "difficulty",
+    "context": "어려움에서 빠져나옴",
+    "interpretation_ko": "살림이 일어날 조짐",
+    "interpretation_en": "foretells your prosperity",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Difficulty",
+      "original": "But to extricate yourself from difficulties, foretells your prosperity.",
+      "translation_ko": "어려움에서 빠져나오면 살림이 일어난다"
+    }
+  },
+  {
+    "term_ko": "어려움",
+    "term_en": "difficulty",
+    "context": "여성이 어려움에 놓임",
+    "interpretation_ko": "몸이 상하거나 적이 생길 위험이 있다는 뜻",
+    "interpretation_en": "she is threatened with ill health or enemies",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Difficulty",
+      "original": "For a woman to dream of being in difficulties, denotes that she is threatened with ill health or enemies.",
+      "translation_ko": "여성이 어려움에 놓이는 꿈은, 몸이 상하거나 적이 생길 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "어려움",
+    "term_en": "difficulty",
+    "context": "연인에게 어려움 꿈이 나타남",
+    "interpretation_ko": "거꾸로 읽는 꿈이라 즐거운 사랑을 뜻함",
+    "interpretation_en": "a dream of contrariety, denoting pleasant courtship",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Difficulty",
+      "original": "For lovers, this is a dream of contrariety, denoting pleasant courtship.",
+      "translation_ko": "연인에게는 거꾸로 읽는 꿈이며 즐거운 사랑을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "땅파기",
+    "term_en": "digging",
+    "context": "땅을 팜",
+    "interpretation_ko": "모자라지는 않으나 삶이 오르막길일 조짐",
+    "interpretation_en": "you will never be in want, but life will be an uphill affair",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Digging",
+      "original": "To dream of digging, denotes that you will never be in want, but life will be an uphill affair.",
+      "translation_ko": "땅을 파는 꿈은, 모자라지는 않으나 삶이 오르막길임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "땅파기",
+    "term_en": "digging",
+    "context": "구덩이를 파다 반짝이는 것을 찾음",
+    "interpretation_ko": "운이 좋은 쪽으로 돌아설 조짐",
+    "interpretation_en": "a favorable turn in fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Digging",
+      "original": "To dig a hole and find any glittering substance, denotes a favorable turn in fortune;",
+      "translation_ko": "구덩이를 파다 반짝이는 것을 찾으면 운이 좋은 쪽으로 돌아선다"
+    }
+  },
+  {
+    "term_ko": "땅파기",
+    "term_en": "digging",
+    "context": "파 보니 텅 빈 안개뿐임",
+    "interpretation_ko": "실제로 불운에 시달리고 어두운 예감에 잠길 조짐",
+    "interpretation_en": "you will be harrassed with real misfortunes and be filled with gloomy forebodings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Digging",
+      "original": "but to dig and open up a vast area of hollow mist, you will be harrassed with real misfortunes and be filled with gloomy forebodings.",
+      "translation_ko": "파 보니 텅 빈 안개만 넓게 드러나면, 실제 불운에 시달리고 어두운 예감에 잠긴다"
+    }
+  },
+  {
+    "term_ko": "땅파기",
+    "term_en": "digging",
+    "context": "판 구덩이에 물이 참",
+    "interpretation_ko": "아무리 애써도 일이 제 뜻대로 굽어 주지 않을 조짐",
+    "interpretation_en": "in spite of your most strenuous efforts things will not bend to your will",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Digging",
+      "original": "Water filling the hole that you dig, denotes that in spite of your most strenuous efforts things will not bend to your will.",
+      "translation_ko": "판 구덩이에 물이 차면, 아무리 애써도 일이 제 뜻대로 굽어 주지 않는다"
+    }
+  },
+  {
+    "term_ko": "저녁밥",
+    "term_en": "dinner",
+    "context": "홀로 저녁밥을 먹음",
+    "interpretation_ko": "먹고사는 일을 진지하게 헤아릴 일이 잦을 조짐",
+    "interpretation_en": "you will often have cause to think seriously of the necessaries of life",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dinner",
+      "original": "To dream that you eat your dinner alone, denotes that you will often have cause to think seriously of the necessaries of life.",
+      "translation_ko": "홀로 저녁밥을 먹는 꿈은, 먹고사는 일을 진지하게 헤아릴 일이 잦음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "저녁밥",
+    "term_en": "dinner",
+    "context": "젊은 여성이 연인과 저녁밥을 먹음",
+    "interpretation_ko": "연인 사이에 다툼이나 갈라섬이 있을 조짐이나, 자리가 화기애애하면 거꾸로임",
+    "interpretation_en": "indicative of a lovers' quarrel or a rupture, unless the affair is one of harmonious pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dinner",
+      "original": "For a young woman to dream of taking dinner with her lover, is indicative of a lovers' quarrel or a rupture, unless the affair is one of harmonious pleasure, when the reverse may be expected.",
+      "translation_ko": "젊은 여성이 연인과 저녁밥을 먹는 꿈은, 다툼이나 갈라섬을 뜻한다. 다만 자리가 화기애애하면 거꾸로 볼 수 있다"
+    }
+  },
+  {
+    "term_ko": "저녁밥",
+    "term_en": "dinner",
+    "context": "여럿이 초대받은 저녁 자리에 끼임",
+    "interpretation_ko": "여러 반가운 대접을 베풀 만한 이들의 후한 대접을 누릴 조짐",
+    "interpretation_en": "you will enjoy the hospitalities of those who are able to extend to you many pleasant courtesies",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dinner",
+      "original": "To be one of many invited guests at a dinner, denotes that you will enjoy the hospitalities of those who are able to extend to you many pleasant courtesies.",
+      "translation_ko": "여럿이 초대받은 저녁 자리에 끼는 꿈은, 후한 대접을 누리게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "흙",
+    "term_en": "soil",
+    "context": "꽃이나 나무 둘레의 갓 파헤친 흙을 봄",
+    "interpretation_ko": "살림이 알뜰하고 몸이 성할 조짐",
+    "interpretation_en": "thrift and healthful conditions abound for the dreamer",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dirt",
+      "original": "To dream of seeing freshly stirred dirt around flowers or trees, denotes thrift and healthful conditions abound for the dreamer.",
+      "translation_ko": "꽃이나 나무 둘레의 갓 파헤친 흙을 보는 꿈은, 알뜰한 살림과 성한 몸을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "흙",
+    "term_en": "soil",
+    "context": "옷이 더러운 흙으로 더럽혀짐",
+    "interpretation_ko": "집을 떠나거나 법의 제약을 받아야 돌림병을 피할 조짐",
+    "interpretation_en": "you will be forced to save yourself from contagious diseases by leaving your home or submitting to the strictures of the law",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dirt",
+      "original": "To see your clothes soiled with unclean dirt, you will be forced to save yourself from contagious diseases by leaving your home or submitting to the strictures of the law.",
+      "translation_ko": "옷이 더러운 흙으로 더럽혀진 것을 보면, 집을 떠나거나 법의 제약을 받아야 돌림병을 피한다"
+    }
+  },
+  {
+    "term_ko": "흙",
+    "term_en": "soil",
+    "context": "남이 흙을 끼얹음",
+    "interpretation_ko": "적이 됨됨이를 헐뜯으려 들 조짐",
+    "interpretation_en": "enemies will try to injure your character",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dirt",
+      "original": "To dream that some one throws dirt upon you, denotes that enemies will try to injure your character.",
+      "translation_ko": "남이 흙을 끼얹는 꿈은, 적이 됨됨이를 헐뜯으려 듦을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "재난",
+    "term_en": "disaster",
+    "context": "탈것을 타고 가다 재난을 당함",
+    "interpretation_ko": "재물을 잃거나 병으로 몸을 상할 위험이 있다는 뜻",
+    "interpretation_en": "you are in danger of losing property or of being harmed by some disease",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disaster",
+      "original": "To dream of being in any disaster from public conveyance, you are in danger of losing property or of being maimed from some malarious disease.",
+      "translation_ko": "타고 다니는 것에서 재난을 당하는 꿈은, 재물을 잃거나 병으로 몸을 상할 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "재난",
+    "term_en": "disaster",
+    "context": "젊은 여성이 재난에 휘말림",
+    "interpretation_ko": "연인을 죽음이나 떠남으로 잃고 슬퍼할 조짐",
+    "interpretation_en": "she will mourn the loss of her lover by death or desertion",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disaster",
+      "original": "For a young woman to dream of a disaster in which she is a participant, foretells that she will mourn the loss of her lover by death or desertion.",
+      "translation_ko": "젊은 여성이 재난에 휘말리는 꿈은, 연인을 죽음이나 떠남으로 잃고 슬퍼하게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "재난",
+    "term_en": "disaster",
+    "context": "바다에서 재난이 남",
+    "interpretation_ko": "뱃사람에게는 불행과 벌이의 잃음을, 남에게는 죽음으로 인한 잃음을 뜻함",
+    "interpretation_en": "unhappiness to sailors and loss of their gains; to others, loss by death",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disaster",
+      "original": "To dream of a disaster at sea, denotes unhappiness to sailors and loss of their gains.  To others, it signifies loss by death;",
+      "translation_ko": "바다에서 재난이 나는 꿈은 뱃사람에게 불행과 벌이의 잃음을 뜻하고, 남에게는 죽음으로 인한 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "재난",
+    "term_en": "disaster",
+    "context": "재난에서 구조됨",
+    "interpretation_ko": "고된 자리에 놓이나 다치지 않고 빠져나올 조짐",
+    "interpretation_en": "you will be placed in trying situations, but will come out unscathed",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disaster",
+      "original": "but if you dream that you are rescued, you will be placed in trying situations, but will come out unscathed.",
+      "translation_ko": "구조되는 꿈이면, 고된 자리에 놓이나 다치지 않고 빠져나온다"
+    }
+  },
+  {
+    "term_ko": "재난",
+    "term_en": "disaster",
+    "context": "제가 타지 않은 철도 사고를 봄",
+    "interpretation_ko": "살붙이나 벗이 다쳐 그 일에 얽히거나 하는 일에 어려움이 생길 조짐",
+    "interpretation_en": "you will eventually be interested in some accident because of some relative or friend being hurt, or you will have trouble of a business character",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disaster",
+      "original": "To dream of a railway wreck in which you are not a participant, you will eventually be interested in some accident because of some relative or friend being hurt, or you will have trouble of a business character.",
+      "translation_ko": "제가 끼지 않은 철도 사고 꿈은, 살붙이나 벗이 다쳐 그 일에 얽히거나 하는 일에 어려움이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "병듦",
+    "term_en": "disease",
+    "context": "제가 병듦",
+    "interpretation_ko": "가볍게 앓거나 살붙이와 언짢게 얽힐 조짐",
+    "interpretation_en": "a slight attack of illness, or of unpleasant dealings with a relative",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Disease",
+      "original": "To dream that you are diseased, denotes a slight attack of illness, or of unpleasant dealings with a relative.",
+      "translation_ko": "제가 병드는 꿈은, 가볍게 앓거나 살붙이와 언짢게 얽힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "병듦",
+    "term_en": "disease",
+    "context": "젊은 여성이 고칠 수 없는 병에 듦",
+    "interpretation_ko": "홀로 사는 삶을 살게 될 조짐",
+    "interpretation_en": "she will be likely to lead a life of single blessedness",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Disease",
+      "original": "For a young woman to dream that she is incurably diseased, denotes that she will be likely to lead a life of single blessedness.",
+      "translation_ko": "젊은 여성이 고칠 수 없는 병에 드는 꿈은, 홀로 사는 삶을 살게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "불명예",
+    "term_en": "disgrace",
+    "context": "아이나 벗의 부끄러운 행실로 애를 태움",
+    "interpretation_ko": "바람이 채워지지 않고 근심에 시달릴 조짐",
+    "interpretation_en": "will bring you unsatisfying hopes, and worries will harass you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disgrace",
+      "original": "To be worried in your dream over the disgraceful conduct of children or friends, will bring you unsatisfying hopes, and worries will harass you.",
+      "translation_ko": "아이나 벗의 부끄러운 행실로 애를 태우는 꿈은, 채워지지 않는 바람과 시달리는 근심을 부른다"
+    }
+  },
+  {
+    "term_ko": "불명예",
+    "term_en": "disgrace",
+    "context": "제가 낯을 잃음",
+    "interpretation_ko": "옳고 그름을 가볍게 여겨 곧다는 평판을 잃을 위험이 있다는 뜻",
+    "interpretation_en": "you will hold morality at a low rate, and you are in danger of lowering your reputation for uprightness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disgrace",
+      "original": "To be in disgrace yourself, denotes that you will hold morality at a low rate, and you are in danger of lowering your reputation for uprightness.",
+      "translation_ko": "제가 낯을 잃는 꿈은, 옳고 그름을 가볍게 여겨 곧다는 평판을 잃을 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "접시를 다룸",
+    "interpretation_ko": "좋은 운이 따를 조짐",
+    "interpretation_en": "good fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dish",
+      "original": "To dream of handling dishes, denotes good fortune;",
+      "translation_ko": "접시를 다루는 꿈은 좋은 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "접시가 깨짐",
+    "interpretation_ko": "좋은 운이 오래가지 못할 조짐",
+    "interpretation_en": "fortune will be short-lived for you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dish",
+      "original": "but if from any cause they should be broken, this signifies that fortune will be short-lived for you.",
+      "translation_ko": "무슨 까닭으로든 깨지면, 좋은 운이 오래가지 못한다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "선반에 반들반들한 접시가 놓임",
+    "interpretation_ko": "혼인이 잘될 조짐",
+    "interpretation_en": "success in marriage",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dish",
+      "original": "To see shelves of polished dishes, denotes success in marriage.",
+      "translation_ko": "반들반들한 접시가 선반에 늘어선 것을 보면 혼인이 잘된다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "더러운 접시를 봄",
+    "interpretation_ko": "마음이 차지 않고 앞날이 밝지 않을 조짐",
+    "interpretation_en": "dissatisfaction and an unpromising future",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dish",
+      "original": "Soiled dishes, represent dissatisfaction and an unpromising future.",
+      "translation_ko": "더러운 접시는 차지 않는 마음과 밝지 않은 앞날을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "상속에서 밀려남",
+    "term_en": "disinherited",
+    "context": "상속에서 밀려남",
+    "interpretation_ko": "하는 일과 둘레의 자리를 잘 살피라는 경고",
+    "interpretation_en": "warns you to look well to your business and social standing",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disinherited",
+      "original": "To dream that you are disinherited, warns you to look well to your business and social standing.",
+      "translation_ko": "상속에서 밀려나는 꿈은, 하는 일과 둘레의 자리를 잘 살피라는 경고다"
+    }
+  },
+  {
+    "term_ko": "상속에서 밀려남",
+    "term_en": "disinherited",
+    "context": "젊은 남성이 거스름 탓에 물려받을 것을 잃음",
+    "interpretation_ko": "알맞은 혼인을 하면 부모의 눈에 들게 될 조짐",
+    "interpretation_en": "he will find favor in the eyes of his parents by contracting a suitable marriage",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disinherited",
+      "original": "For a young man to dream of losing his inheritance by disobedience, warns him that he will find favor in the eyes of his parents by contracting a suitable marriage.",
+      "translation_ko": "젊은 남성이 거스름 탓에 물려받을 것을 잃는 꿈은, 알맞은 혼인을 하면 부모의 눈에 들게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "상속에서 밀려남",
+    "term_en": "disinherited",
+    "context": "여성에게 상속에서 밀려나는 꿈이 나타남",
+    "interpretation_ko": "몸가짐을 조심하지 않으면 운이 나빠진다는 경고",
+    "interpretation_en": "a warning to be careful of her conduct, lest she meet with unfavorable fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Disinherited",
+      "original": "For a woman, this dream is a warning to be careful of her conduct, lest she meet with unfavorable fortune.",
+      "translation_ko": "여성에게 이 꿈은, 몸가짐을 조심하지 않으면 운이 나빠진다는 경고다"
+    }
+  },
+  {
+    "term_ko": "언쟁",
+    "term_en": "dispute",
+    "context": "하찮은 일로 언쟁함",
+    "interpretation_ko": "몸이 나빠지고 남을 공정하지 못하게 판단할 조짐",
+    "interpretation_en": "indicates bad health and unfairness in judging others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dispute",
+      "original": "To dream of holding disputes over trifles, indicates bad health and unfairness in judging others.",
+      "translation_ko": "하찮은 일로 언쟁하는 꿈은, 나빠지는 몸과 공정하지 못한 판단을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "언쟁",
+    "term_en": "dispute",
+    "context": "배운 이들과 언쟁함",
+    "interpretation_ko": "숨은 재주가 있으나 그것을 펴는 데 굼뜨다는 뜻",
+    "interpretation_en": "you have some latent ability, but are a little sluggish in developing it",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dispute",
+      "original": "To dream of disputing with learned people, shows that you have some latent ability, but are a little sluggish in developing it.",
+      "translation_ko": "배운 이들과 언쟁하는 꿈은, 숨은 재주가 있으나 그것을 펴는 데 굼뜸을 보인다"
+    }
+  },
+  {
+    "term_ko": "물레가락",
+    "term_en": "distaff",
+    "context": "물레가락을 봄",
+    "interpretation_ko": "알뜰하고 둘레가 편안하며 정성스러운 마음이 자랄 조짐",
+    "interpretation_en": "frugality, with pleasant surroundings, and a devotional spirit will be cultivated by you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Distaff",
+      "original": "To dream of a distaff, denotes frugality, with pleasant surroundings.  It also signifies that a devotional spirit will be cultivated by you.",
+      "translation_ko": "물레가락 꿈은 알뜰함과 편안한 둘레를 뜻한다. 정성스러운 마음이 자람도 뜻한다"
+    }
+  },
+  {
+    "term_ko": "먼 거리",
+    "term_en": "distance",
+    "context": "사는 곳에서 멀리 떨어져 있음",
+    "interpretation_ko": "머지않아 길을 떠나 낯선 이들을 만나고, 그들이 삶을 나쁜 쪽으로 바꿀 조짐",
+    "interpretation_en": "you will make a journey soon in which you may meet many strangers who will be instrumental in changing life from good to bad",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Distance",
+      "original": "To dream of being a long way from your residence, denotes that you will make a journey soon in which you may meet many strangers who will be instrumental in changing life from good to bad.",
+      "translation_ko": "사는 곳에서 멀리 떨어져 있는 꿈은, 머지않은 여정과 거기서 만날 낯선 이들을 뜻하며 그들이 삶을 나쁜 쪽으로 바꾼다"
+    }
+  },
+  {
+    "term_ko": "먼 거리",
+    "term_en": "distance",
+    "context": "멀리 있는 벗을 봄",
+    "interpretation_ko": "작은 어그러짐이 있을 조짐",
+    "interpretation_en": "slight disappointments",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Distance",
+      "original": "To dream of friends at a distance, denotes slight disappointments.",
+      "translation_ko": "멀리 있는 벗 꿈은 작은 어그러짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "먼 거리",
+    "term_en": "distance",
+    "context": "멀리서 소를 몰아 밭을 가는 사람들을 봄",
+    "interpretation_ko": "살림이 일어나고 이름이 오를 조짐",
+    "interpretation_en": "advancing prosperity and honor",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Distance",
+      "original": "To see men plowing with oxen at a distance, across broad fields, denotes advancing prosperity and honor.",
+      "translation_ko": "멀리 넓은 들에서 소를 몰아 밭을 가는 사람들을 보면, 살림이 일어나고 이름이 오른다"
+    }
+  },
+  {
+    "term_ko": "먼 거리",
+    "term_en": "distance",
+    "context": "남성이 멀리서 낯선 여성이 손짓하는 것을 봄",
+    "interpretation_ko": "새로 알게 된 이와 인연을 맺으나 언짢게 드러날 조짐",
+    "interpretation_en": "he will enter into an engagement with a new acquaintance, which will result in unhappy exposures",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Distance",
+      "original": "For a man to see strange women in the twilight, at a distance, and throwing kisses to him, foretells that he will enter into an engagement with a new acquaintance, which will result in unhappy exposures.",
+      "translation_ko": "남성이 어스름에 멀리서 낯선 여성이 손짓하는 것을 보면, 새로 알게 된 이와 인연을 맺으나 언짢게 드러난다"
+    }
+  },
+  {
+    "term_ko": "도랑",
+    "term_en": "ditch",
+    "context": "도랑에 빠짐",
+    "interpretation_ko": "낯이 깎이고 제 것을 잃을 조짐",
+    "interpretation_en": "degradation and personal loss",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Ditch",
+      "original": "To dream of falling in a ditch, denotes degradation and personal loss;",
+      "translation_ko": "도랑에 빠지는 꿈은 낯 깎임과 제 것의 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "도랑",
+    "term_en": "ditch",
+    "context": "도랑을 뛰어넘음",
+    "interpretation_ko": "잘못했다는 의심을 씻고 살아갈 조짐",
+    "interpretation_en": "you will live down any suspicion of wrong-doing",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Ditch",
+      "original": "but if you jump over it, you will live down any suspicion of wrong-doing.",
+      "translation_ko": "그것을 뛰어넘으면, 잘못했다는 의심을 씻고 살아간다"
+    }
+  },
+  {
+    "term_ko": "잠수",
+    "term_en": "diving",
+    "context": "맑은 물에 잠수함",
+    "interpretation_ko": "곤란하던 일이 좋게 마무리될 조짐",
+    "interpretation_en": "a favorable termination of some embarrassment",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Diving",
+      "original": "To dream of diving in clear water, denotes a favorable termination of some embarrassment.",
+      "translation_ko": "맑은 물에 잠수하는 꿈은, 곤란하던 일이 좋게 마무리됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "잠수",
+    "term_en": "diving",
+    "context": "흐린 물에 잠수함",
+    "interpretation_ko": "일이 돌아가는 모양에 마음을 졸일 조짐",
+    "interpretation_en": "you will suffer anxiety at the turn your affairs seem to be taking",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Diving",
+      "original": "If the water is muddy, you will suffer anxiety at the turn your affairs seem to be taking.",
+      "translation_ko": "물이 흐리면, 일이 돌아가는 모양에 마음을 졸인다"
+    }
+  },
+  {
+    "term_ko": "잠수",
+    "term_en": "diving",
+    "context": "남이 잠수하는 것을 봄",
+    "interpretation_ko": "마음 맞는 벗이 생길 조짐",
+    "interpretation_en": "pleasant companions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Diving",
+      "original": "To see others diving, indicates pleasant companions.",
+      "translation_ko": "남이 잠수하는 것을 보면 마음 맞는 벗이 생긴다"
+    }
+  },
+  {
+    "term_ko": "잠수",
+    "term_en": "diving",
+    "context": "연인에게 잠수 꿈이 나타남",
+    "interpretation_ko": "바라던 것이 이루어지고 뜨거운 사랑을 나눌 조짐",
+    "interpretation_en": "the consummation of happy dreams and passionate love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Diving",
+      "original": "For lovers to dream of diving, denotes the consummation of happy dreams and passionate love.",
+      "translation_ko": "연인이 잠수하는 꿈을 꾸면, 바라던 것이 이루어지고 뜨거운 사랑을 나눈다"
+    }
+  },
+  {
+    "term_ko": "배당금",
+    "term_en": "dividend",
+    "context": "배당금을 받음",
+    "interpretation_ko": "셈이 잘 맞아떨어지거나 수확이 넉넉할 조짐",
+    "interpretation_en": "augments successful speculations or prosperous harvests",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dividend",
+      "original": "To dream of dividends, augments successful speculations or prosperous harvests.",
+      "translation_ko": "배당금 꿈은 잘 맞아떨어지는 셈이나 넉넉한 수확을 더한다"
+    }
+  },
+  {
+    "term_ko": "배당금",
+    "term_en": "dividend",
+    "context": "바라던 배당금을 못 받음",
+    "interpretation_ko": "일을 꾸리는 데나 사랑에 실패가 있을 조짐",
+    "interpretation_en": "proclaims failure in management or love affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dividend",
+      "original": "To fail in securing hoped-for dividends, proclaims failure in management or love affairs.",
+      "translation_ko": "바라던 배당금을 못 받으면, 일을 꾸리는 데나 사랑에 실패가 있다"
+    }
+  },
+  {
+    "term_ko": "점막대",
+    "term_en": "divining rod",
+    "context": "점막대를 봄",
+    "interpretation_ko": "나쁜 운이 따라 지금 놓인 자리가 마뜩잖아질 조짐",
+    "interpretation_en": "ill luck will dissatisfy you with present surroundings",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Divining Rods",
+      "original": "To see a divining rod in your dreams, foretells ill luck will dissatisfy you with present surroundings.",
+      "translation_ko": "꿈에 점막대를 보면, 나쁜 운이 따라 지금 놓인 자리가 마뜩잖아진다"
+    }
+  },
+  {
+    "term_ko": "이혼",
+    "term_en": "divorce",
+    "context": "제가 이혼함",
+    "interpretation_ko": "짝이 마음에 차지 않는다는 뜻이며 집안을 더 화목하게 가꾸라는 경고",
+    "interpretation_en": "you are not satisfied with your companion, and should cultivate a more congenial atmosphere in the home life",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Divorce",
+      "original": "To dream of being divorced, denotes that you are not satisfied with your companion, and should cultivate a more congenial atmosphere in the home life.  It is a dream of warning.",
+      "translation_ko": "이혼하는 꿈은 짝이 마음에 차지 않음을 뜻하며, 집안을 더 화목하게 가꾸어야 한다. 경고의 꿈이다"
+    }
+  },
+  {
+    "term_ko": "이혼",
+    "term_en": "divorce",
+    "context": "여성에게 이혼 꿈이 나타남",
+    "interpretation_ko": "연인의 한결같지 못함 탓에 홀로 살게 될 조짐",
+    "interpretation_en": "a single life may be theirs through the infidelity of lovers",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Divorce",
+      "original": "For women to dream of divorce, denotes that a single life may be theirs through the infidelity of lovers.",
+      "translation_ko": "여성이 이혼 꿈을 꾸면, 연인의 한결같지 못함 탓에 홀로 살게 될 수 있다"
+    }
+  },
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두에 있음",
+    "interpretation_ko": "언짢은 여정을 앞두고 사고가 위협할 조짐",
+    "interpretation_en": "you are about to make an unpropitious journey, and accidents will threaten you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Docks",
+      "original": "To dream of being on docks, denotes that you are about to make an unpropitious journey.  Accidents will threaten you.",
+      "translation_ko": "부두에 있는 꿈은, 언짢은 여정을 앞두고 있음을 뜻한다. 사고가 위협한다"
+    }
+  },
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두를 홀로 헤매는데 어둠이 덮침",
+    "interpretation_ko": "목숨을 노리는 적을 만날 조짐",
+    "interpretation_en": "you will meet with deadly enemies",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Docks",
+      "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+      "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+    }
+  },
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두에 해가 비침",
+    "interpretation_ko": "닥친 위험을 벗어날 조짐",
+    "interpretation_en": "you will escape threatening dangers",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Docks",
+      "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+      "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+    }
+  }
+]

@@ -577,7 +577,8 @@
       "토양",
       "진흙",
       "흙더미",
-      "땅바닥"
+      "땅바닥",
+      "흙을 끼얹"
     ],
     "aliases_en": [
       "earth",
@@ -587,11 +588,17 @@
     ],
     "contexts": {
       "몸이 흙 속으로 들어감": "들어가 파묻 묻혔 속으로",
-      "스스로 흙을 파 가짐": "파서 캐서 스스로 가져"
+      "스스로 흙을 파 가짐": "파서 캐서 스스로 가져",
+      "꽃이나 나무 둘레의 갓 파헤친 흙을 봄": "파헤친 꽃이나 나무 둘레",
+      "옷이 더러운 흙으로 더럽혀짐": "옷이 더럽 묻었",
+      "남이 흙을 끼얹음": "끼얹 뿌렸 던졌"
     },
     "contexts_en": {
       "몸이 흙 속으로 들어감": "buried sank inside",
-      "스스로 흙을 파 가짐": "dug digging took myself"
+      "스스로 흙을 파 가짐": "dug digging took myself",
+      "꽃이나 나무 둘레의 갓 파헤친 흙을 봄": "freshly stirred thrift",
+      "옷이 더러운 흙으로 더럽혀짐": "clothes soiled contagious",
+      "남이 흙을 끼얹음": "throws upon character"
     }
   },
   {
