@@ -250,7 +250,8 @@
       "시체",
       "망자",
       "고인",
-      "주검"
+      "주검",
+      "돌아가신"
     ],
     "aliases_en": [
       "a dead person",
@@ -273,7 +274,10 @@
       "시신의 두 눈에 돈을 얹음": "돈을 양쪽",
       "젊은 여성이 일하는 가게 주인이 시신이 되어 있음": "가게 주인 일하는",
       "시신의 머리가 몸에서 떨어지는 것을 봄": "머리가 떨어지 목이",
-      "시신을 봄": "보았 봤다 보는"
+      "시신을 봄": "시신을 시체를 주검을",
+      "죽은 아버지를 보고 이야기함": "아버지 아비 부친",
+      "죽은 어머니를 봄": "어머니 어미 모친",
+      "죽은 형제나 살붙이·벗을 봄": "형제 살붙이 벗을"
     },
     "contexts_en": {
       "죽은 사람이 욺": "crying wept weeping",
@@ -290,7 +294,10 @@
       "시신의 두 눈에 돈을 얹음": "eyes robbing unscrupulous",
       "젊은 여성이 일하는 가게 주인이 시신이 되어 있음": "proprietor store shaven",
       "시신의 머리가 몸에서 떨어지는 것을 봄": "head falling employer",
-      "시신을 봄": "sorrowful tidings gloomy"
+      "시신을 봄": "sorrowful tidings gloomy",
+      "죽은 아버지를 보고 이야기함": "father talk unlucky",
+      "죽은 어머니를 봄": "mother morbidness inclination",
+      "죽은 형제나 살붙이·벗을 봄": "brother charity aid"
     }
   },
   {

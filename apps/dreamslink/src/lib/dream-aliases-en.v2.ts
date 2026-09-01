@@ -4535,5 +4535,72 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cut": [
     "a cut",
     "cuts"
+  ],
+  "cymbal": [
+    "cymbals",
+    "a cymbal"
+  ],
+  "dagger": [
+    "a dagger",
+    "daggers"
+  ],
+  "dahlia": [
+    "dahlias",
+    "a dahlia"
+  ],
+  "dairy": [
+    "a dairy",
+    "dairy farm"
+  ],
+  "daisy": [
+    "daisies",
+    "a daisy"
+  ],
+  "damask-rose": [
+    "damask roses",
+    "a damask rosebush"
+  ],
+  "damson": [
+    "damsons",
+    "damson tree"
+  ],
+  "dancing-master": [
+    "a dancing master",
+    "dance teacher"
+  ],
+  "dandelion": [
+    "dandelions",
+    "a dandelion"
+  ],
+  "danger": [
+    "perilous situation",
+    "in danger"
+  ],
+  "dark": [
+    "darkness",
+    "in the dark"
+  ],
+  "dates": [
+    "date palm",
+    "dried dates"
+  ],
+  "daughter": [
+    "my daughter",
+    "a daughter"
+  ],
+  "daughter-in-law": [
+    "a daughter-in-law",
+    "son's wife"
+  ],
+  "david": [
+    "king david"
+  ],
+  "day": [
+    "the day",
+    "daytime"
+  ],
+  "daybreak": [
+    "day break",
+    "dawn"
   ]
 };

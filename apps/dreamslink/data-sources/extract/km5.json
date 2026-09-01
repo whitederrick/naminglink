@@ -715,15 +715,28 @@
     "aliases": [
       "무용",
       "댄스",
-      "춤사위"
+      "춤사위",
+      "춤을 췄다",
+      "춤추는",
+      "춤췄"
     ],
     "aliases_en": [
       "dancing",
       "danced",
       "dancer"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "춤추는 것을 봄": "보았 구경 바라보",
+      "즐거운 아이들이 춤추는 것을 봄": "아이들 어린이 즐거운",
+      "나이 든 이들이 춤추는 것을 봄": "나이 노인 어른들",
+      "제가 춤을 춤": "내가 스스로 함께 어울려"
+    },
+    "contexts_en": {
+      "춤추는 것을 봄": "watching looking saw",
+      "즐거운 아이들이 춤추는 것을 봄": "merry children obedient",
+      "나이 든 이들이 춤추는 것을 봄": "older brighter outlook",
+      "제가 춤을 춤": "yourself unexpected fortune"
+    }
   },
   {
     "id": "duck-meat",

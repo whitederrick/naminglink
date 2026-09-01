@@ -1,0 +1,587 @@
+[
+  {
+    "term_ko": "심벌즈",
+    "term_en": "cymbal",
+    "context": "심벌즈 소리를 들음",
+    "interpretation_ko": "아는 이 가운데 아주 나이 든 분이 세상을 뜰 조짐",
+    "interpretation_en": "the death of a very aged person of your acquaintance",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cymbal",
+      "original": "Hearing a cymbal in your dreams, foretells the death of a very aged person of your acquaintance.",
+      "translation_ko": "꿈에 심벌즈 소리를 들으면, 아는 이 가운데 아주 나이 든 분이 세상을 뜬다"
+    }
+  },
+  {
+    "term_ko": "단도",
+    "term_en": "dagger",
+    "context": "단도를 봄",
+    "interpretation_ko": "위협하는 적이 있다는 뜻",
+    "interpretation_en": "threatening enemies",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dagger",
+      "original": "If seen in a dream, denotes threatening enemies.",
+      "translation_ko": "꿈에 보이면 위협하는 적을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "단도",
+    "term_en": "dagger",
+    "context": "남의 손에서 단도를 빼앗음",
+    "interpretation_ko": "적의 기운을 꺾고 불운을 이겨 낼 조짐",
+    "interpretation_en": "you will be able to counteract the influence of your enemies and overcome misfortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Dagger",
+      "original": "If you wrench the dagger from the hand of another, it denotes that you will be able to counteract the influence of your enemies and overcome misfortune.",
+      "translation_ko": "남의 손에서 단도를 빼앗는 꿈은, 적의 기운을 꺾고 불운을 이겨 냄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달리아",
+    "term_en": "dahlia",
+    "context": "싱싱하고 환한 달리아를 봄",
+    "interpretation_ko": "좋은 운이 따를 조짐",
+    "interpretation_en": "good fortune to the dreamer",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dahlia",
+      "original": "To see dahlias in a dream, if they are fresh and bright, signifies good fortune to the dreamer.",
+      "translation_ko": "꿈에 달리아가 싱싱하고 환하면 좋은 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "낙농장",
+    "term_en": "dairy",
+    "context": "낙농장 꿈을 꿈",
+    "interpretation_ko": "혼인한 이에게도 아닌 이에게도 좋은 조짐",
+    "interpretation_en": "a good dream both to the married and unmarried",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Dairy",
+      "original": "Dairy is a good dream both to the married and unmarried.",
+      "translation_ko": "낙농장은 혼인한 이에게도 아닌 이에게도 좋은 꿈이다"
+    }
+  },
+  {
+    "term_ko": "데이지",
+    "term_en": "daisy",
+    "context": "데이지 한 다발을 봄",
+    "interpretation_ko": "서글픔이 따를 조짐",
+    "interpretation_en": "sadness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Daisy",
+      "original": "To dream of a bunch of daisys, implies sadness,",
+      "translation_ko": "데이지 한 다발 꿈은 서글픔을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "데이지",
+    "term_en": "daisy",
+    "context": "데이지가 활짝 핀 들에 있음",
+    "interpretation_ko": "기쁨과 건강과 넉넉함이 앞다투어 삶의 가장 좋은 길로 이끌 조짐",
+    "interpretation_en": "happiness, health and prosperity will vie each with the other to lead you through the pleasantest avenues of life",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Daisy",
+      "original": "but if you dream of being in a field where these lovely flowers are in bloom, with the sun shining and birds singing, happiness, health and prosperity will vie each with the other to lead you through the pleasantest avenues of life.",
+      "translation_ko": "이 고운 꽃이 활짝 핀 들에서 해가 비치고 새가 우는 꿈을 꾸면, 기쁨과 건강과 넉넉함이 앞다투어 삶의 가장 좋은 길로 이끈다"
+    }
+  },
+  {
+    "term_ko": "데이지",
+    "term_en": "daisy",
+    "context": "철 아닌 때에 데이지를 봄",
+    "interpretation_ko": "어떤 모습으로든 나쁜 일이 달려들 조짐",
+    "interpretation_en": "you will be assailed by evil in some guise",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Daisy",
+      "original": "To dream of seeing them out of season, you will be assailed by evil in some guise.",
+      "translation_ko": "철 아닌 때에 그것을 보면, 어떤 모습으로든 나쁜 일이 달려든다"
+    }
+  },
+  {
+    "term_ko": "다마스크 장미",
+    "term_en": "damask rose",
+    "context": "잎과 꽃이 무성한 다마스크 장미 덤불을 봄",
+    "interpretation_ko": "머지않아 집안에 혼사가 있고 큰 바람이 이루어질 조짐",
+    "interpretation_en": "a wedding will soon take place in your family, and great hopes will be fulfilled",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damask Rose",
+      "original": "To dream of seeing a damask rosebush in full foliage and bloom, denotes that a wedding will soon take place in your family, and great hopes will be fulfilled.",
+      "translation_ko": "잎과 꽃이 무성한 다마스크 장미 덤불을 보는 꿈은, 머지않은 집안 혼사와 이루어질 큰 바람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "다마스크 장미",
+    "term_en": "damask rose",
+    "context": "연인이 이 장미를 머리에 꽂아 줌",
+    "interpretation_ko": "속임을 당할 조짐",
+    "interpretation_en": "you will be deceived",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damask Rose",
+      "original": "For a lover to place this rose in your hair, foretells that you will be deceived.",
+      "translation_ko": "연인이 이 장미를 머리에 꽂아 주면 속임을 당한다"
+    }
+  },
+  {
+    "term_ko": "다마스크 장미",
+    "term_en": "damask rose",
+    "context": "여성이 봄에 다마스크 장미 다발을 받음",
+    "interpretation_ko": "한결같은 연인을 얻을 조짐",
+    "interpretation_en": "she will have a faithful lover",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damask Rose",
+      "original": "If a woman receives a bouquet of damask roses in springtime, she will have a faithful lover;",
+      "translation_ko": "여성이 봄에 다마스크 장미 다발을 받으면 한결같은 연인을 얻는다"
+    }
+  },
+  {
+    "term_ko": "다마스크 장미",
+    "term_en": "damask rose",
+    "context": "여성이 겨울에 다마스크 장미 다발을 받음",
+    "interpretation_ko": "이룰 수 없는 바람을 품게 될 조짐",
+    "interpretation_en": "she will cherish blasted hopes",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damask Rose",
+      "original": "but if she received them in winter, she will cherish blasted hopes.",
+      "translation_ko": "겨울에 받으면 이룰 수 없는 바람을 품게 된다"
+    }
+  },
+  {
+    "term_ko": "댐슨 자두",
+    "term_en": "damson",
+    "context": "자줏빛 열매가 그득한 나무를 봄",
+    "interpretation_ko": "지금 형편에 견주어 큰 재물이 올 조짐",
+    "interpretation_en": "one may expect riches compared with his present estate",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damson",
+      "original": "This is a peculiarly good dream if one is so fortunate as to see these trees lifting their branches loaded with rich purple fruit and dainty foliage; one may expect riches compared with his present estate.",
+      "translation_ko": "가지마다 짙은 자줏빛 열매와 고운 잎이 그득한 나무를 보면 유난히 좋은 꿈이며, 지금 형편에 견주어 큰 재물이 온다"
+    }
+  },
+  {
+    "term_ko": "댐슨 자두",
+    "term_en": "damson",
+    "context": "댐슨 자두를 먹음",
+    "interpretation_ko": "슬픔이 따를 조짐",
+    "interpretation_en": "grief",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Damson",
+      "original": "To dream of eating them at any time, forebodes grief.",
+      "translation_ko": "그것을 언제든 먹는 꿈은 슬픔을 알린다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "즐거운 아이들이 춤추는 것을 봄",
+    "interpretation_ko": "혼인한 이에게는 다정하고 슬기로운 아이들과 밝은 집을, 젊은이에게는 쉬운 일과 많은 즐거움을 뜻함",
+    "interpretation_en": "to the married, loving, obedient and intelligent children and a cheerful and comfortable home; to young people, easy tasks and many pleasures",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dance",
+      "original": "To dream of seeing a crowd of merry children dancing, signifies to the married, loving, obedient and intelligent children and a cheerful and comfortable home. To young people, it denotes easy tasks and many pleasures.",
+      "translation_ko": "즐거운 아이들 무리가 춤추는 것을 보는 꿈은, 혼인한 이에게 다정하고 슬기로운 아이들과 밝고 편안한 집을 뜻한다. 젊은이에게는 쉬운 일과 많은 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "나이 든 이들이 춤추는 것을 봄",
+    "interpretation_ko": "하는 일의 앞날이 밝아질 조짐",
+    "interpretation_en": "a brighter outlook for business",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dance",
+      "original": "To see older people dancing, denotes a brighter outlook for business.",
+      "translation_ko": "나이 든 이들이 춤추는 것을 보면 하는 일의 앞날이 밝아진다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "제가 춤을 춤",
+    "interpretation_ko": "뜻밖의 좋은 운이 올 조짐",
+    "interpretation_en": "some unexpected good fortune will come to you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Dance",
+      "original": "To dream of dancing yourself, some unexpected good fortune will come to you.",
+      "translation_ko": "제가 춤추는 꿈은 뜻밖의 좋은 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "춤선생",
+    "term_en": "dancing master",
+    "context": "춤선생을 봄",
+    "interpretation_ko": "부질없는 것을 좇느라 중요한 일을 소홀히 할 조짐",
+    "interpretation_en": "you will neglect important affairs to pursue frivolities",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Dancing Master",
+      "original": "To dream of a dancing master, foretells you will neglect important affairs to pursue frivolities.",
+      "translation_ko": "춤선생 꿈은, 부질없는 것을 좇느라 중요한 일을 소홀히 하게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "춤선생",
+    "term_en": "dancing master",
+    "context": "젊은 여성이 제 연인이 춤선생인 꿈을 꿈",
+    "interpretation_ko": "즐거움과 삶을 보는 눈이 저와 맞는 벗을 얻을 조짐",
+    "interpretation_en": "she will have a friend in accordance with her views of pleasure and life",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Dancing Master",
+      "original": "For a young woman to dream that her lover is a dancing master, portends that she will have a friend in accordance with her views of pleasure and life.",
+      "translation_ko": "젊은 여성이 제 연인이 춤선생인 꿈을 꾸면, 즐거움과 삶을 보는 눈이 저와 맞는 벗을 얻는다"
+    }
+  },
+  {
+    "term_ko": "민들레",
+    "term_en": "dandelion",
+    "context": "푸른 잎 사이에 민들레가 핀 것을 봄",
+    "interpretation_ko": "기쁜 맺음과 넉넉한 둘레가 있을 조짐",
+    "interpretation_en": "happy unions and prosperous surroundings",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dandelion",
+      "original": "Dandelions blossoming in green foliage, foretells happy unions and prosperous surroundings.",
+      "translation_ko": "푸른 잎 사이에 민들레가 피면 기쁜 맺음과 넉넉한 둘레를 알린다"
+    }
+  },
+  {
+    "term_ko": "위험",
+    "term_en": "danger",
+    "context": "위험한 자리에 놓였다가 벗어남",
+    "interpretation_ko": "묻혀 있던 자리에서 벗어나 높이 드러날 조짐",
+    "interpretation_en": "you will emerge from obscurity into places of distinction and honor",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Danger",
+      "original": "To dream of being in a perilous situation, and death seems iminent,{sic} denotes that you will emerge from obscurity into places of distinction and honor;",
+      "translation_ko": "위험한 자리에 놓여 죽음이 코앞에 온 듯한 꿈은, 묻혀 있던 자리에서 벗어나 높이 드러남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "위험",
+    "term_en": "danger",
+    "context": "위험에서 벗어나지 못하고 죽거나 다침",
+    "interpretation_ko": "하는 일에서 잃고 집에서도 남에게서도 시달릴 조짐",
+    "interpretation_en": "you will lose in business and be annoyed in your home, and by others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Danger",
+      "original": "but if you should not escape the impending danger, and suffer death or a wound, you will lose in business and be annoyed in your home, and by others.",
+      "translation_ko": "닥친 위험에서 벗어나지 못하고 죽거나 다치면, 하는 일에서 잃고 집에서도 남에게서도 시달린다"
+    }
+  },
+  {
+    "term_ko": "어둠",
+    "term_en": "dark",
+    "context": "길을 가다 어둠이 덮침",
+    "interpretation_ko": "무슨 일을 해도 나쁘나, 길이 끝나기 전에 해가 나면 허물을 이겨 낼 조짐",
+    "interpretation_en": "augurs ill for any work you may attempt, unless the sun breaks through before the journey ends",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dark",
+      "original": "To dream of darkness overtaking you on a journey, augurs ill for any work you may attempt, unless the sun breaks through before the journey ends, then faults will be overcome.",
+      "translation_ko": "길을 가다 어둠이 덮치는 꿈은 무슨 일을 해도 나쁘나, 길이 끝나기 전에 해가 나면 허물을 이겨 낸다"
+    }
+  },
+  {
+    "term_ko": "어둠",
+    "term_en": "dark",
+    "context": "어둠 속에서 벗이나 아이를 잃음",
+    "interpretation_ko": "화를 돋우는 일이 여러 번 있을 조짐",
+    "interpretation_en": "portends many provocations to wrath",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dark",
+      "original": "To lose your friend, or child, in the darkness, portends many provocations to wrath.",
+      "translation_ko": "어둠 속에서 벗이나 아이를 잃으면, 화를 돋우는 일이 여러 번 있다"
+    }
+  },
+  {
+    "term_ko": "대추야자",
+    "term_en": "dates",
+    "context": "나무에 달린 대추야자를 봄",
+    "interpretation_ko": "살림이 일어나고 기쁘게 맺어질 조짐",
+    "interpretation_en": "prosperity and happy union",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dates",
+      "original": "To dream of seeing them on their parent trees, signifies prosperity and happy union;",
+      "translation_ko": "나무에 달린 것을 보면 일어나는 살림과 기쁜 맺음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "대추야자",
+    "term_en": "dates",
+    "context": "말려 파는 대추야자를 먹음",
+    "interpretation_ko": "모자람과 괴로움이 따를 조짐",
+    "interpretation_en": "omens of want and distress",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Dates",
+      "original": "but to eat them as prepared for commerce, they are omens of want and distress.",
+      "translation_ko": "장에 내려고 손질한 것을 먹으면 모자람과 괴로움의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "딸",
+    "term_en": "daughter",
+    "context": "딸 꿈을 꿈",
+    "interpretation_ko": "언짢던 일들이 즐거움과 화목으로 바뀔 조짐",
+    "interpretation_en": "many displeasing incidents will give way to pleasure and harmony",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Daughter",
+      "original": "To dream of your daughter, signifies that many displeasing incidents will give way to pleasure and harmony.",
+      "translation_ko": "딸 꿈은, 언짢던 일들이 즐거움과 화목으로 바뀜을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "딸",
+    "term_en": "daughter",
+    "context": "딸이 제 뜻에 맞지 않음",
+    "interpretation_ko": "속상하고 마음이 편치 않을 조짐",
+    "interpretation_en": "you will suffer vexation and discontent",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Daughter",
+      "original": "If in the dream, she fails to meet your wishes, through any cause, you will suffer vexation and discontent.",
+      "translation_ko": "꿈에서 딸이 무슨 까닭으로든 제 뜻에 맞지 않으면, 속상하고 마음이 편치 않다"
+    }
+  },
+  {
+    "term_ko": "며느리",
+    "term_en": "daughter-in-law",
+    "context": "며느리 꿈을 꿈",
+    "interpretation_ko": "며느리가 곱게 굴면 기쁨이, 억지스러우면 심란함이 더해질 조짐",
+    "interpretation_en": "some unusual occurrence will add to happiness, or disquiet, according as she is pleasant or unreasonable",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Daughter-in-law",
+      "original": "To dream of your daughter-in-law, indicates some unusual occurence{sic} will add to happiness, or disquiet, according as she is pleasant or unreasonable.",
+      "translation_ko": "며느리 꿈은, 며느리가 곱게 구는지 억지스러운지에 따라 기쁨이나 심란함을 더한다"
+    }
+  },
+  {
+    "term_ko": "다윗",
+    "term_en": "david",
+    "context": "다윗 꿈을 꿈",
+    "interpretation_ko": "집안이 갈라지고 일이 어수선해져 마음이 몹시 지칠 조짐",
+    "interpretation_en": "divisions in domestic circles, and unsettled affairs, will tax heavily your nerve force",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "David",
+      "original": "To dream of David, of Bible fame, denotes divisions in domestic circles, and unsettled affairs, will tax heavily your nerve force.",
+      "translation_ko": "성경의 다윗 꿈은, 집안의 갈라짐과 어수선한 일로 마음이 몹시 지침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "대낮",
+    "term_en": "day",
+    "context": "환한 낮 꿈을 꿈",
+    "interpretation_ko": "형편이 나아지고 사귐이 즐거울 조짐",
+    "interpretation_en": "improvement in your situation, and pleasant associations",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Day",
+      "original": "To dream of the day, denotes improvement in your situation, and pleasant associations.",
+      "translation_ko": "낮 꿈은 나아지는 형편과 즐거운 사귐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "대낮",
+    "term_en": "day",
+    "context": "흐리거나 구름 낀 낮을 봄",
+    "interpretation_ko": "새로 벌인 일에서 잃고 잘되지 않을 조짐",
+    "interpretation_en": "loss and ill success in new enterprises",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Day",
+      "original": "A gloomy or cloudy day, foretells loss and ill success in new enterprises.",
+      "translation_ko": "흐리거나 구름 낀 낮은 새로 벌인 일에서의 잃음과 안 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "새벽",
+    "term_en": "daybreak",
+    "context": "날이 밝아 오는 것을 봄",
+    "interpretation_ko": "벌인 일이 잘될 조짐",
+    "interpretation_en": "successful undertakings",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Daybreak",
+      "original": "To watch the day break in a dream, omens successful undertakings,",
+      "translation_ko": "꿈에 날이 밝아 오는 것을 지켜보면 벌인 일이 잘된다"
+    }
+  },
+  {
+    "term_ko": "새벽",
+    "term_en": "daybreak",
+    "context": "새벽 빛이 흐릿하고 기괴함",
+    "interpretation_ko": "일과 사랑이 다 된 듯해도 어그러질 조짐",
+    "interpretation_en": "disappointment when success in business or love seems assured",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Daybreak",
+      "original": "unless the scene is indistinct and weird; then it may imply disappointment when success in business or love seems assured.",
+      "translation_ko": "그 광경이 흐릿하고 기괴하면, 일과 사랑이 다 된 듯해도 어그러질 수 있다"
+    }
+  },
+  {
+    "term_ko": "죽은 사람",
+    "term_en": "dead person",
+    "context": "죽은 아버지를 보고 이야기함",
+    "interpretation_ko": "운 나쁜 거래가 곧 있을 조짐이니 계약을 조심할 것",
+    "interpretation_en": "some unlucky transaction is about to be made by you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Dead",
+      "original": "If you see and talk with your father, some unlucky transaction is about to be made by you.",
+      "translation_ko": "죽은 아버지를 보고 이야기하면, 운 나쁜 거래가 곧 있게 된다"
+    }
+  },
+  {
+    "term_ko": "죽은 사람",
+    "term_en": "dead person",
+    "context": "죽은 어머니를 봄",
+    "interpretation_ko": "어두운 마음과 남을 미워하는 마음을 다스리라는 경고",
+    "interpretation_en": "warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Dead",
+      "original": "To see your mother, warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures.",
+      "translation_ko": "죽은 어머니를 보면, 어두운 마음과 남을 미워하는 마음을 다스리라는 경고다"
+    }
+  },
+  {
+    "term_ko": "죽은 사람",
+    "term_en": "dead person",
+    "context": "죽은 형제나 살붙이·벗을 봄",
+    "interpretation_ko": "머지않아 도움이나 베풂을 청받을 조짐",
+    "interpretation_en": "you may be called on for charity or aid within a short time",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Dead",
+      "original": "A brother, or other relatives or friends, denotes that you may be called on for charity or aid within a short time.",
+      "translation_ko": "형제나 다른 살붙이·벗이 나오면, 머지않아 도움이나 베풂을 청받는다"
+    }
+  },
+  {
+    "term_ko": "죽음",
+    "term_en": "death",
+    "context": "가까운 이가 죽어 있는 것을 봄",
+    "interpretation_ko": "무너짐이나 슬픔이 다가온다는 경고이며 어그러짐이 뒤따를 조짐",
+    "interpretation_en": "warns you of coming dissolution or sorrow, and disappointments always follow",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Death",
+      "original": "To dream of seeing any of your people dead, warns you of coming dissolution or sorrow. Disappointments always follow dreams of this nature.",
+      "translation_ko": "제 사람 가운데 누가 죽어 있는 것을 보는 꿈은, 다가올 무너짐이나 슬픔을 알린다. 이런 꿈 뒤에는 늘 어그러짐이 따른다"
+    }
+  },
+  {
+    "term_ko": "죽음",
+    "term_en": "death",
+    "context": "벗이나 살붙이가 죽었다는 말을 들음",
+    "interpretation_ko": "머지않아 그들에게서 나쁜 소식이 올 조짐",
+    "interpretation_en": "you will soon have bad news from some of them",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Death",
+      "original": "To hear of any friend or relative being dead, you will soon have bad news from some of them.",
+      "translation_ko": "벗이나 살붙이가 죽었다는 말을 들으면, 머지않아 그들에게서 나쁜 소식이 온다"
+    }
+  }
+]

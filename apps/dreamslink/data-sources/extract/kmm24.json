@@ -1,0 +1,300 @@
+[
+  {
+    "id": "cymbal",
+    "aliases": [
+      "심벌즈 소리",
+      "제금"
+    ],
+    "aliases_en": [
+      "cymbals",
+      "a cymbal"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dagger",
+    "aliases": [
+      "단도를 보았다",
+      "단도를 빼앗"
+    ],
+    "aliases_en": [
+      "a dagger",
+      "daggers"
+    ],
+    "contexts": {
+      "단도를 봄": "놓인 번쩍 들려",
+      "남의 손에서 단도를 빼앗음": "빼앗 낚아 손에서"
+    },
+    "contexts_en": {
+      "단도를 봄": "threatening enemies seen",
+      "남의 손에서 단도를 빼앗음": "wrench counteract overcome"
+    }
+  },
+  {
+    "id": "dahlia",
+    "aliases": [
+      "달리아꽃",
+      "달리아를 보았다"
+    ],
+    "aliases_en": [
+      "dahlias",
+      "a dahlia"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dairy",
+    "aliases": [
+      "젖 짜는 곳",
+      "목장 우유간"
+    ],
+    "aliases_en": [
+      "a dairy",
+      "dairy farm"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "daisy",
+    "aliases": [
+      "데이지꽃",
+      "데이지 다발"
+    ],
+    "aliases_en": [
+      "daisies",
+      "a daisy"
+    ],
+    "contexts": {
+      "데이지 한 다발을 봄": "다발 묶음 한아름",
+      "데이지가 활짝 핀 들에 있음": "들에 들판 활짝 피어",
+      "철 아닌 때에 데이지를 봄": "아닌 제철이 때아닌"
+    },
+    "contexts_en": {
+      "데이지 한 다발을 봄": "bunch sadness implies",
+      "데이지가 활짝 핀 들에 있음": "field bloom shining",
+      "철 아닌 때에 데이지를 봄": "season assailed guise"
+    }
+  },
+  {
+    "id": "damask-rose",
+    "aliases": [
+      "다마스크 장미꽃",
+      "다마스크 장미 다발"
+    ],
+    "aliases_en": [
+      "damask roses",
+      "a damask rosebush"
+    ],
+    "contexts": {
+      "잎과 꽃이 무성한 다마스크 장미 덤불을 봄": "덤불 무성 잎과",
+      "연인이 이 장미를 머리에 꽂아 줌": "머리에 꽂아 꽂았",
+      "여성이 봄에 다마스크 장미 다발을 받음": "봄에 봄날 받았",
+      "여성이 겨울에 다마스크 장미 다발을 받음": "겨울에 겨울날 한겨울"
+    },
+    "contexts_en": {
+      "잎과 꽃이 무성한 다마스크 장미 덤불을 봄": "foliage wedding fulfilled",
+      "연인이 이 장미를 머리에 꽂아 줌": "hair place deceived",
+      "여성이 봄에 다마스크 장미 다발을 받음": "springtime faithful lover",
+      "여성이 겨울에 다마스크 장미 다발을 받음": "winter blasted cherish"
+    }
+  },
+  {
+    "id": "damson",
+    "aliases": [
+      "댐슨",
+      "자줏빛 자두"
+    ],
+    "aliases_en": [
+      "damsons",
+      "damson tree"
+    ],
+    "contexts": {
+      "자줏빛 열매가 그득한 나무를 봄": "나무 가지 그득",
+      "댐슨 자두를 먹음": "먹었 먹는 씹었"
+    },
+    "contexts_en": {
+      "자줏빛 열매가 그득한 나무를 봄": "trees branches purple",
+      "댐슨 자두를 먹음": "eating grief forebodes"
+    }
+  },
+  {
+    "id": "dancing-master",
+    "aliases": [
+      "춤 가르치는 사람",
+      "무용 선생",
+      "춤선생인"
+    ],
+    "aliases_en": [
+      "a dancing master",
+      "dance teacher"
+    ],
+    "contexts": {
+      "춤선생을 봄": "보았 만났 앞에",
+      "젊은 여성이 제 연인이 춤선생인 꿈을 꿈": "연인 애인 여자"
+    },
+    "contexts_en": {
+      "춤선생을 봄": "neglect important frivolities",
+      "젊은 여성이 제 연인이 춤선생인 꿈을 꿈": "lover friend accordance"
+    }
+  },
+  {
+    "id": "dandelion",
+    "aliases": [
+      "민들레꽃",
+      "민들레가 피"
+    ],
+    "aliases_en": [
+      "dandelions",
+      "a dandelion"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "danger",
+    "aliases": [
+      "위태로운",
+      "위험한 자리",
+      "위험에 빠졌다"
+    ],
+    "aliases_en": [
+      "perilous situation",
+      "in danger"
+    ],
+    "contexts": {
+      "위험한 자리에 놓였다가 벗어남": "빠져나 모면 피했",
+      "위험에서 벗어나지 못하고 죽거나 다침": "죽거나 다쳤 갇혔"
+    },
+    "contexts_en": {
+      "위험한 자리에 놓였다가 벗어남": "emerge obscurity distinction",
+      "위험에서 벗어나지 못하고 죽거나 다침": "escape wound annoyed"
+    }
+  },
+  {
+    "id": "dark",
+    "aliases": [
+      "캄캄",
+      "어두컴컴",
+      "어둠 속"
+    ],
+    "aliases_en": [
+      "darkness",
+      "in the dark"
+    ],
+    "contexts": {
+      "길을 가다 어둠이 덮침": "길을 가다 덮쳤",
+      "어둠 속에서 벗이나 아이를 잃음": "잃었 잃어버 놓쳤"
+    },
+    "contexts_en": {
+      "길을 가다 어둠이 덮침": "overtaking journey augurs",
+      "어둠 속에서 벗이나 아이를 잃음": "lose friend provocations"
+    }
+  },
+  {
+    "id": "dates",
+    "aliases": [
+      "대추야자 열매",
+      "야자 열매"
+    ],
+    "aliases_en": [
+      "date palm",
+      "dried dates"
+    ],
+    "contexts": {
+      "나무에 달린 대추야자를 봄": "나무에 달린 매달",
+      "말려 파는 대추야자를 먹음": "말린 먹었 사서"
+    },
+    "contexts_en": {
+      "나무에 달린 대추야자를 봄": "parent trees prosperity",
+      "말려 파는 대추야자를 먹음": "prepared commerce want"
+    }
+  },
+  {
+    "id": "daughter",
+    "aliases": [
+      "딸아이",
+      "딸자식",
+      "제 딸"
+    ],
+    "aliases_en": [
+      "my daughter",
+      "a daughter"
+    ],
+    "contexts": {
+      "딸 꿈을 꿈": "보았 만났 함께",
+      "딸이 제 뜻에 맞지 않음": "맞지 어긋 뜻대로"
+    },
+    "contexts_en": {
+      "딸 꿈을 꿈": "displeasing incidents harmony",
+      "딸이 제 뜻에 맞지 않음": "fails wishes vexation"
+    }
+  },
+  {
+    "id": "daughter-in-law",
+    "aliases": [
+      "며늘아기",
+      "아들의 아내"
+    ],
+    "aliases_en": [
+      "a daughter-in-law",
+      "son's wife"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "david",
+    "aliases": [
+      "다윗 왕",
+      "성경의 다윗"
+    ],
+    "aliases_en": [
+      "king david"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "day",
+    "aliases": [
+      "낮 동안",
+      "환한 낮",
+      "대낮에"
+    ],
+    "aliases_en": [
+      "the day",
+      "daytime"
+    ],
+    "contexts": {
+      "환한 낮 꿈을 꿈": "환한 밝은 맑은",
+      "흐리거나 구름 낀 낮을 봄": "흐리 구름 우중충"
+    },
+    "contexts_en": {
+      "환한 낮 꿈을 꿈": "improvement situation associations",
+      "흐리거나 구름 낀 낮을 봄": "gloomy cloudy enterprises"
+    }
+  },
+  {
+    "id": "daybreak",
+    "aliases": [
+      "동틀 무렵",
+      "날이 밝아",
+      "먼동"
+    ],
+    "aliases_en": [
+      "day break",
+      "dawn"
+    ],
+    "contexts": {
+      "날이 밝아 오는 것을 봄": "밝아 지켜 동트",
+      "새벽 빛이 흐릿하고 기괴함": "흐릿 기괴 어슴푸레"
+    },
+    "contexts_en": {
+      "날이 밝아 오는 것을 봄": "watch successful undertakings",
+      "새벽 빛이 흐릿하고 기괴함": "indistinct weird assured"
+    }
+  }
+]
