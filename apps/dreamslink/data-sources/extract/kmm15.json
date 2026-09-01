@@ -1,0 +1,335 @@
+[
+  {
+    "id": "coach",
+    "aliases": [
+      "합승 마차"
+    ],
+    "aliases_en": [
+      "coach",
+      "coaches",
+      "stagecoach"
+    ],
+    "contexts": {
+      "역마차를 타고 감": "타고 탔다 올라",
+      "역마차를 몲": "몰았 몰고 부렸"
+    },
+    "contexts_en": {
+      "역마차를 타고 감": "riding losses depressions",
+      "역마차를 몲": "driving removal changes"
+    }
+  },
+  {
+    "id": "coals",
+    "aliases": [
+      "석탄불",
+      "연탄"
+    ],
+    "aliases_en": [
+      "coal"
+    ],
+    "contexts": {
+      "벌겋게 타는 석탄을 봄": "벌겋 타는 이글",
+      "석탄을 손으로 만짐": "손으로 만졌 집었",
+      "불 꺼진 석탄을 봄": "꺼진 식은 죽은"
+    },
+    "contexts_en": {
+      "벌겋게 타는 석탄을 봄": "bright fire pleasant",
+      "석탄을 손으로 만짐": "handle handling yourself",
+      "불 꺼진 석탄을 봄": "dead trouble disappointments"
+    }
+  },
+  {
+    "id": "coal-hod",
+    "aliases": [
+      "석탄 바구니"
+    ],
+    "aliases_en": [
+      "a coal-hod",
+      "hod",
+      "hods"
+    ],
+    "contexts": {
+      "석탄통을 봄": "보았 놓여 곁에",
+      "이웃이 석탄통을 나르는 것을 봄": "이웃 나르 옮기는"
+    },
+    "contexts_en": {
+      "석탄통을 봄": "grief vacancy extravagance",
+      "이웃이 석탄통을 나르는 것을 봄": "neighbor carrying distasteful"
+    }
+  },
+  {
+    "id": "coat",
+    "aliases": [
+      "코트",
+      "웃옷"
+    ],
+    "aliases_en": [
+      "a coat",
+      "coats",
+      "overcoat"
+    ],
+    "contexts": {
+      "남의 외투를 입음": "남의 다른사람 빌려",
+      "외투가 찢어진 것을 봄": "찢어 해진 뜯어",
+      "새 외투를 봄": "새것 새로 반듯",
+      "외투를 잃어버림": "잃어 잃었 없어졌"
+    },
+    "contexts_en": {
+      "남의 외투를 입음": "another security friend",
+      "외투가 찢어진 것을 봄": "torn loss dreary",
+      "새 외투를 봄": "literary honor",
+      "외투를 잃어버림": "lose lost rebuild"
+    }
+  },
+  {
+    "id": "coat-of-arms",
+    "aliases": [
+      "집안 문장",
+      "가문의 문장"
+    ],
+    "aliases_en": [
+      "coat of arms",
+      "heraldic arms"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cocoa",
+    "aliases": [
+      "코코아차"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cocoanut",
+    "aliases": [
+      "야자 열매",
+      "코코야자"
+    ],
+    "aliases_en": [
+      "cocoanuts",
+      "coconut"
+    ],
+    "contexts": {
+      "코코넛을 봄": "보았 열매 있었",
+      "죽은 코코넛 나무를 봄": "죽은 말라 나무가"
+    },
+    "contexts_en": {
+      "코코넛을 봄": "fatalities expectations guise",
+      "죽은 코코넛 나무를 봄": "trees loss sorrow"
+    }
+  },
+  {
+    "id": "cock-crowing",
+    "aliases": [
+      "수탉이 울었다",
+      "닭 우는 소리"
+    ],
+    "aliases_en": [
+      "cock crowing",
+      "crowing"
+    ],
+    "contexts": {
+      "아침에 수탉 우는 소리를 들음": "아침 새벽 동틀",
+      "홀몸인 이가 수탉 울음을 들음": "홀몸 혼자인 미혼",
+      "밤에 수탉 우는 소리를 들음": "밤에 한밤 야밤",
+      "수탉끼리 싸우는 것을 봄": "싸우 싸움 다투"
+    },
+    "contexts_en": {
+      "아침에 수탉 우는 소리를 들음": "morning significant",
+      "홀몸인 이가 수탉 울음을 들음": "single early luxurious",
+      "밤에 수탉 우는 소리를 들음": "night despair tears",
+      "수탉끼리 싸우는 것을 봄": "fight fighting infidelity"
+    }
+  },
+  {
+    "id": "cockade",
+    "aliases": [
+      "모자 표식",
+      "휘장"
+    ],
+    "aliases_en": [
+      "a cockade"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cocktail",
+    "aliases": [
+      "칵테일 잔"
+    ],
+    "aliases_en": [
+      "cocktails"
+    ],
+    "contexts": {
+      "칵테일을 마심": "들이켰 홀짝 술잔",
+      "여성이 칵테일을 마심": "여자 여성 부인"
+    },
+    "contexts_en": {
+      "칵테일을 마심": "deceive inclinations posing",
+      "여성이 칵테일을 마심": "woman loose rules"
+    }
+  },
+  {
+    "id": "coca-cola",
+    "aliases": [
+      "코카콜라",
+      "탄산음료"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "coffee",
+    "aliases": [
+      "커피콩",
+      "원두"
+    ],
+    "aliases_en": [
+      "coffees"
+    ],
+    "contexts": {
+      "커피를 마심": "마셨 마시 한잔",
+      "커피를 거래함": "거래 장사 사고팔",
+      "커피를 팜": "팔았 팔고 판매",
+      "커피를 삼": "샀다 사서 구입",
+      "젊은 여성이 커피를 다룸": "여자 여성 처녀",
+      "커피를 볶음": "볶았 볶는 로스",
+      "곱게 간 커피를 봄": "곱게 갈아 분말",
+      "바싹 태운 커피를 봄": "태운 바싹 그을",
+      "덜 익은 푸른 커피를 봄": "푸른 익은 생두"
+    },
+    "contexts_en": {
+      "커피를 마심": "drinking disapproval marriage",
+      "커피를 거래함": "dealing failures",
+      "커피를 팜": "selling sure",
+      "커피를 삼": "buying credit retain",
+      "젊은 여성이 커피를 다룸": "handle discreet actions",
+      "커피를 볶음": "roasting escape luckily",
+      "곱게 간 커피를 봄": "ground adversity struggles",
+      "바싹 태운 커피를 봄": "parched attentions evil",
+      "덜 익은 푸른 커피를 봄": "green bold overthrow"
+    }
+  },
+  {
+    "id": "coffee-mill",
+    "aliases": [
+      "커피 그라인더",
+      "커피 맷돌"
+    ],
+    "aliases_en": [
+      "a coffee mill"
+    ],
+    "contexts": {
+      "커피 분쇄기를 봄": "보았 놓여 있는",
+      "분쇄기가 가는 소리를 들음": "가는 소리 갈리는"
+    },
+    "contexts_en": {
+      "커피 분쇄기를 봄": "critical danger alertness",
+      "분쇄기가 가는 소리를 들음": "grinding hear overthrow"
+    }
+  },
+  {
+    "id": "coffee-house",
+    "aliases": [
+      "다방",
+      "카페"
+    ],
+    "aliases_en": [
+      "a coffee house",
+      "coffeehouse"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "coins",
+    "aliases": [
+      "엽전",
+      "잔돈",
+      "동전",
+      "금화",
+      "은화",
+      "금돈",
+      "은돈",
+      "구리돈"
+    ],
+    "aliases_en": [
+      "coin",
+      "a coin"
+    ],
+    "contexts": {
+      "금돈을 봄": "금돈 금화 금으로",
+      "은돈을 봄": "은돈 은화 은으로",
+      "연인이 은돈을 줌": "연인 애인 주었",
+      "구리돈을 봄": "구리 동화 놋쇠",
+      "니켈 동전을 봄": "니켈 백동",
+      "반짝이는 은돈을 지니고 있음": "반짝 깨끗한 지니고"
+    },
+    "contexts_en": {
+      "금돈을 봄": "gold prosperity voyages",
+      "은돈을 봄": "silver dissensions families",
+      "연인이 은돈을 줌": "lover gives jilted",
+      "구리돈을 봄": "copper despair burdens",
+      "니켈 동전을 봄": "nickel lowest devolve",
+      "반짝이는 은돈을 지니고 있음": "bright clean propitious"
+    }
+  },
+  {
+    "id": "coke",
+    "aliases": [
+      "코크스 연료"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "coke-oven",
+    "aliases": [
+      "코크스 화덕"
+    ],
+    "aliases_en": [
+      "coke ovens"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cold",
+    "aliases": [
+      "몹시 추운",
+      "추워서",
+      "한기"
+    ],
+    "aliases_en": [
+      "freezing",
+      "chill"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "colonel",
+    "aliases": [
+      "연대장"
+    ],
+    "aliases_en": [
+      "a colonel",
+      "colonels"
+    ],
+    "contexts": {
+      "대령을 보거나 그 명을 받음": "보았 명을 지휘를",
+      "내가 대령임": "내가 나는 스스로"
+    },
+    "contexts_en": {
+      "대령을 보거나 그 명을 받음": "commanded seeing prominence",
+      "내가 대령임": "position above acquaintances"
+    }
+  }
+]

@@ -9,6 +9,7 @@
     "m14.json",
     "m15.json",
     "m16.json",
+    "m17.json",
     "m2.json",
     "m3.json",
     "m4a.json",
@@ -5565,6 +5566,208 @@
       ]
     },
     {
+      "id": "coffin",
+      "term_ko": "관",
+      "term_en": "coffin",
+      "aliases": [
+        "관짝",
+        "목관",
+        "관곽"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관 꿈을 꿈",
+          "interpretation_ko": "운이 나쁜 조짐 — 농사는 망치고, 장사하는 이에게는 갚을 수 없는 빚이, 젊은이에게는 언짢은 인연과 아끼는 이의 죽음이 온다",
+          "interpretation_en": "an unlucky dream: blasted crops for the farmer, unavoidable debts for business men, unhappy unions and death of loved ones for the young",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffin",
+              "original": "This dream is unlucky.  You will, if you are a farmer, see your crops blasted and your cattle lean and unhealthy.  To business men it means debts whose accumulation they are powerless to avoid.  To the young it denotes unhappy unions and death of loved ones.",
+              "translation_ko": "이 꿈은 운이 나쁘다. 농사짓는 이라면 곡식이 말라 죽고 소들이 여위어 병드는 것을 보게 된다. 장사하는 이에게는 쌓이는 것을 막을 수 없는 빚을 뜻한다. 젊은이에게는 언짢은 인연과 아끼는 이의 죽음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 관을 봄",
+          "interpretation_ko": "일에서 지고 집안에 슬픔이 있을 조짐",
+          "interpretation_en": "business defeat and domestic sorrow may be expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffin",
+              "original": "To see your own coffin in a dream, business defeat and domestic sorrow may be expected.",
+              "translation_ko": "꿈에서 제 관을 보면 일에서 지고 집안에 슬픔이 있을 것을 예상할 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "관이 스스로 움직임",
+          "interpretation_ko": "병과 혼사가 잇달아 오고 슬픔과 기쁨이 뒤섞일 조짐",
+          "interpretation_en": "sickness and marriage in close conjunction; sorrow and pleasure intermingled",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffin",
+              "original": "To dream of a coffin moving of itself, denotes sickness and marriage in close conjunction.  Sorrow and pleasure intermingled.",
+              "translation_ko": "관이 스스로 움직이는 꿈은 병과 혼사가 잇달아 옴을 뜻한다. 슬픔과 기쁨이 뒤섞인다"
+            }
+          ]
+        },
+        {
+          "context": "관 속의 제 주검을 봄",
+          "interpretation_ko": "용감한 애씀이 패배와 수모로 무너질 조짐",
+          "interpretation_en": "brave efforts will be crushed in defeat and ignominy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffin",
+              "original": "To see your corpse in a coffin, signifies brave efforts will be crushed in defeat and ignominy,",
+              "translation_ko": "관 속에 든 제 주검을 보면 용감한 애씀이 패배와 수모로 무너짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "움직이는 영구차 위 관에 앉아 있음",
+          "interpretation_ko": "나나 가까운 이에게 위중한 병이 올 조짐 — 다른 성과의 다툼도 비친다",
+          "interpretation_en": "desperate if not fatal illness for you or some person closely allied to you; quarrels with the opposite sex are also indicated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffin",
+              "original": "To dream that you find yourself sitting on a coffin in a moving hearse, denotes desperate if not fatal illness for you or some person closely allied to you.",
+              "translation_ko": "움직이는 영구차 위 관에 앉아 있는 꿈은, 나나 가까이 얽힌 누군가에게 위중하거나 목숨을 앗을 병이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "대청 위에 관이 놓여 있음",
+          "interpretation_ko": "몸이 편안하고 즐거울 조짐",
+          "interpretation_en": "a sign of bodily ease and joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "堂上有棺身安樂",
+              "translation_ko": "대청 위에 관이 있으면 몸이 편안하고 즐겁다"
+            }
+          ]
+        },
+        {
+          "context": "새 무덤과 관을 봄",
+          "interpretation_ko": "근심이 풀릴 조짐",
+          "interpretation_en": "a sign that worries will be lifted",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "新塚棺槨主憂除",
+              "translation_ko": "새 무덤과 관은 근심이 없어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "관이 무덤에서 저절로 나옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "棺自出墓中大吉",
+              "translation_ko": "관이 무덤에서 저절로 나오면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "관을 집으로 들임",
+          "interpretation_ko": "벼슬과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining rank and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "抬棺入宅祿位至",
+              "translation_ko": "관을 들어 집에 들이면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "시신이 관 밖으로 나옴",
+          "interpretation_ko": "손님이 찾아올 조짐",
+          "interpretation_en": "a sign that a visitor will come",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "死人出棺外客至",
+              "translation_ko": "죽은 사람이 관 밖으로 나오면 손님이 온다"
+            }
+          ]
+        },
+        {
+          "context": "관을 열고 죽은 사람과 말함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "開棺與死人言凶",
+              "translation_ko": "관을 열고 죽은 사람과 말하면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "관에 시신을 넣는 것을 봄",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "棺殮死人主得財",
+              "translation_ko": "관에 시신을 넣으면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에 뜬 관을 봄",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "見棺水上大得財",
+              "translation_ko": "물 위에 있는 관을 보면 크게 재물을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ox",
       "term_ko": "소",
       "term_en": "ox",
@@ -8098,6 +8301,150 @@
       ]
     },
     {
+      "id": "coffee",
+      "term_ko": "커피",
+      "term_en": "coffee",
+      "aliases": [
+        "커피콩",
+        "원두"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "커피를 마심",
+          "interpretation_ko": "혼사에 벗들이 반대하고, 혼인한 이에게는 다툼이 잦을 조짐",
+          "interpretation_en": "the disapproval of friends toward your marriage intentions; if married, disagreements and frequent quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "To dream of drinking coffee, denotes the disapproval of friends toward your marriage intentions.  If married, disagreements and frequent quarrels are implied.",
+              "translation_ko": "커피를 마시는 꿈은 혼삿일에 벗들이 반대함을 뜻한다. 혼인한 이라면 뜻이 어긋나고 다툼이 잦아진다"
+            }
+          ]
+        },
+        {
+          "context": "커피를 거래함",
+          "interpretation_ko": "하는 일이 실패할 조짐",
+          "interpretation_en": "business failures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "To dream of dealing in coffee, portends business failures.",
+              "translation_ko": "커피를 거래하는 꿈은 하는 일의 실패를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "커피를 팜",
+          "interpretation_ko": "틀림없이 손해를 볼 조짐",
+          "interpretation_en": "sure loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "If selling, sure loss.",
+              "translation_ko": "파는 것이라면 틀림없는 손해다"
+            }
+          ]
+        },
+        {
+          "context": "커피를 삼",
+          "interpretation_ko": "신용을 어렵지 않게 지킬 조짐",
+          "interpretation_en": "you may with ease retain your credit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "Buying it, you may with ease retain your credit.",
+              "translation_ko": "사는 것이라면 신용을 어렵지 않게 지킬 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 커피를 다룸",
+          "interpretation_ko": "처신을 삼가지 않으면 입에 오르내릴 조짐",
+          "interpretation_en": "she will be made a by-word if she is not discreet in her actions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "For a young woman to see or handle coffee she will be made a by-word if she is not discreet in her actions.",
+              "translation_ko": "젊은 여성이 커피를 보거나 다루면, 처신을 삼가지 않을 경우 입에 오르내리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "커피를 볶음",
+          "interpretation_ko": "낯선 이와 좋게 혼인해 화를 면할 조짐",
+          "interpretation_en": "escape from evil by luckily marrying a stranger",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "To dream of roasting coffee, for a young woman it denotes escape from evil by luckily marrying a stranger.",
+              "translation_ko": "커피를 볶는 꿈은, 젊은 여성에게는 낯선 이와 좋게 혼인해 화를 면함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "곱게 간 커피를 봄",
+          "interpretation_ko": "역경과 싸워 이겨 낼 조짐",
+          "interpretation_en": "successful struggles with adversity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "To see ground coffee, foretells successful struggles with adversity.",
+              "translation_ko": "곱게 간 커피를 보면 역경과 싸워 이겨 냄을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "바싹 태운 커피를 봄",
+          "interpretation_ko": "낯선 이들이 나쁜 마음으로 다가올 조짐",
+          "interpretation_en": "the evil attentions of strangers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "Parched coffee, warns you of the evil attentions of strangers.",
+              "translation_ko": "바싹 태운 커피는 낯선 이들이 나쁜 마음으로 다가옴을 경고한다"
+            }
+          ]
+        },
+        {
+          "context": "덜 익은 푸른 커피를 봄",
+          "interpretation_ko": "봐주는 법 없이 나를 무너뜨리려 싸울 대담한 적이 있을 조짐",
+          "interpretation_en": "you have bold enemies who will show you no quarter, but will fight for your overthrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee",
+              "original": "Green coffee, denotes you have bold enemies who will show you no quarter, but will fight for your overthrow.",
+              "translation_ko": "덜 익은 푸른 커피는, 봐주는 법 없이 나를 무너뜨리려 싸울 대담한 적이 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "grave",
       "term_ko": "무덤",
       "term_en": "grave",
@@ -9312,137 +9659,6 @@
               "locator": "Cemetery",
               "original": "To see little children gathering flowers and chasing butterflies among the graves, denotes prosperous changes and no graves of any of your friends to weep over.  Good health will hold high carnival.",
               "translation_ko": "무덤 사이에서 어린아이들이 꽃을 꺾고 나비를 쫓는 것을 보면, 넉넉해지는 변화가 오고 울어야 할 벗의 무덤이 없다. 건강이 한껏 넘친다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "coffin",
-      "term_ko": "관",
-      "term_en": "coffin",
-      "aliases": [
-        "관짝",
-        "목관",
-        "관곽"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "대청 위에 관이 놓여 있음",
-          "interpretation_ko": "몸이 편안하고 즐거울 조짐",
-          "interpretation_en": "a sign of bodily ease and joy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "堂上有棺身安樂",
-              "translation_ko": "대청 위에 관이 있으면 몸이 편안하고 즐겁다"
-            }
-          ]
-        },
-        {
-          "context": "새 무덤과 관을 봄",
-          "interpretation_ko": "근심이 풀릴 조짐",
-          "interpretation_en": "a sign that worries will be lifted",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "新塚棺槨主憂除",
-              "translation_ko": "새 무덤과 관은 근심이 없어질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "관이 무덤에서 저절로 나옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "棺自出墓中大吉",
-              "translation_ko": "관이 무덤에서 저절로 나오면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "관을 집으로 들임",
-          "interpretation_ko": "벼슬과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining rank and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "抬棺入宅祿位至",
-              "translation_ko": "관을 들어 집에 들이면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "시신이 관 밖으로 나옴",
-          "interpretation_ko": "손님이 찾아올 조짐",
-          "interpretation_en": "a sign that a visitor will come",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "死人出棺外客至",
-              "translation_ko": "죽은 사람이 관 밖으로 나오면 손님이 온다"
-            }
-          ]
-        },
-        {
-          "context": "관을 열고 죽은 사람과 말함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "開棺與死人言凶",
-              "translation_ko": "관을 열고 죽은 사람과 말하면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "관에 시신을 넣는 것을 봄",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "棺殮死人主得財",
-              "translation_ko": "관에 시신을 넣으면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에 뜬 관을 봄",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "見棺水上大得財",
-              "translation_ko": "물 위에 있는 관을 보면 크게 재물을 얻는다"
             }
           ]
         }
@@ -12776,6 +12992,114 @@
               "locator": "Canoe",
               "original": "Shallow, clear and calm waters in rowing, signifies happiness of a pleasing character, but of short duration.",
               "translation_ko": "노를 저을 때 물이 얕고 맑고 잔잔하면 기꺼운 행복을 뜻하나 오래가지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coins",
+      "term_ko": "동전",
+      "term_en": "coins",
+      "aliases": [
+        "엽전",
+        "잔돈",
+        "동전",
+        "금화",
+        "은화",
+        "금돈",
+        "은돈",
+        "구리돈"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "금돈을 봄",
+          "interpretation_ko": "크게 넉넉해지고 구경과 바닷길에서 큰 즐거움을 얻을 조짐",
+          "interpretation_en": "great prosperity and much pleasure derived from sight-seeing and ocean voyages",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "To dream of gold, denotes great prosperity and much pleasure derived from sight-seeing and ocean voyages.",
+              "translation_ko": "금 꿈은 크게 넉넉해지고, 구경과 바닷길에서 큰 즐거움을 얻게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "은돈을 봄",
+          "interpretation_ko": "가장 화목한 집안에도 불화가 일 조짐",
+          "interpretation_en": "unlucky; dissensions will arise in the most orderly families",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "Silver coin is unlucky to dream about.  Dissensions will arise in the most orderly families.",
+              "translation_ko": "은돈은 꿈에 보면 운이 나쁘다. 가장 화목한 집안에도 불화가 인다"
+            }
+          ]
+        },
+        {
+          "context": "연인이 은돈을 줌",
+          "interpretation_ko": "그에게 버림받을 조짐",
+          "interpretation_en": "she will be jilted by him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "For a maiden to dream that her lover gives her a silver coin, signifies she will be jilted by him.",
+              "translation_ko": "처녀가 연인에게서 은돈을 받는 꿈을 꾸면, 그에게 버림받게 된다"
+            }
+          ]
+        },
+        {
+          "context": "구리돈을 봄",
+          "interpretation_ko": "절망과 몸의 짐이 있을 조짐",
+          "interpretation_en": "despair and physical burdens",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "Copper coins, denotes despair and physical burdens.",
+              "translation_ko": "구리돈은 절망과 몸의 짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "니켈 동전을 봄",
+          "interpretation_ko": "가장 낮은 일이 내게 맡겨질 조짐",
+          "interpretation_en": "work of the lowest nature will devolve upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "Nickel coins, imply that work of the lowest nature will devolve upon you.",
+              "translation_ko": "니켈 동전은 가장 낮은 일이 내게 맡겨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "반짝이는 은돈을 지니고 있음",
+          "interpretation_ko": "좋은 조짐",
+          "interpretation_en": "the dream will be a propitious one",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coins",
+              "original": "If silver coins are your ideal of money, and they are bright and clean, or seen distinctly in your possession, the dream will be a propitious one.",
+              "translation_ko": "은돈이 내가 여기는 돈이고 그것이 밝고 깨끗하거나 내 손안에 또렷이 보인다면, 그 꿈은 좋은 꿈이다"
             }
           ]
         }
@@ -20754,6 +21078,154 @@
       ]
     },
     {
+      "id": "coat",
+      "term_ko": "외투",
+      "term_en": "coat",
+      "aliases": [
+        "코트",
+        "웃옷"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남의 외투를 입음",
+          "interpretation_ko": "벗에게 보증을 서 달라고 청하게 될 조짐",
+          "interpretation_en": "you will ask some friend to go security for you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To dream of wearing another's coat, signifies that you will ask some friend to go security for you.",
+              "translation_ko": "남의 외투를 입는 꿈은 벗에게 보증을 서 달라고 청하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "외투가 찢어진 것을 봄",
+          "interpretation_ko": "가까운 벗을 잃고 일이 스산해질 조짐",
+          "interpretation_en": "the loss of a close friend and dreary business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To see your coat torn, denotes the loss of a close friend and dreary business.",
+              "translation_ko": "제 외투가 찢어진 것을 보면 가까운 벗을 잃고 일이 스산해진다"
+            }
+          ]
+        },
+        {
+          "context": "새 외투를 봄",
+          "interpretation_ko": "글로 얻는 영예가 있을 조짐",
+          "interpretation_en": "some literary honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To see a new coat, portends for you some literary honor.",
+              "translation_ko": "새 외투를 보면 글로 얻는 영예가 온다"
+            }
+          ]
+        },
+        {
+          "context": "외투를 잃어버림",
+          "interpretation_ko": "지나친 자신으로 잃은 재물을 다시 쌓아야 할 조짐",
+          "interpretation_en": "you will have to rebuild your fortune lost through being over-confident in speculations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To lose your coat, you will have to rebuild your fortune lost through being over-confident in speculations.",
+              "translation_ko": "외투를 잃어버리면, 지나친 자신으로 잃은 재물을 다시 쌓아야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cock-crowing",
+      "term_ko": "수탉 울음",
+      "term_en": "cock-crowing",
+      "aliases": [
+        "수탉이 울었다",
+        "닭 우는 소리"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아침에 수탉 우는 소리를 들음",
+          "interpretation_ko": "좋은 일을 알리는 조짐",
+          "interpretation_en": "significant of good",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cock-Crowing",
+              "original": "To dream of hearing a cock crowing in the morning, is significant of good.",
+              "translation_ko": "아침에 수탉이 우는 소리를 듣는 꿈은 좋은 일을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "홀몸인 이가 수탉 울음을 들음",
+          "interpretation_ko": "이른 혼인과 넉넉한 집을 얻을 조짐",
+          "interpretation_en": "an early marriage and a luxurious home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cock-Crowing",
+              "original": "If you be single, it denotes an early marriage and a luxurious home.",
+              "translation_ko": "홀몸이라면 이른 혼인과 넉넉한 집을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "밤에 수탉 우는 소리를 들음",
+          "interpretation_ko": "절망이 오고 눈물 흘릴 일이 있을 조짐",
+          "interpretation_en": "despair, and cause for tears",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cock-Crowing",
+              "original": "To hear one at night is despair, and cause for tears you will have.",
+              "translation_ko": "밤에 그 소리를 들으면 절망이고, 눈물 흘릴 일이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "수탉끼리 싸우는 것을 봄",
+          "interpretation_ko": "다툼과 배신 때문에 집을 떠나게 될 조짐 — 뜻밖의 슬픈 일을 알린다",
+          "interpretation_en": "you will leave your family because of quarrels and infidelity; it announces unexpected and sorrowful events",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cock-Crowing",
+              "original": "To dream of seeing cocks fight, you will leave your family because of quarrels and infidelity.  This dream usually announces some unexpected and sorrowful events.",
+              "translation_ko": "수탉들이 싸우는 것을 보는 꿈은 다툼과 배신 때문에 집을 떠나게 됨을 뜻한다. 이 꿈은 대개 뜻밖의 슬픈 일을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fishing",
       "term_ko": "낚시",
       "term_en": "fishing",
@@ -21288,9 +21760,8 @@
       "term_en": "money",
       "aliases": [
         "금전",
-        "현금",
         "지폐",
-        "동전"
+        "돈뭉치를"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -26211,6 +26682,66 @@
               "locator": "捕禁刑罰獄具",
               "original": "自以杖決恥辱生",
               "translation_ko": "스스로 몽둥이로 벌하면 치욕이 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coals",
+      "term_ko": "석탄",
+      "term_en": "coals",
+      "aliases": [
+        "석탄불",
+        "연탄"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벌겋게 타는 석탄을 봄",
+          "interpretation_ko": "즐거움과 기꺼운 변화가 여럿 있을 조짐",
+          "interpretation_en": "pleasure and many pleasant changes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coals",
+              "original": "To see bright coals of fire, denotes pleasure and many pleasant changes.",
+              "translation_ko": "벌겋게 타는 석탄을 보면 즐거움과 기꺼운 변화가 여럿 있다"
+            }
+          ]
+        },
+        {
+          "context": "석탄을 손으로 만짐",
+          "interpretation_ko": "티 없는 기쁨이 있을 조짐",
+          "interpretation_en": "unmitigated joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coals",
+              "original": "To dream you handle them yourself, denotes unmitigated joy.",
+              "translation_ko": "그것을 손수 만지는 꿈은 티 없는 기쁨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "불 꺼진 석탄을 봄",
+          "interpretation_ko": "곤란과 실망이 있을 조짐",
+          "interpretation_en": "trouble and disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coals",
+              "original": "To see dead coals implies trouble and disappointments.",
+              "translation_ko": "불 꺼진 석탄을 보면 곤란과 실망을 뜻한다"
             }
           ]
         }
@@ -36440,6 +36971,278 @@
       ]
     },
     {
+      "id": "coach",
+      "term_ko": "역마차",
+      "term_en": "coach",
+      "aliases": [
+        "합승 마차"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "역마차를 타고 감",
+          "interpretation_ko": "손해와 침체가 이어질 조짐",
+          "interpretation_en": "continued losses and depressions in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coach",
+              "original": "To dream of riding in a coach, denotes continued losses and depressions in business.",
+              "translation_ko": "역마차를 타고 가는 꿈은 손해와 침체가 이어짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "역마차를 몲",
+          "interpretation_ko": "거처를 옮기거나 하는 일이 바뀔 조짐",
+          "interpretation_en": "removal or business changes",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coach",
+              "original": "Driving one implies removal or business changes.",
+              "translation_ko": "역마차를 모는 것은 거처를 옮기거나 하는 일이 바뀜을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal-hod",
+      "term_ko": "석탄통",
+      "term_en": "coal-hod",
+      "aliases": [
+        "석탄 바구니"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "석탄통을 봄",
+          "interpretation_ko": "헤픈 씀씀이가 남긴 빈자리를 슬픔이 채울 조짐",
+          "interpretation_en": "grief will be likely to fill a vacancy made by reckless extravagance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coal-hod",
+              "original": "To dream of a coal-hod, denotes that grief will be likely to fill a vacancy made by reckless extravagance.",
+              "translation_ko": "석탄통 꿈은 헤픈 씀씀이가 남긴 빈자리를 슬픔이 채우게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "이웃이 석탄통을 나르는 것을 봄",
+          "interpretation_ko": "둘레가 몹시 마뜩잖고 어긋날 조짐",
+          "interpretation_en": "your surroundings will be decidedly distasteful and inharmonious",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coal-hod",
+              "original": "To see your neighbor carrying in hods, foretells your surroundings will be decidedly distasteful and inharmonious.",
+              "translation_ko": "이웃이 석탄통을 나르는 것을 보면 둘레가 몹시 마뜩잖고 어긋나게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocktail",
+      "term_ko": "칵테일",
+      "term_en": "cocktail",
+      "aliases": [
+        "칵테일 잔"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "칵테일을 마심",
+          "interpretation_ko": "제 마음을 벗들에게 숨기고 겉과 다르게 지낼 조짐",
+          "interpretation_en": "you will deceive your friends as to your inclinations while posing as a serious student and staid home lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cocktail",
+              "original": "To drink a cocktail while dreaming, denotes that you will deceive your friends as to your inclinations and enjoy the companionship of fast men and women while posing as a serious student and staid home lover.",
+              "translation_ko": "꿈에서 칵테일을 마시면, 제 마음을 벗들에게 숨긴 채 진지한 공부꾼이자 얌전한 집사람인 척하면서 방탕한 이들과 어울리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 칵테일을 마심",
+          "interpretation_ko": "헤프게 지내며 정해진 규범을 저버릴 조짐",
+          "interpretation_en": "a loose manner of living and an ignoring of set rules",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cocktail",
+              "original": "For a woman, this dream portends fast living and an ignoring of moral and set rules.",
+              "translation_ko": "여성에게 이 꿈은 헤프게 지내며 도덕과 정해진 규범을 저버림을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocoanut",
+      "term_ko": "코코넛",
+      "term_en": "cocoanut",
+      "aliases": [
+        "야자 열매",
+        "코코야자"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코코넛을 봄",
+          "interpretation_ko": "바라던 것이 어그러질 조짐 — 열렬한 벗의 탈을 쓴 적이 내 권리를 넘본다",
+          "interpretation_en": "fatalities in your expectations, as sly enemies are encroaching upon your rights in the guise of ardent friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cocoanut",
+              "original": "Cocoanuts in dreams, warns you of fatalities in your expectations, as sly enemies are encroaching upon your rights in the guise of ardent friends.",
+              "translation_ko": "꿈속의 코코넛은 바라던 것이 어그러질 것을 경고한다. 열렬한 벗의 탈을 쓴 교활한 적이 내 권리를 넘보고 있다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 코코넛 나무를 봄",
+          "interpretation_ko": "잃음과 슬픔의 조짐 — 가까운 이의 죽음이 뒤따를 수 있다",
+          "interpretation_en": "a sign of loss and sorrow; the death of some one near you may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cocoanut",
+              "original": "Dead cocoanut trees are a sign of loss and sorrow.  The death of some one near you may follow.",
+              "translation_ko": "죽은 코코넛 나무는 잃음과 슬픔의 조짐이다. 가까운 이의 죽음이 뒤따를 수 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee-mill",
+      "term_ko": "커피 분쇄기",
+      "term_en": "coffee mill",
+      "aliases": [
+        "커피 그라인더",
+        "커피 맷돌"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "커피 분쇄기를 봄",
+          "interpretation_ko": "위태로운 고비가 다가오니 온 힘과 정신을 다해야 할 조짐",
+          "interpretation_en": "you are approaching a critical danger, and all your energy and alertness will have to stand up to avert it",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee Mill",
+              "original": "To see a coffee mill in your dreams, denotes you are approaching a critical danger, and all your energy and alertness will have to stand up with obduracy to avert its disastrous consequences.",
+              "translation_ko": "꿈에 커피 분쇄기를 보면 위태로운 고비가 다가옴을 뜻한다. 그 참혹한 결과를 막으려면 온 힘과 정신을 굳세게 세워야 한다"
+            }
+          ]
+        },
+        {
+          "context": "분쇄기가 가는 소리를 들음",
+          "interpretation_ko": "내 이익에 맞선 나쁜 것을 좀처럼 이기지 못할 조짐",
+          "interpretation_en": "you will hardly overthrow some evil pitted against your interest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee Mill",
+              "original": "To hear it grinding, signifies you will hardly overthrow some evil pitted against your interest.",
+              "translation_ko": "그것이 가는 소리를 들으면, 내 이익에 맞선 나쁜 것을 좀처럼 이기지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colonel",
+      "term_ko": "대령",
+      "term_en": "colonel",
+      "aliases": [
+        "연대장"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "대령을 보거나 그 명을 받음",
+          "interpretation_ko": "사람들 사이에서나 일에서 두각을 내지 못할 조짐",
+          "interpretation_en": "you will fail to reach any prominence in social or business circles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Colonel",
+              "original": "To dream of seeing or being commanded by a colonel, denotes you will fail to reach any prominence in social or business circles.",
+              "translation_ko": "대령을 보거나 그의 명을 받는 꿈은, 사람들 사이에서나 일에서 두각을 내지 못하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "내가 대령임",
+          "interpretation_ko": "벗이나 아는 이들보다 높은 자리를 차지하게 될 조짐",
+          "interpretation_en": "you will contrive to hold position above those of friends or acquaintances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Colonel",
+              "original": "If you are a colonel, it denotes you will contrive to hold position above those of friends or acquaintances.",
+              "translation_ko": "내가 대령이라면, 벗이나 아는 이들보다 높은 자리를 차지하게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "comb",
       "term_ko": "빗",
       "term_en": "comb",
@@ -42596,6 +43399,260 @@
               "locator": "Cloven Foot",
               "original": "To dream of a cloven foot, portends some unusual ill luck is threatening you, and you will do well to avoid the friendship of strange persons.",
               "translation_ko": "갈라진 발굽 꿈은 흔치 않은 궂은 운이 다가옴을 알린다. 낯선 사람과 가까이하지 않는 것이 좋다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coat-of-arms",
+      "term_ko": "가문 문장",
+      "term_en": "coat-of-arms",
+      "aliases": [
+        "집안 문장",
+        "가문의 문장"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가문 문장을 봄",
+          "interpretation_ko": "운이 나쁜 조짐 — 지위를 갖지 못한다",
+          "interpretation_en": "a dream of ill luck; you will never possess a title",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat-of-Arms",
+              "original": "To dream of seeing your coat-of-arms, is a dream of ill luck.  You will never possess a title.",
+              "translation_ko": "제 가문 문장을 보는 꿈은 운이 나쁜 꿈이다. 결코 지위를 갖지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coca-cola",
+      "term_ko": "콜라",
+      "term_en": "coca-cola",
+      "aliases": [
+        "코카콜라",
+        "탄산음료"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "콜라를 마심",
+          "interpretation_ko": "눈앞의 즐거움에 빠져 건강과 좋은 혼처를 잃을 조짐",
+          "interpretation_en": "she will lose health and a chance for marrying a wealthy man by her abandonment to material delights",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coca-Cola",
+              "original": "For a woman to dream that she is drinking coca-cola signifies that she will lose health and a chance for marrying a wealthy man by her abandonment to material delights.",
+              "translation_ko": "여성이 콜라를 마시는 꿈을 꾸면, 눈앞의 즐거움에 빠져 건강과 넉넉한 배필을 만날 기회를 잃게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cockade",
+      "term_ko": "모표",
+      "term_en": "cockade",
+      "aliases": [
+        "모자 표식",
+        "휘장"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "모표를 봄",
+          "interpretation_ko": "적들이 크게 해로운 소송을 걸어올 조짐 — 지위를 조심할 것",
+          "interpretation_en": "foes will bring disastrous suits against you; beware of titles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cockade",
+              "original": "This dream denotes that foes will bring disastrous suits against you.  Beware of titles.",
+              "translation_ko": "이 꿈은 적들이 크게 해로운 소송을 걸어옴을 뜻한다. 지위를 조심하라"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocoa",
+      "term_ko": "코코아",
+      "term_en": "cocoa",
+      "aliases": [
+        "코코아차"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코코아를 봄",
+          "interpretation_ko": "제 이익과 즐거움을 위해 마뜩잖은 벗을 사귀게 될 조짐",
+          "interpretation_en": "you will cultivate distasteful friends for your own advancement and pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cocoa",
+              "original": "To dream of cocoa, denotes you will cultivate distasteful friends for your own advancement and pleasure.",
+              "translation_ko": "코코아 꿈은 제 이익과 즐거움을 위해 마뜩잖은 벗을 사귀게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee-house",
+      "term_ko": "커피집",
+      "term_en": "coffee house",
+      "aliases": [
+        "다방",
+        "카페"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "커피집에 감",
+          "interpretation_ko": "적인 줄 알면서도 어리석게 가까이 지낼 조짐",
+          "interpretation_en": "you will unwisely entertain friendly relations with persons known to be your enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coffee House",
+              "original": "To see or visit a coffee house in your dreams, foretells that you will unwisely entertain friendly relations with persons known to be your enemies.",
+              "translation_ko": "꿈에 커피집을 보거나 찾아가면, 적인 줄 알면서도 어리석게 가까이 지내게 됨을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coke",
+      "term_ko": "코크스",
+      "term_en": "coke",
+      "aliases": [
+        "코크스 연료"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코크스를 봄",
+          "interpretation_ko": "가까운 앞날에 괴로움과 불화가 들 조짐",
+          "interpretation_en": "affliction and discord will enter your near future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coke",
+              "original": "To dream of coke, denotes affliction and discord will enter your near future.",
+              "translation_ko": "코크스 꿈은 가까운 앞날에 괴로움과 불화가 듦을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coke-oven",
+      "term_ko": "코크스 가마",
+      "term_en": "coke oven",
+      "aliases": [
+        "코크스 화덕"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코크스 가마가 타는 것을 봄",
+          "interpretation_ko": "어떤 일의 실패에서 도리어 뜻밖의 좋은 운이 나올 조짐",
+          "interpretation_en": "some unexpected good fortune will result from failure in some enterprise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coke Oven",
+              "original": "To see coke ovens burning, foretells some unexpected good fortune will result from failure in some enterprise.",
+              "translation_ko": "코크스 가마가 타는 것을 보면, 어떤 일의 실패에서 도리어 뜻밖의 좋은 운이 나온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "term_ko": "추위",
+      "term_en": "cold",
+      "aliases": [
+        "몹시 추운",
+        "추워서",
+        "한기"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "추위에 시달림",
+          "interpretation_ko": "제 일을 잘 살피라는 경고 — 무너뜨리려는 적이 있고 건강도 위태롭다",
+          "interpretation_en": "you are warned to look well to your affairs; there are enemies at work to destroy you, and your health is menaced",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cold",
+              "original": "To dream of suffering from cold, you are warned to look well to your affairs.  There are enemies at work to destroy you.  Your health is also menaced.",
+              "translation_ko": "추위에 시달리는 꿈은 제 일을 잘 살피라는 경고다. 나를 무너뜨리려 움직이는 적이 있다. 건강도 위협받는다"
             }
           ]
         }

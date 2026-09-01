@@ -165,7 +165,12 @@
       "시신이 관 밖으로 나옴": "시신이 밖으로 나와",
       "관을 열고 죽은 사람과 말함": "열고 열어 대화 말을걸",
       "관에 시신을 넣는 것을 봄": "시신을 넣는 넣었 안치",
-      "물 위에 뜬 관을 봄": "떠있 떠내려 강물 물에"
+      "물 위에 뜬 관을 봄": "떠있 떠내려 강물 물에",
+      "관 꿈을 꿈": "그냥 문득 관이",
+      "제 관을 봄": "자신의 나의 본인",
+      "관이 스스로 움직임": "움직 스르르 미끄러",
+      "관 속의 제 주검을 봄": "주검 송장 시체",
+      "움직이는 영구차 위 관에 앉아 있음": "영구차 위에 앉아"
     },
     "contexts_en": {
       "대청 위에 관이 놓여 있음": "hall floor lying",
@@ -175,7 +180,12 @@
       "시신이 관 밖으로 나옴": "outside slipped corpse",
       "관을 열고 죽은 사람과 말함": "opened talked spoke dead",
       "관에 시신을 넣는 것을 봄": "putting sealed encoffin body laid",
-      "물 위에 뜬 관을 봄": "floating water river ocean"
+      "물 위에 뜬 관을 봄": "floating water river ocean",
+      "관 꿈을 꿈": "unlucky farmer debts",
+      "제 관을 봄": "own defeat domestic",
+      "관이 스스로 움직임": "moving sickness marriage",
+      "관 속의 제 주검을 봄": "crushed ignominy brave",
+      "움직이는 영구차 위 관에 앉아 있음": "hearse sitting desperate"
     }
   },
   {

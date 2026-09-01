@@ -296,14 +296,12 @@
     "id": "money",
     "aliases": [
       "금전",
-      "현금",
       "지폐",
-      "동전"
+      "돈뭉치를"
     ],
     "aliases_en": [
-      "cash",
-      "coins",
-      "bills"
+      "bills",
+      "currency"
     ],
     "contexts": {
       "남에게 돈과 물건을 돌려줌": "돌려주 돌려줬 갚았 반환",

@@ -1488,9 +1488,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "archery"
   ],
   "money": [
-    "cash",
-    "coins",
-    "bills"
+    "bills",
+    "currency"
   ],
   "bathing": [
     "bath",
@@ -3795,8 +3794,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "carriage": [
     "a carriage",
-    "carriages",
-    "coach"
+    "carriages"
   ],
   "carrot": [
     "carrots",
@@ -4075,5 +4073,66 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cloven-foot": [
     "a cloven foot",
     "cloven hoof"
+  ],
+  "coach": [
+    "coach",
+    "coaches",
+    "stagecoach"
+  ],
+  "coals": [
+    "coal"
+  ],
+  "coal-hod": [
+    "a coal-hod",
+    "hod",
+    "hods"
+  ],
+  "coat": [
+    "a coat",
+    "coats",
+    "overcoat"
+  ],
+  "coat-of-arms": [
+    "coat of arms",
+    "heraldic arms"
+  ],
+  "cocoanut": [
+    "cocoanuts",
+    "coconut"
+  ],
+  "cock-crowing": [
+    "cock crowing",
+    "crowing"
+  ],
+  "cockade": [
+    "a cockade"
+  ],
+  "cocktail": [
+    "cocktails"
+  ],
+  "coffee": [
+    "coffees"
+  ],
+  "coffee-mill": [
+    "a coffee mill"
+  ],
+  "coffee-house": [
+    "a coffee house",
+    "coffeehouse"
+  ],
+  "coins": [
+    "coin",
+    "a coin"
+  ],
+  "coke-oven": [
+    "coke ovens"
+  ],
+  "cold": [
+    "freezing",
+    "chill"
+  ],
+  "colonel": [
+    "a colonel",
+    "colonels"
   ]
 };
