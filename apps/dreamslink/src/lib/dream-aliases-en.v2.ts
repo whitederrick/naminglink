@@ -16,8 +16,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cart": [
     "a cart",
     "carts",
-    "wagon",
-    "carriage"
+    "wagon"
   ],
   "rice-plant": [
     "rice plant",
@@ -3753,5 +3752,76 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "cap": [
     "a cap",
     "caps"
+  ],
+  "captive": [
+    "captives",
+    "held captive"
+  ],
+  "captain": [
+    "a captain",
+    "captains",
+    "commander"
+  ],
+  "railway-car": [
+    "cars",
+    "streetcar",
+    "tramcar"
+  ],
+  "cardinal": [
+    "a cardinal",
+    "cardinals"
+  ],
+  "cards": [
+    "card game",
+    "deck of cards"
+  ],
+  "carnival": [
+    "a carnival",
+    "festival"
+  ],
+  "cartridge": [
+    "cartridges",
+    "a cartridge"
+  ],
+  "carving": [
+    "carve",
+    "carved"
+  ],
+  "carpet": [
+    "carpets",
+    "rug"
+  ],
+  "carpenter": [
+    "carpenters",
+    "a carpenter"
+  ],
+  "carriage": [
+    "a carriage",
+    "carriages",
+    "coach"
+  ],
+  "carrot": [
+    "carrots",
+    "a carrot"
+  ],
+  "cask": [
+    "a cask",
+    "casks",
+    "barrel"
+  ],
+  "cash": [
+    "ready money",
+    "banknotes"
+  ],
+  "cash-box": [
+    "a cash box",
+    "strongbox"
+  ],
+  "cashier": [
+    "a cashier",
+    "teller"
+  ],
+  "castor-oil": [
+    "castor-oil"
   ]
 };

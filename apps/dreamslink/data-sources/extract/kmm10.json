@@ -1,0 +1,373 @@
+[
+  {
+    "id": "captive",
+    "aliases": [
+      "사로잡혔다",
+      "붙잡혀 갇혔다",
+      "인질"
+    ],
+    "aliases_en": [
+      "captives",
+      "held captive"
+    ],
+    "contexts": {
+      "내가 포로가 됨": "내가 나를 갇혀 잡혔",
+      "남을 사로잡음": "남을 상대를 사로잡 붙들어",
+      "젊은 여성이 포로가 됨": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "내가 포로가 됨": "myself escape treachery",
+      "남을 사로잡음": "taking someone lowest",
+      "젊은 여성이 포로가 됨": "woman husband jealous"
+    }
+  },
+  {
+    "id": "captain",
+    "aliases": [
+      "선장",
+      "함장",
+      "부대장",
+      "대위"
+    ],
+    "aliases_en": [
+      "a captain",
+      "captains",
+      "commander"
+    ],
+    "contexts": {
+      "지휘관을 봄": "보았 부대의 군복",
+      "연인이 지휘관임": "연인 애인 남자친구"
+    },
+    "contexts_en": {
+      "지휘관을 봄": "seeing company aspirations",
+      "연인이 지휘관임": "lover jealousy rivalry"
+    }
+  },
+  {
+    "id": "railway-car",
+    "aliases": [
+      "전차",
+      "노면전차",
+      "침대차"
+    ],
+    "aliases_en": [
+      "cars",
+      "streetcar",
+      "tramcar"
+    ],
+    "contexts": {
+      "객차를 봄": "여러 늘어선 줄지어",
+      "객차에 올라탐": "올라탔 올라타 탑승",
+      "객차를 놓침": "놓쳤 놓치 떠나버",
+      "객차에서 내림": "내렸 내리 하차",
+      "침대차를 봄": "침대차 침대칸 누워",
+      "전차를 봄": "전차 노면 시내",
+      "객차를 타고 감": "타고 탔다 몸을",
+      "달리는 전차의 발판에 서 있음": "달리는 승강대 매달려",
+      "발판이 높은 곳에 있음": "높은 높이 위쪽",
+      "발판이 낮은 곳에 있음": "낮은 낮게 아래쪽"
+    },
+    "contexts_en": {
+      "객차를 봄": "seeing journeying succession",
+      "객차에 올라탐": "board boarding contemplation",
+      "객차를 놓침": "miss missed foiled",
+      "객차에서 내림": "alighted schemes congratulations",
+      "침대차를 봄": "sleeping sleeper amass",
+      "전차를 봄": "street malicious disquiet",
+      "객차를 타고 감": "ride rivalry jealousy",
+      "달리는 전차의 발판에 서 있음": "platform standing running",
+      "발판이 높은 곳에 있음": "high apparent danger",
+      "발판이 낮은 곳에 있음": "barely purpose accomplish"
+    }
+  },
+  {
+    "id": "cardinal",
+    "aliases": [
+      "붉은 예복의 성직자"
+    ],
+    "aliases_en": [
+      "a cardinal",
+      "cardinals"
+    ],
+    "contexts": {
+      "예복을 입은 추기경을 봄": "예복 붉은 입은",
+      "여성이 추기경을 봄": "여자 여성 부인"
+    },
+    "contexts_en": {
+      "예복을 입은 추기경을 봄": "robes unlucky misfortunes",
+      "여성이 추기경을 봄": "woman downfall promises"
+    }
+  },
+  {
+    "id": "cards",
+    "aliases": [
+      "트럼프 카드",
+      "화투",
+      "포커"
+    ],
+    "aliases_en": [
+      "card game",
+      "deck of cards"
+    ],
+    "contexts": {
+      "어울려 재미로 카드놀이를 함": "재미로 여럿이 어울려 심심풀이",
+      "돈을 걸고 카드놀이를 함": "판돈 걸고 내기",
+      "카드놀이에서 짐": "졌다 지고 잃었",
+      "카드놀이에서 이김": "이겼 이기 땄다",
+      "연인이 카드놀이를 함": "연인 애인 남자친구",
+      "다이아몬드 짝패를 봄": "다이아",
+      "클로버 짝패를 봄": "클로버 클럽",
+      "하트 짝패를 봄": "하트",
+      "스페이드 짝패를 봄": "스페이드"
+    },
+    "contexts_en": {
+      "어울려 재미로 카드놀이를 함": "social pastime others",
+      "돈을 걸고 카드놀이를 함": "stakes gambling wager",
+      "카드놀이에서 짐": "lose lost losing",
+      "카드놀이에서 이김": "win won winning",
+      "연인이 카드놀이를 함": "sweetheart intentions",
+      "다이아몬드 짝패를 봄": "diamonds",
+      "클로버 짝패를 봄": "clubs",
+      "하트 짝패를 봄": "hearts",
+      "스페이드 짝패를 봄": "spades"
+    }
+  },
+  {
+    "id": "carnival",
+    "aliases": [
+      "축제",
+      "가장무도회"
+    ],
+    "aliases_en": [
+      "a carnival",
+      "festival"
+    ],
+    "contexts": {
+      "카니발에 어울려 참여함": "참여 어울려 즐겼",
+      "가면을 쓰거나 광대 차림이 보이는 카니발": "가면 광대 분장 탈을"
+    },
+    "contexts_en": {
+      "카니발에 어울려 참여함": "participating pleasure recreation",
+      "가면을 쓰거나 광대 차림이 보이는 카니발": "masks clownish incongruous discord"
+    }
+  },
+  {
+    "id": "cartridge",
+    "aliases": [
+      "약포",
+      "탄피"
+    ],
+    "aliases_en": [
+      "cartridges",
+      "a cartridge"
+    ],
+    "contexts": {
+      "탄약통을 봄": "보았 놓여 들고",
+      "탄약통이 비어 있음": "비어 비었 아무것도"
+    },
+    "contexts_en": {
+      "탄약통을 봄": "quarrels dissensions threatens",
+      "탄약통이 비어 있음": "empty foolish variances"
+    }
+  },
+  {
+    "id": "carving",
+    "aliases": [
+      "칼질",
+      "칼질해",
+      "칼질했다",
+      "칼질하는",
+      "고기를 썰었다",
+      "저몄다"
+    ],
+    "aliases_en": [
+      "carve",
+      "carved"
+    ],
+    "contexts": {
+      "새고기를 썲": "새고기 닭고기 날짐승 오리",
+      "고깃덩이를 썲": "고깃덩이 소고기 돼지고기 덩어리"
+    },
+    "contexts_en": {
+      "새고기를 썲": "fowl chicken poorly",
+      "고깃덩이를 썲": "meat beef investments"
+    }
+  },
+  {
+    "id": "carpet",
+    "aliases": [
+      "카펫",
+      "융단"
+    ],
+    "aliases_en": [
+      "carpets",
+      "rug"
+    ],
+    "contexts": {
+      "바닥에 깔린 양탄자를 봄": "깔린 깔려 바닥에",
+      "양탄자 위를 걸음": "위를 걸었 걸어 밟고",
+      "양탄자를 삼": "샀다 사서 구입",
+      "양탄자를 팜": "팔았 팔고 판매",
+      "젊은 여성이 양탄자를 봄": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "바닥에 깔린 양탄자를 봄": "floor laid spread",
+      "양탄자 위를 걸음": "walk walked walking",
+      "양탄자를 삼": "buy buying bought",
+      "양탄자를 팜": "sell selling sold",
+      "젊은 여성이 양탄자를 봄": "woman young girl"
+    }
+  },
+  {
+    "id": "carpenter",
+    "aliases": [
+      "목수들",
+      "대목",
+      "목공"
+    ],
+    "aliases_en": [
+      "carpenters",
+      "a carpenter"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "carriage",
+    "aliases": [
+      "사륜마차",
+      "마차를 탔다"
+    ],
+    "aliases_en": [
+      "a carriage",
+      "carriages",
+      "coach"
+    ],
+    "contexts": {
+      "마차를 봄": "보았 세워 놓여",
+      "마차를 타고 감": "타고 탔다 올라",
+      "마차를 찾아다님": "찾아 찾으 구하러"
+    },
+    "contexts_en": {
+      "마차를 봄": "seeing gratified visits",
+      "마차를 타고 감": "ride sickness health",
+      "마차를 찾아다님": "looking labor competency"
+    }
+  },
+  {
+    "id": "carrot",
+    "aliases": [
+      "홍당무"
+    ],
+    "aliases_en": [
+      "carrots",
+      "a carrot"
+    ],
+    "contexts": {
+      "당근을 봄": "보았 밭에 뽑았",
+      "당근을 먹음": "먹었 씹었 먹고"
+    },
+    "contexts_en": {
+      "당근을 봄": "prosperity health seeing",
+      "당근을 먹음": "eat eating ate marriage"
+    }
+  },
+  {
+    "id": "cask",
+    "aliases": [
+      "술통",
+      "나무 술통"
+    ],
+    "aliases_en": [
+      "a cask",
+      "casks",
+      "barrel"
+    ],
+    "contexts": {
+      "가득 찬 통을 봄": "가득 그득 채워진",
+      "통이 비어 있음": "비어 비었 아무것도"
+    },
+    "contexts_en": {
+      "가득 찬 통을 봄": "filled full prosperous",
+      "통이 비어 있음": "empty void consolation"
+    }
+  },
+  {
+    "id": "cash",
+    "aliases": [
+      "현찰",
+      "돈뭉치"
+    ],
+    "aliases_en": [
+      "ready money",
+      "banknotes"
+    ],
+    "contexts": {
+      "빌린 현금을 잔뜩 가지고 있음": "잔뜩 가지고 많은",
+      "빌린 돈을 씀": "썼다 쓰고 지출"
+    },
+    "contexts_en": {
+      "빌린 현금을 잔뜩 가지고 있음": "borrowed plenty worthy",
+      "빌린 돈을 씀": "spending deceit prized"
+    }
+  },
+  {
+    "id": "cash-box",
+    "aliases": [
+      "돈궤",
+      "금고 상자"
+    ],
+    "aliases_en": [
+      "a cash box",
+      "strongbox"
+    ],
+    "contexts": {
+      "가득 찬 금고를 봄": "가득 그득 채워진",
+      "금고가 비어 있음": "비어 비었 아무것도"
+    },
+    "contexts_en": {
+      "가득 찬 금고를 봄": "full favorable prospects",
+      "금고가 비어 있음": "empty meager reimbursements"
+    }
+  },
+  {
+    "id": "cashier",
+    "aliases": [
+      "계산원",
+      "수납원"
+    ],
+    "aliases_en": [
+      "a cashier",
+      "teller"
+    ],
+    "contexts": {
+      "출납원을 봄": "보았 창구 계산대",
+      "남에게 빚이 있음": "빚이 빚을 갚을"
+    },
+    "contexts_en": {
+      "출납원을 봄": "seeing possessions claim",
+      "남에게 빚이 있음": "owe debt deceit"
+    }
+  },
+  {
+    "id": "castor-oil",
+    "aliases": [
+      "아주까리기름",
+      "피마자유"
+    ],
+    "aliases_en": [
+      "castor-oil"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "castoria",
+    "aliases": [
+      "카스토리아"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

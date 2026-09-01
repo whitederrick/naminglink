@@ -102,7 +102,6 @@
   {
     "id": "cart",
     "aliases": [
-      "마차",
       "달구지",
       "구르마",
       "손수레"
@@ -110,8 +109,7 @@
     "aliases_en": [
       "a cart",
       "carts",
-      "wagon",
-      "carriage"
+      "wagon"
     ],
     "contexts": {
       "수레가 다리와 길 위를 지나감": "다리를 다리위 길을 도로 지나",
@@ -123,7 +121,11 @@
       "수레가 나아가지 않음": "나아가지 멈춰 서버렸 꼼짝",
       "수레가 대문 안으로 들어옴": "대문 마당 집으로 들어왔",
       "앓는 사람이 수레에 오름": "아픈 앓는 환자 병든",
-      "흰 말이 끄는 수레를 몰음": "흰말 백마 하얀말 흰색"
+      "흰 말이 끄는 수레를 몰음": "흰말 백마 하얀말 흰색",
+      "수레를 봄": "보았 보였 눈에",
+      "수레를 타고 감": "탔다 얹혀 태워",
+      "수레를 몲": "몰았 끌었 부렸",
+      "연인끼리 함께 수레를 탐": "연인 애인 둘이 함께"
     },
     "contexts_en": {
       "수레가 다리와 길 위를 지나감": "bridge road crossing passed",
@@ -135,7 +137,11 @@
       "수레가 나아가지 않음": "stuck stopped budge halted",
       "수레가 대문 안으로 들어옴": "gate courtyard house entered",
       "앓는 사람이 수레에 오름": "sick ill patient",
-      "흰 말이 끄는 수레를 몰음": "white horse"
+      "흰 말이 끄는 수레를 몰음": "white horse",
+      "수레를 봄": "saw seeing kindred",
+      "수레를 타고 감": "luck family supplies",
+      "수레를 몲": "steering guiding merited",
+      "연인끼리 함께 수레를 탐": "lovers together rivals"
     }
   },
   {

@@ -126,7 +126,10 @@
       "성문을 나섬": "나섰 나가 나서 밖으로",
       "이어진 성이 푸른빛을 띰": "푸른 푸르 이어진 파란",
       "붉은 성곽에 오름": "붉은 빨간 붉게 주홍",
-      "성 위에 집을 지음": "집을 짓고 지었 건물 가옥"
+      "성 위에 집을 지음": "집을 짓고 지었 건물 가옥",
+      "성 안에 있음": "안에 머물 지내 살고",
+      "덩굴에 덮인 오래된 성을 봄": "덩굴 담쟁이 오래된 낡은",
+      "성을 떠남": "떠났 떠나 벗어나"
     },
     "contexts_en": {
       "궁성이 막힘": "blocked barred palace shut sealed",
@@ -137,7 +140,10 @@
       "성문을 나섬": "gate exited leaving outside",
       "이어진 성이 푸른빛을 띰": "green blue connected stretching",
       "붉은 성곽에 오름": "crimson scarlet vermilion",
-      "성 위에 집을 지음": "house built building home"
+      "성 위에 집을 지음": "house built building home",
+      "성 안에 있음": "wealth traveler nations",
+      "덩굴에 덮인 오래된 성을 봄": "vine covered romantic",
+      "성을 떠남": "robbed possessions death"
     }
   },
   {
