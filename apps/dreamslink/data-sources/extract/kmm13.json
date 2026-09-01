@@ -1,0 +1,325 @@
+[
+  {
+    "id": "chiffonier",
+    "aliases": [
+      "옷장 서랍",
+      "장롱 서랍"
+    ],
+    "aliases_en": [
+      "a chiffonier"
+    ],
+    "contexts": {
+      "서랍장을 뒤짐": "뒤졌 뒤지 헤집",
+      "잘 정돈된 서랍장을 봄": "정돈 가지런 정리된"
+    },
+    "contexts_en": {
+      "서랍장을 뒤짐": "search searching disappointing",
+      "잘 정돈된 서랍장을 봄": "order pleasant entertainments"
+    }
+  },
+  {
+    "id": "chilblain",
+    "aliases": [
+      "동상에 걸렸다",
+      "손발이 얼었다"
+    ],
+    "aliases_en": [
+      "chilblains"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "childbed",
+    "aliases": [
+      "산욕",
+      "아이를 낳는 자리"
+    ],
+    "aliases_en": [
+      "child birth",
+      "in childbed"
+    ],
+    "contexts": {
+      "아이를 낳음": "낳았 낳는 출산했",
+      "혼인하지 않은 여성이 해산 자리에 있음": "혼인하지 미혼 처녀가"
+    },
+    "contexts_en": {
+      "아이를 낳음": "giving fortunate delivery",
+      "혼인하지 않은 여성이 해산 자리에 있음": "unmarried honor estates"
+    }
+  },
+  {
+    "id": "chimes",
+    "aliases": [
+      "성탄 종소리",
+      "종이 울리는 소리"
+    ],
+    "aliases_en": [
+      "chime"
+    ],
+    "contexts": {
+      "성탄 종소리를 들음": "성탄 크리스마스 나신",
+      "여느 종소리를 들음": "여느 그냥 보통"
+    },
+    "contexts_en": {
+      "성탄 종소리를 들음": "christmas farmers prospects",
+      "여느 종소리를 들음": "ordinary anxiety distant"
+    }
+  },
+  {
+    "id": "chimney",
+    "aliases": [
+      "연통",
+      "굴뚝 연기"
+    ],
+    "aliases_en": [
+      "chimneys",
+      "a chimney"
+    ],
+    "contexts": {
+      "굴뚝을 봄": "솟은 우뚝 연기가",
+      "무너져 내린 굴뚝을 봄": "무너 허물 쓰러진",
+      "담쟁이덩굴에 덮인 굴뚝을 봄": "담쟁이 덩굴 뒤덮인",
+      "굴뚝에 불이 타는 것을 봄": "불이 타는 활활",
+      "굴뚝 옆 구석에 숨음": "숨었 숨어 구석",
+      "굴뚝을 타고 내려감": "내려갔 내려가 타고내려",
+      "굴뚝을 타고 올라감": "올라갔 올라가 기어올"
+    },
+    "contexts_en": {
+      "굴뚝을 봄": "displeasing incident hasty",
+      "무너져 내린 굴뚝을 봄": "tumble sorrow family",
+      "담쟁이덩굴에 덮인 굴뚝을 봄": "ivy vines overgrown",
+      "굴뚝에 불이 타는 것을 봄": "fire burning approaching",
+      "굴뚝 옆 구석에 숨음": "hide corner distress",
+      "굴뚝을 타고 내려감": "descend descending consternation",
+      "굴뚝을 타고 올라감": "ascend escape planned"
+    }
+  },
+  {
+    "id": "china",
+    "aliases": [
+      "자기 그릇",
+      "백자"
+    ],
+    "aliases_en": [
+      "chinaware"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "china-store",
+    "aliases": [
+      "도자기 상점"
+    ],
+    "aliases_en": [
+      "a china store"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "chocolate",
+    "aliases": [
+      "초코"
+    ],
+    "aliases_en": [
+      "chocolates"
+    ],
+    "contexts": {
+      "초콜릿을 봄": "놓여 있었 조각",
+      "초콜릿 사탕을 봄": "사탕 봉봉 알갱이",
+      "신맛이 나는 초콜릿을 봄": "신맛 시큼 새콤",
+      "초콜릿을 마심": "마셨 마시 음료"
+    },
+    "contexts_en": {
+      "초콜릿을 봄": "provide abundantly dependent",
+      "초콜릿 사탕을 봄": "candy agreeable companions",
+      "신맛이 나는 초콜릿을 봄": "sour illness",
+      "초콜릿을 마심": "drink drinking drank"
+    }
+  },
+  {
+    "id": "choir",
+    "aliases": [
+      "합창단",
+      "찬양대"
+    ],
+    "aliases_en": [
+      "a choir",
+      "choirs"
+    ],
+    "contexts": {
+      "성가대를 봄": "보았 무리 늘어선",
+      "성가대에서 노래함": "노래했 노래하 불렀"
+    },
+    "contexts_en": {
+      "성가대를 봄": "cheerful surroundings gloom",
+      "성가대에서 노래함": "sing singing lover"
+    }
+  },
+  {
+    "id": "cholera",
+    "aliases": [
+      "호열자"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "콜레라가 나라를 휩쓺": "나라 마을 번져 휩쓸",
+      "콜레라에 걸림": "걸렸 걸린 앓았"
+    },
+    "contexts_en": {
+      "콜레라가 나라를 휩쓺": "devastating country rage",
+      "콜레라에 걸림": "attacked own sickness"
+    }
+  },
+  {
+    "id": "christ",
+    "aliases": [
+      "예수",
+      "예수님"
+    ],
+    "aliases_en": [
+      "jesus"
+    ],
+    "contexts": {
+      "동방박사들이 경배하는 아기 그리스도를 봄": "아기 경배 동방박사 지혜로운",
+      "겟세마네 동산의 그리스도를 봄": "겟세마네 동산 기도하",
+      "성전에서 장사치를 내쫓는 그리스도를 봄": "성전 장사치 내쫓 채찍"
+    },
+    "contexts_en": {
+      "동방박사들이 경배하는 아기 그리스도를 봄": "child worshiped wise",
+      "겟세마네 동산의 그리스도를 봄": "gethsemane garden sorrowing",
+      "성전에서 장사치를 내쫓는 그리스도를 봄": "temple scourging traders"
+    }
+  },
+  {
+    "id": "christmas-tree",
+    "aliases": [
+      "성탄 나무",
+      "성탄 트리"
+    ],
+    "aliases_en": [
+      "a christmas tree"
+    ],
+    "contexts": {
+      "크리스마스 트리를 봄": "보았 세워 반짝",
+      "장식을 걷어 낸 트리를 봄": "장식을 걷어 헐벗"
+    },
+    "contexts_en": {
+      "크리스마스 트리를 봄": "joyful auspicious",
+      "장식을 걷어 낸 트리를 봄": "dismantled painful festivity"
+    }
+  },
+  {
+    "id": "chrysanthemum",
+    "aliases": [
+      "국화꽃",
+      "들국화"
+    ],
+    "aliases_en": [
+      "chrysanthemums"
+    ],
+    "contexts": {
+      "흰 국화를 꺾음": "꺾었 꺾어 따서",
+      "빛깔 있는 국화를 봄": "빛깔 색색 노란 붉은",
+      "국화 다발을 봄": "다발 꽃다발 묶음",
+      "흰 국화가 늘어선 길을 지나감": "늘어선 길을 지나"
+    },
+    "contexts_en": {
+      "흰 국화를 꺾음": "gather white perplexity",
+      "빛깔 있는 국화를 봄": "colored engagements",
+      "국화 다발을 봄": "bouquets offered ambition",
+      "흰 국화가 늘어선 길을 지나감": "avenue yellow sensibilities"
+    }
+  },
+  {
+    "id": "church",
+    "aliases": [
+      "교회당"
+    ],
+    "aliases_en": [
+      "a church",
+      "churches"
+    ],
+    "contexts": {
+      "멀리 있는 교회를 봄": "멀리 멀리서 먼발치",
+      "어둠에 잠긴 교회에 들어감": "어둠 어두운 들어갔"
+    },
+    "contexts_en": {
+      "멀리 있는 교회를 봄": "distance disappointment anticipated",
+      "어둠에 잠긴 교회에 들어감": "gloom funeral enter"
+    }
+  },
+  {
+    "id": "churchyard",
+    "aliases": [
+      "교회 뜰"
+    ],
+    "aliases_en": [
+      "a churchyard"
+    ],
+    "contexts": {
+      "겨울에 교회 묘지를 걸음": "겨울 눈이 추운",
+      "봄기운이 도는 교회 묘지를 걸음": "봄기운 봄이 새싹",
+      "연인이 교회 묘지에 있음": "연인 애인 둘이"
+    },
+    "contexts_en": {
+      "겨울에 교회 묘지를 걸음": "winter poverty childhood",
+      "봄기운이 도는 교회 묘지를 걸음": "springtime pleasant society",
+      "연인이 교회 묘지에 있음": "lovers marry places"
+    }
+  },
+  {
+    "id": "churning",
+    "aliases": [
+      "버터를 저었다",
+      "버터를 젓는",
+      "버터를 만들었다",
+      "교유기"
+    ],
+    "aliases_en": [
+      "churn",
+      "churned"
+    ],
+    "contexts": {
+      "버터를 저음": "휘저 손수 열심히",
+      "농사짓는 이가 버터를 저음": "농부 농사 수확",
+      "젊은 여성이 버터를 저음": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "버터를 저음": "difficult diligence industry",
+      "농사짓는 이가 버터를 저음": "farmer harvest plenteous",
+      "젊은 여성이 버터를 저음": "thrifty energetic husband"
+    }
+  },
+  {
+    "id": "cider",
+    "aliases": [
+      "능금술"
+    ],
+    "aliases_en": [
+      "a cider"
+    ],
+    "contexts": {
+      "사과술을 봄": "보았 놓여 잔에",
+      "남들이 사과술을 마시는 것을 봄": "남들이 사람들이 마시는"
+    },
+    "contexts_en": {
+      "사과술을 봄": "fortune squandered material",
+      "남들이 사과술을 마시는 것을 봄": "people drinking unfaithful"
+    }
+  },
+  {
+    "id": "cipher",
+    "aliases": [
+      "암호문",
+      "부호"
+    ],
+    "aliases_en": [
+      "ciphers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

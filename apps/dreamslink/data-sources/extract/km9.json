@@ -491,7 +491,8 @@
       "어린이",
       "자식",
       "꼬마",
-      "아들딸"
+      "아들딸",
+      "아이들"
     ],
     "aliases_en": [
       "kid",
@@ -501,11 +502,25 @@
     ],
     "contexts": {
       "어린 아들딸을 품에 안음": "품에 안았 안고 껴안 아들딸",
-      "어린아이가 죽음": "죽었 죽는 숨졌 잃었 세상을떠"
+      "어린아이가 죽음": "죽었 죽는 숨졌 잃었 세상을떠",
+      "아름다운 아이들을 여럿 봄": "아름다운 예쁜 여럿",
+      "어머니가 가볍게 앓는 아이를 봄": "어머니 가볍게 살짝",
+      "아이들이 일하거나 공부하는 것을 봄": "공부 일하는 배우는",
+      "제 아이가 몹시 앓거나 죽은 것을 봄": "몹시 위독 앓는",
+      "이미 죽은 제 아이를 봄": "이미 죽은 잃은",
+      "풀 죽은 아이들을 봄": "시무룩 낙담 기죽",
+      "아이들과 뛰놀며 놂": "뛰놀 뛰어놀 함께"
     },
     "contexts_en": {
       "어린 아들딸을 품에 안음": "held embraced arms hugging cradled",
-      "어린아이가 죽음": "died death passed away dying"
+      "어린아이가 죽음": "died death passed away dying",
+      "아름다운 아이들을 여럿 봄": "many beautiful prosperity",
+      "어머니가 가볍게 앓는 아이를 봄": "mother slight trifles",
+      "아이들이 일하거나 공부하는 것을 봄": "working school peaceful",
+      "제 아이가 몹시 앓거나 죽은 것을 봄": "desperately fear welfare",
+      "이미 죽은 제 아이를 봄": "worry disappointment near",
+      "풀 죽은 아이들을 봄": "disappointed underhanded forebodings",
+      "아이들과 뛰놀며 놂": "romp play speculating"
     }
   },
   {

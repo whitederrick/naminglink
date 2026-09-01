@@ -3964,5 +3964,61 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "chestnut": [
     "chestnuts",
     "a chestnut"
+  ],
+  "chiffonier": [
+    "a chiffonier"
+  ],
+  "chilblain": [
+    "chilblains"
+  ],
+  "childbed": [
+    "child birth",
+    "in childbed"
+  ],
+  "chimes": [
+    "chime"
+  ],
+  "chimney": [
+    "chimneys",
+    "a chimney"
+  ],
+  "china": [
+    "chinaware"
+  ],
+  "china-store": [
+    "a china store"
+  ],
+  "chocolate": [
+    "chocolates"
+  ],
+  "choir": [
+    "a choir",
+    "choirs"
+  ],
+  "christ": [
+    "jesus"
+  ],
+  "christmas-tree": [
+    "a christmas tree"
+  ],
+  "chrysanthemum": [
+    "chrysanthemums"
+  ],
+  "church": [
+    "a church",
+    "churches"
+  ],
+  "churchyard": [
+    "a churchyard"
+  ],
+  "churning": [
+    "churn",
+    "churned"
+  ],
+  "cider": [
+    "a cider"
+  ],
+  "cipher": [
+    "ciphers"
   ]
 };

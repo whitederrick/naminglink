@@ -260,7 +260,8 @@
     "aliases": [
       "수탉",
       "암탉",
-      "병아리"
+      "병아리",
+      "닭들"
     ],
     "aliases_en": [
       "a chicken",
@@ -274,14 +275,22 @@
       "닭이 욺": "울었 울음 홰를 꼬끼오",
       "닭이 알을 품음": "알을 품고 부화 둥지",
       "닭이 나무 위에 있음": "나무 나뭇가지 올라가",
-      "닭을 잡음": "붙잡 잡았 잡아서"
+      "닭을 잡음": "붙잡 잡았 잡아서",
+      "병아리 떼를 봄": "떼를 무리 마리",
+      "덜 자란 닭을 봄": "자란 어린 중닭",
+      "닭들이 홰에 오르는 것을 봄": "홰에 홰로 보금자리",
+      "닭을 잡아먹음": "먹었 잡아먹 삶아"
     },
     "contexts_en": {
       "닭을 씻김": "washing washed bathed",
       "닭이 욺": "crowing crowed cried",
-      "닭이 알을 품음": "eggs brooding nest hatching",
+      "닭이 알을 품음": "egg eggs brooding nest hatching",
       "닭이 나무 위에 있음": "tree branch perched",
-      "닭을 잡음": "caught grabbed seized"
+      "닭을 잡음": "caught grabbed seized",
+      "병아리 떼를 봄": "chicks flock cares",
+      "덜 자란 닭을 봄": "young half grown",
+      "닭들이 홰에 오르는 것을 봄": "roost roosting",
+      "닭을 잡아먹음": "eat eating selfishness"
     }
   },
   {

@@ -1,0 +1,846 @@
+[
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "병아리 떼를 봄",
+    "interpretation_ko": "여러 근심에서 걱정이 오나 그중 얼마는 이문이 될 조짐",
+    "interpretation_en": "worry from many cares, some of which will prove to your profit",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chickens",
+      "original": "To dream of seeing a brood of chickens, denotes worry from many cares, some of which of which will prove to your profit.",
+      "translation_ko": "병아리 떼를 보는 꿈은 여러 근심에서 오는 걱정을 뜻하나, 그중 얼마는 이문이 된다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "덜 자란 닭을 봄",
+    "interpretation_ko": "잘될 일이 있으나 그리 되려면 제 힘을 다해야 할 조짐",
+    "interpretation_en": "fortunate enterprises, but to make them so you will have to exert your physical strength",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chickens",
+      "original": "Young or half grown chickens, signify fortunate enterprises, but to make them so you will have to exert your physical strength.",
+      "translation_ko": "어리거나 덜 자란 닭은 잘될 일을 뜻하나, 그리 되게 하려면 제 힘을 다해야 한다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "닭들이 홰에 오르는 것을 봄",
+    "interpretation_ko": "적들이 나를 해칠 궁리를 하고 있을 조짐",
+    "interpretation_en": "enemies are planning to work you evil",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chickens",
+      "original": "To see chickens going to roost, enemies are planning to work you evil.",
+      "translation_ko": "닭들이 홰에 오르는 것을 보면 적들이 나를 해칠 궁리를 하고 있다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "닭을 잡아먹음",
+    "interpretation_ko": "이기심 때문에 좋던 이름이 깎이고, 일과 사랑이 위태로울 조짐",
+    "interpretation_en": "selfishness will detract from your otherwise good name; business and love will remain in precarious states",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chickens",
+      "original": "To eat them, denotes that selfishness will detract from your otherwise good name.  Business and love will remain in precarious states.",
+      "translation_ko": "닭을 먹으면 이기심 때문에 좋던 이름이 깎인다. 일과 사랑은 위태로운 채로 있다"
+    }
+  },
+
+  {
+    "term_ko": "서랍장",
+    "term_en": "chiffonier",
+    "context": "서랍장을 뒤짐",
+    "interpretation_ko": "바라던 것이 어긋날 조짐",
+    "interpretation_en": "you will have disappointing anticipations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chiffonier",
+      "original": "To see or search through a chiffonier, denotes you will have disappointing anticipations.",
+      "translation_ko": "서랍장을 보거나 뒤지는 꿈은 바라던 것이 어긋남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "서랍장",
+    "term_en": "chiffonier",
+    "context": "잘 정돈된 서랍장을 봄",
+    "interpretation_ko": "즐거운 벗과 놀이가 있을 조짐",
+    "interpretation_en": "pleasant friends and entertainments",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chiffonier",
+      "original": "To see one in order, indicates pleasant friends and entertainments.",
+      "translation_ko": "잘 정돈된 것을 보면 즐거운 벗과 놀이를 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "손발 동상",
+    "term_en": "chilblain",
+    "context": "손발 동상을 앓음",
+    "interpretation_ko": "벗이나 동업자의 지나친 조바심에 떠밀려 나쁜 거래에 들 조짐 — 제 병이나 사고도 알린다",
+    "interpretation_en": "you will be driven into some bad dealing through over anxiety of a friend or partner; it also portends your own illness or an accident",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Chilblain",
+      "original": "To dream of suffering with chilblains, denotes that you will be driven into some bad dealing through over anxity{sic} of a friend or partner.  This dream also portends your own illness or an accident.",
+      "translation_ko": "손발 동상으로 앓는 꿈은, 벗이나 동업자의 지나친 조바심에 떠밀려 나쁜 거래에 들게 됨을 뜻한다. 이 꿈은 제 병이나 사고도 알린다"
+    }
+  },
+
+  {
+    "term_ko": "해산 자리",
+    "term_en": "childbed",
+    "context": "아이를 낳음",
+    "interpretation_ko": "운이 좋게 풀리고 잘생긴 아이를 무사히 낳을 조짐",
+    "interpretation_en": "fortunate circumstances and safe delivery of a handsome child",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Childbed",
+      "original": "To dream of giving child birth, denotes fortunate circumstances and safe delivery of a handsome child.",
+      "translation_ko": "아이를 낳는 꿈은 운이 좋게 풀리고 잘생긴 아이를 무사히 낳게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "해산 자리",
+    "term_en": "childbed",
+    "context": "혼인하지 않은 여성이 해산 자리에 있음",
+    "interpretation_ko": "명예로운 처지에서 궂고 낮은 처지로 언짢게 바뀔 조짐",
+    "interpretation_en": "unhappy changes from honor to evil and low estates",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Childbed",
+      "original": "For an unmarried woman to dream of being in childbed, denotes unhappy changes from honor to evil and low estates.",
+      "translation_ko": "혼인하지 않은 여성이 해산 자리에 있는 꿈을 꾸면, 명예로운 처지에서 궂고 낮은 처지로 언짢게 바뀐다"
+    }
+  },
+
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "아름다운 아이들을 여럿 봄",
+    "interpretation_ko": "크게 넉넉해지고 복이 있을 조짐",
+    "interpretation_en": "great prosperity and blessings",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To dream of seeing many beautiful children is portentous of great prosperity and blessings.",
+      "translation_ko": "아름다운 아이들을 여럿 보는 꿈은 크게 넉넉해지고 복이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "어머니가 가볍게 앓는 아이를 봄",
+    "interpretation_ko": "아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힐 조짐",
+    "interpretation_en": "she may see it enjoying robust health, but trifles of another nature may harass her",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "For a mother to dream of seeing her child sick from slight cause, she may see it enjoying robust health, but trifles of another nature may harass her.",
+      "translation_ko": "어머니가 대수롭지 않은 까닭으로 앓는 아이를 보는 꿈을 꾸면, 아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힌다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "아이들이 일하거나 공부하는 것을 봄",
+    "interpretation_ko": "평온한 때와 두루 넉넉함이 있을 조짐",
+    "interpretation_en": "peaceful times and general prosperity",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To see children working or studying, denotes peaceful times and general prosperity.",
+      "translation_ko": "아이들이 일하거나 공부하는 것을 보면 평온한 때와 두루 넉넉함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "제 아이가 몹시 앓거나 죽은 것을 봄",
+    "interpretation_ko": "그 아이의 앞날이 크게 위태로우니 두려워할 것이 많은 조짐",
+    "interpretation_en": "you have much to fear, for its welfare is sadly threatened",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To dream of seeing your child desperately ill or dead, you have much to fear, for its welfare is sadly threatened.",
+      "translation_ko": "제 아이가 몹시 앓거나 죽은 것을 보는 꿈은, 그 아이의 앞날이 크게 위태로우니 두려워할 것이 많음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "이미 죽은 제 아이를 봄",
+    "interpretation_ko": "가까운 앞날에 근심과 실망이 있을 조짐",
+    "interpretation_en": "worry and disappointment in the near future",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To dream of your dead child, denotes worry and disappointment in the near future.",
+      "translation_ko": "이미 죽은 제 아이를 꿈에 보면 가까운 앞날의 근심과 실망을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "풀 죽은 아이들을 봄",
+    "interpretation_ko": "적에게서 곤란이 오고, 벗인 척하는 이들의 뒷일로 마음이 불안해질 조짐",
+    "interpretation_en": "trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To dream of seeing disappointed children, denotes trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people.",
+      "translation_ko": "풀 죽은 아이들을 보는 꿈은 적에게서 오는 곤란과, 벗인 척하는 이들의 뒷일에서 오는 불안한 예감을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "아이들과 뛰놀며 놂",
+    "interpretation_ko": "벌여 놓은 일과 사랑이 모두 잘될 조짐",
+    "interpretation_en": "all your speculating and love enterprises will prevail",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Children",
+      "original": "To romp and play with children, denotes that all your speculating and love enterprises will prevail.",
+      "translation_ko": "아이들과 뛰놀며 노는 꿈은 벌여 놓은 일과 사랑이 모두 잘됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "차임벨",
+    "term_en": "chimes",
+    "context": "성탄 종소리를 들음",
+    "interpretation_ko": "장사하는 이와 농사짓는 이에게 앞길이 좋고, 젊은이에게는 바라던 일이 이루어질 조짐",
+    "interpretation_en": "fair prospects for business men and farmers; for the young, happy anticipations fulfilled",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimes",
+      "original": "To dream of Christmas chimes, denotes fair prospects for business men and farmers.  For the young, happy anticipations fulfilled.",
+      "translation_ko": "성탄 종소리 꿈은 장사하는 이와 농사짓는 이에게 좋은 앞길을 뜻한다. 젊은이에게는 바라던 일이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "차임벨",
+    "term_en": "chimes",
+    "context": "여느 종소리를 들음",
+    "interpretation_ko": "작은 근심이 곧 먼 벗의 소식으로 밀려날 조짐",
+    "interpretation_en": "some small anxiety will soon be displaced by news of distant friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimes",
+      "original": "Ordinary chimes, denotes some small anxiety will soon be displaced by news of distant friends.",
+      "translation_ko": "여느 종소리는 작은 근심이 곧 먼 벗의 소식으로 밀려남을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "굴뚝을 봄",
+    "interpretation_ko": "몹시 언짢은 일이 생기고 병 소식이 급히 전해질 조짐",
+    "interpretation_en": "a very displeasing incident will occur, and hasty intelligence of sickness will be borne to you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "To dream of seeing chimneys, denotes a very displeasing incident will occur in your life.  Hasty intelligence of sickness will be borne you.",
+      "translation_ko": "굴뚝을 보는 꿈은 삶에 몹시 언짢은 일이 생김을 뜻한다. 병 소식이 급히 전해진다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "무너져 내린 굴뚝을 봄",
+    "interpretation_ko": "슬픔이 있고 집안에 죽음이 있을 조짐",
+    "interpretation_en": "sorrow and likely death in your family",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "A tumble down chimney, denotes sorrow and likely death in your family.",
+      "translation_ko": "무너져 내린 굴뚝은 슬픔과, 집안에 있을 법한 죽음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "담쟁이덩굴에 덮인 굴뚝을 봄",
+    "interpretation_ko": "슬픔이나 친척을 잃은 일에서 도리어 행복이 나올 조짐",
+    "interpretation_en": "happiness will result from sorrow or loss of relatives",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "To see one overgrown with ivy or other vines, foretells that happiness will result from sorrow or loss of relatives.",
+      "translation_ko": "담쟁이나 다른 덩굴에 덮인 것을 보면, 슬픔이나 친척을 잃은 일에서 도리어 행복이 나온다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "굴뚝에 불이 타는 것을 봄",
+    "interpretation_ko": "좋은 일이 많이 다가오고 있을 조짐",
+    "interpretation_en": "much good is approaching you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "To see a fire burning in a chimney, denotes much good is approaching you.",
+      "translation_ko": "굴뚝에 불이 타는 것을 보면 좋은 일이 많이 다가온다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "굴뚝 옆 구석에 숨음",
+    "interpretation_ko": "괴로움과 의심이 덮치고 일이 어두워 보일 조짐",
+    "interpretation_en": "distress and doubt will assail you; business will appear gloomy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "To hide in a chimney corner, denotes distress and doubt will assail you.  Business will appear gloomy.",
+      "translation_ko": "굴뚝 옆 구석에 숨으면 괴로움과 의심이 덮친다. 일이 어두워 보인다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "굴뚝을 타고 내려감",
+    "interpretation_ko": "온당치 못한 일을 저질러 둘레 사람들을 놀라게 할 조짐",
+    "interpretation_en": "she will be guilty of some impropriety which will cause consternation among her associates",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "For a young woman to dream that she is going down a chimney, foretells she will be guilty of some impropriety which will cause consternation among her associates.",
+      "translation_ko": "젊은 여성이 굴뚝을 타고 내려가는 꿈을 꾸면, 온당치 못한 일을 저질러 둘레 사람들을 놀라게 한다"
+    }
+  },
+  {
+    "term_ko": "굴뚝",
+    "term_en": "chimney",
+    "context": "굴뚝을 타고 올라감",
+    "interpretation_ko": "누군가 꾸며 둔 곤경을 피해 갈 조짐",
+    "interpretation_en": "she will escape trouble which will be planned for her",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chimney",
+      "original": "To ascend a chimney, shows that she will escape trouble which will be planned for her.",
+      "translation_ko": "굴뚝을 타고 올라가면 누군가 꾸며 둔 곤경을 피해 가게 된다"
+    }
+  },
+
+  {
+    "term_ko": "도자기",
+    "term_en": "china",
+    "context": "도자기를 칠하거나 매만짐",
+    "interpretation_ko": "아늑한 집을 갖고 알뜰하고 살림 잘하는 사람이 될 조짐",
+    "interpretation_en": "she will have a pleasant home and be a thrifty and economical matron",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "China",
+      "original": "For a woman to dream of painting or arranging her china, foretells she will have a pleasant home and be a thrifty and economical matron.",
+      "translation_ko": "여성이 제 도자기를 칠하거나 매만지는 꿈을 꾸면, 아늑한 집을 갖고 알뜰하고 살림 잘하는 사람이 된다"
+    }
+  },
+
+  {
+    "term_ko": "도자기 가게",
+    "term_en": "china store",
+    "context": "도자기 가게가 텅 빈 것을 봄",
+    "interpretation_ko": "장사가 뒤집히고 어두운 때가 뒤따를 조짐",
+    "interpretation_en": "he will have reverses in his business, and a gloomy period will follow",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "China Store",
+      "original": "For a china merchant to dream that his store looks empty, foretells he will have reverses in his business, and withal a gloomy period will follow.",
+      "translation_ko": "도자기 장수가 제 가게가 텅 빈 꿈을 꾸면, 장사가 뒤집히고 어두운 때가 뒤따른다"
+    }
+  },
+
+  {
+    "term_ko": "초콜릿",
+    "term_en": "chocolate",
+    "context": "초콜릿을 봄",
+    "interpretation_ko": "나에게 기대어 사는 이들을 넉넉히 건사할 조짐",
+    "interpretation_en": "you will provide abundantly for those who are dependent on you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chocolate",
+      "original": "To dream of chocolate, denotes you will provide abundantly for those who are dependent on you.",
+      "translation_ko": "초콜릿 꿈은 나에게 기대어 사는 이들을 넉넉히 건사하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "초콜릿",
+    "term_en": "chocolate",
+    "context": "초콜릿 사탕을 봄",
+    "interpretation_ko": "마음 맞는 동무와 일거리가 있을 조짐",
+    "interpretation_en": "agreeable companions and employments",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chocolate",
+      "original": "To see chocolate candy, indicates agreeable companions and employments.",
+      "translation_ko": "초콜릿 사탕을 보면 마음 맞는 동무와 일거리를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "초콜릿",
+    "term_en": "chocolate",
+    "context": "신맛이 나는 초콜릿을 봄",
+    "interpretation_ko": "병이나 다른 실망이 뒤따를 조짐",
+    "interpretation_en": "illness or other disappointments will follow",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chocolate",
+      "original": "If sour, illness or other disappointments will follow.",
+      "translation_ko": "신맛이 나면 병이나 다른 실망이 뒤따른다"
+    }
+  },
+  {
+    "term_ko": "초콜릿",
+    "term_en": "chocolate",
+    "context": "초콜릿을 마심",
+    "interpretation_ko": "잠깐의 궂은 뒤집힘을 지나 넉넉해질 조짐",
+    "interpretation_en": "you will prosper after a short period of unfavorable reverses",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chocolate",
+      "original": "To drink chocolate, foretells you will prosper after a short period of unfavorable reverses.",
+      "translation_ko": "초콜릿을 마시면 잠깐의 궂은 뒤집힘을 지나 넉넉해진다"
+    }
+  },
+
+  {
+    "term_ko": "성가대",
+    "term_en": "choir",
+    "context": "성가대를 봄",
+    "interpretation_ko": "어둡고 불만스러운 자리를 밝은 자리가 대신할 조짐",
+    "interpretation_en": "cheerful surroundings to replace gloom and discontent",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Choir",
+      "original": "To dream of a choir, foretells you may expect cheerful surroundings to replace gloom and discontent.",
+      "translation_ko": "성가대 꿈은 어둡고 불만스러운 자리를 밝은 자리가 대신하리라 기대할 수 있음을 알린다"
+    }
+  },
+  {
+    "term_ko": "성가대",
+    "term_en": "choir",
+    "context": "성가대에서 노래함",
+    "interpretation_ko": "연인이 남에게 마음을 쓰는 것에 괴로워할 조짐",
+    "interpretation_en": "she will be miserable over the attention paid others by her lover",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Choir",
+      "original": "For a young woman to sing in a choir, denotes she will be miserable over the attention paid others by her lover.",
+      "translation_ko": "젊은 여성이 성가대에서 노래하면, 연인이 남에게 마음을 쓰는 것에 괴로워하게 된다"
+    }
+  },
+
+  {
+    "term_ko": "콜레라",
+    "term_en": "cholera",
+    "context": "콜레라가 나라를 휩쓺",
+    "interpretation_ko": "모진 병이 크게 번지고 실망이 여럿 뒤따를 조짐",
+    "interpretation_en": "sickness of virulent type will rage and many disappointments will follow",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cholera",
+      "original": "To dream of this dread disease devastating the country, portends sickness of virulent type will rage and many disappointments will follow.",
+      "translation_ko": "이 무서운 병이 나라를 휩쓰는 꿈은, 모진 병이 크게 번지고 실망이 여럿 뒤따름을 알린다"
+    }
+  },
+  {
+    "term_ko": "콜레라",
+    "term_en": "cholera",
+    "context": "콜레라에 걸림",
+    "interpretation_ko": "내가 앓게 될 조짐",
+    "interpretation_en": "your own sickness",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cholera",
+      "original": "To dream that you are attacked by it, denotes your own sickness.",
+      "translation_ko": "그 병에 걸리는 꿈은 내가 앓게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "그리스도",
+    "term_en": "christ",
+    "context": "동방박사들이 경배하는 아기 그리스도를 봄",
+    "interpretation_ko": "재물과 앎이 가득하고 기쁨과 흡족함이 넘치는 평온한 날이 많을 조짐",
+    "interpretation_en": "many peaceful days, full of wealth and knowledge, abundant with joy, and content",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Christ",
+      "original": "To dream of beholding Christ, the young child, worshiped by the wise men, denotes many peaceful days, full of wealth and knowledge, abundant with joy, and content.",
+      "translation_ko": "지혜로운 이들이 경배하는 어린아이 그리스도를 보는 꿈은, 재물과 앎이 가득하고 기쁨과 흡족함이 넘치는 평온한 날이 많음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "그리스도",
+    "term_en": "christ",
+    "context": "겟세마네 동산의 그리스도를 봄",
+    "interpretation_ko": "슬픔 어린 역경이 마음을 채우고, 바뀌기를 바라는 마음과 곁에 없는 이를 향한 그리움이 클 조짐",
+    "interpretation_en": "sorrowing adversity will fill your soul; great longings for change and absent objects of love will be felt",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Christ",
+      "original": "If in the garden of the Gethsemane, sorrowing adversity will fill your soul, great longings for change and absent objects of love will be felt.",
+      "translation_ko": "겟세마네 동산이라면 슬픔 어린 역경이 마음을 채우고, 바뀌기를 바라는 마음과 곁에 없는 이를 향한 그리움이 크게 느껴진다"
+    }
+  },
+  {
+    "term_ko": "그리스도",
+    "term_en": "christ",
+    "context": "성전에서 장사치를 내쫓는 그리스도를 봄",
+    "interpretation_ko": "모진 적들이 무너지고 정직한 애씀이 이길 조짐",
+    "interpretation_en": "evil enemies will be defeated and honest endeavors will prevail",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Christ",
+      "original": "To see him in the temple scourging the traders, denotes that evil enemies will be defeated and honest endeavors will prevail.",
+      "translation_ko": "성전에서 장사치들을 내쫓는 그를 보면, 모진 적들이 무너지고 정직한 애씀이 이긴다"
+    }
+  },
+
+  {
+    "term_ko": "크리스마스 트리",
+    "term_en": "christmas tree",
+    "context": "크리스마스 트리를 봄",
+    "interpretation_ko": "기쁜 일과 좋은 운이 있을 조짐",
+    "interpretation_en": "joyful occasions and auspicious fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Christmas Tree",
+      "original": "To dream of a Christmas tree, denotes joyful occasions and auspicious fortune.",
+      "translation_ko": "크리스마스 트리 꿈은 기쁜 일과 좋은 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "크리스마스 트리",
+    "term_en": "christmas tree",
+    "context": "장식을 걷어 낸 트리를 봄",
+    "interpretation_ko": "잔치 뒤에 마음 아픈 일이 뒤따를 조짐",
+    "interpretation_en": "some painful incident will follow occasions of festivity",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Christmas Tree",
+      "original": "To see one dismantled, foretells some painful incident will follow occasions of festivity.",
+      "translation_ko": "장식을 걷어 낸 것을 보면 잔치 뒤에 마음 아픈 일이 뒤따른다"
+    }
+  },
+
+  {
+    "term_ko": "국화",
+    "term_en": "chrysanthemum",
+    "context": "흰 국화를 꺾음",
+    "interpretation_ko": "잃는 것이 있고 마음이 몹시 어지러울 조짐",
+    "interpretation_en": "loss and much perplexity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Chrysanthemum",
+      "original": "To dream that you gather white chrysanthemums, signifies loss and much perplexity",
+      "translation_ko": "흰 국화를 꺾는 꿈은 잃는 것과 큰 어지러움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "국화",
+    "term_en": "chrysanthemum",
+    "context": "빛깔 있는 국화를 봄",
+    "interpretation_ko": "즐거운 약속이 있을 조짐",
+    "interpretation_en": "pleasant engagements",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Chrysanthemum",
+      "original": "colored ones, betokens pleasant engagements.",
+      "translation_ko": "빛깔이 있는 것은 즐거운 약속을 알린다"
+    }
+  },
+  {
+    "term_ko": "국화",
+    "term_en": "chrysanthemum",
+    "context": "국화 다발을 봄",
+    "interpretation_ko": "사랑이 다가오나 어리석은 욕심 때문에 밀어낼 조짐",
+    "interpretation_en": "love will be offered you, but a foolish ambition will cause you to put it aside",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Chrysanthemum",
+      "original": "To see them in bouquets, denotes that love will be offered you, but a foolish ambition will cause you to put it aside.",
+      "translation_ko": "다발로 묶인 것을 보면 사랑이 다가오나, 어리석은 욕심이 그것을 밀어내게 만든다"
+    }
+  },
+  {
+    "term_ko": "국화",
+    "term_en": "chrysanthemum",
+    "context": "흰 국화가 늘어선 길을 지나감",
+    "interpretation_ko": "낯선 상실감과 슬픔이 오나, 거기서 마음이 넓어지고 새 힘을 얻을 조짐",
+    "interpretation_en": "a strange sense of loss and sadness, from which the sensibilities will expand and take on new powers",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Chrysanthemum",
+      "original": "To pass down an avenue of white chrysanthemums, with here and there a yellow one showing among the white, foretells a strange sense of loss and sadness, from which the sensibilities will expand and take on new powers.",
+      "translation_ko": "흰 국화가 늘어선 길을, 그 사이사이 노란 것이 섞여 보이는 길을 지나가면, 낯선 상실감과 슬픔이 온다. 그러나 거기서 마음이 넓어지고 새 힘을 얻게 된다"
+    }
+  },
+
+  {
+    "term_ko": "교회",
+    "term_en": "church",
+    "context": "멀리 있는 교회를 봄",
+    "interpretation_ko": "오래 기다리던 즐거움에서 실망할 조짐",
+    "interpretation_en": "disappointment in pleasures long anticipated",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Church",
+      "original": "To dream of seeing a church in the distance, denotes disappointment in pleasures long anticipated.",
+      "translation_ko": "멀리 있는 교회를 보는 꿈은 오래 기다리던 즐거움에서 실망하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "교회",
+    "term_en": "church",
+    "context": "어둠에 잠긴 교회에 들어감",
+    "interpretation_ko": "장례에 함께하게 되고, 나아질 때가 흐릿할 조짐",
+    "interpretation_en": "you will participate in a funeral; dull prospects of better times are portended",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Church",
+      "original": "To enter one wrapt in gloom, you will participate in a funeral.  Dull prospects of better times are portended.",
+      "translation_ko": "어둠에 잠긴 교회에 들어가면 장례에 함께하게 된다. 나아질 때의 앞날이 흐릿함을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "교회 묘지",
+    "term_en": "churchyard",
+    "context": "겨울에 교회 묘지를 걸음",
+    "interpretation_ko": "가난과 길고 모진 싸움을 하고, 어린 시절의 집에서 멀리 살며 벗들과 헤어질 조짐",
+    "interpretation_en": "a long and bitter struggle with poverty; you will reside far from the home of your childhood, and friends will be separated from you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Churchyard",
+      "original": "To dream of walking in a churchyard, if in winter, denotes that you are to have a long and bitter struggle with poverty, and you will reside far from the home of your childhood, and friends will be separated from you",
+      "translation_ko": "교회 묘지를 걷는 꿈이 겨울이라면, 가난과 길고 모진 싸움을 하게 되고 어린 시절의 집에서 멀리 살며 벗들과 헤어지게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "교회 묘지",
+    "term_en": "churchyard",
+    "context": "봄기운이 도는 교회 묘지를 걸음",
+    "interpretation_ko": "좋은 자리로 올라서고 벗들과 어울릴 조짐",
+    "interpretation_en": "you will walk into pleasant places and enjoy the society of friends",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Churchyard",
+      "original": "but if you see the signs of springtime, you will walk up in into pleasant places and enjoy the society of friends.",
+      "translation_ko": "그러나 봄기운이 보이면 좋은 자리로 올라서고 벗들과 어울리게 된다"
+    }
+  },
+  {
+    "term_ko": "교회 묘지",
+    "term_en": "churchyard",
+    "context": "연인이 교회 묘지에 있음",
+    "interpretation_ko": "서로 혼인하지 못하고 남이 그 자리를 채우는 것을 볼 조짐",
+    "interpretation_en": "they will never marry each other, but will see others fill their places",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Churchyard",
+      "original": "For lovers to dream of being in a churchyard means they will never marry each other, but will see others fill their places.",
+      "translation_ko": "연인이 교회 묘지에 있는 꿈을 꾸면 서로 혼인하지 못하고, 남이 그 자리를 채우는 것을 보게 된다"
+    }
+  },
+
+  {
+    "term_ko": "버터 젓기",
+    "term_en": "churning",
+    "context": "버터를 저음",
+    "interpretation_ko": "어려운 일이 맡겨지나 부지런히 힘써 해내고 크게 넉넉해질 조짐",
+    "interpretation_en": "difficult tasks set you, but by diligence and industry you will accomplish them and be very prosperous",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Churning",
+      "original": "To dream of churning, you will have difficult tasks set you, but by diligence and industry you will accomplish them and be very prosperous.",
+      "translation_ko": "버터를 젓는 꿈을 꾸면 어려운 일이 맡겨지나, 부지런히 힘써 해내고 크게 넉넉해진다"
+    }
+  },
+  {
+    "term_ko": "버터 젓기",
+    "term_en": "churning",
+    "context": "농사짓는 이가 버터를 저음",
+    "interpretation_ko": "넉넉한 수확에서 이문이 날 조짐",
+    "interpretation_en": "profit from a plenteous harvest",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Churning",
+      "original": "To the farmer, it denotes profit from a plenteous harvest",
+      "translation_ko": "농사짓는 이에게는 넉넉한 수확에서 나는 이문을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "버터 젓기",
+    "term_en": "churning",
+    "context": "젊은 여성이 버터를 저음",
+    "interpretation_ko": "알뜰하고 힘 있는 배필을 얻을 조짐",
+    "interpretation_en": "a thrifty and energetic husband",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Churning",
+      "original": "to a young woman, it denotes a thrifty and energetic husband.",
+      "translation_ko": "젊은 여성에게는 알뜰하고 힘 있는 배필을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "사과술",
+    "term_en": "cider",
+    "context": "사과술을 봄",
+    "interpretation_ko": "시간을 헛된 즐거움에 흘려보내지 않으면 재물을 얻을 조짐",
+    "interpretation_en": "fortune may be won by you if your time is not squandered upon material pleasure",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cider",
+      "original": "To dream of cider, denotes fortune may be won by you if your time is not squandered upon material pleasure.",
+      "translation_ko": "사과술 꿈은, 시간을 헛된 즐거움에 흘려보내지 않으면 재물을 얻을 수 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사과술",
+    "term_en": "cider",
+    "context": "남들이 사과술을 마시는 것을 봄",
+    "interpretation_ko": "미덥지 못한 벗들에게 휘둘릴 조짐",
+    "interpretation_en": "you will be under the influence of unfaithful friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cider",
+      "original": "To see people drinking it, you will be under the influence of unfaithful friends.",
+      "translation_ko": "남들이 그것을 마시는 것을 보면 미덥지 못한 벗들에게 휘둘리게 된다"
+    }
+  },
+
+  {
+    "term_ko": "암호",
+    "term_en": "cipher",
+    "context": "암호를 읽음",
+    "interpretation_ko": "글을 캐어 읽는 일에 마음을 쏟고, 꾸준히 공부해 옛사람의 삶에 밝아질 조짐",
+    "interpretation_en": "you are interested in literary researches, and by constant study you will become well acquainted with the habits and lives of the ancients",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cipher",
+      "original": "To dream of reading cipher, indicates that you are interested in literary researches, and by constant study you will become well acquainted with the habits and lives of the ancients.",
+      "translation_ko": "암호를 읽는 꿈은, 글을 캐어 읽는 일에 마음을 쏟고 꾸준한 공부로 옛사람의 살림과 삶에 밝아지게 됨을 가리킨다"
+    }
+  }
+]
