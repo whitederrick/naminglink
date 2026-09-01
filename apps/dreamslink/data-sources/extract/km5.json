@@ -1040,8 +1040,14 @@
       "wild ducks",
       "waterfowl"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "물오리가 집 안으로 들어옴": "안으로 들어왔 들어와 방으로",
+      "맑은 시내에 물오리가 있음": "시내 개울 냇물 강물 맑은"
+    },
+    "contexts_en": {
+      "물오리가 집 안으로 들어옴": "came inside house",
+      "맑은 시내에 물오리가 있음": "clear stream journeys sea"
+    }
   },
   {
     "id": "bowing",

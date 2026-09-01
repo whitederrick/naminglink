@@ -4806,5 +4806,65 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "wagon": [
     "a wagon",
     "wagons"
+  ],
+  "drought": [
+    "a drought",
+    "drouth",
+    "dried up"
+  ],
+  "drowning": [
+    "drowning",
+    "drowned",
+    "I was drowning"
+  ],
+  "drunk": [
+    "drunk",
+    "drunken",
+    "intoxicated"
+  ],
+  "duet": [
+    "a duet",
+    "duets"
+  ],
+  "dulcimer": [
+    "a dulcimer",
+    "dulcimers"
+  ],
+  "dumb": [
+    "dumb",
+    "mute",
+    "unable to speak",
+    "speechless"
+  ],
+  "dun": [
+    "a dun",
+    "dunned",
+    "a demand for payment"
+  ],
+  "dusk": [
+    "dusk",
+    "twilight",
+    "nightfall"
+  ],
+  "dust": [
+    "dust",
+    "dusty"
+  ],
+  "dwarf": [
+    "a dwarf",
+    "dwarfs",
+    "dwarfed"
+  ],
+  "dye": [
+    "dyeing",
+    "dyed",
+    "dye"
+  ],
+  "dynamite": [
+    "dynamite"
+  ],
+  "dynamo": [
+    "a dynamo",
+    "dynamos"
   ]
 };

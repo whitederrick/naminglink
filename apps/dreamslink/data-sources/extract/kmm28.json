@@ -1,0 +1,276 @@
+[
+  {
+    "id": "drought",
+    "aliases": [
+      "가뭄이 들었다",
+      "가뭄이 심했다",
+      "가물었다",
+      "가뭄이"
+    ],
+    "aliases_en": [
+      "a drought",
+      "drouth",
+      "dried up"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "drowning",
+    "aliases": [
+      "익사했다",
+      "물에 빠졌다",
+      "물에 빠져 죽었다",
+      "빠져 죽었다",
+      "물에 빠져 허우적",
+      "물에 빠진",
+      "물에 빠져 죽는"
+    ],
+    "aliases_en": [
+      "drowning",
+      "drowned",
+      "I was drowning"
+    ],
+    "contexts": {
+      "물에 빠져 죽음": "가라앉 허우적 숨졌",
+      "물에 빠졌다가 구조됨": "구조되 구출되 살아났 건져졌",
+      "물에 빠진 남을 건지러 감": "구하러 건지러 구해주 뛰어들어",
+      "처녀가 정인이 물에 빠져 죽는 것을 봄": "애인이 정인이 연인이 남자친구"
+    },
+    "contexts_en": {
+      "물에 빠져 죽음": "sank sinking struggling",
+      "물에 빠졌다가 구조됨": "rescued saved pulled",
+      "물에 빠진 남을 건지러 감": "relief others helped",
+      "처녀가 정인이 물에 빠져 죽는 것을 봄": "sweetheart lover fiance"
+    }
+  },
+  {
+    "id": "drunk",
+    "aliases": [
+      "술에 취했다",
+      "술에 취해",
+      "만취했다",
+      "만취",
+      "술이 취했다",
+      "취해서",
+      "포도주에 취했다",
+      "포도주에 취해",
+      "와인에 취했다",
+      "와인에 취해"
+    ],
+    "aliases_en": [
+      "drunk",
+      "drunken",
+      "intoxicated"
+    ],
+    "contexts": {
+      "독한 술에 취함": "독한 위스키 소주 폭음",
+      "포도주에 취함": "포도주 와인",
+      "남이 취해 있는 것을 봄": "남이 다른사람 사람들이 친구가"
+    },
+    "contexts_en": {
+      "독한 술에 취함": "heavy liquors whiskey spirits",
+      "포도주에 취함": "wine",
+      "남이 취해 있는 것을 봄": "others someone people"
+    }
+  },
+  {
+    "id": "duet",
+    "aliases": [
+      "이중주를 들었다",
+      "이중창",
+      "듀엣",
+      "이중주가"
+    ],
+    "aliases_en": [
+      "a duet",
+      "duets"
+    ],
+    "contexts": {
+      "이중주를 켜는 소리를 들음": "켜는 연주 악기로 켰다",
+      "두 사람이 함께 부르는 노래를 들음": "노래 부르는 불렀 성악"
+    },
+    "contexts_en": {
+      "이중주를 켜는 소리를 들음": "played playing instruments",
+      "두 사람이 함께 부르는 노래를 들음": "sung singing song voices"
+    }
+  },
+  {
+    "id": "dulcimer",
+    "aliases": [
+      "양금을 보았다",
+      "덜시머",
+      "양금을"
+    ],
+    "aliases_en": [
+      "a dulcimer",
+      "dulcimers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dumb",
+    "aliases": [
+      "말을 못 했다",
+      "말이 안 나왔다",
+      "말문이 막혔다",
+      "벙어리가",
+      "벙어리를",
+      "목소리가 안 나왔다"
+    ],
+    "aliases_en": [
+      "dumb",
+      "mute",
+      "unable to speak",
+      "speechless"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dun",
+    "aliases": [
+      "빚 독촉을 받았다",
+      "독촉장",
+      "빚 독촉이",
+      "빚을 갚으라는",
+      "빚쟁이가"
+    ],
+    "aliases_en": [
+      "a dun",
+      "dunned",
+      "a demand for payment"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dusk",
+    "aliases": [
+      "땅거미가 졌다",
+      "해질녘",
+      "어스름",
+      "황혼",
+      "날이 저물었다",
+      "땅거미가"
+    ],
+    "aliases_en": [
+      "dusk",
+      "twilight",
+      "nightfall"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "dust",
+    "aliases": [
+      "먼지를 뒤집어썼다",
+      "흙먼지",
+      "티끌",
+      "먼지가 쌓였다",
+      "먼지가"
+    ],
+    "aliases_en": [
+      "dust",
+      "dusty"
+    ],
+    "contexts": {
+      "먼지를 뒤집어씀": "뒤덮 온몸 옷에",
+      "처녀가 먼지를 뒤집어씀": "처녀 아가씨 여자가",
+      "먼지를 털어 냄": "털어 털었 씻어 닦아"
+    },
+    "contexts_en": {
+      "먼지를 뒤집어씀": "covering covered",
+      "처녀가 먼지를 뒤집어씀": "young woman lover",
+      "먼지를 털어 냄": "free yourself judicious measures"
+    }
+  },
+  {
+    "id": "dwarf",
+    "aliases": [
+      "난쟁이가",
+      "난쟁이를",
+      "키가 작은 사람",
+      "키 작은 사람이",
+      "난쟁이"
+    ],
+    "aliases_en": [
+      "a dwarf",
+      "dwarfs",
+      "dwarfed"
+    ],
+    "contexts": {
+      "몸이 반듯하고 보기 좋은 키 작은 사람을 봄": "반듯 보기좋 잘생 준수",
+      "벗이 키가 작아진 것을 봄": "벗이 친구가 작아진 작아졌",
+      "흉하고 끔찍한 모습의 키 작은 사람을 봄": "흉하 끔찍 흉측 기괴"
+    },
+    "contexts_en": {
+      "몸이 반듯하고 보기 좋은 키 작은 사람을 봄": "well formed pleasing appearance",
+      "벗이 키가 작아진 것을 봄": "friends health",
+      "흉하고 끔찍한 모습의 키 작은 사람을 봄": "ugly hideous"
+    }
+  },
+  {
+    "id": "dye",
+    "aliases": [
+      "염색을 했다",
+      "물들였다",
+      "물을 들였다",
+      "염색이"
+    ],
+    "aliases_en": [
+      "dyeing",
+      "dyed",
+      "dye"
+    ],
+    "contexts": {
+      "천을 푸르게나 붉게나 금빛으로 물들임": "푸른 파란 붉은 빨간 금빛",
+      "천을 검게나 희게 물들임": "검은 검게 하얀 흰색 까맣"
+    },
+    "contexts_en": {
+      "천을 푸르게나 붉게나 금빛으로 물들임": "blues reds gold prosperity",
+      "천을 검게나 희게 물들임": "black white sorrow"
+    }
+  },
+  {
+    "id": "dynamite",
+    "aliases": [
+      "다이너마이트를",
+      "폭약",
+      "다이너마이트가"
+    ],
+    "aliases_en": [
+      "dynamite"
+    ],
+    "contexts": {
+      "다이너마이트를 봄": "놓여있 쌓여 상자에",
+      "다이너마이트에 놀람": "놀랐 놀라서 무서웠 겁이났"
+    },
+    "contexts_en": {
+      "다이너마이트를 봄": "approaching change expanding",
+      "다이너마이트에 놀람": "frightened secret enemy"
+    }
+  },
+  {
+    "id": "dynamo",
+    "aliases": [
+      "발전기를",
+      "다이너모",
+      "발전기가"
+    ],
+    "aliases_en": [
+      "a dynamo",
+      "dynamos"
+    ],
+    "contexts": {
+      "발전기를 봄": "돌아가 잘도는 힘차게",
+      "고장 난 발전기를 봄": "고장 망가 부서진 멈춘"
+    },
+    "contexts_en": {
+      "발전기를 봄": "successful enterprises details",
+      "고장 난 발전기를 봄": "repair broken damaged"
+    }
+  }
+]

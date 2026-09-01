@@ -510,8 +510,8 @@
     "id": "duck",
     "aliases": [
       "집오리",
-      "물오리",
-      "청둥오리"
+      "오리 떼",
+      "흰 오리"
     ],
     "aliases_en": [
       "a duck",
@@ -520,11 +520,19 @@
     ],
     "contexts": {
       "오리가 거위와 함께 헤엄침": "거위 헤엄 함께 나란히",
-      "오리를 잡음": "잡았 잡아 붙잡 사냥"
+      "오리를 잡음": "잡았 잡아 붙잡 손으로",
+      "흰 오리가 농가 둘레에 있음": "농가 농장 마당에 헛간",
+      "오리를 사냥함": "사냥 총으로 사냥꾼",
+      "오리가 총에 맞는 것을 봄": "총에 쏘았 쏘는 맞았",
+      "오리가 나는 것을 봄": "날아 날았 하늘 날아가"
     },
     "contexts_en": {
       "오리가 거위와 함께 헤엄침": "goose geese swimming together",
-      "오리를 잡음": "caught catching grabbed"
+      "오리를 잡음": "caught catching grabbed",
+      "흰 오리가 농가 둘레에 있음": "white farm thrift harvest",
+      "오리를 사냥함": "hunt hunting",
+      "오리가 총에 맞는 것을 봄": "shot",
+      "오리가 나는 것을 봄": "flying flew"
     }
   },
   {
@@ -554,7 +562,8 @@
     "aliases": [
       "퇴비",
       "비료",
-      "두엄"
+      "두엄",
+      "거름더미"
     ],
     "aliases_en": [
       "manure",
@@ -564,11 +573,15 @@
     ],
     "contexts": {
       "땅을 쓸어 거름을 치움": "쓸어 치웠 치우 걷어",
-      "거름 흙이 수북이 쌓임": "수북 쌓였 쌓여 무더기 잔뜩"
+      "거름 흙이 수북이 쌓임": "수북 쌓였 쌓여 무더기 잔뜩",
+      "처녀가 거름더미를 봄": "처녀 아가씨 여자가",
+      "거름더미를 봄": "더미 쌓아둔"
     },
     "contexts_en": {
       "땅을 쓸어 거름을 치움": "swept cleared removed cleaned",
-      "거름 흙이 수북이 쌓임": "piled heap mound stacked"
+      "거름 흙이 수북이 쌓임": "piled heap mound stacked",
+      "처녀가 거름더미를 봄": "young woman marry wealth",
+      "거름더미를 봄": "dunghill unexpected profits"
     }
   },
   {
