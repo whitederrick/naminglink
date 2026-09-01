@@ -119,8 +119,34 @@ const SPLIT_BY_KO = new Set(["iron"]);
  * 키는 `symbolKey()`가 만드는 값이다.
  */
 const EXPLICIT_IDS = new Map([
-  ["iron 다리미", "iron"],
-  ["iron 쇠붙이", "iron-2"],
+  [JSON.stringify(["iron", "다리미"]), "iron"],
+  [JSON.stringify(["iron", "쇠붙이"]), "iron-2"],
+]);
+
+/**
+ * **「자주 찾는 상징」으로 내보낼 상징** — `weight: 3`.
+ *
+ * 상징을 하나도 못 찾은 결과 화면이 이 값으로 목록을 고른다
+ * (`app/[locale]/dream/result/page.tsx` 의 `weight >= 3`).
+ *
+ * **v2 로 갈아 끼우면서 이 자리가 조용히 죽었다** — 조립기가 678개 전부에 `weight: 1`
+ * 을 주어 목록이 빈 배열이 됐고, 그 절이 화면에서 통째로 사라졌다. tsc 도 검사기도
+ * 하니스도 안 잡는다(CLAUDE.md §25 — 데이터를 갈면 그것을 읽는 기능이 조용히 죽는다).
+ *
+ * **목록은 옛 사전의 편집 판단을 그대로 옮긴 것이다.** 새로 고르면 근거 없이 내가 지어낸
+ * 목록이 된다. 옛 사전에서 `weight: 3` 이던 아홉 중 v2 에 있는 일곱만 남았다 —
+ * 「이빨 빠짐」·「추락」·「쫓김」은 두 원문 어디에도 표제어가 없다.
+ *
+ * 여기 적은 id 가 사전에 없으면 조립을 멈춘다. 목록이 조용히 낡지 않게 하는 관문이다.
+ */
+const POPULAR_SYMBOL_IDS = new Set([
+  "pig",    // 돼지
+  "snake",  // 뱀
+  "dragon", // 용
+  "feces",  // 똥
+  "death",  // 죽음
+  "money",  // 돈
+  "teeth",  // 이
 ]);
 
 /**
@@ -214,7 +240,9 @@ function canonicalEn(termEn) {
 function symbolKey(item) {
   const en = canonicalEn(item.term_en);
   if (!en) return "";
-  return SPLIT_BY_KO.has(en) ? `${en} ${String(item.term_ko).trim()}` : en;
+  // 구분자를 문자로 적지 않는다 — 유니코드 이스케이프는 진짜 제어 바이트로 박힌다
+  // (CLAUDE.md §10 #30·#43). JSON.stringify 로 감싸면 이스케이프가 필요 없다.
+  return SPLIT_BY_KO.has(en) ? JSON.stringify([en, String(item.term_ko).trim()]) : en;
 }
 
 const bySymbol = new Map();
@@ -310,6 +338,7 @@ function slugify(en, fallback) {
 
 const symbols = [];
 const usedIds = new Set();
+const usedExplicitIds = new Set();
 let seq = 0;
 
 for (const sym of bySymbol.values()) {
@@ -328,7 +357,9 @@ for (const sym of bySymbol.values()) {
   const category = topOf(sym.catVotes, "object");
   // **id 는 대표 영어 이름으로 짓는다** — 다수결로 고른 표기(bees 등)가 아니라.
   // 그래야 같은 상징이 배치마다 다른 주소를 갖지 않는다.
-  let id = EXPLICIT_IDS.get(sym.key) ?? slugify(sym.canonEn, `symbol-${++seq}`);
+  const pinned = EXPLICIT_IDS.get(sym.key);
+  if (pinned) usedExplicitIds.add(sym.key);
+  let id = pinned ?? slugify(sym.canonEn, `symbol-${++seq}`);
   if (usedIds.has(id)) {
     let n = 2;
     while (usedIds.has(`${id}-${n}`)) n++;
@@ -356,9 +387,36 @@ for (const sym of bySymbol.values()) {
     polarity,
     works,
     tags: CONCEPTION_SYMBOL_IDS.has(id) ? [CONCEPTION_TAG] : [],
-    weight: 1,
+    weight: POPULAR_SYMBOL_IDS.has(id) ? 3 : 1,
     meanings: sym.meanings,
   });
+}
+
+/**
+ * **표가 실제로 쓰였는지 센다.** 검사 0건은 통과가 아니라 「검사 안 됨」이다
+ * (CLAUDE.md §3). 실제로 EXPLICIT_IDS 는 구분자가 어긋나 **한 번도 맞은 적이 없었는데**,
+ * id 가 우연히 맞아떨어져 아무도 몰랐다(2026-09-01에 발견).
+ */
+const unusedExplicit = [...EXPLICIT_IDS.keys()].filter((k) => !usedExplicitIds.has(k));
+if (unusedExplicit.length > 0) {
+  console.error(
+    `\nEXPLICIT_IDS 에 적혔는데 한 번도 안 쓰인 키 ${unusedExplicit.length}개:`,
+  );
+  for (const k of unusedExplicit) console.error("  " + k);
+  console.error(
+    "\n키는 symbolKey() 가 만드는 값과 **같은 표기**여야 한다." +
+      "\n안 쓰이면 id 가 추출 파일 순서로 정해진다 — 주소가 조용히 뒤바뀔 수 있다.",
+  );
+  process.exit(1);
+}
+
+/** **「자주 찾는 상징」 목록이 사전과 어긋나면 멈춘다.** 빈 목록은 화면에서 절이 사라진다. */
+const symbolIds = new Set(symbols.map((s) => s.id));
+const missingPopular = [...POPULAR_SYMBOL_IDS].filter((id) => !symbolIds.has(id));
+if (missingPopular.length > 0) {
+  console.error(`\nPOPULAR_SYMBOL_IDS 에 적혔는데 사전에 없는 상징: ${missingPopular.join(", ")}`);
+  console.error("이대로 두면 「자주 찾는 상징」 목록이 짧아지거나 비어 그 절이 화면에서 사라진다.");
+  process.exit(1);
 }
 
 // ── 한국어 이름이 겹치는 자리를 잡는다 ──────────────────────────────────────

@@ -1,4 +1,4 @@
-import { CONCEPTION_TAG, DREAM_SYMBOLS } from "@/lib/dream-symbols";
+import { CONCEPTION_TAG, DREAM_SYMBOLS, POPULAR_SYMBOLS } from "@/lib/dream-symbols";
 import type { Locale } from "@/lib/i18n";
 import { CONCEPTION_PAGE_COUNT } from "@/lib/report-pages";
 
@@ -38,14 +38,23 @@ export async function docValues(_locale: Locale): Promise<Record<string, string>
      * 이었다 — 나머지는 근거 없이 「전통」으로 표시돼 있었다(CLAUDE.md §21). 새 사전은
      * **인용이 없으면 항목이 존재할 수 없으므로** 이 수는 상징 총수와 같다.
      *
-     * ⚠️ **자리표시자 이름은 그대로 두었다.** 23개 로케일 안내 문서가 이 이름을 쓰고 있고,
-     * 문구를 고치는 것은 번역 파이프라인을 타는 별도 작업이다(사용자 결정 2026-08-31).
-     * 지금 문서에는 「근거를 댈 수 있는 것이 N개뿐」이라고 적혀 있는데 **그 「뿐」이 이제
-     * 사실과 어긋난다** — 수치는 맞지만 문장의 결이 틀렸다. 다음 과제로 남아 있다.
+     * 문서 문구는 2026-09-01에 그 사실에 맞춰 다시 썼다(23개 로케일) — 예전에는
+     * 「근거를 댈 수 있는 것이 N개뿐」이라고 적혀 있었는데, 수치는 맞아도 **그 「뿐」이
+     * 사실과 어긋났다.**
      */
     cultureNoteTotal: count((symbol) =>
       symbol.meanings.some((meaning) => (meaning.cites?.length ?? 0) > 0),
     ),
+
+    /**
+     * **상징을 못 찾은 화면이 보여 주는 「자주 찾는 상징」 수.**
+     *
+     * 화면과 **같은 목록**을 세야 한다 — 그래서 규칙을 여기 다시 적지 않고
+     * `POPULAR_SYMBOLS`를 쓴다(CLAUDE.md §6). 안내 문서(`guide/not-found`)가 이 자리표시자를
+     * 쓰는데 **2026-09-01까지 아무도 채우지 않아 그 문단이 23개 언어 전부에서 안 그려졌다** —
+     * 못 채운 자리표시자가 있는 블록은 통째로 빠지기 때문이다(`docs/I18N_DOC_CONTENT.md` §2).
+     */
+    popularSymbolCount: String(POPULAR_SYMBOLS.slice(0, 9).length),
 
     polarityPositive: byPolarity("positive"),
     polarityAmbivalent: byPolarity("ambivalent"),

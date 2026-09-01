@@ -8,7 +8,7 @@ import { PrivacyNotice } from "@/components/PrivacyNotice";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDictionary } from "@/lib/i18n";
 import { readingLanguage, symbolTerm } from "@/lib/dream-language";
-import { DREAM_SYMBOLS } from "@/lib/dream-symbols";
+import { POPULAR_SYMBOLS } from "@/lib/dream-symbols";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
 import { SYMBOLS_INDEX_PATH, symbolPagePath } from "@/lib/symbol-pages";
@@ -62,15 +62,16 @@ export default async function Page({
   /**
    * 상징을 못 찾았을 때 보여 줄 대표 상징.
    *
-   * **무게로 고른다.** 사전이 이미 「대표 상징일수록 크다」는 값을 갖고 있어(`weight`), 여기서
-   * 목록을 손으로 적을 이유가 없다 — 손으로 적으면 사전이 바뀌어도 그대로 남는다.
-   * 무게 3은 돼지·뱀·용·이빨 빠짐·똥·추락·쫓김·죽음·돈 아홉이다.
+   * **고르는 자리는 `POPULAR_SYMBOLS` 하나다**(`lib/dream-symbols.ts`). 예전에는 여기서
+   * `weight >= 3`을 직접 걸렀는데, 안내 문서가 그 수를 셀 방법이 없어 자리표시자가 빈 채로
+   * 남아 있었다 — 그리고 **v2 사전으로 갈아 끼우자 무게 3짜리가 0개가 되어 이 목록이
+   * 조용히 빈 배열이 됐다**(CLAUDE.md §25). 판정을 한 곳에 두고 조립기가 채운다.
    *
-   * **서버에서 고른다.** 결과 화면은 클라이언트 컴포넌트라, 그쪽에서 사전을 부르면 상징
-   * 215개짜리 JSON이 통째로 브라우저로 내려간다.
+   * **서버에서 고른다.** 결과 화면은 클라이언트 컴포넌트라, 그쪽에서 사전을 부르면 사전
+   * JSON이 통째로 브라우저로 내려간다.
    */
   const language = readingLanguage(locale);
-  const popularSymbols = DREAM_SYMBOLS.filter((symbol) => (symbol.weight ?? 1) >= 3)
+  const popularSymbols = POPULAR_SYMBOLS
     .slice(0, 9)
     .map((symbol) => ({
       term: symbolTerm(symbol, language),

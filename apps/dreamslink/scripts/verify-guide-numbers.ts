@@ -22,7 +22,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 
 import { ALIASES_EN } from "../src/lib/dream-aliases-en";
-import { CONCEPTION_TAG, DREAM_SYMBOLS } from "../src/lib/dream-symbols";
+import { CONCEPTION_TAG, DREAM_SYMBOLS, POPULAR_SYMBOLS } from "../src/lib/dream-symbols";
 
 /**
  * 안내 문서가 놓인 자리를 **찾아낸다. 적어 두지 않는다.**
@@ -138,7 +138,14 @@ const KOREAN_NUMERALS: Record<string, number> = {
 
 const SPELLED: Array<{ label: string; near: RegExp; value: number }> = [
   { label: "갈래 수(한글)", near: /([가-힣]+)\s*갈래로/g, value: Object.keys(category).length },
-  { label: "자주 찾는 상징(한글)", near: /자주 찾는 상징\s*([가-힣]+)\s*개/g, value: 9 },
+  // **수를 여기 적지 않는다.** 예전에는 `value: 9`가 박혀 있었는데, v2 사전으로 갈아 끼우자
+  // 실제 목록이 일곱이 되었고 이 검사는 옛 수를 정답이라 부르고 있었다 —
+  // 검사기가 틀린 기준을 굳히는 자리다. 화면과 같은 목록(`POPULAR_SYMBOLS`)에서 센다.
+  {
+    label: "자주 찾는 상징(한글)",
+    near: /자주 찾는 상징\s*([가-힣]+)\s*개/g,
+    value: POPULAR_SYMBOLS.slice(0, 9).length,
+  },
 ];
 
 // ── 안내 문서를 모은다 ─────────────────────────────────────────────────────

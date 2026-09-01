@@ -3,72 +3,9 @@ import type { DocKey } from "./ko";
 
 /** Français — `scripts/translate-doc-content.ts`가 만든다. 손으로 고치지 말 것. */
 export const FR_DOCS = {
-  "about": {
-    "eyebrow": "Introduction",
-    "title": "Introduction à Dreams-Link",
-    "summary": "C'est un service qui interprète les rêves en utilisant un dictionnaire de symboles de rêve traditionnel. Il clarifie ce qui est utilisé comme base et ce qui n'est pas mentionné.",
-    "backLabel": "Retour à l'accueil",
-    "sections": [
-      {
-        "title": "Que faisons-nous ?",
-        "blocks": [
-          {
-            "p": "Dreams-Link trouve **des symboles utilisés dans l'interprétation traditionnelle des rêves** à partir des rêves que vous notez et montre leurs significations. Puisque les rêves sont quelque chose que nous expérimentons quotidiennement, les interprétations affichées à l'écran sont **gratuites et ne nécessitent pas d'adhésion.**"
-          },
-          {
-            "p": "Les seules choses vendues moyennant des frais sont **deux formes de préservation** — une image (carte de rêve) contenant un bon rêve et un PDF qui capture le contexte lorsqu'un symbole traditionnellement considéré comme un rêve de conception apparaît."
-          }
-        ]
-      },
-      {
-        "title": "Quelle est la base de l'interprétation ?",
-        "blocks": [
-          {
-            "p": "La base de l'interprétation est un **dictionnaire de {symbolTotal} symboles**. Nous trouvons des symboles dans le texte du rêve et montrons uniquement les significations enregistrées dans le dictionnaire pour ces symboles. Si un symbole a plusieurs significations, nous choisissons en fonction du contexte — par exemple, tenir un serpent et être mordu sont traditionnellement considérés comme des opposés."
-          },
-          {
-            "p": "La recherche est effectuée **uniquement selon des règles fixes**. Si c'est le même rêve, les mêmes symboles apparaîtront toujours, et l'interprétation ne changera pas d'hier à aujourd'hui."
-          }
-        ]
-      },
-      {
-        "title": "Que ne disons-nous pas ?",
-        "blocks": [
-          {
-            "p": "**Nous n'inventons pas de significations traditionnelles qui ne figurent pas dans le dictionnaire.** Si aucun symbole n'est trouvé, nous indiquons simplement qu'aucun n'a été trouvé et nous concluons. Remplir cet espace avec des mots plausibles est ce dont ce service se méfie le plus."
-          },
-          {
-            "p": "**Un rêve de conception n'est qu'un signe, pas un jugement.** Nous vous informons seulement qu'un symbole traditionnellement considéré comme un rêve de conception est apparu dans le rêve. Nous ne prédisons pas une grossesse ou le sexe de l'enfant, et il n'y a aucune base pour de telles affirmations."
-          },
-          {
-            "p": "Nous ne **faisons pas de déclarations définitives sur la santé, la richesse ou la carrière.** Ceci est une référence du point de vue de l'interprétation traditionnelle des rêves et ne constitue pas un avis médical, financier ou juridique."
-          }
-        ]
-      },
-      {
-        "title": "Nous ne conservons pas les rêves que vous notez.",
-        "blocks": [
-          {
-            "p": "Les histoires de rêves sont la partie la plus privée de ce que ce service reçoit. Par conséquent, nous **ne les stockons pas.** Ce que vous entrez est transporté uniquement dans l'URL et utilisé pour la lecture ; il n'est enregistré dans aucune table sur nos serveurs."
-          },
-          {
-            "p": "Nous avons décidé **de ne pas créer une fonction pour collecter les rêves comme un journal de rêves.** C'est une fonctionnalité précieuse, mais cela nécessiterait de conserver les écrits les plus privés."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "blocks": [
-          {
-            "p": "La méthode est décrite plus en détail dans le [document guide](/guide). Les informations commerciales et les coordonnées peuvent être trouvées dans [contactez-nous](/contact)."
-          }
-        ]
-      }
-    ]
-  },
   "guide": {
-    "eyebrow": "Base de Calcul",
-    "title": "Quelle est la base du calcul ?",
+    "eyebrow": "Base de calcul",
+    "title": "Quelle est la base de calcul ?",
     "summary": "Nous divulguons toutes les règles que Dreams-Link utilise. Vous pouvez vérifier quels symboles sont trouvés, ce qui est écrit dans le dictionnaire — d'où proviennent les interprétations affichées à l'écran.",
     "backLabel": "Retour à l'accueil",
     "sections": [
@@ -76,94 +13,26 @@ export const FR_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Tous les chiffres écrits ici sont **lus directement à partir du dictionnaire de symboles et des règles de correspondance.** Puisque nous ne transcrivons pas manuellement le texte, si le dictionnaire est élargi ou si les règles sont modifiées, les chiffres dans ces documents changeront également."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/symbol-dictionary": {
-    "eyebrow": "Base du Service",
-    "title": "Quelle est la base du dictionnaire de symboles ?",
-    "summary": "Il clarifie d'où proviennent les interprétations. Les critères pour diviser {symbolTotal} symboles en neuf catégories, la raison pour laquelle seulement {cultureNoteTotal} peuvent être justifiés, et pourquoi nous ne comblons pas les lacunes.",
-    "backLabel": "Base de l'Interprétation",
-    "sections": [
-      {
-        "title": "Nous ne montrons que ce qui est écrit dans le dictionnaire.",
-        "blocks": [
-          {
-            "p": "Les interprétations de Dreams-Link proviennent d'un **dictionnaire de symboles pré-écrit**. Nous trouvons des symboles dans le texte que vous fournissez et montrons les significations enregistrées dans le dictionnaire pour ces symboles. Nous ne créons pas de mots qui ne figurent pas dans le dictionnaire."
-          },
-          {
-            "p": "Actuellement, le dictionnaire contient **{symbolTotal} symboles**, et ces symboles ont un total de **{meaningTotal} significations**. La plupart des symboles n'ont qu'une seule signification, tandis que certains en ont plusieurs selon le contexte."
-          }
-        ]
-      },
-      {
-        "title": "Divisé en neuf catégories.",
-        "blocks": [
-          {
-            "p": "Nous avons regroupé ce qui apparaît dans les rêves en neuf catégories en fonction de leurs caractéristiques. Les chiffres entre parenthèses sont les comptes actuels."
-          },
-          {
-            "ul": [
-              "**Objets**({categoryThing}) · **Animaux**({categoryAnimal}) · **Nature**({categoryNature}) — les trois plus grandes catégories. L'interprétation traditionnelle des rêves discute principalement des objets visibles, des animaux et des éléments du ciel et de l'eau.",
-              "**Actions**({categoryAction}) · **Corps**({categoryBody}) — ce qui a été fait, comme être poursuivi ou tomber, et où sur le corps, comme le visage ou les cheveux.",
-              "**Personnes**({categoryPerson}) · **Lieux**({categoryPlace}) · **Couleurs**({categoryColor}) · **Nombres**({categoryNumber})"
-            ]
-          },
-          {
-            "p": "Pour les voir par catégorie, vous pouvez consulter la liste complète dans le [dictionnaire de symboles](/dream/symbols)."
-          }
-        ]
-      },
-      {
-        "title": "Seuls {cultureNoteTotal} peuvent être justifiés.",
-        "blocks": [
-          {
-            "p": "Parmi les symboles, **{cultureNoteTotal}** ont des raisons d'interprétation écrites à côté d'eux. Par exemple, la raison de distinguer entre les dents supérieures et inférieures dans un rêve de perte de dents. Les symboles restants ont des espaces vides."
-          },
-          {
-            "p": "**Nous n'avons pas comblé les espaces vides.** Ajouter des origines plausibles rendrait le document plus épais, mais à ce moment-là, ce dictionnaire ne transmettrait pas la tradition mais la fabriquerait. Il est plus honnête de distinguer ce qui peut et ne peut pas être justifié."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Raisons de ne pas élargir arbitrairement le dictionnaire.",
-        "blocks": [
-          {
-            "p": "Nous avons effectivement tenté d'élargir les symboles à des centaines mais avons abandonné. Les entrées générées automatiquement répétaient soit les mêmes phrases comme 'romance → bonne relation', soit ne fournissaient aucune source traditionnelle documentée. Nous avons conclu que **trouver avec précision ce qui existe** est mieux que d'augmenter simplement les chiffres."
-          }
-        ]
-      },
-      {
-        "title": "Le bon et le mauvais sont prédéterminés par le dictionnaire.",
-        "blocks": [
-          {
-            "p": "Chaque symbole porte son auspice enregistré à côté. **Bon {polarityPositive}**, **ambivalent {polarityAmbivalent}**, **prudent {polarityNegative}**, et **neutre {polarityNeutral}**."
-          },
-          {
-            "p": "Le fait que les significations positives dépassent la moitié n'est pas parce que nous sommes généreux, mais parce que l'interprétation traditionnelle des rêves a toujours été ainsi — des symboles grands et forts comme les cochons, les dragons et le feu ont généralement été considérés comme de bons augures. Cependant, tous les rêves ne sont pas interprétés positivement. Cette valeur reflète la nature de chaque symbole, et l'atmosphère générale du rêve est réévaluée en rassemblant les symboles trouvés."
+            "p": "Tous les chiffres écrits ici sont **lus directement à partir du dictionnaire des symboles et des règles de correspondance.** Comme nous ne transcrivons pas manuellement le texte, si le dictionnaire est élargi ou si les règles sont modifiées, les chiffres dans ces documents changeront également."
           }
         ]
       }
     ]
   },
   "guide/how-matching-works": {
-    "eyebrow": "Base du Service",
-    "title": "Comment trouver des symboles dans les histoires de rêve.",
+    "eyebrow": "Base du service",
+    "title": "Comment trouver des symboles dans les histoires de rêves.",
     "summary": "Il explique comment les symboles sont sélectionnés à partir de phrases librement écrites et comment nous filtrons un symbole qui se trouve simplement à l'intérieur d'un mot plus long — 별 (\"étoile\") à l'intérieur de 특별할 (\"rien de spécial\").",
-    "backLabel": "Base de l'Interprétation",
+    "backLabel": "Base de l'interprétation",
     "sections": [
       {
         "title": "Nous trouvons des symboles dans le texte que vous fournissez.",
         "blocks": [
           {
-            "p": "Lorsque vous écrivez librement votre histoire de rêve, nous recherchons des symboles dans ce texte à partir du dictionnaire. Vous n'avez pas besoin de sélectionner des éléments ou d'écrire dans un format spécifique. Écrivez simplement comme vous le feriez normalement, par exemple 'La nuit dernière, un énorme python s'est enroulé autour de moi.'"
+            "p": "Lorsque vous écrivez librement votre histoire de rêve, nous recherchons des symboles dans ce texte à partir du dictionnaire. Vous n'avez pas besoin de sélectionner des éléments ou d'écrire dans un format spécifique. Écrivez simplement comme vous le feriez normalement, par exemple : 'La nuit dernière, un énorme python s'est enroulé autour de moi.'"
           },
           {
-            "p": "Lors de la recherche, nous examinons non seulement le nom du symbole mais aussi **{aliasTotal} noms alternatifs**. Ce sont des mots qui se réfèrent à la même chose, comme 구렁이 (gureongi) et 뱀 (baem), 떨어지다 (tteoreojida) et 빠지다 (ppajida). Les variations avec des terminaisons, telles que 「떨어지는」 (tteoreojineun) · 「쫓겨서」 (jjotgyeoseo) · 「빠졌다」 (ppajyeotda), sont également incluses."
+            "p": "Lors de la recherche, nous examinons non seulement le nom du symbole mais aussi **{aliasTotal} noms alternatifs**. Ce sont des mots qui désignent la même chose, comme 구렁이 (gureongi) et 뱀 (baem), 떨어지다 (tteoreojida) et 빠지다 (ppajida). Les variations avec des terminaisons, telles que 「떨어지는」 (tteoreojineun) · 「쫓겨서」 (jjotgyeoseo) · 「빠졌다」 (ppajyeotda), sont également incluses."
           }
         ]
       },
@@ -175,9 +44,9 @@ export const FR_DOCS = {
           },
           {
             "ul": [
-              "별 (\"étoile\") caché dans 특**별**할 (\"rien de spécial\")",
-              "게 (\"crabe\") caché dans 누군가에**게** (\"par quelqu'un\")",
-              "말 (\"cheval\") dans **말**했다 (\"a dit\"), et 배 (\"bateau, poire\") dans **배**가 고팠다 (\"Nous avions faim\")"
+              "별 (\"étoile\") caché à l'intérieur de 특**별**할 (\"rien de spécial\")",
+              "게 (\"crabe\") caché à l'intérieur de 누군가에**게** (\"par quelqu'un\")",
+              "말 (\"cheval\") à l'intérieur de **말**했다 (\"a dit\"), et 배 (\"bateau, poire\") à l'intérieur de **배**가 고팠다 (\"Nous avions faim\")"
             ]
           },
           {
@@ -187,10 +56,10 @@ export const FR_DOCS = {
       },
       {
         "kind": "note",
-        "title": "C'est ainsi que cela fonctionne",
+        "title": "Voici comment cela fonctionne",
         "blocks": [
           {
-            "p": "Avant de mettre en œuvre cette règle, lors de tests avec douze phrases réelles, **les douze** contenaient des symboles non pertinents. Une phrase sans contenu significatif a même été marquée comme un a conception dream."
+            "p": "Avant de mettre en œuvre cette règle, lors de tests avec douze phrases réelles, **toutes les douze** contenaient des symboles non pertinents. Une phrase sans contenu significatif a même été marquée comme un a conception dream."
           },
           {
             "p": "Maintenant, il en reste un — le 배 (bae) dans 「배가 고팠다」 (bae ga gopatda). Comme il sonne de la même manière mais a une signification différente, il ne peut pas être filtré uniquement par les caractères environnants."
@@ -204,7 +73,7 @@ export const FR_DOCS = {
         "title": "Les mêmes caractères donnent toujours les mêmes résultats",
         "blocks": [
           {
-            "p": "Il n'y a pas de place pour le hasard dans les règles de correspondance. Puisque le dictionnaire est fixe et que les règles sont établies, si vous saisissez la même phrase à nouveau, **le même symbole apparaîtra dans le même ordre**. L'interprétation que vous voyez aujourd'hui ne différera pas de celle que vous verrez demain."
+            "p": "Il n'y a pas de place pour le hasard dans les règles de correspondance. Comme le dictionnaire est fixe et que les règles sont établies, si vous saisissez à nouveau la même phrase, **le même symbole apparaîtra dans le même ordre**. L'interprétation que vous voyez aujourd'hui ne sera pas différente de celle que vous verrez demain."
           },
           {
             "p": "Cette qualité est également une promesse que nous nous sommes faite. Les interprétations qui changent à chaque fois sont divertissantes mais manquent de fondement. Cela se connecte à l'histoire de [pourquoi nous n'utilisons pas de modèles](/guide/no-ai)."
@@ -213,538 +82,20 @@ export const FR_DOCS = {
       }
     ]
   },
-  "guide/one-symbol-many-meanings": {
-    "eyebrow": "Base du service",
-    "title": "La raison pour laquelle le même symbole a différentes significations",
-    "summary": "Traditionnellement, tenir un serpent et être mordu par un est opposé. Cela discute de la structure où {symbolTotal} symboles ont {meaningTotal} significations et comment interpréter les situations.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Même si les symboles sont les mêmes, des situations différentes donnent des significations différentes",
-        "blocks": [
-          {
-            "p": "Dans l'interprétation traditionnelle des rêves, un symbole unique n'a pas toujours une seule signification. Même pour le même serpent, **le fait de le tenir et d'être mordu a été interprété comme complètement opposé.** Cela est également noté dans le dictionnaire."
-          },
-          {
-            "p": "C'est pourquoi les {symbolTotal} symboles ont un total de {meaningTotal} significations. Chaque signification inclut **le contexte dans lequel elle s'applique**, et si ce contexte est visible dans le texte que vous fournissez, nous sélectionnons cette signification."
-          }
-        ]
-      },
-      {
-        "title": "Comment identifier la situation",
-        "blocks": [
-          {
-            "p": "Nous vérifions si le texte que vous avez fourni contient des mots indiquant cette situation. Dans 「뱀이 나를 물었다」 (baemi nareul mul-eotda), la situation de morsure est décrite, tandis que dans 「뱀을 품에 안았다」 (baemeul pume anatda), la situation de tenir est décrite. S'il n'y a pas de mots indiquant la situation, nous l'interprétons en utilisant la **signification de base** de ce symbole."
-          },
-          {
-            "p": "Par conséquent, lorsque vous écrivez votre rêve, si vous incluez **non seulement ce qui est apparu mais aussi quelles actions ont été prises**, l'interprétation sera plus précise. 「돼지를 봤다」 (dwaeji-reul bwatda) transmet moins que 「돼지가 집으로 들어왔다」 (dwaeji-ga jib-euro deureowatda)."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Plus vous écrivez, mieux c'est, mais il n'est pas nécessaire d'écrire long",
-        "blocks": [
-          {
-            "p": "Deux ou trois phrases suffisent. Écrire plus longtemps ne signifie pas trouver plus de symboles ; plutôt, si des mots non liés sont mélangés, des symboles non pertinents peuvent être identifiés."
-          }
-        ]
-      },
-      {
-        "title": "Il y a {contextSplitSymbolTotal} symboles avec des significations divisées",
-        "blocks": [
-          {
-            "p": "Parmi les {symbolTotal} symboles dans le dictionnaire, **{contextSplitSymbolTotal}** ont des significations qui varient selon la situation. Le reste a été lu dans une seule direction indépendamment de la situation."
-          },
-          {
-            "p": "Ces {contextSplitSymbolTotal} sont les domaines les plus prudents. Malinterpréter la situation peut conduire à transmettre de bonnes nouvelles comme de mauvaises nouvelles, ou vice versa. Par conséquent, si la situation est floue, nous ne **choisissons pas de force un côté et nous nous en tenons à la signification de base** de ce symbole — nous ne voulons pas déclarer quelque chose d'incertain comme si c'était certain."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Les sentiments au réveil sont également pris en compte",
-        "blocks": [
-          {
-            "p": "Les sentiments et la répétition demandés en dessous du contenu du rêve ne sont pas utilisés pour trouver des symboles. Ils sont référencés lors de la décision de la manière d'interpréter dans des situations avec des significations divisées. Vous n'avez pas besoin de choisir ; les résultats seront toujours fournis."
-          }
-        ]
-      },
-      {
-        "title": "L'atmosphère générale du rêve est comptée séparément",
-        "blocks": [
-          {
-            "p": "Si plusieurs symboles sont trouvés, nous rassemblons si chacun de ces symboles est positif ou prudent pour déterminer le ton général du rêve. Un rêve qui inclut un bon symbole et un symbole prudent n'est pas simplement qualifié de 'bon rêve.'"
-          },
-          {
-            "p": "Vous pouvez prévisualiser les différents symboles et leurs significations dans le [dictionnaire des symboles](/dream/symbols). Il est également bon de jeter un coup d'œil à ce qui est inclus avant d'écrire votre rêve."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/good-and-bad": {
-    "eyebrow": "Base du service",
-    "title": "Critères pour distinguer les rêves auspices et les rêves inauspices",
-    "summary": "Les quatre valeurs attribuées à chaque symbole et leur distribution, la raison pour laquelle les symboles positifs dépassent la moitié, et pourquoi nous communiquons les rêves mixtes comme mixtes.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Chaque symbole se voit attribuer l'une des quatre valeurs",
-        "blocks": [
-          {
-            "p": "Parmi les {symbolTotal} symboles dans le dictionnaire, chacun est catégorisé comme l'un des suivants."
-          },
-          {
-            "ul": [
-              "**{polarityPositive} symboles positifs** — ceux interprétés comme des événements chanceux comme la richesse, les célébrations et les bienfaiteurs.",
-              "**{polarityAmbivalent} symboles qui varient selon la situation** — comme les serpents, où la signification peut changer selon ce qui a été fait. Cette catégorie est la plus prudente.",
-              "**{polarityNegative} symboles inauspices** — ceux vus comme des commérages, des disputes ou des pertes.",
-              "**{polarityNeutral} symboles neutres** — ceux qui ne sont ni bons ni mauvais en eux-mêmes, comme les couleurs ou les nombres."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "La raison pour laquelle les symboles positifs dépassent la moitié",
-        "blocks": [
-          {
-            "p": "Ce n'est pas parce que nous sommes généreux dans nos évaluations. **L'interprétation des rêves traditionnelle (dream interpretation) a toujours été ainsi.** De grands et puissants symboles comme les cochons, les dragons, le feu et l'eau ont généralement été considérés comme de bons augures, et le dictionnaire reflète cette tradition."
-          },
-          {
-            "p": "Ainsi, le fait qu'un 'bon symbole soit apparu' ne signifie pas que 'de bonnes choses vont arriver.' Ce que nous pouvons transmettre est limité à la manière dont ce symbole a été interprété dans la tradition."
-          }
-        ]
-      },
-      {
-        "title": "Le ton d'un rêve est rassemblé à partir de ses symboles",
-        "blocks": [
-          {
-            "p": "Si plusieurs symboles sont trouvés, nous rassemblons leur auspice respectif pour déterminer le ton général du rêve. Si seuls des symboles positifs apparaissent, c'est un bon rêve ; si seuls des symboles inauspices apparaissent, c'est un rêve inauspice ; si **mixte, nous le communiquons comme mixte.**"
-          },
-          {
-            "p": "Nous ne catégorisons pas de force les symboles mixtes d'un seul côté. En réalité, les rêves que les gens ont sont souvent mixtes, et les résumer comme 'un bon rêve' n'est ni précis ni utile."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Mots à ne pas utiliser",
-        "blocks": [
-          {
-            "p": "Ne faites pas de déclarations définitives sur ce qui va se passer, quand cela va se passer, ou concernant la santé et la richesse. Transmettre les significations des symboles transmis par la tradition est différent de prédire l'avenir."
-          }
-        ]
-      },
-      {
-        "title": "Quand un rêve inauspicieux apparaît",
-        "blocks": [
-          {
-            "p": "Même si un symbole interprété comme un avertissement apparaît, ce n'est pas nécessairement une mauvaise nouvelle. Dans l'interprétation des rêves traditionnelle, un rêve inauspicieux a généralement été utilisé comme **une déclaration pointant vers la situation actuelle**. Si un symbole suggérant un conflit apparaît, il peut être interprété comme un rappel de retenir ses mots."
-          },
-          {
-            "p": "Pour la même raison, ce service ne vend pas de talismans ou de charmes. Ce qui est vendu est uniquement [deux façons de garder vos rêves](/guide/reports)."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/conception-dreams": {
-    "eyebrow": "Rêve de conception",
-    "title": "Comment interpréter les rêves de conception",
-    "summary": "Il révèle comment déterminer {conceptionSymbolTotal} symboles de rêve de conception, pourquoi tous les rêves de cochon ne sont pas considérés comme des rêves de conception, et le principe qui ne prédit pas la grossesse ou le sexe.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Tout d'abord, clarifiez ceci",
-        "blocks": [
-          {
-            "p": "**Dreams-Link ne détermine pas le statut de grossesse. Cela n'indique pas non plus le sexe de l'enfant.** Ce sont des choses qui ne peuvent pas être connues par les rêves, et ce n'est pas quelque chose que nous pouvons faire."
-          },
-          {
-            "p": "Ce que nous pouvons vous dire est limité à cela — **le fait qu'un symbole traditionnellement considéré comme un rêve de conception soit apparu dans ce rêve.** C'est tout ce que nos ancêtres ont interprété à propos de ce symbole."
-          }
-        ]
-      },
-      {
-        "title": "Il y a {conceptionSymbolTotal} symboles considérés comme des rêves de conception",
-        "blocks": [
-          {
-            "p": "Parmi les {symbolTotal} symboles dans le dictionnaire, **{conceptionSymbolTotal}** sont marqués comme des rêves de conception. Il y a de nombreux animaux comme des dragons, des cochons et des serpents, ainsi que des fruits comme des pêches et des châtaignes, et le soleil et la lune sont inclus."
-          },
-          {
-            "p": "Cependant, **l'apparition de ce symbole ne signifie pas immédiatement qu'il s'agit d'un rêve de conception.** C'est là que ce service a fourni des efforts."
-          }
-        ]
-      },
-      {
-        "title": "Le jugement est basé sur la signification réelle, pas sur les symboles",
-        "blocks": [
-          {
-            "p": "Le cochon est un symbole des rêves de conception et en même temps **représente les rêves de richesse.** S'il est considéré comme un rêve de conception simplement parce que le symbole est apparu, alors tout le monde qui a rêvé de cochons aurait eu un rêve de conception. En réalité, il a principalement été interprété comme un rêve de richesse."
-          },
-          {
-            "p": "Par conséquent, nous regardons **la signification réelle dérivée de ce symbole, pas le symbole lui-même.** Nous ne le marquons comme un rêve de conception que lorsque la signification penche vers la conception dans la situation que vous avez fournie. Même avec le même cochon, la lecture change si la phrase diffère."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Si vous mentionnez la grossesse, nous regardons cela en premier",
-        "blocks": [
-          {
-            "p": "Si votre écriture inclut des mots comme grossesse, rêve de conception, ou accouchement, nous regardons d'abord la signification de ce symbole penché vers la conception. Même avec le même rêve de cochon, la façon dont nos ancêtres l'ont interprété variait selon la situation actuelle."
-          }
-        ]
-      },
-      {
-        "title": "La raison de séparer les rapports de rêve de conception",
-        "blocks": [
-          {
-            "p": "Les rêves de conception servent un but différent des autres rêves. Ils sont souvent discutés même après la naissance de l'enfant et partagés entre les membres de la famille. Par conséquent, plutôt que de simplement les visualiser sur un écran, nous avons créé un **document qui peut être conservé.**"
-          },
-          {
-            "p": "Ce qui est inclus est noté dans [deux façons de garder vos rêves](/guide/reports). Vous pouvez voir toutes les interprétations sans acheter ce que vous voyez à l'écran."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/how-to-write": {
-    "eyebrow": "Comment utiliser",
-    "title": "Comment écrire votre rêve efficacement",
-    "summary": "Si vous écrivez ce que vous avez vu et fait, cela sera bien interprété. Cela explique pourquoi un seul verbe peut déterminer la signification et pourquoi nous posons des questions sur les sentiments et la répétition.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Veuillez écrire ce que vous avez vu et fait",
-        "blocks": [
-          {
-            "p": "Il n'y a pas de format spécifique. Quelques phrases comme vous parlez normalement suffisent. Cependant, ce qui fonctionne bien est déterminé — **ce qui est visible** et **ce qui s'est passé.**"
-          },
-          {
-            "ul": [
-              "Fonctionne bien — 「Un grand serpent m'a entouré」, 「J'ai vu de l'eau claire couler」, 「Je suis tombé d'un endroit élevé」",
-              "Ne fonctionne pas — 「J'avais peur」, 「Je me sentais étrange」, 「J'avais l'impression que quelqu'un me détestait」"
-            ]
-          },
-          {
-            "p": "Si vous écrivez seulement des sentiments, il n'y aura pas de symboles à trouver. Cela est dû au fait que l'interprétation traditionnelle des rêves parle de [objets et d'actions](/guide/categories), pas d'émotions."
-          }
-        ]
-      },
-      {
-        "title": "Écrire ce que vous avez fait rend cela plus précis",
-        "blocks": [
-          {
-            "p": "Même avec le même symbole, il y a {contextSplitSymbolTotal} cas où les significations diffèrent selon la situation. Traditionnellement, tenir un serpent et être mordu ont été interprétés comme des opposés."
-          },
-          {
-            "p": "Ainsi, 「J'ai vu un cochon」 est moins précis que 「Un cochon est entré dans la maison」, et 「Il y avait de l'eau」 est moins précis que 「J'ai bu de l'eau claire.」 **Un seul verbe détermine la signification.**"
-          }
-        ]
-      },
-      {
-        "title": "Pourquoi nous posons des questions sur les sentiments et la répétition",
-        "blocks": [
-          {
-            "p": "Sous le contenu du rêve, il y a un endroit pour sélectionner **le sentiment lorsque vous vous êtes réveillé** et **si vous avez répété le même rêve.** Vous n'avez pas besoin de choisir les deux pour qu'un résultat soit fourni."
-          },
-          {
-            "p": "Ces valeurs ne sont pas utilisées pour trouver des symboles. Elles sont référencées lors de la détermination **de quelle signification choisir** parmi le même symbole et comment transmettre le résultat."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Dans les cas où vous mentionnez la grossesse",
-        "blocks": [
-          {
-            "p": "Si votre écriture inclut des mots comme grossesse, rêve de conception, ou accouchement, nous regardons d'abord la signification de ce symbole penché vers la conception. Même avec le même rêve de cochon, la façon dont nos ancêtres l'ont interprété variait selon la situation actuelle — [comment interpréter les rêves de conception](/guide/conception-dreams)."
-          }
-        ]
-      },
-      {
-        "title": "Il n'est pas nécessaire d'écrire des textes longs",
-        "blocks": [
-          {
-            "p": "Un texte plus long ne signifie pas que plus de symboles seront trouvés. Au contraire, si des mots non pertinents sont mélangés longuement, il y a une plus grande chance que des mots non liés soient interprétés comme des symboles. **Veuillez écrire uniquement les scènes dont vous vous souvenez.**"
-          },
-          {
-            "p": "Le texte que vous fournissez n'est enregistré nulle part. La raison pour laquelle vous pouvez écrire librement est notée dans [la méthode de non-stockage](/guide/no-storage)."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/categories": {
-    "eyebrow": "Base du service",
-    "title": "Critères divisés en neuf catégories",
-    "summary": "Des objets, des animaux et de la nature aux couleurs et aux nombres, il y a neuf catégories et une raison de ne pas inclure une catégorie émotionnelle.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Les symboles dans les rêves sont divisés en neuf catégories",
-        "blocks": [
-          {
-            "p": "Les {symbolTotal} symboles sont regroupés en neuf catégories en fonction de leurs caractéristiques. Les critères de division sont **comment ils apparaissent dans les rêves** — que ce soit sous forme d'animaux, d'objets, ou d'actions que nous avons prises."
-          },
-          {
-            "ul": [
-              "**Objets {categoryThing}** — Articles tangibles comme de l'argent, des miroirs et des couteaux. C'est la catégorie la plus fournie.",
-              "**Animaux {categoryAnimal}** — dragon·cochon·serpent·vache. Beaucoup de ceux-ci sont considérés comme des rêves de conception.",
-              "**Nature {categoryNature}** — des choses qui sont grandes et anciennes comme l'eau·le feu·le soleil·la lune·la montagne.",
-              "**Action {categoryAction}** — des choses faites dans les rêves comme être poursuivi·tomber·voler.",
-              "**Corps {categoryBody}** — dents·cheveux·sang. La signification varie selon l'endroit sur le corps.",
-              "**Personne {categoryPerson}** · **Lieu {categoryPlace}** · **Couleur {categoryColor}** · **Nombre {categoryNumber}**"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Pourquoi n'y a-t-il pas de catégorie émotionnelle ?",
-        "blocks": [
-          {
-            "p": "Des catégories comme 「anxiété」·「désir」 ne sont pas incluses. **C'est parce que l'interprétation des rêves traditionnelle ne traite pas des émotions.** Les anciennes interprétations se concentraient sur ce qui était visible et ce qui se passait, plutôt que sur les sentiments du rêveur."
-          },
-          {
-            "p": "nous avons essayé de créer une catégorie émotionnelle, mais les résultats étaient des termes comme 「perte d'affection」·「stabilité émotionnelle」. Ce ne sont pas des **symboles** issus des rêves mais du vocabulaire de la psychologie moderne. C'est un type de service différent et ce n'est pas ce que ce dictionnaire vise à faire."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Alors quand vous écrivez",
-        "blocks": [
-          {
-            "p": "Veuillez écrire **ce que vous avez vu et fait** plutôt que des sentiments ; cela donnera de bien meilleurs résultats. Cependant, nous vous demanderons vos sentiments au réveil séparément — même le même symbole peut avoir des significations différentes selon la situation."
-          }
-        ]
-      },
-      {
-        "title": "Les couleurs et les nombres ne se tiennent pas seuls",
-        "blocks": [
-          {
-            "p": "Couleur {categoryColor} et nombre {categoryNumber} n'ont pas de significations intrinsèquement bonnes ou mauvaises. Tout comme un serpent blanc et un serpent noir sont différents, leurs significations changent selon **ce avec quoi ils sont associés**. Par conséquent, ces deux catégories sont considérées en conjonction avec d'autres symboles."
-          },
-          {
-            "p": "Une liste complète par catégorie est disponible dans le [dictionnaire des symboles](/dream/symbols). Ouvrir un symbole montrera sa signification traditionnelle, sa catégorie et les symboles associés."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/not-found": {
-    "eyebrow": "Comment utiliser",
-    "title": "Lorsque un symbole ne peut pas être trouvé",
-    "summary": "Si vous ne pouvez pas le trouver, nous vous informerons qu'il n'est pas trouvé. nous discuterons pourquoi il ne peut pas être trouvé, ce que nous vous montrerons à la place sur cet écran, et comment le dictionnaire est élargi.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "Lorsque non trouvé, nous vous informerons qu'il n'est pas trouvé",
-        "blocks": [
-          {
-            "p": "Si nous ne pouvons trouver aucun symbole dans le texte que vous avez fourni, nous vous **informerons qu'il n'est pas trouvé.** nous ne forcerons pas l'association avec quelque chose de similaire ou ne créerons pas de phrases plausibles pour combler l'espace."
-          },
-          {
-            "p": "C'est ce dont ce service est le plus prudent. Au moment où nous comblons un vide, cela rompt la promesse que nous ne transmettons que des interprétations transmises."
-          }
-        ]
-      },
-      {
-        "title": "Pourquoi ne peut-il pas être trouvé ?",
-        "blocks": [
-          {
-            "p": "En général, c'est l'une des raisons suivantes."
-          },
-          {
-            "ul": [
-              "**C'est un symbole qui n'est pas encore dans le dictionnaire.** Actuellement, il y a {symbolTotal} symboles répertoriés, mais il y en a beaucoup d'autres qui pourraient apparaître dans les rêves.",
-              "**Vous n'avez écrit que des sentiments.** S'il n'y a que des émotions comme 「j'étais effrayé」·「je me sentais étrange」, il n'y a pas de symboles qui peuvent être associés. L'interprétation traditionnelle des rêves parle de **objets visibles et d'actions** plutôt que d'émotions.",
-              "**C'est trop court.** Il est préférable d'écrire en phrases plutôt qu'en un ou deux mots."
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Lorsque vous essayez d'écrire à nouveau",
-        "blocks": [
-          {
-            "p": "Veuillez inclure **ce que vous avez vu et ce que vous avez fait** dans le rêve. Dire 「j'étais anxieux」 est moins efficace que de dire 「je suis tombé d'un endroit élevé」, et dire 「je l'ai aimé」 est moins efficace que de dire 「j'ai vu de l'eau claire couler」."
-          }
-        ]
-      },
-      {
-        "title": "nous ne laissons pas un écran vide",
-        "blocks": [
-          {
-            "p": "Lorsque quelque chose ne peut pas être trouvé, nous montrerons également **{popularSymbolCount} symboles fréquemment recherchés** sur cet écran. Ceux-ci sont sélectionnés dans le dictionnaire en fonction de leur représentativité, ce qui peut vous aider à vous rappeler si l'un d'eux est apparu dans votre rêve."
-          },
-          {
-            "p": "Si vous souhaitez parcourir la liste complète, il y a {symbolTotal} symboles organisés par catégorie dans le [dictionnaire des symboles](/dream/symbols). Chaque symbole inclut sa signification traditionnelle et les symboles associés."
-          }
-        ]
-      },
-      {
-        "title": "Comment le dictionnaire sera-t-il élargi à l'avenir ?",
-        "blocks": [
-          {
-            "p": "Plutôt que d'augmenter les chiffres, nous nous concentrons sur **l'identification précise de ce qui est déjà là**. nous avons inclus {aliasTotal} noms alternatifs pour le même symbole, et nous avons rendu possible la reconnaissance des mots qui changent de forme avec des suffixes."
-          },
-          {
-            "p": "Lors de l'élargissement des symboles eux-mêmes, nous n'inclurons que ceux qui peuvent **fournir une source traditionnelle documentée.** Augmenter simplement les chiffres sans preuve devient de la création plutôt qu'un dictionnaire — nous avons documenté les tentatives et les résultats dans [pourquoi nous n'utilisons pas de modèles](/guide/no-ai)."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/no-ai": {
-    "eyebrow": "Base de service",
-    "title": "Raisons de ne pas utiliser l'intelligence artificielle dans l'interprétation des rêves",
-    "summary": "Il n'y a pas de code qui appelle un modèle dans le processus de création d'interprétation. nous avons abandonné la tentative d'élargir le dictionnaire en utilisant un modèle basé sur des résultats empiriques, et donc ce qui a été gagné et ce qui a été abandonné.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "L'intelligence artificielle n'est pas utilisée dans l'interprétation des rêves",
-        "blocks": [
-          {
-            "p": "De nombreux services d'interprétation des rêves actuels montrent des textes générés en insérant des histoires de rêves dans des modèles génératifs. Dreams-Link ne fait pas cela. **Il n'y a pas de code qui appelle un modèle dans le processus de création d'interprétation.**"
-          },
-          {
-            "p": "Ce que nous faisons est simple. nous trouvons des symboles dans le texte que vous fournissez qui sont dans le dictionnaire et sélectionnons et montrons les significations que le dictionnaire a écrites pour ces symboles. Il n'y a pas de place pour des phrases qui ne sont pas dans le dictionnaire."
-          }
-        ]
-      },
-      {
-        "title": "Pourquoi cette décision a-t-elle été prise ?",
-        "blocks": [
-          {
-            "p": "**Les modèles ne disent pas qu'ils ne savent pas ce qu'ils ne savent pas.** Lorsqu'on leur demande des symboles sans source traditionnelle documentée, ils fabriquent des origines plausibles. Et qu'elles soient fabriquées ou non est quelque chose que le lecteur ne peut pas discerner. Si l'on insère de la création à la place de la transmission de la tradition, le principe du service s'effondre."
-          },
-          {
-            "p": "nous avons en fait essayé de faire créer des symboles par un modèle pour élargir le dictionnaire. Sur soixante-six exemples qui valaient la peine d'être considérés, **cinquante-cinq n'ont pu fournir aucune source traditionnelle documentée**, et certains incluaient des choses qui ne pouvaient pas exister dans l'interprétation traditionnelle des rêves, comme des métros et des autoroutes. Par conséquent, **aucun n'a été inclus.**"
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Il en était de même même avec des modèles plus grands",
-        "blocks": [
-          {
-            "p": "Lorsque nous avons essayé la même tâche avec un meilleur modèle, un seul sur dix-neuf a réussi, et celui-ci n'était qu'une répétition des mêmes mots dans la position de preuve. Les modèles plus grands ne parlent que **plus plausiblement** de ce qu'ils ne savent pas."
-          }
-        ]
-      },
-      {
-        "title": "Les avantages de ne pas utiliser un modèle",
-        "blocks": [
-          {
-            "ul": [
-              "**Si c'est le même rêve, la même interprétation en sortira.** La formulation ne change pas à chaque fois.",
-              "**C'est rapide.** Il n'y a pas d'attente pour la réponse d'un modèle, donc les résultats sont livrés immédiatement.",
-              "**Le rêve que vous avez fourni ne sort pas.** Il n'est pas nécessaire de l'envoyer aux serveurs d'entreprise externes — veuillez lire avec [la méthode de non-stockage](/guide/no-storage).",
-              "**Il peut être offert gratuitement.** Les rêves sont quelque chose que nous faisons chaque jour, donc il y a de nombreuses demandes. Si un modèle est appelé pour chaque demande, les coûts doivent être couverts quelque part."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Ce qui est abandonné à la place",
-        "blocks": [
-          {
-            "p": "Nous ne pouvons pas interpréter ce qui n'est pas dans le dictionnaire. Si un modèle avait été utilisé, tout ce que vous avez écrit aurait produit une réponse plausible. Nous avons choisi le côté qui **dit qu'il ne pouvait pas être trouvé quand il ne pouvait pas être trouvé**. Ce que nous montrons à ce moment-là est écrit dans [lorsqu'un symbole ne peut pas être trouvé](/guide/not-found)."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/reports": {
-    "eyebrow": "Produits payants",
-    "title": "Deux façons de conserver vos rêves",
-    "summary": "L'interprétation elle-même n'entraîne pas de frais. Nous expliquons ce que sont les deux choses que nous vendons, ce qu'elles contiennent et pourquoi elles ne sont pas de meilleures interprétations.",
-    "backLabel": "Base d'interprétation",
-    "sections": [
-      {
-        "title": "L'interprétation elle-même n'entraîne pas de frais",
-        "blocks": [
-          {
-            "p": "Écrire vos rêves et voir quels symboles sont présents **ne coûte pas d'argent et ne nécessite pas d'adhésion.** Puisque les gens rêvent chaque jour, nous avons décidé que cet espace devrait être gratuit."
-          },
-          {
-            "p": "**Les deux choses que nous vendons ne sont pas de meilleures interprétations.** Ce sont **deux façons de conserver la même interprétation.** Le contenu que vous voyez à l'écran ne change pas après le paiement."
-          }
-        ]
-      },
-      {
-        "title": "Carte de rêve — Une image",
-        "blocks": [
-          {
-            "p": "Nous fournissons les symboles trouvés dans votre rêve et leurs significations dans **une image.** C'est un fichier image, pas un PDF, donc vous pouvez le sauvegarder tel quel ou l'envoyer à d'autres."
-          },
-          {
-            "p": "C'est pour ceux qui ressentent des regrets lorsque un bon rêve disparaît après la fermeture de l'écran. Puisque nous ne sauvegardons pas les rêves, si vous voulez le garder, c'est la seule façon de le prendre."
-          }
-        ]
-      },
-      {
-        "title": "Rapport de rêve de conception — Document {conceptionPages} pages",
-        "blocks": [
-          {
-            "p": "Pour les rêves qui montrent des symboles interprétés comme des rêves de conception, nous créons un **document de {conceptionPages} pages.** Il comprend quels symboles sont apparus, comment ces symboles ont été traditionnellement interprétés, et un endroit pour les enregistrer."
-          },
-          {
-            "p": "Puisqu'un rêve de conception est souvent discuté et partagé entre les membres de la famille même après la naissance de l'enfant, nous avons créé un document séparé pour les rêves qui sont trop précieux pour être simplement vus à l'écran."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Mots non dits ici non plus",
-        "blocks": [
-          {
-            "p": "Nous ne déterminons pas le statut de grossesse ni le sexe de l'enfant. De telles déclarations n'apparaissent pas dans le document. Pour plus de détails, voir [comment interpréter un rêve de conception](/guide/conception-dreams)."
-          }
-        ]
-      },
-      {
-        "title": "Pourquoi il n'y a plus de document",
-        "blocks": [
-          {
-            "p": "Les services frères fournissent des rapports de neuf pages. Le moteur de saju extrait beaucoup de valeurs à partir d'une seule date de naissance. L'interprétation des rêves ne fonctionne pas de cette manière."
-          },
-          {
-            "p": "Les symboles énumérés dans le dictionnaire totalisent {symbolTotal}, et la plupart d'entre eux ont **une signification chacun.** Pour étirer cela sur neuf pages, nous devrions écrire des significations traditionnelles qui ne se trouvent dans aucun matériel, et c'est exactement ce que ce service a décidé de ne pas faire. Par conséquent, le document est seulement aussi long que les matériaux le permettent honnêtement, et pas plus."
-          }
-        ]
-      },
-      {
-        "title": "Prix et statut des ventes",
-        "blocks": [
-          {
-            "p": "Les prix sont indiqués dans le [guide des prix](/pricing). La raison pour laquelle ce document ne liste pas les montants est intentionnelle — pour éviter des situations où le document d'orientation reste avec de vieux montants lorsque les prix changent. L'écran et les termes lisent tous le même montant d'un seul endroit."
-          },
-          {
-            "p": "Les documents que vous achetez peuvent **être reçus à nouveau avec la même commande.** Cependant, puisque nous ne conservons pas de fichiers, une fois que vous quittez l'écran de résultat, vous ne pouvez pas les recréer — veuillez conserver les fichiers que vous recevez."
-          }
-        ]
-      }
-    ]
-  },
   "guide/no-storage": {
     "eyebrow": "Informations personnelles",
-    "title": "La méthode de ne pas stocker les rêves que vous écrivez",
-    "summary": "Nous expliquons ce que cela signifie techniquement que les histoires de rêve ne sont enregistrées nulle part, et ce qui est contenu dans le lien de résultat.",
-    "backLabel": "Base d'interprétation",
+    "title": "La méthode de non-stockage des rêves que vous écrivez",
+    "summary": "Nous expliquons ce que cela signifie techniquement que les histoires de rêves ne sont enregistrées nulle part, et ce qui est contenu dans le lien de résultat.",
+    "backLabel": "Base de l'interprétation",
     "sections": [
       {
-        "title": "Aucune adhésion requise",
+        "title": "Aucun abonnement requis",
         "blocks": [
           {
-            "p": "Dreams-Link ne crée pas de comptes. Nous ne collectons pas de noms, d'emails ou de numéros de téléphone. Les seules choses que nous collectons sont les rêves que vous écrivez, comment vous vous êtes senti au réveil, et si vous rêvez du même rêve de manière répétée, et cela ne reste pas après que l'interprétation est terminée."
+            "p": "Dreams-Link ne crée pas de comptes. Nous ne collectons pas de noms, d'emails ou de numéros de téléphone. Les seules choses que nous collectons sont les rêves que vous écrivez, comment vous vous êtes senti au réveil, et si vous rêvez du même rêve à plusieurs reprises, et cela ne reste pas après que l'interprétation soit complète."
           },
           {
-            "p": "Les histoires de rêve sont les valeurs les plus privées que ce service reçoit. C'est pourquoi les règles sont plus strictes que nécessaire — nous n'avons même pas créé de tableau pour écrire ce que vous soumettez."
+            "p": "Les histoires de rêves sont les valeurs les plus privées que ce service reçoit. C'est pourquoi les règles sont plus strictes que nécessaire — nous n'avons même pas créé de tableau pour écrire ce que vous soumettez."
           }
         ]
       },
@@ -758,7 +109,7 @@ export const FR_DOCS = {
             "p": "**/ko/dream/result#eyJ0IjoiSSBkcmVhbXQgb2YgYSBjYXJwLi4u**"
           },
           {
-            "p": "Ce qui suit **#** est la valeur d'entrée. Cette partie est appelée un **fragment**, qui est une **partie que le navigateur n'envoie pas au serveur**. C'est un comportement web standard et non une règle que nous avons créée — il a été initialement conçu pour indiquer un emplacement dans un document, donc le serveur n'a pas besoin de le voir."
+            "p": "Ce qui suit **#** est la valeur d'entrée. Cette partie est appelée un **fragment**, qui est une **partie que le navigateur n'envoie pas au serveur**. C'est un comportement web standard et non une règle que nous avons créée — il a été conçu à l'origine pour indiquer un emplacement dans un document, donc le serveur n'a pas besoin de le voir."
           },
           {
             "p": "Ici, cette propriété est particulièrement importante — le rêve que vous avez fourni **ne reste pas dans les enregistrements d'accès.**"
@@ -792,12 +143,12 @@ export const FR_DOCS = {
         "title": "Ce qui ne peut pas être fait parce que ce n'est pas stocké",
         "blocks": [
           {
-            "p": "Pour être honnête, il y a des choses que nous avons abandonnées parce que nous ne stockons pas de données."
+            "p": "Pour être honnête, il y a des choses auxquelles nous avons renoncé parce que nous ne stockons pas de données."
           },
           {
             "ul": [
-              "**Il n'y a pas de journal de rêves.** Vous ne pouvez pas récupérer l'interprétation de la semaine dernière, et vous devez avoir le lien pour la voir à nouveau. Cela est fait intentionnellement — pour créer un journal, les écrits les plus privés doivent être continuellement stockés.",
-              "**Nous calculons la même valeur à chaque fois.** Il n'y a pas de cache. Au lieu de cela, le dictionnaire est fixe, et les règles de correspondance sont déterministes, donc le même texte produira toujours le même symbole — les règles remplacent ce que le cache aurait garanti.",
+              "**Il n'y a pas de journal de rêves.** Vous ne pouvez pas récupérer l'interprétation de la semaine dernière, et vous devez avoir le lien pour la revoir. Cela est fait intentionnellement — pour créer un journal, les écrits les plus privés doivent être continuellement stockés.",
+              "**Nous calculons la même valeur à chaque fois.** Il n'y a pas de cache. Au lieu de cela, le dictionnaire est fixe, et les règles de correspondance sont déterministes, donc le même texte donnera toujours le même symbole — les règles remplacent ce que le cache aurait garanti.",
               "**Rafraîchir fera apparaître à nouveau la porte de publicité.** C'est parce qu'il n'y a nulle part où laisser des enregistrements de visualisation."
             ]
           }
@@ -807,10 +158,10 @@ export const FR_DOCS = {
         "title": "En cas d'achat",
         "blocks": [
           {
-            "p": "Si vous achetez un rapport, un enregistrement de transaction sera conservé à ce moment-là. Le paiement a une période de conservation définie par la loi, et sans un historique de commande, les remboursements ne peuvent pas être traités. Cependant, même alors, **le texte du rêve utilisé pour la lecture n'est pas attaché à la commande** — il est reçu à nouveau et écrit à ce moment-là lors de la création du document après la confirmation du paiement."
+            "p": "Si vous achetez un rapport, un enregistrement de transaction sera conservé à ce moment-là. Le paiement a une période de conservation définie par la loi, et sans historique de commande, les remboursements ne peuvent pas être traités. Cependant, même alors, **le texte du rêve utilisé pour la lecture n'est pas attaché à la commande** — il est reçu à nouveau et écrit à ce moment-là lors de la création du document après confirmation du paiement."
           },
           {
-            "p": "Pour plus de détails, veuillez consulter la [politique de confidentialité](/privacy)."
+            "p": "Pour plus de détails, veuillez vous référer à la [politique de confidentialité](/privacy)."
           }
         ]
       }
@@ -846,8 +197,8 @@ export const FR_DOCS = {
           {
             "ul": [
               "**Paiement et Remboursement** — Si le document n'a pas été créé ou si le montant du paiement diffère de la commande, un remboursement complet sera fourni. Les conditions sont dans la [politique de remboursement](/refund-policy).",
-              "**Informations Personnelles** — Nous acceptons les demandes d'accès, de correction et de suppression. La politique de traitement est dans la [politique de confidentialité](/privacy).",
-              "**Signaler des Erreurs d'Interprétation** — Si des symboles ont été trouvés incorrectement ou si l'interprétation semble étrange, veuillez nous le faire savoir. Si vous incluez quand vous avez écrit cette histoire de rêve, nous pouvons la rechercher à nouveau avec le même texte."
+              "**Informations Personnelles** — Nous acceptons les demandes d'accès, de correction et de suppression. La politique de traitement se trouve dans la [politique de confidentialité](/privacy).",
+              "**Signaler des Erreurs d'Interprétation** — Si des symboles ont été trouvés incorrectement ou si l'interprétation semble étrange, veuillez nous le faire savoir. Si vous incluez la date à laquelle vous avez écrit cette histoire de rêve, nous pouvons la rechercher à nouveau avec le même texte."
             ]
           }
         ]
@@ -859,7 +210,7 @@ export const FR_DOCS = {
             "ul": [
               "**Nom de l'Entreprise** — {companyName}",
               "**Représentant** — {representative}",
-              "**Numéro d'Enregistrement de l'Entreprise** — {businessNumber}",
+              "**Numéro d'Enregistrement Commercial** — {businessNumber}",
               "**Numéro d'Enregistrement de Vente par Correspondance** — {mailOrderNumber}",
               "**Adresse** — {address}",
               "**Centre Client** — {customerCenter}",
@@ -874,7 +225,7 @@ export const FR_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "Vous n'avez pas besoin de réécrire le rêve que vous avez fourni dans l'email de demande. Nous ne sauvegardons pas les entrées, donc nous ne pouvons pas les rechercher à nouveau, et le numéro de commande est suffisant pour la vérification. Veuillez seulement le noter si cela est absolument nécessaire, comme pour signaler des erreurs d'interprétation."
+            "p": "Vous n'avez pas besoin de réécrire le rêve que vous avez fourni dans l'email de demande. Nous ne sauvegardons pas les entrées, donc nous ne pouvons pas les rechercher à nouveau, et le numéro de commande est suffisant pour la vérification. Veuillez seulement le noter si c'est absolument nécessaire, comme pour signaler des erreurs d'interprétation."
           }
         ]
       }
@@ -882,15 +233,15 @@ export const FR_DOCS = {
   },
   "guide/what-we-do-not-do": {
     "eyebrow": "Principes de Service",
-    "title": "Ce que Nous Ne Faisons Pas",
-    "summary": "Nous ne fournissons pas de numéros de loterie, de journaux de rêves, de déterminations de grossesse ou de talismans. Nous expliquons pourquoi nous avons choisi de ne pas faire chacune de ces choses.",
+    "title": "Ce que nous ne faisons pas",
+    "summary": "Nous ne fournissons pas de numéros de loterie, de journaux de rêves, de déterminations de grossesse, ou de talismans. Nous expliquons pourquoi nous avons choisi de ne pas faire chacune de ces choses.",
     "backLabel": "Base d'Interprétation",
     "sections": [
       {
         "title": "Nous ne fournissons pas de numéros de loterie",
         "blocks": [
           {
-            "p": "Bien que cela soit couramment abordé dans les services d'interprétation des rêves, nous ne le faisons pas. **Il n'y a pas de base dans l'interprétation traditionnelle des rêves pour tirer des numéros des rêves.** Bien qu'il existe des enregistrements d'interprétation des rêves de cochons comme richesse, il n'y a aucune règle dans la littérature qui produise six numéros à partir de cela."
+            "p": "Bien que cela soit couramment abordé dans les services d'interprétation des rêves, nous ne le faisons pas. **Il n'y a pas de fondement dans l'interprétation traditionnelle des rêves pour tirer des numéros des rêves.** Bien qu'il existe des enregistrements d'interprétation des rêves de cochons comme richesse, il n'y a aucune règle dans la littérature qui produise six numéros à partir de cela."
           },
           {
             "p": "Pour les créer, nous devrions les inventer, et à ce moment-là, ce service ne serait plus un lieu pour transmettre les interprétations transmises par la tradition. Cela est particulièrement préoccupant car cela pourrait entraîner des pertes financières."
@@ -901,10 +252,10 @@ export const FR_DOCS = {
         "title": "Nous ne créons pas de journaux de rêves",
         "blocks": [
           {
-            "p": "Bien qu'il serait pratique d'avoir une fonctionnalité pour collecter des rêves passés, cela nécessiterait que nous **stockions continuellement les rêves que vous fournissez.** Les récits de rêves sont l'aspect le plus privé de ce que ce service reçoit, et nous avons décidé de ne pas échanger cela."
+            "p": "Bien qu'il serait pratique d'avoir une fonctionnalité pour collecter les rêves passés, cela nous obligerait à **stocker en continu les rêves que vous fournissez.** Les récits de rêves sont l'aspect le plus privé de ce que ce service reçoit, et nous avons décidé de ne pas échanger cela."
           },
           {
-            "p": "Au lieu de cela, les rêves que vous souhaitez conserver peuvent être **pris en images ou en documents.** La responsabilité du stockage incombe aux utilisateurs, pas à nous — [Deux Façons de Conserver Vos Rêves](/guide/reports)"
+            "p": "Au lieu de cela, les rêves que vous souhaitez conserver peuvent être **pris en tant qu'images ou documents.** La responsabilité du stockage incombe aux utilisateurs, pas à nous — [Deux Façons de Conserver Vos Rêves](/guide/reports)"
           }
         ]
       },
@@ -912,7 +263,7 @@ export const FR_DOCS = {
         "title": "Nous ne déterminons pas la grossesse ou le sexe",
         "blocks": [
           {
-            "p": "Nous allons seulement indiquer qu'un symbole interprété comme un a conception dream (rêve de conception) est apparu. Que vous soyez enceinte ou que l'enfant soit une fille ou un garçon **n'est pas quelque chose qui peut être connu à travers les rêves.** De telles déclarations n'apparaissent pas à l'écran ou dans des documents payants."
+            "p": "Nous indiquerons seulement qu'un symbole interprété comme un rêve de conception (a conception dream) est apparu. Que vous soyez enceinte ou que l'enfant soit une fille ou un garçon **n'est pas quelque chose qui peut être connu à travers les rêves.** De telles déclarations n'apparaissent pas à l'écran ou dans les documents payants."
           }
         ]
       },
@@ -920,7 +271,7 @@ export const FR_DOCS = {
         "title": "Nous ne vendons pas de talismans ou de charmes",
         "blocks": [
           {
-            "p": "Un symbole lu comme inauspicieux n'est pas une raison d'acheter quoi que ce soit. Un rêve inauspicieux a traditionnellement été utilisé pour **indiquer une situation à examiner maintenant**, et non pour payer afin d'éviter quelque chose."
+            "p": "Un symbole interprété comme inauspicieux n'est pas une raison d'acheter quoi que ce soit. Un rêve inauspicieux a traditionnellement été utilisé pour **indiquer une situation à examiner maintenant**, et non pour payer afin d'éviter quelque chose."
           },
           {
             "p": "Nous ne créons pas d'anxiété pour vendre quelque chose basé sur cela. Les seules choses que nous vendons sont les deux mentionnées ci-dessus, et aucune ne fournit d'interprétation supplémentaire mais plutôt **des moyens de conserver le même contenu.**"
@@ -932,7 +283,7 @@ export const FR_DOCS = {
         "title": "Nous ne faisons pas de déclarations définitives sur l'avenir",
         "blocks": [
           {
-            "p": "Nous ne faisons pas de déclarations définitives sur si quelque chose va se produire, quand cela va se produire, ou concernant la santé, la richesse ou la durée de vie. Transmettre les significations des symboles traditionnels et prédire l'avenir sont des choses différentes."
+            "p": "Nous ne faisons pas de déclarations définitives sur si quelque chose va se produire, quand cela va se produire, ou concernant la santé, la richesse, ou la durée de vie. Transmettre les significations des symboles traditionnels et prédire l'avenir sont des choses différentes."
           }
         ]
       },
@@ -941,6 +292,675 @@ export const FR_DOCS = {
         "blocks": [
           {
             "p": "Pour les symboles qui n'existent pas dans le dictionnaire, nous **indiquons que nous n'avons pas pu les trouver.** Nous ne rassemblons pas des similaires ni ne remplissons l'espace avec des phrases plausibles. Par conséquent, ce service ne [utilise pas l'intelligence artificielle pour l'interprétation des rêves](/guide/no-ai). Le modèle ne dit pas qu'il ne sait pas ce qu'il ne sait pas."
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Introduction",
+    "title": "Introduction à Dreams-Link",
+    "summary": "Ceci est un service qui interprète les rêves en utilisant un dictionnaire de symboles d'interprétation des rêves traditionnel. Il clarifie ce qui est basé et ce qui n'est pas déclaré.",
+    "backLabel": "Retour à l'accueil",
+    "sections": [
+      {
+        "title": "Que faisons-nous ?",
+        "blocks": [
+          {
+            "p": "Dreams-Link trouve **des symboles utilisés dans l'interprétation des rêves traditionnelle** à partir des rêves que vous écrivez et montre leurs significations. Étant donné que les rêves sont quelque chose que nous avons chaque jour, les interprétations que vous voyez à l'écran sont **gratuites et ne nécessitent pas d'adhésion.**"
+          },
+          {
+            "p": "Les seules choses vendues moyennant des frais sont **deux formes de préservation** — une image contenant un bon rêve (carte de rêve) et un PDF qui contient le contexte lorsqu'un symbole traditionnellement considéré comme un rêve de conception apparaît."
+          }
+        ]
+      },
+      {
+        "title": "Quelle est la base ?",
+        "blocks": [
+          {
+            "p": "La base de l'interprétation est un **dictionnaire de {symbolTotal} symboles**. Nous trouvons des symboles dans le texte du rêve et montrons uniquement les significations enregistrées dans le dictionnaire pour ces symboles. Si un symbole a plusieurs significations, nous choisissons en fonction de la situation — comme le lever de soleil et le coucher de soleil sont traditionnellement interprétés comme des opposés."
+          },
+          {
+            "p": "Toutes les significations dans le dictionnaire sont **traduites des textes originaux des anciens livres d'interprétation des rêves**, et chaque signification est accompagnée du texte original qui a servi de base. Les textes originaux utilisés comme base sont deux — le **Zhou Gong's Dream Interpretation**, qui est lu depuis longtemps en Asie de l'Est, et le **Miller's Dream Book** de l'Ouest publié en 1901."
+          },
+          {
+            "p": "La recherche est effectuée **uniquement selon des règles fixes**. Le même rêve produira toujours les mêmes symboles, et les interprétations ne changent pas d'hier à aujourd'hui."
+          }
+        ]
+      },
+      {
+        "title": "Que ne disons-nous pas ?",
+        "blocks": [
+          {
+            "p": "**Nous ne créons pas de significations traditionnelles qui ne sont pas dans le dictionnaire.** Si aucun symbole n'est trouvé, nous indiquons simplement qu'aucun n'a été trouvé et concluons. Remplir cet espace avec des mots plausibles est ce dont ce service se méfie le plus."
+          },
+          {
+            "p": "**Les rêves de conception ne sont que des indications, pas des déterminations.** Nous vous informons uniquement qu'un symbole traditionnellement considéré comme un rêve de conception est apparu dans le rêve. Nous ne prédisons pas une grossesse ou le sexe de l'enfant, et il n'y a aucune base pour de telles affirmations."
+          },
+          {
+            "p": "Nous ne **faisons pas de déclarations définitives sur la santé, la richesse ou la carrière.** Ceci est une référence du point de vue de l'interprétation traditionnelle des rêves et ne constitue pas un avis médical, financier ou juridique."
+          }
+        ]
+      },
+      {
+        "title": "Nous ne conservons pas les rêves que vous écrivez.",
+        "blocks": [
+          {
+            "p": "Les histoires de rêves sont la partie la plus privée de ce que ce service reçoit. Par conséquent, nous **ne les stockons pas.** Les entrées ne sont utilisées que pour des calculs et ne sont pas enregistrées sous aucune forme sur le serveur."
+          },
+          {
+            "p": "Nous avons décidé **de ne pas créer une fonction pour collecter les rêves comme un journal de rêve.** C'est une fonctionnalité précieuse, mais cela nécessiterait de conserver les écrits les plus privés."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "La méthode est décrite plus en détail dans le [document guide](/guide). Les informations commerciales et les coordonnées peuvent être trouvées dans [contactez-nous](/contact)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/symbol-dictionary": {
+    "eyebrow": "Base du service",
+    "title": "Quelle est la base du dictionnaire des symboles ?",
+    "summary": "Il clarifie d'où proviennent les interprétations. Les critères pour diviser {symbolTotal} symboles en huit catégories, la raison d'attacher des passages de texte originaux à chaque signification, et le principe de ne pas remplir les espaces vides.",
+    "backLabel": "Base d'interprétation",
+    "sections": [
+      {
+        "title": "Nous montrons uniquement ce qui est écrit dans le dictionnaire.",
+        "blocks": [
+          {
+            "p": "Les interprétations de Dreams-Link proviennent d'un **dictionnaire de symboles pré-écrit**. Nous trouvons des symboles dans le texte que vous fournissez et montrons les significations enregistrées dans le dictionnaire pour ces symboles telles qu'elles sont. Nous ne créons pas de mots qui ne sont pas dans le dictionnaire."
+          },
+          {
+            "p": "Actuellement, le dictionnaire contient **{symbolTotal} symboles**, et tous ces symboles ont un total de **{meaningTotal} significations**. Certains symboles n'ont qu'une seule signification, mais la plupart en ont plusieurs, et pour chaque signification, **la situation dans laquelle cette signification s'applique** est également notée."
+          }
+        ]
+      },
+      {
+        "title": "Divisé en huit catégories.",
+        "blocks": [
+          {
+            "p": "Nous avons regroupé ce qui apparaît dans les rêves en huit catégories en fonction de leurs caractéristiques. Le nombre actuellement répertorié est entre parenthèses."
+          },
+          {
+            "ul": [
+              "**Objets**({categoryThing}) · **Actions**({categoryAction}) · **Animaux**({categoryAnimal}) — les trois catégories les plus importantes. Ce sont principalement ce dont parlent les anciens livres d'interprétation des rêves : objets visibles, bêtes et actions entreprises dans les rêves.",
+              "**Nature**({categoryNature}) · **Personnes**({categoryPerson}) — de grandes et anciennes choses comme l'eau, le feu, le soleil et la lune, et des personnes qui apparaissent dans les rêves comme des rois, des voleurs et les défunts.",
+              "**Lieux**({categoryPlace}) · **Corps**({categoryBody}) · **Couleurs**({categoryColor}) — des lieux comme des maisons et des tombes, des parties du corps comme des dents, des cheveux et du sang, et des couleurs."
+            ]
+          },
+          {
+            "p": "Pour les voir par catégorie, vous pouvez consulter la liste complète dans le [dictionnaire des symboles](/dream/symbols)."
+          }
+        ]
+      },
+      {
+        "title": "Chaque signification est accompagnée d'un passage de texte original.",
+        "blocks": [
+          {
+            "p": "Chacune des **{meaningTotal} significations** dans le dictionnaire est accompagnée du **passage de texte original** qui a servi de base à cette signification. Tous les {symbolTotal} symboles ont cela — s'il n'y a pas de passage de texte original, l'entrée elle-même ne peut pas être créée."
+          },
+          {
+            "p": "Les textes originaux utilisés comme base sont deux. **Zhou Gong's Dream Interpretation** est un livre d'interprétation des rêves qui est lu depuis longtemps en Asie de l'Est, et **Miller's Dream Book** est un livre occidental publié en 1901. Lorsque vous ouvrez un symbole, vous pouvez voir de quel texte original provient la signification, ainsi que le passage et sa signification."
+          },
+          {
+            "p": "**Nous ne remplissons pas les espaces vides.** Ajouter des origines plausibles rendrait le document plus épais, mais à ce moment-là, ce dictionnaire ne serait plus une traduction de ce qui a été transmis mais plutôt une fabrication. Nous n'écrivons pas ce qui n'est pas dans le texte original, et pour ce que nous écrivons, nous devons joindre le texte original."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lors de l'expansion, nous n'élargissons qu'à partir du texte original.",
+        "blocks": [
+          {
+            "p": "Nous avons essayé de créer des entrées basées sur des modèles de symboles, mais les entrées résultantes répètent soit les mêmes mots comme 「amour → bonne relation」 soit ne fournissent aucune base de la tradition. Par conséquent, **nous n'en avons inclus aucune.** La taille actuelle du dictionnaire est due à la traduction des textes originaux, pas à la création d'entrées — les raisons de ne pas utiliser de modèles sont détaillées dans [pourquoi nous n'utilisons pas de modèles](/guide/no-ai)."
+          }
+        ]
+      },
+      {
+        "title": "Le bon et le mauvais sont prédéterminés par le dictionnaire.",
+        "blocks": [
+          {
+            "p": "Chaque symbole est accompagné d'indications d'auspiciousness et d'inauspiciousness. **Bon {polarityPositive}**, **ambivalent selon la situation {polarityAmbivalent}**, **prudent {polarityNegative}**, et **neutre {polarityNeutral}**."
+          },
+          {
+            "p": "Parmi les quatre catégories, **la plupart sont celles qui varient selon la situation.** Ce n'est pas quelque chose que nous avons équilibré ; c'est ainsi qu'il est écrit dans les textes originaux — même pour le même symbole, il y a de nombreux endroits où il a été interprété de manière opposée selon ce qui a été fait. Cette valeur reflète la nature de chaque symbole, et l'atmosphère générale du rêve est recalculée en rassemblant les symboles trouvés."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/one-symbol-many-meanings": {
+    "eyebrow": "Base du service",
+    "title": "Pourquoi le même symbole a-t-il des significations différentes ?",
+    "summary": "Le lever de soleil et le coucher de soleil sont traditionnellement interprétés comme des opposés. Cela discute de la structure où {symbolTotal} symboles ont {meaningTotal} significations et comment discerner la situation.",
+    "backLabel": "Base d'interprétation",
+    "sections": [
+      {
+        "title": "Même si les symboles sont les mêmes, différentes situations donnent des significations différentes.",
+        "blocks": [
+          {
+            "p": "Dans les anciens livres d'interprétation des rêves, un symbole n'a pas toujours une seule signification. Même pour le même soleil, **le lever de soleil et le coucher de soleil ont été interprétés de manière opposée** — le premier indique la prospérité dans le foyer, tandis que le second indique des inquiétudes concernant la perte des parents. Le dictionnaire est écrit de cette manière."
+          },
+          {
+            "p": "La raison pour laquelle les {symbolTotal} symboles ont un total de {meaningTotal} significations est que pour chaque signification, **la situation dans laquelle cette signification s'applique** est également notée, donc si cette situation est visible dans le texte que vous fournissez, nous choisissons cette signification."
+          }
+        ]
+      },
+      {
+        "title": "Comment discernons-nous la situation ?",
+        "blocks": [
+          {
+            "p": "Nous cherchons à voir s'il y a des mots indiquant la situation dans le texte que vous fournissez. Dans la phrase 「J'ai vu le soleil se coucher」, la situation de coucher est indiquée, tandis que dans 「J'ai vu le soleil juste se lever」, la situation de lever est indiquée. S'il n'y a pas de mots indiquant la situation, nous l'interprétons en fonction de la **signification de base** de ce symbole."
+          },
+          {
+            "p": "Donc, lorsque vous écrivez votre rêve, veuillez inclure **non seulement ce qui est apparu mais aussi quelles actions ont été entreprises** ; cela rendra l'interprétation plus précise. Dire \"J'ai vu un cochon\" transmet moins que \"le cochon est entré dans la maison.\""
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Plus vous écrivez, mieux c'est, mais il n'est pas nécessaire d'écrire de manière extensive.",
+        "blocks": [
+          {
+            "p": "Quelques phrases suffisent. Écrire plus ne signifie pas nécessairement trouver plus de symboles ; au contraire, si des déclarations non liées sont mélangées, cela peut conduire à des symboles incorrects."
+          }
+        ]
+      },
+      {
+        "title": "Il y a {contextSplitSymbolTotal} symboles avec des significations variées.",
+        "blocks": [
+          {
+            "p": "Parmi les {symbolTotal} symboles dans le dictionnaire, **{contextSplitSymbolTotal}** ont des significations qui varient selon la situation. Le reste peut être interprété dans une seule direction, quelle que soit la situation."
+          },
+          {
+            "p": "Ces **{contextSplitSymbolTotal}** symboles sont les plus délicats. Mal interpréter la situation peut conduire à transmettre de bonnes nouvelles comme de mauvaises nouvelles, ou vice versa. Par conséquent, si la situation est floue, nous nous en tenons à la **signification de base du symbole** sans forcer un choix — nous ne voulons pas parler de l'incertain comme s'il était certain."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "La sensation au réveil est également prise en compte.",
+        "blocks": [
+          {
+            "p": "Les sentiments et répétitions demandés ci-dessous le contenu du rêve ne sont pas utilisés pour trouver des symboles. Ils sont référencés lors de la détermination de la manière d'interpréter dans les cas de significations variées. Vous n'avez pas besoin de choisir ; les résultats seront tout de même fournis."
+          }
+        ]
+      },
+      {
+        "title": "L'atmosphère générale du rêve est comptée séparément.",
+        "blocks": [
+          {
+            "p": "Si plusieurs symboles sont trouvés, nous rassemblons si chaque symbole est positif ou d'avertissement pour déterminer le ton général du rêve. Un rêve qui présente un bon symbole et un symbole d'avertissement n'est pas simplement appelé un \"bon rêve.\""
+          },
+          {
+            "p": "Vous pouvez prévisualiser les différents symboles et leurs significations dans le [dictionnaire des symboles](/dream/symbols). Il est également bon de parcourir ce qui est inclus avant d'écrire votre rêve."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/good-and-bad": {
+    "eyebrow": "Base du service",
+    "title": "Critères pour distinguer les rêves auspices et les rêves ominous",
+    "summary": "Les quatre valeurs attribuées à chaque symbole et leur distribution, les raisons des significations les plus variées, et pourquoi nous discutons des rêves mixtes comme mixtes.",
+    "backLabel": "Base de l'interprétation",
+    "sections": [
+      {
+        "title": "Chaque symbole est attribué à l'une des quatre catégories.",
+        "blocks": [
+          {
+            "p": "Les {symbolTotal} symboles dans le dictionnaire sont chacun catégorisés comme l'un des suivants."
+          },
+          {
+            "ul": [
+              "**Positif {polarityPositive}** — interprété comme des événements agréables comme la richesse, les célébrations ou les bienfaiteurs.",
+              "**Ambivalent {polarityAmbivalent}** — symboles comme le soleil ou le cochon qui peuvent avoir leurs significations inversées selon les actions entreprises. **C'est la catégorie la plus courante et la plus prudente.**",
+              "**Avertissement {polarityNegative}** — interprété comme des disputes, des pertes ou des événements négatifs.",
+              "**Neutre {polarityNeutral}** — symboles qui ne sont ni auspices ni ominous en eux-mêmes, comme les couleurs."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Raisons des significations les plus variées",
+        "blocks": [
+          {
+            "p": "Ce n'est pas un équilibre que nous avons atteint. **C'est ainsi que les textes originaux sont écrits.** Les anciens textes d'interprétation des rêves ont enregistré différentes significations pour le même symbole selon la situation, et beaucoup de ces situations sont opposées — attraper un cochon est auspice, mais un cochon mourant de lui-même est ominous, et il en va de même pour le lever et le coucher du soleil."
+          },
+          {
+            "p": "Par conséquent, le fait qu'\"un bon symbole soit apparu\" ne signifie pas \"de bonnes choses vont arriver.\" Ce que nous pouvons transmettre est limité à la manière dont ce symbole a été interprété dans la tradition."
+          }
+        ]
+      },
+      {
+        "title": "Le ton d'un rêve est rassemblé à partir de ses symboles.",
+        "blocks": [
+          {
+            "p": "Si plusieurs symboles sont trouvés, nous rassemblons leurs significations auspices et d'avertissement pour déterminer le ton général du rêve. Si seuls des symboles positifs apparaissent, c'est un bon rêve ; si seuls des symboles d'avertissement apparaissent, c'est un rêve d'avertissement ; si **mixte, nous en discuterons comme mixte.**"
+          },
+          {
+            "p": "Nous ne forçons pas une interprétation mixte d'un côté. En réalité, les rêves que les gens ont sont principalement mixtes, et les résumer comme \"un bon rêve\" n'est ni précis ni utile."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Mots non prononcés",
+        "blocks": [
+          {
+            "p": "Nous ne faisons pas de déclarations définitives sur ce qui va se passer, quand cela va se passer, ou concernant la santé et la richesse. Traduire les significations des symboles traditionnels est différent de prédire l'avenir."
+          }
+        ]
+      },
+      {
+        "title": "Lorsque des rêves d'avertissement apparaissent",
+        "blocks": [
+          {
+            "p": "Même si un symbole interprété comme d'avertissement apparaît, cela ne signifie pas nécessairement de mauvaises nouvelles. Dans l'interprétation traditionnelle des rêves, les rêves ominous ont généralement été utilisés pour indiquer **la situation qui doit être examinée maintenant.** Si un symbole interprété comme une dispute apparaît, il peut être lu comme une suggestion de garder le silence."
+          },
+          {
+            "p": "Pour la même raison, ce service ne vend pas de talismans ou de charmes. Les seules choses vendues sont [deux méthodes pour garder vos rêves](/guide/reports)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/conception-dreams": {
+    "eyebrow": "Rêves de conception",
+    "title": "Comment distinguer les rêves de conception",
+    "summary": "Comment nous déterminons les {conceptionSymbolTotal} symboles de rêve de conception, pourquoi tous les rêves de cochons ne sont pas des rêves de conception, et le principe selon lequel nous ne déterminons pas la grossesse ou le sexe.",
+    "backLabel": "Base de l'interprétation",
+    "sections": [
+      {
+        "title": "Tout d'abord, clarifions.",
+        "blocks": [
+          {
+            "p": "**Dreams-Link ne détermine pas l'état de grossesse. Nous ne déclarons pas non plus le sexe de l'enfant.** Ce n'est pas quelque chose qui peut être connu à travers les rêves, ni quelque chose que nous pouvons faire."
+          },
+          {
+            "p": "Ce que nous pouvons transmettre est limité à cela — **le fait qu'un symbole traditionnellement interprété comme un rêve de conception soit apparu dans ce rêve.** Comment ce symbole a été interprété par les anciens est tout ce que nous pouvons fournir."
+          }
+        ]
+      },
+      {
+        "title": "Il y a {conceptionSymbolTotal} symboles interprétés comme des rêves de conception.",
+        "blocks": [
+          {
+            "p": "Parmi les {symbolTotal} symboles dans le dictionnaire, **{conceptionSymbolTotal}** sont marqués comme des rêves de conception. Beaucoup sont des animaux comme des dragons, des cochons et des tigres, ainsi que des fruits comme des pêches, des kakis et des jujubes, et incluent également le soleil et la lune."
+          },
+          {
+            "p": "Cependant, **le fait que ce symbole soit apparu ne signifie pas immédiatement qu'il s'agit d'un rêve de conception.** C'est là que ce service a mis un effort significatif."
+          }
+        ]
+      },
+      {
+        "title": "Nous déterminons en fonction de la signification choisie, pas du symbole.",
+        "blocks": [
+          {
+            "p": "Le cochon est un symbole de rêves de conception, mais c'est aussi **le représentant des rêves de richesse.** Si nous déclarons que c'est un rêve de conception uniquement parce que le symbole est apparu, alors tout le monde qui rêve de cochons aurait des rêves de conception. En réalité, la plupart ont été interprétés comme des rêves de richesse."
+          },
+          {
+            "p": "Par conséquent, nous regardons **la signification réellement choisie de ce symbole, pas seulement le symbole lui-même.** Nous ne le marquons comme un rêve de conception que lorsque la signification penchée vers la conception est choisie en fonction de la situation que vous avez fournie. Même avec le même cochon, l'interprétation peut différer selon la phrase."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Si vous mentionnez la grossesse, nous examinerons cela en premier.",
+        "blocks": [
+          {
+            "p": "Si votre écriture inclut des termes comme grossesse, rêves de conception ou accouchement, nous donnerons la priorité à la signification de conception parmi les significations que ce symbole détient. Même le même rêve peut être interprété différemment selon la situation actuelle."
+          }
+        ]
+      },
+      {
+        "title": "La raison d'avoir un rapport de rêve de conception séparé.",
+        "blocks": [
+          {
+            "p": "Les rêves de conception servent un but différent des autres rêves. Ils sont souvent discutés longtemps après la naissance de l'enfant et partagés entre les membres de la famille. Par conséquent, plutôt que de simplement le voir sur un écran, nous avons créé un **document qui peut être conservé.**"
+          },
+          {
+            "p": "Ce qui est inclus est décrit dans [deux méthodes pour garder vos rêves](/guide/reports). Vous pouvez voir toutes les interprétations sans les acheter."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/how-to-write": {
+    "eyebrow": "Comment utiliser",
+    "title": "Comment écrire un rêve",
+    "summary": "Si vous écrivez ce que vous avez vu et fait, cela sera bien interprété. Nous expliquons pourquoi un seul verbe décide de la signification, et pourquoi nous demandons également comment vous vous êtes senti et si le rêve se reproduit.",
+    "backLabel": "Base de l'interprétation",
+    "sections": [
+      {
+        "title": "Veuillez écrire ce que vous avez vu et fait",
+        "blocks": [
+          {
+            "p": "Il n'y a pas de format spécifique. Deux ou trois phrases, comme vous parleriez normalement, suffisent. Cependant, ce qui est bien interprété est déterminé — **ce que vous avez vu** et **ce qui s'est passé**."
+          },
+          {
+            "ul": [
+              "Bien interprété — 「Un grand serpent m'a entouré」, 「J'ai vu de l'eau claire couler」, 「Ma dent est tombée toute seule」",
+              "Pas interprété — 「J'avais peur」, 「Je me sentais étrange」, 「Il semblait que quelqu'un me détestait」"
+            ]
+          },
+          {
+            "p": "Si vous écrivez seulement vos sentiments, il n'y aura pas de symboles à trouver. L'interprétation des rêves traditionnelle parle de [objets et actions](/guide/categories), pas d'émotions."
+          }
+        ]
+      },
+      {
+        "title": "Écrire ce que vous avez fait le rend plus précis",
+        "blocks": [
+          {
+            "p": "Même le même symbole peut avoir des significations différentes selon la situation, avec {contextSplitSymbolTotal} cas. Le lever et le coucher du soleil ont traditionnellement été interprétés de manière opposée."
+          },
+          {
+            "p": "Par conséquent, 「J'ai vu un cochon」 est moins précis que 「Le cochon est entré dans la maison」, et 「Il y avait de l'eau」 est moins précis que 「J'ai bu de l'eau claire」. **Un seul verbe détermine le sens.**"
+          }
+        ]
+      },
+      {
+        "title": "La raison de demander des sentiments et des récurrences",
+        "blocks": [
+          {
+            "p": "Sous le contenu du rêve, il y a un endroit pour choisir **comment vous vous êtes senti au réveil** et **si vous avez des rêves récurrents**. Vous n'avez pas besoin de sélectionner les deux pour que des résultats soient fournis."
+          },
+          {
+            "p": "Ces valeurs ne sont pas utilisées pour trouver des symboles. Elles sont référencées lors de la décision **de quel sens choisir** parmi le même symbole et comment transmettre les résultats. Les rêves récurrents ont traditionnellement été vus différemment d'un rêve qui a été fait une seule fois."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Dans les cas mentionnant la grossesse",
+        "blocks": [
+          {
+            "p": "Si le texte inclut des mots comme grossesse, rêve de conception, ou accouchement, nous regardons d'abord la signification du rêve de conception de ce symbole. Même le même rêve de cochon a été interprété différemment par les anciens selon la situation — [comment distinguer 태몽](/guide/conception-dreams)"
+          }
+        ]
+      },
+      {
+        "title": "Il n'est pas nécessaire d'écrire long",
+        "blocks": [
+          {
+            "p": "Une longueur plus longue ne signifie pas que plus de symboles seront trouvés. En fait, si des mots non liés sont mélangés longuement, il y a une chance accrue que des mots non pertinents soient interprétés comme des symboles. Veuillez écrire uniquement les **scènes mémorables**."
+          },
+          {
+            "p": "Le texte que vous écrivez ne sera enregistré nulle part. La raison pour laquelle vous pouvez écrire librement est expliquée dans [la méthode de non-enregistrement](/guide/no-storage)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/categories": {
+    "eyebrow": "Base du service",
+    "title": "Critères divisés en huit catégories",
+    "summary": "Huit catégories — des objets, actions et animaux jusqu'au corps et aux couleurs — avec combien de symboles chacune contient, et pourquoi il n'y a pas de catégorie pour les émotions.",
+    "backLabel": "Base d'interprétation",
+    "sections": [
+      {
+        "title": "Divisé en huit catégories de ce qui apparaît dans les rêves",
+        "blocks": [
+          {
+            "p": "Nous avons regroupé {symbolTotal} symboles en huit catégories selon leur caractère. La question de division est **ce qu'il apparaît comme dans le rêve** — une bête, un objet, ou quelque chose que vous avez fait."
+          },
+          {
+            "ul": [
+              "**Objets {categoryThing}** — articles tangibles comme de l'argent, des miroirs et des couteaux. C'est la catégorie la plus fournie.",
+              "**Actions {categoryAction}** — choses faites ou vécues dans le rêve, comme se baigner, faire la fête, ou être battu.",
+              "**Animaux {categoryAnimal}** — dragons, cochons, serpents et vaches. Beaucoup d'entre eux ont été vus comme 태몽.",
+              "**Nature {categoryNature}** — grandes et anciennes choses comme l'eau, le feu, le soleil et la lune.",
+              "**Personnes {categoryPerson}** — personnes apparaissant dans les rêves, comme des rois, des voleurs et des individus décédés.",
+              "**Lieux {categoryPlace}** — emplacements où les rêves se produisent, comme des maisons, des puits et des tombes.",
+              "**Corps {categoryBody}** — dents, cheveux, sang. La signification varie selon l'endroit sur le corps.",
+              "**Couleurs {categoryColor}** — elles n'ont pas de bon ou de mauvais inhérent et sont interprétées en fonction de ce avec quoi elles sont associées."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "La raison de ne pas avoir de catégories numériques",
+        "blocks": [
+          {
+            "p": "Nous n'avons pas créé de catégorie pour des nombres tels que 「trois」 ou 「sept」. **Aucun des deux textes originaux ne fixe un nombre comme entrée.** Pour ouvrir cette catégorie et la remplir, nous devrions écrire quelque chose qui n'apparaît dans aucun des textes."
+          }
+        ]
+      },
+      {
+        "title": "Pourquoi il n'y a pas de catégorie émotionnelle",
+        "blocks": [
+          {
+            "p": "Nous n'avons pas créé de catégorie pour des sentiments tels que 「anxiété」 ou 「nostalgie」. **C'est parce que les textes d'interprétation des rêves anciens ne mentionnent pas les émotions.** Les deux textes originaux parlent de ce qui est vu et de ce qui se passe, pas des sentiments du rêveur comme sujet d'interprétation."
+          },
+          {
+            "p": "Nous avons une fois essayé de construire une catégorie pour les émotions, et ce qui en est sorti étaient des termes comme 「perte d'affection」 et 「stabilité émotionnelle」. Ce ne sont pas des **formes** apparaissant dans les rêves mais du vocabulaire de la psychologie moderne. C'est un type de service différent et ce n'est pas ce que ce dictionnaire vise à faire."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Alors quand vous écrivez",
+        "blocks": [
+          {
+            "p": "Veuillez écrire **ce que vous avez vu et fait** plutôt que des sentiments, car cela sera beaucoup mieux interprété. Cependant, nous demandons séparément comment vous vous êtes senti au réveil — cela est référencé dans les situations où les significations peuvent varier même pour le même symbole."
+          }
+        ]
+      },
+      {
+        "title": "Les couleurs ne sont pas utilisées seules",
+        "blocks": [
+          {
+            "p": "Les couleurs {categoryColor} n'ont pas de bon ou de mauvais inhérent. Tout comme les serpents bleus et rouges ont été interprétés différemment, leurs significations changent en fonction de **ce avec quoi elles sont associées**. Par conséquent, cette catégorie est considérée comme des valeurs lues lorsqu'elles apparaissent avec d'autres symboles."
+          },
+          {
+            "p": "La liste complète par catégorie est disponible dans le [Dictionnaire des Symboles](/dream/symbols). Lorsque vous ouvrez un symbole, la signification transmise, la catégorie et les symboles associés seront fournis."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/not-found": {
+    "eyebrow": "Comment utiliser",
+    "title": "Lorsque qu'un symbole n'est pas trouvé",
+    "summary": "Si rien n'est trouvé, nous le disons. Nous couvrons pourquoi cela se produit, ce que nous montrons sur cet écran à la place, et comment le dictionnaire est élargi.",
+    "backLabel": "Base d'interprétation",
+    "sections": [
+      {
+        "title": "Lorsque nous ne trouvons rien, nous disons que nous n'avons rien trouvé",
+        "blocks": [
+          {
+            "p": "Si nous ne pouvons trouver aucun symbole dans le texte que vous avez écrit, nous **vous disons que nous n'avons rien trouvé.** Nous ne forçons pas un symbole similaire dessus, ni n'écrivons une phrase plausible pour combler le vide."
+          },
+          {
+            "p": "C'est le problème le plus préoccupant pour ce service. Au moment où vous remplissez le vide, l'interprétation qui en découle et ce qui est réellement fait divergent."
+          }
+        ]
+      },
+      {
+        "title": "Pourquoi ne peut-il pas être trouvé ?",
+        "blocks": [
+          {
+            "p": "C'est généralement l'un des éléments suivants."
+          },
+          {
+            "ul": [
+              "**C'est un symbole qui n'est pas encore dans le dictionnaire.** Actuellement, il y a {symbolTotal} symboles répertoriés, mais il y en a beaucoup d'autres qui pourraient apparaître dans les rêves.",
+              "**Vous n'avez écrit que vos sentiments.** Si vous n'avez que des émotions comme \"J'avais peur\" ou \"Je me sentais étrange,\" il n'y a pas de symboles qui peuvent être identifiés. L'interprétation des rêves traditionnelle fait référence à **des objets et des actions visibles**, pas aux émotions.",
+              "**C'est trop court.** Il est préférable d'écrire en phrases plutôt qu'en un ou deux mots."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lorsque vous essayez d'écrire à nouveau",
+        "blocks": [
+          {
+            "p": "Veuillez inclure **ce que vous avez vu et ce que vous avez fait** dans le rêve. Dire \"J'étais anxieux\" est moins efficace que de dire \"mes dents sont tombées toutes seules,\" et \"j'ai aimé ça\" est moins efficace que de dire \"j'ai vu de l'eau claire couler.\""
+          }
+        ]
+      },
+      {
+        "title": "Nous ne laissons pas un écran vide",
+        "blocks": [
+          {
+            "p": "Lorsque quelque chose ne peut pas être trouvé, nous montrons également **{popularSymbolCount} symboles fréquemment recherchés** sur cet écran. Ceux-ci sont sélectionnés parmi les plus représentatifs dans le dictionnaire, ce qui peut vous aider à vous rappeler si l'un d'eux était dans votre rêve."
+          },
+          {
+            "p": "Si vous souhaitez parcourir tout, vous pouvez trouver {symbolTotal} symboles organisés par catégorie dans le [dictionnaire des symboles](/dream/symbols). Chaque symbole inclut sa signification et des symboles associés."
+          }
+        ]
+      },
+      {
+        "title": "Comment le dictionnaire s'élargira-t-il à l'avenir ?",
+        "blocks": [
+          {
+            "p": "Plutôt que d'augmenter les chiffres, nous nous concentrons d'abord sur **l'identification précise de ce qui est déjà là**. Nous avons inclus {aliasTotal} noms alternatifs pour les mêmes symboles, et nous avons veillé à ce que les mots avec des suffixes qui changent leurs formes puissent également être identifiés."
+          },
+          {
+            "p": "Lors de l'expansion des symboles eux-mêmes, nous n'incluons que **ce qui est écrit dans le texte original**. Si une signification n'a pas de phrase originale correspondante, une entrée ne sera pas créée — simplement augmenter les chiffres sans fondement en fait une création, pas un dictionnaire. Les raisons de cette tentative et ses résultats sont documentés dans [pourquoi nous n'utilisons pas de modèles](/guide/no-ai)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/no-ai": {
+    "eyebrow": "Base du service",
+    "title": "Raisons de ne pas utiliser l'intelligence artificielle dans l'interprétation des rêves",
+    "summary": "Il n'y a pas de code qui appelle un modèle pour créer des interprétations. C'est le résultat d'une tentative d'élargir le dictionnaire en utilisant un modèle et ce qui a été gagné et ce qui a été sacrifié en conséquence.",
+    "backLabel": "Base de l'interprétation",
+    "sections": [
+      {
+        "title": "L'intelligence artificielle n'est pas utilisée dans l'interprétation des rêves",
+        "blocks": [
+          {
+            "p": "De nombreux services d'interprétation des rêves actuels montrent des écrits générés en insérant des histoires de rêves dans des modèles génératifs. Dreams-Link ne fait pas cela. **Il n'y a pas de code qui appelle un modèle pour créer des interprétations.**"
+          },
+          {
+            "p": "Ce que nous faisons est simple. Nous trouvons les symboles dans le texte que vous fournissez et sélectionnons les significations que le dictionnaire a écrites sur ces symboles. Il n'y a pas de place pour des phrases qui ne sont pas dans le dictionnaire."
+          },
+          {
+            "p": "Le dictionnaire lui-même n'est pas créé par un modèle. Chaque signification est accompagnée de **quel passage du texte original d'interprétation des rêves elle provient**, et ce passage est comparé mot à mot avec le fichier original."
+          }
+        ]
+      },
+      {
+        "title": "Pourquoi cette décision a-t-elle été prise ?",
+        "blocks": [
+          {
+            "p": "**Les modèles ne disent pas qu'ils ne savent pas ce qu'ils ne savent pas.** Lorsqu'on leur demande des symboles sans fondement, ils fabriquent des origines plausibles. Et que ce soit fabriqué ou non est quelque chose que le lecteur ne peut pas discerner. Si la création est insérée à la place de la transmission de la tradition, le principe du service s'effondre."
+          },
+          {
+            "p": "Nous avons essayé de laisser un modèle créer des symboles pour élargir le dictionnaire. Parmi soixante-six exemples sélectionnés comme dignes d'adoption, **cinquante-cinq n'ont pu fournir aucun fondement**, et il y avait aussi des exemples comme le métro et l'autoroute qui ne peuvent pas exister dans l'interprétation traditionnelle des rêves. Par conséquent, **aucun n'a été inclus.**"
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Il en était de même même avec un modèle plus grand",
+        "blocks": [
+          {
+            "p": "Lorsque nous avons exécuté la même chose sur un meilleur modèle, un sur dix-neuf a réussi, et celui-ci n'était qu'une répétition du même mot avec le même fondement. Un modèle plus grand ne parle que **plus plausiblement** de ce qu'il ne sait pas."
+          }
+        ]
+      },
+      {
+        "title": "Les avantages de ne pas utiliser un modèle",
+        "blocks": [
+          {
+            "ul": [
+              "**Si c'est le même rêve, la même interprétation en sortira.** Les mots ne changent pas chaque fois que vous le regardez.",
+              "**C'est rapide.** Il n'y a pas d'attente pour la réponse du modèle, donc les résultats sont immédiatement disponibles.",
+              "**Le rêve que vous avez écrit ne sort pas.** Il n'est pas nécessaire de l'envoyer au serveur d'une entreprise externe — veuillez lire cela avec [la méthode qui ne sauvegarde pas](/guide/no-storage).",
+              "**Il peut être offert gratuitement.** Les rêves sont quelque chose que nous avons chaque jour, donc il y a de nombreuses demandes. Si un modèle est appelé pour chaque demande, le coût doit être couvert d'une manière ou d'une autre."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Au lieu de cela, ce qui a été sacrifié",
+        "blocks": [
+          {
+            "p": "Nous ne pouvons pas interpréter ce qui n'est pas dans le dictionnaire. Si nous avions utilisé un modèle, il y aurait eu une réponse plausible pour tout ce que vous avez écrit. Nous avons choisi de **dire que nous ne pouvions pas le trouver lorsque nous ne pouvions pas le trouver.** Ce que nous montrons à ce moment-là est documenté dans [lorsqu'un symbole ne peut pas être trouvé](/guide/not-found)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/reports": {
+    "eyebrow": "Produits payants",
+    "title": "Deux façons de garder vos rêves",
+    "summary": "L'interprétation elle-même n'entraîne pas de frais. Elle explique quelles sont les deux options payantes, ce qu'elles contiennent et pourquoi elles ne sont pas de meilleures interprétations.",
+    "backLabel": "Base de l'interprétation",
+    "sections": [
+      {
+        "title": "L'interprétation elle-même n'entraîne pas de frais",
+        "blocks": [
+          {
+            "p": "Écrire votre rêve et voir quels symboles sont inclus **ne coûte pas d'argent et ne nécessite pas d'adhésion.** Puisque les gens rêvent chaque jour, nous avons jugé que cet espace devait être offert gratuitement."
+          },
+          {
+            "p": "**Les deux options payantes ne sont pas de meilleures interprétations.** Ce sont **deux façons de garder la même interprétation.** Le contenu que vous voyez à l'écran ne change pas après le paiement."
+          }
+        ]
+      },
+      {
+        "title": "Carte de rêve — Une image",
+        "blocks": [
+          {
+            "p": "Nous fournissons les symboles trouvés dans votre rêve et leurs significations dans **une image.** C'est un fichier image, pas un PDF, donc vous pouvez le sauvegarder tel quel ou l'envoyer à d'autres."
+          },
+          {
+            "p": "C'est pour ceux qui ressentent des regrets lorsque un bon rêve disparaît après la fermeture de l'écran. Puisque nous ne sauvegardons pas les rêves, c'est le seul moyen de les conserver si vous souhaitez les préserver."
+          }
+        ]
+      },
+      {
+        "title": "Rapport de rêve de conception — Document {conceptionPages} pages",
+        "blocks": [
+          {
+            "p": "Nous créons un **document de {conceptionPages} pages** sur les rêves qui montrent des symboles indiquant un rêve de conception. Il inclut quels symboles sont apparus, comment ces symboles ont été traditionnellement interprétés, et un espace pour enregistrer cette information."
+          },
+          {
+            "p": "Les rêves de conception sont souvent discutés et partagés parmi les membres de la famille même après la naissance de l'enfant, donc nous avons créé un document séparé pour les rêves qui sont trop précieux pour être simplement vus à l'écran."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Mots non utilisés ici non plus",
+        "blocks": [
+          {
+            "p": "Nous ne faisons pas de jugements sur l'état de grossesse ou le sexe de l'enfant. De telles déclarations ne sont pas incluses dans le document. Pour plus de détails, veuillez vous référer à [comment les rêves de conception sont filtrés](/guide/conception-dreams)."
+          }
+        ]
+      },
+      {
+        "title": "Pourquoi n'y a-t-il plus de document ?",
+        "blocks": [
+          {
+            "p": "Le service frère produit un rapport de neuf pages. C'est parce que le moteur de saju extrait beaucoup de valeurs à partir d'une seule date de naissance. L'interprétation des rêves dans la tradition coréenne ne fonctionne pas de cette manière."
+          },
+          {
+            "p": "Le dictionnaire contient {symbolTotal} symboles et {meaningTotal} significations, mais **seuls quelques symboles s'appliquent réellement à un seul rêve**. Pour élargir cela en neuf pages, il faudrait écrire des choses qui ne se trouvent dans aucun texte original, et c'est précisément ce que ce service a choisi de ne pas faire. Par conséquent, le document est aussi long que les matériaux le permettent honnêtement, et pas plus."
+          }
+        ]
+      },
+      {
+        "title": "Valeurs et disponibilité",
+        "blocks": [
+          {
+            "p": "Les prix sont disponibles dans le [guide des prix](/pricing). La raison pour laquelle ce document ne liste pas les montants est intentionnelle — pour éviter des situations où le document d'orientation reste avec des montants obsolètes lorsque les valeurs changent. L'écran et les termes lisent tous les montants au même endroit."
+          },
+          {
+            "p": "Le document pour lequel vous avez payé peut **être reçu à nouveau avec la même commande.** Cependant, comme nous ne stockons pas les fichiers, il ne peut pas être recréé une fois que vous quittez l'écran des résultats — veuillez conserver le fichier que vous avez reçu."
           }
         ]
       }
@@ -955,16 +975,16 @@ export const FR_NOTICES = {
     "engine": "Calcul",
     "support": "Support"
   },
-  "intro": "Les changements de vos conditions d'utilisation — prix, politiques — sont affichés ici avant qu'ils ne prennent effet. Les améliorations internes telles que l'accélération de l'écran ne sont pas affichées ici : ce qui apparaît ici est ce que vous devez savoir.",
+  "intro": "Les changements de vos conditions d'utilisation — prix, politiques — sont affichés ici avant qu'ils n'entrent en vigueur. Les améliorations internes telles que l'accélération de l'écran ne sont pas affichées ici : ce qui apparaît ici est ce que vous devez savoir.",
   "empty": {
-    "title": "Aucune annonce publiée",
+    "title": "Aucun avis publié",
     "body": "S'il y a des changements à vous informer, ils seront publiés ici."
   },
-  "effective": "En vigueur à partir du {date}",
+  "effective": "En vigueur à partir de {date}",
   "pager": {
-    "label": "Page de Notification",
+    "label": "Page d'avis",
     "newer": "← Le plus récent",
-    "older": "Notifications Précédentes →"
+    "older": "Avis précédents →"
   },
   "items": {
     "2026-08-06-no-storage": {
@@ -987,7 +1007,7 @@ export const FR_NOTICES = {
       "title": "Nous vous informons uniquement d'un rêve de conception et ne portons pas de jugements.",
       "body": [
         "Si des symboles traditionnellement considérés comme un rêve de conception apparaissent dans le rêve, nous vous informerons de ce fait. Cependant, nous ne déterminons pas l'état de grossesse ou le sexe de l'enfant — de telles affirmations n'ont aucun fondement, et les jugements médicaux relèvent des institutions médicales.",
-        "La mention de fils et de filles dans les récits traditionnels est un reflet des coutumes qui ont été transmises, et cela ne signifie pas que nous prédisons correctement."
+        "La mention de fils et de filles dans les récits traditionnels est un reflet des coutumes qui ont été transmises, et cela ne signifie pas que nous prédisons cela correctement."
       ]
     }
   }

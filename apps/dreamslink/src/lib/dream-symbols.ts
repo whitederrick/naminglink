@@ -119,6 +119,21 @@ export function symbolById(id: string): DreamSymbol | undefined {
 }
 
 /**
+ * **상징을 하나도 못 찾은 화면이 대신 보여 주는 「자주 찾는 상징」.**
+ *
+ * 고르는 기준은 `weight`이고, 그 값은 조립기의 `POPULAR_SYMBOL_IDS`가 정한다
+ * (`scripts/build-dream-dictionary-v2.mjs`).
+ *
+ * **판정을 여기 한 벌만 둔다.** 2026-09-01까지 이 규칙(`weight >= 3`)이 결과 화면에만
+ * 적혀 있었고, 안내 문서는 그 수를 셀 방법이 없어 자리표시자가 빈 채로 있었다 —
+ * 그 문단은 23개 언어 전부에서 **한 번도 그려진 적이 없다.** 규칙이 두 곳에 적히면
+ * 하나만 고쳐지는 날이 온다(CLAUDE.md §6).
+ */
+export const POPULAR_SYMBOLS: readonly DreamSymbol[] = DREAM_SYMBOLS.filter(
+  (symbol) => (symbol.weight ?? 1) >= 3,
+);
+
+/**
  * 이 의미가 어느 원문에서 왔는가. **화면이 이 값으로 절을 나눈다.**
  *
  * 값을 세지 않고 `cites[0]`만 보는 이유는 **한 의미의 인용은 전부 같은 원문**이기
