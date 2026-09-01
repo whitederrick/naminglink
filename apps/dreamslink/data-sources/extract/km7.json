@@ -638,13 +638,26 @@
   },
   {
     "id": "camel",
-    "aliases": [],
+    "aliases": [
+      "쌍봉낙타",
+      "단봉낙타"
+    ],
     "aliases_en": [
       "camels",
       "dromedary"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "낙타를 봄": "홀로 마리 우두커니",
+      "짐 나르는 낙타를 봄": "짐을 실은 등짐 나르",
+      "낙타를 가짐": "가지고 소유 길렀 키우",
+      "사막에서 낙타 떼를 봄": "사막 무리 떼가 여러"
+    },
+    "contexts_en": {
+      "낙타를 봄": "single alone standing",
+      "짐 나르는 낙타를 봄": "burden beast carrying load",
+      "낙타를 가짐": "own owning possess mine",
+      "사막에서 낙타 떼를 봄": "desert herd many"
+    }
   },
   {
     "id": "chinese-onion",

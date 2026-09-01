@@ -3666,5 +3666,92 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "hearing your name called",
     "name called",
     "a voice calling"
+  ],
+  "calm": [
+    "peaceful",
+    "tranquil",
+    "serene"
+  ],
+  "calumny": [
+    "slander",
+    "libel",
+    "defamation"
+  ],
+  "camera": [
+    "a camera",
+    "cameras"
+  ],
+  "cameo-brooch": [
+    "a brooch",
+    "brooch",
+    "cameo"
+  ],
+  "camp": [
+    "camping",
+    "a camp",
+    "encampment",
+    "tent"
+  ],
+  "campaign": [
+    "a campaign",
+    "campaigning",
+    "crusade"
+  ],
+  "cane": [
+    "sugar cane",
+    "canes"
+  ],
+  "cancer": [
+    "a cancer",
+    "tumor",
+    "malignant growth"
+  ],
+  "canal": [
+    "a canal",
+    "canals",
+    "waterway"
+  ],
+  "canary": [
+    "canaries",
+    "a canary",
+    "songbird"
+  ],
+  "candlestick": [
+    "a candlestick",
+    "candlesticks",
+    "candle holder"
+  ],
+  "canker": [
+    "cankerous",
+    "a canker",
+    "sore"
+  ],
+  "cannon": [
+    "cannons",
+    "a cannon",
+    "artillery"
+  ],
+  "cannon-ball": [
+    "cannonball",
+    "cannon balls"
+  ],
+  "canoe": [
+    "a canoe",
+    "canoes",
+    "paddling"
+  ],
+  "candy": [
+    "candies",
+    "bonbons",
+    "sweets"
+  ],
+  "canopy": [
+    "a canopy",
+    "awning",
+    "baldachin"
+  ],
+  "cap": [
+    "a cap",
+    "caps"
   ]
 };

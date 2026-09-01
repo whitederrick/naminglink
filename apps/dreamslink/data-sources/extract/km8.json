@@ -449,7 +449,7 @@
     "id": "candle",
     "aliases": [
       "양초",
-      "촛대"
+      "촛농"
     ],
     "aliases_en": [
       "a candle",
@@ -458,11 +458,21 @@
     ],
     "contexts": {
       "촛불을 봄": "하나 켜져 홀로",
-      "등불과 촛불이 밝게 빛남": "등불 밝게 환하 빛나"
+      "등불과 촛불이 밝게 빛남": "등불 밝게 환하 빛나",
+      "맑고 흔들림 없는 불꽃으로 타는 초를 봄": "불꽃 흔들림 곧게 타오르",
+      "초를 만듦": "만들 빚어 굳혀",
+      "초에 불을 붙임": "붙였 붙이 켰다",
+      "바람에 초가 녹아 스러짐": "바람 녹아 스러 외풍",
+      "촛불을 끔": "껐다 끄니 꺼뜨"
     },
     "contexts_en": {
       "촛불을 봄": "single alone lit",
-      "등불과 촛불이 밝게 빛남": "lamp lantern bright shining"
+      "등불과 촛불이 밝게 빛남": "lamp lantern bright shining",
+      "맑고 흔들림 없는 불꽃으로 타는 초를 봄": "steady flame clear burning",
+      "초를 만듦": "molding maiden marriage",
+      "초에 불을 붙임": "clandestinely parental objections",
+      "바람에 초가 녹아 스러짐": "wasting draught enemies reports",
+      "촛불을 끔": "snuff sorrowful news friends"
     }
   },
   {

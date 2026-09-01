@@ -1,0 +1,966 @@
+[
+  {
+    "term_ko": "고요함",
+    "term_en": "calm",
+    "context": "고요한 바다를 봄",
+    "interpretation_ko": "미덥지 않던 일이 잘 끝날 조짐",
+    "interpretation_en": "a successful ending of a doubtful undertaking",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Calm",
+      "original": "To see calm seas, denotes successful ending of doubtful undertaking.",
+      "translation_ko": "고요한 바다를 보면 미덥지 않던 일이 잘 끝난다"
+    }
+  },
+  {
+    "term_ko": "고요함",
+    "term_en": "calm",
+    "context": "마음이 고요하고 행복함",
+    "interpretation_ko": "길고 알차게 산 삶과 정정한 노년을 알리는 조짐",
+    "interpretation_en": "a sign of a long and well-spent life and a vigorous old age",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Calm",
+      "original": "To feel calm and happy, is a sign of a long and well-spent life and a vigorous old age.",
+      "translation_ko": "마음이 고요하고 행복하면 길고 알차게 산 삶과 정정한 노년의 조짐이다"
+    }
+  },
+
+  {
+    "term_ko": "중상모략",
+    "term_en": "calumny",
+    "context": "내가 중상모략의 대상이 됨",
+    "interpretation_ko": "악의를 품은 입방아에 내 이익이 상할 조짐",
+    "interpretation_en": "your interests will suffer at the hands of evil-minded gossips",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Calumny",
+      "original": "To dream that you are the subject of calumny, denotes that your interests will suffer at the hands of evil-minded gossips.",
+      "translation_ko": "중상모략의 대상이 되는 꿈은 악의를 품은 입방아에 이익이 상할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "중상모략",
+    "term_en": "calumny",
+    "context": "젊은 여성이 중상모략을 당함",
+    "interpretation_ko": "벗을 자처하는 이들이 행실을 눈여겨보고 있으니 처신을 조심해야 할 조짐",
+    "interpretation_en": "her movements are being critically observed by persons who claim to be her friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Calumny",
+      "original": "For a young woman, it warns her to be careful of her conduct, as her movements are being critically observed by persons who claim to be her friends.",
+      "translation_ko": "젊은 여성에게는 행실을 조심하라는 경고다 — 벗을 자처하는 이들이 그 움직임을 매섭게 지켜보고 있다"
+    }
+  },
+
+  {
+    "term_ko": "사진기",
+    "term_en": "camera",
+    "context": "사진기를 봄",
+    "interpretation_ko": "변화가 마땅치 않은 처지를 가져올 조짐",
+    "interpretation_en": "changes will bring undeserved environments",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Camera",
+      "original": "To dream of a camera, signifies that changes will bring undeserved environments.",
+      "translation_ko": "사진기 꿈은 변화가 받을 까닭 없는 처지를 가져온다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "사진기",
+    "term_en": "camera",
+    "context": "사진기로 사진을 찍음",
+    "interpretation_ko": "가까운 앞날에 언짢은 일이 많고 벗에게 크게 실망할 조짐",
+    "interpretation_en": "her immediate future will have much that is displeasing and a friend will subject her to acute disappointment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Camera",
+      "original": "For a young woman to dream that she is taking pictures with a camera, foretells that her immediate future will have much that is displeasing and that a friend will subject her to acute disappointment.",
+      "translation_ko": "젊은 여성이 사진기로 사진을 찍는 꿈은 가까운 앞날에 언짢은 일이 많고 벗이 크게 실망시킬 조짐이다"
+    }
+  },
+
+  {
+    "term_ko": "카메오 브로치",
+    "term_en": "cameo brooch",
+    "context": "카메오 브로치를 봄",
+    "interpretation_ko": "머지않아 슬픈 일이 마음을 붙들 조짐",
+    "interpretation_en": "some sad occurrence will soon claim your attention",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cameo Brooch",
+      "original": "To dream of a cameo brooch, denotes some sad occurrence will soon claim your attention.",
+      "translation_ko": "카메오 브로치 꿈은 머지않아 슬픈 일이 마음을 붙들 조짐이다"
+    }
+  },
+
+  {
+    "term_ko": "낙타",
+    "term_en": "camel",
+    "context": "짐 나르는 낙타를 봄",
+    "interpretation_ko": "견디기 어려운 괴로움과 실패의 때에 큰 인내와 꿋꿋함을 지닐 조짐",
+    "interpretation_en": "you will entertain great patience and fortitude in time of almost unbearable anguish and failures",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Camels",
+      "original": "To see this beast of burden, signifies that you will entertain great patience and fortitude in time of almost unbearable anguish and failures that will seemingly sweep every vestige of hope from you.",
+      "translation_ko": "이 짐 나르는 짐승을 보면, 희망의 자취를 모조리 쓸어 갈 듯한 견디기 힘든 괴로움과 실패의 때에 큰 인내와 꿋꿋함을 지니게 된다"
+    }
+  },
+  {
+    "term_ko": "낙타",
+    "term_en": "camel",
+    "context": "낙타를 가짐",
+    "interpretation_ko": "값진 광산을 갖게 될 조짐",
+    "interpretation_en": "you will possess rich mining property",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Camels",
+      "original": "To own a camel, is a sign that you will possess rich mining property.",
+      "translation_ko": "낙타를 가지면 값진 광산을 소유할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "낙타",
+    "term_en": "camel",
+    "context": "사막에서 낙타 떼를 봄",
+    "interpretation_ko": "사람의 도움이 다한 듯할 때 도움이 오고, 뜻밖에 병에서 일어날 조짐",
+    "interpretation_en": "assistance when all human aid seems at a low ebb, and sickness from which you will arise contrary to all expectations",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Camels",
+      "original": "To see a herd of camels on the desert, denotes assistance when all human aid seems at a low ebb, and of sickness from which you will arise, contrary to all expectations.",
+      "translation_ko": "사막에서 낙타 떼를 보면, 사람의 도움이 다한 듯할 때 도움이 오고 모두의 예상과 달리 병에서 일어난다"
+    }
+  },
+
+  {
+    "term_ko": "야영",
+    "term_en": "camp",
+    "context": "노천에서 야영함",
+    "interpretation_ko": "일에 변화가 오고 멀고 고단한 여정을 앞둘 조짐",
+    "interpretation_en": "a change in your affairs, and a long and wearisome journey to prepare for",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Camp",
+      "original": "To dream of camping in the open air, you may expect a change in your affairs, also prepare to make a long and wearisome journey.",
+      "translation_ko": "노천에서 야영하는 꿈을 꾸면 일에 변화가 올 것이고, 멀고 고단한 여정도 준비해야 한다"
+    }
+  },
+  {
+    "term_ko": "야영",
+    "term_en": "camp",
+    "context": "야영지 마을을 봄",
+    "interpretation_ko": "동무들은 새 터로 옮겨 가고 제 앞날은 어두워 보일 조짐",
+    "interpretation_en": "many of your companions will remove to new estates and your own prospects will appear gloomy",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Camp",
+      "original": "To see a camping settlement, many of your companions will remove to new estates and your own prospects will appear gloomy.",
+      "translation_ko": "야영지 마을을 보면 동무들 여럿이 새 터로 옮겨 가고 제 앞날은 어두워 보인다"
+    }
+  },
+  {
+    "term_ko": "야영",
+    "term_en": "camp",
+    "context": "젊은 여성이 야영지에 있음",
+    "interpretation_ko": "연인이 혼삿날 받기를 어려워하겠으나 자상한 배필이 될 조짐",
+    "interpretation_en": "her lover will have trouble getting her to name a wedding day, yet will prove a kind husband",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Camp",
+      "original": "For a young woman to dream that she is in a camp, denotes that her lover will have trouble in getting her to name a day for their wedding, and that he will prove a kind husband.",
+      "translation_ko": "젊은 여성이 야영지에 있는 꿈은, 연인이 혼삿날을 받아 내기 어려워하겠으나 자상한 남편이 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "야영",
+    "term_en": "camp",
+    "context": "군대 야영지에 있음",
+    "interpretation_ko": "기회가 오는 대로 혼인하게 될 조짐",
+    "interpretation_en": "she will marry the first time she has a chance",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Camp",
+      "original": "If in a military camp she will marry the first time she has a chance.",
+      "translation_ko": "군대 야영지라면 기회가 오는 첫 번에 혼인하게 된다"
+    }
+  },
+  {
+    "term_ko": "야영",
+    "term_en": "camp",
+    "context": "혼인한 여성이 병사들의 야영지에 있음",
+    "interpretation_ko": "남편의 이름이 더럽혀질 위험이 있고 이혼에 이를 수 있는 조짐",
+    "interpretation_en": "danger of having her husband's name sullied, and divorce courts may be her destination",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Camp",
+      "original": "A married woman after dreaming of being in a soldier's camp is in danger of having her husband's name sullied, and divorce courts may be her destination.",
+      "translation_ko": "혼인한 여성이 병사들의 야영지에 있는 꿈을 꾸면 남편의 이름이 더럽혀질 위험이 있고, 이혼 법정이 그 끝일 수 있다"
+    }
+  },
+
+  {
+    "term_ko": "캠페인",
+    "term_en": "campaign",
+    "context": "정치 운동을 벌임",
+    "interpretation_ko": "굳어진 방식에 맞서 나만의 계획을 세우고, 권력을 쥔 쪽이 질 조짐",
+    "interpretation_en": "your opposition to approved ways, original plans of your own, and those in power will lose",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Campaign",
+      "original": "To dream of making a political one, signifies your opposition to approved ways of conducting business, and you will set up original plans for yourself regardless of enemies' working against you.",
+      "translation_ko": "정치 운동을 벌이는 꿈은 굳어진 일 방식에 맞선다는 뜻이고, 원수들이 훼방하든 말든 스스로 새 계획을 세우게 된다"
+    }
+  },
+  {
+    "term_ko": "캠페인",
+    "term_en": "campaign",
+    "context": "죄악에 맞선 신앙 운동을 봄",
+    "interpretation_ko": "자선 기관을 돕도록 제 재산에서 내놓기를 청받을 조짐",
+    "interpretation_en": "you will be called upon to contribute from your private means to sustain charitable institutions",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Campaign",
+      "original": "If it is a religious people conducting a campaign against sin, it denotes that you will be called upon to contribute from your private means to sustain charitable institutions.",
+      "translation_ko": "신앙을 가진 이들이 죄악에 맞서 벌이는 운동이라면, 자선 기관을 지탱하도록 제 재산에서 내놓기를 청받게 된다"
+    }
+  },
+
+  {
+    "term_ko": "사탕수수",
+    "term_en": "cane",
+    "context": "사탕수수가 자라는 것을 봄",
+    "interpretation_ko": "재물을 향해 순조로이 나아갈 조짐",
+    "interpretation_en": "favorable advancement will be made toward fortune",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Cane",
+      "original": "To see cane growing in your dream, foretells favorable advancement will be made toward fortune.",
+      "translation_ko": "사탕수수가 자라는 것을 보면 재물을 향해 순조로이 나아가게 된다"
+    }
+  },
+  {
+    "term_ko": "사탕수수",
+    "term_en": "cane",
+    "context": "베어 낸 사탕수수를 봄",
+    "interpretation_ko": "하는 일마다 완전히 실패할 조짐",
+    "interpretation_en": "absolute failure in all undertakings",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Cane",
+      "original": "To see it cut, denotes absolute failure in all undertakings.",
+      "translation_ko": "베어 낸 것을 보면 하는 일마다 완전히 실패한다"
+    }
+  },
+
+  {
+    "term_ko": "암",
+    "term_en": "cancer",
+    "context": "암을 고쳐 낫게 함",
+    "interpretation_ko": "가난에서 벗어나 갑자기 넉넉해질 조짐",
+    "interpretation_en": "a sudden rise from obscure poverty to wealthy surroundings",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cancer",
+      "original": "To have one successfully treated in a dream, denotes a sudden rise from obscure poverty to wealthy surroundings.",
+      "translation_ko": "꿈에서 암을 고쳐 낫게 하면, 이름 없는 가난에서 넉넉한 처지로 갑자기 오른다"
+    }
+  },
+  {
+    "term_ko": "암",
+    "term_en": "cancer",
+    "context": "암을 봄",
+    "interpretation_ko": "가까운 이의 병과 사랑하는 이들과의 다툼, 그리고 가장 추한 꼴의 슬픔이 따를 조짐",
+    "interpretation_en": "illness of some one near you, quarrels with those you love, and sorrow in its ugliest phase",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cancer",
+      "original": "To dream of a cancer, denotes illness of some one near you, and quarrels with those you love.",
+      "translation_ko": "암 꿈은 가까운 이의 병과 사랑하는 이들과의 다툼을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "암",
+    "term_en": "cancer",
+    "context": "암을 봄",
+    "interpretation_ko": "가까운 이의 병과 사랑하는 이들과의 다툼, 그리고 가장 추한 꼴의 슬픔이 따를 조짐",
+    "interpretation_en": "illness of some one near you, quarrels with those you love, and sorrow in its ugliest phase",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cancer",
+      "original": "To dream of a cancer, foretells sorrow in its ugliest phase.",
+      "translation_ko": "암 꿈은 가장 추한 꼴의 슬픔을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "운하",
+    "term_en": "canal",
+    "context": "운하 물이 흐리고 괴어 있음",
+    "interpretation_ko": "병과 뱃속 탈, 그리고 원수의 음험한 꾀가 있을 조짐",
+    "interpretation_en": "sickness and disorders of the stomach and dark designs of enemies",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Canal",
+      "original": "To see the water of a canal muddy and stagnant-looking, portends sickness and disorders of the stomach and dark designs of enemies.",
+      "translation_ko": "운하의 물이 흐리고 괴어 보이면 병과 뱃속 탈, 그리고 원수들의 음험한 꾀를 알린다"
+    }
+  },
+  {
+    "term_ko": "운하",
+    "term_en": "canal",
+    "context": "운하 물이 맑음",
+    "interpretation_ko": "평온한 삶과 벗들의 정성이 앞에 있을 조짐",
+    "interpretation_en": "a placid life and the devotion of friends is before you",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Canal",
+      "original": "But if its waters are clear a placid life and the devotion of friends is before you.",
+      "translation_ko": "그러나 물이 맑으면 평온한 삶과 벗들의 정성이 앞에 있다"
+    }
+  },
+  {
+    "term_ko": "운하",
+    "term_en": "canal",
+    "context": "카누로 운하를 미끄러지듯 건너감",
+    "interpretation_ko": "정숙한 삶과 아끼는 배필을 얻을 조짐",
+    "interpretation_en": "a chaste life and an adoring husband",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Canal",
+      "original": "For a young woman to glide in a canoe across a canal, denotes a chaste life and an adoring husband.",
+      "translation_ko": "젊은 여성이 카누로 운하를 미끄러지듯 건너면 정숙한 삶과 아끼는 남편을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "운하",
+    "term_en": "canal",
+    "context": "다리로 운하를 건너 물가에서 풀을 뜯음",
+    "interpretation_ko": "끊임없는 즐거움을 누리고 높은 지위에 이를 조짐",
+    "interpretation_en": "a life of ceaseless rounds of pleasure and high social distinction",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Canal",
+      "original": "If she crossed the canal on a bridge over clear water and gathers ferns and other greens on the banks, she will enjoy a life of ceaseless rounds of pleasure and attain to high social distinction.",
+      "translation_ko": "맑은 물 위 다리로 운하를 건너 물가에서 고사리와 푸성귀를 뜯으면, 끊임없는 즐거움을 누리고 높은 지위에 이른다"
+    }
+  },
+  {
+    "term_ko": "운하",
+    "term_en": "canal",
+    "context": "운하를 건너는데 물이 탁함",
+    "interpretation_ko": "자주 곤경에 얽히고 신경을 앓게 될 조짐",
+    "interpretation_en": "she will often find herself tangled in meshes of perplexity and be the victim of nervous troubles",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Canal",
+      "original": "But if the water be turbid she will often find herself tangled in meshes of perplexity and will be the victim of nervous troubles.",
+      "translation_ko": "그러나 물이 탁하면 자주 곤경의 그물에 얽히고 신경을 앓는 이가 된다"
+    }
+  },
+
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "카나리아를 봄",
+    "interpretation_ko": "뜻밖의 즐거움이 있을 조짐",
+    "interpretation_en": "unexpected pleasures",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "To dream of this sweet songster, denotes unexpected pleasures.",
+      "translation_ko": "이 고운 노래꾼(카나리아)을 꿈꾸면 뜻밖의 즐거움이 있다"
+    }
+  },
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "고운 카나리아를 가짐",
+    "interpretation_ko": "높은 명예와 문필로 이름을 얻거나 첫사랑이 좋게 맺어질 조짐",
+    "interpretation_en": "high class honors and a successful passage through the literary world, or a happy termination of love's young dream",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "For the young to dream of possessing a beautiful canary, denotes high class honors and a successful passage through the literary world, or a happy termination of love's young dream.",
+      "translation_ko": "젊은이가 고운 카나리아를 가지는 꿈은 높은 명예와 글의 세계에서의 성공, 또는 첫사랑이 좋게 맺어짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "카나리아를 선물로 받음",
+    "interpretation_ko": "반가운 유산이 들어올 조짐",
+    "interpretation_en": "a welcome legacy",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "To dream one is given you, indicates a welcome legacy.",
+      "translation_ko": "한 마리를 선물로 받는 꿈은 반가운 유산을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "카나리아를 남에게 줌",
+    "interpretation_ko": "가장 바라던 일에서 실망할 조짐",
+    "interpretation_en": "you will suffer disappointment in your dearest wishes",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "To give away a canary, denotes that you will suffer disappointment in your dearest wishes.",
+      "translation_ko": "카나리아를 남에게 주면 가장 바라던 일에서 실망을 겪는다"
+    }
+  },
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "카나리아가 죽음",
+    "interpretation_ko": "아끼던 벗들이 등을 돌릴 조짐",
+    "interpretation_en": "the unfaithfulness of dear friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "To dream that one dies, denotes the unfaithfulness of dear friends.",
+      "translation_ko": "한 마리가 죽는 꿈은 아끼던 벗들의 배신을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "카나리아",
+    "term_en": "canary",
+    "context": "호화로운 방에서 카나리아가 날며 노래함",
+    "interpretation_ko": "잔치와 우아한 삶, 재물과 흡족한 우정이 있을 조짐",
+    "interpretation_en": "feasting and a life of exquisite refinement, wealth, and satisfying friendships",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Canary Birds",
+      "original": "Advancing, fluttering, and singing canaries, in luxurious apartments, denotes feasting and a life of exquisite refinement, wealth, and satisfying friendships.",
+      "translation_ko": "호화로운 방에서 다가오고 날갯짓하며 노래하는 카나리아는 잔치와 더없이 우아한 삶, 재물과 흡족한 우정을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "촛불",
+    "term_en": "candle",
+    "context": "맑고 흔들림 없는 불꽃으로 타는 초를 봄",
+    "interpretation_ko": "곁의 사람들이 한결같고 재물이 튼튼히 설 조짐",
+    "interpretation_en": "the constancy of those about you and a well-grounded fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candles",
+      "original": "To see them burning with a clear and steady flame, denotes the constancy of those about you and a well-grounded fortune.",
+      "translation_ko": "맑고 흔들림 없는 불꽃으로 타는 것을 보면 곁의 사람들이 한결같고 재물이 튼튼히 선다"
+    }
+  },
+  {
+    "term_ko": "촛불",
+    "term_en": "candle",
+    "context": "초를 만듦",
+    "interpretation_ko": "뜻밖의 혼담이 들어오고 먼 친척을 즐겁게 찾아갈 조짐",
+    "interpretation_en": "an unexpected offer of marriage and a pleasant visit to distant relatives",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candles",
+      "original": "For a maiden to dream that she is molding candles, denotes that she will have an unexpected offer of marriage and a pleasant visit to distant relatives.",
+      "translation_ko": "처녀가 초를 빚는 꿈은 뜻밖의 혼담과 먼 친척을 즐겁게 찾아갈 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "촛불",
+    "term_en": "candle",
+    "context": "초에 불을 붙임",
+    "interpretation_ko": "부모의 반대로 연인을 몰래 만나게 될 조짐",
+    "interpretation_en": "she will meet her lover clandestinely because of parental objections",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candles",
+      "original": "If she is lighting a candle, she will meet her lover clandestinely because of parental objections.",
+      "translation_ko": "초에 불을 붙이면 부모의 반대 때문에 연인을 몰래 만나게 된다"
+    }
+  },
+  {
+    "term_ko": "촛불",
+    "term_en": "candle",
+    "context": "바람에 초가 녹아 스러짐",
+    "interpretation_ko": "원수들이 나에 대한 해로운 소문을 퍼뜨리고 있을 조짐",
+    "interpretation_en": "enemies are circulating detrimental reports about you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candles",
+      "original": "To see a candle wasting in a draught, enemies are circulating detrimental reports about you.",
+      "translation_ko": "외풍에 초가 녹아 스러지는 것을 보면 원수들이 나에 대한 해로운 소문을 퍼뜨리고 있다"
+    }
+  },
+  {
+    "term_ko": "촛불",
+    "term_en": "candle",
+    "context": "촛불을 끔",
+    "interpretation_ko": "슬픈 소식이 올 조짐 — 벗이 죽었거나 곤경에 빠졌다",
+    "interpretation_en": "sorrowful news; friends are dead or in distressful straits",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candles",
+      "original": "To snuff a candle, portends sorowful{sic} news.  Friends are dead or in distressful straits.",
+      "translation_ko": "촛불을 끄면 슬픈 소식을 알린다 — 벗이 죽었거나 곤경에 빠져 있다"
+    }
+  },
+
+  {
+    "term_ko": "촛대",
+    "term_en": "candlestick",
+    "context": "초가 온전히 꽂힌 촛대를 봄",
+    "interpretation_ko": "건강과 행복, 다정한 벗으로 채워진 밝은 앞날이 있을 조짐",
+    "interpretation_en": "a bright future filled with health, happiness and loving companions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candlestick",
+      "original": "To see a candlestick bearing a whole candle, denotes that a bright future lies before you filled with health, happiness and loving companions.",
+      "translation_ko": "초가 온전히 꽂힌 촛대를 보면 건강과 행복, 다정한 벗으로 채워진 밝은 앞날이 앞에 놓인다"
+    }
+  },
+  {
+    "term_ko": "촛대",
+    "term_en": "candlestick",
+    "context": "촛대가 비어 있음",
+    "interpretation_ko": "밝은 앞날과는 정반대의 조짐",
+    "interpretation_en": "the reverse of a bright future",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candlestick",
+      "original": "To see a candlestick bearing a whole candle, denotes that a bright future lies before you filled with health, happiness and loving companions.  If empty, the reverse.",
+      "translation_ko": "초가 온전히 꽂힌 촛대는 밝은 앞날을 뜻하고, 비어 있으면 그 반대다"
+    }
+  },
+
+  {
+    "term_ko": "궤양",
+    "term_en": "canker",
+    "context": "무언가에 헐어 썩은 자리를 봄",
+    "interpretation_ko": "젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알리는 흉한 조짐",
+    "interpretation_en": "an omen of evil — death and treacherous companions for the young, sorrow and loneliness to the aged",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Canker",
+      "original": "To dream of seeing canker on anything, is an omen of evil.  It foretells death and treacherous companions for the young.  Sorrow and loneliness to the aged.",
+      "translation_ko": "무엇엔가 헐어 썩은 자리를 보는 꿈은 흉한 조짐이다. 젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알린다"
+    }
+  },
+  {
+    "term_ko": "궤양",
+    "term_en": "canker",
+    "context": "살에 궤양이 자람",
+    "interpretation_ko": "훗날 나라의 우두머리나 무대 위의 이름을 얻을 조짐",
+    "interpretation_en": "future distinctions either as head of State or stage life",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Canker",
+      "original": "Cankerous growths in the flesh, denote future distinctions either as head of State or stage life.",
+      "translation_ko": "살에 궤양이 자라는 것은 훗날 나라의 우두머리나 무대 위의 이름을 얻음을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "대포",
+    "term_en": "cannon",
+    "context": "대포를 봄",
+    "interpretation_ko": "집과 나라가 외침의 위험에 놓이고 젊은이들이 전화를 겪을 조짐",
+    "interpretation_en": "one's home and country are in danger of foreign intrusion, from which the youth will suffer the perils of war",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cannon",
+      "original": "This dream denotes that one's home and country are in danger of foreign intrusion, from which our youth will suffer from the perils of war.",
+      "translation_ko": "이 꿈은 집과 나라가 바깥의 침입 위험에 놓이고, 그로 인해 젊은이들이 전쟁의 화를 겪는다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "대포",
+    "term_en": "cannon",
+    "context": "대포 소리를 들음",
+    "interpretation_ko": "군인의 아내가 되어 싸움터로 떠나는 남편을 배웅하게 될 조짐",
+    "interpretation_en": "she will be a soldier's wife and will have to bid him godspeed as he marches away",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cannon",
+      "original": "For a young woman to hear or see cannons, denotes she will be a soldier's wife and will have to bid him godspeed as he marches in defense of her and honor.",
+      "translation_ko": "젊은 여성이 대포 소리를 듣거나 대포를 보면, 군인의 아내가 되어 그가 자신과 명예를 지키러 떠날 때 무운을 빌어 보내게 된다"
+    }
+  },
+
+  {
+    "term_ko": "포탄",
+    "term_en": "cannon ball",
+    "context": "포탄을 봄",
+    "interpretation_ko": "보이지 않는 적들이 뭉쳐 나를 겨눌 조짐",
+    "interpretation_en": "secret enemies are uniting against you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cannon-Ball",
+      "original": "This means that secret enemies are uniting against you.",
+      "translation_ko": "이것은 보이지 않는 적들이 뭉쳐 나를 겨눈다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "포탄",
+    "term_en": "cannon ball",
+    "context": "처녀가 포탄을 봄",
+    "interpretation_ko": "군인 연인을 두게 될 조짐",
+    "interpretation_en": "she will have a soldier sweetheart",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cannon-Ball",
+      "original": "For a maid to see a cannon-ball, denotes that she will have a soldier sweetheart.",
+      "translation_ko": "처녀가 포탄을 보면 군인 연인을 두게 된다"
+    }
+  },
+  {
+    "term_ko": "포탄",
+    "term_en": "cannon ball",
+    "context": "젊은이가 포탄을 봄",
+    "interpretation_ko": "나라를 지키러 불려 갈 조짐",
+    "interpretation_en": "he will be called upon to defend his country",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cannon-Ball",
+      "original": "For a youth to see a cannon-ball, denotes that he will be called upon to defend his country.",
+      "translation_ko": "젊은이가 포탄을 보면 나라를 지키러 불려 가게 된다"
+    }
+  },
+
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "잔잔한 시내에서 카누를 저음",
+    "interpretation_ko": "제 일을 이롭게 꾸릴 힘을 온전히 믿게 될 조짐",
+    "interpretation_en": "perfect confidence in your own ability to conduct your business in a profitable way",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "To paddle a canoe on a calm stream, denotes your perfect confidence in your own ability to conduct your business in a profitable way.",
+      "translation_ko": "잔잔한 시내에서 카누를 저으면 제 일을 이롭게 꾸릴 제 힘을 온전히 믿게 된다"
+    }
+  },
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "연인과 함께 노를 저음",
+    "interpretation_ko": "이른 혼인과 변치 않는 정을 알리는 조짐",
+    "interpretation_en": "an early marriage and fidelity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "To row with a sweetheart, means an early marriage and fidelity.",
+      "translation_ko": "연인과 함께 노를 저으면 이른 혼인과 변치 않는 정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "거친 물에서 노를 저음",
+    "interpretation_ko": "부부의 낙에 이르기까지 드센 성미를 감당해야 할 조짐",
+    "interpretation_en": "you will have to bear with a difficult temper before you attain connubial bliss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "To row on rough waters you will have to tame a shrew before you attain connubial bliss.",
+      "translation_ko": "거친 물에서 노를 저으면 부부의 낙에 이르기 전에 드센 성미를 다스려야 한다"
+    }
+  },
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "흙탕물에서 노를 저음",
+    "interpretation_ko": "사업의 일이 실망스럽게 될 조짐",
+    "interpretation_en": "affairs in the business world will prove disappointing",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "Affairs in the business world will prove disappointing after you dream of rowing in muddy waters.",
+      "translation_ko": "흙탕물에서 노를 젓는 꿈을 꾸고 나면 사업의 일이 실망스럽게 된다"
+    }
+  },
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "얕고 물살 빠른 데서 노를 저음",
+    "interpretation_ko": "서두른 연애나 훔친 즐거움으로 오래 갈 좋은 것이 없을 조짐",
+    "interpretation_en": "a hasty courtship or stolen pleasures, from which there can be no lasting good",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "If the waters are shallow and swift, a hasty courtship or stolen pleasures, from which there can be no lasting good, are indicated.",
+      "translation_ko": "물이 얕고 물살이 빠르면 서두른 연애나 훔친 즐거움을 가리키며, 거기서 오래 갈 좋은 것은 나오지 않는다"
+    }
+  },
+  {
+    "term_ko": "카누",
+    "term_en": "canoe",
+    "context": "얕고 맑고 잔잔한 물에서 노를 저음",
+    "interpretation_ko": "기꺼운 행복이 오되 오래가지는 않을 조짐",
+    "interpretation_en": "happiness of a pleasing character, but of short duration",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canoe",
+      "original": "Shallow, clear and calm waters in rowing, signifies happiness of a pleasing character, but of short duration.",
+      "translation_ko": "노를 저을 때 물이 얕고 맑고 잔잔하면 기꺼운 행복을 뜻하나 오래가지 않는다"
+    }
+  },
+
+  {
+    "term_ko": "사탕",
+    "term_en": "candy",
+    "context": "사탕을 만듦",
+    "interpretation_ko": "부지런히 일해 이문이 남을 조짐",
+    "interpretation_en": "profit accruing from industry",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candy",
+      "original": "To dream of making candy, denotes profit accruing from industry.",
+      "translation_ko": "사탕을 만드는 꿈은 부지런히 일해 이문이 남음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사탕",
+    "term_en": "candy",
+    "context": "바삭한 새 사탕을 먹음",
+    "interpretation_ko": "사람들과 어울리는 즐거움과 사랑이 오갈 조짐",
+    "interpretation_en": "social pleasures and much love-making among the young and old",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candy",
+      "original": "To dream of eating crisp, new candy, implies social pleasures and much love-making among the young and old.",
+      "translation_ko": "바삭한 새 사탕을 먹는 꿈은 어울리는 즐거움과 젊은이 늙은이 사이에 오가는 사랑을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사탕",
+    "term_en": "candy",
+    "context": "신 사탕을 봄",
+    "interpretation_ko": "병이 나거나, 너무 오래 감춘 비밀에서 역겨운 성가심이 자랄 조짐",
+    "interpretation_en": "illness, or disgusting annoyances growing out of confidences too long kept",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candy",
+      "original": "Sour candy is a sign of illness or that disgusting annoyances will grow out of confidences too long kept.",
+      "translation_ko": "신 사탕은 병의 조짐이거나, 너무 오래 지킨 비밀에서 역겨운 성가심이 자란다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사탕",
+    "term_en": "candy",
+    "context": "사탕 상자를 받음",
+    "interpretation_ko": "크게 추어올림을 받고 대체로 번영할 조짐",
+    "interpretation_en": "the recipient of much adulation; it generally means prosperity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candy",
+      "original": "To receive a box of bonbons, signifies to a young person that he or she will be the recipient of much adulation.  It generally means prosperity.",
+      "translation_ko": "사탕 상자를 받으면 젊은이에게는 크게 추어올림을 받는다는 뜻이다. 대체로 번영을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사탕",
+    "term_en": "candy",
+    "context": "사탕 상자를 보냄",
+    "interpretation_ko": "무언가를 제안하나 실망을 만날 조짐",
+    "interpretation_en": "you will make a proposition, but will meet with disappointment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Candy",
+      "original": "If you send a box you will make a proposition, but will meet with disappointment.",
+      "translation_ko": "상자를 보내면 무언가를 제안하게 되나 실망을 만난다"
+    }
+  },
+
+  {
+    "term_ko": "차양",
+    "term_en": "canopy",
+    "context": "차양 아래에 있음",
+    "interpretation_ko": "거짓된 벗들이 바르지 못한 방법으로 이익을 얻도록 부추길 조짐",
+    "interpretation_en": "false friends are influencing you to undesirable ways of securing gain",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Canopy",
+      "original": "To dream of a canopy or of being beneath one, denotes that false friends are influencing you to undesirable ways of securing gain.",
+      "translation_ko": "차양을 보거나 그 아래에 있는 꿈은, 거짓된 벗들이 바르지 못한 방법으로 이익을 얻도록 부추긴다는 뜻이다"
+    }
+  },
+
+  {
+    "term_ko": "캡모자",
+    "term_en": "cap",
+    "context": "여성이 캡모자를 봄",
+    "interpretation_ko": "어떤 잔치에 초대받을 조짐",
+    "interpretation_en": "she will be invited to take part in some festivity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cap",
+      "original": "For a woman to dream of seeing a cap, she will be invited to take part in some festivity.",
+      "translation_ko": "여성이 캡모자를 보는 꿈을 꾸면 어떤 잔치에 초대받는다"
+    }
+  },
+  {
+    "term_ko": "캡모자",
+    "term_en": "cap",
+    "context": "연인이 캡모자를 쓰고 있음",
+    "interpretation_ko": "그 앞에서 수줍고 부끄러워할 조짐",
+    "interpretation_en": "she will be bashful and shy in his presence",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cap",
+      "original": "For a girl to dream that she sees her sweetheart with a cap on, denotes that she will be bashful and shy in his presence.",
+      "translation_ko": "처녀가 연인이 캡모자를 쓰고 있는 것을 보는 꿈은, 그 앞에서 수줍고 부끄러워하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "캡모자",
+    "term_en": "cap",
+    "context": "죄수의 모자를 봄",
+    "interpretation_ko": "위험한 때에 용기가 꺾일 조짐",
+    "interpretation_en": "your courage is failing you in time of danger",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cap",
+      "original": "To see a prisoner's cap, denotes that your courage is failing you in time of danger.",
+      "translation_ko": "죄수의 모자를 보면 위험한 때에 용기가 꺾인다"
+    }
+  },
+  {
+    "term_ko": "캡모자",
+    "term_en": "cap",
+    "context": "광부의 모자를 봄",
+    "interpretation_ko": "넉넉한 살림을 물려받을 조짐",
+    "interpretation_en": "you will inherit a substantial competency",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cap",
+      "original": "To see a miner's cap, you will inherit a substantial competency.",
+      "translation_ko": "광부의 모자를 보면 넉넉한 살림을 물려받는다"
+    }
+  }
+]
