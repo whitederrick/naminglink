@@ -4468,5 +4468,72 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "crown": [
     "a crown",
     "crowns"
+  ],
+  "crucifixion": [
+    "the crucifixion",
+    "being crucified"
+  ],
+  "crucifix": [
+    "a crucifix",
+    "crucifixes"
+  ],
+  "cruelty": [
+    "cruel",
+    "cruelly"
+  ],
+  "crust": [
+    "crust of bread",
+    "a crust"
+  ],
+  "crutches": [
+    "on crutches",
+    "a crutch"
+  ],
+  "crystal": [
+    "a crystal",
+    "crystals"
+  ],
+  "cuckoo": [
+    "a cuckoo",
+    "cuckoos"
+  ],
+  "cunning": [
+    "being cunning",
+    "cunning people"
+  ],
+  "cupboard": [
+    "a cupboard",
+    "cupboards"
+  ],
+  "curbstone": [
+    "a curbstone",
+    "a curb"
+  ],
+  "currycomb": [
+    "a currycomb"
+  ],
+  "currying-a-horse": [
+    "currying",
+    "curry a horse"
+  ],
+  "cushion": [
+    "cushions",
+    "a cushion"
+  ],
+  "cuspidor": [
+    "a cuspidor",
+    "spittoon"
+  ],
+  "custard": [
+    "a custard",
+    "custards"
+  ],
+  "custom-house": [
+    "customs house",
+    "custom house"
+  ],
+  "cut": [
+    "a cut",
+    "cuts"
   ]
 };

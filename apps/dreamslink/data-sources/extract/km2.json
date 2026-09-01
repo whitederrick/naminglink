@@ -273,7 +273,11 @@
       "통곡",
       "눈물",
       "흐느",
-      "오열"
+      "오열",
+      "우는 꿈",
+      "울었다",
+      "우는 것",
+      "울고 있"
     ],
     "aliases_en": [
       "crying",
@@ -288,14 +292,18 @@
       "소리를 놓아 크게 욺": "크게 대성 목놓아 엉엉",
       "먼 데서 온 사람이 슬피 욺": "슬피 멀리서 먼데서",
       "침상 위에서 욺": "침상 침대 잠자리",
-      "이를 드러내고 욺": "이를드러 이빨 드러내"
+      "이를 드러내고 욺": "이를드러 이빨 드러내",
+      "우는 꿈을 꿈": "헛된 즐거움 잦아",
+      "남이 우는 것을 봄": "남이 남들 다른 사람이"
     },
     "contexts_en": {
       "남과 함께 소리 내어 욺": "together someone both",
       "소리를 놓아 크게 욺": "loudly aloud wailed bawling",
       "먼 데서 온 사람이 슬피 욺": "sadly sorrowfully stranger far away",
       "침상 위에서 욺": "bed bedside lying",
-      "이를 드러내고 욺": "teeth bared showing"
+      "이를 드러내고 욺": "teeth bared showing",
+      "우는 꿈을 꿈": "forerunner illusory subside",
+      "남이 우는 것을 봄": "others forbodes calls"
     }
   },
   {

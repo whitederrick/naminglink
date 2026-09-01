@@ -1,0 +1,651 @@
+[
+  {
+    "term_ko": "십자가형",
+    "term_en": "crucifixion",
+    "context": "십자가형 꿈을 꿈",
+    "interpretation_ko": "기회가 빠져나가고 바라던 것이 손에서 뜯겨 나가 탄식할 조짐",
+    "interpretation_en": "you will see your opportunities slip away, tearing your hopes from your grasp",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crucifixion",
+      "original": "If you chance to dream of the crucifixion, you will see your opportunities slip away, tearing your hopes from your grasp, and leaving you wailing over the frustration of desires.",
+      "translation_ko": "십자가형 꿈을 꾸면, 기회가 빠져나가고 바라던 것이 손에서 뜯겨 나가 뜻이 꺾인 것을 두고 탄식하게 된다"
+    }
+  },
+
+  {
+    "term_ko": "십자고상",
+    "term_en": "crucifix",
+    "context": "십자고상을 봄",
+    "interpretation_ko": "제게만이 아니라 둘레에도 미칠 괴로움이 다가온다는 경고",
+    "interpretation_en": "a warning of distress approaching, which will involve others beside yourself",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crucifix",
+      "original": "To see a crucifix in a dream, is a warning of distress approaching, which will involve others beside yourself.",
+      "translation_ko": "꿈에 십자고상을 보면, 제게만이 아니라 둘레에도 미칠 괴로움이 다가온다는 경고다"
+    }
+  },
+  {
+    "term_ko": "십자고상",
+    "term_en": "crucifix",
+    "context": "십자고상에 입을 맞춤",
+    "interpretation_ko": "닥친 어려움을 담담히 받아들이게 될 조짐",
+    "interpretation_en": "trouble will be accepted by you with resignation",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crucifix",
+      "original": "To kiss one, foretells that trouble will be accepted by you with resignation.",
+      "translation_ko": "거기에 입을 맞추면, 닥친 어려움을 담담히 받아들이게 된다"
+    }
+  },
+  {
+    "term_ko": "십자고상",
+    "term_en": "crucifix",
+    "context": "젊은 여성이 십자고상을 지님",
+    "interpretation_ko": "몸가짐이 조촐하고 어질어 남의 사랑을 얻고 형편이 나아질 조짐",
+    "interpretation_en": "she will observe modesty and kindness in her deportment, and thus win the love of others and better her fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crucifix",
+      "original": "For a young woman to possess one, foretells she will observe modesty and kindness in her deportment, and thus win the love of others and better her fortune.",
+      "translation_ko": "젊은 여성이 그것을 지니는 꿈은, 몸가짐이 조촐하고 어질어 남의 사랑을 얻고 형편이 나아짐을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "모진 짓",
+    "term_en": "cruelty",
+    "context": "남이 내게 모질게 굶",
+    "interpretation_ko": "어떤 거래에서 어려움과 어그러짐을 겪을 조짐",
+    "interpretation_en": "you will have trouble and disappointment in some dealings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cruelty",
+      "original": "To dream of cruelty being shown you, foretells you will have trouble and disappointment in some dealings.",
+      "translation_ko": "남이 내게 모질게 구는 꿈은, 어떤 거래에서 어려움과 어그러짐을 겪게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "모진 짓",
+    "term_en": "cruelty",
+    "context": "내가 남에게 모질게 굶",
+    "interpretation_ko": "남에게 언짢은 일을 떠맡기게 되고 그것이 제 손해로 돌아올 조짐",
+    "interpretation_en": "there will be a disagreeable task set for others by you, which will contribute to your own loss",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cruelty",
+      "original": "If it is shown to others, there will be a disagreeable task set for others by you, which will contribute to you own loss.",
+      "translation_ko": "남에게 모질게 굴면, 남에게 언짢은 일을 떠맡기게 되고 그것이 제 손해로 돌아온다"
+    }
+  },
+
+  {
+    "term_ko": "빵껍질",
+    "term_en": "crust",
+    "context": "빵껍질을 봄",
+    "interpretation_ko": "일을 감당하지 못하고 맡은 바를 소홀히 해 어려움이 닥칠 조짐",
+    "interpretation_en": "incompetency, and threatened misery through carelessness in appointed duties",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crust",
+      "original": "To dream of a crust of bread, denotes incompetency, and threatened misery through carelessness in appointed duties.",
+      "translation_ko": "빵껍질 꿈은, 일을 감당하지 못함과 맡은 바를 소홀히 해 닥치는 어려움을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "목발",
+    "term_en": "crutches",
+    "context": "목발을 짚고 다님",
+    "interpretation_ko": "살아가는 데도 나아가는 데도 남에게 크게 기대게 될 조짐",
+    "interpretation_en": "you will depend largely on others for your support and advancement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crutches",
+      "original": "To dream that you go on crutches, denotes that you will depend largely on others for your support and advancement.",
+      "translation_ko": "목발을 짚고 다니는 꿈은, 살아가는 데도 나아가는 데도 남에게 크게 기대게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "목발",
+    "term_en": "crutches",
+    "context": "남이 목발을 짚은 것을 봄",
+    "interpretation_ko": "애쓴 만큼 결과가 나오지 않을 조짐",
+    "interpretation_en": "unsatisfactory results from labors",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crutches",
+      "original": "To see others on crutches, denotes unsatisfactory results from labors.",
+      "translation_ko": "남이 목발을 짚은 것을 보면, 애쓴 만큼 결과가 나오지 않는다"
+    }
+  },
+
+  {
+    "term_ko": "울음",
+    "term_en": "weeping",
+    "context": "우는 꿈을 꿈",
+    "interpretation_ko": "헛된 즐거움이 앞서고 뒤에 어둠이 오며, 일과 집안일에 나쁜 기운이 미칠 조짐",
+    "interpretation_en": "a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting business engagements and domestic affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crying",
+      "original": "To dream of crying, is a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting for evil business engagements and domestic affairs.",
+      "translation_ko": "우는 꿈은 헛된 즐거움의 앞잡이이며, 그것이 어둠으로 잦아들고 일과 집안일에 나쁜 기운이 미친다"
+    }
+  },
+  {
+    "term_ko": "울음",
+    "term_en": "weeping",
+    "context": "남이 우는 것을 봄",
+    "interpretation_ko": "뜻밖에 도와 달라는 청을 받을 조짐",
+    "interpretation_en": "unexpected calls for aid from you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crying",
+      "original": "To see others crying, forbodes unexpected calls for aid from you.",
+      "translation_ko": "남이 우는 것을 보면, 뜻밖에 도와 달라는 청을 받는다"
+    }
+  },
+
+  {
+    "term_ko": "수정",
+    "term_en": "crystal",
+    "context": "수정을 봄",
+    "interpretation_ko": "사람 사이나 거래에 가라앉는 때가 올 조짐",
+    "interpretation_en": "a fatal sign of coming depression either in social relations or business transactions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crystal",
+      "original": "To dream of crystal in any form, is a fatal sign of coming depression either in social relations or business transactions.",
+      "translation_ko": "어떤 모습으로든 수정을 보는 꿈은, 사람 사이나 거래에 가라앉는 때가 옴을 알리는 흉한 표다"
+    }
+  },
+  {
+    "term_ko": "수정",
+    "term_en": "crystal",
+    "context": "여성이 수정으로 꾸민 식당을 봄",
+    "interpretation_ko": "높이 여기던 이들이 그럴 만하지 않다는 것을 알게 될 조짐",
+    "interpretation_en": "she will have cause to believe that those whom she holds in high regard no longer deserve this distinction",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crystal",
+      "original": "For a woman to dream of seeing a dining-room furnished in crystal, even to the chairs, she will have cause to believe that those whom she holds in high regard no longer deserve this distinction",
+      "translation_ko": "여성이 의자까지 수정으로 꾸민 식당을 보는 꿈은, 높이 여기던 이들이 그럴 만하지 않다는 것을 알게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "뻐꾸기",
+    "term_en": "cuckoo",
+    "context": "뻐꾸기를 봄",
+    "interpretation_ko": "아끼는 벗이 무너지면서 행복한 삶이 갑자기 끝날 조짐",
+    "interpretation_en": "a sudden ending of a happy life caused by the downfall of a dear friend",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Cuckoo",
+      "original": "To dream of a cuckoo, prognosticates a sudden ending of a happy life caused by the downfall of a dear friend.",
+      "translation_ko": "뻐꾸기 꿈은, 아끼는 벗이 무너지면서 행복한 삶이 갑자기 끝남을 알린다"
+    }
+  },
+  {
+    "term_ko": "뻐꾸기",
+    "term_en": "cuckoo",
+    "context": "뻐꾸기 소리를 들음",
+    "interpretation_ko": "멀리 있는 그리운 이가 앓거나 세상을 뜨고, 집안 누군가가 다칠 조짐",
+    "interpretation_en": "the painful illness or the death of some absent loved one, or accident to some one in your family",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Cuckoo",
+      "original": "To dream that you hear a cuckoo, denotes the painful illness of the death of some absent loved one, or accident to some one in your family.",
+      "translation_ko": "뻐꾸기 소리를 듣는 꿈은, 멀리 있는 그리운 이의 아픈 병이나 죽음, 또는 집안 누군가의 사고를 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "오이",
+    "term_en": "melon",
+    "context": "오이 꿈을 꿈",
+    "interpretation_ko": "넉넉함을 뜻하며 몸이 건강하고 살림이 일어날 조짐",
+    "interpretation_en": "a dream of plenty, denoting health and prosperity",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Cucumber",
+      "original": "This is a dream of plenty, denoting health and prosperity.",
+      "translation_ko": "이는 넉넉함의 꿈이며 건강과 일어나는 살림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "오이",
+    "term_en": "melon",
+    "context": "앓는 이가 오이를 상에 냄",
+    "interpretation_ko": "빠르게 나을 조짐",
+    "interpretation_en": "their speedy recovery",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Cucumber",
+      "original": "For the sick to dream of serving cucumbers, denotes their speedy recovery.",
+      "translation_ko": "앓는 이가 오이를 상에 내는 꿈은 빠른 회복을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "오이",
+    "term_en": "melon",
+    "context": "혼인한 이에게 오이 꿈이 나타남",
+    "interpretation_ko": "반가운 변화가 올 조짐",
+    "interpretation_en": "a pleasant change",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Cucumber",
+      "original": "For the married, a pleasant change.",
+      "translation_ko": "혼인한 이에게는 반가운 변화를 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "꾀",
+    "term_en": "cunning",
+    "context": "제가 꾀를 부림",
+    "interpretation_ko": "잘사는 이들과의 사귐을 지키려 짐짓 밝은 낯을 지을 조짐",
+    "interpretation_en": "you will assume happy cheerfulness to retain the friendship of prosperous and gay people",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cunning",
+      "original": "To dream of being cunning, denotes you will assume happy cheerfulness to retain the friendship of prosperous and gay people.",
+      "translation_ko": "제가 꾀를 부리는 꿈은, 잘사는 이들과의 사귐을 지키려 짐짓 밝은 낯을 짓게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "꾀",
+    "term_en": "cunning",
+    "context": "꾀 많은 이들과 어울림",
+    "interpretation_ko": "제 밑천을 저들 잇속에 쓰려고 속임수가 놓이고 있다는 경고",
+    "interpretation_en": "deceit is being practised upon you in order to use your means for their own advancement",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cunning",
+      "original": "If you are associating with cunning people, it warns you that deceit is being practised upon you in order to use your means for their own advancement.",
+      "translation_ko": "꾀 많은 이들과 어울리는 꿈은, 제 밑천을 저들 잇속에 쓰려고 속임수가 놓이고 있다는 경고다"
+    }
+  },
+
+  {
+    "term_ko": "찬장",
+    "term_en": "cupboard",
+    "context": "깨끗하고 그릇이 그득한 찬장을 봄",
+    "interpretation_ko": "즐거움과 편안함이 있을 조짐",
+    "interpretation_en": "pleasure and comfort, as the cupboard is clean and full of shining ware",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cupboard",
+      "original": "To see a cupboard in your dream, is significant of pleasure and comfort, or penury and distress, according as the cupboard is clean and full of shining ware, or empty and dirty.",
+      "translation_ko": "꿈에 찬장을 보면, 그것이 깨끗하고 그릇이 그득한지 비고 더러운지에 따라 즐거움과 편안함이거나 가난과 괴로움이다"
+    }
+  },
+  {
+    "term_ko": "찬장",
+    "term_en": "cupboard",
+    "context": "비고 더러운 찬장을 봄",
+    "interpretation_ko": "가난과 괴로움이 있을 조짐",
+    "interpretation_en": "penury and distress, as the cupboard is empty and dirty",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cupboard",
+      "original": "To see a cupboard in your dream, is significant of pleasure and comfort, or penury and distress, according as the cupboard is clean and full of shining ware, or empty and dirty.",
+      "translation_ko": "꿈에 찬장을 보면, 그것이 깨끗하고 그릇이 그득한지 비고 더러운지에 따라 즐거움과 편안함이거나 가난과 괴로움이다"
+    }
+  },
+
+  {
+    "term_ko": "길턱",
+    "term_en": "curbstone",
+    "context": "길턱을 밟고 올라섬",
+    "interpretation_ko": "하는 일에서 빠르게 올라서고 둘레의 높은 평을 받을 조짐",
+    "interpretation_en": "your rapid rise in business circles, and that you will be held in high esteem by your friends and the public",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Curbstone",
+      "original": "To dream of stepping on a curbstone, denotes your rapid rise in business circles, and that you will be held in high esteem by your friends and the public.",
+      "translation_ko": "길턱을 밟고 올라서는 꿈은, 하는 일에서 빠르게 올라서고 둘레의 높은 평을 받게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "길턱",
+    "term_en": "curbstone",
+    "context": "연인이 함께 길턱을 밟음",
+    "interpretation_ko": "이른 혼인과 한결같은 마음이 따를 조짐",
+    "interpretation_en": "an early marriage and consequent fidelity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Curbstone",
+      "original": "For lovers to dream of stepping together on a curb, denotes an early marriage and consequent fidelity;",
+      "translation_ko": "연인이 함께 길턱을 밟는 꿈은, 이른 혼인과 뒤따르는 한결같은 마음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "길턱",
+    "term_en": "curbstone",
+    "context": "길턱에서 헛디디거나 떨어짐",
+    "interpretation_ko": "형편이 거꾸로 뒤집힐 조짐",
+    "interpretation_en": "your fortunes will be reversed",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Curbstone",
+      "original": "but if in your dream you step or fall from a curbstone your fortunes will be reversed.",
+      "translation_ko": "길턱에서 헛디디거나 떨어지면 형편이 거꾸로 뒤집힌다"
+    }
+  },
+
+  {
+    "term_ko": "말빗",
+    "term_en": "currycomb",
+    "context": "말빗을 봄",
+    "interpretation_ko": "재물과 편안함을 얻으려면 큰 수고를 견뎌야 할 조짐",
+    "interpretation_en": "great labors must be endured in order to obtain wealth and comfort",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Currycomb",
+      "original": "To dream of a currycomb foretells that great labors must be endured in order to obtain wealth and comfort.",
+      "translation_ko": "말빗 꿈은, 재물과 편안함을 얻으려면 큰 수고를 견뎌야 함을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "말빗질",
+    "term_en": "currying a horse",
+    "context": "말빗질을 함",
+    "interpretation_ko": "뜻한 자리에 오르기까지 머리로도 손으로도 모진 품을 들여야 할 조짐",
+    "interpretation_en": "you will have a great many hard licks to make both with brain and hand before you attain to the heights of your ambition",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Currying a Horse",
+      "original": "To dream of currying a horse, signifies that you will have a great many hard licks to make both with brain and hand before you attain to the heights of your ambition;",
+      "translation_ko": "말빗질을 하는 꿈은, 뜻한 자리에 오르기까지 머리로도 손으로도 모진 품을 들여야 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말빗질",
+    "term_en": "currying a horse",
+    "context": "말빗질을 잘 끝냄",
+    "interpretation_ko": "그 자리가 어디든 뜻한 데까지 오를 조짐",
+    "interpretation_en": "you will attain that height, whatever it may be",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Currying a Horse",
+      "original": "but if you successfully curry him you will attain that height, whatever it may be.",
+      "translation_ko": "말빗질을 잘 끝내면, 그 자리가 어디든 뜻한 데까지 오른다"
+    }
+  },
+
+  {
+    "term_ko": "장막",
+    "term_en": "curtain",
+    "context": "커튼을 봄",
+    "interpretation_ko": "반갑지 않은 손님이 찾아와 근심과 언짢음을 남길 조짐",
+    "interpretation_en": "unwelcome visitors will cause you worry and unhappiness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Curtains",
+      "original": "To dream of curtains, foretells that unwelcome visitors will cause you worry and unhappiness.",
+      "translation_ko": "커튼 꿈은, 반갑지 않은 손님이 찾아와 근심과 언짢음을 남김을 알린다"
+    }
+  },
+  {
+    "term_ko": "장막",
+    "term_en": "curtain",
+    "context": "더럽거나 찢어진 커튼을 봄",
+    "interpretation_ko": "낯 깎이는 다툼과 나무람이 있을 조짐",
+    "interpretation_en": "disgraceful quarrels and reproaches",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Curtains",
+      "original": "Soiled or torn curtains seen in a dream means disgraceful quarrels and reproaches.",
+      "translation_ko": "더럽거나 찢어진 커튼을 꿈에서 보면, 낯 깎이는 다툼과 나무람이 있다"
+    }
+  },
+
+  {
+    "term_ko": "방석",
+    "term_en": "cushion",
+    "context": "비단 방석에 기대어 누움",
+    "interpretation_ko": "제 편안함이 남의 몫을 축내어 얻어질 조짐",
+    "interpretation_en": "your ease will be procured at the expense of others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cushion",
+      "original": "To dream of reclining on silken cushions, foretells that your ease will be procured at the expense of others;",
+      "translation_ko": "비단 방석에 기대어 눕는 꿈은, 제 편안함이 남의 몫을 축내어 얻어짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "방석",
+    "term_en": "cushion",
+    "context": "방석을 봄",
+    "interpretation_ko": "일과 사랑이 함께 잘 풀릴 조짐",
+    "interpretation_en": "you will prosper in business and love-making",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cushion",
+      "original": "but to see the cushions, denotes that you will prosper in business and love-making.",
+      "translation_ko": "방석을 보기만 하면, 일과 사랑이 함께 잘 풀린다"
+    }
+  },
+  {
+    "term_ko": "방석",
+    "term_en": "cushion",
+    "context": "젊은 여성이 비단 방석을 만듦",
+    "interpretation_ko": "몇 달 안에 신부가 될 조짐",
+    "interpretation_en": "she will be a bride before many months",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cushion",
+      "original": "For a young woman to dream of making silken cushions, implies that she will be a bride before many months.",
+      "translation_ko": "젊은 여성이 비단 방석을 만드는 꿈은, 몇 달 안에 신부가 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "타구",
+    "term_en": "cuspidor",
+    "context": "타구를 봄",
+    "interpretation_ko": "값어치 없는 정에 매이고 제 일을 소홀히 할 조짐",
+    "interpretation_en": "an unworthy attachment will be formed by you, and that your work will be neglected",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cuspidor",
+      "original": "To see a cuspidor in a dream, signifies that an unworthy attachment will be formed by you, and that your work will be neglected.",
+      "translation_ko": "꿈에 타구를 보면, 값어치 없는 정에 매이고 제 일을 소홀히 하게 된다"
+    }
+  },
+  {
+    "term_ko": "타구",
+    "term_en": "cuspidor",
+    "context": "타구에 침을 뱉음",
+    "interpretation_ko": "제 몸가짐을 두고 뒷말이 돌 조짐",
+    "interpretation_en": "reflections will be cast upon your conduct",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cuspidor",
+      "original": "To spit in one, foretells that reflections wil{sic} be cast upon your conduct.",
+      "translation_ko": "거기에 침을 뱉으면, 제 몸가짐을 두고 뒷말이 돈다"
+    }
+  },
+
+  {
+    "term_ko": "커스터드",
+    "term_en": "custard",
+    "context": "혼인한 여성이 커스터드를 만들거나 먹음",
+    "interpretation_ko": "뜻밖의 손님을 맞게 될 조짐",
+    "interpretation_en": "she will be called upon to entertain an unexpected guest",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Custard",
+      "original": "For a married woman to dream of making or eating custard, indicates she will be called upon to entertain an unexpected guest.",
+      "translation_ko": "혼인한 여성이 커스터드를 만들거나 먹는 꿈은, 뜻밖의 손님을 맞게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "커스터드",
+    "term_en": "custard",
+    "context": "젊은 여성에게 커스터드 꿈이 나타남",
+    "interpretation_ko": "낯선 이를 만나 머지않아 가까운 벗이 될 조짐",
+    "interpretation_en": "she will meet a stranger who will in time become a warm friend",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Custard",
+      "original": "A young woman will meet a stranger who will in time become a warm friend.",
+      "translation_ko": "젊은 여성은 낯선 이를 만나 머지않아 가까운 벗이 된다"
+    }
+  },
+  {
+    "term_ko": "커스터드",
+    "term_en": "custard",
+    "context": "커스터드가 느끼하거나 밍밍함",
+    "interpretation_ko": "즐거우리라 여긴 자리에 슬픔만 끼어들 조짐",
+    "interpretation_en": "nothing but sorrow will intervene where you had expected a pleasant experience",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Custard",
+      "original": "If the custard has a sickening sweet taste, or is insipid, nothing but sorrow will intervene where you had expected a pleasant experience.",
+      "translation_ko": "커스터드가 느끼하게 달거나 밍밍하면, 즐거우리라 여긴 자리에 슬픔만 끼어든다"
+    }
+  },
+
+  {
+    "term_ko": "세관",
+    "term_en": "custom-house",
+    "context": "세관을 봄",
+    "interpretation_ko": "하는 일에 겨룸과 다툼이 있을 조짐",
+    "interpretation_en": "you will have rivalries and competition in your labors",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Custom-house",
+      "original": "To dream of a custom-house, denotes you will have rivalries and competition in your labors.",
+      "translation_ko": "세관 꿈은, 하는 일에 겨룸과 다툼이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "세관",
+    "term_en": "custom-house",
+    "context": "세관에 들어감",
+    "interpretation_ko": "오래 바라던 자리를 얻으려 애쓰거나 그 자리를 제안받을 조짐",
+    "interpretation_en": "you will strive for, or have offered you, a position which you have long desired",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Custom-house",
+      "original": "To enter a custom-house, foretells that you will strive for, or have offered you, a position which you have long desired.",
+      "translation_ko": "세관에 들어가는 꿈은, 오래 바라던 자리를 얻으려 애쓰거나 그 자리를 제안받게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "세관",
+    "term_en": "custom-house",
+    "context": "세관에서 나옴",
+    "interpretation_ko": "자리나 장사를 잃거나 바라던 것을 놓칠 조짐",
+    "interpretation_en": "loss of position, trade or failure of securing some desired object",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Custom-house",
+      "original": "To leave one, signifies loss of position, trade or failure of securing some desired object.",
+      "translation_ko": "세관에서 나오는 꿈은, 자리나 장사를 잃거나 바라던 것을 놓침을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "베인 상처",
+    "term_en": "cut",
+    "context": "베인 상처를 봄",
+    "interpretation_ko": "병이 들거나 벗의 배신이 즐거움을 꺾을 조짐",
+    "interpretation_en": "sickness or the treachery of a friend will frustrate your cheerfulness",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Cut",
+      "original": "To dream of a cut, denotes sickness or the treachery of a friend will frustrate your cheerfulness.",
+      "translation_ko": "베인 상처 꿈은, 병이 들거나 벗의 배신이 즐거움을 꺾음을 뜻한다"
+    }
+  }
+]

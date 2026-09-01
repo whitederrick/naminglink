@@ -1,0 +1,316 @@
+[
+  {
+    "id": "crucifixion",
+    "aliases": [
+      "십자가에 못 박",
+      "책형"
+    ],
+    "aliases_en": [
+      "the crucifixion",
+      "being crucified"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crucifix",
+    "aliases": [
+      "예수상",
+      "십자고상을 보았다"
+    ],
+    "aliases_en": [
+      "a crucifix",
+      "crucifixes"
+    ],
+    "contexts": {
+      "십자고상을 봄": "놓인 걸린 세워",
+      "십자고상에 입을 맞춤": "입을 맞췄 입맞",
+      "젊은 여성이 십자고상을 지님": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "십자고상을 봄": "warning approaching involve",
+      "십자고상에 입을 맞춤": "kiss accepted resignation",
+      "젊은 여성이 십자고상을 지님": "possess modesty deportment"
+    }
+  },
+  {
+    "id": "cruelty",
+    "aliases": [
+      "모질게 굴었다",
+      "모질게 대했다",
+      "모질게"
+    ],
+    "aliases_en": [
+      "cruel",
+      "cruelly"
+    ],
+    "contexts": {
+      "남이 내게 모질게 굶": "나에게 내게 당했",
+      "내가 남에게 모질게 굶": "남에게 남을 다른 사람에게"
+    },
+    "contexts_en": {
+      "남이 내게 모질게 굶": "shown trouble dealings",
+      "내가 남에게 모질게 굶": "others disagreeable task"
+    }
+  },
+  {
+    "id": "crust",
+    "aliases": [
+      "빵 부스러기",
+      "딱딱한 빵조각"
+    ],
+    "aliases_en": [
+      "crust of bread",
+      "a crust"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crutches",
+    "aliases": [
+      "목발을 짚",
+      "지팡이를 짚고 절뚝"
+    ],
+    "aliases_en": [
+      "on crutches",
+      "a crutch"
+    ],
+    "contexts": {
+      "목발을 짚고 다님": "내가 짚고 다녔",
+      "남이 목발을 짚은 것을 봄": "남이 남들 다른 사람이"
+    },
+    "contexts_en": {
+      "목발을 짚고 다님": "depend support advancement",
+      "남이 목발을 짚은 것을 봄": "others unsatisfactory labors"
+    }
+  },
+  {
+    "id": "crystal",
+    "aliases": [
+      "수정 구슬",
+      "크리스털"
+    ],
+    "aliases_en": [
+      "a crystal",
+      "crystals"
+    ],
+    "contexts": {
+      "수정을 봄": "놓인 반짝 투명",
+      "여성이 수정으로 꾸민 식당을 봄": "식당 꾸민 의자까지"
+    },
+    "contexts_en": {
+      "수정을 봄": "fatal coming depression",
+      "여성이 수정으로 꾸민 식당을 봄": "dining-room furnished regard"
+    }
+  },
+  {
+    "id": "cuckoo",
+    "aliases": [
+      "뻐꾸기 소리",
+      "뻐꾹"
+    ],
+    "aliases_en": [
+      "a cuckoo",
+      "cuckoos"
+    ],
+    "contexts": {
+      "뻐꾸기를 봄": "보았 앉아 날아",
+      "뻐꾸기 소리를 들음": "들었 들려 울음"
+    },
+    "contexts_en": {
+      "뻐꾸기를 봄": "sudden ending downfall",
+      "뻐꾸기 소리를 들음": "hear painful absent"
+    }
+  },
+  {
+    "id": "cunning",
+    "aliases": [
+      "꾀를 부렸다",
+      "꾀바른",
+      "약삭빠른"
+    ],
+    "aliases_en": [
+      "being cunning",
+      "cunning people"
+    ],
+    "contexts": {
+      "제가 꾀를 부림": "내가 스스로 부렸",
+      "꾀 많은 이들과 어울림": "어울 함께 무리와"
+    },
+    "contexts_en": {
+      "제가 꾀를 부림": "assume cheerfulness retain",
+      "꾀 많은 이들과 어울림": "associating deceit practised"
+    }
+  },
+  {
+    "id": "cupboard",
+    "aliases": [
+      "찬장 문",
+      "그릇장"
+    ],
+    "aliases_en": [
+      "a cupboard",
+      "cupboards"
+    ],
+    "contexts": {
+      "깨끗하고 그릇이 그득한 찬장을 봄": "깨끗 그득 가득",
+      "비고 더러운 찬장을 봄": "비어 더러 텅빈"
+    },
+    "contexts_en": {
+      "깨끗하고 그릇이 그득한 찬장을 봄": "clean shining ware",
+      "비고 더러운 찬장을 봄": "empty dirty penury"
+    }
+  },
+  {
+    "id": "curbstone",
+    "aliases": [
+      "연석",
+      "인도 턱",
+      "길턱을 밟"
+    ],
+    "aliases_en": [
+      "a curbstone",
+      "a curb"
+    ],
+    "contexts": {
+      "길턱을 밟고 올라섬": "올라섰 올라서 딛고",
+      "연인이 함께 길턱을 밟음": "연인 애인 함께",
+      "길턱에서 헛디디거나 떨어짐": "헛디디 떨어졌 미끄러"
+    },
+    "contexts_en": {
+      "길턱을 밟고 올라섬": "stepping rapid esteem",
+      "연인이 함께 길턱을 밟음": "lovers together marriage",
+      "길턱에서 헛디디거나 떨어짐": "fall reversed fortunes"
+    }
+  },
+  {
+    "id": "currycomb",
+    "aliases": [
+      "말솔",
+      "말빗을 보았다"
+    ],
+    "aliases_en": [
+      "a currycomb"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "currying-a-horse",
+    "aliases": [
+      "말빗질을 했다",
+      "말을 빗겼다",
+      "말을 손질"
+    ],
+    "aliases_en": [
+      "currying",
+      "curry a horse"
+    ],
+    "contexts": {
+      "말빗질을 함": "하는 하고 애쓰",
+      "말빗질을 잘 끝냄": "끝냈 마쳤 해냈"
+    },
+    "contexts_en": {
+      "말빗질을 함": "hard licks ambition",
+      "말빗질을 잘 끝냄": "successfully attain height"
+    }
+  },
+  {
+    "id": "cushion",
+    "aliases": [
+      "비단 방석",
+      "쿠션",
+      "방석에 기대"
+    ],
+    "aliases_en": [
+      "cushions",
+      "a cushion"
+    ],
+    "contexts": {
+      "비단 방석에 기대어 누움": "기대어 누웠 기대었",
+      "방석을 봄": "놓인 깔린 보기만",
+      "젊은 여성이 비단 방석을 만듦": "만들 지었 바느질"
+    },
+    "contexts_en": {
+      "비단 방석에 기대어 누움": "reclining ease expense",
+      "방석을 봄": "prosper business courtship",
+      "젊은 여성이 비단 방석을 만듦": "making bride months"
+    }
+  },
+  {
+    "id": "cuspidor",
+    "aliases": [
+      "침 뱉는 통",
+      "가래통"
+    ],
+    "aliases_en": [
+      "a cuspidor",
+      "spittoon"
+    ],
+    "contexts": {
+      "타구를 봄": "놓인 보았 있었",
+      "타구에 침을 뱉음": "뱉었 뱉는 침을"
+    },
+    "contexts_en": {
+      "타구를 봄": "unworthy attachment neglected",
+      "타구에 침을 뱉음": "spit reflections conduct"
+    }
+  },
+  {
+    "id": "custard",
+    "aliases": [
+      "커스터드 크림",
+      "달걀찜 과자"
+    ],
+    "aliases_en": [
+      "a custard",
+      "custards"
+    ],
+    "contexts": {
+      "혼인한 여성이 커스터드를 만들거나 먹음": "혼인 결혼한 부인",
+      "젊은 여성에게 커스터드 꿈이 나타남": "여자 여성 처녀",
+      "커스터드가 느끼하거나 밍밍함": "느끼 밍밍 물렁"
+    },
+    "contexts_en": {
+      "혼인한 여성이 커스터드를 만들거나 먹음": "married entertain guest",
+      "젊은 여성에게 커스터드 꿈이 나타남": "stranger warm friend",
+      "커스터드가 느끼하거나 밍밍함": "sickening insipid sorrow"
+    }
+  },
+  {
+    "id": "custom-house",
+    "aliases": [
+      "세관에 들어",
+      "관세청"
+    ],
+    "aliases_en": [
+      "customs house",
+      "custom house"
+    ],
+    "contexts": {
+      "세관을 봄": "보았 앞에서 건물",
+      "세관에 들어감": "들어갔 들어서 안으로",
+      "세관에서 나옴": "나왔 나오 떠났"
+    },
+    "contexts_en": {
+      "세관을 봄": "rivalries competition labors",
+      "세관에 들어감": "enter strive position",
+      "세관에서 나옴": "leave loss securing"
+    }
+  },
+  {
+    "id": "cut",
+    "aliases": [
+      "베였다",
+      "칼에 베",
+      "베인 자리"
+    ],
+    "aliases_en": [
+      "a cut",
+      "cuts"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -364,7 +364,8 @@
     "aliases": [
       "휘장",
       "천막",
-      "커튼"
+      "커튼",
+      "커튼을 쳤다"
     ],
     "aliases_en": [
       "curtains",
@@ -375,12 +376,16 @@
     "contexts": {
       "장막을 열어젖힘": "열어젖 걷어 젖히 걷었",
       "장막이 무너지고 헐어짐": "무너 헐어 낡아 주저앉",
-      "장막을 훼손함": "훼손 찢어 찢었 망가"
+      "장막을 훼손함": "훼손 찢어 찢었 망가",
+      "커튼을 봄": "반갑지 손님 찾아",
+      "더럽거나 찢어진 커튼을 봄": "더럽 얼룩 해진"
     },
     "contexts_en": {
       "장막을 열어젖힘": "opened drew lifted pulled",
       "장막이 무너지고 헐어짐": "collapsed crumbled worn sagging",
-      "장막을 훼손함": "damaged tore ripped destroyed"
+      "장막을 훼손함": "damaged tore ripped destroyed",
+      "커튼을 봄": "unwelcome visitors worry",
+      "더럽거나 찢어진 커튼을 봄": "soiled torn disgraceful"
     }
   },
   {

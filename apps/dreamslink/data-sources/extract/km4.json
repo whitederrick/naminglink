@@ -493,7 +493,8 @@
     "id": "melon",
     "aliases": [
       "참외",
-      "물외"
+      "물외",
+      "오이를 먹었다"
     ],
     "aliases_en": [
       "cucumber",
@@ -502,11 +503,17 @@
     ],
     "contexts": {
       "문드러진 오이를 먹음": "문드러 썩은 상한 물러진 곰팡",
-      "오이씨를 먹음": "씨를 씨앗 종자"
+      "오이씨를 먹음": "씨를 씨앗 종자",
+      "오이 꿈을 꿈": "넉넉 풍성 건강",
+      "앓는 이가 오이를 상에 냄": "앓는 병든 차려",
+      "혼인한 이에게 오이 꿈이 나타남": "혼인 결혼한 부부"
     },
     "contexts_en": {
       "문드러진 오이를 먹음": "rotten spoiled mushy decayed",
-      "오이씨를 먹음": "seed seeds pips"
+      "오이씨를 먹음": "seed seeds pips",
+      "오이 꿈을 꿈": "plenty health prosperity",
+      "앓는 이가 오이를 상에 냄": "sick serving recovery",
+      "혼인한 이에게 오이 꿈이 나타남": "married pleasant change"
     }
   },
   {
