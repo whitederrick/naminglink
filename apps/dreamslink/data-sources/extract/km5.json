@@ -466,7 +466,8 @@
     "id": "deer",
     "aliases": [
       "노루",
-      "꽃사슴"
+      "꽃사슴",
+      "사슴 사냥"
     ],
     "aliases_en": [
       "stag",
@@ -476,11 +477,17 @@
     ],
     "contexts": {
       "사슴이 집 안에 있음": "집에 마당 방에 들어와",
-      "사슴을 잡음": "잡았 사냥 포획 붙잡"
+      "사슴을 잡음": "잡았 사냥 포획 붙잡",
+      "사슴 꿈을 꿈": "맑고 깊은 사귐",
+      "사슴을 죽임": "죽였 죽이 쏘았",
+      "사슴 사냥을 함": "농부 장사 몰이"
     },
     "contexts_en": {
       "사슴이 집 안에 있음": "house home inside room",
-      "사슴을 잡음": "caught hunted captured hunting"
+      "사슴을 잡음": "caught hunted captured hunting",
+      "사슴 꿈을 꿈": "favorable pure friendships",
+      "사슴을 죽임": "kill hounded enemies",
+      "사슴 사냥을 함": "farmers business pursuits"
     }
   },
   {

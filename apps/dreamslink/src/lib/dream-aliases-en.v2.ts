@@ -4602,5 +4602,80 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "daybreak": [
     "day break",
     "dawn"
+  ],
+  "debt": [
+    "in debt",
+    "debts"
+  ],
+  "december": [
+    "in december"
+  ],
+  "decorate": [
+    "decorating",
+    "decorated"
+  ],
+  "deck": [
+    "the deck",
+    "on deck"
+  ],
+  "deed": [
+    "a deed",
+    "deeds"
+  ],
+  "delay": [
+    "delayed",
+    "a delay"
+  ],
+  "delight": [
+    "delighted",
+    "delight"
+  ],
+  "demand": [
+    "a demand",
+    "demanded"
+  ],
+  "dentist": [
+    "a dentist",
+    "dentists"
+  ],
+  "derrick": [
+    "derricks",
+    "a derrick"
+  ],
+  "desert": [
+    "a desert",
+    "deserts"
+  ],
+  "desk": [
+    "a desk",
+    "desks"
+  ],
+  "despair": [
+    "in despair",
+    "despairing"
+  ],
+  "detective": [
+    "a detective",
+    "detectives"
+  ],
+  "devotion": [
+    "devout",
+    "devotion"
+  ],
+  "devil": [
+    "the devil",
+    "devils"
+  ],
+  "dew": [
+    "the dew",
+    "dewdrops"
+  ],
+  "diadem": [
+    "a diadem",
+    "diadems"
+  ],
+  "diamonds": [
+    "a diamond",
+    "diamond ring"
   ]
 };
