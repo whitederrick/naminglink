@@ -106,6 +106,10 @@ const SYNONYMS = new Map([
   // 수도원 — 밀러에 `Abbey`와 `Cloister`가 따로 있는데 한국어로는 같은 것이다
   // (회랑은 수도원의 한 부분이지 다른 건물이 아니다). 2026-09-01 배치 16.
   ["cloister", "abbey"],
+
+  // 부뚜막 — 밀러 `Cooking Stove`와 주공해몽 竈는 한국어로 같은 것이다(밥 짓는 화덕).
+  // 2026-09-01 배치 19.
+  ["cooking stove", "kitchen stove"],
 ]);
 
 /**

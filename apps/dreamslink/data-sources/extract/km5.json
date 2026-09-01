@@ -895,9 +895,7 @@
     "id": "prisoner",
     "aliases": [
       "수감자",
-      "죄수",
-      "범인",
-      "포로"
+      "범인"
     ],
     "aliases_en": [
       "prisoners",

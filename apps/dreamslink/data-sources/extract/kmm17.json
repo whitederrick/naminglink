@@ -1,0 +1,277 @@
+[
+  {
+    "id": "confectionary",
+    "aliases": [
+      "과자 가게",
+      "제과"
+    ],
+    "aliases_en": [
+      "confectionery",
+      "sweets"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "confetti",
+    "aliases": [
+      "색종이",
+      "종이 꽃가루"
+    ],
+    "aliases_en": [
+      "confettis"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "conjurer",
+    "aliases": [
+      "마술사",
+      "요술사"
+    ],
+    "aliases_en": [
+      "a conjuror",
+      "conjurors",
+      "magician"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "conjuring",
+    "aliases": [
+      "최면",
+      "최면에 걸렸다"
+    ],
+    "aliases_en": [
+      "hypnotic",
+      "hypnotized"
+    ],
+    "contexts": {
+      "최면에 걸려 남의 힘 아래 있음": "걸려 남의 아래에",
+      "남을 최면에 걸어 둠": "남을 상대를 걸어",
+      "젊은 여성이 이상한 힘에 눌림": "여자 여성 이상한",
+      "최면술과 요술 공연을 봄": "공연 무대에서 손재주"
+    },
+    "contexts_en": {
+      "최면에 걸려 남의 힘 아래 있음": "state enthrall disastrous",
+      "남을 최면에 걸어 둠": "hold spell governing",
+      "젊은 여성이 이상한 힘에 눌림": "strange influences beware",
+      "최면술과 요술 공연을 봄": "performances perplexities domestic"
+    }
+  },
+  {
+    "id": "conflagration",
+    "aliases": [
+      "대화재",
+      "큰 화재"
+    ],
+    "aliases_en": [
+      "a conflagration"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "conspiracy",
+    "aliases": [
+      "모의",
+      "꾸며진 일"
+    ],
+    "aliases_en": [
+      "a conspiracy",
+      "plot"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "conscience",
+    "aliases": [
+      "양심의 가책"
+    ],
+    "aliases_en": [
+      "a conscience"
+    ],
+    "contexts": {
+      "양심이 나를 나무람": "나무라 가책 찔렸",
+      "양심이 편안함": "편안 떳떳 거리낌"
+    },
+    "contexts_en": {
+      "양심이 나를 나무람": "censures deceiving tempted",
+      "양심이 편안함": "quiet repute high"
+    }
+  },
+  {
+    "id": "consumption",
+    "aliases": [
+      "결핵",
+      "노채"
+    ],
+    "aliases_en": [
+      "tuberculosis"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "contempt",
+    "aliases": [
+      "업신여김",
+      "깔봄"
+    ],
+    "aliases_en": [
+      "contempt of court",
+      "held in contempt"
+    ],
+    "contexts": {
+      "법정 모독을 저지름": "법정 재판 법원",
+      "남에게 멸시받음": "받았 당했 남에게",
+      "멸시받을 만함": "마땅 그럴만 당연"
+    },
+    "contexts_en": {
+      "법정 모독을 저지름": "indiscretion committed social",
+      "남에게 멸시받음": "others regard prosperous",
+      "멸시받을 만함": "deserved exile circles"
+    }
+  },
+  {
+    "id": "convent",
+    "aliases": [
+      "수녀들의 집",
+      "수도 여성의 집"
+    ],
+    "aliases_en": [
+      "a convent",
+      "convents",
+      "nunnery"
+    ],
+    "contexts": {
+      "수녀원에 몸을 의탁함": "의탁 피신 몸을",
+      "수녀원에서 신부를 만남": "신부 사제 만났",
+      "젊은 여성이 수녀원을 봄": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "수녀원에 몸을 의탁함": "refuge seeking free",
+      "수녀원에서 신부를 만남": "priest encounter vain",
+      "젊은 여성이 수녀원을 봄": "girl questioned honesty"
+    }
+  },
+  {
+    "id": "convict",
+    "aliases": [
+      "죄수복",
+      "복역수"
+    ],
+    "aliases_en": [
+      "convicts",
+      "a convict"
+    ],
+    "contexts": {
+      "죄수들을 봄": "보았 여럿 무리",
+      "내가 죄수가 됨": "내가 나는 되었",
+      "연인이 죄수복을 입은 것을 봄": "연인 애인 입은"
+    },
+    "contexts_en": {
+      "죄수들을 봄": "seeing disasters sad",
+      "내가 죄수가 됨": "worry affair mistakes",
+      "연인이 죄수복을 입은 것을 봄": "lover garb character"
+    }
+  },
+  {
+    "id": "convention",
+    "aliases": [
+      "대회",
+      "총회"
+    ],
+    "aliases_en": [
+      "a convention",
+      "conventions"
+    ],
+    "contexts": {
+      "집회를 봄": "열린 모인 사람들이",
+      "어수선한 집회를 봄": "어수선 시끄러 언짢"
+    },
+    "contexts_en": {
+      "집회를 봄": "unusual activity engagement",
+      "어수선한 집회를 봄": "inharmonious displeasing disappointment"
+    }
+  },
+  {
+    "id": "cooking",
+    "aliases": [
+      "밥을 지었다",
+      "음식을 만들었다"
+    ],
+    "aliases_en": [
+      "cooked",
+      "cookery"
+    ],
+    "contexts": {
+      "밥을 지음": "밥을 지었 차렸",
+      "요리 자리가 어수선함": "어수선 다투 흥이"
+    },
+    "contexts_en": {
+      "밥을 지음": "meal pleasant duty",
+      "요리 자리가 어수선함": "discord cheerfulness harassing"
+    }
+  },
+  {
+    "id": "cooling-board",
+    "aliases": [
+      "염습판",
+      "주검 널"
+    ],
+    "aliases_en": [
+      "a cooling board"
+    ],
+    "contexts": {
+      "시신 받침대를 봄": "보았 놓인 곁에",
+      "산 사람이 받침대에서 일어남": "살아있 일어났 멀쩡",
+      "죽은 형제가 받침대에서 일어남": "형제 오래전 죽은"
+    },
+    "contexts_en": {
+      "시신 받침대를 봄": "sickness quarrels lover",
+      "산 사람이 받침대에서 일어남": "living rising indirectly",
+      "죽은 형제가 받침대에서 일어남": "brother complications averted"
+    }
+  },
+  {
+    "id": "copperas",
+    "aliases": [
+      "황산철",
+      "녹반 가루"
+    ],
+    "aliases_en": [
+      "a copperas"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "copper-plate",
+    "aliases": [
+      "구리판",
+      "동판화"
+    ],
+    "aliases_en": [
+      "a copper plate"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "coppersmith",
+    "aliases": [
+      "구리쟁이",
+      "놋갓장이"
+    ],
+    "aliases_en": [
+      "a coppersmith",
+      "coppersmiths"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

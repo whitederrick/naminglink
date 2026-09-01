@@ -1,0 +1,530 @@
+[
+  {
+    "term_ko": "과자",
+    "term_en": "confectionary",
+    "context": "상한 과자를 봄",
+    "interpretation_ko": "벗의 탈을 쓴 적이 사생활에 들어와 상대에게 중요한 비밀을 알아낼 조짐",
+    "interpretation_en": "an enemy in the guise of a friend will enter your privacy and discover secrets of moment to your opponents",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Confectionary",
+      "original": "To dream of impure confectionary, denotes that an enemy in the guise of a friend will enter your privacy and discover secrets of moment to your opponents.",
+      "translation_ko": "상한 과자 꿈은, 벗의 탈을 쓴 적이 사생활에 들어와 상대에게 중요한 비밀을 알아냄을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "색종이 조각",
+    "term_en": "confetti",
+    "context": "색종이 조각이 앞을 가림",
+    "interpretation_ko": "먼저 즐거움을 좇다 많은 것을 잃고, 뒤늦게 해야 할 일을 하게 될 조짐",
+    "interpretation_en": "you will lose much by first seeking enjoyment, and later fulfil tasks set by duty",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Confetti",
+      "original": "To dream of confetti obstructing your view in a crowd of merry-makers, denotes that you will lose much by first seeking enjoyment, and later fulfil tasks set by duty.",
+      "translation_ko": "흥겨운 사람들 틈에서 색종이 조각이 앞을 가리는 꿈은, 먼저 즐거움을 좇다 많은 것을 잃고 뒤늦게 해야 할 일을 하게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "요술쟁이",
+    "term_en": "conjurer",
+    "context": "요술쟁이를 봄",
+    "interpretation_ko": "재물과 행복을 찾는 길에 언짢은 일이 따라붙을 조짐",
+    "interpretation_en": "unpleasant experience will beset you in your search for wealth and happiness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Conjurer",
+      "original": "To dream of a conjuror, denotes unpleasant experience will beset you in your search for wealth and happiness.",
+      "translation_ko": "요술쟁이 꿈은 재물과 행복을 찾는 길에 언짢은 일이 따라붙음을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "최면술",
+    "term_en": "conjuring",
+    "context": "최면에 걸려 남의 힘 아래 있음",
+    "interpretation_ko": "적들이 나를 옭아매어 크게 나쁜 결과가 올 조짐",
+    "interpretation_en": "disastrous results, for your enemies will enthrall you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conjuring",
+      "original": "To dream that you are in a hypnotic state or under the power of others, portends disastrous results, for your enemies will enthrall you",
+      "translation_ko": "최면에 걸렸거나 남의 힘 아래 있는 꿈은 크게 나쁜 결과를 알린다. 적들이 나를 옭아맨다"
+    }
+  },
+  {
+    "term_ko": "최면술",
+    "term_en": "conjuring",
+    "context": "남을 최면에 걸어 둠",
+    "interpretation_ko": "둘레를 다스리는 뚜렷한 의지를 보일 조짐",
+    "interpretation_en": "you will assert decided will power in governing your surroundings",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conjuring",
+      "original": "but if you hold others under a spell you will assert decided will power in governing your surroundings.",
+      "translation_ko": "그러나 남을 최면 아래 두면, 둘레를 다스리는 뚜렷한 의지를 보이게 된다"
+    }
+  },
+  {
+    "term_ko": "최면술",
+    "term_en": "conjuring",
+    "context": "젊은 여성이 이상한 힘에 눌림",
+    "interpretation_ko": "곧 위험에 놓일 조짐 — 조심해야 한다",
+    "interpretation_en": "her immediate exposure to danger, and she should beware",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conjuring",
+      "original": "For a young woman to dream that she is under strange influences, denotes her immediate exposure to danger, and she should beware.",
+      "translation_ko": "젊은 여성이 이상한 힘 아래 있는 꿈을 꾸면 곧 위험에 놓인다. 조심해야 한다"
+    }
+  },
+  {
+    "term_ko": "최면술",
+    "term_en": "conjuring",
+    "context": "최면술과 요술 공연을 봄",
+    "interpretation_ko": "일과 집안에 근심과 골칫거리가 생기고 형편이 성치 않을 조짐",
+    "interpretation_en": "worries and perplexities in business and domestic circles, and unhealthy conditions",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conjuring",
+      "original": "To dream of seeing hypnotic and slight-of-hand performances, signifies worries and perplexities in business and domestic circles, and unhealthy conditions of state.",
+      "translation_ko": "최면술과 손재주 요술 공연을 보는 꿈은, 일과 집안에 근심과 골칫거리가 생기고 형편이 성치 않게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "큰불",
+    "term_en": "conflagration",
+    "context": "큰불을 봄",
+    "interpretation_ko": "목숨을 잃은 이가 없다면, 앞날에 내 이익과 행복에 이로운 변화가 올 조짐",
+    "interpretation_en": "if no lives are lost, changes in the future which will be beneficial to your interests and happiness",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Conflagration",
+      "original": "To dream of a conflagration, denotes, if no lives are lost, changes in the future which will be beneficial to your interests and happiness.",
+      "translation_ko": "큰불 꿈은, 목숨을 잃은 이가 없다면 앞날에 내 이익과 행복에 이로운 변화가 옴을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "음모",
+    "term_en": "conspiracy",
+    "context": "음모의 표적이 됨",
+    "interpretation_ko": "제 일을 이끄는 데서 한 수를 잘못 둘 조짐",
+    "interpretation_en": "you will make a wrong move in the directing of your affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conspiracy",
+      "original": "To dream that you are the object of a conspiracy, foretells you will make a wrong move in the directing of your affairs.",
+      "translation_ko": "내가 음모의 표적이 되는 꿈은, 제 일을 이끄는 데서 한 수를 잘못 두게 됨을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "양심",
+    "term_en": "conscience",
+    "context": "양심이 나를 나무람",
+    "interpretation_ko": "그릇된 일에 마음이 끌릴 조짐 — 늘 스스로를 지켜야 한다",
+    "interpretation_en": "you will be tempted to commit wrong and should be constantly on your guard",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conscience",
+      "original": "To dream that your conscience censures you for deceiving some one, denotes that you will be tempted to commit wrong and should be constantly on your guard.",
+      "translation_ko": "남을 속인 일로 양심이 나를 나무라는 꿈은, 그릇된 일에 마음이 끌리게 됨을 뜻한다. 늘 스스로를 지켜야 한다"
+    }
+  },
+  {
+    "term_ko": "양심",
+    "term_en": "conscience",
+    "context": "양심이 편안함",
+    "interpretation_ko": "남들에게 높이 여겨질 조짐",
+    "interpretation_en": "you will stand in high repute",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Conscience",
+      "original": "To dream of having a quiet conscience, denotes that you will stand in high repute.",
+      "translation_ko": "양심이 편안한 꿈은 남들에게 높이 여겨지게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "폐병",
+    "term_en": "consumption",
+    "context": "폐병에 걸림",
+    "interpretation_ko": "스스로를 위험에 내놓고 있을 조짐 — 벗 곁에 머물 것",
+    "interpretation_en": "you are exposing yourself to danger; remain with your friends",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Consumption",
+      "original": "To dream that you have consumption, denotes that you are exposing yourself to danger.  Remain with your friends.",
+      "translation_ko": "폐병에 걸린 꿈은 스스로를 위험에 내놓고 있음을 뜻한다. 벗 곁에 머물라"
+    }
+  },
+
+  {
+    "term_ko": "멸시",
+    "term_en": "contempt",
+    "context": "법정 모독을 저지름",
+    "interpretation_ko": "일이나 사람 사이에서 경솔한 짓을 저질렀으나 마땅치 않은 벌을 받을 조짐",
+    "interpretation_en": "you have committed business or social indiscretion and that it is unmerited",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Contempt",
+      "original": "To dream of being in contempt of court, denotes that you have committed business or social indiscretion and that it is unmerited.",
+      "translation_ko": "법정 모독에 놓인 꿈은, 일이나 사람 사이에서 경솔한 짓을 저질렀으나 그 벌이 마땅치는 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "멸시",
+    "term_en": "contempt",
+    "context": "남에게 멸시받음",
+    "interpretation_ko": "도리어 그들의 큰 존경을 얻고 넉넉하고 행복해질 조짐",
+    "interpretation_en": "you will succeed in winning their highest regard, and will find yourself prosperous and happy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Contempt",
+      "original": "To dream that you are held in contempt by others, you will succeed in winning their highest regard, and will find yourself prosperous and happy.",
+      "translation_ko": "남에게 멸시받는 꿈을 꾸면 도리어 그들의 가장 큰 존경을 얻고, 넉넉하고 행복해진다"
+    }
+  },
+  {
+    "term_ko": "멸시",
+    "term_en": "contempt",
+    "context": "멸시받을 만함",
+    "interpretation_ko": "일이나 사람들 사이에서 밀려날 조짐",
+    "interpretation_en": "your exile from business or social circles is intimated",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Contempt",
+      "original": "But if the contempt is merited, your exile from business or social circles is intimated.",
+      "translation_ko": "그러나 그 멸시가 마땅한 것이라면, 일이나 사람들 사이에서 밀려남을 비친다"
+    }
+  },
+
+  {
+    "term_ko": "수녀원",
+    "term_en": "convent",
+    "context": "수녀원에 몸을 의탁함",
+    "interpretation_ko": "앞날이 근심과 적에게서 눈에 띄게 자유로울 조짐",
+    "interpretation_en": "your future will be signally free from care and enemies",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Convent",
+      "original": "To dream of seeking refuge in a convent, denotes that your future will be signally free from care and enemies, unless on entering the building you encounter a priest.",
+      "translation_ko": "수녀원에 몸을 의탁하는 꿈은, 그 건물에 들어서며 신부를 만나지만 않는다면 앞날이 근심과 적에게서 눈에 띄게 자유로움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수녀원",
+    "term_en": "convent",
+    "context": "수녀원에서 신부를 만남",
+    "interpretation_ko": "세상 근심과 마음고생에서 벗어나려 자주 애쓰나 헛될 조짐",
+    "interpretation_en": "you will seek often and in vain for relief from worldly cares and mind worry",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Convent",
+      "original": "If so, you will seek often and in vain for relief from worldly cares and mind worry.",
+      "translation_ko": "그렇다면 세상 근심과 마음고생에서 벗어나려 자주 애쓰나 헛되다"
+    }
+  },
+  {
+    "term_ko": "수녀원",
+    "term_en": "convent",
+    "context": "젊은 여성이 수녀원을 봄",
+    "interpretation_ko": "행실과 정직함을 의심받을 조짐",
+    "interpretation_en": "her conduct and honesty will be questioned",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Convent",
+      "original": "For a young girl to dream of seeing a convent, her virtue and honestly will be questioned.",
+      "translation_ko": "젊은 여성이 수녀원을 보는 꿈을 꾸면 그 행실과 정직함이 의심받는다"
+    }
+  },
+
+  {
+    "term_ko": "죄수",
+    "term_en": "convict",
+    "context": "죄수들을 봄",
+    "interpretation_ko": "재앙과 슬픈 소식이 있을 조짐",
+    "interpretation_en": "disasters and sad news",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Convicts",
+      "original": "To dream of seeing convicts, denotes disasters and sad news.",
+      "translation_ko": "죄수들을 보는 꿈은 재앙과 슬픈 소식을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "죄수",
+    "term_en": "convict",
+    "context": "내가 죄수가 됨",
+    "interpretation_ko": "어떤 일로 애를 태우나 끝내 오해를 다 풀 조짐",
+    "interpretation_en": "you will worry over some affair, but you will clear up all mistakes",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Convicts",
+      "original": "To dream that you are a convict, indicates that you will worry over some affair; but you will clear up all mistakes.",
+      "translation_ko": "내가 죄수가 된 꿈은 어떤 일로 애를 태우게 됨을 가리킨다. 그러나 끝내 오해를 다 풀게 된다"
+    }
+  },
+  {
+    "term_ko": "죄수",
+    "term_en": "convict",
+    "context": "연인이 죄수복을 입은 것을 봄",
+    "interpretation_ko": "그 사랑의 됨됨이를 의심할 일이 생길 조짐",
+    "interpretation_en": "she will have cause to question the character of his love",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Convicts",
+      "original": "For a young woman to dream of seeing her lover in the garb of a convict, indicates she will have cause to question the character of his love.",
+      "translation_ko": "젊은 여성이 제 연인이 죄수복을 입은 것을 보는 꿈은, 그 사랑의 됨됨이를 의심할 일이 생김을 가리킨다"
+    }
+  },
+
+  {
+    "term_ko": "집회",
+    "term_en": "convention",
+    "context": "집회를 봄",
+    "interpretation_ko": "일이 유난히 활발해지고 사랑이 마침내 맺어질 조짐",
+    "interpretation_en": "unusual activity in business affairs and final engagement in love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Convention",
+      "original": "To dream of a convention, denotes unusual activity in business affairs and final engagement in love.",
+      "translation_ko": "집회 꿈은 일이 유난히 활발해지고 사랑이 마침내 맺어짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "집회",
+    "term_en": "convention",
+    "context": "어수선한 집회를 봄",
+    "interpretation_ko": "실망이 올 조짐",
+    "interpretation_en": "disappointment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Convention",
+      "original": "An inharmonious or displeasing convention brings you disappointment.",
+      "translation_ko": "어수선하거나 언짢은 집회는 실망을 가져온다"
+    }
+  },
+
+  {
+    "term_ko": "요리",
+    "term_en": "cooking",
+    "context": "밥을 지음",
+    "interpretation_ko": "기꺼운 소임이 내게 맡겨지고 벗들이 곧 찾아올 조짐",
+    "interpretation_en": "some pleasant duty will devolve on you; many friends will visit you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooking",
+      "original": "To cook a meal, denotes some pleasant duty will devolve on you.  Many friends will visit you in the near future.",
+      "translation_ko": "밥을 짓는 꿈은 기꺼운 소임이 내게 맡겨짐을 뜻한다. 가까운 앞날에 벗들이 여럿 찾아온다"
+    }
+  },
+  {
+    "term_ko": "요리",
+    "term_en": "cooking",
+    "context": "요리 자리가 어수선함",
+    "interpretation_ko": "괴롭고 실망스러운 일이 생길 조짐",
+    "interpretation_en": "harassing and disappointing events to happen",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooking",
+      "original": "If there is discord or a lack of cheerfulness you may expect harassing and disappointing events to happen.",
+      "translation_ko": "다투는 소리가 있거나 흥이 없으면 괴롭고 실망스러운 일이 생길 것을 예상할 수 있다"
+    }
+  },
+
+  {
+    "term_ko": "부뚜막",
+    "term_en": "cooking stove",
+    "context": "요리 화덕을 봄",
+    "interpretation_ko": "때맞춘 나의 개입으로 언짢은 일이 크게 누그러질 조짐",
+    "interpretation_en": "much unpleasantness will be modified by your timely interference",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooking Stove",
+      "original": "To see a cooking stove in a dream, denotes that much unpleasantness will be modified by your timely interference.",
+      "translation_ko": "꿈에 요리 화덕을 보면, 때맞춘 나의 개입으로 언짢은 일이 크게 누그러진다"
+    }
+  },
+  {
+    "term_ko": "부뚜막",
+    "term_en": "cooking stove",
+    "context": "요리 화덕을 씀",
+    "interpretation_ko": "남의 마음 씀에 너무 서둘러 고마움을 보이다 더 가까운 사이를 잃을 조짐",
+    "interpretation_en": "she will be too hasty in showing her appreciation and thereby lose a closer friendship",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooking Stove",
+      "original": "For a young woman to dream of using a cooking stove, foretells she will be too hasty in showing her appreciation of the attention of some person and thereby lose a closer friendship.",
+      "translation_ko": "젊은 여성이 요리 화덕을 쓰는 꿈을 꾸면, 남이 베푼 마음 씀에 너무 서둘러 고마움을 보이다 더 가까운 사이를 잃게 된다"
+    }
+  },
+
+  {
+    "term_ko": "시신 받침대",
+    "term_en": "cooling board",
+    "context": "시신 받침대를 봄",
+    "interpretation_ko": "병과 연인과의 다툼이 있을 조짐",
+    "interpretation_en": "sickness and quarrels with her lover",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooling Board",
+      "original": "For a young woman to see a cooling board in her dreams, foretells sickness and quarrels with her lover.",
+      "translation_ko": "젊은 여성이 꿈에 시신 받침대를 보면 병과 연인과의 다툼을 알린다"
+    }
+  },
+  {
+    "term_ko": "시신 받침대",
+    "term_en": "cooling board",
+    "context": "산 사람이 받침대에서 일어남",
+    "interpretation_ko": "그 사람과 얽힌 곤란에 간접으로 엮이나 끝내 잘 풀릴 조짐",
+    "interpretation_en": "she will be indirectly connected with that person in some trouble, but things will work out satisfactorily",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooling Board",
+      "original": "To dream of some living person as dead and rising up from a cooling board, denotes she will be indirectly connected with that person in some trouble, but will find out that things will work out satisfactorily.",
+      "translation_ko": "산 사람이 죽은 것으로 보이다 시신 받침대에서 일어나는 꿈은, 그 사람과 얽힌 곤란에 간접으로 엮이나 끝내 잘 풀림을 알게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "시신 받침대",
+    "term_en": "cooling board",
+    "context": "죽은 형제가 받침대에서 일어남",
+    "interpretation_ko": "얽힌 일이 닥칠 것을 알리는 조짐 — 뜻과 힘을 제대로 쓰면 막을 수 있다",
+    "interpretation_en": "a warning of complications which may be averted if she puts forth the proper will and energy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cooling Board",
+      "original": "To see her brother, who has long since been dead, rising from a cooling board, warns her of complications which may be averted if she puts forth the proper will and energy in struggling against them.",
+      "translation_ko": "오래전에 죽은 제 형제가 시신 받침대에서 일어나는 것을 보면, 얽힌 일이 닥칠 것을 경고한다. 뜻과 힘을 제대로 쓰며 맞서면 막을 수 있다"
+    }
+  },
+
+  {
+    "term_ko": "구리",
+    "term_en": "copper",
+    "context": "구리를 봄",
+    "interpretation_ko": "윗자리에 있는 이들에게 눌릴 조짐",
+    "interpretation_en": "oppression from those above you in station",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Copper",
+      "original": "To dream of copper, denotes oppression from those above you in station.",
+      "translation_ko": "구리 꿈은 윗자리에 있는 이들에게 눌림을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "녹반",
+    "term_en": "copperas",
+    "context": "녹반을 봄",
+    "interpretation_ko": "뜻하지 않은 잘못이 내게 저질러져 괴롭고 잃게 될 조짐",
+    "interpretation_en": "unintentional wrong will be done you which will be distressing and will cause you loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Copperas",
+      "original": "To dream of copperas, foretells unintentional wrong will be done you which will be distressing and will cause you loss.",
+      "translation_ko": "녹반 꿈은 뜻하지 않은 잘못이 내게 저질러져 괴롭고 잃게 됨을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "동판",
+    "term_en": "copper plate",
+    "context": "동판을 봄",
+    "interpretation_ko": "한집안 사람들 사이에 뜻이 어긋나 불행해질 것을 알리는 조짐",
+    "interpretation_en": "a warning of discordant views causing unhappiness between members of the same household",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Copper Plate",
+      "original": "Copper plate seen in a dream, is a warning of discordant views causing unhappiness between members of the same household.",
+      "translation_ko": "꿈에 보이는 동판은, 한집안 사람들 사이에 뜻이 어긋나 불행해질 것을 경고한다"
+    }
+  },
+
+  {
+    "term_ko": "구리 장인",
+    "term_en": "coppersmith",
+    "context": "구리 장인을 봄",
+    "interpretation_ko": "애쓴 것에 견주어 돌아오는 것은 적으나 그런대로 흡족할 조짐",
+    "interpretation_en": "small returns for labor, but withal contentment",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Coppersmith",
+      "original": "To dream of a coppersmith, denotes small returns for labor, but withal contentment.",
+      "translation_ko": "구리 장인 꿈은 애쓴 것에 견주어 돌아오는 것은 적으나 그런대로 흡족함을 뜻한다"
+    }
+  }
+]

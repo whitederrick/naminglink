@@ -4212,5 +4212,68 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "concubine": [
     "concubines",
     "mistress"
+  ],
+  "confectionary": [
+    "confectionery",
+    "sweets"
+  ],
+  "confetti": [
+    "confettis"
+  ],
+  "conjurer": [
+    "a conjuror",
+    "conjurors",
+    "magician"
+  ],
+  "conjuring": [
+    "hypnotic",
+    "hypnotized"
+  ],
+  "conflagration": [
+    "a conflagration"
+  ],
+  "conspiracy": [
+    "a conspiracy",
+    "plot"
+  ],
+  "conscience": [
+    "a conscience"
+  ],
+  "consumption": [
+    "tuberculosis"
+  ],
+  "contempt": [
+    "contempt of court",
+    "held in contempt"
+  ],
+  "convent": [
+    "a convent",
+    "convents",
+    "nunnery"
+  ],
+  "convict": [
+    "convicts",
+    "a convict"
+  ],
+  "convention": [
+    "a convention",
+    "conventions"
+  ],
+  "cooking": [
+    "cooked",
+    "cookery"
+  ],
+  "cooling-board": [
+    "a cooling board"
+  ],
+  "copperas": [
+    "a copperas"
+  ],
+  "copper-plate": [
+    "a copper plate"
+  ],
+  "coppersmith": [
+    "a coppersmith",
+    "coppersmiths"
   ]
 };

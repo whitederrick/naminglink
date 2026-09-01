@@ -184,7 +184,9 @@
       "부뚜막 아래에 입김을 불어 넣음": "입김 불어넣 바람을",
       "부뚜막 아래에서 그릇이 울림": "그릇 울리 소리가 쟁그",
       "집에 부뚜막이 둘 있음": "둘있 두개 나란히 하나더",
-      "부엌과 부뚜막을 고쳐 지음": "고쳐 수리 개축 부엌을"
+      "부엌과 부뚜막을 고쳐 지음": "고쳐 수리 개축 부엌을",
+      "요리 화덕을 봄": "스토브 조리용 화구",
+      "요리 화덕을 씀": "썼다 쓰고 데웠"
     },
     "contexts_en": {
       "부뚜막 아래로 물이 흐름": "water flowing underneath wet",
@@ -193,7 +195,9 @@
       "부뚜막 아래에 입김을 불어 넣음": "breath blowing blew",
       "부뚜막 아래에서 그릇이 울림": "bowl dish ringing sound",
       "집에 부뚜막이 둘 있음": "two second another",
-      "부엌과 부뚜막을 고쳐 지음": "repairing rebuilding renovating"
+      "부엌과 부뚜막을 고쳐 지음": "repairing rebuilding renovating",
+      "요리 화덕을 봄": "unpleasantness modified timely",
+      "요리 화덕을 씀": "using hasty appreciation"
     }
   },
   {
@@ -677,8 +681,14 @@
       "brass",
       "copper vessel"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "구리를 봄": "보았 덩이 빛깔",
+      "구리로 만든 물건을 얻음": "얻었 얻어 물건을"
+    },
+    "contexts_en": {
+      "구리를 봄": "oppression above station",
+      "구리로 만든 물건을 얻음": "obtained received object"
+    }
   },
   {
     "id": "dairy-food",
