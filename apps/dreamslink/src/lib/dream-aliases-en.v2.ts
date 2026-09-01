@@ -158,8 +158,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "club": [
     "a club",
-    "a cudgel",
-    "a wooden stick"
+    "clubs",
+    "cudgel"
   ],
   "divination": [
     "fortune telling",
@@ -4020,5 +4020,60 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "cipher": [
     "ciphers"
+  ],
+  "circle": [
+    "a circle",
+    "circles"
+  ],
+  "cistern": [
+    "a cistern",
+    "cisterns"
+  ],
+  "city": [
+    "a city",
+    "cities"
+  ],
+  "city-council": [
+    "a city council"
+  ],
+  "city-hall": [
+    "a city hall"
+  ],
+  "clay": [
+    "clays"
+  ],
+  "claret": [
+    "a claret"
+  ],
+  "claret-cup-and-punch": [
+    "claret cup",
+    "a punch"
+  ],
+  "clarionet": [
+    "a clarionet",
+    "clarinet"
+  ],
+  "clairvoyance": [
+    "clairvoyant"
+  ],
+  "clergyman": [
+    "a clergyman",
+    "clergymen"
+  ],
+  "climbing": [
+    "climbed",
+    "climb"
+  ],
+  "clock": [
+    "a clock",
+    "clocks"
+  ],
+  "clover": [
+    "clovers",
+    "shamrock"
+  ],
+  "cloven-foot": [
+    "a cloven foot",
+    "cloven hoof"
   ]
 };

@@ -119,7 +119,11 @@
       "구름이 푸르거나 검음": "푸른 푸르 파란 푸르스",
       "뜬구름을 봄": "떠다니 흘러가 둥둥 떠있",
       "구름과 안개가 앞을 가림": "안개 자욱 앞이 시야",
-      "검은 구름이 땅까지 내려옴": "검은 시커먼 땅까지 내려앉 낮게 먹구름"
+      "검은 구름이 땅까지 내려옴": "검은 시커먼 땅까지 내려앉 낮게 먹구름",
+      "어둡고 무거운 구름을 봄": "무거운 짙은 어두운",
+      "구름에서 비가 내림": "비가 빗방울 내리",
+      "해가 비쳐 드는 맑은 구름을 봄": "비쳐 투명 환한",
+      "별이 빛나는 구름을 봄": "별이 별빛 반짝"
     },
     "contexts_en": {
       "구름이 걷힘": "clearing cleared parted lifted",
@@ -130,7 +134,11 @@
       "구름이 푸르거나 검음": "blue green bluish",
       "뜬구름을 봄": "floating drifting adrift",
       "구름과 안개가 앞을 가림": "fog mist haze",
-      "검은 구름이 땅까지 내려옴": "black dark descending ground"
+      "검은 구름이 땅까지 내려옴": "black dark descending ground",
+      "어둡고 무거운 구름을 봄": "heavy misfortune management",
+      "구름에서 비가 내림": "raining rainfall showers",
+      "해가 비쳐 드는 맑은 구름을 봄": "bright transparent shining",
+      "별이 빛나는 구름을 봄": "stars fleeting advancements"
     }
   },
   {
@@ -482,11 +490,17 @@
     ],
     "contexts": {
       "새우와 조개가 울며 달아남": "새우 달아 도망 울며 울면서",
-      "조개를 봄": "보았 보였 발견"
+      "조개를 봄": "보았 보였 발견",
+      "조개 꿈을 꿈": "그냥 문득 나왔",
+      "조개를 먹음": "먹었 먹는 삶아",
+      "연인과 구운 조개를 먹음": "연인 애인 구운"
     },
     "contexts_en": {
       "새우와 조개가 울며 달아남": "shrimp fleeing running crying",
-      "조개를 봄": "saw seeing spotted"
+      "조개를 봄": "saw seeing spotted",
+      "조개 꿈을 꿈": "dealings obstinate honest",
+      "조개를 먹음": "eat eating eaten",
+      "연인과 구운 조개를 먹음": "baked sweetheart money"
     }
   },
   {

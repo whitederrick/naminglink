@@ -30,7 +30,11 @@
       "아내가 남편의 옷을 입음": "아내가 남편의 부인이",
       "여자가 옷을 차려입음": "차려입 치장 곱게입 꾸며",
       "남과 옷을 함께 입음": "함께입 같이입 나눠입",
-      "옷을 잃어버림": "잃어 잃었 없어졌 사라졌"
+      "옷을 잃어버림": "잃어 잃었 없어졌 사라졌",
+      "더럽고 찢어진 옷을 봄": "더럽고 헤진 너덜",
+      "여성의 옷이 더럽거나 찢어짐": "여자 여성 처녀",
+      "깨끗한 새 옷을 봄": "깨끗한 깔끔 정갈",
+      "옷을 잔뜩 가지고 있음": "잔뜩 여러벌 수북"
     },
     "contexts_en": {
       "옷이 진흙으로 더러워짐": "mud muddy dirtied",
@@ -49,7 +53,11 @@
       "아내가 남편의 옷을 입음": "wife husband",
       "여자가 옷을 차려입음": "woman dressed adorned",
       "남과 옷을 함께 입음": "shared together same",
-      "옷을 잃어버림": "lost losing missing"
+      "옷을 잃어버림": "lost losing missing",
+      "더럽고 찢어진 옷을 봄": "dirty deceit strangers",
+      "여성의 옷이 더럽거나 찢어짐": "mire associates careful",
+      "깨끗한 새 옷을 봄": "clean new prosperity",
+      "옷을 잔뜩 가지고 있음": "plenty assortment doubtful"
     }
   },
   {

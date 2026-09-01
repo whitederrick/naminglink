@@ -1,0 +1,279 @@
+[
+  {
+    "id": "circle",
+    "aliases": [
+      "원형",
+      "둥근 모양"
+    ],
+    "aliases_en": [
+      "a circle",
+      "circles"
+    ],
+    "contexts": {
+      "동그라미를 봄": "그려진 그려져 그렸",
+      "젊은 여성이 동그라미를 봄": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "동그라미를 봄": "affairs deceive proportions",
+      "젊은 여성이 동그라미를 봄": "woman indiscreet marriage"
+    }
+  },
+  {
+    "id": "cistern",
+    "aliases": [
+      "물탱크",
+      "빗물통"
+    ],
+    "aliases_en": [
+      "a cistern",
+      "cisterns"
+    ],
+    "contexts": {
+      "저수조를 봄": "보았 놓여 커다란",
+      "저수조에서 물을 길음": "길었 길어 퍼냈",
+      "저수조가 비어 있음": "비어 비었 말라"
+    },
+    "contexts_en": {
+      "저수조를 봄": "trespassing rights friends",
+      "저수조에서 물을 길음": "draw drawing pastime",
+      "저수조가 비어 있음": "empty despairing sorrow"
+    }
+  },
+  {
+    "id": "city",
+    "aliases": [
+      "낯선 도시",
+      "도회지"
+    ],
+    "aliases_en": [
+      "a city",
+      "cities"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "city-council",
+    "aliases": [
+      "시 의회",
+      "지방 의회"
+    ],
+    "aliases_en": [
+      "a city council"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "city-hall",
+    "aliases": [
+      "시청 건물",
+      "관청"
+    ],
+    "aliases_en": [
+      "a city hall"
+    ],
+    "contexts": {
+      "시청을 봄": "커다란 앞에 건물",
+      "젊은 여성이 시청을 봄": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "시청을 봄": "contentions law suits",
+      "젊은 여성이 시청을 봄": "woman estrangement lover"
+    }
+  },
+  {
+    "id": "clay",
+    "aliases": [
+      "점토",
+      "차진 흙"
+    ],
+    "aliases_en": [
+      "clays"
+    ],
+    "contexts": {
+      "찰흙을 봄": "보았 놓여 덩이",
+      "찰흙 둔덕을 팜": "둔덕 파냈 파고",
+      "잿더미를 파다 찰흙을 찾음": "잿더미 재를 나왔",
+      "여성이 찰흙 꿈을 꿈": "여자 여성 부인"
+    },
+    "contexts_en": {
+      "찰흙을 봄": "isolation insolvency",
+      "찰흙 둔덕을 팜": "dug digging submit",
+      "잿더미를 파다 찰흙을 찾음": "ash ashes found",
+      "여성이 찰흙 꿈을 꿈": "women misrepresentations social"
+    }
+  },
+  {
+    "id": "claret",
+    "aliases": [
+      "붉은 포도주",
+      "클라레"
+    ],
+    "aliases_en": [
+      "a claret"
+    ],
+    "contexts": {
+      "적포도주를 마심": "마셨 마시 들이켰",
+      "깨진 적포도주 병을 봄": "깨진 병이 부서진"
+    },
+    "contexts_en": {
+      "적포도주를 마심": "drinking ennobling association",
+      "깨진 적포도주 병을 봄": "broken bottles persuasions"
+    }
+  },
+  {
+    "id": "claret-cup-and-punch",
+    "aliases": [
+      "펀치",
+      "화채술"
+    ],
+    "aliases_en": [
+      "claret cup",
+      "a punch"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "clarionet",
+    "aliases": [
+      "클라리네트"
+    ],
+    "aliases_en": [
+      "a clarionet",
+      "clarinet"
+    ],
+    "contexts": {
+      "클라리넷을 봄": "보았 놓여 불고",
+      "클라리넷이 부서짐": "부서 깨졌 망가"
+    },
+    "contexts_en": {
+      "클라리넷을 봄": "frivolity dignity indulge",
+      "클라리넷이 부서짐": "broken displeasure close"
+    }
+  },
+  {
+    "id": "clairvoyance",
+    "aliases": [
+      "투시",
+      "투시하는",
+      "예지력"
+    ],
+    "aliases_en": [
+      "clairvoyant"
+    ],
+    "contexts": {
+      "투시력으로 제 앞날을 봄": "앞날 미래 훗날",
+      "점치는 이를 찾아감": "찾아갔 찾아가 점을"
+    },
+    "contexts_en": {
+      "투시력으로 제 앞날을 봄": "future occupation designing",
+      "점치는 이를 찾아감": "visiting commercial unions"
+    }
+  },
+  {
+    "id": "clergyman",
+    "aliases": [
+      "성직자",
+      "전도사"
+    ],
+    "aliases_en": [
+      "a clergyman",
+      "clergymen"
+    ],
+    "contexts": {
+      "장례 설교를 하려고 목사를 부름": "장례 설교 불렀",
+      "목사와 혼인함": "혼인 결혼 시집"
+    },
+    "contexts_en": {
+      "장례 설교를 하려고 목사를 부름": "funeral sermon sickness",
+      "목사와 혼인함": "marries distress adversity"
+    }
+  },
+  {
+    "id": "climbing",
+    "aliases": [
+      "기어올랐다",
+      "기어올라",
+      "기어오르던",
+      "기어오르고",
+      "타고 올랐다"
+    ],
+    "aliases_en": [
+      "climbed",
+      "climb"
+    ],
+    "contexts": {
+      "언덕이나 산을 올라 꼭대기에 이름": "정상 다다랐 올라섰",
+      "꼭대기에 이르지 못함": "이르지 못하고 못했",
+      "사다리 맨 위까지 오름": "마지막 윗단 끝까지",
+      "오르던 사다리가 부러짐": "부러졌 부러지 무너",
+      "집 벽을 타고 올라 창이 열려 들어감": "벽을 창으로 창문 들어갔"
+    },
+    "contexts_en": {
+      "언덕이나 산을 올라 꼭대기에 이름": "reaching overcome formidable",
+      "꼭대기에 이르지 못함": "fail wrecked dearest",
+      "사다리 맨 위까지 오름": "rung last succeed",
+      "오르던 사다리가 부러짐": "breaks broke straits",
+      "집 벽을 타고 올라 창이 열려 들어감": "house window open"
+    }
+  },
+  {
+    "id": "clock",
+    "aliases": [
+      "괘종시계",
+      "벽시계"
+    ],
+    "aliases_en": [
+      "a clock",
+      "clocks"
+    ],
+    "contexts": {
+      "시계를 봄": "보았 걸린 놓인",
+      "시계가 치는 소리를 들음": "소리 종소리 울렸 들었"
+    },
+    "contexts_en": {
+      "시계를 봄": "danger foe",
+      "시계가 치는 소리를 들음": "strike hear news"
+    }
+  },
+  {
+    "id": "clover",
+    "aliases": [
+      "토끼풀",
+      "네잎클로버"
+    ],
+    "aliases_en": [
+      "clovers",
+      "shamrock"
+    ],
+    "contexts": {
+      "향긋한 클로버 밭을 걸음": "향긋 향기로운 걸었",
+      "농사짓는 이나 젊은이가 클로버를 봄": "농부 농사 젊은이",
+      "말라 죽은 클로버 밭을 봄": "말라 시든 죽은",
+      "클로버 꿈을 꿈": "그냥 문득 눈에",
+      "꽃 핀 클로버 사이로 뱀이 기어가는 것을 봄": "뱀이 뱀을 기어가"
+    },
+    "contexts_en": {
+      "향긋한 클로버 밭을 걸음": "walking fragrant reach",
+      "농사짓는 이나 젊은이가 클로버를 봄": "farmer crops wealth",
+      "말라 죽은 클로버 밭을 봄": "blasted harrowing regretful",
+      "클로버 꿈을 꿈": "prosperity enfold soon",
+      "꽃 핀 클로버 사이로 뱀이 기어가는 것을 봄": "snake crawling blossoming"
+    }
+  },
+  {
+    "id": "cloven-foot",
+    "aliases": [
+      "쪽발굽",
+      "발굽이 갈라진"
+    ],
+    "aliases_en": [
+      "a cloven foot",
+      "cloven hoof"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -714,11 +714,19 @@
     ],
     "aliases_en": [
       "a club",
-      "a cudgel",
-      "a wooden stick"
+      "clubs",
+      "cudgel"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "스스로 몽둥이로 매를 침": "스스로 손수 매를",
+      "몽둥이를 든 사람이 다가옴": "다가왔 다가오 들고",
+      "남을 몽둥이로 침": "남을 상대를 때렸"
+    },
+    "contexts_en": {
+      "스스로 몽둥이로 매를 침": "himself own beating",
+      "몽둥이를 든 사람이 다가옴": "approached bearing adversaries",
+      "남을 몽둥이로 침": "clubbed anyone journey"
+    }
   },
   {
     "id": "divination",
