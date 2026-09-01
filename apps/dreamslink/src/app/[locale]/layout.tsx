@@ -17,16 +17,28 @@ const geistSans = Geist({
 /**
  * **빌드 때 23개 언어판을 모두 만든다** (2026-08-19).
  *
- * 이 값이 로케일 갈래 전체의 정적 렌더링을 연다. `dynamicParams = false`와 짝이다 — 목록에
- * 없는 조각(`/zzz/about`)은 그리지 않고 404로 보낸다. 미들웨어가 그런 주소를 먼저 영어판으로
- * 308하므로 실제로 여기까지 오는 일은 드물지만, 아무 값이나 언어판 주소가 되면 빈 페이지가
- * 무한히 생긴다.
+ * 이 값이 로케일 갈래 전체의 정적 렌더링을 연다.
  */
 export function generateStaticParams() {
   return localeParams();
 }
 
-export const dynamicParams = false;
+/**
+ * **열어 둔다** (2026-09-01에 `false`에서 바꿨다).
+ *
+ * 예전에는 `false`였고, 그 짝은 「목록에 없는 조각(`/zzz/about`)을 그리지 않고 404로 보낸다」
+ * 였다. 그런데 이 설정은 **이 갈래 아래 전부**를 지배한다 — 상징 페이지가 잎에서
+ * `dynamicParams = true`로 열어도 되살아나지 않아, 미리 그리지 않은 조합이 전부 404가 됐다
+ * (실제로 재어 보고 되돌렸다).
+ *
+ * **없는 언어를 막는 것은 이 설정이 아니라 `routeLocale()`이다** — 아는 로케일이 아니면
+ * 그 자리에서 `notFound()`를 부른다. 이 레이아웃의 본문도, 하위 페이지도 그것을 지난다.
+ * 미들웨어가 그런 주소를 먼저 영어판으로 308하므로 여기까지 오는 일도 드물다.
+ *
+ * 열어 두는 대신 얻는 것은 **미리 그리는 장수를 줄일 수 있다는 것**이다. 왜 줄여야 했는지는
+ * `dream/symbol/[id]/page.tsx`의 `generateStaticParams` 주석에 적었다.
+ */
+export const dynamicParams = true;
 
 type LayoutProps = Readonly<{
   children: React.ReactNode;
