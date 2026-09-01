@@ -18,6 +18,22 @@ const lines = raw.split(/\r?\n/);
 
 const HEADWORD = /^_([^_]+)_\.?\s*(?:\[\d+\])?\s*$/;
 
+/**
+ * **표제어 일곱은 제 줄을 못 얻었다** — 앞 표제어의 마지막 문장이나 제 첫 문장과 한 줄에
+ * 붙어 있다(원본 조판 사고로 보인다). 위 `HEADWORD`는 「줄 전체가 표제어」만 보므로 이
+ * 일곱을 **표제어로 세지 않았고, 그래서 앞 표제어의 본문 속에 통째로 묻혀 있었다**
+ * (2026-09-01에 발견). 책 자신의 색인에는 일곱 다 표제어로 실려 있다.
+ *
+ *   줄머리형  `_Canary Birds_.  To dream of this sweet songster, …`  (Canary Birds·Cistern·Quoits)
+ *   줄끝형    `… pleasant amusements and rivalries.  _Gale_.`        (Gale·Jailer·Katydids·Yule Log)
+ *
+ * **성경 인용 넷과 갈라야 한다** — 그쪽도 `_…_.` 꼴인데 ``…''로 감싸여 있다.
+ * 그래서 「줄머리에 오고 뒤에 공백 둘」 또는 「줄끝에 오고 앞에 공백 둘」만 표제어로 본다.
+ * 인용 넷은 줄머리가 백틱이고 뒤에 `''`가 붙어 둘 다에 걸리지 않는다(실제로 확인).
+ */
+const HEADWORD_INLINE_HEAD = /^_([^_\n]+)_\.\s{2,}(\S.*)$/;
+const HEADWORD_INLINE_TAIL = /^(.*\S)\s{2,}_([^_\n]+)_\.$/;
+
 // 서문 에세이 안에도 `_..._` 강조가 섞여 있다(예: 37번째 줄 책 제목). 진짜 사전은
 // 알파벳순 표제어로 시작하므로 첫 항목을 "Abandon"으로 확정해 그 앞은 건너뛴다.
 let started = false;
@@ -49,6 +65,25 @@ for (const line of lines) {
     continue;
   }
   if (!started) continue;
+
+  // 줄끝형 — 이 줄의 앞부분은 **앞 표제어의 것**이므로 먼저 담고 나서 끊는다.
+  const tail = line.match(HEADWORD_INLINE_TAIL);
+  if (tail) {
+    currentLines.push(tail[1]);
+    flush();
+    currentHead = tail[2].trim();
+    currentLines = [];
+    continue;
+  }
+  // 줄머리형 — 뒤에 남은 부분이 새 표제어의 첫 줄이다.
+  const inlineHead = line.match(HEADWORD_INLINE_HEAD);
+  if (inlineHead) {
+    flush();
+    currentHead = inlineHead[1].trim();
+    currentLines = [inlineHead[2]];
+    continue;
+  }
+
   if (currentHead === "Zoological Garden" && /^[A-Z][a-z]/.test(line) && line.includes(". . .")) {
     break; // 색인 줄 패턴("Word . . . 41") 시작
   }
