@@ -11,7 +11,7 @@
 //
 // 실행: node scripts/build-dream-match-tables-v2.mjs
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 
 const LIB_DIR = path.resolve("apps/dreamslink/src/lib");
@@ -29,8 +29,13 @@ const symbolById = new Map(v2.symbols.map((s) => [s.id, s]));
  * `verify-dream-km.mjs`에서 한 번 겪었다(기본 목록이 옛것에 머물러 있던 것, 2026-08-31).
  */
 const KM_GROUPS = [
-  ...Array.from({ length: 9 }, (_, i) => `km${i + 1}`),
-  ...Array.from({ length: 7 }, (_, i) => `kmm${i + 1}`),
+  // **세어 적지 않는다** — 디렉터리에 있는 것을 전부 읽는다(CLAUDE.md §5).
+  // 2026-09-01에 `kmm8.json`을 더했는데 목록이 `kmm7`에 머물러 있어 새 상징 18개의
+  // 별칭·판별어가 통째로 빠졌다. 이 파일의 주석이 경고하던 바로 그 자리다.
+  ...readdirSync(EXTRACT_DIR)
+    .filter((f) => /^kmm?\d+\.json$/.test(f))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort((a, b) => a.length - b.length || a.localeCompare(b)),
 ];
 
 let kmAll = [];

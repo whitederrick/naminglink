@@ -644,12 +644,14 @@
     "contexts": {
       "달력을 봄": "쳐다보 넘기며 걸려있 바라보",
       "달력의 점괘를 살펴봄": "점괘 운세 길흉 살펴",
-      "책력을 얻음": "얻었 받았 생겼 챙긴"
+      "책력을 얻음": "얻었 받았 생겼 챙긴",
+      "달력을 적어 감": "적어 기록 표시 챙겨"
     },
     "contexts_en": {
       "달력을 봄": "looking seeing glancing hanging",
       "달력의 점괘를 살펴봄": "consulting predictions fortune omens",
-      "책력을 얻음": "obtained received gaining acquired"
+      "책력을 얻음": "obtained received gaining acquired",
+      "달력을 적어 감": "keeping writing marking recording"
     }
   },
   {

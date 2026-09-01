@@ -1,0 +1,887 @@
+[
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "햇빛이 비치는 가운데 친척의 장례에 참석함",
+    "interpretation_ko": "친척들이 건강하고, 그중 누군가의 혼사가 있을 조짐",
+    "interpretation_en": "a sign of the good health of relations, and perhaps a happy marriage among them",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Burial",
+      "original": "To attend the burial of a relative, if the sun is shining on the procession, is a sign of the good health of relations, and perhaps the happy marriage of some one of them is about to occur.",
+      "translation_ko": "친척의 장례에 참석하는데 행렬 위로 햇빛이 비치면, 친척들이 건강하고 그중 누군가의 혼사가 곧 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "비 오고 음산한 날씨의 장례",
+    "interpretation_ko": "병과 멀리 있는 이의 나쁜 소식이 오고 사업이 가라앉을 조짐",
+    "interpretation_en": "a sign of sickness, bad news of the absent, and depression in business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Burial",
+      "original": "But if rain and dismal weather prevails, sickness and bad news of the absent will soon come, and depressions in business circles will be felt",
+      "translation_ko": "그러나 비가 오고 음산한 날씨면 병과 멀리 있는 이의 나쁜 소식이 곧 오고 사업이 가라앉는 것을 느끼게 된다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "슬픈 의식과 비통한 얼굴이 있는 장례",
+    "interpretation_ko": "형편이 나빠지거나 그것이 곧 닥칠 조짐",
+    "interpretation_en": "a sign of adverse surroundings or their speedy approach",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Burial",
+      "original": "A burial where there are sad rites performed, or sorrowing faces, is indicative of adverse surroundings or their speedy approach.",
+      "translation_ko": "슬픈 의식이 치러지거나 비통한 얼굴이 있는 장례는 형편이 나빠지거나 그것이 곧 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "생매장",
+    "term_en": "buried alive",
+    "context": "산 채로 묻힘",
+    "interpretation_ko": "큰 실수를 저질러 상대가 그것을 곧바로 해로 돌릴 조짐",
+    "interpretation_en": "a sign that you are about to make a great mistake your opponents will turn to your injury",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Buried Alive",
+      "original": "To dream that you are buried alive.  denotes that you are about to make a great mistake, which your opponents will quickly turn to your injury.",
+      "translation_ko": "산 채로 묻히는 꿈은 큰 실수를 저지르려 한다는 조짐이고, 상대들이 그것을 재빨리 해로 돌린다"
+    }
+  },
+  {
+    "term_ko": "생매장",
+    "term_en": "buried alive",
+    "context": "무덤에서 구조됨",
+    "interpretation_ko": "애쓴 끝에 결국 그 잘못을 바로잡을 조짐",
+    "interpretation_en": "a sign that your struggle will eventually correct the misadventure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Buried Alive",
+      "original": "If you are rescued from the grave, your struggle will eventually correct your misadventure.",
+      "translation_ko": "무덤에서 구조되면 애쓴 끝에 결국 그 잘못을 바로잡게 된다"
+    }
+  },
+  {
+    "term_ko": "화상",
+    "term_en": "burn",
+    "context": "화상을 입음",
+    "interpretation_ko": "좋은 소식이 올 조짐",
+    "interpretation_en": "a sign of good tidings",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Burns",
+      "original": "Burns stand for tidings of good.",
+      "translation_ko": "화상은 좋은 소식을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "화상",
+    "term_en": "burn",
+    "context": "맑게 타오르는 불에 손을 뎀",
+    "interpretation_ko": "뜻이 깨끗하고 벗들이 인정해 줄 조짐",
+    "interpretation_en": "a sign of purity of purpose and the approbation of friends",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Burns",
+      "original": "To burn your hand in a clear and flowing fire, denotes purity of purpose and the approbation of friends.",
+      "translation_ko": "맑게 타오르는 불에 손을 데면 뜻이 깨끗하고 벗들이 인정해 준다"
+    }
+  },
+  {
+    "term_ko": "화상",
+    "term_en": "burn",
+    "context": "숯불 위를 걸어 발을 뎀",
+    "interpretation_ko": "남에게는 불가능해 보이는 일도 해낼 힘이 있을 조짐",
+    "interpretation_en": "a sign of the ability to accomplish any endeavor, however impossible to others",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Burns",
+      "original": "To burn your feet in walking through coals, or beds of fire, denotes your ability to accomplish any endeavor, however impossible it may be to others.",
+      "translation_ko": "숯불이나 불자리를 걸으며 발을 데면 남에게 불가능해 보이는 일도 해낼 힘이 있다"
+    }
+  },
+  {
+    "term_ko": "화상",
+    "term_en": "burn",
+    "context": "불에 압도됨",
+    "interpretation_ko": "벗이라 여긴 이의 배신으로 이익이 상할 조짐",
+    "interpretation_en": "a sign that your interests will suffer through the treachery of supposed friends",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Burns",
+      "original": "Your usual good health will remain with you, but, if you are overcome in the fire, it represents that your interests will suffer through treachery of supposed friends.",
+      "translation_ko": "본래의 건강은 그대로지만, 불에 압도되면 벗이라 여긴 이의 배신으로 이익이 상한다"
+    }
+  },
+  {
+    "term_ko": "정육점 주인",
+    "term_en": "butcher",
+    "context": "소를 도살하고 피가 많음",
+    "interpretation_ko": "집안에 길고 치명적인 병이 들 조짐",
+    "interpretation_en": "a sign of long and fatal sickness in the family",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Butcher",
+      "original": "To see them slaughtering cattle and much blood, you may expect long and fatal sickness in your family.",
+      "translation_ko": "소를 도살하고 피가 많은 것을 보면 집안에 길고 치명적인 병이 들 것을 각오해야 한다"
+    }
+  },
+  {
+    "term_ko": "정육점 주인",
+    "term_en": "butcher",
+    "context": "고기를 자르는 정육점 주인을 봄",
+    "interpretation_ko": "세상이 내 됨됨이를 헤집어 해가 될 조짐",
+    "interpretation_en": "a sign that your character will be dissected by society to your detriment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Butcher",
+      "original": "To see a butcher cutting meat, your character will be dissected by society to your detriment.",
+      "translation_ko": "고기를 자르는 정육점 주인을 보면 세상이 내 됨됨이를 헤집어 해가 된다"
+    }
+  },
+  {
+    "term_ko": "버터",
+    "term_en": "butter",
+    "context": "신선한 황금빛 버터를 먹음",
+    "interpretation_ko": "건강하고 계획이 잘 되어 재산과 앎을 얻을 조짐",
+    "interpretation_en": "a sign of good health, plans well carried out, and gaining possessions, wealth and knowledge",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Butter",
+      "original": "To dream of eating fresh, golden butter, is a sign of good health and plans well carried out; it will bring unto you possessions, wealth and knowledge.",
+      "translation_ko": "신선한 황금빛 버터를 먹는 꿈은 건강하고 계획이 잘 되는 조짐이며, 재산과 부와 앎을 가져다준다"
+    }
+  },
+  {
+    "term_ko": "버터",
+    "term_en": "butter",
+    "context": "상한 버터를 먹음",
+    "interpretation_ko": "몸으로 애써 겨우 먹고살 만큼을 얻을 조짐",
+    "interpretation_en": "a sign of a competency acquired through the struggles of manual labor",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Butter",
+      "original": "To eat rancid butter, denotes a competency acquired through struggles of manual labor.",
+      "translation_ko": "상한 버터를 먹으면 몸으로 애쓴 끝에 겨우 먹고살 만큼을 얻는다"
+    }
+  },
+  {
+    "term_ko": "버터",
+    "term_en": "butter",
+    "context": "버터를 팜",
+    "interpretation_ko": "작은 이익을 얻을 조짐",
+    "interpretation_en": "a sign of small gain",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Butter",
+      "original": "To sell butter, denotes small gain.",
+      "translation_ko": "버터를 팔면 작은 이익이 생긴다"
+    }
+  },
+  {
+    "term_ko": "나비",
+    "term_en": "butterfly",
+    "context": "꽃과 풀 사이의 나비를 봄",
+    "interpretation_ko": "번성하고 뜻한 바를 이룰 조짐",
+    "interpretation_en": "a sign of prosperity and fair attainments",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Butterfly",
+      "original": "To see a butterfly among flowers and green grasses, indicates prosperity and fair attainments.",
+      "translation_ko": "꽃과 푸른 풀 사이의 나비를 보면 번성하고 뜻한 바를 이룬다"
+    }
+  },
+  {
+    "term_ko": "나비",
+    "term_en": "butterfly",
+    "context": "나비가 날아다니는 것을 봄",
+    "interpretation_ko": "멀리 있는 벗의 소식이 올 조짐",
+    "interpretation_en": "a sign of news from absent friends",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Butterfly",
+      "original": "To see them flying about, denotes news from absent friends by letter, or from some one who has seen them.",
+      "translation_ko": "나비가 날아다니는 것을 보면 멀리 있는 벗의 소식이 편지로, 또는 그를 본 누군가에게서 온다"
+    }
+  },
+  {
+    "term_ko": "나비",
+    "term_en": "butterfly",
+    "context": "젊은 여성이 나비를 봄",
+    "interpretation_ko": "행복한 사랑이 평생의 인연으로 맺어질 조짐",
+    "interpretation_en": "a sign of a happy love culminating in a life union",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Butterfly",
+      "original": "To a young woman, a happy love, culminating in a life union.",
+      "translation_ko": "젊은 여성에게는 행복한 사랑이 평생의 인연으로 맺어진다"
+    }
+  },
+  {
+    "term_ko": "단추",
+    "term_en": "button",
+    "context": "제복에 반짝이는 단추를 닮",
+    "interpretation_ko": "젊은 여성에게는 잘생기고 넉넉한 배필의 애정이 올 조짐",
+    "interpretation_en": "a sign to a young woman of the warm affection of a fine looking and wealthy partner in marriage",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttons",
+      "original": "To dream of sewing bright shining buttons on a uniform, betokens to a young woman the warm affection of a fine looking and wealthy partner in marriage.",
+      "translation_ko": "제복에 반짝이는 단추를 다는 꿈은 젊은 여성에게 잘생기고 넉넉한 배필의 따뜻한 애정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "단추",
+    "term_en": "button",
+    "context": "젊은 남성이 단추를 닮",
+    "interpretation_ko": "군의 명예를 얻고 앞길이 밝을 조짐",
+    "interpretation_en": "a sign of admittance to military honors and a bright career",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttons",
+      "original": "To a youth, it signifies admittance to military honors and a bright career.",
+      "translation_ko": "젊은 남성에게는 군의 명예를 얻고 앞길이 밝다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "단추",
+    "term_en": "button",
+    "context": "광택 없는 단추나 천 단추를 봄",
+    "interpretation_ko": "실망과 잇단 손실, 건강이 나빠질 조짐",
+    "interpretation_en": "a sign of disappointments, systematic losses and ill health",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttons",
+      "original": "Dull, or cloth buttons, denotes disappointments and systematic losses and ill health.",
+      "translation_ko": "광택 없는 단추나 천 단추는 실망과 잇단 손실, 나빠지는 건강을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "단추",
+    "term_en": "button",
+    "context": "단추를 잃음",
+    "interpretation_ko": "장사에서 손실이 있을 조짐",
+    "interpretation_en": "a sign of prospective losses in trade",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttons",
+      "original": "The loss of a button, and the consequent anxiety as to losing a garment, denotes prospective losses in trade.",
+      "translation_ko": "단추를 잃고 옷을 잃을까 걱정하게 되면 장사에서 손실이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "버터밀크",
+    "term_en": "buttermilk",
+    "context": "버터밀크를 마심",
+    "interpretation_ko": "즐거움 뒤에 슬픔이 따르고 경솔함이 건강을 해칠 조짐",
+    "interpretation_en": "a sign that sorrow will follow pleasure and imprudence will impair health",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttermilk",
+      "original": "Drinking buttermilk, denotes sorrow will follow some worldly pleasure, and some imprudence will impair the general health of the dreamer.",
+      "translation_ko": "버터밀크를 마시면 세상의 즐거움 뒤에 슬픔이 따르고, 경솔함이 건강을 해친다"
+    }
+  },
+  {
+    "term_ko": "버터밀크",
+    "term_en": "buttermilk",
+    "context": "버터밀크를 남에게 주거나 돼지에게 먹임",
+    "interpretation_ko": "그보다 더 나쁜 조짐",
+    "interpretation_en": "a sign that is worse still",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttermilk",
+      "original": "To give it away, or feed it to pigs, is bad still.",
+      "translation_ko": "그것을 남에게 주거나 돼지에게 먹이면 더 나쁘다"
+    }
+  },
+  {
+    "term_ko": "버터밀크",
+    "term_en": "buttermilk",
+    "context": "굴 수프에 탄 버터밀크를 마심",
+    "interpretation_ko": "역겨운 일을 떠맡고 불운을 마주할 조짐",
+    "interpretation_en": "a sign that you will be called on to do a repulsive thing and ill luck will confront you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Buttermilk",
+      "original": "To dream that you are drinking buttermilk made into oyster soup, denotes that you will be called on to do some very repulsive thing, and ill luck will confront you.",
+      "translation_ko": "굴 수프에 탄 버터밀크를 마시는 꿈은 아주 역겨운 일을 떠맡게 되고 불운을 마주하게 된다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "말똥가리",
+    "term_en": "buzzard",
+    "context": "말똥가리가 말하는 것을 들음",
+    "interpretation_ko": "묵은 추문이 일어나 얽혀 해를 입을 조짐",
+    "interpretation_en": "a sign that some old scandal will arise and injure you by your connection with it",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buzzard",
+      "original": "To dream that you hear a buzzard talking, foretells that some old scandal will arise and work you injury by your connection with it.",
+      "translation_ko": "말똥가리가 말하는 것을 듣는 꿈은 묵은 추문이 일어나 그것에 얽혀 해를 입게 된다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "말똥가리",
+    "term_en": "buzzard",
+    "context": "철길에 앉아 있는 말똥가리를 봄",
+    "interpretation_ko": "사고나 손실이 닥칠 조짐",
+    "interpretation_en": "a sign that some accident or loss is about to descend upon you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buzzard",
+      "original": "To see one sitting on a railroad, denotes some accident or loss is about to descend upon you.",
+      "translation_ko": "철길에 앉아 있는 것을 보면 사고나 손실이 닥치려 한다"
+    }
+  },
+  {
+    "term_ko": "말똥가리",
+    "term_en": "buzzard",
+    "context": "다가가자 말똥가리가 날아감",
+    "interpretation_ko": "추문으로 생긴 다툼을 무마할 수 있을 조짐",
+    "interpretation_en": "a sign that you will be able to smooth over a scandalous disagreement",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buzzard",
+      "original": "To see them fly away as you approach, foretells that you will be able to smooth over some scandalous disagreement among your friends, or even appertaining to yourself.",
+      "translation_ko": "다가가자 날아가는 것을 보면 벗들 사이의, 혹은 자기 일인 추문으로 생긴 다툼을 무마할 수 있다"
+    }
+  },
+  {
+    "term_ko": "말똥가리",
+    "term_en": "buzzard",
+    "context": "말똥가리를 봄",
+    "interpretation_ko": "험한 뒷말이나 예사롭지 않은 추문이 어지럽힐 조짐",
+    "interpretation_en": "a sign of salacious gossip or unusual scandal disturbing you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Buzzard",
+      "original": "To see buzzards in a dream, portends generally salacious gossip or that unusual scandal will disturb you.",
+      "translation_ko": "꿈에 말똥가리를 보면 대체로 험한 뒷말이나 예사롭지 않은 추문이 어지럽힌다"
+    }
+  },
+  {
+    "term_ko": "삯마차",
+    "term_en": "cab",
+    "context": "삯마차를 타고 감",
+    "interpretation_ko": "일이 즐겁고 그런대로 넉넉할 조짐",
+    "interpretation_en": "a sign of pleasant avocations and average prosperity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cab",
+      "original": "To ride in a cab in dreams, is significant of pleasant avocations, and average prosperity you will enjoy.",
+      "translation_ko": "꿈에 삯마차를 타는 것은 즐거운 일과 그런대로 넉넉한 형편을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "삯마차",
+    "term_en": "cab",
+    "context": "밤에 여럿과 함께 삯마차를 탐",
+    "interpretation_ko": "벗들에게 숨기려는 비밀이 생길 조짐",
+    "interpretation_en": "a sign that you will have a secret you try to keep from your friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cab",
+      "original": "To ride in a cab at night, with others, indicates that you will have a secret that you will endeavor to keep from your friends.",
+      "translation_ko": "밤에 여럿과 함께 삯마차를 타면 벗들에게 숨기려는 비밀이 생긴다"
+    }
+  },
+  {
+    "term_ko": "삯마차",
+    "term_en": "cab",
+    "context": "여자와 함께 삯마차를 탐",
+    "interpretation_ko": "추문이 내 이름을 평판 나쁜 이들과 엮을 조짐",
+    "interpretation_en": "a sign that scandal will couple your name with others of bad repute",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cab",
+      "original": "To ride in a cab with a woman, scandal will couple your name with others of bad repute.",
+      "translation_ko": "여자와 함께 삯마차를 타면 추문이 내 이름을 평판 나쁜 이들과 엮는다"
+    }
+  },
+  {
+    "term_ko": "삯마차",
+    "term_en": "cab",
+    "context": "삯마차를 몲",
+    "interpretation_ko": "고된 일을 하며 나아질 길이 적을 조짐",
+    "interpretation_en": "a sign of manual labor with little chance of advancement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cab",
+      "original": "To dream of driving a public cab, denotes manual labor, with little chance of advancement.",
+      "translation_ko": "삯마차를 모는 꿈은 고된 일을 하며 나아질 길이 적음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "양배추",
+    "term_en": "cabbage",
+    "context": "양배추를 봄",
+    "interpretation_ko": "온갖 탈이 어지럽게 일어날 조짐",
+    "interpretation_en": "a bad sign; disorders may run riot in all forms",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cabbage",
+      "original": "It is bad to dream of cabbage.  Disorders may run riot in all forms.",
+      "translation_ko": "양배추 꿈은 나쁘다. 온갖 탈이 어지럽게 일어날 수 있다"
+    }
+  },
+  {
+    "term_ko": "양배추",
+    "term_en": "cabbage",
+    "context": "푸른 양배추를 봄",
+    "interpretation_ko": "사랑에서 배신이, 혼인에서 부정이 있을 조짐",
+    "interpretation_en": "a sign of unfaithfulness in love and infidelity in wedlock",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cabbage",
+      "original": "To dream of seeing cabbage green, means unfaithfulness in love and infidelity in wedlock.",
+      "translation_ko": "푸른 양배추를 보는 꿈은 사랑에서의 배신과 혼인에서의 부정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "양배추",
+    "term_en": "cabbage",
+    "context": "양배추 통을 자름",
+    "interpretation_ko": "헤픈 씀씀이로 화를 자초할 조짐",
+    "interpretation_en": "a sign that lavish expenditure is tightening the cords of calamity around you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cabbage",
+      "original": "To cut heads of cabbage, denotes that you are tightening the cords of calamity around you by lavish expenditure.",
+      "translation_ko": "양배추 통을 자르면 헤픈 씀씀이로 재앙의 줄을 제 몸에 조이고 있다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "케이블",
+    "term_en": "cable",
+    "context": "케이블을 봄",
+    "interpretation_ko": "위험한 일을 맡되 해내면 부와 명예가 넘칠 조짐",
+    "interpretation_en": "a sign of undertaking hazardous work that, if completed, will abound in riches and honor",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cable",
+      "original": "To dream of a cable, foretells the undertaking of a decidedly hazardous work, which, if successfully carried to completion, will abound in riches and honor to you.",
+      "translation_ko": "케이블 꿈은 몹시 위험한 일을 맡게 됨을 알리며, 끝까지 해내면 부와 명예가 넘치게 된다"
+    }
+  },
+  {
+    "term_ko": "케이블",
+    "term_en": "cable",
+    "context": "해외 전보를 받음",
+    "interpretation_ko": "중요한 소식이 곧 오지만 불쾌한 말이 따를 조짐",
+    "interpretation_en": "a sign that an important message will reach you and cause disagreeable comments",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cable",
+      "original": "To dream of receiving cablegrams, denotes that a message of importance will reach you soon, and will cause disagreeable comments.",
+      "translation_ko": "해외 전보를 받는 꿈은 중요한 소식이 곧 이르고 불쾌한 말이 따르게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "선실",
+    "term_en": "cabin",
+    "context": "배의 선실에 있음",
+    "interpretation_ko": "재앙이 꾸며지고, 증인이 흔들려 소송에서 질 조짐",
+    "interpretation_en": "an unfortunate sign; mischief is brewing and you may lose a law suit from the unstability of your witness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cabin",
+      "original": "The cabin of a ship is rather unfortunate to be in in{sic} a dream.  Some mischief is brewing for you.  You will most likely be engaged in a law suit, in which you will lose from the unstability of your witness.",
+      "translation_ko": "꿈에 배의 선실에 있는 것은 불운한 편이다. 재앙이 꾸며지고 있으며, 소송에 얽혀 증인이 흔들리는 바람에 지게 되기 쉽다"
+    }
+  },
+  {
+    "term_ko": "암탉 울음",
+    "term_en": "cackle",
+    "context": "암탉이 우는 소리를 들음",
+    "interpretation_ko": "이웃의 뜻밖의 부고에 놀라고, 병이 가난을 부를 조짐",
+    "interpretation_en": "a sign of a shock from news of an unexpected death nearby, and sickness causing poverty",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cackle",
+      "original": "To hear the cackling of hens denotes a sudden shock produced by the news of an unexpected death in your neighborhood, Sickness will cause poverty.",
+      "translation_ko": "암탉이 우는 소리를 들으면 이웃의 뜻밖의 부고에 갑작스레 놀라게 되고, 병이 가난을 부른다"
+    }
+  },
+  {
+    "term_ko": "새장",
+    "term_en": "cage",
+    "context": "새가 가득한 새장을 봄",
+    "interpretation_ko": "큰 재물과 어여쁜 자식들을 얻을 조짐",
+    "interpretation_en": "a sign of immense wealth and many beautiful children",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cage",
+      "original": "In your dreaming if you see a cageful of birds, you will be the happy possessor of immense wealth and many beautiful and charming children.",
+      "translation_ko": "꿈에 새가 가득한 새장을 보면 큰 재물과 어여쁜 자식들을 가진 이가 된다"
+    }
+  },
+  {
+    "term_ko": "새장",
+    "term_en": "cage",
+    "context": "새장 안에 새가 한 마리만 있음",
+    "interpretation_ko": "바라던 넉넉한 혼사를 맺을 조짐",
+    "interpretation_en": "a sign of a desirable and wealthy marriage",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cage",
+      "original": "To see only one bird, you will contract a desirable and wealthy marriage.",
+      "translation_ko": "새가 한 마리만 있는 것을 보면 바라던 넉넉한 혼사를 맺는다"
+    }
+  },
+  {
+    "term_ko": "새장",
+    "term_en": "cage",
+    "context": "새장이 비어 있음",
+    "interpretation_ko": "집안 사람 하나를 잃을 조짐",
+    "interpretation_en": "a sign that a member of the family will be lost",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cage",
+      "original": "No bird indicates a member of the family lost, either by elopement or death.",
+      "translation_ko": "새가 없으면 집안 사람 하나를 잃는다 — 달아나거나 죽어서다"
+    }
+  },
+  {
+    "term_ko": "새장",
+    "term_en": "cage",
+    "context": "우리에 갇힌 들짐승을 봄",
+    "interpretation_ko": "적과 불운을 이겨 낼 조짐",
+    "interpretation_en": "a sign that you will triumph over enemies and misfortunes",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cage",
+      "original": "To see wild animals caged, denotes that you will triumph over your enemies and misfortunes.",
+      "translation_ko": "우리에 갇힌 들짐승을 보면 적과 불운을 이겨 낸다"
+    }
+  },
+  {
+    "term_ko": "새장",
+    "term_en": "cage",
+    "context": "들짐승과 함께 우리 안에 있음",
+    "interpretation_ko": "길에서 사고를 당해 참혹한 일을 겪을 조짐",
+    "interpretation_en": "a sign of harrowing scenes from accidents while traveling",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cage",
+      "original": "If you are in the cage with them, it denotes harrowing scenes from accidents while traveling.",
+      "translation_ko": "그 짐승들과 함께 우리 안에 있으면 길에서 사고를 당해 참혹한 일을 겪는다"
+    }
+  },
+  {
+    "term_ko": "케이크",
+    "term_en": "cake",
+    "context": "반죽 부침개나 팬케이크를 봄",
+    "interpretation_ko": "마음 준 자리가 옳고 집을 물려받을 조짐",
+    "interpretation_en": "a sign that the dreamer's affections are well placed and a home will be bequeathed",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cakes",
+      "original": "Batter or pancakes, denote that the affections of the dreamer are well placed, and a home will be bequeathed to him or her.",
+      "translation_ko": "반죽 부침개나 팬케이크는 마음 준 자리가 옳고 집을 물려받게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "케이크",
+    "term_en": "cake",
+    "context": "달콤한 케이크를 봄",
+    "interpretation_ko": "일하는 이에게는 이익이, 벌이는 이에게는 기회가 올 조짐",
+    "interpretation_en": "a sign of gain for the laboring and a favorable opportunity for the enterprising",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cakes",
+      "original": "To dream of sweet cakes, is gain for the laboring and a favorable opportunity for the enterprising.",
+      "translation_ko": "달콤한 케이크 꿈은 일하는 이에게는 이익이고 벌이는 이에게는 좋은 기회다"
+    }
+  },
+  {
+    "term_ko": "케이크",
+    "term_en": "cake",
+    "context": "파운드케이크를 봄",
+    "interpretation_ko": "사람들과의 자리나 일에서 큰 즐거움이 있을 조짐",
+    "interpretation_en": "a sign of much pleasure from society or business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cakes",
+      "original": "Pound cake is significant of much pleasure either from society or business.",
+      "translation_ko": "파운드케이크는 사람들과의 자리나 일에서 오는 큰 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "케이크",
+    "term_en": "cake",
+    "context": "젊은 여성이 제 혼례 케이크를 봄",
+    "interpretation_ko": "이 갈래에서 유일하게 흉한 케이크",
+    "interpretation_en": "the only bad luck cake in the category",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cakes",
+      "original": "For a young woman to dream of her wedding cake is the only bad luck cake in the category.",
+      "translation_ko": "젊은 여성이 제 혼례 케이크를 꿈꾸는 것은 이 갈래에서 유일하게 흉한 케이크다"
+    }
+  },
+  {
+    "term_ko": "케이크",
+    "term_en": "cake",
+    "context": "케이크를 구움",
+    "interpretation_ko": "보거나 먹는 것만 못한 조짐",
+    "interpretation_en": "a sign not so good as seeing or eating them",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cakes",
+      "original": "Baking them is not so good an omen as seeing them or eating them.",
+      "translation_ko": "케이크를 굽는 것은 보거나 먹는 것만큼 좋은 조짐은 아니다"
+    }
+  },
+  {
+    "term_ko": "감홍",
+    "term_en": "calomel",
+    "context": "감홍을 봄",
+    "interpretation_ko": "누군가 벗들을 모르게 이용해 나를 속이고 해치려 할 조짐",
+    "interpretation_en": "a sign that someone seeks to deceive and injure you through the unconscious abetting of friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Calomel",
+      "original": "To dream of calomel shows some person is seeking to deceive and injure you through the unconscious abetting of friends.",
+      "translation_ko": "감홍 꿈은 누군가 벗들이 모르는 새 그들을 이용해 나를 속이고 해치려 함을 보여 준다"
+    }
+  },
+  {
+    "term_ko": "감홍",
+    "term_en": "calomel",
+    "context": "젊은 여성이 감홍을 먹음",
+    "interpretation_ko": "믿던 이의 교묘한 꾀에 당할 조짐",
+    "interpretation_en": "a sign that she will be victimized by the artful designing of persons she trusts",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Calomel",
+      "original": "For a young woman to dream of taking it, foretells that she will be victimized through the artful designing of persons whom she trusts.",
+      "translation_ko": "젊은 여성이 그것을 먹는 꿈은 믿던 이들의 교묘한 꾀에 당하게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "감홍",
+    "term_en": "calomel",
+    "context": "감홍을 몸에 바름",
+    "interpretation_ko": "잠깐의 즐거움을 위해 속임수에 눈감을 조짐",
+    "interpretation_en": "a sign that she will close her eyes to deceit to enjoy a short season of pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Calomel",
+      "original": "If it is applied externally, she will close her eyes to deceit in order to enjoy a short season of pleasure.",
+      "translation_ko": "그것을 몸에 바르면 잠깐의 즐거움을 누리려고 속임수에 눈을 감게 된다"
+    }
+  },
+  {
+    "term_ko": "송아지",
+    "term_en": "calf",
+    "context": "송아지가 잔디밭에서 한가로이 풀을 뜯음",
+    "interpretation_ko": "젊은이에게는 즐거운 모임이, 재물을 좇는 이에게는 빠른 불어남이 있을 조짐",
+    "interpretation_en": "a sign of happy festive gatherings for the young and rapidly increasing wealth for those seeking it",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Calves",
+      "original": "To dream of calves peacefully grazing on a velvety lawn, foretells to the young, happy, festive gatherings and enjoyment.  Those engaged in seeking wealth will see it rapidly increasing.",
+      "translation_ko": "송아지들이 부드러운 잔디밭에서 한가로이 풀을 뜯는 꿈은 젊은이에게 즐겁고 흥겨운 모임을 알리고, 재물을 좇는 이에게는 그것이 빠르게 불어남을 알린다"
+    }
+  },
+  {
+    "term_ko": "이름 부름",
+    "term_en": "called",
+    "context": "낯선 목소리가 내 이름을 부름",
+    "interpretation_ko": "일이 위태로워지고 낯선 이의 도움에 기대거나 빚을 못 갚을 조짐",
+    "interpretation_en": "a sign that business will fall into a precarious state and strangers may lend assistance, or you may fail to meet obligations",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Called",
+      "original": "To hear your name called in a dream by strange voices, denotes that your business will fall into a precarious state, and that strangers may lend you assistance, or you may fail to meet your obligations.",
+      "translation_ko": "꿈에서 낯선 목소리가 내 이름을 부르면 일이 위태로워지고, 낯선 이가 도와주거나 아니면 빚을 못 갚게 된다"
+    }
+  },
+  {
+    "term_ko": "이름 부름",
+    "term_en": "called",
+    "context": "벗이나 친척의 목소리를 들음",
+    "interpretation_ko": "그중 누군가 위독하거나 죽을 조짐",
+    "interpretation_en": "a sign of the desperate illness, or death, of one of them",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Called",
+      "original": "To hear the voice of a friend or relative, denotes the desperate illness of some one of them, and may be death; in the latter case you may be called upon to stand as guardian over some one, in governing whom you should use much discretion.",
+      "translation_ko": "벗이나 친척의 목소리를 들으면 그중 누군가 위독하고 죽을 수도 있다. 죽는 경우에는 누군가의 후견을 맡게 될 수 있으니 매우 신중해야 한다"
+    }
+  },
+  {
+    "term_ko": "이름 부름",
+    "term_en": "called",
+    "context": "정혼한 이의 목소리를 들음",
+    "interpretation_ko": "소홀했다면 뉘우쳐야 하고, 아니면 오해로 헤어질 조짐",
+    "interpretation_en": "a warning to lovers: make amends for neglect, or suffer separation from misunderstanding",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Called",
+      "original": "Lovers hearing the voice of their affianced should heed the warning.  If they have been negligent in attention they should make amends.  Otherwise they may suffer separation from misunderstanding.",
+      "translation_ko": "정혼한 이의 목소리를 듣는 연인은 그 경고를 새겨야 한다. 소홀했다면 뉘우쳐야 하고, 그러지 않으면 오해로 헤어질 수 있다"
+    }
+  },
+  {
+    "term_ko": "이름 부름",
+    "term_en": "called",
+    "context": "죽은 이의 목소리를 들음",
+    "interpretation_ko": "제 병이 위중하거나 그릇된 판단으로 일이 꼬일 조짐",
+    "interpretation_en": "a warning of your own serious illness or business worry from bad judgment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Called",
+      "original": "To hear the voice of the dead may be a warning of your own serious illness or some business worry from bad judgment may ensue.",
+      "translation_ko": "죽은 이의 목소리를 듣는 것은 제 병이 위중하다는 경고일 수 있고, 그릇된 판단으로 일이 꼬일 수도 있다"
+    }
+  },
+  {
+    "term_ko": "달력",
+    "term_en": "calendar",
+    "context": "달력을 적어 감",
+    "interpretation_ko": "그 해 내내 몸가짐이 반듯하고 짜임새 있을 조짐",
+    "interpretation_en": "a sign that you will be orderly and systematic in habits throughout the year",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Calendar",
+      "original": "To dream of keeping a calendar, indicates that you will be very orderly and systematic in habits throughout the year.",
+      "translation_ko": "달력을 적어 가는 꿈은 그 해 내내 몸가짐이 반듯하고 짜임새 있을 것을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달력",
+    "term_en": "calendar",
+    "context": "달력을 봄",
+    "interpretation_ko": "셈한 것이 어긋나 실망할 조짐",
+    "interpretation_en": "a sign of disappointment in your calculations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Calendar",
+      "original": "To see a calendar, denotes disappointment in your calculations.",
+      "translation_ko": "달력을 보면 셈한 것이 어긋나 실망하게 된다"
+    }
+  }
+]

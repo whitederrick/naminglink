@@ -666,13 +666,27 @@
     "id": "butterfly",
     "aliases": [
       "호랑나비",
-      "흰나비"
+      "흰나비",
+      "나비 떼",
+      "나비가"
     ],
     "aliases_en": [
-      "butterflies"
+      "butterflies",
+      "a butterfly",
+      "the butterfly"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "꽃과 풀 사이의 나비를 봄": "꽃밭 잔디 화단 풀밭",
+      "나비가 날아다니는 것을 봄": "날아다 날아가 훨훨 날고 팔랑",
+      "젊은 여성이 나비를 봄": "처녀 아가씨 젊은 여자 소녀",
+      "벌과 나비가 어우러져 놂": "벌과 벌이 어우러 뒤섞 함께"
+    },
+    "contexts_en": {
+      "꽃과 풀 사이의 나비를 봄": "flowers grasses green among",
+      "나비가 날아다니는 것을 봄": "flying about fluttering",
+      "젊은 여성이 나비를 봄": "young woman happy love",
+      "벌과 나비가 어우러져 놂": "bees together mingling"
+    }
   },
   {
     "id": "chopsticks",

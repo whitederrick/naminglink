@@ -1,0 +1,430 @@
+[
+  {
+    "id": "burial",
+    "aliases": [
+      "장례식",
+      "장례 행렬",
+      "발인",
+      "상여"
+    ],
+    "aliases_en": [
+      "a burial",
+      "the burial",
+      "a burial procession",
+      "burying"
+    ],
+    "contexts": {
+      "햇빛이 비치는 가운데 친척의 장례에 참석함": "햇빛 햇살 맑은 화창 친척",
+      "비 오고 음산한 날씨의 장례": "비가 빗속 흐린 음산 궂은",
+      "슬픈 의식과 비통한 얼굴이 있는 장례": "슬픈 슬프 울고 비통 통곡"
+    },
+    "contexts_en": {
+      "햇빛이 비치는 가운데 친척의 장례에 참석함": "sunshine sunny bright shining relative",
+      "비 오고 음산한 날씨의 장례": "rain rainy dismal gloomy weather",
+      "슬픈 의식과 비통한 얼굴이 있는 장례": "sad sorrowing weeping mourning grief"
+    }
+  },
+  {
+    "id": "buried-alive",
+    "aliases": [
+      "생매장",
+      "산 채로 묻혔다",
+      "산 채로 파묻혔다",
+      "채로 묻혔다",
+      "채로 파묻혔다",
+      "무덤에 갇혔다"
+    ],
+    "aliases_en": [
+      "buried alive",
+      "buried while alive",
+      "entombed alive"
+    ],
+    "contexts": {
+      "산 채로 묻힘": "채로 파묻 묻혀 갇혀 덮였",
+      "무덤에서 구조됨": "구조 구해 꺼내 살아났 빠져나"
+    },
+    "contexts_en": {
+      "산 채로 묻힘": "covered trapped earth soil",
+      "무덤에서 구조됨": "rescued saved pulled escaped"
+    }
+  },
+  {
+    "id": "burn",
+    "aliases": [
+      "데었다",
+      "데었어",
+      "데어서",
+      "덴 상처",
+      "화상 자국",
+      "불에 뎀"
+    ],
+    "aliases_en": [
+      "a burn",
+      "burns",
+      "burnt",
+      "scalded"
+    ],
+    "contexts": {
+      "화상을 입음": "화상을 입었 흉터",
+      "맑게 타오르는 불에 손을 뎀": "손을 손이 손등 손바닥 맑은",
+      "숯불 위를 걸어 발을 뎀": "발을 발이 발바닥 숯불 걸어",
+      "불에 압도됨": "휩싸 뒤덮 온몸 갇혀 빠져나오지"
+    },
+    "contexts_en": {
+      "화상을 입음": "tidings good news",
+      "맑게 타오르는 불에 손을 뎀": "hand clear flowing",
+      "숯불 위를 걸어 발을 뎀": "feet coals walking beds",
+      "불에 압도됨": "overcome engulfed consumed trapped"
+    }
+  },
+  {
+    "id": "butcher",
+    "aliases": [
+      "백정",
+      "도축업자",
+      "고깃간 주인",
+      "푸주한"
+    ],
+    "aliases_en": [
+      "a butcher",
+      "the butcher",
+      "butchers"
+    ],
+    "contexts": {
+      "소를 도살하고 피가 많음": "도살 잡는 잡고 피가 소를",
+      "고기를 자르는 정육점 주인을 봄": "고기를 자르 썰어 베는 저미"
+    },
+    "contexts_en": {
+      "소를 도살하고 피가 많음": "slaughtering cattle blood slaughter",
+      "고기를 자르는 정육점 주인을 봄": "cutting meat chopping carving"
+    }
+  },
+  {
+    "id": "butter",
+    "aliases": [
+      "버터 덩이",
+      "버터 조각"
+    ],
+    "aliases_en": [
+      "butter",
+      "fresh butter",
+      "a pat of butter"
+    ],
+    "contexts": {
+      "신선한 황금빛 버터를 먹음": "신선 황금 노란 금빛",
+      "상한 버터를 먹음": "상한 쉬어 오래된 곰팡 썩은",
+      "버터를 팜": "팔았 파는 팔려 내다"
+    },
+    "contexts_en": {
+      "신선한 황금빛 버터를 먹음": "golden eating fine",
+      "상한 버터를 먹음": "rancid rotten spoiled stale",
+      "버터를 팜": "sell selling sold"
+    }
+  },
+  {
+    "id": "button",
+    "aliases": [
+      "단추알",
+      "옷단추",
+      "금단추"
+    ],
+    "aliases_en": [
+      "a button",
+      "buttons",
+      "shiny buttons"
+    ],
+    "contexts": {
+      "제복에 반짝이는 단추를 닮": "제복 군복 반짝 빛나 꿰매",
+      "젊은 남성이 단추를 닮": "총각 청년 젊은 남자 사내",
+      "광택 없는 단추나 천 단추를 봄": "무광 칙칙 흐릿 낡은 헝겊",
+      "단추를 잃음": "잃어 잃었 떨어져 빠져 뜯겨"
+    },
+    "contexts_en": {
+      "제복에 반짝이는 단추를 닮": "sewing shining uniform bright",
+      "젊은 남성이 단추를 닮": "youth young man military honors",
+      "광택 없는 단추나 천 단추를 봄": "dull cloth drab plain",
+      "단추를 잃음": "loss lost losing missing"
+    }
+  },
+  {
+    "id": "buttermilk",
+    "aliases": [
+      "버터 우유",
+      "탈지유"
+    ],
+    "aliases_en": [
+      "buttermilk",
+      "sour milk"
+    ],
+    "contexts": {
+      "버터밀크를 마심": "마셨 마시 들이켰 모금",
+      "버터밀크를 남에게 주거나 돼지에게 먹임": "주었 나눠 돼지 먹였 건넸",
+      "굴 수프에 탄 버터밀크를 마심": "굴을 수프 국물 섞은"
+    },
+    "contexts_en": {
+      "버터밀크를 마심": "drinking drank sip",
+      "버터밀크를 남에게 주거나 돼지에게 먹임": "give away feed pigs",
+      "굴 수프에 탄 버터밀크를 마심": "oyster soup mixed"
+    }
+  },
+  {
+    "id": "buzzard",
+    "aliases": [
+      "말똥가리 떼",
+      "썩은 고기를 먹는 새"
+    ],
+    "aliases_en": [
+      "a buzzard",
+      "buzzards",
+      "the buzzard"
+    ],
+    "contexts": {
+      "말똥가리가 말하는 것을 들음": "말하는 말을 지껄 사람처럼",
+      "철길에 앉아 있는 말똥가리를 봄": "철길 선로 기찻길 앉아 앉은",
+      "다가가자 말똥가리가 날아감": "다가가 다가서 날아갔 달아났 도망",
+      "말똥가리를 봄": "무리 여럿 몇몇"
+    },
+    "contexts_en": {
+      "말똥가리가 말하는 것을 들음": "talking speaking hear voice",
+      "철길에 앉아 있는 말똥가리를 봄": "railroad railway sitting track",
+      "다가가자 말똥가리가 날아감": "approach fly away flew",
+      "말똥가리를 봄": "several many flock group"
+    }
+  },
+  {
+    "id": "cab",
+    "aliases": [
+      "마차",
+      "삯마차꾼",
+      "전세 마차"
+    ],
+    "aliases_en": [
+      "a cab",
+      "the cab",
+      "a hansom",
+      "a public cab"
+    ],
+    "contexts": {
+      "삯마차를 타고 감": "타고 타는 올라탔 얻어탔",
+      "밤에 여럿과 함께 삯마차를 탐": "밤에 밤길 여럿 함께 일행",
+      "여자와 함께 삯마차를 탐": "여자와 여인과 부인과 아가씨와",
+      "삯마차를 몲": "몰았 모는 몰고 마부 부렸"
+    },
+    "contexts_en": {
+      "삯마차를 타고 감": "ride riding rode",
+      "밤에 여럿과 함께 삯마차를 탐": "night others together",
+      "여자와 함께 삯마차를 탐": "woman lady female",
+      "삯마차를 몲": "driving drove driver"
+    }
+  },
+  {
+    "id": "cabbage",
+    "aliases": [
+      "배추",
+      "양배추 통",
+      "캐비지"
+    ],
+    "aliases_en": [
+      "cabbage",
+      "a cabbage",
+      "cabbages"
+    ],
+    "contexts": {
+      "양배추를 봄": "양배추가 양배추만 나왔",
+      "푸른 양배추를 봄": "푸른 초록 파란 시퍼런 푸릇",
+      "양배추 통을 자름": "자르 잘랐 썰어 쪼갰 갈랐"
+    },
+    "contexts_en": {
+      "양배추를 봄": "disorders riot appeared",
+      "푸른 양배추를 봄": "green greenish",
+      "양배추 통을 자름": "cut cutting heads chopping"
+    }
+  },
+  {
+    "id": "cable",
+    "aliases": [
+      "굵은 밧줄",
+      "쇠줄",
+      "전보",
+      "해저 케이블"
+    ],
+    "aliases_en": [
+      "a cable",
+      "the cable",
+      "a cablegram",
+      "cablegrams"
+    ],
+    "contexts": {
+      "케이블을 봄": "굵은 밧줄 쇠줄 늘어진",
+      "해외 전보를 받음": "전보 전문 받았 받는 도착한"
+    },
+    "contexts_en": {
+      "케이블을 봄": "rope hazardous stout undertaking",
+      "해외 전보를 받음": "message receiving telegram important"
+    }
+  },
+  {
+    "id": "cabin",
+    "aliases": [
+      "선실",
+      "객실",
+      "배의 선실",
+      "선박 객실",
+      "선창방"
+    ],
+    "aliases_en": [
+      "a cabin",
+      "the cabin",
+      "ship's cabin"
+    ],
+    "contexts": {
+      "배의 선실에 있음": "객실 갑판 선창 아래층"
+    },
+    "contexts_en": {
+      "배의 선실에 있음": "ship vessel steamer aboard"
+    }
+  },
+  {
+    "id": "cackle",
+    "aliases": [
+      "암탉이 우는 소리",
+      "닭이 우는 소리",
+      "암탉 울음소리",
+      "닭 울음소리",
+      "꼬꼬댁"
+    ],
+    "aliases_en": [
+      "cackling",
+      "cackle",
+      "hens cackling"
+    ],
+    "contexts": {
+      "암탉이 우는 소리를 들음": "암탉 닭이 울음 우는 소리 들렸"
+    },
+    "contexts_en": {
+      "암탉이 우는 소리를 들음": "clucking noise heard sound"
+    }
+  },
+  {
+    "id": "cage",
+    "aliases": [
+      "조롱",
+      "짐승 우리",
+      "철창"
+    ],
+    "aliases_en": [
+      "a cage",
+      "the cage",
+      "a birdcage",
+      "caged"
+    ],
+    "contexts": {
+      "새가 가득한 새장을 봄": "가득 잔뜩 빼곡 우글",
+      "새장 안에 새가 한 마리만 있음": "혼자 외따로 달랑",
+      "새장이 비어 있음": "비어 텅텅 없었 사라졌",
+      "우리에 갇힌 들짐승을 봄": "들짐승 맹수 짐승이 갇힌 사자",
+      "들짐승과 함께 우리 안에 있음": "함께 같이 안에 들어가 나도"
+    },
+    "contexts_en": {
+      "새가 가득한 새장을 봄": "full many crowded",
+      "새장 안에 새가 한 마리만 있음": "only solitary lone",
+      "새장이 비어 있음": "empty vacant deserted",
+      "우리에 갇힌 들짐승을 봄": "wild animals beasts",
+      "들짐승과 함께 우리 안에 있음": "inside together trapped"
+    }
+  },
+  {
+    "id": "cake",
+    "aliases": [
+      "떡",
+      "빵 조각",
+      "과자"
+    ],
+    "aliases_en": [
+      "a cake",
+      "cakes",
+      "the cake"
+    ],
+    "contexts": {
+      "반죽 부침개나 팬케이크를 봄": "부침개 반죽 전을 지짐",
+      "달콤한 케이크를 봄": "달콤 달달 설탕 꿀맛",
+      "파운드케이크를 봄": "파운드 묵직 두툼",
+      "젊은 여성이 제 혼례 케이크를 봄": "혼례 결혼 웨딩 신부",
+      "케이크를 구움": "구웠 굽는 구워 오븐"
+    },
+    "contexts_en": {
+      "반죽 부침개나 팬케이크를 봄": "batter griddle flapjacks",
+      "달콤한 케이크를 봄": "sweet sugary",
+      "파운드케이크를 봄": "pound heavy dense",
+      "젊은 여성이 제 혼례 케이크를 봄": "wedding bride marriage",
+      "케이크를 구움": "baking bake baked"
+    }
+  },
+  {
+    "id": "calomel",
+    "aliases": [
+      "수은 가루약",
+      "감홍 가루"
+    ],
+    "aliases_en": [
+      "calomel",
+      "the calomel"
+    ],
+    "contexts": {
+      "감홍을 봄": "감홍이 약이 놓여 보였",
+      "젊은 여성이 감홍을 먹음": "먹었 삼켰 복용 마셨",
+      "감홍을 몸에 바름": "발랐 바르 문질 붙였"
+    },
+    "contexts_en": {
+      "감홍을 봄": "deceive seeking abetting",
+      "젊은 여성이 감홍을 먹음": "taking swallowed took",
+      "감홍을 몸에 바름": "applied externally rubbed"
+    }
+  },
+  {
+    "id": "calf",
+    "aliases": [
+      "어린 소",
+      "송아지 떼"
+    ],
+    "aliases_en": [
+      "a calf",
+      "calves",
+      "the calves"
+    ],
+    "contexts": {
+      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "잔디 풀을 뜯어 한가 놀고"
+    },
+    "contexts_en": {
+      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "grazing lawn peacefully grass"
+    }
+  },
+  {
+    "id": "called",
+    "aliases": [
+      "이름을 불렀다",
+      "이름을 부르는",
+      "이름이 불렸다",
+      "나를 불렀다",
+      "부르는 소리",
+      "부르는 목소리"
+    ],
+    "aliases_en": [
+      "hearing your name called",
+      "name called",
+      "a voice calling"
+    ],
+    "contexts": {
+      "낯선 목소리가 내 이름을 부름": "낯선 모르는 처음 듣는 생소",
+      "벗이나 친척의 목소리를 들음": "친구 친척 가족 지인",
+      "정혼한 이의 목소리를 들음": "약혼 정혼 애인 연인 사랑하는",
+      "죽은 이의 목소리를 들음": "죽은 돌아가신 고인 저승"
+    },
+    "contexts_en": {
+      "낯선 목소리가 내 이름을 부름": "strange strangers unfamiliar",
+      "벗이나 친척의 목소리를 들음": "friend relative family",
+      "정혼한 이의 목소리를 들음": "affianced lover betrothed fiance",
+      "죽은 이의 목소리를 들음": "dead deceased departed"
+    }
+  }
+]

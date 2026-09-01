@@ -1094,7 +1094,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "rug"
   ],
   "butterfly": [
-    "butterflies"
+    "butterflies",
+    "a butterfly",
+    "the butterfly"
   ],
   "chopsticks": [
     "chopstick"
@@ -3571,5 +3573,98 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "burrs",
     "a bur",
     "sticky burrs"
+  ],
+  "burial": [
+    "a burial",
+    "the burial",
+    "a burial procession",
+    "burying"
+  ],
+  "buried-alive": [
+    "buried alive",
+    "buried while alive",
+    "entombed alive"
+  ],
+  "burn": [
+    "a burn",
+    "burns",
+    "burnt",
+    "scalded"
+  ],
+  "butcher": [
+    "a butcher",
+    "the butcher",
+    "butchers"
+  ],
+  "butter": [
+    "butter",
+    "fresh butter",
+    "a pat of butter"
+  ],
+  "button": [
+    "a button",
+    "buttons",
+    "shiny buttons"
+  ],
+  "buttermilk": [
+    "buttermilk",
+    "sour milk"
+  ],
+  "buzzard": [
+    "a buzzard",
+    "buzzards",
+    "the buzzard"
+  ],
+  "cab": [
+    "a cab",
+    "the cab",
+    "a hansom",
+    "a public cab"
+  ],
+  "cabbage": [
+    "cabbage",
+    "a cabbage",
+    "cabbages"
+  ],
+  "cable": [
+    "a cable",
+    "the cable",
+    "a cablegram",
+    "cablegrams"
+  ],
+  "cabin": [
+    "a cabin",
+    "the cabin",
+    "ship's cabin"
+  ],
+  "cackle": [
+    "cackling",
+    "cackle",
+    "hens cackling"
+  ],
+  "cage": [
+    "a cage",
+    "the cage",
+    "a birdcage",
+    "caged"
+  ],
+  "cake": [
+    "a cake",
+    "cakes",
+    "the cake"
+  ],
+  "calomel": [
+    "calomel",
+    "the calomel"
+  ],
+  "calf": [
+    "a calf",
+    "calves",
+    "the calves"
+  ],
+  "called": [
+    "hearing your name called",
+    "name called",
+    "a voice calling"
   ]
 };

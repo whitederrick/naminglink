@@ -27,7 +27,7 @@
 // 실행:  cd apps/dreamslink && npx tsx scripts/audit-km-dead-words.mts
 // 종료 코드: 0 죽은 낱말 없음 / 1 있음 / 2 검사할 것이 없음
 
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import path from "node:path";
 
 /**
@@ -78,8 +78,13 @@ const EXTRACT = path.join(ROOT, "apps/dreamslink/data-sources/extract");
 const DICT = path.join(ROOT, "apps/dreamslink/src/lib/dream-symbols.v2.data.json");
 
 const GROUPS = [
-  ...Array.from({ length: 9 }, (_, i) => `km${i + 1}`),
-  ...Array.from({ length: 7 }, (_, i) => `kmm${i + 1}`),
+  // **세어 적지 않는다** — 디렉터리에 있는 것을 전부 읽는다(CLAUDE.md §5).
+  // 2026-09-01에 `kmm8.json`을 더했는데 이 목록이 `kmm7`에 머물러 있어, 새 상징 18개의
+  // 판별어가 **한 낱말도 검사되지 않은 채** 「죽은 낱말 0개」가 나왔다.
+  ...readdirSync(EXTRACT)
+    .filter((f) => /^kmm?\d+\.json$/.test(f))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort((a, b) => a.length - b.length || a.localeCompare(b)),
 ];
 
 type KmEntry = {
