@@ -4134,5 +4134,83 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "colonel": [
     "a colonel",
     "colonels"
+  ],
+  "collar": [
+    "collars",
+    "a collar"
+  ],
+  "college": [
+    "a college",
+    "colleges",
+    "campus"
+  ],
+  "colliery": [
+    "a coal-mine",
+    "coal mine",
+    "collieries"
+  ],
+  "collision": [
+    "a collision",
+    "collisions",
+    "crash"
+  ],
+  "combat": [
+    "combats",
+    "combatants"
+  ],
+  "comedy": [
+    "a comedy",
+    "comedies",
+    "light play"
+  ],
+  "comet": [
+    "a comet",
+    "comets"
+  ],
+  "comic-songs": [
+    "comic song",
+    "funny songs"
+  ],
+  "command": [
+    "commanded",
+    "commanding"
+  ],
+  "commandment": [
+    "commandments",
+    "ten commandments"
+  ],
+  "commerce": [
+    "commercial",
+    "trade"
+  ],
+  "committee": [
+    "a committee",
+    "committees"
+  ],
+  "companion": [
+    "companions",
+    "a companion"
+  ],
+  "compass": [
+    "a compass",
+    "compasses"
+  ],
+  "completion": [
+    "completing",
+    "completed"
+  ],
+  "complexion": [
+    "complexions"
+  ],
+  "composing": [
+    "composing stick"
+  ],
+  "concert": [
+    "concerts",
+    "a concert"
+  ],
+  "concubine": [
+    "concubines",
+    "mistress"
   ]
 };

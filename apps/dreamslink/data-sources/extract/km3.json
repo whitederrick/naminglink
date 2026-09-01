@@ -668,10 +668,12 @@
   {
     "id": "combing-one-s-hair",
     "aliases": [
-      "빗질",
-      "머리를 빗",
-      "참빗",
-      "얼레빗"
+      "머리를 빗었다",
+      "머리를 빗는",
+      "빗질했다",
+      "빗질을",
+      "빗었다",
+      "빗고"
     ],
     "aliases_en": [
       "comb my hair",
@@ -679,8 +681,14 @@
       "brushing hair",
       "combed"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "머리를 빗음": "빗질 빗으로",
+      "머리를 곱게 빗음": "곱게 단정 정갈"
+    },
+    "contexts_en": {
+      "머리를 빗음": "illness relative decay",
+      "머리를 곱게 빗음": "neatly tidily groomed"
+    }
   },
   {
     "id": "deceased-elder",

@@ -10,6 +10,7 @@
     "m15.json",
     "m16.json",
     "m17.json",
+    "m18.json",
     "m2.json",
     "m3.json",
     "m4a.json",
@@ -26748,6 +26749,309 @@
       ]
     },
     {
+      "id": "colliery",
+      "term_ko": "탄광",
+      "term_en": "colliery",
+      "aliases": [
+        "탄광",
+        "석탄 광산"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "탄광에서 광부를 봄",
+          "interpretation_ko": "어떤 나쁜 것이 힘을 써서 나를 무너뜨리려 할 조짐",
+          "interpretation_en": "some evil will assert its power for your downfall",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Colliery or Coal-Mine",
+              "original": "To dream of being in a coal-mine or colliery and seeing miners, denotes that some evil will assert its power for your downfall",
+              "translation_ko": "탄광 안에서 광부들을 보는 꿈은, 어떤 나쁜 것이 힘을 써서 나를 무너뜨리려 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "탄광의 지분을 가짐",
+          "interpretation_ko": "어떤 거래에 안전하게 투자할 조짐",
+          "interpretation_en": "your safe investment in some deal",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Colliery or Coal-Mine",
+              "original": "but if you dream of holding a share in a coal-mine, it denotes your safe investment in some deal.",
+              "translation_ko": "그러나 탄광의 지분을 갖는 꿈이라면 어떤 거래에 안전하게 투자함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "석탄을 캠",
+          "interpretation_ko": "부동산을 다루는 이나 치과 의사의 아내가 될 조짐",
+          "interpretation_en": "she will become the wife of a real-estate dealer or dentist",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Colliery or Coal-Mine",
+              "original": "For a young woman to dream of mining coal, foreshows she will become the wife of a real-estate dealer or dentist.",
+              "translation_ko": "젊은 여성이 석탄을 캐는 꿈을 꾸면, 부동산을 다루는 이나 치과 의사의 아내가 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "command",
+      "term_ko": "명령",
+      "term_en": "command",
+      "aliases": [
+        "호령",
+        "지시를 내렸다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "명령을 받음",
+          "interpretation_ko": "윗사람을 업신여긴 탓에 동료들에게 눌리게 될 조짐",
+          "interpretation_en": "you will be humbled by your associates for scorn shown your superiors",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Command",
+              "original": "To dream of being commanded, denotes that you will be humbled in some way by your associates for scorn shown your superiors.",
+              "translation_ko": "명령을 받는 꿈은, 윗사람을 업신여긴 탓에 동료들에게 어떤 식으로든 눌리게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "명령을 내림",
+          "interpretation_ko": "어떤 영예가 내게 주어질 조짐",
+          "interpretation_en": "you will have some honor conferred upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Command",
+              "original": "To dream of giving a command, you will have some honor conferred upon you.",
+              "translation_ko": "명령을 내리는 꿈은 어떤 영예가 내게 주어짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "으스대며 명령함",
+          "interpretation_ko": "실망이 뒤따를 조짐",
+          "interpretation_en": "disappointments will follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Command",
+              "original": "If this is done in a tyrannical or boastful way disappointments will follow.",
+              "translation_ko": "그것을 억누르듯 하거나 으스대며 하면 실망이 뒤따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compass",
+      "term_ko": "나침반",
+      "term_en": "compass",
+      "aliases": [
+        "방위 바늘",
+        "지남철"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나침반을 봄",
+          "interpretation_ko": "좁은 테두리 안에서 힘겹게 애써야 하나 그만큼 영예로울 조짐",
+          "interpretation_en": "you will be forced to struggle in narrow limits, making elevation more toilsome but fuller of honor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Compass",
+              "original": "To dream of a compass, denotes you will be forced to struggle in narrow limits, thus making elevation more toilsome but fuller of honor.",
+              "translation_ko": "나침반 꿈은 좁은 테두리 안에서 애써야 함을 뜻한다. 그만큼 오르기는 고되나 영예는 가득하다"
+            }
+          ]
+        },
+        {
+          "context": "뱃사람의 나침반 바늘을 봄",
+          "interpretation_ko": "넉넉한 형편에 둘러싸이고 정직한 이들이 도울 조짐",
+          "interpretation_en": "you will be surrounded by prosperous circumstances and honest people will favor you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Compass",
+              "original": "To dream of the compass or mariner's needle, foretells you will be surrounded by prosperous circumstances and honest people will favor you.",
+              "translation_ko": "나침반이나 뱃사람의 바늘을 꿈꾸면, 넉넉한 형편에 둘러싸이고 정직한 이들이 도와준다"
+            }
+          ]
+        },
+        {
+          "context": "나침반이 엉뚱한 곳을 가리킴",
+          "interpretation_ko": "잃을 위험과 속임이 있을 조짐",
+          "interpretation_en": "threatened loss and deception",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Compass",
+              "original": "To see one pointing awry, foretells threatened loss and deception.",
+              "translation_ko": "그것이 엉뚱한 곳을 가리키는 것을 보면 잃을 위험과 속임을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "completion",
+      "term_ko": "마무리",
+      "term_en": "completion",
+      "aliases": [
+        "끝마침",
+        "끝마쳤다",
+        "끝마치",
+        "다 마쳤다",
+        "마무리했다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "일을 끝마침",
+          "interpretation_ko": "이른 나이에 살림을 갖추어 바라는 대로 지낼 조짐",
+          "interpretation_en": "you will have acquired a competency early in life, and can spend your days as you like",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Completion",
+              "original": "To dream of completing a task or piece of work, denotes that you will have acquired a competency early in life, and that you can spend your days as you like and wherever you please.",
+              "translation_ko": "맡은 일이나 하던 작업을 끝마치는 꿈은, 이른 나이에 살림을 갖추어 바라는 대로 어디서든 지낼 수 있게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옷 한 벌을 지어 마침",
+          "interpretation_ko": "곧 배필을 정할 조짐",
+          "interpretation_en": "she will soon decide on a husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Completion",
+              "original": "For a young woman to dream that she has completed a garment, denotes that she will soon decide on a husband.",
+              "translation_ko": "젊은 여성이 옷 한 벌을 다 지은 꿈을 꾸면 곧 배필을 정하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "여행을 마침",
+          "interpretation_ko": "언제든 길을 떠날 여유를 갖게 될 조짐",
+          "interpretation_en": "you will have the means to make a journey whenever you like",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Completion",
+              "original": "To dream of completing a journey, you will have the means to make one whenever you like.",
+              "translation_ko": "여행을 마치는 꿈은 언제든 길을 떠날 여유를 갖게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concubine",
+      "term_ko": "첩",
+      "term_en": "concubine",
+      "aliases": [
+        "소실",
+        "첩실"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "첩과 함께 있음",
+          "interpretation_ko": "제 참모습과 형편을 세상에 감추려 애쓰다 망신당할 위험에 놓인 조짐",
+          "interpretation_en": "he is in danger of public disgrace, striving to keep from the world his true character and state of business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Concubine",
+              "original": "For a man to dream that he is in company with a concubine, forecasts he is in danger of public disgrace, striving to keep from the world his true character and state of business.",
+              "translation_ko": "남자가 첩과 함께 있는 꿈을 꾸면, 제 참모습과 형편을 세상에 감추려 애쓰다 망신당할 위험에 놓인다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 스스로 첩이 됨",
+          "interpretation_ko": "제 처신으로 스스로를 낮추게 될 조짐",
+          "interpretation_en": "she will lower herself by her own conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Concubine",
+              "original": "For a woman to dream that she is a concubine, indicates that she will degrade herself by her own improprieties.",
+              "translation_ko": "여성이 스스로 첩이 된 꿈을 꾸면, 제 온당치 못한 처신으로 스스로를 낮추게 된다"
+            }
+          ]
+        },
+        {
+          "context": "첩이 배신함",
+          "interpretation_ko": "오래된 적을 다시 만나고 예상하던 뒤집힘이 일어날 조짐",
+          "interpretation_en": "he has old enemies to encounter; expected reverses will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Concubine",
+              "original": "For a man to dream that his mistress is untrue, denotes that he has old enemies to encounter.  Expected reverses will arise.",
+              "translation_ko": "남자가 제 첩이 배신하는 꿈을 꾸면, 오래된 적을 다시 만나게 된다. 예상하던 뒤집힘이 일어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crossbow",
       "term_ko": "쇠뇌",
       "term_en": "crossbow",
@@ -37198,6 +37502,144 @@
       ]
     },
     {
+      "id": "collar",
+      "term_ko": "옷깃",
+      "term_en": "collar",
+      "aliases": [
+        "칼라",
+        "깃을 세운"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옷깃을 두름",
+          "interpretation_ko": "감당하기 어려울 만큼 높은 영예가 떠맡겨질 조짐",
+          "interpretation_en": "high honors thrust upon you that you will hardly be worthy of",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Collar",
+              "original": "To dream of wearing a collar, you will have high honors thrust upon you that you will hardly be worthy of.",
+              "translation_ko": "옷깃을 두르는 꿈은, 감당하기 어려울 만큼 높은 영예가 떠맡겨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 옷깃을 봄",
+          "interpretation_ko": "따르는 이는 많으나 참된 이가 없어 오래 홀로 지낼 조짐",
+          "interpretation_en": "many admirers, but no sincere ones; she will be likely to remain single for a long while",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Collar",
+              "original": "For a woman to dream of collars, she will have many admirers, but no sincere ones, She will be likely to remain single for a long while.",
+              "translation_ko": "여성이 옷깃 꿈을 꾸면 따르는 이는 많으나 참된 이가 없다. 오래 홀로 지내기 쉽다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "college",
+      "term_ko": "대학",
+      "term_en": "college",
+      "aliases": [
+        "대학교",
+        "학교 교정"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "대학을 봄",
+          "interpretation_ko": "오래 바라던 자리로 곧 올라갈 조짐",
+          "interpretation_en": "you are soon to advance to a position long sought after",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "College",
+              "original": "To dream of a college, denotes you are soon to advance to a position long sought after.",
+              "translation_ko": "대학 꿈은 오래 바라던 자리로 곧 올라감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "대학으로 돌아감",
+          "interpretation_ko": "좋은 평을 받는 일로 이름을 얻을 조짐",
+          "interpretation_en": "you will receive distinction through some well favored work",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "College",
+              "original": "To dream that you are back in college, foretells you will receive distinction through some well favored work.",
+              "translation_ko": "대학으로 돌아가 있는 꿈은 좋은 평을 받는 일로 이름을 얻게 됨을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collision",
+      "term_ko": "충돌",
+      "term_en": "collision",
+      "aliases": [
+        "부딪힘",
+        "박치기"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "충돌을 봄",
+          "interpretation_ko": "크게 다치는 사고를 겪고 일에서 실망할 조짐",
+          "interpretation_en": "an accident of a serious type and disappointments in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Collision",
+              "original": "To dream of a collision, you will meet with an accident of a serious type and disappointments in business.",
+              "translation_ko": "충돌 꿈은 크게 다치는 사고를 겪고 일에서 실망하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 충돌을 봄",
+          "interpretation_ko": "두 연인 사이에서 마음을 못 정해 다툼의 빌미가 될 조짐",
+          "interpretation_en": "she will be unable to decide between lovers, and will be the cause of wrangles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Collision",
+              "original": "For a young woman to see a collision, denotes she will be unable to decide between lovers, and will be the cause of wrangles.",
+              "translation_ko": "젊은 여성이 충돌을 보면, 두 연인 사이에서 마음을 정하지 못해 다툼의 빌미가 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "colonel",
       "term_ko": "대령",
       "term_en": "colonel",
@@ -37284,6 +37726,520 @@
               "locator": "鏡環釵釧梳篦",
               "original": "牙木梳舊事盡去",
               "translation_ko": "상아 빗과 나무 빗은 묵은 일이 다 없어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "term_ko": "격투",
+      "term_en": "combat",
+      "aliases": [
+        "맞붙어 싸움",
+        "육박전"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "격투를 벌임",
+          "interpretation_ko": "남의 사람인 줄 알면서 마음을 얻으려 들고, 좋은 평판을 잃을 큰 위험을 지게 될 조짐",
+          "interpretation_en": "you will seek the affections of someone you know to be another's, and run great risks of losing your good reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Combat",
+              "original": "To dream of engaging in combat, you will find yourself seeking to ingratiate your affections into the life and love of some one whom you know to be another's, and you will run great risks of losing your good reputation in business.",
+              "translation_ko": "격투를 벌이는 꿈은, 남의 사람인 줄 알면서 그 삶과 사랑에 제 마음을 들이밀게 되고, 일에서 좋은 평판을 잃을 큰 위험을 지게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "싸우는 이들을 봄",
+          "interpretation_ko": "둘 다 나를 사랑하고 목숨도 걸 연인 사이에서 고르게 될 조짐",
+          "interpretation_en": "she will have choice between lovers, both of whom love her and would face death for her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Combat",
+              "original": "For a young woman to dream of seeing combatants, signifies that she will have choice between lovers, both of whom love her and would face death for her.",
+              "translation_ko": "젊은 여성이 싸우는 이들을 보는 꿈은, 둘 다 자기를 사랑하고 목숨도 걸 연인 사이에서 고르게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combing-one-s-hair",
+      "term_ko": "머리 빗기",
+      "term_en": "combing one's hair",
+      "aliases": [
+        "머리를 빗었다",
+        "머리를 빗는",
+        "빗질했다",
+        "빗질을",
+        "빗었다",
+        "빗고"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "머리를 빗음",
+          "interpretation_ko": "벗이나 친척이 앓거나 죽고, 우정이 식고 재물을 잃을 조짐",
+          "interpretation_en": "the illness or death of a friend or relative; decay of friendship and loss of property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Combing",
+              "original": "To dream of combing one's hair, denotes the illness or death of a friend or relative.  Decay of friendship and loss of property is also indicated by this dream{.}",
+              "translation_ko": "머리를 빗는 꿈은 벗이나 친척이 앓거나 죽음을 뜻한다. 우정이 식고 재물을 잃는 것도 이 꿈이 가리킨다"
+            }
+          ]
+        },
+        {
+          "context": "머리를 곱게 빗음",
+          "interpretation_ko": "온갖 근심이 사라질 조짐",
+          "interpretation_en": "a sign that all worries will vanish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "梳頭洗面百憂去",
+              "translation_ko": "머리를 빗고 얼굴을 씻으면 온갖 근심이 사라진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comedy",
+      "term_ko": "희극",
+      "term_en": "comedy",
+      "aliases": [
+        "코미디",
+        "웃음극",
+        "가벼운 연극"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가벼운 연극을 봄",
+          "interpretation_ko": "어리석고 오래가지 않을 즐거움에 빠질 조짐",
+          "interpretation_en": "foolish and short-lived pleasures will be indulged in",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comedy",
+              "original": "To dream of being at a light play, denotes that foolish and short-lived pleasures will be indulged in by the dreamer.",
+              "translation_ko": "가벼운 연극 자리에 있는 꿈은, 어리석고 오래가지 않을 즐거움에 빠지게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "희극을 봄",
+          "interpretation_ko": "가벼운 즐거움과 기꺼운 일거리가 있을 조짐",
+          "interpretation_en": "light pleasures and pleasant tasks",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comedy",
+              "original": "To dream of seeing a comedy, is significant of light pleasures and pleasant tasks.",
+              "translation_ko": "희극을 보는 꿈은 가벼운 즐거움과 기꺼운 일거리를 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comet",
+      "term_ko": "혜성",
+      "term_en": "comet",
+      "aliases": [
+        "살별",
+        "꼬리별"
+      ],
+      "category": "nature",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하늘을 가르는 혜성을 봄",
+          "interpretation_ko": "뜻밖의 시련이 닥치나 용감히 맞서 남다른 이름에 오를 조짐",
+          "interpretation_en": "trials of an unexpected nature, but by bravely combating them you will rise to heights of fame",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comet",
+              "original": "To dream of this heavenly awe-inspiring object sailing through the skies, you will have trials of an unexpected nature to beset you, but by bravely combating these foes you will rise above the mediocre in life to heights of fame.",
+              "translation_ko": "하늘을 가르는 이 두려우리만치 장엄한 것을 꿈꾸면, 뜻밖의 시련이 에워싸나 그 적들과 용감히 맞서 평범함을 넘어 이름 높은 자리에 오른다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 혜성을 봄",
+          "interpretation_ko": "가까운 이를 잃고 슬퍼할 조짐",
+          "interpretation_en": "bereavement and sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comet",
+              "original": "For a young person, this dream portends bereavement and sorrow.",
+              "translation_ko": "젊은이에게 이 꿈은 가까운 이를 잃고 슬퍼함을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comic-songs",
+      "term_ko": "우스운 노래",
+      "term_en": "comic songs",
+      "aliases": [
+        "익살 노래",
+        "우스개 노래"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우스운 노래를 들음",
+          "interpretation_ko": "제 일을 키울 기회를 흘려보내고 노는 이들과 어울릴 조짐",
+          "interpretation_en": "you will disregard opportunity to advance your affairs and enjoy the companionship of the pleasure loving",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comic Songs",
+              "original": "To hear comic songs in dreams, foretells you will disregard opportunity to advance your affairs and enjoy the companionship of the pleasure loving.",
+              "translation_ko": "꿈에서 우스운 노래를 들으면, 제 일을 키울 기회를 흘려보내고 노는 이들과 어울리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "우스운 노래를 부름",
+          "interpretation_ko": "한동안 즐거우나 곧 어려움이 닥칠 조짐",
+          "interpretation_en": "you will enjoy much pleasure for a time, but difficulties will overtake you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Comic Songs",
+              "original": "To sing one, proves you will enjoy much pleasure for a time, but difficulties will overtake you.",
+              "translation_ko": "그런 노래를 부르면 한동안 크게 즐거우나 곧 어려움이 닥친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commandment",
+      "term_ko": "계명",
+      "term_en": "commandment",
+      "aliases": [
+        "십계명",
+        "계율"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "계명을 받음",
+          "interpretation_ko": "나보다 뜻이 센 이들에게 슬기롭지 못하게 휘둘릴 조짐",
+          "interpretation_en": "you will be unwisely influenced by persons of stronger will than your own",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Commandment",
+              "original": "To dream of receiving commands, foretells you will be unwisely influenced by persons of stronger will than your own.",
+              "translation_ko": "계명을 받는 꿈은, 나보다 뜻이 센 이들에게 슬기롭지 못하게 휘둘리게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "십계명을 읽거나 들음",
+          "interpretation_ko": "슬기로운 벗의 조언으로도 좀처럼 벗어나지 못할 잘못에 빠질 조짐",
+          "interpretation_en": "you will fall into errors from which you will hardly escape, even with the counsels of wise friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Commandment",
+              "original": "To read or hear the Ten Commandments read, denotes you will fall into errors from which you will hardly escape, even with the counsels of friends of wise and unerring judgment.",
+              "translation_ko": "십계명을 읽거나 읽는 것을 듣는 꿈은, 슬기롭고 그르침 없는 벗의 조언으로도 좀처럼 벗어나지 못할 잘못에 빠짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "term_ko": "상업",
+      "term_en": "commerce",
+      "aliases": [
+        "상업에",
+        "무역"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "상업에 몸담음",
+          "interpretation_ko": "기회를 슬기롭고 이롭게 다룰 조짐",
+          "interpretation_en": "you will handle your opportunities wisely and advantageously",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Commerce",
+              "original": "To dream that you are engaged in commerce, denotes you will handle your opportunities wisely and advantageously.",
+              "translation_ko": "상업에 몸담고 있는 꿈은 기회를 슬기롭고 이롭게 다루게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "상업계가 어두운 것을 봄",
+          "interpretation_ko": "실제 일에서도 곤란과 실패의 기운이 드리울 조짐",
+          "interpretation_en": "trouble and ominous threatening of failure in real business life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Commerce",
+              "original": "To dream of failures and gloomy outlooks in commercial circles, denotes trouble and ominous threatening of failure in real business life.",
+              "translation_ko": "상업계에 실패와 어두운 앞날이 보이는 꿈은, 실제 일에서도 곤란과 실패의 기운이 드리움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "committee",
+      "term_ko": "위원회",
+      "term_en": "committee",
+      "aliases": [
+        "심의회",
+        "협의회"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "위원회를 봄",
+          "interpretation_ko": "뜻하지 않게 마뜩잖은 일을 떠맡게 될 조짐",
+          "interpretation_en": "you will be surprised into doing some distasteful work",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Committee",
+              "original": "To dream of a committee, foretells that you will be surprised into doing some distasteful work.",
+              "translation_ko": "위원회 꿈은 뜻하지 않게 마뜩잖은 일을 떠맡게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "위원회가 나를 찾아옴",
+          "interpretation_ko": "보람 없는 일이 내게 맡겨질 조짐",
+          "interpretation_en": "some unfruitful labor will be assigned you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Committee",
+              "original": "For one to wait on you, foretells some unfruitful labor will be assigned you.",
+              "translation_ko": "위원회가 나를 찾아오면 보람 없는 일이 내게 맡겨진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "companion",
+      "term_ko": "동반자",
+      "term_en": "companion",
+      "aliases": [
+        "길동무",
+        "짝지",
+        "동반자들",
+        "동반자인"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아내나 남편을 봄",
+          "interpretation_ko": "자잘한 걱정과 앓게 될 일이 있을 조짐",
+          "interpretation_en": "small anxieties and probable sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Companion",
+              "original": "To dream of seeing a wife or husband, signifies small anxieties and probable sickness.",
+              "translation_ko": "아내나 남편을 보는 꿈은 자잘한 걱정과 앓게 될 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어울려 노는 동무들을 봄",
+          "interpretation_ko": "가볍고 헛된 놀이에 마음을 빼앗겨 할 일을 못 할 조짐",
+          "interpretation_en": "light and frivolous pastimes will engage your attention, hindering you from performing your duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Companion",
+              "original": "To dream of social companions, denotes light and frivolous pastimes will engage your attention hindering you from performing your duties.",
+              "translation_ko": "어울려 노는 동무들 꿈은, 가볍고 헛된 놀이에 마음을 빼앗겨 할 일을 못 하게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complexion",
+      "term_ko": "낯빛",
+      "term_en": "complexion",
+      "aliases": [
+        "안색",
+        "피부빛"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "낯빛이 고움",
+          "interpretation_ko": "운이 좋은 조짐 — 기꺼운 일들을 지나게 된다",
+          "interpretation_en": "lucky; you will pass through pleasing incidents",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Complexion",
+              "original": "To dream that you have a beautiful complexion is lucky.  You will pass through pleasing incidents.",
+              "translation_ko": "낯빛이 고운 꿈은 운이 좋다. 기꺼운 일들을 지나게 된다"
+            }
+          ]
+        },
+        {
+          "context": "낯빛이 나쁘고 어두움",
+          "interpretation_ko": "실망과 병이 있을 조짐",
+          "interpretation_en": "disappointment and sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Complexion",
+              "original": "To dream that you have bad and dark complexion, denotes disappointment and sickness.",
+              "translation_ko": "낯빛이 나쁘고 어두운 꿈은 실망과 병을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concert",
+      "term_ko": "음악회",
+      "term_en": "concert",
+      "aliases": [
+        "연주회",
+        "콘서트"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "격조 높은 음악회를 봄",
+          "interpretation_ko": "즐거운 때가 오고, 글 쓰는 이에게는 좋은 작품이, 장사하는 이에게는 잘되는 거래가, 젊은이에게는 티 없는 기쁨과 변치 않는 사랑이 올 조짐",
+          "interpretation_en": "delightful seasons of pleasure, literary work to the author, successful trade to the business man, and unalloyed bliss to the young",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Concert",
+              "original": "To dream of a concert of a high musical order, denotes delightful seasons of pleasure, and literary work to the author.  To the business man it portends successful trade, and to the young it signifies unalloyed bliss and faithful loves.",
+              "translation_ko": "격조 높은 음악회 꿈은 즐거운 때와, 글 쓰는 이에게는 좋은 작품을 뜻한다. 장사하는 이에게는 잘되는 거래를, 젊은이에게는 티 없는 기쁨과 변치 않는 사랑을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여느 음악회를 봄",
+          "interpretation_ko": "마뜩잖은 동무와 은혜를 모르는 벗을 만나고 일이 시들해질 조짐",
+          "interpretation_en": "disagreeable companions and ungrateful friends will be met with; business will show a falling off",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Concert",
+              "original": "Ordinary concerts such as engage ballet singers, denote that disagreeable companions and ungrateful friends will be met with.  Business will show a falling off.",
+              "translation_ko": "발레 가수가 나오는 여느 음악회는 마뜩잖은 동무와 은혜를 모르는 벗을 만나게 됨을 뜻한다. 일은 시들해진다"
             }
           ]
         }
@@ -43659,34 +44615,32 @@
       ]
     },
     {
-      "id": "combing-one-s-hair",
-      "term_ko": "머리 빗기",
-      "term_en": "combing one's hair",
+      "id": "composing",
+      "term_ko": "조판 스틱",
+      "term_en": "composing",
       "aliases": [
-        "빗질",
-        "머리를 빗",
-        "참빗",
-        "얼레빗"
+        "식자 스틱",
+        "활자 조판"
       ],
-      "category": "action",
-      "polarity": "positive",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "머리를 곱게 빗음",
-          "interpretation_ko": "온갖 근심이 사라질 조짐",
-          "interpretation_en": "a sign that all worries will vanish",
-          "polarity": "positive",
+          "context": "조판 스틱을 봄",
+          "interpretation_ko": "어려운 문제가 드러나 그것을 감당하느라 애먹을 조짐",
+          "interpretation_en": "difficult problems will disclose themselves, and you will be at great trouble to meet them",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "梳頭洗面百憂去",
-              "translation_ko": "머리를 빗고 얼굴을 씻으면 온갖 근심이 사라진다"
+              "work": "miller",
+              "locator": "Composing",
+              "original": "To see in your dreams a composing stick, foretells that difficult problems will disclose themselves, and you will be at great trouble to meet them.",
+              "translation_ko": "꿈에 조판 스틱을 보면, 어려운 문제가 드러나고 그것을 감당하느라 크게 애먹게 된다"
             }
           ]
         }
