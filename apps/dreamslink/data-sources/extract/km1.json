@@ -249,7 +249,8 @@
       "시신",
       "시체",
       "망자",
-      "고인"
+      "고인",
+      "주검"
     ],
     "aliases_en": [
       "a dead person",
@@ -262,14 +263,34 @@
       "죽은 사람이 일어서 있음": "서있 일어서 서서 우뚝",
       "죽은 사람이 품에서 욺": "품에 품속 안았 껴안",
       "죽은 사람이 되살아남": "되살아 살아났 부활 다시살",
-      "죽은 사람이 음식을 먹음": "음식 밥을 먹었 먹는"
+      "죽은 사람이 음식을 먹음": "음식 밥을 먹었 먹는",
+      "관에 뉘어 놓은 시신을 봄": "관에 뉘어 입관",
+      "검은 옷을 입은 시신을 봄": "검은 검정",
+      "싸움터에 시신이 널려 있는 것을 봄": "싸움터 전쟁터 널려",
+      "짐승의 주검을 봄": "짐승 가축 동물",
+      "가까운 집안 사람의 시신을 봄": "집안 가족 식구 친척",
+      "시신의 한쪽 눈에만 돈을 얹음": "한쪽 눈에만 외눈",
+      "시신의 두 눈에 돈을 얹음": "돈을 양쪽",
+      "젊은 여성이 일하는 가게 주인이 시신이 되어 있음": "가게 주인 일하는",
+      "시신의 머리가 몸에서 떨어지는 것을 봄": "머리가 떨어지 목이",
+      "시신을 봄": "보았 봤다 보는"
     },
     "contexts_en": {
       "죽은 사람이 욺": "crying wept weeping",
       "죽은 사람이 일어서 있음": "standing stood upright",
       "죽은 사람이 품에서 욺": "arms embrace bosom held",
       "죽은 사람이 되살아남": "revived resurrected alive",
-      "죽은 사람이 음식을 먹음": "food eating ate meal"
+      "죽은 사람이 음식을 먹음": "food eating ate meal",
+      "관에 뉘어 놓은 시신을 봄": "casket coffin placed",
+      "검은 옷을 입은 시신을 봄": "black violent entanglement",
+      "싸움터에 시신이 널려 있는 것을 봄": "battle strewn factions",
+      "짐승의 주검을 봄": "animal unhealthy situation",
+      "가까운 집안 사람의 시신을 봄": "family rupture domestic",
+      "시신의 한쪽 눈에만 돈을 얹음": "recover hopeless struggle",
+      "시신의 두 눈에 돈을 얹음": "eyes robbing unscrupulous",
+      "젊은 여성이 일하는 가게 주인이 시신이 되어 있음": "proprietor store shaven",
+      "시신의 머리가 몸에서 떨어지는 것을 봄": "head falling employer",
+      "시신을 봄": "sorrowful tidings gloomy"
     }
   },
   {

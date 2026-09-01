@@ -13,6 +13,7 @@
     "m18.json",
     "m19.json",
     "m2.json",
+    "m20.json",
     "m3.json",
     "m4a.json",
     "m4b.json",
@@ -3850,6 +3851,238 @@
               "locator": "天地日月星辰",
               "original": "雲忽遮日有陰私",
               "translation_ko": "구름이 갑자기 해를 가리면 은밀한 사사로움이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dead-person",
+      "term_ko": "죽은 사람",
+      "term_en": "dead person",
+      "aliases": [
+        "시신",
+        "시체",
+        "망자",
+        "고인",
+        "주검"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관에 뉘어 놓은 시신을 봄",
+          "interpretation_ko": "곧 닥칠 어려움이 있을 조짐",
+          "interpretation_en": "immediate troubles to the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a corpse placed in its casket, denotes immediate troubles to the dreamer.",
+              "translation_ko": "관에 뉘어 놓은 시신을 보는 꿈은 곧 닥칠 어려움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "검은 옷을 입은 시신을 봄",
+          "interpretation_ko": "벗이 갑작스레 목숨을 잃거나 일이 크게 얽힐 조짐",
+          "interpretation_en": "the violent death of a friend or some desperate business entanglement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a corpse in black, denotes the violent death of a friend or some desperate business entanglement.",
+              "translation_ko": "검은 옷을 입은 시신을 보는 꿈은, 벗의 갑작스러운 죽음이나 크게 얽힌 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "싸움터에 시신이 널려 있는 것을 봄",
+          "interpretation_ko": "나라와 무리 사이에 다툼과 불만이 퍼질 조짐",
+          "interpretation_en": "war and general dissatisfaction between countries and political factions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a battle-field strewn with corpses, indicates war and general dissatisfaction between countries and political factions.",
+              "translation_ko": "싸움터에 시신이 널린 것을 보는 꿈은, 나라와 무리 사이의 다툼과 불만을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "짐승의 주검을 봄",
+          "interpretation_ko": "하는 일과 몸이 함께 나빠질 조짐",
+          "interpretation_en": "unhealthy situation, both as to business and health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see the corpse of an animal, denotes unhealthy situation, both as to business and health.",
+              "translation_ko": "짐승의 주검을 보는 꿈은, 일과 몸이 함께 나빠짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가까운 집안 사람의 시신을 봄",
+          "interpretation_ko": "그 사람이나 집안 누군가에게 흉한 일이 있거나 집안이 크게 어그러질 조짐",
+          "interpretation_en": "death to that person, or to some member of the family, or a serious rupture of domestic relations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see the corpse of any one of your immediate family, indicates death to that person, or to some member of the family, or a serious rupture of domestic relations, also unusual business depression.",
+              "translation_ko": "가까운 집안 사람의 시신을 보는 꿈은, 그 사람이나 집안 누군가의 죽음, 또는 집안의 큰 어그러짐과 일의 침체를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 한쪽 눈에만 돈을 얹음",
+          "interpretation_ko": "거의 가망이 없는 다툼 끝에 잃었던 것을 되찾을 조짐",
+          "interpretation_en": "you will be able to recover lost property after an almost hopeless struggle",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "If you only put it on one eye you will be able to recover lost property after an almost hopeless struggle.",
+              "translation_ko": "한쪽 눈에만 얹으면, 거의 가망 없는 다툼 끝에 잃은 것을 되찾는다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 두 눈에 돈을 얹음",
+          "interpretation_ko": "막을 힘이 없는 채로 악한 이에게 빼앗길 조짐",
+          "interpretation_en": "unscrupulous enemies robbing you while you are powerless to resent injury",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To put money on the eyes of a corpse in your dreams, denotes that you will see unscrupulous enemies robbing you while you are powerless to resent injury.",
+              "translation_ko": "시신의 두 눈에 돈을 얹는 꿈은, 막을 힘이 없는 채로 악한 이에게 빼앗김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 일하는 가게 주인이 시신이 되어 있음",
+          "interpretation_ko": "연인이 품고 있던 기대에 못 미치게 될 조짐",
+          "interpretation_en": "she will fall below the standard of perfection in which she was held by her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "For a young woman to dream that the proprietor of the store in which she works is a corpse, and she sees while sitting up with him that his face is clean shaven, foretells that she will fall below the standard of perfection in which she was held by her lover.",
+              "translation_ko": "젊은 여성이 일하는 가게 주인이 시신이 되어 있고 그 얼굴이 말끔히 면도된 것을 보는 꿈은, 연인이 품고 있던 기대에 못 미치게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 머리가 몸에서 떨어지는 것을 봄",
+          "interpretation_ko": "숨은 적이 해를 끼치며 일터에도 손해를 입힐 조짐",
+          "interpretation_en": "she is warned of secret enemies who, in harming her, will also detract from the interest of her employer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "If she sees the head of the corpse falling from the body, she is warned of secret enemies who, in harming her, will also detract from the interest of her employer.",
+              "translation_ko": "시신의 머리가 몸에서 떨어지는 것을 보면, 숨은 적이 해를 끼치며 일터에도 손해를 입힌다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "시신을 봄",
+          "interpretation_ko": "멀리 있는 이의 슬픈 소식이 오고 하는 일도 어두워질 조짐",
+          "interpretation_en": "sorrowful tidings of the absent, and gloomy business prospects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To dream of a corpse is fatal to happiness, as this dream indicates sorrowful tidings of the absent, and gloomy business prospects.",
+              "translation_ko": "시신 꿈은 기쁨에 해로우며, 멀리 있는 이의 슬픈 소식과 어두운 앞날을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 욺",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人哭泣有口舌",
+              "translation_ko": "죽은 사람이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 일어서 있음",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人立者主大凶",
+              "translation_ko": "죽은 사람이 서 있으면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 품에서 욺",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人哭懷者得財",
+              "translation_ko": "죽은 사람이 품에서 울면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 되살아남",
+          "interpretation_ko": "소식이 올 조짐",
+          "interpretation_en": "a sign that news will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人復活主有信",
+              "translation_ko": "죽은 사람이 되살아나면 소식이 있다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 음식을 먹음",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "死人食者主疾病",
+              "translation_ko": "죽은 사람이 먹으면 질병이 있다"
             }
           ]
         }
@@ -11930,6 +12163,125 @@
       ]
     },
     {
+      "id": "corn",
+      "term_ko": "옥수수",
+      "term_en": "corn",
+      "aliases": [
+        "강냉이",
+        "옥수수 이삭",
+        "옥수수알",
+        "옥수수를 먹었다",
+        "풋옥수수"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "알록달록한 옥수수 이삭의 껍질을 벗김",
+          "interpretation_ko": "이런저런 성취와 즐거움을 누릴 조짐",
+          "interpretation_en": "you will enjoy varied success and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn",
+              "original": "To dream of husking pied ears of corn, denotes you will enjoy varied success and pleasure.",
+              "translation_ko": "알록달록한 옥수수 이삭의 껍질을 벗기는 꿈은, 이런저런 성취와 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 옥수수를 거두는 것을 봄",
+          "interpretation_ko": "벗이나 살붙이가 잘되는 것을 기뻐할 조짐",
+          "interpretation_en": "you will rejoice in the prosperity of friends or relatives",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn",
+              "original": "To see others gathering corn, foretells you will rejoice in the prosperity of friends or relatives.",
+              "translation_ko": "남들이 옥수수를 거두는 것을 보는 꿈은, 벗이나 살붙이가 잘되는 것을 기뻐하게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "갓 갈아엎은 어린 옥수수를 봄",
+          "interpretation_ko": "힘 있는 이의 도움을 받아 일이 풀릴 조짐",
+          "interpretation_en": "favor with the powerful and coming success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To see young corn newly ploughed, denotes favor with the powerful and coming success.",
+              "translation_ko": "갓 갈아엎은 어린 옥수수를 보는 꿈은, 힘 있는 이의 도움과 다가올 성공을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옥수수가 익은 것을 봄",
+          "interpretation_ko": "이름을 떨치고 재물을 얻을 조짐",
+          "interpretation_en": "fame and wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To see it ripe, denotes fame and wealth.",
+              "translation_ko": "익은 것을 보면 이름과 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "옥수수를 곳간에 쟁여 둔 것을 봄",
+          "interpretation_ko": "가장 바라던 것이 이루어질 조짐",
+          "interpretation_en": "your highest desires will be realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To see it cribbed, signifies that your highest desires will be realized.",
+              "translation_ko": "곳간에 쟁여 둔 것을 보면 가장 바라던 것이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "낟알을 턴 옥수수를 봄",
+          "interpretation_ko": "재물을 모으는 힘과 넉넉한 도움을 얻을 조짐",
+          "interpretation_en": "wealthy combines and unstinted favors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To see shelled corn, denotes wealthy combines and unstinted favors.",
+              "translation_ko": "낟알을 턴 옥수수를 보면 재물의 결합과 아낌없는 도움을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "풋옥수수를 먹음",
+          "interpretation_ko": "벗들 사이가 화목하고 젊은이에게는 좋은 짝이 생길 조짐",
+          "interpretation_en": "harmony among friends and happy unions for the young",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To dream of eating green corn, denotes harmony among friends and happy unions for the young.",
+              "translation_ko": "풋옥수수를 먹는 꿈은, 벗들 사이의 화목과 젊은이의 좋은 짝을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hat",
       "term_ko": "모자",
       "term_en": "hat",
@@ -13130,6 +13482,213 @@
               "locator": "Coins",
               "original": "If silver coins are your ideal of money, and they are bright and clean, or seen distinctly in your possession, the dream will be a propitious one.",
               "translation_ko": "은돈이 내가 여기는 돈이고 그것이 밝고 깨끗하거나 내 손안에 또렷이 보인다면, 그 꿈은 좋은 꿈이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cork",
+      "term_ko": "코르크 마개",
+      "term_en": "cork",
+      "aliases": [
+        "마개",
+        "병마개",
+        "코르크마개",
+        "낚시찌"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잔치에서 마개를 뽑음",
+          "interpretation_ko": "머지않아 넉넉해져 더없이 좋은 기쁨을 누릴 조짐",
+          "interpretation_en": "you will soon enter a state of prosperity, in which you will revel in happiness of the most select kind",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "To dream of drawing corks at a banquet, signifies that you will soon enter a state of prosperity, in which you will revel in happiness of the most select kind.",
+              "translation_ko": "잔치에서 마개를 뽑는 꿈은, 머지않아 넉넉해져 더없이 좋은 기쁨을 누리게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "약병 마개를 봄",
+          "interpretation_ko": "병을 앓고 기운을 헛되이 쓰게 될 조짐",
+          "interpretation_en": "sickness and wasted energies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "To dream of medicine corks, denotes sickness and wasted energies.",
+              "translation_ko": "약병 마개 꿈은 병과 헛되이 쓰는 기운을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물 위에 뜬 낚시찌를 봄",
+          "interpretation_ko": "하는 일이 잘될 조짐",
+          "interpretation_en": "success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "To dream of seeing a fishing cork resting on clear water, denotes success.",
+              "translation_ko": "맑은 물 위에 뜬 낚시찌를 보는 꿈은 성공을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "찌가 뜬 물이 흔들림",
+          "interpretation_ko": "됨됨이가 바르지 못한 이에게 시달릴 조짐",
+          "interpretation_en": "you will be annoyed by unprincipled persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "If water is disturbed you will be annoyed by unprincipled persons.",
+              "translation_ko": "물이 흔들리면 됨됨이가 바르지 못한 이에게 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "병에 마개를 막음",
+          "interpretation_ko": "일과 살림이 짜임새 있게 돌아갈 조짐",
+          "interpretation_en": "a well organized business and system in your living",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "To dream that you are corking bottles, denotes a well organized business and system in your living.",
+              "translation_ko": "병에 마개를 막는 꿈은, 일과 살림이 짜임새 있게 돌아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 샴페인 마개를 뽑음",
+          "interpretation_ko": "쾌활하고 잘생긴 연인이 마음과 돈을 아낌없이 쏟을 조짐",
+          "interpretation_en": "she will have a gay and handsome lover who will lavish much attention and money on her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cork",
+              "original": "For a young woman to dream of drawing champagne corks, indicates she will have a gay and handsome lover who will lavish much attention and money on her.",
+              "translation_ko": "젊은 여성이 샴페인 마개를 뽑는 꿈은, 쾌활하고 잘생긴 연인이 마음과 돈을 아낌없이 쏟게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cotton",
+      "term_ko": "목화",
+      "term_en": "cotton",
+      "aliases": [
+        "목화밭",
+        "면화",
+        "목화송이"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어린 목화가 자라는 밭을 봄",
+          "interpretation_ko": "하는 일이 크게 일어나고 형편이 좋아질 조짐",
+          "interpretation_en": "great business and prosperous times",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "To dream of young growing cotton-fields, denotes great business and prosperous times.",
+              "translation_ko": "어린 목화가 자라는 밭 꿈은, 크게 일어나는 일과 좋아지는 형편을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "거둘 때가 된 목화를 봄",
+          "interpretation_ko": "농사짓는 이에게 재물과 넉넉함이 올 조짐",
+          "interpretation_en": "wealth and abundance for farmers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "To see cotton ready for gathering, denotes wealth and abundance for farmers.",
+              "translation_ko": "거둘 때가 된 목화를 보는 꿈은, 농사짓는 이의 재물과 넉넉함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "물건을 만드는 이가 목화 꿈을 꿈",
+          "interpretation_ko": "그 물건이 잘 팔려 덕을 볼 조짐",
+          "interpretation_en": "they will be benefited by the advancement of this article",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "For manufacturers to dream of cotton, means that they will be benefited by the advancement of this article.",
+              "translation_ko": "물건을 만드는 이가 목화 꿈을 꾸면, 그 물건이 잘 나가 덕을 본다"
+            }
+          ]
+        },
+        {
+          "context": "장사하는 이가 목화 꿈을 꿈",
+          "interpretation_ko": "하던 장사가 좋은 쪽으로 바뀔 조짐",
+          "interpretation_en": "a change for the better in their line of business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "For merchants, it denotes a change for the better in their line of business.",
+              "translation_ko": "장사하는 이에게는 하던 장사가 좋은 쪽으로 바뀜을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "목화 더미를 봄",
+          "interpretation_ko": "형편이 나아질 좋은 조짐",
+          "interpretation_en": "a favorable indication for better times",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "To see cotton in bales, is a favorable indication for better times.",
+              "translation_ko": "목화 더미를 보는 것은 형편이 나아질 좋은 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목화 값이 오름",
+          "interpretation_ko": "값이 단번에 올라 모두의 형편이 나아질 조짐",
+          "interpretation_en": "an immediate change from low to high prices, and all will be in better circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton",
+              "original": "To dream that cotton is advancing, denotes an immediate change from low to high prices, and all will be in better circumstances.",
+              "translation_ko": "목화 값이 오르는 꿈은, 값이 단번에 올라 모두의 형편이 나아짐을 뜻한다"
             }
           ]
         }
@@ -15887,96 +16446,6 @@
               "locator": "龍蛇禽獸等類",
               "original": "放鶴者主得財吉",
               "translation_ko": "학을 놓아주면 재물을 얻어 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dead-person",
-      "term_ko": "죽은 사람",
-      "term_en": "dead person",
-      "aliases": [
-        "시신",
-        "시체",
-        "망자",
-        "고인"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "죽은 사람이 욺",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人哭泣有口舌",
-              "translation_ko": "죽은 사람이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 일어서 있음",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人立者主大凶",
-              "translation_ko": "죽은 사람이 서 있으면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 품에서 욺",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人哭懷者得財",
-              "translation_ko": "죽은 사람이 품에서 울면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 되살아남",
-          "interpretation_ko": "소식이 올 조짐",
-          "interpretation_en": "a sign that news will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人復活主有信",
-              "translation_ko": "죽은 사람이 되살아나면 소식이 있다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 음식을 먹음",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "死人食者主疾病",
-              "translation_ko": "죽은 사람이 먹으면 질병이 있다"
             }
           ]
         }
@@ -27382,6 +27851,250 @@
               "locator": "Cooling Board",
               "original": "To see her brother, who has long since been dead, rising from a cooling board, warns her of complications which may be averted if she puts forth the proper will and energy in struggling against them.",
               "translation_ko": "오래전에 죽은 제 형제가 시신 받침대에서 일어나는 것을 보면, 얽힌 일이 닥칠 것을 경고한다. 뜻과 힘을 제대로 쓰며 맞서면 막을 수 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corns",
+      "term_ko": "티눈",
+      "term_en": "corns",
+      "aliases": [
+        "티눈이 났다",
+        "발가락 티눈"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "티눈이 발을 아프게 함",
+          "interpretation_ko": "적이 뒤에서 흔들어 몹시 괴로울 조짐",
+          "interpretation_en": "some enemies are undermining you, and you will have much distress",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corns",
+              "original": "To dream that your corns hurt your feet, denotes that some enemies are undermining you, and you will have much distress;",
+              "translation_ko": "티눈이 발을 아프게 하는 꿈은, 적이 뒤에서 흔들어 몹시 괴로워짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "발의 티눈을 말끔히 없앰",
+          "interpretation_ko": "뜻밖의 곳에서 큰 재산을 물려받을 조짐",
+          "interpretation_en": "you will inherit a large estate from some unknown source",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corns",
+              "original": "but if you succeed in clearing your feet of corns, you will inherit a large estate from some unknown source.",
+              "translation_ko": "발의 티눈을 말끔히 없애면 알지 못하던 곳에서 큰 재산을 물려받는다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성의 발에 티눈이 남",
+          "interpretation_ko": "짊어질 짐이 많고 둘레에서 쌀쌀한 대접을 받을 조짐",
+          "interpretation_en": "she will have to bear many crosses and be coldly treated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corns",
+              "original": "For a young woman to dream of having corns on her feet, indicates she will have to bear many crosses and be coldly treated by her sex.",
+              "translation_ko": "젊은 여성의 발에 티눈이 나는 꿈은, 짊어질 짐이 많고 쌀쌀한 대접을 받게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coronation",
+      "term_ko": "대관식",
+      "term_en": "coronation",
+      "aliases": [
+        "즉위식",
+        "왕관을 씌우는",
+        "대관식을 보았다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "대관식을 봄",
+          "interpretation_ko": "이름난 이들과 사귀며 가까이 지낼 조짐",
+          "interpretation_en": "you will enjoy acquaintances and friendships with prominent people",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coronation",
+              "original": "To dream of a coronation, foretells you will enjoy acquaintances and friendships with prominent people.",
+              "translation_ko": "대관식 꿈은, 이름난 이들과 사귀며 가까이 지내게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 대관식에 참여함",
+          "interpretation_ko": "높은 자리의 사람에게서 뜻밖의 은혜를 입을 조짐",
+          "interpretation_en": "she will come into some surprising favor with distinguished personages",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coronation",
+              "original": "For a young woman to be participating in a coronation, foretells that she will come into some surprising favor with distinguished personages.",
+              "translation_ko": "젊은 여성이 대관식에 참여하는 꿈은, 높은 자리의 사람에게서 뜻밖의 은혜를 입게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "대관식이 어수선하고 뒤죽박죽으로 나타남",
+          "interpretation_ko": "기대하던 즐거움이 되레 언짢은 일로 번질 조짐",
+          "interpretation_en": "she may expect unsatisfactory states growing out of anticipated pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coronation",
+              "original": "But if the coronation presents disagreeable incoherence in her dreams, then she may expect unsatisfactory states growing out of anticipated pleasure.",
+              "translation_ko": "대관식이 언짢게 뒤죽박죽으로 나타나면, 기대하던 즐거움에서 언짢은 일이 자라난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corpulence",
+      "term_ko": "뚱뚱함",
+      "term_en": "corpulence",
+      "aliases": [
+        "살이 쪘다",
+        "뚱뚱해졌다",
+        "뚱뚱한",
+        "비만"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 몸이 뚱뚱해짐",
+          "interpretation_ko": "재물이 넉넉히 불고 머무는 자리가 편안해질 조짐",
+          "interpretation_en": "bountiful increase of wealth and pleasant abiding places",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpulence",
+              "original": "For a person to dream of being corpulent, indicates to the dreamer bountiful increase of wealth and pleasant abiding places.",
+              "translation_ko": "제 몸이 뚱뚱해지는 꿈은, 재물이 넉넉히 불고 머무는 자리가 편안해짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 뚱뚱한 것을 봄",
+          "interpretation_ko": "움직임이 활발해지고 형편이 좋아질 조짐",
+          "interpretation_en": "unusual activity and prosperous times",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpulence",
+              "original": "To see others corpulent, denotes unusual activity and prosperous times.",
+              "translation_ko": "남이 뚱뚱한 것을 보는 꿈은, 활발한 움직임과 좋아지는 형편을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 몸이 몹시 뚱뚱해 보임",
+          "interpretation_ko": "제 마음가짐과 충동을 돌아보게 될 조짐",
+          "interpretation_en": "he or she should look well to their moral nature and impulses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpulence",
+              "original": "If a man or woman sees himself or herself looking grossly corpulent, he or she should look well to their moral nature and impulses.",
+              "translation_ko": "제 몸이 몹시 뚱뚱해 보이면, 마음가짐과 충동을 잘 살펴야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cotton-cloth",
+      "term_ko": "무명천",
+      "term_en": "cotton cloth",
+      "aliases": [
+        "광목",
+        "면포",
+        "무명천을 짰다"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무명천을 봄",
+          "interpretation_ko": "살림이 넉넉하고 큰 변화 없이 지낼 조짐",
+          "interpretation_en": "easy circumstances, and no great changes follow this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Cloth",
+              "original": "To see cotton cloth in a dream, denotes easy circumstances. No great changes follow this dream.",
+              "translation_ko": "꿈에 무명천을 보면 살림이 넉넉함을 뜻한다. 이 꿈 뒤에 큰 변화는 따르지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 무명천을 짬",
+          "interpretation_ko": "알뜰하고 앞으로 나아가는 남편을 얻을 조짐",
+          "interpretation_en": "she will have a thrifty and enterprising husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Cloth",
+              "original": "For a young woman to dream of weaving cotton cloth, denotes that she will have a thrifty and enterprising husband.",
+              "translation_ko": "젊은 여성이 무명천을 짜는 꿈은, 알뜰하고 앞으로 나아가는 남편을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼인한 이가 무명천 꿈을 꿈",
+          "interpretation_ko": "수수하지만 마음 편한 살림을 이룰 조짐",
+          "interpretation_en": "a pleasant yet a humble abode",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Cloth",
+              "original": "To the married it denotes a pleasant yet a humble abode.",
+              "translation_ko": "혼인한 이에게는 수수하지만 마음 편한 살림을 뜻한다"
             }
           ]
         }
@@ -38823,6 +39536,380 @@
       ]
     },
     {
+      "id": "copying",
+      "term_ko": "필사",
+      "term_en": "copying",
+      "aliases": [
+        "베껴 썼다",
+        "베껴 쓰는",
+        "베껴 적었다",
+        "옮겨 적었다",
+        "베껴 쓰고"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가를 베껴 씀",
+          "interpretation_ko": "잘 다져 둔 계획이 뜻대로 돌아가지 않을 조짐",
+          "interpretation_en": "unfavorable workings of well tried plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Copying",
+              "original": "To dream of copying, denotes unfavorable workings of well tried plans.",
+              "translation_ko": "베껴 쓰는 꿈은, 잘 다져 둔 계획이 뜻대로 돌아가지 않음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 편지를 베껴 씀",
+          "interpretation_ko": "어떤 부류의 사람을 아끼는 마음에 치우쳐 그릇된 판단을 할 조짐",
+          "interpretation_en": "she will be prejudiced into error by her love for a certain class of people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Copying",
+              "original": "For a young woman to dream that she is copying a letter, denotes she will be prejudiced into error by her love for a certain class of people.",
+              "translation_ko": "젊은 여성이 편지를 베껴 쓰는 꿈은, 어떤 부류의 사람을 아끼는 마음에 치우쳐 그릇된 판단을 하게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coral",
+      "term_ko": "산호",
+      "term_en": "coral",
+      "aliases": [
+        "산호초",
+        "산호 가지"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빛깔 있는 산호를 봄",
+          "interpretation_ko": "괴로움을 덜어 주기를 마다하지 않는 오랜 벗을 얻을 조짐",
+          "interpretation_en": "enduring friendship which will know no weariness in alleviating your trouble",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coral",
+              "original": "To dream of coral, is momentous of enduring friend ship which will know no weariness in alleviating your trouble. Colored coral is meant in this dream.",
+              "translation_ko": "산호 꿈은, 괴로움을 덜어 주기를 마다하지 않는 오랜 벗을 뜻한다. 이 꿈에서 말하는 것은 빛깔 있는 산호다"
+            }
+          ]
+        },
+        {
+          "context": "흰 산호를 봄",
+          "interpretation_ko": "사랑에 배신이 따르고 그 조짐을 미리 알게 될 것",
+          "interpretation_en": "unfaithfulness and warning of love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coral",
+              "original": "White coral, foretells unfaithfulness and warning of love.",
+              "translation_ko": "흰 산호는 사랑의 배신과 그 경고를 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corkscrew",
+      "term_ko": "코르크 따개",
+      "term_en": "corkscrew",
+      "aliases": [
+        "따개",
+        "마개뽑이",
+        "코르크 따개를 보았다"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코르크 따개를 봄",
+          "interpretation_ko": "마음이 채워지지 않아 욕심이 위태로운 데로 흐를 조짐",
+          "interpretation_en": "an unsatisfied mind, and a warning to curb desires that are on dangerous grounds",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corkscrew",
+              "original": "To dream of seeing a corkscrew, indicates an unsatisfied mind, and the dreamer should heed this as a warning to curb his desires, for it is likely they are on dangerous grounds.",
+              "translation_ko": "코르크 따개를 보는 꿈은 채워지지 않는 마음을 뜻하며, 위태로운 데로 흐르는 욕심을 다잡으라는 경고로 새겨야 한다"
+            }
+          ]
+        },
+        {
+          "context": "쓰다가 코르크 따개를 부러뜨림",
+          "interpretation_ko": "둘레가 위태로워지니 마음을 다잡아야 할 조짐",
+          "interpretation_en": "perilous surroundings, and he should use force of will to abandon unhealthful inclinations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corkscrew",
+              "original": "To dream of breaking a corkscrew while using it, indicates to the dreamer perilous surroundings, and he should use force of will to abandon unhealthful inclinations.",
+              "translation_ko": "쓰다가 코르크 따개를 부러뜨리는 꿈은 위태로운 둘레를 뜻하며, 해로운 버릇을 뜻으로 끊어야 함을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corn-field",
+      "term_ko": "옥수수밭",
+      "term_en": "corn-field",
+      "aliases": [
+        "강냉이밭",
+        "옥수수밭을 지났다"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "푸르고 무성한 옥수수밭을 지나며 묵직한 이삭을 봄",
+          "interpretation_ko": "농사짓는 이에게는 큰 재물이 들어오고, 알찬 수확과 집안의 화목이 따를 조짐",
+          "interpretation_en": "great wealth for the farmer, fine crops and rich harvest and harmony in the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "To dream of passing through a green and luxurious corn-field, and seeing full ears hanging heavily, denotes great wealth for the farmer. It denotes fine crops and rich harvest and harmony in the home.",
+              "translation_ko": "푸르고 무성한 옥수수밭을 지나며 묵직하게 달린 이삭을 보는 꿈은, 농사짓는 이에게 큰 재물을 뜻한다. 알찬 수확과 집안의 화목을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옥수수 이삭이 말라 죽은 것을 봄",
+          "interpretation_ko": "바라던 것이 어그러지고 가까운 이를 잃을 근심",
+          "interpretation_en": "disappointments and bereavements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corn and Corn-Field",
+              "original": "but to see the ears blasted, denotes disappointments and bereavements.",
+              "translation_ko": "이삭이 말라 죽은 것을 보면 어그러진 바람과 잃음이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corner",
+      "term_ko": "모퉁이",
+      "term_en": "corner",
+      "aliases": [
+        "구석",
+        "길모퉁이",
+        "모퉁이에 숨었다"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "겁에 질려 모퉁이에 몸을 숨김",
+          "interpretation_ko": "좋지 않은 일이 따를 조짐",
+          "interpretation_en": "an unfavorable dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corner",
+              "original": "This is an unfavorable dream if the dreamer is frightened and secretes himself in a corner for safety.",
+              "translation_ko": "겁에 질려 몸을 지키려 모퉁이에 숨는다면 좋지 않은 꿈이다"
+            }
+          ]
+        },
+        {
+          "context": "사람들이 모퉁이에서 이야기하는 것을 봄",
+          "interpretation_ko": "적이 해치려 들고, 벗으로 여기던 이가 등을 돌릴 조짐",
+          "interpretation_en": "enemies are seeking to destroy you, and some one whom you consider a friend will prove a traitor to your interest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corner",
+              "original": "To see persons talking in a corner, enemies are seeking to destroy you. The chances are that some one whom you consider a friend will prove a traitor to your interest.",
+              "translation_ko": "사람들이 모퉁이에서 이야기하는 것을 보면 적이 해치려 드는 것이다. 벗으로 여기던 이가 등을 돌리기 쉽다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cornmeal",
+      "term_ko": "옥수숫가루",
+      "term_en": "cornmeal",
+      "aliases": [
+        "옥수수가루",
+        "옥수수 가루"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옥수숫가루를 봄",
+          "interpretation_ko": "간절히 바라던 것이 이루어질 조짐",
+          "interpretation_en": "the consummation of ardent wishes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cornmeal",
+              "original": "To see cornmeal, foretells the consummation of ardent wishes.",
+              "translation_ko": "옥수숫가루를 보는 꿈은 간절한 바람이 이루어짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "옥수숫가루로 만든 빵을 먹음",
+          "interpretation_ko": "저도 모르게 제 앞길을 가로막을 조짐",
+          "interpretation_en": "you will unwittingly throw obstructions in the way of your own advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cornmeal",
+              "original": "To eat it made into bread, denotes that you will unwittingly throw obstructions in the way of your own advancement.",
+              "translation_ko": "그것으로 만든 빵을 먹으면, 저도 모르게 제 앞길을 가로막게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corset",
+      "term_ko": "코르셋",
+      "term_en": "corset",
+      "aliases": [
+        "코르셋을 입었다",
+        "코르셋을 조였다"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코르셋을 봄",
+          "interpretation_ko": "받은 호의가 무슨 뜻인지 몰라 갈피를 못 잡을 조짐",
+          "interpretation_en": "you will be perplexed as to the meaning of attentions won by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corset",
+              "original": "To dream of a corset, denotes that you will be perplexed as to the meaning of attentions won by you.",
+              "translation_ko": "코르셋 꿈은, 받은 호의의 뜻을 몰라 갈피를 못 잡게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 코르셋을 풀거나 조이며 짜증을 냄",
+          "interpretation_ko": "사소한 일에도 벗과 다투기 쉬울 조짐",
+          "interpretation_en": "she will be strongly inclined to quarrel with her friends under slight provocations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corset",
+              "original": "If a young woman is vexed over undoing or fastening her corset, she will be strongly inclined to quarrel with her friends under slight provocations.",
+              "translation_ko": "젊은 여성이 코르셋을 풀거나 조이며 짜증을 내면, 사소한 일에도 벗과 다투기 쉽다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cot",
+      "term_ko": "간이침대",
+      "term_en": "cot",
+      "aliases": [
+        "야전침대",
+        "접이침대",
+        "간이침대에 누웠다"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "간이침대를 봄",
+          "interpretation_ko": "병이나 사고로 시달릴 조짐",
+          "interpretation_en": "some affliction, either through sickness or accident",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cot",
+              "original": "To dream of a cot, foretells some affliction, either through sickness or accident.",
+              "translation_ko": "간이침대 꿈은 병이나 사고로 인한 시달림을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "간이침대가 줄지어 놓여 있음",
+          "interpretation_ko": "벗들도 함께 어려움을 겪어 혼자가 아닐 조짐",
+          "interpretation_en": "you will not be alone in trouble, as friends will be afflicted also",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cot",
+              "original": "Cots in rows signify you will not be alone in trouble, as friends will be afflicted also.",
+              "translation_ko": "간이침대가 줄지어 있으면, 벗들도 함께 겪으므로 혼자가 아니다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "deer",
       "term_ko": "사슴",
       "term_en": "deer",
@@ -45571,6 +46658,103 @@
               "locator": "Coppersmith",
               "original": "To dream of a coppersmith, denotes small returns for labor, but withal contentment.",
               "translation_ko": "구리 장인 꿈은 애쓴 것에 견주어 돌아오는 것은 적으나 그런대로 흡족함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cornet",
+      "term_ko": "코넷",
+      "term_en": "cornet",
+      "aliases": [
+        "코르넷",
+        "코넷을 불었다"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코넷을 보거나 그 소리를 들음",
+          "interpretation_ko": "낯선 이에게서 친절한 대접을 받을 조짐",
+          "interpretation_en": "kindly attentions from strangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cornet",
+              "original": "A cornet seen or heard in a dream, denotes kindly attentions from strangers.",
+              "translation_ko": "꿈에 코넷을 보거나 그 소리를 들으면, 낯선 이에게서 친절한 대접을 받는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cossack",
+      "term_ko": "코사크 병사",
+      "term_en": "cossack",
+      "aliases": [
+        "코사크",
+        "카자크",
+        "코사크 기병"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "코사크 병사를 봄",
+          "interpretation_ko": "흥청거림과 헤픈 씀씀이 탓에 낯을 잃을 조짐",
+          "interpretation_en": "humiliation of a personal character, brought about by dissipation and reckless extravagance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cossack",
+              "original": "To dream of a Cossack, denotes humiliation of a personal character, brought about by dissipation and wanton extravagance.",
+              "translation_ko": "코사크 병사 꿈은, 흥청거림과 헤픈 씀씀이가 부른 낯 잃음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cotton-cap",
+      "term_ko": "무명모자",
+      "term_en": "cotton cap",
+      "aliases": [
+        "무명 모자",
+        "면모자"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무명모자를 봄",
+          "interpretation_ko": "참된 벗이 많을 좋은 조짐",
+          "interpretation_en": "a good dream, denoting many sincere friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cotton Cap",
+              "original": "It is a good dream, denoting many sincere friends.",
+              "translation_ko": "이는 좋은 꿈이며 참된 벗이 많음을 뜻한다"
             }
           ]
         }

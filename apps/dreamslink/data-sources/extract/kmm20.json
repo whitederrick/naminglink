@@ -1,0 +1,379 @@
+[
+  {
+    "id": "copying",
+    "aliases": [
+      "베껴 썼다",
+      "베껴 쓰는",
+      "베껴 적었다",
+      "옮겨 적었다",
+      "베껴 쓰고"
+    ],
+    "aliases_en": [
+      "copied",
+      "transcribing",
+      "making a copy"
+    ],
+    "contexts": {
+      "무언가를 베껴 씀": "문서를 서류를 장부를",
+      "젊은 여성이 편지를 베껴 씀": "편지 여자 여성 처녀"
+    },
+    "contexts_en": {
+      "무언가를 베껴 씀": "document papers ledger",
+      "젊은 여성이 편지를 베껴 씀": "letter young woman"
+    }
+  },
+  {
+    "id": "coral",
+    "aliases": [
+      "산호초",
+      "산호 가지"
+    ],
+    "aliases_en": [
+      "coral reef",
+      "corals"
+    ],
+    "contexts": {
+      "빛깔 있는 산호를 봄": "빛깔 붉은 색깔",
+      "흰 산호를 봄": "하얀 하얗 흰색"
+    },
+    "contexts_en": {
+      "빛깔 있는 산호를 봄": "colored red friendship",
+      "흰 산호를 봄": "white unfaithfulness warning"
+    }
+  },
+  {
+    "id": "cornet",
+    "aliases": [
+      "코르넷",
+      "코넷을 불었다"
+    ],
+    "aliases_en": [
+      "a cornet",
+      "cornets"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "coronation",
+    "aliases": [
+      "즉위식",
+      "왕관을 씌우는",
+      "대관식을 보았다"
+    ],
+    "aliases_en": [
+      "a coronation",
+      "crowning ceremony"
+    ],
+    "contexts": {
+      "대관식을 봄": "왕관 즉위 임금",
+      "젊은 여성이 대관식에 참여함": "참여 참석 여자 여성",
+      "대관식이 어수선하고 뒤죽박죽으로 나타남": "어수선 뒤죽박죽 엉망"
+    },
+    "contexts_en": {
+      "대관식을 봄": "crown king throne",
+      "젊은 여성이 대관식에 참여함": "participating young woman",
+      "대관식이 어수선하고 뒤죽박죽으로 나타남": "disagreeable incoherence unsatisfactory"
+    }
+  },
+  {
+    "id": "cork",
+    "aliases": [
+      "마개",
+      "병마개",
+      "코르크마개",
+      "낚시찌"
+    ],
+    "aliases_en": [
+      "bottle cork"
+    ],
+    "contexts": {
+      "잔치에서 마개를 뽑음": "잔치 연회 축하",
+      "약병 마개를 봄": "약병 약통 약을",
+      "맑은 물 위에 뜬 낚시찌를 봄": "맑은 잔잔 떠있",
+      "찌가 뜬 물이 흔들림": "흔들 일렁 출렁",
+      "병에 마개를 막음": "막았 막는 틀어",
+      "젊은 여성이 샴페인 마개를 뽑음": "샴페인 여자 여성"
+    },
+    "contexts_en": {
+      "잔치에서 마개를 뽑음": "banquet prosperity revel",
+      "약병 마개를 봄": "medicine sickness wasted",
+      "맑은 물 위에 뜬 낚시찌를 봄": "fishing clear resting",
+      "찌가 뜬 물이 흔들림": "disturbed unprincipled annoyed",
+      "병에 마개를 막음": "corking bottles organized",
+      "젊은 여성이 샴페인 마개를 뽑음": "champagne lover lavish"
+    }
+  },
+  {
+    "id": "corn",
+    "aliases": [
+      "강냉이",
+      "옥수수 이삭",
+      "옥수수알",
+      "옥수수를 먹었다",
+      "풋옥수수"
+    ],
+    "aliases_en": [
+      "maize",
+      "ears of corn"
+    ],
+    "contexts": {
+      "알록달록한 옥수수 이삭의 껍질을 벗김": "껍질 벗겼 알록달록",
+      "남들이 옥수수를 거두는 것을 봄": "거두 수확 남들이",
+      "갓 갈아엎은 어린 옥수수를 봄": "갈아엎 어린",
+      "옥수수가 익은 것을 봄": "익은 익었 여물",
+      "옥수수를 곳간에 쟁여 둔 것을 봄": "곳간 창고 쟁여",
+      "낟알을 턴 옥수수를 봄": "낟알 알갱이 털어",
+      "풋옥수수를 먹음": "먹었 삶은 쪄서"
+    },
+    "contexts_en": {
+      "알록달록한 옥수수 이삭의 껍질을 벗김": "husking pied shucking",
+      "남들이 옥수수를 거두는 것을 봄": "gathering others rejoice",
+      "갓 갈아엎은 어린 옥수수를 봄": "ploughed young powerful",
+      "옥수수가 익은 것을 봄": "ripe fame wealth",
+      "옥수수를 곳간에 쟁여 둔 것을 봄": "cribbed highest desires",
+      "낟알을 턴 옥수수를 봄": "shelled combines unstinted",
+      "풋옥수수를 먹음": "eating green harmony"
+    }
+  },
+  {
+    "id": "corn-field",
+    "aliases": [
+      "강냉이밭",
+      "옥수수밭을 지났다"
+    ],
+    "aliases_en": [
+      "cornfield",
+      "corn field",
+      "corn-fields"
+    ],
+    "contexts": {
+      "푸르고 무성한 옥수수밭을 지나며 묵직한 이삭을 봄": "푸르 무성 묵직",
+      "옥수수 이삭이 말라 죽은 것을 봄": "말라 시들 마른"
+    },
+    "contexts_en": {
+      "푸르고 무성한 옥수수밭을 지나며 묵직한 이삭을 봄": "luxurious passing hanging",
+      "옥수수 이삭이 말라 죽은 것을 봄": "blasted disappointments bereavements"
+    }
+  },
+  {
+    "id": "corns",
+    "aliases": [
+      "티눈이 났다",
+      "발가락 티눈"
+    ],
+    "aliases_en": [
+      "a corn on the foot",
+      "foot corns"
+    ],
+    "contexts": {
+      "티눈이 발을 아프게 함": "아프 쑤시 발이",
+      "발의 티눈을 말끔히 없앰": "없앴 없애 뽑아",
+      "젊은 여성의 발에 티눈이 남": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "티눈이 발을 아프게 함": "hurt feet undermining",
+      "발의 티눈을 말끔히 없앰": "clearing inherit estate",
+      "젊은 여성의 발에 티눈이 남": "young woman crosses"
+    }
+  },
+  {
+    "id": "corkscrew",
+    "aliases": [
+      "따개",
+      "마개뽑이",
+      "코르크 따개를 보았다"
+    ],
+    "aliases_en": [
+      "cork screw",
+      "corkscrews"
+    ],
+    "contexts": {
+      "코르크 따개를 봄": "놓인 집어 들었",
+      "쓰다가 코르크 따개를 부러뜨림": "부러 부서 망가"
+    },
+    "contexts_en": {
+      "코르크 따개를 봄": "unsatisfied curb desires",
+      "쓰다가 코르크 따개를 부러뜨림": "breaking perilous abandon"
+    }
+  },
+  {
+    "id": "cornmeal",
+    "aliases": [
+      "옥수수가루",
+      "옥수수 가루"
+    ],
+    "aliases_en": [
+      "corn meal"
+    ],
+    "contexts": {
+      "옥수숫가루를 봄": "가루를 담긴 자루",
+      "옥수숫가루로 만든 빵을 먹음": "빵을 먹었 구운"
+    },
+    "contexts_en": {
+      "옥수숫가루를 봄": "consummation ardent wishes",
+      "옥수숫가루로 만든 빵을 먹음": "bread unwittingly obstructions"
+    }
+  },
+  {
+    "id": "corner",
+    "aliases": [
+      "구석",
+      "길모퉁이",
+      "모퉁이에 숨었다"
+    ],
+    "aliases_en": [
+      "a corner",
+      "street corner"
+    ],
+    "contexts": {
+      "겁에 질려 모퉁이에 몸을 숨김": "겁에 숨었 숨어",
+      "사람들이 모퉁이에서 이야기하는 것을 봄": "이야기 사람들이 수군"
+    },
+    "contexts_en": {
+      "겁에 질려 모퉁이에 몸을 숨김": "frightened secretes safety",
+      "사람들이 모퉁이에서 이야기하는 것을 봄": "talking persons traitor"
+    }
+  },
+  {
+    "id": "corpulence",
+    "aliases": [
+      "살이 쪘다",
+      "뚱뚱해졌다",
+      "뚱뚱한",
+      "비만"
+    ],
+    "aliases_en": [
+      "corpulent",
+      "grown fat",
+      "obesity"
+    ],
+    "contexts": {
+      "제 몸이 뚱뚱해짐": "살이 통통 살쪘",
+      "남이 뚱뚱한 것을 봄": "남이 남들이 다른 사람",
+      "제 몸이 몹시 뚱뚱해 보임": "몹시 지나치게 너무"
+    },
+    "contexts_en": {
+      "제 몸이 뚱뚱해짐": "bountiful abiding increase",
+      "남이 뚱뚱한 것을 봄": "others activity prosperous",
+      "제 몸이 몹시 뚱뚱해 보임": "grossly moral impulses"
+    }
+  },
+  {
+    "id": "corset",
+    "aliases": [
+      "코르셋을 입었다",
+      "코르셋을 조였다"
+    ],
+    "aliases_en": [
+      "a corset",
+      "corsets"
+    ],
+    "contexts": {
+      "코르셋을 봄": "놓인 걸려 상자",
+      "젊은 여성이 코르셋을 풀거나 조이며 짜증을 냄": "풀거나 조이 짜증 여자"
+    },
+    "contexts_en": {
+      "코르셋을 봄": "perplexed meaning attentions",
+      "젊은 여성이 코르셋을 풀거나 조이며 짜증을 냄": "vexed undoing fastening"
+    }
+  },
+  {
+    "id": "cossack",
+    "aliases": [
+      "코사크",
+      "카자크",
+      "코사크 기병"
+    ],
+    "aliases_en": [
+      "a cossack",
+      "cossacks"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cot",
+    "aliases": [
+      "야전침대",
+      "접이침대",
+      "간이침대에 누웠다"
+    ],
+    "aliases_en": [
+      "a cot",
+      "cots",
+      "camp bed"
+    ],
+    "contexts": {
+      "간이침대를 봄": "놓인 하나 좁은",
+      "간이침대가 줄지어 놓여 있음": "줄지어 여러 나란히"
+    },
+    "contexts_en": {
+      "간이침대를 봄": "affliction sickness accident",
+      "간이침대가 줄지어 놓여 있음": "rows alone friends"
+    }
+  },
+  {
+    "id": "cotton",
+    "aliases": [
+      "목화밭",
+      "면화",
+      "목화송이"
+    ],
+    "aliases_en": [
+      "raw cotton",
+      "cotton fields"
+    ],
+    "contexts": {
+      "어린 목화가 자라는 밭을 봄": "어린 자라는 밭을",
+      "거둘 때가 된 목화를 봄": "거둘 수확 여물",
+      "물건을 만드는 이가 목화 꿈을 꿈": "만드는 공장 제조",
+      "장사하는 이가 목화 꿈을 꿈": "장사 상인 가게",
+      "목화 더미를 봄": "더미 뭉치 쌓인",
+      "목화 값이 오름": "값이 올랐 값은"
+    },
+    "contexts_en": {
+      "어린 목화가 자라는 밭을 봄": "growing young cultivated",
+      "거둘 때가 된 목화를 봄": "ready gathering farmers",
+      "물건을 만드는 이가 목화 꿈을 꿈": "manufacturers benefited article",
+      "장사하는 이가 목화 꿈을 꿈": "merchants change better",
+      "목화 더미를 봄": "bales favorable indication",
+      "목화 값이 오름": "advancing prices circumstances"
+    }
+  },
+  {
+    "id": "cotton-cap",
+    "aliases": [
+      "무명 모자",
+      "면모자"
+    ],
+    "aliases_en": [
+      "a cotton cap",
+      "cotton caps"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cotton-cloth",
+    "aliases": [
+      "광목",
+      "면포",
+      "무명천을 짰다"
+    ],
+    "aliases_en": [
+      "calico",
+      "cotton fabric"
+    ],
+    "contexts": {
+      "무명천을 봄": "놓인 개켜 쌓인",
+      "젊은 여성이 무명천을 짬": "짜는 짰다 베틀 여자",
+      "혼인한 이가 무명천 꿈을 꿈": "혼인 결혼 부부"
+    },
+    "contexts_en": {
+      "무명천을 봄": "easy circumstances changes",
+      "젊은 여성이 무명천을 짬": "weaving thrifty enterprising",
+      "혼인한 이가 무명천 꿈을 꿈": "married pleasant humble"
+    }
+  }
+]

@@ -4254,5 +4254,79 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "coppersmith": [
     "a coppersmith",
     "coppersmiths"
+  ],
+  "copying": [
+    "copied",
+    "transcribing",
+    "making a copy"
+  ],
+  "coral": [
+    "coral reef",
+    "corals"
+  ],
+  "cornet": [
+    "a cornet",
+    "cornets"
+  ],
+  "coronation": [
+    "a coronation",
+    "crowning ceremony"
+  ],
+  "cork": [
+    "bottle cork"
+  ],
+  "corn": [
+    "maize",
+    "ears of corn"
+  ],
+  "corn-field": [
+    "cornfield",
+    "corn field",
+    "corn-fields"
+  ],
+  "corns": [
+    "a corn on the foot",
+    "foot corns"
+  ],
+  "corkscrew": [
+    "cork screw",
+    "corkscrews"
+  ],
+  "cornmeal": [
+    "corn meal"
+  ],
+  "corner": [
+    "a corner",
+    "street corner"
+  ],
+  "corpulence": [
+    "corpulent",
+    "grown fat",
+    "obesity"
+  ],
+  "corset": [
+    "a corset",
+    "corsets"
+  ],
+  "cossack": [
+    "a cossack",
+    "cossacks"
+  ],
+  "cot": [
+    "a cot",
+    "cots",
+    "camp bed"
+  ],
+  "cotton": [
+    "raw cotton",
+    "cotton fields"
+  ],
+  "cotton-cap": [
+    "a cotton cap",
+    "cotton caps"
+  ],
+  "cotton-cloth": [
+    "calico",
+    "cotton fabric"
   ]
 };
