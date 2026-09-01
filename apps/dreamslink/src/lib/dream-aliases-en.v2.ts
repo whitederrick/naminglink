@@ -1692,9 +1692,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "an ox",
     "oxen",
     "cow",
-    "cattle",
     "bull",
-    "calf",
     "buffalo"
   ],
   "banner": [
@@ -3823,5 +3821,74 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "castor-oil": [
     "castor-oil"
+  ],
+  "catechism": [
+    "a catechism"
+  ],
+  "caterpillar": [
+    "caterpillars",
+    "a caterpillar"
+  ],
+  "cattle": [
+    "cows",
+    "livestock"
+  ],
+  "cathedral": [
+    "a cathedral",
+    "cathedrals"
+  ],
+  "cauliflower": [
+    "cauliflowers"
+  ],
+  "cavalry": [
+    "horsemen",
+    "mounted troops"
+  ],
+  "cave": [
+    "a cave",
+    "caves",
+    "cavern"
+  ],
+  "cedar": [
+    "cedars",
+    "cedar tree"
+  ],
+  "celestial-signs": [
+    "celestial sign",
+    "signs in the sky"
+  ],
+  "cellar": [
+    "a cellar",
+    "cellars"
+  ],
+  "cemetery": [
+    "a cemetery",
+    "graveyard",
+    "burial ground"
+  ],
+  "chains": [
+    "a chain",
+    "chained"
+  ],
+  "chair": [
+    "a chair",
+    "chairs",
+    "seat"
+  ],
+  "chair-maker": [
+    "a chair maker",
+    "chairmaker"
+  ],
+  "chairman": [
+    "a chairman",
+    "chairmen",
+    "presiding officer"
+  ],
+  "chalk": [
+    "chalks"
+  ],
+  "chalice": [
+    "a chalice",
+    "goblet"
   ]
 };

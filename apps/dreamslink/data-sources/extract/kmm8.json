@@ -384,7 +384,8 @@
     "id": "calf",
     "aliases": [
       "어린 소",
-      "송아지 떼"
+      "송아지 떼",
+      "송아지들"
     ],
     "aliases_en": [
       "a calf",
@@ -392,10 +393,14 @@
       "the calves"
     ],
     "contexts": {
-      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "잔디 풀을 뜯어 한가 놀고"
+      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "잔디 풀을 뜯어 한가 놀고",
+      "어린 송아지들을 봄": "어린 여러 마리",
+      "여윈 송아지들을 봄": "여윈 비쩍 야윈"
     },
     "contexts_en": {
-      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "grazing lawn peacefully grass"
+      "송아지가 잔디밭에서 한가로이 풀을 뜯음": "grazing lawn peacefully grass",
+      "어린 송아지들을 봄": "young favorite society",
+      "여윈 송아지들을 봄": "poor harder obtain"
     }
   },
   {

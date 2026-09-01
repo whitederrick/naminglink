@@ -407,9 +407,7 @@
     "id": "insect",
     "aliases": [
       "곤충",
-      "구더기",
-      "애벌레",
-      "송충이"
+      "구더기"
     ],
     "aliases_en": [
       "insects",
@@ -656,8 +654,32 @@
       "cats",
       "kitty"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "고양이를 봄": "그냥 가만히 앉아",
+      "고양이가 덤벼듦": "덤벼 달려들 공격 덮쳤",
+      "고양이를 쫓아냄": "쫓아냈 내쫓 몰아냈",
+      "여위고 지저분한 고양이를 만남": "여위 비쩍 지저분 더러운",
+      "고양이 울음소리를 들음": "울음소리 야옹 우는소리 비명",
+      "고양이가 할큄": "할퀴 할큄 긁혔 발톱",
+      "고양이를 품에 안고 있음": "안고 품에 껴안 안았",
+      "깨끗한 흰 고양이를 봄": "하얀 깨끗한 백색 흰색",
+      "장사하는 사람이 고양이 꿈을 꿈": "장사 상인 가게",
+      "고양이와 뱀이 사이좋게 있는 것을 봄": "뱀과 뱀이 사이좋",
+      "고양이가 쥐를 잡음": "쥐를 쥐가 잡는"
+    },
+    "contexts_en": {
+      "고양이를 봄": "quietly sitting merely",
+      "고양이가 덤벼듦": "attacks attacked pounced",
+      "고양이를 쫓아냄": "banishing drove away chased",
+      "여위고 지저분한 고양이를 만남": "thin dirty filthy skinny",
+      "고양이 울음소리를 들음": "scream mewing yowling",
+      "고양이가 할큄": "scratches scratched claws",
+      "고양이를 품에 안고 있음": "holding held arms",
+      "깨끗한 흰 고양이를 봄": "white clean",
+      "장사하는 사람이 고양이 꿈을 꿈": "merchant trader shop",
+      "고양이와 뱀이 사이좋게 있는 것을 봄": "snake friendly terms",
+      "고양이가 쥐를 잡음": "mouse mice rodent"
+    }
   },
   {
     "id": "centipede",
@@ -867,7 +889,6 @@
   {
     "id": "shackles",
     "aliases": [
-      "사슬",
       "쇠줄",
       "차꼬",
       "형틀",

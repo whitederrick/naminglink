@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 12 — `Captive`~`Castoria`, 60건)
+// (지금 담긴 것: 배치 13 — `Cats`~`Chalice`, 67건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -28,84 +28,73 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "captive", ctx: "내가 포로가 됨", text: "내가 포로가 되어 갇혔다" },
-  { id: "captive", ctx: "남을 사로잡음", text: "남을 사로잡아 포로로 데려왔다" },
-  { id: "captive", ctx: "젊은 여성이 포로가 됨", text: "젊은 여자가 포로가 되었다" },
-
-  { id: "captain", ctx: "지휘관을 봄", text: "군복을 입은 지휘관을 보았다" },
-  { id: "captain", ctx: "연인이 지휘관임", text: "애인이 지휘관이었다" },
-
-  { id: "railway-car", ctx: "객차를 봄", text: "객차가 여러 대 서 있었다" },
-  { id: "railway-car", ctx: "객차에 올라탐", text: "객차에 올라탔다" },
-  { id: "railway-car", ctx: "객차를 놓침", text: "객차를 놓쳤다" },
-  { id: "railway-car", ctx: "객차에서 내림", text: "객차에서 내렸다" },
-  { id: "railway-car", ctx: "침대차를 봄", text: "침대차를 보았다" },
-  { id: "railway-car", ctx: "전차를 봄", text: "전차를 보았다" },
-  { id: "railway-car", ctx: "객차를 타고 감", text: "객차를 타고 갔다" },
-  { id: "railway-car", ctx: "달리는 전차의 발판에 서 있음", text: "달리는 전차에 매달려 있었다" },
-  { id: "railway-car", ctx: "발판이 높은 곳에 있음", text: "객차 발판이 높은 곳에 있었다" },
-  { id: "railway-car", ctx: "발판이 낮은 곳에 있음", text: "객차 발판이 낮은 곳에 있었다" },
-
-  { id: "cardinal", ctx: "예복을 입은 추기경을 봄", text: "붉은 예복을 입은 추기경을 보았다" },
-  { id: "cardinal", ctx: "여성이 추기경을 봄", text: "여자가 추기경을 보았다" },
-
-  { id: "cards", ctx: "어울려 재미로 카드놀이를 함", text: "여럿이 재미로 카드놀이를 했다" },
-  { id: "cards", ctx: "돈을 걸고 카드놀이를 함", text: "판돈을 걸고 카드놀이를 했다" },
-  { id: "cards", ctx: "카드놀이에서 짐", text: "카드놀이에서 졌다" },
-  { id: "cards", ctx: "카드놀이에서 이김", text: "카드놀이에서 이겼다" },
-  { id: "cards", ctx: "연인이 카드놀이를 함", text: "애인이 카드놀이를 하고 있었다" },
-  { id: "cards", ctx: "다이아몬드 짝패를 봄", text: "카드놀이에서 다이아몬드가 나왔다" },
-  { id: "cards", ctx: "클로버 짝패를 봄", text: "카드놀이에서 클로버가 나왔다" },
-  { id: "cards", ctx: "하트 짝패를 봄", text: "카드놀이에서 하트가 나왔다" },
-  { id: "cards", ctx: "스페이드 짝패를 봄", text: "카드놀이에서 스페이드가 나왔다" },
-
-  { id: "carnival", ctx: "카니발에 어울려 참여함", text: "카니발에 참여했다" },
-  { id: "carnival", ctx: "가면을 쓰거나 광대 차림이 보이는 카니발", text: "가면을 쓴 사람들이 있는 카니발이었다" },
-
-  { id: "cart", ctx: "수레를 봄", text: "수레를 보았다" },
-  { id: "cart", ctx: "수레를 타고 감", text: "수레를 탔다" },
-  { id: "cart", ctx: "수레를 몲", text: "수레를 몰았다" },
-  { id: "cart", ctx: "연인끼리 함께 수레를 탐", text: "애인과 함께 수레를 탔다" },
-
-  { id: "cartridge", ctx: "탄약통을 봄", text: "탄약통을 보았다" },
-  { id: "cartridge", ctx: "탄약통이 비어 있음", text: "탄약통이 비어 있었다" },
-
-  { id: "carving", ctx: "새고기를 썲", text: "새고기를 칼질해 썰었다" },
-  { id: "carving", ctx: "고깃덩이를 썲", text: "고깃덩이를 칼질해 썰었다" },
-
-  { id: "carpet", ctx: "바닥에 깔린 양탄자를 봄", text: "바닥에 깔린 양탄자를 보았다" },
-  { id: "carpet", ctx: "양탄자 위를 걸음", text: "양탄자 위를 걸었다" },
-  { id: "carpet", ctx: "양탄자를 삼", text: "양탄자를 샀다" },
-  { id: "carpet", ctx: "양탄자를 팜", text: "양탄자를 팔았다" },
-  { id: "carpet", ctx: "젊은 여성이 양탄자를 봄", text: "여자가 양탄자를 보았다" },
-
-  { id: "carpenter", ctx: "목수가 일하는 것을 봄", text: "목수들이 일하는 것을 보았다" },
-
-  { id: "carriage", ctx: "마차를 봄", text: "마차가 세워져 있었다" },
-  { id: "carriage", ctx: "마차를 타고 감", text: "마차를 타고 갔다" },
-  { id: "carriage", ctx: "마차를 찾아다님", text: "마차를 찾아다녔다" },
-
-  { id: "carrot", ctx: "당근을 봄", text: "밭에서 당근을 보았다" },
-  { id: "carrot", ctx: "당근을 먹음", text: "당근을 먹었다" },
-
-  { id: "cask", ctx: "가득 찬 통을 봄", text: "술통이 가득 차 있었다" },
-  { id: "cask", ctx: "통이 비어 있음", text: "술통이 비어 있었다" },
-
-  { id: "cash", ctx: "빌린 현금을 잔뜩 가지고 있음", text: "현금을 잔뜩 가지고 있었다" },
-  { id: "cash", ctx: "빌린 돈을 씀", text: "빌린 현금을 썼다" },
-
-  { id: "cash-box", ctx: "가득 찬 금고를 봄", text: "금고가 가득 차 있었다" },
-  { id: "cash-box", ctx: "금고가 비어 있음", text: "금고가 비어 있었다" },
-
-  { id: "cashier", ctx: "출납원을 봄", text: "출납원을 보았다" },
-  { id: "cashier", ctx: "남에게 빚이 있음", text: "출납원에게 빚이 있었다" },
-
-  { id: "city-wall", ctx: "성 안에 있음", text: "성 안에 머물러 있었다" },
-  { id: "city-wall", ctx: "덩굴에 덮인 오래된 성을 봄", text: "담쟁이덩굴에 덮인 오래된 성을 보았다" },
-  { id: "city-wall", ctx: "성을 떠남", text: "성을 떠났다" },
-
-  { id: "castor-oil", ctx: "피마자기름을 봄", text: "피마자기름을 보았다" },
-  { id: "castoria", ctx: "캐스토리아를 봄", text: "캐스토리아를 보았다" },
+  { id: "cat", ctx: "고양이를 봄", text: "고양이가 가만히 있었다" },
+  { id: "cat", ctx: "고양이가 덤벼듦", text: "고양이가 나에게 덤벼들었다" },
+  { id: "cat", ctx: "고양이를 쫓아냄", text: "고양이를 쫓아냈다" },
+  { id: "cat", ctx: "여위고 지저분한 고양이를 만남", text: "여위고 지저분한 고양이를 만났다" },
+  { id: "cat", ctx: "고양이 울음소리를 들음", text: "고양이 울음소리를 들었다" },
+  { id: "cat", ctx: "고양이가 할큄", text: "고양이가 나를 할퀴었다" },
+  { id: "cat", ctx: "고양이를 품에 안고 있음", text: "고양이를 품에 안고 있었다" },
+  { id: "cat", ctx: "깨끗한 흰 고양이를 봄", text: "하얀 고양이를 보았다" },
+  { id: "cat", ctx: "장사하는 사람이 고양이 꿈을 꿈", text: "가게 하는 사람이 고양이를 보았다" },
+  { id: "cat", ctx: "고양이와 뱀이 사이좋게 있는 것을 봄", text: "고양이와 뱀이 사이좋게 있었다" },
+  { id: "cat", ctx: "고양이가 쥐를 잡음", text: "고양이가 쥐를 잡았다" },
+  { id: "catechism", ctx: "교리문답을 봄", text: "교리문답을 보았다" },
+  { id: "caterpillar", ctx: "애벌레를 봄", text: "애벌레를 보았다" },
+  { id: "cattle", ctx: "살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음", text: "살진 소떼가 푸른 목장에서 풀을 뜯고 있었다" },
+  { id: "cattle", ctx: "여위고 털이 헝클어진 소떼를 봄", text: "여위고 털이 헝클어진 소떼를 보았다" },
+  { id: "cattle", ctx: "소떼가 우르르 내달림", text: "소떼가 우르르 내달렸다" },
+  { id: "cattle", ctx: "젖 짜는 때의 소떼를 봄", text: "젖을 짜는 소떼를 보았다" },
+  { id: "cattle", ctx: "젖이 그득한 소의 젖을 짬", text: "젖이 그득한 소들의 젖을 짰다" },
+  { id: "cattle", ctx: "송아지가 젖을 먼저 빨아 먹음", text: "소들의 젖을 송아지가 먼저 빨아 먹었다" },
+  { id: "cattle", ctx: "뿔이 길고 검은 사나운 소떼를 봄", text: "뿔이 길고 검은 사나운 소떼를 보았다" },
+  { id: "calf", ctx: "어린 송아지들을 봄", text: "어린 송아지 여러 마리를 보았다" },
+  { id: "calf", ctx: "여윈 송아지들을 봄", text: "여윈 송아지들을 보았다" },
+  { id: "cathedral", ctx: "돔이 높이 솟은 커다란 대성당을 봄", text: "돔이 솟은 거대한 대성당을 보았다" },
+  { id: "cathedral", ctx: "대성당 안으로 들어감", text: "대성당 안으로 들어갔다" },
+  { id: "cauliflower", ctx: "콜리플라워를 먹음", text: "콜리플라워를 먹었다" },
+  { id: "cauliflower", ctx: "콜리플라워가 자라는 것을 봄", text: "콜리플라워가 자라는 것을 보았다" },
+  { id: "cauliflower", ctx: "밭에 있는 콜리플라워를 봄", text: "텃밭에 있는 콜리플라워를 보았다" },
+  { id: "cavalry", ctx: "기병대를 봄", text: "기병대를 보았다" },
+  { id: "cave", ctx: "달빛 속에 입을 벌린 동굴을 봄", text: "달빛 속에 입을 벌린 동굴을 보았다" },
+  { id: "cave", ctx: "동굴 안에 있음", text: "동굴 안에 들어가 있었다" },
+  { id: "cave", ctx: "연인과 함께 동굴을 걸음", text: "애인과 함께 동굴을 걸었다" },
+  { id: "cedar", ctx: "푸르고 잘 자란 삼나무를 봄", text: "푸르고 무성한 삼나무를 보았다" },
+  { id: "cedar", ctx: "죽거나 시든 삼나무를 봄", text: "시든 삼나무를 보았다" },
+  { id: "celestial-signs", ctx: "하늘의 징조를 봄", text: "하늘의 징조를 보았다" },
+  { id: "celery", ctx: "싱싱한 셀러리 줄기를 봄", text: "싱싱한 셀러리 줄기를 보았다" },
+  { id: "celery", ctx: "썩어 가는 셀러리를 봄", text: "썩어 가는 셀러리를 보았다" },
+  { id: "celery", ctx: "셀러리를 먹음", text: "셀러리를 먹었다" },
+  { id: "celery", ctx: "연인과 함께 셀러리를 먹음", text: "애인과 함께 셀러리를 먹었다" },
+  { id: "cellar", ctx: "춥고 축축한 저장고에 있음", text: "춥고 축축한 지하 저장고에 있었다" },
+  { id: "cellar", ctx: "술과 먹을 것이 쌓인 저장고를 봄", text: "포도주가 쌓인 지하 저장고를 보았다" },
+  { id: "cellar", ctx: "젊은 여성이 그 저장고 꿈을 꿈", text: "여자가 지하 저장고 꿈을 꾸었다" },
+  { id: "cemetery", ctx: "아름답고 잘 손질된 묘지에 있음", text: "아름답게 손질된 묘지에 있었다" },
+  { id: "cemetery", ctx: "가시덤불에 덮여 잊힌 오래된 묘지를 봄", text: "가시덤불에 덮인 오래된 묘지를 보았다" },
+  { id: "cemetery", ctx: "젊은이가 묘지 사이를 거닒", text: "젊은이가 묘지 사이를 거닐었다" },
+  { id: "cemetery", ctx: "신부가 혼례길에 묘지를 지나감", text: "신부가 혼례길에 묘지를 지나갔다" },
+  { id: "cemetery", ctx: "어머니가 묘지에 생화를 가져감", text: "어머니가 묘지에 생화를 가져갔다" },
+  { id: "cemetery", ctx: "젊은 과부가 묘지를 찾아감", text: "젊은 과부가 묘지를 찾아갔다" },
+  { id: "cemetery", ctx: "노인이 묘지 꿈을 꿈", text: "노인이 묘지 꿈을 꾸었다" },
+  { id: "cemetery", ctx: "무덤 사이에서 아이들이 꽃을 꺾고 나비를 쫓음", text: "묘지에서 아이들이 나비를 쫓고 있었다" },
+  { id: "chaff", ctx: "쭉정이를 봄", text: "쭉정이가 흩어진 것을 보았다" },
+  { id: "chaff", ctx: "쭉정이가 무더기로 쌓인 것을 봄", text: "쭉정이가 무더기로 쌓여 있었다" },
+  { id: "chains", ctx: "사슬에 묶임", text: "내가 사슬에 묶여 있었다" },
+  { id: "chains", ctx: "사슬을 끊어 냄", text: "사슬을 끊었다" },
+  { id: "chains", ctx: "사슬을 봄", text: "사슬이 놓여 있었다" },
+  { id: "chains", ctx: "남이 사슬에 묶인 것을 봄", text: "남이 사슬에 묶인 것을 보았다" },
+  { id: "chair", ctx: "의자를 봄", text: "의자가 하나 놓여 있었다" },
+  { id: "chair", ctx: "벗이 의자에 꼼짝 않고 앉아 있음", text: "친구가 의자에 꼼짝 않고 앉아 있었다" },
+  { id: "chair-maker", ctx: "의자장이를 봄", text: "의자 만드는 사람을 보았다" },
+  { id: "chairman", ctx: "의장을 봄", text: "의장을 보았다" },
+  { id: "chairman", ctx: "의장이 언짢은 낯빛임", text: "의장이 언짢은 낯빛이었다" },
+  { id: "chairman", ctx: "내가 의장임", text: "내가 의장이었다" },
+  { id: "chalk", ctx: "얼굴에 분칠을 함", text: "얼굴에 분칠을 했다" },
+  { id: "chalk", ctx: "칠판에 분필로 글씨를 씀", text: "칠판에 분필로 썼다" },
+  { id: "chalk", ctx: "판에 분필로 글씨를 씀", text: "분필로 글씨를 적었다" },
+  { id: "chalk", ctx: "분필을 한 움큼 쥠", text: "분필을 한 움큼 쥐고 있었다" },
+  { id: "chalice", ctx: "성배를 봄", text: "성배를 보았다" },
+  { id: "chalice", ctx: "성배를 깨뜨림", text: "성배를 깨뜨렸다" },
 ];
 
 let notFound = 0;

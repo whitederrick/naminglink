@@ -1,0 +1,370 @@
+[
+  {
+    "id": "catechism",
+    "aliases": [
+      "교리 문답서",
+      "문답 교육"
+    ],
+    "aliases_en": [
+      "a catechism"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "caterpillar",
+    "aliases": [
+      "송충이",
+      "쐐기벌레"
+    ],
+    "aliases_en": [
+      "caterpillars",
+      "a caterpillar"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cattle",
+    "aliases": [
+      "소 떼",
+      "소들"
+    ],
+    "aliases_en": [
+      "cows",
+      "livestock"
+    ],
+    "contexts": {
+      "살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음": "살진 푸른 목장 풀을",
+      "여위고 털이 헝클어진 소떼를 봄": "여위 헝클 비쩍 털이",
+      "소떼가 우르르 내달림": "우르르 내달 몰려 달아났",
+      "젖 짜는 때의 소떼를 봄": "짜는 착유 젖통",
+      "젖이 그득한 소의 젖을 짬": "그득 짰다 짜고",
+      "송아지가 젖을 먼저 빨아 먹음": "송아지 빨아 먼저",
+      "뿔이 길고 검은 사나운 소떼를 봄": "뿔이 검은 사나운 긴뿔"
+    },
+    "contexts_en": {
+      "살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음": "fat grazing pastures green",
+      "여위고 털이 헝클어진 소떼를 봄": "lean shaggy poorly",
+      "소떼가 우르르 내달림": "stampeding stampede",
+      "젖 짜는 때의 소떼를 봄": "herd milking time",
+      "젖이 그득한 소의 젖을 짬": "udders well filled",
+      "송아지가 젖을 먼저 빨아 먹음": "stolen calf",
+      "뿔이 길고 검은 사나운 소떼를 봄": "horned vicious dark"
+    }
+  },
+  {
+    "id": "cathedral",
+    "aliases": [
+      "성당",
+      "대사원"
+    ],
+    "aliases_en": [
+      "a cathedral",
+      "cathedrals"
+    ],
+    "contexts": {
+      "돔이 높이 솟은 커다란 대성당을 봄": "돔이 솟은 커다란 거대한",
+      "대성당 안으로 들어감": "들어갔 들어서 안으로"
+    },
+    "contexts_en": {
+      "돔이 높이 솟은 커다란 대성당을 봄": "domes rising vast envious",
+      "대성당 안으로 들어감": "enter entered inside"
+    }
+  },
+  {
+    "id": "cauliflower",
+    "aliases": [
+      "꽃양배추"
+    ],
+    "aliases_en": [
+      "cauliflowers"
+    ],
+    "contexts": {
+      "콜리플라워를 먹음": "먹었 먹는 씹었",
+      "콜리플라워가 자라는 것을 봄": "자라 자란 크는",
+      "밭에 있는 콜리플라워를 봄": "밭에 텃밭 정원"
+    },
+    "contexts_en": {
+      "콜리플라워를 먹음": "eating ate eat",
+      "콜리플라워가 자라는 것을 봄": "growing grows",
+      "밭에 있는 콜리플라워를 봄": "garden vegetable"
+    }
+  },
+  {
+    "id": "cavalry",
+    "aliases": [
+      "기병",
+      "기마대"
+    ],
+    "aliases_en": [
+      "horsemen",
+      "mounted troops"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cave",
+    "aliases": [
+      "굴속",
+      "석굴",
+      "토굴"
+    ],
+    "aliases_en": [
+      "a cave",
+      "caves",
+      "cavern"
+    ],
+    "contexts": {
+      "달빛 속에 입을 벌린 동굴을 봄": "달빛 어스름 입을 벌린",
+      "동굴 안에 있음": "안에 들어가 머물",
+      "연인과 함께 동굴을 걸음": "연인 애인 함께 걸었"
+    },
+    "contexts_en": {
+      "달빛 속에 입을 벌린 동굴을 봄": "moonlight yawning perplexities",
+      "동굴 안에 있음": "change estranged dear",
+      "연인과 함께 동굴을 걸음": "lover walk villain"
+    }
+  },
+  {
+    "id": "cedar",
+    "aliases": [
+      "향나무",
+      "삼나무 숲"
+    ],
+    "aliases_en": [
+      "cedars",
+      "cedar tree"
+    ],
+    "contexts": {
+      "푸르고 잘 자란 삼나무를 봄": "푸르 푸른 무성 우거",
+      "죽거나 시든 삼나무를 봄": "죽은 시든 말라 마른"
+    },
+    "contexts_en": {
+      "푸르고 잘 자란 삼나무를 봄": "green shapely",
+      "죽거나 시든 삼나무를 봄": "dead blighted despair"
+    }
+  },
+  {
+    "id": "celestial-signs",
+    "aliases": [
+      "천문 현상",
+      "하늘에 나타난 징조"
+    ],
+    "aliases_en": [
+      "celestial sign",
+      "signs in the sky"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "celery",
+    "aliases": [
+      "샐러리"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "싱싱한 셀러리 줄기를 봄": "싱싱 아삭 줄기",
+      "썩어 가는 셀러리를 봄": "썩어 상한 무른",
+      "셀러리를 먹음": "먹었 먹는 씹었",
+      "연인과 함께 셀러리를 먹음": "연인 애인 함께 둘이"
+    },
+    "contexts_en": {
+      "싱싱한 셀러리 줄기를 봄": "fresh crisp stalks",
+      "썩어 가는 셀러리를 봄": "decaying rotting",
+      "셀러리를 먹음": "eat eating ate",
+      "연인과 함께 셀러리를 먹음": "lover together sweetheart"
+    }
+  },
+  {
+    "id": "cellar",
+    "aliases": [
+      "포도주 저장실",
+      "지하광"
+    ],
+    "aliases_en": [
+      "a cellar",
+      "cellars"
+    ],
+    "contexts": {
+      "춥고 축축한 저장고에 있음": "춥고 축축 눅눅 차가운",
+      "술과 먹을 것이 쌓인 저장고를 봄": "술이 포도주 쌓인 그득",
+      "젊은 여성이 그 저장고 꿈을 꿈": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "춥고 축축한 저장고에 있음": "cold damp doubts",
+      "술과 먹을 것이 쌓인 저장고를 봄": "wines stored stores",
+      "젊은 여성이 그 저장고 꿈을 꿈": "woman marriage gambler"
+    }
+  },
+  {
+    "id": "cemetery",
+    "aliases": [
+      "공동묘지",
+      "묘원"
+    ],
+    "aliases_en": [
+      "a cemetery",
+      "graveyard",
+      "burial ground"
+    ],
+    "contexts": {
+      "아름답고 잘 손질된 묘지에 있음": "아름답 손질 단정",
+      "가시덤불에 덮여 잊힌 오래된 묘지를 봄": "가시덤불 덤불 잊힌 오래된",
+      "젊은이가 묘지 사이를 거닒": "젊은이 거닐 거닒",
+      "신부가 혼례길에 묘지를 지나감": "신부 혼례 결혼식 지나",
+      "어머니가 묘지에 생화를 가져감": "어머니 생화 꽃을 가져",
+      "젊은 과부가 묘지를 찾아감": "과부 상복 홀로된",
+      "노인이 묘지 꿈을 꿈": "노인 늙은이 어르신",
+      "무덤 사이에서 아이들이 꽃을 꺾고 나비를 쫓음": "아이들 나비 어린아이"
+    },
+    "contexts_en": {
+      "아름답고 잘 손질된 묘지에 있음": "beautiful kept recovery",
+      "가시덤불에 덮여 잊힌 오래된 묘지를 봄": "bramble forgotten stranger",
+      "젊은이가 묘지 사이를 거닒": "wandering silent avenues",
+      "신부가 혼례길에 묘지를 지나감": "brides wedding ceremony",
+      "어머니가 묘지에 생화를 가져감": "mother flowers fresh",
+      "젊은 과부가 묘지를 찾아감": "widow weeds matrimony",
+      "노인이 묘지 꿈을 꿈": "old people rest",
+      "무덤 사이에서 아이들이 꽃을 꺾고 나비를 쫓음": "children butterflies graves"
+    }
+  },
+  {
+    "id": "chaff",
+    "aliases": [
+      "왕겨",
+      "검불"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "쭉정이를 봄": "보았 흩어진",
+      "쭉정이가 무더기로 쌓인 것을 봄": "무더기 쌓인 더미"
+    },
+    "contexts_en": {
+      "쭉정이를 봄": "empty fruitless anxiety",
+      "쭉정이가 무더기로 쌓인 것을 봄": "piles gossip notoriety"
+    }
+  },
+  {
+    "id": "chains",
+    "aliases": [
+      "쇠사슬",
+      "체인"
+    ],
+    "aliases_en": [
+      "a chain",
+      "chained"
+    ],
+    "contexts": {
+      "사슬에 묶임": "내가 나를 스스로",
+      "사슬을 끊어 냄": "끊었 끊어 부쉈 풀었",
+      "사슬을 봄": "보았 놓여 널려",
+      "남이 사슬에 묶인 것을 봄": "남이 남들이 묶인 타인"
+    },
+    "contexts_en": {
+      "사슬에 묶임": "bound myself burdens",
+      "사슬을 끊어 냄": "breaking broke free",
+      "사슬을 봄": "seeing calumny envious",
+      "남이 사슬에 묶인 것을 봄": "others another people"
+    }
+  },
+  {
+    "id": "chair",
+    "aliases": [
+      "걸상",
+      "안락의자"
+    ],
+    "aliases_en": [
+      "a chair",
+      "chairs",
+      "seat"
+    ],
+    "contexts": {
+      "의자를 봄": "보았 놓여 하나",
+      "벗이 의자에 꼼짝 않고 앉아 있음": "벗이 친구 앉아 꼼짝"
+    },
+    "contexts_en": {
+      "의자를 봄": "obligation failure vacate",
+      "벗이 의자에 꼼짝 않고 앉아 있음": "friend sitting motionless"
+    }
+  },
+  {
+    "id": "chair-maker",
+    "aliases": [
+      "의자 만드는 사람",
+      "가구장이"
+    ],
+    "aliases_en": [
+      "a chair maker",
+      "chairmaker"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "chairman",
+    "aliases": [
+      "회장",
+      "위원장"
+    ],
+    "aliases_en": [
+      "a chairman",
+      "chairmen",
+      "presiding officer"
+    ],
+    "contexts": {
+      "의장을 봄": "보았 공적 단체의",
+      "의장이 언짢은 낯빛임": "언짢 못마땅 찌푸",
+      "내가 의장임": "내가 나는 스스로"
+    },
+    "contexts_en": {
+      "의장을 봄": "public body elevation",
+      "의장이 언짢은 낯빛임": "humor unsatisfactory",
+      "내가 의장임": "justice kindness distinguished"
+    }
+  },
+  {
+    "id": "chalk",
+    "aliases": [
+      "백묵",
+      "분칠",
+      "분필 가루"
+    ],
+    "aliases_en": [
+      "chalks"
+    ],
+    "contexts": {
+      "얼굴에 분칠을 함": "얼굴에 분칠 화장",
+      "칠판에 분필로 글씨를 씀": "칠판 흑판 교실",
+      "판에 분필로 글씨를 씀": "글씨 적었 썼다",
+      "분필을 한 움큼 쥠": "움큼 한줌 쥐고"
+    },
+    "contexts_en": {
+      "얼굴에 분칠을 함": "face chalking admirers",
+      "칠판에 분필로 글씨를 씀": "blackboard",
+      "판에 분필로 글씨를 씀": "honors public attain",
+      "분필을 한 움큼 쥠": "hands full disappointment"
+    }
+  },
+  {
+    "id": "chalice",
+    "aliases": [
+      "성작",
+      "제구 잔"
+    ],
+    "aliases_en": [
+      "a chalice",
+      "goblet"
+    ],
+    "contexts": {
+      "성배를 봄": "보았 들고 놓여",
+      "성배를 깨뜨림": "깨뜨 깨졌 부쉈"
+    },
+    "contexts_en": {
+      "성배를 봄": "pleasure sorrow others",
+      "성배를 깨뜨림": "break broke breaking"
+    }
+  }
+]
