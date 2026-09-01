@@ -1,0 +1,353 @@
+[
+  {
+    "id": "crawl",
+    "aliases": [
+      "기어갔다",
+      "기어가는",
+      "기어서",
+      "기어갔",
+      "기어가",
+      "기어가다",
+      "기어가다가"
+    ],
+    "aliases_en": [
+      "crawling",
+      "crawled"
+    ],
+    "contexts": {
+      "땅을 기어가다 손을 다침": "손을 다쳤 다치",
+      "거칠고 돌 많은 곳을 기어감": "거칠 돌이 자갈",
+      "젊은 여성이 기어가는 꿈을 꿈": "여자 여성 처녀",
+      "남들과 진창에서 기어감": "진창 진흙 남들과"
+    },
+    "contexts_en": {
+      "땅을 기어가다 손을 다침": "hurt hand humiliating",
+      "거칠고 돌 많은 곳을 기어감": "rough places stones",
+      "젊은 여성이 기어가는 꿈을 꿈": "young woman conduct",
+      "남들과 진창에서 기어감": "mire depression credit"
+    }
+  },
+  {
+    "id": "cream",
+    "aliases": [
+      "생크림",
+      "크림을 마셨다"
+    ],
+    "aliases_en": [
+      "fresh cream"
+    ],
+    "contexts": {
+      "크림이 상에 오른 것을 봄": "상에 올라온 담겨",
+      "농사짓는 이에게 크림 꿈이 나타남": "농부 농사 수확",
+      "크림을 마심": "마셨 마시 먹었",
+      "연인에게 크림 꿈이 나타남": "연인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "크림이 상에 오른 것을 봄": "served wealth business",
+      "농사짓는 이에게 크림 꿈이 나타남": "farmer crops relations",
+      "크림을 마심": "drink drank yourself",
+      "연인에게 크림 꿈이 나타남": "lovers happy united"
+    }
+  },
+  {
+    "id": "credit",
+    "aliases": [
+      "외상을 달았다",
+      "외상값을 청했다",
+      "신용"
+    ],
+    "aliases_en": [
+      "asking for credit",
+      "on credit"
+    ],
+    "contexts": {
+      "외상을 청함": "청했 달라 부탁",
+      "남에게 외상을 줌": "남에게 내주 빌려줬"
+    },
+    "contexts_en": {
+      "외상을 청함": "worry bright inclined",
+      "남에게 외상을 줌": "another careful trust"
+    }
+  },
+  {
+    "id": "creek",
+    "aliases": [
+      "개천",
+      "실개천",
+      "개울물"
+    ],
+    "aliases_en": [
+      "a creek",
+      "creeks",
+      "brook"
+    ],
+    "contexts": {
+      "개울을 봄": "흐르는 졸졸 건넜",
+      "개울이 넘쳐흐름": "넘쳐 넘치 불어났",
+      "개울이 말라 있음": "말라 마른 바닥이"
+    },
+    "contexts_en": {
+      "개울을 봄": "new experiences journeys",
+      "개울이 넘쳐흐름": "overflowing sharp brief",
+      "개울이 말라 있음": "dry disappointment another"
+    }
+  },
+  {
+    "id": "cremation",
+    "aliases": [
+      "화장터에서",
+      "주검을 태웠다"
+    ],
+    "aliases_en": [
+      "cremated",
+      "cremation"
+    ],
+    "contexts": {
+      "화장터에서 시신을 태우는 것을 봄": "태우는 태우고 남의",
+      "제 몸이 태워지는 꿈을 꿈": "내가 제몸 스스로"
+    },
+    "contexts_en": {
+      "화장터에서 시신을 태우는 것을 봄": "bodies enemies influence",
+      "제 몸이 태워지는 꿈을 꿈": "yourself failure enterprises"
+    }
+  },
+  {
+    "id": "crew",
+    "aliases": [
+      "뱃사람들",
+      "선원",
+      "승무원"
+    ],
+    "aliases_en": [
+      "a crew",
+      "crews",
+      "ship's crew"
+    ],
+    "contexts": {
+      "선원들이 배를 띄우려 채비하는 것을 봄": "채비 떠나려 항구",
+      "폭풍 속에서 배를 구하려는 선원들을 봄": "폭풍 구하려 몰아치"
+    },
+    "contexts_en": {
+      "선원들이 배를 띄우려 채비하는 것을 봄": "port leave unforseen",
+      "폭풍 속에서 배를 구하려는 선원들을 봄": "storm save disaster"
+    }
+  },
+  {
+    "id": "cries",
+    "aliases": [
+      "울부짖는",
+      "울부짖음",
+      "비명 소리",
+      "외치는 소리",
+      "우는 소리",
+      "울음소리"
+    ],
+    "aliases_en": [
+      "cries of distress",
+      "a cry"
+    ],
+    "contexts": {
+      "괴로워 울부짖는 소리를 들음": "괴로 고통 신음",
+      "놀라 지르는 소리를 들음": "놀라 놀란 깜짝",
+      "들짐승 우는 소리를 들음": "들짐승 짐승 사나운",
+      "살붙이나 벗이 도와 달라 외치는 소리를 들음": "도와 살려 가족"
+    },
+    "contexts_en": {
+      "괴로워 울부짖는 소리를 들음": "engulfed serious alert",
+      "놀라 지르는 소리를 들음": "surprise unexpected sources",
+      "들짐승 우는 소리를 들음": "wild beasts accident",
+      "살붙이나 벗이 도와 달라 외치는 소리를 들음": "help relatives friends"
+    }
+  },
+  {
+    "id": "criminal",
+    "aliases": [
+      "범죄자들",
+      "죄를 지은 이",
+      "죄인과 어울"
+    ],
+    "aliases_en": [
+      "a criminal",
+      "criminals"
+    ],
+    "contexts": {
+      "죄를 지은 이와 어울림": "어울 함께 사귀",
+      "범죄자가 법망을 피해 달아나는 것을 봄": "달아나 도망 쫓기"
+    },
+    "contexts_en": {
+      "죄를 지은 이와 어울림": "associating harassed unscrupulous",
+      "범죄자가 법망을 피해 달아나는 것을 봄": "fleeing justice secrets"
+    }
+  },
+  {
+    "id": "crippled",
+    "aliases": [
+      "성치 않은 몸",
+      "다친 몸으로"
+    ],
+    "aliases_en": [
+      "the crippled",
+      "maimed"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crochet-work",
+    "aliases": [
+      "뜨개질",
+      "코바늘",
+      "코바늘로 떴다"
+    ],
+    "aliases_en": [
+      "crocheting",
+      "crochet"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crockery",
+    "aliases": [
+      "사기그릇",
+      "사기그릇 가게",
+      "그릇붙이"
+    ],
+    "aliases_en": [
+      "crockery store",
+      "earthenware"
+    ],
+    "contexts": {
+      "깨끗한 사기그릇이 넉넉히 있음": "깨끗 넉넉 많이",
+      "장사하는 이가 사기그릇 가게에 있음": "장사 상인 가게에",
+      "젊은 여성이 사기그릇 가게 꿈을 꿈": "여자 여성 처녀",
+      "어수선하고 선반이 빈 가게를 봄": "어수선 선반 비어"
+    },
+    "contexts_en": {
+      "깨끗한 사기그릇이 넉넉히 있음": "abundance clean housekeeper",
+      "장사하는 이가 사기그릇 가게에 있음": "merchant details profit",
+      "젊은 여성이 사기그릇 가게 꿈을 꿈": "young woman sturdy",
+      "어수선하고 선반이 빈 가게를 봄": "untidy shelves empty"
+    }
+  },
+  {
+    "id": "cross",
+    "aliases": [
+      "십자가를 보았다",
+      "나무 십자가"
+    ],
+    "aliases_en": [
+      "a cross",
+      "crosses"
+    ],
+    "contexts": {
+      "십자가를 봄": "놓인 세워진 서있",
+      "십자가를 진 사람을 봄": "지고 짊어 메고"
+    },
+    "contexts_en": {
+      "십자가를 봄": "trouble ahead shape",
+      "십자가를 진 사람을 봄": "bearing missionaries charities"
+    }
+  },
+  {
+    "id": "cross-bones",
+    "aliases": [
+      "엇갈린 뼈 표시",
+      "해골 문양"
+    ],
+    "aliases_en": [
+      "crossbones",
+      "skull and crossbones"
+    ],
+    "contexts": {
+      "엇갈린 뼈 표시를 봄": "표시를 그려진 새겨",
+      "장례 청첩에 엇갈린 뼈 표시가 있음": "청첩 장례 초대장"
+    },
+    "contexts_en": {
+      "엇갈린 뼈 표시를 봄": "evil influence prosperity",
+      "장례 청첩에 엇갈린 뼈 표시가 있음": "monogram invitation funeral"
+    }
+  },
+  {
+    "id": "cross-roads",
+    "aliases": [
+      "갈림길",
+      "네거리",
+      "세 갈래 길"
+    ],
+    "aliases_en": [
+      "crossroads",
+      "a cross road"
+    ],
+    "contexts": {
+      "갈림길에 이름": "이르렀 다다랐 닿았",
+      "어느 길로 갈지 정하지 못함": "정하지 망설 헤맸",
+      "갈 길을 정함": "정했 골랐 택했"
+    },
+    "contexts_en": {
+      "갈림길에 이름": "unable hold former",
+      "어느 길로 갈지 정하지 못함": "undecided unimportant irritate",
+      "갈 길을 정함": "route favored fortune"
+    }
+  },
+  {
+    "id": "croup",
+    "aliases": [
+      "후두염",
+      "아이가 크루프"
+    ],
+    "aliases_en": [
+      "the croup"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "crowd",
+    "aliases": [
+      "사람들 무리",
+      "인파",
+      "군중 속"
+    ],
+    "aliases_en": [
+      "a crowd",
+      "crowds"
+    ],
+    "contexts": {
+      "잘 차려입은 큰 무리가 잔치에 모인 것을 봄": "차려입은 잔치 흥겨운",
+      "손님들의 흥이 깨지는 일이 생김": "흥이 깨지 손님들",
+      "교회에 모인 무리를 봄": "교회 성당 예배",
+      "거리에 모인 무리를 봄": "거리 길거리 광장",
+      "무리 속에서 제 말을 들리게 하려 애씀": "들리게 외쳤 소리쳤"
+    },
+    "contexts_en": {
+      "잘 차려입은 큰 무리가 잔치에 모인 것을 봄": "handsomely dressed entertainment",
+      "손님들의 흥이 깨지는 일이 생김": "guests mar dissensions",
+      "교회에 모인 무리를 봄": "church death unpleasantness",
+      "거리에 모인 무리를 봄": "street briskness trade",
+      "무리 속에서 제 말을 들리게 하려 애씀": "heard push interests"
+    }
+  },
+  {
+    "id": "crown",
+    "aliases": [
+      "면류관",
+      "왕관을 썼다",
+      "왕관을 씌웠다"
+    ],
+    "aliases_en": [
+      "a crown",
+      "crowns"
+    ],
+    "contexts": {
+      "왕관을 봄": "놓인 반짝 빛나는",
+      "제가 왕관을 씀": "내가 썼다 쓰고",
+      "남에게 왕관을 씌움": "씌워 씌우 남에게"
+    },
+    "contexts_en": {
+      "왕관을 봄": "change habit journey",
+      "제가 왕관을 씀": "wear loss personal",
+      "남에게 왕관을 씌움": "crowning worthiness deserving"
+    }
+  }
+]

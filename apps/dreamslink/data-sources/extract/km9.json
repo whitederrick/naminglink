@@ -718,15 +718,27 @@
   {
     "id": "crow",
     "aliases": [
-      "갈까마귀"
+      "갈까마귀",
+      "까마귀들",
+      "까마귀 떼"
     ],
     "aliases_en": [
       "crows",
       "raven",
       "ravens"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "까마귀가 시끄럽게 지저귐": "시끄럽 지저귀 떠들썩",
+      "까마귀를 봄": "보았 앉아 날아",
+      "까마귀 우는 소리를 들음": "울음 우는소리 까악",
+      "젊은 남성에게 까마귀 꿈이 나타남": "남자 젊은이 총각"
+    },
+    "contexts_en": {
+      "까마귀가 시끄럽게 지저귐": "noisily quarreling chattering",
+      "까마귀를 봄": "seeing misfortune grief",
+      "까마귀 우는 소리를 들음": "cawing influenced disposal",
+      "젊은 남성에게 까마귀 꿈이 나타남": "young man succumbing"
+    }
   },
   {
     "id": "crown-prince",

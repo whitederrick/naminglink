@@ -568,8 +568,16 @@
       "a crocodile",
       "a gator"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "악어 꿈을 꿈": "속았 배신 적이",
+      "악어 등을 밟고 섬": "등을 밟았 밟고",
+      "악어를 봄(죽이지 않음)": "죽이지 살려 놓아줬"
+    },
+    "contexts_en": {
+      "악어 꿈을 꿈": "deceived warmest assail",
+      "악어 등을 밟고 섬": "stepping back extricate",
+      "악어를 봄(죽이지 않음)": "killing spared alive"
+    }
   },
   {
     "id": "alms-house",

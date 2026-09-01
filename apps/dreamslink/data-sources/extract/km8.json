@@ -700,13 +700,24 @@
   },
   {
     "id": "cricket",
-    "aliases": [],
+    "aliases": [
+      "귀뚜라미 소리",
+      "귀뚜라미들"
+    ],
     "aliases_en": [
       "a cricket",
       "crickets"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "귀뚜라미 소리가 잦음": "잦았 자주 끊이지",
+      "귀뚜라미 우는 소리를 들음": "들었 들려 우는",
+      "귀뚜라미를 봄": "보았 눈에 앉아"
+    },
+    "contexts_en": {
+      "귀뚜라미 소리가 잦음": "frequent chirping often",
+      "귀뚜라미 우는 소리를 들음": "hear melancholy distant",
+      "귀뚜라미를 봄": "see struggles poverty"
+    }
   },
   {
     "id": "cup",

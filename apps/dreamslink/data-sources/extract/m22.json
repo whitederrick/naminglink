@@ -1,0 +1,801 @@
+[
+  {
+    "term_ko": "기어감",
+    "term_en": "crawl",
+    "context": "땅을 기어가다 손을 다침",
+    "interpretation_ko": "낯 깎이는 일이 맡겨질 조짐",
+    "interpretation_en": "you may expect humiliating tasks to be placed on you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crawl",
+      "original": "To dream that you are crawling on the ground, and hurt your hand, you may expect humiliating tasks to be placed on you.",
+      "translation_ko": "땅을 기어가다 손을 다치는 꿈은, 낯 깎이는 일이 맡겨짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기어감",
+    "term_en": "crawl",
+    "context": "거칠고 돌 많은 곳을 기어감",
+    "interpretation_ko": "찾아온 기회를 제대로 살리지 못했다는 뜻",
+    "interpretation_en": "you have not taken proper advantage of your opportunities",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crawl",
+      "original": "To crawl over rough places and stones, indicates that you have not taken proper advantage of your opportunities.",
+      "translation_ko": "거칠고 돌 많은 곳을 기어가는 꿈은, 찾아온 기회를 제대로 살리지 못했음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기어감",
+    "term_en": "crawl",
+    "context": "젊은 여성이 기어가는 꿈을 꿈",
+    "interpretation_ko": "몸가짐을 조심하지 않으면 연인의 존중을 잃을 조짐",
+    "interpretation_en": "if not very careful of her conduct, she will lose the respect of her lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crawl",
+      "original": "A young woman, after dreaming of crawling, if not very careful of her conduct, will lose the respect of her lover.",
+      "translation_ko": "젊은 여성이 기어가는 꿈을 꾼 뒤 몸가짐을 조심하지 않으면 연인의 존중을 잃는다"
+    }
+  },
+  {
+    "term_ko": "기어감",
+    "term_en": "crawl",
+    "context": "남들과 진창에서 기어감",
+    "interpretation_ko": "하는 일이 가라앉고 믿음을 잃을 조짐",
+    "interpretation_en": "depression in business and loss of credit",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crawl",
+      "original": "To crawl in mire with others, denotes depression in business and loss of credit.",
+      "translation_ko": "남들과 진창에서 기어가는 꿈은, 일의 침체와 믿음의 상실을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "크림",
+    "term_en": "cream",
+    "context": "크림이 상에 오른 것을 봄",
+    "interpretation_ko": "농사가 아닌 일을 한다면 재물과 이어질 조짐",
+    "interpretation_en": "you will be associated with wealth if you are engaged in business other than farming",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cream",
+      "original": "To dream of seeing cream served, denotes that you will be associated with wealth if you are engaged in business other than farming.",
+      "translation_ko": "크림이 상에 오른 것을 보는 꿈은, 농사가 아닌 일을 한다면 재물과 이어짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "크림",
+    "term_en": "cream",
+    "context": "농사짓는 이에게 크림 꿈이 나타남",
+    "interpretation_ko": "알찬 수확과 화목한 집안을 뜻함",
+    "interpretation_en": "fine crops and pleasant family relations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cream",
+      "original": "To the farmer, it indicates fine crops and pleasant family relations.",
+      "translation_ko": "농사짓는 이에게는 알찬 수확과 화목한 집안을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "크림",
+    "term_en": "cream",
+    "context": "크림을 마심",
+    "interpretation_ko": "곧 좋은 운이 올 조짐",
+    "interpretation_en": "immediate good fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cream",
+      "original": "To drink cream yourself, denotes immediate good fortune.",
+      "translation_ko": "크림을 손수 마시는 꿈은 곧 올 좋은 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "크림",
+    "term_en": "cream",
+    "context": "연인에게 크림 꿈이 나타남",
+    "interpretation_ko": "머지않아 하나가 될 기쁜 조짐",
+    "interpretation_en": "a happy omen, as they will soon be united",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cream",
+      "original": "To lovers, this is a happy omen, as they will soon be united.",
+      "translation_ko": "연인에게는 머지않아 하나가 될 기쁜 조짐이다"
+    }
+  },
+
+  {
+    "term_ko": "외상",
+    "term_en": "credit",
+    "context": "외상을 청함",
+    "interpretation_ko": "때로 앞이 밝아 보여도 근심할 일이 생길 조짐",
+    "interpretation_en": "you will have cause to worry, although you may be inclined sometimes to think things look bright",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Credit",
+      "original": "To dream of asking for credit, denotes that you will have cause to worry, although you may be inclined sometimes to think things look bright.",
+      "translation_ko": "외상을 청하는 꿈은, 때로 앞이 밝아 보여도 근심할 일이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "외상",
+    "term_en": "credit",
+    "context": "남에게 외상을 줌",
+    "interpretation_ko": "끝내 해를 끼칠 이를 믿기 쉬우니 일을 살펴야 할 조짐",
+    "interpretation_en": "be careful of your affairs, as you are likely to trust those who will eventually work you harm",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Credit",
+      "original": "To credit another, warns you to be careful of your affairs, as you are likely to trust those who will eventually work you harm.",
+      "translation_ko": "남에게 외상을 주는 꿈은, 끝내 해를 끼칠 이를 믿기 쉬우니 일을 살피라는 경고다"
+    }
+  },
+
+  {
+    "term_ko": "개울",
+    "term_en": "creek",
+    "context": "개울을 봄",
+    "interpretation_ko": "새로운 겪음과 짧은 나들이가 있을 조짐",
+    "interpretation_en": "new experiences and short journeys",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Creek",
+      "original": "To dream of a creek, denotes new experiences and short journeys.",
+      "translation_ko": "개울 꿈은 새로운 겪음과 짧은 나들이를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "개울",
+    "term_en": "creek",
+    "context": "개울이 넘쳐흐름",
+    "interpretation_ko": "날카로운 어려움이 오나 오래가지 않을 조짐",
+    "interpretation_en": "you will have sharp trouble, but of brief period",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Creek",
+      "original": "If it is overflowing, you will have sharp trouble, but of brief period.",
+      "translation_ko": "개울이 넘치면 날카로운 어려움이 오나 오래가지 않는다"
+    }
+  },
+  {
+    "term_ko": "개울",
+    "term_en": "creek",
+    "context": "개울이 말라 있음",
+    "interpretation_ko": "바라던 것이 어긋나고 남이 그것을 얻는 것을 볼 조짐",
+    "interpretation_en": "disappointment will be felt by you, and you will see another obtain the things you intrigued to secure",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Creek",
+      "original": "If it is dry, disappointment will be felt by you, and you will see another obtain the things you intrigued to secure.",
+      "translation_ko": "개울이 말라 있으면 바라던 것이 어긋나고, 남이 그것을 얻는 것을 보게 된다"
+    }
+  },
+
+  {
+    "term_ko": "화장터",
+    "term_en": "cremation",
+    "context": "화장터에서 시신을 태우는 것을 봄",
+    "interpretation_ko": "적이 일터에서의 영향력을 깎아내릴 조짐",
+    "interpretation_en": "enemies will reduce your influence in business circles",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cremate",
+      "original": "To dream of seeing bodies cremated, denotes enemies will reduce your influence in business circles.",
+      "translation_ko": "시신을 태우는 것을 보는 꿈은, 적이 일터에서의 영향력을 깎아내림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "화장터",
+    "term_en": "cremation",
+    "context": "제 몸이 태워지는 꿈을 꿈",
+    "interpretation_ko": "제 판단이 아닌 남의 말을 따르면 하는 일이 크게 어그러질 조짐",
+    "interpretation_en": "distinct failure in enterprises, if you mind any but your own judgment in conducting them",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cremate",
+      "original": "To think you are being cremated, portends distinct failure in enterprises, if you mind any but your own judgment in conducting them.",
+      "translation_ko": "제가 태워지는 꿈은, 제 판단이 아닌 남의 말을 따르면 하는 일이 크게 어그러짐을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "선원들",
+    "term_en": "crew",
+    "context": "선원들이 배를 띄우려 채비하는 것을 봄",
+    "interpretation_ko": "뜻밖의 일로 이로웠을 여정을 접게 될 조짐",
+    "interpretation_en": "some unforeseen circumstance will cause you to give up a journey from which you would have gained much",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crew",
+      "original": "To dream of seeing a crew getting ready to leave port, some unforseen{sic} circumstance will cause you to give up a journey from which you would have gained much.",
+      "translation_ko": "선원들이 배를 띄우려 채비하는 것을 보는 꿈은, 뜻밖의 일로 이로웠을 여정을 접게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "선원들",
+    "term_en": "crew",
+    "context": "폭풍 속에서 배를 구하려는 선원들을 봄",
+    "interpretation_ko": "뭍과 바다에 재앙이 있을 조짐",
+    "interpretation_en": "disaster on land and sea",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crew",
+      "original": "To see a crew working to save a ship in a storm, denotes disaster on land and sea.",
+      "translation_ko": "폭풍 속에서 배를 구하려는 선원들을 보는 꿈은, 뭍과 바다의 재앙을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "귀뚜라미",
+    "term_en": "cricket",
+    "context": "귀뚜라미 우는 소리를 들음",
+    "interpretation_ko": "서글픈 소식이 오고 멀리 있는 벗의 부고를 들을 조짐",
+    "interpretation_en": "melancholy news, and perhaps the death of some distant friend",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Cricket",
+      "original": "To hear a cricket in one's dream, indicates melancholy news, and perhaps the death of some distant friend.",
+      "translation_ko": "꿈에 귀뚜라미 소리를 들으면 서글픈 소식과, 멀리 있는 벗의 죽음이 있을 수 있다"
+    }
+  },
+  {
+    "term_ko": "귀뚜라미",
+    "term_en": "cricket",
+    "context": "귀뚜라미를 봄",
+    "interpretation_ko": "가난과 힘겹게 씨름할 조짐",
+    "interpretation_en": "hard struggles with poverty",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Cricket",
+      "original": "To see them, indicates hard struggles with poverty.",
+      "translation_ko": "귀뚜라미를 보면 가난과 힘겹게 씨름한다"
+    }
+  },
+
+  {
+    "term_ko": "울부짖는 소리",
+    "term_en": "cries",
+    "context": "괴로워 울부짖는 소리를 들음",
+    "interpretation_ko": "큰 어려움에 빠지나 정신을 차리면 끝내 벗어나 도리어 얻는 것이 있을 조짐",
+    "interpretation_en": "you will be engulfed in serious troubles, but by being alert you will finally emerge and gain by this temporary gloom",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cries",
+      "original": "To hear cries of distress, denotes that you will be engulfed in serious troubles, but by being alert you will finally emerge from these distressing straits and gain by this temporary gloom.",
+      "translation_ko": "괴로워 울부짖는 소리를 들으면 큰 어려움에 빠지나, 정신을 차리면 끝내 벗어나 그 잠깐의 어둠에서 얻는 것이 있다"
+    }
+  },
+  {
+    "term_ko": "울부짖는 소리",
+    "term_en": "cries",
+    "context": "놀라 지르는 소리를 들음",
+    "interpretation_ko": "뜻밖의 곳에서 도움을 받을 조짐",
+    "interpretation_en": "you will receive aid from unexpected sources",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cries",
+      "original": "To hear a cry of surprise, you will receive aid from unexpected sources.",
+      "translation_ko": "놀라 지르는 소리를 들으면 뜻밖의 곳에서 도움을 받는다"
+    }
+  },
+  {
+    "term_ko": "울부짖는 소리",
+    "term_en": "cries",
+    "context": "들짐승 우는 소리를 들음",
+    "interpretation_ko": "크게 다칠 사고가 있을 조짐",
+    "interpretation_en": "an accident of a serious nature",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cries",
+      "original": "To hear the cries of wild beasts, denotes an accident of a serious nature.",
+      "translation_ko": "들짐승 우는 소리를 들으면 크게 다칠 사고가 있다"
+    }
+  },
+  {
+    "term_ko": "울부짖는 소리",
+    "term_en": "cries",
+    "context": "살붙이나 벗이 도와 달라 외치는 소리를 들음",
+    "interpretation_ko": "그들이 앓거나 어려움에 놓였다는 뜻",
+    "interpretation_en": "they are sick or in distress",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cries",
+      "original": "To hear a cry for help from relatives, or friends, denotes that they are sick or in distress.",
+      "translation_ko": "살붙이나 벗이 도와 달라 외치는 소리를 들으면, 그들이 앓거나 어려움에 놓인 것이다"
+    }
+  },
+
+  {
+    "term_ko": "범죄자",
+    "term_en": "criminal",
+    "context": "죄를 지은 이와 어울림",
+    "interpretation_ko": "됨됨이가 바르지 못한 이들이 벗의 정을 제 잇속에 쓰려 들어 시달릴 조짐",
+    "interpretation_en": "you will be harassed with unscrupulous persons, who will try to use your friendship for their own advancement",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Criminal",
+      "original": "To dream of associating with a person who has committed a crime, denotes that you will be harassed with unscrupulous persons, who will try to use your friendship for their own advancement.",
+      "translation_ko": "죄를 지은 이와 어울리는 꿈은, 됨됨이가 바르지 못한 이들이 벗의 정을 제 잇속에 쓰려 들어 시달리게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "범죄자",
+    "term_en": "criminal",
+    "context": "범죄자가 법망을 피해 달아나는 것을 봄",
+    "interpretation_ko": "남의 비밀을 알게 되어 도리어 위태로워질 조짐",
+    "interpretation_en": "you will come into the possession of the secrets of others, and will therefore be in danger",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Criminal",
+      "original": "To see a criminal fleeing from justice, denotes that you will come into the possession of the secrets of others, and will therefore be in danger, for they will fear that you will betray them, and consequently will seek your removal.",
+      "translation_ko": "범죄자가 법망을 피해 달아나는 것을 보는 꿈은, 남의 비밀을 알게 되어 도리어 위태로워짐을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "몸이 성치 않은 이",
+    "term_en": "crippled",
+    "context": "몸이 성치 않은 이를 봄",
+    "interpretation_ko": "가난한 이들에게 굶주림과 시달림이 있을 조짐이며, 장사도 한동안 무디어질 것",
+    "interpretation_en": "famine and distress among the poor, and a temporary dulness in trade",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crippled",
+      "original": "To dream of the maimed and crippled, denotes famine and distress among the poor, and you should be willing to contribute to their store. It also indicates a temporary dulness in trade.",
+      "translation_ko": "몸이 성치 않은 이를 보는 꿈은, 가난한 이들의 굶주림과 시달림을 뜻하며 그들을 도울 마음을 내야 한다. 장사도 한동안 무디어진다"
+    }
+  },
+
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "코바늘뜨기를 함",
+    "interpretation_ko": "남의 일을 지나치게 궁금해하다 부질없는 일에 얽힐 조짐",
+    "interpretation_en": "your entanglement in some silly affair growing out of a too great curiosity about other people's business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Crochet Work",
+      "original": "To dream of doing crochet work, foretells your entanglement in some silly affair growing out of a too great curiosity about other people's business.",
+      "translation_ko": "코바늘뜨기를 하는 꿈은, 남의 일을 지나치게 궁금해하다 부질없는 일에 얽히게 됨을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "사기그릇",
+    "term_en": "crockery",
+    "context": "깨끗한 사기그릇이 넉넉히 있음",
+    "interpretation_ko": "살림을 깔끔하고 알뜰하게 꾸릴 조짐",
+    "interpretation_en": "you will be a tidy and economical housekeeper",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crockery",
+      "original": "To dream of having an abundance of nice, clean crockery, denotes that you will be a tidy and economical housekeeper.",
+      "translation_ko": "깨끗한 사기그릇이 넉넉한 꿈은, 살림을 깔끔하고 알뜰하게 꾸리게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사기그릇",
+    "term_en": "crockery",
+    "context": "장사하는 이가 사기그릇 가게에 있음",
+    "interpretation_ko": "일의 자잘한 데까지 잘 살펴 이문을 볼 조짐",
+    "interpretation_en": "you will look well to the details of your business and thereby experience profit",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crockery",
+      "original": "To be in a crockery store, indicates, if you are a merchant or business man, that you will look well to the details of your business and thereby experience profit.",
+      "translation_ko": "사기그릇 가게에 있는 꿈은, 장사하는 이라면 일의 자잘한 데까지 잘 살펴 이문을 봄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사기그릇",
+    "term_en": "crockery",
+    "context": "젊은 여성이 사기그릇 가게 꿈을 꿈",
+    "interpretation_ko": "든든하고 곧은 사람과 혼인할 조짐",
+    "interpretation_en": "she will marry a sturdy and upright man",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crockery",
+      "original": "To a young woman, this dream denotes that she will marry a sturdy and upright man.",
+      "translation_ko": "젊은 여성에게는 든든하고 곧은 사람과 혼인함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사기그릇",
+    "term_en": "crockery",
+    "context": "어수선하고 선반이 빈 가게를 봄",
+    "interpretation_ko": "잃을 것이 있을 조짐",
+    "interpretation_en": "loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crockery",
+      "original": "An untidy store, with empty shelves, implies loss.",
+      "translation_ko": "어수선하고 선반이 빈 가게는 잃음을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "악어",
+    "term_en": "alligator",
+    "context": "악어 꿈을 꿈",
+    "interpretation_ko": "가장 가까운 벗에게 속고 가는 곳마다 적이 달려들 조짐",
+    "interpretation_en": "you will be deceived by your warmest friends, and enemies will assail you at every turn",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Crocodile",
+      "original": "As sure as you dream of this creature, you will be deceived by your warmest friends. Enemies will assail you at every turn.",
+      "translation_ko": "이 짐승을 꿈꾸면 틀림없이 가장 가까운 벗에게 속는다. 적이 가는 곳마다 달려든다"
+    }
+  },
+  {
+    "term_ko": "악어",
+    "term_en": "alligator",
+    "context": "악어 등을 밟고 섬",
+    "interpretation_ko": "어려움에 빠져 벗어나려 몹시 애쓸 조짐",
+    "interpretation_en": "you may expect to fall into trouble, from which you will have to struggle mightily to extricate yourself",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Crocodile",
+      "original": "To dream of stepping on a crocodile's back, you may expect to fall into trouble, from which you will have to struggle mightily to extricate yourself.",
+      "translation_ko": "악어 등을 밟는 꿈은, 어려움에 빠져 벗어나려 몹시 애쓰게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "십자가",
+    "term_en": "cross",
+    "context": "십자가를 봄",
+    "interpretation_ko": "앞으로 어려움이 있을 조짐",
+    "interpretation_en": "trouble ahead for you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross",
+      "original": "To dream of seeing a cross, indicates trouble ahead for you.",
+      "translation_ko": "십자가를 보는 꿈은 앞으로의 어려움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "십자가",
+    "term_en": "cross",
+    "context": "십자가를 진 사람을 봄",
+    "interpretation_ko": "베푸는 일에 힘을 보태 달라는 청을 받을 조짐",
+    "interpretation_en": "you will be called on by missionaries to aid in charities",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross",
+      "original": "To dream of seeing a person bearing a cross, you will be called on by missionaries to aid in charities.",
+      "translation_ko": "십자가를 진 사람을 보는 꿈은, 베푸는 일에 힘을 보태 달라는 청을 받게 됨을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "엇갈린 뼈",
+    "term_en": "cross-bones",
+    "context": "엇갈린 뼈 표시를 봄",
+    "interpretation_ko": "남의 나쁜 기운에 시달리고 잘되던 일이 흐트러질 조짐",
+    "interpretation_en": "you will be troubled by the evil influence of others, and prosperity will assume other than promising aspects",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross-bones",
+      "original": "To dream of cross-bones, foretells you will be troubled by the evil influence of others, and prosperity will assume other than promising aspects.",
+      "translation_ko": "엇갈린 뼈 꿈은, 남의 나쁜 기운에 시달리고 잘되던 일이 흐트러짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "엇갈린 뼈",
+    "term_en": "cross-bones",
+    "context": "장례 청첩에 엇갈린 뼈 표시가 있음",
+    "interpretation_ko": "누군가를 두고 쓸데없는 걱정을 하게 되며, 모질어 보이는 일이 도리어 좋게 돌아갈 조짐",
+    "interpretation_en": "unnecessary fears will be entertained for some person, and events will transpire seemingly harsh, but of good import to the dreamer",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross-bones",
+      "original": "To see cross-bones as a monogram on an invitation to a funeral, which was sent out by a secret order, denotes that unnecessary fears will be entertained for some person, and events will transpire seemingly harsh, but of good import to the dreamer.",
+      "translation_ko": "장례 청첩에 엇갈린 뼈 표시가 있는 꿈은, 누군가를 두고 쓸데없는 걱정을 하게 되며 모질어 보이는 일이 도리어 좋게 돌아감을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "갈림길",
+    "term_en": "cross roads",
+    "context": "갈림길에 이름",
+    "interpretation_ko": "바라던 것에 닿을 좋은 기회를 붙들지 못할 조짐",
+    "interpretation_en": "you will be unable to hold some former favorable opportunity for reaching your desires",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross Roads",
+      "original": "To dream of cross roads, denotes you will be unable to hold some former favorable opportunity for reaching your desires.",
+      "translation_ko": "갈림길 꿈은, 바라던 것에 닿을 좋은 기회를 붙들지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "갈림길",
+    "term_en": "cross roads",
+    "context": "어느 길로 갈지 정하지 못함",
+    "interpretation_ko": "대수롭지 않은 일에 마음이 상하기 쉬울 조짐",
+    "interpretation_en": "you are likely to let unimportant matters irritate you in a distressing manner",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross Roads",
+      "original": "If you are undecided which one to take, you are likely to let unimportant matters irritate you in a distressing manner.",
+      "translation_ko": "어느 길로 갈지 정하지 못하면, 대수롭지 않은 일에 마음이 상하기 쉽다"
+    }
+  },
+  {
+    "term_ko": "갈림길",
+    "term_en": "cross roads",
+    "context": "갈 길을 정함",
+    "interpretation_ko": "운이 더 따라 줄 조짐",
+    "interpretation_en": "you will be better favored by fortune if you decide on your route",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Cross Roads",
+      "original": "You will be better favored by fortune if you decide on your route.",
+      "translation_ko": "갈 길을 정하면 운이 더 따라 준다"
+    }
+  },
+
+  {
+    "term_ko": "크루프",
+    "term_en": "croup",
+    "context": "아이가 크루프를 앓음",
+    "interpretation_ko": "가볍게 앓을 뿐이고 걱정은 쓸데없으며, 대체로 건강과 집안의 화목을 알리는 좋은 조짐",
+    "interpretation_en": "slight illness, but useless fear for its safety, and generally a good omen of health and domestic harmony",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Croup",
+      "original": "To dream that your child has the croup, denotes slight illness, but useless fear for its safety. This is generally a good omen of health and domestic harmony.",
+      "translation_ko": "아이가 크루프를 앓는 꿈은 가볍게 앓을 뿐이며 걱정은 쓸데없다. 대체로 건강과 집안의 화목을 알리는 좋은 꿈이다"
+    }
+  },
+
+  {
+    "term_ko": "까마귀",
+    "term_en": "crow",
+    "context": "까마귀를 봄",
+    "interpretation_ko": "불운과 슬픔이 따를 조짐",
+    "interpretation_en": "misfortune and grief",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Crow",
+      "original": "To dream of seeing a crow, betokens misfortune and grief.",
+      "translation_ko": "까마귀를 보는 꿈은 불운과 슬픔을 알린다"
+    }
+  },
+  {
+    "term_ko": "까마귀",
+    "term_en": "crow",
+    "context": "까마귀 우는 소리를 들음",
+    "interpretation_ko": "남의 말에 이끌려 재산을 잘못 처분할 조짐",
+    "interpretation_en": "you will be influenced by others to make a bad disposal of property",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Crow",
+      "original": "To hear crows cawing, you will be influenced by others to make a bad disposal of property.",
+      "translation_ko": "까마귀 우는 소리를 들으면, 남의 말에 이끌려 재산을 잘못 처분한다"
+    }
+  },
+  {
+    "term_ko": "까마귀",
+    "term_en": "crow",
+    "context": "젊은 남성에게 까마귀 꿈이 나타남",
+    "interpretation_ko": "꾐에 넘어갈 조짐",
+    "interpretation_en": "he is indicated as succumbing to wiles",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Crow",
+      "original": "To a young man, it is indicative of his succumbing to the wiles of designing women.",
+      "translation_ko": "젊은 남성에게는 꾐에 넘어감을 뜻한다"
+    }
+  },
+
+  {
+    "term_ko": "군중",
+    "term_en": "crowd",
+    "context": "잘 차려입은 큰 무리가 잔치에 모인 것을 봄",
+    "interpretation_ko": "벗들과 즐겁게 어울릴 조짐",
+    "interpretation_en": "pleasant association with friends",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crowd",
+      "original": "To dream of a large, handsomely dressed crowd of people at some entertainment, denotes pleasant association with friends;",
+      "translation_ko": "잘 차려입은 큰 무리가 잔치에 모인 것을 보는 꿈은, 벗들과 즐겁게 어울림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "군중",
+    "term_en": "crowd",
+    "context": "손님들의 흥이 깨지는 일이 생김",
+    "interpretation_ko": "괴로움과 벗을 잃음이 따르고, 이문과 정이 오갈 자리에 언짢음이 놓일 조짐",
+    "interpretation_en": "distress and loss of friendship, and unhappiness will be found where profit and congenial intercourse was expected",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crowd",
+      "original": "but anything occurring to mar the pleasure of the guests, denotes distress and loss of friendship, and unhappiness will be found where profit and congenial intercourse was expected.",
+      "translation_ko": "손님들의 흥이 깨지는 일이 생기면, 괴로움과 벗을 잃음이 따르고 이문과 정이 오갈 자리에 언짢음이 놓인다"
+    }
+  },
+  {
+    "term_ko": "군중",
+    "term_en": "crowd",
+    "context": "교회에 모인 무리를 봄",
+    "interpretation_ko": "죽음이 나를 스치거나 자잘한 언짢음이 생길 조짐",
+    "interpretation_en": "a death will be likely to affect you, or some slight unpleasantness may develop",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crowd",
+      "original": "To see a crowd in a church, denotes that a death will be likely to affect you, or some slight unpleasantness may develop.",
+      "translation_ko": "교회에 모인 무리를 보는 꿈은, 죽음이 나를 스치거나 자잘한 언짢음이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "군중",
+    "term_en": "crowd",
+    "context": "거리에 모인 무리를 봄",
+    "interpretation_ko": "장사가 부쩍 활기를 띠고 넉넉한 기운이 둘러쌀 조짐",
+    "interpretation_en": "unusual briskness in trade and a general air of prosperity will surround you",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crowd",
+      "original": "To see a crowd in the street, indicates unusual briskness in trade and a general air of prosperity will surround you.",
+      "translation_ko": "거리에 모인 무리를 보는 꿈은, 부쩍 활기를 띠는 장사와 둘러싼 넉넉한 기운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "군중",
+    "term_en": "crowd",
+    "context": "무리 속에서 제 말을 들리게 하려 애씀",
+    "interpretation_ko": "제 잇속을 남들보다 앞세우게 될 조짐",
+    "interpretation_en": "you will push your interests ahead of all others",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Crowd",
+      "original": "To try to be heard in a crowd, foretells that you will push your interests ahead of all others.",
+      "translation_ko": "무리 속에서 제 말을 들리게 하려 애쓰는 꿈은, 제 잇속을 남들보다 앞세우게 됨을 알린다"
+    }
+  },
+
+  {
+    "term_ko": "왕관",
+    "term_en": "crown",
+    "context": "왕관을 봄",
+    "interpretation_ko": "살아가는 방식이 바뀌고 먼 곳으로 떠나 새 인연을 맺을 조짐이며, 큰 병이 슬픈 조짐으로 따를 수도 있음",
+    "interpretation_en": "change of mode in the habit of one's life, a long journey from home and new relations, and fatal illness may also be the sad omen",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crown",
+      "original": "To dream of a crown, prognosticates change of mode in the habit of one's life. The dreamer will travel a long distance from home and form new relations. Fatal illness may also be the sad omen of this dream.",
+      "translation_ko": "왕관 꿈은 살아가는 방식이 바뀜을 알린다. 먼 곳으로 떠나 새 인연을 맺는다. 큰 병이 슬픈 조짐으로 따를 수도 있다"
+    }
+  },
+  {
+    "term_ko": "왕관",
+    "term_en": "crown",
+    "context": "제가 왕관을 씀",
+    "interpretation_ko": "제 것을 잃을 조짐",
+    "interpretation_en": "loss of personal property",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crown",
+      "original": "To dream that you wear a crown, signifies loss of personal property.",
+      "translation_ko": "제가 왕관을 쓰는 꿈은 제 것을 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "왕관",
+    "term_en": "crown",
+    "context": "남에게 왕관을 씌움",
+    "interpretation_ko": "제 값어치를 인정받을 조짐",
+    "interpretation_en": "your own worthiness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Crown",
+      "original": "To dream of crowning a person, denotes your own worthiness.",
+      "translation_ko": "남에게 왕관을 씌우는 꿈은 제 값어치를 뜻한다"
+    }
+  }
+]

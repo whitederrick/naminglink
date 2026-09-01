@@ -4400,5 +4400,73 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "crawfish": [
     "crayfish",
     "a crawfish"
+  ],
+  "crawl": [
+    "crawling",
+    "crawled"
+  ],
+  "cream": [
+    "fresh cream"
+  ],
+  "credit": [
+    "asking for credit",
+    "on credit"
+  ],
+  "creek": [
+    "a creek",
+    "creeks",
+    "brook"
+  ],
+  "cremation": [
+    "cremated",
+    "cremation"
+  ],
+  "crew": [
+    "a crew",
+    "crews",
+    "ship's crew"
+  ],
+  "cries": [
+    "cries of distress",
+    "a cry"
+  ],
+  "criminal": [
+    "a criminal",
+    "criminals"
+  ],
+  "crippled": [
+    "the crippled",
+    "maimed"
+  ],
+  "crochet-work": [
+    "crocheting",
+    "crochet"
+  ],
+  "crockery": [
+    "crockery store",
+    "earthenware"
+  ],
+  "cross": [
+    "a cross",
+    "crosses"
+  ],
+  "cross-bones": [
+    "crossbones",
+    "skull and crossbones"
+  ],
+  "cross-roads": [
+    "crossroads",
+    "a cross road"
+  ],
+  "croup": [
+    "the croup"
+  ],
+  "crowd": [
+    "a crowd",
+    "crowds"
+  ],
+  "crown": [
+    "a crown",
+    "crowns"
   ]
 };
