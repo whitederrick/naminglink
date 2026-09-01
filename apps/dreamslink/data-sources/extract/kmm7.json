@@ -965,8 +965,18 @@
       "a sleeping chamber",
       "my bedroom"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "아름답고 화려하게 꾸민 방에 있음": "화려 아름답 호화",
+      "젊은 여성이 화려한 방에 있음": "여자 여성 처녀",
+      "수수하게 꾸민 방을 봄": "수수 소박 검소",
+      "새로 꾸민 침실을 봄": "새로 새것 새로이"
+    },
+    "contexts_en": {
+      "아름답고 화려하게 꾸민 방에 있음": "richly furnished legacies",
+      "젊은 여성이 화려한 방에 있음": "wealthy stranger establishment",
+      "수수하게 꾸민 방을 봄": "plainly competency frugality",
+      "새로 꾸민 침실을 봄": "newly refitted fresh"
+    }
   },
   {
     "id": "bequest",

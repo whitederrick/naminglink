@@ -1,0 +1,707 @@
+[
+  {
+    "term_ko": "도전",
+    "term_en": "challenge",
+    "context": "결투를 신청받음",
+    "interpretation_ko": "사람들 사이의 곤란한 일에 얽혀 사과하거나 벗을 잃게 될 조짐",
+    "interpretation_en": "a social difficulty in which you will be compelled to make apologies or else lose friendships",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Challenge",
+      "original": "If you are challenged to fight a duel, you will become involved in a social difficulty wherein you will be compelled to make apologies or else lose friendships.",
+      "translation_ko": "결투를 신청받으면 사람들 사이의 곤란한 일에 얽혀, 사과를 하거나 그러지 않으면 벗을 잃게 된다"
+    }
+  },
+  {
+    "term_ko": "도전",
+    "term_en": "challenge",
+    "context": "도전을 받아들임",
+    "interpretation_ko": "남의 불명예를 막아 주려다 여러 어려움을 스스로 짊어질 조짐",
+    "interpretation_en": "you will bear many ills yourself in your endeavor to shield others from dishonor",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Challenge",
+      "original": "To accept a challenge of any character, denotes that you will bear many ills yourself in your endeavor to shield others from dishonor.",
+      "translation_ko": "어떤 도전이든 받아들이면, 남의 불명예를 막아 주려는 애씀 속에서 여러 어려움을 스스로 짊어지게 된다"
+    }
+  },
+  {
+    "term_ko": "침실",
+    "term_en": "chamber",
+    "context": "젊은 여성이 화려한 방에 있음",
+    "interpretation_ko": "넉넉한 낯선 이가 혼인과 좋은 살림을 내밀 조짐",
+    "interpretation_en": "a wealthy stranger will offer her marriage and a fine establishment",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chamber",
+      "original": "For a young woman, it denotes that a wealthy stranger will offer her marriage and a fine establishment.",
+      "translation_ko": "젊은 여성에게는 넉넉한 낯선 이가 혼인과 좋은 살림을 내밀 것을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "침실",
+    "term_en": "chamber",
+    "context": "아름답고 화려하게 꾸민 방에 있음",
+    "interpretation_ko": "낯모르는 친척의 유산이나 투기로 갑자기 재물이 들어올 조짐",
+    "interpretation_en": "sudden fortune, either through legacies from unknown relatives or through speculation",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chamber",
+      "original": "To find yourself in a beautiful and richly furnished chamber implies sudden fortune, either through legacies from unknown relatives or through speculation.",
+      "translation_ko": "아름답고 화려하게 꾸민 방에 있는 것은, 낯모르는 친척의 유산이나 투기로 갑자기 재물이 들어옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "침실",
+    "term_en": "chamber",
+    "context": "수수하게 꾸민 방을 봄",
+    "interpretation_ko": "적은 살림과 검소함이 제 몫이 될 조짐",
+    "interpretation_en": "a small competency and frugality will be her portion",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chamber",
+      "original": "If the chamber is plainly furnished, it denotes that a small competency and frugality will be her portion.",
+      "translation_ko": "방이 수수하게 꾸며져 있으면, 적은 살림과 검소함이 제 몫이 된다"
+    }
+  },
+  {
+    "term_ko": "하녀",
+    "term_en": "chambermaid",
+    "context": "하녀를 봄",
+    "interpretation_ko": "운이 나빠지고 큰 변화가 있을 조짐",
+    "interpretation_en": "bad fortune and decided changes will be made",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Chambermaid",
+      "original": "To see a chambermaid, denotes bad fortune and decided changes will be made.",
+      "translation_ko": "하녀를 보면 운이 나빠지고 큰 변화가 생긴다"
+    }
+  },
+  {
+    "term_ko": "하녀",
+    "term_en": "chambermaid",
+    "context": "하녀에게 구애함",
+    "interpretation_ko": "경솔한 처신과 눈치 없음으로 웃음거리가 될 조짐",
+    "interpretation_en": "he is likely to find himself an object of derision on account of indiscreet conduct and want of tact",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Chambermaid",
+      "original": "For a man to dream of making love to a chambermaid, shows he is likely to find himself an object of derision on account of indiscreet conduct and want of tact.",
+      "translation_ko": "남자가 하녀에게 구애하는 꿈을 꾸면, 경솔한 처신과 눈치 없음 탓에 웃음거리가 되기 쉽다"
+    }
+  },
+  {
+    "term_ko": "카멜레온",
+    "term_en": "chameleon",
+    "context": "연인이 카멜레온을 매달고 있음",
+    "interpretation_ko": "제 처지가 나아진다면 마음을 바꿔 등을 돌릴 조짐",
+    "interpretation_en": "she will prove faithless to you if by changing she can better her fortune",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chameleon",
+      "original": "To dream of seeing your swetheart{sic} wearing a chameleon chained to her, shows she will prove faithless to you if by changing she can better her fortune.",
+      "translation_ko": "연인이 카멜레온을 사슬로 매달고 있는 것을 보는 꿈은, 마음을 바꿔 제 처지가 나아진다면 등을 돌릴 것임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "카멜레온",
+    "term_en": "chameleon",
+    "context": "카멜레온을 봄",
+    "interpretation_ko": "남이 다치더라도 제 잇속을 챙기는 속임이 있을 조짐",
+    "interpretation_en": "deceit and self advancement, even though others suffer",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Chameleon",
+      "original": "Ordinarily chameleons signify deceit and self advancement, even though others suffer.",
+      "translation_ko": "카멜레온은 보통 속임과, 남이 다치더라도 제 잇속을 챙기는 것을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "챔피언",
+    "term_en": "champion",
+    "context": "챔피언을 봄",
+    "interpretation_ko": "품위와 바른 처신으로 누군가의 두터운 우정을 얻을 조짐",
+    "interpretation_en": "you will win the warmest friendship of some person by your dignity and moral conduct",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Champion",
+      "original": "To dream of a champion, denotes you will win the warmest friendship of some person by your dignity and moral conduct.",
+      "translation_ko": "챔피언 꿈은 품위와 바른 처신으로 누군가의 가장 따뜻한 우정을 얻게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "샹들리에",
+    "term_en": "chandelier",
+    "context": "샹들리에를 봄",
+    "interpretation_ko": "바라지 않던 성공이 찾아와 마음껏 즐거움과 호사를 누릴 조짐",
+    "interpretation_en": "unhoped-for success will make it possible for you to enjoy pleasure and luxury at your caprice",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chandelier",
+      "original": "To dream of a chandelier, portends that unhoped-for success will make it possible for you to enjoy pleasure and luxury at your caprice.",
+      "translation_ko": "샹들리에 꿈은 바라지 않던 성공이 찾아와 마음껏 즐거움과 호사를 누리게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "샹들리에",
+    "term_en": "chandelier",
+    "context": "부서지거나 손질 안 된 샹들리에를 봄",
+    "interpretation_ko": "잘못된 투기가 든든해 보이던 재물을 주저앉힐 조짐",
+    "interpretation_en": "unfortunate speculation will depress your seemingly substantial fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chandelier",
+      "original": "To see a broken or ill-kept one, denotes that unfortunate speculation will depress your seemingly substantial fortune.",
+      "translation_ko": "부서졌거나 손질이 안 된 것을 보면, 잘못된 투기가 든든해 보이던 재물을 주저앉힌다"
+    }
+  },
+  {
+    "term_ko": "샹들리에",
+    "term_en": "chandelier",
+    "context": "샹들리에 불이 꺼짐",
+    "interpretation_ko": "병과 괴로움이 밝던 앞날을 흐릴 조짐",
+    "interpretation_en": "sickness and distress will cloud a promising future",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chandelier",
+      "original": "To see the light in one go out, foretells that sickness and distress will cloud a promising future.",
+      "translation_ko": "그 불이 꺼지는 것을 보면 병과 괴로움이 밝던 앞날을 흐린다"
+    }
+  },
+  {
+    "term_ko": "예배당",
+    "term_en": "chapel",
+    "context": "예배당을 봄",
+    "interpretation_ko": "사람들 사이에 불화가 생기고 일이 안정되지 않을 조짐",
+    "interpretation_en": "dissension in social circles and unsettled business",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chapel",
+      "original": "To dream of a chapel, denotes dissension in social circles and unsettled business.",
+      "translation_ko": "예배당 꿈은 사람들 사이의 불화와 안정되지 않은 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "예배당",
+    "term_en": "chapel",
+    "context": "예배당 안에 있음",
+    "interpretation_ko": "실망하고 일이 바뀔 조짐",
+    "interpretation_en": "disappointment and change of business",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chapel",
+      "original": "To be in a chapel, denotes disappointment and change of business.",
+      "translation_ko": "예배당 안에 있으면 실망과 일의 변화를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "예배당",
+    "term_en": "chapel",
+    "context": "젊은이가 예배당에 들어감",
+    "interpretation_ko": "거짓된 사랑과 적이 있고, 불운한 인연에 얽힐 조짐",
+    "interpretation_en": "false loves and enemies; unlucky unions may entangle them",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Chapel",
+      "original": "For young people to dream of entering a chapel, implies false loves and enemies.  Unlucky unions may entangle them.",
+      "translation_ko": "젊은이가 예배당에 들어가는 꿈은 거짓된 사랑과 적을 뜻한다. 불운한 인연에 얽힐 수 있다"
+    }
+  },
+  {
+    "term_ko": "기부",
+    "term_en": "charity",
+    "context": "기부를 함",
+    "interpretation_ko": "가난한 이들의 도움 청함에 시달리고 일이 멈춰 설 조짐",
+    "interpretation_en": "you will be harassed with supplications for help from the poor and your business will be at standstill",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Charity",
+      "original": "To dream of giving charity, denotes that you will be harassed with supplications for help from the poor and your business will be at standstill.",
+      "translation_ko": "기부를 하는 꿈은 가난한 이들의 도움 청함에 시달리고 일이 멈춰 서게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기부",
+    "term_en": "charity",
+    "context": "자선 기관에 기부함",
+    "interpretation_ko": "재산의 권리를 두고 다투게 되고 근심과 병약함이 위협할 조짐",
+    "interpretation_en": "your right of possession will be disputed; worries and ill health will threaten you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Charity",
+      "original": "To dream of giving to charitable institutions, your right of possession to paving property will be disputed.  Worries and ill health will threaten you.",
+      "translation_ko": "자선 기관에 기부하는 꿈은 재산의 권리를 두고 다투게 됨을 뜻한다. 근심과 병약함이 위협한다"
+    }
+  },
+  {
+    "term_ko": "기부",
+    "term_en": "charity",
+    "context": "젊은이가 기부를 함",
+    "interpretation_ko": "속이는 경쟁자들에게 시달릴 조짐",
+    "interpretation_en": "they will be annoyed by deceitful rivals",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Charity",
+      "original": "For young persons to dream of giving charity, foreshows they will be annoyed by deceitful rivals.",
+      "translation_ko": "젊은이가 기부하는 꿈은 속이는 경쟁자들에게 시달리게 됨을 미리 보인다"
+    }
+  },
+  {
+    "term_ko": "기부",
+    "term_en": "charity",
+    "context": "내가 도움을 받는 처지가 됨",
+    "interpretation_ko": "불운으로 힘든 때를 지난 뒤에 삶에서 성공할 조짐",
+    "interpretation_en": "you will succeed in life after hard times with misfortunes",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Charity",
+      "original": "To dream that you are an object of charity, omens that you will succeed in life after hard times with misfortunes.",
+      "translation_ko": "내가 남의 도움을 받는 처지가 되는 꿈은, 불운으로 힘든 때를 지난 뒤에 삶에서 성공하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숯",
+    "term_en": "charcoal",
+    "context": "불 꺼진 숯을 봄",
+    "interpretation_ko": "비참한 처지와 스산한 불행이 있을 조짐",
+    "interpretation_en": "miserable situations and bleak unhappiness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Charcoal",
+      "original": "To dream of charcoal unlighted, denotes miserable situations and bleak unhappiness.",
+      "translation_ko": "불이 꺼진 숯 꿈은 비참한 처지와 스산한 불행을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "숯",
+    "term_en": "charcoal",
+    "context": "벌겋게 타는 숯을 봄",
+    "interpretation_ko": "재물이 크게 불고 티 없는 기쁨을 누릴 조짐",
+    "interpretation_en": "prospects of great enhancement of fortune, and possession of unalloyed joys",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Charcoal",
+      "original": "If it is burning with glowing coals, there is prospects of great enhancement of fortune, and possession of unalloyed joys.",
+      "translation_ko": "벌겋게 타는 숯불이라면 재물이 크게 불고 티 없는 기쁨을 누릴 앞날이 있다"
+    }
+  },
+  {
+    "term_ko": "전차",
+    "term_en": "chariot",
+    "context": "전차를 타고 감",
+    "interpretation_ko": "좋은 기회가 찾아오고, 바르게 쓰면 이롭게 될 조짐",
+    "interpretation_en": "favorable opportunities will present themselves, resulting in your good if rightly used",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chariot",
+      "original": "To dream of riding in a chariot, foretells that favorable opportunities will present themselves resulting in your good if rightly used by you.",
+      "translation_ko": "전차를 타고 가는 꿈은 좋은 기회가 찾아옴을 알린다. 바르게 쓰면 이롭게 된다"
+    }
+  },
+  {
+    "term_ko": "전차",
+    "term_en": "chariot",
+    "context": "전차에서 떨어짐",
+    "interpretation_ko": "높은 자리에서 밀려날 조짐",
+    "interpretation_en": "displacement from high positions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chariot",
+      "original": "To fall or see others fall from one, denotes displacement from high positions.",
+      "translation_ko": "거기서 떨어지거나 남이 떨어지는 것을 보면 높은 자리에서 밀려난다"
+    }
+  },
+  {
+    "term_ko": "체벌",
+    "term_en": "chastise",
+    "context": "체벌을 받음",
+    "interpretation_ko": "제 일을 꾸리는 데 신중하지 못했음을 알리는 조짐",
+    "interpretation_en": "you have not been prudent in conducting your affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Chastise",
+      "original": "To dream of being chastised, denotes that you have not been prudent in conducting your affairs.",
+      "translation_ko": "벌을 받는 꿈은 제 일을 꾸리는 데 신중하지 못했음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "체벌",
+    "term_en": "chastise",
+    "context": "남에게 매를 듦",
+    "interpretation_ko": "일이나 혼인에서 성미 사나운 짝을 만날 조짐",
+    "interpretation_en": "you will have an ill-tempered partner either in business or marriage",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Chastise",
+      "original": "To dream that you administer chastisement to another, signifies that you will have an ill-tempered partner either in business or marriage.",
+      "translation_ko": "남에게 벌을 주는 꿈은, 일에서든 혼인에서든 성미 사나운 짝을 만나게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "체벌",
+    "term_en": "chastise",
+    "context": "부모가 아이를 벌줌",
+    "interpretation_ko": "바로잡는 방식이 느슨하겠으나 아이를 떳떳하게 길러 낼 조짐",
+    "interpretation_en": "they will be loose in their manner of correcting them, but will succeed in bringing them up honorably",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Chastise",
+      "original": "For parents to dream of chastising their children, indicates they will be loose in their manner of correcting them, but they will succeed in bringing them up honorably.",
+      "translation_ko": "부모가 아이를 벌주는 꿈은 바로잡는 방식이 느슨하리라는 것을 가리키나, 아이를 떳떳하게 길러 내는 데는 성공한다"
+    }
+  },
+  {
+    "term_ko": "속임수",
+    "term_en": "cheated",
+    "context": "거래에서 속임을 당함",
+    "interpretation_ko": "재물로 가는 길을 막으려 드는 꿍꿍이 있는 이들을 만날 조짐",
+    "interpretation_en": "you will meet designing people who will seek to close your avenues to fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cheated",
+      "original": "To dream of being cheated in business, you will meet designing people who will seek to close your avenues to fortune.",
+      "translation_ko": "거래에서 속임을 당하는 꿈은, 재물로 가는 길을 막으려 드는 꿍꿍이 있는 이들을 만나게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "속임수",
+    "term_en": "cheated",
+    "context": "놀이에서 속임을 당함",
+    "interpretation_ko": "다툼과 오해로 연인을 잃을 조짐",
+    "interpretation_en": "they will lose their sweethearts through quarrels and misunderstandings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Cheated",
+      "original": "For young persons to dream that they are being cheated in games, portend they will lose their sweethearts through quarrels and misunderstandings.",
+      "translation_ko": "젊은이가 놀이에서 속임을 당하는 꿈을 꾸면, 다툼과 오해로 연인을 잃게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "수표",
+    "term_en": "checks",
+    "context": "가짜 수표를 남에게 떠넘김",
+    "interpretation_ko": "제 계획을 밀고 가려고 속임수를 쓰게 될 조짐",
+    "interpretation_en": "you will resort to subterfuge in order to carry forward your plans",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Checks",
+      "original": "To dream of palming off false checks on your friends, denotes that you will resort to subterfuge in order to carry forward your plans.",
+      "translation_ko": "가짜 수표를 벗들에게 떠넘기는 꿈은, 제 계획을 밀고 가려고 속임수를 쓰게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수표",
+    "term_en": "checks",
+    "context": "수표를 받음",
+    "interpretation_ko": "갚을 것을 치를 수 있고 재물을 물려받을 조짐",
+    "interpretation_en": "you will be able to meet your payments and will inherit money",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Checks",
+      "original": "To receive checks you will be able to meet your payments and will inherit money.",
+      "translation_ko": "수표를 받으면 갚을 것을 치를 수 있고 재물을 물려받는다"
+    }
+  },
+  {
+    "term_ko": "수표",
+    "term_en": "checks",
+    "context": "수표를 내어 줌",
+    "interpretation_ko": "일이 가라앉고 손해를 볼 조짐",
+    "interpretation_en": "depression and loss in business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Checks",
+      "original": "To dream that you pay out checks, denotes depression and loss in business.",
+      "translation_ko": "수표를 내어 주는 꿈은 일이 가라앉고 손해를 봄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "체커",
+    "term_en": "checkers",
+    "context": "체커를 둠",
+    "interpretation_ko": "만만찮은 어려움에 얽히고, 해를 끼칠 낯선 이들이 삶에 들어올 조짐",
+    "interpretation_en": "difficulties of a serious character, and strange people who will work you harm",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Checkers",
+      "original": "To dream of playing checkers, you will be involved in difficulties of a serious character, and strange people will come into your life, working you harm.",
+      "translation_ko": "체커를 두는 꿈을 꾸면 만만찮은 어려움에 얽히고, 해를 끼칠 낯선 이들이 삶에 들어온다"
+    }
+  },
+  {
+    "term_ko": "체커",
+    "term_en": "checkers",
+    "context": "체커에서 이김",
+    "interpretation_ko": "미덥지 않던 일에서 성공할 조짐",
+    "interpretation_en": "you will succeed in some doubtful enterprise",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Checkers",
+      "original": "To dream that you win the game, you will succeed in some doubtful enterprise.",
+      "translation_ko": "그 놀이에서 이기는 꿈은 미덥지 않던 일에서 성공하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "치즈",
+    "term_en": "cheese",
+    "context": "치즈를 먹음",
+    "interpretation_ko": "큰 실망과 슬픔이 있을 조짐 — 어떤 좋은 것도 바랄 수 없다",
+    "interpretation_en": "great disappointments and sorrow; no good of any nature can be hoped for",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cheese",
+      "original": "To dream of eating cheese, denotes great disappointments and sorrow.  No good of any nature can be hoped for.  Cheese is generally a bad dream.",
+      "translation_ko": "치즈를 먹는 꿈은 큰 실망과 슬픔을 뜻한다. 어떤 좋은 것도 바랄 수 없다. 치즈는 대체로 나쁜 꿈이다"
+    }
+  },
+  {
+    "term_ko": "슈미즈",
+    "term_en": "chemise",
+    "context": "슈미즈를 봄",
+    "interpretation_ko": "제 이야기가 좋지 않게 오르내리는 것을 듣게 될 조짐",
+    "interpretation_en": "she will hear unfavorable gossip about herself",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chemise",
+      "original": "For a woman to dream of a chemise, denotes she will hear unfavorable gossip about herself.",
+      "translation_ko": "여성이 슈미즈 꿈을 꾸면, 제 이야기가 좋지 않게 오르내리는 것을 듣게 된다"
+    }
+  },
+  {
+    "term_ko": "체리",
+    "term_en": "cherry",
+    "context": "체리를 봄",
+    "interpretation_ko": "상냥함과 욕심 없음으로 사람들의 사랑을 받을 조짐",
+    "interpretation_en": "you will gain popularity by your amiability and unselfishness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cherries",
+      "original": "To dream of cherries, denotes you will gain popularity by your amiability and unselfishness.",
+      "translation_ko": "체리 꿈은 상냥함과 욕심 없음으로 사람들의 사랑을 받게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "체리",
+    "term_en": "cherry",
+    "context": "체리를 먹음",
+    "interpretation_ko": "몹시 바라던 것을 손에 넣을 조짐",
+    "interpretation_en": "possession of some much desired object",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cherries",
+      "original": "To eat them, portends possession of some much desired object.",
+      "translation_ko": "그것을 먹으면 몹시 바라던 것을 손에 넣게 된다"
+    }
+  },
+  {
+    "term_ko": "체리",
+    "term_en": "cherry",
+    "context": "덜 익은 체리를 봄",
+    "interpretation_ko": "좋은 운이 다가오고 있을 조짐",
+    "interpretation_en": "approaching good fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Cherries",
+      "original": "To see green ones, indicates approaching good fortune.",
+      "translation_ko": "덜 익은 것을 보면 좋은 운이 다가오고 있음을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "아기 천사",
+    "term_en": "cherub",
+    "context": "아기 천사를 봄",
+    "interpretation_ko": "삶에 오래 남을 좋은 자국을 남길 뚜렷한 기쁨이 있을 조짐",
+    "interpretation_en": "some distinct joy, which will leave an impression of lasting good upon your life",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Cherubs",
+      "original": "To dream you see cherubs, foretells you will have some distinct joy, which will leave an impression of lasting good upon your life.",
+      "translation_ko": "아기 천사를 보는 꿈은, 삶에 오래 남을 좋은 자국을 남길 뚜렷한 기쁨이 있을 것을 알린다"
+    }
+  },
+  {
+    "term_ko": "아기 천사",
+    "term_en": "cherub",
+    "context": "아기 천사가 슬퍼하거나 나무라는 낯빛임",
+    "interpretation_ko": "괴로움이 뜻밖에 닥칠 조짐",
+    "interpretation_en": "distress will come unexpectedly upon you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Cherubs",
+      "original": "To see them looking sorrowful or reproachful, foretells that distress will come unexpectedly upon you.",
+      "translation_ko": "그들이 슬퍼하거나 나무라는 낯빛인 것을 보면, 괴로움이 뜻밖에 닥친다"
+    }
+  },
+  {
+    "term_ko": "체스",
+    "term_en": "chess",
+    "context": "체스를 둠",
+    "interpretation_ko": "일이 멈춰 서고 따분한 동무와 나쁜 건강이 따를 조짐",
+    "interpretation_en": "stagnation of business, dull companions, and poor health",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chess",
+      "original": "To dream of playing chess, denotes stagnation of business, dull companions, and poor health.",
+      "translation_ko": "체스를 두는 꿈은 일이 멈춰 섬과 따분한 동무, 나쁜 건강을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "체스",
+    "term_en": "chess",
+    "context": "체스에서 짐",
+    "interpretation_ko": "변변찮은 데서 오는 근심이 뒤따를 조짐",
+    "interpretation_en": "worries from mean sources will ensue",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chess",
+      "original": "To dream that you lose at chess, worries from mean sources will ensue; but if you win, disagreeable influences may be surmounted.",
+      "translation_ko": "체스에서 지는 꿈은 변변찮은 데서 오는 근심이 뒤따름을 뜻한다. 그러나 이기면 언짢은 기운을 넘어설 수 있다"
+    }
+  },
+  {
+    "term_ko": "체스",
+    "term_en": "chess",
+    "context": "체스에서 이김",
+    "interpretation_ko": "언짢은 기운을 넘어설 조짐",
+    "interpretation_en": "disagreeable influences may be surmounted",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chess",
+      "original": "but if you win, disagreeable influences may be surmounted.",
+      "translation_ko": "그러나 이기면 언짢은 기운을 넘어설 수 있다"
+    }
+  },
+  {
+    "term_ko": "밤톨",
+    "term_en": "chestnut",
+    "context": "밤을 만짐",
+    "interpretation_ko": "일에서 손해를 보나 평생 마음 맞는 짝을 얻을 조짐",
+    "interpretation_en": "losses in a business way, but an agreeable companion through life",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chestnuts",
+      "original": "To dream of handling chestnuts, foretells losses in a business way, but indicates an agreeable companion through life.",
+      "translation_ko": "밤을 만지는 꿈은 일에서 손해를 봄을 알리나, 평생 마음 맞는 짝을 얻게 됨을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "밤톨",
+    "term_en": "chestnut",
+    "context": "밤을 먹음",
+    "interpretation_ko": "한동안 슬픔이 있으나 끝내 행복해질 조짐",
+    "interpretation_en": "sorrow for a time, but final happiness",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chestnuts",
+      "original": "Eating them, denotes sorrow for a time, but final happiness.",
+      "translation_ko": "그것을 먹으면 한동안 슬픔이 있으나 끝내 행복해진다"
+    }
+  },
+  {
+    "term_ko": "밤톨",
+    "term_en": "chestnut",
+    "context": "밤으로 운을 점침",
+    "interpretation_ko": "살림이 넉넉한 연인을 만나고 그런대로 풍족해질 조짐",
+    "interpretation_en": "she will have a well-to-do lover and comparative plenty",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Chestnuts",
+      "original": "For a young woman to dream of eating or trying her fortune with them, she will have a well-to-do lover and comparative plenty.",
+      "translation_ko": "젊은 여성이 밤을 먹거나 그것으로 제 운을 점쳐 보는 꿈을 꾸면, 살림이 넉넉한 연인을 만나고 그런대로 풍족해진다"
+    }
+  }
+]

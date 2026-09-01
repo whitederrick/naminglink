@@ -1,0 +1,364 @@
+[
+  {
+    "id": "challenge",
+    "aliases": [
+      "결투",
+      "도전장",
+      "결투 신청"
+    ],
+    "aliases_en": [
+      "a challenge",
+      "challenged",
+      "duel"
+    ],
+    "contexts": {
+      "결투를 신청받음": "결투 신청받 걸어왔",
+      "도전을 받아들임": "받아들 응했 수락"
+    },
+    "contexts_en": {
+      "결투를 신청받음": "fight apologies friendships",
+      "도전을 받아들임": "accept shield dishonor"
+    }
+  },
+  {
+    "id": "chambermaid",
+    "aliases": [
+      "시녀",
+      "객실 청소부"
+    ],
+    "aliases_en": [
+      "a chambermaid",
+      "chambermaids"
+    ],
+    "contexts": {
+      "하녀를 봄": "보았 마주쳤",
+      "하녀에게 구애함": "구애 사랑을 남자가"
+    },
+    "contexts_en": {
+      "하녀를 봄": "seeing fortune changes",
+      "하녀에게 구애함": "love derision indiscreet"
+    }
+  },
+  {
+    "id": "chameleon",
+    "aliases": [
+      "빛깔이 바뀌는 도마뱀"
+    ],
+    "aliases_en": [
+      "chameleons",
+      "a chameleon"
+    ],
+    "contexts": {
+      "연인이 카멜레온을 매달고 있음": "연인 애인 매달 사슬로",
+      "카멜레온을 봄": "보았 그냥 마리"
+    },
+    "contexts_en": {
+      "연인이 카멜레온을 매달고 있음": "sweetheart wearing chained",
+      "카멜레온을 봄": "ordinarily deceit advancement"
+    }
+  },
+  {
+    "id": "champion",
+    "aliases": [
+      "우승자",
+      "장사"
+    ],
+    "aliases_en": [
+      "a champion",
+      "champions"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "chandelier",
+    "aliases": [
+      "촛대 등",
+      "천장 등"
+    ],
+    "aliases_en": [
+      "a chandelier",
+      "chandeliers"
+    ],
+    "contexts": {
+      "샹들리에를 봄": "매달 걸린 천장에",
+      "부서지거나 손질 안 된 샹들리에를 봄": "부서 깨진 낡은 지저분",
+      "샹들리에 불이 꺼짐": "꺼졌 꺼지 불이"
+    },
+    "contexts_en": {
+      "샹들리에를 봄": "unhoped success luxury",
+      "부서지거나 손질 안 된 샹들리에를 봄": "broken kept speculation",
+      "샹들리에 불이 꺼짐": "light went sickness"
+    }
+  },
+  {
+    "id": "chapel",
+    "aliases": [
+      "기도실",
+      "작은 교회"
+    ],
+    "aliases_en": [
+      "a chapel",
+      "chapels"
+    ],
+    "contexts": {
+      "예배당을 봄": "보았 멀리서 바깥에서",
+      "예배당 안에 있음": "안에 있었 머물",
+      "젊은이가 예배당에 들어감": "들어갔 들어서 젊은이"
+    },
+    "contexts_en": {
+      "예배당을 봄": "dissension unsettled",
+      "예배당 안에 있음": "disappointment change",
+      "젊은이가 예배당에 들어감": "entering young loves"
+    }
+  },
+  {
+    "id": "charity",
+    "aliases": [
+      "기부금",
+      "희사"
+    ],
+    "aliases_en": [
+      "charitable",
+      "alms-giving"
+    ],
+    "contexts": {
+      "기부를 함": "주었 내놓 베풀",
+      "자선 기관에 기부함": "기관 단체 시설",
+      "젊은이가 기부를 함": "젊은이 청년 젊은 사람",
+      "내가 도움을 받는 처지가 됨": "받는 처지 신세"
+    },
+    "contexts_en": {
+      "기부를 함": "giving supplications poor",
+      "자선 기관에 기부함": "institutions disputed property",
+      "젊은이가 기부를 함": "young persons rivals",
+      "내가 도움을 받는 처지가 됨": "object succeed hard"
+    }
+  },
+  {
+    "id": "charcoal",
+    "aliases": [
+      "숯불",
+      "목탄",
+      "숯덩이"
+    ],
+    "aliases_en": [
+      "charcoals"
+    ],
+    "contexts": {
+      "불 꺼진 숯을 봄": "꺼진 식은 까맣게",
+      "벌겋게 타는 숯을 봄": "벌겋 타오르 이글"
+    },
+    "contexts_en": {
+      "불 꺼진 숯을 봄": "unlighted miserable bleak",
+      "벌겋게 타는 숯을 봄": "burning glowing coals"
+    }
+  },
+  {
+    "id": "chariot",
+    "aliases": [
+      "병거",
+      "이륜 전차"
+    ],
+    "aliases_en": [
+      "a chariot",
+      "chariots"
+    ],
+    "contexts": {
+      "전차를 타고 감": "타고 탔다 올라",
+      "전차에서 떨어짐": "떨어졌 떨어지 굴러"
+    },
+    "contexts_en": {
+      "전차를 타고 감": "riding opportunities favorable",
+      "전차에서 떨어짐": "fall fell displacement"
+    }
+  },
+  {
+    "id": "chastise",
+    "aliases": [
+      "회초리",
+      "꾸중",
+      "종아리를 맞았다"
+    ],
+    "aliases_en": [
+      "chastised",
+      "chastisement"
+    ],
+    "contexts": {
+      "체벌을 받음": "내가 나를 당했",
+      "남에게 매를 듦": "남에게 상대에게 때렸",
+      "부모가 아이를 벌줌": "부모 아이를 자식"
+    },
+    "contexts_en": {
+      "체벌을 받음": "myself prudent affairs",
+      "남에게 매를 듦": "administer another tempered",
+      "부모가 아이를 벌줌": "parents children honorably"
+    }
+  },
+  {
+    "id": "cheated",
+    "aliases": [
+      "속았다",
+      "사기당했다",
+      "기만"
+    ],
+    "aliases_en": [
+      "cheating",
+      "swindled"
+    ],
+    "contexts": {
+      "거래에서 속임을 당함": "거래 장사 사업에서",
+      "놀이에서 속임을 당함": "놀이 게임 내기에서"
+    },
+    "contexts_en": {
+      "거래에서 속임을 당함": "business designing avenues",
+      "놀이에서 속임을 당함": "games sweethearts quarrels"
+    }
+  },
+  {
+    "id": "checks",
+    "aliases": [
+      "어음",
+      "수표책"
+    ],
+    "aliases_en": [
+      "a check",
+      "cheque",
+      "cheques"
+    ],
+    "contexts": {
+      "가짜 수표를 남에게 떠넘김": "가짜 위조 떠넘",
+      "수표를 받음": "받았 건네받 들어왔",
+      "수표를 내어 줌": "내어 지급 지불"
+    },
+    "contexts_en": {
+      "가짜 수표를 남에게 떠넘김": "false palming subterfuge",
+      "수표를 받음": "receive inherit meet",
+      "수표를 내어 줌": "paid depression loss"
+    }
+  },
+  {
+    "id": "checkers",
+    "aliases": [
+      "체커 놀이"
+    ],
+    "aliases_en": [
+      "draughts"
+    ],
+    "contexts": {
+      "체커를 둠": "두었 두는 놀았",
+      "체커에서 이김": "이겼 이기 승리"
+    },
+    "contexts_en": {
+      "체커를 둠": "playing difficulties strange",
+      "체커에서 이김": "win game enterprise"
+    }
+  },
+  {
+    "id": "cheese",
+    "aliases": [
+      "치즈 조각"
+    ],
+    "aliases_en": [
+      "cheeses"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "chemise",
+    "aliases": [
+      "속옷",
+      "여자 속옷"
+    ],
+    "aliases_en": [
+      "a chemise",
+      "chemises"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "cherry",
+    "aliases": [
+      "버찌",
+      "체리 열매"
+    ],
+    "aliases_en": [
+      "cherries",
+      "a cherry"
+    ],
+    "contexts": {
+      "체리를 봄": "보았 놓여 담겨",
+      "체리를 먹음": "먹었 먹는 씹었",
+      "덜 익은 체리를 봄": "익지 파란 초록"
+    },
+    "contexts_en": {
+      "체리를 봄": "popularity amiability unselfishness",
+      "체리를 먹음": "eat eating ate",
+      "덜 익은 체리를 봄": "green ones approaching"
+    }
+  },
+  {
+    "id": "cherub",
+    "aliases": [
+      "케루빔",
+      "어린 천사"
+    ],
+    "aliases_en": [
+      "cherubs",
+      "a cherub"
+    ],
+    "contexts": {
+      "아기 천사를 봄": "보았 나타났 있었",
+      "아기 천사가 슬퍼하거나 나무라는 낯빛임": "슬퍼 나무라 꾸짖는 낯빛"
+    },
+    "contexts_en": {
+      "아기 천사를 봄": "distinct joy lasting",
+      "아기 천사가 슬퍼하거나 나무라는 낯빛임": "sorrowful reproachful distress"
+    }
+  },
+  {
+    "id": "chess",
+    "aliases": [
+      "장기판 놀이",
+      "체스 판"
+    ],
+    "aliases_en": [
+      "a game of chess"
+    ],
+    "contexts": {
+      "체스를 둠": "두었 두는 놀았",
+      "체스에서 짐": "졌다 지고 패했",
+      "체스에서 이김": "이겼 이기 승리"
+    },
+    "contexts_en": {
+      "체스를 둠": "playing stagnation dull",
+      "체스에서 짐": "lose lost worries",
+      "체스에서 이김": "win won surmounted"
+    }
+  },
+  {
+    "id": "chestnut",
+    "aliases": [
+      "군밤",
+      "알밤",
+      "밤을 주웠다",
+      "밤나무"
+    ],
+    "aliases_en": [
+      "chestnuts",
+      "a chestnut"
+    ],
+    "contexts": {
+      "밤을 만짐": "만졌 만지 손에 쥐었",
+      "밤을 먹음": "먹었 먹는 까먹",
+      "밤으로 운을 점침": "점쳐 점을 운을"
+    },
+    "contexts_en": {
+      "밤을 만짐": "handling losses companion",
+      "밤을 먹음": "eating sorrow happiness",
+      "밤으로 운을 점침": "trying fortune lover"
+    }
+  }
+]

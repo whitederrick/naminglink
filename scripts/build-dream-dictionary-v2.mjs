@@ -97,6 +97,11 @@ const SYNONYMS = new Map([
   ["knife", "sword"],           // 칼 — 「sword」 묶음에도 刀가 섞여 있다(임의로 갈린 것)
   ["castle", "city wall"],      // 성 — 宮城/城郭 둘 다 城
   ["bandits", "thief"],         // 도적 — 率眾破賊의 賊. km1의 thief 판별어에 이미 이 문맥이 있다
+
+  // 침실 — 밀러에 `Bed-chamber`와 `Chamber`가 **따로** 있는데 한국어로는 같은 것이고
+  // 내용도 「잘 꾸민 방 / 수수한 방」으로 이어진다. 가르면 이용자에게 같은 이름이 둘 뜬다
+  // (2026-09-01 배치 14).
+  ["chamber", "bedchamber"],
 ]);
 
 /**
@@ -183,6 +188,9 @@ const CONCEPTION_SYMBOL_IDS = new Set([
   "pig", "snake", "dragon", "tiger", "ox", "horse", "fish", "carp", "turtle",
   "bear", "deer", "phoenix", "flower", "sun", "moon", "star", "stone",
   "peach", "jujube", "persimmon", "beads",
+  // 밤 — 옛 사전의 태몽 28개 중 **v2에 상징이 없어 못 옮긴 일곱** 가운데 하나였다.
+  // 밀러 `Chestnuts`가 들어오며 상징이 생겨서 위 주석대로 한 줄 더한다(2026-09-01 배치 14).
+  "chestnut",
 ]);
 
 /** 화면·PDF가 이 문자열로 태몽을 가린다(`CONCEPTION_TAG`). */

@@ -3890,5 +3890,79 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "chalice": [
     "a chalice",
     "goblet"
+  ],
+  "challenge": [
+    "a challenge",
+    "challenged",
+    "duel"
+  ],
+  "chambermaid": [
+    "a chambermaid",
+    "chambermaids"
+  ],
+  "chameleon": [
+    "chameleons",
+    "a chameleon"
+  ],
+  "champion": [
+    "a champion",
+    "champions"
+  ],
+  "chandelier": [
+    "a chandelier",
+    "chandeliers"
+  ],
+  "chapel": [
+    "a chapel",
+    "chapels"
+  ],
+  "charity": [
+    "charitable",
+    "alms-giving"
+  ],
+  "charcoal": [
+    "charcoals"
+  ],
+  "chariot": [
+    "a chariot",
+    "chariots"
+  ],
+  "chastise": [
+    "chastised",
+    "chastisement"
+  ],
+  "cheated": [
+    "cheating",
+    "swindled"
+  ],
+  "checks": [
+    "a check",
+    "cheque",
+    "cheques"
+  ],
+  "checkers": [
+    "draughts"
+  ],
+  "cheese": [
+    "cheeses"
+  ],
+  "chemise": [
+    "a chemise",
+    "chemises"
+  ],
+  "cherry": [
+    "cherries",
+    "a cherry"
+  ],
+  "cherub": [
+    "cherubs",
+    "a cherub"
+  ],
+  "chess": [
+    "a game of chess"
+  ],
+  "chestnut": [
+    "chestnuts",
+    "a chestnut"
   ]
 };
