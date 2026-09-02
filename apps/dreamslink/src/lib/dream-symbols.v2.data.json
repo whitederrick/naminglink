@@ -60,6 +60,7 @@
     "m59.json",
     "m6.json",
     "m60.json",
+    "m61.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -48233,6 +48234,133 @@
       ]
     },
     {
+      "id": "indifference",
+      "term_ko": "무관심",
+      "term_en": "indifference",
+      "aliases": [
+        "무관심한",
+        "무관심이",
+        "시들함",
+        "시들해",
+        "시들했다",
+        "심드렁"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무관심한 마음을 봄",
+          "interpretation_ko": "아주 짧은 동안만 마음 맞는 벗과 지낼 조짐",
+          "interpretation_en": "signifies pleasant companions for a very short time",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indifference",
+              "original": "To dream of indifference, signifies pleasant companions for a very short time.",
+              "translation_ko": "무관심 꿈은 아주 짧은 동안 마음 맞는 벗과 지내리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 저에게 시들함",
+          "interpretation_ko": "그가 마음을 알맞은 방식으로 보여 주지 못할 흉한 조짐",
+          "interpretation_en": "signifies that he may not prove his affections in the most appropriate way",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indifference",
+              "original": "For a young woman to dream that her sweetheart is indifferent to her, signifies that he may not prove his affections in the most appropriate way.",
+              "translation_ko": "젊은 여성이 정인이 저에게 시들하다는 꿈을 꾸면, 그가 애정을 알맞은 방식으로 보여 주지 못한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 정인에게 시들함",
+          "interpretation_ko": "제가 그에게 마음을 저버릴 흉한 조짐",
+          "interpretation_en": "means that she will prove untrue to him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indifference",
+              "original": "To dream that she is indifferent to him, means that she will prove untrue to him.",
+              "translation_ko": "제가 그에게 시들하다는 꿈을 꾸면 그에게 마음을 저버리게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "term_ko": "부지런함",
+      "term_en": "industry",
+      "aliases": [
+        "부지런히",
+        "부지런하게",
+        "바지런히",
+        "바쁘게 움직이고",
+        "바쁘게 움직였다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 부지런히 일함",
+          "interpretation_ko": "제 뜻을 펴려고 남달리 부지런히 궁리하고 움직여 일을 이룰 길한 조짐",
+          "interpretation_en": "denotes that you will be unusually active in planning and working out ideas to further your interests, and that you will be successful in your undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Industry",
+              "original": "To dream that you are industrious, denotes that you will be unusually active in planning and working out ideas to further your interests, and that you will be successful in your undertakings.",
+              "translation_ko": "제가 부지런한 꿈을 꾸면 제 뜻을 펴려고 남달리 부지런히 궁리하고 움직여 일을 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "정인을 둔 이가 부지런히 일함",
+          "interpretation_ko": "하는 일이 잘되고 짝이 제 자리를 올려 줄 길한 조짐",
+          "interpretation_en": "shows he will succeed in business, and that his companion will advance his position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Industry",
+              "original": "For a lover to dream of being industriously at work, shows he will succeed in business, and that his companion will advance his position.",
+              "translation_ko": "정인을 둔 이가 부지런히 일하는 꿈을 꾸면 하는 일이 잘되고 짝이 제 자리를 올려 준다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 바지런히 움직이는 것을 봄",
+          "interpretation_ko": "꿈꾼 이에게 이로운 길한 조짐",
+          "interpretation_en": "is favorable to the dreamer",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Industry",
+              "original": "To see others busy, is favorable to the dreamer.",
+              "translation_ko": "남들이 바쁘게 움직이는 것을 보면 꿈꾼 이에게 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kitchen",
       "term_ko": "부엌",
       "term_en": "kitchen",
@@ -66138,6 +66266,102 @@
       ]
     },
     {
+      "id": "india-rubber",
+      "term_ko": "고무",
+      "term_en": "india rubber",
+      "aliases": [
+        "고무줄",
+        "고무공"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고무를 봄",
+          "interpretation_ko": "하던 일이 궂은 쪽으로 바뀔 흉한 조짐",
+          "interpretation_en": "denotes unfavorable changes in your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "India Rubber",
+              "original": "To dream of India rubber, denotes unfavorable changes in your affairs.",
+              "translation_ko": "고무 꿈은 하던 일이 궂은 쪽으로 바뀌리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "고무를 잡아 늘임",
+          "interpretation_ko": "감당할 수 없을 만큼 일을 크게 벌이려 할 흉한 조짐",
+          "interpretation_en": "you will try to establish a greater business than you can support",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "India Rubber",
+              "original": "If you stretch it, you will try to establish a greater business than you can support.",
+              "translation_ko": "그것을 잡아 늘이면 감당할 수 없을 만큼 큰 일을 벌이려 든다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indigo",
+      "term_ko": "쪽빛 물감",
+      "term_en": "indigo",
+      "aliases": [
+        "인디고",
+        "쪽물",
+        "남색 물감",
+        "쪽빛으로",
+        "쪽빛이",
+        "쪽빛을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쪽빛 물감을 봄",
+          "interpretation_ko": "다정한 이들을 속여 그들의 것을 가로챌 흉한 조짐",
+          "interpretation_en": "denotes you will deceive friendly persons in order to cheat them out of their belongings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indigo",
+              "original": "To see indigo in a dream, denotes you will deceive friendly persons in order to cheat them out of their be longings.",
+              "translation_ko": "꿈에 쪽빛 물감을 보면 다정한 이들을 속여 그들의 것을 가로챈다"
+            }
+          ]
+        },
+        {
+          "context": "쪽빛으로 물든 물을 봄",
+          "interpretation_ko": "낯 뜨거운 사랑 다툼에 휘말릴 흉한 조짐",
+          "interpretation_en": "foretells you will be involved in an ugly love affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indigo",
+              "original": "To see indigo water, foretells you will be involved in an ugly love affair.",
+              "translation_ko": "쪽빛으로 물든 물을 보면 낯 뜨거운 사랑 다툼에 휘말린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -76176,6 +76400,42 @@
       ]
     },
     {
+      "id": "indigestion",
+      "term_ko": "체함",
+      "term_en": "indigestion",
+      "aliases": [
+        "소화불량",
+        "체했다",
+        "체해서",
+        "얹혔다",
+        "얹혀",
+        "속이 더부룩"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "속이 얹혀 답답함",
+          "interpretation_ko": "몸에 해롭고 우중충한 자리에 놓일 흉한 조짐",
+          "interpretation_en": "indicates unhealthy and gloomy surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indigestion",
+              "original": "To dream of indigestion, indicates unhealthy and gloomy surroundings.",
+              "translation_ko": "체하는 꿈은 몸에 해롭고 우중충한 자리를 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "indigo-clothing",
       "term_ko": "쪽빛 옷",
       "term_en": "indigo clothing",
@@ -76203,6 +76463,73 @@
               "locator": "冠帶衣服鞋襪",
               "original": "著藍繡衣妻大利",
               "translation_ko": "쪽빛에 수놓은 옷을 입으면 아내에게 크게 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indistinct",
+      "term_ko": "흐릿함",
+      "term_en": "indistinct",
+      "aliases": [
+        "흐릿하게",
+        "흐릿했다",
+        "희미하게",
+        "뿌옇게"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무엇이 흐릿하게 보임",
+          "interpretation_ko": "벗 사이에 믿음이 깨지고 하는 거래가 미덥지 못할 흉한 조짐",
+          "interpretation_en": "it portends unfaithfulness in friendships, and uncertain dealings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indistinct",
+              "original": "If in your dreams you see objects indistinctly, it portends unfaithfulness in friendships, and uncertain dealings.",
+              "translation_ko": "꿈에서 사물이 흐릿하게 보이면 벗 사이의 믿음이 깨지고 거래가 미덥지 못하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indulgence",
+      "term_ko": "방종",
+      "term_en": "indulgence",
+      "aliases": [
+        "제멋대로",
+        "흥청망청",
+        "방탕"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제멋대로 굶",
+          "interpretation_ko": "제 몸가짐을 두고 궂은 말을 피하지 못할 흉한 조짐",
+          "interpretation_en": "denotes that she will not escape unfavorable comment on her conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Indulgence",
+              "original": "For a woman to dream of indulgence, denotes that she will not escape unfavorable comment on her conduct.",
+              "translation_ko": "여자가 방종한 꿈을 꾸면 제 몸가짐을 두고 궂은 말을 피하지 못한다"
             }
           ]
         }

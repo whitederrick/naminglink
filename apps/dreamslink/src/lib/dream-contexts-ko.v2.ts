@@ -3600,5 +3600,15 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "increase::식구가 늘어남": "식구 가족 집안 사람이",
   "increase::하는 일이 늘어남": "장사 사업 하는 일이",
   "independent::제가 아주 홀로 섬": "제가 내가 나는",
-  "independent::살림이 넉넉해져 홀로 섬": "살림 재물 넉넉"
+  "independent::살림이 넉넉해져 홀로 섬": "살림 재물 넉넉",
+  "india-rubber::고무를 봄": "덩어리",
+  "india-rubber::고무를 잡아 늘임": "늘였 늘리 잡아당",
+  "indifference::무관심한 마음을 봄": "덤덤 무덤덤",
+  "indifference::정인이 저에게 시들함": "정인이 애인이 그가",
+  "indifference::제가 정인에게 시들함": "제가 내가 나는",
+  "indigo::쪽빛 물감을 봄": "물감을",
+  "indigo::쪽빛으로 물든 물을 봄": "물든 물이 냇물",
+  "industry::제가 부지런히 일함": "제가 내가 나는",
+  "industry::정인을 둔 이가 부지런히 일함": "정인 애인 짝이",
+  "industry::남들이 바지런히 움직이는 것을 봄": "남들 사람들이 다른이"
 };

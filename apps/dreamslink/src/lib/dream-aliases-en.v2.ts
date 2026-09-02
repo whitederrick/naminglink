@@ -5724,5 +5724,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "independent": [
     "independence"
+  ],
+  "india-rubber": [
+    "rubber"
+  ],
+  "indifference": [
+    "indifferent"
+  ],
+  "indigo": [
+    "indigo water"
+  ],
+  "indigestion": [
+    "indigestion"
+  ],
+  "indistinct": [
+    "indistinctly"
+  ],
+  "indulgence": [
+    "indulgence"
+  ],
+  "industry": [
+    "industrious",
+    "industriously"
   ]
 };

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "india-rubber",
+    "aliases": [
+      "고무줄",
+      "고무공"
+    ],
+    "aliases_en": [
+      "rubber"
+    ],
+    "contexts": {
+      "고무를 봄": "덩어리",
+      "고무를 잡아 늘임": "늘였 늘리 잡아당"
+    },
+    "contexts_en": {
+      "고무를 봄": "unfavorable changes affairs",
+      "고무를 잡아 늘임": "stretch establish greater support"
+    }
+  },
+  {
+    "id": "indifference",
+    "aliases": [
+      "무관심한",
+      "무관심이",
+      "시들함",
+      "시들해",
+      "시들했다",
+      "심드렁"
+    ],
+    "aliases_en": [
+      "indifferent"
+    ],
+    "contexts": {
+      "무관심한 마음을 봄": "덤덤 무덤덤",
+      "정인이 저에게 시들함": "정인이 애인이 그가",
+      "제가 정인에게 시들함": "제가 내가 나는"
+    },
+    "contexts_en": {
+      "무관심한 마음을 봄": "pleasant companions short",
+      "정인이 저에게 시들함": "sweetheart prove affections appropriate",
+      "제가 정인에게 시들함": "untrue"
+    }
+  },
+  {
+    "id": "indigo",
+    "aliases": [
+      "인디고",
+      "쪽물",
+      "남색 물감",
+      "쪽빛으로",
+      "쪽빛이",
+      "쪽빛을"
+    ],
+    "aliases_en": [
+      "indigo water"
+    ],
+    "contexts": {
+      "쪽빛 물감을 봄": "물감을",
+      "쪽빛으로 물든 물을 봄": "물든 물이 냇물"
+    },
+    "contexts_en": {
+      "쪽빛 물감을 봄": "deceive friendly cheat longings",
+      "쪽빛으로 물든 물을 봄": "foretells involved ugly love affair"
+    }
+  },
+  {
+    "id": "indigestion",
+    "aliases": [
+      "소화불량",
+      "체했다",
+      "체해서",
+      "얹혔다",
+      "얹혀",
+      "속이 더부룩"
+    ],
+    "aliases_en": [
+      "indigestion"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "indistinct",
+    "aliases": [
+      "흐릿하게",
+      "흐릿했다",
+      "희미하게",
+      "뿌옇게"
+    ],
+    "aliases_en": [
+      "indistinctly"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "indulgence",
+    "aliases": [
+      "제멋대로",
+      "흥청망청",
+      "방탕"
+    ],
+    "aliases_en": [
+      "indulgence"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "industry",
+    "aliases": [
+      "부지런히",
+      "부지런하게",
+      "바지런히",
+      "바쁘게 움직이고",
+      "바쁘게 움직였다"
+    ],
+    "aliases_en": [
+      "industrious",
+      "industriously"
+    ],
+    "contexts": {
+      "제가 부지런히 일함": "제가 내가 나는",
+      "정인을 둔 이가 부지런히 일함": "정인 애인 짝이",
+      "남들이 바지런히 움직이는 것을 봄": "남들 사람들이 다른이"
+    },
+    "contexts_en": {
+      "제가 부지런히 일함": "unusually active planning ideas further",
+      "정인을 둔 이가 부지런히 일함": "lover succeed companion advance position",
+      "남들이 바지런히 움직이는 것을 봄": "others busy favorable dreamer"
+    }
+  }
+]

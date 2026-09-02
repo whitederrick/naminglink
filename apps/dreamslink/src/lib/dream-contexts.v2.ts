@@ -3596,5 +3596,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "increase::식구가 늘어남": "family failure plans another",
   "increase::하는 일이 늘어남": "business overcome existing troubles",
   "independent::제가 아주 홀로 섬": "rival injustice",
-  "independent::살림이 넉넉해져 홀로 섬": "gain wealth expect promised"
+  "independent::살림이 넉넉해져 홀로 섬": "gain wealth expect promised",
+  "india-rubber::고무를 봄": "unfavorable changes affairs",
+  "india-rubber::고무를 잡아 늘임": "stretch establish greater support",
+  "indifference::무관심한 마음을 봄": "pleasant companions short",
+  "indifference::정인이 저에게 시들함": "sweetheart prove affections appropriate",
+  "indifference::제가 정인에게 시들함": "untrue",
+  "indigo::쪽빛 물감을 봄": "deceive friendly cheat longings",
+  "indigo::쪽빛으로 물든 물을 봄": "foretells involved ugly love affair",
+  "industry::제가 부지런히 일함": "unusually active planning ideas further",
+  "industry::정인을 둔 이가 부지런히 일함": "lover succeed companion advance position",
+  "industry::남들이 바지런히 움직이는 것을 봄": "others busy favorable dreamer"
 };
