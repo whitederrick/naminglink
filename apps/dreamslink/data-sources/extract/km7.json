@@ -873,15 +873,44 @@
       "신랑",
       "서방",
       "배우자",
-      "지아비"
+      "지아비",
+      "바깥양반"
     ],
     "aliases_en": [
       "husbands",
       "spouse",
       "my husband"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남편을 품에 안음": "품에 안았",
+      "남편이 까닭 없이 떠남": "떠나갔 떠나는 까닭도",
+      "남편이 딴마음을 품었다고 꾸짖음": "꾸짖 나무라 몰아세",
+      "남편이 죽은 것을 봄": "죽은 주검 숨진",
+      "남편이 창백하고 지쳐 보임": "창백 핼쑥 지쳐",
+      "남편이 밝고 훤해 보임": "밝고 훤해 잘생",
+      "남편이 앓고 있음": "앓고 아파 병든",
+      "남편이 다른 여자를 마음에 둠": "여자를 사랑하",
+      "남의 남편을 마음에 둠": "남의 유부남",
+      "혼인하지 않은 여자가 남편이 있는 꿈을 꿈": "혼인하지 미혼 처녀인데",
+      "남편이 멀어지면서 되레 커 보임": "멀어지 커졌 커지",
+      "남편이 낯선 이와 수상하게 있는 것을 봄": "낯선 수상하 함께 있는",
+      "남편이 다른 여자와 있다 죽고 추문이 남": "추문 소문이 죽임을"
+    },
+    "contexts_en": {
+      "남편을 품에 안음": "embracing bosom",
+      "남편이 까닭 없이 떠남": "leaving bitterness reconciliation",
+      "남편이 딴마음을 품었다고 꾸짖음": "upbraids unfaithfulness discreet",
+      "남편이 죽은 것을 봄": "dead sorrow envelop",
+      "남편이 창백하고 지쳐 보임": "pale careworn linger",
+      "남편이 밝고 훤해 보임": "handsome bright filled",
+      "남편이 앓고 있음": "mistreated ails",
+      "남편이 다른 여자를 마음에 둠": "tire surroundings elsewhere",
+      "남의 남편을 마음에 둠": "unhappily chances chance",
+      "혼인하지 않은 여자가 남편이 있는 꿈을 꿈": "unmarried wanting graces admire",
+      "남편이 멀어지면서 되레 커 보임": "recedes larger inharmonious",
+      "남편이 낯선 이와 수상하게 있는 것을 봄": "compromising unsuspected indiscretion",
+      "남편이 다른 여자와 있다 죽고 추문이 남": "killed scandal separating property"
+    }
   },
   {
     "id": "iron",

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 54 — Hounds~Hurt, 17건)
+// (지금 담긴 것: 배치 55 — Hurricane·Husband, 20건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,28 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "embrace", ctx: "껴안음", text: "누군가를 껴안았다" },
-  { id: "embrace", ctx: "여성이 남자를 껴안음", text: "여자가 남자를 껴안았다" },
-  { id: "embrace", ctx: "지어미가 남편 아닌 이를 껴안음", text: "남편이 아닌 사람을 껴안았다" },
-  { id: "hunting", ctx: "사냥을 함", text: "사냥을 했다" },
-  { id: "famish", ctx: "배가 고픔", text: "배가 고팠다" },
-  { id: "dog", ctx: "사냥개가 사냥에 나선 것을 봄", text: "사냥개가 사냥에 나섰다" },
-  { id: "dog", ctx: "여성이 사냥개 꿈을 꿈", text: "여자가 사냥개를 보았다" },
-  { id: "housekeeper", ctx: "제가 가정부가 됨", text: "내가 가정부가 되었다" },
-  { id: "housekeeper", ctx: "가정부를 들임", text: "가정부를 들였다" },
-  { id: "hunchback", ctx: "등이 굽은 사람을 봄", text: "등이 굽은 사람을 보았다" },
-  { id: "hurt", ctx: "남을 다치게 함", text: "남을 다치게 했다" },
-  { id: "hurt", ctx: "제가 다침", text: "내가 다쳤다" },
+  { id: "hurricane", ctx: "태풍이 몰려오는 것을 봄", text: "태풍이 굉음을 내며 몰려오고 있었다" },
+  { id: "hurricane", ctx: "태풍에 무너지는 집에서 사람을 끌어냄", text: "태풍에 무너지는 집에서 사람을 끌어냈다" },
+  { id: "hurricane", ctx: "태풍이 남긴 잔해를 봄", text: "태풍이 남긴 잔해를 보았다" },
+  { id: "hurricane", ctx: "태풍으로 죽거나 다친 이를 봄", text: "태풍으로 죽거나 다친 사람을 보았다" },
+  { id: "husband", ctx: "남편이 까닭 없이 떠남", text: "남편이 까닭도 없이 떠나갔다" },
+  { id: "husband", ctx: "남편이 딴마음을 품었다고 꾸짖음", text: "남편이 나를 꾸짖었다" },
+  { id: "husband", ctx: "남편이 죽은 것을 봄", text: "남편이 죽은 것을 보았다" },
+  { id: "husband", ctx: "남편이 창백하고 지쳐 보임", text: "남편이 창백해 보였다" },
+  { id: "husband", ctx: "남편이 밝고 훤해 보임", text: "남편이 밝고 훤해 보였다" },
+  { id: "husband", ctx: "남편이 앓고 있음", text: "남편이 앓고 있었다" },
+  { id: "husband", ctx: "남편이 다른 여자를 마음에 둠", text: "남편이 다른 여자를 사랑하고 있었다" },
+  { id: "husband", ctx: "남의 남편을 마음에 둠", text: "남의 남편을 마음에 두고 있었다" },
+  { id: "husband", ctx: "혼인하지 않은 여자가 남편이 있는 꿈을 꿈", text: "혼인하지 않았는데 남편이 있었다" },
+  { id: "husband", ctx: "남편이 멀어지면서 되레 커 보임", text: "남편이 멀어지면서 되레 커졌다" },
+  { id: "husband", ctx: "남편이 낯선 이와 수상하게 있는 것을 봄", text: "남편이 낯선 사람과 수상하게 있었다" },
+  { id: "husband", ctx: "남편이 다른 여자와 있다 죽고 추문이 남", text: "남편이 다른 여자와 있다 죽고 추문이 났다" },
 
-  // 이 배치가 기존 판별어를 좁힌 자리 — **옛 답이 그대로인지** 함께 잰다.
-  { id: "embrace", ctx: "지아비나 지어미를 시들하게 껴안음", text: "지아비를 시들하게 껴안았다" },
-  { id: "famish", ctx: "제가 굶주림", text: "내가 굶주렸다" },
-  { id: "hunting", ctx: "숲속에서 사냥을 함", text: "숲속에서 사냥을 했다" },
-  { id: "dog", ctx: "사냥개가 뒤를 쫓음", text: "사냥개가 냄새를 맡고 뒤를 따라왔다" },
-  { id: "horseshoe", ctx: "편자를 봄", text: "편자가 반짝이고 있었다" },
+  // 이 배치가 별칭을 넘기고 판별어 표를 채운 자리 — **옛 답이 그대로인지** 함께 잰다.
+  { id: "husband", ctx: "남편을 품에 안음", text: "남편을 품에 안았다" },
+  { id: "wind", ctx: "갑자기 큰바람이 붊", text: "갑자기 세찬 바람이 불었다" },
+  { id: "wind", ctx: "거센 바람에 휘말림", text: "거센 바람에 휘말렸다" },
+  { id: "housekeeper", ctx: "가정부를 들임", text: "가정부를 들였다" },
 ];
 
 let notFound = 0;

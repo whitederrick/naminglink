@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "태풍",
+    "term_en": "hurricane",
+    "context": "태풍이 몰려오는 것을 봄",
+    "interpretation_ko": "일이 무너지는 것을 막으려 애태우며 마음을 졸일 흉한 조짐",
+    "interpretation_en": "you will undergo torture and suspense, striving to avert failure and ruin in your affairs",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurricane",
+      "original": "To hear the roar and see a hurricane heading towards you with its frightful force, you will undergo torture and suspense, striving to avert failure and ruin in your affairs.",
+      "translation_ko": "무서운 기세로 몰려오는 태풍의 굉음을 듣고 보면, 일이 무너지는 것을 막으려 애태우며 마음을 졸인다"
+    }
+  },
+  {
+    "term_ko": "태풍",
+    "term_en": "hurricane",
+    "context": "태풍에 무너지는 집에서 사람을 끌어냄",
+    "interpretation_ko": "삶이 바뀌어 먼 곳으로 옮겨 다니지만 살림도 장사도 나아지지 않을 흉한 조짐",
+    "interpretation_en": "your life will suffer a change; you will move and remove to distant places, and still find no improvement",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurricane",
+      "original": "If you are in a house which is being blown to pieces by a hurricane, and you struggle in the awful gloom to extricate some one from the falling timbers, your life will suffer a change.",
+      "translation_ko": "태풍에 부서지는 집 안에서 무너지는 들보 사이의 사람을 끌어내려 애쓰면, 삶이 바뀐다"
+    }
+  },
+  {
+    "term_ko": "태풍",
+    "term_en": "hurricane",
+    "context": "태풍이 남긴 잔해를 봄",
+    "interpretation_ko": "걱정거리에 가까이 가지만 남의 일이 풀리며 비껴갈 조짐",
+    "interpretation_en": "you will come close to trouble, which will be averted by the turn in the affairs of others",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurricane",
+      "original": "If you dream of looking on de'bris and havoc wrought by a hurricane, you will come close to trouble, which will be averted by the turn in the affairs of others.",
+      "translation_ko": "태풍이 남긴 잔해와 아수라장을 바라보는 꿈은, 걱정거리에 가까이 가지만 남의 일이 풀리며 비껴감을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "태풍",
+    "term_en": "hurricane",
+    "context": "태풍으로 죽거나 다친 이를 봄",
+    "interpretation_ko": "남의 어려움 때문에 몹시 괴로워할 흉한 조짐",
+    "interpretation_en": "you will be much distressed over the troubles of others",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurricane",
+      "original": "To see dead and wounded caused by a hurricane, you will be much distressed over the troubles of others.",
+      "translation_ko": "태풍으로 죽거나 다친 이를 보면, 남의 어려움 때문에 몹시 괴로워한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 까닭 없이 떠남",
+    "interpretation_ko": "서로 서운함이 쌓이지만 뜻밖에 화해하게 될 조짐",
+    "interpretation_en": "there will be bitterness between you, but an unexpected reconciliation will ensue",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To dream that your husband is leaving you, and you do not understand why, there will be bitterness between you, but an unexpected reconciliation will ensue.",
+      "translation_ko": "남편이 까닭 모르게 떠나는 꿈은, 서운함이 쌓이지만 뜻밖에 화해하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 딴마음을 품었다고 꾸짖음",
+    "interpretation_ko": "믿음은 지키지만 다른 걱정이 따르니 처신을 삼가야 할 조짐",
+    "interpretation_en": "you will hold his regard and confidence, but other worries will ensue and you are warned to be more discreet",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "If he mistreats and upbraids you for unfaithfulness, you will hold his regard and confidence, but other worries will ensue and you are warned to be more discreet in receiving attention from men.",
+      "translation_ko": "남편이 딴마음을 품었다고 나무라면, 믿음은 지키지만 다른 걱정이 따르니 처신을 삼가야 한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 죽은 것을 봄",
+    "interpretation_ko": "실망과 슬픔에 휩싸일 흉한 조짐",
+    "interpretation_en": "disappointment and sorrow will envelop you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "If you see him dead, disappointment and sorrow will envelop you.",
+      "translation_ko": "남편이 죽은 것을 보면, 실망과 슬픔에 휩싸인다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 창백하고 지쳐 보임",
+    "interpretation_ko": "집안에 앓아눕는 이가 생겨 병치레가 무거울 흉한 조짐",
+    "interpretation_en": "sickness will tax you heavily, as some of the family will linger in bed for a time",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To see him pale and careworn, sickness will tax you heavily, as some of the family will linger in bed for a time.",
+      "translation_ko": "남편이 창백하고 지쳐 보이면, 집안에 앓아눕는 이가 생겨 병치레가 무겁다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 밝고 훤해 보임",
+    "interpretation_ko": "집안이 즐거움으로 차고 앞날이 밝을 길한 조짐",
+    "interpretation_en": "your home will be filled with happiness and bright prospects will be yours",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To see him gay and handsome, your home will be filled with happiness and bright prospects will be yours.",
+      "translation_ko": "남편이 밝고 훤해 보이면, 집안이 즐거움으로 차고 앞날이 밝다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 앓고 있음",
+    "interpretation_ko": "남편에게 모진 대접을 받고 그가 한눈을 팔 흉한 조짐",
+    "interpretation_en": "you will be mistreated by him and he will be unfaithful",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "If he is sick, you will be mistreated by him and he will be unfaithful.",
+      "translation_ko": "남편이 앓고 있으면, 그에게 모진 대접을 받고 그가 한눈을 판다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 다른 여자를 마음에 둠",
+    "interpretation_ko": "지금 자리에 싫증을 내고 다른 데서 즐거움을 찾을 흉한 조짐",
+    "interpretation_en": "he will soon tire of his present surroundings and seek pleasure elsewhere",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To dream that he is in love with another woman, he will soon tire of his present surroundings and seek pleasure elsewhere.",
+      "translation_ko": "남편이 다른 여자를 마음에 두는 꿈은, 지금 자리에 싫증을 내고 다른 데서 즐거움을 찾음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남의 남편을 마음에 둠",
+    "interpretation_ko": "지금 혼인이 즐겁지 않거나 홀로도 즐겁지 않으며 앞날도 미덥지 않다는 뜻",
+    "interpretation_en": "you are not happily married, or that you are not happy unmarried, but the chances for happiness are doubtful",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To be in love with another woman's husband in your dreams, denotes that you are not happily married, or that you are not happy unmarried, but the chances for happiness are doubtful.",
+      "translation_ko": "남의 남편을 마음에 두는 꿈은, 지금 혼인이 즐겁지 않거나 홀로도 즐겁지 않으며 앞날도 미덥지 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "혼인하지 않은 여자가 남편이 있는 꿈을 꿈",
+    "interpretation_ko": "남들이 아끼는 몸가짐이 모자란다는 뜻",
+    "interpretation_en": "denotes that she is wanting in the graces which men most admire",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "For an unmarried woman to dream that she has a husband, denotes that she is wanting in the graces which men most admire.",
+      "translation_ko": "혼인하지 않은 여자가 남편이 있는 꿈을 꾸면, 남들이 아끼는 몸가짐이 모자람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 멀어지면서 되레 커 보임",
+    "interpretation_ko": "어긋난 둘레가 곧바로 마음 맞는 것을 막을 조짐",
+    "interpretation_en": "inharmonious surroundings will prevent immediate congeniality",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "To see your husband depart from you, and as he recedes from you he grows larger, inharmonious surroundings will prevent immediate congeniality.",
+      "translation_ko": "남편이 멀어지면서 되레 커 보이면, 어긋난 둘레가 곧바로 마음 맞는 것을 막는다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 낯선 이와 수상하게 있는 것을 봄",
+    "interpretation_ko": "벗의 경솔함 때문에 걱정거리가 생길 흉한 조짐",
+    "interpretation_en": "denotes she will have trouble through the indiscretion of friends",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "For a woman to dream she sees her husband in a compromising position with an unsuspected party, denotes she will have trouble through the indiscretion of friends.",
+      "translation_ko": "남편이 낯선 이와 수상하게 있는 것을 보면, 벗의 경솔함 때문에 걱정거리가 생긴다"
+    }
+  },
+  {
+    "term_ko": "남편",
+    "term_en": "husband",
+    "context": "남편이 다른 여자와 있다 죽고 추문이 남",
+    "interpretation_ko": "남편과 갈라서거나 재산을 잃을 위험이 있는 흉한 조짐",
+    "interpretation_en": "she will be in danger of separating from her husband or losing property",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Husband",
+      "original": "If she dreams that he is killed while with another woman, and a scandal ensues, she will be in danger of separating from her husband or losing property.",
+      "translation_ko": "남편이 다른 여자와 있다 죽고 추문이 나면, 그와 갈라서거나 재산을 잃을 위험이 있다"
+    }
+  }
+]

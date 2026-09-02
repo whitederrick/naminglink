@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hurricane",
+    "aliases": [
+      "태풍",
+      "허리케인",
+      "폭풍"
+    ],
+    "aliases_en": [
+      "a hurricane",
+      "hurricanes"
+    ],
+    "contexts": {
+      "태풍이 몰려오는 것을 봄": "몰려오 다가오 굉음",
+      "태풍에 무너지는 집에서 사람을 끌어냄": "끌어내 무너지는 들보",
+      "태풍이 남긴 잔해를 봄": "잔해 폐허 아수라장",
+      "태풍으로 죽거나 다친 이를 봄": "죽거나 다친 주검"
+    },
+    "contexts_en": {
+      "태풍이 몰려오는 것을 봄": "roar heading torture suspense",
+      "태풍에 무너지는 집에서 사람을 끌어냄": "extricate timbers remove distant",
+      "태풍이 남긴 잔해를 봄": "debris havoc averted",
+      "태풍으로 죽거나 다친 이를 봄": "wounded distressed troubles"
+    }
+  }
+]
