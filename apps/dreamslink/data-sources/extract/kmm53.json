@@ -1,0 +1,94 @@
+[
+  {
+    "id": "horseshoe",
+    "aliases": [
+      "편자",
+      "말편자",
+      "말굽"
+    ],
+    "aliases_en": [
+      "a horseshoe",
+      "horseshoes"
+    ],
+    "contexts": {
+      "편자를 봄": "반짝이 놓인",
+      "부러진 편자를 봄": "부러진 깨진 망가진",
+      "울타리에 걸린 편자를 봄": "울타리 걸려있 걸린",
+      "길에서 편자를 주움": "주웠 주워 길에서"
+    },
+    "contexts_en": {
+      "편자를 봄": "advance lucky engagements",
+      "부러진 편자를 봄": "broken portrayed",
+      "울타리에 걸린 편자를 봄": "fence sanguine expectations",
+      "길에서 편자를 주움": "pick road unknown"
+    }
+  },
+  {
+    "id": "horseradish",
+    "aliases": [
+      "서양고추냉이",
+      "고추냉이",
+      "호스래디시",
+      "겨자무"
+    ],
+    "aliases_en": [
+      "horseradish"
+    ],
+    "contexts": {
+      "서양고추냉이를 봄": "놓인 밭에",
+      "여성이 서양고추냉이 꿈을 꿈": "여자가 여성이 아가씨",
+      "서양고추냉이를 먹음": "먹었 먹는 씹었"
+    },
+    "contexts_en": {
+      "서양고추냉이를 봄": "intellectual congenial",
+      "여성이 서양고추냉이 꿈을 꿈": "station above",
+      "서양고추냉이를 먹음": "eat raillery"
+    }
+  },
+  {
+    "id": "hospital",
+    "aliases": [
+      "병원",
+      "입원"
+    ],
+    "aliases_en": [
+      "a hospital"
+    ],
+    "contexts": {
+      "병원에 환자로 있음": "환자로 입원 누워있",
+      "병원으로 문병을 감": "문병 찾아갔 병문안"
+    },
+    "contexts_en": {
+      "병원에 환자로 있음": "patient contagious narrowly",
+      "병원으로 문병을 감": "visit distressing absent"
+    }
+  },
+  {
+    "id": "hotel",
+    "aliases": [
+      "여관",
+      "호텔",
+      "여관방"
+    ],
+    "aliases_en": [
+      "a hotel",
+      "hotels"
+    ],
+    "contexts": {
+      "여관에 묵음": "묵었 묵고 살고있",
+      "여관에서 여자를 만남": "여자를 만났 찾아갔",
+      "좋은 여관을 봄": "좋은 훌륭한 멋진",
+      "여관 주인이 됨": "주인이 사장",
+      "여관에서 일함": "일했 일하는 종업원",
+      "여관을 찾아다님": "찾아다 헤매"
+    },
+    "contexts_en": {
+      "여관에 묵음": "living ease",
+      "여관에서 여자를 만남": "dissolute order",
+      "좋은 여관을 봄": "fine wealth travel",
+      "여관 주인이 됨": "proprietor possess",
+      "여관에서 일함": "work remunerative employment",
+      "여관을 찾아다님": "hunting baffled search"
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "term_ko": "편자",
+    "term_en": "horseshoe",
+    "context": "편자를 봄",
+    "interpretation_ko": "장사가 나아가고 여성에게는 좋은 인연이 닿을 길한 조짐",
+    "interpretation_en": "indicates advance in business and lucky engagements for women",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseshoe",
+      "original": "To dream of a horseshoe, indicates advance in business and lucky engagements for women.",
+      "translation_ko": "편자 꿈은, 장사가 나아가고 여성에게는 좋은 인연이 닿음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "편자",
+    "term_en": "horseshoe",
+    "context": "부러진 편자를 봄",
+    "interpretation_ko": "운이 기울고 병이 들 흉한 조짐",
+    "interpretation_en": "ill fortune and sickness is portrayed",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseshoe",
+      "original": "To see them broken, ill fortune and sickness is portrayed.",
+      "translation_ko": "편자가 부러진 것을 보면, 운이 기울고 병이 든다"
+    }
+  },
+  {
+    "term_ko": "편자",
+    "term_en": "horseshoe",
+    "context": "울타리에 걸린 편자를 봄",
+    "interpretation_ko": "바라던 것보다 훨씬 크게 일이 풀릴 길한 조짐",
+    "interpretation_en": "denotes that your interests will advance beyond your most sanguine expectations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseshoe",
+      "original": "To find a horseshoe hanging on the fence, denotes that your interests will advance beyond your most sanguine expectations.",
+      "translation_ko": "울타리에 걸린 편자를 찾으면, 바라던 것보다 훨씬 크게 일이 풀린다"
+    }
+  },
+  {
+    "term_ko": "편자",
+    "term_en": "horseshoe",
+    "context": "길에서 편자를 주움",
+    "interpretation_ko": "생각지도 못한 곳에서 이문이 들어올 길한 조짐",
+    "interpretation_en": "you will receive profit from a source you know not of",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseshoe",
+      "original": "To pick one up in the road, you will receive profit from a source you know not of.",
+      "translation_ko": "길에서 편자를 주우면, 생각지도 못한 곳에서 이문이 들어온다"
+    }
+  },
+  {
+    "term_ko": "서양고추냉이",
+    "term_en": "horseradish",
+    "context": "서양고추냉이를 봄",
+    "interpretation_ko": "슬기롭고 마음 맞는 이들과 즐겁게 어울릴 길한 조짐",
+    "interpretation_en": "foretells pleasant associations with intellectual and congenial people",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseradish",
+      "original": "To dream of horseradish, foretells pleasant associations with intellectual and congenial people.",
+      "translation_ko": "서양고추냉이 꿈은, 슬기롭고 마음 맞는 이들과 즐겁게 어울림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "서양고추냉이",
+    "term_en": "horseradish",
+    "context": "여성이 서양고추냉이 꿈을 꿈",
+    "interpretation_ko": "지금보다 나은 자리로 올라설 길한 조짐",
+    "interpretation_en": "it indicates a rise above her present station",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseradish",
+      "original": "For a woman, it indicates a rise above her present station.",
+      "translation_ko": "여성에게는 지금보다 나은 자리로 올라섬을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "서양고추냉이",
+    "term_en": "horseradish",
+    "context": "서양고추냉이를 먹음",
+    "interpretation_ko": "정겨운 놀림의 대상이 될 조짐",
+    "interpretation_en": "you will be the object of pleasant raillery",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horseradish",
+      "original": "To eat horseradish, you will be the object of pleasant raillery.",
+      "translation_ko": "서양고추냉이를 먹으면, 정겨운 놀림의 대상이 된다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 바꾸다 장수에게 속음",
+    "interpretation_ko": "장사나 사랑에서 잃을 것이 생길 흉한 조짐",
+    "interpretation_en": "you will lose in trade or love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse-trader",
+      "original": "To dream that you are trading horses, and the trader cheats you, you will lose in trade or love.",
+      "translation_ko": "말을 바꾸다 장수에게 속는 꿈은, 장사나 사랑에서 잃을 것이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "바꾼 말이 먼저 것보다 나음",
+    "interpretation_ko": "형편이 지금보다 나아질 길한 조짐",
+    "interpretation_en": "you will better yourself in fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse-trader",
+      "original": "If you get a better horse than the one you traded, you will better yourself in fortune.",
+      "translation_ko": "바꾼 말이 먼저 것보다 나으면, 형편이 지금보다 나아진다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말 장수를 봄",
+    "interpretation_ko": "위태로운 일에서 큰 이문을 얻을 조짐",
+    "interpretation_en": "signifies great profit from perilous ventures",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse-trader",
+      "original": "To dream of a horse-trader, signifies great profit from perilous ventures.",
+      "translation_ko": "말 장수 꿈은, 위태로운 일에서 큰 이문을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "병원",
+    "term_en": "hospital",
+    "context": "병원에 환자로 있음",
+    "interpretation_ko": "둘레에 돌림병이 돌지만 가까스로 비켜 갈 조짐",
+    "interpretation_en": "you will have a contagious disease in your community, and will narrowly escape affliction",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hospital",
+      "original": "If you dream that you are a patient in a hospital.  you will have a contagious disease in your community, and will narrowly escape affliction.",
+      "translation_ko": "병원에 환자로 있는 꿈은, 둘레에 돌림병이 돌지만 가까스로 비켜 감을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "병원",
+    "term_en": "hospital",
+    "context": "병원으로 문병을 감",
+    "interpretation_ko": "멀리 있는 이의 안타까운 소식을 듣게 될 흉한 조짐",
+    "interpretation_en": "you will hear distressing news of the absent",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hospital",
+      "original": "If you visit patients there, you will hear distressing news of the absent.",
+      "translation_ko": "병원으로 문병을 가면, 멀리 있는 이의 안타까운 소식을 듣는다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "여관에 묵음",
+    "interpretation_ko": "편안하고 이문이 따를 길한 조짐",
+    "interpretation_en": "denotes ease and profit",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "To dream of living in a hotel, denotes ease and profit.",
+      "translation_ko": "여관에 묵는 꿈은, 편안하고 이문이 따름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "여관에서 여자를 만남",
+    "interpretation_ko": "삶이 헤퍼질 흉한 조짐",
+    "interpretation_en": "your life will be rather on a dissolute order",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "To visit women in a hotel, your life will be rather on a dissolute order.",
+      "translation_ko": "여관으로 여자를 찾아가면, 삶이 헤퍼진다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "좋은 여관을 봄",
+    "interpretation_ko": "재물이 생기고 먼 길을 떠날 길한 조짐",
+    "interpretation_en": "indicates wealth and travel",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "To dream of seeing a fine hotel, indicates wealth and travel.",
+      "translation_ko": "좋은 여관을 보면, 재물이 생기고 먼 길을 떠난다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "여관 주인이 됨",
+    "interpretation_ko": "제 손으로 가질 만큼의 재물을 벌어들일 길한 조짐",
+    "interpretation_en": "you will earn all the fortune you will ever possess",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "If you dream that you are the proprietor of a hotel, you will earn all the fortune you will ever possess.",
+      "translation_ko": "여관 주인이 되는 꿈은, 제 손으로 가질 만큼의 재물을 벌어들임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "여관에서 일함",
+    "interpretation_ko": "지금보다 벌이가 나은 일자리를 찾을 수 있다는 뜻",
+    "interpretation_en": "you could find a more remunerative employment than what you have",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "To work in a hotel, you could find a more remunerative employment than what you have.",
+      "translation_ko": "여관에서 일하면, 지금보다 벌이가 나은 일자리를 찾을 수 있다"
+    }
+  },
+  {
+    "term_ko": "여관",
+    "term_en": "hotel",
+    "context": "여관을 찾아다님",
+    "interpretation_ko": "재물과 즐거움을 찾는 일이 어긋날 흉한 조짐",
+    "interpretation_en": "you will be baffled in your search for wealth and happiness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hotel",
+      "original": "To dream of hunting a hotel, you will be baffled in your search for wealth and happiness.",
+      "translation_ko": "여관을 찾아다니는 꿈은, 재물과 즐거움을 찾는 일이 어긋남을 뜻한다"
+    }
+  }
+]

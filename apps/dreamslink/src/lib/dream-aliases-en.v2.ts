@@ -5614,5 +5614,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "horoscope": [
     "astrologist"
+  ],
+  "horseshoe": [
+    "a horseshoe",
+    "horseshoes"
+  ],
+  "horseradish": [
+    "horseradish"
+  ],
+  "hospital": [
+    "a hospital"
+  ],
+  "hotel": [
+    "a hotel",
+    "hotels"
   ]
 };

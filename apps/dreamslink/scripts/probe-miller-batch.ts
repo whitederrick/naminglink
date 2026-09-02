@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 52 — Horse 문단 25~34, 17건)
+// (지금 담긴 것: 배치 53 — Horseshoe~Hotel, 23건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,30 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "horse", ctx: "말의 갈기나 꼬리를 다듬음", text: "말의 갈기를 다듬어 주었다" },
-  { id: "horse", ctx: "오르막에서 말이 넘어졌으나 꼭대기에 오름", text: "오르막에서 말이 넘어졌지만 꼭대기까지 올라갔다" },
-  { id: "horse", ctx: "말과 함께 꼭대기에 오름", text: "말과 함께 꼭대기에 올랐다" },
-  { id: "horse", ctx: "발을 저는 말을 봄", text: "절뚝이는 말을 보았다" },
-  // 「말 발에」를 넣은 것은 통과시키려는 것이 아니다 — **원문의 그 꿈에 말이 있고**
-  // ("too small for the horse's foot") 문장에 상징 이름이 하나도 없으면 안 걸리는 것이
-  // 옳다(§25 곁가지 · 배치 41).
-  { id: "horse", ctx: "부러진 편자를 말 발에 억지로 끼우려 함", text: "말 발에 부러진 편자를 억지로 끼우려 했다" },
-  { id: "horse", ctx: "말을 타고 내리막을 내려감", text: "말을 타고 내리막을 내려갔다" },
-  { id: "horse", ctx: "말이 사람으로 바뀌어 다가옴", text: "말이 사람으로 바뀌어 다가왔다" },
+  { id: "horseshoe", ctx: "편자를 봄", text: "편자가 반짝이고 있었다" },
+  { id: "horseshoe", ctx: "부러진 편자를 봄", text: "부러진 편자를 보았다" },
+  { id: "horseshoe", ctx: "울타리에 걸린 편자를 봄", text: "울타리에 걸린 편자를 보았다" },
+  { id: "horseshoe", ctx: "길에서 편자를 주움", text: "길에서 편자를 주웠다" },
+  { id: "horseradish", ctx: "서양고추냉이를 봄", text: "고추냉이가 밭에 있었다" },
+  { id: "horseradish", ctx: "여성이 서양고추냉이 꿈을 꿈", text: "여자가 고추냉이를 보았다" },
+  { id: "horseradish", ctx: "서양고추냉이를 먹음", text: "고추냉이를 먹었다" },
+  { id: "horse", ctx: "말을 바꾸다 장수에게 속음", text: "말을 바꾸다 속았다" },
+  { id: "horse", ctx: "바꾼 말이 먼저 것보다 나음", text: "바꾼 말이 더 나은 말이었다" },
+  { id: "horse", ctx: "말 장수를 봄", text: "말 장수를 보았다" },
+  { id: "hospital", ctx: "병원에 환자로 있음", text: "병원에 환자로 누워있었다" },
+  { id: "hospital", ctx: "병원으로 문병을 감", text: "병원으로 문병을 갔다" },
+  { id: "hotel", ctx: "여관에 묵음", text: "여관에 묵고 있었다" },
+  { id: "hotel", ctx: "여관에서 여자를 만남", text: "여관에서 여자를 만났다" },
+  { id: "hotel", ctx: "좋은 여관을 봄", text: "훌륭한 여관을 보았다" },
+  { id: "hotel", ctx: "여관 주인이 됨", text: "내가 여관 주인이 되었다" },
+  { id: "hotel", ctx: "여관에서 일함", text: "여관에서 일했다" },
+  { id: "hotel", ctx: "여관을 찾아다님", text: "여관을 찾아다녔다" },
 
-  // 배치 50·51이 넣은 것과 옛 답 — **그대로인지** 함께 잰다.
-  { id: "horse", ctx: "말에게 걷어차임", text: "말에게 걷어차였다" },
-  { id: "horse", ctx: "경주마를 봄", text: "경주마를 보았다" },
-  { id: "horse", ctx: "맨등의 말에 올라탐", text: "맨등의 말에 올라탔다" },
-  { id: "horse", ctx: "말을 죽임", text: "말을 죽였다" },
-  { id: "horse", ctx: "검은 말을 봄", text: "검은 말을 보았다" },
-  { id: "horse", ctx: "죽은 말을 봄", text: "죽은 말을 보았다" },
-  { id: "horse", ctx: "다친 말을 봄", text: "다친 말을 보았다" },
+  // 배치 50~52가 넣은 것과 옛 답 — **그대로인지** 함께 잰다.
+  { id: "horse", ctx: "말과 함께 꼭대기에 오름", text: "말과 함께 꼭대기에 올랐다" },
+  { id: "horse", ctx: "말이 다른 말들과 함께 달아남", text: "말이 다른 말들과 함께 달아났다" },
+  { id: "horse", ctx: "말에게 편자를 박게 함", text: "말에게 편자를 박게 했다" },
   { id: "horse", ctx: "흰 말을 타고 감", text: "흰말을 타고 갔다" },
-  { id: "horse", ctx: "말에게 물림", text: "말에게 물렸다" },
   { id: "horse", ctx: "망아지를 봄", text: "망아지를 보았다" },
 ];
 
