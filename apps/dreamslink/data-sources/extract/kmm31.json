@@ -1,0 +1,371 @@
+[
+  {
+    "id": "english-people",
+    "aliases": [
+      "영국인",
+      "영국 사람을",
+      "영국에서 온"
+    ],
+    "aliases_en": [
+      "English people",
+      "the English"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "entertainment",
+    "aliases": [
+      "파티",
+      "연회장",
+      "연회에",
+      "연회를"
+    ],
+    "aliases_en": [
+      "an entertainment",
+      "a party"
+    ],
+    "contexts": {
+      "풍악과 춤이 있는 연회에 감": "풍악 음악 춤이 노래가",
+      "젊은이가 연회를 봄": "젊은이 나이에"
+    },
+    "contexts_en": {
+      "풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
+      "젊은이가 연회를 봄": "young varied pleasures regard"
+    }
+  },
+  {
+    "id": "entrails",
+    "aliases": [
+      "창자를",
+      "창자가",
+      "내장",
+      "오장육부"
+    ],
+    "aliases_en": [
+      "entrails",
+      "bowels"
+    ],
+    "contexts": {
+      "사람의 창자를 봄": "사람의",
+      "들짐승의 창자를 봄": "들짐승 짐승의 맹수",
+      "남의 창자를 찢음": "찢었 찢어 뜯어",
+      "제 창자를 봄": "자신의 스스로",
+      "제 자식의 창자를 봄": "자식 아이의 아들의 딸의"
+    },
+    "contexts_en": {
+      "사람의 창자를 봄": "human misery despair",
+      "들짐승의 창자를 봄": "wild beast overthrow",
+      "남의 창자를 찢음": "tear another persecutions",
+      "제 창자를 봄": "own deepest overwhelm",
+      "제 자식의 창자를 봄": "child dissolution"
+    }
+  },
+  {
+    "id": "envy",
+    "aliases": [
+      "질투",
+      "샘이 나",
+      "부러워",
+      "시샘이",
+      "시샘을",
+      "시샘했다",
+      "시샘하",
+      "시샘받"
+    ],
+    "aliases_en": [
+      "envy",
+      "envious",
+      "envied"
+    ],
+    "contexts": {
+      "남을 시샘함": "남을 내가",
+      "남에게 시샘받음": "받았 남들이 나를"
+    },
+    "contexts_en": {
+      "남을 시샘함": "entertain unselfish deference",
+      "남에게 시샘받음": "others inconvenience overanxious"
+    }
+  },
+  {
+    "id": "epaulet",
+    "aliases": [
+      "견장을",
+      "견장이",
+      "어깨 장식"
+    ],
+    "aliases_en": [
+      "epaulets",
+      "an epaulet"
+    ],
+    "contexts": {
+      "군인이 견장을 닮": "군인 병사 장교",
+      "여성이 견장을 단 사람을 소개받음": "여자가 여성이 소개"
+    },
+    "contexts_en": {
+      "군인이 견장을 닮": "soldier disfavor honors",
+      "여성이 견장을 단 사람을 소개받음": "woman introduced unwise scandal"
+    }
+  },
+  {
+    "id": "epicure",
+    "aliases": [
+      "미식가를",
+      "미식가와",
+      "미식가가",
+      "식도락"
+    ],
+    "aliases_en": [
+      "an epicure",
+      "epicures"
+    ],
+    "contexts": {
+      "미식가와 한 상에 앉음": "함께 앉아 마주",
+      "제가 미식가가 됨": "내가 제가 스스로",
+      "여성이 미식가의 입맛을 맞추려 애씀": "여자가 여성이 맞추려 입맛"
+    },
+    "contexts_en": {
+      "미식가와 한 상에 앉음": "sitting table distinction selfish",
+      "제가 미식가가 됨": "yourself cultivate polish",
+      "여성이 미식가의 입맛을 맞추려 애씀": "woman satisfy distinguished tyrant"
+    }
+  },
+  {
+    "id": "epidemic",
+    "aliases": [
+      "돌림병이",
+      "돌림병을",
+      "전염병",
+      "역병"
+    ],
+    "aliases_en": [
+      "an epidemic",
+      "epidemics"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ermine",
+    "aliases": [
+      "담비",
+      "모피 옷",
+      "담비 털옷"
+    ],
+    "aliases_en": [
+      "ermine"
+    ],
+    "contexts": {
+      "담비 옷을 입음": "입었 걸쳤 내가",
+      "남이 담비 옷을 입은 것을 봄": "남이 남들이 다른사람",
+      "정인이 담비 옷을 입은 것을 봄": "정인 애인 연인",
+      "담비 옷이 더러움": "더러웠 더러운 얼룩"
+    },
+    "contexts_en": {
+      "담비 옷을 입음": "wear costly raiment exaltation",
+      "남이 담비 옷을 입은 것을 봄": "others clothed wealthy literature",
+      "정인이 담비 옷을 입은 것을 봄": "sweetheart purity faithfulness",
+      "담비 옷이 더러움": "soiled reverse"
+    }
+  },
+  {
+    "id": "errand",
+    "aliases": [
+      "심부름을",
+      "심부름이",
+      "심부름 갔다"
+    ],
+    "aliases_en": [
+      "errands",
+      "an errand"
+    ],
+    "contexts": {
+      "심부름을 감": "갔다 다녀왔 나섰",
+      "처녀가 남을 심부름 보냄": "처녀 아가씨 보냈 시켰"
+    },
+    "contexts_en": {
+      "심부름을 감": "congenial mutual agreement home",
+      "처녀가 남을 심부름 보냄": "send person indifference"
+    }
+  },
+  {
+    "id": "europe",
+    "aliases": [
+      "유럽을",
+      "유럽에",
+      "유럽으로"
+    ],
+    "aliases_en": [
+      "Europe"
+    ],
+    "contexts": {
+      "유럽을 돌아다님": "돌아다 여행 다녔",
+      "처녀가 유럽의 볼거리에 시들해함": "처녀 아가씨 시들 실망"
+    },
+    "contexts_en": {
+      "유럽을 돌아다님": "traveling journey customs foreign",
+      "처녀가 유럽의 볼거리에 시들해함": "disappointed sights elevation"
+    }
+  },
+  {
+    "id": "evening",
+    "aliases": [
+      "저녁이",
+      "저녁에",
+      "해가 진 뒤"
+    ],
+    "aliases_en": [
+      "evening"
+    ],
+    "contexts": {
+      "저녁이 되어 있음": "되어 깔렸 어둑",
+      "저녁에 별이 맑게 빛나는 것을 봄": "별이 별들 반짝 맑게",
+      "정든 사이가 저녁에 함께 거닒": "거닐 산책 함께 걸었"
+    },
+    "contexts_en": {
+      "저녁이 되어 있음": "about unrealized ventures",
+      "저녁에 별이 맑게 빛나는 것을 봄": "stars shining distress brighter",
+      "정든 사이가 저녁에 함께 거닒": "lovers walk separation"
+    }
+  },
+  {
+    "id": "evergreen",
+    "aliases": [
+      "늘푸른",
+      "상록수",
+      "사철나무"
+    ],
+    "aliases_en": [
+      "evergreen",
+      "evergreens"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "exchange",
+    "aliases": [
+      "맞바꾸",
+      "바꿔치",
+      "서로 바꾸",
+      "교환",
+      "맞바꾸었다",
+      "맞바꿨다",
+      "맞바꿔"
+    ],
+    "aliases_en": [
+      "exchange",
+      "exchanging"
+    ],
+    "contexts": {
+      "물건을 맞바꿈": "물건을 장사 거래",
+      "처녀가 벗과 정인을 맞바꿈": "처녀 아가씨 정인을 애인을"
+    },
+    "contexts_en": {
+      "물건을 맞바꿈": "profitable dealings classes",
+      "처녀가 벗과 정인을 맞바꿈": "sweethearts friend happier another"
+    }
+  },
+  {
+    "id": "execution",
+    "aliases": [
+      "처형을",
+      "처형이",
+      "사형",
+      "형장",
+      "처형되",
+      "처형당하",
+      "처형당하려",
+      "처형했다",
+      "처형당하려다"
+    ],
+    "aliases_en": [
+      "an execution",
+      "executed"
+    ],
+    "contexts": {
+      "처형하는 것을 봄": "지켜 구경 남이",
+      "처형당하려다 뜻밖에 풀려남": "풀려났 살아났 뜻밖"
+    },
+    "contexts_en": {
+      "처형하는 것을 봄": "seeing misfortune carelessness",
+      "처형당하려다 뜻밖에 풀려남": "about miraculous intervention overthrow"
+    }
+  },
+  {
+    "id": "explosion",
+    "aliases": [
+      "폭발이",
+      "폭발을",
+      "폭발했다",
+      "터졌다"
+    ],
+    "aliases_en": [
+      "explosion",
+      "explosions",
+      "blown up"
+    ],
+    "contexts": {
+      "폭발이 일어남": "일어났 났다 굉음",
+      "얼굴이 검게 그을리거나 다침": "얼굴이 그을 검게 상했",
+      "연기와 잔해가 하늘에 가득함": "연기 잔해 자욱",
+      "불길에 휩싸이거나 폭발로 하늘에 떠 있음": "불길 휩싸 하늘로 떠올랐"
+    },
+    "contexts_en": {
+      "폭발이 일어남": "disapproving transient displeasure",
+      "얼굴이 검게 그을리거나 다침": "face blackened mutilated indiscretion",
+      "연기와 잔해가 하늘에 가득함": "smoke air dissatisfaction antagonism",
+      "불길에 휩싸이거나 폭발로 하늘에 떠 있음": "flames enveloped infringe confidence"
+    }
+  },
+  {
+    "id": "eye",
+    "aliases": [
+      "눈알",
+      "눈동자",
+      "두 눈",
+      "눈이 아팠다",
+      "한쪽 눈"
+    ],
+    "aliases_en": [
+      "an eye",
+      "eyes"
+    ],
+    "contexts": {
+      "눈을 봄": "쳐다보는 노려보",
+      "밤색 눈을 봄": "밤색 갈색",
+      "푸른 눈을 봄": "푸른 파란 파랑",
+      "잿빛 눈을 봄": "잿빛 회색",
+      "눈을 잃거나 눈이 아픔": "잃었 아팠 아픈 멀었",
+      "한쪽 눈만 있는 사람을 봄": "한쪽 외눈"
+    },
+    "contexts_en": {
+      "눈을 봄": "watchful enemies injury rival",
+      "밤색 눈을 봄": "brown deceit perfidy",
+      "푸른 눈을 봄": "blue weakness intention",
+      "잿빛 눈을 봄": "gray flattery owner",
+      "눈을 잃거나 눈이 아픔": "losing sore trouble",
+      "한쪽 눈만 있는 사람을 봄": "insignificant"
+    }
+  },
+  {
+    "id": "eyeglass",
+    "aliases": [
+      "안경을",
+      "안경이",
+      "외알 안경"
+    ],
+    "aliases_en": [
+      "an eyeglass",
+      "eyeglasses"
+    ],
+    "contexts": {
+      "안경을 보거나 씀": "썼다 쓰고 끼고",
+      "처녀가 정인이 안경 쓴 것을 봄": "처녀 아가씨 정인이 애인이"
+    },
+    "contexts_en": {
+      "안경을 보거나 씀": "wearing disagreeable friendships disengage",
+      "처녀가 정인이 안경 쓴 것을 봄": "lover disruption affairs"
+    }
+  }
+]

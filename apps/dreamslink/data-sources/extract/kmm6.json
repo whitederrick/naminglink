@@ -263,7 +263,9 @@
       "유배",
       "쫓겨남",
       "귀양",
-      "내쫓김"
+      "내쫓김",
+      "귀양을",
+      "귀양 갔다"
     ],
     "aliases_en": [
       "exile",
@@ -273,11 +275,13 @@
     ],
     "contexts": {
       "외국으로 추방됨": "외국 타국 내가 당했",
-      "자녀를 추방함": "자녀 아이를 자식 내쫓았"
+      "자녀를 추방함": "자녀 아이를 자식 내쫓았",
+      "여성이 귀양 감": "여성이 여자가 처녀가"
     },
     "contexts_en": {
       "외국으로 추방됨": "foreign abroad myself",
-      "자녀를 추방함": "child children son daughter"
+      "자녀를 추방함": "child children son daughter",
+      "여성이 귀양 감": "exiled journey interfere"
     }
   },
   {

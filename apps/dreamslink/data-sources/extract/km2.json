@@ -776,7 +776,13 @@
     "aliases": [
       "도망",
       "도주",
-      "탈출"
+      "탈출",
+      "빠져나왔다",
+      "벗어났다",
+      "모면",
+      "벗어나려",
+      "벗어나서",
+      "벗어나려다"
     ],
     "aliases_en": [
       "ran away",
@@ -784,8 +790,20 @@
       "escaping",
       "fled"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "몸이 달아나 벗어남": "몸이 달아나",
+      "다치거나 사고를 당할 뻔한 데서 벗어남": "사고 다칠 다치",
+      "갇힌 곳에서 빠져나옴": "갇힌 감옥 빠져나",
+      "옮는 병에서 벗어남": "병에서 전염 옮는",
+      "벗어나려다 실패함": "실패 못했 붙잡혔"
+    },
+    "contexts_en": {
+      "몸이 달아나 벗어남": "body freed",
+      "다치거나 사고를 당할 뻔한 데서 벗어남": "injury accidents favorable",
+      "갇힌 곳에서 빠져나옴": "confinement rise application",
+      "옮는 병에서 벗어남": "contagion health prosperity",
+      "벗어나려다 실패함": "fail slander defraud"
+    }
   },
   {
     "id": "flower-ornament",

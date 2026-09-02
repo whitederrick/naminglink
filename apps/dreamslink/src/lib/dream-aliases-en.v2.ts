@@ -5000,5 +5000,72 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "engineer": [
     "an engineer",
     "engineers"
+  ],
+  "english-people": [
+    "English people",
+    "the English"
+  ],
+  "entertainment": [
+    "an entertainment",
+    "a party"
+  ],
+  "entrails": [
+    "entrails",
+    "bowels"
+  ],
+  "envy": [
+    "envy",
+    "envious",
+    "envied"
+  ],
+  "epaulet": [
+    "epaulets",
+    "an epaulet"
+  ],
+  "epicure": [
+    "an epicure",
+    "epicures"
+  ],
+  "epidemic": [
+    "an epidemic",
+    "epidemics"
+  ],
+  "ermine": [
+    "ermine"
+  ],
+  "errand": [
+    "errands",
+    "an errand"
+  ],
+  "europe": [
+    "Europe"
+  ],
+  "evening": [
+    "evening"
+  ],
+  "evergreen": [
+    "evergreen",
+    "evergreens"
+  ],
+  "exchange": [
+    "exchange",
+    "exchanging"
+  ],
+  "execution": [
+    "an execution",
+    "executed"
+  ],
+  "explosion": [
+    "explosion",
+    "explosions",
+    "blown up"
+  ],
+  "eye": [
+    "an eye",
+    "eyes"
+  ],
+  "eyeglass": [
+    "an eyeglass",
+    "eyeglasses"
   ]
 };

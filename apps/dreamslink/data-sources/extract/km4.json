@@ -807,8 +807,14 @@
       "mail",
       "envelope"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "편지를 봉함": "봉했 넣어 붙였",
+      "봉투를 봄": "봉투를 봉투가"
+    },
+    "contexts_en": {
+      "편지를 봉함": "sealed sealing",
+      "봉투를 봄": "envelopes sorrowful cast"
+    }
   },
   {
     "id": "mosquito",

@@ -514,7 +514,10 @@
     "aliases": [
       "아담",
       "에덴동산",
-      "최초의 남녀"
+      "최초의 남녀",
+      "이브를",
+      "이브가",
+      "이브는"
     ],
     "aliases_en": [
       "adam",
@@ -524,12 +527,16 @@
     "contexts": {
       "아담과 이브 꿈을 꿈": "나왔 등장 그저 단순",
       "정원의 아담과 이브를 봄(아담은 무화과 잎을 걸치고 이브는 뱀 장식만 두른 채 나체임)": "정원 무화과 나체 벌거",
-      "이브가 뱀과 이야기하는 것을 보거나 들음": "이야기 말하는 대화 속삭"
+      "이브가 뱀과 이야기하는 것을 보거나 들음": "이야기 말하는 대화 속삭",
+      "이브를 봄": "이브를",
+      "처녀가 제가 이브가 된 꿈을 꿈": "처녀 아가씨 흉내"
     },
     "contexts_en": {
       "아담과 이브 꿈을 꿈": "dreamt appeared merely",
       "정원의 아담과 이브를 봄(아담은 무화과 잎을 걸치고 이브는 뱀 장식만 두른 채 나체임)": "fig naked leaves",
-      "이브가 뱀과 이야기하는 것을 보거나 들음": "talking speaking conversation heard"
+      "이브가 뱀과 이야기하는 것을 보거나 들음": "talking speaking conversation heard",
+      "이브를 봄": "hesitancy authentic opposition",
+      "처녀가 제가 이브가 된 꿈을 꿈": "impersonates careful disguise"
     }
   },
   {

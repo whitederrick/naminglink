@@ -763,14 +763,23 @@
   },
   {
     "id": "eyebrows",
-    "aliases": [],
+    "aliases": [
+      "눈썹이",
+      "눈썹을"
+    ],
     "aliases_en": [
       "eyebrow",
       "brows",
       "brow"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "눈썹이 머리털과 가지런히 자람": "머리털 가지런 자랐",
+      "눈썹을 봄": "보았 마주"
+    },
+    "contexts_en": {
+      "눈썹이 머리털과 가지런히 자람": "hair evenly grown",
+      "눈썹을 봄": "sinister obstacles immediate"
+    }
   },
   {
     "id": "funeral-mourning",

@@ -989,7 +989,10 @@
       "증여",
       "물려받",
       "상속",
-      "유언으로 남"
+      "유언으로 남",
+      "물려받았다",
+      "물려받은",
+      "물려받는"
     ],
     "aliases_en": [
       "a legacy",
@@ -997,8 +1000,16 @@
       "a bequeathal",
       "left in a will"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "유산(증여)에 관한 꿈을 꿈": "증여 남겨준",
+      "너른 땅과 집을 물려받게 됨": "너른 땅과 저택",
+      "처녀가 너른 땅을 물려받게 됨": "처녀 아가씨 여성이"
+    },
+    "contexts_en": {
+      "유산(증여)에 관한 꿈을 꿈": "received given",
+      "너른 땅과 집을 물려받게 됨": "vast ownership distant",
+      "처녀가 너른 땅을 물려받게 됨": "young woman frugally poor"
+    }
   },
   {
     "id": "birthday",
