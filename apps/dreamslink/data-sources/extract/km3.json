@@ -334,12 +334,26 @@
     "contexts": {
       "집안 사람끼리 다툼": "집안 가족 식구 친척 부모",
       "여자들이 서로 때림": "여자 여인 부인 아낙",
-      "형제가 서로 때림": "형제 형과 동생 남매"
+      "형제가 서로 때림": "형제 형과 동생 남매",
+      "싸움에 뛰어듦": "뛰어들 휘말 붙었",
+      "남이 싸우는 것을 봄": "남이 남들이 구경",
+      "여성이 싸움 꿈을 꿈": "여성이",
+      "처녀가 정인이 싸우는 것을 봄": "처녀 아가씨 정인이 애인이",
+      "싸움에서 짐": "졌다 지고 밀렸",
+      "덤빈 자를 물리침": "물리쳤 때려 이겼",
+      "두 사람이 총으로 싸우는 것을 봄": "총으로 권총 두사람"
     },
     "contexts_en": {
       "집안 사람끼리 다툼": "family household relatives parents",
       "여자들이 서로 때림": "women woman wives ladies",
-      "형제가 서로 때림": "brothers brother siblings"
+      "형제가 서로 때림": "brothers brother siblings",
+      "싸움에 뛰어듦": "engage opponents suits",
+      "남이 싸우는 것을 봄": "squandering time money",
+      "여성이 싸움 꿈을 꿈": "slander gossip warning",
+      "처녀가 정인이 싸우는 것을 봄": "lover unworthiness",
+      "싸움에서 짐": "defeated right property",
+      "덤빈 자를 물리침": "whip assailant courage perseverance",
+      "두 사람이 총으로 싸우는 것을 봄": "pistols worries perplexities"
     }
   },
   {
@@ -482,11 +496,17 @@
     ],
     "contexts": {
       "남이 피리를 줌": "주었 받았 건네 선물",
-      "피리를 붊": "불었 부는 불고 연주"
+      "피리를 붊": "불었 부는 불고 연주",
+      "피리 소리를 들음": "소리를 들었",
+      "제가 피리를 붊": "내가 제가 스스로",
+      "여성이 피리 꿈을 꿈": "여자가 여성이"
     },
     "contexts_en": {
       "남이 피리를 줌": "gave given received gift",
-      "피리를 붊": "played playing blowing blew"
+      "피리를 붊": "played playing blowing blew",
+      "피리 소리를 들음": "hearing unexpected call defend",
+      "제가 피리를 붊": "yourself reputation intact",
+      "여성이 피리 꿈을 꿈": "woman soldier husband"
     }
   },
   {

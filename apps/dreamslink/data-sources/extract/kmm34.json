@@ -1,0 +1,224 @@
+[
+  {
+    "id": "fiddle",
+    "aliases": [
+      "바이올린을",
+      "바이올린이",
+      "깽깽이"
+    ],
+    "aliases_en": [
+      "a fiddle",
+      "fiddles"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fiend",
+    "aliases": [
+      "악귀가",
+      "악귀를",
+      "마귀"
+    ],
+    "aliases_en": [
+      "a fiend",
+      "fiends"
+    ],
+    "contexts": {
+      "악귀와 마주침": "마주쳤 맞닥",
+      "여성이 악귀 꿈을 꿈": "여자가 여성이",
+      "악귀를 봄": "보았 나타났",
+      "악귀를 이김": "이겼 물리쳤 쫓아냈"
+    },
+    "contexts_en": {
+      "악귀와 마주침": "encounter reckless morals",
+      "여성이 악귀 꿈을 꿈": "woman blackened",
+      "악귀를 봄": "warns attacks false",
+      "악귀를 이김": "overcome intercept designs"
+    }
+  },
+  {
+    "id": "fig",
+    "aliases": [
+      "무화과를",
+      "무화과가",
+      "무화과나무"
+    ],
+    "aliases_en": [
+      "figs",
+      "a fig"
+    ],
+    "contexts": {
+      "무화과를 먹음": "먹었 먹는",
+      "처녀가 무화과가 자라는 것을 봄": "처녀 아가씨",
+      "무화과가 자라는 것을 봄": "자라 열린 달린"
+    },
+    "contexts_en": {
+      "무화과를 먹음": "eating malarious",
+      "처녀가 무화과가 자라는 것을 봄": "young woman wed prominent",
+      "무화과가 자라는 것을 봄": "growing favorable profit"
+    }
+  },
+  {
+    "id": "figure",
+    "aliases": [
+      "숫자를",
+      "숫자가",
+      "셈을 하"
+    ],
+    "aliases_en": [
+      "figures"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "filbert",
+    "aliases": [
+      "개암을",
+      "개암이",
+      "개암나무"
+    ],
+    "aliases_en": [
+      "filberts",
+      "hazelnuts"
+    ],
+    "contexts": {
+      "개암을 봄": "보았 놓여",
+      "개암을 먹음": "먹었 먹는"
+    },
+    "contexts_en": {
+      "개암을 봄": "peaceful harmonious domestic ventures",
+      "개암을 먹음": "eating delightful associations"
+    }
+  },
+  {
+    "id": "file",
+    "aliases": [
+      "서류철",
+      "문서철",
+      "서류 묶음"
+    ],
+    "aliases_en": [
+      "a file",
+      "files"
+    ],
+    "contexts": {
+      "서류철을 봄": "보았",
+      "고지서와 중요한 서류를 갈무리해 둔 서류철을 봄": "고지서 갈무리 보관"
+    },
+    "contexts_en": {
+      "서류철을 봄": "transact unsatisfactory extreme",
+      "고지서와 중요한 서류를 갈무리해 둔 서류철을 봄": "bills papers animated discussions"
+    }
+  },
+  {
+    "id": "finger",
+    "aliases": [
+      "손가락이",
+      "손가락을",
+      "손가락들"
+    ],
+    "aliases_en": [
+      "fingers",
+      "a finger"
+    ],
+    "contexts": {
+      "손가락이 더럽거나 긁혀 피가 남": "더럽 긁혀 피가",
+      "손가락이 흰 고운 손을 봄": "고운 하얀 뽀얀",
+      "손가락이 잘려 나감": "잘려 잘렸 베였"
+    },
+    "contexts_en": {
+      "손가락이 더럽거나 긁혀 피가 남": "soiled scratched exuding suffering",
+      "손가락이 흰 고운 손을 봄": "beautiful white requited benevolence",
+      "손가락이 잘려 나감": "clean off legacy intervention"
+    }
+  },
+  {
+    "id": "fingernail",
+    "aliases": [
+      "손톱이",
+      "손톱을",
+      "손톱들"
+    ],
+    "aliases_en": [
+      "finger-nails",
+      "nails"
+    ],
+    "contexts": {
+      "더러운 손톱을 봄": "더러운 더럽",
+      "잘 손질된 손톱을 봄": "손질 단정 깔끔"
+    },
+    "contexts_en": {
+      "더러운 손톱을 봄": "soiled disgrace escapades",
+      "잘 손질된 손톱을 봄": "kept scholarly attainments thrift"
+    }
+  },
+  {
+    "id": "firebrand",
+    "aliases": [
+      "불붙은 나뭇가지",
+      "횃불",
+      "불붙은 장작"
+    ],
+    "aliases_en": [
+      "a firebrand"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fire-budget",
+    "aliases": [
+      "불 끄는 데 드는 돈",
+      "소방 비용"
+    ],
+    "aliases_en": [
+      "a fire budget"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fire-engine",
+    "aliases": [
+      "소방차를",
+      "소방차가",
+      "소방차에"
+    ],
+    "aliases_en": [
+      "a fire-engine",
+      "fire engine"
+    ],
+    "contexts": {
+      "소방차를 봄": "달려 달려오",
+      "고장 난 소방차를 봄": "고장 망가 부서진",
+      "처녀가 소방차를 타고 감": "처녀 아가씨 타고"
+    },
+    "contexts_en": {
+      "소방차를 봄": "worry extraordinary circumstances",
+      "고장 난 소방차를 봄": "broken accident serious",
+      "처녀가 소방차를 타고 감": "ride unladylike obnoxious"
+    }
+  },
+  {
+    "id": "fireman",
+    "aliases": [
+      "소방수를",
+      "소방수가",
+      "소방관"
+    ],
+    "aliases_en": [
+      "a fireman",
+      "firemen"
+    ],
+    "contexts": {
+      "소방수를 봄": "보았 만났",
+      "처녀가 다친 소방수를 봄": "다친 사고 처녀 아가씨"
+    },
+    "contexts_en": {
+      "소방수를 봄": "constancy friends",
+      "처녀가 다친 소방수를 봄": "grave danger threatening close"
+    }
+  }
+]

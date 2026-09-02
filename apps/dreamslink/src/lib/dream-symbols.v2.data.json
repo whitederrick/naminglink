@@ -29,6 +29,7 @@
     "m31.json",
     "m32.json",
     "m33.json",
+    "m34.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -454,6 +455,395 @@
               "locator": "牛馬豬羊六畜",
               "original": "犬吠主人失財凶",
               "translation_ko": "개가 주인을 보고 짖으면 재물을 잃어 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "term_ko": "불",
+      "term_en": "fire",
+      "aliases": [
+        "화재",
+        "화염",
+        "불꽃",
+        "불타",
+        "불탄",
+        "불이 났",
+        "불길",
+        "대화재"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "불 위에 차려 놓은 것을 봄",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "看火上陳事大吉",
+              "translation_ko": "불 위에 차려 놓은 것을 보면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "불을 보되 데지 않음",
+          "interpretation_ko": "뭍에서든 바다에서든 넉넉함이 이어질 길한 조짐",
+          "interpretation_en": "fire is favorable to the dreamer if he does not get burned; it brings continued prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "Fire is favorable to the dreamer if he does not get burned. It brings continued prosperity to seamen and voyagers, as well as to those on land.",
+              "translation_ko": "불은 데지만 않는다면 꿈꾼 이에게 길하다. 뱃사람과 길 떠난 이에게도, 뭍에 있는 이에게도 넉넉함이 이어짐을 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "제 집이 불타는 것을 봄",
+          "interpretation_ko": "다정한 짝과 말 잘 듣는 자식, 미더운 사람들을 얻을 길한 조짐",
+          "interpretation_en": "denotes a loving companion, obedient children, and careful servants",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "To dream of seeing your home burning, denotes a loving companion, obedient children, and careful servants.",
+              "translation_ko": "제 집이 불타는 것을 보는 꿈은, 다정한 짝과 말 잘 듣는 자식, 미더운 일손을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장사하는 이가 제 가게가 타는 것을 지켜봄",
+          "interpretation_ko": "장사가 크게 몰리고 이문이 남을 길한 조짐",
+          "interpretation_en": "foretells a great rush in business and profitable results",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "For a business man to dream that his store is burning, and he is looking on, foretells a great rush in business and profitable results.",
+              "translation_ko": "장사하는 이가 제 가게가 타는 것을 지켜보는 꿈은, 장사가 크게 몰리고 이문이 남음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "불을 끄면서 데지 않음",
+          "interpretation_ko": "하는 일 때문에 몹시 애쓰고 시달릴 조짐",
+          "interpretation_en": "denotes that he will be much worked and worried as to the conduct of his business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "To dream that he is fighting fire and does not get burned, denotes that he will be much worked and worried as to the conduct of his business.",
+              "translation_ko": "불을 끄면서 데지 않는 꿈은, 하는 일을 꾸려 가느라 몹시 애쓰고 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "불탄 가게의 잔해를 봄",
+          "interpretation_ko": "운이 궂어 애쓰던 것을 놓아 버릴 뻔하나 뜻밖의 복이 다시 일으켜 세울 조짐",
+          "interpretation_en": "forebodes ill luck; he will be almost ready to give up, but some unforeseen good fortune will bear him up again",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "To see the ruins of his store after a fire, forebodes ill luck. He will be almost ready to give up the effort of amassing a handsome fortune and a brilliant business record as useless, but some unforeseen good fortune will bear him up again.",
+              "translation_ko": "불이 난 뒤 제 가게의 잔해를 보는 꿈은 궂은 운을 알린다. 큰 재물과 빛나는 자취를 쌓으려던 애씀을 부질없다며 거의 놓아 버릴 참이 되나, 뜻밖의 복이 그를 다시 일으켜 세운다"
+            }
+          ]
+        },
+        {
+          "context": "불을 지핌",
+          "interpretation_ko": "기쁜 일이 여럿 생기고 멀리 있던 벗이 찾아올 길한 조짐",
+          "interpretation_en": "you may expect many pleasant surprises; you will have distant friends to visit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "If you dream of kindling a fire, you may expect many pleasant surprises. You will have distant friends to visit.",
+              "translation_ko": "불을 지피는 꿈을 꾸면 기쁜 일이 여럿 생긴다. 멀리 있는 벗이 찾아온다"
+            }
+          ]
+        },
+        {
+          "context": "큰불이 난 것을 봄",
+          "interpretation_ko": "뱃사람에게는 무사한 뱃길을, 글하는 이에게는 오름과 이름을, 장사하는 이에게는 끝없는 성공을 알리는 길한 조짐",
+          "interpretation_en": "denotes to sailors a profitable and safe voyage; to men of literary affairs, advancement and honors; to business people, unlimited success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire",
+              "original": "To see a large conflagration, denotes to sailors a profitable and safe voyage. To men of literary affairs, advancement and honors; to business people, unlimited success.",
+              "translation_ko": "큰불을 보는 꿈은 뱃사람에게 이문 남고 무사한 뱃길을 뜻한다. 글하는 이에게는 오름과 이름을, 장사하는 이에게는 끝없는 성공을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "하늘의 불이 문을 태움",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that misfortune will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "天火燒門主凶事",
+              "translation_ko": "하늘의 불이 문을 태우면 흉한 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에서 불이 나옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上火出主大吉",
+              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불이 해와 달을 태움",
+          "interpretation_ko": "남의 도움을 받을 조짐",
+          "interpretation_en": "a sign of receiving help from others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒日月有人助",
+              "translation_ko": "불이 해와 달을 태우면 도와주는 사람이 있다"
+            }
+          ]
+        },
+        {
+          "context": "불이 강물을 태움",
+          "interpretation_ko": "오래 살고 길할 조짐",
+          "interpretation_en": "an auspicious sign of a long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒河水長命吉",
+              "translation_ko": "불이 강물을 태우면 오래 살고 길하다"
+            }
+          ]
+        },
+        {
+          "context": "불이 산과 들을 태움",
+          "interpretation_ko": "크게 출세할 조짐",
+          "interpretation_en": "a sign of great advancement in the world",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒山野大顯達",
+              "translation_ko": "불이 산과 들을 태우면 크게 현달한다"
+            }
+          ]
+        },
+        {
+          "context": "불이 제 집을 태움",
+          "interpretation_ko": "집안이 흥할 조짐",
+          "interpretation_en": "a sign that the household will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒自屋主興旺",
+              "translation_ko": "불이 제 집을 태우면 흥왕할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불꽃이 활활 타오름",
+          "interpretation_ko": "재물이 생길 조짐",
+          "interpretation_en": "a sign that wealth will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火焰炎炎主發財",
+              "translation_ko": "불꽃이 활활 타오르면 재물이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불이 땅에서 솟아남",
+          "interpretation_ko": "질병이 올 조짐",
+          "interpretation_en": "a sign that illness will come",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火從地生疾病至",
+              "translation_ko": "불이 땅에서 솟아나면 질병이 온다"
+            }
+          ]
+        },
+        {
+          "context": "불을 들고 길을 감",
+          "interpretation_ko": "벼슬자리를 얻을 조짐",
+          "interpretation_en": "a sign of obtaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "執火乘行官位至",
+              "translation_ko": "불을 들고 가면 관직이 온다"
+            }
+          ]
+        },
+        {
+          "context": "큰불이 하늘을 태움",
+          "interpretation_ko": "나라가 편안할 조짐",
+          "interpretation_en": "a sign that the country will be at peace",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "大火燒天主國安",
+              "translation_ko": "큰불이 하늘을 태우면 나라가 편안할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "몸이 불 속에 있음",
+          "interpretation_ko": "귀인의 도움을 받을 조짐",
+          "interpretation_en": "a sign that a benefactor will lend support",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "身在火中貴人扶",
+              "translation_ko": "몸이 불 속에 있으면 귀인이 돕는다"
+            }
+          ]
+        },
+        {
+          "context": "불을 잡고 길을 감",
+          "interpretation_ko": "크게 통달할 조짐",
+          "interpretation_en": "a sign that everything will go through smoothly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "把火行路大通達",
+              "translation_ko": "불을 잡고 길을 가면 크게 통달한다"
+            }
+          ]
+        },
+        {
+          "context": "불을 잡고 우물을 태움",
+          "interpretation_ko": "질병이 있을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "把火燒井主疾病",
+              "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에 불빛이 있음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "宅中火光大吉利",
+              "translation_ko": "집 안에 불빛이 있으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "부엌에서 불이 남",
+          "interpretation_ko": "급한 일이 생길 조짐",
+          "interpretation_en": "a sign that an urgent matter will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "廚中火出有急事",
+              "translation_ko": "부엌에서 불이 나면 급한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "벼슬을 기다리며 불을 켬",
+          "interpretation_ko": "고을 원이 될 조짐",
+          "interpretation_en": "a sign of becoming a local magistrate",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "聽選燃火作明府",
+              "translation_ko": "벼슬을 기다리며 불을 켜면 고을 원이 된다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 태워 고약한 냄새가 남",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "燒人臭穢主大吉",
+              "translation_ko": "사람을 태워 고약한 냄새가 나면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불을 손에 들고 배에 오름",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "執火入船主大吉",
+              "translation_ko": "불을 들고 배에 들면 크게 길하다"
             }
           ]
         }
@@ -2747,291 +3137,6 @@
               "locator": "水火盜賊燈燭",
               "original": "把火燒井主疾病",
               "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fire",
-      "term_ko": "불",
-      "term_en": "fire",
-      "aliases": [
-        "화재",
-        "화염",
-        "불꽃"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "불 위에 차려 놓은 것을 봄",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "看火上陳事大吉",
-              "translation_ko": "불 위에 차려 놓은 것을 보면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "하늘의 불이 문을 태움",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that misfortune will occur",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "天火燒門主凶事",
-              "translation_ko": "하늘의 불이 문을 태우면 흉한 일이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에서 불이 나옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上火出主大吉",
-              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불이 해와 달을 태움",
-          "interpretation_ko": "남의 도움을 받을 조짐",
-          "interpretation_en": "a sign of receiving help from others",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒日月有人助",
-              "translation_ko": "불이 해와 달을 태우면 도와주는 사람이 있다"
-            }
-          ]
-        },
-        {
-          "context": "불이 강물을 태움",
-          "interpretation_ko": "오래 살고 길할 조짐",
-          "interpretation_en": "an auspicious sign of a long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒河水長命吉",
-              "translation_ko": "불이 강물을 태우면 오래 살고 길하다"
-            }
-          ]
-        },
-        {
-          "context": "불이 산과 들을 태움",
-          "interpretation_ko": "크게 출세할 조짐",
-          "interpretation_en": "a sign of great advancement in the world",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒山野大顯達",
-              "translation_ko": "불이 산과 들을 태우면 크게 현달한다"
-            }
-          ]
-        },
-        {
-          "context": "불이 제 집을 태움",
-          "interpretation_ko": "집안이 흥할 조짐",
-          "interpretation_en": "a sign that the household will flourish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒自屋主興旺",
-              "translation_ko": "불이 제 집을 태우면 흥왕할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불꽃이 활활 타오름",
-          "interpretation_ko": "재물이 생길 조짐",
-          "interpretation_en": "a sign that wealth will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火焰炎炎主發財",
-              "translation_ko": "불꽃이 활활 타오르면 재물이 생길 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불이 땅에서 솟아남",
-          "interpretation_ko": "질병이 올 조짐",
-          "interpretation_en": "a sign that illness will come",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火從地生疾病至",
-              "translation_ko": "불이 땅에서 솟아나면 질병이 온다"
-            }
-          ]
-        },
-        {
-          "context": "불을 들고 길을 감",
-          "interpretation_ko": "벼슬자리를 얻을 조짐",
-          "interpretation_en": "a sign of obtaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "執火乘行官位至",
-              "translation_ko": "불을 들고 가면 관직이 온다"
-            }
-          ]
-        },
-        {
-          "context": "큰불이 하늘을 태움",
-          "interpretation_ko": "나라가 편안할 조짐",
-          "interpretation_en": "a sign that the country will be at peace",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "大火燒天主國安",
-              "translation_ko": "큰불이 하늘을 태우면 나라가 편안할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "몸이 불 속에 있음",
-          "interpretation_ko": "귀인의 도움을 받을 조짐",
-          "interpretation_en": "a sign that a benefactor will lend support",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "身在火中貴人扶",
-              "translation_ko": "몸이 불 속에 있으면 귀인이 돕는다"
-            }
-          ]
-        },
-        {
-          "context": "불을 잡고 길을 감",
-          "interpretation_ko": "크게 통달할 조짐",
-          "interpretation_en": "a sign that everything will go through smoothly",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "把火行路大通達",
-              "translation_ko": "불을 잡고 길을 가면 크게 통달한다"
-            }
-          ]
-        },
-        {
-          "context": "불을 잡고 우물을 태움",
-          "interpretation_ko": "질병이 있을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "把火燒井主疾病",
-              "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에 불빛이 있음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "宅中火光大吉利",
-              "translation_ko": "집 안에 불빛이 있으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "부엌에서 불이 남",
-          "interpretation_ko": "급한 일이 생길 조짐",
-          "interpretation_en": "a sign that an urgent matter will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "廚中火出有急事",
-              "translation_ko": "부엌에서 불이 나면 급한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "벼슬을 기다리며 불을 켬",
-          "interpretation_ko": "고을 원이 될 조짐",
-          "interpretation_en": "a sign of becoming a local magistrate",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "聽選燃火作明府",
-              "translation_ko": "벼슬을 기다리며 불을 켜면 고을 원이 된다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 태워 고약한 냄새가 남",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "燒人臭穢主大吉",
-              "translation_ko": "사람을 태워 고약한 냄새가 나면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불을 손에 들고 배에 오름",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "執火入船主大吉",
-              "translation_ko": "불을 들고 배에 들면 크게 길하다"
             }
           ]
         }
@@ -8299,6 +8404,330 @@
               "locator": "捕禁刑罰獄具",
               "original": "牢獄臭污百事吉",
               "translation_ko": "감옥이 더럽고 냄새나면 온갖 일이 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "term_ko": "밭",
+      "term_en": "field",
+      "aliases": [
+        "텃밭",
+        "논밭",
+        "농지",
+        "경작지",
+        "전답"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "밭에 풀이 자람",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "田中生草主得財",
+              "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "마른 대만 남은 밭을 봄",
+          "interpretation_ko": "앞날이 쓸쓸할 흉한 조짐",
+          "interpretation_en": "indicates dreary prospects for the future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Field",
+              "original": "To dream of dead corn or stubble fields, indicates to the dreamer dreary prospects for the future.",
+              "translation_ko": "말라 죽은 옥수수나 그루터기만 남은 밭 꿈은, 꿈꾼 이에게 쓸쓸한 앞날을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "푸르거나 곡식이 익은 밭을 봄",
+          "interpretation_ko": "누구에게나 크게 넉넉하고 기쁠 길한 조짐",
+          "interpretation_en": "denotes great abundance and happiness to all classes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Field",
+              "original": "To see green fields, or ripe with corn or grain, denotes great abundance and happiness to all classes.",
+              "translation_ko": "푸른 밭이나 곡식이 익은 밭을 보는 꿈은, 누구에게나 크게 넉넉하고 기쁨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "갓 갈아엎은 밭을 봄",
+          "interpretation_ko": "이르게 재물이 늘고 이름 있는 자리로 올라설 길한 조짐",
+          "interpretation_en": "denotes early rise in wealth and fortunate advancement to places of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Field",
+              "original": "To see newly plowed fields, denotes early rise in wealth and fortunate advancement to places of honor.",
+              "translation_ko": "갓 갈아엎은 밭을 보는 꿈은, 이르게 재물이 늘고 이름 있는 자리로 올라섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "써레질을 마쳐 씨 뿌릴 채비가 된 밭을 봄",
+          "interpretation_ko": "오래 애쓴 것이 곧 열매를 맺을 길한 조짐",
+          "interpretation_en": "denotes that you are soon to benefit by your endeavor and long struggles for success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Field",
+              "original": "To see fields freshly harrowed and ready for planting, denotes that you are soon to benefit by your endeavor and long struggles for success.",
+              "translation_ko": "갓 써레질해 씨 뿌릴 채비가 된 밭을 보는 꿈은, 오래 애쓴 것이 곧 열매를 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "밭을 넓게 갈아 씨를 심음",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "種田廣大有祿位",
+              "translation_ko": "밭을 넓게 갈아 심으면 녹봉과 지위가 있다"
+            }
+          ]
+        },
+        {
+          "context": "밭에 씨 뿌리는 사람을 봄",
+          "interpretation_ko": "녹봉과 지위가 이를 조짐",
+          "interpretation_en": "a sign that salary and position will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "見種田者祿位至",
+              "translation_ko": "밭에 씨 뿌리는 사람을 보면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "남을 시켜 밭에 씨를 심게 함",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "使人種田地大吉",
+              "translation_ko": "남을 시켜 밭에 심게 하면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "남의 밭을 사들임",
+          "interpretation_ko": "벼슬이 오를 조짐",
+          "interpretation_en": "a sign of advancement in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "買人田宅主進職",
+              "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
+            }
+          ]
+        },
+        {
+          "context": "밭이 무너져 못 쓰게 됨",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "破敗田地主大吉",
+              "translation_ko": "밭이 무너지고 못 쓰게 되면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fight",
+      "term_ko": "싸움",
+      "term_en": "fight",
+      "aliases": [
+        "다툼",
+        "싸우",
+        "언쟁",
+        "주먹다짐",
+        "말다툼"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집안 사람끼리 다툼",
+          "interpretation_ko": "식구가 흩어질 조짐",
+          "interpretation_en": "a sign that the household scatters",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "家中人鬥主分散",
+              "translation_ko": "집안 사람이 싸우면 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "싸움에 뛰어듦",
+          "interpretation_ko": "일에서 겨루는 이들과 부딪치고 송사에 휘말릴 흉한 조짐",
+          "interpretation_en": "denotes that you will have unpleasant encounters with your business opponents, and law suits threaten you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "To dream that you engage in a fight, denotes that you will have unpleasant encounters with your business opponents, and law suits threaten you.",
+              "translation_ko": "싸움에 뛰어드는 꿈은, 일에서 겨루는 이들과 부딪치고 송사가 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 싸우는 것을 봄",
+          "interpretation_ko": "때와 돈을 헛되이 흘려보낼 흉한 조짐",
+          "interpretation_en": "denotes that you are squandering your time and money",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "To see fighting, denotes that you are squandering your time and money.",
+              "translation_ko": "싸우는 것을 보는 꿈은, 때와 돈을 헛되이 흘려보냄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 싸움 꿈을 꿈",
+          "interpretation_ko": "험담과 뒷말을 조심하라는 일깨움",
+          "interpretation_en": "this dream is a warning against slander and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "For women, this dream is a warning against slander and gossip.",
+              "translation_ko": "여성에게 이 꿈은 험담과 뒷말을 조심하라는 일깨움이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인이 싸우는 것을 봄",
+          "interpretation_ko": "그 사람이 마땅한 짝이 아님을 알리는 흉한 조짐",
+          "interpretation_en": "is a sign of his unworthiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "For a young woman to see her lover fighting, is a sign of his unworthiness.",
+              "translation_ko": "젊은 여성이 제 정인이 싸우는 것을 보는 꿈은, 그 사람이 마땅한 짝이 아님을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "싸움에서 짐",
+          "interpretation_ko": "제 것에 대한 권리를 잃을 흉한 조짐",
+          "interpretation_en": "signifies that you will lose your right to property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "To dream that you are defeated in a fight, signifies that you will lose your right to property.",
+              "translation_ko": "싸움에서 지는 꿈은, 제 것에 대한 권리를 잃음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "덤빈 자를 물리침",
+          "interpretation_ko": "맞서는 것이 있어도 담과 끈기로 이름과 재물을 얻을 길한 조짐",
+          "interpretation_en": "you will, by courage and perseverance, win honor and wealth in spite of opposition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "To whip your assailant, denotes that you will, by courage and perseverance, win honor and wealth in spite of opposition.",
+              "translation_ko": "덤빈 자를 때려 물리치는 꿈은, 맞서는 것이 있어도 담과 끈기로 이름과 재물을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "두 사람이 총으로 싸우는 것을 봄",
+          "interpretation_ko": "시름과 골칫거리가 많으나 크게 잃을 것은 없고 얻을 것도 적을 조짐",
+          "interpretation_en": "denotes many worries and perplexities, while no real loss is involved, yet but small profit is predicted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fight",
+              "original": "To dream that you see two men fighting with pistols, denotes many worries and perplexities, while no real loss is involved in the dream, yet but small profit is predicted and some unpleasantness is denoted.",
+              "translation_ko": "두 사람이 권총으로 싸우는 것을 보는 꿈은, 시름과 골칫거리가 많음을 뜻한다. 참으로 잃는 것은 없으나 얻을 것도 적고 언짢은 일이 따른다"
+            }
+          ]
+        },
+        {
+          "context": "여자들이 서로 때림",
+          "interpretation_ko": "병이 닥칠 조짐",
+          "interpretation_en": "a sign that illness will come",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "女人相打主病至",
+              "translation_ko": "여자들이 서로 때리면 병이 온다"
+            }
+          ]
+        },
+        {
+          "context": "형제가 서로 때림",
+          "interpretation_ko": "크게 길하고 이로울 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "兄弟相打大吉利",
+              "translation_ko": "형제가 서로 때리면 크게 길하고 이롭다"
             }
           ]
         }
@@ -16498,111 +16927,6 @@
       ]
     },
     {
-      "id": "field",
-      "term_ko": "밭",
-      "term_en": "field",
-      "aliases": [
-        "텃밭",
-        "논밭",
-        "농지",
-        "경작지",
-        "전답"
-      ],
-      "category": "place",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "밭에 풀이 자람",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "田中生草主得財",
-              "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "밭을 넓게 갈아 씨를 심음",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "種田廣大有祿位",
-              "translation_ko": "밭을 넓게 갈아 심으면 녹봉과 지위가 있다"
-            }
-          ]
-        },
-        {
-          "context": "밭에 씨 뿌리는 사람을 봄",
-          "interpretation_ko": "녹봉과 지위가 이를 조짐",
-          "interpretation_en": "a sign that salary and position will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "見種田者祿位至",
-              "translation_ko": "밭에 씨 뿌리는 사람을 보면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "남을 시켜 밭에 씨를 심게 함",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "使人種田地大吉",
-              "translation_ko": "남을 시켜 밭에 심게 하면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "남의 밭을 사들임",
-          "interpretation_ko": "벼슬이 오를 조짐",
-          "interpretation_en": "a sign of advancement in office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "買人田宅主進職",
-              "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
-            }
-          ]
-        },
-        {
-          "context": "밭이 무너져 못 쓰게 됨",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "破敗田地主大吉",
-              "translation_ko": "밭이 무너지고 못 쓰게 되면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ground",
       "term_ko": "땅",
       "term_en": "ground",
@@ -20072,6 +20396,97 @@
               "locator": "Escape",
               "original": "If you try to escape and fail, you will suffer from the design of enemies, who will slander and defraud you.",
               "translation_ko": "벗어나려다 뜻을 이루지 못하는 꿈은, 나를 헐뜯고 속이려는 적의 꾀에 시달림을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flute",
+      "term_ko": "피리",
+      "term_en": "flute",
+      "aliases": [
+        "퉁소",
+        "단소",
+        "대금",
+        "젓대"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 피리를 줌",
+          "interpretation_ko": "명성을 얻을 조짐",
+          "interpretation_en": "a sign of gaining renown",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "他人與笛有名聲",
+              "translation_ko": "남이 피리를 주면 명성이 있다"
+            }
+          ]
+        },
+        {
+          "context": "피리 소리를 들음",
+          "interpretation_ko": "내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생길 조짐",
+          "interpretation_en": "denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "To dream of hearing a fife, denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you.",
+              "translation_ko": "피리 소리를 듣는 꿈은, 내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 피리를 붊",
+          "interpretation_ko": "무슨 말을 듣든 이름은 온전히 지켜질 길한 조짐",
+          "interpretation_en": "whatever else may be said of you, your reputation will remain intact",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "To dream that you play one yourself, indicates that whatever else may be said of you, your reputation will remain intact.",
+              "translation_ko": "제가 피리를 부는 꿈은, 무슨 말을 듣든 이름만은 온전히 지켜짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 피리 꿈을 꿈",
+          "interpretation_ko": "군인을 지아비로 맞을 조짐",
+          "interpretation_en": "she will have a soldier husband",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "If a woman has this dream, she will have a soldier husband.",
+              "translation_ko": "여성이 이 꿈을 꾸면 군인을 지아비로 맞는다"
+            }
+          ]
+        },
+        {
+          "context": "피리를 붊",
+          "interpretation_ko": "길하고 경사스러운 일이 있을 조짐",
+          "interpretation_en": "a sign of auspicious celebration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "吹笛打鼓有吉慶",
+              "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
             }
           ]
         }
@@ -27033,6 +27448,81 @@
               "locator": "Fagot",
               "original": "If you succeed in walking on them without being burned, you will have a miraculous rise in prospects.",
               "translation_ko": "그 위를 데지 않고 건너면, 앞길이 놀랍도록 트인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiend",
+      "term_ko": "악귀",
+      "term_en": "fiend",
+      "aliases": [
+        "악귀가",
+        "악귀를",
+        "마귀"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "악귀와 마주침",
+          "interpretation_ko": "몸가짐이 거칠어지고 삶이 흐트러질 흉한 조짐",
+          "interpretation_en": "forbodes reckless living and loose morals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiend",
+              "original": "To dream that you encounter a fiend, forbodes reckless living and loose morals.",
+              "translation_ko": "악귀와 마주치는 꿈은, 거칠어진 몸가짐과 흐트러진 삶을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 악귀 꿈을 꿈",
+          "interpretation_ko": "이름이 더럽혀질 흉한 조짐",
+          "interpretation_en": "this dream signifies a blackened reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiend",
+              "original": "For a woman, this dream signifies a blackened reputation.",
+              "translation_ko": "여성에게 이 꿈은 더럽혀진 이름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "악귀를 봄",
+          "interpretation_ko": "거짓 벗이 나를 칠 것이라는 일깨움",
+          "interpretation_en": "warns you of attacks to be made on you by false friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiend",
+              "original": "To dream of a fiend, warns you of attacks to be made on you by false friends.",
+              "translation_ko": "악귀 꿈은, 거짓 벗이 나를 칠 것임을 일깨운다"
+            }
+          ]
+        },
+        {
+          "context": "악귀를 이김",
+          "interpretation_ko": "적의 궂은 꾀를 미리 막아 낼 길한 조짐",
+          "interpretation_en": "you will be able to intercept the evil designs of enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiend",
+              "original": "If you overcome one, you will be able to intercept the evil designs of enemies.",
+              "translation_ko": "악귀를 이기면, 적의 궂은 꾀를 미리 막아 낸다"
             }
           ]
         }
@@ -36436,63 +36926,61 @@
       ]
     },
     {
-      "id": "fight",
-      "term_ko": "싸움",
-      "term_en": "fight",
+      "id": "fig",
+      "term_ko": "무화과",
+      "term_en": "fig",
       "aliases": [
-        "다툼",
-        "싸우",
-        "언쟁",
-        "주먹다짐",
-        "말다툼"
+        "무화과를",
+        "무화과가",
+        "무화과나무"
       ],
-      "category": "action",
+      "category": "object",
       "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "집안 사람끼리 다툼",
-          "interpretation_ko": "식구가 흩어질 조짐",
-          "interpretation_en": "a sign that the household scatters",
+          "context": "무화과를 먹음",
+          "interpretation_ko": "몸에 열기가 도는 흉한 조짐",
+          "interpretation_en": "signifies a malarious condition of the system",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "家中人鬥主分散",
-              "translation_ko": "집안 사람이 싸우면 흩어진다"
+              "work": "miller",
+              "locator": "Figs",
+              "original": "Figs, signifies a malarious condition of the system, if you are eating them, but usually favorable to health and profit if you see them growing.",
+              "translation_ko": "무화과는 그것을 먹고 있으면 몸에 열기가 도는 것을 뜻하나, 자라는 것을 보면 대개 몸과 살림에 이롭다"
             }
           ]
         },
         {
-          "context": "여자들이 서로 때림",
-          "interpretation_ko": "병이 닥칠 조짐",
-          "interpretation_en": "a sign that illness will come",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "女人相打主病至",
-              "translation_ko": "여자들이 서로 때리면 병이 온다"
-            }
-          ]
-        },
-        {
-          "context": "형제가 서로 때림",
-          "interpretation_ko": "크게 길하고 이로울 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
+          "context": "처녀가 무화과가 자라는 것을 봄",
+          "interpretation_ko": "머잖아 넉넉하고 이름 있는 사람과 짝을 맺을 길한 조짐",
+          "interpretation_en": "she will soon wed a wealthy and prominent man",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "兄弟相打大吉利",
-              "translation_ko": "형제가 서로 때리면 크게 길하고 이롭다"
+              "work": "miller",
+              "locator": "Figs",
+              "original": "For a young woman to see figs growing, signifies that she will soon wed a wealthy and prominent man.",
+              "translation_ko": "젊은 여성이 무화과가 자라는 것을 보는 꿈은, 머잖아 넉넉하고 이름 있는 사람과 혼인함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "무화과가 자라는 것을 봄",
+          "interpretation_ko": "몸이 성하고 살림에 이로울 길한 조짐",
+          "interpretation_en": "usually favorable to health and profit if you see them growing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Figs",
+              "original": "Figs, signifies a malarious condition of the system, if you are eating them, but usually favorable to health and profit if you see them growing.",
+              "translation_ko": "무화과는 그것을 먹고 있으면 몸에 열기가 도는 것을 뜻하나, 자라는 것을 보면 대개 몸과 살림에 이롭다"
             }
           ]
         }
@@ -36553,6 +37041,128 @@
               "locator": "鏡環釵釧梳篦",
               "original": "得篦子者美女至",
               "translation_ko": "참빗을 얻으면 미녀가 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finger",
+      "term_ko": "손가락",
+      "term_en": "finger",
+      "aliases": [
+        "손가락이",
+        "손가락을",
+        "손가락들"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "손가락이 더럽거나 긁혀 피가 남",
+          "interpretation_ko": "괴로움과 고달픔이 크고 살길이 막막해질 흉한 조짐",
+          "interpretation_en": "denotes much trouble and suffering; you will despair of making your way through life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fingers",
+              "original": "To dream of seeing your fingers soiled or scratched, with the blood exuding, denotes much trouble and suffering. You will despair of making your way through life.",
+              "translation_ko": "손가락이 더럽거나 긁혀 피가 나는 것을 보는 꿈은, 큰 괴로움과 고달픔을 뜻한다. 살아갈 길이 막막해진다"
+            }
+          ]
+        },
+        {
+          "context": "손가락이 흰 고운 손을 봄",
+          "interpretation_ko": "사랑이 되받아지고 너그러움으로 이름을 얻을 길한 조짐",
+          "interpretation_en": "denotes that your love will be requited and that you will become renowned for your benevolence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fingers",
+              "original": "To see beautiful hands, with white fingers, denotes that your love will be requited and that you will become renowned for your benevolence.",
+              "translation_ko": "손가락이 흰 고운 손을 보는 꿈은, 사랑이 되받아지고 너그러움으로 이름을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "손가락이 잘려 나감",
+          "interpretation_ko": "적이 끼어들어 재물과 물려받을 것을 잃을 흉한 조짐",
+          "interpretation_en": "you will lose wealth and a legacy by the intervention of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fingers",
+              "original": "To dream that your fingers are cut clean off, you will lose wealth and a legacy by the intervention of enemies.",
+              "translation_ko": "손가락이 싹둑 잘려 나가는 꿈은, 적이 끼어들어 재물과 물려받을 것을 잃음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-engine",
+      "term_ko": "소방차",
+      "term_en": "fire-engine",
+      "aliases": [
+        "소방차를",
+        "소방차가",
+        "소방차에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소방차를 봄",
+          "interpretation_ko": "예사롭지 않은 일로 애태우나 끝은 좋을 조짐",
+          "interpretation_en": "denotes worry under extraordinary circumstances, but which will result in good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire-engine",
+              "original": "To see a fire-engine, denotes worry under extraordinary circumstances, but which will result in good fortune.",
+              "translation_ko": "소방차를 보는 꿈은, 예사롭지 않은 일로 애태우게 되나 끝은 좋음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고장 난 소방차를 봄",
+          "interpretation_ko": "사고나 큰 손해가 있을 흉한 조짐",
+          "interpretation_en": "foretells accident or serious loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire-engine",
+              "original": "To see one broken down, foretells accident or serious loss For a young woman to ride on one, denotes she will engage in some unladylike and obnoxious affair.",
+              "translation_ko": "고장 난 소방차를 보는 꿈은 사고나 큰 손해를 알린다. 젊은 여성이 그것을 타는 꿈은 볼썽사납고 남 보기 언짢은 일에 끼어듦을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 소방차를 타고 감",
+          "interpretation_ko": "볼썽사납고 남 보기 언짢은 일에 끼어들 흉한 조짐",
+          "interpretation_en": "denotes she will engage in some unladylike and obnoxious affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire-engine",
+              "original": "To see one broken down, foretells accident or serious loss For a young woman to ride on one, denotes she will engage in some unladylike and obnoxious affair.",
+              "translation_ko": "고장 난 소방차를 보는 꿈은 사고나 큰 손해를 알린다. 젊은 여성이 그것을 타는 꿈은 볼썽사납고 남 보기 언짢은 일에 끼어듦을 뜻한다"
             }
           ]
         }
@@ -52036,48 +52646,188 @@
       ]
     },
     {
-      "id": "flute",
-      "term_ko": "피리",
-      "term_en": "flute",
+      "id": "filbert",
+      "term_ko": "개암",
+      "term_en": "filbert",
       "aliases": [
-        "퉁소",
-        "단소",
-        "대금",
-        "젓대"
+        "개암을",
+        "개암이",
+        "개암나무"
       ],
       "category": "object",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남이 피리를 줌",
-          "interpretation_ko": "명성을 얻을 조짐",
-          "interpretation_en": "a sign of gaining renown",
+          "context": "개암을 봄",
+          "interpretation_ko": "집안이 평온하고 화목하며 하는 일에 이문이 남을 길한 조짐",
+          "interpretation_en": "denoting a peaceful and harmonious domestic life and profitable business ventures",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "他人與笛有名聲",
-              "translation_ko": "남이 피리를 주면 명성이 있다"
+              "work": "miller",
+              "locator": "Filbert",
+              "original": "This is a favorable dream, denoting a peaceful and harmonious domestic life and profitable business ventures.",
+              "translation_ko": "이는 길한 꿈으로, 평온하고 화목한 집안 살림과 이문 남는 일을 뜻한다"
             }
           ]
         },
         {
-          "context": "피리를 붊",
-          "interpretation_ko": "길하고 경사스러운 일이 있을 조짐",
-          "interpretation_en": "a sign of auspicious celebration",
+          "context": "개암을 먹음",
+          "interpretation_ko": "젊은이에게 즐거운 사귐과 참된 벗이 많을 길한 조짐",
+          "interpretation_en": "signifies to the young, delightful associations and many true friends",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "吹笛打鼓有吉慶",
-              "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
+              "work": "miller",
+              "locator": "Filbert",
+              "original": "To dream of eating them, signifies to the young, delightful associations and many true friends.",
+              "translation_ko": "개암을 먹는 꿈은, 젊은이에게 즐거운 사귐과 많은 참된 벗을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file",
+      "term_ko": "서류철",
+      "term_en": "file",
+      "aliases": [
+        "서류철",
+        "문서철",
+        "서류 묶음"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "서류철을 봄",
+          "interpretation_ko": "하는 일이 몹시 마음에 차지 않게 될 흉한 조짐",
+          "interpretation_en": "signifies that you will transact some business which will prove unsatisfactory in the extreme",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "File",
+              "original": "To dream that you see a file, signifies that you will transact some business which will prove unsatisfactory in the extreme.",
+              "translation_ko": "서류철을 보는 꿈은, 하는 일이 몹시 마음에 차지 않게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고지서와 중요한 서류를 갈무리해 둔 서류철을 봄",
+          "interpretation_ko": "큰일을 두고 말이 오가며 마음이 어수선해질 흉한 조짐",
+          "interpretation_en": "foretells animated discussions over subjects which bear relation to significant affairs, and which will cause you much unrest and disquiet",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "File",
+              "original": "To see files, to store away bills and other important papers, foretells animated discussions over subjects which bear relation to significant affairs, and which will cause you much unrest and disquiet.",
+              "translation_ko": "고지서와 그 밖의 중요한 서류를 갈무리해 두는 서류철을 보는 꿈은, 큰일을 두고 말이 오가며 마음이 몹시 어수선해짐을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fingernail",
+      "term_ko": "손톱",
+      "term_en": "fingernail",
+      "aliases": [
+        "손톱이",
+        "손톱을",
+        "손톱들"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "더러운 손톱을 봄",
+          "interpretation_ko": "젊은 사람의 거친 행실로 집안이 낯을 잃을 흉한 조짐",
+          "interpretation_en": "forbodes disgrace in your family by the wild escapades of the young",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Finger-nails",
+              "original": "To dream of soiled finger-nails, forbodes disgrace in your family by the wild escapades of the young.",
+              "translation_ko": "더러운 손톱 꿈은, 젊은 사람의 거친 행실로 집안이 낯을 잃음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "잘 손질된 손톱을 봄",
+          "interpretation_ko": "글을 좋아하는 마음과 알뜰함이 있을 길한 조짐",
+          "interpretation_en": "indicates scholarly tastes and some literary attainments; also, thrift",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Finger-nails",
+              "original": "To see well-kept nails, indicates scholarly tastes and some literary attainments; also, thrift.",
+              "translation_ko": "잘 손질된 손톱을 보는 꿈은, 글을 좋아하는 마음과 얼마간의 글재주, 그리고 알뜰함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fireman",
+      "term_ko": "소방수",
+      "term_en": "fireman",
+      "aliases": [
+        "소방수를",
+        "소방수가",
+        "소방관"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소방수를 봄",
+          "interpretation_ko": "벗들의 한결같음을 알리는 길한 조짐",
+          "interpretation_en": "signifies the constancy of your friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fireman",
+              "original": "To see a fireman in your dreams, signifies the constancy of your friends.",
+              "translation_ko": "꿈에 소방수를 보는 것은, 벗들의 한결같음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 다친 소방수를 봄",
+          "interpretation_ko": "가까운 벗에게 큰 위험이 닥칠 흉한 조짐",
+          "interpretation_en": "implies grave danger is threatening a close friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fireman",
+              "original": "For a young woman to see a fireman crippled, or meet with an accident otherwise, implies grave danger is threatening a close friend.",
+              "translation_ko": "젊은 여성이 소방수가 다치거나 사고를 당한 것을 보는 꿈은, 가까운 벗에게 큰 위험이 닥침을 뜻한다"
             }
           ]
         }
@@ -60841,6 +61591,137 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食油鹽醬酸豉吉",
               "translation_ko": "기름·소금·장·신 메주를 먹으면 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiddle",
+      "term_ko": "바이올린",
+      "term_en": "fiddle",
+      "aliases": [
+        "바이올린을",
+        "바이올린이",
+        "깽깽이"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바이올린을 봄",
+          "interpretation_ko": "집안이 화목하고 밖에서도 기쁜 일이 많을 길한 조짐",
+          "interpretation_en": "foretells harmony in the home and many joyful occasions abroad",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiddle",
+              "original": "To dream of a fiddle, foretells harmony in the home and many joyful occasions abroad.",
+              "translation_ko": "바이올린 꿈은, 집안의 화목과 밖에서 있을 많은 기쁜 일을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure",
+      "term_ko": "숫자",
+      "term_en": "figure",
+      "aliases": [
+        "숫자를",
+        "숫자가",
+        "셈을 하"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "숫자를 봄",
+          "interpretation_ko": "마음이 크게 어지럽고 그르치는 일이 있으니, 말과 처신을 살피지 않으면 큰 거래에서 손해 볼 흉한 조짐",
+          "interpretation_en": "indicates great mental distress and wrong; you will be the loser in a big deal if not careful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Figure",
+              "original": "To dream of figures, indicates great mental distress and wrong. You will be the loser in a big deal if not careful of your actions and conversation.",
+              "translation_ko": "숫자 꿈은 마음이 크게 어지럽고 그르치는 일이 있음을 뜻한다. 처신과 말을 살피지 않으면 큰 거래에서 손해를 본다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-budget",
+      "term_ko": "불 끄는 데 드는 돈",
+      "term_en": "fire budget",
+      "aliases": [
+        "불 끄는 데 드는 돈",
+        "소방 비용"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "불 끄는 데 드는 돈을 헤아림",
+          "interpretation_ko": "자잘한 일로 뜻이 어긋날 흉한 조짐",
+          "interpretation_en": "denotes disagreement over small matters",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fire Budget",
+              "original": "To dream of a fire budget, denotes disagreement over small matters.",
+              "translation_ko": "불 끄는 데 드는 돈을 헤아리는 꿈은, 자잘한 일로 뜻이 어긋남을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "firebrand",
+      "term_ko": "불붙은 나뭇가지",
+      "term_en": "firebrand",
+      "aliases": [
+        "불붙은 나뭇가지",
+        "횃불",
+        "불붙은 장작"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "불붙은 나뭇가지를 봄",
+          "interpretation_ko": "데거나 시달리지만 않으면 복이 따를 길한 조짐",
+          "interpretation_en": "denotes favorable fortune, if you are not burned or distressed by it",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Firebrand",
+              "original": "To dream of a firebrand, denotes favorable fortune, if you are not burned or distressed by it.",
+              "translation_ko": "불붙은 나뭇가지 꿈은, 그것에 데거나 시달리지만 않으면 복이 따름을 뜻한다"
             }
           ]
         }

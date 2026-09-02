@@ -194,7 +194,11 @@
       "밭에 씨 뿌리는 사람을 봄": "뿌리는 뿌리고 사람이 보았",
       "남을 시켜 밭에 씨를 심게 함": "시켜 시키 일꾼 대신",
       "남의 밭을 사들임": "사들 샀다 구입 매입",
-      "밭이 무너져 못 쓰게 됨": "무너 망가 못쓰 황폐"
+      "밭이 무너져 못 쓰게 됨": "무너 망가 못쓰 황폐",
+      "마른 대만 남은 밭을 봄": "마른 그루터기 시든",
+      "푸르거나 곡식이 익은 밭을 봄": "푸른 익은 곡식",
+      "갓 갈아엎은 밭을 봄": "엎은 뒤집힌",
+      "써레질을 마쳐 씨 뿌릴 채비가 된 밭을 봄": "써레 채비 고른"
     },
     "contexts_en": {
       "밭에 풀이 자람": "grass weeds overgrown",
@@ -202,7 +206,11 @@
       "밭에 씨 뿌리는 사람을 봄": "sowing scattering watched",
       "남을 시켜 밭에 씨를 심게 함": "ordered servant hired instead",
       "남의 밭을 사들임": "bought buying purchase",
-      "밭이 무너져 못 쓰게 됨": "collapsed ruined barren useless"
+      "밭이 무너져 못 쓰게 됨": "collapsed ruined barren useless",
+      "마른 대만 남은 밭을 봄": "dead stubble dreary prospects",
+      "푸르거나 곡식이 익은 밭을 봄": "green ripe abundance",
+      "갓 갈아엎은 밭을 봄": "newly early advancement",
+      "써레질을 마쳐 씨 뿌릴 채비가 된 밭을 봄": "harrowed planting endeavor"
     }
   },
   {

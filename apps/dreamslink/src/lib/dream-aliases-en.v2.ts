@@ -5170,5 +5170,50 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "ferry": [
     "a ferry",
     "ferries"
+  ],
+  "fiddle": [
+    "a fiddle",
+    "fiddles"
+  ],
+  "fiend": [
+    "a fiend",
+    "fiends"
+  ],
+  "fig": [
+    "figs",
+    "a fig"
+  ],
+  "figure": [
+    "figures"
+  ],
+  "filbert": [
+    "filberts",
+    "hazelnuts"
+  ],
+  "file": [
+    "a file",
+    "files"
+  ],
+  "finger": [
+    "fingers",
+    "a finger"
+  ],
+  "fingernail": [
+    "finger-nails",
+    "nails"
+  ],
+  "firebrand": [
+    "a firebrand"
+  ],
+  "fire-budget": [
+    "a fire budget"
+  ],
+  "fire-engine": [
+    "a fire-engine",
+    "fire engine"
+  ],
+  "fireman": [
+    "a fireman",
+    "firemen"
   ]
 };

@@ -4,7 +4,12 @@
     "aliases": [
       "화재",
       "화염",
-      "불꽃"
+      "불꽃",
+      "불타",
+      "불탄",
+      "불이 났",
+      "불길",
+      "대화재"
     ],
     "aliases_en": [
       "flames",
@@ -31,7 +36,14 @@
       "부엌에서 불이 남": "부엌 주방 아궁이",
       "벼슬을 기다리며 불을 켬": "벼슬 관직 등불 촛불 기다리",
       "사람을 태워 고약한 냄새가 남": "사람을태 냄새 악취 살타는 태워죽",
-      "불을 손에 들고 배에 오름": "배에 나룻배 승선 배를타"
+      "불을 손에 들고 배에 오름": "배에 나룻배 승선 배를타",
+      "불을 보되 데지 않음": "멀쩡",
+      "제 집이 불타는 것을 봄": "불타는 살던집",
+      "장사하는 이가 제 가게가 타는 것을 지켜봄": "점포 상점 지켜보",
+      "불을 끄면서 데지 않음": "끄면서 끄는데 진화",
+      "불탄 가게의 잔해를 봄": "잔해 잿더미 타고 남은",
+      "불을 지핌": "지폈 지피 피웠",
+      "큰불이 난 것을 봄": "대화재 크게 번진"
     },
     "contexts_en": {
       "불 위에 차려 놓은 것을 봄": "food meal offering cooking",
@@ -52,7 +64,14 @@
       "부엌에서 불이 남": "kitchen stove hearth",
       "벼슬을 기다리며 불을 켬": "candle lighting appointment office post",
       "사람을 태워 고약한 냄새가 남": "person stench smell flesh corpse",
-      "불을 손에 들고 배에 오름": "boat ship boarding"
+      "불을 손에 들고 배에 오름": "boat ship boarding",
+      "불을 보되 데지 않음": "favorable voyagers continued",
+      "제 집이 불타는 것을 봄": "loving obedient careful",
+      "장사하는 이가 제 가게가 타는 것을 지켜봄": "store looking rush profitable",
+      "불을 끄면서 데지 않음": "fighting worked worried conduct",
+      "불탄 가게의 잔해를 봄": "ruins give amassing unforeseen",
+      "불을 지핌": "kindling surprises distant",
+      "큰불이 난 것을 봄": "large conflagration sailors unlimited"
     }
   },
   {
