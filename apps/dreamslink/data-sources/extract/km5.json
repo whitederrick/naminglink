@@ -596,7 +596,10 @@
     "aliases": [
       "삼베",
       "대마",
-      "삼대"
+      "삼대",
+      "삼씨",
+      "삼을",
+      "삼이"
     ],
     "aliases_en": [
       "flax",
@@ -605,11 +608,19 @@
     ],
     "contexts": {
       "삼이 몸에 우거짐": "몸에 감싸 휘감 몸을",
-      "삼이 숲처럼 우거져 자람": "숲처 숲을 빽빽 무성"
+      "삼이 숲처럼 우거져 자람": "숲처 숲을 빽빽 무성",
+      "삼을 봄": "놓여 자라",
+      "처녀가 삼을 기르다 다침": "처녀 아가씨 다쳤",
+      "삼씨를 봄": "삼씨 씨앗",
+      "장사하는 이가 삼씨를 봄": "장사 장사꾼 상인"
     },
     "contexts_en": {
       "삼이 몸에 우거짐": "body wrapped around covering",
-      "삼이 숲처럼 우거져 자람": "forest thick dense grove"
+      "삼이 숲처럼 우거져 자람": "forest thick dense grove",
+      "삼을 봄": "successful undertakings especially engagements",
+      "처녀가 삼을 기르다 다침": "accident befalls cultivating fatal quarrel",
+      "삼씨를 봄": "seed near approach deep continued",
+      "장사하는 이가 삼씨를 봄": "business man favorable opportunity money"
     }
   },
   {

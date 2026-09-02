@@ -1,0 +1,125 @@
+[
+  {
+    "id": "headgear",
+    "aliases": [
+      "머리쓰개",
+      "머릿수건"
+    ],
+    "aliases_en": [
+      "headgear"
+    ],
+    "contexts": {
+      "값진 머리쓰개를 봄": "값진 화려 번쩍",
+      "낡고 해진 머리쓰개를 봄": "낡고 해진 헤진"
+    },
+    "contexts_en": {
+      "값진 머리쓰개를 봄": "rich famous successful",
+      "낡고 해진 머리쓰개를 봄": "worn yield possessions others"
+    }
+  },
+  {
+    "id": "heart",
+    "aliases": [
+      "심장",
+      "염통",
+      "심장이"
+    ],
+    "aliases_en": [
+      "your heart",
+      "the heart"
+    ],
+    "contexts": {
+      "심장이 아프고 숨이 막힘": "아프 숨이 막혔",
+      "제 심장을 봄": "제심장 자기 내심장",
+      "짐승의 심장을 봄": "짐승 동물의",
+      "닭의 염통을 먹음": "염통 먹었"
+    },
+    "contexts_en": {
+      "심장이 아프고 숨이 막힘": "paining suffocating trouble business",
+      "제 심장을 봄": "seeing sickness failure energy",
+      "짐승의 심장을 봄": "animal overcome merit respect",
+      "닭의 염통을 먹음": "chicken strange desires difficult projects"
+    }
+  },
+  {
+    "id": "heat",
+    "aliases": [
+      "더위",
+      "무더위",
+      "더위에"
+    ],
+    "aliases_en": [
+      "heat"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "heather",
+    "aliases": [
+      "히스꽃",
+      "헤더꽃"
+    ],
+    "aliases_en": [
+      "heather bells"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "heaven",
+    "aliases": [
+      "하늘나라",
+      "천국",
+      "천당"
+    ],
+    "aliases_en": [
+      "heaven"
+    ],
+    "contexts": {
+      "하늘나라로 올라감": "올라갔 올라가",
+      "젊은이가 사다리로 하늘나라에 오름": "사다리 젊은이",
+      "하늘나라에서 거룩한 이와 벗들을 만남": "만났 벗들 거룩",
+      "하늘나라의 성을 봄": "성을 도성 성이"
+    },
+    "contexts_en": {
+      "하늘나라로 올라감": "ascend distinction labored sadness",
+      "젊은이가 사다리로 하늘나라에 오름": "climbing ladder estate prominence",
+      "하늘나라에서 거룩한 이와 벗들을 만남": "meeting Christ losses reconcile",
+      "하늘나라의 성을 봄": "Heavenly City contented spiritual"
+    }
+  },
+  {
+    "id": "hell",
+    "aliases": [
+      "지옥",
+      "지옥에",
+      "불구덩이"
+    ],
+    "aliases_en": [
+      "hell"
+    ],
+    "contexts": {
+      "지옥에 있음": "갇혀 떨어졌",
+      "벗이 지옥에 있는 것을 봄": "벗이 친구가",
+      "지옥에서 울부짖음": "울부짖 울면서 비명"
+    },
+    "contexts_en": {
+      "지옥에 있음": "temptations wreck financially morally",
+      "벗이 지옥에 있는 것을 봄": "friends distress burdensome cares",
+      "지옥에서 울부짖음": "crying powerlessness extricate snares"
+    }
+  },
+  {
+    "id": "helmet",
+    "aliases": [
+      "투구",
+      "쇠투구"
+    ],
+    "aliases_en": [
+      "a helmet"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

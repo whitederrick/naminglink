@@ -820,7 +820,9 @@
       "꽃상여",
       "영구차",
       "운구",
-      "장례행렬"
+      "장례행렬",
+      "상여가",
+      "상여를"
     ],
     "aliases_en": [
       "hearse",
@@ -828,8 +830,18 @@
       "funeral procession",
       "coffin cart"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "상여와 마주침": "마주쳤 마주치 만났",
+      "상여를 봄": "보았 놓여",
+      "상여가 죽음이나 앓음을 알림": "죽음 앓음 슬픔",
+      "상여가 앞길을 가로질러 감": "가로질 앞을 지나갔"
+    },
+    "contexts_en": {
+      "상여와 마주침": "encountered came upon",
+      "상여를 봄": "uncongenial relations home carry",
+      "상여가 죽음이나 앓음을 알림": "betokens death near sickness sorrow",
+      "상여가 앞길을 가로질러 감": "crosses path bitter enemy overcome"
+    }
   },
   {
     "id": "green-onion",

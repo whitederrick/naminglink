@@ -1,0 +1,422 @@
+[
+  {
+    "term_ko": "머리쓰개",
+    "term_en": "headgear",
+    "context": "값진 머리쓰개를 봄",
+    "interpretation_ko": "이름을 얻고 하는 일이 잘될 길한 조짐",
+    "interpretation_en": "you will become famous and successful",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Headgear",
+      "original": "To dream of seeing rich headgear, you will become famous and successful.",
+      "translation_ko": "값진 머리쓰개를 보는 꿈은, 이름을 얻고 하는 일이 잘됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리쓰개",
+    "term_en": "headgear",
+    "context": "낡고 해진 머리쓰개를 봄",
+    "interpretation_ko": "가진 것을 남에게 내주게 될 흉한 조짐",
+    "interpretation_en": "you will have to yield up your possessions to others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Headgear",
+      "original": "To see old and worn headgear, you will have to yield up your possessions to others.",
+      "translation_ko": "낡고 해진 머리쓰개를 보면, 가진 것을 남에게 내주게 된다"
+    }
+  },
+  {
+    "term_ko": "상여",
+    "term_en": "funeral carriage",
+    "context": "상여를 봄",
+    "interpretation_ko": "집안이 껄끄럽고 하는 일이 뜻대로 되지 않을 흉한 조짐",
+    "interpretation_en": "denotes uncongenial relations in the home, and failure to carry on business in a satisfactory manner",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hearse",
+      "original": "To dream of a hearse, denotes uncongenial relations in the home, and failure to carry on business in a satisfactory manner.",
+      "translation_ko": "상여 꿈은, 껄끄러운 집안과 뜻대로 되지 않는 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "상여",
+    "term_en": "funeral carriage",
+    "context": "상여가 죽음이나 앓음을 알림",
+    "interpretation_ko": "가까운 이를 여의거나 앓음과 슬픔이 있을 흉한 조짐",
+    "interpretation_en": "It also betokens the death of one near to you, or sickness and sorrow",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hearse",
+      "original": "It also betokens the death of one near to you, or sickness and sorrow.",
+      "translation_ko": "그것은 또한 가까운 이의 죽음이나 앓음과 슬픔을 알린다"
+    }
+  },
+  {
+    "term_ko": "상여",
+    "term_en": "funeral carriage",
+    "context": "상여가 앞길을 가로질러 감",
+    "interpretation_ko": "모진 원수를 이겨 내야 할 흉한 조짐",
+    "interpretation_en": "you will have a bitter enemy to overcome",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hearse",
+      "original": "If a hearse crosses your path, you will have a bitter enemy to overcome.",
+      "translation_ko": "상여가 앞길을 가로지르면, 모진 원수를 이겨 내야 한다"
+    }
+  },
+  {
+    "term_ko": "심장",
+    "term_en": "heart",
+    "context": "심장이 아프고 숨이 막힘",
+    "interpretation_ko": "하는 일에 말썽이 생기고 제 잘못을 고치지 않으면 손해를 볼 흉한 조짐",
+    "interpretation_en": "there will be trouble in your business. Some mistake of your own will bring loss if not corrected",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Heart",
+      "original": "To dream of your heart paining and suffocating you, there will be trouble in your business.",
+      "translation_ko": "심장이 아프고 숨이 막히는 꿈은, 하는 일의 말썽을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "심장",
+    "term_en": "heart",
+    "context": "제 심장을 봄",
+    "interpretation_ko": "앓고 기운이 빠질 흉한 조짐",
+    "interpretation_en": "foretells sickness and failure of energy",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Heart",
+      "original": "Seeing your heart, foretells sickness and failure of energy.",
+      "translation_ko": "제 심장을 보는 것은, 앓음과 기운 빠짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "심장",
+    "term_en": "heart",
+    "context": "짐승의 심장을 봄",
+    "interpretation_ko": "원수를 이기고 뭇사람의 우러름을 받을 길한 조짐",
+    "interpretation_en": "you will overcome enemies and merit the respect of all",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Heart",
+      "original": "To see the heart of an animal, you will overcome enemies and merit the respect of all.",
+      "translation_ko": "짐승의 심장을 보면, 원수를 이기고 뭇사람의 우러름을 받는다"
+    }
+  },
+  {
+    "term_ko": "심장",
+    "term_en": "heart",
+    "context": "닭의 염통을 먹음",
+    "interpretation_ko": "남다른 바람이 일어 어려운 일을 밀고 나가 앞길을 열 조짐",
+    "interpretation_en": "denotes strange desires will cause you to carry out very difficult projects for your advancement",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Heart",
+      "original": "To eat the heart of a chicken, denotes strange desires will cause you to carry out very difficult projects for your advancement.",
+      "translation_ko": "닭의 염통을 먹는 것은, 남다른 바람이 일어 어려운 일을 밀고 나감을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "더위",
+    "term_en": "heat",
+    "context": "더위에 시달림",
+    "interpretation_ko": "벗이 등을 돌려 꾸민 일을 이루지 못할 흉한 조짐",
+    "interpretation_en": "denotes failure to carry out designs on account of some friend betraying you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Heat",
+      "original": "To dream that you are oppressed by heat, denotes failure to carry out designs on account of some friend betraying you.",
+      "translation_ko": "더위에 시달리는 꿈은, 벗이 등을 돌려 꾸민 일을 이루지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "히스꽃",
+    "term_en": "heather",
+    "context": "히스꽃을 봄",
+    "interpretation_ko": "즐거운 일이 잇달아 찾아올 길한 조짐",
+    "interpretation_en": "foretells that joyous occasions will pass you in happy succession",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Heather Bells",
+      "original": "To dream of heather bells, foretells that joyous occasions will pass you in happy succession.",
+      "translation_ko": "히스꽃 꿈은, 즐거운 일이 잇달아 찾아옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "하늘나라",
+    "term_en": "heaven",
+    "context": "하늘나라로 올라감",
+    "interpretation_ko": "애써 얻은 이름을 누리지 못하고 기쁨이 슬픔으로 끝날 흉한 조짐",
+    "interpretation_en": "you will fail to enjoy the distinction you have labored to gain, and joy will end in sadness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Heaven",
+      "original": "If you ascend to heaven in a dream, you will fail to enjoy the distinction you have labored to gain,, and joy will end in sadness.",
+      "translation_ko": "꿈에 하늘나라로 올라가면, 애써 얻은 이름을 누리지 못하고 기쁨이 슬픔으로 끝난다"
+    }
+  },
+  {
+    "term_ko": "하늘나라",
+    "term_en": "heaven",
+    "context": "젊은이가 사다리로 하늘나라에 오름",
+    "interpretation_ko": "낮은 자리에서 크게 오르나 흐뭇함이나 즐거움은 얻지 못할 조짐",
+    "interpretation_en": "they will rise from a low estate to one of unusual prominence, but will fail to find contentment",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Heaven",
+      "original": "If young persons dream of climbing to heaven on a ladder, they will rise from a low estate to one of unusual prominence, but will fail to find contentment or much pleasure.",
+      "translation_ko": "젊은이가 사다리로 하늘나라에 오르는 꿈을 꾸면, 낮은 자리에서 크게 오르나 흐뭇함이나 즐거움은 얻지 못한다"
+    }
+  },
+  {
+    "term_ko": "하늘나라",
+    "term_en": "heaven",
+    "context": "하늘나라에서 거룩한 이와 벗들을 만남",
+    "interpretation_ko": "잃는 것이 많으나 사람됨을 참으로 깨달아 받아들일 조짐",
+    "interpretation_en": "you will meet with many losses, but will reconcile yourself to them through your true understanding of human nature",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Heaven",
+      "original": "To dream of being in heaven and meeting Christ and friends, you will meet with many losses, but will reconcile yourself to them through your true understanding of human nature.",
+      "translation_ko": "하늘나라에서 거룩한 이와 벗들을 만나는 꿈은, 많은 잃음과 그것을 받아들이는 깨달음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하늘나라",
+    "term_en": "heaven",
+    "context": "하늘나라의 성을 봄",
+    "interpretation_ko": "마음이 넉넉하고 맑아 걱정거리가 크게 해롭지 않을 길한 조짐",
+    "interpretation_en": "denotes a contented and spiritual nature, and trouble will do you small harm",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Heaven",
+      "original": "To dream of the Heavenly City, denotes a contented and spiritual nature, and trouble will do you small harm.",
+      "translation_ko": "하늘나라의 성을 꿈꾸면, 넉넉하고 맑은 마음을 뜻하며 걱정거리가 크게 해롭지 않다"
+    }
+  },
+  {
+    "term_ko": "울타리",
+    "term_en": "fence",
+    "context": "늘 푸른 산울타리를 봄",
+    "interpretation_ko": "즐거움과 남는 것이 있을 길한 조짐",
+    "interpretation_en": "denotes joy and profit",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hedges",
+      "original": "To dream of hedges of evergreens, denotes joy and profit.",
+      "translation_ko": "늘 푸른 산울타리 꿈은, 즐거움과 남는 것을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "울타리",
+    "term_en": "fence",
+    "context": "잎이 진 산울타리를 봄",
+    "interpretation_ko": "괴로움을 겪고 일을 그르치게 될 흉한 조짐",
+    "interpretation_en": "foretells distress and unwise dealings",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hedges",
+      "original": "Bare hedges, foretells distress and unwise dealings.",
+      "translation_ko": "잎이 진 산울타리는 괴로움과 그르친 일을 알린다"
+    }
+  },
+  {
+    "term_ko": "울타리",
+    "term_en": "fence",
+    "context": "처녀가 정인과 푸른 산울타리를 따라 거닒",
+    "interpretation_ko": "머지않아 혼인이 이루어질 길한 조짐",
+    "interpretation_en": "it foretells that her marriage will soon be consummated",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hedges",
+      "original": "If a young woman dreams of walking beside a green hedge with her lover, it foretells that her marriage will soon be consummated.",
+      "translation_ko": "처녀가 정인과 푸른 산울타리를 따라 거니는 꿈은, 머지않은 혼인을 알린다"
+    }
+  },
+  {
+    "term_ko": "울타리",
+    "term_en": "fence",
+    "context": "가시 산울타리에 얽힘",
+    "interpretation_ko": "제멋대로인 동무나 아랫사람 때문에 일이 막힐 흉한 조짐",
+    "interpretation_en": "you will be hampered in your business by unruly partners or persons working under you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hedges",
+      "original": "If you dream of being entangled in a thorny hedge, you will be hampered in your business by unruly partners or persons working under you.",
+      "translation_ko": "가시 산울타리에 얽히는 꿈은, 제멋대로인 동무나 아랫사람 때문에 일이 막힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "유산",
+    "term_en": "bequest",
+    "context": "재산이나 값진 것을 물려받게 됨",
+    "interpretation_ko": "이미 가진 것을 잃을 위험이 있고 짊어질 짐이 다가올 흉한 조짐",
+    "interpretation_en": "denotes that you are in danger of losing what you already possess, and warns you of coming responsibilities",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Heir",
+      "original": "To dream that you fall heir to property or valuables, denotes that you are in danger of losing what you already possess.",
+      "translation_ko": "재산이나 값진 것을 물려받게 되는 꿈은, 이미 가진 것을 잃을 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "지옥",
+    "term_en": "hell",
+    "context": "지옥에 있음",
+    "interpretation_ko": "꾐에 빠져 살림도 몸가짐도 무너질 뻔할 흉한 조짐",
+    "interpretation_en": "you will fall into temptations, which will almost wreck you financially and morally",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hell",
+      "original": "If you dream of being in hell, you will fall into temptations, which will almost wreck you financially and morally.",
+      "translation_ko": "지옥에 있는 꿈은, 꾐에 빠져 살림도 몸가짐도 무너질 뻔함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "지옥",
+    "term_en": "hell",
+    "context": "벗이 지옥에 있는 것을 봄",
+    "interpretation_ko": "괴로움과 무거운 걱정이 있고 벗의 궂은 소식을 들을 흉한 조짐",
+    "interpretation_en": "denotes distress and burdensome cares. You will hear of the misfortune of some friend",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hell",
+      "original": "To see your friends in hell, denotes distress and burdensome cares.",
+      "translation_ko": "벗이 지옥에 있는 것을 보면, 괴로움과 무거운 걱정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "지옥",
+    "term_en": "hell",
+    "context": "지옥에서 울부짖음",
+    "interpretation_ko": "벗이 원수의 덫에서 나를 빼내 주지 못할 흉한 조짐",
+    "interpretation_en": "denotes the powerlessness of friends to extricate you from the snares of enemies",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hell",
+      "original": "To dream of crying in hell, denotes the powerlessness of friends to extricate you from the snares of enemies.",
+      "translation_ko": "지옥에서 울부짖는 꿈은, 벗이 원수의 덫에서 나를 빼내 주지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "투구",
+    "term_en": "helmet",
+    "context": "투구를 봄",
+    "interpretation_ko": "닥칠 괴로움과 손해를 슬기롭게 움직여 피할 길한 조짐",
+    "interpretation_en": "denotes threatened misery and loss will be avoided by wise action",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Helmet",
+      "original": "To dream of seeing a helmet, denotes threatened misery and loss will be avoided by wise action.",
+      "translation_ko": "투구를 보는 꿈은, 닥칠 괴로움과 손해를 슬기롭게 움직여 피함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "삼을 봄",
+    "interpretation_ko": "벌인 일마다, 특히 큰일에서 잘될 길한 조짐",
+    "interpretation_en": "denotes you will be successful in all undertakings, especially large engagements",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hemp",
+      "original": "To dream of hemp, denotes you will be successful in all undertakings, especially large engagements.",
+      "translation_ko": "삼 꿈은, 벌인 일마다 특히 큰일에서 잘됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "처녀가 삼을 기르다 다침",
+    "interpretation_ko": "벗과 크게 다투고 갈라설 흉한 조짐",
+    "interpretation_en": "foretells the fatal quarrel and separation from her friend",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hemp",
+      "original": "For a young woman to dream that some accident befalls her through cultivating hemp, foretells the fatal quarrel and separation from her friend.",
+      "translation_ko": "처녀가 삼을 기르다 다치는 꿈은, 벗과의 큰 다툼과 갈라섬을 알린다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "삼씨를 봄",
+    "interpretation_ko": "깊고 오래갈 사귐이 가까이 온 길한 조짐",
+    "interpretation_en": "denotes the near approach of a deep and continued friendship",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hemp Seed",
+      "original": "To see hemp seed in dreams, denotes the near approach of a deep and continued friendship.",
+      "translation_ko": "꿈에 삼씨를 보면, 깊고 오래갈 사귐이 가까이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "삼",
+    "term_en": "hemp",
+    "context": "장사하는 이가 삼씨를 봄",
+    "interpretation_ko": "돈을 벌 좋은 기회가 열릴 길한 조짐",
+    "interpretation_en": "is shown favorable opportunity for money-making",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Hemp Seed",
+      "original": "To the business man, is shown favorable opportunity for money-making.",
+      "translation_ko": "장사하는 이에게는 돈을 벌 좋은 기회가 열림을 뜻한다"
+    }
+  }
+]

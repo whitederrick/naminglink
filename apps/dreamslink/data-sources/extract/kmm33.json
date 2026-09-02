@@ -138,7 +138,9 @@
     "aliases": [
       "울타리를",
       "울타리가",
-      "울타리에"
+      "울타리에",
+      "산울타리",
+      "생울타리"
     ],
     "aliases_en": [
       "a fence",
@@ -153,7 +155,11 @@
       "가축이 울타리를 넘어 안으로 들어옴": "안으로 들어왔 우리로",
       "가축이 울타리를 넘어 밖으로 나감": "밖으로 나갔 뛰쳐",
       "처녀가 울타리를 세움": "처녀 아가씨 여자가",
-      "울타리를 세움": "세웠 지었 쳤다"
+      "울타리를 세움": "세웠 지었 쳤다",
+      "늘 푸른 산울타리를 봄": "늘푸른 상록 푸른",
+      "잎이 진 산울타리를 봄": "잎이 앙상 헐벗",
+      "처녀가 정인과 푸른 산울타리를 따라 거닒": "정인과 거닐 나란히",
+      "가시 산울타리에 얽힘": "가시 얽혔 걸렸"
     },
     "contexts_en": {
       "울타리 꼭대기까지 기어오름": "climbing top success crown",
@@ -164,7 +170,11 @@
       "가축이 울타리를 넘어 안으로 들어옴": "stock jumping enclosure aid",
       "가축이 울타리를 넘어 밖으로 나감": "lot trade loss",
       "처녀가 울타리를 세움": "young woman love affairs",
-      "울타리를 세움": "building economy industry foundation"
+      "울타리를 세움": "building economy industry foundation",
+      "늘 푸른 산울타리를 봄": "evergreens joy profit",
+      "잎이 진 산울타리를 봄": "bare distress unwise dealings",
+      "처녀가 정인과 푸른 산울타리를 따라 거닒": "walking beside marriage consummated",
+      "가시 산울타리에 얽힘": "entangled thorny hampered unruly"
     }
   },
   {

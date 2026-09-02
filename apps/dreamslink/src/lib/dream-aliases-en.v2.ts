@@ -5518,5 +5518,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "hay": [
     "hay"
+  ],
+  "headgear": [
+    "headgear"
+  ],
+  "heart": [
+    "your heart",
+    "the heart"
+  ],
+  "heat": [
+    "heat"
+  ],
+  "heather": [
+    "heather bells"
+  ],
+  "heaven": [
+    "heaven"
+  ],
+  "hell": [
+    "hell"
+  ],
+  "helmet": [
+    "a helmet"
   ]
 };
