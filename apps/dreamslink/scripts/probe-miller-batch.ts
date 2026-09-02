@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 57 — Ice·Icicles·Ice Cream, 20건)
+// (지금 담긴 것: 배치 58 — Absalom~Illness, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,30 +30,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "ice", ctx: "얼음을 봄", text: "커다란 얼음덩이를 보았다" },
-  { id: "ice", ctx: "처녀가 얼음 위를 걸음", text: "처녀가 얼음 위를 걸었다" },
-  { id: "ice", ctx: "얼음 위를 걸음", text: "얼음 위를 걸었다" },
-  { id: "ice", ctx: "맑은 시냇물에 얼음이 떠가는 것을 봄", text: "맑은 시냇물에 얼음이 떠가고 있었다" },
-  { id: "ice", ctx: "얼음을 만듦", text: "얼음을 만들었다" },
-  { id: "ice", ctx: "얼음을 씹어 먹음", text: "얼음을 씹어 먹었다" },
-  { id: "ice", ctx: "얼음물을 마심", text: "얼음물을 마셨다" },
-  { id: "ice", ctx: "얼음물에 몸을 담금", text: "얼음물에 몸을 담갔다" },
-  { id: "icicle", ctx: "처마에 달린 고드름을 봄", text: "처마에 고드름이 달려 있었다" },
-  { id: "icicle", ctx: "울타리에 달린 고드름을 봄", text: "울타리에 고드름이 달려 있었다" },
-  { id: "icicle", ctx: "늘푸른나무에 달린 고드름을 봄", text: "사철나무에 고드름이 달려 있었다" },
-  { id: "icicle", ctx: "고드름이 나무에서 떨어지는 것을 봄", text: "고드름이 나무에서 떨어졌다" },
-  { id: "icicle", ctx: "나무에 달린 고드름을 봄", text: "나무에 고드름이 달려 있었다" },
-  { id: "ice-cream", ctx: "아이스크림을 먹음", text: "아이스크림을 맛있게 먹었다" },
-  { id: "ice-cream", ctx: "아이들이 아이스크림 먹는 것을 봄", text: "아이들이 아이스크림을 먹고 있었다" },
-  { id: "ice-cream", ctx: "아이스크림을 엎지름", text: "아이스크림을 엎질렀다" },
-  { id: "ice-cream", ctx: "쉰 아이스크림을 봄", text: "시큼한 아이스크림을 보았다" },
-  { id: "ice-cream", ctx: "아이스크림이 녹아 있음", text: "아이스크림이 녹아 있었다" },
+  { id: "absalom", ctx: "압살롬 꿈을 꿈", text: "압살롬을 보았다" },
+  { id: "humidity", ctx: "눅눅한 기운에 짓눌림", text: "눅눅한 기운에 짓눌려 있었다" },
+  { id: "ideal", ctx: "처녀가 제 이상형을 만남", text: "처녀가 제 이상형을 만났다" },
+  { id: "ideal", ctx: "총각이 제 이상형을 만남", text: "총각이 제 이상형을 만났다" },
+  { id: "idiot", ctx: "어리석은 사람들을 봄", text: "바보를 보았다" },
+  { id: "idiot", ctx: "제가 어리석은 사람이 됨", text: "내가 바보가 되어 있었다" },
+  { id: "idiot", ctx: "어리숙해 보이는 아이들을 봄", text: "어리숙해 보이는 아이들을 보았다" },
+  { id: "idleness", ctx: "제가 빈둥거림", text: "내가 빈둥거리고 있었다" },
+  { id: "idleness", ctx: "벗들이 빈둥거리는 것을 봄", text: "친구들이 빈둥거리는 것을 보았다" },
+  { id: "idleness", ctx: "처녀가 게으르게 지냄", text: "처녀가 게을러 지내고 있었다" },
+  { id: "idol", ctx: "우상을 섬김", text: "우상 앞에 엎드려 절했다" },
+  { id: "idol", ctx: "우상을 부숨", text: "우상을 부수었다" },
+  { id: "idol", ctx: "남들이 우상을 섬기는 것을 봄", text: "남들이 우상을 섬기는 것을 보았다" },
+  { id: "idol", ctx: "우상 섬김을 꾸짖음", text: "우상 섬김을 꾸짖었다" },
+  { id: "illness", ctx: "여자가 제 병을 앓는 꿈을 꿈", text: "여자가 병을 앓고 있었다" },
 
-  // 이 배치의 새 이름이 스쳐 가는 기존 상징들 — **옛 답이 그대로인지** 함께 잰다.
-  // 「아이스크림」⊃「아이」(child)·「크림」(cream) · 「얼음물」⊃「물」(water) ·
-  // 「늘푸른나무」⊃「나무」(tree) · 처마/울타리는 roof·fence 의 이름이다
-  { id: "cream", ctx: "크림을 마심", text: "크림을 마셨다" },
-  { id: "evergreen", ctx: "늘푸른나무를 봄", text: "늘푸른나무를 보았다" },
+  // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "illness", ctx: "자기가 병듦", text: "내가 병에 걸렸다" },
+  { id: "illness", ctx: "병이 위중함", text: "병이 위중해 보였다" },
+  { id: "illness", ctx: "병들어 누웠는데 남이 부축해 줌", text: "병이 나서 누웠는데 누가 부축해 주었다" },
+  // 새 이름이 스쳐 가는 자리 — 「이상형」⊃「이」(teeth)·「상」 · 「게으름」⊃「게」(crab) ·
+  // 「우상」⊃「상」 · 「천치」⊃「천」(cloth)
+  { id: "crab", ctx: "연인에게 게 꿈이 나타남", text: "연인이 게를 보았다" },
 ];
 
 let notFound = 0;

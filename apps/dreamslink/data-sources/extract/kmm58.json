@@ -1,0 +1,117 @@
+[
+  {
+    "id": "absalom",
+    "aliases": [],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "humidity",
+    "aliases": [
+      "눅눅한 기운",
+      "눅눅함",
+      "축축한 기운"
+    ],
+    "aliases_en": [
+      "humid"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ideal",
+    "aliases": [
+      "이상적인 사람"
+    ],
+    "aliases_en": [
+      "her ideal",
+      "his ideal"
+    ],
+    "contexts": {
+      "처녀가 제 이상형을 만남": "처녀 아가씨 여자가",
+      "총각이 제 이상형을 만남": "총각 독신 남자가"
+    },
+    "contexts_en": {
+      "처녀가 제 이상형을 만남": "young woman uninterrupted pleasure contentment",
+      "총각이 제 이상형을 만남": "bachelor favorable change affairs"
+    }
+  },
+  {
+    "id": "idiot",
+    "aliases": [
+      "바보",
+      "천치",
+      "백치",
+      "멍청이",
+      "얼간이",
+      "멍청한",
+      "어리숙한",
+      "어리숙해",
+      "바보 같은"
+    ],
+    "aliases_en": [
+      "idiots",
+      "an idiot"
+    ],
+    "contexts": {
+      "어리석은 사람들을 봄": "여럿이 무리를",
+      "제가 어리석은 사람이 됨": "제가 내가 나는",
+      "어리숙해 보이는 아이들을 봄": "아이들 어린이 아이가"
+    },
+    "contexts_en": {
+      "어리석은 사람들을 봄": "disagreements losses",
+      "제가 어리석은 사람이 됨": "humiliated downcast miscarriage",
+      "어리숙해 보이는 아이들을 봄": "children affliction unhappy changes"
+    }
+  },
+  {
+    "id": "idleness",
+    "aliases": [
+      "빈둥거림",
+      "빈둥거리고",
+      "빈둥거리는",
+      "빈둥거리며",
+      "빈둥거렸다",
+      "빈둥거려",
+      "게을러",
+      "게으르게",
+      "나태"
+    ],
+    "aliases_en": [
+      "idle",
+      "being idle"
+    ],
+    "contexts": {
+      "제가 빈둥거림": "제가 내가 나는",
+      "벗들이 빈둥거리는 것을 봄": "벗들 친구들 동무들",
+      "처녀가 게으르게 지냄": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "제가 빈둥거림": "fail accomplish designs",
+      "벗들이 빈둥거리는 것을 봄": "friends hear trouble affecting",
+      "처녀가 게으르게 지냄": "young woman existence habits shiftless"
+    }
+  },
+  {
+    "id": "idol",
+    "aliases": [
+      "우상들"
+    ],
+    "aliases_en": [
+      "idols"
+    ],
+    "contexts": {
+      "우상을 섬김": "절하 엎드려",
+      "우상을 부숨": "부수 깨뜨 깨부",
+      "남들이 우상을 섬기는 것을 봄": "남들 사람들이 다른이",
+      "우상 섬김을 꾸짖음": "꾸짖 나무라 규탄"
+    },
+    "contexts_en": {
+      "우상을 섬김": "worshiping slow progress petty tyrannize",
+      "우상을 부숨": "break mastery deter upward honor",
+      "남들이 우상을 섬기는 것을 봄": "others great differences warm",
+      "우상 섬김을 꾸짖음": "denouncing idolatry distinction inclinations"
+    }
+  }
+]

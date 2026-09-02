@@ -5675,5 +5675,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "ice-cream": [
     "ice-cream",
     "the ice cream"
+  ],
+  "humidity": [
+    "humid"
+  ],
+  "ideal": [
+    "her ideal",
+    "his ideal"
+  ],
+  "idiot": [
+    "idiots",
+    "an idiot"
+  ],
+  "idleness": [
+    "idle",
+    "being idle"
+  ],
+  "idol": [
+    "idols"
   ]
 };

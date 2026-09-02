@@ -56,6 +56,7 @@
     "m55.json",
     "m56.json",
     "m57.json",
+    "m58.json",
     "m6.json",
     "m7a.json",
     "m7b.json",
@@ -17131,6 +17132,139 @@
       ]
     },
     {
+      "id": "illness",
+      "term_ko": "병",
+      "term_en": "illness",
+      "aliases": [
+        "질병",
+        "병환",
+        "질환",
+        "몸살"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "병들어 누웠는데 남이 부축해 줌",
+          "interpretation_ko": "벼슬이 더해질 조짐",
+          "interpretation_en": "a sign of promotion in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病臥為人扶加官",
+              "translation_ko": "병들어 누웠을 때 남이 부축하면 벼슬이 더해진다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 제 병을 앓는 꿈을 꿈",
+          "interpretation_ko": "뜻밖의 일로 기다리던 나들이나 잔치를 놓쳐 크게 낙담할 흉한 조짐",
+          "interpretation_en": "foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illness",
+              "original": "For a woman to dream of her own illness, foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment.",
+              "translation_ko": "여자가 제 병을 앓는 꿈을 꾸면 뜻밖의 일로 기다리던 방문이나 놀이를 놓쳐 크게 낙담한다"
+            }
+          ]
+        },
+        {
+          "context": "병이 위중함",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign of misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病重者主有凶事",
+              "translation_ko": "병이 무거우면 흉한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "자기가 병듦",
+          "interpretation_ko": "기쁜 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyful occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "自疾病者主有喜",
+              "translation_ko": "스스로 병들면 기쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 노래함",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人歌唱主大凶",
+              "translation_ko": "병자가 노래하면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 울고 웃음",
+          "interpretation_ko": "병이 나을 조짐",
+          "interpretation_en": "a sign that the illness will be cured",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人哭笑疾病除",
+              "translation_ko": "병자가 울고 웃으면 병이 낫는다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 자리에서 일어남",
+          "interpretation_ko": "죽음에 이를 조짐",
+          "interpretation_en": "a sign of death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人起者必定死",
+              "translation_ko": "병자가 일어나면 반드시 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 수레에 실림",
+          "interpretation_ko": "죽음에 이를 조짐",
+          "interpretation_en": "a sign of death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人裝車必死亡",
+              "translation_ko": "병자가 수레에 실리면 반드시 죽는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -20177,124 +20311,6 @@
               "locator": "哀樂病死歌唱",
               "original": "吹笛打鼓有吉慶",
               "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "illness",
-      "term_ko": "병",
-      "term_en": "illness",
-      "aliases": [
-        "질병",
-        "병환",
-        "질환",
-        "몸살"
-      ],
-      "category": "body",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "병들어 누웠는데 남이 부축해 줌",
-          "interpretation_ko": "벼슬이 더해질 조짐",
-          "interpretation_en": "a sign of promotion in office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病臥為人扶加官",
-              "translation_ko": "병들어 누웠을 때 남이 부축하면 벼슬이 더해진다"
-            }
-          ]
-        },
-        {
-          "context": "병이 위중함",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign of misfortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病重者主有凶事",
-              "translation_ko": "병이 무거우면 흉한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "자기가 병듦",
-          "interpretation_ko": "기쁜 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyful occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "自疾病者主有喜",
-              "translation_ko": "스스로 병들면 기쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 노래함",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人歌唱主大凶",
-              "translation_ko": "병자가 노래하면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 울고 웃음",
-          "interpretation_ko": "병이 나을 조짐",
-          "interpretation_en": "a sign that the illness will be cured",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人哭笑疾病除",
-              "translation_ko": "병자가 울고 웃으면 병이 낫는다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 자리에서 일어남",
-          "interpretation_ko": "죽음에 이를 조짐",
-          "interpretation_en": "a sign of death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人起者必定死",
-              "translation_ko": "병자가 일어나면 반드시 죽는다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 수레에 실림",
-          "interpretation_ko": "죽음에 이를 조짐",
-          "interpretation_en": "a sign of death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人裝車必死亡",
-              "translation_ko": "병자가 수레에 실리면 반드시 죽는다"
             }
           ]
         }
@@ -37040,6 +37056,79 @@
       ]
     },
     {
+      "id": "idol",
+      "term_ko": "우상",
+      "term_en": "idol",
+      "aliases": [
+        "우상들"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우상을 섬김",
+          "interpretation_ko": "자잘한 것에 휘둘려 재물이나 이름을 더디게 이룰 흉한 조짐",
+          "interpretation_en": "you will make slow progress to wealth or fame, as you will let petty things tyrannize over you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idols",
+              "original": "Should you dream of worshiping idols, you will make slow progress to wealth or fame, as you will let petty things tyrannize over you.",
+              "translation_ko": "우상을 섬기는 꿈을 꾸면 자잘한 것들에 휘둘려 재물이나 명성으로 나아감이 더디다"
+            }
+          ]
+        },
+        {
+          "context": "우상을 부숨",
+          "interpretation_ko": "스스로를 굳게 다스려 어떤 일에도 막히지 않고 높은 자리로 오를 길한 조짐",
+          "interpretation_en": "signifies a strong mastery over self, and no work will deter you in your upward rise to positions of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idols",
+              "original": "To break idols, signifies a strong mastery over self, and no work will deter you in your upward rise to positions of honor.",
+              "translation_ko": "우상을 부수는 것은 자기를 굳게 다스림을 뜻하며, 어떤 일도 높은 자리로 오르는 길을 막지 못한다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 우상을 섬기는 것을 봄",
+          "interpretation_ko": "가깝던 벗과 크게 어긋날 흉한 조짐",
+          "interpretation_en": "great differences will rise up between you and warm friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idols",
+              "original": "To see others worshiping idols, great differences will rise up between you and warm friends.",
+              "translation_ko": "남들이 우상을 섬기는 것을 보면 다정하던 벗과 크게 어긋난다"
+            }
+          ]
+        },
+        {
+          "context": "우상 섬김을 꾸짖음",
+          "interpretation_ko": "사람의 마음을 꿰뚫어 보아 큰 이름을 얻을 길한 조짐",
+          "interpretation_en": "great distinction is in store for you through your understanding of the natural inclinations of the human mind",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idols",
+              "original": "To dream that you are denouncing idolatry, great distinction is in store for you through your understanding of the natural inclinations of the human mind.",
+              "translation_ko": "우상 섬김을 꾸짖는 꿈을 꾸면 사람 마음의 결을 꿰뚫어 보아 큰 이름을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "immortal",
       "term_ko": "신선",
       "term_en": "immortal",
@@ -47673,6 +47762,140 @@
               "locator": "Hydrophobia",
               "original": "To dream that an animal with the rabies bites you, you will be betrayed by your dearest friend, and much scandal will be brought to light.",
               "translation_ko": "광견병에 걸린 짐승에게 물리는 꿈을 꾸면 가장 아끼는 벗에게 배신당하고 큰 추문이 드러난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idiot",
+      "term_ko": "어리석은 사람",
+      "term_en": "idiot",
+      "aliases": [
+        "바보",
+        "천치",
+        "백치",
+        "멍청이",
+        "얼간이",
+        "멍청한",
+        "어리숙한",
+        "어리숙해",
+        "바보 같은"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어리석은 사람들을 봄",
+          "interpretation_ko": "뜻이 어긋나고 잃는 것이 있을 흉한 조짐",
+          "interpretation_en": "foretells disagreements and losses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idiot",
+              "original": "Idiots in a dream, foretells disagreements and losses.",
+              "translation_ko": "꿈에 나타난 그런 이들은 불화와 손실을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 어리석은 사람이 됨",
+          "interpretation_ko": "세운 뜻이 어그러져 부끄럽고 풀이 죽을 흉한 조짐",
+          "interpretation_en": "you will feel humiliated and downcast over the miscarriage of plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idiot",
+              "original": "To dream that you are an idiot, you will feel humiliated and downcast over the miscarriage of plans.",
+              "translation_ko": "제가 그런 사람인 꿈을 꾸면 세운 일이 어그러져 수치와 낙심을 느낀다"
+            }
+          ]
+        },
+        {
+          "context": "어리숙해 보이는 아이들을 봄",
+          "interpretation_ko": "괴로운 일과 궂은 변화가 삶에 닥칠 흉한 조짐",
+          "interpretation_en": "denotes affliction and unhappy changes in life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idiot",
+              "original": "To see idiotic children, denotes affliction and unhappy changes in life.",
+              "translation_ko": "그런 아이들을 보면 괴로움과 불행한 변화가 삶에 닥친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idleness",
+      "term_ko": "게으름",
+      "term_en": "idleness",
+      "aliases": [
+        "빈둥거림",
+        "빈둥거리고",
+        "빈둥거리는",
+        "빈둥거리며",
+        "빈둥거렸다",
+        "빈둥거려",
+        "게을러",
+        "게으르게",
+        "나태"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 빈둥거림",
+          "interpretation_ko": "세운 뜻을 이루지 못할 흉한 조짐",
+          "interpretation_en": "you will fail to accomplish your designs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "If you dream of being idle, you will fail to accomplish your designs.",
+              "translation_ko": "빈둥거리는 꿈을 꾸면 세운 뜻을 이루지 못한다"
+            }
+          ]
+        },
+        {
+          "context": "벗들이 빈둥거리는 것을 봄",
+          "interpretation_ko": "그들에게 닥친 근심을 전해 들을 흉한 조짐",
+          "interpretation_en": "you will hear of some trouble affecting them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "To see your friends in idleness, you will hear of some trouble affecting them.",
+              "translation_ko": "벗들이 빈둥거리는 것을 보면 그들에게 닥친 근심을 전해 듣는다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 게으르게 지냄",
+          "interpretation_ko": "나쁜 버릇에 빠지고 미덥지 못한 짝을 만날 흉한 조짐",
+          "interpretation_en": "she will fall into bad habits, and is likely to marry a shiftless man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "For a young woman to dream that she is leading an idle existence, she will fall into bad habits, and is likely to marry a shiftless man.",
+              "translation_ko": "젊은 여성이 게으르게 지내는 꿈을 꾸면 나쁜 버릇에 빠지고 미덥지 못한 이와 혼인하기 쉽다"
             }
           ]
         }
@@ -65299,6 +65522,51 @@
       ]
     },
     {
+      "id": "ideal",
+      "term_ko": "이상형",
+      "term_en": "ideal",
+      "aliases": [
+        "이상적인 사람"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 제 이상형을 만남",
+          "interpretation_ko": "끊김 없는 즐거움과 흡족함이 이어질 길한 조짐",
+          "interpretation_en": "foretells a season of uninterrupted pleasure and contentment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ideal",
+              "original": "For a young woman to dream of meeting her ideal, foretells a season of uninterrupted pleasure and contentment.",
+              "translation_ko": "젊은 여성이 제 이상형을 만나는 꿈을 꾸면 끊김 없는 즐거움과 만족의 철이 온다"
+            }
+          ]
+        },
+        {
+          "context": "총각이 제 이상형을 만남",
+          "interpretation_ko": "머지않아 하는 일이 좋은 쪽으로 바뀔 길한 조짐",
+          "interpretation_en": "denotes he will soon experience a favorable change in his affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ideal",
+              "original": "For a bachelor to dream of meeting his ideal, denotes he will soon experience a favorable change in his affairs.",
+              "translation_ko": "총각이 제 이상형을 만나는 꿈을 꾸면 머지않아 일이 좋은 쪽으로 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -66973,6 +67241,35 @@
               "locator": "Abroad",
               "original": "To dream that you are abroad, or going abroad, foretells that you will soon, in company with a party, make a pleasant trip, and you will find it necessary to absent yourself from your native country for a sojourn in a different climate.",
               "translation_ko": "외국에 있거나 외국으로 가는 꿈을 꾸면 곧 일행과 함께 즐거운 여행을 떠나고, 다른 기후에서 머물기 위해 고국을 떠나야 하게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absalom",
+      "term_ko": "압살롬",
+      "term_en": "absalom",
+      "aliases": [],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "압살롬 꿈을 꿈",
+          "interpretation_ko": "괴로운 일이 닥치고, 모르는 사이에 잘못에 빠져 아끼는 이의 마음을 아프게 할 흉한 조짐",
+          "interpretation_en": "is significant of distressing incidents; you may unconsciously fall a victim to error, and penetrate some well beloved heart with keen anguish and pain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Absalom",
+              "original": "To dream of Absalom, is significant of distressing incidents. You may unconsciously fall a victim to error, and penetrate some well beloved heart with keen anguish and pain over the committal of immoral actions and the outraging of innocence.",
+              "translation_ko": "압살롬 꿈은 괴로운 일들을 뜻한다. 모르는 사이에 잘못에 빠져, 아끼는 마음에 깊은 아픔을 안길 수 있다"
             }
           ]
         }
@@ -75072,6 +75369,39 @@
               "locator": "宮室屋宇倉庫",
               "original": "家道貧窮大吉利",
               "translation_ko": "집안이 가난해지면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humidity",
+      "term_ko": "습기",
+      "term_en": "humidity",
+      "aliases": [
+        "눅눅한 기운",
+        "눅눅함",
+        "축축한 기운"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "눅눅한 기운에 짓눌림",
+          "interpretation_ko": "적과 사납게 맞서나 더 큰 힘에 눌려 크게 질 흉한 조짐",
+          "interpretation_en": "foretells that you will combat enemies fiercely, but their superior force will submerge you in overwhelming defeat",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Humidity",
+              "original": "To dream that you are overcome with humidity, foretells that you will combat enemies fiercely, but their superior force will submerge you in overwhelming defeat.",
+              "translation_ko": "눅눅한 기운에 짓눌리는 꿈을 꾸면 적과 사납게 싸우나 그들의 우세한 힘에 짓눌려 크게 진다"
             }
           ]
         }

@@ -64,6 +64,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "illness::병자가 울고 웃음": "crying laughing tears laughed",
   "illness::병자가 자리에서 일어남": "rose recovered better standing",
   "illness::병자가 수레에 실림": "cart wagon carried loaded",
+  "illness::여자가 제 병을 앓는 꿈을 꿈": "unforeseen frenzy despair anticipated entertainment",
   "basin::동이를 봄": "saw looked",
   "basin::동이의 밑바닥이 빠짐": "bottom broke hole cracked",
   "basin::동이 안으로 들어감": "inside entered climbed",
@@ -3554,5 +3555,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ice-cream::아이들이 아이스크림 먹는 것을 봄": "children prosperity attend favorably",
   "ice-cream::아이스크림을 엎지름": "upset presence lover flirted unkindness",
   "ice-cream::쉰 아이스크림을 봄": "sour unexpected trouble interfere",
-  "ice-cream::아이스크림이 녹아 있음": "melted anticipated stagnation realized"
+  "ice-cream::아이스크림이 녹아 있음": "melted anticipated stagnation realized",
+  "ideal::처녀가 제 이상형을 만남": "young woman uninterrupted pleasure contentment",
+  "ideal::총각이 제 이상형을 만남": "bachelor favorable change affairs",
+  "idiot::어리석은 사람들을 봄": "disagreements losses",
+  "idiot::제가 어리석은 사람이 됨": "humiliated downcast miscarriage",
+  "idiot::어리숙해 보이는 아이들을 봄": "children affliction unhappy changes",
+  "idleness::제가 빈둥거림": "fail accomplish designs",
+  "idleness::벗들이 빈둥거리는 것을 봄": "friends hear trouble affecting",
+  "idleness::처녀가 게으르게 지냄": "young woman existence habits shiftless",
+  "idol::우상을 섬김": "worshiping slow progress petty tyrannize",
+  "idol::우상을 부숨": "break mastery deter upward honor",
+  "idol::남들이 우상을 섬기는 것을 봄": "others great differences warm",
+  "idol::우상 섬김을 꾸짖음": "denouncing idolatry distinction inclinations"
 };
