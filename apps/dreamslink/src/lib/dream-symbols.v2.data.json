@@ -27,6 +27,7 @@
     "m3.json",
     "m30.json",
     "m31.json",
+    "m32.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -12622,6 +12623,128 @@
       ]
     },
     {
+      "id": "adieu",
+      "term_ko": "작별 인사",
+      "term_en": "adieu",
+      "aliases": [
+        "작별",
+        "이별",
+        "고별",
+        "안녕히",
+        "작별하",
+        "작별을",
+        "작별하면서",
+        "작별하며"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사람들에게 유쾌하게 작별 인사를 함",
+          "interpretation_ko": "즐거운 방문을 하고 많은 사교 모임을 누릴 조짐",
+          "interpretation_en": "you will make pleasant visits and enjoy much social festivity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adieu",
+              "original": "To dream of bidding cheerful adieus to people, denotes that you will make pleasant visits and enjoy much social festivity",
+              "translation_ko": "사람들에게 유쾌하게 작별 인사를 하는 꿈을 꾸면 즐거운 방문을 하고 많은 사교 모임을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사람들에게 슬프고 침울하게 작별 인사를 함",
+          "interpretation_ko": "손실과 사별의 슬픔을 겪을 조짐",
+          "interpretation_en": "you will endure loss and bereaving sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adieu",
+              "original": "but if they are made in a sad or doleful strain, you will endure loss and bereaving sorrow.",
+              "translation_ko": "슬프고 침울하게 작별 인사를 하면 손실과 사별의 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "고향과 조국에 작별을 고함",
+          "interpretation_ko": "행운과 사랑에서 추방된 사람처럼 떠돌게 될 조짐",
+          "interpretation_en": "you will travel in the nature of an exile from fortune and love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adieu",
+              "original": "If you bid adieu to home and country, you will travel in the nature of an exile from fortune and love.",
+              "translation_ko": "고향과 조국에 작별을 고하면 행운과 사랑에서 추방된 사람처럼 떠돌게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던짐",
+          "interpretation_ko": "곧 여행을 떠나게 되나 불쾌한 사고나 일은 없을 조짐",
+          "interpretation_en": "you will soon have a journey to make, but there will be no unpleasant accidents or happenings attending your trip",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adieu",
+              "original": "To throw kisses of adieu to loved ones, or children, foretells that you will soon have a journey to make, but there will be no unpleasant accidents or happenings attending your trip.",
+              "translation_ko": "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던지면 곧 여행을 떠나게 되나 불쾌한 사고나 일은 없을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "작별을 고함",
+          "interpretation_ko": "멀리 있는 벗에게서 언짢은 기별을 들을 흉한 조짐",
+          "interpretation_en": "you are likely to hear unpleasant news of absent friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farewell",
+              "original": "To dream of bidding farewell, is not very favorable, as you are likely to hear unpleasant news of absent friends.",
+              "translation_ko": "작별을 고하는 꿈은 그리 길하지 않다. 멀리 있는 벗에게서 언짢은 기별을 듣기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인에게 작별을 고함",
+          "interpretation_ko": "그가 시들해졌음을 알리는 흉한 조짐",
+          "interpretation_en": "portends his indifference to her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farewell",
+              "original": "For a young woman to bid her lover farewell, portends his indifference to her.",
+              "translation_ko": "젊은 여성이 정인에게 작별을 고하는 꿈은, 그가 시들해졌음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "작별하면서 슬프지 않음",
+          "interpretation_ko": "머잖아 마음을 달래 줄 다른 이를 만날 조짐",
+          "interpretation_en": "she will soon find others to comfort her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farewell",
+              "original": "If she feels no sadness in this farewell, she will soon find others to comfort her.",
+              "translation_ko": "그 작별에서 슬픔을 느끼지 않으면, 머잖아 마음을 달래 줄 다른 이를 만난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "apples",
       "term_ko": "사과",
       "term_en": "apples",
@@ -15781,6 +15904,111 @@
         }
       ],
       "label_ko": "눈(眼)"
+    },
+    {
+      "id": "face",
+      "term_ko": "얼굴",
+      "term_en": "face",
+      "aliases": [
+        "안면",
+        "얼굴이",
+        "얼굴을",
+        "낯빛"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "얼굴에 검은 부스럼이 남",
+          "interpretation_ko": "자식에게 흉한 조짐",
+          "interpretation_en": "an inauspicious sign for one's child",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "面生瘡黑主子凶",
+              "translation_ko": "얼굴에 검은 부스럼이 나면 자식에게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 밉상인 얼굴을 봄",
+          "interpretation_ko": "정든 사이에 다툼이 있을 흉한 조짐",
+          "interpretation_en": "an ugly face foretells lovers' quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
+              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인의 얼굴이 늙어 보임",
+          "interpretation_ko": "헤어짐과 즐겁던 사이가 깨질 흉한 조짐",
+          "interpretation_en": "denotes separation and the breaking up of happy associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
+              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낯설고 섬뜩한 얼굴을 봄",
+          "interpretation_ko": "적과 궂은일이 둘러쌀 흉한 조짐",
+          "interpretation_en": "denotes that enemies and misfortunes surround you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To see a strange and weird-looking face, denotes that enemies and misfortunes surround you.",
+              "translation_ko": "낯설고 섬뜩한 얼굴을 보는 꿈은, 적과 궂은일이 나를 둘러쌈을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 얼굴을 봄",
+          "interpretation_ko": "언짢은 일이 있고 혼인한 이에게는 갈라서자는 말이 나올 흉한 조짐",
+          "interpretation_en": "denotes unhappiness; and to the married, threats of divorce will be made",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To dream of seeing your own face, denotes unhappiness; and to the married, threats of divorce will be made.",
+              "translation_ko": "제 얼굴을 보는 꿈은 언짢은 일을 뜻한다. 혼인한 이에게는 갈라서자는 말이 나온다"
+            }
+          ]
+        },
+        {
+          "context": "거울에 비친 제 얼굴을 봄",
+          "interpretation_ko": "뜻한 바를 이루지 못해 스스로에게 언짢고 벗들의 믿음도 잃을 흉한 조짐",
+          "interpretation_en": "denotes displeasure with yourself for not being able to carry out plans; you will also lose the esteem of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To see your face in a mirror, denotes displeasure with yourself for not being able to carry out plans for self-advancement. You will also lose the esteem of friends.",
+              "translation_ko": "거울에 비친 제 얼굴을 보는 꿈은, 앞으로 나아가려던 뜻을 이루지 못해 스스로에게 언짢음을 뜻한다. 벗들의 믿음도 잃는다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "field",
@@ -20869,82 +21097,6 @@
               "locator": "Addition",
               "original": "If you fail to read the figures, you will lose fortune by blind speculation.",
               "translation_ko": "숫자를 제대로 읽어내지 못하면 무모한 투기로 재산을 잃을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "adieu",
-      "term_ko": "작별 인사",
-      "term_en": "adieu",
-      "aliases": [
-        "작별",
-        "이별",
-        "고별",
-        "안녕히"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사람들에게 유쾌하게 작별 인사를 함",
-          "interpretation_ko": "즐거운 방문을 하고 많은 사교 모임을 누릴 조짐",
-          "interpretation_en": "you will make pleasant visits and enjoy much social festivity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adieu",
-              "original": "To dream of bidding cheerful adieus to people, denotes that you will make pleasant visits and enjoy much social festivity",
-              "translation_ko": "사람들에게 유쾌하게 작별 인사를 하는 꿈을 꾸면 즐거운 방문을 하고 많은 사교 모임을 누릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "사람들에게 슬프고 침울하게 작별 인사를 함",
-          "interpretation_ko": "손실과 사별의 슬픔을 겪을 조짐",
-          "interpretation_en": "you will endure loss and bereaving sorrow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adieu",
-              "original": "but if they are made in a sad or doleful strain, you will endure loss and bereaving sorrow.",
-              "translation_ko": "슬프고 침울하게 작별 인사를 하면 손실과 사별의 슬픔을 겪을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "고향과 조국에 작별을 고함",
-          "interpretation_ko": "행운과 사랑에서 추방된 사람처럼 떠돌게 될 조짐",
-          "interpretation_en": "you will travel in the nature of an exile from fortune and love",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adieu",
-              "original": "If you bid adieu to home and country, you will travel in the nature of an exile from fortune and love.",
-              "translation_ko": "고향과 조국에 작별을 고하면 행운과 사랑에서 추방된 사람처럼 떠돌게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던짐",
-          "interpretation_ko": "곧 여행을 떠나게 되나 불쾌한 사고나 일은 없을 조짐",
-          "interpretation_en": "you will soon have a journey to make, but there will be no unpleasant accidents or happenings attending your trip",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adieu",
-              "original": "To throw kisses of adieu to loved ones, or children, foretells that you will soon have a journey to make, but there will be no unpleasant accidents or happenings attending your trip.",
-              "translation_ko": "사랑하는 사람이나 아이들에게 작별의 입맞춤을 던지면 곧 여행을 떠나게 되나 불쾌한 사고나 일은 없을 조짐이다"
             }
           ]
         }
@@ -26248,6 +26400,81 @@
       ]
     },
     {
+      "id": "fagot",
+      "term_ko": "나뭇단",
+      "term_en": "fagot",
+      "aliases": [
+        "나뭇단",
+        "섶단",
+        "장작더미"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나뭇단에서 짙은 연기가 오름",
+          "interpretation_ko": "적이 밀고 들어올 흉한 조짐",
+          "interpretation_en": "it denotes that enemies are bearing down upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fagot",
+              "original": "If you dream of seeing a dense smoke ascending from a pile of fagots, it denotes that enemies are bearing down upon you, but if the fagots are burning brightly, you will escape from all unpleasant complications and enjoy great prosperity.",
+              "translation_ko": "쌓아 놓은 나뭇단에서 짙은 연기가 오르는 꿈은 적이 밀고 들어옴을 뜻한다. 그러나 나뭇단이 환하게 타오르면 온갖 성가신 일에서 벗어나 크게 넉넉해진다"
+            }
+          ]
+        },
+        {
+          "context": "나뭇단이 환하게 타오름",
+          "interpretation_ko": "성가신 일에서 벗어나 크게 넉넉해질 길한 조짐",
+          "interpretation_en": "you will escape from all unpleasant complications and enjoy great prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fagot",
+              "original": "If you dream of seeing a dense smoke ascending from a pile of fagots, it denotes that enemies are bearing down upon you, but if the fagots are burning brightly, you will escape from all unpleasant complications and enjoy great prosperity.",
+              "translation_ko": "쌓아 놓은 나뭇단에서 짙은 연기가 오르는 꿈은 적이 밀고 들어옴을 뜻한다. 그러나 나뭇단이 환하게 타오르면 온갖 성가신 일에서 벗어나 크게 넉넉해진다"
+            }
+          ]
+        },
+        {
+          "context": "타는 나뭇단 위를 걷다 뎀",
+          "interpretation_ko": "벗의 어리석은 처신 때문에 다칠 흉한 조짐",
+          "interpretation_en": "you will be injured by the unwise actions of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fagot",
+              "original": "If you walk on burning fagots, you will be injured by the unwise actions of friends.",
+              "translation_ko": "타는 나뭇단 위를 걸으면, 벗의 어리석은 처신 때문에 다친다"
+            }
+          ]
+        },
+        {
+          "context": "타는 나뭇단 위를 데지 않고 건넘",
+          "interpretation_ko": "앞길이 놀랍도록 트일 길한 조짐",
+          "interpretation_en": "you will have a miraculous rise in prospects",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fagot",
+              "original": "If you succeed in walking on them without being burned, you will have a miraculous rise in prospects.",
+              "translation_ko": "그 위를 데지 않고 건너면, 앞길이 놀랍도록 트인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fishing",
       "term_ko": "낚시",
       "term_en": "fishing",
@@ -26848,6 +27075,85 @@
               "locator": "地理山石樹木",
               "original": "糞土堆者錢財聚",
               "translation_ko": "거름 흙이 쌓이면 돈과 재물이 모인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "term_ko": "시장",
+      "term_en": "marketplace",
+      "aliases": [
+        "저자",
+        "장터",
+        "장날",
+        "장이 열린",
+        "장이 선",
+        "장 구경"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부부가 함께 시장에 들어감",
+          "interpretation_ko": "재산을 마련할 조짐",
+          "interpretation_en": "a sign of acquiring property",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "夫妻入市主置產",
+              "translation_ko": "부부가 시장에 들어가면 재산을 마련한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 장이 선 곳에 감",
+          "interpretation_ko": "쾌활하고 성품이 고른 짝을 만날 길한 조짐",
+          "interpretation_en": "this dream signifies a jovial and even-tempered man for a life partner",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fair",
+              "original": "For a young woman, this dream signifies a jovial and even-tempered man for a life partner.",
+              "translation_ko": "젊은 여성에게 이 꿈은 쾌활하고 성품이 고른 사람을 한평생의 짝으로 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장이 선 곳에 감",
+          "interpretation_ko": "장사가 즐겁고 이문이 남으며 마음 맞는 짝을 얻을 길한 조짐",
+          "interpretation_en": "you will have a pleasant and profitable business and a congenial companion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fair",
+              "original": "To dream of being at a fair, denotes that you will have a pleasant and profitable business and a congenial companion.",
+              "translation_ko": "장이 선 곳에 있는 꿈은, 즐겁고 이문이 남는 장사와 마음 맞는 짝을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "시장에 사람이 하나도 없음",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "見市中無人主凶",
+              "translation_ko": "시장에 사람이 없는 것을 보면 흉하다"
             }
           ]
         }
@@ -32671,6 +32977,12 @@
               "locator": "Corpulence",
               "original": "For a person to dream of being corpulent, indicates to the dreamer bountiful increase of wealth and pleasant abiding places.",
               "translation_ko": "제 몸이 뚱뚱해지는 꿈은, 재물이 넉넉히 불고 머무는 자리가 편안해짐을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Fat",
+              "original": "To dream that you are getting fat, denotes that you are about to make a fortunate change in your life.",
+              "translation_ko": "제 몸이 뚱뚱해지는 꿈은, 삶에 좋은 쪽으로 바뀔 일이 있음을 뜻한다"
             }
           ]
         },
@@ -32685,6 +32997,12 @@
               "locator": "Corpulence",
               "original": "To see others corpulent, denotes unusual activity and prosperous times.",
               "translation_ko": "남이 뚱뚱한 것을 보는 꿈은, 활발한 움직임과 좋아지는 형편을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Fat",
+              "original": "To see others fat, signifies prosperity.",
+              "translation_ko": "남이 뚱뚱한 것을 보는 꿈은 넉넉한 살림을 뜻한다"
             }
           ]
         },
@@ -35121,6 +35439,67 @@
       ]
     },
     {
+      "id": "fable",
+      "term_ko": "우화",
+      "term_en": "fable",
+      "aliases": [
+        "우화를",
+        "우화가",
+        "옛이야기"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우화를 읽거나 들려줌",
+          "interpretation_ko": "즐거운 일거리와 글을 좋아하는 마음이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant tasks and a literary turn of mind",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fables",
+              "original": "To dream of reading or telling fables, denotes pleasant tasks and a literary turn of mind.",
+              "translation_ko": "우화를 읽거나 들려주는 꿈은, 즐거운 일거리와 글을 좋아하는 마음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 우화를 봄",
+          "interpretation_ko": "애틋한 정이 맺힐 길한 조짐",
+          "interpretation_en": "it signifies romantic attachments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fables",
+              "original": "To the young, it signifies romantic attachments.",
+              "translation_ko": "젊은이에게는 애틋한 정이 맺힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "믿음에 관한 이야기를 듣거나 들려줌",
+          "interpretation_ko": "믿는 마음이 아주 깊어질 조짐",
+          "interpretation_en": "denotes that the dreamer will become very devotional",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fables",
+              "original": "To hear, or tell, religious fables, denotes that the dreamer will become very devotional.",
+              "translation_ko": "믿음에 관한 이야기를 듣거나 들려주는 꿈은, 꿈꾼 이의 믿는 마음이 아주 깊어짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "face-powder",
       "term_ko": "분",
       "term_en": "face powder",
@@ -35177,6 +35556,252 @@
               "locator": "鏡環釵釧梳篦",
               "original": "得粉僕妻生嬌女",
               "translation_ko": "분을 얻으면 아내가 예쁜 딸을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "failure",
+      "term_ko": "실패",
+      "term_en": "failure",
+      "aliases": [
+        "실패했다",
+        "실패를",
+        "실패가",
+        "그르쳤다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "정든 이가 구애에 실패함",
+          "interpretation_ko": "이미 마음을 얻었으니 좀 더 밀고 나가면 될 조짐",
+          "interpretation_en": "he only needs more masterfulness and energy in his daring, as he has already the love and esteem of his sweetheart",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Failure",
+              "original": "To dream that he fails in his suit, signifies that he only needs more masterfulness and energy in his daring, as he has already the love and esteem of his sweetheart.",
+              "translation_ko": "구애에 실패하는 꿈은, 좀 더 굳세고 힘차게 밀고 나가기만 하면 됨을 뜻한다. 이미 그 마음과 믿음을 얻고 있기 때문이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 제 삶이 실패로 끝나리라 여김",
+          "interpretation_ko": "제게 온 기회를 잘 살리지 못하고 있다는 일깨움",
+          "interpretation_en": "denotes that she is not applying her opportunities to good advantage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Failure",
+              "original": "For a young woman to dream that her life is going to be a failure, denotes that she is not applying her opportunities to good advantage.",
+              "translation_ko": "젊은 여성이 제 삶이 실패로 끝나리라 여기는 꿈은, 제게 온 기회를 잘 살리지 못하고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장사하는 이가 일을 그르침",
+          "interpretation_ko": "손해와 서투른 살림을 알리니 바로잡지 않으면 참으로 그르칠 흉한 조짐",
+          "interpretation_en": "forebodes loss and bad management, which should be corrected, or failure threatens to materialize in earnest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Failure",
+              "original": "For a business man to dream that he has made a failure, forebodes loss and bad management, which should be corrected, or failure threatens to materialize in earnest.",
+              "translation_ko": "장사하는 이가 일을 그르치는 꿈은 손해와 서투른 살림을 알린다. 바로잡지 않으면 참으로 그르치게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fan",
+      "term_ko": "부채",
+      "term_en": "fan",
+      "aliases": [
+        "부채를",
+        "부채가",
+        "부채질"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부채를 봄",
+          "interpretation_ko": "머지않아 반가운 기별과 뜻밖의 기쁨이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant news and surprises are awaiting you in the near future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "To see a fan in your dreams, denotes pleasant news and surprises are awaiting you in the near future.",
+              "translation_ko": "꿈에 부채를 보는 것은, 머지않아 반가운 기별과 뜻밖의 기쁨이 기다림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 부채질을 하거나 받음",
+          "interpretation_ko": "새롭고 반가운 사귐이 있을 길한 조짐",
+          "interpretation_en": "gives promise of a new and pleasing acquaintances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
+              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
+            }
+          ]
+        },
+        {
+          "context": "낡은 부채를 잃음",
+          "interpretation_ko": "가까운 벗이 다른 사람에게 마음을 둘 흉한 조짐",
+          "interpretation_en": "she will find that a warm friend is becoming interested in other women",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
+              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "term_ko": "농장",
+      "term_en": "farm",
+      "aliases": [
+        "농장에",
+        "농장을",
+        "농장이"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "농장에서 살고 있음",
+          "interpretation_ko": "벌인 일마다 잘 풀릴 길한 조짐",
+          "interpretation_en": "denotes that you will be fortunate in all undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farm",
+              "original": "To dream that you are living on a farm, denotes that you will be fortunate in all undertakings.",
+              "translation_ko": "농장에서 사는 꿈은, 벌인 일마다 잘 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "농장을 삼",
+          "interpretation_ko": "농사짓는 이에게는 넉넉한 수확을, 장사하는 이에게는 이문을, 길 떠난 이에게는 무사함을 알리는 길한 조짐",
+          "interpretation_en": "denotes abundant crops to the farmer, a profitable deal to the business man, and a safe voyage to travelers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farm",
+              "original": "To dream that you are buying a farm, denotes abundant crops to the farmer, a profitable deal of some kind to the business man, and a safe voyage to travelers and sailors.",
+              "translation_ko": "농장을 사는 꿈은, 농사짓는 이에게는 넉넉한 수확을, 장사하는 이에게는 이문 남는 거래를, 길 떠난 이와 뱃사람에게는 무사한 뱃길을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "농장에 들름",
+          "interpretation_ko": "즐거운 사귐이 있을 길한 조짐",
+          "interpretation_en": "it signifies pleasant associations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Farm",
+              "original": "If you are visiting a farm, it signifies pleasant associations.",
+              "translation_ko": "농장에 들르는 꿈은 즐거운 사귐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "father",
+      "term_ko": "아버지",
+      "term_en": "father",
+      "aliases": [
+        "아버지가",
+        "아버지를",
+        "아버님",
+        "부친"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아버지를 봄",
+          "interpretation_ko": "곧 어려운 일에 얽히니 슬기로운 도움말이 있어야 벗어날 조짐",
+          "interpretation_en": "you are about to be involved in a difficulty, and you will need wise counsel",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Father",
+              "original": "To dream of your father, signifies that you are about to be involved in a difficulty, and you will need wise counsel if you extricate yourself therefrom.",
+              "translation_ko": "아버지 꿈은, 곧 어려운 일에 얽히게 됨을 뜻한다. 거기서 벗어나려면 슬기로운 도움말이 있어야 한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 돌아가신 아버지를 봄",
+          "interpretation_ko": "정인이 속이고 있음을 알리는 흉한 조짐",
+          "interpretation_en": "portends that her lover will, or is, playing her false",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Father",
+              "original": "For a young woman to dream of her dead father, portends that her lover will, or is, playing her false.",
+              "translation_ko": "젊은 여성이 돌아가신 아버지를 보는 꿈은, 정인이 속이고 있거나 속이게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "돌아가신 아버지를 봄",
+          "interpretation_ko": "하는 일이 무겁게 끌려가니 조심해서 다뤄야 할 흉한 조짐",
+          "interpretation_en": "it denotes that your business is pulling heavily, and you will have to use caution",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Father",
+              "original": "If he is dead, it denotes that your business is pulling heavily, and you will have to use caution in conducting it.",
+              "translation_ko": "그가 이미 돌아가셨다면, 하는 일이 무겁게 끌려가고 있어 조심해서 다뤄야 함을 뜻한다"
             }
           ]
         }
@@ -50157,6 +50782,392 @@
       ]
     },
     {
+      "id": "fainting",
+      "term_ko": "기절",
+      "term_en": "fainting",
+      "aliases": [
+        "기절했다",
+        "까무러",
+        "정신을 잃",
+        "기절해",
+        "기절하"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기절함",
+          "interpretation_ko": "집안에 병이 있고 멀리 있는 이에게서 언짢은 기별이 올 흉한 조짐",
+          "interpretation_en": "signifies illness in your family and unpleasant news of the absent",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fainting",
+              "original": "To dream of fainting, signifies illness in your family and unpleasant news of the absent.",
+              "translation_ko": "기절하는 꿈은, 집안의 병과 멀리 있는 이에게서 오는 언짢은 기별을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 기절함",
+          "interpretation_ko": "몸이 상하고 헤픈 지냄 탓에 낙담할 흉한 조짐",
+          "interpretation_en": "she will fall into ill health and experience disappointment from her careless way of living",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fainting",
+              "original": "If a young woman dreams of fainting, it denotes that she will fall into ill health and experience disappointment from her careless way of living.",
+              "translation_ko": "젊은 여성이 기절하는 꿈은, 몸이 상하고 헤프게 지낸 탓에 낙담하게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faithless",
+      "term_ko": "변심",
+      "term_en": "faithless",
+      "aliases": [
+        "마음이 변",
+        "변심한",
+        "저버렸다",
+        "배신",
+        "마음이 변했다",
+        "마음이 변해"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벗이 마음을 저버림",
+          "interpretation_ko": "도리어 그들이 나를 귀히 여길 길한 조짐",
+          "interpretation_en": "denotes that they will hold you in worthy esteem",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Faithless",
+              "original": "To dream that your friends are faithless, denotes that they will hold you in worthy esteem.",
+              "translation_ko": "벗이 마음을 저버리는 꿈은, 도리어 그들이 나를 귀히 여김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 마음을 저버림",
+          "interpretation_ko": "즐거운 혼인을 알리는 길한 조짐",
+          "interpretation_en": "signifies a happy marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Faithless",
+              "original": "For a lover to dream that his sweetheart is faithless, signifies a happy marriage.",
+              "translation_ko": "정든 이가 제 정인이 마음을 저버리는 꿈을 꾸면, 즐거운 혼인을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "falcon",
+      "term_ko": "송골매",
+      "term_en": "falcon",
+      "aliases": [
+        "송골매를",
+        "송골매가",
+        "매가 날",
+        "보라매"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "송골매를 봄",
+          "interpretation_ko": "넉넉함 때문에 시샘과 미움을 살 흉한 조짐",
+          "interpretation_en": "denotes that your prosperity will make you an object of envy and malice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Falcon",
+              "original": "To dream of a falcon, denotes that your prosperity will make you an object of envy and malice.",
+              "translation_ko": "송골매 꿈은, 넉넉함 때문에 시샘과 미움을 사게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 송골매를 봄",
+          "interpretation_ko": "겨루는 이에게 헐뜯길 흉한 조짐",
+          "interpretation_en": "she will be calumniated by a rival",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Falcon",
+              "original": "For a young woman, this dream denotes that she will be calumniated by a rival.",
+              "translation_ko": "젊은 여성에게 이 꿈은 겨루는 이에게 헐뜯김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall",
+      "term_ko": "추락",
+      "term_en": "fall",
+      "aliases": [
+        "떨어졌다",
+        "추락했다",
+        "굴러떨어",
+        "떨어지는"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "떨어져 몹시 놀람",
+          "interpretation_ko": "큰 다툼을 겪으나 끝내 자리와 재물을 얻을 조짐",
+          "interpretation_en": "you will undergo some great struggle, but will eventually rise to honor and wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fall",
+              "original": "To dream that you sustain a fall, and are much frightened, denotes that you will undergo some great struggle, but will eventually rise to honor and wealth; but if you are injured in the fall, you will encounter hardships and loss of friends.",
+              "translation_ko": "떨어져 몹시 놀라는 꿈은, 큰 다툼을 겪으나 끝내 자리와 재물에 오름을 뜻한다. 그러나 떨어져 다치면 고생하고 벗을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "떨어져 다침",
+          "interpretation_ko": "고생하고 벗을 잃을 흉한 조짐",
+          "interpretation_en": "you will encounter hardships and loss of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fall",
+              "original": "To dream that you sustain a fall, and are much frightened, denotes that you will undergo some great struggle, but will eventually rise to honor and wealth; but if you are injured in the fall, you will encounter hardships and loss of friends.",
+              "translation_ko": "떨어져 몹시 놀라는 꿈은, 큰 다툼을 겪으나 끝내 자리와 재물에 오름을 뜻한다. 그러나 떨어져 다치면 고생하고 벗을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fame",
+      "term_ko": "이름남",
+      "term_en": "fame",
+      "aliases": [
+        "유명해",
+        "이름을 날",
+        "명성",
+        "유명해졌다",
+        "유명한",
+        "이름난"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 이름난 사람이 됨",
+          "interpretation_ko": "품은 뜻이 어그러질 흉한 조짐",
+          "interpretation_en": "denotes disappointed aspirations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fame",
+              "original": "To dream of being famous, denotes disappointed aspirations.",
+              "translation_ko": "제가 이름난 사람이 되는 꿈은, 품은 뜻이 어그러짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "이름난 사람을 봄",
+          "interpretation_ko": "묻혀 있던 데서 이름 있는 자리로 올라설 길한 조짐",
+          "interpretation_en": "portends your rise from obscurity to places of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fame",
+              "original": "To dream of famous people, portends your rise from obscurity to places of honor.",
+              "translation_ko": "이름난 사람들 꿈은, 묻혀 있던 데서 이름 있는 자리로 올라섬을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "term_ko": "식구",
+      "term_en": "family",
+      "aliases": [
+        "가족",
+        "집안 식구",
+        "식구들"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집안 식구가 화목하고 즐거움",
+          "interpretation_ko": "몸이 성하고 살림이 넉넉할 길한 조짐",
+          "interpretation_en": "is significant of health and easy circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Family",
+              "original": "To dream of one's family as harmonious and happy, is significant of health and easy circumstances; but if there is sickness or contentions, it forebodes gloom and disappointment.",
+              "translation_ko": "집안 식구가 화목하고 즐거운 꿈은 성한 몸과 넉넉한 살림을 뜻한다. 그러나 병이나 다툼이 있으면 어두움과 낙담을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "집안에 병이나 다툼이 있음",
+          "interpretation_ko": "어두움과 낙담이 있을 흉한 조짐",
+          "interpretation_en": "it forebodes gloom and disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Family",
+              "original": "To dream of one's family as harmonious and happy, is significant of health and easy circumstances; but if there is sickness or contentions, it forebodes gloom and disappointment.",
+              "translation_ko": "집안 식구가 화목하고 즐거운 꿈은 성한 몸과 넉넉한 살림을 뜻한다. 그러나 병이나 다툼이 있으면 어두움과 낙담을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "famine",
+      "term_ko": "기근",
+      "term_en": "famine",
+      "aliases": [
+        "기근이",
+        "기근을",
+        "흉년"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기근이 든 것을 봄",
+          "interpretation_ko": "하는 일에 벌이가 없고 병이 돌아 시달릴 흉한 조짐",
+          "interpretation_en": "your business will be unremunerative and sickness will prove a scourge",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famine",
+              "original": "To dream of a famine, foretells that your business will be unremunerative and sickness will prove a scourge. This dream is generally bad.",
+              "translation_ko": "기근 꿈은, 하는 일에 벌이가 없고 병이 돌아 시달림을 알린다. 대체로 흉한 꿈이다"
+            }
+          ]
+        },
+        {
+          "context": "적이 기근으로 죽어 가는 것을 봄",
+          "interpretation_ko": "겨루는 자리에서 이길 길한 조짐",
+          "interpretation_en": "you will be successful in competition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famine",
+              "original": "If you see your enemies perishing by famine, you will be successful in competition.",
+              "translation_ko": "적이 기근으로 죽어 가는 것을 보면, 겨루는 자리에서 이긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "famish",
+      "term_ko": "굶주림",
+      "term_en": "famish",
+      "aliases": [
+        "굶주렸다",
+        "굶주리",
+        "주려서"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 굶주림",
+          "interpretation_ko": "잘되리라 믿던 일이 크게 어그러질 흉한 조짐",
+          "interpretation_en": "you are meeting disheartening failure in some enterprise which you considered a promising success",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famish",
+              "original": "To dream that you are famishing, foretells that you are meeting disheartening failure in some enterprise which you considered a promising success.",
+              "translation_ko": "제가 굶주리는 꿈은, 잘되리라 여기던 일이 크게 어그러짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "남이 굶주리는 것을 봄",
+          "interpretation_ko": "남에게도 나에게도 슬픔이 올 흉한 조짐",
+          "interpretation_en": "brings sorrow to others as well as to yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famish",
+              "original": "To see others famishing, brings sorrow to others as well as to yourself.",
+              "translation_ko": "남이 굶주리는 것을 보는 꿈은, 남에게도 나에게도 슬픔을 가져온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "farming",
       "term_ko": "농사",
       "term_en": "farming",
@@ -50200,6 +51211,101 @@
               "locator": "田園五榖耕種",
               "original": "教人耕種遠行至",
               "translation_ko": "남에게 밭 갈고 씨 뿌리기를 가르치면 먼 길 갈 일이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fates",
+      "term_ko": "운명의 여신",
+      "term_en": "fates",
+      "aliases": [
+        "운명의 여신",
+        "운명을 가지고",
+        "세 여신"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "운명의 여신을 봄",
+          "interpretation_ko": "쓸데없는 다툼과 언짢은 일이 있을 흉한 조짐",
+          "interpretation_en": "unnecessary disagreements and unhappiness is foretold",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fates",
+              "original": "To dream of the fates, unnecessary disagreements and unhappiness is foretold.",
+              "translation_ko": "운명의 여신 꿈은, 쓸데없는 다툼과 언짢은 일을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 운명을 가지고 놂",
+          "interpretation_ko": "가까운 벗이나 정든 사이에 겁 없이 끼어들 흉한 조짐",
+          "interpretation_en": "she will daringly interpose herself between devoted friends or lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fates",
+              "original": "For a young woman to dream of juggling with fate, denotes she will daringly interpose herself between devoted friends or lovers.",
+              "translation_ko": "젊은 여성이 운명을 가지고 노는 꿈은, 가까운 벗이나 정든 사이에 겁 없이 끼어듦을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "father-in-law",
+      "term_ko": "시아버지",
+      "term_en": "father-in-law",
+      "aliases": [
+        "시아버지가",
+        "시아버지를",
+        "장인어른",
+        "시아버님"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "시아버지를 봄",
+          "interpretation_ko": "벗이나 살붙이와 다툴 흉한 조짐",
+          "interpretation_en": "denotes contentions with friends or relatives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Father-in-law",
+              "original": "To dream of your father-in-law, denotes contentions with friends or relatives.",
+              "translation_ko": "시아버지 꿈은, 벗이나 살붙이와 다툼을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "시아버지가 성하고 밝은 낯으로 있음",
+          "interpretation_ko": "집안이 두루 화목할 길한 조짐",
+          "interpretation_en": "foretells pleasant family relations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Father-in-law",
+              "original": "To see him well and cheerful, foretells pleasant family relations.",
+              "translation_ko": "그가 성하고 밝은 낯으로 있는 것을 보는 꿈은, 집안이 두루 화목함을 알린다"
             }
           ]
         }
@@ -50860,53 +51966,6 @@
               "locator": "塚墓棺槨迎送",
               "original": "空遠無人主遠行",
               "translation_ko": "텅 비고 멀어 사람이 없으면 먼 길을 떠난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "marketplace",
-      "term_ko": "시장",
-      "term_en": "marketplace",
-      "aliases": [
-        "저자",
-        "장터",
-        "장날"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "부부가 함께 시장에 들어감",
-          "interpretation_ko": "재산을 마련할 조짐",
-          "interpretation_en": "a sign of acquiring property",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "夫妻入市主置產",
-              "translation_ko": "부부가 시장에 들어가면 재산을 마련한다"
-            }
-          ]
-        },
-        {
-          "context": "시장에 사람이 하나도 없음",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "見市中無人主凶",
-              "translation_ko": "시장에 사람이 없는 것을 보면 흉하다"
             }
           ]
         }
@@ -58895,31 +59954,65 @@
       ]
     },
     {
-      "id": "face",
-      "term_ko": "얼굴",
-      "term_en": "face",
+      "id": "fairy",
+      "term_ko": "요정",
+      "term_en": "fairy",
       "aliases": [
-        "안면"
+        "요정을",
+        "요정이"
       ],
-      "category": "body",
-      "polarity": "negative",
+      "category": "person",
+      "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "얼굴에 검은 부스럼이 남",
-          "interpretation_ko": "자식에게 흉한 조짐",
-          "interpretation_en": "an inauspicious sign for one's child",
-          "polarity": "negative",
+          "context": "요정을 봄",
+          "interpretation_ko": "누구에게나 길한 조짐",
+          "interpretation_en": "is a favorable omen to all classes",
+          "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "面生瘡黑主子凶",
-              "translation_ko": "얼굴에 검은 부스럼이 나면 자식에게 흉하다"
+              "work": "miller",
+              "locator": "Fairy",
+              "original": "To dream of a fairy, is a favorable omen to all classes, as it is always a scene with a beautiful face portrayed as a happy child, or woman.",
+              "translation_ko": "요정 꿈은 누구에게나 길한 조짐이다. 언제나 밝은 아이나 여인의 고운 얼굴로 그려지기 때문이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fakir",
+      "term_ko": "탁발승",
+      "term_en": "fakir",
+      "aliases": [
+        "탁발승",
+        "탁발",
+        "고행자"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "탁발승을 봄",
+          "interpretation_ko": "예사롭지 않게 바쁘고 삶이 크게 달라질 조짐",
+          "interpretation_en": "denotes uncommon activity and phenomenal changes in your life",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fakir",
+              "original": "To dream of an Indian fakir, denotes uncommon activity and phenomenal changes in your life. Such dreams may sometimes be of gloomy import.",
+              "translation_ko": "인도 탁발승 꿈은, 예사롭지 않게 바쁘고 삶이 크게 달라짐을 뜻한다. 그런 꿈이 어두운 뜻일 때도 있다"
             }
           ]
         }
@@ -62336,9 +63429,7 @@
       "id": "sparrowhawk",
       "term_ko": "새매",
       "term_en": "sparrowhawk",
-      "aliases": [
-        "송골매"
-      ],
+      "aliases": [],
       "category": "animal",
       "polarity": "positive",
       "works": [

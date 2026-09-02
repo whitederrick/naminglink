@@ -494,7 +494,10 @@
     "aliases": [
       "저자",
       "장터",
-      "장날"
+      "장날",
+      "장이 열린",
+      "장이 선",
+      "장 구경"
     ],
     "aliases_en": [
       "market",
@@ -504,11 +507,15 @@
     ],
     "contexts": {
       "부부가 함께 시장에 들어감": "부부 아내 남편 함께 같이",
-      "시장에 사람이 하나도 없음": "아무도 없었 없는 한산 비어"
+      "시장에 사람이 하나도 없음": "아무도 없었 없는 한산 비어",
+      "장이 선 곳에 감": "장이",
+      "처녀가 장이 선 곳에 감": "처녀 아가씨 여자가"
     },
     "contexts_en": {
       "부부가 함께 시장에 들어감": "wife husband couple together",
-      "시장에 사람이 하나도 없음": "empty deserted nobody abandoned"
+      "시장에 사람이 하나도 없음": "empty deserted nobody abandoned",
+      "장이 선 곳에 감": "fair profitable congenial companion",
+      "처녀가 장이 선 곳에 감": "jovial tempered partner"
     }
   },
   {

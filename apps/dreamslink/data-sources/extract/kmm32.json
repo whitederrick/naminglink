@@ -1,0 +1,373 @@
+[
+  {
+    "id": "fable",
+    "aliases": [
+      "우화를",
+      "우화가",
+      "옛이야기"
+    ],
+    "aliases_en": [
+      "fables",
+      "a fable"
+    ],
+    "contexts": {
+      "우화를 읽거나 들려줌": "읽었 읽는 이야기해",
+      "젊은이가 우화를 봄": "젊은이 나이에",
+      "믿음에 관한 이야기를 듣거나 들려줌": "믿음 신앙 종교"
+    },
+    "contexts_en": {
+      "우화를 읽거나 들려줌": "reading telling pleasant literary",
+      "젊은이가 우화를 봄": "young romantic attachments",
+      "믿음에 관한 이야기를 듣거나 들려줌": "religious devotional"
+    }
+  },
+  {
+    "id": "fagot",
+    "aliases": [
+      "나뭇단",
+      "섶단",
+      "장작더미"
+    ],
+    "aliases_en": [
+      "fagots",
+      "a fagot"
+    ],
+    "contexts": {
+      "나뭇단에서 짙은 연기가 오름": "연기 자욱",
+      "나뭇단이 환하게 타오름": "환하게 활활 타올",
+      "타는 나뭇단 위를 걷다 뎀": "데었 화상 다쳤",
+      "타는 나뭇단 위를 데지 않고 건넘": "데지 멀쩡 무사히"
+    },
+    "contexts_en": {
+      "나뭇단에서 짙은 연기가 오름": "dense smoke ascending bearing",
+      "나뭇단이 환하게 타오름": "burning brightly complications",
+      "타는 나뭇단 위를 걷다 뎀": "walk injured unwise",
+      "타는 나뭇단 위를 데지 않고 건넘": "burned miraculous rise"
+    }
+  },
+  {
+    "id": "failure",
+    "aliases": [
+      "실패했다",
+      "실패를",
+      "실패가",
+      "그르쳤다"
+    ],
+    "aliases_en": [
+      "failure",
+      "failed"
+    ],
+    "contexts": {
+      "정든 이가 구애에 실패함": "구애 청혼 고백",
+      "처녀가 제 삶이 실패로 끝나리라 여김": "처녀 아가씨 삶이",
+      "장사하는 이가 일을 그르침": "장사 사업 가게"
+    },
+    "contexts_en": {
+      "정든 이가 구애에 실패함": "suit masterfulness daring",
+      "처녀가 제 삶이 실패로 끝나리라 여김": "young woman opportunities advantage",
+      "장사하는 이가 일을 그르침": "business management earnest"
+    }
+  },
+  {
+    "id": "fainting",
+    "aliases": [
+      "기절했다",
+      "까무러",
+      "정신을 잃",
+      "기절해",
+      "기절하"
+    ],
+    "aliases_en": [
+      "fainting",
+      "fainted"
+    ],
+    "contexts": {
+      "기절함": "내가 쓰러졌",
+      "처녀가 기절함": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "기절함": "illness absent unpleasant",
+      "처녀가 기절함": "young woman careless living"
+    }
+  },
+  {
+    "id": "fairy",
+    "aliases": [
+      "요정을",
+      "요정이"
+    ],
+    "aliases_en": [
+      "a fairy",
+      "fairies"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "faithless",
+    "aliases": [
+      "마음이 변",
+      "변심한",
+      "저버렸다",
+      "배신",
+      "마음이 변했다",
+      "마음이 변해"
+    ],
+    "aliases_en": [
+      "faithless",
+      "unfaithful"
+    ],
+    "contexts": {
+      "벗이 마음을 저버림": "벗이 친구가",
+      "정인이 마음을 저버림": "정인 애인 연인"
+    },
+    "contexts_en": {
+      "벗이 마음을 저버림": "friends worthy esteem",
+      "정인이 마음을 저버림": "sweetheart happy marriage"
+    }
+  },
+  {
+    "id": "fakir",
+    "aliases": [
+      "탁발승",
+      "탁발",
+      "고행자"
+    ],
+    "aliases_en": [
+      "a fakir",
+      "fakirs"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "falcon",
+    "aliases": [
+      "송골매를",
+      "송골매가",
+      "매가 날",
+      "보라매"
+    ],
+    "aliases_en": [
+      "a falcon",
+      "falcons"
+    ],
+    "contexts": {
+      "송골매를 봄": "날았 앉아",
+      "처녀가 송골매를 봄": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "송골매를 봄": "prosperity envy malice",
+      "처녀가 송골매를 봄": "young woman calumniated rival"
+    }
+  },
+  {
+    "id": "fall",
+    "aliases": [
+      "떨어졌다",
+      "추락했다",
+      "굴러떨어",
+      "떨어지는"
+    ],
+    "aliases_en": [
+      "a fall",
+      "falling down"
+    ],
+    "contexts": {
+      "떨어져 몹시 놀람": "놀랐 무서웠 아찔",
+      "떨어져 다침": "다쳤 다치 부러졌"
+    },
+    "contexts_en": {
+      "떨어져 몹시 놀람": "frightened struggle eventually",
+      "떨어져 다침": "injured hardships loss"
+    }
+  },
+  {
+    "id": "fame",
+    "aliases": [
+      "유명해",
+      "이름을 날",
+      "명성",
+      "유명해졌다",
+      "유명한",
+      "이름난"
+    ],
+    "aliases_en": [
+      "famous",
+      "fame"
+    ],
+    "contexts": {
+      "제가 이름난 사람이 됨": "내가 제가 스스로",
+      "이름난 사람을 봄": "이름난 유명한 사람들"
+    },
+    "contexts_en": {
+      "제가 이름난 사람이 됨": "disappointed aspirations own",
+      "이름난 사람을 봄": "people obscurity honor"
+    }
+  },
+  {
+    "id": "famine",
+    "aliases": [
+      "기근이",
+      "기근을",
+      "흉년"
+    ],
+    "aliases_en": [
+      "a famine"
+    ],
+    "contexts": {
+      "기근이 든 것을 봄": "들었 닥쳤",
+      "적이 기근으로 죽어 가는 것을 봄": "적이 적들 죽어가"
+    },
+    "contexts_en": {
+      "기근이 든 것을 봄": "unremunerative sickness scourge",
+      "적이 기근으로 죽어 가는 것을 봄": "enemies perishing competition"
+    }
+  },
+  {
+    "id": "famish",
+    "aliases": [
+      "굶주렸다",
+      "굶주리",
+      "주려서"
+    ],
+    "aliases_en": [
+      "famishing",
+      "famished"
+    ],
+    "contexts": {
+      "제가 굶주림": "내가 제가 배가",
+      "남이 굶주리는 것을 봄": "남이 남들이 사람들이"
+    },
+    "contexts_en": {
+      "제가 굶주림": "disheartening enterprise promising",
+      "남이 굶주리는 것을 봄": "others sorrow"
+    }
+  },
+  {
+    "id": "family",
+    "aliases": [
+      "가족",
+      "집안 식구",
+      "식구들"
+    ],
+    "aliases_en": [
+      "family"
+    ],
+    "contexts": {
+      "집안 식구가 화목하고 즐거움": "화목 즐거 웃고",
+      "집안에 병이나 다툼이 있음": "병이 다툼 싸우"
+    },
+    "contexts_en": {
+      "집안 식구가 화목하고 즐거움": "harmonious happy easy circumstances",
+      "집안에 병이나 다툼이 있음": "sickness contentions gloom"
+    }
+  },
+  {
+    "id": "fan",
+    "aliases": [
+      "부채를",
+      "부채가",
+      "부채질"
+    ],
+    "aliases_en": [
+      "a fan",
+      "fanning"
+    ],
+    "contexts": {
+      "부채를 봄": "보았 놓여",
+      "처녀가 부채질을 하거나 받음": "처녀 아가씨 부쳤",
+      "낡은 부채를 잃음": "잃었 낡은 오래된"
+    },
+    "contexts_en": {
+      "부채를 봄": "pleasant news surprises awaiting",
+      "처녀가 부채질을 하거나 받음": "young woman promise acquaintances",
+      "낡은 부채를 잃음": "loses warm interested women"
+    }
+  },
+  {
+    "id": "farm",
+    "aliases": [
+      "농장에",
+      "농장을",
+      "농장이"
+    ],
+    "aliases_en": [
+      "a farm",
+      "farms"
+    ],
+    "contexts": {
+      "농장에서 살고 있음": "살고 살았 지내",
+      "농장을 삼": "샀다 사들 매입",
+      "농장에 들름": "들렀 찾아갔 방문"
+    },
+    "contexts_en": {
+      "농장에서 살고 있음": "living fortunate undertakings",
+      "농장을 삼": "buying abundant crops voyage",
+      "농장에 들름": "visiting associations"
+    }
+  },
+  {
+    "id": "fates",
+    "aliases": [
+      "운명의 여신",
+      "운명을 가지고",
+      "세 여신"
+    ],
+    "aliases_en": [
+      "the fates",
+      "fate"
+    ],
+    "contexts": {
+      "운명의 여신을 봄": "보았 나타났",
+      "처녀가 운명을 가지고 놂": "처녀 아가씨 놀았"
+    },
+    "contexts_en": {
+      "운명의 여신을 봄": "unnecessary disagreements unhappiness",
+      "처녀가 운명을 가지고 놂": "juggling daringly interpose"
+    }
+  },
+  {
+    "id": "father",
+    "aliases": [
+      "아버지가",
+      "아버지를",
+      "아버님",
+      "부친"
+    ],
+    "aliases_en": [
+      "your father",
+      "my father"
+    ],
+    "contexts": {
+      "아버지를 봄": "살아 계신 만났",
+      "처녀가 돌아가신 아버지를 봄": "처녀 아가씨 여자가",
+      "돌아가신 아버지를 봄": "돌아가신 죽은"
+    },
+    "contexts_en": {
+      "아버지를 봄": "involved difficulty counsel",
+      "처녀가 돌아가신 아버지를 봄": "young woman lover false",
+      "돌아가신 아버지를 봄": "dead pulling heavily caution"
+    }
+  },
+  {
+    "id": "father-in-law",
+    "aliases": [
+      "시아버지가",
+      "시아버지를",
+      "장인어른",
+      "시아버님"
+    ],
+    "aliases_en": [
+      "father-in-law"
+    ],
+    "contexts": {
+      "시아버지를 봄": "보았 만났",
+      "시아버지가 성하고 밝은 낯으로 있음": "밝은 성하고 반갑"
+    },
+    "contexts_en": {
+      "시아버지를 봄": "contentions relatives",
+      "시아버지가 성하고 밝은 낯으로 있음": "well cheerful pleasant"
+    }
+  }
+]

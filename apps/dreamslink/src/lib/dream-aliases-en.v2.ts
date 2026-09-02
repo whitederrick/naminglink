@@ -5067,5 +5067,74 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "eyeglass": [
     "an eyeglass",
     "eyeglasses"
+  ],
+  "fable": [
+    "fables",
+    "a fable"
+  ],
+  "fagot": [
+    "fagots",
+    "a fagot"
+  ],
+  "failure": [
+    "failure",
+    "failed"
+  ],
+  "fainting": [
+    "fainting",
+    "fainted"
+  ],
+  "fairy": [
+    "a fairy",
+    "fairies"
+  ],
+  "faithless": [
+    "faithless",
+    "unfaithful"
+  ],
+  "fakir": [
+    "a fakir",
+    "fakirs"
+  ],
+  "falcon": [
+    "a falcon",
+    "falcons"
+  ],
+  "fall": [
+    "a fall",
+    "falling down"
+  ],
+  "fame": [
+    "famous",
+    "fame"
+  ],
+  "famine": [
+    "a famine"
+  ],
+  "famish": [
+    "famishing",
+    "famished"
+  ],
+  "family": [
+    "family"
+  ],
+  "fan": [
+    "a fan",
+    "fanning"
+  ],
+  "farm": [
+    "a farm",
+    "farms"
+  ],
+  "fates": [
+    "the fates",
+    "fate"
+  ],
+  "father": [
+    "your father",
+    "my father"
+  ],
+  "father-in-law": [
+    "father-in-law"
   ]
 };

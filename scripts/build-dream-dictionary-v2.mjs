@@ -203,6 +203,11 @@ const FALLBACK_FIRST = new Map([
   ["bequest", "유산(증여)에 관한 꿈을 꿈"],
   ["banishment", "외국으로 추방됨"],
   ["eyebrows", "눈썹이 머리털과 가지런히 자람"],
+
+  // 배치 32(밀러 Fables~Father-in-law)가 밀어낸 둘. 둘 다 **있던 답 그대로** 둔다
+  // (2026-09-02).
+  ["face", "얼굴에 검은 부스럼이 남"],
+  ["marketplace", "부부가 함께 시장에 들어감"],
 ]);
 
 /**
