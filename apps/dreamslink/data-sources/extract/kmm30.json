@@ -252,7 +252,12 @@
       "마법을",
       "마법이",
       "홀리려",
-      "홀려 있"
+      "홀려 있",
+      "주술을",
+      "주술로",
+      "주문을 욈",
+      "주문을 외웠다",
+      "주문을 외는"
     ],
     "aliases_en": [
       "enchantment",
@@ -262,12 +267,16 @@
     "contexts": {
       "마법에 홀려 있음": "홀려 걸려 씌어",
       "마법을 뿌리침": "뿌리쳤 뿌리치 이겨냈 벗어났",
-      "남을 홀리려 함": "남을 홀리려 부리려"
+      "남을 홀리려 함": "남을 홀리려 부리려",
+      "제가 주술을 욈": "제가 내가 욌다",
+      "남들이 주술을 되뇌는 것을 들음": "남들이 되뇌 중얼거리는 것을 들었다"
     },
     "contexts_en": {
       "마법에 홀려 있음": "exposed pleasure careful",
       "마법을 뿌리침": "resist sought counsels",
-      "남을 홀리려 함": "trying enchant fall"
+      "남을 홀리려 함": "trying enchant fall",
+      "제가 주술을 욈": "using incantations unpleasantness husband sweethearts",
+      "남들이 주술을 되뇌는 것을 들음": "others repeating implies dissembling"
     }
   },
   {

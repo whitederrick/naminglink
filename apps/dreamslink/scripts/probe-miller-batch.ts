@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 59 — Illumination~Imps, 19건)
+// (지금 담긴 것: 배치 60 — Inauguration~Independent, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "illumination", ctx: "기이한 빛을 봄", text: "기이한 빛이 보였다" },
-  { id: "illumination", ctx: "얼굴이 환하게 빛나는 것을 봄", text: "얼굴이 환한 빛으로 빛났다" },
-  { id: "illumination", ctx: "하늘이 환한데 달과 별과 해가 괴이함", text: "하늘에 빛이 가득한데 달이 괴이했다" },
-  { id: "illumination", ctx: "환한 하늘에 아이들이 있는 것을 봄", text: "빛이 가득한 하늘에 아이들이 있었다" },
-  { id: "illumination", ctx: "하늘에 빛나는 사람이나 짐승의 모습을 봄", text: "하늘에 빛이 나는 짐승이 있었다" },
-  { id: "illumination", ctx: "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨", text: "빛이 땅에 떨어지자 사람들이 총을 쏘았다" },
-  { id: "illumination", ctx: "빛나는 뱀이나 기어 다니는 것을 봄", text: "빛이 나는 뱀이 기어 다녔다" },
-  { id: "image", ctx: "형상을 봄", text: "형상을 보았다" },
-  { id: "image", ctx: "집 안에 형상을 세움", text: "집에 형상을 세웠다" },
-  { id: "image", ctx: "흉하게 생긴 형상을 봄", text: "흉하게 생긴 형상을 보았다" },
-  { id: "imitation", ctx: "흉내 낸 것을 봄", text: "흉내 낸 것을 보았다" },
-  { id: "imitation", ctx: "누가 제 정인이나 저를 흉내 냄", text: "누가 내 애인을 흉내 내고 있었다" },
-  { id: "implement", ctx: "연장을 봄", text: "연장을 보았다" },
-  { id: "implement", ctx: "연장이 부러져 있음", text: "연장이 부러져 있었다" },
-  { id: "fiend", ctx: "작은 악귀들을 봄", text: "작은 악귀들을 보았다" },
-  { id: "fiend", ctx: "제가 작은 악귀가 됨", text: "내가 작은 악귀가 되어 있었다" },
+  { id: "inauguration", ctx: "취임식 꿈을 꿈", text: "취임식에서 높은 자리에 올랐다" },
+  { id: "inauguration", ctx: "취임식에 갔다가 실망함", text: "취임식에 갔다가 실망했다" },
+  { id: "enchantment", ctx: "제가 주술을 욈", text: "내가 주술을 외고 있었다" },
+  { id: "enchantment", ctx: "남들이 주술을 되뇌는 것을 들음", text: "남들이 주술을 되뇌는 것을 들었다" },
+  { id: "incoherency", ctx: "말이 앞뒤 없이 뒤엉킴", text: "말이 뒤죽박죽이 되어 나왔다" },
+  { id: "income", ctx: "제 수입을 손에 쥠", text: "수입을 손에 쥐었다" },
+  { id: "income", ctx: "집안 사람이 수입을 물려받음", text: "집안 사람이 수입을 물려받았다" },
+  { id: "income", ctx: "여자가 제 수입을 잃음", text: "여자가 수입을 잃었다" },
+  { id: "income", ctx: "수입이 살기에 모자람", text: "수입이 모자라 살기 힘들었다" },
+  { id: "income", ctx: "수입이 얼마쯤 남아 있음", text: "수입이 얼마쯤 남아 있었다" },
+  { id: "increase", ctx: "식구가 늘어남", text: "식구가 늘어났다" },
+  { id: "increase", ctx: "하는 일이 늘어남", text: "장사가 늘어났다" },
+  { id: "independent", ctx: "제가 아주 홀로 섬", text: "내가 아주 독립해 있었다" },
+  { id: "independent", ctx: "살림이 넉넉해져 홀로 섬", text: "재물이 넉넉해져 독립했다" },
 
-  // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "fiend", ctx: "악귀를 봄", text: "악귀를 보았다" },
-  { id: "fiend", ctx: "악귀를 이김", text: "악귀를 물리쳤다" },
-  { id: "fiend", ctx: "악귀와 마주침", text: "악귀와 맞닥뜨렸다" },
+  // 이 배치가 별칭·판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "enchantment", ctx: "마법에 홀려 있음", text: "마법에 홀려 있었다" },
+  { id: "enchantment", ctx: "마법을 뿌리침", text: "마법을 뿌리쳤다" },
+  { id: "enchantment", ctx: "남을 홀리려 함", text: "남을 홀리려 했다" },
+  // 새 이름이 스쳐 가는 자리 — 「취임식」⊃「취임」(official-post) · 「돈벌이」⊃「벌」(bee)
+  { id: "official-post", ctx: "새로 벼슬을 받음", text: "새로 벼슬을 받았다" },
 ];
 
 let notFound = 0;

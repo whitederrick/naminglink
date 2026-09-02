@@ -59,6 +59,7 @@
     "m58.json",
     "m59.json",
     "m6.json",
+    "m60.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -27102,6 +27103,106 @@
       ]
     },
     {
+      "id": "enchantment",
+      "term_ko": "마법에 홀림",
+      "term_en": "enchantment",
+      "aliases": [
+        "홀렸다",
+        "마법에 걸렸다",
+        "주술에",
+        "홀려서",
+        "마법에 홀려",
+        "마법을",
+        "마법이",
+        "홀리려",
+        "홀려 있",
+        "주술을",
+        "주술로",
+        "주문을 욈",
+        "주문을 외웠다",
+        "주문을 외는"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마법에 홀려 있음",
+          "interpretation_ko": "조심하지 않으면 즐거움의 탈을 쓴 궂은일에 빠질 흉한 조짐",
+          "interpretation_en": "if you are not careful you will be exposed to some evil in the form of pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Enchantment",
+              "original": "To dream of being under the spell of enchantment, denotes that if you are not careful you will be exposed to some evil in the form of pleasure.",
+              "translation_ko": "마법에 홀려 있는 꿈은, 조심하지 않으면 즐거움의 모습을 한 궂은일에 빠짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "마법을 뿌리침",
+          "interpretation_ko": "슬기로운 말과 너그러움으로 사람들이 많이 찾을 길한 조짐",
+          "interpretation_en": "you will be much sought after for your wise counsels and your liberality",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Enchantment",
+              "original": "To resist enchantment, foretells that you will be much sought after for your wise counsels and your liberality.",
+              "translation_ko": "마법을 뿌리치는 꿈은, 슬기로운 말과 너그러움으로 사람들이 많이 찾게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "남을 홀리려 함",
+          "interpretation_ko": "스스로 궂은일에 빠질 흉한 조짐",
+          "interpretation_en": "portends that you will fall into evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Enchantment",
+              "original": "To dream of trying to enchant others, portends that you will fall into evil.",
+              "translation_ko": "남을 홀리려 하는 꿈은, 스스로 궂은일에 빠짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제가 주술을 욈",
+          "interpretation_ko": "부부나 정인 사이가 껄끄러워질 흉한 조짐",
+          "interpretation_en": "signifies unpleasantness between husband and wife, or sweethearts",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Incantation",
+              "original": "To dream you are using incantations, signifies unpleasantness between husband and wife, or sweethearts.",
+              "translation_ko": "제가 주술을 외는 꿈을 꾸면 부부나 정인 사이가 껄끄러워진다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 주술을 되뇌는 것을 들음",
+          "interpretation_ko": "벗들 사이에 속내를 숨기는 일이 있을 흉한 조짐",
+          "interpretation_en": "implies dissembling among your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Incantation",
+              "original": "To hear others repeating them, implies dissembling among your friends.",
+              "translation_ko": "남들이 그것을 되뇌는 것을 들으면 벗들 사이에 속내를 숨기는 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "entrails",
       "term_ko": "창자",
       "term_en": "entrails",
@@ -28705,6 +28806,94 @@
               "locator": "Ice",
               "original": "To see them on trees, despondent hopes will grow gloomier.",
               "translation_ko": "나무에 달린 고드름을 보면 풀 죽은 희망이 더 어두워진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "income",
+      "term_ko": "수입",
+      "term_en": "income",
+      "aliases": [
+        "소득",
+        "돈벌이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 수입을 손에 쥠",
+          "interpretation_ko": "남을 속여 집안과 벗에게 근심을 안길 흉한 조짐",
+          "interpretation_en": "denotes that you may deceive some one and cause trouble to your family and friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Income",
+              "original": "To dream of coming into the possession of your income, denotes that you may deceive some one and cause trouble to your family and friends.",
+              "translation_ko": "제 수입을 손에 쥐는 꿈을 꾸면 남을 속여 집안과 벗에게 근심을 안긴다"
+            }
+          ]
+        },
+        {
+          "context": "집안 사람이 수입을 물려받음",
+          "interpretation_ko": "일이 잘 풀릴 길한 조짐",
+          "interpretation_en": "predicts success for you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Income",
+              "original": "To dream that some of your family inherits an income, predicts success for you.",
+              "translation_ko": "집안 누군가가 수입을 물려받는 꿈을 꾸면 일이 잘 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 제 수입을 잃음",
+          "interpretation_ko": "살아가며 실망할 일이 있을 흉한 조짐",
+          "interpretation_en": "signifies disappointments in life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Income",
+              "original": "For a woman to dream of losing her income, signifies disappointments in life.",
+              "translation_ko": "여자가 제 수입을 잃는 꿈을 꾸면 살아가며 실망할 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "수입이 살기에 모자람",
+          "interpretation_ko": "가까운 이나 벗에게 근심이 생길 흉한 조짐",
+          "interpretation_en": "denotes trouble to relatives or friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Income",
+              "original": "To dream that your income is insufficient to support you, denotes trouble to relatives or friends.",
+              "translation_ko": "수입이 살아가기에 모자라는 꿈을 꾸면 가까운 이나 벗에게 근심이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "수입이 얼마쯤 남아 있음",
+          "interpretation_ko": "짧은 동안은 크게 잘되나 받는 것보다 더 바라게 될 조짐",
+          "interpretation_en": "signifies that you will be very successful for a short time, but you may expect more than you receive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Income",
+              "original": "To dream of a portion of your income remaining, signifies that you will be very successful for a short time, but you may expect more than you receive.",
+              "translation_ko": "수입 가운데 얼마가 남아 있는 꿈을 꾸면 짧은 동안 크게 잘되나 받는 것보다 더 바라게 된다"
             }
           ]
         }
@@ -45700,73 +45889,6 @@
               "locator": "Employment",
               "original": "Giving employment to others, indicates loss for yourself.",
               "translation_ko": "남에게 일자리를 주는 꿈은 제게 돌아올 손해를 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "enchantment",
-      "term_ko": "마법에 홀림",
-      "term_en": "enchantment",
-      "aliases": [
-        "홀렸다",
-        "마법에 걸렸다",
-        "주술에",
-        "홀려서",
-        "마법에 홀려",
-        "마법을",
-        "마법이",
-        "홀리려",
-        "홀려 있"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마법에 홀려 있음",
-          "interpretation_ko": "조심하지 않으면 즐거움의 탈을 쓴 궂은일에 빠질 흉한 조짐",
-          "interpretation_en": "if you are not careful you will be exposed to some evil in the form of pleasure",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Enchantment",
-              "original": "To dream of being under the spell of enchantment, denotes that if you are not careful you will be exposed to some evil in the form of pleasure.",
-              "translation_ko": "마법에 홀려 있는 꿈은, 조심하지 않으면 즐거움의 모습을 한 궂은일에 빠짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "마법을 뿌리침",
-          "interpretation_ko": "슬기로운 말과 너그러움으로 사람들이 많이 찾을 길한 조짐",
-          "interpretation_en": "you will be much sought after for your wise counsels and your liberality",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Enchantment",
-              "original": "To resist enchantment, foretells that you will be much sought after for your wise counsels and your liberality.",
-              "translation_ko": "마법을 뿌리치는 꿈은, 슬기로운 말과 너그러움으로 사람들이 많이 찾게 됨을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "남을 홀리려 함",
-          "interpretation_ko": "스스로 궂은일에 빠질 흉한 조짐",
-          "interpretation_en": "portends that you will fall into evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Enchantment",
-              "original": "To dream of trying to enchant others, portends that you will fall into evil.",
-              "translation_ko": "남을 홀리려 하는 꿈은, 스스로 궂은일에 빠짐을 알린다"
             }
           ]
         }
@@ -65868,6 +65990,154 @@
       ]
     },
     {
+      "id": "inauguration",
+      "term_ko": "취임식",
+      "term_en": "inauguration",
+      "aliases": [
+        "취임하는 자리"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "취임식 꿈을 꿈",
+          "interpretation_ko": "이제까지보다 높은 자리에 오를 길한 조짐",
+          "interpretation_en": "denotes you will rise to higher position than you have yet enjoyed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inauguration",
+              "original": "To dream of inauguration, denotes you will rise to higher position than you have yet enjoyed.",
+              "translation_ko": "취임식 꿈은 이제까지 누린 것보다 높은 자리에 오르리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "취임식에 갔다가 실망함",
+          "interpretation_ko": "바라던 것을 얻지 못할 흉한 조짐",
+          "interpretation_en": "predicts she will fail to obtain her wishes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inauguration",
+              "original": "For a young woman to be disappointed in attending an inauguration, predicts she will fail to obtain her wishes.",
+              "translation_ko": "젊은 여성이 취임식에 갔다가 실망하면 바라던 것을 얻지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "increase",
+      "term_ko": "늘어남",
+      "term_en": "increase",
+      "aliases": [
+        "늘어났다",
+        "늘어난",
+        "늘어나는",
+        "늘었다",
+        "불어났다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "식구가 늘어남",
+          "interpretation_ko": "세운 일 가운데 어떤 것은 어그러지고 다른 것은 잘될 조짐",
+          "interpretation_en": "may denote failure in some of your plans, and success to another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Increase",
+              "original": "To dream of an increase in your family, may denote failure in some of your plans, and success to another.",
+              "translation_ko": "집안 식구가 느는 꿈은 세운 일 가운데 어떤 것은 어그러지고 다른 것은 잘되리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "하는 일이 늘어남",
+          "interpretation_ko": "지금의 근심을 이겨 낼 길한 조짐",
+          "interpretation_en": "signifies that you will overcome existing troubles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Increase",
+              "original": "To dream of an increase in your business, signifies that you will overcome existing troubles.",
+              "translation_ko": "하는 일이 느는 꿈을 꾸면 지금의 근심을 이겨 낸다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independent",
+      "term_ko": "자립",
+      "term_en": "independent",
+      "aliases": [
+        "독립",
+        "독립해",
+        "독립했다",
+        "독립한",
+        "독립하는",
+        "자립해",
+        "자립했다",
+        "홀로서기",
+        "홀로 섰다",
+        "혼자 힘으로"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 아주 홀로 섬",
+          "interpretation_ko": "억울한 일을 안길 맞수가 있을 흉한 조짐",
+          "interpretation_en": "denotes that you have a rival who may do you an injustice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Independent",
+              "original": "To dream that you are very independent, denotes that you have a rival who may do you an injustice.",
+              "translation_ko": "제가 아주 홀로 선 꿈을 꾸면 억울한 일을 안길 맞수가 있다"
+            }
+          ]
+        },
+        {
+          "context": "살림이 넉넉해져 홀로 섬",
+          "interpretation_ko": "그때는 바라던 만큼 잘되지 않으나 끝내 좋은 결과가 따를 길한 조짐",
+          "interpretation_en": "you may not be so successful at that time as you expect, but good results are promised",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Independent",
+              "original": "To dream that you gain an independence of wealth, you may not be so succcessful{sic} at that time as you expect, but good results are promised.",
+              "translation_ko": "재물이 넉넉해져 홀로 서는 꿈을 꾸면 그때는 바라던 만큼 잘되지 않으나 끝내 좋은 결과가 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -75867,6 +76137,39 @@
               "locator": "佛道僧尼鬼神",
               "original": "燒香禮拜皆大吉",
               "translation_ko": "향을 사르고 절하면 모두 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incoherency",
+      "term_ko": "횡설수설",
+      "term_en": "incoherency",
+      "aliases": [
+        "말이 뒤죽박죽",
+        "앞뒤가 안 맞는",
+        "두서없이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "말이 앞뒤 없이 뒤엉킴",
+          "interpretation_ko": "쉬지 않고 바뀌는 일들에 짓눌려 몹시 불안하고 들뜰 흉한 조짐",
+          "interpretation_en": "usually denotes extreme nervousness and excitement through the oppression of changing events",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Incoherent",
+              "original": "To dream of incoherency, usually denotes extreme nervousness and excitement through the oppression of changing events.",
+              "translation_ko": "횡설수설하는 꿈은 쉬지 않고 바뀌는 일들에 짓눌린 극심한 불안과 들뜸을 뜻한다"
             }
           ]
         }

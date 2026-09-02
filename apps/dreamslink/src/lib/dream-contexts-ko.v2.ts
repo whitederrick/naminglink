@@ -3073,6 +3073,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "enchantment::마법에 홀려 있음": "홀려 걸려 씌어",
   "enchantment::마법을 뿌리침": "뿌리쳤 뿌리치 이겨냈 벗어났",
   "enchantment::남을 홀리려 함": "남을 홀리려 부리려",
+  "enchantment::제가 주술을 욈": "제가 내가 욌다",
+  "enchantment::남들이 주술을 되뇌는 것을 들음": "남들이 되뇌 중얼거리는 것을 들었다",
   "engagement::약혼함": "맺었 하기로 반지를",
   "engagement::약혼을 깸": "깼다 깨뜨 파혼 물렀",
   "engine::기관차를 봄": "달리는 지나가는",
@@ -3587,5 +3589,16 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "imitation::흉내 낸 것을 봄": "가짜 모조",
   "imitation::누가 제 정인이나 저를 흉내 냄": "정인 애인 연인 나를",
   "implement::연장을 봄": "여러 연장들",
-  "implement::연장이 부러져 있음": "부러 망가 부서"
+  "implement::연장이 부러져 있음": "부러 망가 부서",
+  "inauguration::취임식 꿈을 꿈": "높은 자리에 올랐",
+  "inauguration::취임식에 갔다가 실망함": "실망 서운 시들",
+  "income::제 수입을 손에 쥠": "손에 쥐었 갖게",
+  "income::집안 사람이 수입을 물려받음": "물려받았다 상속 집안 사람이",
+  "income::여자가 제 수입을 잃음": "여자가 여성이 잃었다",
+  "income::수입이 살기에 모자람": "모자라 부족 빠듯",
+  "income::수입이 얼마쯤 남아 있음": "남아 남았다 얼마쯤",
+  "increase::식구가 늘어남": "식구 가족 집안 사람이",
+  "increase::하는 일이 늘어남": "장사 사업 하는 일이",
+  "independent::제가 아주 홀로 섬": "제가 내가 나는",
+  "independent::살림이 넉넉해져 홀로 섬": "살림 재물 넉넉"
 };

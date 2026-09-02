@@ -1,0 +1,105 @@
+[
+  {
+    "id": "inauguration",
+    "aliases": [
+      "취임하는 자리"
+    ],
+    "aliases_en": [
+      "an inauguration"
+    ],
+    "contexts": {
+      "취임식 꿈을 꿈": "높은 자리에 올랐",
+      "취임식에 갔다가 실망함": "실망 서운 시들"
+    },
+    "contexts_en": {
+      "취임식 꿈을 꿈": "rise higher position enjoyed",
+      "취임식에 갔다가 실망함": "young woman disappointed attending obtain wishes"
+    }
+  },
+  {
+    "id": "incoherency",
+    "aliases": [
+      "말이 뒤죽박죽",
+      "앞뒤가 안 맞는",
+      "두서없이"
+    ],
+    "aliases_en": [
+      "incoherency",
+      "incoherent"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "income",
+    "aliases": [
+      "소득",
+      "돈벌이"
+    ],
+    "aliases_en": [
+      "an income",
+      "my income"
+    ],
+    "contexts": {
+      "제 수입을 손에 쥠": "손에 쥐었 갖게",
+      "집안 사람이 수입을 물려받음": "물려받았다 상속 집안 사람이",
+      "여자가 제 수입을 잃음": "여자가 여성이 잃었다",
+      "수입이 살기에 모자람": "모자라 부족 빠듯",
+      "수입이 얼마쯤 남아 있음": "남아 남았다 얼마쯤"
+    },
+    "contexts_en": {
+      "제 수입을 손에 쥠": "coming possession deceive",
+      "집안 사람이 수입을 물려받음": "inherits predicts",
+      "여자가 제 수입을 잃음": "losing disappointments life",
+      "수입이 살기에 모자람": "insufficient support relatives",
+      "수입이 얼마쯤 남아 있음": "portion remaining short expect receive"
+    }
+  },
+  {
+    "id": "increase",
+    "aliases": [
+      "늘어났다",
+      "늘어난",
+      "늘어나는",
+      "늘었다",
+      "불어났다"
+    ],
+    "aliases_en": [
+      "an increase"
+    ],
+    "contexts": {
+      "식구가 늘어남": "식구 가족 집안 사람이",
+      "하는 일이 늘어남": "장사 사업 하는 일이"
+    },
+    "contexts_en": {
+      "식구가 늘어남": "family failure plans another",
+      "하는 일이 늘어남": "business overcome existing troubles"
+    }
+  },
+  {
+    "id": "independent",
+    "aliases": [
+      "독립",
+      "독립해",
+      "독립했다",
+      "독립한",
+      "독립하는",
+      "자립해",
+      "자립했다",
+      "홀로서기",
+      "홀로 섰다",
+      "혼자 힘으로"
+    ],
+    "aliases_en": [
+      "independence"
+    ],
+    "contexts": {
+      "제가 아주 홀로 섬": "제가 내가 나는",
+      "살림이 넉넉해져 홀로 섬": "살림 재물 넉넉"
+    },
+    "contexts_en": {
+      "제가 아주 홀로 섬": "rival injustice",
+      "살림이 넉넉해져 홀로 섬": "gain wealth expect promised"
+    }
+  }
+]

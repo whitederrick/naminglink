@@ -3069,6 +3069,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "enchantment::마법에 홀려 있음": "exposed pleasure careful",
   "enchantment::마법을 뿌리침": "resist sought counsels",
   "enchantment::남을 홀리려 함": "trying enchant fall",
+  "enchantment::제가 주술을 욈": "using incantations unpleasantness husband sweethearts",
+  "enchantment::남들이 주술을 되뇌는 것을 들음": "others repeating implies dissembling",
   "engagement::약혼함": "young people admired",
   "engagement::약혼을 깸": "breaking hasty unwise",
   "engine::기관차를 봄": "grave difficulties journeys uphold",
@@ -3583,5 +3585,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "imitation::흉내 낸 것을 봄": "persons working deceive",
   "imitation::누가 제 정인이나 저를 흉내 냄": "young woman lover herself imposed faults",
   "implement::연장을 봄": "unsatisfactory means accomplishing",
-  "implement::연장이 부러져 있음": "broken threatened serious relatives failure"
+  "implement::연장이 부러져 있음": "broken threatened serious relatives failure",
+  "inauguration::취임식 꿈을 꿈": "rise higher position enjoyed",
+  "inauguration::취임식에 갔다가 실망함": "young woman disappointed attending obtain wishes",
+  "income::제 수입을 손에 쥠": "coming possession deceive",
+  "income::집안 사람이 수입을 물려받음": "inherits predicts",
+  "income::여자가 제 수입을 잃음": "losing disappointments life",
+  "income::수입이 살기에 모자람": "insufficient support relatives",
+  "income::수입이 얼마쯤 남아 있음": "portion remaining short expect receive",
+  "increase::식구가 늘어남": "family failure plans another",
+  "increase::하는 일이 늘어남": "business overcome existing troubles",
+  "independent::제가 아주 홀로 섬": "rival injustice",
+  "independent::살림이 넉넉해져 홀로 섬": "gain wealth expect promised"
 };

@@ -5707,5 +5707,22 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "implement": [
     "implements"
+  ],
+  "inauguration": [
+    "an inauguration"
+  ],
+  "incoherency": [
+    "incoherency",
+    "incoherent"
+  ],
+  "income": [
+    "an income",
+    "my income"
+  ],
+  "increase": [
+    "an increase"
+  ],
+  "independent": [
+    "independence"
   ]
 };
