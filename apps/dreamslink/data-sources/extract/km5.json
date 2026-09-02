@@ -825,8 +825,20 @@
       "hoarfrost",
       "frozen dew"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "서리가 내림": "내렸 내려앉 하얗게",
+      "어둡고 음산한 아침에 내린 서리를 봄": "어둡 음산 아침",
+      "햇빛 드는 자그마한 들녘에 내린 서리를 봄": "햇빛 들녘 햇살",
+      "처녀가 서리 속에 있는 벗을 봄": "처녀 아가씨",
+      "서리 속에 있는 벗을 봄": "벗을 친구를 동무"
+    },
+    "contexts_en": {
+      "서리가 내림": "fell settled white",
+      "어둡고 음산한 아침에 내린 서리를 봄": "dark gloomy morning exile",
+      "햇빛 드는 자그마한 들녘에 내린 서리를 봄": "sunlit landscape gilded",
+      "처녀가 서리 속에 있는 벗을 봄": "young woman absence waning",
+      "서리 속에 있는 벗을 봄": "friend love affair rival"
+    }
   },
   {
     "id": "hand",

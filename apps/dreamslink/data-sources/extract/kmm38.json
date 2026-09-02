@@ -1,0 +1,192 @@
+[
+  {
+    "id": "fruit",
+    "aliases": [
+      "과일",
+      "풋과일",
+      "생과일"
+    ],
+    "aliases_en": [
+      "fruit",
+      "fruits"
+    ],
+    "contexts": {
+      "잎 사이에서 익어 가는 과일을 봄": "익어 매달린",
+      "처녀가 풋과일을 먹음": "처녀 아가씨",
+      "풋과일을 봄": "풋과일 설익",
+      "과일을 사고팖": "샀다 팔았 사고팔",
+      "잘 익은 과일을 보거나 먹음": "익은 먹었"
+    },
+    "contexts_en": {
+      "잎 사이에서 익어 가는 과일을 봄": "foliage prosperous among",
+      "처녀가 풋과일을 먹음": "young woman degradation inheritance",
+      "풋과일을 봄": "green disappointed hasty",
+      "과일을 사고팖": "buy sell remunerative",
+      "잘 익은 과일을 보거나 먹음": "ripe uncertain fortune"
+    }
+  },
+  {
+    "id": "fruit-seller",
+    "aliases": [
+      "과일장수",
+      "과일 장수",
+      "과일가게"
+    ],
+    "aliases_en": [
+      "a fruit seller",
+      "fruit sellers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "furnace",
+    "aliases": [
+      "용광로",
+      "도가니",
+      "쇳물 가마"
+    ],
+    "aliases_en": [
+      "a furnace",
+      "furnaces"
+    ],
+    "contexts": {
+      "불이 지펴진 용광로를 봄": "지펴 타오르 돌아가",
+      "망가진 용광로를 봄": "망가 부서 고장",
+      "용광로에 빠짐": "빠졌 빠져 떨어졌"
+    },
+    "contexts_en": {
+      "불이 지펴진 용광로를 봄": "running good luck",
+      "망가진 용광로를 봄": "repair trouble children hired",
+      "용광로에 빠짐": "fall enemy overpower struggle"
+    }
+  },
+  {
+    "id": "fur",
+    "aliases": [
+      "모피",
+      "털가죽",
+      "밍크"
+    ],
+    "aliases_en": [
+      "fur",
+      "furs"
+    ],
+    "contexts": {
+      "모피를 걸침": "걸쳤 입었 둘렀",
+      "모피를 사고파는 일을 함": "사고파 팔았 장사",
+      "고운 모피를 봄": "고운 훌륭",
+      "처녀가 값진 모피를 입음": "처녀 값진 아가씨"
+    },
+    "contexts_en": {
+      "모피를 걸침": "dressed safety want poverty",
+      "모피를 사고파는 일을 함": "dealing prosperity many concerns",
+      "고운 모피를 봄": "fine honor riches",
+      "처녀가 값진 모피를 입음": "young woman costly wise"
+    }
+  },
+  {
+    "id": "future",
+    "aliases": [
+      "앞날",
+      "미래",
+      "장래"
+    ],
+    "aliases_en": [
+      "the future"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "gaiter",
+    "aliases": [
+      "각반",
+      "행전"
+    ],
+    "aliases_en": [
+      "gaiters",
+      "a gaiter"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "gallows",
+    "aliases": [
+      "교수대",
+      "교수형",
+      "목매달았다",
+      "목매달아",
+      "목을 매달았다",
+      "목맴"
+    ],
+    "aliases_en": [
+      "the gallows",
+      "a gallows"
+    ],
+    "contexts": {
+      "벗이 교수대에 오른 것을 봄": "벗이 친구가 동무",
+      "제가 교수대에 오름": "내가 제가",
+      "처녀가 정인이 교수대에서 죽는 것을 봄": "처녀 정인 아가씨",
+      "교수대에서 남을 구해 냄": "구해 구했 살려",
+      "원수를 목매닮": "원수 목매 매달았"
+    },
+    "contexts_en": {
+      "벗이 교수대에 오른 것을 봄": "friend execution emergencies calamity",
+      "제가 교수대에 오름": "suffer maliciousness false",
+      "처녀가 정인이 교수대에서 죽는 것을 봄": "lover executed unscrupulous designing",
+      "교수대에서 남을 구해 냄": "rescue desirable acquisitions",
+      "원수를 목매닮": "hang enemy victory"
+    }
+  },
+  {
+    "id": "game",
+    "aliases": [
+      "사냥감",
+      "사냥거리"
+    ],
+    "aliases_en": [
+      "game"
+    ],
+    "contexts": {
+      "사냥감을 잡음": "잡았 쏘았 죽였",
+      "사냥감을 놓침": "놓쳤 놓치 못잡"
+    },
+    "contexts_en": {
+      "사냥감을 잡음": "shooting killing fortunate undertakings",
+      "사냥감을 놓침": "fail take hunt management loss"
+    }
+  },
+  {
+    "id": "gangrene",
+    "aliases": [
+      "괴저",
+      "탈저"
+    ],
+    "aliases_en": [
+      "gangrene"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "garbage",
+    "aliases": [
+      "쓰레기",
+      "쓰레기더미",
+      "오물"
+    ],
+    "aliases_en": [
+      "garbage"
+    ],
+    "contexts": {
+      "쓰레기 더미를 봄": "쌓여 수북",
+      "여성이 쓰레기 더미를 봄": "여자가 여성이"
+    },
+    "contexts_en": {
+      "쓰레기 더미를 봄": "heaps scandal unfavorable",
+      "여성이 쓰레기 더미를 봄": "females disparagement desertion lovers"
+    }
+  }
+]

@@ -16,12 +16,22 @@
     "contexts": {
       "햇빛이 비치는 가운데 친척의 장례에 참석함": "햇빛 햇살 맑은 화창 친척",
       "비 오고 음산한 날씨의 장례": "비가 빗속 흐린 음산 궂은",
-      "슬픈 의식과 비통한 얼굴이 있는 장례": "슬픈 슬프 울고 비통 통곡"
+      "슬픈 의식과 비통한 얼굴이 있는 장례": "슬픈 슬프 울고 비통 통곡",
+      "장례를 봄": "장례식을 상여를",
+      "낯선 이의 장례를 봄": "낯선 모르는",
+      "제 아이의 장례를 봄": "아이의 자식의 아들의",
+      "검은 옷을 입고 장례에 참석함": "검은 상복 검정",
+      "살붙이의 장례를 봄": "살붙이 일가 친지"
     },
     "contexts_en": {
       "햇빛이 비치는 가운데 친척의 장례에 참석함": "sunshine sunny bright shining relative",
       "비 오고 음산한 날씨의 장례": "rain rainy dismal gloomy weather",
-      "슬픈 의식과 비통한 얼굴이 있는 장례": "sad sorrowing weeping mourning grief"
+      "슬픈 의식과 비통한 얼굴이 있는 장례": "sad sorrowing weeping mourning grief",
+      "장례를 봄": "unhappy marriage sickly offspring",
+      "낯선 이의 장례를 봄": "stranger unexpected worries",
+      "제 아이의 장례를 봄": "child grave friendly source",
+      "검은 옷을 입고 장례에 참석함": "attend black early widowhood",
+      "살붙이의 장례를 봄": "nervous troubles family"
     }
   },
   {

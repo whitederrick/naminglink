@@ -159,7 +159,9 @@
       "감방",
       "옥살이",
       "교도소",
-      "형무소"
+      "형무소",
+      "빠져나왔다",
+      "탈옥"
     ],
     "aliases_en": [
       "jail",
@@ -178,7 +180,8 @@
       "감옥이 더럽고 냄새남": "더럽 냄새 악취 지저분",
       "여성이 지하 감옥에 갇혀 있음": "여자가 처녀가 여성이",
       "불이 밝혀진 지하 감옥을 봄": "밝혀진 환하 불빛이 밝은",
-      "지하 감옥에 갇혀 있음": "지하 토굴 지하실"
+      "지하 감옥에 갇혀 있음": "지하 토굴 지하실",
+      "감옥에서 빠져나옴": "빠져나 도망 탈옥"
     },
     "contexts_en": {
       "감옥이 무너짐": "collapsed crumbling ruined",
@@ -191,7 +194,8 @@
       "감옥이 더럽고 냄새남": "filthy dirty stench smell",
       "여성이 지하 감옥에 갇혀 있음": "woman indiscretion honorable",
       "불이 밝혀진 지하 감옥을 봄": "lighted entanglements",
-      "지하 감옥에 갇혀 있음": "struggles disenthrall obstacles"
+      "지하 감옥에 갇혀 있음": "struggles disenthrall obstacles",
+      "감옥에서 빠져나옴": "escape favorable season"
     }
   },
   {

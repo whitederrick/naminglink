@@ -1,0 +1,632 @@
+[
+  {
+    "term_ko": "서리",
+    "term_en": "frost",
+    "context": "어둡고 음산한 아침에 내린 서리를 봄",
+    "interpretation_ko": "낯선 땅으로 쫓겨나 떠돌지만 그 떠돎이 끝내 평안으로 맺힐 조짐",
+    "interpretation_en": "signifies exile to a strange country, but your wanderings will end in peace",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Frost",
+      "original": "To dream of seeing frost on a dark gloomy morning, signifies exile to a strange country, but your wanderings will end in peace.",
+      "translation_ko": "어둡고 음산한 아침에 서리를 보는 꿈은, 낯선 나라로의 쫓겨남을 뜻하나 그 떠돎은 평안으로 끝난다"
+    }
+  },
+  {
+    "term_ko": "서리",
+    "term_en": "frost",
+    "context": "햇빛 드는 자그마한 들녘에 내린 서리를 봄",
+    "interpretation_ko": "겉만 번드르르한 즐거움에 빠졌다가 뒷날 기꺼이 등을 돌리고, 반듯한 처신으로 지난 허물을 잊게 할 조짐",
+    "interpretation_en": "signifies gilded pleasures from which you will be glad to turn later in life",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Frost",
+      "original": "To see frost on a small sunlit landscape, signifies gilded pleasures from which you will be glad to turn later in life, and by your exemplary conduct will succeed in making your circle forget past escapades.",
+      "translation_ko": "햇빛 드는 자그마한 들녘의 서리를 보면, 겉만 번드르르한 즐거움을 뜻하고 뒷날 기꺼이 그것을 떠나며, 반듯한 처신으로 지난 허물을 주위가 잊게 한다"
+    }
+  },
+  {
+    "term_ko": "서리",
+    "term_en": "frost",
+    "context": "처녀가 서리 속에 있는 벗을 봄",
+    "interpretation_ko": "정인이 곁을 떠나 있고 그 마음이 식어 갈 흉한 조짐",
+    "interpretation_en": "signifies the absence of her lover and danger of his affections waning",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Frost",
+      "original": "For a young woman, this dream signifies the absence of her lover and danger of his affections waning.",
+      "translation_ko": "처녀에게 이 꿈은, 정인이 곁에 없음과 그 마음이 식을 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "서리",
+    "term_en": "frost",
+    "context": "서리 속에 있는 벗을 봄",
+    "interpretation_ko": "연정을 다투는 일에서 겨루는 이가 밀려날 길한 조짐",
+    "interpretation_en": "denotes a love affair in which your rival will be worsted",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Frost",
+      "original": "To dream that you see a friend in a frost, denotes a love affair in which your rival will be worsted.",
+      "translation_ko": "서리 속의 벗을 보는 꿈은, 겨루는 이가 밀려나는 연정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "과일",
+    "term_en": "fruit",
+    "context": "잎 사이에서 익어 가는 과일을 봄",
+    "interpretation_ko": "앞날의 살림이 넉넉해질 길한 조짐",
+    "interpretation_en": "foretells to the dreamer a prosperous future",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit",
+      "original": "To dream of seeing fruit ripening among its foliage, usually foretells to the dreamer a prosperous future.",
+      "translation_ko": "잎 사이에서 익어 가는 과일을 보는 꿈은, 흔히 넉넉한 앞날을 알린다"
+    }
+  },
+  {
+    "term_ko": "과일",
+    "term_en": "fruit",
+    "context": "처녀가 풋과일을 먹음",
+    "interpretation_ko": "몸가짐이 떨어지고 물려받을 몫을 잃을 흉한 조짐",
+    "interpretation_en": "indicates her degradation and loss of inheritance",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit",
+      "original": "For a young woman to dream of eating green fruit, indicates her degradation and loss of inheritance.",
+      "translation_ko": "처녀가 풋과일을 먹는 꿈은, 몸가짐이 떨어짐과 물려받을 몫을 잃음을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "과일",
+    "term_en": "fruit",
+    "context": "풋과일을 봄",
+    "interpretation_ko": "애쓴 일이 어그러지거나 성급히 움직여 그르칠 흉한 조짐",
+    "interpretation_en": "signifies disappointed efforts or hasty action",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit",
+      "original": "Green fruit signifies disappointed efforts or hasty action.",
+      "translation_ko": "풋과일은 어그러진 애씀이나 성급한 움직임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "과일",
+    "term_en": "fruit",
+    "context": "과일을 사고팖",
+    "interpretation_ko": "일거리는 많으나 남는 것이 적을 조짐",
+    "interpretation_en": "denotes much business, but not very remunerative",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit",
+      "original": "To buy or sell fruit, denotes much business, but not very remunerative.",
+      "translation_ko": "과일을 사거나 파는 것은, 많은 일거리를 뜻하나 남는 것이 크지 않다"
+    }
+  },
+  {
+    "term_ko": "과일",
+    "term_en": "fruit",
+    "context": "잘 익은 과일을 보거나 먹음",
+    "interpretation_ko": "복과 즐거움이 어느 쪽으로 기울지 알기 어려운 조짐",
+    "interpretation_en": "signifies uncertain fortune and pleasure",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit",
+      "original": "To see or eat ripe fruit, signifies uncertain fortune and pleasure.",
+      "translation_ko": "잘 익은 과일을 보거나 먹는 것은, 갈피를 잡기 어려운 복과 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "과일장수",
+    "term_en": "fruit seller",
+    "context": "과일장수를 봄",
+    "interpretation_ko": "잃은 것을 너무 급히 되찾으려다 그릇된 투기에 발을 들일 흉한 조짐",
+    "interpretation_en": "denotes you will endeavor to recover your loss too rapidly and will engage in unfortunate speculations",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Fruit Seller",
+      "original": "To dream of a fruit seller, denotes you will endeavor to recover your loss too rapidly and will engage in unfortunate speculations.",
+      "translation_ko": "과일장수 꿈은, 잃은 것을 너무 빨리 되찾으려 애쓰다 불운한 투기에 뛰어듦을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "장례를 봄",
+    "interpretation_ko": "혼인이 즐겁지 못하고 자식이 병약할 흉한 조짐",
+    "interpretation_en": "denotes an unhappy marriage and sickly offspring",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Funeral",
+      "original": "To see a funeral, denotes an unhappy marriage and sickly offspring.",
+      "translation_ko": "장례를 보는 것은, 즐겁지 못한 혼인과 병약한 자식을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "낯선 이의 장례를 봄",
+    "interpretation_ko": "생각지 못한 걱정거리가 닥칠 흉한 조짐",
+    "interpretation_en": "denotes unexpected worries",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Funeral",
+      "original": "To dream of the funeral of a stranger, denotes unexpected worries.",
+      "translation_ko": "낯선 이의 장례 꿈은, 뜻밖의 걱정거리를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "제 아이의 장례를 봄",
+    "interpretation_ko": "집안은 성하되 가까운 이에게서 크게 낙심할 일이 따를 조짐",
+    "interpretation_en": "may denote the health of your family, but very grave disappointments may follow from a friendly source",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Funeral",
+      "original": "To see the funeral of your child, may denote the health of your family, but very grave disappointments may follow from a friendly source.",
+      "translation_ko": "제 아이의 장례를 보는 것은, 집안의 건강을 뜻할 수 있으나 가까운 이에게서 큰 낙심이 따를 수 있다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "검은 옷을 입고 장례에 참석함",
+    "interpretation_ko": "일찍 짝을 여읠 흉한 조짐",
+    "interpretation_en": "foretells an early widowhood",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Funeral",
+      "original": "To attend a funeral in black, foretells an early widowhood.",
+      "translation_ko": "검은 옷을 입고 장례에 참석하면, 일찍 짝을 여읨을 알린다"
+    }
+  },
+  {
+    "term_ko": "장례",
+    "term_en": "burial",
+    "context": "살붙이의 장례를 봄",
+    "interpretation_ko": "마음이 시달리고 집안에 걱정이 생길 흉한 조짐",
+    "interpretation_en": "denotes nervous troubles and family worries",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Funeral",
+      "original": "To dream of the funeral of any relative, denotes nervous troubles and family worries.",
+      "translation_ko": "살붙이의 장례 꿈은, 시달리는 마음과 집안의 걱정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "용광로",
+    "term_en": "furnace",
+    "context": "불이 지펴진 용광로를 봄",
+    "interpretation_ko": "일이 잘 풀릴 길한 조짐",
+    "interpretation_en": "foretells good luck if it is running",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furnace",
+      "original": "To dream of a furnace, foretells good luck if it is running.",
+      "translation_ko": "용광로 꿈은, 그것이 돌아가고 있으면 좋은 운수를 알린다"
+    }
+  },
+  {
+    "term_ko": "용광로",
+    "term_en": "furnace",
+    "context": "망가진 용광로를 봄",
+    "interpretation_ko": "자식이나 부리는 사람 때문에 골치를 앓을 흉한 조짐",
+    "interpretation_en": "you will have trouble with children or hired help",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furnace",
+      "original": "If out of repair, you will have trouble with children or hired help.",
+      "translation_ko": "망가져 있으면, 자식이나 부리는 사람 때문에 골치를 앓는다"
+    }
+  },
+  {
+    "term_ko": "용광로",
+    "term_en": "furnace",
+    "context": "용광로에 빠짐",
+    "interpretation_ko": "다투는 일에서 원수가 나를 눌러 이길 흉한 조짐",
+    "interpretation_en": "portends some enemy will overpower you in a business struggle",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furnace",
+      "original": "To fall into one, portends some enemy will overpower you in a business struggle.",
+      "translation_ko": "그 안에 빠지면, 다툼에서 원수가 나를 눌러 이김을 알린다"
+    }
+  },
+  {
+    "term_ko": "모피",
+    "term_en": "fur",
+    "context": "모피를 걸침",
+    "interpretation_ko": "모자람과 가난에서 벗어날 길한 조짐",
+    "interpretation_en": "signifies your safety from want and poverty",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furs",
+      "original": "To be dressed in fur, signifies your safety from want and poverty.",
+      "translation_ko": "모피를 걸치는 것은, 모자람과 가난에서 벗어남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "모피",
+    "term_en": "fur",
+    "context": "모피를 사고파는 일을 함",
+    "interpretation_ko": "살림이 넉넉해지고 여러 일에 손이 닿을 길한 조짐",
+    "interpretation_en": "denotes prosperity and an interest in many concerns",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furs",
+      "original": "To dream of dealing in furs, denotes prosperity and an interest in many concerns.",
+      "translation_ko": "모피를 다루는 꿈은, 넉넉함과 여러 일에 걸친 몫을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "모피",
+    "term_en": "fur",
+    "context": "고운 모피를 봄",
+    "interpretation_ko": "이름이 서고 재물이 따를 길한 조짐",
+    "interpretation_en": "denotes honor and riches",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furs",
+      "original": "To see fine fur, denotes honor and riches.",
+      "translation_ko": "고운 모피를 보는 것은, 이름과 재물을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "모피",
+    "term_en": "fur",
+    "context": "처녀가 값진 모피를 입음",
+    "interpretation_ko": "슬기로운 사람과 짝을 맺을 길한 조짐",
+    "interpretation_en": "denotes that she will marry a wise man",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Furs",
+      "original": "For a young woman to dream that she is wearing costly furs, denotes that she will marry a wise man.",
+      "translation_ko": "처녀가 값진 모피를 입은 꿈은, 슬기로운 사람과 짝을 맺음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "앞날",
+    "term_en": "future",
+    "context": "앞날을 꿈꿈",
+    "interpretation_ko": "셈을 꼼꼼히 하고 해로운 헤픔을 피하게 될 조짐",
+    "interpretation_en": "is a prognostic of careful reckoning and avoiding of detrimental extravagance",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Future",
+      "original": "To dream of the future, is a prognostic of careful reckoning and avoiding of detrimental extravagance.",
+      "translation_ko": "앞날을 꿈꾸는 것은, 꼼꼼한 셈과 해로운 헤픔을 피함을 알린다"
+    }
+  },
+  {
+    "term_ko": "각반",
+    "term_en": "gaiter",
+    "context": "각반을 봄",
+    "interpretation_ko": "즐거운 놀이와 겨룸이 있을 길한 조짐",
+    "interpretation_en": "foretells pleasant amusements and rivalries",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gaiter",
+      "original": "To dream of gaiters, foretells pleasant amusements and rivalries.",
+      "translation_ko": "각반 꿈은, 즐거운 놀이와 겨룸을 알린다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "거센 바람에 휘말림",
+    "interpretation_ko": "장사에 손해가 나고 일하는 이들에게 어려움이 닥칠 흉한 조짐",
+    "interpretation_en": "signifies business losses and troubles for working people",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Gale",
+      "original": "To dream of being caught in a gale, signifies business losses and troubles for working people.",
+      "translation_ko": "거센 바람에 휘말리는 꿈은, 장사의 손해와 일하는 이들의 어려움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "벗이 교수대에 오른 것을 봄",
+    "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
+    "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gallows",
+      "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
+      "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
+    }
+  },
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "제가 교수대에 오름",
+    "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
+    "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gallows",
+      "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
+      "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
+    "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
+    "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gallows",
+      "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
+      "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "교수대에서 남을 구해 냄",
+    "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
+    "interpretation_en": "it portends desirable acquisitions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gallows",
+      "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
+      "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
+    }
+  },
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "원수를 목매닮",
+    "interpretation_ko": "모든 자리에서 이길 길한 조짐",
+    "interpretation_en": "denotes victory in all spheres",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gallows",
+      "original": "To dream that you hang an enemy, denotes victory in all spheres.",
+      "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "노름을 해서 땀",
+    "interpretation_ko": "낮은 무리와 어울리고 남을 밟고 얻은 즐거움을 누릴 흉한 조짐",
+    "interpretation_en": "signifies low associations and pleasure at the expense of others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gambling-house",
+      "original": "To dream that you are gambling and win, signifies low associations and pleasure at the expense of others.",
+      "translation_ko": "노름을 해서 따는 꿈은, 낮은 무리와의 어울림과 남을 밟고 얻은 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "노름을 해서 잃음",
+    "interpretation_ko": "부끄러운 처신이 가까운 이를 무너뜨릴 흉한 조짐",
+    "interpretation_en": "foretells that your disgraceful conduct will be the undoing of one near to you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gambling-house",
+      "original": "If you lose, it foretells that your disgraceful conduct will be the undoing of one near to you.",
+      "translation_ko": "잃으면, 부끄러운 처신이 가까운 이를 무너뜨림을 알린다"
+    }
+  },
+  {
+    "term_ko": "사냥감",
+    "term_en": "game",
+    "context": "사냥감을 잡음",
+    "interpretation_ko": "벌인 일이 잘 풀리나 제 잇속만 차리게 될 조짐",
+    "interpretation_en": "denotes fortunate undertakings; but selfish motions",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Game",
+      "original": "To dream of game, either shooting or killing or by other means, denotes fortunate undertakings",
+      "translation_ko": "사냥감을 쏘든 죽이든 다른 수로든 잡는 꿈은, 잘 풀리는 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사냥감",
+    "term_en": "game",
+    "context": "사냥감을 놓침",
+    "interpretation_ko": "일을 잘못 꾸려 손해를 볼 흉한 조짐",
+    "interpretation_en": "it denotes bad management and loss",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Game",
+      "original": "if you fail to take game on a hunt, it denotes bad management and loss.",
+      "translation_ko": "사냥에서 사냥감을 놓치면, 잘못된 꾸림과 손해를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "괴저",
+    "term_en": "gangrene",
+    "context": "괴저에 걸린 사람을 봄",
+    "interpretation_ko": "어버이나 가까운 살붙이를 여읠 흉한 조짐",
+    "interpretation_en": "foretells the death of a parent or near relative",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Gangrene",
+      "original": "To dream that you see any one afflicted with gangrene, foretells the death of a parent or near relative.",
+      "translation_ko": "괴저를 앓는 사람을 보는 꿈은, 어버이나 가까운 살붙이의 죽음을 알린다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥에서 빠져나옴",
+    "interpretation_ko": "장사가 잘 풀리는 철을 맞을 길한 조짐",
+    "interpretation_en": "you will enjoy a season of favorable business",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Gaol",
+      "original": "but if you escape from the gaol, you will enjoy a season of favorable business.",
+      "translation_ko": "감옥에서 빠져나오면, 장사가 잘 풀리는 철을 누린다"
+    }
+  },
+  {
+    "term_ko": "쓰레기",
+    "term_en": "garbage",
+    "context": "쓰레기 더미를 봄",
+    "interpretation_ko": "남세스러운 소문에 마음이 쓰이고 하는 일마다 어그러질 흉한 조짐",
+    "interpretation_en": "indicates thoughts of social scandal and unfavorable business of every character",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Garbage",
+      "original": "To see heaps of garbage in your dreams, indicates thoughts of social scandal and unfavorable business of every character.",
+      "translation_ko": "쓰레기 더미를 보는 꿈은, 남세스러운 소문에 쏠린 마음과 무엇이든 어그러지는 일거리를 가리킨다"
+    }
+  },
+  {
+    "term_ko": "쓰레기",
+    "term_en": "garbage",
+    "context": "여성이 쓰레기 더미를 봄",
+    "interpretation_ko": "깎아내림을 당하고 정인에게 버림받을 흉한 조짐",
+    "interpretation_en": "is ominous of disparagement and desertion by lovers",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Garbage",
+      "original": "For females this dream is ominous of disparagement and desertion by lovers.",
+      "translation_ko": "여성에게 이 꿈은, 깎아내림과 정인에게 버림받음을 알린다"
+    }
+  },
+  {
+    "term_ko": "동산",
+    "term_en": "garden",
+    "context": "늘 푸른 나무와 꽃이 가득한 정원을 봄",
+    "interpretation_ko": "마음이 크게 편안하고 살림이 아늑할 길한 조짐",
+    "interpretation_en": "denotes great peace of mind and comfort",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Garden",
+      "original": "To see a garden in your dreams, filled with evergreen and flowers, denotes great peace of mind and comfort.",
+      "translation_ko": "늘 푸른 나무와 꽃이 가득한 정원을 보는 꿈은, 큰 마음의 평안과 아늑함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "동산",
+    "term_en": "garden",
+    "context": "정원에서 채소를 봄",
+    "interpretation_ko": "고달픔이나 재물의 잃음, 헐뜯음이 따를 흉한 조짐",
+    "interpretation_en": "denotes misery or loss of fortune and calumny",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Garden",
+      "original": "To see vegetables, denotes misery or loss of fortune and calumny.",
+      "translation_ko": "채소를 보는 것은, 고달픔이나 재물의 잃음과 헐뜯음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "동산",
+    "term_en": "garden",
+    "context": "여성이 정원을 봄",
+    "interpretation_ko": "이름이 널리 알려지거나 집안이 몹시 즐거울 길한 조짐",
+    "interpretation_en": "foretells that they will be famous, or exceedingly happy in domestic circles",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Garden",
+      "original": "To females, this dream foretells that they will be famous, or exceedingly happy in domestic circles.",
+      "translation_ko": "여성에게 이 꿈은, 이름이 널리 알려지거나 집안에서 몹시 즐거움을 알린다"
+    }
+  },
+  {
+    "term_ko": "동산",
+    "term_en": "garden",
+    "context": "꽃나무 우거진 정원을 정인과 거닒",
+    "interpretation_ko": "티 없는 즐거움과 넉넉한 살림이 따를 길한 조짐",
+    "interpretation_en": "indicates unalloyed happiness and independent means",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Garden",
+      "original": "To dream of walking with one's lover through a garden where flowering shrubs and plants abound, indicates unalloyed happiness and independent means.",
+      "translation_ko": "꽃나무가 우거진 정원을 정인과 거니는 꿈은, 티 없는 즐거움과 넉넉한 살림을 가리킨다"
+    }
+  }
+]

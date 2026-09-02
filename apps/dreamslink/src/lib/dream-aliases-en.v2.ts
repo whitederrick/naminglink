@@ -5303,5 +5303,41 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "frog": [
     "frogs",
     "a frog"
+  ],
+  "fruit": [
+    "fruit",
+    "fruits"
+  ],
+  "fruit-seller": [
+    "a fruit seller",
+    "fruit sellers"
+  ],
+  "furnace": [
+    "a furnace",
+    "furnaces"
+  ],
+  "fur": [
+    "fur",
+    "furs"
+  ],
+  "future": [
+    "the future"
+  ],
+  "gaiter": [
+    "gaiters",
+    "a gaiter"
+  ],
+  "gallows": [
+    "the gallows",
+    "a gallows"
+  ],
+  "game": [
+    "game"
+  ],
+  "gangrene": [
+    "gangrene"
+  ],
+  "garbage": [
+    "garbage"
   ]
 };

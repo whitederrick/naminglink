@@ -805,8 +805,20 @@
       "orchard",
       "grove"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "동산으로 나감": "동산으로 나갔",
+      "늘 푸른 나무와 꽃이 가득한 정원을 봄": "푸른 가득",
+      "정원에서 채소를 봄": "채소 남새 푸성귀",
+      "여성이 정원을 봄": "여자가 여성이",
+      "꽃나무 우거진 정원을 정인과 거닒": "정인과 거닐 걸었"
+    },
+    "contexts_en": {
+      "동산으로 나감": "went outside",
+      "늘 푸른 나무와 꽃이 가득한 정원을 봄": "evergreen flowers peace comfort",
+      "정원에서 채소를 봄": "vegetables misery calumny",
+      "여성이 정원을 봄": "females famous domestic circles",
+      "꽃나무 우거진 정원을 정인과 거닒": "walking shrubs unalloyed independent"
+    }
   },
   {
     "id": "gold-ornament",

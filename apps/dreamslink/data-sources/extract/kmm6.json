@@ -713,8 +713,10 @@
     "aliases": [
       "도박",
       "베팅",
-      "돈을 걸",
-      "판돈"
+      "판돈",
+      "노름",
+      "돈을 걸었다",
+      "돈을 걸고"
     ],
     "aliases_en": [
       "betting",
@@ -724,11 +726,15 @@
     ],
     "contexts": {
       "경마에 돈을 거는 꿈을 꿈": "경마 말에 경주 트랙",
-      "도박 테이블에서 돈을 거는 꿈을 꿈": "테이블 카드 노름판 도박장"
+      "도박 테이블에서 돈을 거는 꿈을 꿈": "테이블 카드 노름판 도박장",
+      "노름을 해서 땀": "땄다 따서 이겨서",
+      "노름을 해서 잃음": "잃었 잃어 털렸"
     },
     "contexts_en": {
       "경마에 돈을 거는 꿈을 꿈": "races horse racing track",
-      "도박 테이블에서 돈을 거는 꿈을 꿈": "table cards casino gaming"
+      "도박 테이블에서 돈을 거는 꿈을 꿈": "table cards casino gaming",
+      "노름을 해서 땀": "win low associations expense",
+      "노름을 해서 잃음": "lose disgraceful undoing"
     }
   },
   {
