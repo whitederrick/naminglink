@@ -1,0 +1,100 @@
+[
+  {
+    "id": "hood",
+    "aliases": [
+      "두건",
+      "후드"
+    ],
+    "aliases_en": [
+      "a hood"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hook",
+    "aliases": [
+      "갈고리",
+      "쇠갈고리",
+      "갈고랑이"
+    ],
+    "aliases_en": [
+      "a hook"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hoop",
+    "aliases": [
+      "굴렁쇠",
+      "굴렁대"
+    ],
+    "aliases_en": [
+      "a hoop",
+      "hoops"
+    ],
+    "contexts": {
+      "굴렁쇠를 봄": "놓여 세워둔 굴러가",
+      "굴렁쇠를 뛰어넘음": "뛰어넘 통과 빠져나"
+    },
+    "contexts_en": {
+      "굴렁쇠를 봄": "influential friendships counsel seek",
+      "굴렁쇠를 뛰어넘음": "jump jumping through discouraging overcome victory"
+    }
+  },
+  {
+    "id": "hops",
+    "aliases": [
+      "홉덩굴",
+      "홉을",
+      "홉이",
+      "홉에"
+    ],
+    "aliases_en": [
+      "hops"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hornet",
+    "aliases": [
+      "말벌",
+      "말벌집",
+      "땅벌"
+    ],
+    "aliases_en": [
+      "a hornet",
+      "hornets",
+      "wasp"
+    ],
+    "contexts": {
+      "말벌을 봄": "날아다 보였 한마리",
+      "처녀가 말벌에 쏘임": "처녀 아가씨 벌집"
+    },
+    "contexts_en": {
+      "말벌을 봄": "disruption lifelong friendship loss money",
+      "처녀가 말벌에 쏘임": "stings nest envious women disparage admirers"
+    }
+  },
+  {
+    "id": "horoscope",
+    "aliases": [
+      "별점",
+      "점성술",
+      "점성술사"
+    ],
+    "aliases_en": [
+      "astrologist"
+    ],
+    "contexts": {
+      "점성술사가 별점을 봐 줌": "점성술사 봐줬 뽑아",
+      "별을 짚어 주며 운명을 읽어 줌": "짚어 운명을 읽어"
+    },
+    "contexts_en": {
+      "점성술사가 별점을 봐 줌": "drawn unexpected changes journey stranger",
+      "별을 짚어 주며 운명을 읽어 줌": "stars pointed fate read disappointments await"
+    }
+  }
+]

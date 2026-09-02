@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 48 — History~Honeysuckle, 37건)
+// (지금 담긴 것: 배치 49 — Hood~Horoscope, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,43 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "history", ctx: "역사책을 읽음", text: "역사책을 읽었다" },
-  { id: "hives", ctx: "제 아이가 두드러기가 남", text: "내아이가 두드러기가 났다" },
-  { id: "hives", ctx: "낯선 아이들이 두드러기가 난 것을 봄", text: "낯선 아이들이 두드러기가 났다" },
-  { id: "hoe", ctx: "호미를 봄", text: "호미가 놓여 있었다" },
-  { id: "hoe", ctx: "호미를 씀", text: "호미를 들고 썼다" },
-  { id: "hoe", ctx: "여성이 호미로 김을 맴", text: "호미로 김을 매었다" },
-  { id: "hoe", ctx: "정인에게 호미 꿈이 나타남", text: "정인이 호미를 들고 있었다" },
-  { id: "hoe", ctx: "원수가 호미로 나를 내리침", text: "원수가 호미로 나를 내리쳤다" },
-  { id: "pig", ctx: "돼지를 잡음", text: "돼지를 잡았다" },
-  { id: "pig", ctx: "살지고 튼튼한 돼지를 봄", text: "살지고 튼튼한 돼지를 보았다" },
-  { id: "pig", ctx: "여윈 돼지를 봄", text: "여윈 돼지를 보았다" },
-  { id: "pig", ctx: "어미 돼지와 새끼들을 봄", text: "어미 돼지와 새끼들을 보았다" },
-  { id: "pig", ctx: "돼지 울부짖는 소리를 들음", text: "돼지가 꽥꽥 울부짖었다" },
-  { id: "pig", ctx: "제 돼지에게 먹이를 줌", text: "돼지에게 먹이를 주었다" },
-  { id: "pig", ctx: "돼지를 사고팖", text: "돼지를 사고팔았다" },
-  { id: "holiday", ctx: "휴일을 봄", text: "휴일을 보냈다" },
-  { id: "holiday", ctx: "처녀가 휴일을 언짢아함", text: "휴일이 언짢았다" },
-  { id: "communion", ctx: "성찬에 참여함", text: "성찬에 참여했다" },
-  { id: "communion", ctx: "성찬에 빵도 술도 없음", text: "성찬에 빵도 술도 없었다" },
-  { id: "communion", ctx: "성찬을 거절당했으나 떳떳함", text: "성찬을 거절당했지만 떳떳했다" },
-  { id: "communion", ctx: "성찬을 거절당하고 떳떳하지 못함", text: "성찬을 거절당하고 부끄러웠다" },
-  { id: "communion", ctx: "낯선 무리와 함께 성찬을 받음", text: "낯선 무리와 함께 성찬을 받았다" },
-  { id: "abode", ctx: "옛 살던 집을 찾아감", text: "옛집을 찾아갔다" },
-  { id: "abode", ctx: "옛 살던 집이 허물어져 있음", text: "옛집이 허물어져 있었다" },
-  { id: "abode", ctx: "처녀가 허물어진 옛집을 봄", text: "아가씨가 허물어진 옛집을 보았다" },
-  { id: "abode", ctx: "집에 가니 모든 것이 밝고 아늑함", text: "고향집이 밝고 아늑했다" },
-  { id: "hominy", ctx: "옥수수죽을 봄", text: "옥수수죽을 보았다" },
-  { id: "homesick", ctx: "고향을 그리워함", text: "고향이 그리웠다" },
-  { id: "killing-someone", ctx: "남을 죽임", text: "남을 죽였다" },
-  { id: "killing-someone", ctx: "제가 사람을 죽임", text: "내가 사람을 죽였다" },
-  { id: "killing-someone", ctx: "벗이 스스로 목숨을 끊음", text: "벗이 스스로 목숨을 끊었다" },
-  { id: "honey", ctx: "남과 함께 꿀을 먹음", text: "남과 함께 꿀을 나눠 먹었다" },
-  { id: "honey", ctx: "꿀을 봄", text: "꿀이 놓여 있었다" },
-  { id: "honey", ctx: "거른 꿀을 봄", text: "거른 꿀을 보았다" },
-  { id: "honey", ctx: "꿀을 먹음", text: "꿀을 먹었다" },
-  { id: "honey", ctx: "정인에게 꿀 꿈이 나타남", text: "정인이 꿀을 들고 있었다" },
-  { id: "honeysuckle", ctx: "인동꽃을 보거나 땀", text: "인동꽃을 보았다" },
+  { id: "hood", ctx: "처녀가 두건을 씀", text: "처녀가 두건을 썼다" },
+  { id: "hook", ctx: "갈고리를 봄", text: "갈고리를 보았다" },
+  { id: "hoop", ctx: "굴렁쇠를 봄", text: "굴렁쇠가 놓여 있었다" },
+  { id: "hoop", ctx: "굴렁쇠를 뛰어넘음", text: "굴렁쇠를 뛰어넘었다" },
+  { id: "hops", ctx: "홉덩굴을 봄", text: "홉을 보았다" },
+  { id: "bugle", ctx: "부러진 나팔을 봄", text: "부러진 나팔을 보았다" },
+  { id: "bugle", ctx: "아이들이 나팔을 갖고 놂", text: "아이들이 나팔을 갖고 놀았다" },
+  { id: "bugle", ctx: "여성이 나팔을 붊", text: "여자가 나팔을 불었다" },
+  { id: "hornet", ctx: "말벌을 봄", text: "말벌이 날아다녔다" },
+  { id: "hornet", ctx: "처녀가 말벌에 쏘임", text: "아가씨가 말벌에 쏘였다" },
+  { id: "horoscope", ctx: "점성술사가 별점을 봐 줌", text: "점성술사가 별점을 봐 주었다" },
+  // 「점성술사가」를 넣은 것은 통과시키려는 것이 아니다 — **원문의 그 꿈에 그 사람이 있다**
+  // ("as his fate is being read", 앞 문장의 astrologist 가 읽어 준다). 그가 빠진 문장에는
+  // 상징 이름(별점·점성술)이 하나도 없어 어느 상징에도 안 걸리는 것이 옳다(§25 곁가지).
+  { id: "horoscope", ctx: "별을 짚어 주며 운명을 읽어 줌", text: "점성술사가 별을 짚어 주며 운명을 읽어 주었다" },
+
+  // 이 배치가 별칭 임자를 옮기고 판별어를 더한 자리 — **옛 답이 그대로인지** 함께 잰다.
+  { id: "bugle", ctx: "나팔에서 나는 즐거운 소리를 들음", text: "나팔소리가 울려 들렸다" },
+  { id: "bugle", ctx: "나팔을 붊", text: "나팔을 입에 대고 불었다" },
+  { id: "hat", ctx: "스스로 두건과 모자를 씀", text: "스스로 두건과 모자를 썼다" },
+  { id: "bee", ctx: "벌에 쏘임", text: "벌에 쏘였다" },
 ];
 
 let notFound = 0;

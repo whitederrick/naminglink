@@ -793,8 +793,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "bee": [
     "bees",
-    "honeybee",
-    "wasp"
+    "honeybee"
   ],
   "feast": [
     "banquet",
@@ -5594,5 +5593,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "honeysuckle": [
     "honeysuckles"
+  ],
+  "hood": [
+    "a hood"
+  ],
+  "hook": [
+    "a hook"
+  ],
+  "hoop": [
+    "a hoop",
+    "hoops"
+  ],
+  "hops": [
+    "hops"
+  ],
+  "hornet": [
+    "a hornet",
+    "hornets",
+    "wasp"
+  ],
+  "horoscope": [
+    "astrologist"
   ]
 };

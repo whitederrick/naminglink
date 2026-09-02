@@ -410,33 +410,31 @@
     "id": "bee",
     "aliases": [
       "꿀벌",
-      "말벌",
       "벌떼"
     ],
     "aliases_en": [
       "bees",
-      "honeybee",
-      "wasp"
+      "honeybee"
     ],
     "contexts": {
       "벌과 나비가 어우러져 놂": "나비 어우러 날아다 놀고",
-      "벌이 사람의 다리를 쏨": "쏘였 쏘여 쏘았 다리를",
+      "벌이 사람의 다리를 쏨": "쏘았 다리를 발등",
       "벌을 봄": "무리 떼지어 윙윙 잔뜩 벌떼 떼가",
       "관리(장교)가 벌 꿈을 꿈": "장교 군인 부하 지휘",
       "목회자가 벌 꿈을 꿈": "목사 목회 신도 교회",
       "사업가가 벌 꿈을 꿈": "사업가 장사 거래 상인",
       "부모가 벌 꿈을 꿈": "부모 자녀 아이들 자식",
-      "벌에 쏘임": "쏘인 쏘이 벌침 물렸"
+      "벌에 쏘임": "쏘였 쏘여 쏘인 쏘이 벌침 물렸"
     },
     "contexts_en": {
       "벌과 나비가 어우러져 놂": "butterfly butterflies fluttering playing",
-      "벌이 사람의 다리를 쏨": "stung sting stinging leg",
+      "벌이 사람의 다리를 쏨": "leg foot ankle",
       "벌을 봄": "swarm swarming hive buzzing",
       "관리(장교)가 벌 꿈을 꿈": "officer soldier subordinates command",
       "목회자가 벌 꿈을 꿈": "minister preacher congregation church",
       "사업가가 벌 꿈을 꿈": "merchant trade business trading",
       "부모가 벌 꿈을 꿈": "parent parents children dutiful",
-      "벌에 쏘임": "bitten venom painful hurt"
+      "벌에 쏘임": "stung sting bitten venom painful hurt"
     }
   },
   {
