@@ -385,7 +385,9 @@
       "곡예",
       "서커스",
       "재주꾼",
-      "광대"
+      "광대",
+      "체조",
+      "체조하는"
     ],
     "aliases_en": [
       "acrobats",
@@ -393,16 +395,18 @@
       "a trapeze artist"
     ],
     "contexts": {
-      "곡예사들을 봄": "보았 바라보 구경했 공연을",
+      "곡예사들을 봄": "바라보 구경했 공연을",
       "자신이 곡예를 함": "내가 직접 재주넘 물구나무",
       "여성 곡예사들을 봄": "여성 여자 그녀들",
-      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "타이츠 쫄쫄이 몸에붙 딱붙"
+      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "타이츠 쫄쫄이 몸에붙 딱붙",
+      "체조하는 이를 봄": "체조 몸놀림"
     },
     "contexts_en": {
       "곡예사들을 봄": "saw watched troupe circus",
       "자신이 곡예를 함": "myself performing somersault tumbling",
       "여성 곡예사들을 봄": "female women girls",
-      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "tights leotard"
+      "젊은 여성이 타이츠를 입은 곡예사들을 봄": "tights leotard",
+      "체조하는 이를 봄": "misfortune speculation trade"
     }
   },
   {

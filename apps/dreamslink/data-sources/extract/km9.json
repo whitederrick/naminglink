@@ -451,7 +451,10 @@
       "개를 데리고 홀로 길을 감": "데리고 홀로 따라오",
       "개가 헤엄치는 것을 봄": "헤엄 물속 수영",
       "개가 눈앞에서 고양이를 죽임": "고양이를 죽였",
-      "개가 눈앞에서 뱀을 죽임": "뱀을 뱀이"
+      "개가 눈앞에서 뱀을 죽임": "뱀을 뱀이",
+      "날쌘 사냥개를 봄": "날쌘 늘씬 날렵",
+      "사냥개가 어린 여자아이를 따라감": "여자아이 계집아이 소녀를",
+      "제 사냥개를 가짐": "제것 내것 가지고있"
     },
     "contexts_en": {
       "사나운 개를 봄": "fierce angry beast",
@@ -480,7 +483,10 @@
       "개를 데리고 홀로 길을 감": "traveling following stanch",
       "개가 헤엄치는 것을 봄": "swimming stretch happiness",
       "개가 눈앞에서 고양이를 죽임": "kills presence profitable",
-      "개가 눈앞에서 뱀을 죽임": "snake omen luck"
+      "개가 눈앞에서 뱀을 죽임": "snake omen luck",
+      "날쌘 사냥개를 봄": "greyhound fortunate object",
+      "사냥개가 어린 여자아이를 따라감": "young girl legacy unknown",
+      "제 사냥개를 가짐": "owned signifies where expected"
     }
   },
   {
@@ -970,8 +976,14 @@
       "cooking oil",
       "oils"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "기름을 먹음": "먹었 마셨",
+      "기름 속에 있음": "속에 뒤집어 범벅"
+    },
+    "contexts_en": {
+      "기름을 먹음": "ate drank",
+      "기름 속에 있음": "travels disagreeable polished strangers"
+    }
   },
   {
     "id": "orchard",

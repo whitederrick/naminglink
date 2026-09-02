@@ -5454,5 +5454,38 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "gravel": [
     "gravel"
+  ],
+  "greek": [
+    "Greek"
+  ],
+  "grindstone": [
+    "a grindstone",
+    "grindstones"
+  ],
+  "groan": [
+    "groans",
+    "groaning"
+  ],
+  "groceries": [
+    "groceries"
+  ],
+  "guardian": [
+    "a guardian"
+  ],
+  "guitar": [
+    "a guitar"
+  ],
+  "gull": [
+    "gulls"
+  ],
+  "gun": [
+    "a gun"
+  ],
+  "gutter": [
+    "a gutter"
+  ],
+  "hail": [
+    "hail",
+    "hail-stones"
   ]
 };

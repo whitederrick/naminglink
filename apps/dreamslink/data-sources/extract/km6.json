@@ -763,7 +763,9 @@
       "안면",
       "얼굴이",
       "얼굴을",
-      "낯빛"
+      "낯빛",
+      "낯이",
+      "낯을"
     ],
     "aliases_en": [
       "faces",
@@ -775,7 +777,9 @@
       "정인의 얼굴이 늙어 보임": "늙어 늙은 주름",
       "낯설고 섬뜩한 얼굴을 봄": "낯설 섬뜩 기괴 낯선",
       "제 얼굴을 봄": "자기 자신의 스스로",
-      "거울에 비친 제 얼굴을 봄": "거울 비친"
+      "거울에 비친 제 얼굴을 봄": "거울 비친",
+      "초췌한 얼굴을 봄": "초췌 수척 핼쑥",
+      "제 얼굴이 초췌하고 지쳐 보임": "지쳐 야위어"
     },
     "contexts_en": {
       "얼굴에 검은 부스럼이 남": "black sore",
@@ -783,7 +787,9 @@
       "정인의 얼굴이 늙어 보임": "old separation breaking",
       "낯설고 섬뜩한 얼굴을 봄": "strange weird surround",
       "제 얼굴을 봄": "own unhappiness divorce",
-      "거울에 비친 제 얼굴을 봄": "mirror displeasure esteem"
+      "거울에 비친 제 얼굴을 봄": "mirror displeasure esteem",
+      "초췌한 얼굴을 봄": "haggard misfortune defeat love",
+      "제 얼굴이 초췌하고 지쳐 보임": "distressed female engagements"
     }
   },
   {

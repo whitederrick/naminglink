@@ -1,0 +1,212 @@
+[
+  {
+    "id": "greek",
+    "aliases": [
+      "그리스어",
+      "희랍어"
+    ],
+    "aliases_en": [
+      "Greek"
+    ],
+    "contexts": {
+      "그리스어를 읽음": "읽었 읽는",
+      "그리스어를 읽지 못함": "못읽 읽지못 읽을수"
+    },
+    "contexts_en": {
+      "그리스어를 읽음": "reading ideas discussed accepted",
+      "그리스어를 읽지 못함": "fail technical difficulties way"
+    }
+  },
+  {
+    "id": "grindstone",
+    "aliases": [
+      "숫돌",
+      "숫돌을",
+      "연자맷돌"
+    ],
+    "aliases_en": [
+      "a grindstone",
+      "grindstones"
+    ],
+    "contexts": {
+      "숫돌을 돌림": "돌렸 돌리 굴렸",
+      "숫돌에 연장을 갊": "연장 칼을 갈았",
+      "숫돌을 사고팖": "사고팔 팔았 장사"
+    },
+    "contexts_en": {
+      "숫돌을 돌림": "turning energy directed competency",
+      "숫돌에 연장을 갊": "sharpening tools blessed worthy helpmate",
+      "숫돌을 사고팖": "deal small honest gain"
+    }
+  },
+  {
+    "id": "groan",
+    "aliases": [
+      "신음",
+      "신음소리",
+      "끙끙",
+      "신음했다",
+      "신음하며",
+      "신음하는"
+    ],
+    "aliases_en": [
+      "groans",
+      "groaning"
+    ],
+    "contexts": {
+      "신음 소리를 들음": "들었 들려",
+      "두려움에 겨워 신음함": "두려 무서 겨워"
+    },
+    "contexts_en": {
+      "신음 소리를 들음": "hear decide quickly undermining",
+      "두려움에 겨워 신음함": "fear pleasantly surprised turn better"
+    }
+  },
+  {
+    "id": "groceries",
+    "aliases": [
+      "식료품",
+      "먹을거리",
+      "찬거리"
+    ],
+    "aliases_en": [
+      "groceries"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "guardian",
+    "aliases": [
+      "후견인",
+      "보호자"
+    ],
+    "aliases_en": [
+      "a guardian"
+    ],
+    "contexts": {
+      "후견인을 봄": "보았 만났",
+      "처녀가 후견인에게 모질게 다루어짐": "처녀 아가씨 모질"
+    },
+    "contexts_en": {
+      "후견인을 봄": "treated consideration friends",
+      "처녀가 후견인에게 모질게 다루어짐": "young woman unkindly dealt loss"
+    }
+  },
+  {
+    "id": "guitar",
+    "aliases": [
+      "기타",
+      "통기타",
+      "기타 줄"
+    ],
+    "aliases_en": [
+      "a guitar"
+    ],
+    "contexts": {
+      "기타를 지님": "지녔 가지고 있었",
+      "처녀가 줄이 풀리거나 부서진 기타를 봄": "풀렸 부서 끊어",
+      "기타의 기묘한 가락을 들음": "기묘 야릇",
+      "남자가 기타 가락을 들음": "남자가 사내",
+      "기타를 켬": "켰다 켜는 연주"
+    },
+    "contexts_en": {
+      "기타를 지님": "merry gathering serious making",
+      "처녀가 줄이 풀리거나 부서진 기타를 봄": "unstrung broken disappointments overtake",
+      "기타의 기묘한 가락을 들음": "weird music fortify flattery persuasion",
+      "남자가 기타 가락을 들음": "man courted judgment wiles",
+      "기타를 켬": "play family affairs harmonious"
+    }
+  },
+  {
+    "id": "gull",
+    "aliases": [
+      "갈매기",
+      "갈매기들"
+    ],
+    "aliases_en": [
+      "gulls"
+    ],
+    "contexts": {
+      "갈매기를 봄": "날았 날아 보였",
+      "죽은 갈매기를 봄": "죽은 죽어 주검"
+    },
+    "contexts_en": {
+      "갈매기를 봄": "prophecy peaceful dealings ungenerous",
+      "죽은 갈매기를 봄": "dead wide separation friends"
+    }
+  },
+  {
+    "id": "gun",
+    "aliases": [
+      "총소리",
+      "총을",
+      "총이",
+      "총에",
+      "엽총",
+      "권총",
+      "소총",
+      "총으로",
+      "총을 쏘",
+      "총에 맞"
+    ],
+    "aliases_en": [
+      "a gun"
+    ],
+    "contexts": {
+      "총소리를 들음": "소리를 들었 울렸",
+      "총으로 남을 쏨": "남을 사람을 쐈다",
+      "총에 맞음": "맞았 맞아 총상",
+      "여성이 총을 쏨": "여자가 여성이"
+    },
+    "contexts_en": {
+      "총소리를 들음": "hearing sound loss employment proprietors",
+      "총으로 남을 쏨": "shoot person fall dishonor",
+      "총에 맞음": "shot annoyed evil acute",
+      "여성이 총을 쏨": "woman quarreling disagreeable reputation"
+    }
+  },
+  {
+    "id": "gutter",
+    "aliases": [
+      "시궁창",
+      "하수구",
+      "도랑물"
+    ],
+    "aliases_en": [
+      "a gutter"
+    ],
+    "contexts": {
+      "시궁창을 봄": "보았 있었",
+      "시궁창에서 값진 것을 주움": "주웠 값진 건졌"
+    },
+    "contexts_en": {
+      "시궁창을 봄": "sign degradation cause unhappiness",
+      "시궁창에서 값진 것을 주움": "find articles value right questioned"
+    }
+  },
+  {
+    "id": "hail",
+    "aliases": [
+      "우박",
+      "우박이",
+      "싸락눈"
+    ],
+    "aliases_en": [
+      "hail",
+      "hail-stones"
+    ],
+    "contexts": {
+      "우박이 쏟아지는 속에 있음": "쏟아지 속에 맞으며",
+      "햇빛과 비 사이로 우박이 떨어지는 것을 봄": "햇빛 햇살 비와",
+      "처녀가 우박 꿈을 꿈": "처녀 아가씨",
+      "우박이 집을 때리는 소리를 들음": "집을 지붕 두드리"
+    },
+    "contexts_en": {
+      "우박이 쏟아지는 속에 있음": "storm poor success undertaking",
+      "햇빛과 비 사이로 우박이 떨어지는 것을 봄": "watch sunshine rain harassed cares",
+      "처녀가 우박 꿈을 꿈": "young woman love many slights",
+      "우박이 집을 때리는 소리를 들음": "hear beating house distressing"
+    }
+  }
+]
