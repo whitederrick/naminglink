@@ -533,7 +533,9 @@
     "aliases": [
       "머리통",
       "대가리",
-      "두상"
+      "두상",
+      "머리가",
+      "머리를"
     ],
     "aliases_en": [
       "skull",
@@ -541,11 +543,27 @@
     ],
     "contexts": {
       "남이 자기 머리를 내리침": "내리쳐 내리치 때렸 얻어맞",
-      "머리가 잘린 채로 걸어감": "잘린 잘려 목이 베어 걸어가"
+      "머리가 잘린 채로 걸어감": "잘린 잘려 목이 베어 걸어가",
+      "잘 생기고 반듯한 남의 머리를 봄": "반듯 잘생긴 훤한",
+      "제 머리를 봄": "제머리 내머리 자기",
+      "몸에서 떨어져 피 흐르는 머리를 봄": "피가 피를 떨어져나",
+      "제 머리가 둘 이상인 것을 봄": "둘이 여럿 두개",
+      "머리가 아픔": "아팠 아프 지끈",
+      "부어오른 머리를 봄": "부어 부은 부풀",
+      "아이의 머리를 봄": "아이의 어린애 아기의",
+      "짐승의 머리를 봄": "짐승 동물의"
     },
     "contexts_en": {
       "남이 자기 머리를 내리침": "struck hitting blow beaten",
-      "머리가 잘린 채로 걸어감": "severed headless walking beheaded"
+      "머리가 잘린 채로 걸어감": "severed headless walking beheaded",
+      "잘 생기고 반듯한 남의 머리를 봄": "well shaped prominent power influence",
+      "제 머리를 봄": "own threatened nervous brain",
+      "몸에서 떨어져 피 흐르는 머리를 봄": "trunk bloody sickening overthrow",
+      "제 머리가 둘 이상인 것을 봄": "two more phenomenal stable",
+      "머리가 아픔": "aches oppressed worry",
+      "부어오른 머리를 봄": "swollen good bad life",
+      "아이의 머리를 봄": "child much store signal financial",
+      "짐승의 머리를 봄": "beast desires plane material"
     }
   },
   {

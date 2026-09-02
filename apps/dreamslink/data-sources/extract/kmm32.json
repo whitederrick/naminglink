@@ -146,7 +146,10 @@
       "송골매를",
       "송골매가",
       "매가 날",
-      "보라매"
+      "보라매",
+      "매를",
+      "매에게",
+      "매한테"
     ],
     "aliases_en": [
       "a falcon",
@@ -154,11 +157,21 @@
     ],
     "contexts": {
       "송골매를 봄": "날았 앉아",
-      "처녀가 송골매를 봄": "처녀 아가씨 여자가"
+      "처녀가 송골매를 봄": "처녀 아가씨 여자가",
+      "매를 쏘아 맞힘": "맞혔 맞추 명중",
+      "처녀가 닭에게서 매를 쫓아냄": "닭에게서 쫓아냈",
+      "닭이 다치기 전에 매를 쫓아냄": "다치기 무사히",
+      "죽은 매를 봄": "죽은 죽어",
+      "매를 향해 총을 쏨": "총을 겨누 쏘았"
     },
     "contexts_en": {
       "송골매를 봄": "prosperity envy malice",
-      "처녀가 송골매를 봄": "young woman calumniated rival"
+      "처녀가 송골매를 봄": "young woman calumniated rival",
+      "매를 쏘아 맞힘": "shoot surmount obstacles struggles",
+      "처녀가 닭에게서 매를 쫓아냄": "frighten chickens extravagant diligent",
+      "닭이 다치기 전에 매를 쫓아냄": "succeed scaring fowls injured lucky",
+      "죽은 매를 봄": "dead enemies vanquished",
+      "매를 향해 총을 쏨": "contest probably win"
     }
   },
   {

@@ -5500,5 +5500,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "harem": [
     "a harem"
+  ],
+  "harlot": [
+    "a harlot"
+  ],
+  "harp": [
+    "a harp"
+  ],
+  "harvest": [
+    "harvest time"
+  ],
+  "hash": [
+    "hash"
+  ],
+  "hassock": [
+    "a hassock"
+  ],
+  "hay": [
+    "hay"
   ]
 };

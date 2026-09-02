@@ -1,0 +1,128 @@
+[
+  {
+    "id": "harlot",
+    "aliases": [
+      "몸 파는 이",
+      "창녀",
+      "기녀",
+      "몸을 파는"
+    ],
+    "aliases_en": [
+      "a harlot"
+    ],
+    "contexts": {
+      "몸 파는 이와 어울림": "어울 함께 곁에",
+      "몸 파는 이와 짝을 맺음": "짝을 혼인 결혼"
+    },
+    "contexts_en": {
+      "몸 파는 이와 어울림": "company chosen pleasures social depression",
+      "몸 파는 이와 짝을 맺음": "marry threatened enemy"
+    }
+  },
+  {
+    "id": "harp",
+    "aliases": [
+      "하프",
+      "하프를",
+      "하프가"
+    ],
+    "aliases_en": [
+      "a harp"
+    ],
+    "contexts": {
+      "하프의 구슬픈 가락을 들음": "구슬 가락 들었",
+      "부서진 하프를 봄": "부서 망가 깨진",
+      "하프를 손수 켬": "손수 직접 켰다"
+    },
+    "contexts_en": {
+      "하프의 구슬픈 가락을 들음": "strains ending seems profitable",
+      "부서진 하프를 봄": "broken betokens illness troth",
+      "하프를 손수 켬": "play yourself trusting placing"
+    }
+  },
+  {
+    "id": "harvest",
+    "aliases": [
+      "가을걷이",
+      "추수",
+      "수확철"
+    ],
+    "aliases_en": [
+      "harvest time"
+    ],
+    "contexts": {
+      "가을걷이 철을 봄": "철을 때가 무렵",
+      "거둔 곡식이 넉넉함": "넉넉 푸짐 그득",
+      "거둔 곡식이 시원찮음": "시원찮 형편없 적었"
+    },
+    "contexts_en": {
+      "가을걷이 철을 봄": "forerunner prosperity pleasure",
+      "거둔 곡식이 넉넉함": "yields abundant indications country",
+      "거둔 곡식이 시원찮음": "poor sign small profits"
+    }
+  },
+  {
+    "id": "hash",
+    "aliases": [
+      "다진 고기 요리",
+      "해시",
+      "다진 고기"
+    ],
+    "aliases_en": [
+      "hash"
+    ],
+    "contexts": {
+      "다진 고기 요리를 먹음": "먹었 먹는",
+      "여성이 다진 고기 요리를 만듦": "만들 요리했 끓였"
+    },
+    "contexts_en": {
+      "다진 고기 요리를 먹음": "eating sorrows vexations",
+      "여성이 다진 고기 요리를 만듦": "cooks jealous husband stumbling"
+    }
+  },
+  {
+    "id": "hassock",
+    "aliases": [
+      "발받침",
+      "발판 방석"
+    ],
+    "aliases_en": [
+      "a hassock"
+    ],
+    "contexts": {
+      "발받침을 봄": "놓여 발밑",
+      "여성이 발받침 꿈을 꿈": "여자가 여성이"
+    },
+    "contexts_en": {
+      "발받침을 봄": "forebodes yielding power another",
+      "여성이 발받침 꿈을 꿈": "woman cultivate spirit independence"
+    }
+  },
+  {
+    "id": "hay",
+    "aliases": [
+      "건초",
+      "건초를",
+      "마른 풀",
+      "건초밭",
+      "건초 더미"
+    ],
+    "aliases_en": [
+      "hay"
+    ],
+    "contexts": {
+      "건초를 벰": "베었 베는",
+      "갓 베어 놓은 건초밭을 봄": "건초밭 들판 갓베",
+      "건초를 실어 곳간에 들임": "곳간 헛간 실어",
+      "건초를 실은 짐이 길을 지나감": "길을 거리 지나가",
+      "짐승에게 건초를 먹임": "먹였 먹이 짐승에게"
+    },
+    "contexts_en": {
+      "건초를 벰": "mowing much good farmer",
+      "갓 베어 놓은 건초밭을 봄": "fields newly cut unusual",
+      "건초를 실어 곳간에 들임": "hauling putting barns assured",
+      "건초를 실은 짐이 길을 지나감": "loads passing street influential",
+      "짐승에게 건초를 먹임": "feed stock offer aid return"
+    }
+  }
+]

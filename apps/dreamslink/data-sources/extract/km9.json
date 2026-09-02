@@ -231,7 +231,9 @@
       "두건",
       "벙거지",
       "중절모",
-      "야구모자"
+      "야구모자",
+      "모자를",
+      "모자가"
     ],
     "aliases_en": [
       "cap",
@@ -246,7 +248,10 @@
       "귀인이 관을 줌": "귀인 높은사람 주었 받았 선물",
       "관을 새것으로 바꿔 씀": "새것 새로 바꿔 바꾸 갈아",
       "관모가 불에 타 없어짐": "불에 불이 타서 불타 재가",
-      "관모를 잃어버림": "잃어 잃었 없어졌 사라졌 도둑"
+      "관모를 잃어버림": "잃어 잃었 없어졌 사라졌 도둑",
+      "남자가 새 모자를 씀": "남자가 사내",
+      "여성이 곱고 새로운 모자를 씀": "여자가 고운 예쁜",
+      "바람에 모자가 날아감": "바람에 날아갔 날려"
     },
     "contexts_en": {
       "관을 쓰고 수레에 오름": "cart carriage wagon riding",
@@ -255,7 +260,10 @@
       "귀인이 관을 줌": "noble nobleman gave gift received",
       "관을 새것으로 바꿔 씀": "new replaced changed swapped",
       "관모가 불에 타 없어짐": "burned burnt fire ashes",
-      "관모를 잃어버림": "lost missing gone disappeared"
+      "관모를 잃어버림": "lost missing gone disappeared",
+      "남자가 새 모자를 씀": "wears predicts advantage business",
+      "여성이 곱고 새로운 모자를 씀": "fine attainment object admiration",
+      "바람에 모자가 날아감": "wind blow off sudden worse"
     }
   },
   {

@@ -40,6 +40,7 @@
     "m42.json",
     "m43.json",
     "m44.json",
+    "m45.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -11299,6 +11300,332 @@
       ]
     },
     {
+      "id": "hat",
+      "term_ko": "모자",
+      "term_en": "hat",
+      "aliases": [
+        "관모",
+        "두건",
+        "벙거지",
+        "중절모",
+        "야구모자",
+        "모자를",
+        "모자가"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관을 쓰고 수레에 오름",
+          "interpretation_ko": "벼슬이 옮겨 오를 조짐",
+          "interpretation_en": "a sign of being promoted to a new post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "戴官登車官欲遷",
+              "translation_ko": "관을 쓰고 수레에 오르면 벼슬이 옮겨지려 한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 새 모자를 씀",
+          "interpretation_ko": "자리와 일이 바뀌어 크게 이로울 길한 조짐",
+          "interpretation_en": "predicts change of place and business, which will be very much to his advantage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hat",
+              "original": "For a man to dream that he wears a new hat, predicts change of place and business, which will be very much to his advantage.",
+              "translation_ko": "남자가 새 모자를 쓰는 꿈은, 자리와 일이 바뀌어 크게 이로움을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 곱고 새로운 모자를 씀",
+          "interpretation_ko": "재물을 얻고 뭇사람의 눈길을 받을 길한 조짐",
+          "interpretation_en": "denotes the attainment of wealth, and she will be the object of much admiration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hat",
+              "original": "For a woman to dream that she wears a fine new hat, denotes the attainment of wealth, and she will be the object of much admiration.",
+              "translation_ko": "여성이 곱고 새로운 모자를 쓰는 꿈은, 재물을 얻고 뭇사람의 눈길을 받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "바람에 모자가 날아감",
+          "interpretation_ko": "일이 갑자기 뒤바뀌되 좋지 않은 쪽일 흉한 조짐",
+          "interpretation_en": "denotes sudden changes in affairs, and somewhat for the worse",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hat",
+              "original": "For the wind to blow your hat off, denotes sudden changes in affairs, and somewhat for the worse.",
+              "translation_ko": "바람에 모자가 날아가면, 일이 갑자기 뒤바뀌되 좋지 않은 쪽이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 두건과 모자를 씀",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "自戴襆頭巾帽吉",
+              "translation_ko": "스스로 복두와 두건과 모자를 쓰면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "관을 쓰고 높은 대에 오름",
+          "interpretation_ko": "직위가 오를 조짐",
+          "interpretation_en": "a sign of rising in rank",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "簪冠登台職位遷",
+              "translation_ko": "비녀를 꽂아 관을 쓰고 대에 오르면 직위가 옮겨진다"
+            }
+          ]
+        },
+        {
+          "context": "귀인이 관을 줌",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "貴人與之衣冠吉",
+              "translation_ko": "귀인이 의관을 주면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "관을 새것으로 바꿔 씀",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "新換衣冠祿位至",
+              "translation_ko": "의관을 새로 바꾸면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "관모가 불에 타 없어짐",
+          "interpretation_ko": "맡은 자리가 바뀔 조짐",
+          "interpretation_en": "a sign that one's post will change",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "燒毀冠帽欲更官",
+              "translation_ko": "관모를 태워 없애면 관직을 바꾸려 한다"
+            }
+          ]
+        },
+        {
+          "context": "관모를 잃어버림",
+          "interpretation_ko": "자리에서 물러날 조짐",
+          "interpretation_en": "a sign of stepping down from one's post",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "失去冠帽去退職",
+              "translation_ko": "관모를 잃으면 직에서 물러난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "term_ko": "머리",
+      "term_en": "head",
+      "aliases": [
+        "머리통",
+        "대가리",
+        "두상",
+        "머리가",
+        "머리를"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 자기 머리를 내리침",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "人砍頭腦中二吉",
+              "translation_ko": "남이 머리를 내리쳐 맞으면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "잘 생기고 반듯한 남의 머리를 봄",
+          "interpretation_ko": "힘 있고 널리 미치는 이를 만나 큰일에 도움을 받을 길한 조짐",
+          "interpretation_en": "you will meet persons of power and vast influence who will lend you aid in enterprises of importance",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To see a person's head in your dream, and it is well-shaped and prominent, you will meet persons of power and vast influence who will lend you aid in enterprises of importance.",
+              "translation_ko": "남의 머리가 잘 생기고 반듯한 것을 보면, 힘 있고 널리 미치는 이를 만나 큰일에 도움을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "제 머리를 봄",
+          "interpretation_ko": "마음이나 머릿속이 앓을 위험이 있는 흉한 조짐",
+          "interpretation_en": "you are threatened with nervous or brain trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "If you dream of your own head, you are threatened with nervous or brain trouble.",
+              "translation_ko": "제 머리를 꿈꾸면, 마음이나 머릿속이 앓을 위험이 있다"
+            }
+          ]
+        },
+        {
+          "context": "몸에서 떨어져 피 흐르는 머리를 봄",
+          "interpretation_ko": "몸서리치는 낙심을 겪고 가장 아끼던 바람이 무너질 흉한 조짐",
+          "interpretation_en": "you will meet sickening disappointments, and the overthrow of your dearest hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To see a head severed from its trunk, and bloody, you will meet sickening disappointments, and the overthrow of your dearest hopes and anticipations.",
+              "translation_ko": "몸에서 떨어져 피 흐르는 머리를 보면, 몸서리치는 낙심과 가장 아끼던 바람의 무너짐을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "제 머리가 둘 이상인 것을 봄",
+          "interpretation_ko": "놀랍도록 빠르게 오르나 그 자리가 단단하지는 못할 조짐",
+          "interpretation_en": "foretells phenomenal and rapid rise in life, but the probabilities are that the rise will not be stable",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To see yourself with two or more heads, foretells phenomenal and rapid rise in life, but the probabilities are that the rise will not be stable.",
+              "translation_ko": "제 머리가 둘 이상인 것을 보면, 놀랍도록 빠른 오름이나 그 자리는 단단하지 못하다"
+            }
+          ]
+        },
+        {
+          "context": "머리가 아픔",
+          "interpretation_ko": "걱정에 짓눌릴 흉한 조짐",
+          "interpretation_en": "denotes that you will be oppressed with worry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To dream that your head aches, denotes that you will be oppressed with worry.",
+              "translation_ko": "머리가 아픈 꿈은, 걱정에 짓눌림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "부어오른 머리를 봄",
+          "interpretation_ko": "삶에 궂은 일보다 좋은 일이 많을 길한 조짐",
+          "interpretation_en": "you will have more good than bad in your life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To dream of a swollen head, you will have more good than bad in your life.",
+              "translation_ko": "부어오른 머리를 꿈꾸면, 삶에 궂은 일보다 좋은 일이 많다"
+            }
+          ]
+        },
+        {
+          "context": "아이의 머리를 봄",
+          "interpretation_ko": "즐거운 일이 쌓이고 셈속도 잘 풀릴 길한 조짐",
+          "interpretation_en": "there will be much pleasure in store for you and signal financial success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To dream of a child's head, there will be much pleasure ill store for you and signal financial success.",
+              "translation_ko": "아이의 머리를 꿈꾸면, 즐거운 일이 쌓이고 셈속도 잘 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "짐승의 머리를 봄",
+          "interpretation_ko": "바라는 것이 낮은 데로만 흘러 누리는 즐거움에만 매일 조짐",
+          "interpretation_en": "denotes that the nature of your desires will run on a low plane, and only material pleasures will concern you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Head",
+              "original": "To dream of the head of a beast, denotes that the nature of your desires will run on a low plane, and only material pleasures will concern you.",
+              "translation_ko": "짐승의 머리를 꿈꾸면, 바라는 것이 낮은 데로만 흘러 누리는 즐거움에만 매인다"
+            }
+          ]
+        },
+        {
+          "context": "머리가 잘린 채로 걸어감",
+          "interpretation_ko": "큰 기쁨이 있을 조짐",
+          "interpretation_en": "a sign of great joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "斷頭而行主大喜",
+              "translation_ko": "머리가 잘린 채로 걸어가면 큰 기쁨이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mountain",
       "term_ko": "산",
       "term_en": "mountain",
@@ -11758,6 +12085,151 @@
               "locator": "Actor and Actress",
               "original": "If a man dreams that he is sporting with an actress, it foretells that private broils with his wife, or sweetheart, will make him more misery than enjoyment.",
               "translation_ko": "남성이 여배우와 즐기는 꿈을 꾸면 아내나 애인과의 다툼이 즐거움보다 더 큰 고통을 안길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "axe",
+      "term_ko": "도끼",
+      "term_en": "axe",
+      "aliases": [
+        "손도끼",
+        "도끼날"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도끼를 봄",
+          "interpretation_ko": "누릴 즐거움이 자신의 애씀과 기운에 달려 있을 조짐",
+          "interpretation_en": "what enjoyment you may have will depend on your struggles and energy",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Axe",
+              "original": "Seeing an axe in a dream, foretells that what enjoyment you may have will depend on your struggles and energy.",
+              "translation_ko": "꿈에서 도끼를 보면 누릴 즐거움이 자신의 애씀과 기운에 달려 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "손도끼를 봄",
+          "interpretation_ko": "함부로 낭비하다 시샘하는 이들의 검은 속셈에 걸려들 흉한 조짐",
+          "interpretation_en": "denotes that wanton wastefulness will expose you to the evil designs of envious persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hatchet",
+              "original": "A hatchet seen in a dream, denotes that wanton wastefulness will expose you to the evil designs of envious persons.",
+              "translation_ko": "꿈에 손도끼를 보면, 함부로 낭비하다 시샘하는 이들의 검은 속셈에 걸려든다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람이 도끼 쓰는 것을 봄",
+          "interpretation_ko": "친구들이 활기차고 생기 있어 그들과 가까이 있으면 즐거울 조짐",
+          "interpretation_en": "your friends will be energetic and lively, making existence a pleasure when near them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Axe",
+              "original": "To see others using an axe, foretells, your friends will be energetic and lively, making existence a pleasure when near them.",
+              "translation_ko": "다른 사람이 도끼 쓰는 것을 보면 친구들이 활기차고 생기 있어 그들과 가까이 있으면 즐거울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 도끼를 봄",
+          "interpretation_ko": "애인은 훌륭하겠지만 재물은 많지 않을 조짐",
+          "interpretation_en": "her lover will be worthy, but not possessed with much wealth",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Axe",
+              "original": "For a young woman to see one, portends her lover will be worthy, but not possessed with much wealth.",
+              "translation_ko": "젊은 여성이 도끼를 보면 애인은 훌륭하겠지만 재물은 많지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "깨지거나 녹슨 도끼를 봄",
+          "interpretation_ko": "병들고 돈과 재산을 잃을 조짐",
+          "interpretation_en": "indicates illness and loss of money and property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Axe",
+              "original": "A broken or rusty axe, indicates illness and loss of money and property.",
+              "translation_ko": "깨지거나 녹슨 도끼는 병들고 돈과 재산을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "칼과 도끼에 스스로 다침",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "刀斧自傷大吉利",
+              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "남에게서 칼과 도끼를 얻음",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "得人刀斧祿位至",
+              "translation_ko": "남에게 칼과 도끼를 얻으면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "창과 도끼에 빛이 남",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "戈鉞有光祿位至",
+              "translation_ko": "창과 도끼에 빛이 있으면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "도끼에 스스로 다침",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "刀斧自傷主大吉",
+              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
             }
           ]
         }
@@ -13486,137 +13958,6 @@
               "locator": "Harlequin",
               "original": "To be dressed as a harlequin, denotes passionate error and unwise attacks on strength and purse.",
               "translation_ko": "어릿광대 옷을 입은 꿈은, 욱하는 잘못과 몸·살림을 함부로 축냄을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "axe",
-      "term_ko": "도끼",
-      "term_en": "axe",
-      "aliases": [
-        "손도끼",
-        "도끼날"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "도끼를 봄",
-          "interpretation_ko": "누릴 즐거움이 자신의 애씀과 기운에 달려 있을 조짐",
-          "interpretation_en": "what enjoyment you may have will depend on your struggles and energy",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Axe",
-              "original": "Seeing an axe in a dream, foretells that what enjoyment you may have will depend on your struggles and energy.",
-              "translation_ko": "꿈에서 도끼를 보면 누릴 즐거움이 자신의 애씀과 기운에 달려 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다른 사람이 도끼 쓰는 것을 봄",
-          "interpretation_ko": "친구들이 활기차고 생기 있어 그들과 가까이 있으면 즐거울 조짐",
-          "interpretation_en": "your friends will be energetic and lively, making existence a pleasure when near them",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Axe",
-              "original": "To see others using an axe, foretells, your friends will be energetic and lively, making existence a pleasure when near them.",
-              "translation_ko": "다른 사람이 도끼 쓰는 것을 보면 친구들이 활기차고 생기 있어 그들과 가까이 있으면 즐거울 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 도끼를 봄",
-          "interpretation_ko": "애인은 훌륭하겠지만 재물은 많지 않을 조짐",
-          "interpretation_en": "her lover will be worthy, but not possessed with much wealth",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Axe",
-              "original": "For a young woman to see one, portends her lover will be worthy, but not possessed with much wealth.",
-              "translation_ko": "젊은 여성이 도끼를 보면 애인은 훌륭하겠지만 재물은 많지 않을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "깨지거나 녹슨 도끼를 봄",
-          "interpretation_ko": "병들고 돈과 재산을 잃을 조짐",
-          "interpretation_en": "indicates illness and loss of money and property",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Axe",
-              "original": "A broken or rusty axe, indicates illness and loss of money and property.",
-              "translation_ko": "깨지거나 녹슨 도끼는 병들고 돈과 재산을 잃을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "칼과 도끼에 스스로 다침",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "刀斧自傷大吉利",
-              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "남에게서 칼과 도끼를 얻음",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "得人刀斧祿位至",
-              "translation_ko": "남에게 칼과 도끼를 얻으면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "창과 도끼에 빛이 남",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "戈鉞有光祿位至",
-              "translation_ko": "창과 도끼에 빛이 있으면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "도끼에 스스로 다침",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "刀斧自傷主大吉",
-              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
             }
           ]
         }
@@ -18060,6 +18401,127 @@
       ]
     },
     {
+      "id": "falcon",
+      "term_ko": "송골매",
+      "term_en": "falcon",
+      "aliases": [
+        "송골매를",
+        "송골매가",
+        "매가 날",
+        "보라매",
+        "매를",
+        "매에게",
+        "매한테"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "송골매를 봄",
+          "interpretation_ko": "넉넉함 때문에 시샘과 미움을 살 흉한 조짐",
+          "interpretation_en": "denotes that your prosperity will make you an object of envy and malice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Falcon",
+              "original": "To dream of a falcon, denotes that your prosperity will make you an object of envy and malice.",
+              "translation_ko": "송골매 꿈은, 넉넉함 때문에 시샘과 미움을 사게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 송골매를 봄",
+          "interpretation_ko": "겨루는 이에게 헐뜯길 흉한 조짐",
+          "interpretation_en": "she will be calumniated by a rival",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Falcon",
+              "original": "For a young woman, this dream denotes that she will be calumniated by a rival.",
+              "translation_ko": "젊은 여성에게 이 꿈은 겨루는 이에게 헐뜯김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "매를 쏘아 맞힘",
+          "interpretation_ko": "여러 번 애쓴 끝에 걸림돌을 넘어설 길한 조짐",
+          "interpretation_en": "foretells you will surmount obstacles after many struggles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hawk",
+              "original": "To shoot one, foretells you will surmount obstacles after many struggles.",
+              "translation_ko": "매를 쏘아 맞히면, 여러 번 애쓴 끝에 걸림돌을 넘어선다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 닭에게서 매를 쫓아냄",
+          "interpretation_ko": "제 일을 부지런히 살펴 크게 바라던 것을 얻을 길한 조짐",
+          "interpretation_en": "signifies she will obtain her most extravagant desires through diligent attention to her affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hawk",
+              "original": "For a young woman to frighten hawks away from her chickens, signifies she will obtain her most extravagant desires through diligent attention to her affairs.",
+              "translation_ko": "처녀가 닭에게서 매를 쫓아내는 꿈은, 제 일을 부지런히 살펴 크게 바라던 것을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 다치기 전에 매를 쫓아냄",
+          "interpretation_ko": "하는 일에 운이 따를 길한 조짐",
+          "interpretation_en": "you will be lucky in your business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hawk",
+              "original": "If you succeed in scaring it away before your fowls are injured, you will be lucky in your business.",
+              "translation_ko": "닭이 다치기 전에 쫓아내는 데 성공하면, 하는 일에 운이 따른다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 매를 봄",
+          "interpretation_ko": "원수가 무너질 길한 조짐",
+          "interpretation_en": "signifies that your enemies will be vanquished",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hawk",
+              "original": "To see a dead hawk, signifies that your enemies will be vanquished.",
+              "translation_ko": "죽은 매를 보면, 원수가 무너짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "매를 향해 총을 쏨",
+          "interpretation_ko": "원수와 겨루게 되며 아마 이길 조짐",
+          "interpretation_en": "you will have a contest with enemies, and will probably win",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hawk",
+              "original": "To dream of shooting at a hawk, you will have a contest with enemies, and will probably win.",
+              "translation_ko": "매를 향해 총을 쏘는 꿈은, 원수와의 겨룸과 아마도 이김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "feast",
       "term_ko": "잔치",
       "term_en": "feast",
@@ -18291,125 +18753,6 @@
               "locator": "哀樂病死歌唱",
               "original": "吹笛打鼓有吉慶",
               "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hat",
-      "term_ko": "모자",
-      "term_en": "hat",
-      "aliases": [
-        "관모",
-        "두건",
-        "벙거지",
-        "중절모",
-        "야구모자"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "관을 쓰고 수레에 오름",
-          "interpretation_ko": "벼슬이 옮겨 오를 조짐",
-          "interpretation_en": "a sign of being promoted to a new post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "戴官登車官欲遷",
-              "translation_ko": "관을 쓰고 수레에 오르면 벼슬이 옮겨지려 한다"
-            }
-          ]
-        },
-        {
-          "context": "스스로 두건과 모자를 씀",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "自戴襆頭巾帽吉",
-              "translation_ko": "스스로 복두와 두건과 모자를 쓰면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "관을 쓰고 높은 대에 오름",
-          "interpretation_ko": "직위가 오를 조짐",
-          "interpretation_en": "a sign of rising in rank",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "簪冠登台職位遷",
-              "translation_ko": "비녀를 꽂아 관을 쓰고 대에 오르면 직위가 옮겨진다"
-            }
-          ]
-        },
-        {
-          "context": "귀인이 관을 줌",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "貴人與之衣冠吉",
-              "translation_ko": "귀인이 의관을 주면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "관을 새것으로 바꿔 씀",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "新換衣冠祿位至",
-              "translation_ko": "의관을 새로 바꾸면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "관모가 불에 타 없어짐",
-          "interpretation_ko": "맡은 자리가 바뀔 조짐",
-          "interpretation_en": "a sign that one's post will change",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "燒毀冠帽欲更官",
-              "translation_ko": "관모를 태워 없애면 관직을 바꾸려 한다"
-            }
-          ]
-        },
-        {
-          "context": "관모를 잃어버림",
-          "interpretation_ko": "자리에서 물러날 조짐",
-          "interpretation_en": "a sign of stepping down from one's post",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "失去冠帽去退職",
-              "translation_ko": "관모를 잃으면 직에서 물러난다"
             }
           ]
         }
@@ -19404,6 +19747,113 @@
               "work": "miller",
               "locator": "Bedbugs",
               "original": "If the water fails to destroy them, some serious complication with fatal results is not improbable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridle",
+      "term_ko": "굴레",
+      "term_en": "bridle",
+      "aliases": [
+        "고삐",
+        "말굴레",
+        "굴레를",
+        "굴레가",
+        "마구를",
+        "마구가",
+        "마구 한 벌"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "굴레(고삐)를 보는 꿈을 꿈",
+          "interpretation_ko": "걱정 많은 일에 뛰어들지만 결국 기쁨과 이득으로 끝날 조짐",
+          "interpretation_en": "a sign that you will engage in some enterprise which will afford much worry, but will eventually terminate in pleasure and gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridle",
+              "original": "To dream of a bridle, denotes you will engage in some enterprise which will afford much worry, but will eventually terminate in pleasure and gain.",
+              "translation_ko": "굴레를 보는 꿈을 꾸면 걱정 많은 일에 뛰어들지만 결국 기쁨과 이득으로 끝날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어린 말에 굴레를 씌움",
+          "interpretation_ko": "잘되고 떳떳한 일을 꾸리며 정분도 뜻대로 될 길한 조짐",
+          "interpretation_en": "shows that you will manage a very prosperous and clean business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Halter",
+              "original": "To dream that you put a halter on a young horse, shows that you will manage a very prosperous and clean business.",
+              "translation_ko": "어린 말에 굴레를 씌우는 꿈은, 잘되고 떳떳한 일을 꾸림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다른 것에 굴레가 씌워진 것을 봄",
+          "interpretation_ko": "한동안 복이 미뤄지고 애를 많이 써야 얻을 조짐",
+          "interpretation_en": "denotes that fortune will be withheld from you for a while. You will win it, but with much toil",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Halter",
+              "original": "To see other things haltered, denotes that fortune will be withheld from you for a while.",
+              "translation_ko": "다른 것에 굴레가 씌워진 것을 보면, 한동안 복이 미뤄진다"
+            }
+          ]
+        },
+        {
+          "context": "번쩍이는 새 마구를 지님",
+          "interpretation_ko": "머지않아 즐거운 나들이를 채비할 길한 조짐",
+          "interpretation_en": "you will soon prepare for a pleasant journey",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harness",
+              "original": "To dream of possessing bright new harness, you will soon prepare for a pleasant journey.",
+              "translation_ko": "번쩍이는 새 마구를 지닌 꿈은, 머지않아 즐거운 나들이를 채비함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "굴레가 낡거나 부러짐",
+          "interpretation_ko": "어려움에 부딪히고 결국 그 앞에 무너질 조짐",
+          "interpretation_en": "a sign that you will have difficulties to encounter, and the probabilities are that you will go down before them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridle",
+              "original": "If it is old or broken you will have difficulties to encounter, and the probabilities are that you will go down before them.",
+              "translation_ko": "굴레가 낡거나 부러지면 어려움에 부딪히고 결국 그 앞에 무너질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈가리개 달린 굴레를 봄",
+          "interpretation_ko": "교활한 적에게 속거나 어떤 여자가 자신을 음모에 얽어맬 조짐",
+          "interpretation_en": "a sign that you will be deceived by some wily enemy, or some woman will entangle you in an intrigue",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridle",
+              "original": "A blind bridle signifies you will be deceived by some wily enemy, or some woman will entangle you in an intrigue.",
+              "translation_ko": "눈가리개 달린 굴레는 교활한 적에게 속거나 어떤 여자가 자신을 음모에 얽어맬 조짐이다"
             }
           ]
         }
@@ -23080,96 +23530,6 @@
       ]
     },
     {
-      "id": "bridle",
-      "term_ko": "굴레",
-      "term_en": "bridle",
-      "aliases": [
-        "고삐",
-        "말굴레",
-        "굴레를",
-        "굴레가"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "굴레(고삐)를 보는 꿈을 꿈",
-          "interpretation_ko": "걱정 많은 일에 뛰어들지만 결국 기쁨과 이득으로 끝날 조짐",
-          "interpretation_en": "a sign that you will engage in some enterprise which will afford much worry, but will eventually terminate in pleasure and gain",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridle",
-              "original": "To dream of a bridle, denotes you will engage in some enterprise which will afford much worry, but will eventually terminate in pleasure and gain.",
-              "translation_ko": "굴레를 보는 꿈을 꾸면 걱정 많은 일에 뛰어들지만 결국 기쁨과 이득으로 끝날 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "어린 말에 굴레를 씌움",
-          "interpretation_ko": "잘되고 떳떳한 일을 꾸리며 정분도 뜻대로 될 길한 조짐",
-          "interpretation_en": "shows that you will manage a very prosperous and clean business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Halter",
-              "original": "To dream that you put a halter on a young horse, shows that you will manage a very prosperous and clean business.",
-              "translation_ko": "어린 말에 굴레를 씌우는 꿈은, 잘되고 떳떳한 일을 꾸림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "다른 것에 굴레가 씌워진 것을 봄",
-          "interpretation_ko": "한동안 복이 미뤄지고 애를 많이 써야 얻을 조짐",
-          "interpretation_en": "denotes that fortune will be withheld from you for a while. You will win it, but with much toil",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Halter",
-              "original": "To see other things haltered, denotes that fortune will be withheld from you for a while.",
-              "translation_ko": "다른 것에 굴레가 씌워진 것을 보면, 한동안 복이 미뤄진다"
-            }
-          ]
-        },
-        {
-          "context": "굴레가 낡거나 부러짐",
-          "interpretation_ko": "어려움에 부딪히고 결국 그 앞에 무너질 조짐",
-          "interpretation_en": "a sign that you will have difficulties to encounter, and the probabilities are that you will go down before them",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridle",
-              "original": "If it is old or broken you will have difficulties to encounter, and the probabilities are that you will go down before them.",
-              "translation_ko": "굴레가 낡거나 부러지면 어려움에 부딪히고 결국 그 앞에 무너질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "눈가리개 달린 굴레를 봄",
-          "interpretation_ko": "교활한 적에게 속거나 어떤 여자가 자신을 음모에 얽어맬 조짐",
-          "interpretation_en": "a sign that you will be deceived by some wily enemy, or some woman will entangle you in an intrigue",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridle",
-              "original": "A blind bridle signifies you will be deceived by some wily enemy, or some woman will entangle you in an intrigue.",
-              "translation_ko": "눈가리개 달린 굴레는 교활한 적에게 속거나 어떤 여자가 자신을 음모에 얽어맬 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "bronze",
       "term_ko": "청동",
       "term_en": "bronze",
@@ -25755,6 +26115,97 @@
               "locator": "Guitar",
               "original": "If you play on a guitar, your family affairs will be harmonious.",
               "translation_ko": "기타를 켜면, 집안일이 두루 화목하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hay",
+      "term_ko": "건초",
+      "term_en": "hay",
+      "aliases": [
+        "건초",
+        "건초를",
+        "마른 풀",
+        "건초밭",
+        "건초 더미"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "건초를 벰",
+          "interpretation_ko": "삶에 좋은 것이 많고 농사짓는 이는 곡식이 넉넉할 길한 조짐",
+          "interpretation_en": "you will find much good in life, and if a farmer your crops will yield abundantly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hay",
+              "original": "If you dream of mowing hay, you will find much good in life, and if a farmer your crops will yield abundantly.",
+              "translation_ko": "건초를 베는 꿈은, 삶의 좋은 것과 농사짓는 이의 넉넉한 곡식을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "갓 베어 놓은 건초밭을 봄",
+          "interpretation_ko": "여느 때보다 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "is a sign of unusual prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hay",
+              "original": "To see fields of newly cut hay, is a sign of unusual prosperity.",
+              "translation_ko": "갓 베어 놓은 건초밭을 보면, 여느 때보다 넉넉해짐의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "건초를 실어 곳간에 들임",
+          "interpretation_ko": "재물이 틀림없이 들어오고 벌인 일에서 크게 남길 길한 조짐",
+          "interpretation_en": "your fortune is assured, and you will realize great profit from some enterprise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hay",
+              "original": "If you are hauling and putting hay into barns, your fortune is assured, and you will realize great profit from some enterprise.",
+              "translation_ko": "건초를 실어 곳간에 들이면, 재물이 틀림없이 들어오고 크게 남긴다"
+            }
+          ]
+        },
+        {
+          "context": "건초를 실은 짐이 길을 지나감",
+          "interpretation_ko": "즐거움을 더해 줄 힘 있는 낯선 이를 만날 길한 조짐",
+          "interpretation_en": "you will meet influential strangers who will add much to your pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hay",
+              "original": "To see loads of hay passing through the street, you will meet influential strangers who will add much to your pleasure.",
+              "translation_ko": "건초를 실은 짐이 길을 지나가는 것을 보면, 즐거움을 더해 줄 힘 있는 낯선 이를 만난다"
+            }
+          ]
+        },
+        {
+          "context": "짐승에게 건초를 먹임",
+          "interpretation_ko": "남을 도우면 그가 사랑과 오름으로 갚아 줄 길한 조짐",
+          "interpretation_en": "indicates that you will offer aid to some one who will return the favor with love and advancement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hay",
+              "original": "To feed hay to stock, indicates that you will offer aid to some one who will return the favor with love and advancement to higher states.",
+              "translation_ko": "짐승에게 건초를 먹이면, 남을 도운 것이 사랑과 오름으로 되돌아온다"
             }
           ]
         }
@@ -44044,6 +44495,128 @@
       ]
     },
     {
+      "id": "harp",
+      "term_ko": "하프",
+      "term_en": "harp",
+      "aliases": [
+        "하프",
+        "하프를",
+        "하프가"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하프의 구슬픈 가락을 들음",
+          "interpretation_ko": "즐겁고 잘될 듯하던 일이 서글프게 끝날 흉한 조짐",
+          "interpretation_en": "denotes the sad ending to what seems a pleasing and profitable enterprise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harp",
+              "original": "To hear the sad sweet strains of a harp, denotes the sad ending to what seems a pleasing and profitable enterprise.",
+              "translation_ko": "하프의 구슬프고 고운 가락을 들으면, 즐겁고 잘될 듯하던 일이 서글프게 끝난다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 하프를 봄",
+          "interpretation_ko": "앓거나 정인끼리 언약이 깨질 흉한 조짐",
+          "interpretation_en": "betokens illness, or broken troth between lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harp",
+              "original": "To see a broken harp, betokens illness, or broken troth between lovers.",
+              "translation_ko": "부서진 하프를 보면, 앓음이나 정인끼리의 깨진 언약을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "하프를 손수 켬",
+          "interpretation_ko": "사람을 너무 믿는 마음이라 믿음도 정도 더 가려서 두어야 할 조짐",
+          "interpretation_en": "signifies that your nature is too trusting, and you should be more careful in placing your confidence",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harp",
+              "original": "To play a harp yourself, signifies that your nature is too trusting, and you should be more careful in placing your confidence as well as love matters.",
+              "translation_ko": "하프를 손수 켜면, 사람을 너무 믿는 마음이니 믿음도 정도 더 가려 두어야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harvest",
+      "term_ko": "가을걷이",
+      "term_en": "harvest",
+      "aliases": [
+        "가을걷이",
+        "추수",
+        "수확철"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가을걷이 철을 봄",
+          "interpretation_ko": "살림이 넉넉하고 즐거움이 앞설 길한 조짐",
+          "interpretation_en": "is a forerunner of prosperity and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harvest",
+              "original": "To dream of harvest time, is a forerunner of prosperity and pleasure.",
+              "translation_ko": "가을걷이 철 꿈은, 넉넉함과 즐거움이 앞섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "거둔 곡식이 넉넉함",
+          "interpretation_ko": "나라와 고을의 형편까지 두루 나아질 길한 조짐",
+          "interpretation_en": "the indications are good for country and state",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harvest",
+              "original": "If the harvest yields are abundant, the indications are good for country and state, as political machinery will grind to advance all conditions.",
+              "translation_ko": "거둔 곡식이 넉넉하면, 나라와 고을의 형편까지 두루 나아진다"
+            }
+          ]
+        },
+        {
+          "context": "거둔 곡식이 시원찮음",
+          "interpretation_ko": "남는 것이 적을 흉한 조짐",
+          "interpretation_en": "A poor harvest is a sign of small profits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harvest",
+              "original": "A poor harvest is a sign of small profits.",
+              "translation_ko": "시원찮은 가을걷이는 남는 것이 적음의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "humiliation",
       "term_ko": "모욕",
       "term_en": "humiliation",
@@ -58612,54 +59185,6 @@
       ]
     },
     {
-      "id": "falcon",
-      "term_ko": "송골매",
-      "term_en": "falcon",
-      "aliases": [
-        "송골매를",
-        "송골매가",
-        "매가 날",
-        "보라매"
-      ],
-      "category": "animal",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "송골매를 봄",
-          "interpretation_ko": "넉넉함 때문에 시샘과 미움을 살 흉한 조짐",
-          "interpretation_en": "denotes that your prosperity will make you an object of envy and malice",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Falcon",
-              "original": "To dream of a falcon, denotes that your prosperity will make you an object of envy and malice.",
-              "translation_ko": "송골매 꿈은, 넉넉함 때문에 시샘과 미움을 사게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 송골매를 봄",
-          "interpretation_ko": "겨루는 이에게 헐뜯길 흉한 조짐",
-          "interpretation_en": "she will be calumniated by a rival",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Falcon",
-              "original": "For a young woman, this dream denotes that she will be calumniated by a rival.",
-              "translation_ko": "젊은 여성에게 이 꿈은 겨루는 이에게 헐뜯김을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "fall",
       "term_ko": "추락",
       "term_en": "fall",
@@ -61017,47 +61542,141 @@
       ]
     },
     {
-      "id": "head",
-      "term_ko": "머리",
-      "term_en": "head",
+      "id": "harlot",
+      "term_ko": "몸 파는 이",
+      "term_en": "harlot",
       "aliases": [
-        "머리통",
-        "대가리",
-        "두상"
+        "몸 파는 이",
+        "창녀",
+        "기녀",
+        "몸을 파는"
       ],
-      "category": "body",
-      "polarity": "positive",
+      "category": "person",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남이 자기 머리를 내리침",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
+          "context": "몸 파는 이와 어울림",
+          "interpretation_ko": "잘못 고른 즐거움과 사귐의 말썽이 있고 하는 일도 기울 흉한 조짐",
+          "interpretation_en": "denotes ill-chosen pleasures and trouble in your social circles, and business will suffer depression",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "人砍頭腦中二吉",
-              "translation_ko": "남이 머리를 내리쳐 맞으면 길하다"
+              "work": "miller",
+              "locator": "Harlot",
+              "original": "To dream of being in the company of a harlot, denotes ill-chosen pleasures and trouble in your social circles, and business will suffer depression.",
+              "translation_ko": "몸 파는 이와 어울리는 꿈은, 잘못 고른 즐거움과 사귐의 말썽, 기우는 일을 뜻한다"
             }
           ]
         },
         {
-          "context": "머리가 잘린 채로 걸어감",
-          "interpretation_ko": "큰 기쁨이 있을 조짐",
-          "interpretation_en": "a sign of great joy",
-          "polarity": "positive",
+          "context": "몸 파는 이와 짝을 맺음",
+          "interpretation_ko": "원수 때문에 목숨이 위태로울 흉한 조짐",
+          "interpretation_en": "life will be threatened by an enemy",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "斷頭而行主大喜",
-              "translation_ko": "머리가 잘린 채로 걸어가면 큰 기쁨이 있다"
+              "work": "miller",
+              "locator": "Harlot",
+              "original": "If you marry one, life will be threatened by an enemy.",
+              "translation_ko": "그런 이와 짝을 맺으면, 원수 때문에 목숨이 위태로워진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hash",
+      "term_ko": "다진 고기 요리",
+      "term_en": "hash",
+      "aliases": [
+        "다진 고기 요리",
+        "해시",
+        "다진 고기"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "다진 고기 요리를 먹음",
+          "interpretation_ko": "자잘한 시샘과 다툼에 시달리고 걱정으로 몸까지 상할 흉한 조짐",
+          "interpretation_en": "many sorrows and vexations are foretold",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hash",
+              "original": "To dream you are eating hash, many sorrows and vexations are foretold.",
+              "translation_ko": "다진 고기 요리를 먹는 꿈은, 숱한 시름과 성가심을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 다진 고기 요리를 만듦",
+          "interpretation_ko": "짝을 시샘하고 자식이 마음대로 못 하게 하는 걸림돌이 될 조짐",
+          "interpretation_en": "denotes that she will be jealous of her husband, and children will be a stumbling block",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hash",
+              "original": "For a woman to dream that she cooks hash, denotes that she will be jealous of her husband, and children will be a stumbling block to her wantonness.",
+              "translation_ko": "여성이 다진 고기 요리를 만드는 꿈은, 짝을 시샘함과 자식이 걸림돌이 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hassock",
+      "term_ko": "발받침",
+      "term_en": "hassock",
+      "aliases": [
+        "발받침",
+        "발판 방석"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "발받침을 봄",
+          "interpretation_ko": "제 힘과 재물을 남에게 넘겨주게 될 흉한 조짐",
+          "interpretation_en": "forebodes the yielding of your power and fortune to another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hassock",
+              "original": "To dream of a hassock, forebodes the yielding of your power and fortune to another.",
+              "translation_ko": "발받침 꿈은, 제 힘과 재물을 남에게 넘겨줌을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 발받침 꿈을 꿈",
+          "interpretation_ko": "기개와 홀로 서는 힘을 길러야 할 조짐",
+          "interpretation_en": "she should cultivate spirit and independence",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hassock",
+              "original": "If a woman dreams of a hassock, she should cultivate spirit and independence.",
+              "translation_ko": "여성이 발받침 꿈을 꾸면, 기개와 홀로 서는 힘을 길러야 한다"
             }
           ]
         }
