@@ -5417,5 +5417,42 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "gold-leaf": [
     "gold leaves"
+  ],
+  "golf": [
+    "golf"
+  ],
+  "gong": [
+    "a gong"
+  ],
+  "gooseberry": [
+    "gooseberries"
+  ],
+  "gossip": [
+    "gossip"
+  ],
+  "gout": [
+    "the gout"
+  ],
+  "nightgown": [
+    "a nightgown",
+    "night gown"
+  ],
+  "grammar": [
+    "grammar"
+  ],
+  "gramophone": [
+    "the gramophone"
+  ],
+  "grandparents": [
+    "your grandparents"
+  ],
+  "grape": [
+    "grapes"
+  ],
+  "grasshopper": [
+    "grasshoppers"
+  ],
+  "gravel": [
+    "gravel"
   ]
 };

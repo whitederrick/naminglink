@@ -141,7 +141,9 @@
     "aliases": [
       "수프",
       "스프",
-      "고깃국"
+      "고깃국",
+      "곰탕",
+      "설렁탕"
     ],
     "aliases_en": [
       "a stew",
@@ -149,18 +151,20 @@
       "a bowl of broth"
     ],
     "contexts": {
-      "고기 국물을 보는 꿈을 꿈": "고기 육수 곰탕",
+      "고기 국물을 보는 꿈을 꿈": "육수 곰탕 고깃국",
       "국물 꿈에 이어 친구들이 곁을 지킴": "친구 곁을 곁에 지켜",
       "금전적 도움이 필요할 때 국물 꿈을 꿈": "돈이 금전 궁핍 도움이",
       "연인들에게 국물 꿈이 나타남": "연인 애인 커플",
-      "직접 국물을 만듦": "직접 만들 끓였 요리"
+      "직접 국물을 만듦": "직접 만들 끓였 요리",
+      "고기 국물을 먹음": "먹었 마셨 떠먹"
     },
     "contexts_en": {
       "고기 국물을 보는 꿈을 꿈": "meat beef soup",
       "국물 꿈에 이어 친구들이 곁을 지킴": "friends stood beside supportive",
       "금전적 도움이 필요할 때 국물 꿈을 꿈": "money financial needed loan",
       "연인들에게 국물 꿈이 나타남": "lovers sweetheart romance couple",
-      "직접 국물을 만듦": "made making cooked myself"
+      "직접 국물을 만듦": "made making cooked myself",
+      "고기 국물을 먹음": "eating gravy failing"
     }
   },
   {

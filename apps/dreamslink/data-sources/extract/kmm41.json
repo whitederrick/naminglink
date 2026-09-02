@@ -1,0 +1,217 @@
+[
+  {
+    "id": "golf",
+    "aliases": [
+      "골프",
+      "골프채"
+    ],
+    "aliases_en": [
+      "golf"
+    ],
+    "contexts": {
+      "골프를 치거나 구경함": "쳤다 치는 구경",
+      "골프에서 언짢은 일을 봄": "언짢 다투 시비"
+    },
+    "contexts_en": {
+      "골프를 치거나 구경함": "playing watching successive wishing",
+      "골프에서 언짢은 일을 봄": "unpleasantness humiliated thoughtless"
+    }
+  },
+  {
+    "id": "gong",
+    "aliases": [
+      "징 소리",
+      "징을",
+      "징이",
+      "징에",
+      "꽹과리"
+    ],
+    "aliases_en": [
+      "a gong"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "gooseberry",
+    "aliases": [
+      "구스베리",
+      "까치밥나무 열매"
+    ],
+    "aliases_en": [
+      "gooseberries"
+    ],
+    "contexts": {
+      "구스베리를 땀": "땄다 따고 거두",
+      "덜 익은 구스베리를 먹음": "덜익은 설익 풋것",
+      "구스베리를 봄": "보았 보였",
+      "처녀가 구스베리를 먹음": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "구스베리를 땀": "gathering happiness after trouble",
+      "덜 익은 구스베리를 먹음": "green eating mistake sensationalism",
+      "구스베리를 봄": "escape dreaded work",
+      "처녀가 구스베리를 먹음": "young woman slightly disappointed expectations"
+    }
+  },
+  {
+    "id": "gossip",
+    "aliases": [
+      "소문",
+      "뒷말",
+      "쑥덕",
+      "소문거리",
+      "입방아"
+    ],
+    "aliases_en": [
+      "gossip"
+    ],
+    "contexts": {
+      "남의 소문에 솔깃해함": "솔깃 귀를 재미",
+      "제가 소문거리가 됨": "내가 나에 대한"
+    },
+    "contexts_en": {
+      "남의 소문에 솔깃해함": "interested common humiliating transient",
+      "제가 소문거리가 됨": "object pleasurable surprise"
+    }
+  },
+  {
+    "id": "gout",
+    "aliases": [
+      "통풍"
+    ],
+    "aliases_en": [
+      "the gout"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "nightgown",
+    "aliases": [
+      "잠옷",
+      "자리옷"
+    ],
+    "aliases_en": [
+      "a nightgown",
+      "night gown"
+    ],
+    "contexts": {
+      "제가 잠옷을 입고 있음": "내가 제가",
+      "남이 잠옷 차림인 것을 봄": "남이 남들 다른 사람이",
+      "정인이 여인의 잠옷 차림을 봄": "정인 애인 연인"
+    },
+    "contexts_en": {
+      "제가 잠옷을 입고 있음": "afflicted slight illness",
+      "남이 잠옷 차림인 것을 봄": "others clad unpleasant news absent",
+      "정인이 여인의 잠옷 차림을 봄": "lover sweetheart superseded"
+    }
+  },
+  {
+    "id": "grammar",
+    "aliases": [
+      "문법"
+    ],
+    "aliases_en": [
+      "grammar"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "gramophone",
+    "aliases": [
+      "축음기",
+      "유성기"
+    ],
+    "aliases_en": [
+      "the gramophone"
+    ],
+    "contexts": {
+      "축음기 소리를 들음": "소리를 들었 흘러나",
+      "축음기가 망가져 있음": "망가 부서 고장"
+    },
+    "contexts_en": {
+      "축음기 소리를 들음": "hearing advent pleasing comrade",
+      "축음기가 망가져 있음": "broken fateful thwart defeat"
+    }
+  },
+  {
+    "id": "grandparents",
+    "aliases": [
+      "조부모",
+      "할아버지와 할머니",
+      "조부모님"
+    ],
+    "aliases_en": [
+      "your grandparents"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "grape",
+    "aliases": [
+      "포도",
+      "포도송이",
+      "포도알"
+    ],
+    "aliases_en": [
+      "grapes"
+    ],
+    "contexts": {
+      "포도를 먹음": "먹었 먹는",
+      "잎 사이에 주렁주렁 달린 포도를 봄": "주렁주렁 매달 달린",
+      "처녀가 포도 꿈을 꿈": "처녀 아가씨",
+      "말을 타고 가다 포도를 따 먹음": "말을 타고 덩굴",
+      "먹는 포도에 독이 있을까 의심함": "독이 의심 꺼림"
+    },
+    "contexts_en": {
+      "포도를 먹음": "eat hardened many cares",
+      "잎 사이에 주렁주렁 달린 포도를 봄": "hanging profuseness leaves eminent",
+      "처녀가 포도 꿈을 꿈": "young woman ardent wish gratified",
+      "말을 타고 가다 포도를 따 먹음": "riding horseback bushes profitable",
+      "먹는 포도에 독이 있을까 의심함": "poisonous quality doubts fears"
+    }
+  },
+  {
+    "id": "grasshopper",
+    "aliases": [
+      "메뚜기",
+      "방아깨비"
+    ],
+    "aliases_en": [
+      "grasshoppers"
+    ],
+    "contexts": {
+      "푸른 남새 위의 메뚜기를 봄": "남새 채소 푸른",
+      "시든 풀 위의 메뚜기를 봄": "시든 마른",
+      "해와 나 사이에 있는 메뚜기를 봄": "해와 햇빛 사이",
+      "남에게 메뚜기를 가리켜 보임": "가리 알려 보여"
+    },
+    "contexts_en": {
+      "푸른 남새 위의 메뚜기를 봄": "green vegetables enemies threaten interests",
+      "시든 풀 위의 메뚜기를 봄": "withered grasses health",
+      "해와 나 사이에 있는 메뚜기를 봄": "between sun vexatious caution adjust",
+      "남에게 메뚜기를 가리켜 보임": "call attention discreet dispatching private"
+    }
+  },
+  {
+    "id": "gravel",
+    "aliases": [
+      "자갈",
+      "자갈밭"
+    ],
+    "aliases_en": [
+      "gravel"
+    ],
+    "contexts": {
+      "자갈을 봄": "보았 깔린",
+      "흙이 섞인 자갈을 봄": "흙이 섞인 진흙"
+    },
+    "contexts_en": {
+      "자갈을 봄": "unfruitful schemes enterprises",
+      "흙이 섞인 자갈을 봄": "mixed dirt speculate lose property"
+    }
+  }
+]

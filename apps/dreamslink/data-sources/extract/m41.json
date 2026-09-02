@@ -1,0 +1,707 @@
+[
+  {
+    "term_ko": "골프",
+    "term_en": "golf",
+    "context": "골프를 치거나 구경함",
+    "interpretation_ko": "바라던 것이 잇달아 즐겁게 이루어질 길한 조짐",
+    "interpretation_en": "denotes that pleasant and successive wishing will be indulged in by you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Golf",
+      "original": "To be playing golf or watching the game, denotes that pleasant and successive wishing will be indulged in by you.",
+      "translation_ko": "골프를 치거나 구경하는 꿈은, 바라던 것이 잇달아 즐겁게 이루어짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "골프",
+    "term_en": "golf",
+    "context": "골프에서 언짢은 일을 봄",
+    "interpretation_ko": "생각 없는 사람 탓에 낯이 깎일 흉한 조짐",
+    "interpretation_en": "you will be humiliated by some thoughtless person",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Golf",
+      "original": "To see any unpleasantness connected with golf, you will be humiliated by some thoughtless person.",
+      "translation_ko": "골프에 얽힌 언짢은 일을 보면, 생각 없는 사람 탓에 낯이 깎인다"
+    }
+  },
+  {
+    "term_ko": "징소리",
+    "term_en": "gong",
+    "context": "징 소리를 들음",
+    "interpretation_ko": "병이라는 헛소문이나 손해가 몹시 성가시게 할 흉한 조짐",
+    "interpretation_en": "denotes false alarm of illness, or loss will vex you excessively",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gong",
+      "original": "To hear the sound of a gong while dreaming, denotes false alarm of illness, or loss will vex you excessively.",
+      "translation_ko": "꿈에 징 소리를 들으면, 병이라는 헛소문이나 손해가 몹시 성가시게 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "구스베리",
+    "term_en": "gooseberry",
+    "context": "구스베리를 땀",
+    "interpretation_ko": "괴로움 뒤에 즐거움이 오고 하는 일의 앞날이 밝아질 길한 조짐",
+    "interpretation_en": "is a sign of happiness after trouble, and a favorable indication of brighter prospects",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gooseberries",
+      "original": "To dream of gathering gooseberries, is a sign of happiness after trouble, and a favorable indication of brighter prospects in one's business affairs.",
+      "translation_ko": "구스베리를 따는 꿈은, 괴로움 뒤의 즐거움과 밝아지는 앞날을 알린다"
+    }
+  },
+  {
+    "term_ko": "구스베리",
+    "term_en": "gooseberry",
+    "context": "덜 익은 구스베리를 먹음",
+    "interpretation_ko": "즐거움을 좇다 길을 잘못 들어 들뜬 소용돌이에 휩쓸릴 흉한 조짐",
+    "interpretation_en": "you will make a mistake in your course to pleasure, and be precipitated into the vertex of sensationalism",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gooseberries",
+      "original": "If you are eating green gooseberries, you will make a mistake in your course to pleasure, and be precipitated into the vertex of sensationalism.",
+      "translation_ko": "덜 익은 구스베리를 먹으면, 즐거움을 좇다 길을 잘못 들어 들뜬 소용돌이에 휩쓸린다"
+    }
+  },
+  {
+    "term_ko": "구스베리",
+    "term_en": "gooseberry",
+    "context": "구스베리를 봄",
+    "interpretation_ko": "꺼리던 일을 피해 갈 길한 조짐",
+    "interpretation_en": "foretells you will escape some dreaded work",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gooseberries",
+      "original": "To see gooseberries in a dream, foretells you will escape some dreaded work.",
+      "translation_ko": "꿈에 구스베리를 보면, 꺼리던 일을 피해 감을 알린다"
+    }
+  },
+  {
+    "term_ko": "구스베리",
+    "term_en": "gooseberry",
+    "context": "처녀가 구스베리를 먹음",
+    "interpretation_ko": "바라던 것이 조금 어긋날 조짐",
+    "interpretation_en": "foretells she will be slightly disappointed in her expectations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gooseberries",
+      "original": "For a young woman to eat them, foretells she will be slightly disappointed in her expectations.",
+      "translation_ko": "처녀가 그것을 먹으면, 바라던 것이 조금 어긋남을 알린다"
+    }
+  },
+  {
+    "term_ko": "소문",
+    "term_en": "gossip",
+    "context": "남의 소문에 솔깃해함",
+    "interpretation_ko": "스쳐 가는 사귐을 너무 믿다가 낯 깎이는 일을 겪을 흉한 조짐",
+    "interpretation_en": "you will undergo some humiliating trouble caused by overconfidence in transient friendships",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gossip",
+      "original": "To dream of being interested in common gossip, you will undergo some humiliating trouble caused by overconfidence in transient friendships.",
+      "translation_ko": "떠도는 소문에 솔깃해하는 꿈은, 스쳐 가는 사귐을 너무 믿다 낯이 깎임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "소문",
+    "term_en": "gossip",
+    "context": "제가 소문거리가 됨",
+    "interpretation_ko": "반가운 뜻밖의 일이 있을 길한 조짐",
+    "interpretation_en": "you may expect some pleasurable surprise",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gossip",
+      "original": "If you are the object of gossip, you may expect some pleasurable surprise.",
+      "translation_ko": "제가 소문거리가 되면, 반가운 뜻밖의 일을 바랄 수 있다"
+    }
+  },
+  {
+    "term_ko": "통풍",
+    "term_en": "gout",
+    "context": "통풍을 앓음",
+    "interpretation_ko": "살붙이의 어리석은 처신에 견디기 힘들 만큼 속이 상하고 그 사람 탓에 돈도 조금 잃을 흉한 조짐",
+    "interpretation_en": "you will be sure to be exasperated beyond endurance by the silly conduct of some relative",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Gout",
+      "original": "If you dream of having the gout, you will be sure to be exasperated beyond endurance by the silly conduct of some relative, and suffer small financial loss through the same person.",
+      "translation_ko": "통풍을 앓는 꿈은, 살붙이의 어리석은 처신에 견디기 힘들 만큼 속이 상하고 그 사람 탓에 돈도 조금 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "잠옷",
+    "term_en": "nightgown",
+    "context": "제가 잠옷을 입고 있음",
+    "interpretation_ko": "가벼운 병을 앓을 흉한 조짐",
+    "interpretation_en": "you will be afflicted with a slight illness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gown",
+      "original": "If you dream that you are in your nightgown, you will be afflicted with a slight illness.",
+      "translation_ko": "제가 잠옷 차림인 꿈은, 가벼운 병을 앓음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "잠옷",
+    "term_en": "nightgown",
+    "context": "남이 잠옷 차림인 것을 봄",
+    "interpretation_ko": "멀리 있는 벗의 언짢은 소식이 오고 하는 일이 뒤로 밀릴 흉한 조짐",
+    "interpretation_en": "you will have unpleasant news of absent friends. Business will receive a back set",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gown",
+      "original": "If you see others thus clad, you will have unpleasant news of absent friends.",
+      "translation_ko": "남이 그렇게 입은 것을 보면, 멀리 있는 벗의 언짢은 소식을 듣는다"
+    }
+  },
+  {
+    "term_ko": "잠옷",
+    "term_en": "nightgown",
+    "context": "정인이 여인의 잠옷 차림을 봄",
+    "interpretation_ko": "제자리를 남에게 빼앗길 흉한 조짐",
+    "interpretation_en": "he will be superseded",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gown",
+      "original": "If a lover sees his sweetheart in her night gown, he will be superseded.",
+      "translation_ko": "정인이 여인의 잠옷 차림을 보면, 제자리를 남에게 빼앗긴다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "처녀가 곡식 꿈을 꿈",
+    "interpretation_ko": "넉넉하고 마음을 다하는 짝을 만날 길한 조짐",
+    "interpretation_en": "She will meet wealthy and adoring companions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grain",
+      "original": "For a young woman, it is a dream of fortune. She will meet wealthy and adoring companions.",
+      "translation_ko": "처녀에게 이것은 복된 꿈이다. 넉넉하고 마음을 다하는 짝을 만난다"
+    }
+  },
+  {
+    "term_ko": "곡식",
+    "term_en": "grain",
+    "context": "곡식 꿈을 꿈",
+    "interpretation_ko": "재물과 즐거움이 따를 더없이 길한 조짐",
+    "interpretation_en": "is a most fortunate dream, betokening wealth and happiness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grain",
+      "original": "Grain is a most fortunate dream, betokening wealth and happiness.",
+      "translation_ko": "곡식은 더없이 복된 꿈이며, 재물과 즐거움을 알린다"
+    }
+  },
+  {
+    "term_ko": "문법",
+    "term_en": "grammar",
+    "context": "문법을 익힘",
+    "interpretation_ko": "큰일이 걸린 자리에서 슬기롭게 고를 길한 조짐",
+    "interpretation_en": "denotes you are soon to make a wise choice in momentous opportunities",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Grammar",
+      "original": "To dream that you are studying grammar, denotes you are soon to make a wise choice in momentous opportunities.",
+      "translation_ko": "문법을 익히는 꿈은, 큰일이 걸린 자리에서 곧 슬기롭게 고르게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "축음기",
+    "term_en": "gramophone",
+    "context": "축음기 소리를 들음",
+    "interpretation_ko": "즐거움을 기꺼이 북돋아 줄 새 벗이 올 길한 조짐",
+    "interpretation_en": "foretells the advent of some new and pleasing comrade who will lend himself willingly to advance your enjoyment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gramophone",
+      "original": "To dream of hearing the gramophone, foretells the advent of some new and pleasing comrade who will lend himself willingly to advance your enjoyment.",
+      "translation_ko": "축음기 소리를 듣는 꿈은, 즐거움을 기꺼이 북돋아 줄 새 벗이 옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "축음기",
+    "term_en": "gramophone",
+    "context": "축음기가 망가져 있음",
+    "interpretation_ko": "뜻밖의 일이 벌어져 기다리던 즐거움이 어그러질 흉한 조짐",
+    "interpretation_en": "some fateful occurrence will thwart and defeat delights that you hold in anticipation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gramophone",
+      "original": "If it is broken, some fateful occurrence will thwart and defeat delights that you hold in anticipation.",
+      "translation_ko": "그것이 망가져 있으면, 뜻밖의 일이 기다리던 즐거움을 어그러뜨린다"
+    }
+  },
+  {
+    "term_ko": "조부모",
+    "term_en": "grandparents",
+    "context": "조부모를 만나 이야기를 나눔",
+    "interpretation_ko": "넘기 어려운 일을 만나나 좋은 말을 따르면 여러 걸림돌을 넘어설 조짐",
+    "interpretation_en": "you will meet with difficulties that will be hard to surmount, but by following good advice you will overcome many barriers",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Grandparents",
+      "original": "To dreaam{sic} of meeting your grandparents and conversing with them, you will meet with difficulties that will be hard to surmount, but by following good advice you will overcome many barriers.",
+      "translation_ko": "조부모를 만나 이야기를 나누는 꿈은, 넘기 어려운 일을 만나나 좋은 말을 따르면 여러 걸림돌을 넘어섬을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "포도를 먹음",
+    "interpretation_ko": "온갖 걱정거리에 시달릴 흉한 조짐",
+    "interpretation_en": "you will be hardened with many cares",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grapes",
+      "original": "To eat grapes in your dream, you will be hardened with many cares",
+      "translation_ko": "꿈에 포도를 먹으면, 온갖 걱정거리에 시달린다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "잎 사이에 주렁주렁 달린 포도를 봄",
+    "interpretation_ko": "머지않아 높은 자리에 올라 남에게 즐거움을 나눠 줄 길한 조짐",
+    "interpretation_en": "you will soon attain to eminent positions and will be able to impart happiness to others",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grapes",
+      "original": "but if you only see them hanging in profuseness among the leaves, you will soon attain to eminent positions and will be able to impart happiness to others.",
+      "translation_ko": "잎 사이에 주렁주렁 달린 것만 보면, 머지않아 높은 자리에 올라 남에게 즐거움을 나눠 준다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "처녀가 포도 꿈을 꿈",
+    "interpretation_ko": "가장 애타게 바라던 것이 이루어질 길한 조짐",
+    "interpretation_en": "She will have her most ardent wish gratified",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grapes",
+      "original": "For a young woman, this dream is one of bright promise. She will have her most ardent wish gratified.",
+      "translation_ko": "처녀에게 이 꿈은 밝은 약속이다. 가장 애타게 바라던 것이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "말을 타고 가다 포도를 따 먹음",
+    "interpretation_ko": "남는 일자리를 얻고 크게 바라던 것을 이룰 길한 조짐",
+    "interpretation_en": "denotes profitable employment and the realization of great desires",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grapes",
+      "original": "To dream of riding on horseback and passing musca-dine bushes and gathering and eating some of its fruit, denotes profitable employment and the realization of great desires.",
+      "translation_ko": "말을 타고 가다 포도 덩굴을 지나며 열매를 따 먹는 꿈은, 남는 일자리와 크게 바라던 것의 이룸을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "먹는 포도에 독이 있을까 의심함",
+    "interpretation_ko": "이룸을 두고 의심과 두려움이 들지만 차차 걱정이 가실 조짐",
+    "interpretation_en": "there will come doubts and fears of success, but they will gradually cease to worry you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Grapes",
+      "original": "If there arises in your mind a question of the poisonous quality of the fruit you are eating, there will come doubts and fears of success, but they will gradually cease to worry you.",
+      "translation_ko": "먹고 있는 열매에 독이 있을까 하는 물음이 마음에 들면, 이룸을 두고 의심과 두려움이 오나 차차 걱정이 가신다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "푸른 풀밭을 봄",
+    "interpretation_ko": "삶이 즐겁게 나아가고 재물이 빠르게 쌓이며 정분도 무사히 이어질 더없이 길한 조짐",
+    "interpretation_en": "It gives promise of a happy and well advanced life, rapid accumulation of wealth, fame, and a safe voyage through the turbulent sea of love",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Grass",
+      "original": "It gives promise of a happy and well advanced life to the tradesman, rapid accumulation of wealth, fame to literary and artistic people, and a safe voyage through the turbulent sea of love is promised to all lovers.",
+      "translation_ko": "장사하는 이에게는 즐겁고 잘 나아가는 삶을, 빠르게 쌓이는 재물을, 글하고 그리는 이에게는 이름을, 정을 나누는 모든 이에게는 거친 사랑의 바다를 무사히 건넘을 약속한다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "푸른 풀밭 너머 험한 산을 봄",
+    "interpretation_ko": "먼 뒷날의 걱정거리를 알리는 조짐",
+    "interpretation_en": "is momentous of remote trouble",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Grass",
+      "original": "To see a rugged mountain beyond the green expanse of grass, is momentous of remote trouble.",
+      "translation_ko": "푸른 풀밭 너머 험한 산을 보면, 먼 뒷날의 걱정거리를 알린다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "푸른 풀밭을 지나다 시든 자리를 지남",
+    "interpretation_ko": "병이 나거나 하는 일이 곤란해질 흉한 조짐",
+    "interpretation_en": "it denotes your sickness or embarrassments in business",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Grass",
+      "original": "If in passing through green grass, you pass withered places, it denotes your sickness or embarrassments in business.",
+      "translation_ko": "푸른 풀밭을 지나다 시든 자리를 지나면, 병이 나거나 하는 일이 곤란해진다"
+    }
+  },
+  {
+    "term_ko": "풀",
+    "term_en": "grass",
+    "context": "시든 풀을 봄",
+    "interpretation_ko": "위의 길한 뜻이 거꾸로 되는 흉한 조짐",
+    "interpretation_en": "if you dream of withered grass, the reverse is predicted",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Grass",
+      "original": "If you dream of withered grass, the reverse is predicted.",
+      "translation_ko": "시든 풀을 꿈꾸면, 그 반대가 점쳐진다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "푸른 남새 위의 메뚜기를 봄",
+    "interpretation_ko": "원수가 가장 소중한 것을 넘볼 흉한 조짐",
+    "interpretation_en": "denotes that enemies threaten your best interests",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Grasshopper",
+      "original": "To dream of seeing grasshoppers on green vegetables, denotes that enemies threaten your best interests.",
+      "translation_ko": "푸른 남새 위의 메뚜기를 보는 꿈은, 원수가 가장 소중한 것을 넘봄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "시든 풀 위의 메뚜기를 봄",
+    "interpretation_ko": "몸이 상하고 하는 일이 어그러질 흉한 조짐",
+    "interpretation_en": "ill health. Disappointing business will be experienced",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Grasshopper",
+      "original": "If on withered grasses, ill health.",
+      "translation_ko": "시든 풀 위에 있으면, 몸이 상한다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "해와 나 사이에 있는 메뚜기를 봄",
+    "interpretation_ko": "성가신 일이 생기나 조심하면 저절로 좋게 풀릴 조짐",
+    "interpretation_en": "you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Grasshopper",
+      "original": "If you see grasshoppers between you and the sun, it denotes that you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor.",
+      "translation_ko": "해와 저 사이에 메뚜기가 보이면, 성가신 일이 생기나 조심하면 저절로 좋게 풀린다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "남에게 메뚜기를 가리켜 보임",
+    "interpretation_ko": "제 일을 조심스럽게 다루지 못할 흉한 조짐",
+    "interpretation_en": "shows that you are not discreet in dispatching your private business",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Grasshopper",
+      "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
+      "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "새로 판 무덤을 찾아감",
+    "interpretation_ko": "만만찮은 위험이 머리 위에 걸려 있는 흉한 조짐",
+    "interpretation_en": "dangers of a serious nature is hanging over you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "If you visit a newly made grave, dangers of a serious nature is hanging over you.",
+      "translation_ko": "새로 판 무덤을 찾아가면, 만만찮은 위험이 머리 위에 걸려 있다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "새로 판 무덤을 봄",
+    "interpretation_ko": "남이 저지른 잘못 때문에 애먹을 흉한 조짐",
+    "interpretation_en": "you will have to suffer for the wrongdoings of others",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To dream that you see a newly made grave, you will have to suffer for the wrongdoings of others.",
+      "translation_ko": "새로 판 무덤을 보는 꿈은, 남이 저지른 잘못 때문에 애먹음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위를 걸음",
+    "interpretation_ko": "이른 죽음이나 어그러진 혼인을 알리는 흉한 조짐",
+    "interpretation_en": "predicts an early death or an unfortunate marriage",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To dream of walking on graves, predicts an early death or an unfortunate marriage.",
+      "translation_ko": "무덤 위를 걷는 꿈은, 이른 죽음이나 어그러진 혼인을 알린다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "빈 무덤을 들여다봄",
+    "interpretation_ko": "낙심하고 벗을 잃을 흉한 조짐",
+    "interpretation_en": "it denotes disappointment and loss of friends",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "If you look into an empty grave, it denotes disappointment and loss of friends.",
+      "translation_ko": "빈 무덤을 들여다보면, 낙심과 벗을 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "머리만 내놓고 흙에 덮인 사람을 봄",
+    "interpretation_ko": "그 사람이 딱한 처지에 빠지고 꿈꾼 이는 재산을 잃을 흉한 조짐",
+    "interpretation_en": "some distressing situation will take hold of that person and loss of property is indicated to the dreamer",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "If you see a person in a grave with the earth covering him, except the head, some distressing situation will take hold of that person and loss of property is indicated to the dreamer.",
+      "translation_ko": "머리만 내놓고 흙에 덮인 사람을 무덤에서 보면, 그 사람이 딱한 처지에 빠지고 꿈꾼 이는 재산을 잃는다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "자기 무덤을 봄",
+    "interpretation_ko": "원수가 몰래 해치려 하니 살피지 않으면 당할 흉한 조짐",
+    "interpretation_en": "foretells that enemies are warily seeking to engulf you in disaster, and if you fail to be watchful they will succeed",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To see your own grave, foretells that enemies are warily seeking to engulf you in disaster, and if you fail to be watchful they will succeed.",
+      "translation_ko": "제 무덤을 보는 꿈은, 원수가 몰래 해치려 함을 알리며 살피지 않으면 당한다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤을 파는데 해가 비침",
+    "interpretation_ko": "곤란해 보이던 일에서 좋은 것이 나올 길한 조짐",
+    "interpretation_en": "good will come out of seeming embarrassments",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "If the sun is shining, good will come out of seeming embarrassments.",
+      "translation_ko": "해가 비치고 있으면, 곤란해 보이던 일에서 좋은 것이 나온다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤을 팜",
+    "interpretation_ko": "원수가 훼방을 놓아 벌인 일이 마음에 걸릴 흉한 조짐",
+    "interpretation_en": "denotes some uneasiness over some undertaking, as enemies will seek to thwart you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To dream of digging a grave, denotes some uneasiness over some undertaking, as enemies will seek to thwart you, but if you finish the grave you will overcome opposition.",
+      "translation_ko": "무덤을 파는 꿈은, 원수가 훼방을 놓아 벌인 일이 마음에 걸림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "묻으려던 주검이 사라짐",
+    "interpretation_ko": "짐작 못 한 곳에서 걱정거리가 올 흉한 조짐",
+    "interpretation_en": "trouble will come to you from obscure quarters",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "If you return for a corpse, to bury it, and it has disappeared, trouble will come to you from obscure quarters.",
+      "translation_ko": "묻으려고 주검을 찾아 돌아왔는데 그것이 사라졌으면, 짐작 못 한 곳에서 걱정거리가 온다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "여성이 밤에 묘지에서 빈 무덤 말고는 누울 곳을 못 찾음",
+    "interpretation_ko": "죽음이나 거짓된 벗 때문에 크게 슬프고 낙심할 흉한 조짐",
+    "interpretation_en": "foreshows she will have much sorrow and disappointment through death or false friends",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "For a woman to dream that night overtakes her in a graveyard, and she can find no place to sleep but in an open grave, foreshows she will have much sorrow and disappointment through death or false friends.",
+      "translation_ko": "여성이 묘지에서 밤을 맞아 열린 무덤 말고는 잘 곳을 못 찾는 꿈은, 죽음이나 거짓된 벗 때문에 크게 슬프고 낙심함을 알린다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤 위에만 풀이 있는 메마른 묘지를 봄",
+    "interpretation_ko": "한동안 슬프고 맥이 빠지나 짐을 제대로 지면 더 큰 복과 즐거움이 올 조짐",
+    "interpretation_en": "signifies much sorrow and despondency for a time, but greater benefits and pleasure await you if you properly shoulder your burden",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To see a graveyard barren, except on top of the graves, signifies much sorrow and despondency for a time, but greater benefits and pleasure await you if you properly shoulder your burden.",
+      "translation_ko": "무덤 위 말고는 메마른 묘지를 보면, 한동안 슬프고 맥이 빠지나 짐을 제대로 지면 더 큰 복과 즐거움이 기다린다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "제 주검이 무덤에 있는 것을 봄",
+    "interpretation_ko": "빠져나갈 길 없이 짓눌릴 흉한 조짐",
+    "interpretation_en": "foreshadows hopeless and despairing oppression",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Grave",
+      "original": "To see your own corpse in a grave, foreshadows hopeless and despairing oppression.",
+      "translation_ko": "제 주검이 무덤에 있는 것을 보면, 빠져나갈 길 없이 짓눌림을 알린다"
+    }
+  },
+  {
+    "term_ko": "자갈",
+    "term_en": "gravel",
+    "context": "자갈을 봄",
+    "interpretation_ko": "꾸민 일과 벌인 일이 열매를 못 맺을 흉한 조짐",
+    "interpretation_en": "denotes unfruitful schemes and enterprises",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Gravel",
+      "original": "To dream of gravel, denotes unfruitful schemes and enterprises.",
+      "translation_ko": "자갈 꿈은, 열매 맺지 못하는 꾀와 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "자갈",
+    "term_en": "gravel",
+    "context": "흙이 섞인 자갈을 봄",
+    "interpretation_ko": "잘못 손대어 좋은 재산을 잃을 흉한 조짐",
+    "interpretation_en": "it foretells you will unfortunately speculate and lose good property",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Gravel",
+      "original": "If you see gravel mixed with dirt, it foretells you will unfortunately speculate and lose good property.",
+      "translation_ko": "흙이 섞인 자갈을 보면, 잘못 손대어 좋은 재산을 잃음을 알린다"
+    }
+  },
+  {
+    "term_ko": "국물",
+    "term_en": "broth",
+    "context": "고기 국물을 먹음",
+    "interpretation_ko": "몸이 약해지고 하는 일이 어그러질 흉한 조짐",
+    "interpretation_en": "portends failing health and disappointing business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gravy",
+      "original": "To dream of eating gravy, portends failing health and disappointing business.",
+      "translation_ko": "고기 국물을 먹는 꿈은, 약해지는 몸과 어그러지는 일을 뜻한다"
+    }
+  }
+]

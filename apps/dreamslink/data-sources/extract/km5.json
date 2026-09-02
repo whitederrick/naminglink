@@ -121,7 +121,10 @@
       "산소",
       "봉분",
       "무덤가",
-      "묫자리"
+      "묫자리",
+      "묏자리",
+      "무덤을",
+      "무덤이"
     ],
     "aliases_en": [
       "graves",
@@ -140,7 +143,19 @@
       "무덤 위가 어두움": "어둡 어두 캄캄 그늘",
       "무덤에 나무가 자람": "나무가 자라 자라나 우거",
       "무덤의 나무가 꺾임": "꺾여 꺾인 부러진 부러져",
-      "무덤 위에 꽃이 핌": "꽃이 꽃을 피어 활짝"
+      "무덤 위에 꽃이 핌": "꽃이 꽃을 피어 활짝",
+      "새로 판 무덤을 봄": "새로 방금",
+      "새로 판 무덤을 찾아감": "찾아갔 찾아가 다녀왔",
+      "무덤 위를 걸음": "걸었 밟고 위를",
+      "빈 무덤을 들여다봄": "들여다 비어있 텅빈",
+      "머리만 내놓고 흙에 덮인 사람을 봄": "머리만 덮인 파묻힌",
+      "자기 무덤을 봄": "자기 자신의 내가",
+      "무덤을 팜": "파고 파는 파헤",
+      "무덤을 파는데 해가 비침": "해가 햇빛 햇살",
+      "묻으려던 주검이 사라짐": "사라졌 없어졌 온데간데",
+      "여성이 밤에 묘지에서 빈 무덤 말고는 누울 곳을 못 찾음": "밤이 여자가 잘곳",
+      "무덤 위에만 풀이 있는 메마른 묘지를 봄": "메마른 위에만 황량",
+      "제 주검이 무덤에 있는 것을 봄": "주검이 시체가 송장"
     },
     "contexts_en": {
       "무덤이 높이 솟아 있음": "tall high rising mound",
@@ -151,7 +166,19 @@
       "무덤 위가 어두움": "dark darkness gloomy shadow",
       "무덤에 나무가 자람": "tree growing grew",
       "무덤의 나무가 꺾임": "broken snapped fell",
-      "무덤 위에 꽃이 핌": "flower flowers bloom blossom"
+      "무덤 위에 꽃이 핌": "flower flowers bloom blossom",
+      "새로 판 무덤을 봄": "newly made suffer wrongdoings",
+      "새로 판 무덤을 찾아감": "visit dangers serious hanging",
+      "무덤 위를 걸음": "walking early unfortunate marriage",
+      "빈 무덤을 들여다봄": "look empty disappointment friends",
+      "머리만 내놓고 흙에 덮인 사람을 봄": "covering except head distressing property",
+      "자기 무덤을 봄": "own warily engulf watchful",
+      "무덤을 팜": "digging uneasiness undertaking thwart",
+      "무덤을 파는데 해가 비침": "sun good seeming embarrassments",
+      "묻으려던 주검이 사라짐": "return bury disappeared obscure",
+      "여성이 밤에 묘지에서 빈 무덤 말고는 누울 곳을 못 찾음": "night overtakes graveyard sleep sorrow",
+      "무덤 위에만 풀이 있는 메마른 묘지를 봄": "barren despondency shoulder burden",
+      "제 주검이 무덤에 있는 것을 봄": "hopeless despairing oppression"
     }
   },
   {
@@ -289,7 +316,8 @@
       "알곡",
       "낟알",
       "양곡",
-      "잡곡"
+      "잡곡",
+      "오곡"
     ],
     "aliases_en": [
       "grains",
@@ -301,13 +329,17 @@
       "오곡이 무성하게 자람": "무성 오곡 자라 우거",
       "곡식 이삭이 고르게 팸": "이삭 여물 고르게 알알이",
       "손에 곡식을 쥠": "손에 쥐었 움켜 한줌",
-      "벼와 곡식을 얻음": "벼와 얻었 받았 나락"
+      "벼와 곡식을 얻음": "벼와 얻었 받았 나락",
+      "곡식 꿈을 꿈": "곡식을 곡식이",
+      "처녀가 곡식 꿈을 꿈": "처녀 아가씨"
     },
     "contexts_en": {
       "오곡이 무성하게 자람": "lush growing abundant flourishing",
       "곡식 이삭이 고르게 팸": "ears ripening even heads",
       "손에 곡식을 쥠": "hand held handful grasped",
-      "벼와 곡식을 얻음": "rice paddy received obtained"
+      "벼와 곡식을 얻음": "rice paddy received obtained",
+      "곡식 꿈을 꿈": "most fortunate betokening wealth",
+      "처녀가 곡식 꿈을 꿈": "young woman adoring companions"
     }
   },
   {
