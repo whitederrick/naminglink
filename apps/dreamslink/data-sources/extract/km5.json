@@ -70,7 +70,9 @@
     "id": "fish",
     "aliases": [
       "생선",
-      "어류"
+      "어류",
+      "메기",
+      "물고기들"
     ],
     "aliases_en": [
       "fishes",
@@ -86,7 +88,13 @@
       "큰 물고기가 뛰어오름": "커다 큰물 뛰어올 대어",
       "작은 물고기가 새끼를 낳음": "새끼 작은 알을 낳았",
       "마른 물고기가 물에 들어감": "마른 말린 건어",
-      "몸이 물고기 위에 앉음": "올라타 타고 앉아 등에"
+      "몸이 물고기 위에 앉음": "올라타 타고 앉아 등에",
+      "맑은 시냇물 속의 물고기를 봄": "맑은 시냇물 시내",
+      "죽은 물고기를 봄": "죽은 주검",
+      "처녀가 물고기를 봄": "처녀 아가씨",
+      "메기를 낚음": "메기",
+      "물에 들어가 물고기를 잡음": "들어가 첨벙 물속에서",
+      "물고기를 먹음": "구워 회로 삶아 익혀"
     },
     "contexts_en": {
       "물고기가 물 위로 날아오름": "flying flew air",
@@ -98,7 +106,13 @@
       "큰 물고기가 뛰어오름": "big large jumped leaping",
       "작은 물고기가 새끼를 낳음": "small little spawn babies",
       "마른 물고기가 물에 들어감": "dried dry",
-      "몸이 물고기 위에 앉음": "riding sat rode"
+      "몸이 물고기 위에 앉음": "riding sat rode",
+      "맑은 시냇물 속의 물고기를 봄": "clear streams favored powerful",
+      "죽은 물고기를 봄": "dead calamity",
+      "처녀가 물고기를 봄": "young handsome talented",
+      "메기를 낚음": "catfish embarrassed presence",
+      "물에 들어가 물고기를 잡음": "wade acquired ability enterprise",
+      "물고기를 먹음": "warm lasting attachments"
     }
   },
   {
@@ -562,11 +576,15 @@
     ],
     "contexts": {
       "몸이 그물에 걸림": "걸렸 걸려 잡혔 갇혔",
-      "그물이 몸을 덮어씌움": "덮어 씌워 뒤집어 덮쳤"
+      "그물이 몸을 덮어씌움": "덮어 씌워 뒤집어 덮쳤",
+      "고기 그물을 봄": "고기 물고기 어망",
+      "찢어진 그물을 봄": "찢어진 해진 구멍"
     },
     "contexts_en": {
       "몸이 그물에 걸림": "caught trapped tangled snared",
-      "그물이 몸을 덮어씌움": "covered thrown draped"
+      "그물이 몸을 덮어씌움": "covered thrown draped",
+      "고기 그물을 봄": "numerous small pleasures gains",
+      "찢어진 그물을 봄": "torn vexatious disappointments"
     }
   },
   {

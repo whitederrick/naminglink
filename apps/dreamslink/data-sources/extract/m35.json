@@ -1,0 +1,602 @@
+[
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "불꽃놀이를 구경함",
+    "interpretation_ko": "즐거운 일과 성한 몸이 있을 길한 조짐",
+    "interpretation_en": "indicates enjoyment and good health",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fireworks",
+      "original": "To see fireworks, indicates enjoyment and good health.",
+      "translation_ko": "불꽃놀이를 보는 꿈은 즐거운 일과 성한 몸을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "처녀가 불꽃놀이를 봄",
+    "interpretation_ko": "놀이 자리와 먼 곳으로의 즐거운 나들이가 있을 길한 조짐",
+    "interpretation_en": "this dream signifies entertainments and pleasant visiting to distant places",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fireworks",
+      "original": "For a young woman, this dream signifies entertainments and pleasant visiting to distant places.",
+      "translation_ko": "젊은 여성에게 이 꿈은 놀이 자리와 먼 곳으로의 즐거운 나들이를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하늘",
+    "term_en": "sky",
+    "context": "별이 가득한 하늘을 봄",
+    "interpretation_ko": "숱한 어려움과 사람의 힘을 넘는 애씀 끝에야 뜻한 데 이를 조짐이니 적의 덫을 조심할 것",
+    "interpretation_en": "denotes many crosses and almost superhuman efforts ere you reach the pinnacle of your ambition; beware of the snare of enemies",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Firmament",
+      "original": "To dream of the firmament filled with stars, denotes many crosses and almost superhuman efforts ere you reach the pinnacle of your ambition. Beware of the snare of enemies in your work.",
+      "translation_ko": "별이 가득한 하늘 꿈은, 숱한 어려움과 사람의 힘을 넘는 애씀 끝에야 뜻한 꼭대기에 이름을 뜻한다. 일터에서 적이 놓은 덫을 조심할 것이다"
+    }
+  },
+  {
+    "term_ko": "하늘",
+    "term_en": "sky",
+    "context": "하늘이 환히 빛나며 하늘 무리로 가득함",
+    "interpretation_ko": "마음을 깊이 파고들게 되나 끝내 자연에서 위안을 찾고 복에는 자주 낙담할 조짐",
+    "interpretation_en": "denotes great spiritual research, but a final pulling back on Nature for sustenance and consolation; you will often be disappointed in fortune",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Firmament",
+      "original": "To see the firmament illuminated and filled with the heavenly hosts, denotes great spiritual research, but a final pulling back on Nature for sustenance and consolation. You will often be disappointed in fortune also.",
+      "translation_ko": "하늘이 환히 빛나며 하늘 무리로 가득한 것을 보는 꿈은, 마음을 깊이 파고드는 일을 뜻한다. 그러나 끝내는 자연에서 먹을 것과 위안을 찾게 되고, 복에서는 자주 낙담한다"
+    }
+  },
+  {
+    "term_ko": "하늘",
+    "term_en": "sky",
+    "context": "아는 사람이 하늘에 있는 것을 봄",
+    "interpretation_ko": "그들이 나 때문에 슬기롭지 못한 일을 저질러 애먼 사람이 다칠 흉한 조짐",
+    "interpretation_en": "signifies that they are about to commit some unwise act through you, and others must be the innocent sufferers",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Firmament",
+      "original": "To see people you know in the firmament, signifies that they are about to commit some unwise act through you, and others must be the innocent sufferers. Great disasters usually follow this dream.",
+      "translation_ko": "아는 사람이 하늘에 있는 것을 보는 꿈은, 그들이 나로 말미암아 슬기롭지 못한 일을 저지르고 애먼 이들이 그 화를 입음을 뜻한다. 이 꿈 뒤에는 대개 큰 재앙이 따른다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "맑은 시냇물 속의 물고기를 봄",
+    "interpretation_ko": "가멸고 힘 있는 이들의 도움을 받을 길한 조짐",
+    "interpretation_en": "denotes that you will be favored by the rich and powerful",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "To dream that you see fish in clear-water streams, denotes that you will be favored by the rich and powerful.",
+      "translation_ko": "맑은 시냇물 속의 물고기를 보는 꿈은, 가멸고 힘 있는 이들의 도움을 받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "죽은 물고기를 봄",
+    "interpretation_ko": "무서운 재앙으로 재물과 힘을 잃을 흉한 조짐",
+    "interpretation_en": "signifies the loss of wealth and power through some dire calamity",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "Dead fish, signifies the loss of wealth and power through some dire calamity.",
+      "translation_ko": "죽은 물고기는 무서운 재앙으로 재물과 힘을 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "처녀가 물고기를 봄",
+    "interpretation_ko": "잘생기고 재주 있는 정인을 만날 길한 조짐",
+    "interpretation_en": "portends that she will have a handsome and talented lover",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "For a young woman to dream of seeing fish, portends that she will have a handsome and talented lover.",
+      "translation_ko": "젊은 여성이 물고기를 보는 꿈은, 잘생기고 재주 있는 정인을 만남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "메기를 낚음",
+    "interpretation_ko": "적의 궂은 꾀에 난처해지나 운과 침착함으로 무사히 넘길 조짐",
+    "interpretation_en": "denotes that you will be embarrassed by evil designs of enemies, but your luck and presence of mind will tide you safely over",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "To dream of catching a catfish, denotes that you will be embarrassed by evil designs of enemies, but your luck and presence of mind will tide you safely over the trouble.",
+      "translation_ko": "메기를 낚는 꿈은, 적의 궂은 꾀에 난처해지나 운과 침착함으로 그 어려움을 무사히 넘김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "물에 들어가 물고기를 잡음",
+    "interpretation_ko": "제 힘과 솜씨로 재물을 얻을 길한 조짐",
+    "interpretation_en": "denotes that you will possess wealth acquired by your own ability and enterprise",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "To wade in water, catching fish, denotes that you will possess wealth acquired by your own ability and enterprise.",
+      "translation_ko": "물에 들어가 물고기를 잡는 꿈은, 제 힘과 솜씨로 얻은 재물을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "물고기",
+    "term_en": "fish",
+    "context": "물고기를 먹음",
+    "interpretation_ko": "따뜻하고 오래가는 정이 있을 길한 조짐",
+    "interpretation_en": "denotes warm and lasting attachments",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "Eating fish, denotes warm and lasting attachments.",
+      "translation_ko": "물고기를 먹는 꿈은 따뜻하고 오래가는 정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "낚시",
+    "term_en": "fishing",
+    "context": "물고기를 낚는 꿈을 꿈",
+    "interpretation_ko": "부지런함과 알뜰함이 있을 길한 조짐",
+    "interpretation_en": "denotes energy and economy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "To dream of fishing, denotes energy and economy; but if you do not succeed in catching any, your efforts to obtain honors and wealth will be futile.",
+      "translation_ko": "낚시하는 꿈은 부지런함과 알뜰함을 뜻한다. 그러나 한 마리도 낚지 못하면 이름과 재물을 얻으려는 애씀이 헛되이 된다"
+    }
+  },
+  {
+    "term_ko": "낚시",
+    "term_en": "fishing",
+    "context": "한 마리도 낚지 못함",
+    "interpretation_ko": "이름과 재물을 얻으려는 애씀이 헛되이 될 흉한 조짐",
+    "interpretation_en": "your efforts to obtain honors and wealth will be futile",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish",
+      "original": "To dream of fishing, denotes energy and economy; but if you do not succeed in catching any, your efforts to obtain honors and wealth will be futile.",
+      "translation_ko": "낚시하는 꿈은 부지런함과 알뜰함을 뜻한다. 그러나 한 마리도 낚지 못하면 이름과 재물을 얻으려는 애씀이 헛되이 된다"
+    }
+  },
+  {
+    "term_ko": "어부",
+    "term_en": "fisherman",
+    "context": "어부를 봄",
+    "interpretation_ko": "여태 겪어 본 적 없이 넉넉한 때가 가까울 길한 조짐",
+    "interpretation_en": "denotes you are nearing times of greater prosperity than you have yet known",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Fisherman",
+      "original": "To dream of a fisherman, denotes you are nearing times of greater prosperity than you have yet known.",
+      "translation_ko": "어부 꿈은, 여태 겪어 본 적 없이 넉넉한 때가 가까웠음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "낚싯바늘",
+    "term_en": "fishhook",
+    "context": "낚싯바늘을 봄",
+    "interpretation_ko": "제대로 쓰기만 하면 재물과 떳떳한 이름을 얻을 기회가 있을 길한 조짐",
+    "interpretation_en": "denotes that you have opportunities to make for yourself a fortune and an honorable name if you rightly apply them",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fishhooks",
+      "original": "To dream of fishhooks, denotes that you have opportunities to make for yourself a fortune and an honorable name if you rightly apply them.",
+      "translation_ko": "낚싯바늘 꿈은, 제대로 쓰기만 하면 재물과 떳떳한 이름을 얻을 기회가 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "어시장",
+    "term_en": "fish market",
+    "context": "어시장에 감",
+    "interpretation_ko": "살림이 넉넉하고 즐거울 길한 조짐",
+    "interpretation_en": "brings competence and pleasure",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish Market",
+      "original": "To visit a fish market in your dream, brings competence and pleasure.",
+      "translation_ko": "꿈에 어시장에 가는 것은 넉넉한 살림과 즐거움을 가져온다"
+    }
+  },
+  {
+    "term_ko": "어시장",
+    "term_en": "fish market",
+    "context": "상한 생선을 봄",
+    "interpretation_ko": "기쁨의 탈을 쓴 괴로움이 올 흉한 조짐",
+    "interpretation_en": "foretells distress will come in the guise of happiness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish Market",
+      "original": "To see decayed fish, foretells distress will come in the guise of happiness.",
+      "translation_ko": "상한 생선을 보는 꿈은, 기쁨의 탈을 쓴 괴로움이 옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "그물",
+    "term_en": "net",
+    "context": "고기 그물을 봄",
+    "interpretation_ko": "자잘한 즐거움과 이득이 여럿 있을 길한 조짐",
+    "interpretation_en": "portends numerous small pleasures and gains",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-net",
+      "original": "To dream of a fish-net, portends numerous small pleasures and gains.",
+      "translation_ko": "고기 그물 꿈은, 자잘한 즐거움과 이득이 여럿 있음을 알린다"
+    }
+  },
+  {
+    "term_ko": "그물",
+    "term_en": "net",
+    "context": "찢어진 그물을 봄",
+    "interpretation_ko": "성가신 낙담이 있을 흉한 조짐",
+    "interpretation_en": "represents vexatious disappointments",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-net",
+      "original": "A torn one, represents vexatious disappointments.",
+      "translation_ko": "찢어진 그물은 성가신 낙담을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연못",
+    "term_en": "fish-pond",
+    "context": "흐린 연못을 봄",
+    "interpretation_ko": "헤픈 지냄으로 몸이 상할 흉한 조짐",
+    "interpretation_en": "denotes illness through dissipation, if muddy",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-pond",
+      "original": "To dream of a fish-pond, denotes illness through dissipation, if muddy.",
+      "translation_ko": "연못 꿈은 물이 흐리면 헤픈 지냄으로 몸이 상함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연못",
+    "term_en": "fish-pond",
+    "context": "맑고 물고기가 많은 연못을 봄",
+    "interpretation_ko": "이문 남는 일과 큰 즐거움이 있을 길한 조짐",
+    "interpretation_en": "portends profitable enterprises and extensive pleasures",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-pond",
+      "original": "To see one clear and well stocked with fish, portends profitable enterprises and extensive pleasures.",
+      "translation_ko": "맑고 물고기가 그득한 연못을 보는 꿈은, 이문 남는 일과 큰 즐거움을 알린다"
+    }
+  },
+  {
+    "term_ko": "연못",
+    "term_en": "fish-pond",
+    "context": "텅 빈 연못을 봄",
+    "interpretation_ko": "목숨을 노리는 적이 가까이 왔음을 알리는 흉한 조짐",
+    "interpretation_en": "proclaims the near approach of deadly enemies",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-pond",
+      "original": "To see one empty, proclaims the near approach of deadly enemies.",
+      "translation_ko": "텅 빈 연못을 보는 꿈은, 목숨을 노리는 적이 가까이 왔음을 알린다"
+    }
+  },
+  {
+    "term_ko": "연못",
+    "term_en": "fish-pond",
+    "context": "처녀가 맑은 연못에 빠짐",
+    "interpretation_ko": "틀림없는 복과 주고받는 사랑이 있을 길한 조짐",
+    "interpretation_en": "omens decided good fortune and reciprocal love",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-pond",
+      "original": "For a young woman to fall into a clear pond, omens decided good fortune and reciprocal love. If muddy, the opposite is foretold.",
+      "translation_ko": "젊은 여성이 맑은 연못에 빠지는 꿈은, 틀림없는 복과 주고받는 사랑의 조짐이다. 물이 흐리면 그 반대다"
+    }
+  },
+  {
+    "term_ko": "연못",
+    "term_en": "fish-pond",
+    "context": "처녀가 흐린 연못에 빠짐",
+    "interpretation_ko": "복도 사랑도 어긋날 흉한 조짐",
+    "interpretation_en": "if muddy, the opposite is foretold",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Fish-pond",
+      "original": "For a young woman to fall into a clear pond, omens decided good fortune and reciprocal love. If muddy, the opposite is foretold.",
+      "translation_ko": "젊은 여성이 맑은 연못에 빠지는 꿈은, 틀림없는 복과 주고받는 사랑의 조짐이다. 물이 흐리면 그 반대다"
+    }
+  },
+  {
+    "term_ko": "발작",
+    "term_en": "fits",
+    "context": "발작을 일으킴",
+    "interpretation_ko": "몸이 상하고 일자리를 잃을 흉한 조짐",
+    "interpretation_en": "denotes that you will fall a prey to ill health and will lose employment",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Fits",
+      "original": "To dream of having fits, denotes that you will fall a prey to ill health and will lose employment.",
+      "translation_ko": "발작을 일으키는 꿈은, 몸이 상하고 일자리를 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "발작",
+    "term_en": "fits",
+    "context": "남이 발작하는 것을 봄",
+    "interpretation_ko": "아랫사람의 다툼으로 둘레가 몹시 언짢아질 흉한 조짐",
+    "interpretation_en": "denotes that you will have much unpleasantness in your circle, caused by quarrels from those under you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Fits",
+      "original": "To see others in this plight, denotes that you will have much unpleasantness in your circle, caused by quarrels from those under you.",
+      "translation_ko": "남이 그런 처지에 있는 것을 보는 꿈은, 아랫사람의 다툼으로 둘레가 몹시 언짢아짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "깃발",
+    "term_en": "banner",
+    "context": "제 나라 깃발을 봄",
+    "interpretation_ko": "싸움 중이면 이기고 태평하면 넉넉해질 길한 조짐",
+    "interpretation_en": "portends victory if at war, and if at peace, prosperity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Flag",
+      "original": "To dream of your national flag, portends victory if at war, and if at peace, prosperity.",
+      "translation_ko": "제 나라 깃발 꿈은, 싸움 중이면 이김을, 태평하면 넉넉해짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "깃발",
+    "term_en": "banner",
+    "context": "여성이 깃발을 봄",
+    "interpretation_ko": "군인에게 마음을 빼앗길 조짐",
+    "interpretation_en": "denotes that she will be ensnared by a soldier",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Flag",
+      "original": "For a woman to dream of a flag, denotes that she will be ensnared by a soldier.",
+      "translation_ko": "여성이 깃발을 보는 꿈은, 군인에게 마음을 빼앗김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "깃발",
+    "term_en": "banner",
+    "context": "다른 나라 깃발을 봄",
+    "interpretation_ko": "나라 사이와 벗 사이에 틈이 벌어지고 믿음이 깨질 흉한 조짐",
+    "interpretation_en": "denotes ruptures and breach of confidence between nations and friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Flag",
+      "original": "To dream of foreign flags, denotes ruptures and breach of confidence between nations and friends.",
+      "translation_ko": "다른 나라 깃발 꿈은, 나라 사이와 벗 사이에 틈이 벌어지고 믿음이 깨짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "깃발",
+    "term_en": "banner",
+    "context": "깃발로 신호를 받음",
+    "interpretation_ko": "몸과 이름이 다 위태로우니 조심하라는 일깨움",
+    "interpretation_en": "denotes that you should be careful of your health and name, as both are threatened",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Flag",
+      "original": "To dream of being signaled by a flag, denotes that you should be careful of your health and name, as both are threatened.",
+      "translation_ko": "깃발로 신호를 받는 꿈은, 몸과 이름이 다 위태로우니 조심하라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "불",
+    "term_en": "fire",
+    "context": "불길과 싸움",
+    "interpretation_ko": "재물을 모으려면 온 힘을 다해야 할 조짐",
+    "interpretation_en": "foretells that you will have to put forth your best efforts and energy if you are successful in amassing wealth",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Flame",
+      "original": "To dream of fighting flames, foretells that you will have to put forth your best efforts and energy if you are successful in amassing wealth.",
+      "translation_ko": "불길과 싸우는 꿈은, 재물을 모으려면 온 힘과 기운을 다해야 함을 알린다"
+    }
+  },
+  {
+    "term_ko": "아마 풀",
+    "term_en": "flax",
+    "context": "아마 풀을 봄",
+    "interpretation_ko": "벌인 일이 잘될 길한 조짐",
+    "interpretation_en": "prosperous enterprises are denoted",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Flax",
+      "original": "To see flax in a dream, prosperous enterprises are denoted.",
+      "translation_ko": "꿈에 아마 풀을 보는 것은 벌인 일이 잘됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "실 잣기",
+    "term_en": "spinning thread",
+    "context": "아마 실을 자음",
+    "interpretation_ko": "부지런하고 알뜰한 버릇이 몸에 밸 길한 조짐",
+    "interpretation_en": "foretells you will be given to industrious and thrifty habits",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Flax Spinning",
+      "original": "Flax spinning, foretells you will be given to industrious and thrifty habits.",
+      "translation_ko": "아마 실을 잣는 꿈은, 부지런하고 알뜰한 버릇이 몸에 뱀을 알린다"
+    }
+  },
+  {
+    "term_ko": "벼룩",
+    "term_en": "flea",
+    "context": "벼룩을 봄",
+    "interpretation_ko": "가까운 이의 궂은 꾀에 노여워하고 되갚으려 하게 될 흉한 조짐",
+    "interpretation_en": "indicates that you will be provoked to anger and retaliation by the evil machinations of those close to you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fleas",
+      "original": "To dream of fleas, indicates that you will be provoked to anger and retaliation by the evil machinations of those close to you.",
+      "translation_ko": "벼룩 꿈은, 가까운 이의 궂은 꾀에 노여워하고 되갚으려 하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "벼룩",
+    "term_en": "flea",
+    "context": "여성이 벼룩에 물림",
+    "interpretation_ko": "벗인 척하는 이에게 헐뜯길 흉한 조짐",
+    "interpretation_en": "foretells that she will be slandered by pretended friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fleas",
+      "original": "For a woman to dream that fleas bite her, foretells that she will be slandered by pretended friends.",
+      "translation_ko": "여성이 벼룩에 물리는 꿈은, 벗인 척하는 이에게 헐뜯김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "벼룩",
+    "term_en": "flea",
+    "context": "정인의 몸에 벼룩이 있는 것을 봄",
+    "interpretation_ko": "그 마음이 한결같지 않음을 알리는 흉한 조짐",
+    "interpretation_en": "denotes inconstancy",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Fleas",
+      "original": "To see fleas on her lover, denotes inconstancy.",
+      "translation_ko": "정인의 몸에 벼룩이 있는 것을 보는 꿈은, 그 마음이 한결같지 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "함대",
+    "term_en": "fleet",
+    "context": "함대가 빠르게 나아가는 것을 봄",
+    "interpretation_ko": "장사판이 갑자기 바뀌고 굼뜨던 곳이 활기를 띠나 먼 나라의 싸움 소문이 들릴 조짐",
+    "interpretation_en": "denotes a hasty change in the business world; brisk workings of commercial wheels will go forward and some rumors of foreign wars will be heard",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Fleet",
+      "original": "To see a large fleet moving rapidly in your dreams, denotes a hasty change in the business world. Where dulness oppressed, brisk workings of commercial wheels will go forward and some rumors of foreign wars will be heard.",
+      "translation_ko": "큰 함대가 빠르게 나아가는 것을 보는 꿈은, 장사판이 갑자기 바뀜을 뜻한다. 굼뜨던 자리에 활기가 돌고, 먼 나라의 싸움 소문이 들려온다"
+    }
+  },
+  {
+    "term_ko": "파리",
+    "term_en": "fly",
+    "context": "처녀가 파리를 봄",
+    "interpretation_ko": "언짢은 일이 있을 흉한 조짐",
+    "interpretation_en": "this dream is significant of unhappiness",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Flies",
+      "original": "To a young woman this dream is significant of unhappiness.",
+      "translation_ko": "젊은 여성에게 이 꿈은 언짢은 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "파리",
+    "term_en": "fly",
+    "context": "파리를 봄",
+    "interpretation_ko": "병과 옮는 탈이 있고 적이 둘러쌀 흉한 조짐",
+    "interpretation_en": "denotes sickness and contagious maladies; also that enemies surround you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Flies",
+      "original": "To dream of flies, denotes sickness and contagious maladies. Also that enemies surround you.",
+      "translation_ko": "파리 꿈은 병과 옮는 탈을 뜻한다. 적이 나를 둘러싸고 있음도 뜻한다"
+    }
+  },
+  {
+    "term_ko": "파리",
+    "term_en": "fly",
+    "context": "파리를 잡아 없앰",
+    "interpretation_ko": "슬기롭게 굴어 정인의 마음을 되찾을 길한 조짐",
+    "interpretation_en": "she will reinstate herself in the love of her intended by her ingenuity",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Flies",
+      "original": "If she kills or exterminates flies, she will reinstate herself in the love of her intended by her ingenuity.",
+      "translation_ko": "파리를 죽이거나 없애면, 슬기롭게 굴어 정인의 마음을 되찾는다"
+    }
+  }
+]

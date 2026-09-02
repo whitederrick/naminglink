@@ -780,8 +780,16 @@
       "firework",
       "firecrackers"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "불꽃놀이를 봄": "쏘아올 터뜨",
+      "불꽃놀이를 구경함": "구경 바라보",
+      "처녀가 불꽃놀이를 봄": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "불꽃놀이를 봄": "set off",
+      "불꽃놀이를 구경함": "enjoyment good health",
+      "처녀가 불꽃놀이를 봄": "entertainments visiting distant"
+    }
   },
   {
     "id": "fog",

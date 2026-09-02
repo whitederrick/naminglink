@@ -1,0 +1,124 @@
+[
+  {
+    "id": "fisherman",
+    "aliases": [
+      "어부를",
+      "어부가",
+      "고기잡이하는 사람"
+    ],
+    "aliases_en": [
+      "a fisherman",
+      "fishermen"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fishhook",
+    "aliases": [
+      "낚싯바늘",
+      "낚시바늘",
+      "낚싯봉"
+    ],
+    "aliases_en": [
+      "fishhooks",
+      "a fishhook"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fish-market",
+    "aliases": [
+      "어시장",
+      "생선 가게",
+      "수산시장"
+    ],
+    "aliases_en": [
+      "a fish market"
+    ],
+    "contexts": {
+      "어시장에 감": "갔다 들렀",
+      "상한 생선을 봄": "상한 썩은 물러"
+    },
+    "contexts_en": {
+      "어시장에 감": "visit competence pleasure",
+      "상한 생선을 봄": "decayed distress guise"
+    }
+  },
+  {
+    "id": "fish-pond",
+    "aliases": [
+      "연못에",
+      "연못이",
+      "연못을",
+      "못가"
+    ],
+    "aliases_en": [
+      "a fish-pond",
+      "a pond"
+    ],
+    "contexts": {
+      "흐린 연못을 봄": "흙탕 탁한",
+      "맑고 물고기가 많은 연못을 봄": "맑고 그득 가득",
+      "텅 빈 연못을 봄": "비어 말라",
+      "처녀가 흐린 연못에 빠짐": "흐린 빠진",
+      "처녀가 맑은 연못에 빠짐": "맑은 빠졌"
+    },
+    "contexts_en": {
+      "흐린 연못을 봄": "muddy illness dissipation",
+      "맑고 물고기가 많은 연못을 봄": "stocked profitable extensive",
+      "텅 빈 연못을 봄": "empty proclaims deadly",
+      "처녀가 흐린 연못에 빠짐": "opposite foretold",
+      "처녀가 맑은 연못에 빠짐": "fall clear decided reciprocal"
+    }
+  },
+  {
+    "id": "fits",
+    "aliases": [
+      "발작이",
+      "발작을",
+      "경련",
+      "발작하",
+      "발작을 일으"
+    ],
+    "aliases_en": [
+      "fits",
+      "a fit"
+    ],
+    "contexts": {
+      "발작을 일으킴": "내가 일으켰",
+      "남이 발작하는 것을 봄": "남이 남들이 다른사람"
+    },
+    "contexts_en": {
+      "발작을 일으킴": "having prey employment",
+      "남이 발작하는 것을 봄": "others plight circle quarrels"
+    }
+  },
+  {
+    "id": "flax",
+    "aliases": [
+      "아마 풀",
+      "아마씨",
+      "아마 밭"
+    ],
+    "aliases_en": [
+      "flax"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fleet",
+    "aliases": [
+      "함대가",
+      "함대를",
+      "배들이 줄지어"
+    ],
+    "aliases_en": [
+      "a fleet"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

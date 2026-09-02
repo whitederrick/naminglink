@@ -5215,5 +5215,30 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "fireman": [
     "a fireman",
     "firemen"
+  ],
+  "fisherman": [
+    "a fisherman",
+    "fishermen"
+  ],
+  "fishhook": [
+    "fishhooks",
+    "a fishhook"
+  ],
+  "fish-market": [
+    "a fish market"
+  ],
+  "fish-pond": [
+    "a fish-pond",
+    "a pond"
+  ],
+  "fits": [
+    "fits",
+    "a fit"
+  ],
+  "flax": [
+    "flax"
+  ],
+  "fleet": [
+    "a fleet"
   ]
 };

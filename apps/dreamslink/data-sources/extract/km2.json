@@ -84,7 +84,10 @@
       "하늘에 올랐다가 지붕 위에 오름": "지붕 기와지붕",
       "하늘이 갈라짐": "갈라 쪼개 찢어",
       "하늘이 더욱 넉넉하고 풍성함": "넉넉 풍성 드넓 광활",
-      "하늘을 두루 돌아다님": "돌아다니 떠돌 유람 노닐"
+      "하늘을 두루 돌아다님": "돌아다니 떠돌 유람 노닐",
+      "별이 가득한 하늘을 봄": "별이 별들 가득",
+      "하늘이 환히 빛나며 하늘 무리로 가득함": "환히 빛나 무리",
+      "아는 사람이 하늘에 있는 것을 봄": "아는 사람이 낯익은"
     },
     "contexts_en": {
       "하늘의 문이 열림": "gate door opened opening",
@@ -100,7 +103,10 @@
       "하늘에 올랐다가 지붕 위에 오름": "roof rooftop",
       "하늘이 갈라짐": "split cracked torn apart",
       "하늘이 더욱 넉넉하고 풍성함": "vast abundant boundless immense",
-      "하늘을 두루 돌아다님": "wandered roamed traveled around"
+      "하늘을 두루 돌아다님": "wandered roamed traveled around",
+      "별이 가득한 하늘을 봄": "stars crosses superhuman pinnacle",
+      "하늘이 환히 빛나며 하늘 무리로 가득함": "illuminated hosts spiritual research",
+      "아는 사람이 하늘에 있는 것을 봄": "people know unwise innocent"
     }
   },
   {
@@ -968,7 +974,10 @@
     "id": "spinning-thread",
     "aliases": [
       "길쌈",
-      "물레"
+      "물레",
+      "실을 자았다",
+      "실을 잣는",
+      "아마 실"
     ],
     "aliases_en": [
       "spinning",
@@ -976,8 +985,14 @@
       "spun thread",
       "loom"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "실을 자아 길쌈함": "길쌈 베를",
+      "아마 실을 자음": "아마 삼실"
+    },
+    "contexts_en": {
+      "실을 자아 길쌈함": "cloth weave",
+      "아마 실을 자음": "flax industrious thrifty habits"
+    }
   },
   {
     "id": "vegetables",

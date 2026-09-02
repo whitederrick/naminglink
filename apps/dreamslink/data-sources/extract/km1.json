@@ -800,13 +800,27 @@
   },
   {
     "id": "flea",
-    "aliases": [],
+    "aliases": [
+      "벼룩이",
+      "벼룩을",
+      "벼룩에"
+    ],
     "aliases_en": [
       "a flea",
       "fleas"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "벼룩을 봄": "보았 기어",
+      "여성이 벼룩에 물림": "물렸 여자가 여성이",
+      "정인의 몸에 벼룩이 있는 것을 봄": "정인 애인 연인",
+      "벼룩이 날고 고치를 짓지 않음": "고치 날아다니"
+    },
+    "contexts_en": {
+      "벼룩을 봄": "provoked anger retaliation machinations",
+      "여성이 벼룩에 물림": "bite slandered pretended",
+      "정인의 몸에 벼룩이 있는 것을 봄": "lover inconstancy",
+      "벼룩이 날고 고치를 짓지 않음": "cocoon"
+    }
   },
   {
     "id": "fly",
@@ -819,8 +833,18 @@
       "flies",
       "a housefly"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "파리를 봄": "보았 날아다",
+      "처녀가 파리를 봄": "처녀 아가씨 여자가",
+      "파리를 잡아 없앰": "잡아 없앴 쫓아냈",
+      "파리가 사람의 옷을 더럽힘": "옷을 더럽 앉았"
+    },
+    "contexts_en": {
+      "파리를 봄": "sickness contagious maladies surround",
+      "처녀가 파리를 봄": "young significant unhappiness",
+      "파리를 잡아 없앰": "kills exterminates reinstate ingenuity",
+      "파리가 사람의 옷을 더럽힘": "soiled clothes"
+    }
   },
   {
     "id": "hemp-clothes",
