@@ -923,7 +923,10 @@
       "갓난아기",
       "신생아",
       "핏덩이",
-      "젖먹이"
+      "젖먹이",
+      "갓난아이를",
+      "갓난쟁이",
+      "갓 태어난"
     ],
     "aliases_en": [
       "newborn",
@@ -931,8 +934,16 @@
       "baby",
       "new baby"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "갓 태어난 아들딸을 봄": "태어난 태어났다",
+      "처녀가 갓난아이를 가짐": "처녀 아가씨 가졌 낳았",
+      "갓난아이가 헤엄치는 것을 봄": "헤엄 물속에서"
+    },
+    "contexts_en": {
+      "갓 태어난 아들딸을 봄": "newly born",
+      "처녀가 갓난아이를 가짐": "young woman accused indulgence immoral pastime",
+      "갓난아이가 헤엄치는 것을 봄": "swimming fortunate escape entanglement"
+    }
   },
   {
     "id": "paper-money",

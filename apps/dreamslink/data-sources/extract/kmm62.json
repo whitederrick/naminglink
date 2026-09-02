@@ -1,0 +1,45 @@
+[
+  {
+    "id": "infirmity",
+    "aliases": [
+      "병약한",
+      "병약해",
+      "골골",
+      "잔병"
+    ],
+    "aliases_en": [
+      "infirmities",
+      "infirm"
+    ],
+    "contexts": {
+      "제 몸이 병약함": "제가 내가 나는",
+      "남이 병약한 것을 봄": "남이 남들 다른이"
+    },
+    "contexts_en": {
+      "제 몸이 병약함": "misfortune love misunderstood sickness",
+      "남이 병약한 것을 봄": "others various troubles disappointments"
+    }
+  },
+  {
+    "id": "influence",
+    "aliases": [
+      "세도",
+      "입김",
+      "힘 있는 자리",
+      "높은 자리"
+    ],
+    "aliases_en": [
+      "influential"
+    ],
+    "contexts": {
+      "남의 힘을 빌려 자리를 얻으려 함": "빌려 기대어 청탁",
+      "제가 힘 있는 자리에 있음": "제가 내가 나는",
+      "벗들이 높은 자리에 있는 것을 봄": "벗들 친구들 동무들"
+    },
+    "contexts_en": {
+      "남의 힘을 빌려 자리를 얻으려 함": "seeking rank advancement materialize",
+      "제가 힘 있는 자리에 있음": "prospects assume bright",
+      "벗들이 높은 자리에 있는 것을 봄": "friends high positions congenial vexations"
+    }
+  }
+]

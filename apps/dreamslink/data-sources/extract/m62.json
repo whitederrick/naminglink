@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "갓난아이",
+    "term_en": "newborn baby",
+    "context": "처녀가 갓난아이를 가짐",
+    "interpretation_ko": "몸가짐이 헤프다는 말을 듣게 될 흉한 조짐",
+    "interpretation_en": "foretells she will be accused of indulgence in immoral pastime",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Infants",
+      "original": "For a young woman to dream she has an infant, foretells she will be accused of indulgence in immoral pastime.",
+      "translation_ko": "젊은 여성이 갓난아이를 가진 꿈을 꾸면 몸가짐이 헤프다는 말을 듣는다"
+    }
+  },
+  {
+    "term_ko": "갓난아이",
+    "term_en": "newborn baby",
+    "context": "갓난아이가 헤엄치는 것을 봄",
+    "interpretation_ko": "얽힌 일에서 다행히 빠져나올 길한 조짐",
+    "interpretation_en": "portends a fortunate escape from some entanglement",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Infants",
+      "original": "To see an infant swimming, portends a fortunate escape from some entanglement.",
+      "translation_ko": "갓난아이가 헤엄치는 것을 보면 얽힌 일에서 다행히 빠져나온다"
+    }
+  },
+  {
+    "term_ko": "병원",
+    "term_en": "hospital",
+    "context": "병원에서 나옴",
+    "interpretation_ko": "속을 썩이던 교활한 적에게서 빠져나올 길한 조짐",
+    "interpretation_en": "denotes your escape from wily enemies who will cause you much worry",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Infirmary",
+      "original": "To dream that you leave an infirmary, denotes your escape from wily enemies who will cause you much worry.",
+      "translation_ko": "요양원을 나서는 꿈을 꾸면 속을 썩이던 교활한 적에게서 빠져나온다"
+    }
+  },
+  {
+    "term_ko": "병약함",
+    "term_en": "infirmity",
+    "context": "제 몸이 병약함",
+    "interpretation_ko": "사랑과 하는 일에 불운이 따르고 적을 얕보아서는 안 되며 병이 뒤따를 흉한 조짐",
+    "interpretation_en": "denotes misfortune in love and business; enemies are not to be misunderstood, and sickness may follow",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Infirmities",
+      "original": "To dream of infirmities, denotes misfortune in love and business; enemies are not to be misunderstood, and sickness may follow.",
+      "translation_ko": "병약한 꿈은 사랑과 일에 불운이 따르고, 적을 얕봐서는 안 되며, 병이 뒤따를 수 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "병약함",
+    "term_en": "infirmity",
+    "context": "남이 병약한 것을 봄",
+    "interpretation_ko": "하는 일에 여러 근심과 실망이 따를 흉한 조짐",
+    "interpretation_en": "denotes that you may have various troubles and disappointments in business",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Infirmities",
+      "original": "To dream that you see others infirm, denotes that you may have various troubles and disappointments in business.",
+      "translation_ko": "남이 병약한 것을 보는 꿈을 꾸면 하는 일에 여러 근심과 실망이 따른다"
+    }
+  },
+  {
+    "term_ko": "영향력",
+    "term_en": "influence",
+    "context": "남의 힘을 빌려 자리를 얻으려 함",
+    "interpretation_ko": "바라던 것이 이루어지지 않을 흉한 조짐",
+    "interpretation_en": "your desires will fail to materialize",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Influence",
+      "original": "If you dream of seeking rank or advancement through the influence of others, your desires will fail to materialize",
+      "translation_ko": "남의 힘을 빌려 자리나 승진을 구하는 꿈을 꾸면 바라던 것이 이루어지지 않는다"
+    }
+  },
+  {
+    "term_ko": "영향력",
+    "term_en": "influence",
+    "context": "제가 힘 있는 자리에 있음",
+    "interpretation_ko": "앞날이 밝게 펼쳐질 길한 조짐",
+    "interpretation_en": "your prospects will assume a bright form",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Influence",
+      "original": "but if you are in an influential position, your prospects will assume a bright form.",
+      "translation_ko": "그러나 제가 힘 있는 자리에 있으면 앞날이 밝게 펼쳐진다"
+    }
+  },
+  {
+    "term_ko": "영향력",
+    "term_en": "influence",
+    "context": "벗들이 높은 자리에 있는 것을 봄",
+    "interpretation_ko": "곁의 사람들과 뜻이 맞고 성가신 일에서 벗어날 길한 조짐",
+    "interpretation_en": "your companions will be congenial, and you will be free from vexations",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Influence",
+      "original": "To see friends in high positions, your companions will be congenial, and you will be free from vexations.",
+      "translation_ko": "벗들이 높은 자리에 있는 것을 보면 곁의 사람들과 뜻이 맞고 성가신 일에서 벗어난다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "옷에 먹물이 쏟아진 것을 봄",
+    "interpretation_ko": "시샘 탓에 자잘하고 짓궂은 심술을 여러 번 당할 흉한 조짐",
+    "interpretation_en": "many small and spiteful meannesses will be wrought you through envy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "To see ink spilled over one's clothing, many small and spiteful meannesses will be wrought you through envy.",
+      "translation_ko": "옷에 먹물이 쏟아진 것을 보면 시샘 탓에 자잘하고 짓궂은 심술을 여러 번 당한다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "처녀가 먹물을 봄",
+    "interpretation_ko": "맞수에게 험한 말로 헐뜯길 흉한 조짐",
+    "interpretation_en": "she will be slandered by a rival",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "If a young woman sees ink, she will be slandered by a rival.",
+      "translation_ko": "젊은 여성이 먹물을 보면 맞수에게 헐뜯긴다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "손가락에 먹물이 묻음",
+    "interpretation_ko": "마음을 다스리지 않으면 시샘에 사로잡혀 남을 해치려 들 흉한 조짐",
+    "interpretation_en": "you will be jealous and seek to injure some one unless you exercise your better nature",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "To dream that you have ink on your fingers, you will be jealous and seek to injure some one unless you exercise your better nature.",
+      "translation_ko": "손가락에 먹물이 묻은 꿈을 꾸면, 마음을 다스리지 않는 한 시샘에 사로잡혀 남을 해치려 든다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "붉은 먹물임",
+    "interpretation_ko": "무거운 말썽에 휘말릴 흉한 조짐",
+    "interpretation_en": "you will be involved in a serious trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "If it is red ink, you will be involved in a serious trouble.",
+      "translation_ko": "그것이 붉은 먹물이면 무거운 말썽에 휘말린다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "먹물을 만듦",
+    "interpretation_ko": "낮고 떳떳하지 못한 일에 손대고 볼썽사나운 무리와 어울릴 흉한 조짐",
+    "interpretation_en": "you will engage in a low and debasing business, and you will fall into disreputable associations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "To dream that you make ink, you will engage in a low and debasing business, and you will fall into disreputable associations.",
+      "translation_ko": "먹물을 만드는 꿈을 꾸면 낮고 떳떳하지 못한 일에 손대고 볼썽사나운 무리와 어울린다"
+    }
+  },
+  {
+    "term_ko": "먹",
+    "term_en": "ink stick",
+    "context": "먹물 병을 봄",
+    "interpretation_ko": "적이 생기고 하던 일이 풀리지 않을 흉한 조짐",
+    "interpretation_en": "indicates enemies and unsuccessful interests",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ink",
+      "original": "To see bottles of ink in your dreams, indicates enemies and unsuccessful interests.",
+      "translation_ko": "먹물 병들을 보는 꿈은 적과 풀리지 않는 일을 뜻한다"
+    }
+  }
+]

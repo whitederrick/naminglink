@@ -939,14 +939,33 @@
   {
     "id": "ink-stick",
     "aliases": [
-      "먹물"
+      "먹물",
+      "잉크",
+      "먹물이",
+      "먹물을"
     ],
     "aliases_en": [
       "ink",
       "ink stick"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남이 먹을 줌": "남이 주었 건네",
+      "옷에 먹물이 쏟아진 것을 봄": "옷에 쏟아 튀었",
+      "처녀가 먹물을 봄": "처녀 아가씨",
+      "손가락에 먹물이 묻음": "손가락 손끝 묻었",
+      "붉은 먹물임": "붉은 빨간",
+      "먹물을 만듦": "만들 갈았",
+      "먹물 병을 봄": "병들 병이"
+    },
+    "contexts_en": {
+      "남이 먹을 줌": "gave handed",
+      "옷에 먹물이 쏟아진 것을 봄": "spilled clothing spiteful meannesses envy",
+      "처녀가 먹물을 봄": "young woman slandered rival",
+      "손가락에 먹물이 묻음": "fingers jealous injure exercise",
+      "붉은 먹물임": "serious trouble",
+      "먹물을 만듦": "make low debasing disreputable",
+      "먹물 병을 봄": "bottles enemies unsuccessful interests"
+    }
   },
   {
     "id": "maple-tree",

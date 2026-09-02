@@ -5746,5 +5746,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "industry": [
     "industrious",
     "industriously"
+  ],
+  "infirmity": [
+    "infirmities",
+    "infirm"
+  ],
+  "influence": [
+    "influential"
   ]
 };

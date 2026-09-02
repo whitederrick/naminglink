@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 61 — India Rubber~Industry, 15건)
+// (지금 담긴 것: 배치 62 — Infants~Ink, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "india-rubber", ctx: "고무를 봄", text: "고무를 보았다" },
-  { id: "india-rubber", ctx: "고무를 잡아 늘임", text: "고무를 잡아 늘였다" },
-  { id: "indifference", ctx: "무관심한 마음을 봄", text: "무관심한 마음을 보았다" },
-  { id: "indifference", ctx: "정인이 저에게 시들함", text: "애인이 나에게 시들했다" },
-  { id: "indifference", ctx: "제가 정인에게 시들함", text: "내가 애인에게 시들했다" },
-  { id: "indigo", ctx: "쪽빛 물감을 봄", text: "쪽빛 물감을 보았다" },
-  { id: "indigo", ctx: "쪽빛으로 물든 물을 봄", text: "쪽빛으로 물든 물을 보았다" },
-  { id: "indigestion", ctx: "속이 얹혀 답답함", text: "체해서 속이 답답했다" },
-  { id: "indistinct", ctx: "무엇이 흐릿하게 보임", text: "무엇이 흐릿하게 보였다" },
-  { id: "indulgence", ctx: "제멋대로 굶", text: "제멋대로 굴고 있었다" },
-  { id: "industry", ctx: "제가 부지런히 일함", text: "내가 부지런히 일했다" },
-  { id: "industry", ctx: "정인을 둔 이가 부지런히 일함", text: "애인을 둔 이가 부지런히 일했다" },
-  { id: "industry", ctx: "남들이 바지런히 움직이는 것을 봄", text: "남들이 바쁘게 움직이고 있었다" },
+  { id: "newborn-baby", ctx: "처녀가 갓난아이를 가짐", text: "처녀가 갓난아이를 가졌다" },
+  { id: "newborn-baby", ctx: "갓난아이가 헤엄치는 것을 봄", text: "갓난아이가 헤엄치고 있었다" },
+  { id: "hospital", ctx: "병원에서 나옴", text: "병원에서 나왔다" },
+  { id: "infirmity", ctx: "제 몸이 병약함", text: "내가 병약한 몸이었다" },
+  { id: "infirmity", ctx: "남이 병약한 것을 봄", text: "남이 병약한 것을 보았다" },
+  { id: "influence", ctx: "남의 힘을 빌려 자리를 얻으려 함", text: "남의 입김을 빌려 자리를 얻으려 했다" },
+  { id: "influence", ctx: "제가 힘 있는 자리에 있음", text: "내가 힘 있는 자리에 있었다" },
+  { id: "influence", ctx: "벗들이 높은 자리에 있는 것을 봄", text: "벗들이 높은 자리에 있는 것을 보았다" },
+  { id: "ink-stick", ctx: "옷에 먹물이 쏟아진 것을 봄", text: "옷에 먹물이 쏟아졌다" },
+  { id: "ink-stick", ctx: "처녀가 먹물을 봄", text: "처녀가 먹물을 보았다" },
+  { id: "ink-stick", ctx: "손가락에 먹물이 묻음", text: "손가락에 먹물이 묻었다" },
+  { id: "ink-stick", ctx: "붉은 먹물임", text: "붉은 먹물이 있었다" },
+  { id: "ink-stick", ctx: "먹물을 만듦", text: "먹물을 만들었다" },
+  { id: "ink-stick", ctx: "먹물 병을 봄", text: "먹물 병들이 놓여 있었다" },
 
-  // 새 이름이 스쳐 가는 자리 — **옛 답이 그대로인가**를 함께 잰다.
-  // 「쪽빛 물감」 vs `indigo-clothing`(쪽빛 옷) · 「고무」 vs `shoes`(고무신) ·
-  // 「무관심」⊃「관」(coffin) · 「방종」⊃「종」(bell) · 「소화불량」⊃「소」(ox)·「불」(fire)
-  { id: "indigo-clothing", ctx: "쪽빛에 수놓은 옷을 입음", text: "쪽빛 옷을 입었다" },
-  { id: "shoes", ctx: "남이 자기 신을 신음", text: "남이 내 고무신을 신고 있었다" },
+  // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "newborn-baby", ctx: "갓 태어난 아들딸을 봄", text: "갓 태어난 아들을 보았다" },
+  { id: "ink-stick", ctx: "남이 먹을 줌", text: "남이 나에게 먹을 주었다" },
+  { id: "hospital", ctx: "병원에 환자로 있음", text: "병원에 환자로 누워 있었다" },
+  { id: "hospital", ctx: "병원으로 문병을 감", text: "병원으로 문병을 갔다" },
 ];
 
 let notFound = 0;

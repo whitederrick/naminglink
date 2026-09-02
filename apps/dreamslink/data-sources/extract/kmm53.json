@@ -56,11 +56,13 @@
     ],
     "contexts": {
       "병원에 환자로 있음": "환자로 입원 누워있",
-      "병원으로 문병을 감": "문병 찾아갔 병문안"
+      "병원으로 문병을 감": "문병 찾아갔 병문안",
+      "병원에서 나옴": "나왔 퇴원 빠져나왔"
     },
     "contexts_en": {
       "병원에 환자로 있음": "patient contagious narrowly",
-      "병원으로 문병을 감": "visit distressing absent"
+      "병원으로 문병을 감": "visit distressing absent",
+      "병원에서 나옴": "leave infirmary wily worry"
     }
   },
   {
