@@ -432,7 +432,12 @@
     "aliases": [
       "살해",
       "살인자",
-      "죽이는"
+      "죽이는",
+      "사람을 죽였다",
+      "남을 죽였다",
+      "목숨을 끊었다",
+      "사람을 죽이고",
+      "남을 죽이고"
     ],
     "aliases_en": [
       "murder",
@@ -443,12 +448,16 @@
     "contexts": {
       "남을 죽임": "남을 타인을 다른사람",
       "사람을 죽여 피가 옷을 적심": "피가 옷에 옷을 적셔 묻었",
-      "사람을 죽이는 것을 봄": "보았 목격 지켜보"
+      "사람을 죽이는 것을 봄": "보았 목격 지켜보",
+      "제가 사람을 죽임": "제가 내가 저지",
+      "벗이 스스로 목숨을 끊음": "스스로 목숨 벗이"
     },
     "contexts_en": {
       "남을 죽임": "else stranger unknown",
       "사람을 죽여 피가 옷을 적심": "blood clothes stained soaked",
-      "사람을 죽이는 것을 봄": "watched witnessed saw"
+      "사람을 죽이는 것을 봄": "watched witnessed saw",
+      "제가 사람을 죽임": "anguish humiliation indifference gloomy",
+      "벗이 스스로 목숨을 끊음": "friend commits suicide deciding important"
     }
   },
   {

@@ -220,7 +220,10 @@
   {
     "id": "pig",
     "aliases": [
-      "도야지"
+      "도야지",
+      "돼지가",
+      "돼지를",
+      "새끼돼지"
     ],
     "aliases_en": [
       "hog",
@@ -234,14 +237,26 @@
       "돼지가 저절로 죽음": "저절로 스스로 죽어있 병들 절로",
       "돼지가 사람으로 변함": "사람으로 사람이 변해 변하 둔갑",
       "양이 돼지처럼 걸어감": "양이 양과 양처럼 걸어가",
-      "돼지가 몸을 긁음": "긁는 긁고 긁어 비비"
+      "돼지가 몸을 긁음": "긁는 긁고 긁어 비비",
+      "살지고 튼튼한 돼지를 봄": "살지고 튼튼 통통",
+      "여윈 돼지를 봄": "여윈 비쩍 마른",
+      "어미 돼지와 새끼들을 봄": "어미 새끼들 무리",
+      "돼지 울부짖는 소리를 들음": "울부짖 꽥꽥 소리를",
+      "제 돼지에게 먹이를 줌": "먹이를 먹였 여물",
+      "돼지를 사고팖": "사고팔 팔았 장사"
     },
     "contexts_en": {
       "돼지를 잡음": "caught killed slaughtered butchered",
       "돼지가 저절로 죽음": "died dead sick naturally itself",
       "돼지가 사람으로 변함": "human person transformed turned",
       "양이 돼지처럼 걸어감": "sheep lamb walking",
-      "돼지가 몸을 긁음": "scratching scratched itching rubbing"
+      "돼지가 몸을 긁음": "scratching scratched itching rubbing",
+      "살지고 튼튼한 돼지를 봄": "fat strong brisk safe dealings",
+      "여윈 돼지를 봄": "lean vexatious servants children",
+      "어미 돼지와 새끼들을 봄": "sow litter abundant crops farmer",
+      "돼지 울부짖는 소리를 들음": "squealing unpleasant news absent",
+      "제 돼지에게 먹이를 줌": "feeding own increase belongings",
+      "돼지를 사고팖": "accumulate considerable rough perform"
     }
   },
   {

@@ -43,6 +43,7 @@
     "m45.json",
     "m46.json",
     "m47.json",
+    "m48.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -10548,6 +10549,189 @@
       ]
     },
     {
+      "id": "pig",
+      "term_ko": "돼지",
+      "term_en": "pig",
+      "aliases": [
+        "도야지",
+        "돼지가",
+        "돼지를",
+        "새끼돼지"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 3,
+      "meanings": [
+        {
+          "context": "돼지를 잡음",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "殺豬吉豬自死凶",
+              "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺豬豖者大吉利",
+              "translation_ko": "돼지를 잡으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "살지고 튼튼한 돼지를 봄",
+          "interpretation_ko": "하는 일이 활발히 바뀌고 거래가 든든할 길한 조짐",
+          "interpretation_en": "foretells brisk changes in business and safe dealings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "To dream of seeing fat, strong-looking hogs, foretells brisk changes in business and safe dealings.",
+              "translation_ko": "살지고 튼튼해 보이는 돼지 꿈은, 활발한 변화와 든든한 거래를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여윈 돼지를 봄",
+          "interpretation_ko": "성가신 일이 생기고 부리는 사람이나 자식 때문에 골치를 앓을 흉한 조짐",
+          "interpretation_en": "Lean hogs predict vexatious affairs and trouble with servants and children",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "Lean hogs predict vexatious affairs and trouble with servants and children.",
+              "translation_ko": "여윈 돼지는 성가신 일과 부리는 사람·자식 때문의 골치를 점친다"
+            }
+          ]
+        },
+        {
+          "context": "어미 돼지와 새끼들을 봄",
+          "interpretation_ko": "농사짓는 이에게는 곡식이 넉넉하고 남의 일도 잘 풀릴 길한 조짐",
+          "interpretation_en": "denotes abundant crops to the farmer, and advance in the affairs of others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "To see a sow and litter of pigs, denotes abundant crops to the farmer, and advance in the affairs of others.",
+              "translation_ko": "어미 돼지와 새끼들을 보면, 농사짓는 이의 넉넉한 곡식과 남의 일이 잘 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "돼지 울부짖는 소리를 들음",
+          "interpretation_ko": "멀리 있는 벗의 언짢은 소식이 오고 죽음이나 셈이 어긋나 낙심할 흉한 조짐",
+          "interpretation_en": "denotes unpleasant news from absent friends, and foretells disappointment by death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "To hear hogs squealing, denotes unpleasant news from absent friends, and foretells disappointment by death, or failure to realize the amounts you expected in deals of importance.",
+              "translation_ko": "돼지가 울부짖는 소리를 들으면, 멀리 있는 벗의 언짢은 소식과 낙심을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 돼지에게 먹이를 줌",
+          "interpretation_ko": "가진 것이 불어날 길한 조짐",
+          "interpretation_en": "denotes an increase in your personal belongings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "To dream of feeding your own hogs, denotes an increase in your personal belongings.",
+              "translation_ko": "제 돼지에게 먹이를 주는 꿈은, 가진 것이 불어남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "돼지를 사고팖",
+          "interpretation_ko": "재산을 꽤 모으나 거친 일을 많이 해야 할 조짐",
+          "interpretation_en": "you will accumulate considerable property, but you will have much rough work to perform",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hogs",
+              "original": "To dream that you are dealing in hogs, you will accumulate considerable property, but you will have much rough work to perform.",
+              "translation_ko": "돼지를 사고파는 꿈은, 꽤 모으는 재산과 많은 거친 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "돼지가 저절로 죽음",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "殺豬吉豬自死凶",
+              "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돼지가 사람으로 변함",
+          "interpretation_ko": "관재와 송사가 닥칠 조짐",
+          "interpretation_en": "a sign that legal trouble will come",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "豬豚變人官事至",
+              "translation_ko": "돼지가 사람으로 변하면 관재가 온다"
+            }
+          ]
+        },
+        {
+          "context": "양이 돼지처럼 걸어감",
+          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
+          "interpretation_en": "a sign that a traveler will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "羊作豚行行人至",
+              "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
+            }
+          ]
+        },
+        {
+          "context": "돼지가 몸을 긁음",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "豬羊搔癢主口舌",
+              "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abandon",
       "term_ko": "버림",
       "term_en": "abandon",
@@ -13901,6 +14085,141 @@
         }
       ],
       "label_ko": "배(복부)"
+    },
+    {
+      "id": "abode",
+      "term_ko": "거처",
+      "term_en": "abode",
+      "aliases": [
+        "살 곳",
+        "머물 곳",
+        "보금자리",
+        "처소",
+        "옛집",
+        "고향집",
+        "살던 집"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신의 거처를 찾지 못하는 꿈을 꿈",
+          "interpretation_ko": "다른 사람의 진실함에 대한 믿음을 완전히 잃을 조짐",
+          "interpretation_en": "a sign that you will completely lose faith in the integrity of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Abode",
+              "original": "To dream that you can't find your abode, you will completely lose faith in the integrity of others.",
+              "translation_ko": "자신의 거처를 찾지 못하는 꿈을 꾸면 다른 사람의 진실함에 대한 믿음을 완전히 잃게 된다"
+            }
+          ]
+        },
+        {
+          "context": "꿈에 거처가 없음",
+          "interpretation_ko": "일이 불운해지고 투기로 손해를 볼 조짐",
+          "interpretation_en": "a sign that you will be unfortunate in your affairs, and lose by speculation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Abode",
+              "original": "If you have no abode in your dreams, you will be unfortunate in your affairs, and lose by speculation.",
+              "translation_ko": "꿈에 거처가 없으면 일이 불운해지고 투기로 손해를 보게 된다"
+            }
+          ]
+        },
+        {
+          "context": "거처를 옮김",
+          "interpretation_ko": "급한 소식이 오고 서둘러 여행을 떠나게 될 조짐",
+          "interpretation_en": "a sign of hurried tidings and that hasty journeys will be made by you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Abode",
+              "original": "To change your abode, signifies hurried tidings and that hasty journeys will be made by you.",
+              "translation_ko": "거처를 옮기는 꿈이면 급한 소식이 오고 서둘러 여행을 떠나게 된다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 거처를 떠난 꿈을 꿈",
+          "interpretation_ko": "자신에 대한 중상과 거짓말이 퍼질 조짐",
+          "interpretation_en": "a sign significant of slander and falsehoods being perpetrated against her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Abode",
+              "original": "For a young woman to dream that she has left her abode, is significant of slander and falsehoods being perpetrated against her.",
+              "translation_ko": "젊은 여성이 거처를 떠난 꿈을 꾸면 자신에 대한 중상과 거짓말이 퍼질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옛 살던 집을 찾아감",
+          "interpretation_ko": "기뻐할 좋은 소식이 있을 길한 조짐",
+          "interpretation_en": "you will have good news to rejoice over",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Home",
+              "original": "To dream of visiting your old home, you will have good news to rejoice over.",
+              "translation_ko": "옛 살던 집을 찾아가는 꿈은, 기뻐할 좋은 소식을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 허물어진 옛집을 봄",
+          "interpretation_ko": "아끼던 벗을 잃을 슬픈 조짐",
+          "interpretation_en": "For a young woman this is a dream of sorrow. She will lose a dear friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Home",
+              "original": "For a young woman this is a dream of sorrow. She will lose a dear friend.",
+              "translation_ko": "처녀에게 이것은 슬픈 꿈이다. 아끼던 벗을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "옛 살던 집이 허물어져 있음",
+          "interpretation_ko": "살붙이가 앓거나 세상을 뜰 흉한 조짐",
+          "interpretation_en": "warns you of the sickness or death of a relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Home",
+              "original": "To see your old home in a dilapidated state, warns you of the sickness or death of a relative.",
+              "translation_ko": "옛 살던 집이 허물어진 것을 보면, 살붙이의 앓음이나 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "집에 가니 모든 것이 밝고 아늑함",
+          "interpretation_ko": "집안이 화목하고 하는 일도 흐뭇할 길한 조짐",
+          "interpretation_en": "denotes harmony in the present home life and satisfactory results in business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Home",
+              "original": "To go home and find everything cheery and comfortable, denotes harmony in the present home life and satisfactory results in business.",
+              "translation_ko": "집에 가니 모든 것이 밝고 아늑하면, 화목한 집안과 흐뭇한 일을 뜻한다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "acrobat",
@@ -24783,6 +25102,96 @@
       ]
     },
     {
+      "id": "communion",
+      "term_ko": "성찬",
+      "term_en": "communion",
+      "aliases": [
+        "성찬",
+        "성찬에",
+        "성찬을",
+        "성찬식"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "성찬에 참여함",
+          "interpretation_ko": "헛된 바람을 얻으려 제 뜻을 굽힐 흉한 조짐",
+          "interpretation_en": "warns you that you will resign your independent opinions to gain some frivolous desire",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holy Communion",
+              "original": "To dream that you are taking part in the Holy Communion, warns you that you will resign your independent opinions to gain some frivolous desire.",
+              "translation_ko": "성찬에 참여하는 꿈은, 헛된 바람을 얻으려 제 뜻을 굽힘을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "성찬에 빵도 술도 없음",
+          "interpretation_ko": "생각을 굽힌 것이 헛되어 뜻한 데로 조금도 못 갈 흉한 조짐",
+          "interpretation_en": "you will find that you have suffered your ideas to be proselytized in vain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holy Communion",
+              "original": "If you dream that there is neither bread nor wine for the supper, you will find that you have suffered your ideas to be proselytized in vain, as you are no nearer your goal.",
+              "translation_ko": "성찬에 빵도 술도 없는 꿈은, 생각을 굽힌 것이 헛되어 뜻한 데로 조금도 못 감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "성찬을 거절당했으나 떳떳함",
+          "interpretation_ko": "어려워 보이던 높은 자리를 얻을 길이 있는 길한 조짐",
+          "interpretation_en": "there is hope for your obtaining some prominent position which has appeared extremely doubtful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holy Communion",
+              "original": "If you are refused the right of communion and feel worthy, there is hope for your obtaining some prominent position which has appeared extremely doubtful, as your opponents are popular and powerful.",
+              "translation_ko": "성찬을 거절당했으나 스스로 떳떳하면, 어려워 보이던 높은 자리를 얻을 길이 있다"
+            }
+          ]
+        },
+        {
+          "context": "성찬을 거절당하고 떳떳하지 못함",
+          "interpretation_ko": "마음이 몹시 불편할 흉한 조짐",
+          "interpretation_en": "you will meet with much discomfort",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holy Communion",
+              "original": "If you feel unworthy, you will meet with much discomfort.",
+              "translation_ko": "스스로 떳떳하지 못하면, 마음이 몹시 불편해진다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 무리와 함께 성찬을 받음",
+          "interpretation_ko": "벗과 마음이 멀어져 낯선 이에게서 어울림을 찾을 조짐",
+          "interpretation_en": "denotes that you will find that your friends are growing uncongenial, and you will look to strangers for harmony",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holy Communion",
+              "original": "To dream that you are in a body of Baptists who are taking communion, denotes that you will find that your friends are growing uncongenial, and you will look to strangers for harmony.",
+              "translation_ko": "낯선 무리와 함께 성찬을 받는 꿈은, 벗과 멀어져 낯선 이에게서 어울림을 찾음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crowd",
       "term_ko": "군중",
       "term_en": "crowd",
@@ -26483,6 +26892,188 @@
       ]
     },
     {
+      "id": "hoe",
+      "term_ko": "호미",
+      "term_en": "hoe",
+      "aliases": [
+        "호미",
+        "호미로",
+        "호미를",
+        "호밋자루",
+        "괭이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "호미를 봄",
+          "interpretation_ko": "제 일에 매달린 이들이 있어 한가로이 즐길 겨를이 없을 조짐",
+          "interpretation_en": "denotes that you will have no time for idle pleasures, as there will be others depending upon your work",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hoe",
+              "original": "To dream of seeing a hoe, denotes that you will have no time for idle pleasures, as there will be others depending upon your work for subsistence.",
+              "translation_ko": "호미를 보는 꿈은, 제 일에 기댄 이들이 있어 한가로이 즐길 겨를이 없음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "호미를 씀",
+          "interpretation_ko": "힘을 안전한 데로 돌려 가난에서 벗어날 길한 조짐",
+          "interpretation_en": "you will enjoy freedom from poverty by directing your energy into safe channels",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hoe",
+              "original": "To dream of using a hoe, you will enjoy freedom from poverty by directing your energy into safe channels.",
+              "translation_ko": "호미를 쓰는 꿈은, 힘을 안전한 데로 돌려 가난에서 벗어남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 호미로 김을 맴",
+          "interpretation_ko": "제 힘으로 살아 남에게 기대지 않을 길한 조짐",
+          "interpretation_en": "she will be independent of others, as she will be self-supporting",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hoe",
+              "original": "For a woman to dream of hoeing, she will be independent of others, as she will be self-supporting.",
+              "translation_ko": "여성이 김을 매는 꿈은, 제 힘으로 살아 남에게 기대지 않음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인에게 호미 꿈이 나타남",
+          "interpretation_ko": "서로 한결같을 길한 조짐",
+          "interpretation_en": "For lovers, this dream is a sign of faithfulness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hoe",
+              "original": "For lovers, this dream is a sign of faithfulness.",
+              "translation_ko": "정인에게 이 꿈은 한결같음의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "원수가 호미로 나를 내리침",
+          "interpretation_ko": "원수가 내 몫을 넘보나 조심하면 진짜 위험은 피할 조짐",
+          "interpretation_en": "your interests will be threatened by enemies, but with caution you will keep aloof from real danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hoe",
+              "original": "To dream of a foe striking at you with a hoe, your interests will be threatened by enemies, but with caution you will keep aloof from real danger.",
+              "translation_ko": "원수가 호미로 나를 내리치는 꿈은, 원수가 내 몫을 넘보나 조심하면 진짜 위험은 피함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "term_ko": "꿀",
+      "term_en": "honey",
+      "aliases": [
+        "벌꿀",
+        "꿀물",
+        "꿀을",
+        "꿀이"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남과 함께 꿀을 먹음",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "與人吃蜜大吉利",
+              "translation_ko": "남과 꿀을 먹으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "꿀을 봄",
+          "interpretation_ko": "적잖은 재물을 지니게 될 길한 조짐",
+          "interpretation_en": "you will be possessed of considerable wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Honey",
+              "original": "To dream that you see honey, you will be possessed of considerable wealth.",
+              "translation_ko": "꿀을 보는 꿈은, 적잖은 재물을 지니게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "거른 꿀을 봄",
+          "interpretation_ko": "재물과 편안함이 있으나 그 밑에 떳떳하지 못한 즐거움이 흐를 조짐",
+          "interpretation_en": "denotes wealth and ease, but there will be an undercurrent in your life of unlawful gratification",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Honey",
+              "original": "To see strained honey, denotes wealth and ease, but there will be an undercurrent in your life of unlawful gratification of material desires.",
+              "translation_ko": "거른 꿀을 보면, 재물과 편안함이 있으나 그 밑에 떳떳하지 못한 즐거움이 흐른다"
+            }
+          ]
+        },
+        {
+          "context": "꿀을 먹음",
+          "interpretation_ko": "재물과 사랑을 함께 얻을 길한 조짐",
+          "interpretation_en": "foretells that you will attain wealth and love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Honey",
+              "original": "To dream of eating honey, foretells that you will attain wealth and love.",
+              "translation_ko": "꿀을 먹는 꿈은, 재물과 사랑을 함께 얻음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "정인에게 꿀 꿈이 나타남",
+          "interpretation_ko": "혼인의 즐거움으로 빠르게 나아갈 길한 조짐",
+          "interpretation_en": "To lovers, this indicates a swift rush into marital joys",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Honey",
+              "original": "To lovers, this indicates a swift rush into marital joys.",
+              "translation_ko": "정인에게 이것은 혼인의 즐거움으로 빠르게 나아감을 가리킨다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jade",
       "term_ko": "옥",
       "term_en": "jade",
@@ -26567,6 +27158,101 @@
               "locator": "金銀珠玉絹帛",
               "original": "得玉碗器物皆吉",
               "translation_ko": "옥 그릇과 기물을 얻으면 모두 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "killing-someone",
+      "term_ko": "살인",
+      "term_en": "killing someone",
+      "aliases": [
+        "살해",
+        "살인자",
+        "죽이는",
+        "사람을 죽였다",
+        "남을 죽였다",
+        "목숨을 끊었다",
+        "사람을 죽이고",
+        "남을 죽이고"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 죽임",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺死他人大富貴",
+              "translation_ko": "남을 죽이면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "제가 사람을 죽임",
+          "interpretation_ko": "남의 무심함에 크게 괴롭고 낯이 깎이며 그 어두움이 가까운 이까지 시달리게 할 흉한 조짐",
+          "interpretation_en": "foretells that you will suffer great anguish and humiliation through the indifference of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that you commit homicide, foretells that you will suffer great anguish and humiliation through the indifference of others, and your gloomy surroundings will cause perplexing worry to those close to you.",
+              "translation_ko": "제가 사람을 죽이는 꿈은, 남의 무심함에 크게 괴롭고 낯이 깎임을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 스스로 목숨을 끊음",
+          "interpretation_ko": "아주 중한 일을 정하는 데서 애를 먹을 흉한 조짐",
+          "interpretation_en": "you will have trouble in deciding a very important question",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that a friend commits suicide, you will have trouble in deciding a very important question.",
+              "translation_ko": "벗이 스스로 목숨을 끊는 꿈은, 아주 중한 일을 정하는 데서 애를 먹음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽여 피가 옷을 적심",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺人血污衣得財",
+              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽이는 것을 봄",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "看見殺人主大吉",
+              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
             }
           ]
         }
@@ -26746,101 +27432,6 @@
               "locator": "龍蛇禽獸等類",
               "original": "鼠大走主有喜事",
               "translation_ko": "쥐가 크게 달리면 기쁜 일이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pig",
-      "term_ko": "돼지",
-      "term_en": "pig",
-      "aliases": [
-        "도야지"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 3,
-      "meanings": [
-        {
-          "context": "돼지를 잡음",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "殺豬吉豬自死凶",
-              "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺豬豖者大吉利",
-              "translation_ko": "돼지를 잡으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "돼지가 저절로 죽음",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "殺豬吉豬自死凶",
-              "translation_ko": "돼지를 잡으면 길하고 돼지가 저절로 죽으면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돼지가 사람으로 변함",
-          "interpretation_ko": "관재와 송사가 닥칠 조짐",
-          "interpretation_en": "a sign that legal trouble will come",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "豬豚變人官事至",
-              "translation_ko": "돼지가 사람으로 변하면 관재가 온다"
-            }
-          ]
-        },
-        {
-          "context": "양이 돼지처럼 걸어감",
-          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
-          "interpretation_en": "a sign that a traveler will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "羊作豚行行人至",
-              "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
-            }
-          ]
-        },
-        {
-          "context": "돼지가 몸을 긁음",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "豬羊搔癢主口舌",
-              "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
             }
           ]
         }
@@ -27368,82 +27959,6 @@
               "locator": "Abbot",
               "original": "If she marries one, she will uphold her name and honor despite poverty and temptation.",
               "translation_ko": "젊은 여성이 수도원장과 결혼하면 가난과 유혹에도 이름과 명예를 지킬 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "abode",
-      "term_ko": "거처",
-      "term_en": "abode",
-      "aliases": [
-        "살 곳",
-        "머물 곳",
-        "보금자리",
-        "처소"
-      ],
-      "category": "place",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "자신의 거처를 찾지 못하는 꿈을 꿈",
-          "interpretation_ko": "다른 사람의 진실함에 대한 믿음을 완전히 잃을 조짐",
-          "interpretation_en": "a sign that you will completely lose faith in the integrity of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Abode",
-              "original": "To dream that you can't find your abode, you will completely lose faith in the integrity of others.",
-              "translation_ko": "자신의 거처를 찾지 못하는 꿈을 꾸면 다른 사람의 진실함에 대한 믿음을 완전히 잃게 된다"
-            }
-          ]
-        },
-        {
-          "context": "꿈에 거처가 없음",
-          "interpretation_ko": "일이 불운해지고 투기로 손해를 볼 조짐",
-          "interpretation_en": "a sign that you will be unfortunate in your affairs, and lose by speculation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Abode",
-              "original": "If you have no abode in your dreams, you will be unfortunate in your affairs, and lose by speculation.",
-              "translation_ko": "꿈에 거처가 없으면 일이 불운해지고 투기로 손해를 보게 된다"
-            }
-          ]
-        },
-        {
-          "context": "거처를 옮김",
-          "interpretation_ko": "급한 소식이 오고 서둘러 여행을 떠나게 될 조짐",
-          "interpretation_en": "a sign of hurried tidings and that hasty journeys will be made by you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Abode",
-              "original": "To change your abode, signifies hurried tidings and that hasty journeys will be made by you.",
-              "translation_ko": "거처를 옮기는 꿈이면 급한 소식이 오고 서둘러 여행을 떠나게 된다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 거처를 떠난 꿈을 꿈",
-          "interpretation_ko": "자신에 대한 중상과 거짓말이 퍼질 조짐",
-          "interpretation_en": "a sign significant of slander and falsehoods being perpetrated against her",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Abode",
-              "original": "For a young woman to dream that she has left her abode, is significant of slander and falsehoods being perpetrated against her.",
-              "translation_ko": "젊은 여성이 거처를 떠난 꿈을 꾸면 자신에 대한 중상과 거짓말이 퍼질 조짐이다"
             }
           ]
         }
@@ -45447,67 +45962,6 @@
       ]
     },
     {
-      "id": "killing-someone",
-      "term_ko": "살인",
-      "term_en": "killing someone",
-      "aliases": [
-        "살해",
-        "살인자",
-        "죽이는"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남을 죽임",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺死他人大富貴",
-              "translation_ko": "남을 죽이면 크게 부귀하다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽여 피가 옷을 적심",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺人血污衣得財",
-              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽이는 것을 봄",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "看見殺人主大吉",
-              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "kitchen",
       "term_ko": "부엌",
       "term_en": "kitchen",
@@ -62706,6 +63160,101 @@
       ]
     },
     {
+      "id": "hives",
+      "term_ko": "두드러기",
+      "term_en": "hives",
+      "aliases": [
+        "두드러기",
+        "두드러기가",
+        "두드러기를"
+      ],
+      "category": "body",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 아이가 두드러기가 남",
+          "interpretation_ko": "그 아이가 튼튼하고 순하게 자랄 길한 조짐",
+          "interpretation_en": "denotes that it will enjoy good health and be docile",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hives",
+              "original": "To dream that your child is affected with hives, denotes that it will enjoy good health and be docile.",
+              "translation_ko": "제 아이가 두드러기가 나는 꿈은, 그 아이가 튼튼하고 순하게 자람을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 아이들이 두드러기가 난 것을 봄",
+          "interpretation_ko": "아끼는 이의 형편을 두고 공연히 놀랄 조짐",
+          "interpretation_en": "you will be unduly frightened over the condition of some favorite",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hives",
+              "original": "To see strange children thus affected, you will be unduly frightened over the condition of some favorite.",
+              "translation_ko": "낯선 아이들이 그런 것을 보면, 아끼는 이의 형편을 두고 공연히 놀란다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holiday",
+      "term_ko": "휴일",
+      "term_en": "holiday",
+      "aliases": [
+        "휴일",
+        "휴일에",
+        "휴일을",
+        "쉬는 날"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "휴일을 봄",
+          "interpretation_ko": "머지않아 반가운 낯선 이들을 맞아 대접할 길한 조짐",
+          "interpretation_en": "foretells interesting strangers will soon partake of your hospitality",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holiday",
+              "original": "To dream of a holiday, foretells interesting strangers will soon partake of your hospitality.",
+              "translation_ko": "휴일 꿈은, 머지않아 반가운 낯선 이들을 맞아 대접함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 휴일을 언짢아함",
+          "interpretation_ko": "겨루는 이에게서 벗을 되찾을 제 매력을 못 믿을 조짐",
+          "interpretation_en": "denotes she will be fearful of her own attractions in winning a friend back from a rival",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Holiday",
+              "original": "For a young woman to dream that she is displeased with a holiday, denotes she will be fearful of her own attractions in winning a friend back from a rival.",
+              "translation_ko": "처녀가 휴일을 언짢아하는 꿈은, 겨루는 이에게서 벗을 되찾을 제 매력을 못 믿음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -72161,32 +72710,131 @@
       ]
     },
     {
-      "id": "honey",
-      "term_ko": "꿀",
-      "term_en": "honey",
+      "id": "history",
+      "term_ko": "역사",
+      "term_en": "history",
       "aliases": [
-        "벌꿀",
-        "꿀물"
+        "역사",
+        "역사책",
+        "역사를"
       ],
-      "category": "object",
+      "category": "action",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남과 함께 꿀을 먹음",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
+          "context": "역사책을 읽음",
+          "interpretation_ko": "길고 즐거운 쉼이 있을 길한 조짐",
+          "interpretation_en": "indicates a long and pleasant recreation",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "與人吃蜜大吉利",
-              "translation_ko": "남과 꿀을 먹으면 크게 길하고 이롭다"
+              "work": "miller",
+              "locator": "History",
+              "original": "To dream that you are reading history, indicates a long and pleasant recreation.",
+              "translation_ko": "역사를 읽는 꿈은, 길고 즐거운 쉼을 가리킨다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homesick",
+      "term_ko": "향수병",
+      "term_en": "homesick",
+      "aliases": [
+        "향수병",
+        "고향이 그리웠다",
+        "고향을 그리워했다",
+        "고향 생각"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고향을 그리워함",
+          "interpretation_ko": "즐거운 나들이와 반가운 만남의 기회를 놓칠 흉한 조짐",
+          "interpretation_en": "foretells you will lose fortunate opportunities to enjoy travels of interest and pleasant visits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homesick",
+              "original": "To dream of being homesick, foretells you will lose fortunate opportunities to enjoy travels of interest and pleasant visits.",
+              "translation_ko": "고향을 그리워하는 꿈은, 즐거운 나들이와 반가운 만남의 기회를 놓침을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hominy",
+      "term_ko": "옥수수죽",
+      "term_en": "hominy",
+      "aliases": [
+        "옥수수죽",
+        "옥수수 죽"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옥수수죽을 봄",
+          "interpretation_ko": "고단한 공부와 궁리에서 벗어나 즐거운 정분을 나눌 길한 조짐",
+          "interpretation_en": "denotes pleasant love-making will furnish you interesting recreation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hominy",
+              "original": "To dream of hominy, denotes pleasant love-making will furnish you interesting recreation from absorbing study and planning for future progression.",
+              "translation_ko": "옥수수죽 꿈은, 고단한 공부와 궁리에서 벗어난 즐거운 정분을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honeysuckle",
+      "term_ko": "인동꽃",
+      "term_en": "honeysuckle",
+      "aliases": [
+        "인동꽃",
+        "인동덩굴"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "인동꽃을 보거나 땀",
+          "interpretation_ko": "넉넉하고 흐뭇하며 혼인이 남달리 즐거울 길한 조짐",
+          "interpretation_en": "denotes that you will be contentedly prosperous and your marriage will be a singularly happy one",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Honeysuckle",
+              "original": "To see or gather, honeysuckles, denotes that you will be contentedly prosperous and your marriage will be a singularly happy one.",
+              "translation_ko": "인동꽃을 보거나 따는 꿈은, 넉넉하고 흐뭇함과 남달리 즐거운 혼인을 뜻한다"
             }
           ]
         }

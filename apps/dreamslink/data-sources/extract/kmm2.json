@@ -253,7 +253,10 @@
       "살 곳",
       "머물 곳",
       "보금자리",
-      "처소"
+      "처소",
+      "옛집",
+      "고향집",
+      "살던 집"
     ],
     "aliases_en": [
       "a dwelling",
@@ -265,13 +268,21 @@
       "자신의 거처를 찾지 못하는 꿈을 꿈": "찾지못 못찾 헤매 어디인지",
       "꿈에 거처가 없음": "없었 없는 하나도 아무데도",
       "거처를 옮김": "옮겼 옮기 이사 이전했",
-      "젊은 여성이 거처를 떠난 꿈을 꿈": "떠났 떠나 나왔 집을나"
+      "젊은 여성이 거처를 떠난 꿈을 꿈": "떠났 떠나 나왔 집을나",
+      "옛 살던 집을 찾아감": "찾아갔 찾아가 들렀",
+      "옛 살던 집이 허물어져 있음": "허물어 무너진 폐허",
+      "처녀가 허물어진 옛집을 봄": "처녀 아가씨",
+      "집에 가니 모든 것이 밝고 아늑함": "아늑 밝고 포근"
     },
     "contexts_en": {
       "자신의 거처를 찾지 못하는 꿈을 꿈": "unable find finding lost",
       "꿈에 거처가 없음": "none nowhere homeless",
       "거처를 옮김": "moved moving relocated changed",
-      "젊은 여성이 거처를 떠난 꿈을 꿈": "left leaving departed away"
+      "젊은 여성이 거처를 떠난 꿈을 꿈": "left leaving departed away",
+      "옛 살던 집을 찾아감": "visiting old good news rejoice",
+      "옛 살던 집이 허물어져 있음": "dilapidated warns sickness death relative",
+      "처녀가 허물어진 옛집을 봄": "young woman sorrow lose dear",
+      "집에 가니 모든 것이 밝고 아늑함": "cheery comfortable harmony satisfactory"
     }
   },
   {

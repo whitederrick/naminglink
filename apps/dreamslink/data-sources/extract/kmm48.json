@@ -1,0 +1,145 @@
+[
+  {
+    "id": "history",
+    "aliases": [
+      "역사",
+      "역사책",
+      "역사를"
+    ],
+    "aliases_en": [
+      "history"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hives",
+    "aliases": [
+      "두드러기",
+      "두드러기가",
+      "두드러기를"
+    ],
+    "aliases_en": [
+      "hives"
+    ],
+    "contexts": {
+      "제 아이가 두드러기가 남": "제아이 내아이 우리아이",
+      "낯선 아이들이 두드러기가 난 것을 봄": "낯선 모르는 남의아이"
+    },
+    "contexts_en": {
+      "제 아이가 두드러기가 남": "good health docile",
+      "낯선 아이들이 두드러기가 난 것을 봄": "strange children unduly frightened favorite"
+    }
+  },
+  {
+    "id": "hoe",
+    "aliases": [
+      "호미",
+      "호미로",
+      "호미를",
+      "호밋자루",
+      "괭이"
+    ],
+    "aliases_en": [
+      "a hoe"
+    ],
+    "contexts": {
+      "호미를 봄": "놓여 세워둔",
+      "호미를 씀": "썼다 쓰는",
+      "여성이 호미로 김을 맴": "김을 매었 매는",
+      "정인에게 호미 꿈이 나타남": "정인 애인 연인",
+      "원수가 호미로 나를 내리침": "원수 내리쳐 휘둘"
+    },
+    "contexts_en": {
+      "호미를 봄": "seeing idle pleasures depending subsistence",
+      "호미를 씀": "using freedom poverty directing channels",
+      "여성이 호미로 김을 맴": "hoeing independent supporting",
+      "정인에게 호미 꿈이 나타남": "lovers sign faithfulness",
+      "원수가 호미로 나를 내리침": "foe striking interests threatened aloof"
+    }
+  },
+  {
+    "id": "holiday",
+    "aliases": [
+      "휴일",
+      "휴일에",
+      "휴일을",
+      "쉬는 날"
+    ],
+    "aliases_en": [
+      "a holiday"
+    ],
+    "contexts": {
+      "휴일을 봄": "보냈 맞이",
+      "처녀가 휴일을 언짢아함": "언짢 싫어 짜증"
+    },
+    "contexts_en": {
+      "휴일을 봄": "interesting strangers partake hospitality",
+      "처녀가 휴일을 언짢아함": "displeased fearful attractions rival"
+    }
+  },
+  {
+    "id": "communion",
+    "aliases": [
+      "성찬",
+      "성찬에",
+      "성찬을",
+      "성찬식"
+    ],
+    "aliases_en": [
+      "the Holy Communion"
+    ],
+    "contexts": {
+      "성찬에 참여함": "참여 함께했",
+      "성찬에 빵도 술도 없음": "빵도 술도 아무것도",
+      "성찬을 거절당했으나 떳떳함": "떳떳 당당",
+      "성찬을 거절당하고 떳떳하지 못함": "부끄 켕기 못났",
+      "낯선 무리와 함께 성찬을 받음": "낯선 무리와 남들과"
+    },
+    "contexts_en": {
+      "성찬에 참여함": "taking part resign independent frivolous",
+      "성찬에 빵도 술도 없음": "neither bread wine supper proselytized",
+      "성찬을 거절당했으나 떳떳함": "refused worthy hope prominent doubtful",
+      "성찬을 거절당하고 떳떳하지 못함": "meet much discomfort",
+      "낯선 무리와 함께 성찬을 받음": "body Baptists uncongenial strangers harmony"
+    }
+  },
+  {
+    "id": "hominy",
+    "aliases": [
+      "옥수수죽",
+      "옥수수 죽"
+    ],
+    "aliases_en": [
+      "hominy"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "homesick",
+    "aliases": [
+      "향수병",
+      "고향이 그리웠다",
+      "고향을 그리워했다",
+      "고향 생각"
+    ],
+    "aliases_en": [
+      "being homesick"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "honeysuckle",
+    "aliases": [
+      "인동꽃",
+      "인동덩굴"
+    ],
+    "aliases_en": [
+      "honeysuckles"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

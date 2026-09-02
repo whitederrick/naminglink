@@ -5570,5 +5570,29 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "hissing": [
     "hissing"
+  ],
+  "history": [
+    "history"
+  ],
+  "hives": [
+    "hives"
+  ],
+  "hoe": [
+    "a hoe"
+  ],
+  "holiday": [
+    "a holiday"
+  ],
+  "communion": [
+    "the Holy Communion"
+  ],
+  "hominy": [
+    "hominy"
+  ],
+  "homesick": [
+    "being homesick"
+  ],
+  "honeysuckle": [
+    "honeysuckles"
   ]
 };

@@ -882,13 +882,27 @@
     "id": "honey",
     "aliases": [
       "벌꿀",
-      "꿀물"
+      "꿀물",
+      "꿀을",
+      "꿀이"
     ],
     "aliases_en": [
       "honeycomb"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남과 함께 꿀을 먹음": "남과 함께 나눠",
+      "꿀을 봄": "놓여 담겨",
+      "거른 꿀을 봄": "거른 걸러 맑은",
+      "꿀을 먹음": "먹었 핥아",
+      "정인에게 꿀 꿈이 나타남": "정인 애인 연인"
+    },
+    "contexts_en": {
+      "남과 함께 꿀을 먹음": "together shared another",
+      "꿀을 봄": "possessed considerable wealth",
+      "거른 꿀을 봄": "strained ease undercurrent unlawful",
+      "꿀을 먹음": "eating attain riches",
+      "정인에게 꿀 꿈이 나타남": "lovers swift rush marital joys"
+    }
   },
   {
     "id": "lamp",
