@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ice",
+    "aliases": [
+      "얼음물",
+      "얼음덩이",
+      "얼음판",
+      "빙판"
+    ],
+    "aliases_en": [
+      "ice-water",
+      "the ice"
+    ],
+    "contexts": {
+      "얼음을 봄": "얼음덩이 커다란",
+      "처녀가 얼음 위를 걸음": "처녀 아가씨 처자",
+      "얼음 위를 걸음": "걸었 걸어가 밟고",
+      "맑은 시냇물에 얼음이 떠가는 것을 봄": "맑은 시냇물 냇물 떠가",
+      "얼음을 만듦": "만들 얼렸 얼려",
+      "얼음을 씹어 먹음": "씹어 깨물 먹었",
+      "얼음물을 마심": "마셨 마시고 들이켰",
+      "얼음물에 몸을 담금": "담갔 목욕 몸을"
+    },
+    "contexts_en": {
+      "얼음을 봄": "betokens distress evil-minded injure",
+      "처녀가 얼음 위를 걸음": "young woman warning veil shame",
+      "얼음 위를 걸음": "risk solid comfort respect evanescent",
+      "맑은 시냇물에 얼음이 떠가는 것을 봄": "floating stream clear ill-tempered jealous",
+      "얼음을 만듦": "make failure egotism selfishness",
+      "얼음을 씹어 먹음": "eating foretells sickness",
+      "얼음물을 마심": "drink health dissipation",
+      "얼음물에 몸을 담금": "bathing anticipated unforeseen"
+    }
+  },
+  {
+    "id": "icicle",
+    "aliases": [
+      "고드름들"
+    ],
+    "aliases_en": [
+      "icicles",
+      "an icicle"
+    ],
+    "contexts": {
+      "처마에 달린 고드름을 봄": "처마 추녀 지붕끝",
+      "울타리에 달린 고드름을 봄": "울타리 담장",
+      "늘푸른나무에 달린 고드름을 봄": "늘푸른 사철나무 상록수",
+      "고드름이 나무에서 떨어지는 것을 봄": "떨어지 떨어졌 부러져",
+      "나무에 달린 고드름을 봄": "나무에 나뭇가지"
+    },
+    "contexts_en": {
+      "처마에 달린 고드름을 봄": "eaves misery want foreboded",
+      "울타리에 달린 고드름을 봄": "fence suffering bodily mentally",
+      "늘푸른나무에 달린 고드름을 봄": "evergreens bright overcast doubtful honors",
+      "고드름이 나무에서 떨어지는 것을 봄": "falling distinctive misfortune vanish",
+      "나무에 달린 고드름을 봄": "despondent hopes grow gloomier"
+    }
+  },
+  {
+    "id": "ice-cream",
+    "aliases": [
+      "얼음과자"
+    ],
+    "aliases_en": [
+      "ice-cream",
+      "the ice cream"
+    ],
+    "contexts": {
+      "아이스크림을 먹음": "맛있게 달콤",
+      "아이들이 아이스크림 먹는 것을 봄": "아이들 어린애 아이가",
+      "아이스크림을 엎지름": "엎질 쏟았 떨어뜨",
+      "쉰 아이스크림을 봄": "쉰맛 시큼 상한",
+      "아이스크림이 녹아 있음": "녹아 녹은 흘러내"
+    },
+    "contexts_en": {
+      "아이스크림을 먹음": "eating happy success undertaken",
+      "아이들이 아이스크림 먹는 것을 봄": "children prosperity attend favorably",
+      "아이스크림을 엎지름": "upset presence lover flirted unkindness",
+      "쉰 아이스크림을 봄": "sour unexpected trouble interfere",
+      "아이스크림이 녹아 있음": "melted anticipated stagnation realized"
+    }
+  }
+]

@@ -5663,5 +5663,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "hypocrite": [
     "a hypocrite",
     "hypocrites"
+  ],
+  "ice": [
+    "ice-water",
+    "the ice"
+  ],
+  "icicle": [
+    "icicles",
+    "an icicle"
+  ],
+  "ice-cream": [
+    "ice-cream",
+    "the ice cream"
   ]
 };

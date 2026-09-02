@@ -55,6 +55,7 @@
     "m54.json",
     "m55.json",
     "m56.json",
+    "m57.json",
     "m6.json",
     "m7a.json",
     "m7b.json",
@@ -16998,6 +16999,138 @@
       ]
     },
     {
+      "id": "ice",
+      "term_ko": "얼음",
+      "term_en": "ice",
+      "aliases": [
+        "얼음물",
+        "얼음덩이",
+        "얼음판",
+        "빙판"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "얼음을 봄",
+          "interpretation_ko": "큰 괴로움이 따르고 마음보 나쁜 이들이 잘하던 일을 해치려 들 흉한 조짐",
+          "interpretation_en": "betokens much distress, and evil-minded persons will seek to injure you in your best work",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To dream of ice, betokens much distress, and evil-minded persons will seek to injure you in your best work.",
+              "translation_ko": "얼음 꿈은 큰 고통을 뜻하며, 악의를 품은 이들이 가장 잘하는 일에서 해를 끼치려 든다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 얼음 위를 걸음",
+          "interpretation_ko": "얇은 너울 한 겹만이 부끄러움을 가리고 있음을 알리는 경고",
+          "interpretation_en": "is a warning that only a thin veil hides her from shame",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "For a young woman to walk on ice, is a warning that only a thin veil hides her from shame.",
+              "translation_ko": "젊은 여성이 얼음 위를 걷는 꿈은 얇은 너울 하나가 부끄러움을 가리고 있을 뿐이라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "얼음 위를 걸음",
+          "interpretation_ko": "덧없는 즐거움을 좇다 든든한 안락과 존경을 잃을 흉한 조짐",
+          "interpretation_en": "you risk much solid comfort and respect for evanescent joys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To dream that you walk on ice, you risk much solid comfort and respect for evanescent joys.",
+              "translation_ko": "얼음 위를 걷는 꿈을 꾸면 덧없는 기쁨을 위해 든든한 안락과 존경을 건다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 시냇물에 얼음이 떠가는 것을 봄",
+          "interpretation_ko": "성마르고 시샘 많은 벗 때문에 기쁨이 끊길 흉한 조짐",
+          "interpretation_en": "denotes that your happiness will be interrupted by ill-tempered and jealous friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To see ice floating in a stream of clear water, denotes that your happiness will be interrupted by ill-tempered and jealous friends.",
+              "translation_ko": "맑은 물줄기에 얼음이 떠가는 것을 보면 성마르고 시샘 많은 벗들 탓에 행복이 끊긴다"
+            }
+          ]
+        },
+        {
+          "context": "얼음을 만듦",
+          "interpretation_ko": "제 잘난 마음과 이기심 탓에 한 생애를 그르칠 흉한 조짐",
+          "interpretation_en": "you will make a failure of your life through egotism and selfishness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To dream that you make ice, you will make a failure of your life through egotism and selfishness.",
+              "translation_ko": "얼음을 만드는 꿈을 꾸면 자만과 이기심으로 인생을 그르친다"
+            }
+          ]
+        },
+        {
+          "context": "얼음을 씹어 먹음",
+          "interpretation_ko": "몸에 병이 들 흉한 조짐",
+          "interpretation_en": "foretells sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "Eating ice, foretells sickness.",
+              "translation_ko": "얼음을 먹는 것은 병을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "얼음물을 마심",
+          "interpretation_ko": "방탕한 생활로 몸이 상할 흉한 조짐",
+          "interpretation_en": "you will bring ill health from dissipation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "If you drink ice-water, you will bring ill health from dissipation.",
+              "translation_ko": "얼음물을 마시면 방탕으로 건강을 해친다"
+            }
+          ]
+        },
+        {
+          "context": "얼음물에 몸을 담금",
+          "interpretation_ko": "바라던 즐거움이 뜻밖의 일로 끊길 흉한 조짐",
+          "interpretation_en": "anticipated pleasures will be interrupted with an unforeseen event",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "Bathing in ice-water, anticipated pleasures will be interrupted with an unforeseen event.",
+              "translation_ko": "얼음물에 몸을 담그면 기대하던 즐거움이 뜻밖의 일로 끊긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -28158,6 +28291,180 @@
               "locator": "Honey",
               "original": "To lovers, this indicates a swift rush into marital joys.",
               "translation_ko": "정인에게 이것은 혼인의 즐거움으로 빠르게 나아감을 가리킨다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "term_ko": "아이스크림",
+      "term_en": "ice cream",
+      "aliases": [
+        "얼음과자"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아이스크림을 먹음",
+          "interpretation_ko": "이미 손댄 일에서 기쁜 성과를 거둘 길한 조짐",
+          "interpretation_en": "foretells you will have happy success in affairs already undertaken",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice Cream",
+              "original": "To dream that you are eating ice cream, foretells you will have happy success in affairs already undertaken.",
+              "translation_ko": "아이스크림을 먹는 꿈은 이미 착수한 일에서 기쁜 성공을 거두리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 아이스크림 먹는 것을 봄",
+          "interpretation_ko": "살림이 넉넉해지고 기쁨이 더없이 따를 길한 조짐",
+          "interpretation_en": "denotes prosperity and happiness will attend you most favorably",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice Cream",
+              "original": "To see children eating it, denotes prosperity and happiness will attend you most favorably.",
+              "translation_ko": "아이들이 그것을 먹는 것을 보면 번영과 행복이 더없이 따른다"
+            }
+          ]
+        },
+        {
+          "context": "아이스크림을 엎지름",
+          "interpretation_ko": "남에게 모질게 군 탓에 가벼이 놀림받을 흉한 조짐",
+          "interpretation_en": "denotes she will be flirted with because of her unkindness to others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice Cream",
+              "original": "For a young woman to upset her ice cream in the presence of her lover or friend, denotes she will be flirted with because of her unkindness to others.",
+              "translation_ko": "젊은 여성이 정인이나 벗 앞에서 아이스크림을 엎지르면 남에게 모질게 군 탓에 놀림을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "쉰 아이스크림을 봄",
+          "interpretation_ko": "뜻밖의 말썽이 즐거움을 가로막을 흉한 조짐",
+          "interpretation_en": "denotes some unexpected trouble will interfere with your pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice Cream",
+              "original": "To see sour ice cream, denotes some unexpected trouble will interfere with your pleasures.",
+              "translation_ko": "쉰 아이스크림을 보면 뜻밖의 말썽이 즐거움을 가로막는다"
+            }
+          ]
+        },
+        {
+          "context": "아이스크림이 녹아 있음",
+          "interpretation_ko": "바라던 즐거움이 이루어지기도 전에 멎어 버릴 흉한 조짐",
+          "interpretation_en": "your anticipated pleasure will reach stagnation before it is realized",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice Cream",
+              "original": "If it is melted, your anticipated pleasure will reach stagnation before it is realized.",
+              "translation_ko": "그것이 녹아 있으면 기대하던 즐거움이 이루어지기 전에 멎는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icicle",
+      "term_ko": "고드름",
+      "term_en": "icicle",
+      "aliases": [
+        "고드름들"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처마에 달린 고드름을 봄",
+          "interpretation_ko": "궁핍하고 몸까지 상할 흉한 조짐",
+          "interpretation_en": "denotes misery and want of comfort; ill health is foreboded",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To see icicles on the eaves of houses, denotes misery and want of comfort. Ill health is foreboded.",
+              "translation_ko": "집 처마에 달린 고드름을 보면 궁핍과 불편이 따르고 병이 예고된다"
+            }
+          ]
+        },
+        {
+          "context": "울타리에 달린 고드름을 봄",
+          "interpretation_ko": "몸과 마음이 함께 고달플 흉한 조짐",
+          "interpretation_en": "denotes suffering bodily and mentally",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To see icicles on the fence, denotes suffering bodily and mentally.",
+              "translation_ko": "울타리에 달린 고드름을 보면 몸과 마음이 함께 괴롭다"
+            }
+          ]
+        },
+        {
+          "context": "늘푸른나무에 달린 고드름을 봄",
+          "interpretation_ko": "밝던 앞날이 미덥지 못한 영예의 그늘에 가릴 흉한 조짐",
+          "interpretation_en": "a bright future will be overcast with the shadow of doubtful honors",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To see them on evergreens, a bright future will be overcast with the shadow of doubtful honors.",
+              "translation_ko": "늘푸른나무에 달린 고드름을 보면 밝은 앞날이 미덥지 못한 영예의 그늘에 덮인다"
+            }
+          ]
+        },
+        {
+          "context": "고드름이 나무에서 떨어지는 것을 봄",
+          "interpretation_ko": "뚜렷하던 불운이나 근심이 머지않아 사라질 길한 조짐",
+          "interpretation_en": "denotes that some distinctive misfortune, or trouble, will soon vanish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Icicles",
+              "original": "To see icicles falling from trees, denotes that some distinctive misfortune, or trouble, will soon vanish.",
+              "translation_ko": "나무에서 고드름이 떨어지는 것을 보면 뚜렷한 불운이나 근심이 머지않아 사라진다"
+            }
+          ]
+        },
+        {
+          "context": "나무에 달린 고드름을 봄",
+          "interpretation_ko": "풀 죽었던 바람이 더욱 어두워질 흉한 조짐",
+          "interpretation_en": "despondent hopes will grow gloomier",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ice",
+              "original": "To see them on trees, despondent hopes will grow gloomier.",
+              "translation_ko": "나무에 달린 고드름을 보면 풀 죽은 희망이 더 어두워진다"
             }
           ]
         }

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 56 — Hut~Hyssop, 19건)
+// (지금 담긴 것: 배치 57 — Ice·Icicles·Ice Cream, 20건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,29 +30,30 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "hut", ctx: "오두막을 봄", text: "허름한 오두막을 보았다" },
-  { id: "hut", ctx: "오두막에서 잠을 잠", text: "오두막에서 잠을 잤다" },
-  { id: "hut", ctx: "푸른 들판에 있는 오두막을 봄", text: "푸른 들판에 오두막이 있었다" },
-  { id: "hyacinth", ctx: "히아신스를 보거나 꺾음", text: "히아신스를 꺾었다" },
-  { id: "hydrophobia", ctx: "제가 공수병에 걸림", text: "내가 공수병에 걸렸다" },
-  { id: "hydrophobia", ctx: "남이 공수병에 걸린 것을 봄", text: "남이 공수병에 걸린 것을 보았다" },
-  { id: "hydrophobia", ctx: "공수병에 걸린 짐승에게 물림", text: "광견병에 걸린 짐승에게 물렸다" },
-  { id: "hyena", ctx: "하이에나를 봄", text: "하이에나 무리가 어슬렁거리고 있었다" },
-  { id: "hyena", ctx: "하이에나가 덤벼듦", text: "하이에나가 나에게 덤벼들었다" },
-  { id: "hymn", ctx: "찬송가 부르는 소리를 들음", text: "찬송가 부르는 소리를 들었다" },
-  { id: "hypocrite", ctx: "남이 자기에게 위선을 부림", text: "누군가 나에게 위선을 부렸다" },
-  { id: "hypocrite", ctx: "제가 위선자가 됨", text: "내가 위선자가 되어 있었다" },
-  { id: "hyssop", ctx: "우슬초를 봄", text: "우슬초를 보았다" },
+  { id: "ice", ctx: "얼음을 봄", text: "커다란 얼음덩이를 보았다" },
+  { id: "ice", ctx: "처녀가 얼음 위를 걸음", text: "처녀가 얼음 위를 걸었다" },
+  { id: "ice", ctx: "얼음 위를 걸음", text: "얼음 위를 걸었다" },
+  { id: "ice", ctx: "맑은 시냇물에 얼음이 떠가는 것을 봄", text: "맑은 시냇물에 얼음이 떠가고 있었다" },
+  { id: "ice", ctx: "얼음을 만듦", text: "얼음을 만들었다" },
+  { id: "ice", ctx: "얼음을 씹어 먹음", text: "얼음을 씹어 먹었다" },
+  { id: "ice", ctx: "얼음물을 마심", text: "얼음물을 마셨다" },
+  { id: "ice", ctx: "얼음물에 몸을 담금", text: "얼음물에 몸을 담갔다" },
+  { id: "icicle", ctx: "처마에 달린 고드름을 봄", text: "처마에 고드름이 달려 있었다" },
+  { id: "icicle", ctx: "울타리에 달린 고드름을 봄", text: "울타리에 고드름이 달려 있었다" },
+  { id: "icicle", ctx: "늘푸른나무에 달린 고드름을 봄", text: "사철나무에 고드름이 달려 있었다" },
+  { id: "icicle", ctx: "고드름이 나무에서 떨어지는 것을 봄", text: "고드름이 나무에서 떨어졌다" },
+  { id: "icicle", ctx: "나무에 달린 고드름을 봄", text: "나무에 고드름이 달려 있었다" },
+  { id: "ice-cream", ctx: "아이스크림을 먹음", text: "아이스크림을 맛있게 먹었다" },
+  { id: "ice-cream", ctx: "아이들이 아이스크림 먹는 것을 봄", text: "아이들이 아이스크림을 먹고 있었다" },
+  { id: "ice-cream", ctx: "아이스크림을 엎지름", text: "아이스크림을 엎질렀다" },
+  { id: "ice-cream", ctx: "쉰 아이스크림을 봄", text: "시큼한 아이스크림을 보았다" },
+  { id: "ice-cream", ctx: "아이스크림이 녹아 있음", text: "아이스크림이 녹아 있었다" },
 
   // 이 배치의 새 이름이 스쳐 가는 기존 상징들 — **옛 답이 그대로인지** 함께 잰다.
-  // 「광견병」⊃「광견」(dog) · 「공수병」⊃「병」(illness) · 「초가집」⊃「집」(house) ·
-  // 「히아신스꽃」⊃「꽃」(flower) · 「찬송」~「성가대」(choir) · 「히솝풀」⊃「풀」(grass)
-  { id: "dog", ctx: "미친개에게 물림", text: "미친개에게 물렸다" },
-  { id: "illness", ctx: "병이 위중함", text: "병이 위중해 보였다" },
-  { id: "house", ctx: "낡고 허름한 집을 봄", text: "낡고 허름한 집을 보았다" },
-  { id: "flower", ctx: "하얀 꽃을 봄", text: "하얀 꽃을 보았다" },
-  { id: "choir", ctx: "성가대에서 노래함", text: "성가대에서 노래했다" },
-  { id: "grass", ctx: "푸른 풀밭을 봄", text: "푸른 풀밭을 보았다" },
+  // 「아이스크림」⊃「아이」(child)·「크림」(cream) · 「얼음물」⊃「물」(water) ·
+  // 「늘푸른나무」⊃「나무」(tree) · 처마/울타리는 roof·fence 의 이름이다
+  { id: "cream", ctx: "크림을 마심", text: "크림을 마셨다" },
+  { id: "evergreen", ctx: "늘푸른나무를 봄", text: "늘푸른나무를 보았다" },
 ];
 
 let notFound = 0;
