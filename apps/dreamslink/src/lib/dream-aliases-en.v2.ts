@@ -5376,5 +5376,46 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "gift": [
     "gifts",
     "a gift"
+  ],
+  "girl": [
+    "a girl",
+    "girls"
+  ],
+  "glass": [
+    "glass"
+  ],
+  "glass-blower": [
+    "glass-blowers",
+    "a glass blower"
+  ],
+  "glass-house": [
+    "a glass house"
+  ],
+  "gleaning": [
+    "gleaning",
+    "gleaners"
+  ],
+  "gloves": [
+    "gloves",
+    "a glove"
+  ],
+  "goat": [
+    "goats",
+    "a goat"
+  ],
+  "god": [
+    "God"
+  ],
+  "goggles": [
+    "goggles"
+  ],
+  "gold": [
+    "gold"
+  ],
+  "goldfish": [
+    "goldfish"
+  ],
+  "gold-leaf": [
+    "gold leaves"
   ]
 };

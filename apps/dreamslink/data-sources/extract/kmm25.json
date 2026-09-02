@@ -232,7 +232,10 @@
     "aliases": [
       "절망에 빠졌다",
       "절망스러",
-      "낙담"
+      "낙담",
+      "울적",
+      "음침한",
+      "음침하"
     ],
     "aliases_en": [
       "in despair",
@@ -240,11 +243,13 @@
     ],
     "contexts": {
       "제가 절망에 빠짐": "내가 스스로 혼자",
-      "남이 절망에 빠진 것을 봄": "남이 남들 다른 사람이"
+      "남이 절망에 빠진 것을 봄": "남이 남들 다른 사람이",
+      "음침한 자리에 둘러싸임": "음침 둘러싸 어두컴"
     },
     "contexts_en": {
       "제가 절망에 빠짐": "cruel vexations working",
-      "남이 절망에 빠진 것을 봄": "others distress unhappy"
+      "남이 절망에 빠진 것을 봄": "others distress unhappy",
+      "음침한 자리에 둘러싸임": "gloomy surrounded rapidly approaching"
     }
   },
   {

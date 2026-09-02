@@ -769,7 +769,9 @@
       "술잔",
       "찻잔",
       "유리잔",
-      "머그"
+      "머그",
+      "은잔",
+      "물잔"
     ],
     "aliases_en": [
       "a cup",
@@ -777,8 +779,18 @@
       "goblet",
       "mug"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "잔이 깨짐": "깨졌 깨진 부서",
+      "은잔으로 물을 마심": "은잔 은으로",
+      "옛 모양의 잔을 봄": "옛날 고풍 오래된",
+      "여성이 남자에게 물이 든 유리잔을 줌": "건넸 여자가 남자에게"
+    },
+    "contexts_en": {
+      "잔이 깨짐": "broke shattered",
+      "은잔으로 물을 마심": "silver drink water unfavorable",
+      "옛 모양의 잔을 봄": "ancient design favors benefits",
+      "여성이 남자에게 물이 든 유리잔을 줌": "give man full illicit"
+    }
   },
   {
     "id": "eggplant",

@@ -1,0 +1,767 @@
+[
+  {
+    "term_ko": "수레",
+    "term_en": "cart",
+    "context": "이륜마차를 몲",
+    "interpretation_ko": "반가운 나들이를 접고 달갑지 않은 손님을 치러야 하며 병까지 걱정될 흉한 조짐",
+    "interpretation_en": "you will have to forego a pleasant journey to entertain unwelcome visitors",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gig",
+      "original": "To run a gig in your dream, you will have to forego a pleasant journey to entertain unwelcome visitors.",
+      "translation_ko": "이륜마차를 모는 꿈은, 반가운 나들이를 접고 달갑지 않은 손님을 치르게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "허리띠가 몸을 죔",
+    "interpretation_ko": "속셈 있는 이들에게 휘둘릴 흉한 조짐",
+    "interpretation_en": "denotes that you will be influenced by designing people",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Girdle",
+      "original": "To dream of wearing a girdle, and it presses you, denotes that you will be influenced by designing people.",
+      "translation_ko": "허리띠를 둘렀는데 그것이 몸을 죄는 꿈은, 속셈 있는 이들에게 휘둘림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "남이 보석 박힌 허리띠를 두른 것을 봄",
+    "interpretation_ko": "이름보다 재물을 좇게 될 조짐",
+    "interpretation_en": "foretells that you will strive for wealth more than honor",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Girdle",
+      "original": "To see others wearing velvet, or jeweled girdles, foretells that you will strive for wealth more than honor.",
+      "translation_ko": "남이 우단이나 보석 박힌 허리띠를 두른 것을 보면, 이름보다 재물을 좇게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "여성이 허리띠를 받음",
+    "interpretation_ko": "높은 자리와 기림이 내릴 길한 조짐",
+    "interpretation_en": "signifies that honors will be conferred upon her",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Girdle",
+      "original": "For a woman to receive one, signifies that honors will be conferred upon her.",
+      "translation_ko": "여성이 그것을 받으면, 높은 자리와 기림이 내림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "소녀",
+    "term_en": "girl",
+    "context": "밝고 건강한 소녀를 봄",
+    "interpretation_ko": "앞일이 즐겁고 집안이 화목할 길한 조짐",
+    "interpretation_en": "foretells pleasing prospects and domestic joys",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Girls",
+      "original": "To dream of seeing a well, bright-looking girl, foretells pleasing prospects and domestic joys.",
+      "translation_ko": "밝고 건강해 보이는 소녀를 보는 꿈은, 즐거운 앞일과 화목한 집안을 알린다"
+    }
+  },
+  {
+    "term_ko": "소녀",
+    "term_en": "girl",
+    "context": "여위고 파리한 소녀를 봄",
+    "interpretation_ko": "집안에 앓는 사람이 생기고 언짢은 일이 많을 흉한 조짐",
+    "interpretation_en": "it denotes that you will have an invalid in your family, and much unpleasantness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Girls",
+      "original": "If she is thin and pale, it denotes that you will have an invalid in your family, and much unpleasantness.",
+      "translation_ko": "그 아이가 여위고 파리하면, 집안에 앓는 사람이 생기고 언짢은 일이 많음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "소녀",
+    "term_en": "girl",
+    "context": "남자가 제가 소녀가 된 꿈을 꿈",
+    "interpretation_ko": "마음이 여려지거나 남의 몫을 대신 맡게 될 조짐",
+    "interpretation_en": "he will be weak-minded, or become an actor and play female parts",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Girls",
+      "original": "For a man to dream that he is a girl, he will be weak-minded, or become an actor and play female parts.",
+      "translation_ko": "남자가 제가 소녀인 꿈을 꾸면, 마음이 여려지거나 광대가 되어 여자 몫을 맡게 된다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리 너머로 내다봄",
+    "interpretation_ko": "쓰라린 낙심이 가장 밝은 바람을 흐릴 흉한 조짐",
+    "interpretation_en": "denotes that bitter disappointments will cloud your brightest hopes",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "To dream that you are looking through glass, denotes that bitter disappointments will cloud your brightest hopes.",
+      "translation_ko": "유리 너머로 내다보는 꿈은, 쓰라린 낙심이 가장 밝은 바람을 흐림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리 그릇이나 창을 깨뜨림",
+    "interpretation_ko": "벌인 일이 좋지 않게 끝날 흉한 조짐",
+    "interpretation_en": "foretells the unfavorable termination to enterprises",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "To break glass dishes, or windows, foretells the unfavorable termination to enterprises.",
+      "translation_ko": "유리 그릇이나 창을 깨뜨리면, 벌인 일이 좋지 않게 끝남을 알린다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "새긴 유리를 받음",
+    "interpretation_ko": "빛나는 재주로 우러름을 받을 길한 조짐",
+    "interpretation_en": "denotes that you will be admired for your brilliancy and talent",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "To receive cut glass, denotes that you will be admired for your brilliancy and talent.",
+      "translation_ko": "새긴 유리를 받는 것은, 빛나는 재주로 우러름을 받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "새긴 유리 장식을 선물함",
+    "interpretation_ko": "벌인 일이 어그러질 흉한 조짐",
+    "interpretation_en": "signifies that you will fail in your undertakings",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "To make presents of cut glass ornaments, signifies that you will fail in your undertakings.",
+      "translation_ko": "새긴 유리 장식을 선물하면, 벌인 일이 어그러짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리창 너머가 맑게 보임",
+    "interpretation_ko": "일자리는 얻으나 남의 밑에서 일하게 될 조짐",
+    "interpretation_en": "you will have employment, but will have to work subordinately",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "To look clearly through a glass window, you will have employment, but will have to work subordinately.",
+      "translation_ko": "유리창 너머가 맑게 보이면, 일자리는 얻으나 남의 밑에서 일하게 된다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리가 뿌옇게 흐림",
+    "interpretation_ko": "처지가 딱하게 될 흉한 조짐",
+    "interpretation_en": "you will be unfortunately situated",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass",
+      "original": "If the glass is clouded, you will be unfortunately situated.",
+      "translation_ko": "유리가 흐리면, 처지가 딱하게 된다"
+    }
+  },
+  {
+    "term_ko": "유리장이",
+    "term_en": "glass blower",
+    "context": "유리장이가 일하는 것을 봄",
+    "interpretation_ko": "일을 바꿀 궁리를 하고 나아 보이지만 도리어 밑질 흉한 조짐",
+    "interpretation_en": "denotes you will contemplate change in your business, which will appear for the better, but you will make it at a loss to yourself",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass-blower",
+      "original": "To dream that you see glass-blowers at their work, denotes you will contemplate change in your business, which will appear for the better, but you will make it at a loss to yourself.",
+      "translation_ko": "유리장이가 일하는 것을 보는 꿈은, 일을 바꿀 궁리를 하고 나아 보이나 제 손해로 그리하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "유리집",
+    "term_en": "glass house",
+    "context": "유리집을 봄",
+    "interpretation_ko": "달콤한 말에 귀를 기울이다 다칠 흉한 조짐",
+    "interpretation_en": "foretells you are likely to be injured by listening to flattery",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass House",
+      "original": "To see a glass house, foretells you are likely to be injured by listening to flattery.",
+      "translation_ko": "유리집을 보는 것은, 달콤한 말에 귀를 기울이다 다침을 알린다"
+    }
+  },
+  {
+    "term_ko": "유리집",
+    "term_en": "glass house",
+    "context": "처녀가 유리집에서 삶",
+    "interpretation_ko": "닥칠 괴로움과 이름을 잃을 걱정이 한층 커질 흉한 조짐",
+    "interpretation_en": "her coming trouble and threatened loss of reputation is emphasized",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Glass House",
+      "original": "For a young woman to dream that she is living in a glass house, her coming trouble and threatened loss of reputation is emphasized.",
+      "translation_ko": "처녀가 유리집에 사는 꿈은, 닥칠 괴로움과 이름을 잃을 걱정이 한층 커짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "이삭줍기",
+    "term_en": "gleaning",
+    "context": "가을걷이 때 이삭 줍는 이들을 봄",
+    "interpretation_ko": "장사가 잘되고 농사짓는 이에게는 곡식이 넉넉할 길한 조짐",
+    "interpretation_en": "denotes prosperous business, and, to the farmer, a bountiful yield of crops",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gleaning",
+      "original": "To see gleaners at work at harvest time, denotes prosperous business, and, to the farmer, a bountiful yield of crops.",
+      "translation_ko": "가을걷이 때 이삭 줍는 이들을 보는 꿈은, 잘되는 장사와 농사짓는 이의 넉넉한 곡식을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "이삭줍기",
+    "term_en": "gleaning",
+    "context": "이삭 줍는 이들과 함께 일함",
+    "interpretation_ko": "다투고 나서야 물려받을 터전을 얻을 조짐",
+    "interpretation_en": "you will come into an estate, after some trouble in establishing rights",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gleaning",
+      "original": "If you are working with the gleaners, you will come into an estate, after some trouble in establishing rights.",
+      "translation_ko": "이삭 줍는 이들과 함께 일하면, 몫을 다투고 나서 물려받을 터전을 얻는다"
+    }
+  },
+  {
+    "term_ko": "이삭줍기",
+    "term_en": "gleaning",
+    "context": "여성이 이삭줍기 꿈을 꿈",
+    "interpretation_ko": "낯선 이와 짝을 맺을 조짐",
+    "interpretation_en": "this dream foretells marriage with a stranger",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gleaning",
+      "original": "For a woman, this dream foretells marriage with a stranger.",
+      "translation_ko": "여성에게 이 꿈은, 낯선 이와 짝을 맺음을 알린다"
+    }
+  },
+  {
+    "term_ko": "절망",
+    "term_en": "despair",
+    "context": "음침한 자리에 둘러싸임",
+    "interpretation_ko": "언짢은 일과 손해가 빠르게 다가올 흉한 조짐",
+    "interpretation_en": "warns you of rapidly approaching unpleasantness and loss",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloomy",
+      "original": "To be surrounded by many gloomy situations in your dream, warns you of rapidly approaching unpleasantness and loss.",
+      "translation_ko": "음침한 자리에 둘러싸이는 꿈은, 언짢은 일과 손해가 빠르게 다가옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "새 장갑을 낌",
+    "interpretation_ko": "남을 대할 때 조심스럽고 아끼되 각박하지는 않으며, 다툼이 있어도 흐뭇하게 매듭지을 길한 조짐",
+    "interpretation_en": "denotes that you will be cautious and economical in your dealings with others, but not mercenary",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "To dream of wearing new gloves, denotes that you will be cautious and economical in your dealings with others, but not mercenary.",
+      "translation_ko": "새 장갑을 끼는 꿈은, 남을 대할 때 조심스럽고 아끼되 각박하지는 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "낡고 해진 장갑을 낌",
+    "interpretation_ko": "믿던 이에게 배신당해 손해를 볼 흉한 조짐",
+    "interpretation_en": "you will be betrayed and suffer loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "If you wear old or ragged gloves, you will be betrayed and suffer loss.",
+      "translation_ko": "낡거나 해진 장갑을 끼면, 배신당하고 손해를 본다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "장갑을 잃어버림",
+    "interpretation_ko": "홀로 남아 제 손으로 벌어먹게 될 흉한 조짐",
+    "interpretation_en": "you will be deserted and earn your own means of livelihood",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "If you dream that you lose your gloves, you will be deserted and earn your own means of livelihood.",
+      "translation_ko": "장갑을 잃는 꿈은, 홀로 남아 제 손으로 벌어먹게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "장갑 한 켤레를 주움",
+    "interpretation_ko": "혼인이나 새 정분이 생길 길한 조짐",
+    "interpretation_en": "denotes a marriage or new love affair",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "To find a pair of gloves, denotes a marriage or new love affair.",
+      "translation_ko": "장갑 한 켤레를 줍는 것은, 혼인이나 새 정분을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "남자가 여인의 장갑을 채워 줌",
+    "interpretation_ko": "제 허물을 드러내겠다고 을러대는 사람이 곁에 있을 흉한 조짐",
+    "interpretation_en": "he has, or will have, a woman on his hands who threatens him with exposure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "For a man to fasten a lady's glove, he has, or will have, a woman on his hands who threatens him with exposure.",
+      "translation_ko": "남자가 여인의 장갑을 채워 주면, 제 허물을 드러내겠다고 을러대는 사람을 곁에 두게 된다"
+    }
+  },
+  {
+    "term_ko": "장갑",
+    "term_en": "gloves",
+    "context": "장갑을 벗음",
+    "interpretation_ko": "일에서도 정분에서도 이룸이 시원치 않을 흉한 조짐",
+    "interpretation_en": "you will meet with poor success in business or love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gloves",
+      "original": "If you pull your glove off, you will meet with poor success in business or love.",
+      "translation_ko": "장갑을 벗으면, 일에서도 정분에서도 이룸이 시원치 않다"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "염소를 봄",
+    "interpretation_ko": "조심스레 일을 꾸려 재물이 꾸준히 불어날 길한 조짐",
+    "interpretation_en": "denotes cautious dealings and a steady increase of wealth",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goat",
+      "original": "To see them otherwise, denotes cautious dealings and a steady increase of wealth.",
+      "translation_ko": "달리 보이는 것은, 조심스러운 거래와 꾸준히 느는 재물을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "농가 둘레를 거니는 염소를 봄",
+    "interpretation_ko": "날씨가 알맞고 곡식이 잘될 길한 조짐",
+    "interpretation_en": "is significant of seasonable weather and a fine yield of crops",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goat",
+      "original": "To dream of goats wandering around a farm, is significant of seasonable weather and a fine yield of crops",
+      "translation_ko": "농가 둘레를 거니는 염소 꿈은, 알맞은 날씨와 잘된 곡식을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "숫염소가 들이받음",
+    "interpretation_ko": "원수가 비밀이나 셈속을 손에 넣지 않도록 조심해야 할 흉한 조짐",
+    "interpretation_en": "beware that enemies do not get possession of your secrets or business plans",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goat",
+      "original": "If a billy goat butts you, beware that enemies do not get possession of your secrets or business plans.",
+      "translation_ko": "숫염소가 들이받으면, 원수가 비밀이나 셈속을 손에 넣지 않도록 조심하라"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "여성이 숫염소를 타고 감",
+    "interpretation_ko": "거친 몸가짐 탓에 사람들의 입길에 오를 흉한 조짐",
+    "interpretation_en": "denotes that she will be held in disrepute because of her coarse and ill-bred conduct",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goat",
+      "original": "For a woman to dream of riding a billy goat, denotes that she will be held in disrepute because of her coarse and ill-bred conduct.",
+      "translation_ko": "여성이 숫염소를 타는 꿈은, 거친 몸가짐 탓에 입길에 오름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "여성이 염소젖을 마심",
+    "interpretation_ko": "재물을 보고 짝을 맺되 뉘우치지는 않을 조짐",
+    "interpretation_en": "she will marry for money and will not be disappointed",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goat",
+      "original": "If a woman dreams that she drinks goat's milk, she will marry for money and will not be disappointed.",
+      "translation_ko": "여성이 염소젖을 마시는 꿈이면, 재물을 보고 짝을 맺되 뉘우치지 않는다"
+    }
+  },
+  {
+    "term_ko": "잔",
+    "term_en": "cup",
+    "context": "은잔으로 물을 마심",
+    "interpretation_ko": "머지않아 일이 좋지 않게 될 흉한 조짐",
+    "interpretation_en": "you will meet unfavorable business results in the near future",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Goblet",
+      "original": "If you dream that you drink water from a silver goblet, you will meet unfavorable business results in the near future.",
+      "translation_ko": "은잔으로 물을 마시는 꿈은, 머지않아 일이 좋지 않게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "잔",
+    "term_en": "cup",
+    "context": "옛 모양의 잔을 봄",
+    "interpretation_ko": "낯선 이에게서 도움과 베풂을 받을 길한 조짐",
+    "interpretation_en": "you will receive favors and benefits from strangers",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Goblet",
+      "original": "To see goblets of ancient design, you will receive favors and benefits from strangers.",
+      "translation_ko": "옛 모양의 잔을 보면, 낯선 이에게서 도움과 베풂을 받는다"
+    }
+  },
+  {
+    "term_ko": "잔",
+    "term_en": "cup",
+    "context": "여성이 남자에게 물이 든 유리잔을 줌",
+    "interpretation_ko": "떳떳하지 못한 즐거움에 빠질 흉한 조짐",
+    "interpretation_en": "denotes illicit pleasures",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Goblet",
+      "original": "For a woman to give a man a glass goblet full of water, denotes illicit pleasures.",
+      "translation_ko": "여성이 남자에게 물이 가득 든 유리잔을 주면, 떳떳하지 못한 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하느님",
+    "term_en": "god",
+    "context": "하느님을 봄",
+    "interpretation_ko": "믿음을 내세워 억누르는 이에게 휘둘릴 흉한 조짐",
+    "interpretation_en": "you will be domineered over by a tyrannical person masquerading under the cloak of religion",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "God",
+      "original": "If you dream of seeing God, you will be domineered over by a tyrannical woman masquerading under the cloak of Christianity.",
+      "translation_ko": "하느님을 보는 꿈은, 믿음을 내세워 억누르는 이에게 휘둘림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하느님",
+    "term_en": "god",
+    "context": "하느님이 말을 걸어옴",
+    "interpretation_ko": "허물을 뒤집어쓰지 않도록 조심해야 하고 하는 일마다 어긋날 흉한 조짐",
+    "interpretation_en": "beware that you do not fall into condemnation. Business of all sorts will take an unfavorable turn",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "God",
+      "original": "If God speaks to you, beware that you do not fall into condemnation.",
+      "translation_ko": "하느님이 말을 걸어오면, 허물을 뒤집어쓰지 않도록 조심하라"
+    }
+  },
+  {
+    "term_ko": "하느님",
+    "term_en": "god",
+    "context": "하느님을 우러러 섬김",
+    "interpretation_ko": "제 손으로 저지른 잘못을 뉘우칠 일이 생길 조짐",
+    "interpretation_en": "you will have cause to repent of an error of your own making",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "God",
+      "original": "If you dream of worshiping God, you will have cause to repent of an error of your own making.",
+      "translation_ko": "하느님을 우러러 섬기는 꿈은, 제 손으로 저지른 잘못을 뉘우칠 일이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하느님",
+    "term_en": "god",
+    "context": "하느님이 은혜를 내림",
+    "interpretation_ko": "듬직하고 이름난 이의 눈에 들어 그 힘으로 자리가 오를 길한 조짐",
+    "interpretation_en": "you will become the favorite of a cautious and prominent person who will use his position to advance yours",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "God",
+      "original": "To dream that God confers distinct favors upon you, you will become the favorite of a cautious and prominent person who will use his position to advance yours.",
+      "translation_ko": "하느님이 남다른 은혜를 내리는 꿈은, 듬직하고 이름난 이의 눈에 들어 그 힘으로 자리가 오름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "하느님",
+    "term_en": "god",
+    "context": "하느님이 얼을 내려 줌",
+    "interpretation_ko": "믿는 바가 크게 달라질 조짐",
+    "interpretation_en": "great changes in your beliefs will take place",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "God",
+      "original": "To dream that God sends his spirit upon you, great changes in your beliefs will take place.",
+      "translation_ko": "하느님이 얼을 내려 주는 꿈은, 믿는 바가 크게 달라짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "보안경",
+    "term_en": "goggles",
+    "context": "보안경을 봄",
+    "interpretation_ko": "달갑지 못한 무리가 꾀어 돈을 함부로 빌려주게 될 흉한 조짐",
+    "interpretation_en": "is a warning of disreputable companions who will wheedle you into lending your money foolishly",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Goggles",
+      "original": "To dream of goggles, is a warning of disreputable companions who will wheedle you into lending your money foolishly.",
+      "translation_ko": "보안경 꿈은, 달갑지 못한 무리가 꾀어 돈을 함부로 빌려주게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "보안경",
+    "term_en": "goggles",
+    "context": "처녀가 보안경 꿈을 꿈",
+    "interpretation_ko": "꾐에 넘어가 복을 그르칠 흉한 조짐",
+    "interpretation_en": "means that she will listen to persuasion which will mar her fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Goggles",
+      "original": "For a young woman to dream of goggles, means that she will listen to persuasion which will mar her fortune.",
+      "translation_ko": "처녀의 보안경 꿈은, 꾐에 넘어가 복을 그르침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "황금을 손에 쥠",
+    "interpretation_ko": "벌인 일마다 남달리 잘 풀릴 길한 조짐",
+    "interpretation_en": "you will be unusually successful in all enterprises",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "If you handle gold in your dream, you will be unusually successful in all enterprises.",
+      "translation_ko": "꿈에 황금을 만지면, 벌인 일마다 남달리 잘 풀린다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "여성이 황금을 선물로 받음",
+    "interpretation_ko": "넉넉하되 셈속이 밝은 사람과 짝을 맺을 조짐",
+    "interpretation_en": "she will marry a wealthy but mercenary man",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "For a woman to dream that she receives presents of gold, either money or ornaments, she will marry a wealthy but mercenary man.",
+      "translation_ko": "여성이 돈이든 꾸미개든 황금을 선물로 받는 꿈은, 넉넉하되 셈속 밝은 사람과 짝을 맺음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "황금을 주움",
+    "interpretation_ko": "빼어난 재주로 이름과 재물을 손쉽게 앞질러 얻을 길한 조짐",
+    "interpretation_en": "indicates that your superior abilities will place you easily ahead in the race for honors and wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "To find gold, indicates that your superior abilities will place you easily ahead in the race for honors and wealth.",
+      "translation_ko": "황금을 줍는 것은, 빼어난 재주로 이름과 재물의 겨룸에서 손쉽게 앞섬을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "황금을 잃어버림",
+    "interpretation_ko": "게을리하다 삶에서 가장 큰 기회를 놓칠 흉한 조짐",
+    "interpretation_en": "you will miss the grandest opportunity of your life through negligence",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "If you lose gold, you will miss the grandest opportunity of your life through negligence.",
+      "translation_ko": "황금을 잃으면, 게을리한 탓에 삶에서 가장 큰 기회를 놓친다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "금맥을 찾아냄",
+    "interpretation_ko": "달갑지 않은 자리가 떠맡겨질 조짐",
+    "interpretation_en": "denotes that some uneasy honor will be thrust upon you",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "To dream of finding a gold vein, denotes that some uneasy honor will be thrust upon you.",
+      "translation_ko": "금맥을 찾아내는 꿈은, 달갑지 않은 자리가 떠맡겨짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "금광을 파려고 마음먹음",
+    "interpretation_ko": "남의 몫을 가로채려 하고 집안에 말썽이 날 흉한 조짐",
+    "interpretation_en": "you will endeavor to usurp the rights of others, and should beware of domestic scandals",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold",
+      "original": "If you dream that you contemplate working a gold mine, you will endeavor to usurp the rights of others, and should beware of domestic scandals.",
+      "translation_ko": "금광을 파려고 마음먹는 꿈은, 남의 몫을 가로채려 함과 집안 말썽을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "금붕어",
+    "term_en": "goldfish",
+    "context": "금붕어를 봄",
+    "interpretation_ko": "즐겁고 뜻대로 되는 일이 여럿 있을 길한 조짐",
+    "interpretation_en": "is a prognostic of many successful and pleasant adventures",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goldfish",
+      "original": "To dream of goldfish, is a prognostic of many successful and pleasant adventures.",
+      "translation_ko": "금붕어 꿈은, 즐겁고 뜻대로 되는 일이 여럿임을 알린다"
+    }
+  },
+  {
+    "term_ko": "금붕어",
+    "term_en": "goldfish",
+    "context": "처녀가 금붕어 꿈을 꿈",
+    "interpretation_ko": "마음에 드는 사람과 넉넉한 짝을 맺을 길한 조짐",
+    "interpretation_en": "this dream is indicative of a wealthy union with a pleasing man",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goldfish",
+      "original": "For a young woman, this dream is indicative of a wealthy union with a pleasing man.",
+      "translation_ko": "처녀에게 이 꿈은, 마음에 드는 사람과의 넉넉한 짝을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "금붕어",
+    "term_en": "goldfish",
+    "context": "금붕어가 앓거나 죽어 있음",
+    "interpretation_ko": "크게 낙심할 일이 닥칠 흉한 조짐",
+    "interpretation_en": "heavy disappointments will fall upon her",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Goldfish",
+      "original": "If the fish are sick or dead, heavy disappointments will fall upon her.",
+      "translation_ko": "그 물고기가 앓거나 죽어 있으면, 크게 낙심할 일이 닥친다"
+    }
+  },
+  {
+    "term_ko": "금박",
+    "term_en": "gold leaf",
+    "context": "금박을 봄",
+    "interpretation_ko": "앞날이 흐뭇하게 펼쳐질 길한 조짐",
+    "interpretation_en": "signifies a flattering future is before you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Gold Leaves",
+      "original": "To dream of gold leaves, signifies a flattering future is before you.",
+      "translation_ko": "금박 꿈은, 흐뭇하게 펼쳐질 앞날을 뜻한다"
+    }
+  }
+]

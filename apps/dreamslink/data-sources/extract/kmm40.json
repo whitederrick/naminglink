@@ -1,0 +1,259 @@
+[
+  {
+    "id": "girl",
+    "aliases": [
+      "소녀",
+      "계집아이",
+      "여자아이"
+    ],
+    "aliases_en": [
+      "a girl",
+      "girls"
+    ],
+    "contexts": {
+      "밝고 건강한 소녀를 봄": "밝고 건강 발그",
+      "여위고 파리한 소녀를 봄": "여위 파리 창백 야윈",
+      "남자가 제가 소녀가 된 꿈을 꿈": "남자가 내가"
+    },
+    "contexts_en": {
+      "밝고 건강한 소녀를 봄": "bright looking pleasing prospects",
+      "여위고 파리한 소녀를 봄": "thin pale invalid unpleasantness",
+      "남자가 제가 소녀가 된 꿈을 꿈": "man himself minded actor female"
+    }
+  },
+  {
+    "id": "glass",
+    "aliases": [
+      "유리",
+      "유리창",
+      "유리그릇"
+    ],
+    "aliases_en": [
+      "glass"
+    ],
+    "contexts": {
+      "유리 너머로 내다봄": "너머로 내다",
+      "유리 그릇이나 창을 깨뜨림": "깨뜨 깨졌 깨서",
+      "새긴 유리를 받음": "받았 받은",
+      "새긴 유리 장식을 선물함": "선물했 선물하 주었",
+      "유리창 너머가 맑게 보임": "맑게 또렷",
+      "유리가 뿌옇게 흐림": "뿌옇 흐릿 흐려"
+    },
+    "contexts_en": {
+      "유리 너머로 내다봄": "looking through bitter hopes",
+      "유리 그릇이나 창을 깨뜨림": "break dishes termination",
+      "새긴 유리를 받음": "receive cut admired brilliancy",
+      "새긴 유리 장식을 선물함": "presents ornaments fail undertakings",
+      "유리창 너머가 맑게 보임": "clearly window employment subordinately",
+      "유리가 뿌옇게 흐림": "clouded unfortunately situated"
+    }
+  },
+  {
+    "id": "glass-blower",
+    "aliases": [
+      "유리장이",
+      "유리 부는 사람"
+    ],
+    "aliases_en": [
+      "glass-blowers",
+      "a glass blower"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "glass-house",
+    "aliases": [
+      "유리집",
+      "유리로 지은 집"
+    ],
+    "aliases_en": [
+      "a glass house"
+    ],
+    "contexts": {
+      "유리집을 봄": "보았 있었",
+      "처녀가 유리집에서 삶": "처녀 아가씨 살았"
+    },
+    "contexts_en": {
+      "유리집을 봄": "injured listening flattery",
+      "처녀가 유리집에서 삶": "young woman living coming reputation"
+    }
+  },
+  {
+    "id": "gleaning",
+    "aliases": [
+      "이삭줍기",
+      "이삭을 주웠다",
+      "이삭을 줍는"
+    ],
+    "aliases_en": [
+      "gleaning",
+      "gleaners"
+    ],
+    "contexts": {
+      "가을걷이 때 이삭 줍는 이들을 봄": "가을걷이 사람들 일꾼",
+      "이삭 줍는 이들과 함께 일함": "함께 같이 거들",
+      "여성이 이삭줍기 꿈을 꿈": "여자가 여성이"
+    },
+    "contexts_en": {
+      "가을걷이 때 이삭 줍는 이들을 봄": "harvest prosperous farmer bountiful",
+      "이삭 줍는 이들과 함께 일함": "working estate trouble establishing",
+      "여성이 이삭줍기 꿈을 꿈": "woman marriage stranger"
+    }
+  },
+  {
+    "id": "gloves",
+    "aliases": [
+      "장갑",
+      "손장갑"
+    ],
+    "aliases_en": [
+      "gloves",
+      "a glove"
+    ],
+    "contexts": {
+      "새 장갑을 낌": "새것 깨끗",
+      "낡고 해진 장갑을 낌": "낡은 해진 헤진",
+      "장갑을 잃어버림": "잃어 잃었",
+      "장갑 한 켤레를 주움": "주웠 주운 켤레",
+      "남자가 여인의 장갑을 채워 줌": "채워 남자가",
+      "장갑을 벗음": "벗었 벗어"
+    },
+    "contexts_en": {
+      "새 장갑을 낌": "wearing new cautious economical mercenary",
+      "낡고 해진 장갑을 낌": "old ragged betrayed suffer",
+      "장갑을 잃어버림": "lose deserted earn livelihood",
+      "장갑 한 켤레를 주움": "find pair marriage love affair",
+      "남자가 여인의 장갑을 채워 줌": "fasten lady hands threatens exposure",
+      "장갑을 벗음": "pull off poor success"
+    }
+  },
+  {
+    "id": "goat",
+    "aliases": [
+      "염소",
+      "숫염소",
+      "염소젖"
+    ],
+    "aliases_en": [
+      "goats",
+      "a goat"
+    ],
+    "contexts": {
+      "염소를 봄": "떼지어 무리",
+      "농가 둘레를 거니는 염소를 봄": "농가 거니 어슬렁",
+      "숫염소가 들이받음": "들이받 받았 뿔로",
+      "여성이 숫염소를 타고 감": "타고 올라타",
+      "여성이 염소젖을 마심": "염소젖 젖을"
+    },
+    "contexts_en": {
+      "염소를 봄": "otherwise cautious dealings steady",
+      "농가 둘레를 거니는 염소를 봄": "wandering farm seasonable weather",
+      "숫염소가 들이받음": "billy butts beware secrets plans",
+      "여성이 숫염소를 타고 감": "riding disrepute coarse conduct",
+      "여성이 염소젖을 마심": "drinks milk money disappointed"
+    }
+  },
+  {
+    "id": "god",
+    "aliases": [
+      "하느님",
+      "하나님"
+    ],
+    "aliases_en": [
+      "God"
+    ],
+    "contexts": {
+      "하느님을 봄": "모습을 뵈었",
+      "하느님이 말을 걸어옴": "말을 걸어 말씀",
+      "하느님을 우러러 섬김": "섬겼 섬기 우러러 기도",
+      "하느님이 은혜를 내림": "은혜 베풀",
+      "하느님이 얼을 내려 줌": "얼을 영을 내려주"
+    },
+    "contexts_en": {
+      "하느님을 봄": "seeing domineered tyrannical cloak",
+      "하느님이 말을 걸어옴": "speaks beware condemnation unfavorable",
+      "하느님을 우러러 섬김": "worshiping repent error making",
+      "하느님이 은혜를 내림": "confers distinct favors favorite prominent",
+      "하느님이 얼을 내려 줌": "sends spirit changes beliefs"
+    }
+  },
+  {
+    "id": "goggles",
+    "aliases": [
+      "보안경",
+      "물안경"
+    ],
+    "aliases_en": [
+      "goggles"
+    ],
+    "contexts": {
+      "보안경을 봄": "썼다 쓰고",
+      "처녀가 보안경 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "보안경을 봄": "warning disreputable companions wheedle lending",
+      "처녀가 보안경 꿈을 꿈": "young woman persuasion mar fortune"
+    }
+  },
+  {
+    "id": "gold",
+    "aliases": [
+      "황금",
+      "금덩이",
+      "금괴",
+      "금맥",
+      "금광"
+    ],
+    "aliases_en": [
+      "gold"
+    ],
+    "contexts": {
+      "황금을 손에 쥠": "쥐었 만졌 손에",
+      "여성이 황금을 선물로 받음": "선물 여자가",
+      "황금을 주움": "주웠 주운 찾았",
+      "황금을 잃어버림": "잃어 잃었",
+      "금맥을 찾아냄": "금맥 광맥",
+      "금광을 파려고 마음먹음": "금광 캐려 파려"
+    },
+    "contexts_en": {
+      "황금을 손에 쥠": "handle unusually successful enterprises",
+      "여성이 황금을 선물로 받음": "receives presents wealthy mercenary",
+      "황금을 주움": "found superior abilities ahead",
+      "황금을 잃어버림": "lose miss grandest opportunity negligence",
+      "금맥을 찾아냄": "vein uneasy honor thrust",
+      "금광을 파려고 마음먹음": "mine usurp rights domestic scandals"
+    }
+  },
+  {
+    "id": "goldfish",
+    "aliases": [
+      "금붕어"
+    ],
+    "aliases_en": [
+      "goldfish"
+    ],
+    "contexts": {
+      "금붕어를 봄": "헤엄 어항",
+      "처녀가 금붕어 꿈을 꿈": "처녀 아가씨",
+      "금붕어가 앓거나 죽어 있음": "죽어 죽은 병든"
+    },
+    "contexts_en": {
+      "금붕어를 봄": "prognostic many successful pleasant",
+      "처녀가 금붕어 꿈을 꿈": "young woman indicative union pleasing",
+      "금붕어가 앓거나 죽어 있음": "sick dead heavy disappointments"
+    }
+  },
+  {
+    "id": "gold-leaf",
+    "aliases": [
+      "금박",
+      "금박지"
+    ],
+    "aliases_en": [
+      "gold leaves"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

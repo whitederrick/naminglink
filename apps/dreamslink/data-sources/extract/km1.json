@@ -104,7 +104,8 @@
     "aliases": [
       "달구지",
       "구르마",
-      "손수레"
+      "손수레",
+      "이륜마차"
     ],
     "aliases_en": [
       "a cart",
@@ -124,7 +125,8 @@
       "수레를 봄": "보았 보였 눈에",
       "수레를 타고 감": "탔다 얹혀 태워",
       "수레를 몲": "몰았 끌었 부렸",
-      "연인끼리 함께 수레를 탐": "연인 애인 둘이 함께"
+      "연인끼리 함께 수레를 탐": "연인 애인 둘이 함께",
+      "이륜마차를 몲": "이륜마차 이륜"
     },
     "contexts_en": {
       "수레가 다리와 길 위를 지나감": "bridge road crossing passed",
@@ -140,7 +142,8 @@
       "수레를 봄": "saw seeing kindred",
       "수레를 타고 감": "luck family supplies",
       "수레를 몲": "steering guiding merited",
-      "연인끼리 함께 수레를 탐": "lovers together rivals"
+      "연인끼리 함께 수레를 탐": "lovers together rivals",
+      "이륜마차를 몲": "gig forego unwelcome visitors"
     }
   },
   {
