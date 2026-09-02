@@ -1,0 +1,210 @@
+[
+  {
+    "id": "fatigue",
+    "aliases": [
+      "고단했다",
+      "지쳤다",
+      "피로",
+      "녹초",
+      "지친",
+      "지쳐",
+      "고단한"
+    ],
+    "aliases_en": [
+      "fatigued",
+      "fatigue"
+    ],
+    "contexts": {
+      "몸이 고단함": "내가 몸이",
+      "처녀가 남이 고단해하는 것을 봄": "처녀 아가씨 남이"
+    },
+    "contexts_en": {
+      "몸이 고단함": "feel oppression",
+      "처녀가 남이 고단해하는 것을 봄": "others discouraging progress"
+    }
+  },
+  {
+    "id": "favor",
+    "aliases": [
+      "부탁을",
+      "부탁이",
+      "청을 들어"
+    ],
+    "aliases_en": [
+      "favors",
+      "a favor"
+    ],
+    "contexts": {
+      "남에게 부탁을 함": "했다 하는 청했",
+      "남의 부탁을 들어줌": "들어줬 들어주 받아줬"
+    },
+    "contexts_en": {
+      "남에게 부탁을 함": "ask abundance",
+      "남의 부탁을 들어줌": "grant loss"
+    }
+  },
+  {
+    "id": "feather",
+    "aliases": [
+      "깃털이",
+      "깃털을",
+      "깃털은"
+    ],
+    "aliases_en": [
+      "feathers",
+      "a feather"
+    ],
+    "contexts": {
+      "깃털이 둘레에 흩날림": "흩날 날리 떨어지는",
+      "독수리 깃털을 봄": "독수리",
+      "닭 깃털을 봄": "닭의 닭털 병아리",
+      "거위나 오리 깃털을 사고팖": "거위 오리 사고팔 팔았",
+      "검은 깃털을 봄": "검은 까만",
+      "여성이 치레용 깃털을 봄": "타조 치레 장식"
+    },
+    "contexts_en": {
+      "깃털이 둘레에 흩날림": "falling around burdens light",
+      "독수리 깃털을 봄": "eagle aspirations realized",
+      "닭 깃털을 봄": "chicken small annoyances",
+      "거위나 오리 깃털을 사고팖": "buying selling geese duck",
+      "검은 깃털을 봄": "black disappointments amours",
+      "여성이 치레용 깃털을 봄": "ostrich ornamental society imitating"
+    }
+  },
+  {
+    "id": "february",
+    "aliases": [
+      "이월에",
+      "이월이",
+      "이월을"
+    ],
+    "aliases_en": [
+      "February"
+    ],
+    "contexts": {
+      "이월 꿈을 꿈": "겨울 늦겨울",
+      "이월에 볕이 밝은 날을 봄": "볕이 밝은 햇살 맑은"
+    },
+    "contexts_en": {
+      "이월 꿈을 꿈": "continued gloom generally",
+      "이월에 볕이 밝은 날을 봄": "bright sunshiny unexpectedly"
+    }
+  },
+  {
+    "id": "feeble",
+    "aliases": [
+      "기운이 없",
+      "맥이 빠",
+      "힘이 없",
+      "기운이 없었다",
+      "기운이 없어",
+      "맥없이"
+    ],
+    "aliases_en": [
+      "feeble"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "feet",
+    "aliases": [
+      "두 발",
+      "발바닥",
+      "발이",
+      "발을"
+    ],
+    "aliases_en": [
+      "feet",
+      "my feet"
+    ],
+    "contexts": {
+      "제 발을 봄": "자기 자신의",
+      "남의 발을 봄": "남의 남들 다른사람",
+      "발을 씻음": "씻었 씻는 닦았",
+      "발이 아픔": "아팠 아픈 쑤셨",
+      "발이 붓고 붉어짐": "부었 붓고 붉어"
+    },
+    "contexts_en": {
+      "제 발을 봄": "own despair overcome temper",
+      "남의 발을 봄": "others maintain rights common",
+      "발을 씻음": "wash advantage",
+      "발이 아픔": "hurting humiliating quarrels",
+      "발이 붓고 붉어짐": "swollen red scandal sensation"
+    }
+  },
+  {
+    "id": "fence",
+    "aliases": [
+      "울타리를",
+      "울타리가",
+      "울타리에"
+    ],
+    "aliases_en": [
+      "a fence",
+      "fences"
+    ],
+    "contexts": {
+      "울타리 꼭대기까지 기어오름": "꼭대기 기어올 올라갔",
+      "울타리에서 떨어짐": "떨어졌 떨어지",
+      "남들과 울타리에 앉아 있다가 무너짐": "앉아 무너졌 주저앉",
+      "울타리 사이로 빠져나감": "사이로 빠져나 틈으로",
+      "울타리를 넘어뜨리고 건너감": "넘어뜨 쓰러뜨 밀어",
+      "가축이 울타리를 넘어 안으로 들어옴": "안으로 들어왔 우리로",
+      "가축이 울타리를 넘어 밖으로 나감": "밖으로 나갔 뛰쳐",
+      "처녀가 울타리를 세움": "처녀 아가씨 여자가",
+      "울타리를 세움": "세웠 지었 쳤다"
+    },
+    "contexts_en": {
+      "울타리 꼭대기까지 기어오름": "climbing top success crown",
+      "울타리에서 떨어짐": "fall incapable naught",
+      "남들과 울타리에 앉아 있다가 무너짐": "seated accident badly",
+      "울타리 사이로 빠져나감": "through legitimate desires",
+      "울타리를 넘어뜨리고 건너감": "throw stubbornest barriers enterprise",
+      "가축이 울타리를 넘어 안으로 들어옴": "stock jumping enclosure aid",
+      "가축이 울타리를 넘어 밖으로 나감": "lot trade loss",
+      "처녀가 울타리를 세움": "young woman love affairs",
+      "울타리를 세움": "building economy industry foundation"
+    }
+  },
+  {
+    "id": "fern",
+    "aliases": [
+      "고사리를",
+      "고사리가",
+      "양치식물"
+    ],
+    "aliases_en": [
+      "ferns",
+      "a fern"
+    ],
+    "contexts": {
+      "고사리를 봄": "푸른 무성",
+      "시든 고사리를 봄": "시든 마른 시들"
+    },
+    "contexts_en": {
+      "고사리를 봄": "pleasant hours gloomy forebodings",
+      "시든 고사리를 봄": "withered illness unrest"
+    }
+  },
+  {
+    "id": "ferry",
+    "aliases": [
+      "나루터",
+      "나루를",
+      "나룻가"
+    ],
+    "aliases_en": [
+      "a ferry",
+      "ferries"
+    ],
+    "contexts": {
+      "나루터에서 배를 기다리는데 물이 빠르고 흐림": "흐린 흙탕 빠른 거센",
+      "물이 잔잔하고 맑을 때 나루를 건넘": "잔잔 맑은 건넜"
+    },
+    "contexts_en": {
+      "나루터에서 배를 기다리는데 물이 빠르고 흐림": "wait swift muddy baffled",
+      "물이 잔잔하고 맑을 때 나루를 건넘": "cross calm clear lucky"
+    }
+  }
+]

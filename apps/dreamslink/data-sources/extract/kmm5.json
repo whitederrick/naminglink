@@ -74,7 +74,11 @@
       "아부",
       "알랑거림",
       "비위 맞추기",
-      "치켜세움"
+      "치켜세움",
+      "아첨했다",
+      "아첨하",
+      "아첨을",
+      "아첨이"
     ],
     "aliases_en": [
       "flattery",
@@ -84,11 +88,13 @@
     ],
     "contexts": {
       "아첨을 갈구함": "갈구 바라 원했 듣고싶",
-      "남에게 아첨함": "남에게 남을 상대에게 치켜"
+      "남에게 아첨함": "남에게 남을 상대에게 치켜",
+      "남이 나에게 아첨함": "나에게 내게 알랑거렸"
     },
     "contexts_en": {
       "아첨을 갈구함": "craved craving wanted receiving",
-      "남에게 아첨함": "flattering others toward"
+      "남에게 아첨함": "flattering others toward",
+      "남이 나에게 아첨함": "fawns cajoles guise"
     }
   },
   {
@@ -384,7 +390,9 @@
       "말라리아",
       "오한",
       "한기",
-      "열병"
+      "열병",
+      "열병에",
+      "고열"
     ],
     "aliases_en": [
       "malaria",
@@ -394,11 +402,15 @@
     ],
     "contexts": {
       "학질로 떨림": "내가 떨었 오한 앓았",
-      "다른 사람이 학질로 떠는 것을 봄": "다른 남이 지켜봤"
+      "다른 사람이 학질로 떠는 것을 봄": "다른 남이 지켜봤",
+      "열병에 걸림": "열병 고열 열이",
+      "집안 사람이 열병으로 앓는 것을 봄": "집안 식구가 가족이"
     },
     "contexts_en": {
       "학질로 떨림": "myself shivering shaking",
-      "다른 사람이 학질로 떠는 것을 봄": "someone another watched"
+      "다른 사람이 학질로 떠는 것을 봄": "someone another watched",
+      "열병에 걸림": "stricken malady trifling slipping",
+      "집안 사람이 열병으로 앓는 것을 봄": "family temporary"
     }
   },
   {

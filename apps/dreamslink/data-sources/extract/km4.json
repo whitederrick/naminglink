@@ -456,14 +456,18 @@
       "귀인이 베푼 잔치를 받음": "귀인 초대받 대접받 얻어먹 귀한분",
       "잔치(연회) 꿈을 꿈": "참석 구경 열린 벌어진",
       "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심": "화려 차려입 포도주 값진",
-      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "흉측 불협 기이 식탁"
+      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "흉측 불협 기이 식탁",
+      "잔치에서 어수선하거나 볼썽사나운 일이 벌어짐": "어수선 볼썽 소란",
+      "잔치에 늦게 다다름": "늦게 늦었 지각"
     },
     "contexts_en": {
       "잔치를 열어 손님을 모음": "guests invited gathered threw hosting",
       "귀인이 베푼 잔치를 받음": "noble dignitary important person honored treated",
       "잔치(연회) 꿈을 꿈": "attend attending festive merry",
       "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심": "rich richly dressed costly wine",
-      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "discord ugly hideous empty table"
+      "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄": "discord ugly hideous empty table",
+      "잔치에서 어수선하거나 볼썽사나운 일이 벌어짐": "disorder misconduct negligence",
+      "잔치에 늦게 다다름": "arrive late vexing occupy"
     }
   },
   {

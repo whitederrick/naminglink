@@ -5136,5 +5136,39 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "father-in-law": [
     "father-in-law"
+  ],
+  "fatigue": [
+    "fatigued",
+    "fatigue"
+  ],
+  "favor": [
+    "favors",
+    "a favor"
+  ],
+  "feather": [
+    "feathers",
+    "a feather"
+  ],
+  "february": [
+    "February"
+  ],
+  "feeble": [
+    "feeble"
+  ],
+  "feet": [
+    "feet",
+    "my feet"
+  ],
+  "fence": [
+    "a fence",
+    "fences"
+  ],
+  "fern": [
+    "ferns",
+    "a fern"
+  ],
+  "ferry": [
+    "a ferry",
+    "ferries"
   ]
 };

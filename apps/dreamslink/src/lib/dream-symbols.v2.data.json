@@ -28,6 +28,7 @@
     "m30.json",
     "m31.json",
     "m32.json",
+    "m33.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -9812,6 +9813,151 @@
       ]
     },
     {
+      "id": "fence",
+      "term_ko": "울타리",
+      "term_en": "fence",
+      "aliases": [
+        "울타리를",
+        "울타리가",
+        "울타리에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "울타리 꼭대기까지 기어오름",
+          "interpretation_ko": "애쓴 보람이 열매를 맺을 길한 조짐",
+          "interpretation_en": "denotes that success will crown your efforts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To dream of climbing to the top of a fence, denotes that success will crown your efforts.",
+              "translation_ko": "울타리 꼭대기까지 기어오르는 꿈은, 애쓴 보람이 열매를 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "울타리에서 떨어짐",
+          "interpretation_ko": "제 힘에 부치는 일을 벌였다가 헛수고로 끝날 흉한 조짐",
+          "interpretation_en": "you will undertake a project for which you are incapable, and you will see your efforts come to naught",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To fall from a fence, signifies that you will undertake a project for which you are incapable, and you will see your efforts come to naught.",
+              "translation_ko": "울타리에서 떨어지는 꿈은, 제 힘에 부치는 일을 벌였다가 애쓴 것이 헛되이 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남들과 울타리에 앉아 있다가 무너짐",
+          "interpretation_ko": "누군가 크게 다치는 사고가 날 흉한 조짐",
+          "interpretation_en": "denotes an accident in which some person will be badly injured",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To be seated on a fence with others, and have it fall under you, denotes an accident in which some person will be badly injured.",
+              "translation_ko": "남들과 울타리에 앉아 있다가 그것이 무너지는 꿈은, 누군가 크게 다치는 사고를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "울타리 사이로 빠져나감",
+          "interpretation_ko": "바라는 것을 얻으려 떳떳하지 못한 수를 쓸 흉한 조짐",
+          "interpretation_en": "signifies that you will use means not altogether legitimate to reach your desires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To dream that you climb through a fence, signifies that you will use means not altogether legitimate to reach your desires.",
+              "translation_ko": "울타리 사이로 빠져나가는 꿈은, 바라는 것을 얻으려 온전히 떳떳하지는 못한 수를 씀을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "울타리를 넘어뜨리고 건너감",
+          "interpretation_ko": "굳센 기운으로 가장 완강한 걸림돌을 넘어설 길한 조짐",
+          "interpretation_en": "you will, by enterprise and energy, overcome the stubbornest barriers between you and success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To throw the fence down and walk into the other side, indicates that you will, by enterprise and energy, overcome the stubbornest barriers between you and success.",
+              "translation_ko": "울타리를 넘어뜨리고 건너편으로 걸어 들어가는 꿈은, 굳센 기운으로 나와 성공 사이의 가장 완강한 걸림돌을 넘어섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가축이 울타리를 넘어 안으로 들어옴",
+          "interpretation_ko": "생각지 못한 데서 도움을 받을 길한 조짐",
+          "interpretation_en": "you will receive aid from unexpected sources",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To see stock jumping a fence, if into your enclosure, you will receive aid from unexpected sources; if out of your lot, loss in trade and other affairs may follow.",
+              "translation_ko": "가축이 울타리를 뛰어넘는 것을 보는 꿈은, 내 울 안으로 들어오면 생각지 못한 데서 도움을 받음을 뜻한다. 밖으로 나가면 장사와 여러 일에서 손해가 따를 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "가축이 울타리를 넘어 밖으로 나감",
+          "interpretation_ko": "장사와 여러 일에서 손해가 따를 흉한 조짐",
+          "interpretation_en": "loss in trade and other affairs may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To see stock jumping a fence, if into your enclosure, you will receive aid from unexpected sources; if out of your lot, loss in trade and other affairs may follow.",
+              "translation_ko": "가축이 울타리를 뛰어넘는 것을 보는 꿈은, 내 울 안으로 들어오면 생각지 못한 데서 도움을 받음을 뜻한다. 밖으로 나가면 장사와 여러 일에서 손해가 따를 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 울타리를 세움",
+          "interpretation_ko": "사랑이 잘 풀릴 길한 조짐",
+          "interpretation_en": "this dream denotes success in love affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "For a young woman, this dream denotes success in love affairs; or the reverse, if she dreams of the fence falling, or that she falls from it.",
+              "translation_ko": "젊은 여성에게 이 꿈은 사랑이 잘 풀림을 뜻한다. 울타리가 무너지거나 거기서 떨어지는 꿈이면 그 반대다"
+            }
+          ]
+        },
+        {
+          "context": "울타리를 세움",
+          "interpretation_ko": "아끼고 부지런히 일해 뒷날 넉넉해질 바탕을 놓을 길한 조짐",
+          "interpretation_en": "denotes that you are, by economy and industry, laying a foundation for future wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fence",
+              "original": "To dream of building a fence, denotes that you are, by economy and industry, laying a foundation for future wealth.",
+              "translation_ko": "울타리를 세우는 꿈은, 아끼고 부지런히 일해 뒷날 넉넉해질 바탕을 놓음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "grave",
       "term_ko": "무덤",
       "term_en": "grave",
@@ -13924,6 +14070,126 @@
       ]
     },
     {
+      "id": "deer",
+      "term_ko": "사슴",
+      "term_en": "deer",
+      "aliases": [
+        "노루",
+        "꽃사슴",
+        "사슴 사냥"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사슴 꿈을 꿈",
+          "interpretation_ko": "젊은이에게는 맑고 깊은 사귐을, 혼인한 이에게는 조용하고 고른 삶을 뜻함",
+          "interpretation_en": "pure and deep friendships for the young and a quiet and even life for the married",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Deer",
+              "original": "This is a favorable dream, denoting pure and deep friendships for the young and a quiet and even life for the married.",
+              "translation_ko": "이는 좋은 꿈이며, 젊은이에게는 맑고 깊은 사귐을, 혼인한 이에게는 조용하고 고른 삶을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사슴을 죽임",
+          "interpretation_ko": "적에게 쫓길 조짐",
+          "interpretation_en": "you will be hounded by enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Deer",
+              "original": "To kill a deer, denotes that you will be hounded by enemies.",
+              "translation_ko": "사슴을 죽이는 꿈은 적에게 쫓김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사슴 사냥을 함",
+          "interpretation_ko": "농사짓거나 장사하는 이에게는 하는 일이 안 될 조짐",
+          "interpretation_en": "for farmers, or business people, failure in their respective pursuits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Deer",
+              "original": "For farmers, or business people, to dream of hunting deer, denotes failure in their respective pursuits.",
+              "translation_ko": "농사짓거나 장사하는 이가 사슴 사냥 꿈을 꾸면, 하는 일이 안 된다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 새끼 사슴을 봄",
+          "interpretation_ko": "사랑에 한결같음이 있을 길한 조짐",
+          "interpretation_en": "it indicates faithfulness in love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fawn",
+              "original": "To the young, it indicates faithfulness in love.",
+              "translation_ko": "젊은이에게는 사랑에 한결같음이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "새끼 사슴을 봄",
+          "interpretation_ko": "참되고 곧은 벗을 얻을 길한 조짐",
+          "interpretation_en": "denotes that you will have true and upright friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fawn",
+              "original": "To dream of seeing a fawn, denotes that you will have true and upright friends.",
+              "translation_ko": "새끼 사슴을 보는 꿈은, 참되고 곧은 벗을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사슴이 집 안에 있음",
+          "interpretation_ko": "관직과 녹봉을 얻을 조짐",
+          "interpretation_en": "a sign of gaining office and salary",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "獐鹿在家得官祿",
+              "translation_ko": "노루와 사슴이 집에 있으면 관직과 녹봉을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "사슴을 잡음",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺牛鹿者大富貴",
+              "translation_ko": "소와 사슴을 잡으면 크게 부귀하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "drum",
       "term_ko": "북",
       "term_en": "drum",
@@ -14273,6 +14539,124 @@
               "locator": "Eggs",
               "original": "To see bird eggs, signifies legacies from distant relations, or gain from an unexpected rise in staple products.",
               "translation_ko": "새의 알을 보는 꿈은, 먼 친척에게서 오는 유산이나 곡식 값이 뜻밖에 올라 얻는 이로움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feast",
+      "term_ko": "잔치",
+      "term_en": "feast",
+      "aliases": [
+        "연회",
+        "축하연",
+        "회식"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잔치(연회) 꿈을 꿈",
+          "interpretation_ko": "좋은 꿈이며 친구들이 호의를 베풀 조짐",
+          "interpretation_en": "a good sign that friends will wait to do you favors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Banquet",
+              "original": "It is good to dream of a banquet. Friends will wait to do you favors.",
+              "translation_ko": "잔치 꿈을 꾸는 것은 좋은 일이며, 친구들이 호의를 베풀려 기다리고 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잔치에서 어수선하거나 볼썽사나운 일이 벌어짐",
+          "interpretation_ko": "누군가의 소홀함이나 병 때문에 다툼과 언짢은 일이 생길 흉한 조짐",
+          "interpretation_en": "foretells quarrels or unhappiness through the negligence or sickness of some person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feast",
+              "original": "To see disorder or misconduct at a feast, foretells quarrels or unhappiness through the negligence or sickness of some person.",
+              "translation_ko": "잔치에서 어수선하거나 볼썽사나운 일을 보는 꿈은, 누군가의 소홀함이나 병 때문에 다툼과 언짢은 일이 생김을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "잔치에 늦게 다다름",
+          "interpretation_ko": "성가신 일에 매이게 될 흉한 조짐",
+          "interpretation_en": "denotes that vexing affairs will occupy you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feast",
+              "original": "To arrive late at a feast, denotes that vexing affairs will occupy you.",
+              "translation_ko": "잔치에 늦게 다다르는 꿈은, 성가신 일에 매이게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심",
+          "interpretation_ko": "온갖 사업에서 큰 이득을 얻고 친구들 사이에 행복이 있을 조짐",
+          "interpretation_en": "a sign of enormous gain in enterprises of every nature, and happiness among friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Banquet",
+              "original": "To dream of yourself, together with many gaily-attired guests, eating from costly plate and drinking wine of fabulous price and age, foretells enormous gain in enterprises of every nature, and happiness among friends.",
+              "translation_ko": "화려하게 차려입은 많은 손님들과 함께 값비싼 그릇에 음식을 먹고 값진 포도주를 마시는 꿈을 꾸면 온갖 사업에서 큰 이득을 얻고 친구들 사이에 행복이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄",
+          "interpretation_ko": "심각한 오해나 실망을 예고하는 불길한 조짐",
+          "interpretation_en": "an ominous sign of grave misunderstandings or disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Banquet",
+              "original": "To see inharmonious influences, strange and grotesque faces or empty tables, is ominous of grave misunderstandings or disappointments.",
+              "translation_ko": "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 보면 심각한 오해나 실망을 예고하는 불길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잔치를 열어 손님을 모음",
+          "interpretation_ko": "집안이 무너질 조짐",
+          "interpretation_en": "a sign that the household will break apart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "筵會客人家欲破",
+              "translation_ko": "잔치에 손님을 모으면 집안이 무너지려 한다"
+            }
+          ]
+        },
+        {
+          "context": "귀인이 베푼 잔치를 받음",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "貴人賜宴主疾病",
+              "translation_ko": "귀인이 잔치를 내려 주면 질병이 있다"
             }
           ]
         }
@@ -16011,6 +16395,109 @@
       ]
     },
     {
+      "id": "feather",
+      "term_ko": "깃털",
+      "term_en": "feather",
+      "aliases": [
+        "깃털이",
+        "깃털을",
+        "깃털은"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "깃털이 둘레에 흩날림",
+          "interpretation_ko": "삶의 짐이 가벼워 쉬이 지고 갈 길한 조짐",
+          "interpretation_en": "denotes that your burdens in life will be light and easily borne",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "To dream of seeing feathers falling around you, denotes that your burdens in life will be light and easily borne.",
+              "translation_ko": "깃털이 둘레에 흩날리는 것을 보는 꿈은, 삶의 짐이 가볍고 쉬이 지고 감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "독수리 깃털을 봄",
+          "interpretation_ko": "품은 뜻이 이루어질 길한 조짐",
+          "interpretation_en": "denotes that your aspirations will be realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "To see eagle feathers, denotes that your aspirations will be realized.",
+              "translation_ko": "독수리 깃털을 보는 꿈은, 품은 뜻이 이루어짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "닭 깃털을 봄",
+          "interpretation_ko": "자잘하게 성가신 일이 있을 흉한 조짐",
+          "interpretation_en": "denotes small annoyances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "To see chicken feathers, denotes small annoyances.",
+              "translation_ko": "닭 깃털을 보는 꿈은 자잘하게 성가신 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "거위나 오리 깃털을 사고팖",
+          "interpretation_ko": "알뜰한 살림과 복이 있을 길한 조짐",
+          "interpretation_en": "denotes thrift and fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "To dream of buying or selling geese or duck feathers, denotes thrift and fortune.",
+              "translation_ko": "거위나 오리 깃털을 사고파는 꿈은, 알뜰한 살림과 복을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "검은 깃털을 봄",
+          "interpretation_ko": "낙담과 언짢은 사랑이 있을 흉한 조짐",
+          "interpretation_en": "denotes disappointments and unhappy amours",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "To dream of black feathers, denotes disappointments and unhappy amours.",
+              "translation_ko": "검은 깃털 꿈은 낙담과 언짢은 사랑을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 치레용 깃털을 봄",
+          "interpretation_ko": "세상에서 자리가 올라가나 그 방법은 본받을 만하지 못할 조짐",
+          "interpretation_en": "she will advance in society, but her ways of gaining favor will not bear imitating",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feather",
+              "original": "For a woman to dream of seeing ostrich and other ornamental feathers, denotes that she will advance in society, but her ways of gaining favor will not bear imitating.",
+              "translation_ko": "여성이 타조 깃털이나 그 밖의 치레용 깃털을 보는 꿈은, 세상에서 자리가 올라감을 뜻한다. 그러나 그 방법은 본받을 만하지 못하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "field",
       "term_ko": "밭",
       "term_en": "field",
@@ -16902,6 +17389,96 @@
               "locator": "Adultery",
               "original": "For a young woman this implies abasement and low desires, in which she will find strange adventures afford her pleasure.",
               "translation_ko": "젊은 여성이 이 꿈을 꾸면 타락과 저급한 욕망을 뜻하며 낯선 모험에서 즐거움을 찾게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afraid",
+      "term_ko": "두려움",
+      "term_en": "afraid",
+      "aliases": [
+        "무서움",
+        "겁남",
+        "공포",
+        "무서워"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어떤 일이나 여행을 계속하기가 두려움",
+          "interpretation_ko": "가정에 어려움이 생기고 하는 일이 실패할 조짐",
+          "interpretation_en": "a sign that you will find trouble in your household, and enterprises will be unsuccessful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Afraid",
+              "original": "To feel that you are afraid to proceed with some affair, or continue a journey, denotes that you will find trouble in your household, and enterprises will be unsuccessful.",
+              "translation_ko": "어떤 일이나 여행을 계속하기가 두려운 꿈을 꾸면 가정에 어려움이 생기고 하는 일이 실패할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람이 두려워하는 것을 봄",
+          "interpretation_ko": "어떤 친구가 자신의 어려움 때문에 자신에게 호의를 베풀지 못할 조짐",
+          "interpretation_en": "a sign that some friend will be deterred from performing some favor for you because of his own difficulties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Afraid",
+              "original": "To see others afraid, denotes that some friend will be deterred from performing some favor for you because of his own difficulties.",
+              "translation_ko": "다른 사람이 두려워하는 것을 보면 어떤 친구가 자신의 어려움 때문에 자신에게 호의를 베풀지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 개를 무서워함",
+          "interpretation_ko": "참된 친구를 의심하게 될 가능성이 있는 조짐",
+          "interpretation_en": "a sign of the possibility of her doubting a true friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Afraid",
+              "original": "For a young woman to dream that she is afraid of a dog, there will be a possibility of her doubting a true friend.",
+              "translation_ko": "젊은 여성이 개를 무서워하는 꿈을 꾸면 참된 친구를 의심하게 될 가능성이 있는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "까닭 없이 두려움을 느낌",
+          "interpretation_ko": "앞으로 할 일이 바라던 만큼 잘되지 않을 흉한 조짐",
+          "interpretation_en": "denotes that your future engagements will not prove so successful as was expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fears",
+              "original": "To dream that you feel fear from any cause, denotes that your future engagements will not prove so successful as was expected.",
+              "translation_ko": "무슨 까닭에서든 두려움을 느끼는 꿈은, 앞으로 할 일이 바라던 만큼 잘되지 않음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 두려움을 느낌",
+          "interpretation_ko": "낙담과 어긋난 사랑이 있을 흉한 조짐",
+          "interpretation_en": "this dream forebodes disappointment and unfortunate love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fears",
+              "original": "For a young woman, this dream forebodes disappointment and unfortunate love.",
+              "translation_ko": "젊은 여성에게 이 꿈은 낙담과 어긋난 사랑을 알린다"
             }
           ]
         }
@@ -18957,98 +19534,6 @@
       ]
     },
     {
-      "id": "deer",
-      "term_ko": "사슴",
-      "term_en": "deer",
-      "aliases": [
-        "노루",
-        "꽃사슴",
-        "사슴 사냥"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사슴 꿈을 꿈",
-          "interpretation_ko": "젊은이에게는 맑고 깊은 사귐을, 혼인한 이에게는 조용하고 고른 삶을 뜻함",
-          "interpretation_en": "pure and deep friendships for the young and a quiet and even life for the married",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Deer",
-              "original": "This is a favorable dream, denoting pure and deep friendships for the young and a quiet and even life for the married.",
-              "translation_ko": "이는 좋은 꿈이며, 젊은이에게는 맑고 깊은 사귐을, 혼인한 이에게는 조용하고 고른 삶을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "사슴을 죽임",
-          "interpretation_ko": "적에게 쫓길 조짐",
-          "interpretation_en": "you will be hounded by enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Deer",
-              "original": "To kill a deer, denotes that you will be hounded by enemies.",
-              "translation_ko": "사슴을 죽이는 꿈은 적에게 쫓김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "사슴 사냥을 함",
-          "interpretation_ko": "농사짓거나 장사하는 이에게는 하는 일이 안 될 조짐",
-          "interpretation_en": "for farmers, or business people, failure in their respective pursuits",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Deer",
-              "original": "For farmers, or business people, to dream of hunting deer, denotes failure in their respective pursuits.",
-              "translation_ko": "농사짓거나 장사하는 이가 사슴 사냥 꿈을 꾸면, 하는 일이 안 된다"
-            }
-          ]
-        },
-        {
-          "context": "사슴이 집 안에 있음",
-          "interpretation_ko": "관직과 녹봉을 얻을 조짐",
-          "interpretation_en": "a sign of gaining office and salary",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "獐鹿在家得官祿",
-              "translation_ko": "노루와 사슴이 집에 있으면 관직과 녹봉을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "사슴을 잡음",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺牛鹿者大富貴",
-              "translation_ko": "소와 사슴을 잡으면 크게 부귀하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "diamonds",
       "term_ko": "다이아몬드",
       "term_en": "diamonds",
@@ -19406,94 +19891,95 @@
       ]
     },
     {
-      "id": "feast",
-      "term_ko": "잔치",
-      "term_en": "feast",
+      "id": "feet",
+      "term_ko": "발",
+      "term_en": "feet",
       "aliases": [
-        "연회",
-        "축하연",
-        "회식"
+        "두 발",
+        "발바닥",
+        "발이",
+        "발을"
       ],
-      "category": "action",
+      "category": "body",
       "polarity": "ambivalent",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "잔치(연회) 꿈을 꿈",
-          "interpretation_ko": "좋은 꿈이며 친구들이 호의를 베풀 조짐",
-          "interpretation_en": "a good sign that friends will wait to do you favors",
+          "context": "제 발을 봄",
+          "interpretation_ko": "절망에 빠지고 남의 뜻과 성미에 눌릴 흉한 조짐",
+          "interpretation_en": "is ominous of despair; you will be overcome by the will and temper of another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feet",
+              "original": "To dream of seeing your own feet, is omnious{sic} of despair. You will be overcome by the will and temper of another.",
+              "translation_ko": "제 발을 보는 꿈은 절망의 조짐이다. 남의 뜻과 성미에 눌리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "남의 발을 봄",
+          "interpretation_ko": "부드러우면서도 굳세게 제 몫을 지켜 남다른 자리에 오를 길한 조짐",
+          "interpretation_en": "you will maintain your rights in a pleasant, but determined way, and win for yourself a place above the common walks of life",
           "polarity": "positive",
           "cites": [
             {
               "work": "miller",
-              "locator": "Banquet",
-              "original": "It is good to dream of a banquet. Friends will wait to do you favors.",
-              "translation_ko": "잔치 꿈을 꾸는 것은 좋은 일이며, 친구들이 호의를 베풀려 기다리고 있을 조짐이다"
+              "locator": "Feet",
+              "original": "To see others' feet, denotes that you will maintain your rights in a pleasant, but determined way, and win for yourself a place above the common walks of life.",
+              "translation_ko": "남의 발을 보는 꿈은, 부드러우면서도 굳세게 제 몫을 지켜 남다른 자리에 오름을 뜻한다"
             }
           ]
         },
         {
-          "context": "화려하게 차려입은 손님들과 값비싼 그릇에 음식을 먹고 값진 포도주를 마심",
-          "interpretation_ko": "온갖 사업에서 큰 이득을 얻고 친구들 사이에 행복이 있을 조짐",
-          "interpretation_en": "a sign of enormous gain in enterprises of every nature, and happiness among friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Banquet",
-              "original": "To dream of yourself, together with many gaily-attired guests, eating from costly plate and drinking wine of fabulous price and age, foretells enormous gain in enterprises of every nature, and happiness among friends.",
-              "translation_ko": "화려하게 차려입은 많은 손님들과 함께 값비싼 그릇에 음식을 먹고 값진 포도주를 마시는 꿈을 꾸면 온갖 사업에서 큰 이득을 얻고 친구들 사이에 행복이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 봄",
-          "interpretation_ko": "심각한 오해나 실망을 예고하는 불길한 조짐",
-          "interpretation_en": "an ominous sign of grave misunderstandings or disappointments",
+          "context": "발을 씻음",
+          "interpretation_ko": "남에게 이용당할 흉한 조짐",
+          "interpretation_en": "denotes that you will let others take advantage of you",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Banquet",
-              "original": "To see inharmonious influences, strange and grotesque faces or empty tables, is ominous of grave misunderstandings or disappointments.",
-              "translation_ko": "불협화음이나 기이하고 흉측한 얼굴들, 빈 식탁을 보면 심각한 오해나 실망을 예고하는 불길한 조짐이다"
+              "locator": "Feet",
+              "original": "To dream that you wash your feet, denotes that you will let others take advantage of you.",
+              "translation_ko": "발을 씻는 꿈은, 남에게 이용당함을 뜻한다"
             }
           ]
         },
         {
-          "context": "잔치를 열어 손님을 모음",
-          "interpretation_ko": "집안이 무너질 조짐",
-          "interpretation_en": "a sign that the household will break apart",
+          "context": "발이 아픔",
+          "interpretation_ko": "낯 깎이는 괴로움, 대개는 집안 다툼이 있을 흉한 조짐",
+          "interpretation_en": "portends troubles of a humiliating character, as they usually are family quarrels",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "筵會客人家欲破",
-              "translation_ko": "잔치에 손님을 모으면 집안이 무너지려 한다"
+              "work": "miller",
+              "locator": "Feet",
+              "original": "To dream that your feet are hurting you, portends troubles of a humiliating character, as they usually are family quarrels.",
+              "translation_ko": "발이 아픈 꿈은 낯 깎이는 괴로움을 알린다. 대개는 집안 다툼이다"
             }
           ]
         },
         {
-          "context": "귀인이 베푼 잔치를 받음",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of illness",
+          "context": "발이 붓고 붉어짐",
+          "interpretation_ko": "집안과 갈라서며 하는 일을 갑자기 바꾸고 말썽이 날 흉한 조짐",
+          "interpretation_en": "you will make a sudden change in your business by separating from your family; it usually foretells scandal and sensation",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "貴人賜宴主疾病",
-              "translation_ko": "귀인이 잔치를 내려 주면 질병이 있다"
+              "work": "miller",
+              "locator": "Feet",
+              "original": "To see your feet swollen and red, you will make a sudden change in your business by separating from your family. This is an evil dream, as it usually foretells scandal and sensation.",
+              "translation_ko": "발이 붓고 붉은 것을 보는 꿈은, 집안과 갈라서며 하는 일을 갑자기 바꾸게 됨을 뜻한다. 대개 말썽과 소란을 알리는 흉한 꿈이다"
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "발(足)"
     },
     {
       "id": "fleeing",
@@ -21184,6 +21670,84 @@
               "locator": "Enemy",
               "original": "For them to get the better of you is ominous of adverse fortunes.",
               "translation_ko": "그들이 나를 이기는 것은 운이 등을 돌림을 알리는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ague",
+      "term_ko": "학질",
+      "term_en": "ague",
+      "aliases": [
+        "말라리아",
+        "오한",
+        "한기",
+        "열병",
+        "열병에",
+        "고열"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "학질로 떨림",
+          "interpretation_ko": "몸에 병이 생기고, 자기 일에 대한 흔들리는 생각 때문에 쇠약해질 지경에 이를 조짐",
+          "interpretation_en": "a sign that you will suffer from some physical disorder, and that fluctuating opinions of your own affairs may bring you to the borders of prostration",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ague",
+              "original": "A sickly condition of the dreamer is sometimes implied by this dream. To dream that you are shaking with an ague, signifies that you will suffer from some physical disorder, and that fluctuating opinions of your own affairs may bring you to the borders of prostration.",
+              "translation_ko": "이 꿈은 이따금 꿈꾼 사람의 병약한 상태를 뜻하기도 한다. 학질로 떠는 꿈을 꾸면 몸에 병이 생기고, 자기 일에 대한 흔들리는 생각 때문에 쇠약해질 지경에 이를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람이 학질로 떠는 것을 봄",
+          "interpretation_ko": "다른 사람의 영향력에 지나치게 무관심하여 사람들의 기분을 상하게 할 조짐",
+          "interpretation_en": "a sign that you will offend people by your supreme indifference to the influences of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ague",
+              "original": "To see others thus affected, denotes that you will offend people by your supreme indifference to the influences of others.",
+              "translation_ko": "다른 사람이 학질로 떠는 것을 보면 다른 사람의 영향력에 지나치게 무관심하여 사람들의 기분을 상하게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "열병에 걸림",
+          "interpretation_ko": "하찮은 일로 애태우는 사이 삶의 좋은 때가 지나가니 몸을 추스르라는 일깨움",
+          "interpretation_en": "signifies that you are worrying over trifling affairs while the best of life is slipping past you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fever",
+              "original": "To dream that you are stricken with this malady, signifies that you are worrying over trifling affairs while the best of life is slipping past you, and you should pull yourself into shape and engage in profitable work.",
+              "translation_ko": "이 병에 걸리는 꿈은, 하찮은 일로 애태우는 사이 삶의 가장 좋은 때가 지나가고 있음을 뜻한다. 몸을 추슬러 보람 있는 일에 나서야 한다"
+            }
+          ]
+        },
+        {
+          "context": "집안 사람이 열병으로 앓는 것을 봄",
+          "interpretation_ko": "그중 누군가 잠시 앓을 조짐",
+          "interpretation_en": "denotes temporary illness for some of them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fever",
+              "original": "To dream of seeing some of your family sick with fever, denotes temporary illness for some of them.",
+              "translation_ko": "집안 사람이 열병으로 앓는 것을 보는 꿈은, 그중 누군가 잠시 앓게 됨을 뜻한다"
             }
           ]
         }
@@ -28269,14 +28833,18 @@
       ]
     },
     {
-      "id": "afraid",
-      "term_ko": "두려움",
-      "term_en": "afraid",
+      "id": "adulation",
+      "term_ko": "아첨",
+      "term_en": "adulation",
       "aliases": [
-        "무서움",
-        "겁남",
-        "공포",
-        "무서워"
+        "아부",
+        "알랑거림",
+        "비위 맞추기",
+        "치켜세움",
+        "아첨했다",
+        "아첨하",
+        "아첨을",
+        "아첨이"
       ],
       "category": "action",
       "polarity": "negative",
@@ -28287,44 +28855,44 @@
       "weight": 1,
       "meanings": [
         {
-          "context": "어떤 일이나 여행을 계속하기가 두려움",
-          "interpretation_ko": "가정에 어려움이 생기고 하는 일이 실패할 조짐",
-          "interpretation_en": "a sign that you will find trouble in your household, and enterprises will be unsuccessful",
+          "context": "아첨을 갈구함",
+          "interpretation_ko": "분에 넘치는 명예로운 자리를 거만하게 채우게 될 조짐",
+          "interpretation_en": "you will pompously fill unmerited positions of honor",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Afraid",
-              "original": "To feel that you are afraid to proceed with some affair, or continue a journey, denotes that you will find trouble in your household, and enterprises will be unsuccessful.",
-              "translation_ko": "어떤 일이나 여행을 계속하기가 두려운 꿈을 꾸면 가정에 어려움이 생기고 하는 일이 실패할 조짐이다"
+              "locator": "Adulation",
+              "original": "To dream that you seek adulation, foretells that you will pompously fill unmerited positions of honor.",
+              "translation_ko": "아첨을 갈구하는 꿈을 꾸면 분에 넘치는 명예로운 자리를 거만하게 채우게 될 조짐이다"
             }
           ]
         },
         {
-          "context": "다른 사람이 두려워하는 것을 봄",
-          "interpretation_ko": "어떤 친구가 자신의 어려움 때문에 자신에게 호의를 베풀지 못할 조짐",
-          "interpretation_en": "a sign that some friend will be deterred from performing some favor for you because of his own difficulties",
+          "context": "남에게 아첨함",
+          "interpretation_ko": "물질적 이익을 도모하려는 바람에서 소중한 것을 뚜렷이 내어주게 될 조짐",
+          "interpretation_en": "you will expressly part with some dear belonging in the hope of furthering material interests",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Afraid",
-              "original": "To see others afraid, denotes that some friend will be deterred from performing some favor for you because of his own difficulties.",
-              "translation_ko": "다른 사람이 두려워하는 것을 보면 어떤 친구가 자신의 어려움 때문에 자신에게 호의를 베풀지 못할 조짐이다"
+              "locator": "Adulation",
+              "original": "If you offer adulation, you will expressly part with some dear belonging in the hope of furthering material interests.",
+              "translation_ko": "남에게 아첨하면 물질적 이익을 도모하려는 바람에서 소중한 것을 뚜렷이 내어주게 될 조짐이다"
             }
           ]
         },
         {
-          "context": "젊은 여성이 개를 무서워함",
-          "interpretation_ko": "참된 친구를 의심하게 될 가능성이 있는 조짐",
-          "interpretation_en": "a sign of the possibility of her doubting a true friend",
+          "context": "남이 나에게 아첨함",
+          "interpretation_ko": "벗인 척하는 적이 둘레에 있다는 일깨움",
+          "interpretation_en": "is a warning that enemies are about you in the guise of interested friends",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Afraid",
-              "original": "For a young woman to dream that she is afraid of a dog, there will be a possibility of her doubting a true friend.",
-              "translation_ko": "젊은 여성이 개를 무서워하는 꿈을 꾸면 참된 친구를 의심하게 될 가능성이 있는 조짐이다"
+              "locator": "Fawn",
+              "original": "To dream that a person fawns on you, or cajoles you, is a warning that enemies are about you in the guise of interested friends.",
+              "translation_ko": "누군가 나에게 알랑거리거나 구슬리는 꿈은, 벗인 척하는 적이 둘레에 있다는 일깨움이다"
             }
           ]
         }
@@ -31191,6 +31759,66 @@
               "locator": "Captive",
               "original": "For a young woman to dream that she is a captive, denotes that she will have a husband who will be jealous of her confidence in others; or she may be censured for her indiscretion.",
               "translation_ko": "젊은 여성이 포로가 되는 꿈은, 남을 믿는 것을 질투하는 남편을 두게 되거나 경솔했다는 말을 들을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carnival",
+      "term_ko": "카니발",
+      "term_en": "carnival",
+      "aliases": [
+        "축제",
+        "가장무도회"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "카니발에 어울려 참여함",
+          "interpretation_ko": "머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐",
+          "interpretation_en": "you are soon to enjoy some unusual pleasure or recreation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carnival",
+              "original": "To dream that you are participating in a carnival, portends that you are soon to enjoy some unusual pleasure or recreation.",
+              "translation_ko": "카니발에 참여하는 꿈은 머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가면을 쓰거나 광대 차림이 보이는 카니발",
+          "interpretation_ko": "집안이 불화하고, 일은 시원치 않으며, 사랑은 되돌아오지 않을 조짐",
+          "interpretation_en": "discord in the home; business will be unsatisfactory and love unrequited",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carnival",
+              "original": "A carnival when masks are used, or when incongruous or clownish figures are seen, implies discord in the home; business will be unsatisfactory and love unrequited.",
+              "translation_ko": "가면을 쓰거나 어울리지 않는 광대 같은 모습이 보이는 카니발은 집안의 불화를 뜻한다. 일은 시원치 않고 사랑은 되돌아오지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "축제 자리에 있음",
+          "interpretation_ko": "삶의 찬 이치에 무심하고 사람을 일찍 늙게 하는 즐거움을 좇아, 아쉽지는 않으나 남에게 크게 기대게 될 조짐",
+          "interpretation_en": "denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Festival",
+              "original": "To dream of being at a festival, denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time. You will never want, but will be largely dependent on others.",
+              "translation_ko": "축제 자리에 있는 꿈은, 삶의 찬 이치에 무심함과 사람을 일찍 늙게 하는 즐거움을 좋아함을 뜻한다. 아쉬울 일은 없겠으나 남에게 크게 기대어 살게 된다"
             }
           ]
         }
@@ -37286,7 +37914,6 @@
       "term_en": "wall",
       "aliases": [
         "담장",
-        "울타리",
         "담벼락"
       ],
       "category": "object",
@@ -37905,54 +38532,6 @@
       ]
     },
     {
-      "id": "adulation",
-      "term_ko": "아첨",
-      "term_en": "adulation",
-      "aliases": [
-        "아부",
-        "알랑거림",
-        "비위 맞추기",
-        "치켜세움"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "아첨을 갈구함",
-          "interpretation_ko": "분에 넘치는 명예로운 자리를 거만하게 채우게 될 조짐",
-          "interpretation_en": "you will pompously fill unmerited positions of honor",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adulation",
-              "original": "To dream that you seek adulation, foretells that you will pompously fill unmerited positions of honor.",
-              "translation_ko": "아첨을 갈구하는 꿈을 꾸면 분에 넘치는 명예로운 자리를 거만하게 채우게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 아첨함",
-          "interpretation_ko": "물질적 이익을 도모하려는 바람에서 소중한 것을 뚜렷이 내어주게 될 조짐",
-          "interpretation_en": "you will expressly part with some dear belonging in the hope of furthering material interests",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adulation",
-              "original": "If you offer adulation, you will expressly part with some dear belonging in the hope of furthering material interests.",
-              "translation_ko": "남에게 아첨하면 물질적 이익을 도모하려는 바람에서 소중한 것을 뚜렷이 내어주게 될 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "advancement",
       "term_ko": "전진",
       "term_en": "advancement",
@@ -38474,54 +39053,6 @@
               "locator": "Agony",
               "original": "To be in agony over the loss of money, or property, denotes that disturbing and imaginary fears will rack you over the critical condition of affairs, or the illness of some dear relative.",
               "translation_ko": "돈이나 재산을 잃어 고통스러워하는 꿈을 꾸면 위태로운 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ague",
-      "term_ko": "학질",
-      "term_en": "ague",
-      "aliases": [
-        "말라리아",
-        "오한",
-        "한기",
-        "열병"
-      ],
-      "category": "body",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "학질로 떨림",
-          "interpretation_ko": "몸에 병이 생기고, 자기 일에 대한 흔들리는 생각 때문에 쇠약해질 지경에 이를 조짐",
-          "interpretation_en": "a sign that you will suffer from some physical disorder, and that fluctuating opinions of your own affairs may bring you to the borders of prostration",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ague",
-              "original": "A sickly condition of the dreamer is sometimes implied by this dream. To dream that you are shaking with an ague, signifies that you will suffer from some physical disorder, and that fluctuating opinions of your own affairs may bring you to the borders of prostration.",
-              "translation_ko": "이 꿈은 이따금 꿈꾼 사람의 병약한 상태를 뜻하기도 한다. 학질로 떠는 꿈을 꾸면 몸에 병이 생기고, 자기 일에 대한 흔들리는 생각 때문에 쇠약해질 지경에 이를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다른 사람이 학질로 떠는 것을 봄",
-          "interpretation_ko": "다른 사람의 영향력에 지나치게 무관심하여 사람들의 기분을 상하게 할 조짐",
-          "interpretation_en": "a sign that you will offend people by your supreme indifference to the influences of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ague",
-              "original": "To see others thus affected, denotes that you will offend people by your supreme indifference to the influences of others.",
-              "translation_ko": "다른 사람이 학질로 떠는 것을 보면 다른 사람의 영향력에 지나치게 무관심하여 사람들의 기분을 상하게 할 조짐이다"
             }
           ]
         }
@@ -43951,52 +44482,6 @@
               "locator": "Cardinal",
               "original": "For a woman to dream this is a sign of her downfall through false promises.",
               "translation_ko": "여성이 이 꿈을 꾸면 거짓 약속에 속아 무너질 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "carnival",
-      "term_ko": "카니발",
-      "term_en": "carnival",
-      "aliases": [
-        "축제",
-        "가장무도회"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "카니발에 어울려 참여함",
-          "interpretation_ko": "머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐",
-          "interpretation_en": "you are soon to enjoy some unusual pleasure or recreation",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carnival",
-              "original": "To dream that you are participating in a carnival, portends that you are soon to enjoy some unusual pleasure or recreation.",
-              "translation_ko": "카니발에 참여하는 꿈은 머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "가면을 쓰거나 광대 차림이 보이는 카니발",
-          "interpretation_ko": "집안이 불화하고, 일은 시원치 않으며, 사랑은 되돌아오지 않을 조짐",
-          "interpretation_en": "discord in the home; business will be unsatisfactory and love unrequited",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carnival",
-              "original": "A carnival when masks are used, or when incongruous or clownish figures are seen, implies discord in the home; business will be unsatisfactory and love unrequited.",
-              "translation_ko": "가면을 쓰거나 어울리지 않는 광대 같은 모습이 보이는 카니발은 집안의 불화를 뜻한다. 일은 시원치 않고 사랑은 되돌아오지 않는다"
             }
           ]
         }
@@ -51312,6 +51797,245 @@
       ]
     },
     {
+      "id": "fatigue",
+      "term_ko": "고단함",
+      "term_en": "fatigue",
+      "aliases": [
+        "고단했다",
+        "지쳤다",
+        "피로",
+        "녹초",
+        "지친",
+        "지쳐",
+        "고단한"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸이 고단함",
+          "interpretation_ko": "몸이 상하거나 하는 일이 짓눌릴 흉한 조짐",
+          "interpretation_en": "foretells ill health or oppression in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fatigue",
+              "original": "To feel fatigued in a dream, foretells ill health or oppression in business.",
+              "translation_ko": "꿈에서 몸이 고단한 것은, 몸이 상하거나 하는 일이 짓눌림을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 남이 고단해하는 것을 봄",
+          "interpretation_ko": "몸이 나아지는 기미가 더딜 흉한 조짐",
+          "interpretation_en": "indicates discouraging progress in health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fatigue",
+              "original": "For a young woman to see others fatigued, indicates discouraging progress in health.",
+              "translation_ko": "젊은 여성이 남이 고단해하는 것을 보는 꿈은, 몸이 나아지는 기미가 더딤을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "favor",
+      "term_ko": "부탁",
+      "term_en": "favor",
+      "aliases": [
+        "부탁을",
+        "부탁이",
+        "청을 들어"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 부탁을 함",
+          "interpretation_ko": "넉넉히 누리고 아쉬울 것이 없을 길한 조짐",
+          "interpretation_en": "denotes that you will enjoy abundance, and that you will not especially need anything",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Favor",
+              "original": "To dream that you ask favors of anyone, denotes that you will enjoy abundance, and that you will not especially need anything.",
+              "translation_ko": "누구에게든 부탁하는 꿈은, 넉넉히 누리고 딱히 아쉬울 것이 없음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남의 부탁을 들어줌",
+          "interpretation_ko": "잃는 것이 있을 흉한 조짐",
+          "interpretation_en": "means a loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Favor",
+              "original": "To grant favors, means a loss.",
+              "translation_ko": "부탁을 들어주는 꿈은 잃는 것이 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "february",
+      "term_ko": "이월",
+      "term_en": "february",
+      "aliases": [
+        "이월에",
+        "이월이",
+        "이월을"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이월 꿈을 꿈",
+          "interpretation_ko": "몸이 계속 좋지 않고 마음이 어두울 흉한 조짐",
+          "interpretation_en": "denotes continued ill health and gloom, generally",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "February",
+              "original": "To dream of February, denotes continued ill health and gloom, generally.",
+              "translation_ko": "이월 꿈은 대체로 몸이 계속 좋지 않고 마음이 어두움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "이월에 볕이 밝은 날을 봄",
+          "interpretation_ko": "뜻밖의 좋은 일로 기쁘게 놀랄 길한 조짐",
+          "interpretation_en": "you will be unexpectedly and happily surprised with some good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "February",
+              "original": "If you happen to see a bright sunshiny day in this month, you will be unexpectedly and happily surprised with some good fortune.",
+              "translation_ko": "그달에 볕이 밝은 날을 보게 되면, 뜻밖의 좋은 일로 기쁘게 놀란다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fern",
+      "term_ko": "고사리",
+      "term_en": "fern",
+      "aliases": [
+        "고사리를",
+        "고사리가",
+        "양치식물"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고사리를 봄",
+          "interpretation_ko": "즐거운 때가 어두운 걱정을 걷어 낼 길한 조짐",
+          "interpretation_en": "foretells that pleasant hours will break up gloomy forebodings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ferns",
+              "original": "To see ferns in dreams, foretells that pleasant hours will break up gloomy forebodings.",
+              "translation_ko": "꿈에 고사리를 보는 것은, 즐거운 때가 어두운 걱정을 걷어 냄을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "시든 고사리를 봄",
+          "interpretation_ko": "집안 사람들의 잦은 병으로 크게 마음이 불안할 흉한 조짐",
+          "interpretation_en": "indicates that much and varied illness in your family connections will cause you grave unrest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ferns",
+              "original": "To see them withered, indicates that much and varied illness in your family connections will cause you grave unrest.",
+              "translation_ko": "시든 고사리를 보는 꿈은, 집안 사람들의 잦고 갖가지인 병으로 크게 마음이 불안해짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferry",
+      "term_ko": "나루터",
+      "term_en": "ferry",
+      "aliases": [
+        "나루터",
+        "나루를",
+        "나룻가"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나루터에서 배를 기다리는데 물이 빠르고 흐림",
+          "interpretation_ko": "뜻밖의 일로 가장 바라던 것이 막힐 흉한 조짐",
+          "interpretation_en": "you will be baffled in your highest wishes and designs by unforeseen circumstances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ferry",
+              "original": "To wait at a ferry for a boat and see the waters swift and muddy, you will be baffled in your highest wishes and designs by unforeseen circumstances.",
+              "translation_ko": "나루터에서 배를 기다리는데 물살이 빠르고 흐린 꿈은, 뜻밖의 일로 가장 바라던 것과 세운 뜻이 막힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "물이 잔잔하고 맑을 때 나루를 건넘",
+          "interpretation_ko": "세운 뜻이 잘 풀리고 복이 따를 길한 조짐",
+          "interpretation_en": "you will be very lucky in carrying out your plans, and fortune will crown you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ferry",
+              "original": "To cross a ferry while the water is calm and clear, you will be very lucky in carrying out your plans, and fortune will crown you.",
+              "translation_ko": "물이 잔잔하고 맑을 때 나루를 건너는 꿈은, 세운 뜻이 잘 풀리고 복이 따름을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "flute",
       "term_ko": "피리",
       "term_en": "flute",
@@ -54612,7 +55336,8 @@
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "발(가리개)"
     },
     {
       "id": "banjo",
@@ -60013,6 +60738,42 @@
               "locator": "Fakir",
               "original": "To dream of an Indian fakir, denotes uncommon activity and phenomenal changes in your life. Such dreams may sometimes be of gloomy import.",
               "translation_ko": "인도 탁발승 꿈은, 예사롭지 않게 바쁘고 삶이 크게 달라짐을 뜻한다. 그런 꿈이 어두운 뜻일 때도 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feeble",
+      "term_ko": "기운 없음",
+      "term_en": "feeble",
+      "aliases": [
+        "기운이 없",
+        "맥이 빠",
+        "힘이 없",
+        "기운이 없었다",
+        "기운이 없어",
+        "맥없이"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기운이 없음",
+          "interpretation_ko": "몸에 해로운 일과 마음의 시달림이 있으니 바꾸라는 일깨움",
+          "interpretation_en": "denotes unhealthy occupation and mental worry; seek to make a change",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Feeble",
+              "original": "To dream of being feeble, denotes unhealthy occupation and mental worry. Seek to make a change for yourself after this dream.",
+              "translation_ko": "기운이 없는 꿈은, 몸에 해로운 일자리와 마음의 시달림을 뜻한다. 이 꿈을 꾸었다면 바꾸기를 꾀할 것이다"
             }
           ]
         }
