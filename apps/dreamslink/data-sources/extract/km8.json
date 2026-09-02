@@ -12,7 +12,9 @@
       "종마",
       "흑마",
       "흰말",
-      "하얀말"
+      "하얀말",
+      "경주마",
+      "경마"
     ],
     "aliases_en": [
       "a horse",
@@ -57,7 +59,20 @@
       "다친 말을 봄": "다친 상처 부상",
       "죽은 말을 봄": "죽은 주검 죽어있",
       "말이 나를 내동댕이침": "내동댕이 내던지 낙마",
-      "날뛰는 말을 탐": "날뛰 껑충 뛰어오르"
+      "날뛰는 말을 탐": "날뛰 껑충 뛰어오르",
+      "말에게 걷어차임": "걷어차 발길질 차였",
+      "말을 붙잡지 못함": "놓쳤 놓치 실패",
+      "말을 붙잡아 굴레와 안장을 채움": "굴레 안장 씌웠",
+      "얼룩덜룩한 말을 봄": "얼룩 점박이",
+      "내 손으로 말에 편자를 박음": "손수 직접 스스로",
+      "말에게 편자를 박게 함": "편자 대장간",
+      "농부가 경주마 꿈을 꿈": "농부 농사꾼",
+      "말을 타고 경주에 나감": "겨루 출전 시합",
+      "경주마를 봄": "경주마 경마",
+      "말을 죽임": "죽였 죽이는 도살",
+      "사내들과 함께 맨등의 말을 탐": "사내들 남자들",
+      "여인들과 함께 맨등의 말을 탐": "여자들 여인들",
+      "맨등의 말에 올라탐": "맨등 맨몸"
     },
     "contexts_en": {
       "말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -94,7 +109,20 @@
       "다친 말을 봄": "wounded trouble",
       "죽은 말을 봄": "dead disappointments",
       "말이 나를 내동댕이침": "throws rival competition",
-      "날뛰는 말을 탐": "bucks consummation"
+      "날뛰는 말을 탐": "bucks consummation",
+      "말에게 걷어차임": "kicks repulsed embarrassed",
+      "말을 붙잡지 못함": "fail false",
+      "말을 붙잡아 굴레와 안장을 채움": "harness callings prosper",
+      "얼룩덜룩한 말을 봄": "spotted profit various",
+      "내 손으로 말에 편자를 박음": "endeavor doubtful property",
+      "말에게 편자를 박게 함": "shod assured",
+      "농부가 경주마 꿈을 꿈": "farmer",
+      "말을 타고 경주에 나감": "rode contest entered",
+      "경주마를 봄": "race surfeited",
+      "말을 죽임": "killing selfishness injure",
+      "사내들과 함께 맨등의 말을 탐": "male honest merited",
+      "여인들과 함께 맨등의 말을 탐": "women loose abundant",
+      "맨등의 말에 올라탐": "bareback struggles"
     }
   },
   {

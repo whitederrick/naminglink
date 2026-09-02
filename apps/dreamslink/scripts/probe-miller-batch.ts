@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 50 — Horse 문단 1~13, 19건)
+// (지금 담긴 것: 배치 51 — Horse 문단 14~24, 21건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "horse", ctx: "때 묻고 여윈 흰 말을 봄", text: "여윈 흰 말을 보았다" },
-  { id: "horse", ctx: "여성이 검은 말 꿈을 꿈", text: "남편이 검은 말을 타고 있었다" },
-  { id: "horse", ctx: "검은 말을 봄", text: "검은 말을 보았다" },
-  { id: "horse", ctx: "좋은 밤색 말을 탐", text: "밤색 말을 탔다" },
-  { id: "horse", ctx: "고삐 풀려 달아나는 말을 탐", text: "고삐 풀린 말을 탔다" },
-  { id: "horse", ctx: "말이 다른 말들과 함께 달아남", text: "말이 다른 말들과 함께 달아났다" },
-  { id: "horse", ctx: "훌륭한 씨수말을 봄", text: "훌륭한 씨수말을 보았다" },
-  { id: "horse", ctx: "새끼 밴 암말을 봄", text: "새끼 밴 암말을 보았다" },
-  { id: "horse", ctx: "말을 타고 흐린 개울을 건넘", text: "말을 타고 흐린 개울을 건넜다" },
-  { id: "horse", ctx: "맑은 개울을 말 등에 타고 헤엄쳐 건넘", text: "말을 타고 맑은 개울을 헤엄쳐 건넜다" },
-  { id: "horse", ctx: "말을 타고 개울을 건넘", text: "말을 타고 개울을 건넜다" },
-  { id: "horse", ctx: "다친 말을 봄", text: "다친 말을 보았다" },
-  { id: "horse", ctx: "죽은 말을 봄", text: "죽은 말을 보았다" },
-  { id: "horse", ctx: "말이 나를 내동댕이침", text: "말이 나를 내동댕이쳤다" },
-  { id: "horse", ctx: "날뛰는 말을 탐", text: "날뛰는 말을 탔다" },
+  { id: "horse", ctx: "말에게 걷어차임", text: "말에게 걷어차였다" },
+  { id: "horse", ctx: "말을 붙잡지 못함", text: "말을 붙잡으려다 놓쳤다" },
+  { id: "horse", ctx: "말을 붙잡아 굴레와 안장을 채움", text: "말을 붙잡아 굴레를 씌웠다" },
+  { id: "horse", ctx: "얼룩덜룩한 말을 봄", text: "얼룩덜룩한 말을 보았다" },
+  { id: "horse", ctx: "내 손으로 말에 편자를 박음", text: "내가 직접 말에 편자를 박았다" },
+  { id: "horse", ctx: "말에게 편자를 박게 함", text: "말에게 편자를 박게 했다" },
+  { id: "horse", ctx: "농부가 경주마 꿈을 꿈", text: "농부가 경주마를 보았다" },
+  { id: "horse", ctx: "말을 타고 경주에 나감", text: "말을 타고 시합에 나갔다" },
+  { id: "horse", ctx: "경주마를 봄", text: "경주마를 보았다" },
+  { id: "horse", ctx: "말을 죽임", text: "말을 죽였다" },
+  { id: "horse", ctx: "사내들과 함께 맨등의 말을 탐", text: "사내들과 맨등의 말을 탔다" },
+  { id: "horse", ctx: "여인들과 함께 맨등의 말을 탐", text: "여자들과 맨등의 말을 탔다" },
+  { id: "horse", ctx: "맨등의 말에 올라탐", text: "맨등의 말에 올라탔다" },
 
-  // 이 배치가 판별어 열다섯을 더한 상징이다 — **옛 답이 그대로인지** 함께 잰다.
+  // 배치 50이 넣은 것 넷과 옛 답 넷 — **그대로인지** 함께 잰다.
+  { id: "horse", ctx: "검은 말을 봄", text: "검은 말을 보았다" },
+  { id: "horse", ctx: "고삐 풀려 달아나는 말을 탐", text: "고삐 풀린 말을 탔다" },
+  { id: "horse", ctx: "죽은 말을 봄", text: "죽은 말을 보았다" },
+  { id: "horse", ctx: "말을 타고 개울을 건넘", text: "말을 타고 개울을 건넜다" },
   { id: "horse", ctx: "흰 말을 타고 감", text: "흰말을 타고 갔다" },
   { id: "horse", ctx: "말에게 물림", text: "말에게 물렸다" },
+  { id: "horse", ctx: "말을 잡음", text: "말을 사로잡았다" },
   { id: "horse", ctx: "망아지를 봄", text: "망아지를 보았다" },
-  { id: "horse", ctx: "탄 말이 빠르게 내달림", text: "말을 타고 빠르게 내달렸다" },
 ];
 
 let notFound = 0;
