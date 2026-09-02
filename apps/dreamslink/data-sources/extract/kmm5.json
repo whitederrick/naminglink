@@ -142,7 +142,18 @@
       "원수",
       "맞수",
       "경쟁자",
-      "대적"
+      "대적",
+      "적에게",
+      "적과",
+      "적군",
+      "적들",
+      "적을 이겼",
+      "적을 물리",
+      "적을 만났",
+      "적을 이겼다",
+      "적을 이기고",
+      "적을 물리쳤다",
+      "적을 만났다"
     ],
     "aliases_en": [
       "adversaries",
@@ -152,11 +163,15 @@
     ],
     "contexts": {
       "적과 만나거나 맞섬": "만났 마주 맞섰 대치",
-      "적을 이겨냄": "이겼 이겨 물리쳤 승리"
+      "적을 이겨냄": "이겼 이겨 물리쳤 승리",
+      "적에게 헐뜯김": "헐뜯 험담 흉을",
+      "적에게 짐": "졌다 지고 밀렸 당했"
     },
     "contexts_en": {
       "적과 만나거나 맞섬": "met meeting confronted facing",
-      "적을 이겨냄": "overcame defeated conquered beat"
+      "적을 이겨냄": "overcame defeated conquered beat",
+      "적에게 헐뜯김": "defamed threatened failures",
+      "적에게 짐": "better ominous adverse"
     }
   },
   {

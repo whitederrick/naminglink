@@ -1,0 +1,647 @@
+[
+  {
+    "term_ko": "불로장생약",
+    "term_en": "elixir of life",
+    "context": "불로장생약을 봄",
+    "interpretation_ko": "새로운 즐거움과 새로운 길이 둘레에 열릴 길한 조짐",
+    "interpretation_en": "there will come into your environments new pleasures and new possibilities",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Elixir of Life",
+      "original": "To dream of the elixir of life, denotes that there will come into your environments new pleasures and new possibilities.",
+      "translation_ko": "불로장생약 꿈은, 둘레에 새로운 즐거움과 새로운 길이 열림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사랑의 도피",
+    "term_en": "elopement",
+    "context": "혼인한 이가 눈이 맞아 달아남",
+    "interpretation_ko": "제 그릇에 맞지 않는 자리에 앉아 있어, 고치지 않으면 이름이 위태로울 흉한 조짐",
+    "interpretation_en": "you hold places which you are unworthy to fill, and if your ways are not rectified your reputation will be at stake",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Elopement",
+      "original": "To the married, it denotes that you hold places which you are unworthy to fill, and if your ways are not rectified your reputation will be at stake.",
+      "translation_ko": "혼인한 이에게 이 꿈은, 제 그릇에 맞지 않는 자리에 앉아 있음을 뜻한다. 몸가짐을 고치지 않으면 이름이 위태로워진다"
+    }
+  },
+  {
+    "term_ko": "사랑의 도피",
+    "term_en": "elopement",
+    "context": "혼인하지 않은 이가 눈이 맞아 달아남",
+    "interpretation_ko": "사랑에서 낙담하고 사람의 변심을 겪을 흉한 조짐",
+    "interpretation_en": "disappointments in love and the unfaithfulness of men",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Elopement",
+      "original": "To the unmarried, it foretells disappointments in love and the unfaithfulness of men.",
+      "translation_ko": "혼인하지 않은 이에게는 사랑에서 오는 낙담과 사람의 변심을 알린다"
+    }
+  },
+  {
+    "term_ko": "사랑의 도피",
+    "term_en": "elopement",
+    "context": "정인이 남과 눈이 맞아 달아남",
+    "interpretation_ko": "그 사람의 마음이 변했음을 알리는 흉한 조짐",
+    "interpretation_en": "his or her unfaithfulness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Elopement",
+      "original": "To dream that your lover has eloped with some one else, denotes his or her unfaithfulness.",
+      "translation_ko": "정인이 다른 사람과 눈이 맞아 달아나는 꿈은, 그 사람의 마음이 변했음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사랑의 도피",
+    "term_en": "elopement",
+    "context": "벗이 마뜩잖은 사람과 눈이 맞아 달아남",
+    "interpretation_ko": "그 벗이 마음에 들지 않는 혼인을 맺었다는 말을 곧 듣게 될 흉한 조짐",
+    "interpretation_en": "you will soon hear of them contracting a disagreeable marriage",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Elopement",
+      "original": "To dream of your friend eloping with one whom you do not approve, denotes that you will soon hear of them contracting a disagreeable marriage.",
+      "translation_ko": "벗이 내가 마뜩잖게 여기는 사람과 눈이 맞아 달아나는 꿈은, 그 벗이 마음에 들지 않는 혼인을 맺었다는 말을 곧 듣게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말솜씨",
+    "term_en": "eloquence",
+    "context": "말솜씨가 좋아짐",
+    "interpretation_ko": "내가 힘써 주고 있는 사람에게서 반가운 기별이 올 길한 조짐",
+    "interpretation_en": "there will be pleasant news for you concerning one in whose interest you are working",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Eloquent",
+      "original": "If you think you are eloquent of speech in your dreams, there will be pleasant news for you concerning one in whose interest you are working.",
+      "translation_ko": "꿈에서 제 말솜씨가 좋다고 여기면, 내가 힘써 주고 있는 사람에게서 반가운 기별이 온다"
+    }
+  },
+  {
+    "term_ko": "말솜씨",
+    "term_en": "eloquence",
+    "context": "말솜씨로 남을 움직이지 못함",
+    "interpretation_ko": "하는 일이 몹시 어수선해질 흉한 조짐",
+    "interpretation_en": "there will be much disorder in your affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Eloquent",
+      "original": "To fail in impressing others with your eloquence, there will be much disorder in your affairs.",
+      "translation_ko": "말솜씨로 남을 움직이지 못하면, 하는 일이 몹시 어수선해진다"
+    }
+  },
+  {
+    "term_ko": "방부 처리",
+    "term_en": "embalming",
+    "context": "주검을 방부 처리하는 것을 봄",
+    "interpretation_ko": "세상에서의 자리가 뒤바뀌고 가난이 닥칠 흉한 조짐",
+    "interpretation_en": "altered positions in social life and threatened poverty",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embalming",
+      "original": "To see embalming in process, foretells altered positions in social life and threatened poverty.",
+      "translation_ko": "주검을 방부 처리하는 것을 보는 꿈은, 세상에서의 자리가 뒤바뀜과 닥쳐오는 가난을 알린다"
+    }
+  },
+  {
+    "term_ko": "방부 처리",
+    "term_en": "embalming",
+    "context": "방부 처리된 제 모습을 봄",
+    "interpretation_ko": "잘못 사귄 벗 때문에 지내 오던 자리보다 낮은 데로 밀려날 흉한 조짐",
+    "interpretation_en": "unfortunate friendships which will force you into lower classes than you are accustomed to move in",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embalming",
+      "original": "To dream that you are looking at yourself embalmed, omens unfortunate friendships for you, which will force you into lower classes than you are accustomed to move in.",
+      "translation_ko": "방부 처리된 제 모습을 바라보는 꿈은, 잘못 사귄 벗의 조짐이다. 그 때문에 지내 오던 자리보다 낮은 데로 밀려난다"
+    }
+  },
+  {
+    "term_ko": "제방",
+    "term_en": "embankment",
+    "context": "제방을 따라 수레를 몲",
+    "interpretation_ko": "괴로움과 시름이 닥쳐올 흉한 조짐",
+    "interpretation_en": "you will be threatened with trouble and unhappiness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Embankment",
+      "original": "To dream that you drive along an embankment, foretells you will be threatened with trouble and unhappiness.",
+      "translation_ko": "제방을 따라 수레를 모는 꿈은, 괴로움과 시름이 닥쳐옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "제방",
+    "term_en": "embankment",
+    "context": "제방 길을 탈 없이 끝까지 감",
+    "interpretation_ko": "닥친 걱정거리를 도리어 앞길에 이롭게 돌릴 길한 조짐",
+    "interpretation_en": "you will succeed in turning these forebodings to useful account in your advancement",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Embankment",
+      "original": "If you continue your drive without unpleasant incidents arising, you will succeed in turning these forebodings to useful account in your advancement.",
+      "translation_ko": "언짢은 일 없이 계속 몰고 가면, 그 걱정거리를 도리어 앞길에 이롭게 돌리게 된다"
+    }
+  },
+  {
+    "term_ko": "제방",
+    "term_en": "embankment",
+    "context": "제방을 따라 말을 타고 감",
+    "interpretation_ko": "재물과 기쁨으로 가는 길의 모든 걸림돌을 두려움 없이 넘어설 길한 조짐",
+    "interpretation_en": "you will fearlessly meet and overcome all obstacles in your way to wealth and happiness",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Embankment",
+      "original": "To ride on horseback along one, denotes you will fearlessly meet and overcome all obstacles in your way to wealth and happiness.",
+      "translation_ko": "제방을 따라 말을 타고 가는 꿈은, 재물과 기쁨으로 가는 길의 모든 걸림돌을 두려움 없이 마주하고 넘어섬을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "제방",
+    "term_en": "embankment",
+    "context": "제방을 걸어서 감",
+    "interpretation_ko": "높은 자리에 오르기까지 지치는 다툼이 있으나 끝내 좋은 보답을 거둘 조짐",
+    "interpretation_en": "you will have a weary struggle for elevation, but will finally reap a successful reward",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Embankment",
+      "original": "To walk along one, you will have a weary struggle for elevation, but will &ally reap a successful reward.",
+      "translation_ko": "제방을 걸어서 가는 꿈은, 높은 자리에 오르기까지 지치는 다툼이 있으나 끝내 좋은 보답을 거둠을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "지아비나 지어미를 시들하게 껴안음",
+    "interpretation_ko": "집안에 다툼과 헐뜯음이 있고 병까지 닥칠 흉한 조짐",
+    "interpretation_en": "you will have dissensions and accusations in your family, also that sickness is threatened",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embrace",
+      "original": "To dream of embracing your husband or wife, as the case may be, in a sorrowing or indifferent way, denotes that you will have dissensions and accusations in your family, also that sickness is threatened.",
+      "translation_ko": "지아비나 지어미를 슬픈 낯으로 또는 시들하게 껴안는 꿈은, 집안에 다툼과 헐뜯음이 있고 병까지 닥침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "살붙이를 껴안음",
+    "interpretation_ko": "그들에게 병과 언짢은 일이 있을 흉한 조짐",
+    "interpretation_en": "signifies their sickness and unhappiness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embrace",
+      "original": "To embrace relatives, signifies their sickness and unhappiness.",
+      "translation_ko": "살붙이를 껴안는 꿈은 그들의 병과 언짢은 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "정든 사이끼리 껴안음",
+    "interpretation_ko": "한눈판 일로 다투고 사이가 틀어질 흉한 조짐",
+    "interpretation_en": "quarrels and disagreements arising from infidelity",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embrace",
+      "original": "For lovers to dream of embracing, foretells quarrels and disagreements arising from infidelity.",
+      "translation_ko": "정든 사이가 서로 껴안는 꿈은, 한눈판 일에서 비롯된 다툼과 틀어짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "낯선 사람을 껴안음",
+    "interpretation_ko": "달갑지 않은 손님이 올 흉한 조짐",
+    "interpretation_en": "you will have an unwelcome guest",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embrace",
+      "original": "If you embrace a stranger, it signifies that you will have an unwelcome guest.",
+      "translation_ko": "낯선 사람을 껴안는 꿈은 달갑지 않은 손님이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수놓기",
+    "term_en": "embroidery",
+    "context": "여성이 수를 놓음",
+    "interpretation_ko": "일을 슬기롭게 처리하고 무엇이든 잘 살려 쓴다고 칭찬받을 길한 조짐",
+    "interpretation_en": "she will be admired for her tact and ability to make the best of everything that comes her way",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embroidery",
+      "original": "If a woman dreams of embroidering, she will be admired for her tact and ability to make the best of everything that comes her way.",
+      "translation_ko": "여성이 수를 놓는 꿈은, 일을 슬기롭게 다루고 제게 온 것을 무엇이든 잘 살려 쓴다고 칭찬받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수놓기",
+    "term_en": "embroidery",
+    "context": "혼인한 남자가 수놓은 것을 봄",
+    "interpretation_ko": "집안에 식구가 새로 늘 길한 조짐",
+    "interpretation_en": "signifies a new member in his household",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embroidery",
+      "original": "For a married man to see embroidery, signifies a new member in his household, For a lover, this denotes a wise and economical wife.",
+      "translation_ko": "혼인한 남자가 수놓은 것을 보는 꿈은 집안에 식구가 새로 늚을 뜻한다. 정든 이에게는 슬기롭고 알뜰한 아내를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수놓기",
+    "term_en": "embroidery",
+    "context": "정든 이가 수놓은 것을 봄",
+    "interpretation_ko": "슬기롭고 알뜰한 짝을 만날 길한 조짐",
+    "interpretation_en": "this denotes a wise and economical wife",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Embroidery",
+      "original": "For a married man to see embroidery, signifies a new member in his household, For a lover, this denotes a wise and economical wife.",
+      "translation_ko": "혼인한 남자가 수놓은 것을 보는 꿈은 집안에 식구가 새로 늚을 뜻한다. 정든 이에게는 슬기롭고 알뜰한 아내를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "에메랄드",
+    "term_en": "emerald",
+    "context": "에메랄드를 봄",
+    "interpretation_ko": "재산을 물려받으나 그 일로 남과 다툼이 있을 조짐",
+    "interpretation_en": "you will inherit property concerning which there will be some trouble with others",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Emerald",
+      "original": "To dream of an emerald, you will inherit property concerning which there will be some trouble with others.",
+      "translation_ko": "에메랄드 꿈은, 재산을 물려받되 그 일로 남과 다툼이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "에메랄드",
+    "term_en": "emerald",
+    "context": "정혼한 이가 지닌 에메랄드를 봄",
+    "interpretation_ko": "더 넉넉한 사람에게 밀려 버림받을 흉한 조짐",
+    "interpretation_en": "he is about to be discarded for some wealthier suitor",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Emerald",
+      "original": "For a lover to see an emerald or emeralds on the person of his affianced, warns him that he is about to be discarded for some wealthier suitor.",
+      "translation_ko": "정든 이가 정혼한 사람의 몸에 있는 에메랄드를 보는 꿈은, 더 넉넉한 사람에게 밀려 버림받게 됨을 일깨운다"
+    }
+  },
+  {
+    "term_ko": "에메랄드",
+    "term_en": "emerald",
+    "context": "에메랄드를 삼",
+    "interpretation_ko": "손해 보는 거래를 하게 될 흉한 조짐",
+    "interpretation_en": "signifies unfortunate dealings",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Emerald",
+      "original": "To dream that you buy an emerald, signifies unfortunate dealings.",
+      "translation_ko": "에메랄드를 사는 꿈은 손해 보는 거래를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "먼 길에서 다른 나라의 황제를 만남",
+    "interpretation_ko": "즐거움도 배움도 없는 긴 길을 떠날 조짐",
+    "interpretation_en": "you will make a long journey, which will bring neither pleasure nor much knowledge",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Emperor",
+      "original": "To dream of going abroad and meeting the emperor of a nation in your travels, denotes that you will make a long journey, which will bring neither pleasure nor much knowledge.",
+      "translation_ko": "먼 나라에 가서 그 나라 황제를 만나는 꿈은, 즐거움도 이렇다 할 배움도 없는 긴 길을 떠남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "고용인",
+    "term_en": "employee",
+    "context": "부리는 사람이 밉살스럽게 굶",
+    "interpretation_ko": "속상한 일과 어수선함이 있을 흉한 조짐",
+    "interpretation_en": "crosses and disturbances if he assumes a disagreeable or offensive attitude",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Employee",
+      "original": "To see one of your employees denotes crosses and disturbances if he assumes a disagreeable or offensive attitude.",
+      "translation_ko": "부리는 사람을 보는 꿈은, 그가 밉살스럽거나 무례하게 굴면 속상한 일과 어수선함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "고용인",
+    "term_en": "employee",
+    "context": "부리는 사람이 살갑게 굶",
+    "interpretation_ko": "깨어난 뒤 궂거나 난처한 일이 없을 길한 조짐",
+    "interpretation_en": "you will find no cause for evil or embarrassing conditions upon waking",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Employee",
+      "original": "If he is pleasant and has communications of interest, you will find no cause for evil or embarrassing conditions upon waking.",
+      "translation_ko": "그가 살갑고 들을 만한 이야기를 건네면, 깨어난 뒤 궂거나 난처한 일이 없다"
+    }
+  },
+  {
+    "term_ko": "일자리",
+    "term_en": "employment",
+    "context": "일자리 꿈을 꿈",
+    "interpretation_ko": "장사가 가라앉고 품 파는 이가 일자리를 잃으며 몸까지 앓을 흉한 조짐",
+    "interpretation_en": "depression in business circles and loss of employment to wage earners; it also denotes bodily illness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Employment",
+      "original": "This is not an auspicious dream. It implies depression in business circles and loss of employment to wage earners. It also denotes bodily illness.",
+      "translation_ko": "이는 길한 꿈이 아니다. 장사가 가라앉고 품 파는 이들이 일자리를 잃음을 뜻한다. 몸이 앓는 것도 뜻한다"
+    }
+  },
+  {
+    "term_ko": "일자리",
+    "term_en": "employment",
+    "context": "일자리를 잃고 놀고 있음",
+    "interpretation_ko": "맡은 일을 성실히 지켜 늘 찾는 사람이 되므로 두려울 것이 없을 길한 조짐",
+    "interpretation_en": "you will have no fear, as you are always sought out for your conscientious fulfilment of contracts",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Employment",
+      "original": "To dream of being out of work, denotes that you will have no fear, as you are always sought out for your conscientious fulfilment of contracts, which make you a desired help.",
+      "translation_ko": "일자리를 잃고 놀고 있는 꿈은, 두려울 것이 없음을 뜻한다. 맡은 일을 성실히 지켜 늘 찾는 사람이 되기 때문이다"
+    }
+  },
+  {
+    "term_ko": "일자리",
+    "term_en": "employment",
+    "context": "남에게 일자리를 줌",
+    "interpretation_ko": "제게 손해가 돌아올 흉한 조짐",
+    "interpretation_en": "indicates loss for yourself",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Employment",
+      "original": "Giving employment to others, indicates loss for yourself.",
+      "translation_ko": "남에게 일자리를 주는 꿈은 제게 돌아올 손해를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "왕비",
+    "term_en": "queen",
+    "context": "황후를 봄",
+    "interpretation_ko": "높은 자리에 오르나 우쭐대다 사람들의 미움을 살 조짐",
+    "interpretation_en": "you will be exalted to high honors, but you will let pride make you very unpopular",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Empress",
+      "original": "To dream of an empress, denotes that you will be exalted to high honors, but you will let pride make you very unpopular.",
+      "translation_ko": "황후 꿈은 높은 자리에 오름을 뜻하나, 우쭐대다 사람들에게 몹시 미움을 사게 된다"
+    }
+  },
+  {
+    "term_ko": "왕비",
+    "term_en": "queen",
+    "context": "황후와 황제를 함께 봄",
+    "interpretation_ko": "딱히 나쁘지는 않으나 이렇다 할 좋은 것도 없는 조짐",
+    "interpretation_en": "is not particularly bad, but brings one no substantial good",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Empress",
+      "original": "To dream of an empress and an emperor is not particularly bad, but brings one no substantial good.",
+      "translation_ko": "황후와 황제를 함께 보는 꿈은 딱히 나쁘지는 않으나, 이렇다 할 좋은 것도 가져다주지 않는다"
+    }
+  },
+  {
+    "term_ko": "마법에 홀림",
+    "term_en": "enchantment",
+    "context": "마법에 홀려 있음",
+    "interpretation_ko": "조심하지 않으면 즐거움의 탈을 쓴 궂은일에 빠질 흉한 조짐",
+    "interpretation_en": "if you are not careful you will be exposed to some evil in the form of pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Enchantment",
+      "original": "To dream of being under the spell of enchantment, denotes that if you are not careful you will be exposed to some evil in the form of pleasure.",
+      "translation_ko": "마법에 홀려 있는 꿈은, 조심하지 않으면 즐거움의 모습을 한 궂은일에 빠짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "마법에 홀림",
+    "term_en": "enchantment",
+    "context": "마법을 뿌리침",
+    "interpretation_ko": "슬기로운 말과 너그러움으로 사람들이 많이 찾을 길한 조짐",
+    "interpretation_en": "you will be much sought after for your wise counsels and your liberality",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Enchantment",
+      "original": "To resist enchantment, foretells that you will be much sought after for your wise counsels and your liberality.",
+      "translation_ko": "마법을 뿌리치는 꿈은, 슬기로운 말과 너그러움으로 사람들이 많이 찾게 됨을 알린다"
+    }
+  },
+  {
+    "term_ko": "마법에 홀림",
+    "term_en": "enchantment",
+    "context": "남을 홀리려 함",
+    "interpretation_ko": "스스로 궂은일에 빠질 흉한 조짐",
+    "interpretation_en": "portends that you will fall into evil",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Enchantment",
+      "original": "To dream of trying to enchant others, portends that you will fall into evil.",
+      "translation_ko": "남을 홀리려 하는 꿈은, 스스로 궂은일에 빠짐을 알린다"
+    }
+  },
+  {
+    "term_ko": "백과사전",
+    "term_en": "encyclopedia",
+    "context": "백과사전을 뒤적임",
+    "interpretation_ko": "글재주는 얻으나 넉넉함과 편안함을 잃을 조짐",
+    "interpretation_en": "you will secure literary ability to the losing of prosperity and comfort",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Encyclopedia",
+      "original": "To dream of seeing or searching through encyclopedias, portends that you will secure literary ability to the losing of prosperity and comfort.",
+      "translation_ko": "백과사전을 보거나 뒤적이는 꿈은, 글재주를 얻는 대신 넉넉함과 편안함을 잃음을 알린다"
+    }
+  },
+  {
+    "term_ko": "적수",
+    "term_en": "adversary",
+    "context": "적에게 헐뜯김",
+    "interpretation_ko": "하는 일이 어그러질 위험이 있으니 매사에 몹시 조심해야 할 흉한 조짐",
+    "interpretation_en": "you will be threatened with failures in your work",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Enemy",
+      "original": "If you are defamed by your enemies, it denotes that you will be threatened with failures in your work.",
+      "translation_ko": "적에게 헐뜯기는 꿈은, 하는 일이 어그러질 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "적수",
+    "term_en": "adversary",
+    "context": "적에게 짐",
+    "interpretation_ko": "운이 등을 돌릴 흉한 조짐",
+    "interpretation_en": "for them to get the better of you is ominous of adverse fortunes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Enemy",
+      "original": "For them to get the better of you is ominous of adverse fortunes.",
+      "translation_ko": "그들이 나를 이기는 것은 운이 등을 돌림을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "약혼",
+    "term_en": "engagement",
+    "context": "약혼함",
+    "interpretation_ko": "그다지 좋게 보이지 못할 조짐",
+    "interpretation_en": "they will not be much admired",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Engagement",
+      "original": "For young people to dream that they are engaged, denotes that they will not be much admired.",
+      "translation_ko": "젊은이가 약혼한 꿈을 꾸면, 그다지 좋게 보이지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "약혼",
+    "term_en": "engagement",
+    "context": "약혼을 깸",
+    "interpretation_ko": "큰일에서 서둘러 그르친 판단으로 낙담이 따를 흉한 조짐",
+    "interpretation_en": "a hasty, and an unwise action in some important matter or disappointments may follow",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Engagement",
+      "original": "To dream of breaking an engagement, denotes a hasty, and an unwise action in some important matter or disappointments may follow.",
+      "translation_ko": "약혼을 깨는 꿈은, 큰일에서 서두르고 슬기롭지 못한 처신을 하거나 낙담이 따름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사업상 약속",
+    "term_en": "business engagement",
+    "context": "일로 만날 약속을 함",
+    "interpretation_ko": "장사가 시들하고 시름이 있을 흉한 조짐",
+    "interpretation_en": "denotes dulness and worries in trade",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Engagement",
+      "original": "To dream of a business engagement, denotes dulness and worries in trade.",
+      "translation_ko": "일로 만날 약속을 하는 꿈은, 장사가 시들하고 시름이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기관차",
+    "term_en": "engine",
+    "context": "기관차를 봄",
+    "interpretation_ko": "무거운 어려움과 먼 길이 있으나 든든히 받쳐 줄 벗이 있을 조짐",
+    "interpretation_en": "you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Engine",
+      "original": "To dream of an engine, denotes you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you.",
+      "translation_ko": "기관차 꿈은, 무거운 어려움과 먼 길을 만나게 되나 든든히 받쳐 줄 벗이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기관차",
+    "term_en": "engine",
+    "context": "고장 난 기관차를 봄",
+    "interpretation_ko": "궂은일이 있고 살붙이를 잃을 흉한 조짐",
+    "interpretation_en": "disabled engines stand for misfortune and loss of relatives",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Engine",
+      "original": "Disabled engines stand for misfortune and loss of relatives.",
+      "translation_ko": "고장 난 기관차는 궂은일과 살붙이를 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "기관사",
+    "term_en": "engineer",
+    "context": "기관사를 봄",
+    "interpretation_ko": "지치는 먼 길이 있으나 반가운 만남이 기다릴 조짐",
+    "interpretation_en": "forebodes weary journeys but joyful reunions",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Engineer",
+      "original": "To see an engineer, forebodes weary journeys but joyful reunions.",
+      "translation_ko": "기관사를 보는 꿈은, 지치는 먼 길을 알리나 반가운 만남이 있음을 뜻한다"
+    }
+  }
+]

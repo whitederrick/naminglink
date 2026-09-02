@@ -1,0 +1,351 @@
+[
+  {
+    "id": "elixir-of-life",
+    "aliases": [
+      "불로초",
+      "영약",
+      "불로장생의 약",
+      "생명의 약"
+    ],
+    "aliases_en": [
+      "elixir of life",
+      "the elixir"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "elopement",
+    "aliases": [
+      "눈이 맞아 달아",
+      "야반도주",
+      "눈이 맞아",
+      "함께 도망",
+      "같이 도망"
+    ],
+    "aliases_en": [
+      "eloping",
+      "eloped",
+      "elopement"
+    ],
+    "contexts": {
+      "혼인한 이가 눈이 맞아 달아남": "혼인한 유부 결혼한",
+      "혼인하지 않은 이가 눈이 맞아 달아남": "총각 처녀 미혼",
+      "정인이 남과 눈이 맞아 달아남": "정인이 애인이 다른사람과",
+      "벗이 마뜩잖은 사람과 눈이 맞아 달아남": "벗이 친구가 마뜩잖"
+    },
+    "contexts_en": {
+      "혼인한 이가 눈이 맞아 달아남": "wedded unworthy reputation",
+      "혼인하지 않은 이가 눈이 맞아 달아남": "unmarried disappointments unfaithfulness",
+      "정인이 남과 눈이 맞아 달아남": "lover another",
+      "벗이 마뜩잖은 사람과 눈이 맞아 달아남": "friend approve disagreeable"
+    }
+  },
+  {
+    "id": "eloquence",
+    "aliases": [
+      "웅변",
+      "달변",
+      "말재주",
+      "말을 잘",
+      "말을 잘해",
+      "말을 잘했다",
+      "말솜씨가",
+      "말을 잘해서",
+      "말을 잘하"
+    ],
+    "aliases_en": [
+      "eloquent",
+      "eloquence"
+    ],
+    "contexts": {
+      "말솜씨가 좋아짐": "잘했 유창 술술",
+      "말솜씨로 남을 움직이지 못함": "못했 실패 먹히지 통하지"
+    },
+    "contexts_en": {
+      "말솜씨가 좋아짐": "pleasant news working",
+      "말솜씨로 남을 움직이지 못함": "fail impressing disorder"
+    }
+  },
+  {
+    "id": "embalming",
+    "aliases": [
+      "염습",
+      "방부",
+      "미라로",
+      "시신을 방부"
+    ],
+    "aliases_en": [
+      "embalming",
+      "embalmed"
+    ],
+    "contexts": {
+      "주검을 방부 처리하는 것을 봄": "주검 시신 남의",
+      "방부 처리된 제 모습을 봄": "모습을 내가 자신이 스스로"
+    },
+    "contexts_en": {
+      "주검을 방부 처리하는 것을 봄": "process altered poverty",
+      "방부 처리된 제 모습을 봄": "yourself friendships lower"
+    }
+  },
+  {
+    "id": "embankment",
+    "aliases": [
+      "둑을",
+      "둑이",
+      "둑에",
+      "강둑",
+      "둑길"
+    ],
+    "aliases_en": [
+      "an embankment",
+      "embankments"
+    ],
+    "contexts": {
+      "제방을 따라 수레를 몲": "수레를 마차를 몰았",
+      "제방 길을 탈 없이 끝까지 감": "무사히 끝까지 이어",
+      "제방을 따라 말을 타고 감": "말을 타고 말타고",
+      "제방을 걸어서 감": "걸어서 걸었 걸어갔"
+    },
+    "contexts_en": {
+      "제방을 따라 수레를 몲": "drive along threatened",
+      "제방 길을 탈 없이 끝까지 감": "continue incidents advancement",
+      "제방을 따라 말을 타고 감": "horseback fearlessly obstacles",
+      "제방을 걸어서 감": "walk weary elevation reward"
+    }
+  },
+  {
+    "id": "embrace",
+    "aliases": [
+      "껴안았다",
+      "끌어안았다",
+      "포옹",
+      "안아 주었다",
+      "껴안고"
+    ],
+    "aliases_en": [
+      "embrace",
+      "embracing",
+      "hugged"
+    ],
+    "contexts": {
+      "지아비나 지어미를 시들하게 껴안음": "지아비 지어미 남편 아내",
+      "살붙이를 껴안음": "살붙이 친척 식구 일가",
+      "정든 사이끼리 껴안음": "정인 애인 연인 사귀는",
+      "낯선 사람을 껴안음": "낯선 모르는 처음보는"
+    },
+    "contexts_en": {
+      "지아비나 지어미를 시들하게 껴안음": "husband wife indifferent dissensions",
+      "살붙이를 껴안음": "relatives sickness",
+      "정든 사이끼리 껴안음": "lovers quarrels infidelity",
+      "낯선 사람을 껴안음": "stranger unwelcome guest"
+    }
+  },
+  {
+    "id": "embroidery",
+    "aliases": [
+      "수를 놓",
+      "수놓았다",
+      "자수를",
+      "자수가",
+      "수놓은",
+      "수를 놓고",
+      "수를 놓았다",
+      "수를 놓는"
+    ],
+    "aliases_en": [
+      "embroidery",
+      "embroidering"
+    ],
+    "contexts": {
+      "여성이 수를 놓음": "여자가 여성이 아내가",
+      "혼인한 남자가 수놓은 것을 봄": "남자가 남편이 사내가",
+      "정든 이가 수놓은 것을 봄": "정인 애인 연인"
+    },
+    "contexts_en": {
+      "여성이 수를 놓음": "admired tact ability",
+      "혼인한 남자가 수놓은 것을 봄": "household member husband",
+      "정든 이가 수놓은 것을 봄": "lover wise economical"
+    }
+  },
+  {
+    "id": "emerald",
+    "aliases": [
+      "에메랄드를",
+      "에메랄드가",
+      "녹보석"
+    ],
+    "aliases_en": [
+      "an emerald",
+      "emeralds"
+    ],
+    "contexts": {
+      "에메랄드를 봄": "빛나 초록빛 반지에",
+      "정혼한 이가 지닌 에메랄드를 봄": "정혼 약혼자 정인이",
+      "에메랄드를 삼": "샀다 사서 구했"
+    },
+    "contexts_en": {
+      "에메랄드를 봄": "inherit property trouble",
+      "정혼한 이가 지닌 에메랄드를 봄": "affianced discarded wealthier suitor",
+      "에메랄드를 삼": "buy dealings"
+    }
+  },
+  {
+    "id": "employee",
+    "aliases": [
+      "일꾼",
+      "직원",
+      "종업원",
+      "부리는 사람"
+    ],
+    "aliases_en": [
+      "an employee",
+      "employees"
+    ],
+    "contexts": {
+      "부리는 사람이 밉살스럽게 굶": "밉살 무례 못되게 고약",
+      "부리는 사람이 살갑게 굶": "살갑 상냥 친절"
+    },
+    "contexts_en": {
+      "부리는 사람이 밉살스럽게 굶": "disagreeable offensive crosses",
+      "부리는 사람이 살갑게 굶": "pleasant communications waking"
+    }
+  },
+  {
+    "id": "employment",
+    "aliases": [
+      "일자리를",
+      "일자리가",
+      "직장",
+      "일거리",
+      "실직"
+    ],
+    "aliases_en": [
+      "employment",
+      "out of work"
+    ],
+    "contexts": {
+      "일자리 꿈을 꿈": "품삯 벌이가",
+      "일자리를 잃고 놀고 있음": "잃고 잃었 놀고 백수",
+      "남에게 일자리를 줌": "주었 내주 뽑았 채용"
+    },
+    "contexts_en": {
+      "일자리 꿈을 꿈": "depression wage earners illness",
+      "일자리를 잃고 놀고 있음": "conscientious fulfilment sought",
+      "남에게 일자리를 줌": "giving others loss"
+    }
+  },
+  {
+    "id": "enchantment",
+    "aliases": [
+      "홀렸다",
+      "마법에 걸렸다",
+      "주술에",
+      "홀려서",
+      "마법에 홀려",
+      "마법을",
+      "마법이",
+      "홀리려",
+      "홀려 있"
+    ],
+    "aliases_en": [
+      "enchantment",
+      "enchanted",
+      "under a spell"
+    ],
+    "contexts": {
+      "마법에 홀려 있음": "홀려 걸려 씌어",
+      "마법을 뿌리침": "뿌리쳤 뿌리치 이겨냈 벗어났",
+      "남을 홀리려 함": "남을 홀리려 부리려"
+    },
+    "contexts_en": {
+      "마법에 홀려 있음": "exposed pleasure careful",
+      "마법을 뿌리침": "resist sought counsels",
+      "남을 홀리려 함": "trying enchant fall"
+    }
+  },
+  {
+    "id": "encyclopedia",
+    "aliases": [
+      "백과사전을",
+      "백과사전이",
+      "백과전서"
+    ],
+    "aliases_en": [
+      "encyclopedia",
+      "encyclopedias"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "engagement",
+    "aliases": [
+      "약혼했다",
+      "약혼을",
+      "약혼이",
+      "혼약",
+      "정혼"
+    ],
+    "aliases_en": [
+      "engaged",
+      "an engagement"
+    ],
+    "contexts": {
+      "약혼함": "맺었 하기로 반지를",
+      "약혼을 깸": "깼다 깨뜨 파혼 물렀"
+    },
+    "contexts_en": {
+      "약혼함": "young people admired",
+      "약혼을 깸": "breaking hasty unwise"
+    }
+  },
+  {
+    "id": "business-engagement",
+    "aliases": [
+      "사업 약속",
+      "업무 약속",
+      "일로 만날 약속",
+      "사업상 약속을"
+    ],
+    "aliases_en": [
+      "a business engagement"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "engine",
+    "aliases": [
+      "기관차를",
+      "기관차가",
+      "증기기관"
+    ],
+    "aliases_en": [
+      "an engine",
+      "engines"
+    ],
+    "contexts": {
+      "기관차를 봄": "달리는 지나가는",
+      "고장 난 기관차를 봄": "고장 망가 멈춰선 부서진"
+    },
+    "contexts_en": {
+      "기관차를 봄": "grave difficulties journeys uphold",
+      "고장 난 기관차를 봄": "disabled misfortune relatives"
+    }
+  },
+  {
+    "id": "engineer",
+    "aliases": [
+      "기관사를",
+      "기관사가",
+      "기관수"
+    ],
+    "aliases_en": [
+      "an engineer",
+      "engineers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

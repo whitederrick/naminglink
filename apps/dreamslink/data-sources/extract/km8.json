@@ -911,8 +911,16 @@
       "empress",
       "royal consort"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "왕비가 불러 마시게 함": "마시 권하 술을",
+      "황후를 봄": "황후를 황후가",
+      "황후와 황제를 함께 봄": "황제 함께 나란히"
+    },
+    "contexts_en": {
+      "왕비가 불러 마시게 함": "summoned drink",
+      "황후를 봄": "exalted honors pride unpopular",
+      "황후와 황제를 함께 봄": "emperor substantial"
+    }
   },
   {
     "id": "red-clothing",

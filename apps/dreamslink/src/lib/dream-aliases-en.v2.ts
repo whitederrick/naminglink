@@ -4934,5 +4934,71 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "an elevator",
     "elevators",
     "a lift"
+  ],
+  "elixir-of-life": [
+    "elixir of life",
+    "the elixir"
+  ],
+  "elopement": [
+    "eloping",
+    "eloped",
+    "elopement"
+  ],
+  "eloquence": [
+    "eloquent",
+    "eloquence"
+  ],
+  "embalming": [
+    "embalming",
+    "embalmed"
+  ],
+  "embankment": [
+    "an embankment",
+    "embankments"
+  ],
+  "embrace": [
+    "embrace",
+    "embracing",
+    "hugged"
+  ],
+  "embroidery": [
+    "embroidery",
+    "embroidering"
+  ],
+  "emerald": [
+    "an emerald",
+    "emeralds"
+  ],
+  "employee": [
+    "an employee",
+    "employees"
+  ],
+  "employment": [
+    "employment",
+    "out of work"
+  ],
+  "enchantment": [
+    "enchantment",
+    "enchanted",
+    "under a spell"
+  ],
+  "encyclopedia": [
+    "encyclopedia",
+    "encyclopedias"
+  ],
+  "engagement": [
+    "engaged",
+    "an engagement"
+  ],
+  "business-engagement": [
+    "a business engagement"
+  ],
+  "engine": [
+    "an engine",
+    "engines"
+  ],
+  "engineer": [
+    "an engineer",
+    "engineers"
   ]
 };
