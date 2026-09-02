@@ -332,7 +332,14 @@
     "aliases": [
       "미용사",
       "머리 깎아주는 사람",
-      "이발소 주인"
+      "이발소 주인",
+      "미용실",
+      "이발소",
+      "염색",
+      "머리를 물들였다",
+      "머리카락을 물들였다",
+      "머리를 염색했다",
+      "머리 염색"
     ],
     "aliases_en": [
       "a hairdresser",
@@ -340,12 +347,20 @@
       "a barbershop man"
     ],
     "contexts": {
-      "이발사 꿈을 꿈": "보았 만났 내가",
-      "젊은 여성이 이발사 꿈을 꿈": "젊은 여성 처녀 아가씨"
+      "이발사 꿈을 꿈": "만났 마주쳤",
+      "젊은 여성이 이발사 꿈을 꿈": "젊은 여성 처녀 아가씨",
+      "머리 손질하는 곳에 감": "갔다 들렀 찾아갔",
+      "여성이 머리 손질하는 곳 꿈을 꿈": "여자가 부인이",
+      "여성이 머리카락을 물들임": "물들 염색",
+      "여성이 머리를 매만져 꾸밈": "매만 꾸몄 손질받"
     },
     "contexts_en": {
       "이발사 꿈을 꿈": "saw met myself",
-      "젊은 여성이 이발사 꿈을 꿈": "young woman girl maiden"
+      "젊은 여성이 이발사 꿈을 꿈": "young woman girl maiden",
+      "머리 손질하는 곳에 감": "visit connected sensation indiscretion",
+      "여성이 머리 손질하는 곳 꿈을 꿈": "family disturbance merited censures",
+      "여성이 머리카락을 물들임": "colored narrowly escape scorn blight",
+      "여성이 머리를 매만져 꾸밈": "dressed frivolous bend wishes"
     }
   },
   {

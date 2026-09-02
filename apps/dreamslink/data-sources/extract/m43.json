@@ -1,0 +1,512 @@
+[
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "남자가 제 머리숱이 줄어드는 것을 봄",
+    "interpretation_ko": "너그러움 탓에 살림이 기울고 마음고생으로 앓을 흉한 조짐",
+    "interpretation_en": "foreshadows that he will become poor by his generosity, and suffer illness through mental worry",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For a man to dream that he is thinning his hair, foreshadows that he will become poor by his generosity, and suffer illness through mental worry.",
+      "translation_ko": "남자가 제 머리숱이 줄어드는 꿈은, 너그러움 탓에 살림이 기울고 마음고생으로 앓음을 알린다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "온몸이 털로 덮인 제 모습을 봄",
+    "interpretation_ko": "그릇된 즐거움에 빠져 점잖은 자리에서 밀려날 흉한 조짐",
+    "interpretation_en": "omens indulgence in vices to such an extent as will debar you from the society of refined people",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To see yourself covered with hair, omens indulgence in vices to such an extent as will debar you from the society of refined people.",
+      "translation_ko": "온몸이 털로 덮인 제 모습을 보면, 그릇된 즐거움에 빠져 점잖은 자리에서 밀려남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "남자가 검고 곱슬한 머리카락을 지님",
+    "interpretation_ko": "듣기 좋은 말솜씨로 남을 속일 흉한 조짐",
+    "interpretation_en": "he will deceive people through his pleasing address",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If a man dreams that he has black, curling hair, he will deceive people through his pleasing address.",
+      "translation_ko": "남자가 검고 곱슬한 머리카락을 지닌 꿈은, 듣기 좋은 말솜씨로 남을 속임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "여성의 머리카락이 검고 곱슬함",
+    "interpretation_ko": "꾐에 넘어갈 위험이 닥칠 흉한 조짐",
+    "interpretation_en": "she will be threatened with seduction",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If a woman's hair seems black and curly, she will be threatened with seduction.",
+      "translation_ko": "여성의 머리카락이 검고 곱슬해 보이면, 꾐에 넘어갈 위험이 닥친다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "금빛 머리카락의 여성을 봄",
+    "interpretation_ko": "겁 없는 정인이 되고 여성에게 참된 벗이 될 길한 조짐",
+    "interpretation_en": "you will prove a fearless lover and be woman's true friend",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If you dream of seeing a woman with golden hair, you will prove a fearless lover and be woman's true friend.",
+      "translation_ko": "금빛 머리카락의 여성을 보는 꿈은, 겁 없는 정인이 되고 여성에게 참된 벗이 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "정인의 머리카락이 붉음",
+    "interpretation_ko": "사랑하는 이에게서 딴마음을 품었다고 몰릴 흉한 조짐",
+    "interpretation_en": "you will be denounced by the woman you love for unfaithfulness",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To dream that your sweetheart has red hair, you will be denounced by the woman you love for unfaithfulness.",
+      "translation_ko": "정인의 머리카락이 붉은 꿈은, 사랑하는 이에게서 딴마음을 품었다고 몰림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "밤빛 머리카락을 봄",
+    "interpretation_ko": "길을 고르는 데서 운이 따르지 않을 흉한 조짐",
+    "interpretation_en": "you will be unfortunate in choosing a career",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If you see brown hair, you will be unfortunate in choosing a career.",
+      "translation_ko": "밤빛 머리카락을 보면, 길을 고르는 데서 운이 따르지 않는다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "잘 손질된 머리카락을 봄",
+    "interpretation_ko": "복이 나아질 길한 조짐",
+    "interpretation_en": "your fortune will improve",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If you see well kept and neatly combed hair, your fortune will improve.",
+      "translation_ko": "잘 손질되고 단정히 빗긴 머리카락을 보면, 복이 나아진다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "머리카락을 살갗에 닿도록 바짝 깎음",
+    "interpretation_ko": "벗에게 아낌없이 베풀고 그 열매로 검소해질 조짐",
+    "interpretation_en": "denotes that you will be generous to lavishness towards a friend",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To dream you cut your hair close to the scalp, denotes that you will be generous to lavishness towards a friend.",
+      "translation_ko": "머리카락을 살갗에 닿도록 바짝 깎는 꿈은, 벗에게 아낌없이 베풂을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "머리카락이 부드럽고 탐스럽게 자라남",
+    "interpretation_ko": "즐거움과 넉넉함이 따를 길한 조짐",
+    "interpretation_en": "signifies happiness and luxury",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To see the hair growing out soft and luxuriant, signifies happiness and luxury.",
+      "translation_ko": "머리카락이 부드럽고 탐스럽게 자라나는 것을 보면, 즐거움과 넉넉함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "여성이 흰 머리카락과 검은 머리카락을 견주어 봄",
+    "interpretation_ko": "복돼 보이는 두 자리를 놓고 망설이다 잘못 골라 손해를 볼 흉한 조짐",
+    "interpretation_en": "foretells that she will be likely to hesitate between two offers of seeming fortune",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For a woman to compare a white hair with a black one, which she takes from her head, foretells that she will be likely to hesitate between two offers of seeming fortune, and unless she uses great care, will choose the one that will afford her loss or distress instead of pleasant fortune.",
+      "translation_ko": "여성이 머리에서 뽑은 흰 머리카락과 검은 머리카락을 견주어 보면, 복돼 보이는 두 자리를 놓고 망설이다 잘못 골라 손해를 본다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "헝클어지고 텁수룩한 머리카락을 봄",
+    "interpretation_ko": "삶이 짐스럽고 하는 일이 줄며 혼인살이가 고될 흉한 조짐",
+    "interpretation_en": "life will be a veritable burden, business will fall off, and the marriage yoke will be troublesome to carry",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To see tangled and unkempt hair, life will be a veritable burden, business will fall off, and the marriage yoke will be troublesome to carry.",
+      "translation_ko": "헝클어지고 텁수룩한 머리카락을 보면, 삶이 짐스럽고 하는 일이 줄며 혼인살이가 고되다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "처녀가 흰머리 여성들을 봄",
+    "interpretation_ko": "그들이 겨루는 이로 나타나 정분을 가로챌 흉한 조짐",
+    "interpretation_en": "denotes that they will come into her life as rivals in the affection of a male relative",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For a young woman to dream of women with gray hair, denotes that they will come into her life as rivals in the affection of a male relative, or displace the love of her affianced.",
+      "translation_ko": "처녀가 흰머리 여성들을 보는 꿈은, 그들이 겨루는 이로 나타나 정분을 가로챔을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "눈처럼 새하얀 머리카락을 지님",
+    "interpretation_ko": "한살이가 즐겁고 복될 길한 조짐",
+    "interpretation_en": "denotes that they will enjoy a pleasing and fortunate journey through life",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For man or woman to dream that they have hair of snowy whiteness, denotes that they will enjoy a pleasing and fortunate journey through life.",
+      "translation_ko": "남녀를 가리지 않고 눈처럼 새하얀 머리카락을 지닌 꿈은, 즐겁고 복된 한살이를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "남자가 여인의 머리카락을 쓰다듬음",
+    "interpretation_ko": "세상의 손가락질에도 저를 믿어 주는 이의 사랑과 믿음을 얻을 길한 조짐",
+    "interpretation_en": "shows he will enjoy the love and confidence of some worthy woman who will trust him despite the world's condemnation",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For a man to caress the hair of a woman, shows he will enjoy the love and confidence of some worthy woman who will trust him despite the world's condemnation.",
+      "translation_ko": "남자가 여인의 머리카락을 쓰다듬으면, 세상의 손가락질에도 저를 믿어 주는 이의 사랑과 믿음을 얻는다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "머리카락에 꽃이 꽂힌 것을 봄",
+    "interpretation_ko": "걱정거리가 다가오나 막상 닥치면 멀리서 볼 때보다 덜 두려울 조짐",
+    "interpretation_en": "foretells troubles approaching which, when they come, will give you less fear than when viewed from a distance",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To see flowers in your hair, foretells troubles approaching which, when they come, will give you less fear than when viewed from a distance.",
+      "translation_ko": "머리카락에 꽂힌 꽃을 보면, 다가오는 걱정거리를 알리나 막상 닥치면 멀리서 볼 때보다 덜 두렵다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "여성의 머리카락이 흰 꽃으로 바뀜",
+    "interpretation_ko": "온갖 걱정이 닥치니 참을성으로 마음을 다잡아야 할 흉한 조짐",
+    "interpretation_en": "augurs that troubles of a various nature will confront her",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "For a woman to dream that her hair turns to white flowers, augurs that troubles of a various nature will confront her, and she does well if she strengthens her soul with patience, and endeavors to bear her trials with fortitude.",
+      "translation_ko": "여성의 머리카락이 흰 꽃으로 바뀌는 꿈은, 온갖 걱정이 닥침을 알리며 참을성으로 마음을 다잡아야 한다"
+    }
+  },
+  {
+    "term_ko": "머리카락",
+    "term_en": "hair",
+    "context": "하룻밤에 머리카락이 온통 희어지고 낯은 젊음",
+    "interpretation_ko": "갑작스러운 재앙과 깊은 슬픔이 닥칠 흉한 조짐",
+    "interpretation_en": "foretells sudden calamity and deep grief",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "To see one's hair turn perfectly white in one night, and the face seemingly young, foretells sudden calamity and deep grief.",
+      "translation_ko": "하룻밤에 머리카락이 온통 희어지고 낯은 젊어 보이면, 갑작스러운 재앙과 깊은 슬픔을 알린다"
+    }
+  },
+  {
+    "term_ko": "머리 빗기",
+    "term_en": "combing one's hair",
+    "context": "여성이 고운 머리카락을 빗음",
+    "interpretation_ko": "제 일에 소홀하고 마음 쓰기를 게을리해 앞길을 놓칠 흉한 조짐",
+    "interpretation_en": "she will be careless in her personal affairs, and will lose advancement by neglecting mental application",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If a woman dreams that she has beautiful hair and combs it, she will be careless in her personal affairs, and will lose advancement by neglecting mental application.",
+      "translation_ko": "여성이 고운 머리카락을 빗는 꿈은, 제 일에 소홀하고 마음 쓰기를 게을리해 앞길을 놓침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리 빗기",
+    "term_en": "combing one's hair",
+    "context": "여성이 머리카락을 빗지 못함",
+    "interpretation_ko": "부질없이 성을 내고 깔보다가 좋은 사람의 이름을 잃을 흉한 조짐",
+    "interpretation_en": "she will lose a worthy man's name by needless show of temper and disdain",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair",
+      "original": "If a woman is unsuccessful in combing her hair, she will lose a worthy man's name by needless show of temper and disdain.",
+      "translation_ko": "여성이 머리카락을 빗지 못하면, 부질없이 성을 내고 깔보다가 좋은 사람의 이름을 잃는다"
+    }
+  },
+  {
+    "term_ko": "이발사",
+    "term_en": "barber",
+    "context": "머리 손질하는 곳에 감",
+    "interpretation_ko": "잘생긴 이의 경솔한 처신이 일으킨 소란에 얽힐 흉한 조짐",
+    "interpretation_en": "you will be connected with a sensation caused by the indiscretion of a good looking woman",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair-dresser",
+      "original": "Should you visit a hair-dresser in your dreams, you will be connected with a sensation caused by the indiscretion of a good looking woman.",
+      "translation_ko": "꿈에 머리 손질하는 곳에 가면, 잘생긴 이의 경솔한 처신이 일으킨 소란에 얽힌다"
+    }
+  },
+  {
+    "term_ko": "이발사",
+    "term_en": "barber",
+    "context": "여성이 머리 손질하는 곳 꿈을 꿈",
+    "interpretation_ko": "집안이 시끄럽고 마땅한 나무람을 들을 흉한 조짐",
+    "interpretation_en": "this dream means a family disturbance and well merited censures",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair-dresser",
+      "original": "To a woman, this dream means a family disturbance and well merited censures.",
+      "translation_ko": "여성에게 이 꿈은, 집안의 시끄러움과 마땅한 나무람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "이발사",
+    "term_en": "barber",
+    "context": "여성이 머리카락을 물들임",
+    "interpretation_ko": "원수가 이름을 흠내려 하나 아슬아슬하게 손가락질을 피할 조짐",
+    "interpretation_en": "she will narrowly escape the scorn of society, as enemies will seek to blight her reputation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair-dresser",
+      "original": "For a woman to dream of having her hair colored, she will narrowly escape the scorn of society, as enemies will seek to blight her reputation.",
+      "translation_ko": "여성이 머리카락을 물들이는 꿈은, 원수가 이름을 흠내려 하나 아슬아슬하게 손가락질을 피함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "이발사",
+    "term_en": "barber",
+    "context": "여성이 머리를 매만져 꾸밈",
+    "interpretation_ko": "헛된 것을 좇고 수단을 가리지 않고 남을 제 뜻대로 휘두를 흉한 조짐",
+    "interpretation_en": "denotes that she will run after frivolous things, and use any means to bend people to her wishes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hair-dresser",
+      "original": "To have her hair dressed, denotes that she will run after frivolous things, and use any means to bend people to her wishes,",
+      "translation_ko": "머리를 매만져 꾸미면, 헛된 것을 좇고 수단을 가리지 않고 남을 제 뜻대로 휘두름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "손",
+    "term_en": "hand",
+    "context": "손이 짐승처럼 털로 덮임",
+    "interpretation_ko": "죄 없는 이를 해치려 꾀하다 도리어 벼르고 있는 원수를 만날 흉한 조짐",
+    "interpretation_en": "signifies you will intrigue against innocent people, and will find that you have alert enemies",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hairy Hands",
+      "original": "To dream that your hands are covered with hair like that of a beast, signifies you will intrigue against innocent people, and will find that you have alert enemies who are working to forestall your designs.",
+      "translation_ko": "손이 짐승처럼 털로 덮인 꿈은, 죄 없는 이를 해치려 꾀하다 벼르고 있는 원수를 만남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "굴레",
+    "term_en": "bridle",
+    "context": "어린 말에 굴레를 씌움",
+    "interpretation_ko": "잘되고 떳떳한 일을 꾸리며 정분도 뜻대로 될 길한 조짐",
+    "interpretation_en": "shows that you will manage a very prosperous and clean business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Halter",
+      "original": "To dream that you put a halter on a young horse, shows that you will manage a very prosperous and clean business.",
+      "translation_ko": "어린 말에 굴레를 씌우는 꿈은, 잘되고 떳떳한 일을 꾸림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "굴레",
+    "term_en": "bridle",
+    "context": "다른 것에 굴레가 씌워진 것을 봄",
+    "interpretation_ko": "한동안 복이 미뤄지고 애를 많이 써야 얻을 조짐",
+    "interpretation_en": "denotes that fortune will be withheld from you for a while. You will win it, but with much toil",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Halter",
+      "original": "To see other things haltered, denotes that fortune will be withheld from you for a while.",
+      "translation_ko": "다른 것에 굴레가 씌워진 것을 보면, 한동안 복이 미뤄진다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄을 봄",
+    "interpretation_ko": "속임수에 넘어갈 위험이 있는 흉한 조짐",
+    "interpretation_en": "signifies you are in danger of being treacherously used",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To dream of seeing hams, signifies you are in danger of being treacherously used.",
+      "translation_ko": "햄을 보는 꿈은, 속임수에 넘어갈 위험을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄을 큼직하게 썲",
+    "interpretation_ko": "맞서는 힘을 모두 잘 넘길 길한 조짐",
+    "interpretation_en": "denotes that all opposition will be successfully met by you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To cut large slices of ham, denotes that all opposition will be successfully met by you.",
+      "translation_ko": "햄을 큼직하게 썰면, 맞서는 힘을 모두 잘 넘김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄을 손질함",
+    "interpretation_ko": "남에게서 너그럽게 대접받을 길한 조짐",
+    "interpretation_en": "signifies you will be leniently treated by others",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To dress a ham, signifies you will be leniently treated by others.",
+      "translation_ko": "햄을 손질하면, 남에게서 너그럽게 대접받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄을 사고팖",
+    "interpretation_ko": "살림이 넉넉해지고 몸도 성할 길한 조짐",
+    "interpretation_en": "prosperity will come to you. Also good health is foreboded",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To dream of dealing in hams, prosperity will come to you.",
+      "translation_ko": "햄을 사고파는 꿈은, 넉넉한 살림이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄을 먹음",
+    "interpretation_ko": "값진 것을 잃을 흉한 조짐",
+    "interpretation_en": "you will lose something of great value",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To eat ham, you will lose something of great value.",
+      "translation_ko": "햄을 먹으면, 값진 것을 잃는다"
+    }
+  },
+  {
+    "term_ko": "햄고기",
+    "term_en": "ham",
+    "context": "햄 익는 냄새를 맡음",
+    "interpretation_ko": "남이 벌인 일 덕을 볼 길한 조짐",
+    "interpretation_en": "you will be benefited by the enterprises of others",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ham",
+      "original": "To smell ham cooking, you will be benefited by the enterprises of others.",
+      "translation_ko": "햄 익는 냄새를 맡으면, 남이 벌인 일 덕을 본다"
+    }
+  },
+  {
+    "term_ko": "망치",
+    "term_en": "hammer",
+    "context": "망치를 봄",
+    "interpretation_ko": "살림을 단단히 세우려면 맥 빠지는 걸림돌을 넘어야 할 조짐",
+    "interpretation_en": "denotes you will have some discouraging obstacles to overcome in order to establish firmly your fortune",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hammer",
+      "original": "To dream of seeing a hammer, denotes you will have some discouraging obstacles to overcome in order to establish firmly your fortune.",
+      "translation_ko": "망치를 보는 꿈은, 살림을 단단히 세우려면 맥 빠지는 걸림돌을 넘어야 함을 뜻한다"
+    }
+  }
+]

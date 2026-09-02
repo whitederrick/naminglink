@@ -703,7 +703,9 @@
       "빗질했다",
       "빗질을",
       "빗었다",
-      "빗고"
+      "빗고",
+      "머리를 빗지",
+      "빗지 못"
     ],
     "aliases_en": [
       "comb my hair",
@@ -713,11 +715,15 @@
     ],
     "contexts": {
       "머리를 빗음": "빗질 빗으로",
-      "머리를 곱게 빗음": "곱게 단정 정갈"
+      "머리를 곱게 빗음": "곱게 단정 정갈",
+      "여성이 고운 머리카락을 빗음": "고운 아름다운 여자가",
+      "여성이 머리카락을 빗지 못함": "못했 안빗 헝클려"
     },
     "contexts_en": {
       "머리를 빗음": "illness relative decay",
-      "머리를 곱게 빗음": "neatly tidily groomed"
+      "머리를 곱게 빗음": "neatly tidily groomed",
+      "여성이 고운 머리카락을 빗음": "beautiful careless personal advancement",
+      "여성이 머리카락을 빗지 못함": "unsuccessful worthy temper disdain"
     }
   },
   {

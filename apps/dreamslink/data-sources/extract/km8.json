@@ -592,11 +592,13 @@
     ],
     "contexts": {
       "망치와 송곳을 봄": "송곳 나란히 함께",
-      "망치를 들려 하는데 잡아 주는 사람이 있음": "들려 잡아주 도와 누군가"
+      "망치를 들려 하는데 잡아 주는 사람이 있음": "들려 잡아주 도와 누군가",
+      "망치를 봄": "보았 놓여"
     },
     "contexts_en": {
       "망치와 송곳을 봄": "awl gimlet together",
-      "망치를 들려 하는데 잡아 주는 사람이 있음": "lifting helped someone assist"
+      "망치를 들려 하는데 잡아 주는 사람이 있음": "lifting helped someone assist",
+      "망치를 봄": "seeing discouraging obstacles establish"
     }
   },
   {

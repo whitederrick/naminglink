@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ham",
+    "aliases": [
+      "햄고기",
+      "햄을",
+      "햄이",
+      "햄은",
+      "햄에",
+      "햄 익는",
+      "햄 냄새"
+    ],
+    "aliases_en": [
+      "hams",
+      "a ham"
+    ],
+    "contexts": {
+      "햄을 봄": "보았 보였",
+      "햄을 큼직하게 썲": "큼직 썰었 저몄",
+      "햄을 손질함": "손질 다듬",
+      "햄을 사고팖": "사고팔 팔았 장사",
+      "햄을 먹음": "먹었 먹는",
+      "햄 익는 냄새를 맡음": "냄새 맡았 익는"
+    },
+    "contexts_en": {
+      "햄을 봄": "seeing danger treacherously used",
+      "햄을 큼직하게 썲": "cut large slices opposition successfully",
+      "햄을 손질함": "dress leniently others",
+      "햄을 사고팖": "dealing prosperity good health",
+      "햄을 먹음": "eat lose something great value",
+      "햄 익는 냄새를 맡음": "smell cooking benefited enterprises"
+    }
+  }
+]

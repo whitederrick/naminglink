@@ -5487,5 +5487,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "hail": [
     "hail",
     "hail-stones"
+  ],
+  "ham": [
+    "hams",
+    "a ham"
   ]
 };
