@@ -870,8 +870,14 @@
       "hunter",
       "hunting trip"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "사냥을 함": "쫓았 좇았",
+      "숲속에서 사냥을 함": "숲속 숲에서 산속"
+    },
+    "contexts_en": {
+      "사냥을 함": "struggle unattainable",
+      "숲속에서 사냥을 함": "forest woods"
+    }
   },
   {
     "id": "iron-2",

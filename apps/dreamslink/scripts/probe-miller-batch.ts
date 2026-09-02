@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 53 — Horseshoe~Hotel, 23건)
+// (지금 담긴 것: 배치 54 — Hounds~Hurt, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,31 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "horseshoe", ctx: "편자를 봄", text: "편자가 반짝이고 있었다" },
-  { id: "horseshoe", ctx: "부러진 편자를 봄", text: "부러진 편자를 보았다" },
-  { id: "horseshoe", ctx: "울타리에 걸린 편자를 봄", text: "울타리에 걸린 편자를 보았다" },
-  { id: "horseshoe", ctx: "길에서 편자를 주움", text: "길에서 편자를 주웠다" },
-  { id: "horseradish", ctx: "서양고추냉이를 봄", text: "고추냉이가 밭에 있었다" },
-  { id: "horseradish", ctx: "여성이 서양고추냉이 꿈을 꿈", text: "여자가 고추냉이를 보았다" },
-  { id: "horseradish", ctx: "서양고추냉이를 먹음", text: "고추냉이를 먹었다" },
-  { id: "horse", ctx: "말을 바꾸다 장수에게 속음", text: "말을 바꾸다 속았다" },
-  { id: "horse", ctx: "바꾼 말이 먼저 것보다 나음", text: "바꾼 말이 더 나은 말이었다" },
-  { id: "horse", ctx: "말 장수를 봄", text: "말 장수를 보았다" },
-  { id: "hospital", ctx: "병원에 환자로 있음", text: "병원에 환자로 누워있었다" },
-  { id: "hospital", ctx: "병원으로 문병을 감", text: "병원으로 문병을 갔다" },
-  { id: "hotel", ctx: "여관에 묵음", text: "여관에 묵고 있었다" },
-  { id: "hotel", ctx: "여관에서 여자를 만남", text: "여관에서 여자를 만났다" },
-  { id: "hotel", ctx: "좋은 여관을 봄", text: "훌륭한 여관을 보았다" },
-  { id: "hotel", ctx: "여관 주인이 됨", text: "내가 여관 주인이 되었다" },
-  { id: "hotel", ctx: "여관에서 일함", text: "여관에서 일했다" },
-  { id: "hotel", ctx: "여관을 찾아다님", text: "여관을 찾아다녔다" },
+  { id: "embrace", ctx: "껴안음", text: "누군가를 껴안았다" },
+  { id: "embrace", ctx: "여성이 남자를 껴안음", text: "여자가 남자를 껴안았다" },
+  { id: "embrace", ctx: "지어미가 남편 아닌 이를 껴안음", text: "남편이 아닌 사람을 껴안았다" },
+  { id: "hunting", ctx: "사냥을 함", text: "사냥을 했다" },
+  { id: "famish", ctx: "배가 고픔", text: "배가 고팠다" },
+  { id: "dog", ctx: "사냥개가 사냥에 나선 것을 봄", text: "사냥개가 사냥에 나섰다" },
+  { id: "dog", ctx: "여성이 사냥개 꿈을 꿈", text: "여자가 사냥개를 보았다" },
+  { id: "housekeeper", ctx: "제가 가정부가 됨", text: "내가 가정부가 되었다" },
+  { id: "housekeeper", ctx: "가정부를 들임", text: "가정부를 들였다" },
+  { id: "hunchback", ctx: "등이 굽은 사람을 봄", text: "등이 굽은 사람을 보았다" },
+  { id: "hurt", ctx: "남을 다치게 함", text: "남을 다치게 했다" },
+  { id: "hurt", ctx: "제가 다침", text: "내가 다쳤다" },
 
-  // 배치 50~52가 넣은 것과 옛 답 — **그대로인지** 함께 잰다.
-  { id: "horse", ctx: "말과 함께 꼭대기에 오름", text: "말과 함께 꼭대기에 올랐다" },
-  { id: "horse", ctx: "말이 다른 말들과 함께 달아남", text: "말이 다른 말들과 함께 달아났다" },
-  { id: "horse", ctx: "말에게 편자를 박게 함", text: "말에게 편자를 박게 했다" },
-  { id: "horse", ctx: "흰 말을 타고 감", text: "흰말을 타고 갔다" },
-  { id: "horse", ctx: "망아지를 봄", text: "망아지를 보았다" },
+  // 이 배치가 기존 판별어를 좁힌 자리 — **옛 답이 그대로인지** 함께 잰다.
+  { id: "embrace", ctx: "지아비나 지어미를 시들하게 껴안음", text: "지아비를 시들하게 껴안았다" },
+  { id: "famish", ctx: "제가 굶주림", text: "내가 굶주렸다" },
+  { id: "hunting", ctx: "숲속에서 사냥을 함", text: "숲속에서 사냥을 했다" },
+  { id: "dog", ctx: "사냥개가 뒤를 쫓음", text: "사냥개가 냄새를 맡고 뒤를 따라왔다" },
+  { id: "horseshoe", ctx: "편자를 봄", text: "편자가 반짝이고 있었다" },
 ];
 
 let notFound = 0;

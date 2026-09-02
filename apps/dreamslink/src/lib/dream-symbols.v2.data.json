@@ -52,6 +52,7 @@
     "m51.json",
     "m52.json",
     "m53.json",
+    "m54.json",
     "m6.json",
     "m7a.json",
     "m7b.json",
@@ -1318,6 +1319,34 @@
               "locator": "Greyhound",
               "original": "If a greyhound is owned by you, it signifies friends where enemies were expected.",
               "translation_ko": "날쌘 사냥개가 제 것이면, 원수인 줄 알았던 자리에서 벗을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "사냥개가 사냥에 나선 것을 봄",
+          "interpretation_ko": "즐거운 일과 반가운 바뀜이 다가올 길한 조짐",
+          "interpretation_en": "denotes coming delights and pleasant changes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hounds",
+              "original": "To dream of hounds on a hunt, denotes coming delights and pleasant changes.",
+              "translation_ko": "사냥개가 사냥에 나선 꿈은, 즐거운 일과 반가운 바뀜이 다가옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 사냥개 꿈을 꿈",
+          "interpretation_ko": "제 자리보다 낮은 사람을 마음에 두게 될 조짐",
+          "interpretation_en": "she will love a man below her in station",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hounds",
+              "original": "For a woman to dream of hounds, she will love a man below her in station.",
+              "translation_ko": "여성이 사냥개 꿈을 꾸면, 제 자리보다 낮은 사람을 마음에 두게 된다"
             }
           ]
         },
@@ -19338,6 +19367,125 @@
       ]
     },
     {
+      "id": "embrace",
+      "term_ko": "껴안음",
+      "term_en": "embrace",
+      "aliases": [
+        "껴안았다",
+        "끌어안았다",
+        "포옹",
+        "안아 주었다",
+        "껴안고"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "껴안음",
+          "interpretation_ko": "사랑에도 장사에도 실망이 따를 흉한 조짐",
+          "interpretation_en": "you will be disappointed in love affairs and in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hugging",
+              "original": "If you dream of hugging, you will be disappointed in love affairs and in business.",
+              "translation_ko": "껴안는 꿈은, 사랑에도 장사에도 실망이 따름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "지아비나 지어미를 시들하게 껴안음",
+          "interpretation_ko": "집안에 다툼과 헐뜯음이 있고 병까지 닥칠 흉한 조짐",
+          "interpretation_en": "you will have dissensions and accusations in your family, also that sickness is threatened",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Embrace",
+              "original": "To dream of embracing your husband or wife, as the case may be, in a sorrowing or indifferent way, denotes that you will have dissensions and accusations in your family, also that sickness is threatened.",
+              "translation_ko": "지아비나 지어미를 슬픈 낯으로 또는 시들하게 껴안는 꿈은, 집안에 다툼과 헐뜯음이 있고 병까지 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "살붙이를 껴안음",
+          "interpretation_ko": "그들에게 병과 언짢은 일이 있을 흉한 조짐",
+          "interpretation_en": "signifies their sickness and unhappiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Embrace",
+              "original": "To embrace relatives, signifies their sickness and unhappiness.",
+              "translation_ko": "살붙이를 껴안는 꿈은 그들의 병과 언짢은 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정든 사이끼리 껴안음",
+          "interpretation_ko": "한눈판 일로 다투고 사이가 틀어질 흉한 조짐",
+          "interpretation_en": "quarrels and disagreements arising from infidelity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Embrace",
+              "original": "For lovers to dream of embracing, foretells quarrels and disagreements arising from infidelity.",
+              "translation_ko": "정든 사이가 서로 껴안는 꿈은, 한눈판 일에서 비롯된 다툼과 틀어짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 사람을 껴안음",
+          "interpretation_ko": "달갑지 않은 손님이 올 흉한 조짐",
+          "interpretation_en": "you will have an unwelcome guest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Embrace",
+              "original": "If you embrace a stranger, it signifies that you will have an unwelcome guest.",
+              "translation_ko": "낯선 사람을 껴안는 꿈은 달갑지 않은 손님이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남자를 껴안음",
+          "interpretation_ko": "미덥지 못한 사람의 구애를 받아들일 흉한 조짐",
+          "interpretation_en": "she will accept advances of a doubtful character from men",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hugging",
+              "original": "For a woman to dream of hugging a man, she will accept advances of a doubtful character from men.",
+              "translation_ko": "여성이 남자를 껴안는 꿈은, 미덥지 못한 사람의 구애를 받아들임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "지어미가 남편 아닌 이를 껴안음",
+          "interpretation_ko": "남편이 없는 사이 남의 눈길을 받아들여 이름을 더럽힐 흉한 조짐",
+          "interpretation_en": "she will endanger her honor in accepting attentions from others in her husband's absence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hugging",
+              "original": "For a married woman to hug others than her husband, she will endanger her honor in accepting attentions from others in her husband's absence.",
+              "translation_ko": "지어미가 남편 아닌 이를 껴안는 꿈은, 남편이 없는 사이 남의 눈길을 받아들여 이름을 더럽힘을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "falcon",
       "term_ko": "송골매",
       "term_en": "falcon",
@@ -34701,83 +34849,6 @@
       ]
     },
     {
-      "id": "embrace",
-      "term_ko": "껴안음",
-      "term_en": "embrace",
-      "aliases": [
-        "껴안았다",
-        "끌어안았다",
-        "포옹",
-        "안아 주었다",
-        "껴안고"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "지아비나 지어미를 시들하게 껴안음",
-          "interpretation_ko": "집안에 다툼과 헐뜯음이 있고 병까지 닥칠 흉한 조짐",
-          "interpretation_en": "you will have dissensions and accusations in your family, also that sickness is threatened",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Embrace",
-              "original": "To dream of embracing your husband or wife, as the case may be, in a sorrowing or indifferent way, denotes that you will have dissensions and accusations in your family, also that sickness is threatened.",
-              "translation_ko": "지아비나 지어미를 슬픈 낯으로 또는 시들하게 껴안는 꿈은, 집안에 다툼과 헐뜯음이 있고 병까지 닥침을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "살붙이를 껴안음",
-          "interpretation_ko": "그들에게 병과 언짢은 일이 있을 흉한 조짐",
-          "interpretation_en": "signifies their sickness and unhappiness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Embrace",
-              "original": "To embrace relatives, signifies their sickness and unhappiness.",
-              "translation_ko": "살붙이를 껴안는 꿈은 그들의 병과 언짢은 일을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "정든 사이끼리 껴안음",
-          "interpretation_ko": "한눈판 일로 다투고 사이가 틀어질 흉한 조짐",
-          "interpretation_en": "quarrels and disagreements arising from infidelity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Embrace",
-              "original": "For lovers to dream of embracing, foretells quarrels and disagreements arising from infidelity.",
-              "translation_ko": "정든 사이가 서로 껴안는 꿈은, 한눈판 일에서 비롯된 다툼과 틀어짐을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "낯선 사람을 껴안음",
-          "interpretation_ko": "달갑지 않은 손님이 올 흉한 조짐",
-          "interpretation_en": "you will have an unwelcome guest",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Embrace",
-              "original": "If you embrace a stranger, it signifies that you will have an unwelcome guest.",
-              "translation_ko": "낯선 사람을 껴안는 꿈은 달갑지 않은 손님이 옴을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ermine",
       "term_ko": "담비 옷",
       "term_en": "ermine",
@@ -45179,6 +45250,70 @@
               "locator": "Failure",
               "original": "For a business man to dream that he has made a failure, forebodes loss and bad management, which should be corrected, or failure threatens to materialize in earnest.",
               "translation_ko": "장사하는 이가 일을 그르치는 꿈은 손해와 서투른 살림을 알린다. 바로잡지 않으면 참으로 그르치게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "famish",
+      "term_ko": "굶주림",
+      "term_en": "famish",
+      "aliases": [
+        "굶주렸다",
+        "굶주리",
+        "주려서",
+        "배고픔",
+        "배가 고팠다",
+        "허기"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 굶주림",
+          "interpretation_ko": "잘되리라 믿던 일이 크게 어그러질 흉한 조짐",
+          "interpretation_en": "you are meeting disheartening failure in some enterprise which you considered a promising success",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famish",
+              "original": "To dream that you are famishing, foretells that you are meeting disheartening failure in some enterprise which you considered a promising success.",
+              "translation_ko": "제가 굶주리는 꿈은, 잘되리라 여기던 일이 크게 어그러짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "남이 굶주리는 것을 봄",
+          "interpretation_ko": "남에게도 나에게도 슬픔이 올 흉한 조짐",
+          "interpretation_en": "brings sorrow to others as well as to yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Famish",
+              "original": "To see others famishing, brings sorrow to others as well as to yourself.",
+              "translation_ko": "남이 굶주리는 것을 보는 꿈은, 남에게도 나에게도 슬픔을 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "배가 고픔",
+          "interpretation_ko": "집에서 편안함을 찾지 못하고 연인에게는 고단한 혼인이 될 흉한 조짐",
+          "interpretation_en": "you will not find comfort and satisfaction in your home, and to lovers it means an unhappy marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hunger",
+              "original": "To dream that you are hungry, is an unfortunate omen.",
+              "translation_ko": "배가 고픈 꿈은 언짢은 조짐이다"
             }
           ]
         }
@@ -61492,53 +61627,6 @@
       ]
     },
     {
-      "id": "famish",
-      "term_ko": "굶주림",
-      "term_en": "famish",
-      "aliases": [
-        "굶주렸다",
-        "굶주리",
-        "주려서"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "제가 굶주림",
-          "interpretation_ko": "잘되리라 믿던 일이 크게 어그러질 흉한 조짐",
-          "interpretation_en": "you are meeting disheartening failure in some enterprise which you considered a promising success",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Famish",
-              "original": "To dream that you are famishing, foretells that you are meeting disheartening failure in some enterprise which you considered a promising success.",
-              "translation_ko": "제가 굶주리는 꿈은, 잘되리라 여기던 일이 크게 어그러짐을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "남이 굶주리는 것을 봄",
-          "interpretation_ko": "남에게도 나에게도 슬픔이 올 흉한 조짐",
-          "interpretation_en": "brings sorrow to others as well as to yourself",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Famish",
-              "original": "To see others famishing, brings sorrow to others as well as to yourself.",
-              "translation_ko": "남이 굶주리는 것을 보는 꿈은, 남에게도 나에게도 슬픔을 가져온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "farming",
       "term_ko": "농사",
       "term_en": "farming",
@@ -64261,6 +64349,150 @@
               "locator": "Hospital",
               "original": "If you visit patients there, you will hear distressing news of the absent.",
               "translation_ko": "병원으로 문병을 가면, 멀리 있는 이의 안타까운 소식을 듣는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housekeeper",
+      "term_ko": "가정부",
+      "term_en": "housekeeper",
+      "aliases": [
+        "가정부",
+        "살림꾼",
+        "집안일 하는 사람"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 가정부가 됨",
+          "interpretation_ko": "시간을 채울 일거리가 생기고 그 덕에 쉼이 값지게 될 조짐",
+          "interpretation_en": "denotes you will have labors which will occupy your time, and make pleasure an ennobling thing",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Housekeeper",
+              "original": "To dream that you are a housekeeper, denotes you will have labors which will occupy your time, and make pleasure an ennobling thing.",
+              "translation_ko": "제가 가정부가 되는 꿈은, 시간을 채울 일거리가 생기고 그 덕에 쉼이 값지게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가정부를 들임",
+          "interpretation_ko": "제법 넉넉한 살림을 누리게 될 길한 조짐",
+          "interpretation_en": "signifies comparative comfort will be possible for your obtaining",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Housekeeper",
+              "original": "To employ one, signifies comparative comfort will be possible for your obtaining.",
+              "translation_ko": "가정부를 들이면, 제법 넉넉한 살림을 누리게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunting",
+      "term_ko": "사냥",
+      "term_en": "hunting",
+      "aliases": [
+        "수렵",
+        "사냥꾼",
+        "몰이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사냥을 함",
+          "interpretation_ko": "닿을 수 없는 것을 좇아 애쓸 흉한 조짐",
+          "interpretation_en": "you will struggle for the unattainable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hunting",
+              "original": "If you dream of hunting, you will struggle for the unattainable.",
+              "translation_ko": "사냥하는 꿈은, 닿을 수 없는 것을 좇아 애씀을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "숲속에서 사냥을 함",
+          "interpretation_ko": "일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that the matter will not succeed",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "林中魚獵事無成",
+              "translation_ko": "숲속에서 고기잡이와 사냥을 하면 일이 이루어지지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hurt",
+      "term_ko": "다침",
+      "term_en": "hurt",
+      "aliases": [
+        "다침",
+        "다치게",
+        "다쳤다",
+        "다친",
+        "해쳤다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 다치게 함",
+          "interpretation_ko": "앙갚음하고 남을 해치는 궂은일을 하게 될 흉한 조짐",
+          "interpretation_en": "you will do ugly work, revenging and injuring",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hurt",
+              "original": "If you hurt a person in your dreams, you will do ugly work, revenging and injuring.",
+              "translation_ko": "남을 다치게 하는 꿈은, 앙갚음하고 남을 해치는 궂은일을 하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 다침",
+          "interpretation_ko": "나를 이겨 누를 적이 생길 흉한 조짐",
+          "interpretation_en": "you will have enemies who will overcome you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hurt",
+              "original": "If you are hurt, you will have enemies who will overcome you.",
+              "translation_ko": "제가 다치면, 나를 이겨 누를 적이 생긴다"
             }
           ]
         }
@@ -74046,33 +74278,34 @@
       ]
     },
     {
-      "id": "hunting",
-      "term_ko": "사냥",
-      "term_en": "hunting",
+      "id": "hunchback",
+      "term_ko": "등이 굽은 사람",
+      "term_en": "hunchback",
       "aliases": [
-        "수렵",
-        "사냥꾼",
-        "몰이"
+        "등이 굽은 사람",
+        "등이 굽은",
+        "꼽추",
+        "곱사등이"
       ],
-      "category": "action",
+      "category": "person",
       "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "숲속에서 사냥을 함",
-          "interpretation_ko": "일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that the matter will not succeed",
+          "context": "등이 굽은 사람을 봄",
+          "interpretation_ko": "앞날이 뜻밖에 뒤집힐 흉한 조짐",
+          "interpretation_en": "denotes unexpected reverses in your prospects",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "林中魚獵事無成",
-              "translation_ko": "숲속에서 고기잡이와 사냥을 하면 일이 이루어지지 않는다"
+              "work": "miller",
+              "locator": "Hunchback",
+              "original": "To dream of a hunchback, denotes unexpected reverses in your prospects.",
+              "translation_ko": "등이 굽은 사람 꿈은, 앞날이 뜻밖에 뒤집힘을 뜻한다"
             }
           ]
         }

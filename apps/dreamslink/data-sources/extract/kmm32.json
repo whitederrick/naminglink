@@ -242,19 +242,24 @@
     "aliases": [
       "굶주렸다",
       "굶주리",
-      "주려서"
+      "주려서",
+      "배고픔",
+      "배가 고팠다",
+      "허기"
     ],
     "aliases_en": [
       "famishing",
       "famished"
     ],
     "contexts": {
-      "제가 굶주림": "내가 제가 배가",
-      "남이 굶주리는 것을 봄": "남이 남들이 사람들이"
+      "제가 굶주림": "내가 제가",
+      "남이 굶주리는 것을 봄": "남이 남들이 사람들이",
+      "배가 고픔": "고팠 고프 허기"
     },
     "contexts_en": {
       "제가 굶주림": "disheartening enterprise promising",
-      "남이 굶주리는 것을 봄": "others sorrow"
+      "남이 굶주리는 것을 봄": "others sorrow",
+      "배가 고픔": "hungry unfortunate omen"
     }
   },
   {

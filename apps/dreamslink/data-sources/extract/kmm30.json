@@ -129,16 +129,22 @@
       "hugged"
     ],
     "contexts": {
-      "지아비나 지어미를 시들하게 껴안음": "지아비 지어미 남편 아내",
+      "지아비나 지어미를 시들하게 껴안음": "지아비 지어미 시들",
       "살붙이를 껴안음": "살붙이 친척 식구 일가",
       "정든 사이끼리 껴안음": "정인 애인 연인 사귀는",
-      "낯선 사람을 껴안음": "낯선 모르는 처음보는"
+      "낯선 사람을 껴안음": "낯선 모르는 처음보는",
+      "껴안음": "덥석 와락",
+      "여성이 남자를 껴안음": "여자가 여성이 아가씨",
+      "지어미가 남편 아닌 이를 껴안음": "아닌 몰래"
     },
     "contexts_en": {
       "지아비나 지어미를 시들하게 껴안음": "husband wife indifferent dissensions",
       "살붙이를 껴안음": "relatives sickness",
       "정든 사이끼리 껴안음": "lovers quarrels infidelity",
-      "낯선 사람을 껴안음": "stranger unwelcome guest"
+      "낯선 사람을 껴안음": "stranger unwelcome guest",
+      "껴안음": "hugging disappointed",
+      "여성이 남자를 껴안음": "advances doubtful",
+      "지어미가 남편 아닌 이를 껴안음": "married endanger honor absence"
     }
   },
   {

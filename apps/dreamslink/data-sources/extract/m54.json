@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "껴안음",
+    "interpretation_ko": "사랑에도 장사에도 실망이 따를 흉한 조짐",
+    "interpretation_en": "you will be disappointed in love affairs and in business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hugging",
+      "original": "If you dream of hugging, you will be disappointed in love affairs and in business.",
+      "translation_ko": "껴안는 꿈은, 사랑에도 장사에도 실망이 따름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "여성이 남자를 껴안음",
+    "interpretation_ko": "미덥지 못한 사람의 구애를 받아들일 흉한 조짐",
+    "interpretation_en": "she will accept advances of a doubtful character from men",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hugging",
+      "original": "For a woman to dream of hugging a man, she will accept advances of a doubtful character from men.",
+      "translation_ko": "여성이 남자를 껴안는 꿈은, 미덥지 못한 사람의 구애를 받아들임을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "껴안음",
+    "term_en": "embrace",
+    "context": "지어미가 남편 아닌 이를 껴안음",
+    "interpretation_ko": "남편이 없는 사이 남의 눈길을 받아들여 이름을 더럽힐 흉한 조짐",
+    "interpretation_en": "she will endanger her honor in accepting attentions from others in her husband's absence",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hugging",
+      "original": "For a married woman to hug others than her husband, she will endanger her honor in accepting attentions from others in her husband's absence.",
+      "translation_ko": "지어미가 남편 아닌 이를 껴안는 꿈은, 남편이 없는 사이 남의 눈길을 받아들여 이름을 더럽힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사냥",
+    "term_en": "hunting",
+    "context": "사냥을 함",
+    "interpretation_ko": "닿을 수 없는 것을 좇아 애쓸 흉한 조짐",
+    "interpretation_en": "you will struggle for the unattainable",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hunting",
+      "original": "If you dream of hunting, you will struggle for the unattainable.",
+      "translation_ko": "사냥하는 꿈은, 닿을 수 없는 것을 좇아 애씀을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "굶주림",
+    "term_en": "famish",
+    "context": "배가 고픔",
+    "interpretation_ko": "집에서 편안함을 찾지 못하고 연인에게는 고단한 혼인이 될 흉한 조짐",
+    "interpretation_en": "you will not find comfort and satisfaction in your home, and to lovers it means an unhappy marriage",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hunger",
+      "original": "To dream that you are hungry, is an unfortunate omen.",
+      "translation_ko": "배가 고픈 꿈은 언짢은 조짐이다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "사냥개가 사냥에 나선 것을 봄",
+    "interpretation_ko": "즐거운 일과 반가운 바뀜이 다가올 길한 조짐",
+    "interpretation_en": "denotes coming delights and pleasant changes",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Hounds",
+      "original": "To dream of hounds on a hunt, denotes coming delights and pleasant changes.",
+      "translation_ko": "사냥개가 사냥에 나선 꿈은, 즐거운 일과 반가운 바뀜이 다가옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "여성이 사냥개 꿈을 꿈",
+    "interpretation_ko": "제 자리보다 낮은 사람을 마음에 두게 될 조짐",
+    "interpretation_en": "she will love a man below her in station",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Hounds",
+      "original": "For a woman to dream of hounds, she will love a man below her in station.",
+      "translation_ko": "여성이 사냥개 꿈을 꾸면, 제 자리보다 낮은 사람을 마음에 두게 된다"
+    }
+  },
+  {
+    "term_ko": "가정부",
+    "term_en": "housekeeper",
+    "context": "제가 가정부가 됨",
+    "interpretation_ko": "시간을 채울 일거리가 생기고 그 덕에 쉼이 값지게 될 조짐",
+    "interpretation_en": "denotes you will have labors which will occupy your time, and make pleasure an ennobling thing",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Housekeeper",
+      "original": "To dream that you are a housekeeper, denotes you will have labors which will occupy your time, and make pleasure an ennobling thing.",
+      "translation_ko": "제가 가정부가 되는 꿈은, 시간을 채울 일거리가 생기고 그 덕에 쉼이 값지게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "가정부",
+    "term_en": "housekeeper",
+    "context": "가정부를 들임",
+    "interpretation_ko": "제법 넉넉한 살림을 누리게 될 길한 조짐",
+    "interpretation_en": "signifies comparative comfort will be possible for your obtaining",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Housekeeper",
+      "original": "To employ one, signifies comparative comfort will be possible for your obtaining.",
+      "translation_ko": "가정부를 들이면, 제법 넉넉한 살림을 누리게 된다"
+    }
+  },
+  {
+    "term_ko": "등이 굽은 사람",
+    "term_en": "hunchback",
+    "context": "등이 굽은 사람을 봄",
+    "interpretation_ko": "앞날이 뜻밖에 뒤집힐 흉한 조짐",
+    "interpretation_en": "denotes unexpected reverses in your prospects",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hunchback",
+      "original": "To dream of a hunchback, denotes unexpected reverses in your prospects.",
+      "translation_ko": "등이 굽은 사람 꿈은, 앞날이 뜻밖에 뒤집힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "다침",
+    "term_en": "hurt",
+    "context": "남을 다치게 함",
+    "interpretation_ko": "앙갚음하고 남을 해치는 궂은일을 하게 될 흉한 조짐",
+    "interpretation_en": "you will do ugly work, revenging and injuring",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurt",
+      "original": "If you hurt a person in your dreams, you will do ugly work, revenging and injuring.",
+      "translation_ko": "남을 다치게 하는 꿈은, 앙갚음하고 남을 해치는 궂은일을 하게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "다침",
+    "term_en": "hurt",
+    "context": "제가 다침",
+    "interpretation_ko": "나를 이겨 누를 적이 생길 흉한 조짐",
+    "interpretation_en": "you will have enemies who will overcome you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hurt",
+      "original": "If you are hurt, you will have enemies who will overcome you.",
+      "translation_ko": "제가 다치면, 나를 이겨 누를 적이 생긴다"
+    }
+  }
+]

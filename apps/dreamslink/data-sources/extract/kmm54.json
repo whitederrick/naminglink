@@ -1,0 +1,56 @@
+[
+  {
+    "id": "housekeeper",
+    "aliases": [
+      "가정부",
+      "살림꾼",
+      "집안일 하는 사람"
+    ],
+    "aliases_en": [
+      "a housekeeper"
+    ],
+    "contexts": {
+      "제가 가정부가 됨": "제가 내가 되었",
+      "가정부를 들임": "들였 부렸 고용"
+    },
+    "contexts_en": {
+      "제가 가정부가 됨": "labors occupy ennobling",
+      "가정부를 들임": "employ comparative obtaining"
+    }
+  },
+  {
+    "id": "hunchback",
+    "aliases": [
+      "등이 굽은 사람",
+      "등이 굽은",
+      "꼽추",
+      "곱사등이"
+    ],
+    "aliases_en": [
+      "a hunchback"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hurt",
+    "aliases": [
+      "다침",
+      "다치게",
+      "다쳤다",
+      "다친",
+      "해쳤다"
+    ],
+    "aliases_en": [
+      "hurt"
+    ],
+    "contexts": {
+      "남을 다치게 함": "남을 사람을 상대를",
+      "제가 다침": "제가 내가 나는"
+    },
+    "contexts_en": {
+      "남을 다치게 함": "ugly revenging injuring",
+      "제가 다침": "enemies overcome"
+    }
+  }
+]
