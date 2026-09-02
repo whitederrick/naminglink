@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 46 — Headgear~Hemp Seed, 30건)
+// (지금 담긴 것: 배치 47 — Hen~Hissing, 27건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,36 +30,33 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "headgear", ctx: "값진 머리쓰개를 봄", text: "값진 머리쓰개를 보았다" },
-  { id: "headgear", ctx: "낡고 해진 머리쓰개를 봄", text: "낡고 해진 머리쓰개를 보았다" },
-  { id: "funeral-carriage", ctx: "상여와 마주침", text: "상여와 마주쳤다" },
-  { id: "funeral-carriage", ctx: "상여를 봄", text: "상여가 놓여 있었다" },
-  { id: "funeral-carriage", ctx: "상여가 죽음이나 앓음을 알림", text: "상여가 죽음을 알리는 듯했다" },
-  { id: "funeral-carriage", ctx: "상여가 앞길을 가로질러 감", text: "상여가 앞을 가로질러 갔다" },
-  { id: "heart", ctx: "심장이 아프고 숨이 막힘", text: "심장이 아프고 숨이 막혔다" },
-  { id: "heart", ctx: "제 심장을 봄", text: "자기 심장을 보았다" },
-  { id: "heart", ctx: "짐승의 심장을 봄", text: "짐승의 심장을 보았다" },
-  { id: "heart", ctx: "닭의 염통을 먹음", text: "닭의 염통을 먹었다" },
-  { id: "heat", ctx: "더위에 시달림", text: "더위에 시달렸다" },
-  { id: "heather", ctx: "히스꽃을 봄", text: "히스꽃을 보았다" },
-  { id: "heaven", ctx: "하늘나라로 올라감", text: "하늘나라로 올라갔다" },
-  { id: "heaven", ctx: "젊은이가 사다리로 하늘나라에 오름", text: "사다리를 타고 하늘나라에 올랐다" },
-  { id: "heaven", ctx: "하늘나라에서 거룩한 이와 벗들을 만남", text: "하늘나라에서 벗들을 만났다" },
-  { id: "heaven", ctx: "하늘나라의 성을 봄", text: "하늘나라의 도성을 보았다" },
-  { id: "fence", ctx: "늘 푸른 산울타리를 봄", text: "늘푸른 산울타리를 보았다" },
-  { id: "fence", ctx: "잎이 진 산울타리를 봄", text: "잎이 앙상한 산울타리를 보았다" },
-  { id: "fence", ctx: "처녀가 정인과 푸른 산울타리를 따라 거닒", text: "정인과 산울타리를 따라 거닐었다" },
-  { id: "fence", ctx: "가시 산울타리에 얽힘", text: "가시 산울타리에 얽혔다" },
-  { id: "bequest", ctx: "재산이나 값진 것을 물려받게 됨", text: "재산을 물려받게 되었다" },
-  { id: "hell", ctx: "지옥에 있음", text: "지옥에 떨어졌다" },
-  { id: "hell", ctx: "벗이 지옥에 있는 것을 봄", text: "벗이 지옥에 있었다" },
-  { id: "hell", ctx: "지옥에서 울부짖음", text: "지옥에서 울부짖었다" },
-  { id: "helmet", ctx: "투구를 봄", text: "투구를 보았다" },
-  { id: "hemp", ctx: "삼이 몸에 우거짐", text: "삼이 몸을 휘감았다" },
-  { id: "hemp", ctx: "삼을 봄", text: "삼이 놓여 있었다" },
-  { id: "hemp", ctx: "처녀가 삼을 기르다 다침", text: "아가씨가 삼을 기르다 다쳤다" },
-  { id: "hemp", ctx: "삼씨를 봄", text: "삼씨를 보았다" },
-  { id: "hemp", ctx: "장사하는 이가 삼씨를 봄", text: "장사꾼이 삼씨를 보았다" },
+  { id: "chicken", ctx: "암탉을 봄", text: "암탉을 보았다" },
+  { id: "herb", ctx: "약초를 봄", text: "약초가 놓여 있었다" },
+  { id: "herb", ctx: "독이 있는 풀을 봄", text: "독이 있는 약초를 보았다" },
+  { id: "herb", ctx: "쓸모 있는 약초를 봄", text: "쓸모 있는 약초를 보았다" },
+  { id: "hermit", ctx: "은둔자를 봄", text: "은둔자를 보았다" },
+  { id: "hermit", ctx: "제가 은둔자가 됨", text: "내가 은둔자가 되어 있었다" },
+  { id: "hermit", ctx: "은둔자가 사는 곳에 머무름", text: "은둔자의 거처에 머물렀다" },
+  { id: "herring", ctx: "청어를 봄", text: "청어를 보았다" },
+  { id: "hide", ctx: "짐승 가죽을 봄", text: "짐승 가죽을 보았다" },
+  { id: "hidden", ctx: "무엇을 숨겨 둠", text: "물건을 숨겨두었다" },
+  { id: "hidden", ctx: "숨겨진 것을 찾아냄", text: "숨겨진 것을 찾아냈다" },
+  { id: "hidden", ctx: "처녀가 물건을 숨김", text: "아가씨가 물건을 숨겼다" },
+  { id: "hieroglyph", ctx: "상형문자를 봄", text: "상형문자가 새겨져 있었다" },
+  { id: "hieroglyph", ctx: "상형문자를 읽어 냄", text: "상형문자를 읽어냈다" },
+  { id: "high-school", ctx: "고등학교를 봄", text: "고등학교를 보았다" },
+  { id: "high-school", ctx: "처녀가 고등학교에서 쫓겨남", text: "고등학교에서 쫓겨났다" },
+  { id: "high-tide", ctx: "밀물을 봄", text: "밀물을 보았다" },
+  { id: "slope", ctx: "비탈길을 걸어 오름", text: "비탈길을 걸어 올랐다" },
+  { id: "slope", ctx: "언덕을 올라 꼭대기에 이름", text: "언덕을 올라 꼭대기에 다다랐다" },
+  { id: "slope", ctx: "언덕을 오르다 미끄러져 내려옴", text: "언덕을 오르다 미끄러졌다" },
+  { id: "hips", ctx: "잘빠진 엉덩이를 흐뭇하게 봄", text: "잘빠진 엉덩이를 보았다" },
+  { id: "hips", ctx: "여성이 제 엉덩이를 흐뭇하게 봄", text: "자기 엉덩이를 흐뭇하게 보았다" },
+  { id: "hips", ctx: "짐승의 살진 엉덩이를 봄", text: "짐승의 살진 엉덩이를 보았다" },
+  { id: "hips", ctx: "여성이 제 엉덩이가 너무 좁다고 여김", text: "엉덩이가 너무 좁아 보였다" },
+  { id: "hips", ctx: "여성이 제 엉덩이가 너무 살졌다고 여김", text: "엉덩이가 너무 살졌다고 느꼈다" },
+  { id: "hissing", ctx: "야유하는 사람들을 봄", text: "야유하는 사람들을 보았다" },
+  { id: "hissing", ctx: "남들이 나에게 야유를 보냄", text: "남들이 나에게 야유를 보냈다" },
 ];
 
 let notFound = 0;

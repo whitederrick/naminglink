@@ -5540,5 +5540,35 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "helmet": [
     "a helmet"
+  ],
+  "herb": [
+    "herbs"
+  ],
+  "hermit": [
+    "a hermit"
+  ],
+  "herring": [
+    "herring"
+  ],
+  "hide": [
+    "the hide of an animal"
+  ],
+  "hidden": [
+    "hidden"
+  ],
+  "hieroglyph": [
+    "hieroglyphs"
+  ],
+  "high-school": [
+    "a high school"
+  ],
+  "high-tide": [
+    "high tide"
+  ],
+  "hips": [
+    "hips"
+  ],
+  "hissing": [
+    "hissing"
   ]
 };

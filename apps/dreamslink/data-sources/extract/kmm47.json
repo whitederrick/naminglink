@@ -1,0 +1,192 @@
+[
+  {
+    "id": "herb",
+    "aliases": [
+      "약초",
+      "약풀",
+      "약초를"
+    ],
+    "aliases_en": [
+      "herbs"
+    ],
+    "contexts": {
+      "약초를 봄": "놓여 자란",
+      "독이 있는 풀을 봄": "독이 독초",
+      "쓸모 있는 약초를 봄": "쓸모 요긴 좋은약"
+    },
+    "contexts_en": {
+      "약초를 봄": "vexatious cares though pleasures",
+      "독이 있는 풀을 봄": "poisonous warns enemies",
+      "쓸모 있는 약초를 봄": "balm useful satisfaction warm"
+    }
+  },
+  {
+    "id": "hermit",
+    "aliases": [
+      "은둔자",
+      "숨어 사는 이",
+      "도인"
+    ],
+    "aliases_en": [
+      "a hermit"
+    ],
+    "contexts": {
+      "은둔자를 봄": "보았 만났",
+      "제가 은둔자가 됨": "내가 제가 스스로",
+      "은둔자가 사는 곳에 머무름": "사는곳 거처 오두막"
+    },
+    "contexts_en": {
+      "은둔자를 봄": "sadness loneliness unfaithfulness",
+      "제가 은둔자가 됨": "yourself researches intricate discussions",
+      "은둔자가 사는 곳에 머무름": "abode unselfishness alike"
+    }
+  },
+  {
+    "id": "herring",
+    "aliases": [
+      "청어",
+      "청어를"
+    ],
+    "aliases_en": [
+      "herring"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hide",
+    "aliases": [
+      "짐승 가죽",
+      "가죽",
+      "생가죽"
+    ],
+    "aliases_en": [
+      "the hide of an animal"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hidden",
+    "aliases": [
+      "숨김",
+      "숨겼다",
+      "숨겨",
+      "감췄다",
+      "감춰",
+      "숨겨두었다",
+      "숨겨진",
+      "숨겨서",
+      "감춰두었다"
+    ],
+    "aliases_en": [
+      "hidden"
+    ],
+    "contexts": {
+      "무엇을 숨겨 둠": "숨겨두 감춰두",
+      "숨겨진 것을 찾아냄": "찾아냈 찾았",
+      "처녀가 물건을 숨김": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "무엇을 숨겨 둠": "away object embarrassment circumstances",
+      "숨겨진 것을 찾아냄": "find things unexpected pleasures",
+      "처녀가 물건을 숨김": "young woman hiding adverse gossip orderly"
+    }
+  },
+  {
+    "id": "hieroglyph",
+    "aliases": [
+      "상형문자",
+      "그림글자"
+    ],
+    "aliases_en": [
+      "hieroglyphs"
+    ],
+    "contexts": {
+      "상형문자를 봄": "보았 새겨진",
+      "상형문자를 읽어 냄": "읽어냈 읽었 풀어냈"
+    },
+    "contexts_en": {
+      "상형문자를 봄": "wavering vital distress money",
+      "상형문자를 읽어 냄": "able read overcoming evil"
+    }
+  },
+  {
+    "id": "high-school",
+    "aliases": [
+      "고등학교",
+      "고교"
+    ],
+    "aliases_en": [
+      "a high school"
+    ],
+    "contexts": {
+      "고등학교를 봄": "보았 다녔",
+      "처녀가 고등학교에서 쫓겨남": "쫓겨 퇴학 정학"
+    },
+    "contexts_en": {
+      "고등학교를 봄": "ascension elevated positions social",
+      "처녀가 고등학교에서 쫓겨남": "suspended troubles circles"
+    }
+  },
+  {
+    "id": "high-tide",
+    "aliases": [
+      "밀물",
+      "만조"
+    ],
+    "aliases_en": [
+      "high tide"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hips",
+    "aliases": [
+      "엉덩이",
+      "엉덩이가",
+      "엉덩이를",
+      "궁둥이"
+    ],
+    "aliases_en": [
+      "hips"
+    ],
+    "contexts": {
+      "잘빠진 엉덩이를 흐뭇하게 봄": "잘빠진 반듯한",
+      "여성이 제 엉덩이를 흐뭇하게 봄": "제엉덩이 자기 흐뭇",
+      "짐승의 살진 엉덩이를 봄": "짐승 동물의",
+      "여성이 제 엉덩이가 너무 좁다고 여김": "좁다 좁아",
+      "여성이 제 엉덩이가 너무 살졌다고 여김": "살졌 뚱뚱 굵다"
+    },
+    "contexts_en": {
+      "잘빠진 엉덩이를 흐뭇하게 봄": "admire formed upbraided wife",
+      "여성이 제 엉덩이를 흐뭇하게 봄": "own disappointed love matters",
+      "짐승의 살진 엉덩이를 봄": "notice animals ease pleasure",
+      "여성이 제 엉덩이가 너무 좁다고 여김": "narrow omens sickness",
+      "여성이 제 엉덩이가 너무 살졌다고 여김": "too fat danger losing reputation"
+    }
+  },
+  {
+    "id": "hissing",
+    "aliases": [
+      "야유",
+      "야유를",
+      "쉿 소리",
+      "야유하는",
+      "야유했다",
+      "야유가"
+    ],
+    "aliases_en": [
+      "hissing"
+    ],
+    "contexts": {
+      "야유하는 사람들을 봄": "사람들 무리가",
+      "남들이 나에게 야유를 보냄": "나에게 내게 저를"
+    },
+    "contexts_en": {
+      "야유하는 사람들을 봄": "persons displeased discourteous acquaintances",
+      "남들이 나에게 야유를 보냄": "threatened loss friend"
+    }
+  }
+]

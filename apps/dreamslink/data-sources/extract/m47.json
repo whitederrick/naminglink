@@ -1,0 +1,392 @@
+[
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "암탉을 봄",
+    "interpretation_ko": "식구가 늘어 즐거운 모임이 있을 길한 조짐",
+    "interpretation_en": "denotes pleasant family reunions with added members",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Hen",
+      "original": "To dream of hens, denotes pleasant family reunions with added members.",
+      "translation_ko": "암탉 꿈은, 식구가 늘어 즐거운 모임이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "약초",
+    "term_en": "herb",
+    "context": "약초를 봄",
+    "interpretation_ko": "성가신 걱정거리가 있으나 즐거움도 뒤따를 조짐",
+    "interpretation_en": "denotes that you will have vexatious cares, though some pleasures will ensue",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Herbs",
+      "original": "To dream of herbs, denotes that you will have vexatious cares, though some pleasures will ensue.",
+      "translation_ko": "약초 꿈은, 성가신 걱정거리와 뒤따르는 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "약초",
+    "term_en": "herb",
+    "context": "독이 있는 풀을 봄",
+    "interpretation_ko": "원수가 있음을 알리는 흉한 조짐",
+    "interpretation_en": "warns you of enemies",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Herbs",
+      "original": "To dream of poisonous herbs, warns you of enemies.",
+      "translation_ko": "독이 있는 풀 꿈은, 원수가 있음을 알린다"
+    }
+  },
+  {
+    "term_ko": "약초",
+    "term_en": "herb",
+    "context": "쓸모 있는 약초를 봄",
+    "interpretation_ko": "하는 일이 흐뭇하고 따뜻한 사귐이 있을 길한 조짐",
+    "interpretation_en": "denotes satisfaction in business and warm friendships",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Herbs",
+      "original": "Balm and other useful herbs, denotes satisfaction in business and warm friendships.",
+      "translation_ko": "쓸모 있는 약초는, 흐뭇한 일과 따뜻한 사귐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "은둔자",
+    "term_en": "hermit",
+    "context": "은둔자를 봄",
+    "interpretation_ko": "벗의 배신 탓에 슬프고 외로울 흉한 조짐",
+    "interpretation_en": "denotes sadness and loneliness caused by the unfaithfulness of friends",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hermit",
+      "original": "To dream of a hermit, denotes sadness and loneliness caused by the unfaithfulness of friends.",
+      "translation_ko": "은둔자 꿈은, 벗의 배신이 부른 슬픔과 외로움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "은둔자",
+    "term_en": "hermit",
+    "context": "제가 은둔자가 됨",
+    "interpretation_ko": "까다로운 것을 파고들고 세상 이야기에 크게 마음을 쓸 조짐",
+    "interpretation_en": "you will pursue researches into intricate subjects, and will take great interest in the discussions of the hour",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hermit",
+      "original": "If you are a hermit yourself, you will pursue researches into intricate subjects, and will take great interest in the discussions of the hour.",
+      "translation_ko": "제가 은둔자이면, 까다로운 것을 파고들고 세상 이야기에 크게 마음을 쓴다"
+    }
+  },
+  {
+    "term_ko": "은둔자",
+    "term_en": "hermit",
+    "context": "은둔자가 사는 곳에 머무름",
+    "interpretation_ko": "원수든 벗이든 가리지 않고 너그러이 대할 길한 조짐",
+    "interpretation_en": "denotes unselfishness toward enemies and friends alike",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Hermit",
+      "original": "To find yourself in the abode of a hermit, denotes unselfishness toward enemies and friends alike.",
+      "translation_ko": "은둔자가 사는 곳에 있는 자신을 보면, 원수든 벗이든 가리지 않는 너그러움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "청어",
+    "term_en": "herring",
+    "context": "청어를 봄",
+    "interpretation_ko": "돈에 쪼들리다 가까스로 빠져나오고 뒤에는 잘될 조짐",
+    "interpretation_en": "indicates a tight squeeze to escape financial embarrassment, but you will have success later",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Herring",
+      "original": "To dream of seeing herring, indicates a tight squeeze to escape financial embarrassment, but you will have success later.",
+      "translation_ko": "청어를 보는 꿈은, 돈에 쪼들리다 가까스로 빠져나오고 뒤에는 잘됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "짐승 가죽",
+    "term_en": "hide",
+    "context": "짐승 가죽을 봄",
+    "interpretation_ko": "남는 것이 있고 일자리가 오래갈 길한 조짐",
+    "interpretation_en": "denotes profit and permanent employment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hide",
+      "original": "To dream of the hide of an animal, denotes profit and permanent employment.",
+      "translation_ko": "짐승 가죽 꿈은, 남는 것과 오래가는 일자리를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "숨김",
+    "term_en": "hidden",
+    "context": "무엇을 숨겨 둠",
+    "interpretation_ko": "처지가 곤란해질 흉한 조짐",
+    "interpretation_en": "denotes embarrassment in your circumstances",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hidden",
+      "original": "To dream that you have hidden away any object, denotes embarrassment in your circumstances.",
+      "translation_ko": "무엇을 숨겨 둔 꿈은, 곤란해질 처지를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "숨김",
+    "term_en": "hidden",
+    "context": "숨겨진 것을 찾아냄",
+    "interpretation_ko": "뜻밖의 즐거움을 누릴 길한 조짐",
+    "interpretation_en": "you will enjoy unexpected pleasures",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hidden",
+      "original": "To find hidden things, you will enjoy unexpected pleasures.",
+      "translation_ko": "숨겨진 것을 찾아내면, 뜻밖의 즐거움을 누린다"
+    }
+  },
+  {
+    "term_ko": "숨김",
+    "term_en": "hidden",
+    "context": "처녀가 물건을 숨김",
+    "interpretation_ko": "입길에 오르내리나 끝내 제 몸가짐이 반듯함을 밝힐 조짐",
+    "interpretation_en": "she will be the object of much adverse gossip, but will finally prove her conduct orderly",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hidden",
+      "original": "For a young woman to dream of hiding objects, she will be the object of much adverse gossip, but will finally prove her conduct orderly.",
+      "translation_ko": "처녀가 물건을 숨기는 꿈은, 입길에 오르내리나 끝내 제 몸가짐이 반듯함을 밝힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "상형문자",
+    "term_en": "hieroglyph",
+    "context": "상형문자를 봄",
+    "interpretation_ko": "중한 일에서 갈피를 못 잡아 크게 괴롭고 돈을 잃을 흉한 조짐",
+    "interpretation_en": "foretells that wavering judgment in some vital matter may cause you great distress and money loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hieroglyphs",
+      "original": "Hieroglyphs seen in a dream, foretells that wavering judgment in some vital matter may cause you great distress and money loss.",
+      "translation_ko": "꿈에 상형문자를 보면, 중한 일에서 갈피를 못 잡아 크게 괴롭고 돈을 잃는다"
+    }
+  },
+  {
+    "term_ko": "상형문자",
+    "term_en": "hieroglyph",
+    "context": "상형문자를 읽어 냄",
+    "interpretation_ko": "궂은 것을 이겨 낼 길한 조짐",
+    "interpretation_en": "your success in overcoming some evil is foretold",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Hieroglyphs",
+      "original": "To be able to read them, your success in overcoming some evil is foretold.",
+      "translation_ko": "그것을 읽어 낼 수 있으면, 궂은 것을 이겨 냄을 알린다"
+    }
+  },
+  {
+    "term_ko": "고등학교",
+    "term_en": "high school",
+    "context": "고등학교를 봄",
+    "interpretation_ko": "정분에서도 사귐에서도 일에서도 더 높은 자리로 오를 길한 조짐",
+    "interpretation_en": "foretells ascension to more elevated positions in love, as well as social and business affairs",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "High School",
+      "original": "To dream of a high school, foretells ascension to more elevated positions in love, as well as social and business affairs.",
+      "translation_ko": "고등학교 꿈은, 정분·사귐·일에서 더 높은 자리로 오름을 알린다"
+    }
+  },
+  {
+    "term_ko": "고등학교",
+    "term_en": "high school",
+    "context": "처녀가 고등학교에서 쫓겨남",
+    "interpretation_ko": "사귀는 자리에서 말썽이 생길 흉한 조짐",
+    "interpretation_en": "foretells she will have troubles in social circles",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "High School",
+      "original": "For a young woman to be suspended from a high school, foretells she will have troubles in social circles.",
+      "translation_ko": "처녀가 고등학교에서 쫓겨나는 꿈은, 사귀는 자리의 말썽을 알린다"
+    }
+  },
+  {
+    "term_ko": "밀물",
+    "term_en": "high tide",
+    "context": "밀물을 봄",
+    "interpretation_ko": "하는 일이 순조롭게 나아갈 길한 조짐",
+    "interpretation_en": "is indicative of favorable progression in your affairs",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "High Tide",
+      "original": "To dream of high tide is indicative of favorable progression in your affairs.",
+      "translation_ko": "밀물 꿈은, 하는 일이 순조롭게 나아감을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "언덕",
+    "term_en": "slope",
+    "context": "언덕을 올라 꼭대기에 이름",
+    "interpretation_ko": "바라던 데까지 다다를 길한 조짐",
+    "interpretation_en": "To dream of climbing hills is good if the top is reached",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hills",
+      "original": "To dream of climbing hills is good if the top is reached",
+      "translation_ko": "언덕을 오르는 꿈은 꼭대기에 이르면 좋다"
+    }
+  },
+  {
+    "term_ko": "언덕",
+    "term_en": "slope",
+    "context": "언덕을 오르다 미끄러져 내려옴",
+    "interpretation_ko": "시샘과 어깃장에 맞서 싸워야 할 흉한 조짐",
+    "interpretation_en": "you will have much envy and contrariness to fight against",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Hills",
+      "original": "but if you fall back, you will have much envy and contrariness to fight against.",
+      "translation_ko": "오르다 미끄러져 내려오면, 시샘과 어깃장에 맞서 싸워야 한다"
+    }
+  },
+  {
+    "term_ko": "엉덩이",
+    "term_en": "hips",
+    "context": "잘빠진 엉덩이를 흐뭇하게 봄",
+    "interpretation_ko": "짝에게 나무람을 들을 흉한 조짐",
+    "interpretation_en": "denotes that you will be upbraided by your wife",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hips",
+      "original": "To dream that you admire well-formed hips, denotes that you will be upbraided by your wife.",
+      "translation_ko": "잘빠진 엉덩이를 흐뭇하게 보는 꿈은, 짝에게 나무람을 들음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "엉덩이",
+    "term_en": "hips",
+    "context": "여성이 제 엉덩이를 흐뭇하게 봄",
+    "interpretation_ko": "정분에서 낙심할 흉한 조짐",
+    "interpretation_en": "shows she will be disappointed in love matters",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hips",
+      "original": "For a woman to admire her hips, shows she will be disappointed in love matters.",
+      "translation_ko": "여성이 제 엉덩이를 흐뭇하게 보면, 정분에서 낙심한다"
+    }
+  },
+  {
+    "term_ko": "엉덩이",
+    "term_en": "hips",
+    "context": "짐승의 살진 엉덩이를 봄",
+    "interpretation_ko": "삶이 넉넉하고 즐거울 길한 조짐",
+    "interpretation_en": "foretells ease and pleasure",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hips",
+      "original": "To notice fat hips on animals, foretells ease and pleasure.",
+      "translation_ko": "짐승의 살진 엉덩이를 보면, 넉넉함과 즐거움을 알린다"
+    }
+  },
+  {
+    "term_ko": "엉덩이",
+    "term_en": "hips",
+    "context": "여성이 제 엉덩이가 너무 좁다고 여김",
+    "interpretation_ko": "앓고 낙심할 흉한 조짐",
+    "interpretation_en": "omens sickness and disappointments",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hips",
+      "original": "For a woman to dream that her hips are too narrow, omens sickness and disappointments.",
+      "translation_ko": "여성이 제 엉덩이가 너무 좁다고 여기는 꿈은, 앓음과 낙심을 알린다"
+    }
+  },
+  {
+    "term_ko": "엉덩이",
+    "term_en": "hips",
+    "context": "여성이 제 엉덩이가 너무 살졌다고 여김",
+    "interpretation_ko": "이름을 잃을 위험이 있는 흉한 조짐",
+    "interpretation_en": "she is in danger of losing her reputation",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Hips",
+      "original": "If too fat, she is in danger of losing her reputation.",
+      "translation_ko": "너무 살졌으면, 이름을 잃을 위험이 있다"
+    }
+  },
+  {
+    "term_ko": "야유",
+    "term_en": "hissing",
+    "context": "야유하는 사람들을 봄",
+    "interpretation_ko": "갓 사귄 이들에게서 무례한 대접을 받아 견디기 힘들 만큼 언짢을 흉한 조짐",
+    "interpretation_en": "is an omen that you will be displeased beyond endurance at the discourteous treatment shown you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hissing",
+      "original": "To dream of hissing persons, is an omen that you will be displeased beyond endurance at the discourteous treatment shown you while among newly made acquaintances.",
+      "translation_ko": "야유하는 사람들 꿈은, 갓 사귄 이들에게서 무례한 대접을 받아 견디기 힘들 만큼 언짢음을 알린다"
+    }
+  },
+  {
+    "term_ko": "야유",
+    "term_en": "hissing",
+    "context": "남들이 나에게 야유를 보냄",
+    "interpretation_ko": "벗을 잃을 위험이 다가올 흉한 조짐",
+    "interpretation_en": "you will be threatened with the loss of a friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Hissing",
+      "original": "If they hiss you, you will be threatened with the loss of a friend.",
+      "translation_ko": "그들이 나에게 야유를 보내면, 벗을 잃을 위험이 다가온다"
+    }
+  }
+]
