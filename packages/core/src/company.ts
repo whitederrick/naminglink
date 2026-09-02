@@ -44,8 +44,13 @@ export const COMPANY_FACTS: CompanyFacts = {
   legalEntity: "(주)Platforest",
   representative: "곽은하",
   businessNumber: "197-86-02010",
-  // 아직 신고 전이라 이것만은 실제로 "준비 중"이 사실이다.
-  mailOrderNumber: "통신판매업 신고 준비 중",
+  // 2026-09-02에 신고증이 나왔다. 같은 날 관리자 화면(`site_contents`의 `footer.global`)에도
+  // 넣었고, **폴백은 DB를 못 읽는 순간 법적 고지가 되므로** 여기도 함께 고친다(위 주석 참고).
+  // 표기는 **원문 그대로** 둔다(사용자 결정) — 로마자 표에 안 넣으므로 23개 언어에 같은
+  // 번호가 나간다. 「준비 중」류가 아니어서 `PENDING_SENTINELS`에도 안 걸린다.
+  // **DB 값과 글자까지 맞춘다** — 네 앱이 같은 문자열을 그려야 한다. 2026-09-02에 운영에서
+  // 잰 값이 이것이고 신고증의 「호」가 빠져 있다. DB를 고치면 이 줄도 함께 고칠 것.
+  mailOrderNumber: "제2026-서울금천-1798",
   address: "서울특별시 금천구 디지털로 130, 13층 1309호 (가산동, 남성프라자)",
   customerCenter: "070-4300-7141",
   email: "platforest.inc@gmail.com",
