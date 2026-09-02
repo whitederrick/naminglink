@@ -62,6 +62,7 @@
     "m60.json",
     "m61.json",
     "m62.json",
+    "m63.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -30127,6 +30128,77 @@
       ]
     },
     {
+      "id": "bankrupt",
+      "term_ko": "파산",
+      "term_en": "bankrupt",
+      "aliases": [],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "파산하는 꿈을 꿈",
+          "interpretation_ko": "사업이 부분적으로 무너지고 정신력이 약해질 조짐이며 투기를 삼가라는 경고",
+          "interpretation_en": "a sign of partial collapse in business and weakening of the brain faculties, a warning to leave speculations alone",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bankrupt",
+              "original": "Denotes partial collapse in business, and weakening of the brain faculties. A warning to leave speculations alone.",
+              "translation_ko": "파산하는 꿈은 사업이 부분적으로 무너지고 정신력이 약해짐을 뜻하며, 투기를 삼가라는 경고이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 빚을 갚지 못함",
+          "interpretation_ko": "기운과 자존심으로 떳떳하게 일을 꾸려 그 지경까지 가지는 않으나 다른 근심이 몹시 괴롭힐 조짐",
+          "interpretation_en": "you will not have to resort to this means to square yourself with the world, as your energy and pride will enable you to transact business in a fair way",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Insolvent",
+              "original": "If you dream that you are insolvent, you will not have to resort to this means to square yourself with the world, as your energy and pride will enable you to transact business in a fair way.",
+              "translation_ko": "제가 빚을 갚지 못하는 꿈을 꾸면, 기운과 자존심 덕에 떳떳하게 일을 꾸려 그 지경까지 가지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "남이 빚을 갚지 못함",
+          "interpretation_ko": "거래에서 정직한 이를 만나나 그 곧음이 도리어 해가 될 조짐",
+          "interpretation_en": "you will meet with honest men in your dealings, but by their frankness they may harm you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Insolvent",
+              "original": "To dream that others are insolvent, you will meet with honest men in your dealings, but by their frankness they may harm you.",
+              "translation_ko": "남이 빚을 갚지 못하는 꿈을 꾸면 거래에서 정직한 이를 만나나 그 곧음이 도리어 해가 된다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 그런 꿈을 꿈",
+          "interpretation_ko": "정인이 정직하고 알뜰하나 하는 일에 성가신 다툼이 생길 조짐",
+          "interpretation_en": "it means her sweetheart will be honest and thrifty, but vexatious discords may arise in her affairs",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Insolvent",
+              "original": "For a young woman, it means her sweetheart will be honest and thrifty, but vexatious discords may arise in her affairs.",
+              "translation_ko": "젊은 여성에게는 정인이 정직하고 알뜰하나 하는 일에 성가신 다툼이 생기리라는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "barley",
       "term_ko": "보리",
       "term_en": "barley",
@@ -46308,6 +46380,63 @@
               "locator": "Influence",
               "original": "To see friends in high positions, your companions will be congenial, and you will be free from vexations.",
               "translation_ko": "벗들이 높은 자리에 있는 것을 보면 곁의 사람들과 뜻이 맞고 성가신 일에서 벗어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inscription",
+      "term_ko": "새긴 글",
+      "term_en": "inscription",
+      "aliases": [],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "새긴 글을 봄",
+          "interpretation_ko": "머지않아 달갑지 않은 기별을 받을 흉한 조짐",
+          "interpretation_en": "foretells you will shortly receive unpleasant communications",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inscription",
+              "original": "To dream you see an inscription, foretells you will shortly receive unpleasant communications.",
+              "translation_ko": "새긴 글을 보는 꿈은 머지않아 달갑지 않은 기별을 받으리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "무덤에 새긴 글을 읽음",
+          "interpretation_ko": "무거운 병으로 괴로워할 흉한 조짐",
+          "interpretation_en": "you will be distressed by sickness of a grave nature",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inscription",
+              "original": "If you are reading them on tombs, you will be distressed by sickness of a grave nature.",
+              "translation_ko": "그것을 무덤에서 읽고 있으면 무거운 병으로 괴로워한다"
+            }
+          ]
+        },
+        {
+          "context": "글을 새김",
+          "interpretation_ko": "아끼던 벗을 잃을 흉한 조짐",
+          "interpretation_en": "you will lose a valued friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inscription",
+              "original": "To write one, you will lose a valued friend.",
+              "translation_ko": "그것을 새기면 아끼던 벗을 잃는다"
             }
           ]
         }
@@ -62853,6 +62982,178 @@
       ]
     },
     {
+      "id": "ink-stand",
+      "term_ko": "잉크병",
+      "term_en": "ink-stand",
+      "aliases": [],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빈 잉크병을 봄",
+          "interpretation_ko": "억울한 일로 사람들의 손가락질을 아슬아슬하게 면할 조짐",
+          "interpretation_en": "denote that you will narrowly escape public denunciation for some supposed injustice",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ink-stand",
+              "original": "Empty ink-stands denote that you will narrowly escape public denunciation for some supposed injustice.",
+              "translation_ko": "빈 잉크병은 억울하다는 이유로 받을 뭇사람의 비난을 아슬아슬하게 면하리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "잉크가 가득 찬 잉크병을 봄",
+          "interpretation_ko": "조심하지 않으면 적이 헐뜯는 말로 뜻을 이룰 흉한 조짐",
+          "interpretation_en": "if you are not cautious, enemies will succeed in calumniation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ink-stand",
+              "original": "To see them filled with ink, if you are not cautious, enemies will succeed in calumniation.",
+              "translation_ko": "그것이 잉크로 가득 찬 것을 보면, 조심하지 않는 한 적들이 헐뜯는 말로 뜻을 이룬다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inn",
+      "term_ko": "여인숙",
+      "term_en": "inn",
+      "aliases": [],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "너르고 잘 꾸며진 여인숙에 듦",
+          "interpretation_ko": "살림이 넉넉해지고 즐거움이 따를 길한 조짐",
+          "interpretation_en": "denotes prosperity and pleasures, if the inn is commodious and well furnished",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inn",
+              "original": "To dream of an inn, denotes prosperity and pleasures, if the inn is commodious and well furnished.",
+              "translation_ko": "여인숙 꿈은, 그곳이 너르고 잘 꾸며져 있다면 번영과 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "허물어지고 지저분한 여인숙에 듦",
+          "interpretation_ko": "이룸이 보잘것없고 서글픈 일거리나 고달픈 길이 따를 흉한 조짐",
+          "interpretation_en": "denotes poor success, or mournful tasks, or unhappy journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inn",
+              "original": "To be at a dilapidated and ill kept inn, denotes poor success, or mournful tasks, or unhappy journeys.",
+              "translation_ko": "허물어지고 지저분한 여인숙에 있으면 이룸이 보잘것없거나 서글픈 일거리, 고달픈 길이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inquisition",
+      "term_ko": "심문",
+      "term_en": "inquisition",
+      "aliases": [],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "심문하는 자리를 봄",
+          "interpretation_ko": "근심이 끝없이 이어지고 크게 실망할 흉한 조짐",
+          "interpretation_en": "bespeaks for you an endless round of trouble and great disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inquisition",
+              "original": "To dream of an inquisition, bespeaks for you an endless round of trouble and great disappointment.",
+              "translation_ko": "심문 꿈은 끝없이 이어지는 근심과 큰 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제멋대로 굴었다는 죄목으로 심문받음",
+          "interpretation_ko": "악의 어린 험담 앞에서 스스로를 지키지 못할 흉한 조짐",
+          "interpretation_en": "you will be unable to defend yourself from malicious slander",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inquisition",
+              "original": "If you are brought before an inquisition on a charge of wilfulness, you will be unable to defend yourself from malicious slander.",
+              "translation_ko": "제멋대로 굴었다는 죄목으로 심문 자리에 끌려가면, 악의 어린 험담 앞에서 스스로를 지키지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insane",
+      "term_ko": "정신이 흐려짐",
+      "term_en": "insane",
+      "aliases": [],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 정신이 흐려짐",
+          "interpretation_ko": "새로 시작한 일이 크게 어그러지거나 몸이 상해 앞날이 슬프게 바뀔 흉한 조짐",
+          "interpretation_en": "forebodes disastrous results to some newly undertaken work, or ill health may work sad changes in your prospects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Insane",
+              "original": "To dream of being insane, forebodes disastrous results to some newly undertaken work, or ill health may work sad changes in your prospects.",
+              "translation_ko": "정신이 흐려지는 꿈은 새로 시작한 일의 큰 어그러짐이나, 몸이 상해 앞날이 슬프게 바뀜을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남의 정신이 흐려진 것을 봄",
+          "interpretation_ko": "괴로움과 가난에 시달리는 이들을 마주하게 될 흉한 조짐이니 몸을 각별히 돌볼 것",
+          "interpretation_en": "denotes disagreeable contact with suffering and appeals from the poverty-stricken",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Insane",
+              "original": "To see others insane, denotes disagreeable contact with suffering and appeals from the poverty-stricken.",
+              "translation_ko": "남의 정신이 흐려진 것을 보면 괴로움과 가난에 시달리는 이들을 마주하게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -65353,35 +65654,6 @@
               "locator": "Banjo",
               "original": "To dream of a banjo, denotes that pleasant amusements will be enjoyed.",
               "translation_ko": "밴조 꿈을 꾸면 즐거운 오락을 누릴 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bankrupt",
-      "term_ko": "파산",
-      "term_en": "bankrupt",
-      "aliases": [],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "파산하는 꿈을 꿈",
-          "interpretation_ko": "사업이 부분적으로 무너지고 정신력이 약해질 조짐이며 투기를 삼가라는 경고",
-          "interpretation_en": "a sign of partial collapse in business and weakening of the brain faculties, a warning to leave speculations alone",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bankrupt",
-              "original": "Denotes partial collapse in business, and weakening of the brain faculties. A warning to leave speculations alone.",
-              "translation_ko": "파산하는 꿈은 사업이 부분적으로 무너지고 정신력이 약해짐을 뜻하며, 투기를 삼가라는 경고이다"
             }
           ]
         }
@@ -71950,6 +72222,35 @@
               "locator": "文書筆硯兵器",
               "original": "手弄筆硯主遠信",
               "translation_ko": "손으로 붓과 벼루를 만지면 먼 곳에서 소식이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inquest",
+      "term_ko": "검시",
+      "term_en": "inquest",
+      "aliases": [],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "주검을 살피는 자리를 봄",
+          "interpretation_ko": "벗과의 사이에 불운이 따를 흉한 조짐",
+          "interpretation_en": "foretells you will be unfortunate in your friendships",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inquest",
+              "original": "To dream of an inquest, foretells you will be unfortunate in your friendships.",
+              "translation_ko": "검시 꿈은 벗과의 사이에 불운이 따르리라는 뜻이다"
             }
           ]
         }

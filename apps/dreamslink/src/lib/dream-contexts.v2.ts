@@ -2267,6 +2267,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "alligator::악어를 봄(죽이지 않음)": "killing spared alive",
   "atlas::지도책을 들여다봄": "poring studied looking",
   "atlas::지리를 익힘": "studying geography travel renown",
+  "bankrupt::파산하는 꿈을 꿈": "partial collapse brain faculties",
+  "bankrupt::제가 빚을 갚지 못함": "resort square energy pride transact",
+  "bankrupt::남이 빚을 갚지 못함": "others honest dealings frankness harm",
+  "bankrupt::처녀가 그런 꿈을 꿈": "sweetheart thrifty vexatious discords",
   "bedchamber::아름답고 화려하게 꾸민 방에 있음": "richly furnished legacies",
   "bedchamber::젊은 여성이 화려한 방에 있음": "wealthy stranger establishment",
   "bedchamber::수수하게 꾸민 방을 봄": "plainly competency frugality",
@@ -3622,5 +3626,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "infirmity::남이 병약한 것을 봄": "others various troubles disappointments",
   "influence::남의 힘을 빌려 자리를 얻으려 함": "seeking rank advancement materialize",
   "influence::제가 힘 있는 자리에 있음": "prospects assume bright",
-  "influence::벗들이 높은 자리에 있는 것을 봄": "friends high positions congenial vexations"
+  "influence::벗들이 높은 자리에 있는 것을 봄": "friends high positions congenial vexations",
+  "ink-stand::빈 잉크병을 봄": "empty narrowly escape denunciation injustice",
+  "ink-stand::잉크가 가득 찬 잉크병을 봄": "filled cautious enemies calumniation",
+  "inn::너르고 잘 꾸며진 여인숙에 듦": "prosperity pleasures commodious furnished",
+  "inn::허물어지고 지저분한 여인숙에 듦": "dilapidated kept poor mournful journeys",
+  "inquisition::심문하는 자리를 봄": "bespeaks endless round disappointment",
+  "inquisition::제멋대로 굴었다는 죄목으로 심문받음": "brought charge wilfulness defend malicious",
+  "insane::제 정신이 흐려짐": "forebodes disastrous newly undertaken prospects",
+  "insane::남의 정신이 흐려진 것을 봄": "others disagreeable contact suffering poverty-stricken",
+  "inscription::새긴 글을 봄": "shortly receive unpleasant communications",
+  "inscription::무덤에 새긴 글을 읽음": "reading tombs distressed grave nature",
+  "inscription::글을 새김": "write lose valued friend"
 };

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ink-stand",
+    "aliases": [
+      "잉크통",
+      "먹통"
+    ],
+    "aliases_en": [
+      "ink-stands",
+      "inkstand"
+    ],
+    "contexts": {
+      "빈 잉크병을 봄": "비어 텅빈 바닥났",
+      "잉크가 가득 찬 잉크병을 봄": "가득 그득 채워"
+    },
+    "contexts_en": {
+      "빈 잉크병을 봄": "empty narrowly escape denunciation injustice",
+      "잉크가 가득 찬 잉크병을 봄": "filled cautious enemies calumniation"
+    }
+  },
+  {
+    "id": "inn",
+    "aliases": [
+      "주막",
+      "객줏집",
+      "봉놋방"
+    ],
+    "aliases_en": [
+      "an inn"
+    ],
+    "contexts": {
+      "너르고 잘 꾸며진 여인숙에 듦": "너르고 꾸며 훌륭",
+      "허물어지고 지저분한 여인숙에 듦": "허물어 지저분 낡고"
+    },
+    "contexts_en": {
+      "너르고 잘 꾸며진 여인숙에 듦": "prosperity pleasures commodious furnished",
+      "허물어지고 지저분한 여인숙에 듦": "dilapidated kept poor mournful journeys"
+    }
+  },
+  {
+    "id": "inquest",
+    "aliases": [
+      "검시하는",
+      "검시를",
+      "검시가",
+      "검시관",
+      "주검을 살피"
+    ],
+    "aliases_en": [
+      "an inquest"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "inquisition",
+    "aliases": [
+      "심문하는",
+      "심문을",
+      "심문받",
+      "종교재판",
+      "취조",
+      "문초"
+    ],
+    "aliases_en": [
+      "an inquisition"
+    ],
+    "contexts": {
+      "심문하는 자리를 봄": "자리를 보았다",
+      "제멋대로 굴었다는 죄목으로 심문받음": "죄목 끌려 제멋대로"
+    },
+    "contexts_en": {
+      "심문하는 자리를 봄": "bespeaks endless round disappointment",
+      "제멋대로 굴었다는 죄목으로 심문받음": "brought charge wilfulness defend malicious"
+    }
+  },
+  {
+    "id": "insane",
+    "aliases": [
+      "미쳤다",
+      "미쳐서",
+      "실성해",
+      "실성했다",
+      "실성한",
+      "정신이 흐려진",
+      "정신이 흐려",
+      "정신이 나갔다",
+      "넋이 나갔다"
+    ],
+    "aliases_en": [
+      "insanity"
+    ],
+    "contexts": {
+      "제 정신이 흐려짐": "제가 내가 나는",
+      "남의 정신이 흐려진 것을 봄": "남의 남들 다른이"
+    },
+    "contexts_en": {
+      "제 정신이 흐려짐": "forebodes disastrous newly undertaken prospects",
+      "남의 정신이 흐려진 것을 봄": "others disagreeable contact suffering poverty-stricken"
+    }
+  },
+  {
+    "id": "inscription",
+    "aliases": [
+      "비문",
+      "묘비명",
+      "새겨진 글",
+      "글귀가 새겨",
+      "글을 새겼다",
+      "글을 새기",
+      "새긴 글을"
+    ],
+    "aliases_en": [
+      "an inscription"
+    ],
+    "contexts": {
+      "새긴 글을 봄": "글귀를",
+      "무덤에 새긴 글을 읽음": "무덤 묘비 읽고 읽었다",
+      "글을 새김": "새겼 파넣 새기고"
+    },
+    "contexts_en": {
+      "새긴 글을 봄": "shortly receive unpleasant communications",
+      "무덤에 새긴 글을 읽음": "reading tombs distressed grave nature",
+      "글을 새김": "write lose valued friend"
+    }
+  }
+]

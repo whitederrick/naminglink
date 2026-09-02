@@ -897,7 +897,13 @@
       "부도",
       "빚더미",
       "망했",
-      "파산 선고"
+      "파산 선고",
+      "파산했다",
+      "파산한",
+      "파산하는",
+      "망했다",
+      "빚을 갚지 못했다",
+      "빚을 갚지 못하"
     ],
     "aliases_en": [
       "bankruptcy",
@@ -905,8 +911,18 @@
       "insolvent",
       "broke financially"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "파산하는 꿈을 꿈": "무너졌 거덜",
+      "제가 빚을 갚지 못함": "제가 내가 나는",
+      "남이 빚을 갚지 못함": "남이 남들 다른이",
+      "처녀가 그런 꿈을 꿈": "처녀 아가씨 정인이"
+    },
+    "contexts_en": {
+      "파산하는 꿈을 꿈": "partial collapse brain faculties",
+      "제가 빚을 갚지 못함": "resort square energy pride transact",
+      "남이 빚을 갚지 못함": "others honest dealings frankness harm",
+      "처녀가 그런 꿈을 꿈": "sweetheart thrifty vexatious discords"
+    }
   },
   {
     "id": "barefoot",

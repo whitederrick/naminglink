@@ -5753,5 +5753,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "influence": [
     "influential"
+  ],
+  "ink-stand": [
+    "ink-stands",
+    "inkstand"
+  ],
+  "inn": [
+    "an inn"
+  ],
+  "inquest": [
+    "an inquest"
+  ],
+  "inquisition": [
+    "an inquisition"
+  ],
+  "insane": [
+    "insanity"
+  ],
+  "inscription": [
+    "an inscription"
   ]
 };
