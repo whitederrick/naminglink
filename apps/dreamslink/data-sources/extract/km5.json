@@ -895,7 +895,13 @@
     "aliases": [
       "손바닥",
       "양손",
-      "두손"
+      "두손",
+      "손이",
+      "손을",
+      "손에",
+      "손등",
+      "맨손",
+      "손목에"
     ],
     "aliases_en": [
       "hands",
@@ -903,11 +909,45 @@
     ],
     "contexts": {
       "손이 부러짐": "부러 부러졌 꺾였",
-      "손이 짐승처럼 털로 덮임": "털로 털이 짐승처럼"
+      "손이 짐승처럼 털로 덮임": "털로 털이 짐승처럼",
+      "고운 손을 봄": "고운 아름다운 예쁜",
+      "밉고 일그러진 손을 봄": "밉고 일그러 흉하게",
+      "손에 피가 묻은 것을 봄": "피가 피를 핏자국",
+      "손을 다침": "다쳤 다친 상처",
+      "몸에서 떨어져 나온 손을 봄": "떨어져 잘린 잘려",
+      "손을 뎀": "데었 데어 화상",
+      "손이 커진 것을 봄": "커진 커졌 커다래",
+      "손이 작아진 것을 봄": "작아진 작아졌 조그매",
+      "손이 더러워진 것을 봄": "더러 지저분 때가",
+      "손을 씻음": "씻었 씻는",
+      "여성이 제 손을 흐뭇하게 바라봄": "흐뭇 뿌듯",
+      "여성이 남의 손을 흐뭇하게 바라봄": "남의 그이의",
+      "여성이 남자에게 손을 잡힘": "잡혔 잡히 붙들",
+      "여성이 남에게 손등에 입맞춤을 받음": "입맞춤 입을 손등",
+      "손을 데지 않고 불을 다룸": "불을 불길 만졌",
+      "손이 묶임": "묶였 결박",
+      "묶인 손을 풀어냄": "풀어냈 풀었 끊고"
     },
     "contexts_en": {
       "손이 부러짐": "broken snapped",
-      "손이 짐승처럼 털로 덮임": "covered beast intrigue innocent alert"
+      "손이 짐승처럼 털로 덮임": "covered beast intrigue innocent alert",
+      "고운 손을 봄": "beautiful distinction rise calling",
+      "밉고 일그러진 손을 봄": "ugly malformed poverty",
+      "손에 피가 묻은 것을 봄": "blood estrangement censure family",
+      "손을 다침": "injured succeed striving obtain",
+      "몸에서 떨어져 나온 손을 봄": "detached solitary views feelings",
+      "손을 뎀": "burn overreach bounds struggles",
+      "손이 커진 것을 봄": "enlarged quick advancement",
+      "손이 작아진 것을 봄": "smaller reverse predicted",
+      "손이 더러워진 것을 봄": "soiled envious unjust",
+      "손을 씻음": "wash participate joyous festivity",
+      "여성이 제 손을 흐뭇하게 바라봄": "admire own proof sincere regard",
+      "여성이 남의 손을 흐뭇하게 바라봄": "others subjected whims jealous",
+      "여성이 남자에게 손을 잡힘": "hold enticed illicit engagements",
+      "여성이 남에게 손등에 입맞춤을 받음": "lets kiss gossips reputation",
+      "손을 데지 않고 불을 다룸": "handle fire rank commanding",
+      "손이 묶임": "tied involved difficulties",
+      "묶인 손을 풀어냄": "loosening force submit dictations"
     }
   },
   {

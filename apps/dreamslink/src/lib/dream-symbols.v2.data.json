@@ -39,6 +39,7 @@
     "m41.json",
     "m42.json",
     "m43.json",
+    "m44.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -4542,6 +4543,298 @@
               "locator": "水火盜賊燈燭",
               "original": "把火燒井主疾病",
               "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "term_ko": "손",
+      "term_en": "hand",
+      "aliases": [
+        "손바닥",
+        "양손",
+        "두손",
+        "손이",
+        "손을",
+        "손에",
+        "손등",
+        "맨손",
+        "손목에"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "손이 부러짐",
+          "interpretation_ko": "자식이 병들 조짐",
+          "interpretation_en": "a sign that a child falls ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "手措折者主子病",
+              "translation_ko": "손이 부러지면 자식이 병든다"
+            }
+          ]
+        },
+        {
+          "context": "손이 짐승처럼 털로 덮임",
+          "interpretation_ko": "죄 없는 이를 해치려 꾀하다 도리어 벼르고 있는 원수를 만날 흉한 조짐",
+          "interpretation_en": "signifies you will intrigue against innocent people, and will find that you have alert enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hairy Hands",
+              "original": "To dream that your hands are covered with hair like that of a beast, signifies you will intrigue against innocent people, and will find that you have alert enemies who are working to forestall your designs.",
+              "translation_ko": "손이 짐승처럼 털로 덮인 꿈은, 죄 없는 이를 해치려 꾀하다 벼르고 있는 원수를 만남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고운 손을 봄",
+          "interpretation_ko": "크게 이름을 얻고 하는 일에서 빠르게 오를 길한 조짐",
+          "interpretation_en": "you will enjoy great distinction, and rise rapidly in your calling",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "If you see beautiful hands in your dream, you will enjoy great distinction, and rise rapidly in your calling",
+              "translation_ko": "꿈에 고운 손을 보면, 큰 이름과 하는 일에서의 빠른 오름을 누린다"
+            }
+          ]
+        },
+        {
+          "context": "밉고 일그러진 손을 봄",
+          "interpretation_ko": "낙심과 가난이 따를 흉한 조짐",
+          "interpretation_en": "ugly and malformed hands point to disappointments and poverty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "but ugly and malformed hands point to disappointments and poverty.",
+              "translation_ko": "밉고 일그러진 손은 낙심과 가난을 가리킨다"
+            }
+          ]
+        },
+        {
+          "context": "손에 피가 묻은 것을 봄",
+          "interpretation_ko": "집안 사람과 사이가 멀어지고 억울한 나무람을 들을 흉한 조짐",
+          "interpretation_en": "denotes estrangement and unjust censure from members of your family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To see blood on them, denotes estrangement and unjust censure from members of your family.",
+              "translation_ko": "손에 피가 묻은 것을 보면, 집안 사람과의 멀어짐과 억울한 나무람을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "손을 다침",
+          "interpretation_ko": "가장 애써 얻으려던 것을 남이 차지할 흉한 조짐",
+          "interpretation_en": "some person will succeed to what you are striving most to obtain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "If you have an injured hand, some person will succeed to what you are striving most to obtain.",
+              "translation_ko": "손을 다치면, 가장 애써 얻으려던 것을 남이 차지한다"
+            }
+          ]
+        },
+        {
+          "context": "몸에서 떨어져 나온 손을 봄",
+          "interpretation_ko": "남이 내 생각과 마음을 알아주지 못해 외로울 흉한 조짐",
+          "interpretation_en": "indicates a solitary life, that is, people will fail to understand your views and feelings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To see a detached hand, indicates a solitary life, that is, people will fail to understand your views and feelings.",
+              "translation_ko": "몸에서 떨어져 나온 손을 보면, 남이 내 생각과 마음을 알아주지 못하는 외로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "손을 뎀",
+          "interpretation_ko": "재물과 이름을 좇다 도를 넘어 도리어 잃을 흉한 조짐",
+          "interpretation_en": "you will overreach the bounds of reason in your struggles for wealth and fame, and lose thereby",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To burn your hands, you will overreach the bounds of reason in your struggles for wealth and fame, and lose thereby.",
+              "translation_ko": "손을 데면, 재물과 이름을 좇다 도를 넘어 도리어 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "손이 커진 것을 봄",
+          "interpretation_ko": "하는 일이 빠르게 나아갈 길한 조짐",
+          "interpretation_en": "denotes a quick advancement in your affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To see your hands enlarged, denotes a quick advancement in your affairs.",
+              "translation_ko": "손이 커진 것을 보면, 하는 일이 빠르게 나아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "손이 작아진 것을 봄",
+          "interpretation_ko": "하는 일이 뒤로 밀릴 흉한 조짐",
+          "interpretation_en": "To see them smaller, the reverse is predicted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To see them smaller, the reverse is predicted.",
+              "translation_ko": "손이 작아진 것을 보면, 그 반대가 점쳐진다"
+            }
+          ]
+        },
+        {
+          "context": "손이 더러워진 것을 봄",
+          "interpretation_ko": "남을 시샘하고 부당하게 대할 흉한 조짐",
+          "interpretation_en": "denotes that you will be envious and unjust to others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To see your hands soiled, denotes that you will be envious and unjust to others.",
+              "translation_ko": "손이 더러워진 것을 보면, 남을 시샘하고 부당하게 대함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "손을 씻음",
+          "interpretation_ko": "즐거운 잔치에 끼게 될 길한 조짐",
+          "interpretation_en": "you will participate in some joyous festivity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To wash your hands, you will participate in some joyous festivity.",
+              "translation_ko": "손을 씻으면, 즐거운 잔치에 끼게 된다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남의 손을 흐뭇하게 바라봄",
+          "interpretation_ko": "시샘 많은 사람의 변덕에 휘둘릴 흉한 조짐",
+          "interpretation_en": "she will be subjected to the whims of a jealous man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To admire the hands of others, she will be subjected to the whims of a jealous man.",
+              "translation_ko": "남의 손을 흐뭇하게 바라보면, 시샘 많은 사람의 변덕에 휘둘린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 제 손을 흐뭇하게 바라봄",
+          "interpretation_ko": "가장 아끼는 사람의 참된 마음을 얻어 지킬 길한 조짐",
+          "interpretation_en": "is proof that she will win and hold the sincere regard of the man she prizes above all others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "For a woman to admire her own hands, is proof that she will win and hold the sincere regard of the man she prizes above all others.",
+              "translation_ko": "여성이 제 손을 흐뭇하게 바라보면, 가장 아끼는 사람의 참된 마음을 얻어 지킨다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남자에게 손을 잡힘",
+          "interpretation_ko": "떳떳하지 못한 사이에 끌려들 흉한 조짐",
+          "interpretation_en": "she will be enticed into illicit engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To have a man hold her hands, she will be enticed into illicit engagements.",
+              "translation_ko": "남자에게 손을 잡히면, 떳떳하지 못한 사이에 끌려든다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남에게 손등에 입맞춤을 받음",
+          "interpretation_ko": "입길에 이름이 오르내릴 흉한 조짐",
+          "interpretation_en": "she will have gossips busy with her reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "If she lets others kiss her hands, she will have gossips busy with her reputation.",
+              "translation_ko": "남이 손에 입 맞추게 두면, 입길에 이름이 오르내린다"
+            }
+          ]
+        },
+        {
+          "context": "손을 데지 않고 불을 다룸",
+          "interpretation_ko": "높은 자리와 큰 소임에 오를 길한 조짐",
+          "interpretation_en": "she will rise to high rank and commanding positions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To handle fire without burning her hands, she will rise to high rank and commanding positions.",
+              "translation_ko": "손을 데지 않고 불을 다루면, 높은 자리와 큰 소임에 오른다"
+            }
+          ]
+        },
+        {
+          "context": "손이 묶임",
+          "interpretation_ko": "어려운 일에 얽힐 흉한 조짐",
+          "interpretation_en": "denotes that you will be involved in difficulties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "To dream that your hands are tied, denotes that you will be involved in difficulties.",
+              "translation_ko": "손이 묶인 꿈은, 어려운 일에 얽힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "묶인 손을 풀어냄",
+          "interpretation_ko": "남을 제 뜻에 따르게 할 길한 조짐",
+          "interpretation_en": "you will force others to submit to your dictations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hand",
+              "original": "In loosening them, you will force others to submit to your dictations.",
+              "translation_ko": "묶인 것을 풀어내면, 남을 제 뜻에 따르게 한다"
             }
           ]
         }
@@ -10356,6 +10649,169 @@
       ]
     },
     {
+      "id": "face",
+      "term_ko": "얼굴",
+      "term_en": "face",
+      "aliases": [
+        "안면",
+        "얼굴이",
+        "얼굴을",
+        "낯빛",
+        "낯이",
+        "낯을"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "얼굴에 검은 부스럼이 남",
+          "interpretation_ko": "자식에게 흉한 조짐",
+          "interpretation_en": "an inauspicious sign for one's child",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "面生瘡黑主子凶",
+              "translation_ko": "얼굴에 검은 부스럼이 나면 자식에게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 밉상인 얼굴을 봄",
+          "interpretation_ko": "정든 사이에 다툼이 있을 흉한 조짐",
+          "interpretation_en": "an ugly face foretells lovers' quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
+              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인의 얼굴이 늙어 보임",
+          "interpretation_ko": "헤어짐과 즐겁던 사이가 깨질 흉한 조짐",
+          "interpretation_en": "denotes separation and the breaking up of happy associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
+              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낯설고 섬뜩한 얼굴을 봄",
+          "interpretation_ko": "적과 궂은일이 둘러쌀 흉한 조짐",
+          "interpretation_en": "denotes that enemies and misfortunes surround you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To see a strange and weird-looking face, denotes that enemies and misfortunes surround you.",
+              "translation_ko": "낯설고 섬뜩한 얼굴을 보는 꿈은, 적과 궂은일이 나를 둘러쌈을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 얼굴을 봄",
+          "interpretation_ko": "언짢은 일이 있고 혼인한 이에게는 갈라서자는 말이 나올 흉한 조짐",
+          "interpretation_en": "denotes unhappiness; and to the married, threats of divorce will be made",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To dream of seeing your own face, denotes unhappiness; and to the married, threats of divorce will be made.",
+              "translation_ko": "제 얼굴을 보는 꿈은 언짢은 일을 뜻한다. 혼인한 이에게는 갈라서자는 말이 나온다"
+            }
+          ]
+        },
+        {
+          "context": "거울에 비친 제 얼굴을 봄",
+          "interpretation_ko": "뜻한 바를 이루지 못해 스스로에게 언짢고 벗들의 믿음도 잃을 흉한 조짐",
+          "interpretation_en": "denotes displeasure with yourself for not being able to carry out plans; you will also lose the esteem of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Face",
+              "original": "To see your face in a mirror, denotes displeasure with yourself for not being able to carry out plans for self-advancement. You will also lose the esteem of friends.",
+              "translation_ko": "거울에 비친 제 얼굴을 보는 꿈은, 앞으로 나아가려던 뜻을 이루지 못해 스스로에게 언짢음을 뜻한다. 벗들의 믿음도 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "초췌한 얼굴을 봄",
+          "interpretation_ko": "궂은 일이 생기고 정분에서 밀려날 흉한 조짐",
+          "interpretation_en": "denotes misfortune and defeat in love matters",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Haggard",
+              "original": "To see a haggard face in your dreams, denotes misfortune and defeat in love matters.",
+              "translation_ko": "꿈에 초췌한 얼굴을 보면, 궂은 일과 정분에서의 밀려남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 얼굴이 초췌하고 지쳐 보임",
+          "interpretation_ko": "여자 일로 골치를 앓아 하던 일을 제대로 못 해낼 흉한 조짐",
+          "interpretation_en": "denotes trouble over female affairs, which may render you unable to meet business engagements in a healthy manner",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Haggard",
+              "original": "To see your own face haggard and distressed, denotes trouble over female affairs, which may render you unable to meet business engagements in a healthy manner.",
+              "translation_ko": "제 얼굴이 초췌하고 지쳐 보이면, 여자 일로 골치를 앓아 하던 일을 제대로 못 해낸다"
+            }
+          ]
+        },
+        {
+          "context": "남이 잘생겨 보임",
+          "interpretation_ko": "발 넓은 이들의 믿음을 얻을 길한 조짐",
+          "interpretation_en": "denotes that you will enjoy the confidence of fast people",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handsome",
+              "original": "To see others appearing handsome, denotes that you will enjoy the confidence of fast people.",
+              "translation_ko": "남이 잘생겨 보이면, 발 넓은 이들의 믿음을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "제 얼굴이 잘생겨 보임",
+          "interpretation_ko": "말재주로 남을 추어올리는 사람이 될 조짐",
+          "interpretation_en": "you will prove yourself an ingenious flatterer",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handsome",
+              "original": "To see yourself handsome-looking in your dreams, you will prove yourself an ingenious flatterer.",
+              "translation_ko": "꿈에 제 얼굴이 잘생겨 보이면, 말재주로 남을 추어올리는 사람이 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "field",
       "term_ko": "밭",
       "term_en": "field",
@@ -12474,6 +12930,154 @@
       ]
     },
     {
+      "id": "shackles",
+      "term_ko": "족쇄",
+      "term_en": "shackles",
+      "aliases": [
+        "쇠줄",
+        "차꼬",
+        "형틀",
+        "쇠고랑",
+        "수갑"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "칼과 쇠사슬이 몸에 채워짐",
+          "interpretation_ko": "병이 닥칠 조짐",
+          "interpretation_en": "a sign that illness is coming",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "枷鎖臨身病欲來",
+              "translation_ko": "칼과 쇠사슬이 몸에 닿으면 병이 오려 한다"
+            }
+          ]
+        },
+        {
+          "context": "제 손에 수갑이 채워짐",
+          "interpretation_ko": "원수에게 시달리고 성가실 흉한 조짐",
+          "interpretation_en": "you will be annoyed and vexed by enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handcuffs",
+              "original": "To find yourself handcuffed, you will be annoyed and vexed by enemies.",
+              "translation_ko": "제 손에 수갑이 채워진 것을 보면, 원수에게 시달리고 성가시다"
+            }
+          ]
+        },
+        {
+          "context": "남이 수갑을 찬 것을 봄",
+          "interpretation_ko": "나를 누르던 이들을 이기고 무리보다 높이 설 길한 조짐",
+          "interpretation_en": "you will subdue those oppressing you and rise above your associates",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handcuffs",
+              "original": "To see others thus, you will subdue those oppressing you and rise above your associates.",
+              "translation_ko": "남이 그렇게 된 것을 보면, 나를 누르던 이들을 이기고 무리보다 높이 선다"
+            }
+          ]
+        },
+        {
+          "context": "수갑을 봄",
+          "interpretation_ko": "병과 위험이 다가올 흉한 조짐",
+          "interpretation_en": "you will be menaced with sickness and danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handcuffs",
+              "original": "To see handcuffs, you will be menaced with sickness and danger.",
+              "translation_ko": "수갑을 보면, 병과 위험이 다가온다"
+            }
+          ]
+        },
+        {
+          "context": "수갑을 끊어 냄",
+          "interpretation_ko": "원수가 짜 놓은 덫에서 벗어날 길한 조짐",
+          "interpretation_en": "is a sign that you will escape toils planned by enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handcuffs",
+              "original": "To break them, is a sign that you will escape toils planned by enemies.",
+              "translation_ko": "그것을 끊어 내면, 원수가 짜 놓은 덫에서 벗어난다"
+            }
+          ]
+        },
+        {
+          "context": "칼과 족쇄가 몸에 채워짐",
+          "interpretation_ko": "병이 올 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "枷銷臨身疾病至",
+              "translation_ko": "칼과 족쇄가 몸에 채워지면 병이 온다"
+            }
+          ]
+        },
+        {
+          "context": "족쇄가 부러져 망가짐",
+          "interpretation_ko": "구설이 흩어질 조짐",
+          "interpretation_en": "a sign that gossip and disputes will scatter",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "枷鎖折損口舌散",
+              "translation_ko": "족쇄가 부러지면 구설이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "족쇄가 집 안으로 들어옴",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "枷鎖入宅主大凶",
+              "translation_ko": "족쇄가 집에 들어오면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "족쇄를 두려워함",
+          "interpretation_ko": "서로 흩어져 헤어질 조짐",
+          "interpretation_en": "a sign of separation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "枷鎖怕怖主分散",
+              "translation_ko": "족쇄를 두려워하면 흩어져 헤어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thief",
       "term_ko": "도둑",
       "term_en": "thief",
@@ -12751,6 +13355,141 @@
         }
       ],
       "label_ko": "배(복부)"
+    },
+    {
+      "id": "acrobat",
+      "term_ko": "곡예사",
+      "term_en": "acrobat",
+      "aliases": [
+        "곡예",
+        "서커스",
+        "재주꾼",
+        "광대",
+        "체조",
+        "체조하는",
+        "어릿광대"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "곡예사들을 봄",
+          "interpretation_ko": "남들의 어리석은 두려움 때문에 위험한 계획을 실행하지 못하게 될 조짐",
+          "interpretation_en": "you will be prevented from carrying out hazardous schemes by the foolish fears of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acrobat",
+              "original": "To dream of seeing acrobats, denotes that you will be prevented from carrying out hazardous schemes by the foolish fears of others.",
+              "translation_ko": "곡예사들을 보는 꿈을 꾸면 남들의 어리석은 두려움 때문에 위험한 계획을 실행하지 못하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 곡예를 함",
+          "interpretation_ko": "세간의 이목을 감당해야 하고 적들의 조롱으로 삶이 거의 견딜 수 없게 될 조짐",
+          "interpretation_en": "you will have a sensation to answer for, and your existence will be made almost unendurable by the guying of your enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acrobat",
+              "original": "To see yourself acrobating, you will have a sensation to answer for, and your existence will be made almost unendurable by the guying of your enemies.",
+              "translation_ko": "자신이 곡예를 하면 세간의 이목을 감당해야 하고 적들의 조롱으로 삶이 거의 견딜 수 없게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성 곡예사들을 봄",
+          "interpretation_ko": "자신의 평판이 악의적으로 헐뜯기고 사업에도 지장이 생길 조짐",
+          "interpretation_en": "your name will be maliciously and slanderously handled; also your business interests will be hindered",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acrobat",
+              "original": "To see women acrobating, denotes that your name will be maliciously and slanderously handled.  Also your business interests will be hindered.",
+              "translation_ko": "여성 곡예사들을 보면 자신의 평판이 악의적으로 헐뜯기고 사업에도 지장이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 타이츠를 입은 곡예사들을 봄",
+          "interpretation_ko": "남자들의 호의를 구하게 될 조짐",
+          "interpretation_en": "she will court favor of men",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acrobat",
+              "original": "For a young woman to dream that she sees acrobats in tights, signifies that she will court favor of men.",
+              "translation_ko": "젊은 여성이 타이츠를 입은 곡예사들을 보는 꿈을 꾸면 남자들의 호의를 구하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "체조하는 이를 봄",
+          "interpretation_ko": "돈을 굴리거나 장사하는 데서 궂은 일을 볼 흉한 조짐",
+          "interpretation_en": "denotes you will have misfortune in speculation or trade",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gymnast",
+              "original": "To dream of a gymnast, denotes you will have misfortune in speculation or trade.",
+              "translation_ko": "체조하는 이의 꿈은, 돈을 굴리거나 장사하는 데서 궂은 일을 봄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어릿광대에게 속음",
+          "interpretation_ko": "이문이 될 몫을 밝히는 일이 힘겨울 흉한 조짐",
+          "interpretation_en": "you will find uphill work to identify certain claims that promise profit to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harlequin",
+              "original": "To dream of a harlequin cheating you, you will find uphill work to identify certain claims that promise profit to you.",
+              "translation_ko": "어릿광대에게 속는 꿈은, 이문이 될 몫을 밝히는 일이 힘겨움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어릿광대를 봄",
+          "interpretation_ko": "걱정거리가 따라붙을 흉한 조짐",
+          "interpretation_en": "trouble will beset you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harlequin",
+              "original": "If you dream of a harlequin, trouble will beset you.",
+              "translation_ko": "어릿광대 꿈은, 걱정거리가 따라붙음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어릿광대 옷을 입음",
+          "interpretation_ko": "욱하는 잘못을 저지르고 몸과 살림을 함부로 축낼 흉한 조짐",
+          "interpretation_en": "denotes passionate error and unwise attacks on strength and purse",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harlequin",
+              "original": "To be dressed as a harlequin, denotes passionate error and unwise attacks on strength and purse.",
+              "translation_ko": "어릿광대 옷을 입은 꿈은, 욱하는 잘못과 몸·살림을 함부로 축냄을 뜻한다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "axe",
@@ -13927,141 +14666,6 @@
       ]
     },
     {
-      "id": "face",
-      "term_ko": "얼굴",
-      "term_en": "face",
-      "aliases": [
-        "안면",
-        "얼굴이",
-        "얼굴을",
-        "낯빛",
-        "낯이",
-        "낯을"
-      ],
-      "category": "body",
-      "polarity": "negative",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "얼굴에 검은 부스럼이 남",
-          "interpretation_ko": "자식에게 흉한 조짐",
-          "interpretation_en": "an inauspicious sign for one's child",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "面生瘡黑主子凶",
-              "translation_ko": "얼굴에 검은 부스럼이 나면 자식에게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "젊은이가 밉상인 얼굴을 봄",
-          "interpretation_ko": "정든 사이에 다툼이 있을 흉한 조짐",
-          "interpretation_en": "an ugly face foretells lovers' quarrels",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Face",
-              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
-              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "정인의 얼굴이 늙어 보임",
-          "interpretation_ko": "헤어짐과 즐겁던 사이가 깨질 흉한 조짐",
-          "interpretation_en": "denotes separation and the breaking up of happy associations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Face",
-              "original": "To a young person, an ugly face foretells lovers' quarrels; or for a lover to see the face of his sweetheart looking old, denotes separation and the breaking up of happy associations.",
-              "translation_ko": "젊은이가 밉상인 얼굴을 보는 꿈은 정든 사이의 다툼을 알린다. 정든 이가 제 정인의 얼굴이 늙어 보이는 것을 보면 헤어짐과 즐겁던 사이가 깨짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "낯설고 섬뜩한 얼굴을 봄",
-          "interpretation_ko": "적과 궂은일이 둘러쌀 흉한 조짐",
-          "interpretation_en": "denotes that enemies and misfortunes surround you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Face",
-              "original": "To see a strange and weird-looking face, denotes that enemies and misfortunes surround you.",
-              "translation_ko": "낯설고 섬뜩한 얼굴을 보는 꿈은, 적과 궂은일이 나를 둘러쌈을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제 얼굴을 봄",
-          "interpretation_ko": "언짢은 일이 있고 혼인한 이에게는 갈라서자는 말이 나올 흉한 조짐",
-          "interpretation_en": "denotes unhappiness; and to the married, threats of divorce will be made",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Face",
-              "original": "To dream of seeing your own face, denotes unhappiness; and to the married, threats of divorce will be made.",
-              "translation_ko": "제 얼굴을 보는 꿈은 언짢은 일을 뜻한다. 혼인한 이에게는 갈라서자는 말이 나온다"
-            }
-          ]
-        },
-        {
-          "context": "거울에 비친 제 얼굴을 봄",
-          "interpretation_ko": "뜻한 바를 이루지 못해 스스로에게 언짢고 벗들의 믿음도 잃을 흉한 조짐",
-          "interpretation_en": "denotes displeasure with yourself for not being able to carry out plans; you will also lose the esteem of friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Face",
-              "original": "To see your face in a mirror, denotes displeasure with yourself for not being able to carry out plans for self-advancement. You will also lose the esteem of friends.",
-              "translation_ko": "거울에 비친 제 얼굴을 보는 꿈은, 앞으로 나아가려던 뜻을 이루지 못해 스스로에게 언짢음을 뜻한다. 벗들의 믿음도 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "초췌한 얼굴을 봄",
-          "interpretation_ko": "궂은 일이 생기고 정분에서 밀려날 흉한 조짐",
-          "interpretation_en": "denotes misfortune and defeat in love matters",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Haggard",
-              "original": "To see a haggard face in your dreams, denotes misfortune and defeat in love matters.",
-              "translation_ko": "꿈에 초췌한 얼굴을 보면, 궂은 일과 정분에서의 밀려남을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제 얼굴이 초췌하고 지쳐 보임",
-          "interpretation_ko": "여자 일로 골치를 앓아 하던 일을 제대로 못 해낼 흉한 조짐",
-          "interpretation_en": "denotes trouble over female affairs, which may render you unable to meet business engagements in a healthy manner",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Haggard",
-              "original": "To see your own face haggard and distressed, denotes trouble over female affairs, which may render you unable to meet business engagements in a healthy manner.",
-              "translation_ko": "제 얼굴이 초췌하고 지쳐 보이면, 여자 일로 골치를 앓아 하던 일을 제대로 못 해낸다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "feces",
       "term_ko": "똥",
       "term_en": "feces",
@@ -14743,6 +15347,144 @@
       ]
     },
     {
+      "id": "handkerchief",
+      "term_ko": "손수건",
+      "term_en": "handkerchief",
+      "aliases": [
+        "수건",
+        "손수건을",
+        "손수건이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "손수건을 봄",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "見手帕主有口舌",
+              "translation_ko": "손수건을 보면 구설이 있다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "鏡環釵釧梳篦",
+              "original": "手帕者主口舌事",
+              "translation_ko": "손수건은 구설이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "손수건을 잃음",
+          "interpretation_ko": "제 잘못이 아닌 일로 혼약이 깨질 흉한 조짐",
+          "interpretation_en": "omens a broken engagement through no fault of yours",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "To lose one, omens a broken engagement through no fault of yours.",
+              "translation_ko": "손수건을 잃으면, 제 잘못이 아닌 일로 혼약이 깨진다"
+            }
+          ]
+        },
+        {
+          "context": "찢어진 손수건을 봄",
+          "interpretation_ko": "정인끼리 다툼이 깊어 다시 어울리기 어려울 흉한 조짐",
+          "interpretation_en": "foretells that lovers' quarrels will reach such straits that reconciliation will be improbable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "To see torn ones, foretells that lovers' quarrels will reach such straits that reconciliation will be improbable if not impossible.",
+              "translation_ko": "찢어진 것을 보면, 정인끼리의 다툼이 깊어 다시 어울리기 어렵다"
+            }
+          ]
+        },
+        {
+          "context": "더러워진 손수건을 봄",
+          "interpretation_ko": "아무나 어울리다 물들어 그르칠 흉한 조짐",
+          "interpretation_en": "foretells that you will be corrupted by indiscriminate associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "To see them soiled, foretells that you will be corrupted by indiscriminate associations.",
+              "translation_ko": "더러워진 것을 보면, 아무나 어울리다 물들어 그르친다"
+            }
+          ]
+        },
+        {
+          "context": "새하얀 손수건이 무더기로 있음",
+          "interpretation_ko": "속셈 있는 이의 달콤한 말을 물리치고 좋은 인연과 혼인에 이를 길한 조짐",
+          "interpretation_en": "foretells that you will resist the insistent flattery of unscrupulous and evil-minded persons",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "To see pure white ones in large lots, foretells that you will resist the insistent flattery of unscrupulous and evil-minded persons, and thus gain entrance into high relations with love and matrimony.",
+              "translation_ko": "새하얀 것이 무더기로 있는 것을 보면, 속셈 있는 이의 달콤한 말을 물리치고 좋은 인연과 혼인에 이른다"
+            }
+          ]
+        },
+        {
+          "context": "물들인 손수건을 봄",
+          "interpretation_ko": "떳떳하지 못한 사이라도 슬기롭게 다뤄 손가락질을 피할 조짐",
+          "interpretation_en": "denotes that while your engagements may not be strictly moral, you will manage them with such ingenuity that they will elude opprobrium",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "To see them colored, denotes that while your engagements may not be strictly moral, you will manage them with such ingenuity that they will elude opprobrium.",
+              "translation_ko": "물들인 것을 보면, 떳떳하지 못한 사이라도 슬기롭게 다뤄 손가락질을 피한다"
+            }
+          ]
+        },
+        {
+          "context": "비단 손수건을 봄",
+          "interpretation_ko": "너그럽고 밝은 사람됨이 남에게까지 즐거움을 퍼뜨려 복된 삶이 될 길한 조짐",
+          "interpretation_en": "it denotes that your pleasing and magnetic personality will shed its radiating cheerfulness upon others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "If you see silk handkerchiefs, it denotes that your pleasing and magnetic personality will shed its radiating cheerfulness upon others, making for yourself a fortunate existence.",
+              "translation_ko": "비단 손수건을 보면, 너그럽고 밝은 사람됨이 남에게까지 즐거움을 퍼뜨려 복된 삶이 된다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 손수건을 흔들어 인사함",
+          "interpretation_ko": "떳떳하지 못한 나들이에 나서거나 잠깐의 즐거움에 낯을 잃을 흉한 조짐",
+          "interpretation_en": "denotes that she will soon make a questionable pleasure trip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handkerchiefs",
+              "original": "For a young woman to wave adieu or a recognition with her handkerchief, or see others doing this, denotes that she will soon make a questionable pleasure trip, or she may knowingly run the gauntlet of disgrace to secure some fancied pleasure.",
+              "translation_ko": "처녀가 손수건을 흔들어 인사하거나 남이 그러는 것을 보면, 떳떳하지 못한 나들이에 나서게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -14871,6 +15613,139 @@
               "locator": "船車遊行物件",
               "original": "乘船飲酒遠客至",
               "translation_ko": "배를 타고 술을 마시면 먼 데서 손님이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rabbit",
+      "term_ko": "토끼",
+      "term_en": "rabbit",
+      "aliases": [
+        "산토끼",
+        "토끼가",
+        "토끼를",
+        "멧토끼"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "토끼 무리가 하늘로 오름",
+          "interpretation_ko": "귀한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining a noble position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "群兔上天得貴位",
+              "translation_ko": "토끼 무리가 하늘에 오르면 귀한 지위를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "토끼가 달아나는 것을 봄",
+          "interpretation_ko": "값진 것을 알 수 없는 까닭으로 잃을 흉한 조짐",
+          "interpretation_en": "you will lose something valuable in a mysterious way",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "If you see a hare escaping from you in a dream, you will lose something valuable in a mysterious way.",
+              "translation_ko": "토끼가 달아나는 꿈은, 값진 것을 알 수 없는 까닭으로 잃음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "토끼를 붙잡음",
+          "interpretation_ko": "겨룸에서 이길 길한 조짐",
+          "interpretation_en": "you will be the victor in a contest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "If you capture one, you will be the victor in a contest.",
+              "translation_ko": "토끼를 붙잡으면, 겨룸에서 이긴다"
+            }
+          ]
+        },
+        {
+          "context": "토끼를 길들여 기름",
+          "interpretation_ko": "얌전하나 슬기롭지는 못한 벗을 얻을 조짐",
+          "interpretation_en": "you will have an orderly but unintelligent companion",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "If you make pets of them, you will have an orderly but unintelligent companion.",
+              "translation_ko": "토끼를 길들여 기르면, 얌전하나 슬기롭지 못한 벗을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 토끼를 봄",
+          "interpretation_ko": "벗을 여의고 삶이 밋밋해질 흉한 조짐",
+          "interpretation_en": "betokens death to some friend. Existence will be a prosy affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "A dead hare, betokens death to some friend.",
+              "translation_ko": "죽은 토끼는 벗의 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "개에게 쫓기는 토끼를 봄",
+          "interpretation_ko": "벗들 사이에 다툼이 나고 그것을 풀어 주려 애쓸 조짐",
+          "interpretation_en": "denotes trouble and contentions among your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "To see hares chased by dogs, denotes trouble and contentions among your friends, and you will concern yourself to bring about friendly relations.",
+              "translation_ko": "개에게 쫓기는 토끼를 보면, 벗들 사이의 다툼과 그것을 풀어 주려는 애씀을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "토끼를 쏘아 잡음",
+          "interpretation_ko": "제 것을 지키려 모진 수를 써야 할 흉한 조짐",
+          "interpretation_en": "you will be forced to use violent measures to maintain your rightful possessions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hare",
+              "original": "If you dream that you shoot a hare, you will be forced to use violent measures to maintain your rightful possessions.",
+              "translation_ko": "토끼를 쏘는 꿈은, 제 것을 지키려 모진 수를 써야 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "살아 있는 토끼가 동산에 있음",
+          "interpretation_ko": "온갖 근심이 사라질 조짐",
+          "interpretation_en": "a sign that all worries will depart",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "活兔在園百憂去",
+              "translation_ko": "산 토끼가 동산에 있으면 온갖 근심이 사라진다"
             }
           ]
         }
@@ -19685,6 +20560,112 @@
       ]
     },
     {
+      "id": "gallows",
+      "term_ko": "교수대",
+      "term_en": "gallows",
+      "aliases": [
+        "교수대",
+        "교수형",
+        "목매달았다",
+        "목매달아",
+        "목을 매달았다",
+        "목맴"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벗이 교수대에 오른 것을 봄",
+          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
+          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
+              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제가 교수대에 오름",
+          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
+          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
+              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
+          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
+          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
+              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수대에서 남을 구해 냄",
+          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
+          "interpretation_en": "it portends desirable acquisitions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
+              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "원수를 목매닮",
+          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
+          "interpretation_en": "denotes victory in all spheres",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
+              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수형을 보려고 사람들이 몰려듦",
+          "interpretation_ko": "여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 할 흉한 조짐",
+          "interpretation_en": "denotes that many enemies will club together to try to demolish your position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hanging",
+              "original": "To see a large concourse of people gathering at a hanging, denotes that many enemies will club together to try to demolish your position in their midst.",
+              "translation_ko": "교수형에 사람들이 크게 몰려드는 것을 보면, 여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gate",
       "term_ko": "대문",
       "term_en": "gate",
@@ -21019,98 +22000,6 @@
               "locator": "Acquaintance",
               "original": "If her circle of acquaintances is small, she will be unlucky in gaining social favors.",
               "translation_ko": "지인 범위가 좁으면 사교적인 호의를 얻는 데 운이 없을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "acrobat",
-      "term_ko": "곡예사",
-      "term_en": "acrobat",
-      "aliases": [
-        "곡예",
-        "서커스",
-        "재주꾼",
-        "광대",
-        "체조",
-        "체조하는"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "곡예사들을 봄",
-          "interpretation_ko": "남들의 어리석은 두려움 때문에 위험한 계획을 실행하지 못하게 될 조짐",
-          "interpretation_en": "you will be prevented from carrying out hazardous schemes by the foolish fears of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acrobat",
-              "original": "To dream of seeing acrobats, denotes that you will be prevented from carrying out hazardous schemes by the foolish fears of others.",
-              "translation_ko": "곡예사들을 보는 꿈을 꾸면 남들의 어리석은 두려움 때문에 위험한 계획을 실행하지 못하게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "자신이 곡예를 함",
-          "interpretation_ko": "세간의 이목을 감당해야 하고 적들의 조롱으로 삶이 거의 견딜 수 없게 될 조짐",
-          "interpretation_en": "you will have a sensation to answer for, and your existence will be made almost unendurable by the guying of your enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acrobat",
-              "original": "To see yourself acrobating, you will have a sensation to answer for, and your existence will be made almost unendurable by the guying of your enemies.",
-              "translation_ko": "자신이 곡예를 하면 세간의 이목을 감당해야 하고 적들의 조롱으로 삶이 거의 견딜 수 없게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "여성 곡예사들을 봄",
-          "interpretation_ko": "자신의 평판이 악의적으로 헐뜯기고 사업에도 지장이 생길 조짐",
-          "interpretation_en": "your name will be maliciously and slanderously handled; also your business interests will be hindered",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acrobat",
-              "original": "To see women acrobating, denotes that your name will be maliciously and slanderously handled.  Also your business interests will be hindered.",
-              "translation_ko": "여성 곡예사들을 보면 자신의 평판이 악의적으로 헐뜯기고 사업에도 지장이 생길 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 타이츠를 입은 곡예사들을 봄",
-          "interpretation_ko": "남자들의 호의를 구하게 될 조짐",
-          "interpretation_en": "she will court favor of men",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acrobat",
-              "original": "For a young woman to dream that she sees acrobats in tights, signifies that she will court favor of men.",
-              "translation_ko": "젊은 여성이 타이츠를 입은 곡예사들을 보는 꿈을 꾸면 남자들의 호의를 구하게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "체조하는 이를 봄",
-          "interpretation_ko": "돈을 굴리거나 장사하는 데서 궂은 일을 볼 흉한 조짐",
-          "interpretation_en": "denotes you will have misfortune in speculation or trade",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gymnast",
-              "original": "To dream of a gymnast, denotes you will have misfortune in speculation or trade.",
-              "translation_ko": "체조하는 이의 꿈은, 돈을 굴리거나 장사하는 데서 궂은 일을 봄을 뜻한다"
             }
           ]
         }
@@ -24250,98 +25139,6 @@
       ]
     },
     {
-      "id": "gallows",
-      "term_ko": "교수대",
-      "term_en": "gallows",
-      "aliases": [
-        "교수대",
-        "교수형",
-        "목매달았다",
-        "목매달아",
-        "목을 매달았다",
-        "목맴"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "벗이 교수대에 오른 것을 봄",
-          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
-          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
-              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "제가 교수대에 오름",
-          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
-          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
-              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
-          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
-          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
-              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "교수대에서 남을 구해 냄",
-          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
-          "interpretation_en": "it portends desirable acquisitions",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
-              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "원수를 목매닮",
-          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
-          "interpretation_en": "denotes victory in all spheres",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
-              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "garden",
       "term_ko": "동산",
       "term_en": "garden",
@@ -25412,97 +26209,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "磁碟者主口舌至",
               "translation_ko": "사기 접시는 구설이 올 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shackles",
-      "term_ko": "족쇄",
-      "term_en": "shackles",
-      "aliases": [
-        "쇠줄",
-        "차꼬",
-        "형틀",
-        "쇠고랑",
-        "수갑"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "칼과 쇠사슬이 몸에 채워짐",
-          "interpretation_ko": "병이 닥칠 조짐",
-          "interpretation_en": "a sign that illness is coming",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "枷鎖臨身病欲來",
-              "translation_ko": "칼과 쇠사슬이 몸에 닿으면 병이 오려 한다"
-            }
-          ]
-        },
-        {
-          "context": "칼과 족쇄가 몸에 채워짐",
-          "interpretation_ko": "병이 올 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "枷銷臨身疾病至",
-              "translation_ko": "칼과 족쇄가 몸에 채워지면 병이 온다"
-            }
-          ]
-        },
-        {
-          "context": "족쇄가 부러져 망가짐",
-          "interpretation_ko": "구설이 흩어질 조짐",
-          "interpretation_en": "a sign that gossip and disputes will scatter",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "枷鎖折損口舌散",
-              "translation_ko": "족쇄가 부러지면 구설이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "족쇄가 집 안으로 들어옴",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "枷鎖入宅主大凶",
-              "translation_ko": "족쇄가 집에 들어오면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "족쇄를 두려워함",
-          "interpretation_ko": "서로 흩어져 헤어질 조짐",
-          "interpretation_en": "a sign of separation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "枷鎖怕怖主分散",
-              "translation_ko": "족쇄를 두려워하면 흩어져 헤어진다"
             }
           ]
         }
@@ -43278,6 +43984,66 @@
       ]
     },
     {
+      "id": "harem",
+      "term_ko": "하렘",
+      "term_en": "harem",
+      "aliases": [
+        "하렘",
+        "후궁들"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하렘을 거느림",
+          "interpretation_ko": "가장 좋은 힘을 낮은 즐거움에 헛되이 쏟을 흉한 조짐",
+          "interpretation_en": "denotes that you are wasting your best energies on low pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harem",
+              "original": "To dream that you maintain a harem, denotes that you are wasting your best energies on low pleasures.",
+              "translation_ko": "하렘을 거느리는 꿈은, 가장 좋은 힘을 낮은 즐거움에 헛되이 쏟음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 하렘에 머무는 사람이 됨",
+          "interpretation_ko": "허락되지 않은 곳에서 즐거움을 찾을 흉한 조짐",
+          "interpretation_en": "she will seek pleasure where pleasure is unlawful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harem",
+              "original": "If a woman dreams that she is an inmate of a harem, she will seek pleasure where pleasure is unlawful, as her desires will be toward married men as a rule.",
+              "translation_ko": "여성이 하렘에 머무는 사람이 된 꿈은, 허락되지 않은 곳에서 즐거움을 찾음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 하렘에서 가장 아낌을 받음",
+          "interpretation_ko": "누리는 것에서 남보다 앞서나 그 자리가 오래가지 못할 조짐",
+          "interpretation_en": "she will be preferred before others in material pleasures, but the distinction will be fleeting",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harem",
+              "original": "If she dreams that she is a favorite of a harem, she will be preferred before others in material pleasures, but the distinction will be fleeting.",
+              "translation_ko": "여성이 하렘에서 가장 아낌을 받는 꿈은, 누리는 것에서 남보다 앞서나 그 자리가 오래가지 못함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "humiliation",
       "term_ko": "모욕",
       "term_en": "humiliation",
@@ -60204,48 +60970,47 @@
       ]
     },
     {
-      "id": "hand",
-      "term_ko": "손",
-      "term_en": "hand",
+      "id": "handbill",
+      "term_ko": "전단지",
+      "term_en": "handbill",
       "aliases": [
-        "손바닥",
-        "양손",
-        "두손"
+        "전단지",
+        "전단",
+        "광고지"
       ],
-      "category": "body",
+      "category": "object",
       "polarity": "negative",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "손이 부러짐",
-          "interpretation_ko": "자식이 병들 조짐",
-          "interpretation_en": "a sign that a child falls ill",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "手措折者主子病",
-              "translation_ko": "손이 부러지면 자식이 병든다"
-            }
-          ]
-        },
-        {
-          "context": "손이 짐승처럼 털로 덮임",
-          "interpretation_ko": "죄 없는 이를 해치려 꾀하다 도리어 벼르고 있는 원수를 만날 흉한 조짐",
-          "interpretation_en": "signifies you will intrigue against innocent people, and will find that you have alert enemies",
+          "context": "전단지를 뿌리고 다님",
+          "interpretation_ko": "다툼이 일고 송사까지 갈 수 있는 흉한 조짐",
+          "interpretation_en": "is a sign of contentions and possible lawsuits",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Hairy Hands",
-              "original": "To dream that your hands are covered with hair like that of a beast, signifies you will intrigue against innocent people, and will find that you have alert enemies who are working to forestall your designs.",
-              "translation_ko": "손이 짐승처럼 털로 덮인 꿈은, 죄 없는 이를 해치려 꾀하다 벼르고 있는 원수를 만남을 뜻한다"
+              "locator": "Handbills",
+              "original": "To dream of distributing handbills over the country, is a sign of contentions and possible lawsuits.",
+              "translation_ko": "전단지를 뿌리고 다니는 꿈은, 다툼과 송사의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "전단지를 찍어 냄",
+          "interpretation_ko": "달갑지 않은 소식을 들을 흉한 조짐",
+          "interpretation_en": "you will hear unfavorable news",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Handbills",
+              "original": "If you dream of printing handbills, you will hear unfavorable news.",
+              "translation_ko": "전단지를 찍어 내는 꿈은, 달갑지 않은 소식을 듣게 됨을 뜻한다"
             }
           ]
         }
@@ -61042,51 +61807,6 @@
               "locator": "被害鬥傷打罵",
               "original": "被罵佯顛大貴至",
               "translation_ko": "욕을 먹고 미친 척하면 큰 귀함이 온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "rabbit",
-      "term_ko": "토끼",
-      "term_en": "rabbit",
-      "aliases": [
-        "산토끼"
-      ],
-      "category": "animal",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "토끼 무리가 하늘로 오름",
-          "interpretation_ko": "귀한 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining a noble position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "群兔上天得貴位",
-              "translation_ko": "토끼 무리가 하늘에 오르면 귀한 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "살아 있는 토끼가 동산에 있음",
-          "interpretation_ko": "온갖 근심이 사라질 조짐",
-          "interpretation_en": "a sign that all worries will depart",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "活兔在園百憂去",
-              "translation_ko": "산 토끼가 동산에 있으면 온갖 근심이 사라진다"
             }
           ]
         }
@@ -69523,37 +70243,33 @@
       ]
     },
     {
-      "id": "handkerchief",
-      "term_ko": "손수건",
-      "term_en": "handkerchief",
+      "id": "handwriting",
+      "term_ko": "필체",
+      "term_en": "handwriting",
       "aliases": [
-        "수건"
+        "필체",
+        "글씨체",
+        "제 글씨"
       ],
       "category": "object",
       "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "손수건을 봄",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
+          "context": "제 필체를 알아봄",
+          "interpretation_ko": "모진 원수가 내가 한 말을 빌미로 앞길을 막을 흉한 조짐",
+          "interpretation_en": "foretells that malicious enemies will use your expressed opinion to foil you in advancing",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "見手帕主有口舌",
-              "translation_ko": "손수건을 보면 구설이 있다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "鏡環釵釧梳篦",
-              "original": "手帕者主口舌事",
-              "translation_ko": "손수건은 구설이 생긴다"
+              "work": "miller",
+              "locator": "Handwriting",
+              "original": "To dream that you see and recognize your own handwriting, foretells that malicious enemies will use your expressed opinion to foil you in advancing to some competed position.",
+              "translation_ko": "제 필체를 보고 알아보는 꿈은, 모진 원수가 내가 한 말을 빌미로 앞길을 막음을 알린다"
             }
           ]
         }

@@ -1053,14 +1053,22 @@
       "족쇄가 부러져 망가짐": "부러 망가 부서 끊어",
       "족쇄가 집 안으로 들어옴": "집안 안으로 들어옴",
       "족쇄를 두려워함": "두려 무서 겁이",
-      "칼과 쇠사슬이 몸에 채워짐": "쇠사슬 사슬이 쇠줄이 결박 묶여 감겼 철제"
+      "칼과 쇠사슬이 몸에 채워짐": "쇠사슬 사슬이 쇠줄이 결박 묶여 감겼 철제",
+      "제 손에 수갑이 채워짐": "수갑이 손목에",
+      "남이 수갑을 찬 것을 봄": "남이 남들 다른사람이",
+      "수갑을 봄": "수갑을 보았",
+      "수갑을 끊어 냄": "부수고 벗어던"
     },
     "contexts_en": {
       "칼과 족쇄가 몸에 채워짐": "cangue locked bound body",
       "족쇄가 부러져 망가짐": "broken snapped shattered",
       "족쇄가 집 안으로 들어옴": "house entered inside home",
       "족쇄를 두려워함": "afraid feared frightened dread",
-      "칼과 쇠사슬이 몸에 채워짐": "metal steel wrapped tied restrained"
+      "칼과 쇠사슬이 몸에 채워짐": "metal steel wrapped tied restrained",
+      "제 손에 수갑이 채워짐": "handcuffed annoyed vexed",
+      "남이 수갑을 찬 것을 봄": "others subdue oppressing rise associates",
+      "수갑을 봄": "menaced sickness danger",
+      "수갑을 끊어 냄": "escape toils planned"
     }
   },
   {

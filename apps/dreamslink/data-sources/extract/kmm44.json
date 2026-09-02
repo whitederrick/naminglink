@@ -1,0 +1,54 @@
+[
+  {
+    "id": "handbill",
+    "aliases": [
+      "전단지",
+      "전단",
+      "광고지"
+    ],
+    "aliases_en": [
+      "handbills"
+    ],
+    "contexts": {
+      "전단지를 뿌리고 다님": "뿌리 나눠주 돌렸",
+      "전단지를 찍어 냄": "찍어 인쇄"
+    },
+    "contexts_en": {
+      "전단지를 뿌리고 다님": "distributing country contentions lawsuits",
+      "전단지를 찍어 냄": "printing hear unfavorable news"
+    }
+  },
+  {
+    "id": "handwriting",
+    "aliases": [
+      "필체",
+      "글씨체",
+      "제 글씨"
+    ],
+    "aliases_en": [
+      "your own handwriting"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "harem",
+    "aliases": [
+      "하렘",
+      "후궁들"
+    ],
+    "aliases_en": [
+      "a harem"
+    ],
+    "contexts": {
+      "하렘을 거느림": "거느 두었 다스",
+      "여성이 하렘에 머무는 사람이 됨": "머무 갇혀 들어가",
+      "여성이 하렘에서 가장 아낌을 받음": "아낌 총애 으뜸"
+    },
+    "contexts_en": {
+      "하렘을 거느림": "maintain wasting best energies",
+      "여성이 하렘에 머무는 사람이 됨": "inmate unlawful married men",
+      "여성이 하렘에서 가장 아낌을 받음": "favorite preferred material fleeting"
+    }
+  }
+]

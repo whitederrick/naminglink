@@ -583,15 +583,35 @@
   {
     "id": "handkerchief",
     "aliases": [
-      "수건"
+      "수건",
+      "손수건을",
+      "손수건이"
     ],
     "aliases_en": [
       "handkerchiefs",
       "hankie",
       "cloth"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "손수건을 봄": "놓여 들고",
+      "손수건을 잃음": "잃었 잃어",
+      "찢어진 손수건을 봄": "찢어 해어",
+      "더러워진 손수건을 봄": "더러 지저분",
+      "새하얀 손수건이 무더기로 있음": "새하얀 무더기 잔뜩",
+      "물들인 손수건을 봄": "물들인 알록 색깔",
+      "비단 손수건을 봄": "비단 명주",
+      "처녀가 손수건을 흔들어 인사함": "흔들 작별 인사"
+    },
+    "contexts_en": {
+      "손수건을 봄": "saw lying",
+      "손수건을 잃음": "lose broken engagement fault",
+      "찢어진 손수건을 봄": "torn quarrels straits reconciliation",
+      "더러워진 손수건을 봄": "soiled corrupted indiscriminate associations",
+      "새하얀 손수건이 무더기로 있음": "pure large lots resist insistent",
+      "물들인 손수건을 봄": "colored strictly moral ingenuity opprobrium",
+      "비단 손수건을 봄": "silk magnetic personality radiating cheerfulness",
+      "처녀가 손수건을 흔들어 인사함": "wave adieu recognition questionable trip"
+    }
   },
   {
     "id": "paper",

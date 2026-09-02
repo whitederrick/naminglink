@@ -5491,5 +5491,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "ham": [
     "hams",
     "a ham"
+  ],
+  "handbill": [
+    "handbills"
+  ],
+  "handwriting": [
+    "your own handwriting"
+  ],
+  "harem": [
+    "a harem"
   ]
 };
