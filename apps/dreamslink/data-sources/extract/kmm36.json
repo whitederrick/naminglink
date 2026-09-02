@@ -1,0 +1,160 @@
+[
+  {
+    "id": "floating",
+    "aliases": [
+      "물에 떠",
+      "둥둥 떠",
+      "떠 있었다",
+      "떠올랐다"
+    ],
+    "aliases_en": [
+      "floating",
+      "afloat"
+    ],
+    "contexts": {
+      "물에 떠 있음": "떠서 둥둥",
+      "흐린 물에 떠 있음": "흐린 흙탕"
+    },
+    "contexts_en": {
+      "물에 떠 있음": "victoriously overcome obstacles overwhelming",
+      "흐린 물에 떠 있음": "muddy gratifying"
+    }
+  },
+  {
+    "id": "flood",
+    "aliases": [
+      "홍수가",
+      "홍수를",
+      "큰물이",
+      "물난리"
+    ],
+    "aliases_en": [
+      "floods",
+      "a flood"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "flux",
+    "aliases": [
+      "이질",
+      "설사병",
+      "배탈이 나"
+    ],
+    "aliases_en": [
+      "flux"
+    ],
+    "contexts": {
+      "이질을 앓음": "내가 걸렸 앓았",
+      "남이 이질을 앓는 것을 봄": "남이 남들이 다른사람"
+    },
+    "contexts_en": {
+      "이질을 앓음": "having afflicted desperate fatal",
+      "남이 이질을 앓는 것을 봄": "others enterprise neglect vex"
+    }
+  },
+  {
+    "id": "flying",
+    "aliases": [
+      "하늘을 날",
+      "날아다녔다",
+      "날고 있었다",
+      "날아올랐다",
+      "날개로",
+      "날았",
+      "날아",
+      "날면서",
+      "날다가",
+      "날았다",
+      "날았는데",
+      "날았고"
+    ],
+    "aliases_en": [
+      "flying",
+      "I was flying"
+    ],
+    "contexts": {
+      "높이 낢": "높이 높게",
+      "땅에 닿을 듯 낮게 낢": "낮게 땅에 닿을",
+      "흐린 물 위를 낢": "흐린 흙탕물",
+      "부서진 곳 위를 낢": "부서진 무너진",
+      "날면서 아래 푸른 나무와 풀을 봄": "푸른 풀이 우거",
+      "날면서 해를 봄": "해를 햇빛",
+      "달과 별들을 지나 하늘을 낢": "달과 별들 지나",
+      "검은 날개로 낢": "검은 까만",
+      "날다가 떨어짐": "떨어졌 떨어질 추락",
+      "떨어지다가 잠에서 깸": "깨어났 잠에서",
+      "젊은 남자가 흰 날개로 푸른 잎 위를 낢": "젊은 남자 하얀 날개",
+      "아래 나무가 메마르거나 죽어 있음": "메마른 죽어 앙상",
+      "여성이 이 고을에서 저 고을로 날아 첨탑에 내려앉음": "고을 첨탑 교회",
+      "처녀가 날다가 총에 맞음": "총에 맞았 쏘았"
+    },
+    "contexts_en": {
+      "높이 낢": "high space marital calamities",
+      "땅에 닿을 듯 낮게 낢": "low ground uneasy recover",
+      "흐린 물 위를 낢": "muddy private enthrall",
+      "부서진 곳 위를 낢": "broken places gloomy surroundings",
+      "날면서 아래 푸른 나무와 풀을 봄": "green trees vegetation temporary",
+      "날면서 해를 봄": "sun useless worries despite",
+      "달과 별들을 지나 하늘을 낢": "firmament moon planets famine",
+      "검은 날개로 낢": "black wings bitter",
+      "날다가 떨어짐": "fall downfall",
+      "떨어지다가 잠에서 깸": "wake reinstating",
+      "젊은 남자가 흰 날개로 푸른 잎 위를 낢": "young man foliage advancement",
+      "아래 나무가 메마르거나 죽어 있음": "barren obstacles combat small results",
+      "여성이 이 고을에서 저 고을로 날아 첨탑에 내려앉음": "city spires persuasions declarations",
+      "처녀가 날다가 총에 맞음": "shot endeavor restrain spheres"
+    }
+  },
+  {
+    "id": "flying-machine",
+    "aliases": [
+      "비행기",
+      "비행선",
+      "나는 기계"
+    ],
+    "aliases_en": [
+      "a flying machine"
+    ],
+    "contexts": {
+      "비행기를 봄": "보았 떠올",
+      "비행기가 뜨지 못하는 것을 봄": "뜨지 못하 고장"
+    },
+    "contexts_en": {
+      "비행기를 봄": "satisfactory progress speculations",
+      "비행기가 뜨지 못하는 것을 봄": "failing gloomy returns worrisome"
+    }
+  },
+  {
+    "id": "fly-paper",
+    "aliases": [
+      "파리끈끈이",
+      "끈끈이"
+    ],
+    "aliases_en": [
+      "fly-paper"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "fly-trap",
+    "aliases": [
+      "파리덫",
+      "파리채",
+      "파리 잡는 덫"
+    ],
+    "aliases_en": [
+      "a fly-trap"
+    ],
+    "contexts": {
+      "파리덫을 봄": "놓여 걸려",
+      "파리가 가득한 파리덫을 봄": "가득 그득 잔뜩"
+    },
+    "contexts_en": {
+      "파리덫을 봄": "signal malicious designing",
+      "파리가 가득한 파리덫을 봄": "full small embarrassments ward"
+    }
+  }
+]

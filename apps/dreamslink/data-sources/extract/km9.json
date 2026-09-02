@@ -100,7 +100,11 @@
       "다리를 건너다가 장애나 지체를 겪음": "장애 지체 막혀 가로막 지연",
       "눈앞에서 다리가 무너짐": "눈앞 코앞 목전 와르르 폭삭",
       "다리 아래로 맑은 물을 봄": "맑은 깨끗 투명 물빛",
-      "다리 아래로 흐리고 탁한 물을 보거나 닿음": "흐린 흐리 탁한 탁하 흙탕 뿌옇"
+      "다리 아래로 흐리고 탁한 물을 보거나 닿음": "흐린 흐리 탁한 탁하 흙탕 뿌옇",
+      "맑은 시내에 놓인 외나무다리를 건넘": "시냇물 시내에",
+      "흐린 물에 놓인 외나무다리를 건넘": "걸쭉",
+      "외나무다리에서 맑은 물로 떨어짐": "잠겼 헤엄쳐",
+      "외나무다리에서 흐린 물로 떨어짐": "빠졌 허우적"
     },
     "contexts_en": {
       "다리를 고쳐 손봄": "repair repaired repairing fixing mending",
@@ -120,7 +124,11 @@
       "다리를 건너다가 장애나 지체를 겪음": "obstacle obstacles delay delayed hindrance blocked",
       "눈앞에서 다리가 무너짐": "eyes suddenly abruptly instantly plunged",
       "다리 아래로 맑은 물을 봄": "clear limpid pure sparkling transparent",
-      "다리 아래로 흐리고 탁한 물을 보거나 닿음": "muddy murky cloudy turbid dirty"
+      "다리 아래로 흐리고 탁한 물을 보거나 닿음": "muddy murky cloudy turbid dirty",
+      "맑은 시내에 놓인 외나무다리를 건넘": "foot-log employment",
+      "흐린 물에 놓인 외나무다리를 건넘": "thick temporary disturbance",
+      "외나무다리에서 맑은 물로 떨어짐": "widowhood agreeable",
+      "외나무다리에서 흐린 물로 떨어짐": "prospects"
     }
   },
   {
@@ -1096,12 +1104,25 @@
   },
   {
     "id": "wheat-flour",
-    "aliases": [],
+    "aliases": [
+      "밀가루가",
+      "밀가루를"
+    ],
     "aliases_en": [
       "flour"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "밀가루와 겨가 서로 섞임": "겨가 섞였",
+      "밀가루를 봄": "보았 담긴",
+      "처녀가 제 몸에 밀가루가 묻은 것을 봄": "처녀 아가씨 묻은",
+      "밀가루를 사고팖": "사고팔 팔았 장사"
+    },
+    "contexts_en": {
+      "밀가루와 겨가 서로 섞임": "bran mixed",
+      "밀가루를 봄": "frugal happy life",
+      "처녀가 제 몸에 밀가루가 묻은 것을 봄": "herself ruled husband cares",
+      "밀가루를 사고팖": "dealing hazardous speculations"
+    }
   },
   {
     "id": "pear",

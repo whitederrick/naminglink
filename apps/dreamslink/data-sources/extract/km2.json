@@ -375,23 +375,36 @@
     "aliases": [
       "꽃송이",
       "꽃다발",
-      "화초"
+      "화초",
+      "꽃이",
+      "꽃을"
     ],
     "aliases_en": [
       "flowers",
       "blossom",
       "blossoms",
-      "bloom"
+      "bloom",
+      "a flower"
     ],
     "contexts": {
       "남과 꽃을 나누어 가짐": "나누어 나눠 함께",
       "마른 나무에 꽃이 핌": "마른 고목 죽은나무 피어",
-      "배 위에서 꽃을 봄": "배위 뱃전 배에서"
+      "배 위에서 꽃을 봄": "배위 뱃전 배에서",
+      "뜰에 밝은 빛깔의 싱싱한 꽃이 핀 것을 봄": "뜰에 밝은 싱싱",
+      "하얀 꽃을 봄": "하얀 흰꽃",
+      "시들어 죽은 꽃을 봄": "시들 말라비틀",
+      "처녀가 여러 꽃을 묶은 다발을 받음": "다발 받았 처녀 아가씨",
+      "메마른 땅에 잎도 없이 꽃이 핀 것을 봄": "황무지 잎도 민둥"
     },
     "contexts_en": {
       "남과 꽃을 나누어 가짐": "shared sharing divided together",
       "마른 나무에 꽃이 핌": "dead tree withered bare branch bloomed",
-      "배 위에서 꽃을 봄": "boat ship deck"
+      "배 위에서 꽃을 봄": "boat ship deck",
+      "뜰에 밝은 빛깔의 싱싱한 꽃이 핀 것을 봄": "blooming gardens bright fresh",
+      "하얀 꽃을 봄": "white sadness",
+      "시들어 죽은 꽃을 봄": "disappointments gloomy situations",
+      "처녀가 여러 꽃을 묶은 다발을 받음": "bouquet mixed admirers",
+      "메마른 땅에 잎도 없이 꽃이 핀 것을 봄": "barren soil vestage grievous"
     }
   },
   {
@@ -788,7 +801,10 @@
       "모면",
       "벗어나려",
       "벗어나서",
-      "벗어나려다"
+      "벗어나려다",
+      "도망쳤다",
+      "도망치",
+      "달아났다"
     ],
     "aliases_en": [
       "ran away",
@@ -801,14 +817,20 @@
       "다치거나 사고를 당할 뻔한 데서 벗어남": "사고 다칠 다치",
       "갇힌 곳에서 빠져나옴": "갇힌 감옥 빠져나",
       "옮는 병에서 벗어남": "병에서 전염 옮는",
-      "벗어나려다 실패함": "실패 못했 붙잡혔"
+      "벗어나려다 실패함": "실패 못했 붙잡혔",
+      "도망침": "도망 쫓겨",
+      "처녀가 도망침": "처녀 아가씨 여자가",
+      "무언가가 나에게서 달아나는 것을 봄": "나에게서 내게서 물러"
     },
     "contexts_en": {
       "몸이 달아나 벗어남": "body freed",
       "다치거나 사고를 당할 뻔한 데서 벗어남": "injury accidents favorable",
       "갇힌 곳에서 빠져나옴": "confinement rise application",
       "옮는 병에서 벗어남": "contagion health prosperity",
-      "벗어나려다 실패함": "fail slander defraud"
+      "벗어나려다 실패함": "fail slander defraud",
+      "도망침": "flight disgrace",
+      "처녀가 도망침": "reproach throw aside",
+      "무언가가 나에게서 달아나는 것을 봄": "anything victorious contention"
     }
   },
   {

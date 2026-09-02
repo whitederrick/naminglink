@@ -31,6 +31,7 @@
     "m33.json",
     "m34.json",
     "m35.json",
+    "m36.json",
     "m4a.json",
     "m4b.json",
     "m5.json",
@@ -1911,6 +1912,336 @@
       ]
     },
     {
+      "id": "bridge",
+      "term_ko": "다리",
+      "term_en": "bridge",
+      "aliases": [
+        "교량",
+        "돌다리",
+        "구름다리",
+        "육교",
+        "외나무다리"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "낡고 어둠 속으로 이어진 긴 다리를 봄",
+          "interpretation_ko": "소중한 것을 잃는 깊은 우울과 암울한 상황이 닥칠 조짐",
+          "interpretation_en": "a sign of profound melancholy over the loss of dearest possessions and dismal situations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "To see a long bridge dilapidated, and mysteriously winding into darkness, profound melancholy over the loss of dearest possessions and dismal situations will fall upon you.",
+              "translation_ko": "낡고 신비롭게 어둠 속으로 이어진 긴 다리를 보면, 소중한 것을 잃는 깊은 우울과 암울한 상황이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 시내에 놓인 외나무다리를 건넘",
+          "interpretation_ko": "즐거운 일자리와 이문이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant employment and profit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foot-log",
+              "original": "To dream of crossing a clear stream of water on a foot-log, denotes pleasant employment and profit. If the water is thick and muddy, it indicates loss and temporary disturbance.",
+              "translation_ko": "맑은 시냇물을 외나무다리로 건너는 꿈은, 즐거운 일자리와 이문을 뜻한다. 물이 걸쭉하고 흐리면 손해와 한동안의 어수선함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물에 놓인 외나무다리를 건넘",
+          "interpretation_ko": "손해와 한동안의 어수선함이 있을 흉한 조짐",
+          "interpretation_en": "it indicates loss and temporary disturbance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foot-log",
+              "original": "To dream of crossing a clear stream of water on a foot-log, denotes pleasant employment and profit. If the water is thick and muddy, it indicates loss and temporary disturbance.",
+              "translation_ko": "맑은 시냇물을 외나무다리로 건너는 꿈은, 즐거운 일자리와 이문을 뜻한다. 물이 걸쭉하고 흐리면 손해와 한동안의 어수선함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "외나무다리에서 맑은 물로 떨어짐",
+          "interpretation_ko": "짧은 홀몸살이 끝에 마음에 드는 혼인이 올 조짐",
+          "interpretation_en": "signifies short widowhood terminating in an agreeable marriage",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foot-log",
+              "original": "To fall from a foot-log into clear water, signifies short widowhood terminating in an agreeable marriage. If the water is not clear, gloomy prospects.",
+              "translation_ko": "외나무다리에서 맑은 물로 떨어지는 꿈은, 짧은 홀몸살이 끝에 마음에 드는 혼인이 옴을 뜻한다. 물이 맑지 않으면 앞날이 어둡다"
+            }
+          ]
+        },
+        {
+          "context": "외나무다리에서 흐린 물로 떨어짐",
+          "interpretation_ko": "앞날이 어두울 흉한 조짐",
+          "interpretation_en": "if the water is not clear, gloomy prospects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foot-log",
+              "original": "To fall from a foot-log into clear water, signifies short widowhood terminating in an agreeable marriage. If the water is not clear, gloomy prospects.",
+              "translation_ko": "외나무다리에서 맑은 물로 떨어지는 꿈은, 짧은 홀몸살이 끝에 마음에 드는 혼인이 옴을 뜻한다. 물이 맑지 않으면 앞날이 어둡다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이나 연인이 낡고 어두운 다리를 봄",
+          "interpretation_ko": "마음에 품은 가장 큰 소망에 실망하고 사랑하는 사람이 이상에 못 미칠 조짐",
+          "interpretation_en": "a sign of disappointment in the heart's fondest hopes, as the loved one will fall below your ideal",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "To the young and those in love, disappointment in the heart's fondest hopes, as the loved one will fall below your ideal.",
+              "translation_ko": "젊은이와 연인에게는, 마음에 품은 가장 큰 소망에 실망하고 사랑하는 사람이 이상에 못 미칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 안전하게 건넘",
+          "interpretation_ko": "방법이 위태로워 보여도 결국 어려움을 극복할 조짐",
+          "interpretation_en": "a sign of a final surmounting of difficulties, though the means seem hardly safe to use",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "To cross a bridge safely, a final surmounting of difficulties, though the means seem hardly safe to use.",
+              "translation_ko": "다리를 안전하게 건너면, 방법이 위태로워 보여도 결국 어려움을 극복할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 건너다가 장애나 지체를 겪음",
+          "interpretation_ko": "재앙이 닥칠 조짐",
+          "interpretation_en": "a sign of disaster",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "Any obstacle or delay denotes disaster.",
+              "translation_ko": "어떤 장애나 지체든 재앙을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "눈앞에서 다리가 무너짐",
+          "interpretation_ko": "배신과 거짓 숭배자를 조심해야 할 조짐",
+          "interpretation_en": "a sign to beware of treachery and false admirers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "To see a bridge give way before you, beware of treachery and false admirers.",
+              "translation_ko": "눈앞에서 다리가 무너지는 것을 보면 배신과 거짓 숭배자를 조심해야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다리 아래로 맑은 물을 봄",
+          "interpretation_ko": "풍요가 따를 조짐",
+          "interpretation_en": "a sign that affluence comes with clear waters",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "Affluence comes with clear waters.",
+              "translation_ko": "맑은 물과 함께 풍요가 따른다"
+            }
+          ]
+        },
+        {
+          "context": "다리 아래로 흐리고 탁한 물을 보거나 닿음",
+          "interpretation_ko": "최선을 다한 노력이 슬픈 결과로 돌아올 조짐",
+          "interpretation_en": "a sign of sorrowful returns of best efforts",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bridge",
+              "original": "Sorrowful returns of best efforts are experienced after looking upon or coming in contact with muddy or turbid water in dreams.",
+              "translation_ko": "꿈에서 흐리고 탁한 물을 보거나 닿으면, 최선을 다한 노력이 슬픈 결과로 돌아온다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 고쳐 손봄",
+          "interpretation_ko": "모든 일이 화합할 조짐",
+          "interpretation_en": "a sign that all matters will be in harmony",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "修橋樑者萬事和",
+              "translation_ko": "다리를 고치면 온갖 일이 화합한다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 건너는 것을 봄",
+          "interpretation_ko": "관재와 송사가 생길 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "見渡橋主有官事",
+              "translation_ko": "다리를 건너는 것을 보면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "다리 위에 앉아 있음",
+          "interpretation_ko": "자리와 녹을 얻을 조짐",
+          "interpretation_en": "a sign of gaining post and stipend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "橋上坐主祿位至",
+              "translation_ko": "다리 위에 앉으면 녹과 자리가 온다"
+            }
+          ]
+        },
+        {
+          "context": "다리가 무너진 것을 봄",
+          "interpretation_ko": "관재와 송사가 생길 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "見橋壞主有官事",
+              "translation_ko": "다리가 무너진 것을 보면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "손을 잡고 함께 다리에 오름",
+          "interpretation_ko": "아내가 아이를 밸 조짐",
+          "interpretation_en": "a sign that one's wife will conceive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "攜手上橋妻有孕",
+              "translation_ko": "손을 잡고 다리에 오르면 아내가 아이를 밴다"
+            }
+          ]
+        },
+        {
+          "context": "다리 위에서 소리쳐 부름",
+          "interpretation_ko": "송사에서 이치를 얻을 조짐",
+          "interpretation_en": "a sign of winning one's case",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "橋上呼喚訟得理",
+              "translation_ko": "다리 위에서 소리쳐 부르면 송사에서 이치를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 새로 놓음",
+          "interpretation_ko": "크게 화합할 조짐",
+          "interpretation_en": "a sign of great harmony",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "新造橋者大和合",
+              "translation_ko": "다리를 새로 만들면 크게 화합한다"
+            }
+          ]
+        },
+        {
+          "context": "다리가 끊어짐",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "橋斷者主有口舌",
+              "translation_ko": "다리가 끊어지면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "다리 기둥이 부러짐",
+          "interpretation_ko": "자손에게 흉한 조짐",
+          "interpretation_en": "an inauspicious sign for one's descendants",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "橋柱折者子孫凶",
+              "translation_ko": "다리 기둥이 부러지면 자손에게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "다리와 길 위로 수레가 지나감",
+          "interpretation_ko": "모두 흉한 조짐",
+          "interpretation_en": "an inauspicious sign in every respect",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "橋路上往車皆凶",
+              "translation_ko": "다리와 길 위로 수레가 지나가면 모두 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "배로 다리 밑을 지나감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "乘船橋下過大吉",
+              "translation_ko": "배를 타고 다리 밑을 지나면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "apparel",
       "term_ko": "옷차림",
       "term_en": "apparel",
@@ -2859,6 +3190,309 @@
       ]
     },
     {
+      "id": "horse",
+      "term_ko": "말",
+      "term_en": "horse",
+      "aliases": [
+        "망아지",
+        "조랑말",
+        "백마",
+        "준마"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "말이 뜰 앞에서 춤추듯 뛰놂",
+          "interpretation_ko": "흉한 일이 흩어져 사라질 조짐",
+          "interpretation_en": "a sign that misfortune will scatter",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬舞庭前凶事散",
+              "translation_ko": "말이 뜰 앞에서 춤추면 흉한 일이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "망아지를 봄",
+          "interpretation_ko": "새로 벌인 일이 제법 잘 풀릴 길한 조짐",
+          "interpretation_en": "indicates new undertakings in which you will be rather fortunate",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foal",
+              "original": "To dream of a foal, indicates new undertakings in which you will be rather fortunate.",
+              "translation_ko": "망아지 꿈은, 새로 벌인 일이 제법 잘 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "말이 천 리 길을 달림",
+          "interpretation_ko": "큰 기쁨이 찾아올 조짐",
+          "interpretation_en": "a sign that great joy will arrive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬行千里大喜至",
+              "translation_ko": "말이 천 리를 가면 큰 기쁨이 온다"
+            }
+          ]
+        },
+        {
+          "context": "탄 말이 빠르게 내달림",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘馬快吉鈍主凶",
+              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "탄 말이 굼떠 나아가지 못함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘馬快吉鈍主凶",
+              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "말이 오가며 내달림",
+          "interpretation_ko": "문서에 관한 일이 생길 조짐",
+          "interpretation_en": "a sign of matters involving documents",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "走馬來往文書事",
+              "translation_ko": "말이 오가며 달리면 문서에 관한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "말이 돈과 물건을 등에 싣고 감",
+          "interpretation_ko": "자리와 녹을 잃을 조짐",
+          "interpretation_en": "a sign of losing one's post and stipend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬駝錢物失祿位",
+              "translation_ko": "말이 돈과 물건을 실으면 녹과 자리를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "말이 방 안으로 들어옴",
+          "interpretation_ko": "남녀 사이의 어지러운 일이 생길 조짐",
+          "interpretation_en": "a sign of an illicit affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬入室主奸情事",
+              "translation_ko": "말이 방에 들어오면 간통하는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "말을 씻겨 풀어 놓아 줌",
+          "interpretation_ko": "모두 기쁜 일이 될 조짐",
+          "interpretation_en": "a sign that all will be joyful matters",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "披洗放馬皆喜事",
+              "translation_ko": "말을 씻겨 놓아주면 모두 기쁜 일이다"
+            }
+          ]
+        },
+        {
+          "context": "말 떼가 멀리 달려 나감",
+          "interpretation_ko": "온갖 흉한 일이 풀릴 조짐",
+          "interpretation_en": "a sign that all misfortunes will be undone",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "群馬奔遠百凶解",
+              "translation_ko": "말 떼가 멀리 달리면 온갖 흉한 일이 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "죄인이 말을 달려 감",
+          "interpretation_ko": "액운이 물러갈 조짐",
+          "interpretation_en": "a sign that calamity departs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "罪人走馬厄事去",
+              "translation_ko": "죄인이 말을 달리면 액운이 물러간다"
+            }
+          ]
+        },
+        {
+          "context": "말에게 물림",
+          "interpretation_ko": "자리와 녹을 얻을 조짐",
+          "interpretation_en": "a sign of gaining post and stipend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "被馬咬有祿位至",
+              "translation_ko": "말에게 물리면 녹과 자리가 온다"
+            }
+          ]
+        },
+        {
+          "context": "흰 말을 타고 감",
+          "interpretation_ko": "병을 앓을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘白馬者主疾病",
+              "translation_ko": "흰 말을 타면 병을 앓는다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에서 말이 태어남",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "屋中生馬主大吉",
+              "translation_ko": "집 안에서 말이 나면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "말을 잡음",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of feasting to come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺驢騾馬有酒食",
+              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에서 말이 새끼를 낳음",
+          "interpretation_ko": "남자에게서 소식이 올 조짐",
+          "interpretation_en": "a sign that news from a man will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋中生馬男信至",
+              "translation_ko": "집 안에서 말이 나면 남자의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "흰 말이 수레를 끎",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "行車白馬主大吉",
+              "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "말 네 마리가 수레를 끎",
+          "interpretation_ko": "길한 듯하나 도리어 흉한 조짐",
+          "interpretation_en": "a seemingly auspicious sign that turns inauspicious",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "四馬駕車吉反凶",
+              "translation_ko": "네 마리 말이 수레를 끌면 길한 듯하나 도리어 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "말을 갖추어 채비함",
+          "interpretation_ko": "먼 길을 떠날 조짐",
+          "interpretation_en": "a sign of a long journey ahead",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "備馬者主遠行事",
+              "translation_ko": "말을 준비하면 먼 길 갈 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "귀인이 탄 말이 달림",
+          "interpretation_ko": "관재와 송사가 밝혀질 조짐",
+          "interpretation_en": "a sign that legal matters will be cleared up",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "貴人走馬官事明",
+              "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "well",
       "term_ko": "우물",
       "term_en": "well",
@@ -3152,568 +3786,6 @@
               "locator": "水火盜賊燈燭",
               "original": "把火燒井主疾病",
               "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse",
-      "term_ko": "말",
-      "term_en": "horse",
-      "aliases": [
-        "망아지",
-        "조랑말",
-        "백마",
-        "준마"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "말이 뜰 앞에서 춤추듯 뛰놂",
-          "interpretation_ko": "흉한 일이 흩어져 사라질 조짐",
-          "interpretation_en": "a sign that misfortune will scatter",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬舞庭前凶事散",
-              "translation_ko": "말이 뜰 앞에서 춤추면 흉한 일이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "말이 천 리 길을 달림",
-          "interpretation_ko": "큰 기쁨이 찾아올 조짐",
-          "interpretation_en": "a sign that great joy will arrive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬行千里大喜至",
-              "translation_ko": "말이 천 리를 가면 큰 기쁨이 온다"
-            }
-          ]
-        },
-        {
-          "context": "탄 말이 빠르게 내달림",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘馬快吉鈍主凶",
-              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "탄 말이 굼떠 나아가지 못함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘馬快吉鈍主凶",
-              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "말이 오가며 내달림",
-          "interpretation_ko": "문서에 관한 일이 생길 조짐",
-          "interpretation_en": "a sign of matters involving documents",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "走馬來往文書事",
-              "translation_ko": "말이 오가며 달리면 문서에 관한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "말이 돈과 물건을 등에 싣고 감",
-          "interpretation_ko": "자리와 녹을 잃을 조짐",
-          "interpretation_en": "a sign of losing one's post and stipend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬駝錢物失祿位",
-              "translation_ko": "말이 돈과 물건을 실으면 녹과 자리를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "말이 방 안으로 들어옴",
-          "interpretation_ko": "남녀 사이의 어지러운 일이 생길 조짐",
-          "interpretation_en": "a sign of an illicit affair",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬入室主奸情事",
-              "translation_ko": "말이 방에 들어오면 간통하는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "말을 씻겨 풀어 놓아 줌",
-          "interpretation_ko": "모두 기쁜 일이 될 조짐",
-          "interpretation_en": "a sign that all will be joyful matters",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "披洗放馬皆喜事",
-              "translation_ko": "말을 씻겨 놓아주면 모두 기쁜 일이다"
-            }
-          ]
-        },
-        {
-          "context": "말 떼가 멀리 달려 나감",
-          "interpretation_ko": "온갖 흉한 일이 풀릴 조짐",
-          "interpretation_en": "a sign that all misfortunes will be undone",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "群馬奔遠百凶解",
-              "translation_ko": "말 떼가 멀리 달리면 온갖 흉한 일이 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "죄인이 말을 달려 감",
-          "interpretation_ko": "액운이 물러갈 조짐",
-          "interpretation_en": "a sign that calamity departs",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "罪人走馬厄事去",
-              "translation_ko": "죄인이 말을 달리면 액운이 물러간다"
-            }
-          ]
-        },
-        {
-          "context": "말에게 물림",
-          "interpretation_ko": "자리와 녹을 얻을 조짐",
-          "interpretation_en": "a sign of gaining post and stipend",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "被馬咬有祿位至",
-              "translation_ko": "말에게 물리면 녹과 자리가 온다"
-            }
-          ]
-        },
-        {
-          "context": "흰 말을 타고 감",
-          "interpretation_ko": "병을 앓을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘白馬者主疾病",
-              "translation_ko": "흰 말을 타면 병을 앓는다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에서 말이 태어남",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "屋中生馬主大吉",
-              "translation_ko": "집 안에서 말이 나면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "말을 잡음",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of feasting to come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺驢騾馬有酒食",
-              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에서 말이 새끼를 낳음",
-          "interpretation_ko": "남자에게서 소식이 올 조짐",
-          "interpretation_en": "a sign that news from a man will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋中生馬男信至",
-              "translation_ko": "집 안에서 말이 나면 남자의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "흰 말이 수레를 끎",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "行車白馬主大吉",
-              "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "말 네 마리가 수레를 끎",
-          "interpretation_ko": "길한 듯하나 도리어 흉한 조짐",
-          "interpretation_en": "a seemingly auspicious sign that turns inauspicious",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "四馬駕車吉反凶",
-              "translation_ko": "네 마리 말이 수레를 끌면 길한 듯하나 도리어 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "말을 갖추어 채비함",
-          "interpretation_ko": "먼 길을 떠날 조짐",
-          "interpretation_en": "a sign of a long journey ahead",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "備馬者主遠行事",
-              "translation_ko": "말을 준비하면 먼 길 갈 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "귀인이 탄 말이 달림",
-          "interpretation_ko": "관재와 송사가 밝혀질 조짐",
-          "interpretation_en": "a sign that legal matters will be cleared up",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "貴人走馬官事明",
-              "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bridge",
-      "term_ko": "다리",
-      "term_en": "bridge",
-      "aliases": [
-        "교량",
-        "돌다리",
-        "구름다리",
-        "육교",
-        "외나무다리"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "낡고 어둠 속으로 이어진 긴 다리를 봄",
-          "interpretation_ko": "소중한 것을 잃는 깊은 우울과 암울한 상황이 닥칠 조짐",
-          "interpretation_en": "a sign of profound melancholy over the loss of dearest possessions and dismal situations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "To see a long bridge dilapidated, and mysteriously winding into darkness, profound melancholy over the loss of dearest possessions and dismal situations will fall upon you.",
-              "translation_ko": "낡고 신비롭게 어둠 속으로 이어진 긴 다리를 보면, 소중한 것을 잃는 깊은 우울과 암울한 상황이 닥칠 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은이나 연인이 낡고 어두운 다리를 봄",
-          "interpretation_ko": "마음에 품은 가장 큰 소망에 실망하고 사랑하는 사람이 이상에 못 미칠 조짐",
-          "interpretation_en": "a sign of disappointment in the heart's fondest hopes, as the loved one will fall below your ideal",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "To the young and those in love, disappointment in the heart's fondest hopes, as the loved one will fall below your ideal.",
-              "translation_ko": "젊은이와 연인에게는, 마음에 품은 가장 큰 소망에 실망하고 사랑하는 사람이 이상에 못 미칠 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다리를 안전하게 건넘",
-          "interpretation_ko": "방법이 위태로워 보여도 결국 어려움을 극복할 조짐",
-          "interpretation_en": "a sign of a final surmounting of difficulties, though the means seem hardly safe to use",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "To cross a bridge safely, a final surmounting of difficulties, though the means seem hardly safe to use.",
-              "translation_ko": "다리를 안전하게 건너면, 방법이 위태로워 보여도 결국 어려움을 극복할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다리를 건너다가 장애나 지체를 겪음",
-          "interpretation_ko": "재앙이 닥칠 조짐",
-          "interpretation_en": "a sign of disaster",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "Any obstacle or delay denotes disaster.",
-              "translation_ko": "어떤 장애나 지체든 재앙을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "눈앞에서 다리가 무너짐",
-          "interpretation_ko": "배신과 거짓 숭배자를 조심해야 할 조짐",
-          "interpretation_en": "a sign to beware of treachery and false admirers",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "To see a bridge give way before you, beware of treachery and false admirers.",
-              "translation_ko": "눈앞에서 다리가 무너지는 것을 보면 배신과 거짓 숭배자를 조심해야 할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다리 아래로 맑은 물을 봄",
-          "interpretation_ko": "풍요가 따를 조짐",
-          "interpretation_en": "a sign that affluence comes with clear waters",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "Affluence comes with clear waters.",
-              "translation_ko": "맑은 물과 함께 풍요가 따른다"
-            }
-          ]
-        },
-        {
-          "context": "다리 아래로 흐리고 탁한 물을 보거나 닿음",
-          "interpretation_ko": "최선을 다한 노력이 슬픈 결과로 돌아올 조짐",
-          "interpretation_en": "a sign of sorrowful returns of best efforts",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bridge",
-              "original": "Sorrowful returns of best efforts are experienced after looking upon or coming in contact with muddy or turbid water in dreams.",
-              "translation_ko": "꿈에서 흐리고 탁한 물을 보거나 닿으면, 최선을 다한 노력이 슬픈 결과로 돌아온다"
-            }
-          ]
-        },
-        {
-          "context": "다리를 고쳐 손봄",
-          "interpretation_ko": "모든 일이 화합할 조짐",
-          "interpretation_en": "a sign that all matters will be in harmony",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "修橋樑者萬事和",
-              "translation_ko": "다리를 고치면 온갖 일이 화합한다"
-            }
-          ]
-        },
-        {
-          "context": "다리를 건너는 것을 봄",
-          "interpretation_ko": "관재와 송사가 생길 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "見渡橋主有官事",
-              "translation_ko": "다리를 건너는 것을 보면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "다리 위에 앉아 있음",
-          "interpretation_ko": "자리와 녹을 얻을 조짐",
-          "interpretation_en": "a sign of gaining post and stipend",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "橋上坐主祿位至",
-              "translation_ko": "다리 위에 앉으면 녹과 자리가 온다"
-            }
-          ]
-        },
-        {
-          "context": "다리가 무너진 것을 봄",
-          "interpretation_ko": "관재와 송사가 생길 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "見橋壞主有官事",
-              "translation_ko": "다리가 무너진 것을 보면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "손을 잡고 함께 다리에 오름",
-          "interpretation_ko": "아내가 아이를 밸 조짐",
-          "interpretation_en": "a sign that one's wife will conceive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "攜手上橋妻有孕",
-              "translation_ko": "손을 잡고 다리에 오르면 아내가 아이를 밴다"
-            }
-          ]
-        },
-        {
-          "context": "다리 위에서 소리쳐 부름",
-          "interpretation_ko": "송사에서 이치를 얻을 조짐",
-          "interpretation_en": "a sign of winning one's case",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "橋上呼喚訟得理",
-              "translation_ko": "다리 위에서 소리쳐 부르면 송사에서 이치를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "다리를 새로 놓음",
-          "interpretation_ko": "크게 화합할 조짐",
-          "interpretation_en": "a sign of great harmony",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "新造橋者大和合",
-              "translation_ko": "다리를 새로 만들면 크게 화합한다"
-            }
-          ]
-        },
-        {
-          "context": "다리가 끊어짐",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "橋斷者主有口舌",
-              "translation_ko": "다리가 끊어지면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "다리 기둥이 부러짐",
-          "interpretation_ko": "자손에게 흉한 조짐",
-          "interpretation_en": "an inauspicious sign for one's descendants",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "橋柱折者子孫凶",
-              "translation_ko": "다리 기둥이 부러지면 자손에게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "다리와 길 위로 수레가 지나감",
-          "interpretation_ko": "모두 흉한 조짐",
-          "interpretation_en": "an inauspicious sign in every respect",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "橋路上往車皆凶",
-              "translation_ko": "다리와 길 위로 수레가 지나가면 모두 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "배로 다리 밑을 지나감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "乘船橋下過大吉",
-              "translation_ko": "배를 타고 다리 밑을 지나면 크게 길하다"
             }
           ]
         }
@@ -6630,6 +6702,230 @@
               "locator": "船車遊行物件",
               "original": "行車白馬主大吉",
               "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flying",
+      "term_ko": "하늘을 낢",
+      "term_en": "flying",
+      "aliases": [
+        "하늘을 날",
+        "날아다녔다",
+        "날고 있었다",
+        "날아올랐다",
+        "날개로",
+        "날았",
+        "날아",
+        "날면서",
+        "날다가",
+        "날았다",
+        "날았는데",
+        "날았고"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "높이 낢",
+          "interpretation_ko": "혼인 살림에 궂은일이 있을 흉한 조짐",
+          "interpretation_en": "denotes marital calamities",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To dream of flying high through a space, denotes marital calamities.",
+              "translation_ko": "허공을 높이 나는 꿈은 혼인 살림의 궂은일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "땅에 닿을 듯 낮게 낢",
+          "interpretation_ko": "병과 불안한 처지가 있으나 곧 나을 조짐",
+          "interpretation_en": "indicates sickness and uneasy states from which the dreamer will recover",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To fly low, almost to the ground, indicates sickness and uneasy states from which the dreamer will recover.",
+              "translation_ko": "땅에 닿을 듯 낮게 나는 꿈은, 병과 불안한 처지를 뜻하나 꿈꾼 이는 곧 낫는다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물 위를 낢",
+          "interpretation_ko": "적이 노리고 있으니 제 일을 감추라는 일깨움",
+          "interpretation_en": "warns you to keep close with your private affairs, as enemies are watching to enthrall you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To fly over muddy water, warns you to keep close with your private affairs, as enemies are watching to enthrall you.",
+              "translation_ko": "흐린 물 위를 나는 꿈은, 적이 나를 옭아매려 지켜보고 있으니 제 일을 가까이 간수하라는 일깨움이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 곳 위를 낢",
+          "interpretation_ko": "운이 궂고 둘레가 어두울 흉한 조짐",
+          "interpretation_en": "signifies ill luck and gloomy surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To fly over broken places, signifies ill luck and gloomy surroundings.",
+              "translation_ko": "부서진 곳 위를 나는 꿈은, 궂은 운과 어두운 둘레를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "날면서 아래 푸른 나무와 풀을 봄",
+          "interpretation_ko": "잠시 난처하나 이내 크게 넉넉해질 길한 조짐",
+          "interpretation_en": "you will suffer temporary embarrassment, but will have a flood of prosperity upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "If you notice green trees and vegetation below you in flying, you will suffer temporary embarrassment, but will have a flood of prosperity upon you.",
+              "translation_ko": "날면서 아래에 푸른 나무와 풀이 보이면, 잠시 난처한 일을 겪으나 이내 넉넉함이 물밀듯 온다"
+            }
+          ]
+        },
+        {
+          "context": "날면서 해를 봄",
+          "interpretation_ko": "쓸데없는 걱정일 뿐 하는 일은 잘될 길한 조짐",
+          "interpretation_en": "signifies useless worries, as your affairs will succeed despite your fears of evil",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To dream of seeing the sun while flying, signifies useless worries, as your affairs will succeed despite your fears of evil.",
+              "translation_ko": "날면서 해를 보는 꿈은, 걱정이 쓸데없음을 뜻한다. 궂은 일을 두려워해도 하는 일은 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "달과 별들을 지나 하늘을 낢",
+          "interpretation_ko": "굶주림과 싸움과 온갖 어려움이 닥칠 흉한 조짐",
+          "interpretation_en": "foretells famine, wars, and troubles of all kinds",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To dream of flying through the firmament passing the moon and other planets; foretells famine, wars, and troubles of all kinds.",
+              "translation_ko": "달과 다른 별들을 지나 하늘을 나는 꿈은, 굶주림과 싸움과 온갖 어려움을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "검은 날개로 낢",
+          "interpretation_ko": "쓰라린 낙담이 있을 흉한 조짐",
+          "interpretation_en": "portends bitter disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To dream that you fly with black wings, portends bitter disappointments.",
+              "translation_ko": "검은 날개로 나는 꿈은 쓰라린 낙담을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "날다가 떨어짐",
+          "interpretation_ko": "무너져 내릴 흉한 조짐",
+          "interpretation_en": "signifies your downfall",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "To fall while flying, signifies your downfall.",
+              "translation_ko": "날다가 떨어지는 꿈은 무너져 내림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "떨어지다가 잠에서 깸",
+          "interpretation_ko": "제자리를 되찾을 길한 조짐",
+          "interpretation_en": "you will succeed in reinstating yourself",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "If you wake while falling, you will succeed in reinstating yourself.",
+              "translation_ko": "떨어지는 도중에 잠에서 깨면 제자리를 되찾는다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 남자가 흰 날개로 푸른 잎 위를 낢",
+          "interpretation_ko": "하는 일이 오르고 사랑도 이루어질 길한 조짐",
+          "interpretation_en": "foretells advancement in business, and he will also be successful in love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "For a young man to dream that he is flying with white wings above green foliage, foretells advancement in business, and he will also be successful in love.",
+              "translation_ko": "젊은 남자가 흰 날개로 푸른 잎 위를 나는 꿈은, 하는 일이 오르고 사랑도 이루어짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "아래 나무가 메마르거나 죽어 있음",
+          "interpretation_ko": "바라는 것을 얻기까지 맞서 싸울 걸림돌이 있고 애쓴 보람이 적을 조짐",
+          "interpretation_en": "there will be obstacles to combat in obtaining desires; his work will bring small results",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "If the trees appear barren or dead, there will be obstacles to combat in obtaining desires. He will get along, but his work will bring small results.",
+              "translation_ko": "그 나무가 메마르거나 죽어 보이면, 바라는 것을 얻기까지 맞서 싸울 걸림돌이 있다. 그럭저럭 살아가되 애쓴 보람은 적다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 이 고을에서 저 고을로 날아 첨탑에 내려앉음",
+          "interpretation_ko": "거짓 꾐과 사랑의 말에 맞서야 하고, 큰 병과 가까운 이의 죽음이 따를 흉한 조짐",
+          "interpretation_en": "foretells she will have much to contend against in the way of false persuasions and declarations of love; a disastrous season of ill health may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "For a woman to dream of flying from one city to another, and alighting on church spires, foretells she will have much to contend against in the way of false persuasions and declarations of love. She will be threatened with a disastrous season of ill health, and the death of some one near to her may follow.",
+              "translation_ko": "여성이 이 고을에서 저 고을로 날아 교회 첨탑에 내려앉는 꿈은, 거짓 꾐과 사랑의 말에 맞서야 함을 알린다. 크게 앓을 때가 닥치고 가까운 이의 죽음이 따를 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 날다가 총에 맞음",
+          "interpretation_ko": "적이 나아가는 길을 막으려 들 흉한 조짐",
+          "interpretation_en": "denotes enemies will endeavor to restrain her advancement into higher spheres of usefulness and prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying",
+              "original": "For a young woman to dream that she is shot at while flying, denotes enemies will endeavor to restrain her advancement into higher spheres of usefulness and prosperity.",
+              "translation_ko": "젊은 여성이 날다가 총에 맞는 꿈은, 적이 그가 더 높고 넉넉한 자리로 나아가는 것을 막으려 함을 뜻한다"
             }
           ]
         }
@@ -12484,6 +12780,283 @@
       ]
     },
     {
+      "id": "fleeing",
+      "term_ko": "달아남",
+      "term_en": "fleeing",
+      "aliases": [
+        "도망",
+        "도주",
+        "탈출",
+        "빠져나왔다",
+        "벗어났다",
+        "모면",
+        "벗어나려",
+        "벗어나서",
+        "벗어나려다",
+        "도망쳤다",
+        "도망치",
+        "달아났다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸이 달아나 벗어남",
+          "interpretation_ko": "병이 물러갈 조짐",
+          "interpretation_en": "a sign that illness will depart",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "身逃去得脫病去",
+              "translation_ko": "몸이 달아나 벗어나면 병이 물러간다"
+            }
+          ]
+        },
+        {
+          "context": "다치거나 사고를 당할 뻔한 데서 벗어남",
+          "interpretation_ko": "대개 길한 조짐",
+          "interpretation_en": "to dream of escape from injury or accidents is usually favorable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Escape",
+              "original": "To dream of escape from injury or accidents, is usually favorable.",
+              "translation_ko": "다치거나 사고를 당할 뻔한 데서 벗어나는 꿈은 대개 길하다"
+            }
+          ]
+        },
+        {
+          "context": "갇힌 곳에서 빠져나옴",
+          "interpretation_ko": "일에 바짝 매달린 덕에 세상에서 자리가 올라갈 길한 조짐",
+          "interpretation_en": "it signifies your rise in the world from close application to business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Escape",
+              "original": "If you escape from some place of confinement, it signifies your rise in the world from close application to business.",
+              "translation_ko": "갇힌 곳에서 빠져나오는 꿈은, 일에 바짝 매달린 덕에 세상에서 자리가 올라감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옮는 병에서 벗어남",
+          "interpretation_ko": "몸이 성하고 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "denotes your good health and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Escape",
+              "original": "To escape from any contagion, denotes your good health and prosperity.",
+              "translation_ko": "옮는 병에서 벗어나는 꿈은, 성한 몸과 넉넉한 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "벗어나려다 실패함",
+          "interpretation_ko": "적의 꾀에 걸려 헐뜯기고 속아 넘어갈 흉한 조짐",
+          "interpretation_en": "you will suffer from the design of enemies, who will slander and defraud you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Escape",
+              "original": "If you try to escape and fail, you will suffer from the design of enemies, who will slander and defraud you.",
+              "translation_ko": "벗어나려다 뜻을 이루지 못하는 꿈은, 나를 헐뜯고 속이려는 적의 꾀에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 도망침",
+          "interpretation_ko": "행실이 흠잡힐 데가 있어 정인에게 버림받을 흉한 조짐",
+          "interpretation_en": "indicates that she has not kept her character above reproach, and her lover will throw her aside",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flight",
+              "original": "For a young woman to dream of flight, indicates that she has not kept her character above reproach, and her lover will throw her aside.",
+              "translation_ko": "젊은 여성이 도망치는 꿈은, 행실에 흠잡힐 데가 있어 정인에게 버림받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "도망침",
+          "interpretation_ko": "낯이 깎이고 멀리 있는 이에게서 언짢은 기별이 올 흉한 조짐",
+          "interpretation_en": "signifies disgrace and unpleasant news of the absent",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flight",
+              "original": "To dream of flight, signifies disgrace and unpleasant news of the absent.",
+              "translation_ko": "도망치는 꿈은, 낯이 깎임과 멀리 있는 이에게서 오는 언짢은 기별을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "무언가가 나에게서 달아나는 것을 봄",
+          "interpretation_ko": "어떤 다툼에서든 이길 길한 조짐",
+          "interpretation_en": "denotes that you will be victorious in any contention",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flight",
+              "original": "To see anything fleeing from you, denotes that you will be victorious in any contention.",
+              "translation_ko": "무언가가 나에게서 달아나는 것을 보는 꿈은, 어떤 다툼에서든 이김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flower",
+      "term_ko": "꽃",
+      "term_en": "flower",
+      "aliases": [
+        "꽃송이",
+        "꽃다발",
+        "화초",
+        "꽃이",
+        "꽃을"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남과 꽃을 나누어 가짐",
+          "interpretation_ko": "서로 헤어져 흩어질 조짐",
+          "interpretation_en": "a sign of parting and separation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "與人分花主分散",
+              "translation_ko": "남과 꽃을 나누면 서로 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "뜰에 밝은 빛깔의 싱싱한 꽃이 핀 것을 봄",
+          "interpretation_ko": "즐거움과 얻는 것이 있을 길한 조짐",
+          "interpretation_en": "signifies pleasure and gain, if bright-hued and fresh",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flower",
+              "original": "To dream of seeing flowers blooming in gardens, signifies pleasure and gain, if bright-hued and fresh; white denotes sadness.",
+              "translation_ko": "뜰에 꽃이 핀 것을 보는 꿈은, 빛깔이 밝고 싱싱하면 즐거움과 얻는 것을 뜻한다. 흰 꽃은 슬픔을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "하얀 꽃을 봄",
+          "interpretation_ko": "슬픈 일이 있을 흉한 조짐",
+          "interpretation_en": "white denotes sadness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flower",
+              "original": "To dream of seeing flowers blooming in gardens, signifies pleasure and gain, if bright-hued and fresh; white denotes sadness.",
+              "translation_ko": "뜰에 꽃이 핀 것을 보는 꿈은, 빛깔이 밝고 싱싱하면 즐거움과 얻는 것을 뜻한다. 흰 꽃은 슬픔을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "시들어 죽은 꽃을 봄",
+          "interpretation_ko": "낙담과 어두운 처지가 있을 흉한 조짐",
+          "interpretation_en": "signify disappointments and gloomy situations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flower",
+              "original": "Withered and dead flowers, signify disappointments and gloomy situations.",
+              "translation_ko": "시들어 죽은 꽃은 낙담과 어두운 처지를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 여러 꽃을 묶은 다발을 받음",
+          "interpretation_ko": "따르는 이가 많을 길한 조짐",
+          "interpretation_en": "foretells that she will have many admirers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flower",
+              "original": "For a young woman to receive a bouquet of mixed flowers, foretells that she will have many admirers.",
+              "translation_ko": "젊은 여성이 여러 꽃을 섞어 묶은 다발을 받는 꿈은, 따르는 이가 많음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "메마른 땅에 잎도 없이 꽃이 핀 것을 봄",
+          "interpretation_ko": "쓰라린 일을 겪으나 기운과 밝은 마음으로 헤치고 올라설 조짐",
+          "interpretation_en": "foretells you will have some grievous experience, but your energy and cheerfulness will enable you to climb through these to prominence and happiness",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flower",
+              "original": "To see flowers blooming in barren soil without vestage of foliage, foretells you will have some grievous experience, but your energy and cheerfulness will enable you to climb through these to prominence and happiness.",
+              "translation_ko": "잎 하나 없는 메마른 땅에 꽃이 핀 것을 보는 꿈은, 쓰라린 일을 겪게 됨을 알린다. 그러나 기운과 밝은 마음으로 그것을 헤치고 올라서 이름과 기쁨에 이른다"
+            }
+          ]
+        },
+        {
+          "context": "마른 나무에 꽃이 핌",
+          "interpretation_ko": "자손이 번성할 조짐",
+          "interpretation_en": "a sign that descendants will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "枯木開花子孫興",
+              "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
+            }
+          ]
+        },
+        {
+          "context": "배 위에서 꽃을 봄",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of food and drink to come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "乘船看花酒食至",
+              "translation_ko": "배를 타고 꽃을 보면 술과 음식이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hair",
       "term_ko": "머리카락",
       "term_en": "hair",
@@ -15287,6 +15860,125 @@
               "locator": "飲食酒肉瓜菜",
               "original": "貴人賜宴主疾病",
               "translation_ko": "귀인이 잔치를 내려 주면 질병이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flute",
+      "term_ko": "피리",
+      "term_en": "flute",
+      "aliases": [
+        "퉁소",
+        "단소",
+        "대금",
+        "젓대"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 피리를 줌",
+          "interpretation_ko": "명성을 얻을 조짐",
+          "interpretation_en": "a sign of gaining renown",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "他人與笛有名聲",
+              "translation_ko": "남이 피리를 주면 명성이 있다"
+            }
+          ]
+        },
+        {
+          "context": "피리 소리를 들음",
+          "interpretation_ko": "내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생길 조짐",
+          "interpretation_en": "denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "To dream of hearing a fife, denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you.",
+              "translation_ko": "피리 소리를 듣는 꿈은, 내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 피리를 붊",
+          "interpretation_ko": "무슨 말을 듣든 이름은 온전히 지켜질 길한 조짐",
+          "interpretation_en": "whatever else may be said of you, your reputation will remain intact",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "To dream that you play one yourself, indicates that whatever else may be said of you, your reputation will remain intact.",
+              "translation_ko": "제가 피리를 부는 꿈은, 무슨 말을 듣든 이름만은 온전히 지켜짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 피리 꿈을 꿈",
+          "interpretation_ko": "군인을 지아비로 맞을 조짐",
+          "interpretation_en": "she will have a soldier husband",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fife",
+              "original": "If a woman has this dream, she will have a soldier husband.",
+              "translation_ko": "여성이 이 꿈을 꾸면 군인을 지아비로 맞는다"
+            }
+          ]
+        },
+        {
+          "context": "피리 가락을 들음",
+          "interpretation_ko": "먼 데서 온 벗과 즐겁게 만나고 이문 남는 일이 있을 길한 조짐",
+          "interpretation_en": "signifies a pleasant meeting with friends from a distance, and profitable engagements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flute",
+              "original": "To dream of hearing notes from a flute, signifies a pleasant meeting with friends from a distance, and profitable engagements.",
+              "translation_ko": "피리 가락을 듣는 꿈은, 먼 데서 온 벗과의 즐거운 만남과 이문 남는 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 피리를 붊",
+          "interpretation_ko": "정인의 다정한 몸가짐에 마음을 줄 조짐",
+          "interpretation_en": "denotes that she will fall in love because of her lover's engaging manners",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flute",
+              "original": "For a young woman to dream of playing a flute, denotes that she will fall in love because of her lover's engaging manners.",
+              "translation_ko": "젊은 여성이 피리를 부는 꿈은, 정인의 다정한 몸가짐에 마음을 주게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "피리를 붊",
+          "interpretation_ko": "길하고 경사스러운 일이 있을 조짐",
+          "interpretation_en": "a sign of auspicious celebration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "吹笛打鼓有吉慶",
+              "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
             }
           ]
         }
@@ -20591,193 +21283,6 @@
               "locator": "Fish-pond",
               "original": "For a young woman to fall into a clear pond, omens decided good fortune and reciprocal love. If muddy, the opposite is foretold.",
               "translation_ko": "젊은 여성이 맑은 연못에 빠지는 꿈은, 틀림없는 복과 주고받는 사랑의 조짐이다. 물이 흐리면 그 반대다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fleeing",
-      "term_ko": "달아남",
-      "term_en": "fleeing",
-      "aliases": [
-        "도망",
-        "도주",
-        "탈출",
-        "빠져나왔다",
-        "벗어났다",
-        "모면",
-        "벗어나려",
-        "벗어나서",
-        "벗어나려다"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "몸이 달아나 벗어남",
-          "interpretation_ko": "병이 물러갈 조짐",
-          "interpretation_en": "a sign that illness will depart",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "身逃去得脫病去",
-              "translation_ko": "몸이 달아나 벗어나면 병이 물러간다"
-            }
-          ]
-        },
-        {
-          "context": "다치거나 사고를 당할 뻔한 데서 벗어남",
-          "interpretation_ko": "대개 길한 조짐",
-          "interpretation_en": "to dream of escape from injury or accidents is usually favorable",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Escape",
-              "original": "To dream of escape from injury or accidents, is usually favorable.",
-              "translation_ko": "다치거나 사고를 당할 뻔한 데서 벗어나는 꿈은 대개 길하다"
-            }
-          ]
-        },
-        {
-          "context": "갇힌 곳에서 빠져나옴",
-          "interpretation_ko": "일에 바짝 매달린 덕에 세상에서 자리가 올라갈 길한 조짐",
-          "interpretation_en": "it signifies your rise in the world from close application to business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Escape",
-              "original": "If you escape from some place of confinement, it signifies your rise in the world from close application to business.",
-              "translation_ko": "갇힌 곳에서 빠져나오는 꿈은, 일에 바짝 매달린 덕에 세상에서 자리가 올라감을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "옮는 병에서 벗어남",
-          "interpretation_ko": "몸이 성하고 살림이 넉넉해질 길한 조짐",
-          "interpretation_en": "denotes your good health and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Escape",
-              "original": "To escape from any contagion, denotes your good health and prosperity.",
-              "translation_ko": "옮는 병에서 벗어나는 꿈은, 성한 몸과 넉넉한 살림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "벗어나려다 실패함",
-          "interpretation_ko": "적의 꾀에 걸려 헐뜯기고 속아 넘어갈 흉한 조짐",
-          "interpretation_en": "you will suffer from the design of enemies, who will slander and defraud you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Escape",
-              "original": "If you try to escape and fail, you will suffer from the design of enemies, who will slander and defraud you.",
-              "translation_ko": "벗어나려다 뜻을 이루지 못하는 꿈은, 나를 헐뜯고 속이려는 적의 꾀에 시달림을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "flute",
-      "term_ko": "피리",
-      "term_en": "flute",
-      "aliases": [
-        "퉁소",
-        "단소",
-        "대금",
-        "젓대"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남이 피리를 줌",
-          "interpretation_ko": "명성을 얻을 조짐",
-          "interpretation_en": "a sign of gaining renown",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "他人與笛有名聲",
-              "translation_ko": "남이 피리를 주면 명성이 있다"
-            }
-          ]
-        },
-        {
-          "context": "피리 소리를 들음",
-          "interpretation_ko": "내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생길 조짐",
-          "interpretation_en": "denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fife",
-              "original": "To dream of hearing a fife, denotes that there will be an unexpected call on you to defend your honor, or that of some person near to you.",
-              "translation_ko": "피리 소리를 듣는 꿈은, 내 이름이나 가까운 이의 이름을 지켜야 할 일이 갑자기 생김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제가 피리를 붊",
-          "interpretation_ko": "무슨 말을 듣든 이름은 온전히 지켜질 길한 조짐",
-          "interpretation_en": "whatever else may be said of you, your reputation will remain intact",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fife",
-              "original": "To dream that you play one yourself, indicates that whatever else may be said of you, your reputation will remain intact.",
-              "translation_ko": "제가 피리를 부는 꿈은, 무슨 말을 듣든 이름만은 온전히 지켜짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 피리 꿈을 꿈",
-          "interpretation_ko": "군인을 지아비로 맞을 조짐",
-          "interpretation_en": "she will have a soldier husband",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fife",
-              "original": "If a woman has this dream, she will have a soldier husband.",
-              "translation_ko": "여성이 이 꿈을 꾸면 군인을 지아비로 맞는다"
-            }
-          ]
-        },
-        {
-          "context": "피리를 붊",
-          "interpretation_ko": "길하고 경사스러운 일이 있을 조짐",
-          "interpretation_en": "a sign of auspicious celebration",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "吹笛打鼓有吉慶",
-              "translation_ko": "피리를 불고 북을 치면 길한 경사가 있다"
             }
           ]
         }
@@ -28059,6 +28564,84 @@
       ]
     },
     {
+      "id": "fog",
+      "term_ko": "안개",
+      "term_en": "fog",
+      "aliases": [
+        "운무",
+        "자욱",
+        "안개가",
+        "안개를",
+        "안개 속"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "안개가 앞을 가림",
+          "interpretation_ko": "크게 길하고 이로울 조짐",
+          "interpretation_en": "a sign of great fortune and benefit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雲霧遮事大吉利",
+              "translation_ko": "구름과 안개가 가리면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "짙은 안개 속을 헤치고 감",
+          "interpretation_ko": "괴로움이 크고 하는 일에 시름이 많을 흉한 조짐",
+          "interpretation_en": "denotes much trouble and business worries",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fog",
+              "original": "To dream of traveling through a dense fog, denotes much trouble and business worries.",
+              "translation_ko": "짙은 안개 속을 헤치고 가는 꿈은, 큰 괴로움과 하는 일의 시름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "안개에서 빠져나옴",
+          "interpretation_ko": "고단하나 얻는 것이 있는 길을 갈 조짐",
+          "interpretation_en": "foretells a weary journey, but profitable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fog",
+              "original": "To emerge from it, foretells a weary journey, but profitable.",
+              "translation_ko": "안개에서 빠져나오는 꿈은, 고단하나 얻는 것이 있는 길을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 안개 속에 있음",
+          "interpretation_ko": "낯 뜨거운 말썽에 휘말릴 흉한 조짐",
+          "interpretation_en": "denotes that she will be mixed up in a salacious scandal",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fog",
+              "original": "For a young woman to dream of being in a fog, denotes that she will be mixed up in a salacious scandal, but if she gets out of the fog she will prove her innocence and regain her social standing.",
+              "translation_ko": "젊은 여성이 안개 속에 있는 꿈은, 낯 뜨거운 말썽에 휘말림을 뜻한다. 그러나 안개에서 빠져나오면 결백을 밝히고 제자리를 되찾는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "grain",
       "term_ko": "곡식",
       "term_en": "grain",
@@ -29344,6 +29927,81 @@
               "locator": "宮室屋宇倉庫",
               "original": "倉庫崩壞百事凶",
               "translation_ko": "창고가 무너지면 온갖 일이 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wheat-flour",
+      "term_ko": "밀가루",
+      "term_en": "wheat flour",
+      "aliases": [
+        "밀가루가",
+        "밀가루를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "밀가루와 겨가 서로 섞임",
+          "interpretation_ko": "집안이 궁핍해질 조짐",
+          "interpretation_en": "a sign that the household will fall into want",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "麵糠相交家欲儉",
+              "translation_ko": "밀가루와 겨가 서로 섞이면 집안이 궁핍해지려 한다"
+            }
+          ]
+        },
+        {
+          "context": "밀가루를 봄",
+          "interpretation_ko": "검소하나 즐거운 삶을 살 길한 조짐",
+          "interpretation_en": "denotes a frugal but happy life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flour",
+              "original": "To dream of flour, denotes a frugal but happy life.",
+              "translation_ko": "밀가루 꿈은 검소하나 즐거운 삶을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 제 몸에 밀가루가 묻은 것을 봄",
+          "interpretation_ko": "지아비의 뜻을 따르며 살가운 돌봄으로 가득한 삶을 살 조짐",
+          "interpretation_en": "denotes that she will be ruled by her husband, and that her life will be full of pleasant cares",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flour",
+              "original": "For a young woman to dream that she sees flour on herself, denotes that she will be ruled by her husband, and that her life will be full of pleasant cares.",
+              "translation_ko": "젊은 여성이 제 몸에 밀가루가 묻은 것을 보는 꿈은, 지아비의 뜻을 따르며 살가운 돌봄으로 가득한 삶을 살게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "밀가루를 사고팖",
+          "interpretation_ko": "위태로운 노름 같은 일에 손댈 흉한 조짐",
+          "interpretation_en": "denotes hazardous speculations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flour",
+              "original": "To dream of dealing in flour, denotes hazardous speculations.",
+              "translation_ko": "밀가루를 사고파는 꿈은, 위태로운 노름 같은 일에 손댐을 뜻한다"
             }
           ]
         }
@@ -37753,69 +38411,6 @@
               "locator": "Fireworks",
               "original": "For a young woman, this dream signifies entertainments and pleasant visiting to distant places.",
               "translation_ko": "젊은 여성에게 이 꿈은 놀이 자리와 먼 곳으로의 즐거운 나들이를 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "flower",
-      "term_ko": "꽃",
-      "term_en": "flower",
-      "aliases": [
-        "꽃송이",
-        "꽃다발",
-        "화초"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남과 꽃을 나누어 가짐",
-          "interpretation_ko": "서로 헤어져 흩어질 조짐",
-          "interpretation_en": "a sign of parting and separation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "與人分花主分散",
-              "translation_ko": "남과 꽃을 나누면 서로 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "마른 나무에 꽃이 핌",
-          "interpretation_ko": "자손이 번성할 조짐",
-          "interpretation_en": "a sign that descendants will flourish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "枯木開花子孫興",
-              "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
-            }
-          ]
-        },
-        {
-          "context": "배 위에서 꽃을 봄",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of food and drink to come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "乘船看花酒食至",
-              "translation_ko": "배를 타고 꽃을 보면 술과 음식이 온다"
             }
           ]
         }
@@ -53520,6 +54115,195 @@
       ]
     },
     {
+      "id": "floating",
+      "term_ko": "물에 뜸",
+      "term_en": "floating",
+      "aliases": [
+        "물에 떠",
+        "둥둥 떠",
+        "떠 있었다",
+        "떠올랐다"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "물에 떠 있음",
+          "interpretation_ko": "덮칠 듯하던 걸림돌을 보란 듯이 넘어설 길한 조짐",
+          "interpretation_en": "denotes that you will victoriously overcome obstacles which are seemingly overwhelming you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Floating",
+              "original": "To dream of floating, denotes that you will victoriously overcome obstacles which are seemingly overwhelming you.",
+              "translation_ko": "물에 떠 있는 꿈은, 덮칠 듯하던 걸림돌을 보란 듯이 넘어섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물에 떠 있음",
+          "interpretation_ko": "이기기는 하나 흡족하지 못할 조짐",
+          "interpretation_en": "if the water is muddy your victories will not be gratifying",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Floating",
+              "original": "If the water is muddy your victories will not be gratifying.",
+              "translation_ko": "물이 흐리면 이겨도 흡족하지 못하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flux",
+      "term_ko": "이질",
+      "term_en": "flux",
+      "aliases": [
+        "이질",
+        "설사병",
+        "배탈이 나"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이질을 앓음",
+          "interpretation_ko": "저나 집안 사람에게 위중한 병이 닥칠 흉한 조짐",
+          "interpretation_en": "denotes desperate or fatal illness will overtake you or some member of your family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flux",
+              "original": "To dream of having flux, or thinking that you are thus afflicted, denotes desperate or fatal illness will overtake you or some member of your family.",
+              "translation_ko": "이질을 앓거나 앓고 있다고 여기는 꿈은, 저나 집안 사람에게 위중하거나 목숨을 앗을 병이 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 이질을 앓는 것을 봄",
+          "interpretation_ko": "남의 게으름 탓에 벌인 일이 어그러지고 마음이 성가실 흉한 조짐",
+          "interpretation_en": "implies disappointment in carrying out some enterprise through the neglect of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flux",
+              "original": "To see others thus afflicted, implies disappointment in carrying out some enterprise through the neglect of others. Inharmonious states will vex you.",
+              "translation_ko": "남이 그렇게 앓는 것을 보는 꿈은, 남의 게으름 탓에 벌인 일이 어그러짐을 뜻한다. 어긋난 형편이 마음을 성가시게 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fly-trap",
+      "term_ko": "파리덫",
+      "term_en": "fly-trap",
+      "aliases": [
+        "파리덫",
+        "파리채",
+        "파리 잡는 덫"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "파리덫을 봄",
+          "interpretation_ko": "누군가 나를 해치려 꾀하고 있다는 조짐",
+          "interpretation_en": "is signal of malicious designing against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fly-trap",
+              "original": "To see a fly-trap in a dream, is signal of malicious designing against you.",
+              "translation_ko": "꿈에 파리덫을 보는 것은, 누군가 나를 해치려 꾀하고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "파리가 가득한 파리덫을 봄",
+          "interpretation_ko": "작은 난처함이 더 큰 난처함을 막아 줄 조짐",
+          "interpretation_en": "denotes that small embarrassments will ward off greater ones",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fly-trap",
+              "original": "To see one full of flies, denotes that small embarrassments will ward off greater ones.",
+              "translation_ko": "파리가 가득한 파리덫을 보는 꿈은, 작은 난처함이 더 큰 난처함을 막아 줌을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flying-machine",
+      "term_ko": "비행기",
+      "term_en": "flying machine",
+      "aliases": [
+        "비행기",
+        "비행선",
+        "나는 기계"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비행기를 봄",
+          "interpretation_ko": "앞으로 벌일 일이 흡족하게 나아갈 길한 조짐",
+          "interpretation_en": "foretells that you will make satisfactory progress in your future speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying Machine",
+              "original": "To dream of seeing a flying machine, foretells that you will make satisfactory progress in your future speculations.",
+              "translation_ko": "비행기를 보는 꿈은, 앞으로 벌일 일이 흡족하게 나아감을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "비행기가 뜨지 못하는 것을 봄",
+          "interpretation_ko": "애태우며 세운 뜻이 어두운 결과로 돌아올 흉한 조짐",
+          "interpretation_en": "foretells gloomy returns for much disturbing and worrisome planning",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Flying Machine",
+              "original": "To see one failing to work, foretells gloomy returns for much disturbing and worrisome planning.",
+              "translation_ko": "비행기가 뜨지 못하는 것을 보는 꿈은, 애태우며 세운 뜻이 어두운 결과로 돌아옴을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "forest",
       "term_ko": "숲",
       "term_en": "forest",
@@ -62549,6 +63333,40 @@
       ]
     },
     {
+      "id": "flood",
+      "term_ko": "홍수",
+      "term_en": "flood",
+      "aliases": [
+        "홍수가",
+        "홍수를",
+        "큰물이",
+        "물난리"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "홍수가 온 땅을 휩쓸고 나를 떠내려 보냄",
+          "interpretation_ko": "병과 장사의 손해, 그리고 혼인 살림이 가장 언짢고 불안해질 흉한 조짐",
+          "interpretation_en": "denotes sickness, loss in business, and the most unhappy and unsettled situation in the marriage state",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Floods",
+              "original": "To dream of floods destroying vast areas of country and bearing you on with its muddy de'bris, denotes sickness, loss in business, and the most unhappy and unsettled situation in the marriage state.",
+              "translation_ko": "홍수가 너른 땅을 무너뜨리고 흙탕 잔해와 함께 나를 떠내려 보내는 꿈은, 병과 장사의 손해, 그리고 혼인 살림이 가장 언짢고 불안해짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "flower-ornament",
       "term_ko": "꽃 장식",
       "term_en": "flower ornament",
@@ -62580,32 +63398,32 @@
       ]
     },
     {
-      "id": "fog",
-      "term_ko": "안개",
-      "term_en": "fog",
+      "id": "fly-paper",
+      "term_ko": "파리끈끈이",
+      "term_en": "fly-paper",
       "aliases": [
-        "운무",
-        "자욱"
+        "파리끈끈이",
+        "끈끈이"
       ],
-      "category": "nature",
-      "polarity": "positive",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "안개가 앞을 가림",
-          "interpretation_ko": "크게 길하고 이로울 조짐",
-          "interpretation_en": "a sign of great fortune and benefit",
-          "polarity": "positive",
+          "context": "파리끈끈이를 봄",
+          "interpretation_ko": "몸이 상하고 벗과 틀어질 흉한 조짐",
+          "interpretation_en": "signifies ill health and disrupted friendships",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雲霧遮事大吉利",
-              "translation_ko": "구름과 안개가 가리면 크게 길하고 이롭다"
+              "work": "miller",
+              "locator": "Fly-paper",
+              "original": "To dream of fly-paper, signifies ill health and disrupted friendships.",
+              "translation_ko": "파리끈끈이 꿈은 상한 몸과 틀어진 벗을 뜻한다"
             }
           ]
         }
@@ -66708,35 +67526,6 @@
               "locator": "夫妻產孕交懽",
               "original": "見嫁娶及孝主凶",
               "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wheat-flour",
-      "term_ko": "밀가루",
-      "term_en": "wheat flour",
-      "aliases": [],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "밀가루와 겨가 서로 섞임",
-          "interpretation_ko": "집안이 궁핍해질 조짐",
-          "interpretation_en": "a sign that the household will fall into want",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "麵糠相交家欲儉",
-              "translation_ko": "밀가루와 겨가 서로 섞이면 집안이 궁핍해지려 한다"
             }
           ]
         }

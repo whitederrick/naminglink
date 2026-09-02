@@ -318,7 +318,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "flowers",
     "blossom",
     "blossoms",
-    "bloom"
+    "bloom",
+    "a flower"
   ],
   "man": [
     "male",
@@ -5240,5 +5241,29 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "fleet": [
     "a fleet"
+  ],
+  "floating": [
+    "floating",
+    "afloat"
+  ],
+  "flood": [
+    "floods",
+    "a flood"
+  ],
+  "flux": [
+    "flux"
+  ],
+  "flying": [
+    "flying",
+    "I was flying"
+  ],
+  "flying-machine": [
+    "a flying machine"
+  ],
+  "fly-paper": [
+    "fly-paper"
+  ],
+  "fly-trap": [
+    "a fly-trap"
   ]
 };

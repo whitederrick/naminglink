@@ -497,16 +497,20 @@
     "contexts": {
       "남이 피리를 줌": "주었 받았 건네 선물",
       "피리를 붊": "불었 부는 불고 연주",
-      "피리 소리를 들음": "소리를 들었",
+      "피리 소리를 들음": "소리를 귀에",
       "제가 피리를 붊": "내가 제가 스스로",
-      "여성이 피리 꿈을 꿈": "여자가 여성이"
+      "여성이 피리 꿈을 꿈": "여자가 여성이",
+      "피리 가락을 들음": "가락 곡조 선율",
+      "처녀가 피리를 붊": "처녀 아가씨"
     },
     "contexts_en": {
       "남이 피리를 줌": "gave given received gift",
       "피리를 붊": "played playing blowing blew",
       "피리 소리를 들음": "hearing unexpected call defend",
       "제가 피리를 붊": "yourself reputation intact",
-      "여성이 피리 꿈을 꿈": "woman soldier husband"
+      "여성이 피리 꿈을 꿈": "woman soldier husband",
+      "피리 가락을 들음": "notes meeting distance profitable",
+      "처녀가 피리를 붊": "engaging manners fall love"
     }
   },
   {
@@ -795,7 +799,10 @@
     "id": "fog",
     "aliases": [
       "운무",
-      "자욱"
+      "자욱",
+      "안개가",
+      "안개를",
+      "안개 속"
     ],
     "aliases_en": [
       "mist",
@@ -803,8 +810,18 @@
       "haze",
       "misty"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "안개가 앞을 가림": "앞을 가려 뿌옇",
+      "짙은 안개 속을 헤치고 감": "짙은 헤치고 지나가",
+      "안개에서 빠져나옴": "빠져나 벗어났 걷혔",
+      "처녀가 안개 속에 있음": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "안개가 앞을 가림": "obscured view",
+      "짙은 안개 속을 헤치고 감": "traveling dense worries",
+      "안개에서 빠져나옴": "emerge weary profitable",
+      "처녀가 안개 속에 있음": "salacious scandal innocence standing"
+    }
   },
   {
     "id": "heavenly-messenger",
