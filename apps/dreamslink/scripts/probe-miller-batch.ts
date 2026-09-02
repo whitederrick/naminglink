@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 49 — Hood~Horoscope, 16건)
+// (지금 담긴 것: 배치 50 — Horse 문단 1~13, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "hood", ctx: "처녀가 두건을 씀", text: "처녀가 두건을 썼다" },
-  { id: "hook", ctx: "갈고리를 봄", text: "갈고리를 보았다" },
-  { id: "hoop", ctx: "굴렁쇠를 봄", text: "굴렁쇠가 놓여 있었다" },
-  { id: "hoop", ctx: "굴렁쇠를 뛰어넘음", text: "굴렁쇠를 뛰어넘었다" },
-  { id: "hops", ctx: "홉덩굴을 봄", text: "홉을 보았다" },
-  { id: "bugle", ctx: "부러진 나팔을 봄", text: "부러진 나팔을 보았다" },
-  { id: "bugle", ctx: "아이들이 나팔을 갖고 놂", text: "아이들이 나팔을 갖고 놀았다" },
-  { id: "bugle", ctx: "여성이 나팔을 붊", text: "여자가 나팔을 불었다" },
-  { id: "hornet", ctx: "말벌을 봄", text: "말벌이 날아다녔다" },
-  { id: "hornet", ctx: "처녀가 말벌에 쏘임", text: "아가씨가 말벌에 쏘였다" },
-  { id: "horoscope", ctx: "점성술사가 별점을 봐 줌", text: "점성술사가 별점을 봐 주었다" },
-  // 「점성술사가」를 넣은 것은 통과시키려는 것이 아니다 — **원문의 그 꿈에 그 사람이 있다**
-  // ("as his fate is being read", 앞 문장의 astrologist 가 읽어 준다). 그가 빠진 문장에는
-  // 상징 이름(별점·점성술)이 하나도 없어 어느 상징에도 안 걸리는 것이 옳다(§25 곁가지).
-  { id: "horoscope", ctx: "별을 짚어 주며 운명을 읽어 줌", text: "점성술사가 별을 짚어 주며 운명을 읽어 주었다" },
+  { id: "horse", ctx: "때 묻고 여윈 흰 말을 봄", text: "여윈 흰 말을 보았다" },
+  { id: "horse", ctx: "여성이 검은 말 꿈을 꿈", text: "남편이 검은 말을 타고 있었다" },
+  { id: "horse", ctx: "검은 말을 봄", text: "검은 말을 보았다" },
+  { id: "horse", ctx: "좋은 밤색 말을 탐", text: "밤색 말을 탔다" },
+  { id: "horse", ctx: "고삐 풀려 달아나는 말을 탐", text: "고삐 풀린 말을 탔다" },
+  { id: "horse", ctx: "말이 다른 말들과 함께 달아남", text: "말이 다른 말들과 함께 달아났다" },
+  { id: "horse", ctx: "훌륭한 씨수말을 봄", text: "훌륭한 씨수말을 보았다" },
+  { id: "horse", ctx: "새끼 밴 암말을 봄", text: "새끼 밴 암말을 보았다" },
+  { id: "horse", ctx: "말을 타고 흐린 개울을 건넘", text: "말을 타고 흐린 개울을 건넜다" },
+  { id: "horse", ctx: "맑은 개울을 말 등에 타고 헤엄쳐 건넘", text: "말을 타고 맑은 개울을 헤엄쳐 건넜다" },
+  { id: "horse", ctx: "말을 타고 개울을 건넘", text: "말을 타고 개울을 건넜다" },
+  { id: "horse", ctx: "다친 말을 봄", text: "다친 말을 보았다" },
+  { id: "horse", ctx: "죽은 말을 봄", text: "죽은 말을 보았다" },
+  { id: "horse", ctx: "말이 나를 내동댕이침", text: "말이 나를 내동댕이쳤다" },
+  { id: "horse", ctx: "날뛰는 말을 탐", text: "날뛰는 말을 탔다" },
 
-  // 이 배치가 별칭 임자를 옮기고 판별어를 더한 자리 — **옛 답이 그대로인지** 함께 잰다.
-  { id: "bugle", ctx: "나팔에서 나는 즐거운 소리를 들음", text: "나팔소리가 울려 들렸다" },
-  { id: "bugle", ctx: "나팔을 붊", text: "나팔을 입에 대고 불었다" },
-  { id: "hat", ctx: "스스로 두건과 모자를 씀", text: "스스로 두건과 모자를 썼다" },
-  { id: "bee", ctx: "벌에 쏘임", text: "벌에 쏘였다" },
+  // 이 배치가 판별어 열다섯을 더한 상징이다 — **옛 답이 그대로인지** 함께 잰다.
+  { id: "horse", ctx: "흰 말을 타고 감", text: "흰말을 타고 갔다" },
+  { id: "horse", ctx: "말에게 물림", text: "말에게 물렸다" },
+  { id: "horse", ctx: "망아지를 봄", text: "망아지를 보았다" },
+  { id: "horse", ctx: "탄 말이 빠르게 내달림", text: "말을 타고 빠르게 내달렸다" },
 ];
 
 let notFound = 0;

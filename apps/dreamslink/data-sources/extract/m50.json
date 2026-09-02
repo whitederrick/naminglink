@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "때 묻고 여윈 흰 말을 봄",
+    "interpretation_ko": "시샘하는 벗이나 여인에게 믿음을 배신당할 흉한 조짐",
+    "interpretation_en": "your confidence will be betrayed by a jealous friend or a woman",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "If the white horse is soiled and lean, your confidence will be betrayed by a jealous friend or a woman.",
+      "translation_ko": "흰 말이 때 묻고 여위었으면, 시샘하는 벗이나 여인에게 믿음을 배신당한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "여성이 검은 말 꿈을 꿈",
+    "interpretation_ko": "남편이 한눈을 팔고 있다는 뜻",
+    "interpretation_en": "denotes that her husband is unfaithful",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To a woman, this dream denotes that her husband is unfaithful.",
+      "translation_ko": "여성에게 이 꿈은 남편이 한눈을 팔고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "검은 말을 봄",
+    "interpretation_ko": "재물은 이루나 속임수를 쓰고 떳떳지 못한 만남을 갖게 될 조짐",
+    "interpretation_en": "you will be successful in your fortune, but you will practice deception, and will be guilty of assignations",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "If the horse is black, you will be successful in your fortune, but you will practice deception, and will be guilty of assignations.",
+      "translation_ko": "말이 검으면 재물은 이루나 속임수를 쓰고 떳떳지 못한 만남을 갖게 된다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "좋은 밤색 말을 탐",
+    "interpretation_ko": "재물이 오르고 바라던 뜻이 이루어질 길한 조짐",
+    "interpretation_en": "denotes a rise in fortune and gratification of passion",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To see yourself riding a fine bay horse, denotes a rise in fortune and gratification of passion.",
+      "translation_ko": "좋은 밤색 말을 타고 있는 자신을 보면, 재물이 오르고 바라던 뜻이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "고삐 풀려 달아나는 말을 탐",
+    "interpretation_ko": "벗이나 윗사람의 어리석음으로 제 일이 손해를 볼 흉한 조짐",
+    "interpretation_en": "your interests will be injured by the folly of a friend or employer",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To ride a runaway horse, your interests will be injured by the folly of a friend or employer.",
+      "translation_ko": "고삐 풀려 달아나는 말을 타면, 벗이나 윗사람의 어리석음으로 제 일이 손해를 본다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 다른 말들과 함께 달아남",
+    "interpretation_ko": "벗이 앓는다는 소식을 듣게 될 흉한 조짐",
+    "interpretation_en": "denotes that you will hear of the illness of friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To see a horse running away with others, denotes that you will hear of the illness of friends.",
+      "translation_ko": "말이 다른 말들과 함께 달아나는 것을 보면, 벗이 앓는다는 소식을 듣는다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "훌륭한 씨수말을 봄",
+    "interpretation_ko": "일이 이루어지고 넉넉히 살게 되나 지나친 욕심에 휘둘릴 조짐",
+    "interpretation_en": "a sign of success and high living, and undue passion will master you",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To see fine stallions, is a sign of success and high living, and undue passion will master you.",
+      "translation_ko": "훌륭한 씨수말을 보면, 일이 이루어지고 넉넉히 살게 되나 지나친 욕심에 휘둘린다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "새끼 밴 암말을 봄",
+    "interpretation_ko": "부부와 연인 사이에 시샘이 없고 뜻이 잘 맞을 길한 조짐",
+    "interpretation_en": "denotes congeniality and absence of jealousy between the married and sweethearts",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To see brood mares, denotes congeniality and absence of jealousy between the married and sweethearts.",
+      "translation_ko": "새끼 밴 암말을 보면, 부부와 연인 사이에 시샘이 없고 뜻이 잘 맞는다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 타고 흐린 개울을 건넘",
+    "interpretation_ko": "바라던 기쁨이 다소 어긋날 흉한 조짐",
+    "interpretation_en": "anticipated joys will be somewhat disappointing",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "If the stream is unsettled or murky, anticipated joys will be somewhat disappointing.",
+      "translation_ko": "개울이 흐리거나 탁하면, 바라던 기쁨이 다소 어긋난다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "맑은 개울을 말 등에 타고 헤엄쳐 건넘",
+    "interpretation_ko": "마음에 그리던 기쁨이 빠르게 이루어질 길한 조짐",
+    "interpretation_en": "your conception of passionate bliss will be swiftly realized",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To swim on a horse's back through a clear and beautiful stream of water, your conception of passionate bliss will be swiftly realized.",
+      "translation_ko": "맑고 아름다운 개울을 말 등에 타고 헤엄쳐 건너면, 마음에 그리던 기쁨이 빠르게 이루어진다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말을 타고 개울을 건넘",
+    "interpretation_ko": "머지않아 좋은 운이 오고 넉넉한 즐거움을 누릴 길한 조짐",
+    "interpretation_en": "you will soon experience some good fortune and will enjoy rich pleasures",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To ride a horse to ford a stream, you will soon experience some good fortune and will enjoy rich pleasures.",
+      "translation_ko": "말을 타고 개울을 건너면, 머지않아 좋은 운이 오고 넉넉한 즐거움을 누린다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "다친 말을 봄",
+    "interpretation_ko": "벗에게 걱정거리가 생길 흉한 조짐",
+    "interpretation_en": "foretells the trouble of friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To see a wounded horse, foretells the trouble of friends.",
+      "translation_ko": "다친 말을 보면, 벗에게 걱정거리가 생긴다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "죽은 말을 봄",
+    "interpretation_ko": "여러 가지 실망이 따를 흉한 조짐",
+    "interpretation_en": "signifies disappointments of various kinds",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To dream of a dead horse, signifies disappointments of various kinds.",
+      "translation_ko": "죽은 말 꿈은 여러 가지 실망을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "말이 나를 내동댕이침",
+    "interpretation_ko": "만만찮은 맞수가 생기고 장사가 조금 기울 흉한 조짐",
+    "interpretation_en": "you will have a strong rival, and your business will suffer slightly through competition",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To dream that he throws you, you will have a strong rival, and your business will suffer slightly through competition.",
+      "translation_ko": "말이 나를 내동댕이치는 꿈은, 만만찮은 맞수가 생기고 장사가 조금 기욺을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "날뛰는 말을 탐",
+    "interpretation_ko": "바라는 것이 쉬 이루어지지 않을 흉한 조짐",
+    "interpretation_en": "denotes that your desires will be difficult of consummation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Horse",
+      "original": "To dream of riding a horse that bucks, denotes that your desires will be difficult of consummation.",
+      "translation_ko": "날뛰는 말을 타는 꿈은, 바라는 것이 쉬 이루어지지 않음을 뜻한다"
+    }
+  }
+]

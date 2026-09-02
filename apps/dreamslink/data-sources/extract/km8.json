@@ -5,7 +5,14 @@
       "망아지",
       "조랑말",
       "백마",
-      "준마"
+      "준마",
+      "암말",
+      "수말",
+      "씨수말",
+      "종마",
+      "흑마",
+      "흰말",
+      "하얀말"
     ],
     "aliases_en": [
       "a horse",
@@ -35,7 +42,22 @@
       "말 네 마리가 수레를 끎": "마리 네마리 사두",
       "말을 갖추어 채비함": "채비 준비 갖추",
       "귀인이 탄 말이 달림": "귀인 벼슬 관리가",
-      "망아지를 봄": "망아지"
+      "망아지를 봄": "망아지",
+      "때 묻고 여윈 흰 말을 봄": "여윈 야윈 때묻은 지저분",
+      "여성이 검은 말 꿈을 꿈": "남편 아내가 부인이",
+      "검은 말을 봄": "검은 검정 흑마",
+      "좋은 밤색 말을 탐": "밤색 갈색 적갈색",
+      "고삐 풀려 달아나는 말을 탐": "고삐 달아나는 제멋대로",
+      "말이 다른 말들과 함께 달아남": "다른 함께 여럿",
+      "훌륭한 씨수말을 봄": "씨수말 종마",
+      "새끼 밴 암말을 봄": "암말 어미말",
+      "말을 타고 흐린 개울을 건넘": "흐린 탁한 흙탕",
+      "맑은 개울을 말 등에 타고 헤엄쳐 건넘": "헤엄 맑은",
+      "말을 타고 개울을 건넘": "건너 건넜 여울",
+      "다친 말을 봄": "다친 상처 부상",
+      "죽은 말을 봄": "죽은 주검 죽어있",
+      "말이 나를 내동댕이침": "내동댕이 내던지 낙마",
+      "날뛰는 말을 탐": "날뛰 껑충 뛰어오르"
     },
     "contexts_en": {
       "말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -57,7 +79,22 @@
       "말 네 마리가 수레를 끎": "four team chariot",
       "말을 갖추어 채비함": "prepared saddled equipped ready",
       "귀인이 탄 말이 달림": "noble nobleman official dignitary",
-      "망아지를 봄": "undertakings rather fortunate"
+      "망아지를 봄": "undertakings rather fortunate",
+      "때 묻고 여윈 흰 말을 봄": "soiled lean betrayed jealous",
+      "여성이 검은 말 꿈을 꿈": "husband unfaithful",
+      "검은 말을 봄": "black deception assignations",
+      "좋은 밤색 말을 탐": "bay gratification rise",
+      "고삐 풀려 달아나는 말을 탐": "bolted folly employer",
+      "말이 다른 말들과 함께 달아남": "others illness",
+      "훌륭한 씨수말을 봄": "undue master high",
+      "새끼 밴 암말을 봄": "brood congeniality sweethearts",
+      "말을 타고 흐린 개울을 건넘": "murky unsettled disappointing",
+      "맑은 개울을 말 등에 타고 헤엄쳐 건넘": "swim clear bliss",
+      "말을 타고 개울을 건넘": "ford rich pleasures",
+      "다친 말을 봄": "wounded trouble",
+      "죽은 말을 봄": "dead disappointments",
+      "말이 나를 내동댕이침": "throws rival competition",
+      "날뛰는 말을 탐": "bucks consummation"
     }
   },
   {

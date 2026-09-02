@@ -48,6 +48,7 @@
     "m4a.json",
     "m4b.json",
     "m5.json",
+    "m50.json",
     "m6.json",
     "m7a.json",
     "m7b.json",
@@ -67,6 +68,526 @@
     "result-tomb.json"
   ],
   "symbols": [
+    {
+      "id": "horse",
+      "term_ko": "말",
+      "term_en": "horse",
+      "aliases": [
+        "망아지",
+        "조랑말",
+        "백마",
+        "준마",
+        "암말",
+        "수말",
+        "씨수말",
+        "종마",
+        "흑마",
+        "흰말",
+        "하얀말"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "말이 뜰 앞에서 춤추듯 뛰놂",
+          "interpretation_ko": "흉한 일이 흩어져 사라질 조짐",
+          "interpretation_en": "a sign that misfortune will scatter",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬舞庭前凶事散",
+              "translation_ko": "말이 뜰 앞에서 춤추면 흉한 일이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "망아지를 봄",
+          "interpretation_ko": "새로 벌인 일이 제법 잘 풀릴 길한 조짐",
+          "interpretation_en": "indicates new undertakings in which you will be rather fortunate",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Foal",
+              "original": "To dream of a foal, indicates new undertakings in which you will be rather fortunate.",
+              "translation_ko": "망아지 꿈은, 새로 벌인 일이 제법 잘 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "때 묻고 여윈 흰 말을 봄",
+          "interpretation_ko": "시샘하는 벗이나 여인에게 믿음을 배신당할 흉한 조짐",
+          "interpretation_en": "your confidence will be betrayed by a jealous friend or a woman",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If the white horse is soiled and lean, your confidence will be betrayed by a jealous friend or a woman.",
+              "translation_ko": "흰 말이 때 묻고 여위었으면, 시샘하는 벗이나 여인에게 믿음을 배신당한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 검은 말 꿈을 꿈",
+          "interpretation_ko": "남편이 한눈을 팔고 있다는 뜻",
+          "interpretation_en": "denotes that her husband is unfaithful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To a woman, this dream denotes that her husband is unfaithful.",
+              "translation_ko": "여성에게 이 꿈은 남편이 한눈을 팔고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "검은 말을 봄",
+          "interpretation_ko": "재물은 이루나 속임수를 쓰고 떳떳지 못한 만남을 갖게 될 조짐",
+          "interpretation_en": "you will be successful in your fortune, but you will practice deception, and will be guilty of assignations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If the horse is black, you will be successful in your fortune, but you will practice deception, and will be guilty of assignations.",
+              "translation_ko": "말이 검으면 재물은 이루나 속임수를 쓰고 떳떳지 못한 만남을 갖게 된다"
+            }
+          ]
+        },
+        {
+          "context": "좋은 밤색 말을 탐",
+          "interpretation_ko": "재물이 오르고 바라던 뜻이 이루어질 길한 조짐",
+          "interpretation_en": "denotes a rise in fortune and gratification of passion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see yourself riding a fine bay horse, denotes a rise in fortune and gratification of passion.",
+              "translation_ko": "좋은 밤색 말을 타고 있는 자신을 보면, 재물이 오르고 바라던 뜻이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "고삐 풀려 달아나는 말을 탐",
+          "interpretation_ko": "벗이나 윗사람의 어리석음으로 제 일이 손해를 볼 흉한 조짐",
+          "interpretation_en": "your interests will be injured by the folly of a friend or employer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To ride a runaway horse, your interests will be injured by the folly of a friend or employer.",
+              "translation_ko": "고삐 풀려 달아나는 말을 타면, 벗이나 윗사람의 어리석음으로 제 일이 손해를 본다"
+            }
+          ]
+        },
+        {
+          "context": "말이 다른 말들과 함께 달아남",
+          "interpretation_ko": "벗이 앓는다는 소식을 듣게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will hear of the illness of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see a horse running away with others, denotes that you will hear of the illness of friends.",
+              "translation_ko": "말이 다른 말들과 함께 달아나는 것을 보면, 벗이 앓는다는 소식을 듣는다"
+            }
+          ]
+        },
+        {
+          "context": "훌륭한 씨수말을 봄",
+          "interpretation_ko": "일이 이루어지고 넉넉히 살게 되나 지나친 욕심에 휘둘릴 조짐",
+          "interpretation_en": "a sign of success and high living, and undue passion will master you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see fine stallions, is a sign of success and high living, and undue passion will master you.",
+              "translation_ko": "훌륭한 씨수말을 보면, 일이 이루어지고 넉넉히 살게 되나 지나친 욕심에 휘둘린다"
+            }
+          ]
+        },
+        {
+          "context": "새끼 밴 암말을 봄",
+          "interpretation_ko": "부부와 연인 사이에 시샘이 없고 뜻이 잘 맞을 길한 조짐",
+          "interpretation_en": "denotes congeniality and absence of jealousy between the married and sweethearts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see brood mares, denotes congeniality and absence of jealousy between the married and sweethearts.",
+              "translation_ko": "새끼 밴 암말을 보면, 부부와 연인 사이에 시샘이 없고 뜻이 잘 맞는다"
+            }
+          ]
+        },
+        {
+          "context": "말을 타고 흐린 개울을 건넘",
+          "interpretation_ko": "바라던 기쁨이 다소 어긋날 흉한 조짐",
+          "interpretation_en": "anticipated joys will be somewhat disappointing",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If the stream is unsettled or murky, anticipated joys will be somewhat disappointing.",
+              "translation_ko": "개울이 흐리거나 탁하면, 바라던 기쁨이 다소 어긋난다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 개울을 말 등에 타고 헤엄쳐 건넘",
+          "interpretation_ko": "마음에 그리던 기쁨이 빠르게 이루어질 길한 조짐",
+          "interpretation_en": "your conception of passionate bliss will be swiftly realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To swim on a horse's back through a clear and beautiful stream of water, your conception of passionate bliss will be swiftly realized.",
+              "translation_ko": "맑고 아름다운 개울을 말 등에 타고 헤엄쳐 건너면, 마음에 그리던 기쁨이 빠르게 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "말을 타고 개울을 건넘",
+          "interpretation_ko": "머지않아 좋은 운이 오고 넉넉한 즐거움을 누릴 길한 조짐",
+          "interpretation_en": "you will soon experience some good fortune and will enjoy rich pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To ride a horse to ford a stream, you will soon experience some good fortune and will enjoy rich pleasures.",
+              "translation_ko": "말을 타고 개울을 건너면, 머지않아 좋은 운이 오고 넉넉한 즐거움을 누린다"
+            }
+          ]
+        },
+        {
+          "context": "다친 말을 봄",
+          "interpretation_ko": "벗에게 걱정거리가 생길 흉한 조짐",
+          "interpretation_en": "foretells the trouble of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see a wounded horse, foretells the trouble of friends.",
+              "translation_ko": "다친 말을 보면, 벗에게 걱정거리가 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 말을 봄",
+          "interpretation_ko": "여러 가지 실망이 따를 흉한 조짐",
+          "interpretation_en": "signifies disappointments of various kinds",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To dream of a dead horse, signifies disappointments of various kinds.",
+              "translation_ko": "죽은 말 꿈은 여러 가지 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "말이 나를 내동댕이침",
+          "interpretation_ko": "만만찮은 맞수가 생기고 장사가 조금 기울 흉한 조짐",
+          "interpretation_en": "you will have a strong rival, and your business will suffer slightly through competition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To dream that he throws you, you will have a strong rival, and your business will suffer slightly through competition.",
+              "translation_ko": "말이 나를 내동댕이치는 꿈은, 만만찮은 맞수가 생기고 장사가 조금 기욺을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "날뛰는 말을 탐",
+          "interpretation_ko": "바라는 것이 쉬 이루어지지 않을 흉한 조짐",
+          "interpretation_en": "denotes that your desires will be difficult of consummation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To dream of riding a horse that bucks, denotes that your desires will be difficult of consummation.",
+              "translation_ko": "날뛰는 말을 타는 꿈은, 바라는 것이 쉬 이루어지지 않음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "말이 천 리 길을 달림",
+          "interpretation_ko": "큰 기쁨이 찾아올 조짐",
+          "interpretation_en": "a sign that great joy will arrive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬行千里大喜至",
+              "translation_ko": "말이 천 리를 가면 큰 기쁨이 온다"
+            }
+          ]
+        },
+        {
+          "context": "탄 말이 빠르게 내달림",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘馬快吉鈍主凶",
+              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "탄 말이 굼떠 나아가지 못함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘馬快吉鈍主凶",
+              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "말이 오가며 내달림",
+          "interpretation_ko": "문서에 관한 일이 생길 조짐",
+          "interpretation_en": "a sign of matters involving documents",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "走馬來往文書事",
+              "translation_ko": "말이 오가며 달리면 문서에 관한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "말이 돈과 물건을 등에 싣고 감",
+          "interpretation_ko": "자리와 녹을 잃을 조짐",
+          "interpretation_en": "a sign of losing one's post and stipend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬駝錢物失祿位",
+              "translation_ko": "말이 돈과 물건을 실으면 녹과 자리를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "말이 방 안으로 들어옴",
+          "interpretation_ko": "남녀 사이의 어지러운 일이 생길 조짐",
+          "interpretation_en": "a sign of an illicit affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "馬入室主奸情事",
+              "translation_ko": "말이 방에 들어오면 간통하는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "말을 씻겨 풀어 놓아 줌",
+          "interpretation_ko": "모두 기쁜 일이 될 조짐",
+          "interpretation_en": "a sign that all will be joyful matters",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "披洗放馬皆喜事",
+              "translation_ko": "말을 씻겨 놓아주면 모두 기쁜 일이다"
+            }
+          ]
+        },
+        {
+          "context": "말 떼가 멀리 달려 나감",
+          "interpretation_ko": "온갖 흉한 일이 풀릴 조짐",
+          "interpretation_en": "a sign that all misfortunes will be undone",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "群馬奔遠百凶解",
+              "translation_ko": "말 떼가 멀리 달리면 온갖 흉한 일이 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "죄인이 말을 달려 감",
+          "interpretation_ko": "액운이 물러갈 조짐",
+          "interpretation_en": "a sign that calamity departs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "罪人走馬厄事去",
+              "translation_ko": "죄인이 말을 달리면 액운이 물러간다"
+            }
+          ]
+        },
+        {
+          "context": "말에게 물림",
+          "interpretation_ko": "자리와 녹을 얻을 조짐",
+          "interpretation_en": "a sign of gaining post and stipend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "被馬咬有祿位至",
+              "translation_ko": "말에게 물리면 녹과 자리가 온다"
+            }
+          ]
+        },
+        {
+          "context": "흰 말을 타고 감",
+          "interpretation_ko": "병을 앓을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "乘白馬者主疾病",
+              "translation_ko": "흰 말을 타면 병을 앓는다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에서 말이 태어남",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "屋中生馬主大吉",
+              "translation_ko": "집 안에서 말이 나면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "말을 잡음",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of feasting to come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺驢騾馬有酒食",
+              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에서 말이 새끼를 낳음",
+          "interpretation_ko": "남자에게서 소식이 올 조짐",
+          "interpretation_en": "a sign that news from a man will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋中生馬男信至",
+              "translation_ko": "집 안에서 말이 나면 남자의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "흰 말이 수레를 끎",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "行車白馬主大吉",
+              "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "말 네 마리가 수레를 끎",
+          "interpretation_ko": "길한 듯하나 도리어 흉한 조짐",
+          "interpretation_en": "a seemingly auspicious sign that turns inauspicious",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "四馬駕車吉反凶",
+              "translation_ko": "네 마리 말이 수레를 끌면 길한 듯하나 도리어 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "말을 갖추어 채비함",
+          "interpretation_ko": "먼 길을 떠날 조짐",
+          "interpretation_en": "a sign of a long journey ahead",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "備馬者主遠行事",
+              "translation_ko": "말을 준비하면 먼 길 갈 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "귀인이 탄 말이 달림",
+          "interpretation_ko": "관재와 송사가 밝혀질 조짐",
+          "interpretation_en": "a sign that legal matters will be cleared up",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "貴人走馬官事明",
+              "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "dog",
       "term_ko": "개",
@@ -3946,309 +4467,6 @@
               "locator": "宮室屋宇倉庫",
               "original": "修理田舍有大喜",
               "translation_ko": "시골집을 수리하면 큰 기쁨이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse",
-      "term_ko": "말",
-      "term_en": "horse",
-      "aliases": [
-        "망아지",
-        "조랑말",
-        "백마",
-        "준마"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "말이 뜰 앞에서 춤추듯 뛰놂",
-          "interpretation_ko": "흉한 일이 흩어져 사라질 조짐",
-          "interpretation_en": "a sign that misfortune will scatter",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬舞庭前凶事散",
-              "translation_ko": "말이 뜰 앞에서 춤추면 흉한 일이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "망아지를 봄",
-          "interpretation_ko": "새로 벌인 일이 제법 잘 풀릴 길한 조짐",
-          "interpretation_en": "indicates new undertakings in which you will be rather fortunate",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Foal",
-              "original": "To dream of a foal, indicates new undertakings in which you will be rather fortunate.",
-              "translation_ko": "망아지 꿈은, 새로 벌인 일이 제법 잘 풀림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "말이 천 리 길을 달림",
-          "interpretation_ko": "큰 기쁨이 찾아올 조짐",
-          "interpretation_en": "a sign that great joy will arrive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬行千里大喜至",
-              "translation_ko": "말이 천 리를 가면 큰 기쁨이 온다"
-            }
-          ]
-        },
-        {
-          "context": "탄 말이 빠르게 내달림",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘馬快吉鈍主凶",
-              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "탄 말이 굼떠 나아가지 못함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘馬快吉鈍主凶",
-              "translation_ko": "말을 탐에 빠르면 길하고 굼뜨면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "말이 오가며 내달림",
-          "interpretation_ko": "문서에 관한 일이 생길 조짐",
-          "interpretation_en": "a sign of matters involving documents",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "走馬來往文書事",
-              "translation_ko": "말이 오가며 달리면 문서에 관한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "말이 돈과 물건을 등에 싣고 감",
-          "interpretation_ko": "자리와 녹을 잃을 조짐",
-          "interpretation_en": "a sign of losing one's post and stipend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬駝錢物失祿位",
-              "translation_ko": "말이 돈과 물건을 실으면 녹과 자리를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "말이 방 안으로 들어옴",
-          "interpretation_ko": "남녀 사이의 어지러운 일이 생길 조짐",
-          "interpretation_en": "a sign of an illicit affair",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "馬入室主奸情事",
-              "translation_ko": "말이 방에 들어오면 간통하는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "말을 씻겨 풀어 놓아 줌",
-          "interpretation_ko": "모두 기쁜 일이 될 조짐",
-          "interpretation_en": "a sign that all will be joyful matters",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "披洗放馬皆喜事",
-              "translation_ko": "말을 씻겨 놓아주면 모두 기쁜 일이다"
-            }
-          ]
-        },
-        {
-          "context": "말 떼가 멀리 달려 나감",
-          "interpretation_ko": "온갖 흉한 일이 풀릴 조짐",
-          "interpretation_en": "a sign that all misfortunes will be undone",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "群馬奔遠百凶解",
-              "translation_ko": "말 떼가 멀리 달리면 온갖 흉한 일이 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "죄인이 말을 달려 감",
-          "interpretation_ko": "액운이 물러갈 조짐",
-          "interpretation_en": "a sign that calamity departs",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "罪人走馬厄事去",
-              "translation_ko": "죄인이 말을 달리면 액운이 물러간다"
-            }
-          ]
-        },
-        {
-          "context": "말에게 물림",
-          "interpretation_ko": "자리와 녹을 얻을 조짐",
-          "interpretation_en": "a sign of gaining post and stipend",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "被馬咬有祿位至",
-              "translation_ko": "말에게 물리면 녹과 자리가 온다"
-            }
-          ]
-        },
-        {
-          "context": "흰 말을 타고 감",
-          "interpretation_ko": "병을 앓을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "乘白馬者主疾病",
-              "translation_ko": "흰 말을 타면 병을 앓는다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에서 말이 태어남",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "屋中生馬主大吉",
-              "translation_ko": "집 안에서 말이 나면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "말을 잡음",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of feasting to come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺驢騾馬有酒食",
-              "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에서 말이 새끼를 낳음",
-          "interpretation_ko": "남자에게서 소식이 올 조짐",
-          "interpretation_en": "a sign that news from a man will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋中生馬男信至",
-              "translation_ko": "집 안에서 말이 나면 남자의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "흰 말이 수레를 끎",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "行車白馬主大吉",
-              "translation_ko": "흰 말이 끄는 수레를 몰면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "말 네 마리가 수레를 끎",
-          "interpretation_ko": "길한 듯하나 도리어 흉한 조짐",
-          "interpretation_en": "a seemingly auspicious sign that turns inauspicious",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "四馬駕車吉反凶",
-              "translation_ko": "네 마리 말이 수레를 끌면 길한 듯하나 도리어 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "말을 갖추어 채비함",
-          "interpretation_ko": "먼 길을 떠날 조짐",
-          "interpretation_en": "a sign of a long journey ahead",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "備馬者主遠行事",
-              "translation_ko": "말을 준비하면 먼 길 갈 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "귀인이 탄 말이 달림",
-          "interpretation_ko": "관재와 송사가 밝혀질 조짐",
-          "interpretation_en": "a sign that legal matters will be cleared up",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "貴人走馬官事明",
-              "translation_ko": "귀인이 말을 달리면 관재가 밝혀진다"
             }
           ]
         }
