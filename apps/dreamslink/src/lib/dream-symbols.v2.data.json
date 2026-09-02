@@ -50,6 +50,7 @@
     "m5.json",
     "m50.json",
     "m51.json",
+    "m52.json",
     "m6.json",
     "m7a.json",
     "m7b.json",
@@ -516,6 +517,104 @@
               "locator": "Horse",
               "original": "To mount a horse bareback, you will gain wealth and ease by hard struggles.",
               "translation_ko": "맨등의 말에 올라타면, 고생 끝에 재물과 편안함을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "말의 갈기나 꼬리를 다듬음",
+          "interpretation_ko": "살림을 잘 꾸리고 재물을 알뜰히 다룰 길한 조짐",
+          "interpretation_en": "denotes that you will be a good financier or farmer",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To dream of trimming a horse's mane, or tail, denotes that you will be a good financier or farmer.",
+              "translation_ko": "말의 갈기나 꼬리를 다듬는 꿈은, 살림을 잘 꾸리는 사람이 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "오르막에서 말이 넘어졌으나 꼭대기에 오름",
+          "interpretation_ko": "적과 시샘에 맞서 애쓴 끝에 재물을 얻을 길한 조짐",
+          "interpretation_en": "you will win fortune, though you will have to struggle against enemies and jealousy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If you are riding up a hill and the horse falls but you gain the top, you will win fortune, though you will have to struggle against enemies and jealousy.",
+              "translation_ko": "오르막을 오르다 말이 넘어져도 꼭대기에 이르면, 적과 시샘에 맞서 애쓴 끝에 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "말과 함께 꼭대기에 오름",
+          "interpretation_ko": "눈에 띄게, 그러면서도 든든하게 올라설 길한 조짐",
+          "interpretation_en": "your rise will be phenomenal, but substantial",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If both the horse and you get to the top, your rise will be phenomenal, but substantial.",
+              "translation_ko": "말과 내가 함께 꼭대기에 이르면, 눈에 띄면서도 든든하게 올라선다"
+            }
+          ]
+        },
+        {
+          "context": "발을 저는 말을 봄",
+          "interpretation_ko": "잘 풀리던 자리에 뜻밖의 언짢은 일이 슬며시 끼어들 흉한 조짐",
+          "interpretation_en": "denotes that some unexpected unpleasantness will insinuate itself into your otherwise propitious state",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see a horse with a tender foot, denotes that some unexpected unpleasantness will insinuate itself into your otherwise propitious state.",
+              "translation_ko": "발을 저는 말을 보면, 잘 풀리던 자리에 뜻밖의 언짢은 일이 슬며시 끼어든다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 편자를 말 발에 억지로 끼우려 함",
+          "interpretation_ko": "모르는 이를 속여 거래했다는 말을 듣게 될 흉한 조짐",
+          "interpretation_en": "you will be charged with making fraudulent deals with unsuspecting parties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "If you attempt to fit a broken shoe which is too small for the horse's foot, you will be charged with making fraudulent deals with unsuspecting parties.",
+              "translation_ko": "말 발에 작은 부러진 편자를 억지로 끼우려 하면, 모르는 이를 속여 거래했다는 말을 듣는다"
+            }
+          ]
+        },
+        {
+          "context": "말을 타고 내리막을 내려감",
+          "interpretation_ko": "하는 일이 틀림없이 실망을 안길 흉한 조짐",
+          "interpretation_en": "your affairs will undoubtedly disappoint you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To ride a horse down hill, your affairs will undoubtedly disappoint you.",
+              "translation_ko": "말을 타고 내리막을 내려가면, 하는 일이 틀림없이 실망을 안긴다"
+            }
+          ]
+        },
+        {
+          "context": "말이 사람으로 바뀌어 다가옴",
+          "interpretation_ko": "바라던 일이 어그러지고 잃은 것을 되찾으려는 애가 헛될 흉한 조짐",
+          "interpretation_en": "denotes miscarriage of hopes and useless endeavors to regain lost valuables",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horse",
+              "original": "To see a horse in human flesh, descending on a hammock through the air, and as it nears your house is metamorphosed into a man, and he approaches your door and throws something at you which seems to be rubber but turns into great bees, denotes miscarriage of hopes and useless endeavors to regain lost valuables.",
+              "translation_ko": "말이 사람의 모습을 하고 하늘에서 내려와 집 가까이서 사람으로 바뀌어 다가오는 꿈은, 바라던 일이 어그러지고 잃은 것을 되찾으려는 애가 헛됨을 뜻한다"
             }
           ]
         },
