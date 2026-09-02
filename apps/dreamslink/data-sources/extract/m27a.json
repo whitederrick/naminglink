@@ -44,7 +44,6 @@
       "translation_ko": "의사가 피를 찾으려 살을 째는데 찾지 못하는 꿈은, 악한 이에게 시달리고 남의 빚을 물게 됨을 뜻한다"
     }
   },
-
   {
     "term_ko": "개",
     "term_en": "dog",
@@ -118,6 +117,36 @@
       "locator": "Dogs",
       "original": "To dream of small dogs, indicates that your thoughts and chief pleasures are of a frivolous order.",
       "translation_ko": "작은 개들 꿈은, 생각과 즐거움이 가벼운 쪽에 쏠려 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "미친개를 봄",
+    "interpretation_ko": "아무리 애써도 바라던 결과가 나오지 않을 조짐",
+    "interpretation_en": "your most strenuous efforts will not bring desired results",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Dogs",
+      "original": "To dream of a mad dog, your most strenuous efforts will not bring desired results, and fatal disease may be clutching at your vitals.",
+      "translation_ko": "미친개 꿈은, 아무리 애써도 바라던 결과가 나오지 않음을 뜻한다. 모진 병이 몸을 붙들고 있을 수도 있다"
+    }
+  },
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "미친개에게 물림",
+    "interpretation_ko": "저나 아끼는 이의 마음이 무너질 조짐",
+    "interpretation_en": "you or some loved one is on the verge of insanity",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Dogs",
+      "original": "If a mad dog succeeds in biting you, it is a sign that you or some loved one is on the verge of insanity, and a deplorable tragedy may occur.",
+      "translation_ko": "미친개에게 물리면, 저나 아끼는 이의 마음이 무너질 지경이라는 표이며 딱한 일이 일어날 수 있다"
     }
   },
   {
@@ -318,36 +347,6 @@
   {
     "term_ko": "개",
     "term_en": "dog",
-    "context": "미친개를 봄",
-    "interpretation_ko": "아무리 애써도 바라던 결과가 나오지 않을 조짐",
-    "interpretation_en": "your most strenuous efforts will not bring desired results",
-    "polarity": "negative",
-    "category": "animal",
-    "cite": {
-      "work": "miller",
-      "locator": "Dogs",
-      "original": "To dream of a mad dog, your most strenuous efforts will not bring desired results, and fatal disease may be clutching at your vitals.",
-      "translation_ko": "미친개 꿈은, 아무리 애써도 바라던 결과가 나오지 않음을 뜻한다. 모진 병이 몸을 붙들고 있을 수도 있다"
-    }
-  },
-  {
-    "term_ko": "개",
-    "term_en": "dog",
-    "context": "미친개에게 물림",
-    "interpretation_ko": "저나 아끼는 이의 마음이 무너질 조짐",
-    "interpretation_en": "you or some loved one is on the verge of insanity",
-    "polarity": "negative",
-    "category": "animal",
-    "cite": {
-      "work": "miller",
-      "locator": "Dogs",
-      "original": "If a mad dog succeeds in biting you, it is a sign that you or some loved one is on the verge of insanity, and a deplorable tragedy may occur.",
-      "translation_ko": "미친개에게 물리면, 저나 아끼는 이의 마음이 무너질 지경이라는 표이며 딱한 일이 일어날 수 있다"
-    }
-  },
-  {
-    "term_ko": "개",
-    "term_en": "dog",
     "context": "개를 데리고 홀로 길을 감",
     "interpretation_ko": "든든한 벗과 잘되는 일이 따를 조짐",
     "interpretation_en": "stanch friends and successful undertakings",
@@ -405,7 +404,6 @@
       "translation_ko": "개가 눈앞에서 뱀을 죽이는 것은 좋은 운의 조짐이다"
     }
   },
-
   {
     "term_ko": "돌고래",
     "term_en": "dolphin",
@@ -421,7 +419,6 @@
       "translation_ko": "돌고래 꿈은 새로운 다스림 아래 놓이기 쉬움을 뜻한다. 그리 좋은 꿈은 아니다"
     }
   },
-
   {
     "term_ko": "둥근지붕",
     "term_en": "dome",
@@ -452,7 +449,6 @@
       "translation_ko": "둥근지붕을 멀리서 바라보는 꿈은, 뜻한 높이에 끝내 닿지 못함을 알린다. 사랑하고 있다면 그 사람이 마음을 외면한다"
     }
   },
-
   {
     "term_ko": "도미노",
     "term_en": "dominoes",
@@ -483,7 +479,6 @@
       "translation_ko": "그 놀이에서 이기면, 방탕한 이들에게 떠받들려 제 잇속의 즐거움을 얻으나 살붙이에게는 큰 괴로움이 된다"
     }
   },
-
   {
     "term_ko": "당나귀",
     "term_en": "donkey",
@@ -619,7 +614,6 @@
       "translation_ko": "당나귀에서 떨어지거나 내동댕이쳐지면, 운이 나쁘고 세상일이 어그러진다. 연인은 다투고 갈라선다"
     }
   },
-
   {
     "term_ko": "최후의 심판",
     "term_en": "doomsday",

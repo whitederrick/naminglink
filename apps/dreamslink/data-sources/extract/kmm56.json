@@ -1,0 +1,117 @@
+[
+  {
+    "id": "hut",
+    "aliases": [
+      "오두막집",
+      "초가집",
+      "움막",
+      "오막살이"
+    ],
+    "aliases_en": [
+      "a hut",
+      "huts"
+    ],
+    "contexts": {
+      "오두막을 봄": "허름 낡은 덩그러니",
+      "오두막에서 잠을 잠": "잠을 잤다 자고 누워",
+      "푸른 들판에 있는 오두막을 봄": "푸른 초원 들판 목장"
+    },
+    "contexts_en": {
+      "오두막을 봄": "indifferent",
+      "오두막에서 잠을 잠": "sleeping dissatisfaction",
+      "푸른 들판에 있는 오두막을 봄": "green pasture prosperity fluctuating"
+    }
+  },
+  {
+    "id": "hyacinth",
+    "aliases": [
+      "히아신스꽃"
+    ],
+    "aliases_en": [
+      "hyacinths"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hydrophobia",
+    "aliases": [
+      "광견병"
+    ],
+    "aliases_en": [
+      "rabies"
+    ],
+    "contexts": {
+      "제가 공수병에 걸림": "제가 내가 나는",
+      "남이 공수병에 걸린 것을 봄": "남이 남들 타인이",
+      "공수병에 걸린 짐승에게 물림": "짐승 물렸다 물려 물린"
+    },
+    "contexts_en": {
+      "제가 공수병에 걸림": "afflicted enemies change business",
+      "남이 공수병에 걸린 것을 봄": "others thus interrupted ungrateful dependence",
+      "공수병에 걸린 짐승에게 물림": "bites betrayed dearest scandal"
+    }
+  },
+  {
+    "id": "hyena",
+    "aliases": [
+      "하이에나떼",
+      "하이에나들"
+    ],
+    "aliases_en": [
+      "a hyena",
+      "hyenas"
+    ],
+    "contexts": {
+      "하이에나를 봄": "무리 어슬렁",
+      "하이에나가 덤벼듦": "덤벼 달려들 공격 물어뜯"
+    },
+    "contexts_en": {
+      "하이에나를 봄": "disappointment luck undertakings uncongenial quarrels",
+      "하이에나가 덤벼듦": "attacks reputation busybodies"
+    }
+  },
+  {
+    "id": "hymn",
+    "aliases": [
+      "찬송",
+      "찬송가 부르는 소리",
+      "찬송가 소리"
+    ],
+    "aliases_en": [
+      "hymns",
+      "a hymn"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "hypocrite",
+    "aliases": [
+      "위선",
+      "가식"
+    ],
+    "aliases_en": [
+      "a hypocrite",
+      "hypocrites"
+    ],
+    "contexts": {
+      "남이 자기에게 위선을 부림": "남이 누군가 상대가",
+      "제가 위선자가 됨": "제가 내가 나는"
+    },
+    "contexts_en": {
+      "남이 자기에게 위선을 부림": "anyone acted turned enemies false",
+      "제가 위선자가 됨": "deceiver prove friends"
+    }
+  },
+  {
+    "id": "hyssop",
+    "aliases": [
+      "히솝",
+      "히솝풀"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

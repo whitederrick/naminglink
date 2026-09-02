@@ -5641,5 +5641,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "hurricane": [
     "a hurricane",
     "hurricanes"
+  ],
+  "hut": [
+    "a hut",
+    "huts"
+  ],
+  "hyacinth": [
+    "hyacinths"
+  ],
+  "hydrophobia": [
+    "rabies"
+  ],
+  "hyena": [
+    "a hyena",
+    "hyenas"
+  ],
+  "hymn": [
+    "hymns",
+    "a hymn"
+  ],
+  "hypocrite": [
+    "a hypocrite",
+    "hypocrites"
   ]
 };

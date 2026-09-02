@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 55 — Hurricane·Husband, 20건)
+// (지금 담긴 것: 배치 56 — Hut~Hyssop, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,28 +30,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "hurricane", ctx: "태풍이 몰려오는 것을 봄", text: "태풍이 굉음을 내며 몰려오고 있었다" },
-  { id: "hurricane", ctx: "태풍에 무너지는 집에서 사람을 끌어냄", text: "태풍에 무너지는 집에서 사람을 끌어냈다" },
-  { id: "hurricane", ctx: "태풍이 남긴 잔해를 봄", text: "태풍이 남긴 잔해를 보았다" },
-  { id: "hurricane", ctx: "태풍으로 죽거나 다친 이를 봄", text: "태풍으로 죽거나 다친 사람을 보았다" },
-  { id: "husband", ctx: "남편이 까닭 없이 떠남", text: "남편이 까닭도 없이 떠나갔다" },
-  { id: "husband", ctx: "남편이 딴마음을 품었다고 꾸짖음", text: "남편이 나를 꾸짖었다" },
-  { id: "husband", ctx: "남편이 죽은 것을 봄", text: "남편이 죽은 것을 보았다" },
-  { id: "husband", ctx: "남편이 창백하고 지쳐 보임", text: "남편이 창백해 보였다" },
-  { id: "husband", ctx: "남편이 밝고 훤해 보임", text: "남편이 밝고 훤해 보였다" },
-  { id: "husband", ctx: "남편이 앓고 있음", text: "남편이 앓고 있었다" },
-  { id: "husband", ctx: "남편이 다른 여자를 마음에 둠", text: "남편이 다른 여자를 사랑하고 있었다" },
-  { id: "husband", ctx: "남의 남편을 마음에 둠", text: "남의 남편을 마음에 두고 있었다" },
-  { id: "husband", ctx: "혼인하지 않은 여자가 남편이 있는 꿈을 꿈", text: "혼인하지 않았는데 남편이 있었다" },
-  { id: "husband", ctx: "남편이 멀어지면서 되레 커 보임", text: "남편이 멀어지면서 되레 커졌다" },
-  { id: "husband", ctx: "남편이 낯선 이와 수상하게 있는 것을 봄", text: "남편이 낯선 사람과 수상하게 있었다" },
-  { id: "husband", ctx: "남편이 다른 여자와 있다 죽고 추문이 남", text: "남편이 다른 여자와 있다 죽고 추문이 났다" },
+  { id: "hut", ctx: "오두막을 봄", text: "허름한 오두막을 보았다" },
+  { id: "hut", ctx: "오두막에서 잠을 잠", text: "오두막에서 잠을 잤다" },
+  { id: "hut", ctx: "푸른 들판에 있는 오두막을 봄", text: "푸른 들판에 오두막이 있었다" },
+  { id: "hyacinth", ctx: "히아신스를 보거나 꺾음", text: "히아신스를 꺾었다" },
+  { id: "hydrophobia", ctx: "제가 공수병에 걸림", text: "내가 공수병에 걸렸다" },
+  { id: "hydrophobia", ctx: "남이 공수병에 걸린 것을 봄", text: "남이 공수병에 걸린 것을 보았다" },
+  { id: "hydrophobia", ctx: "공수병에 걸린 짐승에게 물림", text: "광견병에 걸린 짐승에게 물렸다" },
+  { id: "hyena", ctx: "하이에나를 봄", text: "하이에나 무리가 어슬렁거리고 있었다" },
+  { id: "hyena", ctx: "하이에나가 덤벼듦", text: "하이에나가 나에게 덤벼들었다" },
+  { id: "hymn", ctx: "찬송가 부르는 소리를 들음", text: "찬송가 부르는 소리를 들었다" },
+  { id: "hypocrite", ctx: "남이 자기에게 위선을 부림", text: "누군가 나에게 위선을 부렸다" },
+  { id: "hypocrite", ctx: "제가 위선자가 됨", text: "내가 위선자가 되어 있었다" },
+  { id: "hyssop", ctx: "우슬초를 봄", text: "우슬초를 보았다" },
 
-  // 이 배치가 별칭을 넘기고 판별어 표를 채운 자리 — **옛 답이 그대로인지** 함께 잰다.
-  { id: "husband", ctx: "남편을 품에 안음", text: "남편을 품에 안았다" },
-  { id: "wind", ctx: "갑자기 큰바람이 붊", text: "갑자기 세찬 바람이 불었다" },
-  { id: "wind", ctx: "거센 바람에 휘말림", text: "거센 바람에 휘말렸다" },
-  { id: "housekeeper", ctx: "가정부를 들임", text: "가정부를 들였다" },
+  // 이 배치의 새 이름이 스쳐 가는 기존 상징들 — **옛 답이 그대로인지** 함께 잰다.
+  // 「광견병」⊃「광견」(dog) · 「공수병」⊃「병」(illness) · 「초가집」⊃「집」(house) ·
+  // 「히아신스꽃」⊃「꽃」(flower) · 「찬송」~「성가대」(choir) · 「히솝풀」⊃「풀」(grass)
+  { id: "dog", ctx: "미친개에게 물림", text: "미친개에게 물렸다" },
+  { id: "illness", ctx: "병이 위중함", text: "병이 위중해 보였다" },
+  { id: "house", ctx: "낡고 허름한 집을 봄", text: "낡고 허름한 집을 보았다" },
+  { id: "flower", ctx: "하얀 꽃을 봄", text: "하얀 꽃을 보았다" },
+  { id: "choir", ctx: "성가대에서 노래함", text: "성가대에서 노래했다" },
+  { id: "grass", ctx: "푸른 풀밭을 봄", text: "푸른 풀밭을 보았다" },
 ];
 
 let notFound = 0;

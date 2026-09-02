@@ -3526,5 +3526,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "hurricane::태풍이 몰려오는 것을 봄": "roar heading torture suspense",
   "hurricane::태풍에 무너지는 집에서 사람을 끌어냄": "extricate timbers remove distant",
   "hurricane::태풍이 남긴 잔해를 봄": "debris havoc averted",
-  "hurricane::태풍으로 죽거나 다친 이를 봄": "wounded distressed troubles"
+  "hurricane::태풍으로 죽거나 다친 이를 봄": "wounded distressed troubles",
+  "hut::오두막을 봄": "indifferent",
+  "hut::오두막에서 잠을 잠": "sleeping dissatisfaction",
+  "hut::푸른 들판에 있는 오두막을 봄": "green pasture prosperity fluctuating",
+  "hydrophobia::제가 공수병에 걸림": "afflicted enemies change business",
+  "hydrophobia::남이 공수병에 걸린 것을 봄": "others thus interrupted ungrateful dependence",
+  "hydrophobia::공수병에 걸린 짐승에게 물림": "bites betrayed dearest scandal",
+  "hyena::하이에나를 봄": "disappointment luck undertakings uncongenial quarrels",
+  "hyena::하이에나가 덤벼듦": "attacks reputation busybodies",
+  "hypocrite::남이 자기에게 위선을 부림": "anyone acted turned enemies false",
+  "hypocrite::제가 위선자가 됨": "deceiver prove friends"
 };
