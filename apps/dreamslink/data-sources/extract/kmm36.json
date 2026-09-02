@@ -26,14 +26,27 @@
       "홍수가",
       "홍수를",
       "큰물이",
-      "물난리"
+      "물난리",
+      "큰물에",
+      "큰물이 져",
+      "물에 잠긴"
     ],
     "aliases_en": [
       "floods",
       "a flood"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "홍수가 온 땅을 휩쓸고 나를 떠내려 보냄": "땅을 나를 실려",
+      "검고 들끓는 물에 마을과 들이 잠긴 것을 봄": "검고 시커먼 잠긴 마을",
+      "사람들이 큰물에 휩쓸려 가는 것을 봄": "사람들이 떠내려가는 것을",
+      "맑은 물이 너른 땅을 덮은 것을 봄": "맑은 너른 덮은"
+    },
+    "contexts_en": {
+      "홍수가 온 땅을 휩쓸고 나를 떠내려 보냄": "destruction sweeping carried",
+      "검고 들끓는 물에 마을과 들이 잠긴 것을 봄": "cities country submerged seething dreadful",
+      "사람들이 큰물에 휩쓸려 가는 것을 봄": "human beings bereavements despair",
+      "맑은 물이 너른 땅을 덮은 것을 봄": "clear large area inundated profit hopeless"
+    }
   },
   {
     "id": "flux",

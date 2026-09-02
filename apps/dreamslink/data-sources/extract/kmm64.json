@@ -1,0 +1,68 @@
+[
+  {
+    "id": "intemperance",
+    "aliases": [
+      "무절제한",
+      "무절제하게",
+      "지나치게 빠져",
+      "절제하지 못하"
+    ],
+    "aliases_en": [
+      "intemperate"
+    ],
+    "contexts": {
+      "머리 쓰는 일에 지나침": "머리를 앎을 지식",
+      "사랑이나 정욕에 지나침": "사랑에 정욕 색욕",
+      "처녀가 그런 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "머리 쓰는 일에 지나침": "intellectual forces foolish knowledge benefit",
+      "사랑이나 정욕에 지나침": "passions reap disease esteem",
+      "처녀가 그런 꿈을 꿈": "young woman lose lover incur close"
+    }
+  },
+  {
+    "id": "intercede",
+    "aliases": [
+      "두둔하여",
+      "두둔했다",
+      "두둔해",
+      "편들어",
+      "편들었다",
+      "나서서 빌어"
+    ],
+    "aliases_en": [
+      "intercede",
+      "interceding"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "intermarry",
+    "aliases": [
+      "겹혼인을",
+      "겹사돈",
+      "집안끼리 혼인"
+    ],
+    "aliases_en": [
+      "intermarrying"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "interpreter",
+    "aliases": [
+      "통역하는",
+      "통역관",
+      "통역사",
+      "말을 옮겨 주는 이"
+    ],
+    "aliases_en": [
+      "an interpreter"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

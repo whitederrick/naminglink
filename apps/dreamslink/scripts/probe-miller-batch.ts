@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 63 — Ink-stand~Insolvent, 18건)
+// (지금 담긴 것: 배치 64 — Intemperance~Inundation, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "ink-stand", ctx: "빈 잉크병을 봄", text: "잉크병이 텅 비어 있었다" },
-  { id: "ink-stand", ctx: "잉크가 가득 찬 잉크병을 봄", text: "잉크병에 잉크가 가득 차 있었다" },
-  { id: "inn", ctx: "너르고 잘 꾸며진 여인숙에 듦", text: "너르고 훌륭하게 꾸며진 여인숙에 들었다" },
-  { id: "inn", ctx: "허물어지고 지저분한 여인숙에 듦", text: "허물어지고 지저분한 여인숙에 들었다" },
-  { id: "inquest", ctx: "주검을 살피는 자리를 봄", text: "검시하는 자리를 보았다" },
-  { id: "inquisition", ctx: "심문하는 자리를 봄", text: "심문하는 자리를 보았다" },
-  { id: "inquisition", ctx: "제멋대로 굴었다는 죄목으로 심문받음", text: "제멋대로 굴었다는 죄목으로 심문에 끌려갔다" },
-  { id: "insane", ctx: "제 정신이 흐려짐", text: "내가 실성해 있었다" },
-  { id: "insane", ctx: "남의 정신이 흐려진 것을 봄", text: "남의 정신이 흐려진 것을 보았다" },
-  { id: "inscription", ctx: "새긴 글을 봄", text: "새긴 글을 보았다" },
-  { id: "inscription", ctx: "무덤에 새긴 글을 읽음", text: "무덤에 새긴 글을 읽었다" },
-  { id: "inscription", ctx: "글을 새김", text: "돌에 글을 새겼다" },
-  { id: "bankrupt", ctx: "제가 빚을 갚지 못함", text: "내가 빚을 갚지 못했다" },
-  { id: "bankrupt", ctx: "남이 빚을 갚지 못함", text: "남이 빚을 갚지 못했다" },
-  { id: "bankrupt", ctx: "처녀가 그런 꿈을 꿈", text: "처녀가 정인이 파산한 꿈을 꾸었다" },
+  { id: "intemperance", ctx: "머리 쓰는 일에 지나침", text: "앎을 좇는 데 무절제하게 빠져 있었다" },
+  { id: "intemperance", ctx: "사랑이나 정욕에 지나침", text: "사랑에 무절제하게 빠져 있었다" },
+  { id: "intemperance", ctx: "처녀가 그런 꿈을 꿈", text: "처녀가 무절제한 꿈을 꾸었다" },
+  { id: "intercede", ctx: "남을 두둔하여 나섬", text: "남을 두둔하여 나섰다" },
+  { id: "intermarry", ctx: "겹혼인을 함", text: "겹혼인을 했다" },
+  { id: "interpreter", ctx: "통역하는 이를 봄", text: "통역하는 이를 보았다" },
+  { id: "entrails", ctx: "창자를 뜨거운 것 위에 올려놓고 도움을 못 받음", text: "창자를 난로 위에 올려놓아 뜨거워졌다" },
+  { id: "drunk", ctx: "몹시 취해 있음", text: "몹시 술에 취해 인사불성이었다" },
+  { id: "flood", ctx: "검고 들끓는 물에 마을과 들이 잠긴 것을 봄", text: "온 마을이 시커먼 홍수에 잠긴 것을 보았다" },
+  { id: "flood", ctx: "사람들이 큰물에 휩쓸려 가는 것을 봄", text: "사람들이 큰물에 떠내려가는 것을 보았다" },
+  { id: "flood", ctx: "맑은 물이 너른 땅을 덮은 것을 봄", text: "맑은 큰물이 너른 땅을 덮은 것을 보았다" },
 
   // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "bankrupt", ctx: "파산하는 꿈을 꿈", text: "사업이 파산했다" },
-  // 새 이름이 스쳐 가는 자리 — 「여인숙」 vs `hotel`(여관) · 「잉크병」⊃「잉크」(먹)·「병」
-  { id: "hotel", ctx: "여관에 묵음", text: "여관에 묵었다" },
-  { id: "ink-stick", ctx: "남이 먹을 줌", text: "남이 나에게 먹을 주었다" },
+  { id: "flood", ctx: "홍수가 온 땅을 휩쓸고 나를 떠내려 보냄", text: "홍수가 땅을 휩쓸고 나를 실려 보냈다" },
+  { id: "entrails", ctx: "사람의 창자를 봄", text: "사람의 창자를 보았다" },
+  { id: "entrails", ctx: "제 창자를 봄", text: "자기 창자를 보았다" },
+  { id: "drunk", ctx: "독한 술에 취함", text: "독한 술에 취했다" },
+  { id: "drunk", ctx: "포도주에 취함", text: "포도주에 취했다" },
 ];
 
 let notFound = 0;

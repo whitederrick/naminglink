@@ -66,12 +66,14 @@
     "contexts": {
       "독한 술에 취함": "독한 위스키 소주 폭음",
       "포도주에 취함": "포도주 와인",
-      "남이 취해 있는 것을 봄": "남이 다른사람 사람들이 친구가"
+      "남이 취해 있는 것을 봄": "남이 다른사람 사람들이 친구가",
+      "몹시 취해 있음": "몹시 곤드레 인사불성"
     },
     "contexts_en": {
       "독한 술에 취함": "heavy liquors whiskey spirits",
       "포도주에 취함": "wine",
-      "남이 취해 있는 것을 봄": "others someone people"
+      "남이 취해 있는 것을 봄": "others someone people",
+      "몹시 취해 있음": "intoxication cultivating illicit"
     }
   },
   {

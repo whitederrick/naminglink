@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "무절제",
+    "term_en": "intemperance",
+    "context": "머리 쓰는 일에 지나침",
+    "interpretation_ko": "쓸데없는 앎을 좇다 제게 이롭지 못하고 벗에게 아픔과 언짢음을 안길 흉한 조짐",
+    "interpretation_en": "you will seek after foolish knowledge fail to benefit yourself, and give pain and displeasure to your friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intemperance",
+      "original": "To dream of being intemperate in the use of your intellectual forces, you will seek after foolish knowledge fail to benefit yourself, and give pain and displeasure to your friends.",
+      "translation_ko": "머리 쓰는 힘을 함부로 쓰는 꿈을 꾸면, 쓸데없는 앎을 좇다 제게 이롭지 못하고 벗에게 아픔과 언짢음을 안긴다"
+    }
+  },
+  {
+    "term_ko": "무절제",
+    "term_en": "intemperance",
+    "context": "사랑이나 정욕에 지나침",
+    "interpretation_ko": "병을 얻거나 재물과 존경을 잃을 흉한 조짐",
+    "interpretation_en": "you will reap disease or loss of fortune and esteem",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intemperance",
+      "original": "If you are intemperate in love, or other passions, you will reap disease or loss of fortune and esteem.",
+      "translation_ko": "사랑이나 다른 정욕에 지나치면 병을 얻거나 재물과 존경을 잃는다"
+    }
+  },
+  {
+    "term_ko": "무절제",
+    "term_en": "intemperance",
+    "context": "처녀가 그런 꿈을 꿈",
+    "interpretation_ko": "정인을 잃고 가까운 벗의 언짢음을 사게 될 흉한 조짐",
+    "interpretation_en": "she will lose a lover and incur the displeasure of close friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intemperance",
+      "original": "For a young woman to thus dream, she will lose a lover and incur the displeasure of close friends.",
+      "translation_ko": "젊은 여성이 그런 꿈을 꾸면 정인을 잃고 가까운 벗의 언짢음을 산다"
+    }
+  },
+  {
+    "term_ko": "두둔",
+    "term_en": "intercede",
+    "context": "남을 두둔하여 나섬",
+    "interpretation_ko": "가장 아쉬울 때 도움을 얻을 길한 조짐",
+    "interpretation_en": "shows you will secure aid when you desire it most",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intercede",
+      "original": "To intercede for some one in your dreams, shows you will secure aid when you desire it most.",
+      "translation_ko": "꿈에서 남을 위해 나서서 빌어 주면 가장 아쉬울 때 도움을 얻는다"
+    }
+  },
+  {
+    "term_ko": "겹혼인",
+    "term_en": "intermarry",
+    "context": "겹혼인을 함",
+    "interpretation_ko": "다툼과 불화가 근심과 손해로 몰아갈 흉한 조짐",
+    "interpretation_en": "denotes quarrels and contentions which will precipitate you into trouble and loss",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intermarry",
+      "original": "To dream of intermarrying, denotes quarrels and contentions which will precipitate you into trouble and loss.",
+      "translation_ko": "겹혼인 꿈은 다툼과 불화가 근심과 손해로 몰아가리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "통역",
+    "term_en": "interpreter",
+    "context": "통역하는 이를 봄",
+    "interpretation_ko": "손에 댄 일이 이문 없이 끝날 흉한 조짐",
+    "interpretation_en": "denotes you will undertake affairs which will fail in profit",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Interpreter",
+      "original": "To dream of an interpreter, denotes you will undertake affairs which will fail in profit.",
+      "translation_ko": "통역하는 이의 꿈은 손댄 일이 이문 없이 끝나리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "창자",
+    "term_en": "entrails",
+    "context": "창자를 뜨거운 것 위에 올려놓고 도움을 못 받음",
+    "interpretation_ko": "뜻밖의 재앙이 무거운 병이나 불운으로 닥치고, 전에 벗이던 이들에게 도리어 손가락질받을 흉한 조짐",
+    "interpretation_en": "it foretells unexpected calamity, which will probably come in the form of a desperate illness or a misfortune for which you will be censured by those formerly your friends",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Intestine",
+      "original": "If you think you lay them upon something, which turns out to be a radiator, and they begin to grow hot and make you very uncomfortable, and you ask others to assist you, and they refuse, it foretells unexpected calamity, which will probably come in the form of a desperate illness or a misfortune for which you will be censured by those formerly your friends.",
+      "translation_ko": "창자를 무엇 위에 올려놓았는데 그것이 난로여서 뜨거워지고, 남에게 도와 달라 해도 마다하면, 뜻밖의 재앙이 무거운 병이나 불운으로 닥치고 전에 벗이던 이들에게 도리어 손가락질받는다"
+    }
+  },
+  {
+    "term_ko": "술에 취함",
+    "term_en": "drunk",
+    "context": "몹시 취해 있음",
+    "interpretation_ko": "떳떳하지 못한 즐거움을 바라는 마음을 키우고 있다는 흉한 조짐",
+    "interpretation_en": "denotes that you are cultivating your desires for illicit pleasures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Intoxication",
+      "original": "To dream of intoxication, denotes that you are cultivating your desires for illicit pleasures.",
+      "translation_ko": "만취한 꿈은 떳떳하지 못한 즐거움을 바라는 마음을 키우고 있다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "홍수",
+    "term_en": "flood",
+    "context": "검고 들끓는 물에 마을과 들이 잠긴 것을 봄",
+    "interpretation_ko": "끔찍한 재앙으로 큰 불운과 인명 피해가 있을 흉한 조짐",
+    "interpretation_en": "denotes great misfortune and loss of life through some dreadful calamity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Inundation",
+      "original": "To dream of seeing cities or country submerged in dark, seething waters, denotes great misfortune and loss of life through some dreadful calamity.",
+      "translation_ko": "검고 들끓는 물에 도시나 들판이 잠긴 것을 보면, 끔찍한 재앙으로 큰 불운과 인명 피해가 있다"
+    }
+  },
+  {
+    "term_ko": "홍수",
+    "term_en": "flood",
+    "context": "사람들이 큰물에 휩쓸려 가는 것을 봄",
+    "interpretation_ko": "가까운 이를 여의고 절망에 빠져 삶이 어둡고 헛되어질 흉한 조짐",
+    "interpretation_en": "portends bereavements and despair, making life gloomy and unprofitable",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Inundation",
+      "original": "To see human beings swept away in an inundation, portends bereavements and despair, making life gloomy and unprofitable.",
+      "translation_ko": "사람들이 큰물에 휩쓸려 가는 것을 보면 가까운 이를 여의고 절망에 빠져 삶이 어둡고 헛되어진다"
+    }
+  },
+  {
+    "term_ko": "홍수",
+    "term_en": "flood",
+    "context": "맑은 물이 너른 땅을 덮은 것을 봄",
+    "interpretation_ko": "가망 없어 보이던 다툼 끝에 이문과 편안함을 얻을 길한 조짐",
+    "interpretation_en": "denotes profit and ease after seemingly hopeless struggles with fortune",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Inundation",
+      "original": "To see a large area inundated with clear water, denotes profit and ease after seemingly hopeless struggles with fortune.",
+      "translation_ko": "맑은 물이 너른 땅을 덮은 것을 보면, 가망 없어 보이던 다툼 끝에 이문과 편안함을 얻는다"
+    }
+  }
+]

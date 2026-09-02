@@ -2998,6 +2998,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "drunk::독한 술에 취함": "heavy liquors whiskey spirits",
   "drunk::포도주에 취함": "wine",
   "drunk::남이 취해 있는 것을 봄": "others someone people",
+  "drunk::몹시 취해 있음": "intoxication cultivating illicit",
   "duet::이중주를 켜는 소리를 들음": "played playing instruments",
   "duet::두 사람이 함께 부르는 노래를 들음": "sung singing song voices",
   "dust::먼지를 뒤집어씀": "covering covered",
@@ -3096,6 +3097,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "entrails::남의 창자를 찢음": "tear another persecutions",
   "entrails::제 창자를 봄": "own deepest overwhelm",
   "entrails::제 자식의 창자를 봄": "child dissolution",
+  "entrails::창자를 뜨거운 것 위에 올려놓고 도움을 못 받음": "radiator refuse unexpected calamity censured",
   "envy::남을 시샘함": "entertain unselfish deference",
   "envy::남에게 시샘받음": "others inconvenience overanxious",
   "epaulet::군인이 견장을 닮": "soldier disfavor honors",
@@ -3243,6 +3245,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "fits::남이 발작하는 것을 봄": "others plight circle quarrels",
   "floating::물에 떠 있음": "victoriously overcome obstacles overwhelming",
   "floating::흐린 물에 떠 있음": "muddy gratifying",
+  "flood::홍수가 온 땅을 휩쓸고 나를 떠내려 보냄": "destruction sweeping carried",
+  "flood::검고 들끓는 물에 마을과 들이 잠긴 것을 봄": "cities country submerged seething dreadful",
+  "flood::사람들이 큰물에 휩쓸려 가는 것을 봄": "human beings bereavements despair",
+  "flood::맑은 물이 너른 땅을 덮은 것을 봄": "clear large area inundated profit hopeless",
   "flux::이질을 앓음": "having afflicted desperate fatal",
   "flux::남이 이질을 앓는 것을 봄": "others enterprise neglect vex",
   "flying::높이 낢": "high space marital calamities",
@@ -3637,5 +3643,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "insane::남의 정신이 흐려진 것을 봄": "others disagreeable contact suffering poverty-stricken",
   "inscription::새긴 글을 봄": "shortly receive unpleasant communications",
   "inscription::무덤에 새긴 글을 읽음": "reading tombs distressed grave nature",
-  "inscription::글을 새김": "write lose valued friend"
+  "inscription::글을 새김": "write lose valued friend",
+  "intemperance::머리 쓰는 일에 지나침": "intellectual forces foolish knowledge benefit",
+  "intemperance::사랑이나 정욕에 지나침": "passions reap disease esteem",
+  "intemperance::처녀가 그런 꿈을 꿈": "young woman lose lover incur close"
 };

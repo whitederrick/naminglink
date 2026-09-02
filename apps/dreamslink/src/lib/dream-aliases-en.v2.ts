@@ -5772,5 +5772,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "inscription": [
     "an inscription"
+  ],
+  "intemperance": [
+    "intemperate"
+  ],
+  "intercede": [
+    "intercede",
+    "interceding"
+  ],
+  "intermarry": [
+    "intermarrying"
+  ],
+  "interpreter": [
+    "an interpreter"
   ]
 };
