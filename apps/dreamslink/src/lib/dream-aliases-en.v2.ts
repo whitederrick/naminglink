@@ -5693,5 +5693,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "idol": [
     "idols"
+  ],
+  "illumination": [
+    "illuminations",
+    "illuminated"
+  ],
+  "image": [
+    "images",
+    "an image"
+  ],
+  "imitation": [
+    "imitations"
+  ],
+  "implement": [
+    "implements"
   ]
 };

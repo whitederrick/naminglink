@@ -1,0 +1,91 @@
+[
+  {
+    "id": "illumination",
+    "aliases": [
+      "빛이",
+      "빛을",
+      "빛과",
+      "빛무리",
+      "빛살"
+    ],
+    "aliases_en": [
+      "illuminations",
+      "illuminated"
+    ],
+    "contexts": {
+      "기이한 빛을 봄": "기이 낯설 이상한",
+      "얼굴이 환하게 빛나는 것을 봄": "얼굴이 낯이 얼굴들",
+      "하늘이 환한데 달과 별과 해가 괴이함": "달이 해가 별이 괴이",
+      "환한 하늘에 아이들이 있는 것을 봄": "아이들 어린이",
+      "하늘에 빛나는 사람이나 짐승의 모습을 봄": "짐승 사람의 모습이",
+      "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "총을 쏘았 땅에",
+      "빛나는 뱀이나 기어 다니는 것을 봄": "뱀이 기어 벌레"
+    },
+    "contexts_en": {
+      "기이한 빛을 봄": "strange disappointments failures",
+      "얼굴이 환하게 빛나는 것을 봄": "faces unsettled private official",
+      "하늘이 환한데 달과 별과 해가 괴이함": "heavens moon weirdness unnatural distress worst",
+      "환한 하늘에 아이들이 있는 것을 봄": "children lighted control frenzy neglect",
+      "하늘에 빛나는 사람이나 짐승의 모습을 봄": "figures animals overshadow fortune",
+      "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "shoot guns obstacles nought determination",
+      "빛나는 뱀이나 기어 다니는 것을 봄": "snakes creeping surround hellish overthrow"
+    }
+  },
+  {
+    "id": "image",
+    "aliases": [
+      "형상들",
+      "조각상"
+    ],
+    "aliases_en": [
+      "images",
+      "an image"
+    ],
+    "contexts": {
+      "형상을 봄": "여럿 형상들",
+      "집 안에 형상을 세움": "세웠 세워 모셔",
+      "흉하게 생긴 형상을 봄": "흉하게 흉측"
+    },
+    "contexts_en": {
+      "형상을 봄": "poor success business love",
+      "집 안에 형상을 세움": "set home weak minded astray",
+      "흉하게 생긴 형상을 봄": "ugly"
+    }
+  },
+  {
+    "id": "imitation",
+    "aliases": [
+      "모조품",
+      "흉내 낸"
+    ],
+    "aliases_en": [
+      "imitations"
+    ],
+    "contexts": {
+      "흉내 낸 것을 봄": "가짜 모조",
+      "누가 제 정인이나 저를 흉내 냄": "정인 애인 연인 나를"
+    },
+    "contexts_en": {
+      "흉내 낸 것을 봄": "persons working deceive",
+      "누가 제 정인이나 저를 흉내 냄": "young woman lover herself imposed faults"
+    }
+  },
+  {
+    "id": "implement",
+    "aliases": [
+      "연장들",
+      "도구"
+    ],
+    "aliases_en": [
+      "implements"
+    ],
+    "contexts": {
+      "연장을 봄": "여러 연장들",
+      "연장이 부러져 있음": "부러 망가 부서"
+    },
+    "contexts_en": {
+      "연장을 봄": "unsatisfactory means accomplishing",
+      "연장이 부러져 있음": "broken threatened serious relatives failure"
+    }
+  }
+]

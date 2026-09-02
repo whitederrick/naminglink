@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 58 — Absalom~Illness, 19건)
+// (지금 담긴 것: 배치 59 — Illumination~Imps, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,29 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "absalom", ctx: "압살롬 꿈을 꿈", text: "압살롬을 보았다" },
-  { id: "humidity", ctx: "눅눅한 기운에 짓눌림", text: "눅눅한 기운에 짓눌려 있었다" },
-  { id: "ideal", ctx: "처녀가 제 이상형을 만남", text: "처녀가 제 이상형을 만났다" },
-  { id: "ideal", ctx: "총각이 제 이상형을 만남", text: "총각이 제 이상형을 만났다" },
-  { id: "idiot", ctx: "어리석은 사람들을 봄", text: "바보를 보았다" },
-  { id: "idiot", ctx: "제가 어리석은 사람이 됨", text: "내가 바보가 되어 있었다" },
-  { id: "idiot", ctx: "어리숙해 보이는 아이들을 봄", text: "어리숙해 보이는 아이들을 보았다" },
-  { id: "idleness", ctx: "제가 빈둥거림", text: "내가 빈둥거리고 있었다" },
-  { id: "idleness", ctx: "벗들이 빈둥거리는 것을 봄", text: "친구들이 빈둥거리는 것을 보았다" },
-  { id: "idleness", ctx: "처녀가 게으르게 지냄", text: "처녀가 게을러 지내고 있었다" },
-  { id: "idol", ctx: "우상을 섬김", text: "우상 앞에 엎드려 절했다" },
-  { id: "idol", ctx: "우상을 부숨", text: "우상을 부수었다" },
-  { id: "idol", ctx: "남들이 우상을 섬기는 것을 봄", text: "남들이 우상을 섬기는 것을 보았다" },
-  { id: "idol", ctx: "우상 섬김을 꾸짖음", text: "우상 섬김을 꾸짖었다" },
-  { id: "illness", ctx: "여자가 제 병을 앓는 꿈을 꿈", text: "여자가 병을 앓고 있었다" },
+  { id: "illumination", ctx: "기이한 빛을 봄", text: "기이한 빛이 보였다" },
+  { id: "illumination", ctx: "얼굴이 환하게 빛나는 것을 봄", text: "얼굴이 환한 빛으로 빛났다" },
+  { id: "illumination", ctx: "하늘이 환한데 달과 별과 해가 괴이함", text: "하늘에 빛이 가득한데 달이 괴이했다" },
+  { id: "illumination", ctx: "환한 하늘에 아이들이 있는 것을 봄", text: "빛이 가득한 하늘에 아이들이 있었다" },
+  { id: "illumination", ctx: "하늘에 빛나는 사람이나 짐승의 모습을 봄", text: "하늘에 빛이 나는 짐승이 있었다" },
+  { id: "illumination", ctx: "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨", text: "빛이 땅에 떨어지자 사람들이 총을 쏘았다" },
+  { id: "illumination", ctx: "빛나는 뱀이나 기어 다니는 것을 봄", text: "빛이 나는 뱀이 기어 다녔다" },
+  { id: "image", ctx: "형상을 봄", text: "형상을 보았다" },
+  { id: "image", ctx: "집 안에 형상을 세움", text: "집에 형상을 세웠다" },
+  { id: "image", ctx: "흉하게 생긴 형상을 봄", text: "흉하게 생긴 형상을 보았다" },
+  { id: "imitation", ctx: "흉내 낸 것을 봄", text: "흉내 낸 것을 보았다" },
+  { id: "imitation", ctx: "누가 제 정인이나 저를 흉내 냄", text: "누가 내 애인을 흉내 내고 있었다" },
+  { id: "implement", ctx: "연장을 봄", text: "연장을 보았다" },
+  { id: "implement", ctx: "연장이 부러져 있음", text: "연장이 부러져 있었다" },
+  { id: "fiend", ctx: "작은 악귀들을 봄", text: "작은 악귀들을 보았다" },
+  { id: "fiend", ctx: "제가 작은 악귀가 됨", text: "내가 작은 악귀가 되어 있었다" },
 
   // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "illness", ctx: "자기가 병듦", text: "내가 병에 걸렸다" },
-  { id: "illness", ctx: "병이 위중함", text: "병이 위중해 보였다" },
-  { id: "illness", ctx: "병들어 누웠는데 남이 부축해 줌", text: "병이 나서 누웠는데 누가 부축해 주었다" },
-  // 새 이름이 스쳐 가는 자리 — 「이상형」⊃「이」(teeth)·「상」 · 「게으름」⊃「게」(crab) ·
-  // 「우상」⊃「상」 · 「천치」⊃「천」(cloth)
-  { id: "crab", ctx: "연인에게 게 꿈이 나타남", text: "연인이 게를 보았다" },
+  { id: "fiend", ctx: "악귀를 봄", text: "악귀를 보았다" },
+  { id: "fiend", ctx: "악귀를 이김", text: "악귀를 물리쳤다" },
+  { id: "fiend", ctx: "악귀와 마주침", text: "악귀와 맞닥뜨렸다" },
 ];
 
 let notFound = 0;

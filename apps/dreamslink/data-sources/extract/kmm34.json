@@ -18,7 +18,8 @@
     "aliases": [
       "악귀가",
       "악귀를",
-      "마귀"
+      "마귀",
+      "악귀들"
     ],
     "aliases_en": [
       "a fiend",
@@ -28,13 +29,17 @@
       "악귀와 마주침": "마주쳤 맞닥",
       "여성이 악귀 꿈을 꿈": "여자가 여성이",
       "악귀를 봄": "보았 나타났",
-      "악귀를 이김": "이겼 물리쳤 쫓아냈"
+      "악귀를 이김": "이겼 물리쳤 쫓아냈",
+      "작은 악귀들을 봄": "작은 악귀들",
+      "제가 작은 악귀가 됨": "내가 악귀가 제가"
     },
     "contexts_en": {
       "악귀와 마주침": "encounter reckless morals",
       "여성이 악귀 꿈을 꿈": "woman blackened",
       "악귀를 봄": "warns attacks false",
-      "악귀를 이김": "overcome intercept designs"
+      "악귀를 이김": "overcome intercept designs",
+      "작은 악귀들을 봄": "imps passing pleasure seems",
+      "제가 작은 악귀가 됨": "folly vice poverty"
     }
   },
   {
