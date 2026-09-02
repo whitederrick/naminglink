@@ -743,15 +743,23 @@
     "aliases": [
       "지도첩",
       "세계 지도",
-      "지도를 펼"
+      "지도를 펼",
+      "지리",
+      "지리책"
     ],
     "aliases_en": [
       "an atlas",
       "a map book",
       "a book of maps"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "지도책을 들여다봄": "들여다 펼쳐 뒤적",
+      "지리를 익힘": "지리 익히 공부"
+    },
+    "contexts_en": {
+      "지도책을 들여다봄": "poring studied looking",
+      "지리를 익힘": "studying geography travel renown"
+    }
   },
   {
     "id": "augur",

@@ -538,7 +538,9 @@
   {
     "id": "goose",
     "aliases": [
-      "기러기"
+      "기러기",
+      "거위가",
+      "거위를"
     ],
     "aliases_en": [
       "a goose",
@@ -546,12 +548,26 @@
       "gander"
     ],
     "contexts": {
-      "거위와 오리가 함께 헤엄침": "오리 헤엄 물에서 함께",
-      "거위를 잡음": "붙잡 잡았 잡아서"
+      "거위와 오리가 함께 헤엄침": "오리 물에서 함께",
+      "거위를 잡음": "붙잡 잡았 잡아서",
+      "거위 우는 소리에 시달림": "우는 시달 꽥꽥 울음",
+      "거위가 헤엄치는 것을 봄": "헤엄",
+      "풀밭의 거위를 봄": "풀밭 잔디 들판",
+      "죽은 거위를 봄": "죽은 죽어 주검",
+      "정인이 거위를 봄": "정인 사랑하는",
+      "거위 털을 뽑음": "털을 뽑았 뽑고",
+      "거위를 먹음": "먹었 먹는"
     },
     "contexts_en": {
-      "거위와 오리가 함께 헤엄침": "duck ducks swimming water together",
-      "거위를 잡음": "caught grabbed seized"
+      "거위와 오리가 함께 헤엄침": "ducks together water",
+      "거위를 잡음": "caught grabbed seized",
+      "거위 우는 소리에 시달림": "annoyed quacking death family",
+      "거위가 헤엄치는 것을 봄": "swimming gradually increasing",
+      "풀밭의 거위를 봄": "grassy places assured success",
+      "죽은 거위를 봄": "dead suffer loss displeasure",
+      "정인이 거위를 봄": "lover worthiness affianced",
+      "거위 털을 뽑음": "picking come estate",
+      "거위를 먹음": "possessions disputed"
     }
   },
   {

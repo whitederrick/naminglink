@@ -993,12 +993,18 @@
       "loft"
     ],
     "contexts": {
-      "다락방에 있음": "올라갔 있었 들어갔",
-      "젊은 여성이 다락방에서 잠을 잠": "여성이 아가씨 잠을"
+      "다락방에 있음": "있었 들어갔 머물",
+      "젊은 여성이 다락방에서 잠을 잠": "여성이 아가씨 잠을",
+      "다락방으로 올라감": "올라갔 올라가 기어올",
+      "가난한 이가 다락방 꿈을 꿈": "가난 궁핍 없이사는",
+      "여성이 다락방 꿈을 꿈": "여자가 여인이"
     },
     "contexts_en": {
       "다락방에 있음": "climbed",
-      "젊은 여성이 다락방에서 잠을 잠": "woman sleeping slept"
+      "젊은 여성이 다락방에서 잠을 잠": "woman sleeping slept",
+      "다락방으로 올라감": "climbing theories realities",
+      "가난한 이가 다락방 꿈을 꿈": "poor omen easier circumstances",
+      "여성이 다락방 꿈을 꿈": "vanity selfishness curbed"
     }
   },
   {

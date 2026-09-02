@@ -1,0 +1,212 @@
+[
+  {
+    "id": "garter",
+    "aliases": [
+      "대님",
+      "양말대님",
+      "가터"
+    ],
+    "aliases_en": [
+      "a garter",
+      "garters"
+    ],
+    "contexts": {
+      "정인이 여인의 대님을 주움": "주웠 주운",
+      "여성이 대님을 잃음": "잃었 잃어버",
+      "혼인한 남자가 대님 꿈을 꿈": "혼인한 아내가 남편이",
+      "여성이 보석 박힌 대님을 흐뭇하게 봄": "보석 박힌 흐뭇",
+      "정인이 대님을 매어 줌": "매어 매주 채워"
+    },
+    "contexts_en": {
+      "정인이 여인의 대님을 주움": "lover find lady caste rivals",
+      "여성이 대님을 잃음": "loses jealous suspicious handsomer",
+      "혼인한 남자가 대님 꿈을 꿈": "married man wife clandestine stormy",
+      "여성이 보석 박힌 대님을 흐뭇하게 봄": "admiring jeweled limbs betrayed reputation",
+      "정인이 대님을 매어 줌": "fastens hold affections faith adverse"
+    }
+  },
+  {
+    "id": "gas",
+    "aliases": [
+      "가스",
+      "가스불"
+    ],
+    "aliases_en": [
+      "gas"
+    ],
+    "contexts": {
+      "가스를 봄": "냄새 새는",
+      "가스에 숨이 막힘": "숨이 막혔 질식",
+      "가스를 불어 끄려 함": "불어 입으로",
+      "가스불을 꺼 버림": "껐다 꺼버 잠갔",
+      "가스에 불을 붙임": "붙였 붙이 켰다"
+    },
+    "contexts_en": {
+      "가스를 봄": "harmful opinions unjustly remorse",
+      "가스에 숨이 막힘": "asphyxiated needlessly wastefulness negligence",
+      "가스를 불어 끄려 함": "blow unconsciously wary",
+      "가스불을 꺼 버림": "extinguish ruthlessly destroy own happiness",
+      "가스에 불을 붙임": "light easily find way oppressive"
+    }
+  },
+  {
+    "id": "gas-lamp",
+    "aliases": [
+      "가스등",
+      "가스 램프"
+    ],
+    "aliases_en": [
+      "a gas lamp",
+      "gas lamps"
+    ],
+    "contexts": {
+      "가스등을 봄": "환하 밝은",
+      "가스등이 터지거나 망가짐": "터졌 터지 망가 깨졌"
+    },
+    "contexts_en": {
+      "가스등을 봄": "progress pleasant surroundings",
+      "가스등이 터지거나 망가짐": "explode order threatened unseasonable"
+    }
+  },
+  {
+    "id": "gasoline",
+    "aliases": [
+      "휘발유",
+      "가솔린"
+    ],
+    "aliases_en": [
+      "gasoline"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "gate",
+    "aliases": [
+      "대문",
+      "바깥문",
+      "사립문"
+    ],
+    "aliases_en": [
+      "a gate",
+      "gates"
+    ],
+    "contexts": {
+      "대문을 지나감": "지나갔 지나서 통과",
+      "닫힌 대문을 봄": "닫힌 닫혀",
+      "대문을 잠금": "잠갔 잠그 걸어",
+      "부서진 대문을 봄": "부서 깨진 망가",
+      "대문을 여는 데 애를 먹음": "애를 애먹 안열려",
+      "대문에 매달려 흔들림": "매달려 흔들"
+    },
+    "contexts_en": {
+      "대문을 지나감": "passing through alarming tidings absent",
+      "닫힌 대문을 봄": "closed inability overcome present",
+      "대문을 잠금": "lock successful enterprises chosen",
+      "부서진 대문을 봄": "broken failure discordant",
+      "대문을 여는 데 애를 먹음": "troubled open engrossing labors",
+      "대문에 매달려 흔들림": "swing idle dissolute pleasures"
+    }
+  },
+  {
+    "id": "gauze",
+    "aliases": [
+      "망사",
+      "비치는 옷"
+    ],
+    "aliases_en": [
+      "gauze",
+      "filmy material"
+    ],
+    "contexts": {
+      "망사 옷을 입음": "입었 걸쳤",
+      "정인이 여인의 망사 옷을 봄": "정인이 여인이"
+    },
+    "contexts_en": {
+      "망사 옷을 입음": "dressed uncertain fortune",
+      "정인이 여인의 망사 옷을 봄": "lover sweetheart clothed influence"
+    }
+  },
+  {
+    "id": "gavel",
+    "aliases": [
+      "의사봉",
+      "나무망치"
+    ],
+    "aliases_en": [
+      "a gavel"
+    ],
+    "contexts": {
+      "의사봉을 봄": "놓여 놓인",
+      "의사봉을 두드림": "두드 쳤다 내리"
+    },
+    "contexts_en": {
+      "의사봉을 봄": "burdened unprofitable unpleasant pursuit",
+      "의사봉을 두드림": "use officiousness shown toward friends"
+    }
+  },
+  {
+    "id": "genealogy",
+    "aliases": [
+      "족보",
+      "가계도"
+    ],
+    "aliases_en": [
+      "a genealogical tree",
+      "family tree"
+    ],
+    "contexts": {
+      "제 족보를 봄": "펼쳐 들여다",
+      "남들이 족보를 살피는 것을 봄": "남들 다른사람",
+      "족보의 가지가 빠져 있음": "가지 빠져 빠진"
+    },
+    "contexts_en": {
+      "제 족보를 봄": "burdened cares domains",
+      "남들이 족보를 살피는 것을 봄": "others studying yield rights",
+      "족보의 가지가 빠져 있음": "branches missing ignore straightened"
+    }
+  },
+  {
+    "id": "giant",
+    "aliases": [
+      "거인",
+      "거대한 사람"
+    ],
+    "aliases_en": [
+      "a giant",
+      "giants"
+    ],
+    "contexts": {
+      "거인이 갑자기 앞에 나타남": "갑자기 나타났 불쑥",
+      "거인이 길을 막음": "막았 막아 가로막",
+      "거인이 달아남": "달아났 도망 뒷걸음"
+    },
+    "contexts_en": {
+      "거인이 갑자기 앞에 나타남": "appearing suddenly struggle opponents",
+      "거인이 길을 막음": "succeeds stopping journey overcome",
+      "거인이 달아남": "runs prosperity good health"
+    }
+  },
+  {
+    "id": "gift",
+    "aliases": [
+      "선물",
+      "선물꾸러미",
+      "예물"
+    ],
+    "aliases_en": [
+      "gifts",
+      "a gift"
+    ],
+    "contexts": {
+      "선물을 받음": "받았 받은",
+      "선물을 보냄": "보냈 보내 부쳤",
+      "처녀가 정인에게서 값진 선물을 받음": "처녀 아가씨 값진"
+    },
+    "contexts_en": {
+      "선물을 받음": "receive payments fortunate speculations",
+      "선물을 보냄": "send displeasure ill luck efforts",
+      "처녀가 정인에게서 값진 선물을 받음": "young woman rich beautiful wealthy congenial"
+    }
+  }
+]

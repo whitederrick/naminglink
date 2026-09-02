@@ -865,14 +865,25 @@
     "id": "garlic",
     "aliases": [
       "통마늘",
-      "깐마늘"
+      "깐마늘",
+      "마늘밭"
     ],
     "aliases_en": [
       "garlic clove",
       "cloves of garlic"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "마늘을 먹음": "생마늘 날마늘",
+      "마늘밭을 지나감": "지나갔 지나서 통과",
+      "처녀가 마늘밭을 지나감": "처녀 아가씨",
+      "마늘을 씹어 먹음": "씹어 씹었"
+    },
+    "contexts_en": {
+      "마늘을 먹음": "ate eating",
+      "마늘밭을 지나감": "passing patch penury prominence",
+      "처녀가 마늘밭을 지나감": "young woman marry sense business",
+      "마늘을 씹어 먹음": "sensible view life ideals"
+    }
   },
   {
     "id": "go-stone",

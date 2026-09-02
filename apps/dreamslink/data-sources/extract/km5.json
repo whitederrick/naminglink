@@ -524,7 +524,9 @@
       "혼령",
       "망령",
       "도깨비",
-      "영혼"
+      "영혼",
+      "귀신이",
+      "귀신을"
     ],
     "aliases_en": [
       "ghosts",
@@ -534,11 +536,27 @@
     ],
     "contexts": {
       "신과 귀신에게 맞음": "맞았 얻어맞 때려 공격당",
-      "귀신과 싸움": "싸웠 싸움 맞서 물리쳤"
+      "귀신과 싸움": "싸웠 싸움 맞서 물리쳤",
+      "어버이의 귀신을 봄": "어버이 부모 아버지 어머니",
+      "죽은 벗의 귀신을 봄": "죽은 죽었던",
+      "귀신이 말을 걸어옴": "말을 걸어 말했",
+      "여성이 귀신 꿈을 꿈": "여자가 여성이",
+      "하늘에 천사나 귀신이 나타남": "하늘에 천사",
+      "하늘 오른쪽에 여자 귀신 왼쪽에 남자 귀신이 보임": "오른쪽 왼쪽",
+      "여자 귀신이 긴 옷을 끌고 하늘을 떠감": "떠가 늘어진 흘러가",
+      "살아 있는 살붙이나 벗의 귀신을 봄": "살아 산사람"
     },
     "contexts_en": {
       "신과 귀신에게 맞음": "struck beaten attacked",
-      "귀신과 싸움": "fought fighting struggle wrestled"
+      "귀신과 싸움": "fought fighting struggle wrestled",
+      "어버이의 귀신을 봄": "parents exposed danger partnerships strangers",
+      "죽은 벗의 귀신을 봄": "dead friend journey unpleasant companion",
+      "귀신이 말을 걸어옴": "speak decoyed hands enemies",
+      "여성이 귀신 꿈을 꿈": "woman prognostication widowhood deception",
+      "하늘에 천사나 귀신이 나타남": "angel appear sky kindred misfortunes",
+      "하늘 오른쪽에 여자 귀신 왼쪽에 남자 귀신이 보임": "right male left countenance obscurity",
+      "여자 귀신이 긴 옷을 끌고 하늘을 떠감": "clinging robes floating scientific miraculously",
+      "살아 있는 살붙이나 벗의 귀신을 봄": "living relative malice supervision"
     }
   },
   {

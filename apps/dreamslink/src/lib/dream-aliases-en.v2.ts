@@ -5339,5 +5339,42 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "garbage": [
     "garbage"
+  ],
+  "garter": [
+    "a garter",
+    "garters"
+  ],
+  "gas": [
+    "gas"
+  ],
+  "gas-lamp": [
+    "a gas lamp",
+    "gas lamps"
+  ],
+  "gasoline": [
+    "gasoline"
+  ],
+  "gate": [
+    "a gate",
+    "gates"
+  ],
+  "gauze": [
+    "gauze",
+    "filmy material"
+  ],
+  "gavel": [
+    "a gavel"
+  ],
+  "genealogy": [
+    "a genealogical tree",
+    "family tree"
+  ],
+  "giant": [
+    "a giant",
+    "giants"
+  ],
+  "gift": [
+    "gifts",
+    "a gift"
   ]
 };
