@@ -656,15 +656,29 @@
       "글공부",
       "글씨공부",
       "학문",
-      "글자를 배"
+      "글자를 배",
+      "배움",
+      "배우고",
+      "배우는",
+      "공부를",
+      "공부하",
+      "글을 가르쳐"
     ],
     "aliases_en": [
       "learning letters",
       "taught to read",
       "studying writing"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "누군가 글을 가르쳐 줌": "가르쳐 가르치 스승이 선생님",
+      "배움을 얻고자 애씀": "간절 애썼 애태우 배우려",
+      "배우는 곳에 있음": "학교 서당 강의실 교실"
+    },
+    "contexts_en": {
+      "누군가 글을 가르쳐 줌": "someone teaching instructed",
+      "배움을 얻고자 애씀": "anxious obtain desire knowledge",
+      "배우는 곳에 있음": "places influential friends"
+    }
   },
   {
     "id": "camel",

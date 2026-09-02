@@ -181,6 +181,13 @@ const FALLBACK_FIRST = new Map([
   ["wild-duck", "물오리가 집 안으로 들어옴"],
   ["prison", "감옥이 무너짐"],
   ["manure", "땅을 쓸어 거름을 치움"],
+
+  // 배치 29(밀러 Eagles~Elevator)가 밀어낸 둘. 둘 다 **있던 답 그대로** 둔다.
+  // `elephant` 는 얼릴 이유가 하나 더 있다 — 「흰 코끼리」의 「흰」은 1글자라 판별어가 될 수
+  // 없다(`scoringWordsOf` 의 `length >= 2`). 기본값 자리에 두어야 「흰 코끼리를 보았다」가
+  // 제자리로 떨어진다(2026-09-02).
+  ["being-taught-letters", "누군가 글을 가르쳐 줌"],
+  ["elephant", "흰 코끼리를 봄"],
 ]);
 
 /**

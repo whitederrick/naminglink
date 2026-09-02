@@ -2052,8 +2052,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "older person"
   ],
   "elephant": [
-    "elephants",
-    "white elephant"
+    "elephants"
   ],
   "garlic": [
     "garlic clove",
@@ -4866,5 +4865,74 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "dynamo": [
     "a dynamo",
     "dynamos"
+  ],
+  "eagle": [
+    "an eagle",
+    "eagles"
+  ],
+  "ear": [
+    "ears",
+    "my ear"
+  ],
+  "earring": [
+    "earrings",
+    "an earring"
+  ],
+  "earthquake": [
+    "an earthquake",
+    "earthquakes"
+  ],
+  "earwig": [
+    "an earwig",
+    "earwigs"
+  ],
+  "eating": [
+    "eating",
+    "I ate",
+    "eat a meal"
+  ],
+  "ebony": [
+    "ebony"
+  ],
+  "echo": [
+    "an echo",
+    "echoes"
+  ],
+  "eclipse": [
+    "an eclipse",
+    "eclipsed"
+  ],
+  "ecstasy": [
+    "ecstasy",
+    "ecstatic"
+  ],
+  "eel": [
+    "an eel",
+    "eels"
+  ],
+  "egg": [
+    "eggs",
+    "an egg"
+  ],
+  "elbow": [
+    "elbows",
+    "an elbow"
+  ],
+  "elderberry": [
+    "elderberries",
+    "elderberry"
+  ],
+  "election": [
+    "an election",
+    "voting"
+  ],
+  "electricity": [
+    "electricity",
+    "electric"
+  ],
+  "elevator": [
+    "an elevator",
+    "elevators",
+    "a lift"
   ]
 };

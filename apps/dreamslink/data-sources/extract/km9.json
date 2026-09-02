@@ -830,13 +830,28 @@
   },
   {
     "id": "elephant",
-    "aliases": [],
-    "aliases_en": [
-      "elephants",
-      "white elephant"
+    "aliases": [
+      "코끼리가",
+      "코끼리를",
+      "코끼리 떼"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "aliases_en": [
+      "elephants"
+    ],
+    "contexts": {
+      "흰 코끼리를 봄": "하얀 새하얀 백색",
+      "코끼리를 타고 있음": "타고 올라타 등에",
+      "코끼리 여럿을 봄": "여러 여럿 떼를 무리",
+      "외따로 있는 코끼리 한 마리를 봄": "홀로 외따로 덩그러니",
+      "코끼리에게 먹이를 줌": "먹이를 주었 먹였"
+    },
+    "contexts_en": {
+      "흰 코끼리를 봄": "white",
+      "코끼리를 타고 있음": "riding solid honors",
+      "코끼리 여럿을 봄": "many tremendous",
+      "외따로 있는 코끼리 한 마리를 봄": "lone small",
+      "코끼리에게 먹이를 줌": "feeding kindness community"
+    }
   },
   {
     "id": "garlic",

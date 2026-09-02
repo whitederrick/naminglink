@@ -23,6 +23,7 @@
     "m27a.json",
     "m27b.json",
     "m28.json",
+    "m29.json",
     "m3.json",
     "m4a.json",
     "m4b.json",
@@ -13915,6 +13916,244 @@
       ]
     },
     {
+      "id": "eagle",
+      "term_ko": "독수리",
+      "term_en": "eagle",
+      "aliases": [
+        "독수리가",
+        "독수리를",
+        "수리매"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "독수리가 머리 위로 높이 나는 것을 봄",
+          "interpretation_ko": "높은 뜻을 세워 모질게 애쓴 끝에 바라던 것을 얻을 길한 조짐",
+          "interpretation_en": "lofty ambitions which you will struggle fiercely to realize, nevertheless you will gain your desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To see one soaring above you, denotes lofty ambitions which you will struggle fiercely to realize, nevertheless you will gain your desires.",
+              "translation_ko": "독수리가 머리 위로 높이 나는 것을 보는 꿈은, 높은 뜻을 세워 모질게 애쓰게 되나 끝내 바라던 것을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "먼 높은 곳에 앉은 독수리를 봄",
+          "interpretation_ko": "이름과 재물과 나라 안에서 오를 수 있는 가장 높은 자리를 얻을 길한 조짐",
+          "interpretation_en": "you will possess fame, wealth and the highest position attainable in your country",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To see one perched on distant heights, denotes that you will possess fame, wealth and the highest position attainable in your country.",
+              "translation_ko": "먼 높은 곳에 앉은 독수리를 보는 꿈은, 이름과 재물과 나라 안에서 오를 수 있는 가장 높은 자리를 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "보금자리의 새끼 독수리를 봄",
+          "interpretation_ko": "높은 자리의 사람들과 어울려 슬기로운 조언으로 이롭고, 때가 되면 큰 유산을 받을 길한 조짐",
+          "interpretation_en": "your association with people of high standing, and that you will profit from wise counsel from them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To see young eagles in their eyrie, signifies your association with people of high standing, and that you will profit from wise counsel from them. You will in time come into a rich legacy.",
+              "translation_ko": "보금자리에 있는 새끼 독수리를 보는 꿈은, 높은 자리에 있는 이들과 어울리고 그들의 슬기로운 말로 이로움을 얻음을 뜻한다. 때가 되면 큰 유산이 들어온다"
+            }
+          ]
+        },
+        {
+          "context": "독수리를 죽임",
+          "interpretation_ko": "무엇도 앞을 막지 못해 뜻한 가장 높은 곳에 이르고, 적을 이겨 큰 재물을 얻을 길한 조짐",
+          "interpretation_en": "no obstacles whatever would be allowed to stand before you and the utmost heights of your ambition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To dream that you kill an eagle, portends that no obstacles whatever would be allowed to stand before you and the utmost heights of your ambition. You will overcome your enemies and be possessed of untold wealth.",
+              "translation_ko": "독수리를 죽이는 꿈은, 무엇도 나와 내가 뜻한 가장 높은 곳 사이를 막지 못함을 알린다. 적을 이기고 헤아릴 수 없는 재물을 갖게 된다"
+            }
+          ]
+        },
+        {
+          "context": "독수리 고기를 먹음",
+          "interpretation_ko": "죽음 앞에서도 물러서지 않는 굳센 뜻을 지녀 곧 큰 것을 손에 넣을 길한 조짐",
+          "interpretation_en": "the possession of a powerful will that would not turn aside in ambitious struggles even for death",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "Eating the flesh of one, denotes the possession of a powerful will that would not turn aside in ambitious struggles even for death. You will come immediately into rich possessions.",
+              "translation_ko": "독수리의 고기를 먹는 꿈은, 죽음 앞에서도 뜻을 굽히지 않는 굳센 마음을 지녔음을 뜻한다. 곧 큰 것이 손에 들어온다"
+            }
+          ]
+        },
+        {
+          "context": "남이 죽인 독수리의 주검을 봄",
+          "interpretation_ko": "높은 자리와 복을 모질게 빼앗길 흉한 조짐",
+          "interpretation_en": "high rank and fortune will be wrested from you ruthlessly",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To see a dead eagle killed by others than yourself, signifies high rank and fortune will be wrested from you ruthlessly.",
+              "translation_ko": "내가 아닌 남이 죽인 독수리의 주검을 보는 꿈은, 높은 자리와 복을 모질게 빼앗김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "독수리 등에 올라탐",
+          "interpretation_ko": "앎과 재물을 찾아 아직 밟지 않은 먼 땅으로 긴 길을 떠나 끝내 얻을 길한 조짐",
+          "interpretation_en": "you will make a long voyage into almost unexplored countries in your search for knowledge and wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eagles",
+              "original": "To ride on an eagle's back, denotes that you will make a long voyage into almost unexplored countries in your search for knowledge and wealth which you will eventually gain.",
+              "translation_ko": "독수리 등에 올라타는 꿈은, 앎과 재물을 찾아 거의 밟은 적 없는 먼 땅으로 긴 길을 떠남을 뜻한다. 끝내 그것을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "term_ko": "달걀",
+      "term_en": "egg",
+      "aliases": [
+        "계란",
+        "달걀이",
+        "달걀을",
+        "새알",
+        "알을 낳",
+        "알이 든",
+        "알을 품"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "알이 든 둥지를 찾음",
+          "interpretation_ko": "든든한 재물과 부부의 화목, 자식이 많을 길한 조짐",
+          "interpretation_en": "wealth of a substantial character, happiness among the married and many children",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To dream of finding a nest of eggs, denotes wealth of a substantial character, happiness among the married and many children.",
+              "translation_ko": "알이 든 둥지를 찾는 꿈은, 든든한 재물과 부부 사이의 화목과 많은 자식을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "달걀을 먹음",
+          "interpretation_ko": "집안에 심상치 않은 소란이 있을 흉한 조짐",
+          "interpretation_en": "unusual disturbances threaten you in your home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To eat eggs, denotes that unusual disturbances threaten you in your home.",
+              "translation_ko": "달걀을 먹는 꿈은, 집안에 심상치 않은 소란이 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 달걀이 성함",
+          "interpretation_ko": "복이 가장 큰 선물을 쏟아부을 길한 조짐",
+          "interpretation_en": "fortune is ready to shower upon you her richest gifts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To see broken eggs and they are fresh, fortune is ready to shower upon you her richest gifts. A lofty spirit and high regard for justice will make you beloved by the world.",
+              "translation_ko": "깨진 달걀이 성한 것을 보면, 복이 가장 큰 선물을 쏟아부을 채비를 한다. 높은 뜻과 옳음을 귀히 여기는 마음이 세상의 사랑을 받게 한다"
+            }
+          ]
+        },
+        {
+          "context": "썩은 달걀을 봄",
+          "interpretation_ko": "재물을 잃고 낮은 자리로 떨어질 흉한 조짐",
+          "interpretation_en": "loss of property and degradation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To dream of rotten eggs, denotes loss of property and degradation.",
+              "translation_ko": "썩은 달걀 꿈은 재물을 잃음과 낮은 자리로 떨어짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "달걀 상자를 봄",
+          "interpretation_ko": "이문이 남는 일에 뛰어들 길한 조짐",
+          "interpretation_en": "you will engage in profitable speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To see a crate of eggs, denotes that you will engage in profitable speculations.",
+              "translation_ko": "달걀 상자를 보는 꿈은, 이문이 남는 일에 뛰어듦을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "달걀을 뒤집어씀",
+          "interpretation_ko": "떳떳하지 못한 데서 온 재물을 뽐내게 될 흉한 조짐",
+          "interpretation_en": "you will sport riches of doubtful origin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To dream of being spattered with eggs, denotes that you will sport riches of doubtful origin.",
+              "translation_ko": "달걀을 뒤집어쓰는 꿈은, 어디서 왔는지 떳떳하지 못한 재물을 뽐내게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "새알을 봄",
+          "interpretation_ko": "먼 친척에게서 유산이 오거나 곡식 값이 뜻밖에 올라 이로울 길한 조짐",
+          "interpretation_en": "legacies from distant relations, or gain from an unexpected rise in staple products",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eggs",
+              "original": "To see bird eggs, signifies legacies from distant relations, or gain from an unexpected rise in staple products.",
+              "translation_ko": "새의 알을 보는 꿈은, 먼 친척에게서 오는 유산이나 곡식 값이 뜻밖에 올라 얻는 이로움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hat",
       "term_ko": "모자",
       "term_en": "hat",
@@ -18447,6 +18686,96 @@
               "locator": "Disaster",
               "original": "To dream of a railway wreck in which you are not a participant, you will eventually be interested in some accident because of some relative or friend being hurt, or you will have trouble of a business character.",
               "translation_ko": "제가 끼지 않은 철도 사고 꿈은, 살붙이나 벗이 다쳐 그 일에 얽히거나 하는 일에 어려움이 생김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elephant",
+      "term_ko": "코끼리",
+      "term_en": "elephant",
+      "aliases": [
+        "코끼리가",
+        "코끼리를",
+        "코끼리 떼"
+      ],
+      "category": "animal",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흰 코끼리를 봄",
+          "interpretation_ko": "관직이 이를 조짐",
+          "interpretation_en": "a sign that an official post will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "白象江豬官位至",
+              "translation_ko": "흰 코끼리와 강돼지는 관직이 이를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "코끼리를 타고 있음",
+          "interpretation_ko": "가장 든든한 재물과 떳떳이 지닐 자리를 얻고 하는 일마다 뜻대로 될 길한 조짐",
+          "interpretation_en": "you will possess wealth of the most solid character, and honors which you will wear with dignity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elephant",
+              "original": "To dream of riding an elephant, denotes that you will possess wealth of the most solid character, and honors which you will wear with dignity. You will rule absolutely in all lines of your business affairs and your word will be law in the home.",
+              "translation_ko": "코끼리를 타는 꿈은, 가장 든든한 재물과 떳떳이 지닐 자리를 얻음을 뜻한다. 하는 일마다 뜻대로 다스리고 집안에서 그 말이 곧 법이 된다"
+            }
+          ]
+        },
+        {
+          "context": "코끼리 여럿을 봄",
+          "interpretation_ko": "크게 넉넉해질 길한 조짐",
+          "interpretation_en": "tremendous prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elephant",
+              "original": "To see many elephants, denotes tremendous prosperity.",
+              "translation_ko": "코끼리 여럿을 보는 꿈은 크게 넉넉해짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "외따로 있는 코끼리 한 마리를 봄",
+          "interpretation_ko": "작지만 든든하게 살아갈 조짐",
+          "interpretation_en": "you will live in a small but solid way",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elephant",
+              "original": "One lone elephant, signifies you will live in a small but solid way.",
+              "translation_ko": "외따로 있는 코끼리 한 마리는, 작지만 든든하게 살아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "코끼리에게 먹이를 줌",
+          "interpretation_ko": "아랫자리에 있는 이들에게 베풀어 마을에서 자리가 올라갈 길한 조짐",
+          "interpretation_en": "you will elevate yourself in your community by your kindness to those occupying places below you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elephant",
+              "original": "To dream of feeding one, denotes that you will elevate yourself in your community by your kindness to those occupying places below you.",
+              "translation_ko": "코끼리에게 먹이를 주는 꿈은, 아랫자리에 있는 이들에게 베푸는 마음으로 마을에서 제 자리가 올라감을 뜻한다"
             }
           ]
         }
@@ -24819,6 +25148,235 @@
       ]
     },
     {
+      "id": "eel",
+      "term_ko": "뱀장어",
+      "term_en": "eel",
+      "aliases": [
+        "뱀장어가",
+        "뱀장어를",
+        "장어",
+        "민물장어"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "뱀장어를 꽉 붙잡고 있음",
+          "interpretation_ko": "잡은 복을 놓치지 않을 길한 조짐",
+          "interpretation_en": "good if you can maintain your grip on him",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eel",
+              "original": "To dream of an eel is good if you can maintain your grip on him. Otherwise fortune will be fleeting.",
+              "translation_ko": "뱀장어 꿈은 그것을 놓치지 않고 붙잡고 있으면 길하다. 그렇지 못하면 복이 스쳐 지나간다"
+            }
+          ]
+        },
+        {
+          "context": "뱀장어를 놓침",
+          "interpretation_ko": "복이 붙잡히지 않고 스쳐 지나갈 흉한 조짐",
+          "interpretation_en": "fortune will be fleeting",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eel",
+              "original": "To dream of an eel is good if you can maintain your grip on him. Otherwise fortune will be fleeting.",
+              "translation_ko": "뱀장어 꿈은 그것을 놓치지 않고 붙잡고 있으면 길하다. 그렇지 못하면 복이 스쳐 지나간다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물속의 뱀장어를 봄",
+          "interpretation_ko": "여성에게는 새롭지만 오래가지 않을 즐거움이 있을 조짐",
+          "interpretation_en": "for a woman, new but evanescent pleasures",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eel",
+              "original": "To see an eel in clear water, denotes, for a woman, new but evanescent pleasures.",
+              "translation_ko": "맑은 물속의 뱀장어를 보는 꿈은, 여성에게 새롭지만 오래가지 않는 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 뱀장어를 봄",
+          "interpretation_ko": "가장 모질게 굴던 적을 이겨 낼 길한 조짐",
+          "interpretation_en": "you will overcome your most maliciously inclined enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eel",
+              "original": "To see a dead eel, signifies that you will overcome your most maliciously inclined enemies. To lovers, the dream denotes an end to long and hazardous courtship by marriage.",
+              "translation_ko": "죽은 뱀장어를 보는 꿈은, 가장 모질게 굴던 적을 이겨 냄을 뜻한다. 정든 사이에게는 길고 아슬아슬하던 만남이 혼인으로 끝맺음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "term_ko": "전기",
+      "term_en": "electricity",
+      "aliases": [
+        "전기가",
+        "전기를",
+        "감전",
+        "전깃줄",
+        "전선"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "전기를 봄",
+          "interpretation_ko": "갑작스러운 변화가 있으나 오름도 즐거움도 아닐 흉한 조짐",
+          "interpretation_en": "there will be sudden changes about you, which will not afford you either advancement or pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Electricity",
+              "original": "To dream of electricity, denotes there will be sudden changes about you, which will not afford you either advancement or pleasure.",
+              "translation_ko": "전기 꿈은 둘레에 갑작스러운 변화가 있음을 뜻하나, 그것이 오름도 즐거움도 주지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "전기에 감전됨",
+          "interpretation_ko": "끔찍한 위험을 마주할 흉한 조짐",
+          "interpretation_en": "you will face a deplorable danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Electricity",
+              "original": "If you are shocked by it you will face a deplorable danger.",
+              "translation_ko": "그것에 감전되면 끔찍한 위험을 마주하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "전기가 흐르는 전선을 봄",
+          "interpretation_ko": "애써 세운 뜻을 적이 흔들어 놓을 흉한 조짐",
+          "interpretation_en": "enemies will disturb your plans, which have given you much anxiety in forming",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Electricity",
+              "original": "To see live electrical wire, foretells that enemies will disturb your plans, which have given you much anxiety in forming.",
+              "translation_ko": "전기가 흐르는 전선을 보는 꿈은, 애태우며 세운 내 뜻을 적이 흔들어 놓음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "전선으로 짐이나 제 몸을 실어 보냄",
+          "interpretation_ko": "끝내 막힌 것을 넘고 적의 꾀를 도리어 제 발판으로 삼을 길한 조짐",
+          "interpretation_en": "you will finally overcome obstacles and be able to use your enemies' plans to advance yourself",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Electricity",
+              "original": "To dream that you can send a package or yourself out over a wire with the same rapidity that a message can be sent, denotes you will finally overcome obstacles and be able to use your enemies' plans to advance yourself.",
+              "translation_ko": "기별이 오가는 것만큼 빠르게 짐이나 제 몸을 전선으로 실어 보내는 꿈은, 끝내 막힌 것을 넘고 적의 꾀를 도리어 제 발판으로 삼음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevator",
+      "term_ko": "승강기",
+      "term_en": "elevator",
+      "aliases": [
+        "승강기가",
+        "승강기를",
+        "엘리베이터",
+        "승강기에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "승강기를 타고 올라감",
+          "interpretation_ko": "자리와 재물이 빠르게 오를 길한 조짐",
+          "interpretation_en": "you will swiftly rise to position and wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elevator",
+              "original": "To dream of ascending in an elevator, denotes you will swiftly rise to position and wealth, but if you descend in one your misfortunes will crush and discourage you.",
+              "translation_ko": "승강기를 타고 올라가는 꿈은 자리와 재물이 빠르게 오름을 뜻한다. 그러나 타고 내려간다면 궂은일이 나를 짓누르고 기를 꺾는다"
+            }
+          ]
+        },
+        {
+          "context": "승강기가 내려가 홀로 남겨진 듯함",
+          "interpretation_ko": "벌인 일에서 낙담할 뻔하다가 아슬아슬하게 벗어날 조짐",
+          "interpretation_en": "you will narrowly escape disappointment in some undertaking",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elevator",
+              "original": "If you see one go down and think you are left, you will narrowly escape disappointment in some undertaking.",
+              "translation_ko": "승강기가 내려가고 자기만 남겨졌다고 여기는 꿈은, 벌인 일에서 낙담할 뻔하다가 아슬아슬하게 벗어남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "승강기를 타고 내려감",
+          "interpretation_ko": "궂은일이 짓누르고 기를 꺾을 흉한 조짐",
+          "interpretation_en": "your misfortunes will crush and discourage you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elevator",
+              "original": "To dream of ascending in an elevator, denotes you will swiftly rise to position and wealth, but if you descend in one your misfortunes will crush and discourage you.",
+              "translation_ko": "승강기를 타고 올라가는 꿈은 자리와 재물이 빠르게 오름을 뜻한다. 그러나 타고 내려간다면 궂은일이 나를 짓누르고 기를 꺾는다"
+            }
+          ]
+        },
+        {
+          "context": "멈춰 서 있는 승강기를 봄",
+          "interpretation_ko": "위험이 다가오고 있음을 알리는 흉한 조짐",
+          "interpretation_en": "foretells threatened danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elevator",
+              "original": "To see one standing, foretells threatened danger.",
+              "translation_ko": "멈춰 서 있는 승강기를 보는 꿈은 위험이 다가옴을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fishing",
       "term_ko": "낚시",
       "term_en": "fishing",
@@ -27858,6 +28416,75 @@
               "work": "miller",
               "locator": "Beggar",
               "original": "To dream that you refuse to give to a beggar is altogether bad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "being-taught-letters",
+      "term_ko": "글을 배움",
+      "term_en": "being taught letters",
+      "aliases": [
+        "글공부",
+        "글씨공부",
+        "학문",
+        "글자를 배",
+        "배움",
+        "배우고",
+        "배우는",
+        "공부를",
+        "공부하",
+        "글을 가르쳐"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "누군가 글을 가르쳐 줌",
+          "interpretation_ko": "큰 부귀를 누릴 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "有人教書大富貴",
+              "translation_ko": "누군가 글을 가르쳐 주면 큰 부귀를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "배움을 얻고자 애씀",
+          "interpretation_ko": "형편이 어떻든 앎을 바라는 마음이 커서 둘레보다 높은 자리에 서고 운도 너그러워질 길한 조짐",
+          "interpretation_en": "a keen desire for knowledge which will place you on a higher plane than your associates; fortune will also be more lenient to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Education",
+              "original": "To dream that you are anxious to obtain an education, shows that whatever your circumstances in life may be there will be a keen desire for knowledge on your part, which will place you on a higher plane than your associates. Fortune will also be more lenient to you.",
+              "translation_ko": "배움을 얻고자 애태우는 꿈은, 살림 형편이 어떻든 앎을 바라는 마음이 커서 둘레 사람들보다 높은 자리에 서게 됨을 알린다. 운 또한 더 너그러워진다"
+            }
+          ]
+        },
+        {
+          "context": "배우는 곳에 있음",
+          "interpretation_ko": "힘이 되어 줄 벗을 많이 얻을 길한 조짐",
+          "interpretation_en": "foretells for you many influential friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Education",
+              "original": "To dream that you are in places of learning, foretells for you many influential friends.",
+              "translation_ko": "배우는 곳에 있는 꿈은, 힘이 되어 줄 벗을 많이 얻음을 알린다"
             }
           ]
         }
@@ -33042,6 +33669,134 @@
               "locator": "Dwarf",
               "original": "Ugly and hideous dwarfs, always forebodes distressing states.",
               "translation_ko": "흉하고 끔찍한 모습이라면 언제나 괴로운 처지를 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eating",
+      "term_ko": "음식을 먹음",
+      "term_en": "eating",
+      "aliases": [
+        "음식을 먹었다",
+        "밥을 먹었다",
+        "혼자 먹었다",
+        "같이 먹었다",
+        "식사를 했다",
+        "먹고 있었다",
+        "먹다가",
+        "먹는 중",
+        "먹기도 전"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "혼자서 먹음",
+          "interpretation_ko": "잃는 것이 있고 마음이 가라앉을 흉한 조짐",
+          "interpretation_en": "loss and melancholy spirits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "To dream of eating alone, signifies loss and melancholy spirits.",
+              "translation_ko": "혼자서 먹는 꿈은 잃는 것과 가라앉은 마음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남과 함께 먹음",
+          "interpretation_ko": "제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘될 길한 조짐",
+          "interpretation_en": "personal gain, cheerful environments and prosperous undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "To eat with others, denotes personal gain, cheerful environments and prosperous undertakings.",
+              "translation_ko": "남과 함께 먹는 꿈은 제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다 먹기 전에 딸이 고기 접시를 물려 감",
+          "interpretation_ko": "아랫사람이나 딸린 이들 때문에 골치 아프고 성가신 일이 있을 흉한 조짐",
+          "interpretation_en": "you will have trouble and vexation from those beneath you or dependent upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "If your daughter carries away the platter of meat before you are done eating, it foretells that you will have trouble and vexation from those beneath you or dependent upon you.",
+              "translation_ko": "다 먹기도 전에 딸이 고기 접시를 들고 가 버리는 꿈은, 아랫사람이나 나에게 딸린 이들 때문에 골치 아프고 성가신 일이 있음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elbow",
+      "term_ko": "팔꿈치",
+      "term_en": "elbow",
+      "aliases": [
+        "팔꿈치가",
+        "팔꿈치를",
+        "팔굽"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "팔꿈치를 봄",
+          "interpretation_ko": "힘든 일이 떠맡겨지나 받는 삯은 적을 흉한 조짐",
+          "interpretation_en": "arduous labors will devolve upon you, and for which you will receive small reimbursements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elbows",
+              "original": "To see elbows in a dream, signifies that arduous labors will devolve upon you, and for which you will receive small reimbursements.",
+              "translation_ko": "꿈에 팔꿈치를 보는 것은, 힘든 일이 떠맡겨지고 그 삯은 적음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 팔꿈치를 봄",
+          "interpretation_ko": "제법 넉넉한 집과 짝을 맺을 좋은 자리가 올 길한 조짐",
+          "interpretation_en": "a prognostic of favorable opportunities to make a reasonably wealthy marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elbows",
+              "original": "For a young woman, this is a prognostic of favorable opportunities to make a reasonably wealthy marriage.",
+              "translation_ko": "젊은 여성에게 이는 제법 넉넉한 집과 혼인할 좋은 자리가 옴을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "팔꿈치가 더러움",
+          "interpretation_ko": "혼인으로 자리를 잡을 좋은 기회를 놓칠 흉한 조짐",
+          "interpretation_en": "she will lose a good chance of securing a home by marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Elbows",
+              "original": "If the elbows are soiled, she will lose a good chance of securing a home by marriage.",
+              "translation_ko": "팔꿈치가 더러우면, 혼인으로 살 자리를 마련할 좋은 기회를 놓친다"
             }
           ]
         }
@@ -47285,6 +48040,154 @@
       ]
     },
     {
+      "id": "earring",
+      "term_ko": "귀걸이",
+      "term_en": "earring",
+      "aliases": [
+        "귀걸이가",
+        "귀걸이를",
+        "귀고리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "귀걸이를 봄",
+          "interpretation_ko": "좋은 기별이 오고 뜻있는 일이 앞에 놓일 길한 조짐",
+          "interpretation_en": "omens good news and interesting work is before you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Earrings",
+              "original": "To see earrings in dreams, omens good news and interesting work is before you.",
+              "translation_ko": "꿈에 귀걸이를 보는 것은 좋은 기별과, 앞에 놓인 뜻있는 일의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 귀걸이를 봄",
+          "interpretation_ko": "낮고 험한 말이 나를 두고 오갈 흉한 조짐",
+          "interpretation_en": "gossip of a low order will be directed against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Earrings",
+              "original": "To see them broken, indicates that gossip of a low order will be directed against you.",
+              "translation_ko": "귀걸이가 부서진 것을 보는 꿈은, 낮고 험한 말이 나를 두고 오감을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eclipse",
+      "term_ko": "해가 가려짐",
+      "term_en": "eclipse",
+      "aliases": [
+        "일식이",
+        "월식",
+        "개기일식",
+        "개기월식",
+        "해가 가려졌다",
+        "달이 가려졌다",
+        "해를 가리",
+        "달을 가리"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "해가 가려지는 것을 봄",
+          "interpretation_ko": "하는 일과 세상일이 잠시 어그러지고 집안이 어수선할 흉한 조짐",
+          "interpretation_en": "temporary failure in business and other secular affairs, also disturbances in families",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eclipse",
+              "original": "To dream of the eclipse of the sun, denotes temporary failure in business and other secular affairs, also disturbances in families.",
+              "translation_ko": "해가 가려지는 꿈은, 하는 일과 세상일이 잠시 어그러짐과 집안의 어수선함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "달이 가려지는 것을 봄",
+          "interpretation_ko": "돌림병이나 죽음을 알리는 흉한 조짐",
+          "interpretation_en": "portends contagious disease or death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eclipse",
+              "original": "The eclipse of the moon, portends contagious disease or death.",
+              "translation_ko": "달이 가려지는 것은 돌림병이나 죽음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecstasy",
+      "term_ko": "황홀함",
+      "term_en": "ecstasy",
+      "aliases": [
+        "황홀했다",
+        "황홀한",
+        "황홀함에",
+        "넋을 잃",
+        "도취"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "황홀함을 느낌",
+          "interpretation_ko": "오래 못 보던 벗이 찾아올 길한 조짐",
+          "interpretation_en": "you will enjoy a visit from a long-absent friend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ecstasy",
+              "original": "To dream of feeling ecstasy, denotes you will enjoy a visit from a long-absent friend.",
+              "translation_ko": "황홀함을 느끼는 꿈은, 오래 못 보던 벗이 찾아옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "뒤숭숭한 꿈속에서 황홀함을 느낌",
+          "interpretation_ko": "슬픔과 낙담이 따를 흉한 조짐",
+          "interpretation_en": "you will be subjected to sorrow and disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ecstasy",
+              "original": "If you experience ecstasy in disturbing dreams you will be subjected to sorrow and disappointment.",
+              "translation_ko": "뒤숭숭한 꿈속에서 황홀함을 느끼면 슬픔과 낙담이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "farming",
       "term_ko": "농사",
       "term_en": "farming",
@@ -51042,40 +51945,6 @@
               "locator": "被害鬥傷打罵",
               "original": "被人簽刺大吉昌",
               "translation_ko": "남에게 찔리면 크게 길하고 창성하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "being-taught-letters",
-      "term_ko": "글을 배움",
-      "term_en": "being taught letters",
-      "aliases": [
-        "글공부",
-        "글씨공부",
-        "학문",
-        "글자를 배"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "누군가 글을 가르쳐 줌",
-          "interpretation_ko": "큰 부귀를 누릴 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "有人教書大富貴",
-              "translation_ko": "누군가 글을 가르쳐 주면 큰 부귀를 누린다"
             }
           ]
         }
@@ -55449,6 +56318,74 @@
       ]
     },
     {
+      "id": "ear",
+      "term_ko": "귀",
+      "term_en": "ear",
+      "aliases": [
+        "두 귀",
+        "귓바퀴",
+        "귓불",
+        "양쪽 귀"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "귀를 봄",
+          "interpretation_ko": "속이 검은 이가 내 말을 엿듣고 해치려 할 흉한 조짐",
+          "interpretation_en": "an evil and designing person is keeping watch over your conversation to work you harm",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ears",
+              "original": "To dream of seeing ears, an evil and designing person is keeping watch over your conversation to work you harm.",
+              "translation_ko": "귀를 보는 꿈은, 속이 검고 꿍꿍이가 있는 사람이 내 말을 엿보며 해치려 함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earthquake",
+      "term_ko": "지진",
+      "term_en": "earthquake",
+      "aliases": [
+        "지진이",
+        "지진을",
+        "땅이 흔들렸다",
+        "땅이 갈라졌다"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지진을 보거나 느낌",
+          "interpretation_ko": "하는 일이 무너지고, 나라 사이의 다툼과 어지러움에서 큰 괴로움이 올 흉한 조짐",
+          "interpretation_en": "business failure and much distress caused from turmoils and wars between nations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Earthquake",
+              "original": "To see or feel the earthquake in your dream, denotes business failure and much distress caused from turmoils and wars between nations.",
+              "translation_ko": "꿈에서 지진을 보거나 느끼는 것은, 하는 일이 무너짐과 나라 사이의 어지러움·싸움에서 오는 큰 괴로움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "earthworm",
       "term_ko": "지렁이",
       "term_en": "earthworm",
@@ -55472,6 +56409,105 @@
               "locator": "龜鱉魚蝦昆蟲",
               "original": "蚯蚓主田宅大吉",
               "translation_ko": "지렁이는 전답과 집에 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earwig",
+      "term_ko": "집게벌레",
+      "term_en": "earwig",
+      "aliases": [
+        "집게벌레가",
+        "집게벌레를",
+        "귀벌레"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집게벌레를 보거나 귀에 들어옴",
+          "interpretation_ko": "하는 일이나 집안일에 언짢은 기별이 올 흉한 조짐",
+          "interpretation_en": "you will have unpleasant news affecting your business or family relations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Earwig",
+              "original": "To dream that you see an earwig or have one in your ear, denotes that you will have unpleasant news affecting your business or family relations.",
+              "translation_ko": "집게벌레를 보거나 그것이 귀에 들어온 꿈은, 하는 일이나 집안 사이에 언짢은 기별이 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebony",
+      "term_ko": "흑단",
+      "term_en": "ebony",
+      "aliases": [
+        "흑단으로",
+        "흑단 세간",
+        "흑단나무"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흑단으로 만든 세간을 봄",
+          "interpretation_ko": "집안에서 괴로운 말다툼과 싸움이 잦을 흉한 조짐",
+          "interpretation_en": "you will have many distressing disputes and quarrels in your home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ebony",
+              "original": "If you dream of ebony furniture or other articles of ebony, you will have many distressing disputes and quarrels in your home.",
+              "translation_ko": "흑단으로 만든 세간이나 그 밖의 흑단 물건을 꿈에 보면, 집안에서 괴로운 말다툼과 싸움이 잦다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "echo",
+      "term_ko": "메아리",
+      "term_en": "echo",
+      "aliases": [
+        "메아리가",
+        "메아리를",
+        "산울림"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "메아리를 들음",
+          "interpretation_ko": "괴로운 때가 닥쳐 병으로 일자리를 잃고 벗이 등을 돌릴 흉한 조짐",
+          "interpretation_en": "distressful times are upon you; your sickness may lose you your employment, and friends will desert you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Echo",
+              "original": "To dream of an echo, portends that distressful times are upon you. Your sickness may lose you your employment, and friends will desert you in time of need.",
+              "translation_ko": "메아리 꿈은 괴로운 때가 닥쳤음을 알린다. 병으로 일자리를 잃을 수 있고, 아쉬울 때에 벗이 등을 돌린다"
             }
           ]
         }
@@ -55540,29 +56576,68 @@
       ]
     },
     {
-      "id": "elephant",
-      "term_ko": "코끼리",
-      "term_en": "elephant",
-      "aliases": [],
-      "category": "animal",
+      "id": "elderberry",
+      "term_ko": "딱총나무 열매",
+      "term_en": "elderberry",
+      "aliases": [
+        "딱총나무",
+        "엘더베리",
+        "딱총나무 열매를"
+      ],
+      "category": "nature",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "흰 코끼리를 봄",
-          "interpretation_ko": "관직이 이를 조짐",
-          "interpretation_en": "a sign that an official post will come",
+          "context": "덤불에 달린 딱총나무 열매를 봄",
+          "interpretation_ko": "집안이 화목하고 시골집에서 넉넉히 나들이할 길한 조짐",
+          "interpretation_en": "domestic bliss and an agreeable county home with resources for travel and other pleasures",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "白象江豬官位至",
-              "translation_ko": "흰 코끼리와 강돼지는 관직이 이를 조짐이다"
+              "work": "miller",
+              "locator": "Elderberries",
+              "original": "To dream of seeing elderberries on bushes with their foliage, denotes domestic bliss and an agreeable county home with resources for travel and other pleasures.",
+              "translation_ko": "잎이 무성한 덤불에 달린 딱총나무 열매를 보는 꿈은, 집안의 화목과 마음에 드는 시골집, 그리고 나들이와 즐길 것에 쓸 넉넉함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "election",
+      "term_ko": "투표",
+      "term_en": "election",
+      "aliases": [
+        "선거를",
+        "선거에",
+        "선거하는",
+        "선거장",
+        "표를 찍"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "선거하는 자리에 있음",
+          "interpretation_ko": "낯이나 살림에 해가 될 다툼에 끼어들 흉한 조짐",
+          "interpretation_en": "you will engage in some controversy which will prove detrimental to your social or financial standing",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Election",
+              "original": "To dream that you are at an election, foretells you will engage in some controversy which will prove detrimental to your social or financial standing.",
+              "translation_ko": "선거하는 자리에 있는 꿈은, 낯이나 살림에 해가 될 다툼에 끼어듦을 알린다"
             }
           ]
         }
