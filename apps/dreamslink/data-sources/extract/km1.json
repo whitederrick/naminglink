@@ -540,7 +540,10 @@
     "aliases": [
       "수풀",
       "삼림",
-      "밀림"
+      "밀림",
+      "숲속",
+      "숲으로",
+      "숲에서"
     ],
     "aliases_en": [
       "a forest",
@@ -550,11 +553,19 @@
     ],
     "contexts": {
       "동산의 숲이 우거짐": "우거 무성 빽빽 울창",
-      "숲속에 앉거나 누움": "앉았 앉아 누웠 누워 쉬었"
+      "숲속에 앉거나 누움": "앉았 앉아 누웠 누워 쉬었",
+      "빽빽한 숲속에 있음": "헤맸 헤매 길을잃 갇혀",
+      "숲에서 춥고 배고픔": "춥고 배고 굶주",
+      "잎이 우거진 큰 나무 숲을 봄": "아름드리 나무가 우람",
+      "글하는 이가 우거진 숲을 봄": "글하는 글을 쓰는 작가"
     },
     "contexts_en": {
       "동산의 숲이 우거짐": "lush dense thick overgrown",
-      "숲속에 앉거나 누움": "sat sitting lay lying rested"
+      "숲속에 앉거나 누움": "sat sitting lay lying rested",
+      "빽빽한 숲속에 있음": "loss trade quarrels families",
+      "숲에서 춥고 배고픔": "cold hungry forced journey",
+      "잎이 우거진 큰 나무 숲을 봄": "stately foliage prosperity",
+      "글하는 이가 우거진 숲을 봄": "literary fame appreciation public"
     }
   },
   {
@@ -774,7 +785,13 @@
       "점집",
       "점쟁이",
       "운세",
-      "점을 치"
+      "점을 치",
+      "점을 봤다",
+      "점을 보러",
+      "운수를 봄",
+      "점을 보았다",
+      "점을 본",
+      "점을 봐"
     ],
     "aliases_en": [
       "fortune telling",
@@ -782,8 +799,18 @@
       "a fortune teller",
       "reading my fortune"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남에게 가서 점을 침": "찾아가 점집 무당",
+      "점을 치거나 점을 봄": "저울질 망설 정하지",
+      "처녀가 점을 봄": "처녀 아가씨 여자가",
+      "처녀가 점쟁이와 정혼함": "정혼 약혼 혼약"
+    },
+    "contexts_en": {
+      "남에게 가서 점을 침": "went someone",
+      "점을 치거나 점을 봄": "deliberating vexed caution consent",
+      "처녀가 점을 봄": "choice two rivals standing",
+      "처녀가 점쟁이와 정혼함": "engaged reliant poverty"
+    }
   },
   {
     "id": "dog-meat",

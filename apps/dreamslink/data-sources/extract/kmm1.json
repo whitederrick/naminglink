@@ -66,7 +66,9 @@
       "유기",
       "내버림",
       "저버림",
-      "내팽개"
+      "내팽개",
+      "저버렸다",
+      "저버리"
     ],
     "aliases_en": [
       "desertion",
@@ -83,7 +85,8 @@
       "종교를 버림": "종교 신앙 믿음 교회",
       "자식을 버림": "자식 아이를 자녀 아들",
       "사업을 버림": "사업 장사 가게 접었",
-      "배를 버리고 떠남": "배를 선박 갑판 뭍으로"
+      "배를 버리고 떠남": "배를 선박 갑판 뭍으로",
+      "처녀가 제 집이나 벗을 저버림": "처녀 아가씨 벗을"
     },
     "contexts_en": {
       "버림받는 꿈을 꿈": "abandoned forsaken",
@@ -94,7 +97,8 @@
       "종교를 버림": "religion faith church",
       "자식을 버림": "child children offspring daughter",
       "사업을 버림": "business shop trade venture",
-      "배를 버리고 떠남": "ship vessel deck ashore"
+      "배를 버리고 떠남": "ship vessel deck ashore",
+      "처녀가 제 집이나 벗을 저버림": "estimate decrease acquaintance"
     }
   },
   {

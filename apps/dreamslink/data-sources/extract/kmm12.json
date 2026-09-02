@@ -200,7 +200,13 @@
     "aliases": [
       "속았다",
       "사기당했다",
-      "기만"
+      "기만",
+      "속였다",
+      "속아",
+      "사기를",
+      "속였다고",
+      "속인",
+      "속이려"
     ],
     "aliases_en": [
       "cheating",
@@ -208,11 +214,17 @@
     ],
     "contexts": {
       "거래에서 속임을 당함": "거래 장사 사업에서",
-      "놀이에서 속임을 당함": "놀이 게임 내기에서"
+      "놀이에서 속임을 당함": "놀이 게임 내기에서",
+      "남을 속임": "남을 상대를 속여서",
+      "남에게 속아 넘어감": "넘어갔 당했 걸려들",
+      "남이 나를 속였다고 나무람": "나무 따졌 몰아세"
     },
     "contexts_en": {
       "거래에서 속임을 당함": "business designing avenues",
-      "놀이에서 속임을 당함": "games sweethearts quarrels"
+      "놀이에서 속임을 당함": "games sweethearts quarrels",
+      "남을 속임": "defrauding employer degrading disrepute",
+      "남에게 속아 넘어감": "defrauded useless defame",
+      "남이 나를 속였다고 나무람": "accuse offered high honor"
     }
   },
   {

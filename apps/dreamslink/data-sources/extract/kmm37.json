@@ -1,0 +1,234 @@
+[
+  {
+    "id": "forehead",
+    "aliases": [
+      "이마가",
+      "이마를",
+      "이마에"
+    ],
+    "aliases_en": [
+      "forehead"
+    ],
+    "contexts": {
+      "곱고 반반한 이마를 봄": "반반 고운 훤한",
+      "볼품없는 이마를 봄": "볼품없 못생 흉한",
+      "제 아이의 이마를 손으로 쓸어 줌": "쓸어 아이의 자식의",
+      "처녀가 정인의 이마에 입 맞춤": "입맞춤 맞추 처녀 아가씨"
+    },
+    "contexts_en": {
+      "곱고 반반한 이마를 봄": "fine smooth judgment dealings",
+      "볼품없는 이마를 봄": "ugly displeasure private",
+      "제 아이의 이마를 손으로 쓸어 줌": "pass hand child praises",
+      "처녀가 정인의 이마에 입 맞춤": "kissing lover indiscreet conduct"
+    }
+  },
+  {
+    "id": "fork",
+    "aliases": [
+      "포크를",
+      "포크가",
+      "쇠스랑"
+    ],
+    "aliases_en": [
+      "a fork",
+      "forks"
+    ],
+    "contexts": {
+      "포크를 봄": "놓여 쥐고",
+      "여성이 포크를 봄": "여자가 여성이"
+    },
+    "contexts_en": {
+      "포크를 봄": "enemies working displacement",
+      "여성이 포크를 봄": "domestic relations separation"
+    }
+  },
+  {
+    "id": "form",
+    "aliases": [
+      "몸매가",
+      "몸매를",
+      "맵시"
+    ],
+    "aliases_en": [
+      "form",
+      "figure shape"
+    ],
+    "contexts": {
+      "볼품없는 몸매를 봄": "볼품없 흉하게 생긴",
+      "고운 몸매를 지님": "고운 아름다운 반듯"
+    },
+    "contexts_en": {
+      "볼품없는 몸매를 봄": "ill formed disappointment",
+      "고운 몸매를 지님": "beautiful favorable conditions"
+    }
+  },
+  {
+    "id": "fort",
+    "aliases": [
+      "성채",
+      "진지를",
+      "보루"
+    ],
+    "aliases_en": [
+      "a fort",
+      "forts"
+    ],
+    "contexts": {
+      "성채를 지킴": "지켰 지키 막아",
+      "성채를 쳐서 빼앗음": "쳐서 빼앗 함락"
+    },
+    "contexts_en": {
+      "성채를 지킴": "defending honor possessions worry",
+      "성채를 쳐서 빼앗음": "attack take victory worst"
+    }
+  },
+  {
+    "id": "fortress",
+    "aliases": [
+      "요새에",
+      "요새를",
+      "요새가"
+    ],
+    "aliases_en": [
+      "a fortress"
+    ],
+    "contexts": {
+      "요새에 갇힘": "갇혔 갇혀",
+      "남을 요새에 가둠": "가두 집어넣"
+    },
+    "contexts_en": {
+      "요새에 갇힘": "confined undesirable situation",
+      "남을 요새에 가둠": "put others rule"
+    }
+  },
+  {
+    "id": "fountain",
+    "aliases": [
+      "분수",
+      "샘이",
+      "샘을",
+      "물줄기"
+    ],
+    "aliases_en": [
+      "a fountain",
+      "fountains"
+    ],
+    "contexts": {
+      "햇빛에 반짝이는 맑은 샘을 봄": "햇빛 반짝 맑은",
+      "흐릿한 샘을 봄": "흐릿 뿌연",
+      "마르고 부서진 샘을 봄": "마르고 말라 부서진",
+      "처녀가 달빛에 반짝이는 샘을 봄": "달빛 처녀 아가씨"
+    },
+    "contexts_en": {
+      "햇빛에 반짝이는 맑은 샘을 봄": "clear sparkling sunlight vast",
+      "흐릿한 샘을 봄": "clouded insincerity associates",
+      "마르고 부서진 샘을 봄": "dry broken cessation",
+      "처녀가 달빛에 반짝이는 샘을 봄": "moonlight advised desertion"
+    }
+  },
+  {
+    "id": "fox",
+    "aliases": [
+      "여우가",
+      "여우를",
+      "여우에"
+    ],
+    "aliases_en": [
+      "a fox",
+      "foxes"
+    ],
+    "contexts": {
+      "여우를 뒤쫓음": "뒤쫓 쫓아갔 사냥",
+      "여우가 슬그머니 뜰로 들어옴": "슬그머니 뜰로 마당으로",
+      "여우를 죽임": "죽였 잡았"
+    },
+    "contexts_en": {
+      "여우를 뒤쫓음": "chasing doubtful risky",
+      "여우가 슬그머니 뜰로 들어옴": "slyly yard envious assailed",
+      "여우를 죽임": "kill win every"
+    }
+  },
+  {
+    "id": "freckle",
+    "aliases": [
+      "주근깨",
+      "기미가"
+    ],
+    "aliases_en": [
+      "freckles",
+      "freckled"
+    ],
+    "contexts": {
+      "여성이 제 얼굴에 주근깨가 난 것을 봄": "얼굴에 났다 돋았",
+      "거울에 비친 주근깨를 봄": "거울 비친"
+    },
+    "contexts_en": {
+      "여성이 제 얼굴에 주근깨가 난 것을 봄": "face displeasing incidents insinuate",
+      "거울에 비친 주근깨를 봄": "mirror losing rival"
+    }
+  },
+  {
+    "id": "friend",
+    "aliases": [
+      "친구가",
+      "친구를",
+      "벗이",
+      "벗을",
+      "동무"
+    ],
+    "aliases_en": [
+      "friends",
+      "a friend"
+    ],
+    "contexts": {
+      "벗이 성하고 즐거운 것을 봄": "즐거운 성하고 지내는",
+      "벗이 괴로워하고 수척한 것을 봄": "괴로워 수척 초췌",
+      "벗의 낯빛이 검게 보임": "낯빛 검게 거무",
+      "벗이 짐승의 모습이 됨": "짐승 모습이 변해",
+      "수수하게 입던 벗이 새빨간 옷을 입음": "새빨간 붉은옷 빨간옷",
+      "벗이 언덕 위에 조각상처럼 서 있음": "언덕 조각상 우뚝",
+      "벗이 흰 천으로 얼굴을 가리고 있음": "천으로 가리고 하얀천",
+      "나를 해친 사람과 손을 잡고 그가 슬픈 낯으로 떠남": "악수 떠나며 손잡"
+    },
+    "contexts_en": {
+      "벗이 성하고 즐거운 것을 봄": "well happy tidings relatives",
+      "벗이 괴로워하고 수척한 것을 봄": "troubled haggard distress",
+      "벗의 낯빛이 검게 보임": "dark colored unusual",
+      "벗이 짐승의 모습이 됨": "animals separate closest",
+      "수수하게 입던 벗이 새빨간 옷을 입음": "somber flaming implicated",
+      "벗이 언덕 위에 조각상처럼 서 있음": "statue hill advance retain",
+      "벗이 흰 천으로 얼굴을 가리고 있음": "cloth tied face injured",
+      "나를 해친 사람과 손을 잡고 그가 슬픈 낯으로 떠남": "shaking hands wronged departure"
+    }
+  },
+  {
+    "id": "frog",
+    "aliases": [
+      "개구리가",
+      "개구리를",
+      "개구리에",
+      "맹꽁이",
+      "황소개구리"
+    ],
+    "aliases_en": [
+      "frogs",
+      "a frog"
+    ],
+    "contexts": {
+      "개구리를 잡음": "잡았 붙잡",
+      "풀밭의 개구리를 봄": "풀밭 잔디",
+      "여성이 황소개구리를 봄": "황소개구리 여자가",
+      "낮고 눅눅한 곳의 개구리를 봄": "눅눅 늪지 습한",
+      "개구리를 먹음": "먹었 먹는",
+      "개구리 우는 소리를 들음": "우는 소리 개굴 울음"
+    },
+    "contexts_en": {
+      "개구리를 잡음": "catching carelessness health",
+      "풀밭의 개구리를 봄": "grass confidant counselor",
+      "여성이 황소개구리를 봄": "bullfrog widower cared",
+      "낮고 눅눅한 곳의 개구리를 봄": "marshy places kindness",
+      "개구리를 먹음": "eating fleeting joys",
+      "개구리 우는 소리를 들음": "hear visit fruitless"
+    }
+  }
+]

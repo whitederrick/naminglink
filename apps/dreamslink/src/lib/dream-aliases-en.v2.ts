@@ -5265,5 +5265,43 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "fly-trap": [
     "a fly-trap"
+  ],
+  "forehead": [
+    "forehead"
+  ],
+  "fork": [
+    "a fork",
+    "forks"
+  ],
+  "form": [
+    "form",
+    "figure shape"
+  ],
+  "fort": [
+    "a fort",
+    "forts"
+  ],
+  "fortress": [
+    "a fortress"
+  ],
+  "fountain": [
+    "a fountain",
+    "fountains"
+  ],
+  "fox": [
+    "a fox",
+    "foxes"
+  ],
+  "freckle": [
+    "freckles",
+    "freckled"
+  ],
+  "friend": [
+    "friends",
+    "a friend"
+  ],
+  "frog": [
+    "frogs",
+    "a frog"
   ]
 };

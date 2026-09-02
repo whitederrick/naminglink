@@ -568,7 +568,9 @@
       "무서움",
       "겁남",
       "공포",
-      "무서워"
+      "무서워",
+      "깜짝 놀랐다",
+      "화들짝"
     ],
     "aliases_en": [
       "scared",
@@ -580,14 +582,16 @@
       "다른 사람이 두려워하는 것을 봄": "다른사람 남이 친구가 겁먹은",
       "젊은 여성이 개를 무서워함": "강아지 개를 개가 짖는",
       "까닭 없이 두려움을 느낌": "까닭없이 그냥 이유도",
-      "처녀가 두려움을 느낌": "처녀 아가씨"
+      "처녀가 두려움을 느낌": "처녀 아가씨",
+      "무언가에 깜짝 놀람": "깜짝 화들짝"
     },
     "contexts_en": {
       "어떤 일이나 여행을 계속하기가 두려움": "journey continue undertaking",
       "다른 사람이 두려워하는 것을 봄": "another someone others frightened",
       "젊은 여성이 개를 무서워함": "dog dogs puppy",
       "까닭 없이 두려움을 느낌": "cause engagements expected",
-      "처녀가 두려움을 느낌": "forebodes unfortunate"
+      "처녀가 두려움을 느낌": "forebodes unfortunate",
+      "무언가에 깜짝 놀람": "fleeting temporary startled"
     }
   },
   {
