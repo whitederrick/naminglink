@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "부엌",
+    "term_en": "kitchen",
+    "context": "부엌을 봄",
+    "interpretation_ko": "갑작스러운 일을 맞닥뜨려 마음이 가라앉을 흉한 조짐",
+    "interpretation_en": "denotes you will be forced to meet emergencies which will depress your spirits",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitchen",
+      "original": "To dream of a kitchen, denotes you will be forced to meet emergencies which will depress your spirits.",
+      "translation_ko": "부엌의 꿈은 갑작스러운 일을 맞닥뜨려 마음이 가라앉으리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "부엌",
+    "term_en": "kitchen",
+    "context": "부엌이 정갈하고 반듯함",
+    "interpretation_ko": "제법 넉넉한 살림을 거느리게 될 길한 조짐",
+    "interpretation_en": "foretells she will become the mistress of interesting fortunes",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitchen",
+      "original": "For a woman to dream that her kitchen is clear.\nand orderly, foretells she will become the mistress of interesting fortunes.",
+      "translation_ko": "여자가 제 부엌이 정갈하고 반듯한 꿈을 꾸면 제법 넉넉한 살림을 거느리게 된다"
+    }
+  },
+  {
+    "term_ko": "연",
+    "term_en": "kite",
+    "context": "연을 날림",
+    "interpretation_ko": "재물이나 하는 일을 크게 내보이나 속은 그리 단단하지 못할 조짐",
+    "interpretation_en": "denotes a great show of wealth, or business, but with little true soundness to it all",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Kite",
+      "original": "To dream of flying a kite, denotes a great show of wealth, or business, but with little true soundness to it all.",
+      "translation_ko": "연을 날리는 꿈은 재물이나 사업을 크게 내보이나 속은 단단하지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "연",
+    "term_en": "kite",
+    "context": "연이 땅에 떨어진 것을 봄",
+    "interpretation_ko": "실망하고 하던 일이 어그러질 흉한 조짐",
+    "interpretation_en": "foretells disappointment and failure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Kite",
+      "original": "To see the kite thrown upon the ground, foretells disappointment and failure.",
+      "translation_ko": "연이 땅에 떨어진 것을 보면 실망하고 하던 일이 어그러진다"
+    }
+  },
+  {
+    "term_ko": "연",
+    "term_en": "kite",
+    "context": "연을 만듦",
+    "interpretation_ko": "적은 밑천으로 크게 벌이고 마음에 둔 이를 속여 얻으려 들 흉한 조짐",
+    "interpretation_en": "you will speculate largely on small means and seek to win the one you love by misrepresentations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Kite",
+      "original": "To dream of making a kite, you will speculate largely on small means and seek to win the one you love by misrepresentations.",
+      "translation_ko": "연을 만드는 꿈을 꾸면 적은 밑천으로 크게 벌이고 마음에 둔 이를 속여 얻으려 든다"
+    }
+  },
+  {
+    "term_ko": "연",
+    "term_en": "kite",
+    "context": "아이들이 연을 날리는 것을 봄",
+    "interpretation_ko": "즐겁고 가벼운 일거리가 있을 길한 조짐",
+    "interpretation_en": "denotes pleasant and light occupation",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Kite",
+      "original": "To see children flying kites, denotes pleasant and light occupation.",
+      "translation_ko": "아이들이 연을 날리는 것을 보면 즐겁고 가벼운 일거리가 있다"
+    }
+  },
+  {
+    "term_ko": "연",
+    "term_en": "kite",
+    "context": "연이 보이지 않을 만큼 높이 오름",
+    "interpretation_ko": "높이 품은 바람과 뜻이 도리어 실망과 잃음으로 바뀔 흉한 조짐",
+    "interpretation_en": "high hopes and aspirations will resolve themselves into disappointments and loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Kite",
+      "original": "If the kite ascends beyond the vision high hopes and aspirations will resolve themselves into disappointments and loss.",
+      "translation_ko": "연이 보이지 않을 만큼 높이 오르면 높이 품은 바람과 뜻이 실망과 잃음으로 바뀐다"
+    }
+  },
+  {
+    "term_ko": "고양이",
+    "term_en": "cat",
+    "context": "곱고 통통한 흰 새끼 고양이를 봄",
+    "interpretation_ko": "교묘한 속임이 다가와 하마터면 걸려들 뻔하나 제 슬기로 막아 낼 조짐",
+    "interpretation_en": "omens artful deception will be practised upon her, but her good sense and judgment will prevail in warding off unfortunate complications",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitten",
+      "original": "For a woman to dream of a beautiful fat, white kitten, omens artful deception will be practised upon her, which will almost ensnare her to destruction, but her good sense and judgment will prevail in warding off unfortunate complications.",
+      "translation_ko": "여자가 곱고 통통한 흰 새끼 고양이 꿈을 꾸면, 교묘한 속임이 다가와 하마터면 걸려들 뻔하나 슬기로 막아 낸다"
+    }
+  },
+  {
+    "term_ko": "고양이",
+    "term_en": "cat",
+    "context": "얼룩지고 여윈 새끼 고양이를 봄",
+    "interpretation_ko": "눈에 띄게 그릇된 일에 휘말려 해를 입을 흉한 조짐",
+    "interpretation_en": "she will be victimized into glaring indiscretions",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitten",
+      "original": "If the kittens are soiled, or colored and lean, she will be victimized into glaring indiscretions.",
+      "translation_ko": "새끼 고양이가 얼룩지거나 여위었으면, 눈에 띄게 그릇된 일에 휘말려 해를 입는다"
+    }
+  },
+  {
+    "term_ko": "고양이",
+    "term_en": "cat",
+    "context": "새끼 고양이를 죽임",
+    "interpretation_ko": "그 잔걱정을 이겨 낼 길한 조짐",
+    "interpretation_en": "unless you kill the kitten, and then you will overcome these worries",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitten",
+      "original": "unless you kill the kitten, and then you will overcome these worries.",
+      "translation_ko": "새끼 고양이를 죽이면 그 걱정을 이겨 낸다"
+    }
+  },
+  {
+    "term_ko": "고양이",
+    "term_en": "cat",
+    "context": "뱀이 새끼 고양이를 물어 죽이는 것을 봄",
+    "interpretation_ko": "저를 해치려던 적이 도리어 제 발등을 찍을 조짐",
+    "interpretation_en": "you have enemies who in seeking to injure you will work harm to themselves",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitten",
+      "original": "To see snakes kill kittens, you have enemies who in seeking to injure you will work harm to themselves.",
+      "translation_ko": "뱀이 새끼 고양이를 죽이는 것을 보면, 저를 해치려던 적이 도리어 제 발등을 찍는다"
+    }
+  },
+  {
+    "term_ko": "고양이",
+    "term_en": "cat",
+    "context": "새끼 고양이를 봄",
+    "interpretation_ko": "성가신 잔걱정이 따라다니며 손해를 끼칠 흉한 조짐",
+    "interpretation_en": "denotes abominable small troubles and vexations will pursue and work you loss",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kitten",
+      "original": "To dream of kittens, denotes abominable small troubles and vexations will pursue and work you loss,",
+      "translation_ko": "새끼 고양이의 꿈은 성가신 잔걱정이 따라다니며 손해를 끼침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "배낭",
+    "term_en": "knapsack",
+    "context": "배낭을 봄",
+    "interpretation_ko": "벗들과 어울리는 자리를 떠난 곳에서 가장 큰 즐거움을 찾을 조짐",
+    "interpretation_en": "denotes you will find your greatest pleasure away from the associations of friends",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knapsack",
+      "original": "To see a knapsack while dreaming, denotes you will find your greatest pleasure away from the associations of friends.",
+      "translation_ko": "꿈에 배낭을 보면 벗들과 어울리는 자리를 떠난 곳에서 가장 큰 즐거움을 찾는다"
+    }
+  },
+  {
+    "term_ko": "배낭",
+    "term_en": "knapsack",
+    "context": "낡고 해진 배낭을 봄",
+    "interpretation_ko": "가난과 언짢은 일이 따를 흉한 조짐",
+    "interpretation_en": "means poverty and disagreeableness for her",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knapsack",
+      "original": "For a woman to see an old dilapidated one, means poverty and disagreeableness for her.",
+      "translation_ko": "여자가 낡고 해진 것을 보면 가난과 언짢은 일이 따른다"
+    }
+  }
+]

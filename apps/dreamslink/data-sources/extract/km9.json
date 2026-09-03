@@ -759,7 +759,9 @@
     "aliases": [
       "길고양이",
       "새끼고양이",
-      "야옹이"
+      "야옹이",
+      "새끼 고양이",
+      "고양이 새끼"
     ],
     "aliases_en": [
       "kitten",
@@ -777,7 +779,12 @@
       "깨끗한 흰 고양이를 봄": "하얀 깨끗한 백색 흰색",
       "장사하는 사람이 고양이 꿈을 꿈": "장사 상인 가게",
       "고양이와 뱀이 사이좋게 있는 것을 봄": "뱀과 뱀이 사이좋",
-      "고양이가 쥐를 잡음": "쥐를 쥐가 잡는"
+      "고양이가 쥐를 잡음": "쥐를 쥐가 잡는",
+      "곱고 통통한 흰 새끼 고양이를 봄": "통통 살진 포동",
+      "얼룩지고 여윈 새끼 고양이를 봄": "얼룩진 때가 꾀죄죄",
+      "새끼 고양이를 봄": "새끼",
+      "새끼 고양이를 죽임": "죽였 없앴",
+      "뱀이 새끼 고양이를 물어 죽이는 것을 봄": "물어 죽이는"
     },
     "contexts_en": {
       "고양이를 봄": "quietly sitting merely",
@@ -790,7 +797,12 @@
       "깨끗한 흰 고양이를 봄": "white clean",
       "장사하는 사람이 고양이 꿈을 꿈": "merchant trader shop",
       "고양이와 뱀이 사이좋게 있는 것을 봄": "snake friendly terms",
-      "고양이가 쥐를 잡음": "mouse mice rodent"
+      "고양이가 쥐를 잡음": "mouse mice rodent",
+      "곱고 통통한 흰 새끼 고양이를 봄": "fat artful deception ensnare prevail",
+      "얼룩지고 여윈 새끼 고양이를 봄": "soiled colored victimized glaring",
+      "새끼 고양이를 봄": "abominable vexations pursue",
+      "새끼 고양이를 죽임": "overcome worries",
+      "뱀이 새끼 고양이를 물어 죽이는 것을 봄": "seeking injure themselves"
     }
   },
   {

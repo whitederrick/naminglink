@@ -76,6 +76,7 @@
     "m74.json",
     "m75.json",
     "m76.json",
+    "m77.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -6246,6 +6247,252 @@
       ]
     },
     {
+      "id": "cat",
+      "term_ko": "고양이",
+      "term_en": "cat",
+      "aliases": [
+        "길고양이",
+        "새끼고양이",
+        "야옹이",
+        "새끼 고양이",
+        "고양이 새끼"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고양이를 봄",
+          "interpretation_ko": "죽이거나 눈앞에서 쫓아내지 못하면 운이 나쁠 조짐",
+          "interpretation_en": "ill luck, if you do not succeed in killing it or driving it from your sight",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "To dream of a cat, denotes ill luck, if you do not succeed in killing it or driving it from your sight.",
+              "translation_ko": "고양이 꿈은, 그것을 죽이거나 눈앞에서 쫓아내지 못한다면 운이 나쁨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고양이가 덤벼듦",
+          "interpretation_ko": "평판을 더럽히고 재산을 잃게 하려고 무슨 짓이든 할 적이 있을 조짐",
+          "interpretation_en": "enemies who will go to any extreme to blacken your reputation and cause you loss of property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "If the cat attacks you, you will have enemies who will go to any extreme to blacken your reputation and to cause you loss of property.",
+              "translation_ko": "고양이가 덤벼들면, 평판을 더럽히고 재산을 잃게 하려고 무슨 짓이든 할 적들이 있다"
+            }
+          ]
+        },
+        {
+          "context": "고양이를 쫓아냄",
+          "interpretation_ko": "큰 걸림돌을 넘고 재물과 이름을 함께 얻을 조짐",
+          "interpretation_en": "you will overcome great obstacles and rise in fortune and fame",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "But if you succeed in banishing it, you will overcome great obstacles and rise in fortune and fame.",
+              "translation_ko": "그러나 고양이를 쫓아내는 데 성공하면 큰 걸림돌을 넘고 재물과 이름이 함께 오른다"
+            }
+          ]
+        },
+        {
+          "context": "여위고 지저분한 고양이를 만남",
+          "interpretation_ko": "멀리 있는 이에게서 궂은 소식이 오고 벗이 죽을 고비에 있으나, 쫓아내면 오랜 병 끝에 낫는다는 조짐",
+          "interpretation_en": "bad news from the absent, a friend at death's door; but if you chase it out of sight, your friend will recover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "If you meet a thin, mean and dirty-looking cat, you will have bad news from the absent.  Some friend lies at death's door; but if you chase it out of sight, your friend will recover after a long and lingering sickness.",
+              "translation_ko": "여위고 사납고 지저분해 보이는 고양이를 만나면 멀리 있는 이에게서 궂은 소식이 온다. 어떤 벗이 죽을 고비에 누워 있으나, 눈앞에서 쫓아내면 그 벗은 길고 지루한 병 끝에 낫는다"
+            }
+          ]
+        },
+        {
+          "context": "고양이 울음소리를 들음",
+          "interpretation_ko": "거짓된 벗이 온 말과 수를 다해 나를 해치려 들 조짐",
+          "interpretation_en": "some false friend is using all the words and work at his command to do you harm",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "To hear the scream or the mewing of a cat, some false friend is using all the words and work at his command to do you harm.",
+              "translation_ko": "고양이가 울부짖거나 야옹거리는 소리를 들으면, 거짓된 벗이 제가 부릴 수 있는 온 말과 수를 다해 나를 해치려 든다"
+            }
+          ]
+        },
+        {
+          "context": "고양이가 할큄",
+          "interpretation_ko": "여러 날 공들인 거래의 이문을 적에게 빼앗길 조짐",
+          "interpretation_en": "an enemy will wrench from you the profits of a deal you have spent many days making",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "To dream that a cat scratches you, an enemy will succeed in wrenching from you the profits of a deal that you have spent many days making.",
+              "translation_ko": "고양이가 할퀴는 꿈은, 여러 날 공들여 만든 거래의 이문을 적이 빼앗아 가게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고양이를 품에 안고 있음",
+          "interpretation_ko": "남의 배신에 휘둘려 온당치 못한 일에 끌려들 조짐",
+          "interpretation_en": "she will be influenced into some impropriety through the treachery of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "If a young woman dreams that she is holding a cat, or kitten, she will be influenced into some impropriety through the treachery of others.",
+              "translation_ko": "젊은 여성이 고양이나 새끼 고양이를 안고 있는 꿈을 꾸면, 남의 배신에 휘둘려 온당치 못한 일에 끌려든다"
+            }
+          ]
+        },
+        {
+          "context": "깨끗한 흰 고양이를 봄",
+          "interpretation_ko": "해롭지 않아 보이나 결국 슬픔과 재물 손실이 될 얽힘이 있을 조짐",
+          "interpretation_en": "entanglements which, while seemingly harmless, will prove a source of sorrow and loss of wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "To dream of a clean white cat, denotes entanglements which, while seemingly harmless, will prove a source of sorrow and loss of wealth.",
+              "translation_ko": "깨끗한 흰 고양이 꿈은, 해롭지 않아 보이나 끝내 슬픔과 재물 손실의 근원이 될 얽힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장사하는 사람이 고양이 꿈을 꿈",
+          "interpretation_ko": "경쟁하는 이들이 내 거래 방식을 무너뜨리려 하니 온 힘을 다해야 할 조짐",
+          "interpretation_en": "his competitors are about to demolish his standard of dealing; he should put his best energies to work",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "When a merchant dreams of a cat, he should put his best energies to work, as his competitors are about to succeed in demolishing his standard of dealing, and he will be forced to other measures if he undersells others and still succeeds.",
+              "translation_ko": "장사하는 사람이 고양이 꿈을 꾸면 온 힘을 다해 일해야 한다. 경쟁하는 이들이 그 거래 방식을 무너뜨리려 하고 있어, 남보다 싸게 팔면서도 잘되려면 다른 수를 써야 한다"
+            }
+          ]
+        },
+        {
+          "context": "고양이와 뱀이 사이좋게 있는 것을 봄",
+          "interpretation_ko": "성난 다툼이 시작될 조짐 — 비밀을 캐내려고 적을 곁에 두고 있다",
+          "interpretation_en": "the beginning of an angry struggle; an enemy is being entertained by you to find out some secret",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cats",
+              "original": "To dream of seeing a cat and snake on friendly terms signifies the beginning of an angry struggle.  It denotes that an enemy is being entertained by you with the intention of using him to find out some secret which you believe concerns yourself",
+              "translation_ko": "고양이와 뱀이 사이좋게 있는 것을 보는 꿈은 성난 다툼의 시작을 뜻한다. 나와 얽힌 어떤 비밀을 캐내려고 적을 곁에 두고 대접하고 있다는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "곱고 통통한 흰 새끼 고양이를 봄",
+          "interpretation_ko": "교묘한 속임이 다가와 하마터면 걸려들 뻔하나 제 슬기로 막아 낼 조짐",
+          "interpretation_en": "omens artful deception will be practised upon her, but her good sense and judgment will prevail in warding off unfortunate complications",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitten",
+              "original": "For a woman to dream of a beautiful fat, white kitten, omens artful deception will be practised upon her, which will almost ensnare her to destruction, but her good sense and judgment will prevail in warding off unfortunate complications.",
+              "translation_ko": "여자가 곱고 통통한 흰 새끼 고양이 꿈을 꾸면, 교묘한 속임이 다가와 하마터면 걸려들 뻔하나 슬기로 막아 낸다"
+            }
+          ]
+        },
+        {
+          "context": "얼룩지고 여윈 새끼 고양이를 봄",
+          "interpretation_ko": "눈에 띄게 그릇된 일에 휘말려 해를 입을 흉한 조짐",
+          "interpretation_en": "she will be victimized into glaring indiscretions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitten",
+              "original": "If the kittens are soiled, or colored and lean, she will be victimized into glaring indiscretions.",
+              "translation_ko": "새끼 고양이가 얼룩지거나 여위었으면, 눈에 띄게 그릇된 일에 휘말려 해를 입는다"
+            }
+          ]
+        },
+        {
+          "context": "새끼 고양이를 죽임",
+          "interpretation_ko": "그 잔걱정을 이겨 낼 길한 조짐",
+          "interpretation_en": "unless you kill the kitten, and then you will overcome these worries",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitten",
+              "original": "unless you kill the kitten, and then you will overcome these worries.",
+              "translation_ko": "새끼 고양이를 죽이면 그 걱정을 이겨 낸다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 새끼 고양이를 물어 죽이는 것을 봄",
+          "interpretation_ko": "저를 해치려던 적이 도리어 제 발등을 찍을 조짐",
+          "interpretation_en": "you have enemies who in seeking to injure you will work harm to themselves",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitten",
+              "original": "To see snakes kill kittens, you have enemies who in seeking to injure you will work harm to themselves.",
+              "translation_ko": "뱀이 새끼 고양이를 죽이는 것을 보면, 저를 해치려던 적이 도리어 제 발등을 찍는다"
+            }
+          ]
+        },
+        {
+          "context": "새끼 고양이를 봄",
+          "interpretation_ko": "성가신 잔걱정이 따라다니며 손해를 끼칠 흉한 조짐",
+          "interpretation_en": "denotes abominable small troubles and vexations will pursue and work you loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitten",
+              "original": "To dream of kittens, denotes abominable small troubles and vexations will pursue and work you loss,",
+              "translation_ko": "새끼 고양이의 꿈은 성가신 잔걱정이 따라다니며 손해를 끼침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "고양이가 쥐를 잡음",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "貓捕鼠者大得財",
+              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dragon",
       "term_ko": "용",
       "term_en": "dragon",
@@ -11678,180 +11925,6 @@
               "locator": "天地日月星辰",
               "original": "拜星月燒香大吉",
               "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cat",
-      "term_ko": "고양이",
-      "term_en": "cat",
-      "aliases": [
-        "길고양이",
-        "새끼고양이",
-        "야옹이"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "고양이를 봄",
-          "interpretation_ko": "죽이거나 눈앞에서 쫓아내지 못하면 운이 나쁠 조짐",
-          "interpretation_en": "ill luck, if you do not succeed in killing it or driving it from your sight",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "To dream of a cat, denotes ill luck, if you do not succeed in killing it or driving it from your sight.",
-              "translation_ko": "고양이 꿈은, 그것을 죽이거나 눈앞에서 쫓아내지 못한다면 운이 나쁨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "고양이가 덤벼듦",
-          "interpretation_ko": "평판을 더럽히고 재산을 잃게 하려고 무슨 짓이든 할 적이 있을 조짐",
-          "interpretation_en": "enemies who will go to any extreme to blacken your reputation and cause you loss of property",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "If the cat attacks you, you will have enemies who will go to any extreme to blacken your reputation and to cause you loss of property.",
-              "translation_ko": "고양이가 덤벼들면, 평판을 더럽히고 재산을 잃게 하려고 무슨 짓이든 할 적들이 있다"
-            }
-          ]
-        },
-        {
-          "context": "고양이를 쫓아냄",
-          "interpretation_ko": "큰 걸림돌을 넘고 재물과 이름을 함께 얻을 조짐",
-          "interpretation_en": "you will overcome great obstacles and rise in fortune and fame",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "But if you succeed in banishing it, you will overcome great obstacles and rise in fortune and fame.",
-              "translation_ko": "그러나 고양이를 쫓아내는 데 성공하면 큰 걸림돌을 넘고 재물과 이름이 함께 오른다"
-            }
-          ]
-        },
-        {
-          "context": "여위고 지저분한 고양이를 만남",
-          "interpretation_ko": "멀리 있는 이에게서 궂은 소식이 오고 벗이 죽을 고비에 있으나, 쫓아내면 오랜 병 끝에 낫는다는 조짐",
-          "interpretation_en": "bad news from the absent, a friend at death's door; but if you chase it out of sight, your friend will recover",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "If you meet a thin, mean and dirty-looking cat, you will have bad news from the absent.  Some friend lies at death's door; but if you chase it out of sight, your friend will recover after a long and lingering sickness.",
-              "translation_ko": "여위고 사납고 지저분해 보이는 고양이를 만나면 멀리 있는 이에게서 궂은 소식이 온다. 어떤 벗이 죽을 고비에 누워 있으나, 눈앞에서 쫓아내면 그 벗은 길고 지루한 병 끝에 낫는다"
-            }
-          ]
-        },
-        {
-          "context": "고양이 울음소리를 들음",
-          "interpretation_ko": "거짓된 벗이 온 말과 수를 다해 나를 해치려 들 조짐",
-          "interpretation_en": "some false friend is using all the words and work at his command to do you harm",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "To hear the scream or the mewing of a cat, some false friend is using all the words and work at his command to do you harm.",
-              "translation_ko": "고양이가 울부짖거나 야옹거리는 소리를 들으면, 거짓된 벗이 제가 부릴 수 있는 온 말과 수를 다해 나를 해치려 든다"
-            }
-          ]
-        },
-        {
-          "context": "고양이가 할큄",
-          "interpretation_ko": "여러 날 공들인 거래의 이문을 적에게 빼앗길 조짐",
-          "interpretation_en": "an enemy will wrench from you the profits of a deal you have spent many days making",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "To dream that a cat scratches you, an enemy will succeed in wrenching from you the profits of a deal that you have spent many days making.",
-              "translation_ko": "고양이가 할퀴는 꿈은, 여러 날 공들여 만든 거래의 이문을 적이 빼앗아 가게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "고양이를 품에 안고 있음",
-          "interpretation_ko": "남의 배신에 휘둘려 온당치 못한 일에 끌려들 조짐",
-          "interpretation_en": "she will be influenced into some impropriety through the treachery of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "If a young woman dreams that she is holding a cat, or kitten, she will be influenced into some impropriety through the treachery of others.",
-              "translation_ko": "젊은 여성이 고양이나 새끼 고양이를 안고 있는 꿈을 꾸면, 남의 배신에 휘둘려 온당치 못한 일에 끌려든다"
-            }
-          ]
-        },
-        {
-          "context": "깨끗한 흰 고양이를 봄",
-          "interpretation_ko": "해롭지 않아 보이나 결국 슬픔과 재물 손실이 될 얽힘이 있을 조짐",
-          "interpretation_en": "entanglements which, while seemingly harmless, will prove a source of sorrow and loss of wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "To dream of a clean white cat, denotes entanglements which, while seemingly harmless, will prove a source of sorrow and loss of wealth.",
-              "translation_ko": "깨끗한 흰 고양이 꿈은, 해롭지 않아 보이나 끝내 슬픔과 재물 손실의 근원이 될 얽힘을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "장사하는 사람이 고양이 꿈을 꿈",
-          "interpretation_ko": "경쟁하는 이들이 내 거래 방식을 무너뜨리려 하니 온 힘을 다해야 할 조짐",
-          "interpretation_en": "his competitors are about to demolish his standard of dealing; he should put his best energies to work",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "When a merchant dreams of a cat, he should put his best energies to work, as his competitors are about to succeed in demolishing his standard of dealing, and he will be forced to other measures if he undersells others and still succeeds.",
-              "translation_ko": "장사하는 사람이 고양이 꿈을 꾸면 온 힘을 다해 일해야 한다. 경쟁하는 이들이 그 거래 방식을 무너뜨리려 하고 있어, 남보다 싸게 팔면서도 잘되려면 다른 수를 써야 한다"
-            }
-          ]
-        },
-        {
-          "context": "고양이와 뱀이 사이좋게 있는 것을 봄",
-          "interpretation_ko": "성난 다툼이 시작될 조짐 — 비밀을 캐내려고 적을 곁에 두고 있다",
-          "interpretation_en": "the beginning of an angry struggle; an enemy is being entertained by you to find out some secret",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cats",
-              "original": "To dream of seeing a cat and snake on friendly terms signifies the beginning of an angry struggle.  It denotes that an enemy is being entertained by you with the intention of using him to find out some secret which you believe concerns yourself",
-              "translation_ko": "고양이와 뱀이 사이좋게 있는 것을 보는 꿈은 성난 다툼의 시작을 뜻한다. 나와 얽힌 어떤 비밀을 캐내려고 적을 곁에 두고 대접하고 있다는 뜻이다"
-            }
-          ]
-        },
-        {
-          "context": "고양이가 쥐를 잡음",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "貓捕鼠者大得財",
-              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
             }
           ]
         }
@@ -30913,6 +30986,186 @@
               "locator": "Jug",
               "original": "To take an unpleasant drink from a jug, disappointment and disgust will follow pleasant anticipations.",
               "translation_ko": "주전자로 맛없는 것을 마시면 즐거운 기대 끝에 실망과 역겨움이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "term_ko": "부엌",
+      "term_en": "kitchen",
+      "aliases": [
+        "주방",
+        "부뚜막",
+        "조리실"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부엌을 봄",
+          "interpretation_ko": "갑작스러운 일을 맞닥뜨려 마음이 가라앉을 흉한 조짐",
+          "interpretation_en": "denotes you will be forced to meet emergencies which will depress your spirits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitchen",
+              "original": "To dream of a kitchen, denotes you will be forced to meet emergencies which will depress your spirits.",
+              "translation_ko": "부엌의 꿈은 갑작스러운 일을 맞닥뜨려 마음이 가라앉으리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "부엌이 정갈하고 반듯함",
+          "interpretation_ko": "제법 넉넉한 살림을 거느리게 될 길한 조짐",
+          "interpretation_en": "foretells she will become the mistress of interesting fortunes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kitchen",
+              "original": "For a woman to dream that her kitchen is clear.\nand orderly, foretells she will become the mistress of interesting fortunes.",
+              "translation_ko": "여자가 제 부엌이 정갈하고 반듯한 꿈을 꾸면 제법 넉넉한 살림을 거느리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "부엌과 부뚜막을 고쳐 지음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "修造廚灶大吉利",
+              "translation_ko": "부엌과 부뚜막을 고쳐 지으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "관청 부엌 안에 있음",
+          "interpretation_ko": "재물과 녹봉을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth and salary",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "在官廚中得財祿",
+              "translation_ko": "관청 부엌 안에 있으면 재물과 녹봉을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "부엌에서 불이 남",
+          "interpretation_ko": "급한 일이 생길 조짐",
+          "interpretation_en": "a sign that an urgent matter will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "廚中火出有急事",
+              "translation_ko": "부엌에서 불이 나면 급한 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kite",
+      "term_ko": "연",
+      "term_en": "kite",
+      "aliases": [
+        "연날리기",
+        "종이 연",
+        "방패연",
+        "가오리연"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연을 날림",
+          "interpretation_ko": "재물이나 하는 일을 크게 내보이나 속은 그리 단단하지 못할 조짐",
+          "interpretation_en": "denotes a great show of wealth, or business, but with little true soundness to it all",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kite",
+              "original": "To dream of flying a kite, denotes a great show of wealth, or business, but with little true soundness to it all.",
+              "translation_ko": "연을 날리는 꿈은 재물이나 사업을 크게 내보이나 속은 단단하지 못함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연이 땅에 떨어진 것을 봄",
+          "interpretation_ko": "실망하고 하던 일이 어그러질 흉한 조짐",
+          "interpretation_en": "foretells disappointment and failure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kite",
+              "original": "To see the kite thrown upon the ground, foretells disappointment and failure.",
+              "translation_ko": "연이 땅에 떨어진 것을 보면 실망하고 하던 일이 어그러진다"
+            }
+          ]
+        },
+        {
+          "context": "연을 만듦",
+          "interpretation_ko": "적은 밑천으로 크게 벌이고 마음에 둔 이를 속여 얻으려 들 흉한 조짐",
+          "interpretation_en": "you will speculate largely on small means and seek to win the one you love by misrepresentations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kite",
+              "original": "To dream of making a kite, you will speculate largely on small means and seek to win the one you love by misrepresentations.",
+              "translation_ko": "연을 만드는 꿈을 꾸면 적은 밑천으로 크게 벌이고 마음에 둔 이를 속여 얻으려 든다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 연을 날리는 것을 봄",
+          "interpretation_ko": "즐겁고 가벼운 일거리가 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant and light occupation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kite",
+              "original": "To see children flying kites, denotes pleasant and light occupation.",
+              "translation_ko": "아이들이 연을 날리는 것을 보면 즐겁고 가벼운 일거리가 있다"
+            }
+          ]
+        },
+        {
+          "context": "연이 보이지 않을 만큼 높이 오름",
+          "interpretation_ko": "높이 품은 바람과 뜻이 도리어 실망과 잃음으로 바뀔 흉한 조짐",
+          "interpretation_en": "high hopes and aspirations will resolve themselves into disappointments and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kite",
+              "original": "If the kite ascends beyond the vision high hopes and aspirations will resolve themselves into disappointments and loss.",
+              "translation_ko": "연이 보이지 않을 만큼 높이 오르면 높이 품은 바람과 뜻이 실망과 잃음으로 바뀐다"
             }
           ]
         }
@@ -51535,67 +51788,6 @@
       ]
     },
     {
-      "id": "kitchen",
-      "term_ko": "부엌",
-      "term_en": "kitchen",
-      "aliases": [
-        "주방",
-        "부뚜막",
-        "조리실"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "부엌과 부뚜막을 고쳐 지음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "修造廚灶大吉利",
-              "translation_ko": "부엌과 부뚜막을 고쳐 지으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "관청 부엌 안에 있음",
-          "interpretation_ko": "재물과 녹봉을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth and salary",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "在官廚中得財祿",
-              "translation_ko": "관청 부엌 안에 있으면 재물과 녹봉을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "부엌에서 불이 남",
-          "interpretation_ko": "급한 일이 생길 조짐",
-          "interpretation_en": "a sign that an urgent matter will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "廚中火出有急事",
-              "translation_ko": "부엌에서 불이 나면 급한 일이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "leopard",
       "term_ko": "표범",
       "term_en": "leopard",
@@ -70385,6 +70577,54 @@
               "locator": "Katydids",
               "original": "For a woman to see them, signifies she will have a quarrelsome husband or lover.",
               "translation_ko": "여자가 그것을 보면 다투기 좋아하는 지아비나 정인을 만난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knapsack",
+      "term_ko": "배낭",
+      "term_en": "knapsack",
+      "aliases": [
+        "배낭이",
+        "배낭을",
+        "등짐 가방",
+        "봇짐"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "배낭을 봄",
+          "interpretation_ko": "벗들과 어울리는 자리를 떠난 곳에서 가장 큰 즐거움을 찾을 조짐",
+          "interpretation_en": "denotes you will find your greatest pleasure away from the associations of friends",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knapsack",
+              "original": "To see a knapsack while dreaming, denotes you will find your greatest pleasure away from the associations of friends.",
+              "translation_ko": "꿈에 배낭을 보면 벗들과 어울리는 자리를 떠난 곳에서 가장 큰 즐거움을 찾는다"
+            }
+          ]
+        },
+        {
+          "context": "낡고 해진 배낭을 봄",
+          "interpretation_ko": "가난과 언짢은 일이 따를 흉한 조짐",
+          "interpretation_en": "means poverty and disagreeableness for her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knapsack",
+              "original": "For a woman to see an old dilapidated one, means poverty and disagreeableness for her.",
+              "translation_ko": "여자가 낡고 해진 것을 보면 가난과 언짢은 일이 따른다"
             }
           ]
         }

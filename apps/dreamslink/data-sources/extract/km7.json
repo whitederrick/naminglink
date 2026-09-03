@@ -456,12 +456,16 @@
     "contexts": {
       "부엌과 부뚜막을 고쳐 지음": "고쳐 고쳤 수리 개조 새로지",
       "관청 부엌 안에 있음": "관청 관가 관공서",
-      "부엌에서 불이 남": "불이 불났 화재 불길 타올"
+      "부엌에서 불이 남": "불이 불났 화재 불길 타올",
+      "부엌을 봄": "갑작스 들이닥 가라앉",
+      "부엌이 정갈하고 반듯함": "정갈 반듯 말끔"
     },
     "contexts_en": {
       "부엌과 부뚜막을 고쳐 지음": "repaired rebuilt renovated fixing",
       "관청 부엌 안에 있음": "office government official",
-      "부엌에서 불이 남": "fire burning flames caught"
+      "부엌에서 불이 남": "fire burning flames caught",
+      "부엌을 봄": "forced meet emergencies depress spirits",
+      "부엌이 정갈하고 반듯함": "orderly mistress interesting fortunes"
     }
   },
   {

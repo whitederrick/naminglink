@@ -1,0 +1,49 @@
+[
+  {
+    "id": "kite",
+    "aliases": [
+      "연날리기",
+      "종이 연",
+      "방패연",
+      "가오리연"
+    ],
+    "aliases_en": [
+      "a kite",
+      "kites"
+    ],
+    "contexts": {
+      "연을 날림": "날렸 띄웠 띄우",
+      "연이 땅에 떨어진 것을 봄": "땅에 떨어진 처박",
+      "연을 만듦": "만들 붙여 손수",
+      "아이들이 연을 날리는 것을 봄": "아이들 어린이",
+      "연이 보이지 않을 만큼 높이 오름": "높이 까마득 보이지"
+    },
+    "contexts_en": {
+      "연을 날림": "flying show wealth soundness",
+      "연이 땅에 떨어진 것을 봄": "thrown ground disappointment failure",
+      "연을 만듦": "making speculate means misrepresentations",
+      "아이들이 연을 날리는 것을 봄": "children pleasant light occupation",
+      "연이 보이지 않을 만큼 높이 오름": "ascends beyond vision aspirations resolve"
+    }
+  },
+  {
+    "id": "knapsack",
+    "aliases": [
+      "배낭이",
+      "배낭을",
+      "등짐 가방",
+      "봇짐"
+    ],
+    "aliases_en": [
+      "a knapsack"
+    ],
+    "contexts": {
+      "배낭을 봄": "보았다 보였다",
+      "낡고 해진 배낭을 봄": "낡고 해진 헤진"
+    },
+    "contexts_en": {
+      "배낭을 봄": "greatest pleasure away associations",
+      "낡고 해진 배낭을 봄": "dilapidated poverty disagreeableness"
+    }
+  }
+]
