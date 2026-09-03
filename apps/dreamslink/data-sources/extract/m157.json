@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "무리",
+    "term_en": "gang",
+    "context": "정체 모를 무리가 돈이나 재물을 노리고 덮침",
+    "interpretation_ko": "적들이 한데 뭉쳐 맞설 조짐",
+    "interpretation_en": "denotes that you will have enemies banded together against you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Party",
+      "original": "To dream of an unknown party of men assaulting you for your money or valuables, denotes that you will have enemies banded together against you.",
+      "translation_ko": "정체 모를 무리가 돈이나 재물을 노리고 덮치는 꿈은, 적들이 한데 뭉쳐 맞설 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무리",
+    "term_en": "gang",
+    "context": "다치지 않고 벗어남",
+    "interpretation_ko": "사업이나 애정에서 어떤 반대도 이겨낼 조짐",
+    "interpretation_en": "you will overcome any opposition, either in business or love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Party",
+      "original": "If you escape uninjured, you will overcome any opposition, either in business or love.",
+      "translation_ko": "다치지 않고 벗어나는 꿈은, 사업이나 애정에서 어떤 반대도 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연회",
+    "term_en": "entertainment",
+    "context": "즐거움을 위해 파티에 참석함",
+    "interpretation_ko": "삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외",
+    "interpretation_en": "you will find that life has much good, unless the party is an inharmonious one",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Party",
+      "original": "To dream of attending a party of any kind for pleasure, you will find that life has much good, unless the party is an inharmonious one.",
+      "translation_ko": "즐거움을 위해 파티에 참석하는 꿈은, 삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외다"
+    }
+  },
+  {
+    "term_ko": "승객",
+    "term_en": "passenger",
+    "context": "짐을 갖고 들어오는 승객들을 봄",
+    "interpretation_ko": "주변 환경이 나아질 조짐",
+    "interpretation_en": "denotes improvement in your surroundings",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Passenger",
+      "original": "To dream that you see passengers coming in with their luggage, denotes improvement in your surroundings.",
+      "translation_ko": "짐을 갖고 들어오는 승객들을 보는 꿈은, 주변 환경이 나아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "승객",
+    "term_en": "passenger",
+    "context": "승객들이 떠남",
+    "interpretation_ko": "바라던 재물을 얻을 기회를 잃을 조짐",
+    "interpretation_en": "you will lose an opportunity of gaining some desired property",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Passenger",
+      "original": "If they are leaving you will lose an opportunity of gaining some desired property.",
+      "translation_ko": "승객들이 떠나는 꿈은, 바라던 재물을 얻을 기회를 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "승객",
+    "term_en": "passenger",
+    "context": "제가 집을 떠나는 승객 중 하나임",
+    "interpretation_ko": "지금 사는 형편에 불만을 품고 바꾸려 할 조짐",
+    "interpretation_en": "you will be dissatisfied with your present living and will seek to change it",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Passenger",
+      "original": "If you are one of the passengers leaving home, you will be dissatisfied with your present living and will seek to change it.",
+      "translation_ko": "제가 집을 떠나는 승객 중 하나인 꿈은, 지금 사는 형편에 불만을 품고 바꾸려 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "종",
+    "term_en": "bell",
+    "context": "직접 조종을 울림",
+    "interpretation_ko": "건강이 나빠지고 형편이 뒤바뀔 흉조",
+    "interpretation_en": "denotes ill health and reverses",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Passing Bell",
+      "original": "To ring one yourself, denotes ill health and reverses.",
+      "translation_ko": "직접 조종을 울리는 꿈은, 건강이 나빠지고 형편이 뒤바뀔 흉조다"
+    }
+  },
+  {
+    "term_ko": "암호",
+    "term_en": "password",
+    "context": "암호 꿈을 꿈",
+    "interpretation_ko": "곧 닥칠 자잘한 곤경에 힘 있는 이의 도움을 받을 조짐",
+    "interpretation_en": "foretells you will have influential aid in some slight trouble soon to attack you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Password",
+      "original": "To dream of a password, foretells you will have influential aid in some slight trouble soon to attack you.",
+      "translation_ko": "암호 꿈은, 곧 닥칠 자잘한 곤경에 힘 있는 이의 도움을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "암호",
+    "term_en": "password",
+    "context": "여성이 암호를 넘겨줌",
+    "interpretation_ko": "경박하거나 부정한 욕심을 좇다 제 위신을 위태롭게 할 조짐",
+    "interpretation_en": "signifies she will endanger her own standing through seeking frivolous or illicit desires",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Password",
+      "original": "For a woman to dream that she has given away the password, signifies she will endanger her own standing through seeking frivolous or illicit desires.",
+      "translation_ko": "여성이 암호를 넘겨주는 꿈은, 경박하거나 부정한 욕심을 좇다 제 위신을 위태롭게 할 조짐이다"
+    }
+  }
+]

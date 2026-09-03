@@ -497,7 +497,9 @@
     "aliases": [
       "종소리",
       "범종",
-      "쇠북"
+      "쇠북",
+      "조종을",
+      "조종이"
     ],
     "aliases_en": [
       "bells",
@@ -507,14 +509,16 @@
     "contexts": {
       "종과 경쇠가 소리를 냄": "경쇠 소리를 맑은 은은",
       "종과 북이 크게 울림": "북이 북과 크게 우렁 요란",
-      "종이 조종처럼 울리는 소리를 들음": "조종 장례 죽음 애도 구슬프",
-      "자유의 종을 봄": "자유 해방 독립 승리를"
+      "종이 조종처럼 울리는 소리를 들음": "조종처럼 들었 장례 애도",
+      "자유의 종을 봄": "자유 해방 독립 승리를",
+      "직접 조종을 울림": "직접 울렸 나빠지고"
     },
     "contexts_en": {
       "종과 경쇠가 소리를 냄": "chime chimes stone sounding clear",
       "종과 북이 크게 울림": "drum drums loud thunderous booming",
       "종이 조종처럼 울리는 소리를 들음": "knell tolling toll funeral mourning",
-      "자유의 종을 봄": "liberty freedom independence"
+      "자유의 종을 봄": "liberty freedom independence",
+      "직접 조종을 울림": "ring yourself reverses"
     }
   },
   {

@@ -27,11 +27,13 @@
     ],
     "contexts": {
       "풍악과 춤이 있는 연회에 감": "풍악 음악 춤이 노래가",
-      "젊은이가 연회를 봄": "젊은이 나이에"
+      "젊은이가 연회를 봄": "젊은이 나이에",
+      "즐거움을 위해 파티에 참석함": "즐거움을 위해 참석"
     },
     "contexts_en": {
       "풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
-      "젊은이가 연회를 봄": "young varied pleasures regard"
+      "젊은이가 연회를 봄": "young varied pleasures regard",
+      "즐거움을 위해 파티에 참석함": "attending kind much good"
     }
   },
   {

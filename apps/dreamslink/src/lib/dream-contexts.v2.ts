@@ -531,6 +531,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bell::종과 북이 크게 울림": "drum drums loud thunderous booming",
   "bell::종이 조종처럼 울리는 소리를 들음": "knell tolling toll funeral mourning",
   "bell::자유의 종을 봄": "liberty freedom independence",
+  "bell::직접 조종을 울림": "ring yourself reverses",
   "farming::산속에서 농사를 지음": "mountain mountains hills",
   "farming::남에게 밭 갈고 씨 뿌리는 법을 가르침": "teaching taught showed others",
   "flute::남이 피리를 줌": "gave given received gift",
@@ -3517,6 +3518,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "engine::기관차의 기적 소리를 들음": "whistle pleased surprised absent preferment",
   "entertainment::풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
   "entertainment::젊은이가 연회를 봄": "young varied pleasures regard",
+  "entertainment::즐거움을 위해 파티에 참석함": "attending kind much good",
   "entrails::사람의 창자를 봄": "human misery despair",
   "entrails::들짐승의 창자를 봄": "wild beast overthrow",
   "entrails::남의 창자를 찢음": "tear another persecutions",
@@ -4862,5 +4864,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "partridge::자고새를 죽임": "kill wealth given others",
   "partridge::자고새를 먹음": "eat deserved honors",
   "partridge::자고새가 나는 것을 봄": "flying promising future",
-  "partridge::자고새를 봄": "accumulation property"
+  "partridge::자고새를 봄": "accumulation property",
+  "gang::정체 모를 무리가 돈이나 재물을 노리고 덮침": "unknown assaulting money valuables",
+  "gang::다치지 않고 벗어남": "escape uninjured overcome",
+  "passenger::짐을 갖고 들어오는 승객들을 봄": "luggage coming improvement",
+  "passenger::승객들이 떠남": "leaving lose opportunity",
+  "passenger::제가 집을 떠나는 승객 중 하나임": "dissatisfied present seek change",
+  "password::암호 꿈을 꿈": "influential aid trouble",
+  "password::여성이 암호를 넘겨줌": "given away frivolous illicit"
 };

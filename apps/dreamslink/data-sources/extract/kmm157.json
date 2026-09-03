@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gang",
+    "aliases": [
+      "무리가",
+      "무리를"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "정체 모를 무리가 돈이나 재물을 노리고 덮침": "정체 모를 덮쳐 돈이나",
+      "다치지 않고 벗어남": "다치지 벗어났"
+    },
+    "contexts_en": {
+      "정체 모를 무리가 돈이나 재물을 노리고 덮침": "unknown assaulting money valuables",
+      "다치지 않고 벗어남": "escape uninjured overcome"
+    }
+  },
+  {
+    "id": "passenger",
+    "aliases": [
+      "승객이",
+      "승객들이",
+      "승객들을",
+      "승객을"
+    ],
+    "aliases_en": [
+      "passengers"
+    ],
+    "contexts": {
+      "짐을 갖고 들어오는 승객들을 봄": "짐을 갖고 들어오는 환경",
+      "승객들이 떠남": "떠났 기회를 잃을",
+      "제가 집을 떠나는 승객 중 하나임": "집을 떠나는 불만을 품고"
+    },
+    "contexts_en": {
+      "짐을 갖고 들어오는 승객들을 봄": "luggage coming improvement",
+      "승객들이 떠남": "leaving lose opportunity",
+      "제가 집을 떠나는 승객 중 하나임": "dissatisfied present seek change"
+    }
+  },
+  {
+    "id": "password",
+    "aliases": [
+      "암호를",
+      "암호가"
+    ],
+    "aliases_en": [
+      "passwords"
+    ],
+    "contexts": {
+      "암호 꿈을 꿈": "영향력 있는 도움",
+      "여성이 암호를 넘겨줌": "넘겨주었 경박하거나"
+    },
+    "contexts_en": {
+      "암호 꿈을 꿈": "influential aid trouble",
+      "여성이 암호를 넘겨줌": "given away frivolous illicit"
+    }
+  }
+]

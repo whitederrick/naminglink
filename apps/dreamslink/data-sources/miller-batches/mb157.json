@@ -1,0 +1,33 @@
+{
+  "batch": 157,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Party",
+      "text": "To dream of an unknown party of men assaulting you for your money or valuables, denotes that you will have enemies banded together against you. If you escape uninjured, you will overcome any opposition, either in business or love. To dream of attending a party of any kind for pleasure, you will find that life has much good, unless the party is an inharmonious one.",
+      "note": "표제어 하나에 「party」의 두 뜻이 섞였다. 「무리(사람들)」 쪽은 새 상징 `gang`(무리)으로, 「모임」 쪽은 이미 있는 `entertainment`(연회, 별칭 「파티」)에 붙였다"
+    },
+    {
+      "headword": "Passenger",
+      "text": "To dream that you see passengers coming in with their luggage, denotes improvement in your surroundings. If they are leaving you will lose an opportunity of gaining some desired property. If you are one of the passengers leaving home, you will be dissatisfied with your present living and will seek to change it.",
+      "note": "새 상징 `passenger`(승객)"
+    },
+    {
+      "headword": "Passing Bell",
+      "text": "To hear a passing bell, unexpected intelligence of the sorrow or illness of the absent. To ring one yourself, denotes ill health and reverses.",
+      "note": "기존 상징 `bell`(종, 밀러 `Bells`)에 하나를 더한다. 「조종 소리를 들음」은 뺐다 — 이미 있는 `bell`의 「종이 조종처럼 울리는 소리를 들음」(밀러 `Bells`)과 같은 그림(먼 벗의 죽음을 알리는 조종)이다"
+    },
+    {
+      "headword": "Password",
+      "text": "To dream of a password, foretells you will have influential aid in some slight trouble soon to attack you. For a woman to dream that she has given away the password, signifies she will endanger her own standing through seeking frivolous or illicit desires.",
+      "note": "새 상징 `password`(암호)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To hear a passing bell, unexpected intelligence of the sorrow or illness of the absent.",
+      "reason": "`Passing Bell` — 이미 있는 `bell`의 「종이 조종처럼 울리는 소리를 들음」(밀러 `Bells`, 「먼 벗의 죽음과 나쁜 소식」)과 같은 그림이라 가를 수 없다"
+    }
+  ]
+}

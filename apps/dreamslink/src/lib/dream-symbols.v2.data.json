@@ -65,6 +65,7 @@
     "m154.json",
     "m155.json",
     "m156.json",
+    "m157.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -35590,6 +35591,96 @@
       ]
     },
     {
+      "id": "bell",
+      "term_ko": "종",
+      "term_en": "bell",
+      "aliases": [
+        "종소리",
+        "범종",
+        "쇠북",
+        "조종을",
+        "조종이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "종이 조종처럼 울리는 소리를 들음",
+          "interpretation_ko": "멀리 있는 친구의 죽음이 있고 나쁜 소식이 근심하게 할 조짐",
+          "interpretation_en": "a sign that death of distant friends will occur, and intelligence of wrong will worry you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bells",
+              "original": "To hear bells tolling in your dreams, death of distant friends will occur, and intelligence of wrong will worry you."
+            }
+          ]
+        },
+        {
+          "context": "직접 조종을 울림",
+          "interpretation_ko": "건강이 나빠지고 형편이 뒤바뀔 흉조",
+          "interpretation_en": "denotes ill health and reverses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Passing Bell",
+              "original": "To ring one yourself, denotes ill health and reverses.",
+              "translation_ko": "직접 조종을 울리는 꿈은, 건강이 나빠지고 형편이 뒤바뀔 흉조다"
+            }
+          ]
+        },
+        {
+          "context": "자유의 종을 봄",
+          "interpretation_ko": "상대에 대한 기쁜 승리를 나타내는 조짐",
+          "interpretation_en": "a sign indicating a joyous victory over an opponent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bells",
+              "original": "Liberty bells, indicate a joyous victory over an opponent."
+            }
+          ]
+        },
+        {
+          "context": "종과 경쇠가 소리를 냄",
+          "interpretation_ko": "먼 데 있는 사람이 찾아올 조짐",
+          "interpretation_en": "a sign that someone from afar will come",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "鐘磐有聲遠人來",
+              "translation_ko": "종과 경쇠가 소리를 내면 먼 데 사람이 온다"
+            }
+          ]
+        },
+        {
+          "context": "종과 북이 크게 울림",
+          "interpretation_ko": "복과 녹이 올 조짐",
+          "interpretation_en": "a sign that fortune and prosperity will arrive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "鐘豉大鳴福祿至",
+              "translation_ko": "종과 북이 크게 울리면 복록이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bracelet",
       "term_ko": "팔찌",
       "term_en": "bracelet",
@@ -43778,80 +43869,6 @@
               "work": "miller",
               "locator": "Beggar",
               "original": "To dream that you refuse to give to a beggar is altogether bad."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bell",
-      "term_ko": "종",
-      "term_en": "bell",
-      "aliases": [
-        "종소리",
-        "범종",
-        "쇠북"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "종이 조종처럼 울리는 소리를 들음",
-          "interpretation_ko": "멀리 있는 친구의 죽음이 있고 나쁜 소식이 근심하게 할 조짐",
-          "interpretation_en": "a sign that death of distant friends will occur, and intelligence of wrong will worry you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bells",
-              "original": "To hear bells tolling in your dreams, death of distant friends will occur, and intelligence of wrong will worry you."
-            }
-          ]
-        },
-        {
-          "context": "자유의 종을 봄",
-          "interpretation_ko": "상대에 대한 기쁜 승리를 나타내는 조짐",
-          "interpretation_en": "a sign indicating a joyous victory over an opponent",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bells",
-              "original": "Liberty bells, indicate a joyous victory over an opponent."
-            }
-          ]
-        },
-        {
-          "context": "종과 경쇠가 소리를 냄",
-          "interpretation_ko": "먼 데 있는 사람이 찾아올 조짐",
-          "interpretation_en": "a sign that someone from afar will come",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "鐘磐有聲遠人來",
-              "translation_ko": "종과 경쇠가 소리를 내면 먼 데 사람이 온다"
-            }
-          ]
-        },
-        {
-          "context": "종과 북이 크게 울림",
-          "interpretation_ko": "복과 녹이 올 조짐",
-          "interpretation_en": "a sign that fortune and prosperity will arrive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "鐘豉大鳴福祿至",
-              "translation_ko": "종과 북이 크게 울리면 복록이 온다"
             }
           ]
         }
@@ -60385,6 +60402,68 @@
       ]
     },
     {
+      "id": "entertainment",
+      "term_ko": "연회",
+      "term_en": "entertainment",
+      "aliases": [
+        "파티",
+        "연회장",
+        "연회에",
+        "연회를"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "즐거움을 위해 파티에 참석함",
+          "interpretation_ko": "삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외",
+          "interpretation_en": "you will find that life has much good, unless the party is an inharmonious one",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Party",
+              "original": "To dream of attending a party of any kind for pleasure, you will find that life has much good, unless the party is an inharmonious one.",
+              "translation_ko": "즐거움을 위해 파티에 참석하는 꿈은, 삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외다"
+            }
+          ]
+        },
+        {
+          "context": "풍악과 춤이 있는 연회에 감",
+          "interpretation_ko": "멀리 있는 이에게서 반가운 기별이 오고 몸과 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "you will have pleasant tidings of the absent, and enjoy health and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Entertainment",
+              "original": "To dream of an entertainment where there is music and dancing, you will have pleasant tidings of the absent, and enjoy health and prosperity.",
+              "translation_ko": "풍악과 춤이 있는 연회 꿈은, 멀리 있는 이에게서 오는 반가운 기별과 성한 몸, 넉넉한 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 연회를 봄",
+          "interpretation_ko": "여러 즐거움과 벗들의 두터운 대접이 있을 길한 조짐",
+          "interpretation_en": "a dream of many and varied pleasures and the high regard of friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Entertainment",
+              "original": "To the young, this is a dream of many and varied pleasures and the high regard of friends.",
+              "translation_ko": "젊은이에게 이는 여러 가지 즐거움과 벗들의 두터운 대접을 뜻하는 꿈이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "epicure",
       "term_ko": "미식가",
       "term_en": "epicure",
@@ -67085,6 +67164,68 @@
               "locator": "Park",
               "original": "Ill-kept parks, devoid of green grasses and foliage, is ominous of unexpected reverses.",
               "translation_ko": "풀과 나무가 시든 공원을 보는 꿈은, 뜻밖의 역경이 닥칠 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passenger",
+      "term_ko": "승객",
+      "term_en": "passenger",
+      "aliases": [
+        "승객이",
+        "승객들이",
+        "승객들을",
+        "승객을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐을 갖고 들어오는 승객들을 봄",
+          "interpretation_ko": "주변 환경이 나아질 조짐",
+          "interpretation_en": "denotes improvement in your surroundings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Passenger",
+              "original": "To dream that you see passengers coming in with their luggage, denotes improvement in your surroundings.",
+              "translation_ko": "짐을 갖고 들어오는 승객들을 보는 꿈은, 주변 환경이 나아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "승객들이 떠남",
+          "interpretation_ko": "바라던 재물을 얻을 기회를 잃을 조짐",
+          "interpretation_en": "you will lose an opportunity of gaining some desired property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Passenger",
+              "original": "If they are leaving you will lose an opportunity of gaining some desired property.",
+              "translation_ko": "승객들이 떠나는 꿈은, 바라던 재물을 얻을 기회를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 집을 떠나는 승객 중 하나임",
+          "interpretation_ko": "지금 사는 형편에 불만을 품고 바꾸려 할 조짐",
+          "interpretation_en": "you will be dissatisfied with your present living and will seek to change it",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Passenger",
+              "original": "If you are one of the passengers leaving home, you will be dissatisfied with your present living and will seek to change it.",
+              "translation_ko": "제가 집을 떠나는 승객 중 하나인 꿈은, 지금 사는 형편에 불만을 품고 바꾸려 할 조짐이다"
             }
           ]
         }
@@ -80319,54 +80460,6 @@
       ]
     },
     {
-      "id": "entertainment",
-      "term_ko": "연회",
-      "term_en": "entertainment",
-      "aliases": [
-        "파티",
-        "연회장",
-        "연회에",
-        "연회를"
-      ],
-      "category": "place",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "풍악과 춤이 있는 연회에 감",
-          "interpretation_ko": "멀리 있는 이에게서 반가운 기별이 오고 몸과 살림이 넉넉해질 길한 조짐",
-          "interpretation_en": "you will have pleasant tidings of the absent, and enjoy health and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Entertainment",
-              "original": "To dream of an entertainment where there is music and dancing, you will have pleasant tidings of the absent, and enjoy health and prosperity.",
-              "translation_ko": "풍악과 춤이 있는 연회 꿈은, 멀리 있는 이에게서 오는 반가운 기별과 성한 몸, 넉넉한 살림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "젊은이가 연회를 봄",
-          "interpretation_ko": "여러 즐거움과 벗들의 두터운 대접이 있을 길한 조짐",
-          "interpretation_en": "a dream of many and varied pleasures and the high regard of friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Entertainment",
-              "original": "To the young, this is a dream of many and varied pleasures and the high regard of friends.",
-              "translation_ko": "젊은이에게 이는 여러 가지 즐거움과 벗들의 두터운 대접을 뜻하는 꿈이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "epaulet",
       "term_ko": "견장",
       "term_en": "epaulet",
@@ -82221,6 +82314,52 @@
               "locator": "Game",
               "original": "if you fail to take game on a hunt, it denotes bad management and loss.",
               "translation_ko": "사냥에서 사냥감을 놓치면, 잘못된 꾸림과 손해를 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gang",
+      "term_ko": "무리",
+      "term_en": "gang",
+      "aliases": [
+        "무리가",
+        "무리를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "정체 모를 무리가 돈이나 재물을 노리고 덮침",
+          "interpretation_ko": "적들이 한데 뭉쳐 맞설 조짐",
+          "interpretation_en": "denotes that you will have enemies banded together against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Party",
+              "original": "To dream of an unknown party of men assaulting you for your money or valuables, denotes that you will have enemies banded together against you.",
+              "translation_ko": "정체 모를 무리가 돈이나 재물을 노리고 덮치는 꿈은, 적들이 한데 뭉쳐 맞설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다치지 않고 벗어남",
+          "interpretation_ko": "사업이나 애정에서 어떤 반대도 이겨낼 조짐",
+          "interpretation_en": "you will overcome any opposition, either in business or love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Party",
+              "original": "If you escape uninjured, you will overcome any opposition, either in business or love.",
+              "translation_ko": "다치지 않고 벗어나는 꿈은, 사업이나 애정에서 어떤 반대도 이겨낼 조짐이다"
             }
           ]
         }
@@ -89990,6 +90129,53 @@
       ]
     },
     {
+      "id": "password",
+      "term_ko": "암호",
+      "term_en": "password",
+      "aliases": [
+        "암호를",
+        "암호가"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "암호 꿈을 꿈",
+          "interpretation_ko": "곧 닥칠 자잘한 곤경에 힘 있는 이의 도움을 받을 조짐",
+          "interpretation_en": "foretells you will have influential aid in some slight trouble soon to attack you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Password",
+              "original": "To dream of a password, foretells you will have influential aid in some slight trouble soon to attack you.",
+              "translation_ko": "암호 꿈은, 곧 닥칠 자잘한 곤경에 힘 있는 이의 도움을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 암호를 넘겨줌",
+          "interpretation_ko": "경박하거나 부정한 욕심을 좇다 제 위신을 위태롭게 할 조짐",
+          "interpretation_en": "signifies she will endanger her own standing through seeking frivolous or illicit desires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Password",
+              "original": "For a woman to dream that she has given away the password, signifies she will endanger her own standing through seeking frivolous or illicit desires.",
+              "translation_ko": "여성이 암호를 넘겨주는 꿈은, 경박하거나 부정한 욕심을 좇다 제 위신을 위태롭게 할 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "암호(비밀번호)"
+    },
+    {
       "id": "peacock",
       "term_ko": "공작",
       "term_en": "peacock",
@@ -94504,7 +94690,8 @@
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "암호(문서)"
     },
     {
       "id": "city",

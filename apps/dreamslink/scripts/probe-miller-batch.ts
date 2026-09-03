@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 156 — Parting~Partridge, 13건)
+// (지금 담긴 것: 배치 157 — Party~Password, 9건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -353,6 +353,19 @@ const CASES: Case[] = [
   { id: "partridge", ctx: "자고새를 죽임", text: "자고새를 죽였다" },
   { id: "partridge", ctx: "자고새를 먹음", text: "자고새를 먹었다" },
   { id: "partridge", ctx: "자고새가 나는 것을 봄", text: "자고새가 나는 것을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "bell", ctx: "종이 조종처럼 울리는 소리를 들음", text: "종이 조종처럼 울리는 소리를 들었다" },
+  { id: "entertainment", ctx: "풍악과 춤이 있는 연회에 감", text: "풍악과 춤이 있는 연회에 갔다" },
+  { id: "cipher", ctx: "암호를 읽음", text: "암호를 읽었다" },
+  { id: "gang", ctx: "정체 모를 무리가 돈이나 재물을 노리고 덮침", text: "정체 모를 무리가 돈이나 재물을 노리고 덮쳤다" },
+  { id: "gang", ctx: "다치지 않고 벗어남", text: "무리에게서 다치지 않고 벗어났다" },
+  { id: "entertainment", ctx: "즐거움을 위해 파티에 참석함", text: "즐거움을 위해 파티에 참석했다" },
+  { id: "passenger", ctx: "짐을 갖고 들어오는 승객들을 봄", text: "짐을 갖고 들어오는 승객들을 보았다" },
+  { id: "passenger", ctx: "승객들이 떠남", text: "승객들이 떠났다" },
+  { id: "passenger", ctx: "제가 집을 떠나는 승객 중 하나임", text: "제가 집을 떠나는 승객 중 하나였다" },
+  { id: "bell", ctx: "직접 조종을 울림", text: "직접 조종을 울렸다" },
+  { id: "password", ctx: "암호 꿈을 꿈", text: "암호 꿈을 꾸었다" },
+  { id: "password", ctx: "여성이 암호를 넘겨줌", text: "여성이 암호를 넘겨주었다" },
 ];
 
 let notFound = 0;
