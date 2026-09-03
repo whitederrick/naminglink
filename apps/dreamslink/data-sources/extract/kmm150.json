@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pall",
+    "aliases": [
+      "관보를",
+      "관보가",
+      "관보를 들춰"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "관보를 봄": "슬픔과 불행",
+      "관보를 들춰 시신을 봄": "들춰 시신을 애도"
+    },
+    "contexts_en": {
+      "관보를 봄": "sorrow misfortune",
+      "관보를 들춰 시신을 봄": "raise corpse mourn"
+    }
+  },
+  {
+    "id": "pallbearer",
+    "aliases": [
+      "상여꾼이",
+      "상여꾼을"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "상여꾼 꿈을 꿈": "적이 트집을 잡아 꾸었다",
+      "상여꾼을 봄": "기관과 맞서 밉보 보았다"
+    },
+    "contexts_en": {
+      "상여꾼 꿈을 꿈": "enemy provoke attacks integrity",
+      "상여꾼을 봄": "antagonize institutions obnoxious"
+    }
+  },
+  {
+    "id": "pallet",
+    "aliases": [
+      "낡은 침상이",
+      "낡은 침상을"
+    ],
+    "aliases_en": [
+      "pallets"
+    ],
+    "contexts": {
+      "낡은 침상 꿈을 꿈": "연애 문제 한동안 불안",
+      "처녀가 낡은 침상 꿈을 꿈": "처녀가 질투하는 라이벌"
+    },
+    "contexts_en": {
+      "낡은 침상 꿈을 꿈": "temporary uneasiness love affairs",
+      "처녀가 낡은 침상 꿈을 꿈": "young woman jealous rival"
+    }
+  },
+  {
+    "id": "palmistry",
+    "aliases": [
+      "손금 보기를",
+      "손금 보는",
+      "손금을 보았다",
+      "손금을 봤다"
+    ],
+    "aliases_en": [
+      "palm reading",
+      "palm-reading"
+    ],
+    "contexts": {
+      "처녀가 손금 보기 꿈을 꿈": "처녀가 의심받을",
+      "남의 손금을 봄": "남의 인정받는 총명함",
+      "목사의 손금을 봄": "목사 높은 자리",
+      "나의 손금을 봄": "나의 이성 벗은 동성이"
+    },
+    "contexts_en": {
+      "처녀가 손금 보기 꿈을 꿈": "young woman suspicion",
+      "남의 손금을 봄": "distinction bearing intelligent",
+      "목사의 손금을 봄": "minister elevation",
+      "나의 손금을 봄": "own palms opposite sex condemn"
+    }
+  },
+  {
+    "id": "palm-tree",
+    "aliases": [
+      "야자수가",
+      "야자수를",
+      "야자나무"
+    ],
+    "aliases_en": [
+      "palm trees",
+      "avenue of palms"
+    ],
+    "contexts": {
+      "야자수를 봄": "희망찬 상황 높은 행복",
+      "처녀가 야자수 늘어선 길을 지남": "늘어선 길을 지나며 가정",
+      "야자수가 시듦": "시들었 뜻밖의 슬픈"
+    },
+    "contexts_en": {
+      "야자수를 봄": "hopeful situations happiness",
+      "처녀가 야자수 늘어선 길을 지남": "passing cheerful faithful husband",
+      "야자수가 시듦": "withered unexpected sorrowful"
+    }
+  }
+]

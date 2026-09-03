@@ -6652,5 +6652,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "palisade": [
     "palisades"
+  ],
+  "pallet": [
+    "pallets"
+  ],
+  "palmistry": [
+    "palm reading",
+    "palm-reading"
+  ],
+  "palm-tree": [
+    "palm trees",
+    "avenue of palms"
   ]
 };

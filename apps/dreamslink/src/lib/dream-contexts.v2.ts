@@ -4783,5 +4783,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "painting::옷에 페인트가 묻음": "clothing thoughtless criticisms",
   "painting::스스로 붓을 쥐고 칠함": "use brush yourself pleased occupation",
   "painting::아름다운 그림들을 봄": "beautiful false positions illusive",
-  "painting::처녀가 그림을 그림": "young woman deceived transfer love"
+  "painting::처녀가 그림을 그림": "young woman deceived transfer love",
+  "pall::관보를 봄": "sorrow misfortune",
+  "pall::관보를 들춰 시신을 봄": "raise corpse mourn",
+  "pallbearer::상여꾼 꿈을 꿈": "enemy provoke attacks integrity",
+  "pallbearer::상여꾼을 봄": "antagonize institutions obnoxious",
+  "pallet::낡은 침상 꿈을 꿈": "temporary uneasiness love affairs",
+  "pallet::처녀가 낡은 침상 꿈을 꿈": "young woman jealous rival",
+  "palmistry::처녀가 손금 보기 꿈을 꿈": "young woman suspicion",
+  "palmistry::남의 손금을 봄": "distinction bearing intelligent",
+  "palmistry::목사의 손금을 봄": "minister elevation",
+  "palmistry::나의 손금을 봄": "own palms opposite sex condemn",
+  "palm-tree::야자수를 봄": "hopeful situations happiness",
+  "palm-tree::처녀가 야자수 늘어선 길을 지남": "passing cheerful faithful husband",
+  "palm-tree::야자수가 시듦": "withered unexpected sorrowful"
 };

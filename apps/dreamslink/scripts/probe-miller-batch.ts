@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 149 — Pail~Palisade, 15건)
+// (지금 담긴 것: 배치 150 — Pall~Palm Tree, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -258,6 +258,19 @@ const CASES: Case[] = [
   { id: "bucket", ctx: "물통에 물이 가득 담김", text: "물통에 물이 가득 담겼다" },
   { id: "agony", ctx: "고통스러운 꿈을 꿈", text: "고통을 겪는 꿈을 꾸었다" },
   { id: "palace", ctx: "제왕의 궁궐에 들어감", text: "제왕의 궁궐에 들어갔다" },
+  { id: "pall", ctx: "관보를 봄", text: "관보를 보았다" },
+  { id: "pall", ctx: "관보를 들춰 시신을 봄", text: "관보를 들춰 시신을 보았다" },
+  { id: "pallbearer", ctx: "상여꾼 꿈을 꿈", text: "상여꾼 꿈을 꾸었다" },
+  { id: "pallbearer", ctx: "상여꾼을 봄", text: "상여꾼을 보았다" },
+  { id: "pallet", ctx: "낡은 침상 꿈을 꿈", text: "낡은 침상 꿈을 꾸었다" },
+  { id: "pallet", ctx: "처녀가 낡은 침상 꿈을 꿈", text: "처녀가 낡은 침상 꿈을 꾸었다" },
+  { id: "palmistry", ctx: "처녀가 손금 보기 꿈을 꿈", text: "처녀가 손금 보기 꿈을 꾸었다" },
+  { id: "palmistry", ctx: "나의 손금을 봄", text: "나의 손금을 보았다" },
+  { id: "palmistry", ctx: "남의 손금을 봄", text: "남의 손금을 보았다" },
+  { id: "palmistry", ctx: "목사의 손금을 봄", text: "목사의 손금을 보았다" },
+  { id: "palm-tree", ctx: "야자수를 봄", text: "야자수를 보았다" },
+  { id: "palm-tree", ctx: "처녀가 야자수 늘어선 길을 지남", text: "처녀가 야자수 늘어선 길을 지났다" },
+  { id: "palm-tree", ctx: "야자수가 시듦", text: "야자수가 시들었다" },
 ];
 
 let notFound = 0;

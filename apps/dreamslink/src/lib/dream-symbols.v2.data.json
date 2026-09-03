@@ -58,6 +58,7 @@
     "m148.json",
     "m149.json",
     "m15.json",
+    "m150.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -51947,6 +51948,82 @@
       ]
     },
     {
+      "id": "palmistry",
+      "term_ko": "손금 보기",
+      "term_en": "palmistry",
+      "aliases": [
+        "손금 보기를",
+        "손금 보는",
+        "손금을 보았다",
+        "손금을 봤다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 손금 보기 꿈을 꿈",
+          "interpretation_ko": "의심받을 조짐",
+          "interpretation_en": "foretells she will be the object of suspicion",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palmistry",
+              "original": "For a young woman to dream of palmistry, foretells she will be the object of suspicion.",
+              "translation_ko": "처녀가 손금 보기 꿈을 꾸면, 의심받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "나의 손금을 봄",
+          "interpretation_ko": "이성 벗은 많으나 동성에게는 비난받을 조짐",
+          "interpretation_en": "she will have many friends of the opposite sex, but her own sex will condemn her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palmistry",
+              "original": "If she has her palms read, she will have many friends of the opposite sex, but her own sex will condemn her.",
+              "translation_ko": "나의 손금을 보는 꿈은, 이성 벗은 많으나 동성에게는 비난받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 손금을 봄",
+          "interpretation_ko": "총명함으로 인정받을 조짐",
+          "interpretation_en": "she will gain distinction by her intelligent bearing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palmistry",
+              "original": "If she reads others' hands, she will gain distinction by her intelligent bearing.",
+              "translation_ko": "남의 손금을 보는 꿈은, 총명함으로 인정받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사의 손금을 봄",
+          "interpretation_ko": "높은 자리에 올라도 벗이 필요할 조짐",
+          "interpretation_en": "if a minister's hand, she will need friends, even in her elevation",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palmistry",
+              "original": "If a minister's hand, she will need friends, even in her elevation.",
+              "translation_ko": "목사의 손금을 보는 꿈은, 높은 자리에 올라도 벗이 필요할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rain",
       "term_ko": "비",
       "term_en": "rain",
@@ -65990,6 +66067,67 @@
               "locator": "Pacify",
               "original": "If a lover dreams of soothing the jealous suspicions of his sweetheart, he will find that his love will be unfortunately placed.",
               "translation_ko": "정인이 애인의 질투 어린 의심을 달래는 꿈은, 그 사랑이 불행하게 놓일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palm-tree",
+      "term_ko": "야자수",
+      "term_en": "palm-tree",
+      "aliases": [
+        "야자수가",
+        "야자수를",
+        "야자나무"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "야자수를 봄",
+          "interpretation_ko": "희망찬 상황과 큰 행복의 전조",
+          "interpretation_en": "are messages of hopeful situations and happiness of a high order",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palm Tree",
+              "original": "Palm trees seen in your dreams, are messages of hopeful situations and happiness of a high order.",
+              "translation_ko": "야자수를 보는 꿈은, 희망찬 상황과 큰 행복의 전조다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 야자수 늘어선 길을 지남",
+          "interpretation_ko": "즐거운 가정과 신실한 남편을 얻을 조짐",
+          "interpretation_en": "omens a cheerful home and a faithful husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palm Tree",
+              "original": "For a young woman to pass down an avenue of palms, omens a cheerful home and a faithful husband.",
+              "translation_ko": "처녀가 야자수 늘어선 길을 지나는 꿈은, 즐거운 가정과 신실한 남편을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "야자수가 시듦",
+          "interpretation_ko": "뜻밖의 슬픈 일이 평온을 깨뜨릴 조짐",
+          "interpretation_en": "some unexpected sorrowful event will disturb her serenity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palm Tree",
+              "original": "If the palms are withered, some unexpected sorrowful event will disturb her serenity.",
+              "translation_ko": "야자수가 시드는 꿈은, 뜻밖의 슬픈 일이 평온을 깨뜨릴 조짐이다"
             }
           ]
         }
@@ -88365,6 +88503,145 @@
               "locator": "Packet",
               "original": "To see one going out, you will experience slight losses and disappointments.",
               "translation_ko": "소포가 나가는 것을 보는 꿈은, 자잘한 손실과 낙담을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pall",
+      "term_ko": "관보",
+      "term_en": "pall",
+      "aliases": [
+        "관보를",
+        "관보가",
+        "관보를 들춰"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관보를 봄",
+          "interpretation_ko": "슬픔과 불행이 있을 조짐",
+          "interpretation_en": "you will have sorrow and misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pall",
+              "original": "To dream that you see a pall, denotes that you will have sorrow and misfortune.",
+              "translation_ko": "관보를 보는 꿈은, 슬픔과 불행이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "관보를 들춰 시신을 봄",
+          "interpretation_ko": "사랑하는 이의 죽음을 곧 애도하게 될 조짐",
+          "interpretation_en": "you will doubtless soon mourn the death of one whom you love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pall",
+              "original": "If you raise the pall from a corpse, you will doubtless soon mourn the death of one whom you love.",
+              "translation_ko": "관보를 들춰 시신을 보는 꿈은, 사랑하는 이의 죽음을 곧 애도하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pallbearer",
+      "term_ko": "상여꾼",
+      "term_en": "pallbearer",
+      "aliases": [
+        "상여꾼이",
+        "상여꾼을"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "상여꾼 꿈을 꿈",
+          "interpretation_ko": "적이 트집을 잡아 반감을 일으킬 조짐",
+          "interpretation_en": "some enemy will provoke your ill feeling, by constant attacks on your integrity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pall-bearer",
+              "original": "To dream of a pall-bearer, indicates some enemy will provoke your ill feeling, by constant attacks on your integrity.",
+              "translation_ko": "상여꾼 꿈은, 적이 트집을 잡아 반감을 일으킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "상여꾼을 봄",
+          "interpretation_ko": "훌륭한 기관과 맞서 벗에게 밉보일 조짐",
+          "interpretation_en": "you will antagonize worthy institutions, and make yourself obnoxious to friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pall-bearer",
+              "original": "If you see a pall-bearer, you will antagonize worthy institutions, and make yourself obnoxious to friends.",
+              "translation_ko": "상여꾼을 보는 꿈은, 훌륭한 기관과 맞서 벗에게 밉보일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pallet",
+      "term_ko": "낡은 침상",
+      "term_en": "pallet",
+      "aliases": [
+        "낡은 침상이",
+        "낡은 침상을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "낡은 침상 꿈을 꿈",
+          "interpretation_ko": "연애 문제로 한동안 불안할 조짐",
+          "interpretation_en": "you will suffer temporary uneasiness over your love affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pallet",
+              "original": "To dream of a pallet, denotes that you will suffer temporary uneasiness over your love affairs.",
+              "translation_ko": "낡은 침상 꿈은, 연애 문제로 한동안 불안할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 낡은 침상 꿈을 꿈",
+          "interpretation_ko": "질투하는 라이벌이 있다는 조짐",
+          "interpretation_en": "for a young woman, it is a sign of a jealous rival",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pallet",
+              "original": "For a young woman, it is a sign of a jealous rival.",
+              "translation_ko": "처녀가 꾸면, 질투하는 라이벌이 있다는 조짐이다"
             }
           ]
         }

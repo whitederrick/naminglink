@@ -1,0 +1,33 @@
+{
+  "batch": 150,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pall",
+      "text": "To dream that you see a pall, denotes that you will have sorrow and misfortune. If you raise the pall from a corpse, you will doubtless soon mourn the death of one whom you love.",
+      "note": "새 상징 `pall`(관보). 관(`coffin`)과는 다른 물건이라 새로 세운다"
+    },
+    {
+      "headword": "Pall-bearer",
+      "text": "To dream of a pall-bearer, indicates some enemy will provoke your ill feeling, by constant attacks on your integrity. If you see a pall-bearer, you will antagonize worthy institutions, and make yourself obnoxious to friends.",
+      "note": "새 상징 `pallbearer`(상여꾼)"
+    },
+    {
+      "headword": "Pallet",
+      "text": "To dream of a pallet, denotes that you will suffer temporary uneasiness over your love affairs. For a young woman, it is a sign of a jealous rival.",
+      "note": "새 상징 `pallet`(낡은 침상). 「잠자리」는 곤충 상징(잠자리)과 이름이 겹쳐 피했다"
+    },
+    {
+      "headword": "Palmistry",
+      "text": "For a young woman to dream of palmistry, foretells she will be the object of suspicion. If she has her palms read, she will have many friends of the opposite sex, but her own sex will condemn her. If she reads others' hands, she will gain distinction by her intelligent bearing. If a minister's hand, she will need friends, even in her elevation.",
+      "note": "새 상징 `palmistry`(손금 보기)"
+    },
+    {
+      "headword": "Palm Tree",
+      "text": "Palm trees seen in your dreams, are messages of hopeful situations and happiness of a high order. For a young woman to pass down an avenue of palms, omens a cheerful home and a faithful husband. If the palms are withered, some unexpected sorrowful event will disturb her serenity.",
+      "note": "새 상징 `palm-tree`(야자수)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
