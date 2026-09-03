@@ -16,6 +16,7 @@
     "m11.json",
     "m110.json",
     "m111.json",
+    "m112.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -45075,6 +45076,85 @@
       ]
     },
     {
+      "id": "judge",
+      "term_ko": "판사",
+      "term_en": "judge",
+      "aliases": [
+        "판사가",
+        "판사를",
+        "재판관",
+        "법관",
+        "판결",
+        "치안 판사",
+        "치안판사"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "판사 앞에 서게 됨",
+          "interpretation_ko": "다툼이 법으로 가려질 조짐이며, 일이나 이혼 다툼이 크게 번질 수 있다",
+          "interpretation_en": "signifies that disputes will be settled by legal proceedings; business or divorce cases may assume gigantic proportions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Judge",
+              "original": "To dream of coming before a judge, signifies that disputes will be settled by legal proceedings.",
+              "translation_ko": "판사 앞에 서는 꿈은 다툼이 법으로 가려지리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "치안 판사를 봄",
+          "interpretation_ko": "송사의 으름장과 하는 일에서의 잃음에 시달릴 흉한 조짐",
+          "interpretation_en": "foretells that you will be harassed with threats of law suits and losses in your business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magistrate",
+              "original": "To dream of a magistrate, foretells that you will be harassed with threats of law suits and losses in your business.",
+              "translation_ko": "치안 판사의 꿈은, 송사의 으름장과 하는 일에서의 잃음에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "판결이 제게 이롭게 남",
+          "interpretation_ko": "다툼이 잘 마무리될 길한 조짐",
+          "interpretation_en": "denotes a successful termination to the suit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Judge",
+              "original": "To have the case decided in your favor, denotes a successful termination to the suit;",
+              "translation_ko": "판결이 제게 이롭게 나면 다툼이 잘 마무리된다"
+            }
+          ]
+        },
+        {
+          "context": "판결이 제게 불리하게 남",
+          "interpretation_ko": "제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 함을 알리는 흉한 조짐",
+          "interpretation_en": "then you are the aggressor and you should seek to right injustice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Judge",
+              "original": "if decided against you, then you are the aggressor and you should seek to right injustice.",
+              "translation_ko": "판결이 제게 불리하게 나면 제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jumping",
       "term_ko": "뜀뛰기",
       "term_en": "jumping",
@@ -57569,69 +57649,6 @@
       ]
     },
     {
-      "id": "judge",
-      "term_ko": "판사",
-      "term_en": "judge",
-      "aliases": [
-        "판사가",
-        "판사를",
-        "재판관",
-        "법관",
-        "판결"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "판사 앞에 서게 됨",
-          "interpretation_ko": "다툼이 법으로 가려질 조짐이며, 일이나 이혼 다툼이 크게 번질 수 있다",
-          "interpretation_en": "signifies that disputes will be settled by legal proceedings; business or divorce cases may assume gigantic proportions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Judge",
-              "original": "To dream of coming before a judge, signifies that disputes will be settled by legal proceedings.",
-              "translation_ko": "판사 앞에 서는 꿈은 다툼이 법으로 가려지리라는 뜻이다"
-            }
-          ]
-        },
-        {
-          "context": "판결이 제게 이롭게 남",
-          "interpretation_ko": "다툼이 잘 마무리될 길한 조짐",
-          "interpretation_en": "denotes a successful termination to the suit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Judge",
-              "original": "To have the case decided in your favor, denotes a successful termination to the suit;",
-              "translation_ko": "판결이 제게 이롭게 나면 다툼이 잘 마무리된다"
-            }
-          ]
-        },
-        {
-          "context": "판결이 제게 불리하게 남",
-          "interpretation_ko": "제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 함을 알리는 흉한 조짐",
-          "interpretation_en": "then you are the aggressor and you should seek to right injustice",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Judge",
-              "original": "if decided against you, then you are the aggressor and you should seek to right injustice.",
-              "translation_ko": "판결이 제게 불리하게 나면 제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "jury",
       "term_ko": "배심원",
       "term_en": "jury",
@@ -58426,6 +58443,67 @@
               "locator": "Madness",
               "original": "For a young woman to dream of madness, foretells disappointment in marriage and wealth.",
               "translation_ko": "젊은 여성이 광기의 꿈을 꾸면 혼인과 재물에서 실망한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magic",
+      "term_ko": "마술",
+      "term_en": "magic",
+      "aliases": [
+        "마술을",
+        "마술이",
+        "술법"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마술로 뜻한 바를 이룸",
+          "interpretation_ko": "즐거운 놀라움이 있을 길한 조짐",
+          "interpretation_en": "indicates pleasant surprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magic",
+              "original": "To dream of accomplishing any design by magic, indicates pleasant surprises.",
+              "translation_ko": "마술로 뜻한 바를 이루는 꿈은 즐거운 놀라움이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 마술을 부리는 것을 봄",
+          "interpretation_ko": "이 꿈을 꾼 누구에게나 이로운 바뀜이 있을 길한 조짐",
+          "interpretation_en": "denotes profitable changes to all who have this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magic",
+              "original": "To see others practising this art, denotes profitable changes to all who have this dream.",
+              "translation_ko": "남이 그 재주를 부리는 것을 보면, 이 꿈을 꾼 누구에게나 이로운 바뀜이 있다"
+            }
+          ]
+        },
+        {
+          "context": "마술 부리는 사람을 봄",
+          "interpretation_ko": "배움을 넓히는 이에게는 흥미로운 먼 길이, 잇속을 챙기는 이에게는 이문이 올 길한 조짐",
+          "interpretation_en": "denotes much interesting travel to those concerned in the advancement of higher education, and profitable returns to the mercenary",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magic",
+              "original": "To dream of seeing a magician, denotes much interesting travel to those concerned in the advancement of higher education, and profitable returns to the mercenary.",
+              "translation_ko": "마술 부리는 사람을 보는 꿈은, 배움을 넓히는 이에게는 흥미로운 먼 길이, 잇속을 챙기는 이에게는 이문이 옴을 뜻한다"
             }
           ]
         }
@@ -78023,6 +78101,53 @@
       ]
     },
     {
+      "id": "magnifying-glass",
+      "term_ko": "돋보기",
+      "term_en": "magnifying-glass",
+      "aliases": [
+        "돋보기를",
+        "돋보기가",
+        "확대경"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돋보기로 들여다봄",
+          "interpretation_ko": "일을 흡족하게 마치지 못할 흉한 조짐",
+          "interpretation_en": "means failure to accomplish your work in a satisfactory manner",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magnifying-glass",
+              "original": "To look through a magnifying-glass in your dreams, means failure to accomplish your work in a satisfactory manner.",
+              "translation_ko": "돋보기로 들여다보는 꿈은 일을 흡족하게 마치지 못함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 돋보기를 가짐",
+          "interpretation_ko": "나중에 저를 본체만체할 이들의 눈길을 부추기게 될 흉한 조짐",
+          "interpretation_en": "foretells she will encourage the attention of persons who will ignore her later",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magnifying-glass",
+              "original": "For a woman to think she owns one, foretells she will encourage the attention of persons who will ignore her later.",
+              "translation_ko": "여성이 돋보기를 제 것으로 여기는 꿈은, 나중에 저를 본체만체할 이들의 눈길을 부추기게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -88807,6 +88932,39 @@
               "locator": "Madstone",
               "original": "To see a madstone applied to a wound from the fangs of some mad animal, denotes that you will endeavor, to the limits of your energy, to shield self from the machinations of enemies, which will soon envelop you with the pall of dishonorable defeat.",
               "translation_ko": "미친 짐승에게 물린 자리에 독을 빨아내는 돌을 대는 것을 보면, 적의 꾀에서 저를 지키려 힘껏 애쓰나 머잖아 떳떳하지 못한 패배가 저를 덮는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magpie",
+      "term_ko": "까치",
+      "term_en": "magpie",
+      "aliases": [
+        "까치가",
+        "까치를",
+        "까치 소리"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "까치를 봄",
+          "interpretation_ko": "마음에 안 차는 일과 다툼이 많을 흉한 조짐 — 이 꿈 뒤에는 처신과 말을 잘 살펴야 한다",
+          "interpretation_en": "denotes much dissatisfaction and quarrels; the dreamer should guard well his conduct and speech after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Magpie",
+              "original": "To dream of a magpie, denotes much dissatisfaction and quarrels.",
+              "translation_ko": "까치의 꿈은 마음에 안 차는 일과 다툼이 많음을 뜻한다"
             }
           ]
         }

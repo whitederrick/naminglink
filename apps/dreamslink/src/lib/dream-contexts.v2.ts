@@ -3939,6 +3939,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "judge::판사 앞에 서게 됨": "coming before disputes settled legal proceedings",
   "judge::판결이 제게 이롭게 남": "favor successful termination suit",
   "judge::판결이 제게 불리하게 남": "against aggressor seek right injustice",
+  "judge::치안 판사를 봄": "magistrate harassed threats",
   "jug::맑은 물이 가득 찬 주전자를 봄": "filled transparent liquids welfare considered unite",
   "jug::빈 주전자를 봄": "empty conduct estrange station",
   "jug::깨진 주전자를 봄": "broken sickness failures employment",
@@ -4245,5 +4246,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "madness::제가 미침": "trouble ahead sickness property",
   "madness::남이 미친 것을 봄": "others malady inconstancy gloomy",
   "madness::처녀가 광기의 꿈을 꿈": "disappointment marriage wealth",
-  "madstone::물린 자리에 독을 빨아내는 돌을 댐": "applied wound fangs machinations dishonorable"
+  "madstone::물린 자리에 독을 빨아내는 돌을 댐": "applied wound fangs machinations dishonorable",
+  "magic::마술로 뜻한 바를 이룸": "accomplishing design pleasant surprises",
+  "magic::남이 마술을 부리는 것을 봄": "others practising profitable changes",
+  "magic::마술 부리는 사람을 봄": "interesting travel higher education mercenary",
+  "magnifying-glass::돋보기로 들여다봄": "look through failure satisfactory",
+  "magnifying-glass::여성이 돋보기를 가짐": "owns encourage attention ignore",
+  "magpie::까치를 봄": "dissatisfaction quarrels conduct speech"
 };

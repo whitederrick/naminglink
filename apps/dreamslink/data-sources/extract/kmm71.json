@@ -68,7 +68,9 @@
       "판사를",
       "재판관",
       "법관",
-      "판결"
+      "판결",
+      "치안 판사",
+      "치안판사"
     ],
     "aliases_en": [
       "a judge"
@@ -76,12 +78,14 @@
     "contexts": {
       "판사 앞에 서게 됨": "앞에 섰다 불려",
       "판결이 제게 이롭게 남": "이롭게 이겼 유리하게",
-      "판결이 제게 불리하게 남": "불리하게 졌다 지고"
+      "판결이 제게 불리하게 남": "불리하게 졌다 지고",
+      "치안 판사를 봄": "치안 으름장"
     },
     "contexts_en": {
       "판사 앞에 서게 됨": "coming before disputes settled legal proceedings",
       "판결이 제게 이롭게 남": "favor successful termination suit",
-      "판결이 제게 불리하게 남": "against aggressor seek right injustice"
+      "판결이 제게 불리하게 남": "against aggressor seek right injustice",
+      "치안 판사를 봄": "magistrate harassed threats"
     }
   }
 ]

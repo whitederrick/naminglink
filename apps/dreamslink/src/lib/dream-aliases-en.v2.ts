@@ -6186,5 +6186,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "madstone": [
     "madstones"
+  ],
+  "magic": [
+    "magician",
+    "magical"
+  ],
+  "magnifying-glass": [
+    "magnifying glass"
+  ],
+  "magpie": [
+    "magpies"
   ]
 };

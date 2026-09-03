@@ -1,0 +1,60 @@
+[
+  {
+    "id": "magic",
+    "aliases": [
+      "마술을",
+      "마술이",
+      "술법"
+    ],
+    "aliases_en": [
+      "magician",
+      "magical"
+    ],
+    "contexts": {
+      "마술로 뜻한 바를 이룸": "이뤘 이루었 뜻한",
+      "남이 마술을 부리는 것을 봄": "남이 남들이",
+      "마술 부리는 사람을 봄": "부리는 재주꾼"
+    },
+    "contexts_en": {
+      "마술로 뜻한 바를 이룸": "accomplishing design pleasant surprises",
+      "남이 마술을 부리는 것을 봄": "others practising profitable changes",
+      "마술 부리는 사람을 봄": "interesting travel higher education mercenary"
+    }
+  },
+  {
+    "id": "magnifying-glass",
+    "aliases": [
+      "돋보기를",
+      "돋보기가",
+      "확대경"
+    ],
+    "aliases_en": [
+      "magnifying glass"
+    ],
+    "contexts": {
+      "돋보기로 들여다봄": "들여다 비춰 살펴",
+      "여성이 돋보기를 가짐": "여자가 여성이 가졌"
+    },
+    "contexts_en": {
+      "돋보기로 들여다봄": "look through failure satisfactory",
+      "여성이 돋보기를 가짐": "owns encourage attention ignore"
+    }
+  },
+  {
+    "id": "magpie",
+    "aliases": [
+      "까치가",
+      "까치를",
+      "까치 소리"
+    ],
+    "aliases_en": [
+      "magpies"
+    ],
+    "contexts": {
+      "까치를 봄": "울었 앉아"
+    },
+    "contexts_en": {
+      "까치를 봄": "dissatisfaction quarrels conduct speech"
+    }
+  }
+]

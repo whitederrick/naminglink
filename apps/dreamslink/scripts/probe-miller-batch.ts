@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 111 — Macadamize~Madstone, 13건)
+// (지금 담긴 것: 배치 112 — Magic~Magpie, 10건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,17 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "macadamize", ctx: "자갈길을 보거나 그 위를 감", text: "자갈길을 걸었다" },
-  { id: "macaroni", ctx: "마카로니를 먹음", text: "마카로니를 먹었다" },
-  { id: "macaroni", ctx: "마카로니가 잔뜩 있는 것을 봄", text: "마카로니가 잔뜩 있었다" },
-  { id: "macaroni", ctx: "처녀가 마카로니 꿈을 꿈", text: "처녀가 마카로니 꿈을 꾸었다" },
-  { id: "machinery", ctx: "기계를 봄", text: "기계가 돌아가고 있었다" },
-  { id: "machinery", ctx: "낡은 기계를 봄", text: "낡은 기계를 보았다" },
-  { id: "machinery", ctx: "기계에 말려듦", text: "기계에 말려들었다" },
-  { id: "madness", ctx: "제가 미침", text: "내가 미쳤다" },
-  { id: "madness", ctx: "남이 미친 것을 봄", text: "남이 미친 것을 보았다" },
-  { id: "madness", ctx: "처녀가 광기의 꿈을 꿈", text: "처녀가 미친 사람 꿈을 꾸었다" },
-  { id: "madstone", ctx: "물린 자리에 독을 빨아내는 돌을 댐", text: "물린 자리에 독을 빨아내는 돌을 댔다" },
-  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "dog", ctx: "미친개를 봄", text: "미친개를 보았다" },
-  { id: "gravel", ctx: "자갈을 봄", text: "자갈이 깔려 있었다" },
+  { id: "magic", ctx: "마술로 뜻한 바를 이룸", text: "마술로 뜻한 바를 이루었다" },
+  { id: "magic", ctx: "남이 마술을 부리는 것을 봄", text: "남이 마술을 부리는 것을 보았다" },
+  { id: "magic", ctx: "마술 부리는 사람을 봄", text: "마술 부리는 사람을 보았다" },
+  { id: "judge", ctx: "치안 판사를 봄", text: "치안 판사를 보았다" },
+  { id: "magnifying-glass", ctx: "돋보기로 들여다봄", text: "돋보기로 들여다보았다" },
+  { id: "magnifying-glass", ctx: "여성이 돋보기를 가짐", text: "여자가 돋보기를 가졌다" },
+  { id: "magpie", ctx: "까치를 봄", text: "까치가 울었다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "judge", ctx: "판사 앞에 서게 됨", text: "판사 앞에 섰다" },
+  { id: "judge", ctx: "판결이 제게 이롭게 남", text: "판결이 나에게 이롭게 났다" },
+  { id: "conjurer", ctx: "요술쟁이를 봄", text: "마술사를 보았다" },
 ];
 
 let notFound = 0;

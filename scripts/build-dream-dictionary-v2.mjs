@@ -204,6 +204,7 @@ const FALLBACK_FIRST = new Map([
   // 떨어질 자리는 「번개를 봄」이다(배치 54의 `hunting`·`embrace` 와 같은 판단).
   ["lightning", "번개를 봄"],
   ["lion", "사자를 봄"],
+  ["judge", "판사 앞에 서게 됨"],
   ["lute", "품속에 비파가 있음"],
   ["liar", "남들이 거짓말쟁이라고 여김"],
   ["candy", "사탕을 만듦"],

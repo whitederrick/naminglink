@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "마술",
+    "term_en": "magic",
+    "context": "마술로 뜻한 바를 이룸",
+    "interpretation_ko": "즐거운 놀라움이 있을 길한 조짐",
+    "interpretation_en": "indicates pleasant surprises",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Magic",
+      "original": "To dream of accomplishing any design by magic, indicates pleasant surprises.",
+      "translation_ko": "마술로 뜻한 바를 이루는 꿈은 즐거운 놀라움이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "마술",
+    "term_en": "magic",
+    "context": "남이 마술을 부리는 것을 봄",
+    "interpretation_ko": "이 꿈을 꾼 누구에게나 이로운 바뀜이 있을 길한 조짐",
+    "interpretation_en": "denotes profitable changes to all who have this dream",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Magic",
+      "original": "To see others practising this art, denotes profitable changes to all who have this dream.",
+      "translation_ko": "남이 그 재주를 부리는 것을 보면, 이 꿈을 꾼 누구에게나 이로운 바뀜이 있다"
+    }
+  },
+  {
+    "term_ko": "마술",
+    "term_en": "magic",
+    "context": "마술 부리는 사람을 봄",
+    "interpretation_ko": "배움을 넓히는 이에게는 흥미로운 먼 길이, 잇속을 챙기는 이에게는 이문이 올 길한 조짐",
+    "interpretation_en": "denotes much interesting travel to those concerned in the advancement of higher education, and profitable returns to the mercenary",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Magic",
+      "original": "To dream of seeing a magician, denotes much interesting travel to those concerned in the advancement of higher education, and profitable returns to the mercenary.",
+      "translation_ko": "마술 부리는 사람을 보는 꿈은, 배움을 넓히는 이에게는 흥미로운 먼 길이, 잇속을 챙기는 이에게는 이문이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "판사",
+    "term_en": "judge",
+    "context": "치안 판사를 봄",
+    "interpretation_ko": "송사의 으름장과 하는 일에서의 잃음에 시달릴 흉한 조짐",
+    "interpretation_en": "foretells that you will be harassed with threats of law suits and losses in your business",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Magistrate",
+      "original": "To dream of a magistrate, foretells that you will be harassed with threats of law suits and losses in your business.",
+      "translation_ko": "치안 판사의 꿈은, 송사의 으름장과 하는 일에서의 잃음에 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "돋보기",
+    "term_en": "magnifying-glass",
+    "context": "돋보기로 들여다봄",
+    "interpretation_ko": "일을 흡족하게 마치지 못할 흉한 조짐",
+    "interpretation_en": "means failure to accomplish your work in a satisfactory manner",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Magnifying-glass",
+      "original": "To look through a magnifying-glass in your dreams, means failure to accomplish your work in a satisfactory manner.",
+      "translation_ko": "돋보기로 들여다보는 꿈은 일을 흡족하게 마치지 못함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "돋보기",
+    "term_en": "magnifying-glass",
+    "context": "여성이 돋보기를 가짐",
+    "interpretation_ko": "나중에 저를 본체만체할 이들의 눈길을 부추기게 될 흉한 조짐",
+    "interpretation_en": "foretells she will encourage the attention of persons who will ignore her later",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Magnifying-glass",
+      "original": "For a woman to think she owns one, foretells she will encourage the attention of persons who will ignore her later.",
+      "translation_ko": "여성이 돋보기를 제 것으로 여기는 꿈은, 나중에 저를 본체만체할 이들의 눈길을 부추기게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "까치",
+    "term_en": "magpie",
+    "context": "까치를 봄",
+    "interpretation_ko": "마음에 안 차는 일과 다툼이 많을 흉한 조짐 — 이 꿈 뒤에는 처신과 말을 잘 살펴야 한다",
+    "interpretation_en": "denotes much dissatisfaction and quarrels; the dreamer should guard well his conduct and speech after this dream",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Magpie",
+      "original": "To dream of a magpie, denotes much dissatisfaction and quarrels.",
+      "translation_ko": "까치의 꿈은 마음에 안 차는 일과 다툼이 많음을 뜻한다"
+    }
+  }
+]
