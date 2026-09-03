@@ -3301,7 +3301,11 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "engagement::약혼함": "맺었 하기로 반지를",
   "engagement::약혼을 깸": "깼다 깨뜨 파혼 물렀",
   "engine::기관차를 봄": "달리는 지나가는",
-  "engine::고장 난 기관차를 봄": "고장 망가 멈춰선 부서진",
+  "engine::고장 난 기관차를 봄": "고장 망가 멈춰선",
+  "engine::기관차가 빠르게 달림": "빠르게 쏜살 힘차게",
+  "engine::기관차가 완전히 부서진 것을 봄": "부서진 박살 완전히",
+  "engine::기관차가 오는 소리를 들음": "오는 다가오는",
+  "engine::기관차의 기적 소리를 들음": "기적 경적",
   "entertainment::풍악과 춤이 있는 연회에 감": "풍악 음악 춤이 노래가",
   "entertainment::젊은이가 연회를 봄": "젊은이 나이에",
   "entrails::사람의 창자를 봄": "사람의",
@@ -3638,6 +3642,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "grasshopper::시든 풀 위의 메뚜기를 봄": "시든 마른",
   "grasshopper::해와 나 사이에 있는 메뚜기를 봄": "해와 햇빛 사이",
   "grasshopper::남에게 메뚜기를 가리켜 보임": "가리 알려 보여",
+  "grasshopper::메뚜기를 봄": "무리 떼지어 새까맣게",
+  "grasshopper::여성이 메뚜기 꿈을 꿈": "여자가 여성이 처녀가",
   "gravel::자갈을 봄": "보았 깔린",
   "gravel::흙이 섞인 자갈을 봄": "흙이 섞인 진흙",
   "greek::그리스어를 읽음": "읽었 읽는",
@@ -4183,5 +4189,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "locket::로켓 목걸이를 깨뜨림": "깨뜨 깨졌 부서",
   "lockjaw::제가 파상풍에 걸림": "내가 제가",
   "lockjaw::남이 파상풍에 걸린 것을 봄": "남이 남들이 다른 사람",
-  "lockjaw::가축이 파상풍에 걸림": "가축 짐승 소가"
+  "lockjaw::가축이 파상풍에 걸림": "가축 짐승 소가",
+  "lodger::하숙인을 둠": "두었 들였 받았",
+  "lodger::하숙인이 셈을 안 치르고 떠남": "떠났 도망 밀린",
+  "lodger::하숙인이 셈을 치름": "치렀 냈다 지불"
 };

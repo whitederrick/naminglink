@@ -178,7 +178,10 @@
     "id": "grasshopper",
     "aliases": [
       "메뚜기",
-      "방아깨비"
+      "방아깨비",
+      "메뚜기 떼",
+      "메뚜기가",
+      "메뚜기를"
     ],
     "aliases_en": [
       "grasshoppers"
@@ -187,13 +190,17 @@
       "푸른 남새 위의 메뚜기를 봄": "남새 채소 푸른",
       "시든 풀 위의 메뚜기를 봄": "시든 마른",
       "해와 나 사이에 있는 메뚜기를 봄": "해와 햇빛 사이",
-      "남에게 메뚜기를 가리켜 보임": "가리 알려 보여"
+      "남에게 메뚜기를 가리켜 보임": "가리 알려 보여",
+      "메뚜기를 봄": "무리 떼지어 새까맣게",
+      "여성이 메뚜기 꿈을 꿈": "여자가 여성이 처녀가"
     },
     "contexts_en": {
       "푸른 남새 위의 메뚜기를 봄": "green vegetables enemies threaten interests",
       "시든 풀 위의 메뚜기를 봄": "withered grasses health",
       "해와 나 사이에 있는 메뚜기를 봄": "between sun vexatious caution adjust",
-      "남에게 메뚜기를 가리켜 보임": "call attention discreet dispatching private"
+      "남에게 메뚜기를 가리켜 보임": "call attention discreet dispatching private",
+      "메뚜기를 봄": "locusts discrepancies worry suffer",
+      "여성이 메뚜기 꿈을 꿈": "bestow affections ungenerous"
     }
   },
   {

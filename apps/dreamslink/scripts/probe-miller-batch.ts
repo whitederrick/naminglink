@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 106 — Lock~Lockjaw, 12건)
+// (지금 담긴 것: 배치 107 — Locomotive~Lodger, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lock", ctx: "자물쇠를 봄", text: "문에 자물쇠가 달려 있었다" },
-  { id: "lock", ctx: "자물쇠가 열림", text: "자물쇠가 열렸다" },
-  { id: "lock", ctx: "자물쇠가 열리지 않음", text: "자물쇠가 열리지 않았다" },
-  { id: "lock", ctx: "정혼자의 목에 자물쇠를 채움", text: "정혼자의 목과 팔에 자물쇠를 채웠다" },
-  { id: "locket", ctx: "정인이 목에 로켓 목걸이를 걸어 줌", text: "정인이 내 목에 로켓 목걸이를 걸어 주었다" },
-  { id: "locket", ctx: "로켓 목걸이를 잃어버림", text: "로켓 목걸이를 잃어버렸다" },
-  { id: "locket", ctx: "정인이 로켓 목걸이를 돌려줌", text: "정인이 로켓 목걸이를 돌려주었다" },
-  { id: "locket", ctx: "로켓 목걸이를 깨뜨림", text: "로켓 목걸이를 깨뜨렸다" },
-  { id: "lockjaw", ctx: "제가 파상풍에 걸림", text: "내가 파상풍에 걸렸다" },
-  { id: "lockjaw", ctx: "남이 파상풍에 걸린 것을 봄", text: "남이 파상풍에 걸린 것을 보았다" },
-  { id: "lockjaw", ctx: "가축이 파상풍에 걸림", text: "가축이 파상풍에 걸렸다" },
-  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "bolts", ctx: "빗장(볼트) 꿈을 꿈", text: "걸쇠가 채워져 있었다" },
+  { id: "engine", ctx: "기관차가 빠르게 달림", text: "기관차가 빠르게 달렸다" },
+  { id: "engine", ctx: "기관차가 완전히 부서진 것을 봄", text: "기관차가 완전히 부서져 있었다" },
+  { id: "engine", ctx: "기관차가 오는 소리를 들음", text: "기관차가 오는 소리를 들었다" },
+  { id: "engine", ctx: "기관차의 기적 소리를 들음", text: "기관차의 기적 소리를 들었다" },
+  { id: "grasshopper", ctx: "메뚜기를 봄", text: "메뚜기가 새까맣게 무리 지어 있었다" },
+  { id: "grasshopper", ctx: "여성이 메뚜기 꿈을 꿈", text: "여자가 메뚜기 꿈을 꾸었다" },
+  { id: "lodger", ctx: "하숙인을 둠", text: "하숙인을 두었다" },
+  { id: "lodger", ctx: "하숙인이 셈을 안 치르고 떠남", text: "하숙인이 셈을 밀린 채 떠났다" },
+  { id: "lodger", ctx: "하숙인이 셈을 치름", text: "하숙인이 셈을 치렀다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "engine", ctx: "기관차를 봄", text: "기관차가 지나가는 것을 보았다" },
+  { id: "engine", ctx: "고장 난 기관차를 봄", text: "고장 난 기관차를 보았다" },
+  { id: "grasshopper", ctx: "푸른 남새 위의 메뚜기를 봄", text: "푸른 채소 위에 메뚜기가 있었다" },
+  { id: "grasshopper", ctx: "시든 풀 위의 메뚜기를 봄", text: "시든 풀 위에 메뚜기가 있었다" },
 ];
 
 let notFound = 0;

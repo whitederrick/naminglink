@@ -334,7 +334,9 @@
     "aliases": [
       "기관차를",
       "기관차가",
-      "증기기관"
+      "증기기관",
+      "증기 기관차",
+      "화통"
     ],
     "aliases_en": [
       "an engine",
@@ -342,11 +344,19 @@
     ],
     "contexts": {
       "기관차를 봄": "달리는 지나가는",
-      "고장 난 기관차를 봄": "고장 망가 멈춰선 부서진"
+      "고장 난 기관차를 봄": "고장 망가 멈춰선",
+      "기관차가 빠르게 달림": "빠르게 쏜살 힘차게",
+      "기관차가 완전히 부서진 것을 봄": "부서진 박살 완전히",
+      "기관차가 오는 소리를 들음": "오는 다가오는",
+      "기관차의 기적 소리를 들음": "기적 경적"
     },
     "contexts_en": {
       "기관차를 봄": "grave difficulties journeys uphold",
-      "고장 난 기관차를 봄": "disabled misfortune relatives"
+      "고장 난 기관차를 봄": "disabled misfortune relatives",
+      "기관차가 빠르게 달림": "speed rapid foreign travel",
+      "기관차가 완전히 부서진 것을 봄": "demolished distress property",
+      "기관차가 오는 소리를 들음": "coming news nature classes",
+      "기관차의 기적 소리를 들음": "whistle pleased surprised absent preferment"
     }
   },
   {

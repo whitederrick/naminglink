@@ -3298,6 +3298,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "engagement::약혼을 깸": "breaking hasty unwise",
   "engine::기관차를 봄": "grave difficulties journeys uphold",
   "engine::고장 난 기관차를 봄": "disabled misfortune relatives",
+  "engine::기관차가 빠르게 달림": "speed rapid foreign travel",
+  "engine::기관차가 완전히 부서진 것을 봄": "demolished distress property",
+  "engine::기관차가 오는 소리를 들음": "coming news nature classes",
+  "engine::기관차의 기적 소리를 들음": "whistle pleased surprised absent preferment",
   "entertainment::풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
   "entertainment::젊은이가 연회를 봄": "young varied pleasures regard",
   "entrails::사람의 창자를 봄": "human misery despair",
@@ -3634,6 +3638,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "grasshopper::시든 풀 위의 메뚜기를 봄": "withered grasses health",
   "grasshopper::해와 나 사이에 있는 메뚜기를 봄": "between sun vexatious caution adjust",
   "grasshopper::남에게 메뚜기를 가리켜 보임": "call attention discreet dispatching private",
+  "grasshopper::메뚜기를 봄": "locusts discrepancies worry suffer",
+  "grasshopper::여성이 메뚜기 꿈을 꿈": "bestow affections ungenerous",
   "gravel::자갈을 봄": "unfruitful schemes enterprises",
   "gravel::흙이 섞인 자갈을 봄": "mixed dirt speculate lose property",
   "greek::그리스어를 읽음": "reading ideas discussed accepted",
@@ -4179,5 +4185,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "locket::로켓 목걸이를 깨뜨림": "breaks changeable unstable constancy",
   "lockjaw::제가 파상풍에 걸림": "trouble ahead betray confidence",
   "lockjaw::남이 파상풍에 걸린 것을 봄": "others unconsciously detract assigning",
-  "lockjaw::가축이 파상풍에 걸림": "stock lose friend"
+  "lockjaw::가축이 파상풍에 걸림": "stock lose friend",
+  "lodger::하숙인을 둠": "burdened unpleasant secrets",
+  "lodger::하숙인이 셈을 안 치르고 떠남": "away paying unexpected trouble",
+  "lodger::하숙인이 셈을 치름": "bill favor accumulation"
 };

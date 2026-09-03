@@ -10,6 +10,7 @@
     "m104.json",
     "m105.json",
     "m106.json",
+    "m107.json",
     "m11.json",
     "m12.json",
     "m13.json",
@@ -27193,6 +27194,111 @@
       ]
     },
     {
+      "id": "engine",
+      "term_ko": "기관차",
+      "term_en": "engine",
+      "aliases": [
+        "기관차를",
+        "기관차가",
+        "증기기관",
+        "증기 기관차",
+        "화통"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기관차를 봄",
+          "interpretation_ko": "무거운 어려움과 먼 길이 있으나 든든히 받쳐 줄 벗이 있을 조짐",
+          "interpretation_en": "you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Engine",
+              "original": "To dream of an engine, denotes you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you.",
+              "translation_ko": "기관차 꿈은, 무거운 어려움과 먼 길을 만나게 되나 든든히 받쳐 줄 벗이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기관차가 빠르게 달림",
+          "interpretation_ko": "복이 빠르게 오르고 먼 나라를 다닐 길한 조짐",
+          "interpretation_en": "denotes a rapid rise in fortune, and foreign travel",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locomotive",
+              "original": "To dream of a locomotive running with great speed, denotes a rapid rise in fortune, and foreign travel.",
+              "translation_ko": "기관차가 빠르게 달리는 꿈은, 복이 빠르게 오르고 먼 나라를 다님을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기관차가 완전히 부서진 것을 봄",
+          "interpretation_ko": "큰 괴로움과 재물을 잃음을 뜻하는 흉한 조짐",
+          "interpretation_en": "signifies great distress and loss of property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locomotive",
+              "original": "To see one completely demolished, signifies great distress and loss of property.",
+              "translation_ko": "기관차가 완전히 부서진 것을 보면 큰 괴로움과 재물을 잃음이 있다"
+            }
+          ]
+        },
+        {
+          "context": "기관차가 오는 소리를 들음",
+          "interpretation_ko": "먼 곳의 기별이 올 길한 조짐. 하는 일에 바뀜이 생겨 누구에게나 잘된다",
+          "interpretation_en": "denotes news of a foreign nature; business will assume changes that will mean success to all classes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locomotive",
+              "original": "To hear one coming, denotes news of a foreign nature.",
+              "translation_ko": "기관차가 오는 소리를 들으면 먼 곳의 기별이 온다"
+            }
+          ]
+        },
+        {
+          "context": "기관차의 기적 소리를 들음",
+          "interpretation_ko": "오래 못 보던 벗이 나타나거나 생각지 못한 제안이 와서 기쁘고 놀랄 길한 조짐",
+          "interpretation_en": "you will be pleased and surprised at the appearance of a friend who has been absent, or an unexpected offer, which means preferment to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locomotive",
+              "original": "To hear it whistle, you will be pleased and surprised at the appearance of a friend who has been absent, or an unexpected offer, which means preferment to you.",
+              "translation_ko": "기관차의 기적 소리를 들으면, 오래 못 보던 벗이 나타나거나 생각지 못한 제안이 와서 기쁘고 놀란다"
+            }
+          ]
+        },
+        {
+          "context": "고장 난 기관차를 봄",
+          "interpretation_ko": "궂은일이 있고 살붙이를 잃을 흉한 조짐",
+          "interpretation_en": "disabled engines stand for misfortune and loss of relatives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Engine",
+              "original": "Disabled engines stand for misfortune and loss of relatives.",
+              "translation_ko": "고장 난 기관차는 궂은일과 살붙이를 잃음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "entrails",
       "term_ko": "창자",
       "term_en": "entrails",
@@ -28546,6 +28652,111 @@
               "locator": "田園五榖耕種",
               "original": "得禾榖者主大吉",
               "translation_ko": "벼와 곡식을 얻으면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grasshopper",
+      "term_ko": "메뚜기",
+      "term_en": "grasshopper",
+      "aliases": [
+        "메뚜기",
+        "방아깨비",
+        "메뚜기 떼",
+        "메뚜기가",
+        "메뚜기를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "메뚜기를 봄",
+          "interpretation_ko": "하는 일에서 어긋난 셈이 드러나 애태우고 시달릴 흉한 조짐",
+          "interpretation_en": "foretells discrepancies will be found in your business, for which you will worry and suffer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locust",
+              "original": "To dream of locusts, foretells discrepancies will be found in your business, for which you will worry and suffer.",
+              "translation_ko": "메뚜기의 꿈은, 하는 일에서 어긋난 셈이 드러나 애태우고 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 메뚜기 꿈을 꿈",
+          "interpretation_ko": "너그럽지 못한 이들에게 마음을 쏟게 될 흉한 조짐",
+          "interpretation_en": "this dream foretells she will bestow her affections upon ungenerous people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locust",
+              "original": "For a woman, this dream foretells she will bestow her affections upon ungenerous people.",
+              "translation_ko": "여성에게 이 꿈은, 너그럽지 못한 이들에게 마음을 쏟게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 남새 위의 메뚜기를 봄",
+          "interpretation_ko": "원수가 가장 소중한 것을 넘볼 흉한 조짐",
+          "interpretation_en": "denotes that enemies threaten your best interests",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "To dream of seeing grasshoppers on green vegetables, denotes that enemies threaten your best interests.",
+              "translation_ko": "푸른 남새 위의 메뚜기를 보는 꿈은, 원수가 가장 소중한 것을 넘봄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "시든 풀 위의 메뚜기를 봄",
+          "interpretation_ko": "몸이 상하고 하는 일이 어그러질 흉한 조짐",
+          "interpretation_en": "ill health. Disappointing business will be experienced",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "If on withered grasses, ill health.",
+              "translation_ko": "시든 풀 위에 있으면, 몸이 상한다"
+            }
+          ]
+        },
+        {
+          "context": "해와 나 사이에 있는 메뚜기를 봄",
+          "interpretation_ko": "성가신 일이 생기나 조심하면 저절로 좋게 풀릴 조짐",
+          "interpretation_en": "you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "If you see grasshoppers between you and the sun, it denotes that you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor.",
+              "translation_ko": "해와 저 사이에 메뚜기가 보이면, 성가신 일이 생기나 조심하면 저절로 좋게 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 메뚜기를 가리켜 보임",
+          "interpretation_ko": "제 일을 조심스럽게 다루지 못할 흉한 조짐",
+          "interpretation_en": "shows that you are not discreet in dispatching your private business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
+              "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
             }
           ]
         }
@@ -43324,80 +43535,6 @@
       ]
     },
     {
-      "id": "grasshopper",
-      "term_ko": "메뚜기",
-      "term_en": "grasshopper",
-      "aliases": [
-        "메뚜기",
-        "방아깨비"
-      ],
-      "category": "animal",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "푸른 남새 위의 메뚜기를 봄",
-          "interpretation_ko": "원수가 가장 소중한 것을 넘볼 흉한 조짐",
-          "interpretation_en": "denotes that enemies threaten your best interests",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "To dream of seeing grasshoppers on green vegetables, denotes that enemies threaten your best interests.",
-              "translation_ko": "푸른 남새 위의 메뚜기를 보는 꿈은, 원수가 가장 소중한 것을 넘봄을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "시든 풀 위의 메뚜기를 봄",
-          "interpretation_ko": "몸이 상하고 하는 일이 어그러질 흉한 조짐",
-          "interpretation_en": "ill health. Disappointing business will be experienced",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "If on withered grasses, ill health.",
-              "translation_ko": "시든 풀 위에 있으면, 몸이 상한다"
-            }
-          ]
-        },
-        {
-          "context": "해와 나 사이에 있는 메뚜기를 봄",
-          "interpretation_ko": "성가신 일이 생기나 조심하면 저절로 좋게 풀릴 조짐",
-          "interpretation_en": "you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "If you see grasshoppers between you and the sun, it denotes that you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor.",
-              "translation_ko": "해와 저 사이에 메뚜기가 보이면, 성가신 일이 생기나 조심하면 저절로 좋게 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 메뚜기를 가리켜 보임",
-          "interpretation_ko": "제 일을 조심스럽게 다루지 못할 흉한 조짐",
-          "interpretation_en": "shows that you are not discreet in dispatching your private business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
-              "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "gun",
       "term_ko": "총기",
       "term_en": "gun",
@@ -57339,6 +57476,68 @@
       ]
     },
     {
+      "id": "lodger",
+      "term_ko": "하숙인",
+      "term_en": "lodger",
+      "aliases": [
+        "하숙생",
+        "세입자",
+        "하숙인이",
+        "하숙인을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하숙인을 둠",
+          "interpretation_ko": "달갑지 않은 남의 비밀을 떠안게 될 흉한 조짐",
+          "interpretation_en": "foretells she will be burdened with unpleasant secrets",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lodger",
+              "original": "For a woman to dream that she has lodgers, foretells she will be burdened with unpleasant secrets.",
+              "translation_ko": "여성이 하숙인을 두는 꿈을 꾸면, 달갑지 않은 남의 비밀을 떠안게 된다"
+            }
+          ]
+        },
+        {
+          "context": "하숙인이 셈을 안 치르고 떠남",
+          "interpretation_ko": "사내들 때문에 생각지 못한 어려움을 겪을 흉한 조짐",
+          "interpretation_en": "she will have unexpected trouble with men",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lodger",
+              "original": "If one goes away without paying his bills, she will have unexpected trouble with men.",
+              "translation_ko": "하숙인이 셈을 안 치르고 떠나면, 사내들 때문에 생각지 못한 어려움을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "하숙인이 셈을 치름",
+          "interpretation_ko": "도움을 받고 돈이 쌓일 길한 조짐",
+          "interpretation_en": "omens favor and accumulation of money",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lodger",
+              "original": "For one to pay his bill, omens favor and accumulation of money.",
+              "translation_ko": "하숙인이 셈을 치르면 도움을 받고 돈이 쌓인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "main-hall",
       "term_ko": "대청",
       "term_en": "main hall",
@@ -71092,53 +71291,6 @@
               "locator": "Engagement",
               "original": "To dream of breaking an engagement, denotes a hasty, and an unwise action in some important matter or disappointments may follow.",
               "translation_ko": "약혼을 깨는 꿈은, 큰일에서 서두르고 슬기롭지 못한 처신을 하거나 낙담이 따름을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "engine",
-      "term_ko": "기관차",
-      "term_en": "engine",
-      "aliases": [
-        "기관차를",
-        "기관차가",
-        "증기기관"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "기관차를 봄",
-          "interpretation_ko": "무거운 어려움과 먼 길이 있으나 든든히 받쳐 줄 벗이 있을 조짐",
-          "interpretation_en": "you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Engine",
-              "original": "To dream of an engine, denotes you will encounter grave difficulties and journeys, but you will have substantial friends to uphold you.",
-              "translation_ko": "기관차 꿈은, 무거운 어려움과 먼 길을 만나게 되나 든든히 받쳐 줄 벗이 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "고장 난 기관차를 봄",
-          "interpretation_ko": "궂은일이 있고 살붙이를 잃을 흉한 조짐",
-          "interpretation_en": "disabled engines stand for misfortune and loss of relatives",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Engine",
-              "original": "Disabled engines stand for misfortune and loss of relatives.",
-              "translation_ko": "고장 난 기관차는 궂은일과 살붙이를 잃음을 뜻한다"
             }
           ]
         }

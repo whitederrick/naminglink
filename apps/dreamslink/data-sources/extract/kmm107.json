@@ -1,0 +1,25 @@
+[
+  {
+    "id": "lodger",
+    "aliases": [
+      "하숙생",
+      "세입자",
+      "하숙인이",
+      "하숙인을"
+    ],
+    "aliases_en": [
+      "lodgers",
+      "a boarder"
+    ],
+    "contexts": {
+      "하숙인을 둠": "두었 들였 받았",
+      "하숙인이 셈을 안 치르고 떠남": "떠났 도망 밀린",
+      "하숙인이 셈을 치름": "치렀 냈다 지불"
+    },
+    "contexts_en": {
+      "하숙인을 둠": "burdened unpleasant secrets",
+      "하숙인이 셈을 안 치르고 떠남": "away paying unexpected trouble",
+      "하숙인이 셈을 치름": "bill favor accumulation"
+    }
+  }
+]
