@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 193 — Prairie~Preacher, 3개 헤드워드)
+// (지금 담긴 것: 배치 194 — Precipice~Printer, 6개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -781,6 +781,24 @@ const CASES: Case[] = [
   { id: "clergyman", ctx: "목사와 혼인함", text: "목사와 혼인했다" },
   { id: "clergyman", ctx: "목사를 봄", text: "목사를 보았다" },
   { id: "clergyman", ctx: "목사의 설교를 들음", text: "목사의 설교를 들었다" },
+  { id: "precipice", ctx: "아찔한 벼랑 끝에 섬", text: "아찔한 벼랑 끝에 섰다" },
+  { id: "precipice", ctx: "벼랑에서 떨어짐", text: "벼랑에서 떨어졌다" },
+  { id: "pregnancy", ctx: "여성이 임신한 꿈을 꿈", text: "여자가 임신한 꿈을 꾸었다" },
+  { id: "pregnancy", ctx: "처녀가 임신한 꿈을 꿈", text: "처녀가 임신한 꿈을 꾸었다" },
+  { id: "pregnancy", ctx: "실제로 임신한 여성이 임신한 꿈을 꿈", text: "실제로 임신한 여자가 임신한 꿈을 꾸었다" },
+  { id: "gift", ctx: "선물을 받음", text: "선물을 받았다" },
+  { id: "clergyman", ctx: "설교단에 선 목사를 봄", text: "강단에 오른 목사를 보았다" },
+  { id: "clergyman", ctx: "여성이 목사와 사랑에 빠짐", text: "여자가 목사와 사랑에 빠졌다" },
+  { id: "clergyman", ctx: "목사가 여성에게 구애함", text: "목사가 여자에게 구애했다" },
+  { id: "clergyman", ctx: "목사에게 고해함", text: "목사에게 고해했다" },
+  { id: "cowslip", ctx: "발치의 풀밭에 흩어 핀 앵초를 봄", text: "발치의 풀밭에 흩어 핀 앵초를 보았다" },
+  { id: "printer", ctx: "인쇄공 꿈을 꿈", text: "인쇄공 꿈을 꾸었다" },
+  { id: "printer", ctx: "여성의 애인이나 지인이 인쇄공임을 봄", text: "여자의 애인이 인쇄공임을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "gift", ctx: "선물을 보냄", text: "선물을 보냈다" },
+  { id: "clergyman", ctx: "목사와 다툼", text: "목사와 다투었다" },
+  { id: "cowslip", ctx: "앵초를 꺾음", text: "앵초를 꺾었다" },
+  { id: "pregnancy", ctx: "아내가 아이를 뱀", text: "아내가 아이를 뱄다" },
 ];
 
 let notFound = 0;

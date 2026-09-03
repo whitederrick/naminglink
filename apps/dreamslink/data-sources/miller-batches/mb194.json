@@ -1,0 +1,44 @@
+{
+  "batch": 194,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Precipice",
+      "text": "To dream of standing over a yawning precipice, portends the threatenings of misfortunes and calamities. To fall over a precipice, denotes that you will be engulfed in disaster.",
+      "note": "새 상징 `precipice`(벼랑). 각주 [171]은 「Abyss·Pit 항목 참고」지만 벼랑 끝에 섬·벼랑에서 떨어짐은 그 둘과 다른 그림이라 새로 만든다"
+    },
+    {
+      "headword": "Pregnancy",
+      "text": "For a woman to dream that she is pregnant, denotes she will be unhappy with her husband, and her children will be unattractive. For a virgin, this dream omens scandal and adversity. If a woman is really pregnant and has this dream, it prognosticates a safe delivery and swift recovery of strength.",
+      "note": "기존 상징 `pregnancy`(임신)에 셋을 더한다 — 지금까지 별칭만 있고 의미가 하나도 없었다"
+    },
+    {
+      "headword": "Present",
+      "text": "To receive presents in your dreams, denotes that you will be unusually fortunate.",
+      "note": "기존 상징 `gift`(선물)의 「선물을 받음」과 같은 그림·같은 극성이라 인용을 포갠다. 각주 [172]는 「Gifts 항목 참고」다"
+    },
+    {
+      "headword": "Priest",
+      "text": "A priest is an augury of ill, if seen in dreams. If he is in the pulpit, it denotes sickness and trouble for the dreamer. If a woman dreams that she is in love with a priest, it warns her of deceptions and an unscrupulous lover. If the priest makes love to her, she will be reproached for her love of gaiety and practical joking. To confess to a priest, denotes that you will be subjected to humiliation and sorrow.",
+      "note": "기존 상징 `clergyman`(목사)에 더한다. 각주 [173]은 「Preacher 항목 참고」이고 Preacher는 이미 clergyman에 합쳐져 있다. 첫 문장은 기존 「목사를 봄」과 같은 그림이라 인용을 포갠다. 끝의 총평 문단(「이 꿈들은 당신이 한 일이나 할 일을 암시한다…」)은 꿈의 그림이 없어 뺀다"
+    },
+    {
+      "headword": "Primrose",
+      "text": "To dream of this little flower starring the grass at your feet, is an omen of joys laden with comfort and peace.",
+      "note": "기존 상징 cowslip(앵초, 밀러 Cows 항목에서 이미 뽑은 것과 다른 별도 Primrose 표제어 — id는 cowslip이다, 영어 이름 primrose는 이미 그 별칭)에 넷째 문맥을 더한다"
+    },
+    {
+      "headword": "Printer",
+      "text": "To see a printer in your dreams, is a warning of poverty, if you neglect to practice economy and cultivate energy. For a woman to dream that her lover or associate is a printer, foretells she will fail to please her parents in the selection of a close friend.",
+      "note": "새 상징 `printer`(인쇄공)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Priest",
+      "sentence": "These dreams imply that you have done, or will do, something which will bring discomfort to yourself or relatives. The priest or preacher is your spiritual adviser, and any dream of his professional presence is a warning against your own imperfections. Seen in social circles, unless they rise before you as spectres, the same rules will apply as to other friends.",
+      "reason": "꿈의 그림이 없는 저자의 일반론(§41)"
+    }
+  ]
+}

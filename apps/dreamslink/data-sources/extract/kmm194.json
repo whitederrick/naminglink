@@ -1,0 +1,40 @@
+[
+  {
+    "id": "precipice",
+    "aliases": [
+      "벼랑이",
+      "벼랑에서",
+      "벼랑을"
+    ],
+    "aliases_en": [
+      "a precipice"
+    ],
+    "contexts": {
+      "아찔한 벼랑 끝에 섬": "아찔한 끝에 위협",
+      "벼랑에서 떨어짐": "떨어졌 떨어지 재난"
+    },
+    "contexts_en": {
+      "아찔한 벼랑 끝에 섬": "yawning misfortunes calamities",
+      "벼랑에서 떨어짐": "fall engulfed disaster"
+    }
+  },
+  {
+    "id": "printer",
+    "aliases": [
+      "인쇄공이",
+      "인쇄공을",
+      "인쇄공임을"
+    ],
+    "aliases_en": [
+      "a printer"
+    ],
+    "contexts": {
+      "인쇄공 꿈을 꿈": "절약을 노력",
+      "여성의 애인이나 지인이 인쇄공임을 봄": "애인 지인 부모"
+    },
+    "contexts_en": {
+      "인쇄공 꿈을 꿈": "poverty economy energy",
+      "여성의 애인이나 지인이 인쇄공임을 봄": "lover associate please parents"
+    }
+  }
+]

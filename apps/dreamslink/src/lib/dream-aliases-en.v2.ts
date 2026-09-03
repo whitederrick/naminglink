@@ -6935,5 +6935,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "powder": [
     "powder"
+  ],
+  "precipice": [
+    "a precipice"
+  ],
+  "printer": [
+    "a printer"
   ]
 };

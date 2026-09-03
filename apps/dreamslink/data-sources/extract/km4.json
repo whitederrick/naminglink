@@ -997,7 +997,15 @@
       "임산부",
       "임신부",
       "출산",
-      "태몽"
+      "태몽",
+      "임신한",
+      "임신했다",
+      "임신을",
+      "임신한",
+      "임신했다",
+      "임신을",
+      "아이를 뱄다",
+      "아이를 밴"
     ],
     "aliases_en": [
       "pregnant",
@@ -1005,8 +1013,18 @@
       "with child",
       "childbirth"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "여성이 임신한 꿈을 꿈": "여성이 남편과",
+      "처녀가 임신한 꿈을 꿈": "처녀가 추문",
+      "실제로 임신한 여성이 임신한 꿈을 꿈": "실제로 순산",
+      "아내가 아이를 뱀": "아내가 사사로운"
+    },
+    "contexts_en": {
+      "여성이 임신한 꿈을 꿈": "unhappy husband unattractive",
+      "처녀가 임신한 꿈을 꿈": "virgin scandal adversity",
+      "실제로 임신한 여성이 임신한 꿈을 꿈": "really safe delivery recovery",
+      "아내가 아이를 뱀": "wife secret affair"
+    }
   },
   {
     "id": "river-snail",
