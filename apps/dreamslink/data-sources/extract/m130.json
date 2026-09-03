@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈이 많이 있는 것을 봄",
+    "interpretation_ko": "넉넉함과 즐거움이 손 닿는 곳에 있는 길한 조짐",
+    "interpretation_en": "denotes that prosperity and happiness are within your reach",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To look upon a quantity of money, denotes that prosperity and happiness are within your reach.",
+      "translation_ko": "돈이 많이 있는 것을 보면, 넉넉함과 즐거움이 손 닿는 곳에 있다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 치러 줌",
+    "interpretation_ko": "궂은 일이 있을 흉한 조짐",
+    "interpretation_en": "denotes misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To pay out money, denotes misfortune.",
+      "translation_ko": "돈을 치러 주면 궂은 일이 있다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 잃어버림",
+    "interpretation_ko": "집안에서 언짢은 때를 보내고 하는 일도 어두워 보일 흉한 조짐",
+    "interpretation_en": "you will experience unhappy hours in the home and affairs will appear gloomy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To lose money, you will experience unhappy hours in the home and affairs will appear gloomy.",
+      "translation_ko": "돈을 잃어버리면, 집안에서 언짢은 때를 보내고 하는 일도 어두워 보인다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 세어 보니 모자람",
+    "interpretation_ko": "치를 것을 치르느라 애를 태울 흉한 조짐",
+    "interpretation_en": "you will be worried in making payments",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To count your money and find a deficit, you will be worried in making payments.",
+      "translation_ko": "돈을 세어 보니 모자라면, 치를 것을 치르느라 애를 태운다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 훔침",
+    "interpretation_ko": "위태로운 자리에 있으니 제 몸가짐을 지켜야 할 흉한 조짐",
+    "interpretation_en": "denotes that you are in danger and should guard your actions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To dream that you steal money, denotes that you are in danger and should guard your actions.",
+      "translation_ko": "돈을 훔치는 꿈은, 위태로운 자리에 있으니 제 몸가짐을 지켜야 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 모아 둠",
+    "interpretation_ko": "재물과 편안함이 있을 길한 조짐",
+    "interpretation_en": "augurs wealth and comfort",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To save money, augurs wealth and comfort.",
+      "translation_ko": "돈을 모아 두면 재물과 편안함이 있다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "돈을 삼킴",
+    "interpretation_ko": "돈만 밝히는 사람이 되기 쉬운 흉한 조짐",
+    "interpretation_en": "portends that you are likely to become mercenary",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To dream that you swallow money, portends that you are likely to become mercenary.",
+      "translation_ko": "돈을 삼키는 꿈은 돈만 밝히는 사람이 되기 쉬움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "돈",
+    "term_en": "money",
+    "context": "처녀가 주운 돈뭉치를 제 것이라 함",
+    "interpretation_ko": "여자 벗이 끼어들어 하던 일에서 잃을 것이 있을 흉한 조짐",
+    "interpretation_en": "foretells you will lose in some enterprise by the interference of some female friend",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To dream you find a roll of currency, and a young woman claims it, foretells you will lose in some enterprise by the interference of some female friend.",
+      "translation_ko": "돈뭉치를 주웠는데 처녀가 제 것이라 하는 꿈은, 여자 벗이 끼어들어 하던 일에서 잃을 것이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "황금",
+    "term_en": "gold",
+    "context": "황금을 받음",
+    "interpretation_ko": "크게 넉넉해지고 티 없는 즐거움을 누릴 길한 조짐",
+    "interpretation_en": "great prosperity and unalloyed pleasures",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Money",
+      "original": "To receive gold, great prosperity and unalloyed pleasures.",
+      "translation_ko": "황금을 받으면 크게 넉넉해지고 티 없는 즐거움을 누린다"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "batch": 130,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Money",
+      "text": "To dream of finding money, denotes small worries, but much happiness. Changes will follow.\n\nTo pay out money, denotes misfortune.\n\nTo receive gold, great prosperity and unalloyed pleasures.\n\nTo lose money, you will experience unhappy hours in the home and affairs will appear gloomy.\n\nTo count your money and find a deficit, you will be worried in making payments.\n\nTo dream that you steal money, denotes that you are in danger and should guard your actions.\n\nTo save money, augurs wealth and comfort.\n\nTo dream that you swallow money, portends that you are likely to become mercenary.\n\nTo look upon a quantity of money, denotes that prosperity and happiness are within your reach.\n\nTo dream you find a roll of currency, and a young woman claims it, foretells you will lose in some enterprise by the interference of some female friend. The dreamer will find that he is spending his money unwisely and is living beyond his means. It is a dream of caution.\n\nBeware lest the innocent fancies of your brain make a place for your money before payday.",
+      "note": "여덟은 `money`(돈)에, 「To receive gold」 하나는 **`gold`(황금)에** 붙인다 — 그 꿈에 실제로 있는 사물이 황금이다(배치 67 `Jailer` 와 같은 자리)"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream of finding money, denotes small worries, but much happiness. Changes will follow.",
+      "reason": "**같은 그림이 이미 있다** — `money` 의 주공해몽 의미 「돈과 물건을 주움」(財物拾得)이 바로 이 그림이다. 넣으면 「돈을 주웠다」에서 낱말을 가를 수 없고, 새 파일(`m130.json`)이 `r*.json` 보다 앞서 정렬되어 **차례로도 못 푼다**(§30 곁가지, 배치 78)"
+    },
+    {
+      "sentence": "The dreamer will find that he is spending his money unwisely and is living beyond his means. It is a dream of caution. / Beware lest the innocent fancies of your brain make a place for your money before payday.",
+      "reason": "꿈의 그림이 아니라 **지은이의 훈계**다 — 앞 문장의 풀이에 이미 담겨 있다"
+    }
+  ]
+}

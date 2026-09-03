@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 129 — Molasses~Monkey, 17건)
+// (지금 담긴 것: 배치 130 — Money, 15건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "molasses", ctx: "당밀을 봄", text: "당밀이 끈적하게 담겨 있었다" },
-  { id: "molasses", ctx: "당밀을 먹음", text: "당밀을 먹었다" },
-  { id: "molasses", ctx: "당밀이 옷에 묻음", text: "당밀이 옷에 묻었다" },
-  { id: "mole", ctx: "두더지를 봄", text: "두더지가 땅속에서 나타났다" },
-  { id: "mole", ctx: "두더지를 잡음", text: "두더지를 잡았다" },
-  { id: "blemish", ctx: "몸에 난 점을 봄", text: "몸에 점이 생겼다" },
-  { id: "monk", ctx: "스님을 봄", text: "스님을 마주쳤다" },
-  { id: "monk", ctx: "처녀가 스님을 봄", text: "처녀가 스님을 보았다" },
-  { id: "monk", ctx: "제가 스님이 됨", text: "내가 스님이 되었다" },
-  { id: "monkey", ctx: "원숭이를 봄", text: "원숭이가 나타났다" },
-  { id: "monkey", ctx: "죽은 원숭이를 봄", text: "죽은 원숭이를 보았다" },
-  { id: "monkey", ctx: "처녀가 원숭이를 봄", text: "처녀가 원숭이를 보았다" },
-  { id: "monkey", ctx: "여성이 원숭이에게 먹이를 줌", text: "여자가 원숭이에게 먹이를 주었다" },
+  { id: "money", ctx: "돈이 많이 있는 것을 봄", text: "돈이 수북하게 쌓여 있었다" },
+  { id: "money", ctx: "돈을 치러 줌", text: "돈을 치렀다" },
+  { id: "money", ctx: "돈을 잃어버림", text: "돈을 잃어버렸다" },
+  { id: "money", ctx: "돈을 세어 보니 모자람", text: "돈을 세어 보니 모자랐다" },
+  { id: "money", ctx: "돈을 훔침", text: "돈을 훔쳤다" },
+  { id: "money", ctx: "돈을 모아 둠", text: "돈을 모아 두었다" },
+  { id: "money", ctx: "돈을 삼킴", text: "돈을 삼켰다" },
+  { id: "money", ctx: "처녀가 주운 돈뭉치를 제 것이라 함", text: "돈뭉치를 주웠는데 처녀가 제것이라고 했다" },
+  { id: "gold", ctx: "황금을 받음", text: "황금을 받았다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "monkey", ctx: "흰 원숭이를 봄", text: "하얀 원숭이를 보았다" },
-  { id: "monkey", ctx: "산 원숭이를 봄", text: "산속에서 원숭이를 보았다" },
-  { id: "monk", ctx: "스님이 사람에게 경 읽기를 가르침", text: "스님이 경 읽기를 가르쳐 주었다" },
-  { id: "apes", ctx: "유인원을 보는 꿈을 꿈", text: "커다란 유인원을 보았다" },
+  { id: "money", ctx: "남에게 돈과 물건을 돌려줌", text: "남에게 돈을 돌려주었다" },
+  { id: "money", ctx: "돈과 물건을 주움", text: "길에 떨어진 돈을 주웠다" },
+  { id: "money", ctx: "가을과 겨울에 돈을 봄", text: "가을에 돈을 보았다" },
+  { id: "gold", ctx: "황금을 손에 쥠", text: "황금을 손에 쥐었다" },
+  { id: "gold", ctx: "황금을 잃어버림", text: "황금을 잃어버렸다" },
+  { id: "paper-money", ctx: "남에게서 지전을 받음", text: "남에게서 노잣돈을 받았다" },
 ];
 
 let notFound = 0;

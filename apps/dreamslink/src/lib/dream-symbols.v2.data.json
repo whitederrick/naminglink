@@ -36,6 +36,7 @@
     "m128.json",
     "m129.json",
     "m13.json",
+    "m130.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -13802,6 +13803,197 @@
       ]
     },
     {
+      "id": "money",
+      "term_ko": "돈",
+      "term_en": "money",
+      "aliases": [
+        "금전",
+        "지폐",
+        "돈뭉치를",
+        "돈이",
+        "돈을",
+        "돈뭉치가"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 3,
+      "meanings": [
+        {
+          "context": "돈이 많이 있는 것을 봄",
+          "interpretation_ko": "넉넉함과 즐거움이 손 닿는 곳에 있는 길한 조짐",
+          "interpretation_en": "denotes that prosperity and happiness are within your reach",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To look upon a quantity of money, denotes that prosperity and happiness are within your reach.",
+              "translation_ko": "돈이 많이 있는 것을 보면, 넉넉함과 즐거움이 손 닿는 곳에 있다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 치러 줌",
+          "interpretation_ko": "궂은 일이 있을 흉한 조짐",
+          "interpretation_en": "denotes misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To pay out money, denotes misfortune.",
+              "translation_ko": "돈을 치러 주면 궂은 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 잃어버림",
+          "interpretation_ko": "집안에서 언짢은 때를 보내고 하는 일도 어두워 보일 흉한 조짐",
+          "interpretation_en": "you will experience unhappy hours in the home and affairs will appear gloomy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To lose money, you will experience unhappy hours in the home and affairs will appear gloomy.",
+              "translation_ko": "돈을 잃어버리면, 집안에서 언짢은 때를 보내고 하는 일도 어두워 보인다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 세어 보니 모자람",
+          "interpretation_ko": "치를 것을 치르느라 애를 태울 흉한 조짐",
+          "interpretation_en": "you will be worried in making payments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To count your money and find a deficit, you will be worried in making payments.",
+              "translation_ko": "돈을 세어 보니 모자라면, 치를 것을 치르느라 애를 태운다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 훔침",
+          "interpretation_ko": "위태로운 자리에 있으니 제 몸가짐을 지켜야 할 흉한 조짐",
+          "interpretation_en": "denotes that you are in danger and should guard your actions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To dream that you steal money, denotes that you are in danger and should guard your actions.",
+              "translation_ko": "돈을 훔치는 꿈은, 위태로운 자리에 있으니 제 몸가짐을 지켜야 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 모아 둠",
+          "interpretation_ko": "재물과 편안함이 있을 길한 조짐",
+          "interpretation_en": "augurs wealth and comfort",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To save money, augurs wealth and comfort.",
+              "translation_ko": "돈을 모아 두면 재물과 편안함이 있다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 삼킴",
+          "interpretation_ko": "돈만 밝히는 사람이 되기 쉬운 흉한 조짐",
+          "interpretation_en": "portends that you are likely to become mercenary",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To dream that you swallow money, portends that you are likely to become mercenary.",
+              "translation_ko": "돈을 삼키는 꿈은 돈만 밝히는 사람이 되기 쉬움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 주운 돈뭉치를 제 것이라 함",
+          "interpretation_ko": "여자 벗이 끼어들어 하던 일에서 잃을 것이 있을 흉한 조짐",
+          "interpretation_en": "foretells you will lose in some enterprise by the interference of some female friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To dream you find a roll of currency, and a young woman claims it, foretells you will lose in some enterprise by the interference of some female friend.",
+              "translation_ko": "돈뭉치를 주웠는데 처녀가 제 것이라 하는 꿈은, 여자 벗이 끼어들어 하던 일에서 잃을 것이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 돈과 물건을 돌려줌",
+          "interpretation_ko": "앓던 병이 물러갈 조짐",
+          "interpretation_en": "a sign that illness will depart",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "還人錢物疾病去",
+              "translation_ko": "남에게 돈과 물건을 돌려주면 질병이 물러간다"
+            }
+          ]
+        },
+        {
+          "context": "돈과 물건을 주움",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "拾得錢物皆大吉",
+              "translation_ko": "돈과 물건을 주우면 모두 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "봄과 여름에 돈을 봄",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "錢春夏吉秋冬凶",
+              "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "가을과 겨울에 돈을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "錢春夏吉秋冬凶",
+              "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "moon",
       "term_ko": "달",
       "term_en": "moon",
@@ -25972,6 +26164,125 @@
       ]
     },
     {
+      "id": "gold",
+      "term_ko": "황금",
+      "term_en": "gold",
+      "aliases": [
+        "황금",
+        "금덩이",
+        "금괴",
+        "금맥",
+        "금광"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "황금을 손에 쥠",
+          "interpretation_ko": "벌인 일마다 남달리 잘 풀릴 길한 조짐",
+          "interpretation_en": "you will be unusually successful in all enterprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "If you handle gold in your dream, you will be unusually successful in all enterprises.",
+              "translation_ko": "꿈에 황금을 만지면, 벌인 일마다 남달리 잘 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "황금을 받음",
+          "interpretation_ko": "크게 넉넉해지고 티 없는 즐거움을 누릴 길한 조짐",
+          "interpretation_en": "great prosperity and unalloyed pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Money",
+              "original": "To receive gold, great prosperity and unalloyed pleasures.",
+              "translation_ko": "황금을 받으면 크게 넉넉해지고 티 없는 즐거움을 누린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 황금을 선물로 받음",
+          "interpretation_ko": "넉넉하되 셈속이 밝은 사람과 짝을 맺을 조짐",
+          "interpretation_en": "she will marry a wealthy but mercenary man",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "For a woman to dream that she receives presents of gold, either money or ornaments, she will marry a wealthy but mercenary man.",
+              "translation_ko": "여성이 돈이든 꾸미개든 황금을 선물로 받는 꿈은, 넉넉하되 셈속 밝은 사람과 짝을 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "황금을 주움",
+          "interpretation_ko": "빼어난 재주로 이름과 재물을 손쉽게 앞질러 얻을 길한 조짐",
+          "interpretation_en": "indicates that your superior abilities will place you easily ahead in the race for honors and wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "To find gold, indicates that your superior abilities will place you easily ahead in the race for honors and wealth.",
+              "translation_ko": "황금을 줍는 것은, 빼어난 재주로 이름과 재물의 겨룸에서 손쉽게 앞섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "황금을 잃어버림",
+          "interpretation_ko": "게을리하다 삶에서 가장 큰 기회를 놓칠 흉한 조짐",
+          "interpretation_en": "you will miss the grandest opportunity of your life through negligence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "If you lose gold, you will miss the grandest opportunity of your life through negligence.",
+              "translation_ko": "황금을 잃으면, 게을리한 탓에 삶에서 가장 큰 기회를 놓친다"
+            }
+          ]
+        },
+        {
+          "context": "금맥을 찾아냄",
+          "interpretation_ko": "달갑지 않은 자리가 떠맡겨질 조짐",
+          "interpretation_en": "denotes that some uneasy honor will be thrust upon you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "To dream of finding a gold vein, denotes that some uneasy honor will be thrust upon you.",
+              "translation_ko": "금맥을 찾아내는 꿈은, 달갑지 않은 자리가 떠맡겨짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "금광을 파려고 마음먹음",
+          "interpretation_ko": "남의 몫을 가로채려 하고 집안에 말썽이 날 흉한 조짐",
+          "interpretation_en": "you will endeavor to usurp the rights of others, and should beware of domestic scandals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gold",
+              "original": "If you dream that you contemplate working a gold mine, you will endeavor to usurp the rights of others, and should beware of domestic scandals.",
+              "translation_ko": "금광을 파려고 마음먹는 꿈은, 남의 몫을 가로채려 함과 집안 말썽을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ink-stick",
       "term_ko": "먹",
       "term_en": "ink stick",
@@ -29591,111 +29902,6 @@
               "locator": "Kid",
               "original": "To dream of a kid, denotes you will not be over-scrupulous in your morals or pleasures.",
               "translation_ko": "새끼 염소의 꿈은 몸가짐과 즐거움에 그리 엄하지 못하리라는 뜻이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gold",
-      "term_ko": "황금",
-      "term_en": "gold",
-      "aliases": [
-        "황금",
-        "금덩이",
-        "금괴",
-        "금맥",
-        "금광"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "황금을 손에 쥠",
-          "interpretation_ko": "벌인 일마다 남달리 잘 풀릴 길한 조짐",
-          "interpretation_en": "you will be unusually successful in all enterprises",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "If you handle gold in your dream, you will be unusually successful in all enterprises.",
-              "translation_ko": "꿈에 황금을 만지면, 벌인 일마다 남달리 잘 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 황금을 선물로 받음",
-          "interpretation_ko": "넉넉하되 셈속이 밝은 사람과 짝을 맺을 조짐",
-          "interpretation_en": "she will marry a wealthy but mercenary man",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "For a woman to dream that she receives presents of gold, either money or ornaments, she will marry a wealthy but mercenary man.",
-              "translation_ko": "여성이 돈이든 꾸미개든 황금을 선물로 받는 꿈은, 넉넉하되 셈속 밝은 사람과 짝을 맺음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "황금을 주움",
-          "interpretation_ko": "빼어난 재주로 이름과 재물을 손쉽게 앞질러 얻을 길한 조짐",
-          "interpretation_en": "indicates that your superior abilities will place you easily ahead in the race for honors and wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "To find gold, indicates that your superior abilities will place you easily ahead in the race for honors and wealth.",
-              "translation_ko": "황금을 줍는 것은, 빼어난 재주로 이름과 재물의 겨룸에서 손쉽게 앞섬을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "황금을 잃어버림",
-          "interpretation_ko": "게을리하다 삶에서 가장 큰 기회를 놓칠 흉한 조짐",
-          "interpretation_en": "you will miss the grandest opportunity of your life through negligence",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "If you lose gold, you will miss the grandest opportunity of your life through negligence.",
-              "translation_ko": "황금을 잃으면, 게을리한 탓에 삶에서 가장 큰 기회를 놓친다"
-            }
-          ]
-        },
-        {
-          "context": "금맥을 찾아냄",
-          "interpretation_ko": "달갑지 않은 자리가 떠맡겨질 조짐",
-          "interpretation_en": "denotes that some uneasy honor will be thrust upon you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "To dream of finding a gold vein, denotes that some uneasy honor will be thrust upon you.",
-              "translation_ko": "금맥을 찾아내는 꿈은, 달갑지 않은 자리가 떠맡겨짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "금광을 파려고 마음먹음",
-          "interpretation_ko": "남의 몫을 가로채려 하고 집안에 말썽이 날 흉한 조짐",
-          "interpretation_en": "you will endeavor to usurp the rights of others, and should beware of domestic scandals",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gold",
-              "original": "If you dream that you contemplate working a gold mine, you will endeavor to usurp the rights of others, and should beware of domestic scandals.",
-              "translation_ko": "금광을 파려고 마음먹는 꿈은, 남의 몫을 가로채려 함과 집안 말썽을 뜻한다"
             }
           ]
         }
@@ -48304,81 +48510,6 @@
               "locator": "Miser",
               "original": "To dream that any of your friends are misers, foretells that you will be distressed by the importunities of others.",
               "translation_ko": "벗들이 구두쇠인 꿈은 남들의 성가신 조름에 시달림을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "money",
-      "term_ko": "돈",
-      "term_en": "money",
-      "aliases": [
-        "금전",
-        "지폐",
-        "돈뭉치를"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 3,
-      "meanings": [
-        {
-          "context": "남에게 돈과 물건을 돌려줌",
-          "interpretation_ko": "앓던 병이 물러갈 조짐",
-          "interpretation_en": "a sign that illness will depart",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "還人錢物疾病去",
-              "translation_ko": "남에게 돈과 물건을 돌려주면 질병이 물러간다"
-            }
-          ]
-        },
-        {
-          "context": "돈과 물건을 주움",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "拾得錢物皆大吉",
-              "translation_ko": "돈과 물건을 주우면 모두 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "봄과 여름에 돈을 봄",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "錢春夏吉秋冬凶",
-              "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "가을과 겨울에 돈을 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "錢春夏吉秋冬凶",
-              "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
             }
           ]
         }
@@ -93501,7 +93632,6 @@
       "term_ko": "지전",
       "term_en": "paper money",
       "aliases": [
-        "지폐",
         "종이돈",
         "노잣돈"
       ],

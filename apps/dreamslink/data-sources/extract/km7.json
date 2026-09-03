@@ -363,7 +363,10 @@
     "aliases": [
       "금전",
       "지폐",
-      "돈뭉치를"
+      "돈뭉치를",
+      "돈이",
+      "돈을",
+      "돈뭉치가"
     ],
     "aliases_en": [
       "bills",
@@ -373,13 +376,29 @@
       "남에게 돈과 물건을 돌려줌": "돌려주 돌려줬 갚았 반환",
       "돈과 물건을 주움": "주웠 주워 줍는 떨어진",
       "봄과 여름에 돈을 봄": "봄에 여름 봄이나",
-      "가을과 겨울에 돈을 봄": "가을 겨울 겨울에"
+      "가을과 겨울에 돈을 봄": "가을 겨울 겨울에",
+      "돈이 많이 있는 것을 봄": "많이 가득 수북",
+      "돈을 치러 줌": "치렀 지불 내주었",
+      "돈을 잃어버림": "잃어 잃었",
+      "돈을 세어 보니 모자람": "세어 모자 부족",
+      "돈을 훔침": "훔쳤 훔치 도둑질",
+      "돈을 모아 둠": "모아 저축 아껴",
+      "돈을 삼킴": "삼켰 삼키 넘겼",
+      "처녀가 주운 돈뭉치를 제 것이라 함": "처녀 아가씨 제것이라"
     },
     "contexts_en": {
       "남에게 돈과 물건을 돌려줌": "returned repaid returning",
       "돈과 물건을 주움": "picked found ground",
       "봄과 여름에 돈을 봄": "spring summer",
-      "가을과 겨울에 돈을 봄": "autumn winter fall"
+      "가을과 겨울에 돈을 봄": "autumn winter fall",
+      "돈이 많이 있는 것을 봄": "look quantity prosperity happiness reach",
+      "돈을 치러 줌": "pay misfortune",
+      "돈을 잃어버림": "lose unhappy hours gloomy",
+      "돈을 세어 보니 모자람": "count deficit worried making",
+      "돈을 훔침": "steal danger guard actions",
+      "돈을 모아 둠": "save augurs comfort",
+      "돈을 삼킴": "swallow portends mercenary",
+      "처녀가 주운 돈뭉치를 제 것이라 함": "roll claims enterprise interference female"
     }
   },
   {
