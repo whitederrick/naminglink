@@ -1,0 +1,38 @@
+{
+  "batch": 192,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pot",
+      "text": "To dream of a pot, foretells that unimportant events will work you vexation. For a young woman to see a boiling pot, omens busy employment of pleasant and social duties. To see a broken or rusty one, implies that keen disappointment will be experienced by you.",
+      "note": "새 상징 `pot`(냄비)"
+    },
+    {
+      "headword": "Potatoes",
+      "text": "Dreaming of potatoes, brings incidents often of good. To dream of digging them, denotes success. To dream of eating them, you will enjoy substantial gain. To cook them, congenial employment. Planting them, brings realization of desires. To see them rotting, denotes vanished pleasure and a darkening future.",
+      "note": "새 상징 `potato`(감자)"
+    },
+    {
+      "headword": "Potter",
+      "text": "To dream of a potter, denotes constant employment, with satisfactory results. For a young woman to see a potter, foretells she will enjoy pleasant engagements.",
+      "note": "새 상징 `potter`(도공)"
+    },
+    {
+      "headword": "Potter's Field",
+      "text": "To see a potter's field in your dreams, denotes you will have poverty and misery to distress you. For a young woman to walk through a potter's field with her lover, she will give up the one she loves in the hope of mercenary gain.",
+      "note": "기존 상징 `cemetery`(공동묘지, 밀러 Graveyard)에 둘을 더한다 — 무연고자 묘지도 공동묘지의 한 종류다"
+    },
+    {
+      "headword": "Poultry",
+      "text": "To see dressed poultry in a dream, foretells extravagant habits will reduce your security in money matters. For a young woman to dream that she is chasing live poultry, foretells she will devote valuable time to frivolous pleasure.",
+      "note": "기존 상징 둘에 나눠 붙인다 — 손질된(죽은) 가금은 `chicken-meat`(닭고기)에, 살아있는 가금을 뒤쫓음은 `chicken`(닭)에"
+    },
+    {
+      "headword": "Powder",
+      "text": "To see powder in your dreams, denotes unscrupulous people are dealing with you. You may detect them through watchfulness.",
+      "note": "새 상징 `powder`(가루)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

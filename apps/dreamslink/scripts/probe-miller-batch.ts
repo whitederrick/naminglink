@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 191 — Portfolio~Post-office, 5개 헤드워드)
+// (지금 담긴 것: 배치 192 — Pot~Powder, 6개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -745,6 +745,28 @@ const CASES: Case[] = [
   { id: "painting", ctx: "아름다운 그림들을 봄", text: "아름다운 그림들을 보았다" },
   { id: "letter-carrier", ctx: "집배원이 편지를 갖고 옴", text: "집배원이 편지를 갖고 왔다" },
   { id: "letter-carrier", ctx: "집배원의 호루라기 소리를 들음", text: "집배원의 호루라기 소리를 들었다" },
+  { id: "pan", ctx: "냄비 꿈을 꿈", text: "냄비 꿈을 꾸었다" },
+  { id: "pan", ctx: "처녀가 끓는 냄비를 봄", text: "처녀가 끓는 냄비를 보았다" },
+  { id: "pan", ctx: "깨지거나 녹슨 냄비를 봄", text: "녹슨 냄비를 보았다" },
+  { id: "potato", ctx: "감자 꿈을 꿈", text: "감자 꿈을 꾸었다" },
+  { id: "potato", ctx: "감자를 캠", text: "감자를 캐냈다" },
+  { id: "potato", ctx: "감자를 먹음", text: "감자를 먹었다" },
+  { id: "potato", ctx: "감자를 요리함", text: "감자를 요리했다" },
+  { id: "potato", ctx: "감자를 심음", text: "감자를 심었다" },
+  { id: "potato", ctx: "썩은 감자를 봄", text: "썩은 감자를 보았다" },
+  { id: "potter", ctx: "도공 꿈을 꿈", text: "도공 꿈을 꾸었다" },
+  { id: "potter", ctx: "처녀가 도공을 봄", text: "처녀가 도공을 보았다" },
+  { id: "cemetery", ctx: "무연고자 묘지를 봄", text: "무연고자 묘지를 보았다" },
+  { id: "cemetery", ctx: "처녀가 정인과 함께 무연고자 묘지를 지나며 정인을 버림", text: "처녀가 정인과 함께 무연고자 묘지를 지나며 정인을 버렸다" },
+  { id: "chicken-meat", ctx: "손질된 가금을 봄", text: "손질된 가금을 보았다" },
+  { id: "chicken", ctx: "처녀가 살아있는 가금을 뒤쫓음", text: "처녀가 살아있는 가금을 뒤쫓았다" },
+  { id: "powder", ctx: "가루 꿈을 꿈", text: "가루 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "pan", ctx: "구리 냄비를 봄", text: "구리로 만든 냄비를 보았다" },
+  { id: "pan", ctx: "냄비가 깨짐", text: "냄비가 깨졌다" },
+  { id: "cemetery", ctx: "아름답고 잘 손질된 묘지에 있음", text: "아름답고 잘 손질된 묘지에 있었다" },
+  { id: "chicken-meat", ctx: "닭고기를 먹음", text: "닭고기를 먹었다" },
+  { id: "chicken", ctx: "닭을 잡음", text: "닭을 붙잡았다" },
 ];
 
 let notFound = 0;

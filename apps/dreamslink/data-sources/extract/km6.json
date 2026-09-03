@@ -666,15 +666,23 @@
     "aliases_en": [
       "pans",
       "frying pan",
-      "saucepan"
+      "saucepan",
+      "a pot",
+      "a pot"
     ],
     "contexts": {
       "구리 냄비를 봄": "구리 구릿 청동 놋쇠",
-      "냄비가 깨짐": "깨져 깨진 부서 금이"
+      "냄비가 깨짐": "깨져 깨진 부서 금이 깨졌",
+      "냄비 꿈을 꿈": "사소한 짜증",
+      "처녀가 끓는 냄비를 봄": "끓는 사교적인",
+      "깨지거나 녹슨 냄비를 봄": "녹슨 뼈아픈"
     },
     "contexts_en": {
       "구리 냄비를 봄": "copper bronze brass",
-      "냄비가 깨짐": "broken cracked shattered"
+      "냄비가 깨짐": "broken cracked shattered",
+      "냄비 꿈을 꿈": "unimportant vexation",
+      "처녀가 끓는 냄비를 봄": "boiling pleasant social",
+      "깨지거나 녹슨 냄비를 봄": "rusty keen disappointment"
     }
   },
   {

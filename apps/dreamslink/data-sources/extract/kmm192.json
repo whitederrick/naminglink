@@ -1,0 +1,59 @@
+[
+  {
+    "id": "potato",
+    "aliases": [
+      "감자가",
+      "감자를"
+    ],
+    "aliases_en": [
+      "a potato",
+      "potatoes"
+    ],
+    "contexts": {
+      "감자 꿈을 꿈": "좋은 일이",
+      "감자를 캠": "캐냈 캐는",
+      "감자를 먹음": "먹었 두둑한",
+      "감자를 요리함": "요리 마음 맞는",
+      "감자를 심음": "심었 심는",
+      "썩은 감자를 봄": "썩은 어두워질"
+    },
+    "contexts_en": {
+      "감자 꿈을 꿈": "incidents often good",
+      "감자를 캠": "digging success",
+      "감자를 먹음": "eating substantial gain",
+      "감자를 요리함": "cook congenial employment",
+      "감자를 심음": "planting realization desires",
+      "썩은 감자를 봄": "rotting vanished darkening"
+    }
+  },
+  {
+    "id": "potter",
+    "aliases": [
+      "도공이",
+      "도공을"
+    ],
+    "aliases_en": [
+      "a potter"
+    ],
+    "contexts": {
+      "도공 꿈을 꿈": "꾸준한 만족스러운",
+      "처녀가 도공을 봄": "처녀가 아가씨가"
+    },
+    "contexts_en": {
+      "도공 꿈을 꿈": "constant employment satisfactory",
+      "처녀가 도공을 봄": "young woman pleasant engagements"
+    }
+  },
+  {
+    "id": "powder",
+    "aliases": [
+      "가루가",
+      "가루를"
+    ],
+    "aliases_en": [
+      "powder"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

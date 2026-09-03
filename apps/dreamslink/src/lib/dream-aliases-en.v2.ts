@@ -1299,7 +1299,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "pan": [
     "pans",
     "frying pan",
-    "saucepan"
+    "saucepan",
+    "a pot",
+    "a pot"
   ],
   "quarrel": [
     "argument",
@@ -6923,5 +6925,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "post-office": [
     "a post office"
+  ],
+  "potato": [
+    "a potato",
+    "potatoes"
+  ],
+  "potter": [
+    "a potter"
+  ],
+  "powder": [
+    "powder"
   ]
 };

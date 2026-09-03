@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "냄비",
+    "term_en": "pan",
+    "context": "냄비 꿈을 꿈",
+    "interpretation_ko": "사소한 일들로 짜증이 날 조짐",
+    "interpretation_en": "foretells that unimportant events will work you vexation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pot",
+      "original": "To dream of a pot, foretells that unimportant events will work you vexation.",
+      "translation_ko": "냄비 꿈은, 사소한 일들로 짜증이 날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "냄비",
+    "term_en": "pan",
+    "context": "처녀가 끓는 냄비를 봄",
+    "interpretation_ko": "즐겁고 사교적인 일로 바쁠 조짐",
+    "interpretation_en": "omens busy employment of pleasant and social duties",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pot",
+      "original": "For a young woman to see a boiling pot, omens busy employment of pleasant and social duties.",
+      "translation_ko": "처녀가 끓는 냄비를 보는 꿈은, 즐겁고 사교적인 일로 바쁠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "냄비",
+    "term_en": "pan",
+    "context": "깨지거나 녹슨 냄비를 봄",
+    "interpretation_ko": "뼈아픈 실망을 겪을 조짐",
+    "interpretation_en": "implies that keen disappointment will be experienced by you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pot",
+      "original": "To see a broken or rusty one, implies that keen disappointment will be experienced by you.",
+      "translation_ko": "깨지거나 녹슨 냄비를 보는 꿈은, 뼈아픈 실망을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "감자 꿈을 꿈",
+    "interpretation_ko": "좋은 일이 잦을 조짐",
+    "interpretation_en": "brings incidents often of good",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "Dreaming of potatoes, brings incidents often of good.",
+      "translation_ko": "감자 꿈은, 좋은 일이 잦을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "감자를 캠",
+    "interpretation_ko": "성공의 조짐",
+    "interpretation_en": "denotes success",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "To dream of digging them, denotes success.",
+      "translation_ko": "감자를 캐는 꿈은, 성공의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "감자를 먹음",
+    "interpretation_ko": "두둑한 이득을 누릴 조짐",
+    "interpretation_en": "you will enjoy substantial gain",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "To dream of eating them, you will enjoy substantial gain.",
+      "translation_ko": "감자를 먹는 꿈은, 두둑한 이득을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "감자를 요리함",
+    "interpretation_ko": "마음 맞는 일자리의 조짐",
+    "interpretation_en": "congenial employment",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "To cook them, congenial employment.",
+      "translation_ko": "감자를 요리하는 꿈은, 마음 맞는 일자리의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "감자를 심음",
+    "interpretation_ko": "바람이 이루어질 조짐",
+    "interpretation_en": "brings realization of desires",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "Planting them, brings realization of desires.",
+      "translation_ko": "감자를 심는 꿈은, 바람이 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감자",
+    "term_en": "potato",
+    "context": "썩은 감자를 봄",
+    "interpretation_ko": "즐거움이 사라지고 앞날이 어두워질 조짐",
+    "interpretation_en": "denotes vanished pleasure and a darkening future",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Potatoes",
+      "original": "To see them rotting, denotes vanished pleasure and a darkening future.",
+      "translation_ko": "썩은 감자를 보는 꿈은, 즐거움이 사라지고 앞날이 어두워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도공",
+    "term_en": "potter",
+    "context": "도공 꿈을 꿈",
+    "interpretation_ko": "꾸준한 일자리와 만족스러운 결과의 조짐",
+    "interpretation_en": "denotes constant employment, with satisfactory results",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Potter",
+      "original": "To dream of a potter, denotes constant employment, with satisfactory results.",
+      "translation_ko": "도공 꿈은, 꾸준한 일자리와 만족스러운 결과의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도공",
+    "term_en": "potter",
+    "context": "처녀가 도공을 봄",
+    "interpretation_ko": "즐거운 약속들을 누릴 조짐",
+    "interpretation_en": "foretells she will enjoy pleasant engagements",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Potter",
+      "original": "For a young woman to see a potter, foretells she will enjoy pleasant engagements.",
+      "translation_ko": "처녀가 도공을 보는 꿈은, 즐거운 약속들을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "공동묘지",
+    "term_en": "cemetery",
+    "context": "무연고자 묘지를 봄",
+    "interpretation_ko": "가난과 고통에 시달릴 조짐",
+    "interpretation_en": "denotes you will have poverty and misery to distress you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Potter's Field",
+      "original": "To see a potter's field in your dreams, denotes you will have poverty and misery to distress you.",
+      "translation_ko": "무연고자 묘지를 보는 꿈은, 가난과 고통에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "공동묘지",
+    "term_en": "cemetery",
+    "context": "처녀가 정인과 함께 무연고자 묘지를 지나며 정인을 버림",
+    "interpretation_ko": "돈을 바라고 사랑하는 이를 저버릴 조짐",
+    "interpretation_en": "she will give up the one she loves in the hope of mercenary gain",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Potter's Field",
+      "original": "For a young woman to walk through a potter's field with her lover, she will give up the one she loves in the hope of mercenary gain.",
+      "translation_ko": "처녀가 정인과 함께 무연고자 묘지를 지나는 꿈은, 돈을 바라고 사랑하는 이를 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "닭고기",
+    "term_en": "chicken meat",
+    "context": "손질된 가금을 봄",
+    "interpretation_ko": "사치스러운 습관으로 돈이 불안정해질 조짐",
+    "interpretation_en": "foretells extravagant habits will reduce your security in money matters",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Poultry",
+      "original": "To see dressed poultry in a dream, foretells extravagant habits will reduce your security in money matters.",
+      "translation_ko": "손질된 가금을 보는 꿈은, 사치스러운 습관으로 돈이 불안정해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "처녀가 살아있는 가금을 뒤쫓음",
+    "interpretation_ko": "부질없는 쾌락에 값진 시간을 쓸 조짐",
+    "interpretation_en": "foretells she will devote valuable time to frivolous pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Poultry",
+      "original": "For a young woman to dream that she is chasing live poultry, foretells she will devote valuable time to frivolous pleasure.",
+      "translation_ko": "처녀가 살아있는 가금을 뒤쫓는 꿈은, 부질없는 쾌락에 값진 시간을 쓸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "가루",
+    "term_en": "powder",
+    "context": "가루 꿈을 꿈",
+    "interpretation_ko": "부정직한 사람들이 관계하고 있다는 뜻. 조심하면 알아챌 수 있음",
+    "interpretation_en": "denotes unscrupulous people are dealing with you. You may detect them through watchfulness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Powder",
+      "original": "To see powder in your dreams, denotes unscrupulous people are dealing with you. You may detect them through watchfulness.",
+      "translation_ko": "가루 꿈은, 부정직한 사람들이 관계하고 있다는 뜻이다. 조심하면 알아챌 수 있다"
+    }
+  }
+]

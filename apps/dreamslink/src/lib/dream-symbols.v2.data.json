@@ -104,6 +104,7 @@
     "m19.json",
     "m190.json",
     "m191.json",
+    "m192.json",
     "m2.json",
     "m20.json",
     "m21.json",
@@ -11907,6 +11908,210 @@
       ]
     },
     {
+      "id": "chicken",
+      "term_ko": "닭",
+      "term_en": "chicken",
+      "aliases": [
+        "수탉",
+        "암탉",
+        "병아리",
+        "닭들",
+        "살아있는 가금"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "병아리 떼를 봄",
+          "interpretation_ko": "여러 근심에서 걱정이 오나 그중 얼마는 이문이 될 조짐",
+          "interpretation_en": "worry from many cares, some of which will prove to your profit",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To dream of seeing a brood of chickens, denotes worry from many cares, some of which of which will prove to your profit.",
+              "translation_ko": "병아리 떼를 보는 꿈은 여러 근심에서 오는 걱정을 뜻하나, 그중 얼마는 이문이 된다"
+            }
+          ]
+        },
+        {
+          "context": "덜 자란 닭을 봄",
+          "interpretation_ko": "잘될 일이 있으나 그리 되려면 제 힘을 다해야 할 조짐",
+          "interpretation_en": "fortunate enterprises, but to make them so you will have to exert your physical strength",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "Young or half grown chickens, signify fortunate enterprises, but to make them so you will have to exert your physical strength.",
+              "translation_ko": "어리거나 덜 자란 닭은 잘될 일을 뜻하나, 그리 되게 하려면 제 힘을 다해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "닭들이 홰에 오르는 것을 봄",
+          "interpretation_ko": "적들이 나를 해칠 궁리를 하고 있을 조짐",
+          "interpretation_en": "enemies are planning to work you evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To see chickens going to roost, enemies are planning to work you evil.",
+              "translation_ko": "닭들이 홰에 오르는 것을 보면 적들이 나를 해칠 궁리를 하고 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 잡아먹음",
+          "interpretation_ko": "이기심 때문에 좋던 이름이 깎이고, 일과 사랑이 위태로울 조짐",
+          "interpretation_en": "selfishness will detract from your otherwise good name; business and love will remain in precarious states",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To eat them, denotes that selfishness will detract from your otherwise good name.  Business and love will remain in precarious states.",
+              "translation_ko": "닭을 먹으면 이기심 때문에 좋던 이름이 깎인다. 일과 사랑은 위태로운 채로 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 살아있는 가금을 뒤쫓음",
+          "interpretation_ko": "부질없는 쾌락에 값진 시간을 쓸 조짐",
+          "interpretation_en": "foretells she will devote valuable time to frivolous pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poultry",
+              "original": "For a young woman to dream that she is chasing live poultry, foretells she will devote valuable time to frivolous pleasure.",
+              "translation_ko": "처녀가 살아있는 가금을 뒤쫓는 꿈은, 부질없는 쾌락에 값진 시간을 쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 봄",
+          "interpretation_ko": "한동안 시름겹거나 몸이 앓을 흉한 조짐",
+          "interpretation_en": "denotes temporary worry or illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fowl",
+              "original": "To dream of seeing fowls, denotes temporary worry or illness.",
+              "translation_ko": "닭을 보는 꿈은 한동안의 시름이나 앓음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 닭을 봄",
+          "interpretation_ko": "잠시 앓거나 벗과 뜻이 어긋날 흉한 조짐",
+          "interpretation_en": "indicates a short illness or disagreement with her friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fowl",
+              "original": "For a woman to dream of fowls, indicates a short illness or disagreement with her friends.",
+              "translation_ko": "여성이 닭을 보는 꿈은, 잠시 앓거나 벗과 뜻이 어긋남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "암탉을 봄",
+          "interpretation_ko": "식구가 늘어 즐거운 모임이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant family reunions with added members",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hen",
+              "original": "To dream of hens, denotes pleasant family reunions with added members.",
+              "translation_ko": "암탉 꿈은, 식구가 늘어 즐거운 모임이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 씻김",
+          "interpretation_ko": "벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "洗雞得官鳴口舌",
+              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 욺",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "洗雞得官鳴口舌",
+              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 알을 품음",
+          "interpretation_ko": "큰 기쁨이 있을 조짐",
+          "interpretation_en": "a sign of great joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雞抱卵主有大喜",
+              "translation_ko": "닭이 알을 품으면 큰 기쁨이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 나무 위에 있음",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雞在樹上主得財",
+              "translation_ko": "닭이 나무 위에 있으면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 잡음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺雞鵝鴨主大吉",
+              "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cloud",
       "term_ko": "구름",
       "term_en": "cloud",
@@ -13937,195 +14142,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "血在床妻妾有姦",
               "translation_ko": "피가 침상에 있으면 처첩이 간통한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chicken",
-      "term_ko": "닭",
-      "term_en": "chicken",
-      "aliases": [
-        "수탉",
-        "암탉",
-        "병아리",
-        "닭들"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "병아리 떼를 봄",
-          "interpretation_ko": "여러 근심에서 걱정이 오나 그중 얼마는 이문이 될 조짐",
-          "interpretation_en": "worry from many cares, some of which will prove to your profit",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To dream of seeing a brood of chickens, denotes worry from many cares, some of which of which will prove to your profit.",
-              "translation_ko": "병아리 떼를 보는 꿈은 여러 근심에서 오는 걱정을 뜻하나, 그중 얼마는 이문이 된다"
-            }
-          ]
-        },
-        {
-          "context": "덜 자란 닭을 봄",
-          "interpretation_ko": "잘될 일이 있으나 그리 되려면 제 힘을 다해야 할 조짐",
-          "interpretation_en": "fortunate enterprises, but to make them so you will have to exert your physical strength",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "Young or half grown chickens, signify fortunate enterprises, but to make them so you will have to exert your physical strength.",
-              "translation_ko": "어리거나 덜 자란 닭은 잘될 일을 뜻하나, 그리 되게 하려면 제 힘을 다해야 한다"
-            }
-          ]
-        },
-        {
-          "context": "닭들이 홰에 오르는 것을 봄",
-          "interpretation_ko": "적들이 나를 해칠 궁리를 하고 있을 조짐",
-          "interpretation_en": "enemies are planning to work you evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To see chickens going to roost, enemies are planning to work you evil.",
-              "translation_ko": "닭들이 홰에 오르는 것을 보면 적들이 나를 해칠 궁리를 하고 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 잡아먹음",
-          "interpretation_ko": "이기심 때문에 좋던 이름이 깎이고, 일과 사랑이 위태로울 조짐",
-          "interpretation_en": "selfishness will detract from your otherwise good name; business and love will remain in precarious states",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To eat them, denotes that selfishness will detract from your otherwise good name.  Business and love will remain in precarious states.",
-              "translation_ko": "닭을 먹으면 이기심 때문에 좋던 이름이 깎인다. 일과 사랑은 위태로운 채로 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 봄",
-          "interpretation_ko": "한동안 시름겹거나 몸이 앓을 흉한 조짐",
-          "interpretation_en": "denotes temporary worry or illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fowl",
-              "original": "To dream of seeing fowls, denotes temporary worry or illness.",
-              "translation_ko": "닭을 보는 꿈은 한동안의 시름이나 앓음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 닭을 봄",
-          "interpretation_ko": "잠시 앓거나 벗과 뜻이 어긋날 흉한 조짐",
-          "interpretation_en": "indicates a short illness or disagreement with her friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fowl",
-              "original": "For a woman to dream of fowls, indicates a short illness or disagreement with her friends.",
-              "translation_ko": "여성이 닭을 보는 꿈은, 잠시 앓거나 벗과 뜻이 어긋남을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "암탉을 봄",
-          "interpretation_ko": "식구가 늘어 즐거운 모임이 있을 길한 조짐",
-          "interpretation_en": "denotes pleasant family reunions with added members",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hen",
-              "original": "To dream of hens, denotes pleasant family reunions with added members.",
-              "translation_ko": "암탉 꿈은, 식구가 늘어 즐거운 모임이 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 씻김",
-          "interpretation_ko": "벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "洗雞得官鳴口舌",
-              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 욺",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "洗雞得官鳴口舌",
-              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 알을 품음",
-          "interpretation_ko": "큰 기쁨이 있을 조짐",
-          "interpretation_en": "a sign of great joy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雞抱卵主有大喜",
-              "translation_ko": "닭이 알을 품으면 큰 기쁨이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 나무 위에 있음",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雞在樹上主得財",
-              "translation_ko": "닭이 나무 위에 있으면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 잡음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺雞鵝鴨主大吉",
-              "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
             }
           ]
         }
@@ -16427,6 +16443,164 @@
               "locator": "Landau",
               "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
               "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cemetery",
+      "term_ko": "묘지",
+      "term_en": "cemetery",
+      "aliases": [
+        "공동묘지",
+        "묘원"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아름답고 잘 손질된 묘지에 있음",
+          "interpretation_ko": "죽은 줄 알고 슬퍼하던 이가 살아났다는 뜻밖의 소식이 오고, 남이 차지한 땅의 권리를 되찾을 조짐",
+          "interpretation_en": "unexpected news of the recovery of one whom you had mourned as dead, and good title to lands occupied by usurpers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "To dream of being in a beautiful and well-kept cemetery, you will have unexpected news of the recovery of one whom you had mourned as dead, and you will have your title good to lands occupied by usurpers.",
+              "translation_ko": "아름답고 잘 손질된 묘지에 있는 꿈을 꾸면, 죽은 줄 알고 슬퍼하던 이가 살아났다는 뜻밖의 소식이 오고, 남이 차지한 땅에 대한 권리도 온전해진다"
+            }
+          ]
+        },
+        {
+          "context": "가시덤불에 덮여 잊힌 오래된 묘지를 봄",
+          "interpretation_ko": "아끼는 이들이 모두 떠나고 낯선 이의 손에 맡겨질 조짐",
+          "interpretation_en": "you will live to see all your loved ones leave you, and you will be left to a stranger's care",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "To see an old bramble grown and forgotten cemetery, you will live to see all your loved ones leave you, and you will be left to a stranger's care.",
+              "translation_ko": "가시덤불이 우거져 잊힌 오래된 묘지를 보면, 아끼는 이들이 모두 떠나는 것을 보게 되고 낯선 이의 손에 맡겨진다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 묘지 사이를 거닒",
+          "interpretation_ko": "벗들에게서 따뜻하고 다정한 응답을 받으나, 벗도 막을 수 없는 슬픔을 겪을 조짐",
+          "interpretation_en": "tender and loving responses from friends, but sorrows that friends are powerless to avert",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "For young people to dream of wandering through the silent avenues of the dead foreshows they will meet with tender and loving responses from friends, but will have to meet sorrows that friends are powerless to avert.",
+              "translation_ko": "젊은이가 죽은 이들의 고요한 길을 거니는 꿈은, 벗들에게서 따뜻하고 다정한 응답을 받되 벗도 막을 수 없는 슬픔을 만나게 됨을 미리 보인다"
+            }
+          ]
+        },
+        {
+          "context": "신부가 혼례길에 묘지를 지나감",
+          "interpretation_ko": "길에서 난 사고로 남편을 잃을 조짐",
+          "interpretation_en": "she will be bereft of her husband by fatal accidents occurring on journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "Brides dreaming of passing a cemetery on their way to the wedding ceremony, will be bereft of their husbands by fatal accidents occurring on journeys.",
+              "translation_ko": "신부가 혼례식으로 가는 길에 묘지를 지나는 꿈을 꾸면, 길에서 난 사고로 남편을 잃게 된다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 묘지에 생화를 가져감",
+          "interpretation_ko": "집안의 건강이 계속 이어질 조짐",
+          "interpretation_en": "she may expect the continued good health of her family",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "For a mother to carry fresh flowers to a cemetery, indicates she may expect the continued good health of her family.",
+              "translation_ko": "어머니가 묘지에 생화를 가져가면 집안의 건강이 계속 이어지리라 기대할 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 과부가 묘지를 찾아감",
+          "interpretation_ko": "머지않아 상복을 벗고 혼례옷을 입을 조짐 — 다만 슬프고 가라앉은 느낌이면 새 근심이 온다",
+          "interpretation_en": "she will soon throw aside her weeds for robes of matrimony; but if she feels sad and depressed she will have new cares and regrets",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "For a young widow to visit a cemetery means she will soon throw aside her weeds for robes of matrimony.  If she feels sad and depressed she will have new cares and regrets.",
+              "translation_ko": "젊은 과부가 묘지를 찾아가면 머지않아 상복을 벗고 혼례옷을 입게 된다. 슬프고 가라앉은 느낌이라면 새 근심과 뉘우침이 온다"
+            }
+          ]
+        },
+        {
+          "context": "노인이 묘지 꿈을 꿈",
+          "interpretation_ko": "머지않아 온전한 쉼을 얻을 다른 길을 떠날 조짐",
+          "interpretation_en": "they will soon make other journeys where they will find perfect rest",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "Old people dreaming of a cemetery, shows they will soon make other journeys where they will find perfect rest.",
+              "translation_ko": "노인이 묘지 꿈을 꾸면, 머지않아 온전한 쉼을 얻을 다른 길을 떠나게 됨을 보인다"
+            }
+          ]
+        },
+        {
+          "context": "무덤 사이에서 아이들이 꽃을 꺾고 나비를 쫓음",
+          "interpretation_ko": "넉넉해지는 변화가 오고, 울어야 할 벗의 무덤이 없을 조짐",
+          "interpretation_en": "prosperous changes and no graves of any of your friends to weep over; good health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cemetery",
+              "original": "To see little children gathering flowers and chasing butterflies among the graves, denotes prosperous changes and no graves of any of your friends to weep over.  Good health will hold high carnival.",
+              "translation_ko": "무덤 사이에서 어린아이들이 꽃을 꺾고 나비를 쫓는 것을 보면, 넉넉해지는 변화가 오고 울어야 할 벗의 무덤이 없다. 건강이 한껏 넘친다"
+            }
+          ]
+        },
+        {
+          "context": "무연고자 묘지를 봄",
+          "interpretation_ko": "가난과 고통에 시달릴 조짐",
+          "interpretation_en": "denotes you will have poverty and misery to distress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potter's Field",
+              "original": "To see a potter's field in your dreams, denotes you will have poverty and misery to distress you.",
+              "translation_ko": "무연고자 묘지를 보는 꿈은, 가난과 고통에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인과 함께 무연고자 묘지를 지나며 정인을 버림",
+          "interpretation_ko": "돈을 바라고 사랑하는 이를 저버릴 조짐",
+          "interpretation_en": "she will give up the one she loves in the hope of mercenary gain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potter's Field",
+              "original": "For a young woman to walk through a potter's field with her lover, she will give up the one she loves in the hope of mercenary gain.",
+              "translation_ko": "처녀가 정인과 함께 무연고자 묘지를 지나는 꿈은, 돈을 바라고 사랑하는 이를 저버릴 조짐이다"
             }
           ]
         }
@@ -22118,136 +22292,6 @@
               "locator": "Cows",
               "original": "To dream of seeing cows waiting for the milking hour, promises abundant fulfilment of hopes and desires.",
               "translation_ko": "젖 짤 때를 기다리는 소떼를 보는 꿈은, 바라고 뜻하던 것이 넉넉히 이루어짐을 약속한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cemetery",
-      "term_ko": "묘지",
-      "term_en": "cemetery",
-      "aliases": [
-        "공동묘지",
-        "묘원"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "아름답고 잘 손질된 묘지에 있음",
-          "interpretation_ko": "죽은 줄 알고 슬퍼하던 이가 살아났다는 뜻밖의 소식이 오고, 남이 차지한 땅의 권리를 되찾을 조짐",
-          "interpretation_en": "unexpected news of the recovery of one whom you had mourned as dead, and good title to lands occupied by usurpers",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "To dream of being in a beautiful and well-kept cemetery, you will have unexpected news of the recovery of one whom you had mourned as dead, and you will have your title good to lands occupied by usurpers.",
-              "translation_ko": "아름답고 잘 손질된 묘지에 있는 꿈을 꾸면, 죽은 줄 알고 슬퍼하던 이가 살아났다는 뜻밖의 소식이 오고, 남이 차지한 땅에 대한 권리도 온전해진다"
-            }
-          ]
-        },
-        {
-          "context": "가시덤불에 덮여 잊힌 오래된 묘지를 봄",
-          "interpretation_ko": "아끼는 이들이 모두 떠나고 낯선 이의 손에 맡겨질 조짐",
-          "interpretation_en": "you will live to see all your loved ones leave you, and you will be left to a stranger's care",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "To see an old bramble grown and forgotten cemetery, you will live to see all your loved ones leave you, and you will be left to a stranger's care.",
-              "translation_ko": "가시덤불이 우거져 잊힌 오래된 묘지를 보면, 아끼는 이들이 모두 떠나는 것을 보게 되고 낯선 이의 손에 맡겨진다"
-            }
-          ]
-        },
-        {
-          "context": "젊은이가 묘지 사이를 거닒",
-          "interpretation_ko": "벗들에게서 따뜻하고 다정한 응답을 받으나, 벗도 막을 수 없는 슬픔을 겪을 조짐",
-          "interpretation_en": "tender and loving responses from friends, but sorrows that friends are powerless to avert",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "For young people to dream of wandering through the silent avenues of the dead foreshows they will meet with tender and loving responses from friends, but will have to meet sorrows that friends are powerless to avert.",
-              "translation_ko": "젊은이가 죽은 이들의 고요한 길을 거니는 꿈은, 벗들에게서 따뜻하고 다정한 응답을 받되 벗도 막을 수 없는 슬픔을 만나게 됨을 미리 보인다"
-            }
-          ]
-        },
-        {
-          "context": "신부가 혼례길에 묘지를 지나감",
-          "interpretation_ko": "길에서 난 사고로 남편을 잃을 조짐",
-          "interpretation_en": "she will be bereft of her husband by fatal accidents occurring on journeys",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "Brides dreaming of passing a cemetery on their way to the wedding ceremony, will be bereft of their husbands by fatal accidents occurring on journeys.",
-              "translation_ko": "신부가 혼례식으로 가는 길에 묘지를 지나는 꿈을 꾸면, 길에서 난 사고로 남편을 잃게 된다"
-            }
-          ]
-        },
-        {
-          "context": "어머니가 묘지에 생화를 가져감",
-          "interpretation_ko": "집안의 건강이 계속 이어질 조짐",
-          "interpretation_en": "she may expect the continued good health of her family",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "For a mother to carry fresh flowers to a cemetery, indicates she may expect the continued good health of her family.",
-              "translation_ko": "어머니가 묘지에 생화를 가져가면 집안의 건강이 계속 이어지리라 기대할 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 과부가 묘지를 찾아감",
-          "interpretation_ko": "머지않아 상복을 벗고 혼례옷을 입을 조짐 — 다만 슬프고 가라앉은 느낌이면 새 근심이 온다",
-          "interpretation_en": "she will soon throw aside her weeds for robes of matrimony; but if she feels sad and depressed she will have new cares and regrets",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "For a young widow to visit a cemetery means she will soon throw aside her weeds for robes of matrimony.  If she feels sad and depressed she will have new cares and regrets.",
-              "translation_ko": "젊은 과부가 묘지를 찾아가면 머지않아 상복을 벗고 혼례옷을 입게 된다. 슬프고 가라앉은 느낌이라면 새 근심과 뉘우침이 온다"
-            }
-          ]
-        },
-        {
-          "context": "노인이 묘지 꿈을 꿈",
-          "interpretation_ko": "머지않아 온전한 쉼을 얻을 다른 길을 떠날 조짐",
-          "interpretation_en": "they will soon make other journeys where they will find perfect rest",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "Old people dreaming of a cemetery, shows they will soon make other journeys where they will find perfect rest.",
-              "translation_ko": "노인이 묘지 꿈을 꾸면, 머지않아 온전한 쉼을 얻을 다른 길을 떠나게 됨을 보인다"
-            }
-          ]
-        },
-        {
-          "context": "무덤 사이에서 아이들이 꽃을 꺾고 나비를 쫓음",
-          "interpretation_ko": "넉넉해지는 변화가 오고, 울어야 할 벗의 무덤이 없을 조짐",
-          "interpretation_en": "prosperous changes and no graves of any of your friends to weep over; good health",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cemetery",
-              "original": "To see little children gathering flowers and chasing butterflies among the graves, denotes prosperous changes and no graves of any of your friends to weep over.  Good health will hold high carnival.",
-              "translation_ko": "무덤 사이에서 어린아이들이 꽃을 꺾고 나비를 쫓는 것을 보면, 넉넉해지는 변화가 오고 울어야 할 벗의 무덤이 없다. 건강이 한껏 넘친다"
             }
           ]
         }
@@ -36289,6 +36333,108 @@
       ]
     },
     {
+      "id": "potato",
+      "term_ko": "감자",
+      "term_en": "potato",
+      "aliases": [
+        "감자가",
+        "감자를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "감자 꿈을 꿈",
+          "interpretation_ko": "좋은 일이 잦을 조짐",
+          "interpretation_en": "brings incidents often of good",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "Dreaming of potatoes, brings incidents often of good.",
+              "translation_ko": "감자 꿈은, 좋은 일이 잦을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "감자를 캠",
+          "interpretation_ko": "성공의 조짐",
+          "interpretation_en": "denotes success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "To dream of digging them, denotes success.",
+              "translation_ko": "감자를 캐는 꿈은, 성공의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "감자를 먹음",
+          "interpretation_ko": "두둑한 이득을 누릴 조짐",
+          "interpretation_en": "you will enjoy substantial gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "To dream of eating them, you will enjoy substantial gain.",
+              "translation_ko": "감자를 먹는 꿈은, 두둑한 이득을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "감자를 요리함",
+          "interpretation_ko": "마음 맞는 일자리의 조짐",
+          "interpretation_en": "congenial employment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "To cook them, congenial employment.",
+              "translation_ko": "감자를 요리하는 꿈은, 마음 맞는 일자리의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "감자를 심음",
+          "interpretation_ko": "바람이 이루어질 조짐",
+          "interpretation_en": "brings realization of desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "Planting them, brings realization of desires.",
+              "translation_ko": "감자를 심는 꿈은, 바람이 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "썩은 감자를 봄",
+          "interpretation_ko": "즐거움이 사라지고 앞날이 어두워질 조짐",
+          "interpretation_en": "denotes vanished pleasure and a darkening future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potatoes",
+              "original": "To see them rotting, denotes vanished pleasure and a darkening future.",
+              "translation_ko": "썩은 감자를 보는 꿈은, 즐거움이 사라지고 앞날이 어두워질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -43193,6 +43339,94 @@
               "locator": "宮室屋宇倉庫",
               "original": "入帝王宮行大吉",
               "translation_ko": "제왕의 궁에 들어가 다니면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pan",
+      "term_ko": "냄비",
+      "term_en": "pan",
+      "aliases": [
+        "프라이팬"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "냄비 꿈을 꿈",
+          "interpretation_ko": "사소한 일들로 짜증이 날 조짐",
+          "interpretation_en": "foretells that unimportant events will work you vexation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pot",
+              "original": "To dream of a pot, foretells that unimportant events will work you vexation.",
+              "translation_ko": "냄비 꿈은, 사소한 일들로 짜증이 날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 끓는 냄비를 봄",
+          "interpretation_ko": "즐겁고 사교적인 일로 바쁠 조짐",
+          "interpretation_en": "omens busy employment of pleasant and social duties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pot",
+              "original": "For a young woman to see a boiling pot, omens busy employment of pleasant and social duties.",
+              "translation_ko": "처녀가 끓는 냄비를 보는 꿈은, 즐겁고 사교적인 일로 바쁠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "깨지거나 녹슨 냄비를 봄",
+          "interpretation_ko": "뼈아픈 실망을 겪을 조짐",
+          "interpretation_en": "implies that keen disappointment will be experienced by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pot",
+              "original": "To see a broken or rusty one, implies that keen disappointment will be experienced by you.",
+              "translation_ko": "깨지거나 녹슨 냄비를 보는 꿈은, 뼈아픈 실망을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "구리 냄비를 봄",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "銅鐺者主口舌至",
+              "translation_ko": "구리 냄비는 구설이 올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "냄비가 깨짐",
+          "interpretation_ko": "궂은일이 생길 조짐",
+          "interpretation_en": "a sign that bad affairs will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "鐺盞破主有惡事",
+              "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
             }
           ]
         }
@@ -79933,6 +80167,55 @@
       ]
     },
     {
+      "id": "chicken-meat",
+      "term_ko": "닭고기",
+      "term_en": "chicken meat",
+      "aliases": [
+        "계육",
+        "닭요리",
+        "치킨",
+        "손질된 가금"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "손질된 가금을 봄",
+          "interpretation_ko": "사치스러운 습관으로 돈이 불안정해질 조짐",
+          "interpretation_en": "foretells extravagant habits will reduce your security in money matters",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poultry",
+              "original": "To see dressed poultry in a dream, foretells extravagant habits will reduce your security in money matters.",
+              "translation_ko": "손질된 가금을 보는 꿈은, 사치스러운 습관으로 돈이 불안정해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "닭고기를 먹음",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食雞鴨等肉皆吉",
+              "translation_ko": "닭·오리 따위의 고기를 먹으면 모두 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "chiffonier",
       "term_ko": "서랍장",
       "term_en": "chiffonier",
@@ -94225,51 +94508,6 @@
       ]
     },
     {
-      "id": "pan",
-      "term_ko": "냄비",
-      "term_en": "pan",
-      "aliases": [
-        "프라이팬"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "구리 냄비를 봄",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "銅鐺者主口舌至",
-              "translation_ko": "구리 냄비는 구설이 올 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "냄비가 깨짐",
-          "interpretation_ko": "궂은일이 생길 조짐",
-          "interpretation_en": "a sign that bad affairs will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "鐺盞破主有惡事",
-              "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "pancake",
       "term_ko": "팬케이크",
       "term_en": "pancake",
@@ -95613,6 +95851,52 @@
               "locator": "Poppies",
               "original": "If you inhale the odor of one, you will be the victim of artful persuasions and flattery.",
               "translation_ko": "양귀비 향을 맡는 꿈은, 교묘한 설득과 아첨의 희생양이 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "potter",
+      "term_ko": "도공",
+      "term_en": "potter",
+      "aliases": [
+        "도공이",
+        "도공을"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도공 꿈을 꿈",
+          "interpretation_ko": "꾸준한 일자리와 만족스러운 결과의 조짐",
+          "interpretation_en": "denotes constant employment, with satisfactory results",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potter",
+              "original": "To dream of a potter, denotes constant employment, with satisfactory results.",
+              "translation_ko": "도공 꿈은, 꾸준한 일자리와 만족스러운 결과의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 도공을 봄",
+          "interpretation_ko": "즐거운 약속들을 누릴 조짐",
+          "interpretation_en": "foretells she will enjoy pleasant engagements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Potter",
+              "original": "For a young woman to see a potter, foretells she will enjoy pleasant engagements.",
+              "translation_ko": "처녀가 도공을 보는 꿈은, 즐거운 약속들을 누릴 조짐이다"
             }
           ]
         }
@@ -99651,39 +99935,6 @@
               "locator": "Chemise",
               "original": "For a woman to dream of a chemise, denotes she will hear unfavorable gossip about herself.",
               "translation_ko": "여성이 슈미즈 꿈을 꾸면, 제 이야기가 좋지 않게 오르내리는 것을 듣게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chicken-meat",
-      "term_ko": "닭고기",
-      "term_en": "chicken meat",
-      "aliases": [
-        "계육",
-        "닭요리",
-        "치킨"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "닭고기를 먹음",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食雞鴨等肉皆吉",
-              "translation_ko": "닭·오리 따위의 고기를 먹으면 모두 길하다"
             }
           ]
         }
@@ -107391,6 +107642,38 @@
               "locator": "帝王文武呼召",
               "original": "貧窮兵居主大吉",
               "translation_ko": "가난하게 군사들 틈에 지내면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "powder",
+      "term_ko": "가루",
+      "term_en": "powder",
+      "aliases": [
+        "가루가",
+        "가루를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가루 꿈을 꿈",
+          "interpretation_ko": "부정직한 사람들이 관계하고 있다는 뜻. 조심하면 알아챌 수 있음",
+          "interpretation_en": "denotes unscrupulous people are dealing with you. You may detect them through watchfulness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Powder",
+              "original": "To see powder in your dreams, denotes unscrupulous people are dealing with you. You may detect them through watchfulness.",
+              "translation_ko": "가루 꿈은, 부정직한 사람들이 관계하고 있다는 뜻이다. 조심하면 알아챌 수 있다"
             }
           ]
         }

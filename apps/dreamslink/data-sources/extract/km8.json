@@ -391,7 +391,8 @@
       "수탉",
       "암탉",
       "병아리",
-      "닭들"
+      "닭들",
+      "살아있는 가금"
     ],
     "aliases_en": [
       "a chicken",
@@ -412,7 +413,8 @@
       "닭을 잡아먹음": "먹었 잡아먹 삶아",
       "닭을 봄": "마당에 뜰에",
       "여성이 닭을 봄": "여자가 여성이",
-      "암탉을 봄": "암탉 씨암탉"
+      "암탉을 봄": "암탉 씨암탉",
+      "처녀가 살아있는 가금을 뒤쫓음": "뒤쫓 쫓아 부질없는"
     },
     "contexts_en": {
       "닭을 씻김": "washing washed bathed",
@@ -426,7 +428,8 @@
       "닭을 잡아먹음": "eat eating selfishness",
       "닭을 봄": "fowls temporary worry",
       "여성이 닭을 봄": "short disagreement",
-      "암탉을 봄": "pleasant family reunions added"
+      "암탉을 봄": "pleasant family reunions added",
+      "처녀가 살아있는 가금을 뒤쫓음": "chasing frivolous pleasure"
     }
   },
   {
@@ -901,15 +904,22 @@
     "aliases": [
       "계육",
       "닭요리",
-      "치킨"
+      "치킨",
+      "손질된 가금"
     ],
     "aliases_en": [
       "fried chicken",
       "poultry",
       "chicken dish"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "닭고기를 먹음": "먹었 먹는 씹어",
+      "손질된 가금을 봄": "손질된 사치스러운"
+    },
+    "contexts_en": {
+      "닭고기를 먹음": "eating auspicious",
+      "손질된 가금을 봄": "dressed extravagant security"
+    }
   },
   {
     "id": "cricket",
